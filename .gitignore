@@ -1,3 +1,10 @@
+# Project-specific files and folders
+*.tfx
+*.doc
+*.docx
+data/
+programs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
