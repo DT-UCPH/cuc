@@ -10,10 +10,10 @@
 @valueType=str
 @version=0.1
 @writtenBy=Text-Fabric
-@dateWritten=2023-11-10T10:36:59Z
+@dateWritten=2023-11-10T12:14:06Z
 
-1-4632	sign
-4633-4636	column
-4637	corpus
-4638-4769	line
-4770-5623	word
+1-5019	sign
+5020-5023	column
+5024	corpus
+5025-5156	line
+5157-6015	word

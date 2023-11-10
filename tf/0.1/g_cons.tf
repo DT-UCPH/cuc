@@ -11,11 +11,11 @@
 @valueType=str
 @version=0.1
 @writtenBy=Text-Fabric
-@dateWritten=2023-11-10T10:36:59Z
+@dateWritten=2023-11-10T12:14:06Z
 
-4770	[ ]x[                                               ]
+5157	[ ]x[                                               ]
 k
-t̠b
+ṯb
 x[                                         ]
 at
 ypˤt
@@ -25,42 +25,43 @@ aliyn
 bˤl
 [                                 ]
 drk{.}tk
-[[t̠]]mšl[                       ]
+[[ṯ]]mšl[                       ]
 b
-rišk
+rišk
 aymr[                               ]
-t̠pṭ
+ṯpṭ
 nhr
-yt̠b[r                            ]
-rišk
-ˤt̠trt
-š[m
+yṯb[r                            ]
+rišk
+ˤṯtrt
+š[m
 bˤl
 qdqd 
    ]
 rˤt
-mṭ
+mṭ
 tpln
 b
 gb[l                  ]
 ab
-šnm
-at̠tm
-tq[ḥ                 ]
+šnm
+aṯtm
+tq[ḥ                 ]
 mlakm
 ylak
 ym
 [                  ]
-[b ]ˤlṣ ˤlṣm
+[b ]ˤlṣ
+ˤlṣm
 npr
-šm[m             ]
-uṭ 
-t̠br
+šm[m             ]
+uṭ 
+ṯbr
 aphm
 tbˤ
-ġlm[m
+ġlm[m
 al
-tt̠b
+tṯb
 idk
 pnm ] 
 al
@@ -69,7 +70,7 @@ ttn
 pḫr
 mˤd
 t[k
-ġr
+ġr
 ll
 l
 pˤn
@@ -77,29 +78,29 @@ il ]
 al
 tpl
 al
-tštḥwy
+tštḥwy
 pḫr
 [mˤd
 qmm
-at̠r
+aṯr
 am]
 r
-t̠ny
+ṯny
 dˤtkm
 w
 rgm
 l
-t̠r
+ṯr
 ab[
 il
-t̠ny
+ṯny
 l
 pḫr]
 mˤd
-tḥm
+tḥm
 ym
 bˤlkm , adnkm
-t̠pṭ[
+ṯpṭ[
 nhr]
 tn
 ilm
@@ -114,30 +115,30 @@ w
 ˤnnh]
 bn
 dgn
-art̠m
-pd̠h
+arṯm
+pḏh
 tbˤ
-ġlmm
+ġlmm
 l
-yt̠b
+yṯb
 i[dk
 pnm]
 l
 ytn
 tk
-ġr
+ġr
 ll
 ˤm
 phr 
 mˤd
 ap
 ilm
-lḥ[m] 
-yt̠b
+lḥ[m] 
+yṯb
 bn
-qdš
+qdš
 l
-t̠r[[
+ṯr[[
 bˤl
 ˤl
 i]]m
@@ -151,17 +152,17 @@ tphhm
 tphn
 mlak
 ym
-tˤd[[t̠pṭ]]t
-t̠pṭ[
+tˤd[[ṯpṭ]]t
+ṯpṭ[
 nhr]
-tġly
+tġly
 ilm
-rišthm
+rišthm
 l
-ẓr
+ẓr
 brkthm
 w
-l kḥt̠
+l kḥṯ
 z
 blhm
 b
@@ -169,34 +170,34 @@ hm
 ygˤr
 bˤl
 lm
-ġltm
+ġltm
 ilm
-rišt
+rišt
 km
 l
-ẓr
+ẓr
 brktkm
 w
 ln
-kḥt̠
+kḥṯ
 zblkm
-aḥd
+aḥd
 ilm
 tˤny
-lḥt
+lḥt
 mlak
 ym
 tˤdt
-t̠pṭ
+ṯpṭ
 nh<r>
-šu
+šu
 ilm
-raštkm
+raštkm
 l
-ẓr
+ẓr
 brktkm
 ln
-kḥt̠
+kḥṯ
 z
 blkm
 w
@@ -205,23 +206,23 @@ ank
 mlak
 ym
 tˤdt
-t̠pṭ
+ṯpṭ
 nhr
-tšu
+tšu
 ilm
-rašthm
+rašthm
 l
-ẓr
+ẓr
 brkthm
 ln[[h
-]] kḥt̠
+]] kḥṯ
 zblhm .
 aḫr
-tmġyn
+tmġyn
 mlak
 ym
 tˤdt
-t̠pṭ
+ṯpṭ
 nhr
 l
 pˤn
@@ -229,29 +230,29 @@ il
 l
 tpl
 l
-tštḥwy
+tštḥwy
 pḫr
 mˤd
 [[m]]qmm
-at̠r
+aṯr
 amr
-[t̠n]y
+[ṯn]y
 dˤthm
-išt
-ištm
+išt
+ištm
 yitmr
-ḥrb
-lṭšt
-[lš]nhm
+ḥrb
+lṭšt
+[lš]nhm
 rgm
-ṣ  t̠r
+ṣ  ṯr
 abh
 il
-tḥm
+tḥm
 ym
 bˤlkm
 [ad]nkm
-t̠pṭ
+ṯpṭ
 nhr
 tn
 ilm
@@ -266,11 +267,11 @@ w
 ˤnnh
 bn
 dgn
-art̠m
-pd̠h
+arṯm
+pḏh
 [w
 yˤ]n
-t̠r
+ṯr
 abh
 il
 ˤbdk
@@ -291,37 +292,37 @@ ilm
 [xxxx ]ybl
 k
 bn
-qdš
-mnḥyk
+qdš
+mnḥyk
 ap
-anš
+anš
 zbl
 bˤl
 [w
 yuḫ]d
 b
 yd
-mšḫṭ
+mšḫṭ
 bm
 ymn
-mḫṣ
-ġlmm
-yšu
+mḫṣ
+ġlmm
+yšu
 [xxx
 ˤ]nt
 tuḫd
-šmalh
+šmalh
 tuḫd
-ˤt̠trt
+ˤṯtrt
 ik
-mḫ[ṣt]
+mḫ[ṣt]
 [xx
 tˤ]dt
-t̠pṭ
+ṯpṭ
 nhr
 mlak
-mṭḫr
-yḥb[q
+mṭḫr
+yḥb[q
 xxx]
 [xxxxx]
  mlak
@@ -333,10 +334,10 @@ w
 y[xxxxxx]
 [xxxxx]x
 ap
-anš
+anš
 zbl
 bˤl
-šdmt
+šdmt
 b
 gp[nm
 xxxxx]
@@ -344,7 +345,7 @@ xxxxx]
 mlak
 ym
 tˤdt
-t̠pṭ
+ṯpṭ
 nh[r
 xxxxxxx] 
 [xxxxxxx]
@@ -354,9 +355,9 @@ l
 ym
 bˤlkm
 ad[nkm
-t̠pṭ]
+ṯpṭ]
 [nhr
-xxx ]šmˤ
+xxx ]šmˤ
 hwt
 gmr [.] hd
 lwn
@@ -373,39 +374,39 @@ x[        ]
 w
 bˤl[     ]
 ik
-ġb[     ]
+ġb[     ]
 w
 t[        ]
-imḫṣ
+imḫṣ
 [    ]
 mlk
 kx[  ]
 lakt
 lx[    ]
-npš[        ]
+npš[        ]
 bˤl[         ]
 w[           ]
-t̠r[           ]
+ṯr[           ]
 ḫl[           ]
-kt̠[           ]
+kṯ[           ]
 ml[          ]
-š[             ]
+š[             ]
 [   ]ad[   ]n[   ]
 [   kpt]r
 l
-rḥq [. i]l[m
-ḥkpt
+rḥq [. i]l[m
+ḥkpt
 l
-rḥq ]
+rḥq ]
 [ilnym
-t̠n
-mt̠pdm
-tḥt
+ṯn
+mṯpdm
+tḥt
 ˤnt
-arṣ
-t̠lt̠
-mtḥ
-ġyrm]
+arṣ
+ṯlṯ
+mtḥ
+ġyrm]
 [idk  .] l
 ytn [.] pnm
 ˤm [. i]l
@@ -415,31 +416,31 @@ qrb
 apq
 thmtm]
 [ygly
-]d̠l  i[l]
+]ḏl  i[l]
 w
-ybu [. q]rš
+ybu [. q]rš
 mlk [. ab
-šnm
+šnm
 l
 pˤn
 il]
 [yhbr .] w
 yql[
-y]štḥw[y .] w
+y]štḥw[y .] w
 ykb[dnh
 aḫ]r [                                ]
-[   ]kt̠r 
+[   ]kṯr 
 w
 ḫ[ss .] tbˤ
 bn [.] bht
 ym [. rm]m
 hkl
-t̠pṭ
+ṯpṭ
 n[hr ]
 [   n]hr
 tk
 [   ]tbˤ
-kt̠r
+kṯr
 w[ ḫss
 xx
 t]bn
@@ -448,28 +449,28 @@ ym
 [   ]m 
 hk[l
 l
-t̠pṭ]
+ṯpṭ]
 nhr
 b
 tk 
 u[pqt
 ym   ]x[   ]
-[ḥš
+[ḥš
 bh]th
 tbn[n
-ḥ]š
+ḥ]š
 trm[m
 hk]l[h
 alp
-šd
+šd
 aḫd 
 ]bt
 [rbt .] kmn [.] hkl
-ušbš[ ym
+ušbš[ ym
 b]t
-b. ġlm
+b. ġlm
 l
-šd
+šd
 mr
 ymm
 [bˤl ]b
@@ -477,30 +478,30 @@ ym
 ym
 ymt. yˤm[d]n
 pn
-ˤt̠tr
+ˤṯtr
 d
 t[   ]
-[   ]ḥrḥrtm
+[   ]ḥrḥrtm
 w
-dš[x]n [xxx] išt
-aš[t] h[xxx ]išt
+dš[x]n [xxx] išt
+aš[t] h[xxx ]išt
 [   ]y
 yblmm
 ub[l
-xxx] t̠[x]xk
+xxx] ṯ[x]xk
 yrd[ xxx] i[xxxx
 i]n
 bn
-[   ]nn [.] nrt [.] ilm [.] špš
-tšu
+[   ]nn [.] nrt [.] ilm [.] špš
+tšu
 gh
 w
-t[ṣḥ
-šm]ˤ
+t[ṣḥ
+šm]ˤ
 mˤ
 [xx
-yt̠]ir 
-t̠r
+yṯ]ir 
+ṯr
 il
 abk
 l
@@ -508,50 +509,50 @@ pn
 zbl
 ym
 l
-pn [. t]pṭ [.] nhr
+pn [. t]pṭ [.] nhr
 [ik
 a]l 
-yšmˤk
-t̠r
+yšmˤk
+ṯr
 [i]l
 abk
 l
 ysˤ
-[a]lt [.] t̠btk [.] l
+[a]lt [.] ṯbtk [.] l
 y[hpk ]
 [ksa 
 ]mlkk
 l
-yt̠br
-ḫṭ [.] mt̠pṭk
+yṯbr
+ḫṭ [.] mṯpṭk
 w
 yˤn
-ˤt̠[t]r. d[m ]
+ˤṯ[t]r. d[m ]
 kx[ ]
 [l
-y]qḥ
+y]qḥ
 by
-t̠r
+ṯr
 il
 aby
 ank
 in 
 bt [. l]y [. km .] ilm .
-[qd]š  lbdm
+[qd]š  lbdm
 ard
 b
-npšny
-trḥṣn
-kt̠rm[ yt̠]b
+npšny
+trḥṣn
+kṯrm[ yṯ]b
 b [bt]
 [zbl
 ]ym
 b
 hkl
-t̠pṭ
+ṯpṭ
 nh[r]
-yt̠ir 
-t̠r
+yṯir 
+ṯr
 il [.] abh
 l
 p[n
@@ -559,13 +560,13 @@ z]bl
 y[m]
 [l
 pn
-t̠pṭ
+ṯpṭ
 nhr  .]mlkt
 [w ]im
 l
 mlkt
 wn [.] in
-at̠t [. l]k
+aṯt [. l]k
 k[m ]
 [ilm
 x x
@@ -573,7 +574,7 @@ x x
 x x
 x x ]. zbl
 ym
-yt̠[t̠b ]t̠pṭ
+yṯ[ṯb ]ṯpṭ
 nhr
 [x
 x x
@@ -584,10 +585,10 @@ x x
 x x
 x x
 x]x
-x yšlḥn
+x yšlḥn
 w
 yˤn
-ˤt̠tr
+ˤṯtr
 [x
 x x
 x x
@@ -601,9 +602,9 @@ x ]l/d[ ]
 [                       ]yd[y]
 ḫtt
 mtt .[xxx]
-[           ]ḥy
-n[pš ]l
-ašṣi .hm
+[           ]ḥy
+n[pš ]l
+ašṣi .hm
 ap
 amr[t]
 [         ]. w
@@ -617,37 +618,37 @@ mnm
 [xxx]m
 nhr
 tlˤm
-t̠m
-ḥrbm
+ṯm
+ḥrbm
 its
-anšq 
+anšq 
 [p]itm
 l
-arṣ
+arṣ
 ypl
 ulny
 w
 l
 ˤpr
-ˤẓmny
+ˤẓmny
 [b ]ph
 rgm
 l
-yṣa
+yṣa
 b
-špth
+špth
 hwth
 w
 ttn
 gh
-yġr
-tḥt
+yġr
+tḥt
 ksi
 zbl
 ym
 w
 ˤn
-kt̠r
+kṯr
 w
 ḫss
 l
@@ -656,7 +657,7 @@ lk
 l
 zbl
 bˤl
-t̠nt
+ṯnt
 l
 rkb
 ˤrpt
@@ -665,82 +666,84 @@ ibk
 bˤlm
 ht
 ibk
-tmḫṣ
+tmḫṣ
 ht
-tṣmt
-ṣrtk [[x
+tṣmt
+ṣrtk [[x
 x x
 x]]
-tqḥ
+tqḥ
 mlk
 ˤlmk
 drkt
 dt
-drdrk [[t̠r   ]] 
-kt̠r
-ṣmdm
-ynḥt
+drdrk [[ṯr   ]] 
+kṯr
+ṣmdm
+ynḥt
 w <ḫss>  ypˤr
-šmthm
-šmk
+šmthm
+šmk
 at
-ygrš
-ygrš
-grš ym
-grš ym
+ygrš
+ygrš
+grš
+ym
+grš
+ym
 l
 ksih
 nhr
 l
-kḥt̠
+kḥṯ
 drkth
-trtqṣ
+trtqṣ
 bd
 bˤl
 km
-nš
+nš
 r
 b
-uṣbˤth
+uṣbˤth
 hlm
 ktp
 zbl
 ym
 bn
 ydm
-[t̠p]ṭ [.] nhr
-yrtqṣ
-ṣmd
+[ṯp]ṭ [.] nhr
+yrtqṣ
+ṣmd
 bd
 bˤl
 km
-nšr
+nšr
 b
-uṣbˤth
+uṣbˤth
 ylm
 ktp
 zbl
 ym
 bn
 ydm
-t̠pṭ
+ṯpṭ
 nhr
 ˤz
 ym
 l
 ymk
 l
-tnġṣn [.] pnth
+tnġṣn [.] pnth
 l
 ydlp
 tmnh
-kt̠r
-ṣmdm
-ynḥt
+kṯr
+ṣmdm
+ynḥt
 w
 ypˤr
-šmthm
-šmk
+šmthm
+šmk
 at
 aymr
 aymr
@@ -752,14 +755,14 @@ l
 ksih
 nhr
 l
-kḥt̠
+kḥṯ
 drkth
-trtqṣ
+trtqṣ
 bd
 bˤl
 km
-nšr
-b uṣbˤth
+nšr
+b uṣbˤth
 hlm
 qdq
 d
@@ -767,70 +770,72 @@ zbl
 ym
 bn
 ˤnm
-t̠pṭ
+ṯpṭ
 nhr
-yprsḥ ym
+yprsḥ
+ym
 w
 yql
 l
-arṣ
+arṣ
 w
-yrtqṣ
-ṣmd
+yrtqṣ
+ṣmd
 bd
 bˤl
-km [.] nšr
+km [.] nšr
 b
-uṣbˤth
+uṣbˤth
 ylm
 qdqd
 zbl
 ym
 bn
 ˤnm
-t̠pṭ
+ṯpṭ
 nhr
-yprsḥ
+yprsḥ
 ym
 yql
 l
-arṣ
-tnġṣn
+arṣ
+tnġṣn
 pnth
 w
 ydlp
 tmnh
-yqt̠ bˤl
+yqṯ
+bˤl
 w
-yšt
+yšt
 ym
 ykly
-t̠pṭ
+ṯpṭ
 nhr
 b
-šm
+šm
 tgˤrm
-ˤt̠trt
-bt̠
+ˤṯtrt
+bṯ
 l
 aliyn
 b[ˤl]
-bt̠
+bṯ
 l
 rkb
 ˤrpt
 k
-šbyn
+šbyn
 zb[l
 ym
 k]
-šbyn
-t̠pṭ
+šbyn
+ṯpṭ
 nhr
 w
-yṣa
+yṣa
 b[                    ]
-ybt̠{.}nn
+ybṯ{.}nn
 aliyn
 bˤl
 w[                        ]
@@ -840,9 +845,9 @@ mt
 b
 ˤlm
 yml[k                         ]
-ḥm
+ḥm
 l
-šrr
+šrr
 w
 y[ˤn                                    ]
 yˤn
@@ -850,20 +855,20 @@ ym
 l
 mt .[                                      ]
 l
-šrr
+šrr
 w
 tˤ[n                                              ]
 bˤlm
 hmt
 [                                           ]
 l
-šrr
-št[                                                    ]
+šrr
+št[                                                    ]
 b
-rišh
+rišh
 [                                                    ]
 ibh
-mš[                                                   ]
+mš[                                                   ]
 bn
 ˤnh[                                                    ]
 [   ]x[                                                          ]
