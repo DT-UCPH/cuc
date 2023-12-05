@@ -13,10 +13,10 @@ docs:
 interfaceDefaults: {}
 provenanceSpec:
   corpus: Copenhagen Ugarit Corpus
-  version: '0.1'
-writing: hbo
+  version: '0.1.1'
+writing: eng
 typeDisplay:
-  verse:
+  line:
     label: '{line}'
     template: '{line}'
     verselike: true
