@@ -14,7 +14,7 @@ interfaceDefaults: {}
 provenanceSpec:
   corpus: Copenhagen Ugarit Corpus
   version: '0.1.1'
-writing: eng
+writing: grc
 typeDisplay:
   line:
     label: '{line}'
