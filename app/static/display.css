@@ -1,0 +1,18 @@
+/* CERTAINTY: */
+
+.None {
+    font-style: italic;
+}
+.uncertain {
+    font-style: normal;
+}
+.excised {
+    text-decoration: line-through;
+}
+.supplied {
+    text-shadow: #bbbbbb 2px 2px;
+}
+.redundant {
+    font-style: italic bold;   
+}
+

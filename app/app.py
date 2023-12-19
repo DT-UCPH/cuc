@@ -1,16 +1,22 @@
 import types
 from tf.advanced.app import App
 
+
 CERTAINTY = dict(
+    uncertain="uncertain",    
     restored="supplied",
     excised="excised",
+    redundant="redundant",
 )
+
 
 def fmt_layoutTrans(app, n, **kwargs):
     return app._wrapHtml(n, "t")
 
+
 def fmt_layoutUnicode(app, n, **kwargs):
     return app._wrapHtml(n, "u")
+
 
 class TfApp(App):
     def __init__(app, *args, **kwargs):
@@ -27,8 +33,6 @@ class TfApp(App):
         material = (F.signu.v(n) if kind == "u" else F.sign.v(n)) or ""
         certainty = F.certainty.v(n)
         cls = CERTAINTY.get(certainty, None)
-
-        if cls is not None:
-            material = f"""<span class="{cls}">{material}</span>"""
+        material = f"""<span class="{cls}">{material}</span>"""
 
         return f"{material}{after}"
