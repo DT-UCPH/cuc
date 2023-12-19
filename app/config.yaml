@@ -2,19 +2,24 @@ apiVersion: 3
 dataDisplay:
   textFormats:
     layout-orig-full: 
-      method: layoutRich
-      style:  orig
+      method: layoutTrans
+      style:  trans
+    layout-orig-unicode:
+      method: layoutUnicode
+      style: orig
+    text-orig-full:
+      style: trans
+    text-orig-unicode:
+      style: orig
 docs:
-  docBase: '{docRoot}/bhsa'
-  docExt: ''
-  docPage: ''
-  docRoot: https://etcbc.github.io
-  featurePage: 0_home
+  docPage: about
+  featureBase: '{docBase}/transcription.md'
+  featurePage: transcription
 interfaceDefaults: {}
 provenanceSpec:
   corpus: Copenhagen Ugarit Corpus
-  version: '0.1.1'
-writing: grc
+  version: '0.1.2'
+writing: uga
 typeDisplay:
   line:
     label: '{line}'
