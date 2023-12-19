@@ -29,10 +29,12 @@ class TfApp(App):
         api = app.api
         F = api.F
 
-        after = (F.traileru.v(n) if kind == "u" else F.trailer.v(n)) or ""
         material = (F.signu.v(n) if kind == "u" else F.sign.v(n)) or ""
         certainty = F.certainty.v(n)
-        cls = CERTAINTY.get(certainty, None)
-        material = f"""<span class="{cls}">{material}</span>"""
+        material = f"""<span class="{CERTAINTY.get(certainty, None)}">{material}</span>"""
+
+        after = (F.traileru.v(n) if kind == "u" else F.trailer.v(n)) or ""
+       	trailer_certainty = F.trailer_certainty.v(n)
+        after = f"""<span class="{CERTAINTY.get(trailer_certainty, None)}">{after}</span>"""
 
         return f"{material}{after}"
