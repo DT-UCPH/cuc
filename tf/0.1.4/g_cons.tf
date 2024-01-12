@@ -1,0 +1,2167 @@
+@node
+@convertedToTextFabricBy=Martijn Naaijer and Christian Canu Højgaard
+@dataset=cuc
+@datasetName=Copenhagen Ugarit Corpus
+@description=word consonantal-transliterated
+@encodedBy=Christian Canu Højgaard and Martijn Naaijer
+@licence=Creative Commons Attribution-NonCommercial 4.0 International License
+@licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
+@manuscripts=
+@source=
+@valueType=str
+@version=0.1.4
+@writtenBy=Text-Fabric
+@dateWritten=2024-01-11T13:32:03Z
+
+8546	x                                               
+k
+ṯb
+x                                         
+at
+ypˤt
+b
+a/r                            
+aliyn
+bˤl
+                                 
+drk
+tk
+ṯmšl                       
+b
+rišk
+aymr                               
+ṯpṭ
+nhr
+yṯbr                            
+rišk
+ˤṯtrt
+šm
+bˤl
+qdqd 
+   
+rˤt
+mṭ
+tpln
+b
+gbl                  
+ab
+šnm
+aṯtm
+tqḥ                 
+mlakm
+ylak
+ym
+                  
+b
+ˤlṣ
+ˤlṣm
+npr
+šmm             
+uṭ 
+ṯbr
+aphm
+tbˤ
+ġlmm
+al
+tṯb
+idk
+pnm  
+al
+ttn
+ˤm
+pḫr
+mˤd
+tk
+ġr
+ll
+l
+pˤn
+il
+al
+tpl
+al
+tštḥwy
+pḫr
+mˤd
+qmm
+aṯr
+am
+r
+ṯny
+dˤtkm
+w
+rgm
+l
+ṯr
+ab
+il
+ṯny
+l
+pḫr
+  mˤd
+tḥm
+ym
+bˤlkm
+adnkm
+ṯpṭ
+nhr
+tn
+ilm
+d
+tqh
+d
+tqyn
+hmlt
+tn
+bˤl
+w
+ˤnnh
+bn
+dgn
+arṯm
+pḏh
+tbˤ
+ġlmm
+l
+yṯb
+idk
+pnm
+l
+ytn
+tk
+ġr
+ll
+ˤm
+phr 
+mˤd
+ap
+ilm
+lḥm 
+  yṯb
+bn
+qdš
+l
+ṯr
+bˤl
+ˤl
+im
+bˤl
+qm
+ˤl
+il
+hlm
+  ilm
+tphhm
+tphn
+mlak
+ym
+tˤdṯpṭt
+ṯpṭ
+nhr
+  tġly
+ilm
+rišthm
+l
+ẓr
+brkthm
+w
+l
+kḥṯ
+  zblhm
+b
+hm
+ygˤr
+bˤl
+lm
+ġltm
+ilm
+rišt
+km
+l
+ẓr
+brktkm
+w
+ln
+kḥṯ
+zblkm
+aḥd
+ilm
+tˤny
+lḥt
+mlak
+ym
+tˤdt
+ṯpṭ
+nh<r>
+  šu
+ilm
+raštkm
+l
+ẓr
+brktkm
+ln
+kḥṯ
+  zblhm
+w
+ank
+ˤny
+mlak
+ym
+tˤdt
+ṯpṭ
+nhr
+  tšu
+ilm
+rašthm
+l
+ẓr
+brkthm
+lnh
+ kḥṯ
+zblhm
+aḫr
+tmġyn
+mlak
+ym
+tˤdt
+ṯpṭ
+nhr
+l
+pˤn
+il
+l
+tpl
+l
+tštḥwy
+pḫr
+mˤd
+mqmm
+aṯr
+amr
+ṯny
+dˤthm
+išt
+ištm
+yitmr
+ḥrb
+lṭšt
+lšnhm
+rgm
+ṣ  ṯr
+abh
+il
+tḥm
+ym
+bˤlkm
+adnkm
+ṯpṭ
+nhr
+tn
+ilm
+d
+tqh
+d
+tqynh
+hmlt
+tn
+bˤl
+w
+ˤnnh
+bn
+dgn
+arṯm
+pḏh
+w
+yˤn
+ṯr
+abh
+il
+ˤbdk
+bˤl
+y
+ymm
+ˤbdk
+bˤl
+nhrm
+bn
+dgn
+asrkm
+hw
+ybl
+argmnk
+k
+ilm
+xxxx
+ybl
+k
+bn
+qdš
+mnḥyk
+ap
+anš
+zbl
+bˤl
+w
+yuḫd
+b
+yd
+mšḫṭ
+bm
+ymn
+mḫṣ
+ġlmm
+yšu
+  xxx
+ˤnt
+tuḫd
+šmalh
+tuḫd
+ˤṯtrt
+ik
+mḫṣt
+xx
+tˤdt
+ṯpṭ
+nhr
+mlak
+mṭḫr
+yḥbq
+xxx
+xxxxx
+ mlak
+bn
+ktpm
+rgm
+bˤlh
+w
+yxxxxxx
+xxxxxx
+ap
+anš
+zbl
+bˤl
+šdmt
+b
+gpnm
+xxxxx
+xxxxxxdm
+mlak
+ym
+tˤdt
+ṯpṭ
+nhr
+xxxxxxx 
+  xxxxxxx
+an
+rgmt
+l
+ym
+bˤlkm
+adnkm
+ṯpṭ
+nhr
+xxx
+šmˤ
+hwt
+gmr
+hd
+lwn
+ym
+xxxxxxxx
+xxxxxxxxx
+iyxx
+xx
+thbr
+xxxxxxxxxx
+           xxx                  
+bx            
+   kx            
+   tk
+         
+   slp
+x        
+w
+bˤl     
+   ik
+ġb     
+   w
+t        
+   imḫṣ
+    
+   mlk
+kx  
+lakt
+lx    
+  npš        
+  bˤl         
+w           
+ṯr           
+ ḫl           
+kṯ           
+  ml          
+š            
+  ad   n   
+   kptr
+l
+rḥq
+ilm
+ḥkpt
+l
+rḥq
+ilnym
+ṯn
+mṯpdm
+tḥt
+ˤnt
+arṣ
+ṯlṯ
+mtḥ
+ġyrm
+idk 
+l
+ytn
+pnm
+ˤm
+il
+mbk
+nhrm
+qrb
+apq
+thmtm
+ygly
+ḏl  il
+w
+ybu
+qrš
+mlk
+ab
+šnm
+l
+pˤn
+il
+yhbr
+w
+yql
+yštḥwy
+w
+ykbdnh
+aḫr                                 
+   kṯr 
+w
+ḫss
+tbˤ
+bn
+bht
+ym
+rmm
+hkl
+ṯpṭ
+nhr 
+   nhr
+tk
+   tbˤ
+kṯr
+w
+ḫss
+xx
+tbn
+bht  zbl
+ym
+   m 
+hkl
+l
+ṯpṭ
+nhr
+b
+tk 
+upqt
+ym   x   
+ḥš
+bhth
+tbnn
+ḥš
+trmm
+hklh
+alp
+šd
+aḫd 
+bt
+rbt
+kmn
+hkl
+ušbš
+ym
+bt
+b
+ġlm
+l
+šd
+mr
+ymm
+bˤl
+b
+ym
+ym
+ymt
+yˤmdn
+pn
+ˤṯtr
+d
+t   
+   ḥrḥrtm
+w
+dšxn
+xxx
+išt
+ašt
+hxxx
+išt
+   y
+yblmm
+ubl
+xxx
+ṯxxk
+yrd
+xxx
+ixxxx
+in
+bn
+   nn
+nrt
+ilm
+špš
+tšu
+gh
+w
+tṣḥ
+šmˤ
+mˤ
+xx
+yṯir 
+ṯr
+il
+abk
+l
+pn
+zbl
+ym
+l
+pn
+tpṭ
+nhr
+ik
+al 
+yšmˤk
+ṯr
+il
+abk
+l
+ysˤ
+alt
+ṯbtk
+l
+yhpk
+ksa 
+mlkk
+l
+yṯbr
+ḫṭ
+mṯpṭk
+w
+yˤn
+ˤṯtr
+dm 
+kx
+l
+yqḥ
+by
+ṯr
+il
+aby
+ank
+in 
+bt
+ly
+km
+ilm
+\\
+w
+ḥẓr
+kbn
+qdš  lbdm
+ard
+b
+npšny
+trḥṣn
+kṯrm
+yṯb
+b
+bt
+zbl
+ym
+b
+hkl
+ṯpṭ
+nhr
+yṯir 
+ṯr
+il
+abh
+l
+pn
+zbl
+ym
+l
+pn
+ṯpṭ
+nhr 
+mlkt
+w
+im
+l
+mlkt
+wn
+in
+aṯt
+lk
+km
+ilm
+x
+x
+x
+x
+x
+x
+x
+x
+zbl
+ym
+yṯṯb
+ṯpṭ
+nhr
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+xx
+x
+yšlḥn
+w
+yˤn
+ˤṯtr
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+l/d
+                      ydy
+ḫtt
+mtt
+xxx
+           ḥy
+npš
+l
+ašṣi
+hm
+ap
+amrt
+        
+w
+b
+ym
+mnḫ
+l
+abd
+b
+ym
+irtm
+mnm
+xxxm
+nhr
+tlˤm
+ṯm
+ḥrbm
+its
+anšq
+pitm
+l
+arṣ
+ypl
+ulny
+w
+l
+ˤpr
+ˤẓmny
+b
+ph
+rgm
+l
+yṣa
+b
+špth
+hwth
+w
+ttn
+gh
+yġr
+    tḥt
+ksi
+zbl
+ym
+w
+ˤn
+kṯr
+w
+ḫss
+l
+rgmt
+    lk
+l
+zbl
+bˤl
+ṯnt
+l
+rkb
+ˤrpt
+ht
+ibk
+    bˤlm
+ht
+ibk
+tmḫṣ
+ht
+tṣmt
+ṣrtk
+x
+x
+x
+x
+tqḥ
+mlk
+ˤlmk
+drkt
+dt
+drdrk
+ṯr    
+ kṯr
+ṣmdm
+ynḥt
+w
+<ḫss>  ypˤr
+šmthm
+šmk
+at
+  ygrš
+ygrš
+grš
+ym
+grš
+ym
+l
+ksih
+nhr
+l
+kḥṯ
+drkth
+trtqṣ
+bd
+bˤl
+km
+nš
+r
+b
+uṣbˤth
+hlm
+ktp
+zbl
+ym
+bn
+ydm
+ṯpṭ
+nhr
+yrtqṣ
+ṣmd
+bd
+bˤl
+km
+nšr
+b
+uṣbˤth
+ylm
+ktp
+zbl
+ym
+bn
+ydm
+ṯpṭ
+nhr
+ˤz
+ym
+l
+ymk
+l
+tnġṣn
+pnth
+l
+ydlp
+tmnh
+kṯr
+ṣmdm
+ynḥt
+w
+ypˤr
+šmthm
+šmk
+at
+aymr
+aymr
+mr
+ym
+mr
+ym
+l
+ksih
+nhr
+l
+kḥṯ
+drkth
+trtqṣ
+  bd
+bˤl
+km
+nšr
+b
+uṣbˤth
+hlm
+qdq
+  d
+zbl
+ym
+bn
+ˤnm
+ṯpṭ
+nhr
+yprsḥ
+ym
+w
+yql
+l
+arṣ
+w
+yrtqṣ
+ṣmd
+bd
+bˤl
+km
+nšr
+b
+uṣbˤth
+ylm
+qdqd
+zbl
+ym
+bn
+ˤnm
+ṯpṭ
+nhr
+yprsḥ
+ym
+yql
+l
+arṣ
+tnġṣn
+pnth
+w
+ydlp
+tmnh
+  yqṯ
+bˤl
+w
+yšt
+ym
+ykly
+ṯpṭ
+nhr
+  b
+šm
+tgˤrm
+ˤṯtrt
+bṯ
+l
+aliyn
+bˤl
+  bṯ
+l
+rkb
+ˤrpt
+k
+šbyn
+zbl
+ym
+k
+šbyn
+ṯpṭ
+nhr
+w
+yṣa
+b                    
+  ybṯ
+nn
+aliyn
+bˤl
+w                        
+  ym
+l
+mt
+b
+ˤlm
+ymlk                         
+  ḥm
+l
+šrr
+w
+yˤn                                    
+  yˤn
+ym
+l
+mt
+                                     
+ l
+šrr
+w
+tˤn                                              
+  bˤlm
+hmt
+                                           
+  l
+šrr
+št                                                    
+  b
+rišh
+                                                    
+ibh
+mš                                                   
+  bn
+ˤnh                                                    
+   x                                                         
+    al
+tġl
+bdxxxxx
+    p
+rdmn
+ˤbd
+aliyn
+    bˤl
+sid
+zbl
+bˤl
+arṣ
+qm
+yṯˤr
+w
+yšlḥmnh
+    ybr
+d
+ṯd
+l
+pnwh
+    b
+ḥrb
+mlḥt
+    qṣ
+mri
+ndd
+    yˤšr
+w
+yšqynh
+ytn
+ks
+bdh
+  krpmnm
+b
+klat
+ydh
+  bk
+rb
+ˤẓm
+ridn 
+  mt
+šmm
+ks
+qdš
+  l
+tpphnh
+aṯt
+krpn
+  l
+tˤn
+aṯrt
+alp
+  kd
+yqḥ
+b
+ḫmr
+  rbt
+ymsk
+b
+mskh
+  qm
+ybd
+w
+yšr
+  mṣltm
+bd
+nˤm
+yšr
+ġzr
+ṭb
+ql
+  ˤl
+bˤl
+b
+ṣrrt
+  ṣpn
+ymtmr
+bˤl
+  bnth
+yˤn
+pdry
+  bt
+ar
+apn
+ṭly
+  bt
+rb
+pdr<y>
+idˤ
+x
+x
+xht
+im
+klt
+knyt
+w
+xxxxxx
+xxxxxxxxxmkt
+nxxxxxxxxxšxxx
+    kpr
+šbˤ
+bnt
+rḥ
+gdm
+    w
+anhbm
+klat
+ṯġrt
+    bht
+ˤnt
+w
+tqry
+ġlmm
+b
+št
+ġr
+w
+hln
+ˤnt
+tm
+    tḫṣ
+b
+ˤmq
+tḫtṣb
+bn
+x
+    qrytm
+tmḫṣ
+lim
+ḫp
+ym
+    tṣmt
+adm
+ṣat
+špš
+    tḥth
+k
+kdrt
+riš
+ˤlh
+k
+irbym
+kp
+k
+qṣm
+  ġrmn
+kp
+mhr
+ˤtkt
+  rišt
+l
+bmth
+šnst
+kx
+  kpt
+b
+ḥbšh
+brkm
+tġll
+  b
+dm
+ḏmr
+ḥlqm
+b
+mmˤ
+mhrm
+mṭm
+tgrš
+  šbm
+b
+ksl
+qšth
+mdnt
+  w
+hln
+ˤnt
+l
+bth
+tmġyn
+  tštql
+ilt
+l
+hklh
+  w
+l
+šbˤt
+tmtḫṣh
+b
+ˤmq
+tḫtṣb
+bn
+qrtm
+tṯˤr
+  ksat
+l
+mhr
+ṯˤr
+ṯlḥnt
+  l
+ṣbim
+hdmm
+l
+ġzrm
+  mid
+tmtḫṣn
+w
+tˤn
+  tḫtṣb
+w
+tḥdy
+ˤnt
+tdġdd
+kbdh
+b
+ṣḥq
+ymlu
+  lbh
+b
+šmḫt
+kbd
+ˤnt
+  tšyt
+k
+brkm
+tġll
+b
+dm
+  ḏxxmr
+ḥlqm
+b
+mmˤ
+mhrm
+  ˤd
+tšbˤ
+tmtḫṣ
+b
+bt
+tḫtṣb
+bn
+ṯlḥnm
+ymḥ
+b
+bt 
+dm
+ḏmr
+yṣq
+šmn
+  šlm
+b
+ṣˤ
+trḥṣ
+ydh
+bt
+lt
+ˤnt
+uṣbˤth
+ybmt
+limm
+trḥṣ
+ydh
+b
+dm
+ḏmr
+uṣbˤth
+b
+mmˤ
+mhrm
+ṯˤr
+ksat
+l
+ksat
+ṯlḥnt
+l
+ṯlḥ<t>
+hdmm
+tṯar
+l
+hdmm
+tḥspn
+mh
+w
+trḥṣ
+ṭl
+šmm
+šmn
+arṣ
+rbb
+rkb
+ˤrpt
+ṭl
+šmm
+tskh
+rbb
+nskh
+kbkbm
+  ttpp
+anhbm
+d
+alp
+šd 
+    ẓuh
+b
+ym
+xxxxxx
+   xxxrn
+lxxxxxx
+   xxxxxxxxxxn
+tšt
+rimt
+l
+irth
+tšr
+l
+dd
+aliyn
+     bˤl
+yd
+pdry
+bt
+ar
+     ahbt
+ṭly
+bt
+rb
+dd
+arṣy
+     bt
+yˤbdr
+km
+ġlmm
+     w
+ˤrbn
+l
+pˤn
+ˤnt
+hbr
+w
+w
+ql
+tštḥwy
+kbd
+hyt
+  w
+rgm
+l
+btlt
+ˤnt
+  ṯny
+l
+ymmt
+limm
+tḥm
+aliyn
+bˤl
+hwt
+xx
+  aliy
+qrdm
+qryy
+b
+arṣ
+mlḥmt
+št
+b
+ˤprm
+ddym
+sk
+šlm
+l
+kbd
+arṣ
+  arbdd
+l
+kbd
+šdm
+  ḥšk
+ˤṣk
+ˤbṣk
+  ˤmy
+pˤnk
+tlsmn
+ˤmy
+twtḥ
+išdk
+dm
+rgm
+  iṯ
+ly
+w
+argmk
+xx
+  hwt
+w
+aṯnyk
+rgm
+  ˤṣ
+w
+lḫšt
+abn
+ˤ
+  tant
+šmm
+ˤm
+arṣ
+thmt
+ˤmn
+kbkbm
+  abn
+brq
+d
+l
+tdˤ
+šmm
+  rgm
+l
+tdˤ
+nšm
+wl
+tbn
+  hmlt
+arṣ
+atm
+w
+ank
+  ibġyh
+b
+tk
+ġry
+il
+ṣpn
+b
+qdš
+b
+ġr
+nḥlty
+  b
+nˤm
+b
+gbˤ
+tliyt
+  hlm
+ˤnt
+tph
+ilm
+bh
+pˤnm
+  tṭṭ
+bˤdn
+ksl
+tṯbr
+  ˤln
+pnh
+tdˤ
+tġṣ
+pnt
+kslh
+anš
+dt
+ẓrh
+tšu
+  gh
+w
+tṣḥ
+ik
+mġy
+gpn
+w
+ugr
+  m
+mn
+ib
+ypˤ
+l
+bˤl
+ṣrt
+  l
+rkb
+ˤrpt
+l
+mḫšt
+mdd
+  il
+ym
+l
+klt
+nhr
+il
+rbm
+l
+ištbm
+tnn
+ištmdh
+  mḫšt
+bṯn
+ˤqltn
+  šlyṭ
+d
+šbˤt
+rašm
+ mḫšt
+mdd
+ilm
+arš
+  ṣmt
+ˤgl
+il
+ˤtk
+mḫšt
+k
+lbt
+ilm
+išt
+  klt
+bt
+il
+ḏbb
+imtḫṣ
+ksp
+  itrṯ
+ḫrṣ
+ṭrd
+bˤl
+b
+mrym
+ṣpn
+mšṣṣ
+k
+ˤṣr
+   u
+dnh
+gršh
+l
+ksi
+mlkh
+   l
+nḫt
+l
+kḥṯ
+drkth
+mnm
+ib
+ypˤ
+l
+bˤl
+ṣrt
+l
+rkb
+ˤrpt
+yˤn
+ġlmm
+yˤnyn
+l
+ib
+ypˤ
+l
+bˤl
+ṣrt
+l
+rkb
+ˤrpt
+    tḥm
+aliyn
+bˤl
+hwt
+aliy
+    qrdm
+qryy
+b
+arṣ
+mlḥmt
+    št
+b
+ˤprm
+ddym
+sk
+šlm
+l
+kbd
+arṣ
+arbdd
+l
+kbd
+šdm
+hšk
+ˤṣk
+ˤbṣk
+ˤmy
+pˤnk
+   tlsmn 
+ˤmy
+twtḥ
+išdk
+   dm
+rgm
+iṯ
+ly
+w
+argmt
+hwt
+   w
+aṯnyk
+rgm
+ˤṣ
+w
+lḫšt
+   abn
+rgm
+l
+td
+ˤ
+nšm
+w
+l
+tbn
+   hmlt
+arṣ
+tunt
+šmm
+ˤm
+arṣ
+thmt
+ˤmn
+kbkbm
+abn
+brq
+   d
+l
+tdˤ
+šmm
+atm
+w
+ank
+   ibġyh
+b
+tk
+ġry
+il
+ṣpn
+  b
+qdš
+b
+ġr
+nḥlty
+   w
+tˤn
+btlt
+ˤnt
+tṯb
+ybmt
+limm
+an
+aqry
+   b
+arṣ
+mlḥmt
+ašt
+b
+ˤprm
+ddym
+ask
+šlm
+l
+kbd
+arṣ
+  arbdd
+l
+kbd
+šdm
+yšt
+b
+šmm
+bˤl
+mdlh
+ybˤr
+   rkb
+ˤrpt
+qrnh
+aqry
+ank
+b
+arṣ
+mlḥmt
+   ašt
+b
+ˤprm
+ddym
+ask
+šlm
+l
+kbd
+awṣ 
+arbdd
+   l
+kbd
+šdm
+ap
+mṯn
+rgmm
+   argmn
+lk
+lk
+ˤnn
+ilm
+   atm
+bštm
+w
+an
+šnt
+   uġr
+l
+rḥq
+ilm
+inbb
+l
+rḥq
+ilnym
+ṯn
+mṯpdm
+   tḥt
+ˤnt
+arṣ
+ṯlṯ
+mtḥ
+ġyrm
+   idk
+l
+ttn
+pnm
+ˤm
+bˤl
+   mrym
+ṣpn
+b
+alp
+šd
+rbt
+kmn
+   hlk
+aḫth
+bˤl
+yˤn
+tdrq
+  ybnt
+abh
+šrḥq
+aṯt
+l
+pnnh
+   št
+alp
+qdmh
+mria
+w
+tk
+   pnh
+tḥspn
+mh
+w
+trḥṣ
+   ṭl
+šmm
+šmn
+arṣ
+ṭl
+šmm
+tskh
+   rbb
+nskh
+kbkbm
+  ttpp 
+anhbm
+d
+alp
+šd
+ẓuh
+b
+ym
+xxxxxxxx
+bt
+l
+bˤl
+km
+ilm
+w
+ḥẓr 
+   k
+bn
+aṯrt
+mṯb
+il
+mẓll
+   bnh
+mṯb
+rbt
+aṯrt
+ym
+  mṯb
+pdry
+bt
+ar
+mẓll
+   ṭly
+bt
+rb
+mṯb
+arṣy
+   bt
+yˤbdr
+mṯb
+klt
+   knyt
+w
+tˤn
+btlt
+ˤnt
+   yṯb
+ly
+ṯr
+il
+aby 
+   yṯb
+ly
+w
+lh
+aṯb
+   xxx
+amṣḫ
+nn
+k
+imr
+l
+arṣ
+   ašhlk 
+šbth
+dmm
+šbt
+dqnh
+   xxxxkd
+l
+ytn
+bt
+l
+bˤl
+k
+ilm
+   w
+ḥẓr
+k
+bn
+aṯrt
+tdˤṣ
+pˤn 
+   w
+tr
+arṣ
+idk
+l
+ttn
+pnm 
+   ˤm
+il
+mbk
+nhrm
+qrb
+apq
+   thmtm
+tgl
+ḏd
+il
+w
+tbu
+   qrš
+mlk
+ab
+šnm
+mṣr
+   tbu
+ḏdm
+qny
+w
+adn
+bn
+ilm
+qlh
+yšˤmˤ
+ṯr
+il
+abh
+yˤn
+il 
+  b
+šbˤt
+ḥdrm
+b
+ṯmnt
+ap
+  sgrt
+gm
+xhxx
+hxxxxxxxxx
+  ˤn
+ṯkxxxxxxxxxxxxxxxx
+  ˤln
+ṯxxxxxxxxxxxxxxxx
+  l
+pˤn
+ġlmmxxxxxxxxx
+   mid
+adn
+xxx
+ṣn
+ˤxxxxxxxxx
+   nrm 
+ilm
+špš
+ṣḥrrt
+   la
+šmm
+b
+yd
+bn
+ilm
+mt
+   w  tˤn
+btlt
+ˤnt
+bnt
+bht
+  k
+y
+ilm
+bnt
+bhtk
+al
+tšmḫ
+   al
+tšmḫ
+b
+rm
+hklk
+   al
+aḫdhm
+b
+ymny
+xxx
+bˤl
+   b
+gdlt
+arkty
+amḫṣ
+xxx
+   qdqdhk
+ašhlk
+šbtk
+dmm
+  šbt
+dqnk
+mmˤm
+yˤny
+   il
+b
+šbˤt
+ḥdrm
+b
+ṯmnt
+   ap
+sgrt
+ydˤtk
+bt
+k
+anšt
+   k
+in
+b
+ilht
+qlṣk
+mh
+taršn
+   l
+btlt
+ˤnt
+w
+tˤn
+btlt
+ˤnt
+   tḥmk
+il
+hkm
+ḥkmk 
+   ˤm
+ˤlm
+ḥyt
+ḥẓt
+tḥmk
+   mlkn
+aliyn
+bˤl
+ṯpṭn
+   in
+d
+ˤlnh
+klnyy
+qšh
+   nbln
+klnyy
+nbl
+ksh
+  any
+l
+yṣḥ
+ṯr
+il
+abh
+il
+   mlk
+d
+yknnh
+yṣḥ
+aṯrt
+   w
+bnh
+ilt
+w
+ṣbrt
+arḫh 
+   wn
+in
+bt
+l
+bˤl
+km
+ilm
+   ḥẓr
+k
+bn
+aṯrt
+mṯb
+il
+  mẓll
+bnh
+mṯb
+rbt
+aṯrt
+   ym
+mṯb
+pdry
+bt
+ar
+   mẓll
+ṭly
+bt
+rb
+mṯb
+   arṣy
+bt
+yˤbdr
+mṯb  
+                                     
+                                     x
+                                     x
+                                     ḥ
+                                     x
+                                     
+                                   arṣ
+                                     x
+    ik
+mgn
+rbt
+aṯrt 
+   ym
+mġẓ
+qnyt
+ilm
+w
+tn
+bt
+l
+bˤl
+km
+ilm
+w
+ḥẓr
+k
+bn
+aṯrt
+gm
+l
+ġlmh
+    bˤl
+yṣḥ
+ˤn
+gpn
+w
+ugr
+bn
+ġlmt
+    ˤmm
+ym
+bn
+ẓlmt
+     rmt
+prˤt
+ibr
+mnt 
+ ṣḥrrm
+ḥblm
+  ˤrpt
+tḥt
+x 
+  m
+ˤṣrm
+ḥxx
+tb
+glṯ
+isr
+b
+rišk
+  m
+brqm
+bn
+ˤnkm
+ymtn
+xx
+alp
+  šir
+b
+ym
+rbt
+xkmn
+b
+nhrm
+ˤbr
+gbl
+ˤbr
+  qˤl
+ˤbr
+iht
+np
+šmm
+šmšr
+  l
+dgy
+aṯrt
+  mġ
+l
+qdš
+amrr
+  idk
+al
+ttn
+  pnm
+tk
+ḥqkpt
+il
+klh
+kptr
+  ksu
+ṯbth
+ḥkpt
+  arṣ
+nḥlth
+  b
+alp
+šd
+rbt
+  kmn
+l
+pˤn
+kṯ<r>
+hbr
+w
+ql
+tštḥ
+  wy
+w
+kbd
+hwt
+  w
+rgm
+l
+kṯr
+  w
+ḫss
+ṯny
+l
+h
+yn
+d
+ḥrš
+ydm
+tḥm
+aliyn
+bˤl
+hwt
+aliy
