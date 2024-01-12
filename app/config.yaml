@@ -1,15 +1,11 @@
 apiVersion: 3
 dataDisplay:
   textFormats:
-    layout-orig-full: 
+    text-orig-full: 
       method: layoutTrans
       style:  trans
-    layout-orig-unicode:
-      method: layoutUnicode
-      style: orig
-    text-orig-full:
-      style: trans
     text-orig-unicode:
+      method: layoutUnicode
       style: orig
 docs:
   docPage: about
@@ -18,7 +14,7 @@ docs:
 interfaceDefaults: {}
 provenanceSpec:
   corpus: Copenhagen Ugarit Corpus
-  version: '0.1.3'
+  version: '0.1.4'
 writing: uga
 typeDisplay:
   line:
