@@ -3,7 +3,7 @@
 @dataset=cuc
 @datasetName=Copenhagen Ugarit Corpus
 @encodedBy=Christian Canu Højgaard and Martijn Naaijer
-@fmt:text-orig-full={sign}
+@fmt:text-orig-full={sign}{trailer}
 @licence=Creative Commons Attribution-NonCommercial 4.0 International License
 @licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
 @manuscripts=
