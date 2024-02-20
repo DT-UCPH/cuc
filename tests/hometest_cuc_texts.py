@@ -28,7 +28,7 @@ F, L, T = api.F, api.L, api.T
 WORD_FILES_FOLDER = './utils/files'
 
 CORPORA = [F.corpus.v(n) for n in F.otype.s('corpus')]
-WORD_FILES = ['KTU 1.2_text processed.docx']
+WORD_FILES = [f for f in os.listdir(WORD_FILES_FOLDER) if f.lower().endswith('.docx') or f.lower().endswith('.doc')]
 
 logging.basicConfig(
     filename='./logs/test_cuc_texts.log',

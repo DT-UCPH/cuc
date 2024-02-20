@@ -11,21 +11,112 @@
 @valueType=str
 @version=0.1.5
 @writtenBy=Text-Fabric
-@dateWritten=2024-02-20T14:41:06Z
+@dateWritten=2024-02-20T15:13:58Z
 
-25853	ḥšk
+25880	ḥšk
 ʿṣk
 ʿbṣk
 ʿmy
-pʿnk    kptr  ksu
+pʿnk
+tlsmn
+ʿmy
+twtḥ
+išdk
+tk
+ḫršn   r
+tḥmk
+w
+št
+    l
+ẓr
+rdyk
+   iqnim
+   yšu
+b
+qrb
+   x
+asr
+   tm
+ymtm
+   npšh
+w  iṯl 
+    ḥršm
+ʿdb
+l
+arṣ
+   x
+špm
+ʿdb
+  
+tʿtqn
+   šb
+ilk 
+   in
+bb
+b
+alp
+ḥẓr 
+   l
+pʿn
+ʿnt
+yhbr
+w
+yql
+yštḥwyn
+w
+y
+kbdnh
+yšu
+gh
+w
+yṣḥ
+tḥm
+ṯr
+il
+abk
+hwt
+lṯpn
+ḥtkk
+qryy
+b
+arṣ
+mlḥmt
+št
+b
+ʿp
+rm
+ddym
+sk
+šlm
+l
+kbd
+arṣ
+arbdd
+l
+kbd
+šdm
+ḥšk
+ʿṣk
+ʿbṣk
+ʿmy
+pʿnk
+tlsmn
+ʿmy
+twtḥ
+išdk
+tk
+ḫršn
+   bdk
+spr 
+       ymnk
+        x
+          x
+    kptr  ksu
 ṯbth
 ḥkpt
 arṣ
 nhlth              
-tlsmn
-ʿmy
-twtḥ
-išdkb
+b
 alp
 šd
 rbt
@@ -33,20 +124,14 @@ kmn
 l
 pʿn
 kṯr                    
-tk
-ḫršn   r
-tḥmk
-w
-šthbr
+hbr
 w
 ql
 tštḥwy
 w
 kbd
 hwt                   
-    l
-ẓr
-rdykw
+w
 rgm
 l
 kṯr
@@ -55,50 +140,39 @@ w
 ṯny
 l
 hyn                  
-   iqnim d
+ d
 ḥrš
 ydm
 tḥm
 ṯr
 il
 ab                         
-   yšu
-b
-qrbhwt
+hwt
 lṯpn
 ḥtk                                                
-   x
-asr  yh
+  yh
 kṯr
 bn                                                     
-   tm
-ymtm št
+ št
 l
 skt
 n                                                      
-   npšh
-w  iṯl  ʿdb
+ ʿdb
 b
 ġrt
 ṯbt                                               
-    ḥršm
-ʿdb
-l
-arṣ ḥšqk
+ ḥšqk
 ʿṣk
 ʿbṣk 
 ʿmy
 pʿnk
 tlsmn     
-   x
-špm
-ʿdbʿmy
+ʿmy
 tkwtḥ
 išdl
 tk
 ḫršn                      
-  
-tʿtqnġr
+ġr
 ks
 dm
 rgm
@@ -106,8 +180,7 @@ iṯ
 ly
 w
 argmk             
-   šb
-ilk hwt
+hwt
 w
 ṯaṯnyk 
 rgm
@@ -115,20 +188,14 @@ rgm
 w
 lḫšt
 abn
-   in
-bb
-b
-alp
-ḥẓr tunt
+tunt
 šmm
 ʿm
 arṣ
 thmt
 ʿmn
 kbkbm
-   l
-pʿn
-ʿnt  rgm
+  rgm
 l
 tdʿ
 nšm
@@ -137,21 +204,11 @@ l
 tbn
 html
 arṣ          
-yhbr
-w
-yql
-yštḥwyn
-w
-yat
+at
 w
 ank
 ibġyh                                         
-kbdnh
-yšu
-gh
 w
-yṣḥ
-tḥmw
 yʿn
 kṯr
 w
@@ -160,79 +217,49 @@ lk
 lk
 ʿnn
 ilm            
-ṯr
-il
-abk
-hwt
-lṯpn
-ḥtkkatm
+atm
 bštm
 w
 an
 šnt
 b
 kptr                   
-qryy
-b
-arṣ
-mlḥmt
-št
-b
-ʿpl
+l
 rḥq
 ilm
 ḥkpt
 l
 rḥq
 ilnym                    
-rm
-ddym
-sk
-šlm
-l
-kbd
-arṣ ṯn
+ ṯn
 mṯpdm
 tḥt
 ʿnt
 arṣ
 ṯlṯ
 mtḥ         
-arbdd
-l
-kbd
-šdm
-ḥškġyrm
+ġyrm
 idk 
 l
 ytn
 pnm
 ʿm
 lṭpn             
-ʿṣk
-ʿbṣk
-ʿmy
-pʿnk
-tlsmnil
+il
 d
 pid
 tk
 ḫršn   
 ġr
 ks                           
-ʿmy
-twtḥ
-išdk
-tk
-ḫršnygly
+ygly
 ḏd
 il
 w
 ybu
 qrš
 mlk                     
-   bdk
-spr ab
+ab
 šnm
 l
 pʿn
@@ -240,13 +267,13 @@ il
 yhbr
 w
 yql                
-       ymnk  yštḥwy
+  yštḥwy
 w
 ykbdnh                                      
-        xṯr
+ṯr
 il
 abh                                                     
-          xḥš
+ḥš
 bhtm
 tbnn
 ḥš
