@@ -28,14 +28,17 @@ class TfApp(App):
     def _wrapHtml(app, n, kind):
         api = app.api
         F = api.F
+        L = api.L
 
         material = (F.usign.v(n) if kind == "u" else F.sign.v(n)) or ""
-        certainty = F.certainty.v(n)
+        certainty = F.cert.v(n)
         material = f"""<span class="{CERTAINTY.get(certainty, None)}">{material}</span>"""
 
-        after = (F.utrailer.v(n) if kind == "u" else F.trailer.v(n)) or ""
-       	trailer_certainty = F.trailer_certainty.v(n)
+        after = (F.utrailer.v(L.u(n, 'word')[0]) if kind == "u" else F.trailer.v(L.u(n, 'word')[0])) or ""
+       	trailer_certainty = F.trailer_cert.v(L.u(n, 'word')[0])
         after = f"""<span class="{CERTAINTY.get(trailer_certainty, None)}">{after}</span>"""
-        
-        if F.trailer.v(n) == ".": return f"{material} {after} "
-        else: return f"{material}{after}"
+
+        if n == L.d(L.u(n, 'word')[0], 'sign')[-1]:
+            return f"{material}{after}"
+        else:
+            return material
