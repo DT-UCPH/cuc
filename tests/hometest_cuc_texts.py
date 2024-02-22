@@ -18,7 +18,7 @@ latest_data_folder = sorted(os.listdir(os.path.join(ROOT_DIR, TF_FOLDER)))[-1]
 
 TF = Fabric(locations=os.path.join(ROOT_DIR, TF_FOLDER, latest_data_folder))
 api = TF.load('''
-    otype g_cons trailer
+    otype g_cons trailer alt
 ''')
 api.loadLog()
 api.makeAvailableIn(globals())
@@ -52,12 +52,19 @@ def test_cuc_text(line_transcriptions):
         idx = 0
         corpus_set = set()
         for l in F.otype.s('line'):
-            line_text = re.sub('[ \xa0]', '',''.join([F.sign.v(s) + F.trailer.v(s) for s in L.d(l, 'sign')]))
+            line_text = ''
+            for w in L.d(l, 'word'):
+                word = ''
+                for s in L.d(w, 'sign'):
+                    if F.alt.v(s): word += f'{F.sign.v(s)}{F.alt.v(s)}'
+                    else: word += F.sign.v(s)
+                line_text += word+F.trailer.v(w)
+            line_text = re.sub('[ \xa0]', '',line_text)
             corpus, column, line = T.sectionFromNode(l)
             if corpus not in corpus_set:
                 logging.info(f'Testing {corpus}')
                 corpus_set.add(corpus)
-            line_transcription = re.sub('[\[\]\{\} \xa0]','',line_transcriptions[(corpus, column, line)])
+            line_transcription = re.sub('[\[\]\{\}\/\<\>\(\)\\\ \xa0]','',line_transcriptions[(corpus, column, line)])
             assert line_transcription == line_text
             idx += 1
         logging.info('Testing test_cuc_texts: SUCCES')

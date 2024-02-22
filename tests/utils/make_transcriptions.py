@@ -25,8 +25,8 @@ class TextTranscriber:
         for para in self.word_doc.paragraphs:
             if re.match('KTU', para.text):
                 self.corpus = para.text
-            elif re.match('[LXVI+]', para.text):
-                self.column = para.text
+            elif re.match(r'(rev. )?[LXVI+]', para.text):
+                self.column = para.text.lstrip('rev.').lstrip()
             elif re.match('\.\.\.', para.text):
                     continue
             elif re.match('^\d+', para.text):
