@@ -1,2 +1,4990 @@
 # Ugaritic Alphabet
 # aiuˤbdḏgġhḫḥklmnpqrsśšṣtṯṭwyzẓ
+There are three columns, the first is our representation of the lexeme, then the DULAT lexeme, then the page nr in DULAT
+
+i (I)	ỉ (I)	3
+i (II)	ỉ (II)	3
+u	ủ	3
+aupš/ṯ(n)	ảủpš/ṯ(n)	4
+ab	ảb	4
+ib (I)	ỉb (I)	5
+ib (II)	ỉb (II)	6
+ib (III)	ỉb (III)	6
+ibʕlt	ỉbʕlt	6
+abbl(y)	ảbbl(y)	7
+abbt	ảbbt	7
+/ʔ-b-d/	/ʔ-b-d/	7
+abd (I)	ảbd (I)	7
+abd (II)	ảbd (II)	8
+ubdit	ủbdỉt	8
+abdʕn	ảbdʕn	8
+abdbʕl	ảbdbʕl	8
+abdg	ảbdg	8
+abdḥr	ảbdḥr	8
+abdḫmn	ảbdḫmn	8
+abdy	ảbdy	8
+ubdy	ủbdy	8
+abḏl	ảbḏl	9
+abḏ/šr	ảbḏ/šr	9
+abg	ảbg	9
+abġl	ảbġl	9
+abky	ảbky	9
+abl	ảbl	9
+(i)blbl	(ỉ)blbl	9
+ablḥ	ảblḥ	9
+ablm	ảblm	9
+ibln	ỉbln	9
+ubln	ủbln	10
+a/ibm	ả/ỉbm	10
+ibm	ỉbm	10
+abmlk	ảbmlk	10
+abmn	ảbmn	10
+abn	ảbn	10
+a/ibn	ả/ỉbn	11
+ibn	ỉbn	11
+ubn	ủbn	11
+abny	ảbny	11
+ubnyn	ủbnyn	11
+abr[	abr[	11
+ibr (I)	ỉbr (I)	11
+ibr (II)	ỉbr (II)	12
+ubr	ủbr	12
+ubrʕ(y)	ủbrʕ(y)	12
+ubrʕn	ủbrʕn	12
+ubrʕy	ủbrʕy	12
+ibrd	ỉbrd	12
+ib/wrḏr	ỉb/wrḏr	12
+abrḫṭ	ảbrḫṭ	12
+ibrkḏ	ỉbrkḏ	12
+ibrkyṯ	ỉbrkyṯ	12
+abrm	ảbrm	13
+ibrm	ỉbrm	13
+ib/wrmḏ	ỉb/wrmḏ	13
+abrn	ảbrn	13
+ibrn	ỉbrn	13
+abrpu	ảbrpủ	13
+ubrš	ủbrš	13
+abršn	ảbršn	13
+abršp	ảbršp	14
+abrt[	ảbrt[	14
+ibrtlm	ỉbrtlm	14
+ib/wryn	ỉb/wryn	14
+ibsn	ỉbsn	14
+ubs/ś	ủbs/ś	14
+abṣdq	ảbṣdq	14
+abṣn	ảbṣn	14
+abšḫr	ảbšḫr	14
+abškn	ảbškn	14
+abšr	ảbšr	14
+abšti	ảbštỉ	14
+abštp	ảbštp	14
+ibt	ỉbt	14
+/ʔ-b-ṯ/	/ʔ-b-ṯ/	15
+a/iby	ả/ỉby	15
+ibyḥ[	ỉbyḥ[	15
+uby(n)	ủby(n)	15
+abyn	ảbyn	15
+i/ubyn	ỉ/ủbyn	15
+abyt	ảbyt	15
+abyy	ảbyy	15
+/ʔ-d/	/ʔ-d/	15
+ad	ảd	16
+-id	-ỉd	16
+id	ỉd	16
+ud	ủd	16
+adʕl	ảdʕl	17
+adʕ(y)	ảdʕ(y)	17
+adbʕl	ảdbʕl	17
+udbr	ủdbr	17
+add	ảdd	17
+adu[	ảdú[	17
+idk	ỉdk	17
+adlḏn	ảdlḏn	17
+idly	ỉdly	17
+/ʔ-d-m/	/ʔ-d-m/	17
+adm (I)	ảdm (I)	18
+adm (II)	ảdm (II)	18
+idm	ỉdm	18
+udm	ủdm	18
+udmʕt	ủdmʕt	19
+udmy	ủdmy	19
+/ʔ-d-n/	/ʔ-d-n/	19
+adn (I)	ảdn (I)	19
+adn (II)	ảdn (II)	20
+idn	ỉdn	20
+udn (I)	ủdn (I)	20
+udn (II)	ủdn (II)	20
+adnʕm	ảdnʕm	20
+adnn	ảdnn	20
+adnnʕm	ảdnnʕm	20
+adnṣdq	ảdnṣdq	21
+(adnty)	(ảdnty)	21
+adny	ảdny	21
+adr (I)	ảdr (I)	21
+adr (II)	ảdr (II)	21
+adr (III)	ảdr (III)	21
+adr (IV)	ảdr (IV)	22
+udr	ủdr	22
+adrdn	ảdrdn	22
+idrm	ỉdrm	22
+idrn	ỉdrn	22
+idrp	ỉdrp	22
+adrt	ảdrt	22
+adt	ảdt	23
+idt	ỉdt	23
+udt	ủdt	23
+adty	ảdty	23
+idṯn	ỉdṯn	23
+ady	ảdy	23
+idy	ỉdy	23
+aḏdd	ảḏdd	24
+aḏddn	ảḏddn	24
+aḏddy (I)	ảḏddy (I)	24
+aḏddy (II)	ảḏddy (II)	24
+aḏdt	ảḏdt	24
+aḏmln	ảḏmln	24
+aḏmny	ảḏmny	24
+aḏmṯn	ảḏmṯn	24
+uḏn	ủḏn	24
+uḏr (I)	ủḏr (I)	24
+uḏr (II)	ủḏr (II)	24
+i/uḏrn(n)	ỉ/ủḏrn(n)	24
+agin	ảgỉn	25
+igʕ	ỉgʕ	25
+agb/pṯr	ảgb/pṯr	25
+agd(y)n	ảgd(y)n	25
+ag/kd/tṯb	ảg/kd/tṯb	25
+/ʔ-g-g/	/ʔ-g-g/	25
+aglby	ảglby	25
+agm	ảgm	25
+agmn	ảgmn	25
+agm(y)	ảgm(y)	26
+agmz	ảgmz	26
+ʔgn	ʔgn	26
+agn	ảgn	26
+agny (I)	ảgny (I)	26
+agny (II)	ảgny (II)	26
+agpṯ(n)	ảgpṯ(n)	26
+agpṯr	ảgpṯr	26
+agr	ảgr	27
+ugr (I)	ủgr (I)	27
+ugr (II)	ủgr (II)	27
+ugr (III)	ủgr (III)	27
+agršn	ảgršn	27
+agrt	ảgrt	27
+ugrt	ủgrt	27
+ugrtn	ủgrtn	28
+ugrty	ủgrty	28
+ugry	ủgry	28
+agtṯp	ảgtṯp	28
+agy(n)	ảgy(n)	28
+igy	ỉgy	28
+agy(n)t	ảgy(n)t	28
+agytn	ảgytn	28
+agzr	ảgzr	28
+agzrt	ảgzrt	28
+agzry	ảgzry	28
+aġli	ảġli	29
+aġld	ảġld	29
+aġlḏrm	ảġlḏrm	29
+a/iġlkḏ/z	ả/ỉġlkḏ/z	29
+aġlmn	ảġlmn	29
+aġltn	ảġltn	29
+aġltṯb	ảġltṯb	29
+a/i]ġlṯr	ả/ỉ]ġlṯr	29
+a/iġlyn	ả/ỉġlyn	29
+iġr	ỉġr	29
+uġr	ủġr	29
+aġt	ảġt	30
+aġty	ảġty	30
+aġyn	ảġyn	30
+iġyn	ỉġyn	30
+aġzr	ảġzr	30
+aġzt	ảġzt	30
+/ʔ-h-b/	/ʔ-h-b/	30
+ahbt	ảhbt	30
+ihbt	ỉhbt	31
+ahl	ảhl	31
+ahn	ảhn	31
+iht	ỉht	31
+aḥd	ảḥd	31
+aḥd (II)	ảḥd (II)	32
+aḥl	ảḥl	33
+iḥmlk	ỉḥmlk	33
+aḥrṯp	ảḥrṯp	33
+uḥyt	ủḥyt	33
+aḥẓx[	ảḥẓx[	33
+aḫ (I)	ảḫ (I)	33
+aḫ (II)	ảḫ (II)	35
+iḫ	ỉḫ	35
+/ʔ-ḫ-d(/ḏ)/	/ʔ-ḫ-d(/ḏ)/	35
+aḫdbn	ảḫdbn	37
+aḫdy	ảḫdy	37
+uḫl	ủḫl	37
+a/iḫġl	ả/ỉḫġl	37
+a/iḫmlk	ả/ỉḫmlk	37
+a/iḫmn	ả/ỉḫmn	37
+a/iḫn(y)	ả/ỉḫn(y)	37
+uḫn	ủḫn	37
+uḫnp	ủḫnp	38
+uḫnpy	ủḫnpy	38
+a/iḫqm	ả/ỉḫqm	38
+/ʔ-ḫ-r/	/ʔ-ḫ-r/	38
+aḫr	ảḫr	38
+aḫrm	ảḫrm	39
+aḫršn	ảḫršn	39
+a/iḫršp	ả/ỉḫršp	39
+uḫry	ủḫry	39
+uḫryt	ủḫryt	39
+aḫt (I)	ảḫt (I)	39
+aḫt (II)	ảḫt (II)	40
+aḫtab	ảḫtảb	40
+aḫtmlk	ảḫtmlk	40
+aḫty	ảḫty	40
+a/iḫy	ả/ỉḫy	40
+a/iḫyn	ả/ỉḫyn	41
+ik	ỉk	41
+uk	ủk	41
+akdṯb	ảkdṯb	41
+/ʔ-k-l/	/ʔ-k-l/	41
+akl (I)	ảkl (I)	42
+akl (II)	ảkl (II)	42
+ikl	ỉkl	43
+aklt (I)	ảklt (I)	43
+aklt (II)	ảklt (II)	43
+ikmy	ỉkmy	43
+akpgṯ	ảkpgṯ	43
+ikrn	ỉkrn	43
+aktmy	ảktmy	44
+aktn	ảktn	44
+akṯn	ảkṯn	44
+aky	ảky	44
+iky	ỉky	44
+uky	ủky	44
+akyn	ảkyn	44
+al (I)	ảl (I)	44
+al (II)	ảl (II)	45
+al (III)	ảl (III)	46
+al (IV)	ảl (IV)	46
+il (I)	ỉl (I)	46
+ul	ủl	50
+ilib (I)	ỉlỉb (I)	50
+ilib (II)	ỉlỉb (II)	50
+ilabn	ỉlảbn	50
+iladn	ỉlảdn	51
+alit	ảlỉt	51
+aliy	ảlỉy	51
+aliyn	ảlỉyn	51
+ilʕnt	ỉlʕnt	51
+alb	ảlb	51
+ulb(y)	ủlb(y)	51
+ilbʕl	ỉlbʕl	51
+ilbd	ỉlbd	51
+ilbt	ỉlbt	52
+ulbtyn	ủlbtyn	52
+ald	ảld	52
+ildgn	ỉldgn	52
+ildn	ỉldn	52
+ildy	ỉldy	52
+uldy	ủldy	52
+ilḏ	ỉlḏ	52
+alḏy	ảlḏy	52
+ilg	ỉlg	52
+algbṯ	ảlgbṯ	52
+ilgdn	ỉlgdn	52
+ilḥu	ỉlḥủ	53
+ilgn	ỉlgn	53
+algp	ảlgp	53
+ilgt	ỉlgt	53
+ilh	ỉlh	53
+ilhd	ỉlhd	53
+ilhnm	ỉlhnm	53
+ilḥbn	ỉlḥbn	53
+alḫb	ảlḫb	53
+alḫn (I)	ảlḫn (I)	53
+alḫn (II)	ảlḫn (II)	53
+ilk	ỉlk	54
+(ilk)	(ỉlk)	54
+alkbl	ảlkbl	54
+ulkn	ủlkn	54
+ilkšy	ỉlkšy	54
+all (I)	ảll (I)	54
+all (II)	ảll (II)	54
+ill	ỉll	54
+u/all	ủ/ảll	54
+illḏr(m)	ỉllḏr(m)	54
+illm	ỉllm	55
+ully (I)	ủlly (I)	55
+ully (II)	ủlly (II)	55
+ulm	ủlm	55
+ilmd	ỉlmd	55
+almg	ảlmg	55
+ilmhr	ỉlmhr	55
+ulmk	ủlmk	55
+ilmlk	ỉlmlk	55
+ilmn	ỉlmn	56
+ulmn	ủlmn	56
+almnt	ảlmnt	56
+ulmy (I)	ủlmy (I)	56
+ulmy (II)	ủlmy (II)	56
+aln (I)	ảln (I)	56
+aln (II)	ảln (II)	56
+iln (I)	ỉln (I)	57
+iln (II)	ỉln (II)	57
+uln (I)	ủln (I)	57
+uln (II)	ủln (II)	57
+ulnhr	ủlnhr	57
+ilnḥm	ỉlnḥm	57
+ilnnn	ỉlnnn	57
+ilnqsd	ỉlnqsd	57
+alnr	ảlnr	57
+alnṯr	ảlnṯr	57
+alny	ảlny	57
+ilny	ỉlny	57
+ulny	ủlny	58
+alp (I)	ảlp (I)	58
+alp (II)	ảlp (II)	59
+alp (III)	ảlp (III)	61
+ulp	ủlp	61
+ulpm	ủlpm	61
+alpn	ảlpn	61
+alpy	ảlpy	61
+ilqṣm	ỉlqṣm	61
+ilrb	ỉlrb	61
+ilrm	ỉlrm	61
+ilrpi	ỉlrpỉ	62
+ulrm	ủlrm	62
+ilrš	ỉlrš	62
+ilršp	ỉlršp	62
+ils	ỉls	62
+ilsk	ỉlsk	62
+ilṣdq	ỉlṣdq	62
+ilṣy	ỉlṣy	62
+ilš (I)	ỉlš (I)	62
+ilš (II)	ỉlš (II)	62
+ilšḥr	ỉlšḥr	62
+ilšlm	ỉlšlm	62
+ilšmḥ	ỉlšmḥ	62
+ilšn	ỉlšn	63
+ilšpš	ỉlšpš	63
+ilštmʕ	ỉlštmʕ	63
+ilštmʕy	ỉlštmʕy	63
+alt (I)	ảlt (I)	63
+alt (II)	ảlt (II)	63
+ilt (I)	ỉlt (I)	63
+ilt (II)	ỉlt (II)	64
+altġ	ảltġ	64
+iltḥm	ỉltḥm	64
+iltm	ỉltm	64
+alty	ảlty	64
+alṯ	ảlṯ	64
+ilṯr	ỉlṯr	65
+ulṯ	ủlṯ	65
+alṯn	ảlṯn	65
+ilṯtmr	ỉlṯtmr	65
+alṯy (I)	ảlṯy (I)	65
+alṯy (II)	ảlṯy (II)	65
+alṯy(y)	ảlṯy(y)	65
+ilwn	ỉlwn	65
+aly(y)	ảly(y)	66
+ily	ỉly	66
+ilym	ỉlym	66
+ilyn	ỉlyn	66
+ilyqn	ỉlyqn	66
+ilysk	ỉlysk	66
+alyy	ảlyy	66
+ilyy	ỉlyy	66
+alz	ảlz	66
+ilz	ỉlz	66
+alzy	ảlzy	66
+im	ỉm	66
+um	ủm	67
+umab/s	ủmảb/s	68
+amd	ảmd	68
+amdn	ảmdn	68
+amdy	ảmdy	68
+umdy	ủmdy	68
+amḏy	ảmḏy	68
+amht	ảmht	68
+amḥt	amḥt	68
+umḫ(y)	ủmḫ(y)	68
+ummt	ủmmt	68
+amn (I)	ảmn (I)	68
+amn (II)	ảmn (II)	68
+amn (III)	ảmn (III)	69
+/ʔ-m-r/	/ʔ-m-r/	69
+amr (I)	ảmr (I)	69
+amr (II)	ảmr (II)	69
+amr (III)	ảmr (III)	69
+imr (I)	ỉmr (I)	70
+imr (II)	ỉmr (II)	70
+amril	ảmrỉl	70
+amrbʕl	ảmrbʕl	70
+amrr	ảmrr	70
+imrt	ỉmrt	71
+amry	ảmry	71
+amṣ	ảmṣ	71
+amšrt	ảmšrt	71
+amt (I)	ảmt (I)	71
+amt (II)	ảmt (II)	71
+imt	ỉmt	72
+umt	umt	72
+amtm	ảmtm	72
+amtrn	ảmtrn	72
+a?my	ả?my	73
+umy	ủmy	73
+an (I)	ản (I)	73
+an (II)	ản (II)	73
+an (III)	ản (III)	73
+in	ỉn	74
+un	ủn	75
+inu	ỉnủ	75
+anan	ảnản	75
+inbb	ỉnbb	75
+unbyn	ủnbyn	75
+ind	ỉnd	75
+undk	ủndk	75
+ands	ảnds	75
+unġ	ủnġ	75
+anġn	ảnġn	76
+anhb	ảnhb	76
+anḫ	ảnḫ	76
+anḫr	ảnḫr	76
+ank	ảnk	76
+unk	ủnk	77
+inmm	ỉnmm	77
+ann (I)	ảnn (I)	77
+ann (II)	ảnn (II)	78
+unn	ủnn	78
+anna	ảnna	78
+annu	ảnnu	78
+annʕrm	ảnnʕrm	78
+annd	ảnnd	78
+annd/tn	ảnnd/tn	78
+annḏr	ảnnḏr	78
+annḏy	ảnnḏy	78
+annḫ	ảnnḫ	78
+annḫb	ảnnḫb	79
+annmn	ảnnmn	79
+annmt	ảnnmt	79
+annpdgl	ảnnpdgl	79
+annšn	ảnnšn	79
+anntn	ảnntn	79
+annṯb	ảnnṯb	79
+anny	ảnny	79
+annyn	ảnnyn	79
+anp	ảnp	79
+unp	ủnp	79
+unpṯ	ủnpṯ	79
+inr	ỉnr	79
+anrmy	ảnrmy	80
+anry	ảnry	80
+ansny	ảnsny	80
+anṣ	ảnṣ	80
+/ʔ-n-š/	/ʔ-n-š/	80
+anš	ảnš	80
+inš	ỉnš	81
+a/inšr(m)	ả/ỉnšr(m)	81
+anšt	ảnšt	81
+inšt	ỉnšt	81
+antn	antn	81
+unṯ	ủnṯ	81
+/ʔ-n-y/	/ʔ-n-y/	82
+any(t)	ảny(t)	82
+anzḫ	ảnzḫ	83
+anẓ	ảnẓ	83
+ap (I)	ảp (I)	83
+ap (II)	ảp (II)	84
+ap (III)	ảp (III)	85
+up	ủp	85
+apʕ	ảpʕ	85
+ipd	ỉpd	85
+ipdrḏ	ỉpdrḏ	86
+updt	ủpdt	86
+aphm	ảphm	86
+aphn	ảphn	86
+apk	ảpk	86
+apn (I)	ảpn (I)	86
+apn (II)	ảpn (II)	87
+apn (III)	ảpn (III)	87
+apnk	ảpnk	87
+/ʔ-p-q/	/ʔ-p-q/	87
+apq	ảpq	87
+upqt	ủpqt	88
+aps	ảps	88
+apsny	ảpsny	88
+apśny	ảpśny	88
+iptg	ỉptg	88
+aptn	ảptn	88
+iptt	ỉptt	88
+apṯ	ảpṯ	88
+ipṯ(n)	ỉpṯ(n)	88
+ipṯl	ỉpṯl	89
+/ʔ-p-y/	/ʔ-p-y/	89
+apy	ảpy	89
+aqhr	ảqhr	89
+aqht	ảqht	89
+iqnu	ỉqnủ	90
+aqšr	ảqšr	91
+/ʔ-r/	/ʔ-r/	91
+a/ir	ả/ỉr	91
+ar	ảr	92
+ir	ỉr	92
+ur	ủr	92
+irab	ỉrảb	92
+arbʕ	ảrbʕ	92
+arbʕm	ảrbʕm	94
+arbdd	ảrbdd	95
+arbḫ	ảrbḫ	95
+irbl	ỉrbl	95
+arbn	ảrbn	95
+irbn (I)	ỉrbn (I)	95
+irbn (II)	ỉrbn (II)	95
+irbṣ	ỉrbṣ	96
+urbt	ủrbt	96
+irbtn	ỉrbtn	96
+irby	ỉrby	96
+ardn	ảrdn	96
+irdyn	ỉrdyn	96
+arḏl[n	ảrḏl[n	96
+argb	ảrgb	96
+argd	ảrgd	96
+argḏḏ	ảrgḏḏ	96
+a/irgmn	ả/ỉrgmn	96
+irgn	ỉrgn	97
+argnd	ảrgnd	97
+irgy	ỉrgy	97
+urgy	ủrgy	97
+a/irġn	ả/ỉrġn	98
+urġnr	ủrġnr	98
+urġtṯb	ủrġtṯb	98
+arḫ	ảrḫ	98
+urḫ	ủrḫ	98
+arḫlb	ảrḫlb	98
+urḫln	ủrḫln	98
+urḫy	ủrḫy	98
+/ʔ-r-k/	/ʔ-r-k/	98
+ark	ảrk	99
+urk	ủrk	99
+arkbt	ảrkbt	99
+arkd	ảrkd	99
+arkḏ(n)	ảrkḏ(n)	99
+arkšt	ảrkšt	99
+arkt	ảrkt	99
+arm	ảrm	99
+irm	ỉrm	99
+urm	ủrm	99
+armgr	ảrmgr	100
+urmn	ủrmn	100
+armsd	ảrmsd	100
+armsġ	ảrmsġ	100
+armwl	ảrmwl	100
+army	ảrmy	100
+urmy	ủrmy	100
+arn (I)	ảrn (I)	100
+arn (II)	ảrn (II)	100
+arn (III)	ảrn (III)	100
+irn (I)	ỉrn (I)	100
+irn (II)	ỉrn (II)	101
+urn	ủrn	101
+arnbt	ảrnbt	101
+arny (I)	ảrny (I)	101
+arny (II)	ảrny (II)	101
+arny (III)	ảrny (III)	101
+irp	ỉrp	101
+irpbn	ỉrpbn	101
+arpḫn	ảrpḫn	101
+irpn	ỉrpn	101
+arpšḫ	ảrpšḫ	101
+a/irpṯr	ả/ỉrpṯr	101
+arr	ảrr	102
+irrṯrm	ỉrrṯrm	102
+arśn	ảrśn	102
+arspy	ảrspy	102
+ars/św(n)	ảrs/św(n)	102
+arṣ	ảrṣ	102
+arṣy	ảrṣy	104
+/ʔ-r-š/	/ʔ-r-š/	104
+arš	ảrš	105
+irš	ỉrš	105
+urš[	ủrš[	105
+aršḫ	ảršḫ	105
+aršm	ảršm	105
+aršmg	ảršmg	105
+iršt	ỉršt	105
+iršy(n)	ỉršy(n)	106
+art (I)	ảrt (I)	106
+art (II)	ảrt (II)	106
+irt	ỉrt	106
+artn	ảrtn	107
+urt(n)	ủrt(n)	107
+artṯb	ảrtṯb	107
+urtṯb	ủrtṯb	107
+arty	ảrty	107
+artyn	ảrtyn	107
+arṯḫb	ảrṯḫb	107
+arw	ảrw	107
+arwd(n)	ảrwd(n)	107
+arwn	ảrwn	108
+arws/ṯ	ảrws/ṯ	108
+ary (I)	ảry (I)	108
+ary (II)	ảry (II)	108
+ary (III)	ảry (III)	108
+iry	ỉry	108
+ary(n)	ảry(n)	108
+aryn	ảryn	109
+iryn	ỉryn	109
+uryn (I)	ủryn (I)	109
+uryn (II)	ủryn (II)	109
+uryy	ủryy	109
+arz (I)	ảrz (I)	109
+arz (II)	ảrz (II)	109
+urz	ủrz	109
+isg	ỉsg	109
+is	ỉs	109
+asm	ảsm	109
+asmr	ảsmr	110
+/ʔ-s-p/	/ʔ-s-p/	110
+usp	ủsp	110
+/ʔ-s-r/	/ʔ-s-r/	110
+asr	ảsr	111
+asr(n)	ảsr(n)	111
+ass	ảss	111
+usy	ủsy	111
+uss	ủss	111
+asyy	ảsyy	111
+usyy	ủsyy	111
+ʔs̱p	ʔs̱p	111
+uṣb	ủṣb	111
+uṣbʕ	ủṣbʕ	111
+/ʔ-ṣ-l/	/ʔ-ṣ-l/	112
+uṣqm	ủṣqm	112
+iṣr	ỉṣr	112
+iš	ỉš	112
+ašʕt	ảšʕt	112
+išbʕl	ỉšbʕl	112
+ašbu	ảšbú	112
+išd	ỉšd	112
+išdn	ỉšdn	113
+ušḫr	ủšḫr	113
+i/ušḫry	ỉ/ủšḫry	113
+ušk	ủšk	113
+uškn	ủškn	113
+uškny (I)	ủškny (I)	114
+uškny (II)	ủškny (II)	114
+aškrr	ảškrr	114
+išm	ỉšm	114
+ušn	ủšn	114
+ušpġt	ủšpġt	114
+išpr	ỉšpr	115
+/ʔ-š-r/	/ʔ-š-r/	115
+ušr	ủšr	115
+ušryn	ủšryn	115
+išryt	ỉšryt	115
+išt	ỉšt	115
+ištir	ỉštỉr	116
+ištnm	ỉštnm	116
+ištrmy	ỉštrmy	116
+ištš	ỉštš	116
+uštyn	ủštyn	116
+ušy	ủšy	116
+išyy	ỉšyy	116
+at (I)	ảt (I)	116
+at (II)	ảt (II)	117
+atdb	ảtdb	118
+atḏn	ảtḏn	118
+atlg	ảtlg	118
+atlgn	ảtlgn	118
+atlgy	ảtlgy	118
+utly	ủtly	118
+atm	ảtm	118
+u/itml	ủ/ỉtml	119
+atn (I)	ảtn (I)	119
+atn (II)	ảtn (II)	119
+itn	ỉtn	119
+atnb	ảtnb	119
+atnḫ	ảtnḫ	119
+itnn	ỉtnn	119
+atyn	ảtyn	119
+/ʔ-t-w/	/ʔ-t-w/	119
+uṭ	ủṭ	120
+uṭb	ủṭb	120
+/ʔ-ṭ-m/	/ʔ-ṭ-m/	120
+aṭṭ	ảṭṭ	120
+iṯ (I)	ỉṯ (I)	120
+iṯ (II)	ỉṯ (II)	121
+iṯb	ỉṯb	121
+iṯg	ỉṯg	121
+iṯgh	ỉṯgh	122
+aṯḫlm	ảṯḫlm	122
+uṯḫt	ủṯḫt	122
+uṯkl	ủṯkl	122
+iṯl	ỉṯl	122
+/ʔ-ṯ-m/	/ʔ-ṯ-m/	122
+iṯm (I)	ỉṯm (I)	122
+iṯm (II)	ỉṯm (II)	123
+uṯpt	ủṯpt	123
+aṯqlny	ảṯqlny	123
+/ʔ-ṯ-r/	/ʔ-ṯ-r/	123
+aṯr (I)	ảṯr (I)	124
+aṯr (II)	ảṯr (II)	124
+aṯr (III)	ảṯr (III)	124
+aṯrn	ảṯrn	124
+aṯrt (I)	ảṯrt (I)	125
+aṯrt (II)	ảṯrt (II)	125
+aṯry (I)	ảṯry (I)	125
+aṯry (II)	ảṯry (II)	125
+uṯryn	ủṯryn	125
+aṯryt	ảṯryt	126
+aṯt	ảṯt	126
+iṯt	ỉṯt	127
+iṯtbnm	ỉṯtbnm	127
+a/iṯtl	ả/ỉṯtl	128
+iṯtqb	ỉṯtqb	128
+iṯtr[	ỉṯtr[	128
+aṯtš	ảṯtš	128
+aṯtyn	ảṯtyn	128
+aṯtyy	ảṯtyy	128
+uwaḫ	ủwảḫ	128
+uwil	ủwỉl	128
+awl	ảwl	128
+iwl[	ỉwl[	128
+awldn	ảwldn	128
+awpn	ảwpn	128
+awr	ảwr	128
+iwrd	ỉwrd	128
+iwrḏn	ỉwrḏn	129
+iwrḏr	ỉwrḏr	129
+iwrġl	ỉwrġl	129
+iwrḫ‹	ỉwrḫ‹	129
+iwrḫz	iwrḫz	129
+iwrkl	ỉwrkl	129
+iwrmḏ	ỉwrmḏ	129
+iwrmḫ	ỉwrmḫ	129
+iwrn	ỉwrn	129
+iwrnr	ỉwrnr	129
+iwrpzn	ỉwrpzn	129
+iwrtḏl	ỉwrtḏl	129
+a/iwrṯġrn	ả/ỉwrṯġrn	129
+iwrtn	ỉwrtn	129
+iwrṯrm	ỉwrṯrm	129
+iwrtṯr	iwrtṯr	129
+ayab	ảyảb	130
+iwryn	ỉwryn	130
+ay	ảy	130
+iy	ỉy	130
+uy	ủy	130
+ay(a/i)ḫ	ảy(ả/ỉ)ḫ	130
+ayiḫ	ảyỉḫ	130
+iybʕl (I)	ỉybʕl (I)	130
+iybʕl (II)	ỉybʕl (II)	130
+iydm	ỉydm	130
+ayḫ	ảyḫ	131
+ayl (I)	ảyl (I)	131
+ayl (II)	ảyl (II)	131
+ayln	ảyln	131
+aylt (I)	ảylt (I)	131
+aylt (II)	ảylt (II)	131
+ayly	ảyly	131
+aym	ảym	131
+aymr	ảymr	131
+iyn	ỉyn	131
+iyrḫ	ỉyrḫ	132
+iyry	ỉyry	132
+iytlm	ỉytlm	132
+iyṯr	ỉyṯr	132
+ayy	ảyy	132
+az	ảz	132
+uz	ủz	132
+uzʕrt	ủzʕrt	132
+uzb	ủzb	133
+izl	ỉzl	133
+izld(n)	ỉzld(n)	133
+izly	ỉzly	133
+a/izml	ả/ỉzml	133
+izmly	ỉzmly	133
+azmr	ảzmr	133
+/ʔ-z-r/	/ʔ-z-r/	134
+izr	ỉzr	134
+uzr	ủzr	134
+azrt	ảzrt	134
+uzry	ủzry	134
+izz[	ỉzz[	134
+azzlt	ảzzlt	135
+aẓḥn	ảẓḥn	135
+ʕbb	ʕbb	136
+/ʕ-b-d/	/ʕ-b-d/	136
+ʕbd (I)	ʕbd (I)	136
+ʕbdʕn	ʕbdʕn	138
+ʕbd (II)	ʕbd (II)	138
+ʕbdadt	ʕbdảdt	138
+ʕbdil(m)	ʕbdỉl(m)	138
+ʕbdilt	ʕbdỉlt	138
+ʕbd(ʕ)nt	ʕbd(ʕ)nt	138
+ʕbdʕṯtr	ʕbdʕṯtr	139
+ʕbdbʕl	ʕbdbʕl	139
+ʕbdgṯr	ʕbdgṯr	139
+ʕbdḥ(y)	ʕbdḥ(y)	139
+ʕbdḥgb	ʕbdḥgb	139
+ʕbdḥr	ʕbdḥr	139
+ʕbdḫmn	ʕbdḫmn	139
+ʕbdkb	ʕbdkb	139
+ʕbdkṯr	ʕbdkṯr	139
+ʕbdlbit	ʕbdlbỉt	139
+ʕbdmhr	ʕbdmhr	139
+ʕbdmlk	ʕbdmlk	140
+ʕbdn	ʕbdn	140
+ʕbdnkl	ʕbdnkl	140
+ʕbdnt	ʕbdnt	140
+ʕbdpdr	ʕbdpdr	140
+ʕbdpr	ʕbdpr	140
+ʕbdrpu	ʕbdrpủ	140
+ʕbdrs̄	ʕbdrs̄	140
+ʕbdršp	ʕbdršp	140
+ʕbdssm	ʕbdssm	140
+ʕbdšḫr	ʕbdšḫr	140
+ʕbdṯrm	ʕbdṯrm	141
+ʕbdy	ʕbdy	141
+ʕbdym	ʕbdym	141
+ʕbdyrġ	ʕbdyrġ	141
+ʕbdyrḫ	ʕbdyrḫ	141
+ʕbk	ʕbk	141
+ʕbl	ʕbl	141
+ʕbn	ʕbn	141
+/ʕ-b-r/	/ʕ-b-r/	141
+ʕbr (I)	ʕbr (I)	142
+ʕbr (II)	ʕbr (II)	142
+ʕbs	ʕbs	142
+ʕbṣ (I)	ʕbṣ (I)	142
+ʕbṣ (II)	ʕbṣ (II)	142
+/ʕ-b-š/	/ʕ-b-š/	142
+/ʕ-b-t/	/ʕ-b-t/	142
+ʕby	ʕby	142
+ʕd (I)	ʕd (I)	142
+ʕd (II)	ʕd (II)	143
+ʕd (III)	ʕd (III)	143
+ʕd (IV)	ʕd (IV)	144
+/ʕ-d-b/	/ʕ-d-b/	144
+ʕdb	ʕdb	145
+ʕdbʕl	ʕdbʕl	145
+ʕdbt	ʕdbt	145
+/ʕ-d(-d)/	/ʕ-d(-d)/	145
+ʕdd (I)	ʕdd (I)	145
+ʕdd (II)	ʕdd (II)	146
+ʕdm	ʕdm	146
+ʕdmlk	ʕdmlk	146
+ʕdmn	ʕdmn	146
+ʕdmt	ʕdmt	146
+/ʕ-d-n/	/ʕ-d-n/	146
+ʕdn (I)	ʕdn (I)	146
+ʕdn (II)	ʕdn (II)	147
+ʕdn (III)	ʕdn (III)	147
+ʕdn (IV)	ʕdn (IV)	147
+ʕdr[	ʕdr[	147
+ʕdrḏ	ʕdrḏ	147
+ʕdršp	ʕdršp	147
+ʕdš/ṯ	ʕdš/ṯ	147
+ʕdt (I)	ʕdt (I)	148
+ʕdt (II)	ʕdt (II)	148
+/ʕ-d-y/	/ʕ-d-y/	148
+ʕdy	ʕdy	148
+ʕdyn	ʕdyn	148
+ʕḏbm	ʕḏbm	149
+ʕḏbt	ʕḏbt	149
+/ʕ-ḏ-r/	/ʕ-ḏ-r/	149
+ʕḏr	ʕḏr	149
+ʕḏrt	ʕḏrt	149
+/ʕ-g-d/	/ʕ-g-d/	149
+ʕgl (I)	ʕgl (I)	149
+ʕgl (II)	ʕgl (II)	150
+ʕglt	ʕglt	150
+ʕglt(n)	ʕglt(n)	150
+ʕgm	ʕgm	150
+ʕgml	ʕgml	150
+ʕgrn	ʕgrn	150
+ʕgš	ʕgš	150
+ʕgw(n)	ʕgw(n)	150
+ʕgy	ʕgy	150
+ʕkbr	ʕkbr	150
+ʕkd	ʕkd	150
+ʕky (I)	ʕky (I)	150
+ʕky (II)	ʕky (II)	150
+/ʕ-l/	/ʕ-l/	151
+ʕl (I)	ʕl (I)	151
+ʕl (II)	ʕl (II)	153
+ʕl (III)	ʕl (III)	153
+ʕl (IV)	ʕl (IV)	154
+ʕlby	ʕlby	154
+/ʕ-l-g/	/ʕ-l-g/	154
+ʕllmn	ʕllmn	154
+ʕllmy/n	ʕllmy/n	154
+ʕlln	ʕlln	154
+/ʕ-l-m/	/ʕ-l-m/	154
+ʕlm (I)	ʕlm (I)	155
+ʕlm (II)	ʕlm (II)	155
+ʕlmu	ʕlmủ	155
+ʕlmyn	ʕlmyn	155
+ʕlr	ʕlr	155
+ʕln	ʕln	155
+ʕlpy	ʕlpy	155
+ʕlṣ	ʕlṣ	155
+ʕlt	ʕlt	156
+/ʕ-l-y/	/ʕ-l-y/	156
+ʕly (I)	ʕly (I)	157
+ʕly (II)	ʕly (II)	157
+ʕlyqm	ʕlyqm	158
+ʕlyt	ʕlyt	158
+ʕm (I)	ʕm (I)	158
+ʕm (II)	ʕm (II)	160
+/ʕ-m-d/	/ʕ-m-d/	160
+ʕmd	ʕmd	160
+ʕmḏtmr	ʕmḏtmr	161
+ʕmḏl	ʕmḏl	161
+/ʕ-m-l/	/ʕ-m-l/	161
+ʕmlbu	ʕmlbủ	161
+/ʕ-m-m/	/ʕ-m-m/	161
+ʕmm	ʕmm	161
+ʕmmḏl	ʕmmḏl	161
+ʕmn (I)	ʕmn (I)	161
+ʕmn (II)	ʕmn (II)	161
+ʕmnr	ʕmnr	161
+ʕmph	ʕmph	162
+ʕmq (I)	ʕmq (I)	162
+ʕmq (II)	ʕmq (II)	162
+ʕmqt	ʕmqt	162
+ʕmr	ʕmr	162
+ʕmrbi	ʕmrbỉ	162
+ʕmrpi	ʕmrpỉ	162
+/ʕ-m-s/	/ʕ-m-s/	163
+ʕms	ʕms	163
+ʕmsn	ʕmsn	163
+/ʕ-m-t/	/ʕ-m-t/	163
+ʕmtḏl	ʕmtḏl	163
+ʕmtr	ʕmtr	163
+ʕmtẓl	ʕmtẓl	163
+ʕmṯdy	ʕmṯdy	163
+ʕmyḏtmr	ʕmyḏtmr	164
+ʕmṯtmr	ʕmṯtmr	164
+ʕmy	ʕmy	164
+ʕmyd	ʕmyd	164
+ʕmyn	ʕmyn	164
+/ʕ-n/	/ʕ-n/	164
+ʕn (I)	ʕn (I)	165
+ʕn (II)	ʕn (II)	166
+ʕn (III)	ʕn (III)	166
+ʕnil	ʕnỉl	166
+ʕnbr	ʕnbr	166
+ʕnmk(y)	ʕnmk(y)	166
+ʕnn	ʕnn	166
+ʕnnn	ʕnnn	167
+ʕnq	ʕnq	167
+ʕnqpat	ʕnqpảt	167
+ʕnqpaty	ʕnqpảty	167
+ʕnqt	ʕnqt	167
+ʕnt (I)	ʕnt (I)	167
+ʕnt (II)	ʕnt (II)	168
+ʕntn	ʕntn	168
+/ʕ-n-w/	/ʕ-n-w/	168
+/ʕ-n-y/ (I)	/ʕ-n-y/ (I)	169
+/ʕ-n-y/ (II)	/ʕ-n-y/ (II)	169
+/ʕ-p/	/ʕ-p/	170
+ʕp (I)	ʕp (I)	170
+ʕpʕp	ʕpʕp	170
+/ʕ-p(-p)/	/ʕ-p(-p)/	170
+ʕpln	ʕpln	170
+/ʕ-p-r/	/ʕ-p-r/	170
+ʕpr (I)	ʕpr (I)	171
+ʕpr (II)	ʕpr (II)	171
+ʕprt	ʕprt	172
+ʕp/bs/ś	ʕp/bs/ś	172
+ʕpsn	ʕpsn	172
+ʕpṣpn	ʕpṣpn	172
+ʕpt	ʕpt	173
+ʕpṯb	ʕpṯb	173
+ʕpṯn	ʕpṯn	173
+ʕpṯrm	ʕpṯrm	173
+ʕq	ʕq	173
+/ʕ-q-b/	/ʕ-q-b/	173
+ʕqb	ʕqb	173
+ʕq[l]	ʕq[l]	174
+ʕqltn	ʕqltn	174
+ʕqq	ʕqq	174
+ʕqr[	ʕqr[	174
+ʕqrb	ʕqrb	174
+ʕqrbn	ʕqrbn	174
+ʕqšr	ʕqšr	174
+ʕqy	ʕqy	174
+/ʕ-r/	/ʕ-r/	175
+ʕr (I)	ʕr (I)	175
+ʕr (II)	ʕr (II)	175
+ʕrʕr	ʕrʕr	176
+/ʕ-r-b/ (I)	/ʕ-r-b/ (I)	176
+/ʕ-r-b/ (II)	/ʕ-r-b/ (II)	178
+ʕrb (I)	ʕrb (I)	178
+ʕrb (II)	ʕrb (II)	178
+ʕrbn	ʕrbn	179
+ʕrgz (I)	ʕrgz (I)	179
+ʕrgz (II)	ʕrgz (II)	179
+ʕrgzy	ʕrgzy	179
+/ʕ-r-k/	/ʕ-r-k/	179
+ʕrk (I)	ʕrk (I)	180
+ʕrk (II)	ʕrk (II)	180
+ʕrm (I)	ʕrm (I)	180
+ʕrm (II)	ʕrm (II)	180
+ʕrmn	ʕrmn	180
+ʕrmt	ʕrmt	180
+ʕrmy (I)	ʕrmy (I)	180
+ʕrmy (II)	ʕrmy (II)	181
+ʕrp	ʕrp	181
+ʕrpt	ʕrpt	181
+ʕrq	ʕrq	181
+/ʕ-r-s/	/ʕ-r-s/	181
+ʕrš	ʕrš	181
+/ʕ-r-w/	/ʕ-r-w/	182
+/ʕ-r-y/	/ʕ-r-y/	182
+ʕry	ʕry	182
+ʕrẓ	ʕrẓ	182
+ʕs̱	ʕs̱	182
+ʕsb	ʕsb	182
+ʕsl	ʕsl	182
+ʕsn	ʕsn	182
+ʕs̄r	ʕs̄r	182
+/ʕ-s-y:s/	/ʕ-s-y:s/	182
+ʕṣ	ʕṣ	183
+ʕṣbṣy[m	ʕṣbṣy[m	183
+ʕṣp	ʕṣp	184
+ʕṣr (I)	ʕṣr (I)	184
+ʕṣr (II)	ʕṣr (II)	184
+ʕṣy	ʕṣy	184
+ʕšd	ʕšd	184
+/ʕ-š-n/	/ʕ-š-n/	185
+ʕšq	ʕšq	185
+/ʕ-š-r/	/ʕ-š-r/	185
+ʕšr (I)	ʕšr (I)	185
+ʕšr (II)	ʕšr (II)	186
+ʕšrid	ʕšrỉd	186
+ʕšrm	ʕšrm	186
+ʕšr(t) (I)	ʕšr(t) (I)	187
+ʕšrt (II)	ʕšrt (II)	187
+ʕšrt (III)	ʕšrt (III)	187
+ʕšt(y)	ʕšt(y)	187
+/ʕ-š-y/	/ʕ-š-y/	187
+ʕt	ʕt	188
+/ʕ-t-d/	/ʕ-t-d/	188
+ʕtgr	ʕtgr	188
+/ʕ-t-k/	/ʕ-t-k/	188
+ʕtk (I)	ʕtk (I)	188
+ʕtk (II)	ʕtk (II)	188
+ʕtm	ʕtm	188
+ʕtn	ʕtn	189
+ʕtln	ʕtln	189
+/ʕ-t-q/	/ʕ-t-q/	189
+ʕtq	ʕtq	189
+ʕṭ	ʕṭ	189
+/ʕ-ṭ-p/	/ʕ-ṭ-p/	189
+ʕṭrṭrt	ʕṭrṭrt	190
+ʕṯb	ʕṯb	190
+ʕṯlṯ	ʕṯlṯ	190
+ʕṯqb	ʕṯqb	190
+ʕṯqbt	ʕṯqbt	190
+ʕṯrb	ʕṯrb	190
+ʕṯty	ʕṯty	190
+ʕṯtpl/r	ʕṯtpl/r	190
+ʕṯtr	ʕṯtr	190
+ʕṯtrab	ʕṯtrab	191
+ʕṯtrum	ʕṯtrum	191
+ʕṯtrn	ʕṯtrn	191
+ʕṯtrt (I)	ʕṯtrt (I)	191
+ʕṯtrt (II)	ʕṯtrt (II)	192
+ʕṯtry	ʕṯtry	192
+ʕṯty:	ʕṯty:	192
+ʕwr	ʕwr	192
+ʕyn	ʕyn	192
+ʕyy	ʕyy	192
+ʕz (I)	ʕz (I)	192
+ʕz (II)	ʕz (II)	193
+ʕz (III)	ʕz (III)	193
+ʕzilt	ʕzilt	193
+ʕzbʕl	ʕzbʕl	193
+ʕ̱zl	ʕ̱zl	193
+ʕzn	ʕzn	193
+/ʕ-z(-z)/	/ʕ-z(-z)/	194
+ʕẓm (I)	ʕẓm (I)	194
+ʕẓm (II)	ʕẓm (II)	194
+ʕẓm (III)	ʕẓm (III)	194
+ʕẓmt	ʕẓmt	195
+ʕẓrn	ʕẓrn	195
+b	b	196
+/b-ʔ/	/b-ʔ/	200
+buly	bủly	200
+bir	bỉr	201
+birt (I)	bỉrt (I)	201
+birt (II)	bỉrt (II)	201
+birtn	bỉrtn	201
+birty	bỉrty	201
+biry	bỉry	201
+bušn	bủšn	201
+bišt	bỉšt	202
+bʕd	bʕd	202
+bʕdy	bʕdy	202
+/b-ʕ-l/	/b-ʕ-l/	202
+bʕl (I)	bʕl (I)	203
+bʕl (II)	bʕl (II)	203
+bʕl (III)	bʕl (III)	206
+bʕldʕ	bʕldʕ	207
+bʕldn	bʕldn	207
+bʕlmʕḏr	bʕlmʕḏr	207
+bʕlmšlm	bʕlmšlm	207
+bʕlmṯpṭ	bʕlmṯpṭ	207
+bʕln	bʕln	207
+bʕlrm	bʕlrm	207
+bʕlsip	bʕlsỉp	207
+bʕlskn	bʕlskn	207
+bʕlṣdq	bʕlṣdq	207
+bʕlṣn	bʕlṣn	208
+bʕlšlm	bʕlšlm	208
+bʕlt	bʕlt	208
+bʕltn	bʕltn	208
+bʕly(n)	bʕly(n)	208
+bʕlyskn	bʕlyskn	209
+bʕlytn	bʕlytn	209
+bʕlz	bʕlz	209
+/b-ʕ-r/ (I)	/b-ʕ-r/ (I)	209
+/b-ʕ-r/ (II)	/b-ʕ-r/ (II)	209
+bʕr	bʕr	210
+bʕyn	bʕyn	210
+bb	bb	210
+bbru	bbrủ	210
+bbt (I)	bbt (I)	210
+bbt (II)	bbt (II)	210
+bbt (III)	bbt (III)	210
+/b-d/	/b-d/	210
+bd (I)	bd (I)	211
+bd (II)	bd (II)	211
+bd (III)	bd (III)	211
+bd (IV)	bd (IV)	211
+bdil	bdỉl	213
+bdd	bdd	213
+bddn	bddn	214
+bddy	bddy	214
+bdl	bdl	214
+bdlm	bdlm	214
+bdm	bdm	214
+bdn	bdn	215
+bdqt	bdqt	215
+bdy(n)	bdy(n)	215
+bgrt	bgrt	215
+bġr	bġr	215
+/b-ġ-y/	/b-ġ-y/	215
+/b-h-l/	/b-h-l/	215
+bhl	bhl	216
+bhmt	bhmt	216
+bht	bht	216
+bhṯ	bhṯ	216
+bḫr	bḫr	216
+bk	bk	216
+bkm	bkm	217
+/b-k-r/	/b-k-r/	217
+bkr	bkr	217
+/b-k-y/	/b-k-y/	217
+bky	bky	218
+bkyt	bkyt	218
+bl (I)	bl (I)	218
+bl (II)	bl (II)	219
+bl (III)	bl (III)	219
+bl (IV)	bl (IV)	219
+/b-l-ʕ/	/b-l-ʕ/	219
+blbl	blbl	219
+bld	bld	219
+bldn	bldn	220
+blḫdr	blḫdr	220
+blkn	blkn	220
+blmt	blmt	220
+bln	bln	220
+bls	bls	220
+blšpš	blšpš	220
+blšš	blšš	221
+/b-l-t/	/b-l-t/	221
+blt	blt	221
+/b-l-y/	/b-l-y/	221
+bly	bly	221
+blym	blym	221
+blẓn	blẓn	221
+bm	bm	221
+bmmt	bmmt	221
+bmt	bmt	221
+/b-n/	/b-n/	222
+bn (I)	bn (I)	222
+bn (II)	bn (II)	225
+bn (III)	bn (III)	225
+bnib	bnỉb	225
+bnil	bnỉl	225
+bnilh	bnỉlh	226
+bnilt	bnỉlt	226
+bninr	bnỉnr	226
+bnirn	bnỉrn	226
+bnʕn	bnʕn	226
+bnʕnt	bnʕnt	226
+bnkṯrt	bnkṯrt	226
+bnʕṯtr	bnʕṯtr	226
+bnlbnn	bnlbnn	226
+bnn (I)	bnn (I)	226
+bnn (II)	bnn (II)	226
+bnnbdg	bnnbdg	226
+bnnkl	bnnkl	226
+bnnklb	bnnklb	227
+bnny	bnny	227
+bnpdr	bnpdr	227
+bnqdšt	bnqdšt	227
+bnr	bnr	227
+bnršp	bnršp	227
+bnssm	bnssm	227
+bnš	bnš	227
+bnšpš	bnšpš	229
+bnt (I)	bnt (I)	229
+bnt (II)	bnt (II)	230
+bnt (III)	bnt (III)	230
+bnt (IV)	bnt (IV)	230
+bnṯmq	bnṯmq	230
+bnwn	bnwn	230
+bnwt	bnwt	230
+/b-n-y/	/b-n-y/	230
+bny	bny	231
+/b-q-ʕ/	/b-q-ʕ/	231
+bqʕ	bqʕ	232
+bqʕt (I)	bqʕt (I)	232
+bqʕt (II)	bqʕt (II)	232
+bqʕty	bqʕty	232
+bql	bql	232
+/b-q-r/	/b-q-r/	232
+bqr (I)	bqr (I)	232
+bqr (II)	bqr (II)	233
+bqš	bqš	233
+/b-q-ṯ/	/b-q-ṯ/	233
+br (I)	br (I)	233
+br (II)	br (II)	233
+bri	brỉ	233
+/b-r-d/	/b-r-d/	233
+brdd	brdd	233
+brdn	brdn	234
+brḏl	brḏl	234
+brḥ	brḥ	234
+/b-r-k/ (I)	/b-r-k/ (I)	234
+/b-r-k/ (II)	/b-r-k/ (II)	234
+brk	brk	235
+brkt/y	brkt/y	235
+brlt	brlt	235
+brn	brn	236
+brq (I)	brq (I)	236
+brq (II)	brq (II)	236
+brqd	brqd	236
+brqn	brqn	236
+brqt	brqt	236
+/b-r(-r)/	/b-r(-r)/	237
+br(r)	br(r)	237
+brr	brr	237
+brrn (I)	brrn (I)	238
+brrn (II)	brrn (II)	238
+brs/ś(m)	brs/ś(m)	238
+brt	brt	238
+bry	bry	238
+brz/sn	brz/sn	238
+brzt	brzt	238
+bs	bs	238
+bsn	bsn	238
+/b-ṣ-ʕ/	/b-ṣ-ʕ/	238
+b?ṣmm	b?ṣmm	239
+bṣmn	bṣmn	239
+bṣmy	bṣmy	239
+/b-ṣ-q/	/b-ṣ-q/	239
+bṣql	bṣql	239
+/b-ṣ-r/ (I)	/b-ṣ-r/ (I)	239
+/b-ṣ-r/ (II)	/b-ṣ-r/ (II)	239
+bṣr	bṣr	240
+bṣry	bṣry	240
+bṣy	bṣy	240
+/b-š/	/b-š/	240
+/b-š-l/	/b-š-l/	240
+/b-š-r/	/b-š-r/	240
+bšr	bšr	241
+bšrt	bšrt	241
+/b-t/	/b-t/	241
+bt (I)	bt (I)	241
+bt (II)	bt (II)	243
+bt (III)	bt (III)	247
+btbt	btbt	248
+btl	btl	248
+btlt	btlt	248
+btlyn	btlyn	248
+btn (I)	btn (I)	248
+btn (II)	btn (II)	248
+btr(y)	btr(y)	248
+btšy	btšy	249
+/b-t(-t)/	/b-t(-t)/	249
+btw/y	btw/y	249
+bṭm	bṭm	249
+bṭn	bṭn	249
+bṭr	bṭr	249
+/b-ṯ/	/b-ṯ/	249
+bṯn	bṯn	250
+bṯt (I)	bṯt (I)	250
+bṯt (II)	bṯt (II)	250
+bṯy	bṯy	250
+bwn	bwn	251
+by	by	251
+byn	byn	251
+byy	byy	251
+bz	bz	251
+bẓr	bẓr	251
+-d	-d	252
+d	d	252
+/d-ʔ-y/	/d-ʔ-y/	257
+di	dỉ	257
+diy (I)	dỉy (I)	257
+diy (II)	dỉy (II)	257
+dʕm	dʕm	257
+dʕmm	dʕmm	257
+/d-ʕ-ṣ/	/d-ʕ-ṣ/	257
+dʕt (I)	dʕt (I)	257
+dʕt (II)	dʕt (II)	258
+db	db	258
+dbat	dbảt	258
+/d-b-b/	/d-b-b/	258
+dbb (I)	dbb (I)	258
+dbb (II)	dbb (II)	258
+dbb (III)	dbb (III)	259
+/d-b-ḥ/	/d-b-ḥ/	259
+dbḥ	dbḥ	259
+dbḥt	dbḥt	260
+dblt	dblt	261
+/d-b-r/ (I)	/d-b-r/ (I)	261
+/d-b-r/ (II)	/d-b-r/ (II)	261
+dbr (I)	dbr (I)	261
+dbr (II)	dbr (II)	262
+dby	dby	262
+dd (I)	dd (I)	262
+dd (II)	dd (II)	262
+ddl	ddl	263
+ddm	ddm	263
+ddmš	ddmš	264
+ddmy	ddmy	264
+ddn (I)	ddn (I)	264
+ddn (II)	ddn (II)	264
+ddy	ddy	264
+ddym	ddym	264
+dḏy	dḏy	264
+dg (I)	dg (I)	264
+dg (II)	dg (II)	265
+dgn (I)	dgn (I)	265
+dgn (II)	dgn (II)	265
+dgt	dgt	265
+dgy	dgy	266
+dġ	dġ	266
+dġṯ	dġṯ	266
+dġṯt	dġṯt	266
+/d-ḥ-ṣ/	/d-ḥ-ṣ/	266
+d-k(-k)/	d-k(-k)/	267
+dkr	dkr	267
+dkrt	dkrt	267
+dkym	dkym	267
+dl	dl	268
+dlḥt	dlḥt	268
+/d-l-l/	/d-l-l/	268
+dll (I)	dll (I)	268
+dll (II)	dll (II)	268
+dlm	dlm	269
+/d-l-p/	/d-l-p/	269
+dlq	dlq	269
+dlt (I)	dlt (I)	269
+dlt (II)	dlt (II)	269
+dlt (III)	dlt (III)	269
+dly	dly	269
+/d-m/	/d-m/	269
+dm (I)	dm (I)	270
+dm (II)	dm (II)	270
+/d-m-ʕ/	/d-m-ʕ/	270
+dmʕt	dmʕt	271
+dmgy	dmgy	271
+dml	dml	271
+dmlt	dmlt	271
+/d-m-m/	/d-m-m/	271
+dmqt	dmqt	271
+dmr	dmr	271
+dmrn	dmrn	271
+dmt (I)	dmt (I)	272
+dmt (II)	dmt (II)	272
+dmtn	dmtn	272
+dmtqdš	dmtqdš	272
+dmty	dmty	272
+dmyn	dmyn	272
+/d-n/	/d-n/	272
+dn (I)	dn (I)	273
+dn (II)	dn (II)	273
+dn (III)	dn (III)	273
+dnil	dnỉl	274
+dnn	dnn	274
+dnt (I)	dnt (I)	274
+dnt (II)	dnt (II)	274
+dnt (III)	dnt (III)	274
+dnty	dnty	274
+/d-n-y/	/d-n-y/	274
+/d-p-r/	/d-p-r/	274
+dprn	dprn	275
+dq (I)	dq (I)	275
+dq (II)	dq (II)	275
+dqn (I)	dqn (I)	275
+dqn (II)	dqn (II)	276
+dqr	dqr	276
+dqry	dqry	276
+dqt (I)	dqt (I)	276
+dqt (II)	dqt (II)	276
+dr	dr	277
+/d-r-ʕ/	/d-r-ʕ/	277
+d/ḏrʕ	d/ḏrʕ	278
+drb	drb	278
+drdr	drdr	278
+drḫ	drḫ	278
+/d-r-k/	/d-r-k/	279
+drk	drk	279
+drkt	drkt	279
+/d-r-q/	/d-r-q/	279
+/d-r(-r)/	/d-r(-r)/	279
+drṣy	drṣy	279
+drt (I)	drt (I)	280
+drt (II)	drt (II)	280
+/d-r-y/	/d-r-y/	280
+dšn	dšn	280
+dt	dt	280
+dt/dn (I)	dt/dn (I)	280
+dt/dn (II)	dt/dn (II)	280
+dtqn	dtqn	280
+/d-ṯ/	/d-ṯ/	280
+dṯn	dṯn	281
+dṯt	dṯt	281
+dw	dw	281
+dwn	dwn	281
+/d-w-y/	/d-w-y/	281
+ḏ	ḏ	282
+ḏbb	ḏbb	282
+ḏd (I)	ḏd (I)	282
+ḏd (II)	ḏd (II)	282
+ḏd (III)	ḏd (III)	282
+ḏdyy	ḏdyy	282
+ḏḏyn	ḏḏyn	282
+ḏḏyy	ḏḏyy	283
+ḏhrt	ḏhrt	283
+/ḏ-k-r/	/ḏ-k-r/	283
+ḏkr	ḏkr	283
+ḏkry	ḏkry	283
+ḏld	ḏld	283
+ḏmn	ḏmn	283
+/ḏ-m-r/ (I)	/ḏ-m-r/ (I)	283
+/ḏ-m-r/ (II)	/ḏ-m-r/ (II)	284
+ḏmr (I)	ḏmr (I)	284
+ḏmr (II)	ḏmr (II)	284
+ḏmr (III)	ḏmr (III)	284
+ḏmrbʕl	ḏmrbʕl	284
+ḏmrd	ḏmrd	284
+ḏmrn	ḏmrn	284
+ḏmry	ḏmry	285
+ḏnb(t)	ḏnb(t)	285
+ḏqnt	ḏqnt	285
+ḏrʕ (I)	ḏrʕ (I)	285
+ḏrʕ (II)	ḏrʕ (II)	285
+ḏrdn	ḏrdn	285
+ḏ/ṯrm	ḏ/ṯrm	285
+ḏrq	ḏrq	285
+ḏrr	ḏrr	286
+ḏrt	ḏrt	286
+ḏyn	ḏyn	286
+g	g	287
+gan	gản	287
+gʕl	gʕl	287
+/g-ʕ-r/	/g-ʕ-r/	287
+gʕr	gʕr	287
+gʕt	gʕt	287
+gʕyn	gʕyn	288
+gb (I)	gb (I)	288
+gb (II)	gb (II)	288
+gbʕ	gbʕ	288
+gbʕl(y)	gbʕl(y)	289
+gbʕly (I)	gbʕly (I)	289
+gbʕly (II)	gbʕly (II)	289
+gbʕ(n)	gbʕ(n)	289
+gbl (I)	gbl (I)	289
+gbl (II)	gbl (II)	289
+gbl (III)	gbl (III)	290
+gbln	gbln	290
+gbly	gbly	290
+gbrn	gbrn	290
+gbṯt	gbṯt	290
+gby	gby	290
+gd (I)	gd (I)	290
+gd (II)	gd (II)	290
+gdaḫ	gdaḫ	291
+gdl (I)	gdl (I)	291
+gdl (II)	gdl (II)	291
+gdl (III)	gdl (III)	291
+gdlt (I)	gdlt (I)	291
+gdlt (II)	gdlt (II)	291
+gdn	gdn	291
+gdrn	gdrn	292
+gdrt	gdrt	292
+gdš	gdš	292
+gdy	gdy	292
+gg (I)	gg (I)	292
+gg (II)	gg (II)	292
+ggʕt	ggʕt	292
+ggn	ggn	292
+ggy	ggy	293
+*/g-h(-h/y)/	*/g-h(-h/y)/	293
+ghl	ghl	293
+ghrt	ghrt	293
+gḫt	gḫt	293
+/g-ḫ-ṭ/	/g-ḫ-ṭ/	293
+/g-l/	/g-l/	293
+gl (I)	gl (I)	294
+gl (II)	gl (II)	294
+gl (III)	gl (III)	294
+glʕd	glʕd	294
+glb	glb	294
+glbt(y)	glbt(y)	294
+glb(y)	glb(y)	295
+gld(y)	gld(y)	295
+glgl (I)	glgl (I)	295
+glgl (II)	glgl (II)	295
+gl[ḥ]t	gl[ḥ]t	295
+gll	gll	295
+glln	glln	295
+gllr	gllr	295
+glltky	glltky	295
+gln	gln	295
+/g-l-ṯ/	/g-l-ṯ/	295
+glṯ	glṯ	296
+/g-l-y/	/g-l-y/	296
+glyn	glyn	296
+gm (I)	gm (I)	296
+gm (II)	gm (II)	296
+/g-m-ḏ/	/g-m-ḏ/	296
+gmḥ(n)	gmḥ(n)	297
+gml (I)	gml (I)	297
+gml (II)	gml (II)	297
+gmm	gmm	297
+gmn (I)	gmn (I)	297
+gmn (II)	gmn (II)	297
+gmnpk	gmnpk	297
+gmr	gmr	297
+gmrd	gmrd	298
+gmr(h)d	gmr(h)d	298
+gmrn	gmrn	298
+gmrš	gmrš	298
+gmrt	gmrt	298
+gmš	gmš	298
+gmz	gmz	298
+gn (I)	gn (I)	299
+gn (II)	gn (II)	299
+gnb	gnb	299
+gnʕ(y)	gnʕ(y)	299
+gnʕy	gnʕy	300
+gngn	gngn	300
+gngnt	gngnt	300
+gntn	gntn	300
+gny	gny	300
+gnym	gnym	300
+gp (I)	gp (I)	300
+gp(m)	gp(m)	301
+gpn (I)	gpn (I)	301
+gpn (II)	gpn (II)	301
+gpn (III)	gpn (III)	301
+gpn (IV)	gpn (IV)	301
+gpn(y)	gpn(y)	301
+gpny	gpny	301
+*/g-p-r/	*/g-p-r/	302
+gpr	gpr	302
+gpt	gpt	302
+/g-r/	/g-r/	302
+gr (I)	gr (I)	302
+gr (II)	gr (II)	303
+grʕ	grʕ	303
+grb	grb	303
+grbn	grbn	303
+grbz	grbz	303
+grbzt	grbzt	303
+grdn/y	grdn/y	304
+/g-r-d-š/	/g-r-d-š/	304
+grdy	grdy	304
+grgmš	grgmš	304
+grgr	grgr	304
+grgš/s	grgš/s	304
+grgyn	grgyn	305
+grn (I)	grn (I)	305
+grn (II)	grn (II)	305
+grp	grp	305
+/g-r-š/	/g-r-š/	305
+/g-r(-y)/	/g-r(-y)/	306
+gsn	gsn	306
+gssn	gssn	307
+gšl?	gšl?	307
+gšm	gšm	307
+gt	gt	307
+gt.mlky	gt.mlky	310
+gtn	gtn	310
+gṯpbn	gṯpbn	310
+gṯprg	gṯprg	310
+gṯr	gṯr	310
+gṯrn	gṯrn	310
+gṯtn	gṯtn	310
+gṯy	gṯy	311
+gwl	gwl	311
+gyn(m)	gyn(m)	311
+gzl	gzl	311
+gzr	gzr	311
+gzry	gzry	311
+/g-z-z/	/g-z-z/	311
+gzz	gzz	311
+ġb (I)	ġb (I)	312
+ġb (II)	ġb (II)	312
+ġb (III)	ġb (III)	312
+ġbl (I)	ġbl (I)	312
+ġbl (II)	ġbl (II)	312
+ġbn	ġbn	312
+ġbr	ġbr	312
+ġbt	ġbt	313
+ġdʕ	ġdʕ	313
+/ġ-d-d/	/ġ-d-d/	313
+ġdġd	ġdġd	313
+ġdrg	ġdrg	313
+ġdm	ġdm	313
+ġdyn (I)	ġdyn (I)	313
+ġdyn (II)	ġdyn (II)	313
+/ġ-ḏ-y/	/ġ-ḏ-y/	313
+ġḥpn	ġḥpn	314
+ġl (I)	ġl (I)	314
+ġl (II)	ġl (II)	314
+ġl (III)	ġl (III)	314
+ġlb(x)[	ġlb(x)[	314
+ġlbr	ġlbr	314
+ġlkz	ġlkz	314
+/ġ-l-l/	/ġ-l-l/	314
+ġll (I)	ġll (I)	315
+ġll (II)	ġll (II)	315
+ġlm	ġlm	315
+ġlm(y)	ġlm(y)	316
+ġlmn	ġlmn	316
+ġlmt (I)	ġlmt (I)	316
+ġlmt (II)	ġlmt (II)	316
+ġlp	ġlp	316
+ġlpṭr	ġlpṭr	317
+ġlpn	ġlpn	317
+ġlṣ	ġlṣ	317
+ġlt	ġlt	317
+ġltn	ġltn	317
+ġlwš	ġlwš	317
+/ġ-l-y/	/ġ-l-y/	317
+ġly	ġly	318
+ġlyn	ġlyn	318
+/ġ-m-ʔ/	/ġ-m-ʔ/	318
+ġmr	ġmr	318
+ġmšd	ġmšd	318
+ġn	ġn	318
+ġnb	ġnb	318
+ġnbn	ġnbn	318
+/ġ-n-ṯ/	/ġ-n-ṯ/	319
+ġprt	ġprt	319
+/ġ-p-y/	/ġ-p-y/	319
+/ġ-r/ (II)	/ġ-r/ (II)	319
+ġr (I)	ġr (I)	319
+ġr (II)	ġr (II)	320
+ġr (III)	ġr (III)	320
+ġr (IV)	ġr (IV)	321
+ġr	ġr	321
+ġrbtym	ġrbtym	321
+ġrdn	ġrdn	321
+ġrgn	ġrgn	321
+/ġ-r-m/	/ġ-r-m/	321
+ġrm	ġrm	322
+ġrn	ġrn	322
+ġrp?d	ġrp?d	322
+ġrpl	ġrpl	322
+ġrplt	ġrplt	322
+ġrt (I)	ġrt (I)	322
+ġrt (II)	ġrt (II)	322
+ġryty	ġryty	322
+ġs	ġs	322
+ġṣb	ġṣb	323
+ġṣmn	ġṣmn	323
+ġṣr	ġṣr	323
+/ġ-t-r/	/ġ-t-r/	323
+ġtr	ġtr	323
+ġw	ġw	323
+ġwn	ġwn	323
+/ġ-w-y/	/ġ-w-y/	323
+ġyr	ġyr	323
+ġyrn	ġyrn	324
+ġz	ġz	324
+ġzl	ġzl	324
+ġzl(y)	ġzl(y)	324
+ġzr	ġzr	324
+/ġ-ẓ-y/	/ġ-ẓ-y/	325
+-h (I)	-h (I)	326
+-h (II)	-h (II)	327
+h-	h-	328
+hayn	hayn	328
+hbm	hbm	328
+hbn	hbn	328
+/h-b-r/	/h-b-r/	328
+hbt	hbt	328
+/h-b-ṭ/ẓ/	/h-b-ṭ/ẓ/	328
+hbṭn	hbṭn	328
+hd(d)	hd(d)	329
+hdm	hdm	329
+hdrʕy	hdrʕy	329
+hdrt	hdrt	330
+/h-d-y/	/h-d-y/	330
+hg	hg	330
+/h-g-g/	/h-g-g/	330
+hkl	hkl	330
+hkm	hkm	331
+hkr	hkr	331
+hl	hl	331
+hlh	hlh	331
+/h-l-k/	/h-l-k/	331
+hlk (I)	hlk (I)	332
+hlk (II)	hlk (II)	333
+hlkt	hlkt	333
+hll	hll	333
+/h-l-m/	/h-l-m/	333
+hlm	hlm	333
+hln	hln	334
+hlny	hlny	334
+-hm	-hm	334
+hm (I)	hm (I)	335
+hm (II)	hm (II)	335
+hmlt	hmlt	337
+hmrt	hmrt	337
+hmry	hmry	337
+hmt	hmt	337
+-hn (I)	-hn (I)	337
+-hn (II)	-hn (II)	337
+hn	hn	337
+hnd	hnd	339
+hndn	hndn	339
+hndh	hndh	339
+hndt	hndt	339
+hnh	hnh	339
+hn(h)mt	hn(h)mt	339
+hnk(t)	hnk(t)	339
+hnkt	hnkt	340
+hnm	hnm	340
+hnmt	hnmt	340
+hnn	hnn	340
+hnny	hnny	340
+/h-p-k/	/h-p-k/	340
+hr (I)	hr (I)	341
+hr (II)	hr (II)	341
+/h-r-g/	/h-r-g/	341
+hrgb	hrgb	341
+hrnmy	hrnmy	341
+/h-r-r/	/h-r-r/	342
+hrsn	hrsn	342
+hrt (I)	hrt (I)	342
+hrt (II)	hrt (II)	342
+/h-r-y/	/h-r-y/	342
+hry (I)	hry (I)	342
+hry (II)	hry (II)	343
+ht	ht	343
+htm	htm	343
+hw	hw	343
+hwil	hwỉl	344
+hwt (I)	hwt (I)	344
+hwt (II)	hwt (II)	345
+/h-w-y/	/h-w-y/	345
+hy	hy	345
+hyabn	hyảbn	345
+hyadt	hyảdt	346
+hyn	hyn	346
+hyrm	hyrm	346
+hyt	hyt	346
+hzp	hzp	346
+hzpḫ	hzpḫ	346
+hzpy (I)	hzpy (I)	346
+hzpy (II)	hzpy (II)	346
+ḥ	ḥ	347
+ḥbl (I)	ḥbl (I)	347
+ḥbl (II)	ḥbl (II)	347
+/ḥ-b-q/	/ḥ-b-q/	347
+ḥbr (I)	ḥbr (I)	348
+ḥbr (II)	ḥbr (II)	348
+ḥbr (III)	ḥbr (III)	348
+ḥbš (I)	ḥbš (I)	348
+ḥbš (II)	ḥbš (II)	349
+/ḥ-b-ṭ/	/ḥ-b-ṭ/	349
+ḥby (I)	ḥby (I)	349
+ḥby (II)	ḥby (II)	349
+ḥd	ḥd	349
+ḥdg	ḥdg	349
+ḥdn	ḥdn	350
+ḥdr	ḥdr	350
+/ḥ-d-ṯ/	/ḥ-d-ṯ/	350
+ḥdṯ (I)	ḥdṯ (I)	350
+ḥdṯ (II)	ḥdṯ (II)	351
+ḥdṯ (III)	ḥdṯ (III)	351
+ḥdṯn	ḥdṯn	351
+/ḥ-d-y/	/ḥ-d-y/	351
+ḥḏm	ḥḏm	352
+ḥḏrṯ	ḥḏrṯ	352
+ḥgb	ḥgb	352
+ḥgbḏr	ḥgbḏr	352
+ḥgbn	ḥgbn	352
+ḥgbt	ḥgbt	352
+ḥgby	ḥgby	353
+ḥgln	ḥgln	353
+/ḥ-g-r/	/ḥ-g-r/	353
+ḥġmn	ḥġmn	353
+/ḥ-k-m/	/ḥ-k-m/	353
+ḥkm	ḥkm	353
+ḥkmt	ḥkmt	353
+ḥkpt	ḥkpt	353
+/ḥ-k-r/	/ḥ-k-r/	354
+ḥl (I)	ḥl (I)	354
+ḥl (II)	ḥl (II)	354
+ḥl (III)	ḥl (III)	355
+ḥlb	ḥlb	355
+ḥlbt	ḥlbt	355
+ḥll	ḥll	355
+ḥlm (I)	ḥlm (I)	356
+ḥlm (II)	ḥlm (II)	356
+ḥln	ḥln	356
+ḥlq	ḥlq	356
+ḥlš	ḥlš	356
+ḥlt (I)	ḥlt (I)	356
+ḥlt (II)	ḥlt (II)	357
+ḥm	ḥm	357
+/ḥ-m-d/	/ḥ-m-d/	357
+ḥmdrt	ḥmdrt	357
+ḥmḥmt	ḥmḥmt	357
+/ḥ-m-m/	/ḥ-m-m/	358
+ḥmm	ḥmm	358
+ḥmny	ḥmny	358
+ḥmr (I)	ḥmr (I)	358
+ḥmr (II)	ḥmr (II)	359
+/ḥ-m-ṣ/	/ḥ-m-ṣ/	359
+ḥmṣ	ḥmṣ	359
+ḥmt (I)	ḥmt (I)	360
+ḥmt (II)	ḥmt (II)	360
+ḥmt (III)	ḥmt (III)	360
+ḥmṯ	ḥmṯ	360
+ḥmyt	ḥmyt	360
+ḥn	ḥn	360
+ḥnil	ḥnỉl	361
+ḥnbn	ḥnbn	361
+/ḥ-n-n/	/ḥ-n-n/	361
+ḥnn (I)	ḥnn (I)	361
+ḥnn (II)	ḥnn (II)	361
+ḥnt	ḥnt	361
+ḥpn (I)	ḥpn (I)	362
+ḥpn (II)	ḥpn (II)	362
+ḥpr	ḥpr	362
+ḥpšt	ḥpšt	362
+ḥq	ḥq	362
+ḥqkpt	ḥqkpt	362
+ḥqr	ḥqr	362
+ḥr (I)	ḥr (I)	362
+ḥr (II)	ḥr (II)	363
+ḥrb	ḥrb	363
+ḥrḥrt	ḥrḥrt	363
+/ḥ-r-k/	/ḥ-r-k/	363
+ḥrkn	ḥrkn	363
+ḥrm	ḥrm	363
+ḥrn	ḥrn	363
+ḥrnq	ḥrnq	364
+ḥrpt	ḥrpt	364
+/ḥ-r-r/	/ḥ-r-r/	364
+ḥrr (I)	ḥrr (I)	364
+ḥrr (II)	ḥrr (II)	364
+/ḥ-r-ṣ/	/ḥ-r-ṣ/	364
+ḥrṣ (I)	ḥrṣ (I)	365
+ḥrṣ (II)	ḥrṣ (II)	365
+/ḥ-r-š/	/ḥ-r-š/	365
+ḥrš (I)	ḥrš (I)	366
+ḥrš (II)	ḥrš (II)	367
+ḥrš (III)	ḥrš (III)	367
+ḥrt(n)	ḥrt(n)	367
+/ḥ-r-ṯ/	/ḥ-r-ṯ/	367
+ḥrṯ	ḥrṯ	367
+ḥry	ḥry	368
+ḥryt	ḥryt	368
+ḥrẓn	ḥrẓn	368
+ḥsk	ḥsk	368
+/ḥ-s-l/	/ḥ-s-l/	368
+ḥsm	ḥsm	368
+ḥsn	ḥsn	368
+/ḥ-s-p/	/ḥ-s-p/	368
+ḥsp	ḥsp	369
+ḥspt	ḥspt	369
+/ḥ-s/	/ḥ-s/	369
+ḥṣ	ḥṣ	369
+ḥṣb	ḥṣb	369
+ḥṣbn	ḥṣbn	369
+ḥṣn	ḥṣn	369
+ḥṣqt(n)	ḥṣqt(n)	370
+/ḥ-š/ (I)	/ḥ-š/ (I)	370
+/ḥ-š/ (II)	/ḥ-š/ (II)	370
+ḥšbn	ḥšbn	370
+/ḥ-š-k/	/ḥ-š-k/	370
+ḥšn	ḥšn	370
+ḥt	ḥt	370
+/ḥ-t-k/	/ḥ-t-k/	371
+ḥtk (I)	ḥtk (I)	371
+ḥtk (II)	ḥtk (II)	371
+ḥtk (III)	ḥtk (III)	371
+ḥtl	ḥtl	371
+ḥtn	ḥtn	371
+ḥtp	ḥtp	371
+ḥtt	ḥtt	372
+ḥtṯ	ḥtṯ	372
+ḥtṯ (II)	ḥtṯ (II)	372
+ḥtṯn	ḥtṯn	372
+ḥṭb (I)	ḥṭb (I)	372
+ḥṭb (II)	ḥṭb (II)	372
+ḥṭbt	ḥṭbt	372
+ḥṭt	ḥṭt	372
+ḥṯ	ḥṯ	373
+ḥṯb	ḥṯb	373
+ḥṯbn	ḥṯbn	373
+ḥṯrt:	ḥṯrt:	373
+ḥwt	ḥwt	373
+/ḥ-w/y-y/ (I)	/ḥ-w/y-y/ (I)	374
+/ḥ-w-y/ (II)	/ḥ-w-y/ (II)	375
+ḥwy	ḥwy	376
+ḥy (I)	ḥy (I)	376
+ḥy (II)	ḥy (II)	376
+ḥy (III)	ḥy (III)	376
+ḫyil	ḫyỉl	376
+ḥyl	ḥyl	376
+ḫyly	ḫyly	376
+ḥym	ḥym	376
+ḥyn	ḥyn	377
+ḥyt (I)	ḥyt (I)	377
+ḥyt (II)	ḥyt (II)	377
+ḥẓ	ḥẓ	377
+ḥẓr	ḥẓr	378
+ḥẓt	ḥẓt	378
+ḫbb	ḫbb	379
+ḫbdn	ḫbdn	379
+ḫbdṯr	ḫbdṯr	379
+ḫbl (I)	ḫbl (I)	379
+ḫbl (II)	ḫbl (II)	379
+ḫbly	ḫbly	379
+ḫbr	ḫbr	379
+ḫbrtnr	ḫbrtnr	379
+ḫbrṯ	ḫbrṯ	380
+ḫbsn	ḫbsn	380
+/ḫ-b-t/	/ḫ-b-t/	380
+ḫbt (I)	ḫbt (I)	380
+ḫbt (II)	ḫbt (II)	380
+ḫb/pt(y)	ḫb/pt(y)	380
+ḫbty	ḫbty	381
+/ḫ-b-ṯ/	/ḫ-b-ṯ/	381
+ḫbṯ	ḫbṯ	381
+ḫby	ḫby	381
+ḫdi	ḫdi	381
+ḫdbṯ	ḫdbṯ	381
+ḫdd	ḫdd	381
+ḫdlr	ḫdlr	382
+ḫdmn	ḫdmn	382
+ḫdn	ḫdn	382
+ḫdpṯr	ḫdpṯr	382
+ḫdš2bʕl	ḫdš2bʕl	382
+ḫdś	ḫdś	382
+ḫd/ty(n)	ḫd/ty(n)	382
+ḫḏ(ḏ)	ḫḏ(ḏ)	382
+ḫḏġb	ḫḏġb	382
+ḫḏġl	ḫḏġl	382
+ḫḏl	ḫḏl	383
+ḫḏm	ḫḏm	383
+ḫḏmḏr	ḫḏmḏr	383
+ḫḏmrd/t	ḫḏmrd/t	383
+ḫḏmtn	ḫḏmtn	383
+ḫḏmtṯb	ḫḏmtṯb	383
+ḫḏ/zmyn	ḫḏ/zmyn	383
+ḫḏnr	ḫḏnr	383
+ḫḏpršp	ḫḏpršp	383
+ḫḏrġl	ḫḏrġl	383
+ḫgbt	ḫgbt	383
+ḫḫ	ḫḫ	384
+/ḫ-l/	/ḫ-l/	384
+ḫl	ḫl	384
+ḫli	ḫlỉ	384
+ḫlu	ḫlủ	384
+ḫlan	ḫlản	385
+ḫluy	ḫlủy	385
+ḫlb (I)	ḫlb (I)	385
+ḫlb (II)	ḫlb (II)	385
+ḫlb (III)	ḫlb (III)	385
+ḫlb	ḫlb	386
+ḫlb(y)	ḫlb(y)	386
+ḫlby	ḫlby	386
+ḫlbym	ḫlbym	387
+ḫldy	ḫldy	387
+ḫlġl	ḫlġl	387
+ḫll	ḫll	387
+ḫlln	ḫlln	387
+ḫllt	ḫllt	387
+ḫlly	ḫlly	387
+ḫlm (I)	ḫlm (I)	387
+ḫlm (II)	ḫlm (II)	387
+ḫlmẓ	ḫlmẓ	387
+ẖln	ẖln	387
+ḫlp	ḫlp	387
+ḫlpn (I)	ḫlpn (I)	388
+ḫlpn (II)	ḫlpn (II)	388
+/ḫ-l-q/	/ḫ-l-q/	388
+ḫlq	ḫlq	389
+ḫlṣ	ḫlṣ	389
+ḫlt	ḫlt	389
+ḫ?ly	ḫ?ly	389
+ḫlyn	ḫlyn	389
+ḫm	ḫm	389
+ḫmat	ḫmảt	390
+ḫmn (I)	ḫmn (I)	390
+ḫmn (II)	ḫmn (II)	390
+ḫmn (III)	ḫmn (III)	390
+ḫmr	ḫmr	390
+ḫmrm	ḫmrm	390
+ḫrmn	ḫrmn	391
+/ḫ-m-s/	/ḫ-m-s/	391
+ẖms̄	ẖms̄	391
+/ḫ-m-š/	/ḫ-m-š/	391
+ḫmš (I)	ḫmš (I)	391
+ḫmš (II)	ḫmš (II)	392
+ḫmšm	ḫmšm	392
+ḫmšt	ḫmšt	392
+ḫmt	ḫmt	392
+ḫndlt	ḫndlt	392
+ḫndrṯ	ḫndrṯ	393
+/ḫ-n-n/	/ḫ-n-n/	393
+ḫnn	ḫnn	393
+ḫnnġ	ḫnnġ	393
+/ḫ-n-p/	/ḫ-n-p/	393
+ḫnp	ḫnp	393
+ḫnpt	ḫnpt	394
+ḫnq(n)	ḫnq(n)	394
+ḫnqt	ḫnqt	394
+ḫnṣ	ḫnṣ	394
+ḫny(n)	ḫny(n)	394
+ḫnzr (I)	ḫnzr (I)	394
+ḫnzr (II)	ḫnzr (II)	394
+ḫp (I)	ḫp (I)	395
+ḫp (II)	ḫp (II)	395
+/ḫ-p-n/	/ḫ-p-n/	395
+ḫpn (I)	ḫpn (I)	395
+ḫpn (II)	ḫpn (II)	396
+ḫprt	ḫprt	396
+ḫps/śry	ḫps/śry	396
+ḫpš?[	ḫpš?[	396
+ḫpt	ḫpt	396
+ḫptr	ḫptr	396
+ḫpty	ḫpty	396
+ḫpṯ	ḫpṯ	396
+ḫpṯt	ḫpṯt	397
+ḫqn	ḫqn	397
+ḫqrn	ḫqrn	397
+ḫr (I)	ḫr (I)	397
+ḫr (II)	ḫr (II)	398
+/ḫ-r-ʔ/	/ḫ-r-ʔ/	398
+ḫra/i(n)	ḫrả/ỉ(n)	398
+ḫru	ḫrủ	398
+/ḫ-r-b/	/ḫ-r-b/	398
+ḫrb	ḫrb	398
+ḫrbġlm	ḫrbġlm	398
+ḫrd	ḫrd	399
+ḫrg	ḫrg	399
+ḫrġḏġ	ḫrġḏġ	399
+ḫrḫb	ḫrḫb	399
+ḫrk	ḫrk	399
+/ḫ-r-m/	/ḫ-r-m/	400
+ḫrmln	ḫrmln	400
+ḫrmṯt	ḫrmṯt	400
+ḫrn	ḫrn	400
+ḫrn(y)	ḫrn(y)	400
+ḫrp	ḫrp	400
+ḫrpn	ḫrpn	400
+ḫrpnt	ḫrpnt	400
+/ḫ-r(-r)/	/ḫ-r(-r)/	401
+ḫrs	ḫrs	401
+ḫrṣ	ḫrṣ	401
+ḫrṣbʕ	ḫrṣbʕ	402
+ḫrṣn	ḫrṣn	402
+ḫrṣ/ẓp	ḫrṣ/ẓp	403
+ḫršḫ	ḫršḫ	403
+ḫršn (I)	ḫršn (I)	403
+ḫršn (II)	ḫršn (II)	403
+ḫrt	ḫrt	403
+/ḫ-r-ṭ/	/ḫ-r-ṭ/	404
+ḫry	ḫry	404
+ḫsn (I)	ḫsn (I)	404
+ḫsn (II)	ḫsn (II)	404
+/ḫ-s-p/	/ḫ-s-p/	404
+/ḫ-s-r/	/ḫ-s-r/	405
+ḫsr	ḫsr	405
+/ḫ-s-s/	/ḫ-s-s/	405
+ḫss	ḫss	405
+ḫśś	ḫśś	406
+ḫs/św(n)	ḫs/św(n)	406
+ḫswn	ḫswn	406
+ḫsyn	ḫsyn	406
+ḫṣu	ḫṣủ	406
+/ḫ-ṣ-b/	/ḫ-ṣ-b/	406
+ḫṣt	ḫṣt	406
+ḫṣṭ	ḫṣṭ	407
+/ḫ-š/	/ḫ-š/	407
+ḫš	ḫš	407
+ḫšm	ḫšm	407
+ḫšt	ḫšt	407
+ḫt	ḫt	408
+/ḫ-t-ʔ/	/ḫ-t-ʔ/	408
+ḫtb	ḫtb	408
+ḫtm	ḫtm	408
+/ḫ-t-n/	/ḫ-t-n/	408
+ḫtn (I)	ḫtn (I)	409
+ḫtn (II)	ḫtn (II)	409
+/ḫ-t(-t)/	/ḫ-t(-t)/	409
+ḫtt	ḫtt	409
+ḫty (I)	ḫty (I)	409
+ḫty (II)	ḫty (II)	409
+ḫtym	ḫtym	409
+ḫtyn	ḫtyn	409
+ḫtyt	ḫtyt	409
+/ḫ-ṭ/	/ḫ-ṭ/	409
+ḫṭ	ḫṭ	410
+/ḫ-ṭ-ʔ/	/ḫ-ṭ-ʔ/	410
+ḫṯpy	ḫṯpy	411
+ḫṯr	ḫṯr	411
+ḫym	ḫym	411
+ḫyml	ḫyml	411
+ḫyr	ḫyr	411
+ḫyrn	ḫyrn	412
+ḫytr	ḫytr	412
+ḫzli	ḫzli	412
+ḫzm[yn	ḫzm[yn	412
+ḫzn	ḫzn	412
+ḫzr	ḫzr	412
+ḫzrn	ḫzrn	413
+ḫzry	ḫzry	413
+ḫẓ	ḫẓ	413
+-k (I)	-k (I)	414
+-k (II)	-k (II)	415
+k (I)	k (I)	415
+k (II)	k (II)	417
+k (III)	k (III)	417
+k (IV)	k (IV)	418
+ki/hdn	kỉ/hdn	419
+kartb	kảrtb	419
+kb (I)	kb (I)	419
+kb (II)	kb (II)	419
+kb	kb	419
+kbb	kbb	419
+kbby	kbby	419
+/k-b-d/	/k-b-d/	419
+kbd (I)	kbd (I)	420
+kbd (II)	kbd (II)	421
+kbd (III)	kbd (III)	422
+kbd (IV)	kbd (IV)	422
+kbdn	kbdn	422
+kbd(y)	kbd(y)	422
+kbkb	kbkb	422
+kbl (I)	kbl (I)	423
+kbl (II)	kbl (II)	423
+kblbn	kblbn	423
+kbm	kbm	423
+kbn	kbn	423
+kb/pl(n)	kb/pl(n)	423
+kbr	kbr	423
+kbrt	kbrt	424
+kbry	kbry	424
+kbs/ś	kbs/ś	424
+kd (I)	kd (I)	424
+kd (II)	kd (II)	425
+kd (III)	kd (III)	426
+kdb	kdb	426
+kdd	kdd	426
+kdgdl	kdgdl	426
+kḏġt	kḏġt	426
+kdkdy	kdkdy	426
+kd/tln	kd/tln	426
+kdml	kdml	426
+kdn	kdn	426
+kdnt	kdnt	427
+kdr	kdr	427
+kdrl	kdrl	427
+kdrn	kdrn	427
+kdrš	kdrš	427
+kdrt	kdrt	427
+kdt	kdt	427
+kdwṯ	kdwṯ	427
+kdy	kdy	428
+kḏd	kḏd	428
+kḏġbr	kḏġbr	428
+kḏġdl	kḏġdl	428
+kḏyn	kḏyn	428
+kgmn	kgmn	428
+kgr	kgr	428
+kh	kh	428
+khdn	khdn	428
+khn (I)	khn (I)	428
+khn (II)	khn (II)	429
+/k-h-p/	/k-h-p/	429
+/k-ḥ-d/	/k-ḥ-d/	429
+kḥṣ	kḥṣ	429
+kḥṯ	kḥṯ	429
+kkb (I)	kkb (I)	429
+kkb (II)	kkb (II)	429
+kkbn	kkbn	429
+kkln	kkln	429
+kkn	kkn	429
+kknt	kknt	430
+kkr	kkr	430
+kkrdn	kkrdn	431
+kky	kky	432
+kl	kl	432
+/k-l-ʔ/	/k-l-ʔ/	433
+kli	klỉ	433
+klat(n)	klảt(n)	433
+klb (I)	klb (I)	433
+klb (II)	klb (II)	434
+klbr	klbr	434
+klbt	klbt	434
+klby	klby	434
+klbyn	klbyn	434
+kld (I)	kld (I)	434
+kld (II)	kld (II)	434
+klḏy	klḏy	435
+klkl	klkl	435
+/k-l-l/	/k-l-l/	435
+kll	kll	435
+kln	kln	435
+klnmw	klnmw	436
+klny	klny	436
+klt (I)	klt (I)	436
+klt (II)	klt (II)	436
+klt (III)	klt (III)	436
+kltn	kltn	437
+kltṯb	kltṯb	437
+/k-l-y/	/k-l-y/	437
+kly	kly	438
+klyn	klyn	438
+klyt	klyt	438
+-km	-km	438
+km	km	438
+kmġ	kmġ	440
+kmkty	kmkty	440
+/k-m-l/	/k-m-l/	440
+kmlt	kmlt	440
+kmm	kmm	440
+kmn (I)	kmn (I)	440
+kmn (II)	kmn (II)	441
+kmn (III)	kmn (III)	441
+kmnt	kmnt	441
+kmr	kmr	441
+kmrn	kmrn	441
+kmrṯn	kmrṯn	441
+/k-m-s/	/k-m-s/	441
+kmsk	kmsk	441
+kmt	kmt	442
+kmṯ	kmṯ	442
+kmy	kmy	442
+-kn	-kn	442
+/k-n/	/k-n/	442
+kn (I)	kn (I)	443
+kn (II)	kn (II)	443
+knʕm	knʕm	443
+knʕny	knʕny	444
+knd	knd	444
+kndpnṯ	kndpnṯ	444
+knḫ	knḫ	444
+knkny	knkny	444
+knkt	knkt	445
+knn	knn	445
+knp	knp	445
+knpy	knpy	445
+knr	knr	445
+knrt	knrt	446
+kns	kns	446
+knt	knt	446
+kny	kny	446
+knyt	knyt	446
+kp	kp	447
+kpḫ	kpḫ	447
+kpln	kpln	447
+kpltn	kpltn	447
+kpn	kpn	447
+kpr (I)	kpr (I)	447
+kpr (II)	kpr (II)	448
+kprt	kprt	448
+kpsln	kpsln	448
+kptr	kptr	448
+kpṯ	kpṯ	448
+kpyn	kpyn	449
+/k-r/	/k-r/	449
+kr	kr	449
+kran	kran	449
+/k-r-ʕ/	/k-r-ʕ/	449
+krʕ	krʕ	449
+/k-r-b/	/k-r-b/	450
+krb	krb	450
+krby	krby	450
+krd (I)	krd (I)	450
+krd (II)	krd (II)	450
+krk (I)	krk (I)	450
+krk (II)	krk (II)	450
+krkb	krkb	450
+/k-r-k-r/	/k-r-k-r/	450
+krln	krln	450
+krm	krm	451
+krmn	krmn	452
+krmpy	krmpy	452
+krmt	krmt	452
+krny	krny	452
+krn[	krn[	452
+krpn	krpn	452
+/k-r-r/	/k-r-r/	452
+krr	krr	452
+krrn	krrn	452
+krs	krs	452
+krs/śu	krs/śu	452
+krs/śn	krs/śn	453
+krt	krt	453
+krty	krty	453
+krw	krw	453
+krwn	krwn	453
+krws	krws	454
+krwt	krwt	454
+/k-r-y/	/k-r-y/	454
+kry	kry	454
+kryn	kryn	454
+krzn	krzn	454
+ks (I)	ks (I)	454
+ks (II)	ks (II)	455
+ksa	ksả	455
+ks/śu	ks/śủ	456
+ksan	ksản	456
+ksd (I)	ksd (I)	456
+ksd (II)	ksd (II)	457
+ksl	ksl	457
+ksln	ksln	457
+ksm	ksm	457
+ksm (II)	ksm (II)	457
+ks/śm(n)	ks/śm(n)	458
+ksn (I)	ksn (I)	458
+ksn (II)	ksn (II)	458
+ksp	ksp	458
+kspy	kspy	461
+kst	kst	461
+/k-s-y/	/k-s-y/	461
+ksyn	ksyn	462
+ks̱	ks̱	462
+kśu	kśủ	462
+kśt	kśt	462
+kš	kš	462
+/k-š-d/	/k-š-d/	462
+kšp	kšp	462
+kšt	kšt	462
+kšy	kšy	463
+kt (I)	kt (I)	463
+kt (II)	kt (II)	463
+kt (III)	kt (III)	463
+kt (IV)	kt (IV)	463
+/k-t-b/	/k-t-b/	463
+ktġḏ	ktġḏ	463
+ktkt	ktkt	463
+ktl	ktl	464
+ktln	ktln	464
+ktm	ktm	464
+ktmn	ktmn	464
+ktn (I)	ktn (I)	464
+ktn (II)	ktn (II)	465
+ktp (I)	ktp (I)	465
+ktp (II)	ktp (II)	465
+ktr	ktr	465
+ktr(y	ktr(y	465
+ktš	ktš	465
+ktt (I)	ktt (I)	465
+ktt (II)	ktt (II)	466
+kṯ (I)	kṯ (I)	466
+kṯ (II)	kṯ (II)	466
+kṯan	kṯản	466
+kṯkn	kṯkn	466
+kṯky	kṯky	466
+kṯl(y)	kṯl(y)	467
+kṯn (I)	kṯn (I)	467
+kṯn (II)	kṯn (II)	467
+kṯp	kṯp	467
+kṯr (I)	kṯr (I)	467
+kṯr (II)	kṯr (II)	467
+kṯr (III)	kṯr (III)	467
+kṯrm	kṯrm	468
+kṯrmlk	kṯrmlk	468
+kṯrn	kṯrn	468
+kṯrt	kṯrt	468
+kṯtġlm	kṯtġlm	468
+kṯwn	kṯwn	468
+kṯy (I)	kṯy (I)	468
+kṯy (II)	kṯy (II)	469
+kw	kw	469
+kwn	kwn	469
+kwr	kwr	469
+kwy(n)	kwy(n)	469
+kwt	kwt	469
+ky	ky	469
+ky(y)	ky(y)	469
+kyn	kyn	469
+kzbn	kzbn	470
+kzġb	kzġb	470
+kzmm	kzmm	470
+kzn	kzn	470
+kztn	kztn	470
+kzy (I)	kzy (I)	470
+kzy (II)	kzy (II)	470
+l (I)	l (I)	471
+l (II)	l (II)	478
+l (III)	l (III)	481
+l (IV)	l (IV)	481
+la	lả	482
+/l-ʔ-k/	/l-ʔ-k/	482
+lim (I)	lỉm (I)	483
+lim (II)	lỉm (II)	484
+lan	lản	484
+/l-ʔ-y/w/ (I)	/l-ʔ-y/w/ (I)	484
+/l-ʔ-y/w/ (II)	/l-ʔ-y/w/ (II)	485
+liy	lỉy	485
+lb	lb	485
+lbu	lbủ	486
+lbiy	lbỉy	486
+lbdm	lbdm	486
+lbk	lbk	486
+/l-b-n/	/l-b-n/	486
+lbn (I)	lbn (I)	486
+lbn (II)	lbn (II)	487
+lbnm	lbnm	487
+lbnn (I)	lbnn (I)	487
+lbnn (II)	lbnn (II)	487
+lbnt	lbnt	487
+lbny (I)	lbny (I)	488
+lbny (II)	lbny (II)	488
+/l-b-š/	/l-b-š/	488
+lbš	lbš	488
+lbt	lbt	489
+lbw[	lbw[	489
+ldn	ldn	489
+ldt	ldt	489
+lg (I)	lg (I)	489
+lg (II)	lg (II)	490
+lgn	lgn	490
+lġz	lġz	490
+lḥ (I)	lḥ (I)	490
+lḥ (II)	lḥ (II)	490
+/l-ḥ(-ḥ)/	/l-ḥ(-ḥ)/	491
+/l-ḥ-k/	/l-ḥ-k/	491
+/l-ḥ-m/ (I)	/l-ḥ-m/ (I)	491
+/l-ḥ-m/ (II)	/l-ḥ-m/ (II)	492
+lḥm	lḥm	492
+lḥmd	lḥmd	493
+lḥr	lḥr	493
+lḥt	lḥt	493
+lḫsn	lḫsn	493
+lḫšt	lḫšt	493
+lkn	lkn	493
+lky	lky	493
+ll (I)	ll (I)	493
+ll (II)	ll (II)	493
+llu	llủ	494
+llit	llỉt	494
+llḫ	llḫ	494
+llwn	llwn	494
+lm (I)	lm (I)	494
+lm (II)	lm (II)	494
+/l-m-d/	/l-m-d/	495
+lmd	lmd	495
+lmdt	lmdt	495
+lmn	lmn	496
+/l-n/	/l-n/	496
+ln	ln	496
+lpš	lpš	496
+lpwt	lpwt	496
+/l-q-ḥ/	/l-q-ḥ/	496
+/l-q-ẓ/	/l-q-ẓ/	499
+lrgt	lrgt	499
+lrmn	lrmn	499
+lrn	lrn	499
+/l-s-m/	/l-s-m/	499
+lsm	lsm	499
+lsmt	lsmt	500
+lsn	lsn	500
+lṣb	lṣb	500
+lṣn	lṣn	500
+/l-š/	/l-š/	500
+/l-š-n/	/l-š-n/	501
+lšn	lšn	501
+lt	lt	501
+ltḥ (I)	ltḥ (I)	501
+ltḥ (II)	ltḥ (II)	502
+ltẖ	ltẖ	502
+ltn (I)	ltn (I)	502
+ltn (II)	ltn (II)	502
+lty	lty	502
+lṭpn	lṭpn	502
+/l-ṭ-š/	/l-ṭ-š/	502
+lwn	lwn	503
+lwn(y)	lwn(y)	503
+lwsnd	lwsnd	503
+lyt	lyt	503
+lzn	lzn	503
+lzy	lzy	503
+lẓpn	lẓpn	503
+lẓt	lẓt	503
+-m (I)	-m (I)	504
+-m (II)	-m (II)	504
+mab	mảb	506
+/m-ʔ-d/	/m-ʔ-d/	506
+mad	mảd	506
+mi/ud	mỉ/ủd	506
+muid	mủỉd	507
+midḫ	mỉdḫ	507
+midḫy	mỉdḫy	507
+madt (I)	mảdt (I)	507
+madt (II)	mảdt (II)	507
+maḫbt	mảḫbt	507
+ma/iḫd (I)	mả/ỉḫd (I)	508
+miḫd (II)	mỉḫd (II)	508
+m(a/i)ḫdy	m(ả/ỉ)ḫdy	508
+maḫr	mảḫr	509
+milḫ	mỉlḫ	509
+minš	mỉnš	509
+mispt	mỉspt	509
+m(a/i)šmn	m(ả/ỉ)šmn	509
+mat	mảt	509
+mit	mỉt	509
+maṯr	mảṯr	513
+miyt	mỉyt	513
+mizrt	mỉzrt	513
+mʕ (I)	mʕ (I)	513
+mʕ (II)	mʕ (II)	514
+mʕbd	mʕbd	514
+mʕbr	mʕbr	514
+mʕd	mʕd	514
+mʕdb	mʕdb	514
+mʕlt	mʕlt	515
+mʕmʕ	mʕmʕ	515
+mʕms	mʕms	515
+mʕn	mʕn	515
+mʕnt (I)	mʕnt (I)	515
+mʕnt (II)	mʕnt (II)	515
+mʕqb (I)	mʕqb (I)	515
+mʕqb (II)	mʕqb (II)	515
+mʕqby (II)	mʕqby (II)	516
+mʕr (I)	mʕr (I)	516
+mʕr (II)	mʕr (II)	516
+mʕrb (I)	mʕrb (I)	516
+mʕrb (II)	mʕrb (II)	516
+mʕrb(y)	mʕrb(y)	517
+mʕrby	mʕrby	517
+mʕry	mʕry	517
+mʕṣd	mʕṣd	517
+mʕt	mʕt	517
+mbʕl	mbʕl	518
+mbk	mbk	518
+md (I)	md (I)	518
+md (II)	md (II)	518
+md (III)	md (III)	519
+mdʕ (I)	mdʕ (I)	519
+mdʕ (II)	mdʕ (II)	519
+mdb	mdb	519
+mdbḥ	mdbḥ	519
+mdbḥt	mdbḥt	520
+mdbr	mdbr	520
+mdd (I)	mdd (I)	520
+mdd (II)	mdd (II)	520
+mddbʕl	mddbʕl	520
+mddt (I)	mddt (I)	520
+mddt (II)	mddt (II)	521
+mdgl	mdgl	521
+mdgt	mdgt	521
+mdḫ	mdḫ	521
+mdḫl	mdḫl	521
+/m-d-l/	/m-d-l/	521
+mdl (I)	mdl (I)	521
+mdl (II)	mdl (II)	521
+mdl (III)	mdl (III)	522
+mdll	mdll	522
+md/ln	md/ln	522
+mdnt	mdnt	522
+mdpt	mdpt	522
+mdrʕ	mdrʕ	522
+mdrg	mdrg	522
+mdṯ	mdṯ	523
+mdṯbn	mdṯbn	523
+mdw	mdw	523
+mdym	mdym	523
+mḏ	mḏ	523
+mḏl	mḏl	523
+mḏlġ	mḏlġ	523
+mḏnt	mḏnt	523
+mḏr	mḏr	523
+mḏrġl	mḏrġl	523
+mḏrn	mḏrn	524
+mgdl	mgdl	524
+mgdly (I)	mgdly (I)	524
+mgdly (II)	mgdly (II)	525
+mglb	mglb	525
+mgmr	mgmr	525
+/m-g-n/	/m-g-n/	525
+mgn (I)	mgn (I)	525
+mgn (II)	mgn (II)	526
+mgn (III)	mgn (III)	526
+mgšḫ	mgšḫ	526
+mgṯ	mgṯ	526
+mġd	mġd	526
+mġln	mġln	526
+mġmġ	mġmġ	526
+mġrt	mġrt	527
+/m-ġ-y/	/m-ġ-y/	527
+mġẓ	mġẓ	528
+m(h)	m(h)	528
+mh/y	mh/y	529
+mhbn	mhbn	529
+mhk(m)	mhk(m)	529
+mhmrt	mhmrt	529
+mhr (I)	mhr (I)	529
+mhr (II)	mhr (II)	530
+mhr (III)	mhr (III)	530
+mhrʕm	mhrʕm	531
+mhrn	mhrn	531
+mhy	mhy	531
+mhyt	mhyt	531
+mḥ	mḥ	531
+mḥll	mḥll	531
+mḥmd	mḥmd	531
+mḥrṯt	mḥrṯt	531
+mḥṣ	mḥṣ	532
+mḥt	mḥt	532
+mḥtrt	mḥtrt	532
+mḥṯ	mḥṯ	532
+/m-ḥ(-w:y)/	/m-ḥ(-w:y)/	532
+/m-ḫ/	/m-ḫ/	532
+mḫ	mḫ	533
+mḫdy	mḫdy	533
+mḫlpt	mḫlpt	533
+mḫmšt	mḫmšt	533
+mḫn	mḫn	533
+mḫr (I)	mḫr (I)	533
+mḫr (II)	mḫr (II)	534
+mḫr (III)	mḫr (III)	534
+mḫsrn	mḫsrn	534
+/m-ḫ-ṣ/	/m-ḫ-ṣ/	534
+mḫṣ (I)	mḫṣ (I)	535
+mḫṣ (II)	mḫṣ (II)	535
+/m-ḫ-š/	/m-ḫ-š/	536
+mḫt	mḫt	536
+mḫtn	mḫtn	536
+mk (I)	mk (I)	536
+mk (II)	mk (II)	536
+mkḥd	mkḥd	536
+/m-k-(k)/	/m-k-(k)/	536
+mkkm	mkkm	537
+mkl	mkl	537
+mkly	mkly	537
+mknpt	mknpt	537
+mknt	mknt	537
+/m-k-r/	/m-k-r/	537
+mkr	mkr	537
+mks	mks	538
+mkšr	mkšr	538
+mkt	mkt	539
+mkṯr	mkṯr	539
+ml	ml	539
+/m-l-ʔ/	/m-l-ʔ/	539
+mlu	mlủ	539
+mlak	mlảk	540
+mlakt	mlảkt	540
+mlat	mlảt	540
+mlit	mlỉt	541
+mlʔn	mlʔn	541
+mlbr	mlbr	541
+mlbš	mlbš	541
+mld (I)	mld (I)	541
+mld (II)	mld (II)	541
+mldy	mldy	541
+mlghy	mlghy	541
+mlġt	mlġt	542
+mlḥ (I)	mlḥ (I)	542
+mlḥ (II)	mlḥ (II)	542
+mlḥmt	mlḥmt	542
+mlḥmy	mlḥmy	542
+mlḥt	mlḥt	542
+mlḫš	mlḫš	543
+/m-l-k/	/m-l-k/	543
+mlk (I)	mlk (I)	544
+mlk (IV)	mlk (IV)	549
+mlkʕṯtrt	mlkʕṯtrt	549
+mlkbn	mlkbn	549
+mlkm	mlkm	549
+mlknʕm	mlknʕm	549
+mlkrpi	mlkrpỉ	549
+mlkršp	mlkršp	549
+mlkt	mlkt	549
+mlky (I)	mlky (I)	550
+mlky (II)	mlky (II)	550
+mlkym	mlkym	550
+mlkytn	mlkytn	551
+mlkyy	mlkyy	551
+/m-l-l/	/m-l-l/	551
+mll	mll	551
+ml/dn	ml/dn	551
+mlsm	mlsm	551
+mlṣ	mlṣ	551
+mltḥ	mltḥ	552
+mltn	mltn	552
+mlwn:	mlwn:	552
+mly (I)	mly (I)	552
+mly	mly	552
+mm (I)	mm (I)	552
+mm (II)	mm (II)	552
+mm (III)	mm (III)	552
+mmʕ	mmʕ	552
+mmskn	mmskn	553
+mmt	mmt	553
+mmṭr	mmṭr	553
+mmy	mmy	553
+mn (I)	mn (I)	553
+mn (II)	mn (II)	554
+mn (III)	mn (III)	554
+mn (IV)	mn (IV)	554
+mn	mn	554
+mnu	mnủ	554
+mnipʕl	mnỉpʕl	554
+mndʕ	mndʕ	554
+mndġ	mndġ	555
+mndym	mndym	555
+/m-n-ḥ/	/m-n-ḥ/	555
+mnḥ	mnḥ	555
+mnḥm	mnḥm	555
+mnḥt	mnḥt	556
+mnḥy	mnḥy	556
+mnḫ	mnḫ	556
+mnk	mnk	556
+mnm	mnm	556
+a)	a)	557
+mnmn	mnmn	557
+mnn	mnn	557
+mnny	mnny	557
+mnqt	mnqt	557
+mnrt	mnrt	558
+mnt (I)	mnt (I)	558
+mnt (II)	mnt (II)	558
+mnṯ	mnṯ	559
+mny	mny	559
+mnyn	mnyn	559
+mnyy	mnyy	559
+mpḫ	mpḫ	559
+mpḫrt	mpḫrt	559
+mpr	mpr	559
+mptẖ	mptẖ	559
+mqb/p	mqb/p	559
+mqd (I)	mqd (I)	560
+mqd (II)	mqd (II)	560
+mqdšt	mqdšt	560
+mqḥ	mqḥ	560
+mqm	mqm	560
+mqp	mqp	561
+m/bqr	m/bqr	561
+mqrt	mqrt	561
+mqwṭ	mqwṭ	561
+mr (I)	mr (I)	561
+mr (II)	mr (II)	562
+mr (III)	mr (III)	562
+mr (IV)	mr (IV)	562
+mr	mr	563
+/m-r-ʔ/	/m-r-ʔ/	563
+mru (I)	mrủ (I)	563
+mru (II)	mrủ (II)	564
+mru (III)	mrủ (III)	564
+mradn	mrảdn	564
+mril	mrỉl	564
+mrily	mrỉly	565
+mrat	mrảt	565
+mrʕ	mrʕ	565
+mrʕm	mrʕm	565
+mrbʕ	mrbʕ	565
+mrbʕt	mrbʕt	565
+mrbd (I)	mrbd (I)	565
+mrbd (II)	mrbd (II)	566
+mrd	mrd	566
+mrdt	mrdt	566
+mrgb	mrgb	566
+mrġt	mrġt	566
+mrġṯ	mrġṯ	566
+mrḥ	mrḥ	567
+mrḥṣm	mrḥṣm	567
+mrḥq	mrḥq	567
+mrḥqt	mrḥqt	567
+/m-r-ḫ/	/m-r-ḫ/	567
+mrkbt	mrkbt	568
+mrkm	mrkm	569
+mrm	mrm	569
+mrmr	mrmr	569
+mrmt	mrmt	569
+mrnn	mrnn	569
+mrqd	mrqd	569
+/m-r(-r)/ (I)	/m-r(-r)/ (I)	569
+m-r(-r)/ (II)	m-r(-r)/ (II)	569
+mrrt (I)	mrrt (I)	570
+mrrt (II)	mrrt (II)	570
+mrrt (III)	mrrt (III)	570
+/m-r-ṣ/	/m-r-ṣ/	571
+mrṣ	mrṣ	571
+mršp	mršp	571
+mrṭn	mrṭn	571
+mrṯ (I)	mrṯ (I)	571
+mrṯ (II)	mrṯ (II)	572
+mrṯd	mrṯd	572
+/m-r-y/	/m-r-y/	572
+mry (I)	mry (I)	572
+mry (II)	mry (II)	572
+mrym	mrym	572
+mryn (I)	mryn (I)	572
+mryn (II)	mryn (II)	573
+mryt	mryt	573
+mrzʕy	mrzʕy	573
+mrzḥ	mrzḥ	574
+msdt	msdt	574
+msg	msg	574
+msgr	msgr	574
+/m-s-k/	/m-s-k/	575
+msk	msk	575
+mskt	mskt	575
+mslmt	mslmt	575
+mspr	mspr	575
+msrr	msrr	576
+/m-s-s(/ś)/	/m-s-s(/ś)/	576
+mss	mss	576
+mswn	mswn	576
+mṣb (I)	mṣb (I)	577
+mṣb (II)	mṣb (II)	577
+mṣbt	mṣbt	577
+mṣbty	mṣbty	577
+mṣbṭ	mṣbṭ	577
+mṣd (I)	mṣd (I)	578
+mṣd (II)	mṣd (II)	578
+mṣd (III)	mṣd (III)	578
+mṣḥn/t	mṣḥn/t	578
+/m-ṣ-ḥ/	/m-ṣ-ḥ/	578
+mṣl	mṣl	579
+mṣlt (I)	mṣlt (I)	579
+mṣlt (II)	mṣlt (II)	579
+mṣmt	mṣmt	579
+mṣprt	mṣprt	579
+mṣpt	mṣpt	580
+/m-ṣ-q/	/m-ṣ-q/	580
+mṣqt	mṣqt	580
+mṣr	mṣr	580
+mṣrm	mṣrm	580
+mṣrn	mṣrn	581
+mṣrp	mṣrp	581
+mṣrr(t)	mṣrr(t)	581
+mṣrt	mṣrt	581
+mṣry (I)	mṣry (I)	581
+mṣry (II)	mṣry (II)	582
+mṣṣ	mṣṣ	582
+mṣt	mṣt	582
+mšu	mšu	582
+mšbʕt	mšbʕt	582
+mšdpt	mšdpt	582
+/m-š-ḥ/	/m-š-ḥ/	582
+mšḥ	mšḥ	582
+mšḥt	mšḥt	582
+mšḫṭ	mšḫṭ	583
+mškb(t)	mškb(t)	583
+mškk	mškk	583
+mškn	mškn	583
+mšknt	mšknt	583
+mškrt (I)	mškrt (I)	584
+mškrt (II)	mškrt (II)	584
+mšlḥ	mšlḥ	584
+mšlt (I)	mšlt (I)	584
+mšlt (II)	mšlt (II)	584
+mšmʕt	mšmʕt	585
+mšmn	mšmn	585
+mšmš	mšmš	585
+mšmṭr	mšmṭr	585
+mšnqt	mšnqt	585
+mšpy	mšpy	585
+mšq	mšq	585
+/m-š-r/	/m-š-r/	585
+mšr (I)	mšr (I)	586
+mšr (II)	mšr (II)	586
+mšrn	mšrn	586
+mšrr	mšrr	586
+mšspdt	mšspdt	587
+mšṣu	mšṣủ	587
+mšṣṣ	mšṣṣ	587
+mšt (I)	mšt (I)	587
+mšt (II)	mšt (II)	587
+mštʕlt	mštʕlt	587
+mštt	mštt	588
+/m-t/	/m-t/	588
+mt (I)	mt (I)	589
+mt (II)	mt (II)	589
+mt (III)	mt (III)	590
+mt (IV)	mt (IV)	591
+mt	mt	591
+/m-t-ʕ/	/m-t-ʕ/	591
+mtbʕl	mtbʕl	591
+mtḥ	mtḥ	591
+mtk	mtk	592
+/m-t-n/	/m-t-n/	592
+mtn (I)	mtn (I)	592
+mtn (II)	mtn (II)	592
+mtn (III)	mtn (III)	592
+mtnbʕl	mtnbʕl	592
+mtnn	mtnn	592
+mtnt	mtnt	593
+mtny	mtny	593
+mtq	mtq	593
+mtqt	mtqt	593
+mtr	mtr	593
+mtrḫt	mtrḫt	593
+mtrn	mtrn	593
+mtrt	mtrt	594
+mty	mty	594
+mṭ	mṭ	594
+mṭʕt	mṭʕt	594
+mṭḫ	mṭḫ	594
+mṭḫr	mṭḫr	594
+mṭnt	mṭnt	595
+/m-ṭ-r/	/m-ṭ-r/	595
+mṭr	mṭr	595
+mṭrt	mṭrt	595
+mṭt	mṭt	595
+mṯ (I)	mṯ (I)	595
+mṯ (II)	mṯ (II)	596
+mṯb	mṯb	596
+mṯdṯt	mṯdṯt	596
+/m-ṯ-k/	/m-ṯ-k/	596
+mṯlṯ	mṯlṯ	597
+mṯlṯt	mṯlṯt	597
+mṯn	mṯn	597
+mṯpit	mṯpỉt	597
+mṯpd	mṯpd	597
+mṯpṭ/ẓ	mṯpṭ/ẓ	597
+mṯpṭ	mṯpṭ	598
+mṯpẓ	mṯpẓ	598
+mṯr	mṯr	598
+mṯt	mṯt	598
+mṯṭ	mṯṭ	598
+mṯyn	mṯyn	598
+my (I)	my (I)	598
+my (II)	my (II)	599
+myn	myn	599
+/m-z-ʕ/	/m-z-ʕ/	599
+/m-z-l/	/m-z-l/	599
+mzl	mzl	599
+mzln	mzln	599
+mzn	mzn	599
+mznt	mznt	600
+mzt	mzt	600
+mztn	mztn	600
+mzy	mzy	600
+mzyn	mzyn	600
+/m-ẓ-ʔ/	/m-ẓ-ʔ/	600
+mẓll	mẓll	600
+mẓmu	mẓmủ	600
+mẓr	mẓr	601
+-n (I)	-n (I)	602
+-n (II)	-n (II)	603
+-n (III)	-n (III)	603
+-n (IV)	-n (IV)	603
+nad	nảd	603
+niršn	nỉršn	603
+/n-ʔ-ṣ/	/n-ʔ-ṣ/	603
+nat	nảt	604
+nit	nỉt	604
+naṯt	nảṯt	604
+nʕkn	nʕkn	604
+nʕl	nʕl	604
+nʕm (I)	nʕm (I)	605
+nʕm (II)	nʕm (II)	605
+nʕmn (I)	nʕmn (I)	606
+nʕmn (II)	nʕmn (II)	606
+nʕmt (I)	nʕmt (I)	606
+nʕmt (II)	nʕmt (II)	606
+nʕmy (I)	nʕmy (I)	607
+nʕmy (II)	nʕmy (II)	607
+nʕmyn	nʕmyn	607
+/n-ʕ-r/	/n-ʕ-r/	607
+nʕr (I)	nʕr (I)	607
+nʕr (II)	nʕr (II)	608
+nʕr (III)	nʕr (III)	608
+nʕrb	nʕrb	608
+nʕrt	nʕrt	608
+nbʕm	nbʕm	608
+/n-b/	/n-b/	609
+nbdg	nbdg	609
+nb/pk (I)	nb/pk (I)	609
+nbk (II)	nbk (II)	609
+nbkm	nbkm	609
+nbl	nbl	609
+nblu	nblủ	610
+nbq	nbq	610
+nbrn	nbrn	610
+nbšt	nbšt	610
+nbt	nbt	610
+/n-b-ṭ/	/n-b-ṭ/	610
+nbzn	nbzn	611
+/n-d-ʔ/	/n-d-ʔ/	611
+ndb	ndb	611
+ndbd	ndbd	611
+ndbn	ndbn	611
+ndby	ndby	611
+/n-d-d/	/n-d-d/	611
+ndk	ndk	612
+/n-d-p/	/n-d-p/	612
+/n-d-r/	/n-d-r/	612
+ndr	ndr	613
+ndrg	ndrg	613
+ndwd	ndwd	613
+/n-d(-y)/	/n-d(-y)/	613
+nḏbn	nḏbn	613
+*/n-ḏ-r/	*/n-ḏ-r/	613
+ngb	ngb	613
+nggn	nggn	614
+ngġln	ngġln	614
+ngh	ngh	614
+/n-g-ḥ/	/n-g-ḥ/	614
+ngḥt	ngḥt	614
+ngr	ngr	614
+ngršp	ngršp	615
+ngrt	ngrt	615
+/n-g-š/	/n-g-š/	615
+/n-g-ṯ/	/n-g-ṯ/	615
+ngṯ	ngṯ	615
+/n-g(-y)/	/n-g(-y)/	615
+ngzḥn	ngzḥn	616
+/n-ġ-r/	/n-ġ-r/	616
+nġr	nġr	616
+nġry	nġry	617
+/n-ġ-ṣ/	/n-ġ-ṣ/	617
+nġsk	nġsk	617
+nġṯ	nġṯ	617
+nġṯy	nġṯy	617
+-nh	-nh	617
+nhmmt	nhmmt	617
+nhqt	nhqt	617
+nhr	nhr	618
+/n-ḥ/	/n-ḥ/	618
+nḥ	nḥ	618
+nḥbl	nḥbl	618
+nḥk	nḥk	618
+nḥl	nḥl	619
+nḥlt	nḥlt	619
+nḥr	nḥr	619
+nḥš	nḥš	619
+/n-ḥ-t/	/n-ḥ-t/	620
+/n-ḥ(-y/w)/	/n-ḥ(-y/w)/	620
+/n-ḫ/	/n-ḫ/	620
+nḫḫy	nḫḫy	621
+nḫl (I)	nḫl (I)	621
+nḫl (II)	nḫl (II)	621
+nḫnpt	nḫnpt	621
+nḫry	nḫry	621
+nḫt	nḫt	621
+nkl	nkl	622
+nklb	nklb	622
+nkly	nkly	622
+n-k-m	n-k-m	622
+nkr	nkr	622
+nkšy	nkšy	622
+/n-k-t/	/n-k-t/	623
+nkt	nkt	623
+nktmn	nktmn	623
+nktt	nktt	623
+/n-k-ṯ/(?)	/n-k-ṯ/(?)	623
+nkyt	nkyt	623
+nlbn	nlbn	623
+nmlḥ	nmlḥ	623
+nmq(n)	nmq(n)	623
+nmrt	nmrt	624
+nmry	nmry	624
+nmš	nmš	624
+nmty	nmty	624
+nmy	nmy	624
+-nn	-nn	624
+nn	nn	624
+nnu (I)	nnủ (I)	624
+nnu (II)	nnủ (II)	624
+nnḏ	nnḏ	625
+nnġb	nnġb	625
+nnr	nnr	625
+syll.:	syll.:	625
+nnw	nnw	625
+nny	nny	625
+/n-p/	/n-p/	625
+np	np	625
+npin	npỉn	625
+npk	npk	626
+/n-p-l/	/n-p-l/	626
+npl	npl	626
+/n-p(-p)/	/n-p(-p)/	626
+/n-p-r/	/n-p-r/	626
+npr (I)	npr (I)	626
+npr (II)	npr (II)	627
+npršn	npršn	627
+npṣ	npṣ	627
+npš (I)	npš (I)	627
+npš (II)	npš (II)	629
+npšn	npšn	629
+npt	npt	629
+npṭry	npṭry	629
+npṯt	npṯt	629
+/n-p-y/	/n-p-y/	629
+npy	npy	630
+npyn	npyn	630
+/n-q-b/	/n-q-b/	630
+nqbn	nqbn	630
+nqd	nqd	630
+/n-q-h/	/n-q-h/	631
+nql	nql	631
+nqly	nqly	631
+nqmd	nqmd	631
+nqmpʕ	nqmpʕ	632
+nqp(n)t	nqp(n)t	632
+nqpt	nqpt	632
+nqq	nqq	632
+nqṭn	nqṭn	632
+/n-q-y/	/n-q-y/	632
+/n-r/	/n-r/	633
+nr	nr	633
+nrb	nrb	633
+nrn	nrn	633
+nrt (I)	nrt (I)	634
+nrt (II)	nrt (II)	634
+nrṯt	nrṯt	634
+nryn	nryn	634
+/n-s/	/n-s/	634
+/n-s-ʕ/ (I)	/n-s-ʕ/ (I)	634
+/n-s:ś-ʕ/ (II)	/n-s:ś-ʕ/ (II)	634
+/n-s-k/	/n-s-k/	635
+nsk	nsk	635
+nskn	nskn	636
+nskt	nskt	636
+/n-s(-y)/ (I)	/n-s(-y)/ (I)	636
+/n-s-y/ (II)	/n-s-y/ (II)	636
+nṣ (I)	nṣ (I)	637
+nṣ (II)	nṣ (II)	637
+/n-ṣ-b/	/n-ṣ-b/	637
+nṣbt	nṣbt	637
+nṣd	nṣd	637
+nṣdn	nṣdn	637
+nṣḥ	nṣḥ	637
+/n-ṣ-l/	/n-ṣ-l/	638
+nṣp	nṣp	638
+/n-ṣ-r/	/n-ṣ-r/	638
+/n-ṣ-ṣ/	/n-ṣ-ṣ/	638
+nṣṣn	nṣṣn	639
+nš	nš	639
+/n-š-ʔ/	/n-š-ʔ/	639
+nšu	nšủ	640
+nšb	nšb	640
+nšg	nšg	640
+nšk	nšk	640
+nšlm	nšlm	640
+nšm	nšm	640
+/n-š-q/	/n-š-q/	640
+nšr	nšr	641
+/n-š-y/	/n-š-y/	641
+nšy	nšy	641
+ntb	ntb	641
+ntbt	ntbt	642
+ntbtš	ntbtš	642
+/n-t-k/	/n-t-k/	642
+ntk	ntk	642
+ntn	ntn	642
+ntp	ntp	643
+/n-t-r/	/n-t-r/	643
+/n-ṭ-ṭ/	/n-ṭ-ṭ/	643
+nṯbn	nṯbn	643
+/n-ṯ-k/	/n-ṯ-k/	643
+nṯk (I)	nṯk (I)	643
+nṯk (II)	nṯk (II)	644
+nṯq	nṯq	644
+nṯrtb	nṯrtb	644
+nṯṯ	nṯṯ	644
+nwgn	nwgn	644
+nwrḏ	nwrḏ	644
+nwrḏr	nwrḏr	644
+-ny	-ny	644
+nyr	nyr	644
+nzʕn	nzʕn	645
+nzdt	nzdt	645
+nzl	nzl	645
+/n-z-q/	/n-z-q/	645
+nẓril	nẓrỉl	645
+p (I)	p (I)	646
+p (II)	p (II)	647
+p (III)	p (III)	647
+pid	pỉd	648
+pil	pỉl	648
+piln	pỉln	648
+palt	pảlt	648
+pam(t)	pảm(t)	648
+pat	pảt	649
+pit	pỉt	649
+pity	pỉty	649
+pʕ	pʕ	649
+/p-ʕ-l/	/p-ʕ-l/	649
+pʕl	pʕl	649
+pʕn	pʕn	650
+/p-ʕ-r/	/p-ʕ-r/	650
+pʕṣ	pʕṣ	650
+pbl	pbl	651
+pbn	pbn	651
+pbṯr	pbṯr	651
+pbyn	pbyn	651
+pd (I)	pd (I)	651
+pd (II)	pd (II)	651
+pdu	pdủ	651
+/p-d-d/	/p-d-d/	651
+pdd	pdd	652
+pdḏn	pdḏn	652
+pdḏr	pdḏr	652
+pdġb	pdġb	652
+pdġy	pdġy	652
+pdm	pdm	652
+pdn	pdn	652
+pdr (I)	pdr (I)	652
+pdr (II)	pdr (II)	652
+pdrn	pdrn	653
+pdry	pdry	653
+pdṯn	pdṯn	653
+/p-d-y/	/p-d-y/	653
+pdy (I)	pdy (I)	653
+pdy (II)	pdy (II)	653
+pdyn	pdyn	654
+pḏ	pḏ	654
+pḏyn	pḏyn	654
+pgu	pgủ	654
+pglu[	pglủ[	654
+pglt	pglt	654
+pgm	pgm	654
+pgn	pgn	655
+pgr	pgr	655
+pġḏn	pġḏn	655
+pġdr	pġdr	655
+pġn	pġn	655
+pġ(n)dr	pġ(n)dr	655
+pġsdb	pġsdb	655
+pġt	pġt	656
+pġy	pġy	656
+pġyn	pġyn	656
+phr	phr	656
+/p-h-y/	/p-h-y/	656
+pḥ	pḥ	657
+pḥl	pḥl	657
+pḥlt	pḥlt	657
+pḥm	pḥm	657
+pḫd	pḫd	658
+pḫn	pḫn	659
+pḫr (I)	pḫr (I)	659
+pḫr (II)	pḫr (II)	659
+pḫyr	pḫyr	659
+pkdy	pkdy	659
+pkly	pkly	660
+/p-k-y/	/p-k-y/	660
+pl	pl	660
+pld	pld	660
+/p-l-g/	/p-l-g/	660
+plg	plg	661
+plġn	plġn	661
+plk	plk	661
+plkn	plkn	661
+/p-l(-l)/	/p-l(-l)/	661
+pll	pll	661
+pln	pln	661
+pls/ś	pls/ś	661
+pls/śbʕl	pls/śbʕl	662
+plsy	plsy	662
+plšn	plšn	662
+/p-l-ṭ/	/p-l-ṭ/	662
+plṭ	plṭ	662
+plṯt	plṯt	662
+plwn	plwn	662
+/p-l-y/	/p-l-y/	663
+ply	ply	663
+plzn	plzn	663
+pmlk	pmlk	663
+pmn	pmn	663
+pn	pn	663
+pnu	pnủ	663
+pndḏn	pndḏn	664
+pndr	pndr	664
+pndn	pndn	664
+pndyn	pndyn	664
+pnḥṯ	pnḥṯ	664
+pnm	pnm	664
+pnmn	pnmn	665
+/p-n-n/	/p-n-n/	665
+pnt	pnt	665
+pnṯbl	pnṯbl	666
+/p-n-y/	/p-n-y/	666
+ppn	ppn	666
+pprn	pprn	666
+ppšr	ppšr	666
+ppšrt	ppšrt	666
+ppṯ	ppṯ	666
+/p-q/	/p-q/	666
+/p-q-d/	/p-q-d/	667
+pqr	pqr	667
+pr (I)	pr (I)	667
+pr (II)	pr (II)	667
+pru	prủ	667
+/p-r-ʕ/	/p-r-ʕ/	667
+prʕ (I)	prʕ (I)	668
+prʕ (II)	prʕ (II)	668
+prʕt	prʕt	668
+prbḫṯ	prbḫṯ	668
+prd (I)	prd (I)	668
+prd (II)	prd (II)	668
+prdmn	prdmn	668
+prdny	prdny	669
+prdy	prdy	669
+prgl	prgl	669
+prgn	prgn	669
+prġṯ	prġṯ	669
+prẖ (I)	prẖ (I)	669
+prḫ (II)	prḫ (II)	669
+prḫn	prḫn	669
+prkl	prkl	669
+prln	prln	669
+prmn	prmn	670
+prn	prn	670
+prpr	prpr	670
+/p-r-q/	/p-r-q/	670
+prqdš	prqdš	670
+prqt	prqt	670
+/p-r(-r)/	/p-r(-r)/	670
+*/p-r-s/	*/p-r-s/	671
+prs (I)	prs (I)	671
+prs (II)	prs (II)	671
+prs (III)	prs (III)	671
+prś/s	prś/s	671
+prsg	prsg	672
+prsḥ	prsḥ	672
+prs̱m	prs̱m	672
+prsn	prsn	672
+prst	prst	672
+prṣ	prṣ	672
+/p-r-š/	/p-r-š/	672
+*pršu	*pršủ	673
+prt (I)	prt (I)	673
+prt (II)	prt (II)	673
+prtn	prtn	673
+prtṯr	prtṯr	673
+prtwn	prtwn	673
+prṭl	prṭl	673
+prṯ	prṯ	673
+prṯt	prṯt	674
+prwsdy	prwsdy	674
+prz	prz	674
+prẓ	prẓ	674
+psḥn	psḥn	674
+*p-s-l	*p-s-l	674
+psl	psl	674
+pslt (I)	pslt (I)	674
+pslt (II)	pslt (II)	674
+psm	psm	675
+psś	psś	675
+pṣln	pṣln	675
+pṣn	pṣn	675
+/p-š/	/p-š/	675
+*p-š-ʕ	*p-š-ʕ	675
+pšʕ	pšʕ	675
+/p-t-ḥ/	/p-t-ḥ/	675
+ptḥ	ptḥ	676
+ptm	ptm	676
+ptn	ptn	676
+ptr	ptr	676
+/p-t(-y)/	/p-t(-y)/	676
+pṭḏ	pṭḏ	676
+pṭḏn	pṭḏn	676
+*p-ṭ-r	*p-ṭ-r	677
+pṭr	pṭr	677
+pṭry	pṭry	677
+pṯ	pṯ	677
+pṯmn	pṯmn	677
+pṯpṯ	pṯpṯ	677
+pṯrty	pṯrty	677
+pṯt (I)	pṯt (I)	677
+pṯt (II)	pṯt (II)	678
+pwn	pwn	678
+pwt	pwt	678
+py	py	678
+pyn	pyn	678
+pynq	pynq	678
+pzny	pzny	678
+pzry	pzry	679
+pzy	pzy	679
+*/p-ẓ-ġ/	*/p-ẓ-ġ/	679
+pẓġ	pẓġ	679
+/p-ẓ-l/	/p-ẓ-l/	679
+/p-ẓ-r/	/p-ẓ-r/	679
+qʕl (I)	qʕl (I)	681
+qʕl (II)	qʕl (II)	681
+qʕmr	qʕmr	681
+/q-b-ʔ/	/q-b-ʔ/	681
+qbʔl	qbʔl	681
+qbʕt	qbʕt	681
+*/q-b-b/	*/q-b-b/	681
+qbl	qbl	681
+qblbl	qblbl	682
+/q-b-r/	/q-b-r/	682
+qbr (I)	qbr (I)	682
+qbr (II)	qbr (II)	682
+qbṣ	qbṣ	682
+qbṣt	qbṣt	683
+qbṭ[	qbṭ[	683
+qbẓ	qbẓ	683
+qdḥ	qdḥ	683
+/q-d-m/	/q-d-m/	683
+qdm (I)	qdm (I)	683
+qdm (II)	qdm (II)	684
+qdmn	qdmn	684
+qdmt	qdmt	684
+qdmy	qdmy	684
+qdnt	qdnt	684
+qdqd	qdqd	684
+qdr	qdr	685
+/q-d-š/	/q-d-š/	685
+qdš (I)	qdš (I)	685
+qdš (II)	qdš (II)	686
+qdš (III)	qdš (III)	686
+qdš (IV)	qdš (IV)	687
+qdšt (I)	qdšt (I)	687
+qdšt (II)	qdšt (II)	687
+qhm	qhm	687
+/q-l/	/q-l/	687
+ql (I)	ql (I)	688
+ql (II)	ql (II)	689
+qlʕ	qlʕ	689
+qldn	qldn	690
+qlḥ	qlḥ	690
+qlḫt	qlḫt	690
+*/q-l-l/	*/q-l-l/	691
+qlpy	qlpy	691
+qln	qln	691
+qlql	qlql	691
+/q-l-ṣ/	/q-l-ṣ/	691
+qlt (I)	qlt (I)	691
+qlt (II)	qlt (II)	691
+qlṯ[	qlṯ[	692
+qly	qly	692
+/q-m/	/q-m/	692
+qm	qm	692
+qmḥ	qmḥ	692
+qmẖ	qmẖ	693
+qmm	qmm	693
+qmnz	qmnz	693
+qmnzy	qmnzy	693
+/q-m-ṣ/	/q-m-ṣ/	693
+qmṣ (I)	qmṣ (I)	693
+qmṣ (II)	qmṣ (II)	694
+qmṣ (III)	qmṣ (III)	694
+qmy	qmy	694
+qn	qn	694
+qnu	qnủ	695
+qnum	qnủm	695
+qnuy	qnủy	695
+qnḏ	qnḏ	695
+qnmlk	qnmlk	695
+/q-n(-n)/	/q-n(-n)/	695
+/q-n-ṣ/	/q-n-ṣ/	695
+/q-n-y/	/q-n-y/	696
+qpt	qpt	696
+qq	qq	696
+qqln	qqln	697
+qr (I)	qr (I)	697
+qr (II)	qr (II)	697
+qr (III)	qr (III)	697
+/q-r-ʔ/	/q-r-ʔ/	697
+qrat	qrảt	698
+/q-r-b/	/q-r-b/	698
+qrb	qrb	699
+qrd (I)	qrd (I)	699
+qrd (II)	qrd (II)	700
+qrdmn	qrdmn	700
+qrdy	qrdy	700
+qrht	qrht	700
+qrḥn	qrḥn	700
+qrn	qrn	700
+qrps	qrps	701
+qrq	qrq	701
+qrr	qrr	701
+qrrn	qrrn	701
+qrsu	qrsủ	701
+/q-r-ṣ/	/q-r-ṣ/	701
+qrš	qrš	701
+qrt (I)	qrt (I)	702
+qrt (II)	qrt (II)	702
+qrt (III)	qrt (III)	703
+qrtmt	qrtmt	703
+qrty	qrty	703
+qrṭy	qrṭy	703
+qrwn (I)	qrwn (I)	703
+qrwn (II)	qrwn (II)	703
+/q-r-y/	/q-r-y/	703
+qry	qry	704
+qryt	qryt	704
+qrzbl	qrzbl	704
+qrẓ	qrẓ	704
+qsrm	qsrm	705
+qṣ	qṣ	705
+qṣʕt	qṣʕt	705
+qṣḥ	qṣḥ	705
+qṣm	qṣm	705
+qṣn	qṣn	705
+/q-ṣ-r/	/q-ṣ-r/	706
+qṣr (I)	qṣr (I)	706
+qṣr (II)	qṣr (II)	706
+qṣrt	qṣrt	706
+/q-ṣ(-ṣ)/	/q-ṣ(-ṣ)/	706
+qṣy	qṣy	706
+qš (I)	qš (I)	706
+qš (II)	qš (II)	707
+qšt	qšt	707
+qt	qt	708
+qṭ (I)	qṭ (I)	708
+qṭ (II)	qṭ (II)	708
+*/q-ṭ-n/	*/q-ṭ-n/	708
+qṭn (I)	qṭn (I)	708
+qṭn (II)	qṭn (II)	709
+qṭnn	qṭnn	709
+qṭr	qṭr	709
+/q-ṭ(-ṭ)/	/q-ṭ(-ṭ)/	709
+qṭt	qṭt	710
+qṭy (I)	qṭy (I)	710
+qṭy (II)	qṭy (II)	710
+/q-ṯ/	/q-ṯ/	710
+qwḥn	qwḥn	710
+qwy	qwy	710
+qym (I)	qym (I)	710
+qym (II)	qym (II)	710
+qẓ	qẓ	711
+qẓb	qẓb	711
+qẓrt	qẓrt	711
+ra	rả	712
+riʕbd	rỉʕbd	712
+rib	rỉb	712
+ridn (I)	rỉdn (I)	712
+ridn (II)	rỉdn (II)	712
+rum	rủm	712
+rimt	rỉmt	712
+/r-ʔ-š/	/r-ʔ-š/	713
+riš (I)	rỉš (I)	713
+riš (II)	rỉš (II)	714
+ruš	rủš	715
+rišn	rỉšn	715
+rišy	rỉšy	715
+rišyt	rỉšyt	715
+ray	rảy	715
+rʕ	rʕ	715
+rʕkt	rʕkt	716
+rʕt	rʕt	716
+rʕy (I)	rʕy (I)	716
+rʕy (II)	rʕy (II)	716
+rb (I)	rb (I)	716
+rb (II)	rb (II)	717
+rbil	rbỉl	718
+/r-b-ʕ/	/r-b-ʕ/	718
+rbʕ	rbʕ	718
+rbʕt	rbʕt	718
+/r-b(-b:y)/	/r-b(-b:y)/	719
+rb(b)	rb(b)	719
+rb(b)t	rb(b)t	719
+/r-b-d/	/r-b-d/	720
+/r-b-ṣ/	/r-b-ṣ/	720
+rbṣ	rbṣ	720
+rbt (I)	rbt (I)	720
+rbt (II)	rbt (II)	720
+rbt (III)	rbt (III)	721
+rdmn	rdmn	721
+rdn	rdn	721
+rdy	rdy	721
+rgbt	rgbt	721
+rgln	rgln	721
+/r-g-m/	/r-g-m/	721
+rgm	rgm	722
+/r-ġ/	/r-ġ/	723
+/r-ġ-b/	/r-ġ-b/	724
+rġbn	rġbn	724
+rḥ (I)	rḥ (I)	724
+rḥ (II)	rḥ (II)	724
+rḥ (III)	rḥ (III)	724
+rḥb (I)	rḥb (I)	724
+rḥb (II)	rḥb (II)	725
+rḥbn	rḥbn	725
+rḥbt	rḥbt	725
+/r-ḥ-m/	/r-ḥ-m/	725
+rḥm	rḥm	725
+rḥmy	rḥmy	726
+/r-ḥ-q/	/r-ḥ-q/	726
+rḥq	rḥq	726
+/r-ḥ-ṣ/	/r-ḥ-ṣ/	726
+rḥt	rḥt	727
+rḫnt	rḫnt	727
+/r-ḫ-p/	/r-ḫ-p/	727
+/r-k(-k)/	/r-k(-k)/	728
+/r-k-b/	/r-k-b/	728
+rkb (I)	rkb (I)	728
+rkb (II)	rkb (II)	728
+rkb (III)	rkb (III)	728
+rkby	rkby	729
+/r-k-s/	/r-k-s/	729
+rks	rks	729
+/r-m/	/r-m/	729
+rmib	rmỉb	730
+rm (I)	rm (I)	730
+rm (II)	rm (II)	730
+rmṣ	rmṣ	730
+rmš	rmš	730
+rmṯt	rmṯt	730
+/r-m-y/	/r-m-y/	730
+rmy	rmy	731
+rmyy	rmyy	731
+/r-n(-n)/	/r-n(-n)/	731
+rny	rny	731
+rp	rp	731
+/r-p-ʔ/	/r-p-ʔ/	731
+rpu	rpủ	731
+rpan	rpản	732
+rpil	rpỉl	732
+rpiy	rpỉy	732
+rpiyn	rpỉyn	732
+/r-p-s/	/r-p-s/	732
+rpš (I)	rpš (I)	732
+rpš (II)	rpš (II)	733
+rpš (III)	rpš (III)	733
+rpty	rpty	733
+/r-p-y/	/r-p-y/	733
+rq (I)	rq (I)	733
+rq (II)	rq (II)	733
+rqd	rqd	734
+rqdn	rqdn	734
+rqdy (I)	rqdy (I)	734
+rqdy (II)	rqdy (II)	734
+rqḥ (I)	rqḥ (I)	734
+rqḥ (II)	rqḥ (II)	735
+rqn	rqn	735
+*/r-q-q/	*/r-q-q/	735
+/r-q-ṣ/	/r-q-ṣ/	735
+rqt	rqt	735
+rṣm	rṣm	735
+rṣn	rṣn	735
+/r-š-ʕ/	/r-š-ʕ/	736
+ršʕ	ršʕ	736
+ršp	ršp	736
+ršpab	ršpảb	737
+ršpn	ršpn	737
+ršpy	ršpy	737
+/r-š(-š)/	/r-š(-š)/	737
+/r-š-y/	/r-š-y/	737
+rt	rt	737
+rtn	rtn	737
+/r-t-q/	/r-t-q/	737
+rṭ	rṭ	738
+rṭd	rṭd	738
+rṯ	rṯ	738
+rṯn	rṯn	738
+rṯt	rṯt	738
+/r-ṯ-y/	/r-ṯ-y/	738
+rwy	rwy	738
+/r-ẓ/	/r-ẓ/	738
+/s-ʔ-d/	/s-ʔ-d/	740
+sid	sỉd	740
+sin	sỉn	740
+sip	sỉp	740
+/s-ʕ/	/s-ʕ/	740
+sʕt	sʕt	740
+/s:ś-b-b	/s:ś-b-b	740
+sbbyn	sbbyn	741
+sbd	sbd	741
+śbl	śbl	741
+sbrdn	sbrdn	741
+sd	sd	742
+śdmy	śdmy	742
+sdn	sdn	742
+s:śdn	s:śdn	742
+sdwn	sdwn	742
+s:śdy	s:śdy	742
+sgld	sgld	742
+sgldn	sgldn	742
+sglt	sglt	742
+śgn	śgn	743
+/s-g-r/	/s-g-r/	743
+sgr (I)	sgr (I)	743
+sgr (II)	sgr (II)	743
+sgr (III)	sgr (III)	743
+sgrt	sgrt	743
+s/śgryn	s/śgryn	744
+sgštn	sgštn	744
+sgṯtn	sgṯtn	744
+s/śġr	s/śġr	744
+sġy	sġy	744
+shr	shr	744
+sḫl	sḫl	744
+/s-ḫ-r/	/s-ḫ-r/	745
+sḫr	sḫr	745
+sḫrn	sḫrn	745
+sḫrt	sḫrt	745
+sk (I)	sk (I)	745
+sk (II)	sk (II)	745
+*/s-k(-k)/	*/s-k(-k)/	745
+/s-k-n/	/s-k-n/	745
+s:śkn (I)	s:śkn (I)	746
+skn (II)	skn (II)	747
+skn (III)	skn (III)	748
+skn (IV)	skn (IV)	748
+sknt	sknt	748
+śknt	śknt	749
+skr	skr	749
+skt	skt	749
+slʕn	slʕn	749
+slʕy	slʕy	749
+slbʕl	slbʕl	749
+s:śld	s:śld	749
+slg	slg	749
+s:ślgyn	s:ślgyn	749
+slḫ (I)	slḫ (I)	749
+slḫ (II)	slḫ (II)	750
+slḫu	slḫủ	750
+slḫy	slḫy	750
+sll	sll	750
+slm	slm	750
+slmu	slmu	751
+slmz	slmz	751
+sln	sln	751
+slpd	slpd	751
+slṯmg	slṯmg	751
+sly	sly	751
+slyn	slyn	751
+smd	smd	751
+smkt	smkt	751
+smm	smm	751
+smwn	smwn	752
+smyy	smyy	752
+sn	sn	752
+snb	snb	752
+śnd	śnd	752
+s(n)drn	s(n)drn	752
+snġr	snġr	752
+snnt	snnt	752
+snp	snp	752
+snr (I)	snr (I)	752
+snr (II)	snr (II)	753
+snr	snr	753
+s/śnrn	s/śnrn	753
+snry (I)	snry (I)	753
+snry (II)	snry (II)	753
+snt	snt	753
+sny	sny	753
+sp	sp	753
+/s-p-ʔ/	/s-p-ʔ/	754
+spḫy	spḫy	754
+spl	spl	754
+/s-p-r/	/s-p-r/	755
+spr (I)	spr (I)	755
+spr (II)	spr (II)	756
+spr (III)	spr (III)	757
+spr (IV)	spr (IV)	757
+sprt	sprt	758
+ś:sp/bś:sg	ś:sp/bś:sg	758
+spyy	spyy	758
+/s-r/	/s-r/	758
+srd	srd	758
+srdnn	srdnn	759
+srn	srn	759
+s/śrn	s/śrn	759
+srp	srp	759
+/s-r-r/	/s-r-r/	759
+srr	srr	759
+srt	srt	759
+srty	srty	759
+srwd	srwd	759
+ss	ss	760
+ssg	ssg	760
+ssl	ssl	760
+ssm	ssm	760
+ssn (I)	ssn (I)	760
+ssn (II)	ssn (II)	760
+sst	sst	760
+śst	śst	760
+s:śs/św	s:śs/św	760
+śśw	śśw	761
+sswt	sswt	761
+st/mḫ	st/mḫ	762
+strn	strn	762
+stry	stry	762
+s/św	s/św	762
+s/śwn	s/śwn	762
+swr	swr	762
+swy	swy	762
+sy	sy	762
+syn	syn	762
+synn	synn	762
+syny	syny	763
+syr	syr	763
+śz	śz	763
+s:śzn	s:śzn	763
+ṣin (I)	ṣỉn (I)	764
+ṣin (II)	ṣỉn (II)	764
+ṣat	ṣảt	764
+ṣʕ (I)	ṣʕ (I)	764
+ṣʕ (II)	ṣʕ (II)	765
+ṣʕq	ṣʕq	765
+ṣʕṣ	ṣʕṣ	765
+ṣbu (I)	ṣbủ (I)	765
+ṣbu (II)	ṣbủ (II)	766
+ṣbr	ṣbr	766
+ṣbrt	ṣbrt	766
+ṣbt	ṣbt	766
+*/ṣ/ḍ-b-ṭ/	*/ṣ/ḍ-b-ṭ/	767
+ṣbṭn	ṣbṭn	767
+/ṣ-d/	/ṣ-d/	767
+ṣd (I)	ṣd (I)	767
+ṣd (II)	ṣd (II)	767
+ṣdkn	ṣdkn	767
+*/ṣ-d-q/	*/ṣ-d-q/	767
+ṣdqy	ṣdqy	768
+ṣdq (I)	ṣdq (I)	768
+ṣdq (II)	ṣdq (II)	768
+ṣdqil	ṣdqỉl	768
+ṣdqm	ṣdqm	768
+ṣdqn	ṣdqn	768
+ṣdqšlm	ṣdqšlm	768
+ṣdt	ṣdt	768
+ṣdyn	ṣdyn	769
+/ṣ-ġ-d/	/ṣ-ġ-d/	769
+ṣġr (I)	ṣġr (I)	769
+ṣġr (II)	ṣġr (II)	769
+ṣġrt (I)	ṣġrt (I)	769
+ṣġrt (II)	ṣġrt (II)	770
+/ṣ-h-l/	/ṣ-h-l/	770
+/ṣ-ḥ/	/ṣ-ḥ/	770
+/ṣ-ḥ-q/	/ṣ-ḥ-q/	771
+ṣḥq	ṣḥq	771
+*/ṣ-ḥ-r/	*/ṣ-ḥ-r/	771
+ṣḥrn	ṣḥrn	771
+/ṣ-ḥ-r-r/	/ṣ-ḥ-r-r/	771
+ṣlʕ	ṣlʕ	772
+ṣlḥn	ṣlḥn	772
+ṣlm	ṣlm	772
+ṣlpn	ṣlpn	772
+ṣlt	ṣlt	772
+/ṣ-l-y/	/ṣ-l-y/	772
+/ṣ-m-d/	/ṣ-m-d/	773
+ṣmd	ṣmd	773
+ṣml (I)	ṣml (I)	774
+ṣml (II)	ṣml (II)	775
+ṣmll	ṣmll	775
+ṣmq	ṣmq	775
+ṣmrt	ṣmrt	775
+/ṣ-m-t/	/ṣ-m-t/	775
+ṣmt	ṣmt	775
+ṣmy	ṣmy	776
+ṣnnr	ṣnnr	776
+ṣnr	ṣnr	776
+ṣnrn	ṣnrn	776
+ṣp (I)	ṣp (I)	776
+ṣp (II)	ṣp (II)	776
+ṣp (III)	ṣp (III)	776
+ṣpn	ṣpn	777
+ṣpr (I)	ṣpr (I)	777
+ṣpr (II)	ṣpr (II)	778
+ṣprn	ṣprn	778
+/ṣ-p-y/	/ṣ-p-y/	778
+/ṣ-q/	/ṣ-q/	778
+ṣq	ṣq	778
+ṣqm	ṣqm	779
+ṣqn	ṣqn	779
+ṣqrn	ṣqrn	779
+ṣr	ṣr	779
+/ṣ-r(-r)/	/ṣ-r(-r)/	779
+ṣrdt	ṣrdt	779
+/ṣ-r-k/	/ṣ-r-k/	779
+ṣrp	ṣrp	779
+ṣrpt	ṣrpt	780
+ṣrr	ṣrr	780
+ṣrrt	ṣrrt	780
+ṣrry	ṣrry	780
+ṣrt	ṣrt	780
+ṣrṭn	ṣrṭn	781
+ṣrṯ	ṣrṯ	781
+ṣrṯ[	ṣrṯ[	781
+ṣry (I)	ṣry (I)	781
+ṣry (II)	ṣry (II)	781
+ṣrym	ṣrym	781
+ṣṣ	ṣṣ	781
+ṣṣn	ṣṣn	781
+ṣṣb	ṣṣb	781
+ṣt	ṣt	781
+ṣṭqšlm	ṣṭqšlm	782
+ṣtqn	ṣtqn	782
+ṣtry	ṣtry	782
+ṣwy	ṣwy	782
+š	š	783
+/š-ʔ-b/	/š-ʔ-b/	783
+ša:ib	šả:ỉb	784
+šibt	šỉbt	784
+/š-ʔ-l/	/š-ʔ-l/	784
+šal	šảl	785
+šil (I)	šỉl (I)	785
+šil (II)	šỉl (II)	785
+šim	šỉm	785
+šin	šỉn	785
+šant	šảnt	786
+/š-ʔ-r/	/š-ʔ-r/	786
+šir (I)	šỉr (I)	786
+šir (II)	šỉr (II)	786
+šurt	šủrt	786
+šiy (I)	šỉy (I)	787
+šiy (II)	šỉy (II)	787
+/š-ʕ-r/	/š-ʕ-r/	787
+šʕr	šʕr	787
+šʕrm	šʕrm	787
+šʕrt (I)	šʕrt (I)	788
+šʕrt (II)	šʕrt (II)	789
+šʕrty	šʕrty	789
+šʕtq	šʕtq	789
+šʕtqt	šʕtqt	789
+šb	šb	789
+/š-b-ʕ/ (I)	/š-b-ʕ/ (I)	790
+/š-b-ʕ/ (II)	/š-b-ʕ/ (II)	790
+šbʕ (I)	šbʕ (I)	790
+šbʕ (II)	šbʕ (II)	792
+šbʕ(i)d	šbʕ(ỉ)d	792
+šbʕl	šbʕl	792
+šbʕm	šbʕm	792
+šbʕr	šbʕr	793
+šbḥ	šbḥ	793
+šblt	šblt	793
+/š-b-m/	/š-b-m/	793
+šbm	šbm	793
+šbn (I)	šbn (I)	794
+šbn (II)	šbn (II)	794
+šbnt	šbnt	794
+šbny	šbny	794
+šbr	šbr	794
+šbrt[	šbrt[	794
+/š-b-š/	/š-b-š/	794
+šbšlt	šbšlt	795
+/š-b-t/	/š-b-t/	795
+šbt	šbt	795
+šby	šby	795
+šd (I)	šd (I)	795
+šd (II)	šd (II)	797
+šdby	šdby	798
+/š-d-d/ (I)	/š-d-d/ (I)	798
+/š-d-d/ (II)	/š-d-d/ (II)	799
+šdġl	šdġl	799
+šdmt	šdmt	799
+/š-d-y/	/š-d-y/	799
+šdy (I)	šdy (I)	799
+šdy (II)	šdy (II)	799
+šdyn	šdyn	799
+šḏrn	šḏrn	800
+šgr (I)	šgr (I)	800
+šgr (II)	šgr (II)	800
+šgty	šgty	800
+/š-ḥ-y/	/š-ḥ-y/	800
+šḥlmmt	šḥlmmt	800
+šḥlt	šḥlt	800
+šḥq	šḥq	801
+šḥr	šḥr	801
+šḥt	šḥt	801
+/š-ḫ-n/	/š-ḫ-n/	801
+šḫp	šḫp	802
+šḫṭ	šḫṭ	802
+šḫyn	šḫyn	802
+/š-k-b/	/š-k-b/	802
+škbḏ	škbḏ	803
+/š-k-ḥ/	/š-k-ḥ/	803
+škl	škl	803
+škllt	škllt	803
+škm	škm	803
+/š-k-n/	/š-k-n/	803
+škn (I)	škn (I)	804
+škn (II)	škn (II)	804
+šknn	šknn	804
+škny	škny	804
+/š-k-r/ (I)	/š-k-r/ (I)	804
+/š-k-r/ (II)	/š-k-r/ (II)	804
+škr	škr	804
+škrn	škrn	805
+/š-l-ḥ/ (I)	/š-l-ḥ/ (I)	805
+/š-l-ḥ/ (II)	/š-l-ḥ/ (II)	805
+šlḥ	šlḥ	805
+šlḥmt	šlḥmt	805
+s̄lẖt	s̄lẖt	806
+/š-l(-l)/	/š-l(-l)/	806
+/š-l-m/	/š-l-m/	806
+šlmt	šlmt	807
+šlm (I)	šlm (I)	807
+šlm (II)	šlm (II)	808
+šlm (III)	šlm (III)	808
+šlm (IV)	šlm (IV)	809
+šlm	šlm	809
+šlmn	šlmn	809
+šlmt (I)	šlmt (I)	809
+šlmt (II)	šlmt (II)	809
+šlmy (I)	šlmy (I)	809
+šlmy (II)	šlmy (II)	810
+šlmy (III)	šlmy (III)	810
+šlmym	šlmym	810
+s̄ls̄	s̄ls̄	810
+s̄ls̄t	s̄ls̄t	810
+/š-l-w/	/š-l-w/	810
+šlyṭ	šlyṭ	810
+šm (I)	šm (I)	810
+šm (II)	šm (II)	811
+šmal	šmảl	811
+/š-m-ʕ/	/š-m-ʕ/	811
+šmʕ	šmʕ	812
+šmʕn	šmʕn	812
+šmʕnt	šmʕnt	813
+šmʕt	šmʕt	813
+šmʕy	šmʕy	813
+šmbʕl	šmbʕl	813
+šmbnš	šmbnš	813
+šmgy	šmgy	813
+*/š-m-ḥ/	*/š-m-ḥ/	813
+/š-m-ḫ/	/š-m-ḫ/	813
+šmḫt	šmḫt	814
+šmk	šmk	814
+šml (I)	šml (I)	814
+šml (II)	šml (II)	814
+šmlbu	šmlbủ	814
+šmm (I)	šmm (I)	814
+šmm (II)	šmm (II)	815
+šmmlk	šmmlk	815
+šmmn	šmmn	815
+šmn (I)	šmn (I)	815
+šmn (II)	šmn (II)	817
+šmn (III)	šmn (III)	817
+šmn (IV)	šmn (IV)	817
+s̄mn	s̄mn	817
+šm(n)gy	šm(n)gy	817
+s̄mnt	s̄mnt	817
+šmn(y)	šmn(y)	818
+šmny	šmny	818
+šmrḫt	šmrḫt	818
+šmrm	šmrm	818
+šmrr	šmrr	818
+šmšr	šmšr	818
+šmt (I)	šmt (I)	818
+šmt (II)	šmt (II)	818
+šmt[	šmt[	819
+šmtr (I)	šmtr (I)	819
+šmtr (II)	šmtr (II)	819
+šmym (I)	šmym (I)	819
+šmym (II)	šmym (II)	819
+šmyn	šmyn	819
+šn	šn	819
+/š-n-ʔ/	/š-n-ʔ/	820
+šnu	šnủ	820
+šnʕt	šnʕt	820
+šndrb	šndrb	820
+šnl	šnl	820
+šnm	šnm	820
+šnmyk	šnmyk	821
+/š-n-n/	/š-n-n/	821
+šnpt	šnpt	821
+/š-n-s/	/š-n-s/	821
+šnt (I)	šnt (I)	821
+šnt (II)	šnt (II)	822
+/š-n-w/	/š-n-w/	822
+šp	šp	822
+špḥ	špḥ	823
+/š-p-k/	/š-p-k/	823
+/š-p-l/	/š-p-l/	823
+špqġhm	špqġhm	823
+špr	špr	824
+špš	špš	824
+špšm	špšm	825
+špšmlk	špšmlk	825
+špšn	špšn	825
+špšy	špšy	826
+špšyn	špšyn	826
+špt	špt	826
+šq	šq	826
+/š-q-b/	/š-q-b/	827
+/š-q-l/	/š-q-l/	827
+šql	šql	827
+s̄ql	s̄ql	827
+šqln	šqln	827
+/š-q-p/	/š-q-p/	827
+/š-q-y/	/š-q-y/	827
+šqy	šqy	828
+šqym	šqym	828
+/š-r/ (I)	/š-r/ (I)	828
+/š-r/ (II)	/š-r/ (II)	828
+šr (I)	šr (I)	828
+šr (II)	šr (II)	828
+šr (III)	šr (III)	829
+šr (IV)	šr (IV)	829
+šr	šr	830
+šrʕ	šrʕ	830
+šr?bx	šr?bx	830
+/š-r-d/	/š-r-d/	830
+/š-r-g/	/š-r-g/	831
+šrġzz	šrġzz	831
+/š-r-k/	/š-r-k/	831
+/š-r-p/	/š-r-p/	831
+šrp	šrp	831
+šrr	šrr	832
+šrš (I)	šrš (I)	832
+šrš (II)	šrš (II)	832
+šršʕm	šršʕm	833
+šršn	šršn	833
+šršy	šršy	833
+šrt (I)	šrt (I)	833
+šrt (II)	šrt (II)	833
+/š-r-y/w/	/š-r-y/w/	833
+šryn	šryn	833
+šš	šš	834
+s̄s̄	s̄s̄	834
+šškrgy	šškrgy	834
+ššl	ššl	834
+ššlmt	ššlmt	834
+ššmn	ššmn	834
+ššr	ššr	834
+ššrt	ššrt	835
+ššy	ššy	835
+/š-t/	/š-t/	835
+št (I)	št (I)	837
+št (II)	št (II)	838
+št (III)	št (III)	838
+št (IV)	št (IV)	838
+/š-t-d/	/š-t-d/	838
+štgy	štgy	838
+/š-t-k/	/š-t-k/	838
+štk	štk	839
+/š-t-m/	/š-t-m/	839
+štn	štn	839
+/š-t(-t)/	/š-t(-t)/	839
+štt	štt	839
+/š-t-y/	/š-t-y/	840
+šty (I)	šty (I)	840
+št[y] (II)	št[y] (II)	840
+šṭp	šṭp	840
+šy	šy	841
+š/ḏyn	š/ḏyn	841
+šyy	šyy	841
+šzrm	šzrm	841
+tu	tủ	842
+tan	tản	842
+ta/unt	tả/ủnt	842
+tinṯt	tỉnṯt	842
+tar	tảr	842
+tišr	tỉšr	842
+tiyn	tỉyn	843
+tuzn	tủzn	843
+/t-ʕ/	/t-ʕ/	843
+/t-ʕ-b/	/t-ʕ-b/	843
+tʕdt	tʕdt	843
+tʕḏr	tʕḏr	843
+tʕlgt	tʕlgt	843
+tʕlt	tʕlt	844
+tʕr	tʕr	844
+tʕrt	tʕrt	844
+/t-b-ʕ/	/t-b-ʕ/	844
+tbdn	tbdn	845
+tbbr	tbbr	845
+tbʕ	tbʕ	845
+tbd	tbd	845
+tbk	tbk	845
+tbl	tbl	845
+tbq	tbq	845
+tbr	tbr	845
+tbrrt	tbrrt	845
+tbṣr	tbṣr	845
+tbšn	tbšn	846
+tbtḫ	tbtḫ	846
+tbtṯb	tbtṯb	846
+tbṯḫ	tbṯḫ	846
+tby	tby	846
+tbṯr	tbṯr	846
+tdu	tdủ	846
+tdgly	tdgly	846
+tdgr	tdgr	846
+tdġl	tdġl	846
+td:tġl	td:tġl	846
+tdln	tdln	847
+tdmm	tdmm	847
+tdmmt	tdmmt	847
+tdmn	tdmn	847
+tdn	tdn	847
+tdrq	tdrq	847
+tdtt	tdtt	847
+tdyn	tdyn	847
+tg	tg	847
+tgbry	tgbry	848
+tgḏn	tgḏn	848
+tgġln	tgġln	848
+tgh	tgh	848
+tghb	tghb	848
+tgml	tgml	848
+tgmr	tgmr	848
+tgn	tgn	849
+tgpḫ	tgpḫ	849
+tgr	tgr	849
+tgrš	tgrš	849
+tgršp	tgršp	849
+tgtn	tgtn	849
+tgyn	tgyn	850
+tġd	tġd	850
+tġh	tġh	850
+tġll	tġll	850
+tġpṯ	tġpṯ	850
+tġpṯn	tġpṯn	850
+tġṯyn	tġṯyn	850
+tġyn	tġyn	850
+tġẓ	tġẓ	850
+tġẓyt	tġẓyt	851
+thm	thm	851
+thmt	thmt	851
+thw	thw	851
+tḥm	tḥm	852
+tḥt (I)	tḥt (I)	852
+tḥt (II)	tḥt (II)	853
+tḥtn	tḥtn	853
+tḥtyt	tḥtyt	853
+tḫtṣb	tḫtṣb	853
+tk	tk	853
+tkm	tkm	854
+tkmn	tkmn	854
+tkn (I)	tkn (I)	854
+tkn (II)	tkn (II)	854
+tkn (III)	tkn (III)	855
+tkny	tkny	855
+tkt	tkt	855
+tkwn	tkwn	855
+tkyġ	tkyġ	855
+tkyn	tkyn	855
+tl (I)	tl (I)	855
+tl (II)	tl (II)	855
+tliyt	tlỉyt	856
+tlʕ	tlʕ	856
+tlb	tlb	856
+tlbr	tlbr	856
+tlby	tlby	856
+tldn	tldn	856
+tlgn	tlgn	856
+tlm	tlm	857
+tlmu	tlmủ	857
+tlmd	tlmd	857
+tlmn	tlmn	857
+tlmš	tlmš	857
+tlmyn	tlmyn	857
+tlš (I)	tlš (I)	857
+tlš (II)	tlš (II)	857
+tlšn	tlšn	858
+tlṯ	tlṯ	858
+tly	tly	858
+tlyn	tlyn	858
+tlz	tlz	858
+tm	tm	858
+*/t-m(-m)/	*/t-m(-m)/	858
+tmn (I)	tmn (I)	858
+tmn (II)	tmn (II)	858
+tmnn	tmnn	858
+tmnt	tmnt	858
+tmr	tmr	859
+tmrm	tmrm	859
+tmrtn	tmrtn	859
+tmry	tmry	859
+tmtḫṣ	tmtḫṣ	859
+tmtt	tmtt	859
+tmtṯb	tmtṯb	859
+tmṯl	tmṯl	859
+tmy	tmy	860
+tmyn	tmyn	860
+tnabn	tnabn	860
+tngg	tngg	860
+tnmy	tnmy	860
+tnn (I)	tnn (I)	860
+tnn (II)	tnn (II)	860
+tnnb	tnnb	860
+tnqt (I)	tnqt (I)	861
+tnqt (II)	tnqt (II)	861
+tnṯ	tnṯ	861
+tny	tny	861
+tp (I)	tp (I)	861
+tp (II)	tp (II)	861
+tpḥ (I)	tpḥ (I)	861
+tpḥ (II)	tpḥ (II)	862
+tpnr	tpnr	862
+tpšlt	tpšlt	862
+tq	tq	862
+tqʕt	tqʕt	862
+tqn	tqn	862
+tqnt	tqnt	862
+/t-r/	/t-r/	862
+tr (I)	tr (I)	863
+tr (II)	tr (II)	863
+tral	trảl	864
+tran	trản	864
+/t-r-ʕ/	/t-r-ʕ/	864
+trb	trb	864
+trbnn	trbnn	864
+trbṣ	trbṣ	864
+trby	trby	864
+trbyt	trbyt	864
+trd/tn	trd/tn	865
+trgn	trgn	865
+trġds	trġds	865
+trġdś	trġdś	865
+trġ(n)ds	trġ(n)ds	865
+trġt	trġt	865
+trġzz	trġzz	865
+trhy	trhy	865
+trḥ	trḥ	865
+/t-r-ḫ/	/t-r-ḫ/	865
+trḫ	trḫ	866
+trḫt	trḫt	866
+trmmt	trmmt	866
+trmn	trmn	866
+trmt	trmt	866
+trn (I)	trn (I)	866
+trn (II)	trn (II)	866
+trnn:	trnn:	866
+trq	trq	867
+/t-r-r/	/t-r-r/	867
+trr	trr	867
+trtn	trtn	867
+trṯ	trṯ	867
+trzy	trzy	867
+trzyn	trzyn	867
+trẓẓ	trẓẓ	867
+tsm	tsm	868
+tšʕ	tšʕ	868
+tšʕm	tšʕm	868
+tškrġ	tškrġ	869
+tšlm	tšlm	869
+tšt	tšt	869
+tšyt	tšyt	869
+tt	tt	869
+ttġl	ttġl	869
+ttḫ	ttḫ	869
+ttkn	ttkn	870
+ttl	ttl	870
+ttn	ttn	870
+ttnt	ttnt	870
+ttyn	ttyn	870
+tṯb	tṯb	870
+tṯmd	tṯmd	871
+tṯn	tṯn	871
+tṯnt	tṯnt	871
+tṯyn	tṯyn	871
+twyn	twyn	871
+tyn	tyn	871
+tyt	tyt	871
+tzġ	tzġ	871
+tznx[	tznx[	872
+tznt	tznt	872
+/ṭ-ʕ-n/	/ṭ-ʕ-n/	873
+ṭb	ṭb	873
+/ṭ-b-ḫ/	/ṭ-b-ḫ/	873
+ṭbḫ	ṭbḫ	874
+ṭbn	ṭbn	874
+/ṭ-b-q/	/ṭ-b-q/	874
+ṭ:tbq	ṭ:tbq	874
+ṭbqy	ṭbqy	875
+ṭbrn	ṭbrn	875
+ṭbt	ṭbt	875
+ṭhr	ṭhr	875
+ṭḥl	ṭḥl	875
+/ṭ-ḥ-n/	/ṭ-ḥ-n/	875
+/ṭ-ḫ/	/ṭ-ḫ/	875
+ṭḫṣʕṯ	ṭḫṣʕṯ	876
+ṭl	ṭl	876
+/ṭ-l-b/	/ṭ-l-b/	876
+/ṭ-l-l/	/ṭ-l-l/	876
+ṭlm	ṭlm	876
+ṭlmyn	ṭlmyn	876
+ṭly	ṭly	876
+ṭmṯ	ṭmṯ	876
+/ṭ-r-d/	/ṭ-r-d/	876
+ṭrd	ṭrd	877
+ṭry (I)	ṭry (I)	877
+ṭry (II)	ṭry (II)	877
+ṭt	ṭt	877
+ṯ	ṯ	878
+ṯigt	ṯỉgt	878
+ṯiqt	ṯỉqt	878
+/ṯ-ʔ-r/	/ṯ-ʔ-r/	878
+ṯar	ṯảr	878
+ṯir	ṯỉr	879
+ṯat	ṯảt	879
+ṯiṭ	ṯỉṭ	879
+ṯuṯk	ṯủṯk	879
+ṯiy	ṯỉy	879
+ṯʕ (I)	ṯʕ (I)	879
+ṯʕ (II)	ṯʕ (II)	879
+ṯʕdt	ṯʕdt	880
+ṯʕl	ṯʕl	880
+ṯʕlb	ṯʕlb	880
+ṯʕln	ṯʕln	880
+ṯʕly	ṯʕly	880
+/ṯ-ʕ-r/	/ṯ-ʕ-r/	880
+ṯʕr	ṯʕr	880
+ṯʕt	ṯʕt	880
+/ṯ-ʕ-y/	/ṯ-ʕ-y/	881
+ṯʕy (I)	ṯʕy (I)	881
+ṯʕy (II)	ṯʕy (II)	881
+/ṯ-b/	/ṯ-b/	882
+ṯb	ṯb	883
+ṯbil (I)	ṯbỉl (I)	883
+ṯbil (II)	ṯbỉl (II)	883
+ṯbʕm	ṯbʕm	884
+ṯbʕnq	ṯbʕnq	884
+ṯbg	ṯbg	884
+ṯbġl	ṯbġl	884
+ṯbln	ṯbln	884
+ṯbq	ṯbq	884
+ṯbqy	ṯbqy	884
+/ṯ-b-r/	/ṯ-b-r/	884
+ṯbr	ṯbr	885
+ṯbrn (I)	ṯbrn (I)	885
+ṯbrn (II)	ṯbrn (II)	885
+ṯbry	ṯbry	885
+/ṯ-b-š/	/ṯ-b-š/	885
+ṯbt	ṯbt	885
+ṯbtnq	ṯbtnq	886
+ṯbṭ	ṯbṭ	886
+ṭby	ṭby	886
+ṯbym	ṯbym	886
+ṯd	ṯd	886
+ṯdn	ṯdn	886
+ṯdny	ṯdny	886
+ṯdnyn	ṯdnyn	886
+ṯdpṯn	ṯdpṯn	886
+ṯdr	ṯdr	886
+ṯdrṯ	ṯdrṯ	887
+/ṯ-d-ṯ/	/ṯ-d-ṯ/	887
+ṯdṯ	ṯdṯ	887
+ṯdṯb	ṯdṯb	887
+ṯdy	ṯdy	887
+ṯdyn	ṯdyn	887
+ṯḏyy	ṯḏyy	887
+ṯgb	ṯgb	887
+ṯgbr	ṯgbr	887
+ṯgd	ṯgd	887
+ṯgmi	ṯgmỉ	888
+ṯgrb	ṯgrb	888
+ṯgt	ṯgt	888
+ṯġṯy	ṯġṯy	888
+ṯġr (I)	ṯġr (I)	888
+ṯġr (II)	ṯġr (II)	888
+ṯġr (III)	ṯġr (III)	889
+ṯh	ṯh	889
+өḫr	өḫr	889
+ṯk	ṯk	889
+/ṯ-k-ḥ/	/ṯ-k-ḥ/	889
+/ṯ-k-l/	/ṯ-k-l/	890
+ṯkl	ṯkl	890
+ṯkm	ṯkm	890
+ṯkmn	ṯkmn	890
+ṯkmt	ṯkmt	890
+ṯkn	ṯkn	891
+ṯknt	ṯknt	891
+/ṯ-k-p/	/ṯ-k-p/	891
+/ṯ-k-r/	/ṯ-k-r/	891
+ṯkṣ	ṯkṣ	891
+ṯkt	ṯkt	891
+ṯl	ṯl	892
+өl	өl	892
+ṯlb	ṯlb	892
+ṯlbwn	ṯlbwn	892
+ṯlgn	ṯlgn	892
+ṯlġḏy	ṯlġḏy	892
+ṯlḥḫ	ṯlḥḫ	892
+ṯlḥmy	ṯlḥmy	892
+ṯlḥn	ṯlḥn	892
+ṯlḥn(y) (I)	ṯlḥn(y) (I)	893
+ṯlḥny (II)	ṯlḥny (II)	893
+ṯlḥny (III)	ṯlḥny (III)	893
+ṯlḫh	ṯlḫh	893
+ṯlln	ṯlln	893
+ṯllt	ṯllt	893
+ṯlrby (I)	ṯlrby (I)	893
+ṯlrby (II)	ṯlrby (II)	894
+ṯltḫ	ṯltḫ	894
+ṯlṭ	ṯlṭ	894
+/ṯ-l-ṯ/	/ṯ-l-ṯ/	894
+ṯlṯ (I)	ṯlṯ (I)	894
+ṯlṯ (II)	ṯlṯ (II)	897
+ṯlṯ (III)	ṯlṯ (III)	897
+ṯlṯ (IV)	ṯlṯ (IV)	897
+ṯlṯ	ṯlṯ	897
+ṯlṯid	ṯlṯỉd	898
+ṯlṯm	ṯlṯm	898
+ṯm	ṯm	900
+ṯmdl	ṯmdl	900
+ṯmg	ṯmg	900
+ṯmgdl	ṯmgdl	901
+ṯmgn	ṯmgn	901
+ṯmk	ṯmk	901
+/ṯ-m-m/	/ṯ-m-m/	901
+ṯmm	ṯmm	901
+/ṯ-m-n/	/ṯ-m-n/	901
+ṯmn(y) (I)	ṯmn(y) (I)	901
+ṯmn (II)	ṯmn (II)	903
+ṯmn (III)	ṯmn (III)	903
+ṯmnid	ṯmnỉd	903
+ṯmnr	ṯmnr	903
+ṯmn(y)	ṯmn(y)	903
+ṯmny	ṯmny	903
+ṯmnym	ṯmnym	903
+ṯmq (I)	ṯmq (I)	904
+ṯmq (II)	ṯmq (II)	904
+ṯmr	ṯmr	904
+ṯmrg	ṯmrg	904
+ṯmrn	ṯmrn	904
+ṯmr(y)	ṯmr(y)	904
+ṯmry	ṯmry	905
+ṯmt	ṯmt	905
+ṯmyr	ṯmyr	905
+/ṯ-n/	/ṯ-n/	905
+ṯn (I)	ṯn (I)	905
+ṯn (II)	ṯn (II)	907
+ṯn (III)	ṯn (III)	908
+ṯnid	ṯnỉd	908
+ṯndn	ṯndn	908
+ṯnġly	ṯnġly	908
+ṯnġlyt	ṯnġlyt	909
+ṯnġrn	ṯnġrn	909
+ṯnk	ṯnk	909
+ṯnm	ṯnm	909
+ṯnn (I)	ṯnn (I)	909
+ṯnn (II)	ṯnn (II)	909
+ṯnq	ṯnq	910
+ṯnqy (I)	ṯnqy (I)	910
+ṯnqy (II)	ṯnqy (II)	910
+ṯnt (I)	ṯnt (I)	910
+ṯnt (II)	ṯnt (II)	910
+ṯnw	ṯnw	910
+ṯnwn	ṯnwn	910
+/ṯ-n-y/	/ṯ-n-y/	910
+ṯny	ṯny	911
+ṯnyn	ṯnyn	911
+/ṯ-p-d/	/ṯ-p-d/	911
+ṯpdn	ṯpdn	911
+ṯpḥ	ṯpḥ	911
+ṯpḫln	ṯpḫln	911
+ṯpllm	ṯpllm	911
+ṯpn	ṯpn	912
+ṯprt	ṯprt	912
+ṯpš	ṯpš	912
+/ṯ-p-ṭ/	/ṯ-p-ṭ/	912
+ṯpṭ (I)	ṯpṭ (I)	912
+ṯpṭ (II)	ṯpṭ (II)	913
+ṯpṭbʕl	ṯpṭbʕl	913
+ṯpṭy	ṯpṭy	913
+ṯpẓ	ṯpẓ	913
+ṯq	ṯq	913
+ṯqb	ṯqb	913
+ṯqbn	ṯqbn	913
+ṯqby	ṯqby	914
+ṯqd	ṯqd	914
+ṯqdy	ṯqdy	914
+*/ṯ-q-l/	*/ṯ-q-l/	914
+ṯql	ṯql	914
+ṯqrn	ṯqrn	916
+/ṯ-q-y/	/ṯ-q-y/	916
+ṯr (I)	ṯr (I)	916
+ṯr (II)	ṯr (II)	917
+ṯr (III)	ṯr (III)	917
+ṯr (IV)	ṯr (IV)	917
+ṯr	ṯr	917
+өr	өr	917
+ṯrin	ṯrỉn	917
+/ṯ-r-ʕ/	/ṯ-r-ʕ/	917
+ṯrdm	ṯrdm	917
+ṯrdn	ṯrdn	917
+ṯrdnt	ṯrdnt	917
+ṯrdy	ṯrdy	917
+ṯrḏn	ṯrḏn	917
+ṯrk	ṯrk	917
+ṯrkn	ṯrkn	917
+/ṯ-r-m/	/ṯ-r-m/	917
+ṯrm	ṯrm	918
+ṯrmg	ṯrmg	918
+ṯrml	ṯrml	918
+ṯrmn (I)	ṯrmn (I)	918
+ṯrmn (II)	ṯrmn (II)	918
+ṯrmt	ṯrmt	919
+ṯrn (I)	ṯrn (I)	919
+ṯrn (II)	ṯrn (II)	919
+ṯrnq	ṯrnq	919
+/ṯ-r-p/	/ṯ-r-p/	919
+ṯrrt	ṯrrt	919
+ṯrry (I)	ṯrry (I)	920
+ṯrry (II)	ṯrry (II)	920
+ṯrt	ṯrt	920
+ṯrtn (I)	ṯrtn (I)	920
+ṯrtṯb	ṯrtṯb	920
+ṯrtn (II)	ṯrtn (II)	920
+ṯrṯy	ṯrṯy	920
+ṯrṯyn	ṯrṯyn	920
+*/ṯ-r-w/y/	*/ṯ-r-w/y/	920
+ṯryl	ṯryl	920
+ṯryn (I)	ṯryn (I)	921
+ṯryn (II)	ṯryn (II)	921
+ṯṣr	ṯṣr	921
+/ṯ-t-ʕ/	/ṯ-t-ʕ/	921
+ṯtm	ṯtm	921
+ṯtmnt	ṯtmnt	921
+ṯtqt	ṯtqt	922
+ṯtrn	ṯtrn	922
+ṯty	ṯty	922
+ṯtyn	ṯtyn	922
+ṯtyy	ṯtyy	922
+ṯṭ	ṯṭ	922
+өṭ	өṭ	922
+ṯṯ	ṯṯ	922
+ṯṯm	ṯṯm	924
+ṯṯpḥ	ṯṯpḥ	924
+ṯṯy	ṯṯy	925
+/ṯ-w-y/	/ṯ-w-y/	925
+ṯwyn	ṯwyn	925
+ṯyndr	ṯyndr	925
+ṯyb	ṯyb	925
+ṯydr	ṯydr	925
+ṯyn	ṯyn	925
+ṯyl	ṯyl	925
+ṯynḏr	ṯynḏr	925
+w	w	926
+wḏny	wḏny	929
+/w-ḥ-y/	/w-ḥ-y/	929
+wld	wld	929
+wm	wm	929
+wn	wn	929
+/w-p-ṯ/	/w-p-ṯ/	929
+wql	wql	930
+/w-q-y/	/w-q-y/	930
+wrt	wrt	930
+wry	wry	930
+/w-s-r/	/w-s-r/	930
+wtbḏ/ṯr	wtbḏ/ṯr	930
+wtrym	wtrym	930
+-y (I)	-y (I)	931
+-y (II)	-y (II)	931
+y	y	932
+yaršil	yảršỉl	932
+yʕbd	yʕbd	932
+yʕbdr	yʕbdr	932
+yʕby	yʕby	933
+yʕdb	yʕdb	933
+yʕdd	yʕdd	933
+yʕḏrd	yʕḏrd	933
+yʕḏrn	yʕḏrn	933
+yʕl (I)	yʕl (I)	933
+yʕl (II)	yʕl (II)	934
+yʕny	yʕny	934
+/y-ʕ-r/	/y-ʕ-r/	934
+yʕr (I)	yʕr (I)	934
+yʕr (II)	yʕr (II)	934
+yʕr (III)	yʕr (III)	934
+yʕrn	yʕrn	934
+yʕrt	yʕrt	934
+yʕrty	yʕrty	935
+ybʕ	ybʕ	935
+ybdn	ybdn	935
+/y-b-l/	/y-b-l/	935
+ybl (I)	ybl (I)	936
+ybl (II)	ybl (II)	936
+ybl (III)	ybl (III)	936
+ybl (IV)	ybl (IV)	936
+yblt	yblt	936
+/y-b-m/	/y-b-m/	937
+ybm	ybm	937
+ybmt	ybmt	937
+ybn	ybn	937
+ybnil	ybnỉl	937
+ybnmlk	ybnmlk	938
+ybnn	ybnn	938
+ybnt	ybnt	938
+ybrdmy	ybrdmy	938
+ybrk	ybrk	938
+ybśr	ybśr	938
+yd (I)	yd (I)	938
+yd (II)	yd (II)	941
+/y-d-ʕ/ (I)	/y-d-ʕ/ (I)	941
+/y-d-ʕ/ (II)	/y-d-ʕ/ (II)	942
+ydʕ	ydʕ	942
+ydʕn	ydʕn	942
+ydbil	ydbỉl	942
+ydbʕl	ydbʕl	942
+ydbbʕl	ydbbʕl	942
+ydbhd	ydbhd	942
+ydd (I)	ydd (I)	943
+ydd (II)	ydd (II)	943
+yddn	yddn	943
+yddt	yddt	943
+ydlm	ydlm	943
+ydln	ydln	943
+/y-d-n/	/y-d-n/	943
+ydn	ydn	943
+ydnil	ydnỉl	944
+ydnm	ydnm	944
+ydrm	ydrm	944
+ydrmt	ydrmt	944
+ydt	ydt	944
+/y-d-y/ (I)	/y-d-y/ (I)	944
+/y-d-y/ (II)	/y-d-y/ (II)	944
+ydy (I)	ydy (I)	945
+ydy (II)	ydy (II)	945
+ydy (III)	ydy (III)	945
+ydyn	ydyn	945
+ydyt	ydyt	945
+yḏrd	yḏrd	945
+ygb	ygb	945
+ygbhd	ygbhd	945
+ygmr	ygmr	945
+ygrš	ygrš	945
+ygry	ygry	945
+yġl	yġl	945
+yġš	yġš	946
+/y-h(-y)/	/y-h(-y)/	946
+yḥd	yḥd	946
+yḥdh	yḥdh	946
+/y/w-ḥ-l/	/y/w-ḥ-l/	946
+yḥmn	yḥmn	946
+yḥmr	yḥmr	947
+yḥn	yḥn	947
+yḥnn	yḥnn	947
+yḥpn	yḥpn	947
+yḥr	yḥr	947
+yḥṣdq	yḥṣdq	947
+yḥšr	yḥšr	947
+yḫlm	yḫlm	947
+ykn	ykn	947
+yknil	yknỉl	947
+yknʕ	yknʕ	947
+yknʕm	yknʕm	948
+yknʕmy	yknʕmy	948
+ykny	ykny	948
+ykr	ykr	948
+yky	yky	948
+/y-l-d/	/y-l-d/	948
+yld	yld	949
+ylḥn	ylḥn	949
+yly (I)	yly (I)	949
+yly (II)	yly (II)	949
+ym (I)	ym (I)	950
+ym (II)	ym (II)	951
+ymil	ymỉl	952
+yman	ymản	952
+ymd	ymd	952
+ymlk	ymlk	952
+ymmt	ymmt	952
+ymn (I)	ymn (I)	952
+ymn (II)	ymn (II)	953
+ymn (III)	ymn (III)	953
+/y-m-n-n/	/y-m-n-n/	953
+ymp/ẓ	ymp/ẓ	954
+ymrm	ymrm	954
+ymrn	ymrn	954
+ymtḏ/šr	ymtḏ/šr	954
+ymtšr	ymtšr	954
+ymy	ymy	954
+ymz	ymz	954
+yn	yn	954
+ynḥm	ynḥm	956
+ynḥn	ynḥn	956
+/y-n-q/	/y-n-q/	957
+ynt	ynt	957
+/y-n-y/	/y-n-y/	957
+yny (I)	yny (I)	957
+yny (II)	yny (II)	958
+yny (III)	yny (III)	958
+yp	yp	958
+/y-p-ʕ/	/y-p-ʕ/	958
+ypʕ (I)	ypʕ (I)	958
+ypʕ (II)	ypʕ (II)	958
+ypʕbʕl	ypʕbʕl	959
+ypʕmlk	ypʕmlk	959
+ypʕn	ypʕn	959
+ypḥ	ypḥ	959
+ypln	ypln	959
+yplt/ṭ(n)	yplt/ṭ(n)	959
+ypn	ypn	959
+/y-p-q/	/y-p-q/	959
+ypq	ypq	960
+ypr (I)	ypr (I)	960
+ypr (II)	ypr (II)	960
+yprḫ	yprḫ	960
+ypry	ypry	960
+ypš	ypš	960
+ypt (I)	ypt (I)	960
+ypt (II)	ypt (II)	960
+yptḥd	yptḥd	960
+ypy	ypy	960
+/y-q-ġ/	/y-q-ġ/	960
+yqr	yqr	961
+yqš (I)	yqš (I)	961
+yqš (II)	yqš (II)	961
+yqš (III)	yqš (III)	961
+/y-q-y/	/y-q-y/	961
+yr	yr	961
+/y-r-ʔ/	/y-r-ʔ/	962
+yrbʕm	yrbʕm	962
+/y-r-d/	/y-r-d/	962
+yrdt	yrdt	963
+yrgb	yrgb	963
+yrgbbʕl	yrgbbʕl	963
+yrgbhd	yrgbhd	963
+yrgblim	yrgblỉm	963
+yrġmbʕl	yrġmbʕl	963
+yrġmil	yrġmỉl	963
+yrḫ	yrḫ	963
+yrḫm	yrḫm	965
+yrk	yrk	965
+yrkt	yrkt	965
+yrm	yrm	965
+yrmʕl	yrmʕl	966
+yrmbʕl	yrmbʕl	966
+yrmhd	yrmhd	966
+yrml	yrml	966
+yrmly	yrmly	966
+yrmn	yrmn	966
+yrpu	yrpủ	966
+yrq	yrq	966
+yrqn	yrqn	967
+yrt	yrt	967
+/y-r-ṯ/	/y-r-ṯ/	967
+yrṯ (I)	yrṯ (I)	967
+yrṯ (II)	yrṯ (II)	968
+/y-r-y/	/y-r-y/	968
+yry	yry	968
+yryt	yryt	968
+ysd	ysd	968
+ys/śd	ys/śd	968
+ysm (I)	ysm (I)	968
+ysm (II)	ysm (II)	968
+ysmsm	ysmsm	968
+ysmsmt	ysmsmt	969
+ysmt	ysmt	969
+ysny	ysny	969
+/y-ṣ-ʔ/	/y-ṣ-ʔ/	969
+yṣu (I)	yṣủ (I)	970
+yṣu (II)	yṣủ (II)	971
+/y-ṣ-b/	/y-ṣ-b/	971
+yṣb	yṣb	971
+yṣḥ	yṣḥ	971
+yṣḥn	yṣḥn	971
+/y-ṣ-m/	/y-ṣ-m/	971
+yṣmḫ	yṣmḫ	972
+/y-ṣ-q/	/y-ṣ-q/	972
+yṣr (I)	yṣr (I)	972
+yṣr (II)	yṣr (II)	972
+yšb	yšb	972
+yšmʕ	yšmʕ	972
+/y-š-n/	/y-š-n/	973
+yšn	yšn	973
+yšr (I)	yšr (I)	973
+yšr (II)	yšr (II)	973
+yšril	yšril	973
+yt	yt	973
+ytḥm	ytḥm	973
+ytm	ytm	973
+ytmt	ytmt	974
+/y-t-n/	/y-t-n/	974
+ytnt	ytnt	977
+ytn (I)	ytn (I)	977
+ytn (II)	ytn (II)	977
+ytr	ytr	977
+ytrʕm	ytrʕm	977
+ytrhd	ytrhd	977
+ytrm	ytrm	978
+ytrš	ytrš	978
+ytršn	ytršn	978
+ytršp	ytršp	978
+ytrt	ytrt	978
+yty	yty	978
+yṭp(n)	yṭp(n)	978
+yṯil	yṯỉl	978
+yṯʕd	yṯʕd	978
+yṯʕn	yṯʕn	978
+/y-ṯ-b/	/y-ṯ-b/	978
+yṯb	yṯb	980
+yṯbt	yṯbt	980
+/y-ṯ-n/	/y-ṯ-n/	980
+yṯn	yṯn	980
+yṯpr	yṯpr	980
+yṯpṭ	yṯpṭ	980
+/y-ṯ-q/	/y-ṯ-q/	980
+yw	yw	980
+yy	yy	981
+yyn	yyn	981
+yzg	yzg	981
+/y-ẓ-ʔ/	/y-ẓ-ʔ/	981
+yzn	yzn	981
+z	z	982
+zbl (I)	zbl (I)	982
+zbl (II)	zbl (II)	982
+zbl (III)	zbl (III)	982
+zbl (IV)	zbl (IV)	982
+zbln	zbln	982
+/z-b-r/	/z-b-r/	983
+/z-d/	/z-d/	983
+zd	zd	983
+/z-ġ(-y)/	/z-ġ(-y)/	983
+zġt	zġt	983
+zl	zl	983
+zlbn	zlbn	983
+zlyy (I)	zlyy (I)	983
+zlyy (II)	zlyy (II)	984
+zn	zn	984
+znan	znản	984
+znt	znt	984
+zql	zql	984
+/z-r/	/z-r/	984
+zry	zry	984
+zt	zt	984
+ztr	ztr	985
+zzb	zzb	985
+ẓi	ẓỉ	986
+ẓiẓ	ẓỉẓ	986
+ẓu	ẓủ	986
+ẓbm (I)	ẓbm (I)	986
+ẓbm (II)	ẓbm (II)	986
+ẓbr	ẓbr	986
+ẓby	ẓby	986
+ẓhr	ẓhr	986
+/ẓ-ḥ-q/	/ẓ-ḥ-q/	986
+ẓl (I)	ẓl (I)	986
+ẓl (II)	ẓl (II)	987
+ẓll	ẓll	987
+ẓlmt	ẓlmt	987
+ẓm	ẓm	987
+ẓmn	ẓmn	987
+/ẓ-p-n/	/ẓ-p-n/	988
+ẓq	ẓq	988
+ẓr (I)	ẓr (I)	988
+ẓr (II)	ẓr (II)	988
+ẓrl	ẓrl	988
+ẓrm	ẓrm	988
+ẓrn	ẓrn	988
+ẓrw	ẓrw	988
+ẓtm	ẓtm	989
+ẓẓ	ẓẓ	989
+ẓẓn	ẓẓn	989
