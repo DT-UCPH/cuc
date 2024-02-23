@@ -1,6 +1,6 @@
 """
 Running the script creates line-by-line transcriptions of the original word files.
-Make sure the word files are in the same folder.
+Make sure the word files are in a folder named "/files/".
 """
 import os
 import re
