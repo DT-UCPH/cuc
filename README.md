@@ -8,7 +8,7 @@ This repo contains a text fabric dataset of the Ugaritic text corpus. It is work
 ### The CACCHT project: Creating Annotated Corpora of Classical Hebrew Text
 This dataset is developed as part of the CACCHT project, which is a collaboration of Christian Canu Højgaard, Martijn Naaijer, Martin Ehrensvärd, Robert Rezetko, Oliver Glanz, and Willem van Peursen. The goal of CACCHT is to prepare and publish ancient Semitic texts digitally, that can be used for research.
 
-For this dataset, we cooperate with Tania Notarius (University of the Free State) and Maria Simion.
+For this dataset, we cooperate with Tania Notarius (University of the Free State) and Maria Simion, volunteer assistant (Polis - the Jerusalem Institute of Language and Humanities).
 
 ### Data
 The following features are currently available:
