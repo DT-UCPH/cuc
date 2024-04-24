@@ -37,12 +37,15 @@ class TextTranscriber:
                 self.corpus = para.text
                 continue
 
+            if re.match('[LXVI+]', para.text):
+                column = para.text
+
             side = 'le\.e\.|low\.e\.|obv\.|r\.e\.|rev\.|up\.e\.'
             if re.match(rf'({side}) ?.', para.text):
                 return f'Side annotation mixed with text in {self.corpus} {column} {line}: {para.text}'
 
-            if re.match('[LXVI+]', para.text):
-                column = para.text
+            if para.text = '...'
+                return f'Unexpected ... in {self.corpus} {column} {line}: {para.text}'
 
             if re.match('^\d+', para.text):
                 line = int(re.match('^\d+', para.text).group())

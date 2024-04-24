@@ -11,9 +11,9 @@
 @valueType=str
 @version=0.1.9
 @writtenBy=Text-Fabric
-@dateWritten=2024-04-24T09:19:03Z
+@dateWritten=2024-04-24T11:04:56Z
 
-41105	l
+41063	l
 krt
 xxxx
 mlk
@@ -294,6 +294,7 @@ ngb
 w
 yṣi
 ʿdnx
+
 mʿ
 ṣbuk
 ul
@@ -630,6 +631,7 @@ l
 abh
 il
 šrd
+bʿl
 b
 dbḥh
 bn
@@ -6366,6 +6368,7 @@ gpn
 w
 ugr
 t
+
 spr
 ilmlk
 ṯʿy
@@ -8066,6 +8069,7 @@ adn
 yrgb
 bʿl
 ṯrmn
+xxx
 ḥbšh
 ʿtkt
 rišt
