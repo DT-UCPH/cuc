@@ -36,10 +36,13 @@ class TextTranscriber:
             if re.match('KTU', para.text):
                 self.corpus = para.text
                 continue
-                
-            if re.match(r'(rev. )?[LXVI+]', para.text):
-                column = para.text.lstrip('rev.').lstrip()
-                continue
+
+            side = 'le\.e\.|low\.e\.|obv\.|r\.e\.|rev\.|up\.e\.'
+            if re.match(rf'({side}) ?.', para.text):
+                return f'Side annotation mixed with text in {self.corpus} {column} {line}: {para.text}'
+
+            if re.match('[LXVI+]', para.text):
+                column = para.text
 
             if re.match('^\d+', para.text):
                 line = int(re.match('^\d+', para.text).group())
@@ -47,7 +50,7 @@ class TextTranscriber:
                 
                 for sign in text:
                     if sign not in CHARACTERS:
-                        return f'Illegal character in {self.corpus} {column} {line}: {sign}'
+                        return f'Illegal character in {self.corpus} {column} {line}: {sign} {ord(sign)}'
                 
 WORD_FILES_FOLDER = './files'
         
