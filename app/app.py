@@ -3,12 +3,15 @@ from tf.advanced.app import App
 
 
 CERTAINTY = dict(
-    uncertain="uncertain",    
+    uncertain="uncertain",
+)
+
+EMENDATION = dict(
     restored="supplied",
     excised="excised",
     redundant="redundant",
+    missing="missing",
 )
-
 
 def fmt_layoutTrans(app, n, **kwargs):
     return app._wrapHtml(n, "t")
@@ -31,12 +34,13 @@ class TfApp(App):
         L = api.L
 
         material = (F.usign.v(n) if kind == "u" else F.sign.v(n)) or ""
+        emendation = F.emen.v(n)
         certainty = F.cert.v(n)
-        material = f"""<span class="{CERTAINTY.get(certainty, None)}">{material}</span>"""
+        material = f"""<span class="{CERTAINTY.get(certainty, None)} {EMENDATION.get(emendation, None)}">{material}</span>"""
 
         after = (F.utrailer.v(L.u(n, 'word')[0]) if kind == "u" else F.trailer.v(L.u(n, 'word')[0])) or ""
-       	trailer_certainty = F.trailer_cert.v(L.u(n, 'word')[0])
-        after = f"""<span class="{CERTAINTY.get(trailer_certainty, None)}">{after}</span>"""
+       	trailer_emendation = F.trailer_emen.v(L.u(n, 'word')[0])
+        after = f"""<span class="{CERTAINTY.get(trailer_emendation, None)}">{after}</span>"""
 
         if n == L.d(L.u(n, 'word')[0], 'sign')[-1]:
             return f"{material}{after}"

@@ -16,6 +16,7 @@ The following features are currently available:
 - tablet: tablet title
 - column: column number
 - line: line number
+- side: tablet side of inscription
 - g_cons: a consonantal representation of each word in Latin script
 - trailer: a representation of word spacing or word dividers
 - language: Ugaritic

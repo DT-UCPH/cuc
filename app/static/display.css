@@ -15,4 +15,6 @@
 .redundant {
     font-style: italic bold;   
 }
-
+.missing {
+    color: red;
+}
