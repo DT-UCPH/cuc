@@ -44,8 +44,8 @@ class TextTranscriber:
             if re.match(rf'({side}) ?.', para.text):
                 return f'Side annotation mixed with text in {self.corpus} {column} {line}: {para.text}'
 
-            if para.text = '...'
-                return f'Unexpected ... in {self.corpus} {column} {line}: {para.text}'
+            if para.text == '...':
+                return f'Unexpected ... in {self.corpus} {column}: {para.text}'
 
             if re.match('^\d+', para.text):
                 line = int(re.match('^\d+', para.text).group())
