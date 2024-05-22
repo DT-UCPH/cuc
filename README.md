@@ -11,7 +11,12 @@ This dataset is developed as part of the CACCHT project, which is a collaboratio
 For this dataset, we cooperate with Tania Notarius (University of the Free State) and Maria Simion, volunteer assistant (Polis - the Jerusalem Institute of Language and Humanities).
 
 ### Data
-The following features are currently available:
+The following tablets of *Die keilalphabetischen Texte aus Ugarit* (KTU) are currently available:
+
+- KTU 1.1-1.7
+- KTU 1.14-1.20
+
+The texts are currently annotated with the following features:
 
 - tablet: tablet title
 - column: column number
