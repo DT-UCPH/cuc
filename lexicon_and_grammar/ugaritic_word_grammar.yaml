@@ -1,78 +1,140 @@
 # UGARITIC WORD GRAMMAR
+########################################################################
+#								       #
+#	Grammar at Word Level of Syriac,                               #
+#       based on the conventions of the word grammar                   #
+#       for Pehitta Syriac of the ETCBC				       #
+#								       #
+########################################################################
 
+#ident "%W% %E%"
 
-inflection:
-    prefix:
-        pfm: &preformative
-            ['!', '!']
-        vbs: &verbal_stem 
-            [']', ']']
-    core:
-        lex: &lexeme 
-            {}
-    suffix:
-        vbe: &verbal_ending
-            ['[']
-        nme: &nominal_ending
-            ['/'] 
-        uvf: &univalent_final
-            ['~']
-    pattern: &vowel_pattern_mark
-        vpm: [':']
+# Word skeleton in terms of morpheme types
+word
+
+   # Word skeleton
+   inflection
+      prefix =
+	 pfm: {"!","!"} "preformative"
+	 pfx: {"@","@"} "passive stem formation prefix"
+	 vbs: {"]","]"} "verbal stem"
+      core =
+	 lex: {} "lexeme"
+      infix =
+      suffix =
+	 vbe: {"["} "verbal ending"
+	 nme: {"/"} "nominal ending"
+      pattern =
+	 vpm: {":"} "vowel pattern"
+
+   # Lexeme skeleton
+   derivation
+      core =
+	 rt: {} "root"
 
 
 # vbs: t is Gt stem, t= is tD stem
-forms:
-  pfm: ['', y, t, t=, t==, a]
-  vbs: [n, t, t=, š, št]
-  vbe: ['', t, t=, t==, t===, t====, tm, tn, n, t=====, tm=, n=, y]
-  nme: [t, m, m=]
-  uvf: []
-  vpm: [d, a, i, u]
+forms
+   meta "(" "&" "_" "="
 
-functions:
-    gn: &gender
-       f: feminine
-       m: masculine
-    nu: &number
-       sg: singular 
-       dl: dual 
-       pl: plural
-    ps: &person
-       first: first
-       second: second
-       third: third
-    sp: &part_of_speech
-       verb: verb
-       subs: noun
-       nmpr: proper_noun
-       advb: adverb
-       prep: preposition
-       conj: conjunction
-       prps: personal pronoun
-       prde: demonstrative pronoun
-       prin: interrogative pronoun
-       ntj: interjection
-       nega: negative
-       inrg: interrogative
-       adjv: adjective
-    st: &state
-       cst: construct
-       abs: absolute
-    vs: &vs
-        G: Grundstamm
-        Gp: passiver Grundstamm
-        Gt: reflexiver Grundstamm
-        D: Doppelungsstamm
-        Dp: passiver Doppelungsstamm
-        tD: reflexiver Doppelungsstamm
-        Š: Š-stamm
-        Šp: passiver Š-stamm
-        Št: reflexiver Š-stamm
-        N: N-stamm
-    vt: &verbal_tense
-        impf: imperfect
-        perf: perfect
-        impv: imperativ
-        ptca: participle
-        inf: infinitive
+   pfm = "", "y", "t", "t=", "t==", "a"
+   vbs = "n", "t", "t=", "š", "št"
+   lex < lexicon
+   vbe = "", "t", "t=", "t==", "t===", "t====", "tm", "tn", "n", "t=====", "tm=", "n=", "y"
+   nme = "t", "t=", "m", "m=", "u", "i", "a"
+   vpm = "d"
+
+   rt < roots
+
+
+functions
+    ca: "case" =
+      nom: "nominative", gen: "genitive", acc: "accusative"
+    ps: "person" =
+      first: "first", second: "second", third: "third"
+    nu: "number" =
+      sg: "singular", du: "dual", pl: "plural", unknown: "unknown"
+    gn: "gender" =
+      f: "feminine", m: "masculine"
+    sp: "part of speech" =
+      adjv: "adjective",
+      advb: "adverb",
+      conj: "conjunction",
+      inrg: "interrogative",
+      intj: "interjection",
+      nega: "negative",
+      nmpr: "proper_noun",
+      prde: "demonstrative pronoun",
+      prep: "preposition",
+      prin: "interrogative pronoun",
+      prps: "personal pronoun",
+      subs: "substantive",
+      verb: "verb"
+    st: "state" =
+      cst: "construct", abs: "absolute"
+    vs: "verbal stem" =
+      G: "Grundstamm",
+      Gp: "passiver Grundstamm",
+      Gt: "reflexiver Grundstamm",
+      D: "Doppelungsstamm",
+      Dp: "passiver Doppelungsstamm",
+      tD: "reflexiver Doppelungsstamm",
+      Š: "Š-stamm",
+      Šp: "passiver Š-stamm",
+      Št: "reflexiver Š-stamm",
+      N: "N-stamm"
+    vt: "verbal tense" =
+      pf: "perfect", 
+      ipf: "imperfect", 
+      imp: "imperative",
+      inf: "infinitive", 
+      ptc: "participle"
+      
+
+# The rules are applied on a fall-through basis, so their order is
+# important. The two sections for inflection and derivation are
+# independent, however.
+
+rules
+
+inflection
+
+   not exist(nme) :: -nu, -gn, -st, -ca
+   not exist(vbe) :: -vt, -vs, -ps
+
+   exist(pfm) && not exist(vbe) ::
+      reject("A preformative requires a verbal ending")
+   exist(vbs) && not exist(vbe) ::
+      reject("A C-stem requires a verbal ending")
+   vpm == {d, dp} && not exist(vbe) ::
+      reject("A D-stem requires a verbal ending")
+   vpm == {dp, p} && not exist(vbe) ::
+      reject("A passive requires a verbal ending")
+
+   exist(vbe) || exist(nme) :: +nu, +gn
+
+   exist(nme) :: sp=subs, +st
+   nme == ""    :: nu=sg
+   nme == "u"   :: ca=nom
+   nme == "i"   :: ca=gen
+   nme == "a"   :: ca=acc
+   nme == "t"   
+   nme == "t="
+   nme == "m"
+   nme == "m="   
+
+   nme == "J="  :: nu=du, st=cst	# toegevoegd 14-8-2007 (Dirk)
+   nme == "J==" :: nu=sg, gn=f, st=abs	# /aJ gewijzigd 14-8-2007 (Dirk)
+   nme == "T"   :: nu=sg, gn=f, st=cst	# /aT
+   nme == "JN"  :: nu=pl, gn=m, st=abs
+   nme == "JN=" :: nu=du, st=abs	# /EJN
+   nme == "TJN" :: nu=du, gn=f, st=abs	# 1Kings 18,32 S>(>/TJN
+   nme == "J"   :: nu=pl, gn=m, st=cst
+   nme == "N"   :: nu=pl, gn=f, st=abs
+   nme == "T="  :: nu=pl, gn=f, st=cst	# /AT
+   nme == "TJ"  :: nu=du, gn=f, st=cst	# toegevoegd 14-8-2007 (Dirk)
+   nme == "W"   :: st=abs
+   nme == "WT"  :: st=cst
+   nme == {"W", "WT"} && not exist(vbe) ::
+      reject("This nominal ending requires a verbal ending")
+
