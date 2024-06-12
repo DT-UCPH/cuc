@@ -1,11 +1,15 @@
 apiVersion: 3
 dataDisplay:
   textFormats:
-    text-orig-full: 
+    layout-orig-full: 
       method: layoutTrans
       style:  trans
-    text-orig-unicode:
+    layout-orig-unicode:
       method: layoutUnicode
+      style: orig
+    text-orig-full:
+      style: trans
+    text-orig-unicode:
       style: orig
 docs:
   docPage: about

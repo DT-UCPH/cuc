@@ -1,11 +1,5 @@
-/* CERTAINTY: */
+/* EMENDATION: */
 
-.None {
-    font-style: italic;
-}
-.uncertain {
-    font-style: normal;
-}
 .excised {
     text-decoration: line-through;
 }
