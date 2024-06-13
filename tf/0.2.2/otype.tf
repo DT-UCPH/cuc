@@ -10,7 +10,7 @@
 @valueType=str
 @version=0.2.2
 @writtenBy=Text-Fabric
-@dateWritten=2024-06-12T20:18:00Z
+@dateWritten=2024-06-13T14:40:11Z
 
 1-50265	sign
 50266-50333	column
