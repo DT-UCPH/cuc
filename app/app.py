@@ -27,9 +27,10 @@ class TfApp(App):
     def _wrapHtml(app, n, kind):
         api = app.api
         F = api.F
+        L = api.L
 
-        after = (F.traileru.v(n) if kind == "u" else F.trailer.v(n)) or ""
-        material = (F.signu.v(n) if kind == "u" else F.sign.v(n)) or ""
+        after = (F.utrailer.v(n) if kind == "u" else F.trailer.v(n)) or ""
+        material = (F.usign.v(n) if kind == "u" else F.sign.v(n)) or ""
         emendation = F.emen.v(n)
         cls = EMENDATION.get(emendation, None)
 
@@ -39,4 +40,14 @@ class TfApp(App):
         if F.cert.v(n) != 'uncertain':
             material = f"""<em>{material}</em>"""
 
-        return f"{material}{after}"
+        after = (F.utrailer.v(L.u(n, 'word')[0]) if kind == "u" else F.trailer.v(L.u(n, 'word')[0])) or ""
+       	trailer_emendation = F.trailer_emen.v(L.u(n, 'word')[0])
+        after_cls = EMENDATION.get(trailer_emendation, None)
+
+        if after_cls is not None:
+             after = f"""<span class="{after_cls}">{after}</span>"""
+
+        if n == L.d(L.u(n, 'word')[0], 'sign')[-1]:
+            return f"{material}{after}"
+        else:
+            return material
