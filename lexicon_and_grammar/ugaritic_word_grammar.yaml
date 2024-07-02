@@ -118,10 +118,13 @@ inflection
    nme == "u"   :: ca=nom
    nme == "i"   :: ca=gen
    nme == "a"   :: ca=acc
-   nme == "t"   
-   nme == "t="
-   nme == "m"
-   nme == "m="   
+   nme == "t"   :: nu=pl, gn=f
+   nme == "t="  :: nu=du, gn=f
+   nme == "m"   :: nu=pl, gn=m
+   nme == "m="  :: nu=du, gn=m
+
+exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
+   exist(nme) :: -ps
 
    nme == "J="  :: nu=du, st=cst	# toegevoegd 14-8-2007 (Dirk)
    nme == "J==" :: nu=sg, gn=f, st=abs	# /aJ gewijzigd 14-8-2007 (Dirk)
@@ -137,4 +140,43 @@ inflection
    nme == "WT"  :: st=cst
    nme == {"W", "WT"} && not exist(vbe) ::
       reject("This nominal ending requires a verbal ending")
+
+
+
+
+
+   vbe == "J"   :: gn=f	# Moet deze niet voor het enkelvoud gereserveerd?
+   vbe == "J="  :: gn=f, nu=pl	# [iJ quiescent
+   vbe == "JN"  :: gn=f, nu=sg	# [iJN
+   vbe == "JN=" :: gn=f, nu=pl	# [eJ"N
+   vbe == "N"   :: nu=pl	# [N  [NaN (1e persoon mv)
+   vbe == "N="  :: gn=f, nu=pl	# [AN      (3e persoon vr mv)
+   vbe == "T"   :: nu=sg	# [eT
+   vbe == "T="  :: gn=m, nu=sg	# [T:
+   vbe == "T==" :: gn=f, nu=sg	# [aT
+   vbe == "TJ"  :: gn=f, nu=sg	# [T:J:
+   vbe == "TJN" :: gn=f, nu=pl	# [TeJN
+   vbe == "TWN" :: gn=m, nu=pl	# [TW^N
+   vbe == "W"   :: gn=m, nu=pl	# [W quiescent
+   vbe == "WN"  :: gn=m, nu=pl	# [uWN
+
+  # SUFFIX KONJUGATION
+  # vbe = "", "t", "t=", "t==", "t===", "t====", "tm", "tn", "n", "t=====", "tm=", "tm==", "n=" #, "y"
+
+   shared { not exist(pfm) && exist(vbe) && not exist(nme) :: vt=pf }
+      vbe == "" :: ps=third #, gn=m # nu=sg,
+      vbe == "t" :: ps=first
+      vbe == "t=" :: ps=second, gn=m, nu=sg
+      vbe == "t==" :: ps=second, gn=f, nu=sg
+      vbe == "t===" :: ps=first
+      vbe == "t====" :: ps=third, gn=f, nu=du
+      vbe == "n" :: ps=first, nu=pl
+      vbe == "n=" :: ps=first, nu=du
+      vbe == "tn" :: ps=second, gn=f, nu=pl
+      vbe == "tm" :: ps=second, gn=m, nu=pl
+      vbe == "tm=" :: ps=second, gn=m, nu=du
+      vbe == "tm==" :: ps=second, gn=f, nu=du
+   end
+
+
 
