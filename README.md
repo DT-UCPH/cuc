@@ -14,7 +14,11 @@ For this dataset, we cooperate with Tania Notarius (University of the Free State
 The following tablets of *Die keilalphabetischen Texte aus Ugarit* (KTU) are currently available:
 
 - KTU 1.1-1.7
-- KTU 1.14-1.20
+- KTU 1.14-1.22
+- KTU 2.5-2.18
+- KTU 2.20-2.27
+- KTU 2.30-2.32
+- KTU 2.34-2.38
 
 The texts are currently annotated with the following features:
 
