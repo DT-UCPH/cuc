@@ -52,7 +52,7 @@ class TextTranscriber:
         for para in self.word_doc.paragraphs:
 
             if re.match('KTU', para.text):
-                self.corpus = para.text
+                self.corpus = para.text.rstrip()
                 if self.corpus != filename[:filename.index('_')]:
                     return f'{filename}: Corpus name does not match file name'
 
@@ -109,8 +109,8 @@ class TextTranscriber:
                 ERROR_RESPONSE = f'Unexpected (initial?) sign in {self.corpus}'
                 if col_nu != 0:
                      ERROR_RESPONSE += f' {column}'
-                if line:
-                     ERROR_RESPONSE += f' {str(line)}'
+                if line_nu:
+                     ERROR_RESPONSE += f' {str(line_nu)}'
                 return f'{ERROR_RESPONSE}: {para.text}'
      
 WORD_FILES_FOLDER = './files'
