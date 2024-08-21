@@ -11,7 +11,7 @@
 @valueType=str
 @version=0.2.4
 @writtenBy=Text-Fabric
-@dateWritten=2024-08-21T07:49:11Z
+@dateWritten=2024-08-21T08:25:56Z
 
 79523	KTU 1.1
 KTU 1.2
@@ -109,12 +109,12 @@ KTU 2.88
 KTU 2.89
 KTU 2.90
 KTU 2.91
-KTU 2.92 
-KTU 2.93 
-KTU 2.94 
-KTU 2.95 
-KTU 2.96 
+KTU 2.92
+KTU 2.93
+KTU 2.94
+KTU 2.95
+KTU 2.96
 KTU 2.97
-KTU 2.98 
+KTU 2.98
 KTU 2.99
 KTU 2.100
