@@ -67,7 +67,7 @@ def test_cuc_text(line_transcriptions):
             line_transcription = re.sub('[\[\]\{\}\/\<\>\(\)\\\ \xa0]','',line_transcriptions[(corpus, column, line)])
             assert line_transcription == line_text
             idx += 1
-        logging.info('Testing test_cuc_texts: SUCCES')
+        logging.info('Testing test_cuc_texts: SUCCESS')
         logging.info(f'Tested {idx} lines')
     except AssertionError as err:
         logging.error(f'Testing texts of CUC corpora, transcription not equal to TF data in {corpus} {column} line {line}')
