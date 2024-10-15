@@ -1,7 +1,7 @@
 # UGARITIC WORD GRAMMAR
 ########################################################################
 #								       #
-#	Grammar at Word Level of Syriac,                               #
+#	Grammar at Word Level of Ugaritic,                               #
 #       based on the conventions of the word grammar                   #
 #       for Pehitta Syriac of the ETCBC				       #
 #								       #
@@ -177,6 +177,14 @@ exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
       vbe == "tm=" :: ps=second, gn=m, nu=du
       vbe == "tm==" :: ps=second, gn=f, nu=du
    end
+
+##################
+# object/possessive pronominal suffixes:
+
+# h : 3 m sg
+# h= : 3 f sg 
+
+
 
 
 

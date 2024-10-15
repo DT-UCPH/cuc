@@ -8,7 +8,7 @@
 9509	bˤl	bˤl/
 9510	sid	sid[
 9511	zbl	zbl/
-9512	bˤl	bˤl/
+9512	bˤl	bˤl(III)/
 9513	arṣ	arṣ/
 9514	qm	qm[
 9515	yṯˤr	!y!ṯˤr[
@@ -73,7 +73,7 @@
 9574	ˤl	ˤl
 9575	bˤl	bˤl(III)/
 9576	b	b
-9577	ṣrrt	ṣrrt/
+9577	ṣrrt	ṣrr(t/t
 9578	ṣpn	ṣpn/
 9579	ymtmr	!y!&m]t](ʔmr[ # Gt stem, is first m really there?
 9580	bˤl	bˤl(III)/
@@ -134,11 +134,11 @@
 9635	adm	adm # ???
 9636	ṣat	ṣat # ??
 9637	špš	špš/
-9638	tḥth	tḥt(I)/+h
+9638	tḥth	tḥt(I)/+h=
 9639	k	k
-9640	kdrt	kdrt/
+9640	kdrt	kdr(t/t
 9641	riš	riš/
-9642	ˤlh	ˤl(I)+h
+9642	ˤlh	ˤl(I)+h=
 9643	k	k
 9644	irbym	irby/m
 9645	kp	kp/
@@ -150,12 +150,12 @@
 9651	ˤtkt	ˤtk[t
 9652	rišt	riš/t
 9653	l	l
-9654	bmth	bmt/+h
+9654	bmth	bmt/+h=
 9655	šnst	šns[t:d
 9656	kx	kx # ?
 9657	kpt	kp/t
 9658	b	b
-9659	ḥbšh	ḥbš/+h
+9659	ḥbšh	ḥbš/+h=
 9660	brkm	brk/m   # noun, correct interpretation? What suffix is this?
 9661	tġll	!t!ġll[:d
 9662	b	b
@@ -176,16 +176,16 @@
 9677	hln	hln
 9678	ˤnt	ˤnt(I)/
 9679	l	l
-9680	bth	bt(II)/+h
+9680	bth	bt(II)/+h=
 9681	tmġyn	!t!mġy[n
 9682	tštql	!t!š[t[ql[
 9683	ilt	ilt(I)/
 9684	l	l
-9685	hklh	hkl/+h
+9685	hklh	hkl/+h=
 9686	w	w
 9687	l	l(II)
 9688	šbˤt	šbˤ(II)[t # line 19
-9689	tmtḫṣh	!t!m[t[ḫṣ[+h
+9689	tmtḫṣh	!t!m[t[ḫṣ[+h=
 9690	b	b
 9691	ˤmq	ˤmq(I)/
 9692	tḫtṣb	tḫtṣb/
@@ -211,16 +211,16 @@
 9712	tḥdy	!t!ḥdy[
 9713	ˤnt	ˤnt(I)/
 9714	tdġdd	!t!dġdd[:d # typo? remove first d
-9715	kbdh	kbd(I)/+h
+9715	kbdh	kbd(I)/+h=
 9716	b	b
 9717	ṣḥq	ṣḥq/
 9718	ymlu	!y!ml(ʔ&u[
-9719	lbh	lb/+h
+9719	lbh	lb/+h=
 9720	b	b
-9721	šmḫt	šmḫt/ # f n
+9721	šmḫt	šmḫ(t/t
 9722	kbd	kbd(I)/
 9723	ˤnt	ˤnt(I)/
-9724	tšyt	tšyt/ # f n
+9724	tšyt	tšy(t/t
 9725	k	k
 9726	brkm	brk/m
 9727	tġll	!t!ġll[:d
@@ -250,11 +250,11 @@
 9751	b	b
 9752	ṣˤ	ṣˤ(I)/ # 1.3 II 32
 9753	trḥṣ	!t!rḥṣ[ # G
-9754	ydh	yd(I)/+h
+9754	ydh	yd(I)/+h=
 9755	bt	bt(I)/ # MERGE WITh NEXT WORD? btlt
 9756	lt	lt # MERGE WITH PREVIOUS WORD
 9757	ˤnt	ˤnt(I)/
-9758	uṣbˤth	uṣbˤ/t+h
+9758	uṣbˤth	uṣbˤ/t+h=
 9759	ybmt	ybmt/
 9760	limm	lim(I)/m
 9761	trḥṣ	!t!rḥṣ[
@@ -262,7 +262,7 @@
 9763	b	b
 9764	dm	dm(II)/
 9765	ḏmr	ḏmr/
-9766	uṣbˤth	uṣbˤ/t+h
+9766	uṣbˤth	uṣbˤ/t+h=
 9767	b	b
 9768	mmˤ	mmˤ/
 9769	mhrm	mhr(I)/m
@@ -285,13 +285,13 @@
 9786	šmm	šmm(I)/
 9787	šmn	šmn(I)/
 9788	arṣ	arṣ/
-9789	rbb	rbb # ??
+9789	rbb	rb(b/
 9790	rkb	rkb(I)/
-9791	ˤrpt	ˤrpt/
+9791	ˤrpt	ˤrp(t/t
 9792	ṭl	ṭl/
 9793	šmm	šmm(I)/
-9794	tskh	!t!(nsk[+h # correc lexeme G skn?
-9795	rbb	rbb # ??
+9794	tskh	!t!(nsk[+h= # correc lexeme G skn?
+9795	rbb	rb(b/
 9796	nskh	nsk/+h 
 9797	kbkbm	kbkb/m
 9798	ttpp	ttpp # ?? # 1.3 III
@@ -299,105 +299,105 @@
 9800	d	d
 9801	alp	alp/
 9802	šd	šd(I)/
-9803	ẓuh	ẓu/+h
+9803	ẓuh	ẓu/+h=
 9804	b	b
 9805	ym	ym(II)/
 9806	xxxxxx	xxxxxx
 9807	xxxrn	xxxrn
 9808	lxxxxxx	lxxxxxx
 9809	xxxxxxxxxxn	xxxxxxxxxxn
-9810	tšt	tšt
-9811	rimt	rimt
-9812	l	l
-9813	irth	irth
-9814	tšr	tšr
-9815	l	l
-9816	dd	dd
-9817	aliyn	aliyn
-9818	bˤl	bˤl
-9819	yd	yd
-9820	pdry	pdry
-9821	bt	bt
-9822	ar	ar
-9823	ahbt	ahbt
-9824	ṭly	ṭly
-9825	bt	bt
-9826	rb	rb
-9827	dd	dd
-9828	arṣy	arṣy
-9829	bt	bt
-9830	yˤbdr	yˤbdr
+9810	tšt	!t!št[
+9811	rimt	rim(t/t
+9812	l	l(I)
+9813	irth	ir/t/t+h=
+9814	tšr	!t!šr(I)[
+9815	l	l(I)
+9816	dd	dd(I)/
+9817	aliyn	aliyn/
+9818	bˤl	bˤl(III)
+9819	yd	yd(II)/
+9820	pdry	pdry/
+9821	bt	b(t(I)/t
+9822	ar	ar/
+9823	ahbt	ahb(t/t
+9824	ṭly	ṭly/
+9825	bt	b(t(I)/t
+9826	rb	rb(b/
+9827	dd	dd(I)/
+9828	arṣy	arṣy/
+9829	bt	b(t(I)/t
+9830	yˤbdr	yˤbdr/
 9831	km	km
-9832	ġlmm	ġlmm
+9832	ġlmm	ġlm/m=
 9833	w	w
-9834	ˤrbn	ˤrbn
-9835	l	l
-9836	pˤn	pˤn
-9837	ˤnt	ˤnt
-9838	hbr	hbr
-9839	w	w
+9834	ˤrbn	ˤrb[-n(I)
+9835	l	l(I)
+9836	pˤn	pˤn/
+9837	ˤnt	ˤnt(I)
+9838	hbr	!!hbr[
+9839	w	w # DOUBLE REMOVE ONE w??
 9840	w	w
-9841	ql	ql
-9842	tštḥwy	tštḥwy
-9843	kbd	kbd
+9841	ql	!!ql[
+9842	tštḥwy	!t![št[ḥwy(II)[ # St stem
+9843	kbd	!!kbd[:d
 9844	hyt	hyt
 9845	w	w
-9846	rgm	rgm
-9847	l	l
-9848	btlt	btlt
-9849	ˤnt	ˤnt
-9850	ṯny	ṯny
-9851	l	l
-9852	ymmt	ymmt
-9853	limm	limm
-9854	tḥm	tḥm
-9855	aliyn	aliyn
-9856	bˤl	bˤl
-9857	hwt	hwt
+9846	rgm	!!rgm[
+9847	l	l(I)
+9848	btlt	btlt/
+9849	ˤnt	ˤnt(I)/
+9850	ṯny	!!ṯny[
+9851	l	l(I)
+9852	ymmt	ymm(t/t
+9853	limm	lim(I)/m
+9854	tḥm	tḥm/
+9855	aliyn	aliyn/
+9856	bˤl	bˤl(III)/
+9857	hwt	hw(t(I)/t
 9858	xx	xx
-9859	aliy	aliy
-9860	qrdm	qrdm
-9861	qryy	qryy
+9859	aliy	aliy/
+9860	qrdm	qrd(I)/m
+9861	qryy	!!qry[y # imp
 9862	b	b
-9863	arṣ	arṣ
-9864	mlḥmt	mlḥmt
-9865	št	št
+9863	arṣ	arṣ/
+9864	mlḥmt	mlḥm(t/t
+9865	št	!!št[
 9866	b	b
-9867	ˤprm	ˤprm
-9868	ddym	ddym
-9869	sk	sk
-9870	šlm	šlm
-9871	l	l
-9872	kbd	kbd
-9873	arṣ	arṣ
-9874	arbdd	arbdd
-9875	l	l
-9876	kbd	kbd
-9877	šdm	šdm
-9878	ḥšk	ḥšk
-9879	ˤṣk	ˤṣk
-9880	ˤbṣk	ˤbṣk
-9881	ˤmy	ˤmy
+9867	ˤprm	ˤpr(I)/m
+9868	ddym	ddym/
+9869	sk	!!(nsk[ # correct lexeme?
+9870	šlm	šlm(I)/
+9871	l	l(I)
+9872	kbd	kbd(I)/
+9873	arṣ	arṣ/
+9874	arbdd	arbdd/
+9875	l	l(I)
+9876	kbd	kbd(I)/
+9877	šdm	šd(I)/m
+9878	ḥšk	ḥš(I)[+k
+9879	ˤṣk	ˤṣ+k # which lexeme?
+9880	ˤbṣk	ˤbṣ+k # which lexeme?
+9881	ˤmy	ˤmy 
 9882	pˤnk	pˤnk
 9883	tlsmn	tlsmn
-9884	ˤmy	ˤmy
-9885	twtḥ	twtḥ
-9886	išdk	išdk
-9887	dm	dm
-9888	rgm	rgm
-9889	iṯ	iṯ
-9890	ly	ly
+9884	ˤmy	ˤm(I)+y # IS LINE 19 FROM SMITH MISSING HERE?? Smith p202
+9885	twtḥ	!t!w[t[ḥ[ # lex: wḥy
+9886	išdk	išd/+k
+9887	dm	dm(I)
+9888	rgm	rgm/
+9889	iṯ	iṯ(I)/
+9890	ly	l(I)+y
 9891	w	w
-9892	argmk	argmk
+9892	argmk	!a!rgm[+k
 9893	xx	xx
-9894	hwt	hwt
+9894	hwt	hwt(I)/
 9895	w	w
-9896	aṯnyk	aṯnyk
-9897	rgm	rgm
-9898	ˤṣ	ˤṣ
+9896	aṯnyk	!a!ṯny[+k
+9897	rgm	rgm/
+9898	ˤṣ	ˤṣ/
 9899	w	w
-9900	lḫšt	lḫšt
-9901	abn	abn
+9900	lḫšt	lḫš(t/t
+9901	abn	abn/
 9902	ˤ	ˤ
 9903	tant	tant
 9904	šmm	šmm
