@@ -168,8 +168,7 @@ exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
       vbe == "t" :: ps=first
       vbe == "t=" :: ps=second, gn=m, nu=sg
       vbe == "t==" :: ps=second, gn=f, nu=sg
-      vbe == "t===" :: ps=first
-      vbe == "t====" :: ps=third, gn=f, nu=du
+      vbe == "t===" :: ps=third, gn=f, nu=du
       vbe == "n" :: ps=first, nu=pl
       vbe == "n=" :: ps=first, nu=du
       vbe == "tn" :: ps=second, gn=f, nu=pl
@@ -184,6 +183,11 @@ exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
 # h : 3 m sg
 # h= : 3 f sg 
 # y : 1 c sg
+
+######################
+
+#preformatives:
+# y : 3 m sg
 
 
 
