@@ -187,7 +187,26 @@ exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
 ######################
 
 #preformatives:
+# singular
 # y : 3 m sg
+# t : 3 f sg
+# t= : 2 m sg
+# t== : 2 f sg
+# a : 1 c sg
+
+# plural
+# t=== 3 m pl
+# t==== 3 f pl
+# t===== 2 m pl
+# t====== 2 f pl
+# n 1 c pl
+
+dual
+# y= of t======= 3 m du
+# t======== 3 f du
+# t========= 2 m du
+# t========== 2 f du
+
 
 
 
