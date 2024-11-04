@@ -18,3 +18,6 @@ Verbal preformatives of the prefixkonjugation are between !!, e.g. tqtl -> !t!qt
 
 If a sign is part of a lexeme, but it does not appear in a word, it is added to the word prefixed by "(".
 If a sign occurs in a word, but it does not occur in the lexeme in DULAT, it is preceded by "&".
+
+A G infinitive is encoded as !!qtl[/.
+A G active participle is encoded as qtl[/.
