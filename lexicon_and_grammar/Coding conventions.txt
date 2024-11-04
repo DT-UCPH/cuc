@@ -1,3 +1,20 @@
-Coding conventions:
+General:
 
-We use the roman numerals used by DOL for disambiguation of homographs.
+Always check a word in DULAT for the lexeme. Are there homographs? DULAT adds roman numerals in parentheses to a lexeme for disambiguation. For now, we use this convention as well. Check also the part of speech.
+
+lexemes of nouns and adjectives end on "/".
+lexemes of verbs end on "[".
+
+
+EXAMPLE:
+Suppose in a text you find the word "il", meaning "God". DULAT adds "(I)" to it. This means that we encode the word as: il(I)/.
+
+
+Pronominal suffixes are prefixed with "+".
+
+Verbs with a double middle radical have ":d" at the end of the word.
+Consonants that indicate the verbal stem are between ]]. E.g. a verb with a prefixed š (š-stem), looks like this: šqtl -> ]š]qtl[.
+Verbal preformatives of the prefixkonjugation are between !!, e.g. tqtl -> !t!qtl[.
+
+If a sign is part of a lexeme, but it does not appear in a word, it is added to the word prefixed by "(".
+If a sign occurs in a word, but it does not occur in the lexeme in DULAT, it is preceded by "&".
