@@ -182,6 +182,8 @@ exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
 
 # h : 3 m sg
 # h= : 3 f sg 
+# k : 2 m sg
+# k= : 2 f sg
 # y : 1 c sg
 
 ######################
