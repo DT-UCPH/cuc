@@ -16,7 +16,6 @@ word
    inflection
       prefix =
 	 pfm: {"!","!"} "preformative"
-	 pfx: {"@","@"} "passive stem formation prefix"
 	 vbs: {"]","]"} "verbal stem"
       core =
 	 lex: {} "lexeme"
@@ -178,6 +177,15 @@ exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
    end
 
 ##################
+# vocalization markers:
+
+# :d : doubled second radical
+# :p : passive participle
+
+# Hebrew also :a absolute :c construct :n narrative :u hofal pual
+
+
+#############################
 # object/possessive pronominal suffixes:
 
 # h : 3 m sg
@@ -194,7 +202,7 @@ exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
 # t : 3 f sg
 # t= : 2 m sg
 # t== : 2 f sg
-# a : 1 c sg
+# alef : 1 c sg
 
 # plural
 # t=== 3 m pl
@@ -211,10 +219,21 @@ dual
 
 Enclitic particles
 
-~n or ~nn: energic nun
+~n: energic nun
+~nn: energic nun
+~m(I)
+~m(II)
+~y
+
+###########################
+# Feminine endings
 
 singular t: t
 plural t: t=
+
+##################
+
+# a : lengthened a in imperative or 1st person yiqtol in final aleph verbs
 
 
 
