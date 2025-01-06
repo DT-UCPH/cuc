@@ -23,6 +23,7 @@ word
       suffix =
 	 vbe: {"["} "verbal ending"
 	 nme: {"/"} "nominal ending"
+         uvf: {"~"} "univalent final"
       pattern =
 	 vpm: {":"} "vowel pattern"
 
@@ -41,6 +42,7 @@ forms
    lex < lexicon
    vbe = "", "t", "t=", "t==", "t===", "t====", "tm", "tn", "n", "t=====", "tm=", "n=", "y"
    nme = "t", "t=", "m", "m=", "u", "i", "a"
+   uvf = "m(I)", "m(II)", "n", "nn", "y"
    vpm = "d"
 
    rt < roots
@@ -121,6 +123,8 @@ inflection
    nme == "t="  :: nu=du, gn=f
    nme == "m"   :: nu=pl, gn=m
    nme == "m="  :: nu=du, gn=m
+   nme == "t"   :: nu=sg, gn=f
+   nme == "t="  :: nu=pl, gn=f
 
 exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
    exist(nme) :: -ps
@@ -194,46 +198,14 @@ exist(vbe) :: sp=verb, vs=pe, +vt, +ps, vo=act
 # k= : 2 f sg
 # y : 1 c sg
 
-######################
-
-#preformatives:
-# singular
-# y : 3 m sg
-# t : 3 f sg
-# t= : 2 m sg
-# t== : 2 f sg
-# alef : 1 c sg
-
-# plural
-# t=== 3 m pl
-# t==== 3 f pl
-# t===== 2 m pl
-# t====== 2 f pl
-# n 1 c pl
-
-dual
-# y= of t======= 3 m du
-# t======== 3 f du
-# t========= 2 m du
-# t========== 2 f du
-
-Enclitic particles
-
-~n: energic nun
-~nn: energic nun
-~m(I)
-~m(II)
-~y
-
 ###########################
-# Feminine endings
-
-singular t: t
-plural t: t=
-
-##################
 
 # a : lengthened a in imperative or 1st person yiqtol in final aleph verbs
+
+
+
+
+
 
 
 
