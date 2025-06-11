@@ -11,9 +11,9 @@
 @valueType=str
 @version=0.2.5
 @writtenBy=Text-Fabric
-@dateWritten=2025-06-11T10:13:01Z
+@dateWritten=2025-06-11T10:34:44Z
 
-124301	ḥšk
+124202	ḥšk
 ʿṣk
 ʿbṣk
 ʿmy
@@ -13804,12 +13804,6 @@ yrḫ
 š
 šrp
 š
-x
-kʿnt
-xšḥrth
-rḥṣnn
-isrnn
-nḫh
 x
 kʿnt
 xšḥrth
