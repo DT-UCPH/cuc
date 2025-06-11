@@ -18,7 +18,7 @@ docs:
 interfaceDefaults: {}
 provenanceSpec:
   corpus: Copenhagen Ugarit Corpus
-  version: '0.2.4'
+  version: '0.2.5'
 writing: uga
 typeDisplay:
   line:
