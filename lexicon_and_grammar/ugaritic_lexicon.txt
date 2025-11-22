@@ -995,7 +995,7 @@ aẓḥn	ảẓḥn	135	DN
 /ʕ-n-y/ (I)	/ʕ-n-y/ (I)	169	vb		to answer, reply, say	
 /ʕ-n-y/ (II)	/ʕ-n-y/ (II)	169	vb		to sing, praise	
 /ʕ-p/	/ʕ-p/	170	vb		to fly	
-ʕp (I)	ʕp (I)	170	n.	m.	bird	
+ʕp	ʕp (I)	170	n.	m.	bird	
 ʕpʕp	ʕpʕp	170	n.	m.	eyelid	
 /ʕ-p(-p)/	/ʕ-p(-p)/	170				
 ʕpln	ʕpln	170	PN			sem ?
@@ -1104,7 +1104,7 @@ aẓḥn	ảẓḥn	135	DN
 ʕṯtrt (I)	ʕṯtrt (I)	191	DN			
 ʕṯtrt (II)	ʕṯtrt (II)	192	TN			
 ʕṯtry	ʕṯtry	192	PN			
-ʕṯty:	ʕṯty:	192				
+ʕṯty	ʕṯty	192				
 ʕwr	ʕwr	192	n.	m.	blind man	
 ʕyn	ʕyn	192	PN			sem ?
 ʕyy	ʕyy	192	PN			etym unc
@@ -1606,6 +1606,7 @@ gpn (III)	gpn (III)	301	DN
 gpn (IV)	gpn (IV)	301	TN			
 gpn(y)	gpn(y)	301	PN			sem ?
 gpny	gpny	301	GN			
+gpp	gpp	302	PN			etym unc
 */g-p-r/	*/g-p-r/	302				
 gpr	gpr	302	n.	m.	?	
 gpt	gpt	302			?	
@@ -1960,7 +1961,7 @@ hzpy (II)	hzpy (II)	346	PN
 ḥṯ	ḥṯ	373	n.	m.	unleavened bread	
 ḥṯb	ḥṯb	373	n.	m.	bill, account	
 ḥṯbn	ḥṯbn	373			balance, account(s)	
-ḥṯrt:	ḥṯrt:	373	adj.	f.	fierce, mighty	
+ḥṯrt	ḥṯrt	373	adj.	f.	fierce, mighty	
 ḥwt	ḥwt	373	n.	f.	country, land, territory	
 /ḥ-w/y-y/ (I)	/ḥ-w/y-y/ (I)	374	vb		to live, be alive	
 /ḥ-w-y/ (II)	/ḥ-w-y/ (II)	375	vb		to prostrate oneself	
@@ -2753,9 +2754,9 @@ mlsm	mlsm	551	n.	m.	race
 mlṣ	mlṣ	551	PN			sem
 mltḥ	mltḥ	552	n.	m.		
 mltn	mltn	552	PN			etym unc
-mlwn:	mlwn:	552	TN			
+mlwn	mlwn	552	TN			etym unc
 mly (I)	mly (I)	552			?	
-mly (?)	mly (?)	552				
+mly (?) (II)	mly (?) (II)	552	PN			
 mm (I)	mm (I)	552	n.	m.	winter	
 mm (II)	mm (II)	552				
 mm (III)	mm (III)	552				
@@ -2782,7 +2783,6 @@ mnḥy	mnḥy	556			offering
 mnḫ	mnḫ	556			calm	
 mnk	mnk	556	indef. pn.		whoever, anyone	
 mnm	mnm	556	indef. pn.		any(thing), whatever, all (that)	
-a)	a)	557				
 mnmn	mnmn	557	indef. p. pn.		anyone, someone	
 mnn	mnn	557	PN			etym unc
 mnny	mnny	557	PN			etym unc
@@ -3135,7 +3135,6 @@ nnu (II)	nnủ (II)	624	TN
 nnḏ	nnḏ	625	PN			etym unc
 nnġb	nnġb	625	PN			etym unc
 nnr	nnr	625	PN			etym unc
-syll.:	syll.:	625				
 nnw	nnw	625	TN		Ninive	
 nny	nny	625	TN			
 /n-p/	/n-p/	625	vb		to raise, offer	
@@ -3723,7 +3722,7 @@ sin	sỉn	740			edge, hem
 sip	sỉp	740			?	
 /s-ʕ/	/s-ʕ/	740	vb		to sweep, remove	
 sʕt	sʕt	740	n.	f.	?	
-/s:ś-b-b	/s:ś-b-b	740	vb		to turn round, go round and round, go through	
+/s:ś-b-b/	/s:ś-b-b /	740	vb		to turn round, go round and round, go through	
 sbbyn	sbbyn	741			black cumin	
 sbd	sbd	741	PN			etym unc
 śbl	śbl	741	PN			etym unc
@@ -4050,7 +4049,7 @@ s̄lẖt	s̄lẖt	806
 šlm (II)	šlm (II)	808	n.	m.	communion victim / sacrifice, ‘peace-offering’	
 šlm (III)	šlm (III)	808	adj.	m.	pure	
 šlm (IV)	šlm (IV)	809	DN			
-šlm	šlm	809				
+šlm ym	šlm ym	809	TN			
 šlmn	šlmn	809	PN			sem
 šlmt (I)	šlmt (I)	809	n.	f.	health	
 šlmt (II)	šlmt (II)	809	n.	f.	compensation	
@@ -4377,7 +4376,7 @@ trmn	trmn	866	PN			etym unc
 trmt	trmt	866	n.	f.	offering	
 trn (I)	trn (I)	866		m.	mast of a ship	
 trn (II)	trn (II)	866	PN			etym unc
-trnn:	trnn:	866	PN			
+trnn	trnn	866	PN			
 trq	trq	867	n.	m.	(Metall-)Kessel, Schale	
 /t-r-r/	/t-r-r/	867			to make tremble	
 trr	trr	867	n.	m.		
@@ -4742,7 +4741,7 @@ yd (I)	yd (I)	938	n.	f.	hand
 yd (II)	yd (II)	941	n.	m.	love	
 /y-d-ʕ/ (I)	/y-d-ʕ/ (I)	941	vb		to know, to recognise, distinguish, consider	
 /y-d-ʕ/ (II)	/y-d-ʕ/ (II)	942	vb		to sweat	
-ydʕ	ydʕ	942				
+ydʕ	ydʕ	942	PN, DN			
 ydʕn	ydʕn	942	PN			sem
 ydbil	ydbỉl	942			to be generous	
 ydbʕl	ydbʕl	942	PN			sem
