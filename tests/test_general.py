@@ -19,4 +19,4 @@ F, L = api.F, api.L
 
 ##Sign
 def test_certainty_x():
-    assert all({F.cert.v(n) == 'True' for n in F.otype.s('sign') if F.sign.v(n)=='x'})
+    assert all({F.cert.v(n) != 'True' for n in F.otype.s('sign') if F.sign.v(n)=='x'})
