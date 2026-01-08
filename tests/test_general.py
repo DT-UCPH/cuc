@@ -17,6 +17,12 @@ api.makeAvailableIn(globals())
 
 F, L = api.F, api.L
 
+##Tablet
+def test_tablet_count():
+    tablet_count = len(F.otype.s('tablet'))
+    ind_tablet_count = len(set(F.otype.s('tablet')))
+    assert tablet_count == ind_tablet_count
+
 ##Sign
 def test_certainty_x():
     assert all({F.cert.v(n) != 'True' for n in F.otype.s('sign') if F.sign.v(n)=='x'})
