@@ -10,7 +10,7 @@
 @valueType=str
 @version=0.2.6
 @writtenBy=Text-Fabric
-@dateWritten=2026-01-08T10:53:41+00:00Z
+@dateWritten=2026-01-08T11:50:08+00:00Z
 
 1-127355	sign
 127356-127688	column
