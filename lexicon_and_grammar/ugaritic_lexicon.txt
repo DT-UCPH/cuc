@@ -440,7 +440,7 @@ amtm	ảmtm	72	PN			etym unc
 amtrn	ảmtrn	72	PN			etym unc
 a?my	ả?my	73	PN			
 umy	ủmy	73	PN			sem
-an (I)	ản (I)	73			I	
+an (I)	ản (I)	73	pers. pn.		I	
 an (II)	ản (II)	73	adv.		wherever, anywhere	
 an (III)	ản (III)	73		m.	strength	
 in	ỉn	74			lack of, absence	
@@ -816,7 +816,7 @@ izr	ỉzr	134	n.	m.	investiture
 uzr	ủzr	134	adj.	m.	clothed, veiled	
 azrt	ảzrt	134				
 uzry	ủzry	134	PN			etym unc
-izz[	ỉzz[	134	TN			
+izz[	ỉzz[	134	TN			etym unc
 azzlt	ảzzlt	135	DN			
 aẓḥn	ảẓḥn	135	DN			
 ʕbb	ʕbb	136	n.	m.	greedy, glutton, guzzler	
@@ -2002,7 +2002,7 @@ hzpy (II)	hzpy (II)	346	PN
 ḫdd	ḫdd	381	PN			sem ?
 ḫdlr	ḫdlr	382				
 ḫdmn	ḫdmn	382	PN			hurr
-ḫdn	ḫdn	382				
+ḫdn ḫdlr	ḫdn ḫdlr	382	DN			hurr-hit
 ḫdpṯr	ḫdpṯr	382	PN			hurr
 ḫdš2bʕl	ḫdš2bʕl	382	PN			sem
 ḫdś	ḫdś	382				
@@ -2031,7 +2031,11 @@ hzpy (II)	hzpy (II)	346	PN
 ḫlb (I)	ḫlb (I)	385	n.	m.	massif, promontory	
 ḫlb (II)	ḫlb (II)	385	TN		Aleppo	
 ḫlb (III)	ḫlb (III)	385	TN		abgekürzter ON der Ḫalbu-Art	
-ḫlb	ḫlb	386				
+ḫlb ʕpṯrm	ḫlb ʕpṯrm	385	TN			
+ḫlb gngnt	ḫlb gngnt	385 TN			
+ḫlb krd	ḫlb krd	386 TN			
+ḫlb rpš	ḫlb rpš	386	TN			
+ḫlb ṣpn	ḫlb ṣpn	386	TN			
 ḫlb(y)	ḫlb(y)	386	TN			
 ḫlby	ḫlby	386	PN			
 ḫlbym	ḫlbym	387	PN			sem
@@ -3800,7 +3804,7 @@ snnt	snnt	752			swallow
 snp	snp	752			?	
 snr (I)	snr (I)	752	TN			
 snr (II)	snr (II)	753	PN			etym unc
-snr	snr	753			Port-TN	
+snr miḫd	snr mỉḫd	753	TN		Port-TN	
 s/śnrn	s/śnrn	753	PN			etym unc
 snry (I)	snry (I)	753	GN	m.		
 snry (II)	snry (II)	753	PN			etym unc
