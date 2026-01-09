@@ -15,7 +15,7 @@ u	ủ	3	conj.		or
 aupš/ṯ(n)	ảủpš/ṯ(n)	4	PN			hurr
 ab	ảb	4	n.	m.	father	
 ib (I)	ỉb (I)	5	n.	m.	enemy	
-ib (II)	ỉb (II)	6	n.	m.	fruit	
+ib (II)	ỉb (II)	6	n., DN	m.	fruit	
 ib (III)	ỉb (III)	6				
 ibʕlt	ỉbʕlt	6	MN	f.		
 abbl(y)	ảbbl(y)	7	PN			sem
@@ -214,7 +214,7 @@ ihbt	ỉhbt	31
 ahl	ảhl	31	n.	m.	tent, mansion	
 ahn	ảhn	31				
 iht	ỉht	31	n.	f.	islands, coastal region	
-aḥd	ảḥd	31	adj.		one, oneself	
+aḥd	ảḥd	31	adj. num., adv. num.		one, oneself	
 aḥd (II)	ảḥd (II)	32	subst. adj.		only one	
 aḥl	ảḥl	33			if only!	
 iḥmlk	ỉḥmlk	33	PN			
@@ -313,7 +313,7 @@ alḫn (II)	ảlḫn (II)	53	PN
 ilk	ỉlk	54	PN			etym unc
 (ilk)	(ỉlk)	54				
 alkbl	ảlkbl	54	PN			hurr
-ulkn	ủlkn	54	PN			
+ulkn	ủlkn	54	PN/DN			
 ilkšy	ỉlkšy	54	PN			hurr
 all (I)	ảll (I)	54	n.	m.	cape, cloak	
 all (II)	ảll (II)	54	TN			
@@ -457,7 +457,7 @@ anġn	ảnġn	76	PN			etym unc
 anhb	ảnhb	76			ein Stein	
 anḫ	ảnḫ	76	adj.	m.	complaining	
 anḫr	ảnḫr	76			dolphin	
-ank	ảnk	76	p. pn.		I	
+ank	ảnk	76	pers. pn.		I	
 unk	ủnk	77			?	
 inmm	ỉnmm	77				
 ann (I)	ảnn (I)	77	DN			
@@ -512,7 +512,7 @@ aphm	ảphm	86
 aphn	ảphn	86			immediately afterwards, next	
 apk	ảpk	86				
 apn (I)	ảpn (I)	86	n.	f.	wheel	
-apn (II)	ảpn (II)	87	adv.		and in addition, and also	
+apn (II)	ảpn (II)	87	adv. functor		and in addition, and also	
 apn (III)	ảpn (III)	87	PN			hurr ?
 apnk	ảpnk	87	adv.		then	
 /ʔ-p-q/	/ʔ-p-q/	87	vb		to move away, go astray	
@@ -540,14 +540,14 @@ ir	ỉr	92	n.	m.
 ur	ủr	92	n.	m.	warmth, heat	
 irab	ỉrảb	92	TN			
 arbʕ	ảrbʕ	92	n. num.		four	
-arbʕm	ảrbʕm	94	n.		forty	
+arbʕm	ảrbʕm	94	n. num.		forty	
 arbdd	ảrbdd	95	n.	m.	rest, tranquillity	
 arbḫ	ảrbḫ	95	adj./n.	m.	four year old (animal)	
 irbl	ỉrbl	95	PN			
 arbn	ảrbn	95	PN			hurr
 irbn (I)	ỉrbn (I)	95	TN			
 irbn (II)	ỉrbn (II)	95	PN			etym unc
-irbṣ	ỉrbṣ	96	n.	m.	repose	
+irbṣ	ỉrbṣ	96	n., TN	m.	repose	
 urbt	ủrbt	96	n.	f.	window	
 irbtn	ỉrbtn	96	PN			hurr
 irby	ỉrby	96	n.	m.	locust	
@@ -584,7 +584,7 @@ urm	ủrm	99	PN			etym unc
 armgr	ảrmgr	100	PN			etym unc
 urmn	ủrmn	100	PN			etym unc
 armsd	ảrmsd	100	PN			etym unc
-armsġ	ảrmsġ	100	PN			
+armsġ	ảrmsġ	100	PN/GN			
 armwl	ảrmwl	100	PN			anat
 army	ảrmy	100	PN			etym unc
 urmy	ủrmy	100	PN			etym unc
@@ -639,7 +639,7 @@ ary (II)	ảry (II)	108	TN
 ary (III)	ảry (III)	108	GN	m.		
 iry	ỉry	108	PN			hurr
 ary(n)	ảry(n)	108	PN			hurr ?
-aryn	ảryn	109	DN			
+aryn	ảryn	109	element of DN			
 iryn	ỉryn	109	PN			hurr
 uryn (I)	ủryn (I)	109	n.	m.	Hittite official	hit
 uryn (II)	ủryn (II)	109	PN			
@@ -665,7 +665,7 @@ usyy	ủsyy	111	PN			etym unc
 uṣb	ủṣb	111	PN			akk ?
 uṣbʕ	ủṣbʕ	111	n.	f.	finger; claw	
 /ʔ-ṣ-l/	/ʔ-ṣ-l/	112	vb		to (be) put aside, reserve	
-uṣqm	ủṣqm	112	n.		?	
+uṣqm	ủṣqm	112	n.	c.	?	
 iṣr	ỉṣr	112	n.	m.	?	
 iš	ỉš	112				
 ašʕt	ảšʕt	112	n.	f.		
@@ -724,16 +724,16 @@ iṯb	ỉṯb	121	MN
 iṯg	ỉṯg	121	PN			etym unc
 iṯgh	ỉṯgh	122	PN			etym unc
 aṯḫlm	ảṯḫlm	122	n.		sacrifice	
-uṯḫt	ủṯḫt	122	DN		incense burner	
+uṯḫt	ủṯḫt	122	DN, n.	f.	incense burner	
 uṯkl	ủṯkl	122	n.	m.	bunch, cluster	
 iṯl	ỉṯl	122	n.	m.	saliva, phlegm, spittle	
 /ʔ-ṯ-m/	/ʔ-ṯ-m/	122	vb		to fall into debt, continue to owe	
 iṯm (I)	ỉṯm (I)	122	n.	m.	firm-fleshed cattle	
-iṯm (II)	ỉṯm (II)	123	DN			
+iṯm (II)	ỉṯm (II)	123	element of DN			
 uṯpt	ủṯpt	123	n.	f.	quiver	
 aṯqlny	ảṯqlny	123	GN			
 /ʔ-ṯ-r/	/ʔ-ṯ-r/	123	vb		to go, follow	
-aṯr (I)	ảṯr (I)	124	adv.		then, afterwards; behind, immediately after	
+aṯr (I)	ảṯr (I)	124	adv./prep.		then, afterwards; behind, immediately after	
 aṯr (II)	ảṯr (II)	124	n.	m.	remain(s), what is left	
 aṯr (III)	ảṯr (III)	124	interr. adv.		where	
 aṯrn	ảṯrn	124	PN			
@@ -778,7 +778,7 @@ iwrṯrm	ỉwrṯrm	129
 iwrtṯr	iwrtṯr	129	PN			hurr ?
 ayab	ảyảb	130	PN			sem
 iwryn	ỉwryn	130	PN			
-ay	ảy	130	adj.		anyone, all, of any kind; b) each	
+ay	ảy	130	adj.	m.	anyone, all, of any kind; b) each	
 iy	ỉy	130	interr. adv.		where?	
 uy	ủy	130				
 ay(a/i)ḫ	ảy(ả/ỉ)ḫ	130	PN			sem
@@ -1012,7 +1012,7 @@ aẓḥn	ảẓḥn	135	DN
 ʕpṯrm	ʕpṯrm	173	PN			etym unc
 ʕq	ʕq	173	n.	m.	pupil	
 /ʕ-q-b/	/ʕ-q-b/	173	vb			
-ʕqb	ʕqb	173	n.	m./f.	hock, heel	
+ʕqb	ʕqb	173	n.	m./f. (?)	hock, heel	
 ʕq[l]	ʕq[l]	174			?	
 ʕqltn	ʕqltn	174	adj.	m.	winding	
 ʕqq	ʕqq	174	n.	m.	destroyer	
@@ -1067,14 +1067,14 @@ aẓḥn	ảẓḥn	135	DN
 /ʕ-š-n/	/ʕ-š-n/	185	vb		?	
 ʕšq	ʕšq	185	PN			sem
 /ʕ-š-r/	/ʕ-š-r/	185	vb		to invite	
-ʕšr (I)	ʕšr (I)	185	n.		ten	
+ʕšr (I)	ʕšr (I)	185	n. num.		ten	
 ʕšr (II)	ʕšr (II)	186	n.	m.	marshal, headwaiter	
 ʕšrid	ʕšrỉd	186	adv.		ten times	
-ʕšrm	ʕšrm	186	n.		twenty	
+ʕšrm	ʕšrm	186	n. num.		twenty	
 ʕšr(t) (I)	ʕšr(t) (I)	187	n.	m./f.	banquet	
 ʕšrt (II)	ʕšrt (II)	187	n.	f.	group of ten, ten	
 ʕšrt (III)	ʕšrt (III)	187				
-ʕšt(y)	ʕšt(y)	187	n.		one	
+ʕšt(y)	ʕšt(y)	187	n. of card. num.		one	
 /ʕ-š-y/	/ʕ-š-y/	187	vb		to make, process, work	
 ʕt	ʕt	188	TN			
 /ʕ-t-d/	/ʕ-t-d/	188	vb		?	
@@ -1095,7 +1095,7 @@ aẓḥn	ảẓḥn	135	DN
 ʕṯqb	ʕṯqb	190	n.	m.		
 ʕṯqbt	ʕṯqbt	190	PN			sem
 ʕṯrb	ʕṯrb	190	n.	m.		
-ʕṯty	ʕṯty	190	PN			etym unc
+ʕṯty	ʕṯty	190				etym unc
 ʕṯtpl/r	ʕṯtpl/r	190	DN			
 ʕṯtr	ʕṯtr	190	DN	m.		
 ʕṯtrab	ʕṯtrab	191	PN			sem
@@ -1124,7 +1124,7 @@ aẓḥn	ảẓḥn	135	DN
 b	b	196				
 /b-ʔ/	/b-ʔ/	200	vb		to enter, come, reach	
 buly	bủly	200	PN			etym unc
-bir	bỉr	201	TN		well	
+bir	bỉr	201	TN, n.	f.	well	
 birt (I)	bỉrt (I)	201	TN			
 birt (II)	bỉrt (II)	201	PN			sem
 birtn	bỉrtn	201	PN			sem
@@ -1136,7 +1136,7 @@ bʕd	bʕd	202	adv.		behind
 bʕdy	bʕdy	202	PN			sem
 /b-ʕ-l/	/b-ʕ-l/	202	vb		to make, manufacture; to work	
 bʕl (I)	bʕl (I)	203	n.	m.	labourer, unskilled labourer	
-bʕl (II)	bʕl (II)	203	n.	m.		
+bʕl (II)	bʕl (II)	203	n., DN	m.		
 bʕl (III)	bʕl (III)	206	PN			sem
 bʕldʕ	bʕldʕ	207	PN			sem
 bʕldn	bʕldn	207	PN			sem
@@ -1196,7 +1196,7 @@ bkr	bkr	217	n.	m.	first-born, firstling
 /b-k-y/	/b-k-y/	217	vb		to weep	
 bky	bky	218	n.	m.	weeping, lament	
 bkyt	bkyt	218	n.	f.	mourners	
-bl (I)	bl (I)	218	adv. / emph. functor		1) negative-indicative, “no, not”; 2) affirmative-volitive, “yes”	
+bl (I)	bl (I)	218	adv./emph. functor		1) negative-indicative, “no, not”; 2) affirmative-volitive, “yes”	
 bl (II)	bl (II)	219			without	
 bl (III)	bl (III)	219	n.	m.	blended beer	
 bl (IV)	bl (IV)	219	PN			etym unc
@@ -1275,7 +1275,7 @@ bri	brỉ	233	PN			etym unc
 brdd	brdd	233	PN			sem
 brdn	brdn	234	PN			etym unc
 brḏl	brḏl	234	n.	m.	iron	
-brḥ	brḥ	234	adj.		fleeing, slippery	
+brḥ	brḥ	234	adj.	m.	fleeing, slippery	
 /b-r-k/ (I)	/b-r-k/ (I)	234	vb		to kneel (down), bend one’s knees (to give birth)	
 /b-r-k/ (II)	/b-r-k/ (II)	234	vb		to be blessed	
 brk	brk	235	n.	f.	knee	
@@ -1322,7 +1322,7 @@ bt (III)	bt (III)	247	n.	m.	length, piece
 btbt	btbt	248	DN			
 btl	btl	248	PN			etym unc
 btlt	btlt	248	n.	f.	virgin	
-btlyn	btlyn	248	PN(?)			
+btlyn	btlyn	248	PN (?)			
 btn (I)	btn (I)	248	n.	m.	inside of the house	
 btn (II)	btn (II)	248	PN			etym unc
 btr(y)	btr(y)	248	PN			etym unc
@@ -1530,7 +1530,7 @@ gd (I)	gd (I)	290	n.	m.	coriander
 gd (II)	gd (II)	290	n.	m.	sinew, tendon	
 gdaḫ	gdaḫ	291	PN			sem
 gdl (I)	gdl (I)	291	adj.	m.	broad, wide	
-gdl (II)	gdl (II)	291	n.	m.	fully grown, large	
+gdl (II)	gdl (II)	291	n. subst.	m.	fully grown, large	
 gdl (III)	gdl (III)	291	PN			sem
 gdlt (I)	gdlt (I)	291	n.	f.	head of cattle, cow for sacrifice	
 gdlt (II)	gdlt (II)	291	n.	f.	power, reach	
@@ -1634,7 +1634,7 @@ gsn	gsn	306	PN			etym unc
 gssn	gssn	307	PN			etym unc
 gšl?	gšl?	307	PN			
 gšm	gšm	307	n.	m.	rain, downpour	
-gt	gt	307	n.	f.	wine or olive press	
+gt	gt	307	n., element of TNN	f.	wine or olive press	
 gt.mlky	gt.mlky	310	GN	m.	inhabitant of gt.mlk ‘the Royal Farmstead’	
 gtn	gtn	310	PN			sem ?
 gṯpbn	gṯpbn	310	PN			hurr
@@ -1669,7 +1669,7 @@ gzz	gzz	311	n.	m.	shearer
 ġḥpn	ġḥpn	314	PN			etym unc
 ġl (I)	ġl (I)	314	n.	m.	far extent of desert	
 ġl (II)	ġl (II)	314	PN			hurr
-ġl (III)	ġl (III)	314	n.	m.		
+ġl (III)	ġl (III)	314	n., PN, element of TN	m.		
 ġlb(x)[	ġlb(x)[	314	PN			
 ġlbr	ġlbr	314	PN			etym unc
 ġlkz	ġlkz	314	PN			hurr
@@ -1737,7 +1737,7 @@ gzz	gzz	311	n.	m.	shearer
 /ġ-ẓ-y/	/ġ-ẓ-y/	325	vb		to win over	
 -h (I)	-h (I)	326	suff. pn. morph.		his /her (hers) / its	
 -h (II)	-h (II)	327	adv. functor		to, towards	
-h-	h-	328				
+h-	h-	328	part.			
 hayn	hayn	328	PN			etym unc
 hbm	hbm	328	PN			etym unc
 hbn	hbn	328			ebony	
@@ -1763,22 +1763,22 @@ hlk (II)	hlk (II)	333	deictic adv. functor		behold!
 hlkt	hlkt	333	n.	f.	conduct, way of acting	
 hll	hll	333	DN		New Moon	
 /h-l-m/	/h-l-m/	333	vb		to hit	
-hlm	hlm	333	conj.		and so, and then	
+hlm	hlm	333	conj. functor		and so, and then	
 hln	hln	334	deictic adv. functor		look!	
 hlny	hlny	334	deictic adv. functor		behold, look!	
 -hm	-hm	334	 suff. pn. morph.		1) used with a n., “their, theirs” (of them [both]); 2) used with a vb, “them”; 3) used with a prep., b, bd, bʕd, km, l 	
-hm (I)	hm (I)	335	p. pn.		they, them, their, (both of them / their)	
-hm (II)	hm (II)	335	conj.		if	
+hm (I)	hm (I)	335	pers. pn.	m.	they, them, their, (both of them / their)	
+hm (II)	hm (II)	335	conj., interr. functor		if	
 hmlt	hmlt	337	n.	f.	multitude	
 hmrt	hmrt	337			drain, sink	
 hmry	hmry	337	TN			
 hmt	hmt	337	p. pn.			
--hn (I)	-hn (I)	337	suff. pn. morph.	f.	their, theirs	
+-hn (I)	-hn (I)	337	suff. pers. pn.	f.	their, theirs	
 -hn (II)	-hn (II)	337				
-hn	hn	337	functor 1) deictic functor		behold!; look!; thus	
-hnd	hnd	339	dem. 1) adj.		this, these	
+hn	hn	337	deictic functor, adv.		behold!; look!; thus	
+hnd	hnd	339	dem. adj., pn.		this, these	
 hndn	hndn	339	dem. adj.		this	
-hndh	hndh	339	adv.		(towards) here	
+hndh	hndh	339	adv. functor		(towards) here	
 hndt	hndt	339				
 hnh	hnh	339				
 hn(h)mt	hn(h)mt	339	dem. adj.		these	
@@ -1786,9 +1786,9 @@ hnk(t)	hnk(t)	339	dem. pn.		that, this
 hnkt	hnkt	340				
 hnm	hnm	340	deictic functor		behold	
 hnmt	hnmt	340				
-hnn	hnn	340	adv.		here	
+hnn	hnn	340	adv. functor		here	
 hnny	hnny	340	adv.		here	
-/h-p-k/	/h-p-k/	340	vb		to overturn, alter	
+/h-p-k/	/h-p-k/	340	vb		G: 1) “to overturn, alter”; 2) “to return”; N: “to roll over, rebel”	
 hr (I)	hr (I)	341	n.	m.	mountain	
 hr (II)	hr (II)	341	n.	m.	conception	
 /h-r-g/	/h-r-g/	341	vb		to kill	
@@ -1886,7 +1886,7 @@ hzpy (II)	hzpy (II)	346	PN
 ḥmyt	ḥmyt	360				
 ḥn	ḥn	360			grace, favour	
 ḥnil	ḥnỉl	361	PN			sem
-ḥnbn	ḥnbn	361	DN?			
+ḥnbn	ḥnbn	361	DN (?)			
 /ḥ-n-n/	/ḥ-n-n/	361	vb		to be / appear kind	
 ḥnn (I)	ḥnn (I)	361	n.	m.	kindness, benevolence	
 ḥnn (II)	ḥnn (II)	361	PN			sem
@@ -1984,7 +1984,7 @@ hzpy (II)	hzpy (II)	346	PN
 ḫbdṯr	ḫbdṯr	379	PN			hurr
 ḫbl (I)	ḫbl (I)	379	n.	m.	ruins, remains	
 ḫbl (II)	ḫbl (II)	379			painter, strap	
-ḫbly	ḫbly	379	adj.			
+ḫbly	ḫbly	379	adj./n.	f.		
 ḫbr	ḫbr	379	TN			
 ḫbrtnr	ḫbrtnr	379				
 ḫbrṯ	ḫbrṯ	380	n.	f.	stewpot	
@@ -2039,7 +2039,7 @@ hzpy (II)	hzpy (II)	346	PN
 ḫlb(y)	ḫlb(y)	386	TN			
 ḫlby	ḫlby	386	PN			
 ḫlbym	ḫlbym	387	PN			sem
-ḫldy	ḫldy	387	GN			
+ḫldy	ḫldy	387	GN/TN			
 ḫlġl	ḫlġl	387				
 ḫll	ḫll	387	n.	m.		
 ḫlln	ḫlln	387	PN			etym unc
@@ -2069,9 +2069,9 @@ hzpy (II)	hzpy (II)	346	PN
 /ḫ-m-s/	/ḫ-m-s/	391	vb		to force	
 ẖms̄	ẖms̄	391				
 /ḫ-m-š/	/ḫ-m-š/	391	vb		to repeat five times	
-ḫmš (I)	ḫmš (I)	391	n.		five	
+ḫmš (I)	ḫmš (I)	391	n. num.		five	
 ḫmš (II)	ḫmš (II)	392	adj.	m.	fifth	
-ḫmšm	ḫmšm	392	n.		fifty	
+ḫmšm	ḫmšm	392	n. num.		fifty	
 ḫmšt	ḫmšt	392	n.	f.	five-shekel (?) weight	
 ḫmt	ḫmt	392	n.	f.	tent	
 ḫndlt	ḫndlt	392				
@@ -2142,7 +2142,7 @@ hzpy (II)	hzpy (II)	346	PN
 /ḫ-s-r/	/ḫ-s-r/	405	vb		to fail, be missing, lacking	
 ḫsr	ḫsr	405	n.	m.	deficit	
 /ḫ-s-s/	/ḫ-s-s/	405	vb		to remember	
-ḫss	ḫss	405	DN			
+ḫss	ḫss	405	element of DN			
 ḫśś	ḫśś	406	PN			
 ḫs/św(n)	ḫs/św(n)	406			garlic	
 ḫswn	ḫswn	406	PN			etym unc
@@ -2152,7 +2152,7 @@ hzpy (II)	hzpy (II)	346	PN
 ḫṣt	ḫṣt	406	n.	f.	half	
 ḫṣṭ	ḫṣṭ	407				
 /ḫ-š/	/ḫ-š/	407	vb		to tremble, be alarmed	
-ḫš	ḫš	407	DN			
+ḫš	ḫš	407	DN/TN			
 ḫšm	ḫšm	407				
 ḫšt	ḫšt	407	n.	f.	sepulchre, mausoleum	
 ḫt	ḫt	408	TN			
@@ -2170,7 +2170,7 @@ hzpy (II)	hzpy (II)	346	PN
 ḫtyn	ḫtyn	409	PN			
 ḫtyt	ḫtyt	409	GN	f.	Hittite (people (?))	
 /ḫ-ṭ/	/ḫ-ṭ/	409	vb		to wake up, come to	
-ḫṭ	ḫṭ	410	n.	m./f.	sceptre, rod, wand, stake	
+ḫṭ	ḫṭ	410	n.	m./f. (?)	sceptre, rod, wand, stake	
 /ḫ-ṭ-ʔ/	/ḫ-ṭ-ʔ/	410	vb		to make a mistake, sin	
 ḫṯpy	ḫṯpy	411	PN			etym unc
 ḫṯr	ḫṯr	411	n.	m.	sieve	
@@ -2200,7 +2200,7 @@ kb	kb	419	PN			etym unc
 kbb	kbb	419			?	
 kbby	kbby	419	PN			
 /k-b-d/	/k-b-d/	419	vb		to honour, to pay homage to, welcome	
-kbd (I)	kbd (I)	420	n.		liver	
+kbd (I)	kbd (I)	420	n.	f. (rarely m.)	liver	
 kbd (II)	kbd (II)	421	n.	m.	total (quantity or price), correct, exact number	
 kbd (III)	kbd (III)	422				
 kbd (IV)	kbd (IV)	422	n.	m.	splendour, glory	
@@ -2305,7 +2305,7 @@ kmrṯn	kmrṯn	441	PN			hurr
 /k-m-s/	/k-m-s/	441	vb		to buckle, bend	
 kmsk	kmsk	441	n.	m.	pick, small piece	
 kmt	kmt	442	adv.		like(wise)	
-kmṯ	kmṯ	442	DN			
+kmṯ	kmṯ	442	DN, element of DN			
 kmy	kmy	442	PN			etym unc
 -kn	-kn	442	suff. pn. morph.	f.	your	
 /k-n/	/k-n/	442	vb		to be (stable), have	
@@ -2435,7 +2435,7 @@ kṯn (II)	kṯn (II)	467	TN
 kṯp	kṯp	467	n.	m.	?	
 kṯr (I)	kṯr (I)	467	adj.	m.	skilful	
 kṯr (II)	kṯr (II)	467	n.	m.	vigour, good health	
-kṯr (III)	kṯr (III)	467	DN			
+kṯr (III)	kṯr (III)	467	DN, element of DN	m.		
 kṯrm	kṯrm	468	PN			
 kṯrmlk	kṯrmlk	468	PN			sem
 kṯrn	kṯrn	468	PN			sem
@@ -2495,7 +2495,7 @@ lg (I)	lg (I)	489	n.	m.	jar
 lg (II)	lg (II)	490	PN			etym unc
 lgn	lgn	490	PN			etym unc
 lġz	lġz	490				
-lḥ (I)	lḥ (I)	490	n.		cheek	
+lḥ (I)	lḥ (I)	490	n.	f.	cheek	
 lḥ (II)	lḥ (II)	490	n.	m.	missive, message	
 /l-ḥ(-ḥ)/	/l-ḥ(-ḥ)/	491	vb		to moisten	
 /l-ḥ-k/	/l-ḥ-k/	491	vb		to lick	
@@ -2557,7 +2557,7 @@ lzy	lzy	503	PN			etym unc
 lẓpn	lẓpn	503				
 lẓt	lẓt	503	n.	f.	severity	
 -m (I)	-m (I)	504	adv. encl. morph.			
--m (II)	-m (II)	504	emph. / det. encl. morph.			
+-m (II)	-m (II)	504	emph./det. encl. morph.			
 mab	mảb	506				
 /m-ʔ-d/	/m-ʔ-d/	506	vb		to be immense, numerous	
 mad	mảd	506	PN			sem
@@ -2581,12 +2581,12 @@ mit	mỉt	509	n.	f.	a hundred, one hundred
 maṯr	mảṯr	513	n.	m.	controller, inspector	
 miyt	mỉyt	513	n.	f.	swamp	
 mizrt	mỉzrt	513	n.	f.	garment, ritual tunic	
-mʕ (I)	mʕ (I)	513	postpositional emph		please!	
+mʕ (I)	mʕ (I)	513	postpositional emph. adv.		please!	
 mʕ (II)	mʕ (II)	514	adv.		as one, together	
 mʕbd	mʕbd	514	n.	m.	labour, work	
 mʕbr	mʕbr	514	n.	m.	pass, ford	
 mʕd	mʕd	514	n.	m.	convention, assembly	
-mʕdb	mʕdb	514	n.		compensation, fine, reparation	
+mʕdb	mʕdb	514	n.	m.	compensation, fine, reparation	
 mʕlt	mʕlt	515	n.	f.	step	
 mʕmʕ	mʕmʕ	515	n.	m.	convulsion	
 mʕms	mʕms	515				
@@ -2717,7 +2717,7 @@ mkt	mkt	539	n.	m.	immolation, offering
 mkṯr	mkṯr	539	n.	m.	expert	
 ml	ml	539			?	
 /m-l-ʔ/	/m-l-ʔ/	539	vb		to be full	
-mlu	mlủ	539	n.		fill, full measure	
+mlu	mlủ	539	n.	m.	fill, full measure	
 mlak	mlảk	540	n.	m.	messenger	
 mlakt	mlảkt	540	n.	f.	message, mission, missive, embassy	
 mlat	mlảt	540	n.	f.	fullness	
@@ -2743,7 +2743,7 @@ mlk (III)	mlk (III)	548	TN
 mlk (IV)	mlk (IV)	549	PN			sem
 mlkʕṯtrt	mlkʕṯtrt	549	DN			
 mlkbn	mlkbn	549	PN			sem
-mlkm	mlkm	549	n.		Dead Kings	
+mlkm	mlkm	549	n., DN		Dead Kings	
 mlknʕm	mlknʕm	549	PN			sem
 mlkrpi	mlkrpỉ	549	PN			sem
 mlkršp	mlkršp	549	PN			sem
@@ -2789,7 +2789,7 @@ mnḥy	mnḥy	556			offering
 mnḫ	mnḫ	556			calm	
 mnk	mnk	556	indef. pn.		whoever, anyone	
 mnm	mnm	556	indef. pn.		any(thing), whatever, all (that)	
-mnmn	mnmn	557	indef. p. pn.		anyone, someone	
+mnmn	mnmn	557	indef. pers. pn., element of DN		anyone, someone	
 mnn	mnn	557	PN			etym unc
 mnny	mnny	557	PN			etym unc
 mnqt	mnqt	557			acquittal, exoneration	
@@ -2829,7 +2829,7 @@ mradn	mrảdn	564	PN			sem
 mril	mrỉl	564				
 mrily	mrỉly	565	GN	m.		
 mrat	mrảt	565	TN			
-mrʕ	mrʕ	565	n.		pasture land	
+mrʕ	mrʕ	565	n.	c.	pasture land	
 mrʕm	mrʕm	565	PN			sem
 mrbʕ	mrbʕ	565	n.	m.	quart	
 mrbʕt	mrbʕt	565	n.	f.	the fourth	
@@ -2870,7 +2870,7 @@ mry (II)	mry (II)	572	PN			etym unc
 mrym	mrym	572	n.	m.	height	
 mryn (I)	mryn (I)	572	n.	m.	member of a social group	etym unc
 mryn (II)	mryn (II)	573	PN			
-mryt	mryt	573	n.	f.	Mariote	
+mryt	mryt	573	GN	f.	Mariote	
 mrzʕy	mrzʕy	573	adj.	m.	he of the mrzḥ	
 mrzḥ	mrzḥ	574	n.	m.	cultic association	
 msdt	msdt	574	n.	f.	foundation(s)	
@@ -2938,7 +2938,7 @@ mšpy	mšpy	585	n.	m.	?
 mšq	mšq	585	n.	m.	cup	
 /m-š-r/	/m-š-r/	585	vb		to set a vehicle in motion, to drive it	
 mšr (I)	mšr (I)	586	n.	m.	justice, justification	
-mšr (II)	mšr (II)	586	n.		song	
+mšr (II)	mšr (II)	586	n.	c.	song	
 mšrn	mšrn	586	PN			sem
 mšrr	mšrr	586	n.	m.	pointer (of the balance), pivot	
 mšspdt	mšspdt	587	n.	f.	wailing woman, hired mourner	
@@ -3237,14 +3237,14 @@ nṯṯ	nṯṯ	644
 nwgn	nwgn	644	PN			etym unc
 nwrḏ	nwrḏ	644	PN			hurr
 nwrḏr	nwrḏr	644	PN			hurr
--ny	-ny	644	p. pn.	du.	our (both of us)	
+-ny	-ny	644	suff. pn. morph.		our (both of us)	
 nyr	nyr	644			luminary	
 nzʕn	nzʕn	645	PN			etym unc
 nzdt	nzdt	645			?	
 nzl	nzl	645			offering	
 /n-z-q/	/n-z-q/	645	vb		to be injured, hurt	
 nẓril	nẓrỉl	645	PN			sem
-p (I)	p (I)	646	conj.		and	
+p (I)	p (I)	646	conj. functor		and	
 p (II)	p (II)	647	adv.		here	
 p (III)	p (III)	647	n.	m.	mouth, snout	
 pid	pỉd	648	n.	m.	heart	
@@ -3309,7 +3309,7 @@ pḥlt	pḥlt	657	n.	f.	mare
 pḥm	pḥm	657	n.	m.	ember, glowing coal	
 pḫd	pḫd	658	n.	m.	a yearling lamb	
 pḫn	pḫn	659	TN			
-pḫr (I)	pḫr (I)	659	n.		assembly	
+pḫr (I)	pḫr (I)	659	n.	m.	assembly	
 pḫr (II)	pḫr (II)	659	n.	m.	potter	
 pḫyr	pḫyr	659	n.	m.	whole, totality	
 pkdy	pkdy	659	PN			
@@ -3375,7 +3375,7 @@ prdy	prdy	669	PN			etym unc
 prgl	prgl	669	DN		Vine Shoot	
 prgn	prgn	669	PN			sem
 prġṯ	prġṯ	669	PN			sem
-prẖ (I)	prẖ (I)	669	PN		bud, shoot	
+prẖ (I)	prẖ (I)	669	PN, n.	m.	bud, shoot	
 prḫ (II)	prḫ (II)	669	PN			sem
 prḫn	prḫn	669	PN		flower-like	
 prkl	prkl	669	PN			etym unc
@@ -3456,7 +3456,7 @@ qʕl (I)	qʕl (I)	681	n.	m.	height, summit
 qʕl (II)	qʕl (II)	681	n.	m.	vine blossom	
 qʕmr	qʕmr	681	PN			
 /q-b-ʔ/	/q-b-ʔ/	681	vb		to send (someone) to say, to summon	
-qbʔl	qbʔl	681	PN			
+qbʔl	qbʔl	681	PN/TN (?)			
 qbʕt	qbʕt	681	n.	f.	goblet	
 */q-b-b/	*/q-b-b/	681	vb			
 qbl	qbl	681			battle	
@@ -3483,7 +3483,7 @@ qdš (I)	qdš (I)	685	adj.	m.	holy
 qdš (II)	qdš (II)	686	n.	m.	sanctuary	
 qdš (III)	qdš (III)	686	DN		the Holy One	
 qdš (IV)	qdš (IV)	687	TN			
-qdšt (I)	qdšt (I)	687	adj.	f.	holy	
+qdšt (I)	qdšt (I)	687	adj., DN	f.	holy	
 qdšt (II)	qdšt (II)	687	PN			sem
 qhm	qhm	687	PN			etym unc
 /q-l/	/q-l/	687	vb		to fall (down)	
@@ -3562,7 +3562,7 @@ qrzbl	qrzbl	704	TN
 qrẓ	qrẓ	704	n.	m.	acacia	
 qsrm	qsrm	705				
 qṣ	qṣ	705	n.	m.	end	
-qṣʕt	qṣʕt	705	n.		arrow(s), dart(s) (?)	
+qṣʕt	qṣʕt	705	n.	f.	arrow(s), dart(s) (?)	
 qṣḥ	qṣḥ	705	n.	m.	cumin	
 qṣm	qṣm	705	n.	m.	grasshopper(s)	
 qṣn	qṣn	705	PN			sem
@@ -3610,7 +3610,7 @@ rišn	rỉšn	715	PN			sem
 rišy	rỉšy	715	GN	m.		
 rišyt	rỉšyt	715	n.	f.	beginning	
 ray	rảy	715	PN			etym unc
-rʕ	rʕ	715	n.		companion, friend	
+rʕ	rʕ	715	n.	m.	companion, friend	
 rʕkt	rʕkt	716				
 rʕt	rʕt	716			thunder	
 rʕy (I)	rʕy (I)	716	n.	m.	shepherd	
@@ -3631,7 +3631,7 @@ rbt (I)	rbt (I)	720	n.	f.	Lady, (Great) Lady
 rbt (II)	rbt (II)	720	n.	f.	seine, trawl	
 rbt (III)	rbt (III)	721				
 rdmn	rdmn	721				
-rdn	rdn	721	PN		to rule	
+rdn	rdn	721	PN/DN		to rule	
 rdy	rdy	721			harass	
 rgbt	rgbt	721	n.	f.	respect	
 rgln	rgln	721	PN			
@@ -3668,7 +3668,7 @@ rks	rks	729	n.	m.	belt
 rmib	rmỉb	730	PN			sem
 rm (I)	rm (I)	730	adj.	m.	high, lofty, sublime, exalted	
 rm (II)	rm (II)	730	n.	m.	erection	
-rmṣ	rmṣ	730	n.	m./f.	embers, hot stones	
+rmṣ	rmṣ	730	n.	m./f. (?)	embers, hot stones	
 rmš	rmš	730	DN			
 rmṯt	rmṯt	730	n.	f.		
 /r-m-y/	/r-m-y/	730	vb		to throw, shoot	
@@ -3689,7 +3689,7 @@ rpš (II)	rpš (II)	733	PN			sem
 rpš (III)	rpš (III)	733				
 rpty	rpty	733	PN			etym unc
 /r-p-y/	/r-p-y/	733	vb		to slacken, loosen	
-rq (I)	rq (I)	733	n.		sheet	
+rq (I)	rq (I)	733	n.	m.	sheet	
 rq (II)	rq (II)	733	adj.	m.	fine, thin	
 rqd	rqd	734	TN			
 rqdn	rqdn	734	PN			sem
@@ -3736,7 +3736,7 @@ sbrdn	sbrdn	741			maker of bronze spears
 sd	sd	742	n.	m.	council	
 śdmy	śdmy	742	TN			
 sdn	sdn	742			?	
-s:śdn	s:śdn	742	PN			
+s:śdn	s:śdn	742	PN, PN/DN			
 sdwn	sdwn	742	PN			etym unc
 s:śdy	s:śdy	742	PN			etym unc
 sgld	sgld	742	PN			hurr
@@ -3780,7 +3780,7 @@ s:ślgyn	s:ślgyn	749	PN			hurr
 slḫ (I)	slḫ (I)	749	n.	m.		
 slḫ (II)	slḫ (II)	750	TN			
 slḫu	slḫủ	750	TN			
-slḫy	slḫy	750	PN			
+slḫy	slḫy	750	PN/GN			
 sll	sll	750	PN			etym unc
 slm	slm	750	n.	m.	staircase	
 slmu	slmu	751	PN			etym unc
@@ -3793,7 +3793,7 @@ slyn	slyn	751	PN			etym unc
 smd	smd	751	n.	m.	bead, pearl	
 smkt	smkt	751	n.	f.	height	
 smm	smm	751	n.	m.	perfume	
-smwn	smwn	752	TN			
+smwn	smwn	752	TN/toponymic element			
 smyy	smyy	752	PN			etym unc
 sn	sn	752	PN			etym unc
 snb	snb	752	PN			etym unc
@@ -3829,7 +3829,7 @@ srn	srn	759			prince
 s/śrn	s/śrn	759	PN			etym unc
 srp	srp	759	PN			etym unc
 /s-r-r/	/s-r-r/	759	vb		to set, sink, hide	
-srr	srr	759	DN			
+srr	srr	759	DN, element of DN			
 srt	srt	759	PN			anat
 srty	srty	759	PN			anat
 srwd	srwd	759	PN			anat
@@ -3878,8 +3878,8 @@ s:śzn	s:śzn	763	PN			anat
 ṣdkn	ṣdkn	767				
 */ṣ-d-q/	*/ṣ-d-q/	767	vb			
 ṣdqy	ṣdqy	768	PN			sem
-ṣdq (I)	ṣdq (I)	768	n.		justice, legitimacy, lawful	
-ṣdq (II)	ṣdq (II)	768	DN			
+ṣdq (I)	ṣdq (I)	768	n./adj. (?)	m.	justice, legitimacy, lawful	
+ṣdq (II)	ṣdq (II)	768	DN, element of DN			
 ṣdqil	ṣdqỉl	768	PN			sem
 ṣdqm	ṣdqm	768	PN			sem
 ṣdqn	ṣdqn	768	PN			sem
@@ -3912,7 +3912,7 @@ s:śzn	s:śzn	763	PN			anat
 ṣmq	ṣmq	775	n.	m.	raisin	
 ṣmrt	ṣmrt	775	PN			etym unc
 /ṣ-m-t/	/ṣ-m-t/	775	vb		to destroy, wipe out, defeat	
-ṣmt	ṣmt	775	n.		destruction	
+ṣmt	ṣmt	775	n.	m.	destruction	
 ṣmy	ṣmy	776	PN			etym unc
 ṣnnr	ṣnnr	776	PN			etym unc
 ṣnr	ṣnr	776	PN			etym unc
@@ -3977,16 +3977,16 @@ s:śzn	s:śzn	763	PN			anat
 šʕrt (I)	šʕrt (I)	788	n.	f.	wool, hair	
 šʕrt (II)	šʕrt (II)	789	TN			
 šʕrty	šʕrty	789	GN	m.		
-šʕtq	šʕtq	789	adj.		noble	
+šʕtq	šʕtq	789	adj./n.	m.	noble	
 šʕtqt	šʕtqt	789	DN			
 šb	šb	789	n.	m.	old man, elderly man	
 /š-b-ʕ/ (I)	/š-b-ʕ/ (I)	790	vb		to repeat for the seventh time	
 /š-b-ʕ/ (II)	/š-b-ʕ/ (II)	790	vb		to be sated, glutted	
-šbʕ (I)	šbʕ (I)	790	n.		seven	
+šbʕ (I)	šbʕ (I)	790	n. num.		seven	
 šbʕ (II)	šbʕ (II)	792	ord. num.		seventh	
 šbʕ(i)d	šbʕ(ỉ)d	792	adv.		seven times	
 šbʕl	šbʕl	792	PN			sem
-šbʕm	šbʕm	792	n.		seventy	
+šbʕm	šbʕm	792	n. num.		seventy	
 šbʕr	šbʕr	793				
 šbḥ	šbḥ	793				
 šblt	šblt	793	n.	f.	ear, spike (of corn)	
@@ -4011,7 +4011,7 @@ s:śzn	s:śzn	763	PN			anat
 šdġl	šdġl	799	PN			etym unc
 šdmt	šdmt	799	n.	f.	terrace	
 /š-d-y/	/š-d-y/	799	vb		to pour	
-šdy (I)	šdy (I)	799	adj.		land labourer	
+šdy (I)	šdy (I)	799	adj./n.	c.	land labourer	
 šdy (II)	šdy (II)	799	PN			sem
 šdyn	šdyn	799	PN			sem
 šḏrn	šḏrn	800	PN			etym unc
@@ -4068,7 +4068,7 @@ s̄ls̄t	s̄ls̄t	810	n.		three
 šlyṭ	šlyṭ	810	n.	m.	tyrant	
 šm (I)	šm (I)	810	n.	m.	name	
 šm (II)	šm (II)	811	PN			etym unc
-šmal	šmảl	811	adj.		left	
+šmal	šmảl	811	adj./n.	m.	left	
 /š-m-ʕ/	/š-m-ʕ/	811	vb		to hear, listen (to), notice	
 šmʕ	šmʕ	812	n.	m.	auditor	
 šmʕn	šmʕn	812	PN			sem
@@ -4130,7 +4130,7 @@ s̄mnt	s̄mnt	817			eight
 /š-p-l/	/š-p-l/	823	vb		to bend down, stoop	
 špqġhm	špqġhm	823				
 špr	špr	824	n.	m.	horn	
-špš	špš	824	n.		sun	
+špš	špš	824	n.	f./m.	sun	
 špšm	špšm	825	PN			sem
 špšmlk	špšmlk	825	PN			sem
 špšn	špšn	825	PN			sem
@@ -4154,7 +4154,7 @@ s̄ql	s̄ql	827	n.	m.	shekel
 šr (III)	šr (III)	829	n.	m.	Prince, Sovereign	
 šr (IV)	šr (IV)	829	n.	m.	navel	
 šr (V)	šr (V)	830	n.	m.	disgrace	
-šr (VI)	šr (VI)	830	DN			
+šr (VI)	šr (VI)	830	DN, element of DNN			
 šr (VII)	šr (VII)	830	PN			
 šr (VIII)	šr (VIII)	830			?	
 šrʕ	šrʕ	830	n.	m.	flow	
@@ -4176,7 +4176,7 @@ s̄ql	s̄ql	827	n.	m.	shekel
 /š-r-y/w/	/š-r-y/w/	833	vb		to release	
 šryn	šryn	833	TN			
 šš	šš	834	PN			etym unc
-s̄s̄	s̄s̄	834	n.		six	
+s̄s̄	s̄s̄	834	n. cardinal num.	m.	six	
 šškrgy	šškrgy	834	PN			etym unc
 ššl	ššl	834	PN			etym unc
 ššlmt	ššlmt	834	n.	f.	supplementary delivery or ration	
@@ -4239,7 +4239,7 @@ tbṯḫ	tbṯḫ	846	n.	m.	bed
 tby	tby	846	PN			etym unc
 tbṯr	tbṯr	846	PN			etym unc
 tdu	tdủ	846	PN			etym unc
-tdgly	tdgly	846	n.	m.		
+tdgly	tdgly	846	n., GN (?)	m.		
 tdgr	tdgr	846	n.	m.	compiler, collector	
 tdġl	tdġl	846	n.	m.	maker of pieces of bronze for armour	
 td:tġl	td:tġl	846	PN			etym unc
@@ -4304,7 +4304,7 @@ tlbr	tlbr	856	PN
 tlby	tlby	856	PN			hurr
 tldn	tldn	856	PN			etym unc
 tlgn	tlgn	856	PN			etym unc
-tlm	tlm	857	n.		furrow	
+tlm	tlm	857	n.	m.	furrow	
 tlmu	tlmủ	857	PN			hurr
 tlmd	tlmd	857	n.	m.	trained, one being tamed	
 tlmn	tlmn	857	PN			etym unc
@@ -4391,8 +4391,8 @@ trzy	trzy	867	TN
 trzyn	trzyn	867	PN			etym unc
 trẓẓ	trẓẓ	867	n.	m.	light march, speed	
 tsm	tsm	868	n.	m.	beauty	
-tšʕ	tšʕ	868	n.		nine	
-tšʕm	tšʕm	868	n.		ninety	
+tšʕ	tšʕ	868	n. num.		nine	
+tšʕm	tšʕm	868	n. num.		ninety	
 tškrġ	tškrġ	869	PN			hurr
 tšlm	tšlm	869	n.	m.	payment	
 tšt	tšt	869	n.	f.	wish	
@@ -4496,7 +4496,7 @@ tznt	tznt	872			provisions
 ṯdr	ṯdr	886	n.	f.	waitress, girl	
 ṯdrṯ	ṯdrṯ	887	TN			
 /ṯ-d-ṯ/	/ṯ-d-ṯ/	887	vb		to repeat for the sixth time	
-ṯdṯ	ṯdṯ	887	adj.		sixth	
+ṯdṯ	ṯdṯ	887	adj., ord. num.		sixth	
 ṯdṯb	ṯdṯb	887	PN			hurr
 ṯdy	ṯdy	887	PN			etym unc
 ṯdyn	ṯdyn	887	PN			etym unc
@@ -4518,7 +4518,7 @@ tznt	tznt	872			provisions
 /ṯ-k-l/	/ṯ-k-l/	890	vb		be childless, deprived of children	
 ṯkl	ṯkl	890	n.	m.	sterility, loss of children	
 ṯkm	ṯkm	890	n.	m.	shoulder	
-ṯkmn	ṯkmn	890	DN			
+ṯkmn	ṯkmn	890	DN, element of DN			
 ṯkmt	ṯkmt	890	n.	f.	she who carries on her shoulders, who shoulders	
 ṯkn	ṯkn	891	PN			hurr
 ṯknt	ṯknt	891			appearance, form	
@@ -4546,9 +4546,9 @@ tznt	tznt	872			provisions
 ṯltḫ	ṯltḫ	894	PN			etym unc
 ṯlṭ	ṯlṭ	894	PN			etym unc
 /ṯ-l-ṯ/	/ṯ-l-ṯ/	894	vb		to repeat for the third time	
-ṯlṯ (I)	ṯlṯ (I)	894	n.		three	
-ṯlṯ (II)	ṯlṯ (II)	897	adj.	m.	third	
-ṯlṯ (III)	ṯlṯ (III)	897	n.		charioteer	
+ṯlṯ (I)	ṯlṯ (I)	894	n. num.		three	
+ṯlṯ (II)	ṯlṯ (II)	897	adj. ord. num.	m.	third	
+ṯlṯ (III)	ṯlṯ (III)	897	n.	m.	charioteer	
 ṯlṯ (IV)	ṯlṯ (IV)	897			triple	
 ṯlṯ (V)	ṯlṯ (V)	897	n.	m.	copper, bronze	
 ṯlṯid	ṯlṯỉd	898	adv.		three times	
@@ -4627,7 +4627,7 @@ tznt	tznt	872			provisions
 ṯqrn	ṯqrn	916	PN			etym unc
 /ṯ-q-y/	/ṯ-q-y/	916	vb		to elevate, take up	
 ṯr (I)	ṯr (I)	916	n.	m.	bull	
-ṯr (II)	ṯr (II)	917	PN			
+ṯr (II)	ṯr (II)	917	PN, element of PN			
 ṯr (III)	ṯr (III)	917	n.	m.		
 ṯr (IV)	ṯr (IV)	917	n.	f.		
 ṯr (V)	ṯr (V)	917	PN			etym unc
@@ -4676,8 +4676,8 @@ tznt	tznt	872			provisions
 ṯtyy	ṯtyy	922	PN		Seth	
 ṯṭ	ṯṭ	922	n.	f.		
 өṭ	өṭ	922				
-ṯṯ	ṯṯ	922	n.		six	
-ṯṯm	ṯṯm	924	n.		sixty	
+ṯṯ	ṯṯ	922	n. num.		six	
+ṯṯm	ṯṯm	924	n. num.		sixty	
 ṯṯpḥ	ṯṯpḥ	924	PN			etym unc
 ṯṯy	ṯṯy	925	PN			etym unc
 /ṯ-w-y/	/ṯ-w-y/	925	vb		to resist	
