@@ -8,10 +8,10 @@ This repo contains a text fabric dataset of the Ugaritic text corpus. It is work
 ### The CACCHT project: Creating Annotated Corpora of Classical Hebrew Texts
 This dataset is developed as part of the [CACCHT project](https://github.com/CACCHT), which is a collaboration of Christian Canu Højgaard, Martijn Naaijer, Martin Ehrensvärd, Robert Rezetko, Oliver Glanz, and Willem van Peursen. The goal of CACCHT is to prepare and publish ancient Semitic texts digitally, that can be used for research.
 
-For this dataset, we cooperate with Tania Notarius (University of the Free State), Maria Simion, Lynn Strietzel, and Ben Shields, volunteer assistants (Polis - the Jerusalem Institute of Language and Humanities).
+For this dataset, we cooperate with Tania Notarius (University of the Free State), Maria Simion, Lynn Strietzel, Ben Shields and Elijah Labowe-Stoll, volunteer assistants (Polis - the Jerusalem Institute of Language and Humanities).
 
 ### Data
-The following tablets of *Die keilalphabetischen Texte aus Ugarit* (KTU) are currently available:
+278 tablets of *Die keilalphabetischen Texte aus Ugarit* (KTU) are currently available:
 
 - KTU 1.1-1.7
 - KTU 1.14-1.25
@@ -32,7 +32,14 @@ The following tablets of *Die keilalphabetischen Texte aus Ugarit* (KTU) are cur
 - KTU 1.121-1.122
 - KTU 1.124
 - KTU 1.126-1.127
-- KTU 1.129
+- KTU 1.129-1.130
+- KTU 1.132-1.134
+- KTU 1.136-1.144
+- KTU 1.146-1.147
+- KTU 1.149
+- KTU 1.153-1.156
+- KTU 1.158-1.177
+- KTU 1.179-1.180
 - KTU 2.1
 - KTU 2.3-2.18
 - KTU 2.20-2.27
@@ -42,6 +49,7 @@ The following tablets of *Die keilalphabetischen Texte aus Ugarit* (KTU) are cur
 - KTU 2.77-2.80
 - KTU 2.82-2.105
 - KTU 2.107-2.113
+- KTU 3.1-3.35
 
 The texts are currently annotated with the following features:
 
