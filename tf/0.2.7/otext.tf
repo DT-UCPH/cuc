@@ -1,19 +1,17 @@
-@node
+@config
 @convertedToTextFabricBy=Martijn Naaijer and Christian Canu Højgaard
 @dataset=cuc
 @datasetName=Copenhagen Ugarit Corpus
 @encodedBy=Christian Canu Højgaard and Martijn Naaijer
+@fmt:text-orig-full={sign}
+@fmt:text-orig-unicode={usign}
 @licence=Creative Commons Attribution-NonCommercial 4.0 International License
 @licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
 @manuscripts=
+@sectionFeatures=tablet,column,line
+@sectionTypes=tablet,column,line
 @source=
-@valueType=str
 @version=0.2.7
 @writtenBy=Text-Fabric
-@dateWritten=2026-01-21T19:33:09+00:00Z
+@dateWritten=2026-01-22T09:51:52+00:00Z
 
-1-140867	sign
-140868-141200	column
-141201-148777	line
-148778-149055	tablet
-149056-181331	word
