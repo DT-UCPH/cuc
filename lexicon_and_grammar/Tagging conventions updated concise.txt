@@ -1,0 +1,27 @@
+Tagging conventions updated
+
+At this stage we decided not to reconstruct consonants, doubling, vowels and other grammatical markings that do not appear on the surface and concentrate on the visible elements. Altogether, if a sign is part of a lexeme, but it does not appear in a word, it is added to the word by "(". If a sign occurs in a word but it does not occur in the lexeme in DULAT, it is preceded by "&". E.g., in case of a scribal error corrected by editors, the ‘(’ precedes the ‘&’, as in wsp - (k&wsp “silver”. Otherwise, at this stage we don't reconstruct missing signs.
+The signs ( and & are also can also be used for aleph letters (u, i, a).
+Comments about variants can be added after  #
+
+Lexical tagging: Always check a word in DULAT for the lexeme. Are there homographs? DULAT adds roman numerals in parentheses to a lexeme for disambiguation. For now, we use this convention as well. This rule applies also to the homographic particles, e.g. -h(I) pron "his/her" -h(II) adverb.
+If aleph letters are part of the nominal root and do not show different variants of vocalization, they are not further parsed. In verbal roots aleph ʔ should be visible, because we follow the lexicon DULAT. E.g. the verb š-ʔ-b has the surface form šibt, we encode as š(ʔ&ib[/t= "those (fpl) who draw water".
+
+Check also the part of speech.
+lexemes of nouns and adjectives end on "/".
+lexemes of verbs end on "[".
+If a form is deverbal noun (as infinitive or participle), the order is [/.
+Prepositions, particles, pronouns are without a special sign at the end.
+E.g.: Suppose in a text you find the word "il", meaning "God". DULAT adds "(I)" to it. This means that we encode the word as: il(I)/.
+
+Suffixes and enclitics:
+Pronominal suffixes are prefixed with "+": mlk/+h "his king"
+~ appears before the postclitic consonants: !y!rgm[~n "he says"
+If feminine ending -t  of nouns (both sing or plur) is part of the lexeme, we leave it unmarked  at this stage. A noun that appears without the feminine -t in singular, but with -t in plural, e.g. gg, is tagged: gg/t= “roofs”. But adjectives and participles tag feminine ending -t, e.g. mru "fattened: the feminine singular form is mr(u&a/t and the feminine plural is mr(u&a/t=.
+In III-ˀ nouns aleph letters show case endings, e.g. ksu "seat: ks(u/&u nominative, ks(u/&i genitive, ks(u/&a accusative; or plural of rpu "Rafa": rp(u&/m, rp(u&i/m.
+
+Prefixes and infixes:
+Verbal preformatives of the prefix conjugation are between !!, e.g. tqtl -> !t!qtl[.
+Augment that indicates the verbal stem are between ]]. E.g. a verb with a prefixed š (š-stem), looks like this: šqtl -> ]š]qtl[.
+An infinitive is encoded as !!qtl[/.
+An active participle is encoded as qtl[/.
