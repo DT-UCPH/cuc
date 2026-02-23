@@ -1,0 +1,203 @@
+# Changelog
+
+## 2026-02-23
+
+- Clarified and simplified `README.md` pipeline-stage documentation for linguist-facing readability while matching the actual executed flow (upstream CUC-to-TSV input, bootstrap + context-aware candidate scoring, instruction refiner pass, ordered heuristic step chain, final report regeneration).
+- Added shared onomastic override loader `pipeline/steps/onomastic_overrides.py` with support for the updated three-column TSV format (`dulat`, `POS`, `gloss`) while keeping backward compatibility for two-column files.
+- Updated `pipeline/steps/onomastic_gloss.py` to consume the shared loader so gloss overrides now read the actual `gloss` column (not `POS`) from `data/onomastic_gloss_overrides.tsv`.
+- Added `FeminineTSingularSplitFixer` (`pipeline/steps/feminine_t_singular_split.py`) and wired it into `pipeline/tablet_parsing.py` to normalize feminine singular unsplit analyses:
+  - `Xt/ -> X/t`
+  - `Xt(I)/ -> X(t(I)/t`
+  - with conservative gates for feminine evidence, onomastic gender, and plural-form exclusion.
+- Refined feminine singular split behavior for lexeme-final `-t` nouns so DULAT reconstruction remains faithful:
+  - `Xt/ -> X(t/t`
+  - `X/t -> X(t/t`
+  - `Xt(I)/ -> X(t(I)/t`
+  - `X(I)/t -> X(t(I)/t`
+  - while preserving `.../t` for non-`t`-final lemmas.
+- Added dedicated tests for the new feminine singular split step and for three-column onomastic override parsing (`tests/test_feminine_t_singular_split.py`, `tests/test_onomastic_gloss_overrides_format.py`).
+- Extended linter predicates with `analysis_has_missing_feminine_singular_split` and added a noun-level warning for missing feminine singular `/t` splits in `linter/lint.py` plus predicate tests.
+- Extended linter predicates with `analysis_has_lexeme_t_split_without_reconstructed_t` and added a warning for lexeme-final `-t` nouns that use `/t` without reconstructed `(t`.
+- Added conservative linter fallback for feminine `/t` analyses so declared DULAT feminine headwords ending in `-t` can be validated via surface candidates when lexeme-only lookup omits them.
+- Documented the rule-specific refinement workflow in `docs/feminine_t_singular_split_pipeline.md`.
+- Re-ran only the new feminine singular split rule across `out/KTU *.tsv`: 1,350 rows updated in 184 files (including `9837`, `138163`, `160344`).
+- Follow-up pass refined existing `/t` feminine splits for lexeme-final `-t` nouns to `...(t/t` and injected missing homonyms from declared DULAT tokens where needed (for example `9584`, `9588`): 624 rows updated in 143 files.
+- Added terminal-`m` reconstructability completion for lexeme-final `-t` feminine splits where surface ends with `tm` (for example `thmtm` -> `thm(t/tm`), applied in a rule-only pass (72 rows).
+
+## 2026-02-22
+
+- Added generic surface-level parsing override support:
+  - new step `GenericParsingOverrideFixer` in `pipeline/steps/generic_parsing_override.py`,
+  - new curated source file `data/generic_parsing_overrides.tsv`,
+  - pipeline wiring in `pipeline/tablet_parsing.py` (runs near the end of refinement, before final schema formatting),
+  - unit coverage for full override application, optional-column preservation, and unresolved-row overrides.
+- Enforced clitic-`n` annotation style in linter (`linter/lint.py`): column 3 now flags homonym-marked enclitic notation (for example `+n(I)`, `~n(II)`, `[n(III)`, `-n(IV)`) and requires host-style forms (`+n`, `+n=`, `~n`, `[n`, `[n=`).
+- Updated `data/generic_parsing_overrides.tsv` high-frequency `n`/`tn` entries to host-style clitic notation in column 3 (no homonym numerals).
+- Re-applied the latest curated `data/onomastic_gloss_overrides.tsv` updates across all generated tablet outputs (`out/KTU *.tsv`), refreshing onomastic glosses in 58 files (218 rows).
+- Synced DN/PN/TN/MN/GN gloss payloads in regenerated outputs to the updated override table without changing pipeline code.
+- Added canonical variant-divider spacing normalization in `pipeline/steps/schema_formatter.py` for structured columns (`col3`-`col6`): semicolons and commas now render with one following space (e.g. `a;b` -> `a; b`, `x,y` -> `x, y`).
+- Added regression coverage in `tests/test_refinement_steps.py` for standard variant spacing and the edge case where the next variant begins with a clitic-leading comma.
+- Re-ran schema formatting over `out/KTU 1.*.tsv` so variant separators are consistently spaced in all parsed tablet outputs.
+- Added centralized onomastic gloss overrides file `data/onomastic_gloss_overrides.tsv` keyed by DULAT labels (with homonym markers where applicable).
+- Added `OnomasticGlossOverrideFixer` (`pipeline/steps/onomastic_gloss.py`) and wired it into `pipeline/tablet_parsing.py` so onomastic glosses are overridden from the source file and DN/PN/TN/MN/GN glosses are normalized to `ʾ/ʿ` (not `ʔ/ʕ/ˀ/ˁ`).
+- Added unit coverage for onomastic override behavior (direct override, slot-level override, non-onomastic guard, and transliteration normalization).
+- Applied the onomastic pass across `out/KTU 1.*.tsv`, including global fixes for `ỉlmlk -> ʾIlimalku` and `kṯr (III)`/`ḫss` -> `Kôṯaru`/`Ḫasisu`.
+
+## 2026-02-21
+
+- Added lemma fallback indexing to `scripts/refine_results_mentions.py` so DULAT entries are considered even when `forms` has no matching rows for a token (for example `ủgrt` -> `ugrt`).
+- Added `--only-not-found` mode to `scripts/refine_results_mentions.py` for targeted repopulation of rows marked `DULAT: NOT FOUND`, preserving unresolved rows (and their existing human comments) when no new candidates are found.
+- Added regression coverage in `tests/test_refine_results_mentions.py` to ensure lemma-only DULAT entries still produce candidates.
+- Re-ran targeted repopulation on `out/KTU 1.*.tsv`; 583 previously `DULAT: NOT FOUND` rows were filled from DULAT entry metadata.
+
+## 2026-02-19
+
+- Reversed the temporary `tnn`-only fallback scope and restored global KTU1-family homonym preference in bootstrap fallback (`scripts/bootstrap_tablet_labeling.py`): for lemma fallback rows, prefer homonyms attested in `CAT/KTU 1.*` when available.
+- Added `Ktu1FamilyHomonymPruner` (`pipeline/steps/ktu1_family_homonym_pruner.py`) and wired it into `TabletParsingPipeline` to remove non-KTU1 homonym variants from aligned multi-option rows in `out/KTU 1.*.tsv` when at least one KTU1-attested homonym exists.
+- Added unit coverage for the new pruner and updated bootstrap fallback tests (`tests/test_refinement_steps.py`, `tests/test_bootstrap_tablet_labeling.py`).
+- Applied the new KTU1-family pruning rule across `out/KTU 1.*.tsv` (325 rows updated across 70 tablets) and regenerated lint reports under `reports/`.
+- Added hardcoded bigram normalization for `ṯr il` in `pipeline/config/formula_bigram_rules.py` to force `ṯr (I)` (`n. m.`, `bull`) in the epithet formula “Bull Ilu”.
+- Added regression coverage in `tests/test_refinement_steps.py` and applied the bigram pass across `out/KTU 1.*.tsv`, removing remaining `ṯr (IV)` “foul-smelling” ambiguity in `ṯr il` contexts.
+- Tightened the same `ṯr il` rule to force the second token `il` to `DN` with gloss `ˀIlu` (instead of nominal readings such as `n. m. god`/`El`) for all occurrences of the epithet formula.
+- Fixed slash-variant DN handling in `scripts/refine_results_mentions.py` for lemmas like `ỉ/ủšḫry`: prevent truncation to one-letter headwords in col3/col4, prefer the observed long surface shape in analysis when slash variants collapse to a short fragment, and added regression tests in `tests/test_refine_results_mentions.py`.
+- Corrected affected rows for `ušḫry/išḫry` in `out/KTU 1.102.tsv`, `out/KTU 1.118.tsv`, `out/KTU 1.119.tsv`, `out/KTU 1.39.tsv`, and `out/KTU 1.47.tsv`.
+
+## 2026-02-18
+
+- Added conservative lemma-key fallback to `scripts/bootstrap_tablet_labeling.py` for DULAT entries that exist in `entries` but are missing from `forms`, while preserving explicit-form priority when form rows exist.
+- Refined lemma fallback to prefer KTU 1-attested homonyms when available (using `attestations.citation` family parsing) so KTU 4-only homonyms are not imported into `KTU 1.*` fallback parses.
+- Narrowed family-based fallback pruning to an explicit lemma allowlist (`tnn` only) so other cross-family homonym variants remain available for contextual interpretation.
+- Added unit tests for bootstrap fallback behavior and precedence (`tests/test_bootstrap_tablet_labeling.py`).
+- Corrected `out/KTU 1.6.tsv` row `141444` (`tnn`) from `DULAT: NOT FOUND` to DULAT-backed ambiguity (`tnn (I)`/`tnn (II)`) with explicit fallback comment.
+- Normalized remaining mis-propagated `tnn` rows in `out/KTU 1.16.tsv` (`143862`) and `out/KTU 1.82.tsv` (`150000`) to the same DULAT-backed ambiguity payload.
+- Tightened all current `tnn` rows in `KTU 1.*` back to KTU 1-attested `tnn (I)` only (`DN`, `dragon`) after validating `tnn (II)` is attested in `CAT 4.*`, not `CAT 1.*`.
+- Added trigram formula discovery utility: `scripts/discover_formula_trigrams.py` (profiles top adjacent three-token formulas and dominant parsing payloads in `out/KTU 1.*.tsv`).
+- Added hardcoded trigram formula normalization layer:
+  - config: `pipeline/config/formula_trigram_rules.py`
+  - step: `pipeline/steps/formula_trigram.py`
+  - pipeline wiring: `pipeline/tablet_parsing.py` (runs before bigram disambiguation).
+- Hardcoded high-confidence formula trigrams from corpus frequency/context:
+  - `rbt aṯrt ym` -> enforce `rbt (I)` (`n. f.`, `Lady`)
+  - `zbl bˤl arṣ` -> enforce `zbl (I)` (`n. m.`, `prince`)
+  - `idk l ttn` and `l ttn pnm` -> enforce `l (III)` (`functor`, `certainly`)
+  - `il tˤḏr bˤl` -> enforce `bʕl (II)` as `DN` (`Baʿlu`)
+- Added unit tests for trigram rule application and DULAT-safety guards.
+- Applied trigram normalization across `out/KTU 1.*.tsv` (34 row updates in 10 tablets) and refreshed reports.
+- Expanded hardcoded formula-bigram normalization with three additional high-confidence rules:
+  - `bn il` -> enforce `bn (I)` (`n. m.`, `son`)
+  - `bn ilm` -> enforce `bn (I)` (`n. m.`, `son`)
+  - `bt bˤl` -> enforce `bʕl (II)` as `DN` (`Baʿlu`)
+- Added regression tests for all three new formula bigram rules in `tests/test_refinement_steps.py`.
+- Applied the updated formula-bigram pass across `out/KTU 1.*.tsv` (34 row updates in 11 tablets) and regenerated lint reports.
+- Added frequency-based formula-bigram discovery utility: `scripts/discover_formula_bigrams.py` (profiles top adjacent-token combinations and dominant parsing payloads in `out/KTU 1.*.tsv`).
+- Added hardcoded DN-epithet bigram normalization layer:
+  - config: `pipeline/config/formula_bigram_rules.py`
+  - step: `pipeline/steps/formula_bigram.py`
+  - pipeline wiring: `pipeline/tablet_parsing.py` (runs before offering-`l` disambiguation).
+- Hardcoded high-confidence formula bigrams from corpus frequency detection:
+  - `aliyn bˤl` -> enforce `bˤl (II)` as `DN` (`Baʿlu`)
+  - `zbl bˤl` -> enforce `bˤl (II)` as `DN` (`Baʿlu`)
+  - `bˤl ṣpn` -> enforce `bˤl (II)` as `DN` (`Baʿlu`)
+  - `btlt ˤnt` -> enforce `ʕnt (I)` as `DN` (`ʿAnatu`)
+  - `rbt aṯrt` -> enforce `ảṯrt (II)` as `DN` (`Asherah`)
+- Added unit tests for formula-bigram rule application and safety guards.
+- Applied formula-bigram normalization + follow-up offering-`l` cleanup across `out/KTU 1.*.tsv` (53 direct formula-row updates + 5 context updates).
+- Refined `SurfaceOptionPropagationFixer` canonicalization to prevent malformed propagated ambiguity bundles:
+  - collapse duplicated `(analysis, DULAT, POS)` variants and merge same-entry glosses with `/`,
+  - harmonize glosses across variants that share the same `(DULAT, POS)` entry pair,
+  - normalize weak-final `/...-...-w/` prefix variants from `...y[` to `...(w&y[` when needed,
+  - compare subset compatibility by `(analysis, DULAT, POS)` instead of gloss text so canonical gloss rewrites can apply safely.
+- Updated propagation allowlist to exclude `abn` and `bˤlm` from automatic cross-tablet propagation.
+- Expanded `BaalPluralGodListFixer` to collapse mixed `bˤlm` plural rows already encoded as `bˤl(II)/m;bˤl(I)/m` to `bˤl(II)/m` (`lord`) in `KTU 1.*`.
+- Repaired affected tablet rows:
+  - fixed duplicated `ytn` alternatives (`!y!(ytn[;!y!(ytn[` -> single parse + slash-gloss),
+  - fixed `hwt` gloss alignment to `word/matter;word/matter` when both options map to `hwt (I)`,
+  - fixed `tˤny` weak-final `w` option to `!t!ˤn(w&y[`,
+  - restored `out/KTU 1.3.tsv` to pre-whitelist state except requested row `9910` (`abn/;!a!bn[`).
+- Added explicit `SURFACE_OPTION_PROPAGATION_ALLOWLIST` (`pipeline/config/surface_option_allowlist.py`) and wired `TabletParsingPipeline` to run `SurfaceOptionPropagationFixer` only on lint-vetted surfaces.
+- Applied whitelist-only propagation across `out/KTU 1.*.tsv`: 384 rows in 54 files updated, with zero newly introduced lint issues and one resolved lint issue versus baseline.
+- Excluded currently unsafe surfaces from propagation (`anš`, `imt`, `tbn`, `ˤnn`) based on lint-delta vetting.
+- Tightened `SurfaceOptionPropagationFixer` safeguards to prevent low-confidence ambiguity spreading:
+  - require aligned tuple-subset matching across `analysis`/`DULAT`/`POS`/`gloss` before expansion,
+  - skip surfaces with competing equally-rich canonical payloads,
+  - require all propagated analysis variants to reconstruct to the exact surface form.
+- Added regression tests for the new safeguards (aligned-subset requirement, competing payload skip, and reconstruction gate).
+- Generalized DULAT matching in the linter: when analysis-derived lexeme lookup fails but the surface form exists in DULAT, the linter now falls back to surface matching and reports a dedicated warning (`Lexeme parse did not match DULAT; matched by surface form`) instead of a hard `No DULAT entry found` error.
+- Added reusable `SurfaceOptionPropagationFixer` pipeline step to propagate richer aligned option sets (`col3`-`col6`) across parallel rows sharing the same surface token when DULAT overlap confirms compatibility.
+- Wired `SurfaceOptionPropagationFixer` into `TabletParsingPipeline` before attestation sorting so propagated options are normalized/sorted consistently downstream.
+- Added tests for lookup fallback selection and surface-option propagation (positive case + overlap guard + short-surface guard).
+- Added `KnownAmbiguityExpander` pipeline refinement step and wired it into `TabletParsingPipeline` so known high-value ambiguities are preserved on every run (currently `ydk` and `šlmm` full option sets).
+- Added unit tests for pipeline ambiguity expansion behavior (`ydk`, `šlmm`, and non-matching rows).
+- Follow-up test cleanup: restored `WeakVerbFixer` non-weak/non-verb assertions to `WeakVerbFixerTest` class scope after adding ambiguity-step tests.
+- Expanded ambiguous lexeme rows to preserve all user-provided parsing alternatives for later contextual disambiguation:
+  - `ydk`: added six aligned options (`yd(I)/+k`, `yd(I)/+k=`, `yd(II)/+k`, `yd(II)/+k=`, `!y!dk[`, `!y=!dk[`) with aligned DULAT/POS/gloss variants.
+  - `šlmm`: added both nominal alternatives (`šlm(II)/~m` and `šlm(II)/m`) with aligned DULAT/POS/gloss variants.
+- Normalized DULAT token spelling to `d-k(-k)/` in `out/*.tsv` so multi-option `ydk` rows remain linter-clean while keeping the expanded ambiguity.
+- Fixed false-positive `No DULAT entry found for lexeme/surface` hits for `ydk` by expanding verb-root lookup keys in `linter/lint.py` to support both slash-wrapped (`/d-k/`) and non-leading-slash (`d-k/`) lemma conventions used in DULAT.
+- Hardened `PluralSplitFixer` against malformed homonym plural splits (for example `šl(II)/m`) by repairing truncated lemma-final consonants when DULAT + surface reconstruction evidence is explicit.
+- Normalized high-confidence TSV rows accordingly (including `šl(II)/m` -> `šlm(II)/m` and `d-k(-k)/` token normalization) across `out/*.tsv`, eliminating `ydk` and `šlmm` from `No DULAT entry found` top offenders.
+- Reverted the recent `out/KTU 1.5.tsv` simplification pass for the user-flagged rows (`139778`, `139852`, `139857`, `140202`) and restored the prior multi-option analyses/POS values.
+- Propagated the validated `KTU 1.1` formula fixes to true parallels in other tablets: `tḥmk -> tḥm/+k` with `tḥm, -k (I)` / `n. m.,pers. pn.` / `message, your(s)` in `out/KTU 1.3.tsv` (`10488`, `10496`) and `out/KTU 1.4.tsv` (`138769`, `138777`), and `twtḥ -> !t!w]t]ḥ(y[` in `out/KTU 1.7.tsv` (`141600`).
+- Moved morphology lint report generation from GitHub Actions to a local pre-commit workflow.
+- Added `scripts/generate_lint_reports.py` and `lint_reports/` modules to run linter with local DULAT/UDB databases and materialize committed reports under `reports/`.
+- Added tracked hook `.githooks/pre-commit` and installer `scripts/install_git_hooks.sh` to enforce report refresh before commit.
+- Added report parser `scripts/parse_lint_reports.py` and simplified `.github/workflows/morphology-lint.yml` to parse committed reports only.
+- Added unit tests for lint output parsing and SVG trend chart rendering.
+- Updated pre-commit hook to run Ruff on staged Python files (`ruff format` + `ruff check --fix` + `ruff check`) before report generation.
+- Bootstrapped first-pass structured morphology outputs for all remaining `cuc_tablets_tsv/KTU 1.*.tsv` files into `out/` (coverage now matches all `KTU 1.*` sources).
+- Added reusable tablet parsing pipeline (`pipeline/tablet_parsing.py` + `scripts/run_tablet_parsing_pipeline.py`) to automate missing/new tablet processing: bootstrap, mention-based refinement, and report regeneration.
+- Added unit tests for pipeline target selection and dry-run behavior.
+- Added instruction-driven refinement (`pipeline/instruction_refiner.py`) to normalize disallowed col2/col3 characters and force unresolved `?` rows when DULAT is explicitly missing.
+- Applied instruction-driven cleanup to newly parsed `out/KTU 1.*.tsv` tablets (excluding curated `KTU 1.1-1.6`) and refreshed reports.
+- Extended instruction-driven refinement to inject DULAT-backed POS gender markers for `n.`/`adj.` slots when gender is uniquely known (including pipeline wiring and unit tests).
+- Re-ran refinement across non-curated `out/KTU 1.*.tsv` outputs and regenerated reports, removing 8,350 warning-level issues in this pass.
+- Strengthened `.githooks/pre-commit` to use `uv` + `.venv` for repo-wide Ruff checks and full test-suite execution before commit; kept report regeneration for lint-relevant staged changes.
+- Cleared pre-existing Ruff blockers in helper scripts (`scripts/generate_lint_reports.py`, `scripts/refine_results_mentions.py`, `scripts/notarius_refinement_pass.py`) and modules (`lint_reports/charts.py`, `linter/lint.py`) so the stricter gate passes.
+- Migrated project runtime baseline to Python 3.13 (`pyproject.toml` + hook guard) and updated setup docs accordingly.
+- Added pre-commit safeguard fallback: when `uv run` is unavailable, checks execute directly via `.venv` so commits remain enforceable.
+- Converted refinement-step tests to `unittest.TestCase` style so they run under `unittest discover` in pre-commit.
+- Added DULAT-backed token/form gate (`pipeline/steps/dulat_gate.py`) and wired `PluralSplitFixer`/`SuffixCliticFixer` to require matching DULAT evidence before rewriting analyses.
+- Added refinement safety guard in `pipeline/tablet_parsing.py` to abort when any step changes too high a share of rows unless explicitly overridden.
+- Extended pipeline CLI with safeguard controls (`--max-step-change-ratio`, `--allow-large-step-changes`) and reran full `out/KTU 1.*.tsv` + reports with the guarded step chain.
+- Refined `SuffixCliticFixer` fallback for lemma-style analyses (e.g., `l(I)`, `šmm(I)/`) when exact DULAT surface forms are suffixal, and added regression tests for these patterns.
+- Applied the improved suffix step across non-curated `out/KTU 1.*.tsv` files and regenerated reports (substantial reduction in suffix-related warnings/errors).
+- Refined `WeakVerbFixer` for weak-initial `/y-/` prefix forms to enforce `!preformative!` + hidden `(y` normalization (including conversion of `!y!y...` to `!y!(y...`) and added focused unit tests.
+- Applied a weak-verb-only refinement pass to `out/KTU 1.*.tsv` and regenerated reports, eliminating all weak-initial `(y` lint errors and reducing total issues from `8602` to `8223`.
+- Added `WeakFinalSuffixConjugationFixer` to normalize weak-final finite forms with surface `-t` from `[` to `[t` when DULAT root is `/...-...-(y|w)/` (non-prefixed SC context), with dedicated tests.
+- Applied the weak-final SC fixer across `out/KTU 1.*.tsv` and regenerated reports, eliminating all weak-final `"[t"` warnings.
+- Refined `PluralSplitFixer` for lemma-style plural surfaces (for example `il(I)/` + surface `ilm` -> `il(I)/m`) using DULAT-gated morphology plus analysis-to-surface reconstruction checks; kept safeguards for lexemes whose lemma already ends in `m/t`.
+- Refined `SuffixCliticFixer` confidence checks via analysis/surface reconstruction while preserving lemma-style suffix injection for DULAT-confirmed forms.
+- Added shared reconstruction utilities (`pipeline/steps/analysis_utils.py`) and predicate tests for linter warning precision.
+- Tightened linter warning predicates for `"Suffix form without '+'"` and `"Plural form missing split ending"` to trigger only on analysis/surface pairs with explicit missing-split evidence.
+- Applied plural/suffix refinements across `out/KTU 1.*.tsv` and regenerated reports: total issues `8199 -> 6612`, warning count `1173 -> 126`, with `"Suffix form without '+'"` reduced to `32` and `"Plural form missing split ending"` reduced to `10`.
+- Corrected enclitic/suffix encoding for lexeme-final `n/y` and enclitic `~` forms in `SuffixCliticFixer`: normalize `~+x` to `~x`, preserve lemma-final `n/y` (e.g., `mṯn`, `lšn`), and enforce `bʕd~n` instead of `bʕd+n`.
+- Added linter guards for invalid enclitic `~+` usage and for false `/+n`/`/+y` splits when `n/y` is part of the declared lexeme (with unit tests).
+- Reverted affected `out/*.tsv` cases (including the requested `9950`, `10199`, `10504`, `138180`, `139921`) and restored `klnyy` alternative parsing as `klny~y;kl(I)+ny~y`.
+- Added `BaalPluralGodListFixer` and wired it into the parsing pipeline to normalize mixed `bˤlm` ambiguity rows to a single noun plural reading (`bˤl(II)/m`, `bʕl (II)`, `n. m.`, `lord`).
+- Added a linter predicate/rule to flag the known bad `bˤlm` mix (`Baʿlu` DN + `labourer` plural) and unit tests for both the rule and the refinement step.
+- Applied the fixer across `out/KTU 1.*.tsv` and corrected all currently matching rows (20 rows in 8 tablets), including `149082`.
+- Added context-aware `OfferingListLPrepFixer` and wired it into the parsing pipeline to normalize sacrificial offering-list sequences (`offering noun + l + recipient`) from ambiguous `l(I);l(II);l(III)` to `l(I)` (`prep.`, `to`).
+- Added a linter predicate for offering-list `l` ambiguity and unit tests for both the new refinement step and predicate.
+- Applied the offering-list `l` normalization across `out/KTU 1.*.tsv` (34 rows in 17 tablets), including `KTU 1.119` row `154177`.
+- Added `BaalLabourerKtu1Fixer` and pipeline wiring to remove `bʕl (I)` "labourer" from `KTU 1.*` `bˤl` ambiguity rows while preserving `bʕl (II)` and `/b-ʕ-l/`.
+- Added linter predicate/guard for forbidden `bʕl (I)` "labourer" usage in `KTU 1.*` plus unit tests for both fixer and predicate.
+- Applied the rule across `out/KTU 1.*.tsv` (171 rows in 50 tablets), including `152715` in `KTU 1.105`.
+- Added `TsvSchemaFormatter` and pipeline wiring to normalize separator rows to compact `# KTU ...` format and enforce exactly 7 columns on labeled rows.
+- Updated row serialization in pipeline steps to always emit 7 columns (`id`, `surface`, `analysis`, `DULAT`, `POS`, `gloss`, `comment`).
+- Added strict linter check for `out/*.tsv` rows that are not exactly 7 columns and fixed parsing so `#` inside column-7 comments is preserved.
+- Applied schema formatting across all `out/KTU 1.*.tsv` files; separator rows now use `# KTU ...` and data rows are normalized to 7 columns.
+- Extended `TsvSchemaFormatter` to enforce a canonical TSV header row (`id`, `surface form`, `morphological parsing`, `DULAT`, `POS`, `gloss`, `comments`) and escape double quotes in data cells for safer GitHub TSV rendering.
+- Added linter support for headered `out/*.tsv`: require a valid first header row and skip it from numeric-ID/content checks.
+- Re-applied schema formatting across all `out/*.tsv` files to inject headers and quote-escape existing comments/glosses.
+- Switched quote escaping from backslash style to RFC TSV quoting (for example `"..."` with doubled inner quotes `""`) to satisfy GitHub TSV parser requirements.
+- Normalized separator rows to full 7-column TSV shape (for example `# KTU ...` in column 1 plus six empty columns) so files remain tabular under GitHub rendering.
+- Added regeneratable DULAT attestation index support (`pipeline/dulat_attestation_index.py`) based on the `attestations` table, plus CLI builder script `scripts/build_dulat_attestation_index.py`.
+- Added `AttestationSortFixer` and pipeline wiring to reorder aligned parsing options (`col3`–`col6`, and aligned `col7` comments) by DULAT attestation frequency descending, using the first DULAT entry per option when multiple entries/clitics are present.
+- Applied attestation-based option sorting across all `out/*.tsv` files (1,036 rows updated in 112 tablets).
+- Hardened base refinement separator handling to preserve separator row TSV column shape across all steps after schema normalization.
+- Added a final `TsvSchemaFormatter` pass at the end of the refinement chain so later steps cannot reintroduce non-canonical quoting/shape issues.
+- Switched schema formatter quote handling to GitHub-safe normalization: embedded double quotes in data fields are converted to single quotes.
+- Re-applied schema formatting to `out/*.tsv` and removed remaining double-quote patterns that triggered GitHub TSV "Illegal quoting" rendering errors.
+- Refined `KTU 1.1` lines with DULAT/UDB-backed parses in the `tlsmn`/`twtḥ` formula and nearby broken context (`ḫršnr`, `tḥmk`, `rdyk`), plus normalized `tptq` Gt stem marking (`]t]`) for correct DULAT mapping.
+- Refined high-confidence `KTU 1.5` parses from DULAT-backed evidence: collapsed `šlyṭ` to the DULAT-supported nominal reading, normalized `/m-t/` verbal variants (`!i!mt[`) and POS token casing (`vb`), and normalized `bˤl` POS from `DN m.` to `DN`.
+- Manual TCS-aligned pass on `out/KTU 1.5.tsv`: normalized the repeated `šlyṭ ... krs` formula payload across the parallel block (including `krs` as DULAT-backed `n. m. belt` baseline with explicit note-212 caveat), tightened the `nšt` note to keep both `/š-t-y/` and `/n-š-y/` readings, normalized the parallel `l(II)` gloss to `not`, and preserved unresolved broken tokens as explicit `?` payloads in cols 3-6.
