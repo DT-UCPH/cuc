@@ -1,39 +1,47 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.170 1						
-155731	dbḥ	dbḥ/; dbḥ[	dbḥ; /d-b-ḥ/	n. m.; vb	sacrifice; to sacrifice	
+155731	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
+155731	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
 155732	mlkt	mlk(t/t	mlkt	n. f.	queen	
 # KTU 1.170 2						
-155733	ddn	dd(II)/+n(I); dd(II)/+n(II); dd(II)/+n(III)	dd (II), -n (I); dd (II), -n (II); dd (II), -n (III)	n. m., morph.; n. m., pers. pn./morph./vb; n. m., pers. pn./morph.	cauldronful, Sun; cauldronful, me; cauldronful, our	
+155733	ddn	dd(II)/+n	dd (II)	n. m.	cauldronful	
 155734	š	š/	š	n. m.	ram	
 155735	šrp	šrp/	šrp	n. m.	burnt sacrifice	
 # KTU 1.170 3						
-155736	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
+155736	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+155736	alp	alp(II)/	ảlp (II)	num.	(one	
 155737	w	w	w	conj.	and	
 155738	š	š/	š	n. m.	ram	
 155739	w	w	w	conj.	and	
 155740	npš	npš(I)/	npš (I)	n. f.	throat	
 # KTU 1.170 4						
 155741	dmlt	dmlt/	dmlt	DN	dmlt	
-155742	šlmm	šlm(II)/~m; šlm(II)/m	šlm (II); šlm (II)	n. m.; n. m.	communion victim / sacrifice; communion victim / sacrifice	
+155742	šlmm	šlm(II)/~m	šlm (II)	n. m.	communion victim / sacrifice	
+155742	šlmm	šlm(II)/m	šlm (II)	n. m.	communion victim / sacrifice	
 # KTU 1.170 5						
 155743	xx	?	?	?	?	
 # KTU 1.170 6						
 155744	x	?	?	?	?	
 # KTU 1.170 7						
 155745		?	?	?	?	
-155746	ṣmdm	ṣmd/m; ṣmd[	ṣmd; /ṣ-m-d/	n. m.; vb	pair; to harness	
+155746	ṣmdm	ṣmd/m	ṣmd	n. m.	pair	
+155746	ṣmdm	ṣmd[	/ṣ-m-d/	vb G	to harness	
 # KTU 1.170 8						
-155747	št	št[;š(t(II)/t;št(I)/	/š-t/; št (II); št (I)	vb; n. f.; n. m.	to place; raíz; base	
+155747	št	št[	/š-t/	vb G/Gpass	to place	
+155747	št	š(t(II)/t	št (II)	n. f.	raíz	
+155747	št	št(I)/	št (I)	n. m.	base	
 155748	b	b	b	prep.	in	
 155749	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m.	plate / wide bowl / platter	
 # KTU 1.170 9						
-155750	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
+155750	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+155750	alp	alp(II)/	ảlp (II)	num.	(one	
 155751	w	w	w	conj.	and	
 155752	š	š/	š	n. m.	ram	
-155753	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-155754	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
-155755	šlmm	šlm(II)/~m; šlm(II)/m	šlm (II); šlm (II)	n. m.; n. m.	communion victim / sacrifice; communion victim / sacrifice	
+155753	l	l(I)	l (I)	prep.	to	
+155754	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+155755	šlmm	šlm(II)/~m	šlm (II)	n. m.	communion victim / sacrifice	
+155755	šlmm	šlm(II)/m	šlm (II)	n. m.	communion victim / sacrifice	
 # KTU 1.170 10						
 155756	xˤt	?	?	?	?	DULAT: NOT FOUND
-155757	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+155757	l	l(I)	l (I)	prep.	to	
 155758	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	

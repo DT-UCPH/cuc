@@ -2,52 +2,68 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.172 1						
 155797	x	?	?	?	?	
 # KTU 1.172 2						
-155798	t	/t, /t=;[t, [t=, [t==, [t===	;	;	;	
+155798	t	/t, /t=				
+155798	t	[t, [t=, [t==, [t===				
 # KTU 1.172 3						
-155799	bat	bʔ[	/b-ʔ/	vb	to enter	
+155799	bat	bʔ[	/b-ʔ/	vb G	to enter	
 # KTU 1.172 4						
 155800	ṣḥr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 5						
-155801	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+155801	l	l(I)	l (I)	prep.	to	
+155801	l	l(III)	l (III)	functor	certainly	
 # KTU 1.172 6						
 155802	w	w	w	conj.	and	
-155803	šb	šb/	šb	n.	old man	
+155803	šb	šb/	šb	n. m.	old man	
 # KTU 1.172 7						
 155804	nwy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 8						
 155805	w	w	w	conj.	and	
-155806	angḥ	!a!ngḥ[	/n-g-ḥ/	vb	to butt each other	
+155806	angḥ	!a!ngḥ[	/n-g-ḥ/	vb N	to butt each other	
 # KTU 1.172 9						
 155807	ṭx	?	?	?	?	DULAT: NOT FOUND
 155808	nḫlm	nḫl(I)/m	nḫl (I)	n. m.	torrent	
 # KTU 1.172 10						
-155809	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
+155809	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+155809	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.172 11						
 155810	x	?	?	?	?	
 155811	ḫlt	ḫlt	ḫlt	?	?	
 # KTU 1.172 12						
-155812	t	/t, /t=;[t, [t=, [t==, [t===	;	;	;	
+155812	t	/t, /t=				
+155812	t	[t, [t=, [t==, [t===				
 155813	šmal	šmal/	šmảl	adj. m. or n. m.	left	
 # KTU 1.172 13						
 155814	xˤnk	?	?	?	?	DULAT: NOT FOUND
-155815	št	št[;š(t(II)/t;št(I)/	/š-t/; št (II); št (I)	vb; n. f.; n. m.	to place; raíz; base	
+155815	št	št[	/š-t/	vb G/Gpass	to place	
+155815	št	š(t(II)/t	št (II)	n. f.	raíz	
+155815	št	št(I)/	št (I)	n. m.	base	
 # KTU 1.172 14						
-155816	rn	pẓr[+n(I); pẓr[+n(II); pẓr[+n(III)	/p-ẓ-r/, -n (I); /p-ẓ-r/, -n (II); /p-ẓ-r/, -n (III)	vb, morph.; vb, pers. pn./morph./vb; vb, pers. pn./morph.	to free, Sun; to free, me; to free, our	
+155816	rn	pẓr[+n	/p-ẓ-r/	vb	to free	
 155817	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 15						
-155818	n	~n; [n, [n=; +n, +n=;	-n (I); -n (II); -n (III); -n (IV)	encl. morph.; suffixed pn. morph. used with vb; suff. pn. morph. 1.p.pl.; contracted suff. pn. morph. used with a vb	; me/to me; our/us; him/her/it	
+155818	n	~n	-n (I)	encl. morph.		
+155818	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
+155818	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
+155818	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 155819	tlm	tlm/	tlm	n. m.	furrow	
 # KTU 1.172 16						
-155820	qd	qn/+d; ḥkpt/+d	qn, -d; ḥkpt, -d	n. m., →; TN, →	cane, ; ḥkpt,	
+155820	qd	qn/+d	qn	n. m.	cane	
+155820	qd	ḥkpt/+d	ḥkpt	TN	ḥkpt	
 # KTU 1.172 17						
-155821	n	~n; [n, [n=; +n, +n=;	-n (I); -n (II); -n (III); -n (IV)	encl. morph.; suffixed pn. morph. used with vb; suff. pn. morph. 1.p.pl.; contracted suff. pn. morph. used with a vb	; me/to me; our/us; him/her/it	
+155821	n	~n	-n (I)	encl. morph.		
+155821	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
+155821	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
+155821	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 155822	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.172 18						
 155823		?	?	?	?	
-155824	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-155825	mˤt	mˤ/t=	mʕt	n. f.	?	
+155824	l	l(I)	l (I)	prep.	to	
+155824	l	l(III)	l (III)	functor	certainly	
+155825	mˤt	mˤ(t/t=	mʕt	n. f.	?	
 # KTU 1.172 19						
-155826	šnt	šn(t(I)/t;šn(w[t;šn(t(II)/t	šnt (I); /š-n-w/; šnt (II)	n. f.; vb; n. f.	year; to change: a) reflex.; sleep	
+155826	šnt	šn(t(I)/t	šnt (I)	n. f.	year	
+155826	šnt	šn(w[t	/š-n-w/	vb G	to change: a) reflex.	
+155826	šnt	šn(t(II)/t	šnt (II)	n. f.	sleep	
 155827	ˤlyqm	ˤlyqm	ʕlyqm	?	?	
 # KTU 1.172 20						
 155828	xšy	?	?	?	?	DULAT: NOT FOUND
@@ -55,12 +71,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155830	dd	dd(II)/	dd (II)	n. m.	cauldronful	
 # KTU 1.172 21						
 155831		?	?	?	?	
-155832	ḫẓ	ḥẓ/; ḫẓ	ḥẓ; ḫẓ	n. m.; ?	arrow; ?	
+155832	ḫẓ	ḥẓ/	ḥẓ	n. m.	arrow	
+155832	ḫẓ	ḫẓ	ḫẓ	?	?	
 155833	ksp	ksp/	ksp	n. m.	silver	
 155834	b	b	b	prep.	in	
 155835	ydh	yd(I)/+h	yd (I)	n. f.	hand	
 # KTU 1.172 22						
-155836	nh	ˤl(I)+h(I); ˤl(I)+h(II); ˤn(I)/+h(I)	ʕl (I), -h (I); ʕl (I), -h (II); ʕn (I), -h (I)	prep., pers. pn./morph.; prep., adv. functor; n. f., pers. pn./morph.	upon, his /her (hers) / its; upon, to; eye, his /her (hers) / its	
+155836	nh	ˤl(I)+h	ʕl (I)	prep.	upon	
+155836	nh	ˤn(I)/+h	ʕn (I)	n. f.	eye	
 155837	w	w	w	conj.	and	
 155838	lyamr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 23						
@@ -74,8 +92,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155844	brkh	brk/+h	brk	n. f.	knee	
 # KTU 1.172 26						
 155845	xšb	?	?	?	?	DULAT: NOT FOUND
-155846	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-155847	rḥ	rḥ(I)/; rḥ(II)/	rḥ (I); rḥ (II)	n. f.; n. m.	wind; aroma	
+155846	l	l(I)	l (I)	prep.	to	
+155846	l	l(III)	l (III)	functor	certainly	
+155847	rḥ	rḥ(I)/	rḥ (I)	n. f.	wind	
+155847	rḥ	rḥ(II)/	rḥ (II)	n. m.	aroma	
 # KTU 1.172 27						
 155848	dy	d	d	det. or rel. functor	the one(s) of	
 155849	w	w	w	conj.	and	

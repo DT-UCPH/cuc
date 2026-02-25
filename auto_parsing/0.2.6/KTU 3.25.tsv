@@ -1,33 +1,45 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.25 1						
-161808	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
-161809	ḥ	lqḥ[	/l-q-ḥ/	vb	to get hold of	
+161808	bn	bn(I)/	bn (I)	n. m.	son	
+161808	bn	bn(II)	bn (II)	prep.	between	
+161808	bn	bn[	/b-n/	vb G	to understand	
+161809	ḥ	lqḥ[	/l-q-ḥ/	vb G/N	to get hold of	
 # KTU 3.25 2						
 161810	mṣry	mṣry(I)/	mṣry (I)	GN	Egyptian	
 # KTU 3.25 3						
-161811	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161811	bn	bn(I)/	bn (I)	n. m.	son	
+161811	bn	bn(II)	bn (II)	prep.	between	
+161811	bn	bn[	/b-n/	vb G	to understand	
 161812	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
 # KTU 3.25 4						
-161813	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
+161813	yd	yd(I)/	yd (I)	n. f.	hand	
+161813	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+161813	yd	yd(II)/	yd (II)	n. m.	love	
 161814	aṯth	aṯt/+h	ảṯt	n. f.	woman	
 161815	w	w	w	conj.	and	
 # KTU 3.25 5						
 161816	bnh	bn(I)/+h	bn (I)	n. m.	son	
 161817	b	b	b	prep.	in	
-161818	bt	bt(II)/;b(t(I)/t;bt(III)/	bt (II); bt (I); bt (III)	n. m.; n. f.; n. m.	house; daughter; length	
+161818	bt	bt(II)/	bt (II)	n. m.	house	
+161818	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+161818	bt	bt(III)/	bt (III)	n. m.	length	
 # KTU 3.25 6						
 161819	amrbˤl	amrbˤl/	ảmrbʕl	PN	ảmrbʿl	
-161820	hmt	hmt/	hmt	pers. pn.		
+161820	hmt	hmt	hmt	pers. pn.		
 # KTU 3.25 7						
 161821	w	w	w	conj.	and	
 161822	b	b	b	prep.	in	
-161823	bt	bt(II)/;b(t(I)/t;bt(III)/	bt (II); bt (I); bt (III)	n. m.; n. f.; n. m.	house; daughter; length	
+161823	bt	bt(II)/	bt (II)	n. m.	house	
+161823	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+161823	bt	bt(III)/	bt (III)	n. m.	length	
 161824	agpṯr	agpṯr	ảgpṯr	→		
 # KTU 3.25 8						
 161825	b	b	b	prep.	in	
 161826	ḫrbġlm	ḫrbġlm/	ḫrbġlm	TN	ḫrbġlm	
 # KTU 3.25 9						
-161827	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
+161827	yd	yd(I)/	yd (I)	n. f.	hand	
+161827	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+161827	yd	yd(II)/	yd (II)	n. m.	love	
 161828	aṯth	aṯt/+h	ảṯt	n. f.	woman	
 # KTU 3.25 10						
 161829	w	w	w	conj.	and	

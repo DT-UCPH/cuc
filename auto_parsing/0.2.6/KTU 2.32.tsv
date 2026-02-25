@@ -1,43 +1,56 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.32 1						
-157542	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+157542	l	l(I)	l (I)	prep.	to	
+157542	l	l(III)	l (III)	functor	certainly	
 # KTU 2.32 2						
 157543	xxxxd	?	?	?	?	DULAT: NOT FOUND
 157544	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.32 3						
-157545	spr	spr(II)/; spr[; spr(I)/	spr (II); /s-p-r/; spr (I)	n. m.; vb; n. m.	tablet/register; to count; scribe	
+157545	spr	spr(II)/	spr (II)	n. m.	tablet/register	
+157545	spr	spr[	/s-p-r/	vb G/D	to count	
+157545	spr	spr(I)/	spr (I)	n. m.	scribe	
 157546	lm	l(I)	l (I)	prep.	to	
-157547	likt	lʔk[	/l-ʔ-k/	vb	to send (a message)	
+157547	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.32 4						
-157548	ny	ˤl(I)+y(I); ˤl(I)+y(II); ˤn(I)/+y(I)	ʕl (I), -y (I); ʕl (I), -y (II); ʕn (I), -y (I)	prep., prep.; prep., postp. functor; n. f., prep.	upon, my; upon, yes; eye, my	
-157549	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+157548	ny	ˤl(I)+y	ʕl (I)	prep.	upon	
+157548	ny	ˤn(I)/+y	ʕn (I)	n. f.	eye	
+157549	k	+k	-k (I)			
+157549	k	~k	-k (II)			
+157549	k	k(III)	k (III)	Subordinating or completive functor	when	
+157549	k	k(I)	k (I)	prep.	like	
+157549	k	k(II)	k (II)	emph. functor	yes	
 157550	išal	?	?	?	?	DULAT: NOT FOUND
 157551	hm	hm(II)	hm (II)	conj./interr. functor	if	
 # KTU 2.32 5						
 157552	ˤšrm	ˤšrm/	ʕšrm	n. num.	twenty	
 157553	kkr	kkr/	kkr	n. m.	talent	
-157554	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+157554	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+157554	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+157554	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 # KTU 2.32 6						
 157555	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 157556	kkr	kkr/	kkr	n. m.	talent	
-157557	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+157557	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+157557	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+157557	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 # KTU 2.32 7						
 157558	d	d	d	det. or rel. functor	the one(s) of	
-157559	aštn	!a!št[	/š-t/	vb	to place	
+157559	aštn	!a!št[	/š-t/	vb G	to place	
 157560	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.32 8						
 157561	xy	?	?	?	?	DULAT: NOT FOUND
 157562	kl	kl/	kl	n. m.	totality (of)	
 157563	dbrm	dbr(I)/m	dbr (I)	n. m.	matter	
-157564	hmt	hmt/	hmt	pers. pn.		
+157564	hmt	hmt	hmt	pers. pn.		
 # KTU 2.32 9						
-157565	al	al(I); al(II)	ảl (I); ảl (II)	neg. functor; pos. functor	no; surely	
+157565	al	al(I)	ảl (I)	neg. functor	no	
+157565	al	al(II)	ảl (II)	pos. functor	surely	
 157566	w	w	w	conj.	and	
 157567	kl	kl/	kl	n. m.	totality (of)	
 157568	mḫrk	mḫr(I)/+k	mḫr (I)	n. m.	price	
 # KTU 2.32 10						
-157569	ištir	š]t]ʔr[	/š-ʔ-r/	vb	to remain	
-157570	aštn	!a!št[	/š-t/	vb	to place	
+157569	ištir	š]t]ʔr[	/š-ʔ-r/	vb Gt	to remain	
+157570	aštn	!a!št[	/š-t/	vb G	to place	
 157571	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.32 11						
 157572	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	

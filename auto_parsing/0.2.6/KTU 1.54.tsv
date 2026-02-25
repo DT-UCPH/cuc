@@ -1,7 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.54 1						
 149260	aġr	?	?	?	?	DULAT: NOT FOUND
-149261	ḫld	ḫl[+d; ḫl/+d	/ḫ-l/, -d; ḫl, -d	vb, →; n. m., →	to writhe (with birth pangs), ; pain,	
+149261	ḫld	ḫl[+d	/ḫ-l/	vb	to writhe (with birth pangs)	
+149261	ḫld	ḫl/+d	ḫl	n. m.	pain	
 # KTU 1.54 2						
 149262	ṯwṯk	?	?	?	?	DULAT: NOT FOUND
 149263	akdn	?	?	?	?	DULAT: NOT FOUND
@@ -22,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149271	xxxršd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.54 10						
 149272	xxx	?	?	?	?	
-149273	alṯd	alṯ/+d	ảlṯ, -d	TN, →	ảlṯ,	
+149273	alṯd	alṯ/+d	ảlṯ	TN	ảlṯ	
 149274	aṯm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.54 11						
 149275	ṯwṯk	?	?	?	?	DULAT: NOT FOUND
@@ -35,5 +36,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149280	ṯwṯkd	?	?	?	?	DULAT: NOT FOUND
 149281	sp	sp/	sp	n. m.	bowl	
 # KTU 1.54 14						
-149282	trḫ	!t!rḫ[	/t-r-ḫ/	vb	to marry	
+149282	trḫ	!t!rḫ[	/t-r-ḫ/	vb G/D	to marry	
 149283	štx	?	?	?	?	DULAT: NOT FOUND

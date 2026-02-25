@@ -1,39 +1,53 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 1						
 154724	w	w	w	conj.	and	
-154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb	to answer	
+154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G	to answer	
 154726	bn	bn(I)/	bn (I)	n. m.	son	
 # KTU 1.133 2						
 154727	ilm	il(I)/m	ỉl (I)	n. m.	god	
-154728	mt	mt(II)/; mt[; mt(I)/	mt (II); /m-t/; mt (I)	n. m.; vb; n. m.	death; to die; dead person	
+154728	mt	mt(II)/	mt (II)	n. m.	death	
+154728	mt	mt[	/m-t/	vb G	to die	
+154728	mt	mt(I)/	mt (I)	n. m.	dead person	
 154729	npšm	npš(I)/	npš (I)	n. f.	throat	
 # KTU 1.133 3						
 154730	npš	npš(I)/	npš (I)	n. f.	throat	
 154731	lbim	lbu/	lbủ	n. m.	lion	
 # KTU 1.133 4						
-154732	thw	th(m&w/; thw/	thm; thw	n. m.; n. m.	ocean/deep; steppe	
+154732	thw	th(m&w/	thm	n. m.	ocean/deep	
+154732	thw	thw/	thw	n. m.	steppe	
 154733	w	w	w	conj.	and	
 154734	npš	npš(I)/	npš (I)	n. f.	throat	
 # KTU 1.133 5						
 154735	anḫr	anḫr/	ảnḫr	n. m.	dolphin	
 154736	b	b	b	prep.	in	
-154737	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
+154737	ym	ym(I)/	ym (I)	n. m.	day	
+154737	ym	ym(II)/	ym (II)	n. m.	sea	
 # KTU 1.133 6						
 154738	brkyt	?	?	?	?	DULAT: NOT FOUND
 154739	kšbšt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.133 7						
-154740	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+154740	k	+k	-k (I)			
+154740	k	~k	-k (II)			
+154740	k	k(III)	k (III)	Subordinating or completive functor	when	
+154740	k	k(I)	k (I)	prep.	like	
+154740	k	k(II)	k (II)	emph. functor	yes	
 154741	rumm	ru/m	rủm	n. m.	wild bull	
 154742	hm	hm(II)	hm (II)	conj./interr. functor	if	
 # KTU 1.133 8						
-154743	ˤn	ˤn(I)/; ˤn[; ˤn(II)/	ʕn (I); /ʕ-n/; ʕn (II)	n. f.; vb; n. f.	eye; to see; furrow	
+154743	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
+154743	ˤn	ˤn[	/ʕ-n/	vb G	to see	
+154743	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
 154744	kḏd	kḏd	kḏd	→		
-154745	aylt	ayl(I)/t=	ảylt (I)	n. f.	hind	
+154745	aylt	ayl(t(I)/t=	ảylt (I)	n. f.	hind	
 # KTU 1.133 9						
-154746	mt	mt(II)/; mt[; mt(I)/	mt (II); /m-t/; mt (I)	n. m.; vb; n. m.	death; to die; dead person	
+154746	mt	mt(II)/	mt (II)	n. m.	death	
+154746	mt	mt[	/m-t/	vb G	to die	
+154746	mt	mt(I)/	mt (I)	n. m.	dead person	
 154747	hm	hm(II)	hm (II)	conj./interr. functor	if	
-154748	ks	ks/; ks(I)/	ks; ks (I)	n. m.; n. m.	emmer-corn; cup	
-154749	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
+154748	ks	ks/	ks	n. m.	emmer-corn	
+154748	ks	ks(I)/	ks (I)	n. m.	cup	
+154749	ym	ym(I)/	ym (I)	n. m.	day	
+154749	ym	ym(II)/	ym (II)	n. m.	sea	
 # KTU 1.133 10						
 154750	sk	sk(I)/	sk (I)	n. m.	coverlet	
 154751	nhr	nhr/	nhr	n. m.	river	
@@ -45,7 +59,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154756	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m.	plate / wide bowl / platter	
 # KTU 1.133 12						
 154757	xšbˤ	?	?	?	?	DULAT: NOT FOUND
-154758	rbt	rbt/;rb(t(I)/t;rb(t(II)/t	rb(b)t; rbt (I); rbt (II)	num.; n. f.; n. f.	ten thousand; Lady; seine	
+154758	rbt	rbt/	rb(b)t	num.	ten thousand	
+154758	rbt	rb(t(I)/t	rbt (I)	n. f.	Lady	
+154758	rbt	rb(t(II)/t	rbt (II)	n. f.	seine	
 # KTU 1.133 13						
 154759	xxx	?	?	?	?	
 154760	qbẓ	qbẓ	qbẓ	?	?	
@@ -58,9 +74,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154765	xxbn	?	?	?	?	DULAT: NOT FOUND
 154766	ilm	il(I)/m	ỉl (I)	n. m.	god	
 # KTU 1.133 16						
-154767	mt	mt(II)/; mt[; mt(I)/	mt (II); /m-t/; mt (I)	n. m.; vb; n. m.	death; to die; dead person	
-154768	šmḥ	šmḫ[	/š-m-ḫ/	vb	to be glad	
-154769	p	p(I); p(III)/; p(II)	p (I); p (III); p (II)	conj. functor; n. m.; adv.	and; mouth; here	
+154767	mt	mt(II)/	mt (II)	n. m.	death	
+154767	mt	mt[	/m-t/	vb G	to die	
+154767	mt	mt(I)/	mt (I)	n. m.	dead person	
+154768	šmḥ	šmḫ[	/š-m-ḫ/	vb G	to be glad	
+154769	p	p(I)	p (I)	conj. functor	and	
+154769	p	p(III)/	p (III)	n. m.	mouth	
+154769	p	p(II)	p (II)	adv.	here	
 154770	ydd	ydd(I)/	ydd (I)	adj. m.	loved	
 # KTU 1.133 17						
 154771	il	il(I)/	ỉl (I)	n. m.	god	
@@ -68,10 +88,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154773	b	b	b	prep.	in	
 # KTU 1.133 18						
 154774	b	b	b	prep.	in	
-154775	abn	ab/+n; abn/; !a!bn[	ảb; ảbn; /b-n/	n. m.; n. f.; vb	father; stone; to understand	
+154775	abn	ab/+n	ảb	n. m.	father	
+154775	abn	abn/	ảbn	n. f.	stone	
+154775	abn	!a!bn[	/b-n/	vb G	to understand	
 154776	ˤ	?	?	?	?	
 154777	z	z	z	→		
 154778	w	w	w	conj.	and	
 # KTU 1.133 19						
 154779	rgbt	rgb(t/t	rgbt	n. f.	respect	
-154780	zbl	zbl(I)/; zbl(III)/	zbl (I); zbl (III)	n. m.; n. m.	prince; one carried	
+154780	zbl	zbl(I)/	zbl (I)	n. m.	prince	
+154780	zbl	zbl(III)/	zbl (III)	n. m.	one carried	

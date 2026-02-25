@@ -7,17 +7,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.25 3						
 157113	lb	lb/	lb	n. m.	heart	
 157114	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m.	servant	
-157115	al	al(I); al(II)	ảl (I); ảl (II)	neg. functor; pos. functor	no; surely	
+157115	al	al(I)	ảl (I)	neg. functor	no	
+157115	al	al(II)	ảl (II)	pos. functor	surely	
 # KTU 2.25 4						
 157116	htm	htm	htm	adv.	now	
-157117	iph	phy[	/p-h-y/	vb	to see	
+157117	iph	phy[	/p-h-y/	vb G	to see	
 157118	adty	adt/+y	ảdt	n. f.	lady	
 157119	w	w	w	conj.	and	
 # KTU 2.25 5						
-157120	tšṣḥq	!t!]š]ṣḥq[	/ṣ-ḥ-q/	vb	to laugh	
+157120	tšṣḥq	!t!]š]ṣḥq[	/ṣ-ḥ-q/	vb Š	to laugh	
 157121	hn	hn	hn	deictic functor/adv.	behold!	
 157122	aṯt	aṯt/	ảṯt	n. f.	woman	
-157123	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+157123	l	l(I)	l (I)	prep.	to	
+157123	l	l(III)	l (III)	functor	certainly	
 157124	ˤbd	ˤbd(I)/	ʕbd (I)	n. m.	servant	
 # KTU 2.25 6						
 157125	šbˤt	šbˤ(I)/	šbʕ (I)	n. num.	seven	
@@ -27,9 +29,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.25 7						
 157129	ḫtm	ḫtm/	ḫtm	PN	ḫtm	
 157130	rbxxx	?	?	?	?	DULAT: NOT FOUND
-157131	aḥd	aḥd/; ḥdy[; aḥd(II)/	ảḥd; /ḥ-d-y/; ảḥd (II)	adj. num./adv. num.; vb; subst./adj.	one; to see; only one	
+157131	aḥd	aḥd/	ảḥd	adj. num./adv. num.	one	
+157131	aḥd	ḥdy[	/ḥ-d-y/	vb G	to see	
+157131	aḥd	aḥd(II)/	ảḥd (II)	subst./adj.	only one	
 # KTU 2.25 8						
-157132	mġt	mġy[t	/m-ġ-y/	vb	to come	
+157132	mġt	mġy[t	/m-ġ-y/	vb G	to come	
 157133	xxxxt	?	?	?	?	DULAT: NOT FOUND
 157134	b	b	b	prep.	in	
 # KTU 2.25 9						

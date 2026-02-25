@@ -1,20 +1,30 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.33 1						
-162143	ġr	ġr(I)/; ġr(V)/; ġr(III)/	ġr (I); ġr (V); ġr (III)	n. m.; n. m.; n. m.	mountain; total; skin	
-162144	agny	agny(I)/; agny(II)/	ảgny (I); ảgny (II)	TN; GN	1957.3; ảgny (II)	
+162143	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
+162143	ġr	ġr(V)/	ġr (V)	n. m.	total	
+162143	ġr	ġr(III)/	ġr (III)	n. m.	skin	
+162144	agny	agny(I)/	ảgny (I)	TN	1957.3	
+162144	agny	agny(II)/	ảgny (II)	GN	ảgny (II)	
 # KTU 3.33 2						
 162145	d	d	d	det. or rel. functor	the one(s) of	
-162146	ptḥ	ptḥ[; ptḥ/	/p-t-ḥ/; ptḥ	vb; n. m.	to open; entrance	
+162146	ptḥ	ptḥ[	/p-t-ḥ/	vb G	to open	
+162146	ptḥ	ptḥ/	ptḥ	n. m.	entrance	
 162147	ybnn	ybnn/	ybnn	PN	ybnn	
 # KTU 3.33 3						
-162148	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
+162148	yd	yd(I)/	yd (I)	n. f.	hand	
+162148	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+162148	yd	yd(II)/	yd (II)	n. m.	love	
 162149	ˤpsh	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.33 4						
-162150	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
-162151	nḫlh	nḫl(I)/+h(I); nḫl(I)/+h(II)	nḫl (I), -h (I); nḫl (I), -h (II)	n. m., pers. pn./morph.; n. m., adv. functor	torrent, his /her (hers) / its; torrent, to	
+162150	yd	yd(I)/	yd (I)	n. f.	hand	
+162150	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+162150	yd	yd(II)/	yd (II)	n. m.	love	
+162151	nḫlh	nḫl(I)/+h	nḫl (I)	n. m.	torrent	
 # KTU 3.33 5						
-162152	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
-162153	ġrh	ġr(I)/	ġr (I)	n. m.	mountain	
+162152	yd	yd(I)/	yd (I)	n. f.	hand	
+162152	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+162152	yd	yd(II)/	yd (II)	n. m.	love	
+162153	ġrh	ġr(I)/h	ġr (I)	n. m.	mountain	
 # KTU 3.33 6						
 162154	w	w	w	conj.	and	
 162155	ˤpśh	?	?	?	?	DULAT: NOT FOUND
@@ -23,19 +33,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162157	kwr	kwr/	kwr	TN	kwr	
 # KTU 3.33 8						
 162158	d	d	d	det. or rel. functor	the one(s) of	
-162159	hlk	hlk[; hlk(I)/; hlk(II)	/h-l-k/; hlk (I); hlk (II)	vb; n. m.; deictic adv. functor	to go; walk; behold!	
+162159	hlk	hlk[	/h-l-k/	vb G	to go	
+162159	hlk	hlk(I)/	hlk (I)	n. m.	walk	
+162159	hlk	hlk(II)	hlk (II)	deictic adv. functor	behold!	
 162160	b	b	b	prep.	in	
 162161	nḫl	nḫl(I)/	nḫl (I)	n. m.	torrent	
 # KTU 3.33 9						
 162162	w	w	w	conj.	and	
 162163	ˤpś	?	?	?	?	DULAT: NOT FOUND
-162164	bˤl	bˤl(II)/; bˤl(I)/; bˤl[	bʕl (II); bʕl (I); /b-ʕ-l/	n. m./DN; n. m.; vb	Baʿlu/Baal; labourer; to make	
+162164	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+162164	bˤl	bˤl(I)/	bʕl (I)	n. m.	labourer	
+162164	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 3.33 10						
 162165	almg	almg/	ảlmg	n. m.	aloe	
 # KTU 3.33 11						
 162166	bnš	bnš/	bnš	n. m.	man	
-162167	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-162168	yqḥ	lqḥ[	/l-q-ḥ/	vb	to get hold of	
+162167	l	l(I)	l (I)	prep.	to	
+162167	l	l(II)	l (II)	adv.	no	
+162167	l	l(III)	l (III)	functor	certainly	
+162168	yqḥ	lqḥ[	/l-q-ḥ/	vb G/Gpass	to get hold of	
 # KTU 3.33 12						
 162169	ˤpsm	?	?	?	?	DULAT: NOT FOUND
 162170	hnmt	hnmt/	hn(h)mt	dem./adj.	these	
@@ -43,24 +59,34 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162171	bd	b	b	prep.	in	
 162172	ybnn	ybnn/	ybnn	PN	ybnn	
 # KTU 3.33 14						
-162173	ˤd	ˤd(III)/; ˤd(II)/	ʕd (III); ʕd (II)	n. m.; n. m.	throne; time	
+162173	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
+162173	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
 162174	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
 # KTU 3.33 15						
 162175	w	w	w	conj.	and	
 162176	gt	g(t/t	gt	n. f./element of TNN	gittu	
 162177	art	art(I)/	ảrt (I)	n. f.	shield	
 # KTU 3.33 16						
-162178	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
+162178	yd	yd(I)/	yd (I)	n. f.	hand	
+162178	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+162178	yd	yd(II)/	yd (II)	n. m.	love	
 162179	šdh	šd(I)/+h	šd (I)	n. m.	open field	
 # KTU 3.33 17						
-162180	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
-162181	krmh	krm/+h(I); krm/+h(II); kr/+h(I)	krm, -h (I); krm, -h (II); kr, -h (I)	n. m., pers. pn./morph.; n. m., adv. functor; n. m., pers. pn./morph.	vineyard, his /her (hers) / its; vineyard, to; ram, his /her (hers) / its	
+162180	yd	yd(I)/	yd (I)	n. f.	hand	
+162180	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+162180	yd	yd(II)/	yd (II)	n. m.	love	
+162181	krmh	krm/+h	krm	n. m.	vineyard	
+162181	krmh	kr/+h	kr	n. m.	ram	
 # KTU 3.33 18						
-162182	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
-162183	klklh	klkl/	klkl	n. m.	anybody	
+162182	yd	yd(I)/	yd (I)	n. f.	hand	
+162182	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+162182	yd	yd(II)/	yd (II)	n. m.	love	
+162183	klklh	klkl/h	klkl	n. m.	anybody	
 # KTU 3.33 19						
 162184	w	w	w	conj.	and	
-162185	y	+y, [y; ~y; y	-y (I); -y (II); y	prep. functor	my; indeed; oh!	
+162185	y	+y, [y	-y (I)	prep. functor	my	
+162185	y	~y	-y (II)	prep. functor	indeed	
+162185	y	y	y	prep. functor	oh!	
 162186	bnn	bnn(I)/	bnn (I)	n. m.	carp	
 # KTU 3.33 20						
 162187	b	b	b	prep.	in	
@@ -68,12 +94,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162189	hnmt	hnmt/	hn(h)mt	dem./adj.	these	
 # KTU 3.33 21						
 162190	unṯ	unṯ/	ủnṯ	n. m.	obligation	
-162191	mhkm	mhk/	mhk(m)	indef. pn.	anything	
+162191	mhkm	mhk	mhk(m)	indef. pn.	anything	
 # KTU 3.33 22						
-162192	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-162193	ybl	!y!(ybl[	/y-b-l/	vb	to carry	
+162192	l	l(I)	l (I)	prep.	to	
+162192	l	l(II)	l (II)	adv.	no	
+162192	l	l(III)	l (III)	functor	certainly	
+162193	ybl	!y!(ybl[	/y-b-l/	vb G	to carry	
 # KTU 3.33 23						
 162194	unṯm	unṯ/	ủnṯ	n. m.	obligation	
 162195	bth	bt(II)/+h	bt (II)	n. m.	house	
 # KTU 3.33 24						
-162196	ybl	!y!(ybl[	/y-b-l/	vb	to carry	
+162196	ybl	!y!(ybl[	/y-b-l/	vb G	to carry	

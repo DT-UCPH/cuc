@@ -1,14 +1,18 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.4 1						
-160977	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-160978	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
-160979	hnd	hnd/	hnd	dem. adj./pn.	this	
+160977	l	l(I)	l (I)	prep.	to	
+160977	l	l(III)	l (III)	functor	certainly	
+160978	ym	ym(I)/	ym (I)	n. m.	day	
+160978	ym	ym(II)/	ym (II)	n. m.	sea	
+160979	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.4 2						
 160980	iwrkl	iwrkl/	ỉwrkl	PN	ỉwrkl	
-160981	pdy	pdy[	/p-d-y/	vb	to redeem	
+160981	pdy	pdy[	/p-d-y/	vb G	to redeem	
 # KTU 3.4 3						
 160982	agdn	?	?	?	?	DULAT: NOT FOUND
-160983	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+160983	bn	bn(I)/	bn (I)	n. m.	son	
+160983	bn	bn(II)	bn (II)	prep.	between	
+160983	bn	bn[	/b-n/	vb G	to understand	
 160984	nwgn	nwgn/	nwgn	PN	nwgn	
 # KTU 3.4 4						
 160985	w	w	w	conj.	and	
@@ -30,18 +34,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160997	w	w	w	conj.	and	
 160998	ištrmy	ištrmy/	ỉštrmy	PN	ỉštrmy	
 # KTU 3.4 9						
-160999	bt	bt(II)/;b(t(I)/t;bt(III)/	bt (II); bt (I); bt (III)	n. m.; n. f.; n. m.	house; daughter; length	
+160999	bt	bt(II)/	bt (II)	n. m.	house	
+160999	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+160999	bt	bt(III)/	bt (III)	n. m.	length	
 161000	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
 161001	aṯth	aṯt/+h	ảṯt	n. f.	woman	
 # KTU 3.4 10						
 161002	w	w	w	conj.	and	
 161003	sntb	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.4 11						
-161004	bt	bt(II)/;b(t(I)/t;bt(III)/	bt (II); bt (I); bt (III)	n. m.; n. f.; n. m.	house; daughter; length	
+161004	bt	bt(II)/	bt (II)	n. m.	house	
+161004	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+161004	bt	bt(III)/	bt (III)	n. m.	length	
 161005	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
 # KTU 3.4 12						
 161006	w	w	w	conj.	and	
-161007	pdy	pdy[	/p-d-y/	vb	to redeem	
+161007	pdy	pdy[	/p-d-y/	vb G	to redeem	
 161008	hm	hm(II)	hm (II)	conj./interr. functor	if	
 # KTU 3.4 13						
 161009	iwrkl	iwrkl/	ỉwrkl	PN	ỉwrkl	
@@ -49,7 +57,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.4 14						
 161011	ksp	ksp/	ksp	n. m.	silver	
 161012	b	b	b	prep.	in	
-161013	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
+161013	yd	yd(I)/	yd (I)	n. f.	hand	
+161013	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+161013	yd	yd(II)/	yd (II)	n. m.	love	
 # KTU 3.4 15						
 161014	birtym	birty/	bỉrty	GN	bỉrty	
 # KTU 3.4 16						
@@ -58,13 +68,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161017	inn	in/	ỉn	n. m.	lack of	
 # KTU 3.4 17						
 161018	lhm	l(I)+hm	l (I)	prep.	to	
-161019	ˤd	ˤd(III)/; ˤd(II)/	ʕd (III); ʕd (II)	n. m.; n. m.	throne; time	
-161020	tṯṯbn	!t!]š]ṯb[	/ṯ-b/	vb	to return	
+161019	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
+161019	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
+161020	tṯṯbn	!t!]š]ṯb[	/ṯ-b/	vb Š	to return	
 # KTU 3.4 18						
 161021	ksp	ksp/	ksp	n. m.	silver	
 161022	iwrkl	iwrkl/	ỉwrkl	PN	ỉwrkl	
 # KTU 3.4 19						
 161023	w	w	w	conj.	and	
-161024	ṯb	ṯb[	/ṯ-b/	vb	to return	
-161025	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+161024	ṯb	ṯb[	/ṯ-b/	vb G	to return	
+161025	l	l(I)	l (I)	prep.	to	
+161025	l	l(III)	l (III)	functor	certainly	
 161026	unṯhm	unṯ/	ủnṯ	n. m.	obligation	

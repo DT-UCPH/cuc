@@ -8,16 +8,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161569	ššl	ššl/	ššl	PN	ššl	
 # KTU 3.17 4						
 161570	kd	kd(I)/	kd (I)	n. f.	jar	
-161571	ykn	!y!kn[	/k-n/	vb	to be (stable)	
-161572	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161571	ykn	!y!kn[	/k-n/	vb G	to be (stable)	
+161572	bn	bn(I)/	bn (I)	n. m.	son	
+161572	bn	bn(II)	bn (II)	prep.	between	
+161572	bn	bn[	/b-n/	vb G	to understand	
 161573	ˤbdṯrm	ˤbdṯrm/	ʕbdṯrm	PN	ʿbdṯrm	
 # KTU 3.17 5						
 161574	kd	kd(I)/	kd (I)	n. f.	jar	
 161575	ˤbdil	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.17 6						
-161576	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+161576	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+161576	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+161576	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 161577	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161578	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161578	bn	bn(I)/	bn (I)	n. m.	son	
+161578	bn	bn(II)	bn (II)	prep.	between	
+161578	bn	bn[	/b-n/	vb G	to understand	
 161579	srġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.17 7						
 161580	kd	kd(I)/	kd (I)	n. f.	jar	
@@ -27,14 +33,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161583	kd	kd(I)/	kd (I)	n. f.	jar	
 161584	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161585	śz	z/	śz	PN	śz	
-161586	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161586	bn	bn(I)/	bn (I)	n. m.	son	
+161586	bn	bn(II)	bn (II)	prep.	between	
+161586	bn	bn[	/b-n/	vb G	to understand	
 161587	pls	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.17 9						
 161588	kd	kd(I)/	kd (I)	n. f.	jar	
 161589	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161590	ynḥm	ynḥm/	ynḥm	PN	ynḥm	
 # KTU 3.17 10						
-161591	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+161591	k	+k	-k (I)			
+161591	k	~k	-k (II)			
+161591	k	k(III)	k (III)	Subordinating or completive functor	when	
+161591	k	k(I)	k (I)	prep.	like	
+161591	k	k(II)	k (II)	emph. functor	yes	
 # KTU 3.17 11						
 161592	kd	kd(I)/	kd (I)	n. f.	jar	
 161593	xxxxxx	?	?	?	?	

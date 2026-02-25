@@ -1,10 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.93 1						
 151462	arḫ	arḫ/	ảrḫ	n. f.	cow	
-151463	td	ndd[; nd[; ydy(II)[	/n-d-d/; /n-d(-y)/; /y-d-y/ (II)	vb; vb; vb	to go; to throw; to rip	
-151464	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+151463	td	ndd[	/n-d-d/	vb G	to go	
+151463	td	nd[	/n-d(-y)/	vb G	to throw	
+151463	td	ydy(II)[	/y-d-y/ (II)	vb G	to rip	
+151464	rgm	rgm[	/r-g-m/	vb G	to say	
+151464	rgm	rgm/	rgm	n. m.	word	
 151465	b	b	b	prep.	in	
-151466	ġr	ġr(I)/; ġr(III)/	ġr (I); ġr (III)	n. m.; n. m.	mountain; skin	
+151466	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
+151466	ġr	ġr(III)/	ġr (III)	n. m.	skin	
 # KTU 1.93 2						
 151467	b	b	b	prep.	in	
 151468	py	p(III)/+y	p (III)	n. m.	mouth	
@@ -12,22 +16,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151470	b	b	b	prep.	in	
 151471	lšn	lšn/	lšn	n. f.	tongue	
 # KTU 1.93 3						
-151472	ġr	ġr(I)/; ġr(III)/	ġr (I); ġr (III)	n. m.; n. m.	mountain; skin	
+151472	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
+151472	ġr	ġr(III)/	ġr (III)	n. m.	skin	
 151473	tyb	?	?	?	?	DULAT: NOT FOUND
 151474	b	b	b	prep.	in	
 151475	npšy	npš(I)/+y	npš (I)	n. f.	throat	
-151476	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+151476	rgm	rgm[	/r-g-m/	vb G	to say	
+151476	rgm	rgm/	rgm	n. m.	word	
 # KTU 1.93 4						
-151477	hwt	hw(t(I)/t;hw(t(I)/t	hwt (I); hwt (I)	n. f.; n. f.	word/matter; word/matter	
-151478	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
-151479	ištmˤ	š]t]mˤ[	/š-m-ʕ/	vb	to hear	
+151477	hwt	hw(t(I)/t	hwt (I)	n. f.	word/matter	
+151478	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+151478	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+151479	ištmˤ	š]t]mˤ[	/š-m-ʕ/	vb Gt	to hear	
 # KTU 1.93 5						
-151480	šmˤ	šmˤ[; šmˤ/	/š-m-ʕ/; šmʕ	vb; n. m.	to hear; auditor	
+151480	šmˤ	šmˤ[	/š-m-ʕ/	vb G	to hear	
+151480	šmˤ	šmˤ/	šmʕ	n. m.	auditor	
 151481	ly	l(I)+y	l (I)	prep.	to	
-151482	ypš	!y!pš[	/p-š/	vb	?	
+151482	ypš	!y!pš[	/p-š/	vb G	?	
 151483	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.93 6						
-151484	ḥkr	ḥkr[	/ḥ-k-r/	vb	to knock down	
+151484	ḥkr	ḥkr[	/ḥ-k-r/	vb G	to knock down	
 151485	xxšry	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.93 7						
 151486	ˤṣp	ˤṣp	ʕṣp	?	?	

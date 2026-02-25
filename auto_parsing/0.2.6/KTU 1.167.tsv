@@ -1,9 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.167 1						
-155530	br	br/; br(I)/; br[	br(r); br (I); /b-r(-r)/	n. m.; n. m.; vb	tin; Art Seeschiff; to be or remain pure	
+155530	br	br/	br(r)	n. m.	tin	
+155530	br	br(I)/	br (I)	n. m.	Art Seeschiff	
+155530	br	br[	/b-r(-r)/	vb G	to be or remain pure	
 # KTU 1.167 2						
-155531	bk	b; bky[; bk/	b; /b-k-y/; bk	prep.; vb; n. m.	in; to weep; beaker	
-155532	mr	mr(I)/; mr(IV)/; mr(II)/	mr (I); mr (IV); mr (II)	n. m.; adj. m.; adj. m.	myrrh; valiant; bitter	
+155531	bk	b	b	prep.	in	
+155531	bk	bky[	/b-k-y/	vb G	to weep	
+155531	bk	bk/	bk	n. m.	beaker	
+155532	mr	mr(I)/	mr (I)	n. m.	myrrh	
+155532	mr	mr(IV)/	mr (IV)	adj. m.	valiant	
+155532	mr	mr(II)/	mr (II)	adj. m.	bitter	
 # KTU 1.167 3						
 155533	ġsb	?	?	?	?	DULAT: NOT FOUND
 155534	ġsb	?	?	?	?	DULAT: NOT FOUND
@@ -11,17 +17,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155535	ttwrb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.167 5						
 155536		?	?	?	?	
-155537	qṣṣ	qṣ[	/q-ṣ(-ṣ)/	vb	to carve	
+155537	qṣṣ	qṣ[	/q-ṣ(-ṣ)/	vb G	to carve	
 155538	bb	bb/	bb	PN	bb	
 # KTU 1.167 6						
 155539	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 155540	ˤpr	ˤpr(I)/	ʕpr (I)	n. m.	dust	
 # KTU 1.167 7						
 155541	m	l(I)	l (I)	prep.	to	
-155542	ˤnh	ˤn(I)/	ʕn (I)	n. f.	eye	
+155542	ˤnh	ˤn(I)/h	ʕn (I)	n. f.	eye	
 # KTU 1.167 8						
-155543	yšu	nšʔ[	/n-š-ʔ/	vb	to raise	
-155544	ˤp	ˤp(I)/	ʕp (I)	n.	bird	
+155543	yšu	nšʔ[	/n-š-ʔ/	vb G	to raise	
+155544	ˤp	ˤp(I)/	ʕp (I)	n. m.	bird	
 # KTU 1.167 9						
 155545	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155546	ih	aḫ(I)/+h	ảḫ (I)	n. m.	brother (by blood)	
@@ -30,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155548		?	?	?	?	
 # KTU 1.167 11						
 155549	qṭr	qṭr/	qṭr	n. m.	smoke	
-155550	lbn	lb/+n(I); lb/+n(II); lb/+n(III)	lb, -n (I); lb, -n (II); lb, -n (III)	n. m., morph.; n. m., pers. pn./morph./vb; n. m., pers. pn./morph.	heart, Sun; heart, me; heart, our	
+155550	lbn	lb/+n	lb	n. m.	heart	
 # KTU 1.167 12						
 155551	r	?	?	?	?	
 # KTU 1.167 13						

@@ -1,69 +1,91 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 1						
-160892	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-160893	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
-160894	hnd	hnd/	hnd	dem. adj./pn.	this	
+160892	l	l(I)	l (I)	prep.	to	
+160892	l	l(III)	l (III)	functor	certainly	
+160893	ym	ym(I)/	ym (I)	n. m.	day	
+160893	ym	ym(II)/	ym (II)	n. m.	sea	
+160894	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.2 2						
 160895	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
 # KTU 3.2 3						
-160896	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+160896	bn	bn(I)/	bn (I)	n. m.	son	
+160896	bn	bn(II)	bn (II)	prep.	between	
+160896	bn	bn[	/b-n/	vb G	to understand	
 160897	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
 # KTU 3.2 4						
-160898	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+160898	mlk	mlk[	/m-l-k/	vb G	to reign	
+160898	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 160899	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
 # KTU 3.2 5						
-160900	ytn	!y!(ytn[	/y-t-n/	vb	to give	
-160901	bt	bt(II)/;b(t(I)/t;bt(III)/	bt (II); bt (I); bt (III)	n. m.; n. f.; n. m.	house; daughter; length	
+160900	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+160901	bt	bt(II)/	bt (II)	n. m.	house	
+160901	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+160901	bt	bt(III)/	bt (III)	n. m.	length	
 160902	annḏr	annḏr/	ảnnḏr	PN	ảnnḏr	
 # KTU 3.2 6						
-160903	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+160903	bn	bn(I)/	bn (I)	n. m.	son	
+160903	bn	bn(II)	bn (II)	prep.	between	
+160903	bn	bn[	/b-n/	vb G	to understand	
 160904	agytn	agytn/	ảgytn	PN	ảgytn	
 160905	bnš	bnš/	bnš	n. m.	man	
 # KTU 3.2 7						
-160906	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+160906	mlk	mlk[	/m-l-k/	vb G	to reign	
+160906	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 160907	d	d	d	det. or rel. functor	the one(s) of	
 160908	b	b	b	prep.	in	
 160909	riš	riš(I)/	rỉš (I)	n. m.	head	
 # KTU 3.2 8						
 160910	w	w	w	conj.	and	
-160911	ytnn	!y!(ytn[+n(I); !y!(ytn[+n(II); !y!(ytn[+n(III)	/y-t-n/, -n (I); /y-t-n/, -n (II); /y-t-n/, -n (III)	vb, morph.; vb, pers. pn./morph./vb; vb, pers. pn./morph.	to give, Sun; to give, me; to give, our	
+160911	ytnn	!y!(ytn[+n	/y-t-n/	vb	to give	
 # KTU 3.2 9						
-160912	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+160912	l	l(I)	l (I)	prep.	to	
+160912	l	l(III)	l (III)	functor	certainly	
 160913	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
 # KTU 3.2 10						
-160914	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+160914	bn	bn(I)/	bn (I)	n. m.	son	
+160914	bn	bn(II)	bn (II)	prep.	between	
+160914	bn	bn[	/b-n/	vb G	to understand	
 160915	amtrn	amtrn/	ảmtrn	PN	ảmtrn	
 # KTU 3.2 11						
 160916	w	w	w	conj.	and	
-160917	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+160917	l	l(I)	l (I)	prep.	to	
+160917	l	l(III)	l (III)	functor	certainly	
 160918	bnh	bn(I)/+h	bn (I)	n. m.	son	
-160919	ˤd	ˤd(III)/; ˤd(II)/	ʕd (III); ʕd (II)	n. m.; n. m.	throne; time	
+160919	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
+160919	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
 # KTU 3.2 12						
 160920	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
-160921	mnk	mnk/	mnk	indef. pn.	whoever	
+160921	mnk	mnk	mnk	indef. pn.	whoever	
 # KTU 3.2 13						
-160922	mnkm	mnk/	mnk	indef. pn.	whoever	
-160923	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-160924	yqḥ	lqḥ[	/l-q-ḥ/	vb	to get hold of	
+160922	mnkm	mnk	mnk	indef. pn.	whoever	
+160923	l	l(I)	l (I)	prep.	to	
+160923	l	l(II)	l (II)	adv.	no	
+160923	l	l(III)	l (III)	functor	certainly	
+160924	yqḥ	lqḥ[	/l-q-ḥ/	vb G/Gpass	to get hold of	
 # KTU 3.2 14						
-160925	bt	bt(II)/;b(t(I)/t;bt(III)/	bt (II); bt (I); bt (III)	n. m.; n. f.; n. m.	house; daughter; length	
-160926	hnd	hnd/	hnd	dem. adj./pn.	this	
+160925	bt	bt(II)/	bt (II)	n. m.	house	
+160925	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+160925	bt	bt(III)/	bt (III)	n. m.	length	
+160926	hnd	hnd	hnd	dem. adj./pn.	this	
 160927	bd	b	b	prep.	in	
 # KTU 3.2 15						
 160928	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
 # KTU 3.2 16						
-160929	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+160929	bn	bn(I)/	bn (I)	n. m.	son	
+160929	bn	bn(II)	bn (II)	prep.	between	
+160929	bn	bn[	/b-n/	vb G	to understand	
 160930	amtrn	amtrn/	ảmtrn	PN	ảmtrn	
 # KTU 3.2 17						
 160931	wbd	?	?	?	?	DULAT: NOT FOUND
 160932	bnh	bn(I)/+h	bn (I)	n. m.	son	
-160933	ˤd	ˤd(III)/; ˤd(II)/	ʕd (III); ʕd (II)	n. m.; n. m.	throne; time	
+160933	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
+160933	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
 160934	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
 # KTU 3.2 18						
 160935	w	w	w	conj.	and	
 160936	unṯ	unṯ/	ủnṯ	n. m.	obligation	
 160937	in	in/	ỉn	n. m.	lack of	
-160938	mnm	mnm/	mnm	indef. pn.	any(thing)	
+160938	mnm	mnm	mnm	indef. pn.	any(thing)	
 160939	bh	b	b	prep.	in	
 # KTU 3.2 19						
 160940	mišmn	mišmn/	m(ả/ỉ)šmn	n. m.	seal	

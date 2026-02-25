@@ -6,21 +6,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149286		?	?	?	?	
 # KTU 1.55 3						
 149287	irtḥṣ	?	?	?	?	DULAT: NOT FOUND
-149288	nn	grš[; gr[	/g-r-š/; /g-r(-y)/	vb; vb	to eject; to attack	
+149288	nn	grš[	/g-r-š/	vb G	to eject	
+149288	nn	gr[	/g-r(-y)/	vb G	to attack	
 # KTU 1.55 4						
-149289	idm	id+m(I); id+m(II)	ỉd, -m (I); ỉd, -m (II)	conj., morph.; conj., emph. or det. encl. morph.	when, ; when, und das (ist) so!	
-149290	nn	grš[; gr[	/g-r-š/; /g-r(-y)/	vb; vb	to eject; to attack	
+149289	idm	id+m(I)	ỉd	conj.	when	
+149289	idm	id+m(II)	ỉd	conj.	when	
+149290	nn	grš[	/g-r-š/	vb G	to eject	
+149290	nn	gr[	/g-r(-y)/	vb G	to attack	
 # KTU 1.55 5						
 149291	bṯn	bṯn/	bṯn	n. m.	serpent	
-149292	alt	al(t(I)/t;al(II)/t=	ảlt (I); ảlt (II)	n. f.; n. f.	curse; support	
+149292	alt	al(t(I)/t	ảlt (I)	n. f.	curse	
+149292	alt	al(t(II)/t=	ảlt (II)	n. f.	support	
 # KTU 1.55 6						
 149293	b	b	b	prep.	in	
-149294	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+149294	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+149294	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+149294	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 149295	b	b	b	prep.	in	
-149296	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+149296	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+149296	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+149296	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 # KTU 1.55 7						
 149297	m	l(I)	l (I)	prep.	to	
-149298	nn	grš[; gr[	/g-r-š/; /g-r(-y)/	vb; vb	to eject; to attack	
-149299	br	br/; br(I)/; br[	br(r); br (I); /b-r(-r)/	n. m.; n. m.; vb	tin; Art Seeschiff; to be or remain pure	
+149298	nn	grš[	/g-r-š/	vb G	to eject	
+149298	nn	gr[	/g-r(-y)/	vb G	to attack	
+149299	br	br/	br(r)	n. m.	tin	
+149299	br	br(I)/	br (I)	n. m.	Art Seeschiff	
+149299	br	br[	/b-r(-r)/	vb G	to be or remain pure	
 # KTU 1.55 8						
 149300	thax	?	?	?	?	DULAT: NOT FOUND

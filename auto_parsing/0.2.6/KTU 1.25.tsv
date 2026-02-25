@@ -5,29 +5,37 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.25 2						
 147844	ilm	il(I)/m	ỉl (I)	n. m.	god	
 147845	w	w	w	conj.	and	
-147846	ilht	il(I)/t=	ỉlt (I)	n. f.	goddess	
+147846	ilht	il(t(I)/&ht	ỉlt (I)	n. f.	goddess	
 147847	dt	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.25 3						
 147848	šbˤ	šbˤ(I)/	šbʕ (I)	n. num.	seven	
-147849	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-147850	šbˤm	šbˤ(I)/m; šbˤ/m	šbʕ (I); šbʕm	n. num.; n. num.	seven; seventy	
+147849	l	l(I)	l (I)	prep.	to	
+147849	l	l(III)	l (III)	functor	certainly	
+147850	šbˤm	šbˤ(I)/m	šbʕ (I)	n. num.	seven	
+147850	šbˤm	šbˤ/m	šbʕm	n. num.	seventy	
 147851	abx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 4						
 147852	w	w	w	conj.	and	
-147853	ldm	yld[+m(I); yld[+m(II)	/y-l-d/, -m (I); /y-l-d/, -m (II)	vb, morph.; vb, emph. or det. encl. morph.	to give birth (to), ; to give birth (to), und das (ist) so!	
+147853	ldm	yld[+m(I)	/y-l-d/	vb	to give birth (to)	
+147853	ldm	yld[+m(II)	/y-l-d/	vb	to give birth (to)	
 147854	dt	d	d	det. or rel. functor	the one(s) of	
-147855	ymtm	!y!mt[	/m-t/	vb	to die	
+147855	ymtm	!y!mt[	/m-t/	vb G	to die	
 # KTU 1.25 5						
-147856	ġr	ġr(I)/; ġr(III)/	ġr (I); ġr (III)	n. m.; n. m.	mountain; skin	
+147856	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
+147856	ġr	ġr(III)/	ġr (III)	n. m.	skin	
 147857	lẓpn	lẓpn	lẓpn	→		
 # KTU 1.25 6						
-147858	pn	pn/m; pn	pnm; pn	n. m.; functor	face; lest	
-147859	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
+147858	pn	pn(m/	pnm	n. m. pl. tant.	face	
+147858	pn	pn	pn	functor	lest	
+147859	ym	ym(I)/	ym (I)	n. m.	day	
+147859	ym	ym(II)/	ym (II)	n. m.	sea	
 147860	ymgn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 7						
 147861	i	i(I)	ỉ (I)	interj.	woe	
-147862	bt	bt(II)/;b(t(I)/t	bt (II); bt (I)	n. m.; n. f.	house; daughter	
-147863	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+147862	bt	bt(II)/	bt (II)	n. m.	house	
+147862	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+147863	l	l(I)	l (I)	prep.	to	
+147863	l	l(III)	l (III)	functor	certainly	
 147864	hdd	hd/	hd(d)	DN	Haddu/Hadad	
 # KTU 1.25 8						
 147865	hkl	hkl/	hkl	n. m.	palace	

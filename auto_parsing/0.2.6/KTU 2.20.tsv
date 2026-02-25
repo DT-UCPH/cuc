@@ -1,19 +1,24 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.20 1						
 156872	tḥm	tḥm/	tḥm	n. m.	message	
-156873	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+156873	mlk	mlk[	/m-l-k/	vb G	to reign	
+156873	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 156874	grgmš	grgmš/	grgmš	TN	gargamiš	
 # KTU 2.20 2						
-156875	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+156875	l	l(I)	l (I)	prep.	to	
+156875	l	l(III)	l (III)	functor	certainly	
 156876	xxxx	?	?	?	?	
-156877	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+156877	mlk	mlk[	/m-l-k/	vb G	to reign	
+156877	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 156878	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
-156879	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
-156880	yšlm	!y!šlm[	/š-l-m/	vb	to be well	
+156879	rgm	rgm[	/r-g-m/	vb G	to say	
+156879	rgm	rgm/	rgm	n. m.	word	
+156880	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 156881	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.20 3						
 156882	xxxxxxxm	?	?	?	?	DULAT: NOT FOUND
-156883	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+156883	rgm	rgm[	/r-g-m/	vb G	to say	
+156883	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.20 4						
 156884	xxxxxxšknt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.20 5						
@@ -30,7 +35,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.20 9						
 156892	yḥxxn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.20 10						
-156893	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+156893	k	+k	-k (I)			
+156893	k	~k	-k (II)			
+156893	k	k(III)	k (III)	Subordinating or completive functor	when	
+156893	k	k(I)	k (I)	prep.	like	
+156893	k	k(II)	k (II)	emph. functor	yes	
 156894	xx	?	?	?	?	
 156895	xx	?	?	?	?	
 156896	x	?	?	?	?	

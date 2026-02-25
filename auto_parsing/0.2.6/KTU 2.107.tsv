@@ -6,27 +6,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.107 3						
 160579	x	?	?	?	?	
 160580	w	w	w	conj.	and	
-160581	štn	št[	/š-t/	vb	to place	
-160582	hnd	hnd/	hnd	dem. adj./pn.	this	
+160581	štn	št[	/š-t/	vb G	to place	
+160582	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 2.107 4						
 160583	x	?	?	?	?	
-160584	aškn	!a!škn[	/š-k-n/	vb	to be placed	
+160584	aškn	!a!škn[	/š-k-n/	vb D	to be placed	
 # KTU 2.107 5						
 160585		?	?	?	?	
 # KTU 2.107 6						
 160586	xy	?	?	?	?	DULAT: NOT FOUND
-160587	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+160587	rgm	rgm[	/r-g-m/	vb G	to say	
+160587	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.107 7						
 160588	bnšm	bnš/m	bnš	n. m.	man	
 160589	it	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.107 8						
 160590	x	?	?	?	?	
 160591	qrht	qrt(I)/	qrt (I)	n. f.	city	
-160592	ḫbṯ	ḫbṯ[; ḫbṯ/	/ḫ-b-ṯ/; ḫbṯ	vb; adj. m.	to flee; emancipated	
+160592	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G/Gpass	to flee	
+160592	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m.	emancipated	
 # KTU 2.107 9						
 160593	x	?	?	?	?	
-160594	spr	spr(II)/; spr[; spr(I)/	spr (II); /s-p-r/; spr (I)	n. m.; vb; n. m.	tablet/register; to count; scribe	
-160595	šthm	št[+hm; št(II)/+hm; št(I)/+hm	/š-t/, -hm; št (II), -hm; št (I), -hm	vb, pers. pn./morph.; n. f., pers. pn./morph.; n. m., pers. pn./morph.	to place, their; raíz, their; base, their	
+160594	spr	spr(II)/	spr (II)	n. m.	tablet/register	
+160594	spr	spr[	/s-p-r/	vb G/D	to count	
+160594	spr	spr(I)/	spr (I)	n. m.	scribe	
+160595	šthm	št[+hm	/š-t/	vb	to place	
+160595	šthm	št(II)/+hm	št (II)	n. f.	raíz	
+160595	šthm	št(I)/+hm	št (I)	n. m.	base	
 # KTU 2.107 10						
 160596	šṣu	?	?	?	?	DULAT: NOT FOUND
 160597	ṯh	ṯh/	ṯh	n. m.	neighbour	
@@ -41,28 +47,34 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160603		?	?	?	?	
 160604	grgš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.107 14						
-160605	n	~n; [n, [n=; +n, +n=;	-n (I); -n (II); -n (III); -n (IV)	encl. morph.; suffixed pn. morph. used with vb; suff. pn. morph. 1.p.pl.; contracted suff. pn. morph. used with a vb	; me/to me; our/us; him/her/it	
+160605	n	~n	-n (I)	encl. morph.		
+160605	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
+160605	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
+160605	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 # KTU 2.107 15						
 160606	xˤm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.107 16						
-160607	gršthm	grš[	/g-r-š/	vb	to eject	
+160607	gršthm	grš[	/g-r-š/	vb G	to eject	
 # KTU 2.107 17						
 160608	hm	hm(II)	hm (II)	conj./interr. functor	if	
 160609	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
 # KTU 2.107 18						
-160610	pr	pr(II)/; pr(I)/	pr (II); pr (I)	n. m.; n. m.	young bull; fruit	
+160610	pr	pr(II)/	pr (II)	n. m.	young bull	
+160610	pr	pr(I)/	pr (I)	n. m.	fruit	
 160611	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.107 19						
-160612	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb	to hurry	
+160612	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb G	to hurry	
 # KTU 2.107 20						
 160613		?	?	?	?	
-160614	mnm	mnm/	mnm	indef. pn.	any(thing)	
-160615	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+160614	mnm	mnm	mnm	indef. pn.	any(thing)	
+160615	rgm	rgm[	/r-g-m/	vb G	to say	
+160615	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.107 21						
-160616	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb	to hear	
+160616	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G	to hear	
 # KTU 2.107 22						
 160617	mlaktk	mlakt/+k	mlảkt	n. f.	message	
 # KTU 2.107 23						
-160618	mnm	mnm/	mnm	indef. pn.	any(thing)	
-160619	al	al(I); al(II)	ảl (I); ảl (II)	neg. functor; pos. functor	no; surely	
-160620	yns	!y!ns[	/n-s/	vb	to flee	
+160618	mnm	mnm	mnm	indef. pn.	any(thing)	
+160619	al	al(I)	ảl (I)	neg. functor	no	
+160619	al	al(II)	ảl (II)	pos. functor	surely	
+160620	yns	!y!ns[	/n-s/	vb G	to flee	

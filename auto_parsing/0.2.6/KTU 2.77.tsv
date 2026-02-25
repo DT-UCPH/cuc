@@ -7,7 +7,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159224	ax	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 3						
 159225	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159226	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+159226	mlk	mlk[	/m-l-k/	vb G	to reign	
+159226	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 159227	x	?	?	?	?	
 # KTU 2.77 4						
 159228	mitm	mi(t/tm	mỉt	n. f.	a hundred	
@@ -17,15 +18,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159231	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 6						
 159232	w	w	w	conj.	and	
-159233	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
-159234	bˤly	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+159233	mlk	mlk[	/m-l-k/	vb G	to reign	
+159233	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+159234	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
 # KTU 2.77 7						
 159235	d	d	d	det. or rel. functor	the one(s) of	
-159236	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+159236	rgm	rgm[	/r-g-m/	vb G	to say	
+159236	rgm	rgm/	rgm	n. m.	word	
 159237	ly	l(I)+y	l (I)	prep.	to	
 159238		?	?	?	?	
 # KTU 2.77 8						
-159239	ḥd	ḥdy[	/ḥ-d-y/	vb	to see	
+159239	ḥd	ḥdy[	/ḥ-d-y/	vb G	to see	
 159240	hlny	hlny	hlny	deictic adv. functor	behold	
 159241	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 9						
@@ -44,23 +47,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.77 13						
 159251	w	w	w	conj.	and	
 159252	ypn	ypn	ypn	?		
-159253	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+159253	l	l(I)	l (I)	prep.	to	
+159253	l	l(III)	l (III)	functor	certainly	
 # KTU 2.77 14						
 159254	w	w	w	conj.	and	
-159255	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+159255	l	l(I)	l (I)	prep.	to	
+159255	l	l(III)	l (III)	functor	certainly	
 159256	tˤw	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 15						
 159257	w	w	w	conj.	and	
-159258	ḥd	ḥdy[	/ḥ-d-y/	vb	to see	
+159258	ḥd	ḥdy[	/ḥ-d-y/	vb G	to see	
 159259	ax	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 16						
-159260	kbd	kbd(II)/; kbd(I)/; kbd[	kbd (II); kbd (I); /k-b-d/	n. m.; n.; vb	total (quantity or price); liver; to honour	
+159260	kbd	kbd(II)/	kbd (II)	n. m.	total (quantity or price)	
+159260	kbd	kbd(I)/	kbd (I)	n.	liver	
+159260	kbd	kbd[	/k-b-d/	vb D	to honour	
 159261	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 17						
 159262	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-159263	pr	pr(II)/; pr(I)/	pr (II); pr (I)	n. m.; n. m.	young bull; fruit	
+159263	pr	pr(II)/	pr (II)	n. m.	young bull	
+159263	pr	pr(I)/	pr (I)	n. m.	fruit	
 # KTU 2.77 18						
-159264	ḥd	ḥdy[	/ḥ-d-y/	vb	to see	
+159264	ḥd	ḥdy[	/ḥ-d-y/	vb G	to see	
 159265	mlx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 19						
 159266	prḫn	prḫn/	prḫn	PN	flower-like	

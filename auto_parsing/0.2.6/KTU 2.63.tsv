@@ -1,46 +1,58 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.63 1						
-158687	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-158688	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
-158689	bˤly	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+158687	l	l(I)	l (I)	prep.	to	
+158687	l	l(II)	l (II)	adv.	no	
+158687	l	l(III)	l (III)	functor	certainly	
+158688	mlk	mlk[	/m-l-k/	vb G	to reign	
+158688	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158689	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
 # KTU 2.63 2						
-158690	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+158690	rgm	rgm[	/r-g-m/	vb G	to say	
+158690	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.63 3						
 158691	tḥm	tḥm/	tḥm	n. m.	message	
 158692	wrblˤbdk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.63 4						
-158693	yšlm	!y!šlm[	/š-l-m/	vb	to be well	
+158693	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 158694	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.63 5						
 158695	ilm	il(I)/m	ỉl (I)	n. m.	god	
-158696	tġrk	!t!nġr[	/n-ġ-r/	vb	to protect	
+158696	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
 # KTU 2.63 6						
-158697	tšlmk	!t!šlm[	/š-l-m/	vb	to be well	
+158697	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
 # KTU 2.63 7						
 158698	lm	l(I)	l (I)	prep.	to	
-158699	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-158700	likt	lʔk[	/l-ʔ-k/	vb	to send (a message)	
+158699	l	l(I)	l (I)	prep.	to	
+158699	l	l(II)	l (II)	adv.	no	
+158699	l	l(III)	l (III)	functor	certainly	
+158700	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.63 8						
-158701	šil	šʔl[; šil(I)/	/š-ʔ-l/; šỉl (I)	vb; n. m.	to ask; interrogator	
-158702	šlmy	šlm(I)/+y; šlmy(II)/	šlm (I); šlmy (II)	n. m.; GN	peace; šlmy (II)	
+158701	šil	šʔl[	/š-ʔ-l/	vb G	to ask	
+158701	šil	šil(I)/	šỉl (I)	n. m.	interrogator	
+158702	šlmy	šlm(I)/+y	šlm (I)	n. m.	peace	
+158702	šlmy	šlmy(II)/	šlmy (II)	GN	šlmy (II)	
 # KTU 2.63 9						
-158703	ˤd	ˤd(III)/; ˤd(II)/	ʕd (III); ʕd (II)	n. m.; n. m.	throne; time	
+158703	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
+158703	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
 158704	ruš	ruš/	rủš	n. m.	hurt in the head	
 # KTU 2.63 10						
-158705	uly	ul/+y(I); ul/+y(II)	ủl, -y (I); ủl, -y (II)	n. m., prep.; n. m., postp. functor	(military) force, my; (military) force, yes	
-158706	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-158707	likt	lʔk[	/l-ʔ-k/	vb	to send (a message)	
+158705	uly	ul/+y	ủl	n. m.	(military) force	
+158706	l	l(I)	l (I)	prep.	to	
+158706	l	l(II)	l (II)	adv.	no	
+158706	l	l(III)	l (III)	functor	certainly	
+158707	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.63 11						
-158708	ank	ank/	ảnk	pers. pn.	I	
+158708	ank	ank	ảnk	pers. pn.	I	
 158709	ˤxxxnxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.63 12						
-158710	šil	šʔl[; šil(I)/	/š-ʔ-l/; šỉl (I)	vb; n. m.	to ask; interrogator	
+158710	šil	šʔl[	/š-ʔ-l/	vb G	to ask	
+158710	šil	šil(I)/	šỉl (I)	n. m.	interrogator	
 158711	š	š/	š	n. m.	ram	
 # KTU 2.63 13						
 158712	lm	l(I)	l (I)	prep.	to	
-158713	likt	lʔk[	/l-ʔ-k/	vb	to send (a message)	
+158713	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.63 14						
-158714	at	at(I)/	ảt (I)	pers. pn.	you	
+158714	at	at(I)	ảt (I)	pers. pn.	you	
 158715	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.63 15						
 158716	w	w	w	conj.	and	

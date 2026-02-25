@@ -2,13 +2,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.58 1						
 158592	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.58 2						
-158593	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
-158594	ṯṯb	]š]ṯb[	/ṯ-b/	vb	to return	
+158593	rgm	rgm[	/r-g-m/	vb G	to say	
+158593	rgm	rgm/	rgm	n. m.	word	
+158594	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
 # KTU 2.58 3						
 158595	x	?	?	?	?	
 158596	amr	amr(I)/	ảmr (I)	n. m.	order	
 # KTU 2.58 4						
-158597	y	+y, [y; ~y; y	-y (I); -y (II); y	prep. functor	my; indeed; oh!	
+158597	y	+y, [y	-y (I)	prep. functor	my	
+158597	y	~y	-y (II)	prep. functor	indeed	
+158597	y	y	y	prep. functor	oh!	
 158598	gt	g(t/t	gt	n. f./element of TNN	gittu	
 # KTU 2.58 5						
 158599	xġ	?	?	?	?	DULAT: NOT FOUND
@@ -17,12 +20,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158601		?	?	?	?	
 158602		?	?	?	?	
 # KTU 2.58 7						
-158603	p	p(I); p(III)/; p(II)	p (I); p (III); p (II)	conj. functor; n. m.; adv.	and; mouth; here	
+158603	p	p(I)	p (I)	conj. functor	and	
+158603	p	p(III)/	p (III)	n. m.	mouth	
+158603	p	p(II)	p (II)	adv.	here	
 158604	x	?	?	?	?	
 # KTU 2.58 8						
-158605	t	/t, /t=;[t, [t=, [t==, [t===	;	;	;	
+158605	t	/t, /t=				
+158605	t	[t, [t=, [t==, [t===				
 # KTU 2.58 9						
-158606	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+158606	k	+k	-k (I)			
+158606	k	~k	-k (II)			
+158606	k	k(III)	k (III)	Subordinating or completive functor	when	
+158606	k	k(I)	k (I)	prep.	like	
+158606	k	k(II)	k (II)	emph. functor	yes	
 # KTU 2.58 10						
 158607	x	?	?	?	?	
 # KTU 2.58 11						

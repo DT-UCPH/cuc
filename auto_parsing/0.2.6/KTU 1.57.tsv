@@ -1,12 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.57 1						
-149312	ltm	lt+m(I); lt+m(II)	lt, -m (I); lt, -m (II)	?, morph.; ?, emph. or det. encl. morph.	?, ; ?, und das (ist) so!	
+149312	ltm	lt+m(I)	lt	?	?	
+149312	ltm	lt+m(II)	lt	?	?	
 149313	r	?	?	?	?	
 # KTU 1.57 2						
 149314	x	?	?	?	?	
 149315	arbˤt	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.57 3						
-149316	qdš	qdš(I)/; qdš(II)/	qdš (I); qdš (II)	adj. m.; n. m.	holy; sanctuary	
+149316	qdš	qdš(I)/	qdš (I)	adj. m.	holy	
+149316	qdš	qdš(II)/	qdš (II)	n. m.	sanctuary	
 # KTU 1.57 4						
 149317	kšu	?	?	?	?	DULAT: NOT FOUND
 149318	pš	?	?	?	?	DULAT: NOT FOUND
@@ -22,7 +24,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149325	x	?	?	?	?	
 # KTU 1.57 8						
 149326	x	?	?	?	?	
-149327	nn	grš[; gr[	/g-r-š/; /g-r(-y)/	vb; vb	to eject; to attack	
+149327	nn	grš[	/g-r-š/	vb G	to eject	
+149327	nn	gr[	/g-r(-y)/	vb G	to attack	
 # KTU 1.57 9						
 149328	x	?	?	?	?	
 149329	mgx	?	?	?	?	DULAT: NOT FOUND

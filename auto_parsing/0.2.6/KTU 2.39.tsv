@@ -3,90 +3,115 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157921	tḥm	tḥm/	tḥm	n. m.	message	
 157922	špš	špš/	špš	n.	sun	
 # KTU 2.39 2						
-157923	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+157923	l	l(I)	l (I)	prep.	to	
+157923	l	l(III)	l (III)	functor	certainly	
 157924	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN	ʿAmmurāpʾi	
-157925	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+157925	rgm	rgm[	/r-g-m/	vb G	to say	
+157925	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.39 3						
 157926	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157927	špš	špš/	špš	n.	sun	
 157928	kll	kll/	kll	n. m.	totality	
 157929	midm	midm/	mỉ/ủd	n. m.	abundance	
 # KTU 2.39 4						
-157930	šlm	šlm(I)/; šlm[; šlm(III)/	šlm (I); /š-l-m/; šlm (III)	n. m.; vb; adj. m.	peace; to be well; pure	
+157930	šlm	šlm(I)/	šlm (I)	n. m.	peace	
+157930	šlm	šlm[	/š-l-m/	vb G/D	to be well	
+157930	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
 # KTU 2.39 5						
-157931	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-157932	pˤn	pˤn/	pʕn	n. f.	foot	
+157931	l	l(I)	l (I)	prep.	to	
+157932	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 157933	adn	adn(I)/	ảdn (I)	n. m.	lord	
 157934	špš	špš/	špš	n.	sun	
 # KTU 2.39 6						
-157935	adnh	adn(I)/+h(I); adn(I)/+h(II); ad/+nh	ảdn (I), -h (I); ảdn (I), -h (II); ảd, -nh	n. m., pers. pn./morph.; n. m., adv. functor; n. m., →	lord, his /her (hers) / its; lord, to; father,	
+157935	adnh	adn(I)/+h	ảdn (I)	n. m.	lord	
+157935	adnh	ad/+nh	ảd	n. m.	father	
 157936	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m.	servant	
 157937	uk	uk	ủk	positive emph. functor	yes	
-157938	škn	škn[	/š-k-n/	vb	to be placed	
+157938	škn	škn[	/š-k-n/	vb D	to be placed	
 # KTU 2.39 7						
-157939	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+157939	k	+k	-k (I)			
+157939	k	~k	-k (II)			
+157939	k	k(III)	k (III)	Subordinating or completive functor	when	
+157939	k	k(I)	k (I)	prep.	like	
+157939	k	k(II)	k (II)	emph. functor	yes	
 157940	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m.	servant	
 157941	sglth	sglt/+h	sglt	n. f.	treasure	
-157942	hw	hw/	hw	pers. pn.	he	
+157942	hw	hw	hw	pers. pn.	he	
 # KTU 2.39 8						
 157943	w	w	w	conj.	and	
-157944	bˤlh	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+157944	bˤlh	bˤl(II)/h	bʕl (II)	n. m./DN	Baʿlu/Baal	
 157945	uk	uk	ủk	positive emph. functor	yes	
-157946	nġr	nġr[	/n-ġ-r/	vb	to protect	
+157946	nġr	nġr[	/n-ġ-r/	vb G	to protect	
 # KTU 2.39 9						
 157947	w	w	w	conj.	and	
 157948	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f.	arm	
-157949	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+157949	l	l(I)	l (I)	prep.	to	
+157949	l	l(III)	l (III)	functor	certainly	
 157950	adny	adn(I)/	ảdn (I)	n. m.	lord	
-157951	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-157952	yḫsr	!y!ḫsr[	/ḫ-s-r/	vb	to fail	
+157951	l	l(I)	l (I)	prep.	to	
+157951	l	l(II)	l (II)	adv.	no	
+157951	l	l(III)	l (III)	functor	certainly	
+157952	yḫsr	!y!ḫsr[	/ḫ-s-r/	vb G	to fail	
 # KTU 2.39 10						
 157953	w	w	w	conj.	and	
-157954	at	at(I)/	ảt (I)	pers. pn.	you	
-157955	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb	to know	
-157956	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-157957	ydˤt	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb	to know	
+157954	at	at(I)	ảt (I)	pers. pn.	you	
+157955	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+157956	l	l(I)	l (I)	prep.	to	
+157956	l	l(II)	l (II)	adv.	no	
+157956	l	l(III)	l (III)	functor	certainly	
+157957	ydˤt	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
 # KTU 2.39 11						
 157958	ht	ht	ht	adv.	here	
 157959	xxx	?	?	?	?	
-157960	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+157960	l	l(I)	l (I)	prep.	to	
 157961	špš	špš/	špš	n.	sun	
 157962	bˤlk	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 # KTU 2.39 12						
 157963	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m.	servant	
 157964	sglth	sglt/+h	sglt	n. f.	treasure	
-157965	at	at(I)/	ảt (I)	pers. pn.	you	
+157965	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.39 13						
 157966	ht	ht	ht	adv.	here	
 157967	xxx	?	?	?	?	
 157968	špš	špš/	špš	n.	sun	
 157969	bˤlk	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 # KTU 2.39 14						
-157970	ydˤm	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb	to know	
-157971	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-157972	ydˤt	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb	to know	
+157970	ydˤm	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+157971	l	l(I)	l (I)	prep.	to	
+157971	l	l(II)	l (II)	adv.	no	
+157971	l	l(III)	l (III)	functor	certainly	
+157972	ydˤt	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
 # KTU 2.39 15						
 157973	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 157974	špš	špš/	špš	n.	sun	
 157975	bˤlk	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 # KTU 2.39 16						
-157976	šnt	šn(t(I)/t;šn(w[t;šn(t(II)/t	šnt (I); /š-n-w/; šnt (II)	n. f.; vb; n. f.	year; to change: a) reflex.; sleep	
+157976	šnt	šn(t(I)/t	šnt (I)	n. f.	year	
+157976	šnt	šn(w[t	/š-n-w/	vb G	to change: a) reflex.	
+157976	šnt	šn(t(II)/t	šnt (II)	n. f.	sleep	
 157977	šntm	šn(t(I)/tm	šnt (I)	n. f.	year	
 157978	lm	l(I)	l (I)	prep.	to	
-157979	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-157980	tlk	hlk[	/h-l-k/	vb	to go	
+157979	l	l(I)	l (I)	prep.	to	
+157979	l	l(II)	l (II)	adv.	no	
+157979	l	l(III)	l (III)	functor	certainly	
+157980	tlk	hlk[	/h-l-k/	vb G	to go	
 # KTU 2.39 17						
 157981	w	w	w	conj.	and	
-157982	lḥt	lḥ(II)/t=; lḥ(I)/t=	lḥ (II); lḥ (I)	n. m.; n. f.	missive; cheek	
+157982	lḥt	lḥ(II)/t=	lḥ (II)	n. m.	missive	
+157982	lḥt	lḥ(I)/t=	lḥ (I)	n. f.	cheek	
 157983	akl	akl(II)/	ảkl (II)	n. m.	grain	
-157984	ky	k(III); k(II); k(IV)	k (III); k (II); k (IV)	Subordinating or completive functor; emph. functor; adv.	when; yes; thus	
+157984	ky	k(III)	k (III)	Subordinating or completive functor	when	
+157984	ky	k(II)	k (II)	emph. functor	yes	
+157984	ky	k(IV)	k (IV)	adv.	thus	
 # KTU 2.39 18						
-157985	likt	lʔk[	/l-ʔ-k/	vb	to send (a message)	
+157985	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
 157986	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157987	špš	špš/	špš	n.	sun	
 # KTU 2.39 19						
 157988	bˤlk	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-157989	ky	k(III); k(II); k(IV)	k (III); k (II); k (IV)	Subordinating or completive functor; emph. functor; adv.	when; yes; thus	
+157989	ky	k(III)	k (III)	Subordinating or completive functor	when	
+157989	ky	k(II)	k (II)	emph. functor	yes	
+157989	ky	k(IV)	k (IV)	adv.	thus	
 157990	akl	akl(II)/	ảkl (II)	n. m.	grain	
 # KTU 2.39 20						
 157991	b	b	b	prep.	in	
@@ -94,12 +119,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157993	inn	in/	ỉn	n. m.	lack of	
 # KTU 2.39 21						
 157994	špšn	špš/	špš	n.	sun	
-157995	tubd	!t!ʔbd[	/ʔ-b-d/	vb	be missing	
+157995	tubd	!t!ʔbd[	/ʔ-b-d/	vb G	be missing	
 # KTU 2.39 22						
 157996	hm	hm(II)	hm (II)	conj./interr. functor	if	
 157997	alkxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 23						
-157998	ytnt	!y!(ytn[	/y-t-n/	vb	to give	
+157998	ytnt	!y!(ytn[	/y-t-n/	vb G	to give	
 157999	xxx	?	?	?	?	
 # KTU 2.39 24						
 158000	ṯn	ṯn(I)/	ṯn (I)	num.	two	
@@ -119,23 +144,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158008	akl	akl(II)/	ảkl (II)	n. m.	grain	
 158009	yṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 31						
-158010	ib	ib(I)/; ib(II)/	ỉb (I); ỉb (II)	n. m.; n. m./DN	enemy; fruit	
+158010	ib	ib(I)/	ỉb (I)	n. m.	enemy	
+158010	ib	ib(II)/	ỉb (II)	n. m./DN	fruit	
 158011	ˤltn	ˤl(I)+n	ʕl (I)	prep.	upon	
 158012	xk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 32						
 158013	w	w	w	conj.	and	
-158014	spr	spr(II)/; spr[; spr(I)/	spr (II); /s-p-r/; spr (I)	n. m.; vb; n. m.	tablet/register; to count; scribe	
+158014	spr	spr(II)/	spr (II)	n. m.	tablet/register	
+158014	spr	spr[	/s-p-r/	vb G/D	to count	
+158014	spr	spr(I)/	spr (I)	n. m.	scribe	
 158015	inx	?	?	?	?	DULAT: NOT FOUND
 158016	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.39 33						
 158017	sprn	spr(II)/	spr (II)	n. m.	tablet / register	
 158018	ṭhrm	ṭhr/m	ṭhr	adj. m.	pure	
-158019	adm	adm(I)/; ʔdm[; adm(II)/	ảdm (I); /ʔ-d-m/; ảdm (II)	n. m.; vb; adj. m.	man; to be; obtained	
+158019	adm	adm(I)/	ảdm (I)	n. m.	man	
+158019	adm	ʔdm[	/ʔ-d-m/	vb G	to be	
+158019	adm	adm(II)/	ảdm (II)	adj. m.	obtained	
 # KTU 2.39 34						
-158020	aṯr	aṯr(I); ʔṯr[; aṯr(III)	ảṯr (I); /ʔ-ṯ-r/; ảṯr (III)	adv. or prep.; vb; interr. adv.	then; to go; where	
+158020	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
+158020	aṯr	ʔṯr[	/ʔ-ṯ-r/	vb G/D	to go	
+158020	aṯr	aṯr(III)	ảṯr (III)	interr. adv.	where	
 158021	iṯ	iṯ(I)/	ỉṯ (I)	n. m.	presence	
-158022	bqṯ	bqṯ[	/b-q-ṯ/	vb	to search for	
+158022	bqṯ	bqṯ[	/b-q-ṯ/	vb D	to search for	
 # KTU 2.39 35						
 158023	w	w	w	conj.	and	
-158024	štn	št[	/š-t/	vb	to place	
+158024	štn	št[	/š-t/	vb G	to place	
 158025	ly	l(I)+y	l (I)	prep.	to	

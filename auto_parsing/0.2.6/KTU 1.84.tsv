@@ -1,6 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 1						
-150309	t	/t, /t=;[t, [t=, [t==, [t===	;	;	;	
+150309	t	/t, /t=				
+150309	t	[t, [t=, [t==, [t===				
 150310	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
 # KTU 1.84 2						
 150311	w	w	w	conj.	and	
@@ -14,7 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150318	annpdgl	annpdgl/	ảnnpdgl	PN	ảnnpdgl	
 # KTU 1.84 4						
 150319	u	u	ủ	conj.	or	
-150320	šn	šnw[	/š-n-w/	vb	to change: a) reflex.	
+150320	šn	šnw[	/š-n-w/	vb G	to change: a) reflex.	
 150321	ypkn	yp/	yp	n. m.	dignity	
 150322	u	u	ủ	conj.	or	
 150323	lp	?	?	?	?	DULAT: NOT FOUND
@@ -36,50 +37,58 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150338	lp	?	?	?	?	DULAT: NOT FOUND
 150339	ġbr	ġbr/	ġbr	TN	nom propre	
 150340	ul	ul/	ủl	n. m.	(military) force	
-150341	p	p(I); p(III)/; p(II)	p (I); p (III); p (II)	conj. functor; n. m.; adv.	and; mouth; here	
+150341	p	p(I)	p (I)	conj. functor	and	
+150341	p	p(III)/	p (III)	n. m.	mouth	
+150341	p	p(II)	p (II)	adv.	here	
 150342	ḫbtkn	ḫb(I)/t=+kn	ḫbt (I)	n. m.	oppressor	
 # KTU 1.84 6						
 150343	u	u	ủ	conj.	or	
 150344	lp	?	?	?	?	DULAT: NOT FOUND
-150345	mdllkn	mdll+kn	mdll, -kn	→, pers. pn./morph.	, your	
+150345	mdllkn	mdll+kn	mdll	→		
 150346	u	u	ủ	conj.	or	
 150347	lp	?	?	?	?	DULAT: NOT FOUND
 150348	qrzbl	qrzbl/	qrzbl	TN	Fürstenquelle	
 150349	u	u	ủ	conj.	or	
-150350	šn	šnw[	/š-n-w/	vb	to change: a) reflex.	
+150350	šn	šnw[	/š-n-w/	vb G	to change: a) reflex.	
 150351	ypkn	yp/	yp	n. m.	dignity	
 # KTU 1.84 7						
 150352	b	b	b	prep.	in	
-150353	apkn	ap(I)+kn; ap(II)/+kn	ảp (I), -kn; ảp (II), -kn	adv./conj., pers. pn./morph.; n. m., pers. pn./morph.	also, your; nose, your	
+150353	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
+150353	apkn	ap(II)/+kn	ảp (II)	n. m.	nose	
 150354	u	u	ủ	conj.	or	
 150355	bqṣrt	?	?	?	?	DULAT: NOT FOUND
-150356	npškn	npš(I)/+kn; npš(I)/+n(I); npš(I)/+n(II)	npš (I), -kn; npš (I), -n (I); npš (I), -n (II)	n. f., pers. pn./morph.; n. f., morph.; n. f., pers. pn./morph./vb	throat, your; throat, Sun; throat, me	
+150356	npškn	npš(I)/+kn	npš (I)	n. f.	throat	
+150356	npškn	npš(I)/+n	npš (I)	n. f.	throat	
 150357	u	u	ủ	conj.	or	
 150358	bqṭt	?	?	?	?	DULAT: NOT FOUND
-150359	tqṭṭ	!t!qṭ[	/q-ṭ(-ṭ)/	vb	to commit transgression	
+150359	tqṭṭ	!t!qṭ[	/q-ṭ(-ṭ)/	vb L	to commit transgression	
 # KTU 1.84 8						
 150360	u	u	ủ	conj.	or	
-150361	šn	šnw[	/š-n-w/	vb	to change: a) reflex.	
+150361	šn	šnw[	/š-n-w/	vb G	to change: a) reflex.	
 150362	ypknġl	?	?	?	?	DULAT: NOT FOUND
 150363	il	il(I)/	ỉl (I)	n. m.	god	
 150364	tˤḏr	tˤḏr/	tʕḏr	n. m.	help	
 150365	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.84 9						
 150366	xl	?	?	?	?	DULAT: NOT FOUND
-150367	šnt	šn(t(I)/t;šn(w[t;šn(t(II)/t	šnt (I); /š-n-w/; šnt (II)	n. f.; vb; n. f.	year; to change: a) reflex.; sleep	
+150367	šnt	šn(t(I)/t	šnt (I)	n. f.	year	
+150367	šnt	šn(w[t	/š-n-w/	vb G	to change: a) reflex.	
+150367	šnt	šn(t(II)/t	šnt (II)	n. f.	sleep	
 # KTU 1.84 10						
 150368	x	?	?	?	?	
 150369	yp	yp/	yp	n. m.	dignity	
-150370	tḥt	tḥt(I); tḥt(II)	tḥt (I); tḥt (II)	prep.; adv.	under; underneath	
+150370	tḥt	tḥt(I)	tḥt (I)	prep.	under	
+150370	tḥt	tḥt(II)	tḥt (II)	adv.	underneath	
 # KTU 1.84 11						
 150371		?	?	?	?	
 # KTU 1.84 12						
 150372		?	?	?	?	
 150373	w	w	w	conj.	and	
 150374	npy	npy/	npy	n. m.	purification	
-150375	gr	gr(I)/; gr[	gr (I); /g-r(-y)/	n. m.; vb	protected; to attack	
+150375	gr	gr(I)/	gr (I)	n. m.	protected	
+150375	gr	gr[	/g-r(-y)/	vb G	to attack	
 # KTU 1.84 13						
-150376	ḥmyt	ḥm(I)/t=	ḥmt (I)	n. f.	wall	
+150376	ḥmyt	ḥm(t(I)/t=	ḥmt (I)	n. f.	wall	
 150377	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
 150378	w	w	w	conj.	and	
 150379	npy	npy/	npy	n. m.	purification	
@@ -92,11 +101,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 14						
 150386		?	?	?	?	
 150387	u	u	ủ	conj.	or	
-150388	šn	šnw[	/š-n-w/	vb	to change: a) reflex.	
+150388	šn	šnw[	/š-n-w/	vb G	to change: a) reflex.	
 150389	ypkm	yp/	yp	n. m.	dignity	
 150390	u	u	ủ	conj.	or	
 150391	lp	?	?	?	?	DULAT: NOT FOUND
-150392	qty	qt/+y(I); qt/+y(II); ṯigt/+y(I)	qt, -y (I); qt, -y (II); ṯỉgt, -y (I)	n. m., prep.; n. m., postp. functor; n. f., prep.	handle, my; handle, yes; neighing, my	
+150392	qty	qt/+y	qt	n. m.	handle	
+150392	qty	ṯigt/+y	ṯỉgt	n. f.	neighing	
 # KTU 1.84 15						
 150393	u	u	ủ	conj.	or	
 150394	lp	?	?	?	?	DULAT: NOT FOUND
@@ -109,7 +119,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150401	ḫty	ḫty(I)/	ḫty (I)	GN	Hittite	
 150402	u	u	ủ	conj.	or	
 150403	lp	?	?	?	?	DULAT: NOT FOUND
-150404	alty	alt(I)/+y(I); alt(I)/+y(II); alt(II)/+y(I)	ảlt (I), -y (I); ảlt (I), -y (II); ảlt (II), -y (I)	n. f., prep.; n. f., postp. functor; n. f., prep.	curse, my; curse, yes; support, my	
+150404	alty	alt(I)/+y	ảlt (I)	n. f.	curse	
+150404	alty	alt(II)/+y	ảlt (II)	n. f.	support	
 # KTU 1.84 16						
 150405	u	u	ủ	conj.	or	
 150406	lp	?	?	?	?	DULAT: NOT FOUND
@@ -119,9 +130,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150410	ḫbtkm	ḫb(I)/t=+km	ḫbt (I)	n. m.	oppressor	
 150411	u	u	ủ	conj.	or	
 150412	lp	?	?	?	?	DULAT: NOT FOUND
-150413	mdllkm	mdll+km	mdll, -km	→, pers. pn./morph.	, your	
+150413	mdllkm	mdll+km	mdll	→		
 150414	ul	ul/	ủl	n. m.	(military) force	
-150415	p	p(I); p(III)/; p(II)	p (I); p (III); p (II)	conj. functor; n. m.; adv.	and; mouth; here	
+150415	p	p(I)	p (I)	conj. functor	and	
+150415	p	p(III)/	p (III)	n. m.	mouth	
+150415	p	p(II)	p (II)	adv.	here	
 # KTU 1.84 17						
 150416	xr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.84 18						
@@ -129,11 +142,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150418	npy	npy/	npy	n. m.	purification	
 # KTU 1.84 19						
 150419	u	u	ủ	conj.	or	
-150420	šn	šnw[	/š-n-w/	vb	to change: a) reflex.	
+150420	šn	šnw[	/š-n-w/	vb G	to change: a) reflex.	
 150421	ypkm	yp/	yp	n. m.	dignity	
 150422	u	u	ủ	conj.	or	
 150423	lp	?	?	?	?	DULAT: NOT FOUND
-150424	qty	qt/+y(I); qt/+y(II); ṯigt/+y(I)	qt, -y (I); qt, -y (II); ṯỉgt, -y (I)	n. m., prep.; n. m., postp. functor; n. f., prep.	handle, my; handle, yes; neighing, my	
+150424	qty	qt/+y	qt	n. m.	handle	
+150424	qty	ṯigt/+y	ṯỉgt	n. f.	neighing	
 # KTU 1.84 20						
 150425	u	u	ủ	conj.	or	
 150426	lp	?	?	?	?	DULAT: NOT FOUND
@@ -156,16 +170,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150442	ḫbtkm	ḫb(I)/t=+km	ḫbt (I)	n. m.	oppressor	
 150443	u	u	ủ	conj.	or	
 150444	lp	?	?	?	?	DULAT: NOT FOUND
-150445	mdllkm	mdll+km	mdll, -km	→, pers. pn./morph.	, your	
+150445	mdllkm	mdll+km	mdll	→		
 150446	u	u	ủ	conj.	or	
 150447	lp	?	?	?	?	DULAT: NOT FOUND
 150448	qrzbl	qrzbl/	qrzbl	TN	Fürstenquelle	
 # KTU 1.84 22						
 150449	u	u	ủ	conj.	or	
-150450	šn	šnw[	/š-n-w/	vb	to change: a) reflex.	
+150450	šn	šnw[	/š-n-w/	vb G	to change: a) reflex.	
 150451	ypkm	yp/	yp	n. m.	dignity	
 150452	b	b	b	prep.	in	
-150453	apkm	ap(I)+km; ap(II)/+km	ảp (I), -km; ảp (II), -km	adv./conj., pers. pn./morph.; n. m., pers. pn./morph.	also, your; nose, your	
+150453	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
+150453	apkm	ap(II)/+km	ảp (II)	n. m.	nose	
 150454	u	u	ủ	conj.	or	
 150455	bqṣrt	?	?	?	?	DULAT: NOT FOUND
 150456	npškm	npš(I)/+km	npš (I)	n. f.	throat	
@@ -189,34 +204,42 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 30						
 150467	pšmtkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.84 31						
-150468	p	p(I); p(III)/; p(II)	p (I); p (III); p (II)	conj. functor; n. m.; adv.	and; mouth; here	
+150468	p	p(I)	p (I)	conj. functor	and	
+150468	p	p(III)/	p (III)	n. m.	mouth	
+150468	p	p(II)	p (II)	adv.	here	
 150469	yt	yt/	yt	n. m.	?	
 150470	xxx	?	?	?	?	
 # KTU 1.84 32						
-150471	dkm	d+km	d, -km	det. or rel. functor, pers. pn./morph.	the one(s) of, your	
+150471	dkm	d+km	d	det. or rel. functor	the one(s) of	
 # KTU 1.84 33						
 150472		?	?	?	?	
 # KTU 1.84 34						
 150473	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
 # KTU 1.84 35						
 150474	x	?	?	?	?	
-150475	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+150475	l	l(I)	l (I)	prep.	to	
+150475	l	l(III)	l (III)	functor	certainly	
 150476	lim	lim(I)/	lỉm (I)	n. m.	people	
 # KTU 1.84 36						
 150477	xmdx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.84 37						
 150478		?	?	?	?	
 # KTU 1.84 38						
-150479	mšr	mšr(I)/; mšr(II)/	mšr (I); mšr (II)	n. m.; n.	justice; song	
-150480	mšr	mšr(I)/; mšr(II)/	mšr (I); mšr (II)	n. m.; n.	justice; song	
+150479	mšr	mšr(I)/	mšr (I)	n. m.	justice	
+150479	mšr	mšr(II)/	mšr (II)	n.	song	
+150480	mšr	mšr(I)/	mšr (I)	n. m.	justice	
+150480	mšr	mšr(II)/	mšr (II)	n.	song	
 # KTU 1.84 39						
-150481	y	+y, [y; ~y; y	-y (I); -y (II); y	prep. functor	my; indeed; oh!	
+150481	y	+y, [y	-y (I)	prep. functor	my	
+150481	y	~y	-y (II)	prep. functor	indeed	
+150481	y	y	y	prep. functor	oh!	
 # KTU 1.84 40						
 150482	npy	npy/	npy	n. m.	purification	
 150483	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
 # KTU 1.84 41						
 150484	x	?	?	?	?	
-150485	pḫr	pḫr(I)/; pḫr(II)/	pḫr (I); pḫr (II)	n. m.; n. m.	assembly; potter	
+150485	pḫr	pḫr(I)/	pḫr (I)	n. m.	assembly	
+150485	pḫr	pḫr(II)/	pḫr (II)	n. m.	potter	
 # KTU 1.84 42						
 150486		?	?	?	?	
 # KTU 1.84 43						

@@ -1,9 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.134 1						
-154781	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
+154781	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+154781	alp	alp(II)/	ảlp (II)	num.	(one	
 154782	w	w	w	conj.	and	
 # KTU 1.134 2						
-154783	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
+154783	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+154783	alp	alp(II)/	ảlp (II)	num.	(one	
 154784	w	w	w	conj.	and	
 154785	š	š/	š	n. m.	ram	
 154786	šrp	šrp/	šrp	n. m.	burnt sacrifice	
@@ -14,7 +16,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154789	inš	inš/	ỉnš	n. m.	people	
 154790	ilm	il(I)/m	ỉl (I)	n. m.	god	
 # KTU 1.134 5						
-154791	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+154791	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+154791	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+154791	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 # KTU 1.134 6						
 154792	xx	?	?	?	?	
 # KTU 1.134 7						
@@ -22,17 +26,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154794	š	š/	š	n. m.	ram	
 154795		?	?	?	?	
 # KTU 1.134 8						
-154796	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-154797	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
+154796	l	l(I)	l (I)	prep.	to	
+154797	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 154798	ḫlb	ḫlb(I)/	ḫlb (I)	n. m.	massif	
 # KTU 1.134 9						
-154799	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-154800	pdry	pdr(I)/+y(I); pdr(I)/+y(II)	pdr (I), -y (I); pdr (I), -y (II)	n. m., prep.; n. m., postp. functor	town, my; town, yes	
+154799	l	l(I)	l (I)	prep.	to	
+154799	l	l(III)	l (III)	functor	certainly	
+154800	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
 # KTU 1.134 10						
 154801	xš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.134 11						
 154802	š	š/	š	n. m.	ram	
 154803	lḏx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.134 12						
-154804	arṣy	arṣ/+y(I); arṣ/+y(II)	ảrṣ, -y (I); ảrṣ, -y (II)	n. f., prep.; n. f., postp. functor	earth, my; earth, yes	
+154804	arṣy	arṣ/+y	ảrṣ	n. f.	earth	
 154805	npš	npš(I)/	npš (I)	n. f.	throat	

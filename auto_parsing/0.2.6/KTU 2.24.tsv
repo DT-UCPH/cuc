@@ -1,18 +1,19 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.24 1						
-157083	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+157083	l	l(I)	l (I)	prep.	to	
 157084	mlkt	mlk(t/t	mlkt	n. f.	queen	
 # KTU 2.24 2						
 157085	adty	adt/+y	ảdt	n. f.	lady	
-157086	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+157086	rgm	rgm[	/r-g-m/	vb G	to say	
+157086	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.24 3						
 157087	tḥm	tḥm/	tḥm	n. m.	message	
 157088	illḏr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.24 4						
 157089	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m.	servant	
 # KTU 2.24 5						
-157090	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-157091	pˤn	pˤn/	pʕn	n. f.	foot	
+157090	l	l(I)	l (I)	prep.	to	
+157091	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 157092	adty	adt/+y	ảdt	n. f.	lady	
 # KTU 2.24 6						
 157093	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
@@ -20,21 +21,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157095	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.24 7						
 157096	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f.	distance	
-157097	qlt	ql[	/q-l/	vb	to fall (down)	
+157097	qlt	ql[	/q-l/	vb G	to fall (down)	
 # KTU 2.24 8						
 157098	hlny	hlny	hlny	deictic adv. functor	behold	
-157099	ˤmny	ˤm(I)+ny; ˤm(I)+y(I); ˤm(I)+y(II)	ʕm (I), -ny; ʕm (I), -y (I); ʕm (I), -y (II)	prep., suff. pn. morph.; prep., prep.; prep., postp. functor	to, our; to, my; to, yes	
+157099	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
+157099	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.24 9						
 157100	kll	kll/	kll	n. m.	totality	
-157101	šlm	šlm(I)/; šlm[; šlm(III)/	šlm (I); /š-l-m/; šlm (III)	n. m.; vb; adj. m.	peace; to be well; pure	
+157101	šlm	šlm(I)/	šlm (I)	n. m.	peace	
+157101	šlm	šlm[	/š-l-m/	vb G/D	to be well	
+157101	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
 # KTU 2.24 10						
 157102	ṯmny	ṯm	ṯm	adv.	there	
 157103	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157104	adty	adt/+y	ảdt	n. f.	lady	
 # KTU 2.24 11						
-157105	mnm	mnm/	mnm	indef. pn.	any(thing)	
-157106	šlm	šlm(I)/; šlm[; šlm(III)/	šlm (I); /š-l-m/; šlm (III)	n. m.; vb; adj. m.	peace; to be well; pure	
+157105	mnm	mnm	mnm	indef. pn.	any(thing)	
+157106	šlm	šlm(I)/	šlm (I)	n. m.	peace	
+157106	šlm	šlm[	/š-l-m/	vb G/D	to be well	
+157106	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
 # KTU 2.24 12						
-157107	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
-157108	ṯṯb	]š]ṯb[	/ṯ-b/	vb	to return	
+157107	rgm	rgm[	/r-g-m/	vb G	to say	
+157107	rgm	rgm/	rgm	n. m.	word	
+157108	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
 157109	ly	l(I)+y	l (I)	prep.	to	

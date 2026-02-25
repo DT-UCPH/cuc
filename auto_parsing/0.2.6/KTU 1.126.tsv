@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154439		?	?	?	?	
 # KTU 1.126 3						
 154440	xxxršp	?	?	?	?	DULAT: NOT FOUND
-154441	gdlt	gdl(I)/t=	gdlt (I)	n. f.	head of cattle	
+154441	gdlt	gdl(t(I)/t=	gdlt (I)	n. f.	head of cattle	
 # KTU 1.126 4						
 154442	xxxby	?	?	?	?	DULAT: NOT FOUND
 154443	b	b	b	prep.	in	
@@ -14,10 +14,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 5						
 154445	xxxx	?	?	?	?	
 154446	ršp	ršp/	ršp	DN	Rašap	
-154447	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
+154447	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+154447	alp	alp(II)/	ảlp (II)	num.	(one	
 # KTU 1.126 6						
 154448	xxxxmt	?	?	?	?	DULAT: NOT FOUND
-154449	yṣi	!y!(yṣʔ[	/y-ṣ-ʔ/	vb	to go out	
+154449	yṣi	!y!(yṣʔ[	/y-ṣ-ʔ/	vb G	to go out	
 # KTU 1.126 7						
 154450		?	?	?	?	
 # KTU 1.126 8						
@@ -25,9 +26,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 9						
 154452	šx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.126 10						
-154453	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+154453	k	+k	-k (I)			
+154453	k	~k	-k (II)			
+154453	k	k(III)	k (III)	Subordinating or completive functor	when	
+154453	k	k(I)	k (I)	prep.	like	
+154453	k	k(II)	k (II)	emph. functor	yes	
 # KTU 1.126 11						
-154454	ḥ	lqḥ[	/l-q-ḥ/	vb	to get hold of	
+154454	ḥ	lqḥ[	/l-q-ḥ/	vb G/N	to get hold of	
 # KTU 1.126 12						
 154455	b	b	b	prep.	in	
 # KTU 1.126 13						
@@ -45,25 +50,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154463	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.126 18						
 154464	w	w	w	conj.	and	
-154465	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+154465	mlk	mlk[	/m-l-k/	vb G	to reign	
+154465	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 # KTU 1.126 19						
 154466	b	b	b	prep.	in	
 154467	ṯdṯ	ṯdṯ/	ṯdṯ	adj./ord. num.	sixth	
 154468	š	š/	š	n. m.	ram	
 # KTU 1.126 20						
-154469	ˤlyh	ˤly(II)/	ʕly (II)	n. m.	place of sacrifice	
+154469	ˤlyh	ˤly(II)/h	ʕly (II)	n. m.	place of sacrifice	
 154470	x	?	?	?	?	
 # KTU 1.126 21						
-154471	yṯṯb	!y!]š]ṯb[; !y!(y]š]yṯb[	/ṯ-b/; /y-ṯ-b/	vb; vb	to return; to sit down	
+154471	yṯṯb	!y!]š]ṯb[	/ṯ-b/	vb Š	to return	
+154471	yṯṯb	!y!(y]š]yṯb[	/y-ṯ-b/	vb Š	to sit down	
 154472	b	b	b	prep.	in	
 154473	šbˤ	šbˤ(I)/	šbʕ (I)	n. num.	seven	
 # KTU 1.126 22						
-154474	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
+154474	ym	ym(I)/	ym (I)	n. m.	day	
+154474	ym	ym(II)/	ym (II)	n. m.	sea	
 154475	w	w	w	conj.	and	
 154476	yṣ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.126 23						
-154477	tdn	!t!dn[	/d-n/	vb	to judge	
-154478	ˤrb	ˤrb(I)[; ˤrb(I)/	/ʕ-r-b/ (I); ʕrb (I)	vb; n. m.	to enter; entry	
+154477	tdn	!t!dn[	/d-n/	vb G	to judge	
+154478	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G	to enter	
+154478	ˤrb	ˤrb(I)/	ʕrb (I)	n. m.	entry	
 # KTU 1.126 24						
 154479	xtštn	?	?	?	?	DULAT: NOT FOUND
 154480	ḫx	?	?	?	?	DULAT: NOT FOUND

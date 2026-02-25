@@ -1,53 +1,76 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 1						
-161027	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-161028	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
-161029	hnd	hnd/	hnd	dem. adj./pn.	this	
+161027	l	l(I)	l (I)	prep.	to	
+161027	l	l(III)	l (III)	functor	certainly	
+161028	ym	ym(I)/	ym (I)	n. m.	day	
+161028	ym	ym(II)/	ym (II)	n. m.	sea	
+161029	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.5 2						
 161030	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
-161031	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161031	bn	bn(I)/	bn (I)	n. m.	son	
+161031	bn	bn(II)	bn (II)	prep.	between	
+161031	bn	bn[	/b-n/	vb G	to understand	
 # KTU 3.5 3						
 161032	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
-161033	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+161033	mlk	mlk[	/m-l-k/	vb G	to reign	
+161033	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 # KTU 3.5 4						
 161034	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
-161035	ytn	!y!(ytn[	/y-t-n/	vb	to give	
+161035	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
 # KTU 3.5 5						
-161036	šd	šd(I)/; šd(II)/; šdy[	šd (I); šd (II); /š-d-y/	n. m.; n. m.; vb	open field; a strip; to pour	
+161036	šd	šd(I)/	šd (I)	n. m.	open field	
+161036	šd	šd(II)/	šd (II)	n. m.	a strip	
+161036	šd	šdy[	/š-d-y/	vb G	to pour	
 161037	kḏġdl	kḏġdl/	kḏġdl	PN	kḏġdl	
 # KTU 3.5 6						
 161038	uškn	uškn/	ủškn	TN	ủškn	
 161039	d	d	d	det. or rel. functor	the one(s) of	
 161040	b	b	b	prep.	in	
-161041	šdy	šdy(II)/; šdy(I)/	šdy (II); šdy (I)	PN; adj. or n.	šdy (II); land labourer	
+161041	šdy	šdy(II)/	šdy (II)	PN	šdy (II)	
+161041	šdy	šdy(I)/	šdy (I)	adj. or n.	land labourer	
 # KTU 3.5 7						
 161042	bmt	bmt/	bmt	n. f.	back	
-161043	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
+161043	yd	yd(I)/	yd (I)	n. f.	hand	
+161043	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+161043	yd	yd(II)/	yd (II)	n. m.	love	
 161044	gth	g(t/t	gt	n. f./element of TNN	gittu	
 # KTU 3.5 8						
-161045	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
-161046	zth	zt/+h(I); zt/+h(II)	zt, -h (I); zt, -h (II)	n. m., pers. pn./morph.; n. m., adv. functor	olive, his /her (hers) / its; olive, to	
-161047	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
+161045	yd	yd(I)/	yd (I)	n. f.	hand	
+161045	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+161045	yd	yd(II)/	yd (II)	n. m.	love	
+161046	zth	zt/+h	zt	n. m.	olive	
+161047	yd	yd(I)/	yd (I)	n. f.	hand	
+161047	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+161047	yd	yd(II)/	yd (II)	n. m.	love	
 # KTU 3.5 9						
-161048	krmh	krm/+h(I); krm/+h(II); kr/+h(I)	krm, -h (I); krm, -h (II); kr, -h (I)	n. m., pers. pn./morph.; n. m., adv. functor; n. m., pers. pn./morph.	vineyard, his /her (hers) / its; vineyard, to; ram, his /her (hers) / its	
-161049	yd	yd(I)/; bd(IV); yd(II)/	yd (I); bd (IV); yd (II)	n. f.; prep.; n. m.	hand; into the hands of; love	
+161048	krmh	krm/+h	krm	n. m.	vineyard	
+161048	krmh	kr/+h	kr	n. m.	ram	
+161049	yd	yd(I)/	yd (I)	n. f.	hand	
+161049	yd	bd(IV)	bd (IV)	prep.	into the hands of	
+161049	yd	yd(II)/	yd (II)	n. m.	love	
 # KTU 3.5 10						
-161050	klklh	klkl/	klkl	n. m.	anybody	
+161050	klklh	klkl/h	klkl	n. m.	anybody	
 # KTU 3.5 11						
 161051	w	w	w	conj.	and	
-161052	ytn	!y!(ytn[	/y-t-n/	vb	to give	
-161053	nn	grš[; gr[	/g-r-š/; /g-r(-y)/	vb; vb	to eject; to attack	
+161052	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+161053	nn	grš[	/g-r-š/	vb G	to eject	
+161053	nn	gr[	/g-r(-y)/	vb G	to attack	
 # KTU 3.5 12						
-161054	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+161054	l	l(I)	l (I)	prep.	to	
+161054	l	l(III)	l (III)	functor	certainly	
 161055	bˤln	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-161056	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161056	bn	bn(I)/	bn (I)	n. m.	son	
+161056	bn	bn(II)	bn (II)	prep.	between	
+161056	bn	bn[	/b-n/	vb G	to understand	
 # KTU 3.5 13						
 161057	kltn	kltn/	kltn	PN	kltn	
 161058	w	w	w	conj.	and	
-161059	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+161059	l	l(I)	l (I)	prep.	to	
+161059	l	l(III)	l (III)	functor	certainly	
 # KTU 3.5 14						
 161060	bnh	bn(I)/+h	bn (I)	n. m.	son	
-161061	ˤd	ˤd(III)/; ˤd(II)/	ʕd (III); ʕd (II)	n. m.; n. m.	throne; time	
+161061	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
+161061	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
 161062	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
 # KTU 3.5 15						
 161063	šḥr	šḥr/	šḥr	n. m.	dawn	
@@ -55,21 +78,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 16						
 161065	bnš	bnš/	bnš	n. m.	man	
 161066	bnšm	bnš/m	bnš	n. m.	man	
-161067	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-161068	y	+y, [y; ~y; y	-y (I); -y (II); y	prep. functor	my; indeed; oh!	
+161067	l	l(I)	l (I)	prep.	to	
+161067	l	l(III)	l (III)	functor	certainly	
+161068	y	+y, [y	-y (I)	prep. functor	my	
+161068	y	~y	-y (II)	prep. functor	indeed	
+161068	y	y	y	prep. functor	oh!	
 # KTU 3.5 17						
-161069	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-161070	yqḥnn	!y!lqḥ[	/l-q-ḥ/	vb	to get hold of	
+161069	l	l(I)	l (I)	prep.	to	
+161069	l	l(II)	l (II)	adv.	no	
+161069	l	l(III)	l (III)	functor	certainly	
+161070	yqḥnn	!y!lqḥ[	/l-q-ḥ/	vb G	to get hold of	
 161071	bd	b	b	prep.	in	
 # KTU 3.5 18						
 161072	bˤln	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-161073	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161073	bn	bn(I)/	bn (I)	n. m.	son	
+161073	bn	bn(II)	bn (II)	prep.	between	
+161073	bn	bn[	/b-n/	vb G	to understand	
 161074	kltn	kltn/	kltn	PN	kltn	
 # KTU 3.5 19						
 161075	w	w	w	conj.	and	
 161076	bd	b	b	prep.	in	
 161077	bnh	bn(I)/+h	bn (I)	n. m.	son	
-161078	ˤd	ˤd(III)/; ˤd(II)/	ʕd (III); ʕd (II)	n. m.; n. m.	throne; time	
+161078	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
+161078	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
 # KTU 3.5 20						
 161079	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
 161080	w	w	w	conj.	and	
@@ -81,9 +112,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m.	seal	
 # KTU 3.5 23						
 161085	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
-161086	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161086	bn	bn(I)/	bn (I)	n. m.	son	
+161086	bn	bn(II)	bn (II)	prep.	between	
+161086	bn	bn[	/b-n/	vb G	to understand	
 # KTU 3.5 24						
 161087	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
-161088	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+161088	mlk	mlk[	/m-l-k/	vb G	to reign	
+161088	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 # KTU 3.5 25						
 161089	ugrt	ugrt/	ủgrt	TN	ʾugarītu	

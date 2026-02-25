@@ -2,7 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.147 1						
 154983	xx	?	?	?	?	
 # KTU 1.147 2						
-154984	ymy	y(I)/m	ym (I)	n. m.	day	
+154984	ymy	ym(I)&y/	ym (I)	n. m.	day	
 # KTU 1.147 3						
 154985	lr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 4						
@@ -13,30 +13,43 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154988	rxwm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 7						
 154989	x	?	?	?	?	
-154990	bšl	bšl[	/b-š-l/	vb	to cook	
-154991	ybšl	!y!bšl[	/b-š-l/	vb	to cook	
+154990	bšl	bšl[	/b-š-l/	vb D	to cook	
+154991	ybšl	!y!bšl[	/b-š-l/	vb D	to cook	
 # KTU 1.147 8						
-154992	kt	k(t(I)/t;k(t(II)/t	kt (I); kt (II)	n. f.; n. f.	pitcher; stage	
-154993	št	št[;š(t(II)/t;št(I)/	/š-t/; št (II); št (I)	vb; n. f.; n. m.	to place; raíz; base	
+154992	kt	k(t(I)/t	kt (I)	n. f.	pitcher	
+154992	kt	k(t(II)/t	kt (II)	n. f.	stage	
+154993	št	št[	/š-t/	vb G/Gpass	to place	
+154993	št	š(t(II)/t	št (II)	n. f.	raíz	
+154993	št	št(I)/	št (I)	n. m.	base	
 # KTU 1.147 9						
-154994	dk	d+k(I)	d, -k (I)	det. or rel. functor, pers. pn./morph.	the one(s) of, your(s)	
-154995	km	k(III); k(I); k(IV); km; +km, +km=	k (III); k (I); k (IV); km; -km	functor; prep.; adv.; prep./conj./adv.;	when; like; thus;	
+154994	dk	d+k	d	det. or rel. functor	the one(s) of	
+154995	km	k(III)	k (III)	functor	when	
+154995	km	k(I)	k (I)	prep.	like	
+154995	km	k(IV)	k (IV)	adv.	thus	
+154995	km	km	km	prep./conj./adv.		
+154995	km	+km, +km=	-km			
 # KTU 1.147 10						
 154996	x	?	?	?	?	
 154997	srnm	srn/m	srn	n. m.	prince	
 # KTU 1.147 11						
 154998	b	b	b	prep.	in	
-154999	šr	šr(II)/; šr(III)/; šr(IV)/	šr (II); šr (III); šr (IV)	n. m.; n. m.; n. m.	musician; Prince; navel	
+154999	šr	šr(II)/	šr (II)	n. m.	musician	
+154999	šr	šr(III)/	šr (III)	n. m.	Prince	
+154999	šr	šr(IV)/	šr (IV)	n. m.	navel	
 # KTU 1.147 12						
-155000	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-155001	qṣ	qṣ/; qṣ[	qṣ; /q-ṣ(-ṣ)/	n. m.; vb	end; to carve	
+155000	l	l(I)	l (I)	prep.	to	
+155000	l	l(II)	l (II)	adv.	no	
+155000	l	l(III)	l (III)	functor	certainly	
+155001	qṣ	qṣ/	qṣ	n. m.	end	
+155001	qṣ	qṣ[	/q-ṣ(-ṣ)/	vb G	to carve	
 155002	ilm	il(I)/m	ỉl (I)	n. m.	god	
 # KTU 1.147 13						
 155003	lm	l(I)	l (I)	prep.	to	
 155004	tbṣˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 14						
 155005	xm	?	?	?	?	DULAT: NOT FOUND
-155006	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
+155006	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+155006	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.147 15						
 155007	xps	?	?	?	?	DULAT: NOT FOUND
 155008	pˤ	pˤ	pʕ	?	?	
@@ -53,7 +66,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.147 21						
 155014	xtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 22						
-155015	dm	dm(II)/; dm(I)	dm (II); dm (I)	n. m.; functor	blood; since	
+155015	dm	dm(II)/	dm (II)	n. m.	blood	
+155015	dm	dm(I)	dm (I)	functor	since	
 # KTU 1.147 23						
 155016	xnm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 24						

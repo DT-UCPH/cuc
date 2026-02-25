@@ -7,7 +7,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.113 3						
 160736	xyh	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.113 4						
-160737	ty	ˤl(I)+y(I); ˤl(I)+y(II); aḫt(I)/+y(I)	ʕl (I), -y (I); ʕl (I), -y (II); ảḫt (I), -y (I)	prep., prep.; prep., postp. functor; n. f., prep.	upon, my; upon, yes; sister (related by blood), my	
+160737	ty	ˤl(I)+y	ʕl (I)	prep.	upon	
+160737	ty	aḫt(I)/+y	ảḫt (I)	n. f.	sister (related by blood)	
 # KTU 2.113 5						
 160738	xrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.113 6						
@@ -18,7 +19,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160741	xth	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.113 9						
 160742	xx	?	?	?	?	
-160743	hnd	hnd/	hnd	dem. adj./pn.	this	
+160743	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 2.113 10						
 160744	x	?	?	?	?	
 # KTU 2.113 11						

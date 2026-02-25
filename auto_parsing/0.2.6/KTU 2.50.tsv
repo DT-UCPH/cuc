@@ -1,45 +1,54 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 1						
-158449	tġrk	!t!nġr[	/n-ġ-r/	vb	to protect	
-158450	tšlmk	!t!šlm[	/š-l-m/	vb	to be well	
+158449	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
+158450	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
 # KTU 2.50 2						
-158451	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-158452	pˤn	pˤn/	pʕn	n. f.	foot	
-158453	bˤly	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+158451	l	l(I)	l (I)	prep.	to	
+158452	pˤn	pˤn/	pʕn	n. f.	at the feet of	
+158453	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
 158454	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.50 3						
 158455	w	w	w	conj.	and	
 158456	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158457	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f.	distance	
 # KTU 2.50 4						
-158458	qlt	ql[	/q-l/	vb	to fall (down)	
+158458	qlt	ql[	/q-l/	vb G	to fall (down)	
 158459	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
-158460	mnm	mnm/	mnm	indef. pn.	any(thing)	
+158460	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.50 5						
-158461	šlm	šlm(I)/; šlm[; šlm(III)/	šlm (I); /š-l-m/; šlm (III)	n. m.; vb; adj. m.	peace; to be well; pure	
-158462	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
-158463	ṯṯb	]š]ṯb[	/ṯ-b/	vb	to return	
+158461	šlm	šlm(I)/	šlm (I)	n. m.	peace	
+158461	šlm	šlm[	/š-l-m/	vb G/D	to be well	
+158461	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158462	rgm	rgm[	/r-g-m/	vb G	to say	
+158462	rgm	rgm/	rgm	n. m.	word	
+158463	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
 # KTU 2.50 6						
-158464	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+158464	l	l(I)	l (I)	prep.	to	
+158464	l	l(III)	l (III)	functor	certainly	
 158465	xxx	?	?	?	?	
 158466	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m.	servant	
 # KTU 2.50 7						
 158467	ly	l(I)+y	l (I)	prep.	to	
 158468	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.50 8						
-158469	nˤm	nˤm(I)/; nˤm(II)/	nʕm (I); nʕm (II)	adj. m.; n. m.	handsome; grace	
+158469	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
+158469	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
 # KTU 2.50 9						
 158470	xy	?	?	?	?	DULAT: NOT FOUND
 158471	w	w	w	conj.	and	
 158472	lm	l(I)	l (I)	prep.	to	
 # KTU 2.50 10						
-158473	šil	šʔl[; šil(I)/	/š-ʔ-l/; šỉl (I)	vb; n. m.	to ask; interrogator	
-158474	šlm	šlm(I)/; šlm[; šlm(III)/	šlm (I); /š-l-m/; šlm (III)	n. m.; vb; adj. m.	peace; to be well; pure	
+158473	šil	šʔl[	/š-ʔ-l/	vb G	to ask	
+158473	šil	šil(I)/	šỉl (I)	n. m.	interrogator	
+158474	šlm	šlm(I)/	šlm (I)	n. m.	peace	
+158474	šlm	šlm[	/š-l-m/	vb G/D	to be well	
+158474	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
 # KTU 2.50 11						
-158475	ank	ank/	ảnk	pers. pn.	I	
+158475	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 12						
 158476	x	?	?	?	?	
-158477	mly	mly(II)/; mly(I)	mly (II); mly (I)	PN; ?	mly (II); ?	
+158477	mly	mly(II)/	mly (II)	PN	mly (II)	
+158477	mly	mly(I)	mly (I)	?	?	
 # KTU 2.50 13						
 158478	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.50 14						
@@ -52,28 +61,36 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 16						
 158484	x	?	?	?	?	
 158485	w	w	w	conj.	and	
-158486	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+158486	l	l(I)	l (I)	prep.	to	
+158486	l	l(III)	l (III)	functor	certainly	
 158487	štnt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.50 17						
 158488	d	d	d	det. or rel. functor	the one(s) of	
-158489	nˤm	nˤm(I)/; nˤm(II)/	nʕm (I); nʕm (II)	adj. m.; n. m.	handsome; grace	
-158490	lbšk	lbš/+k(I); lbš[+k(I)	lbš, -k (I); /l-b-š/, -k (I)	n. m., pers. pn./morph.; vb, pers. pn./morph.	clothing, your(s); to dress, your(s)	
+158489	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
+158489	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
+158490	lbšk	lbš/+k	lbš	n. m.	clothing	
+158490	lbšk	lbš[+k	/l-b-š/	vb	to dress	
 # KTU 2.50 18						
 158491	x	?	?	?	?	
-158492	dm	dm(II)/; dm(I)	dm (II); dm (I)	n. m.; functor	blood; since	
+158492	dm	dm(II)/	dm (II)	n. m.	blood	
+158492	dm	dm(I)	dm (I)	functor	since	
 158493	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 # KTU 2.50 19						
 158494	x	?	?	?	?	
 158495	m	l(I)	l (I)	prep.	to	
 158496	d	d	d	det. or rel. functor	the one(s) of	
-158497	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-158498	nˤm	nˤm(I)/; nˤm(II)/	nʕm (I); nʕm (II)	adj. m.; n. m.	handsome; grace	
+158497	l	l(I)	l (I)	prep.	to	
+158497	l	l(III)	l (III)	functor	certainly	
+158498	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
+158498	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
 # KTU 2.50 20						
-158499	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-158500	likt	lʔk[	/l-ʔ-k/	vb	to send (a message)	
+158499	l	l(I)	l (I)	prep.	to	
+158499	l	l(II)	l (II)	adv.	no	
+158499	l	l(III)	l (III)	functor	certainly	
+158500	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
 158501	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.50 21						
 158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m.	servant	
-158503	ank	ank/	ảnk	pers. pn.	I	
+158503	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 22						
 158504	xxy	?	?	?	?	DULAT: NOT FOUND

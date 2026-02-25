@@ -14,17 +14,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161918	ypḥ	ypḥ/	ypḥ	n. m.	witness	
 161919	bˤlmšlm	bˤlmšlm/	bʕlmšlm	PN	bʿlmšlm	
 # KTU 3.29 6						
-161920	ṣry	ṣry(II)/; ṣry(I)/	ṣry (II); ṣry (I)	PN; GN	ṣry (II); ṣry (I)	
+161920	ṣry	ṣry(II)/	ṣry (II)	PN	ṣry (II)	
+161920	ṣry	ṣry(I)/	ṣry (I)	GN	ṣry (I)	
 # KTU 3.29 7						
 161921	kd	kd(I)/	kd (I)	n. f.	jar	
 161922	šmn	šmn(I)/	šmn (I)	n. m.	oil	
 # KTU 3.29 8						
 161923	ṯˤt	ṯˤ(t/t	ṯʕt	n. f.	residue	
-161924	ḫsr	ḫsr[; ḫsr/	/ḫ-s-r/; ḫsr	vb; n. m.	to fail; deficit	
+161924	ḫsr	ḫsr[	/ḫ-s-r/	vb G	to fail	
+161924	ḫsr	ḫsr/	ḫsr	n. m.	deficit	
 # KTU 3.29 9						
 161925	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161926	mzt	mzt/	mzt	PN	mzt	
-161927	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161927	bn	bn(I)/	bn (I)	n. m.	son	
+161927	bn	bn(II)	bn (II)	prep.	between	
+161927	bn	bn[	/b-n/	vb G	to understand	
 # KTU 3.29 10						
 161928	ˤṯtry	ˤṯtry/	ʕṯtry	PN	ʿṯtry	
 # KTU 3.29 11						
@@ -32,60 +36,75 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161930	šmn	šmn(I)/	šmn (I)	n. m.	oil	
 # KTU 3.29 12						
 161931	mltḥm	mltḥ/	mltḥ	n. m.	Hälfte	
-161932	ḫsr	ḫsr[; ḫsr/	/ḫ-s-r/; ḫsr	vb; n. m.	to fail; deficit	
+161932	ḫsr	ḫsr[	/ḫ-s-r/	vb G	to fail	
+161932	ḫsr	ḫsr/	ḫsr	n. m.	deficit	
 # KTU 3.29 13						
 161933	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161934	abmn	abmn/	ảbmn	PN	ảbmn	
 # KTU 3.29 14						
-161935	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161935	bn	bn(I)/	bn (I)	n. m.	son	
+161935	bn	bn(II)	bn (II)	prep.	between	
+161935	bn	bn[	/b-n/	vb G	to understand	
 161936	śwn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.29 15						
 161937	arbˤm	arbˤm/	ảrbʕm	n. num.	forty	
 # KTU 3.29 16						
 161938	ḫmšt	ḫmš(I)/	ḫmš (I)	n. num.	five	
-161939	kbd	kbd(II)/; kbd(I)/; kbd[	kbd (II); kbd (I); /k-b-d/	n. m.; n.; vb	total (quantity or price); liver; to honour	
+161939	kbd	kbd(II)/	kbd (II)	n. m.	total (quantity or price)	
+161939	kbd	kbd(I)/	kbd (I)	n.	liver	
+161939	kbd	kbd[	/k-b-d/	vb D	to honour	
 # KTU 3.29 17						
 161940	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161941	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161941	bn	bn(I)/	bn (I)	n. m.	son	
+161941	bn	bn(II)	bn (II)	prep.	between	
+161941	bn	bn[	/b-n/	vb G	to understand	
 161942	kmnt	kmnt/	kmnt	PN	kmnt	
 # KTU 3.29 18						
 161943	ypḥ	ypḥ/	ypḥ	n. m.	witness	
-161944	mtn	mt[	/m-t/	vb	to die	
+161944	mtn	mt[	/m-t/	vb G	to die	
 # KTU 3.29 19						
 161945	ˤšrm	ˤšrm/	ʕšrm	n. num.	twenty	
 161946	ksp	ksp/	ksp	n. m.	silver	
 # KTU 3.29 20						
 161947	w	w	w	conj.	and	
 161948	mit	mi(t/t	mỉt	n. f.	a hundred	
-161949	iqni	iqnu/	ỉqnủ	n. m.	gem of lapis lazuli	
+161949	iqni	iqn(u/&i	ỉqnủ	n. m.	gem of lapis lazuli	
 # KTU 3.29 21						
 161950	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161951	stry	stry/	stry	PN	stry	
 # KTU 3.29 22						
-161952	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161952	bn	bn(I)/	bn (I)	n. m.	son	
+161952	bn	bn(II)	bn (II)	prep.	between	
+161952	bn	bn[	/b-n/	vb G	to understand	
 161953	ktš	ktš/	ktš	PN	ktš	
 # KTU 3.29 23						
-161954	ṯmnym	ṯmn(I)/; ṯmnym/	ṯmn(y) (I); ṯmnym	num.; num.	eight; eighty	
+161954	ṯmnym	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+161954	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 161955	ksp	ksp/	ksp	n. m.	silver	
 # KTU 3.29 24						
 161956	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161957	abbt	abbt/	ảbbt	PN	ảbbt	
 # KTU 3.29 25						
-161958	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
-161959	ġly	ġly[	/ġ-l-y/	vb	to lose the proper aspect	
+161958	bn	bn(I)/	bn (I)	n. m.	son	
+161958	bn	bn(II)	bn (II)	prep.	between	
+161958	bn	bn[	/b-n/	vb G	to understand	
+161959	ġly	ġly[	/ġ-l-y/	vb G	to lose the proper aspect	
 # KTU 3.29 26						
 161960	w	w	w	conj.	and	
 161961	mitm	mi(t/tm	mỉt	n. f.	a hundred	
 161962	iqnu	iqnu/	ỉqnủ	n. m.	gem of lapis lazuli	
 # KTU 3.29 27						
 161963	ypḥ	ypḥ/	ypḥ	n. m.	witness	
-161964	mtn	mt[	/m-t/	vb	to die	
+161964	mtn	mt[	/m-t/	vb G	to die	
 # KTU 3.29 28						
-161965	ḫmšm	ḫmš(I)/m; ḫmšm/	ḫmš (I); ḫmšm	n. num.; n. num.	five; fifty	
+161965	ḫmšm	ḫmš(I)/m	ḫmš (I)	n. num.	five	
+161965	ḫmšm	ḫmšm/	ḫmšm	n. num.	fifty	
 161966	ksp	ksp/	ksp	n. m.	silver	
 161967	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 # KTU 3.29 29						
 161968	šmmn	šmmn/	šmmn	PN	šmmn	
 # KTU 3.29 30						
-161969	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161969	bn	bn(I)/	bn (I)	n. m.	son	
+161969	bn	bn(II)	bn (II)	prep.	between	
+161969	bn	bn[	/b-n/	vb G	to understand	
 161970	aupš	?	?	?	?	DULAT: NOT FOUND

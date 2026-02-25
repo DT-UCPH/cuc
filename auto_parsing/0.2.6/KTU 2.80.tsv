@@ -1,11 +1,13 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.80 1						
-159320	pn	pnm/; pn	pnm; pn	n. m.; functor	face; lest	
+159320	pn	pn(m/	pnm	n. m. pl. tant.	face	
+159320	pn	pn	pn	functor	lest	
 # KTU 2.80 2						
 159321	ṯm	ṯm	ṯm	adv.	there	
 159322		?	?	?	?	
 # KTU 2.80 3						
-159323	tḥt	tḥt(I); tḥt(II)	tḥt (I); tḥt (II)	prep.; adv.	under; underneath	
+159323	tḥt	tḥt(I)	tḥt (I)	prep.	under	
+159323	tḥt	tḥt(II)	tḥt (II)	adv.	underneath	
 159324		?	?	?	?	
 # KTU 2.80 4						
 159325	ḫmš	ḫmš(I)/	ḫmš (I)	n. num.	five	
@@ -23,14 +25,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159333	w	w	w	conj.	and	
 159334	ḫmš	ḫmš(I)/	ḫmš (I)	n. num.	five	
 # KTU 2.80 9						
-159335	at	at(I)/	ảt (I)	pers. pn.	you	
+159335	at	at(I)	ảt (I)	pers. pn.	you	
 159336	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.80 10						
-159337	mġy	mġy[	/m-ġ-y/	vb	to come	
+159337	mġy	mġy[	/m-ġ-y/	vb G	to come	
 159338		?	?	?	?	
 # KTU 2.80 11						
 159339	w	w	w	conj.	and	
-159340	šl	šl[	/š-l(-l)/	vb	to plunder	
+159340	šl	šl[	/š-l(-l)/	vb G	to plunder	
 # KTU 2.80 12						
-159341	nn	grš[; gr[	/g-r-š/; /g-r(-y)/	vb; vb	to eject; to attack	
+159341	nn	grš[	/g-r-š/	vb G	to eject	
+159341	nn	gr[	/g-r(-y)/	vb G	to attack	
 159342	x	?	?	?	?	

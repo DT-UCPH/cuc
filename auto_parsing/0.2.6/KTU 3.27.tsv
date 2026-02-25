@@ -5,12 +5,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161847	bd	b	b	prep.	in	
 # KTU 3.27 3						
 161848	bd	b	b	prep.	in	
-161849	br	br/; br(I)/; br[	br(r); br (I); /b-r(-r)/	n. m.; n. m.; vb	tin; Art Seeschiff; to be or remain pure	
+161849	br	br/	br(r)	n. m.	tin	
+161849	br	br(I)/	br (I)	n. m.	Art Seeschiff	
+161849	br	br[	/b-r(-r)/	vb G	to be or remain pure	
 # KTU 3.27 4						
-161850	ky	k(III); k(II); k(IV)	k (III); k (II); k (IV)	Subordinating or completive functor; emph. functor; adv.	when; yes; thus	
+161850	ky	k(III)	k (III)	Subordinating or completive functor	when	
+161850	ky	k(II)	k (II)	emph. functor	yes	
+161850	ky	k(IV)	k (IV)	adv.	thus	
 161851	bd	b	b	prep.	in	
 # KTU 3.27 5						
-161852	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+161852	bn	bn(I)/	bn (I)	n. m.	son	
+161852	bn	bn(II)	bn (II)	prep.	between	
+161852	bn	bn[	/b-n/	vb G	to understand	
 # KTU 3.27 6						
 161853		?	?	?	?	
 161854	ubdy	ubdy/	ủbdy	n. m.	land	

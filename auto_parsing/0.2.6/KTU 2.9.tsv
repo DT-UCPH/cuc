@@ -1,24 +1,35 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.9 1						
 156534	x	?	?	?	?	
-156535	km	k(III); k(I); k(IV); km; +km, +km=	k (III); k (I); k (IV); km; -km	functor; prep.; adv.; prep./conj./adv.;	when; like; thus;	
-156536	tr	tr[; tr(II)/	/t-r/; tr (II)	vb; n. m.	to scour; turtledove	
+156535	km	k(III)	k (III)	functor	when	
+156535	km	k(I)	k (I)	prep.	like	
+156535	km	k(IV)	k (IV)	adv.	thus	
+156535	km	km	km	prep./conj./adv.		
+156535	km	+km, +km=	-km			
+156536	tr	tr[	/t-r/	vb G	to scour	
+156536	tr	tr(II)/	tr (II)	n. m.	turtledove	
 # KTU 2.9 2						
 156537	špš	špš/	špš	n.	sun	
-156538	ttn	ytn[	/y-t-n/	vb	to give	
+156538	ttn	ytn[	/y-t-n/	vb G	to give	
 156539		?	?	?	?	
 # KTU 2.9 3						
 156540	x	?	?	?	?	
-156541	ydˤt	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb	to know	
-156542	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+156541	ydˤt	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+156542	k	+k	-k (I)			
+156542	k	~k	-k (II)			
+156542	k	k(III)	k (III)	Subordinating or completive functor	when	
+156542	k	k(I)	k (I)	prep.	like	
+156542	k	k(II)	k (II)	emph. functor	yes	
 156543	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 2.9 4						
 156544	x	?	?	?	?	
 156545	w	w	w	conj.	and	
 156546	hm	hm(II)	hm (II)	conj./interr. functor	if	
 # KTU 2.9 5						
-156547	y	+y, [y; ~y; y	-y (I); -y (II); y	prep. functor	my; indeed; oh!	
-156548	ṯby	ṯb[	/ṯ-b/	vb	to return	
+156547	y	+y, [y	-y (I)	prep. functor	my	
+156547	y	~y	-y (II)	prep. functor	indeed	
+156547	y	y	y	prep. functor	oh!	
+156548	ṯby	ṯb[	/ṯ-b/	vb G	to return	
 156549	w	w	w	conj.	and	
 # KTU 2.9 6						
 156550		?	?	?	?	

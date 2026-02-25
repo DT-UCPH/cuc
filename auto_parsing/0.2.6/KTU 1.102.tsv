@@ -1,12 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.102 1						
 152274	il	il(I)/	ỉl (I)	n. m.	god	
-152275	bt	bt(II)/;b(t(I)/t	bt (II); bt (I)	n. m.; n. f.	house; daughter	
+152275	bt	bt(II)/	bt (II)	n. m.	house	
+152275	bt	b(t(I)/t	bt (I)	n. f.	daughter	
 # KTU 1.102 2						
 152276	ušḫry	ušḫry/	ỉ/ủšḫry	DN	ỉ/ủšḫry	
 # KTU 1.102 3						
-152277	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
-152278	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
+152277	ym	ym(I)/	ym (I)	n. m.	day	
+152277	ym	ym(II)/	ym (II)	n. m.	sea	
+152278	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+152278	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.102 4						
 152279	yrḫ	yrḫ/	yrḫ	n. m.	moon	
 # KTU 1.102 5						
@@ -14,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.102 6						
 152281	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN	term for the kings of Ugarit	
 # KTU 1.102 7						
-152282	pdry	pdr(I)/+y(I); pdr(I)/+y(II)	pdr (I), -y (I); pdr (I), -y (II)	n. m., prep.; n. m., postp. functor	town, my; town, yes	
+152282	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
 # KTU 1.102 8						
 152283	dqt	dqt(I)/	dqt (I)	adj. f. or n. f.	small	
 # KTU 1.102 9						
@@ -22,7 +25,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.102 10						
 152285	ršp	ršp/	ršp	DN	Rašap	
 # KTU 1.102 11						
-152286	ˤnt	ˤn(I)/t=;ˤn(t(I)/t;ˤnt(II)	ʕn (I); ʕnt (I); ʕnt (II)	n. f.; DN; adv.	eye; ʿAnatu/Anat; now	
+152286	ˤnt	ˤn(I)/t=	ʕn (I)	n. f.	eye	
+152286	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+152286	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 152287	ḫbly	ḫbly/	ḫbly	adj. f. or n. f.	distrut- trice	
 # KTU 1.102 12						
 152288	špš	špš/	špš	n.	sun	
@@ -32,7 +37,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152291	ḫnqtm	ḫnq(t/tm	ḫnqt	n. f.	strangler	
 # KTU 1.102 14						
 152292	yrḫ	yrḫ/	yrḫ	n. m.	moon	
-152293	kty	kt(I)/+y(I); kt(I)/+y(II); kt(II)/+y(I)	kt (I), -y (I); kt (I), -y (II); kt (II), -y (I)	n. f., prep.; n. f., postp. functor; n. f., prep.	pitcher, my; pitcher, yes; stage, my	
+152293	kty	kt(I)/+y	kt (I)	n. f.	pitcher	
+152293	kty	kt(II)/+y	kt (II)	n. f.	stage	
 # KTU 1.102 15						
 152294	yrgbhd	yrgbhd/	yrgbhd	PN	yrgbhd	
 # KTU 1.102 16						

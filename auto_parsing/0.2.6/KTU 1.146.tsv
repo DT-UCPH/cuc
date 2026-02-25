@@ -1,12 +1,17 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.146 1						
 154963	xlḥ	?	?	?	?	DULAT: NOT FOUND
-154964	ġb	ġb(I)/; ġb(II)	ġb (I); ġb (II)	n. m.; ?	(sacrificial) pit; ?	
+154964	ġb	ġb(I)/	ġb (I)	n. m.	(sacrificial) pit	
+154964	ġb	ġb(II)	ġb (II)	?	?	
 # KTU 1.146 2						
 154965	x	?	?	?	?	
 154966	ḥdṯt	ḥdṯ(I)/	ḥdṯ (I)	adj.	new	
 # KTU 1.146 3						
-154967	km	k(III); k(I); k(IV); km; +km, +km=	k (III); k (I); k (IV); km; -km	functor; prep.; adv.; prep./conj./adv.;	when; like; thus;	
+154967	km	k(III)	k (III)	functor	when	
+154967	km	k(I)	k (I)	prep.	like	
+154967	km	k(IV)	k (IV)	adv.	thus	
+154967	km	km	km	prep./conj./adv.		
+154967	km	+km, +km=	-km			
 154968	kmm	kmm	kmm	adv.	ditto	
 154969	w	w	w	conj.	and	
 154970	bx	?	?	?	?	DULAT: NOT FOUND
@@ -16,13 +21,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154973	xx	?	?	?	?	
 # KTU 1.146 5						
 154974	x	?	?	?	?	
-154975	ṯmm	ṯm; ṯmm[	ṯm; /ṯ-m-m/	adv.; vb	there; to be appalled	
+154975	ṯmm	ṯm	ṯm	adv.	there	
+154975	ṯmm	ṯmm[	/ṯ-m-m/	vb G	to be appalled	
 # KTU 1.146 6						
-154976	tbˤ	!t!bˤ[	/t-b-ʕ/	vb	to go	
+154976	tbˤ	!t!bˤ[	/t-b-ʕ/	vb G	to go	
 154977	mdrˤh	mdrˤ/+h	mdrʕ	n. m.	sown land	
 # KTU 1.146 7						
-154978	h	+h, +h=; ~h	-h (I); -h(II)	suff. pn. morph.; adv. functor	his /her (hers) / its; to, towards	
-154979	hmt	hmt/	hmt	pers. pn.		
+154978	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
+154978	h	~h	-h(II)	adv. functor	to, towards	
+154979	hmt	hmt	hmt	pers. pn.		
 # KTU 1.146 8						
 154980	xb	?	?	?	?	DULAT: NOT FOUND
 154981	špš	špš/	špš	n.	sun	

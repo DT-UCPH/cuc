@@ -1,12 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.168 1						
 155554	id	id	ỉd	conj.	when	
-155555	yph	phy[	/p-h-y/	vb	to see	
-155556	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+155555	yph	phy[	/p-h-y/	vb G	to see	
+155556	mlk	mlk[	/m-l-k/	vb G	to reign	
+155556	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 155557	ršp	ršp/	ršp	DN	Rašap	
 # KTU 1.168 2						
 155558	ḥgb	ḥgb/	ḥgb	n. m.	locust	
-155559	ap	ap(I); ap(II)/	ảp (I); ảp (II)	adv./conj.; n. m.	also; nose	
+155559	ap	ap(I)	ảp (I)	adv./conj.	also	
+155559	ap	ap(II)/	ảp (II)	n. m.	nose	
 155560	w	w	w	conj.	and	
 155561	npš	npš(I)/	npš (I)	n. f.	throat	
 # KTU 1.168 3						
@@ -22,18 +24,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155569	xxššr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.168 6						
 155570	w	w	w	conj.	and	
-155571	šl	šl[	/š-l(-l)/	vb	to plunder	
+155571	šl	šl[	/š-l(-l)/	vb G	to plunder	
 # KTU 1.168 7						
 155572	kstxxxl	?	?	?	?	DULAT: NOT FOUND
 155573	x	?	?	?	?	
 # KTU 1.168 8						
 155574	id	id	ỉd	conj.	when	
-155575	yph	phy[	/p-h-y/	vb	to see	
-155576	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
-155577	ˤnt	ˤn(I)/t=;ˤn(t(I)/t;ˤnt(II)	ʕn (I); ʕnt (I); ʕnt (II)	n. f.; DN; adv.	eye; ʿAnatu/Anat; now	
+155575	yph	phy[	/p-h-y/	vb G	to see	
+155576	mlk	mlk[	/m-l-k/	vb G	to reign	
+155576	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+155577	ˤnt	ˤn(I)/t=	ʕn (I)	n. f.	eye	
+155577	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+155577	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.168 9						
 155578	slḫ	slḫ(I)/	slḫ (I)	n. m.	befeuchtet	
-155579	ap	ap(I); ap(II)/	ảp (I); ảp (II)	adv./conj.; n. m.	also; nose	
+155579	ap	ap(I)	ảp (I)	adv./conj.	also	
+155579	ap	ap(II)/	ảp (II)	n. m.	nose	
 155580	w	w	w	conj.	and	
 155581	npš	npš(I)/	npš (I)	n. f.	throat	
 155582	ksp	ksp/	ksp	n. m.	silver	
@@ -41,16 +47,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155583	w	w	w	conj.	and	
 155584	ḫrṣ	ḫrṣ/	ḫrṣ	n. m.	gold	
 155585	kmm	kmm	kmm	adv.	ditto	
-155586	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
+155586	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+155586	alp	alp(II)/	ảlp (II)	num.	(one	
 # KTU 1.168 11						
 155587	w	w	w	conj.	and	
 155588	š	š/	š	n. m.	ram	
 155589	šrp	šrp/	šrp	n. m.	burnt sacrifice	
-155590	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-155591	ˤnt	ˤn(I)/t=;ˤn(t(I)/t;ˤnt(II)	ʕn (I); ʕnt (I); ʕnt (II)	n. f.; DN; adv.	eye; ʿAnatu/Anat; now	
+155590	l	l(I)	l (I)	prep.	to	
+155590	l	l(III)	l (III)	functor	certainly	
+155591	ˤnt	ˤn(I)/t=	ʕn (I)	n. f.	eye	
+155591	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+155591	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.168 12						
 155592	w	w	w	conj.	and	
-155593	šlmm	šlm(II)/~m; šlm(II)/m	šlm (II); šlm (II)	n. m.; n. m.	communion victim / sacrifice; communion victim / sacrifice	
+155593	šlmm	šlm(II)/~m	šlm (II)	n. m.	communion victim / sacrifice	
+155593	šlmm	šlm(II)/m	šlm (II)	n. m.	communion victim / sacrifice	
 # KTU 1.168 13						
 155594	kmm	kmm	kmm	adv.	ditto	
 155595	š	š/	š	n. m.	ram	
@@ -61,12 +72,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155598	alit	alit/	ảlỉt	DN	the most powerful	
 155599	š	š/	š	n. m.	ram	
 # KTU 1.168 16						
-155600	šp	šp/	šp	n.	dune	
+155600	šp	šp/	šp	n. m.	dune	
 # KTU 1.168 17						
-155601	dm	dm(II)/; dm(I)	dm (II); dm (I)	n. m.; functor	blood; since	
+155601	dm	dm(II)/	dm (II)	n. m.	blood	
+155601	dm	dm(I)	dm (I)	functor	since	
 # KTU 1.168 18						
 155602		?	?	?	?	
-155603	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+155603	k	+k	-k (I)			
+155603	k	~k	-k (II)			
+155603	k	k(III)	k (III)	Subordinating or completive functor	when	
+155603	k	k(I)	k (I)	prep.	like	
+155603	k	k(II)	k (II)	emph. functor	yes	
 # KTU 1.168 19						
 155604	qb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.168 20						

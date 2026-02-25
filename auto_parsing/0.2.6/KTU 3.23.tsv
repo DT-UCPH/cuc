@@ -60,7 +60,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161781	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 161782	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 3.23 19						
-161783	kbd	kbd(II)/; kbd(I)/; kbd[	kbd (II); kbd (I); /k-b-d/	n. m.; n.; vb	total (quantity or price); liver; to honour	
+161783	kbd	kbd(II)/	kbd (II)	n. m.	total (quantity or price)	
+161783	kbd	kbd(I)/	kbd (I)	n.	liver	
+161783	kbd	kbd[	/k-b-d/	vb D	to honour	
 161784	ksp	ksp/	ksp	n. m.	silver	
 # KTU 3.23 20						
 161785	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -73,5 +75,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161790	ypḥ	ypḥ/	ypḥ	n. m.	witness	
 161791	mˤnt	mˤnt(I)/	mʕnt (I)	n. f.	?	
 # KTU 3.23 23						
-161792	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
-161793	lbn	lbn(I)/; lbn(II)/	lbn (I); lbn (II)	adj. m.; PN	white; lbn (II)	
+161792	bn	bn(I)/	bn (I)	n. m.	son	
+161792	bn	bn(II)	bn (II)	prep.	between	
+161792	bn	bn[	/b-n/	vb G	to understand	
+161793	lbn	lbn(I)/	lbn (I)	adj. m.	white	
+161793	lbn	lbn(II)/	lbn (II)	PN	lbn (II)	

@@ -8,8 +8,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149456	krs	krs	krs			
 149457	x	?	?	?	?	
 # KTU 1.67 4						
-149458	an	an(I)/; an(II)	ản (I); ản (II)	pers. pn.; adv.	I; wherever	
-149459	mnmnm	mnmn/+m(I); mnmn/+m(II)	mnmn, -m (I); mnmn, -m (II)	indef. pers. pn./element of DN, morph.; indef. pers. pn./element of DN, emph. or det. encl. morph.	anyone, ; anyone, und das (ist) so!	
+149458	an	an(I)	ản (I)	pers. pn.	I	
+149458	an	an(II)	ản (II)	adv.	wherever	
+149459	mnmnm	mnmn/+m(I)	mnmn	indef. pers. pn./element of DN	anyone	
+149459	mnmnm	mnmn/+m(II)	mnmn	indef. pers. pn./element of DN	anyone	
 149460	a	?	?	?	?	
 # KTU 1.67 5						
 149461	w	w	w	conj.	and	
@@ -18,8 +20,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149464		?	?	?	?	
 # KTU 1.67 6						
 149465	ilt	il(t(I)/t	ỉlt (I)	n. f.	goddess	
-149466	blt	bl(I); blt[; bly[t	bl (I); /b-l-t/; /b-l-y/	adv. or emph. functor; vb; vb	no; to open wide; to devour	
-149467	blt	bl(I); blt[; bly[t	bl (I); /b-l-t/; /b-l-y/	adv. or emph. functor; vb; vb	no; to open wide; to devour	
+149466	blt	bl(I)	bl (I)	adv. or emph. functor	no	
+149466	blt	blt[	/b-l-t/	vb G	to open wide	
+149466	blt	bly[t	/b-l-y/	vb G	to devour	
+149467	blt	bl(I)	bl (I)	adv. or emph. functor	no	
+149467	blt	blt[	/b-l-t/	vb G	to open wide	
+149467	blt	bly[t	/b-l-y/	vb G	to devour	
 149468	ṯp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 7						
 149469	a	?	?	?	?	
@@ -31,10 +37,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149474	ṯpt	?	?	?	?	DULAT: NOT FOUND
 149475	in	in/	ỉn	n. m.	lack of	
 149476	in	in/	ỉn	n. m.	lack of	
-149477	kly	kly[	/k-l-y/	vb	to finish	
+149477	kly	kly[	/k-l-y/	vb G	to finish	
 # KTU 1.67 9						
-149478	rty	rt/+y(I); rt/+y(II)	rt, -y (I); rt, -y (II)	PN, prep.; PN, postp. functor	rt, my; rt, yes	
-149479	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
+149478	rty	rt/+y	rt	PN	rt	
+149479	ym	ym(I)/	ym (I)	n. m.	day	
+149479	ym	ym(II)/	ym (II)	n. m.	sea	
 149480	ulxxṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 10						
 149481	yṯ	?	?	?	?	DULAT: NOT FOUND
@@ -49,22 +56,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149486	dxmˤx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 15						
 149487	ištr	?	?	?	?	DULAT: NOT FOUND
-149488	blt	bl(I); blt[; bly[t	bl (I); /b-l-t/; /b-l-y/	adv. or emph. functor; vb; vb	no; to open wide; to devour	
+149488	blt	bl(I)	bl (I)	adv. or emph. functor	no	
+149488	blt	blt[	/b-l-t/	vb G	to open wide	
+149488	blt	bly[t	/b-l-y/	vb G	to devour	
 149489	in	in/	ỉn	n. m.	lack of	
 # KTU 1.67 16						
 149490	bltnrḫ	?	?	?	?	DULAT: NOT FOUND
 149491	uṯp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 17						
-149492	pṯtn	pṯt(I)/+n(I); pṯt(I)/+n(II); pṯt(I)/+n(III)	pṯt (I), -n (I); pṯt (I), -n (II); pṯt (I), -n (III)	n. m., morph.; n. m., pers. pn./morph./vb; n. m., pers. pn./morph.	linen, Sun; linen, me; linen, our	
+149492	pṯtn	pṯt(I)/+n	pṯt (I)	n. m.	linen	
 149493	hd	hd/	hd(d)	DN	Haddu/Hadad	
-149494	ṯb	ṯb[	/ṯ-b/	vb	to return	
+149494	ṯb	ṯb[	/ṯ-b/	vb G	to return	
 # KTU 1.67 18						
 149495	bltnklm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 19						
 149496	ltlkn	?	?	?	?	DULAT: NOT FOUND
 149497	lwt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 20						
-149498	wm	w+m(I); w+m(II)	w, -m (I); w, -m (II)	conj., morph.; conj., emph. or det. encl. morph.	and, ; and, und das (ist) so!	
+149498	wm	w+m(I)	w	conj.	and	
+149498	wm	w+m(II)	w	conj.	and	
 149499	mˤnh	mˤn/+h	mʕn	n. m.	reply	
 149500	aḏmr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 21						
@@ -74,6 +84,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.67 22						
 149504	u	u	ủ	conj.	or	
 149505	nṯt	?	?	?	?	DULAT: NOT FOUND
-149506	bl	bl(I); bl(II); bl(III)/	bl (I); bl (II); bl (III)	adv. or emph. functor; prep.; n. m.	no; without; blended beer	
+149506	bl	bl(I)	bl (I)	adv. or emph. functor	no	
+149506	bl	bl(II)	bl (II)	prep.	without	
+149506	bl	bl(III)/	bl (III)	n. m.	blended beer	
 # KTU 1.67 23						
 149507	pdnx	?	?	?	?	DULAT: NOT FOUND

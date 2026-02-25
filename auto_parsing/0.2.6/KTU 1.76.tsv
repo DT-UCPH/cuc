@@ -8,29 +8,36 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.76 4						
 149868	arbˤm	arbˤm/	ảrbʕm	n. num.	forty	
 # KTU 1.76 5						
-149869	tšˤm	tšˤ/m; tšˤ/m	tšʕ; tšʕm	n. num.; n. num.	nine; ninety	
+149869	tšˤm	tšˤ/m	tšʕ	n. num.	nine	
+149869	tšˤm	tšˤ/m	tšʕm	n. num.	ninety	
 # KTU 1.76 6						
-149870	tšˤm	tšˤ/m; tšˤ/m	tšʕ; tšʕm	n. num.; n. num.	nine; ninety	
+149870	tšˤm	tšˤ/m	tšʕ	n. num.	nine	
+149870	tšˤm	tšˤ/m	tšʕm	n. num.	ninety	
 # KTU 1.76 7						
 149871	xy	?	?	?	?	DULAT: NOT FOUND
 149872	arbˤm	arbˤm/	ảrbʕm	n. num.	forty	
 # KTU 1.76 8						
-149873	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+149873	l	l(I)	l (I)	prep.	to	
 149874	špš	špš/	špš	n.	sun	
-149875	ṯmnym	ṯmn(I)/; ṯmnym/	ṯmn(y) (I); ṯmnym	num.; num.	eight; eighty	
+149875	ṯmnym	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+149875	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 # KTU 1.76 9						
-149876	dbrh	dbr(II)/+h(I); dbr(II)/+h(II)	dbr (II), -h (I); dbr (II), -h (II)	n. m., pers. pn./morph.; n. m., adv. functor	plague, his /her (hers) / its; plague, to	
+149876	dbrh	dbr(II)/+h	dbr (II)	n. m.	plague	
 149877	lšpš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.76 10						
-149878	dbrh	dbr(II)/+h(I); dbr(II)/+h(II)	dbr (II), -h (I); dbr (II), -h (II)	n. m., pers. pn./morph.; n. m., adv. functor	plague, his /her (hers) / its; plague, to	
+149878	dbrh	dbr(II)/+h	dbr (II)	n. m.	plague	
 149879	lšpš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.76 11						
-149880	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+149880	l	l(I)	l (I)	prep.	to	
+149880	l	l(III)	l (III)	functor	certainly	
 149881	npṭry	npṭry/	npṭry	PN	The most beautiful	
-149882	ṯmnym	ṯmn(I)/; ṯmnym/	ṯmn(y) (I); ṯmnym	num.; num.	eight; eighty	
+149882	ṯmnym	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+149882	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 # KTU 1.76 12						
-149883	t	/t, /t=;[t, [t=, [t==, [t===	;	;	;	
-149884	urm	ur/+m(I); ur/+m(II)	ủr, -m (I); ủr, -m (II)	n. m., morph.; n. m., emph. or det. encl. morph.	warmth, ; warmth, und das (ist) so!	
+149883	t	/t, /t=				
+149883	t	[t, [t=, [t==, [t===				
+149884	urm	ur/+m(I)	ủr	n. m.	warmth	
+149884	urm	ur/+m(II)	ủr	n. m.	warmth	
 149885	x	?	?	?	?	
 # KTU 1.76 13						
 149886	x	?	?	?	?	

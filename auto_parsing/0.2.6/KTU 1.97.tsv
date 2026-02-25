@@ -1,41 +1,55 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.97 1						
 151625	w	w	w	conj.	and	
-151626	yṣq	!y!(yṣq[	/y-ṣ-q/	vb	to pour (out)	
+151626	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
 151627	b	b	b	prep.	in	
-151628	aph	ap(I)+h(I); ap(I)+h(II); ap(II)/+h(I)	ảp (I), -h (I); ảp (I), -h (II); ảp (II), -h (I)	adv./conj., pers. pn./morph.; adv./conj., adv. functor; n. m., pers. pn./morph.	also, his /her (hers) / its; also, to; nose, his /her (hers) / its	
+151628	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+151628	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.97 2						
-151629	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
-151630	yiḫd	!y!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb	to collect	
+151629	k	k(III)	k (III)	Subordinating or completive functor	when	
+151630	yiḫd	!y!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
 151631	akl	akl(II)/	ảkl (II)	n. m.	grain	
 151632	śśw	ss/	s:śs	n.	horse	
 151633	xxxxx	?	?	?	?	
 # KTU 1.97 3						
 151634	w	w	w	conj.	and	
-151635	št	št[;š(t(II)/t;št(I)/	/š-t/; št (II); št (I)	vb; n. f.; n. m.	to place; raíz; base	
+151635	št	št[	/š-t/	vb G/Gpass	to place	
+151635	št	š(t(II)/t	št (II)	n. f.	raíz	
+151635	št	št(I)/	št (I)	n. m.	base	
 151636	mkšr	mkšr/	mkšr	n. m.	semolina	
-151637	grn	grn(I)/; grn(II)/	grn (I); grn (II)	n. m.; adj. m.	threshing-floor; current	
+151637	grn	grn(I)/	grn (I)	n. m.	threshing-floor	
+151637	grn	grn(II)/	grn (II)	adj. m.	current	
 151638	xxx	?	?	?	?	
 # KTU 1.97 4						
 151639	arġn	?	?	?	?	DULAT: NOT FOUND
-151640	ḥmr	ḥmr(I)/; ḥmr(II)/	ḥmr (I); ḥmr (II)	n. m.; adj.	donkey; red	
-151641	tdk	ndd[+k(I); nd[+k(I); ydy(II)[+k(I)	/n-d-d/, -k (I); /n-d(-y)/, -k (I); /y-d-y/ (II), -k (I)	vb, pers. pn./morph.; vb, pers. pn./morph.; vb, pers. pn./morph.	to go, your(s); to throw, your(s); to rip, your(s)	
+151640	ḥmr	ḥmr(I)/	ḥmr (I)	n. m.	donkey	
+151640	ḥmr	ḥmr(II)/	ḥmr (II)	adj.	red	
+151641	tdk	ndd[+k	/n-d-d/	vb	to go	
+151641	tdk	nd[+k	/n-d(-y)/	vb	to throw	
+151641	tdk	ydy(II)[+k	/y-d-y/ (II)	vb	to rip	
 151642	xxxx	?	?	?	?	
 # KTU 1.97 5						
 151643	w	w	w	conj.	and	
-151644	yṣq	!y!(yṣq[	/y-ṣ-q/	vb	to pour (out)	
+151644	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
 151645	b	b	b	prep.	in	
-151646	aph	ap(I)+h(I); ap(I)+h(II); ap(II)/+h(I)	ảp (I), -h (I); ảp (I), -h (II); ảp (II), -h (I)	adv./conj., pers. pn./morph.; adv./conj., adv. functor; n. m., pers. pn./morph.	also, his /her (hers) / its; also, to; nose, his /her (hers) / its	
+151646	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+151646	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.97 6						
-151647	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
-151648	yraš	!y!rʔš[	/r-ʔ-š/	vb	to toss the head	
+151647	k	k(III)	k (III)	Subordinating or completive functor	when	
+151648	yraš	!y!rʔš[	/r-ʔ-š/	vb G	to toss the head	
 151649	śśw	ss/	s:śs	n.	horse	
 151650	xxxxxxx	?	?	?	?	
 # KTU 1.97 7						
-151651	ydk	yd(I)/+k; yd(I)/+k=; yd(II)/+k; yd(II)/+k=; !y!dk[; !y=!dk[	yd (I), -k (I); yd (I), -k (I); yd (II), -k (I); yd (II), -k (I); d-k(-k)/; d-k(-k)/	n. f., pers. pn.; n. f., pers. pn.; n. m., pers. pn.; n. m., pers. pn.; vb; vb	hand, your(s); hand, your(s); love, your(s); love, your(s); to be pounded; to be pounded	
-151652	yṣq	!y!(yṣq[	/y-ṣ-q/	vb	to pour (out)	
+151651	ydk	yd(I)/+k	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
+151651	ydk	yd(I)/+k=	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
+151651	ydk	yd(II)/+k	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
+151651	ydk	yd(II)/+k=	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
+151651	ydk	!y!dk[	d-k(-k)/	vb Gpass	to be pounded	
+151651	ydk	!y=!dk[	d-k(-k)/	vb Gpass	to be pounded	
+151652	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
 151653	b	b	b	prep.	in	
-151654	aph	ap(I)+h(I); ap(I)+h(II); ap(II)/+h(I)	ảp (I), -h (I); ảp (I), -h (II); ảp (II), -h (I)	adv./conj., pers. pn./morph.; adv./conj., adv. functor; n. m., pers. pn./morph.	also, his /her (hers) / its; also, to; nose, his /her (hers) / its	
+151654	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+151654	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.97 8						
 151655	xxxkṣ	?	?	?	?	DULAT: NOT FOUND
 151656	śśw	ss/	s:śs	n.	horse	
@@ -46,35 +60,41 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.97 10						
 151660	xx	?	?	?	?	
 # KTU 1.97 11						
-151661	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
-151662	ygˤr	!y!gˤr[	/g-ʕ-r/	vb	to reproach	
+151661	k	k(III)	k (III)	Subordinating or completive functor	when	
+151662	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G	to reproach	
 151663	śśw	ss/	s:śs	n.	horse	
 # KTU 1.97 12						
-151664	pr	pr(II)/; pr(I)/	pr (II); pr (I)	n. m.; n. m.	young bull; fruit	
+151664	pr	pr(II)/	pr (II)	n. m.	young bull	
+151664	pr	pr(I)/	pr (I)	n. m.	fruit	
 151665	ˤṯrb	ˤṯrb/	ʕṯrb	n. m.	arbrisseau semblable au grenadier	
-151666	drˤ	d/; drˤ[	d; /d-r-ʕ/	n.; vb	seed; to sow	
+151666	drˤ	d/	d	n.	seed	
+151666	drˤ	drˤ[	/d-r-ʕ/	vb G	to sow	
 151667	xxxxxx	?	?	?	?	
 # KTU 1.97 13						
 151668	w	w	w	conj.	and	
 151669	tmṯl	tmṯl/	tmṯl	n. m.	equal amount	
-151670	ld	yld[	/y-l-d/	vb	to give birth (to)	
+151670	ld	yld[	/y-l-d/	vb G	to give birth (to)	
 151671	xxxxxxxxxx	?	?	?	?	
 # KTU 1.97 14						
 151672	mġmġ	mġmġ/	mġmġ	n. m.		
 151673	w	w	w	conj.	and	
-151674	št	št[;š(t(II)/t;št(I)/	/š-t/; št (II); št (I)	vb; n. f.; n. m.	to place; raíz; base	
-151675	nni	nnu(I)/	nnủ (I)	n. m.	Ammi	
+151674	št	št[	/š-t/	vb G/Gpass	to place	
+151674	št	š(t(II)/t	št (II)	n. f.	raíz	
+151674	št	št(I)/	št (I)	n. m.	base	
+151675	nni	nn(u(I)/&i	nnủ (I)	n. m.	Ammi	
 151676	xxxxxxxx	?	?	?	?	
 # KTU 1.97 15						
 151677	ˤqrb	ˤqrb/	ʕqrb	n. f.	scorpion	
 151678	w	w	w	conj.	and	
 151679	mġmġ	mġmġ/	mġmġ	n. m.		
-151680	pr	pr(II)/; pr(I)/	pr (II); pr (I)	n. m.; n. m.	young bull; fruit	
+151680	pr	pr(II)/	pr (II)	n. m.	young bull	
+151680	pr	pr(I)/	pr (I)	n. m.	fruit	
 151681	xxxxxx	?	?	?	?	
 # KTU 1.97 16						
 151682	xxx	?	?	?	?	
 151683	arġn	?	?	?	?	DULAT: NOT FOUND
-151684	ḥmr	ḥmr(I)/; ḥmr(II)/	ḥmr (I); ḥmr (II)	n. m.; adj.	donkey; red	
+151684	ḥmr	ḥmr(I)/	ḥmr (I)	n. m.	donkey	
+151684	ḥmr	ḥmr(II)/	ḥmr (II)	adj.	red	
 151685	xxxxxxxx	?	?	?	?	
 # KTU 1.97 17						
 151686	x	?	?	?	?	

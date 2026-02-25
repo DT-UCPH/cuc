@@ -1,23 +1,38 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 1						
-152181	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
-152182	yṯb	!y!(yṯb[	/y-ṯ-b/	vb	to sit down	
-152183	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+152181	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+152181	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+152182	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G	to sit down	
+152183	k	+k	-k (I)			
+152183	k	~k	-k (II)			
+152183	k	k(III)	k (III)	Subordinating or completive functor	when	
+152183	k	k(I)	k (I)	prep.	like	
+152183	k	k(II)	k (II)	emph. functor	yes	
 152184	ṯbt	ṯb(t/t	ṯbt	n. f.	seat	
-152185	ġr	ġr(I)/; ġr(III)/	ġr (I); ġr (III)	n. m.; n. m.	mountain; skin	
+152185	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
+152185	ġr	ġr(III)/	ġr (III)	n. m.	skin	
 152186	hd	hd/	hd(d)	DN	Haddu/Hadad	
-152187	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+152187	k	+k	-k (I)			
+152187	k	~k	-k (II)			
+152187	k	k(III)	k (III)	Subordinating or completive functor	when	
+152187	k	k(I)	k (I)	prep.	like	
+152187	k	k(II)	k (II)	emph. functor	yes	
 # KTU 1.101 2						
-152188	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+152188	k	+k	-k (I)			
+152188	k	~k	-k (II)			
+152188	k	k(III)	k (III)	Subordinating or completive functor	when	
+152188	k	k(I)	k (I)	prep.	like	
+152188	k	k(II)	k (II)	emph. functor	yes	
 152189	mdb	mdb/	mdb	n. m.	tide	
 152190	b	b	b	prep.	in	
 152191	tk	tk/	tk	n. m.	centre	
-152192	ġrh	ġr(I)/	ġr (I)	n. m.	mountain	
+152192	ġrh	ġr(I)/h	ġr (I)	n. m.	mountain	
 152193	il	il(I)/	ỉl (I)	n. m.	god	
 152194	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 152195	bġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.101 3						
-152196	ġr	ġr(I)/; ġr(III)/	ġr (I); ġr (III)	n. m.; n. m.	mountain; skin	
+152196	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
+152196	ġr	ġr(III)/	ġr (III)	n. m.	skin	
 152197	tliyt	tliy(t/t	tlỉyt	n. f.	triumph	
 152198	šbˤt	šbˤ(I)/	šbʕ (I)	n. num.	seven	
 152199	brqm	brq(I)/m	brq (I)	n. m.	ray	
@@ -25,16 +40,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 4						
 152201	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 152202	iṣr	iṣr/	ỉṣr	n. m.	?	
-152203	rˤt	rˤ/t=	rʕt	n. f.	thunder	
+152203	rˤt	rˤ(t/t=	rʕt	n. f.	thunder	
 152204	ˤṣ	ˤṣ/	ʕṣ	n. m.	tree	
 152205	brq	brq(I)/	brq (I)	n. m.	ray	
-152206	yry	!y!(yry[+y(I); !y!(yry[+y(II); yr/+y(I)	/y-r-y/, -y (I); /y-r-y/, -y (II); yr, -y (I)	vb, prep.; vb, postp. functor; n. m., prep.	to fire, my; to fire, yes; early rain, my	
+152206	yry	!y!(yry[+y	/y-r-y/	vb	to fire	
+152206	yry	yr/+y	yr	n. m.	early rain	
 # KTU 1.101 5						
-152207	rišh	riš(I)/	rỉš (I)	n. m.	head	
-152208	tply	!t!ply[	/p-l-y/	vb	to distinguish	
-152209	ṭly	ṭl/+y(I); ṭl/+y(II)	ṭl, -y (I); ṭl, -y (II)	n. m., prep.; n. m., postp. functor	dew, my; dew, yes	
-152210	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
-152211	ˤnh	ˤn(I)/	ʕn (I)	n. f.	eye	
+152207	rišh	riš(I)/h	rỉš (I)	n. m.	head	
+152208	tply	!t!ply[	/p-l-y/	vb G	to distinguish	
+152209	ṭly	ṭl/+y	ṭl	n. m.	dew	
+152210	bn	bn(I)/	bn (I)	n. m.	son	
+152210	bn	bn(II)	bn (II)	prep.	between	
+152210	bn	bn[	/b-n/	vb G	to understand	
+152211	ˤnh	ˤn(I)/h	ʕn (I)	n. f.	eye	
 # KTU 1.101 6						
 152212	uzˤrt	uzˤr(t/t	ủzʕrt	adj. f.	the smallest	
 152213	tmll	?	?	?	?	DULAT: NOT FOUND
@@ -43,14 +61,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 7						
 152216	dt	d	d	det. or rel. functor	the one(s) of	
 152217	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
-152218	rišh	riš(I)/	rỉš (I)	n. m.	head	
+152218	rišh	riš(I)/h	rỉš (I)	n. m.	head	
 152219	b	b	b	prep.	in	
 152220	glṯ	glṯ/	glṯ	n. m.	storm	
 152221	b	b	b	prep.	in	
-152222	šmm	šm(I)/m	šmm (I)	n. m.	heavens	
+152222	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
 # KTU 1.101 8						
 152223	yšil	?	?	?	?	DULAT: NOT FOUND
-152224	ṯrm	ṯr(I)/m; ṯrm[	ṯr (I); /ṯ-r-m/	n. m.; vb	bull; to break	
+152224	ṯrm	ṯr(I)/m	ṯr (I)	n. m.	bull	
+152224	ṯrm	ṯrm[	/ṯ-r-m/	vb G	to break	
 152225	iṯ	iṯ(I)/	ỉṯ (I)	n. m.	presence	
 152226	ph	p(III)/+h	p (III)	n. m.	mouth	
 152227	kṯt	kṯ(I)/t=	kṯ (I)	n. f.	flask	
@@ -59,7 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 9						
 152230	xxxtmkyn	?	?	?	?	DULAT: NOT FOUND
 152231	ddm	dd(II)/	dd (II)	n. m.	cauldronful	
-152232	lbh	lb/+h(I); lb/+h(II)	lb, -h (I); lb, -h (II)	n. m., pers. pn./morph.; n. m., adv. functor	heart, his /her (hers) / its; heart, to	
+152232	lbh	lb/+h	lb	n. m.	heart	
 152233	xxxx	?	?	?	?	
 # KTU 1.101 10						
 152234	xxxxxxxxš	?	?	?	?	DULAT: NOT FOUND
@@ -82,12 +101,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152247	nblxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.101 15						
 152248	xx	?	?	?	?	
-152249	yṣq	!y!(yṣq[	/y-ṣ-q/	vb	to pour (out)	
+152249	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
 152250	šmn	šmn(I)/	šmn (I)	n. m.	oil	
-152251	šlm	šlm(I)/; šlm[; šlm(III)/	šlm (I); /š-l-m/; šlm (III)	n. m.; vb; adj. m.	peace; to be well; pure	
+152251	šlm	šlm(I)/	šlm (I)	n. m.	peace	
+152251	šlm	šlm[	/š-l-m/	vb G/D	to be well	
+152251	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
 152252	b	b	b	prep.	in	
 152253	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m.	plate / wide bowl / platter	
-152254	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb	to wash	
+152254	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	
 # KTU 1.101 16						
 152255	ydh	yd(I)/+h	yd (I)	n. f.	hand	
 152256	btlt	btl(t/t	btlt	n. f.	virgin	
@@ -95,17 +116,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152258	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f.	finger	
 152259	ybmt	ybm(t/t	ybmt	n. f.	widow sister-in-law	
 # KTU 1.101 17						
-152260	limm	li(I)/m	lỉm (I)	n. m.	people	
-152261	tiḫd	!t!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb	to collect	
+152260	limm	lim(I)/m	lỉm (I)	n. m.	people	
+152261	tiḫd	!t!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G	to collect	
 152262	knrh	knr/+h	knr	n. m.	harp	
 152263	b	b	b	prep.	in	
 152264	ydh	yd(I)/+h	yd (I)	n. f.	hand	
-152265	tšt	!t!št[; šty[	/š-t/; /š-t-y/	vb; vb	to place; to drink	
+152265	tšt	!t!št[	/š-t/	vb G	to place	
+152265	tšt	šty[	/š-t-y/	vb G	to drink	
 # KTU 1.101 18						
 152266	rmimt	?	?	?	?	DULAT: NOT FOUND
-152267	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+152267	l	l(I)	l (I)	prep.	to	
+152267	l	l(III)	l (III)	functor	certainly	
 152268	irth	irt/+h	ỉrt	n. f.	breast	
-152269	tšr	!t!šr(I)[	/š-r/ (I)	vb	to sing	
+152269	tšr	!t!šr(I)[	/š-r/ (I)	vb G	to sing	
 152270	dd	dd(II)/	dd (II)	n. m.	cauldronful	
 152271	aliyn	aliyn/	ảlỉyn	adj. m.	The Very / Most Powerful	
 # KTU 1.101 19						

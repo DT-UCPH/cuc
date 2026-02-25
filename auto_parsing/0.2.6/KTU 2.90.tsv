@@ -3,86 +3,96 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159971	tḥm	tḥm/	tḥm	n. m.	message	
 159972	mlkt	mlk(t/t	mlkt	n. f.	queen	
 # KTU 2.90 2						
-159973	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+159973	l	l(I)	l (I)	prep.	to	
+159973	l	l(III)	l (III)	functor	certainly	
 159974	yrmhd	yrmhd/	yrmhd	PN	yrmhd	
 # KTU 2.90 3						
 159975	iḫy	aḫ(I)/	ảḫ (I)	n. m.	brother (by blood)	
-159976	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+159976	rgm	rgm[	/r-g-m/	vb G	to say	
+159976	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.90 4						
-159977	lḥt	lḥ(II)/t=; lḥ(I)/t=	lḥ (II); lḥ (I)	n. m.; n. f.	missive; cheek	
+159977	lḥt	lḥ(II)/t=	lḥ (II)	n. m.	missive	
+159977	lḥt	lḥ(I)/t=	lḥ (I)	n. f.	cheek	
 159978	hn	hn	hn	deictic functor/adv.	behold!	
-159979	bnšk	bnš/+k(I)	bnš, -k (I)	n. m., pers. pn./morph.	man, your(s)	
+159979	bnšk	bnš/+k	bnš	n. m.	man	
 # KTU 2.90 5						
 159980	d	d	d	det. or rel. functor	the one(s) of	
-159981	lqḥt	lqḥ[	/l-q-ḥ/	vb	to get hold of	
-159982	ḫsrt	ḫsr[	/ḫ-s-r/	vb	to fail	
+159981	lqḥt	lqḥ[	/l-q-ḥ/	vb G	to get hold of	
+159982	ḫsrt	ḫsr[	/ḫ-s-r/	vb G	to fail	
 # KTU 2.90 6						
 159983	w	w	w	conj.	and	
-159984	ank	ank/	ảnk	pers. pn.	I	
+159984	ank	ank	ảnk	pers. pn.	I	
 159985	aṯth	aṯt/+h	ảṯt	n. f.	woman	
 # KTU 2.90 7						
-159986	ytnt	!y!(ytn[	/y-t-n/	vb	to give	
+159986	ytnt	!y!(ytn[	/y-t-n/	vb G	to give	
 159987	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.90 8						
 159988	w	w	w	conj.	and	
 159989	ht	ht	ht	adv.	here	
 159990	hn	hn	hn	deictic functor/adv.	behold!	
 159991	bnš	bnš/	bnš	n. m.	man	
-159992	hw	hw/	hw	pers. pn.	he	
+159992	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 9						
 159993	b	b	b	prep.	in	
-159994	gty	gt/+y(I); gt/+y(II)	gt, -y (I); gt, -y (II)	n. f./element of TNN, prep.; n. f./element of TNN, postp. functor	gittu, my; gittu, yes	
-159995	ḫbṯ	ḫbṯ[; ḫbṯ/	/ḫ-b-ṯ/; ḫbṯ	vb; adj. m.	to flee; emancipated	
+159994	gty	gt/+y	gt	n. f./element of TNN	gittu	
+159995	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G/Gpass	to flee	
+159995	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m.	emancipated	
 # KTU 2.90 10						
 159996	w	w	w	conj.	and	
 159997	ht	ht	ht	adv.	here	
 159998	hn	hn	hn	deictic functor/adv.	behold!	
 159999	bnš	bnš/	bnš	n. m.	man	
-160000	hw	hw/	hw	pers. pn.	he	
+160000	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 11						
-160001	ˤmm	ˤmm[	/ʕ-m-m/	vb	to be covered	
+160001	ˤmm	ˤmm[	/ʕ-m-m/	vb Gpass	to be covered	
 160002	aṯth	aṯt/+h	ảṯt	n. f.	woman	
 # KTU 2.90 12						
 160003	btk	bt(II)/+k	bt (II)	n. m.	house	
-160004	ṯb	ṯb[	/ṯ-b/	vb	to return	
+160004	ṯb	ṯb[	/ṯ-b/	vb G	to return	
 # KTU 2.90 13						
 160005	w	w	w	conj.	and	
-160006	and	an(I)/+d; an(II)+d	ản (I), -d; ản (II), -d	pers. pn., →; adv., →	I, ; wherever,	
-160007	at	at(I)/	ảt (I)	pers. pn.	you	
+160006	and	an(I)/+d	ản (I)	pers. pn.	I	
+160006	and	an(II)+d	ản (II)	adv.	wherever	
+160007	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.90 14						
 160008	ḫrdk	ḫrd/	ḫrd	n. m.	(royal) guard	
-160009	yuḫd	!y!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb	to collect	
+160009	yuḫd	!y!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
 # KTU 2.90 15						
 160010	hn	hn	hn	deictic functor/adv.	behold!	
 160011	bnš	bnš/	bnš	n. m.	man	
-160012	hw	hw/	hw	pers. pn.	he	
+160012	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 16						
 160013	w	w	w	conj.	and	
-160014	štnnh	št[+nh	/š-t/, -nh	vb, →	to place,	
+160014	štnnh	št[+nh	/š-t/	vb	to place	
 # KTU 2.90 17						
 160015	bd	b	b	prep.	in	
 160016	mlakty	mlakt/+y	mlảkt	n. f.	message	
 # KTU 2.90 18						
 160017	w	w	w	conj.	and	
 160018	kin	?	?	?	?	DULAT: NOT FOUND
-160019	hlk	hlk[; hlk(I)/; hlk(II)	/h-l-k/; hlk (I); hlk (II)	vb; n. m.; deictic adv. functor	to go; walk; behold!	
+160019	hlk	hlk[	/h-l-k/	vb G	to go	
+160019	hlk	hlk(I)/	hlk (I)	n. m.	walk	
+160019	hlk	hlk(II)	hlk (II)	deictic adv. functor	behold!	
 # KTU 2.90 19						
 160020	w	w	w	conj.	and	
-160021	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-160022	likt	lʔk[	/l-ʔ-k/	vb	to send (a message)	
+160021	l	l(I)	l (I)	prep.	to	
+160021	l	l(II)	l (II)	adv.	no	
+160021	l	l(III)	l (III)	functor	certainly	
+160022	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.90 20						
 160023	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-160024	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+160024	mlk	mlk[	/m-l-k/	vb G	to reign	
+160024	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 # KTU 2.90 21						
 160025	w	w	w	conj.	and	
-160026	ˤmkm	ˤm(I)+km	ʕm (I), -km	prep., pers. pn./morph.	to, your	
-160027	likt	lʔk[	/l-ʔ-k/	vb	to send (a message)	
+160026	ˤmkm	ˤm(I)+km	ʕm (I)	prep.	to	
+160027	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.90 22						
 160028	w	w	w	conj.	and	
-160029	at	at(I)/	ảt (I)	pers. pn.	you	
+160029	at	at(I)	ảt (I)	pers. pn.	you	
 160030	bd	b	b	prep.	in	
 # KTU 2.90 23						
 160031	mlakty	mlakt/+y	mlảkt	n. f.	message	
 160032	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.90 24						
-160033	štnn	št[+n(I); št[+n(II); št[+n(III)	/š-t/, -n (I); /š-t/, -n (II); /š-t/, -n (III)	vb, morph.; vb, pers. pn./morph./vb; vb, pers. pn./morph.	to place, Sun; to place, me; to place, our	
+160033	štnn	št[+n	/š-t/	vb	to place	

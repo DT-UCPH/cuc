@@ -9,7 +9,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158574	yṯx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.57 4						
 158575	xlk	?	?	?	?	DULAT: NOT FOUND
-158576	mlk	mlk[; mlk(II)/	/m-l-k/; mlk (II)	vb; n. m.	to reign; kingdom (power and territory)	
+158576	mlk	mlk[	/m-l-k/	vb G	to reign	
+158576	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
 # KTU 2.57 5						
 158577	x	?	?	?	?	
 158578	dq	dq(I)/	dq (I)	adj. m.	tiny	
@@ -26,10 +27,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.57 10						
 158585	bxxxxax	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.57 11						
-158586	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+158586	k	+k	-k (I)			
+158586	k	~k	-k (II)			
+158586	k	k(III)	k (III)	Subordinating or completive functor	when	
+158586	k	k(I)	k (I)	prep.	like	
+158586	k	k(II)	k (II)	emph. functor	yes	
 158587	yšixx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.57 12						
-158588	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+158588	rgm	rgm[	/r-g-m/	vb G	to say	
+158588	rgm	rgm/	rgm	n. m.	word	
 158589	yṯṯbx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.57 13						
 158590	w	w	w	conj.	and	

@@ -3,27 +3,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156458	tḥm	tḥm/	tḥm	n. m.	message	
 156459	hl	hl	hl	deictic adv. functor	behold	
 # KTU 2.6 2						
-156460	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+156460	l	l(I)	l (I)	prep.	to	
+156460	l	l(III)	l (III)	functor	certainly	
 156461	pzry	pzry/	pzry	PN	pzry	
 156462	aby	ab/+y	ảb	n. m.	father	
 # KTU 2.6 3						
 156463	w	w	w	conj.	and	
 156464	lgpn	?	?	?	?	DULAT: NOT FOUND
-156465	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+156465	rgm	rgm[	/r-g-m/	vb G	to say	
+156465	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.6 4						
-156466	yšlm	!y!šlm[	/š-l-m/	vb	to be well	
+156466	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 156467	lkm	l(I)+km	l (I)	prep.	to	
 # KTU 2.6 5						
 156468	ilm	il(I)/m	ỉl (I)	n. m.	god	
-156469	tġrkm	!t!nġr[	/n-ġ-r/	vb	to protect	
+156469	tġrkm	!t!nġr[	/n-ġ-r/	vb G	to protect	
 # KTU 2.6 6						
-156470	tšlmkm	!t!šlm[	/š-l-m/	vb	to be well	
+156470	tšlmkm	!t!šlm[	/š-l-m/	vb D	to be well	
 # KTU 2.6 7						
 156471	xxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.6 8						
 156472		?	?	?	?	
 # KTU 2.6 9						
-156473	h	+h, +h=; ~h	-h (I); -h(II)	suff. pn. morph.; adv. functor	his /her (hers) / its; to, towards	
+156473	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
+156473	h	~h	-h(II)	adv. functor	to, towards	
 # KTU 2.6 10						
 156474	x	?	?	?	?	
 # KTU 2.6 11						
@@ -33,4 +36,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.6 13						
 156477	wrgm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.6 14						
-156478	tṯṯb	!t!]š]ṯb[	/ṯ-b/	vb	to return	
+156478	tṯṯb	!t!]š]ṯb[	/ṯ-b/	vb Š	to return	

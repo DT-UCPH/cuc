@@ -1,89 +1,125 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 1						
-150688	spr	spr(II)/; spr[; spr(I)/	spr (II); /s-p-r/; spr (I)	n. m.; vb; n. m.	tablet / register; to count; scribe	
-150689	ḥlmm	ḥl(II)/m	ḥlm (II)	n. m.	growing animal	
-150690	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
-150691	šnt	šn(t(I)/t;šn(w[t;šn(t(II)/t	šnt (I); /š-n-w/; šnt (II)	n. f.; vb; n. f.	year; to change: a) reflex.; sleep	
+150688	spr	spr(II)/	spr (II)	n. m.	tablet / register	
+150688	spr	spr[	/s-p-r/	vb G/D	to count	
+150688	spr	spr(I)/	spr (I)	n. m.	scribe	
+150689	ḥlmm	ḥlm(II)/m	ḥlm (II)	n. m.	growing animal	
+150690	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+150690	alp	alp(II)/	ảlp (II)	num.	(one	
+150691	šnt	šn(t(I)/t	šnt (I)	n. f.	year	
+150691	šnt	šn(w[t	/š-n-w/	vb G	to change: a) reflex.	
+150691	šnt	šn(t(II)/t	šnt (II)	n. f.	sleep	
 150692	w	w	w	conj.	and	
 # KTU 1.86 2						
 150693	šntm	šn(t(I)/tm	šnt (I)	n. f.	year	
-150694	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
+150694	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+150694	alp	alp(II)/	ảlp (II)	num.	(one	
 150695	dkr	dkr/	dkr	n. m.	male animal	
 150696	w	w	w	conj.	and	
 150697	x	?	?	?	?	
 # KTU 1.86 3						
-150698	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
-150699	pr	pr(II)/; pr(I)/	pr (II); pr (I)	n. m.; n. m.	young bull; fruit	
-150700	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
+150698	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+150698	alp	alp(II)/	ảlp (II)	num.	(one	
+150699	pr	pr(II)/	pr (II)	n. m.	young bull	
+150699	pr	pr(I)/	pr (I)	n. m.	fruit	
+150700	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+150700	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 150701	xx	?	?	?	?	
-150702	rb	rb(II)/; rb(I)/; rb/	rb (II); rb (I); rb(b)	n. m.; adj. m.; n. m.	chief; great; drizzle	
+150702	rb	rb(II)/	rb (II)	n. m.	chief	
+150702	rb	rb(I)/	rb (I)	adj. m.	great	
+150702	rb	rb/	rb(b)	n. m.	drizzle	
 # KTU 1.86 4						
 150703	w	w	w	conj.	and	
-150704	prt	pr(I)/t=	prt (I)	n. f.	heifer	
-150705	tkt	nkt[	/n-k-t/	vb	to immolate	
+150704	prt	pr(t(I)/t=	prt (I)	n. f.	heifer	
+150705	tkt	nkt[	/n-k-t/	vb G	to immolate	
 150706	xxxxxlxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 5						
-150707	šnt	šn(t(I)/t;šn(w[t;šn(t(II)/t	šnt (I); /š-n-w/; šnt (II)	n. f.; vb; n. f.	year; to change: a) reflex.; sleep	
+150707	šnt	šn(t(I)/t	šnt (I)	n. f.	year	
+150707	šnt	šn(w[t	/š-n-w/	vb G	to change: a) reflex.	
+150707	šnt	šn(t(II)/t	šnt (II)	n. f.	sleep	
 # KTU 1.86 6						
 150708	śśw	ss/	s:śs	n.	horse	
 150709	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
 150710	w	w	w	conj.	and	
 150711	śśw	ss/	s:śs	n.	horse	
-150712	šnt	šn(t(I)/t;šn(w[t;šn(t(II)/t	šnt (I); /š-n-w/; šnt (II)	n. f.; vb; n. f.	year; to change: a) reflex.; sleep	
+150712	šnt	šn(t(I)/t	šnt (I)	n. f.	year	
+150712	šnt	šn(w[t	/š-n-w/	vb G	to change: a) reflex.	
+150712	šnt	šn(t(II)/t	šnt (II)	n. f.	sleep	
 # KTU 1.86 7						
 150713	w	w	w	conj.	and	
 150714	hm	hm(II)	hm (II)	conj./interr. functor	if	
-150715	yhpk	!y!hpk[	/h-p-k/	vb	to overturn	
+150715	yhpk	!y!hpk[	/h-p-k/	vb G	to overturn	
 150716	śśw	ss/	s:śs	n.	horse	
-150717	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+150717	rgm	rgm[	/r-g-m/	vb G	to say	
+150717	rgm	rgm/	rgm	n. m.	word	
 150718		?	?	?	?	
 # KTU 1.86 8						
 150719	d	d	d	det. or rel. functor	the one(s) of	
-150720	ymġy	!y!mġy[	/m-ġ-y/	vb	to come	
+150720	ymġy	!y!mġy[	/m-ġ-y/	vb G	to come	
 150721	bnš	bnš/	bnš	n. m.	man	
 150722	x	?	?	?	?	
 # KTU 1.86 9						
 150723	w	w	w	conj.	and	
 150724	ḥmrxxx	?	?	?	?	DULAT: NOT FOUND
 150725	xx	?	?	?	?	
-150726	ḥmr	ḥmr(I)/; ḥmr(II)/	ḥmr (I); ḥmr (II)	n. m.; adj.	donkey; red	
+150726	ḥmr	ḥmr(I)/	ḥmr (I)	n. m.	donkey	
+150726	ḥmr	ḥmr(II)/	ḥmr (II)	adj.	red	
 150727	xx	?	?	?	?	
 # KTU 1.86 10						
 150728	w	w	w	conj.	and	
 150729	mṯnrxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 11						
 150730	w	w	w	conj.	and	
-150731	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+150731	bn	bn(I)/	bn (I)	n. m.	son	
+150731	bn	bn(II)	bn (II)	prep.	between	
+150731	bn	bn[	/b-n/	vb G	to understand	
 150732	xd	?	?	?	?	DULAT: NOT FOUND
 150733	w	w	w	conj.	and	
-150734	mt	mt(II)/; mt[; mt(I)/	mt (II); /m-t/; mt (I)	n. m.; vb; n. m.	death; to die; dead person	
+150734	mt	mt(II)/	mt (II)	n. m.	death	
+150734	mt	mt[	/m-t/	vb G	to die	
+150734	mt	mt(I)/	mt (I)	n. m.	dead person	
 # KTU 1.86 12						
-150735	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+150735	l	l(I)	l (I)	prep.	to	
+150735	l	l(III)	l (III)	functor	certainly	
 150736	bnš	bnš/	bnš	n. m.	man	
-150737	ḥmr	ḥmr(I)/; ḥmr(II)/	ḥmr (I); ḥmr (II)	n. m.; adj.	donkey; red	
-150738	mdl	mdl[; mdl(I)/; mdl(II)/	/m-d-l/; mdl (I); mdl (II)	vb; n. m.; n. m.	to bridle; riding gear; lightning (?)	
+150737	ḥmr	ḥmr(I)/	ḥmr (I)	n. m.	donkey	
+150737	ḥmr	ḥmr(II)/	ḥmr (II)	adj.	red	
+150738	mdl	mdl[	/m-d-l/	vb G/D	to bridle	
+150738	mdl	mdl(I)/	mdl (I)	n. m.	riding gear	
+150738	mdl	mdl(II)/	mdl (II)	n. m.	lightning (?)	
 150739	nˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 13						
 150740	w	w	w	conj.	and	
 150741	d	d	d	det. or rel. functor	the one(s) of	
-150742	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
-150743	mdl	mdl[; mdl(I)/; mdl(II)/	/m-d-l/; mdl (I); mdl (II)	vb; n. m.; n. m.	to bridle; riding gear; lightning (?)	
+150742	l	l(I)	l (I)	prep.	to	
+150742	l	l(II)	l (II)	adv.	no	
+150742	l	l(III)	l (III)	functor	certainly	
+150743	mdl	mdl[	/m-d-l/	vb G/D	to bridle	
+150743	mdl	mdl(I)/	mdl (I)	n. m.	riding gear	
+150743	mdl	mdl(II)/	mdl (II)	n. m.	lightning (?)	
 150744	rxxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 14						
 150745	w	w	w	conj.	and	
 150746	ṣin	ṣin(I)/	ṣỉn (I)	n. f.	ewe	
-150747	ˤz	ˤz[; ˤz(II)/; ˤz(III)/	/ʕ-z(-z)/; ʕz (II); ʕz (III)	vb; n. m.; adj. m. or n. m.	to be strong; caprine animal; strong	
+150747	ˤz	ˤz[	/ʕ-z(-z)/	vb G	to be strong	
+150747	ˤz	ˤz(II)/	ʕz (II)	n. m.	caprine animal	
+150747	ˤz	ˤz(III)/	ʕz (III)	adj. m. or n. m.	strong	
 150748	bx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 15						
 150749	llu	llu/	llủ	n. m.	suckling (lamb or kid)	
-150750	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+150750	bn	bn(I)/	bn (I)	n. m.	son	
+150750	bn	bn(II)	bn (II)	prep.	between	
+150750	bn	bn[	/b-n/	vb G	to understand	
 150751	md	md(II)/	md (II)	n. m.	skilled	
 # KTU 1.86 16						
 150752	imr	imr(I)/	ỉmr (I)	n. m.	lamb	
 150753	ḫmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 17						
-150754	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
-150755	bˤl	bˤl(II)/; bˤl[	bʕl (II); /b-ʕ-l/	n. m./DN; vb	Baʿlu/Baal; to make	
+150754	bn	bn(I)/	bn (I)	n. m.	son	
+150754	bn	bn(II)	bn (II)	prep.	between	
+150754	bn	bn[	/b-n/	vb G	to understand	
+150755	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+150755	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.86 18						
 150756	xxn	?	?	?	?	DULAT: NOT FOUND
 150757	axxkx	?	?	?	?	DULAT: NOT FOUND
@@ -99,18 +135,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 22						
 150764	trgm	!t!rgm[	/r-g-m/	vb	to say	
 150765	b	b	b	prep.	in	
-150766	ydk	yd(I)/+k; yd(I)/+k=; yd(II)/+k; yd(II)/+k=; !y!dk[; !y=!dk[	yd (I), -k (I); yd (I), -k (I); yd (II), -k (I); yd (II), -k (I); d-k(-k)/; d-k(-k)/	n. f., pers. pn.; n. f., pers. pn.; n. m., pers. pn.; n. m., pers. pn.; vb; vb	hand, your(s); hand, your(s); love, your(s); love, your(s); to be pounded; to be pounded	
+150766	ydk	yd(I)/+k	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
+150766	ydk	yd(I)/+k=	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
+150766	ydk	yd(II)/+k	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
+150766	ydk	yd(II)/+k=	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
+150766	ydk	!y!dk[	d-k(-k)/	vb Gpass	to be pounded	
+150766	ydk	!y=!dk[	d-k(-k)/	vb Gpass	to be pounded	
 150767	yxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 23						
 150768	mˤbd	mˤbd/	mʕbd	n. m.	labour	
-150769	ḫrmṯt	ḫrmṯ/t=	ḫrmṯt	n. f.	sickle	
+150769	ḫrmṯt	ḫrmṯ(t/t=	ḫrmṯt	n. f.	sickle	
 # KTU 1.86 24						
 150770	w	w	w	conj.	and	
 150771	kśt	kt	kśt	→		
-150772	šqym	šqy/m; šq/	šqy; šq	n. m.; n. m.	cupbearer; thigh	
+150772	šqym	šqy/m	šqy	n. m.	cupbearer	
+150772	šqym	šq/	šq	n. m.	thigh	
 # KTU 1.86 25						
-150773	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
-150774	šqym	šqy/m; šq/	šqy; šq	n. m.; n. m.	cupbearer; thigh	
+150773	bn	bn(I)/	bn (I)	n. m.	son	
+150773	bn	bn(II)	bn (II)	prep.	between	
+150773	bn	bn[	/b-n/	vb G	to understand	
+150774	šqym	šqy/m	šqy	n. m.	cupbearer	
+150774	šqym	šq/	šq	n. m.	thigh	
 150775	xx	?	?	?	?	
 # KTU 1.86 26						
 150776	kbdt	kbd(I)/t=	kbd (I)	n.	liver	
@@ -123,7 +168,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150781	ḥlm	ḥlm(I)/	ḥlm (I)	n. m.	dream	
 150782	aṯyxxxxxnpx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 29						
-150783	pn	pn/m; pn	pnm; pn	n. m.; functor	face; lest	
+150783	pn	pn(m/	pnm	n. m. pl. tant.	face	
+150783	pn	pn	pn	functor	lest	
 150784	nˤmxyxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 30						
 150785	bnšm	bnš/m	bnš	n. m.	man	
@@ -131,7 +177,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150787	xxxxp	?	?	?	?	DULAT: NOT FOUND
 150788	ṯt	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 1.86 31						
-150789	šˤrm	šˤr/m	šʕrm	n. m.	barley	
+150789	šˤrm	šˤr(m/m	šʕrm	n. m. pl. tant.	barley	
 150790	bxḥxxxxṯar	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 32						
 150791	w	w	w	conj.	and	

@@ -1,13 +1,16 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.5 1						
-156446	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+156446	l	l(I)	l (I)	prep.	to	
+156446	l	l(III)	l (III)	functor	certainly	
 156447	riš	riš(I)/	rỉš (I)	n. m.	head	
 # KTU 2.5 2						
 156448	ypt	yp(t(I)/t	ypt (I)	n. f.	cow	
 156449	ˤṣ	ˤṣ/	ʕṣ	n. m.	tree	
 # KTU 2.5 3						
 156450	hp	?	?	?	?	DULAT: NOT FOUND
-156451	šlm	šlm(I)/; šlm[; šlm(III)/	šlm (I); /š-l-m/; šlm (III)	n. m.; vb; adj. m.	peace; to be well; pure	
+156451	šlm	šlm(I)/	šlm (I)	n. m.	peace	
+156451	šlm	šlm[	/š-l-m/	vb G/D	to be well	
+156451	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
 156452	x	?	?	?	?	
 # KTU 2.5 4						
 156453	btk	bt(II)/+k	bt (II)	n. m.	house	
@@ -15,6 +18,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.5 5						
 156455	ġyk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.5 6						
-156456	bˤl	bˤl(II)/; bˤl(I)/; bˤl[	bʕl (II); bʕl (I); /b-ʕ-l/	n. m./DN; n. m.; vb	Baʿlu/Baal; labourer; to make	
+156456	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+156456	bˤl	bˤl(I)/	bʕl (I)	n. m.	labourer	
+156456	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 2.5 7						
 156457	ġ	?	?	?	?	DULAT: NOT FOUND

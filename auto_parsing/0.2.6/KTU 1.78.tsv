@@ -1,18 +1,21 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.78 1						
 149887	bṯṯ	?	?	?	?	DULAT: NOT FOUND
-149888	ym	ym(I)/; ym(II)/	ym (I); ym (II)	n. m.; n. m.	day; sea	
-149889	ḥdṯ	ḥdṯ(II)/; ḥdṯ(I)/	ḥdṯ (II); ḥdṯ (I)	n. m.; adj.	new moon; new	
+149888	ym	ym(I)/	ym (I)	n. m.	day	
+149888	ym	ym(II)/	ym (II)	n. m.	sea	
+149889	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m.	new moon	
+149889	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj.	new	
 # KTU 1.78 2						
 149890	ḫyr	ḫyr/	ḫyr	MN	aller de ci de là	
-149891	ˤrbt	ˤrb(I)[	/ʕ-r-b/ (I)	vb	to enter	
+149891	ˤrbt	ˤrb(I)[	/ʕ-r-b/ (I)	vb G	to enter	
 # KTU 1.78 3						
 149892	špš	špš/	špš	n.	sun	
-149893	ṯġrh	ṯġr(II)/; ṯġr(I)/	ṯġr (II); ṯġr (I)	n. m.; n. m.	gatekeeper; gate	
+149893	ṯġrh	ṯġr(II)/h	ṯġr (II)	n. m.	gatekeeper	
+149893	ṯġrh	ṯġr(I)/h	ṯġr (I)	n. m.	gate	
 # KTU 1.78 4						
 149894	ršp	ršp/	ršp	DN	Rašap	
 # KTU 1.78 5						
 149895	kbdm	kbd(I)/	kbd (I)	n.	liver	
-149896	tbqrn	!t!bqr[	/b-q-r/	vb	to examine	
+149896	tbqrn	!t!bqr[	/b-q-r/	vb G/D	to examine	
 # KTU 1.78 6						
 149897	skn	skn(I)/	s:śkn (I)	n. m.	prefect	

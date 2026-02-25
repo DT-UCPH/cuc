@@ -1,7 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.18 1						
 161595	mit	mi(t/t	mỉt	n. f.	a hundred	
-161596	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+161596	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+161596	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+161596	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 161597	mḫsrn	mḫsrn/	mḫsrn	n. m.	deficit	
 # KTU 3.18 2						
 161598	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -9,21 +11,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161600	kṯtġlm	kṯtġlm/	kṯtġlm	TN	kṯtġlm	
 # KTU 3.18 3						
 161601	arbˤm	arbˤm/	ảrbʕm	n. num.	forty	
-161602	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+161602	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+161602	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+161602	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 161603	mḫsrn	mḫsrn/	mḫsrn	n. m.	deficit	
 # KTU 3.18 4						
 161604	ˤlmtbˤl	?	?	?	?	DULAT: NOT FOUND
 161605	rišy	rišy/	rỉšy	GN	rỉšy	
 # KTU 3.18 5						
 161606	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-161607	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+161607	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+161607	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+161607	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 161608	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161609	nsk	nsk/	nsk	n. m.	caster	
 # KTU 3.18 6						
 161610	arym	ary(III)/	ảry (III)	GN	ảry (III)	
 # KTU 3.18 7						
-161611	alp	alp(I)/; alp(II)/	ảlp (I); ảlp (II)	n. m.; num.	(head of) cattle; (one	
-161612	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+161611	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+161611	alp	alp(II)/	ảlp (II)	num.	(one	
+161612	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+161612	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+161612	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 161613	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 # KTU 3.18 8						
 161614	nsk	nsk/	nsk	n. m.	caster	
@@ -31,8 +40,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.18 9						
 161616	ḫmš	ḫmš(I)/	ḫmš (I)	n. num.	five	
 161617	mnat	?	?	?	?	DULAT: NOT FOUND
-161618	ṯlṯ	ṯlṯ(I)/; ṯlṯ(V)/; ṯlṯ(II)/	ṯlṯ (I); ṯlṯ (V); ṯlṯ (II)	n. num.; n. m.; adj. m. ord. num.	three; copper; third	
+161618	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+161618	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
+161618	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
 # KTU 3.18 10						
 161619	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161620	mtn	mt[	/m-t/	vb	to die	
+161620	mtn	mt[	/m-t/	vb G	to die	
 161621	rišy	rišy/	rỉšy	GN	rỉšy	

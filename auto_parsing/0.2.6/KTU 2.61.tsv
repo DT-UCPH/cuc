@@ -1,27 +1,35 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.61 1						
-158622	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+158622	l	l(I)	l (I)	prep.	to	
+158622	l	l(III)	l (III)	functor	certainly	
 158623	ġrdn	ġrdn/	ġrdn	PN	ġrdn	
 # KTU 2.61 2						
-158624	bˤly	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-158625	rgm	rgm[; rgm/	/r-g-m/; rgm	vb; n. m.	to say; word	
+158624	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
+158625	rgm	rgm[	/r-g-m/	vb G	to say	
+158625	rgm	rgm/	rgm	n. m.	word	
 # KTU 2.61 3						
-158626	bn	bn(I)/; bn(II); bn[	bn (I); bn (II); /b-n/	n. m.; prep.; vb	son; between; to understand	
+158626	bn	bn(I)/	bn (I)	n. m.	son	
+158626	bn	bn(II)	bn (II)	prep.	between	
+158626	bn	bn[	/b-n/	vb G	to understand	
 158627	ḫrn	ḫrn/	ḫrn	n. m.	gang	
-158628	k	+k; ~k; k(III); k(I); k(II)	-k (I); -k (II); k (III); k (I); k (II)	;;Subordinating or completive functor; prep.; emph. functor	when; like; yes	
+158628	k	+k	-k (I)			
+158628	k	~k	-k (II)			
+158628	k	k(III)	k (III)	Subordinating or completive functor	when	
+158628	k	k(I)	k (I)	prep.	like	
+158628	k	k(II)	k (II)	emph. functor	yes	
 # KTU 2.61 4						
-158629	mġy	mġy[	/m-ġ-y/	vb	to come	
-158630	hw	hw/	hw	pers. pn.	he	
+158629	mġy	mġy[	/m-ġ-y/	vb G	to come	
+158630	hw	hw	hw	pers. pn.	he	
 158631	xx	?	?	?	?	
 158632	x	?	?	?	?	
 # KTU 2.61 5						
-158633	hbṭ	hbṭ[	/h-b-ṭ/ẓ/	vb	to knock down	
-158634	hw	hw/	hw	pers. pn.	he	
+158633	hbṭ	hbṭ[	/h-b-ṭ/ẓ/	vb D	to knock down	
+158634	hw	hw	hw	pers. pn.	he	
 # KTU 2.61 6						
 158635	ḫrd	ḫrd/	ḫrd	n. m.	(royal) guard	
 158636	w	w	w	conj.	and	
-158637	šl	šl[	/š-l(-l)/	vb	to plunder	
-158638	hw	hw/	hw	pers. pn.	he	
+158637	šl	šl[	/š-l(-l)/	vb G	to plunder	
+158638	hw	hw	hw	pers. pn.	he	
 # KTU 2.61 7						
 158639	qrt	qr(t(I)/t	qrt (I)	n. f.	city	
 # KTU 2.61 8						
@@ -29,17 +37,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158641	b	b	b	prep.	in	
 158642	grnt	grn(I)/t=	grn (I)	n. m.	threshing-floor	
 # KTU 2.61 9						
-158643	l	l(I); l(II); l(III)	l (I); l (II); l (III)	prep.; adv.; functor	to; no; certainly	
+158643	l	l(III)	l (III)	functor	certainly	
 158644	bˤr	bˤr/	bʕr	adj. m.	burnt	
 # KTU 2.61 10						
-158645	ap	ap(I); ap(II)/	ảp (I); ảp (II)	adv./conj.; n. m.	also; nose	
+158645	ap	ap(I)	ảp (I)	adv./conj.	also	
+158645	ap	ap(II)/	ảp (II)	n. m.	nose	
 158646	krmm	krm/	krm	n. m.	vineyard	
 # KTU 2.61 11						
-158647	ḫlq	ḫlq[; ḫlq/	/ḫ-l-q/; ḫlq	vb; adj. m. or n. m.	to perish; ruined	
+158647	ḫlq	ḫlq[	/ḫ-l-q/	vb G/Dpass	to perish	
+158647	ḫlq	ḫlq/	ḫlq	adj. m. or n. m.	ruined	
 # KTU 2.61 12						
 158648	qrtln	?	?	?	?	DULAT: NOT FOUND
-158649	ḫlqt	ḫlq[	/ḫ-l-q/	vb	to perish	
+158649	ḫlqt	ḫlq[	/ḫ-l-q/	vb G/Dpass	to perish	
 # KTU 2.61 13						
 158650	w	w	w	conj.	and	
-158651	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb	to know	
-158652	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb	to know	
+158651	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+158652	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
