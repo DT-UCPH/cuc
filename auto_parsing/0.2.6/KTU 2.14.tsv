@@ -8,53 +8,56 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156701	iwrpḫn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.14 3						
 156702	bny	bn(I)/+y	bn (I)	n. m.	son	
-156702	bny	bny[	/b-n-y/	vb G	to build	
+156702	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg.	to build	
 156702	bny	bny/	bny	n. m. sg.	architect	
 156703	aḫy	aḫ(I)/+y	ảḫ (I)	n. m.	brother (by blood)	
-156704	rgm	rgm[	/r-g-m/	vb G	to say	
+156704	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+156704	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+156704	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156704	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.14 4						
 156705	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-156706	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+156706	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.14 5						
-156707	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+156707	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.14 6						
 156708	iky	iky	ỉky	interr. functor	what of?	
 156709	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
 # KTU 2.14 7						
 156710	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-156710	spr	spr[:d	/s-p-r/	vb G/D	to count	
+156710	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
+156710	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
 156710	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 156711	d	d	d	det. or rel. functor	the one(s) of	
-156712	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+156712	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 # KTU 2.14 8						
 156713	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 156714	tryl	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.14 9						
-156715	mhy	mhy/	mh/y	n. m.	water	Based on DULAT reconstruction.
+156715	mhy	mh/+y	mh/y	n. m.	water	Based on DULAT reconstruction.
 156715	mhy	m&h/+y	m(h)	pers. pn.	what?	Based on DULAT reconstruction.
 156715	mhy	mhy	mhy	→	?	
-156716	rgmt	rgm[t	/r-g-m/	vb G	to say	
+156716	rgmt	rgm[t	/r-g-m/	vb G suffc.	to say	
 # KTU 2.14 10						
 156717	w	w	w	conj.	and	
 156718	ht	ht	ht	adv.	here	
 156719	aḫy	aḫ(I)/+y	ảḫ (I)	n. m.	brother (by blood)	
 # KTU 2.14 11						
 156720	bny	bn(I)/+y	bn (I)	n. m.	son	
-156720	bny	bny[	/b-n-y/	vb G	to build	
+156720	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg.	to build	
 156720	bny	bny/	bny	n. m. sg.	architect	
-156721	yšal	šʔl[l	/š-ʔ-l/	vb G	to ask	
+156721	yšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
 # KTU 2.14 12						
 156722	ṯryl	ṯryl/	ṯryl	PN	ṯryl	
 156723	p	p(I)	p (I)	conj. functor	and	
 156723	p	p(III)/	p (III)	n. m.	mouth	
 156723	p	p(II)	p (II)	adv.	here	
-156724	rgmt	rgm[t	/r-g-m/	vb G	to say	
+156724	rgmt	rgm[t	/r-g-m/	vb G suffc.	to say	
 # KTU 2.14 13						
 156725	l	l(I)	l (I)	prep.	to	
 156725	l	l(II)	l (II)	adv.	no	
 156725	l	l(III)	l (III)	functor	certainly	
-156726	mlk	mlk[	/m-l-k/	vb G	to reign	
+156726	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 156726	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 156727	šmy	šm(I)/y	šm (I)	n. m. sg.	name	
 # KTU 2.14 14						
@@ -66,16 +69,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156732	aḫy	aḫ(I)/+y	ảḫ (I)	n. m.	brother (by blood)	
 # KTU 2.14 16						
 156733	bny	bn(I)/+y	bn (I)	n. m.	son	
-156733	bny	bny[	/b-n-y/	vb G	to build	
+156733	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg.	to build	
 156733	bny	bny/	bny	n. m. sg.	architect	
-156734	yšal	šʔl[l	/š-ʔ-l/	vb G	to ask	
+156734	yšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
 # KTU 2.14 17						
 156735	ṯryl	ṯryl/	ṯryl	PN	ṯryl	
 156736	w	w	w	conj.	and	
-156737	rgm	rgm[	/r-g-m/	vb G	to say	
+156737	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+156737	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+156737	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156737	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.14 18						
-156738	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+156738	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+156738	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 156739	l	l(I)	l (I)	prep.	to	
 156739	l	l(III)	l (III)	functor	certainly	
 156740	aḫk	aḫ(I)/+k	ảḫ (I)	n. m.	brother (by blood)	

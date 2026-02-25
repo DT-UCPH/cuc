@@ -1,14 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.116 1						
-153990	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
-153990	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
+153990	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
+153990	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
+153990	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl.	to sacrifice	
 153991	ˤṯtrlt	?	?	?	?	DULAT: NOT FOUND
-153992	ḫr	ḫr(I)/	ḫr (I)	n. m.	cave	
+153992	ḫr	ḫr(I)/	ḫr (I)	n. m. sg.	cave	
 # KTU 1.116 2						
-153993	qrat	qra(t/t	qrảt	n. f.	banquet	
+153993	qrat	qra(t/t	qrảt	n. f. sg.	banquet	
 153994	b	b	b	prep.	in	
-153995	grn	grn(I)/	grn (I)	n. m.	threshing-floor	
-153995	grn	grn(II)/	grn (II)	adj. m.	current	
+153995	grn	grn(I)/	grn (I)	n. m. sg.	threshing-floor	
+153995	grn	grn(II)/	grn (II)	adj. m. sg.	current	
 # KTU 1.116 3						
 153996	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
 153997	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN	ṯủṯk, ?	
@@ -20,11 +21,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154001	inḫzzy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 6						
 154002	kzġd	?	?	?	?	DULAT: NOT FOUND
-154003	in	in/	ỉn	n. m.	lack of	
+154003	in	in/	ỉn	n. m. sg.	lack of	
 154004	ḫmnd	ḫmn(I)/+d	ḫmn (I)	n. m.	chapel, ?	
 # KTU 1.116 7						
 154005	xxxdnntd	?	?	?	?	DULAT: NOT FOUND
-154006	kltd	kly[+d	/k-l-y/	vb	to finish, ?	
+154006	kltd	kly[+d	/k-l-y/	vb G suffc.	to finish, ?	
 154006	kltd	klt(I)/+d	klt (I)	n. f.	bride, ?	
 154006	kltd	klt(II)/+d	klt (II)	n. f.	measure, ?	
 # KTU 1.116 8						
@@ -34,8 +35,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.116 9						
 154010	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
 154011	ṯuṯk	ṯuṯk/	ṯủṯk	DN	ṯủṯk	
-154012	tizr	ʔzr[r:pass	/ʔ-z-r/	vb Gpass	to be girded	
-154013	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
+154012	tizr	ʔzr[r:pass	/ʔ-z-r/	vb Gpass prefc.	to be girded	
+154013	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
 # KTU 1.116 10						
 154014	w	w	w	conj.	and	
 154015	bbt	bbt(II)/	bbt (II)	DN	superintendent	
@@ -57,22 +58,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154026	iyd	iy+d	ỉy	interr. adv.	where?, ?	
 # KTU 1.116 15						
 154027	aṯtbd	?	?	?	?	DULAT: NOT FOUND
-154028	in	in/	ỉn	n. m.	lack of	
+154028	in	in/	ỉn	n. m. sg.	lack of	
 154029	ardnd	ardn/+d	ảrdn	PN	ảrdn, ?	
 # KTU 1.116 16						
-154030	in	in/	ỉn	n. m.	lack of	
+154030	in	in/	ỉn	n. m. sg.	lack of	
 154031	ḫmnd	ḫmn(I)/+d	ḫmn (I)	n. m.	chapel, ?	
 154032	nbdgd	nbdg/+d	nbdg	DN	nbdg, ?	
 # KTU 1.116 17						
-154033	ˤntd	ˤn(I)/+d	ʕn (I)	n. f.	eye, ?	
-154033	ˤntd	ˤnt(I)/+d	ʕnt (I)	DN	ʿAnatu/Anat	
-154033	ˤntd	ˤn(II)/+d	ʕn (II)	n. f.	furrow, ?	
+154033	ˤntd	ˤn(I)&t/+d	ʕn (I)	n. f.	eye, ?	
+154033	ˤntd	ˤnt(I)/+d	ʕnt (I)	DN	ʿAnatu/Anat, ?	
+154033	ˤntd	ˤn(II)&t/+d	ʕn (II)	n. f.	furrow, ?	
 154034	ṯmgnd	ṯmg/	ṯmg	DN	ṯmg	
 # KTU 1.116 18						
 154035	pḏḏpḫnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 19						
 154036	ḫbtd	ḫbt(II)/	ḫbt (II)	DN	Bien-amada	
 154037	dqtd	dqt(I)/+d	dqt (I)	adj. f. or n. f.	small, ?	
+154037	dqtd	dqt(II)/+d	dqt (II)	n. f.	manufacture, ?	
 # KTU 1.116 20						
 154038	ḫdnṯt	?	?	?	?	DULAT: NOT FOUND
 154039	ḫdlrṯt	?	?	?	?	DULAT: NOT FOUND
@@ -80,14 +82,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154040	išḫrd	?	?	?	?	DULAT: NOT FOUND
 154041	alnb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 22						
-154042	nkld	!n!kl(y[+d	/k-l-y/	vb	to finish, ?	
+154042	nkld	!n!](n]kl(y[+d	/k-l-y/	vb N suffc.	to finish, ?	
 154043	nntdm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 23						
-154044	kltd	kly[+d	/k-l-y/	vb	to finish, ?	
+154044	kltd	kly[+d	/k-l-y/	vb G suffc.	to finish, ?	
 154044	kltd	klt(I)/+d	klt (I)	n. f.	bride, ?	
 154044	kltd	klt(II)/+d	klt (II)	n. f.	measure, ?	
 154045	admd	adm(I)/+d	ảdm (I)	n. m.	man, ?	
-154045	admd	(ʔ&adm[+d	/ʔ-d-m/	vb	to be, ?	
+154045	admd	(ʔ&adm[+d	/ʔ-d-m/	vb G suffc.	to be, ?	
 154046	kbbd	kbb+d	kbb	?	?, ?	
 # KTU 1.116 24						
 154047	pnġnṯtxx	?	?	?	?	DULAT: NOT FOUND
@@ -115,7 +117,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154060	pġxxxxwrṯt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 34						
 154061	nṯpxxx	?	?	?	?	DULAT: NOT FOUND
-154062	kltd	kly[+d	/k-l-y/	vb	to finish, ?	
+154062	kltd	kly[+d	/k-l-y/	vb G suffc.	to finish, ?	
 154062	kltd	klt(I)/+d	klt (I)	n. f.	bride, ?	
 154062	kltd	klt(II)/+d	klt (II)	n. f.	measure, ?	
 # KTU 1.116 35						

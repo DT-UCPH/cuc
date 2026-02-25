@@ -1,21 +1,21 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.97 1						
 151625	w	w	w	conj.	and	
-151626	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
+151626	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 151627	b	b	b	prep.	in	
 151628	aph	ap(I)+h	ảp (I)	adv./conj.	also	
 151628	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.97 2						
 151629	k	k(III)	k (III)	Subordinating or completive functor	when	
-151630	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
+151630	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
 151631	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
-151632	śśw	ss/	s:śs/św	n. f.	horse	
+151632	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
 151633	xxxxx	?	?	?	?	
 # KTU 1.97 3						
 151634	w	w	w	conj.	and	
-151635	št	št[:pass	/š-t/	vb G/Gpass	to place	
+151635	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
 151635	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
-151635	št	š(t(I)/t	št (I)	n. m. sg.	base	
+151635	št	št(I)/	št (I)	n. m. sg.	base	
 151636	mkšr	mkšr/	mkšr	n. m. sg.	semolina	
 151637	grn	grn(I)/	grn (I)	n. m. sg.	threshing-floor	
 151637	grn	grn(II)/	grn (II)	adj. m. sg.	current	
@@ -24,35 +24,38 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151639	arġn	?	?	?	?	DULAT: NOT FOUND
 151640	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
 151640	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
-151641	tdk	ndd[+k	/n-d-d/	vb	to go	
-151641	tdk	ydy(I)[+k	/y-d-y/ (I)	vb	to throw	
-151641	tdk	nd[+k	/n-d(-y)/	vb	to throw	
+151641	tdk	ndd[+k	/n-d-d/	vb G suffc.	to go	
+151641	tdk	!!ndd[/+k	/n-d-d/	vb G inf.	to go	
+151641	tdk	ydy(I)[+k	/y-d-y/ (I)	vb G prefc. / vb G impv.	to throw	
+151641	tdk	!!ydy(I)[/+k	/y-d-y/ (I)	vb G inf.	to throw	
+151641	tdk	ydy(I)[/+k	/y-d-y/ (I)	vb G act. ptcpl. m.	to throw	
+151641	tdk	nd[+k	/n-d(-y)/	vb G suffc.	to throw	
 151642	xxxx	?	?	?	?	
 # KTU 1.97 5						
 151643	w	w	w	conj.	and	
-151644	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
+151644	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 151645	b	b	b	prep.	in	
 151646	aph	ap(I)+h	ảp (I)	adv./conj.	also	
 151646	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.97 6						
 151647	k	k(III)	k (III)	Subordinating or completive functor	when	
-151648	yraš	rʔš[š	/r-ʔ-š/	vb G	to toss the head	
-151649	śśw	ss/	s:śs/św	n. f.	horse	
+151648	yraš	rʔš[š	/r-ʔ-š/	vb G prefc.	to toss the head	
+151649	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
 151650	xxxxxxx	?	?	?	?	
 # KTU 1.97 7						
 151651	ydk	yd(I)/+k	yd (I)	n. f.	hand	
 151651	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
 151651	ydk	yd(II)/+k	yd (II)	n. m.	love	
 151651	ydk	yd(II)/+k=	yd (II)	n. m.	love	
-151651	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
-151651	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
-151652	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
+151651	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
+151651	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
+151652	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 151653	b	b	b	prep.	in	
 151654	aph	ap(I)+h	ảp (I)	adv./conj.	also	
 151654	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.97 8						
 151655	xxxkṣ	?	?	?	?	DULAT: NOT FOUND
-151656	śśw	ss/	s:śs/św	n. f.	horse	
+151656	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
 151657	xxxxx	?	?	?	?	
 # KTU 1.97 9						
 151658	xxxxx	?	?	?	?	
@@ -61,26 +64,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151660	xx	?	?	?	?	
 # KTU 1.97 11						
 151661	k	k(III)	k (III)	Subordinating or completive functor	when	
-151662	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G	to reproach	
-151663	śśw	ss/	s:śs/św	n. f.	horse	
+151662	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc.	to reproach	
+151663	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
 # KTU 1.97 12						
 151664	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
 151664	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 151665	ˤṯrb	ˤṯrb/	ʕṯrb	n. m. sg.	arbrisseau semblable au grenadier	
 151666	drˤ	d/	d/ḏrʕ	n. m. sg.	seed	
-151666	drˤ	drˤ[	/d-r-ʕ/	vb G	to sow	
+151666	drˤ	!!drˤ[/	/d-r-ʕ/	vb G inf.	to sow	
 151667	xxxxxx	?	?	?	?	
 # KTU 1.97 13						
 151668	w	w	w	conj.	and	
 151669	tmṯl	tmṯl/	tmṯl	n. m. sg.	equal amount	
-151670	ld	yld[	/y-l-d/	vb G	to give birth (to)	
+151670	ld	yld[	/y-l-d/	vb G impv.	to give birth (to)	
 151671	xxxxxxxxxx	?	?	?	?	
 # KTU 1.97 14						
 151672	mġmġ	mġmġ/	mġmġ	n. m. sg.		
 151673	w	w	w	conj.	and	
-151674	št	št[:pass	/š-t/	vb G/Gpass	to place	
+151674	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
 151674	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
-151674	št	š(t(I)/t	št (I)	n. m. sg.	base	
+151674	št	št(I)/	št (I)	n. m. sg.	base	
 151675	nni	nn(u(I)/&i	nnủ (I)	n. m. sg.	Ammi	
 151676	xxxxxxxx	?	?	?	?	
 # KTU 1.97 15						

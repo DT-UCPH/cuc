@@ -3,12 +3,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158719	l	l(I)	l (I)	prep.	to	
 158719	l	l(II)	l (II)	adv.	no	
 158719	l	l(III)	l (III)	functor	certainly	
-158720	ybnn	!y!bn(y[+n	/b-n-y/	vb	to build	
+158720	ybnn	!y!](n]bn(y[:pass+n	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
 158720	ybnn	ybnn/	ybnn	PN	ybnn	
 # KTU 2.64 2						
 158721	adny	adn(I)/+y	ảdn (I)	n. m.	lord	
 # KTU 2.64 3						
-158722	rgm	rgm[	/r-g-m/	vb G	to say	
+158722	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158722	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158722	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158722	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.64 4						
 158723	tḥm	tḥm/	tḥm	n. m. sg.	message	
@@ -17,21 +19,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158725	bnk	bn(I)/+k	bn (I)	n. m.	son	
 # KTU 2.64 6						
 158726	l	l(I)	l (I)	prep.	to	
-158727	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+158727	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 158728	adny	adn(I)/+y	ảdn (I)	n. m.	lord	
 # KTU 2.64 7						
-158729	qlt	ql[t	/q-l/	vb G	to fall (down)	
+158729	qlt	ql[t	/q-l/	vb G suffc.	to fall (down)	
 # KTU 2.64 8						
 158730	a	?	?	?	?	
 # KTU 2.64 9						
 158731	l	l(I)	l (I)	prep.	to	
 158731	l	l(II)	l (II)	adv.	no	
 158731	l	l(III)	l (III)	functor	certainly	
-158732	ybnn	!y!bn(y[+n	/b-n-y/	vb	to build	
+158732	ybnn	!y!](n]bn(y[:pass+n	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
 158732	ybnn	ybnn/	ybnn	PN	ybnn	
 # KTU 2.64 10						
 158733	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
-158734	rgm	rgm[	/r-g-m/	vb G	to say	
+158734	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158734	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158734	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158734	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.64 11						
 158735	tḥm	tḥm/	tḥm	n. m. sg.	message	
@@ -40,7 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158737	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 # KTU 2.64 13						
 158738	l	l(I)	l (I)	prep.	to	
-158739	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+158739	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 158740	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.64 14						
 158741	ṯnid	ṯnid	ṯnỉd	adv.	twice	
@@ -48,19 +52,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.64 15						
 158743	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
 # KTU 2.64 16						
-158744	qlt	ql[t	/q-l/	vb G	to fall (down)	
+158744	qlt	ql[t	/q-l/	vb G suffc.	to fall (down)	
 158745	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.64 17						
 158746	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 158747	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.64 18						
 158748	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158748	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158748	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 158748	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.64 19						
-158749	rgm	rgm[	/r-g-m/	vb G	to say	
+158749	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158749	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158749	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158749	rgm	rgm/	rgm	n. m. sg.	word	
-158750	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+158750	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+158750	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.64 20						
 158751	l	l(I)	l (I)	prep.	to	
 158751	l	l(III)	l (III)	functor	certainly	

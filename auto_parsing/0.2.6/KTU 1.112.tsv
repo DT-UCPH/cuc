@@ -35,14 +35,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 6						
 153608	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 153609	w	w	w	conj.	and	
-153610	bn	bn(I)/	bn (I)	n. m.	son	
+153610	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 153610	bn	bn(II)	bn (II)	prep.	between	
-153610	bn	bn[	/b-n/	vb G	to understand	
-153611	mlk	mlk[	/m-l-k/	vb G	to reign	
+153610	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+153611	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153611	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153612	wbnt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 7						
-153613	mlk	mlk[	/m-l-k/	vb G	to reign	
+153613	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153613	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153614	ttˤln	?	?	?	?	DULAT: NOT FOUND
 153615	pamt	pa/m	pảm(t)	n. f. pl.	time	
@@ -52,16 +52,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153618	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
 153618	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 153618	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
-153619	tˤln	ˤly[n	/ʕ-l-y/	vb G	to go up	
+153619	tˤln	ˤly[n	/ʕ-l-y/	vb G prefc.	to go up	
 153620	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 153621	bḫmn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 9						
-153622	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G	to enter	
-153622	ˤrb	ˤrb(II)[	/ʕ-r-b/ (II)	vb G	to give a guarantee or pledge	
+153622	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 153622	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
 153623	špš	špš/	špš	n. sg.	sun	
 153624	wḥl	?	?	?	?	DULAT: NOT FOUND
-153625	mlk	mlk[	/m-l-k/	vb G	to reign	
+153625	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153625	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.112 10						
 153626	bšbˤ	?	?	?	?	DULAT: NOT FOUND
@@ -69,9 +68,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153627	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 153628	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
 153628	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
-153629	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt	to wash	
+153629	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc.	to wash	
 # KTU 1.112 11						
-153630	mlk	mlk[	/m-l-k/	vb G	to reign	
+153630	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153630	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153631	brr	br/	br(r)	n. m. sg.	tin	
 153631	brr	brr/	brr	adj. m. sg.	pure	
@@ -84,8 +83,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153637	ksp	ksp/	ksp	n. m. sg.	silver	
 153638	w	w	w	conj.	and	
 153639	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-153639	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
-153639	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+153639	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
+153639	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 # KTU 1.112 13						
 153640	yn	yn/	yn	n. m. sg.	wine	
 153641	l	l(I)	l (I)	prep.	to	
@@ -95,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153645	ˤšt	ˤš(t/t	ʕšt(y)	n. sg. of card. num.	one	
 # KTU 1.112 14						
 153646	ˤšrh	ˤšr(I)/+h	ʕšr (I)	n. num.	ten	
-153646	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+153646	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 153646	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 153647	ṣba	ṣb(u(II)/&a	ṣbủ (II)	n. m. sg.	setting	
 153648	špš	špš/	špš	n. sg.	sun	
@@ -104,14 +103,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153650	l	l(I)	l (I)	prep.	to	
 153650	l	l(II)	l (II)	adv.	no	
 153650	l	l(III)	l (III)	functor	certainly	
-153651	mlk	mlk[	/m-l-k/	vb G	to reign	
+153651	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153651	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153652	b	b	b	prep.	in	
 153653	ṯlṯt	ṯlṯ(I)/t	ṯlṯ (I)	n. nuf. sg.	three	
 # KTU 1.112 16						
-153654	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. m. sg.	banquet	
+153654	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 153654	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
-153655	yrt	!y!(yrd[	/y-r-d/	vb G	to go down	
+153655	yrt	!y!(yrd[	/y-r-d/	vb G suffc.	to go down	
 153656	ḥṣ	ḥṣ/	ḥṣ	n. m. sg.	gravel	
 153657	m	l(I)	l (I)	prep.	to	
 # KTU 1.112 17						
@@ -121,9 +120,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153660	b	b	b	prep.	in	
 153661	arbˤt	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.112 18						
-153662	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. m. sg.	banquet	
+153662	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 153662	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
-153663	yrdn	!y!(yrd[+n	/y-r-d/	vb	to go down	
+153663	yrdn	!y!(yrd[+n	/y-r-d/	vb G prefc. / vb G suffc.	to go down	
 153664	gṯrm	gṯr/+m(I)	gṯr	DN	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.112 19						
 153665	mṣdh	mṣd(I)/+h	mṣd (I)	n. m.	(feast / banquet of) game	
@@ -137,32 +136,35 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153668	lgṯrm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 20						
 153669	w	w	w	conj.	and	
-153670	rgm	rgm[	/r-g-m/	vb G	to say	
+153670	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+153670	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+153670	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 153670	rgm	rgm/	rgm	n. m. sg.	word	
 153671	gṯrm	gṯr/+m(I)	gṯr	DN	Gaṯaru/Gašru/eponym of the dead and deified kings	
-153672	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š	to return	
-153672	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š	to sit down	
+153672	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
+153672	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š prefc.	to sit down	
 # KTU 1.112 21						
 153673	w	w	w	conj.	and	
 153674	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 153674	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
-153675	yšr	!y!šr(I)[	/š-r/ (I)	vb G	to sing	
+153675	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc.	to sing	
 153676	b	b	b	prep.	in	
 153677	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
 153678	ˤ	?	?	?	?	
 # KTU 1.112 22						
 153679	šrh	šr(IV)/h	šr (IV)	n. m. sg.	navel	
-153679	šrh	šry[	/š-r-y/w/	vb G	to release	
+153679	šrh	šry[	/š-r-y/w/	vb G suffc.	to release	
+153679	šrh	!!šry[/	/š-r-y/w/	vb G inf.	to release	
 153680	šnpt	šnp(t/t	šnpt	n. f. sg.	wave- offering	
 153681	il	il(I)/	ỉl (I)	n. m.	god	
 153682	šbˤl	šbˤl/	šbʕl	PN	šbʿl	
-153683	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G	to wound	
+153683	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 # KTU 1.112 23						
-153684	pn	pn(m/	pnm	n. m. pl. tant.	face	
+153684	pn	pn(m/	pnm	n. m. pl. tant. pl.	face	
 153684	pn	pn	pn	functor	lest	
 153685	š	š/	š	n. m. sg.	ram	
-153686	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-153686	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+153686	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+153686	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 153687	ugrt	ugrt/	ủgrt	TN	Ugarit	
 153688	š	š/	š	n. m. sg.	ram	
 153689	ṯnšm	?	?	?	?	DULAT: NOT FOUND
@@ -191,28 +193,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153703	w	w	w	conj.	and	
 153704	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
 153705	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
-153705	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
+153705	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 153706	w	w	w	conj.	and	
 153707	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.112 27						
 153708	ˤšrh	ˤšr(I)/+h	ʕšr (I)	n. num.	ten	
-153708	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+153708	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 153708	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 153709	dqt	dq(t(I)/t	dqt (I)	adj. f. or n. f. sg.	small	
-153709	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. pl.	small	
+153709	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. sg.	small	
 153710	b	b	b	prep.	in	
 153711	ṯṯt	ṯṯ/t	ṯṯ	n. nuf. sg.	six	
 153712	ˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 28						
 153713	rt	rt/	rt	PN	rt	
-153714	šl	šl[	/š-l(-l)/	vb G	to plunder	
+153714	šl	šl[	/š-l(-l)/	vb G suffc.	to plunder	
+153714	šl	!!šl[/	/š-l(-l)/	vb G inf.	to plunder	
 153715	btbt	btbt/	btbt	DN	btbt	
 153716	w	w	w	conj.	and	
 153717	x	?	?	?	?	
 # KTU 1.112 29						
 153718	b	b	b	prep.	in	
 153719	šbˤt	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
-153720	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. m. sg.	banquet	
+153720	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 153720	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 # KTU 1.112 30						
 153721	iln	il(I)/+n	ỉl (I)	n. m.	god	

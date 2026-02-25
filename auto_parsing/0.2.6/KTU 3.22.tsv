@@ -3,16 +3,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161728	mitm	mit/m	mỉt	n. f. du.	a hundred	
 161729	kkr	kkr/	kkr	n. m. sg.	talent	
 # KTU 3.22 2						
-161730	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+161730	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 161730	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 161731	mitm	mit/m	mỉt	n. f. du.	a hundred	
 161732	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-161732	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
-161732	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+161732	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
+161732	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 # KTU 3.22 3						
 161733	d	d	d	det. or rel. functor	the one(s) of	
-161734	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
-161735	mlk	mlk[	/m-l-k/	vb G	to reign	
+161734	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
+161735	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 161735	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.22 4						
 161736	bd	b	b	prep.	in	

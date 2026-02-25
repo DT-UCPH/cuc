@@ -3,8 +3,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149116	xxxˤṣrm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 2						
 149117	xxṯpḥ	?	?	?	?	DULAT: NOT FOUND
-149118	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-149118	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+149118	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+149118	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 1.48 3						
 149119	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
 149119	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149120	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 # KTU 1.48 4						
 149121	lbˤlt	?	?	?	?	DULAT: NOT FOUND
-149122	btm	bt(II)/m	bt (II)	n. m.	house	
+149122	btm	bt(II)/m	bt (II)	n. m. pl. / n. m. du.	house	
 149122	btm	bt(I)/m	bt (I)	n. f. du.	daughter	
 # KTU 1.48 5						
 149123	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
@@ -30,7 +30,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149130	šnˤt	šnˤ(t/t	šnʕt	n. f. sg.	?	
 149131	yqš	yqš(II)/	yqš (II)	n. m.	game	
 # KTU 1.48 8						
-149132	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
+149132	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 149133	b	b	b	prep.	in	
 149134	išt	iš(t/t	ỉšt	n. f. sg.	fire	
 # KTU 1.48 9						
@@ -49,26 +49,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149143	b	b	b	prep.	in	
 149144	ym	ym(I)/	ym (I)	n. m. sg.	day	
 149144	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-149145	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
-149145	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
+149145	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
+149145	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
+149145	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl.	to sacrifice	
 149146	ṯpḥ	špḥ/	špḥ	n. m. sg.	family	
 149146	ṯpḥ	ṯpḥ/	ṯpḥ	n. m. sg.	stock	
-149147	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-149147	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+149147	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+149147	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 1.48 14						
 149148	aḥt	aḥd/t	ảḥd	adj. nuf./adv. nuf. sg.	one	
 149149	l	l(I)	l (I)	prep.	to	
 149149	l	l(III)	l (III)	functor	certainly	
 149150	mzy	mzy/	mzy	PN	a type of offering	
-149151	bn	bn(I)/	bn (I)	n. m.	son	
+149151	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 149151	bn	bn(II)	bn (II)	prep.	between	
-149151	bn	bn[	/b-n/	vb G	to understand	
+149151	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 149152	x	?	?	?	?	
 # KTU 1.48 15						
 149153	aḥt	aḥd/t	ảḥd	adj. nuf./adv. nuf. sg.	one	
 149154	l	l(I)	l (I)	prep.	to	
 149154	l	l(III)	l (III)	functor	certainly	
-149155	mkt	mk(t/t	mkt	n. m. sg.	immolation	
+149155	mkt	mkt/	mkt	n. m. sg.	immolation	
 149156	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 149156	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
 # KTU 1.48 16						
@@ -77,7 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149159	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
 149160	šd	šd(I)/	šd (I)	n. m. sg.	open field	
 149160	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
-149160	šd	šdy[	/š-d-y/	vb G	to pour	
+149160	šd	šdy[	/š-d-y/	vb G impv.	to pour	
 # KTU 1.48 17						
 149161	arbˤ	arbˤ/	ảrbʕ	num.	four	
 149162	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	

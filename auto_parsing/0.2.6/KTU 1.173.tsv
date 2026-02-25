@@ -5,20 +5,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.173 2						
 155858	x	?	?	?	?	
 155859	l	l(I)	l (I)	prep.	to	
-155860	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+155860	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 155861	ġdm	ġdm	ġdm	?	?	
 # KTU 1.173 3						
 155862	xld	?	?	?	?	DULAT: NOT FOUND
-155863	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+155863	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 155863	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155864	wš	?	?	?	?	DULAT: NOT FOUND
 155865	l	l(I)	l (I)	prep.	to	
-155866	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+155866	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 # KTU 1.173 4						
 155867	x	?	?	?	?	
 155868	š	š/	š	n. m. sg.	ram	
 155869	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
-155870	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+155870	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 155870	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155871	w	w	w	conj.	and	
 155872	š	š/	š	n. m. sg.	ram	
@@ -50,16 +50,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155886	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
 155886	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 # KTU 1.173 10						
-155887	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-155887	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+155887	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+155887	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 1.173 11						
 155888		?	?	?	?	
 155889	špqġhm	špqġhm	špqġhm	?		
 155890	š	š/	š	n. m. sg.	ram	
 155891	m	l(I)	l (I)	prep.	to	
 # KTU 1.173 12						
-155892	šlmm	šlm(II)/~m	šlm (II)	n. m.	communion victim / sacrifice	
-155892	šlmm	šlm(II)/m	šlm (II)	n. m.	communion victim / sacrifice	
+155892	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+155892	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 155893	š	š/	š	n. m. sg.	ram	
 155894	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 155894	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
@@ -68,7 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155895		?	?	?	?	
 155896	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
 155896	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
-155897	mlk	mlk[	/m-l-k/	vb G	to reign	
+155897	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 155897	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.173 14						
 155898	x	?	?	?	?	
@@ -79,7 +79,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155902	pamt	pa/m	pảm(t)	n. f. pl.	time	
 # KTU 1.173 16						
 155903	w	w	w	conj.	and	
-155904	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+155904	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 155905	npṣh	npṣ/+h	npṣ	n. m.	personal belongings	
 # KTU 1.173 17						
 155906	ṯˤh	ṯˤ(II)/h	ṯʕ (II)	n. m. sg.	Hero	

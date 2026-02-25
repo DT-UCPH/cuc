@@ -28,13 +28,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161538	arbˤt	arbˤ/	ảrbʕ	num.	four	
 161539	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 161540	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-161540	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
-161540	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+161540	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
+161540	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 # KTU 3.16 7						
 161541	arwd	arw/+d	ảrw	n. m.	lion, ?	
 161542	šm	š/m	š	n. m. du.	ram	
 161542	šm	šm(I)/	šm (I)	n. m. sg.	name	
-161543	bnš	bnš/	bnš	n. m.	man	
+161543	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 # KTU 3.16 8						
 161544	m	l(I)	l (I)	prep.	to	
 161545	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -68,5 +68,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161562	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161563	ˤb	ˤbd(I)/	ʕbd (I)	n. m.	servant	
 # KTU 3.16 16						
-161564	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G	to wound	
+161564	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 161565	ˤl	ˤl(I)	ʕl (I)	prep.	upon	

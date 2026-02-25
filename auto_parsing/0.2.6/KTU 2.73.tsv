@@ -8,11 +8,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159101		?	?	?	?	
 # KTU 2.73 3						
 159102	xxx	?	?	?	?	
-159103	tlkn	hlk[n	/h-l-k/	vb G	to go	
+159103	tlkn	hlk[n	/h-l-k/	vb G prefc.	to go	
 159104	ht	ht	ht	adv.	here	
 159105	b	b	b	prep.	in	
 # KTU 2.73 4						
-159106	tˤtq	!t!ˤtq[	/ʕ-t-q/	vb G	to pass	
+159106	tˤtq	!t!ˤtq[	/ʕ-t-q/	vb G prefc.	to pass	
 159107	by	b	b	prep.	in	
 159108	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 159109		?	?	?	?	
@@ -28,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159116	l	l(I)	l (I)	prep.	to	
 159116	l	l(II)	l (II)	adv.	no	
 159116	l	l(III)	l (III)	functor	certainly	
-159117	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb G/Dpass	to perish	
+159117	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb G prefc. / vb Dpass suffc.	to perish	
 159118	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 159119	x	?	?	?	?	
 # KTU 2.73 7						
@@ -40,20 +40,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159123	k	k(III)	k (III)	Subordinating or completive functor	when	
 159123	k	k(I)	k (I)	prep.	like	
 159123	k	k(II)	k (II)	emph. functor	yes	
-159124	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
-159125	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+159124	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
+159125	bt	bt(II)/	bt (II)	n. m. sg.	house	
 159125	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 159125	bt	bt(III)/	bt (III)	n. m. pl.	length	
-159126	mlk	mlk[	/m-l-k/	vb G	to reign	
+159126	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 159126	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 159127	l	l(I)	l (I)	prep.	to	
 159127	l	l(III)	l (III)	functor	certainly	
 # KTU 2.73 8						
 159128	hlny	hlny	hlny	deictic adv. functor	behold	
 159129	lm	l(I)	l (I)	prep.	to	
-159130	mt	m(t(II)/t	mt (II)	n. m. sg.	death	
-159130	mt	mt[	/m-t/	vb G	to die	
-159130	mt	mt(III)/	mt (III)	n. m.	man	
+159130	mt	mt(II)/	mt (II)	n. m. sg.	death	
+159130	mt	mt[	/m-t/	vb G suffc.	to die	
+159130	mt	!!mt[/	/m-t/	vb G inf.	to die	
+159130	mt	mt[/	/m-t/	vb G ptcpl.	to die	
+159130	mt	mt(III)/	mt (III)	n. m. sg. / n. m. pl. cstr.	man	
 159131	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 159132	xxxxxxx	?	?	?	?	
 159133	pḥm	pḥm/	pḥm	n. m. sg.	ember	
@@ -65,10 +67,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159138	inxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 159139	htm	htm	htm	adv.	now	
 # KTU 2.73 10						
-159140	ššmḫt	]š]šmḫ[t	/š-m-ḫ/	vb Š	to be glad	
+159140	ššmḫt	]š]šmḫ[t	/š-m-ḫ/	vb Š suffc.	to be glad	
 159141	w	w	w	conj.	and	
 159142	ht	ht	ht	adv.	here	
-159143	mlk	mlk[	/m-l-k/	vb G	to reign	
+159143	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 159143	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 159144	xxxxxxxxt	?	?	?	?	DULAT: NOT FOUND
 159145		?	?	?	?	
@@ -82,11 +84,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159149	w	w	w	conj.	and	
 159150	at	at(I)	ảt (I)	pers. pn.	you	
 159151	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
-159152	rgm	rgm[	/r-g-m/	vb G	to say	
+159152	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+159152	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159152	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159152	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.73 13						
 159153	w	w	w	conj.	and	
-159154	rgmt	rgm[t	/r-g-m/	vb G	to say	
+159154	rgmt	rgm[t	/r-g-m/	vb G suffc.	to say	
 159155	l	l(I)	l (I)	prep.	to	
 159155	l	l(III)	l (III)	functor	certainly	
 159156	aġzr	aġzr/	ảġzr	n. m. sg.	?	
@@ -96,11 +100,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159157	p	p(II)	p (II)	adv.	here	
 159158	at	at(I)	ảt (I)	pers. pn.	you	
 159159	mk	mk(II)	mk (II)	deictic functor	behold!	
-159160	tškḥ	!t!škḥ[	/š-k-ḥ/	vb G	to find	
+159160	tškḥ	!t!škḥ[	/š-k-ḥ/	vb G prefc.	to find	
 # KTU 2.73 15						
 159161	dt	d	d	det. or rel. functor	the one(s) of	
 159162	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
-159163	tlkn	hlk[n	/h-l-k/	vb G	to go	
+159163	tlkn	hlk[n	/h-l-k/	vb G prefc.	to go	
 # KTU 2.73 16						
 159164	w	w	w	conj.	and	
 159165	ap	ap(I)	ảp (I)	adv./conj.	also	
@@ -118,7 +122,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159174	w	w	w	conj.	and	
 # KTU 2.73 19						
 159175	at	at(I)	ảt (I)	pers. pn.	you	
-159176	mġ	mġy[	/m-ġ-y/	vb G	to come	
+159176	mġ	mġy[	/m-ġ-y/	vb G impv.	to come	
 159177	nškḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.73 20						
 159178	xxx	?	?	?	?	

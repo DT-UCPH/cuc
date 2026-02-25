@@ -6,15 +6,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156535	km	k(IV)	k (IV)	adv.	thus	
 156535	km	km	km	prep./conj./adv.		
 156535	km	+km, +km=	-km			
-156536	tr	tr[	/t-r/	vb G	to scour	
+156536	tr	!!tr[/	/t-r/	vb G inf.	to scour	
 156536	tr	tr(II)/	tr (II)	n. m. sg.	turtledove	
 # KTU 2.9 2						
 156537	špš	špš/	špš	n. sg.	sun	
-156538	ttn	ytn[	/y-t-n/	vb G	to give	
+156538	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
 156539		?	?	?	?	
 # KTU 2.9 3						
 156540	x	?	?	?	?	
-156541	ydˤt	!y!(ydˤ(I)[t	/y-d-ʕ/ (I)	vb G	to know	
+156541	ydˤt	!y!(ydˤ(I)[t	/y-d-ʕ/ (I)	vb G suffc.	to know	
+156541	ydˤt	(ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
 156542	k	+k	-k (I)			
 156542	k	~k	-k (II)			
 156542	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -30,9 +31,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156547	y	+y, [y	-y (I)	prep. functor	my	
 156547	y	~y	-y (II)	prep. functor	indeed	
 156547	y	y	y	prep. functor	oh!	
-156548	ṯby	ṯb[y	/ṯ-b/	vb G	to return	
+156548	ṯby	ṯb[y	/ṯ-b/	vb G suffc.	to return	
+156548	ṯby	!!ṯb[/y	/ṯ-b/	vb G inf.	to return	
 156549	w	w	w	conj.	and	
 # KTU 2.9 6						
 156550		?	?	?	?	
-156551	bnš	bnš/	bnš	n. m.	man	
+156551	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 156552	x	?	?	?	?	

@@ -1,9 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.35 1						
 157657	xn	?	?	?	?	DULAT: NOT FOUND
-157658	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-157658	bˤl	bˤl(I)/	bʕl (I)	n. m.	labourer	
-157658	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+157658	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+157658	bˤl	bˤl(I)/	bʕl (I)	n. m. sg. / n. m. pl.	labourer	
+157658	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 2.35 2						
 157659	tḥm	tḥm/	tḥm	n. m. sg.	message	
 # KTU 2.35 3						
@@ -15,12 +15,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157663	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.35 6						
 157664	šlmk	šlm(I)/+k	šlm (I)	n. m.	peace	
-157664	šlmk	šlm[+k	/š-l-m/	vb	to be well	
+157664	šlmk	šlm[:d+k	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 157664	šlmk	šlm(III)/+k	šlm (III)	adj. m.	pure	
 # KTU 2.35 7						
 157665	t	/t, /t=				
 157665	t	[t, [t=, [t==, [t===				
-157666	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š	to return	
+157666	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 157667	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.35 8						
 157668	mx	?	?	?	?	DULAT: NOT FOUND
@@ -28,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157669	rb	rb(I)/	rb (I)	adj. m. sg.	great	
 157669	rb	rb/	rb(b)	n. m. sg.	drizzle	
 # KTU 2.35 9						
-157670	mlk	mlk[	/m-l-k/	vb G	to reign	
+157670	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157670	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.35 10						
 157671	n	~n	-n (I)	encl. morph.		
@@ -38,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157672	w	w	w	conj.	and	
 157673	ht	ht	ht	adv.	here	
 # KTU 2.35 11						
-157674	tkt	nkt[	/n-k-t/	vb G	to immolate	
+157674	tkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
 157675	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.35 12						
 157676	xx	?	?	?	?	
@@ -49,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157678	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
 157678	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
 157678	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
-157679	bnš	bnš/	bnš	n. m.	man	
+157679	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 # KTU 2.35 15						
 157680	lk	l(I)+k	l (I)	prep.	to	
 157681	w	w	w	conj.	and	
@@ -60,12 +60,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157684	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 157685	argm	!(ʔ&a!rgm[	/r-g-m/	vb	to say	
 # KTU 2.35 17						
-157686	mlk	mlk[	/m-l-k/	vb G	to reign	
+157686	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157686	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 157687	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 2.35 18						
 157688		?	?	?	?	
-157689	bnš	bnš/	bnš	n. m.	man	
+157689	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 # KTU 2.35 19						
 157690	a	?	?	?	?	
 157691	w	w	w	conj.	and	

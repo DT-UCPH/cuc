@@ -3,8 +3,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151687	lt	lt	lt	?	?	
 151688	x	?	?	?	?	
 # KTU 1.98 2						
-151689	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
-151689	ˤn	ˤn[	/ʕ-n/	vb G	to see	
+151689	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. / n. f. du.	eye	
+151689	ˤn	ˤn[	/ʕ-n/	vb G impv.	to see	
 151689	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
 151690	il	il(I)/	ỉl (I)	n. m.	god	
 151691		?	?	?	?	
@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151693	x	?	?	?	?	
 # KTU 1.98 4						
 151694	w	w	w	conj.	and	
-151695	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+151695	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc.	to know	
 151696	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.98 5						
 151697	klm	kl/	kl	n. m.	totality (of)	
@@ -27,8 +27,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151702	p	p(III)/	p (III)	n. m.	mouth	
 151702	p	p(II)	p (II)	adv.	here	
 # KTU 1.98 8						
-151703	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-151703	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+151703	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+151703	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 151704	x	?	?	?	?	
 # KTU 1.98 9						
 151705	x	?	?	?	?	

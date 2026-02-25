@@ -4,8 +4,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.139 2						
 154867	ilib	ilib(I)/	ỉlỉb (I)	DN	father god	
 # KTU 1.139 3						
-154868	šlmm	šlm(II)/~m	šlm (II)	n. m.	communion victim / sacrifice	
-154868	šlmm	šlm(II)/m	šlm (II)	n. m.	communion victim / sacrifice	
+154868	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+154868	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.139 4						
 154869	x	?	?	?	?	
 154870	wṯn	?	?	?	?	DULAT: NOT FOUND
@@ -26,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154880	š	š/	š	n. m. sg.	ram	
 # KTU 1.139 9						
 154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
-154881	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
+154881	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 # KTU 1.139 10						
 154882	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg.	damsel	
 154882	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg.	concealment	
@@ -47,17 +47,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154889	k	k(III)	k (III)	Subordinating or completive functor	when	
 154889	k	k(I)	k (I)	prep.	like	
 154889	k	k(II)	k (II)	emph. functor	yes	
-154890	yšt	!y!št[:pass	/š-t/	vb G/Gpass	to place	
+154890	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
 # KTU 1.139 14						
 154891	pdry	pdry/	pdry	DN	Pidray	
 154891	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
-154892	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+154892	bt	bt(II)/	bt (II)	n. m. sg.	house	
 154892	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-154893	mlk	mlk[	/m-l-k/	vb G	to reign	
+154893	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 154893	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.139 15						
-154894	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
-154894	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
+154894	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
+154894	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
+154894	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl.	to sacrifice	
 154895	pdry	pdry/	pdry	DN	Pidray	
 154895	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
 # KTU 1.139 16						

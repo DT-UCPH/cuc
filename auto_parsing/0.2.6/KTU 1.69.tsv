@@ -2,7 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 1						
 149508	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg.	fortress	
 149509	bltn	bl(I)+n	bl (I)	adv. or emph. functor	no	
-149509	bltn	blt[+n	/b-l-t/	vb	to open wide	
+149509	bltn	blt[+n	/b-l-t/	vb G suffc.	to open wide	
 149509	bltn	bly[+n	/b-l-y/	vb	to devour	
 149510	i	i(I)	ỉ (I)	interj.	woe	
 149511		?	?	?	?	
@@ -10,10 +10,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149512	mṯ	mṯn/	mṯn	n. m.	repetition	
 149512	mṯ	mṯ(I)/	mṯ (I)	n. m. sg.	infant	
 149513	mṯty	mṯt/+y	mṯt	n. f.	damsel	
-149514	klt	kly[t:d	/k-l-y/	vb G/D	to finish	
 149514	klt	kl(t(I)/t	klt (I)	n. f. sg.	bride	
-149514	klt	kl(t(I)/t=	klt (I)	n. f. pl.	bride	
-149514	klt	kl(t(II)/t	klt (II)	n. f. sg.	measure	
+149514	klt	kl(t(I)/t=	/k-l-y/	vb G suffc. / vb D suffc.	to finish	
+149514	klt	kly[	klt (II)	n. f. sg.	measure	
+149514	klt	kl(t(II)/t				
 149515	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 3						
 149516	n	~n	-n (I)	encl. morph.		
@@ -38,19 +38,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149525	km	+km, +km=	-km			
 149526	ṯtmr	?	?	?	?	DULAT: NOT FOUND
 149527	mṯt	mṯ(t/t	mṯt	n. f. sg.	damsel	
-149528	klt	kly[t:d	/k-l-y/	vb G/D	to finish	
 149528	klt	kl(t(I)/t	klt (I)	n. f. sg.	bride	
-149528	klt	kl(t(I)/t=	klt (I)	n. f. pl.	bride	
-149528	klt	kl(t(II)/t	klt (II)	n. f. sg.	measure	
+149528	klt	kl(t(I)/t=	/k-l-y/	vb G suffc. / vb D suffc.	to finish	
+149528	klt	kly[	klt (II)	n. f. sg.	measure	
+149528	klt	kl(t(II)/t				
 # KTU 1.69 6						
 149529	mṯty	mṯt/+y	mṯt	n. f.	damsel	
-149530	klt	kly[t:d	/k-l-y/	vb G/D	to finish	
 149530	klt	kl(t(I)/t	klt (I)	n. f. sg.	bride	
-149530	klt	kl(t(I)/t=	klt (I)	n. f. pl.	bride	
-149530	klt	kl(t(II)/t	klt (II)	n. f. sg.	measure	
+149530	klt	kl(t(I)/t=	/k-l-y/	vb G suffc. / vb D suffc.	to finish	
+149530	klt	kly[	klt (II)	n. f. sg.	measure	
+149530	klt	kl(t(II)/t				
 149531	mkktm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 7						
-149532	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+149532	bt	bt(II)/	bt (II)	n. m. sg.	house	
 149532	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 149533	ryb	?	?	?	?	DULAT: NOT FOUND
 149534	lḏmrky	?	?	?	?	DULAT: NOT FOUND
@@ -59,7 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149536	utllt	?	?	?	?	DULAT: NOT FOUND
 149537	u	u	ủ	conj.	or	
 # KTU 1.69 9						
-149538	rd	yrd[	/y-r-d/	vb G	to go down	
+149538	rd	yrd[	/y-r-d/	vb G impv.	to go down	
 149539	u	u	ủ	conj.	or	
 149540	umam	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 10						
@@ -69,7 +69,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149543	lmṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 11						
 149544	nu	?	?	?	?	DULAT: NOT FOUND
-149545	bly	ybl[+y	/y-b-l/	vb	to carry	
+149545	bly	ybl[+y	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
 149545	bly	bl(I)+y	bl (I)	adv. or emph. functor	no	
 149545	bly	bly/	bly	PN	bly	
 # KTU 1.69 12						
@@ -81,7 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 13						
 149549	xx	?	?	?	?	
 # KTU 1.69 14						
-149550	ṣk	mḫṣ[+k	/m-ḫ-ṣ/	vb	to wound	
+149550	ṣk	mḫṣ[+k	/m-ḫ-ṣ/	vb G prefc.	to wound	
 # KTU 1.69 15						
 149551	n	~n	-n (I)	encl. morph.		
 149551	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	

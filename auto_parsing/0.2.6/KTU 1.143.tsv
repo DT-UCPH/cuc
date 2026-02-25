@@ -1,14 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.143 1						
 154949	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-154949	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
-154949	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+154949	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
+154949	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 154950	dt	d	d	det. or rel. functor	the one(s) of	
 154951	ypt	yp(t(I)/t	ypt (I)	n. f. sg.	cow	
 # KTU 1.143 2						
-154952	bn	bn(I)/	bn (I)	n. m.	son	
+154952	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 154952	bn	bn(II)	bn (II)	prep.	between	
-154952	bn	bn[	/b-n/	vb G	to understand	
+154952	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 154953	yknˤ	yknˤ/	yknʕ	PN	yknʿ	
 # KTU 1.143 3						
 154954	k	+k	-k (I)			
@@ -16,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154954	k	k(III)	k (III)	Subordinating or completive functor	when	
 154954	k	k(I)	k (I)	prep.	like	
 154954	k	k(II)	k (II)	emph. functor	yes	
-154955	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb G/N	to open	
+154955	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb G prefc. / vb N prefc.	to open	
 154956	yrk	yrk/	yrk	n. m. sg.	body back part	
 # KTU 1.143 4						
 154957	hnd	hnd	hnd	dem. adj./pn.	this	

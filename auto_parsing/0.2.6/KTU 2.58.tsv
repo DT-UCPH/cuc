@@ -2,9 +2,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.58 1						
 158592	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.58 2						
-158593	rgm	rgm[	/r-g-m/	vb G	to say	
+158593	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158593	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158593	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158593	rgm	rgm/	rgm	n. m. sg.	word	
-158594	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+158594	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+158594	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.58 3						
 158595	x	?	?	?	?	
 158596	amr	amr(I)/	ảmr (I)	n. m. sg.	order	

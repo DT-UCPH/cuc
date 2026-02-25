@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158660	b	b	b	prep.	in	
 158661	glb	glb/	glb	n. m.	Gerste	
 # KTU 2.62 6						
-158662	phnn	phy[n	/p-h-y/	vb G	to see	
+158662	phnn	phy[n	/p-h-y/	vb G suffc.	to see	
 158663	w	w	w	conj.	and	
 # KTU 2.62 7						
 158664	mndym	mndym/	mndym	GN	the (Ummān-)Manda	
@@ -24,11 +24,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158666	ddnh	dd(I)/+nh	dd (I)	adj. m. or n. m.	love, ?	
 158666	ddnh	ddn(I)/+h	ddn (I)	PN	ddn (I)	
 # KTU 2.62 9						
-158667	lqḥt	lqḥ[t	/l-q-ḥ/	vb G	to get hold of	
+158667	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc.	to get hold of	
 # KTU 2.62 10						
 158668	xrm	?	?	?	?	DULAT: NOT FOUND
 158669	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158670	mlk	mlk[	/m-l-k/	vb G	to reign	
+158670	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 158670	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.62 11						
 158671	yblhm	ybl(II)/+hm	ybl (II)	n. m. pl.	rod	
@@ -37,11 +37,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.62 12						
 158674	w	w	w	conj.	and	
 158675	b	b	b	prep.	in	
-158676	ṯbh	ṯb[h	/ṯ-b/	vb G	to return	
+158676	ṯbh	ṯb[h	/ṯ-b/	vb G suffc.	to return	
+158676	ṯbh	!!ṯb[/h	/ṯ-b/	vb G inf.	to return	
 158677	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
 # KTU 2.62 13						
 158678	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-158678	spr	spr[:d	/s-p-r/	vb G/D	to count	
+158678	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
+158678	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
 158678	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 158679	ḥxnx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.62 14						
@@ -49,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158681	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 158682		?	?	?	?	
 # KTU 2.62 15						
-158683	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G/Gpass	to get hold of	
+158683	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
 # KTU 2.62 16						
 158684	w	w	w	conj.	and	
 158685	n	~n	-n (I)	encl. morph.		

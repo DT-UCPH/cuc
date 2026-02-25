@@ -22,11 +22,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149229	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg.	bird	
 149230	l	l(I)	l (I)	prep.	to	
 149230	l	l(III)	l (III)	functor	certainly	
-149231	pdr	pdr(I)/	pdr (I)	n. m.	town	
+149231	pdr	pdr(I)/	pdr (I)	n. m. sg. / n. m. pl. cstr.	town	
 149232	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
 149233	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg.	ewe	
 # KTU 1.50 6						
-149234	tšnpn	!t!]š]np[n	/n-p/	vb Š	to raise	
+149234	tšnpn	!t!]š]np[n	/n-p/	vb Š prefc.	to raise	
 149235	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
 149236	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.50 7						
@@ -46,7 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149247	w	w	w	conj.	and	
 149248	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
 149249	šˤrt	šˤr(t(I)/t	šʕrt (I)	n. f. sg.	wool	
-149249	šˤrt	šˤr(t(I)/t=	šʕrt (I)	n. f. pl.	wool	
+149249	šˤrt	šˤr(t(I)/t=	šʕrt (I)	n. f. sg.	wool	
 149250	y	+y, [y	-y (I)	prep. functor	my	
 149250	y	~y	-y (II)	prep. functor	indeed	
 149250	y	y	y	prep. functor	oh!	
@@ -61,5 +61,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.50 11						
 149256	w	w	w	conj.	and	
 149257	ksp	ksp/	ksp	n. m. sg.	silver	
-149258	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G	to leave > to put in	
+149258	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc.	to leave > to put in	
 149259	x	?	?	?	?	

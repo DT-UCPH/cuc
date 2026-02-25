@@ -2,22 +2,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 1						
 153511	il	il(I)/	ỉl (I)	n. m.	god	
 153512	prz	prz/	prz	n. m. sg.	decision	
-153513	lmd	lmd/	lmd	adj. m. or n. m.	trained	
-153513	lmd	lmd[:d	/l-m-d/	vb D	to teach	
+153513	lmd	lmd/	lmd	adj. m. or n. m. sg. / adj. m. or n. m. pl. cstr.	trained	
+153513	lmd	lmd[:d	/l-m-d/	vb D suffc.	to teach	
 # KTU 1.111 2						
 153514	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
 153514	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 153514	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
-153515	ymm	ym(I)/m	ym (I)	n. m.	day	
+153515	ymm	ym(I)/m	ym (I)	n. m. pl. / n. m. du.	day	
 153515	ymm	ym(II)/	ym (II)	n. m. sg.	sea	
 153516	llxm	?	?	?	?	DULAT: NOT FOUND
-153517	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G	to enter	
+153517	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 # KTU 1.111 3						
-153518	mlk	mlk[	/m-l-k/	vb G	to reign	
+153518	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153518	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153519	aṯḫḫlm	?	?	?	?	DULAT: NOT FOUND
 153520	in	in/	ỉn	n. m. sg.	lack of	
-153521	atnd	ytn[+d	/y-t-n/	vb	to give, ?	
+153521	atnd	ytn[+d	/y-t-n/	vb G prefc. / vb G suffc.	to give, ?	
 # KTU 1.111 4						
 153522	ild	il(I)/+d	ỉl (I)	n. m.	god, ?	
 153523	tṯbd	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153526	in	in/	ỉn	n. m. sg.	lack of	
 153527	prznd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 6						
-153528	nkld	!n!kl(y[+d	/k-l-y/	vb	to finish, ?	
+153528	nkld	!n!](n]kl(y[+d	/k-l-y/	vb N suffc.	to finish, ?	
 153529	šrpm	šrp/	šrp	n. m. sg.	burnt sacrifice	
 153530	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 # KTU 1.111 7						
@@ -37,7 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153533	š	š/	š	n. m. sg.	ram	
 153534	lyrḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 8						
-153535	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+153535	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
 153536	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
 153537	in	in/	ỉn	n. m. sg.	lack of	
 153538	ṯlnd	?	?	?	?	DULAT: NOT FOUND
@@ -65,8 +65,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153553	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 153553	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
 153553	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
-153554	alpm	alp(I)/m	ảlp (I)	n. m.	(head of) cattle	
-153554	alpm	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+153554	alpm	alp(I)/m	ảlp (I)	n. m. pl. / n. m. du.	(head of) cattle	
+153554	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 # KTU 1.111 16						
 153555	b	b	b	prep.	in	
 153556	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
@@ -77,16 +77,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153558	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
 # KTU 1.111 17						
 153559	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
-153560	alpm	alp(I)/m	ảlp (I)	n. m.	(head of) cattle	
-153560	alpm	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+153560	alpm	alp(I)/m	ảlp (I)	n. m. pl. / n. m. du.	(head of) cattle	
+153560	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 153561	l	l(I)	l (I)	prep.	to	
 # KTU 1.111 18						
 153562	il	il(I)/	ỉl (I)	n. m.	god	
-153563	mlk	mlk[	/m-l-k/	vb G	to reign	
+153563	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153563	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153564	ššbˤ	?	?	?	?	DULAT: NOT FOUND
 153565	ṯat	ṯa(t/t	ṯảt	n. f. sg.	ewe	
-153565	ṯat	ṯa(t/t=	ṯảt	n. f. pl.	ewe	
+153565	ṯat	ṯa(t/t=	ṯảt	n. f. sg.	ewe	
 153566	l	l(I)	l (I)	prep.	to	
 153566	l	l(III)	l (III)	functor	certainly	
 # KTU 1.111 19						
@@ -112,6 +112,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153582	l	l(I)	l (I)	prep.	to	
 153582	l	l(II)	l (II)	adv.	no	
 153582	l	l(III)	l (III)	functor	certainly	
-153583	tšlm	!t!šlm[:d	/š-l-m/	vb D	to be well	
+153583	tšlm	!t!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 # KTU 1.111 24						
 153584	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	

@@ -13,12 +13,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154988	rxwm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 7						
 154989	x	?	?	?	?	
-154990	bšl	bšl[:d	/b-š-l/	vb D	to cook	
-154991	ybšl	!y!bšl[:d	/b-š-l/	vb D	to cook	
+154990	bšl	!!bšl[/	/b-š-l/	vb D inf.	to cook	
+154991	ybšl	!y!bšl[:d	/b-š-l/	vb D prefc.	to cook	
 # KTU 1.147 8						
 154992	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
 154992	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
-154993	št	št[:pass	/š-t/	vb G/Gpass	to place	
+154993	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
 # KTU 1.147 9						
 154994	dk	d+k	d	det. or rel. functor	the one(s) of	
 154994	dk	dll[+k	/d-l-l/	vb	to oppress	
@@ -33,22 +33,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.147 11						
 154998	b	b	b	prep.	in	
 154999	šr	šr(II)/	šr (II)	n. m. sg.	musician	
-154999	šr	šr(I)[	/š-r/ (I)	vb G	to sing	
+154999	šr	šr(I)[	/š-r/ (I)	vb G impv.	to sing	
 154999	šr	šr(III)/	šr (III)	n. m. sg.	Prince	
 # KTU 1.147 12						
 155000	l	l(I)	l (I)	prep.	to	
 155000	l	l(II)	l (II)	adv.	no	
 155000	l	l(III)	l (III)	functor	certainly	
 155001	qṣ	qṣ/	qṣ	n. m. sg.	end	
-155001	qṣ	qṣ[	/q-ṣ(-ṣ)/	vb G	to carve	
+155001	qṣ	!!qṣ[/	/q-ṣ(-ṣ)/	vb G inf. / vb G	to carve	
 155002	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.147 13						
 155003	lm	l(I)	l (I)	prep.	to	
 155004	tbṣˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 14						
 155005	xm	?	?	?	?	DULAT: NOT FOUND
-155006	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-155006	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+155006	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+155006	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 1.147 15						
 155007	xps	?	?	?	?	DULAT: NOT FOUND
 155008	pˤ	pˤ	pʕ	?	?	

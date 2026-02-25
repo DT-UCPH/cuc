@@ -1,21 +1,21 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.171 1						
-155759	bn	bn(I)/	bn (I)	n. m.	son	
+155759	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 155759	bn	bn(II)	bn (II)	prep.	between	
-155759	bn	bn[	/b-n/	vb G	to understand	
-155760	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+155759	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+155760	bt	bt(II)/	bt (II)	n. m. sg.	house	
 155760	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-155761	mlk	mlk[	/m-l-k/	vb G	to reign	
+155761	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 155761	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.171 2						
 155762	š	š/	š	n. m. sg.	ram	
 155763	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
-155764	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+155764	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 155764	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155765	w	w	w	conj.	and	
 155766	š	š/	š	n. m. sg.	ram	
-155767	šlmm	šlm(II)/~m	šlm (II)	n. m.	communion victim / sacrifice	
-155767	šlmm	šlm(II)/m	šlm (II)	n. m.	communion victim / sacrifice	
+155767	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+155767	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.171 3						
 155768	w	w	w	conj.	and	
 155769	š	š/	š	n. m. sg.	ram	
@@ -26,10 +26,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155773	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 # KTU 1.171 4						
 155774	rm	rm(I)/	rm (I)	adj. m. sg.	high	
-155774	rm	rm[	/r-m/	vb G	to go up	
+155774	rm	rm[	/r-m/	vb G suffc.	to go up	
 155774	rm	rm(II)/	rm (II)	n. m. sg.	erection	
 155775	w	w	w	conj.	and	
-155776	mlk	mlk[	/m-l-k/	vb G	to reign	
+155776	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 155776	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 155777	ykbd	?	?	?	?	DULAT: NOT FOUND
 155778	x	?	?	?	?	
@@ -42,8 +42,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155783	inšilm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.171 6						
 155784	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg./ord. num.	sixth	
-155785	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G	to sit down	
-155786	mlk	mlk[	/m-l-k/	vb G	to reign	
+155785	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
+155785	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+155786	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 155786	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 155787	b	b	b	prep.	in	
 155788	urbt	urb(t/t	ủrbt	n. f. sg.	window	

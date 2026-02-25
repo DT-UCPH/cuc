@@ -2,18 +2,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 1						
 151218	yn	yn/	yn	n. m. sg.	wine	
 151219	d	d	d	det. or rel. functor	the one(s) of	
-151220	ykl	!y!kl(y[:d	/k-l-y/	vb G/D	to finish	
+151220	ykl	!y!kl(y[:d	/k-l-y/	vb G prefc. / vb D prefc.	to finish	
 151221	bd	b	b	prep.	in	
 151222	r	?	?	?	?	
 # KTU 1.91 2						
 151223	b	b	b	prep.	in	
-151224	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
-151224	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
-151225	mlk	mlk[	/m-l-k/	vb G	to reign	
+151224	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
+151224	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
+151224	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl.	to sacrifice	
+151225	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 151225	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.91 3						
-151226	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
-151226	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
+151226	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
+151226	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
+151226	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl.	to sacrifice	
 151227	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.91 4						
 151228	tzġm	tzġ/m	tzġ	n. m. pl.	kind of sacrificial meat	
@@ -25,12 +27,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 7						
 151232	pdry	pdry/	pdry	DN	Pidray	
 151232	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
-151233	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+151233	bt	bt(II)/	bt (II)	n. m. sg.	house	
 151233	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-151234	mlk	mlk[	/m-l-k/	vb G	to reign	
+151234	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 151234	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.91 8						
-151235	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+151235	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 151235	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 151236	izr	izr/	ỉzr	n. m. sg.	investiture	
 # KTU 1.91 9						
@@ -41,14 +43,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151238	k	k(III)	k (III)	Subordinating or completive functor	when	
 151238	k	k(I)	k (I)	prep.	like	
 151238	k	k(II)	k (II)	emph. functor	yes	
-151239	tˤrb	!t!ˤrb(I)[	/ʕ-r-b/ (I)	vb G	to enter	
+151239	tˤrb	!t!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 151240	ṯˤṯtrt	?	?	?	?	DULAT: NOT FOUND
 151241	šd	šd(I)/	šd (I)	n. m. sg.	open field	
 151241	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
-151241	šd	šdy[	/š-d-y/	vb G	to pour	
-151242	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+151241	šd	šdy[	/š-d-y/	vb G impv.	to pour	
+151242	bt	bt(II)/	bt (II)	n. m. sg.	house	
 151242	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-151243	mlk	mlk[	/m-l-k/	vb G	to reign	
+151243	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 151243	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.91 11						
 151244	k	+k	-k (I)			
@@ -56,11 +58,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151244	k	k(III)	k (III)	Subordinating or completive functor	when	
 151244	k	k(I)	k (I)	prep.	like	
 151244	k	k(II)	k (II)	emph. functor	yes	
-151245	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb	to enter	
+151245	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 151246	ršpm	ršp/	ršp	DN	Rašap	
-151247	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+151247	bt	bt(II)/	bt (II)	n. m. sg.	house	
 151247	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-151248	mlk	mlk[	/m-l-k/	vb G	to reign	
+151248	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 151248	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.91 12						
 151249	ḫlu	ḫlu/	ḫlủ	n. m. sg.	cake	
@@ -69,22 +71,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151251	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m.	new moon	
 151251	ḥdṯm	ḥdṯ(I)/+m(I)	ḥdṯ (I)	adj.	new	
 # KTU 1.91 14						
-151252	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
-151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
+151252	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
+151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
+151252	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl.	to sacrifice	
 151253	bˤlxxxxx	?	?	?	?	DULAT: NOT FOUND
 151254	k	+k	-k (I)			
 151254	k	~k	-k (II)			
 151254	k	k(III)	k (III)	Subordinating or completive functor	when	
 151254	k	k(I)	k (I)	prep.	like	
 151254	k	k(II)	k (II)	emph. functor	yes	
-151255	tdd	ndd[	/n-d-d/	vb G	to go	
+151255	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
 151256	bˤlt	bˤl(t/t	bʕlt	n. f. sg.	lady	
 151257	bhtm	bt(II)/	bt (II)	n. m. pl.	house	
 # KTU 1.91 15						
 151258	b	b	b	prep.	in	
 151259	ġb	ġb(I)/	ġb (I)	n. m. sg.	(sacrificial) pit	
 151260	ršp	ršp/	ršp	DN	Rašap	
-151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m.	army	
+151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. sg. / n. m. pl.	army	
 151261	ṣbi	ṣb(u(II)/&i	ṣbủ (II)	n. m. sg.	setting	
 # KTU 1.91 16						
 151262	xxxxxkm	?	?	?	?	DULAT: NOT FOUND
@@ -103,7 +106,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 21						
 151271	lbnm	lbn(I)/m	lbn (I)	adj. m. pl.	white	
 151272	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
-151272	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+151272	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 151272	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151273	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 22						
@@ -114,9 +117,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151276	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
 151277	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 23						
-151278	bṣr	bṣr(II)[	/b-ṣ-r/ (II)	vb G	to sever	
+151278	bṣr	bṣr(II)[	/b-ṣ-r/ (II)	vb G impv.	to sever	
 151279	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
-151279	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+151279	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151280	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 24						
@@ -133,7 +136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151287	šmny	šmn(I)/+y	šmn (I)	n. m.	oil	
 151287	šmny	š&m/+ny	š	n. m.	ram	
 151287	šmny	šm(I)/+ny	šm (I)	n. m.	name	
-151288	kdm	kd(I)/m	kd (I)	n. f.	jar	
+151288	kdm	kd(I)/m	kd (I)	n. f. pl. / n. f. du.	jar	
 151289	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 27						
 151290	šmgy	šmgy/	šmgy	TN	šmgy	
@@ -146,7 +149,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 29						
 151296	bir	bir/	bỉr	TN/n. f.	biʾiru	
 151297	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
-151297	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+151297	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 151297	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151298	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151299	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
@@ -155,7 +158,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151301	ḫpty	ḫpty/	ḫb/pt(y)	TN	ḫb/pt(y)	Based on DULAT reconstruction.
 151301	ḫpty	ḫpt/+y	ḫpt	TN	ḫpt	Based on DULAT reconstruction.
 151301	ḫpty	ḫpty	ḫpty	→	?	
-151302	kdm	kd(I)/m	kd (I)	n. f.	jar	
+151302	kdm	kd(I)/m	kd (I)	n. f. pl. / n. f. du.	jar	
 151303	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151303	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 31						
@@ -192,5 +195,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151322	w	w	w	conj.	and	
 151323	ḥspṯn	?	?	?	?	DULAT: NOT FOUND
 151324	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-151324	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
-151324	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+151324	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
+151324	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	

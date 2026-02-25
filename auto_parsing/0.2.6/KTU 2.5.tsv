@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.5 3						
 156450	hp	?	?	?	?	DULAT: NOT FOUND
 156451	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-156451	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+156451	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 156451	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 156452	x	?	?	?	?	
 # KTU 2.5 4						
@@ -18,8 +18,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.5 5						
 156455	ġyk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.5 6						
-156456	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-156456	bˤl	bˤl(I)/	bʕl (I)	n. m.	labourer	
-156456	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+156456	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+156456	bˤl	bˤl(I)/	bʕl (I)	n. m. sg. / n. m. pl.	labourer	
+156456	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 2.5 7						
 156457	ġ	?	?	?	?	DULAT: NOT FOUND

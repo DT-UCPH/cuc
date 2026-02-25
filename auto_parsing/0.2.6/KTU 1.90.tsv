@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 1						
 151168	id	id	ỉd	conj.	when	
-151169	yph	!y!ph(y[	/p-h-y/	vb G	to see	
-151170	mlk	mlk[	/m-l-k/	vb G	to reign	
+151169	yph	!y!ph(y[	/p-h-y/	vb G prefc.	to see	
+151170	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 151170	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.90 2						
 151171	ršp	ršp/	ršp	DN	Rašap	
@@ -20,13 +20,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 5						
 151180	w	w	w	conj.	and	
 151181	ḥẓ	ḥẓ/	ḥẓ	n. m. sg.	arrow	
-151182	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+151182	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 151182	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.90 6						
 151183	w	w	w	conj.	and	
 151184	š	š/	š	n. m. sg.	ram	
 151185	lll	?	?	?	?	DULAT: NOT FOUND
-151186	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+151186	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 151186	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.90 7						
 151187	w	w	w	conj.	and	
@@ -53,7 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 14						
 151198	w	w	w	conj.	and	
 # KTU 1.90 15						
-151199	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+151199	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 151199	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.90 16						
 151200	x	?	?	?	?	
@@ -62,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 18						
 151202	xxxḫ	?	?	?	?	DULAT: NOT FOUND
 151203	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-151203	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+151203	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 151203	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 1.90 19						
 151204	xxx	?	?	?	?	
@@ -79,15 +79,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151211	l	l(II)	l (II)	adv.	no	
 151211	l	l(III)	l (III)	functor	certainly	
 151212	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-151212	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+151212	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 151212	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 151213	w	w	w	conj.	and	
-151214	mlk	mlk[	/m-l-k/	vb G	to reign	
+151214	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 151214	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.90 22						
-151215	ynṣl	!y!nṣl[	/n-ṣ-l/	vb N	to retire	
+151215	ynṣl	!y!nṣl[	/n-ṣ-l/	vb N prefc.	to retire	
 151216	l	l(I)	l (I)	prep.	to	
 151216	l	l(II)	l (II)	adv.	no	
 151216	l	l(III)	l (III)	functor	certainly	
 151217	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
-151217	ṯˤy	ṯˤy[	/ṯ-ʕ-y/	vb G	to offer	
+151217	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	

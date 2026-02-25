@@ -16,22 +16,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147851	abx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 4						
 147852	w	w	w	conj.	and	
-147853	ldm	yld[+m(I)	/y-l-d/	vb	to give birth (to)	
+147853	ldm	yld[+m(I)	/y-l-d/	vb N suffc.	to give birth (to)	
+147853	ldm	!!yld[/+m(I)	/y-l-d/	vb G inf.	to give birth (to)	
 147854	dt	d	d	det. or rel. functor	the one(s) of	
-147855	ymtm	!y!mt[m	/m-t/	vb G	to die	
+147855	ymtm	!y!mt[m	/m-t/	vb G prefc.	to die	
 # KTU 1.25 5						
 147856	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 147856	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
 147857	lẓpn	lṭpn/	lṭpn	adj. m.	Benevolent	Based on DULAT reconstruction.
 147857	lẓpn	lẓpn	lẓpn	→	?	
 # KTU 1.25 6						
-147858	pn	pn(m/	pnm	n. m. pl. tant.	face	
+147858	pn	pn(m/	pnm	n. m. pl. tant. pl.	face	
 147859	ym	ym(I)/	ym (I)	n. m. sg.	day	
 147859	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 147860	ymgn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 7						
 147861	i	i(I)	ỉ (I)	interj.	woe	
-147862	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+147862	bt	bt(II)/	bt (II)	n. m. sg.	house	
 147862	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 147863	l	l(I)	l (I)	prep.	to	
 147863	l	l(III)	l (III)	functor	certainly	

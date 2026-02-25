@@ -1,33 +1,35 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.34 1						
 157575	tḥm	tḥm/	tḥm	n. m. sg.	message	
-157576	mlk	mlk[	/m-l-k/	vb G	to reign	
+157576	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157576	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.34 2						
 157577	l	l(I)	l (I)	prep.	to	
 157577	l	l(III)	l (III)	functor	certainly	
 157578	ṯryl	ṯryl/	ṯryl	PN	ṯryl	
 157579	umy	um/y	ủm	n. f. sg.	mother	
-157580	rgm	rgm[	/r-g-m/	vb G	to say	
+157580	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+157580	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157580	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 157580	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.34 3						
-157581	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
+157581	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 157582	lk	l(I)+k	l (I)	prep.	to	
 157583	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.34 4						
-157584	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
-157585	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+157584	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+157585	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.34 5						
 157586	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
 157587	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157587	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157587	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 157587	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157588	k	+k	-k (I)			
 157588	k	~k	-k (II)			
 157588	k	k(III)	k (III)	Subordinating or completive functor	when	
 157588	k	k(I)	k (I)	prep.	like	
 157588	k	k(II)	k (II)	emph. functor	yes	
-157589	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+157589	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 # KTU 2.34 6						
 157590	umy	um/y	ủm	n. f. sg.	mother	
 157591	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
@@ -37,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.34 7						
 157594	kll	kll/	kll	n. m. sg.	totality	
 157595	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157595	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157595	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 157595	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157596	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.34 8						
@@ -45,13 +47,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157598	umy	um/y	ủm	n. f. sg.	mother	
 157599	mnm	mnm	mnm	indef. pn.	any(thing)	
 157600	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157600	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157600	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 157600	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.34 9						
 157601	w	w	w	conj.	and	
-157602	rgm	rgm[	/r-g-m/	vb G	to say	
+157602	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+157602	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157602	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 157602	rgm	rgm/	rgm	n. m. sg.	word	
-157603	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+157603	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+157603	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 157604	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.34 10						
 157605	w	w	w	conj.	and	
@@ -63,8 +68,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157607	k	k(II)	k (II)	emph. functor	yes	
 157608	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.34 11						
-157609	aḥš	!(ʔ&a!ḥš(I)[	/ḥ-š/ (I)	vb G	to hurry	
-157610	mġy	mġy[	/m-ġ-y/	vb G	to come	
+157609	aḥš	!(ʔ&a!ḥš(I)[	/ḥ-š/ (I)	vb G prefc.	to hurry	
+157610	mġy	mġy[	/m-ġ-y/	vb G suffc.	to come	
+157610	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 157611	mndˤ	mndˤ	mndʕ	adv.	perhaps	
 # KTU 2.34 12						
 157612	k	+k	-k (I)			
@@ -72,16 +78,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157612	k	k(III)	k (III)	Subordinating or completive functor	when	
 157612	k	k(I)	k (I)	prep.	like	
 157612	k	k(II)	k (II)	emph. functor	yes	
-157613	igr	!(ʔ&i!](n]gr[	/g-r/	vb N	to lodge	
+157613	igr	!(ʔ&i!](n]gr[	/g-r/	vb N prefc.	to lodge	
 157614	w	w	w	conj.	and	
 157615	u	u	ủ	conj.	or	
-157616	igr	!(ʔ&i!](n]gr[	/g-r/	vb N	to lodge	
+157616	igr	!(ʔ&i!](n]gr[	/g-r/	vb N prefc.	to lodge	
 # KTU 2.34 13						
 157617	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157618	špš	špš/	špš	n. sg.	sun	
 157619	lxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.34 14						
-157620	nšlḥ	!n!šlḥ(I)[	/š-l-ḥ/ (I)	vb G	to stretch	
+157620	nšlḥ	!n!šlḥ(I)[	/š-l-ḥ/ (I)	vb G prefc.	to stretch	
 157621	xxx	?	?	?	?	
 # KTU 2.34 15						
 157622	xxxxxxxxxx	?	?	?	?	
@@ -119,11 +125,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157641	išal	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.34 29						
 157642	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
-157643	ybl	!y!(ybl[	/y-b-l/	vb G	to carry	
+157643	ybl	!y!(ybl[	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
 157644	šdh	šd(I)/+h	šd (I)	n. m.	open field	
 # KTU 2.34 30						
 157645	adˤ	?	?	?	?	DULAT: NOT FOUND
-157646	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+157646	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv.	to know	
 157647	k	+k	-k (I)			
 157647	k	~k	-k (II)			
 157647	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -137,8 +143,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157651	mrṯ	mrṯ(I)/	mrṯ (I)	n. m. sg.	must	
 157651	mrṯ	mrṯ(II)/	mrṯ (II)	n. m. sg.	estate	
 157652	d	d	d	det. or rel. functor	the one(s) of	
-157653	štt	št[t:pass	/š-t/	vb G/Gpass	to place	
+157653	štt	št[t:pass	/š-t/	vb G suffc. / vb Gpass suffc.	to place	
 # KTU 2.34 33						
 157654	ašṣu	?	?	?	?	DULAT: NOT FOUND
 157655	b	b	b	prep.	in	
-157656	ṣdtk	yld[k	/y-l-d/	vb G	to give birth (to)	
+157656	ṣdtk	!!yld[/k	/y-l-d/	vb G inf.	to give birth (to)	

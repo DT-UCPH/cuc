@@ -7,9 +7,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162144	agny	agny(II)/	ảgny (II)	GN	ảgny (II)	
 # KTU 3.33 2						
 162145	d	d	d	det. or rel. functor	the one(s) of	
-162146	ptḥ	ptḥ[	/p-t-ḥ/	vb G	to open	
+162146	ptḥ	ptḥ[	/p-t-ḥ/	vb G suffc. / vb G impv.	to open	
+162146	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl.	to open	
 162146	ptḥ	ptḥ/	ptḥ	n. m. sg.	entrance	
-162147	ybnn	!y!bn(y[+n	/b-n-y/	vb	to build	
+162147	ybnn	!y!](n]bn(y[:pass+n	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
 162147	ybnn	ybnn/	ybnn	PN	ybnn	
 # KTU 3.33 3						
 162148	yd	yd(I)/	yd (I)	n. f. sg.	hand	
@@ -32,31 +33,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162157	kwr	kwr/	kwr	TN	kwr	
 # KTU 3.33 8						
 162158	d	d	d	det. or rel. functor	the one(s) of	
-162159	hlk	hlk[	/h-l-k/	vb G	to go	
-162159	hlk	hlk(I)/	hlk (I)	n. m. sg.	walk	
-162159	hlk	hlk(II)	hlk (II)	deictic adv. functor	behold!	
+162159	hlk	hlk[	/h-l-k/	vb G suffc.	to go	
+162159	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m.	to go	
 162160	b	b	b	prep.	in	
 162161	nḫl	nḫl(I)/	nḫl (I)	n. m. sg.	torrent	
 # KTU 3.33 9						
 162162	w	w	w	conj.	and	
 162163	ˤpś	?	?	?	?	DULAT: NOT FOUND
-162164	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-162164	bˤl	bˤl(I)/	bʕl (I)	n. m.	labourer	
-162164	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+162164	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 # KTU 3.33 10						
 162165	almg	almg/	ảlmg	n. m. sg.	aloe	
 # KTU 3.33 11						
-162166	bnš	bnš/	bnš	n. m.	man	
+162166	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 162167	l	l(I)	l (I)	prep.	to	
 162167	l	l(II)	l (II)	adv.	no	
 162167	l	l(III)	l (III)	functor	certainly	
-162168	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G/Gpass	to get hold of	
+162168	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
 # KTU 3.33 12						
 162169	ˤpsm	ˤpsm/	ʕp/bs/ś	n. m.	landmark	
 162170	hnmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
 # KTU 3.33 13						
 162171	bd	b	b	prep.	in	
-162172	ybnn	!y!bn(y[+n	/b-n-y/	vb	to build	
+162172	ybnn	!y!](n]bn(y[:pass+n	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
 162172	ybnn	ybnn/	ybnn	PN	ybnn	
 # KTU 3.33 14						
 162173	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
@@ -93,15 +91,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162188	šdm	šd(I)/m	šd (I)	n. m. pl.	open field	
 162189	hnmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
 # KTU 3.33 21						
-162190	unṯ	unṯ/	ủnṯ	n. m.	obligation	
+162190	unṯ	unṯ/	ủnṯ	n. m. sg. / n. m. pl. cstr.	obligation	
 162191	mhkm	mhk	mhk(m)	indef. pn.	anything	
 # KTU 3.33 22						
 162192	l	l(I)	l (I)	prep.	to	
 162192	l	l(II)	l (II)	adv.	no	
 162192	l	l(III)	l (III)	functor	certainly	
-162193	ybl	!y!(ybl[	/y-b-l/	vb G	to carry	
+162193	ybl	!y!(ybl[	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
 # KTU 3.33 23						
 162194	unṯm	unṯ/m	ủnṯ	n. m. du.	obligation	
 162195	bth	bt(II)/+h	bt (II)	n. m.	house	
 # KTU 3.33 24						
-162196	ybl	!y!(ybl[	/y-b-l/	vb G	to carry	
+162196	ybl	!y!(ybl[	/y-b-l/	vb G prefc. / vb G suffc.	to carry	

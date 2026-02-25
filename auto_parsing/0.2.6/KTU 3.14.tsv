@@ -10,9 +10,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.14 4						
 161490	unr	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.14 5						
-161491	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+161491	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G suffc.	to know	
+161491	ydˤ	!!(ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
+161491	ydˤ	(ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl.	to know	
 # KTU 3.14 6						
-161492	bnš	bnš/	bnš	n. m.	man	
+161492	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 # KTU 3.14 7						
 161493	kṯtġlm	kṯtġlm/	kṯtġlm	TN	kṯtġlm	
 # KTU 3.14 8						

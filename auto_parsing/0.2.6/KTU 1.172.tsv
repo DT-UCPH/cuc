@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155798	t	/t, /t=				
 155798	t	[t, [t=, [t==, [t===				
 # KTU 1.172 3						
-155799	bat	b(ʔ&a[t	/b-ʔ/	vb G	to enter	
+155799	bat	b(ʔ&a[t	/b-ʔ/	vb G suffc.	to enter	
 # KTU 1.172 4						
 155800	ṣḥr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 5						
@@ -18,13 +18,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155804	nwy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 8						
 155805	w	w	w	conj.	and	
-155806	angḥ	!(ʔ&a!ngḥ[	/n-g-ḥ/	vb N	to butt each other	
+155806	angḥ	!(ʔ&a!ngḥ[	/n-g-ḥ/	vb N prefc.	to butt each other	
 # KTU 1.172 9						
 155807	ṭx	?	?	?	?	DULAT: NOT FOUND
 155808	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl.	torrent	
 # KTU 1.172 10						
-155809	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-155809	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+155809	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+155809	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 1.172 11						
 155810	x	?	?	?	?	
 155811	ḫlt	ḫlt	ḫlt	?	?	
@@ -34,10 +34,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155813	šmal	šmal/	šmảl	adj. m. or n. m. sg.	left	
 # KTU 1.172 13						
 155814	xˤnk	?	?	?	?	DULAT: NOT FOUND
-155815	št	št[:pass	/š-t/	vb G/Gpass	to place	
+155815	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
 # KTU 1.172 14						
 155816	rn	rḥb(I)/+n	rḥb (I)	adj. m.	wide	
-155816	rn	pẓr[+n	/p-ẓ-r/	vb	to free	
+155816	rn	pẓr[+n	/p-ẓ-r/	vb G suffc.	to free	
+155816	rn	!!pẓr[/+n	/p-ẓ-r/	vb G inf.	to free	
 155816	rn	rks/+n	rks	n. m.	belt	
 155817	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 15						
@@ -60,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155824	l	l(I)	l (I)	prep.	to	
 155824	l	l(III)	l (III)	functor	certainly	
 155825	mˤt	mˤ(t/t	mʕt	n. f. sg.	?	
-155825	mˤt	mˤ(t/t=	mʕt	n. f. pl.	?	
+155825	mˤt	mˤ(t/t=	mʕt	n. f. sg.	?	
 # KTU 1.172 19						
 155826	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
 155827	ˤlyqm	ˤlyqm	ʕlyqm	?	?	

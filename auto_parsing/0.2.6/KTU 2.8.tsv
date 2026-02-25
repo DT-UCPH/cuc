@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156507	l	l(I)	l (I)	prep.	to	
 156507	l	l(II)	l (II)	adv.	no	
 156507	l	l(III)	l (III)	functor	certainly	
-156508	tṣi	yṣʔ[	/y-ṣ-ʔ/	vb G	to go out	
+156508	tṣi	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 156509	b	b	b	prep.	in	
 156510	bxx	?	?	?	?	DULAT: NOT FOUND
 156511	dm	dm(II)/	dm (II)	n. m.	blood	
@@ -18,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156512	k	k(I)	k (I)	prep.	like	
 156512	k	k(II)	k (II)	emph. functor	yes	
 # KTU 2.8 3						
-156513	ṯb	ṯb[	/ṯ-b/	vb G	to return	
+156513	ṯb	ṯb[	/ṯ-b/	vb G suffc. / vb G impv.	to return	
 156514	ˤrym	ˤry/+m(I)	ʕry	TN	ʿry	
 156515	w	w	w	conj.	and	
 156516	k	+k	-k (I)			
@@ -26,15 +26,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156516	k	k(III)	k (III)	Subordinating or completive functor	when	
 156516	k	k(I)	k (I)	prep.	like	
 156516	k	k(II)	k (II)	emph. functor	yes	
-156517	qlt	ql[t	/q-l/	vb G	to fall (down)	
+156517	qlt	ql[t	/q-l/	vb G suffc.	to fall (down)	
 156518	x	?	?	?	?	
 # KTU 2.8 4						
 156519	at	at(I)	ảt (I)	pers. pn.	you	
-156520	brt	br[t	/b-r(-r)/	vb G	to be or remain pure	
+156520	brt	br[t	/b-r(-r)/	vb G suffc.	to be or remain pure	
 156520	brt	br(t/t	brt	n. f. sg.	forecast	
 156521	lbk	lb/	lb	n. m. sg.	heart	
 156522	ˤnn	ˤn(I)/	ʕn (I)	n. f. du.	eye	
-156522	ˤnn	ˤnn/	ʕnn	n. m.	manservant	
+156522	ˤnn	ˤnn/	ʕnn	n. m. sg. / n. m. pl. cstr.	manservant	
 156523	x	?	?	?	?	
 # KTU 2.8 5						
 156524	ṣdq	ṣdq(I)/	ṣdq (I)	n. m. sg. or adj. m. (?)	justice	
@@ -43,15 +43,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156525	k	k(III)	k (III)	Subordinating or completive functor	when	
 156525	k	k(I)	k (I)	prep.	like	
 156525	k	k(II)	k (II)	emph. functor	yes	
-156526	ttn	ytn[	/y-t-n/	vb G	to give	
+156526	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
 156527	ly	l(I)+y	l (I)	prep.	to	
-156528	šn	šnw[	/š-n-w/	vb G	to change: a) reflex.	
+156528	šn	šnw[	/š-n-w/	vb G suffc.	to change: a) reflex.	
 # KTU 2.8 6						
 156529		?	?	?	?	
-156530	bn	bn(I)/	bn (I)	n. m.	son	
+156530	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 156530	bn	bn(II)	bn (II)	prep.	between	
-156530	bn	bn[	/b-n/	vb G	to understand	
-156531	rgm	rgm[	/r-g-m/	vb G	to say	
+156530	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+156531	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+156531	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+156531	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156531	rgm	rgm/	rgm	n. m. sg.	word	
 156532	w	w	w	conj.	and	
 156533	ydˤx	?	?	?	?	DULAT: NOT FOUND

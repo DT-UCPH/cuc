@@ -9,15 +9,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160699	arš	arš/	ảrš	DN	a monster (“many-headed”, “whale”)	
 # KTU 2.111 4						
 160700	w	w	w	conj.	and	
-160701	rgm	rgm[	/r-g-m/	vb G	to say	
+160701	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+160701	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+160701	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 160701	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.111 5						
 160702	šˤt	?	?	?	?	DULAT: NOT FOUND
-160703	bn	bn(I)/	bn (I)	n. m.	son	
+160703	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 160703	bn	bn(II)	bn (II)	prep.	between	
-160703	bn	bn[	/b-n/	vb G	to understand	
+160703	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 2.111 6						
-160704	sˤt	sˤ[t	/s-ʕ/	vb G	to sweep	
+160704	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. pl.	to sweep	
 160705	x	?	?	?	?	
 # KTU 2.111 7						
 160706	ṯx	?	?	?	?	DULAT: NOT FOUND

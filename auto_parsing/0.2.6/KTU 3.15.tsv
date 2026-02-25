@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.15 1						
-161499	npṣ	npṣ/	npṣ	n. m.	personal belongings	
+161499	npṣ	npṣ/	npṣ	n. m. sg. / n. m. pl. cstr.	personal belongings	
 161500	ˤx	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.15 2						
 161501	d	d	d	det. or rel. functor	the one(s) of	
@@ -9,9 +9,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.15 3						
 161504	w	w	w	conj.	and	
 161505	bd	b	b	prep.	in	
-161506	bn	bn(I)/	bn (I)	n. m.	son	
+161506	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161506	bn	bn(II)	bn (II)	prep.	between	
-161506	bn	bn[	/b-n/	vb G	to understand	
+161506	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 3.15 4						
 161507	udbr	udbr/	ủdbr	n. m.	leaseholder	
 # KTU 3.15 5						
@@ -28,9 +28,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.15 10						
 161513	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
 # KTU 3.15 11						
-161514	bn	bn(I)/	bn (I)	n. m.	son	
+161514	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161514	bn	bn(II)	bn (II)	prep.	between	
-161514	bn	bn[	/b-n/	vb G	to understand	
+161514	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 3.15 12						
 161515	x	?	?	?	?	
 # KTU 3.15 13						

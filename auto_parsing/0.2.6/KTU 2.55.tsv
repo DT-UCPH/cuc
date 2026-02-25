@@ -1,6 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.55 1						
-158548	ḥnn	lqḥ[+nn	/l-q-ḥ/	vb	to get hold of, ?	
+158548	ḥnn	lqḥ[+nn	/l-q-ḥ/	vb G suffc.	to get hold of, ?	
+158548	ḥnn	!!lqḥ[/+nn	/l-q-ḥ/	vb G inf.	to get hold of, ?	
 158548	ḥnn	ḥnn(II)/	ḥnn (II)	PN	ḥnn (II)	
 158548	ḥnn	ḥnn(I)/	ḥnn (I)	n. m.	kindness	
 158549		?	?	?	?	
@@ -11,7 +12,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158551	l	l(III)	l (III)	functor	certainly	
 158552	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.55 4						
-158553	rgm	rgm[	/r-g-m/	vb G	to say	
+158553	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158553	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158553	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158553	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.55 5						
 158554	xlk	?	?	?	?	DULAT: NOT FOUND

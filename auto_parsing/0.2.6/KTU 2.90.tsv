@@ -8,7 +8,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159974	yrmhd	yrmhd/	yrmhd	PN	yrmhd	
 # KTU 2.90 3						
 159975	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
-159976	rgm	rgm[	/r-g-m/	vb G	to say	
+159976	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+159976	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159976	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159976	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.90 4						
 159977	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
@@ -16,14 +18,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159979	bnšk	bnš/+k	bnš	n. m.	man	
 # KTU 2.90 5						
 159980	d	d	d	det. or rel. functor	the one(s) of	
-159981	lqḥt	lqḥ[t	/l-q-ḥ/	vb G	to get hold of	
-159982	ḫsrt	ḫsr[t	/ḫ-s-r/	vb G	to fail	
+159981	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc.	to get hold of	
+159982	ḫsrt	ḫsr[t	/ḫ-s-r/	vb G suffc.	to fail	
 # KTU 2.90 6						
 159983	w	w	w	conj.	and	
 159984	ank	ank	ảnk	pers. pn.	I	
-159985	aṯth	aṯt/+h	ảṯt	n. f.	woman	
+159985	aṯth	aṯ(t/t+h	ảṯt	n. f. sg.	woman	
 # KTU 2.90 7						
-159986	ytnt	!y!(ytn[t	/y-t-n/	vb G	to give	
+159986	ytnt	!y!(ytn[t	/y-t-n/	vb G suffc.	to give	
 159987	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.90 8						
 159988	w	w	w	conj.	and	
@@ -31,25 +33,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159990	hn	b	b	prep.	in	
 159990	hn	w	w	conj.	and	
 159990	hn	hn	hn	deictic functor/adv.	behold!	
-159991	bnš	bnš/	bnš	n. m.	man	
+159991	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 159992	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 9						
 159993	b	b	b	prep.	in	
 159994	gty	gt/+y	gt	n. f./element of TNN	gittu	
-159995	ḫbṯ	ḫbṯ[:pass	/ḫ-b-ṯ/	vb G/Gpass	to flee	
+159995	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc.	to flee	
+159995	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg.	to flee	
 159995	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg.	emancipated	
 # KTU 2.90 10						
 159996	w	w	w	conj.	and	
 159997	ht	ht	ht	adv.	here	
 159998	hn	hn	hn	deictic functor/adv.	behold!	
-159999	bnš	bnš/	bnš	n. m.	man	
+159999	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 160000	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 11						
-160001	ˤmm	ˤmm[:pass	/ʕ-m-m/	vb Gpass	to be covered	
-160002	aṯth	aṯt/+h	ảṯt	n. f.	woman	
+160001	ˤmm	ˤmm[:pass	/ʕ-m-m/	vb Gpass suffc.	to be covered	
+160002	aṯth	aṯ(t/t+h	ảṯt	n. f. sg.	woman	
 # KTU 2.90 12						
 160003	btk	bt(II)/+k	bt (II)	n. m.	house	
-160004	ṯb	ṯb[	/ṯ-b/	vb G	to return	
+160004	ṯb	ṯb[	/ṯ-b/	vb G suffc. / vb G impv.	to return	
 # KTU 2.90 13						
 160005	w	w	w	conj.	and	
 160006	and	an(I)/+d	ản (I)	pers. pn.	I, ?	
@@ -57,21 +60,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160007	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.90 14						
 160008	ḫrdk	ḫrd/	ḫrd	n. m. sg.	(royal) guard	
-160009	yuḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
+160009	yuḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
 # KTU 2.90 15						
 160010	hn	hn	hn	deictic functor/adv.	behold!	
-160011	bnš	bnš/	bnš	n. m.	man	
+160011	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 160012	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 16						
 160013	w	w	w	conj.	and	
-160014	štnnh	št[n+nh	/š-t/	vb	to place, ?	
+160014	štnnh	št[n+nh	/š-t/	vb G impv.	to place, ?	
 # KTU 2.90 17						
 160015	bd	b	b	prep.	in	
-160016	mlakty	mlakt/+y	mlảkt	n. f.	message	
+160016	mlakty	mlak(t/t+y	mlảkt	n. f. sg.	message	
 # KTU 2.90 18						
 160017	w	w	w	conj.	and	
 160018	kin	?	?	?	?	DULAT: NOT FOUND
-160019	hlk	hlk[	/h-l-k/	vb G	to go	
+160019	hlk	hlk[	/h-l-k/	vb G suffc.	to go	
+160019	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m.	to go	
 160019	hlk	hlk(I)/	hlk (I)	n. m. sg.	walk	
 160019	hlk	hlk(II)	hlk (II)	deictic adv. functor	behold!	
 # KTU 2.90 19						
@@ -79,24 +83,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160021	l	l(I)	l (I)	prep.	to	
 160021	l	l(II)	l (II)	adv.	no	
 160021	l	l(III)	l (III)	functor	certainly	
-160022	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+160022	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 # KTU 2.90 20						
 160023	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-160024	mlk	mlk[	/m-l-k/	vb G	to reign	
+160024	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 160024	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.90 21						
 160025	w	w	w	conj.	and	
 160026	ˤmkm	ˤm(I)+km	ʕm (I)	prep.	to	
 160026	ˤmkm	ˤm(II)&k/+m(I)	ʕm (II)	n. m.	lineage	
-160027	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+160027	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 # KTU 2.90 22						
 160028	w	w	w	conj.	and	
 160029	at	at(I)	ảt (I)	pers. pn.	you	
 160030	bd	b	b	prep.	in	
 # KTU 2.90 23						
-160031	mlakty	mlakt/+y	mlảkt	n. f.	message	
+160031	mlakty	mlak(t/t+y	mlảkt	n. f. sg.	message	
 160032	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.90 24						
-160033	štnn	št[n+n	/š-t/	vb	to place	
-160033	štnn	št[+nn	/š-t/	vb	to place, ?	
+160033	štnn	št[n+n	/š-t/	vb G impv.	to place	
+160033	štnn	št[:pass+nn	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place, ?	
 160033	štnn	št(II)/+nn	št (II)	n. f.	raíz, ?	

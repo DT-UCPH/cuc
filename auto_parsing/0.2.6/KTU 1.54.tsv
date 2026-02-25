@@ -1,7 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.54 1						
 149260	aġr	?	?	?	?	DULAT: NOT FOUND
-149261	ḫld	ḫl[+d	/ḫ-l/	vb	to writhe (with birth pangs), ?	
+149261	ḫld	ḫl[+d	/ḫ-l/	vb G impv.	to writhe (with birth pangs), ?	
+149261	ḫld	!!ḫl[/+d	/ḫ-l/	vb G inf.	to writhe (with birth pangs), ?	
 149261	ḫld	ḫl/+d	ḫl	n. m.	pain, ?	
 # KTU 1.54 2						
 149262	ṯwṯk	?	?	?	?	DULAT: NOT FOUND
@@ -28,14 +29,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.54 11						
 149275	ṯwṯk	?	?	?	?	DULAT: NOT FOUND
 149276	ṯnp	?	?	?	?	DULAT: NOT FOUND
-149277	ṯy	ṯy	ṯy		tribute	Based on DULAT reconstruction.
-149277	ṯy	ṯ+y	ṯ	→	?	
+149277	ṯy	ṯy	ṯy	→, prep.	tribute	
+149277	ṯy	ṯ+y	ṯ	→, prep.	?	
 # KTU 1.54 12						
 149278	aġr	?	?	?	?	DULAT: NOT FOUND
 149279	aṯṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.54 13						
 149280	ṯwṯkd	?	?	?	?	DULAT: NOT FOUND
-149281	sp	sp/	sp	n. m.	bowl	
+149281	sp	sp/	sp	n. m. sg. / n. m. pl. cstr.	bowl	
 # KTU 1.54 14						
-149282	trḫ	trḫ[:d	/t-r-ḫ/	vb G/D	to marry	
+149282	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to marry	
+149282	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl. / vb D act. ptcpl.	to marry	
 149283	štx	?	?	?	?	DULAT: NOT FOUND

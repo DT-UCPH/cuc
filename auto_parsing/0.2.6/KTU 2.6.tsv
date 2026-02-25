@@ -10,16 +10,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.6 3						
 156463	w	w	w	conj.	and	
 156464	lgpn	?	?	?	?	DULAT: NOT FOUND
-156465	rgm	rgm[	/r-g-m/	vb G	to say	
+156465	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+156465	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+156465	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156465	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.6 4						
-156466	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
+156466	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 156467	lkm	l(I)+km	l (I)	prep.	to	
 # KTU 2.6 5						
 156468	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-156469	tġrkm	nġr[km	/n-ġ-r/	vb G	to protect	
+156469	tġrkm	nġr[km	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.6 6						
-156470	tšlmkm	!t!šlm[km:d	/š-l-m/	vb D	to be well	
+156470	tšlmkm	!t!šlm[km:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.6 7						
 156471	xxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.6 8						
@@ -36,4 +38,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.6 13						
 156477	wrgm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.6 14						
-156478	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š	to return	
+156478	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	

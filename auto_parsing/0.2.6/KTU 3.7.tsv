@@ -2,28 +2,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.7 1						
 161100	mṣry	mṣry(I)/	mṣry (I)	GN	Egyptian	
 161101	d	d	d	det. or rel. functor	the one(s) of	
-161102	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G	to enter	
-161102	ˤrb	ˤrb(II)[	/ʕ-r-b/ (II)	vb G	to give a guarantee or pledge	
+161102	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
+161102	ˤrb	ˤrb(II)[	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 161102	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
 161103	b	b	b	prep.	in	
-161104	unṯ	unṯ/	ủnṯ	n. m.	obligation	
+161104	unṯ	unṯ/	ủnṯ	n. m. sg. / n. m. pl. cstr.	obligation	
 # KTU 3.7 2						
-161105	bn	bn(I)/	bn (I)	n. m.	son	
+161105	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161105	bn	bn(II)	bn (II)	prep.	between	
-161105	bn	bn[	/b-n/	vb G	to understand	
+161105	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 161106	qrrn	qrrn/	qrrn	PN	qrrn	
 161106	qrrn	qrr/+n	qrr	PN	qrr	
 161107	mḏrġl	mḏrġl/	mḏrġl	n. m. sg.	watchman	
 # KTU 3.7 3						
-161108	bn	bn(I)/	bn (I)	n. m.	son	
+161108	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161108	bn	bn(II)	bn (II)	prep.	between	
-161108	bn	bn[	/b-n/	vb G	to understand	
+161108	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 161109	tran	tran/	trản	PN	trản	
 161110	mḏrġl	mḏrġl/	mḏrġl	n. m. sg.	watchman	
 # KTU 3.7 4						
-161111	bn	bn(I)/	bn (I)	n. m.	son	
+161111	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161111	bn	bn(II)	bn (II)	prep.	between	
-161111	bn	bn[	/b-n/	vb G	to understand	
+161111	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 161112	ilh	il(t(I)/&h	ỉlt (I)	n. f. pl.	goddess	
 161112	ilh	ilh/	ỉlh	DN	the ‘Divine One’	
 161113	mḏrġl	mḏrġl/	mḏrġl	n. m. sg.	watchman	
@@ -34,52 +34,54 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161116	ulm	ulm/	ủlm	TN	ủlm	
 161116	ulm	ul/+m(I)	ủl	n. m.	(military) force	
 # KTU 3.7 6						
-161117	bn	bn(I)/	bn (I)	n. m.	son	
+161117	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161117	bn	bn(II)	bn (II)	prep.	between	
-161117	bn	bn[	/b-n/	vb G	to understand	
+161117	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 161118	qṭn	qṭn(I)/	qṭn (I)	n. m. sg.	imitation jewellery	
 161119	b	b	b	prep.	in	
 161120	ulm	ulm/	ủlm	TN	ủlm	
 161120	ulm	ul/+m(I)	ủl	n. m.	(military) force	
 # KTU 3.7 7						
-161121	bn	bn(I)/	bn (I)	n. m.	son	
+161121	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161121	bn	bn(II)	bn (II)	prep.	between	
-161121	bn	bn[	/b-n/	vb G	to understand	
+161121	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 161122	gdrn	gdrn/	gdrn	PN	gdrn	
 161123	b	b	b	prep.	in	
 161124	mˤrby	mˤrb/	mʕrb(y)	TN	mʿrb(y)	
 # KTU 3.7 8						
-161125	bn	bn(I)/	bn (I)	n. m.	son	
+161125	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161125	bn	bn(II)	bn (II)	prep.	between	
-161125	bn	bn[	/b-n/	vb G	to understand	
-161126	bn	bn(I)/	bn (I)	n. m.	son	
+161125	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161126	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161126	bn	bn(II)	bn (II)	prep.	between	
-161126	bn	bn[	/b-n/	vb G	to understand	
-161127	dˤm	ydˤ(I)[+m(I)	/y-d-ʕ/ (I)	vb	to know	
+161126	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161127	dˤm	ydˤ(I)[+m(I)	/y-d-ʕ/ (I)	vb G suffc.	to know	
+161127	dˤm	!!ydˤ(I)[/+m(I)	/y-d-ʕ/ (I)	vb G inf.	to know	
+161127	dˤm	ydˤ(I)[/+m(I)	/y-d-ʕ/ (I)	vb G act. ptcpl.	to know	
 161127	dˤm	dˤm/	dʕm	PN	dʿm	
 161128	b	b	b	prep.	in	
 # KTU 3.7 9						
-161129	bn	bn(I)/	bn (I)	n. m.	son	
+161129	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161129	bn	bn(II)	bn (II)	prep.	between	
-161129	bn	bn[	/b-n/	vb G	to understand	
+161129	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 161130	ppṯ	ppṯ/	ppṯ	PN	ppṯ	
 161131	b	b	b	prep.	in	
 # KTU 3.7 10						
-161132	bn	bn(I)/	bn (I)	n. m.	son	
+161132	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161132	bn	bn(II)	bn (II)	prep.	between	
-161132	bn	bn[	/b-n/	vb G	to understand	
+161132	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 161133	gbxd	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.7 11						
-161134	bn	bn(I)/	bn (I)	n. m.	son	
+161134	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161134	bn	bn(II)	bn (II)	prep.	between	
-161134	bn	bn[	/b-n/	vb G	to understand	
+161134	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 3.7 12						
 161135	šmy	šm(I)/y	šm (I)	n. m. sg.	name	
 # KTU 3.7 13						
-161136	tkn	!t!kn[	/k-n/	vb G	to be (stable)	
+161136	tkn	!t!kn[	/k-n/	vb G prefc.	to be (stable)	
 161137		?	?	?	?	
 # KTU 3.7 14						
-161138	knn	ˤny(I)[+nn	/ʕ-n-y/ (I)	vb	to answer, ?	
+161138	knn	ˤny(I)[/+nn	/ʕ-n-y/ (I)	vb G act. ptcpl.	to answer, ?	
 161138	knn	kn(II)+n	kn (II)	adv.	thus	
 161138	knn	knn/	knn	PN	knn	
 161139	b	b	b	prep.	in	
@@ -88,18 +90,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161141	krd	kr[+d	/k-r/	vb	to be hot, ?	
 161141	krd	krd(I)/	krd (I)	TN	krd (I)	
 # KTU 3.7 15						
-161142	bn	bn(I)/	bn (I)	n. m.	son	
+161142	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161142	bn	bn(II)	bn (II)	prep.	between	
-161142	bn	bn[	/b-n/	vb G	to understand	
+161142	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 161143	mṯ	mṯn/	mṯn	n. m.	repetition	
 161143	mṯ	mṯ(I)/	mṯ (I)	n. m. sg.	infant	
 161144	b	b	b	prep.	in	
-161145	qmy	qm[+y	/q-m/	vb	to stand up	
+161145	qmy	qm[+y	/q-m/	vb G suffc. / vb G impv.	to stand up	
+161145	qmy	qm[/+y	/q-m/	vb G act. ptcpl. sg.	to stand up	
 161145	qmy	qmy/	qmy	TN	qmy	
 161145	qmy	qm/+y	qm	n. m.	adversary	
 # KTU 3.7 16						
-161146	nˤr	nˤr(I)/	nʕr (I)	n. m.	boy	
-161146	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G/N	to become agitated	
+161146	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. / n. m. pl. cstr.	boy	
+161146	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. / vb G suffc. / vb N prefc. / vb N suffc.	to become agitated	
 161146	nˤr	nˤr(II)/	nʕr (II)	n. m. sg.	roasted	
 161147	b	b	b	prep.	in	
 161148	ulm	ulm/	ủlm	TN	ủlm	

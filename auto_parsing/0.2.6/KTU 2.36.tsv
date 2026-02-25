@@ -9,7 +9,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157699	l	l(I)	l (I)	prep.	to	
 157699	l	l(III)	l (III)	functor	certainly	
 157700	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
-157701	rgm	rgm[	/r-g-m/	vb G	to say	
+157701	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+157701	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157701	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 157701	rgm	rgm/	rgm	n. m. sg.	word	
 157702	hlny	hlny	hlny	deictic adv. functor	behold	
 157703	ˤm	ˤm(I)	ʕm (I)	prep.	to	
@@ -20,15 +22,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157707	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 157708	kll	kll/	kll	n. m. sg.	totality	
 157709	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157709	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157709	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 157709	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.36 4						
 157710	w	w	w	conj.	and	
 157711	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157711	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157711	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 157711	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157712	d	d	d	det. or rel. functor	the one(s) of	
-157713	ḥwtk	ḥwt/+k	ḥwt	n. f.	country	
+157713	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg.	country	
 157714	w	w	w	conj.	and	
 157715	dt	d	d	det. or rel. functor	the one(s) of	
 157716	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
@@ -36,11 +38,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157717	ky	k(III)	k (III)	Subordinating or completive functor	when	
 157717	ky	k(II)	k (II)	emph. functor	yes	
 157717	ky	k(IV)	k (IV)	adv.	thus	
-157718	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
-157719	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+157718	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
+157719	bt	bt(II)/	bt (II)	n. m. sg.	house	
 157719	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 157719	bt	bt(III)/	bt (III)	n. m. pl.	length	
-157720	mlk	mlk[	/m-l-k/	vb G	to reign	
+157720	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157720	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 157721	tḥmk	tḥm/+k	tḥm	n. m. sg.	message	
 157722	hlny	hlny	hlny	deictic adv. functor	behold	
@@ -49,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157724	argmny	argm/+ny	ả/ỉrgmn	n. m.	payment of tribute to the Hittite court	
 157725	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157726	špš	špš/	špš	n. sg.	sun	
-157727	štn	št[n	/š-t/	vb G	to place	
+157727	štn	št[n	/š-t/	vb G impv.	to place	
 157728	xx	?	?	?	?	
 # KTU 2.36 7						
 157729	w	w	w	conj.	and	
@@ -58,14 +60,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157732	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
 157732	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
 157733	d	d	d	det. or rel. functor	the one(s) of	
-157734	štt	št[t:pass	/š-t/	vb G/Gpass	to place	
+157734	štt	št[t:pass	/š-t/	vb G suffc. / vb Gpass suffc.	to place	
 157735	b	b	b	prep.	in	
-157736	mlaktk	mlakt/+k	mlảkt	n. f.	message	
+157736	mlaktk	mlak(t/t+k	mlảkt	n. f. sg.	message	
 # KTU 2.36 8						
 157737	xx	?	?	?	?	
-157738	tqdm	!t!qdm[:d	/q-d-m/	vb G/D	to proceed	
+157738	tqdm	!t!qdm[:d	/q-d-m/	vb G prefc. / vb D prefc.	to proceed	
 157739	udk	ud/+k	ủd	n. m.	pay	
-157740	mġt	mġy[t	/m-ġ-y/	vb G	to come	
+157740	mġt	mġy[t	/m-ġ-y/	vb G suffc.	to come	
 157741	w	w	w	conj.	and	
 157742	mlkn	mlk(I)	mlk (I)		king	
 157743	xx	?	?	?	?	
@@ -73,12 +75,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157744	ṣḥrt	?	?	?	?	DULAT: NOT FOUND
 157745	xnṯb	?	?	?	?	DULAT: NOT FOUND
 157746	ˤmnkm	ˤm(I)+km	ʕm (I)	prep.	to	
-157747	qrb	qrb[	/q-r-b/	vb G	to approach	
+157747	qrb	qrb[	/q-r-b/	vb G suffc.	to approach	
 157747	qrb	qrb/	qrb	n. m. sg.	inside	
 157748	xx	?	?	?	?	
 # KTU 2.36 10						
 157749	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-157749	aṯr	(ʔ&aṯr[:d	/ʔ-ṯ-r/	vb G/D	to go	
+157749	aṯr	(ʔ&aṯr[	/ʔ-ṯ-r/	vb G suffc. / vb D suffc.	to go	
+157749	aṯr	!!(ʔ&aṯr[/	/ʔ-ṯ-r/	vb G inf.	to go	
 157749	aṯr	aṯr(III)	ảṯr (III)	interr. adv.	where	
 157750	iṯt	iṯt	ỉṯt	?	?	
 157751	w	w	w	conj.	and	
@@ -87,16 +90,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157754	l	l(I)	l (I)	prep.	to	
 157754	l	l(II)	l (II)	adv.	no	
 157754	l	l(III)	l (III)	functor	certainly	
-157755	mġt	mġy[t	/m-ġ-y/	vb G	to come	
+157755	mġt	mġy[t	/m-ġ-y/	vb G suffc.	to come	
 157756	šxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 11						
 157757	w	w	w	conj.	and	
-157758	mlaktk	mlakt/+k	mlảkt	n. f.	message	
+157758	mlaktk	mlak(t/t+k	mlảkt	n. f. sg.	message	
 157759	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 157760	l	l(I)	l (I)	prep.	to	
 157760	l	l(II)	l (II)	adv.	no	
 157760	l	l(III)	l (III)	functor	certainly	
-157761	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+157761	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 # KTU 2.36 12						
 157762	xx	?	?	?	?	
 157763	km	k(III)	k (III)	functor	when	
@@ -104,7 +107,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157763	km	k(IV)	k (IV)	adv.	thus	
 157763	km	km	km	prep./conj./adv.		
 157763	km	+km, +km=	-km			
-157764	šknt	škn[t	/š-k-n/	vb G	to be placed	
+157764	šknt	škn[t	/š-k-n/	vb G suffc.	to be placed	
 157765	ly	l(I)+y	l (I)	prep.	to	
 157766	ht	ht	ht	adv.	here	
 157767	hln	hln	hln	deictic adv. functor	look!	
@@ -119,25 +122,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157775	štnt	ytn[t	/y-t-n/	vb	to give	
 # KTU 2.36 14						
 157776	ṯnnty	?	?	?	?	DULAT: NOT FOUND
-157777	rgm	rgm[	/r-g-m/	vb G	to say	
+157777	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+157777	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157777	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 157777	rgm	rgm/	rgm	n. m. sg.	word	
 157778	ky	k(III)	k (III)	Subordinating or completive functor	when	
 157778	ky	k(II)	k (II)	emph. functor	yes	
 157778	ky	k(IV)	k (IV)	adv.	thus	
-157779	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
-157780	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+157779	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
+157780	bt	bt(II)/	bt (II)	n. m. sg.	house	
 157780	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 157780	bt	bt(III)/	bt (III)	n. m. pl.	length	
-157781	mlk	mlk[	/m-l-k/	vb G	to reign	
+157781	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157781	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.36 15						
 157782	šbt	šb(t/t	šbt	n. f. sg.	greyness > old age	
-157783	ntbt	ntb(t/t	ntbt	n. m. sg.	path	
+157783	ntbt	ntbt/	ntbt	n. m. sg.	path	
 157784	mṣrm	mṣrm/	mṣrm	TN	Egypt	
 157784	mṣrm	mṣr/+m(I)	mṣr	n. m.	sob	
 157785	ušbtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 16						
-157786	ntbt	ntb(t/t	ntbt	n. m. sg.	path	
+157786	ntbt	ntbt/	ntbt	n. m. sg.	path	
 157787	mṣrm	mṣrm/	mṣrm	TN	Egypt	
 157787	mṣrm	mṣr/+m(I)	mṣr	n. m.	sob	
 157788	b	b	b	prep.	in	
@@ -150,30 +155,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157794	b	b	b	prep.	in	
 157795	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 157796	nġṯ	nġṯ/	nġṯ	TN	go to TN	
-157797	tˤtqnn	!t!ˤtq[n+n	/ʕ-t-q/	vb	to pass	
-157797	tˤtqnn	!t!ˤtq[+nn	/ʕ-t-q/	vb	to pass, ?	
+157797	tˤtqnn	!t!ˤtq[n+n	/ʕ-t-q/	vb G prefc.	to pass	
+157797	tˤtqnn	!t!ˤtq[+nn	/ʕ-t-q/	vb G prefc.	to pass, ?	
 # KTU 2.36 18						
 157798	xxxxḥwtm	?	?	?	?	DULAT: NOT FOUND
 157799	nxxx	?	?	?	?	DULAT: NOT FOUND
-157800	ysb	!y!sb(b[	/s:ś-b-b/	vb G	to turn round	
+157800	ysb	!y!sb(b[	/s:ś-b-b/	vb G suffc.	to turn round	
 157801	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg.	valley	
-157801	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m. sg.	tough	
 # KTU 2.36 19						
 157802	w	w	w	conj.	and	
 157803	ḥwtm	ḥwt/m	ḥwt	n. f. du.	country	
 157804	ugrt	ugrt/	ủgrt	TN	Ugarit	
-157805	tˤtqn	!t!ˤtq[n	/ʕ-t-q/	vb G	to pass	
+157805	tˤtqn	!t!ˤtq[n	/ʕ-t-q/	vb G prefc.	to pass	
 157806	ht	ht	ht	adv.	here	
 # KTU 2.36 20						
 157807	ṯlṯt	ṯlṯ(I)/t	ṯlṯ (I)	n. nuf. sg.	three	
-157808	rgm	rgm[	/r-g-m/	vb G	to say	
+157808	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+157808	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157808	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 157808	rgm	rgm/	rgm	n. m. sg.	word	
 157809	hnxxx	?	?	?	?	DULAT: NOT FOUND
 157810	xxš	?	?	?	?	DULAT: NOT FOUND
 157811	rxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 21						
 157812	xxx	?	?	?	?	
-157813	mlk	mlk[	/m-l-k/	vb G	to reign	
+157813	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157813	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 157814	grgmš	grgmš/	grgmš	TN	gargamiš	
 157815	xx	?	?	?	?	

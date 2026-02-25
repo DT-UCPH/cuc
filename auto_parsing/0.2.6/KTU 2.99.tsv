@@ -33,16 +33,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160292	xxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 11						
 160293	x	?	?	?	?	
-160294	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+160294	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 160294	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 160295	pḥm	pḥm/	pḥm	n. m. sg.	ember	
 # KTU 2.99 12						
-160296	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+160296	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 160296	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 160297	iqni	iqn(u/&i	ỉqnủ	n. m. sg.	gem of lapis lazuli	
 160298	w	w	w	conj.	and	
 160299	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-160300	ybl	!y!(ybl[	/y-b-l/	vb G	to carry	
+160300	ybl	!y!(ybl[	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
 # KTU 2.99 13						
 160301	d	d	d	det. or rel. functor	the one(s) of	
 160302	štnt	ytn[t	/y-t-n/	vb	to give	
@@ -58,10 +58,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160306	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
 160306	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 # KTU 2.99 18						
-160307	tqḥ	lqḥ[	/l-q-ḥ/	vb G	to get hold of	
+160307	tqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 # KTU 2.99 19						
 160308	pln	pln/	pln	PN	pln	
-160308	pln	pl[+n	/p-l(-l)/	vb	to be cracked	
+160308	pln	pl[+n	/p-l(-l)/	vb G suffc.	to be cracked	
 # KTU 2.99 20						
 160309	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 160310	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
@@ -72,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 22						
 160312	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 160313	nr	nr/	nr	n. m. sg.	sheen	
-160313	nr	nr[	/n-r/	vb G	to shine	
+160313	nr	nr[	/n-r/	vb G suffc.	to shine	
 # KTU 2.99 23						
 160314	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
 160314	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
@@ -103,7 +103,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160330	xxxrxqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 30						
 160331	x	?	?	?	?	
-160332	igrn	!(ʔ&i!](n]gr[n	/g-r/	vb N	to lodge	
+160332	igrn	!(ʔ&i!](n]gr[n	/g-r/	vb N prefc.	to lodge	
 # KTU 2.99 31						
 160333	qthm	qt/+hm	qt	n. m.	handle	
 160333	qthm	ṯigt/+hm	ṯỉgt	n. f.	neighing	

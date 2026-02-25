@@ -4,21 +4,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160402	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 160403		?	?	?	?	
 # KTU 2.101 2						
-160404	adty	adt/+y	ảdt	n. f. sg.	lady	
-160405	rgm	rgm[	/r-g-m/	vb G	to say	
+160404	adty	ad(t/t+y	ảdt	n. f. sg.	lady	
+160405	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+160405	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+160405	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 160405	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.101 3						
 160406	tḥm	tḥm/	tḥm	n. m. sg.	message	
 160407	skn	skn(I)/	s:śkn (I)	n. m. sg.	prefect	
 # KTU 2.101 4						
 160408	ly	l(I)+y	l (I)	prep.	to	
-160409	adty	adt/+y	ảdt	n. f. sg.	lady	
-160410	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
+160409	adty	ad(t/t+y	ảdt	n. f. sg.	lady	
+160410	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 # KTU 2.101 5						
 160411	w	w	w	conj.	and	
 160412	l	l(I)	l (I)	prep.	to	
-160413	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
-160414	adty	adt/+y	ảdt	n. f. sg.	lady	
+160413	pˤn	pˤn/	pʕn	n. f.	at the feet of	
+160414	adty	ad(t/t+y	ảdt	n. f. sg.	lady	
 # KTU 2.101 6						
 160415	xxxx	?	?	?	?	
 160416	šb	šb/	šb	n. m.	old man	
@@ -41,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160427	x	?	?	?	?	
 # KTU 2.101 12						
 160428	drˤ	d/	d/ḏrʕ	n. m. sg.	seed	
-160428	drˤ	drˤ[	/d-r-ʕ/	vb G	to sow	
+160428	drˤ	!!drˤ[/	/d-r-ʕ/	vb G inf.	to sow	
 160429	xgd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.101 13						
 160430	mˤnk	mˤn/+k	mʕn	n. m.	reply	

@@ -24,19 +24,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159405	a	?	?	?	?	
 # KTU 2.83 6						
 159406	xm	?	?	?	?	DULAT: NOT FOUND
-159407	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+159407	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 159408	hm	hm(II)	hm (II)	conj./interr. functor	if	
 159408	hm	hm(I)	hm (I)	pers. pn.	they	
 159409		?	?	?	?	
 # KTU 2.83 7						
 159410		?	?	?	?	
-159411	rgm	rgm[	/r-g-m/	vb G	to say	
+159411	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+159411	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159411	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159411	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.83 8						
 159412	m	l(I)	l (I)	prep.	to	
 159413	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-159413	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
-159413	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+159413	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
+159413	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 159414	x	?	?	?	?	
 # KTU 2.83 9						
 159415	xṣpy	?	?	?	?	DULAT: NOT FOUND

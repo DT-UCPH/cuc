@@ -1,13 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 1						
 154724	w	w	w	conj.	and	
-154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G	to answer	
-154726	bn	bn(I)/	bn (I)	n. m.	son	
+154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
+154726	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 # KTU 1.133 2						
 154727	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-154728	mt	m(t(II)/t	mt (II)	n. m. sg.	death	
-154728	mt	mt[	/m-t/	vb G	to die	
-154728	mt	m(t(I)/t	mt (I)	n. m. sg.	dead person	
+154728	mt	mt(II)/	mt (II)	n. m. sg.	death	
+154728	mt	mt[	/m-t/	vb G suffc.	to die	
+154728	mt	!!mt[/	/m-t/	vb G inf.	to die	
+154728	mt	mt[/	/m-t/	vb G ptcpl.	to die	
+154728	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 154729	npšm	npš(I)/	npš (I)	n. f.	throat	
 # KTU 1.133 3						
 154730	npš	npš(I)/	npš (I)	n. f. sg.	throat	
@@ -34,18 +36,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154742	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154742	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 1.133 8						
-154743	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
-154743	ˤn	ˤn[	/ʕ-n/	vb G	to see	
+154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. / n. f. du.	eye	
+154743	ˤn	ˤn[	/ʕ-n/	vb G impv.	to see	
 154743	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
 154744	kḏd	ḏd(II)/	ḏd (II)	n. m.	grotto	Based on DULAT reconstruction.
 154744	kḏd	kḏd	kḏd	→	?	
 154744	kḏd	ḏd(I)/	ḏd (I)	n. m.	breast	Based on DULAT reconstruction.
 154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg.	hind	
-154745	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl.	hind	
+154745	aylt	ayl(t(I)/t=	ảylt (I)	n. f. sg.	hind	
 # KTU 1.133 9						
-154746	mt	m(t(II)/t	mt (II)	n. m. sg.	death	
-154746	mt	mt[	/m-t/	vb G	to die	
-154746	mt	m(t(I)/t	mt (I)	n. m. sg.	dead person	
+154746	mt	mt(II)/	mt (II)	n. m. sg.	death	
+154746	mt	mt[	/m-t/	vb G suffc.	to die	
+154746	mt	!!mt[/	/m-t/	vb G inf.	to die	
+154746	mt	mt[/	/m-t/	vb G ptcpl.	to die	
+154746	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 154747	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154747	hm	hm(I)	hm (I)	pers. pn.	they	
 154748	ks	ks(I)/	ks (I)	n. m. sg.	cup	
@@ -74,15 +78,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 14						
 154762	xxxm	?	?	?	?	DULAT: NOT FOUND
 154763	ẓbm	ẓby/	ẓby	n. m. pl.	gazelle	
-154764	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
+154764	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 # KTU 1.133 15						
 154765	xxbn	?	?	?	?	DULAT: NOT FOUND
 154766	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.133 16						
-154767	mt	m(t(II)/t	mt (II)	n. m. sg.	death	
-154767	mt	mt[	/m-t/	vb G	to die	
-154767	mt	m(t(I)/t	mt (I)	n. m. sg.	dead person	
-154768	šmḥ	šmḫ[	/š-m-ḫ/	vb G	to be glad	
+154767	mt	mt(II)/	mt (II)	n. m. sg.	death	
+154767	mt	mt[	/m-t/	vb G suffc.	to die	
+154767	mt	!!mt[/	/m-t/	vb G inf.	to die	
+154767	mt	mt[/	/m-t/	vb G ptcpl.	to die	
+154767	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
+154768	šmḥ	šmḫ[	/š-m-ḫ/	vb G suffc.	to be glad	
 154769	p	p(I)	p (I)	conj. functor	and	
 154769	p	p(III)/	p (III)	n. m.	mouth	
 154769	p	p(II)	p (II)	adv.	here	
@@ -94,13 +100,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 18						
 154774	b	b	b	prep.	in	
 154775	abn	ab/+n	ảb	n. m.	father	
-154775	abn	abn/	ảbn	n. f.	stone	
-154775	abn	!(ʔ&a!bn[	/b-n/	vb G	to understand	
+154775	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
+154775	abn	!(ʔ&a!bn[	/b-n/	vb G impv.	to understand	
 154776	ˤ	?	?	?	?	
 154777	z	d	d	det. or rel. functor	the one(s) of	Based on DULAT reconstruction.
 154777	z	z	z	→	?	
 154778	w	w	w	conj.	and	
 # KTU 1.133 19						
 154779	rgbt	rgb(t/t	rgbt	n. f. sg.	respect	
-154780	zbl	zbl(I)/	zbl (I)	n. m.	prince	
-154780	zbl	zbl(III)/	zbl (III)	n. m. sg.	one carried	
+154780	zbl	zbl(I)/	zbl (I)	n. m. sg. / n. m. pl. cstr.	prince	

@@ -4,9 +4,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162033	ksp	ksp/	ksp	n. m. sg.	silver	
 162034	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 2						
-162035	bn	bn(I)/	bn (I)	n. m.	son	
+162035	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 162035	bn	bn(II)	bn (II)	prep.	between	
-162035	bn	bn[	/b-n/	vb G	to understand	
+162035	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 162036	rqdn	rqd/+n	rqd	TN	rqd	
 162036	rqdn	rqdn/	rqdn	PN	rqdn	
 # KTU 3.31 3						
@@ -29,9 +29,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162049	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 8						
 162050	xxxn	?	?	?	?	DULAT: NOT FOUND
-162051	bn	bn(I)/	bn (I)	n. m.	son	
+162051	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 162051	bn	bn(II)	bn (II)	prep.	between	
-162051	bn	bn[	/b-n/	vb G	to understand	
+162051	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 162052	drt	dr(t(I)/t	drt (I)	n. f. sg.	bran	
 162052	drt	drt(II)/	drt (II)	PN	drt (II)	
 # KTU 3.31 9						

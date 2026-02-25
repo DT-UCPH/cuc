@@ -7,20 +7,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161029	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.5 2						
 161030	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
-161031	bn	bn(I)/	bn (I)	n. m.	son	
+161031	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161031	bn	bn(II)	bn (II)	prep.	between	
-161031	bn	bn[	/b-n/	vb G	to understand	
+161031	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 3.5 3						
 161032	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
-161033	mlk	mlk[	/m-l-k/	vb G	to reign	
+161033	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 161033	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.5 4						
 161034	ugrt	ugrt/	ủgrt	TN	Ugarit	
-161035	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+161035	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 # KTU 3.5 5						
 161036	šd	šd(I)/	šd (I)	n. m. sg.	open field	
 161036	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
-161036	šd	šdy[	/š-d-y/	vb G	to pour	
+161036	šd	šdy[	/š-d-y/	vb G impv.	to pour	
 161037	kḏġdl	kḏġdl/	kḏġdl	PN	kḏġdl	
 # KTU 3.5 6						
 161038	uškn	uškn/	ủškn	TN	ủškn	
@@ -32,9 +32,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161041	šdy	šdy(I)/	šdy (I)	adj. or n.	land labourer	
 # KTU 3.5 7						
 161042	bmt	bm(t/t	bmt	n. f. sg.	back	
-161042	bmt	bm(t/t=	bmt	n. f. pl.	back	
+161042	bmt	bm(t/t=	bmt	n. f. sg.	back	
 161043	yd	yd(I)/	yd (I)	n. f. sg.	hand	
-161044	gth	gt/h	gt	n. f. sg./element of TNN	gittu	
+161044	gth	g(t/t	gt	n. f. sg./element of TNN	gittu	
 # KTU 3.5 8						
 161045	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 161045	yd	bd(IV)	bd (IV)	prep.	into the hands of	
@@ -53,18 +53,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161050	klklh	klkl/h	klkl	n. m. sg.	anybody	
 # KTU 3.5 11						
 161051	w	w	w	conj.	and	
-161052	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
-161053	nn	grš[	/g-r-š/	vb G	to eject	
-161053	nn	gr[	/g-r(-y)/	vb G	to attack	
+161052	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
+161053	nn	grš[	/g-r-š/	vb G impv.	to eject	
+161053	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
+161053	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
 # KTU 3.5 12						
 161054	l	l(I)	l (I)	prep.	to	
 161054	l	l(III)	l (III)	functor	certainly	
 161055	bˤln	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
-161056	bn	bn(I)/	bn (I)	n. m.	son	
+161056	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161056	bn	bn(II)	bn (II)	prep.	between	
-161056	bn	bn[	/b-n/	vb G	to understand	
+161056	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 3.5 13						
-161057	kltn	kly[+n	/k-l-y/	vb	to finish	
+161057	kltn	kly[+n	/k-l-y/	vb G suffc.	to finish	
 161057	kltn	klt(I)/+n	klt (I)	n. f.	bride	
 161057	kltn	kltn/	kltn	PN	kltn	
 161058	w	w	w	conj.	and	
@@ -81,7 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161063	šḥr	šḥr/	šḥr	n. m. sg.	dawn	
 161064	ṯlṯt	ṯlṯ(I)/t	ṯlṯ (I)	n. nuf. sg.	three	
 # KTU 3.5 16						
-161065	bnš	bnš/	bnš	n. m.	man	
+161065	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 161066	bnšm	bnš/m	bnš	n. m. pl.	man	
 161067	l	l(I)	l (I)	prep.	to	
 161067	l	l(III)	l (III)	functor	certainly	
@@ -92,14 +93,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161069	l	l(I)	l (I)	prep.	to	
 161069	l	l(II)	l (II)	adv.	no	
 161069	l	l(III)	l (III)	functor	certainly	
-161070	yqḥnn	lqḥ[nn	/l-q-ḥ/	vb G	to get hold of	
+161070	yqḥnn	lqḥ[nn	/l-q-ḥ/	vb G prefc.	to get hold of	
 161071	bd	b	b	prep.	in	
 # KTU 3.5 18						
 161072	bˤln	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
-161073	bn	bn(I)/	bn (I)	n. m.	son	
+161073	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161073	bn	bn(II)	bn (II)	prep.	between	
-161073	bn	bn[	/b-n/	vb G	to understand	
-161074	kltn	kly[+n	/k-l-y/	vb	to finish	
+161073	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161074	kltn	kly[+n	/k-l-y/	vb G suffc.	to finish	
 161074	kltn	klt(I)/+n	klt (I)	n. f.	bride	
 161074	kltn	kltn/	kltn	PN	kltn	
 # KTU 3.5 19						
@@ -113,7 +114,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161079	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
 161079	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg.	eternity	
 161080	w	w	w	conj.	and	
-161081	unṯ	unṯ/	ủnṯ	n. m.	obligation	
+161081	unṯ	unṯ/	ủnṯ	n. m. sg. / n. m. pl. cstr.	obligation	
 # KTU 3.5 21						
 161082	in	in/	ỉn	n. m. sg.	lack of	
 161083	bh	b	b	prep.	in	
@@ -121,12 +122,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg.	seal	
 # KTU 3.5 23						
 161085	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
-161086	bn	bn(I)/	bn (I)	n. m.	son	
+161086	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161086	bn	bn(II)	bn (II)	prep.	between	
-161086	bn	bn[	/b-n/	vb G	to understand	
+161086	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 3.5 24						
 161087	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
-161088	mlk	mlk[	/m-l-k/	vb G	to reign	
+161088	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 161088	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.5 25						
 161089	ugrt	ugrt/	ủgrt	TN	Ugarit	

@@ -3,9 +3,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156596	l	l(I)	l (I)	prep.	to	
 156596	l	l(III)	l (III)	functor	certainly	
 156597	umy	um/y	ủm	n. f. sg.	mother	
-156598	adtny	adt/+ny	ảdt	n. f. sg.	lady	
+156598	adtny	ad(t/t+ny	ảdt	n. f. sg.	lady	
 # KTU 2.11 2						
-156599	rgm	rgm[	/r-g-m/	vb G	to say	
+156599	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+156599	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+156599	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156599	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.11 3						
 156600	tḥm	tḥm/	tḥm	n. m. sg.	message	
@@ -16,17 +18,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156604	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 # KTU 2.11 5						
 156605	l	l(I)	l (I)	prep.	to	
-156606	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
-156607	adtny	adt/+ny	ảdt	n. f. sg.	lady	
+156606	pˤn	pˤn/	pʕn	n. f.	at the feet of	
+156607	adtny	ad(t/t+ny	ảdt	n. f. sg.	lady	
 # KTU 2.11 6						
 156608	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
 # KTU 2.11 7						
-156609	qlny	ql[ny	/q-l/	vb G	to fall (down)	
+156609	qlny	ql[ny	/q-l/	vb G suffc.	to fall (down)	
 156610	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.11 8						
-156611	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+156611	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.11 9						
-156612	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+156612	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.11 10						
 156613	hnny	hn+ny	hn	deictic functor/adv.	behold!	
 156613	hnny	hnny	hnny	adv.	here	
@@ -38,7 +40,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156616	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
 # KTU 2.11 12						
 156617	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-156617	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+156617	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 156617	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.11 13						
 156618	w	w	w	conj.	and	
@@ -47,20 +49,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156620	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.11 14						
 156621	nḫt	nḫ(t/t	nḫt	n. f. sg.	divan	
-156621	nḫt	nḫ[t	/n-ḫ/	vb G	to rest	
+156621	nḫt	nḫ[t	/n-ḫ/	vb G suffc.	to rest	
 156622	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.11 15						
 156623	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-156624	adtny	adt/+ny	ảdt	n. f. sg.	lady	
+156624	adtny	ad(t/t+ny	ảdt	n. f. sg.	lady	
 # KTU 2.11 16						
 156625	mnm	mnm	mnm	indef. pn.	any(thing)	
 156626	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-156626	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+156626	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 156626	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.11 17						
-156627	rgm	rgm[	/r-g-m/	vb G	to say	
+156627	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+156627	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+156627	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156627	rgm	rgm/	rgm	n. m. sg.	word	
-156628	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+156628	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+156628	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.11 18						
 156629	l	l(I)	l (I)	prep.	to	
 156629	l	l(III)	l (III)	functor	certainly	

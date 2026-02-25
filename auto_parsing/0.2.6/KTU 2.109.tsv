@@ -6,7 +6,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160666	l	l(III)	l (III)	functor	certainly	
 160667	x	?	?	?	?	
 # KTU 2.109 3						
-160668	rgm	rgm[	/r-g-m/	vb G	to say	
+160668	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+160668	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+160668	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 160668	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.109 4						
 160669	x	?	?	?	?	
@@ -24,5 +26,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160677	xbr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.109 8						
 160678	bd	b	b	prep.	in	
-160679	yšn	!y!(yšn[	/y-š-n/	vb G	to sleep	
-160680	štn	št[n	/š-t/	vb G	to place	
+160679	yšn	!y!(yšn[	/y-š-n/	vb G prefc.	to sleep	
+160680	štn	št[n	/š-t/	vb G impv.	to place	

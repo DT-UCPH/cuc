@@ -23,8 +23,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149325	x	?	?	?	?	
 # KTU 1.57 8						
 149326	x	?	?	?	?	
-149327	nn	grš[	/g-r-š/	vb G	to eject	
-149327	nn	gr[	/g-r(-y)/	vb G	to attack	
+149327	nn	grš[	/g-r-š/	vb G impv.	to eject	
+149327	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
+149327	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
 # KTU 1.57 9						
 149328	x	?	?	?	?	
 149329	mgx	?	?	?	?	DULAT: NOT FOUND

@@ -1,19 +1,19 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.1 1						
-156287	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
+156287	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 156288	lk	l(I)+k	l (I)	prep.	to	
 156289	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.1 2						
-156290	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
-156291	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+156290	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+156291	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.1 3						
 156292	hlny	hlny	hlny	deictic adv. functor	behold	
 156293	kll	kll/	kll	n. m. sg.	totality	
 # KTU 2.1 4						
 156294	w	w	w	conj.	and	
-156295	pdr	pdr(I)/	pdr (I)	n. m.	town	
+156295	pdr	pdr(I)/	pdr (I)	n. m. sg. / n. m. pl. cstr.	town	
 # KTU 2.1 5						
-156296	tmġyn	!t!mġy[n	/m-ġ-y/	vb G	to come	
+156296	tmġyn	!t!mġy[n	/m-ġ-y/	vb G prefc. / vb G suffc.	to come	
 # KTU 2.1 6						
 156297	w	w	w	conj.	and	
 156298	mlix	?	?	?	?	DULAT: NOT FOUND
@@ -24,4 +24,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.1 8						
 156302	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 156302	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
-156303	mġy	mġy[	/m-ġ-y/	vb G	to come	
+156303	mġy	mġy[	/m-ġ-y/	vb G suffc.	to come	
+156303	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	

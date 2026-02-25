@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149388	ḫdn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.63 6						
 149389	bšry	bšr/+y	bšr	n. m.	flesh	
-149389	bšry	bšr[+y	/b-š-r/	vb	to impart (good) news	
+149389	bšry	bšr[:pass+y	/b-š-r/	vb Dpass impv.	to impart (good) news	
 # KTU 1.63 7						
 149390	kb	kb(I)/	kb (I)	adj. m.	sewn	
 149390	kb	kb(II)/	kb (II)	n. m.	intestine(s)	
@@ -24,12 +24,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149393	x	?	?	?	?	
 149394	umtn	um(t/t	umt	n. f. sg.	family	
 # KTU 1.63 11						
-149395	yh	!y!(yh[	/y-h(-y)/	vb G	to wane	
+149395	yh	!y!(yh[	/y-h(-y)/	vb G prefc.	to wane	
 149396	w	w	w	conj.	and	
 149397	nl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.63 12						
 149398		?	?	?	?	
-149399	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+149399	bt	bt(II)/	bt (II)	n. m. sg.	house	
 149399	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 149400	bˤs	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.63 13						

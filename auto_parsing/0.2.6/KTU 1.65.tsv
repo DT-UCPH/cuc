@@ -1,15 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.65 1						
 149403	il	il(I)/	ỉl (I)	n. m.	god	
-149404	bn	bn(I)/	bn (I)	n. m.	son	
+149404	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 149405	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 2						
-149406	dr	dr/	dr	n. m.	circle	
-149407	bn	bn(I)/	bn (I)	n. m.	son	
+149406	dr	dr/	dr	n. m. sg. / n. m. pl. cstr.	circle	
+149407	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 149408	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 3						
 149409	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
-149410	bn	bn(I)/	bn (I)	n. m.	son	
+149410	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 149411	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 4						
 149412	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN	term for the kings of Ugarit	
@@ -18,7 +18,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149414	il	il(I)/	ỉl (I)	n. m.	god	
 149415	waṯrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.65 6						
-149416	ḥnn	lqḥ[+nn	/l-q-ḥ/	vb	to get hold of, ?	
+149416	ḥnn	lqḥ[+nn	/l-q-ḥ/	vb G suffc.	to get hold of, ?	
+149416	ḥnn	!!lqḥ[/+nn	/l-q-ḥ/	vb G inf.	to get hold of, ?	
 149416	ḥnn	ḥnn(I)/	ḥnn (I)	n. m.	kindness	
 149417	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 7						
@@ -26,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149419	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 8						
 149420	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-149420	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+149420	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 149420	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 149421	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 9						
@@ -37,13 +38,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.65 10						
 149426	bˤd	bˤd	bʕd	adv. or prep.	behind	
 149427	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-149428	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-149428	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+149428	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
+149428	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 1.65 11						
 149429	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 1.65 12						
 149430	b	b	b	prep.	in	
-149431	mrḥ	mrḥ/	mrḥ	n. f.	lance	
+149431	mrḥ	mrḥ/	mrḥ	n. f. sg. / n. f. pl. cstr.	lance	
 149432	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 13						
 149433	b	b	b	prep.	in	
@@ -52,7 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.65 14						
 149436	b	b	b	prep.	in	
 149437	ṣmd	ṣmd/	ṣmd	n. m. sg.	pair	
-149437	ṣmd	ṣmd[	/ṣ-m-d/	vb G	to harness	
+149437	ṣmd	ṣmd[	/ṣ-m-d/	vb G suffc. / vb G impv.	to harness	
 149438	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 15						
 149439	b	b	b	prep.	in	

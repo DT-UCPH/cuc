@@ -4,8 +4,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.153 2						
 155068	x	?	?	?	?	
 # KTU 1.153 3						
-155069	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
-155069	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
+155069	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
+155069	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
+155069	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl.	to sacrifice	
 # KTU 1.153 4						
 155070	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
 155070	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
@@ -18,7 +19,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155072	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 155073	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.153 7						
-155074	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+155074	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 155074	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.153 8						
 155075	y	+y, [y	-y (I)	prep. functor	my	

@@ -3,11 +3,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161333	l	l(I)	l (I)	prep.	to	
 161333	l	l(II)	l (II)	adv.	no	
 161333	l	l(III)	l (III)	functor	certainly	
-161334	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
+161334	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
 161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
 # KTU 3.12 2						
 161336	b	b	b	prep.	in	
-161337	unṯ	unṯ/	ủnṯ	n. m.	obligation	
+161337	unṯ	unṯ/	ủnṯ	n. m. sg. / n. m. pl. cstr.	obligation	
 161338	km	k(III)	k (III)	functor	when	
 161338	km	k(I)	k (I)	prep.	like	
 161338	km	k(IV)	k (IV)	adv.	thus	
@@ -16,18 +16,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161339	špš	špš/	špš	n. sg.	sun	
 # KTU 3.12 3						
 161340	d	d	d	det. or rel. functor	the one(s) of	
-161341	brt	br[t	/b-r(-r)/	vb G	to be or remain pure	
+161341	brt	br[t	/b-r(-r)/	vb G suffc.	to be or remain pure	
 161341	brt	br(t/t	brt	n. f. sg.	forecast	
 161342	kmt	k(I)	k (I)	prep.	like	
 161342	kmt	kmt	kmt	adv.	like(wise)	
 # KTU 3.12 4						
 161343	br	br/	br(r)	n. m. sg.	tin	
 161343	br	br(I)/	br (I)	n. m. sg.	Art Seeschiff	
-161343	br	br[	/b-r(-r)/	vb G	to be or remain pure	
+161343	br	br[	/b-r(-r)/	vb G suffc.	to be or remain pure	
 161344	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
 # KTU 3.12 5						
 161345	b	b	b	prep.	in	
-161346	unṯ	unṯ/	ủnṯ	n. m.	obligation	
+161346	unṯ	unṯ/	ủnṯ	n. m. sg. / n. m. pl. cstr.	obligation	
 161347	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 161347	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 161348	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
@@ -37,18 +37,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161349	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg.	seal	
 161350	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
 # KTU 3.12 7						
-161351	mlk	mlk[	/m-l-k/	vb G	to reign	
+161351	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 161351	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 161352	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 3.12 8						
 161353	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
-161354	mlk	mlk[	/m-l-k/	vb G	to reign	
+161354	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 161354	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 161355	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 3.12 9						
-161356	ktb	ktb[	/k-t-b/	vb G	to write	
+161356	ktb	ktb[	/k-t-b/	vb G suffc.	to write	
 161357	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-161357	spr	spr[:d	/s-p-r/	vb G/D	to count	
+161357	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
+161357	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
 161357	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 161358	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.12 10						
@@ -64,12 +65,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161366	l	l(I)	l (I)	prep.	to	
 161366	l	l(II)	l (II)	adv.	no	
 161366	l	l(III)	l (III)	functor	certainly	
-161367	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G/Gpass	to get hold of	
+161367	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
 # KTU 3.12 13						
 161368	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-161368	spr	spr[:d	/s-p-r/	vb G/D	to count	
+161368	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
+161368	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
 161368	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
-161369	mlk	mlk[	/m-l-k/	vb G	to reign	
+161369	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 161369	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 161370	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.12 14						

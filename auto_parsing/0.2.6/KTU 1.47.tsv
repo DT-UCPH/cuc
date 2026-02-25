@@ -14,18 +14,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 6						
 149082	bˤlm	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 1.47 7						
-149083	bˤlm	bˤl(II)/m	bʕl (II)	n. m. sg.	lord	
+149083	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
 # KTU 1.47 8						
-149084	bˤlm	bˤl(II)/m	bʕl (II)	n. m. sg.	lord	
+149084	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
 # KTU 1.47 9						
-149085	bˤlm	bˤl(II)/m	bʕl (II)	n. m. sg.	lord	
+149085	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
 # KTU 1.47 10						
-149086	bˤlm	bˤl(II)/m	bʕl (II)	n. m. sg.	lord	
+149086	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
 # KTU 1.47 11						
-149087	bˤlm	bˤl(II)/m	bʕl (II)	n. m. sg.	lord	
+149087	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
 # KTU 1.47 12						
 149088	arṣw	?	?	?	?	DULAT: NOT FOUND
-149089	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+149089	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
 # KTU 1.47 13						
 149090	kṯrt	kṯrt/	kṯrt	DN	Swallows	
 # KTU 1.47 14						
@@ -67,7 +67,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149108	ddmš	ddmš/	ddmš	DN	ddmš	
 # KTU 1.47 29						
 149109	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
-149109	pḫr	pḫr(II)/	pḫr (II)	n. m. sg.	potter	
 149110	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.47 30						
 149111	ym	ym(I)/	ym (I)	n. m. sg.	day	
@@ -80,5 +79,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149114	mlkm	mlk(I)	mlk (I)		king	
 # KTU 1.47 34						
 149115	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-149115	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+149115	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 149115	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	

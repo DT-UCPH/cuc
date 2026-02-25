@@ -1,10 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 1						
-158449	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
-158450	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+158449	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+158450	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.50 2						
 158451	l	l(I)	l (I)	prep.	to	
-158452	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+158452	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 158453	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 158454	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.50 3						
@@ -12,16 +12,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158456	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158457	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
 # KTU 2.50 4						
-158458	qlt	ql[t	/q-l/	vb G	to fall (down)	
+158458	qlt	ql[t	/q-l/	vb G suffc.	to fall (down)	
 158459	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 158460	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.50 5						
 158461	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158461	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158461	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 158461	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
-158462	rgm	rgm[	/r-g-m/	vb G	to say	
+158462	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158462	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158462	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158462	rgm	rgm/	rgm	n. m. sg.	word	
-158463	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+158463	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+158463	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.50 6						
 158464	l	l(I)	l (I)	prep.	to	
 158464	l	l(III)	l (III)	functor	certainly	
@@ -38,10 +41,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158471	w	w	w	conj.	and	
 158472	lm	l(I)	l (I)	prep.	to	
 # KTU 2.50 10						
-158473	šil	š(ʔ&il[	/š-ʔ-l/	vb G	to ask	
+158473	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
+158473	šil	!!š(ʔ&il[/	/š-ʔ-l/	vb G inf.	to ask	
 158473	šil	šil(I)/	šỉl (I)	n. m. sg.	interrogator	
 158474	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158474	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158474	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 158474	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.50 11						
 158475	ank	ank	ảnk	pers. pn.	I	
@@ -71,7 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158489	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
 158489	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
 158490	lbšk	lbš/+k	lbš	n. m.	clothing	
-158490	lbšk	lbš[+k	/l-b-š/	vb	to dress	
+158490	lbšk	lbš[/+k	/l-b-š/	vb G act. ptcpl. m. / vb G pass. ptcpl. m.	to dress	
 # KTU 2.50 18						
 158491	x	?	?	?	?	
 158492	dm	dm(II)/	dm (II)	n. m.	blood	
@@ -89,10 +93,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158499	l	l(I)	l (I)	prep.	to	
 158499	l	l(II)	l (II)	adv.	no	
 158499	l	l(III)	l (III)	functor	certainly	
-158500	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+158500	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 158501	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.50 21						
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. / n. m. pl. cstr.	servant	
 158503	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 22						
 158504	xxy	?	?	?	?	DULAT: NOT FOUND

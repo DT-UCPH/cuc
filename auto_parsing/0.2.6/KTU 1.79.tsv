@@ -7,10 +7,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149901	xxxx	?	?	?	?	
 149902	šh	š/	š	n. m. sg.	ram	
 149903	wl	?	?	?	?	DULAT: NOT FOUND
-149904	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+149904	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 149905	ḫsn	ḫsn(II)/	ḫsn (II)	PN	ḫsn (II)	
 # KTU 1.79 3						
-149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m.	servant	
+149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. / n. m. pl. cstr.	servant	
 149907	ulm	ulm/	ủlm	TN	ủlm	
 149907	ulm	ul/+m(I)	ủl	n. m.	(military) force	
 149908	ṯn	ṯn(I)/	ṯn (I)	num.	two	
@@ -18,17 +18,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149910	ḫsn	ḫsn(II)/	ḫsn (II)	PN	ḫsn (II)	
 # KTU 1.79 4						
 149911	gdy	gd(I)/y	gd (I)	n. m. sg.	coriander	
-149912	lqḥ	lqḥ[	/l-q-ḥ/	vb G	to get hold of	
+149912	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc.	to get hold of	
+149912	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
 149913	ṣtqn	ṣdqn/	ṣdqn	PN	ṣdqn	
 149914	gt	g(t/t	gt	n. f. sg./element of TNN	gittu	
-149915	bn	bn(I)/	bn (I)	n. m.	son	
+149915	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 149915	bn	bn(II)	bn (II)	prep.	between	
-149915	bn	bn[	/b-n/	vb G	to understand	
-149916	ndk	nd[+k	/n-d(-y)/	vb	to throw	
+149915	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+149916	ndk	nd[+k	/n-d(-y)/	vb G suffc.	to throw	
 149916	ndk	ndk/	ndk	PN	ndk	
 # KTU 1.79 5						
 149917	u	u	ủ	conj.	or	
-149918	mru	mru(III)/	mrủ (III)	n. m.	chief groom	
+149918	mru	mru(III)/	mrủ (III)	n. m. sg. / n. m. pl. cstr.	chief groom	
 149919	xx	?	?	?	?	
 149920	gt	g(t/t	gt	n. f. sg./element of TNN	gittu	
 149921	nṯṯ	nṯṯ/	nṯṯ	TN	nṯṯ	
@@ -39,17 +40,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149924	l	l(III)	l (III)	functor	certainly	
 149925	rḥ	rḥ(I)/	rḥ (I)	n. f. sg.	wind	
 149926	gt	g(t/t	gt	n. f. sg./element of TNN	gittu	
-149927	lqḥ	lqḥ[	/l-q-ḥ/	vb G	to get hold of	
+149927	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc.	to get hold of	
+149927	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
 149928	ṣtqn	ṣdqn/	ṣdqn	PN	ṣdqn	
 # KTU 1.79 7						
-149929	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+149929	bt	bt(II)/	bt (II)	n. m. sg.	house	
 149929	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 149930	qbṣ	qbṣ/	qbṣ	n. m. sg.	clan	
 149931	ub	?	?	?	?	DULAT: NOT FOUND
 149932	gt	g(t/t	gt	n. f. sg./element of TNN	gittu	
 149933	ilštmˤ	ilštmˤ/	ỉlštmʕ	TN	1957.4	
-149934	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
-149934	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
+149934	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
+149934	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
+149934	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl.	to sacrifice	
 149935	ṣtqn	ṣdqn/	ṣdqn	PN	ṣdqn	
 # KTU 1.79 8						
 149936	l	l(I)	l (I)	prep.	to	

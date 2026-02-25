@@ -4,25 +4,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160344	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 160345	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.100 2						
-160346	rgm	rgm[	/r-g-m/	vb G	to say	
+160346	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+160346	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+160346	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 160346	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.100 3						
 160347	tḥm	tḥm/	tḥm	n. m. sg.	message	
 160348	x	?	?	?	?	
 # KTU 2.100 4						
 160349	l	l(I)	l (I)	prep.	to	
-160350	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+160350	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 160351	umy	um/y	ủm	n. f. sg.	mother	
-160352	qlt	ql[t	/q-l/	vb G	to fall (down)	
+160352	qlt	ql[t	/q-l/	vb G suffc.	to fall (down)	
 # KTU 2.100 5						
 160353	ly	l(I)+y	l (I)	prep.	to	
 160354	umy	um/y	ủm	n. f. sg.	mother	
-160355	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
+160355	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 # KTU 2.100 6						
 160356	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-160357	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+160357	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.100 7						
-160358	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+160358	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.100 8						
 160359	hnny	hn+ny	hn	deictic functor/adv.	behold!	
 160359	hnny	hnny	hnny	adv.	here	
@@ -31,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160360	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.100 9						
 160361	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-160361	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+160361	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 160361	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 160362	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.100 10						
@@ -40,12 +42,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160365	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.100 11						
 160366	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-160366	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+160366	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 160366	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
-160367	rgm	rgm[	/r-g-m/	vb G	to say	
+160367	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+160367	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+160367	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 160367	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.100 12						
-160368	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+160368	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+160368	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.100 13						
 160369	ˤxxm	?	?	?	?	DULAT: NOT FOUND
 160370		?	?	?	?	
@@ -97,6 +102,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.100 29						
 160397	xxx	?	?	?	?	
 160398	w	w	w	conj.	and	
-160399	mġ	mġy[	/m-ġ-y/	vb G	to come	
+160399	mġ	mġy[	/m-ġ-y/	vb G impv.	to come	
 # KTU 2.100 30						
 160400	xxxx	?	?	?	?	

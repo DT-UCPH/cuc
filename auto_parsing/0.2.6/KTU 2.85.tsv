@@ -5,7 +5,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159481	urtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 2						
 159482	adny	adn(I)/+y	ảdn (I)	n. m.	lord	
-159483	rgm	rgm[	/r-g-m/	vb G	to say	
+159483	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+159483	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159483	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159483	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.85 3						
 159484	w	w	w	conj.	and	
@@ -14,21 +16,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159486	bḏmr	?	?	?	?	DULAT: NOT FOUND
 159487	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.85 4						
-159488	rgm	rgm[	/r-g-m/	vb G	to say	
+159488	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+159488	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159488	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159488	rgm	rgm/	rgm	n. m. sg.	word	
 159489	tḥm	tḥm/	tḥm	n. m. sg.	message	
 159490	ˤzilt	ˤzilt/	ʕzilt	PN	ʿzilt	
 # KTU 2.85 5						
-159491	bn	bn(I)/	bn (I)	n. m.	son	
+159491	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 159491	bn	bn(II)	bn (II)	prep.	between	
-159491	bn	bn[	/b-n/	vb G	to understand	
+159491	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 159492	km	k(III)	k (III)	functor	when	
 159492	km	k(I)	k (I)	prep.	like	
 159492	km	k(IV)	k (IV)	adv.	thus	
 159492	km	km	km	prep./conj./adv.		
 159492	km	+km, +km=	-km			
 # KTU 2.85 6						
-159493	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
+159493	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 159494	lkm	l(I)+km	l (I)	prep.	to	
 # KTU 2.85 7						
 159495	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
@@ -36,30 +40,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159496	l	l(II)	l (II)	adv.	no	
 159496	l	l(III)	l (III)	functor	certainly	
 159497	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-159497	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+159497	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 159497	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.85 8						
-159498	tġrkm	nġr[km	/n-ġ-r/	vb G	to protect	
-159499	tšlmkm	!t!šlm[km:d	/š-l-m/	vb D	to be well	
+159498	tġrkm	nġr[km	/n-ġ-r/	vb G suffc.	to protect	
+159499	tšlmkm	!t!šlm[km:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.85 9						
 159500	hln	hln	hln	deictic adv. functor	look!	
 159501	hn	hn	hn	deictic functor/adv.	behold!	
 159502	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.85 10						
 159503	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-159503	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+159503	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 159503	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 159504	w	w	w	conj.	and	
 159505	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 2.85 11						
 159506	mnm	mnm	mnm	indef. pn.	any(thing)	
 159507	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-159507	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+159507	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 159507	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.85 12						
-159508	rgm	rgm[	/r-g-m/	vb G	to say	
+159508	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+159508	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159508	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159508	rgm	rgm/	rgm	n. m. sg.	word	
-159509	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+159509	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+159509	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.85 13						
 159510	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.85 14						
@@ -70,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159514	l	l(I)	l (I)	prep.	to	
 159514	l	l(II)	l (II)	adv.	no	
 159514	l	l(III)	l (III)	functor	certainly	
-159515	tšm	!t!š(l(m[+m(I)	/š-l-m/	vb	to be well	
+159515	tšm	!t!š(l(m[:d+m(I)	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.85 16						
 159516	w	w	w	conj.	and	
 159517	ixx	?	?	?	?	DULAT: NOT FOUND
@@ -89,7 +96,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159526	ḥršy	ḥrš(I)/y	ḥrš (I)	n. m. pl.	craftsman	
 159527	ṣu	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 21						
-159528	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+159528	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 159529	w	w	w	conj.	and	
 159530	ank	ank	ảnk	pers. pn.	I	
 159531	bxxt	?	?	?	?	DULAT: NOT FOUND
@@ -105,17 +112,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159538	l	l(I)	l (I)	prep.	to	
 159538	l	l(III)	l (III)	functor	certainly	
 159539	aby	ab/+y	ảb	n. m.	father	
-159540	aḫty	aḫt(I)/+y	ảḫt (I)	n. f.	sister (related by blood)	
+159540	aḫty	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg.	sister (related by blood)	
 # KTU 2.85 25						
-159541	rgm	rgm[	/r-g-m/	vb G	to say	
+159541	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+159541	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159541	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159541	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.85 26						
-159542	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
+159542	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 159543	lk	l(I)+k	l (I)	prep.	to	
 159544	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.85 27						
-159545	tšlm	!t!šlm[:d	/š-l-m/	vb D	to be well	
-159546	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+159545	tšlm	!t!šlm[:d	/š-l-m/	vb D prefc.	to be well	
+159546	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.85 28						
 159547	xxx	?	?	?	?	
 159548	mmk	mh/+k	mh/y	n. m.	water	
@@ -131,9 +140,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159554	xxx	?	?	?	?	
 159555	xxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 32						
-159556	rgm	rgm[	/r-g-m/	vb G	to say	
+159556	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+159556	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159556	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159556	rgm	rgm/	rgm	n. m. sg.	word	
-159557	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+159557	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+159557	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.85 33						
 159558	xx	?	?	?	?	
 159559	šbk	šb/+k	šb	n. m.	old man	

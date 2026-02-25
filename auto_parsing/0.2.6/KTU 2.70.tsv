@@ -7,7 +7,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158834	ydrm	ydrm/	ydrm	PN	ydrm	
 158835	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.70 2						
-158836	rgm	rgm[	/r-g-m/	vb G	to say	
+158836	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158836	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158836	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158836	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.70 3						
 158837	atḥm	?	?	?	?	DULAT: NOT FOUND
@@ -21,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158842	p	p(III)/	p (III)	n. m.	mouth	
 158842	p	p(II)	p (II)	adv.	here	
 158843	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158843	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158843	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 158843	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.70 6						
 158844	l	l(I)	l (I)	prep.	to	
@@ -29,61 +31,63 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158845	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 158846	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.70 7						
-158847	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
-158848	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+158847	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+158848	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.70 8						
 158849	l	l(I)	l (I)	prep.	to	
-158850	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+158850	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 158851	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.70 9						
 158852	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 158853	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.70 10						
 158854	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
-158855	qlny	ql[ny	/q-l/	vb G	to fall (down)	
+158855	qlny	ql[ny	/q-l/	vb G suffc.	to fall (down)	
 # KTU 2.70 11						
 158856	hlny	hlny	hlny	deictic adv. functor	behold	
-158857	bn	bn(I)/	bn (I)	n. m.	son	
+158857	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 158857	bn	bn(II)	bn (II)	prep.	between	
-158857	bn	bn[	/b-n/	vb G	to understand	
+158857	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 158858	ˤyn	ˤyn/	ʕyn	PN	ʿyn	
 # KTU 2.70 12						
-158859	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt	to ask	
+158859	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 158860	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158861	amtk	amt(I)/+k	ảmt (I)	n. f.	(female) slave	
+158861	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg.	(female) slave	
 # KTU 2.70 13						
 158862	w	w	w	conj.	and	
-158863	lak	l(ʔ&ak[	/l-ʔ-k/	vb G	to send (a message)	
+158863	lak	l(ʔ&ak[	/l-ʔ-k/	vb G impv.	to send (a message)	
+158863	lak	!!l(ʔ&ak[/	/l-ʔ-k/	vb G inf.	to send (a message)	
 158864	lh	l(I)+h	l (I)	prep.	to	
 158865	w	w	w	conj.	and	
-158866	kḥdnn	kḥd[nn:d	/k-ḥ-d/	vb D	to hide	
+158866	kḥdnn	kḥd[nn:d	/k-ḥ-d/	vb D suffc.	to hide	
 # KTU 2.70 14						
 158867	w	w	w	conj.	and	
 158868	ank	ank	ảnk	pers. pn.	I	
 158869	hrš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.70 15						
-158870	lqḥt	lqḥ[t	/l-q-ḥ/	vb G	to get hold of	
+158870	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc.	to get hold of	
 158871	w	w	w	conj.	and	
 158872	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
-158872	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb D/Dpass	to live	
+158872	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb D suffc. / vb Dpass suffc.	to live	
 # KTU 2.70 16						
 158873	hbt	hbt	hbt	→	?	
 158874	w	w	w	conj.	and	
 158875	lm	l(I)	l (I)	prep.	to	
-158876	ṯb	ṯb[	/ṯ-b/	vb G	to return	
+158876	ṯb	ṯb[	/ṯ-b/	vb G suffc. / vb G impv.	to return	
 # KTU 2.70 17						
-158877	bn	bn(I)/	bn (I)	n. m.	son	
+158877	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 158877	bn	bn(II)	bn (II)	prep.	between	
-158877	bn	bn[	/b-n/	vb G	to understand	
+158877	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 158878	ˤyn	ˤyn/	ʕyn	PN	ʿyn	
 # KTU 2.70 18						
 158879	w	w	w	conj.	and	
-158880	lqḥ	lqḥ[	/l-q-ḥ/	vb G	to get hold of	
+158880	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc.	to get hold of	
+158880	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
 158881	ṯqlm	ṯql/+m(I)	ṯql	n. m.	shekel	
 # KTU 2.70 19						
 158882	ksp	ksp/	ksp	n. m. sg.	silver	
 158883	bd	b	b	prep.	in	
-158884	amtk	amt(I)/+k	ảmt (I)	n. f.	(female) slave	
+158884	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg.	(female) slave	
 # KTU 2.70 20						
 158885	w	w	w	conj.	and	
 158886	ṯn	ṯn(I)/	ṯn (I)	num.	two	
@@ -107,9 +111,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158895	k	k(III)	k (III)	Subordinating or completive functor	when	
 158895	k	k(I)	k (I)	prep.	like	
 158895	k	k(II)	k (II)	emph. functor	yes	
-158896	tšal	šʔl[l	/š-ʔ-l/	vb G	to ask	
+158896	tšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
 # KTU 2.70 24						
-158897	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+158897	bt	bt(II)/	bt (II)	n. m. sg.	house	
 158897	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 158897	bt	bt(III)/	bt (III)	n. m. pl.	length	
 158898	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
@@ -120,14 +124,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158900	k	k(III)	k (III)	Subordinating or completive functor	when	
 158900	k	k(I)	k (I)	prep.	like	
 158900	k	k(II)	k (II)	emph. functor	yes	
-158901	ymġy	!y!mġy[	/m-ġ-y/	vb G	to come	
+158901	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc.	to come	
 # KTU 2.70 26						
 158902	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 158903	l	l(I)	l (I)	prep.	to	
 158903	l	l(II)	l (II)	adv.	no	
 158903	l	l(III)	l (III)	functor	certainly	
 158904	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158904	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158904	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 158904	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.70 27						
 158905	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	

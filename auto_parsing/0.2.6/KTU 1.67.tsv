@@ -20,11 +20,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.67 6						
 149465	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
 149466	blt	bl(I)	bl (I)	adv. or emph. functor	no	
-149466	blt	blt[	/b-l-t/	vb G	to open wide	
-149466	blt	bly[t	/b-l-y/	vb G	to devour	
+149466	blt	blt[	/b-l-t/	vb G suffc.	to open wide	
+149466	blt	bly[t	/b-l-y/	vb G suffc.	to devour	
 149467	blt	bl(I)	bl (I)	adv. or emph. functor	no	
-149467	blt	blt[	/b-l-t/	vb G	to open wide	
-149467	blt	bly[t	/b-l-y/	vb G	to devour	
+149467	blt	blt[	/b-l-t/	vb G suffc.	to open wide	
+149467	blt	bly[t	/b-l-y/	vb G suffc.	to devour	
 149468	ṯp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 7						
 149469	a	?	?	?	?	
@@ -36,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149474	ṯpt	?	?	?	?	DULAT: NOT FOUND
 149475	in	in/	ỉn	n. m. sg.	lack of	
 149476	in	in/	ỉn	n. m. sg.	lack of	
-149477	kly	kly[	/k-l-y/	vb G	to finish	
+149477	kly	kly[	/k-l-y/	vb G suffc.	to finish	
 # KTU 1.67 9						
 149478	rty	rt/+y	rt	PN	rt	
 149479	ym	ym(I)/	ym (I)	n. m. sg.	day	
@@ -56,8 +56,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.67 15						
 149487	ištr	?	?	?	?	DULAT: NOT FOUND
 149488	blt	bl(I)	bl (I)	adv. or emph. functor	no	
-149488	blt	blt[	/b-l-t/	vb G	to open wide	
-149488	blt	bly[t	/b-l-y/	vb G	to devour	
+149488	blt	blt[	/b-l-t/	vb G suffc.	to open wide	
+149488	blt	bly[t	/b-l-y/	vb G suffc.	to devour	
 149489	in	in/	ỉn	n. m. sg.	lack of	
 # KTU 1.67 16						
 149490	bltnrḫ	?	?	?	?	DULAT: NOT FOUND
@@ -65,15 +65,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.67 17						
 149492	pṯtn	pṯt(I)/+n	pṯt (I)	n. m.	linen	
 149493	hd	hd/	hd(d)	DN	Haddu/Hadad	
-149494	ṯb	ṯb[	/ṯ-b/	vb G	to return	
+149494	ṯb	ṯb[	/ṯ-b/	vb G suffc. / vb G impv.	to return	
 # KTU 1.67 18						
 149495	bltnklm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 19						
 149496	ltlkn	?	?	?	?	DULAT: NOT FOUND
 149497	lwt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 20						
-149498	wm	w+m(I)	w	conj.	and	
-149498	wm	wm	wm	conj.	and	
+149498	wm	wm	wm	conj., morph.		
+149498	wm	w+m(I)	w	conj., morph.	and	
 149499	mˤnh	mˤn/+h	mʕn	n. m.	reply	
 149500	aḏmr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 21						

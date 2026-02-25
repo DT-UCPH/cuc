@@ -5,32 +5,38 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158623	ġrdn	ġrdn/	ġrdn	PN	ġrdn	
 # KTU 2.61 2						
 158624	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
-158625	rgm	rgm[	/r-g-m/	vb G	to say	
+158625	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158625	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158625	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158625	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.61 3						
-158626	bn	bn(I)/	bn (I)	n. m.	son	
+158626	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 158626	bn	bn(II)	bn (II)	prep.	between	
-158626	bn	bn[	/b-n/	vb G	to understand	
+158626	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 158627	ḫrn	ḫr(I)/+n	ḫr (I)	n. m.	cave	
 158627	ḫrn	ḫrn/	ḫrn	n. m.	gang	
-158627	ḫrn	ḫr[+n	/ḫ-r(-r)/	vb	to have spasms (of diarrhoea)	
+158627	ḫrn	ḫr[+n	/ḫ-r(-r)/	vb G suffc.	to have spasms (of diarrhoea)	
+158627	ḫrn	ḫr[/+n	/ḫ-r(-r)/	vb G ptcpl.	to have spasms (of diarrhoea)	
 158628	k	+k	-k (I)			
 158628	k	~k	-k (II)			
 158628	k	k(III)	k (III)	Subordinating or completive functor	when	
 158628	k	k(I)	k (I)	prep.	like	
 158628	k	k(II)	k (II)	emph. functor	yes	
 # KTU 2.61 4						
-158629	mġy	mġy[	/m-ġ-y/	vb G	to come	
+158629	mġy	mġy[	/m-ġ-y/	vb G suffc.	to come	
+158629	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 158630	hw	hw	hw	pers. pn.	he	
 158631	xx	?	?	?	?	
 158632	x	?	?	?	?	
 # KTU 2.61 5						
-158633	hbṭ	hbṭ[:d	/h-b-ṭ/ẓ/	vb D	to knock down	
+158633	hbṭ	hbṭ[	/h-b-ṭ/ẓ/	vb D suffc.	to knock down	
+158633	hbṭ	!!hbṭ[/	/h-b-ṭ/ẓ/	vb D inf.	to knock down	
 158634	hw	hw	hw	pers. pn.	he	
 # KTU 2.61 6						
-158635	ḫrd	ḫrd/	ḫrd	n. m.	(royal) guard	
+158635	ḫrd	ḫrd/	ḫrd	n. m. sg. / n. m. pl. cstr.	(royal) guard	
 158636	w	w	w	conj.	and	
-158637	šl	šl[	/š-l(-l)/	vb G	to plunder	
+158637	šl	šl[	/š-l(-l)/	vb G suffc.	to plunder	
+158637	šl	!!šl[/	/š-l(-l)/	vb G inf.	to plunder	
 158638	hw	hw	hw	pers. pn.	he	
 # KTU 2.61 7						
 158639	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
@@ -44,14 +50,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.61 10						
 158645	ap	ap(I)	ảp (I)	adv./conj.	also	
 158645	ap	ap(II)/	ảp (II)	n. m.	nose	
-158646	krmm	krm/	krm	n. m.	vineyard	
+158646	krmm	krm/	krm	n. m. sg. / n. m. pl.	vineyard	
 # KTU 2.61 11						
-158647	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb G/Dpass	to perish	
+158647	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb G suffc. / vb Dpass suffc.	to perish	
 158647	ḫlq	ḫlq/	ḫlq	adj. m. or n. m. sg.	ruined	
 # KTU 2.61 12						
 158648	qrtln	?	?	?	?	DULAT: NOT FOUND
-158649	ḫlqt	ḫlq[t:pass	/ḫ-l-q/	vb G/Dpass	to perish	
+158649	ḫlqt	ḫlq[t:pass	/ḫ-l-q/	vb G suffc. / vb Dpass suffc.	to perish	
 # KTU 2.61 13						
 158650	w	w	w	conj.	and	
-158651	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
-158652	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+158651	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv.	to know	
+158652	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv.	to know	

@@ -3,26 +3,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157850	l	l(I)	l (I)	prep.	to	
 157850	l	l(II)	l (II)	adv.	no	
 157850	l	l(III)	l (III)	functor	certainly	
-157851	mlk	mlk[	/m-l-k/	vb G	to reign	
+157851	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157851	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 157852	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 2.38 2						
 157853	aḫy	aḫ(I)/+y	ảḫ (I)	n. m.	brother (by blood)	
-157854	rgm	rgm[	/r-g-m/	vb G	to say	
+157854	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+157854	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157854	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 157854	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.38 3						
 157855	tḥm	tḥm/	tḥm	n. m. sg.	message	
-157856	mlk	mlk[	/m-l-k/	vb G	to reign	
+157856	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157856	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 157857	ṣr	ṣr/	ṣr	TN	Tyre	
 157858	aḫk	aḫ(I)/+k	ảḫ (I)	n. m.	brother (by blood)	
 # KTU 2.38 4						
-157859	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
+157859	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 157860	lk	l(I)+k	l (I)	prep.	to	
 157861	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.38 5						
-157862	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
-157863	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+157862	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+157863	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.38 6						
 157864	hnny	hn+ny	hn	deictic functor/adv.	behold!	
 157864	hnny	hnny	hnny	adv.	here	
@@ -30,24 +32,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157865	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.38 7						
 157866	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157866	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157866	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 157866	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157867	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.38 8						
 157868	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 157869	mnm	mnm	mnm	indef. pn.	any(thing)	
 157870	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157870	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157870	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 157870	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.38 9						
-157871	rgm	rgm[	/r-g-m/	vb G	to say	
+157871	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+157871	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157871	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 157871	rgm	rgm/	rgm	n. m. sg.	word	
-157872	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+157872	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+157872	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.38 10						
 157873	anykn	any/+kn	ảny(t)	n. f.	ship	
 157874	dt	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.38 11						
-157875	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+157875	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 157876	mṣrm	mṣrm/	mṣrm	TN	Egypt	
 157876	mṣrm	mṣr/+m(I)	mṣr	n. m.	sob	
 # KTU 2.38 12						
@@ -69,7 +74,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157886	rb	rb/	rb(b)	n. m. sg.	drizzle	
 157887	tmtt	tmt(t/t	tmtt	n. f. sg.	group of men	
 # KTU 2.38 17						
-157888	lqḥ	lqḥ[	/l-q-ḥ/	vb G	to get hold of	
+157888	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc.	to get hold of	
+157888	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
 157889	kl	kl/	kl	n. m. sg.	totality (of)	
 157890	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f.	arm	
 # KTU 2.38 18						
@@ -91,10 +97,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157901	rb	rb(I)/	rb (I)	adj. m. sg.	great	
 157901	rb	rb/	rb(b)	n. m. sg.	drizzle	
 157902	tmtt	tmt(t/t	tmtt	n. f. sg.	group of men	
-157903	lqḥt	lqḥ[t	/l-q-ḥ/	vb G	to get hold of	
+157903	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc.	to get hold of	
 # KTU 2.38 23						
 157904	w	w	w	conj.	and	
-157905	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
+157905	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+157905	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 157906	ank	ank	ảnk	pers. pn.	I	
 157907	lhm	l(I)+hm	l (I)	prep.	to	
 # KTU 2.38 24						
@@ -104,7 +111,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.38 25						
 157911	by	b	b	prep.	in	
 157912	ˤky	ˤky(I)/	ʕky (I)	TN	ʿky (I)	
-157913	ˤryt	ˤry[t	/ʕ-r-y/	vb G	to be naked	
+157913	ˤryt	ˤry[t	/ʕ-r-y/	vb G suffc.	to be naked	
 # KTU 2.38 26						
 157914	w	w	w	conj.	and	
 157915	aḫy	aḫ(I)/+y	ảḫ (I)	n. m.	brother (by blood)	
@@ -114,4 +121,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157918	lbh	lb/+h	lb	n. m.	heart	
 157919	al	al(I)	ảl (I)	neg. functor	no	
 157919	al	al(II)	ảl (II)	pos. functor	surely	
-157920	yšt	!y!št[:pass	/š-t/	vb G/Gpass	to place	
+157920	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
