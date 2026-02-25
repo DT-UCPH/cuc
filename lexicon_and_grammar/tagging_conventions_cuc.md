@@ -4,7 +4,7 @@ At this stage we decided not to reconstruct consonants, doubling, vowels and oth
 
 Important: when several consecutive letters are reconstructed, each letter must be marked separately with "(".
 
-The signs ( and & are also can also be used for aleph letters (u, i, a).
+The signs ( and & can also be used for aleph letters (u, i, a).
 Comments about variants can be added after  #
 
 ## Lexical tagging
