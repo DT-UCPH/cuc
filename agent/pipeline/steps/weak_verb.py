@@ -10,10 +10,21 @@ import re
 from pipeline.steps.base import RefinementStep, TabletRow
 
 # Preformative consonants for prefix conjugation
-_PREFORMATIVES = {"t", "y", "a", "n", "i"}
+_PREFORMATIVES = {"t", "y", "a", "n", "i", "u"}
 
 _WEAK_INITIAL_Y_RE = re.compile(r"^\s*/y-")
-_PREFORMATIVE_MARKER_RE = re.compile(r"^!([ytani])(?:=|==|===)?!")
+_PREFORMATIVE_MARKER_RE = re.compile(
+    r"^(?:!(?P<plain>[ytaniu])(?:=|==|===)?!|!\(ʔ&(?P<aleph>[aiu])!)"
+)
+_ASSIMILATED_N_MARKER = "](n]"
+
+
+def _format_preformative_marker(letter: str) -> str:
+    """Render canonical prefix-conjugation marker for one preformative letter."""
+    preformative = (letter or "").strip()
+    if preformative in {"a", "i", "u"}:
+        return f"!(ʔ&{preformative}!"
+    return f"!{preformative}!"
 
 
 class WeakVerbFixer(RefinementStep):
@@ -95,13 +106,18 @@ class WeakVerbFixer(RefinementStep):
 
         prefix_marker = m.group(0)
         remainder = var[m.end() :]
+        n_marker = ""
+        if remainder.startswith(_ASSIMILATED_N_MARKER):
+            n_marker = _ASSIMILATED_N_MARKER
+            remainder = remainder[len(_ASSIMILATED_N_MARKER) :]
+
         if remainder.startswith("(y"):
-            return var
+            return prefix_marker + n_marker + remainder
         if remainder.startswith("y"):
             remainder = "(y" + remainder[1:]
         else:
             remainder = "(y" + remainder
-        return prefix_marker + remainder
+        return prefix_marker + n_marker + remainder
 
     def _normalize_unmarked_variant(self, var: str, surface: str) -> str:
         """Add !preformative! and '(y' for unmarked weak-initial prefix forms."""
@@ -110,4 +126,4 @@ class WeakVerbFixer(RefinementStep):
         prefix = surface[0]
         if not var.startswith(prefix):
             return var
-        return f"!{prefix}!(y{var[1:]}"
+        return f"{_format_preformative_marker(prefix)}(y{var[1:]}"

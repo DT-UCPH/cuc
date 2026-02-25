@@ -6,10 +6,12 @@ NOT root-notation (/C-C-C/) and contain bare ʔ not already preceded by '('.
 
 import re
 
+from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
 from pipeline.steps.base import RefinementStep, TabletRow
 
 # Match bare ʔ NOT preceded by '(' — i.e., ʔ that appears without reconstruction marker.
 _BARE_ALEPH_RE = re.compile(r"(?<!\()ʔ")
+_ALEPH_VOWELS = ("a", "i", "u")
 
 
 class AlephPrefixFixer(RefinementStep):
@@ -31,7 +33,7 @@ class AlephPrefixFixer(RefinementStep):
 
         for var in variants:
             var = var.strip()
-            fixed = self._fix_variant(var)
+            fixed = self._fix_variant(var, surface=row.surface)
             if fixed != var:
                 changed = True
             out_variants.append(fixed)
@@ -49,25 +51,29 @@ class AlephPrefixFixer(RefinementStep):
             comment=row.comment,
         )
 
-    def _fix_variant(self, var: str) -> str:
-        """Fix bare ʔ in a single analysis variant."""
+    def _fix_variant(self, var: str, surface: str) -> str:
+        """Fix bare ʔ in a single analysis variant with reconstructable substitution."""
         # Skip root notation like /ʔ-b-d/
         if var.startswith("/") and var.endswith("/"):
             return var
 
-        # Skip if variant is just a reference (no letter content besides ʔ)
         if not var or var == "ʔ":
             return var
 
-        # Only fix variants that are noun-like (ending in /) — verb variants with [
-        # already handled by other fixers
-        if "[" in var:
-            # For verb forms, only fix ʔ that is clearly inside the stem, not the root ref
-            return _BARE_ALEPH_RE.sub("(ʔ", var)
+        if not _BARE_ALEPH_RE.search(var):
+            return var
 
-        if "/" in var:
-            # Noun variant — fix bare ʔ
-            return _BARE_ALEPH_RE.sub("(ʔ", var)
+        surface_norm = normalize_surface(surface)
+        if not surface_norm:
+            return var
 
-        # For variants without / or [ (particles, etc.), be conservative — skip
+        # Only keep substitutions that exactly reconstruct to the observed surface.
+        for match in _BARE_ALEPH_RE.finditer(var):
+            start = match.start()
+            for vowel in _ALEPH_VOWELS:
+                candidate = f"{var[:start]}(ʔ&{vowel}{var[start + 1 :]}"
+                if normalize_surface(reconstruct_surface_from_analysis(candidate)) == surface_norm:
+                    return candidate
+
+        # No reconstructable substitution found.
         return var

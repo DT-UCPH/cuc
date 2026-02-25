@@ -16,12 +16,15 @@ from pipeline.steps.base import (
     parse_tsv_line,
 )
 
-_TARGET_ANALYSIS = "bˤl(II)/;bˤl(I)/;bˤl["
+_TARGET_ANALYSES = {
+    "bˤl(II)/;bˤl(I)/;bˤl[",
+    "bˤl(II)/;bˤl(I)/;bˤl[/",
+}
 _TARGET_DULAT = "bʕl (II);bʕl (I);/b-ʕ-l/"
 _TARGET_POS = "n. m./DN;n. m.;vb"
 _TARGET_GLOSS = "Baʿlu;labourer;to make"
 
-_REPLACEMENT_ANALYSIS = "bˤl(II)/;bˤl["
+_REPLACEMENT_ANALYSIS = "bˤl(II)/;bˤl[/"
 _REPLACEMENT_DULAT = "bʕl (II);/b-ʕ-l/"
 _REPLACEMENT_POS = "n. m./DN;vb"
 _REPLACEMENT_GLOSS = "Baʿlu;to make"
@@ -85,7 +88,7 @@ class BaalLabourerKtu1Fixer(RefinementStep):
     def _is_target_row(self, row: TabletRow) -> bool:
         return (
             row.surface.strip() == "bˤl"
-            and row.analysis.strip() == _TARGET_ANALYSIS
+            and row.analysis.strip() in _TARGET_ANALYSES
             and row.dulat.strip() == _TARGET_DULAT
             and row.pos.strip() == _TARGET_POS
             and row.gloss.strip() == _TARGET_GLOSS

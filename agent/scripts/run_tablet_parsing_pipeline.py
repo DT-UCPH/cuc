@@ -41,6 +41,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Reprocess files already present in out/",
     )
     parser.add_argument(
+        "--source-glob",
+        default="KTU *.tsv",
+        help="Glob for source tablet basenames (default: 'KTU *.tsv')",
+    )
+    parser.add_argument(
         "--max-step-change-ratio",
         type=float,
         default=0.25,
@@ -76,6 +81,7 @@ def main() -> int:
         dulat_db=Path(args.dulat_db),
         udb_db=Path(args.udb_db),
         include_existing=bool(args.include_existing),
+        source_glob=str(args.source_glob),
         max_step_change_ratio=float(args.max_step_change_ratio),
         allow_large_step_changes=bool(args.allow_large_step_changes),
     )

@@ -7,7 +7,32 @@ import sqlite3
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, Iterable, List, Optional, Tuple
+
+# Allow `python linter/lint.py` execution where sys.path[0] is `linter/`.
+if __package__ in {None, ""}:
+    _repo_root = Path(__file__).resolve().parents[1]
+    if str(_repo_root) not in sys.path:
+        sys.path.insert(0, str(_repo_root))
+
+from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
+from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
+from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
+from pipeline.config.k_functor_bigram_surfaces import K_FUNCTOR_VERB_BIGRAM_SURFACES
+from pipeline.config.l_body_compound_prep_rules import L_BODY_COMPOUND_PREP_RULES
+from pipeline.config.l_functor_vocative_refs import expected_l_homonym_for_ref
+from pipeline.config.l_negation_exception_refs import (
+    extract_separator_ref,
+    is_forced_l_negation_ref,
+)
+from pipeline.config.l_preposition_bigram_rules import (
+    L_BAAL_ANALYSIS,
+    L_BAAL_DULAT,
+    L_BAAL_SURFACE,
+    L_FORCE_I_BIGRAM_SURFACES,
+    L_PN_FAMILY_FORCE_I_SURFACES,
+    L_PN_PREP_CANONICAL_PAYLOADS,
+)
 
 # -----------------------------
 # Utilities
@@ -152,7 +177,41 @@ ANALYSIS_SURFACE_LETTER_RE = re.compile(r"[A-Za-zˤʔḫṣṯẓġḏḥṭšʕ
 _CLITIC_SUFFIX_SEGMENTS = ("hm", "hn", "km", "kn", "ny", "nm", "nn", "h", "k", "n", "y")
 _DECLARED_SUFFIX_NY_RE = re.compile(r",\s*-[ny](?:\s|\(|$)", flags=re.IGNORECASE)
 _DECLARED_LEMMA_LETTER_RE = re.compile(r"[^A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]")
-_HOMONYM_MARKED_N_CLITIC_RE = re.compile(r"(?:\+n=?|~n=?|\[n=?|-n=?)\((?:I|II|III|IV)\)")
+_ANALYSIS_CLITIC_MARKER_RE = re.compile(r"(?:\+|~|\[)[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]+=?")
+_DULAT_SUFFIX_LINK_RE = re.compile(
+    r",\s*-[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]+=?\s*(?:\([IVX]+\))?=?",
+    flags=re.IGNORECASE,
+)
+_PRONOMINAL_SUFFIX_SEGMENTS = (
+    "nkm",
+    "ny",
+    "nk",
+    "nh",
+    "nn",
+    "km",
+    "kn",
+    "hm",
+    "hn",
+    "y",
+    "n",
+    "k",
+    "h",
+)
+_HOMONYM_MARKED_SUFFIX_RE = re.compile(
+    r"(?:\+|~|\[)(?:" + "|".join(_PRONOMINAL_SUFFIX_SEGMENTS) + r")=?\((?:I|II|III|IV)\)=?"
+)
+_PLURAL_MORPH_RE = re.compile(r"\bpl\.", flags=re.IGNORECASE)
+_PLURAL_WORD_MORPH_RE = re.compile(r"\bplur", flags=re.IGNORECASE)
+_DUAL_MORPH_RE = re.compile(r"\bdu\.", flags=re.IGNORECASE)
+_DUAL_WORD_MORPH_RE = re.compile(r"\bdual", flags=re.IGNORECASE)
+_SINGULAR_MORPH_RE = re.compile(r"\bsg\.", flags=re.IGNORECASE)
+_SINGULAR_WORD_MORPH_RE = re.compile(r"\bsing", flags=re.IGNORECASE)
+_CONSTRUCT_MORPH_RE = re.compile(r"\bcst(?:r)?\.?\b", flags=re.IGNORECASE)
+PLURALE_TANTUM_M_EXCLUDED_KEYS = {
+    ("ḥlm", "II"),
+    ("ʕgm", ""),
+    ("ištnm", ""),
+}
 _OFFERING_SURFACES = {
     normalize_surface("gdlt"),
     normalize_surface("alp"),
@@ -199,6 +258,26 @@ def has_plurale_tantum_note(text: str) -> bool:
     if "pl" not in t.lower() and "plur" not in t.lower():
         return False
     return PL_TANT_RE.search(t) is not None
+
+
+def morphology_is_plural_or_dual(morph: str) -> bool:
+    text = (morph or "").lower()
+    return bool(
+        _PLURAL_MORPH_RE.search(text)
+        or _PLURAL_WORD_MORPH_RE.search(text)
+        or _DUAL_MORPH_RE.search(text)
+        or _DUAL_WORD_MORPH_RE.search(text)
+    )
+
+
+def morphology_is_explicit_singular(morph: str) -> bool:
+    text = (morph or "").lower()
+    return bool(_SINGULAR_MORPH_RE.search(text) or _SINGULAR_WORD_MORPH_RE.search(text))
+
+
+def morphology_is_construct_state(morph: str) -> bool:
+    text = (morph or "").lower()
+    return bool(_CONSTRUCT_MORPH_RE.search(text))
 
 
 def has_unprefixed_reconstructed_sequence(s: str, allow_weak_y_cluster: bool = False) -> bool:
@@ -361,6 +440,34 @@ def choose_lookup_candidates(
     return surface_candidates, "surface"
 
 
+def surface_form_has_feminine_morph(
+    dulat_forms: Dict[str, List["DulatEntry"]],
+    surface: str,
+    lemma_tok: str,
+    hom_tok: str,
+) -> bool:
+    """True when exact DULAT surface candidates for token carry `f.` morphology."""
+    surface_key = normalize_surface(surface or "")
+    if not surface_key:
+        return False
+    token_lemma = normalize_surface((lemma_tok or "").strip())
+    if not token_lemma:
+        return False
+    token_hom = (hom_tok or "").strip()
+
+    for candidate in dulat_forms.get(surface_key, []):
+        cand_lemma = normalize_surface((candidate.lemma or "").strip())
+        cand_hom = (candidate.homonym or "").strip()
+        if cand_lemma != token_lemma:
+            continue
+        if token_hom and cand_hom != token_hom:
+            continue
+        morph_parts = split_csv_field((candidate.morph or "").lower())
+        if any(part == "f." for part in morph_parts):
+            return True
+    return False
+
+
 def analysis_has_missing_suffix_plus(analysis: str, surface: str) -> bool:
     """True if analysis/surface pair strongly indicates missing '+' suffix split."""
     if "+" in (analysis or ""):
@@ -375,6 +482,8 @@ def analysis_has_missing_suffix_plus(analysis: str, surface: str) -> bool:
     for var in variants:
         v = (var or "").strip()
         if not v:
+            continue
+        if "~" in v:
             continue
         core = v.rstrip("/")
         if core.endswith(seg):
@@ -405,6 +514,98 @@ def analysis_has_missing_plural_split(analysis: str, surface: str) -> bool:
         if recon == target:
             return True
     return False
+
+
+def analysis_has_missing_lexeme_m_before_plural_split(
+    analysis: str, surface: str, declared_lemma: str
+) -> bool:
+    """True when '/m' split omits required lexical '(m' reconstruction."""
+    lemma_letters = _DECLARED_LEMMA_LETTER_RE.sub(
+        "", normalize_surface((declared_lemma or "").strip())
+    ).lower()
+    if not lemma_letters.endswith("m"):
+        return False
+
+    surface_norm = normalize_surface(surface).lower()
+    variants = split_semicolon_field(analysis) or [analysis]
+    for var in variants:
+        v = (var or "").strip()
+        if not v or "[" in v:
+            continue
+        head, tail = _split_analysis_head_tail(v)
+        if not head:
+            continue
+
+        head_reconstructed = normalize_surface(reconstruct_surface_from_analysis(head)).lower()
+        if tail and head_reconstructed == surface_norm:
+            tail = ""
+
+        host_surface = _host_surface_after_tail(surface_norm, tail)
+        unsplit = re.match(r"^.+m(?:\([IVX]+\))?/$", head)
+        split = re.match(r"^(.+?)(\([IVX]+\))?/m$", head)
+
+        if host_surface.endswith("m"):
+            if unsplit:
+                return True
+            if not split:
+                continue
+            if "(m" in split.group(1):
+                continue
+
+            base = split.group(1)
+            base_surface = normalize_surface(reconstruct_surface_from_analysis(base)).lower()
+            head_surface = head_reconstructed
+            missing_case = head_surface == host_surface and len(base_surface) == max(
+                0, len(lemma_letters) - 1
+            )
+            overshoot_case = head_surface == host_surface + "m" and base_surface.endswith("m")
+            allograph_case = (
+                bool(head_surface)
+                and len(base_surface) == max(0, len(lemma_letters) - 1)
+                and head_surface[:-1] + "y" + head_surface[-1] == host_surface
+            )
+            if missing_case or overshoot_case or allograph_case:
+                return True
+            continue
+
+        if unsplit and "(m" not in head and head_reconstructed == host_surface + "m":
+            return True
+        if not split:
+            continue
+
+        base = split.group(1)
+        base_surface = normalize_surface(reconstruct_surface_from_analysis(base)).lower()
+        if "(m" in base:
+            return True
+        if head_reconstructed == host_surface + "m" and len(base_surface) == max(
+            0, len(lemma_letters) - 1
+        ):
+            return True
+
+    return False
+
+
+def _split_analysis_head_tail(analysis_variant: str) -> Tuple[str, str]:
+    value = (analysis_variant or "").strip()
+    if not value:
+        return "", ""
+    cut = len(value)
+    for marker in ("+", "~"):
+        idx = value.find(marker)
+        if idx != -1:
+            cut = min(cut, idx)
+    if cut >= len(value):
+        return value, ""
+    return value[:cut], value[cut:]
+
+
+def _host_surface_after_tail(surface_norm: str, tail: str) -> str:
+    if not tail:
+        return surface_norm
+    tail_letters = normalize_surface(reconstruct_surface_from_analysis(tail)).lower()
+    if tail_letters and surface_norm.endswith(tail_letters):
+        return surface_norm[: -len(tail_letters)]
+    return surface_norm
 
 
 def analysis_has_missing_feminine_singular_split(analysis: str, surface: str) -> bool:
@@ -447,16 +648,78 @@ def analysis_has_lexeme_t_split_without_reconstructed_t(analysis: str) -> bool:
     return False
 
 
+def analysis_has_missing_iii_aleph_case_encoding(
+    analysis: str,
+    surface: str,
+    declared_lemma: str,
+) -> bool:
+    """True when III-aleph nominal form should use `(V/.../&X` encoding."""
+    lemma_norm = normalize_surface((declared_lemma or "").strip()).lower()
+    surface_norm = normalize_surface((surface or "").strip()).lower()
+    if len(lemma_norm) < 2 or len(surface_norm) < 2:
+        return False
+
+    lex_vowel = lemma_norm[-1]
+    surface_vowel = surface_norm[-1]
+    if lex_vowel not in {"u", "i", "a"} or surface_vowel not in {"u", "i", "a"}:
+        return False
+    if lemma_norm[:-1] != surface_norm[:-1]:
+        return False
+
+    variants = split_semicolon_field(analysis) or [analysis]
+    base_re = re.compile(r"^(?P<lemma>[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]+)(?P<hom>\([IVX]+\))?/$")
+    for var in variants:
+        value = (var or "").strip()
+        if not value or value == "?":
+            continue
+        if any(ch in value for ch in ("+", "~", "[")):
+            continue
+        if "/&" in value:
+            continue
+
+        reconstructed = normalize_surface(reconstruct_surface_from_analysis(value)).lower()
+        if reconstructed == surface_norm:
+            continue
+
+        match = base_re.match(value)
+        if not match:
+            continue
+        variant_lemma_norm = normalize_surface((match.group("lemma") or "").strip()).lower()
+        if len(variant_lemma_norm) < 2:
+            continue
+        if variant_lemma_norm[-1] not in {"u", "i", "a"}:
+            continue
+        if variant_lemma_norm[:-1] != surface_norm[:-1]:
+            continue
+        return True
+    return False
+
+
 def analysis_has_invalid_enclitic_plus(analysis: str) -> bool:
     """True when analysis uses invalid '~+x' enclitic encoding."""
     variants = split_semicolon_field(analysis) or [analysis]
     return any("~+" in (v or "") for v in variants)
 
 
-def analysis_has_homonym_marked_n_clitic(analysis: str) -> bool:
-    """True when enclitic n is encoded with homonym numerals (invalid in col3)."""
+def analysis_has_nominal_slash_on_pronoun(analysis: str) -> bool:
+    """True when pronoun variants still use noun-style trailing '/' closure."""
     variants = split_semicolon_field(analysis) or [analysis]
-    return any(_HOMONYM_MARKED_N_CLITIC_RE.search((v or "").strip()) for v in variants)
+    pattern = re.compile(r"(?:\([IVX]+\))?/(?=\s*$|[+;,])")
+    for var in variants:
+        value = (var or "").strip()
+        if not value or value == "?":
+            continue
+        if "+" in value or "~" in value or "[" in value:
+            continue
+        if pattern.search(value):
+            return True
+    return False
+
+
+def analysis_has_homonym_marked_n_clitic(analysis: str) -> bool:
+    """True when suffix/enclitic markers carry homonym numerals in col3."""
+    variants = split_semicolon_field(analysis) or [analysis]
+    return any(_HOMONYM_MARKED_SUFFIX_RE.search((v or "").strip()) for v in variants)
 
 
 def variant_has_lexeme_terminal_single_suffix_split(
@@ -498,6 +761,17 @@ def variant_has_baad_plus_n(analysis_variant: str, declared_token: str) -> bool:
     lemma_raw, _hom = parse_declared_dulat_token(d_tok)
     lemma_letters = _DECLARED_LEMMA_LETTER_RE.sub("", normalize_surface(lemma_raw)).lower()
     return lemma_letters == normalize_surface("bʕd")
+
+
+def variant_has_suffix_payload_linked_dulat(analysis_variant: str, dulat_variant: str) -> bool:
+    """Detect clitic-bearing analysis that still encodes suffix lexeme in DULAT."""
+    a_txt = (analysis_variant or "").strip()
+    d_txt = (dulat_variant or "").strip()
+    if not a_txt or not d_txt:
+        return False
+    if not _ANALYSIS_CLITIC_MARKER_RE.search(a_txt):
+        return False
+    return bool(_DULAT_SUFFIX_LINK_RE.search(d_txt))
 
 
 def _pos_looks_nominal(pos_text: str) -> bool:
@@ -557,6 +831,29 @@ def row_has_baal_labourer_in_ktu1(
     return "labourer" in (gloss_field or "").lower()
 
 
+def row_has_baal_verbal_missing_slash(analysis_field: str, dulat_field: str) -> bool:
+    """Detect /b-ʕ-l/ verbal variants missing the canonical `[/` closure."""
+    analysis_variants = split_semicolon_field(analysis_field)
+    dulat_variants = split_semicolon_field(dulat_field)
+
+    if not analysis_variants or not dulat_variants:
+        return False
+
+    if len(analysis_variants) != len(dulat_variants):
+        if (dulat_field or "").strip() != "/b-ʕ-l/":
+            return False
+        token = (analysis_field or "").strip()
+        return token.endswith("[") and "/" not in token
+
+    for analysis_variant, dulat_variant in zip(analysis_variants, dulat_variants):
+        if (dulat_variant or "").strip() != "/b-ʕ-l/":
+            continue
+        token = (analysis_variant or "").strip()
+        if token.endswith("[") and "/" not in token:
+            return True
+    return False
+
+
 def row_has_mixed_baal_dn_labourer_reading(
     surface: str,
     analysis_field: str,
@@ -600,7 +897,65 @@ def dedupe_entries(entries: List["DulatEntry"]) -> List["DulatEntry"]:
     return out
 
 
-STEM_RE = re.compile(r"\b(Gt|Dt|Lt|Nt|Št|Gpass|Dpass|Špass|G|D|L|N|Š)\b")
+STEM_RE = re.compile(r"\b(Gt|Dt|Lt|Nt|tD|tL|Št|Gpass|Dpass|Lpass|Špass|G|D|L|N|R|Š)\b")
+VERB_POS_STEM_RE = re.compile(
+    r"\bvb\.?\s+(?:Gt|Dt|Lt|Nt|tD|tL|Št|Gpass|Dpass|Lpass|Špass|G|D|L|N|R|Š)"
+    r"(?:/(?:Gt|Dt|Lt|Nt|tD|tL|Št|Gpass|Dpass|Lpass|Špass|G|D|L|N|R|Š))*\b",
+    flags=re.IGNORECASE,
+)
+VERBAL_NOUN_POS_RE = re.compile(r"\bvb\.\s*n\.", flags=re.IGNORECASE)
+VERB_INF_POS_RE = re.compile(r"\binf\.", flags=re.IGNORECASE)
+VERB_PTCP_POS_RE = re.compile(
+    r"(?:\bact\.\s*ptcpl\.|\bpass\.\s*ptcpl\.|\bptcpl\.)",
+    flags=re.IGNORECASE,
+)
+STEM_DISPLAY_ORDER = (
+    "G",
+    "Gt",
+    "N",
+    "D",
+    "tD",
+    "Dt",
+    "L",
+    "tL",
+    "Lt",
+    "R",
+    "Š",
+    "Št",
+    "Gpass",
+    "Dpass",
+    "Lpass",
+    "Špass",
+    "Nt",
+)
+PREFIXED_VERB_ANALYSIS_RE = re.compile(
+    r"^(?:![ytan](?:=+)?!|!\(ʔ&[aiu]!)",
+    flags=re.IGNORECASE,
+)
+PREFIXED_VERB_ANALYSIS_INLINE_RE = re.compile(
+    r"(?:![ytan](?:=|==|===)?!|!\(ʔ&[aiu]!)",
+    flags=re.IGNORECASE,
+)
+
+
+def pos_option_is_verb_infinitive(option: str) -> bool:
+    """Return True when one POS option denotes a verbal infinitive."""
+    text = (option or "").strip()
+    if not re.search(r"^\s*vb\.?\b", text, flags=re.IGNORECASE):
+        return False
+    if VERBAL_NOUN_POS_RE.search(text):
+        return False
+    return bool(VERB_INF_POS_RE.search(text))
+
+
+def pos_option_is_verb_participle(option: str) -> bool:
+    """Return True when one POS option denotes a verbal participle."""
+    text = (option or "").strip()
+    if not re.search(r"^\s*vb\.?\b", text, flags=re.IGNORECASE):
+        return False
+    if VERBAL_NOUN_POS_RE.search(text):
+        return False
+    return bool(VERB_PTCP_POS_RE.search(text))
 
 
 def extract_stems(morph: str) -> set:
@@ -608,6 +963,81 @@ def extract_stems(morph: str) -> set:
     for m in STEM_RE.findall(morph or ""):
         stems.add(m)
     return stems
+
+
+def sort_stems_for_display(stems: Iterable[str]) -> List[str]:
+    ranking = {stem: idx for idx, stem in enumerate(STEM_DISPLAY_ORDER)}
+    return sorted(set(stems), key=lambda stem: (ranking.get(stem, 999), stem))
+
+
+def pos_has_verb_stem_label(pos_field: str) -> bool:
+    return VERB_POS_STEM_RE.search(pos_field or "") is not None
+
+
+def extract_verb_stems_from_pos(pos_field: str) -> set[str]:
+    """Extract verb stem labels from structured POS variants/options."""
+    if not pos_field:
+        return set()
+
+    stems: set[str] = set()
+    for token in split_csv_field(pos_field):
+        for opt in split_pos_options(token):
+            opt_text = (opt or "").strip()
+            if not opt_text:
+                continue
+            if not re.search(r"^\s*vb\.?\b", opt_text, flags=re.IGNORECASE):
+                continue
+            if VERBAL_NOUN_POS_RE.search(opt_text):
+                continue
+            stems.update(extract_stems(opt_text))
+    return stems
+
+
+def required_verb_stem_markers_from_pos(pos_field: str) -> set[str]:
+    """Return required analysis markers implied by POS stem labels."""
+    stems = extract_verb_stems_from_pos(pos_field)
+    required: set[str] = set()
+    if stems & {"D", "Dt", "tD"}:
+        required.add(":d")
+    if stems & {"L", "Lt", "tL"}:
+        required.add(":l")
+    if "R" in stems:
+        required.add(":r")
+    if stems & {"Gpass", "Dpass", "Lpass", "Špass"}:
+        required.add(":pass")
+    return required
+
+
+def missing_required_verb_stem_markers(analysis: str, pos_field: str) -> List[str]:
+    """Return required stem markers from POS that are absent in analysis."""
+    required = required_verb_stem_markers_from_pos(pos_field)
+    if not required:
+        return []
+    a_txt = (analysis or "").strip()
+    if not a_txt or "[" not in a_txt or "[/" in a_txt:
+        return []
+    return sorted(marker for marker in required if marker not in a_txt)
+
+
+def missing_required_n_assimilation_marker(analysis: str, pos_field: str) -> bool:
+    """Return True when prefixed N-stem forms miss the `](n]` marker."""
+    stems = extract_verb_stems_from_pos(pos_field)
+    if "N" not in stems:
+        return False
+
+    a_txt = (analysis or "").strip()
+    if not a_txt or "[/" in a_txt or "[" not in a_txt:
+        return False
+    match = PREFIXED_VERB_ANALYSIS_RE.match(a_txt)
+    if match is None:
+        return False
+
+    tail = a_txt[match.end() :]
+    if not tail:
+        return False
+    if tail.startswith("](n]") or tail.startswith("(n") or tail.startswith("n"):
+        return False
+    return True
 
 
 @dataclass
@@ -647,11 +1077,22 @@ def load_dulat(dulat_db: Path):
         if entry_id not in translations and text_val:
             translations[entry_id] = text_val
 
-    cur.execute("SELECT entry_id, lemma, homonym, pos, data FROM entries")
+    cur.execute("PRAGMA table_info(entries)")
+    entry_columns = {row[1] for row in cur.fetchall()}
+    has_text = "text" in entry_columns
+
+    if has_text:
+        cur.execute("SELECT entry_id, lemma, homonym, pos, data, text FROM entries")
+    else:
+        cur.execute("SELECT entry_id, lemma, homonym, pos, data FROM entries")
     entry_meta: Dict[int, Tuple[str, str, str, str]] = {}
     entry_stems: Dict[int, set] = {}
     entry_gender: Dict[int, str] = {}
-    for entry_id, lemma, homonym, pos, data_json in cur.fetchall():
+    entry_text_by_id: Dict[int, str] = {}
+    for row in cur.fetchall():
+        entry_id, lemma, homonym, pos, data_json = row[:5]
+        if has_text and len(row) >= 6 and row[5]:
+            entry_text_by_id[int(entry_id)] = row[5]
         lemma = (lemma or "").strip()
         homonym = (homonym or "").strip()
         if lemma and not homonym:
@@ -686,23 +1127,65 @@ def load_dulat(dulat_db: Path):
 
     cur.execute("SELECT forms.text, forms.morphology, forms.entry_id FROM forms")
     forms_map: Dict[str, List[DulatEntry]] = {}
-    for form_text, morph, entry_id in cur.fetchall():
+    seen_form_entry: set[Tuple[str, int, str]] = set()
+    for form_text, morph_raw, entry_id in cur.fetchall():
         if entry_id not in entry_meta or not form_text:
             continue
         lemma, hom, pos, gloss = entry_meta[entry_id]
-        if morph:
-            entry_stems.setdefault(entry_id, set()).update(extract_stems(morph))
-        key = normalize_surface(form_text)
-        entry = DulatEntry(
-            entry_id=entry_id,
+        morph = override_dulat_form_morphology(
             lemma=lemma,
             homonym=hom,
-            pos=pos,
-            gloss=gloss,
-            morph=morph or "",
             form_text=form_text,
+            morphology=morph_raw or "",
         )
-        forms_map.setdefault(key, []).append(entry)
+        if morph:
+            entry_stems.setdefault(entry_id, set()).update(extract_stems(morph))
+        for form_variant in expand_dulat_form_texts(
+            lemma=lemma,
+            homonym=hom,
+            form_text=form_text,
+        ):
+            key = normalize_surface(form_variant)
+            marker = (key, int(entry_id), morph or "")
+            if marker in seen_form_entry:
+                continue
+            seen_form_entry.add(marker)
+            entry = DulatEntry(
+                entry_id=entry_id,
+                lemma=lemma,
+                homonym=hom,
+                pos=pos,
+                gloss=gloss,
+                morph=morph or "",
+                form_text=form_variant,
+            )
+            forms_map.setdefault(key, []).append(entry)
+
+    for entry_id, entry_text in entry_text_by_id.items():
+        if entry_id not in entry_meta:
+            continue
+        lemma, hom, pos, gloss = entry_meta[entry_id]
+        for fallback_form in extract_forms_from_entry_text(entry_text):
+            for form_variant in expand_dulat_form_texts(
+                lemma=lemma,
+                homonym=hom,
+                form_text=fallback_form,
+            ):
+                key = normalize_surface(form_variant)
+                marker = (key, int(entry_id), "")
+                if marker in seen_form_entry:
+                    continue
+                seen_form_entry.add(marker)
+                entry = DulatEntry(
+                    entry_id=entry_id,
+                    lemma=lemma,
+                    homonym=hom,
+                    pos=pos,
+                    gloss=gloss,
+                    morph="",
+                    form_text=form_variant,
+                )
+                forms_map.setdefault(key, []).append(entry)
 
     # Optional disambiguated lemma transliterations (if present in DB)
     lemma_translit: Dict[int, set] = {}
@@ -885,6 +1368,19 @@ def split_csv_field(value: str) -> List[str]:
     return [x for x in out if x != ""]
 
 
+def has_semicolon_packed_variants(parts: List[str]) -> bool:
+    """
+    Packed variant payloads are legacy format for out/*.tsv:
+    col3-col6 store multiple options delimited by ';' in one row.
+    """
+    if len(parts) < 6:
+        return False
+    for idx in (2, 3, 4, 5):
+        if len(split_semicolon_field(parts[idx])) > 1:
+            return True
+    return False
+
+
 def is_unresolved_placeholder(value: str) -> bool:
     tok = (value or "").strip()
     return bool(tok) and re.fullmatch(r"\?+", tok) is not None
@@ -936,13 +1432,29 @@ def split_pos_options(value: str) -> List[str]:
         return []
     if is_known_slash_pos_label(tok):
         return [normalize_pos_label(tok)]
-    parts = [p.strip() for p in re.split(r"(?<!\s)/(?!\s)", tok)]
+    # Verb stem alternatives often use slash without repeating `vb`
+    # (e.g., `vb G/D`, `vb G/Š`). Expand them into full verb tokens so
+    # validation can treat each option as a verb POS.
+    if tok.lower().startswith("vb ") and "/" in tok:
+        parts = [p.strip() for p in tok.split("/") if p.strip()]
+        expanded: List[str] = []
+        for idx, part in enumerate(parts):
+            if idx == 0:
+                expanded.append(normalize_pos_label(part))
+                continue
+            if part.lower().startswith("vb"):
+                expanded.append(normalize_pos_label(part))
+            else:
+                expanded.append(normalize_pos_label(f"vb {part}"))
+        return expanded
+    parts = [p.strip() for p in re.split(r"\s*/\s*", tok)]
     return [normalize_pos_label(p) for p in parts if p]
 
 
 NOUN_GENDER_POS_RE = re.compile(r"n\.\s*(m|f)\.?(?=\s|$|[,;/])", re.IGNORECASE)
 NOUN_BASE_POS_RE = re.compile(r"\bn\.\s*", re.IGNORECASE)
 ADJ_GENDER_POS_RE = re.compile(r"adj\.\s*(m|f)\.?(?=\s|$|[,;/])", re.IGNORECASE)
+POS_NUMBER_RE = re.compile(r"\b(?:sg|du|pl)\.?(?=\s|$|[,;/])", re.IGNORECASE)
 
 
 def normalize_pos_option_for_validation(value: str) -> str:
@@ -956,6 +1468,12 @@ def normalize_pos_option_for_validation(value: str) -> str:
     tok = NOUN_GENDER_POS_RE.sub("n ", tok)
     tok = NOUN_BASE_POS_RE.sub("n ", tok)
     tok = ADJ_GENDER_POS_RE.sub("adj.", tok)
+    tok = POS_NUMBER_RE.sub("", tok)
+    # DULAT POS inventory encodes verbs as `vb`; stem labels are tracked
+    # separately (see verb stem lint), so collapse `vb <stem>` for this
+    # validation layer.
+    if re.match(r"^vb(?:\s+.+)?$", tok, flags=re.IGNORECASE):
+        tok = "vb"
     tok = re.sub(r"\s+([,;])", r"\1", tok)
     tok = re.sub(r"\s+", " ", tok).strip()
     return tok.lower()
@@ -1079,7 +1597,7 @@ def variant_is_weak_initial_y_prefix_form(analysis_variant: str, d_field: str) -
     a_txt = (analysis_variant or "").strip()
     if not variant_is_weak_initial_y_verb(a_txt, d_field):
         return False
-    return bool(re.search(r"![ytan]!", a_txt))
+    return bool(PREFIXED_VERB_ANALYSIS_INLINE_RE.search(a_txt))
 
 
 def variant_root_radicals(d_field: str) -> Optional[Tuple[str, str, str]]:
@@ -1114,6 +1632,153 @@ def pos_token_is_ambiguous(pos_tok: str) -> bool:
     if len(split_pos_options(t)) > 1:
         return True
     return ("|" in t) or (";" in t)
+
+
+def collapse_token_rows(token_rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    """
+    Reduce variant-expanded token rows to one row per (line_id, surface) token.
+    Keeps first occurrence order.
+    """
+    out: List[Dict[str, str]] = []
+    seen: set[Tuple[str, str]] = set()
+    for row in token_rows:
+        key = ((row.get("line_id", "") or "").strip(), (row.get("surface", "") or "").strip())
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(row)
+    return out
+
+
+def group_token_rows(token_rows: List[Dict[str, str]]) -> List[Dict[str, object]]:
+    """Group contiguous variant rows into one token-group per (line_id, surface)."""
+    groups: List[Dict[str, object]] = []
+    current: Dict[str, object] | None = None
+    current_key: Tuple[str, str] | None = None
+    for row in token_rows:
+        key = ((row.get("line_id", "") or "").strip(), (row.get("surface", "") or "").strip())
+        if current_key is None or key != current_key:
+            current_key = key
+            current = {
+                "line_id": key[0],
+                "surface": key[1],
+                "section_ref": (row.get("section_ref", "") or "").strip(),
+                "rows": [row],
+            }
+            groups.append(current)
+            continue
+        assert current is not None
+        current["rows"].append(row)
+    return groups
+
+
+def row_is_l_negation_variant(row: Dict[str, str]) -> bool:
+    """True when row is the exact `l(II)` negation reading."""
+    return (
+        (row.get("surface", "") or "").strip() == "l"
+        and (row.get("analysis_field", "") or "").strip() == "l(II)"
+        and (row.get("dulat_field", "") or "").strip() == "l (II)"
+        and (row.get("pos_field", "") or "").strip() == "adv."
+        and (row.get("gloss_field", "") or "").strip() in {"no", "not"}
+    )
+
+
+def row_is_l_homonym_variant(row: Dict[str, str], homonym: str) -> bool:
+    """True when row is the exact `l(<homonym>)` reading."""
+    return (
+        (row.get("surface", "") or "").strip() == "l"
+        and (row.get("analysis_field", "") or "").strip() == f"l({homonym})"
+        and (row.get("dulat_field", "") or "").strip() == f"l ({homonym})"
+    )
+
+
+def row_is_k_homonym_variant(row: Dict[str, str], homonym: str) -> bool:
+    """True when row is the exact `k(<homonym>)` reading."""
+    return (
+        (row.get("surface", "") or "").strip() == "k"
+        and (row.get("analysis_field", "") or "").strip() == f"k({homonym})"
+        and (row.get("dulat_field", "") or "").strip() == f"k ({homonym})"
+    )
+
+
+def row_is_kbd_i_variant(row: Dict[str, str]) -> bool:
+    """True when row is the exact `kbd(I)` lexical reading."""
+    return (
+        (row.get("surface", "") or "").strip() == "kbd"
+        and (row.get("analysis_field", "") or "").strip() == "kbd(I)/"
+        and (row.get("dulat_field", "") or "").strip() == "kbd (I)"
+    )
+
+
+def row_is_kbd_compound_prep_variant(row: Dict[str, str]) -> bool:
+    """True when row matches compound-preposition `l kbd` payload."""
+    return (
+        row_is_kbd_i_variant(row)
+        and (row.get("pos_field", "") or "").strip() == "n."
+        and (row.get("gloss_field", "") or "").strip() == "within"
+    )
+
+
+def row_is_l_body_compound_variant(row: Dict[str, str], second_surface: str) -> bool:
+    """True when row matches canonical compound-preposition payload for `l + <surface>`."""
+    rule = L_BODY_COMPOUND_PREP_RULES.get(second_surface)
+    if rule is None:
+        return False
+    return (
+        (row.get("surface", "") or "").strip() == second_surface
+        and (row.get("analysis_field", "") or "").strip() == rule.second_analysis
+        and (row.get("dulat_field", "") or "").strip() == rule.second_dulat
+        and (row.get("pos_field", "") or "").strip() == rule.second_pos
+        and (row.get("gloss_field", "") or "").strip() == rule.second_gloss
+    )
+
+
+def row_is_baal_ii_variant(row: Dict[str, str]) -> bool:
+    """True when row is the exact `bˤl(II)` lexical reading."""
+    return (
+        (row.get("surface", "") or "").strip() == L_BAAL_SURFACE
+        and (row.get("analysis_field", "") or "").strip() == L_BAAL_ANALYSIS
+        and (row.get("dulat_field", "") or "").strip() == L_BAAL_DULAT
+    )
+
+
+def row_is_l_pn_prep_variant(row: Dict[str, str], second_surface: str) -> bool:
+    """True when row matches canonical lexicalized `l pn*` prepositional payload."""
+    payload = L_PN_PREP_CANONICAL_PAYLOADS.get(second_surface)
+    if payload is None:
+        return False
+    return (
+        (row.get("surface", "") or "").strip() == second_surface
+        and (row.get("analysis_field", "") or "").strip() == payload.analysis
+        and (row.get("dulat_field", "") or "").strip() == payload.dulat
+        and (row.get("pos_field", "") or "").strip() == payload.pos
+        and (row.get("gloss_field", "") or "").strip() == payload.gloss
+    )
+
+
+def is_ktu4_tablet(path: Path) -> bool:
+    """True when file belongs to KTU 4.* family."""
+    return path.name.startswith("KTU 4.")
+
+
+L_NEGATION_VERB_CONTEXT_MSG = "l(II) ('no/not') should be used only before verbal forms"
+L_NEGATION_FORCED_EXCEPTION_MSG = "DULAT exception context requires a single l(II) reading"
+L_FUNCTOR_VOCATIVE_FORCED_MSG = "DULAT context requires a single l({homonym}) reading"
+L_KBD_COMPOUND_PREP_MSG = (
+    "Compound preposition `l kbd` should use single readings: l(I) and "
+    "kbd(I) with POS `n.` and gloss `within`"
+)
+L_BODY_COMPOUND_PREP_MSG = (
+    "Compound preposition `l {surface}` should use single readings: l(I) and "
+    "{analysis} with POS `{pos}` and gloss `{gloss}`"
+)
+L_FORCE_I_BIGRAM_MSG = "Bigram `l {surface}` should use a single l(I) reading"
+L_BAAL_NON_KTU4_MSG = "Outside KTU 4.*, `l bˤl` should use single readings: l(I) and bˤl(II)"
+L_PN_PREP_MSG = (
+    "Lexicalized preposition `l {surface}` should use single readings: l(I) and "
+    "{analysis} with POS `{pos}` and gloss `in front`"
+)
+K_FUNCTOR_BIGRAM_MSG = "Formula bigram `k {surface}` should use a single k(III) reading"
 
 
 # -----------------------------
@@ -1204,8 +1869,15 @@ def lint_file(
     lemma_stem_lines: Dict[Tuple[str, str], set] = {}
     seen_pairs: List[Tuple[str, Tuple[str, str]]] = []
     token_rows: List[Dict[str, str]] = []
+    seen_unwrapped_row_payloads: Dict[Tuple[str, str, str, str, str, str], int] = {}
     entry_index: Dict[Tuple[str, str], set] = {}
     entry_gender_index: Dict[Tuple[str, str], set] = {}
+    entry_morph_index: Dict[int, set] = {}
+    for entries in dulat_forms.values():
+        for item in entries:
+            morph = (item.morph or "").strip().lower()
+            if morph:
+                entry_morph_index.setdefault(item.entry_id, set()).add(morph)
     for _entry_id, (lemma, hom, pos, _gloss) in entry_meta.items():
         if not lemma:
             continue
@@ -1219,11 +1891,41 @@ def lint_file(
             continue
         key = (normalize_surface(lemma), hom or "")
         entry_gender_index.setdefault(key, set()).add(g)
+    entry_plurale_tantum_m: Dict[int, bool] = {}
+    for _entry_id, (lemma, _hom, pos_raw, _gloss) in entry_meta.items():
+        lemma_letters = _DECLARED_LEMMA_LETTER_RE.sub(
+            "", normalize_surface((lemma or "").strip())
+        ).lower()
+        key = (normalize_surface((lemma or "").strip()), (_hom or "").strip())
+        pos_low = (pos_raw or "").strip().lower()
+        if not lemma_letters.endswith("m"):
+            continue
+        if key in PLURALE_TANTUM_M_EXCLUDED_KEYS:
+            continue
+        if not pos_low.startswith("n.") or "num" in pos_low:
+            continue
+        morph_values = entry_morph_index.get(_entry_id, set())
+        non_suffix_morphs = [morph for morph in morph_values if "suff" not in morph]
+        if not non_suffix_morphs:
+            continue
+        if any(morphology_is_explicit_singular(morph) for morph in morph_values):
+            continue
+        if not any(
+            morphology_is_plural_or_dual(morph) and not morphology_is_construct_state(morph)
+            for morph in non_suffix_morphs
+        ):
+            continue
+        if all(morphology_is_plural_or_dual(morph) for morph in non_suffix_morphs):
+            entry_plurale_tantum_m[_entry_id] = True
 
+    current_separator_ref = ""
     for i, raw in enumerate(lines, 1):
         if not raw.strip():
             continue
         if is_cuc_separator_line(raw):
+            section_ref = extract_separator_ref(raw)
+            if section_ref:
+                current_separator_ref = section_ref
             continue
         comment = ""
         core = raw
@@ -1263,6 +1965,43 @@ def lint_file(
             continue
 
         line_id, surface, analysis = parts[0], parts[1], parts[2]
+        if is_out_tsv_file and len(parts) >= 6 and has_semicolon_packed_variants(parts):
+            issues.append(
+                Issue(
+                    "error",
+                    str(path),
+                    i,
+                    line_id,
+                    surface,
+                    analysis,
+                    "Semicolon-packed variants are not allowed in out/*.tsv; split each option into its own row",
+                )
+            )
+        if is_out_tsv_file and len(parts) >= 6:
+            payload_key = (
+                line_id.strip(),
+                surface.strip(),
+                (parts[2] or "").strip(),
+                (parts[3] or "").strip(),
+                (parts[4] or "").strip(),
+                (parts[5] or "").strip(),
+            )
+            first_seen_line = seen_unwrapped_row_payloads.get(payload_key)
+            if first_seen_line is not None:
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        analysis,
+                        "Duplicate unwrapped row payload (same id, surface, and col3-col6); "
+                        f"first seen on line {first_seen_line}",
+                    )
+                )
+            else:
+                seen_unwrapped_row_payloads[payload_key] = i
         in_cuc_dir = "cuc_tablets_tsv" in str(path)
         is_raw_cuc_row = False
         if input_format == "cuc_tablets_tsv":
@@ -1339,6 +2078,22 @@ def lint_file(
                         surface,
                         analysis,
                         "In KTU 1.*, remove bʕl(I) 'labourer' and keep bʕl (II) /b-ʕ-l/ readings",
+                    )
+                )
+
+            if row_has_baal_verbal_missing_slash(
+                analysis_field=parts[2],
+                dulat_field=parts[3],
+            ):
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        analysis,
+                        "For /b-ʕ-l/ verbal readings, use canonical analysis with `[/` (e.g., bˤl[/)",
                     )
                 )
 
@@ -1526,6 +2281,32 @@ def lint_file(
                                 )
                             )
                         continue
+                    missing_pos_markers = missing_required_verb_stem_markers(a_var, p_field)
+                    if missing_pos_markers:
+                        issues.append(
+                            Issue(
+                                "error",
+                                str(path),
+                                i,
+                                line_id,
+                                surface,
+                                a_var,
+                                "Verb stem marker(s) required by POS but missing in analysis: "
+                                + ", ".join(missing_pos_markers),
+                            )
+                        )
+                    if missing_required_n_assimilation_marker(a_var, p_field):
+                        issues.append(
+                            Issue(
+                                "error",
+                                str(path),
+                                i,
+                                line_id,
+                                surface,
+                                a_var,
+                                "Prefixed N-stem forms should encode assimilated nun as '](n]'",
+                            )
+                        )
                     if len(p_tokens) > len(d_tokens):
                         issues.append(
                             Issue(
@@ -1661,17 +2442,28 @@ def lint_file(
                                         )
                                     )
                                 elif noun_gender != expected_gender:
-                                    issues.append(
-                                        Issue(
-                                            "error",
-                                            str(path),
-                                            i,
-                                            line_id,
-                                            surface,
-                                            a_var,
-                                            f"Noun POS gender mismatch for {dtok}: expected n. {expected_gender}, got n. {noun_gender}",
+                                    feminine_surface_override = (
+                                        expected_gender == "m."
+                                        and noun_gender == "f."
+                                        and surface_form_has_feminine_morph(
+                                            dulat_forms=dulat_forms,
+                                            surface=strip_missing(surface).strip(),
+                                            lemma_tok=lemma_tok,
+                                            hom_tok=hom_tok,
                                         )
                                     )
+                                    if not feminine_surface_override:
+                                        issues.append(
+                                            Issue(
+                                                "error",
+                                                str(path),
+                                                i,
+                                                line_id,
+                                                surface,
+                                                a_var,
+                                                f"Noun POS gender mismatch for {dtok}: expected n. {expected_gender}, got n. {noun_gender}",
+                                            )
+                                        )
                             if adj_like_token and len(gender_matches) == 1:
                                 expected_gender = next(iter(gender_matches))
                                 if adj_gender is None:
@@ -1792,6 +2584,7 @@ def lint_file(
                 "line_no": str(i),
                 "line_id": line_id,
                 "surface": surface,
+                "section_ref": current_separator_ref,
                 "analysis_field": parts[2] if len(parts) >= 3 else analysis,
                 "dulat_field": parts[3] if len(parts) >= 4 else "",
                 "pos_field": parts[4] if len(parts) >= 5 else "",
@@ -1862,6 +2655,39 @@ def lint_file(
             if not a_txt:
                 continue
             d_field = dulat_variants[vi] if vi < len(dulat_variants) else ""
+            p_field = (
+                pos_variants[vi]
+                if vi < len(pos_variants)
+                else (pos_variants[0] if pos_variants else "")
+            )
+            pos_opts = split_pos_options(p_field) if p_field else []
+            has_infinitive_pos = any(pos_option_is_verb_infinitive(opt) for opt in pos_opts)
+            has_participle_pos = any(pos_option_is_verb_participle(opt) for opt in pos_opts)
+            if has_infinitive_pos and not has_participle_pos:
+                if not (a_txt.startswith("!!") and "[/" in a_txt):
+                    issues.append(
+                        Issue(
+                            "warning",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            a_txt,
+                            "Infinitive should use `!!...[/` analysis encoding",
+                        )
+                    )
+            if has_participle_pos and not has_infinitive_pos and a_txt.startswith("!!"):
+                issues.append(
+                    Issue(
+                        "warning",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        "Participles should not use infinitive marker `!!`",
+                    )
+                )
             if "~+" in a_txt:
                 issues.append(
                     Issue(
@@ -1883,7 +2709,7 @@ def lint_file(
                         line_id,
                         surface,
                         a_txt,
-                        "Do not use homonym numerals for enclitic n in col3; use +n/+n=/~n/[n/[n=",
+                        "Do not use homonym numerals on suffix/enclitic markers in col3; use canonical +x/~x/[x forms",
                     )
                 )
             if variant_has_lexeme_terminal_single_suffix_split(a_txt, d_field):
@@ -1910,6 +2736,18 @@ def lint_file(
                         "For bʕd with enclitic n, use '~n' (not '+n')",
                     )
                 )
+            if variant_has_suffix_payload_linked_dulat(a_txt, d_field):
+                issues.append(
+                    Issue(
+                        "warning",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        "For clitic-bearing analyses, keep suffix/enclitic in col3 only; do not use ', -x' suffix payload in DULAT col4",
+                    )
+                )
             is_weak_initial_y_verb = variant_is_weak_initial_y_verb(a_txt, d_field)
             if variant_is_weak_initial_y_prefix_form(a_txt, d_field) and "(y" not in a_txt:
                 issues.append(
@@ -1924,7 +2762,7 @@ def lint_file(
                     )
                 )
             root_radicals = variant_root_radicals(d_field)
-            has_prefix_preformative = bool(re.search(r"![ytan](?:=|==|===)?!", a_txt))
+            has_prefix_preformative = bool(PREFIXED_VERB_ANALYSIS_INLINE_RE.search(a_txt))
             if (
                 root_radicals
                 and root_radicals[2] in {"y", "w"}
@@ -2048,9 +2886,9 @@ def lint_file(
             analysis_for_lexeme = analysis
             clitic_parts: List[str] = []
             if "+" in analysis:
-                parts = analysis.split("+")
-                base_part = parts[0].strip()
-                clitic_parts.extend([p for p in parts[1:] if p.strip()])
+                split_parts = analysis.split("+")
+                base_part = split_parts[0].strip()
+                clitic_parts.extend([p for p in split_parts[1:] if p.strip()])
                 analysis_for_lexeme = base_part
 
             if "[" in analysis:
@@ -2357,7 +3195,7 @@ def lint_file(
                                     "Xt stem marker present but DULAT lacks *t stem",
                                 )
                             )
-                        if ":d" in analysis and "D" not in stems and "Dt" not in stems:
+                        if ":d" in analysis and not ({"D", "Dt", "tD"} & stems):
                             issues.append(
                                 Issue(
                                     "error",
@@ -2366,10 +3204,10 @@ def lint_file(
                                     line_id,
                                     surface,
                                     analysis,
-                                    "D stem marker present but DULAT lacks D/Dt",
+                                    "D stem marker present but DULAT lacks D/Dt/tD",
                                 )
                             )
-                        if ":l" in analysis and "L" not in stems and "Lt" not in stems:
+                        if ":l" in analysis and not ({"L", "Lt", "tL"} & stems):
                             issues.append(
                                 Issue(
                                     "error",
@@ -2378,10 +3216,24 @@ def lint_file(
                                     line_id,
                                     surface,
                                     analysis,
-                                    "L stem marker present but DULAT lacks L/Lt",
+                                    "L stem marker present but DULAT lacks L/Lt/tL",
                                 )
                             )
-                        if ":pass" in analysis and not ({"Špass", "Gpass", "Dpass", "N"} & stems):
+                        if ":r" in analysis and "R" not in stems:
+                            issues.append(
+                                Issue(
+                                    "error",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    "R stem marker present but DULAT lacks R",
+                                )
+                            )
+                        if ":pass" in analysis and not (
+                            {"Špass", "Gpass", "Dpass", "Lpass", "N"} & stems
+                        ):
                             issues.append(
                                 Issue(
                                     "error",
@@ -2456,11 +3308,15 @@ def lint_file(
                         is_pronoun = "pn." in pos
                         is_proper_noun = "PN" in pos_raw
                         matched_entry_ids = {m.entry_id for m in matched}
-                        surface_form_morphs = {
-                            (f.morph or "").lower()
+                        surface_form_morphs_raw = {
+                            (f.morph or "").strip()
                             for f in dulat_forms.get(normalize_surface(surface_clean), [])
                             if f.entry_id in matched_entry_ids and (f.morph or "").strip()
                         }
+                        surface_form_morphs = {morph.lower() for morph in surface_form_morphs_raw}
+                        expected_verb_stems = set()
+                        for morph in surface_form_morphs_raw:
+                            expected_verb_stems.update(extract_stems(morph))
                         gender_values = {
                             (entry_gender.get(eid) or "").lower()
                             for eid in matched_entry_ids
@@ -2476,6 +3332,9 @@ def lint_file(
                         has_m_split = re.search(r"/m=?(?=\s*$|[+;,])", analysis_trim) is not None
                         surface_form_has_fem = any("f." in m for m in surface_form_morphs)
                         surface_form_has_pl = any("pl." in m for m in surface_form_morphs)
+                        surface_form_has_sg = any(
+                            morphology_is_explicit_singular(m) for m in surface_form_morphs
+                        )
                         noun_like = not is_pronoun and (
                             is_proper_noun
                             or any(tag in pos for tag in ("n.", "dn", "gn", "tn", "mn"))
@@ -2483,9 +3342,34 @@ def lint_file(
                         adjectival = "adj" in pos
                         deverbal_like = "[/" in analysis
                         pos_field_text = parts[4] if len(parts) >= 5 else ""
+                        pos_field_lower = (pos_field_text or "").lower()
+                        if (
+                            "vb" in pos
+                            and "vb" in pos_field_lower
+                            and not VERBAL_NOUN_POS_RE.search(pos_field_lower)
+                            and expected_verb_stems
+                            and not pos_has_verb_stem_label(pos_field_text)
+                        ):
+                            expected_stems_text = "/".join(
+                                sort_stems_for_display(expected_verb_stems)
+                            )
+                            issues.append(
+                                Issue(
+                                    "warning",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    f"Verb POS should include stem label(s): {expected_stems_text}",
+                                )
+                            )
                         is_plurale_tantum_marked = has_plurale_tantum_note(
                             annotation_text
                         ) or has_plurale_tantum_note(pos_field_text)
+                        has_plurale_tantum_m_entry = any(
+                            entry_plurale_tantum_m.get(eid, False) for eid in matched_entry_ids
+                        )
 
                         if "vb" in pos and "[" not in analysis:
                             issues.append(
@@ -2497,6 +3381,18 @@ def lint_file(
                                     surface,
                                     analysis,
                                     "Verb lacks '[' ending",
+                                )
+                            )
+                        if is_pronoun and analysis_has_nominal_slash_on_pronoun(analysis):
+                            issues.append(
+                                Issue(
+                                    "warning",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    "Pronouns should not use '/' closure in analysis",
                                 )
                             )
                         if not is_pronoun and (
@@ -2515,6 +3411,60 @@ def lint_file(
                                         "Noun/adjective lacks '/' ending",
                                     )
                                 )
+                        if (
+                            noun_like
+                            and has_plurale_tantum_m_entry
+                            and not is_plurale_tantum_marked
+                            and "pl. tant" not in pos_field_text.lower()
+                            and "plurale tant" not in pos_field_text.lower()
+                        ):
+                            issues.append(
+                                Issue(
+                                    "warning",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    "DULAT plurale tantum noun should include 'pl. tant.' in POS",
+                                )
+                            )
+                        if (
+                            noun_like
+                            and has_plurale_tantum_m_entry
+                            and analysis_has_missing_lexeme_m_before_plural_split(
+                                analysis=analysis,
+                                surface=surface_clean,
+                                declared_lemma=head_lemma,
+                            )
+                        ):
+                            issues.append(
+                                Issue(
+                                    "warning",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    "Lexeme-final '-m' noun should encode dropped host -m as '(m/' and keep '/m' only when surface host ends with m",
+                                )
+                            )
+                        if noun_like and analysis_has_missing_iii_aleph_case_encoding(
+                            analysis=analysis,
+                            surface=surface_clean,
+                            declared_lemma=head_lemma,
+                        ):
+                            issues.append(
+                                Issue(
+                                    "warning",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    "III-aleph noun/adjective should encode lexeme-final case vowel as '(u|i|a' and inflection as '/&u|&i|&a'",
+                                )
+                            )
 
                         # Gender-aware checks from DULAT metadata.
                         # For feminine singular noun forms, '/t' is the expected split ending.
@@ -2572,6 +3522,7 @@ def lint_file(
                             and has_f_gender
                             and surface.endswith("t")
                             and surface_form_has_pl
+                            and not surface_form_has_sg
                             and has_t_split
                             and not has_t_plural_split
                         ):
@@ -2592,6 +3543,7 @@ def lint_file(
                             and (not head_lemma.endswith("t"))
                             and surface.endswith("t")
                             and surface_form_has_pl
+                            and not surface_form_has_sg
                             and not has_t_split
                         ):
                             issues.append(
@@ -2757,6 +3709,8 @@ def lint_file(
                             stem_markers.add(":d")
                         if ":l" in analysis:
                             stem_markers.add(":l")
+                        if ":r" in analysis:
+                            stem_markers.add(":r")
                         if ":pass" in analysis:
                             stem_markers.add(":pass")
                         if "]š]" in analysis:
@@ -2840,14 +3794,17 @@ def lint_file(
                     )
                 )
 
+    token_stream = collapse_token_rows(token_rows)
+    token_groups = group_token_rows(token_rows)
+
     # Formula-sensitive homonym checks for l:
     #   tbˤ w l yṯb ilm  -> l(II) "not"
     #   idk l ytn       -> l(III) "truly/certainly"
-    for idx in range(len(token_rows) - 4):
-        seq = [token_rows[idx + k]["surface"] for k in range(5)]
+    for idx in range(len(token_stream) - 4):
+        seq = [token_stream[idx + k]["surface"] for k in range(5)]
         if seq != ["tbˤ", "w", "l", "yṯb", "ilm"]:
             continue
-        l_row = token_rows[idx + 2]
+        l_row = token_stream[idx + 2]
         homs = extract_homonyms_for_lemma(
             l_row.get("analysis_field", ""), l_row.get("dulat_field", ""), "l"
         )
@@ -2879,11 +3836,11 @@ def lint_file(
                 )
             )
 
-    for idx in range(len(token_rows) - 2):
-        seq = [token_rows[idx + k]["surface"] for k in range(3)]
+    for idx in range(len(token_stream) - 2):
+        seq = [token_stream[idx + k]["surface"] for k in range(3)]
         if seq != ["idk", "l", "ytn"]:
             continue
-        l_row = token_rows[idx + 1]
+        l_row = token_stream[idx + 1]
         homs = extract_homonyms_for_lemma(
             l_row.get("analysis_field", ""), l_row.get("dulat_field", ""), "l"
         )
@@ -2915,13 +3872,387 @@ def lint_file(
                 )
             )
 
+    # l(II) "no/not" should only appear when the following token is verbal,
+    # except explicit DULAT exception refs that force single l(II).
+    for idx, group in enumerate(token_groups):
+        if (group.get("surface", "") or "").strip() != "l":
+            continue
+        group_rows = group.get("rows", [])
+        if not isinstance(group_rows, list) or not group_rows:
+            continue
+        has_l2_variant = any(row_is_l_negation_variant(row) for row in group_rows)
+        section_ref = (group.get("section_ref", "") or "").strip()
+        if is_forced_l_negation_ref(section_ref):
+            forced_ok = len(group_rows) == 1 and row_is_l_negation_variant(group_rows[0])
+            if forced_ok:
+                continue
+            anchor = next(
+                (row for row in group_rows if row_is_l_negation_variant(row)), group_rows[0]
+            )
+            line_no = int((anchor.get("line_no", "0") or "0"))
+            line_id = anchor.get("line_id", "")
+            analysis_field = anchor.get("analysis_field", "")
+            issues.append(
+                Issue(
+                    "warning",
+                    str(path),
+                    line_no,
+                    line_id,
+                    "l",
+                    analysis_field,
+                    L_NEGATION_FORCED_EXCEPTION_MSG,
+                )
+            )
+            continue
+
+        if not has_l2_variant:
+            continue
+        # Keep conservative behavior when l(II) is the only available reading.
+        if all(row_is_l_negation_variant(row) for row in group_rows):
+            continue
+
+        next_group = token_groups[idx + 1] if idx + 1 < len(token_groups) else None
+        next_group_rows = next_group.get("rows", []) if next_group else []
+        if not isinstance(next_group_rows, list):
+            continue
+        next_has_verb = any(
+            "vb" in ((row.get("pos_field", "") or "").strip()) for row in next_group_rows
+        )
+        if next_has_verb:
+            continue
+
+        l2_row = next((row for row in group_rows if row_is_l_negation_variant(row)), group_rows[0])
+        line_no = int((l2_row.get("line_no", "0") or "0"))
+        line_id = l2_row.get("line_id", "")
+        analysis_field = l2_row.get("analysis_field", "")
+        issues.append(
+            Issue(
+                "warning",
+                str(path),
+                line_no,
+                line_id,
+                "l",
+                analysis_field,
+                L_NEGATION_VERB_CONTEXT_MSG,
+            )
+        )
+
+    # Force `l(III)`/`l(IV)` in DULAT-backed context references.
+    for idx, group in enumerate(token_groups):
+        if (group.get("surface", "") or "").strip() != "l":
+            continue
+        group_rows = group.get("rows", [])
+        if not isinstance(group_rows, list) or not group_rows:
+            continue
+
+        next_group = token_groups[idx + 1] if idx + 1 < len(token_groups) else None
+        next_group_rows = next_group.get("rows", []) if next_group else []
+        if not isinstance(next_group_rows, list):
+            continue
+        next_has_verb = any(
+            "vb" in ((row.get("pos_field", "") or "").strip()) for row in next_group_rows
+        )
+
+        section_ref = (group.get("section_ref", "") or "").strip()
+        expected_homonym = expected_l_homonym_for_ref(
+            section_ref=section_ref,
+            next_has_verb=next_has_verb,
+        )
+        if expected_homonym is None:
+            continue
+
+        if len(group_rows) == 1 and row_is_l_homonym_variant(
+            group_rows[0], homonym=expected_homonym
+        ):
+            continue
+
+        anchor = next(
+            (row for row in group_rows if row_is_l_homonym_variant(row, homonym=expected_homonym)),
+            group_rows[0],
+        )
+        line_no = int((anchor.get("line_no", "0") or "0"))
+        line_id = anchor.get("line_id", "")
+        analysis_field = anchor.get("analysis_field", "")
+        issues.append(
+            Issue(
+                "warning",
+                str(path),
+                line_no,
+                line_id,
+                "l",
+                analysis_field,
+                L_FUNCTOR_VOCATIVE_FORCED_MSG.format(homonym=expected_homonym),
+            )
+        )
+
+    # Compound preposition usage: `l(I) + kbd(I)` where `kbd` carries
+    # prepositional function ("within").
+    for idx, group in enumerate(token_groups):
+        if (group.get("surface", "") or "").strip() != "l":
+            continue
+        next_group = token_groups[idx + 1] if idx + 1 < len(token_groups) else None
+        if next_group is None or (next_group.get("surface", "") or "").strip() != "kbd":
+            continue
+
+        group_rows = group.get("rows", [])
+        next_group_rows = next_group.get("rows", [])
+        if not isinstance(group_rows, list) or not group_rows:
+            continue
+        if not isinstance(next_group_rows, list) or not next_group_rows:
+            continue
+        if not any(row_is_kbd_i_variant(row) for row in next_group_rows):
+            continue
+
+        l_ok = len(group_rows) == 1 and row_is_l_homonym_variant(group_rows[0], homonym="I")
+        kbd_ok = len(next_group_rows) == 1 and row_is_kbd_compound_prep_variant(next_group_rows[0])
+        if l_ok and kbd_ok:
+            continue
+
+        anchor = next(
+            (row for row in next_group_rows if row_is_kbd_i_variant(row)),
+            next_group_rows[0],
+        )
+        line_no = int((anchor.get("line_no", "0") or "0"))
+        line_id = anchor.get("line_id", "")
+        analysis_field = anchor.get("analysis_field", "")
+        issues.append(
+            Issue(
+                "warning",
+                str(path),
+                line_no,
+                line_id,
+                "kbd",
+                analysis_field,
+                L_KBD_COMPOUND_PREP_MSG,
+            )
+        )
+
+    # Compound preposition usage: `l(I) + <body-part>` where `<body-part>`
+    # carries prepositional function.
+    for idx, group in enumerate(token_groups):
+        if (group.get("surface", "") or "").strip() != "l":
+            continue
+        next_group = token_groups[idx + 1] if idx + 1 < len(token_groups) else None
+        if next_group is None:
+            continue
+        next_surface = (next_group.get("surface", "") or "").strip()
+        body_rule = L_BODY_COMPOUND_PREP_RULES.get(next_surface)
+        if body_rule is None:
+            continue
+
+        group_rows = group.get("rows", [])
+        next_group_rows = next_group.get("rows", [])
+        if not isinstance(group_rows, list) or not group_rows:
+            continue
+        if not isinstance(next_group_rows, list) or not next_group_rows:
+            continue
+
+        has_second_target = any(
+            row_is_l_body_compound_variant(row, second_surface=next_surface)
+            or (
+                (row.get("surface", "") or "").strip() == next_surface
+                and (row.get("analysis_field", "") or "").strip() == body_rule.second_analysis
+                and (row.get("dulat_field", "") or "").strip() == body_rule.second_dulat
+            )
+            for row in next_group_rows
+        )
+        if not has_second_target:
+            continue
+
+        l_ok = len(group_rows) == 1 and row_is_l_homonym_variant(group_rows[0], homonym="I")
+        second_ok = len(next_group_rows) == 1 and row_is_l_body_compound_variant(
+            next_group_rows[0], second_surface=next_surface
+        )
+        if l_ok and second_ok:
+            continue
+
+        anchor = next(
+            (
+                row
+                for row in next_group_rows
+                if (row.get("analysis_field", "") or "").strip() == body_rule.second_analysis
+                and (row.get("dulat_field", "") or "").strip() == body_rule.second_dulat
+            ),
+            next_group_rows[0],
+        )
+        line_no = int((anchor.get("line_no", "0") or "0"))
+        line_id = anchor.get("line_id", "")
+        analysis_field = anchor.get("analysis_field", "")
+        issues.append(
+            Issue(
+                "warning",
+                str(path),
+                line_no,
+                line_id,
+                next_surface,
+                analysis_field,
+                L_BODY_COMPOUND_PREP_MSG.format(
+                    surface=next_surface,
+                    analysis=body_rule.second_analysis,
+                    pos=body_rule.second_pos,
+                    gloss=body_rule.second_gloss,
+                ),
+            )
+        )
+
+    # High-confidence `l + X` prepositional contexts:
+    # - force single `l(I)` for selected followers,
+    # - force `l(I) + bˤl(II)` outside KTU 4.*,
+    # - normalize lexicalized `l pn*` forms to prepositional payload.
+    for idx, group in enumerate(token_groups):
+        if (group.get("surface", "") or "").strip() != "l":
+            continue
+        next_group = token_groups[idx + 1] if idx + 1 < len(token_groups) else None
+        if next_group is None:
+            continue
+
+        next_surface = (next_group.get("surface", "") or "").strip()
+        group_rows = group.get("rows", [])
+        next_group_rows = next_group.get("rows", [])
+        if not isinstance(group_rows, list) or not group_rows:
+            continue
+        if not isinstance(next_group_rows, list) or not next_group_rows:
+            continue
+
+        l_ok = len(group_rows) == 1 and row_is_l_homonym_variant(group_rows[0], homonym="I")
+
+        if next_surface == L_BAAL_SURFACE and not is_ktu4_tablet(path):
+            has_baal_ii = any(row_is_baal_ii_variant(row) for row in next_group_rows)
+            if not has_baal_ii:
+                continue
+            baal_ok = len(next_group_rows) == 1 and row_is_baal_ii_variant(next_group_rows[0])
+            if l_ok and baal_ok:
+                continue
+
+            anchor = next(
+                (row for row in next_group_rows if row_is_baal_ii_variant(row)),
+                next_group_rows[0],
+            )
+            line_no = int((anchor.get("line_no", "0") or "0"))
+            line_id = anchor.get("line_id", "")
+            analysis_field = anchor.get("analysis_field", "")
+            issues.append(
+                Issue(
+                    "warning",
+                    str(path),
+                    line_no,
+                    line_id,
+                    next_surface,
+                    analysis_field,
+                    L_BAAL_NON_KTU4_MSG,
+                )
+            )
+            continue
+
+        pn_payload = L_PN_PREP_CANONICAL_PAYLOADS.get(next_surface)
+        if pn_payload is not None:
+            second_ok = len(next_group_rows) == 1 and row_is_l_pn_prep_variant(
+                next_group_rows[0], second_surface=next_surface
+            )
+            if l_ok and second_ok:
+                continue
+
+            anchor = next(
+                (row for row in next_group_rows if row_is_l_pn_prep_variant(row, next_surface)),
+                next_group_rows[0],
+            )
+            line_no = int((anchor.get("line_no", "0") or "0"))
+            line_id = anchor.get("line_id", "")
+            analysis_field = anchor.get("analysis_field", "")
+            issues.append(
+                Issue(
+                    "warning",
+                    str(path),
+                    line_no,
+                    line_id,
+                    next_surface,
+                    analysis_field,
+                    L_PN_PREP_MSG.format(
+                        surface=next_surface,
+                        analysis=pn_payload.analysis,
+                        pos=pn_payload.pos,
+                    ),
+                )
+            )
+            continue
+
+        if (
+            next_surface in L_FORCE_I_BIGRAM_SURFACES
+            or next_surface in L_PN_FAMILY_FORCE_I_SURFACES
+        ):
+            if l_ok:
+                continue
+            anchor = next(
+                (row for row in group_rows if row_is_l_homonym_variant(row, homonym="I")),
+                group_rows[0],
+            )
+            line_no = int((anchor.get("line_no", "0") or "0"))
+            line_id = anchor.get("line_id", "")
+            analysis_field = anchor.get("analysis_field", "")
+            issues.append(
+                Issue(
+                    "warning",
+                    str(path),
+                    line_no,
+                    line_id,
+                    "l",
+                    analysis_field,
+                    L_FORCE_I_BIGRAM_MSG.format(surface=next_surface),
+                )
+            )
+
+    # Force `k(III)` in selected high-frequency bigrams with verbal second token.
+    for idx, group in enumerate(token_groups):
+        if (group.get("surface", "") or "").strip() != "k":
+            continue
+        next_group = token_groups[idx + 1] if idx + 1 < len(token_groups) else None
+        if next_group is None:
+            continue
+        next_surface = (next_group.get("surface", "") or "").strip()
+        if next_surface not in K_FUNCTOR_VERB_BIGRAM_SURFACES:
+            continue
+
+        group_rows = group.get("rows", [])
+        next_group_rows = next_group.get("rows", [])
+        if not isinstance(group_rows, list) or not group_rows:
+            continue
+        if not isinstance(next_group_rows, list) or not next_group_rows:
+            continue
+        next_has_verb = any(
+            "vb" in ((row.get("pos_field", "") or "").strip()) for row in next_group_rows
+        )
+        if not next_has_verb:
+            continue
+
+        if len(group_rows) == 1 and row_is_k_homonym_variant(group_rows[0], homonym="III"):
+            continue
+
+        anchor = next(
+            (row for row in group_rows if row_is_k_homonym_variant(row, homonym="III")),
+            group_rows[0],
+        )
+        line_no = int((anchor.get("line_no", "0") or "0"))
+        line_id = anchor.get("line_id", "")
+        analysis_field = anchor.get("analysis_field", "")
+        issues.append(
+            Issue(
+                "warning",
+                str(path),
+                line_no,
+                line_id,
+                "k",
+                analysis_field,
+                K_FUNCTOR_BIGRAM_MSG.format(surface=next_surface),
+            )
+        )
+
     # Long repeated sequences are usually formulaic parallels.
     # Surface-identical windows should not drift in col3-col6 payload unless
     # there is explicit reason to keep them different.
     parallel_window = 8
     parallel_occurrences: Dict[Tuple[str, ...], List[int]] = {}
-    for start in range(len(token_rows) - parallel_window + 1):
-        window = token_rows[start : start + parallel_window]
+    for start in range(len(token_stream) - parallel_window + 1):
+        window = token_stream[start : start + parallel_window]
         surfaces = tuple((row.get("surface", "") or "").strip() for row in window)
         if not all(surfaces):
             continue
@@ -2944,7 +4275,7 @@ def lint_file(
             continue
         payload_to_spans: Dict[Tuple[Tuple[str, str, str, str], ...], List[Tuple[str, str]]] = {}
         for start in starts:
-            window = token_rows[start : start + parallel_window]
+            window = token_stream[start : start + parallel_window]
             payload = tuple(
                 (
                     (row.get("analysis_field", "") or "").strip(),

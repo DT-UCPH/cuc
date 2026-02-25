@@ -74,12 +74,9 @@ _DEFAULT_RULES: Tuple[AmbiguityRule, ...] = (
         surface="ydk",
         payload=AmbiguityPayload(
             analysis="yd(I)/+k;yd(I)/+k=;yd(II)/+k;yd(II)/+k=;!y!dk[;!y=!dk[",
-            dulat="yd (I), -k (I);yd (I), -k (I);yd (II), -k (I);yd (II), -k (I);d-k(-k)/;d-k(-k)/",
-            pos="n. f.,pers. pn.;n. f.,pers. pn.;n. m.,pers. pn.;n. m.,pers. pn.;vb;vb",
-            gloss=(
-                "hand, your(s);hand, your(s);love, your(s);love, your(s);"
-                "to be pounded;to be pounded"
-            ),
+            dulat="yd (I);yd (I);yd (II);yd (II);d-k(-k)/;d-k(-k)/",
+            pos="n. f.;n. f.;n. m.;n. m.;vb;vb",
+            gloss=("hand;hand;love;love;to be pounded;to be pounded"),
         ),
     ),
     AmbiguityRule(

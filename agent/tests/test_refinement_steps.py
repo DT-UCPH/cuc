@@ -1,5 +1,6 @@
 """Unit tests for pipeline refinement steps (unittest-discover compatible)."""
 
+import sqlite3
 import tempfile
 import textwrap
 import unittest
@@ -10,6 +11,7 @@ from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_sort import AttestationSortFixer
 from pipeline.steps.baal_labourer_ktu1 import BaalLabourerKtu1Fixer
 from pipeline.steps.baal_plural import BaalPluralGodListFixer
+from pipeline.steps.baal_verbal_slash import BaalVerbalSlashFixer
 from pipeline.steps.base import (
     TabletRow,
     is_separator_line,
@@ -26,9 +28,14 @@ from pipeline.steps.noun_closure import NounPosClosureFixer
 from pipeline.steps.offering_l_prep import OfferingListLPrepFixer
 from pipeline.steps.onomastic_gloss import OnomasticGlossOverrideFixer
 from pipeline.steps.plural_split import PluralSplitFixer
+from pipeline.steps.prefixed_iii_aleph_verb import PrefixedIIIAlephVerbFixer
 from pipeline.steps.schema_formatter import TsvSchemaFormatter
 from pipeline.steps.suffix_fixer import SuffixCliticFixer
 from pipeline.steps.surface_option_propagation import SurfaceOptionPropagationFixer
+from pipeline.steps.verb_l_stem_gemination import VerbLStemGeminationFixer
+from pipeline.steps.verb_n_stem_assimilation import VerbNStemAssimilationFixer
+from pipeline.steps.verb_pos_stem import VerbPosStemFixer
+from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
 from pipeline.steps.weak_final_sc import WeakFinalSuffixConjugationFixer
 from pipeline.steps.weak_verb import WeakVerbFixer
 
@@ -399,20 +406,25 @@ class AlephPrefixFixerTest(unittest.TestCase):
     def setUp(self) -> None:
         self.fixer = AlephPrefixFixer()
 
-    def test_bare_aleph_gets_prefix(self) -> None:
+    def test_bare_aleph_gets_reconstructable_substitution(self) -> None:
         row = TabletRow("1", "ảb", "ʔb/", "ʔb", "n. m.", "father", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "(ʔb/")
+        self.assertEqual(result.analysis, "(ʔ&ab/")
 
     def test_already_prefixed_unchanged(self) -> None:
-        row = TabletRow("1", "ảb", "(ʔb/", "ʔb", "n. m.", "father", "")
+        row = TabletRow("1", "ảb", "(ʔ&ab/", "ʔb", "n. m.", "father", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "(ʔb/")
+        self.assertEqual(result.analysis, "(ʔ&ab/")
 
     def test_root_notation_skipped(self) -> None:
         row = TabletRow("1", "abd", "/ʔ-b-d/", "/ʔ-b-d/", "vb", "be missing", "")
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "/ʔ-b-d/")
+
+    def test_verb_surface_aleph_substitution_is_reconstructable(self) -> None:
+        row = TabletRow("2", "abd", "ʔbd[", "/ʔ-b-d/", "vb G", "be missing", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "(ʔ&abd[")
 
 
 class NounPosClosureFixerTest(unittest.TestCase):
@@ -478,6 +490,12 @@ class PluralSplitFixerTest(unittest.TestCase):
         row = TabletRow("1", "kṯrt", "kṯr(I)/", "kṯr (I)", "n. f.", "Kothar", "")
         result = fixer.refine_row(row)
         self.assertEqual(result.analysis, "kṯr(I)/t=")
+
+    def test_lemma_style_dual_surface_m_gets_split(self) -> None:
+        fixer = PluralSplitFixer(gate=StaticGate(plural_tokens={"š"}))
+        row = TabletRow("1", "šm", "š/", "š", "n. m.", "ram", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "š/m")
 
     def test_singular_t_form_not_forced_to_plural(self) -> None:
         fixer = PluralSplitFixer(gate=StaticGate(plural_tokens={"dqt (I)"}))
@@ -566,6 +584,12 @@ class SuffixCliticFixerTest(unittest.TestCase):
         result = fixer.refine_row(row)
         self.assertEqual(result.analysis, "lšn/")
 
+    def test_prefers_y_suffix_over_ny_when_lemma_ends_with_n(self) -> None:
+        fixer = SuffixCliticFixer(gate=StaticGate(suffix_tokens={"bn (I)"}))
+        row = TabletRow("1", "bny", "bn(I)/", "bn (I)", "n. m.", "son", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "bn(I)/+y")
+
 
 class WeakVerbFixerTest(unittest.TestCase):
     def setUp(self) -> None:
@@ -591,6 +615,16 @@ class WeakVerbFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "!t!(ytn[")
 
+    def test_aleph_preformative_variant_gets_hidden_initial_y(self) -> None:
+        row = TabletRow("1", "atn", "!(ʔ&a!tn[", "/y-t-n/", "vb", "to give", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!(ʔ&a!(ytn[")
+
+    def test_keeps_assimilated_n_before_hidden_y_in_n_stem(self) -> None:
+        row = TabletRow("1", "yld", "!y!](n]yld[", "/y-l-d/", "vb N", "to give birth", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!y!](n](yld[")
+
     def test_non_weak_initial_verb_unchanged(self) -> None:
         row = TabletRow("1", "tqru", "tqrʔ[", "/q-r-ʔ/", "vb", "to call", "")
         result = self.fixer.refine_row(row)
@@ -615,8 +649,10 @@ class KnownAmbiguityExpanderTest(unittest.TestCase):
         )
         self.assertEqual(
             result.dulat,
-            "yd (I), -k (I);yd (I), -k (I);yd (II), -k (I);yd (II), -k (I);d-k(-k)/;d-k(-k)/",
+            "yd (I);yd (I);yd (II);yd (II);d-k(-k)/;d-k(-k)/",
         )
+        self.assertEqual(result.pos, "n. f.;n. f.;n. m.;n. m.;vb;vb")
+        self.assertEqual(result.gloss, "hand;hand;love;love;to be pounded;to be pounded")
 
     def test_expands_shlmm_to_enclitic_and_plural_variants(self) -> None:
         row = TabletRow(
@@ -651,10 +687,10 @@ class SurfaceOptionPropagationFixerTest(unittest.TestCase):
                     "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
                     "1\tydk\t"
                     "yd(I)/+k;yd(I)/+k=;yd(II)/+k;yd(II)/+k=;!y!dk[;!y=!dk[\t"
-                    "yd (I), -k (I);yd (I), -k (I);yd (II), -k (I);yd (II), -k (I);"
+                    "yd (I);yd (I);yd (II);yd (II);"
                     "d-k(-k)/;d-k(-k)/\t"
-                    "n. f.,pers. pn.;n. f.,pers. pn.;n. m.,pers. pn.;n. m.,pers. pn.;vb;vb\t"
-                    "hand, your(s);hand, your(s);love, your(s);love, your(s);"
+                    "n. f.;n. f.;n. m.;n. m.;vb;vb\t"
+                    "hand;hand;love;love;"
                     "to be pounded;to be pounded\t\n"
                 ),
                 encoding="utf-8",
@@ -818,10 +854,10 @@ class SurfaceOptionPropagationFixerTest(unittest.TestCase):
                     "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
                     "1\tydk\t"
                     "yd(I)/+k;yd(I)/+k=;yd(II)/+k;yd(II)/+k=;!y!dk[;!y=!dk[\t"
-                    "yd (I), -k (I);yd (I), -k (I);yd (II), -k (I);yd (II), -k (I);"
+                    "yd (I);yd (I);yd (II);yd (II);"
                     "d-k(-k)/;d-k(-k)/\t"
-                    "n. f.,pers. pn.;n. f.,pers. pn.;n. m.,pers. pn.;n. m.,pers. pn.;vb;vb\t"
-                    "hand, your(s);hand, your(s);love, your(s);love, your(s);"
+                    "n. f.;n. f.;n. m.;n. m.;vb;vb\t"
+                    "hand;hand;love;love;"
                     "to be pounded;to be pounded\t\n"
                 ),
                 encoding="utf-8",
@@ -943,6 +979,11 @@ class WeakFinalSuffixConjugationFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "!t!kly[")
 
+    def test_aleph_prefixed_form_unchanged(self) -> None:
+        row = TabletRow("1", "aklyt", "!(ʔ&a!kly[", "/k-l-y/", "vb", "to finish", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!(ʔ&a!kly[")
+
     def test_middle_radical_t_unchanged(self) -> None:
         row = TabletRow("1", "ytt", "ytn[", "/y-t-n/", "vb", "to give", "")
         result = self.fixer.refine_row(row)
@@ -1028,7 +1069,7 @@ class BaalLabourerKtu1FixerTest(unittest.TestCase):
             line = f.read_text(encoding="utf-8").splitlines()[1]
             self.assertEqual(
                 line,
-                "152715\tbˤl\tbˤl(II)/;bˤl[\tbʕl (II);/b-ʕ-l/\tn. m./DN;vb\tBaʿlu;to make\t",
+                "152715\tbˤl\tbˤl(II)/;bˤl[/\tbʕl (II);/b-ʕ-l/\tn. m./DN;vb\tBaʿlu;to make\t",
             )
 
     def test_keeps_variant_outside_ktu1(self) -> None:
@@ -1050,6 +1091,347 @@ class BaalLabourerKtu1FixerTest(unittest.TestCase):
                 "bʕl (II);bʕl (I);/b-ʕ-l/\tn. m./DN;n. m.;vb\t"
                 "Baʿlu;labourer;to make\t",
             )
+
+
+class BaalVerbalSlashFixerTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.fixer = BaalVerbalSlashFixer()
+
+    def test_normalizes_bare_baal_verbal_variant(self) -> None:
+        row = TabletRow(
+            "1",
+            "bˤl",
+            "bˤl[",
+            "/b-ʕ-l/",
+            "vb",
+            "to make",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "bˤl[/")
+
+    def test_normalizes_ambiguous_row_variant_in_place(self) -> None:
+        row = TabletRow(
+            "1",
+            "bˤl",
+            "bˤl(II)/;bˤl[",
+            "bʕl (II);/b-ʕ-l/",
+            "n. m./DN;vb",
+            "Baʿlu;to make",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "bˤl(II)/;bˤl[/")
+
+    def test_non_baal_verbal_row_unchanged(self) -> None:
+        row = TabletRow(
+            "1",
+            "rkb",
+            "rkb[",
+            "/r-k-b/",
+            "vb",
+            "to mount",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "rkb[")
+
+
+class VerbPosStemFixerTest(unittest.TestCase):
+    def _build_test_db(self, path: Path) -> None:
+        conn = sqlite3.connect(str(path))
+        cur = conn.cursor()
+        cur.execute(
+            "CREATE TABLE entries ("
+            "entry_id INTEGER PRIMARY KEY, "
+            "lemma TEXT, homonym TEXT, pos TEXT)"
+        )
+        cur.execute("CREATE TABLE forms (entry_id INTEGER, text TEXT, morphology TEXT)")
+        cur.executemany(
+            "INSERT INTO entries(entry_id, lemma, homonym, pos) VALUES (?, ?, ?, ?)",
+            [
+                (1, "/y-t-n/", "", "vb"),
+                (2, "/r-g-m/", "", "vb"),
+                (3, "ytn", "I", "n."),
+                (4, "/l-s-m/", "", "vb"),
+                (5, "/š-q-y/", "", "vb"),
+            ],
+        )
+        cur.executemany(
+            "INSERT INTO forms(entry_id, text, morphology) VALUES (?, ?, ?)",
+            [
+                (1, "ytn", "G, prefc."),
+                (1, "ytn", "Š, prefc."),
+                (2, "rgm", "G, suffc."),
+                (3, "ytn", "pl."),
+                (4, "tslmn", "G, prefc."),
+                (5, "yšqy", "G, prefc."),
+                (5, "yšqyn", "G, prefc."),
+            ],
+        )
+        conn.commit()
+        conn.close()
+
+    def test_appends_stem_to_verb_pos(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_test_db(db_path)
+            fixer = VerbPosStemFixer(dulat_db=db_path)
+
+            row = TabletRow("1", "rgm", "rgm[", "/r-g-m/", "vb", "to say", "")
+            result = fixer.refine_row(row)
+
+            self.assertEqual(result.pos, "vb G")
+
+    def test_appends_multiple_stems_in_stable_order(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_test_db(db_path)
+            fixer = VerbPosStemFixer(dulat_db=db_path)
+
+            row = TabletRow("1", "ytn", "!y!ytn[", "/y-t-n/", "vb", "to give", "")
+            result = fixer.refine_row(row)
+
+            self.assertEqual(result.pos, "vb G/Š")
+
+    def test_non_verb_pos_is_unchanged(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_test_db(db_path)
+            fixer = VerbPosStemFixer(dulat_db=db_path)
+
+            row = TabletRow("1", "ytn", "ytn/", "ytn (I)", "n.", "gift", "")
+            result = fixer.refine_row(row)
+
+            self.assertEqual(result.pos, "n.")
+
+    def test_pos_with_existing_stem_is_unchanged(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_test_db(db_path)
+            fixer = VerbPosStemFixer(dulat_db=db_path)
+
+            row = TabletRow("1", "rgm", "rgm[", "/r-g-m/", "vb G", "to say", "")
+            result = fixer.refine_row(row)
+
+            self.assertEqual(result.pos, "vb G")
+
+    def test_non_head_vb_phrase_is_unchanged(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_test_db(db_path)
+            fixer = VerbPosStemFixer(dulat_db=db_path)
+
+            row = TabletRow(
+                "1",
+                "n",
+                "+n",
+                "-n (II)",
+                "suffixed pn. morph. used with vb",
+                "me",
+                "",
+            )
+            result = fixer.refine_row(row)
+
+            self.assertEqual(result.pos, "suffixed pn. morph. used with vb")
+
+    def test_applies_form_text_alias_override_for_stem_lookup(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_test_db(db_path)
+            fixer = VerbPosStemFixer(dulat_db=db_path)
+
+            row = TabletRow("1", "tlsmn", "!t!lsm[n", "/l-s-m/", "vb", "to run", "")
+            result = fixer.refine_row(row)
+
+            self.assertEqual(result.pos, "vb G")
+
+    def test_uses_analysis_host_when_surface_includes_suffix_payload(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_test_db(db_path)
+            fixer = VerbPosStemFixer(dulat_db=db_path)
+
+            row = TabletRow(
+                "1",
+                "yšqynh",
+                "!y!šqy[+nh",
+                "/š-q-y/",
+                "vb",
+                "to offer (something to) drink",
+                "",
+            )
+            result = fixer.refine_row(row)
+
+            self.assertEqual(result.pos, "vb G")
+
+
+class VerbLStemGeminationFixerTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.fixer = VerbLStemGeminationFixer()
+
+    def test_promotes_geminated_l_stem_radical_before_closure(self) -> None:
+        row = TabletRow(
+            "1",
+            "tqṭṭ",
+            "!t!qṭ[ṭ:l",
+            "/q-ṭ(-ṭ)/",
+            "vb L",
+            "to commit transgression",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!qṭṭ[:l")
+
+    def test_keeps_non_geminate_inflection_tail_after_promotion(self) -> None:
+        row = TabletRow(
+            "1",
+            "tqṭṭn",
+            "!t!qṭ[ṭn:l",
+            "/q-ṭ(-ṭ)/",
+            "vb L",
+            "to commit transgression",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!qṭṭ[n:l")
+
+    def test_skips_non_l_stem_rows(self) -> None:
+        row = TabletRow(
+            "1",
+            "tqṭṭ",
+            "!t!qṭ[ṭ:d",
+            "/q-ṭ(-ṭ)/",
+            "vb D",
+            "to commit transgression",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!qṭ[ṭ:d")
+
+    def test_skips_when_stem_already_geminated(self) -> None:
+        row = TabletRow(
+            "1",
+            "tqṭṭ",
+            "!t!qṭṭ[:l",
+            "/q-ṭ(-ṭ)/",
+            "vb L",
+            "to commit transgression",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!qṭṭ[:l")
+
+
+class VerbStemSuffixMarkerFixerTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.fixer = VerbStemSuffixMarkerFixer()
+
+    def test_adds_d_marker_for_vb_d(self) -> None:
+        row = TabletRow("1", "kbd", "kbd[", "/k-b-d/", "vb D", "to honour", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "kbd[:d")
+
+    def test_adds_l_marker_before_suffix_payload(self) -> None:
+        row = TabletRow("1", "yknh", "!y!knn[+h", "/k-n/", "vb L", "to be stable", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!y!knn[:l+h")
+
+    def test_adds_passive_marker_for_passive_stem(self) -> None:
+        row = TabletRow("1", "qtl", "qtl[", "/q-t-l/", "vb Dpass", "to be killed", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "qtl[:pass")
+
+    def test_keeps_nonverbal_row_unchanged(self) -> None:
+        row = TabletRow("1", "kbd", "kbd/", "kbd (I)", "n. f.", "liver", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "kbd/")
+
+    def test_does_not_touch_deverbal_nominal_analysis(self) -> None:
+        row = TabletRow("1", "qtl", "qtl[/", "/q-t-l/", "vb D", "killing", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "qtl[/")
+
+
+class VerbNStemAssimilationFixerTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.fixer = VerbNStemAssimilationFixer()
+
+    def test_inserts_assimilated_n_for_prefixed_n_stem(self) -> None:
+        row = TabletRow("1", "tṯbr", "!t!ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!](n]ṯbr[")
+
+    def test_inserts_assimilated_n_for_aleph_prefixed_n_stem(self) -> None:
+        row = TabletRow("1", "aṯbr", "!(ʔ&a!ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!(ʔ&a!](n]ṯbr[")
+
+    def test_keeps_row_when_marker_already_present(self) -> None:
+        row = TabletRow("1", "tṯbr", "!t!](n]ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!](n]ṯbr[")
+
+    def test_keeps_non_prefixed_n_stem_row_unchanged(self) -> None:
+        row = TabletRow("1", "nṯbr", "nṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "nṯbr[")
+
+    def test_collapses_repeated_assimilated_n_insertions(self) -> None:
+        row = TabletRow(
+            "1",
+            "yld",
+            "!y!](n](y](n](y](n](yld[",
+            "/y-l-d/",
+            "vb N",
+            "to give birth",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!y!](n](yld[")
+
+    def test_normalizes_semicolon_variants_independently(self) -> None:
+        row = TabletRow(
+            "1",
+            "yld",
+            "!y!yld[; yld[/",
+            "/y-l-d/; /y-l-d/",
+            "vb N; vb N",
+            "to give birth; to give birth",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!y!](n]yld[; yld[/")
+
+
+class PrefixedIIIAlephVerbFixerTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.fixer = PrefixedIIIAlephVerbFixer()
+
+    def test_rewrites_prefixed_iii_aleph_g_form(self) -> None:
+        row = TabletRow("1", "tḫṭu", "ḫṭʔ[u", "/ḫ-ṭ-ʔ/", "vb G", "to make a mistake", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!ḫṭ(ʔ[&u")
+
+    def test_rewrites_prefixed_iii_aleph_aleph_preformative(self) -> None:
+        row = TabletRow("1", "iqra", "qrʔ[a", "/q-r-ʔ/", "vb G", "to call", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!(ʔ&i!qr(ʔ[&a")
+
+    def test_rewrites_prefixed_iii_aleph_n_form(self) -> None:
+        row = TabletRow("2", "nḫtu", "ḫtʔ[u", "/ḫ-t-ʔ/", "vb N", "to be ground up", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!n!ḫt(ʔ[&u")
+
+    def test_keeps_already_prefixed_row_unchanged(self) -> None:
+        row = TabletRow("3", "tḫṭu", "!t!ḫṭ(ʔ[&u", "/ḫ-ṭ-ʔ/", "vb G", "to make a mistake", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!ḫṭ(ʔ[&u")
+
+    def test_skips_non_iii_aleph_root(self) -> None:
+        row = TabletRow("4", "tqtl", "qtl[u", "/q-t-l/", "vb G", "to kill", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "qtl[u")
 
 
 class OfferingListLPrepFixerTest(unittest.TestCase):
@@ -1306,6 +1688,23 @@ class GenericParsingOverrideFixerTest(unittest.TestCase):
                 "1\tlp\tl+p(I)\tl (I), p (I)\tprep., conj. functor\tto, and\tmanual resolution",
             )
 
+    def test_project_default_overrides_restore_hrshnr_payload(self) -> None:
+        fixer = GenericParsingOverrideFixer()
+        row = TabletRow(
+            line_id="135554",
+            surface="ḫršnr",
+            analysis="?",
+            dulat="?",
+            pos="?",
+            gloss="?",
+            comment="DULAT: NOT FOUND",
+        )
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ḫršn&r/")
+        self.assertEqual(result.dulat, "ḫršn (I)")
+        self.assertEqual(result.pos, "n. m.")
+        self.assertEqual(result.gloss, "(divine) mountain")
+
 
 class TsvSchemaFormatterTest(unittest.TestCase):
     def setUp(self) -> None:
@@ -1379,6 +1778,26 @@ class TsvSchemaFormatterTest(unittest.TestCase):
             lines = f.read_text(encoding="utf-8").splitlines()
             self.assertEqual(lines[0], self.header)
             self.assertEqual(lines[1], self.separator)
+
+    def test_drops_repeated_header_like_junk_rows(self) -> None:
+        content = textwrap.dedent(
+            """\
+            id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments
+            id\tsurface form\tsurface form\t\t\t\tDULAT: NOT FOUND
+            id\tsurface form\t?\t?\t?\t?\tDULAT: NOT FOUND
+            # KTU 1.5 I:4\t\t\t\t\t\t
+            103\tabc\tabc/\tabc\tn. m.\tthing\t
+            """
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            f = Path(tmp_dir) / "test.tsv"
+            f.write_text(content, encoding="utf-8")
+            result = self.fixer.refine_file(f)
+            self.assertEqual(result.rows_changed, 2)
+            lines = f.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(lines[0], self.header)
+            self.assertEqual(lines[1], self.separator)
+            self.assertEqual(lines[2], "103\tabc\tabc/\tabc\tn. m.\tthing\t")
 
     def test_normalizes_variant_divider_spacing_in_structured_columns(self) -> None:
         content = textwrap.dedent(

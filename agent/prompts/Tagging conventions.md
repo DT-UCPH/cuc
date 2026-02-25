@@ -29,8 +29,23 @@ If feminine ending -t  of nouns (both sing or plur) is part of the lexeme, we le
 
 For pluralia tantum, keep plural ending explicit in analysis and mark POS with `pl. tant.`/`pl. tant.?` (e.g. hml(t/t=; nš(m/m). 
 
-But adjectives and participles tag feminine ending -t, e.g. mru "fattened: the feminine singular form is mr(u&a/t and the feminine plural is mr(u&a/t=.
-In III-ˀ nouns aleph letters show case endings, e.g. ksu "seat: ks(u/&u nominative, ks(u/&i genitive, ks(u/&a accusative; or plural of rpu "Rafa": rp(u&/m, rp(u&i/m.
+But adjectives and participles tag feminine ending -t, e.g. mru "fattened: 
+```
+f.s. mr(u&a/t
+f. pl. mr(u&a/t=
+```
+
+In III-ˀ nouns aleph letters show case endings, e.g. ksu "seat: 
+```
+nominative ks(u/&u
+genitive ks(u/&i
+accusative ks(u/&a
+```
+or plural of rpu "Rafa": 
+```
+rp(u&/m, 
+rp(u&i/m
+```
 
 ## Prefixes and infixes
 
@@ -241,7 +256,7 @@ A special case of energic nun is when it incorporates a pronominal suffix with a
 
 ### Directive h
 
-Directive h is encoded as ~h.
+Directive h ("adverbial -h (II)") is encoded as ~h.
 
 ## VARIANTS
 

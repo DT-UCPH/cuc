@@ -40,14 +40,8 @@ class SuffixCliticFixer(RefinementStep):
         if not surface or not analysis or not pos:
             return row
 
-        # Check if surface ends with a known suffix segment
-        matched_suffix = None
-        for seg in _SUFFIX_SEGMENTS:
-            if surface.endswith(seg) and len(surface) > len(seg):
-                matched_suffix = seg
-                break
-
-        if not matched_suffix:
+        suffix_candidates = self._suffix_candidates(surface)
+        if not suffix_candidates:
             return row
 
         variants = analysis.split(";")
@@ -61,13 +55,18 @@ class SuffixCliticFixer(RefinementStep):
             pos_v = pos_variants[idx].strip() if idx < len(pos_variants) else ""
             dulat_tok = dulat_variants[idx].strip() if idx < len(dulat_variants) else ""
 
-            new_variant = self._fix_variant(
-                analysis_variant=variant,
-                pos_variant=pos_v,
-                dulat_token=dulat_tok,
-                suffix=matched_suffix,
-                surface=surface,
-            )
+            new_variant = variant
+            for suffix in suffix_candidates:
+                candidate = self._fix_variant(
+                    analysis_variant=variant,
+                    pos_variant=pos_v,
+                    dulat_token=dulat_tok,
+                    suffix=suffix,
+                    surface=surface,
+                )
+                if candidate != variant:
+                    new_variant = candidate
+                    break
             if new_variant != variant:
                 changed = True
             out.append(new_variant)
@@ -83,6 +82,11 @@ class SuffixCliticFixer(RefinementStep):
             pos=row.pos,
             gloss=row.gloss,
             comment=row.comment,
+        )
+
+    def _suffix_candidates(self, surface: str) -> tuple[str, ...]:
+        return tuple(
+            seg for seg in _SUFFIX_SEGMENTS if surface.endswith(seg) and len(surface) > len(seg)
         )
 
     def _fix_variant(

@@ -71,6 +71,9 @@ class TsvSchemaFormatter(RefinementStep):
                 continue
 
             parts = raw.split("\t")
+            if self._is_header_like_junk_row(parts):
+                rows_changed += 1
+                continue
             line_id = (parts[0] if parts else "").strip()
             if not line_id or not line_id[0].isdigit():
                 out_lines.append(raw)
@@ -92,6 +95,13 @@ class TsvSchemaFormatter(RefinementStep):
     def _is_header_row(self, raw: str) -> bool:
         parts = [part.strip().lower() for part in raw.split("\t")]
         return parts == HEADER_COLUMNS_LOWER
+
+    def _is_header_like_junk_row(self, parts: list[str]) -> bool:
+        if len(parts) < 2:
+            return False
+        first = (parts[0] or "").strip().lower()
+        second = (parts[1] or "").strip().lower()
+        return first == "id" and second == "surface form"
 
     def _normalize_columns(self, parts: list[str]) -> str:
         if len(parts) < 7:

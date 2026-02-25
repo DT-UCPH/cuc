@@ -1,7 +1,7 @@
-# Feminine `-t` Singular Split Pipeline
+# Feminine `-t` Split Pipeline
 
 ## Scope
-This pipeline rule targets unsplit feminine singular noun-like analyses where column 3 still uses `...t/` instead of an explicit feminine split with `/t`.
+This pipeline rule targets feminine noun-like analyses with missing or inconsistent `-t` split encoding in column 3, normalizing both singular (`/t`) and feminine-plural (`/t=`) outputs.
 
 ## Inputs
 - `col2` surface form
@@ -14,14 +14,14 @@ This pipeline rule targets unsplit feminine singular noun-like analyses where co
 ## Step Strategy
 1. Candidate detection
 - Match analysis variants of shape `...t/` (optionally with homonym marker before `/`).
-- Skip variants already split as `/t` or `/t=`.
+- Also process existing split variants `/t` and `/t=` to repair lexeme-final `-t` reconstruction (`(t`).
 
 2. Feminine evidence gating
 - Accept when POS explicitly marks feminine (`n. f.` or `adj. f.`).
 - For onomastic POS (`DN/PN/TN/GN/MN`), accept only if the declared DULAT token is feminine in `data/onomastic_gloss_overrides.tsv`.
 
 3. Safety gating
-- Skip plural tokens according to DULAT form evidence for the current surface (`is_plural_token`).
+- Keep conservative DULAT plural skip for unsplit `...t/` variants unless POS explicitly marks `pl. tant.` or token is in the forced feminine-plural `/t=` list.
 - Skip variants containing verbal/clitic structure (`[`, `+`, `~`) in this conservative pass.
 
 4. Deterministic rewrite
@@ -30,8 +30,13 @@ This pipeline rule targets unsplit feminine singular noun-like analyses where co
   - `X/t -> X(t/t`
   - `Xt(I)/ -> X(t(I)/t`
   - `X(I)/t -> X(t(I)/t`
+- For feminine plural context (`pl. tant.` in POS, or forced tokens), promote split to `/t=`:
+  - `X(t/t -> X(t/t=`
+  - `X(t(I)/t -> X(t(I)/t=`
+  - `Xt(I)/ -> X(t(I)/t=`
 - If declared DULAT lemma is not lexeme-final `-t`:
   - keep feminine singular split as `.../t`.
+- Forced feminine-plural `/t=` tokens currently include `hmlt` and `ṯnt (II)`.
 - If analysis omits a homonym but declared DULAT token has one, inject it into transformed feminine split output (for example `b/t` + `bt (I)` -> `b(t(I)/t`).
 - If surface has a terminal `m` and transformed analysis reconstructs to exactly `surface[:-1]`, append terminal `m` after `/t` (for example `thmtm`: `thm(t/t` -> `thm(t/tm`).
 

@@ -7,6 +7,7 @@ from pathlib import Path
 
 from pipeline.dulat_attestation_index import (
     DulatAttestationIndex,
+    normalize_reference_label,
     parse_dulat_head_token,
 )
 
@@ -46,15 +47,15 @@ class DulatAttestationIndexTest(unittest.TestCase):
         cur.executemany(
             (
                 "INSERT INTO attestations(entry_id, ug, translation, citation, kind) "
-                "VALUES (?, '', '', '', 'attestation')"
+                "VALUES (?, '', '', ?, 'attestation')"
             ),
             [
-                (1,),
-                (1,),
-                (2,),
-                (2,),
-                (2,),
-                (3,),
+                (1, "CAT 1.3 I:1"),
+                (1, "CAT 1.3 V:20"),
+                (2, "CAT 1.3 V:22"),
+                (2, "CAT 2.1:1"),
+                (2, "CAT 2.1:2"),
+                (3, "CAT 1.1 I:1"),
             ],
         )
         conn.commit()
@@ -75,6 +76,21 @@ class DulatAttestationIndexTest(unittest.TestCase):
             self.assertEqual(index.count_for_variant_token("bʕl"), 3)
             self.assertEqual(index.count_for_variant_token("/q-t-l/"), 1)
             self.assertEqual(index.count_for_variant_token("missing"), -1)
+
+    def test_reference_lookup_normalizes_ktu_cat_prefix(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_db(db_path)
+            index = DulatAttestationIndex.from_sqlite(db_path)
+
+            self.assertTrue(index.has_reference_for_variant_token("bʕl (I)", "KTU 1.3 I:1"))
+            self.assertFalse(index.has_reference_for_variant_token("bʕl (II)", "KTU 1.3 I:1"))
+            self.assertTrue(index.has_reference_for_variant_token("bʕl", "KTU 1.3 V:22"))
+
+    def test_normalize_reference_label(self) -> None:
+        self.assertEqual(normalize_reference_label("CAT 1.3 I:1"), "1.3 I:1")
+        self.assertEqual(normalize_reference_label(" KTU   1.3  I : 1 "), "1.3 I:1")
+        self.assertEqual(normalize_reference_label("KTU 1.3 I:1–2"), "1.3 I:1-2")
 
     def test_missing_db_returns_empty_index(self) -> None:
         index = DulatAttestationIndex.from_sqlite(Path("does-not-exist.sqlite"))

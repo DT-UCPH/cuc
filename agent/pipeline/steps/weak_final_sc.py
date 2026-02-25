@@ -10,7 +10,7 @@ from typing import Optional, Tuple
 from pipeline.steps.base import RefinementStep, TabletRow
 
 _LETTER_RE = re.compile(r"[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]")
-_PREFORMATIVE_RE = re.compile(r"![ytan](?:=|==|===)?!")
+_PREFORMATIVE_RE = re.compile(r"(?:![ytan](?:=|==|===)?!|!\(ʔ&[aiu]!)")
 
 
 class WeakFinalSuffixConjugationFixer(RefinementStep):
