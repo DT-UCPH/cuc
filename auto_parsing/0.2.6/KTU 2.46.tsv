@@ -1,88 +1,89 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.46 1						
-158262	tḥm	tḥm/	tḥm	n. m.	message	
+158262	tḥm	tḥm/	tḥm	n. m. sg.	message	
 158263	pgn	pgn/	pgn	PN	pgn	
 # KTU 2.46 2						
 158264	l	l(I)	l (I)	prep.	to	
 158264	l	l(II)	l (II)	adv.	no	
 158264	l	l(III)	l (III)	functor	certainly	
 158265	mlk	mlk[	/m-l-k/	vb G	to reign	
-158265	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-158266	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+158265	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+158266	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 2.46 3						
 158267	rgm	rgm[	/r-g-m/	vb G	to say	
-158267	rgm	rgm/	rgm	n. m.	word	
+158267	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.46 4						
 158268	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 158269	lk	l(I)+k	l (I)	prep.	to	
-158270	ilm	il(I)/m	ỉl (I)	n. m.	god	
+158270	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.46 5						
-158271	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
-158272	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
+158271	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+158272	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
 # KTU 2.46 6						
+158273	hnny	hn+ny	hn	deictic functor/adv.	behold!	
 158273	hnny	hnny	hnny	adv.	here	
+158273	hnny	hnny+ny	hnny	adv.	here	
 158274	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-158275	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158275	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158275	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158275	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158275	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158275	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.46 7						
 158276	ṯmny	ṯm	ṯm	adv.	there	
 158277	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158278	bny	bn(I)/	bn (I)	n. m.	son	
+158278	bny	bn(I)/+y	bn (I)	n. m.	son	
 158278	bny	bny[	/b-n-y/	vb G	to build	
-158278	bny	bny/	bny	n. m.	architect	
+158278	bny	bny/	bny	n. m. sg.	architect	
 # KTU 2.46 8						
 158279	mnm	mnm	mnm	indef. pn.	any(thing)	
-158280	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158280	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158280	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158280	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158280	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158280	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158281	rgm	rgm[	/r-g-m/	vb G	to say	
-158281	rgm	rgm/	rgm	n. m.	word	
-158282	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
+158281	rgm	rgm/	rgm	n. m. sg.	word	
+158282	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
 # KTU 2.46 9						
 158283	ky	k(III)	k (III)	Subordinating or completive functor	when	
 158283	ky	k(II)	k (II)	emph. functor	yes	
 158283	ky	k(IV)	k (IV)	adv.	thus	
-158284	lik	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
-158285	bny	bn(I)/	bn (I)	n. m.	son	
+158284	lik	l(ʔ&ik[	/l-ʔ-k/	vb G	to send (a message)	
+158285	bny	bn(I)/+y	bn (I)	n. m.	son	
 158285	bny	bny[	/b-n-y/	vb G	to build	
-158285	bny	bny/	bny	n. m.	architect	
+158285	bny	bny/	bny	n. m. sg.	architect	
 # KTU 2.46 10						
-158286	lḥt	lḥ(II)/t=	lḥ (II)	n. m.	missive	
-158286	lḥt	lḥ(I)/t=	lḥ (I)	n. f.	cheek	
-158287	akl	akl(II)/	ảkl (II)	n. m.	grain	
+158286	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+158287	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
 158288	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.46 11						
 158289	midy	mid/+y	mỉ/ủd	n. m.	abundance	
 158290	w	w	w	conj.	and	
-158291	ġbny	ġbn/	ġbn	n. m.	well-being	
+158291	ġbny	ġbn/+y	ġbn	n. m. sg.	well-being	
 # KTU 2.46 12						
 158292	w	w	w	conj.	and	
-158293	bny	bn(I)/	bn (I)	n. m.	son	
+158293	bny	bn(I)/+y	bn (I)	n. m.	son	
 158293	bny	bny[	/b-n-y/	vb G	to build	
-158293	bny	bny/	bny	n. m.	architect	
+158293	bny	bny/	bny	n. m. sg.	architect	
 158294	hnkt	hnk	hnk(t)	dem./pers. pn.	that	
 # KTU 2.46 13						
-158295	yškn	!y!škn[	/š-k-n/	vb D	to be placed	
-158296	anyt	any/	ảny(t)	n. f.	ship	
+158295	yškn	!y!škn[:d	/š-k-n/	vb D	to be placed	
+158296	anyt	any(t/t	ảny(t)	n. f. pl.	ship	
 # KTU 2.46 14						
-158297	ym	ym(I)/	ym (I)	n. m.	day	
-158297	ym	ym(II)/	ym (II)	n. m.	sea	
+158297	ym	ym(I)/	ym (I)	n. m. sg.	day	
+158297	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 158298	yšrn	!y!šr(I)[+n	/š-r/ (I)	vb	to sing	
 # KTU 2.46 15						
 158299	w	w	w	conj.	and	
-158300	akl	akl(II)/	ảkl (II)	n. m.	grain	
+158300	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
 # KTU 2.46 16						
 158301	xx	?	?	?	?	
-158302	š	š/	š	n. m.	ram	
+158302	š	š/	š	n. m. sg.	ram	
 # KTU 2.46 17						
 158303	xxxx	?	?	?	?	
 # KTU 2.46 18						
 158304	xxxx	?	?	?	?	
 # KTU 2.46 19						
 158305	xxxxx	?	?	?	?	
-158306	ym	ym(I)/	ym (I)	n. m.	day	
-158306	ym	ym(II)/	ym (II)	n. m.	sea	
+158306	ym	ym(I)/	ym (I)	n. m. sg.	day	
+158306	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 # KTU 2.46 20						
 158307	xxxxn	?	?	?	?	DULAT: NOT FOUND
 158308	bd	b	b	prep.	in	

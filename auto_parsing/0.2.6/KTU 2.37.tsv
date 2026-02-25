@@ -2,22 +2,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.37 1						
 157819	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 2						
-157820	argmn	!a!rgm[	/r-g-m/	vb	to say	
-157820	argmn	argmn/	ả/ỉrgmn	n. m.	payment of tribute to the Hittite court	
+157820	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
+157820	argmn	argmn/	ả/ỉrgmn	n. m. sg.	payment of tribute to the Hittite court	
 # KTU 2.37 3						
 157821	šixxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 4						
 157822	mxxx	?	?	?	?	DULAT: NOT FOUND
 157823	td	ndd[	/n-d-d/	vb G	to go	
+157823	td	ydy(I)[	/y-d-y/ (I)	vb G	to throw	
 157823	td	nd[	/n-d(-y)/	vb G	to throw	
-157823	td	ydy(II)[	/y-d-y/ (II)	vb G	to rip	
 # KTU 2.37 5						
 157824	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 157825	xxxštt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 6						
 157826	mn	mn(IV)	mn (IV)	?	?	
-157826	mn	mn(III)/	mn (III)	n. m.	mina	
-157827	ṭbt	ṭb(t/t	ṭbt	n. f.	well-being	
+157826	mn	mn(III)/	mn (III)	n. m. sg.	mina	
+157827	ṭbt	ṭb(t/t	ṭbt	n. f. sg.	well-being	
 157828	w	w	w	conj.	and	
 157829		?	?	?	?	
 # KTU 2.37 7						
@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.37 8						
 157833	argmnm	argm/+nm	ả/ỉrgmn	n. m.	payment of tribute to the Hittite court	
 157834	d	d	d	det. or rel. functor	the one(s) of	
-157835	ar	a/	ả/ỉr	n. m.	light	
+157835	ar	a/	ả/ỉr	n. m. sg.	light	
 # KTU 2.37 9						
 157836		?	?	?	?	
 157837	ibˤr	?	?	?	?	DULAT: NOT FOUND
@@ -35,18 +35,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157838	nn	gr[	/g-r(-y)/	vb G	to attack	
 157839		?	?	?	?	
 # KTU 2.37 10						
-157840	argmn	!a!rgm[	/r-g-m/	vb	to say	
-157840	argmn	argmn/	ả/ỉrgmn	n. m.	payment of tribute to the Hittite court	
+157840	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
+157840	argmn	argmn/	ả/ỉrgmn	n. m. sg.	payment of tribute to the Hittite court	
 157841	d	d	d	det. or rel. functor	the one(s) of	
-157842	riš	riš(I)/	rỉš (I)	n. m.	head	
+157842	riš	riš(I)/	rỉš (I)	n. m. sg.	head	
 # KTU 2.37 11						
-157843	dq	dq(I)/	dq (I)	adj. m.	tiny	
+157843	dq	dq(I)/	dq (I)	adj. m. sg.	tiny	
 157844	w	w	w	conj.	and	
 157845	xxxxmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 12						
 157846	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157847	mlk	mlk[	/m-l-k/	vb G	to reign	
-157847	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+157847	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.37 13						
-157848	kš	kš/	kš	n. m.	date	
+157848	kš	kš/	kš	n. m. sg.	date	
 157849		?	?	?	?	

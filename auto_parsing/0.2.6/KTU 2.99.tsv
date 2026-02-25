@@ -1,30 +1,32 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 1						
-160275	tḥm	tḥm/	tḥm	n. m.	message	
-160276	mlkt	mlk(t/t	mlkt	n. f.	queen	
+160275	tḥm	tḥm/	tḥm	n. m. sg.	message	
+160276	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 # KTU 2.99 2						
 160277	l	l(I)	l (I)	prep.	to	
 160277	l	l(III)	l (III)	functor	certainly	
 160278	urtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 3						
 160279	r	?	?	?	?	
-160280	gm	g/	g	n. m.	(loud) voice	
+160280	gm	g/	g	n. m. sg.	(loud) voice	
 160280	gm	gm(II)	gm (II)	adv.	also	
 # KTU 2.99 4						
 160281	hlny	hlny	hlny	deictic adv. functor	behold	
+160282	klby	klb(I)/+y	klb (I)	n. m.	dog	
 160282	klby	klby/	klby	PN	klby	
 # KTU 2.99 5						
 160283	w	w	w	conj.	and	
+160284	gtn	gt/+n	gt	n. f./element of TNN	gittu	
 160284	gtn	gtn/	gtn	PN	gtn	
 160285	yit	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 6						
-160286	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+160286	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 # KTU 2.99 7						
 160287	xxxxtddhm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 8						
 160288	xx	?	?	?	?	
-160289	mitm	mi(t/tm	mỉt	n. f.	a hundred	
-160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m.	gold	
+160289	mitm	mit/m	mỉt	n. f. du.	a hundred	
+160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 # KTU 2.99 9						
 160291	xxxxxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 10						
@@ -32,22 +34,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 11						
 160293	x	?	?	?	?	
 160294	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-160294	alp	alp(II)/	ảlp (II)	num.	(one	
-160295	pḥm	pḥm/	pḥm	n. m.	ember	
+160294	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+160295	pḥm	pḥm/	pḥm	n. m. sg.	ember	
 # KTU 2.99 12						
 160296	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-160296	alp	alp(II)/	ảlp (II)	num.	(one	
-160297	iqni	iqn(u/&i	ỉqnủ	n. m.	gem of lapis lazuli	
+160296	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+160297	iqni	iqn(u/&i	ỉqnủ	n. m. sg.	gem of lapis lazuli	
 160298	w	w	w	conj.	and	
 160299	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 160300	ybl	!y!(ybl[	/y-b-l/	vb G	to carry	
 # KTU 2.99 13						
 160301	d	d	d	det. or rel. functor	the one(s) of	
-160302	štnt	?	?	?	?	DULAT: NOT FOUND
+160302	štnt	ytn[t	/y-t-n/	vb	to give	
 # KTU 2.99 14						
 160303		?	?	?	?	
 # KTU 2.99 15						
-160304	mit	mi(t/t	mỉt	n. f.	a hundred	
+160304	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
 # KTU 2.99 16						
 160305		?	?	?	?	
 # KTU 2.99 17						
@@ -59,28 +61,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160307	tqḥ	lqḥ[	/l-q-ḥ/	vb G	to get hold of	
 # KTU 2.99 19						
 160308	pln	pln/	pln	PN	pln	
+160308	pln	pl[+n	/p-l(-l)/	vb	to be cracked	
 # KTU 2.99 20						
-160309	šmn	šmn(I)/	šmn (I)	n. m.	oil	
-160310	mr	mr(I)/	mr (I)	n. m.	myrrh	
-160310	mr	mr(IV)/	mr (IV)	adj. m.	valiant	
-160310	mr	mr(II)/	mr (II)	adj. m.	bitter	
+160309	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
+160310	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
+160310	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
+160310	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
 # KTU 2.99 21						
 160311	xxspln	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 22						
-160312	šmn	šmn(I)/	šmn (I)	n. m.	oil	
-160313	nr	nr/	nr	n. m.	sheen	
+160312	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
+160313	nr	nr/	nr	n. m. sg.	sheen	
 160313	nr	nr[	/n-r/	vb G	to shine	
 # KTU 2.99 23						
-160314	kt	k(t(I)/t	kt (I)	n. f.	pitcher	
-160314	kt	k(t(II)/t	kt (II)	n. f.	stage	
-160315	gpt	gp(I)/t=	gp (I)	n. m.	shore	
+160314	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
+160314	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
+160315	gpt	gp(I)/t=	gp (I)	n. m. pl.	shore	
 # KTU 2.99 24						
-160316	kt	k(t(I)/t	kt (I)	n. f.	pitcher	
-160316	kt	k(t(II)/t	kt (II)	n. f.	stage	
-160317	ḥmṣ	ḥmṣ/	ḥmṣ	n. m.	vinegar	
+160316	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
+160316	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
+160317	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg.	vinegar	
 160317	ḥmṣ	ḥmṣ[	/ḥ-m-ṣ/	vb	to be(come) sour	
 160318	w	w	w	conj.	and	
-160319	nbt	nb(t/t	nbt	n. f.	honey	
+160319	nbt	nb(t/t	nbt	n. f. sg.	honey	
 # KTU 2.99 25						
 160320	w	w	w	conj.	and	
 160321	lgtn	?	?	?	?	DULAT: NOT FOUND
@@ -94,26 +97,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160326	lhm	l(I)+hm	l (I)	prep.	to	
 # KTU 2.99 28						
 160327	xxx	?	?	?	?	
-160328	ksp	ksp/	ksp	n. m.	silver	
+160328	ksp	ksp/	ksp	n. m. sg.	silver	
 160329	xxrx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 29						
 160330	xxxrxqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 30						
 160331	x	?	?	?	?	
-160332	igrn	!i!gr[	/g-r/	vb N	to lodge	
+160332	igrn	!(ʔ&i!](n]gr[n	/g-r/	vb N	to lodge	
 # KTU 2.99 31						
 160333	qthm	qt/+hm	qt	n. m.	handle	
+160333	qthm	ṯigt/+hm	ṯỉgt	n. f.	neighing	
 # KTU 2.99 32						
 160334	xh	?	?	?	?	DULAT: NOT FOUND
 160335	tbxnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 33						
 160336	x	?	?	?	?	
-160337	ḥmr	ḥmr(I)/	ḥmr (I)	n. m.	donkey	
-160337	ḥmr	ḥmr(II)/	ḥmr (II)	adj.	red	
+160337	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
+160337	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
 # KTU 2.99 34						
 160338	xxrt	?	?	?	?	DULAT: NOT FOUND
-160339	ipd	ipd/	ỉpd	n. m.	tunic	
+160339	ipd	ipd/	ỉpd	n. m. sg.	tunic	
 # KTU 2.99 35						
 160340	x	?	?	?	?	
 160341	w	w	w	conj.	and	
-160342	rq	rq(II)/	rq (II)	adj. m.	fine	
+160342	rq	rq(II)/	rq (II)	adj. m. sg.	fine	

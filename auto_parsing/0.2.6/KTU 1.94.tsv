@@ -1,10 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 1						
 151491	r	?	?	?	?	
-151492	š	š/	š	n. m.	ram	
+151492	š	š/	š	n. m. sg.	ram	
 151493	ybšr	?	?	?	?	DULAT: NOT FOUND
-151494	qdš	qdš(I)/	qdš (I)	adj. m.	holy	
-151494	qdš	qdš(II)/	qdš (II)	n. m.	sanctuary	
+151494	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
+151494	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 # KTU 1.94 2						
 151495		?	?	?	?	
 # KTU 1.94 3						
@@ -38,6 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 17						
 151510	th	ˤl(I)+h	ʕl (I)	prep.	upon	
 151510	th	aḫt(I)/+h	ảḫt (I)	n. f.	sister (related by blood)	
+151510	th	ḥṭbt/+h	ḥṭbt	n. f.	(female) wood-cutter	
 # KTU 1.94 18						
 151511		?	?	?	?	
 # KTU 1.94 19						
@@ -52,25 +53,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 23						
 151517	x	?	?	?	?	
 151518	ybšr	?	?	?	?	DULAT: NOT FOUND
-151519	qdš	qdš(I)/	qdš (I)	adj. m.	holy	
-151519	qdš	qdš(II)/	qdš (II)	n. m.	sanctuary	
+151519	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
+151519	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 # KTU 1.94 24						
 151520	t	/t, /t=				
 151520	t	[t, [t=, [t==, [t===				
-151521	btm	bt(II)/t=	bt (II)	n. m.	house	
-151521	btm	b(t(I)/tm	bt (I)	n. f.	daughter	
-151522	qdš	qdš(I)/	qdš (I)	adj. m.	holy	
-151522	qdš	qdš(II)/	qdš (II)	n. m.	sanctuary	
+151521	btm	bt(II)/m	bt (II)	n. m.	house	
+151521	btm	bt(I)/m	bt (I)	n. f. du.	daughter	
+151522	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
+151522	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 151523	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.94 25						
 151524	bn	bn(I)/	bn (I)	n. m.	son	
 151524	bn	bn(II)	bn (II)	prep.	between	
 151524	bn	bn[	/b-n/	vb G	to understand	
-151525	qdš	qdš(I)/	qdš (I)	adj. m.	holy	
-151525	qdš	qdš(II)/	qdš (II)	n. m.	sanctuary	
-151526	kb	kb/	kb	PN	kb	
+151525	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
+151525	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 151526	kb	kb(I)/	kb (I)	adj. m.	sewn	
 151526	kb	kb(II)/	kb (II)	n. m.	intestine(s)	
+151526	kb	kb/	kb	PN	kb	
 # KTU 1.94 26						
 151527	ˤsb	ˤsb	ʕsb	?	?	
 151528	xxḥ	?	?	?	?	DULAT: NOT FOUND
@@ -85,11 +86,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151532	k	k(I)	k (I)	prep.	like	
 151532	k	k(II)	k (II)	emph. functor	yes	
 151533	w	w	w	conj.	and	
-151534	tmtn	!t!mt[	/m-t/	vb G	to die	
+151534	tmtn	!t!mt[n	/m-t/	vb G	to die	
 # KTU 1.94 29						
 151535	xẓk	?	?	?	?	DULAT: NOT FOUND
 151536	w	w	w	conj.	and	
-151537	aṯt	aṯ(t/t	ảṯt	n. f.	woman	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
+151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
 # KTU 1.94 30						
 151538	xk	?	?	?	?	DULAT: NOT FOUND
 151539	w	w	w	conj.	and	
@@ -113,7 +115,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151551	xṯ	?	?	?	?	DULAT: NOT FOUND
 151552	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.94 35						
-151553	ṯtm	ṯn(I)/	ṯn (I)	num.	two	
+151553	ṯtm	ṯn(I)/	ṯn (I)	nuf.	two	
 151554	n	~n	-n (I)	encl. morph.		
 151554	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
 151554	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	

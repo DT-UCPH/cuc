@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152926	hlxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 2						
 152927	xxxxxxxxxˤrt	?	?	?	?	DULAT: NOT FOUND
-152928	ilm	il(I)/m	ỉl (I)	n. m.	god	
+152928	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 152929	rbm	rb(I)/m	rb (I)	adj. m.	great	
 152930	nˤlxxxmr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 3						
@@ -13,13 +13,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152932	wxrṣ	?	?	?	?	DULAT: NOT FOUND
 152933	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
 152934	ydrm	ndr[+m(I)	/n-d-r/	vb	to make a vow	
-152934	ydrm	ndr[+m(II)	/n-d-r/	vb	to make a vow	
-152935	pit	pit/	pỉt	n. m.	temple	
-152936	adm	adm(I)/	ảdm (I)	n. m.	man	
-152936	adm	ʔdm[	/ʔ-d-m/	vb G	to be	
+152934	ydrm	ydrm/	ydrm	PN	ydrm	
+152935	pit	pi(t/t	pỉt	n. m. sg.	temple	
+152936	adm	adm(I)/	ảdm (I)	n. m. sg.	man	
+152936	adm	(ʔ&adm[	/ʔ-d-m/	vb G	to be	
 # KTU 1.107 4						
 152937	xxxxxxiṯx	?	?	?	?	DULAT: NOT FOUND
-152938	yšql	?	?	?	?	DULAT: NOT FOUND
+152938	yšql	ql[ql	/q-l/	vb	to fall (down)	
 152939	yṯkxxxn	?	?	?	?	DULAT: NOT FOUND
 152940	pbl	pbl/	pbl	PN	pbl	
 152941	hn	hn	hn	deictic functor/adv.	behold!	
@@ -30,12 +30,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152945	p	p(I)	p (I)	conj. functor	and	
 152945	p	p(III)/	p (III)	n. m.	mouth	
 152945	p	p(II)	p (II)	adv.	here	
-152946	nḥš	nḥš/	nḥš	n. m.	serpent	
+152946	nḥš	nḥš/	nḥš	n. m. sg.	serpent	
 # KTU 1.107 6						
 152947	xxxxxq	?	?	?	?	DULAT: NOT FOUND
 152948	nṯk	nṯk(II)/	nṯk (II)	n. m.	bite	
-152948	nṯk	nṯk(I)/	nṯk (I)	n. m.	biter	
-152948	nṯk	!n!ṯk[	/n-ṯ-k/	vb G	to bite	
+152948	nṯk	nṯk(I)/	nṯk (I)	n. m. sg.	biter	
+152948	nṯk	nṯk[	/n-ṯ-k/	vb G	to bite	
 152949	l	l(I)	l (I)	prep.	to	
 152949	l	l(II)	l (II)	adv.	no	
 152949	l	l(III)	l (III)	functor	certainly	
@@ -50,21 +50,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152953	l	l(II)	l (II)	adv.	no	
 152953	l	l(III)	l (III)	functor	certainly	
 152954	pq	pq[	/p-q/	vb G	to obtain	
-152955	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-152955	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+152955	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+152955	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 7						
 152956	xxxxxxnh	?	?	?	?	DULAT: NOT FOUND
-152957	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-152957	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+152957	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+152957	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 152958	w	w	w	conj.	and	
 152959	tˤbtnh	?	?	?	?	DULAT: NOT FOUND
-152960	abdy	abdy/	ảbdy	n. f.	ruin	
+152960	abdy	abdy/	ảbdy	n. f. sg.	ruin	
 # KTU 1.107 8						
-152961	npl	!n!pl[	/n-p-l/	vb G	to fall	
+152961	npl	npl[	/n-p-l/	vb G	to fall	
 152962	b	b	b	prep.	in	
-152963	šr	šr(II)/	šr (II)	n. m.	musician	
-152963	šr	šr(III)/	šr (III)	n. m.	Prince	
-152963	šr	šr(IV)/	šr (IV)	n. m.	navel	
+152963	šr	šr(II)/	šr (II)	n. m. sg.	musician	
+152963	šr	šr(I)[	/š-r/ (I)	vb G	to sing	
+152963	šr	šr(III)/	šr (III)	n. m. sg.	Prince	
 152964	šrġzz	šrġzz/	šrġzz	DN	the Devil is a munificent one	
 152965	ybky	!y!bky[	/b-k-y/	vb G	to weep	
 152966	km	k(III)	k (III)	functor	when	
@@ -73,7 +73,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152966	km	km	km	prep./conj./adv.		
 152966	km	+km, +km=	-km			
 152967	nˤr	nˤr(I)/	nʕr (I)	n. m.	boy	
-152967	nˤr	!n!ˤr[	/ʕ-r/	vb G/N	to become agitated	
+152967	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G/N	to become agitated	
 # KTU 1.107 9						
 152968	w	w	w	conj.	and	
 152969	ydmˤ	!y!dmˤ[	/d-m-ʕ/	vb G	to shed tears	
@@ -83,29 +83,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152970	km	km	km	prep./conj./adv.		
 152970	km	+km, +km=	-km			
 152971	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G	to wound	
-152972	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
-152972	ġr	ġr(III)/	ġr (III)	n. m.	skin	
-152973	špš	špš/	špš	n.	sun	
+152972	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
+152972	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
+152973	špš	špš/	špš	n. sg.	sun	
 152974	b	b	b	prep.	in	
 152975	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
-152976	tqru	!t!qrʔ[	/q-r-ʔ/	vb G	to call	
+152976	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G	to call	
 # KTU 1.107 10						
 152977	xxxxx	?	?	?	?	
-152978	nplt	!n!npl[	/n-p-l/	vb G	to fall	
+152978	nplt	npl[t	/n-p-l/	vb G	to fall	
 152979	yḥx	?	?	?	?	DULAT: NOT FOUND
 152980	mdˤ	mdˤ(I)	mdʕ (I)	interr. functor	why?	
-152981	nplt	!n!npl[	/n-p-l/	vb G	to fall	
+152981	nplt	npl[t	/n-p-l/	vb G	to fall	
 152982	b	b	b	prep.	in	
-152983	šr	šr(II)/	šr (II)	n. m.	musician	
-152983	šr	šr(III)/	šr (III)	n. m.	Prince	
-152983	šr	šr(IV)/	šr (IV)	n. m.	navel	
+152983	šr	šr(II)/	šr (II)	n. m. sg.	musician	
+152983	šr	šr(I)[	/š-r/ (I)	vb G	to sing	
+152983	šr	šr(III)/	šr (III)	n. m. sg.	Prince	
 # KTU 1.107 11						
 152984	šrġzz	šrġzz/	šrġzz	DN	the Devil is a munificent one	
 152985	w	w	w	conj.	and	
-152986	tpky	!t!bky[	/b-k-y/	vb G	to weep	
+152986	tpky	bky[y	/b-k-y/	vb G	to weep	
 152987	bm	b	b	prep.	in	
 152988	nˤr	nˤr(I)/	nʕr (I)	n. m.	boy	
-152988	nˤr	!n!ˤr[	/ʕ-r/	vb G/N	to become agitated	
+152988	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G/N	to become agitated	
 152989	tdmˤ	!t!dmˤ[	/d-m-ʕ/	vb G	to shed tears	
 152990	km	k(III)	k (III)	functor	when	
 152990	km	k(I)	k (I)	prep.	like	
@@ -113,7 +113,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152990	km	km	km	prep./conj./adv.		
 152990	km	+km, +km=	-km			
 # KTU 1.107 12						
-152991	ṣġr	ṣġr(I)/	ṣġr (I)	adj. m.	small	
+152991	ṣġr	ṣġr(I)/	ṣġr (I)	adj. m. sg.	small	
 152992	bkm	b	b	prep.	in	
 152992	bkm	bky[	/b-k-y/	vb G	to weep	
 152992	bkm	bkm	bkm	adv.	next	
@@ -122,68 +122,65 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152995	xxxxwth	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 13						
 152996	xxxnn	?	?	?	?	DULAT: NOT FOUND
-152997	bnt	bn(t(II)/t	bnt (II)	n. f.	produce	
-152997	bnt	bn(t(I)/t	bnt (I)	n. f.	masonry	
-152997	bnt	bnt(III)/	bnt (III)	n. m.	tamarisk	
+152997	bnt	bt(I)/	bt (I)	n. f. pl.	daughter	
+152997	bnt	bn(t(II)/t	bnt (II)	n. f. sg.	produce	
+152997	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
 152998	yšxx	?	?	?	?	DULAT: NOT FOUND
 152999	xxxxxxxx	?	?	?	?	
 153000	hlk	hlk[	/h-l-k/	vb G	to go	
-153000	hlk	hlk(I)/	hlk (I)	n. m.	walk	
+153000	hlk	hlk(I)/	hlk (I)	n. m. sg.	walk	
 153000	hlk	hlk(II)	hlk (II)	deictic adv. functor	behold!	
 # KTU 1.107 14						
 153001	xxb	?	?	?	?	DULAT: NOT FOUND
 153002	kmm	kmm	kmm	adv.	ditto	
 153003	l	l(I)	l (I)	prep.	to	
 153003	l	l(III)	l (III)	functor	certainly	
-153004	kl	kl/	kl	n. m.	totality (of)	
-153005	mspr	spr[	/s-p-r/	vb	to count	
-153005	mspr	mspr/	mspr	n. m.	recitation	
+153004	kl	kl/	kl	n. m. sg.	totality (of)	
+153005	mspr	mspr/	mspr	n. m. sg.	recitation	
 153006	xxxxxxxx	?	?	?	?	
 # KTU 1.107 15						
-153007	špš	špš/	špš	n.	sun	
+153007	špš	špš/	špš	n. sg.	sun	
 153008	b	b	b	prep.	in	
 153009	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
-153010	tqru	!t!qrʔ[	/q-r-ʔ/	vb G	to call	
+153010	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G	to call	
 153011	xxxxxxxxxxxxrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 16						
 153012	xxxhtm	?	?	?	?	DULAT: NOT FOUND
 153013	ˤmnxxxuxxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
-153014	amr	amr(I)/	ảmr (I)	n. m.	order	
+153014	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 # KTU 1.107 17						
 153015	xxxxl	?	?	?	?	DULAT: NOT FOUND
 153016	ytk	ntk[	/n-t-k/	vb G	to spill	
 153017	bltxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
-153018	amr	amr(I)/	ảmr (I)	n. m.	order	
-153019	hwt	hw(t(I)/t	hwt (I)	n. f.	word/matter	
+153018	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
+153019	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 # KTU 1.107 18						
 153020	xxxxx	?	?	?	?	
-153021	ṯllt	ṯll(t/t	ṯllt	n. f.	?	
+153021	ṯllt	ṯll(t/t	ṯllt	n. f. sg.	?	
 153022	khnxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 153023	k	+k	-k (I)			
 153023	k	~k	-k (II)			
 153023	k	k(III)	k (III)	Subordinating or completive functor	when	
 153023	k	k(I)	k (I)	prep.	like	
 153023	k	k(II)	k (II)	emph. functor	yes	
-153024	pˤn	pˤn/	pʕn	n. f.	foot	
+153024	pˤn	pˤn/	pʕn	n. f. du.	foot	
 # KTU 1.107 19						
 153025	xxxxxxy	?	?	?	?	DULAT: NOT FOUND
-153026	yd	yd(I)/	yd (I)	n. f.	hand	
-153026	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-153026	yd	yd(II)/	yd (II)	n. m.	love	
+153026	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 153027	nšy	nšy	nšy			
+153027	nšy	nš+y	nš	?		
 153028	xxxxxxxxxxxš	?	?	?	?	DULAT: NOT FOUND
 153029	l	l(I)	l (I)	prep.	to	
 153029	l	l(III)	l (III)	functor	certainly	
-153030	mdb	mdb/	mdb	n. m.	tide	
+153030	mdb	mdb/	mdb	n. m. sg.	tide	
 # KTU 1.107 20						
 153031	xxxxxh	?	?	?	?	DULAT: NOT FOUND
-153032	mḫlpt	mḫlp(t/t=	mḫlpt	n. f.	plait	
+153032	mḫlpt	mḫlpt/	mḫlpt	n. f. pl.	plait	
 153033	xxxxxxxxxx	?	?	?	?	
-153034	amr	amr(I)/	ảmr (I)	n. m.	order	
+153034	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 # KTU 1.107 21						
 153035	xxxxxx	?	?	?	?	
-153036	nˤlm	ˤly[+m(I)	/ʕ-l-y/	vb	to go up	
-153036	nˤlm	ˤly[+m(II)	/ʕ-l-y/	vb	to go up	
+153036	nˤlm	!n!ˤl(y[+m(I)	/ʕ-l-y/	vb	to go up	
 153036	nˤlm	nˤl/+m(I)	nʕl	n. m.	portable platform	
 153037	nxxxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 22						
@@ -198,8 +195,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153043	xxxxxxxxxxxxxxxx	?	?	?	?	
 # KTU 1.107 24						
 153044	xxxxxxx	?	?	?	?	
-153045	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153045	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153045	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153045	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153046	xxxxxxxxxxxxxxx	?	?	?	?	
 # KTU 1.107 25						
 153047	xxxxxxxxxxrxxxxxxxxxxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
@@ -216,16 +213,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153056	xxxn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 28						
 153057	xxxxl	?	?	?	?	DULAT: NOT FOUND
-153058	yd	yd(I)/	yd (I)	n. f.	hand	
-153058	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-153058	yd	yd(II)/	yd (II)	n. m.	love	
+153058	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 153059	ql	ql[	/q-l/	vb G	to fall (down)	
-153059	ql	ql(I)/	ql (I)	n. m.	voice	
+153059	ql	ql(I)/	ql (I)	n. m. sg.	voice	
 153060	ṯxx	?	?	?	?	DULAT: NOT FOUND
 153061	xxx	?	?	?	?	
 153062	xxxxġt	?	?	?	?	DULAT: NOT FOUND
 153063	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-153063	aṯr	ʔṯr[	/ʔ-ṯ-r/	vb G/D	to go	
 # KTU 1.107 29						
 153064	xxxxxġrm	?	?	?	?	DULAT: NOT FOUND
 153065	yxx	?	?	?	?	DULAT: NOT FOUND
@@ -233,8 +227,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153067	xxxḥrn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 30						
 153068	xxxxxrk	?	?	?	?	DULAT: NOT FOUND
-153069	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153069	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153069	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153069	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153070	xxx	?	?	?	?	
 153071	xxx	?	?	?	?	
 153072	xxmlk	?	?	?	?	DULAT: NOT FOUND
@@ -243,160 +237,161 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153074	nxxx	?	?	?	?	DULAT: NOT FOUND
 153075	xxx	?	?	?	?	
 153076	xxxx	?	?	?	?	
+153077	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
 153077	ḥrn	ḥr(I)/+n	ḥr (I)	n. m.	intestine(s)	
 # KTU 1.107 32						
 153078	xxxxxsp	?	?	?	?	DULAT: NOT FOUND
-153079	ḫph	ḫp(I)/h	ḫp (I)	n. m.	shore	
+153079	ḫph	ḫp(I)/h	ḫp (I)	n. m. sg.	shore	
 153080	ḫxx	?	?	?	?	DULAT: NOT FOUND
 153081	xxxx	?	?	?	?	
-153082	isp	ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153083	špš	špš/	špš	n.	sun	
+153082	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G/D	to gather	
+153083	špš	špš/	špš	n. sg.	sun	
 153084	l	l(I)	l (I)	prep.	to	
 153084	l	l(III)	l (III)	functor	certainly	
-153085	hrm	hr(I)/m	hr (I)	n. m.	mountain	
+153085	hrm	hr(I)/m	hr (I)	n. m. pl.	mountain	
 # KTU 1.107 33						
-153086	ġrpl	ġrpl/	ġrpl	n. m.	cloud	
+153086	ġrpl	ġrpl/	ġrpl	n. m. sg.	cloud	
 153087	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-153088	arṣ	arṣ/	ảrṣ	n. f.	earth	
+153088	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 153089	lan	lʔy(I)[	/l-ʔ-y/w/ (I)	vb G	to conquer	
-153090	isp	ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153091	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153091	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153090	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G/D	to gather	
+153091	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153091	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 34						
-153092	isp	ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153093	špš	špš/	špš	n.	sun	
+153092	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G/D	to gather	
+153093	špš	špš/	špš	n. sg.	sun	
 153094	l	l(I)	l (I)	prep.	to	
 153094	l	l(III)	l (III)	functor	certainly	
-153095	hrm	hr(I)/m	hr (I)	n. m.	mountain	
-153096	ġrpl	ġrpl/	ġrpl	n. m.	cloud	
+153095	hrm	hr(I)/m	hr (I)	n. m. pl.	mountain	
+153096	ġrpl	ġrpl/	ġrpl	n. m. sg.	cloud	
 153097	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-153098	arṣ	arṣ/	ảrṣ	n. f.	earth	
+153098	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.107 35						
 153099	lan	lʔy(I)[	/l-ʔ-y/w/ (I)	vb G	to conquer	
-153100	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153100	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153100	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153100	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153101	l	l(I)	l (I)	prep.	to	
 153102	pnṯk	?	?	?	?	DULAT: NOT FOUND
-153103	abd	ʔbd[	/ʔ-b-d/	vb G	be missing	
-153103	abd	abd(I)/	ảbd (I)	n. m.	ruin	
+153103	abd	(ʔ&abd[	/ʔ-b-d/	vb G	be missing	
+153103	abd	abd(I)/	ảbd (I)	n. m. sg.	ruin	
 153104	l	l(I)	l (I)	prep.	to	
 153104	l	l(III)	l (III)	functor	certainly	
 153105	pakl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 36						
-153106	ṯmdl	ṯmdl/	ṯmdl	n. m.	exhaustion	
-153107	isp	ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153108	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153108	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153106	ṯmdl	ṯmdl/	ṯmdl	n. m. sg.	exhaustion	
+153107	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G/D	to gather	
+153108	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153108	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153109	xxxxx	?	?	?	?	
 153110	axxhm	?	?	?	?	DULAT: NOT FOUND
-153111	yasp	!y!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153112	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153112	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153111	yasp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153112	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153112	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 37						
-153113	isp	ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153114	špš	špš/	špš	n.	sun	
+153113	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G/D	to gather	
+153114	špš	špš/	špš	n. sg.	sun	
 153115	l	l(I)	l (I)	prep.	to	
 153115	l	l(III)	l (III)	functor	certainly	
-153116	hrm	hr(I)/m	hr (I)	n. m.	mountain	
-153117	ġrpl	ġrpl/	ġrpl	n. m.	cloud	
+153116	hrm	hr(I)/m	hr (I)	n. m. pl.	mountain	
+153117	ġrpl	ġrpl/	ġrpl	n. m. sg.	cloud	
 153118	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-153119	arṣ	arṣ/	ảrṣ	n. f.	earth	
+153119	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 153120	lan	lʔy(I)[	/l-ʔ-y/w/ (I)	vb G	to conquer	
 # KTU 1.107 38						
-153121	isp	ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153122	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153122	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153121	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G/D	to gather	
+153122	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153122	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153123	il	il(I)/	ỉl (I)	n. m.	god	
 153124	wḥrn	?	?	?	?	DULAT: NOT FOUND
-153125	yisp	!y!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153126	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153126	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153125	yisp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153126	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153126	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 39						
 153127	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 153127	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 153128	w	w	w	conj.	and	
-153129	dgn	dgn(I)/	dgn (I)	n. m.	grain	
-153130	yisp	!y!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153131	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153131	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
-153132	ˤnt	ˤn(I)/t=	ʕn (I)	n. f.	eye	
+153129	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
+153130	yisp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153131	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153131	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
+153132	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 153132	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 153132	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 153133	w	w	w	conj.	and	
 153134	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
 # KTU 1.107 40						
-153135	tisp	!t!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153136	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153136	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
-153137	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+153135	tisp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153136	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153136	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
+153137	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 153138	w	w	w	conj.	and	
 153139	ršp	ršp/	ršp	DN	Rašap	
 153140	ḫyisp	?	?	?	?	DULAT: NOT FOUND
-153141	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153141	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153141	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153141	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 41						
 153142	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
 153143	w	w	w	conj.	and	
 153144	ˤṯtpr	?	?	?	?	DULAT: NOT FOUND
-153145	yisp	!y!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153146	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153146	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153145	yisp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153146	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153146	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153147	ẓẓ	ẓẓ/	ẓẓ	element/DN	ẓẓ	
 153148	w	w	w	conj.	and	
 153149	ktṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 42						
-153150	yisp	!y!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153151	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153151	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153150	yisp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153151	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153151	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153152	mlk	mlk[	/m-l-k/	vb G	to reign	
-153152	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+153152	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153153	b	b	b	prep.	in	
 153154	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
-153155	yisp	!y!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153156	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153156	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153155	yisp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153156	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153156	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 43						
 153157	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
 153158	wḫss	?	?	?	?	DULAT: NOT FOUND
-153159	yisp	!y!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153160	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153160	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
-153161	šḥr	šḥr/	šḥr	n. m.	dawn	
+153159	yisp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153160	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153160	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
+153161	šḥr	šḥr/	šḥr	n. m. sg.	dawn	
 153162	w	w	w	conj.	and	
-153163	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-153163	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-153163	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+153163	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+153163	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+153163	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 1.107 44						
-153164	yisp	!y!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153165	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153165	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
-153166	isp	ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153167	špš	špš/	špš	n.	sun	
+153164	yisp	ʔsp[p:d	/ʔ-s-p/	vb G/D	to gather	
+153165	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153165	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
+153166	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G/D	to gather	
+153167	špš	špš/	špš	n. sg.	sun	
 153168	lhrm	?	?	?	?	DULAT: NOT FOUND
-153169	ġrpl	ġrpl/	ġrpl	n. m.	cloud	
+153169	ġrpl	ġrpl/	ġrpl	n. m. sg.	cloud	
 153170	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-153171	arṣ	arṣ/	ảrṣ	n. f.	earth	
+153171	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.107 45						
-153172	aspt	!a!ʔsp[	/ʔ-s-p/	vb G/D	to gather	
-153173	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f.	venom	
-153173	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f.	wall	
+153172	aspt	(ʔ&asp[t:d	/ʔ-s-p/	vb G/D	to gather	
+153173	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
+153173	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153174	l	l(I)	l (I)	prep.	to	
 153174	l	l(III)	l (III)	functor	certainly	
 153175	p	p(I)	p (I)	conj. functor	and	
 153175	p	p(III)/	p (III)	n. m.	mouth	
 153175	p	p(II)	p (II)	adv.	here	
 153176	nṯk	nṯk(II)/	nṯk (II)	n. m.	bite	
-153176	nṯk	nṯk(I)/	nṯk (I)	n. m.	biter	
-153176	nṯk	!n!ṯk[	/n-ṯ-k/	vb G	to bite	
-153177	abd	ʔbd[	/ʔ-b-d/	vb G	be missing	
-153177	abd	abd(I)/	ảbd (I)	n. m.	ruin	
+153176	nṯk	nṯk(I)/	nṯk (I)	n. m. sg.	biter	
+153176	nṯk	nṯk[	/n-ṯ-k/	vb G	to bite	
+153177	abd	(ʔ&abd[	/ʔ-b-d/	vb G	be missing	
+153177	abd	abd(I)/	ảbd (I)	n. m. sg.	ruin	
 153178	l	l(I)	l (I)	prep.	to	
 153178	l	l(III)	l (III)	functor	certainly	
 153179	p	p(I)	p (I)	conj. functor	and	
 153179	p	p(III)/	p (III)	n. m.	mouth	
 153179	p	p(II)	p (II)	adv.	here	
-153180	akl	akl(II)/	ảkl (II)	n. m.	grain	
-153181	ṯmdl	ṯmdl/	ṯmdl	n. m.	exhaustion	
+153180	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
+153181	ṯmdl	ṯmdl/	ṯmdl	n. m. sg.	exhaustion	
 # KTU 1.107 46						
 153182	xxql	?	?	?	?	DULAT: NOT FOUND
 153183	bl	bl(I)	bl (I)	adv. or emph. functor	no	
@@ -407,23 +402,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153185	l	l(II)	l (II)	adv.	no	
 153185	l	l(III)	l (III)	functor	certainly	
 153186	tzd	!t!zd[	/z-d/	vb G	to boil	
-153187	ˤrq	ˤrq/	ʕrq	n. m.	cart	
+153187	ˤrq	ˤrq/	ʕrq	n. m. sg.	cart	
 153188	dm	dm(II)/	dm (II)	n. m.	blood	
 153188	dm	dm(I)	dm (I)	functor	since	
 # KTU 1.107 47						
 153189	xxxxx	?	?	?	?	
-153190	ˤrq	ˤrq/	ʕrq	n. m.	cart	
-153191	špš	špš/	špš	n.	sun	
+153190	ˤrq	ˤrq/	ʕrq	n. m. sg.	cart	
+153191	špš	špš/	špš	n. sg.	sun	
 # KTU 1.107 48						
 153192	xxxxxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
-153193	mšḥt	mšḥ(t/t	mšḥt	n. f.	anointing	
-153194	kṯpm	kṯp/m	kṯp	n. m.	?	
+153193	mšḥt	mšḥ(t/t	mšḥt	n. f. sg.	anointing	
+153194	kṯpm	kṯp/m	kṯp	n. m. pl.	?	
 153195	akṯn	nkṯ	/n-k-ṯ/	?	?	
 # KTU 1.107 49						
 153196	xxxxxxxxxxxxnxxxṭ	?	?	?	?	DULAT: NOT FOUND
 153197	b	b	b	prep.	in	
-153198	ym	ym(I)/	ym (I)	n. m.	day	
-153198	ym	ym(II)/	ym (II)	n. m.	sea	
+153198	ym	ym(I)/	ym (I)	n. m. sg.	day	
+153198	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 153199	tld	yld[	/y-l-d/	vb G	to give birth (to)	
 # KTU 1.107 50						
 153200	xxxxxxxxxxxbryxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND

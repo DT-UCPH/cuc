@@ -4,28 +4,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160094	l	l(II)	l (II)	adv.	no	
 160094	l	l(III)	l (III)	functor	certainly	
 160095	mlk	mlk[	/m-l-k/	vb G	to reign	
-160095	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-160096	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
+160095	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+160096	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.97 2						
 160097	rgm	rgm[	/r-g-m/	vb G	to say	
-160097	rgm	rgm/	rgm	n. m.	word	
-160098	tḥm	tḥm/	tḥm	n. m.	message	
+160097	rgm	rgm/	rgm	n. m. sg.	word	
+160098	tḥm	tḥm/	tḥm	n. m. sg.	message	
 # KTU 2.97 3						
+160099	ˤzn	ˤz[+n	/ʕ-z(-z)/	vb	to be strong	
+160099	ˤzn	ˤz(II)/+n	ʕz (II)	n. m.	caprine animal	
 160099	ˤzn	ˤzn/	ʕzn	PN	ʿzn	
-160100	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m.	servant	
+160100	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 # KTU 2.97 4						
 160101	l	l(I)	l (I)	prep.	to	
-160102	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-160103	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
+160102	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+160103	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.97 5						
 160104	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 160105	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.97 6						
-160106	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f.	distance	
-160107	qlt	ql[	/q-l/	vb G	to fall (down)	
+160106	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
+160107	qlt	ql[t	/q-l/	vb G	to fall (down)	
 # KTU 2.97 7						
 160108	ly	l(I)+y	l (I)	prep.	to	
-160109	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
+160109	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 160110	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 # KTU 2.97 8						
 160111	x	?	?	?	?	
@@ -39,26 +41,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160114	w	w	w	conj.	and	
 160115		?	?	?	?	
 # KTU 2.97 10						
-160116	khnm	khn(I)/m	khn (I)	n. m.	priest	
+160116	khnm	khn(I)/m	khn (I)	n. m. pl.	priest	
 160117	l	l(I)	l (I)	prep.	to	
 160118	pnh	pn(m/+h	pnm	n. m. pl. tant.	in front	
 # KTU 2.97 11						
 160119	w	w	w	conj.	and	
-160120	šlmth	šlmt(II)/+h	šlmt (II)	n. f.	compensation	
+160120	šlmth	šlmt(II)/+h	šlmt (II)	n. f. sg.	compensation	
 # KTU 2.97 12						
-160121	zn	zn/	zn	n. m.	provider	
+160121	zn	zn/	zn	n. m.	provider	Based on DULAT reconstruction.
+160121	zn	z+n	z	→	?	
 160122	w	w	w	conj.	and	
 160123	tšx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.97 13						
 160124	ly	l(I)+y	l (I)	prep.	to	
-160125	mġyh	mġy[	/m-ġ-y/	vb G	to come	
+160125	mġyh	mġy[h	/m-ġ-y/	vb G	to come	
 # KTU 2.97 14						
 160126	w	w	w	conj.	and	
-160127	iṯ	iṯ(I)/	ỉṯ (I)	n. m.	presence	
+160127	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
 160128	w	w	w	conj.	and	
-160129	knt	kn(t/t	knt	n. f.	continuity	
+160129	knt	kn(t/t	knt	n. f. sg.	continuity	
 # KTU 2.97 15						
-160130	šlmth	šlmt(II)/+h	šlmt (II)	n. f.	compensation	
+160130	šlmth	šlmt(II)/+h	šlmt (II)	n. f. sg.	compensation	
 160131	ṯmt	ṯm	ṯm	adv.	there	
 # KTU 2.97 16						
 160132	w	w	w	conj.	and	
@@ -68,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.97 17						
 160135	mġt	mġy[t	/m-ġ-y/	vb G	to come	
 160136	w	w	w	conj.	and	
-160137	uryn	uryn(I)/	ủryn (I)	n. m.	Benennung eines hochgestell- ten Funktionärs	
+160137	uryn	uryn(I)/	ủryn (I)	n. m. sg.	Benennung eines hochgestell- ten Funktionärs	
 # KTU 2.97 18						
 160138	tbˤ	tbˤ[	/t-b-ʕ/	vb G	to go	
 160139	uph	up/+h	ủp	TN	ủp	

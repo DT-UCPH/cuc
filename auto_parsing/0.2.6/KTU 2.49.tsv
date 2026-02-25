@@ -1,18 +1,18 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.49 1						
-158415	tḥm	tḥm/	tḥm	n. m.	message	
+158415	tḥm	tḥm/	tḥm	n. m. sg.	message	
 158416	mlk	mlk[	/m-l-k/	vb G	to reign	
-158416	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158416	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.49 2						
 158417	l	l(I)	l (I)	prep.	to	
 158417	l	l(II)	l (II)	adv.	no	
 158417	l	l(III)	l (III)	functor	certainly	
 158418	mlk	mlk[	/m-l-k/	vb G	to reign	
-158418	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158418	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 158419	x	?	?	?	?	
 # KTU 2.49 3						
 158420	rgm	rgm[	/r-g-m/	vb G	to say	
-158420	rgm	rgm/	rgm	n. m.	word	
+158420	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.49 4						
 158421	hn	hn	hn	deictic functor/adv.	behold!	
 158422	ix	?	?	?	?	DULAT: NOT FOUND
@@ -25,22 +25,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158426	a	?	?	?	?	
 # KTU 2.49 8						
 158427	x	?	?	?	?	
-158428	ksp	ksp/	ksp	n. m.	silver	
+158428	ksp	ksp/	ksp	n. m. sg.	silver	
 158429	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.49 9						
 158430	iltḥm	iltḥm/	ỉltḥm	PN	ỉltḥm	
 158431	w	w	w	conj.	and	
 158432		?	?	?	?	
 # KTU 2.49 10						
-158433	šmˤt	šmˤ[	/š-m-ʕ/	vb G	to hear	
-158434	ḥwt	ḥw(t/t	ḥwt	n. f.	country	
+158433	šmˤt	šmˤ[t	/š-m-ʕ/	vb G	to hear	
+158434	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 # KTU 2.49 11						
 158435	x	?	?	?	?	
-158436	nzdt	nzd(t/t	nzdt	n. f.	?	
-158437	qrt	qr(t(I)/t	qrt (I)	n. f.	city	
+158436	nzdt	nzd(t/t	nzdt	n. f. sg.	?	
+158437	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 # KTU 2.49 12						
 158438	dt	d	d	det. or rel. functor	the one(s) of	
-158439	nzdt	nzd(t/t	nzdt	n. f.	?	
+158439	nzdt	nzd(t/t	nzdt	n. f. sg.	?	
 158440	m	l(I)	l (I)	prep.	to	
 # KTU 2.49 13						
 158441	w	w	w	conj.	and	
@@ -49,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158443	b	b	b	prep.	in	
 158444	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 2.49 14						
-158445	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
+158445	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 158446	y	+y, [y	-y (I)	prep. functor	my	
 158446	y	~y	-y (II)	prep. functor	indeed	
 158446	y	y	y	prep. functor	oh!	

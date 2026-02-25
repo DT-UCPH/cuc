@@ -1,48 +1,48 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.113 1						
 153726	d	d	d	det. or rel. functor	the one(s) of	
-153727	mt	mt(II)/	mt (II)	n. m.	death	
+153727	mt	m(t(II)/t	mt (II)	n. m. sg.	death	
 153727	mt	mt[	/m-t/	vb G	to die	
-153727	mt	mt(I)/	mt (I)	n. m.	dead person	
+153727	mt	m(t(I)/t	mt (I)	n. m. sg.	dead person	
 153728	wrm	?	?	?	?	DULAT: NOT FOUND
-153729	tph	phy[	/p-h-y/	vb G	to see	
+153729	tph	!t!ph(y[	/p-h-y/	vb G	to see	
 # KTU 1.113 2						
 153730	lumm	?	?	?	?	DULAT: NOT FOUND
 153731	lnˤm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.113 3						
 153732	x	?	?	?	?	
 153733	wrm	?	?	?	?	DULAT: NOT FOUND
-153734	ṯlbm	ṯlb/m	ṯlb	n. m.	flute	
+153734	ṯlbm	ṯlb/m	ṯlb	n. m. pl.	flute	
 # KTU 1.113 4						
-153735	pr	pr(II)/	pr (II)	n. m.	young bull	
-153735	pr	pr(I)/	pr (I)	n. m.	fruit	
+153735	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
+153735	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 153736	lnˤm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.113 5						
 153737	d	d	d	det. or rel. functor	the one(s) of	
-153738	mt	mt(II)/	mt (II)	n. m.	death	
+153738	mt	m(t(II)/t	mt (II)	n. m. sg.	death	
 153738	mt	mt[	/m-t/	vb G	to die	
-153738	mt	mt(I)/	mt (I)	n. m.	dead person	
+153738	mt	m(t(I)/t	mt (I)	n. m. sg.	dead person	
 153739	wrm	?	?	?	?	DULAT: NOT FOUND
-153740	tph	phy[	/p-h-y/	vb G	to see	
+153740	tph	!t!ph(y[	/p-h-y/	vb G	to see	
 # KTU 1.113 6						
 153741	ḥb	?	?	?	?	DULAT: NOT FOUND
 153742	lnˤm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.113 7						
 153743	ymġy	!y!mġy[	/m-ġ-y/	vb G	to come	
 # KTU 1.113 8						
-153744	rm	rm(I)/	rm (I)	adj. m.	high	
+153744	rm	rm(I)/	rm (I)	adj. m. sg.	high	
 153744	rm	rm[	/r-m/	vb G	to go up	
-153744	rm	rm(II)/	rm (II)	n. m.	erection	
-153745	ṯlbm	ṯlb/m	ṯlb	n. m.	flute	
+153744	rm	rm(II)/	rm (II)	n. m. sg.	erection	
+153745	ṯlbm	ṯlb/m	ṯlb	n. m. pl.	flute	
 # KTU 1.113 9						
 153746	l	l(I)	l (I)	prep.	to	
 153746	l	l(III)	l (III)	functor	certainly	
-153747	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
-153747	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
+153747	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
+153747	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
 # KTU 1.113 10						
 153748	ḥ	lqḥ[	/l-q-ḥ/	vb G/N	to get hold of	
-153749	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
-153749	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
+153749	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
+153749	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
 # KTU 1.113 11						
 153750	x	?	?	?	?	
 # KTU 1.113 12						
@@ -59,6 +59,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.113 16						
 153758	il	il(I)/	ỉl (I)	n. m.	god	
 153759	ibrn	ibr(I)/+n	ỉbr (I)	n. m.	bull	
+153759	ibrn	ibrn/	ỉbrn	PN	ỉbrn	
+153759	ibrn	ibr(II)/+n	ỉbr (II)	n. m.	wing	
 # KTU 1.113 17						
 153760	il	il(I)/	ỉl (I)	n. m.	god	
 153761	yˤḏrd	yˤḏrd/	yʕḏrd	PN	yʿḏrd	
@@ -70,6 +72,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153765	il	il(I)/	ỉl (I)	n. m.	god	
 153766	nqmdil	?	?	?	?	DULAT: NOT FOUND
 153767	ibrn	ibr(I)/+n	ỉbr (I)	n. m.	bull	
+153767	ibrn	ibrn/	ỉbrn	PN	ỉbrn	
+153767	ibrn	ibr(II)/+n	ỉbr (II)	n. m.	wing	
 # KTU 1.113 20						
 153768	il	il(I)/	ỉl (I)	n. m.	god	
 153769	arḫlbil	?	?	?	?	DULAT: NOT FOUND
@@ -81,6 +85,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153773	il	il(I)/	ỉl (I)	n. m.	god	
 153774	ˤmṯtmril	?	?	?	?	DULAT: NOT FOUND
 153775	ibrn	ibr(I)/+n	ỉbr (I)	n. m.	bull	
+153775	ibrn	ibrn/	ỉbrn	PN	ỉbrn	
+153775	ibrn	ibr(II)/+n	ỉbr (II)	n. m.	wing	
 # KTU 1.113 23						
 153776	il	il(I)/	ỉl (I)	n. m.	god	
 153777	nqmdil	?	?	?	?	DULAT: NOT FOUND
@@ -88,9 +94,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.113 24						
 153779	il	il(I)/	ỉl (I)	n. m.	god	
 153780	ibrn	ibr(I)/+n	ỉbr (I)	n. m.	bull	
+153780	ibrn	ibrn/	ỉbrn	PN	ỉbrn	
+153780	ibrn	ibr(II)/+n	ỉbr (II)	n. m.	wing	
 # KTU 1.113 25						
 153781	il	il(I)/	ỉl (I)	n. m.	god	
 153782	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
 # KTU 1.113 26						
 153783	pˤil	?	?	?	?	DULAT: NOT FOUND
-153784	yqr	qrʔ[	/q-r-ʔ/	vb G	to call	
+153784	yqr	!y!qr(ʔ[	/q-r-ʔ/	vb G	to call	
+153784	yqr	!y!qr(y[:d	/q-r-y/	vb D	to meet	

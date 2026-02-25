@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.117 2						
 154065		?	?	?	?	
 154066	nbl	ybl[	/y-b-l/	vb G	to carry	
-154067	kl	kl/	kl	n. m.	totality (of)	
+154067	kl	kl/	kl	n. m. sg.	totality (of)	
 # KTU 1.117 3						
 154068	nynil	?	?	?	?	DULAT: NOT FOUND
 154069	abh	ab/+h	ảb	n. m.	father	
@@ -16,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154072	bn	bn[	/b-n/	vb G	to understand	
 154073	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
 154073	h	~h	-h(II)	adv. functor	to, towards	
-154074	ilt	il(t(I)/t	ỉlt (I)	n. f.	goddess	
+154074	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
 # KTU 1.117 5						
 154075	dt	d	d	det. or rel. functor	the one(s) of	
 154076	l	l(I)	l (I)	prep.	to	
@@ -29,29 +29,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154078	k	k(III)	k (III)	Subordinating or completive functor	when	
 154078	k	k(I)	k (I)	prep.	like	
 154078	k	k(II)	k (II)	emph. functor	yes	
-154079	ilm	il(I)/m	ỉl (I)	n. m.	god	
+154079	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.117 6						
 154080	il	il(I)/	ỉl (I)	n. m.	god	
-154081	mẓll	mẓll/	mẓll	n. m.	shelter	
+154081	mẓll	mẓll/	mẓll	n. m. sg.	shelter	
 154082	bnh	bn(I)/+h	bn (I)	n. m.	son	
 # KTU 1.117 7						
+154083	pdry	pdry/	pdry	DN	Pidray	
 154083	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
-154084	bt	bt(II)/	bt (II)	n. m.	house	
-154084	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-154085	ar	a/	ả	n.	light	
+154084	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+154084	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+154085	ar	a/	ả/ỉr	n. m. sg.	light	
 # KTU 1.117 8						
-154086	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
-154086	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
+154086	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
+154086	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 154087	mtm	mt(II)/~m	mt (II)	n. m.	death	
 154087	mtm	mt[~m	/m-t/	vb G	to die	
-154087	mtm	mt(I)/m	mt (I)	n. m.	dead person	
-154088	šknt	škn[	/š-k-n/	vb G	to be placed	
+154087	mtm	mt(I)/m	mt (I)	n. m. pl.	dead person	
+154088	šknt	škn[t	/š-k-n/	vb G	to be placed	
 # KTU 1.117 9						
 154089	x	?	?	?	?	
-154090	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
-154090	ġr	ġr(III)/	ġr (III)	n. m.	skin	
+154090	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 154091	ṭlm	ṭl/+m(I)	ṭl	n. m.	dew	
-154091	ṭlm	ṭl/+m(II)	ṭl	n. m.	dew	
+154091	ṭlm	ṭlm	ṭlm	?	dew	
 # KTU 1.117 10						
 154092	ryt	?	?	?	?	DULAT: NOT FOUND
 154093	aṣṣ	nṣṣ[	/n-ṣ-ṣ/	vb G	to take flight	
@@ -60,17 +60,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154094	k	k(III)	k (III)	Subordinating or completive functor	when	
 154094	k	k(I)	k (I)	prep.	like	
 154094	k	k(II)	k (II)	emph. functor	yes	
-154095	nṣ	nsk/	nsk	n. m.	caster	
-154095	nṣ	nṣ(I)/	nṣ (I)	n. m.	bird	
+154095	nṣ	nṣ(I)/	nṣ (I)	n. m. sg.	bird	
 # KTU 1.117 11						
 154096	m	l(I)	l (I)	prep.	to	
 154097	wtˤn	?	?	?	?	DULAT: NOT FOUND
+154098	pdry	pdry/	pdry	DN	Pidray	
 154098	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
 # KTU 1.117 12						
-154099	bt	bt(II)/	bt (II)	n. m.	house	
-154099	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+154099	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+154099	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154100	arx	?	?	?	?	DULAT: NOT FOUND
-154101	ṯbtk	ṯb(t/t	ṯbt	n. f.	seat	
+154101	ṯbtk	ṯb(t/t	ṯbt	n. f. sg.	seat	
 # KTU 1.117 13						
 154102	l	l(I)	l (I)	prep.	to	
 154102	l	l(III)	l (III)	functor	certainly	

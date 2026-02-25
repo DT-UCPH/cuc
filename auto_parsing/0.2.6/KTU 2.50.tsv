@@ -1,52 +1,53 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 1						
-158449	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
-158450	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
+158449	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+158450	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
 # KTU 2.50 2						
 158451	l	l(I)	l (I)	prep.	to	
-158452	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158453	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
+158452	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+158453	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 158454	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.50 3						
 158455	w	w	w	conj.	and	
 158456	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
-158457	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f.	distance	
+158457	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
 # KTU 2.50 4						
-158458	qlt	ql[	/q-l/	vb G	to fall (down)	
-158459	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+158458	qlt	ql[t	/q-l/	vb G	to fall (down)	
+158459	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 158460	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.50 5						
-158461	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158461	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158461	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158461	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158461	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158461	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158462	rgm	rgm[	/r-g-m/	vb G	to say	
-158462	rgm	rgm/	rgm	n. m.	word	
-158463	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
+158462	rgm	rgm/	rgm	n. m. sg.	word	
+158463	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
 # KTU 2.50 6						
 158464	l	l(I)	l (I)	prep.	to	
 158464	l	l(III)	l (III)	functor	certainly	
 158465	xxx	?	?	?	?	
-158466	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m.	servant	
+158466	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 # KTU 2.50 7						
 158467	ly	l(I)+y	l (I)	prep.	to	
 158468	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.50 8						
-158469	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
-158469	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
+158469	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
+158469	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
 # KTU 2.50 9						
 158470	xy	?	?	?	?	DULAT: NOT FOUND
 158471	w	w	w	conj.	and	
 158472	lm	l(I)	l (I)	prep.	to	
 # KTU 2.50 10						
-158473	šil	šʔl[	/š-ʔ-l/	vb G	to ask	
-158473	šil	šil(I)/	šỉl (I)	n. m.	interrogator	
-158474	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158474	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158474	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158473	šil	š(ʔ&il[	/š-ʔ-l/	vb G	to ask	
+158473	šil	šil(I)/	šỉl (I)	n. m. sg.	interrogator	
+158474	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158474	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158474	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.50 11						
 158475	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 12						
 158476	x	?	?	?	?	
+158477	mly	ml+y	ml	?	?	
 158477	mly	mly(II)/	mly (II)	PN	mly (II)	
 158477	mly	mly(I)	mly (I)	?	?	
 # KTU 2.50 13						
@@ -57,17 +58,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158481	kbr	kbr/	kbr	PN	kbr	
 # KTU 2.50 15						
 158482	xy	?	?	?	?	DULAT: NOT FOUND
-158483	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+158483	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 # KTU 2.50 16						
 158484	x	?	?	?	?	
 158485	w	w	w	conj.	and	
 158486	l	l(I)	l (I)	prep.	to	
+158486	l	l(II)	l (II)	adv.	no	
 158486	l	l(III)	l (III)	functor	certainly	
-158487	štnt	?	?	?	?	DULAT: NOT FOUND
+158487	štnt	ytn[t	/y-t-n/	vb	to give	
 # KTU 2.50 17						
 158488	d	d	d	det. or rel. functor	the one(s) of	
-158489	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
-158489	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
+158489	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
+158489	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
 158490	lbšk	lbš/+k	lbš	n. m.	clothing	
 158490	lbšk	lbš[+k	/l-b-š/	vb	to dress	
 # KTU 2.50 18						
@@ -81,13 +83,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158496	d	d	d	det. or rel. functor	the one(s) of	
 158497	l	l(I)	l (I)	prep.	to	
 158497	l	l(III)	l (III)	functor	certainly	
-158498	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
-158498	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
+158498	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
+158498	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
 # KTU 2.50 20						
 158499	l	l(I)	l (I)	prep.	to	
 158499	l	l(II)	l (II)	adv.	no	
 158499	l	l(III)	l (III)	functor	certainly	
-158500	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
+158500	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
 158501	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.50 21						
 158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m.	servant	

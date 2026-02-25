@@ -1,27 +1,26 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.82 1						
 159343	l	l(I)	l (I)	prep.	to	
-159344	mlkt	mlk(t/t	mlkt	n. f.	queen	
-159345	umy	um/y	ủm	n. f.	mother	
+159344	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
+159345	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.82 2						
-159346	adty	adt/+y	ảdt	n. f.	lady	
+159346	adty	adt/+y	ảdt	n. f. sg.	lady	
 159347	l	l(I)	l (I)	prep.	to	
 159347	l	l(III)	l (III)	functor	certainly	
 159348	pˤnk	pˤn/+k	pʕn	n. f.	foot	
 # KTU 2.82 3						
-159349	qlt	ql[	/q-l/	vb G	to fall (down)	
+159349	qlt	ql[t	/q-l/	vb G	to fall (down)	
 159350	id	id	ỉd	conj.	when	
-159351	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
+159351	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.82 4						
 159352	ˤky	ˤky(I)/	ʕky (I)	TN	ʿky (I)	
-159352	ˤky	ˤky(II)/	ʕky (II)	PN	ʿky (II)	
-159353	nplṭ	!n!plṭ[	/p-l-ṭ/	vb N	to be safe	
+159353	nplṭ	!n!](n]plṭ[	/p-l-ṭ/	vb N	to be safe	
 # KTU 2.82 5						
 159354	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
-159355	šˤtq	šˤtq/	šʕtq	adj. m. or n. m.	noble	
+159355	šˤtq	šˤtq/	šʕtq	adj. m. or n. m. sg.	noble	
 # KTU 2.82 6						
 159356	w	w	w	conj.	and	
-159357	lb	lb/	lb	n. m.	heart	
+159357	lb	lb/	lb	n. m. sg.	heart	
 159358	bnk	bn(I)/+k	bn (I)	n. m.	son	
 # KTU 2.82 7						
 159359	l	l(I)	l (I)	prep.	to	
@@ -33,44 +32,46 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.82 8						
 159363	w	w	w	conj.	and	
 159364	ank	ank	ảnk	pers. pn.	I	
-159365	ṯṯ	ṯṯ/	ṯṯ	n. num.	six	
+159365	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
 159366	ymm	ym(I)/m	ym (I)	n. m.	day	
-159366	ymm	ym(II)/	ym (II)	n. m.	sea	
+159366	ymm	ym(II)/	ym (II)	n. m. sg.	sea	
 # KTU 2.82 9						
-159367	kl	kl/	kl	n. m.	totality (of)	
-159368	lḥmt	lḥm(II)[	/l-ḥ-m/ (II)	vb G	to fight (against someone)	
+159367	kl	kl/	kl	n. m. sg.	totality (of)	
+159368	lḥmt	lḥm(II)[t	/l-ḥ-m/ (II)	vb G	to fight (against someone)	
 # KTU 2.82 10						
 159369	w	w	w	conj.	and	
 159370	hm	hm(II)	hm (II)	conj./interr. functor	if	
-159371	inm	in/	ỉn	n. m.	lack of	
+159370	hm	hm(I)	hm (I)	pers. pn.	they	
+159371	inm	in/	ỉn	n. m. sg.	lack of	
 # KTU 2.82 11						
 159372	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
 # KTU 2.82 12						
-159373	nplṭ	!n!plṭ[	/p-l-ṭ/	vb N	to be safe	
+159373	nplṭ	!n!](n]plṭ[	/p-l-ṭ/	vb N	to be safe	
 159374	ḥxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.82 13						
 159375	w	w	w	conj.	and	
 159376	lxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.82 14						
 159377	xxxx	?	?	?	?	
-159378	gy	g/+y	g	n. m.	(loud) voice	
+159378	gy	g/+y	g	n. m. sg.	(loud) voice	
 # KTU 2.82 15						
 159379	xxxtṯb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.82 16						
 159380	bnh	bn(I)/+h	bn (I)	n. m.	son	
-159381	nši	nšʔ[	/n-š-ʔ/	vb G	to raise	
+159381	nši	nš(ʔ&i[	/n-š-ʔ/	vb G	to raise	
 # KTU 2.82 17						
 159382	ikmy	ikmy	ỉkmy	conj.	however that may be	
 159383	ḥy	ḥy(m/	ḥym	n. m. pl. tant.	life	
-159383	ḥy	ḥy(I)/	ḥy (I)	adj. m.	alive	
+159383	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg.	alive	
 # KTU 2.82 18						
 159384	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
 159385	hm	hm(II)	hm (II)	conj./interr. functor	if	
+159385	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 2.82 19						
-159386	ymt	ym(I)/t=	ym (I)	n. m.	day	
+159386	ymt	ym(I)/t=	ym (I)	n. m. pl.	day	
 159386	ymt	!y!mt[	/m-t/	vb G	to die	
 # KTU 2.82 20						
 159387	w	w	w	conj.	and	
-159388	ilḥmn	!i!lḥm(II)[	/l-ḥ-m/ (II)	vb G	to fight (against someone)	
+159388	ilḥmn	!(ʔ&i!lḥm(II)[n	/l-ḥ-m/ (II)	vb G	to fight (against someone)	
 # KTU 2.82 21						
 159389	ank	ank	ảnk	pers. pn.	I	

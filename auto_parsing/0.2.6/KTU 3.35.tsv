@@ -3,13 +3,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162204	xxx	?	?	?	?	
 162205	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 162206	d	d	d	det. or rel. functor	the one(s) of	
-162207	nlqḥt	!n!lqḥ[	/l-q-ḥ/	vb N	to get hold of	
+162207	nlqḥt	!n!](n]lqḥ[t	/l-q-ḥ/	vb N	to get hold of	
 # KTU 3.35 2						
 162208	xx	?	?	?	?	
+162209	ḫtyn	ḫty(I)/+n	ḫty (I)	GN	Hittite	
 162209	ḫtyn	ḫtyn/	ḫtyn	PN	ḫtyn	
-162210	yd	yd(I)/	yd (I)	n. f.	hand	
+162210	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 162210	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-162210	yd	yd(II)/	yd (II)	n. m.	love	
+162210	yd	yd(II)/	yd (II)	n. m. sg.	love	
 162211	bth	bt(II)/+h	bt (II)	n. m.	house	
 # KTU 3.35 3						
 162212	aġltn	aġltn/	ảġltn	PN	ảġltn	
@@ -18,6 +19,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162214	bn	bn(I)/	bn (I)	n. m.	son	
 162214	bn	bn(II)	bn (II)	prep.	between	
 162214	bn	bn[	/b-n/	vb G	to understand	
+162215	ddy	dd(II)/+y	dd (II)	n. m.	cauldronful	
+162215	ddy	dd(I)/+y	dd (I)	adj. m. or n. m.	love	
 162215	ddy	ddy/	ddy	PN	ddy	
 # KTU 3.35 5						
 162216	ˤbdil	?	?	?	?	DULAT: NOT FOUND
@@ -26,20 +29,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162217	bn	bn[	/b-n/	vb G	to understand	
 162218	ṣdqn	ṣdqn/	ṣdqn	PN	ṣdqn	
 # KTU 3.35 6						
-162219	bnšm	bnš/m	bnš	n. m.	man	
-162220	hnmt	hnmt/	hn(h)mt	dem./adj.	these	
+162219	bnšm	bnš/m	bnš	n. m. pl.	man	
+162220	hnmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
 162221	ypḥm	ypḥ/+m(I)	ypḥ	n. m.	witness	
-162221	ypḥm	ypḥ/+m(II)	ypḥ	n. m.	witness	
 # KTU 3.35 7						
 162222	kbby	kbby/	kbby	PN	kbby	
-162223	yd	yd(I)/	yd (I)	n. f.	hand	
+162222	kbby	kbb+y	kbb	?	?	
+162223	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 162223	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-162223	yd	yd(II)/	yd (II)	n. m.	love	
-162224	bt	bt(II)/	bt (II)	n. m.	house	
-162224	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-162224	bt	bt(III)/	bt (III)	n. m.	length	
-162225	amt	!a!mt[	/m-t/	vb G	to die	
-162225	amt	am(t(I)/t	ảmt (I)	n. f.	(female) slave	
-162225	amt	am(t(II)/t	ảmt (II)	n. f.	elbow	
+162223	yd	yd(II)/	yd (II)	n. m. sg.	love	
+162224	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+162224	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+162224	bt	bt(III)/	bt (III)	n. m. pl.	length	
+162225	amt	!(ʔ&a!mt[	/m-t/	vb G	to die	
+162225	amt	am(t(I)/t	ảmt (I)	n. f. sg.	(female) slave	
+162225	amt	am(t(II)/t	ảmt (II)	n. f. sg.	elbow	
 # KTU 3.35 8						
 162226	ilmlk	ilmlk/	ỉlmlk	PN	ʾIlimalku/Ilimilku/Elimelek	

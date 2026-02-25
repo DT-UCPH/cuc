@@ -2,27 +2,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.147 1						
 154983	xx	?	?	?	?	
 # KTU 1.147 2						
-154984	ymy	ym(I)&y/	ym (I)	n. m.	day	
+154984	ymy	ym(I)&y/	ym (I)	n. m. pl.	day	
 # KTU 1.147 3						
 154985	lr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 4						
 154986	xlx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 5						
-154987	ˤb	?	?	?	?	DULAT: NOT FOUND
+154987	ˤb	ˤbd(I)/	ʕbd (I)	n. m.	servant	
 # KTU 1.147 6						
 154988	rxwm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 7						
 154989	x	?	?	?	?	
-154990	bšl	bšl[	/b-š-l/	vb D	to cook	
-154991	ybšl	!y!bšl[	/b-š-l/	vb D	to cook	
+154990	bšl	bšl[:d	/b-š-l/	vb D	to cook	
+154991	ybšl	!y!bšl[:d	/b-š-l/	vb D	to cook	
 # KTU 1.147 8						
-154992	kt	k(t(I)/t	kt (I)	n. f.	pitcher	
-154992	kt	k(t(II)/t	kt (II)	n. f.	stage	
-154993	št	št[	/š-t/	vb G/Gpass	to place	
-154993	št	š(t(II)/t	št (II)	n. f.	raíz	
-154993	št	št(I)/	št (I)	n. m.	base	
+154992	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
+154992	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
+154993	št	št[:pass	/š-t/	vb G/Gpass	to place	
 # KTU 1.147 9						
 154994	dk	d+k	d	det. or rel. functor	the one(s) of	
+154994	dk	dll[+k	/d-l-l/	vb	to oppress	
 154995	km	k(III)	k (III)	functor	when	
 154995	km	k(I)	k (I)	prep.	like	
 154995	km	k(IV)	k (IV)	adv.	thus	
@@ -30,19 +29,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154995	km	+km, +km=	-km			
 # KTU 1.147 10						
 154996	x	?	?	?	?	
-154997	srnm	srn/m	srn	n. m.	prince	
+154997	srnm	srn/m	srn	n. m. pl.	prince	
 # KTU 1.147 11						
 154998	b	b	b	prep.	in	
-154999	šr	šr(II)/	šr (II)	n. m.	musician	
-154999	šr	šr(III)/	šr (III)	n. m.	Prince	
-154999	šr	šr(IV)/	šr (IV)	n. m.	navel	
+154999	šr	šr(II)/	šr (II)	n. m. sg.	musician	
+154999	šr	šr(I)[	/š-r/ (I)	vb G	to sing	
+154999	šr	šr(III)/	šr (III)	n. m. sg.	Prince	
 # KTU 1.147 12						
 155000	l	l(I)	l (I)	prep.	to	
 155000	l	l(II)	l (II)	adv.	no	
 155000	l	l(III)	l (III)	functor	certainly	
-155001	qṣ	qṣ/	qṣ	n. m.	end	
+155001	qṣ	qṣ/	qṣ	n. m. sg.	end	
 155001	qṣ	qṣ[	/q-ṣ(-ṣ)/	vb G	to carve	
-155002	ilm	il(I)/m	ỉl (I)	n. m.	god	
+155002	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.147 13						
 155003	lm	l(I)	l (I)	prep.	to	
 155004	tbṣˤ	?	?	?	?	DULAT: NOT FOUND

@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 1						
-158916	tḥm	tḥm/	tḥm	n. m.	message	
+158916	tḥm	tḥm/	tḥm	n. m. sg.	message	
 158917	tlmyn	tlmyn/	tlmyn	PN	tlmyn	
 # KTU 2.71 2						
 158918	l	l(I)	l (I)	prep.	to	
@@ -11,72 +11,72 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158921	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 158922	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.71 4						
-158923	ilm	il(I)/m	ỉl (I)	n. m.	god	
-158924	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
+158923	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+158924	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
 # KTU 2.71 5						
-158925	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
+158925	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+158926	hnny	hn+ny	hn	deictic functor/adv.	behold!	
 158926	hnny	hnny	hnny	adv.	here	
+158926	hnny	hnny+ny	hnny	adv.	here	
 # KTU 2.71 6						
 158927	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-158928	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158928	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158928	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158928	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158928	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158928	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.71 7						
 158929	ṯmny	ṯm	ṯm	adv.	there	
-158930	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+158930	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 # KTU 2.71 8						
 158931	rgm	rgm[	/r-g-m/	vb G	to say	
-158931	rgm	rgm/	rgm	n. m.	word	
-158932	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
+158931	rgm	rgm/	rgm	n. m. sg.	word	
+158932	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
 158933	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.71 9						
 158934	hnk	hnk	hnk(t)	dem./pers. pn.	that	
-158935	tšmˤm	!t!šmˤ[	/š-m-ʕ/	vb G	to hear	
+158935	tšmˤm	!t!šmˤ[m	/š-m-ʕ/	vb G	to hear	
 # KTU 2.71 10						
-158936	ˤdn	ˤdn(III)/	ʕdn (III)	n. m.	party	
-158936	ˤdn	ˤdn(I)/	ʕdn (I)	n. m.	time	
-158936	ˤdn	ˤdn[	/ʕ-d-n/	vb G/D	to appoint the time	
-158937	yštal	š]t]ʔl[	/š-ʔ-l/	vb Gt	to ask	
+158936	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg.	party	
+158936	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg.	time	
+158936	ˤdn	ˤdn[:d	/ʕ-d-n/	vb G/D	to appoint the time	
+158937	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt	to ask	
 # KTU 2.71 11						
 158938	ˤmnk	ˤm(I)+k	ʕm (I)	prep.	to	
 158939	pm	p(I)+m(I)	p (I)	conj. functor	and	
-158939	pm	p(I)+m(II)	p (I)	conj. functor	and	
 158939	pm	p(III)/+m(I)	p (III)	n. m.	mouth	
-158940	yqḥ	lqḥ[	/l-q-ḥ/	vb G/Gpass	to get hold of	
+158939	pm	p(II)+m(I)	p (II)	adv.	here	
+158940	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G/Gpass	to get hold of	
 # KTU 2.71 12						
 158941	bk	b	b	prep.	in	
-158941	bk	bky[	/b-k-y/	vb G	to weep	
-158941	bk	bk/	bk	n. m.	beaker	
 158942	tˤpr	!t!ˤpr[	/ʕ-p-r/	vb G	to supply (something)	
 # KTU 2.71 13						
 158943	ht	ht	ht	adv.	here	
 158944	at	at(I)	ảt (I)	pers. pn.	you	
 158945	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.71 14						
-158946	dbr	dbr(II)/	dbr (II)	n. m.	plague	
+158946	dbr	dbr(II)/	dbr (II)	n. m. sg.	plague	
 158947	hmhkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.71 15						
 158948	b	b	b	prep.	in	
-158949	lbk	lb/	lb	n. m.	heart	
+158949	lbk	lb/	lb	n. m. sg.	heart	
 158950	al	al(I)	ảl (I)	neg. functor	no	
 158950	al	al(II)	ảl (II)	pos. functor	surely	
 158951	tšt	!t!št[	/š-t/	vb G	to place	
-158951	tšt	šty[	/š-t-y/	vb G	to drink	
+158951	tšt	!t!št(y[	/š-t-y/	vb G	to drink	
 # KTU 2.71 16						
-158952	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
-158952	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
-158953	mġyy	mġy[	/m-ġ-y/	vb G	to come	
+158952	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
+158952	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
+158953	mġyy	mġy[y	/m-ġ-y/	vb G	to come	
 # KTU 2.71 17						
 158954	b	b	b	prep.	in	
-158955	ˤrm	ˤr(I)/	ʕr (I)	n. f.	city	
-158955	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m.	naked	
+158955	ˤrm	ˤr(I)/	ʕr (I)	n. f. sg.	city	
+158955	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg.	naked	
 158956	ḥpr	ḥpr/	ḥpr	n. m.	ration(s)	
 # KTU 2.71 18						
-158957	ˤdn	ˤdn(III)/	ʕdn (III)	n. m.	party	
-158957	ˤdn	ˤdn(I)/	ʕdn (I)	n. m.	time	
-158957	ˤdn	ˤdn[	/ʕ-d-n/	vb G/D	to appoint the time	
-158958	dd	dd(II)/	dd (II)	n. m.	cauldronful	
-158959	akl	akl(II)/	ảkl (II)	n. m.	grain	
+158957	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg.	party	
+158957	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg.	time	
+158957	ˤdn	ˤdn[:d	/ʕ-d-n/	vb G/D	to appoint the time	
+158958	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
+158959	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
 # KTU 2.71 19						
 158960	mkr	mkr/	mkr	n. m.	merchant	
 158961	tn	(ytn[	/y-t-n/	vb	give	

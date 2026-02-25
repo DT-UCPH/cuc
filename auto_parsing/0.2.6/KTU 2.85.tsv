@@ -4,19 +4,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159480	l	l(III)	l (III)	functor	certainly	
 159481	urtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 2						
-159482	adny	adn(I)/	ảdn (I)	n. m.	lord	
+159482	adny	adn(I)/+y	ảdn (I)	n. m.	lord	
 159483	rgm	rgm[	/r-g-m/	vb G	to say	
-159483	rgm	rgm/	rgm	n. m.	word	
+159483	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.85 3						
 159484	w	w	w	conj.	and	
 159485	l	l(I)	l (I)	prep.	to	
 159485	l	l(III)	l (III)	functor	certainly	
 159486	bḏmr	?	?	?	?	DULAT: NOT FOUND
-159487	umy	um/y	ủm	n. f.	mother	
+159487	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.85 4						
 159488	rgm	rgm[	/r-g-m/	vb G	to say	
-159488	rgm	rgm/	rgm	n. m.	word	
-159489	tḥm	tḥm/	tḥm	n. m.	message	
+159488	rgm	rgm/	rgm	n. m. sg.	word	
+159489	tḥm	tḥm/	tḥm	n. m. sg.	message	
 159490	ˤzilt	ˤzilt/	ʕzilt	PN	ʿzilt	
 # KTU 2.85 5						
 159491	bn	bn(I)/	bn (I)	n. m.	son	
@@ -31,47 +31,46 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159493	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 159494	lkm	l(I)+km	l (I)	prep.	to	
 # KTU 2.85 7						
-159495	ilm	il(I)/m	ỉl (I)	n. m.	god	
+159495	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 159496	l	l(I)	l (I)	prep.	to	
 159496	l	l(II)	l (II)	adv.	no	
 159496	l	l(III)	l (III)	functor	certainly	
-159497	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-159497	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-159497	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+159497	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+159497	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+159497	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.85 8						
-159498	tġrkm	!t!nġr[	/n-ġ-r/	vb G	to protect	
-159499	tšlmkm	!t!šlm[	/š-l-m/	vb D	to be well	
+159498	tġrkm	nġr[km	/n-ġ-r/	vb G	to protect	
+159499	tšlmkm	!t!šlm[km:d	/š-l-m/	vb D	to be well	
 # KTU 2.85 9						
 159500	hln	hln	hln	deictic adv. functor	look!	
 159501	hn	hn	hn	deictic functor/adv.	behold!	
 159502	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.85 10						
-159503	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-159503	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-159503	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+159503	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+159503	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+159503	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 159504	w	w	w	conj.	and	
 159505	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 2.85 11						
 159506	mnm	mnm	mnm	indef. pn.	any(thing)	
-159507	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-159507	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-159507	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+159507	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+159507	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+159507	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.85 12						
 159508	rgm	rgm[	/r-g-m/	vb G	to say	
-159508	rgm	rgm/	rgm	n. m.	word	
-159509	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
+159508	rgm	rgm/	rgm	n. m. sg.	word	
+159509	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
 # KTU 2.85 13						
 159510	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.85 14						
 159511	xxtm	?	?	?	?	DULAT: NOT FOUND
-159512	lbk	lb/	lb	n. m.	heart	
+159512	lbk	lb/	lb	n. m. sg.	heart	
 # KTU 2.85 15						
 159513	xxx	?	?	?	?	
 159514	l	l(I)	l (I)	prep.	to	
 159514	l	l(II)	l (II)	adv.	no	
 159514	l	l(III)	l (III)	functor	certainly	
-159515	tšm	šlm[+m(I)	/š-l-m/	vb	to be well	
-159515	tšm	šlm[+m(II)	/š-l-m/	vb	to be well	
+159515	tšm	!t!š(l(m[+m(I)	/š-l-m/	vb	to be well	
 # KTU 2.85 16						
 159516	w	w	w	conj.	and	
 159517	ixx	?	?	?	?	DULAT: NOT FOUND
@@ -83,11 +82,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159521	xxxxxxpxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 19						
 159522	pby	?	?	?	?	DULAT: NOT FOUND
-159523	ṭb	ṭb/	ṭb	adj. m.	good	
+159523	ṭb	ṭb/	ṭb	adj. m. sg.	good	
 159524	b	b	b	prep.	in	
 # KTU 2.85 20						
 159525	w	w	w	conj.	and	
-159526	ḥršy	ḥrš(I)/y	ḥrš (I)	n. m.	craftsman	
+159526	ḥršy	ḥrš(I)/y	ḥrš (I)	n. m. pl.	craftsman	
 159527	ṣu	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 21						
 159528	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
@@ -95,12 +94,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159530	ank	ank	ảnk	pers. pn.	I	
 159531	bxxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 22						
-159532	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+159532	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 159533	ḫytr	ḫytr/	ḫytr	MN		
 159534	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
 159535	xx	?	?	?	?	
 # KTU 2.85 23						
-159536	tḥm	tḥm/	tḥm	n. m.	message	
+159536	tḥm	tḥm/	tḥm	n. m. sg.	message	
 159537	ˤzilt	ˤzilt/	ʕzilt	PN	ʿzilt	
 # KTU 2.85 24						
 159538	l	l(I)	l (I)	prep.	to	
@@ -109,14 +108,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159540	aḫty	aḫt(I)/+y	ảḫt (I)	n. f.	sister (related by blood)	
 # KTU 2.85 25						
 159541	rgm	rgm[	/r-g-m/	vb G	to say	
-159541	rgm	rgm/	rgm	n. m.	word	
+159541	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.85 26						
 159542	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 159543	lk	l(I)+k	l (I)	prep.	to	
-159544	ilm	il(I)/m	ỉl (I)	n. m.	god	
+159544	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.85 27						
-159545	tšlm	!t!šlm[	/š-l-m/	vb D	to be well	
-159546	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
+159545	tšlm	!t!šlm[:d	/š-l-m/	vb D	to be well	
+159546	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
 # KTU 2.85 28						
 159547	xxx	?	?	?	?	
 159548	mmk	mh/+k	mh/y	n. m.	water	
@@ -133,8 +132,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159555	xxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 32						
 159556	rgm	rgm[	/r-g-m/	vb G	to say	
-159556	rgm	rgm/	rgm	n. m.	word	
-159557	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
+159556	rgm	rgm/	rgm	n. m. sg.	word	
+159557	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
 # KTU 2.85 33						
 159558	xx	?	?	?	?	
 159559	šbk	šb/+k	šb	n. m.	old man	
@@ -146,8 +145,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.85 35						
 159564	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
 159564	h	~h	-h(II)	adv. functor	to, towards	
-159565	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
-159565	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
+159565	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
+159565	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 159566	txxxxxy	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 36						
 159567	xrˤy	?	?	?	?	DULAT: NOT FOUND
@@ -156,7 +155,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159570	m	l(I)	l (I)	prep.	to	
 # KTU 2.85 37						
 159571	u	u	ủ	conj.	or	
-159572	iṯ	iṯ(I)/	ỉṯ (I)	n. m.	presence	
+159572	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
 159573	ˤxn	?	?	?	?	DULAT: NOT FOUND
 159574	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
 159575	q	?	?	?	?	

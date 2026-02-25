@@ -9,18 +9,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159428	gr	gr[	/g-r(-y)/	vb G	to attack	
 # KTU 2.84 3						
 159429	rgm	rgm[	/r-g-m/	vb G	to say	
-159429	rgm	rgm/	rgm	n. m.	word	
+159429	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.84 4						
 159430	lm	l(I)	l (I)	prep.	to	
-159431	aḫt	aḫt(I)/	ảḫt (I)	n. f.	sister (related by blood)	
+159431	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. sg.	sister (related by blood)	
+159431	aḫt	aḫ(t(I)/t=	ảḫt (I)	n. f. pl.	sister (related by blood)	
 # KTU 2.84 5						
-159432	mdy	md(I)/+y	md (I)	n. f.	cape	
+159432	mdy	md(I)/+y	md (I)	n. f. sg.	cape	
 159433	b	b	b	prep.	in	
 159434		?	?	?	?	
 # KTU 2.84 6						
 159435	abrḥd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 7						
-159436	tiḫdn	!t!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G	to collect	
+159436	tiḫdn	ʔḫd[dn	/ʔ-ḫ-d(/ḏ)/	vb G	to collect	
 # KTU 2.84 8						
 159437	uškny	uškny(I)/	ủškny (I)	GN	ủškny (I)	
 # KTU 2.84 9						
@@ -29,24 +30,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159439	ap	ap(II)/	ảp (II)	n. m.	nose	
 159440	utnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 10						
-159441	alphm	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+159441	alphm	alp(I)/	ảlp (I)	n. m. pl.	(head of) cattle	
 159442	x	?	?	?	?	
 # KTU 2.84 11						
-159443	ġrm	ġr(I)/m	ġr (I)	n. m.	mountain	
-159443	ġrm	ġrm/	ġrm	n. m.	heap	
-159443	ġrm	ġr(IV)/m	ġr (IV)	n. m.	invader	
+159443	ġrm	ġr(I)/m	ġr (I)	n. m. pl.	mountain	
 159444	kr	kr[	/k-r/	vb	to be hot	
 # KTU 2.84 12						
 159445	b	b	b	prep.	in	
-159446	mdy	md(I)/+y	md (I)	n. f.	cape	
+159446	mdy	md(I)/+y	md (I)	n. f. sg.	cape	
 159447	t	/t, /t=				
 159447	t	[t, [t=, [t==, [t===				
 # KTU 2.84 13						
 159448	b	b	b	prep.	in	
-159449	mdk	md(I)/+k	md (I)	n. f.	cape	
+159449	mdk	md(I)/+k	md (I)	n. f. sg.	cape	
 # KTU 2.84 14						
 159450	mn	mn(IV)	mn (IV)	?	?	
-159450	mn	mn(III)/	mn (III)	n. m.	mina	
+159450	mn	mn(III)/	mn (III)	n. m. sg.	mina	
 159451	ˤps	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 15						
 159452	km	k(III)	k (III)	functor	when	
@@ -57,8 +56,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159453	mġy	mġy[	/m-ġ-y/	vb G	to come	
 159454	a	?	?	?	?	
 # KTU 2.84 16						
-159455	mdy	md(I)/+y	md (I)	n. f.	cape	
-159456	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+159455	mdy	md(I)/+y	md (I)	n. f. sg.	cape	
+159456	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 # KTU 2.84 17						
 159457	lm	l(I)	l (I)	prep.	to	
 159458	l	l(I)	l (I)	prep.	to	
@@ -66,10 +65,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159459	hbṭx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 18						
 159460	ht	ht	ht	adv.	here	
-159461	alpy	alp(I)/y	ảlp (I)	n. m.	(head of) cattle	
+159461	alpy	alp(I)/y	ảlp (I)	n. m. pl.	(head of) cattle	
 159462		?	?	?	?	
 # KTU 2.84 19						
-159463	hbṭ	hbṭ[	/h-b-ṭ/ẓ/	vb D	to knock down	
+159463	hbṭ	hbṭ[:d	/h-b-ṭ/ẓ/	vb D	to knock down	
 159464	w	w	w	conj.	and	
 159465	l	l(I)	l (I)	prep.	to	
 159465	l	l(III)	l (III)	functor	certainly	
@@ -80,7 +79,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.84 21						
 159469	uy	u	ủ	conj.	or	
 159470	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-159470	alp	alp(II)/	ảlp (II)	num.	(one	
+159470	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 159471	x	?	?	?	?	
 # KTU 2.84 22						
 159472	dt	d	d	det. or rel. functor	the one(s) of	
@@ -88,9 +87,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159474	ux	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 23						
 159475	d	d	d	det. or rel. functor	the one(s) of	
-159476	aḫt	aḫt(I)/	ảḫt (I)	n. f.	sister (related by blood)	
+159476	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. sg.	sister (related by blood)	
+159476	aḫt	aḫ(t(I)/t=	ảḫt (I)	n. f. pl.	sister (related by blood)	
 159477	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.84 24						
-159478	hbṭ	hbṭ[	/h-b-ṭ/ẓ/	vb D	to knock down	
+159478	hbṭ	hbṭ[:d	/h-b-ṭ/ẓ/	vb D	to knock down	
 159479	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
 159479	h	~h	-h(II)	adv. functor	to, towards	

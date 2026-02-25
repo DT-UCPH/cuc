@@ -8,7 +8,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149407	bn	bn(I)/	bn (I)	n. m.	son	
 149408	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 3						
-149409	mpḫrt	mpḫr(t/t	mpḫrt	n. f.	assembly	
+149409	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
 149410	bn	bn(I)/	bn (I)	n. m.	son	
 149411	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 4						
@@ -18,17 +18,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149414	il	il(I)/	ỉl (I)	n. m.	god	
 149415	waṯrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.65 6						
-149416	ḥnn	lqḥ[+nn	/l-q-ḥ/	vb	to get hold of	
-149416	ḥnn	ḥkpt/+nn	ḥkpt	TN	ḥkpt	
-149416	ḥnn	ḥn/+n	ḥn	n. m.	grace	
+149416	ḥnn	lqḥ[+nn	/l-q-ḥ/	vb	to get hold of, ?	
+149416	ḥnn	ḥnn(I)/	ḥnn (I)	n. m.	kindness	
 149417	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 7						
-149418	nṣbt	nṣb(t/t	nṣbt	n. f.	predilection	
+149418	nṣbt	nṣb(t/t	nṣbt	n. f. sg.	predilection	
 149419	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 8						
-149420	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-149420	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-149420	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+149420	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+149420	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+149420	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 149421	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 9						
 149422	il	il(I)/	ỉl (I)	n. m.	god	
@@ -41,35 +40,35 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149428	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 149428	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.65 11						
-149429	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+149429	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 1.65 12						
 149430	b	b	b	prep.	in	
 149431	mrḥ	mrḥ/	mrḥ	n. f.	lance	
 149432	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 13						
 149433	b	b	b	prep.	in	
-149434	nit	ni(t/t	nỉt	n. f.	axe	
+149434	nit	ni(t/t	nỉt	n. f. sg.	axe	
 149435	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 14						
 149436	b	b	b	prep.	in	
-149437	ṣmd	ṣmd/	ṣmd	n. m.	pair	
+149437	ṣmd	ṣmd/	ṣmd	n. m. sg.	pair	
 149437	ṣmd	ṣmd[	/ṣ-m-d/	vb G	to harness	
 149438	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 15						
 149439	b	b	b	prep.	in	
-149440	dṯn	dṯn/	dṯn	n. m.	fat offering	
+149440	dṯn	dṯn/	dṯn	n. m. sg.	fat offering	
 149441	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 16						
 149442	b	b	b	prep.	in	
-149443	šrp	šrp/	šrp	n. m.	burnt sacrifice	
+149443	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 149444	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 17						
 149445	b	b	b	prep.	in	
-149446	knt	kn(t/t	knt	n. f.	continuity	
+149446	knt	kn(t/t	knt	n. f. sg.	continuity	
 149447	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 18						
 149448	b	b	b	prep.	in	
-149449	ġdyn	ġdyn(I)/	ġdyn (I)	n. m.	entretien	
+149449	ġdyn	ġdyn(I)/	ġdyn (I)	n. m. sg.	entretien	
 149450	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.65 19						
 149451	b	b	b	prep.	in	

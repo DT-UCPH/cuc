@@ -4,7 +4,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147901	l	l(III)	l (III)	functor	certainly	
 147902		?	?	?	?	
 # KTU 1.28 2						
-147903	gdlt	gdl(t(I)/t=	gdlt (I)	n. f.	head of cattle	
+147903	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
+147903	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 # KTU 1.28 3						
 147904		?	?	?	?	
 147905	pl	pl[	/p-l(-l)/	vb G	to be cracked	

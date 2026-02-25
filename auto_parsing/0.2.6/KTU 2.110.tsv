@@ -5,12 +5,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.110 2						
 160682	r	?	?	?	?	
 # KTU 2.110 3						
-160683	zn	zn/	zn	n. m.	provider	
+160683	zn	zn/	zn	n. m.	provider	Based on DULAT reconstruction.
+160683	zn	z+n	z	→	?	
 160684	l	l(I)	l (I)	prep.	to	
 160684	l	l(III)	l (III)	functor	certainly	
 160685		?	?	?	?	
 # KTU 2.110 4						
-160686	mryn	mryn(I)/	mryn (I)	n. m.	Officiers mittanniens commandant les escaudrons de chars de guerre	
+160686	mryn	mryn(I)/	mryn (I)	n. m. sg.	Officiers mittanniens commandant les escaudrons de chars de guerre	
 # KTU 2.110 5						
 160687	yzn	yzn	yzn	?	abwägen	
 160688	l	l(I)	l (I)	prep.	to	
@@ -25,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160691	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
 160691	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 # KTU 2.110 7						
-160692	mid	mi/	mỉ/ủd	n. m.	abundance	
+160692	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
 160693	w	w	w	conj.	and	
 # KTU 2.110 8						
 160694	xxrx	?	?	?	?	DULAT: NOT FOUND

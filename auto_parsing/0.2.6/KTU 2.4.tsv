@@ -2,33 +2,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 1						
 156391	l	l(I)	l (I)	prep.	to	
 156391	l	l(III)	l (III)	functor	certainly	
-156392	rb	rb(II)/	rb (II)	n. m.	chief	
-156392	rb	rb(I)/	rb (I)	adj. m.	great	
-156392	rb	rb/	rb(b)	n. m.	drizzle	
-156393	khnm	khn(I)/m	khn (I)	n. m.	priest	
+156392	rb	rb(II)/	rb (II)	n. m. sg.	chief	
+156392	rb	rb(I)/	rb (I)	adj. m. sg.	great	
+156392	rb	rb/	rb(b)	n. m. sg.	drizzle	
+156393	khnm	khn(I)/m	khn (I)	n. m. pl.	priest	
 # KTU 2.4 2						
 156394	rgm	rgm[	/r-g-m/	vb G	to say	
-156394	rgm	rgm/	rgm	n. m.	word	
+156394	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.4 3						
-156395	tḥm	tḥm/	tḥm	n. m.	message	
+156395	tḥm	tḥm/	tḥm	n. m. sg.	message	
 156396	mlk	mlk[	/m-l-k/	vb G	to reign	
-156396	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+156396	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.4 4						
 156397	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 156398	lk	l(I)+k	l (I)	prep.	to	
-156399	ilm	il(I)/m	ỉl (I)	n. m.	god	
+156399	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.4 5						
-156400	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
-156401	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
+156400	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+156401	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
 # KTU 2.4 6						
-156402	tˤzzk	!t!ˤz[	/ʕ-z(-z)/	vb D	to be strong	
+156402	tˤzzk	!t!ˤz[zk:d	/ʕ-z(-z)/	vb D	to be strong	
 156403	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-156404	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-156404	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-156404	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+156404	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+156404	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+156404	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.4 7						
 156405	w	w	w	conj.	and	
-156406	tṯṯb	!t!]š]ṯb[	/ṯ-b/	vb Š	to return	
+156406	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š	to return	
 156407	ly	l(I)+y	l (I)	prep.	to	
 156408	šlmk	šlm(I)/+k	šlm (I)	n. m.	peace	
 156408	šlmk	šlm[+k	/š-l-m/	vb	to be well	
@@ -45,43 +45,43 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156413	xxxxxx	?	?	?	?	
 # KTU 2.4 13						
 156414	xxxxx	?	?	?	?	
-156415	šilt	šʔl[	/š-ʔ-l/	vb G	to ask	
+156415	šilt	š(ʔ&il[t	/š-ʔ-l/	vb G	to ask	
 # KTU 2.4 14						
 156416	xxxxkm	?	?	?	?	DULAT: NOT FOUND
 156417	lm	l(I)	l (I)	prep.	to	
 # KTU 2.4 15						
 156418	xxxx	?	?	?	?	
-156419	šd	šd(I)/	šd (I)	n. m.	open field	
-156419	šd	šd(II)/	šd (II)	n. m.	a strip	
+156419	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+156419	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 156419	šd	šdy[	/š-d-y/	vb G	to pour	
 156420	gṯr	gṯr/	gṯr	DN	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 2.4 16						
 156421	xmġy	?	?	?	?	DULAT: NOT FOUND
-156422	šd	šd(I)/	šd (I)	n. m.	open field	
-156422	šd	šd(II)/	šd (II)	n. m.	a strip	
+156422	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+156422	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 156422	šd	šdy[	/š-d-y/	vb G	to pour	
-156423	hwt	hw(t(I)/t	hwt (I)	n. f.	word/matter	
+156423	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 # KTU 2.4 17						
 156424	xkḥd	?	?	?	?	DULAT: NOT FOUND
-156425	šd	šd(I)/	šd (I)	n. m.	open field	
-156425	šd	šd(II)/	šd (II)	n. m.	a strip	
+156425	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+156425	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 156425	šd	šdy[	/š-d-y/	vb G	to pour	
 156426	gṯr	gṯr/	gṯr	DN	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 2.4 18						
 156427	ht	ht	ht	adv.	here	
 156428	yšmˤ	!y!šmˤ[	/š-m-ʕ/	vb G	to hear	
-156429	uḫy	aḫ(I)/	ảḫ (I)	n. m.	brother (by blood)	
+156429	uḫy	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
 # KTU 2.4 19						
 156430	l	l(I)	l (I)	prep.	to	
 156430	l	l(III)	l (III)	functor	certainly	
-156431	gy	g/+y	g	n. m.	(loud) voice	
+156431	gy	g/+y	g	n. m. sg.	(loud) voice	
 156432	w	w	w	conj.	and	
-156433	yhbṭ	!y!hbṭ[	/h-b-ṭ/ẓ/	vb D	to knock down	
+156433	yhbṭ	!y!hbṭ[:d	/h-b-ṭ/ẓ/	vb D	to knock down	
 156434	bnš	bnš/	bnš	n. m.	man	
 # KTU 2.4 20						
 156435	w	w	w	conj.	and	
 156436	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
-156437	ilm	il(I)/m	ỉl (I)	n. m.	god	
+156437	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 156438	bdhm	bd(IV)+hm	bd (IV)	prep.	into the hands of	
 # KTU 2.4 21						
 156439	bd	b	b	prep.	in	

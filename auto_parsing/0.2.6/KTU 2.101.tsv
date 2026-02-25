@@ -1,24 +1,24 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.101 1						
 160401	l	l(I)	l (I)	prep.	to	
-160402	mlkt	mlk(t/t	mlkt	n. f.	queen	
+160402	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 160403		?	?	?	?	
 # KTU 2.101 2						
-160404	adty	adt/+y	ảdt	n. f.	lady	
+160404	adty	adt/+y	ảdt	n. f. sg.	lady	
 160405	rgm	rgm[	/r-g-m/	vb G	to say	
-160405	rgm	rgm/	rgm	n. m.	word	
+160405	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.101 3						
-160406	tḥm	tḥm/	tḥm	n. m.	message	
-160407	skn	skn(I)/	s:śkn (I)	n. m.	prefect	
+160406	tḥm	tḥm/	tḥm	n. m. sg.	message	
+160407	skn	skn(I)/	s:śkn (I)	n. m. sg.	prefect	
 # KTU 2.101 4						
 160408	ly	l(I)+y	l (I)	prep.	to	
-160409	adty	adt/+y	ảdt	n. f.	lady	
+160409	adty	adt/+y	ảdt	n. f. sg.	lady	
 160410	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 # KTU 2.101 5						
 160411	w	w	w	conj.	and	
 160412	l	l(I)	l (I)	prep.	to	
-160413	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-160414	adty	adt/+y	ảdt	n. f.	lady	
+160413	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+160414	adty	adt/+y	ảdt	n. f. sg.	lady	
 # KTU 2.101 6						
 160415	xxxx	?	?	?	?	
 160416	šb	šb/	šb	n. m.	old man	
@@ -36,11 +36,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160424	m	l(I)	l (I)	prep.	to	
 # KTU 2.101 11						
 160425	w	w	w	conj.	and	
-160426	ḥmr	ḥmr(I)/	ḥmr (I)	n. m.	donkey	
-160426	ḥmr	ḥmr(II)/	ḥmr (II)	adj.	red	
+160426	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
+160426	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
 160427	x	?	?	?	?	
 # KTU 2.101 12						
-160428	drˤ	d/	d/ḏrʕ	n. m.	seed	
+160428	drˤ	d/	d/ḏrʕ	n. m. sg.	seed	
 160428	drˤ	drˤ[	/d-r-ʕ/	vb G	to sow	
 160429	xgd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.101 13						
@@ -56,5 +56,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160436	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
 160436	h	~h	-h(II)	adv. functor	to, towards	
 # KTU 2.101 17						
-160437	dnt	dn(t(II)/t	dnt (II)	n. f.	plight	
-160438	š	š/	š	n. m.	ram	
+160437	dnt	dn(t(II)/t	dnt (II)	n. f. sg.	plight	
+160438	š	š/	š	n. m. sg.	ram	

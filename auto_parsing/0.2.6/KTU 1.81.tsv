@@ -20,26 +20,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.81 5						
 149967	l	l(I)	l (I)	prep.	to	
 149967	l	l(III)	l (III)	functor	certainly	
-149968	ilt	il(t(I)/t	ỉlt (I)	n. f.	goddess	
+149968	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
 # KTU 1.81 6						
 149969	l	l(I)	l (I)	prep.	to	
-149970	bˤlt	bˤl(t/t	bʕlt	n. f.	lady	
+149970	bˤlt	bˤl(t/t	bʕlt	n. f. sg.	lady	
 # KTU 1.81 7						
 149971	l	l(I)	l (I)	prep.	to	
 149972	il	il(I)/	ỉl (I)	n. m.	god	
-149973	bt	bt(II)/	bt (II)	n. m.	house	
-149973	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+149973	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+149973	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 # KTU 1.81 8						
 149974	l	l(I)	l (I)	prep.	to	
 149974	l	l(III)	l (III)	functor	certainly	
-149975	ilt	il(t(I)/t	ỉlt (I)	n. f.	goddess	
-149976	bt	bt(II)/	bt (II)	n. m.	house	
-149976	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+149975	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
+149976	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+149976	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 # KTU 1.81 9						
 149977	l	l(I)	l (I)	prep.	to	
 149977	l	l(III)	l (III)	functor	certainly	
-149978	ḥtk	ḥtk(II)/	ḥtk (II)	n. m.	lineage	
-149979	dgn	dgn(I)/	dgn (I)	n. m.	grain	
+149978	ḥtk	ḥtk(II)/	ḥtk (II)	n. m. sg.	lineage	
+149979	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
 # KTU 1.81 10						
 149980	l	l(I)	l (I)	prep.	to	
 149981	ršp	ršp/	ršp	DN	Rašap	
@@ -55,12 +55,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.81 12						
 149987	l	l(I)	l (I)	prep.	to	
 149987	l	l(III)	l (III)	functor	certainly	
-149988	ilt	il(t(I)/t	ỉlt (I)	n. f.	goddess	
+149988	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
 149989	qbl	qbl	qbl		battle	
 # KTU 1.81 13						
 149990	l	l(I)	l (I)	prep.	to	
 149990	l	l(III)	l (III)	functor	certainly	
 149991	arṣy	arṣ/+y	ảrṣ	n. f.	earth	
+149991	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
 # KTU 1.81 14						
 149992	l	l(I)	l (I)	prep.	to	
 149992	l	l(III)	l (III)	functor	certainly	

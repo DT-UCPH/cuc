@@ -8,19 +8,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149351	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
 149351	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
 149351	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
-149352	irš	ʔrš[	/ʔ-r-š/	vb G/D	to request	
+149352	irš	(ʔ&irš[:d	/ʔ-r-š/	vb G/D	to request	
 # KTU 1.62 3						
-149353	amr	amr(I)/	ảmr (I)	n. m.	order	
+149353	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 149354	ph	p(III)/+h	p (III)	n. m.	mouth	
 # KTU 1.62 4						
-149355	mm	mm(I)/	mm (I)	n. m.	winter	
-149356	hlkt	hlk[	/h-l-k/	vb G	to go	
+149355	mm	mm(I)/	mm (I)	n. m. sg.	winter	
+149356	hlkt	hlk[t	/h-l-k/	vb G	to go	
 # KTU 1.62 5						
 149357	b	b	b	prep.	in	
 149358	qrb	qrb[	/q-r-b/	vb G	to approach	
-149358	qrb	qrb/	qrb	n. m.	inside	
-149359	ˤr	ˤr(I)/	ʕr (I)	n. f.	city	
-149359	ˤr	ˤr(II)/	ʕr (II)	n. m.	donkey	
+149358	qrb	qrb/	qrb	n. m. sg.	inside	
+149359	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
+149359	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
 # KTU 1.62 6						
 149360	mlakm	mlak/m	mlảk	n. m.	messenger	
 149361	lh	l(I)+h	l (I)	prep.	to	
@@ -41,7 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149368	y	+y, [y	-y (I)	prep. functor	my	
 149368	y	~y	-y (II)	prep. functor	indeed	
 149368	y	y	y	prep. functor	oh!	
-149369	špš	špš/	špš	n.	sun	
+149369	špš	špš/	špš	n. sg.	sun	
 # KTU 1.62 11						
 149370		?	?	?	?	
 # KTU 1.62 12						
@@ -58,7 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.62 17						
 149376		?	?	?	?	
 # KTU 1.62 18						
-149377	š	š/	š	n. m.	ram	
+149377	š	š/	š	n. m. sg.	ram	
 # KTU 1.62 19						
 149378		?	?	?	?	
 # KTU 1.62 20						

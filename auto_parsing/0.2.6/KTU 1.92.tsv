@@ -2,73 +2,75 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.92 1						
 151325	d	d	d	det. or rel. functor	the one(s) of	
 151326	ṯbil	ṯbil(I)/	ṯbỉl (I)	PN	ṯbỉl (I)	
-151326	ṯbil	ṯbil(II)/	ṯbỉl (II)	TN	ṯbỉl (II)	
 # KTU 1.92 2						
 151327	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
-151328	ṣwdt	ṣd[	/ṣ-d/	vb G	to hunt	
+151328	ṣwdt	ṣd[dt	/ṣ-d/	vb G	to hunt	
 # KTU 1.92 3						
 151329	tlk	hlk[	/h-l-k/	vb G	to go	
 151330	bmdbr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 4						
-151331	tḥd	ḥw(I)[+d	/ḥ-w/y-y/ (I)	vb	to live	
+151331	tḥd	!t!ḥd(y[	/ḥ-d-y/	vb G	to see	
 151332	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151332	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151332	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
+151332	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
 151333	whl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 5						
 151334	w	w	w	conj.	and	
 151335	tglṯ	!t!glṯ[	/g-l-ṯ/	vb G	to jump	
-151336	thmt	thm(t/t	thmt	n. f.	Primordial Ocean	
-151336	thmt	thm/t	thm	n. m.	ocean/deep	
+151336	thmt	thm(t/t	thmt	n. f. sg.	Primordial Ocean	
+151336	thmt	thm/t	thm	n. f. sg.	ocean/deep	
+151336	thmt	thm/t	thm	n. f. sg.	ocean/deep	
 151337	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 # KTU 1.92 6						
-151338	yṣi	!y!(yṣʔ[	/y-ṣ-ʔ/	vb G	to go out	
+151338	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G	to go out	
 151339	ġlh	ġl(I)/h	ġl (I)	n. m.	far extent of desert	
-151340	tḥmd	tḥm/+d	tḥm	n. m.	message	
+151340	tḥmd	tḥm/+d	tḥm	n. m.	message, ?	
+151340	tḥmd	!t!ḥmd[	/ḥ-m-d/	vb G	to desire	
 # KTU 1.92 7						
-151341	mrḥh	mrḥ/h	mrḥ	n. f.	lance	
+151341	mrḥh	mrḥ/h	mrḥ	n. f. sg.	lance	
 151342	ladr	?	?	?	?	DULAT: NOT FOUND
-151343	tl	tl(I)/	tl (I)	n. m.	hill	
-151343	tl	tl(II)/	tl (II)	n. m.	weapon	
+151343	tl	tl(I)/	tl (I)	n. m. sg.	hill	
+151343	tl	tl(II)/	tl (II)	n. m. sg.	weapon	
 # KTU 1.92 8						
-151344	tṯb	!t!ṯb[	/ṯ-b/	vb G/L/R	to return	
+151344	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G/L/R	to return	
 151344	tṯb	yṯb[	/y-ṯ-b/	vb G	to sit down	
 151344	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 151345	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
 151346	bġlx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 9						
-151347	qrẓ	qrẓ/	qrẓ	n. m.	acacia	
+151347	qrẓ	qrẓ/	qrẓ	n. m. sg.	acacia	
 151348	tšt	!t!št[	/š-t/	vb G	to place	
-151348	tšt	šty[	/š-t-y/	vb G	to drink	
 151349	l	l(I)	l (I)	prep.	to	
 151349	l	l(III)	l (III)	functor	certainly	
-151350	šmal	šmal/	šmảl	adj. m. or n. m.	left	
+151350	šmal	šmal/	šmảl	adj. m. or n. m. sg.	left	
 # KTU 1.92 10						
-151351	arbḫ	arbḫ/	ảrbḫ	adj. m. or n. m.	four year old (animal)	
-151352	ˤnh	ˤn(I)/h	ʕn (I)	n. f.	eye	
-151353	tšu	nšʔ[	/n-š-ʔ/	vb G	to raise	
+151351	arbḫ	arbḫ/	ảrbḫ	adj. m. or n. m. sg.	four year old (animal)	
+151352	ˤnh	ˤn(I)/h	ʕn (I)	n. f. du.	eye	
+151353	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G	to raise	
 151354	wt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 11						
-151355	aylt	ayl(t(I)/t=	ảylt (I)	n. f.	hind	
+151355	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg.	hind	
+151355	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl.	hind	
 151356	tġpy	!t!ġpy[	/ġ-p-y/	vb G	to espy	
 151357	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
 151358	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
 # KTU 1.92 12						
 151359	b	b	b	prep.	in	
-151360	qr	qr(I)/	qr (I)	n. m.	source	
-151360	qr	qr(II)/	qr (II)	n. m.	noise	
-151360	qr	qr(III)/	qr (III)	n. m.	wall	
-151361	mrḥh	mrḥ/h	mrḥ	n. f.	lance	
-151362	tiḫd	!t!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G	to collect	
+151360	qr	qr(I)/	qr (I)	n. m. sg.	source	
+151360	qr	qr(II)/	qr (II)	n. m. sg.	noise	
+151360	qr	qr(III)/	qr (III)	n. m. pl.	wall	
+151361	mrḥh	mrḥ/h	mrḥ	n. f. sg.	lance	
+151362	tiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G	to collect	
 # KTU 1.92 13						
-151363	šbrh	šbr/+h	šbr	n. m.	stick	
+151363	šbrh	šbr/+h	šbr	n. m. sg.	stick	
 151364	bm	b	b	prep.	in	
-151365	ymn	ymn(I)/	ymn (I)	n. m.	right (side)	
-151366	tr	!t!r[	/t-r/	vb G	to scour	
-151366	tr	tr(II)/	tr (II)	n. m.	turtledove	
+151365	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
+151366	tr	tr[	/t-r/	vb G	to scour	
+151366	tr	tr(II)/	tr (II)	n. m. sg.	turtledove	
 # KTU 1.92 14						
-151367	tšpl	!t!špl[	/š-p-l/	vb G/D	to bend down	
+151367	tšpl	!t!špl[:d	/š-p-l/	vb G/D	to bend down	
 151368	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+151368	bˤl	bˤl(I)/	bʕl (I)	n. m.	labourer	
 151368	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 151369	ˤbx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 15						
@@ -78,14 +80,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151373	tṯrm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 16						
 151374	tšlḥm	!t!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š	to eat	
-151375	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+151375	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 151376	ggn	gg(I)/+n	gg (I)	n. m.	roof	
+151376	ggn	ggn/	ggn	n. m.	insides	
 151377		?	?	?	?	
 # KTU 1.92 17						
 151378	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
 151379	ḥrš	ḥrš(I)/	ḥrš (I)	n. m.	craftsman	
 151380	ḫssm	ḫss/+m(I)	ḫss	element of DN	Ḫasisu/Khasis	
-151380	ḫssm	ḫss/+m(II)	ḫss	element of DN	Ḫasisu/Khasis	
 # KTU 1.92 18						
 151381	xxxxxbm	?	?	?	?	DULAT: NOT FOUND
 151382	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
@@ -99,28 +101,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.92 22						
 151387		?	?	?	?	
 # KTU 1.92 23						
-151388	kt	k(t(I)/t	kt (I)	n. f.	pitcher	
-151388	kt	k(t(II)/t	kt (II)	n. f.	stage	
+151388	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
+151388	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
 151389	bnġr	?	?	?	?	DULAT: NOT FOUND
-151390	krm	krm/	krm	n. m.	vineyard	
+151390	krm	krm/	krm	n. m. sg.	vineyard	
 # KTU 1.92 24						
 151391	x	?	?	?	?	
 151392	abh	ab/+h	ảb	n. m.	father	
-151393	krm	krm/	krm	n. m.	vineyard	
-151394	ar	a/	ả	n.	light	
+151393	krm	krm/	krm	n. m. sg.	vineyard	
+151394	ar	a/	ả/ỉr	n. m. sg.	light	
 # KTU 1.92 25						
 151395	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
 151395	h	~h	-h(II)	adv. functor	to, towards	
-151396	mḥtrt	mḥtr(t/t	mḥtrt	n. f.	green (garment)	
-151397	pṯtm	pṯt(I)/t=	pṯt (I)	n. m.	linen	
+151396	mḥtrt	mḥtr(t/t	mḥtrt	n. f. sg.	green (garment)	
+151397	pṯtm	pṯt(I)/m	pṯt (I)	n. m.	linen	
 # KTU 1.92 26						
 151398	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
-151399	ušpġt	ušpġ(t/t	ủšpġt	n. f.	ein Gewand	
-151400	tišr	tišr/	tỉšr	n. m.	cypress	
+151399	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg.	ein Gewand	
+151400	tišr	tišr/	tỉšr	n. m. sg.	cypress	
 # KTU 1.92 27						
 151401	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
-151402	nšat	!n!nšʔ[	/n-š-ʔ/	vb G	to raise	
-151403	ẓl	ẓl(I)/	ẓl (I)	n. m.	shade	
+151402	nšat	nš(ʔ&a[t	/n-š-ʔ/	vb G	to raise	
+151403	ẓl	ẓl(I)/	ẓl (I)	n. m. sg.	shade	
 151404	kkbkbm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 28						
 151405	xb	?	?	?	?	DULAT: NOT FOUND
@@ -129,23 +131,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151406	km	k(IV)	k (IV)	adv.	thus	
 151406	km	km	km	prep./conj./adv.		
 151406	km	+km, +km=	-km			
-151407	kbkbt	kbkb/t=	kbkb	n. m.	heavenly body	
+151407	kbkbt	kbkb/t=	kbkb	n. m. pl.	heavenly body	
 151408	kṯn	kṯ(I)/+n	kṯ (I)	n. f.	flask	
+151408	kṯn	kṯn(II)/	kṯn (II)	TN	kṯn (II)	
 # KTU 1.92 29						
-151409	btlt	btl(t/t	btlt	n. f.	virgin	
+151409	btlt	btl(t/t	btlt	n. f. sg.	virgin	
 151410	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 151410	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
-151411	yḥmdnh	!y!ḥmd[	/ḥ-m-d/	vb G	to desire	
+151411	yḥmdnh	!y!ḥmd[nh	/ḥ-m-d/	vb G	to desire	
 151412	yrty	!y!(yrd[+y	/y-r-d/	vb	to go down	
 # KTU 1.92 30						
 151413	nˤmh	nˤm(II)/+h	nʕm (II)	n. m.	grace	
-151414	dmrn	dmrn/	dmrn	DN	the Powerful One/Valiant One/title of Baal	
+151414	dmrn	dmrn/	dmrn	DN	the Powerful One/Valiant One/title of Baal	Based on DULAT reconstruction.
+151414	dmrn	dmr+n	dmr	→	?	
 151415	l	l(I)	l (I)	prep.	to	
 151416	pnh	pn(m/+h	pnm	n. m. pl. tant.	in front	
 151417	yrd	!y!(yrd[	/y-r-d/	vb G	to go down	
 # KTU 1.92 31						
 151418	xaliyn	?	?	?	?	DULAT: NOT FOUND
 151419	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+151419	bˤl	bˤl(I)/	bʕl (I)	n. m.	labourer	
 151419	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 151420	šmḫrgbt	?	?	?	?	DULAT: NOT FOUND
 151421	yu	?	?	?	?	DULAT: NOT FOUND
@@ -176,8 +181,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151437	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
 151437	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 # KTU 1.92 35						
-151438	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
-151438	ġr	ġr(III)/	ġr (III)	n. m.	skin	
+151438	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
+151438	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
 151439	xxxxx	?	?	?	?	
 151440	al	al(I)	ảl (I)	neg. functor	no	
 151440	al	al(II)	ảl (II)	pos. functor	surely	
@@ -187,29 +192,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151443	p	p(I)	p (I)	conj. functor	and	
 151443	p	p(III)/	p (III)	n. m.	mouth	
 151443	p	p(II)	p (II)	adv.	here	
-151444	npš	npš(I)/	npš (I)	n. f.	throat	
+151444	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 151445	npšbˤl	?	?	?	?	DULAT: NOT FOUND
-151446	thwyn	!t!hwy[	/h-w-y/	vb G	to want	
+151446	thwyn	!t!hwy[n	/h-w-y/	vb G	to want	
 # KTU 1.92 37						
 151447	hm	hm(II)	hm (II)	conj./interr. functor	if	
-151448	brlt	brl(t/t	brlt	n. f.	hunger	
+151447	hm	hm(I)	hm (I)	pers. pn.	they	
+151448	brlt	brl(t/t	brlt	n. f. sg.	hunger	
 151449	rkb	rkb[	/r-k-b/	vb G	to mount (especially a chariot)	
-151449	rkb	rkb(I)/	rkb (I)	n. m.	Charioteer	
+151449	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
 151449	rkb	rkb(II)/	rkb (II)	n. m.	?	
-151450	ˤrpt	ˤrp(t/t=	ʕrpt	n. f.	cloud(s)	
+151450	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
+151450	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
 # KTU 1.92 38						
 151451	hn	hn	hn	deictic functor/adv.	behold!	
 151452	xxxxyn	?	?	?	?	DULAT: NOT FOUND
 151453	w	w	w	conj.	and	
 151454	mnu	mnu	mnủ	?	?	
-151455	dg	dg(I)/	dg (I)	n. m.	fish	
+151455	dg	dg(I)/	dg (I)	n. m. sg.	fish	
 # KTU 1.92 39						
 151456	xxxxxl	?	?	?	?	DULAT: NOT FOUND
-151457	aliyn	aliyn/	ảlỉyn	adj. m.	The Very / Most Powerful	
+151457	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 151458	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.92 40						
 151459	xxxbˤl	?	?	?	?	DULAT: NOT FOUND
 151460	rkb	rkb[	/r-k-b/	vb G	to mount (especially a chariot)	
-151460	rkb	rkb(I)/	rkb (I)	n. m.	Charioteer	
+151460	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
 151460	rkb	rkb(II)/	rkb (II)	n. m.	?	
-151461	ˤrpt	ˤrp(t/t=	ʕrpt	n. f.	cloud(s)	
+151461	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
+151461	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	

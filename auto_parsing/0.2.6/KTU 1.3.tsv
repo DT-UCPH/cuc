@@ -1,1596 +1,1751 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 I:1						
-9502	al	al(I)	ảl (I)	neg. functor	no	
-9503	tġl	!t!ġl(y[	/ġ-l-y/	vb	to lose the proper aspect, vitality	looks like a verb III-y
-9504	bdxxxxx	bdxxxxx	bd (I)	n. m.	song, dirge	
+136937	al	al(I)	ảl (I)	neg. functor	no	
+136938	tġl	!t!ġl(y[	/ġ-l-y/	vb	to lose the proper aspect	
+136939	bdxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 I:2						
-9505	p	p(I)	p (I)	conj. functor	and	
-9505	p	p(III)/	p (III)	n. m.	mouth	
-9505	p	p(II)	p (II)	adv.	here	
-9506	rdmn	rdmn	rdmn	→	?	
-9506	rdmn	(prdmn/	prdmn	DN	unknown deity	
-9507	ˤbd	ˤbd[	/ʕ-b-d/	vb G	to work (a field), to cultivate	
-9508	aliyn	aliyn/	ảlỉyn	adj. m.	The Very / Most Powerful	
+136940	p	p(I)	p (I)	conj. functor	and	
+136940	p	p(III)/	p (III)	n. m.	mouth	
+136940	p	p(II)	p (II)	adv.	here	
+136941	rdmn	rdmn	rdmn	→	?	
+136941	rdmn	(prdmn/	prdmn	DN	Schar	Based on DULAT reconstruction.
+136942	ˤbd	ˤbd(I)/	ʕbd (I)	n. m.	servant	
+136943	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 # KTU 1.3 I:3						
-9509	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	TCS/UNP: “Mighty Baʿlu” (name usage) before zbl bʕl arṣ
-9510	sid	s(ʔ&id[/	/s-ʔ-d/	vb	to support/comfort	the form is an active participle in nominal use
-9511	zbl	zbl/	zbl (I)	n. m.	prince	
-9512	bˤl	bˤl(II)/	bʕl (II)	n. m.	lord/owner	TCS/UNP title formula zbl bʕl arṣ = “Prince, lord of the earth”
+136944	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+136945	sid	sid/	sỉd	n. m. sg.	chief butler	
+136946	zbl	zbl(I)/	zbl (I)	n. m.	prince	
+136947	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.3 I:4						
-9513	arṣ	arṣ/	ảrṣ	n. f.	earth/ground/underworld	
-9514	qm	qm[/	/q-m/	vb G	to stand up	most probably active participle
-9515	yṯˤr	!y!ṯˤr[	/ṯ-ʕ-r/	vb G	to prepare	
+136948	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+136949	qm	qm[	/q-m/	vb G	to stand up	
+136950	yṯˤr	!y!ṯˤr[	/ṯ-ʕ-r/	vb G	to prepare (the table)	
 # KTU 1.3 I:5						
-9516	w	w	w	conj.	and	
-9517	yšlḥmnh	!y!]š]lḥm[~n+h	/l-ḥ-m/ (I)	vb Š	to eat	
+136951	w	w	w	conj.	and	
+136952	yšlḥmnh	!y!]š]lḥm(I)[nh	/l-ḥ-m/ (I)	vb Š	to eat	
 # KTU 1.3 I:6						
-9518	ybr	!y!br(d[	/b-r-d/	vb	to divide, separate	d on next line should be attached?!
-9518	ybr	!y!br(d[d	/b-r-d/	vb	to divide, separate	d on next line should be attached?!
-9519	d	&d	?	?	?	Merge with previous word.
-9520	ṯd	ṯd/	ṯd	n. m.	breast, bosom, chest, teat, udder	
-9521	l	l(I)	l (I)	prep.	to	
-9522	pnwh	pn&w(m/+h	pnm	n. m. pl. tant.	in front	
+136953	ybr	?	?	?	?	DULAT: NOT FOUND
+136954	d	d	d	det. or rel. functor	the one(s) of	
+136955	ṯd	ṯd/	ṯd	n. m.	breast	
+136956	l	l(I)	l (I)	prep.	to	
+136957	pnwh	pn&w(m/+h	pnm	n. m. pl. tant.	in front	
 # KTU 1.3 I:7						
-9523	b	b	b	prep.	in	
-9524	ḥrb	ḥrb/	ḥrb	n. f.	knife	
-9525	mlḥt	mlḥ(t/t	mlḥt	n. f.	salt	this is passive participle
-9525	mlḥt	mlḥ(t[/t	/m-l-ḥ/	vb	to salt	this is passive participle
+136958	b	b	b	prep.	in	
+136959	ḥrb	ḥrb/	ḥrb	n. f. sg.	knife	
+136960	mlḥt	mlḥ(t/t	mlḥt	n. f. sg.	salt	
 # KTU 1.3 I:8						
-9526	qṣ	qṣ/	qṣ	n. m.	end	
-9527	mri	mr(u(I)/&i	mrủ (I)	adj. m./n. m.	fattened/fatling	likely passive participle
-9527	mri	mr(u(I)[/&i	/m-r-ʔ/	vb.	to fatten	likely passive participle
-9528	ndd	ndd[/	/n-d-d/	vb G	to go, move	active participle
+136961	qṣ	qṣ/	qṣ	n. m. sg.	end	
+136962	mri	mr(u(I)/&i	mrủ (I)	adj. m. or n. m.	fattened	
+136963	ndd	ndd[	/n-d-d/	vb G	to go	
 # KTU 1.3 I:9						
-9529	yˤšr	!y!ˤšr[:d	/ʕ-š-r/	vb D	to invite	likely D-stem
-9530	w	w	w	conj.	and	
-9531	yšqynh	!y!šqy[~n+h	/š-q-y/	vb	to offer	energic particle and pronominal suffix
+136964	yˤšr	!y!ˤšr[:d	/ʕ-š-r/	vb D	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+136965	w	w	w	conj.	and	
+136966	yšqynh	!y!šqy[n+h	/š-q-y/	vb	to offer (something to) drink	
+136966	yšqynh	!y!šqy[+nh	/š-q-y/	vb	to offer (something to) drink, ?	
 # KTU 1.3 I:10						
-9532	ytn	!y!(ytn[	/y-t-n/	vb G	to give, hand over, grant, bestow	probably prefix-conjugation as the forms before
-9533	ks	ks(I)/	ks (I)	n. m.	cup, goblet	
-9534	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
+136967	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+136968	ks	ks(I)/	ks (I)	n. m. sg.	cup	
+136969	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
 # KTU 1.3 I:11						
-9535	krpmnm	krp&mn/~m	krpn	n. m.	cup, goblet	Correct lexeme? krpn with -m encl
-9536	b	b	b	prep.	in	
-9537	klat	kla(t/t	klảt(n)	n. f.	both, both	
-9538	ydh	yd/+h	yd (I)	n. f.	hand	
+136970	krpmnm	?	?	?	?	DULAT: NOT FOUND
+136971	b	b	b	prep.	in	
+136972	klat	kla(t/t	klảt(n)	n. f. sg.	both	
+136973	ydh	yd(I)/+h	yd (I)	n. f.	hand	
 # KTU 1.3 I:12						
-9539	bk	bk/	bk	n. m.	beaker, large cup	
-9540	rb	rb/	rb (I)	adj. m.	great, large	
-9541	ˤẓm	ˤẓm(II)/	ʕẓm (II)	adj. m.	imposing, powerful	
-9542	ridn	ridn(I)/	rỉdn (I)	n. m.	a rython	
+136974	bk	bk/	bk	n. m. sg.	beaker	
+136975	rb	rb(I)/	rb (I)	adj. m. sg.	great	
+136976	ˤẓm	ˤẓm(II)/	ʕẓm (II)	adj. m. sg.	imposing	
+136977	ridn	ridn(I)/	rỉdn (I)	n. m. sg.	a rython	
 # KTU 1.3 I:13						
-9543	mt	mt(III)/	mt (III)	n. m.	man	
-9544	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-9545	ks	ks(I)/	ks (I)	n. m.	cup, goblet	
-9546	qdš	qdš(I)/	qdš (I)	adj. m.	holy	
+136978	mt	mt(III)/	mt (III)	n. m.	man	
+136979	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+136980	ks	ks(I)/	ks (I)	n. m. sg.	cup	
+136981	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 # KTU 1.3 I:14						
-9547	l	l(II)	l (II)	adv.	no	l (III) for precative
-9547	l	l(III)	l (III)	functor	certainly	l (III) for precative
-9548	tpphnh	!t!p&ph(y[n+h	/p-h-y/	vb	to see, espy	are there 2 p's? probably 3fem plur
-9549	aṯt	aṯ(t/t=	ảṯt	n. f.	woman	looks like plur
-9550	krpn	krpn/	krpn	n. m.	cup, goblet	
+136982	l	l(II)	l (II)	adv.	no	
+136983	tpphnh	?	?	?	?	DULAT: NOT FOUND
+136984	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
+136984	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
+136985	krpn	krpn/	krpn	n. m. sg.	cup	
 # KTU 1.3 I:15						
-9551	l	l(I)	l (I)	prep.	to	or (III) for precative
-9551	l	l(II)	l (II)	adv.	no	or (III) for precative
-9551	l	l(III)	l (III)	functor	certainly	or (III) for precative
-9552	tˤn	!t!ˤn[	/ʕ-n/	vb G/D	to see, look	
-9553	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	
-9554	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+136986	l	l(I)	l (I)	prep.	to	
+136986	l	l(II)	l (II)	adv.	no	
+136986	l	l(III)	l (III)	functor	certainly	
+136987	tˤn	!t!ˤn[:d	/ʕ-n/	vb G/D	to see	
+136988	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
+136989	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.3 I:16						
-9555	kd	kd(I)/	kd (I)	n. f.	jar	
-9556	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G/Gpass	to get hold of, take, grasp	
-9557	b	b	b	prep.	in	
-9558	ḫmr	ḫmr/	ḫmr	n. m.	(sparkling(?)) wine	
-9559	rbt	rb(t/t	rb(b)t	num.	ten thousand	this is a noun 'ten thousand'
+136990	kd	kd(I)/	kd (I)	n. f. sg.	jar	
+136991	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G/Gpass	to get hold of	
+136992	b	b	b	prep.	in	
+136993	ḫmr	ḫmr/	ḫmr	n. m. sg.	(sparkling(?)) wine	
 # KTU 1.3 I:17						
-9560	ymsk	!y!msk[	/m-s-k/	vb G	to mix, combine	
-9561	b	b	b	prep.	in	
-9562	mskh	msk/+h	msk	n. m.	mixture, mixed wine, mixed drink	
-9563	qm	qm[/	/q-m/	vb G	to stand up	participle
+136994	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
+136995	ymsk	!y!msk[	/m-s-k/	vb G	to mix	
+136996	b	b	b	prep.	in	
+136997	mskh	msk/+h	msk	n. m.	mixture	
 # KTU 1.3 I:18						
-9564	ybd	!y!bd[	/b-d/	vb G	to intone a song	
-9565	w	w	w	conj.	and	
-9566	yšr	!y!šr(I)[	/š-r/ (I)	vb G	to sing	
-9567	mṣltm	mṣl(t/tm	mṣlt (I)	n. f.	cymbal, cymbals	this is feminine dual form
+136998	qm	qm[	/q-m/	vb G	to stand up	
+136999	ybd	!y!bd[	/b-d/	vb G	to intone a song	
+137000	w	w	w	conj.	and	
+137001	yšr	!y!šr(I)[	/š-r/ (I)	vb G	to sing	
 # KTU 1.3 I:19						
-9568	bd	bd(IV)	bd (IV)	prep.	into the hands of	
-9569	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome/pleasant	
-9570	yšr	!y!šr(I)[	/š-r/ (I)	vb G	to sing	
+137002	mṣltm	mṣlt(I)/m	mṣlt (I)	n. f. du.	cymbal	
+137003	bd	b	b	prep.	in	
+137004	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
 # KTU 1.3 I:20						
-9571	ġzr	ġzr/	ġzr	n. m.	lad, youth	
-9572	ṭb	ṭb/	ṭb	adj. m.	good, pure, sterling	
-9573	ql	ql(I)/	ql (I)	n. m.	voice, shout, cry	
-9574	ˤl	ˤl	ʕl (I) 1d	prep.	next to/before/in front of/in the presence of	
+137005	yšr	!y!šr(I)[	/š-r/ (I)	vb G	to sing	
+137006	ġzr	ġzr/	ġzr	n. m. sg.	lad	
+137007	ṭb	ṭb/	ṭb	adj. m. sg.	good	
+137008	ql	ql(I)/	ql (I)	n. m. sg.	voice	
 # KTU 1.3 I:21						
-9575	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-9576	b	b	b	prep.	in	
-9577	ṣrrt	ṣrr(t/t=	ṣrrt	n. f.	height(s)	the dictionary says it is plural
-9578	ṣpn	ṣpn/	ṣpn	TN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+137009	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+137010	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137010	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+137011	b	b	b	prep.	in	
+137012	ṣrrt	ṣrr(t/t	ṣrrt	n. f. sg.	height(s)	
+137012	ṣrrt	ṣrr(t/t=	ṣrrt	n. f. pl.	height(s)	
 # KTU 1.3 I:22						
-9579	ymtmr	!y!&m]t](ʔmr[	/ʔ-m-r/	vb	to be seen, appear	Gt stem, is first m really there?
-9580	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-9581	bnth	b&n(t/t=+h	bt (I)	n. f.	daughter	this is plural form, n is part of the root actually, is & necessary?
+137013	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+137014	ymtmr	?	?	?	?	DULAT: NOT FOUND
+137015	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137015	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.3 I:23						
-9582	yˤn	!y!ˤn[	/ʕ-n/	vb G/D	to see, look	
-9583	pdry	pdry/	pdry	DN	Pidray	
-9584	bt	b(t(I)/t	bt (I)	n. f.	daughter	no reference to n assimilated to t?
+137016	bnth	bt(I)/	bt (I)	n. f. pl.	daughter	
+137017	yˤn	!y!ˤn[:d	/ʕ-n/	vb G/D	to see	
+137018	pdry	pdry/	pdry	DN	Pidray	
 # KTU 1.3 I:24						
-9585	ar	ar/	ả/ỉr	n. m.	light	UNP: 'Daughter of Light'; TCS: 'Daughter of ʾAru' (name-like reading)
-9586	apn	apn(II)	ảpn (II)	adv. functor	and in addition, and also	
-9587	ṭly	ṭly/	ṭly	DN	Tallay	
-9588	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+137019	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137019	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137020	ar	a/	ả/ỉr	n. m. sg.	light	
+137021	apn	apn(II)	ảpn (II)	adv. functor	and in addition	
+137022	ṭly	ṭly/	ṭly	DN	Tallay	
 # KTU 1.3 I:25						
-9589	rb	rb(I)/	rb (I)	adj. m.	great/alrge	TCS: 'Rabbu' as a DN, UNP: 'Daughter of Showers'
-9589	rb	rb(II)/	rb (II)	n. m.	chief	TCS: 'Rabbu' as a DN, UNP: 'Daughter of Showers'
-9589	rb	rb/	rb(b)	n. m.	drizzle	TCS: 'Rabbu' as a DN, UNP: 'Daughter of Showers'
-9590	pdr<y>	pdry/	pdry	DN	Pidray	
-9591	idˤ	(y&idˤ[	/y-d-ʕ/ (I)	vb G	to know, to recognise, distinguish, consider	adding y doesn't solve the problem
-9592	x	?	?	?	?	
+137023	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137023	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137024	rb	rb(II)/	rb (II)	n. m. sg.	chief	
+137024	rb	rb(I)/	rb (I)	adj. m. sg.	great	
+137024	rb	rb/	rb(b)	n. m. sg.	drizzle	
+137025	pdry	pdry/	pdry	DN	Pidray	
+137026	idˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
 # KTU 1.3 I:26						
-9593	x	?	?	?	?	
-9594	xht	xht	?	?	?	
-9595	im	im	ỉm	conj.	if	UNP has hm
-9596	klt	kl(t(I)/t=	klt (I)	n. f.	bride	
+137027	x	?	?	?	?	
+137028	xxht	?	?	?	?	DULAT: NOT FOUND
+137029	im	im	ỉm	conj.	if	
+137030	klt	kly[t:d	/k-l-y/	vb G/D	to finish	
+137030	klt	kl(t(I)/t	klt (I)	n. f. sg.	bride	
+137030	klt	kl(t(I)/t=	klt (I)	n. f. pl.	bride	
+137030	klt	kl(t(II)/t	klt (II)	n. f. sg.	measure	
 # KTU 1.3 I:27						
-9597	knyt	kny(t/t=	knyt	adj. f.	glorious, of noble ancestry	
-9598	w	w	w	conj.	and	
-9599	xxxxxx	?	?	?	?	
+137031	knyt	knyt/	knyt	adj. f. pl.	glorious	
+137032	w	w	w	conj.	and	
+137033	xxxxxx	?	?	?	?	
 # KTU 1.3 I:28						
-9600	xxxxxxxxxmkt	mkt/	mkt	n. m.	immolation, offering	UDB concordance pattern —mkt -> mkt, smkt, ymkt; ymkt has no exact DULAT form hit.
-9600	xxxxxxxxxmkt	smk(t/t	smkt	n. f.	height	UDB concordance pattern —mkt -> mkt, smkt, ymkt; ymkt has no exact DULAT form hit.
+137034	xxxxxxxxxmkt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 II:1						
-9601	nxxxxxxxxxšxxx	nxxxxxxxxxšxxx	nš	?		
+137035	nxxxxxxxxxšxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 II:2						
-9602	kpr	kpr(II)/	kpr (II)	n. m.	henna	
-9603	šbˤ	šbˤ(I)/	šbʕ (I)	n. num.	seven	
-9604	bnt	bn(t(I)/t=	bnt (I)	n. f.	masonry, building, construction, creation	
-9605	rḥ	rḥ(II)/	rḥ (II)	n. m.	aroma, perfume	
-9606	gdm	gd(I)/m	gd (I)	n. m.	coriander	coriander in plural ?
+137036	kpr	kpr(II)/	kpr (II)	n. m. sg.	henna (powder or dye)	
+137037	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+137038	bnt	bn(t(III)/t	bnt (III)	n. m. sg.	tamarisk	
+137039	rḥ	rḥ(II)/	rḥ (II)	n. m. sg.	aroma	
+137040	gdm	gd(I)/m	gd (I)	n. m. pl.	coriander	
 # KTU 1.3 II:3						
-9607	w	w	w	conj.	and	
-9608	anhbm	anhb/m	ảnhb	n. m.	ein Stein	
-9609	klat	kl(ʔ&a[t=	/k-l-ʔ/	vb G	to close	:pass if doors are subject
-9609	klat	kl(ʔ&a[:passt=	/k-l-ʔ/	vb G	to close	:pass if doors are subject
-9610	ṯġrt	ṯġr(I)/t=	ṯġr (I)	n. m.	gate, door	plural
+137041	w	w	w	conj.	and	
+137042	anhbm	anhb/m	ảnhb	n. m. pl.	ein Stein	
+137043	klat	kla(t/t	klảt(n)	n. f. sg.	both	
+137044	ṯġrt	ṯġr(I)/t=	ṯġr (I)	n. m. pl.	gate	
 # KTU 1.3 II:4						
-9611	bht	b&ht(II)/	bt (II)	n. m.	house, building	
-9612	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
-9613	w	w	w	conj.	and	
-9614	tqry	!t!qry[	/q-r-y/	vb G	to meet, encounter, go to meet	
-9615	ġlmm	ġlm/m	ġlm	n. m.	boy, youth	
+137045	bht	bt(II)/	bt (II)	n. m. pl.	house	
+137046	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137046	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137046	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+137047	w	w	w	conj.	and	
+137048	tqry	!t!qry[	/q-r-y/	vb G	to meet	
+137049	ġlmm	ġlm/+m(I)	ġlm	n. m.	boy	
 # KTU 1.3 II:5						
-9616	b	b	b	prep.	in	
-9617	št	št(I)/	št (I)	n. m.	base, foot	
-9618	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
-9619	w	w	w	conj.	and	
-9620	hln	hl~n	hln	deictic adv. functor	look!	
-9621	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
-9622	tm	!t!m	m(h)	pers. pn.	what?	
+137050	b	b	b	prep.	in	
+137051	št	š(t(I)/t	št (I)	n. m. sg.	base	
+137052	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
+137053	w	w	w	conj.	and	
+137054	hln	hln	hln	deictic adv. functor	look!	
+137055	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137055	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137055	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+137056	tm	mtnt/	mtnt	n. f. du.	loin	
+137056	tm	tm/	tm	adj. m. sg.	complete	
 # KTU 1.3 II:6						
-9623	tḫṣ	]t]ḫṣ[				is one word with previous: tmtḫṣ Verb Gt 3fs. Repair!; DULAT: NOT FOUND
-9624	b	b	b	prep.	in	
-9625	ˤmq	ˤmq(I)/	ʕmq (I)	n. m.	valley	
-9626	tḫtṣb	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb Gt	to fight	
-9627	bn	bn/	bn (I)	n. m.	son	
+137057	tḫṣ	?	?	?	?	DULAT: NOT FOUND
+137058	b	b	b	prep.	in	
+137059	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg.	valley	
+137060	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg.	battle	
+137061	bnx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 II:7						
-9628	x	?	?	?	?	
-9629	qrytm	qry(t/tm	qryt	n. f.	city	dual of qryt
-9630	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G	to wound, beat, crush, kill	
-9631	lim	lim(I)/	lỉm (I)	n. m.	people, clan	
-9632	ḫp	ḫp(I)/	ḫp (I)	n. m.	shore	
+137062	qrytm	qryt/m	qryt	n. f. du.	city	
+137063	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G	to wound	
+137064	lim	lim(I)/	lỉm (I)	n. m. sg.	people	
+137065	ḫp	ḫp(I)/	ḫp (I)	n. m. sg.	shore	
+137066	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 # KTU 1.3 II:8						
-9633	ym	ym(II)/	ym (II)	n. m.	sea	
-9634	tṣmt	!t!ṣmt[:d	/ṣ-m-t/	vb D	to destroy, wipe out, defeat	
-9635	adm	adm(I)/	ảdm (I)	n. m.	man	people parallel to lim
-9636	ṣat	!!(yṣ(ʔ&a[(t/t	/y-ṣ-ʔ/	vb G	to go out, appear	infinitive with a feminine ending
+137067	tṣmt	!t!ṣmt[:d	/ṣ-m-t/	vb D	to destroy	
+137068	adm	adm(I)/	ảdm (I)	n. m. sg.	man	
+137069	ṣat	yṣʔ[	/y-ṣ-ʔ/	vb G	to go out	
+137070	špš	špš/	špš	n. sg.	sun	
 # KTU 1.3 II:9						
-9637	špš	špš/	špš	n.	sun	
-9638	tḥth	tḥt(I)/+h=	tḥt (I)	prep.	under, beneath	is = here the sign of
-9639	k	+k	-k (I)			
-9639	k	~k	-k (II)			
-9639	k	k(III)	k (III)	Subordinating or completive functor	when	
-9639	k	k(I)	k (I)	prep.	like	
-9639	k	k(II)	k (II)	emph. functor	yes	
-9640	kdrt	kdr(t/t	kdrt	n. f.	ball	
+137071	tḥth	tḥt(I)	tḥt (I)	prep.	under	
+137072	k	+k	-k (I)			
+137072	k	~k	-k (II)			
+137072	k	k(III)	k (III)	Subordinating or completive functor	when	
+137072	k	k(I)	k (I)	prep.	like	
+137072	k	k(II)	k (II)	emph. functor	yes	
+137073	kdrt	kdrt/	kdrt	n. f. pl.	ball	
+137074	riš	riš(I)/	rỉš (I)	n. m. sg.	head	
 # KTU 1.3 II:10						
-9641	riš	riš/	rỉš (I)	n. m.	head	
-9642	ˤlh	ˤl(I)/+h=	ʕl (I)	prep.	upon, on top of	
-9643	k	+k	-k (I)			
-9643	k	~k	-k (II)			
-9643	k	k(III)	k (III)	Subordinating or completive functor	when	
-9643	k	k(I)	k (I)	prep.	like	
-9643	k	k(II)	k (II)	emph. functor	yes	
-9644	irbym	irby/m	ỉrby	n. m.	locust	
-9645	kp	kp/	kp	n. f.	palm	
-9646	k	+k	-k (I)			
-9646	k	~k	-k (II)			
-9646	k	k(III)	k (III)	Subordinating or completive functor	when	
-9646	k	k(I)	k (I)	prep.	like	
-9646	k	k(II)	k (II)	emph. functor	yes	
+137075	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
+137076	k	k(I)	k (I)	prep.	like	
+137077	irbym	irby/m	ỉrby	n. m. pl.	locust	
+137078	kp	kp/	kp	n. f. sg.	palm (of the hand)	
+137079	k	k(I)	k (I)	prep.	like	
+137080	qṣm	qṣm/	qṣm	n. m. sg.	grasshopper(s)	
 # KTU 1.3 II:11						
-9647	qṣm	qṣm/	qṣm	n. m.	grasshopper(s)	
-9648	ġrmn	ġrm/~n	ġrm	n. m.	heap	
-9649	kp	kp/	kp	n. f.	palm	
-9650	mhr	mhr(I)/	mhr (I)	n. m.	warrior	
+137081	ġrmn	ġrm/	ġrm	n. m. sg.	heap	
+137082	kp	kp/	kp	n. f. sg.	palm (of the hand)	
+137083	mhr	mhr(I)/	mhr (I)	n. m. sg.	warrior (trained, expert)	
+137084	ˤtkt	ˤtk[t:d	/ʕ-t-k/	vb D	to tie	
 # KTU 1.3 II:12						
-9651	ˤtkt	ˤtk[t	/ʕ-t-k/	vb D	to tie, fasten, bind	
-9652	rišt	riš/t=	rỉš (I)	n. m.	head	
-9653	l	l(I)	l (I)	prep.	to	
-9653	l	l(III)	l (III)	functor	certainly	
-9654	bmth	bmt/+h=	bmt	n. f.	back, rump, loin	
-9655	šnst	šns[t:d	/š-n-s/	vb G	to gird	
+137085	rišt	riš(I)/t=	rỉš (I)	n. m. pl.	head	
+137086	l	l(I)	l (I)	prep.	to	
+137087	bmth	bmt/+h	bmt	n. f.	back	
+137088	šnst	šns[t	/š-n-s/	vb G	to gird (oneself)	
+137089	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 II:13						
-9656	kx	?	?	?	?	DULAT: NOT FOUND
-9657	kpt	kp/t	kp	n. f.	palm	
-9658	b	b	b	prep.	in	
-9659	ḥbšh	ḥbš/+h=	ḥbš (I)	n. m.	cinch, belt	
-9660	brkm	brk/m	brk	n. f.	knee	noun in dual
+137090	kpt	kp/t=	kp	n. f. pl.	palm (of the hand)	
+137091	b	b	b	prep.	in	
+137092	ḥbšh	ḥbš(I)/h	ḥbš (I)	n. m. sg.	cinch	
+137093	brkm	brk/m	brk	n. f. du.	knee	
+137094	tġll	!t!ġll[:d	/ġ-l-l/	vb D	to insert	
 # KTU 1.3 II:14						
-9661	tġll	!t!ġll[:d	/ġ-l-l/	vb D	to insert, plunge	probably L
-9662	b	b	b	prep.	in	
-9663	dm	dm(II)/	dm (II)	n. m.	blood	
-9663	dm	dm(I)	dm (I)	functor	since	
-9664	ḏmr	ḏmr/	ḏmr (I)	n. m.	guardian, warrior	
-9665	ḥlqm	ḥlq/m	ḥlq	n. m.	part, limb	plural or dual
-9666	b	b	b	prep.	in	
-9667	mmˤ	mmˤ/	mmʕ	n. m.	gore	
+137095	b	b	b	prep.	in	
+137096	dm	dm(II)/	dm (II)	n. m.	blood	
+137096	dm	dm(I)	dm (I)	functor	since	
+137097	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg.	guardian	
+137098	ḥlqm	ḥlq/m	ḥlq	n. m.	part	
+137099	b	b	b	prep.	in	
+137100	mmˤ	mmˤ/	mmʕ	n. m. pl.	gore	
 # KTU 1.3 II:15						
-9668	mhrm	mhr(I)/m	mhr (I)	n. m.	warrior	
-9669	mṭm	mṭ/~m(I)	mṭ	n. m.	rod, staff, riding crop	line 15
-9670	tgrš	!t!grš[:d	/g-r-š/	vb G	to eject, drive out, evict, cast out	
+137101	mhrm	mhr(I)/m	mhr (I)	n. m. pl.	warrior (trained, expert)	
+137102	mṭm	mṭ/	mṭ	n. m. sg.	rod	
+137103	tgrš	!t!grš[	/g-r-š/	vb G	to eject	
 # KTU 1.3 II:16						
-9671	šbm	šb/m	šb	n. m.	old man, elderly man	
-9672	b	b	b	prep.	in	
-9673	ksl	ksl/	ksl	n. f.	back, shoulder	
-9674	qšth	qš(t/t+h	qšt	n. m.	bow	technically t is a feminine noun
-9675	mdnt	mdn(t/t=	mdnt	n. f.	city, town, townsfolk	cities
+137104	šbm	šb/m	šb	n. m. pl.	old man	
+137105	b	b	b	prep.	in	
+137106	ksl	ksl/	ksl	n. f. sg.	back	
+137107	qšth	qšt/h	qšt	n. m. sg.	bow	
+137108	mdnt	mdn(t/t	mdnt	n. f. sg.	city	
 # KTU 1.3 II:17						
-9676	w	w	w	conj.	and	
-9677	hln	hl~n	hln	deictic adv. functor	look!	
-9678	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
-9679	l	l(I)	l (I)	prep.	to	
-9679	l	l(III)	l (III)	functor	certainly	
-9680	bth	bt(II)/+h=	bt (II)	n. m.	house, building	
-9681	tmġyn	!t!mġy[~n	/m-ġ-y/	vb G	to come, arrive	can only be energic
+137109	w	w	w	conj.	and	
+137110	hln	hln	hln	deictic adv. functor	look!	
+137111	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137111	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137111	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+137112	l	l(I)	l (I)	prep.	to	
+137113	bth	bt(II)/+h	bt (II)	n. m.	house	
+137114	tmġyn	!t!mġy[n	/m-ġ-y/	vb G	to come	
 # KTU 1.3 II:18						
-9682	tštql	!t!]š]]t]ql[	/q-l/	vb	to fall	
-9683	ilt	il(t(I)/t	ỉlt (I)	n. f.	goddess	
-9684	l	l(I)	l (I)	prep.	to	
-9684	l	l(III)	l (III)	functor	certainly	
-9685	hklh	hkl/+h=	hkl	n. m.	palace	
+137115	tštql	?	?	?	?	DULAT: NOT FOUND
+137116	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
+137117	l	l(I)	l (I)	prep.	to	
+137117	l	l(III)	l (III)	functor	certainly	
+137118	hklh	hkl/h	hkl	n. m. sg.	palace	
 # KTU 1.3 II:19						
-9686	w	w	w	conj.	and	
-9687	l	l(I)	l (I)	prep.	to	
-9687	l	l(II)	l (II)	adv.	no	
-9687	l	l(III)	l (III)	functor	certainly	
-9688	šbˤt	šbˤ(II)[t	/š-b-ʕ/ (II)	vb G	to be sated, glutted	line 19
-9689	tmtḫṣh	!!tm]t]ḫṣ[/+h=	tmtḫṣ	n. m.	fight	this is infinite Gt or verbal noun, the first t is a nominal prefix
-9690	b	b	b	prep.	in	
-9691	ˤmq	ˤmq(I)/	ʕmq (I)	n. m.	valley	
+137119	w	w	w	conj.	and	
+137120	l	l(II)	l (II)	adv.	no	
+137121	šbˤt	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+137122	tmtḫṣh	tmtḫṣ/+h	tmtḫṣ	n. m. sg.	fight	
+137123	b	b	b	prep.	in	
+137124	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg.	valley	
+137124	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m. sg.	tough	
 # KTU 1.3 II:20						
-9692	tḫtṣb	!!tḫ]t]ṣb[/	/ḫ-ṣ-b/	vb Gt	to fight	infinite Gt or verbal noun, the first t is a nominal prefix
-9693	bn	bn(II)	bn (II)	prep.	between, among	
-9694	qrtm	qrt(I)/m	qrt (I)	n. f.	city	dual
-9695	tṯˤr	!t!ṯˤr[	/ṯ-ʕ-r/	vb G	to prepare	
+137125	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg.	battle	
+137126	bn	bn(I)/	bn (I)	n. m.	son	
+137126	bn	bn(II)	bn (II)	prep.	between	
+137126	bn	bn[	/b-n/	vb G	to understand	
+137127	qrtm	qrt(I)/m	qrt (I)	n. f. du.	city	
+137128	tṯˤr	!t!ṯˤr[	/ṯ-ʕ-r/	vb G	to prepare (the table)	
 # KTU 1.3 II:21						
-9696	ksat	ks(u&a/t=	ks/śủ	n. f.	seat, throne, chair	
-9697	l	l(I)	l (I)	prep.	to	
-9697	l	l(III)	l (III)	functor	certainly	
-9698	mhr	mhr(I)/	mhr (I)	n. m.	warrior	
-9699	ṯˤr	!!ṯˤr[/	/ṯ-ʕ-r/	vb G	to prepare	or infinitive or a mistake for !t!ṯˤr[
-9700	ṯlḥnt	ṯlḥn/t	ṯlḥn	n. m.	table	plural
+137129	ksat	ksa/t=	ks/śủ	n. f. pl.	seat	
+137130	l	l(I)	l (I)	prep.	to	
+137131	mhr	mhr(I)/	mhr (I)	n. m. sg.	warrior (trained, expert)	
+137132	ṯˤr	ṯˤr[	/ṯ-ʕ-r/	vb G	to prepare (the table)	
+137133	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. m. pl.	table	
 # KTU 1.3 II:22						
-9701	l	l(I)	l (I)	prep.	to	
-9701	l	l(III)	l (III)	functor	certainly	
-9702	ṣbim	ṣb(u&i/m	ṣbủ (I)	n. m.	army, militia, troops, soldiers	
-9703	hdmm	hdm/m	hdm	n. m.	footstool	plural
-9704	l	l(I)	l (I)	prep.	to	
-9704	l	l(III)	l (III)	functor	certainly	
-9705	ġzrm	ġzr/m	ġzr	n. m.	lad, youth	
+137134	l	l(I)	l (I)	prep.	to	
+137134	l	l(III)	l (III)	functor	certainly	
+137135	ṣbim	ṣb(u(I)&i/m	ṣbủ (I)	n. m. pl.	army	
+137136	hdmm	hdm/	hdm	n. m. pl.	footstool	
+137137	l	l(I)	l (I)	prep.	to	
+137137	l	l(III)	l (III)	functor	certainly	
+137138	ġzrm	ġzr/m	ġzr	n. m.	lad	
 # KTU 1.3 II:23						
-9706	mid	mid/	mỉ/ủd	n. m.	abundance	
-9707	tmtḫṣn	!t!m]t]ḫṣ[~n	/m-ḫ-ṣ/	vb G	to wound, beat, crush, kill	suffix n energic
-9708	w	w	w	conj.	and	
-9709	tˤn	!t!ˤn[	/ʕ-n/	vb G/D	to see, look	
+137139	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
+137140	tmtḫṣn	mḫṣ[ḫṣn	/m-ḫ-ṣ/	vb G	to wound	
+137141	w	w	w	conj.	and	
+137142	tˤn	!t!ˤn[:d	/ʕ-n/	vb G/D	to see	
 # KTU 1.3 II:24						
-9710	tḫtṣb	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb Gt	to fight	
-9711	w	w	w	conj.	and	
-9712	tḥdy	!t!ḥdy[	/ḥ-d-y/	vb G	to see, look, observe	
-9713	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137143	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg.	battle	
+137144	w	w	w	conj.	and	
+137145	tḥdy	!t!ḥdy[	/ḥ-d-y/	vb G	to see	
+137146	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137146	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137146	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.3 II:25						
-9714	tdġdd	!t!&dġdd[:d	/ġ-d-d/	vb	to swell	typo remove first d
-9715	kbdh	kbd(I)/+h=	kbd (I)	n.	liver	
-9716	b	b	b	prep.	in	
-9717	ṣḥq	ṣḥq/	ṣḥq	n. m.	laughter	
-9718	ymlu	!y!ml(ʔ[&u	/m-l-ʔ/	vb G/D	to be full	the final vowel is a tense ending
+137147	tdġdd	?	?	?	?	DULAT: NOT FOUND
+137148	kbdh	kbd(I)/+h	kbd (I)	n.	liver	
+137149	b	b	b	prep.	in	
+137150	ṣḥq	ṣḥq/	ṣḥq	n. m. sg.	laughter	
+137151	ymlu	!y!ml(ʔ[&u:d	/m-l-ʔ/	vb G/D	to be full	
 # KTU 1.3 II:26						
-9719	lbh	lb/+h=	lb	n. m.	heart	
-9720	b	b	b	prep.	in	
-9721	šmḫt	šmḫ(t/t	šmḫt	n. f.	joy	
-9722	kbd	kbd(I)/	kbd (I)	n.	liver	
-9723	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137152	lbh	lb/+h	lb	n. m.	heart	
+137153	b	b	b	prep.	in	
+137154	šmḫt	šmḫ(t/t	šmḫt	n. f. sg.	joy	
+137155	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
+137155	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
+137155	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+137156	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137156	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137156	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.3 II:27						
-9724	tšyt	tšy(t/t	tšyt	n. f.	triumph, success	
-9725	k	+k	-k (I)			
-9725	k	~k	-k (II)			
-9725	k	k(III)	k (III)	Subordinating or completive functor	when	
-9725	k	k(I)	k (I)	prep.	like	
-9725	k	k(II)	k (II)	emph. functor	yes	
-9726	brkm	brk/m	brk	n. f.	knee	
-9727	tġll	!t!ġll[:d	/ġ-l-l/	vb D	to insert, plunge	
-9728	b	b	b	prep.	in	
-9729	dm	dm(II)/	dm (II)	n. m.	blood	
+137157	tšyt	tšy(t/t	tšyt	n. f. sg.	triumph	
+137158	k	k(III)	k (III)	Subordinating or completive functor	when	
+137159	brkm	brk(II)[m:d	/b-r-k/ (II)	vb D	to be blessed	
+137159	brkm	brk/m	brk	n. f. du.	knee	
+137160	tġll	!t!ġll[:d	/ġ-l-l/	vb D	to insert	
+137161	b	b	b	prep.	in	
+137162	dm	dm(II)/	dm (II)	n. m.	blood	
+137162	dm	dm(I)	dm (I)	functor	since	
 # KTU 1.3 II:28						
-9730	ḏxxmr	ḏ&x&xmr(I)/	ḏmr (I)	n. m.	guardian, warrior	
-9731	ḥlqm	ḥlq/m	ḥlq	n. m.	part, limb	
-9732	b	b	b	prep.	in	
-9733	mmˤ	mmˤ/	mmʕ	n. m.	gore	
-9734	mhrm	mhr/m	mhr (I)	n. m.	warrior	
+137163	ḏxxmr	?	?	?	?	DULAT: NOT FOUND
+137164	ḥlqm	ḥlq/m	ḥlq	n. m.	part	
+137165	b	b	b	prep.	in	
+137166	mmˤ	mmˤ/	mmʕ	n. m. pl.	gore	
+137167	mhrm	mhr(I)/m	mhr (I)	n. m. pl.	warrior (trained, expert)	
 # KTU 1.3 II:29						
-9735	ˤd	ˤd(I)	ʕd (I)	prep./conj.	up to/until	
-9736	tšbˤ	!t!šbˤ(II)[	/š-b-ʕ/ (II)	vb G	to be sated, glutted	
-9737	tmtḫṣ	!t!m]t]ḫṣ[	/m-ḫ-ṣ/	vb G	to wound, beat, crush, kill	
-9738	b	b	b	prep.	in	
-9739	bt	bt(II)/	bt (II)	n. m.	house, building	
+137168	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
+137168	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
+137169	tšbˤ	!t!šbˤ(II)[	/š-b-ʕ/ (II)	vb G	to be sated	
+137170	tmtḫṣ	mḫṣ[ḫṣ	/m-ḫ-ṣ/	vb G	to wound	
+137171	b	b	b	prep.	in	
+137172	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
 # KTU 1.3 II:30						
-9740	tḫtṣb	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb Gt	to fight	
-9741	bn	bn(II)	bn (II)	prep.	between, among	
-9742	ṯlḥnm	ṯlḥn/m	ṯlḥn	n. m.	table	
-9743	ymḥ	!y!mḥ(y[:pass	/m-ḥ(-w:y)/	vb N/Gpass	to clean, wipe, erase	
+137173	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg.	battle	
+137174	bn	bn(II)	bn (II)	prep.	between	
+137175	ṯlḥnm	ṯlḥn/m	ṯlḥn	n. m. pl.	table	
+137176	ymḥ	!y!](n]mḥ[:pass	/m-ḥ(-w:y)/	vb N/Gpass	to clean	
 # KTU 1.3 II:31						
-9744	b	b	b	prep.	in	
-9745	bt	bt(II)/	bt (II)	n. m.	house, building	
-9746	dm	dm(II)/	dm (II)	n. m.	blood	
-9747	ḏmr	ḏmr(I)/	ḏmr (I)	n. m.	guardian, warrior	
-9748	yṣq	!y!(yṣq[:pass	/y-ṣ-q/	vb G	to pour	
-9749	šmn	šmn(I)/	šmn (I)	n. m.	oil	
+137177	b	b	b	prep.	in	
+137178	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137179	dm	dm(II)/	dm (II)	n. m.	blood	
+137180	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg.	guardian	
+137181	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
+137182	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 # KTU 1.3 II:32						
-9750	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-9751	b	b	b	prep.	in	
-9752	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m.	plate / wide bowl / platter	1.3 II 32
-9753	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	G
-9754	ydh	yd(I)/+h=	yd (I)	n. f.	hand	
-9755	bt	b(t(I)/t	bt (I)	n. f.	daughter	MERGE WITh NEXT WORD? btlt
-9755	bt	bt(l(t/t	btlt	n. f.	virgin	MERGE WITh NEXT WORD? btlt
+137183	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+137184	b	b	b	prep.	in	
+137185	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg.	plate / wide bowl / platter	
+137186	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	
+137187	ydh	yd(I)/+h	yd (I)	n. f.	hand	
+137188	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137188	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 # KTU 1.3 II:33						
-9756	lt	&l&t	?	?	?	MERGE WITH PREVIOUS WORD
-9757	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
-9758	uṣbˤth	uṣbˤ(t/t=+h=	ủṣbʕ	n. f.	finger	
-9759	ybmt	ybm(t/t	ybmt	n. f.	widow sister-in-law, nubile widow	
-9760	limm	lim(I)/m	lỉm (I)	n. m.	people, clan	
+137189	lt	lt	lt	?	?	
+137190	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137190	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137190	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+137191	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl.	finger	
+137192	ybmt	ybm(t/t	ybmt	n. f. sg.	widow sister-in-law	
+137193	limm	lim(I)/	lỉm (I)	n. m. pl.	people	
 # KTU 1.3 II:34						
-9761	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	
-9762	ydh	yd(I)/+h=	yd (I)	n. f.	hand	
-9763	b	b	b	prep.	in	
-9764	dm	dm(II)/	dm (II)	n. m.	blood	
-9765	ḏmr	ḏmr(I)/	ḏmr (I)	n. m.	guardian, warrior	
+137194	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	
+137195	ydh	yd(I)/+h	yd (I)	n. f.	hand	
+137196	b	b	b	prep.	in	
+137197	dm	dm(II)/	dm (II)	n. m.	blood	
+137197	dm	dm(I)	dm (I)	functor	since	
+137198	ḏmr	ḏmr(I)[	/ḏ-m-r/ (I)	vb G	to protect	
+137198	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg.	guardian	
 # KTU 1.3 II:35						
-9766	uṣbˤth	uṣbˤ(t/t=+h=	ủṣbʕ	n. f.	finger	
-9767	b	b	b	prep.	in	
-9768	mmˤ	mmˤ/	mmʕ	n. m.	gore	
-9769	mhrm	mhr(I)/m	mhr (I)	n. m.	warrior	
+137199	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl.	finger	
+137200	b	b	b	prep.	in	
+137201	mmˤ	mmˤ/	mmʕ	n. m. pl.	gore	
+137202	mhrm	mhr(I)/m	mhr (I)	n. m. pl.	warrior (trained, expert)	
 # KTU 1.3 II:36						
-9770	ṯˤr	!!ṯˤr[/	/ṯ-ʕ-r/	vb G	to prepare	
-9771	ksat	ks(u&a(t/t=	ks/śủ	n. f.	seat, throne, chair	
-9772	l	l(I)	l (I)	prep.	to	
-9773	ksat	ks(u&a(t/t=	ks/śủ	n. f.	seat, throne, chair	
-9774	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. m.	table	
-9775	l	l(I)	l (I)	prep.	to	
+137203	ṯˤr	ṯˤr[	/ṯ-ʕ-r/	vb G	to prepare (the table)	
+137204	ksat	ksa/t=	ks/śủ	n. f. pl.	seat	
+137205	l	l(I)	l (I)	prep.	to	
+137205	l	l(III)	l (III)	functor	certainly	
+137206	ksat	ksa/t=	ks/śủ	n. f. pl.	seat	
+137207	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. m. pl.	table	
 # KTU 1.3 II:37						
-9776	ṯlḥ<t>	ṯlḥ(n&t/	ṯlḥn	n. m.	table	instead of <t>
-9777	hdmm	hdm/m	hdm	n. m.	footstool	
-9778	tṯar	!t!ṯar[	ṯảr	n. m.	surety, protection	
-9779	l	l(I)	l (I)	prep.	to	
-9780	hdmm	hdm/m	hdm	n. m.	footstool	
+137208	l	l(I)	l (I)	prep.	to	
+137208	l	l(III)	l (III)	functor	certainly	
+137209	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. m. pl.	table	
+137210	hdmm	hdm/	hdm	n. m. pl.	footstool	
+137211	tṯar	ṯˤr[r	/ṯ-ʕ-r/	vb G	to prepare (the table)	
+137212	lhdmm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 II:38						
-9781	tḥspn	!t!ḥsp[~n	/ḥ-s-p/	vb G	to draw, collect water	G
-9782	mh	mh	m(h)	pers. pn.	what?	
-9783	w	w	w	conj.	and	
-9784	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	
+137213	tḥspn	!t!ḥsp[n	/ḥ-s-p/	vb G	to draw	
+137214	mh	mh/	mh/y	n. m. sg.	water	
+137215	w	w	w	conj.	and	
+137216	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	
 # KTU 1.3 II:39						
-9785	ṭl	ṭl/	ṭl	n. m.	dew	
-9786	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	the ending is plural?
-9787	šmn	šmn(I)/	šmn (I)	n. m.	oil	
-9788	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-9789	rbb	rbb/	rb(b)	n. m.	drizzle	rb and rbb are variants
+137217	ṭl	ṭl/	ṭl	n. m. sg.	dew	
+137218	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+137219	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
+137220	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137221	rbb	rb/	rb(b)	n. m. sg.	drizzle	
 # KTU 1.3 II:40						
-9790	rkb	rkb(I)/	rkb (I)	n. m.	charioteer	this is an active participle in nominal function, should it be rkb(I)/[
-9790	rkb	rkb[/	/r-k-b/	vb G	to mount (especially a chariot)	this is an active participle in nominal function, should it be rkb(I)/[
-9791	ˤrpt	ˤrp(t/t=	ʕrpt	n. f.	cloud(s)	
-9792	ṭl	ṭl/	ṭl	n. m.	dew	
-9793	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-9794	tskh	!t!(nsk[+h=	/n-s-k/	vb G/Gpass	to pour	correc lexeme G skn?
+137222	rkb	rkb[	/r-k-b/	vb G	to mount (especially a chariot)	
+137222	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
+137222	rkb	rkb(II)/	rkb (II)	n. m.	?	
+137223	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
+137223	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
+137224	ṭl	ṭl/	ṭl	n. m. sg.	dew	
+137225	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+137226	tskh	nsk[h:pass	/n-s-k/	vb G/Gpass	to pour (out)	
 # KTU 1.3 II:41						
-9795	rbb	rbb/	rb(b)	n. m.	drizzle	
-9796	nskh	nsk[+h	/n-s-k/	vb G/Gpass	to pour	
-9797	kbkbm	kbkb/m	kbkb	n. m.	heavenly body, star	
+137227	rbb	rb/	rb(b)	n. m. sg.	drizzle	
+137228	nskh	nsk[h:pass	/n-s-k/	vb G/Gpass	to pour (out)	
+137229	kbkbm	kbkb/m	kbkb	n. m.	heavenly body	
 # KTU 1.3 III:1						
-9798	ttpp	!t!(n]t]pp[	/n-p(-p)/	vb Gt	to sprinkle oneself, anoint oneself	
-9799	anhbm	anhb/m	ảnhb	n. m.	ein Stein	
-9800	d	d	d	det. or rel. functor	the one(s) of	
-9801	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-9802	šd	šd(I)/	šd (I)	n. m.	open field	
+137230	ttpp	n]t]p[p	/n-p(-p)/	vb Gt	to sprinkle oneself	
+137231	anhbm	anhb/m	ảnhb	n. m. pl.	ein Stein	
+137232	d	d	d	det. or rel. functor	the one(s) of	
+137233	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+137233	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+137234	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+137234	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
+137234	šd	šdy[	/š-d-y/	vb G	to pour	
 # KTU 1.3 III:2						
-9803	ẓuh	ẓu/+h=	ẓủ	n. m.	exhalation, secretion > excrement	
-9804	b	b	b	prep.	in	
-9805	ym	ym(II)/	ym (II)	n. m.	sea	
+137235	ẓuh	ẓu/+h	ẓủ	n. m. sg.	exhalation	
+137236	b	b	b	prep.	in	
+137237	ymxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 III:3						
-9806	xxxxxx	?	?	?	?	
-9807	xxxrn	xxxrn	?	?	?	
+137238	xxxrn	?	?	?	?	DULAT: NOT FOUND
+137239	lxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 III:4						
-9808	lxxxxxx	lxxxxxx	l (I)	prep.	to, towards, up to	
-9809	xxxxxxxxxxn	xxxxxxxxxxn	-n (I)	morph.		
-9810	tšt	!t!št[	/š-t(-t)/	vb G	devastate, break	
+137240	xxxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
+137241	tšt	!t!št[	/š-t/	vb G	to place	
+137242	rimt	rim(t/t	rỉmt	n. f. sg.	zither	
 # KTU 1.3 III:5						
-9811	rimt	rim(t/t	rỉmt	n. f.	zither	
-9812	l	l(I)	l (I)	prep.	to	
-9813	irth	ir(t/t+h=	ỉrt	n. f.	breast	
-9814	tšr	!t!šr(I)[	/š-r/ (I)	vb G	to sing	
-9815	l	l(I)	l (I)	prep.	to	
-9816	dd	dd(I)/	dd (I)	adj. m. or n. m.	love	
+137243	l	l(I)	l (I)	prep.	to	
+137243	l	l(III)	l (III)	functor	certainly	
+137244	irth	irt/+h	ỉrt	n. f.	breast	
+137245	tšr	!t!šr(I)[	/š-r/ (I)	vb G	to sing	
+137246	l	l(I)	l (I)	prep.	to	
+137246	l	l(III)	l (III)	functor	certainly	
+137247	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
+137248	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 # KTU 1.3 III:6						
-9817	aliyn	aliyn/	ảlỉyn	adj. m.	The Very / Most Powerful	
-9818	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-9819	yd	yd(II)/	yd (II)	n. m.	love	
-9820	pdry	pdry/	pdry	DN	Pidray	
-9821	bt	b(t(I)/t	bt (I)	n. f.	daughter	so we don't connect fem b(n(t/t with bn/?
+137249	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+137250	yd	yd(II)/	yd (II)	n. m. sg.	love	
+137251	pdry	pdry/	pdry	DN	Pidray	
+137252	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137253	ar	a/	ả/ỉr	n. m. sg.	light	
 # KTU 1.3 III:7						
-9822	ar	ar/	ả/ỉr	n. m.	light	UNP: 'Daughter of Light'; TCS: 'Daughter of ʾAru' (name-like reading)
-9823	ahbt	ahb(t/t	ảhbt	n. f.	love	
-9824	ṭly	ṭly/	ṭly	DN	Tallay	
-9825	bt	b(t(I)/t	bt (I)	n. f.	daughter	so we don't connect fem b(n(t/t with bn/?
-9826	rb	rb(II)/	rb (II)	n. m.	chief	TCS reads Rabbu as a title/name-like epithet.';'UNP: 'Daughter of Showers'
-9826	rb	rb/	rb(b)	n. m.	drizzle	TCS reads Rabbu as a title/name-like epithet.';'UNP: 'Daughter of Showers'
-9827	dd	dd(I)/	dd (I)	adj. m. or n. m.	love	
+137254	ahbt	ahb(t/t	ảhbt	n. f. sg.	love	
+137255	ṭly	ṭly/	ṭly	DN	Tallay	
+137256	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137256	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137257	rb	rb(II)/	rb (II)	n. m. sg.	chief	
+137257	rb	rb(I)/	rb (I)	adj. m. sg.	great	
+137257	rb	rb/	rb(b)	n. m. sg.	drizzle	
+137258	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
+137259	arṣy	arṣ/+y	ảrṣ	n. f.	earth	
+137259	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
 # KTU 1.3 III:8						
-9828	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
-9829	bt	b(t(I)/t	bt (I)	n. f.	daughter	so we don't connect fem b(n(t/t with bn/?
-9830	yˤbdr	yˤbdr/	yʕbdr	DN	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	UNP: 'Wide World'; TCS keeps Yaʿibdarru as name-like gloss
-9831	km	k(III)	k (III)	functor	when	
-9831	km	k(I)	k (I)	prep.	like	
-9831	km	k(IV)	k (IV)	adv.	thus	
-9831	km	km	km	prep./conj./adv.		
-9831	km	+km, +km=	-km			
+137260	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137260	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137261	yˤbdr	yˤbdr/	yʕbdr	DN	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
+137262	km	km	km	prep./conj./adv.		
+137263	ġlmm	ġlm/+m(I)	ġlm	n. m.	boy	
 # KTU 1.3 III:9						
-9832	ġlmm	ġlm/m=	ġlm	n. m.	boy, youth	
-9833	w	w	w	conj.	and	
-9834	ˤrbn	!!ˤrb[~n	/ʕ-r-b/ (I)	vb G	to enter	lengthened imperative
-9835	l	l(I)	l (I)	prep.	to	
-9836	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-9837	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
-9838	hbr	!!hbr[	/h-b-r/	vb G	to bow	
+137264	w	w	w	conj.	and	
+137265	ˤrbn	ˤrb(I)[n	/ʕ-r-b/ (I)	vb G	to enter	
+137266	l	l(I)	l (I)	prep.	to	
+137267	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+137268	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137268	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137268	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+137269	hbr	hbr[	/h-b-r/	vb G	to bow	
+137270	w	w	w	conj.	and	
 # KTU 1.3 III:10						
-9839	w	w	w	conj.	and	DOUBLE REMOVE ONE w??
-9840	w	w	w	conj.	and	
-9841	ql	!!ql[	/q-l/	vb G	to fall	
-9842	tštḥwy	!t!]š]]t]ḥwy(II)[	/ḥ-w-y/ (II)	vb Št	to prostrate oneself	Št stem; ]Š] and ]t] are marked as two different morphemes
-9843	kbd	!!kbd[:d	/k-b-d/	vb D	to honour, to pay homage to, welcome	
+137271	w	w	w	conj.	and	
+137272	ql	ql[	/q-l/	vb G	to fall (down)	
+137273	tštḥwy	!t!]š]]t]ḥwy(II)[	/ḥ-w-y/ (II)	vb Št	to prostrate oneself	
+137274	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
+137274	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
+137274	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+137275	hyt	hyt	hyt			
 # KTU 1.3 III:11						
-9844	hyt	hy&t	hy	pers. pn.	she, it	hyt is an oblique form of the pronoun hy 'she'
-9845	w	w	w	conj.	and	
-9846	rgm	!!rgm[	/r-g-m/	vb G	to say, tell, announce, communicate, inform	
-9847	l	l(I)	l (I)	prep.	to	
-9848	btlt	btl(t/t	btlt	n. f.	virgin	
+137276	w	w	w	conj.	and	
+137277	rgm	rgm[	/r-g-m/	vb G	to say	
+137277	rgm	rgm/	rgm	n. m. sg.	word	
+137278	l	l(I)	l (I)	prep.	to	
+137278	l	l(III)	l (III)	functor	certainly	
+137279	btlt	btl(t/t	btlt	n. f. sg.	virgin	
+137280	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 # KTU 1.3 III:12						
-9849	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
-9850	ṯny	!!ṯny[	/ṯ-n-y/	vb G	to repeat, reiterate	
-9851	l	l(I)	l (I)	prep.	to	
-9852	ymmt	ymm(t/t	ymmt	→	dove	
+137281	ṯny	ṯny[	/ṯ-n-y/	vb G	to repeat	
+137282	l	l(I)	l (I)	prep.	to	
+137282	l	l(III)	l (III)	functor	certainly	
+137283	ymmt	ybm(t/t	ybmt	n. f. sg.	widow sister-in-law	
+137284	limm	lim(I)/	lỉm (I)	n. m. pl.	people	
 # KTU 1.3 III:13						
-9853	limm	lim(I)/m	lỉm (I)	n. m.	people, clan	
-9854	tḥm	tḥm/	tḥm	n. m.	message, decree	
-9855	aliyn	aliyn/	ảlỉyn	adj. m.	The Very / Most Powerful	
-9856	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-9857	hwt	hw(t(I)/t	hwt (I)	n. f.	word, statement	
+137285	tḥm	tḥm/	tḥm	n. m. sg.	message	
+137286	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
+137287	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+137288	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
+137289	xx	?	?	?	?	
 # KTU 1.3 III:14						
-9858	xx	?	?	?	?	
-9859	aliy	aliy/	ảlỉy	adj. m.	The Most Powerful	
-9860	qrdm	qrd(I)/m	qrd (I)	n. m.	hero, warrior, powerful one	
-9861	qryy	!!qry[~y	/q-r-y/	vb G	to meet, encounter, go to meet	imp
-9862	b	b	b	prep.	in	
+137290	aliy	aliy/	ảlỉy	adj. m. sg.	The Most Powerful	
+137291	qrdm	qrd(I)/m	qrd (I)	n. m. pl.	hero	
+137292	qryy	qry[y	/q-r-y/	vb G	to meet	
+137293	b	b	b	prep.	in	
+137294	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 III:15						
-9863	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-9864	mlḥmt	mlḥm(t/t	mlḥmt	n. f.	war	UNP: 'war'; TCS: cultic 'bread-offering' interpretation
-9865	št	!!št[	/š-t(-t)/	vb G/Gpass	devastate, break	
-9866	b	b	b	prep.	in	
-9867	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m.	dust	
+137295	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg.	war	
+137296	št	št[:pass	/š-t/	vb G/Gpass	to place	
+137297	b	b	b	prep.	in	
+137298	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
+137299	ddym	ddy(m/m	ddym	n. m. pl. tant.	harmony	
 # KTU 1.3 III:16						
-9868	ddym	ddy(m/m	ddym	n. m. pl. tant.	desire, love	UNP/TCS agree on love/desire domain, nuance differs (love vs love-offering)
-9869	sk	!!(nsk[	/n-s-k/	vb G/Gpass	to pour	
-9870	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-9871	l	l(I)	l (I)	prep.	to	
-9872	kbd	kbd(I)/	kbd (I)	n.	within	
+137300	sk	sk(I)/	sk (I)	n. m. sg.	coverlet	
+137301	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+137302	l	l(I)	l (I)	prep.	to	
+137303	kbd	kbd(I)/	kbd (I)	n. f.	within	
+137304	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 III:17						
-9873	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-9874	arbdd	arbdd/	ảrbdd	n. m.	rest, tranquillity	
-9875	l	l(I)	l (I)	prep.	to	
-9876	kbd	kbd(I)/	kbd (I)	n.	within	
+137305	arbdd	arbdd/	ảrbdd	n. m. sg.	rest	
+137306	l	l(I)	l (I)	prep.	to	
+137307	kbd	kbd(I)/	kbd (I)	n. f.	within	
+137308	šdm	šd(I)/m	šd (I)	n. m. pl.	open field	
 # KTU 1.3 III:18						
-9877	šdm	šd(I)/m	šd (I)	n. m.	open field	
-9878	ḥšk	!!ḥš(I)[/+k	/ḥ-š/ (I)	vb G	to hurry, make haste	with Smith Pitard: three infinitives, or !!ḥšk[
-9879	ˤṣk	!!ˤṣ[/+k	ʕṣ	n. m.	tree, plant	with Smith Pitard: three infinitives, or ˤṣ/+k
+137309	ḥšk	ḥšk[	/ḥ-š-k/	vb G	to seize	
+137310	ˤṣk	ˤṣ/+k	ʕṣ	n. m.	tree	
+137311	ˤbṣk	ˤbṣ(I)/+k	ʕbṣ (I)	n. m. sg.	mace	
 # KTU 1.3 III:19						
-9880	ˤbṣk	!!ˤbṣ[/+k	ʕbṣ (I)	n. m.	mace	with Smith Pitard: three infinitives, or ˤbṣ/+k
-9881	ˤmy	ˤm+y	ʕm (I)	prep.	to, towards, up to	
-9882	pˤnk	pˤn/+k	pʕn	n. f.	foot	
-9883	tlsmn	!t!lsm[n	/l-s-m/	vb	to run, hurry	
-9884	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to, towards, up to	IS LINE 19 FROM SMITH MISSING HERE?? Smith p202
+137312	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
+137313	pˤnk	pˤn/+k	pʕn	n. f.	foot	
+137314	tlsmn	!t!lsm[n	/l-s-m/	vb G	to run	
+137315	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 1.3 III:20						
-9885	twtḥ	!t!w]t]ḥ(y[	/w-ḥ-y/	vb Gt	to hasten	lex: wḥy Gt, waw seems to be doubled
-9886	išdk	išd/+k	ỉšd	n. m.	leg	
-9887	dm	d~m	dm (I)	functor	since	
-9888	rgm	rgm/	rgm	n. m.	word, expression, saying	
+137316	twtḥ	!t!w]t]ḥ(y[	/w-ḥ-y/	vb Gt	to hasten	
+137317	išdk	išd/+k	ỉšd	n. m.	leg	
+137318	dm	dm(I)	dm (I)	functor	since	
+137319	rgm	rgm[	/r-g-m/	vb G	to say	
+137319	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 1.3 III:21						
-9889	iṯ	iṯ(I)/	ỉṯ (I)	n. m.	presence, existence	
-9890	ly	l(I)+y	l (I)	prep.	to, towards, up to	
-9891	w	w	w	conj.	and	
-9892	argmk	!a!rgm[+k	/r-g-m/	vb	to say, tell, announce, communicate, inform	
-9893	xx	?	?	?	?	
+137320	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
+137321	ly	l(I)+y	l (I)	prep.	to	
+137322	w	w	w	conj.	and	
+137323	argmk	!(ʔ&a!rgm[k	/r-g-m/	vb	to say	
+137324	xx	?	?	?	?	
 # KTU 1.3 III:22						
-9894	hwt	hw(t(I)/t	hwt (I)	n. f.	word, statement	
-9895	w	w	w	conj.	and	
-9896	aṯnyk	!a!ṯny[+k	/ṯ-n-y/	vb G	to repeat, reiterate	
-9897	rgm	rgm/	rgm	n. m.	word, expression, saying	
+137325	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
+137326	w	w	w	conj.	and	
+137327	aṯnyk	!(ʔ&a!ṯny[k	/ṯ-n-y/	vb G	to repeat	
+137328	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 1.3 III:23						
-9898	ˤṣ	ˤṣ/	ʕṣ	n. m.	tree, plant	
-9899	w	w	w	conj.	and	
-9900	lḫšt	lḫš(t/t	lḫšt	n. f.	chatter, whisper, murmur	
-9901	abn	abn/	ảbn	n. f.	stone	
-9902	ˤ	?	?	?	?	WHAT IS TIS? error to be erazed
+137329	ˤṣ	ˤṣ/	ʕṣ	n. m. sg.	tree	
+137330	w	w	w	conj.	and	
+137331	lḫšt	lḫš(t/t	lḫšt	n. f. sg.	chatter	
+137332	abn	abn/	ảbn	n. f.	stone	
+137333	ˤ	?	?	?	?	
 # KTU 1.3 III:24						
-9903	tant	tan(t/t	tả/ủnt	n. f.	whispering, conversation, groaning	there is a variant tunt
-9904	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-9905	ˤm	ˤm(I)	ʕm (I)	prep.	to, towards, up to	
-9906	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
+137334	tant	?	?	?	?	DULAT: NOT FOUND
+137335	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+137336	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+137337	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 III:25						
-9907	thmt	thm(t/t	thmt	n. f.	Primordial Ocean	
-9907	thmt	thm/t	thm	n. m.	ocean/deep	
-9908	ˤmn	ˤm~n	ʕmn (II)	→		actually ˤmn(II) is just ˤm(I)~n
-9909	kbkbm	kbkb/m	kbkb	n. m.	heavenly body, star	
+137338	thmt	thm(t/t	thmt	n. f. sg.	Primordial Ocean	
+137339	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
+137340	kbkbm	kbkb/m	kbkb	n. m.	heavenly body	
 # KTU 1.3 III:26						
-9910	abn	abn/	ảbn	n. f.	stone	this is a noun although Gabrini: 'I undestand of lightening' !a!bn[
-9910	abn	!a!bn[	/b-n/	vb G	to understand	this is a noun although Gabrini: 'I undestand of lightening' !a!bn[
-9911	brq	brq(I)/	brq (I)	n. m.	ray, lightning	
-9912	d	d	d	det. or rel. functor	the one(s) of	
-9913	l	l(II)	l (II)	adv.	no	
-9914	tdˤ	!t!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know, to recognise, distinguish, consider	
-9915	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
+137341	abn	ab/+n	ảb	n. m.	father	
+137341	abn	abn/	ảbn	n. f.	stone	
+137341	abn	!(ʔ&a!bn[	/b-n/	vb G	to understand	
+137342	brq	brq(I)/	brq (I)	n. m. sg.	ray	
+137343	d	d	d	det. or rel. functor	the one(s) of	
+137344	l	l(II)	l (II)	adv.	no	
+137345	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+137346	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
 # KTU 1.3 III:27						
-9916	rgm	rgm/	rgm	n. m.	word, expression, saying	
-9917	l	l(II)	l (II)	adv.	no	
-9918	tdˤ	!t!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know, to recognise, distinguish, consider	
-9919	nšm	nš(m/m	nšm	n. m. pl. tant.	people, men	
-9920	wl	?	?	?	?	DULAT: NOT FOUND
+137347	rgm	rgm[	/r-g-m/	vb G	to say	
+137347	rgm	rgm/	rgm	n. m. sg.	word	
+137348	ltdˤ	?	?	?	?	DULAT: NOT FOUND
+137349	nšm	nš(m/m	nšm	n. m. pl. tant.	people	
+137350	wl	?	?	?	?	DULAT: NOT FOUND
+137351	tbn	!t!bn[	/b-n/	vb G	to understand	
 # KTU 1.3 III:28						
-9921	tbn	!t!bn[	/b-n/	vb G	to understand	
-9922	hmlt	hml(t/t=	hmlt	n. f. pl. tant.?	multitude	
-9923	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-9924	atm	!!at(w[~m(II)	/ʔ-t-w/	vb G	to come, go	or !!at(w[/~m(II)
-9925	w	w	w	conj.	and	
+137352	hmlt	hml(t/t=	hmlt	n. f. pl.	multitude	
+137353	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137354	atm	ʔtw[	/ʔ-t-w/	vb G	to come	
+137355	w	w	w	conj.	and	
+137356	ank	ank	ảnk	pers. pn.	I	
 # KTU 1.3 III:29						
-9926	ank	ank	ảnk	pers. pn.	I	
-9927	ibġyh	!(ʔ&ai!bġy[+h	/b-ġ-y/	vb G/D	to reveal/show	maybe :d
-9927	ibġyh	!(ʔ&ai!bġy[:d+h	/b-ġ-y/	vb G/D	to reveal/show	maybe :d
-9928	b	b	b	prep.	in	
-9929	tk	tk/	tk	n. m.	centre, middle	
-9930	ġry	ġr(I)/+y	ġr (I)	n. m.	mountain	or ~y
-9931	il	il(I)/	ỉl (I)	n. m.	god	TCS/UNP: “Divine Ṣapānu” (epithet), not the proper name El
+137357	ibġyh	!(ʔ&i!bġy[h:d	/b-ġ-y/	vb G/D	to reveal	
+137358	b	b	b	prep.	in	
+137359	tk	tk/	tk	n. m.	centre	
+137360	ġry	ġr(I)/y	ġr (I)	n. m. sg.	mountain	
+137361	il	il(I)/	ỉl (I)	n. m.	god	
+137362	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.3 III:30						
-9932	ṣpn	ṣpn/	ṣpn	TN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-9933	b	b	b	prep.	in	
-9934	qdš	qdš(I)/	qdš (I)	adj. m. n. m.	holy	IS THIS (I) ADJ OR (II) NOUN?
-9934	qdš	qdš(II)/	qdš (II)	n. m.	sanctuary	IS THIS (I) ADJ OR (II) NOUN?
-9935	b	b	b	prep.	in	
-9936	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
+137363	b	b	b	prep.	in	
+137364	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
+137365	b	b	b	prep.	in	
+137366	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
+137367	nḥlty	nḥlt/+y	nḥlt	n. f. sg.	property	
 # KTU 1.3 III:31						
-9937	nḥlty	nḥl(t/t+y	nḥlt	n. f.	property	
-9938	b	b	b	prep.	in	
-9939	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace, elegance, comeliness	IS THIS (I) ADJ OR (II) NOUN?
-9940	b	b	b	prep.	in	
-9941	gbˤ	gbˤ/	gbʕ	n. m.	hill, height, peak	
+137368	b	b	b	prep.	in	
+137369	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
+137370	b	b	b	prep.	in	
+137371	gbˤ	gbˤ/	gbʕ	n. m. sg.	hill	
+137372	tliyt	tliy(t/t	tlỉyt	n. f. sg.	triumph	
 # KTU 1.3 III:32						
-9942	tliyt	tliy(t/t	tlỉyt	n. f.	triumph, victory	
-9943	hlm	hlm	hlm	conj. functor	and so/and then	
-9943	hlm	hl~m	hlm	deictic adv. functor	behold/look	
-9944	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
-9945	tph	!t!ph(y[	/p-h-y/	vb G	to see, espy	
-9946	ilm	il(I)/m	ỉl (I)	n. m.	god	
-9947	bh	b+h=	b	prep.	in	
+137373	hlm	hlm	hlm	conj. functor	and so	
+137373	hlm	hlm[	/h-l-m/	vb G	to hit	
+137373	hlm	hl~m	hl	deictic adv. functor	behold	
+137374	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137374	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137374	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+137375	tph	!t!ph(y[	/p-h-y/	vb G	to see	
+137376	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+137377	bh	b	b	prep.	in	
+137378	pˤnm	pˤn/m	pʕn	n. f. du.	foot	
 # KTU 1.3 III:33						
-9948	pˤnm	pˤn/m	pʕn	n. f.	foot	
-9949	tṭṭ	!t!(nṭṭ[	/n-ṭ-ṭ/	vb G	to shake	can't be :d because of the assimilation of n
-9950	bˤdn	bˤd~n	bʕd	adv., prep.	behind	preposition with enl n and perhaps assimilated pronoun h?
-9951	ksl	ksl/	ksl	n. f.	back, shoulder	
+137379	tṭṭ	nṭṭ[	/n-ṭ-ṭ/	vb G	to shake	
+137380	bˤdn	bˤd~n	bʕd	adv. or prep.	behind	
+137381	ksl	ksl/	ksl	n. f. sg.	back	
+137382	tṯbr	!t!](n]ṯbr[	/ṯ-b-r/	vb N	to break	
 # KTU 1.3 III:34						
-9952	tṯbr	!t!](n]ṯbr[	/ṯ-b-r/	vb N	to break, shatter	
-9953	ˤln	ˤl~n	ʕln	→		
-9954	pnh	pn(m/+h=	pnm	n. m. pl. tant.	face, countenance	m is perhaps pn/(m+h=
-9955	tdˤ	!t!(ydˤ(II)[	/y-d-ʕ/ (II)	vb G	to sweat	
-9956	tġṣ	!t!(nġṣ[	/n-ġ-ṣ/	vb G	to contract, shake	
+137383	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	
+137384	pnh	pn(m/+h	pnm	n. m. pl. tant.	face	
+137385	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+137386	tġṣ	nġṣ[	/n-ġ-ṣ/	vb G	to contract	
+137387	pnt	pnt/	pnt	n. f. pl.	knuckle	
 # KTU 1.3 III:35						
-9957	pnt	pn(t/t	pnt	n. f.	knuckle, joint, vertebra	
-9958	kslh	ksl/+h=	ksl	n. f.	back, shoulder	
-9959	anš	&a(ʔnš[	/ʔ-n-š/	vb G	to languish, fall ill	or anš/
-9960	dt	dt	dt	→		
-9961	ẓrh	ẓr(I)/+h=	ẓr (I)	n. m.	back	
+137388	kslh	ksl/+h	ksl	n. f.	back	
+137389	anš	anš/	ảnš	n. m. pl.	muscle	
+137390	dt	d	d	det. or rel. functor	the one(s) of	
+137391	ẓrh	ẓr(I)/h	ẓr (I)	n. m. sg.	back	
+137392	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G	to raise	
 # KTU 1.3 III:36						
-9962	tšu	!t!nš(ʔ[&u	/n-š-ʔ/	vb G	to raise, lift, help up	the final vowel after the bracket, an ending
-9963	gh	g/+h=	g	n. m.	(loud) voice, shout	
-9964	w	w	w	conj.	and	
-9965	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G	to exclaim, shout	
-9966	ik	ik	ỉk	interr. functor	how?, why?	
-9967	mġy	mġy[	/m-ġ-y/	vb G	to come, arrive	
-9968	gpn	gpn(III)/	gpn (III)	DN	Gupan/one of Baal’s messenger-boys	
-9969	w	w	w	conj.	and	
+137393	gh	ytn[	/y-t-n/	vb	to give	
+137393	gh	g/+h	g	n. m. sg.	(loud) voice	
+137394	w	w	w	conj.	and	
+137395	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G	to exclaim	
+137396	ik	ik	ỉk	interr. functor	how?	
+137397	mġy	mġy[	/m-ġ-y/	vb G	to come	
+137398	gpn	gpn(I)/	gpn (I)	n. m. sg.	(vine-)stock	
+137398	gpn	gpn(II)/	gpn (II)	n. m. sg.	harness	
+137399	w	w	w	conj.	and	
+137400	ugr	ugr(II)/	ủgr (II)	DN	Ugar/one of the two messenger-boys of Baal	
 # KTU 1.3 III:37						
-9970	ugr	ugr(II)/	ủgr (II)	DN	Ugar/one of the two messenger-boys of Baal	
-9971	m	m	?	?	?	MERGE WITH NEXT WORD?? or the previous one
-9972	mn	mn(I)	mn (I)	interr. pn./indef. pn.	what?/the one who	
-9973	ib	ib(I)/	ỉb (I)	n. m.	enemy	
-9974	ypˤ	ypˤ[	/y-p-ʕ/	vb G/N	to go up, rise	
-9975	l	l(I)	l (I)	prep.	to	
-9976	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	line 37 smith p 204
+137401	m	l(I)	l (I)	prep.	to	
+137402	mn	mn(IV)	mn (IV)	?	?	
+137403	ib	ib(I)/	ỉb (I)	n. m.	enemy	
+137404	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G/N	to go up	
+137405	l	l(I)	l (I)	prep.	to	
+137406	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137407	ṣrt	ṣr(t/t	ṣrt	n. f. sg.	enmity	
 # KTU 1.3 III:38						
-9977	ṣrt	ṣr(t/t	ṣrt	n. f.	enmity	
-9978	l	l(I)	l (I)	prep.	to	
-9979	rkb	rkb(I)/	rkb (I)	n. m.	charioteer	
-9979	rkb	rkb[/	/r-k-b/	vb G	to mount (especially a chariot)	
-9980	ˤrpt	ˤrp(t/t=	ʕrpt	n. f.	cloud(s)	
-9981	l	l(I)	l (I)	prep.	to	
-9982	mḫšt	mḫš[t	/m-ḫ-š/	vb G	to crush	
+137408	l	l(II)	l (II)	adv.	no	
+137409	rkb	rkb[	/r-k-b/	vb G	to mount (especially a chariot)	
+137409	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
+137409	rkb	rkb(II)/	rkb (II)	n. m.	?	
+137410	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
+137410	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
+137411	l	l(II)	l (II)	adv.	no	
+137412	mḫšt	mḫš[t	/m-ḫ-š/	vb G	to crush	
+137413	mdd	mdd(I)/	mdd (I)	n. m. sg.	beloved	
 # KTU 1.3 III:39						
-9983	mdd	mdd(I)/	mdd (I)	n. m.	beloved, friend	
-9984	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-9985	ym	ym(II)/	ym (II)	n. m.	sea	
-9986	l	l(III)	l (III)	functor	certainly	
-9987	klt	kl(l[t:d	/k-l-l/	vb G/D	to complete, finish	
-9988	nhr	nhr/	nhr	n. m.	river	
-9989	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
+137414	il	il(I)/	ỉl (I)	n. m.	god	
+137415	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+137416	l	l(I)	l (I)	prep.	to	
+137416	l	l(II)	l (II)	adv.	no	
+137416	l	l(III)	l (III)	functor	certainly	
+137417	klt	kly[t:d	/k-l-y/	vb G/D	to finish	
+137418	nhr	nhr/	nhr	n. m. sg.	river	
+137419	il	il(I)/	ỉl (I)	n. m.	god	
+137420	rbm	rb(I)/m	rb (I)	adj. m.	great	
 # KTU 1.3 III:40						
-9990	rbm	rb(I)/~m(II)	rb (I)	adj. m.	great, large	adverbial m
-9991	l	l(III)	l (III)	functor	certainly	
-9992	ištbm	!(ʔ&i!š]t]bm[	/š-b-m/	vb Gt	to muzzle	
-9993	tnn	tnn(I)/	tnn (I)	DN	“dragon” ym’s primordial ally or double	
-9994	ištmdh	!(ʔ&i!š]t]md[+h	?	?	?	Hutton: ṣ-m-d with assimilation; DULAT: NOT FOUND
+137421	l	l(I)	l (I)	prep.	to	
+137421	l	l(II)	l (II)	adv.	no	
+137421	l	l(III)	l (III)	functor	certainly	
+137422	ištbm	!(ʔ&i!š]t]bm[	/š-b-m/	vb Gt	to muzzle	
+137423	tnn	tnn(I)/	tnn (I)	DN	“dragon” ym’s primordial ally or double	
+137424	ištmdh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 III:41						
-9995	mḫšt	mḫš[t	/m-ḫ-š/	vb G	to crush	
-9996	bṯn	bṯn/	bṯn	n. m.	serpent, snake, dragon	
-9997	ˤqltn	ˤqltn/	ʕqltn	adj. m.	winding	
+137425	mḫšt	mḫš[t	/m-ḫ-š/	vb G	to crush	
+137426	bṯn	bṯn/	bṯn	n. m. sg.	serpent	
+137427	ˤqltn	ˤqltn/	ʕqltn	adj. m. sg.	winding	
 # KTU 1.3 III:42						
-9998	šlyṭ	šlyṭ/	šlyṭ	n. m.	tyrant	
-9999	d	d	d	det. or rel. functor	the one(s) of	
-10000	šbˤt	šbˤ(I)/t	šbʕ (I)	n. num.	seven	
-10001	rašm	r(i&aš(I)/m	rỉš (I)	n. m.	head	the form changes vowel in plural
+137428	šlyṭ	šlyṭ/	šlyṭ	n. m. sg.	tyrant	
+137429	d	d	d	det. or rel. functor	the one(s) of	
+137430	šbˤt	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+137431	rašm	riš(I)/	rỉš (I)	n. m. pl.	head	
 # KTU 1.3 III:43						
-10002	mḫšt	mḫš[t	/m-ḫ-š/	vb G	to crush	
-10003	mdd	mdd(I)/	mdd (I)	n. m.	beloved, friend	
-10004	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10005	arš	arš/	ảrš	DN	a monster (“many-headed”, “whale”)	
+137432	mḫšt	mḫš[t	/m-ḫ-š/	vb G	to crush	
+137433	mdd	mdd(I)/	mdd (I)	n. m. sg.	beloved	
+137434	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+137435	arš	arš/	ảrš	DN	a monster (“many-headed”, “whale”)	
 # KTU 1.3 III:44						
-10006	ṣmt	ṣm(t[t:d	/ṣ-m-t/	vb D	to destroy, wipe out, defeat	
-10007	ˤgl	ˤgl(I)/	ʕgl (I)	n. m.	calf, bullock	
-10008	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10009	ˤtk	ˤtk(I)/	ʕtk (I)	DN	a monster (“the Savage One”?)	
+137436	ṣmt	ṣmt[:d	/ṣ-m-t/	vb D	to destroy	
+137437	ˤgl	ˤgl(I)/	ʕgl (I)	n. m. sg.	calf	
+137438	il	il(I)/	ỉl (I)	n. m.	god	
+137439	ˤtk	ˤtk[:d	/ʕ-t-k/	vb D	to tie	
+137439	ˤtk	ˤtk(II)/	ʕtk (II)	adj. m. sg.	anchored	
 # KTU 1.3 III:45						
-10010	mḫšt	mḫš[t	/m-ḫ-š/	vb G	to crush	
-10011	k	&k	?	?	?	MERGE WITH NEXT WORD: 'DOG'
-10012	lbt	(klb(I)(t/t	klb (I)	n. m.	dog	
-10013	ilm	il(I)/~m (I)	ỉl (I)	n. m.	god	SUFFIX?
-10014	išt	iš(t/t	ỉšt	n. f.	fire	
+137440	mḫšt	mḫš[t	/m-ḫ-š/	vb G	to crush	
+137441	k	+k	-k (I)			
+137441	k	~k	-k (II)			
+137441	k	k(III)	k (III)	Subordinating or completive functor	when	
+137441	k	k(I)	k (I)	prep.	like	
+137441	k	k(II)	k (II)	emph. functor	yes	
+137442	lbt	lbt/	lbt	n. f. pl.	hoop / plate	
+137443	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+137444	išt	iš(t/t	ỉšt	n. f. sg.	fire	
 # KTU 1.3 III:46						
-10015	klt	kl(l[t:d	/k-l-l/	vb G/D	to complete, finish	
-10016	bt	b(t(I)/t	bt (I)	n. f.	daughter	so we don't connect fem b(n(t/t with bn/?
-10017	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10018	ḏbb	ḏbb/	ḏbb	DN	mythical female being defeated by Anat (etym. unc.)	
-10019	imtḫṣ	!(ʔ&i!m]t]ḫṣ[	/m-ḫ-ṣ/	vb G	to wound, beat, crush, kill	
-10020	ksp	ksp/	ksp	n. m.	silver	
+137445	klt	kly[t:d	/k-l-y/	vb G/D	to finish	
+137446	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137447	il	il(I)/	ỉl (I)	n. m.	god	
+137448	ḏbb	ḏbb/	ḏbb	DN	mythical female being defeated by Anat (etym. unc.)	
+137449	imtḫṣ	mḫṣ[ḫṣ	/m-ḫ-ṣ/	vb G	to wound	
+137450	ksp	ksp/	ksp	n. m. sg.	silver	
 # KTU 1.3 III:47						
-10021	itrṯ	!(ʔ&i!(y]t]rṯ[	/y-r-ṯ/	vb Gt	to inherit, possess	
-10022	ḫrṣ	ḫrṣ/	ḫrṣ	n. m.	gold	
-10023	ṭrd	ṭrd[/	/ṭ-r-d/	vb G	to throw out, expel	1.3 IV active participle in a relative usage
-10024	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+137451	itrṯ	y]t]rṯ[	/y-r-ṯ/	vb Gt	to inherit	
+137452	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
+137453	ṭrd	ṭrd[	/ṭ-r-d/	vb G	to throw out	
+137454	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137454	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.3 IV:1						
-10025	b	b	b	prep.	in	
-10026	mrym	mrym/	mrym	n. m.	height	
-10027	ṣpn	ṣpn/	ṣpn	TN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-10028	mšṣṣ	!m!]š](nṣṣ/[	/n-ṣ-ṣ/	vb Š	to take flight, fly	participle of Š
-10029	k	k(I)	k (I)	prep.	like/as	
-10030	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f.	bird	
+137455	b	b	b	prep.	in	
+137456	mrym	mrym/	mrym	n. m. sg.	height	
+137457	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+137458	mšṣṣ	mšṣṣ/	mšṣṣ	n. m. sg.	one who drives out	
+137459	k	+k	-k (I)			
+137459	k	~k	-k (II)			
+137459	k	k(III)	k (III)	Subordinating or completive functor	when	
+137459	k	k(I)	k (I)	prep.	like	
+137459	k	k(II)	k (II)	emph. functor	yes	
+137460	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg.	bird	
 # KTU 1.3 IV:2						
-10031	u	&u	ủ	conj.	or	MERGE WITH NEXT parsing udn/+h
-10032	dnh	(udn(II)/+h	ủdn (I)	n. m.	ear	
-10033	gršh	grš[/+h	/g-r-š/	vb G	to eject, drive out, evict, cast out	G participle; or :d SC
-10034	l	l(I)	l (I)	prep.	to	
-10035	ksi	ks(u&/i	ks/śủ	n. f.	seat, throne, chair	case ending
-10036	mlkh	mlk(II)/+h	mlk (II)	n. m.	kingdom	
+137461	u	u	ủ	conj.	or	
+137462	dnh	d+nh	d	det. or rel. functor	the one(s) of, ?	
+137462	dnh	dn(I)/+h	dn (I)	n. m.	judgment	
+137462	dnh	dll[+nh	/d-l-l/	vb	to oppress, ?	
+137463	gršh	grš[h	/g-r-š/	vb G	to eject	
+137464	l	l(I)	l (I)	prep.	to	
+137465	ksi	ks/	ks/śủ	n. f. sg.	seat	
+137466	mlkh	mlk(II)/h	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.3 IV:3						
-10037	l	l(I)	l (I)	prep.	to	
-10038	nḫt	nḫ(t/t	nḫt	n. f.	divan	
-10039	l	l(I)	l (I)	prep.	to	
-10040	kḥṯ	kḥṯ/	kḥṯ	n. m.	throne	
-10041	drkth	drk(t/t/+h	drkt	n. f.	rule, power	
+137467	l	l(I)	l (I)	prep.	to	
+137467	l	l(III)	l (III)	functor	certainly	
+137468	nḫt	nḫ(t/t	nḫt	n. f. sg.	divan	
+137469	l	l(I)	l (I)	prep.	to	
+137470	kḥṯ	kḥṯ/	kḥṯ	n. m. sg.	throne	
+137471	drkth	drkt/h	drkt	n. f. sg.	rule	
 # KTU 1.3 IV:4						
-10042	mnm	mn~m(II)	mnm	indef. pn.	any(thing), whatever, all	let's mark m(II) unless it is clearly adverbial m(I)
-10043	ib	ib(I)/	ỉb (I)	n. m.	enemy	
-10044	ypˤ	!y!(ypˤ[	/y-p-ʕ/	vb G/N	to go up, rise	most probably PC for future / interrogative
-10045	l	l(I)	l (I)	prep.	to	
-10046	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10047	ṣrt	ṣr(t/t	ṣrt	n. f.	enmity	
-10048	l	l(I)	l (I)	prep.	to	
-10049	rkb	rkb(I)/	rkb (I)	n. m.	charioteer	act. ptc. < /r-k-b/
-10049	rkb	rkb[/	/r-k-b/	vb G	to mount (especially a chariot)	act. ptc. < /r-k-b/
-10050	ˤrpt	ˤrp(t/t=	ʕrpt	n. f.	cloud(s)	
+137472	mnm	mnm	mnm	indef. pn.	any(thing)	
+137473	ib	ib(I)/	ỉb (I)	n. m.	enemy	
+137473	ib	ib(II)/	ỉb (II)	n. m. sg./DN	fruit	
+137474	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G/N	to go up	
+137475	l	l(I)	l (I)	prep.	to	
+137476	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137477	ṣrt	ṣr(t/t	ṣrt	n. f. sg.	enmity	
+137478	l	l(I)	l (I)	prep.	to	
+137478	l	l(II)	l (II)	adv.	no	
+137478	l	l(III)	l (III)	functor	certainly	
+137479	rkb	rkb[	/r-k-b/	vb G	to mount (especially a chariot)	
+137479	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
+137479	rkb	rkb(II)/	rkb (II)	n. m.	?	
+137480	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
+137480	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
 # KTU 1.3 IV:5						
-10051	yˤn	!y!ˤn(y[	/ʕ-n-y/ (I)	vb G	to answer, reply, say	
-10052	ġlmm	ġlm/m	ġlm	n. m.	boy, youth	
-10053	yˤnyn	!y!ˤn(y[n	/ʕ-n-y/ (I)	vb G	to answer, reply, say	
-10054	l	l(II)	l (II)	adv.	no	
-10055	ib	ib(I)/	ỉb (I)	n. m.	enemy	
-10056	ypˤ	ypˤ[	/y-p-ʕ/	vb G/N	to go up/rise	
-10056	ypˤ	!y!(ypˤ[	/y-p-ʕ/	vb G/N	to go up/rise	
+137481	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer	
+137482	ġlmm	ġlm/+m(I)	ġlm	n. m.	boy	
+137483	yˤnyn	!y!ˤny(I)[n	/ʕ-n-y/ (I)	vb G	to answer	
+137484	l	l(II)	l (II)	adv.	no	
+137485	ib	ib(I)/	ỉb (I)	n. m.	enemy	
+137485	ib	ib(II)/	ỉb (II)	n. m. sg./DN	fruit	
+137486	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G/N	to go up	
 # KTU 1.3 IV:6						
-10057	l	l(I)	l (I)	prep.	to	
-10058	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10059	ṣrt	ṣr(t/t	ṣrt	n. f.	enmity	
-10060	l	l(I)	l (I)	prep.	to	
-10061	rkb	rkb(I)/	rkb (I)	n. m.	charioteer	
-10061	rkb	rkb[/	/r-k-b/	vb G	to mount (especially a chariot)	
-10062	ˤrpt	ˤrp(t/t=	ʕrpt	n. f.	cloud(s)	
+137487	l	l(I)	l (I)	prep.	to	
+137488	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137489	ṣrt	ṣr(t/t	ṣrt	n. f. sg.	enmity	
+137490	l	l(I)	l (I)	prep.	to	
+137490	l	l(II)	l (II)	adv.	no	
+137490	l	l(III)	l (III)	functor	certainly	
+137491	rkb	rkb[	/r-k-b/	vb G	to mount (especially a chariot)	
+137491	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
+137491	rkb	rkb(II)/	rkb (II)	n. m.	?	
+137492	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
+137492	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
 # KTU 1.3 IV:7						
-10063	tḥm	tḥm/	tḥm	n. m.	message, decree	
-10064	aliyn	aliyn/	ảlỉyn	adj. m.	The Very / Most Powerful	
-10065	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10066	hwt	hw(t(I)/t	hwt (I)	n. f.	word, statement	
-10067	aliy	aliy/	ảlỉy	adj. m.	The Most Powerful	
+137493	tḥm	tḥm/	tḥm	n. m. sg.	message	
+137494	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
+137495	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+137496	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
+137497	aliy	aliy/	ảlỉy	adj. m. sg.	The Most Powerful	
 # KTU 1.3 IV:8						
-10068	qrdm	qrd(I)/m	qrd (I)	n. m.	hero, warrior, powerful one	
-10069	qryy	!!qry[~y	/q-r-y/	vb G	to meet, encounter, go to meet	imp cf. above
-10070	b	b	b	prep.	in	
-10071	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10072	mlḥmt	mlḥm(t/t	mlḥmt	n. f.	war	UNP: 'war'; TCS: cultic 'bread-offering' interpretation (repeated passage)
+137498	qrdm	qrd(I)/m	qrd (I)	n. m. pl.	hero	
+137499	qryy	qry[y	/q-r-y/	vb G	to meet	
+137500	b	b	b	prep.	in	
+137501	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137502	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg.	war	
 # KTU 1.3 IV:9						
-10073	št	!!št[	/š-t(-t)/	vb G/Gpass	devastate, break	
-10074	b	b	b	prep.	in	
-10075	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m.	dust	
-10076	ddym	ddy(m/m	ddym	n. m. pl. tant.	desire, love	UNP/TCS agree on love/desire domain, nuance differs (love vs love-offering)
-10077	sk	!!(nsk[	/n-s-k/	vb G/Gpass	to pour	
-10078	šlm	šlm(I)/	šlm (I)	n. m.	peace	
+137503	št	št[:pass	/š-t/	vb G/Gpass	to place	
+137503	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+137503	št	š(t(I)/t	št (I)	n. m. sg.	base	
+137504	b	b	b	prep.	in	
+137505	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
+137506	ddym	ddy(m/m	ddym	n. m. pl. tant.	harmony	
+137507	sk	sk(I)/	sk (I)	n. m. sg.	coverlet	
+137508	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+137508	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+137508	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 1.3 IV:10						
-10079	l	l(I)	l (I)	prep.	to	
-10080	kbd	kbd(I)/	kbd (I)	n.	within	
-10081	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10082	arbdd	arbdd/	ảrbdd	n. m.	rest, tranquillity	
-10083	l	l(I)	l (I)	prep.	to	
-10084	kbd	kbd(I)/	kbd (I)	n.	within	
-10085	šdm	šd(I)/m	šd (I)	n. m.	open field	
+137509	l	l(I)	l (I)	prep.	to	
+137510	kbd	kbd(I)/	kbd (I)	n. f.	within	
+137511	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137512	arbdd	arbdd/	ảrbdd	n. m. sg.	rest	
+137513	l	l(I)	l (I)	prep.	to	
+137514	kbd	kbd(I)/	kbd (I)	n. f.	within	
+137515	šdm	šd(I)/m	šd (I)	n. m. pl.	open field	
 # KTU 1.3 IV:11						
-10086	hšk	!!ḥš(I)[/+k	/ḥ-š/ (I)	vb	to hurry/make haste	with Smith Pitard infinitive or !!ḥšk[
-10086	hšk	!!ḥšk[	/ḥ-š-k/	vb	o seize/grasp	with Smith Pitard infinitive or !!ḥšk[
-10087	ˤṣk	!!ˤṣ[/+k	ʕ-ṣ-y/ṣ	vb	?	with Smith Pitard infinitive or ˤṣ/+k
-10087	ˤṣk	ˤṣ/+k	ʕṣ	n. m.	tree, plant	with Smith Pitard infinitive or ˤṣ/+k
-10088	ˤbṣk	!!ˤbṣ[/+k	ʕbṣ (I)	n. m.	mace	with Smith Pitard infinitive or ˤbṣ/+k
-10089	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to, towards, up to	
-10090	pˤnk	pˤn/+k	pʕn	n. f.	foot	
+137516	hšk	?	?	?	?	DULAT: NOT FOUND
+137517	ˤṣk	ˤṣ/+k	ʕṣ	n. m.	tree	
+137518	ˤbṣk	ˤbṣ(I)/+k	ʕbṣ (I)	n. m. sg.	mace	
+137519	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
+137520	pˤnk	pˤn/+k	pʕn	n. f.	foot	
 # KTU 1.3 IV:12						
-10091	tlsmn	!t!lsm[n	/l-s-m/	vb	to run, hurry	
-10092	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to, towards, up to	
-10093	twtḥ	!t!w]t]ḥ(y[	/w-ḥ-y/	vb Gt	to hasten	
-10094	išdk	išd/+k	ỉšd	n. m.	leg	
+137521	tlsmn	!t!lsm[n	/l-s-m/	vb G	to run	
+137522	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
+137523	twtḥ	!t!w]t]ḥ(y[	/w-ḥ-y/	vb Gt	to hasten	
+137524	išdk	išd/+k	ỉšd	n. m.	leg	
 # KTU 1.3 IV:13						
-10095	dm	d~m(I)	dm (I)	functor	since	
-10096	rgm	rgm/	rgm	n. m.	word, expression, saying	
-10097	iṯ	iṯ(I)/	ỉṯ (I)	n. m.	presence, existence	I think this is a verb it(y[
-10098	ly	l(I)+y	l (I)	prep.	to, towards, up to	
-10099	w	w	w	conj.	and	
-10100	argmt	!a!rgm[+&t(k	/r-g-m/	vb	to say, tell, announce, communicate, inform	scribal error
-10101	hwt	hw(t(I)/t	hwt (I)	n. f.	word, statement	
-10102	w	w	w	conj.	and	
+137525	dm	dm(II)/	dm (II)	n. m.	blood	
+137525	dm	dm(I)	dm (I)	functor	since	
+137526	rgm	rgm[	/r-g-m/	vb G	to say	
+137526	rgm	rgm/	rgm	n. m. sg.	word	
+137527	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
+137528	ly	l(I)+y	l (I)	prep.	to	
+137529	w	w	w	conj.	and	
+137530	argmt	?	?	?	?	DULAT: NOT FOUND
+137531	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 # KTU 1.3 IV:14						
-10103	aṯnyk	!a!ṯny[+k	/ṯ-n-y/	vb G	to repeat, reiterate	
-10104	rgm	rgm/	rgm	n. m.	word, expression, saying	
-10105	ˤṣ	ˤṣ/	ʕṣ	n. m.	tree, plant	
-10106	w	w	w	conj.	and	
-10107	lḫšt	lḫš(t/t	lḫšt	n. f.	chatter, whisper, murmur	
-10108	abn	abn/	ảbn	n. f.	stone	
+137532	w	w	w	conj.	and	
+137533	aṯnyk	!(ʔ&a!ṯny[k	/ṯ-n-y/	vb G	to repeat	
+137534	rgm	rgm[	/r-g-m/	vb G	to say	
+137534	rgm	rgm/	rgm	n. m. sg.	word	
+137535	ˤṣ	ˤṣ/	ʕṣ	n. m. sg.	tree	
+137536	w	w	w	conj.	and	
+137537	lḫšt	lḫš(t/t	lḫšt	n. f. sg.	chatter	
 # KTU 1.3 IV:15						
-10109	rgm	rgm/	rgm	n. m.	word, expression, saying	
-10110	l	l(I)	l (I)	prep.	to	
-10110	l	l(III)	l (III)	functor	certainly	
-10111	td	!t!(yd/	yd (I)	n. f.	hand	MERGE WITH NEXT
-10112	ˤ	?	?	?	?	MERGE WITH PREVIOUS
-10113	nšm	nš/m	nš	?		
-10114	w	w	w	conj.	and	
-10115	l	l(I)	l (I)	prep.	to	
-10115	l	l(II)	l (II)	adv.	no	
-10115	l	l(III)	l (III)	functor	certainly	
+137538	abn	ab/+n	ảb	n. m.	father	
+137538	abn	abn/	ảbn	n. f.	stone	
+137538	abn	!(ʔ&a!bn[	/b-n/	vb G	to understand	
+137539	rgm	rgm[	/r-g-m/	vb G	to say	
+137539	rgm	rgm/	rgm	n. m. sg.	word	
+137540	l	l(I)	l (I)	prep.	to	
+137540	l	l(II)	l (II)	adv.	no	
+137540	l	l(III)	l (III)	functor	certainly	
+137541	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+137542	nšm	nš(m/m	nšm	n. m. pl. tant.	people	
+137543	w	w	w	conj.	and	
+137544	ltbn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 IV:16						
-10116	tbn	!t!bn[	/b-n/	vb G	to understand	
-10117	hmlt	hml(t/t=	hmlt	n. f. pl. tant.?	multitude	
-10118	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10119	tunt	tun(t/t	tả/ủnt	n. f.	whispering, conversation, groaning	variant tan(t/t
-10120	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-10121	ˤm	ˤm(I)	ʕm (I)	prep.	to, towards, up to	
+137545	hmlt	hml(t/t=	hmlt	n. f. pl.	multitude	
+137546	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137547	tunt	?	?	?	?	DULAT: NOT FOUND
+137548	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+137549	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+137550	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 IV:17						
-10122	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10123	thmt	thm(t/t	thmt	n. f.	Primordial Ocean	
-10123	thmt	thm/t	thm	n. m.	ocean/deep	
-10124	ˤmn	ˤm~n	ʕmn (II)	→		actually ˤmn(II) is just ˤm(I)~n
-10125	kbkbm	kbkb/m	kbkb	n. m.	heavenly body, star	
-10126	abn	abn/	ảbn	n. f.	stone	this is a noun although Gabrini: 'I understand of lightening' !a!bn[
+137551	thmt	thm(t/t	thmt	n. f. sg.	Primordial Ocean	
+137551	thmt	thm/t	thm	n. f. sg.	ocean/deep	
+137551	thmt	thm/t	thm	n. f. sg.	ocean/deep	
+137552	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
+137553	kbkbm	kbkb/m	kbkb	n. m.	heavenly body	
+137554	abn	ab/+n	ảb	n. m.	father	
+137554	abn	abn/	ảbn	n. f.	stone	
+137554	abn	!(ʔ&a!bn[	/b-n/	vb G	to understand	
+137555	brq	brq(I)/	brq (I)	n. m. sg.	ray	
 # KTU 1.3 IV:18						
-10127	brq	brq(I)/	brq (I)	n. m.	ray, lightning	
-10128	d	d	d	det. or rel. functor	the one(s) of	
-10129	l	l(I)	l (I)	prep.	to	
-10129	l	l(II)	l (II)	adv.	no	
-10129	l	l(III)	l (III)	functor	certainly	
-10130	tdˤ	!t!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know, to recognise, distinguish, consider	
-10131	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-10132	atm	!!at(w[~m(II)	/ʔ-t-w/	vb G	to come, go	
-10133	w	w	w	conj.	and	
+137556	d	d	d	det. or rel. functor	the one(s) of	
+137557	l	l(I)	l (I)	prep.	to	
+137557	l	l(II)	l (II)	adv.	no	
+137557	l	l(III)	l (III)	functor	certainly	
+137558	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+137559	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+137560	atm	at(I)	ảt (I)	pers. pn.	you	
+137560	atm	ʔtw[	/ʔ-t-w/	vb G	to come	
+137560	atm	atm	ảtm	pers. pn.	you	
+137561	w	w	w	conj.	and	
+137562	ank	ank	ảnk	pers. pn.	I	
 # KTU 1.3 IV:19						
-10134	ank	ank	ảnk	pers. pn.	I	
-10135	ibġyh	!(ʔ&i!bġy[+h	/b-ġ-y/	vb G/D	to reveal, show	
-10136	b	b	b	prep.	in	
-10137	tk	tk/	tk	n. m.	centre, middle	
-10138	ġry	ġr(I)/+y	ġr (I)	n. m.	mountain	
-10139	il	il(I)/	ỉl (I)	n. m.	god	TCS/UNP: “Divine Ṣapānu” (epithet), not the proper name El
+137563	ibġyh	!(ʔ&i!bġy[h:d	/b-ġ-y/	vb G/D	to reveal	
+137564	b	b	b	prep.	in	
+137565	tk	tk/	tk	n. m.	centre	
+137566	ġry	ġr(I)/y	ġr (I)	n. m. sg.	mountain	
+137567	il	il(I)/	ỉl (I)	n. m.	god	
+137568	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.3 IV:20						
-10140	ṣpn	ṣpn/	ṣpn	TN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-10141	b	b	b	prep.	in	
-10142	qdš	qdš(I)/	qdš (I)	adj. m.	holy	
-10143	b	b	b	prep.	in	
-10144	ġr	ġr(I)/	ġr (I)	n. m.	mountain	
+137569	b	b	b	prep.	in	
+137570	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
+137570	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
+137571	b	b	b	prep.	in	
+137572	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
+137572	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
+137573	nḥlty	nḥlt/+y	nḥlt	n. f. sg.	property	
 # KTU 1.3 IV:21						
-10145	nḥlty	nḥl(t/t+y	nḥlt	n. f.	property	
-10146	w	w	w	conj.	and	
-10147	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer, reply, say	
-10148	btlt	btl(t/t	btlt	n. f.	virgin	
-10149	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137574	w	w	w	conj.	and	
+137575	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer	
+137575	tˤn	!t!ˤn[:d	/ʕ-n/	vb G/D	to see	
+137575	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G	to be / remain depressed	
+137576	btlt	btl(t/t	btlt	n. f. sg.	virgin	
+137577	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137578	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G/L/R	to return	
 # KTU 1.3 IV:22						
-10150	tṯb	!t!ṯb[	/ṯ-b/	vb G/L/R	to return, turn round, go back, make one’s way, go through	
-10151	ybmt	ybm(t/t	ybmt	n. f.	widow sister-in-law, nubile widow	
-10152	limm	lim(I)/m	lỉm (I)	n. m.	people, clan	
-10153	an	an(I)	ản (I)	pers. pn.	I	
+137579	ybmt	ybm(t/t	ybmt	n. f. sg.	widow sister-in-law	
+137580	limm	lim(I)/	lỉm (I)	n. m. pl.	people	
+137581	an	an(I)	ản (I)	pers. pn.	I	
+137582	aqry	!(ʔ&a!qry[	/q-r-y/	vb G	to meet	
 # KTU 1.3 IV:23						
-10154	aqry	!(ʔ&a!qry[	/q-r-y/	vb G	to meet, encounter, go to meet	
-10155	b	b	b	prep.	in	
-10156	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10157	mlḥmt	mlḥm(t/t	mlḥmt	n. f.	war	
-10158	ašt	!(ʔ&a!št[	/š-t(-t)/	vb G	devastate, break	
-10159	b	b	b	prep.	in	
+137583	b	b	b	prep.	in	
+137584	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137585	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg.	war	
+137586	ašt	!(ʔ&a!št[	/š-t/	vb G	to place	
+137587	b	b	b	prep.	in	
+137588	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
 # KTU 1.3 IV:24						
-10160	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m.	dust	
-10161	ddym	ddy(m/m	ddym	n. m. pl. tant.	desire, love	
-10162	ask	!(ʔ&a!(nsk[	/n-s-k/	vb G/Gpass	to pour	
-10163	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-10164	l	l(I)	l (I)	prep.	to	
-10165	kbd	kbd(I)/	kbd (I)	n.	within	
+137589	ddym	ddy(m/m	ddym	n. m. pl. tant.	harmony	
+137590	ask	nsk[:pass	/n-s-k/	vb G/Gpass	to pour (out)	
+137591	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+137591	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+137591	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+137592	l	l(I)	l (I)	prep.	to	
+137593	kbd	kbd(I)/	kbd (I)	n. f.	within	
+137594	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 IV:25						
-10166	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10167	arbdd	arbdd/	ảrbdd	n. m.	rest, tranquillity	
-10168	l	l(I)	l (I)	prep.	to	
-10169	kbd	kbd(I)/	kbd (I)	n.	within	
-10170	šdm	šd(I)/m	šd (I)	n. m.	open field	
+137595	arbdd	arbdd/	ảrbdd	n. m. sg.	rest	
+137596	l	l(I)	l (I)	prep.	to	
+137597	kbd	kbd(I)/	kbd (I)	n. f.	within	
+137598	šdm	šd(I)/m	šd (I)	n. m. pl.	open field	
+137599	yšt	!y!št[:pass	/š-t/	vb G/Gpass	to place	
 # KTU 1.3 IV:26						
-10171	yšt	!y!št[	/š-t(-t)/	vb G/Gpass	devastate, break	
-10172	b	b	b	prep.	in	
-10173	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-10174	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+137600	bšmm	?	?	?	?	DULAT: NOT FOUND
+137601	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137601	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+137602	mdlh	mdl(II)/+h	mdl (II)	n. m.	lightning (?)	
+137603	ybˤr	!y!bˤr(I)[:d	/b-ʕ-r/ (I)	vb D	to illuminate	
 # KTU 1.3 IV:27						
-10175	mdlh	mdl(I)/h	mdl (I)	n. m.	riding gear	
-10176	ybˤr	!y!bˤr(I)[	/b-ʕ-r/ (I)	vb D	to ignite	
-10177	rkb	rkb(I)/	rkb (I)	n. m.	charioteer	
-10177	rkb	rkb[/	/r-k-b/	vb G	to mount (especially a chariot)	
-10178	ˤrpt	ˤrp(t/t=	ʕrpt	n. f.	cloud(s)	
+137604	rkb	rkb[	/r-k-b/	vb G	to mount (especially a chariot)	
+137604	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
+137604	rkb	rkb(II)/	rkb (II)	n. m.	?	
+137605	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
+137605	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
+137606	qrnh	qrn/h	qrn	n. f.	horn	
+137607	aqry	!(ʔ&a!qry[	/q-r-y/	vb G	to meet	
 # KTU 1.3 IV:28						
-10179	qrnh	qrn/+h	qrn	n. f.	horn	p 279 line 27
-10180	aqry	!(ʔ&a!qry[	/q-r-y/	vb G	to meet, encounter, go to meet	
-10181	ank	ank	ảnk	pers. pn.	I	
-10182	b	b	b	prep.	in	
+137608	ank	ank	ảnk	pers. pn.	I	
+137609	b	b	b	prep.	in	
+137610	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137611	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg.	war	
 # KTU 1.3 IV:29						
-10183	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10184	mlḥmt	mlḥm(t/t	mlḥmt	n. f.	war	
-10185	ašt	!(ʔ&a!št[	/š-t(-t)/	vb G	devastate, break	
-10186	b	b	b	prep.	in	
-10187	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m.	dust	
+137612	ašt	!(ʔ&a!št[	/š-t/	vb G	to place	
+137613	b	b	b	prep.	in	
+137614	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
+137615	ddym	ddy(m/m	ddym	n. m. pl. tant.	harmony	
+137616	ask	nsk[:pass	/n-s-k/	vb G/Gpass	to pour (out)	
 # KTU 1.3 IV:30						
-10188	ddym	ddy(m/m	ddym	n. m. pl. tant.	desire, love	
-10189	ask	!(ʔ&a!(nsk[	/n-s-k/	vb G/Gpass	to pour	
-10190	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-10191	l	l(I)	l (I)	prep.	to	
-10192	kbd	kbd(I)/	kbd (I)	n.	within	
+137617	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+137617	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+137617	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+137618	l	l(I)	l (I)	prep.	to	
+137619	kbd	kbd(I)/	kbd (I)	n. f.	within	
+137620	awṣ	?	?	?	?	DULAT: NOT FOUND
+137621	arbdd	arbdd/	ảrbdd	n. m. sg.	rest	
 # KTU 1.3 IV:31						
-10193	awṣ	a&w(rṣ/	ảrṣ	n. f.	earth, ground	SHOULD THIS BE arṣ ? see smith p 279 line 29-31
-10194	arbdd	arbdd/	ảrbdd	n. m.	rest, tranquillity	
-10195	l	l(I)	l (I)	prep.	to	
-10196	kbd	kbd(I)/	kbd (I)	n.	within	
-10197	šdm	šd(I)/m	šd (I)	n. m.	open field	
-10198	ap	ap(I)	ảp (I)	adv./conj.	also	
-10198	ap	ap(II)/	ảp (II)	n. m.	nose	
+137622	l	l(I)	l (I)	prep.	to	
+137623	kbd	kbd(I)/	kbd (I)	n. f.	within	
+137624	šdm	šd(I)/m	šd (I)	n. m. pl.	open field	
+137625	ap	ap(I)	ảp (I)	adv./conj.	also	
+137626	mṯn	mṯn/	mṯn	n. m. sg.	repetition	
+137627	rgmm	rgm/	rgm	n. m. pl.	word	
 # KTU 1.3 IV:32						
-10199	mṯn	mṯn/	mṯn	n. m.	repetition	
-10200	rgmm	rgm/~m	rgm	n. m.	word, expression, saying	
-10201	argmn	!a!rgm/~n	rgm	n. m.	word, expression, saying	energic
-10202	lk	!!(hlk[	/h-l-k/	vb G	to go, go away	
-10203	lk	!!(hlk[	/h-l-k/	vb G	to go, go away	
+137628	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
+137628	argmn	argmn/	ả/ỉrgmn	n. m. sg.	payment of tribute to the Hittite court	
+137629	lk	l(I)+k	l (I)	prep.	to	
+137630	lk	l(I)+k	l (I)	prep.	to	
+137631	ˤnn	ˤnn/	ʕnn	n. m.	manservant	
+137632	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.3 IV:33						
-10204	ˤnn	ˤnn/	ʕnn	n. m.	manservant, servant	
-10205	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10206	atm	atm	ảtm	pers. pn.	you	
-10207	bštm	bš[tm	/b-š/	vb G	to go slowly, be late	
-10208	w	w	w	conj.	and	
-10209	an	an(I)	ản (I)	pers. pn.	I	
+137633	atm	atm	ảtm	pers. pn.	you	
+137634	bštm	bš[tm	/b-š/	vb G	to go slowly	
+137635	w	w	w	conj.	and	
+137636	an	an(I)	ản (I)	pers. pn.	I	
+137637	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
 # KTU 1.3 IV:34						
-10210	šnt	šn(w[t	/š-n-w/	vb G	to change: a) reflex., to be disfigured, deformed	
-10211	uġr	uġr/	ủġr	TN	subterranean water course	
-10212	l	l(I)	l (I)	prep.	to	
-10212	l	l(III)	l (III)	functor	certainly	
-10213	rḥq	rḥq/	rḥq	adj. m.	distant	
-10214	ilm	il(I)/m	ỉl (I)	n. m.	god	
+137638	uġr	uġr/	ủġr	TN	subterranean water course	
+137639	l	l(I)	l (I)	prep.	to	
+137640	rḥq	rḥq[	/r-ḥ-q/	vb G	to go away	
+137640	rḥq	rḥq/	rḥq	adj. m. sg.	distant	
+137641	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+137642	inbb	inbb/	ỉnbb	TN	god (of the) mountain	
 # KTU 1.3 IV:35						
-10215	inbb	inbb/	ỉnbb	TN	god	
-10216	l	l(I)	l (I)	prep.	to	
-10216	l	l(III)	l (III)	functor	certainly	
-10217	rḥq	rḥq/	rḥq	adj. m.	distant	
-10218	ilnym	ilny/m	ỉlny	adj. m. or n. m.	divine one	
-10219	ṯn	ṯn(I)/	ṯn (I)	num.	two	are numbers not like nouns?
+137643	l	l(I)	l (I)	prep.	to	
+137643	l	l(II)	l (II)	adv.	no	
+137643	l	l(III)	l (III)	functor	certainly	
+137644	rḥq	rḥq[	/r-ḥ-q/	vb G	to go away	
+137644	rḥq	rḥq/	rḥq	adj. m. sg.	distant	
+137645	ilnym	ilny/m	ỉlny	adj. m. or n. m. pl.	divine one	
+137646	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+137647	mṯpdm	mṯpd/m	mṯpd	n. m. du.	layer	
 # KTU 1.3 IV:36						
-10220	mṯpdm	mṯpd/m	mṯpd	n. m.	layer, stratum	
-10221	tḥt	tḥt(I)	tḥt (I)	prep.	under, beneath	
-10222	ˤnt	ˤn/t	ʕn (I)	n. f.	eye	
-10223	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10224	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
-10225	mtḥ	mtḥ/	mtḥ	n. m.	to be long	
+137648	tḥt	tḥt(I)	tḥt (I)	prep.	under	
+137649	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
+137650	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137651	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+137652	mtḥ	mtḥ/	mtḥ	n. m.	to be long	
+137653	ġyrm	ġyr/m	ġyr	n. m. pl.	depth	
 # KTU 1.3 IV:37						
-10226	ġyrm	ġyr/m	ġyr	n. m.	depth, depressed ground	
-10227	idk	idk	ỉdk	narrative adv. functor	then, and so, so then	
-10228	l	l(I)	l (I)	prep.	to	
-10228	l	l(II)	l (II)	adv.	no	
-10228	l	l(III)	l (III)	functor	certainly	
-10229	ttn	!t!(ytn[	/y-t-n/	vb G	to give, hand over, grant, bestow	
-10230	pnm	pn(m/m	pnm	n. m. pl. tant.	face, countenance	
-10231	ˤm	ˤm(I)	ʕm (I)	prep.	to, towards, up to	
+137654	idk	idk	ỉdk	narrative adv. functor	then	
+137655	l	l(I)	l (I)	prep.	to	
+137655	l	l(II)	l (II)	adv.	no	
+137655	l	l(III)	l (III)	functor	certainly	
+137656	ttn	ytn[	/y-t-n/	vb G	to give	
+137657	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
+137658	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+137659	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137659	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.3 IV:38						
-10232	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10233	mrym	mrym/	mrym	n. m.	height	
-10234	ṣpn	ṣpn/	ṣpn	TN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-10235	b	b	b	prep.	in	
-10236	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	isn't it a noun?
-10237	šd	šd(I)/	šd (I)	n. m.	open field	
-10238	rbt	rb/t	rb (I)	adj. m.	great, large	
+137660	mrym	mrym/	mrym	n. m. sg.	height	
+137661	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+137662	b	b	b	prep.	in	
+137663	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+137663	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+137664	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
+137665	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
+137666	kmn	kmn(I)/	kmn (I)	n. m. sg.	acre	
 # KTU 1.3 IV:39						
-10239	kmn	kmn(I)/	kmn (I)	n. m.	acre	
-10240	hlk	hlk(I)/	hlk (I)	n. m.	walk, course	
-10241	aḫth	aḫ(t/t+h	ảḫt (I)	n. f.	sister	
-10242	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10243	yˤn	!y!ˤn[	/ʕ-n/	vb G/D	to see, look	
+137667	hlk	hlk(I)/	hlk (I)	n. m. sg.	walk	
+137668	aḫth	aḫt(I)/+h	ảḫt (I)	n. f.	sister (related by blood)	
+137669	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137669	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+137670	yˤn	!y!ˤn[:d	/ʕ-n/	vb G/D	to see	
+137671	tdrq	tdrq/	tdrq	n. m. sg.	nimble step	
 # KTU 1.3 IV:40						
-10244	tdrq	tdrq/	tdrq	n. m.	nimble step, march	
-10245	ybnt	ybn(t/t	ybnt	n. f.	creature	
-10246	abh	ab/+h	ảb	n. m.	father	
-10247	šrḥq	]š]rḥq[	/r-ḥ-q/	vb Š	to go away	
-10248	aṯt	aṯ(t/t	ảṯt	n. f.	woman	
-10249	l	l(I)	l (I)	prep.	to	
+137672	ybnt	ybn(t/t	ybnt	n. f. sg.	creature	
+137673	abh	ab/+h	ảb	n. m.	father	
+137674	šrḥq	]š]rḥq[	/r-ḥ-q/	vb Š	to go away	
+137675	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
+137675	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
+137676	l	l(I)	l (I)	prep.	to	
+137677	pnnh	pnm/	pnm	n. m. pl. tant.	face	
 # KTU 1.3 IV:41						
-10250	pnnh	pn/(m~n+h	pn	functor	lest	encl nun pron suff
-10251	št	št[	/š-t(-t)/	vb G/Gpass	devastate, break	
-10252	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-10253	qdmh	qdm(II)+h	qdm (II)	prep.	in front of	
-10254	mria	mr(u&i(II)/&a	mrủ (II)	n. m.	animal fattener	the first aleph-i is either an error or a vowel letter for i
-10255	w	w	w	conj.	and	
+137678	št	št[:pass	/š-t/	vb G/Gpass	to place	
+137679	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+137680	qdmh	qdm(II)+h	qdm (II)	prep.	in front of	
+137681	mria	?	?	?	?	DULAT: NOT FOUND
+137682	w	w	w	conj.	and	
+137683	tk	tk/	tk	n. m.	centre	
 # KTU 1.3 IV:42						
-10256	tk	tk/	tk	n. m.	centre, middle	
-10257	pnh	pn/(m+h=	pn	functor	lest	
-10258	tḥspn	!t!ḥsp[n	/ḥ-s-p/	vb G	to draw, collect water	plur
-10259	mh	mh	m(h)	pers. pn.	what?	
-10260	w	w	w	conj.	and	
+137684	pnh	pn(m/+h	pnm	n. m. pl. tant.	face	
+137685	tḥspn	!t!ḥsp[n	/ḥ-s-p/	vb G	to draw	
+137686	mh	mh/	mh/y	n. m. sg.	water	
+137686	mh	m	m(h)	pers. pn.	what?	
+137687	w	w	w	conj.	and	
+137688	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	
 # KTU 1.3 IV:43						
-10261	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G	to wash	
-10262	ṭl	ṭl/	ṭl	n. m.	dew	
-10263	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-10264	šmn	šmn(I)/	šmn (I)	n. m.	oil	
-10265	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10266	ṭl	ṭl/	ṭl	n. m.	dew	
-10267	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
+137689	ṭl	ṭl/	ṭl	n. m. sg.	dew	
+137690	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+137691	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
+137692	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137693	ṭl	ṭl/	ṭl	n. m. sg.	dew	
+137694	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+137695	tskh	nsk[h:pass	/n-s-k/	vb G/Gpass	to pour (out)	
 # KTU 1.3 IV:44						
-10268	tskh	!t!(nsk[+h=	/n-s-k/	vb G/Gpass	to pour	
-10269	rbb	rbb/	rb(b)	n. m.	drizzle	
-10270	nskh	nsk[/+h=	/n-s-k/	vb G/Gpass	to pour	
+137696	rbb	rb/	rb(b)	n. m. sg.	drizzle	
+137697	nskh	nsk[h:pass	/n-s-k/	vb G/Gpass	to pour (out)	
+137698	kbkbm	kbkb/m	kbkb	n. m.	heavenly body	
 # KTU 1.3 IV:45						
-10271	kbkbm	kbkb/m	kbkb	n. m.	heavenly body, star	
-10272	ttpp	!t!(n]t]pp[	/n-p(-p)/	vb Gt	to sprinkle oneself, anoint oneself	
-10273	anhbm	anhb/m	ảnhb	n. m.	ein Stein	
-10274	d	d	d	det. or rel. functor	the one(s) of	
-10275	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+137699	ttpp	n]t]p[p	/n-p(-p)/	vb Gt	to sprinkle oneself	
+137700	anhbm	anhb/m	ảnhb	n. m. pl.	ein Stein	
+137701	d	d	d	det. or rel. functor	the one(s) of	
+137702	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+137702	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+137703	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+137703	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
+137703	šd	šdy[	/š-d-y/	vb G	to pour	
 # KTU 1.3 IV:46						
-10276	šd	šd(I)/	šd (I)	n. m.	open field	
-10277	ẓuh	ẓ(u/u+h	ẓủ	n. m.	exhalation, secretion > excrement	u is not just part of the root but also case ending
-10278	b	b	b	prep.	in	
-10279	ym	ym(II)/	ym (II)	n. m.	sea	
+137704	ẓuh	ẓu/+h	ẓủ	n. m. sg.	exhalation	
+137705	b	b	b	prep.	in	
+137706	ym	ym(I)/	ym (I)	n. m. sg.	day	
+137706	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+137707	xxxxxxxx	?	?	?	?	
 # KTU 1.3 IV:47						
-10280	xxxxxxxx	?	?	?	?	
-10281	bt	bt(II)/	bt (II)	n. m.	house, building	line 47 p281
-10282	l	l(I)	l (I)	prep.	to	
-10283	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10284	km	k(III)	k (III)	functor	when	???
-10284	km	k(I)	k (I)	prep.	like	???
-10284	km	k(IV)	k (IV)	adv.	thus	???
-10284	km	km	km	prep./conj./adv.		???
-10284	km	+km, +km=	-km			???
-10285	ilm	il(I)/m	ỉl (I)	n. m.	god	
+137708	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137708	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137709	lbˤl	?	?	?	?	DULAT: NOT FOUND
+137710	km	k(III)	k (III)	functor	when	
+137710	km	k(I)	k (I)	prep.	like	
+137710	km	k(IV)	k (IV)	adv.	thus	
+137710	km	km	km	prep./conj./adv.		
+137710	km	+km, +km=	-km			
+137711	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+137712	w	w	w	conj.	and	
+137713	ḥẓr	ḥẓr/	ḥẓr	n. m. sg.	mansion	
 # KTU 1.3 IV:48						
-10286	w	w	w	conj.	and	
-10287	ḥẓr	ḥẓr/	ḥẓr	n. m.	mansion	
-10288	k	+k	-k (I)			
-10288	k	~k	-k (II)			
-10288	k	k(III)	k (III)	Subordinating or completive functor	when	
-10288	k	k(I)	k (I)	prep.	like	
-10288	k	k(II)	k (II)	emph. functor	yes	
-10289	bn	bn/	bn (I)	n. m.	son	
-10290	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	line 48 p281
-10291	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
+137714	k	+k	-k (I)			
+137714	k	~k	-k (II)			
+137714	k	k(III)	k (III)	Subordinating or completive functor	when	
+137714	k	k(I)	k (I)	prep.	like	
+137714	k	k(II)	k (II)	emph. functor	yes	
+137715	bn	bn(I)/	bn (I)	n. m.	son	
+137716	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
+137717	mṯb	mṯb/	mṯb	n. m. sg.	residence	
+137718	il	il(I)/	ỉl (I)	n. m.	god	
+137719	mẓll	mẓll/	mẓll	n. m. sg.	shelter	
 # KTU 1.3 IV:49						
-10292	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10293	mẓll	mẓll/	mẓll	n. m.	shelter	
-10294	bnh	bn(I)/+h	bn (I)	n. m.	son	
-10295	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
-10296	rbt	rb(t(I)/t	rbt (I)	n. f.	Lady	
+137720	bnh	bn(I)/+h	bn (I)	n. m.	son	
+137721	mṯb	mṯb/	mṯb	n. m. sg.	residence	
+137722	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
+137723	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
+137724	ym	ym(I)/	ym (I)	n. m. sg.	day	
+137724	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 # KTU 1.3 IV:50						
-10297	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	???
-10298	ym	ym(II)/	ym (II)	n. m.	sea	
-10299	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
-10300	pdry	pdry/	pdry	DN	Pidray	
-10301	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+137725	mṯb	mṯb/	mṯb	n. m. sg.	residence	
+137726	pdry	pdry/	pdry	DN	Pidray	
+137726	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
+137727	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137727	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137728	ar	a/	ả/ỉr	n. m. sg.	light	
+137729	mẓll	mẓll/	mẓll	n. m. sg.	shelter	
 # KTU 1.3 IV:51						
-10302	ar	ar/	ả/ỉr	n. m.	light	
-10303	mẓll	mẓll/	mẓll	n. m.	shelter	
-10304	ṭly	ṭly/	ṭly	DN	Tallay	
-10305	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-10306	rb	rb(b/	rb(b)	n. m.	drizzle	CORRECT ?
+137730	ṭly	ṭl/+y	ṭl	n. m.	dew	
+137730	ṭly	ṭly/	ṭly	DN	Tallay	
+137731	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137731	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137732	rb	rb(II)/	rb (II)	n. m. sg.	chief	
+137732	rb	rb(I)/	rb (I)	adj. m. sg.	great	
+137732	rb	rb/	rb(b)	n. m. sg.	drizzle	
+137733	mṯb	mṯb/	mṯb	n. m. sg.	residence	
+137734	arṣy	arṣ/+y	ảrṣ	n. f.	earth	
+137734	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
 # KTU 1.3 IV:52						
-10307	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
-10308	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
-10309	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-10310	yˤbdr	yˤbdr/	yʕbdr	DN	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
+137735	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137735	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137736	yˤbdr	yˤbdr/	yʕbdr	DN	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
+137737	mṯb	mṯb/	mṯb	n. m. sg.	residence	
+137738	klt	kly[t:d	/k-l-y/	vb G/D	to finish	
+137738	klt	kl(t(I)/t	klt (I)	n. f. sg.	bride	
+137738	klt	kl(t(I)/t=	klt (I)	n. f. pl.	bride	
+137738	klt	kl(t(II)/t	klt (II)	n. f. sg.	measure	
 # KTU 1.3 IV:53						
-10311	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
-10312	klt	kl(t(I)/t	klt (I)	n. f.	bride	
-10313	knyt	kny(t/t	knyt	adj. f.	glorious, of noble ancestry	
-10314	w	w	w	conj.	and	
-10315	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer, reply, say	
+137739	knyt	knyt/	knyt	adj. f. pl.	glorious	
+137740	w	w	w	conj.	and	
+137741	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer	
+137741	tˤn	!t!ˤn[:d	/ʕ-n/	vb G/D	to see	
+137741	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G	to be / remain depressed	
+137742	btlt	btl(t/t	btlt	n. f. sg.	virgin	
+137743	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 # KTU 1.3 IV:54						
-10316	btlt	btl(t/t	btlt	n. f.	virgin	
-10317	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	???
-10318	yṯb	!y!ṯb[	/ṯ-b/	vb G	to return, turn round, go back, make one’s way, go through	ROOT ṯ-b
-10319	ly	l(I)+y	l (I)	prep.	to, towards, up to	
-10320	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
-10321	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
+137744	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G	to sit down	
+137745	ly	l(I)+y	l (I)	prep.	to	
+137746	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
+137747	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
+137748	aby	ab/+y	ảb	n. m.	father	
 # KTU 1.3 IV:55						
-10322	aby	ab/+y	ảb	n. m.	father	
-10323	yṯb	!y!ṯb[	/ṯ-b/	vb G	to return, turn round, go back, make one’s way, go through	
-10324	ly	l(I)/+y	l (I)	prep.	to, towards, up to	
-10325	w	w	w	conj.	and	
-10326	lh	l(I)+h	l (I)	prep.	to, towards, up to	
+137749	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G	to sit down	
+137750	ly	l(I)+y	l (I)	prep.	to	
+137751	w	w	w	conj.	and	
+137752	lh	l(I)+h	l (I)	prep.	to	
+137753	aṯb	yṯb[	/y-ṯ-b/	vb G	to sit down	
 # KTU 1.3 V:1						
-10327	aṯb	!a!ṯb[	/ṯ-b/	vb G	to return, turn round, go back, make one’s way, go through	
-10328	xxx	?	?	?	?	
-10329	amṣḫ	?	?	?	?	1.3 V; DULAT: NOT FOUND
-10330	nn	nn/	nn	PN		MERGE WITH PREVIOUS ? No! let us keep it as it is, separately!
-10331	k	+k	-k (I)			???
-10331	k	~k	-k (II)			???
-10331	k	k(III)	k (III)	Subordinating or completive functor	when	???
-10331	k	k(I)	k (I)	prep.	like	???
-10331	k	k(II)	k (II)	emph. functor	yes	???
-10332	imr	imr(I)/	ỉmr (I)	n. m.	lamb	
+137754	xxxamṣḫ	?	?	?	?	DULAT: NOT FOUND
+137755	nn	grš[	/g-r-š/	vb G	to eject	
+137755	nn	gr[	/g-r(-y)/	vb G	to attack	
+137756	k	k(I)	k (I)	prep.	like	
+137757	imr	imr(I)/	ỉmr (I)	n. m. sg.	lamb	
+137758	l	l(I)	l (I)	prep.	to	
+137759	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 V:2						
-10333	l	l(I)	l (I)	prep.	to	
-10334	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10335	ašhlk	!a!!š!hlk[	/h-l-k/	vb Š	to go, go away	
-10336	šbth	šb(t/t/+h	šbt	n. f.	greyness > old age	
-10337	dmm	dm(II)/m(I)	dm (II)	n. m.	blood	WHICH SUFFIX ? adverbial
+137760	ašhlk	!(ʔ&a!]š]hlk[	/h-l-k/	vb Š	to go	
+137761	šbth	šbt/h	šbt	n. f. sg.	greyness > old age	
+137762	dmm	dm(II)/	dm (II)	n. m. pl.	blood	
+137763	šbt	šb(t/t	šbt	n. f. sg.	greyness > old age	
+137764	dqnh	dqn(I)/+h	dqn (I)	n. m.	beard	
 # KTU 1.3 V:3						
-10338	šbt	šb(t/t	šbt	n. f.	greyness > old age	
-10339	dqnh	dqn(I)/+h	dqn (I)	n. m.	beard	
-10340	xxxxkd	?	?	?	?	
-10341	l	l(I)	l (I)	prep.	to	
-10341	l	l(II)	l (II)	adv.	no	
-10341	l	l(III)	l (III)	functor	certainly	
-10342	ytn	!y!(ytn[	/y-t-n/	vb G	to give, hand over, grant, bestow	
-10343	bt	bt(II)/	bt (II)	n. m.	house, building	
-10344	l	l(I)	l (I)	prep.	to	
-10345	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+137765	xxxxkd	?	?	?	?	DULAT: NOT FOUND
+137766	l	l(II)	l (II)	adv.	no	
+137767	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
+137768	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137769	l	l(I)	l (I)	prep.	to	
+137770	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137771	k	+k	-k (I)			
+137771	k	~k	-k (II)			
+137771	k	k(III)	k (III)	Subordinating or completive functor	when	
+137771	k	k(I)	k (I)	prep.	like	
+137771	k	k(II)	k (II)	emph. functor	yes	
+137772	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.3 V:4						
-10346	k	+k	-k (I)			???
-10346	k	~k	-k (II)			???
-10346	k	k(III)	k (III)	Subordinating or completive functor	when	???
-10346	k	k(I)	k (I)	prep.	like	???
-10346	k	k(II)	k (II)	emph. functor	yes	???
-10347	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10348	w	w	w	conj.	and	
-10349	ḥẓr	ḥẓr/	ḥẓr	n. m.	mansion	
-10350	k	+k	-k (I)			???
-10350	k	~k	-k (II)			???
-10350	k	k(III)	k (III)	Subordinating or completive functor	when	???
-10350	k	k(I)	k (I)	prep.	like	???
-10350	k	k(II)	k (II)	emph. functor	yes	???
-10351	bn	bn(I)/	bn (I)	n. m.	son	
-10352	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	???
+137773	w	w	w	conj.	and	
+137774	ḥẓr	ḥẓr/	ḥẓr	n. m. sg.	mansion	
+137775	k	+k	-k (I)			
+137775	k	~k	-k (II)			
+137775	k	k(III)	k (III)	Subordinating or completive functor	when	
+137775	k	k(I)	k (I)	prep.	like	
+137775	k	k(II)	k (II)	emph. functor	yes	
+137776	bn	bn(I)/	bn (I)	n. m.	son	
+137776	bn	bn(II)	bn (II)	prep.	between	
+137776	bn	bn[	/b-n/	vb G	to understand	
+137777	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
+137778	tdˤṣ	!t!dˤṣ[	/d-ʕ-ṣ/	vb G	to fix	
+137779	pˤn	pˤn/	pʕn	n. f. du.	foot	
 # KTU 1.3 V:5						
-10353	tdˤṣ	!t!dˤṣ[	/d-ʕ-ṣ/	vb G	to fix, lean, press	
-10354	pˤn	pˤn/	pʕn	n. f.	foot	
-10355	w	w	w	conj.	and	
-10356	tr	!!tr[/	/t-r/	vb G	to scour, travel through, cross	infinitive
-10357	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10358	idk	idk	ỉdk	narrative adv. functor	then, and so, so then	
-10359	l	l(I)	l (I)	prep.	to	
-10359	l	l(II)	l (II)	adv.	no	
-10359	l	l(III)	l (III)	functor	certainly	
+137780	w	w	w	conj.	and	
+137781	tr	tr[	/t-r/	vb G	to scour	
+137781	tr	tr(II)/	tr (II)	n. m. sg.	turtledove	
+137782	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+137783	idk	idk	ỉdk	narrative adv. functor	then	
+137784	l	l(I)	l (I)	prep.	to	
+137784	l	l(II)	l (II)	adv.	no	
+137784	l	l(III)	l (III)	functor	certainly	
+137785	ttn	ytn[	/y-t-n/	vb G	to give	
+137786	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 # KTU 1.3 V:6						
-10360	ttn	!t!(ytn[	/y-t-n/	vb G	to give, hand over, grant, bestow	
-10361	pnm	pn(m/m	pnm	n. m. pl. tant.	face, countenance	
-10362	ˤm	ˤm(I)	ʕm (I)	prep.	to, towards, up to	
-10363	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10364	mbk	mbk/	mbk	n. m.	source, spring	
-10365	nhrm	nhr/m	nhr	n. m.	river	
+137787	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+137788	il	il(I)/	ỉl (I)	n. m.	god	
+137789	mbk	mbk/	mbk	n. m. sg.	source	
+137790	nhrm	nhr/+m(I)	nhr	n. m.	river	
+137791	qrb	qrb[	/q-r-b/	vb G	to approach	
+137791	qrb	qrb/	qrb	n. m. sg.	inside	
+137792	apq	apq/	ảpq	n. m. sg.	spring	
 # KTU 1.3 V:7						
-10366	qrb	qrb/	qrb	n. m.	inside, middle	
-10367	apq	apq/	ảpq	n. m.	spring, source	
-10368	thmtm	thm(t/tm	thmt	n. f.	Primordial Ocean	
-10369	tgl	!t!gl(y[	/g-l-y/	vb G/N	to present oneself, make one’s way, go	
-10370	ḏd	ḏd(II)/	ḏd (II)	n. m.	grotto, cave	
-10371	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
+137793	thmtm	thm(t/tm	thmt	n. f. du.	Primordial Ocean	
+137794	tgl	!t!](n]gl(y[	/g-l-y/	vb G/N	to present oneself	
+137795	ḏd	ḏd(I)/	ḏd (I)	n. m. sg.	breast	
+137795	ḏd	ḏd(III)/	ḏd (III)	n. m. sg.	flock	
+137796	il	il(I)/	ỉl (I)	n. m.	god	
+137797	w	w	w	conj.	and	
+137798	tbu	!t!b(ʔ[&u	/b-ʔ/	vb G	to enter	
 # KTU 1.3 V:8						
-10372	w	w	w	conj.	and	
-10373	tbu	!t!b(ʔ&u[	/b-ʔ/	vb G	to enter, come, reach	
-10374	qrš	qrš/	qrš	n. m.	private room	
-10375	mlk	mlk(I)/	mlk (I)	n. m.	king	
-10376	ab	ab/	ảb	n. m.	father	
+137799	qrš	qrš/	qrš	n. m. sg.	private room	
+137800	mlk	mlk[	/m-l-k/	vb G	to reign	
+137800	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+137801	ab	ab/	ảb	n. m. sg.	father	
+137802	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+137802	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
+137803	mṣr	mṣr/	mṣr	n. m. sg.	sob	
 # KTU 1.3 V:9						
-10377	šnm	šn(t/m	šnt (I)	n. f.	year	
-10378	mṣr	mṣr/	mṣr	n. m.	sob	
-10379	tbu	!t!b(ʔ&u[	/b-ʔ/	vb G	to enter, come, reach	
-10380	ḏdm	ḏd(II)/m(I)	ḏd (II)	n. m.	grotto, cave	SUFFIX?
-10381	qny	qny[/	/q-n-y/	vb G	to acquire	active participle, Corrected text, SMITH p 325 line 9: tatanniyu
-10382	w	w	w	conj.	and	
+137804	tbu	!t!b(ʔ[&u	/b-ʔ/	vb G	to enter	
+137805	ḏdm	ḏd(II)/m	ḏd (II)	n. m. pl.	grotto	
+137806	qny	qny[	/q-n-y/	vb G	to acquire	
+137807	wadn	?	?	?	?	DULAT: NOT FOUND
+137808	bn	bn(I)/	bn (I)	n. m.	son	
+137809	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.3 V:10						
-10383	adn	adn(I)/	ảdn (I)	n. m.	lord, master	
-10384	bn	bn(I)/	bn (I)	n. m.	son	
-10385	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10386	qlh	ql(I)/+h=	ql (I)	n. m.	voice, shout, cry	
-10387	yšˤmˤ	!y!š&ˤmˤ[	/š-m-ʕ/	vb	to hear, listen	CORRECT? MIDDLE ˤ
-10388	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
-10389	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
+137810	qlh	ql(I)/h	ql (I)	n. m. sg.	voice	
+137811	yšˤmˤ	?	?	?	?	DULAT: NOT FOUND
+137812	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
+137813	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
+137814	abh	ab/+h	ảb	n. m.	father	
+137815	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer	
+137815	yˤn	!y!ˤn[:d	/ʕ-n/	vb G/D	to see	
+137815	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G/Dpass	to be / remain depressed	
+137816	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.3 V:11						
-10390	abh	ab/+h=	ảb	n. m.	father	
-10391	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer, reply, say	
-10392	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	MISSING IN SMITH p325 line 11
-10393	b	b	b	prep.	in	
-10394	šbˤt	šbˤ(I)/t	šbʕ (I)	n. num.	seven	feminine ending
-10395	ḥdrm	ḥdr/m	ḥdr	n. m.	room, chamber	
+137817	b	b	b	prep.	in	
+137818	šbˤt	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+137819	ḥdrm	ḥdr/m	ḥdr	n. m. pl.	room	
+137820	b	b	b	prep.	in	
+137821	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+137822	ap	ap(II)/	ảp (II)	n. m.	nose	
 # KTU 1.3 V:12						
-10396	b	b	b	prep.	in	
-10397	ṯmnt	ṯmn(I)/t	ṯmn(y) (I)	num.	eight	
-10398	ap	ap(I)	ảp (I)	adv./conj.	also	
-10398	ap	ap(II)/	ảp (II)	n. m.	nose	
-10399	sgrt	sgr(t/t	sgrt	n. f.	room, chamber	plural
+137823	sgrt	sgr[t	/s-g-r/	vb G	to close	
+137823	sgrt	sgr(t/t	sgrt	n. f. sg.	room	
+137824	gm	g/	g	n. m. sg.	(loud) voice	
+137824	gm	gm(II)	gm (II)	adv.	also	
+137825	xhxx	?	?	?	?	DULAT: NOT FOUND
+137826	hxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 V:13						
-10400	gm	gm	gm (II)	adv.	also, even	
-10401	xhxx	?	?	?	?	
+137827	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
+137827	ˤn	ˤn[	/ʕ-n/	vb G	to see	
+137827	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+137828	ṯkxxxxxxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 V:14						
-10402	hxxxxxxxxx	?	?	?	?	
-10403	ˤn	ˤn/	ʕn (I)	n. f.	eye	
+137829	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	
+137830	ṯxxxxxxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 V:15						
-10404	ṯkxxxxxxxxxxxxxxxx	?	?	?	?	
-10405	ˤln	ˤl~n	ʕln	→		
-10406	ṯxxxxxxxxxxxxxxxx	?	?	?	?	
+137831	l	l(I)	l (I)	prep.	to	
+137832	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+137833	ġlmmxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 V:16						
-10407	l	l(I)	l (I)	prep.	to	
-10408	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-10409	ġlmmxxxxxxxxx	ġlm/m	ġlm	n. m.	boy, youth	
-10410	mid	mid/	mỉ/ủd	n. m.	abundance	
+137834	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
+137835	adn	adn(I)/	ảdn (I)	n. m. sg.	lord	
+137836	xxxṣn	?	?	?	?	DULAT: NOT FOUND
+137837	ˤxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 V:17						
-10411	adn	adn/	ảdn (I)	n. m.	lord, master	
-10412	xxx	?	?	?	?	
-10413	ṣn	?	?	?	?	?; DULAT: NOT FOUND
-10414	ˤxxxxxxxxx	?	?	?	?	
+137838	nrm	nr/+m(I)	nr	n. m.	sheen	
+137838	nrm	nr[+m(I)	/n-r/	vb	to shine	
+137839	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+137840	špš	špš/	špš	n. sg.	sun	
+137841	ṣḥrrt	ṣḥrr[t	/ṣ-ḥ-r-r/	vb G	to roast	
 # KTU 1.3 V:18						
-10415	nrm	nr/~m	nr	n. m.	sheen, gleam	SMITH p326: nr(t/t  line 17
-10416	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10417	špš	špš/	špš	n.	sun	
-10418	ṣḥrrt	ṣḥrr[t	/ṣ-ḥ-r-r/	vb G	to roast, burn	
-10419	la	l(u/&a	lả	n. m.	power, strength, vigour	a noun in accusative, the lexicon should be lu
-10420	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-10421	b	b	b	prep.	in	
+137842	la	la/	lả	n. m. sg.	power	
+137843	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+137844	b	b	b	prep.	in	
+137845	yd	yd(I)/	yd (I)	n. f. sg.	hand	
+137846	bn	bn(I)/	bn (I)	n. m.	son	
+137847	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+137848	mt	m(t(II)/t	mt (II)	n. m. sg.	death	
+137848	mt	mt[	/m-t/	vb G	to die	
+137848	mt	m(t(I)/t	mt (I)	n. m. sg.	dead person	
 # KTU 1.3 V:19						
-10422	yd	yd(I)/	yd (I)	n. f.	hand	
-10423	bn	bn(I)/	bn (I)	n. m.	son	
-10424	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10425	mt	mt(II)/	mt (II)	n. m.	death	
-10426	w  tˤn	?	?	?	?	SPLIT!; DULAT: NOT FOUND
-10427	btlt	btl(t/t	btlt	n. f.	virgin	
-10428	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137849	w	w	w	conj.	and	
+137850	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer	
+137850	tˤn	!t!ˤn[:d	/ʕ-n/	vb G/D	to see	
+137850	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G	to be / remain depressed	
+137851	btlt	btl(t/t	btlt	n. f. sg.	virgin	
+137852	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137853	bnt	bn(t(II)/t	bnt (II)	n. f. sg.	produce	
+137853	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
+137853	bnt	bn(t(III)/t	bnt (III)	n. m. sg.	tamarisk	
+137854	bht	bt(II)/	bt (II)	n. m. pl.	house	
 # KTU 1.3 V:20						
-10429	bnt	bn(t(I)/t	bnt (I)	n. f.	masonry, building, construction, creation	
-10430	bht	bht/	bht	→		MERGE WITH NEXT, is pron suffix
-10431	k	+k	-k (I)			
-10431	k	~k	-k (II)			
-10431	k	k(III)	k (III)	Subordinating or completive functor	when	
-10431	k	k(I)	k (I)	prep.	like	
-10431	k	k(II)	k (II)	emph. functor	yes	
-10432	y	+y, [y	-y (I)	prep. functor	my	
-10432	y	~y	-y (II)	prep. functor	indeed	
-10432	y	y	y	prep. functor	oh!	
-10433	ilm	il(I)/m	ỉl (I)	n. m.	god	plural
-10434	bnt	bn(t(I)/t	bnt (I)	n. f.	masonry, building, construction, creation	
-10435	bhtk	bht/+k	bht	→		
+137855	k	+k	-k (I)			
+137855	k	~k	-k (II)			
+137855	k	k(III)	k (III)	Subordinating or completive functor	when	
+137855	k	k(I)	k (I)	prep.	like	
+137855	k	k(II)	k (II)	emph. functor	yes	
+137856	y	y	y	prep. functor	oh!	
+137857	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+137858	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
+137859	bhtk	bt(II)/+k	bt (II)	n. m.	house	
+137860	al	al(I)	ảl (I)	neg. functor	no	
+137861	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb G/D	to be glad	
 # KTU 1.3 V:21						
-10436	al	al(I)	ảl (I)	neg. functor	no	
-10436	al	al(II)	ảl (II)	pos. functor	surely	
-10437	tšmḫ	!t=!šmḫ[	/š-m-ḫ/	vb G/D	to be glad, rejoice	plural
-10438	al	al(I)	ảl (I)	neg. functor	no	
-10438	al	al(II)	ảl (II)	pos. functor	surely	
-10439	tšmḫ	!t!šmḫ[	/š-m-ḫ/	vb G/D	to be glad, rejoice	
-10440	b	b	b	prep.	in	
+137862	al	al(I)	ảl (I)	neg. functor	no	
+137862	al	al(II)	ảl (II)	pos. functor	surely	
+137863	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb G/D	to be glad	
+137864	b	b	b	prep.	in	
+137865	rm	rm(II)/	rm (II)	n. m. sg.	erection	
+137866	hklk	hkl/	hkl	n. m. sg.	palace	
 # KTU 1.3 V:22						
-10441	rm	rm(I)/	rm (I)	adj. m.	high, lofty, sublime, exalted	
-10442	hklk	hkl/+k	hkl	n. m.	palace	
-10443	al	al(I)	ảl (I)	neg. functor	no	al(I) or al(II)
-10443	al	al(II)	ảl (II)	pos. functor	surely	al(I) or al(II)
-10444	aḫdhm	!(ʔ&a!(ʔḫd[+h~m	/ʔ-ḫ-d(/ḏ)/	vb G	to collect, to take	this is PC 1cs
-10445	b	b	b	prep.	in	
-10446	ymny	ymn(I)/+y	ymn (I)	n. m.	right	
+137867	al	al(II)	ảl (II)	pos. functor	surely	
+137868	aḫdhm	(ʔ&aḫd[hm	/ʔ-ḫ-d(/ḏ)/	vb G	to collect	
+137869	b	b	b	prep.	in	
+137870	ymny	ymn(I)/y	ymn (I)	n. m. sg.	right (side)	
+137871	xxx	?	?	?	?	
+137872	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137872	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.3 V:23						
-10447	xxx	?	?	?	?	
-10448	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10449	b	b	b	prep.	in	
-10450	gdlt	gdl(t(II)/t	gdlt (II)	n. f.	power, reach	Page 326 Line 23
+137873	b	b	b	prep.	in	
+137874	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg.	power	
+137875	arkty	arkt/+y	ảrkt	n. f. sg.	length (of arm, etc.)	
+137876	amḫṣxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 V:24						
-10451	arkty	ark(t/t+y	ảrkt	n. f.	length	
-10452	amḫṣ	!(ʔ&a!mḫṣ[	/m-ḫ-ṣ/	vb	to wound, beat, crush, kill	
-10453	xxx	?	?	?	?	
-10454	qdqdhk	qdqd&h/+k	qdqd	n. m.	skull, crown	Extra h? Not in Smith p 326 line 23
+137877	qdqdhk	qdqd&h/+k	qdqd	n. m.	skull	
+137878	ašhlk	!(ʔ&a!]š]hlk[	/h-l-k/	vb Š	to go	
+137879	šbtk	šb(t/t	šbt	n. f. sg.	greyness > old age	
+137880	dmm	dm(II)/	dm (II)	n. m. pl.	blood	
 # KTU 1.3 V:25						
-10455	ašhlk	!(ʔ&a!]š]hlk[	/h-l-k/	vb Š	to go, go away	
-10456	šbtk	šb(t/t+k	šbt	n. f.	greyness > old age	
-10457	dmm	dm(II)/m(I)	dm (II)	n. m.	blood	
-10458	šbt	šb(t/t	šbt	n. f.	greyness > old age	
+137881	šbt	šb(t/t	šbt	n. f. sg.	greyness > old age	
+137882	dqnk	dqn(I)/+k	dqn (I)	n. m.	beard	
+137883	mmˤm	mmˤ/m	mmʕ	n. m. pl.	gore	
+137884	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G	to answer	
 # KTU 1.3 V:26						
-10459	dqnk	dqn(I)/+k	dqn (I)	n. m.	beard	
-10460	mmˤm	mmˤ/m(I)	mmʕ	n. m. pl. tant.	gore	
-10461	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G	to answer, reply, say	
-10462	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10463	b	b	b	prep.	in	
-10464	šbˤt	šbˤ(I)/t	šbʕ (I)	n. num.	seven	
+137885	il	il(I)/	ỉl (I)	n. m.	god	
+137886	b	b	b	prep.	in	
+137887	šbˤt	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+137888	ḥdrm	ḥdr/m	ḥdr	n. m. pl.	room	
+137889	b	b	b	prep.	in	
+137890	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 1.3 V:27						
-10465	ḥdrm	ḥdr/m	ḥdr	n. m.	room, chamber	
-10466	b	b	b	prep.	in	
-10467	ṯmnt	ṯmn(t/t	ṯmn(y) (I)	num.	eight	
-10468	ap	ap(I)	ảp (I)	adv./conj.	also	WHICH LEX ???
-10468	ap	ap(II)/	ảp (II)	n. m.	nose	WHICH LEX ???
-10469	sgrt	sgr(t/t	sgrt	n. f.	room, chamber	
-10470	ydˤtk	!y!(ydˤ[t+k	/y-d-ʕ/ (I)	vb	to know, to recognise, distinguish, consider	
+137891	ap	ap(I)	ảp (I)	adv./conj.	also	
+137891	ap	ap(II)/	ảp (II)	n. m.	nose	
+137892	sgrt	sgr(t/t	sgrt	n. f. sg.	room	
+137893	ydˤtk	!y!(ydˤ(I)[t+k	/y-d-ʕ/ (I)	vb	to know	
+137894	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137894	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137895	k	k(III)	k (III)	Subordinating or completive functor	when	
+137896	anšt	(ʔ&anš[t	/ʔ-n-š/	vb G	generic mng 1) to languish	
 # KTU 1.3 V:28						
-10471	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-10472	k	+k	-k (I)			???
-10472	k	~k	-k (II)			???
-10472	k	k(III)	k (III)	Subordinating or completive functor	when	???
-10472	k	k(I)	k (I)	prep.	like	???
-10472	k	k(II)	k (II)	emph. functor	yes	???
-10473	anšt	(ʔ&anš[t==	/ʔ-n-š/	vb G	to languish, fall ill	SC or adjective ?
-10474	k	+k	-k (I)			???
-10474	k	~k	-k (II)			???
-10474	k	k(III)	k (III)	Subordinating or completive functor	when	???
-10474	k	k(I)	k (I)	prep.	like	???
-10474	k	k(II)	k (II)	emph. functor	yes	???
-10475	in	in/	ỉn	n. m.	lack of, absence	
-10476	b	b	b	prep.	in	
-10477	ilht	il(t(I)/&ht	ỉlt (I)	n. f.	goddess	Plural of ilt 'goddess' extended by h
+137897	k	+k	-k (I)			
+137897	k	~k	-k (II)			
+137897	k	k(III)	k (III)	Subordinating or completive functor	when	
+137897	k	k(I)	k (I)	prep.	like	
+137897	k	k(II)	k (II)	emph. functor	yes	
+137898	in	in/	ỉn	n. m. sg.	lack of	
+137899	b	b	b	prep.	in	
+137900	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl.	goddess	
+137901	qlṣk	qlṣ[+k	/q-l-ṣ/	vb	to resist	
+137902	mh	mh/	mh/y	n. m. sg.	water	
+137902	mh	m	m(h)	pers. pn.	what?	
+137903	taršn	ʔrš[šn:d	/ʔ-r-š/	vb G/D	to request	
 # KTU 1.3 V:29						
-10478	qlṣk	qlṣ[/k	/q-l-ṣ/	vb	to resist, stand up to, oppose	Verb form, infinitive or participle
-10479	mh	mh	m(h)	pers. pn.	what?	
-10480	taršn	!t!(ʔ&arš[n	/ʔ-r-š/	vb G/D	to request, wish, demand, claim	
-10481	l	l(I)	l (I)	prep.	to	???
-10481	l	l(III)	l (III)	functor	certainly	???
-10482	btlt	btl(t/t	btlt	n. f.	virgin	
-10483	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	???
-10484	w	w	w	conj.	and	
+137904	l	l(I)	l (I)	prep.	to	
+137904	l	l(III)	l (III)	functor	certainly	
+137905	btlt	btl(t/t	btlt	n. f. sg.	virgin	
+137906	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+137907	w	w	w	conj.	and	
+137908	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer	
+137908	tˤn	!t!ˤn[:d	/ʕ-n/	vb G/D	to see	
+137908	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G	to be / remain depressed	
+137909	btlt	btl(t/t	btlt	n. f. sg.	virgin	
+137910	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 # KTU 1.3 V:30						
-10485	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G	to answer, reply, say	
-10486	btlt	btl(t(I)/t	btlt	n. f.	virgin	
-10487	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
-10488	tḥmk	tḥm/+k	tḥm	n. m.	message	
+137911	tḥmk	tḥm/+k	tḥm	n. m. sg.	message	
+137912	il	il(I)/	ỉl (I)	n. m.	god	
+137913	ḥkm	ḥkm/	ḥkm	adj. m. sg.	wise	
+137914	ḥkmk	ḥkm/+k	ḥkm	adj. m.	wise	
 # KTU 1.3 V:31						
-10489	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10490	hkm	hkm/	hkm	?	?	
-10491	ḥkmk	ḥkm/+k	ḥkm	adj. m.	wise	
-10492	ˤm	ˤm(I)	ʕm (I)	prep.	to, towards, up to	
-10493	ˤlm	ˤlm(I)/	ʕlm (I)	n. m.	eternity, perpetuity	
+137915	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+137916	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg.	eternity	
+137917	ḥyt	ḥy(t(I)/t	ḥyt (I)	n. f. sg.	life	
+137918	ḥẓt	ḥẓ(t/t	ḥẓt	adj. f. sg.	happy	
+137919	tḥmk	tḥm/+k	tḥm	n. m. sg.	message	
 # KTU 1.3 V:32						
-10494	ḥyt	ḥy(t(I)/t	ḥyt (I)	n. f.	life	
-10495	ḥẓt	ḥẓ(t/t	ḥẓt	adj. f.	happy, lucky	
-10496	tḥmk	tḥm/+k	tḥm	n. m.	message	
-10497	mlkn	?	?	?	?	or ~n
+137920	mlkn	mlk(I)	mlk (I)		king	
+137921	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
+137922	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+137923	ṯpṭn	ṯpṭ(II)/+n	ṯpṭ (II)	n. m.	judge	
 # KTU 1.3 V:33						
-10498	aliyn	aliyn/	ảlỉyn	adj. m.	The Very / Most Powerful	
-10499	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10500	ṯpṭn	ṯpṭ(II)/+n	ṯpṭ (II)	n. m.	judge	or ~n
-10501	in	in/	ỉn	n. m.	lack of, absence	
-10502	d	d	d	det. or rel. functor	the one(s) of	
+137924	in	in/	ỉn	n. m. sg.	lack of	
+137925	d	d	d	det. or rel. functor	the one(s) of	
+137926	ˤlnh	ˤl(I)+h	ʕl (I)	prep.	upon	
+137927	klnyy	klny	klny	adv.	all of us together	
+137928	qšh	qš(I)/+h	qš (I)	n. m. sg.	tankard	
 # KTU 1.3 V:34						
-10503	ˤlnh	ˤl(II)~n+h	ʕln	→		
-10504	klnyy	klny~y	klny	adv.	all of us together	or kl(I)+ny~y
-10504	klnyy	kl(I)+ny~y	kl (I)	prep.	all of us together	or kl(I)+ny~y
-10505	qšh	qš/+h	qš (I)	n. m.	tankard	
-10506	nbln	!n!(ybl[~n	/y-b-l/	vb G	to carry, bring, take	
+137929	nbln	ybl[n	/y-b-l/	vb G	to carry	
+137930	klnyy	klny	klny	adv.	all of us together	
+137931	nbl	ybl[	/y-b-l/	vb G	to carry	
+137932	ksh	ks(I)/+h	ks (I)	n. m.	cup	
 # KTU 1.3 V:35						
-10507	klnyy	klny~y	klny	adv.	all of us together	or kl(I)+ny~y
-10507	klnyy	kl(I)+ny~y	kl (I)	prep.	all of us together	or kl(I)+ny~y
-10508	nbl	!n!(ybl[	/y-b-l/	vb G	to carry, bring, take	
-10509	ksh	ks(I)/+h	ks (I)	n. m.	cup, goblet	
-10510	any	(ʔ&any[/	/ʔ-n-y/	vb G	to sigh, groan	participle, or infinitive !!(ʔ&any[/
-10511	l	l(III)	l (III)	functor	certainly	or (IV)??
-10512	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G	to exclaim, shout	
-10513	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
+137933	any	(ʔ&any[	/ʔ-n-y/	vb G	to sigh	
+137934	l	l(III)	l (III)	functor	certainly	
+137935	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G	to exclaim	
+137936	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
+137937	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
+137938	abh	ab/+h	ảb	n. m.	father	
+137939	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.3 V:36						
-10514	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10515	abh	ab/+h	ảb	n. m.	father	
-10516	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10517	mlk	mlk(I)/	mlk (I)	n. m.	king	
-10518	d	d	d	det. or rel. functor	the one(s) of	
+137940	mlk	mlk[	/m-l-k/	vb G	to reign	
+137940	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+137941	d	d	d	det. or rel. functor	the one(s) of	
+137942	yknnh	!y!knn[h:l	/k-n/	vb L	to be (stable)	
+137943	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G	to exclaim	
+137944	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 # KTU 1.3 V:37						
-10519	yknnh	!y!knn[:l+h	/k-n/	vb L	to be (stable), have	this is L-stem verb (paalil)
-10520	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G	to exclaim, shout	
-10521	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	
-10522	w	w	w	conj.	and	
-10523	bnh	bn(I)/h=	bn (I)	n. m.	son	
-10524	ilt	il(t(I)/t	ỉlt (I)	n. f.	goddess	
+137945	w	w	w	conj.	and	
+137946	bnh	bn(I)/+h	bn (I)	n. m.	son	
+137947	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
+137948	w	w	w	conj.	and	
+137949	ṣbrt	ṣbr(t/t	ṣbrt	n. f. sg.	clan	
+137950	arḫh	arḫ/+h	ảrḫ	n. f.	cow	
 # KTU 1.3 V:38						
-10525	w	w	w	conj.	and	
-10526	ṣbrt	ṣbr(t/t	ṣbrt	n. f.	clan, community	
-10527	arḫh	ar&ḫ(y(I)/+h=	ảry (I)	n. m.	fellow, friend, kin	ary (I) kin
-10528	wn	w~n	wn	→		DULAT 926 w (h~n but unnecessary
-10529	in	in/	ỉn	n. m.	lack of, absence	
-10530	bt	bt(II)/	bt (II)	n. m.	house, building	
-10531	l	l(I)	l (I)	prep.	to	
+137951	wn	w	w	conj.	and	
+137951	wn	w+n	w	conj.	and	
+137952	in	in/	ỉn	n. m. sg.	lack of	
+137953	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137953	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137954	l	l(I)	l (I)	prep.	to	
+137955	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+137956	km	k(III)	k (III)	functor	when	
+137956	km	k(I)	k (I)	prep.	like	
+137956	km	k(IV)	k (IV)	adv.	thus	
+137956	km	km	km	prep./conj./adv.		
+137956	km	+km, +km=	-km			
+137957	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.3 V:39						
-10532	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10533	km	k(III)	k (III)	functor	when	
-10533	km	k(I)	k (I)	prep.	like	
-10533	km	k(IV)	k (IV)	adv.	thus	
-10533	km	km	km	prep./conj./adv.		
-10533	km	+km, +km=	-km			
-10534	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10535	ḥẓr	ḥẓr/	ḥẓr	n. m.	mansion	
-10536	k	+k	-k (I)			
-10536	k	~k	-k (II)			
-10536	k	k(III)	k (III)	Subordinating or completive functor	when	
-10536	k	k(I)	k (I)	prep.	like	
-10536	k	k(II)	k (II)	emph. functor	yes	
-10537	bn	bn(I)/	bn (I)	n. m.	son	
-10538	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	
+137958	ḥẓr	ḥẓr/	ḥẓr	n. m. sg.	mansion	
+137959	k	+k	-k (I)			
+137959	k	~k	-k (II)			
+137959	k	k(III)	k (III)	Subordinating or completive functor	when	
+137959	k	k(I)	k (I)	prep.	like	
+137959	k	k(II)	k (II)	emph. functor	yes	
+137960	bn	bn(I)/	bn (I)	n. m.	son	
+137960	bn	bn(II)	bn (II)	prep.	between	
+137960	bn	bn[	/b-n/	vb G	to understand	
+137961	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
+137962	mṯb	mṯb/	mṯb	n. m. sg.	residence	
+137963	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.3 V:40						
-10539	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
-10540	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
-10541	mẓll	mẓll/	mẓll	n. m.	shelter	
-10542	bnh	bn(I)/+h	bn (I)	n. m.	son	
-10543	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
+137964	mẓll	mẓll/	mẓll	n. m. sg.	shelter	
+137965	bnh	bn(I)/+h	bn (I)	n. m.	son	
+137966	mṯb	mṯb/	mṯb	n. m. sg.	residence	
+137967	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
+137968	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 # KTU 1.3 V:41						
-10544	rbt	rb(t(I)/t	rbt (I)	n. f.	Lady	
-10545	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	
-10546	ym	ym(II)/	ym (II)	n. m.	sea	
-10547	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
-10548	pdry	pdry/	pdry	DN	Pidray	
+137969	ym	ym(I)/	ym (I)	n. m. sg.	day	
+137969	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+137970	mṯb	mṯb/	mṯb	n. m. sg.	residence	
+137971	pdry	pdry/	pdry	DN	Pidray	
+137971	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
+137972	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137972	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137973	ar	a/	ả/ỉr	n. m. sg.	light	
 # KTU 1.3 V:42						
-10549	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-10550	ar	ar/	ả/ỉr	n. m.	light	
-10551	mẓll	mẓll/	mẓll	n. m.	shelter	
-10552	ṭly	ṭly/	ṭly	DN	Tallay	
-10553	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+137974	mẓll	mẓll/	mẓll	n. m. sg.	shelter	
+137975	ṭly	ṭl/+y	ṭl	n. m.	dew	
+137975	ṭly	ṭly/	ṭly	DN	Tallay	
+137976	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137976	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137977	rb	rb(II)/	rb (II)	n. m. sg.	chief	
+137977	rb	rb(I)/	rb (I)	adj. m. sg.	great	
+137977	rb	rb/	rb(b)	n. m. sg.	drizzle	
+137978	mṯb	mṯb/	mṯb	n. m. sg.	residence	
 # KTU 1.3 V:43						
-10554	rb	rb/	rb (I)	adj. m.	great, large	lex?? Smith 328 l 42: 'showers'
-10555	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
-10556	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
-10557	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+137979	arṣy	arṣ/+y	ảrṣ	n. f.	earth	
+137979	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
+137980	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+137980	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+137981	yˤbdr	yˤbdr/	yʕbdr	DN	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
+137982	mṯb	mṯb/	mṯb	n. m. sg.	residence	
 # KTU 1.3 V:44						
-10558	yˤbdr	yˤbdr/	yʕbdr	DN	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
+137983		?	?	?	?	
 # KTU 1.3 V:45						
-10559	mṯb	mṯb/	mṯb	n. m.	residence, mansion, dwelling place	
+137984	x	?	?	?	?	
 # KTU 1.3 V:46						
-10560		?	?	?	?	
+137985	x	?	?	?	?	
 # KTU 1.3 V:47						
-10561	x	?	?	?	?	
+137986	ḥ	lqḥ[	/l-q-ḥ/	vb G/N	to get hold of	
 # KTU 1.3 V:48						
-10562	x	?	?	?	?	
+137987	x	?	?	?	?	
 # KTU 1.3 V:49						
-10563	ḥ	?	?	?	?	
+137988		?	?	?	?	
 # KTU 1.3 V:50						
-10564	x	?	?	?	?	
+137989	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 V:51						
-10565		?	?	?	?	
+137990	x	?	?	?	?	
 # KTU 1.3 VI:1						
-10566	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
-10567	x	?	?	?	?	
-10568	ik	ik	ỉk	interr. functor	how?, why?	KTU 1.8 joint to column VI
-10569	mgn	mgn(I)/	mgn (I)	n. m.	gift, present	
+137991	ik	ik	ỉk	interr. functor	how?	
+137992	mgn	mgn(I)/	mgn (I)	n. m. sg.	gift	
+137993	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
+137994	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 # KTU 1.3 VI:2						
-10570	rbt	rb(I)/t	rb (I)	adj. m.	great, large	
-10571	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	
-10572	ym	ym(II)/	ym (II)	n. m.	sea	
-10573	mġẓ	mġẓ/	mġẓ	n. m.	present, gift	
+137995	ym	ym(I)/	ym (I)	n. m. sg.	day	
+137995	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+137996	mġẓ	mġẓ/	mġẓ	n. m.	present	
+137997	qnyt	qny[t	/q-n-y/	vb G	to acquire	
+137998	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.3 VI:3						
-10574	qnyt	qny[/t	/q-n-y/	vb G	to acquire	Verb q-n-y participle
-10575	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10576	w	w	w	conj.	and	
-10577	tn	(ytn[	/y-t-n/	vb	give	imperative, or !(t!(ytn[
-10577	tn	(ytn[/	/y-t-n/	vb	give	imperative, or !(t!(ytn[
-10578	bt	bt(II)/	bt (II)	n. m.	house, building	
-10579	l	l(I)	l (I)	prep.	to	
+137999	w	w	w	conj.	and	
+138000	tn	(ytn[	/y-t-n/	vb	give	
+138000	tn	(ytn[/	/y-t-n/	vb	give	
+138001	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+138001	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+138002	l	l(I)	l (I)	prep.	to	
+138003	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+138004	km	k(III)	k (III)	functor	when	
+138004	km	k(I)	k (I)	prep.	like	
+138004	km	k(IV)	k (IV)	adv.	thus	
+138004	km	km	km	prep./conj./adv.		
+138004	km	+km, +km=	-km			
 # KTU 1.3 VI:4						
-10580	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10581	km	k(III)	k (III)	functor	when	
-10581	km	k(I)	k (I)	prep.	like	
-10581	km	k(IV)	k (IV)	adv.	thus	
-10581	km	km	km	prep./conj./adv.		
-10581	km	+km, +km=	-km			
-10582	ilm	il(I)/m	ỉl (I)	n. m.	god	
-10583	w	w	w	conj.	and	
-10584	ḥẓr	ḥẓr/	ḥẓr	n. m.	mansion	
+138005	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138006	w	w	w	conj.	and	
+138007	ḥẓr	ḥẓr/	ḥẓr	n. m. sg.	mansion	
+138008	k	+k	-k (I)			
+138008	k	~k	-k (II)			
+138008	k	k(III)	k (III)	Subordinating or completive functor	when	
+138008	k	k(I)	k (I)	prep.	like	
+138008	k	k(II)	k (II)	emph. functor	yes	
+138009	bn	bn(I)/	bn (I)	n. m.	son	
+138009	bn	bn(II)	bn (II)	prep.	between	
+138009	bn	bn[	/b-n/	vb G	to understand	
 # KTU 1.3 VI:5						
-10585	k	+k	-k (I)			???
-10585	k	~k	-k (II)			???
-10585	k	k(III)	k (III)	Subordinating or completive functor	when	???
-10585	k	k(I)	k (I)	prep.	like	???
-10585	k	k(II)	k (II)	emph. functor	yes	???
-10586	bn	bn(I)/	bn (I)	n. m.	son	
-10587	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	
-10588	gm	g/~m	g	n. m.	(loud) voice, shout	
+138010	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
+138011	gm	g/	g	n. m. sg.	(loud) voice	
+138011	gm	gm(II)	gm (II)	adv.	also	
+138012	l	l(I)	l (I)	prep.	to	
+138012	l	l(III)	l (III)	functor	certainly	
+138013	ġlmh	ġlm/h	ġlm	n. m. sg.	boy	
 # KTU 1.3 VI:6						
-10589	l	l(I)	l (I)	prep.	to	
-10589	l	l(III)	l (III)	functor	certainly	
-10590	ġlmh	ġlm/+h	ġlm	n. m.	boy, youth	
-10591	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10592	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G	to exclaim, shout	
+138014	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+138014	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
+138015	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G	to exclaim	
+138016	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
+138016	ˤn	ˤn[	/ʕ-n/	vb G	to see	
+138016	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+138017	gpn	gpn(I)/	gpn (I)	n. m. sg.	(vine-)stock	
+138017	gpn	gpn(II)/	gpn (II)	n. m. sg.	harness	
 # KTU 1.3 VI:7						
-10593	ˤn	!!ˤn[	/ʕ-n/	vb G	to see, look	imperative
-10594	gpn	gpn(III)/	gpn (III)	DN	Gupan/one of Baal’s messenger-boys	
-10595	w	w	w	conj.	and	
-10596	ugr	ugr(II)/	ủgr (II)	DN	Ugar/one of the two messenger-boys of Baal	
+138018	w	w	w	conj.	and	
+138019	ugr	ugr(II)/	ủgr (II)	DN	Ugar/one of the two messenger-boys of Baal	
+138019	ugr	ugr(I)/	ủgr (I)	n. m.	field	
+138020	bn	bn(I)/	bn (I)	n. m.	son	
+138020	bn	bn(II)	bn (II)	prep.	between	
+138020	bn	bn[	/b-n/	vb G	to understand	
+138021	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg.	damsel	
+138021	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg.	concealment	
 # KTU 1.3 VI:8						
-10597	bn	bn(I)/	bn (I)	n. m.	son	
-10598	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f.	damsel	
-10599	ˤmm	ˤm(II)/~m	ʕm (II)	n. m.	lineage, ancestors	
-10600	ym	ym(I)/	ym (I)	n. m.	day	
+138022	ˤmm	ˤmm[:pass	/ʕ-m-m/	vb Gpass	to be covered	
+138023	ym	ym(I)/	ym (I)	n. m. sg.	day	
+138023	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+138024	bn	bn(I)/	bn (I)	n. m.	son	
+138024	bn	bn(II)	bn (II)	prep.	between	
+138024	bn	bn[	/b-n/	vb G	to understand	
+138025	ẓlmt	ẓlm(t/t	ẓlmt	n. f. sg.	darkness	
 # KTU 1.3 VI:9						
-10601	bn	bn(I)/	bn (I)	n. m.	son	or b~n (preposition)
-10602	ẓlmt	ẓlm(t/t	ẓlmt	n. f.	darkness	
-10603	rmt	rm(I)/t	rm (I)	adj. m.	high, lofty, sublime, exalted	
-10604	prˤt	prˤ(t/t	prʕt	n. f.	height, peak	
+138026	rmt	rm(I)/t=	rm (I)	adj. m. pl.	high	
+138027	prˤt	prˤt/	prʕt	n. f. pl.	height	
+138028	ibr	ibr(I)/	ỉbr (I)	n. m. sg.	bull	
+138028	ibr	ibr(II)/	ỉbr (II)	n. m. pl.	wing	
+138029	mnt	mn(t(I)/t	mnt (I)	n. f. sg.	portion	
 # KTU 1.3 VI:10						
-10605	ibr	ibr(II)/	ỉbr (II)	n. m.	wing	?
-10606	mnt	mn(t(I)/t	mnt (I)	n. f.	portion, ration	??
+138030	ṣḥrrm	ṣḥrr[m	/ṣ-ḥ-r-r/	vb G	to roast	
+138031	ḥblm	ḥbl(I)/m	ḥbl (I)	n. m.	cord	
 # KTU 1.3 VI:11						
-10607	ṣḥrrm	ṣḥrr[~m	/ṣ-ḥ-r-r/	vb G	to roast, burn	??
-10608	ḥblm	ḥbl/m	ḥbl (I)	n. m.	cord, rope, mooring rope	
-10609	ˤrpt	ˤrpt/	ʕrpt	n. f.	cloud(s)	
+138032	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
+138032	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
+138033	tḥt	tḥt(I)	tḥt (I)	prep.	under	
+138034	x	?	?	?	?	
 # KTU 1.3 VI:12						
-10610	tḥt	tḥt	tḥt (I)	prep.	under, beneath	
-10611	x	?	?	?	?	
-10612	m	m	m(h)	pers. pn.	what?	???
-10613	ˤṣrm	ˤṣr(I)/m	ʕṣr (I)	n. f.	bird	
+138035	m	l(I)	l (I)	prep.	to	
+138036	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
+138037	ḥxx	?	?	?	?	DULAT: NOT FOUND
+138038	tb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 VI:13						
-10614	ḥxx	?	?	?	?	
-10615	tb	?	?	?	?	DULAT: NOT FOUND
-10616	glṯ	glṯ/	glṯ	n. m.	storm	
-10617	isr	?	?	?	?	not in the dictionary, perhaps root ʔ-s-r 'tie'; DULAT: NOT FOUND
+138039	glṯ	glṯ/	glṯ	n. m. sg.	storm	
+138040	isr	?	?	?	?	DULAT: NOT FOUND
+138041	b	b	b	prep.	in	
+138042	rišk	riš(I)/	rỉš (I)	n. m. sg.	head	
 # KTU 1.3 VI:14						
-10618	b	b	b	prep.	in	
-10619	rišk	riš(I)/+k(m	rỉš (I)	n. m.	head	
-10620	m	&m	?	?	?	should merge with the previous word +km
-10621	brqm	brq(I)/m	brq (I)	n. m.	ray, lightning	
+138043	m	l(I)	l (I)	prep.	to	
+138044	brqm	brq(I)/m	brq (I)	n. m. pl.	ray	
+138045	bn	bn(I)/	bn (I)	n. m.	son	
+138045	bn	bn(II)	bn (II)	prep.	between	
+138045	bn	bn[	/b-n/	vb G	to understand	
+138046	ˤnkm	ˤn(I)/	ʕn (I)	n. f. du.	eye	
 # KTU 1.3 VI:15						
-10622	bn	bn(II)	bn (II)	prep.	between, among	
-10623	ˤnkm	ˤn/+km	ʕn (I)	n. f.	eye	
-10624	ymtn	y mt(III)/~n	/m-t/	vb G	to die	y is proclitic, separate word, or m
+138047	ymtn	!y!mt[n	/m-t/	vb G	to die	
+138048	xx	?	?	?	?	
+138049	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+138049	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.3 VI:16						
-10625	xx	?	?	?	?	
-10626	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-10627	šir	šir(II)/	šỉr (II)	n. m.	strip	
-10628	b	b	b	prep.	in	
+138050	šir	šir(I)/	šỉr (I)	n. m. sg.	flesh	
+138050	šir	šir(II)/	šỉr (II)	n. m. sg.	strip	
+138051	b	b	b	prep.	in	
+138052	ym	ym(I)/	ym (I)	n. m. sg.	day	
+138052	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+138053	rbt	rb(I)/t	rb (I)	adj. f. sg.	great	
+138053	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
+138053	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
 # KTU 1.3 VI:17						
-10629	ym	ym(II)/	ym (II)	n. m.	sea	
-10630	rbt	rb(bt/	rb(b)t	num.	ten thousand	
-10631	xkmn	ṯkmn/	ṯkmn	DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	UDB concordance pattern -kmn -> tkmn, ṯkmn. ???
-10631	xkmn	tkmn/	tkmn	TN	toponym	UDB concordance pattern -kmn -> tkmn, ṯkmn. ???
-10631	xkmn	kmn(I)/	kmn (I)	n. m.	acre	UDB concordance pattern -kmn -> tkmn, ṯkmn. ???
+138054	xkmn	?	?	?	?	DULAT: NOT FOUND
+138055	b	b	b	prep.	in	
+138056	nhrm	nhr/+m(I)	nhr	n. m.	river	
 # KTU 1.3 VI:18						
-10632	b	b	b	prep.	in	
-10633	nhrm	nhr/m	nhr	n. m.	river	
-10634	ˤbr	ˤbr[	/ʕ-b-r/	vb G	to pass, go through	
+138057	ˤbr	ˤbr[	/ʕ-b-r/	vb G	to pass	
+138058	gbl	gbl(I)/	gbl (I)	n. m. sg.	summit	
+138058	gbl	gbl(II)/	gbl (II)	n. m. sg.	limit	
+138059	ˤbr	ˤbr[	/ʕ-b-r/	vb G	to pass	
 # KTU 1.3 VI:19						
-10635	gbl	gbl(I)/	gbl (I)	n. m.	summit, mount	
-10636	ˤbr	ˤbr[	/ʕ-b-r/	vb G	to pass, go through	
-10637	qˤl	qˤl(I)/	qʕl (I)	n. m.	height, summit	
+138060	qˤl	qˤl(I)/	qʕl (I)	n. m. sg.	height	
+138060	qˤl	qˤl(II)/	qʕl (II)	n. m. sg.	vine blossom	
+138061	ˤbr	ˤbr[	/ʕ-b-r/	vb G	to pass	
+138062	iht	iht/	ỉht	n. f. pl.	islands	
 # KTU 1.3 VI:20						
-10638	ˤbr	ˤbr[	/ʕ-b-r/	vb G	to pass, go through	
-10639	iht	ih(t/t	ỉht	n. f.	islands, coastal region	
-10640	np	np/	np	n. m.	peak	
+138063	np	np/	np	n. m.	peak	
+138064	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens	
+138065	šmšr	]š]mšr[	/m-š-r/	vb Š	to set a vehicle in motion	
 # KTU 1.3 VI:21						
-10641	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant.	heavens, sky	
-10642	šmšr	]š]mšr[	/m-š-r/	vb Š	to set a vehicle in motion, to drive it	
-10643	l	l(I)	l (I)	prep.	to	
-10643	l	l(III)	l (III)	functor	certainly	
-10644	dgy	dgy/	dgy	n. m.	triton	
+138066	l	l(I)	l (I)	prep.	to	
+138066	l	l(III)	l (III)	functor	certainly	
+138067	dgy	dgy/	dgy	n. m. du.	triton	
+138068	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 # KTU 1.3 VI:22						
-10645	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN	ʾAṯiratu/Athirat/Asherah/El’s wife	
-10646	mġ	!!mġ(y[	/m-ġ-y/	vb G	to come, arrive	
-10647	l	l(I)	l (I)	prep.	to	
-10647	l	l(III)	l (III)	functor	certainly	
-10648	qdš	qdš(III)/	qdš (III)	DN	“The Holy One”, epithet of the god ỉl/“The Holy One”, name of one of the messenger-boys of the goddess ảṯrt	
+138069	mġ	mġy[	/m-ġ-y/	vb G	to come	
+138070	l	l(I)	l (I)	prep.	to	
+138070	l	l(III)	l (III)	functor	certainly	
+138071	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
+138071	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
+138072	amrr	amrr/	ảmrr	DN	“Blessed”, one of the two messenger-boys of the goddess ảṯrt	
 # KTU 1.3 VI:23						
-10649	amrr	amrr/	ảmrr	DN	“Blessed”, one of the two messenger-boys of the goddess ảṯrt	
-10650	idk	id+k	-ỉd	adv., morph.	time	
-10651	al	al(I)	ảl (I)	neg. functor	no	correct?
-10651	al	al(II)	ảl (II)	pos. functor	surely	correct?
+138073	idk	idk	ỉdk	narrative adv. functor	then	
+138074	al	al(I)	ảl (I)	neg. functor	no	
+138074	al	al(II)	ảl (II)	pos. functor	surely	
+138075	ttn	ytn[	/y-t-n/	vb G	to give	
 # KTU 1.3 VI:24						
-10652	ttn	!t!(ytn[	/y-t-n/	vb G	to give, hand over, grant, bestow	
-10653	pnm	pn(m/m	pnm	n. m. pl. tant.	face, countenance	
-10654	tk	tk/	tk	n. m.	centre, middle	
+138076	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
+138077	tk	tk/	tk	n. m.	centre	
+138078	ḥqkpt	ḥqkpt	ḥqkpt			
 # KTU 1.3 VI:25						
-10655	ḥqkpt	ḥqkpt/	ḥqkpt	?	?	
-10655	ḥqkpt	ḥ&qkpt/	ḥkpt	TN	residence / territory of the god kṯr	
-10656	il	il(I)/	ỉl (I)	n. m.	god	TCS/UNP context = “god of all,” common noun usage
-10657	klh	kl/+h	kl	n. m.	totality	
+138079	il	il(I)/	ỉl (I)	n. m.	god	
+138080	klh	kl/+h	kl	n. m.	totality (of)	
+138081	kptr	kptr/	kptr	TN	Crete	
 # KTU 1.3 VI:26						
-10658	kptr	kptr/	kptr	TN	Crete	
-10659	ksu	ksu/	ks/śủ	n. f.	seat, throne, chair	
-10660	ṯbth	(yṯb[t+h	/y-ṯ-b/	vb	to sit down, take a seat on the throne, install oneself, reside	Correct?
+138082	ksu	?	?	?	?	DULAT: NOT FOUND
+138083	ṯbth	ṯbt/h	ṯbt	n. f. sg.	seat	
+138084	ḥkpt	ḥkpt/	ḥkpt	TN	ḥkpt	
 # KTU 1.3 VI:27						
-10661	ḥkpt	ḥkpt/	ḥkpt	TN		
-10662	arṣ	arṣ/	ảrṣ	n. f.	earth, ground	
+138085	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+138086	nḥlth	nḥlt/+h	nḥlt	n. f. sg.	property	
 # KTU 1.3 VI:28						
-10663	nḥlth	nḥl(t/t+h	nḥlt	n. f.	property	
-10664	b	b	b	prep.	in	
-10665	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-10666	šd	šd(II)/	šd (II)	n. m.	a strip	
+138087	b	b	b	prep.	in	
+138088	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
+138088	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+138089	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+138089	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
+138089	šd	šdy[	/š-d-y/	vb G	to pour	
+138090	rbt	rb(I)/t	rb (I)	adj. f. sg.	great	
+138090	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
+138090	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
 # KTU 1.3 VI:29						
-10667	rbt	rb(bt/	rb(b)t	num.	ten thousand	
-10668	kmn	kmn(I)/	kmn (I)	n. m.	acre	
-10669	l	l(I)	l (I)	prep.	to	
-10670	pˤn	pˤn/	pʕn	n. f.	at the feet of	
+138091	kmn	kmn(II)/	kmn (II)	n. m. sg.	cumin	
+138091	kmn	kmn(I)/	kmn (I)	n. m. sg.	acre	
+138092	l	l(I)	l (I)	prep.	to	
+138093	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+138094	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
 # KTU 1.3 VI:30						
-10671	kṯ<r>	?	?	?	?	DULAT: NOT FOUND
-10672	hbr	hbr[	/h-b-r/	vb G	to bow	
-10673	w	w	w	conj.	and	
-10674	ql	ql[	/q-l/	vb G	to fall	
+138095	hbr	hbr[	/h-b-r/	vb G	to bow	
+138096	w	w	w	conj.	and	
+138097	ql	ql[	/q-l/	vb G	to fall (down)	
+138097	ql	ql(I)/	ql (I)	n. m. sg.	voice	
+138098	tštḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 VI:31						
-10675	tštḥ	!t!]št]ḥ(w(y[	/ḥ-w-y/ (II)	vb	to prostrate oneself	
-10676	wy	?	?	?	?	WHAT IS THIS?; DULAT: NOT FOUND
-10677	w	w	w	conj.	and	
-10678	kbd	kbd[:d	/k-b-d/	vb D	to honour, to pay homage to, welcome	
+138099	wy	w+y	w	conj.	and	
+138100	w	w	w	conj.	and	
+138101	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
+138101	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
+138101	kbd	kbd[:d	/k-b-d/	vb D	to honour	
+138102	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 # KTU 1.3 VI:32						
-10679	hwt	hw&t	hw	pers. pn.	he, it	
-10680	w	w	w	conj.	and	
-10681	rgm	!!rgm/	rgm	n. m.	word, expression, saying	???
-10682	l	l(I)	l (I)	prep.	to	
-10682	l	l(III)	l (III)	functor	certainly	
+138103	w	w	w	conj.	and	
+138104	rgm	rgm[	/r-g-m/	vb G	to say	
+138104	rgm	rgm/	rgm	n. m. sg.	word	
+138105	l	l(I)	l (I)	prep.	to	
+138105	l	l(III)	l (III)	functor	certainly	
+138106	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
 # KTU 1.3 VI:33						
-10683	kṯr	kṯr(III)/	kṯr (III)	DN, element of DN	Koṯaru/Kothar	
-10684	w	w	w	conj.	and	
-10685	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
-10686	ṯny	!!ṯny[	/ṯ-n-y/	vb G	to repeat, reiterate	
-10687	l	l(I)	l (I)	prep.	to	
-10687	l	l(III)	l (III)	functor	certainly	
+138107	w	w	w	conj.	and	
+138108	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+138109	ṯny	ṯny[	/ṯ-n-y/	vb G	to repeat	
+138110	l	l(I)	l (I)	prep.	to	
+138110	l	l(III)	l (III)	functor	certainly	
+138111	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
+138111	h	~h	-h(II)	adv. functor	to, towards	
 # KTU 1.3 VI:34						
-10688	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
-10688	h	~h	-h(II)	adv. functor	to, towards	
-10689	yn	(hyn/	hyn	DN	Hayyānu/alt. name of the god kṯr (Kothar)	MERGE WITH PREVIOUS? hyn, see DOL p346
-10690	d	d	d	det. or rel. functor	the one(s) of	
-10691	ḥrš	ḥrš(I)/	ḥrš (I)	n. m.	craftsman, manual worker	
+138112	yn	yn/	yn	n. m. sg.	wine	
+138113	d	d	d	det. or rel. functor	the one(s) of	
+138114	ḥrš	ḥrš(I)/	ḥrš (I)	n. m.	craftsman	
+138115	ydm	yd(I)/m	yd (I)	n. f. du.	hand	
 # KTU 1.3 VI:35						
-10692	ydm	yd/m	yd (I)	n. f.	hand	
-10693	tḥm	tḥm/	tḥm	n. m.	message, decree	
-10694	aliyn	aliyn/	ảlỉyn	adj. m.	The Very / Most Powerful	
+138116	tḥm	tḥm/	tḥm	n. m. sg.	message	
+138117	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
+138118	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.3 VI:36						
-10695	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-10696	hwt	hw(t(I)/t	hwt (I)	n. f.	word, statement	
-10697	aliy	aliy/	ảlỉy	adj. m.	The Most Powerful	
+138119	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
+138120	aliy	aliy/	ảlỉy	adj. m. sg.	The Most Powerful	
+138121	qrdm	qrd(I)/m	qrd (I)	n. m. pl.	hero	

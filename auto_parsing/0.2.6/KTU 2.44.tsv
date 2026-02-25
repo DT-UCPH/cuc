@@ -4,30 +4,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158214	l	l(II)	l (II)	adv.	no	
 158214	l	l(III)	l (III)	functor	certainly	
 158215	mlk	mlk[	/m-l-k/	vb G	to reign	
-158215	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-158216	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+158215	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+158216	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 2.44 2						
-158217	iḫy	aḫ(I)/	ảḫ (I)	n. m.	brother (by blood)	
+158217	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
 158218	rgm	rgm[	/r-g-m/	vb G	to say	
-158218	rgm	rgm/	rgm	n. m.	word	
+158218	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.44 3						
-158219	tḥm	tḥm/	tḥm	n. m.	message	
+158219	tḥm	tḥm/	tḥm	n. m. sg.	message	
 158220	mlk	mlk[	/m-l-k/	vb G	to reign	
-158220	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-158221	gbl	gbl(I)/	gbl (I)	n. m.	summit	
-158221	gbl	gbl(II)/	gbl (II)	n. m.	limit	
-158222	iḫk	aḫ(I)/	ảḫ (I)	n. m.	brother (by blood)	
+158220	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+158221	gbl	gbl(I)/	gbl (I)	n. m. sg.	summit	
+158221	gbl	gbl(II)/	gbl (II)	n. m. sg.	limit	
+158222	iḫk	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
 # KTU 2.44 4						
 158223	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 158224	lk	l(I)+k	l (I)	prep.	to	
-158225	ilm	il(I)/m	ỉl (I)	n. m.	god	
+158225	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.44 5						
-158226	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
-158227	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
+158226	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+158227	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
 # KTU 2.44 6						
 158228	kxx	?	?	?	?	DULAT: NOT FOUND
 158229	yxxx	?	?	?	?	DULAT: NOT FOUND
-158230	špš	špš/	špš	n.	sun	
+158230	špš	špš/	špš	n. sg.	sun	
 # KTU 2.44 7						
 158231	klx	?	?	?	?	DULAT: NOT FOUND
 158232	yxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
@@ -36,15 +36,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158234	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 158234	bˤl	bˤl(I)/	bʕl (I)	n. m.	labourer	
 158234	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
-158235	gbl	gbl(I)/	gbl (I)	n. m.	summit	
-158235	gbl	gbl(II)/	gbl (II)	n. m.	limit	
+158235	gbl	gbl(I)/	gbl (I)	n. m. sg.	summit	
+158235	gbl	gbl(II)/	gbl (II)	n. m. sg.	limit	
 # KTU 2.44 9						
 158236	p	p(I)	p (I)	conj. functor	and	
 158236	p	p(III)/	p (III)	n. m.	mouth	
 158236	p	p(II)	p (II)	adv.	here	
 158237	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
 158238	w	w	w	conj.	and	
-158239	špš	špš/	špš	n.	sun	
+158239	špš	špš/	špš	n. sg.	sun	
 # KTU 2.44 10						
 158240	hmt	hmt	hmt	pers. pn.		
 158241	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
@@ -60,6 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.44 14						
 158248	xxxx	?	?	?	?	
 158249	ṯtyy	ṯtyy/	ṯtyy	PN	Seth	
+158249	ṯtyy	ṯtyy/	ṯty	PN	ṯty	
 # KTU 2.44 15						
 158250	xxxxkdy	?	?	?	?	DULAT: NOT FOUND
 158251	w	w	w	conj.	and	
@@ -77,7 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.44 19						
 158258	xxx	?	?	?	?	
 158259	mlk	mlk[	/m-l-k/	vb G	to reign	
-158259	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158259	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.44 20						
 158260	xxxxˤr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.44 21						

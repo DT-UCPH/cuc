@@ -1,60 +1,62 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.68 1						
 158787	l	l(I)	l (I)	prep.	to	
-158788	mlkt	mlk(t/t	mlkt	n. f.	queen	
-158789	adty	adt/+y	ảdt	n. f.	lady	
+158788	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
+158789	adty	adt/+y	ảdt	n. f. sg.	lady	
 # KTU 2.68 2						
 158790	rgm	rgm[	/r-g-m/	vb G	to say	
-158790	rgm	rgm/	rgm	n. m.	word	
+158790	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.68 3						
-158791	tḥm	tḥm/	tḥm	n. m.	message	
+158791	tḥm	tḥm/	tḥm	n. m. sg.	message	
 158792	urġtṯb	urġtṯb/	ủrġtṯb	PN	ủrġtṯb	
-158793	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m.	servant	
+158793	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 # KTU 2.68 4						
 158794	l	l(I)	l (I)	prep.	to	
-158795	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158796	adty	adt/+y	ảdt	n. f.	lady	
+158795	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+158796	adty	adt/+y	ảdt	n. f. sg.	lady	
 # KTU 2.68 5						
-158797	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f.	distance	
+158797	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
 # KTU 2.68 6						
 158798	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158799	w	w	w	conj.	and	
 158800	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.68 7						
-158801	qlt	ql[	/q-l/	vb G	to fall (down)	
+158801	qlt	ql[t	/q-l/	vb G	to fall (down)	
 158802	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.68 8						
-158803	adty	adt/+y	ảdt	n. f.	lady	
+158803	adty	adt/+y	ảdt	n. f. sg.	lady	
 158804	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 # KTU 2.68 9						
-158805	ilm	il(I)/m	ỉl (I)	n. m.	god	
-158806	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
+158805	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+158806	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
 # KTU 2.68 10						
-158807	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
+158807	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
 # KTU 2.68 11						
+158808	hnny	hn+ny	hn	deictic functor/adv.	behold!	
 158808	hnny	hnny	hnny	adv.	here	
+158808	hnny	hnny+ny	hnny	adv.	here	
 # KTU 2.68 12						
 158809	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-158810	kll	kll/	kll	n. m.	totality	
+158810	kll	kll/	kll	n. m. sg.	totality	
 # KTU 2.68 13						
-158811	mid	mi/	mỉ/ủd	n. m.	abundance	
-158812	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158812	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158812	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158811	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
+158812	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158812	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158812	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.68 14						
 158813	ṯmny	ṯm	ṯm	adv.	there	
 158814	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.68 15						
-158815	adty	adt/+y	ảdt	n. f.	lady	
+158815	adty	adt/+y	ảdt	n. f. sg.	lady	
 158816	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.68 16						
-158817	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158817	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158817	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158817	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158817	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158817	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158818	rgm	rgm[	/r-g-m/	vb G	to say	
-158818	rgm	rgm/	rgm	n. m.	word	
+158818	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.68 17						
-158819	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
+158819	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
 158820	l	l(I)	l (I)	prep.	to	
 158820	l	l(III)	l (III)	functor	certainly	
-158821	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m.	servant	
+158821	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	

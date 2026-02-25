@@ -3,9 +3,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156814	l	l(I)	l (I)	prep.	to	
 156814	l	l(II)	l (II)	adv.	no	
 156814	l	l(III)	l (III)	functor	certainly	
-156815	yblt	!y!(ybl[	/y-b-l/	vb G	to carry	
-156816	ḫbṯm	ḫbṯ[	/ḫ-b-ṯ/	vb Gpass	to flee	
-156816	ḫbṯm	ḫbṯ/	ḫbṯ	adj. m.	emancipated	
+156815	yblt	!y!(ybl[t	/y-b-l/	vb G	to carry	
+156816	ḫbṯm	ḫbṯ[m:pass	/ḫ-b-ṯ/	vb Gpass	to flee	
+156816	ḫbṯm	ḫbṯ/	ḫbṯ	adj. m. sg.	emancipated	
 # KTU 2.17 2						
 156817	ap	ap(I)	ảp (I)	adv./conj.	also	
 156817	ap	ap(II)/	ảp (II)	n. m.	nose	
@@ -14,16 +14,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156819	l	l(I)	l (I)	prep.	to	
 156819	l	l(II)	l (II)	adv.	no	
 156819	l	l(III)	l (III)	functor	certainly	
-156820	yblt	!y!(ybl[	/y-b-l/	vb G	to carry	
+156820	yblt	!y!(ybl[t	/y-b-l/	vb G	to carry	
 # KTU 2.17 4						
 156821	w	w	w	conj.	and	
 156822	ht	ht	ht	adv.	here	
-156823	luk	lʔk[	/l-ʔ-k/	vb Gpass	to send (a message)	
+156823	luk	l(ʔ&uk[:pass	/l-ʔ-k/	vb Gpass	to send (a message)	
 156824	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-156825	mlakt	mlak(t/t	mlảkt	n. f.	message	
+156825	mlakt	mlak(t/t	mlảkt	n. f. sg.	message	
 # KTU 2.17 5						
 156826	pġsdb	pġsdb/	pġsdb	PN	pġsdb	
-156827	šml	šml(I)/	šml (I)	n. m.	commercial agent	
+156827	šml	šml(I)/	šml (I)	n. m. sg.	commercial agent	
 156828	šn	šnw[	/š-n-w/	vb G	to change: a) reflex.	
 # KTU 2.17 6						
 156829	w	w	w	conj.	and	
@@ -36,8 +36,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156835	šmˤh	šmˤ/+h	šmʕ	n. m.	auditor	
 # KTU 2.17 8						
 156836	w	w	w	conj.	and	
-156837	bˤly	bˤl(II)/y	bʕl (II)	n. m./DN	Baʿlu/Baal	
-156838	skn	skn(I)/	s:śkn (I)	n. m.	prefect	
+156837	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
+156838	skn	skn(I)/	s:śkn (I)	n. m. sg.	prefect	
 156839	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
 156840	rgmh	rgm[+h	/r-g-m/	vb	to say	
 156840	rgmh	rgm/+h	rgm	n. m.	word	
@@ -45,9 +45,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156841	w	w	w	conj.	and	
 156842	ht	ht	ht	adv.	here	
 156843	aby	ab/+y	ảb	n. m.	father	
-156844	ṯṯ	ṯṯ/	ṯṯ	n. num.	six	
-156845	tl	tl(I)/	tl (I)	n. m.	hill	
-156845	tl	tl(II)/	tl (II)	n. m.	weapon	
+156844	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
+156845	tl	tl(I)/	tl (I)	n. m. sg.	hill	
+156845	tl	tl(II)/	tl (II)	n. m. sg.	weapon	
 # KTU 2.17 10						
 156846	ḥ	lqḥ[	/l-q-ḥ/	vb G/N	to get hold of	
 # KTU 2.17 11						
@@ -61,10 +61,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156850	mi	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.17 14						
 156851	w	w	w	conj.	and	
-156852	pr	pr(II)/	pr (II)	n. m.	young bull	
-156852	pr	pr(I)/	pr (I)	n. m.	fruit	
+156852	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
+156852	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 # KTU 2.17 15						
-156853	tštil	š]t]ʔl[	/š-ʔ-l/	vb Gt	to ask	
+156853	tštil	š]t]ʔl[l	/š-ʔ-l/	vb Gt	to ask	
 # KTU 2.17 16						
 156854	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 156855	bnš	bnš/	bnš	n. m.	man	

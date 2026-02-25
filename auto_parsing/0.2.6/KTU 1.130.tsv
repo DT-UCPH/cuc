@@ -7,23 +7,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 3						
 154565	l	l(I)	l (I)	prep.	to	
 154566	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-154567	š	š/	š	n. m.	ram	
+154567	š	š/	š	n. m. sg.	ram	
 # KTU 1.130 4						
 154568	l	l(I)	l (I)	prep.	to	
 154568	l	l(III)	l (III)	functor	certainly	
-154569	dgn	dgn(I)/	dgn (I)	n. m.	grain	
-154570	š	š/	š	n. m.	ram	
+154569	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
+154570	š	š/	š	n. m. sg.	ram	
 # KTU 1.130 5						
 154571	l	l(I)	l (I)	prep.	to	
 154571	l	l(III)	l (III)	functor	certainly	
 154572	ˤntṣpn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 6						
 154573	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-154573	alp	alp(II)/	ảlp (II)	num.	(one	
+154573	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 154574	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 7						
 154575	l	l(I)	l (I)	prep.	to	
 154575	l	l(III)	l (III)	functor	certainly	
+154576	pdry	pdry/	pdry	DN	Pidray	
 154576	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
 # KTU 1.130 8						
 154577	w	w	w	conj.	and	
@@ -36,8 +37,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 10						
 154581	l	l(I)	l (I)	prep.	to	
 154582	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-154583	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
-154584	š	š/	š	n. m.	ram	
+154583	ugrt	ugrt/	ủgrt	TN	Ugarit	
+154584	š	š/	š	n. m. sg.	ram	
 # KTU 1.130 11						
 154585	l	l(I)	l (I)	prep.	to	
 154586	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
@@ -45,18 +46,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 12						
 154588	l	l(I)	l (I)	prep.	to	
 154588	l	l(III)	l (III)	functor	certainly	
-154589	yrḫ	yrḫ/	yrḫ	n. m.	moon	
-154590	š	š/	š	n. m.	ram	
+154589	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
+154590	š	š/	š	n. m. sg.	ram	
 # KTU 1.130 13						
 154591	l	l(I)	l (I)	prep.	to	
 154591	l	l(III)	l (III)	functor	certainly	
-154592	ˤnt	ˤn(I)/t=	ʕn (I)	n. f.	eye	
+154592	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 154592	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 154592	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 154593	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 14						
 154594	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-154594	alp	alp(II)/	ảlp (II)	num.	(one	
+154594	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 154595	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 15						
 154596	l	l(I)	l (I)	prep.	to	
@@ -67,46 +68,44 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154599	ymmlatalpm	?	?	?	?	DULAT: NOT FOUND
 154600	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
 # KTU 1.130 17						
-154601	nbšt	nbš(t/t=	nbšt	n. f.	living being(s)	
-154602	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+154601	nbšt	nbš(t/t	nbšt	n. f. sg.	living being(s)	
+154601	nbšt	nbš(t/t=	nbšt	n. f. pl.	living being(s)	
+154602	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 154603	lbˤl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 18						
-154604	dqtm	dq(t(I)/tm	dqt (I)	adj. f. or n. f.	small	
+154604	dqtm	dqt(I)/m	dqt (I)	adj. f. or n. f. du.	small	
 154605	w	w	w	conj.	and	
 154606	šynt	?	?	?	?	DULAT: NOT FOUND
-154607	qrt	qr(t(I)/t	qrt (I)	n. f.	city	
+154607	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 # KTU 1.130 19						
 154608	l	l(I)	l (I)	prep.	to	
 154608	l	l(III)	l (III)	functor	certainly	
-154609	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m.	Hero	
-154609	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m.	offering	
-154610	mtntm	mtn(t/tm	mtnt	n. f.	loin	
+154609	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
+154610	mtntm	mtnt/m	mtnt	n. f. du.	loin	
 154611	l	l(I)	l (I)	prep.	to	
 154611	l	l(III)	l (III)	functor	certainly	
-154612	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m.	Hero	
-154612	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m.	offering	
+154612	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
 # KTU 1.130 20						
 154613	w	w	w	conj.	and	
-154614	kbdm	kbd(I)/	kbd (I)	n.	liver	
+154614	kbdm	kbd(I)/m	kbd (I)	n. du.	liver	
 154615	l	l(I)	l (I)	prep.	to	
 154615	l	l(III)	l (III)	functor	certainly	
 154616	kṯrt	kṯrt/	kṯrt	DN	Swallows	
 # KTU 1.130 21						
 154617	rmš	rmš/	rmš	DN	rmš	
-154618	š	š/	š	n. m.	ram	
+154618	š	š/	š	n. m. sg.	ram	
 154619	w	w	w	conj.	and	
 154620	ššlm	ššl/+m(I)	ššl	PN	ššl	
-154620	ššlm	ššl/+m(II)	ššl	PN	ššl	
 # KTU 1.130 22						
 154621	l	l(I)	l (I)	prep.	to	
 154622	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 154623	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 154624	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-154624	alp	alp(II)/	ảlp (II)	num.	(one	
+154624	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 154625	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 23						
-154626	šrp	šrp/	šrp	n. m.	burnt sacrifice	
-154627	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f.	bird	
+154626	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
+154627	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg.	bird	
 154628	lṣpn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 24						
 154629	w	w	w	conj.	and	
@@ -114,28 +113,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154630	šlmm	šlm(II)/m	šlm (II)	n. m.	communion victim / sacrifice	
 154631	l	l(I)	l (I)	prep.	to	
 154632	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
-154633	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+154633	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 1.130 25						
 154634	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-154634	alp	alp(II)/	ảlp (II)	num.	(one	
+154634	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 154635	w	w	w	conj.	and	
-154636	š	š/	š	n. m.	ram	
+154636	š	š/	š	n. m. sg.	ram	
 154637	l	l(I)	l (I)	prep.	to	
 154638	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 26						
-154639	bt	bt(II)/	bt (II)	n. m.	house	
-154639	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+154639	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+154639	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154640	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
-154641	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
-154642	kbdm	kbd(I)/	kbd (I)	n.	liver	
+154641	ugrt	ugrt/	ủgrt	TN	Ugarit	
+154642	kbdm	kbd(I)/m	kbd (I)	n. du.	liver	
 # KTU 1.130 27						
-154643	npš	npš(I)/	npš (I)	n. f.	throat	
+154643	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 154644	ilib	ilib(I)/	ỉlỉb (I)	DN	father god	
-154645	gdlt	gdl(t(I)/t=	gdlt (I)	n. f.	head of cattle	
+154645	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
+154645	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 # KTU 1.130 28						
 154646	t	/t, /t=				
 154646	t	[t, [t=, [t==, [t===				
 # KTU 1.130 29						
 154647	wl	?	?	?	?	DULAT: NOT FOUND
 154648	ddmš	ddmš/	ddmš	DN	ddmš	
-154649	š	š/	š	n. m.	ram	
+154649	š	š/	š	n. m. sg.	ram	

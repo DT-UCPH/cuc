@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.155 1						
-155085	kbd	kbd(II)/	kbd (II)	n. m.	total (quantity or price)	
-155085	kbd	kbd(I)/	kbd (I)	n.	liver	
-155085	kbd	kbd[	/k-b-d/	vb D	to honour	
+155085	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
+155085	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
+155085	kbd	kbd[:d	/k-b-d/	vb D	to honour	
 155086	ḥ	lqḥ[	/l-q-ḥ/	vb G/N	to get hold of	
 # KTU 1.155 2						
 155087	k	+k	-k (I)			
@@ -11,9 +11,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155087	k	k(I)	k (I)	prep.	like	
 155087	k	k(II)	k (II)	emph. functor	yes	
 155088	ymm	ym(I)/m	ym (I)	n. m.	day	
-155088	ymm	ym(II)/	ym (II)	n. m.	sea	
+155088	ymm	ym(II)/	ym (II)	n. m. sg.	sea	
 155089	x	?	?	?	?	
 # KTU 1.155 3						
-155090	ym	ym(I)/	ym (I)	n. m.	day	
-155090	ym	ym(II)/	ym (II)	n. m.	sea	
+155090	ym	ym(I)/	ym (I)	n. m. sg.	day	
+155090	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 155091	šḥl	?	?	?	?	DULAT: NOT FOUND

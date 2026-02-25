@@ -1,55 +1,55 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.13 1						
 156654	l	l(I)	l (I)	prep.	to	
-156655	mlkt	mlk(t/t	mlkt	n. f.	queen	
+156655	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 # KTU 2.13 2						
 156656	adtumy	?	?	?	?	DULAT: NOT FOUND
 156657	rgm	rgm[	/r-g-m/	vb G	to say	
-156657	rgm	rgm/	rgm	n. m.	word	
+156657	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.13 3						
-156658	tḥm	tḥm/	tḥm	n. m.	message	
+156658	tḥm	tḥm/	tḥm	n. m. sg.	message	
 156659	mlk	mlk[	/m-l-k/	vb G	to reign	
-156659	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+156659	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.13 4						
 156660	bnk	bn(I)/+k	bn (I)	n. m.	son	
 # KTU 2.13 5						
 156661	l	l(I)	l (I)	prep.	to	
-156662	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-156663	umy	um/y	ủm	n. f.	mother	
+156662	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+156663	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.13 6						
-156664	qlt	ql[	/q-l/	vb G	to fall (down)	
+156664	qlt	ql[t	/q-l/	vb G	to fall (down)	
 156665	l	l(I)	l (I)	prep.	to	
 156665	l	l(III)	l (III)	functor	certainly	
-156666	umy	um/y	ủm	n. f.	mother	
+156666	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.13 7						
 156667	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
-156668	ilm	il(I)/m	ỉl (I)	n. m.	god	
+156668	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.13 8						
-156669	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
-156670	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
+156669	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+156670	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
 # KTU 2.13 9						
 156671	hlnky	?	?	?	?	DULAT: NOT FOUND
 156672	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 156672	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.13 10						
-156673	kll	kll/	kll	n. m.	totality	
-156674	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-156674	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-156674	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+156673	kll	kll/	kll	n. m. sg.	totality	
+156674	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+156674	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+156674	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.13 11						
 156675	ṯmny	ṯm	ṯm	adv.	there	
 156676	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-156677	umy	um/y	ủm	n. f.	mother	
+156677	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.13 12						
 156678	mnm	mnm	mnm	indef. pn.	any(thing)	
-156679	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-156679	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-156679	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+156679	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+156679	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+156679	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.13 13						
 156680	w	w	w	conj.	and	
 156681	rgm	rgm[	/r-g-m/	vb G	to say	
-156681	rgm	rgm/	rgm	n. m.	word	
-156682	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
+156681	rgm	rgm/	rgm	n. m. sg.	word	
+156682	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
 156683	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.13 14						
 156684	bm	b	b	prep.	in	
@@ -57,22 +57,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.13 15						
 156686	iṯt	iṯt	ỉṯt	?	?	
 156687	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-156688	mlkt	mlk(t/t	mlkt	n. f.	queen	
+156688	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 # KTU 2.13 16						
 156689	w	w	w	conj.	and	
-156690	rgmy	rgm/y	rgm	n. m.	word	
+156690	rgmy	rgm/y	rgm	n. m. pl.	word	
 156691	l	l(I)	l (I)	prep.	to	
 156691	l	l(III)	l (III)	functor	certainly	
 # KTU 2.13 17						
 156692	qḥlqt	?	?	?	?	DULAT: NOT FOUND
 156693	w	w	w	conj.	and	
 156694	pn	pn(m/	pnm	n. m. pl. tant.	face	
-156694	pn	pn	pn	functor	lest	
 # KTU 2.13 18						
 156695	mlk	mlk[	/m-l-k/	vb G	to reign	
-156695	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-156696	nr	nr/	nr	n. m.	sheen	
+156695	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+156696	nr	nr/	nr	n. m. sg.	sheen	
 156696	nr	nr[	/n-r/	vb G	to shine	
+156697	bn	b	b	prep.	in	
 156697	bn	bn(I)/	bn (I)	n. m.	son	
 156697	bn	bn(II)	bn (II)	prep.	between	
-156697	bn	bn[	/b-n/	vb G	to understand	

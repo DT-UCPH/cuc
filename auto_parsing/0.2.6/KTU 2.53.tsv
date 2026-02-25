@@ -1,11 +1,12 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.53 1						
-158525	lik	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
+158525	lik	l(ʔ&ik[	/l-ʔ-k/	vb G	to send (a message)	
 158526	x	?	?	?	?	
 # KTU 2.53 2						
 158527	nh	ˤl(I)+h	ʕl (I)	prep.	upon	
+158527	nh	n(I)	-n (I)	morph.	Sun	
 158527	nh	ˤn(I)/+h	ʕn (I)	n. f.	eye	
-158528	š	š/	š	n. m.	ram	
+158528	š	š/	š	n. m. sg.	ram	
 # KTU 2.53 3						
 158529	l	l(I)	l (I)	prep.	to	
 158529	l	l(II)	l (II)	adv.	no	

@@ -7,8 +7,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155069	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
 155069	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
 # KTU 1.153 4						
-155070	kt	k(t(I)/t	kt (I)	n. f.	pitcher	
-155070	kt	k(t(II)/t	kt (II)	n. f.	stage	
+155070	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
+155070	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
 # KTU 1.153 5						
 155071	ba	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.153 6						
@@ -19,13 +19,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155073	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.153 7						
 155074	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-155074	alp	alp(II)/	ảlp (II)	num.	(one	
+155074	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.153 8						
 155075	y	+y, [y	-y (I)	prep. functor	my	
 155075	y	~y	-y (II)	prep. functor	indeed	
 155075	y	y	y	prep. functor	oh!	
 # KTU 1.153 9						
-155076	z	z	z	→		
+155076	z	d	d	det. or rel. functor	the one(s) of	Based on DULAT reconstruction.
+155076	z	z	z	→	?	
 # KTU 1.153 10						
 155077	r	?	?	?	?	
 # KTU 1.153 11						

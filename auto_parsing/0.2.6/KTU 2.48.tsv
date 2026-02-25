@@ -2,18 +2,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.48 1						
 158396	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.48 2						
-158397	ˤšr	ˤšr(I)/	ʕšr (I)	n. num.	ten	
-158397	ˤšr	ˤšr[	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
-158397	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m.	banquet	
-158398	ym	ym(I)/	ym (I)	n. m.	day	
-158398	ym	ym(II)/	ym (II)	n. m.	sea	
+158397	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+158397	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+158397	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
+158398	ym	ym(I)/	ym (I)	n. m. sg.	day	
+158398	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 # KTU 2.48 3						
 158399	m	l(I)	l (I)	prep.	to	
 158400	hm	hm(II)	hm (II)	conj./interr. functor	if	
+158400	hm	hm(I)	hm (I)	pers. pn.	they	
 158401	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.48 4						
 158402	x	?	?	?	?	
 158403	mṣrm	mṣrm/	mṣrm	TN	Egypt	
+158403	mṣrm	mṣr/+m(I)	mṣr	n. m.	sob	
 # KTU 2.48 5						
 158404		?	?	?	?	
 158405	nmkr	?	?	?	?	DULAT: NOT FOUND
@@ -27,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.48 8						
 158411		?	?	?	?	
 158412	mlk	mlk[	/m-l-k/	vb G	to reign	
-158412	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158412	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.48 9						
 158413	m	l(I)	l (I)	prep.	to	
 158414	x	?	?	?	?	

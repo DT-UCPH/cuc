@@ -1,65 +1,67 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 1						
 158963	l	l(I)	l (I)	prep.	to	
-158964	mlkt	mlk(t/t	mlkt	n. f.	queen	
-158965	umy	um/y	ủm	n. f.	mother	
+158964	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
+158965	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.72 2						
 158966	rgm	rgm[	/r-g-m/	vb G	to say	
-158966	rgm	rgm/	rgm	n. m.	word	
+158966	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.72 3						
-158967	tḥm	tḥm/	tḥm	n. m.	message	
+158967	tḥm	tḥm/	tḥm	n. m. sg.	message	
 158968	mlk	mlk[	/m-l-k/	vb G	to reign	
-158968	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158968	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 158969	bnk	bn(I)/+k	bn (I)	n. m.	son	
 # KTU 2.72 4						
 158970	l	l(I)	l (I)	prep.	to	
-158971	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158972	umy	um/y	ủm	n. f.	mother	
-158973	qlt	ql[	/q-l/	vb G	to fall (down)	
+158971	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+158972	umy	um/y	ủm	n. f. sg.	mother	
+158973	qlt	ql[t	/q-l/	vb G	to fall (down)	
 # KTU 2.72 5						
 158974	ly	l(I)+y	l (I)	prep.	to	
-158975	umy	um/y	ủm	n. f.	mother	
+158975	umy	um/y	ủm	n. f. sg.	mother	
 158976	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
-158977	ilm	il(I)/m	ỉl (I)	n. m.	god	
+158977	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.72 6						
-158978	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
-158979	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
+158978	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
+158979	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
 # KTU 2.72 7						
+158980	hnny	hn+ny	hn	deictic functor/adv.	behold!	
 158980	hnny	hnny	hnny	adv.	here	
+158980	hnny	hnny+ny	hnny	adv.	here	
 158981	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158982	ṯmšlm	?	?	?	?	DULAT: NOT FOUND
-158983	kll	kll/	kll	n. m.	totality	
+158983	kll	kll/	kll	n. m. sg.	totality	
 # KTU 2.72 8						
 158984	ṯmny	ṯm	ṯm	adv.	there	
-158985	ˤmkk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+158985	ˤmkk	ˤm(II)&k/+k	ʕm (II)	n. m.	lineage	
 158986	mxnm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.72 9						
-158987	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158987	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158987	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158987	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158987	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158987	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158988	rgm	rgm[	/r-g-m/	vb G	to say	
-158988	rgm	rgm/	rgm	n. m.	word	
-158989	ṯṯb	]š]ṯb[	/ṯ-b/	vb Š	to return	
+158988	rgm	rgm/	rgm	n. m. sg.	word	
+158989	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š	to return	
 158990	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.72 10						
 158991	lm	l(I)	l (I)	prep.	to	
-158992	tlikn	!t!lʔk[	/l-ʔ-k/	vb D	to send (a message)	
-158993	ḫpṯ	ḫpṯ/	ḫpṯ	n. m.	fugitive	
-158994	hndn	hndn/	hndn	dem./adj.	this	
+158992	tlikn	lʔk[kn:d	/l-ʔ-k/	vb D	to send (a message)	
+158993	ḫpṯ	ḫpṯ/	ḫpṯ	n. m. sg.	fugitive	
+158994	hndn	hndn/	hndn	dem./adj. sg.	this	
 # KTU 2.72 11						
 158995	p	p(I)	p (I)	conj. functor	and	
 158995	p	p(III)/	p (III)	n. m.	mouth	
 158995	p	p(II)	p (II)	adv.	here	
-158996	mšmˤt	mšmˤ(t/t	mšmʕt	n. f.	(body)guard	
+158996	mšmˤt	mšmˤ(t/t	mšmʕt	n. f. sg.	(body)guard	
 158997	mlk	mlk[	/m-l-k/	vb G	to reign	
-158997	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158997	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.72 12						
-158998	inn	in/	ỉn	n. m.	lack of	
+158998	inn	in/	ỉn	n. m. sg.	lack of	
 158999	im	im	ỉm	conj.	if	
 159000	bn	bn(I)/	bn (I)	n. m.	son	
 159000	bn	bn(II)	bn (II)	prep.	between	
 159000	bn	bn[	/b-n/	vb G	to understand	
-159001	qlt	ql[	/q-l/	vb G	to fall (down)	
+159001	qlt	ql[t	/q-l/	vb G	to fall (down)	
 # KTU 2.72 13						
 159002	im	im	ỉm	conj.	if	
 159003	bn	bn(I)/	bn (I)	n. m.	son	
@@ -68,12 +70,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159004	alyy	alyy/	ảlyy	PN	ảlyy	
 159005	im	im	ỉm	conj.	if	
 # KTU 2.72 14						
-159006	mšmˤt	mšmˤ(t/t	mšmʕt	n. f.	(body)guard	
+159006	mšmˤt	mšmˤ(t/t	mšmʕt	n. f. sg.	(body)guard	
 159007	mlk	mlk[	/m-l-k/	vb G	to reign	
-159007	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+159007	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.72 15						
 159008	w	w	w	conj.	and	
-159009	tlkn	!t!hlk[	/h-l-k/	vb G	to go	
+159009	tlkn	hlk[n	/h-l-k/	vb G	to go	
 159010	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 159011	ṯnm	ṯn(I)/	ṯn (I)	num.	two	
 159011	ṯnm	ṯny[	/ṯ-n-y/	vb G	to repeat	
@@ -81,84 +83,85 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159012	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 159013	w	w	w	conj.	and	
 159014	tṯbrn	!t!ṯbr[+n	/ṯ-b-r/	vb	to break	
-159015	lby	lb/y	lb	n. m.	heart	
+159015	lby	lb/y	lb	n. m. sg.	heart	
 # KTU 2.72 17						
 159016	w	w	w	conj.	and	
-159017	lḥt	lḥ(II)/t=	lḥ (II)	n. m.	missive	
-159017	lḥt	lḥ(I)/t=	lḥ (I)	n. f.	cheek	
-159018	bt	bt(II)/	bt (II)	n. m.	house	
-159018	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-159018	bt	bt(III)/	bt (III)	n. m.	length	
+159017	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+159018	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+159018	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+159018	bt	bt(III)/	bt (III)	n. m. pl.	length	
 159019	mlk	mlk[	/m-l-k/	vb G	to reign	
-159019	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-159020	amr	amr(I)/	ảmr (I)	n. m.	order	
+159019	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+159020	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 # KTU 2.72 18						
 159021	ky	k(III)	k (III)	Subordinating or completive functor	when	
 159021	ky	k(II)	k (II)	emph. functor	yes	
 159021	ky	k(IV)	k (IV)	adv.	thus	
-159022	tdbr	!t!dbr(II)[	/d-b-r/ (II)	vb D	to say	
-159022	tdbr	!t!dbr(I)[	/d-b-r/ (I)	vb G/D	drive away	
-159023	umy	um/y	ủm	n. f.	mother	
+159022	tdbr	!t!dbr(II)[:d	/d-b-r/ (II)	vb D	to say	
+159022	tdbr	!t!dbr(I)[:d	/d-b-r/ (I)	vb G/D	drive away	
+159023	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.72 19						
 159024	l	l(I)	l (I)	prep.	to	
 159025	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-159026	qrt	qr(t(I)/t	qrt (I)	n. f.	city	
+159026	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 # KTU 2.72 20						
 159027	im	im	ỉm	conj.	if	
 159028	ht	ht	ht	adv.	here	
 159029	l	l(III)	l (III)	functor	certainly	
 159030	b	b	b	prep.	in	
 # KTU 2.72 21						
-159031	mṣqt	mṣq(t/t	mṣqt	n. f.	difficult situation	
-159032	yṯbt	!y!(yṯb[	/y-ṯ-b/	vb G	to sit down	
+159031	mṣqt	mṣq(t/t	mṣqt	n. f. sg.	difficult situation	
+159032	yṯbt	!y!(yṯb[t	/y-ṯ-b/	vb G	to sit down	
 # KTU 2.72 22						
-159033	qrt	qr(t(I)/t	qrt (I)	n. f.	city	
+159033	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 159034	p	p(I)	p (I)	conj. functor	and	
 159034	p	p(III)/	p (III)	n. m.	mouth	
 159034	p	p(II)	p (II)	adv.	here	
 159035	mn	mn(IV)	mn (IV)	?	?	
-159035	mn	mn(III)/	mn (III)	n. m.	mina	
+159035	mn	mn(III)/	mn (III)	n. m. sg.	mina	
 # KTU 2.72 23						
-159036	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
+159036	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
 159037	ank	ank	ảnk	pers. pn.	I	
-159038	lḥt	lḥ(II)/t=	lḥ (II)	n. m.	missive	
-159038	lḥt	lḥ(I)/t=	lḥ (I)	n. f.	cheek	
+159038	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+159038	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl.	cheek	
 # KTU 2.72 24						
-159039	bt	bt(II)/	bt (II)	n. m.	house	
-159039	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-159039	bt	bt(III)/	bt (III)	n. m.	length	
+159039	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+159039	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+159039	bt	bt(III)/	bt (III)	n. m. pl.	length	
 159040	mlk	mlk[	/m-l-k/	vb G	to reign	
-159040	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-159041	amr	amr(I)/	ảmr (I)	n. m.	order	
+159040	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+159041	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 # KTU 2.72 25						
+159042	ybnn	!y!bn(y[+n	/b-n-y/	vb	to build	
 159042	ybnn	ybnn/	ybnn	PN	ybnn	
 159043	hlk	hlk[	/h-l-k/	vb G	to go	
-159043	hlk	hlk(I)/	hlk (I)	n. m.	walk	
+159043	hlk	hlk(I)/	hlk (I)	n. m. sg.	walk	
 159043	hlk	hlk(II)	hlk (II)	deictic adv. functor	behold!	
 # KTU 2.72 26						
 159044	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 159045	mlk	mlk[	/m-l-k/	vb G	to reign	
-159045	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-159046	amr	amr(I)/	ảmr (I)	n. m.	order	
+159045	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+159046	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 # KTU 2.72 27						
 159047	w	w	w	conj.	and	
 159048	ybl	!y!(ybl[	/y-b-l/	vb G	to carry	
 159049	hw	hw	hw	pers. pn.	he	
-159050	mit	mi(t/t	mỉt	n. f.	a hundred	
+159050	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
 # KTU 2.72 28						
-159051	ḫrṣ	ḫrṣ/	ḫrṣ	n. m.	gold	
+159051	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 159052	w	w	w	conj.	and	
-159053	mrdt	mrdt/	mrdt	n. f.	Teppich	
+159053	mrdt	mrd(t/t	mrdt	n. f. sg.	Teppich	
+159053	mrdt	mrd(t/t=	mrdt	n. f. pl.	Teppich	
 159054	mlkl	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.72 29						
 159055	mlk	mlk[	/m-l-k/	vb G	to reign	
-159055	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-159056	amr	amr(I)/	ảmr (I)	n. m.	order	
+159055	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+159056	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 159057	w	w	w	conj.	and	
 159058	lqḥ	lqḥ[	/l-q-ḥ/	vb G	to get hold of	
 159059	hw	hw	hw	pers. pn.	he	
 # KTU 2.72 30						
-159060	šmn	šmn(I)/	šmn (I)	n. m.	oil	
+159060	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 159061	b	b	b	prep.	in	
 159062	qrnh	qrn/h	qrn	n. f.	horn	
 # KTU 2.72 31						
@@ -167,14 +170,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159065	hw	hw	hw	pers. pn.	he	
 159066	l	l(I)	l (I)	prep.	to	
 159066	l	l(III)	l (III)	functor	certainly	
-159067	riš	riš(I)/	rỉš (I)	n. m.	head	
+159067	riš	riš(I)/	rỉš (I)	n. m. sg.	head	
 # KTU 2.72 32						
-159068	bt	bt(II)/	bt (II)	n. m.	house	
-159068	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-159068	bt	bt(III)/	bt (III)	n. m.	length	
+159068	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+159068	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+159068	bt	bt(III)/	bt (III)	n. m. pl.	length	
 159069	mlk	mlk[	/m-l-k/	vb G	to reign	
-159069	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-159070	amr	amr(I)/	ảmr (I)	n. m.	order	
+159069	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+159070	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 # KTU 2.72 33						
 159071	mnm	mnm	mnm	indef. pn.	any(thing)	
 159072	ḫṭut	?	?	?	?	DULAT: NOT FOUND
@@ -182,10 +185,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159073	ky	k(III)	k (III)	Subordinating or completive functor	when	
 159073	ky	k(II)	k (II)	emph. functor	yes	
 159073	ky	k(IV)	k (IV)	adv.	thus	
-159074	umy	um/y	ủm	n. f.	mother	
+159074	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.72 35						
 159075	xxr	?	?	?	?	DULAT: NOT FOUND
-159076	hwt	hw(t(I)/t	hwt (I)	n. f.	word/matter	
+159076	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 # KTU 2.72 36						
 159077		?	?	?	?	
 # KTU 2.72 37						
@@ -200,17 +203,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159082		?	?	?	?	
 # KTU 2.72 42						
 159083	xxx	?	?	?	?	
-159084	ištir	š]t]ʔr[	/š-ʔ-r/	vb Gt	to remain	
+159084	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt	to remain	
 159085	p	p(I)	p (I)	conj. functor	and	
 159085	p	p(III)/	p (III)	n. m.	mouth	
 159085	p	p(II)	p (II)	adv.	here	
 159086	u	u	ủ	conj.	or	
 # KTU 2.72 43						
 159087	my	my(I)	my (I)	pn. interr.	who?	
-159088	ydˤt	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G	to know	
+159088	ydˤt	!y!(ydˤ(I)[t	/y-d-ʕ/ (I)	vb G	to know	
 159089	kly	kly[	/k-l-y/	vb G	to finish	
 159090	b	b	b	prep.	in	
-159091	kpr	kpr(II)/	kpr (II)	n. m.	henna (powder or dye)	
+159091	kpr	kpr(II)/	kpr (II)	n. m. sg.	henna (powder or dye)	
 # KTU 2.72 44						
 159092	xxx	?	?	?	?	
 159093	ibk	ib(I)/+k	ỉb (I)	n. m.	enemy	

@@ -1,22 +1,22 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.96 1						
-151565	ˤnn	ˤn(I)/	ʕn (I)	n. f.	eye	
+151565	ˤnn	ˤn(I)/	ʕn (I)	n. f. du.	eye	
 151565	ˤnn	ˤnn/	ʕnn	n. m.	manservant	
-151566	hlkt	hlk[	/h-l-k/	vb G	to go	
+151566	hlkt	hlk[t	/h-l-k/	vb G	to go	
 151567	w	w	w	conj.	and	
 151568	šnwt	šnw[t	/š-n-w/	vb G	to change: a) reflex.	
 # KTU 1.96 2						
-151569	tp	tp(I)/	tp (I)	n. m.	drum	
-151569	tp	tp(II)/	tp (II)	n. m.	aspect	
-151569	tp	npy[	/n-p-y/	vb N/Gpass	to be driven away	
+151569	tp	tp(II)/	tp (II)	n. m. sg.	aspect	
+151569	tp	tp(I)/	tp (I)	n. m. sg.	drum	
+151569	tp	npy[:pass	/n-p-y/	vb N/Gpass	to be driven away	
 151570	aḫh	aḫ(I)/+h	ảḫ (I)	n. m.	brother (by blood)	
 151571	k	+k	-k (I)			
 151571	k	~k	-k (II)			
 151571	k	k(III)	k (III)	Subordinating or completive functor	when	
 151571	k	k(I)	k (I)	prep.	like	
 151571	k	k(II)	k (II)	emph. functor	yes	
-151572	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
-151572	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
+151572	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
+151572	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
 151573	aḫh	aḫ(I)/+h	ảḫ (I)	n. m.	brother (by blood)	
 151574	xxx	?	?	?	?	
 # KTU 1.96 3						
@@ -25,18 +25,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151575	k	k(III)	k (III)	Subordinating or completive functor	when	
 151575	k	k(I)	k (I)	prep.	like	
 151575	k	k(II)	k (II)	emph. functor	yes	
-151576	ysmsm	ysmsm/	ysmsm	adj. m.	handsome	
-151577	tspi	!t!spʔ[	/s-p-ʔ/	vb G	to devour	
-151578	širh	šir(I)/h	šỉr (I)	n. m.	flesh	
+151576	ysmsm	ysmsm/	ysmsm	adj. m. sg.	handsome	
+151577	tspi	!t!sp(ʔ[&i	/s-p-ʔ/	vb G	to devour	
+151578	širh	šir(I)/h	šỉr (I)	n. m. sg.	flesh	
 # KTU 1.96 4						
 151579	l	l(I)	l (I)	prep.	to	
 151579	l	l(III)	l (III)	functor	certainly	
 151580	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 151580	bl	bl(II)	bl (II)	prep.	without	
 151580	bl	bl(III)/	bl (III)	n. m.	blended beer	
-151581	ḥrb	ḥrb/	ḥrb	n. f.	knife	
+151581	ḥrb	ḥrb/	ḥrb	n. f. sg.	knife	
 151582	tšt	!t!št[	/š-t/	vb G	to place	
-151582	tšt	šty[	/š-t-y/	vb G	to drink	
+151582	tšt	!t!št(y[	/š-t-y/	vb G	to drink	
 151583	dmhx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.96 5						
 151584	l	l(I)	l (I)	prep.	to	
@@ -44,95 +44,95 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151585	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 151585	bl	bl(II)	bl (II)	prep.	without	
 151585	bl	bl(III)/	bl (III)	n. m.	blended beer	
-151586	ks	ks/	ks	n. m.	emmer-corn	
-151586	ks	ks(I)/	ks (I)	n. m.	cup	
+151586	ks	ks(I)/	ks (I)	n. m. sg.	cup	
+151586	ks	ks/	ks/śm(n)	n. m. pl.	emmer-corn	
 151587	tpnn	!t!pnn[	/p-n-n/	vb G	to distort	
 151588	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151588	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151588	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
+151588	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
 # KTU 1.96 6						
 151589	bty	bt(II)/+y	bt (II)	n. m.	house	
 151590	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151590	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151590	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
-151591	bṯt	bṯ(t(I)/t	bṯt (I)	n. f.	shame	
-151591	bṯt	bṯ(t(II)/t	bṯt (II)	n. f.	evildoing woman	
+151590	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151591	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg.	shame	
+151591	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg.	evildoing woman	
 151592	tpnn	!t!pnn[	/p-n-n/	vb G	to distort	
 # KTU 1.96 7						
 151593	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151593	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151593	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
-151594	mḫr	mḫr(II)/	mḫr (II)	n. m.	tax collector	
+151593	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151594	mḫr	mḫr(II)/	mḫr (II)	n. m. sg.	tax collector	
 151595	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151595	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151595	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
-151596	pḫr	pḫr(I)/	pḫr (I)	n. m.	assembly	
-151596	pḫr	pḫr(II)/	pḫr (II)	n. m.	potter	
+151595	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151596	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
+151596	pḫr	pḫr(II)/	pḫr (II)	n. m. sg.	potter	
 # KTU 1.96 8						
 151597	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151597	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151597	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
-151598	ṯġr	ṯġr(II)/	ṯġr (II)	n. m.	gatekeeper	
-151598	ṯġr	ṯġr(I)/	ṯġr (I)	n. m.	gate	
+151597	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151598	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg.	gatekeeper	
+151598	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg.	gate	
 151599	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151599	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151599	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
-151600	ṯġr	ṯġr(II)/	ṯġr (II)	n. m.	gatekeeper	
-151600	ṯġr	ṯġr(I)/	ṯġr (I)	n. m.	gate	
+151599	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151600	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg.	gatekeeper	
+151600	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg.	gate	
 # KTU 1.96 9						
 151601	l	l(I)	l (I)	prep.	to	
 151601	l	l(III)	l (III)	functor	certainly	
-151602	ṯġr	ṯġr(II)/	ṯġr (II)	n. m.	gatekeeper	
-151602	ṯġr	ṯġr(I)/	ṯġr (I)	n. m.	gate	
-151603	tṯb	!t!ṯb[	/ṯ-b/	vb G/L/R	to return	
+151602	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg.	gatekeeper	
+151602	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg.	gate	
+151603	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G/L/R	to return	
 151603	tṯb	yṯb[	/y-ṯ-b/	vb G	to sit down	
 151603	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 151604	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151604	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151604	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
-151605	pḫr	pḫr(I)/	pḫr (I)	n. m.	assembly	
-151605	pḫr	pḫr(II)/	pḫr (II)	n. m.	potter	
+151604	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151605	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
+151605	pḫr	pḫr(II)/	pḫr (II)	n. m. sg.	potter	
 # KTU 1.96 10						
 151606	l	l(I)	l (I)	prep.	to	
 151606	l	l(III)	l (III)	functor	certainly	
-151607	pḫr	pḫr(I)/	pḫr (I)	n. m.	assembly	
-151607	pḫr	pḫr(II)/	pḫr (II)	n. m.	potter	
-151608	tṯb	!t!ṯb[	/ṯ-b/	vb G/L/R	to return	
+151607	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
+151607	pḫr	pḫr(II)/	pḫr (II)	n. m. sg.	potter	
+151608	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G/L/R	to return	
 151608	tṯb	yṯb[	/y-ṯ-b/	vb G	to sit down	
 151608	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 151609	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151609	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151609	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
-151610	mḫr	mḫr(II)/	mḫr (II)	n. m.	tax collector	
+151609	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151610	mḫr	mḫr(II)/	mḫr (II)	n. m. sg.	tax collector	
 # KTU 1.96 11						
 151611	l	l(I)	l (I)	prep.	to	
 151611	l	l(III)	l (III)	functor	certainly	
-151612	mḫr	mḫr(II)/	mḫr (II)	n. m.	tax collector	
-151613	tṯb	!t!ṯb[	/ṯ-b/	vb G/L/R	to return	
+151612	mḫr	mḫr(II)/	mḫr (II)	n. m. sg.	tax collector	
+151613	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G/L/R	to return	
 151613	tṯb	yṯb[	/y-ṯ-b/	vb G	to sit down	
 151613	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 151614	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151614	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151614	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
+151614	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
 151615	bty	bt(II)/+y	bt (II)	n. m.	house	
 # KTU 1.96 12						
 151616	l	l(I)	l (I)	prep.	to	
 151616	l	l(III)	l (III)	functor	certainly	
-151617	bṯy	bṯy/	bṯy	n. m.	evildoer	
-151618	tṯb	!t!ṯb[	/ṯ-b/	vb G/L/R	to return	
+151617	bṯy	bṯy/	bṯy	n. m. sg.	evildoer	
+151618	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G/L/R	to return	
 151618	tṯb	yṯb[	/y-ṯ-b/	vb G	to sit down	
 151618	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 151619	ˤn	ˤn(I)/	ʕn (I)	n. f.	eye	
 151619	ˤn	ˤn[	/ʕ-n/	vb G	to see	
-151619	ˤn	ˤn(II)/	ʕn (II)	n. f.	furrow	
-151620	bṯt	bṯ(t(I)/t	bṯt (I)	n. f.	shame	
-151620	bṯt	bṯ(t(II)/t	bṯt (II)	n. f.	evildoing woman	
+151619	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151620	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg.	shame	
+151620	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg.	evildoing woman	
 # KTU 1.96 13						
 151621	l	l(I)	l (I)	prep.	to	
 151621	l	l(III)	l (III)	functor	certainly	
-151622	bṯt	bṯ(t(I)/t	bṯt (I)	n. f.	shame	
-151622	bṯt	bṯ(t(II)/t	bṯt (II)	n. f.	evildoing woman	
-151623	tṯb	!t!ṯb[	/ṯ-b/	vb G/L/R	to return	
+151622	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg.	shame	
+151622	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg.	evildoing woman	
+151623	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G/L/R	to return	
 151623	tṯb	yṯb[	/y-ṯ-b/	vb G	to sit down	
 151623	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 # KTU 1.96 14						

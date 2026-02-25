@@ -1,33 +1,33 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.47 I:1						
-158320	tḥm	tḥm/	tḥm	n. m.	message	
+158320	tḥm	tḥm/	tḥm	n. m. sg.	message	
 158321	ydn	!y!dn[	/d-n/	vb G	to judge	
 158321	ydn	!y!(ydn[	/y-d-n/	vb G	?	
 158322	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 158323	mlk	mlk[	/m-l-k/	vb G	to reign	
-158323	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158323	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.47 I:2						
-158324	bˤlh	bˤl(II)/h	bʕl (II)	n. m./DN	Baʿlu/Baal	
+158324	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 158325	nġr	nġr[	/n-ġ-r/	vb G	to protect	
 158326	ḥwtk	ḥwt/+k	ḥwt	n. f.	country	
 # KTU 2.47 I:3						
 158327	w	w	w	conj.	and	
 158328	l	l(I)	l (I)	prep.	to	
 158328	l	l(III)	l (III)	functor	certainly	
-158329	anyt	any/	ảny(t)	n. f.	ship	
-158330	tšknn	!t!škn[	/š-k-n/	vb D	to be placed	
+158329	anyt	any(t/t	ảny(t)	n. f. pl.	ship	
+158330	tšknn	!t!škn[n:d	/š-k-n/	vb D	to be placed	
 # KTU 2.47 I:4						
-158331	ḫmšm	ḫmš(I)/m	ḫmš (I)	n. num.	five	
+158331	ḫmšm	ḫmš(I)/m	ḫmš (I)	n. pl. num.	five	
 158331	ḫmšm	ḫmšm/	ḫmšm	n. num.	fifty	
 158332	l	l(I)	l (I)	prep.	to	
 158332	l	l(III)	l (III)	functor	certainly	
-158333	mit	mi(t/t	mỉt	n. f.	a hundred	
-158334	any	ʔny[	/ʔ-n-y/	vb G	to sigh	
+158333	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
+158334	any	(ʔ&any[	/ʔ-n-y/	vb G	to sigh	
 # KTU 2.47 I:5						
-158335	tšknn	!t!škn[	/š-k-n/	vb D	to be placed	
+158335	tšknn	!t!škn[n:d	/š-k-n/	vb D	to be placed	
 158336	xyh	?	?	?	?	DULAT: NOT FOUND
-158337	kt	k(t(I)/t	kt (I)	n. f.	pitcher	
-158337	kt	k(t(II)/t	kt (II)	n. f.	stage	
+158337	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
+158337	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
 # KTU 2.47 I:6						
 158338	w	w	w	conj.	and	
 158339	šnmyk	šnmyk	šnmyk	?		
@@ -36,21 +36,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158341	t	[t, [t=, [t==, [t===				
 # KTU 2.47 I:7						
 158342	w	w	w	conj.	and	
-158343	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m.	dust	
+158343	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
 158344	arbˤ	arbˤ/	ảrbʕ	num.	four	
-158345	mat	mit/	mỉt	n. f.	a hundred	
+158345	mat	mit/	mỉt	n. f. pl.	a hundred	
 # KTU 2.47 I:8						
 158346	w	w	w	conj.	and	
 158347	mlk	mlk[	/m-l-k/	vb G	to reign	
-158347	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158347	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 158348	ḥxxdxxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 I:9						
 158349	xxxb	?	?	?	?	DULAT: NOT FOUND
-158350	ḥwt	ḥw(t/t	ḥwt	n. f.	country	
+158350	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 158351	xx	?	?	?	?	
 # KTU 2.47 I:10						
 158352	xxx	?	?	?	?	
-158353	špš	špš/	špš	n.	sun	
+158353	špš	špš/	špš	n. sg.	sun	
 # KTU 2.47 I:11						
 158354	xx	?	?	?	?	
 # KTU 2.47 I:12						
@@ -60,13 +60,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.47 II:1						
 158357	w	w	w	conj.	and	
 158358	mlk	mlk[	/m-l-k/	vb G	to reign	
-158358	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158358	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 158359	d	d	d	det. or rel. functor	the one(s) of	
 158360	mlk	mlk[	/m-l-k/	vb G	to reign	
-158360	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158360	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.47 II:2						
 158361	b	b	b	prep.	in	
-158362	ḥwt	ḥw(t/t	ḥwt	n. f.	country	
+158362	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 158363	špḥ	špḥ/	špḥ	n. m.	family	
 # KTU 2.47 II:3						
 158364	l	l(I)	l (I)	prep.	to	
@@ -76,19 +76,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158365	ydn	!y!(ydn[	/y-d-n/	vb G	?	
 158366	ˤbd	ˤbd(I)/	ʕbd (I)	n. m.	servant	
 158367	mlk	mlk[	/m-l-k/	vb G	to reign	
-158367	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+158367	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.47 II:4						
 158368	d	d	d	det. or rel. functor	the one(s) of	
-158369	št	št[	/š-t/	vb G/Gpass	to place	
-158369	št	š(t(II)/t	št (II)	n. f.	raíz	
-158369	št	št(I)/	št (I)	n. m.	base	
+158369	št	št[:pass	/š-t/	vb G/Gpass	to place	
+158369	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+158369	št	š(t(I)/t	št (I)	n. m. sg.	base	
 158370	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-158371	ḫrdh	ḫrd/h	ḫrd	n. m.	(royal) guard	
+158371	ḫrdh	ḫrd/h	ḫrd	n. m. sg.	(royal) guard	
 # KTU 2.47 II:5						
 158372	špḥ	špḥ/	špḥ	n. m.	family	
 158373	al	al(I)	ảl (I)	neg. functor	no	
 158373	al	al(II)	ảl (II)	pos. functor	surely	
-158374	thbṭ	!t!hbṭ[	/h-b-ṭ/ẓ/	vb D	to knock down	
+158374	thbṭ	!t!hbṭ[:d	/h-b-ṭ/ẓ/	vb D	to knock down	
 # KTU 2.47 II:6						
 158375	ḫrd	ḫrd/	ḫrd	n. m.	(royal) guard	
 158376	ˤps	?	?	?	?	DULAT: NOT FOUND
@@ -100,14 +100,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158378	k	k(II)	k (II)	emph. functor	yes	
 158379	w	w	w	conj.	and	
 # KTU 2.47 II:7						
-158380	sˤt	sˤ[	/s-ʕ/	vb G	to sweep	
+158380	sˤt	sˤ[t	/s-ʕ/	vb G	to sweep	
 # KTU 2.47 II:8						
-158381	ḫrdk	ḫrd/	ḫrd	n. m.	(royal) guard	
+158381	ḫrdk	ḫrd/	ḫrd	n. m. sg.	(royal) guard	
 158382	ˤps	?	?	?	?	DULAT: NOT FOUND
 158383	xxr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:9						
 158384	ymm	ym(I)/m	ym (I)	n. m.	day	
-158384	ymm	ym(II)/	ym (II)	n. m.	sea	
+158384	ymm	ym(II)/	ym (II)	n. m. sg.	sea	
 158385	w	w	w	conj.	and	
 158386	xxp	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:10						
@@ -119,11 +119,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158390	x	?	?	?	?	
 # KTU 2.47 II:13						
 158391	w	w	w	conj.	and	
-158392	ym	ym(I)/	ym (I)	n. m.	day	
-158392	ym	ym(II)/	ym (II)	n. m.	sea	
-158393	ym	ym(I)/	ym (I)	n. m.	day	
-158393	ym	ym(II)/	ym (II)	n. m.	sea	
-158394	yš	?	?	?	?	DULAT: NOT FOUND
+158392	ym	ym(I)/	ym (I)	n. m. sg.	day	
+158392	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+158393	ym	ym(I)/	ym (I)	n. m. sg.	day	
+158393	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+158394	yš	!y!š(l(m[:d	/š-l-m/	vb D	to be well	
 # KTU 2.47 II:14						
 158395	al	al(I)	ảl (I)	neg. functor	no	
 158395	al	al(II)	ảl (II)	pos. functor	surely	

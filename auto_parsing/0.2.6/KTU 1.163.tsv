@@ -1,83 +1,90 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.163 1						
 155306	hm	hm(II)	hm (II)	conj./interr. functor	if	
+155306	hm	hm(I)	hm (I)	pers. pn.	they	
 155307	xxxxxxxxx	?	?	?	?	
 155308	l	l(I)	l (I)	prep.	to	
 155308	l	l(III)	l (III)	functor	certainly	
 155309	xxxxxxx	?	?	?	?	
 155310	bhmtn	bhmt/+n	bhmt	n. f.	cattle	
-155311	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G/Dpass	to perish	
+155311	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb G/Dpass	to perish	
 # KTU 1.163 2						
 155312	hm	hm(II)	hm (II)	conj./interr. functor	if	
-155313	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+155312	hm	hm(I)	hm (I)	pers. pn.	they	
+155313	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 155314	xxx	?	?	?	?	
 155315	b	b	b	prep.	in	
-155316	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m.	new moon	
-155316	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj.	new	
-155317	yrḫ	yrḫ/	yrḫ	n. m.	moon	
-155318	bnšm	bnš/m	bnš	n. m.	man	
+155316	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
+155316	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
+155317	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
+155318	bnšm	bnš/m	bnš	n. m. pl.	man	
 # KTU 1.163 3						
 155319	xxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
-155320	thbẓn	!t!hbṭ[	/h-b-ṭ/ẓ/	vb D	to knock down	
+155320	thbẓn	hbṭ[ẓn:d	/h-b-ṭ/ẓ/	vb D	to knock down	
 # KTU 1.163 4						
 155321	hm	hm(II)	hm (II)	conj./interr. functor	if	
+155321	hm	hm(I)	hm (I)	pers. pn.	they	
 155322	b	b	b	prep.	in	
-155323	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
-155323	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
-155323	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
-155324	ym	ym(I)/	ym (I)	n. m.	day	
-155324	ym	ym(II)/	ym (II)	n. m.	sea	
+155323	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+155323	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
+155323	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+155324	ym	ym(I)/	ym (I)	n. m. sg.	day	
+155324	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 155325	yh	!y!(yh[	/y-h(-y)/	vb G	to wane	
-155326	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+155326	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 155327	kslm	ksl/m	ksl	n. f.	back	
 155328	mlkm	mlk(I)	mlk (I)		king	
-155329	tbṣrn	!t!bṣr(I)[	/b-ṣ-r/ (I)	vb N	to watch	
+155329	tbṣrn	!t!](n]bṣr(I)[n	/b-ṣ-r/ (I)	vb N	to watch	
 # KTU 1.163 5						
 155330	hm	hm(II)	hm (II)	conj./interr. functor	if	
-155331	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
-155331	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
-155331	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
+155330	hm	hm(I)	hm (I)	pers. pn.	they	
+155331	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+155331	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
+155331	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
 155332	id	id	ỉd	conj.	when	
-155333	ynphy	!y!phy[	/p-h-y/	vb N	to see	
-155334	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+155333	ynphy	phy[hy	/p-h-y/	vb N	to see	
+155334	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 155335	b	b	b	prep.	in	
-155336	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+155336	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 155337	aḫrm	aḫr	ảḫr	adv./prep./conj.	afterwards	
 # KTU 1.163 6						
-155338	ġrplt	ġrpl(t/t	ġrplt	n. f.	cloudy sky	
-155339	mẓrn	mẓr/	mẓr	n. m.	rain	
+155338	ġrplt	ġrpl(t/t	ġrplt	n. f. sg.	cloudy sky	
+155339	mẓrn	mẓr/	mẓr	n. m. sg.	rain	
 155340	ylk	hlk[	/h-l-k/	vb G	to go	
 # KTU 1.163 7						
 155341	hm	hm(II)	hm (II)	conj./interr. functor	if	
-155342	kbkb	kbkb/	kbkb	n. m.	heavenly body	
+155341	hm	hm(I)	hm (I)	pers. pn.	they	
+155342	kbkb	kbkb/	kbkb	n. m. sg.	heavenly body	
 155343	yql	!y!ql[	/q-l/	vb G	to fall (down)	
 155344	b	b	b	prep.	in	
 155345	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-155346	ym	ym(I)/	ym (I)	n. m.	day	
-155346	ym	ym(II)/	ym (II)	n. m.	sea	
+155346	ym	ym(I)/	ym (I)	n. m. sg.	day	
+155346	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 155347	mlkn	mlk(I)	mlk (I)		king	
 155348	l	l(I)	l (I)	prep.	to	
 155348	l	l(III)	l (III)	functor	certainly	
 155349	yiḫdbh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.163 8						
 155350	hm	hm(II)	hm (II)	conj./interr. functor	if	
+155350	hm	hm(I)	hm (I)	pers. pn.	they	
 155351	xxxxxxx	?	?	?	?	
 155352	ṯx	?	?	?	?	DULAT: NOT FOUND
 155353	yxxx	?	?	?	?	DULAT: NOT FOUND
 155354	xxx	?	?	?	?	
-155355	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
-155355	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
-155355	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
+155355	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+155355	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
+155355	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
 # KTU 1.163 9						
 155356	xxxxxxxxxxxxxxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.163 10						
 155357	hm	hm(II)	hm (II)	conj./interr. functor	if	
+155357	hm	hm(I)	hm (I)	pers. pn.	they	
 155358	b	b	b	prep.	in	
-155359	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m.	new moon	
-155359	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj.	new	
-155360	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+155359	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
+155359	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
+155360	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 155361	wqdr	?	?	?	?	DULAT: NOT FOUND
-155362	iršn	irš/	ỉrš	n. m.	demand	
+155362	iršn	irš/	ỉrš	n. m. sg.	demand	
 155363	ykn	!y!kn[	/k-n/	vb G	to be (stable)	
 # KTU 1.163 11						
 155364	w	w	w	conj.	and	
@@ -87,33 +94,36 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155367	yx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.163 12						
 155368	hm	hm(II)	hm (II)	conj./interr. functor	if	
-155369	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+155368	hm	hm(I)	hm (I)	pers. pn.	they	
+155369	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 155370	b	b	b	prep.	in	
-155371	ˤlyh	ˤly(II)/h	ʕly (II)	n. m.	place of sacrifice	
+155371	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg.	place of sacrifice	
 155372	w	w	w	conj.	and	
-155373	pḥm	pḥm/	pḥm	n. m.	ember	
+155373	pḥm	pḥm/	pḥm	n. m. sg.	ember	
 # KTU 1.163 13						
-155374	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m.	handsome	
+155374	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg.	handsome	
 155375	yḫsr	!y!ḫsr[	/ḫ-s-r/	vb G	to fail	
 155376	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.163 14						
 155377	hm	hm(II)	hm (II)	conj./interr. functor	if	
-155378	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+155377	hm	hm(I)	hm (I)	pers. pn.	they	
+155378	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 155379	b	b	b	prep.	in	
-155380	ˤlyh	ˤly(II)/h	ʕly (II)	n. m.	place of sacrifice	
-155381	yrq	yrq/	yrq	n. m.	greenish yellow (a metal / gold)	
+155380	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg.	place of sacrifice	
+155381	yrq	yrq/	yrq	n. m. sg.	greenish yellow (a metal / gold)	
 # KTU 1.163 15						
 155382	xxxxxxbhmtn	?	?	?	?	DULAT: NOT FOUND
-155383	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G/Dpass	to perish	
+155383	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb G/Dpass	to perish	
 # KTU 1.163 16						
 155384	hm	hm(II)	hm (II)	conj./interr. functor	if	
-155385	yrḫ	yrḫ/	yrḫ	n. m.	moon	
+155384	hm	hm(I)	hm (I)	pers. pn.	they	
+155385	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 155386	b	b	b	prep.	in	
-155387	ˤlyh	ˤly(II)/h	ʕly (II)	n. m.	place of sacrifice	
+155387	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg.	place of sacrifice	
 155388	w	w	w	conj.	and	
-155389	pḥm	pḥm/	pḥm	n. m.	ember	
+155389	pḥm	pḥm/	pḥm	n. m. sg.	ember	
 # KTU 1.163 17						
 155390	xxxxxxxxxxw	?	?	?	?	DULAT: NOT FOUND
-155391	qbṣt	qbṣ(t/t	qbṣt	n. f.	assembly	
+155391	qbṣt	qbṣ(t/t	qbṣt	n. f. sg.	assembly	
 # KTU 1.163 18						
 155392	bhmtxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND

@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 1						
-151218	yn	yn/	yn	n. m.	wine	
+151218	yn	yn/	yn	n. m. sg.	wine	
 151219	d	d	d	det. or rel. functor	the one(s) of	
-151220	ykl	?	?	?	?	DULAT: NOT FOUND
+151220	ykl	!y!kl(y[:d	/k-l-y/	vb G/D	to finish	
 151221	bd	b	b	prep.	in	
 151222	r	?	?	?	?	
 # KTU 1.91 2						
@@ -10,28 +10,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151224	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
 151224	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
 151225	mlk	mlk[	/m-l-k/	vb G	to reign	
-151225	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+151225	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.91 3						
 151226	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
 151226	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
 151227	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.91 4						
-151228	tzġm	tzġ/m	tzġ	n. m.	kind of sacrificial meat	
+151228	tzġm	tzġ/m	tzġ	n. m. pl.	kind of sacrificial meat	
 # KTU 1.91 5						
 151229	ilib	ilib(I)/	ỉlỉb (I)	DN	father god	
 # KTU 1.91 6						
 151230	il	il(I)/	ỉl (I)	n. m.	god	
 151231	bldn	bld/+n	bld	n. m.	land	
 # KTU 1.91 7						
+151232	pdry	pdry/	pdry	DN	Pidray	
 151232	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
-151233	bt	bt(II)/	bt (II)	n. m.	house	
-151233	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+151233	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+151233	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 151234	mlk	mlk[	/m-l-k/	vb G	to reign	
-151234	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+151234	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.91 8						
 151235	alp	alp(I)/	ảlp (I)	n. m.	(head of) cattle	
-151235	alp	alp(II)/	ảlp (II)	num.	(one	
-151236	izr	izr/	ỉzr	n. m.	investiture	
+151235	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+151236	izr	izr/	ỉzr	n. m. sg.	investiture	
 # KTU 1.91 9						
 151237	xrz	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 10						
@@ -42,13 +43,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151238	k	k(II)	k (II)	emph. functor	yes	
 151239	tˤrb	!t!ˤrb(I)[	/ʕ-r-b/ (I)	vb G	to enter	
 151240	ṯˤṯtrt	?	?	?	?	DULAT: NOT FOUND
-151241	šd	šd(I)/	šd (I)	n. m.	open field	
-151241	šd	šd(II)/	šd (II)	n. m.	a strip	
+151241	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+151241	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 151241	šd	šdy[	/š-d-y/	vb G	to pour	
-151242	bt	bt(II)/	bt (II)	n. m.	house	
-151242	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+151242	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+151242	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 151243	mlk	mlk[	/m-l-k/	vb G	to reign	
-151243	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+151243	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.91 11						
 151244	k	+k	-k (I)			
 151244	k	~k	-k (II)			
@@ -57,17 +58,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151244	k	k(II)	k (II)	emph. functor	yes	
 151245	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb	to enter	
 151246	ršpm	ršp/	ršp	DN	Rašap	
-151247	bt	bt(II)/	bt (II)	n. m.	house	
-151247	bt	b(t(I)/t	bt (I)	n. f.	daughter	
+151247	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+151247	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 151248	mlk	mlk[	/m-l-k/	vb G	to reign	
-151248	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+151248	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.91 12						
-151249	ḫlu	ḫlu/	ḫlủ	n. m.	cake	
-151250	dg	dg(I)/	dg (I)	n. m.	fish	
+151249	ḫlu	ḫlu/	ḫlủ	n. m. sg.	cake	
+151250	dg	dg(I)/	dg (I)	n. m. sg.	fish	
 # KTU 1.91 13						
 151251	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m.	new moon	
 151251	ḥdṯm	ḥdṯ(I)/+m(I)	ḥdṯ (I)	adj.	new	
-151251	ḥdṯm	ḥdṯ(I)/+m(II)	ḥdṯ (I)	adj.	new	
 # KTU 1.91 14						
 151252	dbḥ	dbḥ/	dbḥ	n. m.	sacrifice	
 151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G	to sacrifice	
@@ -78,15 +78,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151254	k	k(I)	k (I)	prep.	like	
 151254	k	k(II)	k (II)	emph. functor	yes	
 151255	tdd	ndd[	/n-d-d/	vb G	to go	
-151256	bˤlt	bˤl(t/t	bʕlt	n. f.	lady	
-151257	bhtm	b(II)/t=	bt (II)	n. m.	house	
+151256	bˤlt	bˤl(t/t	bʕlt	n. f. sg.	lady	
+151257	bhtm	bt(II)/	bt (II)	n. m. pl.	house	
 # KTU 1.91 15						
 151258	b	b	b	prep.	in	
-151259	ġb	ġb(I)/	ġb (I)	n. m.	(sacrificial) pit	
-151259	ġb	ġb(II)	ġb (II)	?	?	
+151259	ġb	ġb(I)/	ġb (I)	n. m. sg.	(sacrificial) pit	
 151260	ršp	ršp/	ršp	DN	Rašap	
 151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m.	army	
-151261	ṣbi	ṣb(u(II)/&i	ṣbủ (II)	n. m.	setting	
+151261	ṣbi	ṣb(u(II)/&i	ṣbủ (II)	n. m. sg.	setting	
 # KTU 1.91 16						
 151262	xxxxxkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 17						
@@ -102,94 +101,96 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 20						
 151270	xxxxbˤlt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 21						
-151271	lbnm	lbn(I)/m	lbn (I)	adj. m.	white	
-151272	ˤšr	ˤšr(I)/	ʕšr (I)	n. num.	ten	
-151272	ˤšr	ˤšr[	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
-151272	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m.	banquet	
-151273	yn	yn/	yn	n. m.	wine	
+151271	lbnm	lbn(I)/m	lbn (I)	adj. m. pl.	white	
+151272	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+151272	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+151272	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
+151273	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 22						
-151274	ḫlb	ḫlb(I)/	ḫlb (I)	n. m.	massif	
+151274	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg.	massif	
 151275	gngnt	gngnt/	gngnt	TN	gngnt	
-151276	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
-151276	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
-151276	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
-151277	yn	yn/	yn	n. m.	wine	
+151276	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+151276	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
+151276	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+151277	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 23						
 151278	bṣr	bṣr(II)[	/b-ṣ-r/ (II)	vb G	to sever	
-151279	ˤšr	ˤšr(I)/	ʕšr (I)	n. num.	ten	
-151279	ˤšr	ˤšr[	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
-151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m.	banquet	
-151280	yn	yn/	yn	n. m.	wine	
+151279	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+151279	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
+151280	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 24						
 151281	nnu	nnu(II)/	nnủ (II)	TN	nnủ (II)	
 151282	arbˤ	arbˤ/	ảrbʕ	num.	four	
-151283	yn	yn/	yn	n. m.	wine	
+151283	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 25						
 151284	šql	šql/	šql	TN	šql	
-151285	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
-151285	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
-151285	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
-151286	yn	yn/	yn	n. m.	wine	
+151285	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+151285	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
+151285	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+151286	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 26						
 151287	šmny	šmn(I)/+y	šmn (I)	n. m.	oil	
-151287	šmny	š/+ny	š	n. m.	ram	
+151287	šmny	š&m/+ny	š	n. m.	ram	
+151287	šmny	šm(I)/+ny	šm (I)	n. m.	name	
 151288	kdm	kd(I)/m	kd (I)	n. f.	jar	
-151289	yn	yn/	yn	n. m.	wine	
+151289	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 27						
 151290	šmgy	šmgy/	šmgy	TN	šmgy	
-151291	kd	kd(I)/	kd (I)	n. f.	jar	
-151292	yn	yn/	yn	n. m.	wine	
+151291	kd	kd(I)/	kd (I)	n. f. sg.	jar	
+151292	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 28						
 151293	hzp	hzp/	hzp	TN	hzp	
-151294	tšˤ	tšˤ/	tšʕ	n. num.	nine	
-151295	yn	yn/	yn	n. m.	wine	
+151294	tšˤ	tšˤ/	tšʕ	n. sg. num.	nine	
+151295	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 29						
 151296	bir	bir/	bỉr	TN/n. f.	biʾiru	
-151297	ˤšr	ˤšr(I)/	ʕšr (I)	n. num.	ten	
-151297	ˤšr	ˤšr[	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
-151297	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m.	banquet	
-151298	mṣb	mṣb(II)/	mṣb (II)	n. m.	place in which something is put	
-151298	mṣb	mṣb(I)/	mṣb (I)	n. m.	beam	
+151297	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+151297	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D/Dpass	ʕšr ʕšr b bt ỉlm a banquet is held in the temple of the gods	
+151297	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
+151298	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151299	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
-151300	ḥsp	ḥsp/	ḥsp	adj. m.	decanted	
+151300	ḥsp	ḥsp/	ḥsp	adj. m. sg.	decanted	
 # KTU 1.91 30						
-151301	ḫpty	ḫpty	ḫpty	→		
+151301	ḫpty	ḫpty/	ḫb/pt(y)	TN	ḫb/pt(y)	Based on DULAT reconstruction.
+151301	ḫpty	ḫpt/+y	ḫpt	TN	ḫpt	Based on DULAT reconstruction.
+151301	ḫpty	ḫpty	ḫpty	→	?	
 151302	kdm	kd(I)/m	kd (I)	n. f.	jar	
-151303	mṣb	mṣb(II)/	mṣb (II)	n. m.	place in which something is put	
-151303	mṣb	mṣb(I)/	mṣb (I)	n. m.	beam	
+151303	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
+151303	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 31						
-151304	agm	agm	ảgm	→		
+151304	agm	agm	ảgm	→	?	
 151305	arbˤ	arbˤ/	ảrbʕ	num.	four	
-151306	mṣb	mṣb(II)/	mṣb (II)	n. m.	place in which something is put	
-151306	mṣb	mṣb(I)/	mṣb (I)	n. m.	beam	
+151306	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
+151306	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 32						
-151307	šrš	šrš(I)/	šrš (I)	n. m.	root	
-151308	šbˤ	šbˤ(I)/	šbʕ (I)	n. num.	seven	
-151309	mṣb	mṣb(II)/	mṣb (II)	n. m.	place in which something is put	
-151309	mṣb	mṣb(I)/	mṣb (I)	n. m.	beam	
+151307	šrš	šrš(I)/	šrš (I)	n. m. sg.	root	
+151308	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+151309	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
+151309	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 33						
-151310	rqd	rq(II)/+d	rq (II)	adj. m.	fine	
-151311	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
-151311	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m.	copper	
-151311	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. ord. num.	third	
-151312	mṣb	mṣb(II)/	mṣb (II)	n. m.	place in which something is put	
-151312	mṣb	mṣb(I)/	mṣb (I)	n. m.	beam	
+151310	rqd	rqd/	rqd	TN	rqd	
+151310	rqd	rq(II)/+d	rq (II)	adj. m.	fine, ?	
+151311	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+151311	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
+151311	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+151312	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
+151312	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 151313	w	w	w	conj.	and	
 151314	x	?	?	?	?	
 # KTU 1.91 34						
 151315	uḫnp	uḫnp/	ủḫnp	TN	ủḫnp	
-151316	ṯṯ	ṯṯ/	ṯṯ	n. num.	six	
-151317	mṣb	mṣb(II)/	mṣb (II)	n. m.	place in which something is put	
-151317	mṣb	mṣb(I)/	mṣb (I)	n. m.	beam	
+151316	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
+151317	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
+151317	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 35						
-151318	tgmr	tgmr/	tgmr	n. m.	totality	
-151319	yn	yn/	yn	n. m.	wine	
-151320	mṣb	mṣb(II)/	mṣb (II)	n. m.	place in which something is put	
-151320	mṣb	mṣb(I)/	mṣb (I)	n. m.	beam	
-151321	šbˤ	šbˤ(I)/	šbʕ (I)	n. num.	seven	
+151318	tgmr	tgmr/	tgmr	n. m. sg.	totality	
+151319	yn	yn/	yn	n. m. sg.	wine	
+151320	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
+151321	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
 # KTU 1.91 36						
 151322	w	w	w	conj.	and	
 151323	ḥspṯn	?	?	?	?	DULAT: NOT FOUND
-151324	kbd	kbd(II)/	kbd (II)	n. m.	total (quantity or price)	
-151324	kbd	kbd(I)/	kbd (I)	n.	liver	
-151324	kbd	kbd[	/k-b-d/	vb D	to honour	
+151324	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
+151324	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
+151324	kbd	kbd[:d	/k-b-d/	vb D	to honour	

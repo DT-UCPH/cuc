@@ -1,18 +1,20 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.67 1						
-158776	tḥm	tḥm/	tḥm	n. m.	message	
-158777	uṯryn	uṯryn/	ủṯryn	n. m.	crown prince	
+158776	tḥm	tḥm/	tḥm	n. m. sg.	message	
+158777	uṯryn	uṯryn/	ủṯryn	n. m. sg.	crown prince	
 # KTU 2.67 2						
 158778	l	l(I)	l (I)	prep.	to	
 158778	l	l(III)	l (III)	functor	certainly	
 158779	grgš	?	?	?	?	DULAT: NOT FOUND
+158780	ˤbdy	ˤbd(I)/+y	ʕbd (I)	n. m.	servant	
+158780	ˤbdy	ˤbd[+y	/ʕ-b-d/	vb	to work (a field)	
 158780	ˤbdy	ˤbdy/	ʕbdy	PN	ʿbdy	
 158781	rgm	rgm[	/r-g-m/	vb G	to say	
-158781	rgm	rgm/	rgm	n. m.	word	
+158781	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.67 3						
-158782	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-158782	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-158782	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+158782	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158782	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+158782	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158783	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.67 4						
 158784	hlny	hlny	hlny	deictic adv. functor	behold	

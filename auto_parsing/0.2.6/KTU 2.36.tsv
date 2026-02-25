@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 1						
-157694	tḥm	tḥm/	tḥm	n. m.	message	
+157694	tḥm	tḥm/	tḥm	n. m. sg.	message	
 157695	pdġb	pdġb/	pdġb	PN	pdġb	
-157696	mlkt	mlk(t/t	mlkt	n. f.	queen	
+157696	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 157697	xxxxxx	?	?	?	?	
 157698	kxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 2						
@@ -10,60 +10,60 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157699	l	l(III)	l (III)	functor	certainly	
 157700	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
 157701	rgm	rgm[	/r-g-m/	vb G	to say	
-157701	rgm	rgm/	rgm	n. m.	word	
+157701	rgm	rgm/	rgm	n. m. sg.	word	
 157702	hlny	hlny	hlny	deictic adv. functor	behold	
 157703	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157704	špš	špš/	špš	n.	sun	
+157704	špš	špš/	špš	n. sg.	sun	
 # KTU 2.36 3						
 157705	w	w	w	conj.	and	
 157706	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157707	mlkt	mlk(t/t	mlkt	n. f.	queen	
-157708	kll	kll/	kll	n. m.	totality	
-157709	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-157709	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-157709	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+157707	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
+157708	kll	kll/	kll	n. m. sg.	totality	
+157709	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+157709	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157709	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.36 4						
 157710	w	w	w	conj.	and	
-157711	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-157711	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-157711	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+157711	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+157711	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+157711	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157712	d	d	d	det. or rel. functor	the one(s) of	
 157713	ḥwtk	ḥwt/+k	ḥwt	n. f.	country	
 157714	w	w	w	conj.	and	
 157715	dt	d	d	det. or rel. functor	the one(s) of	
-157716	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+157716	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 # KTU 2.36 5						
 157717	ky	k(III)	k (III)	Subordinating or completive functor	when	
 157717	ky	k(II)	k (II)	emph. functor	yes	
 157717	ky	k(IV)	k (IV)	adv.	thus	
-157718	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
-157719	bt	bt(II)/	bt (II)	n. m.	house	
-157719	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-157719	bt	bt(III)/	bt (III)	n. m.	length	
+157718	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+157719	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+157719	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+157719	bt	bt(III)/	bt (III)	n. m. pl.	length	
 157720	mlk	mlk[	/m-l-k/	vb G	to reign	
-157720	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-157721	tḥmk	tḥm/	tḥm	n. m.	message	
+157720	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+157721	tḥmk	tḥm/+k	tḥm	n. m. sg.	message	
 157722	hlny	hlny	hlny	deictic adv. functor	behold	
 # KTU 2.36 6						
-157723	ḫrṣ	ḫrṣ/	ḫrṣ	n. m.	gold	
+157723	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 157724	argmny	argm/+ny	ả/ỉrgmn	n. m.	payment of tribute to the Hittite court	
 157725	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157726	špš	špš/	špš	n.	sun	
-157727	štn	št[	/š-t/	vb G	to place	
+157726	špš	špš/	špš	n. sg.	sun	
+157727	štn	št[n	/š-t/	vb G	to place	
 157728	xx	?	?	?	?	
 # KTU 2.36 7						
 157729	w	w	w	conj.	and	
 157730	at	at(I)	ảt (I)	pers. pn.	you	
-157731	kdwṯ	kdwṯ/	kdwṯ	n. m.		
-157732	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m.	new moon	
-157732	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj.	new	
+157731	kdwṯ	kdwṯ/	kdwṯ	n. m. sg.		
+157732	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
+157732	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
 157733	d	d	d	det. or rel. functor	the one(s) of	
-157734	štt	št[	/š-t/	vb G/Gpass	to place	
+157734	štt	št[t:pass	/š-t/	vb G/Gpass	to place	
 157735	b	b	b	prep.	in	
 157736	mlaktk	mlakt/+k	mlảkt	n. f.	message	
 # KTU 2.36 8						
 157737	xx	?	?	?	?	
-157738	tqdm	!t!qdm[	/q-d-m/	vb G/D	to proceed	
+157738	tqdm	!t!qdm[:d	/q-d-m/	vb G/D	to proceed	
 157739	udk	ud/+k	ủd	n. m.	pay	
 157740	mġt	mġy[t	/m-ġ-y/	vb G	to come	
 157741	w	w	w	conj.	and	
@@ -74,11 +74,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157745	xnṯb	?	?	?	?	DULAT: NOT FOUND
 157746	ˤmnkm	ˤm(I)+km	ʕm (I)	prep.	to	
 157747	qrb	qrb[	/q-r-b/	vb G	to approach	
-157747	qrb	qrb/	qrb	n. m.	inside	
+157747	qrb	qrb/	qrb	n. m. sg.	inside	
 157748	xx	?	?	?	?	
 # KTU 2.36 10						
 157749	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-157749	aṯr	ʔṯr[	/ʔ-ṯ-r/	vb G/D	to go	
+157749	aṯr	(ʔ&aṯr[:d	/ʔ-ṯ-r/	vb G/D	to go	
 157749	aṯr	aṯr(III)	ảṯr (III)	interr. adv.	where	
 157750	iṯt	iṯt	ỉṯt	?	?	
 157751	w	w	w	conj.	and	
@@ -96,7 +96,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157760	l	l(I)	l (I)	prep.	to	
 157760	l	l(II)	l (II)	adv.	no	
 157760	l	l(III)	l (III)	functor	certainly	
-157761	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
+157761	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.36 12						
 157762	xx	?	?	?	?	
 157763	km	k(III)	k (III)	functor	when	
@@ -104,74 +104,77 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157763	km	k(IV)	k (IV)	adv.	thus	
 157763	km	km	km	prep./conj./adv.		
 157763	km	+km, +km=	-km			
-157764	šknt	škn[	/š-k-n/	vb G	to be placed	
+157764	šknt	škn[t	/š-k-n/	vb G	to be placed	
 157765	ly	l(I)+y	l (I)	prep.	to	
 157766	ht	ht	ht	adv.	here	
 157767	hln	hln	hln	deictic adv. functor	look!	
-157768	ḫrṣ	ḫrṣ/	ḫrṣ	n. m.	gold	
+157768	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 157769	xx	?	?	?	?	
 # KTU 2.36 13						
 157770	xxx	?	?	?	?	
-157771	štnt	?	?	?	?	DULAT: NOT FOUND
+157771	štnt	ytn[t	/y-t-n/	vb	to give	
 157772	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 157773	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157774	špš	špš/	špš	n.	sun	
-157775	štnt	?	?	?	?	DULAT: NOT FOUND
+157774	špš	špš/	špš	n. sg.	sun	
+157775	štnt	ytn[t	/y-t-n/	vb	to give	
 # KTU 2.36 14						
 157776	ṯnnty	?	?	?	?	DULAT: NOT FOUND
 157777	rgm	rgm[	/r-g-m/	vb G	to say	
-157777	rgm	rgm/	rgm	n. m.	word	
+157777	rgm	rgm/	rgm	n. m. sg.	word	
 157778	ky	k(III)	k (III)	Subordinating or completive functor	when	
 157778	ky	k(II)	k (II)	emph. functor	yes	
 157778	ky	k(IV)	k (IV)	adv.	thus	
-157779	likt	lʔk[	/l-ʔ-k/	vb G	to send (a message)	
-157780	bt	bt(II)/	bt (II)	n. m.	house	
-157780	bt	b(t(I)/t	bt (I)	n. f.	daughter	
-157780	bt	bt(III)/	bt (III)	n. m.	length	
+157779	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G	to send (a message)	
+157780	bt	b(t(II)/t	bt (II)	n. m. sg.	house	
+157780	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+157780	bt	bt(III)/	bt (III)	n. m. pl.	length	
 157781	mlk	mlk[	/m-l-k/	vb G	to reign	
-157781	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+157781	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.36 15						
-157782	šbt	šb(t/t	šbt	n. f.	greyness > old age	
-157783	ntbt	ntbt/	ntbt	n. m.	path	
+157782	šbt	šb(t/t	šbt	n. f. sg.	greyness > old age	
+157783	ntbt	ntb(t/t	ntbt	n. m. sg.	path	
 157784	mṣrm	mṣrm/	mṣrm	TN	Egypt	
+157784	mṣrm	mṣr/+m(I)	mṣr	n. m.	sob	
 157785	ušbtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 16						
-157786	ntbt	ntbt/	ntbt	n. m.	path	
+157786	ntbt	ntb(t/t	ntbt	n. m. sg.	path	
 157787	mṣrm	mṣrm/	mṣrm	TN	Egypt	
+157787	mṣrm	mṣr/+m(I)	mṣr	n. m.	sob	
 157788	b	b	b	prep.	in	
-157789	ḥwt	ḥw(t/t	ḥwt	n. f.	country	
-157790	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+157789	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
+157790	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 2.36 17						
-157791	ḥwt	ḥw(t/t	ḥwt	n. f.	country	
-157792	qṭ	qṭ(I)/	qṭ (I)	n. m.	flax	
+157791	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
+157792	qṭ	qṭ(I)/	qṭ (I)	n. m. sg.	flax	
 157793	w	w	w	conj.	and	
 157794	b	b	b	prep.	in	
-157795	ḥwt	ḥw(t/t	ḥwt	n. f.	country	
+157795	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 157796	nġṯ	nġṯ/	nġṯ	TN	go to TN	
-157797	tˤtqnn	!t!ˤtq[+n	/ʕ-t-q/	vb	to pass	
+157797	tˤtqnn	!t!ˤtq[n+n	/ʕ-t-q/	vb	to pass	
+157797	tˤtqnn	!t!ˤtq[+nn	/ʕ-t-q/	vb	to pass, ?	
 # KTU 2.36 18						
 157798	xxxxḥwtm	?	?	?	?	DULAT: NOT FOUND
 157799	nxxx	?	?	?	?	DULAT: NOT FOUND
-157800	ysb	sbb[	/s:ś-b-b/	vb G	to turn round	
-157801	ˤmq	ˤmq(I)/	ʕmq (I)	n. m.	valley	
-157801	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m.	tough	
+157800	ysb	!y!sb(b[	/s:ś-b-b/	vb G	to turn round	
+157801	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg.	valley	
+157801	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m. sg.	tough	
 # KTU 2.36 19						
 157802	w	w	w	conj.	and	
-157803	ḥwtm	ḥw(t/tm	ḥwt	n. f.	country	
-157804	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
-157805	tˤtqn	!t!ˤtq[	/ʕ-t-q/	vb G	to pass	
+157803	ḥwtm	ḥwt/m	ḥwt	n. f. du.	country	
+157804	ugrt	ugrt/	ủgrt	TN	Ugarit	
+157805	tˤtqn	!t!ˤtq[n	/ʕ-t-q/	vb G	to pass	
 157806	ht	ht	ht	adv.	here	
 # KTU 2.36 20						
-157807	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+157807	ṯlṯt	ṯlṯ(I)/t	ṯlṯ (I)	n. nuf. sg.	three	
 157808	rgm	rgm[	/r-g-m/	vb G	to say	
-157808	rgm	rgm/	rgm	n. m.	word	
+157808	rgm	rgm/	rgm	n. m. sg.	word	
 157809	hnxxx	?	?	?	?	DULAT: NOT FOUND
 157810	xxš	?	?	?	?	DULAT: NOT FOUND
 157811	rxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 21						
 157812	xxx	?	?	?	?	
 157813	mlk	mlk[	/m-l-k/	vb G	to reign	
-157813	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+157813	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 157814	grgmš	grgmš/	grgmš	TN	gargamiš	
 157815	xx	?	?	?	?	
 157816	rxxx	?	?	?	?	DULAT: NOT FOUND

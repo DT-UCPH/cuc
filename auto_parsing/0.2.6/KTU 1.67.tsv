@@ -11,7 +11,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149458	an	an(I)	ản (I)	pers. pn.	I	
 149458	an	an(II)	ản (II)	adv.	wherever	
 149459	mnmnm	mnmn/+m(I)	mnmn	indef. pers. pn./element of DN	anyone	
-149459	mnmnm	mnmn/+m(II)	mnmn	indef. pers. pn./element of DN	anyone	
 149460	a	?	?	?	?	
 # KTU 1.67 5						
 149461	w	w	w	conj.	and	
@@ -19,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149463	mˤnh	mˤn/+h	mʕn	n. m.	reply	
 149464		?	?	?	?	
 # KTU 1.67 6						
-149465	ilt	il(t(I)/t	ỉlt (I)	n. f.	goddess	
+149465	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
 149466	blt	bl(I)	bl (I)	adv. or emph. functor	no	
 149466	blt	blt[	/b-l-t/	vb G	to open wide	
 149466	blt	bly[t	/b-l-y/	vb G	to devour	
@@ -35,13 +34,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.67 8						
 149473	yṯ	?	?	?	?	DULAT: NOT FOUND
 149474	ṯpt	?	?	?	?	DULAT: NOT FOUND
-149475	in	in/	ỉn	n. m.	lack of	
-149476	in	in/	ỉn	n. m.	lack of	
+149475	in	in/	ỉn	n. m. sg.	lack of	
+149476	in	in/	ỉn	n. m. sg.	lack of	
 149477	kly	kly[	/k-l-y/	vb G	to finish	
 # KTU 1.67 9						
 149478	rty	rt/+y	rt	PN	rt	
-149479	ym	ym(I)/	ym (I)	n. m.	day	
-149479	ym	ym(II)/	ym (II)	n. m.	sea	
+149479	ym	ym(I)/	ym (I)	n. m. sg.	day	
+149479	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 149480	ulxxṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 10						
 149481	yṯ	?	?	?	?	DULAT: NOT FOUND
@@ -59,7 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149488	blt	bl(I)	bl (I)	adv. or emph. functor	no	
 149488	blt	blt[	/b-l-t/	vb G	to open wide	
 149488	blt	bly[t	/b-l-y/	vb G	to devour	
-149489	in	in/	ỉn	n. m.	lack of	
+149489	in	in/	ỉn	n. m. sg.	lack of	
 # KTU 1.67 16						
 149490	bltnrḫ	?	?	?	?	DULAT: NOT FOUND
 149491	uṯp	?	?	?	?	DULAT: NOT FOUND
@@ -74,7 +73,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149497	lwt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 20						
 149498	wm	w+m(I)	w	conj.	and	
-149498	wm	w+m(II)	w	conj.	and	
+149498	wm	wm	wm	conj.	and	
 149499	mˤnh	mˤn/+h	mʕn	n. m.	reply	
 149500	aḏmr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 21						

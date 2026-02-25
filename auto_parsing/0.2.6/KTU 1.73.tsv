@@ -5,9 +5,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149791	l	l(I)	l (I)	prep.	to	
 149791	l	l(III)	l (III)	functor	certainly	
 149792	lmt	?	?	?	?	DULAT: NOT FOUND
-149793	ṯt	ṯn(I)/	ṯn (I)	num.	two	
+149793	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
 # KTU 1.73 3						
-149794	imt	im(t/t	ỉmt	n. f.	truth	
+149794	imt	im(t/t	ỉmt	n. f. sg.	truth	
 149795	nqt	?	?	?	?	DULAT: NOT FOUND
 149796	p	p(I)	p (I)	conj. functor	and	
 149796	p	p(III)/	p (III)	n. m.	mouth	
@@ -18,9 +18,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149798	plḫtṯ	?	?	?	?	DULAT: NOT FOUND
 149799	pl	pl[	/p-l(-l)/	vb G	to be cracked	
 # KTU 1.73 5						
-149800	mr	mr(I)/	mr (I)	n. m.	myrrh	
-149800	mr	mr(IV)/	mr (IV)	adj. m.	valiant	
-149800	mr	mr(II)/	mr (II)	adj. m.	bitter	
+149800	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
+149800	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
+149800	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
 149801	lbṯ	?	?	?	?	DULAT: NOT FOUND
 149802	tx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.73 6						
@@ -34,26 +34,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149808	lṯlm	?	?	?	?	DULAT: NOT FOUND
 149809	r	?	?	?	?	
 # KTU 1.73 8						
-149810	pḫr	pḫr(I)/	pḫr (I)	n. m.	assembly	
-149810	pḫr	pḫr(II)/	pḫr (II)	n. m.	potter	
-149811	qrd	qrd(I)/	qrd (I)	n. m.	hero	
+149810	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
+149810	pḫr	pḫr(II)/	pḫr (II)	n. m. sg.	potter	
+149811	qrd	qrd(I)/	qrd (I)	n. m. sg.	hero	
 # KTU 1.73 9						
 149812	tskn	!t!skn[	/s-k-n/	vb G	to place	
-149813	ydm	yd(I)/	yd (I)	n. f.	hand	
+149813	ydm	yd(I)/m	yd (I)	n. f. du.	hand	
 149814	l	l(I)	l (I)	prep.	to	
 149814	l	l(III)	l (III)	functor	certainly	
 # KTU 1.73 10						
-149815	šbˤ	šbˤ(I)/	šbʕ (I)	n. num.	seven	
+149815	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
 149816	wmˤnt	?	?	?	?	DULAT: NOT FOUND
-149817	š	š/	š	n. m.	ram	
+149817	š	š/	š	n. m. sg.	ram	
 # KTU 1.73 11						
-149818	anẓ	anẓ	ảnẓ	→		
+149818	anẓ	anẓ	ảnẓ	→	?	
 149819	wġzr	?	?	?	?	DULAT: NOT FOUND
 149820	t	/t, /t=				
 149820	t	[t, [t=, [t==, [t===				
 # KTU 1.73 12						
 149821	w	w	w	conj.	and	
-149822	kbdt	kbd(I)/t=	kbd (I)	n.	liver	
+149822	kbdt	kbd(I)/t=	kbd (I)	n. pl.	liver	
 149823	t	/t, /t=				
 149823	t	[t, [t=, [t==, [t===				
 # KTU 1.73 13						
@@ -61,8 +61,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149825	ta	?	?	?	?	DULAT: NOT FOUND
 149826	nˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.73 14						
-149827	pr	pr(II)/	pr (II)	n. m.	young bull	
-149827	pr	pr(I)/	pr (I)	n. m.	fruit	
+149827	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
+149827	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 149828	ˤẓ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.73 15						
 149829	x	?	?	?	?	

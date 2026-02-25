@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161333	l	l(I)	l (I)	prep.	to	
 161333	l	l(II)	l (II)	adv.	no	
 161333	l	l(III)	l (III)	functor	certainly	
-161334	yiḫd	!y!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
+161334	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
 161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
 # KTU 3.12 2						
 161336	b	b	b	prep.	in	
@@ -13,45 +13,47 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161338	km	k(IV)	k (IV)	adv.	thus	
 161338	km	km	km	prep./conj./adv.		
 161338	km	+km, +km=	-km			
-161339	špš	špš/	špš	n.	sun	
+161339	špš	špš/	špš	n. sg.	sun	
 # KTU 3.12 3						
 161340	d	d	d	det. or rel. functor	the one(s) of	
-161341	brt	br[	/b-r(-r)/	vb G	to be or remain pure	
-161341	brt	br(t/t	brt	n. f.	forecast	
+161341	brt	br[t	/b-r(-r)/	vb G	to be or remain pure	
+161341	brt	br(t/t	brt	n. f. sg.	forecast	
 161342	kmt	k(I)	k (I)	prep.	like	
 161342	kmt	kmt	kmt	adv.	like(wise)	
 # KTU 3.12 4						
-161343	br	br/	br(r)	n. m.	tin	
-161343	br	br(I)/	br (I)	n. m.	Art Seeschiff	
+161343	br	br/	br(r)	n. m. sg.	tin	
+161343	br	br(I)/	br (I)	n. m. sg.	Art Seeschiff	
 161343	br	br[	/b-r(-r)/	vb G	to be or remain pure	
 161344	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
 # KTU 3.12 5						
 161345	b	b	b	prep.	in	
 161346	unṯ	unṯ/	ủnṯ	n. m.	obligation	
-161347	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
-161347	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
+161347	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
+161347	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 161348	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+161348	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
+161348	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg.	eternity	
 # KTU 3.12 6						
-161349	mišmn	mišmn/	m(ả/ỉ)šmn	n. m.	seal	
+161349	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg.	seal	
 161350	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
 # KTU 3.12 7						
 161351	mlk	mlk[	/m-l-k/	vb G	to reign	
-161351	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-161352	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+161351	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+161352	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 3.12 8						
 161353	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
 161354	mlk	mlk[	/m-l-k/	vb G	to reign	
-161354	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-161355	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+161354	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+161355	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 3.12 9						
 161356	ktb	ktb[	/k-t-b/	vb G	to write	
-161357	spr	spr(II)/	spr (II)	n. m.	tablet/register	
-161357	spr	spr[	/s-p-r/	vb G/D	to count	
-161357	spr	spr(I)/	spr (I)	n. m.	scribe	
+161357	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
+161357	spr	spr[:d	/s-p-r/	vb G/D	to count	
+161357	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 161358	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.12 10						
 161359	d	d	d	det. or rel. functor	the one(s) of	
-161360	tbrrt	tbrr(t/t	tbrrt	n. f.	exemption	
+161360	tbrrt	tbrr(t/t	tbrrt	n. f. sg.	exemption	
 161361	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
 # KTU 3.12 11						
 161362	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m.	servant	
@@ -62,21 +64,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161366	l	l(I)	l (I)	prep.	to	
 161366	l	l(II)	l (II)	adv.	no	
 161366	l	l(III)	l (III)	functor	certainly	
-161367	yqḥ	lqḥ[	/l-q-ḥ/	vb G/Gpass	to get hold of	
+161367	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G/Gpass	to get hold of	
 # KTU 3.12 13						
-161368	spr	spr(II)/	spr (II)	n. m.	tablet/register	
-161368	spr	spr[	/s-p-r/	vb G/D	to count	
-161368	spr	spr(I)/	spr (I)	n. m.	scribe	
+161368	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
+161368	spr	spr[:d	/s-p-r/	vb G/D	to count	
+161368	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 161369	mlk	mlk[	/m-l-k/	vb G	to reign	
-161369	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+161369	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 161370	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.12 14						
 161371	b	b	b	prep.	in	
-161372	yd	yd(I)/	yd (I)	n. f.	hand	
-161372	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-161372	yd	yd(II)/	yd (II)	n. m.	love	
+161372	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 161373	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
 # KTU 3.12 15						
-161374	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
-161374	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
+161374	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
+161374	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 161375	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	

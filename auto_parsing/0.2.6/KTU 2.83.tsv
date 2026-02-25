@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159398	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.83 4						
 159399	x	?	?	?	?	
-159400	tḥmk	tḥm/	tḥm	n. m.	message	
+159400	tḥmk	tḥm/+k	tḥm	n. m. sg.	message	
 159401	ḥdy	ḥdy[+y	/ḥ-d-y/	vb	to see	
 159402	r	?	?	?	?	
 # KTU 2.83 5						
@@ -26,32 +26,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159406	xm	?	?	?	?	DULAT: NOT FOUND
 159407	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
 159408	hm	hm(II)	hm (II)	conj./interr. functor	if	
+159408	hm	hm(I)	hm (I)	pers. pn.	they	
 159409		?	?	?	?	
 # KTU 2.83 7						
 159410		?	?	?	?	
 159411	rgm	rgm[	/r-g-m/	vb G	to say	
-159411	rgm	rgm/	rgm	n. m.	word	
+159411	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.83 8						
 159412	m	l(I)	l (I)	prep.	to	
-159413	kbd	kbd(II)/	kbd (II)	n. m.	total (quantity or price)	
-159413	kbd	kbd(I)/	kbd (I)	n.	liver	
-159413	kbd	kbd[	/k-b-d/	vb D	to honour	
+159413	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
+159413	kbd	kbd(I)/	kbd (I)	n. f. sg.	liver	
+159413	kbd	kbd[:d	/k-b-d/	vb D	to honour	
 159414	x	?	?	?	?	
 # KTU 2.83 9						
 159415	xṣpy	?	?	?	?	DULAT: NOT FOUND
 159416	b	b	b	prep.	in	
-159417	ḫrṣ	ḫrṣ/	ḫrṣ	n. m.	gold	
+159417	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 # KTU 2.83 10						
 159418	su	?	?	?	?	DULAT: NOT FOUND
-159419	adr	adr(I)/	ảdr (I)	adj. m. or n. m.	wonderful	
-159419	adr	adr(II)/	ảdr (II)	n. m.	granary	
+159419	adr	adr(I)/	ảdr (I)	adj. m. or n. m. sg.	wonderful	
 # KTU 2.83 11						
 159420	n	~n	-n (I)	encl. morph.		
 159420	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
 159420	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
 159420	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
-159421	pr	pr(II)/	pr (II)	n. m.	young bull	
-159421	pr	pr(I)/	pr (I)	n. m.	fruit	
+159421	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
+159421	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 159422	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 2.83 12						
 159423	mš	?	?	?	?	DULAT: NOT FOUND

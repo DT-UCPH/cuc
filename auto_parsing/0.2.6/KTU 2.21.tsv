@@ -1,67 +1,68 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.21 1						
-156904	tḥm	tḥm/	tḥm	n. m.	message	
+156904	tḥm	tḥm/	tḥm	n. m. sg.	message	
 156905	mlk	mlk[	/m-l-k/	vb G	to reign	
-156905	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
-156906	amr	amr(I)/	ảmr (I)	n. m.	order	
+156905	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+156906	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 # KTU 2.21 2						
 156907	l	l(I)	l (I)	prep.	to	
-156908	mlkt	mlk(t/t	mlkt	n. f.	queen	
-156909	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+156908	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
+156909	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 2.21 3						
 156910	aḫty	aḫt(I)/+y	ảḫt (I)	n. f.	sister (related by blood)	
 156911	rgm	rgm[	/r-g-m/	vb G	to say	
-156911	rgm	rgm/	rgm	n. m.	word	
+156911	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.21 4						
 156912	yšlm	!y!šlm[	/š-l-m/	vb G	to be well	
 156913	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.21 5						
-156914	ilm	il(I)/m	ỉl (I)	n. m.	god	
-156915	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
+156914	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+156915	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
 # KTU 2.21 6						
-156916	tġrk	!t!nġr[	/n-ġ-r/	vb G	to protect	
+156916	tġrk	nġr[k	/n-ġ-r/	vb G	to protect	
 # KTU 2.21 7						
 156917	hlny	hlny	hlny	deictic adv. functor	behold	
 156918	ibrkḏ	ibrkḏ/	ỉbrkḏ	PN	ỉbrkḏ	
 # KTU 2.21 8						
 156919	mkry	mkr/+y	mkr	n. m.	merchant	
 156920	rgm	rgm[	/r-g-m/	vb G	to say	
-156920	rgm	rgm/	rgm	n. m.	word	
+156920	rgm	rgm/	rgm	n. m. sg.	word	
 156921	l	l(I)	l (I)	prep.	to	
 156921	l	l(III)	l (III)	functor	certainly	
-156922	skn	skn(I)/	s:śkn (I)	n. m.	prefect	
-156923	gt	g(t/t	gt	n. f./element of TNN	gittu	
+156922	skn	skn(I)/	s:śkn (I)	n. m. sg.	prefect	
+156923	gt	g(t/t	gt	n. f. sg./element of TNN	gittu	
 # KTU 2.21 9						
-156924	mlkt	mlk(t/t	mlkt	n. f.	queen	
-156925	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+156924	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
+156925	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 2.21 10						
 156926	hnkt	hnk	hnk(t)	dem./pers. pn.	that	
-156927	rgmt	rgm[	/r-g-m/	vb G	to say	
+156927	rgmt	rgm[t	/r-g-m/	vb G	to say	
 # KTU 2.21 11						
 156928	iky	iky	ỉky	interr. functor	what of?	
 156929	l	l(I)	l (I)	prep.	to	
 156929	l	l(II)	l (II)	adv.	no	
 156929	l	l(III)	l (III)	functor	certainly	
-156930	ilak	!i!lʔk[	/l-ʔ-k/	vb G	to send (a message)	
+156930	ilak	lʔk[k	/l-ʔ-k/	vb G	to send (a message)	
 # KTU 2.21 12						
-156931	ˤtn	ˤtn	ʕtn	→		
+156931	ˤtn	ˤnt(II)	ʕnt (II)	adv.	now	
+156931	ˤtn	ˤt/+n	ʕt	TN	ʿt	
 156932	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.21 13						
-156933	kl	kl/	kl	n. m.	totality (of)	
-156934	šlm	šlm(I)/	šlm (I)	n. m.	peace	
-156934	šlm	šlm[	/š-l-m/	vb G/D	to be well	
-156934	šlm	šlm(III)/	šlm (III)	adj. m.	pure	
+156933	kl	kl/	kl	n. m. sg.	totality (of)	
+156934	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+156934	šlm	šlm[:d	/š-l-m/	vb G/D	to be well	
+156934	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 156935	w	w	w	conj.	and	
 156936	lm	l(I)	l (I)	prep.	to	
 # KTU 2.21 14						
 156937	xxxk	?	?	?	?	DULAT: NOT FOUND
-156938	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+156938	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 # KTU 2.21 15						
 156939	xxšlm	?	?	?	?	DULAT: NOT FOUND
 156940	kspy	ksp/+y	ksp	n. m.	silver	
 # KTU 2.21 16						
-156941	ṯṯ	ṯṯ/	ṯṯ	n. num.	six	
-156942	mat	mit/	mỉt	n. f.	a hundred	
+156941	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
+156942	mat	mit/	mỉt	n. f. pl.	a hundred	
 156943	ˤmnkm	ˤm(I)+km	ʕm (I)	prep.	to	
 # KTU 2.21 17						
 156944	w	w	w	conj.	and	

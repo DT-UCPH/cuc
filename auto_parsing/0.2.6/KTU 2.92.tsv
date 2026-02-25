@@ -1,10 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.92 1						
-160064	klt	kly[t	/k-l-y/	vb G/D	to finish	
-160064	klt	klt(I)/	klt (I)	n. f.	bride	
-160064	klt	kl(t(II)/t	klt (II)	n. f.	measure	
+160064	klt	kly[t:d	/k-l-y/	vb G/D	to finish	
+160064	klt	kl(t(I)/t	klt (I)	n. f. sg.	bride	
+160064	klt	kl(t(I)/t=	klt (I)	n. f. pl.	bride	
+160064	klt	kl(t(II)/t	klt (II)	n. f. sg.	measure	
 160065	rgm	rgm[	/r-g-m/	vb G	to say	
-160065	rgm	rgm/	rgm	n. m.	word	
+160065	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.92 2						
 160066		?	?	?	?	
 160067	w	w	w	conj.	and	

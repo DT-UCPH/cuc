@@ -20,25 +20,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.8 3						
 156513	ṯb	ṯb[	/ṯ-b/	vb G	to return	
 156514	ˤrym	ˤry/+m(I)	ʕry	TN	ʿry	
-156514	ˤrym	ˤry/+m(II)	ʕry	TN	ʿry	
 156515	w	w	w	conj.	and	
 156516	k	+k	-k (I)			
 156516	k	~k	-k (II)			
 156516	k	k(III)	k (III)	Subordinating or completive functor	when	
 156516	k	k(I)	k (I)	prep.	like	
 156516	k	k(II)	k (II)	emph. functor	yes	
-156517	qlt	ql[	/q-l/	vb G	to fall (down)	
+156517	qlt	ql[t	/q-l/	vb G	to fall (down)	
 156518	x	?	?	?	?	
 # KTU 2.8 4						
 156519	at	at(I)	ảt (I)	pers. pn.	you	
-156520	brt	br[	/b-r(-r)/	vb G	to be or remain pure	
-156520	brt	br(t/t	brt	n. f.	forecast	
-156521	lbk	lb/	lb	n. m.	heart	
-156522	ˤnn	ˤn(I)/	ʕn (I)	n. f.	eye	
+156520	brt	br[t	/b-r(-r)/	vb G	to be or remain pure	
+156520	brt	br(t/t	brt	n. f. sg.	forecast	
+156521	lbk	lb/	lb	n. m. sg.	heart	
+156522	ˤnn	ˤn(I)/	ʕn (I)	n. f. du.	eye	
 156522	ˤnn	ˤnn/	ʕnn	n. m.	manservant	
 156523	x	?	?	?	?	
 # KTU 2.8 5						
-156524	ṣdq	ṣdq(I)/	ṣdq (I)	n. m. or adj. m. (?)	justice	
+156524	ṣdq	ṣdq(I)/	ṣdq (I)	n. m. sg. or adj. m. (?)	justice	
 156525	k	+k	-k (I)			
 156525	k	~k	-k (II)			
 156525	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -53,6 +52,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156530	bn	bn(II)	bn (II)	prep.	between	
 156530	bn	bn[	/b-n/	vb G	to understand	
 156531	rgm	rgm[	/r-g-m/	vb G	to say	
-156531	rgm	rgm/	rgm	n. m.	word	
+156531	rgm	rgm/	rgm	n. m. sg.	word	
 156532	w	w	w	conj.	and	
 156533	ydˤx	?	?	?	?	DULAT: NOT FOUND

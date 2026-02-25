@@ -2,47 +2,48 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.107 1						
 160577	yx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.107 2						
-160578	ṯh	ṯh/	ṯh	n. m.	neighbour	
+160578	ṯh	ṯh/	ṯh	n. m. sg.	neighbour	
 # KTU 2.107 3						
 160579	x	?	?	?	?	
 160580	w	w	w	conj.	and	
-160581	štn	št[	/š-t/	vb G	to place	
+160581	štn	št[n	/š-t/	vb G	to place	
 160582	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 2.107 4						
 160583	x	?	?	?	?	
-160584	aškn	!a!škn[	/š-k-n/	vb D	to be placed	
+160584	aškn	!(ʔ&a!škn[:d	/š-k-n/	vb D	to be placed	
+160584	aškn	kn[kn:d	/k-n/	vb D	to be (stable)	
 # KTU 2.107 5						
 160585		?	?	?	?	
 # KTU 2.107 6						
 160586	xy	?	?	?	?	DULAT: NOT FOUND
 160587	rgm	rgm[	/r-g-m/	vb G	to say	
-160587	rgm	rgm/	rgm	n. m.	word	
+160587	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.107 7						
-160588	bnšm	bnš/m	bnš	n. m.	man	
+160588	bnšm	bnš/m	bnš	n. m. pl.	man	
 160589	it	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.107 8						
 160590	x	?	?	?	?	
-160591	qrht	qrt(I)/	qrt (I)	n. f.	city	
-160592	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G/Gpass	to flee	
-160592	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m.	emancipated	
+160591	qrht	qrt(I)/	qrt (I)	n. f. pl.	city	
+160592	ḫbṯ	ḫbṯ[:pass	/ḫ-b-ṯ/	vb G/Gpass	to flee	
+160592	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg.	emancipated	
 # KTU 2.107 9						
 160593	x	?	?	?	?	
-160594	spr	spr(II)/	spr (II)	n. m.	tablet/register	
-160594	spr	spr[	/s-p-r/	vb G/D	to count	
-160594	spr	spr(I)/	spr (I)	n. m.	scribe	
+160594	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
+160594	spr	spr[:d	/s-p-r/	vb G/D	to count	
+160594	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 160595	šthm	št[+hm	/š-t/	vb	to place	
 160595	šthm	št(II)/+hm	št (II)	n. f.	raíz	
 160595	šthm	št(I)/+hm	št (I)	n. m.	base	
 # KTU 2.107 10						
 160596	šṣu	?	?	?	?	DULAT: NOT FOUND
-160597	ṯh	ṯh/	ṯh	n. m.	neighbour	
-160598	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+160597	ṯh	ṯh/	ṯh	n. m. sg.	neighbour	
+160598	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 # KTU 2.107 11						
 160599		?	?	?	?	
-160600	lbk	lb/	lb	n. m.	heart	
+160600	lbk	lb/	lb	n. m. sg.	heart	
 # KTU 2.107 12						
-160601	š	š/	š	n. m.	ram	
-160602	ksp	ksp/	ksp	n. m.	silver	
+160601	š	š/	š	n. m. sg.	ram	
+160602	ksp	ksp/	ksp	n. m. sg.	silver	
 # KTU 2.107 13						
 160603		?	?	?	?	
 160604	grgš	?	?	?	?	DULAT: NOT FOUND
@@ -54,13 +55,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.107 15						
 160606	xˤm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.107 16						
-160607	gršthm	grš[	/g-r-š/	vb G	to eject	
+160607	gršthm	grš[thm	/g-r-š/	vb G	to eject	
 # KTU 2.107 17						
 160608	hm	hm(II)	hm (II)	conj./interr. functor	if	
-160609	ˤmk	ˤm(II)/+k	ʕm (II)	n. m.	lineage	
+160608	hm	hm(I)	hm (I)	pers. pn.	they	
+160609	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
 # KTU 2.107 18						
-160610	pr	pr(II)/	pr (II)	n. m.	young bull	
-160610	pr	pr(I)/	pr (I)	n. m.	fruit	
+160610	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
+160610	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 160611	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.107 19						
 160612	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb G	to hurry	
@@ -68,7 +70,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160613		?	?	?	?	
 160614	mnm	mnm	mnm	indef. pn.	any(thing)	
 160615	rgm	rgm[	/r-g-m/	vb G	to say	
-160615	rgm	rgm/	rgm	n. m.	word	
+160615	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.107 21						
 160616	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G	to hear	
 # KTU 2.107 22						

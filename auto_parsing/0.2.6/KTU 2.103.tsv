@@ -1,17 +1,17 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 1						
-160449	tḥm	tḥm/	tḥm	n. m.	message	
+160449	tḥm	tḥm/	tḥm	n. m. sg.	message	
 # KTU 2.103 2						
 160450	l	l(I)	l (I)	prep.	to	
 160450	l	l(III)	l (III)	functor	certainly	
-160451	ur	ur/	ủr	n. m.	warmth	
+160451	ur	ur/	ủr	n. m. sg.	warmth	
 # KTU 2.103 3						
 160452	urt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 4						
 160453		?	?	?	?	
 # KTU 2.103 5						
 160454	rgm	rgm[	/r-g-m/	vb G	to say	
-160454	rgm	rgm/	rgm	n. m.	word	
+160454	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.103 6						
 160455	bxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 7						
@@ -26,15 +26,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 10						
 160461	xxny	?	?	?	?	DULAT: NOT FOUND
 160462	xxxxlb	?	?	?	?	DULAT: NOT FOUND
-160463	nḫtk	!n!nḫ[+k	/n-ḫ/	vb	to rest	
+160463	nḫtk	nḫ[t+k	/n-ḫ/	vb	to rest	
 160463	nḫtk	nḫt/+k	nḫt	n. f.	divan	
 # KTU 2.103 11						
 160464	xxṣ	?	?	?	?	DULAT: NOT FOUND
 160465	ky	k(III)	k (III)	Subordinating or completive functor	when	
 160465	ky	k(II)	k (II)	emph. functor	yes	
 160465	ky	k(IV)	k (IV)	adv.	thus	
+160466	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass	to be oppressed	
 160466	ḫbt	ḫbt(II)/	ḫbt (II)	DN	Bien-amada	
-160466	ḫbt	ḫbt[	/ḫ-b-t/	vb Gpass	to be oppressed	
 160467	w	w	w	conj.	and	
 160468	lušal	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 12						
@@ -43,16 +43,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160471	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.103 13						
 160472	rṣ	?	?	?	?	DULAT: NOT FOUND
-160473	lby	lb/y	lb	n. m.	heart	
+160473	lby	lb/y	lb	n. m. sg.	heart	
 160474	w	w	w	conj.	and	
-160475	lḥt	lḥ(II)/t=	lḥ (II)	n. m.	missive	
-160475	lḥt	lḥ(I)/t=	lḥ (I)	n. f.	cheek	
+160475	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+160475	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl.	cheek	
 # KTU 2.103 14						
-160476	kt	k(t(I)/t	kt (I)	n. f.	pitcher	
-160476	kt	k(t(II)/t	kt (II)	n. f.	stage	
+160476	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
+160476	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
 160477	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-160478	lḥt	lḥ(II)/t=	lḥ (II)	n. m.	missive	
-160478	lḥt	lḥ(I)/t=	lḥ (I)	n. f.	cheek	
+160478	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+160478	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl.	cheek	
 # KTU 2.103 15						
 160479	u	u	ủ	conj.	or	
 160480	ky	k(III)	k (III)	Subordinating or completive functor	when	
@@ -63,16 +63,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160482	xxxd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 17						
 160483	l	l(I)	l (I)	prep.	to	
-160484	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-160485	iḫy	aḫ(I)/	ảḫ (I)	n. m.	brother (by blood)	
-160486	qlt	ql[	/q-l/	vb G	to fall (down)	
+160484	pˤn	pˤn/	pʕn	n. f. du.	at the feet of	
+160485	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
+160486	qlt	ql[t	/q-l/	vb G	to fall (down)	
 # KTU 2.103 18						
-160487	ilm	il(I)/m	ỉl (I)	n. m.	god	
+160487	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 160488	tġr	nġr[	/n-ġ-r/	vb G	to protect	
 # KTU 2.103 19						
-160489	tšlmk	!t!šlm[	/š-l-m/	vb D	to be well	
-160490	lḥt	lḥ(II)/t=	lḥ (II)	n. m.	missive	
-160490	lḥt	lḥ(I)/t=	lḥ (I)	n. f.	cheek	
+160489	tšlmk	!t!šlm[k:d	/š-l-m/	vb D	to be well	
+160490	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+160490	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl.	cheek	
 # KTU 2.103 20						
 160491	k	+k	-k (I)			
 160491	k	~k	-k (II)			
@@ -84,20 +84,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160493	ikt	?	?	?	?	DULAT: NOT FOUND
 160494	l	l(I)	l (I)	prep.	to	
 160494	l	l(III)	l (III)	functor	certainly	
-160495	ḫpn	ḫpn(I)/	ḫpn (I)	n. m.	Gewand	
+160495	ḫpn	ḫpn(I)/	ḫpn (I)	n. m. sg.	Gewand	
 # KTU 2.103 21						
 160496	w	w	w	conj.	and	
 160497	lkblm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 22						
+160498	lkn	l(I)+kn	l (I)	prep.	to	
+160498	lkn	l(I)+n	l (I)	prep.	to	
 160498	lkn	lkn/	lkn	PN	lkn	
 # KTU 2.103 23						
 160499	mxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 24						
-160500	tˤn	ˤny(I)[	/ʕ-n-y/ (I)	vb G	to answer	
-160500	tˤn	!t!ˤn[	/ʕ-n/	vb G/D	to see	
-160500	tˤn	ˤnw[	/ʕ-n-w/	vb G	to be / remain depressed	
+160500	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G	to answer	
+160500	tˤn	!t!ˤn[:d	/ʕ-n/	vb G/D	to see	
+160500	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G	to be / remain depressed	
 # KTU 2.103 25						
-160501	ktt	ktt(I)/	ktt (I)	adj. m.	ground	
+160501	ktt	kt(t(I)/t	ktt (I)	adj. m. sg.	ground	
 160502		?	?	?	?	
 # KTU 2.103 26						
 160503	mrs	?	?	?	?	DULAT: NOT FOUND
@@ -106,7 +108,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160505		?	?	?	?	
 # KTU 2.103 28						
 160506	w	w	w	conj.	and	
-160507	aḫ	aḫ(I)/	ảḫ (I)	n. m.	brother (by blood)	
+160507	aḫ	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
 160508	x	?	?	?	?	
 # KTU 2.103 29						
 160509	w	w	w	conj.	and	
@@ -115,9 +117,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160511	hlmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 31						
 160512	w	w	w	conj.	and	
-160513	lb	lb/	lb	n. m.	heart	
+160513	lb	lb/	lb	n. m. sg.	heart	
 160514	aḫtk	aḫt(I)/+k	ảḫt (I)	n. f.	sister (related by blood)	
-160515	mid	mi/	mỉ/ủd	n. m.	abundance	
+160515	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
 # KTU 2.103 32						
 160516	p	p(I)	p (I)	conj. functor	and	
 160516	p	p(III)/	p (III)	n. m.	mouth	
@@ -128,6 +130,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 33						
 160520	ˤkd	ˤkd/	ʕkd	TN	ungestüm	
 160521	w	w	w	conj.	and	
-160522	yqḥ	lqḥ[	/l-q-ḥ/	vb G/Gpass	to get hold of	
+160522	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G/Gpass	to get hold of	
 160523	t	/t, /t=				
 160523	t	[t, [t=, [t==, [t===				

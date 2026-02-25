@@ -2,8 +2,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 1						
 161027	l	l(I)	l (I)	prep.	to	
 161027	l	l(III)	l (III)	functor	certainly	
-161028	ym	ym(I)/	ym (I)	n. m.	day	
-161028	ym	ym(II)/	ym (II)	n. m.	sea	
+161028	ym	ym(I)/	ym (I)	n. m. sg.	day	
+161028	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 161029	hnd	hnd	hnd	dem. adj./pn.	this	
 # KTU 3.5 2						
 161030	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
@@ -13,43 +13,44 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 3						
 161032	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
 161033	mlk	mlk[	/m-l-k/	vb G	to reign	
-161033	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+161033	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.5 4						
-161034	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+161034	ugrt	ugrt/	ủgrt	TN	Ugarit	
 161035	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
 # KTU 3.5 5						
-161036	šd	šd(I)/	šd (I)	n. m.	open field	
-161036	šd	šd(II)/	šd (II)	n. m.	a strip	
+161036	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+161036	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 161036	šd	šdy[	/š-d-y/	vb G	to pour	
 161037	kḏġdl	kḏġdl/	kḏġdl	PN	kḏġdl	
 # KTU 3.5 6						
 161038	uškn	uškn/	ủškn	TN	ủškn	
+161038	uškn	ušr/+n	ủšr	n. m.	penis	
 161039	d	d	d	det. or rel. functor	the one(s) of	
 161040	b	b	b	prep.	in	
+161041	šdy	šd(I)/+y	šd (I)	n. m.	open field	
 161041	šdy	šdy(II)/	šdy (II)	PN	šdy (II)	
 161041	šdy	šdy(I)/	šdy (I)	adj. or n.	land labourer	
 # KTU 3.5 7						
-161042	bmt	bmt/	bmt	n. f.	back	
-161043	yd	yd(I)/	yd (I)	n. f.	hand	
-161043	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-161043	yd	yd(II)/	yd (II)	n. m.	love	
-161044	gth	g(t/t	gt	n. f./element of TNN	gittu	
+161042	bmt	bm(t/t	bmt	n. f. sg.	back	
+161042	bmt	bm(t/t=	bmt	n. f. pl.	back	
+161043	yd	yd(I)/	yd (I)	n. f. sg.	hand	
+161044	gth	gt/h	gt	n. f. sg./element of TNN	gittu	
 # KTU 3.5 8						
-161045	yd	yd(I)/	yd (I)	n. f.	hand	
+161045	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 161045	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-161045	yd	yd(II)/	yd (II)	n. m.	love	
+161045	yd	yd(II)/	yd (II)	n. m. sg.	love	
 161046	zth	zt/+h	zt	n. m.	olive	
-161047	yd	yd(I)/	yd (I)	n. f.	hand	
+161047	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 161047	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-161047	yd	yd(II)/	yd (II)	n. m.	love	
+161047	yd	yd(II)/	yd (II)	n. m. sg.	love	
 # KTU 3.5 9						
 161048	krmh	krm/+h	krm	n. m.	vineyard	
-161048	krmh	kr/+h	kr	n. m.	ram	
-161049	yd	yd(I)/	yd (I)	n. f.	hand	
+161048	krmh	kr&m/+h	kr	n. m.	ram	
+161049	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 161049	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-161049	yd	yd(II)/	yd (II)	n. m.	love	
+161049	yd	yd(II)/	yd (II)	n. m. sg.	love	
 # KTU 3.5 10						
-161050	klklh	klkl/h	klkl	n. m.	anybody	
+161050	klklh	klkl/h	klkl	n. m. sg.	anybody	
 # KTU 3.5 11						
 161051	w	w	w	conj.	and	
 161052	ytn	!y!(ytn[	/y-t-n/	vb G	to give	
@@ -58,26 +59,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 12						
 161054	l	l(I)	l (I)	prep.	to	
 161054	l	l(III)	l (III)	functor	certainly	
-161055	bˤln	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+161055	bˤln	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 161056	bn	bn(I)/	bn (I)	n. m.	son	
 161056	bn	bn(II)	bn (II)	prep.	between	
 161056	bn	bn[	/b-n/	vb G	to understand	
 # KTU 3.5 13						
+161057	kltn	kly[+n	/k-l-y/	vb	to finish	
+161057	kltn	klt(I)/+n	klt (I)	n. f.	bride	
 161057	kltn	kltn/	kltn	PN	kltn	
 161058	w	w	w	conj.	and	
 161059	l	l(I)	l (I)	prep.	to	
 161059	l	l(III)	l (III)	functor	certainly	
 # KTU 3.5 14						
 161060	bnh	bn(I)/+h	bn (I)	n. m.	son	
-161061	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
-161061	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
+161061	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
+161061	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 161062	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+161062	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
+161062	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg.	eternity	
 # KTU 3.5 15						
-161063	šḥr	šḥr/	šḥr	n. m.	dawn	
-161064	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	
+161063	šḥr	šḥr/	šḥr	n. m. sg.	dawn	
+161064	ṯlṯt	ṯlṯ(I)/t	ṯlṯ (I)	n. nuf. sg.	three	
 # KTU 3.5 16						
 161065	bnš	bnš/	bnš	n. m.	man	
-161066	bnšm	bnš/m	bnš	n. m.	man	
+161066	bnšm	bnš/m	bnš	n. m. pl.	man	
 161067	l	l(I)	l (I)	prep.	to	
 161067	l	l(III)	l (III)	functor	certainly	
 161068	y	+y, [y	-y (I)	prep. functor	my	
@@ -87,29 +92,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161069	l	l(I)	l (I)	prep.	to	
 161069	l	l(II)	l (II)	adv.	no	
 161069	l	l(III)	l (III)	functor	certainly	
-161070	yqḥnn	!y!lqḥ[	/l-q-ḥ/	vb G	to get hold of	
+161070	yqḥnn	lqḥ[nn	/l-q-ḥ/	vb G	to get hold of	
 161071	bd	b	b	prep.	in	
 # KTU 3.5 18						
-161072	bˤln	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
+161072	bˤln	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 161073	bn	bn(I)/	bn (I)	n. m.	son	
 161073	bn	bn(II)	bn (II)	prep.	between	
 161073	bn	bn[	/b-n/	vb G	to understand	
+161074	kltn	kly[+n	/k-l-y/	vb	to finish	
+161074	kltn	klt(I)/+n	klt (I)	n. f.	bride	
 161074	kltn	kltn/	kltn	PN	kltn	
 # KTU 3.5 19						
 161075	w	w	w	conj.	and	
 161076	bd	b	b	prep.	in	
 161077	bnh	bn(I)/+h	bn (I)	n. m.	son	
-161078	ˤd	ˤd(III)/	ʕd (III)	n. m.	throne	
-161078	ˤd	ˤd(II)/	ʕd (II)	n. m.	time	
+161078	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
+161078	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 # KTU 3.5 20						
 161079	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+161079	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
+161079	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg.	eternity	
 161080	w	w	w	conj.	and	
 161081	unṯ	unṯ/	ủnṯ	n. m.	obligation	
 # KTU 3.5 21						
-161082	in	in/	ỉn	n. m.	lack of	
+161082	in	in/	ỉn	n. m. sg.	lack of	
 161083	bh	b	b	prep.	in	
 # KTU 3.5 22						
-161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m.	seal	
+161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg.	seal	
 # KTU 3.5 23						
 161085	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
 161086	bn	bn(I)/	bn (I)	n. m.	son	
@@ -118,6 +127,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 24						
 161087	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
 161088	mlk	mlk[	/m-l-k/	vb G	to reign	
-161088	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+161088	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.5 25						
-161089	ugrt	ugrt/	ủgrt	TN	ʾugarītu	
+161089	ugrt	ugrt/	ủgrt	TN	Ugarit	

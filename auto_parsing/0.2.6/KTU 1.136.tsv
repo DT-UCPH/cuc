@@ -1,9 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.136 1						
 154806	xn	?	?	?	?	DULAT: NOT FOUND
-154807	ipd	ipd/	ỉpd	n. m.	tunic	
+154807	ipd	ipd/	ỉpd	n. m. sg.	tunic	
 # KTU 1.136 2						
-154808	ipd	ipd/	ỉpd	n. m.	tunic	
+154808	ipd	ipd/	ỉpd	n. m. sg.	tunic	
 154809	gk	ṯigt/+k	ṯỉgt	n. f.	neighing	
 # KTU 1.136 3						
 154810	w	w	w	conj.	and	
@@ -24,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154818	x	?	?	?	?	
 # KTU 1.136 6						
 154819	w	w	w	conj.	and	
-154820	dq	dq(I)/	dq (I)	adj. m.	tiny	
+154820	dq	dq(I)/	dq (I)	adj. m. sg.	tiny	
 # KTU 1.136 7						
 154821	w	w	w	conj.	and	
 # KTU 1.136 8						
@@ -38,17 +38,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154827	ḥx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.136 10						
 154828	b	b	b	prep.	in	
-154829	ipdm	ipd/	ỉpd	n. m.	tunic	
+154829	ipdm	ipd/m	ỉpd	n. m. du.	tunic	
 154830	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.136 11						
 154831	l	l(I)	l (I)	prep.	to	
 154831	l	l(III)	l (III)	functor	certainly	
 154832	ilz	ilz	ỉlz	?	?	
-154833	ṣt	ṣ(t/t	ṣt	n. f.	garment	
+154833	ṣt	ṣ(t/t	ṣt	n. f. sg.	garment	
 # KTU 1.136 12						
 154834	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
-154834	ˤṣrm	ˤṣr(I)/+m(II)	ʕṣr (I)	n. f.	bird	
-154835	š	š/	š	n. m.	ram	
+154835	š	š/	š	n. m. sg.	ram	
 # KTU 1.136 13						
 154836	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
 154837	kmm	kmm	kmm	adv.	ditto	

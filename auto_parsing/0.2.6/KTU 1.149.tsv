@@ -14,7 +14,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155033	ḫpš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.149 4						
 155034	prl	?	?	?	?	DULAT: NOT FOUND
-155035	ḫḏm	ḫḏm	ḫḏm	?		
+155035	ḫḏm	ḫḏ/+m(I)	ḫḏ(ḏ)	n. m.	downpour	
+155035	ḫḏm	ḫḏm	ḫḏm	?	downpour	
 155036	id	id	ỉd	conj.	when	
 155037	ḫpṯml	?	?	?	?	DULAT: NOT FOUND
 155038		?	?	?	?	
@@ -22,8 +23,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155039	ḫurl	?	?	?	?	DULAT: NOT FOUND
 155040	ṯdl	?	?	?	?	DULAT: NOT FOUND
 155041	ḫyrḫxn	?	?	?	?	DULAT: NOT FOUND
-155042	tr	!t!r[	/t-r/	vb G	to scour	
-155042	tr	tr(II)/	tr (II)	n. m.	turtledove	
+155042	tr	tr[	/t-r/	vb G	to scour	
+155042	tr	tr(II)/	tr (II)	n. m. sg.	turtledove	
 # KTU 1.149 6						
 155043	trnḏa	?	?	?	?	DULAT: NOT FOUND
 155044	ṯr	ṯr(I)/	ṯr (I)	n. m.	bull	
@@ -39,7 +40,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155052	idp	?	?	?	?	DULAT: NOT FOUND
 155053	tn	(ytn[	/y-t-n/	vb	give	
 155053	tn	(ytn[/	/y-t-n/	vb	give	
+155054	šbn	šb/+n	šb	n. m.	old man	
 155054	šbn	šbn(I)/	šbn (I)	TN	šbn (I)	
+155054	šbn	šbn(II)/	šbn (II)	PN	šbn (II)	
 # KTU 1.149 9						
 155055	pršwn	?	?	?	?	DULAT: NOT FOUND
 155056	tṯpn	?	?	?	?	DULAT: NOT FOUND
@@ -47,12 +50,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155058	x	?	?	?	?	
 # KTU 1.149 10						
 155059	ṯuṯk	ṯuṯk/	ṯủṯk	DN	ṯủṯk	
-155060	tzġ	tzġ/	tzġ	n. m.	kind of sacrificial meat	
-155061	arm	a/+m(I)	ả	n.	light	
-155061	arm	a/+m(II)	ả	n.	light	
+155060	tzġ	tzġ/	tzġ	n. m. sg.	kind of sacrificial meat	
+155061	arm	a&r/+m(I)	ả/ỉr	n. m.	light	
+155061	arm	arm/	ảrm	PN	ảrm	
 155062	tṯp	?	?	?	?	DULAT: NOT FOUND
 155063		?	?	?	?	
 # KTU 1.149 11						
 155064	ṯuṯk	ṯuṯk/	ṯủṯk	DN	ṯủṯk	
-155065	ḫzr	ḫzr/	ḫzr	n. m.	assistant	
+155065	ḫzr	ḫzr/	ḫzr	n. m. sg.	assistant	
 155066	pġrḏnṯ	?	?	?	?	DULAT: NOT FOUND

@@ -18,38 +18,39 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.166 6						
 155479	nˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 7						
-155480	maḫr	ʔḫr[	/ʔ-ḫ-r/	vb D	generic mng to go behind > D to retain (?)	
+155480	maḫr	ʔḫr[r:d	/ʔ-ḫ-r/	vb D	generic mng to go behind > D to retain (?)	
 # KTU 1.166 8						
 155481	ṯnh	ṯn(I)/	ṯn (I)	num.	two	
-155482	lb	lb/	lb	n. m.	heart	
+155482	lb	lb/	lb	n. m. sg.	heart	
 # KTU 1.166 9						
-155483	dgn	dgn(I)/	dgn (I)	n. m.	grain	
+155483	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
 155484	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 155484	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
 # KTU 1.166 10						
 155485	hm	hm(II)	hm (II)	conj./interr. functor	if	
+155485	hm	hm(I)	hm (I)	pers. pn.	they	
 155486	tddn	ndd[+n	/n-d-d/	vb	to go	
 # KTU 1.166 11						
 155487	ˤẓrnm	ˤẓrn+m(I)	ʕẓrn		(?)	
-155487	ˤẓrnm	ˤẓrn+m(II)	ʕẓrn		(?)	
 155488	m	l(I)	l (I)	prep.	to	
 # KTU 1.166 12						
 155489	l	l(I)	l (I)	prep.	to	
 155489	l	l(II)	l (II)	adv.	no	
 155489	l	l(III)	l (III)	functor	certainly	
-155490	šd	šd(I)/	šd (I)	n. m.	open field	
-155490	šd	šd(II)/	šd (II)	n. m.	a strip	
+155490	šd	šd(I)/	šd (I)	n. m. sg.	open field	
+155490	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 155490	šd	šdy[	/š-d-y/	vb G	to pour	
-155491	qdš	qdš(I)/	qdš (I)	adj. m.	holy	
-155491	qdš	qdš(II)/	qdš (II)	n. m.	sanctuary	
+155491	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
+155491	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 155492		?	?	?	?	
 # KTU 1.166 13						
 155493	rpi	rp(u/&i	rpủ	n. m.	healer	
-155494	yqr	qrʔ[	/q-r-ʔ/	vb G	to call	
+155494	yqr	!y!qr(ʔ[	/q-r-ʔ/	vb G	to call	
+155494	yqr	!y!qr(y[:d	/q-r-y/	vb D	to meet	
 155495		?	?	?	?	
 # KTU 1.166 14						
-155496	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
-155496	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
+155496	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
+155496	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
 155497	wˤṯb	?	?	?	?	DULAT: NOT FOUND
 155498		?	?	?	?	
 # KTU 1.166 15						
@@ -58,7 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.166 16						
 155501	xx	?	?	?	?	
 155502	mlk	mlk[	/m-l-k/	vb G	to reign	
-155502	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+155502	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.166 17						
 155503	xpr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 18						
@@ -68,44 +69,40 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.166 20						
 155506	bdrš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 21						
-155507	yṣi	!y!(yṣʔ[	/y-ṣ-ʔ/	vb G	to go out	
+155507	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G	to go out	
 155508	wi	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 22						
-155509	rḥ	rḥ(I)/	rḥ (I)	n. f.	wind	
-155509	rḥ	rḥ(II)/	rḥ (II)	n. m.	aroma	
+155509	rḥ	rḥ(I)/	rḥ (I)	n. f. sg.	wind	
 155510	arr	arr/	ảrr	TN	district	
 # KTU 1.166 23						
 155511	ydnm	!y!dn[+m(I)	/d-n/	vb	to judge	
-155511	ydnm	!y!dn[+m(II)	/d-n/	vb	to judge	
+155511	ydnm	ydnm/	ydnm	PN	ydnm	
 155511	ydnm	!y!(ydn[+m(I)	/y-d-n/	vb	?	
 155512	ap	ap(I)	ảp (I)	adv./conj.	also	
 155512	ap	ap(II)/	ảp (II)	n. m.	nose	
 # KTU 1.166 24						
 155513	l	l(I)	l (I)	prep.	to	
 155513	l	l(III)	l (III)	functor	certainly	
-155514	yd	yd(I)/	yd (I)	n. f.	hand	
-155514	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-155514	yd	yd(II)/	yd (II)	n. m.	love	
+155514	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 155515	mlk	mlk[	/m-l-k/	vb G	to reign	
-155515	mlk	mlk(II)/	mlk (II)	n. m.	kingdom (power and territory)	
+155515	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.166 25						
 155516	gṯrn	gṯr/	gṯr	DN	Gaṯaru/Gašru/eponym of the dead and deified kings	
 155517	ylk	hlk[	/h-l-k/	vb G	to go	
 # KTU 1.166 26						
 155518	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155518	tḥt	tḥt(II)	tḥt (II)	adv.	underneath	
 155519	pˤnh	pˤn/+h	pʕn	n. f.	foot	
 # KTU 1.166 27						
 155520	w	w	w	conj.	and	
 155521	hlk	hlk[	/h-l-k/	vb G	to go	
-155521	hlk	hlk(I)/	hlk (I)	n. m.	walk	
+155521	hlk	hlk(I)/	hlk (I)	n. m. sg.	walk	
 155521	hlk	hlk(II)	hlk (II)	deictic adv. functor	behold!	
 155522	hn	hn	hn	deictic functor/adv.	behold!	
 155523		?	?	?	?	
 # KTU 1.166 28						
-155524	mm	mm(I)/	mm (I)	n. m.	winter	
+155524	mm	mm(I)/	mm (I)	n. m. sg.	winter	
 155525	b	b	b	prep.	in	
-155526	bṯn	bṯn/	bṯn	n. m.	serpent	
+155526	bṯn	bṯn/	bṯn	n. m. sg.	serpent	
 155527		?	?	?	?	
 # KTU 1.166 29						
 155528	xtxx	?	?	?	?	DULAT: NOT FOUND

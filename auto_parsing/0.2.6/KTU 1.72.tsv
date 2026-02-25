@@ -1,11 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.72 1						
-149651	spr	spr(II)/	spr (II)	n. m.	tablet / register	
-149651	spr	spr[	/s-p-r/	vb G/D	to count	
-149651	spr	spr(I)/	spr (I)	n. m.	scribe	
-149652	nˤm	nˤm(I)/	nʕm (I)	adj. m.	handsome	
-149652	nˤm	nˤm(II)/	nʕm (II)	n. m.	grace	
-149653	śśwm	ss/	s:śs	n.	horse	
+149651	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
+149651	spr	spr[:d	/s-p-r/	vb G/D	to count	
+149651	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
+149652	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
+149652	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
+149653	śśwm	śśwm/	s:śs/św	n. m.	horse	
 # KTU 1.72 2						
 149654	k	+k	-k (I)			
 149654	k	~k	-k (II)			
@@ -24,20 +24,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149658	k	k(III)	k (III)	Subordinating or completive functor	when	
 149658	k	k(I)	k (I)	prep.	like	
 149658	k	k(II)	k (II)	emph. functor	yes	
-149659	ḫr	ḫr(I)/	ḫr (I)	n. m.	cave	
-149659	ḫr	ḫr[	/ḫ-r(-r)/	vb G	to have spasms (of diarrhoea)	
-149660	śśw	ss/	s:śs	n.	horse	
-149661	mġmġ	mġmġ/	mġmġ	n. m.		
+149659	ḫr	ḫr(I)/	ḫr (I)	n. m. sg.	cave	
+149660	śśw	ss/	s:śs/św	n. f.	horse	
+149661	mġmġ	mġmġ/	mġmġ	n. m. sg.		
 # KTU 1.72 7						
 149662	w	w	w	conj.	and	
-149663	bṣql	bṣql/	bṣql	n. m.	sprout	
-149664	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m.	juniper berries (?)	
-149665	ydk	yd(I)/+k	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149665	ydk	yd(I)/+k=	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149665	ydk	yd(II)/+k	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149665	ydk	yd(II)/+k=	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149665	ydk	!y!dk[	d-k(-k)/	vb Gpass	to be pounded	
-149665	ydk	!y=!dk[	d-k(-k)/	vb Gpass	to be pounded	
+149663	bṣql	bṣql/	bṣql	n. m. sg.	sprout	
+149664	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m. sg.	juniper berries (?)	
+149665	ydk	yd(I)/+k	yd (I)	n. f.	hand	
+149665	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
+149665	ydk	yd(II)/+k	yd (II)	n. m.	love	
+149665	ydk	yd(II)/+k=	yd (II)	n. m.	love	
+149665	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
+149665	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
 # KTU 1.72 8						
 149666	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
 149667	w	w	w	conj.	and	
@@ -51,22 +50,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149671	k	k(III)	k (III)	Subordinating or completive functor	when	
 149671	k	k(I)	k (I)	prep.	like	
 149671	k	k(II)	k (II)	emph. functor	yes	
-149672	ḫr	ḫr(I)/	ḫr (I)	n. m.	cave	
-149672	ḫr	ḫr[	/ḫ-r(-r)/	vb G	to have spasms (of diarrhoea)	
-149673	śśw	ss/	s:śs	n.	horse	
-149674	ḫndrṯ	ḫndrṯ/	ḫndrṯ	n. m.	apricot tree	
+149672	ḫr	ḫr(I)/	ḫr (I)	n. m. sg.	cave	
+149673	śśw	ss/	s:śs/św	n. f.	horse	
+149674	ḫndrṯ	ḫndrṯ/	ḫndrṯ	n. m. sg.	apricot tree	
 # KTU 1.72 10						
 149675	w	w	w	conj.	and	
-149676	ṯqd	ṯqd/	ṯqd	n. m.	almond	
-149677	mr	mr(I)/	mr (I)	n. m.	myrrh	
-149677	mr	mr(IV)/	mr (IV)	adj. m.	valiant	
-149677	mr	mr(II)/	mr (II)	adj. m.	bitter	
-149678	ydk	yd(I)/+k	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149678	ydk	yd(I)/+k=	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149678	ydk	yd(II)/+k	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149678	ydk	yd(II)/+k=	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149678	ydk	!y!dk[	d-k(-k)/	vb Gpass	to be pounded	
-149678	ydk	!y=!dk[	d-k(-k)/	vb Gpass	to be pounded	
+149676	ṯqd	ṯqd/	ṯqd	n. m. sg.	almond	
+149677	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
+149677	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
+149677	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
+149678	ydk	yd(I)/+k	yd (I)	n. f.	hand	
+149678	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
+149678	ydk	yd(II)/+k	yd (II)	n. m.	love	
+149678	ydk	yd(II)/+k=	yd (II)	n. m.	love	
+149678	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
+149678	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
 149679	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
 # KTU 1.72 11						
 149680	w	w	w	conj.	and	
@@ -87,26 +85,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149688	l	l(I)	l (I)	prep.	to	
 149688	l	l(II)	l (II)	adv.	no	
 149688	l	l(III)	l (III)	functor	certainly	
-149689	yṯtn	ṯ]t]n[	/ṯ-n/	vb Gt	to urinate	
-149690	śśw	ss/	s:śs	n.	horse	
+149689	yṯtn	!y!ṯ]t]n[	/ṯ-n/	vb Gt	to urinate	
+149690	śśw	ss/	s:śs/św	n. f.	horse	
 # KTU 1.72 13						
-149691	mss	mss/	mss	n. m.	sap	
-149692	št	št[	/š-t/	vb G/Gpass	to place	
-149692	št	š(t(II)/t	št (II)	n. f.	raíz	
-149692	št	št(I)/	št (I)	n. m.	base	
-149693	qlql	qlql/	qlql	n. m.	cardamome	
+149691	mss	mss/	mss	n. m. sg.	sap	
+149692	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149692	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149692	št	š(t(I)/t	št (I)	n. m. sg.	base	
+149693	qlql	qlql/	qlql	n. m. sg.	cardamome	
 149694	w	w	w	conj.	and	
-149695	št	št[	/š-t/	vb G/Gpass	to place	
-149695	št	š(t(II)/t	št (II)	n. f.	raíz	
-149695	št	št(I)/	št (I)	n. m.	base	
+149695	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149695	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149695	št	š(t(I)/t	št (I)	n. m. sg.	base	
 # KTU 1.72 14						
-149696	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m.	juniper berries (?)	
-149697	ydk	yd(I)/+k	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149697	ydk	yd(I)/+k=	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149697	ydk	yd(II)/+k	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149697	ydk	yd(II)/+k=	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149697	ydk	!y!dk[	d-k(-k)/	vb Gpass	to be pounded	
-149697	ydk	!y=!dk[	d-k(-k)/	vb Gpass	to be pounded	
+149696	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m. sg.	juniper berries (?)	
+149697	ydk	yd(I)/+k	yd (I)	n. f.	hand	
+149697	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
+149697	ydk	yd(II)/+k	yd (II)	n. m.	love	
+149697	ydk	yd(II)/+k=	yd (II)	n. m.	love	
+149697	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
+149697	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
 149698	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
 # KTU 1.72 15						
 149699	w	w	w	conj.	and	
@@ -116,33 +114,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149702	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.72 16						
 149703	k	k(III)	k (III)	Subordinating or completive functor	when	
-149704	yiḫd	!y!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
-149705	akl	akl(II)/	ảkl (II)	n. m.	grain	
-149706	śśw	ss/	s:śs	n.	horse	
+149704	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
+149705	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
+149706	śśw	ss/	s:śs/św	n. f.	horse	
 # KTU 1.72 17						
-149707	št	št[	/š-t/	vb G/Gpass	to place	
-149707	št	š(t(II)/t	št (II)	n. f.	raíz	
-149707	št	št(I)/	št (I)	n. m.	base	
-149708	mkšr	mkšr/	mkšr	n. m.	semolina	
-149709	grn	grn(I)/	grn (I)	n. m.	threshing-floor	
-149709	grn	grn(II)/	grn (II)	adj. m.	current	
+149707	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149707	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149707	št	š(t(I)/t	št (I)	n. m. sg.	base	
+149708	mkšr	mkšr/	mkšr	n. m. sg.	semolina	
+149709	grn	grn(I)/	grn (I)	n. m. sg.	threshing-floor	
+149709	grn	grn(II)/	grn (II)	adj. m. sg.	current	
 # KTU 1.72 18						
 149710	w	w	w	conj.	and	
-149711	št	št[	/š-t/	vb G/Gpass	to place	
-149711	št	š(t(II)/t	št (II)	n. f.	raíz	
-149711	št	št(I)/	št (I)	n. m.	base	
-149712	aškrr	aškrr/	ảškrr	n. m.	wax	
+149711	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149711	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149711	št	š(t(I)/t	št (I)	n. m. sg.	base	
+149712	aškrr	aškrr/	ảškrr	n. m. sg.	wax	
 # KTU 1.72 19						
 149713	w	w	w	conj.	and	
-149714	pr	pr(II)/	pr (II)	n. m.	young bull	
-149714	pr	pr(I)/	pr (I)	n. m.	fruit	
+149714	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
+149714	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 149715	ḥḏrt	?	?	?	?	DULAT: NOT FOUND
-149716	ydk	yd(I)/+k	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149716	ydk	yd(I)/+k=	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149716	ydk	yd(II)/+k	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149716	ydk	yd(II)/+k=	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149716	ydk	!y!dk[	d-k(-k)/	vb Gpass	to be pounded	
-149716	ydk	!y=!dk[	d-k(-k)/	vb Gpass	to be pounded	
+149716	ydk	yd(I)/+k	yd (I)	n. f.	hand	
+149716	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
+149716	ydk	yd(II)/+k	yd (II)	n. m.	love	
+149716	ydk	yd(II)/+k=	yd (II)	n. m.	love	
+149716	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
+149716	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
 # KTU 1.72 20						
 149717	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
 149718	w	w	w	conj.	and	
@@ -152,34 +150,34 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149721	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.72 21						
 149722	k	k(III)	k (III)	Subordinating or completive functor	when	
-149723	yiḫd	!y!ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
+149723	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G/Gpass	to collect	
 149724	arl	?	?	?	?	DULAT: NOT FOUND
-149725	śśw	ss/	s:śs	n.	horse	
+149725	śśw	ss/	s:śs/św	n. f.	horse	
 # KTU 1.72 22						
-149726	št	št[	/š-t/	vb G/Gpass	to place	
-149726	št	š(t(II)/t	št (II)	n. f.	raíz	
-149726	št	št(I)/	št (I)	n. m.	base	
-149727	nni	nn(u(I)/&i	nnủ (I)	n. m.	Ammi	
-149728	št	št[	/š-t/	vb G/Gpass	to place	
-149728	št	š(t(II)/t	št (II)	n. f.	raíz	
-149728	št	št(I)/	št (I)	n. m.	base	
-149729	mkšr	mkšr/	mkšr	n. m.	semolina	
-149730	grn	grn(I)/	grn (I)	n. m.	threshing-floor	
-149730	grn	grn(II)/	grn (II)	adj. m.	current	
+149726	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149726	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149726	št	š(t(I)/t	št (I)	n. m. sg.	base	
+149727	nni	nn(u(I)/&i	nnủ (I)	n. m. sg.	Ammi	
+149728	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149728	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149728	št	š(t(I)/t	št (I)	n. m. sg.	base	
+149729	mkšr	mkšr/	mkšr	n. m. sg.	semolina	
+149730	grn	grn(I)/	grn (I)	n. m. sg.	threshing-floor	
+149730	grn	grn(II)/	grn (II)	adj. m. sg.	current	
 149731	w	w	w	conj.	and	
 # KTU 1.72 23						
-149732	št	št[	/š-t/	vb G/Gpass	to place	
-149732	št	š(t(II)/t	št (II)	n. f.	raíz	
-149732	št	št(I)/	št (I)	n. m.	base	
+149732	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149732	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149732	št	š(t(I)/t	št (I)	n. m. sg.	base	
 149733	irġn	?	?	?	?	DULAT: NOT FOUND
-149734	ḥmr	ḥmr(I)/	ḥmr (I)	n. m.	donkey	
-149734	ḥmr	ḥmr(II)/	ḥmr (II)	adj.	red	
-149735	ydk	yd(I)/+k	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149735	ydk	yd(I)/+k=	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149735	ydk	yd(II)/+k	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149735	ydk	yd(II)/+k=	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149735	ydk	!y!dk[	d-k(-k)/	vb Gpass	to be pounded	
-149735	ydk	!y=!dk[	d-k(-k)/	vb Gpass	to be pounded	
+149734	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
+149734	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
+149735	ydk	yd(I)/+k	yd (I)	n. f.	hand	
+149735	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
+149735	ydk	yd(II)/+k	yd (II)	n. m.	love	
+149735	ydk	yd(II)/+k=	yd (II)	n. m.	love	
+149735	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
+149735	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
 # KTU 1.72 24						
 149736	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
 149737	w	w	w	conj.	and	
@@ -189,14 +187,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149740	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.72 25						
 149741	k	k(III)	k (III)	Subordinating or completive functor	when	
-149742	yraš	!y!rʔš[	/r-ʔ-š/	vb G	to toss the head	
-149743	śśw	ss/	s:śs	n.	horse	
-149744	št	št[	/š-t/	vb G/Gpass	to place	
-149744	št	š(t(II)/t	št (II)	n. f.	raíz	
-149744	št	št(I)/	št (I)	n. m.	base	
+149742	yraš	rʔš[š	/r-ʔ-š/	vb G	to toss the head	
+149743	śśw	ss/	s:śs/św	n. f.	horse	
+149744	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149744	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149744	št	š(t(I)/t	št (I)	n. m. sg.	base	
 # KTU 1.72 26						
-149745	bln	bln/	bln	n. m.	mixed fodder	
-149746	qṭ	qṭ(I)/	qṭ (I)	n. m.	flax	
+149745	bln	bln/	bln	n. m. sg.	mixed fodder	
+149746	qṭ	qṭ(I)/	qṭ (I)	n. m. sg.	flax	
 149747	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	
 149748	b	b	b	prep.	in	
 149749	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -204,36 +202,36 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.72 27						
 149750	k	k(III)	k (III)	Subordinating or completive functor	when	
 149751	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G	to reproach	
-149752	śśw	ss/	s:śs	n.	horse	
+149752	śśw	ss/	s:śs/św	n. f.	horse	
 # KTU 1.72 28						
-149753	dprn	dprn/	dprn	n. m.	juniper	
+149753	dprn	dprn/	dprn	n. m. sg.	juniper	
 # KTU 1.72 29						
-149754	drˤ	d/	d	n.	seed	
+149754	drˤ	d/	d/ḏrʕ	n. m. sg.	seed	
 149754	drˤ	drˤ[	/d-r-ʕ/	vb G	to sow	
 149755		?	?	?	?	
 # KTU 1.72 30						
-149756	tmṯl	tmṯl/	tmṯl	n. m.	equal amount	
+149756	tmṯl	tmṯl/	tmṯl	n. m. sg.	equal amount	
 # KTU 1.72 31						
-149757	mġmġ	mġmġ/	mġmġ	n. m.		
+149757	mġmġ	mġmġ/	mġmġ	n. m. sg.		
 # KTU 1.72 32						
 149758	w	w	w	conj.	and	
-149759	št	št[	/š-t/	vb G/Gpass	to place	
-149759	št	š(t(II)/t	št (II)	n. f.	raíz	
-149759	št	št(I)/	št (I)	n. m.	base	
+149759	št	št[:pass	/š-t/	vb G/Gpass	to place	
+149759	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
+149759	št	š(t(I)/t	št (I)	n. m. sg.	base	
 # KTU 1.72 33						
 149760	w	w	w	conj.	and	
-149761	pr	pr(II)/	pr (II)	n. m.	young bull	
-149761	pr	pr(I)/	pr (I)	n. m.	fruit	
+149761	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
+149761	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 # KTU 1.72 34						
 149762	irġn	?	?	?	?	DULAT: NOT FOUND
-149763	ḥmr	ḥmr(I)/	ḥmr (I)	n. m.	donkey	
-149763	ḥmr	ḥmr(II)/	ḥmr (II)	adj.	red	
-149764	ydk	yd(I)/+k	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149764	ydk	yd(I)/+k=	yd (I), -k (I)	n. f., pers. pn.	hand, your(s)	
-149764	ydk	yd(II)/+k	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149764	ydk	yd(II)/+k=	yd (II), -k (I)	n. m., pers. pn.	love, your(s)	
-149764	ydk	!y!dk[	d-k(-k)/	vb Gpass	to be pounded	
-149764	ydk	!y=!dk[	d-k(-k)/	vb Gpass	to be pounded	
+149763	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
+149763	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
+149764	ydk	yd(I)/+k	yd (I)	n. f.	hand	
+149764	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
+149764	ydk	yd(II)/+k	yd (II)	n. m.	love	
+149764	ydk	yd(II)/+k=	yd (II)	n. m.	love	
+149764	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
+149764	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass	to be pounded	
 # KTU 1.72 35						
 149765	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
 149766	w	w	w	conj.	and	
@@ -243,23 +241,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149769	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.72 36						
 149770	k	k(III)	k (III)	Subordinating or completive functor	when	
-149771	yraš	!y!rʔš[	/r-ʔ-š/	vb G	to toss the head	
-149772	śśw	ss/	s:śs	n.	horse	
+149771	yraš	rʔš[š	/r-ʔ-š/	vb G	to toss the head	
+149772	śśw	ss/	s:śs/św	n. f.	horse	
 149773	w	w	w	conj.	and	
 149774	ykhp	!y!khp[	/k-h-p/	vb G	to droop	
 # KTU 1.72 37						
-149775	mid	mi/	mỉ	n.	abundance	
-149776	dblt	dbl(t/t=	dblt	n. f.	dried fig	
-149777	yṯnt	yṯn/t=	yṯn	adj. m.	old	
+149775	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
+149776	dblt	dbl(t/t	dblt	n. f. sg.	dried fig	
+149776	dblt	dbl(t/t=	dblt	n. f. pl.	dried fig	
+149777	yṯnt	yṯn/t=	yṯn	adj. m. pl.	old	
 149778	w	w	w	conj.	and	
 # KTU 1.72 38						
-149779	ṣmqm	ṣmq/m	ṣmq	n. m.	raisin	
-149780	yṯnm	yṯn/m	yṯn	adj. m.	old	
+149779	ṣmqm	ṣmq/m	ṣmq	n. m. pl.	raisin	
+149780	yṯnm	yṯn/m	yṯn	adj. m. pl.	old	
 149781	w	w	w	conj.	and	
-149782	qmḥ	qmḥ/	qmḥ	n. m.	flour	
-149783	bql	bql/	bql	n. m.	malt	
+149782	qmḥ	qmḥ/	qmḥ	n. m. sg.	flour	
+149783	bql	bql/	bql	n. m. sg.	malt	
 # KTU 1.72 39						
-149784	tdkn	!t!dk[	d-k(-k)/	vb Gpass	to be pounded	
+149784	tdkn	!t!dk[n:pass	d-k(-k)	vb Gpass	to be pounded	
 149785	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
 149786	w	w	w	conj.	and	
 149787	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G	to pour (out)	

@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155798	t	/t, /t=				
 155798	t	[t, [t=, [t==, [t===				
 # KTU 1.172 3						
-155799	bat	bʔ[	/b-ʔ/	vb G	to enter	
+155799	bat	b(ʔ&a[t	/b-ʔ/	vb G	to enter	
 # KTU 1.172 4						
 155800	ṣḥr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 5						
@@ -18,10 +18,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155804	nwy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 8						
 155805	w	w	w	conj.	and	
-155806	angḥ	!a!ngḥ[	/n-g-ḥ/	vb N	to butt each other	
+155806	angḥ	!(ʔ&a!ngḥ[	/n-g-ḥ/	vb N	to butt each other	
 # KTU 1.172 9						
 155807	ṭx	?	?	?	?	DULAT: NOT FOUND
-155808	nḫlm	nḫl(I)/m	nḫl (I)	n. m.	torrent	
+155808	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl.	torrent	
 # KTU 1.172 10						
 155809	bˤl	bˤl(II)/	bʕl (II)	n. m./DN	Baʿlu/Baal	
 155809	bˤl	bˤl[/	/b-ʕ-l/	vb G	to make	
@@ -31,24 +31,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.172 12						
 155812	t	/t, /t=				
 155812	t	[t, [t=, [t==, [t===				
-155813	šmal	šmal/	šmảl	adj. m. or n. m.	left	
+155813	šmal	šmal/	šmảl	adj. m. or n. m. sg.	left	
 # KTU 1.172 13						
 155814	xˤnk	?	?	?	?	DULAT: NOT FOUND
-155815	št	št[	/š-t/	vb G/Gpass	to place	
-155815	št	š(t(II)/t	št (II)	n. f.	raíz	
-155815	št	št(I)/	št (I)	n. m.	base	
+155815	št	št[:pass	/š-t/	vb G/Gpass	to place	
 # KTU 1.172 14						
+155816	rn	rḥb(I)/+n	rḥb (I)	adj. m.	wide	
 155816	rn	pẓr[+n	/p-ẓ-r/	vb	to free	
+155816	rn	rks/+n	rks	n. m.	belt	
 155817	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 15						
 155818	n	~n	-n (I)	encl. morph.		
 155818	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
 155818	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
 155818	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
-155819	tlm	tlm/	tlm	n. m.	furrow	
+155819	tlm	tlm/	tlm	n. m. sg.	furrow	
 # KTU 1.172 16						
-155820	qd	qn/+d	qn	n. m.	cane	
-155820	qd	ḥkpt/+d	ḥkpt	TN	ḥkpt	
+155820	qd	qn/+d	qn	n. m.	cane, ?	
+155820	qd	ḥkpt/+d	ḥkpt	TN	ḥkpt, ?	
 # KTU 1.172 17						
 155821	n	~n	-n (I)	encl. morph.		
 155821	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
@@ -59,32 +59,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155823		?	?	?	?	
 155824	l	l(I)	l (I)	prep.	to	
 155824	l	l(III)	l (III)	functor	certainly	
-155825	mˤt	mˤ(t/t=	mʕt	n. f.	?	
+155825	mˤt	mˤ(t/t	mʕt	n. f. sg.	?	
+155825	mˤt	mˤ(t/t=	mʕt	n. f. pl.	?	
 # KTU 1.172 19						
-155826	šnt	šn(t(I)/t	šnt (I)	n. f.	year	
-155826	šnt	šn(w[t	/š-n-w/	vb G	to change: a) reflex.	
-155826	šnt	šn(t(II)/t	šnt (II)	n. f.	sleep	
+155826	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
 155827	ˤlyqm	ˤlyqm	ʕlyqm	?	?	
 # KTU 1.172 20						
 155828	xšy	?	?	?	?	DULAT: NOT FOUND
 155829	ybġ	?	?	?	?	DULAT: NOT FOUND
-155830	dd	dd(II)/	dd (II)	n. m.	cauldronful	
+155830	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
 # KTU 1.172 21						
 155831		?	?	?	?	
-155832	ḫẓ	ḥẓ/	ḥẓ	n. m.	arrow	
+155832	ḫẓ	ḥẓ/	ḥẓ	n. m. sg.	arrow	
 155832	ḫẓ	ḫẓ	ḫẓ	?	?	
-155833	ksp	ksp/	ksp	n. m.	silver	
+155833	ksp	ksp/	ksp	n. m. sg.	silver	
 155834	b	b	b	prep.	in	
 155835	ydh	yd(I)/+h	yd (I)	n. f.	hand	
 # KTU 1.172 22						
 155836	nh	ˤl(I)+h	ʕl (I)	prep.	upon	
+155836	nh	n(I)	-n (I)	morph.	Sun	
 155836	nh	ˤn(I)/+h	ʕn (I)	n. f.	eye	
 155837	w	w	w	conj.	and	
 155838	lyamr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 23						
 155839	x	?	?	?	?	
-155840	gb	gb(I)/	gb (I)	n. m.	pit	
-155841	ad	ad/	ảd	n. m.	father	
+155840	gb	gb(I)/	gb (I)	n. m. sg.	pit	
+155841	ad	ad/	ảd	n. m. sg.	father	
 # KTU 1.172 24						
 155842	xḫl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 25						
@@ -94,14 +94,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155845	xšb	?	?	?	?	DULAT: NOT FOUND
 155846	l	l(I)	l (I)	prep.	to	
 155846	l	l(III)	l (III)	functor	certainly	
-155847	rḥ	rḥ(I)/	rḥ (I)	n. f.	wind	
-155847	rḥ	rḥ(II)/	rḥ (II)	n. m.	aroma	
+155847	rḥ	rḥ(I)/	rḥ (I)	n. f. sg.	wind	
 # KTU 1.172 27						
 155848	dy	d	d	det. or rel. functor	the one(s) of	
 155849	w	w	w	conj.	and	
 155850	mrḫt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 28						
-155851	ḥmṯ	ḥmṯ/	ḥmṯ	n. m.	belly	
+155851	ḥmṯ	ḥmṯ/	ḥmṯ	n. m. sg.	belly	
 # KTU 1.172 29						
 155852	bm	b	b	prep.	in	
 # KTU 1.172 30						
