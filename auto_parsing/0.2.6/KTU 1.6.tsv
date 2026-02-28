@@ -230,7 +230,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140588	l	l(II)	l (II)	adv.	no	
 140588	l	l(III)	l (III)	functor	certainly	
 140589	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
-140590	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+140590	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 140591	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.6 I:33						
 140592	il	il(I)/	ỉl (I)	n. m.	god	
@@ -593,7 +593,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140820	ḫsrt	ḫsr[t	/ḫ-s-r/	vb G suffc.	to fail	
 # KTU 1.6 II:18						
 140821	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
-140822	nšm	nš(m/m	nšm	n. m. pl. tant. pl.	people	
+140822	nšm	nš(m/m	nšm	n. m. pl. tant.	people	
 140823	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 140824	hmlt	hml(t/t=	hmlt	n. f. pl.	multitude	
 # KTU 1.6 II:19						
@@ -643,7 +643,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140853	ṣḥrrt	ṣḥrr[t	/ṣ-ḥ-r-r/	vb G suffc.	to roast	
 # KTU 1.6 II:25						
 140854	la	la/	lả	n. m. sg.	power	
-140855	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+140855	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 140856	b	b	b	prep.	in	
 140857	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 140858	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
@@ -749,7 +749,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:2						
 140923	w	w	w	conj.	and	
 140924	hm	hm(II)	hm (II)	conj./interr. functor	if	
-140925	ḥy	ḥy(m/	ḥym	n. m. pl. tant. pl.	life	
+140925	ḥy	ḥy(m/	ḥym	n. m. pl. tant.	life	
 140925	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg.	alive	
 140926	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 140927	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
@@ -776,7 +776,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140942	bny	bny/	bny	n. m. sg.	architect	
 140943	bnwt	bn&w(t(II)/t=	bnt (II)	n. f. pl.	produce	
 # KTU 1.6 III:6						
-140944	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+140944	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 140945	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 140946	tmṭrn	!t!mṭr[n	/m-ṭ-r/	vb G prefc.	to rain	
 # KTU 1.6 III:7						
@@ -791,7 +791,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140952	k	k(III)	k (III)	Subordinating or completive functor	when	
 140952	k	k(I)	k (I)	prep.	like	
 140952	k	k(II)	k (II)	emph. functor	yes	
-140953	ḥy	ḥy(m/	ḥym	n. m. pl. tant. pl.	life	
+140953	ḥy	ḥy(m/	ḥym	n. m. pl. tant.	life	
 140953	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg.	alive	
 140954	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 140955	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
@@ -815,7 +815,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140968	bny	bny/	bny	n. m. sg.	architect	
 140969	bnwt	bn&w(t(II)/t=	bnt (II)	n. f. pl.	produce	
 # KTU 1.6 III:12						
-140970	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+140970	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 140971	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 140972	tmṭrn	!t!mṭr[n	/m-ṭ-r/	vb G prefc.	to rain	
 # KTU 1.6 III:13						
@@ -945,7 +945,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141052	l	l(II)	l (II)	adv.	no	
 141052	l	l(III)	l (III)	functor	certainly	
 141053	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
-141054	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+141054	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 # KTU 1.6 IV:8						
 141055	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 141056	nrt	nr(t(I)/t	nrt (I)	n. f. sg.	lantern	
@@ -1222,7 +1222,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141241	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 141241	bn	bn(II)	bn (II)	prep.	between	
 141241	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
-141242	nšm	nš(m/m	nšm	n. m. pl. tant. pl.	people	
+141242	nšm	nš(m/m	nšm	n. m. pl. tant.	people	
 # KTU 1.6 V:25						
 141243	akly	!(ʔ&a!kly[:d	/k-l-y/	vb D prefc.	to finish	
 141243	akly	akl(II)/+y	ảkl (II)	n. m.	grain	

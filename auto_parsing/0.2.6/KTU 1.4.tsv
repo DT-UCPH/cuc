@@ -488,7 +488,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138443	dr	dr/	dr	n. m. sg. / n. m. pl. cstr.	circle	
 # KTU 1.4 III:8						
 138444	xxxx	?	?	?	?	
-138445	ḥyk	ḥy(m/+k	ḥym	n. m. pl. tant. pl.	life	
+138445	ḥyk	ḥy(m/+k	ḥym	n. m. pl. tant.	life	
 138446	w	w	w	conj.	and	
 138447	rḥ	rḥ(I)/	rḥ (I)	n. f. sg.	wind	
 138448	d	d	d	det. or rel. functor	the one(s) of	
@@ -863,7 +863,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138674	idk	idk	ỉdk	narrative adv. functor	then	
 138675	l	l(III)	l (III)	functor	certainly	
 138676	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
-138677	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+138677	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 # KTU 1.4 IV:21						
 138678	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 138679	il	il(I)/	ỉl (I)	n. m.	god	
@@ -1293,7 +1293,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138961	l	l(II)	l (II)	adv.	no	
 138961	l	l(III)	l (III)	functor	certainly	
 138962	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
-138963	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+138963	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 # KTU 1.4 V:23						
 138964	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 138965	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
@@ -2238,7 +2238,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VII:51						
 139587	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 139588	w	w	w	conj.	and	
-139589	nšm	nš(m/m	nšm	n. m. pl. tant. pl.	people	
+139589	nšm	nš(m/m	nšm	n. m. pl. tant.	people	
 139590	d	d	d	det. or rel. functor	the one(s) of	
 139591	yšb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 # KTU 1.4 VII:52						
@@ -2296,7 +2296,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139623	idk	idk	ỉdk	narrative adv. functor	then	
 139624	al	al(II)	ảl (II)	pos. functor	surely	
 139625	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
-139626	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+139626	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 # KTU 1.4 VIII:2						
 139627	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 139628	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
@@ -2343,7 +2343,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139656	al	al(II)	ảl (II)	pos. functor	surely	
 139657	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
 # KTU 1.4 VIII:11						
-139658	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+139658	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 139659	tk	tk/	tk	n. m.	centre	
 139660	qrth	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 # KTU 1.4 VIII:12						
@@ -2402,7 +2402,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139693	ṣḥrrt	ṣḥrr[t	/ṣ-ḥ-r-r/	vb G suffc.	to roast	
 139694	la	la/	lả	n. m. sg.	power	
 # KTU 1.4 VIII:23						
-139695	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+139695	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 139696	b	b	b	prep.	in	
 139697	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 139698	md	md(II)/	md (II)	n. m. pl.	skilled	

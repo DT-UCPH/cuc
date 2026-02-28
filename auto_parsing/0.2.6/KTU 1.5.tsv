@@ -20,7 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:4						
 139782	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc.	to burn	
 139783	ttrp	rpy[p:d	/r-p-y/	vb Dt prefc.	to slacken	
-139784	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+139784	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 139785	krs	krs	krs			
 # KTU 1.5 I:5						
 139786	ipdk	ipd/+k	ỉpd	n. m.	tunic	
@@ -59,7 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139811	l	l(II)	l (II)	adv.	no	
 139811	l	l(III)	l (III)	functor	certainly	
 139812	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
-139813	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+139813	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 139814	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 139815	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 139815	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
@@ -194,7 +194,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139909	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc.	to burn	
 # KTU 1.5 I:31						
 139910	ttrp	rpy[p:d	/r-p-y/	vb Dt prefc.	to slacken	
-139911	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+139911	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 139912	krs	krs	krs			
 139913	ipdk	ipd/+k	ỉpd	n. m.	tunic	
 # KTU 1.5 II:1						
@@ -205,7 +205,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139917	špt	šp(t/t	špt	n. f. sg.	lip	
 139918	l	l(I)	l (I)	prep.	to	
 139918	l	l(III)	l (III)	functor	certainly	
-139919	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+139919	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 # KTU 1.5 II:3						
 139920	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
 139920	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
@@ -311,7 +311,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139979	l	l(II)	l (II)	adv.	no	
 139979	l	l(III)	l (III)	functor	certainly	
 139980	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
-139981	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+139981	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 139982	ṯˤm	ṯˤ(II)/m	ṯʕ (II)	n. m. pl.	Hero	
 139983	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 139984	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	

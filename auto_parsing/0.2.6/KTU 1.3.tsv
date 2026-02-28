@@ -60,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136977	ridn	ridn(I)/	rỉdn (I)	n. m. sg.	a rython	
 # KTU 1.3 I:13						
 136978	mt	mt(III)/	mt (III)	n. m. sg. / n. m. pl. cstr.	man	
-136979	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+136979	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 136980	ks	ks(I)/	ks (I)	n. m. sg.	cup	
 136981	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 # KTU 1.3 I:14						
@@ -403,7 +403,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137216	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc.	to wash	
 # KTU 1.3 II:39						
 137217	ṭl	ṭl/	ṭl	n. m. sg.	dew	
-137218	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137218	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 137219	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 137220	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 137221	rbb	rb/	rb(b)	n. m. sg.	drizzle	
@@ -415,7 +415,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137223	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
 137223	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. sg.	cloud(s)	
 137224	ṭl	ṭl/	ṭl	n. m. sg.	dew	
-137225	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137225	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 137226	tskh	nsk[h:pass	/n-s-k/	vb G suffc. / vb Gpass suffc.	to pour (out)	
 # KTU 1.3 II:41						
 137227	rbb	rb/	rb(b)	n. m. sg.	drizzle	
@@ -525,7 +525,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137296	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
 137297	b	b	b	prep.	in	
 137298	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
-137299	ddym	ddy(m/m	ddym	n. m. pl. tant. pl.	harmony	
+137299	ddym	ddy(m/m	ddym	n. m. pl. tant.	harmony	
 # KTU 1.3 III:16						
 137300	sk	sk(I)/	sk (I)	n. m. sg.	coverlet	
 137301	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
@@ -573,7 +573,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137333	ˤ	?	?	?	?	
 # KTU 1.3 III:24						
 137334	tant	?	?	?	?	DULAT: NOT FOUND
-137335	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137335	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 137336	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 137337	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 III:25						
@@ -588,14 +588,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137343	d	d	d	det. or rel. functor	the one(s) of	
 137344	l	l(II)	l (II)	adv.	no	
 137345	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc.	to know	
-137346	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137346	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 # KTU 1.3 III:27						
 137347	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
 137347	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 137347	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 137347	rgm	rgm/	rgm	n. m. sg.	word	
 137348	ltdˤ	?	?	?	?	DULAT: NOT FOUND
-137349	nšm	nš(m/m	nšm	n. m. pl. tant. pl.	people	
+137349	nšm	nš(m/m	nšm	n. m. pl. tant.	people	
 137350	wl	?	?	?	?	DULAT: NOT FOUND
 137351	tbn	!t!bn[	/b-n/	vb G prefc.	to understand	
 # KTU 1.3 III:28						
@@ -826,7 +826,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137503	št	št(I)/	št (I)	n. m. sg.	base	
 137504	b	b	b	prep.	in	
 137505	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
-137506	ddym	ddy(m/m	ddym	n. m. pl. tant. pl.	harmony	
+137506	ddym	ddy(m/m	ddym	n. m. pl. tant.	harmony	
 137507	sk	sk(I)/	sk (I)	n. m. sg.	coverlet	
 137508	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 137508	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
@@ -884,14 +884,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137540	l	l(II)	l (II)	adv.	no	
 137540	l	l(III)	l (III)	functor	certainly	
 137541	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc.	to know	
-137542	nšm	nš(m/m	nšm	n. m. pl. tant. pl.	people	
+137542	nšm	nš(m/m	nšm	n. m. pl. tant.	people	
 137543	w	w	w	conj.	and	
 137544	ltbn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 IV:16						
 137545	hmlt	hml(t/t=	hmlt	n. f. pl.	multitude	
 137546	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 137547	tunt	?	?	?	?	DULAT: NOT FOUND
-137548	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137548	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 137549	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 137550	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.3 IV:17						
@@ -909,7 +909,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137557	l	l(II)	l (II)	adv.	no	
 137557	l	l(III)	l (III)	functor	certainly	
 137558	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc.	to know	
-137559	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137559	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 137560	atm	at(I)	ảt (I)	pers. pn.	you	
 137560	atm	ʔtw[	/ʔ-t-w/	vb G impv.	to come	
 137560	atm	atm	ảtm	pers. pn.	you	
@@ -951,7 +951,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137587	b	b	b	prep.	in	
 137588	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
 # KTU 1.3 IV:24						
-137589	ddym	ddy(m/m	ddym	n. m. pl. tant. pl.	harmony	
+137589	ddym	ddy(m/m	ddym	n. m. pl. tant.	harmony	
 137590	ask	nsk[:pass	/n-s-k/	vb G prefc. / vb Gpass prefc.	to pour (out)	
 137591	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 137591	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
@@ -989,7 +989,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137612	ašt	!(ʔ&a!št[	/š-t/	vb G prefc.	to place	
 137613	b	b	b	prep.	in	
 137614	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
-137615	ddym	ddy(m/m	ddym	n. m. pl. tant. pl.	harmony	
+137615	ddym	ddy(m/m	ddym	n. m. pl. tant.	harmony	
 137616	ask	nsk[:pass	/n-s-k/	vb G prefc. / vb Gpass prefc.	to pour (out)	
 # KTU 1.3 IV:30						
 137617	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
@@ -1048,7 +1048,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137655	l	l(II)	l (II)	adv.	no	
 137655	l	l(III)	l (III)	functor	certainly	
 137656	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
-137657	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+137657	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 137658	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 137659	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 137659	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
@@ -1092,11 +1092,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137688	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc.	to wash	
 # KTU 1.3 IV:43						
 137689	ṭl	ṭl/	ṭl	n. m. sg.	dew	
-137690	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137690	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 137691	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 137692	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 137693	ṭl	ṭl/	ṭl	n. m. sg.	dew	
-137694	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137694	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 137695	tskh	nsk[h:pass	/n-s-k/	vb G suffc. / vb Gpass suffc.	to pour (out)	
 # KTU 1.3 IV:44						
 137696	rbb	rb/	rb(b)	n. m. sg.	drizzle	
@@ -1249,7 +1249,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137784	l	l(II)	l (II)	adv.	no	
 137784	l	l(III)	l (III)	functor	certainly	
 137785	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
-137786	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+137786	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 # KTU 1.3 V:6						
 137787	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 137788	il	il(I)/	ỉl (I)	n. m.	god	
@@ -1330,7 +1330,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137841	ṣḥrrt	ṣḥrr[t	/ṣ-ḥ-r-r/	vb G suffc.	to roast	
 # KTU 1.3 V:18						
 137842	la	la/	lả	n. m. sg.	power	
-137843	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+137843	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 137844	b	b	b	prep.	in	
 137845	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 137846	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
@@ -1688,7 +1688,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138062	iht	iht/	ỉht	n. f. pl.	islands	
 # KTU 1.3 VI:20						
 138063	np	np/	np	n. m. sg. / n. m. pl. cstr.	peak	
-138064	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+138064	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 138065	šmšr	]š]mšr[	/m-š-r/	vb Š impv.	to set a vehicle in motion	
 # KTU 1.3 VI:21						
 138066	l	l(I)	l (I)	prep.	to	
@@ -1708,7 +1708,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138074	al	al(II)	ảl (II)	pos. functor	surely	
 138075	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
 # KTU 1.3 VI:24						
-138076	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+138076	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 138077	tk	tk/	tk	n. m.	centre	
 138078	ḥqkpt	ḥqkpt	ḥqkpt			
 # KTU 1.3 VI:25						

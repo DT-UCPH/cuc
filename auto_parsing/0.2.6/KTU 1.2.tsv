@@ -64,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136068	ˤlṣm	ˤlṣ/m	ʕlṣ	n. m. pl.	rejoicing	
 136069	npr	npr[	/n-p-r/	vb G suffc.	to fly	
 136069	npr	npr[/	/n-p-r/	vb G ptcpl.	to fly	
-136070	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
+136070	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
 # KTU 1.2 I:13						
 136071	uṭ	uṭ/	ủṭ	n. m. sg.	span	
 136072	ṯbr	ṯbr[	/ṯ-b-r/	vb G suffc.	to break	
@@ -77,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136077	tṯb	yṯb[	/y-ṯ-b/	vb G prefc.	to sit down	
 136077	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 136078	idk	idk	ỉdk	narrative adv. functor	then	
-136079	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+136079	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 # KTU 1.2 I:14						
 136080	al	al(II)	ảl (II)	pos. functor	surely	
 136081	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
@@ -161,7 +161,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136137	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
 136137	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 136138	idk	idk	ỉdk	narrative adv. functor	then	
-136139	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+136139	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 # KTU 1.2 I:20						
 136140	l	l(I)	l (I)	prep.	to	
 136140	l	l(II)	l (II)	adv.	no	
@@ -589,7 +589,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136429	l	l(II)	l (II)	adv.	no	
 136429	l	l(III)	l (III)	functor	certainly	
 136430	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
-136431	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+136431	pnm	pn(m/m	pnm	n. m. pl. tant.	face	
 136432	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 136433	il	il(I)/	ỉl (I)	n. m.	god	
 136434	mbk	mbk/	mbk	n. m. sg.	source	
@@ -706,7 +706,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136510	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 136511	ymt	ym(I)/t=	ym (I)	n. m. pl.	day	
 136512	yˤmdn	!y!ˤmd[n:d	/ʕ-m-d/	vb G prefc. / vb D prefc.	?	
-136513	pn	pn(m/	pnm	n. m. pl. tant. pl.	face	
+136513	pn	pn(m/	pnm	n. m. pl. tant.	face	
 136514	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
 136515	d	d	d	det. or rel. functor	the one(s) of	
 136516	t	/t, /t=				
@@ -917,7 +917,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136658	mtt	mt[t	/m-t/	vb G suffc.	to die	
 136659	xxx	?	?	?	?	
 # KTU 1.2 IV:2						
-136660	ḥy	ḥy(m/	ḥym	n. m. pl. tant. pl.	life	
+136660	ḥy	ḥy(m/	ḥym	n. m. pl. tant.	life	
 136660	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg.	alive	
 136661	npšl	?	?	?	?	DULAT: NOT FOUND
 136662	ašṣi	yṣʔ[i	/y-ṣ-ʔ/	vb G prefc.	to go out	
