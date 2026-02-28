@@ -44,25 +44,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139793	yrt	yr(d&t[	/y-r-d/	vb G suffc. 2 m. sg.	to go down	DULAT
 # KTU 1.5 I:7						
 139794	b	b	b	prep.	in	
-139795	npš	npš(I)/	npš (I)	n. f. sg.	throat	
-139796	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
-139797	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-139798	mt	mt(II)/	mt (II)	n. m. sg.	death	
+139795	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	throat	
+139796	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+139797	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+139798	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 139799	b	b	b	prep.	in	
-139800	mh	mh/	mh/y	n. m. sg.	water	
-139800	mh	m	m(h)	pers. pn.	what?	
+139800	mh	&m&h				UDB: "R1 assumes the Broken String: mhmrt."
 # KTU 1.5 I:8						
-139801	mrt	?	?	?	?	DULAT: NOT FOUND
-139802	ydd	ydd(I)/	ydd (I)	adj. m. sg.	loved	
-139803	il	il(I)/	ỉl (I)	n. m.	god	
-139804	ġzr	ġzr/	ġzr	n. m. sg.	lad	
+139801	mrt	(hmrt/	hmrt	n. f. sg. abs. gen.	drain, sink	
+139802	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
+139802	ydd	ydd[/	ydd	vb G pass. ptcpl. m. sg. cstr. gen.	loved	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
+139803	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	god	
+139804	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.5 I:9						
-139805	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc.	to go	
+139805	tbˤ	tbˤ[:w	/t-b-ʕ/	vb G suffc. 3 m. pl.	to go	
 139806	w	w	w	conj.	and	
-139807	l	l(II)	l (II)	adv.	no	
-139808	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-139808	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
-139809	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139807	l	l(II)	l (II)	adv.	not	
+139808	yṯb yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
+139808	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
+139808	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. 3 m. sg.	to sit down	
+139809	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 139810	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 I:10						
 139811	l	l(I)	l (I)	prep.	to	
