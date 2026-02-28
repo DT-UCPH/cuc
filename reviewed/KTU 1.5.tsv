@@ -44,17 +44,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139793	yrt	yr(d&t[	/y-r-d/	vb G suffc. 2 m. sg.	to go down	DULAT
 # KTU 1.5 I:7						
 139794	b	b	b	prep.	in	
-139795	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	throat	
+139795	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
 139796	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 139797	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-139798	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
+139798	mt	mt(II)/	mt (II)	n. m. sg. abs. gen.	death	
 139799	b	b	b	prep.	in	
 139800	mh	&m&h				UDB: "R1 assumes the Broken String: mhmrt."
 # KTU 1.5 I:8						
-139801	mrt	(hmrt/	hmrt	n. f. sg. abs. gen.	drain, sink	
+139801	mrt	(hmrt/	hmrt	n. f. sg. cstr. gen.	drain, sink	
 139802	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
 139802	ydd	ydd[/	ydd	vb G pass. ptcpl. m. sg. cstr. gen.	loved	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
-139803	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	god	
+139803	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 139804	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.5 I:9						
 139805	tbˤ	tbˤ[:w	/t-b-ʕ/	vb G suffc. 3 m. pl.	to go	
@@ -66,37 +66,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139809	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 139810	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 I:10						
-139811	l	l(I)	l (I)	prep.	to	
-139811	l	l(II)	l (II)	adv.	no	
 139811	l	l(III)	l (III)	functor	certainly	
-139812	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
-139813	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
+139812	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. pl.	to give	
+139812	ytn ytn[	/y-t-n/	vb G suffc. 3 m. pl.	to give	
+139813	pnm	pn(m/m	pnm	n. m. pl./du. tant. abs. acc.	face	
 139814	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-139815	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
-139815	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
+139815	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 1.5 I:11						
-139816	mrym	mrym/	mrym	n. m. sg.	height	
-139817	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+139816	mrym	mrym/	mrym	n. m. sg. cstr. gen.	height	
+139817	ṣpn	ṣpn/	ṣpn	TN/DN m. sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 139818	w	w	w	conj.	and	
-139819	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-139819	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-139819	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+139819	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
 # KTU 1.5 I:12						
-139820	gmpn	?	?	?	?	DULAT: NOT FOUND
+139820	g[[m]]pn	g&mpn(III)/	gpn (III)	DN m. sg. abs. nom.		
 139821	w	w	w	conj.	and	
-139822	ugr	ugr(II)/	ủgr (II)	DN	Ugar/one of the two messenger-boys of Baal	
-139822	ugr	ugr(I)/	ủgr (I)	n. m.	field	
-139823	tḥm	tḥm/	tḥm	n. m. sg.	message	
-139824	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
-139825	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139822	ugr	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
+139823	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+139824	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+139825	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.5 I:13						
-139826	mt	mt(II)/	mt (II)	n. m. sg.	death	
-139827	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
-139828	ydd	ydd(I)/	ydd (I)	adj. m. sg.	loved	
-139829	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
-139830	il	il(I)/	ỉl (I)	n. m.	god	
+139826	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+139827	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
+139828	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
+139828	ydd	ydd[/	ydd	vb G pass. ptcpl. m. sg. cstr. gen.	loved	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
+139829	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+139830	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 # KTU 1.5 I:14						
-139831	ġzr	ġzr/	ġzr	n. m. sg.	lad	
+139831	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 139832	p	p(I)	p (I)	conj. functor	and	
 139833	np	np/	np	n. m. sg. / n. m. pl. cstr.	peak	
 139834	š	š/	š	n. m. sg.	ram	
