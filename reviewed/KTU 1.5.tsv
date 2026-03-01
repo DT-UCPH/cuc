@@ -100,41 +100,49 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139836	lbim	lb(u/&i~m	lbủ	n. m. sg. cstr. gen.	lion	Wyatt p117 n11 also notes possible maritime/monster construal in this passage.
 # KTU 1.5 I:15						
 139837	thw	thw/	thw	n. m. sg. abs. gen.	steppe	
+139837	thw	th(m&w/	thm	n. m. sg. abs. gen.	ocean	Wyatt
 139838	hm	hm(II)	hm (II)	conj./interr. functor	if	
+139838	hm	&h&m				Wyatt: should be merged with previous word.
 139839	brlt	brl(t/t	brlt	n. f. sg. cstr. nom.	hunger	
 139840	anḫr	anḫr/	ảnḫr	n. m. sg. abs. gen.	dolphin	
 # KTU 1.5 I:16						
 139841	b	b	b	prep.	in	
 139842	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 139843	hm	hm(II)	hm (II)	conj./interr. functor	if	
-139844	brky	brk(t/y	brkt/y	n. f. sg. abs. nom.	pool	
+139844	brky	brk(t/y	brkt/y	n. f. sg. abs. acc.?/gen?	pool	
 139845	tkšd	!t!kšd[:w	/k-š-d/	vb G prefc. 3 m. pl.	to search for	
 # KTU 1.5 I:17						
 139846	rumm	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
-139847	ˤn	ˤn(I)/	ʕn (I) 2	n. f. sg. / n. f. du.	spring	
+139847	ˤn	ˤn(I)/	ʕn (I) 2	n. f. sg. abs. acc.?/gen?	spring	
 139848	kḏd	kḏd	kḏd	→	?	
 139848	kḏd	k(II) ḏd(II)	ḏd (III)	n. m. sg. cstr. nom.	flock, herd	
 139849	aylt	ayl(I)/t	ảyl (I)	n. f. sg. abs. gen.	hind	
 139849	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
 # KTU 1.5 I:18						
 139850	hm	hm(II)	hm (II)	conj./interr. functor	if	
-139851	imt	im(t/t	ỉmt	n. f. sg.	truth	
-139852	imt	im(t/t	ỉmt	n. f. sg.	truth	
-139853	npš	npš(I)/	npš (I)	n. f. sg.	throat	
-139854	blt	bly[t	/b-l-y/	vb G suffc.	to devour	
+139850	hm	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt
+139851	imt	im(t/t	ỉmt	adv.	truly	
+139851	imt	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt
+139852	imt	im(t/t	ỉmt	adv.	truly	
+139852	imt				dittography
+139852	imt	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt
+139853	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+139854	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places.
 # KTU 1.5 I:19						
-139855	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
+139855	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. acc.	load (measure of capacity), heap	
+139855	ḥmr	ḥmr(II)/	ḥmr (II)	n. m. sg. abs. acc.	clay	Wyatt
 139856	p	p(I)	p (I)	conj. functor	and	
-139857	imt	im(t/t	ỉmt	n. f. sg.	truth	
+139857	imt	im(t/t	ỉmt	adv.	truly	
+139857	imt	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt
 139858	b	b	b	prep.	in	
-139859	klat	kla(t/t	klảt(n)	n. f. sg.	both	
+139859	klat	kla(t/t	klảt(n)	n. f. sg. cstr. gen.	both	
 # KTU 1.5 I:20						
-139860	ydy	yd(I)/+y	yd (I)	n. f.	hand	
-139861	ilḥm	!(ʔ&i!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc.	to eat	
+139860	ydy	yd(I)/+y	yd (I)	n. f. du. cstr. gen.	hand	
+139861	ilḥm	!(ʔ&i!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 1 c. sg.	to eat	
 139862	hm	hm(II)	hm (II)	conj./interr. functor	if	
 139863	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
 # KTU 1.5 I:21						
-139864	ydty	yd(I)/	yd (I)	n. f.	hand	
+139864	ydty	yd(I)/t+y	yd (I)	n. f. pl. cstr. gen.	hand	
 139865	b	b	b	prep.	in	
 139866	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg.	plate / wide bowl / platter	
 139867	hm	hm(II)	hm (II)	conj./interr. functor	if	
