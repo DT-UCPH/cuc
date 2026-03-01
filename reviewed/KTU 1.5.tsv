@@ -140,28 +140,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139860	ydy	yd(I)/+y	yd (I)	n. f. du. cstr. gen.	hand	
 139861	ilḥm	!(ʔ&i!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 1 c. sg.	to eat	
 139862	hm	hm(II)	hm (II)	conj./interr. functor	if	
+139862	hm	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt
+139862	hm	h(n/~m	hn	deictic functor/adv.	behold!; look!; thus / here	Tropper
 139863	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
 # KTU 1.5 I:21						
-139864	ydty	yd(I)/t+y	yd (I)	n. f. pl. cstr. gen.	hand	
+139864	ydty	yd(I)/t=+y	yd (I) 2	n. f. pl. cstr. gen.	part, ration, portion	
 139865	b	b	b	prep.	in	
-139866	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg.	plate / wide bowl / platter	
+139866	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
 139867	hm	hm(II)	hm (II)	conj./interr. functor	if	
-139867	hm	hm(I)	hm (I)	pers. pn.	they	
-139868	ks	ks(I)/	ks (I)	n. m. sg.	cup	
-139869	ymsk	!y!msk[	/m-s-k/	vb G prefc.	to mix	
+139867	hm	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt ???
+139868	ks	ks(I)/	ks (I)	n. m. sg. abs. nom./acc.	cup	
+139869	ymsk	!y!msk[	/m-s-k/	vb G prefc. 3 m. sg.	to mix	
 # KTU 1.5 I:22						
-139870	nhr	nhr/	nhr	n. m. sg.	river	
-139871	kl	kl/	kl	n. m. sg.	totality (of)	
-139872	ṣḥn	ṣḥ[n	/ṣ-ḥ/	vb G impv.	to exclaim	
-139873	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
-139873	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-139874	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+139870	nhr	nhr/	nhr	n. m. sg. abs. acc.	river	UNP
+139870	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	Wyatt, Tropper
+139871	kl	k&l/~(n	k (II)	emph. functor	truly	UNP: 's[o] invite me'
+139871	kl	k l	k (II); l (II)	emph. functor; neg. functor	truly; not	Wyatt
+139871	kl	k l	k (II); l (III)	emph. functor; aff. functor	truly; certainly, undoubtedly, yes	DULAT: 'yes, surely invite me'
+139872	ṣḥn	!!ṣḥ[+n=	/ṣ-ḥ/ 2	vb G impv. m. sg.	to invite, call, say	
+139873	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+139874	ˤm	ˤm(I)	ʕm (I) 2	prep.	with, together with	
 # KTU 1.5 I:23						
-139875	aḫy	aḫ(I)/+y	ảḫ (I)	n. m.	brother (by blood)	
-139876	qran	qr(ʔ&a[n	/q-r-ʔ/	vb G impv.	to call	
-139877	hd	hd/	hd(d)	DN	Haddu/Hadad	
-139878	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-139879	aryy	ary(I)/	ảry (I)	n. m. sg.	fellow	
+139875	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	
+139876	qran	qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg.	to call	
+139877	hd	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
+139878	ˤm	ˤm(I)	ʕm (I) 2	prep.	with, together with	
+139879	aryy	ary(I)/+y	ảry (I)	n. m. sg. cstr. gen.	fellow	
 # KTU 1.5 I:24						
 139880	w	w	w	conj.	and	
 139881	lḥmm	lḥm(I)[m	/l-ḥ-m/ (I)	vb G suffc.	to eat	
