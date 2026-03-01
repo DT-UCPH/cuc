@@ -165,19 +165,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139876	qran	qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg.	to call	
 139877	hd	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
 139878	ˤm	ˤm(I)	ʕm (I) 2	prep.	with, together with	
-139879	aryy	ary(I)/+y	ảry (I)	n. m. sg. cstr. gen.	fellow	
+139879	aryy	ary(I)/+y	ảry (I)	n. m. pl. cstr. gen.	fellow	
 # KTU 1.5 I:24						
 139880	w	w	w	conj.	and	
-139881	lḥmm	lḥm(I)[m	/l-ḥ-m/ (I)	vb G suffc.	to eat	
-139882	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-139883	aḫy	aḫ(I)/+y	ảḫ (I)	n. m.	brother (by blood)	
-139884	lḥm	lḥm/	lḥm	n. m. sg.	grain	
+139881	lḥmm	!!lḥm(I)[/~m	/l-ḥ-m/ (I)	vb G inf. abs. 	to eat	
+139882	ˤm	ˤm(I)	ʕm (I) 2	prep.	with, together with	
+139883	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	
+139884	lḥm	lḥm/	lḥm 3	n. m. sg. abs. acc.	food, meat	
 # KTU 1.5 I:25						
 139885	w	w	w	conj.	and	
-139886	štp	?	?	?	?	DULAT: NOT FOUND
-139887	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-139888	aḫy	aḫ(I)/+y	ảḫ (I)	n. m.	brother (by blood)	
-139889	yn	yn/	yn	n. m. sg.	wine	
+139886	štp	!!št&p[~(m	/š-t-y/	G impv. m. sg.	to drink	DULAT: impv. suff. encl.
+139886	štp	!!št&p[/~(m	/š-t-y/	G inf. abs.	to drink	Source: ???
+139887	ˤm	ˤm(I)	ʕm (I) 2	prep.	with, together with	
+139888	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	UNP: a[r]y<y>
+139889	yn	yn/	yn	n. m. sg. abs. acc.	wine	
 # KTU 1.5 I:26						
 139890	p	p(I)	p (I)	conj. functor	and	
 139891	nšt	nšy[t	/n-š-y/	vb N suffc.	to be forgotten	
