@@ -94,31 +94,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:14						
 139831	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 139832	p	p(I)	p (I)	conj. functor	and	
-139833	np	np/	np	n. m. sg. / n. m. pl. cstr.	peak	
-139834	š	š/	š	n. m. sg.	ram	
-139835	npš	npš(I)/	npš (I)	n. f. sg.	throat	
-139836	lbim	lbu/	lbủ	n. m. sg.	lion	
+139833	np	np(š(I)/	npš (I)	n. f. sg. abs. nom.	throat	Merge with the following?
+139834	š	&š				
+139835	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
+139836	lbim	lb(u/&i~m	lbủ	n. m. sg. cstr. gen.	lion	Wyatt p117 n11 also notes possible maritime/monster construal in this passage.
 # KTU 1.5 I:15						
-139837	thw	thw/	thw	n. m. sg.	steppe	
+139837	thw	thw/	thw	n. m. sg. abs. gen.	steppe	
 139838	hm	hm(II)	hm (II)	conj./interr. functor	if	
-139839	brlt	brl(t/t	brlt	n. f. sg.	hunger	
-139840	anḫr	anḫr/	ảnḫr	n. m. sg.	dolphin	
+139839	brlt	brl(t/t	brlt	n. f. sg. cstr. nom.	hunger	
+139840	anḫr	anḫr/	ảnḫr	n. m. sg. abs. gen.	dolphin	
 # KTU 1.5 I:16						
 139841	b	b	b	prep.	in	
-139842	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+139842	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 139843	hm	hm(II)	hm (II)	conj./interr. functor	if	
-139843	hm	hm(I)	hm (I)	pers. pn.	they	
-139844	brky	brkt/	brkt	n.	pool	
-139845	tkšd	!t!kšd[	/k-š-d/	vb G prefc.	to search for	
+139844	brky	brk(t/y	brkt/y	n. f. sg. abs. nom.	pool	
+139845	tkšd	!t!kšd[:w	/k-š-d/	vb G prefc. 3 m. pl.	to search for	
 # KTU 1.5 I:17						
-139846	rumm	rum/	rủm	n. m. pl.	wild bull	
-139847	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. / n. f. du.	eye	
+139846	rumm	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
+139847	ˤn	ˤn(I)/	ʕn (I) 2	n. f. sg. / n. f. du.	spring	
 139848	kḏd	kḏd	kḏd	→	?	
-139849	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg.	hind	
-139849	aylt	ayl(t(I)/t=	ảylt (I)	n. f. sg.	hind	
+139848	kḏd	k(II) ḏd(II)	ḏd (III)	n. m. sg. cstr. nom.	flock, herd	
+139849	aylt	ayl(I)/t	ảyl (I)	n. f. sg. abs. gen.	hind	
+139849	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
 # KTU 1.5 I:18						
 139850	hm	hm(II)	hm (II)	conj./interr. functor	if	
-139850	hm	hm(I)	hm (I)	pers. pn.	they	
 139851	imt	im(t/t	ỉmt	n. f. sg.	truth	
 139852	imt	im(t/t	ỉmt	n. f. sg.	truth	
 139853	npš	npš(I)/	npš (I)	n. f. sg.	throat	
