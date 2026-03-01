@@ -29,10 +29,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139785	krs	k(I); rs/[	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
 # KTU 1.5 I:5						
 139786	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. nom.	tunic	
-139786	ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'
+139786	ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'	
 139787	ank	ank	ảnk	pers. pn.	I	
-139788	ispi	!(ʔ&i!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 1 m. sg.    to devour	
-139788	ispi	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc. 1 m. sg.    to be consumed	DULAT: 'I was consumed piece by piece (?)'
+139788	ispi	!(ʔ&i!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 1 m. sg.    to devour		
+139788	ispi	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc. 1 m. sg.    to be consumed	DULAT: 'I was consumed piece by piece (?)'	
 139789	uṭm	uṭ/m	ủṭ	n. m. pl. abs. acc.	span	UNP
 139789	uṭm	uṭ/(m~m	ủṭ	n. m. pl. abs. acc.	span	DULAT
 # KTU 1.5 I:6						
@@ -60,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139805	tbˤ	tbˤ[:w	/t-b-ʕ/	vb G suffc. 3 m. pl.	to go	
 139806	w	w	w	conj.	and	
 139807	l	l(II)	l (II)	adv.	not	
-139808	yṯb yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
+139808	yṯb yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down		
 139808	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 139808	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. 3 m. sg.	to sit down	
 139809	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
@@ -68,7 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:10						
 139811	l	l(III)	l (III)	functor	certainly	
 139812	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-139812	ytn ytn[	/y-t-n/	vb G suffc. 3 m. pl.	to give	
+139812	ytn ytn[	/y-t-n/	vb G suffc. 3 m. pl.	to give		
 139813	pnm	pn(m/m	pnm	n. m. pl./du. tant. abs. acc.	face	
 139814	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 139815	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
@@ -124,7 +124,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139851	imt	im(t/t	ỉmt	adv.	truly	
 139851	imt	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt
 139852	imt	im(t/t	ỉmt	adv.	truly	
-139852	imt				dittography
+139852	imt				dittography	
 139852	imt	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt
 139853	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 139854	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places.
