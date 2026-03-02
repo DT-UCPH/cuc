@@ -203,7 +203,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139905	šlyṭ	]š]lyṭ/[	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
 139905	šlyṭ	]š]lyṭ/[	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT
 139905	šlyṭ	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
-	
 # KTU 1.5 I:30						
 139906	d	d	d	det. or rel. functor	the one(s) of	
 139907	šbˤt	šbˤ(I)/t	šbʕ (I)	n. num. f. sg.	seven	
@@ -216,50 +215,42 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139911	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant. / n. m. du. tant. abs. nom.	heavens	
 139912	krs	k(I); r(ks/	k (I); rks	prep.; n. m. sg. abs. gen.	like; belt	
 139912	krs	k(I); rs/[	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
-
 139913	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc.?	tunic	
 139913	ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'	
 # KTU 1.5 II:1						
 139914	xxxxxxxyxḫm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.5 II:2						
-139915	špt	šp(t/t	špt	n. f. sg.	lip	
-139916	larṣ	?	?	?	?	DULAT: NOT FOUND
-139917	špt	šp(t/t	špt	n. f. sg.	lip	
+139915	špt	šp(t/t	špt	n. f. sg. abs. nom.	lip	
+139916	larṣ	l(I) arṣ/	l(I); arṣ	prep.; n. f. sg. abs. gen.	to; earth	Split
+139917	špt	šp(t/t	špt	n. f. sg. abs. nom.	lip	
 139918	l	l(I)	l (I)	prep.	to	
-139918	l	l(III)	l (III)	functor	certainly	
-139919	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
+139919	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. gen.	heavens	
 # KTU 1.5 II:3						
-139920	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
-139920	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
-139921	lšn	lšn/	lšn	n. f. sg.	tongue	
+139920	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
+139920	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
+139921	lšn	lšn/	lšn	n. f. sg. abs. acc.	tongue	
 139922	l	l(I)	l (I)	prep.	to	
-139922	l	l(III)	l (III)	functor	certainly	
-139923	kbkbm	kbkb/m	kbkb	n. m. pl. / n. m. du.	heavenly body	
-139924	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
+139923	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body, star	
+139924	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	to enter	
 # KTU 1.5 II:4						
-139925	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
-139925	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
+139925	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 139926	b	b	b	prep.	in	
-139927	kbdh	kbd(I)/+h	kbd (I)	n.	liver	
+139927	kbdh	kbd(I)/+h	kbd (I) 2	n. m. sg. abs. gen.	innards, entrails, bosom	
 139928	b	b	b	prep.	in	
-139929	ph	p(III)/+h	p (III)	n. m.	mouth	
-139930	yrd	!y!(yrd[	/y-r-d/	vb G prefc. / vb G suffc.	to go down	
-139931	k	+k	-k (I)			
-139931	k	~k	-k (II)			
-139931	k	k(III)	k (III)	Subordinating or completive functor	when	
+139929	ph	p(III)/+h	p (III) 1	n. m. sg. abs. gen.	mouth, snout	
+139930	yrd	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg. juss.?	to go down	
 139931	k	k(I)	k (I)	prep.	like	
-139931	k	k(II)	k (II)	emph. functor	yes	
 # KTU 1.5 II:5						
 139932	k	k(III)	k (III)	Subordinating or completive functor	when	
-139933	ḥrr	ḥrr[	/ḥ-r-r/	vb G suffc.	to dry up	
-139933	ḥrr	ḥrr[/	/ḥ-r-r/	vb G ptcpl.	to dry up	
-139934	zt	zt/	zt	n. m. sg. / n. m. pl.	olive	
-139935	ybl	!y!(ybl[	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
-139936	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
+139933	ḥrr	ḥrr[	/ḥ-r-r/	vb G suffc. 3 m. sg.	to dry up	
+139933	ḥrr	ḥrr[/	/ḥ-r-r/	vb G pass. ptcpl. m. sg. abs. gen.	to dry up	
+139934	zt	zt/	zt	n. m. sg. / pl. abs. gen.	olive	
+139935	ybl	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.?	produce	
+139936	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 139937	w	w	w	conj.	and	
-139938	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
+139938	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.?	fruit	
 # KTU 1.5 II:6						
-139939	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	
+139939	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
 139940	yraun	!y!(yr(ʔ&a[un	/y-r-ʔ/	vb G prefc.	to be afraid	
 139941	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 139942	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
