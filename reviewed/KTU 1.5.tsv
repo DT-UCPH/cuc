@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:1						
-139769	k	k(III)	k (III)	Subordinating or completive functor	when	
+139769	k	k(III)	k (III)	subordinating / completive functor	when	
 139770	tmḫṣ	!t=!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 2 m. sg.	to wound	
 139771	ltn	ltn(I)/	ltn (I)	DN m. sg. abs. acc.	Lôtan	
 139772	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
@@ -18,17 +18,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139778	šlyṭ	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
 139779	d	d	d	det. or rel. functor	the one(s) of	
 139780	šbˤt	šbˤ(I)/t	šbʕ (I)	n. num. f. sg.	seven	
-139781	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. nom.	head	
+139781	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. acc.?	head	
 # KTU 1.5 I:4						
 139782	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
 139782	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
-139783	ttrp	rpy[p:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
-139783	ttrp	rpy[p:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
-139784	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant. / n. m. du. tant.	heavens	
-139785	krs	k(I); r(ks/	k (I); rks	prep.; n. m. sg. abs. nom.	like; belt	
+139783	ttrp	!t!]t]rp(y[p:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
+139783	ttrp	!t!]t]rp(y[p:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
+139784	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant. / n. m. du. tant. abs. nom.	heavens	
+139785	krs	k(I); r(ks/	k (I); rks	prep.; n. m. sg. abs. gen.	like; belt	
 139785	krs	k(I); rs/[	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
 # KTU 1.5 I:5						
-139786	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. nom.	tunic	
+139786	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc.?	tunic	
 139786	ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'	
 139787	ank	ank	ảnk	pers. pn.	I	
 139788	ispi	!(ʔ&i!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 1 m. sg.    to devour		
@@ -181,41 +181,44 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139889	yn	yn/	yn	n. m. sg. abs. acc.	wine	
 # KTU 1.5 I:26						
 139890	p	p(I)	p (I)	conj. functor	and	
-139891	nšt	nšy[t	/n-š-y/	vb N suffc.	to be forgotten	
-139892	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
-139892	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-139893	ṭˤn	?	?	?	?	DULAT: NOT FOUND
-139894	iṭˤnk	!(ʔ&i!ṭˤn[k	/ṭ-ʕ-n/	vb G prefc. / vb G suffc.	to smite	
+139891	nšt	nšy[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	
+139892	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. voc.	Baʿlu	
+139893	ṭˤn	ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	
+139894	iṭˤnk	!(ʔ&i!ṭˤn[+k	/ṭ-ʕ-n/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to smite	
 # KTU 1.5 I:27						
-139895	xxxxxqa	?	?	?	?	DULAT: NOT FOUND
-139896	xxxk	?	?	?	?	DULAT: NOT FOUND
-139897	k	+k	-k (I)			
-139897	k	~k	-k (II)			
-139897	k	k(III)	k (III)	Subordinating or completive functor	when	
-139897	k	k(I)	k (I)	prep.	like	
-139897	k	k(II)	k (II)	emph. functor	yes	
-139898	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
+139895	xxxxxqa	?	?	?	?	
+139896	xxxk	?	?	?	?	
+139897	k	k(III)	k (III)	subordinating / completive functor	when	
+139898	tmḫṣ	!t=!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 2 m. sg.	to wound	
 # KTU 1.5 I:28						
-139899	ltn	ltn(II)/	ltn (II)	PN	ltn (II)	
-139899	ltn	lt+n	lt	?	?	
-139899	ltn	ltn(I)/	ltn (I)	DN	Leviathan	
-139900	bṯn	bṯn/	bṯn	n. m. sg.	serpent	
-139901	brḥ	brḥ/	brḥ	adj. m. sg.	fleeing	
-139902	tkly	!t!kly[:d	/k-l-y/	vb D prefc.	to finish	
+139899	ltn	ltn(I)/	ltn (I)	DN m. sg. abs. acc.	Lôtan	
+139900	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
+139901	brḥ	brḥ/	brḥ	adj. m. sg. abs. acc.	fleeing	
+139902	tkly	!t=!kly[:d	/k-l-y/	vb D prefc. 2 m. sg.	to finish	
 # KTU 1.5 I:29						
-139903	bṯn	bṯn/	bṯn	n. m. sg.	serpent	
-139904	ˤqltn	ˤqltn/	ʕqltn	adj. m. sg.	winding	
-139905	šlyṭ	šlyṭ/	šlyṭ	n. m. sg.	tyrant	
+139903	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
+139904	ˤqltn	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
+139905	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant, powerful	
+139905	šlyṭ	]š]l(w&yṭ/[	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
+139905	šlyṭ	]š]lyṭ/[	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
+139905	šlyṭ	]š]lyṭ/[	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT
+139905	šlyṭ	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
+	
 # KTU 1.5 I:30						
 139906	d	d	d	det. or rel. functor	the one(s) of	
-139907	šbˤt	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
-139908	rašm	riš(I)/	rỉš (I)	n. m. pl.	head	
-139909	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc.	to burn	
+139907	šbˤt	šbˤ(I)/t	šbʕ (I)	n. num. f. sg.	seven	
+139908	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. acc.?	head	
+139909	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
+139909	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
 # KTU 1.5 I:31						
-139910	ttrp	rpy[p:d	/r-p-y/	vb Dt prefc.	to slacken	
-139911	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant.	heavens	
-139912	krs	krs	krs			
-139913	ipdk	ipd/+k	ỉpd	n. m.	tunic	
+139910	ttrp	!t!]t]rp(y[p:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
+139910	ttrp	!t!]t]rp(y[p:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
+139911	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant. / n. m. du. tant. abs. nom.	heavens	
+139912	krs	k(I); r(ks/	k (I); rks	prep.; n. m. sg. abs. gen.	like; belt	
+139912	krs	k(I); rs/[	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
+
+139913	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc.?	tunic	
+139913	ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'	
 # KTU 1.5 II:1						
 139914	xxxxxxxyxḫm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.5 II:2						
