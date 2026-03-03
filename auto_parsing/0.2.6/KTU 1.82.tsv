@@ -77,6 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150044	l	l(I)	l (I)	prep.	to	
 150044	l	l(II)	l (II)	adv.	no	
 150044	l	l(III)	l (III)	functor	certainly	
+150045	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 150045	mt	mt(II)/	mt (II)	n. m. sg.	death	
 150045	mt	mt[	/m-t/	vb G suffc.	to die	
 150045	mt	mt[/	/m-t/	vb G ptcpl.	to die	
@@ -90,12 +91,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150049	arnn	!(ʔ&a!rn[n	/r-n(-n)/	vb G prefc.	to shout	
 150050	ql	ql[	/q-l/	vb G suffc. / vb G impv.	to fall (down)	
 150050	ql	ql(I)/	ql (I)	n. m. sg.	voice	
+150051	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 150051	špš	špš/	špš	n. f. sg.	sun	
 150052	ḥw	ḥw(I)[:d	/ḥ-w/y-y/ (I)	vb D impv.	to live	
 150053	bṯnm	bṯn/m	bṯn	n. m. pl.	serpent	
 150054	uḫd	(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G impv.	to collect	
 150054	uḫd	(ʔ&uḫd[/	/ʔ-ḫ-d(/ḏ)/	vb Gpass ptcpl.	to collect	
-150055	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
+150055	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	lord	
 # KTU 1.82 7						
 150056	x	?	?	?	?	
 150057	aṭm	(ʔ&aṭm[	/ʔ-ṭ-m/	vb	to stop up	
@@ -167,7 +169,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 14						
 150101	uḫd	(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G impv.	to collect	
 150101	uḫd	(ʔ&uḫd[/	/ʔ-ḫ-d(/ḏ)/	vb Gpass ptcpl.	to collect	
-150102	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
+150102	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	lord	
 150103	ˤxxxl	?	?	?	?	DULAT: NOT FOUND
 150104	ydk	yd(I)/+k	yd (I)	n. f.	hand	
 150104	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
@@ -421,7 +423,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150257	ẓẓ	ẓẓ/	ẓẓ	element/DN	ẓẓ	
 150258	w	w	w	conj.	and	
 150259	kmġ	kmṯ/	kmṯ	DN/element	kmṯ	
-150260	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+150260	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+150260	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.82 43						
 150261	xw	?	?	?	?	DULAT: NOT FOUND
 150262	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	

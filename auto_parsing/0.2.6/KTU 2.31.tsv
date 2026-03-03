@@ -244,7 +244,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157413	b	b	b	prep.	in	
 157414	dmt	dm(t(I)/t	dmt (I)	n. f. sg.	tower	
 157415	um	um/	ủm	n. f. sg.	mother	
-157416	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+157416	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+157416	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.31 49						
 157417	xxx	?	?	?	?	
 157418	xxxxḏḏyn	?	?	?	?	DULAT: NOT FOUND
@@ -370,6 +371,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157508	al	al(II)	ảl (II)	pos. functor	surely	
 157509	atn	ytn[	/y-t-n/	vb G prefc.	to give	
 157510	xxw	?	?	?	?	DULAT: NOT FOUND
+157511	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 157511	il	il(I)/	ỉl (I)	n. m.	god	
 157512	ḥxky	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 64						

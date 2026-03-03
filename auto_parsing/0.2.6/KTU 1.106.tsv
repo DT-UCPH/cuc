@@ -7,7 +7,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.106 2						
 152806	l	l(I)	l (I)	prep.	to	
 152807	inš	inš/	ỉnš	n. m. sg.	people	
-152808	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+152808	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+152808	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 152809	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 # KTU 1.106 3						
 152810	ydbil	ydbil/	ydbỉl	PN	to be generous	
@@ -34,7 +35,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152824	ˤṣrml	?	?	?	?	DULAT: NOT FOUND
 152825	inš	inš/	ỉnš	n. m. sg.	people	
 # KTU 1.106 8						
-152826	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+152826	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+152826	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.106 9						
 152827	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 152827	bn	bn(II)	bn (II)	prep.	between	
@@ -61,6 +63,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152836	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 152837	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 152837	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+152838	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 152838	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 152839	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.106 13						
@@ -170,7 +173,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152900	lllltˤrk	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.106 28						
 152901	ksu	?	?	?	?	DULAT: NOT FOUND
-152902	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+152902	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 152903	tṣu	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 152904	šlḥmt	šlḥm(t/t	šlḥmt	n. f. sg.	provisions	
 152904	šlḥmt	šlḥm(t/t=	šlḥmt	n. f. sg.	provisions	

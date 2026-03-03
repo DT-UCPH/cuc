@@ -1,5 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 1						
+153511	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153511	il	il(I)/	ỉl (I)	n. m.	god	
 153512	prz	prz/	prz	n. m. sg.	decision	
 153513	lmd	lmd/	lmd	adj. m. or n. m. sg. / adj. m. or n. m. pl. cstr.	trained	
@@ -9,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153514	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 153514	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 153515	ymm	ym(I)/m	ym (I)	n. m. pl. / n. m. du.	day	
-153515	ymm	ym(II)/~m	ym (II)	n. m. sg.	sea	
+153515	ymm	y(II)/~m	ym (II)	n. m. sg.	sea	
 153516	llxm	?	?	?	?	DULAT: NOT FOUND
 153517	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 # KTU 1.111 3						
@@ -58,7 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 13						
 153549	xxxx	?	?	?	?	
 # KTU 1.111 14						
-153550	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+153550	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 153551	x	?	?	?	?	
 # KTU 1.111 15						
 153552	wb	?	?	?	?	DULAT: NOT FOUND
@@ -81,6 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153560	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 153561	l	l(I)	l (I)	prep.	to	
 # KTU 1.111 18						
+153562	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153562	il	il(I)/	ỉl (I)	n. m.	god	
 153563	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153563	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	

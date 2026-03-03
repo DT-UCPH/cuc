@@ -23,7 +23,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157201	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.30 6						
 157202	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
-157203	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+157203	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+157203	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.30 7						
 157204	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 157205	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
@@ -93,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157239	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 157239	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 157240	w	w	w	conj.	and	
-157241	lakm	!!lak[/m~m	/l-ʔ-k/	vb G inf.	to send (a message)	
+157241	lakm	!!l(ʔ&ak[/~m	/l-ʔ-k/	vb G inf.	to send (a message)	
 # KTU 2.30 20						
 157242	ilak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
 157243	w	w	w	conj.	and	

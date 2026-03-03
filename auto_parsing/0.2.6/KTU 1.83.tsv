@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150276	b	b	b	prep.	in	
 150277	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.83 4						
-150278	mḫnm	mḫn/m~m	mḫn	n. m. pl.	?	
+150278	mḫnm	mḫn/~m	mḫn	n. m. pl.	?	
 150279	ṯrp	ṯrp[	/ṯ-r-p/	vb	to spur on (an animal)	
 150280	ym	ym(I)/	ym (I)	n. m. sg.	day	
 150280	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -61,6 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150305	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 150305	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 1.83 15						
+150306	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 150306	mt	mt(II)/	mt (II)	n. m. sg.	death	
 150306	mt	mt[	/m-t/	vb G suffc.	to die	
 150306	mt	mt[/	/m-t/	vb G ptcpl.	to die	

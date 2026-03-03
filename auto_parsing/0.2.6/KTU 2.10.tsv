@@ -44,7 +44,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156575	w	w	w	conj.	and	
 156576	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 # KTU 2.10 12						
-156577	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+156577	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+156577	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 156578	p	p(I)	p (I)	conj. functor	and	
 156578	p	p(III)/	p (III)	n. m.	mouth	
 156578	p	p(II)	p (II)	adv.	here	

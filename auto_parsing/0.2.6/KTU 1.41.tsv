@@ -1,6 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.41 1						
 148440	b	b	b	prep.	in	
+148441	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 148441	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 148442	riš	riš(I)/	rỉš (I)	n. m. sg.	head	
 148443	yn	yn/	yn	n. m. sg.	wine	
@@ -13,9 +14,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148447	šmtr	šmtr(I)/	šmtr (I)	n. m.	cutting	
 148448	uṯkl	uṯkl/	ủṯkl	n. m. sg.	bunch	
 148449	l	l(I)	l (I)	prep.	to	
+148450	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 148450	il	il(I)/	ỉl (I)	n. m.	god	
 148451	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148451	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+148451	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.41 3						
 148452	b	b	b	prep.	in	
 148453	ṯlṯṯ	?	?	?	?	DULAT: NOT FOUND
@@ -45,7 +47,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148469	l	l(I)	l (I)	prep.	to	
 148470	inš	inš/	ỉnš	n. m. sg.	people	
 # KTU 1.41 6						
-148471	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+148471	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+148471	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 148472	w	w	w	conj.	and	
 148473	šdd	šd(I)/+d	šd (I)	n. m.	open field, ?	
 148473	šdd	šd(II)/+d	šd (II)	n. m.	a strip, ?	
@@ -68,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.41 8						
 148483	ym	ym(I)/	ym (I)	n. m. sg.	day	
 148483	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-148484	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+148484	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 148485	yˤrbt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.41 9						
 148486	k	+k	-k (I)			
@@ -114,7 +117,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148511	dqtšrp	?	?	?	?	DULAT: NOT FOUND
 148512	w	w	w	conj.	and	
 148513	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148513	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+148513	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 148514	dqtm	dqt(I)/m	dqt (I)	adj. f. or n. f. du.	small	
 # KTU 1.41 14						
 148515	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg.	goddess	
@@ -149,6 +152,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148531	ršp	ršp/	ršp	DN	Rašap	
 148532	š	š/	š	n. m. sg.	ram	
 148533	dr	dr/	dr	n. m. sg. / n. m. pl. cstr.	circle	
+148534	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 148534	il	il(I)/	ỉl (I)	n. m.	god	
 148535	w	w	w	conj.	and	
 148536	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
@@ -169,7 +173,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148545	ilhm	il(I)/+hm	ỉl (I)	n. m.	god	
 148545	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f.	goddess	
 148545	ilhm	ilh/+m(I)	ỉlh	DN	the ‘Divine One’	
-148546	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
+148546	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	lord	
 148547	w	w	w	conj.	and	
 148548	mlu	mlu/	mlủ	n. m. sg.	fill	
 148549	dṯt	dṯ(t/t	dṯt	n. f. sg.	fodder or spring grass	
@@ -234,6 +238,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148590	š	š/	š	n. m. sg.	ram	
 148591	w	w	w	conj.	and	
 148592	ll	ll(I)/	ll (I)	n. m. sg.	night	
+148593	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 148593	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 # KTU 1.41 26						
 148594	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
@@ -252,7 +257,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148602	l	l(I)	l (I)	prep.	to	
 148602	l	l(III)	l (III)	functor	certainly	
 148603	ins	?	?	?	?	DULAT: NOT FOUND
-148604	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+148604	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+148604	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 148605	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 148605	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 # KTU 1.41 28						
@@ -261,6 +267,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148606	ilhm	ilh/+m(I)	ỉlh	DN	the ‘Divine One’	
 148607	dqt	dq(t(I)/t	dqt (I)	adj. f. or n. f. sg.	small	
 148607	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. sg.	small	
+148608	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 148608	špš	špš/	špš	n. f. sg.	sun	
 148609	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 148609	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
@@ -272,7 +279,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148612	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 148613	w	w	w	conj.	and	
 148614	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148614	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+148614	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 148615	kmm	kmm	kmm	adv.	ditto	
 148616	dqtm	dqt(I)/m	dqt (I)	adj. f. or n. f. du.	small	
 # KTU 1.41 30						
@@ -285,6 +292,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148619	ilhm	ilh/+m(I)	ỉlh	DN	the ‘Divine One’	
 148620	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 148620	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
+148621	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 148621	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.41 31						
 148622	dqt	dq(t(I)/t	dqt (I)	adj. f. or n. f. sg.	small	
@@ -306,7 +314,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148632	w	w	w	conj.	and	
 # KTU 1.41 33						
 148633	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148633	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+148633	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 148634	kmm	kmm	kmm	adv.	ditto	
 148635	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 148635	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
@@ -350,6 +358,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148661	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 148662	bt	bt(II)/	bt (II)	n. m. sg.	house	
 148662	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+148663	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 148663	il	il(I)/	ỉl (I)	n. m.	god	
 148664	ṯql	ṯql/	ṯql	n. m. sg.	shekel	
 148665	ks	ks(I)/	ks (I)	n. m. sg.	cup	
@@ -375,7 +384,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148673	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 148674	l	l(I)	l (I)	prep.	to	
 148675	inš	inš/	ỉnš	n. m. sg.	people	
-148676	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+148676	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+148676	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.41 41						
 148677	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
 148677	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
@@ -445,6 +455,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148716	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 148717	ṣbu	ṣbu(I)/	ṣbủ (I)	n. m. sg.	army	
 148717	ṣbu	ṣbu(II)/	ṣbủ (II)	n. m. sg.	setting	
+148718	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 148718	špš	špš/	špš	n. f. sg.	sun	
 148719	w	w	w	conj.	and	
 148720	hl	hl	hl	deictic adv. functor	behold	
@@ -452,6 +463,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148721	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 148722	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 148722	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
+148723	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 148723	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.41 48						
 148724	w	w	w	conj.	and	
@@ -495,7 +507,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148750	w	w	w	conj.	and	
 148751	š	š/	š	n. m. sg.	ram	
 148752	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148752	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+148752	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 148753	pamt	pa/m	pảm(t)	n. f. pl.	time	
 148754	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 148755	k	+k	-k (I)			
@@ -510,6 +522,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148758	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 148759	ṣbu	ṣbu(I)/	ṣbủ (I)	n. m. sg.	army	
 148759	ṣbu	ṣbu(II)/	ṣbủ (II)	n. m. sg.	setting	
+148760	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 148760	špš	špš/	špš	n. f. sg.	sun	
 148761	w	w	w	conj.	and	
 148762	ḥl	ḥl(I)/	ḥl (I)	n. m. sg.	strength	

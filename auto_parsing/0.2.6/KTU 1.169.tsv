@@ -33,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155626	k	k(I)	k (I)	prep.	like	
 155626	k	k(II)	k (II)	emph. functor	yes	
 155627	qṭr	qṭr/	qṭr	n. m. sg.	smoke	
-155628	urbtm	urbt/tm~m	ủrbt	n. f.	window	
+155628	urbtm	urb(t/t~m	ủrbt	n. f. sg.	window	
 155629	k	+k	-k (I)			
 155629	k	~k	-k (II)			
 155629	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -112,10 +112,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155671	ḥbrm	ḥbr(I)/~m	ḥbr (I)	n. m. sg.	companion	
 155672	w	w	w	conj.	and	
 155673	ġlm	ġlm/	ġlm	n. m. sg.	boy	
-155674	dˤtm	dˤt(I)/m~m	dʕt (I)	n. f. pl.	knowledge	
+155674	dˤtm	dˤt(I)/~m	dʕt (I)	n. f. pl.	knowledge	
 155675	lk	l(I)+k	l (I)	prep.	to	
 # KTU 1.169 11						
-155676	lẓtm	lẓt/tm~m	lẓt	n. f. sg.	severity	
+155676	lẓtm	lẓ(t/t~m	lẓt	n. f. sg.	severity	
 155677	al	al(I)	ảl (I)	neg. functor	no	
 155677	al	al(II)	ảl (II)	pos. functor	surely	
 155678	tmk	!t!mk[	/m-k-(k)/	vb G prefc.	to fall	
@@ -131,10 +131,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155685	lbš	lbš/	lbš	n. m. sg. / n. m. pl. cstr.	clothing	
 155685	lbš	lbš[/	/l-b-š/	vb G act. ptcpl. m. / vb G pass. ptcpl. m.	to dress	
 # KTU 1.169 13						
+155686	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 155686	il	il(I)/	ỉl (I)	n. m.	god	
 155687	yštk	!y!št[k	/š-t/	vb G prefc.	to place	
 155688	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. sg.	city	
 155688	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg.	naked	
+155689	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 155689	il	il(I)/	ỉl (I)	n. m.	god	
 155690	yštk	!y!št[k	/š-t/	vb G prefc.	to place	
 # KTU 1.169 14						

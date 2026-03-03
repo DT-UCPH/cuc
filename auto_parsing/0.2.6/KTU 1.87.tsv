@@ -1,6 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 1						
 150796	b	b	b	prep.	in	
+150797	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 150797	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 150798	rišyn	rišy/+n	rỉšy	GN	rỉšy	
 150799	b	b	b	prep.	in	
@@ -12,9 +13,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150802	šmtr	šmtr(I)/	šmtr (I)	n. m.	cutting	
 150803	uṯlkl	?	?	?	?	DULAT: NOT FOUND
 150804	l	l(I)	l (I)	prep.	to	
+150805	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 150805	il	il(I)/	ỉl (I)	n. m.	god	
 150806	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-150806	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+150806	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.87 3						
 150807	bṯlṯt	?	?	?	?	DULAT: NOT FOUND
 150808	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
@@ -46,7 +48,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150823	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 150824	l	l(I)	l (I)	prep.	to	
 150825	inš	inš/	ỉnš	n. m. sg.	people	
-150826	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+150826	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+150826	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 150827	w	w	w	conj.	and	
 150828	š	š/	š	n. m. sg.	ram	
 # KTU 1.87 7						
@@ -69,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 9						
 150839	ym	ym(I)/	ym (I)	n. m. sg.	day	
 150839	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-150840	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+150840	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 150841	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 # KTU 1.87 10						
 150842	t	/t, /t=				
@@ -99,6 +102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150855	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 150856	š	š/	š	n. m. sg.	ram	
 150857	l	l(I)	l (I)	prep.	to	
+150858	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 150858	il	il(I)/	ỉl (I)	n. m.	god	
 150859	w	w	w	conj.	and	
 150860	b	b	b	prep.	in	
@@ -125,7 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 15						
 150872	w	w	w	conj.	and	
 150873	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-150873	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+150873	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 150874	dqtm	dqt(I)/m	dqt (I)	adj. f. or n. f. du.	small	
 150875	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg.	goddess	
 150875	ilh	ilh/	ỉlh	DN	the ‘Divine One’	
@@ -162,6 +166,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150893	š	š/	š	n. m. sg.	ram	
 150894	dr	dr/	dr	n. m. sg. / n. m. pl. cstr.	circle	
 # KTU 1.87 18						
+150895	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 150895	il	il(I)/	ỉl (I)	n. m.	god	
 150896	w	w	w	conj.	and	
 150897	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
@@ -182,7 +187,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150906	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f.	goddess	
 150906	ilhm	ilh/+m(I)	ỉlh	DN	the ‘Divine One’	
 # KTU 1.87 20						
-150907	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
+150907	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	lord	
 150908	w	w	w	conj.	and	
 150909	mlu	mlu/	mlủ	n. m. sg.	fill	
 150910	dṯt	dṯ(t/t	dṯt	n. f. sg.	fodder or spring grass	
@@ -257,6 +262,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 28						
 150954	l	l(I)	l (I)	prep.	to	
 150954	l	l(III)	l (III)	functor	certainly	
+150955	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 150955	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 150956	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150956	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
@@ -275,7 +281,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150964	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 150965	linš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 30						
-150966	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+150966	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+150966	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 150967	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150967	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 150968	ilhm	il(I)/+hm	ỉl (I)	n. m.	god	
@@ -284,6 +291,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150969	dqt	dq(t(I)/t	dqt (I)	adj. f. or n. f. sg.	small	
 150969	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. sg.	small	
 # KTU 1.87 31						
+150970	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 150970	špš	špš/	špš	n. f. sg.	sun	
 150971	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150971	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
@@ -292,7 +300,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 32						
 150974	w	w	w	conj.	and	
 150975	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-150975	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+150975	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 150976	kmm	kmm	kmm	adv.	ditto	
 150977	dqtm	dqt(I)/m	dqt (I)	adj. f. or n. f. du.	small	
 150978	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg.	goddess	
@@ -331,7 +339,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150994	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 150995	w	w	w	conj.	and	
 150996	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-150996	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+150996	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.87 36						
 150997	kmm	kmm	kmm	adv.	ditto	
 150998	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
@@ -383,6 +391,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 42						
 151030	bt	bt(II)/	bt (II)	n. m. sg.	house	
 151030	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+151031	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 151031	il	il(I)/	ỉl (I)	n. m.	god	
 151032	ṯql	ṯql/	ṯql	n. m. sg.	shekel	
 151033	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -398,7 +407,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151039	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 151040	l	l(I)	l (I)	prep.	to	
 151041	inš	inš/	ỉnš	n. m. sg.	people	
-151042	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+151042	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+151042	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 151043	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
 151043	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 151044	md	md(II)/	md (II)	n. m. pl.	skilled	
@@ -472,6 +482,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151082	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 151083	ṣbu	ṣbu(I)/	ṣbủ (I)	n. m. sg.	army	
 151083	ṣbu	ṣbu(II)/	ṣbủ (II)	n. m. sg.	setting	
+151084	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 151084	špš	špš/	špš	n. f. sg.	sun	
 151085	w	w	w	conj.	and	
 151086	ḥl	ḥl(I)/	ḥl (I)	n. m. sg.	strength	
@@ -480,6 +491,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151087	yt	yt/	yt	n. m. sg.	?	
 151088	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 151088	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
+151089	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 151089	špš	špš/	špš	n. f. sg.	sun	
 151090	w	w	w	conj.	and	
 151091	ḥl	ḥl(I)/	ḥl (I)	n. m. sg.	strength	
@@ -505,6 +517,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151102	xxxtx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 54						
 151103	b	b	b	prep.	in	
+151104	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 151104	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 151105	šmˤt	šmˤ[t	/š-m-ʕ/	vb G suffc.	to hear	
 151106	arbˤt	arbˤ/	ảrbʕ	num.	four	
@@ -517,7 +530,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151111	brr	br/	br(r)	n. m. sg.	tin	
 151111	brr	brr/	brr	adj. m. sg.	pure	
 # KTU 1.87 56						
-151112	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+151112	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 151113	š	š/	š	n. m. sg.	ram	
 151114	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 151115	l	l(I)	l (I)	prep.	to	

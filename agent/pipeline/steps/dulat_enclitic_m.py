@@ -6,108 +6,292 @@ import re
 from pathlib import Path
 
 from pipeline.config.dulat_form_note_index import DulatFormNoteIndex
-from pipeline.steps.base import RefinementStep, TabletRow
+from pipeline.steps.base import (
+    RefinementStep,
+    StepResult,
+    TabletRow,
+    is_separator_line,
+    is_unresolved,
+    normalize_separator_row,
+    parse_tsv_line,
+)
+from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.verb_form_encoding_split import (
     _requires_finite_encoding,
     _requires_infinitive_encoding,
     _requires_participle_encoding,
-    _split_semicolon,
     _split_slash_options,
     _to_finite_encoding,
     _to_infinitive_encoding,
     _to_participle_encoding,
 )
 
-_HOMONYM_RE = re.compile(r"\(([IVX]+)\)(?=(?:\[|/))")
+_NUMBER_TOKEN_RE = re.compile(r"(?:sg\.|pl\.|du\.)", flags=re.IGNORECASE)
+_NOUNISH_HEAD_RE = re.compile(r"^\s*(?:n\.|adj\.|num\.)", flags=re.IGNORECASE)
 
 
 class DulatEncliticMFixer(RefinementStep):
     """Apply `~m` when an exact DULAT form note marks enclitic `-m`."""
 
-    def __init__(self, dulat_db: Path, note_index: DulatFormNoteIndex | None = None) -> None:
+    def __init__(
+        self,
+        dulat_db: Path,
+        note_index: DulatFormNoteIndex | None = None,
+        gate: DulatMorphGate | None = None,
+    ) -> None:
         self._note_index = note_index or DulatFormNoteIndex.from_sqlite(dulat_db)
+        self._gate = gate or DulatMorphGate(dulat_db)
 
     @property
     def name(self) -> str:
         return "dulat-enclitic-m"
 
+    def refine_file(self, path: Path) -> StepResult:
+        lines = path.read_text(encoding="utf-8").splitlines()
+        out_lines: list[str] = []
+        group_rows: list[TabletRow] = []
+        group_raws: list[str] = []
+        group_key: tuple[str, str] | None = None
+        rows_processed = 0
+        rows_changed = 0
+
+        def flush_group() -> None:
+            nonlocal group_rows, group_raws, group_key, rows_changed
+            if not group_rows:
+                return
+            refined_rows = self._refine_group(group_rows)
+            refined_lines = [row.to_tsv() for row in refined_rows]
+            if refined_lines != group_raws:
+                rows_changed += max(len(refined_lines), len(group_raws))
+            out_lines.extend(refined_lines)
+            group_rows = []
+            group_raws = []
+            group_key = None
+
+        for raw in lines:
+            if not raw.strip():
+                flush_group()
+                out_lines.append(raw)
+                continue
+            if is_separator_line(raw):
+                flush_group()
+                out_lines.append(normalize_separator_row(raw))
+                continue
+
+            row = parse_tsv_line(raw)
+            if row is None:
+                flush_group()
+                out_lines.append(raw)
+                continue
+
+            rows_processed += 1
+            if is_unresolved(row):
+                flush_group()
+                out_lines.append(raw)
+                continue
+
+            key = (row.line_id.strip(), row.surface.strip())
+            if group_key is None or key == group_key:
+                group_key = key
+                group_rows.append(row)
+                group_raws.append(raw)
+                continue
+
+            flush_group()
+            group_key = key
+            group_rows.append(row)
+            group_raws.append(raw)
+
+        flush_group()
+        path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
+        return StepResult(file=path.name, rows_processed=rows_processed, rows_changed=rows_changed)
+
     def refine_row(self, row: TabletRow) -> TabletRow:
-        if not row.surface or not row.surface.endswith("m"):
-            return row
-        analysis_variants = _split_semicolon(row.analysis)
-        dulat_variants = _split_semicolon(row.dulat)
-        pos_variants = _split_semicolon(row.pos)
-        if not analysis_variants or not dulat_variants:
-            return row
-
-        changed = False
-        out_analysis: list[str] = []
-        for idx, analysis in enumerate(analysis_variants):
-            dulat = (
-                dulat_variants[idx]
-                if idx < len(dulat_variants)
-                else (dulat_variants[0] if dulat_variants else "")
-            )
-            pos = (
-                pos_variants[idx]
-                if idx < len(pos_variants)
-                else (pos_variants[0] if pos_variants else "")
-            )
-            rewritten = self._rewrite_variant(
-                surface=row.surface, analysis=analysis, dulat=dulat, pos=pos
-            )
-            if rewritten != analysis:
-                changed = True
-            out_analysis.append(rewritten)
-
-        if not changed:
-            return row
-
+        refined_rows = self._refine_group([row])
+        if len(refined_rows) == 1:
+            return refined_rows[0]
         return TabletRow(
             line_id=row.line_id,
             surface=row.surface,
-            analysis="; ".join(out_analysis),
-            dulat=row.dulat,
-            pos=row.pos,
-            gloss=row.gloss,
+            analysis="; ".join(item.analysis for item in refined_rows),
+            dulat="; ".join(item.dulat for item in refined_rows),
+            pos="; ".join(item.pos for item in refined_rows),
+            gloss="; ".join(item.gloss for item in refined_rows),
             comment=row.comment,
         )
 
-    def _rewrite_variant(self, *, surface: str, analysis: str, dulat: str, pos: str) -> str:
-        if "~m" in (analysis or ""):
-            return analysis
-        if not self._note_index.has_enclitic_m(surface=surface, dulat_token=dulat):
-            return analysis
+    def _refine_group(self, rows: list[TabletRow]) -> list[TabletRow]:
+        if not rows:
+            return rows
+        surface = rows[0].surface.strip()
+        if not surface or not surface.endswith("m"):
+            return rows
 
-        host_surface = surface[:-1]
-        if not host_surface:
-            return analysis
+        existing_enclitic_variants = {
+            (row.dulat.strip(), row.gloss.strip()) for row in rows if "~m" in (row.analysis or "")
+        }
+        seen: set[tuple[str, str, str, str]] = set()
+        out_rows: list[TabletRow] = []
 
-        host_analysis = _replace_analysis_host(host_surface, analysis)
-        options = _split_slash_options(pos)
-        if any(_requires_infinitive_encoding(option) for option in options):
-            base = _to_infinitive_encoding(host_surface, host_analysis, dulat)
-        elif any(_requires_participle_encoding(option) for option in options):
-            base = _to_participle_encoding(host_surface, host_analysis, dulat)
-        elif any(_requires_finite_encoding(option) for option in options):
-            base = _to_finite_encoding(host_analysis)
-        else:
-            base = host_analysis
+        for row in rows:
+            analysis = row.analysis.strip()
+            dulat = row.dulat.strip()
+            pos = row.pos.strip()
+            gloss = row.gloss.strip()
 
-        if not base or "~m" in base:
-            return analysis
-        return f"{base}~m"
+            note_morphologies = self._note_index.enclitic_m_morphologies_for_surface(
+                surface=surface,
+                dulat_token=dulat,
+            )
+            all_morphologies = self._gate.surface_morphologies(dulat, surface=surface)
+            has_note_backing = bool(note_morphologies)
+            plain_morphologies = {
+                morph.lower().strip()
+                for morph in all_morphologies
+                if morph.lower().strip() not in note_morphologies
+            }
+            has_plain_variant = bool(plain_morphologies)
+
+            if not has_note_backing:
+                _append_group_row(out_rows, seen, row)
+                continue
+
+            enclitic_analysis = _to_enclitic_m_analysis(
+                surface=surface,
+                analysis=analysis,
+                dulat=dulat,
+                pos=pos,
+            )
+            enclitic_pos = _rewrite_pos_for_enclitic_variant(pos, note_morphologies)
+
+            if has_plain_variant:
+                if "~m" not in analysis and (dulat, gloss) not in existing_enclitic_variants:
+                    _append_group_row(
+                        out_rows,
+                        seen,
+                        TabletRow(
+                            line_id=row.line_id,
+                            surface=row.surface,
+                            analysis=enclitic_analysis,
+                            dulat=dulat,
+                            pos=enclitic_pos,
+                            gloss=gloss,
+                            comment=row.comment,
+                        ),
+                    )
+                    existing_enclitic_variants.add((dulat, gloss))
+                _append_group_row(out_rows, seen, row)
+                continue
+
+            _append_group_row(
+                out_rows,
+                seen,
+                TabletRow(
+                    line_id=row.line_id,
+                    surface=row.surface,
+                    analysis=enclitic_analysis,
+                    dulat=dulat,
+                    pos=enclitic_pos,
+                    gloss=gloss,
+                    comment=row.comment,
+                ),
+            )
+
+        return out_rows
 
 
-def _replace_analysis_host(surface: str, analysis: str) -> str:
+def _append_group_row(
+    out_rows: list[TabletRow],
+    seen: set[tuple[str, str, str, str]],
+    row: TabletRow,
+) -> None:
+    key = (
+        row.analysis.strip(),
+        row.dulat.strip(),
+        row.pos.strip(),
+        row.gloss.strip(),
+    )
+    if key in seen:
+        return
+    seen.add(key)
+    out_rows.append(row)
+
+
+def _to_enclitic_m_analysis(*, surface: str, analysis: str, dulat: str, pos: str) -> str:
+    text = _normalize_variant_encoding(surface=surface, analysis=analysis, dulat=dulat, pos=pos)
+    if not text or "~m" in text:
+        return text
+
+    homonym_slash_match = re.search(r"m(\([IVX]+\)/)(?=$|[+~])", text)
+    if homonym_slash_match:
+        start = homonym_slash_match.start()
+        suffix = homonym_slash_match.group(1)
+        return f"{text[:start]}{suffix}~m"
+
+    slash_match = re.search(r"m(?=/)", text)
+    if slash_match:
+        start = slash_match.start()
+        return f"{text[:start]}{text[start + 1 :]}~m"
+
+    for old, new in (("[m", "[~m"), ("/m", "/~m"), ("m[", "[~m")):
+        if old in text:
+            return text.replace(old, new, 1)
+
+    if text.endswith("m"):
+        return f"{text[:-1]}~m"
+
+    return f"{text}~m"
+
+
+def _normalize_variant_encoding(*, surface: str, analysis: str, dulat: str, pos: str) -> str:
     text = (analysis or "").strip()
-    if not text:
-        return surface
-    cut_points = [idx for idx in (text.find("["), text.find("/")) if idx != -1]
-    if not cut_points:
-        return surface
-    cut_idx = min(cut_points)
-    suffix = text[cut_idx:]
-    homonym_match = _HOMONYM_RE.search(text)
-    homonym = homonym_match.group(0) if homonym_match else ""
-    return f"{surface}{homonym}{suffix}"
+    host_surface = surface[:-1] if surface.endswith("m") else surface
+    options = _split_slash_options(pos)
+    if any(_requires_infinitive_encoding(option) for option in options):
+        return _to_infinitive_encoding(host_surface, _strip_terminal_surface_m(text), dulat)
+    if any(_requires_participle_encoding(option) for option in options):
+        return _to_participle_encoding(host_surface, _strip_terminal_surface_m(text), dulat)
+    if any(_requires_finite_encoding(option) for option in options):
+        return _to_finite_encoding(text)
+    return text
+
+
+def _rewrite_pos_for_enclitic_variant(pos: str, note_morphologies: set[str]) -> str:
+    value = (pos or "").strip()
+    if not value or not _NOUNISH_HEAD_RE.search(value):
+        return value
+
+    numbers = _number_markers_from_morphologies(note_morphologies)
+    if not numbers and any("suff" in morph for morph in note_morphologies):
+        numbers = ["sg."]
+    if not numbers:
+        return value
+
+    head, sep, rest = value.partition(",")
+    base_option = head.split("/", 1)[0].strip()
+    base_head = _NUMBER_TOKEN_RE.sub("", base_option)
+    base_head = re.sub(r"\s{2,}", " ", base_head).strip()
+    new_head = f"{base_head} {' / '.join(numbers)}".strip()
+    if not sep:
+        return new_head
+    return f"{new_head}, {rest.strip()}"
+
+
+def _number_markers_from_morphologies(morphologies: set[str]) -> list[str]:
+    numbers: list[str] = []
+    joined = " ".join(sorted(morphologies))
+    if re.search(r"\bsg\.", joined, flags=re.IGNORECASE):
+        numbers.append("sg.")
+    if re.search(r"\bpl\.", joined, flags=re.IGNORECASE):
+        numbers.append("pl.")
+    if re.search(r"\bdu\.", joined, flags=re.IGNORECASE):
+        numbers.append("du.")
+    return numbers
+
+
+def _strip_terminal_surface_m(text: str) -> str:
+    value = (text or "").strip()
+    for old, new in (("m[/", "[/"), ("m[", "["), ("m/", "/")):
+        if old in value:
+            return value.replace(old, new, 1)
+    return value

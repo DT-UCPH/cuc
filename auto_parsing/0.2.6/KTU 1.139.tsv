@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154867	ilib	ilib(I)/	ỉlỉb (I)	DN	father god	
 # KTU 1.139 3						
 154868	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-154868	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+154868	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.139 4						
 154869	x	?	?	?	?	
 154870	wṯn	?	?	?	?	DULAT: NOT FOUND
@@ -15,6 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154872	w	w	w	conj.	and	
 154873	š	š/	š	n. m. sg.	ram	
 # KTU 1.139 6						
+154874	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 154874	il	il(I)/	ỉl (I)	n. m.	god	
 154875	tˤḏr	tˤḏr/	tʕḏr	n. m. sg.	help	
 154876	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
@@ -66,7 +67,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154897	š	š/	š	n. m. sg.	ram	
 # KTU 1.139 17						
 154898	b	b	b	prep.	in	
-154899	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+154899	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+154899	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.139 18						
 154900	xm	?	?	?	?	DULAT: NOT FOUND
 154901	ksp	ksp/	ksp	n. m. sg.	silver	

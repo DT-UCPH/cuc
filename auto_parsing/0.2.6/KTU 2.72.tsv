@@ -22,7 +22,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158974	ly	l(I)+y	l (I)	prep.	to	
 158975	umy	um/y	ủm	n. f. sg.	mother	
 158976	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
-158977	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+158977	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+158977	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.72 6						
 158978	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 158979	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
@@ -83,7 +84,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159009	tlkn	hlk[n	/h-l-k/	vb G prefc.	to go	
 159010	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 159011	ṯnm	ṯn(I)/	ṯn (I)	num.	two	
-159011	ṯnm	ṯn[~m	/ṯ-n-y/	vb G impv.	to repeat	
+159011	ṯnm	ṯny[~m	/ṯ-n-y/	vb G impv.	to repeat	
 # KTU 2.72 16						
 159012	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 159013	w	w	w	conj.	and	

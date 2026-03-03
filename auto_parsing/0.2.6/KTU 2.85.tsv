@@ -33,9 +33,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159492	km	+km, +km=	-km			
 # KTU 2.85 6						
 159493	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
-159494	lkm	lk~m	l (I)	prep.	to	
+159494	lkm	l(I)+k~m	l (I)	prep.	to	
 # KTU 2.85 7						
-159495	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+159495	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+159495	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 159496	l	l(I)	l (I)	prep.	to	
 159496	l	l(II)	l (II)	adv.	no	
 159496	l	l(III)	l (III)	functor	certainly	
@@ -101,6 +102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159530	ank	ank	ảnk	pers. pn.	I	
 159531	bxxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 22						
+159532	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 159532	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 159533	ḫytr	ḫytr/	ḫytr	MN		
 159534	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
@@ -121,7 +123,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.85 26						
 159542	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 159543	lk	l(I)+k	l (I)	prep.	to	
-159544	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+159544	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+159544	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.85 27						
 159545	tšlm	!t!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 159546	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	

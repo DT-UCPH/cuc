@@ -29,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 8						
 154577	w	w	w	conj.	and	
 154578	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-154578	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+154578	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.130 9						
 154579	l	l(I)	l (I)	prep.	to	
 154579	l	l(III)	l (III)	functor	certainly	
@@ -46,6 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 12						
 154588	l	l(I)	l (I)	prep.	to	
 154588	l	l(III)	l (III)	functor	certainly	
+154589	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 154589	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 154590	š	š/	š	n. m. sg.	ram	
 # KTU 1.130 13						
@@ -66,10 +67,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 16						
 154598	b	b	b	prep.	in	
 154599	ymmlatalpm	?	?	?	?	DULAT: NOT FOUND
-154600	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+154600	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 # KTU 1.130 17						
 154601	nbšt	nbš(t/t	nbšt	n. f. sg.	living being(s)	
 154601	nbšt	nbš(t/t=	nbšt	n. f. sg.	living being(s)	
+154602	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 154602	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 154603	lbˤl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 18						
@@ -110,7 +112,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 24						
 154629	w	w	w	conj.	and	
 154630	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-154630	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+154630	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 154631	l	l(I)	l (I)	prep.	to	
 154632	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 154633	ugrt	ugrt/	ủgrt	TN	Ugarit	

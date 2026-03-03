@@ -1,6 +1,19 @@
 # Changelog
 
 ## 2026-03-03
+- Made DULAT note-backed `-m` handling ambiguity-aware across the corpus:
+  - `pipeline/config/dulat_form_note_index.py` now indexes both exact `encl. -m` form notes and note-listed extended `...m` surfaces.
+  - `pipeline/steps/dulat_enclitic_m.py` now preserves plain surface matches when DULAT attests both a regular form and an `encl. -m` form for the same surface (for example `ilm -> il(I)/m` and `il(I)/~m`) instead of overwriting the plain row with `...m~m`.
+  - the enclitic step now preserves hidden radicals and finite prefixes when building `~m` analyses (for example `ymtm -> !y!mt[~m`, `atm -> ʔtw[~m`, `bkm -> !!bk(y[/~m`).
+  - the step is now file-group aware, so late unwrapped sibling rows do not generate duplicate `~m` rows for already-attested ambiguities like `šlmm`.
+  - `pipeline/steps/deictic_functor_enclitic_m.py` now accepts DULAT note-listed extended forms such as `hlm`, not just exact form-table matches, and restores `hl~m`.
+  - `pipeline/steps/onomastic_gloss.py` now appends missing onomastic variants from `onomastic_gloss_overrides.tsv` only when the tablet surface exactly matches the declared DULAT token (for example `špš` now yields both the DN and common-noun rows, while inflected forms like `ilm` do not spuriously gain DN rows).
+  - added/updated regressions in:
+    - `tests/test_dulat_enclitic_m.py`
+    - `tests/test_deictic_functor_enclitic_m.py`
+    - `tests/test_onomastic_gloss_overrides_format.py`
+  - re-ran the full `auto_parsing/0.2.6` pipeline after the fix.
+
 - Added DULAT-note-backed enclitic `-m` handling so forms like `/b-k-y/` `bkm` rewrite to `!!bk(y[/~m` and nominal note-backed forms rewrite to `.../~m` instead of absorbing `m` into the host lexeme.
 
 ## 2026-03-03

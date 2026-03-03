@@ -24,7 +24,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145159	y	+y, [y	-y (I)	prep. functor	my	
 145159	y	~y	-y (II)	prep. functor	indeed	
 145159	y	y	y	prep. functor	oh!	
-145160	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+145160	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+145160	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 145161	xxxxxxxx	?	?	?	?	
 # KTU 1.18 I:8						
 145162	xxxxxx	?	?	?	?	
@@ -72,6 +73,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145195	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
 145195	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
 145196	lṭpn	lṭpn/	lṭpn	adj. m. sg.	Benevolent	
+145197	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 145197	il	il(I)/	ỉl (I)	n. m.	god	
 145198	dpid	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 I:16						
@@ -203,6 +205,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145288	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 145289	zbl	zbl(I)/	zbl (I)	n. m. sg. / n. m. pl. cstr.	prince	
 145289	zbl	zbl(III)/	zbl (III)	n. m. sg.	one carried	
+145290	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 145290	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 145291	d	d	d	det. or rel. functor	the one(s) of	
 145292	mgdl	mgdl/	mgdl	n. m. sg.	tower	
@@ -272,11 +275,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145336	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 145337	zbl	zbl(I)/	zbl (I)	n. m. sg. / n. m. pl. cstr.	prince	
 145337	zbl	zbl(III)/	zbl (III)	n. m. sg.	one carried	
+145338	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 145338	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 # KTU 1.18 IV:9						
 145339	ik	ik	ỉk	interr. functor	how?	
 145340	al	al(II)	ảl (II)	pos. functor	surely	
 145341	yḥdṯ	!y!ḥdṯ[	/ḥ-d-ṯ/	vb G prefc.	to be	
+145342	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 145342	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 145343	b	b	b	prep.	in	
 145344	qrn	qrn/	qrn	n. f. sg. / n. f. du.	horn	
@@ -513,7 +518,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145488	tˤdbnh	!t!ˤdb[nh	/ʕ-d-b/	vb G prefc. / vb G suffc.	to leave > to put in	
 145489	hlmn	hlm[n	/h-l-m/	vb G prefc. / vb G suffc.	to hit	
 145490	ṯnm	ṯn(I)/	ṯn (I)	num.	two	
-145490	ṯnm	ṯn[~m	/ṯ-n-y/	vb G impv.	to repeat	
+145490	ṯnm	ṯny[~m	/ṯ-n-y/	vb G impv.	to repeat	
 145491	qdqd	qdqd/	qdqd	n. m. sg.	skull	
 # KTU 1.18 IV:34						
 145492	ṯlṯid	ṯlṯid	ṯlṯỉd	adv.	three times	

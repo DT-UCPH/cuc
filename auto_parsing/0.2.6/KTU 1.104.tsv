@@ -3,7 +3,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152627	iršt	irš(t/t	ỉršt	n. f. sg.	request	
 # KTU 1.104 2						
 152628	d	d	d	det. or rel. functor	the one(s) of	
-152629	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+152629	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+152629	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 152630	pd	pd(I)/	pd (I)	n. m. sg.	lock (of hair)	
 # KTU 1.104 3						
 152631	d	d	d	det. or rel. functor	the one(s) of	
@@ -81,7 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152671	ḥdṯn	ḥdṯn/	ḥdṯn	PN	born at the time of the new moon	
 # KTU 1.104 18						
 152672	ṯnm	ṯn(I)/	ṯn (I)	num.	two	
-152672	ṯnm	ṯn[~m	/ṯ-n-y/	vb G impv.	to repeat	
+152672	ṯnm	ṯny[~m	/ṯ-n-y/	vb G impv.	to repeat	
 152673	w	w	w	conj.	and	
 152674	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m.	new moon	
 152674	ḥdṯh	ḥdṯ(I)/+h	ḥdṯ (I)	adj.	new	
@@ -97,7 +98,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152680	wm	w+m(I)	w	conj., morph.	and	
 152681	bt	bt(II)/	bt (II)	n. m. sg.	house	
 152681	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-152682	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+152682	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+152682	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 152683	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 1.104 22						
 152684	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	

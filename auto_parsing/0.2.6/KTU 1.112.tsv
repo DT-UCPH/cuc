@@ -1,6 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 1						
 153585	b	b	b	prep.	in	
+153586	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 153586	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 153587	ḫyr	ḫyr/	ḫyr	MN	aller de ci de là	
 153588	b	b	b	prep.	in	
@@ -33,7 +34,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153606	šˤṣrm	?	?	?	?	DULAT: NOT FOUND
 153607	linš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 6						
-153608	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+153608	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+153608	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 153609	w	w	w	conj.	and	
 153610	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 153610	bn	bn(II)	bn (II)	prep.	between	
@@ -53,11 +55,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153618	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 153618	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 153619	tˤln	ˤly[n	/ʕ-l-y/	vb G prefc.	to go up	
-153620	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+153620	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+153620	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 153621	bḫmn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 9						
 153622	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 153622	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
+153623	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 153623	špš	špš/	špš	n. f. sg.	sun	
 153624	wḥl	?	?	?	?	DULAT: NOT FOUND
 153625	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
@@ -95,6 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153646	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 153646	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 153647	ṣba	ṣb(u(II)/&a	ṣbủ (II)	n. m. sg.	setting	
+153648	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 153648	špš	špš/	špš	n. f. sg.	sun	
 153649	wḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 15						
@@ -154,6 +159,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153679	šrh	šry[	/š-r-y/w/	vb G suffc.	to release	
 153679	šrh	!!šrh[/	/š-r-y/w/	vb G inf.	to release	
 153680	šnpt	šnp(t/t	šnpt	n. f. sg.	wave- offering	
+153681	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153681	il	il(I)/	ỉl (I)	n. m.	god	
 153682	šbˤl	šbˤl/	šbʕl	PN	šbʿl	
 153683	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	

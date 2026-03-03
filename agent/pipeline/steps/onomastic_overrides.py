@@ -105,13 +105,16 @@ class OnomasticOverrideStore:
         return " ".join((value or "").translate(_KEY_NORMALIZE_MAP).split())
 
     def get_gloss(self, dulat_token: str) -> str | None:
-        entry = self._entries.get(self.normalize_key(dulat_token))
+        entry = self.get_entry(dulat_token)
         if entry is None:
             return None
         return entry.gloss or None
 
+    def get_entry(self, dulat_token: str) -> OnomasticOverrideEntry | None:
+        return self._entries.get(self.normalize_key(dulat_token))
+
     def is_feminine(self, dulat_token: str) -> bool:
-        entry = self._entries.get(self.normalize_key(dulat_token))
+        entry = self.get_entry(dulat_token)
         if entry is None:
             return False
         return entry.is_feminine

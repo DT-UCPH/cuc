@@ -50,6 +50,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 13						
 156021	g	g/	g	n. m.	(loud) voice	
 # KTU 1.176 14						
+156022	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 156022	il	il(I)/	ỉl (I)	n. m.	god	
 156023	w	w	w	conj.	and	
 # KTU 1.176 15						
@@ -57,7 +58,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156025	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
 # KTU 1.176 16						
 156026	pat	pit/	pỉt	n. m. pl.	temple	
-156027	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+156027	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+156027	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.176 17						
 156028	tm	tm/	tm	adj. m. sg.	complete	
 156029	ḥwy	ḥw(I)[:d+y	/ḥ-w/y-y/ (I)	vb D impv.	to live	
@@ -71,7 +73,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156034	adr	adr(I)/	ảdr (I)	adj. m. or n. m. sg.	wonderful	
 156035	ṣr	ṣr/	ṣr	TN	Tyre	
 # KTU 1.176 20						
-156036	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+156036	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+156036	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 156037	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
 156037	ḥrn	ḥr(I)/+n	ḥr (I)	n. m.	intestine(s)	
 # KTU 1.176 21						

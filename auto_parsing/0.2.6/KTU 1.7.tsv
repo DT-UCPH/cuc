@@ -229,7 +229,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141622	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc.	to know	
 141623	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
 141624	atm	at(I)	ảt (I)	pers. pn.	you	
-141624	atm	at[~m	/ʔ-t-w/	vb G impv.	to come	
+141624	atm	ʔtw[~m	/ʔ-t-w/	vb G impv.	to come	
 141624	atm	atm	ảtm	pers. pn.	you	
 # KTU 1.7 34						
 141625	w	w	w	conj.	and	
@@ -282,12 +282,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141655	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 141656	x	?	?	?	?	
 # KTU 1.7 40						
-141657	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+141657	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+141657	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 141658	w	w	w	conj.	and	
 141659	t	/t, /t=				
 141659	t	[t, [t=, [t==, [t===				
 # KTU 1.7 41						
 141660	mx	?	?	?	?	DULAT: NOT FOUND
+141661	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 141661	mt	mt(II)/	mt (II)	n. m. sg.	death	
 141661	mt	mt[	/m-t/	vb G suffc.	to die	
 141661	mt	mt[/	/m-t/	vb G ptcpl.	to die	

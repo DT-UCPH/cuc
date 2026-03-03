@@ -30,12 +30,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146863	ṯkm	ṯkm/	ṯkm	n. m. sg.	shoulder	
 146864	aḫm	aḫ(I)/m	ảḫ (I)	n. m. pl. / n. m. du.	brother (by blood)	
 146865	qym	qym(I)/	qym (I)	n. m. pl.	assistant	
+146866	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 146866	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.22 I:6						
 146867	blsmt	?	?	?	?	DULAT: NOT FOUND
 146868	ṯm	ṯm	ṯm	adv.	there	
 146869	yṯˤbš	?	?	?	?	DULAT: NOT FOUND
 146870	šm	šm(I)/	šm (I)	n. m. sg.	name	
+146871	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 146871	il	il(I)/	ỉl (I)	n. m.	god	
 146872	mtm	mt(III)/m	mt (III)	n. m. du.	man	
 # KTU 1.22 I:7						
@@ -44,6 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146874	brkn	!!brk(II)[/n	/b-r-k/ (II)	vb D inf.	to be blessed	
 146875	šm	š/m	š	n. m. du.	ram	
 146875	šm	šm(I)/	šm (I)	n. m. sg.	name	
+146876	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 146876	il	il(I)/	ỉl (I)	n. m.	god	
 146877	ġzrm	ġzr/m	ġzr	n. m. pl. / n. m. du.	lad	
 # KTU 1.22 I:8						
@@ -91,7 +94,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:13						
 146907	w	w	w	conj.	and	
 146908	mri	mr(u(I)/&i	mrủ (I)	adj. m. or n. m. sg. / adj. m. or n. m. pl. cstr.	fattened	
-146909	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+146909	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+146909	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 146910	ˤglm	ˤgl(I)/+m(I)	ʕgl (I)	n. m.	calf	
 146911	dt	d	d	det. or rel. functor	the one(s) of	
 146912	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
@@ -145,6 +149,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146948	ṭṣ	ṭl/	ṭl	n. m.	dew	
 146949	mrṯ	mrṯ(I)/	mrṯ (I)	n. m. sg.	must	
 146950	yḥrṯ	!y!ḥrṯ[	/ḥ-r-ṯ/	vb G prefc.	to plough	
+146951	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 146951	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.22 I:21						
 146952	hn	hn	hn	functor	behold!	

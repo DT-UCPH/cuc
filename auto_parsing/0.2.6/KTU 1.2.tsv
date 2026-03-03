@@ -30,6 +30,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136046	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136046	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136046	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136047	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136047	nhr	nhr/	nhr	n. m. sg.	river	
 136048	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
 # KTU 1.2 I:8						
@@ -90,6 +91,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136087	ll	ll(I)/	ll (I)	n. m. sg.	night	
 136088	l	l(I)	l (I)	prep.	to	
 136089	pˤn	pˤn/	pʕn	n. f.	at the feet of	
+136090	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136090	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.2 I:15						
 136091	al	al(II)	ảl (II)	pos. functor	surely	
@@ -116,6 +118,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136105	l	l(III)	l (III)	functor	certainly	
 136106	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 136107	ab	ab/	ảb	n. m. sg.	father	
+136108	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136108	il	il(I)/	ỉl (I)	n. m.	god	
 136109	ṯny	ṯny[	/ṯ-n-y/	vb G impv.	to repeat	
 136109	ṯny	!!ṯny[/	/ṯ-n-y/	vb G inf.	to repeat	
@@ -132,11 +135,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136117	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136117	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136117	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136118	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136118	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.2 I:18						
 136119	tn	(ytn[	/y-t-n/	vb	give	
 136119	tn	(ytn[/	/y-t-n/	vb	give	
-136120	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136120	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136120	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136121	d	d	d	det. or rel. functor	the one(s) of	
 136122	tqh	yqy[	/y-q-y/	vb G prefc. / vb G suffc.	to protect	
 136123	d	d	d	det. or rel. functor	the one(s) of	
@@ -151,7 +156,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 I:19						
 136130	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 136131	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
-136132	arṯm	arṯ[m~m	/y-r-ṯ/	vb G prefc. / vb G suffc.	to inherit	
+136132	arṯm	yrṯ[~m	/y-r-ṯ/	vb G prefc. / vb G suffc.	to inherit	
 136133	pḏh	pḏ/+h	pḏ	n. m.	gold	
 136134	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc.	to go	
 136135	ġlmm	ġlm/+m(I)	ġlm	n. m.	boy	
@@ -174,7 +179,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136146	phr	phr	phr	→	?	
 136147	mˤd	mˤd/	mʕd	n. m. sg.	convention	
 136148	ap	ap(I)	ảp (I)	adv./conj.	also	
-136149	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136149	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136149	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136150	lḥm	lḥm(I)[	/l-ḥ-m/ (I)	vb G suffc. / vb G impv.	to eat	
 136150	lḥm	!!lḥm(I)[/	/l-ḥ-m/ (I)	vb G inf.	to eat	
 # KTU 1.2 I:21						
@@ -194,10 +200,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136160	qm	qm[	/q-m/	vb G suffc. / vb G impv.	to stand up	
 136160	qm	qm[/	/q-m/	vb G act. ptcpl. sg.	to stand up	
 136161	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+136162	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136162	il	il(I)/	ỉl (I)	n. m.	god	
 136163	hlm	hlm	hlm	conj. functor	and so	
 # KTU 1.2 I:22						
-136164	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136164	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136164	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136165	tphhm	phy[hm	/p-h-y/	vb G suffc.	to see	
 136166	tphn	phy[n	/p-h-y/	vb G suffc.	to see	
 136167	mlak	mlak/	mlảk	n. m. sg. / n. m. pl. / n. m. du.	messenger	
@@ -207,11 +215,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136170	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136170	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136170	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136171	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136171	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.2 I:23						
 136172	tġly	!t!ġly[	/ġ-l-y/	vb	to lose the proper aspect	
 136172	tġly	!t!ġl(y[+y	/ġ-l-y/	vb	to lose the proper aspect	
-136173	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136173	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136173	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136174	rišthm	riš(I)&t/+hm	rỉš (I)	n. m.	head	
 136175	l	l(I)	l (I)	prep.	to	
 136176	ẓr	ẓr(I)/	ẓr (I)	n. m.	upon	
@@ -229,7 +239,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136185	lm	l(I)	l (I)	prep.	to	
 136186	ġltm	ġly[m	/ġ-l-y/	vb	to lose the proper aspect	
 136186	ġltm	ġlt/+m(I)	ġlt	n. f.	prostration	
-136187	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136187	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136187	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136188	rišt	riš(I)/t=	rỉš (I)	n. m. pl.	head	
 # KTU 1.2 I:25						
 136189	km	k(III)	k (III)	functor	when	
@@ -246,7 +257,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136196	zblkm	zbl(II)/+km	zbl (II)	n. m. sg.	principality	
 136197	aḥd	aḥd/	ảḥd	adj. sg./num.	one	
 # KTU 1.2 I:26						
-136198	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136198	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136198	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136199	tˤny	ˤnw[y:d	/ʕ-n-w/	vb D prefc.	to be / remain depressed	
 136200	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
 136201	mlak	mlak/	mlảk	n. m. sg. / n. m. pl. / n. m. du.	messenger	
@@ -256,10 +268,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136204	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136204	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136204	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136205	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136205	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.2 I:27						
 136206	šu	nšʔ[	/n-š-ʔ/	vb G impv.	to raise	
-136207	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136207	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136207	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136208	raštkm	riš(I)/+km	rỉš (I)	n. m.	head	
 136209	l	l(I)	l (I)	prep.	to	
 136210	ẓr	ẓr(I)/	ẓr (I)	n. m.	upon	
@@ -278,10 +292,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136221	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136221	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136221	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136222	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136222	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.2 I:29						
 136223	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
-136224	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136224	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136224	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136225	rašthm	riš(I)/+hm	rỉš (I)	n. m.	head	
 136226	l	l(I)	l (I)	prep.	to	
 136227	ẓr	ẓr(I)/	ẓr (I)	n. m.	upon	
@@ -299,9 +315,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136237	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136237	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136237	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136238	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136238	nhr	nhr/	nhr	n. m. sg.	river	
 136239	l	l(I)	l (I)	prep.	to	
 136240	pˤn	pˤn/	pʕn	n. f.	at the feet of	
+136241	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136241	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.2 I:31						
 136242	l	l(III)	l (III)	functor	certainly	
@@ -331,6 +349,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136260	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 136261	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 136262	abh	ab/+h	ảb	n. m.	father	
+136263	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136263	il	il(I)/	ỉl (I)	n. m.	god	
 136264	tḥm	tḥm/	tḥm	n. m. sg.	message	
 136265	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -338,10 +357,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 I:34						
 136267	adnkm	adn(I)/+km	ảdn (I)	n. m.	lord	
 136268	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
+136269	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136269	nhr	nhr/	nhr	n. m. sg.	river	
 136270	tn	(ytn[	/y-t-n/	vb	give	
 136270	tn	(ytn[/	/y-t-n/	vb	give	
-136271	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136271	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136271	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136272	d	d	d	det. or rel. functor	the one(s) of	
 136273	tqh	yqy[	/y-q-y/	vb G prefc. / vb G suffc.	to protect	
 136274	d	d	d	det. or rel. functor	the one(s) of	
@@ -358,7 +379,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136281	bn	bn(II)	bn (II)	prep.	between	
 136281	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 136282	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
-136283	arṯm	arṯ[m~m	/y-r-ṯ/	vb G prefc. / vb G suffc.	to inherit	
+136283	arṯm	yrṯ[~m	/y-r-ṯ/	vb G prefc. / vb G suffc.	to inherit	
 136284	pḏh	pḏ/+h	pḏ	n. m.	gold	
 # KTU 1.2 I:36						
 136285	w	w	w	conj.	and	
@@ -367,12 +388,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136286	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
 136287	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 136288	abh	ab/+h	ảb	n. m.	father	
+136289	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136289	il	il(I)/	ỉl (I)	n. m.	god	
 136290	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 136291	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 136291	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 136292	y	y	y	prep. functor	oh!	
-136293	ymm	ym(II)/~m	ym (II)	n. m. sg.	sea	
+136293	ymm	y(II)/~m	ym (II)	n. m. sg.	sea	
 136294	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 136295	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 136295	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
@@ -387,7 +409,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136301	ybl	!y!(ybl[	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
 136302	argmnk	argmn/+k	ả/ỉrgmn	n. m.	payment of tribute to the Hittite court	
 136303	k	k(I)	k (I)	prep.	like	
-136304	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136304	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136304	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.2 I:38						
 136305	xxxxybl	?	?	?	?	DULAT: NOT FOUND
 136306	k	+k	-k (I)			
@@ -435,6 +458,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136334	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136334	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136334	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136335	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136335	nhr	nhr/	nhr	n. m. sg.	river	
 136336	mlak	mlak/	mlảk	n. m. sg. / n. m. pl. / n. m. du.	messenger	
 136337	mṭḫr	mṭḫr/	mṭḫr	n. m.	?	
@@ -472,6 +496,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136361	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136361	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136361	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136362	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136362	nhr	nhr/	nhr	n. m. sg.	river	
 136363	xxxxxxx	?	?	?	?	
 # KTU 1.2 I:45						
@@ -487,6 +512,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136371	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136371	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
 # KTU 1.2 I:46						
+136372	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136372	nhr	nhr/	nhr	n. m. sg.	river	
 136373	xxxšmˤ	?	?	?	?	DULAT: NOT FOUND
 136374	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
@@ -562,7 +588,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136413	l	l(III)	l (III)	functor	certainly	
 136414	rḥq	rḥq[	/r-ḥ-q/	vb G impv.	to go away	
 136414	rḥq	rḥq/	rḥq	adj. m. sg.	distant	
-136415	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136415	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136415	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136416	ḥkpt	ḥkpt/	ḥkpt	TN	ḥkpt	
 136417	l	l(I)	l (I)	prep.	to	
 136417	l	l(II)	l (II)	adv.	no	
@@ -593,6 +620,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136430	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 136431	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
 136432	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+136433	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136433	il	il(I)/	ỉl (I)	n. m.	god	
 136434	mbk	mbk/	mbk	n. m. sg.	source	
 136435	nhrm	nhr/+m(I)	nhr	n. m.	river	
@@ -603,6 +631,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 III:5						
 136439	ygly	!y!](n]gly[	/g-l-y/	vb G prefc. / vb N prefc.	to present oneself	
 136440	ḏl	?	?	?	?	DULAT: NOT FOUND
+136441	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136441	il	il(I)/	ỉl (I)	n. m.	god	
 136442	w	w	w	conj.	and	
 136443	ybu	!y!b(ʔ[&u	/b-ʔ/	vb G prefc.	to enter	
@@ -614,6 +643,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136447	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 136448	l	l(I)	l (I)	prep.	to	
 136449	pˤn	pˤn/	pʕn	n. f.	at the feet of	
+136450	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 136450	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.2 III:6						
 136451	yhbr	!y!hbr[	/h-b-r/	vb G prefc.	to bow	
@@ -638,8 +668,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136467	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136467	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136467	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136468	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136468	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.2 III:8						
+136469	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136469	nhr	nhr/	nhr	n. m. sg.	river	
 136470	tk	tk/	tk	n. m.	centre	
 136471	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc.	to go	
@@ -662,6 +694,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136482	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136482	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136482	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136483	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136483	nhr	nhr/	nhr	n. m. sg.	river	
 136484	b	b	b	prep.	in	
 136485	tk	tk/	tk	n. m.	centre	
@@ -699,7 +732,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136506	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
 136506	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
 136506	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
-136507	ymm	ym(II)/~m	ym (II)	n. m. sg.	sea	
+136507	ymm	y(II)/~m	ym (II)	n. m. sg.	sea	
 # KTU 1.2 III:12						
 136508	bˤlb	?	?	?	?	DULAT: NOT FOUND
 136509	ym	ym(I)/	ym (I)	n. m. sg.	day	
@@ -714,7 +747,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136516	t	/t, /t=				
 136516	t	[t, [t=, [t==, [t===				
 # KTU 1.2 III:13						
-136517	ḥrḥrtm	ḥrḥrt/m~m	ḥrḥrt	n. f. sg. / n. f. du.	crimson red	
+136517	ḥrḥrtm	ḥrḥrt/~m	ḥrḥrt	n. f. sg. / du.	crimson red	
 136518	w	w	w	conj.	and	
 136519	dšxnxxxišt	?	?	?	?	DULAT: NOT FOUND
 136520	ašthxxxišt	?	?	?	?	DULAT: NOT FOUND
@@ -722,7 +755,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136521	y	+y, [y	-y (I)	prep. functor	my	
 136521	y	~y	-y (II)	prep. functor	indeed	
 136521	y	y	y	prep. functor	oh!	
-136522	yblmm	yblm(III)/~m	ybl (III)	n. m. pl.	?	
+136522	yblmm	ybl(III)/~m	ybl (III)	n. m. pl.	?	
 136523	ubl	?	?	?	?	DULAT: NOT FOUND
 136524	xxxṯxxk	?	?	?	?	DULAT: NOT FOUND
 136525	yrdxxxixxxx	?	?	?	?	DULAT: NOT FOUND
@@ -735,7 +768,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136528	nn	qn/+n	qn	n. m.	cane	
 136528	nn	gr[	/g-r(-y)/	vb	to attack	
 136529	nrt	nr(t(I)/t	nrt (I)	n. f. sg.	lantern	
-136530	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136530	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136530	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+136531	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 136531	špš	špš/	špš	n. f. sg.	sun	
 136532	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
 136533	gh	ytn[	/y-t-n/	vb	to give	
@@ -763,6 +798,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136549	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136549	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136549	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136550	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136550	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.2 III:17						
 136551	ik	ik	ỉk	interr. functor	how?	
@@ -817,7 +853,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136584	km	k(IV)	k (IV)	adv.	thus	
 136584	km	km	km	prep./conj./adv.		
 136584	km	+km, +km=	-km			
-136585	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136585	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136585	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136586	w	w	w	conj.	and	
 136587	ḥẓr	ḥẓr/	ḥẓr	n. m. sg.	mansion	
 136588	kbn	kb(I)/+n	kb (I)	adj. m.	sewn	
@@ -844,6 +881,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136601	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136601	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136601	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136602	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136602	nhr	nhr/	nhr	n. m. sg.	river	
 136603	yṯir	ṯʔr[r:d	/ṯ-ʔ-r/	vb G prefc. / vb D prefc.	to stand surety for	
 136604	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
@@ -861,6 +899,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136613	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136613	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136613	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136614	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136614	nhr	nhr/	nhr	n. m. sg.	river	
 136615	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 136616	wim	?	?	?	?	DULAT: NOT FOUND
@@ -874,7 +913,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136622	lk	l(I)+k	l (I)	prep.	to	
 136623	km	k(I)	k (I)	prep.	like	
 # KTU 1.2 III:23						
-136624	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+136624	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+136624	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136625	xx	?	?	?	?	
 136626	xx	?	?	?	?	
 136627	xx	?	?	?	?	
@@ -884,6 +924,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136630	ym	ym(I)/	ym (I)	n. m. sg.	day	
 136630	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 136631	yṯṯbṯpṭ	?	?	?	?	DULAT: NOT FOUND
+136632	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136632	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.2 III:24						
 136633	x	?	?	?	?	
@@ -938,6 +979,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136674	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 1.2 IV:4						
 136675	xxxm	?	?	?	?	DULAT: NOT FOUND
+136676	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136676	nhr	nhr/	nhr	n. m. sg.	river	
 136677	tlˤm	tlˤ/	tlʕ	n. m. sg.	high part	
 136678	ṯm	ṯm	ṯm	adv.	there	
@@ -1003,7 +1045,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136721	ht	ht	ht	adv.	here	
 136722	ibk	ib(I)/+k	ỉb (I)	n. m.	enemy	
 # KTU 1.2 IV:9						
-136723	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
+136723	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 136724	ht	ht	ht	adv.	here	
 136725	ibk	ib(I)/+k	ỉb (I)	n. m.	enemy	
 136726	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
@@ -1040,6 +1082,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136751	l	l(III)	l (III)	functor	certainly	
 136752	ksih	ksi/+h	ks/śủ	n. f.	seat	
 # KTU 1.2 IV:13						
+136753	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136753	nhr	nhr/	nhr	n. m. sg.	river	
 136754	l	l(I)	l (I)	prep.	to	
 136755	kḥṯ	kḥṯ/	kḥṯ	n. m. sg.	throne	
@@ -1069,6 +1112,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136771	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136771	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136771	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136772	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136772	nhr	nhr/	nhr	n. m. sg.	river	
 136773	yrtqṣ	!y!r]t]qṣ[	/r-q-ṣ/	vb Gt prefc.	to jump	
 136774	ṣmd	ṣmd/	ṣmd	n. m. sg.	pair	
@@ -1094,6 +1138,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136787	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136787	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
 # KTU 1.2 IV:17						
+136788	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136788	nhr	nhr/	nhr	n. m. sg.	river	
 136789	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc.	to be strong	
 136790	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -1131,6 +1176,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136813	l	l(I)	l (I)	prep.	to	
 136813	l	l(III)	l (III)	functor	certainly	
 136814	ksih	ksi/+h	ks/śủ	n. f.	seat	
+136815	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136815	nhr	nhr/	nhr	n. m. sg.	river	
 136816	l	l(I)	l (I)	prep.	to	
 136817	kḥṯ	kḥṯ/	kḥṯ	n. m. sg.	throne	
@@ -1149,7 +1195,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136824	buṣbˤth	?	?	?	?	DULAT: NOT FOUND
 136825	hlm	hlm	hlm	conj. functor	and so	
 136825	hlm	hlm[	/h-l-m/	vb G prefc. / vb G suffc.	to hit	
-136825	hlm	hl	hl	deictic adv. functor	behold	
+136825	hlm	hl~m	hl	deictic adv. functor	behold	
 136826	qdq	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 IV:22						
 136827	d	d	d	det. or rel. functor	the one(s) of	
@@ -1162,6 +1208,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136832	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136832	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136832	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136833	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136833	nhr	nhr/	nhr	n. m. sg.	river	
 136834	yprsḥ	!y!prsḥ[	prsḥ	vb G prefc.	to collapse	
 136835	ym	ym(I)/	ym (I)	n. m. sg.	day	
@@ -1200,6 +1247,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136855	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136855	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136855	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136856	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136856	nhr	nhr/	nhr	n. m. sg.	river	
 136857	yprsḥ	!y!prsḥ[	prsḥ	vb G prefc.	to collapse	
 136858	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -1225,11 +1273,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136873	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136873	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136873	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136874	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136874	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.2 IV:28						
 136875	b	b	b	prep.	in	
 136876	šm	šm(I)/	šm (I)	n. m. sg.	name	
-136877	tgˤrm	tgˤr[m~m	/g-ʕ-r/	vb G prefc.	to reproach	
+136877	tgˤrm	!t!gˤr[~m	/g-ʕ-r/	vb G prefc.	to reproach	
 136878	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
 136879	bṯ	bṯ[	/b-ṯ/	vb	to be ashamed	
 136880	l	l(IV)	l (IV)	interj.	oh!	
@@ -1258,6 +1307,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136893	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl.	to judge	
 136893	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 136893	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m.	case	
+136894	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 136894	nhr	nhr/	nhr	n. m. sg.	river	
 136895	w	w	w	conj.	and	
 136896	yṣa	!y!(yṣ(ʔ&a[	/y-ṣ-ʔ/	vb G prefc.	to go out	
@@ -1276,7 +1326,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136905	mt	mt[	/m-t/	vb G suffc.	to die	
 136905	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 136906	b	b	b	prep.	in	
-136907	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+136907	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 136908	ymlk	!y!mlk[	/m-l-k/	vb G prefc.	to reign	
 # KTU 1.2 IV:33						
 136909	ḥm	ḥm/	ḥm	n. m. sg.	heat	
@@ -1294,6 +1344,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136916	l	l(I)	l (I)	prep.	to	
 136916	l	l(II)	l (II)	adv.	no	
 136916	l	l(III)	l (III)	functor	certainly	
+136917	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 136917	mt	mt(II)/	mt (II)	n. m. sg.	death	
 136917	mt	mt[	/m-t/	vb G suffc.	to die	
 136917	mt	mt[/	/m-t/	vb G ptcpl.	to die	
@@ -1308,7 +1359,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136922	tˤn	!t!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
 136922	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
 # KTU 1.2 IV:36						
-136923	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
+136923	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	lord	
 136924	hmt	hmt	hmt	pers. pn.		
 136925		?	?	?	?	
 # KTU 1.2 IV:37						

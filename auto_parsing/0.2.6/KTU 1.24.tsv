@@ -15,8 +15,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147636	aġzt	aġz(t/t	ảġzt	n. f. sg.	wedding	
 147637	b	b	b	prep.	in	
 147638	srr	!!srr[/	/s-r-r/	vb G inf.	to set	
+147639	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 147639	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.24 4						
+147640	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 147640	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 147641	yṯkḥ	!y!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc.	to burn	
 147642	yḥbq	!y!ḥbq[	/ḥ-b-q/	vb G prefc.	to embrace	
@@ -100,6 +102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147693	bnthllsnnt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 16						
 147694	ylak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
+147695	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 147695	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 147696	nyr	nyr/	nyr	n. f. sg.	luminary	
 147697	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
@@ -171,7 +174,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147737	l	l(IV)	l (IV)	interj.	oh!	
 # KTU 1.24 25						
 147738	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg.	handsome	
-147739	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+147739	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+147739	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 147740	lḫtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 26						
 147741	m	mt(II)/	mt (II)	n. m.	death	
@@ -205,6 +209,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147760	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
 147760	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
 # KTU 1.24 31						
+147761	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 147761	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 147762	nyr	nyr/	nyr	n. f. sg.	luminary	
 147763	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
@@ -222,6 +227,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147769	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
 # KTU 1.24 33						
 147770	nkl	!n!](n]kl(y[	/k-l-y/	vb N suffc.	to finish	
+147771	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 147771	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 147772	ytrḫ	!y!trḫ[:d	/t-r-ḫ/	vb G prefc. / vb D prefc.	to marry	
 147773	adnh	adn(I)/+h	ảdn (I)	n. m.	lord	
@@ -254,6 +260,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147790	d	d	d	det. or rel. functor	the one(s) of	
 147791	ašr	!(ʔ&a!šr(I)[	/š-r/ (I)	vb G prefc.	to sing	
 147792	ar	a/	ả/ỉr	n. m. sg.	light	
+147793	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 147793	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 147794	w	w	w	conj.	and	
 147795	y	+y, [y	-y (I)	prep. functor	my	

@@ -22,6 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153361	alpm	alp(I)/m	ảlp (I)	n. m. pl. / n. m. du.	(head of) cattle	
 153361	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 # KTU 1.109 5						
+153362	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 153362	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 153363	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 153363	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
@@ -65,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153390	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 153391	w	w	w	conj.	and	
 153392	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153392	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153392	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.109 11						
 153393	kmm	kmm	kmm	adv.	ditto	
 153394	w	w	w	conj.	and	
@@ -82,6 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 13						
 153402	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 153402	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
+153403	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153403	il	il(I)/	ỉl (I)	n. m.	god	
 153404	š	š/	š	n. m. sg.	ram	
 153405	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
@@ -103,7 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153414	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 153415	w	w	w	conj.	and	
 153416	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153416	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153416	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 153417	ilib	ilib(I)/	ỉlỉb (I)	DN	father god	
 153418	š	š/	š	n. m. sg.	ram	
 # KTU 1.109 16						
@@ -114,6 +116,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153423	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg.	massif	
 153424	š	š/	š	n. m. sg.	ram	
 # KTU 1.109 17						
+153425	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 153425	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 153426	š	š/	š	n. m. sg.	ram	
 153427	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
@@ -144,6 +147,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 21						
 153443	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
 153444	š	š/	š	n. m. sg.	ram	
+153445	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153445	il	il(I)/	ỉl (I)	n. m.	god	
 153446	tˤḏr	tˤḏr/	tʕḏr	n. m. sg.	help	
 153447	š	š/	š	n. m. sg.	ram	
@@ -159,10 +163,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153453	š	š/	š	n. m. sg.	ram	
 # KTU 1.109 23						
 153454	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153454	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153454	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.109 24						
 153455	w	w	w	conj.	and	
 153456	šnpt	šnp(t/t	šnpt	n. f. sg.	wave- offering	
+153457	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153457	il	il(I)/	ỉl (I)	n. m.	god	
 153458	š	š/	š	n. m. sg.	ram	
 # KTU 1.109 25						
@@ -195,7 +200,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153473	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 153474	w	w	w	conj.	and	
 153475	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153475	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153475	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 153476	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.109 29						
 153477	l	l(I)	l (I)	prep.	to	
@@ -213,8 +218,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153486	bˤlt	bˤl(t/t	bʕlt	n. f. sg.	lady	
 153487	bhtm	bt(II)/	bt (II)	n. m. pl.	house	
 # KTU 1.109 32						
-153488	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
-153489	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+153488	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+153489	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 153490	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 153490	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 153491	l	l(I)	l (I)	prep.	to	
@@ -246,4 +251,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153509	ṣpnxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.109 37						
 153510	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153510	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153510	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	

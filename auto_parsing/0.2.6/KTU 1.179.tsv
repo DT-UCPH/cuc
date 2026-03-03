@@ -7,6 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 2						
 156071	x	?	?	?	?	
 156072	tḥt	tḥt(I)	tḥt (I)	prep.	under	
+156073	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 156073	il	il(I)/	ỉl (I)	n. m.	god	
 156074	ṯmk	ṯm+k	ṯm	adv.	there	
 156074	ṯmk	ṯmk/	ṯmk	TN	Bitterkraut	
@@ -25,6 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156084	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 156084	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 156084	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+156085	thm	thm/	thm	DN m. the Ocean/Primordial Ocean	DN m. the Ocean/Primordial Ocean	
 156085	thm	thm/	thm	n. m. sg.	ocean	
 # KTU 1.179 5						
 156086	šk	š/+k	š	n. m.	ram	
@@ -44,6 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156092	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 156093	l	l(I)	l (I)	prep.	to	
 156093	l	l(III)	l (III)	functor	certainly	
+156094	thm	thm/	thm	DN m. the Ocean/Primordial Ocean	DN m. the Ocean/Primordial Ocean	
 156094	thm	thm/	thm	n. m. sg.	ocean	
 # KTU 1.179 7						
 156095	xm	?	?	?	?	DULAT: NOT FOUND
@@ -109,7 +112,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156133	xm	?	?	?	?	DULAT: NOT FOUND
 156134	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. / n. m. pl. cstr.	servant	
 156135	ṭl	ṭl/	ṭl	n. m. sg.	dew	
-156136	arbˤtm	arbˤt/~m	ảrbʕ	num.	four	
+156136	arbˤtm	arbˤ/~m	ảrbʕ	num. sg.	four	
 # KTU 1.179 16						
 156137	y	+y, [y	-y (I)	prep. functor	my	
 156137	y	~y	-y (II)	prep. functor	indeed	
@@ -125,6 +128,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156143	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 156144	qdšm	qdš(I)/m	qdš (I)	adj. m. pl.	holy	
 156145	b	b	b	prep.	in	
+156146	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
 156146	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.179 18						
 156147	nḫl	nḫl(I)/	nḫl (I)	n. m. sg.	torrent	
@@ -274,16 +278,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156236	xxxn	?	?	?	?	DULAT: NOT FOUND
 156237	nrt	nr(t(I)/t	nrt (I)	n. f. sg.	lantern	
 156237	nrt	nr(t(II)/t	nrt (II)	n. f. sg.	ploughed land	
+156238	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 156238	il	il(I)/	ỉl (I)	n. m.	god	
+156239	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 156239	špš	špš/	špš	n. f. sg.	sun	
 156240	l	l(I)	l (I)	prep.	to	
 156240	l	l(II)	l (II)	adv.	no	
 156240	l	l(III)	l (III)	functor	certainly	
 156241	ymt	ym(I)/t=	ym (I)	n. m. pl.	day	
 156241	ymt	!y!mt[	/m-t/	vb G prefc.	to die	
+156242	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 156242	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.179 39						
 156243	xxxḥnt	?	?	?	?	DULAT: NOT FOUND
+156244	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 156244	il	il(I)/	ỉl (I)	n. m.	god	
 156245	hn	hn	hn	functor	behold!	
 156246	ksmḥṯ	?	?	?	?	DULAT: NOT FOUND

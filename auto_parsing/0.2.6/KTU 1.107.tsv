@@ -5,7 +5,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152926	hlxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 2						
 152927	xxxxxxxxxˤrt	?	?	?	?	DULAT: NOT FOUND
-152928	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+152928	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+152928	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 152929	rbm	rb(I)/m	rb (I)	adj. m. sg. / adj. m. pl.	great	
 152930	nˤlxxxmr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 3						
@@ -89,6 +90,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152971	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 152972	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 152972	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
+152973	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 152973	špš	špš/	špš	n. f. sg.	sun	
 152974	b	b	b	prep.	in	
 152975	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
@@ -144,6 +146,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153005	mspr	mspr/	mspr	n. m. sg.	recitation	
 153006	xxxxxxxx	?	?	?	?	
 # KTU 1.107 15						
+153007	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 153007	špš	špš/	špš	n. f. sg.	sun	
 153008	b	b	b	prep.	in	
 153009	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
@@ -250,6 +253,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153080	ḫxx	?	?	?	?	DULAT: NOT FOUND
 153081	xxxx	?	?	?	?	
 153082	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G impv. / vb D impv.	to gather	
+153083	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 153083	špš	špš/	špš	n. f. sg.	sun	
 153084	l	l(I)	l (I)	prep.	to	
 153084	l	l(III)	l (III)	functor	certainly	
@@ -267,6 +271,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153091	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 34						
 153092	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G impv. / vb D impv.	to gather	
+153093	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 153093	špš	špš/	špš	n. f. sg.	sun	
 153094	l	l(I)	l (I)	prep.	to	
 153094	l	l(III)	l (III)	functor	certainly	
@@ -300,6 +305,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153112	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 37						
 153113	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G impv. / vb D impv.	to gather	
+153114	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 153114	špš	špš/	špš	n. f. sg.	sun	
 153115	l	l(I)	l (I)	prep.	to	
 153115	l	l(III)	l (III)	functor	certainly	
@@ -315,6 +321,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153121	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G impv. / vb D impv.	to gather	
 153122	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
 153122	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
+153123	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153123	il	il(I)/	ỉl (I)	n. m.	god	
 153124	wḥrn	?	?	?	?	DULAT: NOT FOUND
 153125	yisp	ʔsp[p:d	/ʔ-s-p/	vb G prefc. / vb D prefc.	to gather	
@@ -337,6 +344,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153135	tisp	ʔsp[p:d	/ʔ-s-p/	vb G prefc. / vb D prefc.	to gather	
 153136	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
 153136	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
+153137	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 153137	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 153138	w	w	w	conj.	and	
 153139	ršp	ršp/	ršp	DN	Rašap	
@@ -380,6 +388,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153165	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
 153165	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 153166	isp	(ʔ&isp[:d	/ʔ-s-p/	vb G impv. / vb D impv.	to gather	
+153167	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 153167	špš	špš/	špš	n. f. sg.	sun	
 153168	lhrm	?	?	?	?	DULAT: NOT FOUND
 153169	ġrpl	ġrpl/	ġrpl	n. m. sg.	cloud	
@@ -424,6 +433,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 47						
 153189	xxxxx	?	?	?	?	
 153190	ˤrq	ˤrq/	ʕrq	n. m. sg.	cart	
+153191	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 153191	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.107 48						
 153192	xxxxxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND

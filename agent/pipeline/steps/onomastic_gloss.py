@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from typing import Dict
 
@@ -18,6 +19,7 @@ _ONOMASTIC_CHAR_MAP = str.maketrans(
         "ˁ": "ʿ",
     }
 )
+_TRAILING_HOMONYM_RE = re.compile(r"\s*\(([IVX]+)\)\s*$")
 
 
 def _split_semicolon(value: str) -> list[str]:
@@ -58,6 +60,7 @@ class OnomasticGlossOverrideFixer(RefinementStep):
         return "onomastic-gloss-override"
 
     def refine_row(self, row: TabletRow) -> TabletRow:
+        analysis_variants = _split_semicolon(row.analysis)
         dulat_variants = _split_semicolon(row.dulat)
         pos_variants = _split_semicolon(row.pos)
         gloss_variants = _split_semicolon(row.gloss)
@@ -65,7 +68,7 @@ class OnomasticGlossOverrideFixer(RefinementStep):
             return row
 
         n = len(gloss_variants)
-        if len(dulat_variants) != n or len(pos_variants) != n:
+        if len(analysis_variants) != n or len(dulat_variants) != n or len(pos_variants) != n:
             transformed = self._apply_variant_override(
                 dulat_variant=row.dulat.strip(),
                 pos_variant=row.pos.strip(),
@@ -83,28 +86,63 @@ class OnomasticGlossOverrideFixer(RefinementStep):
                 comment=row.comment,
             )
 
+        out_analysis: list[str] = []
+        out_dulat: list[str] = []
+        out_pos: list[str] = []
         out_gloss: list[str] = []
         changed = False
+        existing_variant_keys: set[tuple[str, str, str]] = set()
         for i in range(n):
+            existing_variant_keys.add(
+                (
+                    analysis_variants[i].strip(),
+                    dulat_variants[i].strip(),
+                    pos_variants[i].strip(),
+                )
+            )
+
+        for i in range(n):
+            analysis_variant = analysis_variants[i].strip()
+            dulat_variant = dulat_variants[i].strip()
+            pos_variant = pos_variants[i].strip()
             transformed = self._apply_variant_override(
-                dulat_variant=dulat_variants[i],
-                pos_variant=pos_variants[i],
+                dulat_variant=dulat_variant,
+                pos_variant=pos_variant,
                 gloss_variant=gloss_variants[i],
             )
+            appended = self._appended_onomastic_variant(
+                surface=row.surface,
+                analysis_variant=analysis_variant,
+                dulat_variant=dulat_variant,
+                pos_variant=pos_variant,
+                gloss_variant=transformed,
+                existing_keys=existing_variant_keys,
+            )
+            if appended is not None:
+                appended_key = (appended.analysis, appended.dulat, appended.pos)
+                if appended_key not in existing_variant_keys:
+                    out_analysis.append(appended.analysis)
+                    out_dulat.append(appended.dulat)
+                    out_pos.append(appended.pos)
+                    out_gloss.append(appended.gloss)
+                    existing_variant_keys.add(appended_key)
+                    changed = True
+            out_analysis.append(analysis_variant)
+            out_dulat.append(dulat_variant)
+            out_pos.append(pos_variant)
             out_gloss.append(transformed)
             if transformed != gloss_variants[i]:
                 changed = True
 
         if not changed:
             return row
-        new_gloss = _join_semicolon(out_gloss)
         return TabletRow(
             line_id=row.line_id,
             surface=row.surface,
-            analysis=row.analysis,
-            dulat=row.dulat,
-            pos=row.pos,
-            gloss=new_gloss,
+            analysis=_join_semicolon(out_analysis),
+            dulat=_join_semicolon(out_dulat),
+            pos=_join_semicolon(out_pos),
+            gloss=_join_semicolon(out_gloss),
             comment=row.comment,
         )
 
@@ -157,9 +195,50 @@ class OnomasticGlossOverrideFixer(RefinementStep):
             return gloss_variant
         return _join_comma(gloss_slots)
 
+    def _appended_onomastic_variant(
+        self,
+        *,
+        surface: str,
+        analysis_variant: str,
+        dulat_variant: str,
+        pos_variant: str,
+        gloss_variant: str,
+        existing_keys: set[tuple[str, str, str]],
+    ) -> TabletRow | None:
+        if self._is_onomastic_pos(pos_variant):
+            return None
+        if not self._surface_matches_declared_token(surface, dulat_variant):
+            return None
+        override_entry = self._store.get_entry(dulat_variant)
+        if override_entry is None or not override_entry.pos:
+            return None
+
+        appended_pos = override_entry.pos.strip()
+        appended_gloss = (override_entry.gloss or gloss_variant or "").strip()
+        key = (analysis_variant, dulat_variant, appended_pos)
+        if key in existing_keys:
+            return None
+
+        return TabletRow(
+            line_id="",
+            surface="",
+            analysis=analysis_variant,
+            dulat=dulat_variant,
+            pos=appended_pos,
+            gloss=appended_gloss,
+            comment="",
+        )
+
     def _normalize_onomastic_chars(self, gloss: str) -> str:
         return (gloss or "").translate(_ONOMASTIC_CHAR_MAP)
 
     def _is_onomastic_pos(self, pos: str) -> bool:
         token = (pos or "").upper()
         return any(tag in token for tag in _ONOMASTIC_POS_TAGS)
+
+    def _surface_matches_declared_token(self, surface: str, dulat_variant: str) -> bool:
+        surface_key = self._store.normalize_key(surface).replace(" ", "")
+        dulat_key = self._store.normalize_key(_TRAILING_HOMONYM_RE.sub("", dulat_variant)).replace(
+            " ", ""
+        )
+        return bool(surface_key and dulat_key and surface_key == dulat_key)

@@ -50,6 +50,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152340	apm	ap(I)+m(I)	ảp (I)	adv./conj.	also	
 152340	apm	ap(II)/+m(I)	ảp (II)	n. m.	nose	
 152341	ḥwtntḫlq	?	?	?	?	DULAT: NOT FOUND
+152342	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 152342	mt	mt(II)/	mt (II)	n. m. sg.	death	
 152342	mt	mt[	/m-t/	vb G suffc.	to die	
 152342	mt	mt[/	/m-t/	vb G ptcpl.	to die	
@@ -298,7 +299,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152509	ap	ap(I)	ảp (I)	adv./conj.	also	
 152509	ap	ap(II)/	ảp (II)	n. m.	nose	
 152510	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg.	bird	
-152511	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+152511	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+152511	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 152512	tbˤrn	!t!bˤr(II)[n:d	/b-ʕ-r/ (II)	vb D suffc.	to abandon	
 152513	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 # KTU 1.103 42						
@@ -419,7 +421,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 56						
 152598	w	w	w	conj.	and	
 152599	ˤql	?	?	?	?	DULAT: NOT FOUND
-152600	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+152600	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+152600	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 152601	tbˤrn	!t!bˤr(II)[n:d	/b-ʕ-r/ (II)	vb D suffc.	to abandon	
 152602	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 152602	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb D suffc. / vb Dpass suffc.	to live	

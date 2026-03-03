@@ -1,6 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 1						
 154143	b	b	b	prep.	in	
+154144	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 154144	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 154145	ibˤlt	ibˤlt/	ỉbʕlt	MN	where-is-the- Mistress?	
 154146	b	b	b	prep.	in	
@@ -26,6 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 4						
 154162	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 154162	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
+154163	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 154163	špš	špš/	špš	n. f. sg.	sun	
 154164	w	w	w	conj.	and	
 154165	ḥl	ḥl(I)/	ḥl (I)	n. m. sg.	strength	
@@ -46,12 +48,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154173	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 154174	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 154174	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
+154175	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 154175	il	il(I)/	ỉl (I)	n. m.	god	
 154176	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 154176	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 154177	l	l(I)	l (I)	prep.	to	
 154177	l	l(III)	l (III)	functor	certainly	
-154178	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
+154178	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	lord	
 # KTU 1.119 7						
 154179	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 154179	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
@@ -116,6 +119,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154217	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 154218	bt	bt(II)/	bt (II)	n. m. sg.	house	
 154218	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+154219	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 154219	il	il(I)/	ỉl (I)	n. m.	god	
 154220	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 154221	l	l(I)	l (I)	prep.	to	
@@ -173,6 +177,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154259	mḥllm	mḥll/m	mḥll	n. m. pl.	desacraliser	
 154260	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 154260	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
+154261	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 154261	špš	špš/	špš	n. f. sg.	sun	
 154262	x	?	?	?	?	
 # KTU 1.119 24						
@@ -215,7 +220,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154283	y	+y, [y	-y (I)	prep. functor	my	
 154283	y	~y	-y (II)	prep. functor	indeed	
 154283	y	y	y	prep. functor	oh!	
-154284	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
+154284	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 154285	al	al(I)	ảl (I)	neg. functor	no	
 154285	al	al(II)	ảl (II)	pos. functor	surely	
 154286	tdy	ydy(I)[	/y-d-y/ (I)	vb G prefc.	to throw	

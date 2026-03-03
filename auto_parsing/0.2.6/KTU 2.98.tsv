@@ -38,6 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160164	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 160164	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 160164	rgm	rgm/	rgm	n. m. sg.	word	
+160165	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 160165	špš	špš/	špš	n. f. sg.	sun	
 160166	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 160166	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -75,6 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 13						
 160186	w	w	w	conj.	and	
 160187	ˤmm	ˤmm[:pass	/ʕ-m-m/	vb Gpass suffc.	to be covered	
+160188	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 160188	špš	špš/	špš	n. f. sg.	sun	
 160189	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 160189	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -161,7 +163,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 28						
 160234	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
 160235	klm	kl/	kl	n. m.	totality (of)	
-160236	bnšm	bnš/m~m	bnš	n. m. pl.	man	
+160236	bnšm	bnš/~m	bnš	n. m. pl.	man	
 # KTU 2.98 29						
 160237	ap	ap(I)	ảp (I)	adv./conj.	also	
 160237	ap	ap(II)/	ảp (II)	n. m.	nose	
@@ -188,6 +190,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 33						
 160252	x	?	?	?	?	
 160253	w	w	w	conj.	and	
+160254	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 160254	špš	špš/	špš	n. f. sg.	sun	
 # KTU 2.98 34						
 160255	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	

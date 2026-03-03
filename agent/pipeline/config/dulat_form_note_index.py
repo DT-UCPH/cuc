@@ -21,6 +21,8 @@ _LOOKUP_NORMALIZE = str.maketrans(
 )
 _TOKEN_RE = re.compile(r"^(.*?)(?:\s*\(([IVX]+)\))?$")
 _ENCLITIC_M_RE = re.compile(r"\bencl\.\s*(?:<i>)?\s*-m\b", flags=re.IGNORECASE)
+_EXT_FORMS_RE = re.compile(r"\bext\.\s*forms?\s*:\s*(.*)", flags=re.IGNORECASE)
+_ITALIC_FORM_RE = re.compile(r"<i>([^<]+)</i>")
 
 
 @dataclass(frozen=True)
@@ -28,11 +30,17 @@ class DulatFormNoteIndex:
     """Surface-indexed DULAT form-note facts keyed by lemma/homonym."""
 
     enclitic_m_surfaces: Dict[Tuple[str, str], Set[str]]
+    enclitic_m_morphologies: Dict[Tuple[str, str, str], Set[str]]
+    extended_m_surfaces: Dict[Tuple[str, str], Set[str]]
 
     @classmethod
     def from_sqlite(cls, db_path: Path) -> "DulatFormNoteIndex":
         if not db_path.exists():
-            return cls(enclitic_m_surfaces={})
+            return cls(
+                enclitic_m_surfaces={},
+                enclitic_m_morphologies={},
+                extended_m_surfaces={},
+            )
 
         conn = sqlite3.connect(str(db_path))
         cur = conn.cursor()
@@ -49,27 +57,44 @@ class DulatFormNoteIndex:
             entry_index[int(entry_id)] = (_normalize_token(lemma_raw), hom)
 
         enclitic_m_surfaces: Dict[Tuple[str, str], Set[str]] = {}
-        for entry_id, text, notes in cur.execute(
-            "SELECT entry_id, text, notes FROM forms WHERE text IS NOT NULL AND trim(text) != ''"
+        enclitic_m_morphologies: Dict[Tuple[str, str, str], Set[str]] = {}
+        extended_m_surfaces: Dict[Tuple[str, str], Set[str]] = {}
+        for entry_id, text, morphology, notes in cur.execute(
+            "SELECT entry_id, text, morphology, notes "
+            "FROM forms WHERE text IS NOT NULL AND trim(text) != ''"
         ):
-            if not _has_enclitic_m(notes or ""):
-                continue
             key = entry_index.get(int(entry_id))
             if not key:
                 continue
             lemma_norm, hom = key
-            for form_variant in expand_dulat_form_texts(
-                lemma=lemma_norm,
-                homonym=hom,
-                form_text=text or "",
-            ):
+            note_text = notes or ""
+            if _has_enclitic_m(note_text):
+                morph = (morphology or "").strip().lower()
+                for form_variant in expand_dulat_form_texts(
+                    lemma=lemma_norm,
+                    homonym=hom,
+                    form_text=text or "",
+                ):
+                    surface = _normalize_surface(form_variant)
+                    if not surface:
+                        continue
+                    enclitic_m_surfaces.setdefault((lemma_norm, hom), set()).add(surface)
+                    if morph:
+                        enclitic_m_morphologies.setdefault((lemma_norm, hom, surface), set()).add(
+                            morph
+                        )
+
+            for form_variant in _extract_extended_m_note_forms(note_text):
                 surface = _normalize_surface(form_variant)
-                if not surface:
-                    continue
-                enclitic_m_surfaces.setdefault((lemma_norm, hom), set()).add(surface)
+                if surface:
+                    extended_m_surfaces.setdefault((lemma_norm, hom), set()).add(surface)
 
         conn.close()
-        return cls(enclitic_m_surfaces=enclitic_m_surfaces)
+        return cls(
+            enclitic_m_surfaces=enclitic_m_surfaces,
+            enclitic_m_morphologies=enclitic_m_morphologies,
+            extended_m_surfaces=extended_m_surfaces,
+        )
 
     def has_enclitic_m(self, *, surface: str, dulat_token: str) -> bool:
         lemma, hom = _parse_declared_token(dulat_token)
@@ -86,6 +111,45 @@ class DulatFormNoteIndex:
         return any(
             key_lemma == lemma_norm and surface_norm in surfaces
             for (key_lemma, _key_hom), surfaces in self.enclitic_m_surfaces.items()
+        )
+
+    def enclitic_m_morphologies_for_surface(self, *, surface: str, dulat_token: str) -> set[str]:
+        lemma, hom = _parse_declared_token(dulat_token)
+        if not lemma or lemma == "?":
+            return set()
+        lemma_norm = _normalize_token(lemma)
+        surface_norm = _normalize_surface(surface)
+        if not lemma_norm or not surface_norm:
+            return set()
+
+        if hom:
+            return set(self.enclitic_m_morphologies.get((lemma_norm, hom, surface_norm), set()))
+
+        out: set[str] = set()
+        for (
+            key_lemma,
+            _key_hom,
+            key_surface,
+        ), morphologies in self.enclitic_m_morphologies.items():
+            if key_lemma == lemma_norm and key_surface == surface_norm:
+                out.update(morphologies)
+        return out
+
+    def has_extended_m_surface(self, *, surface: str, dulat_token: str) -> bool:
+        lemma, hom = _parse_declared_token(dulat_token)
+        if not lemma or lemma == "?":
+            return False
+        lemma_norm = _normalize_token(lemma)
+        surface_norm = _normalize_surface(surface)
+        if not lemma_norm or not surface_norm:
+            return False
+
+        if hom:
+            return surface_norm in self.extended_m_surfaces.get((lemma_norm, hom), set())
+
+        return any(
+            key_lemma == lemma_norm and surface_norm in surfaces
+            for (key_lemma, _key_hom), surfaces in self.extended_m_surfaces.items()
         )
 
 
@@ -113,3 +177,16 @@ def _parse_declared_token(token: str) -> tuple[str, str]:
 
 def _has_enclitic_m(notes: str) -> bool:
     return bool(_ENCLITIC_M_RE.search(notes or ""))
+
+
+def _extract_extended_m_note_forms(notes: str) -> set[str]:
+    match = _EXT_FORMS_RE.search(notes or "")
+    if not match:
+        return set()
+    segment = match.group(1) or ""
+    out: set[str] = set()
+    for form in _ITALIC_FORM_RE.findall(segment):
+        token = (form or "").strip()
+        if token:
+            out.add(token)
+    return out

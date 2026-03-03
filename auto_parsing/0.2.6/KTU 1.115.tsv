@@ -14,6 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153952	l	l(III)	l (III)	functor	certainly	
 153953	bbt	bbt(II)/	bbt (II)	DN	superintendent	
 153953	bbt	bbt(I)/	bbt (I)	TN	bbt (I)	
+153954	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153954	il	il(I)/	ỉl (I)	n. m.	god	
 153955	bt	bt(II)/	bt (II)	n. m. sg.	house	
 153955	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
@@ -35,6 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153965	b	b	b	prep.	in	
 153966	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 153966	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
+153967	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153967	il	il(I)/	ỉl (I)	n. m.	god	
 153968	bt	bt(II)/	bt (II)	n. m. sg.	house	
 153968	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
@@ -49,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153974	bt	bt(II)/	bt (II)	n. m. sg.	house	
 153974	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 153975	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153975	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153975	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.115 10						
 153976	kll	kll/	kll	n. m. sg.	totality	
 153977	ylḥm	!y!lḥm(I)[	/l-ḥ-m/ (I)	vb G suffc.	to eat	

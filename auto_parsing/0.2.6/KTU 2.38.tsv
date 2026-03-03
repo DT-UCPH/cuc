@@ -21,7 +21,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.38 4						
 157859	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 157860	lk	l(I)+k	l (I)	prep.	to	
-157861	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+157861	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+157861	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.38 5						
 157862	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 157863	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	

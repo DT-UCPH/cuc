@@ -29,8 +29,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154078	k	k(III)	k (III)	Subordinating or completive functor	when	
 154078	k	k(I)	k (I)	prep.	like	
 154078	k	k(II)	k (II)	emph. functor	yes	
-154079	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+154079	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
+154079	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.117 6						
+154080	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 154080	il	il(I)/	ỉl (I)	n. m.	god	
 154081	mẓll	mẓll/	mẓll	n. m. sg.	shelter	
 154082	bnh	bn(I)/+h	bn (I)	n. m.	son	
@@ -43,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.117 8						
 154086	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 154086	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
-154087	mtm	mt(II)/~m	mt (II)	n. m.	death	
+154087	mtm	mt(II)/~m	mt (II)	n. m. sg.	death	
 154087	mtm	!!mt[/~m	/m-t/	vb G inf.	to die	
 154087	mtm	mt(I)/m	mt (I)	n. m. pl.	dead person	
 154088	šknt	škn[t	/š-k-n/	vb G suffc.	to be placed	

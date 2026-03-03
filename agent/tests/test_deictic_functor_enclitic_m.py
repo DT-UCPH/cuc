@@ -1,6 +1,9 @@
 """Tests for deictic functor extended -m enclitic encoding."""
 
+import sqlite3
+import tempfile
 import unittest
+from pathlib import Path
 
 from pipeline.steps.base import TabletRow
 from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFixer
@@ -28,6 +31,34 @@ class DeicticFunctorEncliticMFixerTest(unittest.TestCase):
         row = TabletRow("2", "hlm", "hl", "hl", "n. m.", "something", "")
         result = fixer.refine_row(row)
         self.assertEqual(result.analysis, "hl")
+
+    def test_uses_note_listed_extended_form_when_exact_form_is_absent(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            conn = sqlite3.connect(db_path)
+            cur = conn.cursor()
+            cur.execute(
+                "CREATE TABLE entries("
+                "entry_id INTEGER PRIMARY KEY, lemma TEXT, homonym TEXT, pos TEXT)"
+            )
+            cur.execute(
+                "CREATE TABLE forms("
+                "entry_id INTEGER, text TEXT, morphology TEXT, cert TEXT, notes TEXT)"
+            )
+            cur.execute(
+                "INSERT INTO entries(entry_id, lemma, homonym, pos) VALUES (1, 'hl', '', '')"
+            )
+            cur.execute(
+                "INSERT INTO forms(entry_id, text, morphology, cert, notes) "
+                "VALUES (1, 'hl', '', '', 'suff. / ext. forms: <i>hlk</i>, <i>hlh</i>, <i>hlm</i>')"
+            )
+            conn.commit()
+            conn.close()
+
+            fixer = DeicticFunctorEncliticMFixer(dulat_db=db_path)
+            row = TabletRow("3", "hlm", "hl", "hl", "deictic adv. functor", "behold", "")
+            result = fixer.refine_row(row)
+            self.assertEqual(result.analysis, "hl~m")
 
 
 if __name__ == "__main__":
