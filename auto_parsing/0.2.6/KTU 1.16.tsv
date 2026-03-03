@@ -275,7 +275,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143360	byd	b+d	b	prep.	in, ?	
 # KTU 1.16 I:42						
 143361	brltk	brlt/+k	brlt	n. f.	hunger	
-143362	bm	b	b	prep.	in	
 143362	bm	b+m(I)	b	prep.	in	
 143363	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
 # KTU 1.16 I:43						
@@ -308,7 +307,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143383	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 # KTU 1.16 I:48						
 143384	grgrh	grgr/+h	grgr	n. m. sg.	javelin	
-143385	bm	b	b	prep.	in	
 143385	bm	b+m(I)	b	prep.	in	
 143386	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
 # KTU 1.16 I:49						
@@ -504,7 +502,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 II:26						
 143498	tṣr	nṣr[	/n-ṣ-r/	vb G prefc.	to sob	
 143499	trm	!t!rm[	/r-m/	vb G prefc.	to go up	
-143500	tnqth	tnqt(II)/+h	tnqt (II)	n. f.	lactation	
+143500	tnqth	tnqt(I)/+h	tnqt (I)	n. f.	scream	
 # KTU 1.16 II:27						
 143501	km	k(III)	k (III)	functor	when	
 143501	km	k(I)	k (I)	prep.	like	
@@ -551,6 +549,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143527	trm	!t!rm[	/r-m/	vb G prefc.	to go up	
 143527	trm	tr(I)/m	tr (I)	n. m. pl.	pole	
 143527	trm	trm(t/t	trmt	n. f. sg.	offering	
+143528	tnqt	tnq(t(I)/t	tnqt (I)	n. f. sg.	scream	
 143528	tnqt	tnq(t(II)/t	tnqt (II)	n. f. sg.	lactation	
 # KTU 1.16 II:35						
 143529	tbky	!t!bky[	/b-k-y/	vb G prefc.	to weep	
@@ -760,7 +759,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143654	hṭt	?	?	?	?	DULAT: NOT FOUND
 143655	bˤn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.16 III:10						
-143656	bm	b	b	prep.	in	
 143656	bm	b+m(I)	b	prep.	in	
 143657	nrt	nr(t(II)/t	nrt (II)	n. f. sg.	ploughed land	
 143658	k	+k	-k (I)			

@@ -23,6 +23,7 @@ from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.feminine_t_singular_split import FeminineTSingularSplitFixer
 from pipeline.steps.formula_bigram import FormulaBigramFixer
 from pipeline.steps.formula_trigram import FormulaTrigramFixer
+from pipeline.steps.function_word_clitic_pruner import FunctionWordCliticPruner
 from pipeline.steps.generic_parsing_override import GenericParsingOverrideFixer
 from pipeline.steps.iii_aleph_case_fixer import IIIAlephCaseFixer
 from pipeline.steps.k_functor_bigram_context import KFunctorBigramContextDisambiguator
@@ -129,6 +130,7 @@ class TabletParsingPipeline:
             VariantRowUnwrapper(),
             RedirectReconstructionCommentFixer(),
             UnwrappedDuplicatePruner(),
+            FunctionWordCliticPruner(),
             AttestationReferenceDisambiguator(index=self.attestation_index),
             LNegationVerbContextPruner(),
             LFunctorVocativeContextDisambiguator(),

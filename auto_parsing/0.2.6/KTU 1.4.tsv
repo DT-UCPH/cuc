@@ -38,7 +38,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138143	ṣbrt	ṣbr(t/t	ṣbrt	n. f. sg.	clan	
 138144	aryh	ary(I)/+h	ảry (I)	n. m. sg.	fellow	
 # KTU 1.4 I:9						
-138145	wn	w	w	conj.	and	
 138145	wn	w+n	w	conj.	and	
 138146	in	in/	ỉn	n. m. sg.	lack of	
 138147	bt	bt(II)/	bt (II)	n. m. sg.	house	
@@ -233,9 +232,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138267	yman	yman/	ymản	TN	Ionia	
 # KTU 1.4 I:43						
 138268	d	d	d	det. or rel. functor	the one(s) of	
-138269	bh	b	b	prep.	in	
 138269	bh	b+h	b	prep.	in	
-138269	bh	nqb[	/n-q-b/	vb	to pierce	
 138270	rumm	rum/	rủm	n. m. pl.	wild bull	
 138271	l	l(I)	l (I)	prep.	to	
 138271	l	l(III)	l (III)	functor	certainly	
@@ -321,9 +318,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138329	ybmt	ybm(t/t	ybmt	n. f. sg.	widow sister-in-law	
 # KTU 1.4 II:16						
 138330	limm	lim(I)/	lỉm (I)	n. m. pl.	people	
-138331	bh	b	b	prep.	in	
 138331	bh	b+h	b	prep.	in	
-138331	bh	nqb[	/n-q-b/	vb	to pierce	
 138332	pˤnm	pˤn/m	pʕn	n. f. du.	foot	
 # KTU 1.4 II:17						
 138333	tṭṭ	nṭṭ[	/n-ṭ-ṭ/	vb G prefc.	to shake	
@@ -596,17 +591,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138498	k	k(III)	k (III)	Subordinating or completive functor	when	
 138498	k	k(I)	k (I)	prep.	like	
 138498	k	k(II)	k (II)	emph. functor	yes	
-138499	bh	b	b	prep.	in	
 138499	bh	b+h	b	prep.	in	
-138499	bh	nqb[	/n-q-b/	vb	to pierce	
 138500	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg.	shame	
 138501	l	l(III)	l (III)	functor	certainly	
 138502	tbṭ	nbṭ[	/n-b-ṭ/	vb G prefc.	to appear	
 # KTU 1.4 III:22						
 138503	w	w	w	conj.	and	
-138504	bh	b	b	prep.	in	
 138504	bh	b+h	b	prep.	in	
-138504	bh	nqb[	/n-q-b/	vb	to pierce	
 138505	tdmmt	tdmm(t/t	tdmmt	n. f. sg.	lasciviousness	
 138506	amht	amt(I)/	ảmt (I)	n. f. pl.	(female) slave	
 # KTU 1.4 III:23						
@@ -970,13 +961,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138731	rġb	!!rġb[/	/r-ġ-b/	vb G inf.	to be hungry	
 138732	rġbt	rġb[t	/r-ġ-b/	vb G suffc.	to be hungry	
 138733	w	w	w	conj.	and	
-138734	tġtr	?	?	?	?	DULAT: NOT FOUND
+138734	tġtr	!t!ġtr[	/ġ-t-r/	vb G prefc.	to implore	
 # KTU 1.4 IV:34						
 138735	hm	hm(II)	hm (II)	conj./interr. functor	if	
 138736	ġmu	!!ġm(ʔ&u[/	/ġ-m-ʔ/	vb G inf.	to be thirsty	
 138737	ġmit	ġm(ʔ&i[t	/ġ-m-ʔ/	vb G suffc.	to be thirsty	
 138738	w	w	w	conj.	and	
-138739	ˤst	?	?	?	?	DULAT: NOT FOUND
+138739	ˤst	ˤsys[	/ʕ-s-y:s/	vb	?	
 # KTU 1.4 IV:35						
 138740	lḥm	lḥm(I)[	/l-ḥ-m/ (I)	vb G suffc. / vb G impv.	to eat	
 138740	lḥm	!!lḥm(I)[/	/l-ḥ-m/ (I)	vb G inf.	to eat	
@@ -1080,7 +1071,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138808	ṣbrt	ṣbr(t/t	ṣbrt	n. f. sg.	clan	
 # KTU 1.4 IV:50						
 138809	aryh	ary(I)/+h	ảry (I)	n. m. sg.	fellow	
-138810	wn	w	w	conj.	and	
 138810	wn	w+n	w	conj.	and	
 138811	in	in/	ỉn	n. m. sg.	lack of	
 138812	bt	bt(II)/	bt (II)	n. m. sg.	house	
@@ -1229,7 +1219,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138892	l	l(III)	l (III)	functor	certainly	
 138893	irtk	ir(t/t+k	ỉrt	n. f. sg.	breast	
 # KTU 1.4 V:6						
-138894	wn	w	w	conj.	and	
 138894	wn	w+n	w	conj.	and	
 138895	ap	ap(I)	ảp (I)	adv./conj.	also	
 138896	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf. / vb D inf.	to appoint the time	
@@ -2311,7 +2300,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139597	ġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 VII:53						
 139598	lmh	l(I)+h	l (I)	prep.	to	
-139598	lmh	šlm[:d+h	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 139598	lmh	lm(II)/+h	lm (II)	interr. pn.	why?	
 139599	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 139599	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	

@@ -261,6 +261,29 @@ class BootstrapTabletLabelingTest(unittest.TestCase):
             self.assertNotIn("hm", forms_map)
             self.assertNotIn("nn", forms_map)
 
+    def test_load_dulat_forms_does_not_index_bracketed_tail_as_standalone_form(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            conn = sqlite3.connect(db_path)
+            _init_bootstrap_schema(conn)
+            cur = conn.cursor()
+            entry_text = (
+                "<b>¶ Forms:</b> G prefc. <i>yqb</i>, suff. <i>yq</i>[<i>bh</i>]. <br><b>G</b>."
+            )
+            cur.execute(
+                "INSERT INTO entries(entry_id, lemma, homonym, pos, text) "
+                "VALUES (1, '/n-q-b/', '', 'vb', ?)",
+                (entry_text,),
+            )
+            cur.execute("INSERT INTO forms(entry_id, text) VALUES (1, 'yqb')")
+            cur.execute("INSERT INTO translations(entry_id, text) VALUES (1, 'to pierce')")
+            conn.commit()
+            conn.close()
+
+            forms_map = load_dulat_forms(db_path)
+            self.assertIn("yqbh", forms_map)
+            self.assertNotIn("bh", forms_map)
+
     def test_load_dulat_forms_does_not_collapse_non_ascii_form_letters(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "dulat.sqlite"

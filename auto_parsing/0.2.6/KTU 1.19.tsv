@@ -240,12 +240,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 I:34						
 145686	tbky	!t!bky[	/b-k-y/	vb G prefc.	to weep	
 145687	pġt	pġ(t/t	pġt	n. f. sg.	girl	
-145688	bm	b	b	prep.	in	
 145688	bm	b+m(I)	b	prep.	in	
 145689	lb	lb/	lb	n. m. sg.	heart	
 # KTU 1.19 I:35						
 145690	tdmˤ	!t!dmˤ[	/d-m-ʕ/	vb G prefc.	to shed tears	
-145691	bm	b	b	prep.	in	
 145691	bm	b+m(I)	b	prep.	in	
 145692	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
 # KTU 1.19 I:36						
@@ -529,7 +527,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145867	ġzr	ġzr/	ġzr	n. m. sg.	lad	
 # KTU 1.19 II:25						
 145868	tštk	!t!št[k	/š-t/	vb G prefc.	to place	
-145869	bm	b	b	prep.	in	
 145869	bm	b+m(I)	b	prep.	in	
 145870	qrbm	qrb/	qrb	n. m. sg.	inside	
 145871	asm	asm/	ảsm	n. m. sg.	granary	
@@ -600,7 +597,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145916	rbˤt	rbˤ(t/t	rbʕt	num. sg.	a fourth	
 145917	lṯqlm	?	?	?	?	DULAT: NOT FOUND
 145918	tgrrn	?	?	?	?	DULAT: NOT FOUND
-145919	bm	b	b	prep.	in	
 145919	bm	b+m(I)	b	prep.	in	
 # KTU 1.19 II:35						
 145920	yd	yd(I)/	yd (I)	n. f. sg.	hand	
@@ -701,9 +697,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145977	b	b	b	prep.	in	
 145978	aph	ap(I)+h	ảp (I)	adv./conj.	also	
 145978	aph	ap(II)/+h	ảp (II)	n. m.	nose	
-145979	bh	b	b	prep.	in	
 145979	bh	b+h	b	prep.	in	
-145979	bh	nqb[	/n-q-b/	vb	to pierce	
 145980	pˤnm	pˤn/m	pʕn	n. f. du.	foot	
 # KTU 1.19 II:45						
 145981	tṭṭ	nṭṭ[	/n-ṭ-ṭ/	vb G prefc.	to shake	
@@ -1090,7 +1084,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146242	ˤẓm	ˤẓm(II)/	ʕẓm (II)	adj. m. sg.	imposing	
 146243	w	w	w	conj.	and	
 146244	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
-146245	bhm	b	b	prep.	in	
 146245	bhm	b+hm	b	prep.	in	
 146245	bhm	b+m(I)	b	prep.	in	
 # KTU 1.19 III:40						
@@ -1442,6 +1435,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146468	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 146468	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
 146469	w	w	w	conj.	and	
+146470	yqry	!y!qry[	/q-r-y/	vb	to meet	
 146470	yqry	!y!qr(y[:d+y	/q-r-y/	vb D prefc.	to meet	
 # KTU 1.19 IV:23						
 146471	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	

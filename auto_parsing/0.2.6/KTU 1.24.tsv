@@ -134,9 +134,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147713	mhrh	mhr(II)/+h	mhr (II)	n. m. sg.	warrior strength	
 147714	la	la/	lả	n. m. sg.	power	
 # KTU 1.24 20						
-147715	bh	b	b	prep.	in	
 147715	bh	b+h	b	prep.	in	
-147715	bh	nqb[	/n-q-b/	vb	to pierce	
 147716	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 147716	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 147717	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -201,9 +199,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147754	ybrdmy	ybrdmy/	ybrdmy	DN	ybrdmy	
 147755	bta	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 30						
-147756	bh	b	b	prep.	in	
 147756	bh	b+h	b	prep.	in	
-147756	bh	nqb[	/n-q-b/	vb	to pierce	
 147757	lbu	lbu/	lbủ	n. m.	lion	
 147758	yˤrr	!y!ˤr[r	/ʕ-r/	vb	to become agitated	
 147759	w	w	w	conj.	and	
@@ -215,7 +211,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147761	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 147762	nyr	nyr/	nyr	n. f. sg.	luminary	
 147763	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
-147764	wn	w	w	conj.	and	
 147764	wn	w+n	w	conj.	and	
 147765	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. / n. f. du.	eye	
 147765	ˤn	ˤn[	/ʕ-n/	vb G impv.	to see	
