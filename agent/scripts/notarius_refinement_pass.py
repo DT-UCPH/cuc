@@ -25,6 +25,7 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from project_paths import get_project_paths  # noqa: E402
+from text_fabric import ensure_generated_cuc_tablet_sources  # noqa: E402
 
 
 SEPARATOR_RE = re.compile(
@@ -345,6 +346,11 @@ def main() -> None:
         help="Directory with raw CUC tablet TSV files used for id->ref mapping.",
     )
     parser.add_argument(
+        "--skip-source-refresh",
+        action="store_true",
+        help="Do not refresh generated Text-Fabric raw sources before mapping ids to refs.",
+    )
+    parser.add_argument(
         "--min-claim-strength",
         choices=["weak", "moderate", "strong"],
         default="moderate",
@@ -361,7 +367,13 @@ def main() -> None:
     if not result_files:
         raise SystemExit("No result files matched.")
 
-    id_to_ref = map_ids_to_refs(Path(args.cuc_dir))
+    cuc_dir = Path(args.cuc_dir).expanduser().resolve()
+    if not args.skip_source_refresh:
+        export_summary = ensure_generated_cuc_tablet_sources(paths, cuc_dir)
+        if export_summary is not None:
+            cuc_dir = export_summary.output_dir
+
+    id_to_ref = map_ids_to_refs(cuc_dir)
     evidence_by_ref = load_evidence(Path(args.evidence), min_claim_strength=args.min_claim_strength)
     hits = collect_hits(result_files, id_to_ref=id_to_ref, evidence_by_ref=evidence_by_ref)
     write_report(hits, Path(args.report))

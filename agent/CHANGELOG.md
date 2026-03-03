@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-03-03
+
+- Replaced the migrated static raw source fallback with reproducible Text-Fabric export:
+  - added `text_fabric/tablet_source_exporter.py` and `scripts/export_text_fabric_tablet_sources.py` to build canonical `cuc_tablets_tsv` files from the latest in-repo `tf/<version>/` dataset.
+  - `project_paths.py` now resolves the default raw source directory to `agent/generated_sources/cuc_tablets_tsv/<latest-tf-version>` instead of `agent/local_sources/cuc_tablets_tsv`.
+  - `scripts/run_tablet_parsing_pipeline.py` and `scripts/notarius_refinement_pass.py` now refresh generated raw sources automatically when they target that generated directory (with `--skip-source-refresh` available for manual control).
+  - added regression coverage in `tests/test_project_paths.py` and `tests/test_text_fabric_tablet_source_exporter.py`.
+
 ## 2026-02-25
 
 - Fixed verb stem/form enrichment gaps for suffixed/enclitic verb spellings:

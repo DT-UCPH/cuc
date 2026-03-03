@@ -15,7 +15,9 @@ class ProjectPaths:
         self.repo_root = self.agent_root.parent
         self.data_sources_dir = self.agent_root / "data_sources"
         self.local_sources_dir = self.agent_root / "local_sources"
+        self.generated_sources_dir = self.agent_root / "generated_sources"
         self.reports_dir = self.agent_root / "reports"
+        self.tf_root_dir = self.repo_root / "tf"
 
     def default_dulat_db(self) -> Path:
         return self._env_or_candidates(
@@ -77,14 +79,41 @@ class ProjectPaths:
             ],
         )
 
-    def default_source_dir(self) -> Path:
-        return self._env_or_candidates(
-            "CUC_SOURCE_DIR",
-            [
-                self.local_sources_dir / "cuc_tablets_tsv",
-                self.repo_root / "cuc_tablets_tsv",
-            ],
+    def latest_tf_version(self) -> str:
+        versions = (
+            sorted(
+                [path for path in self.tf_root_dir.iterdir() if path.is_dir()],
+                key=_version_sort_key,
+            )
+            if self.tf_root_dir.exists()
+            else []
         )
+        if not versions:
+            raise FileNotFoundError(f"No Text-Fabric versions found under {self.tf_root_dir}")
+        return versions[-1].name
+
+    def default_source_dir(self) -> Path:
+        env_value = os.environ.get("CUC_SOURCE_DIR", "").strip()
+        if env_value:
+            return Path(env_value).expanduser().resolve()
+        return self.generated_sources_dir / "cuc_tablets_tsv" / self.latest_tf_version()
+
+    def is_generated_source_dir(self, path: Path) -> bool:
+        resolved = path.expanduser().resolve()
+        generated_root = (self.generated_sources_dir / "cuc_tablets_tsv").resolve()
+        return _is_relative_to(resolved, generated_root)
+
+    def generated_source_version(self, path: Path) -> str | None:
+        resolved = path.expanduser().resolve()
+        generated_root = (self.generated_sources_dir / "cuc_tablets_tsv").resolve()
+        if not _is_relative_to(resolved, generated_root):
+            return None
+        relative = resolved.relative_to(generated_root)
+        if not relative.parts:
+            return None
+        version = relative.parts[0]
+        candidate = self.tf_root_dir / version
+        return version if candidate.exists() else None
 
     def default_output_dir(self) -> Path:
         env_value = os.environ.get("CUC_OUTPUT_DIR", "").strip()
@@ -144,6 +173,14 @@ class ProjectPaths:
         if existing is not None:
             return existing
         return candidates[0]
+
+
+def _is_relative_to(path: Path, root: Path) -> bool:
+    try:
+        path.relative_to(root)
+    except ValueError:
+        return False
+    return True
 
 
 def _version_sort_key(path: Path) -> tuple[int, ...]:

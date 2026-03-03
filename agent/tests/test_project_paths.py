@@ -43,6 +43,20 @@ class ProjectPathsTest(unittest.TestCase):
 
             self.assertEqual(paths.default_output_dir(), auto_root / "0.10.0")
 
+    def test_default_source_dir_uses_latest_text_fabric_version(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            agent_root = self._make_agent_root(Path(tmp_dir))
+            tf_root = agent_root.parent / "tf"
+            (tf_root / "0.2.5").mkdir(parents=True)
+            (tf_root / "0.2.6").mkdir(parents=True)
+
+            paths = ProjectPaths(anchor=agent_root)
+
+            self.assertEqual(
+                paths.default_source_dir(),
+                agent_root / "generated_sources" / "cuc_tablets_tsv" / "0.2.6",
+            )
+
     def test_env_override_wins(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             agent_root = self._make_agent_root(Path(tmp_dir))

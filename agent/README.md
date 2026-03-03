@@ -40,7 +40,7 @@ Generated files include:
 
 ## Tablet Parsing Pipeline
 
-Use the reusable pipeline from inside `agent/`. It auto-detects local DBs under `local_sources/`, structured output under `../auto_parsing/<latest-version>/`, and reports under `agent/reports`:
+Use the reusable pipeline from inside `agent/`. It auto-detects local DBs under `local_sources/`, exports raw source TSVs from the latest available `../tf/<version>/` into `agent/generated_sources/cuc_tablets_tsv/<version>/`, writes structured output under `../auto_parsing/<latest-version>/`, and refreshes reports under `agent/reports`:
 
 - Dry-run target discovery: `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/run_tablet_parsing_pipeline.py --dry-run`
 - Parse only missing tablets (default): `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/run_tablet_parsing_pipeline.py`
@@ -50,7 +50,7 @@ Use the reusable pipeline from inside `agent/`. It auto-detects local DBs under 
 
 Pipeline stages are:
 
-1. Start from prepared source files in `../cuc_tablets_tsv/*.tsv` when present, or copy local raw TSV inputs into `local_sources/cuc_tablets_tsv/` (token IDs + `# ... KTU ...` line references). The CUC-to-TSV conversion happens upstream.
+1. Export canonical raw TSV inputs from the latest available Text-Fabric release in `../tf/<version>/` into `generated_sources/cuc_tablets_tsv/<version>/` (or run `python scripts/export_text_fabric_tablet_sources.py` directly). These generated files keep the legacy `cuc_tablets_tsv` shape: token IDs plus `# ... KTU ...` line references.
 2. Build first-pass analyses from DULAT (`scripts/bootstrap_tablet_labeling.py`): for each surface form, fill columns 3-6 from DULAT form matches; keep unresolved rows explicit as `DULAT: NOT FOUND`.
 3. Re-rank and refine candidates with context (`scripts/refine_results_mentions.py`): combine direct form matches with conservative suffix splitting, then score using local context, reverse references (`dulat_reverse_refs`, `ktu_to_dulat`), and attestation/tablet-family signals.
 4. Keep the best aligned options per token: up to 3 analysis/DULAT/POS/gloss options per row (or 1 when evidence is clearly stronger), while preserving meaningful human comments.
