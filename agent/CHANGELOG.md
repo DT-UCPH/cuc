@@ -4,6 +4,7 @@
 
 - Replaced the migrated static raw source fallback with reproducible Text-Fabric export:
   - added `reviewed_migration/migrator.py` and `scripts/migrate_reviewed_tablet.py` to remap reviewed tablets onto the latest TF token ids and current auto-parsing POS/gloss conventions where alignment is reliable, with auto-row fallback for TF tokenization mismatches.
+  - refined reviewed-tablet migration preservation rules so simple token concatenations and splits keep the original reviewed rows under the remapped TF ids/surfaces, and x/`<>`-only surface edits keep the original reviewed analysis with a `Token changed from previous version.` comment.
   - migrated `reviewed/KTU 1.3.tsv` to latest TF ids and current row schema, preserving reviewed comments where possible and marking fallback rows as migrated from legacy tokenization.
   - `scripts/bootstrap_tablet_labeling.py` now supports default TF-backed source discovery (`--source-dir`, `--source-glob`, and automatic refresh) instead of requiring manually enumerated prebuilt raw TSV inputs.
   - removed the obsolete copied fallback directory under `agent/local_sources/cuc_tablets_tsv/`.

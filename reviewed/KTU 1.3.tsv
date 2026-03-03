@@ -123,11 +123,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137024	rb	rb(I)/	rb (I)	adj. m. sg.	great	TCS: 'Rabbu' as a DN, UNP: 'Daughter of Showers'
 137024	rb	rb(II)/	rb (II)	n. m. sg.	chief	TCS: 'Rabbu' as a DN, UNP: 'Daughter of Showers'
 137024	rb	rb/	rb(b)	n. m. sg.	drizzle	TCS: 'Rabbu' as a DN, UNP: 'Daughter of Showers'
-137025	pdry	pdry/	pdry	DN	Pidray	Migrated from legacy reviewed tokenization.
+137025	pdry	pdry/	pdry	DN	Pidray	Token changed from previous version.
 137026	idˤ	(y&idˤ[	/y-d-ʕ/ (I)	vb G prefc.	to know	adding y doesn't solve the problem
 # KTU 1.3 I:26						
 137027	x	?	?	?	?	
-137028	xxht	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137028	xxht	xht	?	?	?	Token changed from previous version.
 137029	im	im	ỉm	conj.	if	UNP has hm
 137030	klt	kl(t/t=	klt (I)	n. f. sg.	bride	
 # KTU 1.3 I:27						
@@ -170,7 +170,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137058	b	b	b	prep.	in	
 137059	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg.	valley	
 137060	tḫtṣb	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb	to fight	
-137061	bnx	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137061	bnx	bn	bn (I)	n. m.	son	
+137061	bnx	?	?	?	?	
 # KTU 1.3 II:7						
 137062	qrytm	qry(t/tm	qryt	n. f. du.	city	dual of qryt
 137063	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
@@ -384,7 +385,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137209	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. m. pl.	table	Migrated from legacy reviewed tokenization.
 137210	hdmm	hdm/m	hdm	n. m. pl.	footstool	
 137211	tṯar	!t!ṯar[	ṯảr	n. m.	surety, protection	
-137212	lhdmm	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137212	lhdmm	l(I)	l (I)	prep.	to	
+137212	lhdmm	hdm/m	hdm	n. m.	footstool	
 # KTU 1.3 II:38						
 137213	tḥspn	!t!ḥsp[~n	/ḥ-s-p/	vb G prefc. / vb G suffc.	to draw	G
 137214	mh	mh/	m(h)	pers. pn.	what?	
@@ -416,7 +418,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 III:2						
 137235	ẓuh	ẓu/+h=	ẓủ	n. m. sg.	exhalation	
 137236	b	b	b	prep.	in	
-137237	ymxxxxxx	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137237	ymxxxxxx	ym(II)/	ym (II)	n. m.	sea	
+137237	ymxxxxxx	?	?	?	?	
 # KTU 1.3 III:3						
 137238	xxxrn	xxxrn	?	?	?	
 137239	lxxxxxx	lxxxxxx	l (I)	prep.	to, towards, up to	
@@ -558,7 +561,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137346	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
 # KTU 1.3 III:27						
 137347	rgm	rgm/	rgm	n. m. sg.	word	
-137348	ltdˤ	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137348	ltdˤ	l(II)	l (II)	adv.	no	
+137348	ltdˤ	!t!(ydˤ(I)[	/y-d-ʕ/ (I)	vb	to know, to recognise, distinguish, consider	
 137349	nšm	nš(m/m	nšm	n. m. pl. tant. pl.	people	
 137350	wl	?		?	?	DULAT: NOT FOUND
 137351	tbn	!t!bn[	/b-n/	vb G prefc.	to understand	
@@ -795,10 +799,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137538	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
 137539	rgm	rgm/	rgm	n. m. sg.	word	
 137540	l	l(II)	l (II)	adv.	no	
-137541	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc.	to know	Migrated from legacy reviewed tokenization.
+137541	tdˤ	!t!(yd	yd (I)	n. f.	hand	MERGE WITH NEXT
+137541	tdˤ	?	?	?	?	MERGE WITH PREVIOUS
 137542	nšm	nš/m	nš	?		
 137543	w	w	w	conj.	and	
-137544	ltbn	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137544	ltbn	l(II)	l (II)	adv.	no	
+137544	ltbn	!t!bn[	/b-n/	vb	to understand	
 # KTU 1.3 IV:16						
 137545	hmlt	hml(t/t=	hmlt	n. f. pl.	multitude	
 137546	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
@@ -865,7 +871,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137598	šdm	šd(I)/m	šd (I)	n. m. pl.	open field	
 137599	yšt	!y!št[	/š-t(-t)/	vb	devastate, break	
 # KTU 1.3 IV:26						
-137600	bšmm	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137600	bšmm	b	b	prep.	in	
+137600	bšmm	šm(m(I)/m	šmm (I)	n. m.	heavens, sky	
 137601	bˤl	bˤl(II)	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 137602	mdlh	mdl(I)/h	mdl (I)	n. m.	riding gear	
 137603	ybˤr	!y!bˤr(I)[	/b-ʕ-r/ (I)	vb D prefc.	to illuminate	
@@ -998,7 +1005,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137707	xxxxxxxx	?	?	?	?	
 # KTU 1.3 IV:47						
 137708	bt	bt(II)/	bt (II)	n. m. sg.	house	line 47 p281
-137709	lbˤl	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137709	lbˤl	l(I)	l (I)	prep.	to	
+137709	lbˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 137710	km	k(III)	k (III)	functor	when	???
 137710	km	k(I)	k (I)	prep.	like	???
 137710	km	k(IV)	k (IV)	adv.	thus	???
@@ -1056,7 +1064,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137752	lh	l(I)+h	l (I)	prep.	to	
 137753	aṯb	!a!ṯb[	/ṯ-b/	vb	to return, turn round, go back, make one’s way, go through	
 # KTU 1.3 V:1						
-137754	xxxamṣḫ	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137754	xxxamṣḫ	?	?	?	?	
+137754	xxxamṣḫ	!(ʔ&a!mṣḫ[				DULAT: NOT FOUND ???
 137755	nn	nn	nn	PN		MERGE WITH PREVIOUS ? No! let us keep it as it is, separately!
 137756	k	+k	-k (I)			???
 137756	k	~k	-k (II)			???
@@ -1129,7 +1138,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137804	tbu	!t!b(ʔ&u[	/b-ʔ/	vb G prefc.	to enter	
 137805	ḏdm	ḏd(II)/m(I)	ḏd (II)	n. m. pl.	grotto	SUFFIX?
 137806	qny	qny[/	/q-n-y/	vb G act. ptcpl. m.	to acquire	active participle, Corrected text, SMITH p 325 line 9: tatanniyu
-137807	wadn	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137807	wadn	w	w	conj.	and	
+137807	wadn	adn(I)/	ảdn (I)	n. m.	lord, master	
 137808	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 137809	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.3 V:10						
@@ -1167,7 +1177,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 V:16						
 137834	mid	mid/	mỉ/ủd	n. m. sg.	abundance	
 137835	adn	adn/	ảdn (I)	n. m. sg.	lord	
-137836	xxxṣn	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137836	xxxṣn	?	?	?	?	
+137836	xxxṣn	ṣn				?; DULAT: NOT FOUND
 137837	ˤxxxxxxxxx	?	?	?	?	
 # KTU 1.3 V:17						
 137838	nrm	nr/~m	nr	n. m.	sheen	SMITH p326: nr(t/t  line 17
@@ -1183,10 +1194,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137847	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 137848	mt	mt(II)/	mt (II)	n. m. sg.	death	
 # KTU 1.3 V:19						
-137849	w	w	w	conj.	and	Migrated from legacy reviewed tokenization.
-137850	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	Migrated from legacy reviewed tokenization.
-137850	tˤn	!t!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	Migrated from legacy reviewed tokenization.
-137850	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	Migrated from legacy reviewed tokenization.
+137849	w	w  !t!ˤn(y(I)/				SPLIT!; DULAT: NOT FOUND ???
+137850	tˤn	w  !t!ˤn(y(I)/				SPLIT!; DULAT: NOT FOUND ???
 137851	btlt	btl(t/t	btlt	n. f. sg.	virgin	
 137852	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 137853	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
@@ -1217,7 +1226,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137873	b	b	b	prep.	in	
 137874	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg.	power	Page 326 Line 23
 137875	arkty	ark(t/t+y	ảrkt	n. f. sg.	length (of arm, etc.)	
-137876	amḫṣxxx	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+137876	amḫṣxxx	!(ʔ&a!mḫṣ[	/m-ḫ-ṣ/	vb	to wound, beat, crush, kill	
+137876	amḫṣxxx	?	?	?	?	
 # KTU 1.3 V:24						
 137877	qdqdhk	qdqd&h/+k	qdqd	n. m.	skull	Extra h? Not in Smith p 326 line 23
 137878	ašhlk	!(ʔ&a!]š]hlk[	/h-l-k/	vb Š prefc.	to go	
@@ -1514,7 +1524,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138091	kmn	kmn(I)/	kmn (I)	n. m. sg.	acre	
 138092	l	l(I)	l (I)	prep.	to	
 138093	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-138094	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	Migrated from legacy reviewed tokenization.
+138094	kṯr	kṯ<r>(III)/	kṯr (III)			DULAT: NOT FOUND | Token changed from previous version.
 # KTU 1.3 VI:30						
 138095	hbr	hbr[	/h-b-r/	vb G impv.	to bow	
 138096	w	w	w	conj.	and	

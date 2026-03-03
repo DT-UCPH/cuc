@@ -30,6 +30,9 @@ class TokenGroup:
 class ReviewedTabletMigrator:
     """Rewrite reviewed tablets against the current TF raw token stream."""
 
+    _EDITORIAL_CHANGE_COMMENT = "Token changed from previous version."
+    _LEGACY_TOKENIZATION_COMMENT = "Migrated from legacy reviewed tokenization."
+
     def migrate(self, reviewed_path: Path, raw_path: Path, auto_path: Path) -> str:
         reviewed_groups = self._parse_reviewed_groups(reviewed_path)
         raw_groups = self._parse_raw_groups(raw_path)
@@ -50,9 +53,33 @@ class ReviewedTabletMigrator:
                     raw_group = raw_groups[j1 + offset]
                     auto_group = auto_by_id.get(raw_group.token_id)
                     if reviewed_group.surface != raw_group.surface:
-                        emitted = self._fallback_group(raw_group, auto_group)
+                        if self._is_editorial_surface_change_only(
+                            reviewed_group.surface, raw_group.surface
+                        ):
+                            emitted = self._preserve_reviewed_group(
+                                reviewed_group,
+                                raw_group,
+                                extra_comment=self._EDITORIAL_CHANGE_COMMENT,
+                            )
+                        else:
+                            emitted = self._fallback_group(raw_group, auto_group)
                     else:
                         emitted = self._migrate_aligned_group(reviewed_group, raw_group, auto_group)
+                    current_ref = self._append_group(
+                        output_lines, current_ref, raw_group.ref, emitted
+                    )
+                continue
+
+            if self._is_simple_concatenation(reviewed_groups[i1:i2], raw_groups[j1:j2]):
+                raw_group = raw_groups[j1]
+                emitted = self._preserve_reviewed_groups(reviewed_groups[i1:i2], raw_group)
+                current_ref = self._append_group(output_lines, current_ref, raw_group.ref, emitted)
+                continue
+
+            if self._is_simple_split(reviewed_groups[i1:i2], raw_groups[j1:j2]):
+                reviewed_group = reviewed_groups[i1]
+                for raw_group in raw_groups[j1:j2]:
+                    emitted = self._preserve_reviewed_group(reviewed_group, raw_group)
                     current_ref = self._append_group(
                         output_lines, current_ref, raw_group.ref, emitted
                     )
@@ -106,13 +133,68 @@ class ReviewedTabletMigrator:
             rows=tuple(refreshed_rows),
         )
 
+    def _preserve_reviewed_group(
+        self,
+        reviewed_group: TokenGroup,
+        raw_group: TokenGroup,
+        extra_comment: str | None = None,
+    ) -> TokenGroup:
+        return TokenGroup(
+            token_id=raw_group.token_id,
+            surface=raw_group.surface,
+            ref=raw_group.ref,
+            rows=tuple(
+                TokenRow(
+                    token_id=raw_group.token_id,
+                    surface=raw_group.surface,
+                    ref=raw_group.ref,
+                    analysis=row.analysis,
+                    dulat=row.dulat,
+                    pos=row.pos,
+                    gloss=row.gloss,
+                    comment=self._append_comment(row.comment, extra_comment)
+                    if extra_comment
+                    else row.comment,
+                )
+                for row in reviewed_group.rows
+            ),
+        )
+
+    def _preserve_reviewed_groups(
+        self,
+        reviewed_groups: list[TokenGroup],
+        raw_group: TokenGroup,
+        extra_comment: str | None = None,
+    ) -> TokenGroup:
+        preserved_rows: list[TokenRow] = []
+        for reviewed_group in reviewed_groups:
+            for row in reviewed_group.rows:
+                preserved_rows.append(
+                    TokenRow(
+                        token_id=raw_group.token_id,
+                        surface=raw_group.surface,
+                        ref=raw_group.ref,
+                        analysis=row.analysis,
+                        dulat=row.dulat,
+                        pos=row.pos,
+                        gloss=row.gloss,
+                        comment=self._append_comment(row.comment, extra_comment)
+                        if extra_comment
+                        else row.comment,
+                    )
+                )
+        return TokenGroup(
+            token_id=raw_group.token_id,
+            surface=raw_group.surface,
+            ref=raw_group.ref,
+            rows=tuple(preserved_rows),
+        )
+
     def _fallback_group(self, raw_group: TokenGroup, auto_group: TokenGroup | None) -> TokenGroup:
         source_rows = list(auto_group.rows) if auto_group is not None else list(raw_group.rows)
         migrated_rows: list[TokenRow] = []
         for row in source_rows:
-            comment = self._append_comment(
-                row.comment, "Migrated from legacy reviewed tokenization."
-            )
+            comment = self._append_comment(row.comment, self._LEGACY_TOKENIZATION_COMMENT)
             migrated_rows.append(
                 TokenRow(
                     token_id=raw_group.token_id,
@@ -182,13 +264,45 @@ class ReviewedTabletMigrator:
             return existing
         return f"{existing} | {extra}"
 
+    def _is_simple_concatenation(
+        self, reviewed_groups: list[TokenGroup], raw_groups: list[TokenGroup]
+    ) -> bool:
+        if len(reviewed_groups) < 2 or len(raw_groups) != 1:
+            return False
+        concatenated_reviewed = "".join(
+            self._normalize_surface(group.surface) for group in reviewed_groups
+        )
+        raw_surface = self._normalize_surface(raw_groups[0].surface)
+        return concatenated_reviewed == raw_surface
+
+    def _is_simple_split(
+        self, reviewed_groups: list[TokenGroup], raw_groups: list[TokenGroup]
+    ) -> bool:
+        if len(reviewed_groups) != 1 or len(raw_groups) < 2:
+            return False
+        reviewed_surface = self._normalize_surface(reviewed_groups[0].surface)
+        concatenated_raw = "".join(self._normalize_surface(group.surface) for group in raw_groups)
+        return reviewed_surface == concatenated_raw
+
+    def _is_editorial_surface_change_only(self, reviewed_surface: str, raw_surface: str) -> bool:
+        if reviewed_surface == raw_surface:
+            return False
+        return self._strip_editorial_marks(reviewed_surface) == self._strip_editorial_marks(
+            raw_surface
+        )
+
+    @staticmethod
+    def _strip_editorial_marks(surface: str) -> str:
+        normalized = surface.replace("ˤ", "ʿ").replace("bˤl", "bʿl")
+        return normalized.replace("<", "").replace(">", "").replace("x", "").replace(" ", "")
+
     @staticmethod
     def _normalize_surface(surface: str) -> str:
         normalized = surface.replace("ˤ", "ʿ").replace("bˤl", "bʿl")
         replacements = {
             "pdr<y>": "pdry",
             "xxht": "xht",
-            "w  tˤn": "wtʿn",
+            "w  tʿn": "wtʿn",
             "kṯ<r>": "kṯr",
             "hkm": "ḥkm",
             "ṯlḥ<t>": "ṯlḥnt",
