@@ -43,6 +43,7 @@ Generated files include:
 Use the reusable pipeline from inside `agent/`. It auto-detects local DBs under `local_sources/`, exports raw source TSVs from the latest available `../tf/<version>/` into `agent/generated_sources/cuc_tablets_tsv/<version>/`, writes structured output under `../auto_parsing/<latest-version>/`, and refreshes reports under `agent/reports`:
 
 - Dry-run target discovery: `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/run_tablet_parsing_pipeline.py --dry-run`
+- Export raw tablet sources only: `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/export_text_fabric_tablet_sources.py`
 - Parse only missing tablets (default): `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/run_tablet_parsing_pipeline.py`
 - Parse specific tablets: `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/run_tablet_parsing_pipeline.py --files 'KTU 1.181.tsv' 'KTU 1.182.tsv'`
 - Reprocess existing outputs too: `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/run_tablet_parsing_pipeline.py --include-existing`

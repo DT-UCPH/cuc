@@ -5,8 +5,8 @@ This guide defines how to produce morphological labeling for a new unlabeled Uga
 - `agent/Tagging conventions.md` (authoritative tagging policy),
 - attested practice in checked project files (for example `data/KTU_1.3 Martjin_Tania_checked.txt`),
 - lexical and form evidence from:
-  - `sources/dulat_cache.sqlite` (DULAT),
-  - `sources/udb_cache.sqlite` (UDB, secondary check).
+  - `local_sources/dulat_cache.sqlite` (DULAT),
+  - `local_sources/udb_cache.sqlite` (UDB, secondary check).
 
 Use this guide as an execution protocol, not as general background.
 
@@ -24,12 +24,12 @@ Input line (unlabeled) is expected to contain at least:
 1. `col1`: token ID (integer),
 2. `col2`: surface token.
 
-Raw sources may also be in `cuc_tablets_tsv` format:
+Raw sources may also be in generated `cuc_tablets_tsv` format:
 
 - separator rows like `#---------------------------- KTU 1.5 I:1`,
 - token rows as 3 columns: `id<TAB>surface<TAB>surface` (third column is a placeholder, not a parse).
 
-When working directly in `cuc_tablets_tsv`:
+When working directly in generated `cuc_tablets_tsv`:
 
 - preserve separator rows,
 - keep `col1` and `col2` unchanged,
@@ -70,9 +70,9 @@ Do not duplicate structured `DULAT/POS/gloss` payload in comments.
 
 Linter mode for this format:
 
-- raw source: `python linter/lint.py 'cuc_tablets_tsv/KTU 1.5.tsv' --input-format cuc_tablets_tsv --dulat sources/dulat_cache.sqlite --udb sources/udb_cache.sqlite`
-- labeled file: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format labeled --dulat sources/dulat_cache.sqlite --udb sources/udb_cache.sqlite`
-- mixed project runs: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format auto --dulat sources/dulat_cache.sqlite --udb sources/udb_cache.sqlite`.
+- raw source: `python scripts/export_text_fabric_tablet_sources.py && python linter/lint.py 'generated_sources/cuc_tablets_tsv/<latest-tf-version>/KTU 1.5.tsv' --input-format cuc_tablets_tsv --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`
+- labeled file: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format labeled --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`
+- mixed project runs: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format auto --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`.
 - token-id to KTU header lookup: `python3 scripts/token_ref_index.py --id 139891 --glob 'out/KTU 1.*.tsv'`
 
 ---
@@ -180,7 +180,7 @@ Markers do not have to appear immediately after `[`. They can appear after tense
 
 ### 4.1 DULAT database and key tables
 
-Path: `sources/dulat_cache.sqlite`
+Path: `local_sources/dulat_cache.sqlite`
 
 Primary tables used:
 
@@ -200,7 +200,7 @@ Recommended checks:
 
 ### 4.2 UDB database and key table
 
-Path: `sources/udb_cache.sqlite`
+Path: `local_sources/udb_cache.sqlite`
 
 Primary table:
 
@@ -315,7 +315,7 @@ Use module resources as a second-pass disambiguation layer after lexical matchin
 Module sources:
 
 - Web UI: `/modules/`, `/modules/TCS/`, `/modules/Smith/`
-- DB: `sources/modules_cache.sqlite`
+- DB: `local_sources/modules_cache.sqlite`
   - `modules(id, title, ...)`
   - `module_records(module_id, record_id, ref_norm, content_text, ...)`
   - `module_refs(record_id, ref_norm, ref_display, ref_system)`
@@ -335,8 +335,8 @@ Important limitation:
 
 Notarius (verb-focused reference):
 
-- Source HTML: `sources/notarius.compact.html`
-- Extracted evidence (recommended): `sources/notarius_evidence_claims.json`, `sources/notarius_evidence_context.json`
+- Source HTML: `local_sources/notarius.compact.html`
+- Extracted evidence (recommended): `local_sources/notarius_evidence_claims.json`, `sources/notarius_evidence_context.json`
 - Supporting script: `scripts/notarius_refinement_pass.py`
 
 Use Notarius evidence to prioritize checks for:

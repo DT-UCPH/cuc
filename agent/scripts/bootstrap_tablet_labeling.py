@@ -22,7 +22,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from project_paths import get_project_paths  # noqa: E402
+from project_paths import ProjectPaths, get_project_paths  # noqa: E402
+from text_fabric import ensure_generated_cuc_tablet_sources  # noqa: E402
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text  # noqa: E402
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts  # noqa: E402
 
@@ -299,6 +300,31 @@ def build_row(line_id: str, surface: str, entries: List[Entry], max_variants: in
     )
 
 
+def discover_input_files(
+    paths: ProjectPaths,
+    inputs: List[str],
+    source_dir: Path,
+    source_glob: str,
+    skip_source_refresh: bool,
+) -> List[Path]:
+    resolved_source_dir = source_dir.expanduser().resolve()
+    if not skip_source_refresh:
+        export_summary = ensure_generated_cuc_tablet_sources(paths, resolved_source_dir)
+        if export_summary is not None:
+            resolved_source_dir = export_summary.output_dir
+
+    if inputs:
+        resolved_inputs: List[Path] = []
+        for value in inputs:
+            candidate = Path(value).expanduser()
+            if not candidate.is_absolute() and candidate.parent == Path("."):
+                candidate = resolved_source_dir / value
+            resolved_inputs.append(candidate.resolve())
+        return resolved_inputs
+
+    return sorted(path.resolve() for path in resolved_source_dir.glob(source_glob))
+
+
 def process_file(in_path: Path, out_path: Path, forms_map: Dict[str, List[Entry]]) -> None:
     out_lines: List[str] = []
     for raw in in_path.read_text(encoding="utf-8").splitlines():
@@ -327,7 +353,26 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Bootstrap KTU tablet to structured morphology TSV."
     )
-    parser.add_argument("input", nargs="+", help="Input raw cuc_tablets_tsv files")
+    parser.add_argument(
+        "input",
+        nargs="*",
+        help="Input raw cuc_tablets_tsv files or basenames in --source-dir",
+    )
+    parser.add_argument(
+        "--source-dir",
+        default=str(paths.default_source_dir()),
+        help="Directory with raw cuc_tablets_tsv files when input is omitted",
+    )
+    parser.add_argument(
+        "--source-glob",
+        default="KTU *.tsv",
+        help="Glob used with --source-dir when no explicit input files are given",
+    )
+    parser.add_argument(
+        "--skip-source-refresh",
+        action="store_true",
+        help="Do not refresh generated Text-Fabric raw sources before bootstrapping",
+    )
     parser.add_argument(
         "--dulat-db",
         default=str(paths.default_dulat_db()),
@@ -336,12 +381,21 @@ def main() -> None:
     parser.add_argument("--out-dir", default="results", help="Output directory")
     args = parser.parse_args()
 
+    input_files = discover_input_files(
+        paths=paths,
+        inputs=list(args.input),
+        source_dir=Path(args.source_dir),
+        source_glob=str(args.source_glob),
+        skip_source_refresh=bool(args.skip_source_refresh),
+    )
+    if not input_files:
+        raise SystemExit("No input files matched.")
+
     forms_map = load_dulat_forms(Path(args.dulat_db))
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    for f in args.input:
-        inp = Path(f)
+    for inp in input_files:
         out = out_dir / inp.name
         process_file(inp, out, forms_map)
         print(f"Wrote {out}")

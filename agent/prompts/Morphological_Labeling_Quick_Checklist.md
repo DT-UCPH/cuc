@@ -10,9 +10,9 @@ For full rules and examples, see `agent/Morphological_Labeling_Agent_Guide.md`.
    - keep separator rows starting with `#----------------------------`,
    - token rows are `id<TAB>surface<TAB>surface` where `col3` is only a placeholder.
 3. Use linter format mode explicitly when needed:
-   - raw CUC TSV: `python linter/lint.py 'cuc_tablets_tsv/KTU 1.5.tsv' --input-format cuc_tablets_tsv --dulat sources/dulat_cache.sqlite --udb sources/udb_cache.sqlite`
-   - labeled output: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format labeled --dulat sources/dulat_cache.sqlite --udb sources/udb_cache.sqlite`
-   - mixed/unknown: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format auto --dulat sources/dulat_cache.sqlite --udb sources/udb_cache.sqlite`.
+   - raw CUC TSV: `python scripts/export_text_fabric_tablet_sources.py && python linter/lint.py 'generated_sources/cuc_tablets_tsv/<latest-tf-version>/KTU 1.5.tsv' --input-format cuc_tablets_tsv --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`
+   - labeled output: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format labeled --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`
+   - mixed/unknown: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format auto --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`.
 4. Check weak-final finite SC `-t` forms: for `/...-...-y/` or `/...-...-w/` verbs with surface ending `t`, use `[t` (for example `nš(y[t:n`), not `t[`.
 5. For quick token-id -> line-reference lookup in current TSV files, use:
    - `python3 scripts/token_ref_index.py --id 139891 --glob 'out/KTU 1.*.tsv'`
@@ -29,11 +29,11 @@ For full rules and examples, see `agent/Morphological_Labeling_Agent_Guide.md`.
    Use these when one surface form maps to multiple DULAT entries.
 8. Translation/commentary modules:
    - UI: `/modules/TCS/`, `/modules/Smith/`
-   - DB: `sources/modules_cache.sqlite` (`module_records`, `module_refs`)
+   - DB: `local_sources/modules_cache.sqlite` (`module_records`, `module_refs`)
    Use this as contextual evidence for unresolved lexical/POS ties after DULAT + reverse mentions.
 7. Verb-specific refinement aid:
-   - `sources/notarius.compact.html`
-   - extracted evidence JSON: `sources/notarius_evidence_claims.json`
+   - `local_sources/notarius.compact.html`
+   - extracted evidence JSON: `local_sources/notarius_evidence_claims.json`
    - helper: `scripts/notarius_refinement_pass.py`
    Use primarily for stem/voice/infinitive-participle decision points.
 8. Output format per line:
