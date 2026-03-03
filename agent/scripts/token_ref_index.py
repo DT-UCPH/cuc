@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
 import argparse
+import glob
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable, List, Optional, Set
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from project_paths import get_project_paths  # noqa: E402
 
 
 @dataclass
@@ -54,10 +62,11 @@ def iter_token_refs(path: Path) -> Iterable[TokenRef]:
 def discover_files(explicit: List[str], glob_pattern: str) -> List[Path]:
     if explicit:
         return [Path(p) for p in explicit]
-    return sorted(Path(".").glob(glob_pattern))
+    return [Path(p) for p in sorted(glob.glob(glob_pattern))]
 
 
 def main() -> None:
+    paths = get_project_paths(REPO_ROOT)
     parser = argparse.ArgumentParser(
         description="Index token IDs to KTU reference headers in TSV files."
     )
@@ -68,7 +77,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--glob",
-        default="out/KTU 1.*.tsv",
+        default=paths.default_token_ref_glob(),
         help="Glob pattern used when files are not provided.",
     )
     parser.add_argument(
@@ -103,9 +112,7 @@ def main() -> None:
 
     lines = ["file\tline_no\tline_id\tsurface\tref"]
     for row in rows:
-        lines.append(
-            f"{row.file}\t{row.line_no}\t{row.line_id}\t{row.surface}\t{row.ref}"
-        )
+        lines.append(f"{row.file}\t{row.line_no}\t{row.line_id}\t{row.surface}\t{row.ref}")
     text = "\n".join(lines)
 
     if args.output:

@@ -7,6 +7,7 @@ from typing import Dict
 
 from pipeline.steps.base import RefinementStep, TabletRow
 from pipeline.steps.onomastic_overrides import OnomasticOverrideStore
+from project_paths import get_project_paths
 
 _ONOMASTIC_POS_TAGS = ("DN", "PN", "TN", "MN", "GN")
 _ONOMASTIC_CHAR_MAP = str.maketrans(
@@ -43,7 +44,10 @@ class OnomasticGlossOverrideFixer(RefinementStep):
         overrides_path: Path | None = None,
         overrides: Dict[str, str] | None = None,
     ) -> None:
-        self._overrides_path = overrides_path or Path("data/onomastic_gloss_overrides.tsv")
+        self._overrides_path = overrides_path or (
+            get_project_paths(Path(__file__).resolve()).data_sources_dir
+            / "onomastic_gloss_overrides.tsv"
+        )
         if overrides is not None:
             self._store = OnomasticOverrideStore.from_gloss_map(overrides)
         else:

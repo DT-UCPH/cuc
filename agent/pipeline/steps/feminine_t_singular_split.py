@@ -10,6 +10,7 @@ from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface
 from pipeline.steps.base import RefinementStep, TabletRow
 from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.onomastic_overrides import OnomasticOverrideStore
+from project_paths import get_project_paths
 
 _ONOMASTIC_POS_TAGS: Sequence[str] = ("DN", "PN", "TN", "GN", "MN")
 _UNSPLIT_FEM_T_RE = re.compile(r"^(?P<stem>.+?)t(?P<hom>\([IVX]+\))?/$")
@@ -56,7 +57,10 @@ class FeminineTSingularSplitFixer(RefinementStep):
         feminine_onomastic_tokens: set[str] | None = None,
         gate: Optional[DulatMorphGate] = None,
     ) -> None:
-        self._overrides_path = overrides_path or Path("data/onomastic_gloss_overrides.tsv")
+        self._overrides_path = overrides_path or (
+            get_project_paths(Path(__file__).resolve()).data_sources_dir
+            / "onomastic_gloss_overrides.tsv"
+        )
         self._gate = gate
         if feminine_onomastic_tokens is None:
             store = OnomasticOverrideStore.from_tsv(self._overrides_path)

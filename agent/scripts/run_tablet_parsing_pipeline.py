@@ -10,35 +10,38 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
+from project_paths import get_project_paths  # noqa: E402
+
 
 def build_parser() -> argparse.ArgumentParser:
+    paths = get_project_paths(REPO_ROOT)
     parser = argparse.ArgumentParser(
-        description="Parse KTU tablets into out/*.tsv and refresh reports."
+        description="Parse KTU tablets into structured TSV output and refresh reports."
     )
     parser.add_argument(
         "--source-dir",
-        default="cuc_tablets_tsv",
+        default=str(paths.default_source_dir()),
         help="Directory with raw source tablets",
     )
     parser.add_argument(
         "--out-dir",
-        default="out",
+        default=str(paths.default_output_dir()),
         help="Directory for structured parsed tablets",
     )
     parser.add_argument(
         "--dulat-db",
-        default="sources/dulat_cache.sqlite",
+        default=str(paths.default_dulat_db()),
         help="Path to DULAT sqlite cache",
     )
     parser.add_argument(
         "--udb-db",
-        default="sources/udb_cache.sqlite",
+        default=str(paths.default_udb_db()),
         help="Path to UDB sqlite cache",
     )
     parser.add_argument(
         "--include-existing",
         action="store_true",
-        help="Reprocess files already present in out/",
+        help="Reprocess files already present in the output directory",
     )
     parser.add_argument(
         "--source-glob",

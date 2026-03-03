@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: E402, I001
 """
 Run a conservative morphology refinement pass using extracted Notarius evidence.
 
@@ -14,9 +15,16 @@ import csv
 import glob
 import json
 import re
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Sequence
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from project_paths import get_project_paths  # noqa: E402
 
 
 SEPARATOR_RE = re.compile(
@@ -90,9 +98,7 @@ class Evidence:
     text: str
 
 
-def load_evidence(
-    evidence_path: Path, min_claim_strength: str
-) -> Dict[str, List[Evidence]]:
+def load_evidence(evidence_path: Path, min_claim_strength: str) -> Dict[str, List[Evidence]]:
     rank = {"none": 0, "weak": 1, "moderate": 2, "strong": 3}
     threshold = rank.get(min_claim_strength, 2)
     data = json.loads(evidence_path.read_text(encoding="utf-8"))
@@ -160,9 +166,7 @@ def detect_suggestions(analysis: str, ev: Evidence) -> List[str]:
     has_inf = "[/" in analysis
     has_pass = ":pass" in analysis
     has_nstem = (
-        bool(re.search(r"![^!]+!n", analysis))
-        or "!n!" in analysis
-        or analysis.startswith("n")
+        bool(re.search(r"![^!]+!n", analysis)) or "!n!" in analysis or analysis.startswith("n")
     )
     has_t_infix = "]t]" in analysis
     has_s_infix = "]š]" in analysis
@@ -180,9 +184,7 @@ def detect_suggestions(analysis: str, ev: Evidence) -> List[str]:
     if "s_stem" in tags and not has_s_infix:
         suggestions.append("consider Š marker ]š] or OR variant")
     if "debated" in tags:
-        suggestions.append(
-            "text-critical/debated in Notarius; keep OR in comment if needed"
-        )
+        suggestions.append("text-critical/debated in Notarius; keep OR in comment if needed")
     return suggestions
 
 
@@ -319,23 +321,27 @@ def print_summary(hits: Sequence[Hit]) -> None:
 
 
 def main() -> None:
+    paths = get_project_paths(REPO_ROOT)
     parser = argparse.ArgumentParser(
         description="Run Notarius-based refinement pass on results files."
     )
     parser.add_argument(
         "--evidence",
-        default="data/notarius_evidence_claims.json",
+        default=str(paths.default_notarius_evidence_claims()),
         help="Evidence JSON file (claims split is recommended).",
     )
     parser.add_argument(
         "--results",
         nargs="+",
-        default=["results/*.tsv", "results/*.txt"],
+        default=[
+            str(paths.default_output_dir() / "*.tsv"),
+            str(paths.default_output_dir() / "*.txt"),
+        ],
         help="Glob patterns for result files.",
     )
     parser.add_argument(
         "--cuc-dir",
-        default="cuc_tablets_tsv",
+        default=str(paths.default_source_dir()),
         help="Directory with raw CUC tablet TSV files used for id->ref mapping.",
     )
     parser.add_argument(
@@ -356,12 +362,8 @@ def main() -> None:
         raise SystemExit("No result files matched.")
 
     id_to_ref = map_ids_to_refs(Path(args.cuc_dir))
-    evidence_by_ref = load_evidence(
-        Path(args.evidence), min_claim_strength=args.min_claim_strength
-    )
-    hits = collect_hits(
-        result_files, id_to_ref=id_to_ref, evidence_by_ref=evidence_by_ref
-    )
+    evidence_by_ref = load_evidence(Path(args.evidence), min_claim_strength=args.min_claim_strength)
+    hits = collect_hits(result_files, id_to_ref=id_to_ref, evidence_by_ref=evidence_by_ref)
     write_report(hits, Path(args.report))
     print_summary(hits)
     print(f"Report written: {args.report}")

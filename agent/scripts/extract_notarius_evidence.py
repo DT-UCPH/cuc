@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: E402, I001
 """
 Extract conservative morphology evidence from notarius.compact.html.
 
@@ -13,9 +14,16 @@ import datetime as dt
 import html
 import json
 import re
+import sys
+from itertools import product
 from pathlib import Path
 from typing import Dict, List, Tuple
-from itertools import product
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from project_paths import get_project_paths  # noqa: E402
 
 
 PARA_RE = re.compile(r"<p[^>]*>(.*?)</p>", re.IGNORECASE | re.DOTALL)
@@ -399,7 +407,9 @@ def extract_evidence(html_text: str, min_score: int) -> Dict[str, object]:
         "high_confidence": sum(1 for e in entries if e["confidence"] == "high"),
         "medium_confidence": sum(1 for e in entries if e["confidence"] == "medium"),
         "low_confidence": sum(1 for e in entries if e["confidence"] == "low"),
-        "explicit_parse_claim": sum(1 for e in entries if e["entry_type"] == "explicit_parse_claim"),
+        "explicit_parse_claim": sum(
+            1 for e in entries if e["entry_type"] == "explicit_parse_claim"
+        ),
         "discussion_context": sum(1 for e in entries if e["entry_type"] == "discussion_context"),
         "claim_strength_strong": sum(1 for e in entries if e["claim_strength"] == "strong"),
         "claim_strength_moderate": sum(1 for e in entries if e["claim_strength"] == "moderate"),
@@ -410,17 +420,18 @@ def extract_evidence(html_text: str, min_score: int) -> Dict[str, object]:
 
 
 def main() -> None:
+    paths = get_project_paths(REPO_ROOT)
     parser = argparse.ArgumentParser(
         description="Extract conservative morphology evidence from notarius HTML."
     )
     parser.add_argument(
         "--input",
-        default="data/notarius.compact.html",
+        default=str(paths.default_notarius_html()),
         help="Input notarius HTML file",
     )
     parser.add_argument(
         "--output",
-        default="data/notarius_evidence.json",
+        default=str(paths.local_sources_dir / "notarius_evidence.json"),
         help="Output JSON path",
     )
     parser.add_argument(
@@ -472,8 +483,12 @@ def main() -> None:
                 "high_confidence": sum(1 for e in explicit if e["confidence"] == "high"),
                 "medium_confidence": sum(1 for e in explicit if e["confidence"] == "medium"),
                 "low_confidence": sum(1 for e in explicit if e["confidence"] == "low"),
-                "claim_strength_strong": sum(1 for e in explicit if e["claim_strength"] == "strong"),
-                "claim_strength_moderate": sum(1 for e in explicit if e["claim_strength"] == "moderate"),
+                "claim_strength_strong": sum(
+                    1 for e in explicit if e["claim_strength"] == "strong"
+                ),
+                "claim_strength_moderate": sum(
+                    1 for e in explicit if e["claim_strength"] == "moderate"
+                ),
             },
             "entries": explicit,
         }
@@ -495,17 +510,22 @@ def main() -> None:
             },
             "entries": context,
         }
-        claims_path.write_text(json.dumps(claims_data, ensure_ascii=False, indent=2), encoding="utf-8")
-        context_path.write_text(json.dumps(context_data, ensure_ascii=False, indent=2), encoding="utf-8")
+        claims_path.write_text(
+            json.dumps(claims_data, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        context_path.write_text(
+            json.dumps(context_data, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
 
     print(
         f"Wrote {payload['stats']['entries_extracted']} entries to {output_path} "
-        f"(unique refs: {payload['stats']['refs_unique']}, unique forms: {payload['stats']['forms_unique']})"
+        "("
+        f"unique refs: {payload['stats']['refs_unique']}, "
+        f"unique forms: {payload['stats']['forms_unique']})"
     )
     if args.split_output:
         print(
-            f"Wrote split files: {claims_path} ({len(explicit)}), "
-            f"{context_path} ({len(context)})"
+            f"Wrote split files: {claims_path} ({len(explicit)}), {context_path} ({len(context)})"
         )
 
 

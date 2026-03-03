@@ -25,7 +25,7 @@ On every commit attempt, the pre-commit hook:
 1. Runs `ruff format` and `ruff check --fix` on staged Python files
 2. Runs `ruff check` on staged Python files and fails commit on any warning/error
 3. Runs the full test suite (`python -m unittest discover -s tests -v`) and fails commit if tests fail
-4. For lint-relevant staged changes (`out/*.tsv`, `linter/**`, report tooling), runs `scripts/generate_lint_reports.py` with local DB access (`sources/dulat_cache.sqlite`, `sources/udb_cache.sqlite`)
+4. For lint-relevant staged changes (`out/*.tsv`, `linter/**`, report tooling), runs `scripts/generate_lint_reports.py` with local DB access (`local_sources/dulat_cache.sqlite`, `local_sources/udb_cache.sqlite`)
 5. Regenerates `reports/*` and stages updated Python/report files automatically
 
 Generated files include:
@@ -40,7 +40,7 @@ Generated files include:
 
 ## Tablet Parsing Pipeline
 
-Use the reusable pipeline to process new tablets from `cuc_tablets_tsv` into `out` and regenerate reports:
+Use the reusable pipeline from inside `agent/`. It auto-detects local DBs under `local_sources/`, structured output under `../auto_parsing/<latest-version>/`, and reports under `agent/reports`:
 
 - Dry-run target discovery: `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/run_tablet_parsing_pipeline.py --dry-run`
 - Parse only missing tablets (default): `UV_CACHE_DIR=.uv-cache uv run --python .venv/bin/python python scripts/run_tablet_parsing_pipeline.py`
@@ -50,7 +50,7 @@ Use the reusable pipeline to process new tablets from `cuc_tablets_tsv` into `ou
 
 Pipeline stages are:
 
-1. Start from prepared source files in `cuc_tablets_tsv/*.tsv` (token IDs + `# ... KTU ...` line references). The CUC-to-TSV conversion happens upstream.
+1. Start from prepared source files in `../cuc_tablets_tsv/*.tsv` when present, or copy local raw TSV inputs into `local_sources/cuc_tablets_tsv/` (token IDs + `# ... KTU ...` line references). The CUC-to-TSV conversion happens upstream.
 2. Build first-pass analyses from DULAT (`scripts/bootstrap_tablet_labeling.py`): for each surface form, fill columns 3-6 from DULAT form matches; keep unresolved rows explicit as `DULAT: NOT FOUND`.
 3. Re-rank and refine candidates with context (`scripts/refine_results_mentions.py`): combine direct form matches with conservative suffix splitting, then score using local context, reverse references (`dulat_reverse_refs`, `ktu_to_dulat`), and attestation/tablet-family signals.
 4. Keep the best aligned options per token: up to 3 analysis/DULAT/POS/gloss options per row (or 1 when evidence is clearly stronger), while preserving meaningful human comments.

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: E402, I001
 """
 Bootstrap structured morphology TSV from raw cuc_tablets_tsv rows.
 
@@ -12,12 +13,18 @@ import argparse
 import html
 import re
 import sqlite3
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
-from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
+REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from project_paths import get_project_paths  # noqa: E402
+from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text  # noqa: E402
+from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts  # noqa: E402
 
 LOOKUP_NORMALIZE = str.maketrans(
     {
@@ -316,13 +323,14 @@ def process_file(in_path: Path, out_path: Path, forms_map: Dict[str, List[Entry]
 
 
 def main() -> None:
+    paths = get_project_paths(REPO_ROOT)
     parser = argparse.ArgumentParser(
         description="Bootstrap KTU tablet to structured morphology TSV."
     )
     parser.add_argument("input", nargs="+", help="Input raw cuc_tablets_tsv files")
     parser.add_argument(
         "--dulat-db",
-        default="sources/dulat_cache.sqlite",
+        default=str(paths.default_dulat_db()),
         help="Path to dulat cache sqlite",
     )
     parser.add_argument("--out-dir", default="results", help="Output directory")

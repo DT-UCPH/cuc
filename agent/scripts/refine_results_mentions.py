@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: E402, I001
 """
 Refine structured morphology TSV files using:
 - DULAT forms/entries,
@@ -15,14 +16,20 @@ import html
 import math
 import re
 import sqlite3
+import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
 
-from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
-from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
-from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
+REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from project_paths import get_project_paths  # noqa: E402
+from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text  # noqa: E402
+from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology  # noqa: E402
+from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts  # noqa: E402
 
 SEPARATOR_RE = re.compile(
     r"^\s*#\s*(?:-+\s*)?(?:KTU|CAT)\s+(\d+\.\d+)"
@@ -1394,12 +1401,13 @@ def refine_file(
 
 
 def main() -> None:
+    paths = get_project_paths(REPO_ROOT)
     ap = argparse.ArgumentParser(
         description="Refine morphology TSV using reverse mentions + clitic splitting"
     )
     ap.add_argument("files", nargs="+", help="TSV files to refine")
-    ap.add_argument("--dulat-db", default="sources/dulat_cache.sqlite")
-    ap.add_argument("--udb-db", default="sources/udb_cache.sqlite")
+    ap.add_argument("--dulat-db", default=str(paths.default_dulat_db()))
+    ap.add_argument("--udb-db", default=str(paths.default_udb_db()))
     ap.add_argument("--in-place", action="store_true", help="Rewrite files in place")
     ap.add_argument("--out-dir", default="results", help="Output dir if not --in-place")
     ap.add_argument(

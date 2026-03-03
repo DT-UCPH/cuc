@@ -33,6 +33,7 @@ from pipeline.config.l_preposition_bigram_rules import (
     L_PN_FAMILY_FORCE_I_SURFACES,
     L_PN_PREP_CANONICAL_PAYLOADS,
 )
+from project_paths import get_project_paths
 
 # -----------------------------
 # Utilities
@@ -1845,7 +1846,7 @@ def lint_file(
             core, _comment = raw.split("#", 1)
             core = core.rstrip()
         parts = core.split("\t")
-        if is_out_tsv_file and is_out_tsv_header_row(parts):
+        if is_out_tsv_header_row(parts):
             continue
         if len(parts) >= 3:
             data_parts_by_line[line_no] = parts
@@ -1934,7 +1935,7 @@ def lint_file(
             core = core.rstrip()
             comment = comment.strip()
         parts = core.split("\t")
-        if is_out_tsv_file and is_out_tsv_header_row(parts):
+        if is_out_tsv_header_row(parts):
             continue
 
         if is_out_tsv_file and len(parts) != 7:
@@ -4431,10 +4432,11 @@ def main():
         help="Input labeled files (.txt) or raw CUC tablet files (.tsv)",
     )
     parser.add_argument("--html", help="Write HTML report to file")
+    paths = get_project_paths(Path(__file__).resolve().parents[1])
     parser.add_argument(
-        "--dulat", default="sources/dulat_cache.sqlite", help="Path to DULAT sqlite"
+        "--dulat", default=str(paths.default_dulat_db()), help="Path to DULAT sqlite"
     )
-    parser.add_argument("--udb", default="sources/udb_cache.sqlite", help="Path to UDB sqlite")
+    parser.add_argument("--udb", default=str(paths.default_udb_db()), help="Path to UDB sqlite")
     parser.add_argument(
         "--no-db",
         action="store_true",

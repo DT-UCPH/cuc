@@ -12,21 +12,24 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
+from project_paths import get_project_paths  # noqa: E402
+
 
 def main() -> None:
     from pipeline.dulat_attestation_index import DulatAttestationIndex
 
+    paths = get_project_paths(REPO_ROOT)
     parser = argparse.ArgumentParser(
         description="Build JSON index mapping DULAT entries to attestation counts."
     )
     parser.add_argument(
         "--dulat-db",
-        default="sources/dulat_cache.sqlite",
+        default=str(paths.default_dulat_db()),
         help="Path to DULAT sqlite cache",
     )
     parser.add_argument(
         "--out",
-        default="reports/dulat_attestation_index.json",
+        default=str(paths.default_reports_dir() / "dulat_attestation_index.json"),
         help="Output JSON path",
     )
     args = parser.parse_args()

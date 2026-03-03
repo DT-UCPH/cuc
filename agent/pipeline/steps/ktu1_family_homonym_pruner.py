@@ -14,6 +14,7 @@ from pipeline.steps.base import (
     is_unresolved,
     parse_tsv_line,
 )
+from project_paths import get_project_paths
 
 _HOMONYM_LABEL_RE = re.compile(r"^(?P<lemma>.+)\s+\((?P<hom>[IVX]+)\)$")
 
@@ -74,7 +75,7 @@ class Ktu1FamilyHomonymPruner(RefinementStep):
         if label_families is not None:
             self._families_by_label = {k: set(v) for k, v in label_families.items()}
         else:
-            db = dulat_db or (Path("sources") / "dulat_cache.sqlite")
+            db = dulat_db or get_project_paths(Path(__file__).resolve()).default_dulat_db()
             self._families_by_label = self._load_label_families(db)
 
     @property
