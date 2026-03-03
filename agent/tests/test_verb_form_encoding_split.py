@@ -41,6 +41,33 @@ class VerbFormEncodingSplitFixerTest(unittest.TestCase):
         self.assertEqual(result.analysis, "qtl[/")
         self.assertEqual(result.pos, "vb G pass. ptcpl.")
 
+    def test_splits_prefixed_weak_form_into_canonical_nonfinite_variants(self) -> None:
+        row = TabletRow(
+            "6",
+            "ydy",
+            "!y!(ydy(I)[",
+            "/y-d-y/ (I)",
+            "vb G prefc. / vb G impv. / vb G inf. / vb G act. ptcpl. m.",
+            "to throw",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!y!(ydy(I)[; !!ydy(I)[/; ydy(I)[/")
+        self.assertEqual(
+            result.pos,
+            "vb G prefc. / vb G impv.; vb G inf.; vb G act. ptcpl. m.",
+        )
+
+    def test_rewrites_prefixed_infinitive_to_canonical_surface_form(self) -> None:
+        row = TabletRow("7", "yld", "!y!(yld[", "/y-l-d/", "vb G inf.", "to give birth", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!!yld[/")
+
+    def test_rewrites_prefixed_participle_to_canonical_surface_form(self) -> None:
+        row = TabletRow("8", "yṯb", "!y!(yṯb[", "/y-ṯ-b/", "vb G act. ptcpl.", "to sit", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "yṯb[/")
+
     def test_demotes_single_finite_option_to_finite_encoding(self) -> None:
         row = TabletRow("3", "qtl", "!!qtl[/", "/q-t-l/", "vb G suffc.", "to kill", "")
         result = self.fixer.refine_row(row)

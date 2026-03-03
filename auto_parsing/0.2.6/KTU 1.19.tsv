@@ -152,7 +152,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145636	ytšu	!y!(n]t]š(ʔ[&u	/n-š-ʔ/	vb Gt prefc.	to raise	
 # KTU 1.19 I:22						
 145637	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-145637	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+145637	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 145638	b	b	b	prep.	in	
 145639	ap	ap(I)	ảp (I)	adv./conj.	also	
 145639	ap	ap(II)/	ảp (II)	n. m.	nose	
@@ -363,7 +363,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145760	šˤr	šˤr/	šʕr	n. m. sg.	hair	
 145761	ṭl	ṭl/	ṭl	n. m. sg.	dew	
 145762	ydˤt	!y!(ydˤ(I)[t	/y-d-ʕ/ (I)	vb G suffc.	to know	
-145762	ydˤt	(ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
+145762	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
 # KTU 1.19 II:3						
 145763	hlk	hlk(I)/	hlk (I)	n. m. sg.	walk	
 145764	kbkbm	kbkb/m	kbkb	n. m. pl. / n. m. du.	heavenly body	
@@ -396,7 +396,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145782	ṭl	ṭl/	ṭl	n. m. sg.	dew	
 # KTU 1.19 II:7						
 145783	ydˤt	!y!(ydˤ(I)[t	/y-d-ʕ/ (I)	vb G suffc.	to know	
-145783	ydˤt	(ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
+145783	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
 145784	hlk	hlk[	/h-l-k/	vb G suffc.	to go	
 145784	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m.	to go	
 145785	kbkbm	kbkb/m	kbkb	n. m. pl. / n. m. du.	heavenly body	
@@ -407,12 +407,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145788	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
 # KTU 1.19 II:9						
 145789	bkm	b	b	prep.	in	
-145789	bkm	!!bky[/	/b-k-y/	vb G inf.	to weep	
+145789	bkm	!!bkm[/	/b-k-y/	vb G inf.	to weep	
 145789	bkm	bkm	bkm	adv.	next	
 145790	tṣmd	!t!ṣmd[	/ṣ-m-d/	vb G prefc.	to harness	
 145791	pḥl	pḥl/	pḥl	n. m. sg.	ass	
 145792	bkm	b	b	prep.	in	
-145792	bkm	!!bky[/	/b-k-y/	vb G inf.	to weep	
+145792	bkm	!!bkm[/	/b-k-y/	vb G inf.	to weep	
 145792	bkm	bkm	bkm	adv.	next	
 # KTU 1.19 II:10						
 145793	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
@@ -485,7 +485,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145842	šblt	šbl(t/t	šblt	n. f. sg.	ear	
 145842	šblt	šbl(t/t=	šblt	n. f. sg.	ear	
 145843	b	b	b	prep.	in	
-145844	aklt	(ʔ&akl[/t	/ʔ-k-l/	vb G act. ptcpl. m.	to eat	
+145844	aklt	ʔ&akl[/t	/ʔ-k-l/	vb G act. ptcpl. m.	to eat	
 145844	aklt	akl(t(II)/t	ảklt (II)	n. f. sg.	waste land	
 145844	aklt	akl(t(I)/t	ảklt (I)	adj. f. or n. f. sg.	devouring	
 145845	šblt	šbl(t/t	šblt	n. f. sg.	ear	
@@ -849,7 +849,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 III:14						
 146086	tpr	npr[	/n-p-r/	vb G prefc.	to fly	
 146087	w	w	w	conj.	and	
-146088	du	!!dʔy[/	/d-ʔ-y/	vb G inf.	to fly	
+146088	du	!!du[/	/d-ʔ-y/	vb G inf.	to fly	
 146089	b	b	b	prep.	in	
 146090	nši	!!nš(ʔ&i[/	/n-š-ʔ/	vb G inf.	to raise	
 146090	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl.	to raise	
@@ -977,7 +977,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 III:28						
 146173	tpr	npr[	/n-p-r/	vb G prefc.	to fly	
 146174	w	w	w	conj.	and	
-146175	du	!!dʔy[/	/d-ʔ-y/	vb G inf.	to fly	
+146175	du	!!du[/	/d-ʔ-y/	vb G inf.	to fly	
 146176	b	b	b	prep.	in	
 146177	nši	!!nš(ʔ&i[/	/n-š-ʔ/	vb G inf.	to raise	
 146177	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl.	to raise	
@@ -1090,7 +1090,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146253	yqbr	!y!qbr[	/q-b-r/	vb	to bury	
 146254	nn	grš[	/g-r-š/	vb G impv.	to eject	
 146254	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-146254	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
+146254	nn	!!nn[/	/g-r(-y)/	vb G inf.	to attack	
 146255	b	b	b	prep.	in	
 146256	mdgt	mdg(t/t	mdgt	n. f. sg.	cave	
 146257	b	b	b	prep.	in	
@@ -1126,7 +1126,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146277	tšḫṭa	?	?	?	?	DULAT: NOT FOUND
 146278	nn	grš[	/g-r-š/	vb G impv.	to eject	
 146278	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-146278	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
+146278	nn	!!nn[/	/g-r(-y)/	vb G inf.	to attack	
 146279	b	b	b	prep.	in	
 146280	šnth	šn/	šn	n. m. pl.	tooth	
 146281	qr	qr(I)/	qr (I)	n. m. sg.	source	
@@ -1398,7 +1398,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146450	rpi	rp(u/&i	rpủ	n. m. sg. / n. m. pl.	healer	
 # KTU 1.19 IV:19						
 146451	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-146451	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+146451	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 146452	ġzr	ġzr/	ġzr	n. m. sg.	lad	
 146453	mt	mt(II)/	mt (II)	n. m. sg.	death	
 146453	mt	mt[	/m-t/	vb G suffc.	to die	
@@ -1542,7 +1542,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 IV:38						
 146545	ṭl	ṭl/	ṭl	n. m. sg.	dew	
 146546	ydˤt	!y!(ydˤ(I)[t	/y-d-ʕ/ (I)	vb G suffc.	to know	
-146546	ydˤt	(ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
+146546	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
 146547	hlk	hlk[	/h-l-k/	vb G suffc.	to go	
 146547	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m.	to go	
 146548	kbkbm	kbkb/m	kbkb	n. m. pl. / n. m. du.	heavenly body	
@@ -1752,7 +1752,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146692	w	w	w	conj.	and	
 146693	hndt	hnd	hnd	dem. adj./pn.	this	
 146694	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-146694	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+146694	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 146695	l	l(I)	l (I)	prep.	to	
 146695	l	l(III)	l (III)	functor	certainly	
 146696	mspr	mspr/	mspr	n. m. sg.	recitation	

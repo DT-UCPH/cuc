@@ -275,7 +275,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137126	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 137127	qrtm	qrt(I)/m	qrt (I)	n. f. du.	city	
 137128	tṯˤr	!t!ṯˤr[	/ṯ-ʕ-r/	vb G prefc.	to prepare (the table)	
-137128	tṯˤr	!!ṯˤr[/	/ṯ-ʕ-r/	vb G inf.	to prepare (the table)	
+137128	tṯˤr	!!tṯˤr[/	/ṯ-ʕ-r/	vb G inf.	to prepare (the table)	
 # KTU 1.3 II:21						
 137129	ksat	ksa/t=	ks/śủ	n. f. pl.	seat	
 137130	l	l(I)	l (I)	prep.	to	
@@ -1185,14 +1185,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137743	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 # KTU 1.3 IV:54						
 137744	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-137744	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+137744	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 137745	ly	l(I)+y	l (I)	prep.	to	
 137746	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 137747	il	il(I)/	ỉl (I)	DN	ʾIlu/Ilu/El	
 137748	aby	ab/+y	ảb	n. m.	father	
 # KTU 1.3 IV:55						
 137749	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-137749	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+137749	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 137750	ly	l(I)+y	l (I)	prep.	to	
 137751	w	w	w	conj.	and	
 137752	lh	l(I)+h	l (I)	prep.	to	
@@ -1201,7 +1201,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137754	xxxamṣḫ	?	?	?	?	DULAT: NOT FOUND
 137755	nn	grš[	/g-r-š/	vb G impv.	to eject	
 137755	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-137755	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
+137755	nn	!!nn[/	/g-r(-y)/	vb G inf.	to attack	
 137756	k	k(I)	k (I)	prep.	like	
 137757	imr	imr(I)/	ỉmr (I)	n. m. sg.	lamb	
 137758	l	l(I)	l (I)	prep.	to	
@@ -1405,7 +1405,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137891	ap	ap(II)/	ảp (II)	n. m.	nose	
 137892	sgrt	sgr(t/t	sgrt	n. f. sg.	room	
 137893	ydˤtk	!y!(ydˤ(I)[t+k	/y-d-ʕ/ (I)	vb G suffc.	to know	
-137893	ydˤtk	(ydˤ(I)[/t+k	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
+137893	ydˤtk	ydˤ(I)[/t+k	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
 137894	bt	bt(II)/	bt (II)	n. m. sg.	house	
 137894	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 137895	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -1462,8 +1462,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137931	nbl	ybl[	/y-b-l/	vb G prefc.	to carry	
 137932	ksh	ks(I)/+h	ks (I)	n. m.	cup	
 # KTU 1.3 V:35						
-137933	any	!!(ʔ&any[/	/ʔ-n-y/	vb G inf.	to sigh	
-137933	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
+137933	any	!!any[/	/ʔ-n-y/	vb G inf.	to sigh	
+137933	any	any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
 137934	l	l(III)	l (III)	functor	certainly	
 137935	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
 137936	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	

@@ -1072,7 +1072,43 @@ class BaalLabourerKtu1FixerTest(unittest.TestCase):
                 "152715\tbˤl\tbˤl(II)/;bˤl[/\tbʕl (II);/b-ʕ-l/\tn. m./DN;vb\tBaʿlu;to make\t",
             )
 
-    def test_keeps_variant_outside_ktu1(self) -> None:
+    def test_removes_labourer_variant_in_ktu2(self) -> None:
+        content = (
+            "#---- KTU 2.1 1\n"
+            "900002\tbˤl\tbˤl(II)/;bˤl(I)/;bˤl[\t"
+            "bʕl (II);bʕl (I);/b-ʕ-l/\tn. m./DN;n. m.;vb\t"
+            "Baʿlu;labourer;to make\n"
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            f = Path(tmp_dir) / "KTU 2.1.tsv"
+            f.write_text(content, encoding="utf-8")
+            result = self.fixer.refine_file(f)
+            self.assertEqual(result.rows_changed, 1)
+            line = f.read_text(encoding="utf-8").splitlines()[1]
+            self.assertEqual(
+                line,
+                "900002\tbˤl\tbˤl(II)/;bˤl[/\tbʕl (II);/b-ʕ-l/\tn. m./DN;vb\tBaʿlu;to make\t",
+            )
+
+    def test_removes_labourer_variant_in_spaced_packed_row(self) -> None:
+        content = (
+            "#---- KTU 2.4 23\n"
+            "156445\tbˤl\tbˤl(II)/; bˤl(I)/; bˤl[\t"
+            "bʕl (II); bʕl (I); /b-ʕ-l/\tn. m./DN; n. m.; vb\t"
+            "Baʿlu; labourer; to make\t\n"
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            f = Path(tmp_dir) / "KTU 2.4.tsv"
+            f.write_text(content, encoding="utf-8")
+            result = self.fixer.refine_file(f)
+            self.assertEqual(result.rows_changed, 1)
+            line = f.read_text(encoding="utf-8").splitlines()[1]
+            self.assertEqual(
+                line,
+                "156445\tbˤl\tbˤl(II)/;bˤl[/\tbʕl (II);/b-ʕ-l/\tn. m./DN;vb\tBaʿlu;to make\t",
+            )
+
+    def test_keeps_variant_in_ktu4(self) -> None:
         content = (
             "#---- KTU 4.1 1\n"
             "900001\tbˤl\tbˤl(II)/;bˤl(I)/;bˤl[\t"
@@ -1091,6 +1127,22 @@ class BaalLabourerKtu1FixerTest(unittest.TestCase):
                 "bʕl (II);bʕl (I);/b-ʕ-l/\tn. m./DN;n. m.;vb\t"
                 "Baʿlu;labourer;to make\t",
             )
+
+    def test_removes_unwrapped_labourer_row_outside_ktu4(self) -> None:
+        content = (
+            "#---- KTU 2.4 23\n"
+            "156445\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. / DN\tBaʿlu/Baal\t\n"
+            "156445\tbˤl\tbˤl(I)/\tbʕl (I)\tn. m. sg. / n. m. pl.\tlabourer\t\n"
+            "156445\tbˤl\tbˤl[/\t/b-ʕ-l/\tvb G act. ptcpl. m.\tto make\t\n"
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            f = Path(tmp_dir) / "KTU 2.4.tsv"
+            f.write_text(content, encoding="utf-8")
+            result = self.fixer.refine_file(f)
+            self.assertEqual(result.rows_changed, 1)
+            lines = f.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(len(lines), 3)
+            self.assertNotIn("\tbˤl(I)/\tbʕl (I)\t", "\n".join(lines))
 
 
 class BaalVerbalSlashFixerTest(unittest.TestCase):

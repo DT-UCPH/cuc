@@ -41,8 +41,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152949	l	l(II)	l (II)	adv.	no	
 152949	l	l(III)	l (III)	functor	certainly	
 152950	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G suffc.	to know	
-152950	ydˤ	!!(ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
-152950	ydˤ	(ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl.	to know	
+152950	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
+152950	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl.	to know	
 152951	l	l(I)	l (I)	prep.	to	
 152951	l	l(II)	l (II)	adv.	no	
 152951	l	l(III)	l (III)	functor	certainly	
@@ -119,7 +119,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 12						
 152991	ṣġr	ṣġr(I)/	ṣġr (I)	adj. m. sg.	small	
 152992	bkm	b	b	prep.	in	
-152992	bkm	!!bky[/	/b-k-y/	vb G inf.	to weep	
+152992	bkm	!!bkm[/	/b-k-y/	vb G inf.	to weep	
 152992	bkm	bkm	bkm	adv.	next	
 152993	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
 152994	šrġzz	šrġzz/	šrġzz	DN	the Devil is a munificent one	

@@ -2,6 +2,26 @@
 
 ## 2026-03-03
 
+- Fixed global non-finite verb encoding cleanup for exact-surface ambiguities:
+  - `pipeline/steps/verb_form_encoding_split.py` now canonicalizes infinitive and participle analyses from inherited finite variants instead of mechanically reusing finite preformative layers.
+  - prefixed finite analyses such as `!y!(ydy(I)[` now split to canonical non-finite rows like `!!ydy(I)[/` and `ydy(I)[/`, instead of invalid encodings like `!!!y!(ydy(I)[/` and `!y!(ydy(I)[/`.
+  - the converter now validates candidate non-finite analyses against surface reconstructability and falls back to a surface-preserving host rewrite only when needed.
+  - `linter/lint.py` now warns when infinitive or participle rows retain finite preformative markers.
+  - added regressions in:
+    - `tests/test_verb_form_encoding_split.py`
+    - `tests/test_linter_infinitive_encoding.py`
+  - re-ran the full parsing pipeline to apply the fix across `auto_parsing/0.2.6`.
+
+- Fixed Baal genre pruning to match the DULAT attestation restriction:
+  - `pipeline/steps/baal_labourer_ktu1.py` now removes `bʕl (I) "labourer"` outside `KTU 4.*`, not just in `KTU 1.*`.
+  - the Baal pruner now handles both packed semicolon rows and already-unwrapped row format.
+  - packed-row matching now normalizes instruction-refined spacing around semicolon-separated variants, so the rule still fires after `InstructionRefiner`.
+  - `linter/lint.py` now warns on `bʕl (I) "labourer"` outside `KTU 4.*`.
+  - added regressions in:
+    - `tests/test_refinement_steps.py`
+    - `tests/test_linter_warning_predicates.py`
+  - re-ran the affected `auto_parsing/0.2.6` tablets and verified that no non-`KTU 4.*` labourer rows remain.
+
 - Replaced the migrated static raw source fallback with reproducible Text-Fabric export:
   - added `reviewed_migration/migrator.py` and `scripts/migrate_reviewed_tablet.py` to remap reviewed tablets onto the latest TF token ids and current auto-parsing POS/gloss conventions where alignment is reliable, with auto-row fallback for TF tokenization mismatches.
   - refined reviewed-tablet migration preservation rules so simple token concatenations and splits keep the original reviewed rows under the remapped TF ids/surfaces, and x/`<>`-only surface edits keep the original reviewed analysis with a `Token changed from previous version.` comment.

@@ -51,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139806	w	w	w	conj.	and	
 139807	l	l(II)	l (II)	adv.	no	
 139808	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-139808	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+139808	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 139809	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 139810	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 I:10						
@@ -245,7 +245,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139943	ṯtˤ	ṯtˤ[	/ṯ-t-ʕ/	vb G suffc.	to be frightened	
 139944	nn	grš[	/g-r-š/	vb G impv.	to eject	
 139944	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-139944	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
+139944	nn	!!nn[/	/g-r(-y)/	vb G inf.	to attack	
 139945	rkb	rkb[	/r-k-b/	vb G suffc. / vb G impv.	to mount (especially a chariot)	
 139945	rkb	rkb[/	/r-k-b/	vb G ptcpl.	to mount (especially a chariot)	
 139945	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
@@ -303,7 +303,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139975	l	l(II)	l (II)	adv.	no	
 139975	l	l(III)	l (III)	functor	certainly	
 139976	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-139976	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+139976	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 139977	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 139978	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 II:14						
@@ -906,6 +906,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 VI:10						
 140347	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb G suffc. / vb Dpass suffc.	to perish	
 140348	zbl	zbl(I)/	zbl (I)	n. m. sg. / n. m. pl. cstr.	prince	
+140348	zbl	zbl(III)/	zbl (III)	n. m. sg.	one carried	
 140349	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 140350	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.5 VI:11						
@@ -919,7 +920,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140357	l	l(I)	l (I)	prep.	to	
 140358	ksi	ks/	ks/śủ	n. f. sg.	seat	
 140359	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-140359	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+140359	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 # KTU 1.5 VI:13						
 140360	l	l(I)	l (I)	prep.	to	
 140360	l	l(III)	l (III)	functor	certainly	
@@ -929,7 +930,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140363	l	l(III)	l (III)	functor	certainly	
 140364	hdm	hdm/	hdm	n. m. sg.	footstool	
 140365	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-140365	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+140365	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 # KTU 1.5 VI:14						
 140366	l	l(I)	l (I)	prep.	to	
 140366	l	l(III)	l (III)	functor	certainly	

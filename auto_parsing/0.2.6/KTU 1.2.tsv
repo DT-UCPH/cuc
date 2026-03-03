@@ -159,7 +159,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136136	l	l(II)	l (II)	adv.	no	
 136136	l	l(III)	l (III)	functor	certainly	
 136137	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-136137	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+136137	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 136138	idk	idk	ỉdk	narrative adv. functor	then	
 136139	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
 # KTU 1.2 I:20						
@@ -179,7 +179,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136150	lḥm	!!lḥm(I)[/	/l-ḥ-m/ (I)	vb G inf.	to eat	
 # KTU 1.2 I:21						
 136151	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-136151	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+136151	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 136152	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 136153	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 136153	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
@@ -731,7 +731,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 III:15						
 136528	nn	grš[	/g-r-š/	vb G impv.	to eject	
 136528	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-136528	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
+136528	nn	!!nn[/	/g-r(-y)/	vb G inf.	to attack	
 136529	nrt	nr(t(I)/t	nrt (I)	n. f. sg.	lantern	
 136530	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 136531	špš	špš/	špš	n. sg.	sun	
@@ -782,7 +782,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136561	l	l(II)	l (II)	adv.	no	
 136561	l	l(III)	l (III)	functor	certainly	
 136562	yhpk	!y!hpk[	/h-p-k/	vb G prefc.	to overturn	
-136562	yhpk	!!hpk[/	/h-p-k/	vb G inf.	to overturn	
+136562	yhpk	!!yhpk[/	/h-p-k/	vb G inf.	to overturn	
 # KTU 1.2 III:18						
 136563	ksa	ksa/	ksả	DN	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 136564	mlkk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -1265,7 +1265,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136898	ybṯ	!y!bṯ[	/b-ṯ/	vb G prefc. / vb G suffc.	to be ashamed	
 136899	nn	grš[	/g-r-š/	vb G impv.	to eject	
 136899	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-136899	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
+136899	nn	!!nn[/	/g-r(-y)/	vb G inf.	to attack	
 136900	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 136901	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 136902	w	w	w	conj.	and	

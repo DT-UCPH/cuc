@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import re
 
+from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
 from pipeline.steps.base import RefinementStep, TabletRow
 
 _VB_POS_HEAD_RE = re.compile(r"^\s*vb\.?\b", flags=re.IGNORECASE)
@@ -20,6 +21,7 @@ _FORM_PTCP_RE = re.compile(
     flags=re.IGNORECASE,
 )
 _FORM_FINITE_RE = re.compile(r"(?:\bprefc\.|\bsuffc\.|\bimpv\.)", flags=re.IGNORECASE)
+_LETTER_RE = re.compile(r"[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]")
 
 
 def _split_semicolon(value: str) -> list[str]:
@@ -61,8 +63,58 @@ def _strip_infinitive_marker(text: str) -> str:
     return value
 
 
-def _to_nonfinite_encoding(analysis: str) -> str:
+def _strip_finite_preformative(text: str) -> str:
+    value = (text or "").strip()
+    if not value.startswith("!"):
+        return value
+    closing = value.find("!", 1)
+    if closing == -1:
+        return value
+    return value[closing + 1 :]
+
+
+def _promote_leading_reconstructed_letter(text: str) -> str:
+    value = (text or "").strip()
+    if len(value) >= 2 and value.startswith("(") and _LETTER_RE.match(value[1]):
+        return value[1:]
+    return value
+
+
+def _surface_matches_analysis(surface: str, analysis: str) -> bool:
+    return normalize_surface(reconstruct_surface_from_analysis(analysis)) == normalize_surface(
+        surface
+    )
+
+
+def _extract_homonym_marker(text: str) -> str:
+    match = re.search(r"\(([IVX]+)\)(?=\[)", (text or "").strip())
+    return match.group(0) if match else ""
+
+
+def _replace_host_with_surface(surface: str, analysis: str) -> str:
     text = (analysis or "").strip()
+    bracket_idx = text.find("[")
+    if bracket_idx == -1:
+        return surface
+    homonym = _extract_homonym_marker(text)
+    suffix = text[bracket_idx:]
+    return f"{surface}{homonym}{suffix}"
+
+
+def _canonicalize_nonfinite_core(surface: str, analysis: str) -> str:
+    stripped = _strip_infinitive_marker(analysis)
+    stripped = _strip_finite_preformative(stripped)
+    stripped = _promote_leading_reconstructed_letter(stripped)
+    if _surface_matches_analysis(surface, stripped):
+        return stripped
+    fallback = _replace_host_with_surface(surface, stripped)
+    if _surface_matches_analysis(surface, fallback):
+        return fallback
+    return stripped
+
+
+def _to_nonfinite_encoding(surface: str, analysis: str) -> str:
+    text = _canonicalize_nonfinite_core(surface, analysis)
     if "[/" in text:
         return text
     if "[" not in text:
@@ -70,15 +122,15 @@ def _to_nonfinite_encoding(analysis: str) -> str:
     return text.replace("[", "[/", 1)
 
 
-def _to_infinitive_encoding(analysis: str) -> str:
-    text = _to_nonfinite_encoding(analysis)
+def _to_infinitive_encoding(surface: str, analysis: str) -> str:
+    text = _to_nonfinite_encoding(surface, analysis)
     if text.startswith("!!"):
         return text
     return f"!!{text}"
 
 
-def _to_participle_encoding(analysis: str) -> str:
-    text = _to_nonfinite_encoding(analysis)
+def _to_participle_encoding(surface: str, analysis: str) -> str:
+    text = _to_nonfinite_encoding(surface, analysis)
     text = _strip_infinitive_marker(text)
     return text
 
@@ -145,12 +197,12 @@ class VerbFormEncodingSplitFixer(RefinementStep):
             if len(options) <= 1:
                 normalized_analysis = analysis
                 if options and _requires_infinitive_encoding(options[0]):
-                    converted = _to_infinitive_encoding(analysis)
+                    converted = _to_infinitive_encoding(row.surface, analysis)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
                 elif options and _requires_participle_encoding(options[0]):
-                    converted = _to_participle_encoding(analysis)
+                    converted = _to_participle_encoding(row.surface, analysis)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
@@ -196,13 +248,13 @@ class VerbFormEncodingSplitFixer(RefinementStep):
                 normalized_pos = pos
                 if has_infinitive:
                     normalized_pos = _join_options(infinitive_options + neutral_options)
-                    converted = _to_infinitive_encoding(analysis)
+                    converted = _to_infinitive_encoding(row.surface, analysis)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
                 elif has_participle:
                     normalized_pos = _join_options(participle_options + neutral_options)
-                    converted = _to_participle_encoding(analysis)
+                    converted = _to_participle_encoding(row.surface, analysis)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
@@ -224,8 +276,8 @@ class VerbFormEncodingSplitFixer(RefinementStep):
             infinitive_pos = _join_options(infinitive_options + neutral_options)
             participle_pos = _join_options(participle_options + neutral_options)
             finite_analysis = _to_finite_encoding(analysis)
-            infinitive_analysis = _to_infinitive_encoding(analysis)
-            participle_analysis = _to_participle_encoding(analysis)
+            infinitive_analysis = _to_infinitive_encoding(row.surface, analysis)
+            participle_analysis = _to_participle_encoding(row.surface, analysis)
 
             if has_finite:
                 out_analysis.append(finite_analysis)

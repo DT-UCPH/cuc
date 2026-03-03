@@ -497,7 +497,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144469	k	k(I)	k (I)	prep.	like	
 144469	k	k(II)	k (II)	emph. functor	yes	
 144470	yld	!y!](n](yld[	/y-l-d/	vb N suffc.	to give birth (to)	
-144470	yld	!!(yld[/	/y-l-d/	vb G inf.	to give birth (to)	
+144470	yld	!!yld[/	/y-l-d/	vb G inf.	to give birth (to)	
 144471	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 144472	ly	l(I)+y	l (I)	prep.	to	
 144473	km	k(III)	k (III)	functor	when	
@@ -545,8 +545,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144497	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc.	to collect	
 144498	ydy	yd(I)/+y	yd (I)	n. f.	hand	
 144498	ydy	!y!(ydy(I)[	/y-d-y/ (I)	vb G prefc. / vb G impv.	to throw	
-144498	ydy	!!(ydy(I)[/	/y-d-y/ (I)	vb G inf.	to throw	
-144498	ydy	(ydy(I)[/	/y-d-y/ (I)	vb G act. ptcpl. m.	to throw	
+144498	ydy	!!ydy(I)[/	/y-d-y/ (I)	vb G inf.	to throw	
+144498	ydy	ydy(I)[/	/y-d-y/ (I)	vb G act. ptcpl. m.	to throw	
 144498	ydy	!y!(ydy(II)[	/y-d-y/ (II)	vb G	to rip	
 144499	b	b	b	prep.	in	
 144500	š	š/	š	n. m. sg.	ram	
@@ -728,7 +728,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144610	ḫllt	ḫllt/	ḫllt	n. m. sg.	childbirth	
 # KTU 1.17 II:43						
 144611	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-144611	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+144611	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 144612	dnil	dnil/	dnỉl	PN	Raphaite	
 144613	yspr	!y!spr[	/s-p-r/	vb	to count	
 144614	yrḫh	yrḫ/+h	yrḫ	n. m.	moon	
@@ -791,7 +791,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 V:6						
 144649	ytšu	!y!(n]t]š(ʔ[&u	/n-š-ʔ/	vb Gt prefc.	to raise	
 144650	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-144650	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+144650	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 144651	b	b	b	prep.	in	
 144652	ap	ap(II)/	ảp (II)	n. m.	nose	
 144653	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg.	gate	

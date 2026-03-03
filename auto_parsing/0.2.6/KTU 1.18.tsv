@@ -76,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145198	dpid	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 I:16						
 145199	ydˤtk	!y!(ydˤ(I)[t+k	/y-d-ʕ/ (I)	vb G suffc.	to know	
-145199	ydˤtk	(ydˤ(I)[/t+k	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
+145199	ydˤtk	ydˤ(I)[/t+k	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
 145200	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 145201	w	w	w	conj.	and	
 145202	anšt	anš(t/t	ảnšt	n. f. sg.	illness	
@@ -261,7 +261,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145328	w	w	w	conj.	and	
 145329	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
 145330	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-145330	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+145330	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 145331	yṭp	?	?	?	?	DULAT: NOT FOUND
 145332	xxxxxxxxxxx	?	?	?	?	
 # KTU 1.18 IV:8						
@@ -368,7 +368,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145401	km	km	km	prep./conj./adv.		
 145401	km	+km, +km=	-km			
 145402	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-145402	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+145402	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 # KTU 1.18 IV:19						
 145403	l	l(I)	l (I)	prep.	to	
 145403	l	l(II)	l (II)	adv.	no	
@@ -473,7 +473,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145467	aqht	aqht/	ảqht	PN	Most Obedient	
 145468	km	km	km	prep./conj./adv.		
 145469	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-145469	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+145469	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 145470	l	l(I)	l (I)	prep.	to	
 145471	lḥm	lḥm(I)[	/l-ḥ-m/ (I)	vb G suffc. / vb G impv.	to eat	
 145471	lḥm	!!lḥm(I)[/	/l-ḥ-m/ (I)	vb G inf.	to eat	

@@ -15,7 +15,7 @@ from linter.lint import (
     missing_required_verb_stem_markers,
     required_verb_stem_markers_from_pos,
     row_has_ambiguous_l_in_offering_sequence,
-    row_has_baal_labourer_in_ktu1,
+    row_has_baal_labourer_outside_ktu4,
     row_has_baal_verbal_missing_slash,
     row_has_mixed_baal_dn_labourer_reading,
     variant_has_baad_plus_n,
@@ -244,7 +244,7 @@ class LinterWarningPredicateTest(unittest.TestCase):
 
     def test_baal_labourer_forbidden_in_ktu1(self) -> None:
         self.assertTrue(
-            row_has_baal_labourer_in_ktu1(
+            row_has_baal_labourer_outside_ktu4(
                 file_path="out/KTU 1.105.tsv",
                 surface="bˤl",
                 analysis_field="bˤl(II)/;bˤl(I)/;bˤl[/",
@@ -254,9 +254,21 @@ class LinterWarningPredicateTest(unittest.TestCase):
             )
         )
 
-    def test_baal_labourer_allowed_outside_ktu1(self) -> None:
+    def test_baal_labourer_forbidden_in_ktu2(self) -> None:
+        self.assertTrue(
+            row_has_baal_labourer_outside_ktu4(
+                file_path="out/KTU 2.1.tsv",
+                surface="bˤl",
+                analysis_field="bˤl(II)/;bˤl(I)/;bˤl[/",
+                dulat_field="bʕl (II);bʕl (I);/b-ʕ-l/",
+                pos_field="n. m./DN;n. m.;vb",
+                gloss_field="Baʿlu;labourer;to make",
+            )
+        )
+
+    def test_baal_labourer_allowed_in_ktu4(self) -> None:
         self.assertFalse(
-            row_has_baal_labourer_in_ktu1(
+            row_has_baal_labourer_outside_ktu4(
                 file_path="out/KTU 4.1.tsv",
                 surface="bˤl",
                 analysis_field="bˤl(II)/;bˤl(I)/;bˤl[/",

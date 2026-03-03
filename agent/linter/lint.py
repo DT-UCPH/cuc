@@ -810,7 +810,7 @@ def row_has_ambiguous_l_in_offering_sequence(
     return _pos_looks_nominal(next_pos_text)
 
 
-def row_has_baal_labourer_in_ktu1(
+def row_has_baal_labourer_outside_ktu4(
     file_path: str,
     surface: str,
     analysis_field: str,
@@ -818,8 +818,8 @@ def row_has_baal_labourer_in_ktu1(
     pos_field: str,
     gloss_field: str,
 ) -> bool:
-    """Detect forbidden bʕl(I) 'labourer' variant in KTU 1.* rows."""
-    if not Path(file_path).name.startswith("KTU 1."):
+    """Detect forbidden bʕl(I) 'labourer' variant outside KTU 4.* rows."""
+    if Path(file_path).name.startswith("KTU 4."):
         return False
     if (surface or "").strip() != "bˤl":
         return False
@@ -957,6 +957,14 @@ def pos_option_is_verb_participle(option: str) -> bool:
     if VERBAL_NOUN_POS_RE.search(text):
         return False
     return bool(VERB_PTCP_POS_RE.search(text))
+
+
+def analysis_has_finite_preformative(option: str) -> bool:
+    """Return True when analysis retains a finite preformative marker."""
+    text = (option or "").strip()
+    if text.startswith("!!"):
+        text = text[2:]
+    return bool(PREFIXED_VERB_ANALYSIS_RE.match(text))
 
 
 def extract_stems(morph: str) -> set:
@@ -2062,7 +2070,7 @@ def lint_file(
                     )
                 )
 
-            if row_has_baal_labourer_in_ktu1(
+            if row_has_baal_labourer_outside_ktu4(
                 file_path=str(path),
                 surface=surface,
                 analysis_field=parts[2],
@@ -2078,7 +2086,7 @@ def lint_file(
                         line_id,
                         surface,
                         analysis,
-                        "In KTU 1.*, remove bʕl(I) 'labourer' and keep bʕl (II) /b-ʕ-l/ readings",
+                        "Outside KTU 4.*, remove bʕl(I) 'labourer' and keep bʕl (II) /b-ʕ-l/ readings",
                     )
                 )
 
@@ -2677,18 +2685,43 @@ def lint_file(
                             "Infinitive should use `!!...[/` analysis encoding",
                         )
                     )
-            if has_participle_pos and not has_infinitive_pos and a_txt.startswith("!!"):
-                issues.append(
-                    Issue(
-                        "warning",
-                        str(path),
-                        i,
-                        line_id,
-                        surface,
-                        a_txt,
-                        "Participles should not use infinitive marker `!!`",
+                elif analysis_has_finite_preformative(a_txt):
+                    issues.append(
+                        Issue(
+                            "warning",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            a_txt,
+                            "Non-finite verb analysis should not retain finite preformative markers",
+                        )
                     )
-                )
+            if has_participle_pos and not has_infinitive_pos:
+                if a_txt.startswith("!!"):
+                    issues.append(
+                        Issue(
+                            "warning",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            a_txt,
+                            "Participles should not use infinitive marker `!!`",
+                        )
+                    )
+                elif analysis_has_finite_preformative(a_txt):
+                    issues.append(
+                        Issue(
+                            "warning",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            a_txt,
+                            "Non-finite verb analysis should not retain finite preformative markers",
+                        )
+                    )
             if "~+" in a_txt:
                 issues.append(
                     Issue(

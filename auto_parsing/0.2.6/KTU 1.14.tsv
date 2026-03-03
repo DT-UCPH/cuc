@@ -264,7 +264,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 II:7						
 141853	dxxt	?	?	?	?	DULAT: NOT FOUND
 141854	b	b	b	prep.	in	
-141855	bk	!!bky[/	/b-k-y/	vb G inf.	to weep	
+141855	bk	!!bk[/	/b-k-y/	vb G inf.	to weep	
 141856	rkrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.14 II:8						
 141857	b	b	b	prep.	in	
@@ -568,7 +568,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142045	w	w	w	conj.	and	
 142046	gr	gr[	/g-r(-y)/	vb G suffc.	to attack	
 142047	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-142047	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
+142047	nn	!!nn[/	/g-r(-y)/	vb G inf.	to attack	
 142048	ˤrm	ˤr(I)/	ʕr (I)	n. f. sg.	city	
 142049	šrn	šr(II)[n	/š-r/ (II)	vb G suffc.	to threaten	
 # KTU 1.14 III:7						
@@ -935,7 +935,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142293	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 142294	abh	ab/+h	ảb	n. m.	father	
 142295	il	il(I)/	ỉl (I)	n. m.	god	
-142296	šrd	yrd[/	/y-r-d/	vb G act. ptcpl. pl.	to go down	
+142296	šrd	šrd[/	/y-r-d/	vb G act. ptcpl. pl.	to go down	
 142296	šrd	šrd[:d	/š-r-d/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to honour	
 # KTU 1.14 IV:7						
 142297	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
@@ -1665,7 +1665,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142713	l	l(II)	l (II)	adv.	no	
 142713	l	l(III)	l (III)	functor	certainly	
 142714	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-142714	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+142714	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 142715	idk	idk	ỉdk	narrative adv. functor	then	
 142716	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
 # KTU 1.14 VI:37						

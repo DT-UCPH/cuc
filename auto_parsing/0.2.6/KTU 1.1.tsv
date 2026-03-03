@@ -433,7 +433,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135822	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G impv. / vb G	to exclaim	
 135823	il	il(I)/	ỉl (I)	n. m.	god	
 135824	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-135824	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+135824	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 135825	b	b	b	prep.	in	
 135826	mrzḥ	mrzḥ/	mrzḥ	n. m.	cultic association	
 # KTU 1.1 IV:5						
@@ -644,8 +644,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135960	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
 # KTU 1.1 V:8						
 135961	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G suffc.	to know	
-135961	ydˤ	!!(ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
-135961	ydˤ	(ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl.	to know	
+135961	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
+135961	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl.	to know	
 135962	lydˤt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.1 V:9						
 135963	k	+k	-k (I)			
@@ -709,11 +709,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.1 V:21						
 135999		?	?	?	?	
 136000	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G suffc.	to know	
-136000	ydˤ	!!(ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
-136000	ydˤ	(ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl.	to know	
+136000	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
+136000	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl.	to know	
 136001	l	l(II)	l (II)	adv.	no	
 136002	ydˤt	!y!(ydˤ(I)[t	/y-d-ʕ/ (I)	vb G suffc.	to know	
-136002	ydˤt	(ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
+136002	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
 # KTU 1.1 V:22						
 136003	tasrn	ʔsr[rn:d	/ʔ-s-r/	vb D prefc. / vb D suffc.	to tie	
 136004	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	

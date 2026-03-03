@@ -8,8 +8,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:3						
 138124		?	?	?	?	
 # KTU 1.4 I:4						
-138125	any	!!(ʔ&any[/	/ʔ-n-y/	vb G inf.	to sigh	
-138125	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
+138125	any	!!any[/	/ʔ-n-y/	vb G inf.	to sigh	
+138125	any	any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
 138126	l	l(I)	l (I)	prep.	to	
 138126	l	l(II)	l (II)	adv.	no	
 138126	l	l(III)	l (III)	functor	certainly	
@@ -499,7 +499,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138452	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 # KTU 1.4 III:10						
 138453	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-138453	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+138453	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 138454	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 138455	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.4 III:11						
@@ -931,7 +931,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 IV:32						
 138727	ik	ik	ỉk	interr. functor	how?	
 138728	atwt	(ʔ&atw[t	/ʔ-t-w/	vb G suffc.	to come	
-138728	atwt	(ʔ&atw[/t	/ʔ-t-w/	vb G act. ptcpl. / vb G ptcpl.	to come	
+138728	atwt	ʔ&atw[/t	/ʔ-t-w/	vb G act. ptcpl. / vb G ptcpl.	to come	
 138729	qnyt	qny[t	/q-n-y/	vb G suffc.	to acquire	
 138730	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 IV:33						
@@ -1020,8 +1020,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138791	ksh	ks(I)/+h	ks (I)	n. m.	cup	
 138791	ksh	ks/+h	ks/śm(n)	n. m.	emmer-corn	
 # KTU 1.4 IV:47						
-138792	any	!!(ʔ&any[/	/ʔ-n-y/	vb G inf.	to sigh	
-138792	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
+138792	any	!!any[/	/ʔ-n-y/	vb G inf.	to sigh	
+138792	any	any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
 138793	l	l(I)	l (I)	prep.	to	
 138793	l	l(II)	l (II)	adv.	no	
 138793	l	l(III)	l (III)	functor	certainly	
@@ -1212,7 +1212,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138908	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. sg.	cloud(s)	
 # KTU 1.4 V:9						
 138909	šrh	šry[	/š-r-y/w/	vb G suffc.	to release	
-138909	šrh	!!šry[/	/š-r-y/w/	vb G inf.	to release	
+138909	šrh	!!šrh[/	/š-r-y/w/	vb G inf.	to release	
 138910	l	l(I)	l (I)	prep.	to	
 138911	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 138912	brqm	brq(I)/m	brq (I)	n. m. pl.	ray	
@@ -2179,7 +2179,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VII:42						
 139547	bkm	bkm	bkm	adv.	next	
 139548	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-139548	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+139548	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 139549	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 139549	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 139550	l	l(I)	l (I)	prep.	to	
@@ -2240,7 +2240,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139588	w	w	w	conj.	and	
 139589	nšm	nš(m/m	nšm	n. m. pl. tant. pl.	people	
 139590	d	d	d	det. or rel. functor	the one(s) of	
-139591	yšb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+139591	yšb	yšb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 # KTU 1.4 VII:52						
 139592	ˤ	?	?	?	?	
 139593	hmlt	hml(t/t=	hmlt	n. f. pl.	multitude	
