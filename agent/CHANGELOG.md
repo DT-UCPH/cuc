@@ -2,6 +2,13 @@
 
 ## 2026-03-03
 
+- Restored global I-aleph non-finite verb reconstruction after the non-finite split rollout:
+  - `pipeline/steps/verb_form_encoding_split.py` now preserves and reconstructs `(ʔ&...` for I-aleph infinitives and participles instead of flattening them to bare surface forms.
+  - the fixer now handles three attested failure modes: reduced cores like `ny[ -> (ʔ&any[`, full-surface cores like `ikl[ -> (ʔ&ikl[`, and malformed retained finite tails like `ʔḫr[r -> (ʔ&aḫr[`.
+  - leading reconstructed aleph is no longer promoted away during non-finite canonicalization.
+  - added regressions in `tests/test_verb_form_encoding_split.py` for `any`, `aṯr`, `aklt`, and `maḫr`.
+  - re-ran the affected `auto_parsing/0.2.6` tablets and verified that no `/ʔ-/` non-finite verb rows remain without `(ʔ`.
+
 - Fixed global non-finite verb encoding cleanup for exact-surface ambiguities:
   - `pipeline/steps/verb_form_encoding_split.py` now canonicalizes infinitive and participle analyses from inherited finite variants instead of mechanically reusing finite preformative layers.
   - prefixed finite analyses such as `!y!(ydy(I)[` now split to canonical non-finite rows like `!!ydy(I)[/` and `ydy(I)[/`, instead of invalid encodings like `!!!y!(ydy(I)[/` and `!y!(ydy(I)[/`.

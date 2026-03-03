@@ -8,8 +8,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:3						
 138124		?	?	?	?	
 # KTU 1.4 I:4						
-138125	any	!!any[/	/ʔ-n-y/	vb G inf.	to sigh	
-138125	any	any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
+138125	any	!!(ʔ&any[/	/ʔ-n-y/	vb G inf.	to sigh	
+138125	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
 138126	l	l(I)	l (I)	prep.	to	
 138126	l	l(II)	l (II)	adv.	no	
 138126	l	l(III)	l (III)	functor	certainly	
@@ -931,7 +931,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 IV:32						
 138727	ik	ik	ỉk	interr. functor	how?	
 138728	atwt	(ʔ&atw[t	/ʔ-t-w/	vb G suffc.	to come	
-138728	atwt	ʔ&atw[/t	/ʔ-t-w/	vb G act. ptcpl. / vb G ptcpl.	to come	
+138728	atwt	(ʔ&atw[/t	/ʔ-t-w/	vb G act. ptcpl. / vb G ptcpl.	to come	
 138729	qnyt	qny[t	/q-n-y/	vb G suffc.	to acquire	
 138730	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 IV:33						
@@ -1020,8 +1020,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138791	ksh	ks(I)/+h	ks (I)	n. m.	cup	
 138791	ksh	ks/+h	ks/śm(n)	n. m.	emmer-corn	
 # KTU 1.4 IV:47						
-138792	any	!!any[/	/ʔ-n-y/	vb G inf.	to sigh	
-138792	any	any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
+138792	any	!!(ʔ&any[/	/ʔ-n-y/	vb G inf.	to sigh	
+138792	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl.	to sigh	
 138793	l	l(I)	l (I)	prep.	to	
 138793	l	l(II)	l (II)	adv.	no	
 138793	l	l(III)	l (III)	functor	certainly	

@@ -22,6 +22,8 @@ _FORM_PTCP_RE = re.compile(
 )
 _FORM_FINITE_RE = re.compile(r"(?:\bprefc\.|\bsuffc\.|\bimpv\.)", flags=re.IGNORECASE)
 _LETTER_RE = re.compile(r"[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]")
+_I_ALEPH_DULAT_RE = re.compile(r"^\s*/ʔ-")
+_I_ALEPH_SURFACE_VOWELS = frozenset({"a", "i", "u", "ả", "ỉ", "ủ"})
 
 
 def _split_semicolon(value: str) -> list[str]:
@@ -75,6 +77,8 @@ def _strip_finite_preformative(text: str) -> str:
 
 def _promote_leading_reconstructed_letter(text: str) -> str:
     value = (text or "").strip()
+    if value.startswith("(ʔ"):
+        return value
     if len(value) >= 2 and value.startswith("(") and _LETTER_RE.match(value[1]):
         return value[1:]
     return value
@@ -83,6 +87,12 @@ def _promote_leading_reconstructed_letter(text: str) -> str:
 def _surface_matches_analysis(surface: str, analysis: str) -> bool:
     return normalize_surface(reconstruct_surface_from_analysis(analysis)) == normalize_surface(
         surface
+    )
+
+
+def _target_matches_analysis(target: str, analysis: str) -> bool:
+    return normalize_surface(reconstruct_surface_from_analysis(analysis)) == normalize_surface(
+        target
     )
 
 
@@ -101,9 +111,88 @@ def _replace_host_with_surface(surface: str, analysis: str) -> str:
     return f"{surface}{homonym}{suffix}"
 
 
-def _canonicalize_nonfinite_core(surface: str, analysis: str) -> str:
+def _is_i_aleph_root(dulat: str) -> bool:
+    return bool(_I_ALEPH_DULAT_RE.match((dulat or "").strip()))
+
+
+def _visible_surface_vowel(surface: str) -> str:
+    text = (surface or "").strip()
+    if not text:
+        return ""
+    return text[0]
+
+
+def _surface_tail_matches_analysis(surface: str, analysis: str) -> bool:
+    text = (surface or "").strip()
+    if len(text) < 2:
+        return False
+    return _target_matches_analysis(text[1:], analysis)
+
+
+def _nonfinite_core_variants(core: str) -> list[str]:
+    text = (core or "").strip()
+    if not text:
+        return []
+    variants = [text]
+    bracket_idx = text.find("[")
+    if bracket_idx != -1 and bracket_idx < len(text) - 1:
+        truncated = text[: bracket_idx + 1]
+        if truncated not in variants:
+            variants.append(truncated)
+    return variants
+
+
+def _i_aleph_surface_targets(surface: str) -> list[str]:
+    text = (surface or "").strip()
+    if not text:
+        return []
+    targets = [text]
+    if text.startswith("m") and len(text) > 1:
+        targets.append(text[1:])
+    return targets
+
+
+def _restore_i_aleph_nonfinite_core(surface: str, core: str, dulat: str) -> str | None:
+    if not _is_i_aleph_root(dulat):
+        return None
+
+    for text in _nonfinite_core_variants(core):
+        for target in _i_aleph_surface_targets(surface):
+            if text.startswith("(ʔ") and _target_matches_analysis(target, text):
+                return text
+
+            if text.startswith("ʔ&"):
+                candidate = f"({text}"
+                if _target_matches_analysis(target, candidate):
+                    return candidate
+
+            vowel = _visible_surface_vowel(target)
+            if vowel and vowel in _I_ALEPH_SURFACE_VOWELS:
+                if text.startswith("ʔ"):
+                    bare_aleph_candidate = f"(ʔ&{vowel}{text[1:]}"
+                    if _target_matches_analysis(target, bare_aleph_candidate):
+                        return bare_aleph_candidate
+
+                full_candidate = f"(ʔ&{text}"
+                if _target_matches_analysis(target, full_candidate):
+                    return full_candidate
+
+                if _surface_tail_matches_analysis(target, text):
+                    tail_candidate = f"(ʔ&{vowel}{text}"
+                    if _target_matches_analysis(target, tail_candidate):
+                        return tail_candidate
+
+    return None
+
+
+def _canonicalize_nonfinite_core(surface: str, analysis: str, dulat: str) -> str:
     stripped = _strip_infinitive_marker(analysis)
     stripped = _strip_finite_preformative(stripped)
+
+    aleph_restored = _restore_i_aleph_nonfinite_core(surface, stripped, dulat)
+    if aleph_restored is not None:
+        return aleph_restored
+
     stripped = _promote_leading_reconstructed_letter(stripped)
     if _surface_matches_analysis(surface, stripped):
         return stripped
@@ -113,8 +202,8 @@ def _canonicalize_nonfinite_core(surface: str, analysis: str) -> str:
     return stripped
 
 
-def _to_nonfinite_encoding(surface: str, analysis: str) -> str:
-    text = _canonicalize_nonfinite_core(surface, analysis)
+def _to_nonfinite_encoding(surface: str, analysis: str, dulat: str) -> str:
+    text = _canonicalize_nonfinite_core(surface, analysis, dulat)
     if "[/" in text:
         return text
     if "[" not in text:
@@ -122,15 +211,15 @@ def _to_nonfinite_encoding(surface: str, analysis: str) -> str:
     return text.replace("[", "[/", 1)
 
 
-def _to_infinitive_encoding(surface: str, analysis: str) -> str:
-    text = _to_nonfinite_encoding(surface, analysis)
+def _to_infinitive_encoding(surface: str, analysis: str, dulat: str) -> str:
+    text = _to_nonfinite_encoding(surface, analysis, dulat)
     if text.startswith("!!"):
         return text
     return f"!!{text}"
 
 
-def _to_participle_encoding(surface: str, analysis: str) -> str:
-    text = _to_nonfinite_encoding(surface, analysis)
+def _to_participle_encoding(surface: str, analysis: str, dulat: str) -> str:
+    text = _to_nonfinite_encoding(surface, analysis, dulat)
     text = _strip_infinitive_marker(text)
     return text
 
@@ -197,12 +286,12 @@ class VerbFormEncodingSplitFixer(RefinementStep):
             if len(options) <= 1:
                 normalized_analysis = analysis
                 if options and _requires_infinitive_encoding(options[0]):
-                    converted = _to_infinitive_encoding(row.surface, analysis)
+                    converted = _to_infinitive_encoding(row.surface, analysis, dulat)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
                 elif options and _requires_participle_encoding(options[0]):
-                    converted = _to_participle_encoding(row.surface, analysis)
+                    converted = _to_participle_encoding(row.surface, analysis, dulat)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
@@ -248,13 +337,13 @@ class VerbFormEncodingSplitFixer(RefinementStep):
                 normalized_pos = pos
                 if has_infinitive:
                     normalized_pos = _join_options(infinitive_options + neutral_options)
-                    converted = _to_infinitive_encoding(row.surface, analysis)
+                    converted = _to_infinitive_encoding(row.surface, analysis, dulat)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
                 elif has_participle:
                     normalized_pos = _join_options(participle_options + neutral_options)
-                    converted = _to_participle_encoding(row.surface, analysis)
+                    converted = _to_participle_encoding(row.surface, analysis, dulat)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
@@ -276,8 +365,8 @@ class VerbFormEncodingSplitFixer(RefinementStep):
             infinitive_pos = _join_options(infinitive_options + neutral_options)
             participle_pos = _join_options(participle_options + neutral_options)
             finite_analysis = _to_finite_encoding(analysis)
-            infinitive_analysis = _to_infinitive_encoding(row.surface, analysis)
-            participle_analysis = _to_participle_encoding(row.surface, analysis)
+            infinitive_analysis = _to_infinitive_encoding(row.surface, analysis, dulat)
+            participle_analysis = _to_participle_encoding(row.surface, analysis, dulat)
 
             if has_finite:
                 out_analysis.append(finite_analysis)

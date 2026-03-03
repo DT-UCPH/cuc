@@ -68,6 +68,51 @@ class VerbFormEncodingSplitFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "yṯb[/")
 
+    def test_preserves_i_aleph_reconstruction_in_nonfinite_split(self) -> None:
+        row = TabletRow(
+            "9",
+            "any",
+            "!(ʔ&a!ny[",
+            "/ʔ-n-y/",
+            "vb G prefc. / vb G inf. / vb G ptcpl.",
+            "to sigh",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!(ʔ&a!ny[; !!(ʔ&any[/; (ʔ&any[/")
+        self.assertEqual(result.pos, "vb G prefc.; vb G inf.; vb G ptcpl.")
+
+    def test_restores_i_aleph_on_full_surface_nonfinite_core(self) -> None:
+        row = TabletRow("10", "aṯr", "aṯr[", "/ʔ-ṯ-r/", "vb G inf.", "to go", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!!(ʔ&aṯr[/")
+
+    def test_restores_missing_open_paren_for_i_aleph_participle(self) -> None:
+        row = TabletRow(
+            "11",
+            "aklt",
+            "ʔ&akl[t",
+            "/ʔ-k-l/",
+            "vb G act. ptcpl. m.",
+            "to eat",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "(ʔ&akl[/t")
+
+    def test_restores_i_aleph_participle_with_derived_mem_surface(self) -> None:
+        row = TabletRow(
+            "12",
+            "maḫr",
+            "ʔḫr[r",
+            "/ʔ-ḫ-r/",
+            "vb D ptcpl.",
+            "to retain",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "(ʔ&aḫr[/")
+
     def test_demotes_single_finite_option_to_finite_encoding(self) -> None:
         row = TabletRow("3", "qtl", "!!qtl[/", "/q-t-l/", "vb G suffc.", "to kill", "")
         result = self.fixer.refine_row(row)
