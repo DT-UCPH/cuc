@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151219	d	d	d	det. or rel. functor	the one(s) of	
 151220	ykl	!y!kl(y[:d	/k-l-y/	vb G prefc. / vb D prefc.	to finish	
 151221	bd	b	b	prep.	in	
-151222	r	?	?	?	?	
+151222	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 2						
 151223	b	b	b	prep.	in	
 151224	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
@@ -95,6 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 17						
 151263	xxxxxxh	?	?	?	?	DULAT: NOT FOUND
 151264	iln	il(I)/+n	ỉl (I)	n. m.	god	
+151264	iln	iln(I)/	ỉln (I)	n. m. sg.	deity	
 # KTU 1.91 18						
 151265	xxxxx	?	?	?	?	
 151266	ṣmdt	?	?	?	?	DULAT: NOT FOUND

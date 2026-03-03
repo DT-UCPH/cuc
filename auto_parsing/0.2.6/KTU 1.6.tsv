@@ -223,7 +223,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140579	pšt	?	?	?	?	DULAT: NOT FOUND
 140580	bm	b	b	prep.	in	
 140580	bm	b+m(I)	b	prep.	in	
-140580	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 140581	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 140581	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 140581	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
@@ -568,7 +567,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140788	w	w	w	conj.	and	
 140789	tṣ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.6 II:12						
-140790	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
+140790	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
 140791	at	at(I)	ảt (I)	pers. pn.	you	
 140792	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 140792	mt	mt(II)/	mt (II)	n. m. sg.	death	
@@ -740,8 +739,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140894	ḫṯr	ḫṯr/	ḫṯr	n. m. sg.	sieve	
 140895	tdry	ndr[+y	/n-d-r/	vb	to make a vow	
 # KTU 1.6 II:33						
+140896	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 140896	nn	grš[	/g-r-š/	vb	to eject	
-140896	nn	qn/+n	qn	n. m.	cane	
 140896	nn	gr[	/g-r(-y)/	vb	to attack	
 140897	b	b	b	prep.	in	
 140898	išt	iš(t/t	ỉšt	n. f. sg.	fire	
@@ -864,7 +863,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140974	tlk	hlk[	/h-l-k/	vb G prefc.	to go	
 140975	nbtm	nb(t/t~m	nbt	n. f. sg.	honey	
 # KTU 1.6 III:14						
-140976	šmḫ	šmḫ[	/š-m-ḫ/	vb G prefc. / vb G suffc.	to be glad	
+140976	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc.	to be glad	
 140976	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad	
 140977	lṭpn	lṭpn/	lṭpn	adj. m. sg.	Benevolent	
 140978	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
@@ -1122,7 +1121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141128	dr	dr/	dr	n. m. sg. / n. m. pl. cstr.	circle	
 141129	x	?	?	?	?	
 # KTU 1.6 IV:27						
-141130	r	?	?	?	?	
+141130	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.6 IV:28						
 141131	x	?	?	?	?	
 # KTU 1.6 IV:29						
@@ -1222,7 +1221,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141199	b	b	b	prep.	in	
 141200	rḥ	rḥ(I)/	rḥ (I)	n. f. sg.	wind	
 # KTU 1.6 V:16						
-141201	m	mt(II)/	mt (II)	n. m.	death	
+141201	m	?	?	?	?	DULAT: NOT FOUND
 141202	ˤlk	ˤl(I)+k	ʕl (I)	prep.	upon	
 141203	pht	phy[t	/p-h-y/	vb G suffc.	to see	
 141204	dry	dr/+y	dr	n. m.	circle	
@@ -1361,7 +1360,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141282	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 141283	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 141283	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-141284	s	rks/	rks	n. m. sg.	belt	
+141284	s	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.6 VI:11						
 141285	spuy	!!sp(ʔ&u[/y	/s-p-ʔ/	vb G inf.	to devour	
 141286	bnm	bn(I)/m	bn (I)	n. m. sg. / n. m. pl.	son	
@@ -1395,8 +1394,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141303	umy	um/y	ủm	n. f. sg.	mother	
 141304	kl	kl/	kl	n. m. sg.	totality (of)	
 # KTU 1.6 VI:16						
-141305	yy	ˤny(I)[/+y	/ʕ-n-y/ (I)	vb G act. ptcpl.	to answer	
-141305	yy	lšn/+y	lšn	n. f.	tongue	
+141305	yy	y+y	y	prep. functor	oh!	
+141305	yy	sbb[+y	/s:ś-b-b/	vb	to turn round	
 141305	yy	yy/	yy	PN	yy	
 141306	ytˤn	!y!](n]tˤ[n	/t-ʕ/	vb G prefc. / vb N prefc.	to attack	
 141307	k	k(I)	k (I)	prep.	like	

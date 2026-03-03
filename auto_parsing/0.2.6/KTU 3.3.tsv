@@ -12,7 +12,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160949	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
 # KTU 3.3 3						
 160950	b	b	b	prep.	in	
-160951	mtn	mt[n	/m-t/	vb G prefc.	to die	
+160951	mtn	mt(II)/+n	mt (II)	n. m.	death	
+160951	mtn	mt[n	/m-t/	vb	to die	
+160951	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+160951	mtn	mt[/+n	/m-t/	vb G ptcpl.	to die	
 160952	bn	b	b	prep.	in	
 160952	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 160952	bn	bn(II)	bn (II)	prep.	between	
@@ -40,7 +43,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.3 9						
 160966	tknn	!t!knn[:l	/k-n/	vb L prefc.	to be (stable)	
 # KTU 3.3 10						
-160967	mtn	mt[n	/m-t/	vb G prefc.	to die	
+160967	mtn	mt(II)/+n	mt (II)	n. m.	death	
+160967	mtn	mt[n	/m-t/	vb	to die	
+160967	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+160967	mtn	mt[/+n	/m-t/	vb G ptcpl.	to die	
 160968	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 160968	bn	bn(II)	bn (II)	prep.	between	
 160968	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	

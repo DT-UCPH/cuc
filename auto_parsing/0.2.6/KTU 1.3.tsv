@@ -175,7 +175,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137055	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 137055	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 137055	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
-137056	tm	mtnt/	mtnt	n. f. du.	loin	
 137056	tm	tm/	tm	adj. m. sg.	complete	
 # KTU 1.3 II:6						
 137057	tḫṣ	?	?	?	?	DULAT: NOT FOUND
@@ -632,6 +631,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137376	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 137376	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 137377	bh	b	b	prep.	in	
+137377	bh	b+h	b	prep.	in	
+137377	bh	nqb[	/n-q-b/	vb	to pierce	
 137378	pˤnm	pˤn/m	pʕn	n. f. du.	foot	
 # KTU 1.3 III:33						
 137379	tṭṭ	nṭṭ[	/n-ṭ-ṭ/	vb G prefc.	to shake	
@@ -663,7 +664,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137399	w	w	w	conj.	and	
 137400	ugr	ugr(II)/	ủgr (II)	DN	Ugar/one of the two messenger-boys of Baal	
 # KTU 1.3 III:37						
-137401	m	mt(II)/	mt (II)	n. m.	death	
+137401	m	?	?	?	?	DULAT: NOT FOUND
 137402	mn	mn(IV)	mn (IV)	?	?	
 137403	ib	ib(I)/	ỉb (I)	n. m. sg. / n. m. pl.	enemy	
 137404	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G prefc. / vb N prefc.	to go up	
@@ -1217,8 +1218,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137753	aṯb	yṯb[	/y-ṯ-b/	vb G prefc.	to sit down	
 # KTU 1.3 V:1						
 137754	xxxamṣḫ	?	?	?	?	DULAT: NOT FOUND
+137755	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 137755	nn	grš[	/g-r-š/	vb	to eject	
-137755	nn	qn/+n	qn	n. m.	cane	
 137755	nn	gr[	/g-r(-y)/	vb	to attack	
 137756	k	k(I)	k (I)	prep.	like	
 137757	imr	imr(I)/	ỉmr (I)	n. m. sg.	lamb	
@@ -1582,7 +1583,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 V:46						
 137985	x	?	?	?	?	
 # KTU 1.3 V:47						
-137986	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
+137986	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
 # KTU 1.3 V:48						
 137987	x	?	?	?	?	
 # KTU 1.3 V:49						
@@ -1677,7 +1678,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138033	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 138034	x	?	?	?	?	
 # KTU 1.3 VI:12						
-138035	m	mt(II)/	mt (II)	n. m.	death	
+138035	m	?	?	?	?	DULAT: NOT FOUND
 138036	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 138037	ḥxx	?	?	?	?	DULAT: NOT FOUND
 138038	tb	?	?	?	?	DULAT: NOT FOUND
@@ -1687,7 +1688,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138041	b	b	b	prep.	in	
 138042	rišk	riš(I)/	rỉš (I)	n. m. sg.	head	
 # KTU 1.3 VI:14						
-138043	m	mt(II)/	mt (II)	n. m.	death	
+138043	m	?	?	?	?	DULAT: NOT FOUND
 138044	brqm	brq(I)/m	brq (I)	n. m. pl.	ray	
 138045	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 138045	bn	bn(II)	bn (II)	prep.	between	

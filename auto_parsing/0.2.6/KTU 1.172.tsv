@@ -36,9 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155814	xˤnk	?	?	?	?	DULAT: NOT FOUND
 155815	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
 # KTU 1.172 14						
-155816	rn	rḥb(I)/+n	rḥb (I)	adj. m.	wide	
-155816	rn	ġtr[+n	/ġ-t-r/	vb	to implore	
-155816	rn	rks/+n	rks	n. m.	belt	
+155816	rn	?	?	?	?	DULAT: NOT FOUND
 155817	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 15						
 155818	n	~n	-n (I)	encl. morph.		
@@ -47,7 +45,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155818	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
 155819	tlm	tlm/	tlm	n. m. sg.	furrow	
 # KTU 1.172 16						
-155820	qd	qn/+d	qn	n. m.	cane, ?	
 155820	qd	ḥkpt/+d	ḥkpt	TN	ḥkpt, ?	
 # KTU 1.172 17						
 155821	n	~n	-n (I)	encl. morph.		
@@ -78,8 +75,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155835	ydh	yd(I)/+h	yd (I)	n. f.	hand	
 # KTU 1.172 22						
 155836	nh	n(I)	-n (I)	morph.	Sun	
-155836	nh	qn/+h	qn	n. m.	cane	
-155836	nh	mtnt/+h	mtnt	n. f.	loin	
+155836	nh	ṣpn/+h	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+155836	nh	rḫnt/+h	rḫnt	n. f.	sweetness	
 155837	w	w	w	conj.	and	
 155838	lyamr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 23						
@@ -105,7 +102,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.172 29						
 155852	bm	b	b	prep.	in	
 155852	bm	b+m(I)	b	prep.	in	
-155852	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 # KTU 1.172 30						
 155853		?	?	?	?	
 155854	yldhnaxx	?	?	?	?	DULAT: NOT FOUND

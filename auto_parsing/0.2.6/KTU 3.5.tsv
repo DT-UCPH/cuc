@@ -55,8 +55,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161051	w	w	w	conj.	and	
 161052	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 161053	nn	grš[	/g-r-š/	vb	to eject	
-161053	nn	qn/+n	qn	n. m.	cane	
 161053	nn	gr[	/g-r(-y)/	vb	to attack	
+161053	nn	rḫnt/+n	rḫnt	n. f.	sweetness	
 # KTU 3.5 12						
 161054	l	l(I)	l (I)	prep.	to	
 161054	l	l(III)	l (III)	functor	certainly	
@@ -118,6 +118,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 21						
 161082	in	in/	ỉn	n. m. sg.	lack of	
 161083	bh	b	b	prep.	in	
+161083	bh	b+h	b	prep.	in	
+161083	bh	nqb[	/n-q-b/	vb	to pierce	
 # KTU 3.5 22						
 161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg.	seal	
 # KTU 3.5 23						

@@ -277,7 +277,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143361	brltk	brlt/+k	brlt	n. f.	hunger	
 143362	bm	b	b	prep.	in	
 143362	bm	b+m(I)	b	prep.	in	
-143362	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 143363	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
 # KTU 1.16 I:43						
 143364	lk	l(I)+k	l (I)	prep.	to	
@@ -311,7 +310,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143384	grgrh	grgr/+h	grgr	n. m. sg.	javelin	
 143385	bm	b	b	prep.	in	
 143385	bm	b+m(I)	b	prep.	in	
-143385	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 143386	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
 # KTU 1.16 I:49						
 143387	wyqrb	?	?	?	?	DULAT: NOT FOUND
@@ -640,9 +638,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 II:46						
 143577	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 143577	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
+143578	nny	ṣpn/+ny	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 143578	nny	grš[+y	/g-r-š/	vb G suffc. / vb G impv.	to eject	
 143578	nny	grš[/+y	/g-r-š/	vb G ptcpl. m. sg.	to eject	
-143578	nny	qn/+ny	qn	n. m.	cane	
 143578	nny	nny/	nny	TN	nny	
 143579	ḥlm	ḥlm(I)/	ḥlm (I)	n. m. sg.	dream	
 143580	adr	adr(I)/	ảdr (I)	adj. m. or n. m. sg.	wonderful	
@@ -764,7 +762,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 III:10						
 143656	bm	b	b	prep.	in	
 143656	bm	b+m(I)	b	prep.	in	
-143656	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 143657	nrt	nr(t(II)/t	nrt (II)	n. f. sg.	ploughed land	
 143658	k	+k	-k (I)			
 143658	k	~k	-k (II)			
@@ -1230,8 +1227,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143926	w	w	w	conj.	and	
 143927	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 143928	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc.	to wash	
+143929	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 143929	nn	grš[	/g-r-š/	vb	to eject	
-143929	nn	qn/+n	qn	n. m.	cane	
 143929	nn	gr[	/g-r(-y)/	vb	to attack	
 143930	b	b	b	prep.	in	
 143931	dˤt	dˤ(t(II)/t	dʕt (II)	n. f. sg.	sweat	

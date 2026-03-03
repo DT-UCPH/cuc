@@ -259,8 +259,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139942	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.5 II:7						
 139943	ṯtˤ	ṯtˤ[	/ṯ-t-ʕ/	vb G suffc.	to be frightened	
+139944	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 139944	nn	grš[	/g-r-š/	vb	to eject	
-139944	nn	qn/+n	qn	n. m.	cane	
 139944	nn	gr[	/g-r(-y)/	vb	to attack	
 139945	rkb	rkb[	/r-k-b/	vb G suffc. / vb G impv.	to mount (especially a chariot)	
 139945	rkb	rkb[/	/r-k-b/	vb G ptcpl.	to mount (especially a chariot)	
@@ -382,7 +382,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:20						
 140012	w	w	w	conj.	and	
 140013	dˤlmk	?	?	?	?	DULAT: NOT FOUND
-140014	šmḫ	šmḫ[	/š-m-ḫ/	vb G prefc. / vb G suffc.	to be glad	
+140014	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc.	to be glad	
 140014	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad	
 140015	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 140016	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
@@ -415,7 +415,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140032	qẓb	qẓb/	qẓb	DN	name of a demon (?)	
 # KTU 1.5 II:25						
 140033	xxxxxxxxxx	?	?	?	?	
-140034	šmḥy	šmḫ[+y	/š-m-ḫ/	vb G prefc. / vb G suffc.	to be glad	
+140034	šmḥy	šmḫ[+y	/š-m-ḫ/	vb G suffc.	to be glad	
 140034	šmḥy	!!šmḫ[/+y	/š-m-ḫ/	vb G inf.	to be glad	
 # KTU 1.5 II:26						
 140035	xxxxxxxxxxxtbˤ	?	?	?	?	DULAT: NOT FOUND
@@ -496,9 +496,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 III:12						
 140072	ahpkk	!(ʔ&a!hpk[k	/h-p-k/	vb G prefc.	to overturn	
 140073	l	l(I)	l (I)	prep.	to	
-140073	l	l(II)	l (II)	adv.	no	
 140073	l	l(III)	l (III)	functor	certainly	
-140074	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
+140074	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
 # KTU 1.5 III:13						
 140075	ṯmm	ṯmm[	/ṯ-m-m/	vb G impv.	to be appalled	
 140076	w	w	w	conj.	and	
@@ -692,7 +691,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140181		?	?	?	?	
 # KTU 1.5 IV:20						
 140182	w	w	w	conj.	and	
-140183	tṯtnyn	ṯny[ny+n	/ṯ-n-y/	vb	to repeat	
+140183	tṯtnyn	ṯny[ny+n	/ṯ-n-y/	vb Gt prefc.	to repeat	
 # KTU 1.5 IV:21						
 140184	tˤl	!t!ˤl(y[	/ʕ-l-y/	vb G prefc.	to go up	
 140185	trṯ	trṯ/	trṯ	n. m. sg.	new wine	

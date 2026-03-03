@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.166 2						
 155475	a	?	?	?	?	
 # KTU 1.166 3						
-155476	r	?	?	?	?	
+155476	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 4						
 155477	k	+k	-k (I)			
 155477	k	~k	-k (II)			
@@ -12,8 +12,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155477	k	k(I)	k (I)	prep.	like	
 155477	k	k(II)	k (II)	emph. functor	yes	
 # KTU 1.166 5						
-155478	ak	mt[+k	/m-t/	vb G suffc.	to die	
-155478	ak	mt[/+k	/m-t/	vb G ptcpl.	to die	
 155478	ak	mru(I)/+k	mrủ (I)	adj. m. or n. m.	fattened	
 155478	ak	ṣbu(II)/+k	ṣbủ (II)	n. m.	setting	
 # KTU 1.166 6						
@@ -34,7 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155486	tddn	!!ndd[/+n	/n-d-d/	vb G inf.	to go	
 # KTU 1.166 11						
 155487	ˤẓrnm	ˤẓrn+m(I)	ʕẓrn	morph.	(?)	
-155488	m	mt(II)/	mt (II)	n. m.	death	
+155488	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 12						
 155489	l	l(I)	l (I)	prep.	to	
 155489	l	l(II)	l (II)	adv.	no	

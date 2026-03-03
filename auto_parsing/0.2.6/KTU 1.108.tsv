@@ -44,7 +44,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153239	mṣltm	mṣlt(I)/m	mṣlt (I)	n. f. du.	cymbal	
 153240	bm	b	b	prep.	in	
 153240	bm	b+m(I)	b	prep.	in	
-153240	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 # KTU 1.108 5						
 153241	rqdm	rqd/+m(I)	rqd	TN	rqd	
 153242	d	d	d	det. or rel. functor	the one(s) of	
@@ -181,7 +180,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153323	l	l(I)	l (I)	prep.	to	
 153323	l	l(III)	l (III)	functor	certainly	
 # KTU 1.108 23						
-153324	anh	lan/	lản	n. m. sg.	power	
+153324	anh	mru(I)/+nh	mrủ (I)	adj. m. or n. m.	fattened, ?	
+153324	anh	an(I)/+h	ản (I)	pers. pn.	I	
+153324	anh	an(II)+h	ản (II)	adv.	wherever	
 153325	b	b	b	prep.	in	
 153326	ḥtkh	ḥtk(II)/h	ḥtk (II)	n. m. sg.	lineage	
 153326	ḥtkh	ḥtk(III)/+h	ḥtk (III)	n. m. sg.	sovereignty	
@@ -189,7 +190,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153328	nmrth	nmr(t/t+h	nmrt	n. f. sg.	splendour	
 153329	l	l(I)	l (I)	prep.	to	
 153329	l	l(III)	l (III)	functor	certainly	
-153330	r	?	?	?	?	
+153330	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.108 24						
 153331	pi	?	?	?	?	DULAT: NOT FOUND
 153332	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
@@ -197,9 +198,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153334	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg.	fortress	
 153335	la	la/	lả	n. m. sg.	power	
 # KTU 1.108 25						
-153336	nk	qn/+k	qn	n. m.	cane	
-153336	nk	mtnt/+k	mtnt	n. f.	loin	
-153336	nk	ḫtʔ[+k	/ḫ-t-ʔ/	vb	to be ground up	
+153336	nk	ṣpn/+k	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+153336	nk	rḫnt/+k	rḫnt	n. f.	sweetness	
 153337	ḥtkk	ḥt(I)/+k	ḥtk (I)	n. m. sg.	ruler > progenitor	
 153337	ḥtkk	ḥt(III)/+k	ḥtk (III)	n. m. sg.	sovereignty	
 153338	nmrtk	nmr(t/t+k	nmrt	n. f. sg.	splendour	

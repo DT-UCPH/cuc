@@ -16,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 5						
 156003	th	m(II)+h	-m (II)	morph.	und das (ist) so!	
 156003	th	aḫt(I)/+h	ảḫt (I)	n. f.	sister (related by blood)	
-156003	th	tḥtyt/+h	tḥtyt	adj. f.	lower	
+156003	th	rḫnt/+h	rḫnt	n. f.	sweetness	
 156004	plg	plg[	/p-l-g/	vb G suffc. / vb N suffc.	to be split	
 156004	plg	plg/	plg	n. m. sg.	stream	
 156005		?	?	?	?	
@@ -55,7 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156023	w	w	w	conj.	and	
 # KTU 1.176 15						
 156024	ḥsm	ḥsm	ḥsm	?	?	
-156025	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
+156025	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
 # KTU 1.176 16						
 156026	pat	pit/	pỉt	n. m. pl.	temple	
 156027	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
@@ -95,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156044	ḥr	ḥr(I)/	ḥr (I)	n. m. sg.	intestine(s)	
 # KTU 1.176 24						
 156045	w	w	w	conj.	and	
-156046	ra	!!ra[/	/q-r-ʔ/	vb G inf.	to call	
+156046	ra	qrʔ[	/q-r-ʔ/	vb	to call	
 156047	hn	hn	hn	functor	behold!	
 # KTU 1.176 25						
 156048	lak	l(ʔ&ak[	/l-ʔ-k/	vb G impv.	to send (a message)	

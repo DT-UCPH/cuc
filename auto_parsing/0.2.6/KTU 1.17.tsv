@@ -337,7 +337,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144354	yškb	!y!škb[	/š-k-b/	vb G prefc.	to lie down	
 144355	bm	b	b	prep.	in	
 144355	bm	b+m(I)	b	prep.	in	
-144355	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 144356	nšq	!!nšq[/	/n-š-q/	vb G inf.	to kiss	
 144357	aṯth	aṯ(t/t+h	ảṯt	n. f. sg.	woman	
 # KTU 1.17 I:40						
@@ -871,7 +870,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144683	qšt	qšt/	qšt	n. m. sg. / n. m. pl.	bow	
 144684	ybln	!y!(ybl[n	/y-b-l/	vb G prefc.	to carry	
 144685	hl	hl	hl	deictic adv. functor	behold	
-144686	yš	!y!š(l(m[:d	/š-l-m/	vb D prefc.	to be well	
+144686	yš	!y!š(l(m[	/š-l-m/	vb	to be well	
 # KTU 1.17 V:13						
 144687	rbˤ	rbˤ/	rbʕ	num.	fourth	
 144688	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg.	arrow(s)	
@@ -1055,7 +1054,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144797	k	k(III)	k (III)	Subordinating or completive functor	when	
 144797	k	k(I)	k (I)	prep.	like	
 144797	k	k(II)	k (II)	emph. functor	yes	
-144798	yqbh	nqb[+h	/n-q-b/	vb	to pierce	
+144798	yqbh	nqb[+h	/n-q-b/	vb G prefc.	to pierce	
 # KTU 1.17 V:37						
 144799	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m.	first fruit	
 144800	ṣdk	ṣd(I)/	ṣd (I)	n. m. sg.	hunt	
@@ -1338,7 +1337,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144984	ḥwy	ḥw(I)[:d+y	/ḥ-w/y-y/ (I)	vb D impv.	to live	
 144985	yˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:31						
-144986	r	?	?	?	?	
+144986	r	?	?	?	?	DULAT: NOT FOUND
 144987	w	w	w	conj.	and	
 144988	yšqynh	!y!šqy[n+h	/š-q-y/	vb G prefc.	to offer (something to) drink	
 144988	yšqynh	!y!šqy[+nh	/š-q-y/	vb G prefc.	to offer (something to) drink, ?	

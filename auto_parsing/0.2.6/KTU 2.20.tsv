@@ -15,7 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156879	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 156879	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156879	rgm	rgm/	rgm	n. m. sg.	word	
-156880	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+156880	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
 156881	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.20 3						
 156882	xxxxxxxm	?	?	?	?	DULAT: NOT FOUND
@@ -53,7 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156899	xx	?	?	?	?	
 156900	x	?	?	?	?	
 # KTU 2.20 12						
-156901	r	?	?	?	?	
+156901	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.20 13						
 156902	x	?	?	?	?	
 # KTU 2.20 14						

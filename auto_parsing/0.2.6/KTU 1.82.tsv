@@ -165,7 +165,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150099	bnt	bt(I)/	bt (I)	n. f. pl.	daughter	
 150099	bnt	bn(t(II)/t	bnt (II)	n. f. sg.	produce	
 150099	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
-150100	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
+150100	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
 # KTU 1.82 14						
 150101	uḫd	(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G impv.	to collect	
 150101	uḫd	(ʔ&uḫd[/	/ʔ-ḫ-d(/ḏ)/	vb Gpass ptcpl.	to collect	
@@ -212,8 +212,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150127	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
 150127	bnt	bnt(III)/	bnt (III)	n. m. sg.	tamarisk	
 150128	ḫrp	ḫrp	ḫrp		mania	
-150129	ak	mt[+k	/m-t/	vb G suffc.	to die	
-150129	ak	mt[/+k	/m-t/	vb G ptcpl.	to die	
 150129	ak	mru(I)/+k	mrủ (I)	adj. m. or n. m.	fattened	
 150129	ak	ṣbu(II)/+k	ṣbủ (II)	n. m.	setting	
 # KTU 1.82 19						
@@ -244,7 +242,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150150	xxx	?	?	?	?	
 150151	bm	b	b	prep.	in	
 150151	bm	b+m(I)	b	prep.	in	
-150151	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 # KTU 1.82 23						
 150152	xxxxqp	?	?	?	?	DULAT: NOT FOUND
 150153	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	

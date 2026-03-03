@@ -105,7 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136098	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
 136099	am	!(ʔ&a!m(l(k[:d	/m-l-k/	vb D prefc.	to reign	
 # KTU 1.2 I:16						
-136100	r	?	?	?	?	
+136100	r	?	?	?	?	DULAT: NOT FOUND
 136101	ṯny	ṯny[	/ṯ-n-y/	vb G impv.	to repeat	
 136101	ṯny	!!ṯny[/	/ṯ-n-y/	vb G inf.	to repeat	
 136102	dˤtkm	dˤ(t(I)/t+km	dʕt (I)	n. f. sg.	knowledge	
@@ -436,7 +436,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136318	mšḫṭ	mšḫṭ/	mšḫṭ	n. m. sg.	axe	
 136319	bm	b	b	prep.	in	
 136319	bm	b+m(I)	b	prep.	in	
-136319	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 136320	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
 136321	mḫṣ	mḫṣ(II)/	mḫṣ (II)	n. m. sg.	striking instrument	
 136322	ġlmm	ġlm/+m(I)	ġlm	n. m.	boy	
@@ -686,7 +685,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136478	ym	ym(I)/	ym (I)	n. m. sg.	day	
 136478	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 # KTU 1.2 III:9						
-136479	m	mt(II)/	mt (II)	n. m.	death	
+136479	m	?	?	?	?	DULAT: NOT FOUND
 136480	hkl	hkl/	hkl	n. m. sg.	palace	
 136481	l	l(I)	l (I)	prep.	to	
 136481	l	l(II)	l (II)	adv.	no	
@@ -764,8 +763,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136527	bn	bn(II)	bn (II)	prep.	between	
 136527	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 1.2 III:15						
+136528	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 136528	nn	grš[	/g-r-š/	vb	to eject	
-136528	nn	qn/+n	qn	n. m.	cane	
 136528	nn	gr[	/g-r(-y)/	vb	to attack	
 136529	nrt	nr(t(I)/t	nrt (I)	n. f. sg.	lantern	
 136530	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
@@ -1098,7 +1097,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136760	km	+km, +km=	-km			
 136761	nš	nš	nš	?		
 # KTU 1.2 IV:14						
-136762	r	?	?	?	?	
+136762	r	?	?	?	?	DULAT: NOT FOUND
 136763	b	b	b	prep.	in	
 136764	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl.	finger	
 136765	hlm	hlm[	/h-l-m/	vb G prefc. / vb G suffc.	to hit	
@@ -1259,7 +1258,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136863	pnth	pnt/h	pnt	n. f. pl.	knuckle	
 136864	w	w	w	conj.	and	
 136865	ydlp	!y!dlp[	/d-l-p/	vb G prefc.	to soften	
-136866	tmnh	mtnt/+nh	mtnt	n. f.	loin, ?	
 136866	tmnh	tm/+nh	tm	adj. m.	complete, ?	
 136866	tmnh	tmn(I)/+h	tmn (I)	n. m.	frame	
 # KTU 1.2 IV:27						
@@ -1314,8 +1312,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136897	b	b	b	prep.	in	
 # KTU 1.2 IV:31						
 136898	ybṯ	!y!bṯ[	/b-ṯ/	vb G prefc. / vb G suffc.	to be ashamed	
+136899	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 136899	nn	grš[	/g-r-š/	vb	to eject	
-136899	nn	qn/+n	qn	n. m.	cane	
 136899	nn	gr[	/g-r(-y)/	vb	to attack	
 136900	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 136901	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	

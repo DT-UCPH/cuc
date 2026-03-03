@@ -106,6 +106,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 20						
 159824	mrḥṣm	rḥṣ[/ṣm	/r-ḥ-ṣ/	vb D act. ptcpl. pl.	to wash	
 159825	bh	b	b	prep.	in	
+159825	bh	b+h	b	prep.	in	
+159825	bh	nqb[	/n-q-b/	vb	to pierce	
 # KTU 2.88 21						
 159826	w	w	w	conj.	and	
 159827	at	at(I)	ảt (I)	pers. pn.	you	
@@ -194,7 +196,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159873	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159873	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.88 33						
-159874	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+159874	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
 159875	lk	l(I)+k	l (I)	prep.	to	
 159876	k	+k	-k (I)			
 159876	k	~k	-k (II)			

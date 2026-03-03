@@ -72,7 +72,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161942	kmnt	kmnt/	kmnt	PN	kmnt	
 # KTU 3.29 18						
 161943	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161944	mtn	mt[n	/m-t/	vb G prefc.	to die	
+161944	mtn	mt(II)/+n	mt (II)	n. m.	death	
+161944	mtn	mt[n	/m-t/	vb	to die	
+161944	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+161944	mtn	mt[/+n	/m-t/	vb G ptcpl.	to die	
 # KTU 3.29 19						
 161945	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 161946	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -110,7 +113,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161962	iqnu	iqnu/	ỉqnủ	n. m. sg.	gem of lapis lazuli	
 # KTU 3.29 27						
 161963	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161964	mtn	mt[n	/m-t/	vb G prefc.	to die	
+161964	mtn	mt(II)/+n	mt (II)	n. m.	death	
+161964	mtn	mt[n	/m-t/	vb	to die	
+161964	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+161964	mtn	mt[/+n	/m-t/	vb G ptcpl.	to die	
 # KTU 3.29 28						
 161965	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	
 161966	ksp	ksp/	ksp	n. m. sg.	silver	

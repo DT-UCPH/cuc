@@ -66,7 +66,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161888	kmnt	kmnt/	kmnt	PN	kmnt	
 161889	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
 # KTU 3.28 12						
-161890	mtn	mt[n	/m-t/	vb G prefc.	to die	
+161890	mtn	mt(II)/+n	mt (II)	n. m.	death	
+161890	mtn	mt[n	/m-t/	vb	to die	
+161890	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+161890	mtn	mt[/+n	/m-t/	vb G ptcpl.	to die	
 # KTU 3.28 13						
 161891	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 161892	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -102,4 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161908	ġly	!!ġly[/	/ġ-l-y/	vb G inf.	to lose the proper aspect	
 # KTU 3.28 19						
 161909	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161910	mtn	mt[n	/m-t/	vb G prefc.	to die	
+161910	mtn	mt(II)/+n	mt (II)	n. m.	death	
+161910	mtn	mt[n	/m-t/	vb	to die	
+161910	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+161910	mtn	mt[/+n	/m-t/	vb G ptcpl.	to die	

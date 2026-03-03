@@ -136,7 +136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138200	ksp	ksp/	ksp	n. m. sg.	silver	
 138201	yšl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 I:26						
-138202	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
+138202	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
 138203	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 138204	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 138205	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -147,7 +147,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138208	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 138209	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 # KTU 1.4 I:28						
-138210	m	mt(II)/	mt (II)	n. m.	death	
+138210	m	?	?	?	?	DULAT: NOT FOUND
 138211	l	l(I)	l (I)	prep.	to	
 138212	rbbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 138213	x	?	?	?	?	
@@ -211,7 +211,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138254	dbbm	dbb(I)/m	dbb (I)	n. m. pl.	beast	
 138255	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.4 I:40						
-138256	m	mt(II)/	mt (II)	n. m.	death	
+138256	m	?	?	?	?	DULAT: NOT FOUND
 138257	sdt	?	?	?	?	DULAT: NOT FOUND
 138258	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.4 I:41						
@@ -234,6 +234,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:43						
 138268	d	d	d	det. or rel. functor	the one(s) of	
 138269	bh	b	b	prep.	in	
+138269	bh	b+h	b	prep.	in	
+138269	bh	nqb[	/n-q-b/	vb	to pierce	
 138270	rumm	rum/	rủm	n. m. pl.	wild bull	
 138271	l	l(I)	l (I)	prep.	to	
 138271	l	l(III)	l (III)	functor	certainly	
@@ -320,6 +322,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 II:16						
 138330	limm	lim(I)/	lỉm (I)	n. m. pl.	people	
 138331	bh	b	b	prep.	in	
+138331	bh	b+h	b	prep.	in	
+138331	bh	nqb[	/n-q-b/	vb	to pierce	
 138332	pˤnm	pˤn/m	pʕn	n. f. du.	foot	
 # KTU 1.4 II:17						
 138333	tṭṭ	nṭṭ[	/n-ṭ-ṭ/	vb G prefc.	to shake	
@@ -385,7 +389,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138374	nr	nr/	nr	n. m. sg.	sheen	
 # KTU 1.4 II:28						
 138375	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
-138376	šmḫ	šmḫ[	/š-m-ḫ/	vb G prefc. / vb G suffc.	to be glad	
+138376	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc.	to be glad	
 138376	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad	
 138377	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
 138378	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
@@ -593,12 +597,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138498	k	k(I)	k (I)	prep.	like	
 138498	k	k(II)	k (II)	emph. functor	yes	
 138499	bh	b	b	prep.	in	
+138499	bh	b+h	b	prep.	in	
+138499	bh	nqb[	/n-q-b/	vb	to pierce	
 138500	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg.	shame	
 138501	l	l(III)	l (III)	functor	certainly	
 138502	tbṭ	nbṭ[	/n-b-ṭ/	vb G prefc.	to appear	
 # KTU 1.4 III:22						
 138503	w	w	w	conj.	and	
 138504	bh	b	b	prep.	in	
+138504	bh	b+h	b	prep.	in	
+138504	bh	nqb[	/n-q-b/	vb	to pierce	
 138505	tdmmt	tdmm(t/t	tdmmt	n. f. sg.	lasciviousness	
 138506	amht	amt(I)/	ảmt (I)	n. f. pl.	(female) slave	
 # KTU 1.4 III:23						
@@ -1309,7 +1317,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138950	ṭhrm	ṭhr/m	ṭhr	adj. m. pl.	pure	
 138951	iqnim	iqn(u&i/m	ỉqnủ	n. m. pl.	gem of lapis lazuli	
 # KTU 1.4 V:20						
-138952	šmḫ	šmḫ[	/š-m-ḫ/	vb G prefc. / vb G suffc.	to be glad	
+138952	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc.	to be glad	
 138952	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad	
 138953	btlt	btl(t/t	btlt	n. f. sg.	virgin	
 138954	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
@@ -1411,7 +1419,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139015	ṭhrm	ṭhr/m	ṭhr	adj. m. pl.	pure	
 # KTU 1.4 V:35						
 139016	iqnim	iqn(u&i/m	ỉqnủ	n. m. pl.	gem of lapis lazuli	
-139017	šmḫ	šmḫ[	/š-m-ḫ/	vb G prefc. / vb G suffc.	to be glad	
+139017	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc.	to be glad	
 139017	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad	
 139018	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 # KTU 1.4 V:36						
@@ -1812,7 +1820,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139280	l	l(III)	l (III)	functor	certainly	
 139281	lbnt	lbn(t/t	lbnt	n. f. sg.	brick	
 139281	lbnt	lbn(t/t=	lbnt	n. f. sg.	brick	
-139282	šmḫ	šmḫ[	/š-m-ḫ/	vb G prefc. / vb G suffc.	to be glad	
+139282	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc.	to be glad	
 139282	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad	
 # KTU 1.4 VI:36						
 139283	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
@@ -2087,7 +2095,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139453	qrb	qrb/	qrb	n. m. sg.	inside	
 139454	hkl	hkl/	hkl	n. m. sg.	palace	
 # KTU 1.4 VII:19						
-139455	m	mt(II)/	mt (II)	n. m.	death	
+139455	m	?	?	?	?	DULAT: NOT FOUND
 139456	wyptḥ	?	?	?	?	DULAT: NOT FOUND
 139457	bdqt	bdq(t/t	bdqt	n. f. sg.	fissure	
 139458	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
@@ -2128,7 +2136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139481	l	l(III)	l (III)	functor	certainly	
 139482	hwty	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 139483	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb G prefc. / vb N prefc.	to open	
-139484	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
+139484	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
 # KTU 1.4 VII:26						
 139485	ln	l(I)+n	l (I)	prep.	to	
 139486	b	b	b	prep.	in	
@@ -2164,7 +2172,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139504	qlh	ql(I)/h	ql (I)	n. m. sg.	voice	
 139505	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 139505	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
-139506	trr	trr[:d	/t-r-r/	vb G prefc. / vb D prefc.	to make tremble	
+139506	trr	trr[	/t-r-r/	vb	to make tremble	
 139507	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.4 VII:32						
 139508	ṣat	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
@@ -2323,7 +2331,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139608	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 139609	bn	b	b	prep.	in	
 139610	ẓlmt	ẓlm(t/t	ẓlmt	n. f. sg.	darkness	
-139611	r	?	?	?	?	
+139611	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 VII:56						
 139612	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 139612	mt	mt(II)/	mt (II)	n. m. sg.	death	

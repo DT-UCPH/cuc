@@ -32,7 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159492	km	km	km	prep./conj./adv.		
 159492	km	+km, +km=	-km			
 # KTU 2.85 6						
-159493	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+159493	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
 159494	lkm	l(I)+k~m	l (I)	prep.	to	
 # KTU 2.85 7						
 159495	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
@@ -121,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159541	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159541	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.85 26						
-159542	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+159542	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
 159543	lk	l(I)+k	l (I)	prep.	to	
 159544	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 159544	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
@@ -154,7 +154,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159559	šbk	šb/+k	šb	n. m.	old man	
 159560	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.85 34						
-159561	m	mt(II)/	mt (II)	n. m.	death	
+159561	m	?	?	?	?	DULAT: NOT FOUND
 159562	d	d	d	det. or rel. functor	the one(s) of	
 159563	ḫsrxxxb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 35						
@@ -167,7 +167,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159567	xrˤy	?	?	?	?	DULAT: NOT FOUND
 159568	xxxl	?	?	?	?	DULAT: NOT FOUND
 159569	w	w	w	conj.	and	
-159570	m	mt(II)/	mt (II)	n. m.	death	
+159570	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 37						
 159571	u	u	ủ	conj.	or	
 159572	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
