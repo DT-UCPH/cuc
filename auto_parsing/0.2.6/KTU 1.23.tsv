@@ -1,12 +1,12 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.23 1						
 147097	iqra	!(ʔ&i!qr(ʔ[&a	/q-r-ʔ/	vb G prefc.	to call	
-147098	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+147098	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 147099	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl.	handsome	
 # KTU 1.23 2						
 147100	w	w	w	conj.	and	
 147101	ysmm	ysm(I)/	ysm (I)	adj. m. pl.	handsome	
-147101	ysmm	ysm(II)/	ysm (II)	n. m. sg.	elegance	
+147101	ysmm	ysm(II)/~m	ysm (II)	n. m. sg.	elegance	
 147102	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 147102	bn	bn(II)	bn (II)	prep.	between	
 147102	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
@@ -63,7 +63,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.23 8						
 147133	mt	mt(II)/	mt (II)	n. m. sg.	death	
 147133	mt	mt[	/m-t/	vb G suffc.	to die	
-147133	mt	!!mt[/	/m-t/	vb G inf.	to die	
 147133	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 147133	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 147134	w	w	w	conj.	and	
@@ -73,11 +72,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147136	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
 147136	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 147137	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
-147138	ḫṭ	ḫṭ/	ḫṭ	n. sg.	sceptre	
+147138	ḫṭ	ḫṭ/	ḫṭ	n. m. sg.	sceptre	
 147139	ṯkl	ṯkl/	ṯkl	n. m. sg.	sterility	
 147140	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
 # KTU 1.23 9						
-147141	ḫṭ	ḫṭ/	ḫṭ	n. sg.	sceptre	
+147141	ḫṭ	ḫṭ/	ḫṭ	n. m. sg.	sceptre	
 147142	ulmn	ulmn/	ủlmn	n. m. sg.	widowhood	
 147143	yzbrnn	!y!zbr[nn	/z-b-r/	vb G prefc. / vb G suffc.	to prune	
 147144	zbrm	zbr[/m	/z-b-r/	vb G act. ptcpl. pl.	to prune	
@@ -104,6 +103,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147153	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 147154	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc.	to say	
 147155	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+147155	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+147155	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 147156	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 147156	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 147157	w	w	w	conj.	and	
@@ -117,7 +118,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147162	šd	šd(I)/	šd (I)	n. m. sg.	open field	
 147162	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 147162	šd	šdy[	/š-d-y/	vb G impv.	to pour	
-147163	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+147163	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 147164	šd	šd(I)/	šd (I)	n. m. sg.	open field	
 147164	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 147164	šd	šdy[	/š-d-y/	vb G impv.	to pour	
@@ -128,12 +129,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147167	rḥmy	rḥmy/	rḥmy	DN	rḥmy	
 # KTU 1.23 14						
 147168	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+147168	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+147168	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 147169	išt	iš(t/t	ỉšt	n. f. sg.	fire	
 147170	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 147171	ġzrmṭbg	?	?	?	?	DULAT: NOT FOUND
 147172	ṭb	ṭb/	ṭb	adj. m. sg.	good	
+147173	gd	g/+d	g	n. m.	(loud) voice, ?	
 147173	gd	gd(I)/	gd (I)	n. m.	coriander	
-147173	gd	ṯigt/+d	ṯỉgt	n. f.	neighing, ?	
 147173	gd	gd(II)/	gd (II)	n. m.	sinew	
 147174	b	b	b	prep.	in	
 147175	ḥlb	ḥlb/	ḥlb	n. m. sg.	milk	
@@ -142,14 +145,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.23 15						
 147178	w	w	w	conj.	and	
 147179	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+147179	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+147179	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 147180	agn	agn/	ảgn	n. m. sg.	cauldron	
-147181	šbˤdm	šbˤd	šbʕ(ỉ)d	adv.	seven times	
+147181	šbˤdm	šbˤd~m	šbʕ(ỉ)d	adv.	seven times	
 147182	dġṯt	dġṯ(t/t	dġṯt	n. f. sg.	offering of perfumes	
 147182	dġṯt	dġṯ(t/t=	dġṯt	n. f. sg.	offering of perfumes	
 147183	dġṯt	dġṯ(t/t	dġṯt	n. f. sg.	offering of perfumes	
 147183	dġṯt	dġṯ(t/t=	dġṯt	n. f. sg.	offering of perfumes	
 # KTU 1.23 16						
-147184	tlkm	hlk[m	/h-l-k/	vb G suffc.	to go	
+147184	tlkm	tlk[m~m	/h-l-k/	vb G suffc.	to go	
 147185	rḥmy	rḥm/+y	rḥm	n. f.	womb	
 147185	rḥmy	rḥ(III)&m/+y	rḥ (III)	n. m.	millstone	
 147185	rḥmy	rḥmy/	rḥmy	DN	rḥmy	
@@ -168,24 +173,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147195	yr	yr/	yr	n. m. sg.	early rain	
 # KTU 1.23 19						
 147196	mṯbt	mṯb/	mṯb	n. m.	residence	
-147197	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+147197	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 147198	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 147199	ṯ	ṯ	ṯ	→	?	
 # KTU 1.23 20						
 147200	pamt	pa/m	pảm(t)	n. f. pl.	time	
-147201	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+147201	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.23 21						
 147202	iqnu	iqnu/	ỉqnủ	n. m. sg.	gem of lapis lazuli	
 147203	šmt	šm(t(II)/t	šmt (II)	n. f. sg.	reddish shade	
 # KTU 1.23 22						
 147204	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-147204	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+147204	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 147204	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 147205	šrm	šr(II)/m	šr (II)	n. m. pl.	musician	
 147206		?	?	?	?	
 # KTU 1.23 23						
 147207	iqran	!(ʔ&i!qr(ʔ[&an	/q-r-ʔ/	vb G prefc.	to call	
-147208	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+147208	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 147209	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl.	handsome	
 147210	agzrym	agzry/m	ảgzry	adj. m. pl.	ravenous	
 147211	bnym	bn(I)&y/+m(I)	bn (I)	n. m.	son	
@@ -196,12 +201,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147213	b	b	b	prep.	in	
 147214	ap	ap(I)	ảp (I)	adv./conj.	also	
 147214	ap	ap(II)/	ảp (II)	n. m.	nose	
-147215	zd	ṯd/	ṯd	n. m.	breast	
 147215	zd	zd/	zd	n. m.	breast	
 147216	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 147217		?	?	?	?	
 # KTU 1.23 25						
-147218	špš	špš/	špš	n. sg.	sun	
+147218	špš	špš/	špš	n. f. sg.	sun	
 147219	mṣprt	mṣpr(t/t	mṣprt	n. f. sg.	she who rearranges	
 147220	dlthm	dlt(III)/+hm	dlt (III)	n. f.	weakness	
 147220	dlthm	dl&t/+hm	dl	adj. m.	poor	
@@ -226,7 +230,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147230	šd	šd(I)/	šd (I)	n. m. sg.	open field	
 147230	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 147230	šd	šdy[	/š-d-y/	vb G impv.	to pour	
-147231	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+147231	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 147232	šd	šd(I)/	šd (I)	n. m. sg.	open field	
 147232	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 147232	šd	šdy[	/š-d-y/	vb G impv.	to pour	
@@ -236,7 +240,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147235	rḥmy	rḥ(III)&m/+y	rḥ (III)	n. m.	millstone	
 147235	rḥmy	rḥmy/	rḥmy	DN	rḥmy	
 # KTU 1.23 29						
-147236	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+147236	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 147237	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
 147237	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
 # KTU 1.23 30						
@@ -278,7 +282,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147264	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
 147265	um	um/	ủm	n. f. sg.	mother	
 147266	um	um/	ủm	n. f. sg.	mother	
-147267	tirkm	ʔrk[km	/ʔ-r-k/	vb G prefc.	to be long	
+147267	tirkm	tirk[km~m	/ʔ-r-k/	vb G prefc.	to be long	
 147268	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 147269	il	il(I)/	ỉl (I)	n. m.	god	
 147270	k	+k	-k (I)			
@@ -333,7 +337,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147297	bth	bt(II)/+h	bt (II)	n. m.	house	
 # KTU 1.23 37						
 147298	il	il(I)/	ỉl (I)	n. m.	god	
-147299	ḫṭh	ḫṭ/h	ḫṭ	n. sg.	sceptre	
+147299	ḫṭh	ḫṭ/h	ḫṭ	n. m. sg.	sceptre	
 147300	nḥt	nḥt[:d	/n-ḥ-t/	vb D suffc.	to take down (for oneself) > to reach for	
 147301	il	il(I)/	ỉl (I)	n. m.	god	
 147302	ymnn	!y!(ymnn[	/y-m-n-n/	vb G suffc.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
@@ -372,19 +376,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147323	y	y	y	prep. functor	oh!	
 147324	mt	mt(II)/	mt (II)	n. m. sg.	death	
 147324	mt	mt[	/m-t/	vb G suffc.	to die	
-147324	mt	!!mt[/	/m-t/	vb G inf.	to die	
 147324	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 147324	mt	mt(III)/	mt (III)	n. m. sg. / n. m. pl. cstr.	man	
 147325	mt	mt(II)/	mt (II)	n. m. sg.	death	
 147325	mt	mt[	/m-t/	vb G suffc.	to die	
-147325	mt	!!mt[/	/m-t/	vb G inf.	to die	
 147325	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 147325	mt	mt(III)/	mt (III)	n. m. sg. / n. m. pl. cstr.	man	
 147326	nḥtm	nḥt[m:d	/n-ḥ-t/	vb D suffc.	to take down (for oneself) > to reach for	
-147327	ḫṭk	ḫṭ/	ḫṭ	n. sg.	sceptre	
-147328	mmnnm	m(II)	-m (II)	emph. or det. encl. morph.	und das (ist) so!	
-147328	mmnnm	ymnn[m	/y-m-n-n/	vb G suffc.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
-147328	mmnnm	ymnn[/m	/y-m-n-n/	vb G act. ptcpl.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
+147327	ḫṭk	ḫṭ/	ḫṭ	n. m. sg.	sceptre	
+147328	mmnnm	mmnn[m~m	/y-m-n-n/	vb G suffc.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
+147328	mmnnm	mmnn[/m~m	/y-m-n-n/	vb G act. ptcpl.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
 147329	mṭ	mṭ/	mṭ	n. m. sg.	rod	
 147330	ydk	yd(I)/+k	yd (I)	n. f.	hand	
 147330	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
@@ -425,11 +426,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147351	ad	ad/	ảd	n. m. sg.	father	
 147352	ad	ad/	ảd	n. m. sg.	father	
 147353	nḥtm	nḥt[m:d	/n-ḥ-t/	vb D suffc.	to take down (for oneself) > to reach for	
-147354	ḫṭk	ḫṭ/	ḫṭ	n. sg.	sceptre	
+147354	ḫṭk	ḫṭ/	ḫṭ	n. m. sg.	sceptre	
 # KTU 1.23 44						
-147355	mmnnm	m(II)	-m (II)	emph. or det. encl. morph.	und das (ist) so!	
-147355	mmnnm	ymnn[m	/y-m-n-n/	vb G suffc.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
-147355	mmnnm	ymnn[/m	/y-m-n-n/	vb G act. ptcpl.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
+147355	mmnnm	mmnn[m~m	/y-m-n-n/	vb G suffc.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
+147355	mmnnm	mmnn[/m~m	/y-m-n-n/	vb G act. ptcpl.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
 147356	mṭ	mṭ/	mṭ	n. m. sg.	rod	
 147357	ydk	yd(I)/+k	yd (I)	n. f.	hand	
 147357	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
@@ -461,7 +461,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147372	w	w	w	conj.	and	
 147373	ˤlmh	ˤlm(I)/+h	ʕlm (I)	n. m.	eternity	
 147374	w	w	w	conj.	and	
-147375	hn	hn	hn	deictic functor/adv.	behold!	
+147375	hn	hn	hn	functor	behold!	
 147376	aṯtm	aṯt/m	ảṯt	n. f. du.	woman	
 147377	tṣḥn	!t!ṣḥ[+n	/ṣ-ḥ/	vb G prefc.	to exclaim	
 147378	y	+y, [y	-y (I)	prep. functor	my	
@@ -469,20 +469,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147378	y	y	y	prep. functor	oh!	
 147379	mt	mt(II)/	mt (II)	n. m. sg.	death	
 147379	mt	mt[	/m-t/	vb G suffc.	to die	
-147379	mt	!!mt[/	/m-t/	vb G inf.	to die	
 147379	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 147379	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 147380	mt	mt(II)/	mt (II)	n. m. sg.	death	
 147380	mt	mt[	/m-t/	vb G suffc.	to die	
-147380	mt	!!mt[/	/m-t/	vb G inf.	to die	
 147380	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 147380	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 # KTU 1.23 47						
 147381	nḥtm	nḥt[m:d	/n-ḥ-t/	vb D suffc.	to take down (for oneself) > to reach for	
-147382	ḫṭk	ḫṭ/	ḫṭ	n. sg.	sceptre	
-147383	mmnnm	m(II)	-m (II)	emph. or det. encl. morph.	und das (ist) so!	
-147383	mmnnm	ymnn[m	/y-m-n-n/	vb G suffc.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
-147383	mmnnm	ymnn[/m	/y-m-n-n/	vb G act. ptcpl.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
+147382	ḫṭk	ḫṭ/	ḫṭ	n. m. sg.	sceptre	
+147383	mmnnm	mmnn[m~m	/y-m-n-n/	vb G suffc.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
+147383	mmnnm	mmnn[/m~m	/y-m-n-n/	vb G act. ptcpl.	with 3rd reduplicated radical: to take with the right (extended form of /y-m-n/, denom. /qtll/ pattern. Cross	
 147384	mṭ	mṭ/	mṭ	n. m. sg.	rod	
 147385	ydk	yd(I)/+k	yd (I)	n. f.	hand	
 147385	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
@@ -517,7 +514,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147404	yšq	!y!šq(y[	/š-q-y/	vb G prefc.	to offer (something to) drink	
 147404	yšq	nšq[	/n-š-q/	vb G prefc.	to kiss	
 # KTU 1.23 50						
-147405	hn	hn	hn	deictic functor/adv.	behold!	
+147405	hn	hn	hn	functor	behold!	
 147406	špthm	šp(t/t	špt	n. f. sg.	lip	
 147407	mtqtm	mtq/	mtq	adj. f. du.	sweet	
 147408	mtqtm	mtq/	mtq	adj. f. du.	sweet	
@@ -529,6 +526,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147410	lrmnm	lrmn/m	lrmn	n. m. pl.	pomegranate	
 # KTU 1.23 51						
 147411	bm	b	b	prep.	in	
+147411	bm	b+m(I)	b	prep.	in	
+147411	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 147412	nšq	!!nšq[/	/n-š-q/	vb G inf.	to kiss	
 147413	w	w	w	conj.	and	
 147414	hr	hr(II)/	hr (II)	n. m. sg.	conception	
@@ -572,7 +571,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147438	ˤdb	!!ˤdb[/	/ʕ-d-b/	vb G inf.	to leave > to put in	
 147438	ˤdb	ˤdb[/	/ʕ-d-b/	vb G act. ptcpl. pl. / vb G pass. ptcpl. sg.	to leave > to put in	
 147439	l	l(I)	l (I)	prep.	to	
-147440	špš	špš/	špš	n. sg.	sun	
+147440	špš	špš/	špš	n. f. sg.	sun	
 147441	rbt	rb(I)/t	rb (I)	adj. f. sg.	great	
 147441	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 147441	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
@@ -584,7 +583,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147446	špthm	šp(t/t	špt	n. f. sg.	lip	
 147447	yšq	!y!šq(y[	/š-q-y/	vb G prefc.	to offer (something to) drink	
 147447	yšq	nšq[	/n-š-q/	vb G prefc.	to kiss	
-147448	hn	hn	hn	deictic functor/adv.	behold!	
+147448	hn	hn	hn	functor	behold!	
 147449	špthm	šp(t/t	špt	n. f. sg.	lip	
 147450	mtqtm	mtq/	mtq	adj. f. du.	sweet	
 147451	mtqtm	mtq/	mtq	adj. f. du.	sweet	
@@ -596,6 +595,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147453	lrmnm	lrmn/m	lrmn	n. m. pl.	pomegranate	
 # KTU 1.23 56						
 147454	bm	b	b	prep.	in	
+147454	bm	b+m(I)	b	prep.	in	
+147454	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 147455	nšq	!!nšq[/	/n-š-q/	vb G inf.	to kiss	
 147456	w	w	w	conj.	and	
 147457	hr	hr(II)/	hr (II)	n. m. sg.	conception	
@@ -608,7 +609,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147463	yspr	!y!spr[	/s-p-r/	vb	to count	
 147464	l	l(I)	l (I)	prep.	to	
 147464	l	l(III)	l (III)	functor	certainly	
-147465	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
+147465	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 147466	l	l(I)	l (I)	prep.	to	
 147466	l	l(III)	l (III)	functor	certainly	
 147467	ṣlmm	ṣlm/	ṣlm	n. m. pl.	image	
@@ -625,7 +626,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147475	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
 147475	tldn	!!yld[/+n	/y-l-d/	vb G inf.	to give birth (to)	
 147475	tldn	tldn/	tldn	PN	tldn	
-147476	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+147476	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 147477	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl.	handsome	
 147478	agzrym	agzry/m	ảgzry	adj. m. pl.	ravenous	
 # KTU 1.23 59						
@@ -735,7 +736,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147548	l	l(I)	l (I)	prep.	to	
 147548	l	l(III)	l (III)	functor	certainly	
 147549	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	
-147550	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+147550	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 147551	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
 # KTU 1.23 67						
 147552	tmt	tm/t=	tm	adj. f. pl.	complete	
@@ -743,7 +744,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147554	nqpt	nqpt/	nqp(n)t	n. f. pl.	turn	
 147555	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 147555	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
-147556	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+147556	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 147557	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl.	handsome	
 147558	ttlkn	h]t]lk[+n	/h-l-k/	vb	to go	
 147558	ttlkn	ttl/+kn	ttl	TN	ttl	

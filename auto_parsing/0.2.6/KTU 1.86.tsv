@@ -77,7 +77,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150733	w	w	w	conj.	and	
 150734	mt	mt(II)/	mt (II)	n. m. sg.	death	
 150734	mt	mt[	/m-t/	vb G suffc.	to die	
-150734	mt	!!mt[/	/m-t/	vb G inf.	to die	
 150734	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 150734	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 # KTU 1.86 12						
@@ -153,16 +152,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150771	kśt	ks(t/t	kst	n. f. sg.	Gewand	Based on DULAT reconstruction.
 150771	kśt	kt	kśt	→	?	
 150772	šqym	šqy/m	šqy	n. m. pl. / n. m. du.	cupbearer	
-150772	šqym	šq/	šq	n. m. sg.	thigh	
+150772	šqym	šq/	šq	n. m.	thigh	
 # KTU 1.86 25						
 150773	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 150773	bn	bn(II)	bn (II)	prep.	between	
 150773	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 150774	šqym	šqy/m	šqy	n. m. pl. / n. m. du.	cupbearer	
-150774	šqym	šq/	šq	n. m. sg.	thigh	
+150774	šqym	šq/	šq	n. m.	thigh	
 150775	xx	?	?	?	?	
 # KTU 1.86 26						
-150776	kbdt	kbd(I)/t=	kbd (I)	n. pl.	liver	
+150776	kbdt	kbd(I)	kbd (I)		liver	
 150777	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 # KTU 1.86 27						
 150778	šinm	šin/m	šỉn	n. m. du.	shoe	
@@ -175,7 +174,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150783	pn	pn(m/	pnm	n. m. pl. tant. pl.	face	
 150784	nˤmxyxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 30						
-150785	bnšm	bnš/m	bnš	n. m. pl.	man	
+150785	bnšm	bnš/m~m	bnš	n. m. pl.	man	
 150786	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
 150787	xxxxp	?	?	?	?	DULAT: NOT FOUND
 150788	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
@@ -188,5 +187,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150793	xxxxxxxxxšmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 33						
 150794	bm	b	b	prep.	in	
+150794	bm	b+m(I)	b	prep.	in	
+150794	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 # KTU 1.86 34						
 150795	x	?	?	?	?	

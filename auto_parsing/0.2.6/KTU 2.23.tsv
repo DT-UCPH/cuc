@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156989	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 156989	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156989	rgm	rgm/	rgm	n. m. sg.	word	
-156990	špš	špš/	špš	n. sg.	sun	
+156990	špš	špš/	špš	n. f. sg.	sun	
 # KTU 2.23 2						
 156991	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 156991	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -50,7 +50,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157009	tmġy	!t!mġy[	/m-ġ-y/	vb G suffc.	to come	
 # KTU 2.23 7						
 157010	mlakt	mlak(t/t	mlảkt	n. f. sg.	message	
-157011	špš	špš/	špš	n. sg.	sun	
+157011	špš	špš/	špš	n. f. sg.	sun	
 157012	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157012	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 157013	rb	rb(II)/	rb (II)	n. m. sg.	chief	
@@ -63,7 +63,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157016	ydˤt	!y!(ydˤ(I)[t	/y-d-ʕ/ (I)	vb G suffc.	to know	
 157016	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl.	to know	
 157017	šxx	?	?	?	?	DULAT: NOT FOUND
-157018	špš	špš/	špš	n. sg.	sun	
+157018	špš	špš/	špš	n. f. sg.	sun	
 157019	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157019	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.23 10						
@@ -94,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157033	ḥy	ḥy(m/	ḥym	n. m. pl. tant. pl.	life	
 157033	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg.	alive	
 157034	l	l(I)	l (I)	prep.	to	
-157035	špš	špš/	špš	n. sg.	sun	
+157035	špš	špš/	špš	n. f. sg.	sun	
 # KTU 2.23 17						
 157036	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157036	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -127,7 +127,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 21						
 157053	l	l(I)	l (I)	prep.	to	
 157054	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-157055	amn	amn(III)/	ảmn (III)	adj. m. sg.	faithful	
+157055	amn	!(ʔ&a!m(l(k[:d+n	/m-l-k/	vb D prefc.	to reign	
+157055	amn	amn(III)/	ảmn (III)	adj. m.	faithful	
 157056	w	w	w	conj.	and	
 157057	l	l(I)	l (I)	prep.	to	
 157058	pn	pn(m/	pnm	n. m. pl. tant.	in front	
@@ -139,7 +140,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157062	tġrn	nġr[n	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.23 23						
 157063	npš	npš(I)/	npš (I)	n. f. sg.	throat	
-157064	špš	špš/	špš	n. sg.	sun	
+157064	špš	špš/	špš	n. f. sg.	sun	
 157065	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 157065	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.23 24						

@@ -33,9 +33,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159492	km	+km, +km=	-km			
 # KTU 2.85 6						
 159493	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
-159494	lkm	l(I)+km	l (I)	prep.	to	
+159494	lkm	lk~m	l (I)	prep.	to	
 # KTU 2.85 7						
-159495	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+159495	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 159496	l	l(I)	l (I)	prep.	to	
 159496	l	l(II)	l (II)	adv.	no	
 159496	l	l(III)	l (III)	functor	certainly	
@@ -47,7 +47,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159499	tšlmkm	!t!šlm[km:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.85 9						
 159500	hln	hln	hln	deictic adv. functor	look!	
-159501	hn	hn	hn	deictic functor/adv.	behold!	
+159501	hn	hn	hn	functor	behold!	
 159502	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.85 10						
 159503	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
@@ -121,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.85 26						
 159542	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 159543	lk	l(I)+k	l (I)	prep.	to	
-159544	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+159544	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 2.85 27						
 159545	tšlm	!t!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 159546	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
@@ -151,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159559	šbk	šb/+k	šb	n. m.	old man	
 159560	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.85 34						
-159561	m	l(I)	l (I)	prep.	to	
+159561	m	mt(II)/	mt (II)	n. m.	death	
 159562	d	d	d	det. or rel. functor	the one(s) of	
 159563	ḫsrxxxb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 35						
@@ -164,7 +164,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159567	xrˤy	?	?	?	?	DULAT: NOT FOUND
 159568	xxxl	?	?	?	?	DULAT: NOT FOUND
 159569	w	w	w	conj.	and	
-159570	m	l(I)	l (I)	prep.	to	
+159570	m	mt(II)/	mt (II)	n. m.	death	
 # KTU 2.85 37						
 159571	u	u	ủ	conj.	or	
 159572	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	

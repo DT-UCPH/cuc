@@ -53,7 +53,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159129	lm	l(I)	l (I)	prep.	to	
 159130	mt	mt(II)/	mt (II)	n. m. sg.	death	
 159130	mt	mt[	/m-t/	vb G suffc.	to die	
-159130	mt	!!mt[/	/m-t/	vb G inf.	to die	
 159130	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 159130	mt	mt(III)/	mt (III)	n. m. sg. / n. m. pl. cstr.	man	
 159131	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
@@ -117,6 +116,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159170	tbˤx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.73 18						
 159171	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+159171	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+159171	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 159172	sḫlm	sḫl/m	sḫl	n. m. pl.	chasser	
 159173	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
 159174	w	w	w	conj.	and	

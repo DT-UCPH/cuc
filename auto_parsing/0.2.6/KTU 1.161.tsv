@@ -66,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155152	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 155152	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.161 13						
-155153	ksi	ks/	ks/śủ	n. f. sg.	seat	
+155153	ksi	ks/	ks/śủ	n. f.	seat	
 155154	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
 155155	tbky	!t!bky[	/b-k-y/	vb G prefc.	to weep	
 # KTU 1.161 14						
@@ -95,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155171	ˤdmt	ˤdm(t/t=	ʕdmt	n. f. sg.	desolation	
 # KTU 1.161 18						
 155172	išḫn	!(ʔ&i!šḫn[	/š-ḫ-n/	vb G impv.	to have a fever	
-155173	špš	špš/	špš	n. sg.	sun	
+155173	špš	špš/	špš	n. f. sg.	sun	
 155174	w	w	w	conj.	and	
 155175	išḫn	!(ʔ&i!šḫn[	/š-ḫ-n/	vb G impv.	to have a fever	
 # KTU 1.161 19						
@@ -104,7 +104,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155177	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 155177	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
 155178	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	
-155179	špš	špš/	špš	n. sg.	sun	
+155179	špš	špš/	špš	n. f. sg.	sun	
 155180	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
 # KTU 1.161 20						
 155181	xaṯr	?	?	?	?	DULAT: NOT FOUND
@@ -134,6 +134,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155199	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 # KTU 1.161 24						
 155200	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+155200	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+155200	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 155201	lmn	šlm[:d	/š-l-m/	vb D prefc.	to be well	
 155202	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 155203	rpim	rp(u&i/m	rpủ	n. m. pl.	healer	
@@ -150,20 +152,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155211	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 155211	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.161 27						
-155212	ˤšty	ˤšt/	ʕšt(y)	n. sg. of card. num.	one	
+155212	ˤšty	ˤšt/	ʕšt(y)	num.	one	
 155213	w	w	w	conj.	and	
 155214	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
 155214	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	
 155215	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-155215	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+155215	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 155215	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 155216	w	w	w	conj.	and	
 155217	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
 155217	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	
 # KTU 1.161 28						
-155218	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+155218	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 155218	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-155218	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+155218	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 155219	w	w	w	conj.	and	
 155220	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
 155220	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	
@@ -172,16 +174,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155223	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
 155223	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	
 # KTU 1.161 29						
-155224	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
+155224	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 155225	w	w	w	conj.	and	
 155226	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
 155226	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	
-155227	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
+155227	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 155228	w	w	w	conj.	and	
 155229	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
 155229	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	
 # KTU 1.161 30						
-155230	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+155230	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 155231	w	w	w	conj.	and	
 155232	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
 155232	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	

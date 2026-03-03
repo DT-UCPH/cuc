@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.67 4						
 149458	an	an(I)	ản (I)	pers. pn.	I	
 149458	an	an(II)	ản (II)	adv.	wherever	
-149459	mnmnm	mnmn/+m(I)	mnmn	indef. pers. pn./element of DN	anyone	
+149459	mnmnm	mnmn/+m(I)	mnmn	pers. pn.	anyone	
 149460	a	?	?	?	?	
 # KTU 1.67 5						
 149461	w	w	w	conj.	and	
@@ -19,10 +19,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149464		?	?	?	?	
 # KTU 1.67 6						
 149465	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
-149466	blt	bl(I)	bl (I)	adv. or emph. functor	no	
+149466	blt	bl(I)	bl (I)	adv. /emph. functor	no	
 149466	blt	blt[	/b-l-t/	vb G suffc.	to open wide	
 149466	blt	bly[t	/b-l-y/	vb G suffc.	to devour	
-149467	blt	bl(I)	bl (I)	adv. or emph. functor	no	
+149467	blt	bl(I)	bl (I)	adv. /emph. functor	no	
 149467	blt	blt[	/b-l-t/	vb G suffc.	to open wide	
 149467	blt	bly[t	/b-l-y/	vb G suffc.	to devour	
 149468	ṯp	?	?	?	?	DULAT: NOT FOUND
@@ -55,7 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149486	dxmˤx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 15						
 149487	ištr	?	?	?	?	DULAT: NOT FOUND
-149488	blt	bl(I)	bl (I)	adv. or emph. functor	no	
+149488	blt	bl(I)	bl (I)	adv. /emph. functor	no	
 149488	blt	blt[	/b-l-t/	vb G suffc.	to open wide	
 149488	blt	bly[t	/b-l-y/	vb G suffc.	to devour	
 149489	in	in/	ỉn	n. m. sg.	lack of	

@@ -105,20 +105,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151270	xxxxbˤlt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 21						
 151271	lbnm	lbn(I)/m	lbn (I)	adj. m. pl.	white	
-151272	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+151272	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 151272	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 151272	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151273	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 22						
 151274	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg.	massif	
 151275	gngnt	gngnt/	gngnt	TN	gngnt	
-151276	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+151276	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 151276	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-151276	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+151276	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 151277	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 23						
 151278	bṣr	bṣr(II)[	/b-ṣ-r/ (II)	vb G impv.	to sever	
-151279	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+151279	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 151279	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151280	yn	yn/	yn	n. m. sg.	wine	
@@ -128,9 +128,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151283	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 25						
 151284	šql	šql/	šql	TN	šql	
-151285	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+151285	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 151285	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-151285	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+151285	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 151286	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 26						
 151287	šmny	šmn(I)/+y	šmn (I)	n. m.	oil	
@@ -144,11 +144,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151292	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 28						
 151293	hzp	hzp/	hzp	TN	hzp	
-151294	tšˤ	tšˤ/	tšʕ	n. sg. num.	nine	
+151294	tšˤ	tšˤ/	tšʕ	num.	nine	
 151295	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 29						
 151296	bir	bir/	bỉr	TN/n. f.	biʾiru	
-151297	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+151297	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 151297	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 151297	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151298	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
@@ -168,32 +168,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151306	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 32						
 151307	šrš	šrš(I)/	šrš (I)	n. m. sg.	root	
-151308	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+151308	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 151309	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151309	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 33						
 151310	rqd	rqd/	rqd	TN	rqd	
 151310	rqd	rq(II)/+d	rq (II)	adj. m.	fine, ?	
-151311	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+151311	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 151311	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-151311	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+151311	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 151312	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151312	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 151313	w	w	w	conj.	and	
 151314	x	?	?	?	?	
 # KTU 1.91 34						
 151315	uḫnp	uḫnp/	ủḫnp	TN	ủḫnp	
-151316	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
+151316	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 151317	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151317	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 35						
 151318	tgmr	tgmr/	tgmr	n. m. sg.	totality	
 151319	yn	yn/	yn	n. m. sg.	wine	
 151320	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
-151321	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+151321	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.91 36						
 151322	w	w	w	conj.	and	
 151323	ḥspṯn	?	?	?	?	DULAT: NOT FOUND
 151324	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-151324	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-151324	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	

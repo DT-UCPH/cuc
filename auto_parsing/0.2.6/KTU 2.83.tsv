@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159390	at	at(I)	ảt (I)	pers. pn.	you	
 159391	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.83 2						
-159392	m	l(I)	l (I)	prep.	to	
+159392	m	mt(II)/	mt (II)	n. m.	death	
 159393	hlny	hlny	hlny	deictic adv. functor	behold	
 159394		?	?	?	?	
 # KTU 2.83 3						
@@ -35,10 +35,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159411	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159411	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.83 8						
-159412	m	l(I)	l (I)	prep.	to	
+159412	m	mt(II)/	mt (II)	n. m.	death	
 159413	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-159413	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-159413	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 159414	x	?	?	?	?	
 # KTU 2.83 9						
 159415	xṣpy	?	?	?	?	DULAT: NOT FOUND

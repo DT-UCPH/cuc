@@ -18,6 +18,7 @@ from pipeline.steps.baal_plural import BaalPluralGodListFixer
 from pipeline.steps.baal_verbal_slash import BaalVerbalSlashFixer
 from pipeline.steps.base import RefinementStep
 from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFixer
+from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
 from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.feminine_t_singular_split import FeminineTSingularSplitFixer
 from pipeline.steps.formula_bigram import FormulaBigramFixer
@@ -137,6 +138,7 @@ class TabletParsingPipeline:
             VerbPosStemFixer(dulat_db=self.config.dulat_db),
             VerbFormMorphPosFixer(dulat_db=self.config.dulat_db),
             VerbFormEncodingSplitFixer(),
+            DulatEncliticMFixer(dulat_db=self.config.dulat_db),
             VerbLStemGeminationFixer(),
             VerbStemSuffixMarkerFixer(),
             VerbNStemAssimilationFixer(),

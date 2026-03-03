@@ -37,8 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155815	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
 # KTU 1.172 14						
 155816	rn	rḥb(I)/+n	rḥb (I)	adj. m.	wide	
-155816	rn	pẓr[+n	/p-ẓ-r/	vb G suffc.	to free	
-155816	rn	!!pẓr[/+n	/p-ẓ-r/	vb G inf.	to free	
+155816	rn	ġtr[+n	/ġ-t-r/	vb	to implore	
 155816	rn	rks/+n	rks	n. m.	belt	
 155817	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 15						
@@ -77,9 +76,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155834	b	b	b	prep.	in	
 155835	ydh	yd(I)/+h	yd (I)	n. f.	hand	
 # KTU 1.172 22						
-155836	nh	ˤl(I)+h	ʕl (I)	prep.	upon	
 155836	nh	n(I)	-n (I)	morph.	Sun	
-155836	nh	ˤn(I)/+h	ʕn (I)	n. f.	eye	
+155836	nh	qn/+h	qn	n. m.	cane	
+155836	nh	mtnt/+h	mtnt	n. f.	loin	
 155837	w	w	w	conj.	and	
 155838	lyamr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 23						
@@ -104,6 +103,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155851	ḥmṯ	ḥmṯ/	ḥmṯ	n. m. sg.	belly	
 # KTU 1.172 29						
 155852	bm	b	b	prep.	in	
+155852	bm	b+m(I)	b	prep.	in	
+155852	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 # KTU 1.172 30						
 155853		?	?	?	?	
 155854	yldhnaxx	?	?	?	?	DULAT: NOT FOUND

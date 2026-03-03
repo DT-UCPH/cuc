@@ -23,6 +23,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156082	hm	hm(I)	hm (I)	pers. pn.	they	
 156083	škb	škb[	/š-k-b/	vb G suffc.	to lie down	
 156084	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+156084	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+156084	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 156085	thm	thm/	thm	n. m. sg.	ocean	
 # KTU 1.179 5						
 156086	šk	š/+k	š	n. m.	ram	
@@ -69,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156110	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
 156111	kbkb	kbkb/	kbkb	n. m. sg.	heavenly body	
 # KTU 1.179 11						
-156112	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+156112	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 156113	w	w	w	conj.	and	
 156114	yss	?	?	?	?	DULAT: NOT FOUND
 156115	kbkb	kbkb/	kbkb	n. m. sg.	heavenly body	
@@ -107,7 +109,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156133	xm	?	?	?	?	DULAT: NOT FOUND
 156134	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. / n. m. pl. cstr.	servant	
 156135	ṭl	ṭl/	ṭl	n. m. sg.	dew	
-156136	arbˤtm	arbˤ/	ảrbʕ	num.	four	
+156136	arbˤtm	arbˤt/~m	ảrbʕ	num.	four	
 # KTU 1.179 16						
 156137	y	+y, [y	-y (I)	prep. functor	my	
 156137	y	~y	-y (II)	prep. functor	indeed	
@@ -159,9 +161,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 25						
 156166	xxx	?	?	?	?	
 # KTU 1.179 26						
-156167	nm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-156167	nm	ˤn(I)/+m(I)	ʕn (I)	n. f.	eye	
-156167	nm	bld/+m(I)	bld	n. m.	land	
+156167	nm	qn/+m(I)	qn	n. m.	cane	
+156167	nm	mtnt/+m(I)	mtnt	n. f.	loin	
+156167	nm	ḫtʔ[+m(I)	/ḫ-t-ʔ/	vb	to be ground up	
 # KTU 1.179 27						
 156168	š	š/	š	n. m. sg.	ram	
 # KTU 1.179 28						
@@ -184,13 +186,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156180	rḥq	rḥq/	rḥq	adj. m. sg.	distant	
 156181	abn	ab/+n	ảb	n. m.	father	
 156181	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
-156181	abn	!(ʔ&a!bn[	/b-n/	vb G impv.	to understand	
+156181	abn	!(ʔ&a!bn[	/b-n/	vb G prefc.	to understand	
 156182	l	l(I)	l (I)	prep.	to	
 156182	l	l(II)	l (II)	adv.	no	
 156182	l	l(III)	l (III)	functor	certainly	
 156183	abn	ab/+n	ảb	n. m.	father	
 156183	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
-156183	abn	!(ʔ&a!bn[	/b-n/	vb G impv.	to understand	
+156183	abn	!(ʔ&a!bn[	/b-n/	vb G prefc.	to understand	
 156184	w	w	w	conj.	and	
 156185	pslt	psl(t(II)/t	pslt (II)	n. f. sg.	sculpture	
 156186	l	l(I)	l (I)	prep.	to	
@@ -204,13 +206,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156192	rḥqt	rḥq[t:d	/r-ḥ-q/	vb D suffc.	to go away	
 156193	abn	ab/+n	ảb	n. m.	father	
 156193	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
-156193	abn	!(ʔ&a!bn[	/b-n/	vb G impv.	to understand	
+156193	abn	!(ʔ&a!bn[	/b-n/	vb G prefc.	to understand	
 156194	l	l(I)	l (I)	prep.	to	
 156194	l	l(II)	l (II)	adv.	no	
 156194	l	l(III)	l (III)	functor	certainly	
 156195	abn	ab/+n	ảb	n. m.	father	
 156195	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
-156195	abn	!(ʔ&a!bn[	/b-n/	vb G impv.	to understand	
+156195	abn	!(ʔ&a!bn[	/b-n/	vb G prefc.	to understand	
 # KTU 1.179 33						
 156196	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 156196	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
@@ -273,17 +275,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156237	nrt	nr(t(I)/t	nrt (I)	n. f. sg.	lantern	
 156237	nrt	nr(t(II)/t	nrt (II)	n. f. sg.	ploughed land	
 156238	il	il(I)/	ỉl (I)	n. m.	god	
-156239	špš	špš/	špš	n. sg.	sun	
+156239	špš	špš/	špš	n. f. sg.	sun	
 156240	l	l(I)	l (I)	prep.	to	
 156240	l	l(II)	l (II)	adv.	no	
 156240	l	l(III)	l (III)	functor	certainly	
 156241	ymt	ym(I)/t=	ym (I)	n. m. pl.	day	
 156241	ymt	!y!mt[	/m-t/	vb G prefc.	to die	
-156242	špš	špš/	špš	n. sg.	sun	
+156242	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.179 39						
 156243	xxxḥnt	?	?	?	?	DULAT: NOT FOUND
 156244	il	il(I)/	ỉl (I)	n. m.	god	
-156245	hn	hn	hn	deictic functor/adv.	behold!	
+156245	hn	hn	hn	functor	behold!	
 156246	ksmḥṯ	?	?	?	?	DULAT: NOT FOUND
 156247	l	l(I)	l (I)	prep.	to	
 156248	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	

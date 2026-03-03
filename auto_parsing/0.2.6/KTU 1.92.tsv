@@ -20,6 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151336	thmt	thm(t/t	thmt	n. f.	Primordial Ocean	
 151336	thmt	thm/t	thm	n. m.	ocean/deep	
 151337	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+151337	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+151337	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 # KTU 1.92 6						
 151338	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 151339	ġlh	ġl(I)/h	ġl (I)	n. m. sg. / n. m. pl. cstr.	far extent of desert	
@@ -31,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151343	tl	tl(I)/	tl (I)	n. m. sg.	hill	
 151343	tl	tl(II)/	tl (II)	n. m. sg.	weapon	
 # KTU 1.92 8						
-151344	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G prefc. / vb L prefc. / vb R prefc.	to return	
+151344	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 151344	tṯb	yṯb[	/y-ṯ-b/	vb G prefc.	to sit down	
 151344	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 151345	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
@@ -63,6 +65,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.92 13						
 151363	šbrh	šbr/+h	šbr	n. m. sg.	stick	
 151364	bm	b	b	prep.	in	
+151364	bm	b+m(I)	b	prep.	in	
+151364	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 151365	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
 151366	tr	!!tr[/	/t-r/	vb G inf.	to scour	
 151366	tr	tr(II)/	tr (II)	n. m. sg.	turtledove	
@@ -82,9 +86,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151376	ggn	ggn/	ggn	n. m.	insides	
 151377		?	?	?	?	
 # KTU 1.92 17						
-151378	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+151378	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 151379	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. / n. m. pl.	craftsman	
-151380	ḫssm	ḫss/+m(I)	ḫss	element of DN	Ḫasisu/Khasis	
+151380	ḫssm	ḫss/+m(I)	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.92 18						
 151381	xxxxxbm	?	?	?	?	DULAT: NOT FOUND
 151382	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
@@ -201,7 +205,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151450	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
 151450	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. sg.	cloud(s)	
 # KTU 1.92 38						
-151451	hn	hn	hn	deictic functor/adv.	behold!	
+151451	hn	hn	hn	functor	behold!	
 151452	xxxxyn	?	?	?	?	DULAT: NOT FOUND
 151453	w	w	w	conj.	and	
 151454	mnu	mnu	mnủ	?	?	

@@ -55,12 +55,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148080	il	il(I)/	ỉl (I)	n. m.	god	
 148081	l	l(I)	l (I)	prep.	to	
 148081	l	l(III)	l (III)	functor	certainly	
-148082	ṯkmn	ṯkmn/	ṯkmn	DN/element of DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148082	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148082	ṯkmn	ṯkm/+n	ṯkm	n. m.	shoulder	
 148083	w	w	w	conj.	and	
 148084	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148084	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
-148085	hn	hn	hn	deictic functor/adv.	behold!	
+148085	hn	hn	hn	functor	behold!	
 148086	š	š/	š	n. m. sg.	ram	
 # KTU 1.40 9						
 148087	w	w	w	conj.	and	
@@ -82,7 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148099	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 1.40 11						
 148100	u	u	ủ	conj.	or	
-148101	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake	
+148101	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
 148102	u	u	ủ	conj.	or	
 148103	lp	?	?	?	?	DULAT: NOT FOUND
 148104	qṭy	qṭy(I)/	qṭy (I)	GN	il qadita	
@@ -115,7 +115,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148128	qrzbl	qrzbl/	qrzbl	TN	Fürstenquelle	
 # KTU 1.40 14						
 148129	u	u	ủ	conj.	or	
-148130	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake	
+148130	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
 148131	b	b	b	prep.	in	
 148132	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
 148132	apkm	ap(II)/+km	ảp (II)	n. m.	nose	
@@ -128,7 +128,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 15						
 148138	tqṭṭ	!t!qṭṭ[:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
 148139	u	u	ủ	conj.	or	
-148140	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake	
+148140	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
 148141	l	l(I)	l (I)	prep.	to	
 148141	l	l(III)	l (III)	functor	certainly	
 148142	dbḥm	dbḥ/m	dbḥ	n. m. pl. / n. m. du.	sacrifice	
@@ -169,12 +169,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148167	il	il(I)/	ỉl (I)	n. m.	god	
 148168	l	l(I)	l (I)	prep.	to	
 148168	l	l(III)	l (III)	functor	certainly	
-148169	ṯkmn	ṯkmn/	ṯkmn	DN/element of DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148169	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148169	ṯkmn	ṯkm/+n	ṯkm	n. m.	shoulder	
 148170	w	w	w	conj.	and	
 148171	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148171	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
-148172	hn	hn	hn	deictic functor/adv.	behold!	
+148172	hn	hn	hn	functor	behold!	
 148173	š	š/	š	n. m. sg.	ram	
 # KTU 1.40 18						
 148174	w	w	w	conj.	and	
@@ -272,12 +272,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148247	il	il(I)/	ỉl (I)	n. m.	god	
 148248	l	l(I)	l (I)	prep.	to	
 148248	l	l(III)	l (III)	functor	certainly	
-148249	ṯkmn	ṯkmn/	ṯkmn	DN/element of DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148249	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148249	ṯkmn	ṯkm/+n	ṯkm	n. m.	shoulder	
 148250	w	w	w	conj.	and	
 148251	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148251	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
-148252	hn	hn	hn	deictic functor/adv.	behold!	
+148252	hn	hn	hn	functor	behold!	
 148253	š	š/	š	n. m. sg.	ram	
 # KTU 1.40 26						
 148254	w	w	w	conj.	and	
@@ -397,10 +397,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148345	bn	bn(II)	bn (II)	prep.	between	
 148345	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 148346	ill	ill/	ỉll	PN	ỉll	
-148347	ṯkmn	ṯkmn/	ṯkmn	DN/element of DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148347	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148347	ṯkmn	ṯkm/+n	ṯkm	n. m.	shoulder	
 148348	wšnm	?	?	?	?	DULAT: NOT FOUND
-148349	hn	hn	hn	deictic functor/adv.	behold!	
+148349	hn	hn	hn	functor	behold!	
 148350	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
 148350	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
 # KTU 1.40 35						
@@ -515,11 +515,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 43						
 148434	l	l(I)	l (I)	prep.	to	
 148434	l	l(III)	l (III)	functor	certainly	
-148435	ṯkmn	ṯkmn/	ṯkmn	DN/element of DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148435	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148435	ṯkmn	ṯkm/+n	ṯkm	n. m.	shoulder	
 148436	w	w	w	conj.	and	
 148437	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148437	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
-148438	hn	hn	hn	deictic functor/adv.	behold!	
+148438	hn	hn	hn	functor	behold!	
 148439	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
 148439	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	

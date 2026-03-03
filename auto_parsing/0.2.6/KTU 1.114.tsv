@@ -20,15 +20,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153795	l	l(III)	l (III)	functor	certainly	
 153796	qṣ	qṣ/	qṣ	n. m. sg.	end	
 153796	qṣ	!!qṣ[/	/q-ṣ(-ṣ)/	vb G inf. / vb G	to carve	
-153797	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+153797	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 153798	tlḥmn	!t!lḥm(I)[n	/l-ḥ-m/ (I)	vb G suffc.	to eat	
 # KTU 1.114 3						
-153799	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+153799	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 153800	w	w	w	conj.	and	
 153801	tštn	!t!št[n	/š-t/	vb G prefc.	to place	
 153802	tštn	!t!št[n	/š-t/	vb G prefc.	to place	
 153803	ynˤd	?	?	?	?	DULAT: NOT FOUND
-153804	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+153804	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.114 4						
 153805	trṯ	trṯ/	trṯ	n. m. sg.	new wine	
 153806	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
@@ -67,7 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153825	y	~y	-y (II)	prep. functor	indeed	
 153825	y	y	y	prep. functor	oh!	
 153826	lmn	šlm[:d	/š-l-m/	vb D prefc.	to be well	
-153827	ḫṭm	ḫṭ/	ḫṭ	n. sg.	sceptre	
+153827	ḫṭm	ḫṭ/~m	ḫṭ	n. m. sg.	sceptre	
 153828	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 153829	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg.	table	
 # KTU 1.114 9						
@@ -130,7 +130,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153869	yn	yn/	yn	n. m. sg.	wine	
 153870	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 153870	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
-153871	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+153871	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 153872	trṯ	trṯ/	trṯ	n. m. sg.	new wine	
 153873	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 153873	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
@@ -149,10 +149,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153880	l	l(III)	l (III)	functor	certainly	
 153881	ḥẓrh	ḥẓr/h	ḥẓr	n. m. sg.	mansion	
 153882	yˤmsn	!y!ˤms[n	/ʕ-m-s/	vb G prefc. / vb G suffc.	to load	
-153883	nn	grš[	/g-r-š/	vb G impv.	to eject	
-153883	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-153883	nn	!!nn[/	/g-r(-y)/	vb G inf.	to attack	
-153884	ṯkmn	ṯkmn/	ṯkmn	DN/element of DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+153883	nn	grš[	/g-r-š/	vb	to eject	
+153883	nn	qn/+n	qn	n. m.	cane	
+153883	nn	gr[	/g-r(-y)/	vb	to attack	
+153884	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 153884	ṯkmn	ṯkm/+n	ṯkm	n. m.	shoulder	
 # KTU 1.114 19						
 153885	w	w	w	conj.	and	
@@ -185,7 +185,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153901	km	+km, +km=	-km			
 153902	mt	mt(II)/	mt (II)	n. m. sg.	death	
 153902	mt	mt[	/m-t/	vb G suffc.	to die	
-153902	mt	!!mt[/	/m-t/	vb G inf.	to die	
 153902	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 153902	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 # KTU 1.114 22						
@@ -222,6 +221,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.114 27						
 153921	w	w	w	conj.	and	
 153922	bhm	b	b	prep.	in	
+153922	bhm	b+hm	b	prep.	in	
+153922	bhm	b+m(I)	b	prep.	in	
 153923	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 153924	lmdh	lmd/+h	lmd	adj. m. or n. m.	trained	
 153924	lmdh	lmd[:d+h	/l-m-d/	vb D suffc.	to teach	
@@ -232,7 +233,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153925	km	km	km	prep./conj./adv.		
 153925	km	+km, +km=	-km			
 153926	trpa	!t!rp(ʔ[&a	/r-p-ʔ/	vb G prefc.	to heal	
-153927	hn	hn	hn	deictic functor/adv.	behold!	
+153927	hn	hn	hn	functor	behold!	
 153928	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. / n. m. pl. cstr.	boy	
 153928	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. / vb G suffc. / vb N prefc. / vb N suffc.	to become agitated	
 # KTU 1.114 29						
@@ -255,7 +256,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.114 31						
 153941	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
 153941	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
-153942	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
+153942	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
 153943	dm	dm(II)/	dm (II)	n. m.	blood	
 153943	dm	dm(I)	dm (I)	functor	since	
 153944	zt	zt/	zt	n. m. sg. / n. m. pl.	olive	

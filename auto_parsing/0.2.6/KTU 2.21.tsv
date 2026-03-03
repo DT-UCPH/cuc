@@ -18,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156912	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 156913	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.21 5						
-156914	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+156914	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 156915	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.21 6						
 156916	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
@@ -34,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156921	l	l(I)	l (I)	prep.	to	
 156921	l	l(III)	l (III)	functor	certainly	
 156922	skn	skn(I)/	s:śkn (I)	n. m. sg.	prefect	
-156923	gt	g(t/t	gt	n. f. sg./element of TNN	gittu	
+156923	gt	g(t/t	gt	n. f. sg./TNN	gittu	
 # KTU 2.21 9						
 156924	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 156925	ugrt	ugrt/	ủgrt	TN	Ugarit	
@@ -60,12 +60,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156936	lm	l(I)	l (I)	prep.	to	
 # KTU 2.21 14						
 156937	xxxk	?	?	?	?	DULAT: NOT FOUND
-156938	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
+156938	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+156938	ˤmk	ˤm(II)/	ʕm (II)	n. m.	lineage	
 # KTU 2.21 15						
 156939	xxšlm	?	?	?	?	DULAT: NOT FOUND
 156940	kspy	ksp/+y	ksp	n. m.	silver	
 # KTU 2.21 16						
-156941	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
+156941	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 156942	mat	mit/	mỉt	n. f. pl.	a hundred	
 156943	ˤmnkm	ˤm(I)+km	ʕm (I)	prep.	to	
 # KTU 2.21 17						

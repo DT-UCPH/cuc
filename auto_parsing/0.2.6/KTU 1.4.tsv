@@ -50,7 +50,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138150	km	k(IV)	k (IV)	adv.	thus	
 138150	km	km	km	prep./conj./adv.		
 138150	km	+km, +km=	-km			
-138151	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138151	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 138152	w	w	w	conj.	and	
 138153	ḥẓr	ḥẓr/	ḥẓr	n. m. sg.	mansion	
 # KTU 1.4 I:11						
@@ -106,7 +106,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:20						
 138182	argmk	!(ʔ&a!rgm[k	/r-g-m/	vb	to say	
 138183	šskn	]š]skn[	/s-k-n/	vb Š impv.	to place	
-138184	mˤ	mˤ(I)	mʕ (I)	postpositional emph. adv.	please!	
+138184	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 # KTU 1.4 I:21						
 138185	mgn	mgn(I)/	mgn (I)	n. m. sg.	gift	
 138186	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
@@ -116,7 +116,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:22						
 138189	mġẓ	mġẓ/	mġẓ	n. m.	present	
 138190	qnyt	qny[t	/q-n-y/	vb G suffc.	to acquire	
-138191	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138191	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 I:23						
 138192	hyn	hy/+n	hy	pers. pn.	she	
 138192	hyn	hyn/	hyn	DN	Hayyānu/alt. name of the god kṯr (Kothar)	
@@ -125,14 +125,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138195	mpḫm	mpḫ/m	mpḫ	n. m. du.	bellows of the forge	
 # KTU 1.4 I:24						
 138196	bd	b	b	prep.	in	
-138197	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+138197	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 138198	mṣbṭm	mṣbṭ/m	mṣbṭ	n. m. du.	handle	
 # KTU 1.4 I:25						
 138199	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 138200	ksp	ksp/	ksp	n. m. sg.	silver	
 138201	yšl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 I:26						
-138202	ḥ	lqḥ[	/l-q-ḥ/	vb G suffc. / vb N suffc.	to get hold of	
+138202	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
 138203	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 138204	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 138205	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -143,7 +143,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138208	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 138209	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 # KTU 1.4 I:28						
-138210	m	l(I)	l (I)	prep.	to	
+138210	m	mt(II)/	mt (II)	n. m.	death	
 138211	l	l(I)	l (I)	prep.	to	
 138212	rbbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 138213	x	?	?	?	?	
@@ -202,7 +202,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138254	dbbm	dbb(I)/m	dbb (I)	n. m. pl.	beast	
 138255	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.4 I:40						
-138256	m	l(I)	l (I)	prep.	to	
+138256	m	mt(II)/	mt (II)	n. m.	death	
 138257	sdt	?	?	?	?	DULAT: NOT FOUND
 138258	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 # KTU 1.4 I:41						
@@ -382,7 +382,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 II:29						
 138379	ym	ym(I)/	ym (I)	n. m. sg.	day	
 138379	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-138380	gm	g/	g	n. m. sg.	(loud) voice	
+138380	gm	g/~m	g	n. m. sg.	(loud) voice	
 138380	gm	gm(II)	gm (II)	adv.	also	
 138381	l	l(I)	l (I)	prep.	to	
 138381	l	l(III)	l (III)	functor	certainly	
@@ -457,9 +457,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138424		?	?	?	?	
 # KTU 1.4 II:46						
 138425	b	b	b	prep.	in	
-138426	ṭ	ṭbḫ/	ṭbḫ	n. m. sg.	sacrificer	
+138426	ṭ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 II:47						
-138427	gt	g(t/t	gt	n. f. sg./element of TNN	gittu	
+138427	gt	g(t/t	gt	n. f. sg./TNN	gittu	
 138428		?	?	?	?	
 # KTU 1.4 II:48						
 138429	yx	?	?	?	?	DULAT: NOT FOUND
@@ -494,7 +494,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138448	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.4 III:9						
 138449	xxxxy	?	?	?	?	DULAT: NOT FOUND
-138450	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138450	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 138451	d	d	d	det. or rel. functor	the one(s) of	
 138452	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 # KTU 1.4 III:10						
@@ -525,7 +525,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 III:14						
 138468	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
 138469	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
-138470	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138470	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 138471	štt	št[t:pass	/š-t/	vb G suffc. / vb Gpass suffc.	to place	
 # KTU 1.4 III:15						
 138472	pglt	pgl(t/t	pglt	n. f. sg.	unclean offering	
@@ -544,7 +544,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138482	šna	šn(ʔ&a[	/š-n-ʔ/	vb G suffc.	to hate	
 138483	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 138483	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-138484	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+138484	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 # KTU 1.4 III:18						
 138485	rkb	rkb[	/r-k-b/	vb G suffc. / vb G impv.	to mount (especially a chariot)	
 138485	rkb	rkb[/	/r-k-b/	vb G ptcpl.	to mount (especially a chariot)	
@@ -605,7 +605,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 III:26						
 138518	tġẓyn	!t!ġẓy[n:d	/ġ-ẓ-y/	vb G prefc. / vb D prefc.	to win over	
 138519	qnyt	qny[t	/q-n-y/	vb G suffc.	to acquire	
-138520	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138520	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 III:27						
 138521	w	w	w	conj.	and	
 138522	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
@@ -626,7 +626,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138531	tġẓyn	!t!ġẓy[n:d	/ġ-ẓ-y/	vb G prefc. / vb D prefc.	to win over	
 # KTU 1.4 III:30						
 138532	qnyt	qny[t	/q-n-y/	vb G suffc.	to acquire	
-138533	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138533	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 138534	mgntm	mgn[tm:d	/m-g-n/	vb D suffc.	to wine and dine	
 # KTU 1.4 III:31						
 138535	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
@@ -658,7 +658,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 III:35						
 138551	nġẓ	?	?	?	?	DULAT: NOT FOUND
 138552	qnyt	qny[t	/q-n-y/	vb G suffc.	to acquire	
-138553	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138553	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 III:36						
 138554	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
 138555	nmgn	!n!mgn[:d	/m-g-n/	vb D prefc.	to wine and dine	
@@ -681,7 +681,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138565	xxxtlḥm	?	?	?	?	DULAT: NOT FOUND
 138566	tšty	!t!šty[	/š-t-y/	vb G prefc.	to drink	
 # KTU 1.4 III:41						
-138567	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138567	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 138568	w	w	w	conj.	and	
 138569	tpq	!t!pq[	/p-q/	vb G prefc.	to obtain	
 138570	mrġṯm	mrġṯ/+m(I)	mrġṯ	n. m.	suckling	
@@ -730,7 +730,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138596	ṯril	?	?	?	?	DULAT: NOT FOUND
 138597	abn	ab/+n	ảb	n. m.	father	
 138597	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
-138597	abn	!(ʔ&a!bn[	/b-n/	vb G impv.	to understand	
+138597	abn	!(ʔ&a!bn[	/b-n/	vb G prefc.	to understand	
 138598	w	w	w	conj.	and	
 138599	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
 138599	tˤn	!t!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
@@ -933,7 +933,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138728	atwt	(ʔ&atw[t	/ʔ-t-w/	vb G suffc.	to come	
 138728	atwt	(ʔ&atw[/t	/ʔ-t-w/	vb G act. ptcpl. / vb G ptcpl.	to come	
 138729	qnyt	qny[t	/q-n-y/	vb G suffc.	to acquire	
-138730	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138730	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 IV:33						
 138731	rġb	!!rġb[/	/r-ġ-b/	vb G inf.	to be hungry	
 138732	rġbt	rġb[t	/r-ġ-b/	vb G suffc.	to be hungry	
@@ -996,7 +996,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138772	ḥkmt	ḥkm(t/t	ḥkmt	n. f. sg.	wisdom	
 # KTU 1.4 IV:42						
 138773	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-138774	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+138774	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 138775	ḥyt	ḥy(t(I)/t	ḥyt (I)	n. f. sg.	life	
 138776	ḥẓt	ḥẓ(t/t	ḥẓt	adj. f. sg.	happy	
 # KTU 1.4 IV:43						
@@ -1058,7 +1058,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138815	km	k(IV)	k (IV)	adv.	thus	
 138815	km	km	km	prep./conj./adv.		
 138815	km	+km, +km=	-km			
-138816	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138816	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 138817	w	w	w	conj.	and	
 138818	ḥẓr	ḥẓr/	ḥẓr	n. m. sg.	mansion	
 138819	k	k(I)	k (I)	prep.	like	
@@ -1149,7 +1149,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138870	km	k(IV)	k (IV)	adv.	thus	
 138870	km	km	km	prep./conj./adv.		
 138870	km	+km, +km=	-km			
-138871	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138871	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 138872	w	w	w	conj.	and	
 138873	ḥẓr	ḥẓr/	ḥẓr	n. m. sg.	mansion	
 138874	k	+k	-k (I)			
@@ -1174,7 +1174,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138882	rbt	rb(I)/t	rb (I)	adj. f. sg.	great	
 138882	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 138882	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
-138883	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+138883	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 138884	l	l(III)	l (III)	functor	certainly	
 138885	ḥkmt	ḥkm(t/t	ḥkmt	n. f. sg.	wisdom	
 # KTU 1.4 V:4						
@@ -1410,9 +1410,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139038	ylak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
 139039	l	l(I)	l (I)	prep.	to	
 139039	l	l(III)	l (III)	functor	certainly	
-139040	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139040	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139041	w	w	w	conj.	and	
-139042	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+139042	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.4 V:42						
 139043	w	w	w	conj.	and	
 139044	ṯb	ṯb[	/ṯ-b/	vb G suffc. / vb G impv.	to return	
@@ -1425,9 +1425,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139049	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
 139050	mġy	mġy[	/m-ġ-y/	vb G suffc.	to come	
 139050	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
-139051	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139051	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139052	w	w	w	conj.	and	
-139053	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+139053	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.4 V:45						
 139054	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
 139054	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
@@ -1458,7 +1458,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139070	lḥm	lḥ(I)/m	lḥ (I)	n. f. du.	cheek	
 139071	šty	šty[	/š-t-y/	vb G suffc. / vb G impv.	to drink	
 139071	šty	!!šty[/	/š-t-y/	vb G inf.	to drink	
-139072	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139072	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 V:49						
 139073	wyˤn	?	?	?	?	DULAT: NOT FOUND
 139074	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
@@ -1466,7 +1466,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 V:50						
 139076	hl	hl	hl	deictic adv. functor	behold	
 139077	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc.	to go	
-139078	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139078	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139079	wḫss	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 V:51						
 139080	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb G impv.	to hurry	
@@ -1511,9 +1511,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139104	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
 139104	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
 139104	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
-139105	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139105	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139106	w	w	w	conj.	and	
-139107	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+139107	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.4 V:59						
 139108	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv.	to hear	
 139108	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
@@ -1565,11 +1565,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139139	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
 139139	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
 139139	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
-139140	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139140	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139141	w	w	w	conj.	and	
-139142	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+139142	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.4 VI:2						
-139143	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G prefc. / vb L prefc. / vb R prefc.	to return	
+139143	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 139143	tṯb	yṯb[	/y-ṯ-b/	vb G prefc.	to sit down	
 139143	tṯb	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
 139144	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
@@ -1577,15 +1577,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139145	lhwty	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 VI:3						
 139146	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-139146	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+139146	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 139146	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 139147	rgm	rgm/	rgm	n. m. sg.	word	
-139148	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139148	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139149	w	w	w	conj.	and	
-139150	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+139150	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.4 VI:4						
 139151	smˤ	?	?	?	?	DULAT: NOT FOUND
-139152	mˤ	mˤ(I)	mʕ (I)	postpositional emph. adv.	please!	
+139152	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 139153	l	l(I)	l (I)	prep.	to	
 139153	l	l(III)	l (III)	functor	certainly	
 139154	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
@@ -1651,25 +1651,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VI:13						
 139191	xxxxx	?	?	?	?	
 139192	qlṣn	!!qlṣ[/+n	/q-l-ṣ/	vb G inf. / vb D inf.	to resist	
-139193	wpṯm	wpṯ[m	/w-p-ṯ/	vb D suffc.	to spit	
-139193	wpṯm	!!wpṯ[/m	/w-p-ṯ/	vb D inf.	to spit	
+139193	wpṯm	wpṯ[m~m	/w-p-ṯ/	vb D suffc.	to spit	
+139193	wpṯm	!!wpṯ[/m~m	/w-p-ṯ/	vb D inf.	to spit	
 # KTU 1.4 VI:14						
 139194	xxxxx	?	?	?	?	
 139195	w	w	w	conj.	and	
 139196	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
 139196	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
 139196	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
-139197	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139197	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 # KTU 1.4 VI:15						
 139198	w	w	w	conj.	and	
-139199	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
-139200	tṯb	!t!ṯb[:l:r	/ṯ-b/	vb G prefc. / vb L prefc. / vb R prefc.	to return	
+139199	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
+139200	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 139201	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 139201	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 139202	l	l(I)	l (I)	prep.	to	
 139203	hwty	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 # KTU 1.4 VI:16						
-139204	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139204	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139205	bhth	bt(II)/+h	bt (II)	n. m.	house	
 139206	tbnn	bny[n	/b-n-y/	vb G prefc.	to build	
 # KTU 1.4 VI:17						
@@ -1688,7 +1688,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139216	mḥmd	mḥmd/	mḥmd	adj. m. sg.	desired	
 139217	arzh	arz(I)/h	ảrz (I)	n. m. pl.	cedar	
 # KTU 1.4 VI:20						
-139218	hn	hn	hn	deictic functor/adv.	behold!	
+139218	hn	hn	hn	functor	behold!	
 139219	lbnn	lb/+nn	lb	n. m.	heart, ?	
 139219	lbnn	lbnn(I)/	lbnn (I)	TN	Lebanon	
 139219	lbnn	lbnn(II)/	lbnn (II)	element		
@@ -1708,10 +1708,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139230	b	b	b	prep.	in	
 139231	hklm	hkl/+m(I)	hkl	n. m.	palace	
 # KTU 1.4 VI:24						
-139232	hn	hn	hn	deictic functor/adv.	behold!	
+139232	hn	hn	hn	functor	behold!	
 139233	ym	ym(I)/	ym (I)	n. m. sg.	day	
 139234	w	w	w	conj.	and	
-139235	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+139235	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 139236	tikl	ʔkl[l	/ʔ-k-l/	vb G prefc.	to eat	
 # KTU 1.4 VI:25						
 139237	išt	iš(t/t	ỉšt	n. f. sg.	fire	
@@ -1721,9 +1721,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VI:26						
 139241	b	b	b	prep.	in	
 139242	hklm	hkl/+m(I)	hkl	n. m.	palace	
-139243	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+139243	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 139243	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-139243	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+139243	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 139244	kbˤ	?	?	?	?	DULAT: NOT FOUND
 139245	ym	ym(I)/	ym (I)	n. m. sg.	day	
 139245	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -1737,8 +1737,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139251	b	b	b	prep.	in	
 139252	hklm	hkl/+m(I)	hkl	n. m.	palace	
 # KTU 1.4 VI:29						
-139253	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
-139254	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg./ord. num.	sixth	
+139253	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
+139254	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg./num.	sixth	
 139255	ym	ym(I)/	ym (I)	n. m. sg.	day	
 139255	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 139256	tikl	ʔkl[l	/ʔ-k-l/	vb G prefc.	to eat	
@@ -1755,7 +1755,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139263	mk	mk(I)/	mk (I)	n. m. sg.	large puddle	
 # KTU 1.4 VI:32						
 139264	b	b	b	prep.	in	
-139265	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+139265	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 139266	ymm	ym(I)/m	ym (I)	n. m. pl. / n. m. du.	day	
 139267	td	ndd[	/n-d-d/	vb G prefc.	to go	
 139268	išt	iš(t/t	ỉšt	n. f. sg.	fire	
@@ -1840,12 +1840,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139322	hklh	hkl/h	hkl	n. m. sg.	palace	
 139323	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G impv. / vb G	to exclaim	
 # KTU 1.4 VI:46						
-139324	šbˤm	šbˤm/	šbʕm	n. pl. num.	seventy	
+139324	šbˤm	šbˤm/	šbʕm	num.	seventy	
 139325	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 139326	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 # KTU 1.4 VI:47						
 139327	špq	]š]pq[	/p-q/	vb Š suffc.	to obtain	
-139328	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139328	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139329	krm	krm/	krm	n. m. sg.	vineyard	
 139330	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.4 VI:48						
@@ -1856,7 +1856,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139334	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.4 VI:49						
 139335	špq	]š]pq[	/p-q/	vb Š suffc.	to obtain	
-139336	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139336	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139337	alpm	alp(I)/m	ảlp (I)	n. m. pl. / n. m. du.	(head of) cattle	
 139338	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.4 VI:50						
@@ -1866,7 +1866,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139342	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.4 VI:51						
 139343	špq	]š]pq[	/p-q/	vb Š suffc.	to obtain	
-139344	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139344	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139345	kḥṯm	kḥṯ/m	kḥṯ	n. m. pl.	throne	
 139346	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.4 VI:52						
@@ -1875,7 +1875,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139349	ksat	ksa/t=	ks/śủ	n. f. pl.	seat	
 # KTU 1.4 VI:53						
 139350	špq	]š]pq[	/p-q/	vb Š suffc.	to obtain	
-139351	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139351	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139352	rḥbt	rḥb(t/t	rḥbt	n. f. sg.	amphora	
 139352	rḥbt	rḥb(t/t=	rḥbt	n. f. sg.	amphora	
 139353	yn	yn/	yn	n. m. sg.	wine	
@@ -1890,7 +1890,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139358	lḥm	!!lḥm(I)[/	/l-ḥ-m/ (I)	vb G inf.	to eat	
 139359	šty	šty[	/š-t-y/	vb G suffc. / vb G impv.	to drink	
 139359	šty	!!šty[/	/š-t-y/	vb G inf.	to drink	
-139360	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139360	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 VI:56						
 139361	w	w	w	conj.	and	
 139362	pq	pq[	/p-q/	vb G suffc.	to obtain	
@@ -1969,29 +1969,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139403	km	km	km	prep./conj./adv.		
 139403	km	+km, +km=	-km			
 139404	yxxx	?	?	?	?	DULAT: NOT FOUND
-139405	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139405	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139406	b	b	b	prep.	in	
 139407	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.4 VII:7						
 139408	ˤdr	?	?	?	?	DULAT: NOT FOUND
 139409	lˤr	?	?	?	?	DULAT: NOT FOUND
-139410	ˤrm	ˤr(I)/	ʕr (I)	n. f. sg.	city	
+139410	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. sg.	city	
 # KTU 1.4 VII:8						
 139411	ṯb	ṯb[	/ṯ-b/	vb G suffc. / vb G impv.	to return	
 139412	l	l(I)	l (I)	prep.	to	
 139413	pdr	pdr(I)/	pdr (I)	n. m. sg. / n. m. pl. cstr.	town	
-139414	pdrm	pdr(I)/m	pdr (I)	n. m. pl.	town	
+139414	pdrm	pdr(I)/m~m	pdr (I)	n. m. pl.	town	
 # KTU 1.4 VII:9						
-139415	ṯṯ	ṯṯ/	ṯṯ	n. sg. num.	six	
+139415	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 139416	l	l(I)	l (I)	prep.	to	
 139416	l	l(III)	l (III)	functor	certainly	
-139417	ṯṯm	ṯṯm/	ṯṯm	n. pl. num.	sixty	
+139417	ṯṯm	ṯṯm/	ṯṯm	num.	sixty	
 139418	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc.	to collect	
 139419	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
 # KTU 1.4 VII:10						
-139420	šbˤm	šbˤ(I)/m	šbʕ (I)	n. pl. num.	seven	
-139420	šbˤm	šbˤm/	šbʕm	n. pl. num.	seventy	
-139421	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+139420	šbˤm	šbˤ(I)/	šbʕ (I)	num.	seven	
+139420	šbˤm	šbˤm/	šbʕm	num.	seventy	
+139421	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 139422	pdr	pdr(I)/	pdr (I)	n. m. sg. / n. m. pl. cstr.	town	
 # KTU 1.4 VII:11						
 139423	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
@@ -2000,7 +2000,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139425	mḫṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 139425	mḫṣ	mḫṣ(II)/	mḫṣ (II)	n. m. sg.	striking instrument	
 # KTU 1.4 VII:12						
-139426	tšˤm	tšˤm/	tšʕm	n. pl. num.	ninety	
+139426	tšˤm	tšˤm/	tšʕm	num.	ninety	
 139427	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 139427	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 139428	mrr	?	?	?	?	DULAT: NOT FOUND
@@ -2023,11 +2023,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VII:15						
 139439	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 139440	aštm	!(ʔ&a!št[m	/š-t/	vb G prefc.	to place	
-139441	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139441	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139442	bn	b	b	prep.	in	
 # KTU 1.4 VII:16						
 139443	ym	ym(I)/	ym (I)	n. m. sg.	day	
-139444	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139444	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139445	bnm	b	b	prep.	in	
 139445	bnm	bn(I)/m	bn (I)	n. m. sg. / n. m. pl.	son	
 139446	ˤdt	ˤd(t(II)/t	ʕdt (II)	n. f. sg.	date	
@@ -2043,7 +2043,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139453	qrb	qrb/	qrb	n. m. sg.	inside	
 139454	hkl	hkl/	hkl	n. m. sg.	palace	
 # KTU 1.4 VII:19						
-139455	m	l(I)	l (I)	prep.	to	
+139455	m	mt(II)/	mt (II)	n. m.	death	
 139456	wyptḥ	?	?	?	?	DULAT: NOT FOUND
 139457	bdqt	bdq(t/t	bdqt	n. f. sg.	fissure	
 139458	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
@@ -2051,15 +2051,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VII:20						
 139459	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 139460	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
-139461	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139461	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139462	w	w	w	conj.	and	
-139463	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+139463	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.4 VII:21						
 139464	ṣḥq	ṣḥq[	/ṣ-ḥ-q/	vb G suffc.	to laugh	
 139464	ṣḥq	!!ṣḥq[/	/ṣ-ḥ-q/	vb G inf.	to laugh	
-139465	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+139465	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 139466	w	w	w	conj.	and	
-139467	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+139467	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.4 VII:22						
 139468	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
 139469	gh	ytn[	/y-t-n/	vb	to give	
@@ -2084,7 +2084,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139481	l	l(III)	l (III)	functor	certainly	
 139482	hwty	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 139483	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb G prefc. / vb N prefc.	to open	
-139484	ḥ	lqḥ[	/l-q-ḥ/	vb G suffc. / vb N suffc.	to get hold of	
+139484	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
 # KTU 1.4 VII:26						
 139485	ln	l(I)+n	l (I)	prep.	to	
 139486	b	b	b	prep.	in	
@@ -2204,7 +2204,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139563	l	l(I)	l (I)	prep.	to	
 139564	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 # KTU 1.4 VII:46						
-139565	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139565	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139566	mt	mt(II)/	mt (II)	n. m. sg.	death	
 139567	ˤdd	ˤdd(I)/	ʕdd (I)	n. m. sg.	herald	
 139568	lydd	?	?	?	?	DULAT: NOT FOUND
@@ -2214,7 +2214,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139571	yqra	!y!qr(ʔ[&a	/q-r-ʔ/	vb G prefc.	to call	
 139572	mt	mt(II)/	mt (II)	n. m. sg.	death	
 139572	mt	mt[	/m-t/	vb G suffc.	to die	
-139572	mt	!!mt[/	/m-t/	vb G inf.	to die	
 139572	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 139572	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 # KTU 1.4 VII:48						
@@ -2225,27 +2224,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VII:49						
 139577	b	b	b	prep.	in	
 139578	gngnh	gngn/+h	gngn	n. m. sg.	insides	
-139579	aḥdy	aḥd/+y	ảḥd	adj. num./adv. num.	one	
+139579	aḥdy	aḥd/+y	ảḥd	adj./num.	one	
 139580	d	d	d	det. or rel. functor	the one(s) of	
 139581	ym	ym(I)/	ym (I)	n. m. sg.	day	
 139581	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 # KTU 1.4 VII:50						
 139582	lk	l(I)+k	l (I)	prep.	to	
 139583	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-139584	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139584	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139585	l	l(III)	l (III)	functor	certainly	
 139586	ymru	!y!mr(ʔ[&u	/m-r-ʔ/	vb G prefc.	to fatten	
 # KTU 1.4 VII:51						
-139587	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139587	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139588	w	w	w	conj.	and	
 139589	nšm	nš(m/m	nšm	n. m. pl. tant. pl.	people	
 139590	d	d	d	det. or rel. functor	the one(s) of	
-139591	yšb	yšb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
+139591	yšb	!y!(yṯb[	/y-ṯ-b/	vb	to sit down	
 # KTU 1.4 VII:52						
 139592	ˤ	?	?	?	?	
 139593	hmlt	hml(t/t=	hmlt	n. f. pl.	multitude	
 139594	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
-139595	gm	g/	g	n. m. sg.	(loud) voice	
+139595	gm	g/~m	g	n. m. sg.	(loud) voice	
 139596	l	l(I)	l (I)	prep.	to	
 139596	l	l(III)	l (III)	functor	certainly	
 139597	ġ	?	?	?	?	DULAT: NOT FOUND
@@ -2275,14 +2274,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VII:56						
 139612	mt	mt(II)/	mt (II)	n. m. sg.	death	
 139612	mt	mt[	/m-t/	vb G suffc.	to die	
-139612	mt	!!mt[/	/m-t/	vb G inf.	to die	
 139612	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 139612	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 139613	prˤt	prˤt/	prʕt	n. f. pl.	height	
 139614	ibr	ibr(II)/	ỉbr (II)	n. m. pl.	wing	
 139615	mnt	mn(t(I)/t	mnt (I)	n. f. sg.	portion	
 # KTU 1.4 VII:57						
-139616	ṣḥrrm	ṣḥrr[m	/ṣ-ḥ-r-r/	vb G suffc.	to roast	
+139616	ṣḥrrm	ṣḥrr[m~m	/ṣ-ḥ-r-r/	vb G suffc.	to roast	
 139617	ḥblm	ḥbl(I)/m	ḥbl (I)	n. m. pl. / n. m. du.	cord	
 139618	bˤrpt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 VII:58						
@@ -2316,6 +2314,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139638	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 139638	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
 139639	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+139639	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+139639	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 139640	ydm	yd(I)/m	yd (I)	n. f. du.	hand	
 # KTU 1.4 VIII:6						
 139641	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg.	massif	
@@ -2361,17 +2361,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139669	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl.	to protect	
 # KTU 1.4 VIII:15						
 139670	ˤnn	ˤnn/	ʕnn	n. m. sg. / n. m. pl. cstr.	manservant	
-139671	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139671	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139672	al	al(I)	ảl (I)	neg. functor	no	
 # KTU 1.4 VIII:16						
 139673	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc. / vb N prefc.	to approach	
 139674	l	l(I)	l (I)	prep.	to	
 139675	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
-139676	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139676	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 VIII:17						
 139677	mt	mt(II)/	mt (II)	n. m. sg.	death	
 139677	mt	mt[	/m-t/	vb G suffc.	to die	
-139677	mt	!!mt[/	/m-t/	vb G inf.	to die	
 139677	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 139677	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 139678	al	al(I)	ảl (I)	neg. functor	no	
@@ -2396,8 +2395,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VIII:21						
 139690	nrt	nr(t(I)/t	nrt (I)	n. f. sg.	lantern	
 139690	nrt	nr(t(II)/t	nrt (II)	n. f. sg.	ploughed land	
-139691	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-139692	špš	špš/	špš	n. sg.	sun	
+139691	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+139692	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.4 VIII:22						
 139693	ṣḥrrt	ṣḥrr[t	/ṣ-ḥ-r-r/	vb G suffc.	to roast	
 139694	la	la/	lả	n. m. sg.	power	
@@ -2408,7 +2407,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139698	md	md(II)/	md (II)	n. m. pl.	skilled	
 # KTU 1.4 VIII:24						
 139699	d	d	d	det. or rel. functor	the one(s) of	
-139700	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139700	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139701	mt	mt(II)/	mt (II)	n. m. sg.	death	
 139702	b	b	b	prep.	in	
 139703	a	?	?	?	?	
@@ -2431,7 +2430,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139710	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 139711	mt	mt(II)/	mt (II)	n. m. sg.	death	
 139711	mt	mt[	/m-t/	vb G suffc.	to die	
-139711	mt	!!mt[/	/m-t/	vb G inf.	to die	
 139711	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 139711	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 # KTU 1.4 VIII:27						
@@ -2458,10 +2456,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139722	l	l(I)	l (I)	prep.	to	
 139722	l	l(III)	l (III)	functor	certainly	
 139723	bnx	?	?	?	?	DULAT: NOT FOUND
-139724	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139724	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 139725	mt	mt(II)/	mt (II)	n. m. sg.	death	
 139725	mt	mt[	/m-t/	vb G suffc.	to die	
-139725	mt	!!mt[/	/m-t/	vb G inf.	to die	
 139725	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 139725	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 # KTU 1.4 VIII:31						
@@ -2511,12 +2508,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139752		?	?	?	?	
 139753	mt	mt(II)/	mt (II)	n. m. sg.	death	
 139753	mt	mt[	/m-t/	vb G suffc.	to die	
-139753	mt	!!mt[/	/m-t/	vb G inf.	to die	
 139753	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 139753	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 # KTU 1.4 VIII:44						
 139754	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
-139755	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139755	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 VIII:45						
 139756	ymru	!y!mr(ʔ[&u	/m-r-ʔ/	vb G prefc.	to fatten	
 139757	yd	yd(I)/	yd (I)	n. f. sg.	hand	

@@ -17,10 +17,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155257	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 155258	w	w	w	conj.	and	
 155259	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-155259	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+155259	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.162 5						
 155260	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-155260	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+155260	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 155260	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 155261	alpm	alp(I)/m	ảlp (I)	n. m. pl. / n. m. du.	(head of) cattle	
 155261	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
@@ -94,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.162 21						
 155301	l	l(I)	l (I)	prep.	to	
 155301	l	l(III)	l (III)	functor	certainly	
-155302	ˤšrm	ˤšrm/	ʕšrm	n. num.	twenty	
+155302	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 1.162 22						
 155303	mlsm	mlsm/	mlsm	n. m. sg.	race	
 155304	mrkbt	mrkb(t/t	mrkbt	n. f. sg.	(light war-)chariot	

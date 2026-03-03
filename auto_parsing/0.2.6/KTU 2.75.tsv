@@ -24,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159199	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 159200	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.75 6						
-159201	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+159201	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 159202	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 159203	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.75 7						
@@ -45,7 +45,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159214	b	b	b	prep.	in	
 159215	mlakt	mlak(t/t	mlảkt	n. f. sg.	message	
 # KTU 2.75 11						
-159216	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
+159216	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+159216	ˤmk	ˤm(II)/	ʕm (II)	n. m.	lineage	
 # KTU 2.75 12						
 159217	w	w	w	conj.	and	
 159218	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	

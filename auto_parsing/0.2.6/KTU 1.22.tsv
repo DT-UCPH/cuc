@@ -5,15 +5,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:2						
 146845	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
 146845	h	~h	-h(II)	adv. functor	to, towards	
-146846	hn	hn	hn	deictic functor/adv.	behold!	
+146846	hn	hn	hn	functor	behold!	
 146847	bnk	bn(I)/+k	bn (I)	n. m.	son	
-146848	hn	hn	hn	deictic functor/adv.	behold!	
+146848	hn	hn	hn	functor	behold!	
 146849	x	?	?	?	?	
 # KTU 1.22 I:3						
 146850	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 146851	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 146852	aṯrk	aṯr(I)+k	ảṯr (I)	adv. or prep.	then	
-146853	hn	hn	hn	deictic functor/adv.	behold!	
+146853	hn	hn	hn	functor	behold!	
 146854	ġzr	ġzr/	ġzr	n. m. sg.	lad	
 146855	xxxd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.22 I:4						
@@ -25,6 +25,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:5						
 146861	ṯkm	ṯkm/	ṯkm	n. m. sg.	shoulder	
 146862	bm	b	b	prep.	in	
+146862	bm	b+m(I)	b	prep.	in	
+146862	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 146863	ṯkm	ṯkm/	ṯkm	n. m. sg.	shoulder	
 146864	aḫm	aḫ(I)/m	ảḫ (I)	n. m. pl. / n. m. du.	brother (by blood)	
 146865	qym	qym(I)/	qym (I)	n. m. pl.	assistant	
@@ -89,7 +91,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:13						
 146907	w	w	w	conj.	and	
 146908	mri	mr(u(I)/&i	mrủ (I)	adj. m. or n. m. sg. / adj. m. or n. m. pl. cstr.	fattened	
-146909	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+146909	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 146910	ˤglm	ˤgl(I)/+m(I)	ʕgl (I)	n. m.	calf	
 146911	dt	d	d	det. or rel. functor	the one(s) of	
 146912	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
@@ -117,7 +119,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146930	qˤl	qˤl(II)/	qʕl (II)	n. m. sg.	vine blossom	
 # KTU 1.22 I:17						
 146931	mlkm	mlk(I)	mlk (I)		king	
-146932	hn	hn	hn	deictic functor/adv.	behold!	
+146932	hn	hn	hn	functor	behold!	
 146933	ym	ym(I)/	ym (I)	n. m. sg.	day	
 146934	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 146935	yn	yn/	yn	n. m. sg.	wine	
@@ -140,31 +142,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146947	lbnn	lb/+nn	lb	n. m.	heart, ?	
 146947	lbnn	lbnn(I)/	lbnn (I)	TN	Lebanon	
 146947	lbnn	lbnn(II)/	lbnn (II)	element		
-146948	ṭṣ	ṭl/	ṭl	n. m. sg.	dew	
+146948	ṭṣ	ṭl/	ṭl	n. m.	dew	
 146949	mrṯ	mrṯ(I)/	mrṯ (I)	n. m. sg.	must	
 146950	yḥrṯ	!y!ḥrṯ[	/ḥ-r-ṯ/	vb G prefc.	to plough	
 146951	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.22 I:21						
-146952	hn	hn	hn	deictic functor/adv.	behold!	
+146952	hn	hn	hn	functor	behold!	
 146953	ym	ym(I)/	ym (I)	n. m. sg.	day	
 146953	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 146954	w	w	w	conj.	and	
 146955	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-146955	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+146955	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 146955	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 146956	tlḥm	!t!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc.	to eat	
 146957	rpum	rp(u&/m	rpủ	n. m. pl.	healer	
 # KTU 1.22 I:22						
 146958	tštyn	!t!šty[n	/š-t-y/	vb G prefc.	to drink	
-146959	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+146959	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 146959	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-146959	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+146959	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 146960	rbˤ	rbˤ/	rbʕ	num.	fourth	
 146961	ym	ym(I)/	ym (I)	n. m. sg.	day	
 146961	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-146962	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
+146962	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.22 I:23						
-146963	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg./ord. num.	sixth	
+146963	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg./num.	sixth	
 146964	ym	ym(I)/	ym (I)	n. m. sg.	day	
 146964	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 146965	tlḥmn	!t!lḥm(I)[n	/l-ḥ-m/ (I)	vb G suffc.	to eat	
@@ -187,7 +189,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146977	mk	mk(II)	mk (II)	deictic functor	behold!	
 146977	mk	mk(I)/	mk (I)	n. m. sg.	large puddle	
 146978	b	b	b	prep.	in	
-146979	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+146979	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.22 I:26						
 146980	bymm	?	?	?	?	DULAT: NOT FOUND
 146981	apnk	ap(I)+k	ảp (I)	adv./conj.	also	
@@ -350,15 +352,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147077	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 147078	w	w	w	conj.	and	
 147079	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-147079	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+147079	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 147079	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 147080	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
-147081	špšm	špš/	špš	n. sg.	sun	
+147081	špšm	špš/~m	špš	n. f. sg.	sun	
 # KTU 1.22 II:25						
 147082	b	b	b	prep.	in	
-147083	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+147083	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 147083	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-147083	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+147083	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 147084	mġy	mġy[	/m-ġ-y/	vb G suffc.	to come	
 147084	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 147085	rpum	rp(u&/m	rpủ	n. m. pl.	healer	

@@ -11,9 +11,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148955	wṯnkbdm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.46 2						
 148956	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148956	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+148956	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 148957	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-148957	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+148957	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 148957	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 148958	šm	š/m	š	n. m. du.	ram	
 148958	šm	šm(I)/	šm (I)	n. m. sg.	name	
@@ -48,9 +48,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148977	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 148977	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 148978	b	b	b	prep.	in	
-148979	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+148979	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 148979	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-148979	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+148979	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 148980	tmrm	tmr/+m(I)	tmr	PN	tmr	
 148980	tmrm	tmrm/	tmrm	TN	tmrm	
 # KTU 1.46 6						
@@ -65,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148988	š	š/	š	n. m. sg.	ram	
 148989	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 148990	knp	knp/	knp	n. f. sg.	wing	
-148991	g	ṯig(t/t	ṯỉgt	n. f. sg.	neighing	
+148991	g	g/	g	n. m.	(loud) voice	
 # KTU 1.46 7						
 148992	dltgdlt	?	?	?	?	DULAT: NOT FOUND
 148993	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -74,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148995	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 148996	w	w	w	conj.	and	
 148997	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148997	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+148997	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.46 8						
 148998	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 148998	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
@@ -86,17 +86,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149004	l	l(I)	l (I)	prep.	to	
 149005	inš	inš/	ỉnš	n. m. sg.	people	
 # KTU 1.46 9						
-149006	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+149006	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 149007	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 149007	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 149008	l	l(I)	l (I)	prep.	to	
 149008	l	l(III)	l (III)	functor	certainly	
-149009	bbtm	bbt(II)/	bbt (II)	DN	superintendent	
+149009	bbtm	bbt(II)/~m	bbt (II)	DN	superintendent	
 149010	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 149010	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 149011	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 149011	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
-149012	špš	špš/	špš	n. sg.	sun	
+149012	špš	špš/	špš	n. f. sg.	sun	
 149013	wḥl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.46 10						
 149014	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
@@ -140,8 +140,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149039	l	l(III)	l (III)	functor	certainly	
 149040	rmš	rmš/	rmš	DN	rmš	
 149041	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-149041	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-149041	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 149042	w	w	w	conj.	and	
 149043	š	š/	š	n. m. sg.	ram	
 # KTU 1.46 14						
@@ -152,8 +150,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149045	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 149045	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 149046	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-149046	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-149046	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 149047	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 149047	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 149048	wš	?	?	?	?	DULAT: NOT FOUND
@@ -167,7 +163,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149054	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 149055	w	w	w	conj.	and	
 149056	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-149056	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+149056	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 149057	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.46 16						
 149058	w	w	w	conj.	and	
@@ -176,7 +172,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149060	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 149060	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 149061	ugrt	ugrt/	ủgrt	TN	Ugarit	
-149062	kbdm	kbd(I)/m	kbd (I)	n. du.	liver	
+149062	kbdm	kbd(I)	kbd (I)		liver	
 149063	w	w	w	conj.	and	
 149064	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 # KTU 1.46 17						

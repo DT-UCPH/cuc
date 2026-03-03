@@ -61,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150525	ydk	yd(II)/+k=	yd (II)	n. m.	love	
 150525	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 150525	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
-150526	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
+150526	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
 150527	w	w	w	conj.	and	
 150528	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 150529	b	b	b	prep.	in	
@@ -89,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150539	ydk	yd(II)/+k=	yd (II)	n. m.	love	
 150539	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 150539	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
-150540	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
+150540	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
 150541	w	w	w	conj.	and	
 150542	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 150543	b	b	b	prep.	in	
@@ -130,7 +130,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150559	ydk	yd(II)/+k=	yd (II)	n. m.	love	
 150559	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 150559	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
-150560	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
+150560	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
 150561	w	w	w	conj.	and	
 150562	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 150563	b	b	b	prep.	in	
@@ -246,14 +246,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150617	k	k(II)	k (II)	emph. functor	yes	
 150618	xxxxxˤbd	?	?	?	?	DULAT: NOT FOUND
 150619	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
+150620	gd	g/+d	g	n. m.	(loud) voice, ?	
 150620	gd	gd(I)/	gd (I)	n. m.	coriander	
-150620	gd	ṯigt/+d	ṯỉgt	n. f.	neighing, ?	
 150620	gd	gd(II)/	gd (II)	n. m.	sinew	
 150621	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg.	massif	
 # KTU 1.85 21						
 150622	w	w	w	conj.	and	
 150623	šxxxxx	?	?	?	?	DULAT: NOT FOUND
 150624	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+150624	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+150624	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 150625	xxxxx	?	?	?	?	
 # KTU 1.85 22						
 150626	ydk	yd(I)/+k	yd (I)	n. f.	hand	
@@ -262,7 +264,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150626	ydk	yd(II)/+k=	yd (II)	n. m.	love	
 150626	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 150626	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
-150627	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
+150627	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
 150628	w	w	w	conj.	and	
 150629	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 150630	b	b	b	prep.	in	
@@ -288,12 +290,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150643	w	w	w	conj.	and	
 # KTU 1.85 25						
 150644	tmṯl	tmṯl/	tmṯl	n. m. sg.	equal amount	
+150645	gd	g/+d	g	n. m.	(loud) voice, ?	
 150645	gd	gd(I)/	gd (I)	n. m.	coriander	
-150645	gd	ṯigt/+d	ṯỉgt	n. f.	neighing, ?	
 150645	gd	gd(II)/	gd (II)	n. m.	sinew	
 150646	w	w	w	conj.	and	
 150647	tmṯl	tmṯl/	tmṯl	n. m. sg.	equal amount	
-150648	ṯmrg	ṯmr/	ṯmr	n. m. sg.	fennel	
+150648	ṯmrg	ṯmr/	ṯmr	n. m.	fennel	
 150649	xxxx	?	?	?	?	
 # KTU 1.85 26						
 150650	w	w	w	conj.	and	
@@ -325,7 +327,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150666	ydk	yd(II)/+k=	yd (II)	n. m.	love	
 150666	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 150666	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
-150667	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
+150667	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
 # KTU 1.85 29						
 150668	w	w	w	conj.	and	
 150669	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
@@ -349,7 +351,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150682	qmḥ	qmḥ/	qmḥ	n. m. sg.	flour	
 150683	bql	bql/	bql	n. m. sg.	malt	
 150684	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
-150685	aḥdh	aḥd/+h	ảḥd	adj. num./adv. num.	one	
+150685	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
 150686	b	b	b	prep.	in	
 150687	aph	ap(I)+h	ảp (I)	adv./conj.	also	
 150687	aph	ap(II)/+h	ảp (II)	n. m.	nose	

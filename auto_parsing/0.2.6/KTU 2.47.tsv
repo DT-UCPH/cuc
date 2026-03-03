@@ -18,8 +18,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158329	anyt	any(t/t	ảny(t)	n. f. pl.	ship	
 158330	tšknn	!t!škn[n:d	/š-k-n/	vb D	to be placed	
 # KTU 2.47 I:4						
-158331	ḫmšm	ḫmš(I)/m	ḫmš (I)	n. pl. num.	five	
-158331	ḫmšm	ḫmšm/	ḫmšm	n. num.	fifty	
+158331	ḫmšm	ḫmš(I)/	ḫmš (I)	num.	five	
+158331	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	
 158332	l	l(I)	l (I)	prep.	to	
 158332	l	l(III)	l (III)	functor	certainly	
 158333	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
@@ -52,7 +52,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158351	xx	?	?	?	?	
 # KTU 2.47 I:10						
 158352	xxx	?	?	?	?	
-158353	špš	špš/	špš	n. sg.	sun	
+158353	špš	špš/	špš	n. f. sg.	sun	
 # KTU 2.47 I:11						
 158354	xx	?	?	?	?	
 # KTU 2.47 I:12						
@@ -85,6 +85,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158369	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 158369	št	št(I)/	št (I)	n. m. sg.	base	
 158370	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+158370	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+158370	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 158371	ḫrdh	ḫrd/h	ḫrd	n. m. sg.	(royal) guard	
 # KTU 2.47 II:5						
 158372	špḥ	špḥ/	špḥ	n. m.	family	
@@ -109,7 +111,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158383	xxr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:9						
 158384	ymm	ym(I)/m	ym (I)	n. m. pl. / n. m. du.	day	
-158384	ymm	ym(II)/	ym (II)	n. m. sg.	sea	
+158384	ymm	ym(II)/~m	ym (II)	n. m. sg.	sea	
 158385	w	w	w	conj.	and	
 158386	xxp	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:10						

@@ -18,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158693	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 158694	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.63 5						
-158695	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+158695	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 158696	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.63 6						
 158697	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
@@ -30,7 +30,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158700	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 # KTU 2.63 8						
 158701	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
-158701	šil	!!š(ʔ&il[/	/š-ʔ-l/	vb G inf.	to ask	
 158701	šil	šil(I)/	šỉl (I)	n. m. sg.	interrogator	
 158702	šlmy	šlm(I)/+y	šlm (I)	n. m.	peace	
 158702	šlmy	šlmy(II)/	šlmy (II)	GN	šlmy (II)	
@@ -49,7 +48,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158709	ˤxxxnxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.63 12						
 158710	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
-158710	šil	!!š(ʔ&il[/	/š-ʔ-l/	vb G inf.	to ask	
 158710	šil	šil(I)/	šỉl (I)	n. m. sg.	interrogator	
 158711	š	š/	š	n. m. sg.	ram	
 # KTU 2.63 13						

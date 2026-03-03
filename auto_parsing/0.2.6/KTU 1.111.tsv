@@ -5,11 +5,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153513	lmd	lmd/	lmd	adj. m. or n. m. sg. / adj. m. or n. m. pl. cstr.	trained	
 153513	lmd	lmd[:d	/l-m-d/	vb D suffc.	to teach	
 # KTU 1.111 2						
-153514	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+153514	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 153514	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-153514	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+153514	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 153515	ymm	ym(I)/m	ym (I)	n. m. pl. / n. m. du.	day	
-153515	ymm	ym(II)/	ym (II)	n. m. sg.	sea	
+153515	ymm	ym(II)/~m	ym (II)	n. m. sg.	sea	
 153516	llxm	?	?	?	?	DULAT: NOT FOUND
 153517	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 # KTU 1.111 3						
@@ -28,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153527	prznd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 6						
 153528	nkld	!n!](n]kl(y[+d	/k-l-y/	vb N suffc.	to finish, ?	
-153529	šrpm	šrp/	šrp	n. m. sg.	burnt sacrifice	
+153529	šrpm	šrp/~m	šrp	n. m. sg.	burnt sacrifice	
 153530	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 # KTU 1.111 7						
 153531	gdm	gd(I)/m	gd (I)	n. m. pl.	coriander	
@@ -58,25 +58,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 13						
 153549	xxxx	?	?	?	?	
 # KTU 1.111 14						
-153550	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+153550	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 153551	x	?	?	?	?	
 # KTU 1.111 15						
 153552	wb	?	?	?	?	DULAT: NOT FOUND
 153553	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-153553	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+153553	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 153553	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 153554	alpm	alp(I)/m	ảlp (I)	n. m. pl. / n. m. du.	(head of) cattle	
 153554	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 # KTU 1.111 16						
 153555	b	b	b	prep.	in	
-153556	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+153556	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 153556	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-153556	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+153556	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 153557	dqr	dqr/	dqr	n. m. sg.	Topf	
 153558	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
 153558	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
 # KTU 1.111 17						
-153559	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+153559	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 153560	alpm	alp(I)/m	ảlp (I)	n. m. pl. / n. m. du.	(head of) cattle	
 153560	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 153561	l	l(I)	l (I)	prep.	to	

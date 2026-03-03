@@ -25,8 +25,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161203	bty	bt(II)/+y	bt (II)	n. m.	house	
 # KTU 3.9 9						
 161204	ksp	ksp/	ksp	n. m. sg.	silver	
-161205	ḫmšm	ḫmš(I)/m	ḫmš (I)	n. pl. num.	five	
-161205	ḫmšm	ḫmšm/	ḫmšm	n. num.	fifty	
+161205	ḫmšm	ḫmš(I)/	ḫmš (I)	num.	five	
+161205	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	
 # KTU 3.9 10						
 161206	isˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 11						
@@ -45,7 +45,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.9 13						
 161213	mt	mt(II)/	mt (II)	n. m. sg.	death	
 161213	mt	mt[	/m-t/	vb G suffc.	to die	
-161213	mt	!!mt[/	/m-t/	vb G inf.	to die	
 161213	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 161213	mt	mt(III)/	mt (III)	n. m. sg. / n. m. pl. cstr.	man	
 161214	mrzḥ	mrzḥ/	mrzḥ	n. m.	cultic association	

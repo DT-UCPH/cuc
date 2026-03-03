@@ -9,17 +9,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154106	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 154107	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.118 5						
-154108	bˤlm	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
+154108	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 1.118 6						
-154109	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+154109	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.118 7						
 154110	bˤlmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.118 8						
-154111	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+154111	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.118 9						
-154112	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+154112	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.118 10						
-154113	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+154113	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.118 11						
 154114	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 154115	w	w	w	conj.	and	
@@ -31,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.118 14						
 154119	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.118 15						
-154120	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+154120	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 # KTU 1.118 16						
 154121	pdry	pdry/	pdry	DN	Pidray	
 154121	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
@@ -47,7 +47,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154126	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 154126	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.118 21						
-154127	špš	špš/	špš	n. sg.	sun	
+154127	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.118 22						
 154128	arṣy	arṣ/+y	ảrṣ	n. f.	earth	
 154128	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
@@ -65,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154135	ddmš	ddmš/	ddmš	DN	ddmš	
 # KTU 1.118 28						
 154136	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
-154137	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+154137	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.118 29						
 154138	ym	ym(I)/	ym (I)	n. m. sg.	day	
 154138	ym	ym(II)/	ym (II)	n. m. sg.	sea	

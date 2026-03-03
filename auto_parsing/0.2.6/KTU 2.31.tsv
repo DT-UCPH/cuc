@@ -83,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157303	xxx	?	?	?	?	
 157304	xxx	?	?	?	?	
 157305	xxxṯbr	?	?	?	?	DULAT: NOT FOUND
-157306	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+157306	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 157307	r	?	?	?	?	
 # KTU 2.31 19						
 157308	xxx	?	?	?	?	
@@ -110,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157322	xlm	?	?	?	?	DULAT: NOT FOUND
 157323	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 24						
-157324	ḥ	lqḥ[	/l-q-ḥ/	vb G suffc. / vb N suffc.	to get hold of	
+157324	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
 157325	asrm	asr/m	ảsr	n. m. pl.	prisoner	
 # KTU 2.31 25						
 157326	dbḥn	dbḥ/	dbḥ	n. m. sg.	sacrifice	
@@ -127,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 29						
 157334		?	?	?	?	
 # KTU 2.31 30						
-157335	m	l(I)	l (I)	prep.	to	
+157335	m	mt(II)/	mt (II)	n. m.	death	
 # KTU 2.31 31						
 157336	q	?	?	?	?	
 157337	mrkbt	mrkb(t/t	mrkbt	n. f. sg.	(light war-)chariot	
@@ -244,7 +244,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157413	b	b	b	prep.	in	
 157414	dmt	dm(t(I)/t	dmt (I)	n. f. sg.	tower	
 157415	um	um/	ủm	n. f. sg.	mother	
-157416	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+157416	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 2.31 49						
 157417	xxx	?	?	?	?	
 157418	xxxxḏḏyn	?	?	?	?	DULAT: NOT FOUND

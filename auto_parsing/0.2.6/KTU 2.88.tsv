@@ -28,8 +28,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159773	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
 159773	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 # KTU 2.88 5						
-159774	hnd	hnd	hnd	dem. adj./pn.	this	
-159775	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
+159774	hnd	hnd	hnd	dem.	this	
+159775	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+159775	ˤmk	ˤm(II)/	ʕm (II)	n. m.	lineage	
 159776	w	w	w	conj.	and	
 159777	bym	b+m(I)	b	prep.	in	
 # KTU 2.88 6						
@@ -40,15 +41,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 7						
 159782	btt	?	?	?	?	DULAT: NOT FOUND
 159783	w	w	w	conj.	and	
-159784	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+159784	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 159785	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. pl.	to sweep	
 # KTU 2.88 8						
 159786	adnyh	adn(I)&y/+h	ảdn (I)	n. m.	lord	
 159786	adnyh	adny/	ảdny	TN	ảdny	
 159787	b	b	b	prep.	in	
-159788	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+159788	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 159788	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-159788	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+159788	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 # KTU 2.88 9						
 159789	snġr	snġr/	snġr	TN	snġr	
 159790	b	b	b	prep.	in	
@@ -87,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 16						
 159812	w	w	w	conj.	and	
 159813	btk	bt(II)/+k	bt (II)	n. m.	house	
-159814	aḥd	aḥd/	ảḥd	adj. sg. num./adv. num.	one	
+159814	aḥd	aḥd/	ảḥd	adj. sg./num.	one	
 159814	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc.	to see	
 159814	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
 # KTU 2.88 17						
@@ -136,7 +137,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159842	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 # KTU 2.88 25						
 159843	bk	b	b	prep.	in	
-159844	ankm	ank	ảnk	pers. pn.	I	
+159844	ankm	ank~m	ảnk	pers. pn.	I	
 159845	ilak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
 # KTU 2.88 26						
 159846	w	w	w	conj.	and	

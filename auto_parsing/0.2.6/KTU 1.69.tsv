@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 1						
 149508	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg.	fortress	
-149509	bltn	bl(I)+n	bl (I)	adv. or emph. functor	no	
+149509	bltn	bl(I)+n	bl (I)	adv. /emph. functor	no	
 149509	bltn	blt[+n	/b-l-t/	vb G suffc.	to open wide	
 149509	bltn	bly[+n	/b-l-y/	vb	to devour	
 149510	i	i(I)	ỉ (I)	interj.	woe	
@@ -23,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149517	ll	ll(I)/	ll (I)	n. m. sg.	night	
 149518	irbt	?	?	?	?	DULAT: NOT FOUND
 149519	ryb	?	?	?	?	DULAT: NOT FOUND
-149520	g	ṯig(t/t	ṯỉgt	n. f. sg.	neighing	
+149520	g	g/	g	n. m.	(loud) voice	
 # KTU 1.69 4						
 149521	t	/t, /t=				
 149521	t	[t, [t=, [t==, [t===				
@@ -70,7 +70,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 11						
 149544	nu	?	?	?	?	DULAT: NOT FOUND
 149545	bly	ybl[+y	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
-149545	bly	bl(I)+y	bl (I)	adv. or emph. functor	no	
+149545	bly	bl(I)+y	bl (I)	adv. /emph. functor	no	
 149545	bly	bly/	bly	PN	bly	
 # KTU 1.69 12						
 149546	x	?	?	?	?	

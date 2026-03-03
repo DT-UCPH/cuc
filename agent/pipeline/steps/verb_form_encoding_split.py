@@ -24,6 +24,7 @@ _FORM_FINITE_RE = re.compile(r"(?:\bprefc\.|\bsuffc\.|\bimpv\.)", flags=re.IGNOR
 _LETTER_RE = re.compile(r"[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]")
 _I_ALEPH_DULAT_RE = re.compile(r"^\s*/ʔ-")
 _I_ALEPH_SURFACE_VOWELS = frozenset({"a", "i", "u", "ả", "ỉ", "ủ"})
+_ROOT_TOKEN_RE = re.compile(r"^/([^/]+)/")
 
 
 def _split_semicolon(value: str) -> list[str]:
@@ -129,6 +130,56 @@ def _surface_tail_matches_analysis(surface: str, analysis: str) -> bool:
     return _target_matches_analysis(text[1:], analysis)
 
 
+def _variant_root_radicals(dulat_var: str) -> tuple[str, str, str] | None:
+    token = (dulat_var or "").strip()
+    if not token:
+        return None
+    if "," in token:
+        token = token.split(",", 1)[0].strip()
+    match = _ROOT_TOKEN_RE.match(token)
+    if not match:
+        return None
+    parts = [part.strip() for part in match.group(1).split("-") if part.strip()]
+    if len(parts) != 3:
+        return None
+    if not all(_LETTER_RE.search(part) for part in parts):
+        return None
+    return parts[0], parts[1], parts[2]
+
+
+def _restore_weak_final_nonfinite_core(surface: str, core: str, dulat: str) -> str | None:
+    radicals = _variant_root_radicals(dulat)
+    if radicals is None:
+        return None
+    _first, _second, third = radicals
+    if third not in {"y", "w"}:
+        return None
+
+    for text in _nonfinite_core_variants(core):
+        bracket_idx = text.find("[")
+        if bracket_idx == -1:
+            continue
+        prefix = text[:bracket_idx]
+        suffix = text[bracket_idx:]
+
+        homonym = ""
+        match = re.search(r"\(([IVX]+)\)$", prefix)
+        if match:
+            homonym = match.group(0)
+            host = prefix[: match.start()]
+        else:
+            host = prefix
+
+        if host.endswith(third) or f"({third}" in host:
+            continue
+
+        candidate = f"{host}({third}{homonym}{suffix}"
+        if _target_matches_analysis(surface, candidate):
+            return candidate
+
+    return None
+
+
 def _nonfinite_core_variants(core: str) -> list[str]:
     text = (core or "").strip()
     if not text:
@@ -192,6 +243,10 @@ def _canonicalize_nonfinite_core(surface: str, analysis: str, dulat: str) -> str
     aleph_restored = _restore_i_aleph_nonfinite_core(surface, stripped, dulat)
     if aleph_restored is not None:
         return aleph_restored
+
+    weak_final_restored = _restore_weak_final_nonfinite_core(surface, stripped, dulat)
+    if weak_final_restored is not None:
+        return weak_final_restored
 
     stripped = _promote_leading_reconstructed_letter(stripped)
     if _surface_matches_analysis(surface, stripped):

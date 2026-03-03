@@ -29,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 8						
 154577	w	w	w	conj.	and	
 154578	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-154578	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+154578	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.130 9						
 154579	l	l(I)	l (I)	prep.	to	
 154579	l	l(III)	l (III)	functor	certainly	
@@ -66,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 16						
 154598	b	b	b	prep.	in	
 154599	ymmlatalpm	?	?	?	?	DULAT: NOT FOUND
-154600	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+154600	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 # KTU 1.130 17						
 154601	nbšt	nbš(t/t	nbšt	n. f. sg.	living being(s)	
 154601	nbšt	nbš(t/t=	nbšt	n. f. sg.	living being(s)	
@@ -87,7 +87,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154612	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
 # KTU 1.130 20						
 154613	w	w	w	conj.	and	
-154614	kbdm	kbd(I)/m	kbd (I)	n. du.	liver	
+154614	kbdm	kbd(I)	kbd (I)		liver	
 154615	l	l(I)	l (I)	prep.	to	
 154615	l	l(III)	l (III)	functor	certainly	
 154616	kṯrt	kṯrt/	kṯrt	DN	Swallows	
@@ -110,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 24						
 154629	w	w	w	conj.	and	
 154630	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-154630	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+154630	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 154631	l	l(I)	l (I)	prep.	to	
 154632	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 154633	ugrt	ugrt/	ủgrt	TN	Ugarit	
@@ -126,7 +126,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154639	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154640	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 154641	ugrt	ugrt/	ủgrt	TN	Ugarit	
-154642	kbdm	kbd(I)/m	kbd (I)	n. du.	liver	
+154642	kbdm	kbd(I)	kbd (I)		liver	
 # KTU 1.130 27						
 154643	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 154644	ilib	ilib(I)/	ỉlỉb (I)	DN	father god	

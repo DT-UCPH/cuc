@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152627	iršt	irš(t/t	ỉršt	n. f. sg.	request	
 # KTU 1.104 2						
 152628	d	d	d	det. or rel. functor	the one(s) of	
-152629	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+152629	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 152630	pd	pd(I)/	pd (I)	n. m. sg.	lock (of hair)	
 # KTU 1.104 3						
 152631	d	d	d	det. or rel. functor	the one(s) of	
@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152634	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 152635	x	?	?	?	?	
 # KTU 1.104 5						
-152636	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+152636	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 152636	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 152636	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 152637		?	?	?	?	
@@ -26,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152641	b	b	b	prep.	in	
 152642	ym	ym(I)/	ym (I)	n. m. sg.	day	
 152642	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-152643	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+152643	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 152643	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 152643	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 # KTU 1.104 8						
@@ -66,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 15						
 152663	w	w	w	conj.	and	
 152664	bym	b+m(I)	b	prep.	in	
-152665	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+152665	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 152665	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 152665	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 # KTU 1.104 16						
@@ -81,7 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152671	ḥdṯn	ḥdṯn/	ḥdṯn	PN	born at the time of the new moon	
 # KTU 1.104 18						
 152672	ṯnm	ṯn(I)/	ṯn (I)	num.	two	
-152672	ṯnm	ṯny[	/ṯ-n-y/	vb G impv.	to repeat	
+152672	ṯnm	ṯn[~m	/ṯ-n-y/	vb G impv.	to repeat	
 152673	w	w	w	conj.	and	
 152674	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m.	new moon	
 152674	ḥdṯh	ḥdṯ(I)/+h	ḥdṯ (I)	adj.	new	
@@ -97,7 +97,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152680	wm	w+m(I)	w	conj., morph.	and	
 152681	bt	bt(II)/	bt (II)	n. m. sg.	house	
 152681	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-152682	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+152682	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 152683	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 1.104 22						
 152684	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
@@ -119,8 +119,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 28						
 152694	ḫx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.104 29						
-152695	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+152695	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 152695	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-152695	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+152695	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 152696	l	l(I)	l (I)	prep.	to	
 152696	l	l(III)	l (III)	functor	certainly	

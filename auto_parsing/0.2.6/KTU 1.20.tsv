@@ -60,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146733	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 146734	ndd	ndd[	/n-d-d/	vb G suffc.	to go	
 146734	ndd	!!ndd[/	/n-d-d/	vb G inf.	to go	
-146735	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+146735	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 146736	mrkbt	mrkb(t/t	mrkbt	n. f. sg.	(light war-)chariot	
 146736	mrkbt	mrkb(t/t=	mrkbt	n. f. sg.	(light war-)chariot	
 # KTU 1.20 II:3						
@@ -81,14 +81,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146747	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 146748	w	w	w	conj.	and	
 146749	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-146749	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+146749	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 146749	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 146750	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
-146751	špšm	špš/	špš	n. sg.	sun	
+146751	špšm	špš/~m	špš	n. f. sg.	sun	
 146752	b	b	b	prep.	in	
-146753	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+146753	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 146753	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-146753	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+146753	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 # KTU 1.20 II:6						
 146754	mġy	mġy[	/m-ġ-y/	vb G suffc.	to come	
 146754	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
@@ -96,7 +96,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146756	l	l(I)	l (I)	prep.	to	
 146756	l	l(III)	l (III)	functor	certainly	
 146757	grnt	grn(I)/t=	grn (I)	n. f. pl.	threshing-floor	
-146758	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+146758	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 146759	l	l(I)	l (I)	prep.	to	
 146759	l	l(III)	l (III)	functor	certainly	
 # KTU 1.20 II:7						
@@ -109,7 +109,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146763	dnil	dnil/	dnỉl	PN	Raphaite	
 146764	mt	mt(II)/	mt (II)	n. m. sg.	death	
 146764	mt	mt[	/m-t/	vb G suffc.	to die	
-146764	mt	!!mt[/	/m-t/	vb G inf.	to die	
 146764	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 146764	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 146765	rpi	rp(u/&i	rpủ	n. m. sg. / n. m. pl.	healer	
@@ -119,14 +118,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146767	ġzr	ġzr/	ġzr	n. m. sg.	lad	
 146768	mt	mt(II)/	mt (II)	n. m. sg.	death	
 146768	mt	mt[	/m-t/	vb G suffc.	to die	
-146768	mt	!!mt[/	/m-t/	vb G inf.	to die	
 146768	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 146768	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 146769	hrnmy	hrnmy/	hrnmy	GN	native of the TN *hrnm	
 # KTU 1.20 II:9						
 146770	b	b	b	prep.	in	
 146771	grnt	grn(I)/t=	grn (I)	n. f. pl.	threshing-floor	
-146772	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+146772	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 146773	b	b	b	prep.	in	
 146774	qrb	qrb/	qrb	n. m. sg.	inside	
 146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg.	plantation	

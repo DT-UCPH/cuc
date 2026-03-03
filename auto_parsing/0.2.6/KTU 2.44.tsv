@@ -22,14 +22,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.44 4						
 158223	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 158224	lk	l(I)+k	l (I)	prep.	to	
-158225	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+158225	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 2.44 5						
 158226	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 158227	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.44 6						
 158228	kxx	?	?	?	?	DULAT: NOT FOUND
 158229	yxxx	?	?	?	?	DULAT: NOT FOUND
-158230	špš	špš/	špš	n. sg.	sun	
+158230	špš	špš/	špš	n. f. sg.	sun	
 # KTU 2.44 7						
 158231	klx	?	?	?	?	DULAT: NOT FOUND
 158232	yxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
@@ -43,9 +43,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158236	p	p(I)	p (I)	conj. functor	and	
 158236	p	p(III)/	p (III)	n. m.	mouth	
 158236	p	p(II)	p (II)	adv.	here	
-158237	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+158237	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 158238	w	w	w	conj.	and	
-158239	špš	špš/	špš	n. sg.	sun	
+158239	špš	špš/	špš	n. f. sg.	sun	
 # KTU 2.44 10						
 158240	hmt	hmt	hmt	pers. pn.		
 158241	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	

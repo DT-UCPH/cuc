@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159976	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.90 4						
 159977	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
-159978	hn	hn	hn	deictic functor/adv.	behold!	
+159978	hn	hn	hn	functor	behold!	
 159979	bnšk	bnš/+k	bnš	n. m.	man	
 # KTU 2.90 5						
 159980	d	d	d	det. or rel. functor	the one(s) of	
@@ -30,21 +30,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.90 8						
 159988	w	w	w	conj.	and	
 159989	ht	ht	ht	adv.	here	
-159990	hn	b	b	prep.	in	
 159990	hn	w	w	conj.	and	
-159990	hn	hn	hn	deictic functor/adv.	behold!	
+159990	hn	hn	hn	functor	behold!	
+159990	hn	hnny	hnny	adv.	here	
 159991	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 159992	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 9						
 159993	b	b	b	prep.	in	
-159994	gty	gt/+y	gt	n. f./element of TNN	gittu	
+159994	gty	gt/+y	gt	n. f./TNN	gittu	
 159995	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc.	to flee	
 159995	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg.	to flee	
 159995	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg.	emancipated	
 # KTU 2.90 10						
 159996	w	w	w	conj.	and	
 159997	ht	ht	ht	adv.	here	
-159998	hn	hn	hn	deictic functor/adv.	behold!	
+159998	hn	hn	hn	functor	behold!	
 159999	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 160000	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 11						
@@ -62,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160008	ḫrdk	ḫrd/	ḫrd	n. m. sg.	(royal) guard	
 160009	yuḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
 # KTU 2.90 15						
-160010	hn	hn	hn	deictic functor/adv.	behold!	
+160010	hn	hn	hn	functor	behold!	
 160011	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
 160012	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 16						

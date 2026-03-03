@@ -14,17 +14,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148784	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 148785	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 148785	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-148786	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+148786	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 148786	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 148786	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
-148787	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+148787	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 148787	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 148787	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 148788	b	b	b	prep.	in	
 148789	gb	gb(I)/	gb (I)	n. m. sg.	pit	
 148790	bt	bt(II)/	bt (II)	n. m. sg.	house	
 148790	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-148791	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+148791	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.43 3						
 148792	kbkbm	kbkb/m	kbkb	n. m. pl. / n. m. du.	heavenly body	
 148793	xtrmt	?	?	?	?	DULAT: NOT FOUND
@@ -36,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148797	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg.	ein Gewand	
 # KTU 1.43 5						
 148798	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
-148799	ṯlṯt	ṯlṯ(I)/t	ṯlṯ (I)	n. nuf. sg.	three	
+148799	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	nuf.	three	
 148800	mzn	mzn/	mzn	n. m. sg.	weight	
 # KTU 1.43 6						
 148801	drk	dr/	dr	n. m. pl.	circle	
@@ -48,19 +48,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.43 7						
 148806	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg.	ewe	
 148807	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148807	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-148808	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+148807	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+148808	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 148809	pamt	pa/m	pảm(t)	n. f. pl.	time	
 # KTU 1.43 8						
 148810	l	l(I)	l (I)	prep.	to	
 148810	l	l(III)	l (III)	functor	certainly	
-148811	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-148812	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+148811	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
+148812	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 148813	l	l(I)	l (I)	prep.	to	
 148813	l	l(III)	l (III)	functor	certainly	
-148814	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+148814	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 # KTU 1.43 9						
-148815	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+148815	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 148816	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 148817	gṯrm	gṯr/+m(I)	gṯr	DN	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 10						
@@ -72,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148821	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 # KTU 1.43 11						
 148822	l	l(I)	l (I)	prep.	to	
-148823	špš	špš/	špš	n. sg.	sun	
+148823	špš	špš/	špš	n. f. sg.	sun	
 148824	w	w	w	conj.	and	
 148825	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
 148826	l	l(I)	l (I)	prep.	to	
@@ -94,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148837	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 # KTU 1.43 14						
 148838	l	l(I)	l (I)	prep.	to	
-148839	špš	špš/	špš	n. sg.	sun	
+148839	špš	špš/	špš	n. f. sg.	sun	
 148840	wyrḫ	?	?	?	?	DULAT: NOT FOUND
 148841	l	l(I)	l (I)	prep.	to	
 148841	l	l(III)	l (III)	functor	certainly	
@@ -170,10 +170,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148884	ylk	hlk[	/h-l-k/	vb G prefc.	to go	
 148885	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc.	to get hold of	
 148885	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
-148886	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+148886	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.43 24						
 148887	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-148888	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+148888	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 148889	ylk	hlk[	/h-l-k/	vb G prefc.	to go	
 148890	pˤnm	pˤn/m	pʕn	n. f. du.	foot	
 # KTU 1.43 25						

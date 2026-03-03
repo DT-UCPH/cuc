@@ -41,8 +41,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 8						
 153375	w	w	w	conj.	and	
 153376	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-153376	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-153376	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 153377	w	w	w	conj.	and	
 153378	š	š/	š	n. m. sg.	ram	
 153379	l	l(I)	l (I)	prep.	to	
@@ -52,8 +50,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153380	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
 153380	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 153381	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-153381	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-153381	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 # KTU 1.109 9						
 153382	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 153382	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
@@ -69,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153390	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 153391	w	w	w	conj.	and	
 153392	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153392	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153392	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.109 11						
 153393	kmm	kmm	kmm	adv.	ditto	
 153394	w	w	w	conj.	and	
@@ -107,7 +103,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153414	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 153415	w	w	w	conj.	and	
 153416	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153416	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153416	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 153417	ilib	ilib(I)/	ỉlỉb (I)	DN	father god	
 153418	š	š/	š	n. m. sg.	ram	
 # KTU 1.109 16						
@@ -163,7 +159,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153453	š	š/	š	n. m. sg.	ram	
 # KTU 1.109 23						
 153454	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153454	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153454	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.109 24						
 153455	w	w	w	conj.	and	
 153456	šnpt	šnp(t/t	šnpt	n. f. sg.	wave- offering	
@@ -177,7 +173,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153460	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 153461	ḥlš	ḥlš/	ḥlš	n. m. sg.	appellative or place name	
 153462	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-153462	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+153462	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 153462	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 153463	šm	š/m	š	n. m. du.	ram	
 153463	šm	šm(I)/	šm (I)	n. m. sg.	name	
@@ -199,7 +195,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153473	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 153474	w	w	w	conj.	and	
 153475	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153475	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153475	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 153476	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.109 29						
 153477	l	l(I)	l (I)	prep.	to	
@@ -217,8 +213,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153486	bˤlt	bˤl(t/t	bʕlt	n. f. sg.	lady	
 153487	bhtm	bt(II)/	bt (II)	n. m. pl.	house	
 # KTU 1.109 32						
-153488	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
-153489	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+153488	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
+153489	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 153490	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 153490	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 153491	l	l(I)	l (I)	prep.	to	
@@ -250,4 +246,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153509	ṣpnxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.109 37						
 153510	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153510	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153510	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	

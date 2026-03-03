@@ -6,11 +6,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152310	k	k(III)	k (III)	Subordinating or completive functor	when	
 152311	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
 152312	at	at(I)	ảt (I)	pers. pn.	you	
-152312	at	ṯat/	ṯảt	n. f. pl.	ewe	
+152312	at	ṯa(t/t	ṯảt	n. f. sg.	ewe	
 152312	at	a(t(II)/t	ảt (II)	n. f. sg.	prodigious	
 152313	abn	ab/+n	ảb	n. m.	father	
 152313	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
-152313	abn	!(ʔ&a!bn[	/b-n/	vb G impv.	to understand	
+152313	abn	!(ʔ&a!bn[	/b-n/	vb G prefc.	to understand	
 152314	madtn	mad(t(I)/t+n	mảdt (I)	n. f. sg.	great quantity	
 152315	tqln	!t!ql[n	/q-l/	vb G prefc.	to fall (down)	
 152316	bḥwt	?	?	?	?	DULAT: NOT FOUND
@@ -24,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152321	bhmth	bhm(t/t+h	bhmt	n. f. sg.	cattle	
 152322	tˤṭpn	!t!ˤṭp[n	/ʕ-ṭ-p/	vb	to be weak	
 # KTU 1.103 3						
-152323	gm	g/	g	n. m. sg.	(loud) voice	
+152323	gm	g/~m	g	n. m. sg.	(loud) voice	
 152323	gm	gm(II)	gm (II)	adv.	also	
 152324	ššxx	?	?	?	?	DULAT: NOT FOUND
 152325	rġbn	rġbn/	rġbn	n. m. sg.	hunger	
@@ -52,7 +52,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152341	ḥwtntḫlq	?	?	?	?	DULAT: NOT FOUND
 152342	mt	mt(II)/	mt (II)	n. m. sg.	death	
 152342	mt	mt[	/m-t/	vb G suffc.	to die	
-152342	mt	!!mt[/	/m-t/	vb G inf.	to die	
 152342	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 152342	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 152343	n	~n	-n (I)	encl. morph.		
@@ -144,7 +143,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152405	bhmt	bhm(t/t	bhmt	n. f. sg.	cattle	
 152406	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 # KTU 1.103 17						
-152407	ḥ	lqḥ[	/l-q-ḥ/	vb G suffc. / vb N suffc.	to get hold of	
+152407	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
 152408	ṯnn	ṯnn(I)/	ṯnn (I)	n. m. sg.	archer	
 152409	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc.	to be strong	
 152409	ˤz	ˤz(III)/	ʕz (III)	adj. m. or n. m. sg.	strong	
@@ -299,7 +298,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152509	ap	ap(I)	ảp (I)	adv./conj.	also	
 152509	ap	ap(II)/	ảp (II)	n. m.	nose	
 152510	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg.	bird	
-152511	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+152511	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 152512	tbˤrn	!t!bˤr(II)[n:d	/b-ʕ-r/ (II)	vb D suffc.	to abandon	
 152513	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 # KTU 1.103 42						
@@ -311,7 +310,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152517	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 152517	št	št(I)/	št (I)	n. m. sg.	base	
 152518	w	w	w	conj.	and	
-152519	ydu	ydu[/	/d-ʔ-y/	vb G act. ptcpl. f.	to fly	
+152519	ydu	dʔy[	/d-ʔ-y/	vb G suffc.	to fly	
 152519	ydu	ndʔ[	/n-d-ʔ/	vb G suffc.	to frighten away	
 # KTU 1.103 43						
 152520	w	w	w	conj.	and	
@@ -332,7 +331,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152531	bšbrh	?	?	?	?	DULAT: NOT FOUND
 152532	yṣu	!y!(yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 152532	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg.	exit	
-152533	špšn	špš/	špš	n. sg.	sun	
+152533	špšn	špš/	špš	n. f. sg.	sun	
 152534	tpšlt	tpšl(t/t	tpšlt	n. f. sg.	oppression	
 152535	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 152535	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb D suffc. / vb Dpass suffc.	to live	
@@ -346,7 +345,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152542	yddll	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 47						
 152543	w	w	w	conj.	and	
-152544	gdl	gdl(II)/	gdl (II)	n. m. sg. subst.	fully grown	
+152544	gdl	gdl(II)/	gdl (II)	n. m. sg./subst.	fully grown	
 152545	ušrh	ušr/+h	ủšr	n. m. sg.	penis	
 152546	mrḥy	mrḥ/y	mrḥ	n. f. pl.	lance	
 152547	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
@@ -420,7 +419,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 56						
 152598	w	w	w	conj.	and	
 152599	ˤql	?	?	?	?	DULAT: NOT FOUND
-152600	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+152600	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 152601	tbˤrn	!t!bˤr(II)[n:d	/b-ʕ-r/ (II)	vb D suffc.	to abandon	
 152602	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 152602	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb D suffc. / vb Dpass suffc.	to live	
@@ -432,6 +431,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152607	mlkn	mlk(I)	mlk (I)		king	
 152608	yˤzz	!y!ˤz[z	/ʕ-z(-z)/	vb G prefc.	to be strong	
 152609	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+152609	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+152609	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 152610	ḫpṯh	ḫpṯ/h	ḫpṯ	n. m. sg.	fugitive	
 # KTU 1.103 58						
 152611	w	w	w	conj.	and	

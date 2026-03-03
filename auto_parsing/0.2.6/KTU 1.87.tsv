@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150804	l	l(I)	l (I)	prep.	to	
 150805	il	il(I)/	ỉl (I)	n. m.	god	
 150806	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-150806	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+150806	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.87 3						
 150807	bṯlṯt	?	?	?	?	DULAT: NOT FOUND
 150808	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
@@ -35,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150816	argmn	argmn/	ả/ỉrgmn	n. m. sg.	payment of tribute to the Hittite court	
 150817	w	w	w	conj.	and	
 150818	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-150818	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+150818	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 150818	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 150819	šm	š/m	š	n. m. du.	ram	
 150819	šm	šm(I)/	šm (I)	n. m. sg.	name	
@@ -46,14 +46,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150823	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 150824	l	l(I)	l (I)	prep.	to	
 150825	inš	inš/	ỉnš	n. m. sg.	people	
-150826	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+150826	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 150827	w	w	w	conj.	and	
 150828	š	š/	š	n. m. sg.	ram	
 # KTU 1.87 7						
 150829	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
 150830	ilš	ilš(I)/	ỉlš (I)	DN	ỉlš (I)	
 150831	šilhm	š(ʔ&il[+hm	/š-ʔ-l/	vb G prefc.	to ask	
-150831	šilhm	!!š(ʔ&il[/+hm	/š-ʔ-l/	vb G inf.	to ask	
 150831	šilhm	šil(I)/+hm	šỉl (I)	n. m.	interrogator	
 150832	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 150832	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -70,7 +69,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 9						
 150839	ym	ym(I)/	ym (I)	n. m. sg.	day	
 150839	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-150840	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+150840	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 150841	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 # KTU 1.87 10						
 150842	t	/t, /t=				
@@ -112,7 +111,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150864	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f.	goddess	
 150864	ilhm	ilh/+m(I)	ỉlh	DN	the ‘Divine One’	
 # KTU 1.87 14						
-150865	ṯkmn	ṯkmn/	ṯkmn	DN/element of DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+150865	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 150865	ṯkmn	ṯkm/+n	ṯkm	n. m.	shoulder	
 150866	w	w	w	conj.	and	
 150867	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
@@ -126,9 +125,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 15						
 150872	w	w	w	conj.	and	
 150873	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-150873	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+150873	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 150874	dqtm	dqt(I)/m	dqt (I)	adj. f. or n. f. du.	small	
-150875	ilh	il(t(I)/&h	ỉlt (I)	n. f. pl.	goddess	
+150875	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg.	goddess	
 150875	ilh	ilh/	ỉlh	DN	the ‘Divine One’	
 150876	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 150876	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
@@ -149,7 +148,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150884	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 150885	š	š/	š	n. m. sg.	ram	
 # KTU 1.87 17						
-150886	ṯkmn	ṯkmn/	ṯkmn	DN/element of DN	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+150886	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 150886	ṯkmn	ṯkm/+n	ṯkm	n. m.	shoulder	
 150887	w	w	w	conj.	and	
 150888	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
@@ -178,12 +177,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150902	w	w	w	conj.	and	
 150903	burm	?	?	?	?	DULAT: NOT FOUND
 150904	lb	lb/	lb	n. m. sg.	heart	
-150905	rmṣt	rmṣ/t=	rmṣ	n. pl.	embers	
+150905	rmṣt	rmṣ/t=	rmṣ	n. m. pl.	embers	
 150906	ilhm	il(I)/+hm	ỉl (I)	n. m.	god	
 150906	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f.	goddess	
 150906	ilhm	ilh/+m(I)	ỉlh	DN	the ‘Divine One’	
 # KTU 1.87 20						
-150907	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+150907	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 150908	w	w	w	conj.	and	
 150909	mlu	mlu/	mlủ	n. m. sg.	fill	
 150910	dṯt	dṯ(t/t	dṯt	n. f. sg.	fodder or spring grass	
@@ -220,14 +219,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150929	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 150930	w	w	w	conj.	and	
 150931	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-150931	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+150931	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 150931	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 150932	ḥṯm	ḥṯ/+m(I)	ḥṯ	n. m.	unleavened bread	
 # KTU 1.87 24						
 150933	w	w	w	conj.	and	
 150934	bġr	bġr/	bġr	n. m. sg.	shout	
 150935	arbˤ	arbˤ/	ảrbʕ	num.	four	
-150936	ˤšr	ˤšr(I)/	ʕšr (I)	n. sg. num.	ten	
+150936	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
 150936	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 150936	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 150937	kdm	kd(I)/m	kd (I)	n. f. pl. / n. f. du.	jar	
@@ -276,7 +275,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150964	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
 150965	linš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 30						
-150966	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+150966	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 150967	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150967	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 150968	ilhm	il(I)/+hm	ỉl (I)	n. m.	god	
@@ -285,7 +284,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150969	dqt	dq(t(I)/t	dqt (I)	adj. f. or n. f. sg.	small	
 150969	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. sg.	small	
 # KTU 1.87 31						
-150970	špš	špš/	špš	n. sg.	sun	
+150970	špš	špš/	špš	n. f. sg.	sun	
 150971	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150971	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 150972	ršp	ršp/	ršp	DN	Rašap	
@@ -293,10 +292,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 32						
 150974	w	w	w	conj.	and	
 150975	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-150975	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+150975	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 150976	kmm	kmm	kmm	adv.	ditto	
 150977	dqtm	dqt(I)/m	dqt (I)	adj. f. or n. f. du.	small	
-150978	ilh	il(t(I)/&h	ỉlt (I)	n. f. pl.	goddess	
+150978	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg.	goddess	
 150978	ilh	ilh/	ỉlh	DN	the ‘Divine One’	
 150979	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150979	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
@@ -332,7 +331,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150994	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 150995	w	w	w	conj.	and	
 150996	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-150996	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+150996	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.87 36						
 150997	kmm	kmm	kmm	adv.	ditto	
 150998	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
@@ -380,7 +379,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151026	ˤly	ˤly(I)/	ʕly (I)	adj. m. sg. / adj. m. pl.	most high	
 151027	mdbḥt	mdbḥ/t=	mdbḥ	n. m. pl.	altar	
 151028	b	b	b	prep.	in	
-151029	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
+151029	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.87 42						
 151030	bt	bt(II)/	bt (II)	n. m. sg.	house	
 151030	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
@@ -388,8 +387,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151032	ṯql	ṯql/	ṯql	n. m. sg.	shekel	
 151033	ksp	ksp/	ksp	n. m. sg.	silver	
 151034	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-151034	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-151034	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 # KTU 1.87 43						
 151035	w	w	w	conj.	and	
 151036	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
@@ -398,10 +395,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151037	kl	kl/	kl	n. m. sg.	totality (of)	
 151038	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 # KTU 1.87 44						
-151039	ˤšrm	ˤšrm/	ʕšrm	n. num.	twenty	
+151039	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 151040	l	l(I)	l (I)	prep.	to	
 151041	inš	inš/	ỉnš	n. m. sg.	people	
-151042	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+151042	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 151043	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
 151043	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 151044	md	md(II)/	md (II)	n. m. pl.	skilled	
@@ -449,9 +446,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151069	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 151069	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š prefc.	to sit down	
 151070	b	b	b	prep.	in	
-151071	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg./ord. num.	sixth	
+151071	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg./num.	sixth	
 151072	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-151072	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+151072	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 151072	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 # KTU 1.87 50						
 151073	l	l(I)	l (I)	prep.	to	
@@ -472,10 +469,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151080	brr	br/	br(r)	n. m. sg.	tin	
 151080	brr	brr/	brr	adj. m. sg.	pure	
 151081	b	b	b	prep.	in	
-151082	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+151082	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 151083	ṣbu	ṣbu(I)/	ṣbủ (I)	n. m. sg.	army	
 151083	ṣbu	ṣbu(II)/	ṣbủ (II)	n. m. sg.	setting	
-151084	špš	špš/	špš	n. sg.	sun	
+151084	špš	špš/	špš	n. f. sg.	sun	
 151085	w	w	w	conj.	and	
 151086	ḥl	ḥl(I)/	ḥl (I)	n. m. sg.	strength	
 151086	ḥl	ḥl(II)/	ḥl (II)	adj. sg.	desacralised	
@@ -483,7 +480,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151087	yt	yt/	yt	n. m. sg.	?	
 151088	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 151088	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
-151089	špš	špš/	špš	n. sg.	sun	
+151089	špš	špš/	špš	n. f. sg.	sun	
 151090	w	w	w	conj.	and	
 151091	ḥl	ḥl(I)/	ḥl (I)	n. m. sg.	strength	
 151091	ḥl	ḥl(II)/	ḥl (II)	adj. sg.	desacralised	
@@ -495,11 +492,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151095	y	~y	-y (II)	prep. functor	indeed	
 151095	y	y	y	prep. functor	oh!	
 # KTU 1.87 53						
-151096	m	l(I)	l (I)	prep.	to	
+151096	m	mt(II)/	mt (II)	n. m.	death	
 151097	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
 151097	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
 151098	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-151098	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+151098	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 151098	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 151099	šm	š/m	š	n. m. du.	ram	
 151099	šm	šm(I)/	šm (I)	n. m. sg.	name	
@@ -520,7 +517,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151111	brr	br/	br(r)	n. m. sg.	tin	
 151111	brr	brr/	brr	adj. m. sg.	pure	
 # KTU 1.87 56						
-151112	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+151112	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 151113	š	š/	š	n. m. sg.	ram	
 151114	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 151115	l	l(I)	l (I)	prep.	to	
@@ -550,16 +547,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151127	hzpḫ	hzpḫ	hzpḫ	→	?	
 151128	ṯlṯṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 59						
-151129	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+151129	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 151130	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 151130	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 151131	bnytrt	?	?	?	?	DULAT: NOT FOUND
-151132	ḫmšt	ḫmš(I)/t	ḫmš (I)	n. nuf. sg.	five	
+151132	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
 151133	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 151133	bn	bn(II)	bn (II)	prep.	between	
 151133	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 151134	gdaḫ	gdaḫ/	gdaḫ	PN	gdaḫ	
-151135	tšˤ	tšˤ/	tšʕ	n. sg. num.	nine	
+151135	tšˤ	tšˤ/	tšʕ	num.	nine	
 # KTU 1.87 60						
 151136	klxxxxxyt	?	?	?	?	DULAT: NOT FOUND
 151137	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	

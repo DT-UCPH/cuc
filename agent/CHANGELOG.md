@@ -1,6 +1,9 @@
 # Changelog
 
 ## 2026-03-03
+- Added DULAT-note-backed enclitic `-m` handling so forms like `/b-k-y/` `bkm` rewrite to `!!bk(y[/~m` and nominal note-backed forms rewrite to `.../~m` instead of absorbing `m` into the host lexeme.
+
+## 2026-03-03
 
 - Restored global I-aleph non-finite verb reconstruction after the non-finite split rollout:
   - `pipeline/steps/verb_form_encoding_split.py` now preserves and reconstructs `(ʔ&...` for I-aleph infinitives and participles instead of flattening them to bare surface forms.

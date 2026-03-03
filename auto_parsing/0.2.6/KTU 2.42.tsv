@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158113	l	l(I)	l (I)	prep.	to	
 158114	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 158115	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
-158116	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
+158116	mrḥqtm	mrḥqt/tm~m	mrḥqt	n. f. sg.	distance	
 # KTU 2.42 5						
 158117	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158118	w	w	w	conj.	and	
@@ -36,8 +36,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158125	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 2.42 7						
 158126	l	l(I)	l (I)	prep.	to	
-158127	špš	špš/	špš	n. sg.	sun	
-158128	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+158127	špš	špš/	špš	n. f. sg.	sun	
+158128	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 158129	l	l(I)	l (I)	prep.	to	
 158130	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
 # KTU 2.42 8						
@@ -58,7 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158138	nmry	nmry	nmry		Nimmureya	
 158139	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 158139	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-158140	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+158140	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 158140	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
 158140	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg.	eternity	
 # KTU 2.42 10						
@@ -71,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158146	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 158147	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.42 12						
-158148	ˤšrid	ˤšr(I)/+id	ʕšr (I)	n. num.	ten, time	
+158148	ˤšrid	ˤšr(I)/+id	ʕšr (I)	num.	ten, time	
 158148	ˤšrid	ˤšr[:d:pass+id	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite, time	
 158148	ˤšrid	ˤšrid	ʕšrỉd	adv.	ten times	
 158149	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
@@ -85,7 +85,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158154	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 158154	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 2.42 15						
-158155	ˤšrm	ˤšrm/	ʕšrm	n. num.	twenty	
+158155	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 2.42 16						
 158156	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
 158157	u	u	ủ	conj.	or	
@@ -96,9 +96,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.42 18						
 158160	w	w	w	conj.	and	
 158161	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+158161	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+158161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 158162	aḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.42 19						
 158163	bhm	b	b	prep.	in	
+158163	bhm	b+hm	b	prep.	in	
+158163	bhm	b+m(I)	b	prep.	in	
 158164	w	w	w	conj.	and	
 158165	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
 158165	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -129,7 +133,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158179	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 158180	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 158181	b	b	b	prep.	in	
-158182	hn	hn	hn	deictic functor/adv.	behold!	
+158182	hn	hn	hn	functor	behold!	
 158183	xxx	?	?	?	?	
 # KTU 2.42 24						
 158184	hmt	hmt	hmt	pers. pn.		

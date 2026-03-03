@@ -12,17 +12,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149080	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 149081	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.47 6						
-149082	bˤlm	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
+149082	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 1.47 7						
-149083	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+149083	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.47 8						
-149084	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+149084	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.47 9						
-149085	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+149085	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.47 10						
-149086	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+149086	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.47 11						
-149087	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+149087	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.47 12						
 149088	arṣw	?	?	?	?	DULAT: NOT FOUND
 149089	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
@@ -33,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 15						
 149092	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.47 16						
-149093	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+149093	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 # KTU 1.47 17						
 149094	pdry	pdry/	pdry	DN	Pidray	
 149094	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
@@ -49,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149099	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 149099	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.47 22						
-149100	špš	špš/	špš	n. sg.	sun	
+149100	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.47 23						
 149101	arṣy	arṣ/+y	ảrṣ	n. f.	earth	
 149101	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
@@ -67,7 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149108	ddmš	ddmš/	ddmš	DN	ddmš	
 # KTU 1.47 29						
 149109	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
-149110	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+149110	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.47 30						
 149111	ym	ym(I)/	ym (I)	n. m. sg.	day	
 149111	ym	ym(II)/	ym (II)	n. m. sg.	sea	

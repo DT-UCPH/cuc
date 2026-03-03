@@ -21,12 +21,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.38 4						
 157859	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
 157860	lk	l(I)+k	l (I)	prep.	to	
-157861	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+157861	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 2.38 5						
 157862	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 157863	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
 # KTU 2.38 6						
-157864	hnny	hn+ny	hn	deictic functor/adv.	behold!	
+157864	hnny	hn+ny	hn	functor	behold!	
 157864	hnny	hnny	hnny	adv.	here	
 157864	hnny	hnny+ny	hnny	adv.	here	
 157865	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
@@ -36,7 +36,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157866	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157867	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.38 8						
-157868	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
+157868	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+157868	ˤmk	ˤm(II)/	ʕm (II)	n. m.	lineage	
 157869	mnm	mnm	mnm	indef. pn.	any(thing)	
 157870	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157870	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
@@ -56,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157876	mṣrm	mṣrm/	mṣrm	TN	Egypt	
 157876	mṣrm	mṣr/+m(I)	mṣr	n. m.	sob	
 # KTU 2.38 12						
-157877	hndt	hnd	hnd	dem. adj./pn.	this	
+157877	hndt	hnd	hnd	dem.	this	
 157878	b	b	b	prep.	in	
 157879	ṣr	ṣr/	ṣr	TN	Tyre	
 # KTU 2.38 13						

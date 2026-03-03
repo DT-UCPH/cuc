@@ -51,9 +51,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142767	zbl	zbl(III)/	zbl (III)	n. m. sg.	one carried	
 # KTU 1.15 II:5						
 142768	xxx	?	?	?	?	
-142769	kṯr	kṯr(III)/	kṯr (III)	DN/element of DN	Koṯaru/Kothar	
+142769	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 142770	w	w	w	conj.	and	
-142771	ḫss	ḫss/	ḫss	element of DN	Ḫasisu/Khasis	
+142771	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
 # KTU 1.15 II:6						
 142772	xxxyn	?	?	?	?	DULAT: NOT FOUND
 142773	rḥmy	rḥmy/	rḥmy	DN	rḥmy	
@@ -62,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142775	zbl	zbl(III)/	zbl (III)	n. m. sg.	one carried	
 # KTU 1.15 II:7						
 142776	wˤdt	?	?	?	?	DULAT: NOT FOUND
-142777	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+142777	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 142778	ṯlṯh	ṯlṯ(IV)/	ṯlṯ (IV)	num.	triple	
 # KTU 1.15 II:8						
 142779	apnk	apnk	ảpnk	adv. functor of illation	then	
@@ -89,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142795	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 142796	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg.	assembly	
 142796	ˤdt	ˤd(t(II)/t	ʕdt (II)	n. f. sg.	date	
-142797	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+142797	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.15 II:12						
 142798	wyˤn	?	?	?	?	DULAT: NOT FOUND
 142799	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
@@ -122,6 +122,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142818	byd	b+d	b	prep.	in, ?	
 142819	krpn	krpn/	krpn	n. m. sg.	cup	
 142820	bm	b	b	prep.	in	
+142820	bm	b+m(I)	b	prep.	in	
+142820	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 142821	y	+y, [y	-y (I)	prep. functor	my	
 142821	y	~y	-y (II)	prep. functor	indeed	
 142821	y	y	y	prep. functor	oh!	
@@ -159,7 +161,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 II:23						
 142843	ḥẓrk	ḥẓr/+k	ḥẓr	n. m.	mansion	
 142844	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
-142845	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+142845	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 142846	bnm	bn(I)/m	bn (I)	n. m. sg. / n. m. pl.	son	
 142847	lk	l(I)+k	l (I)	prep.	to	
 # KTU 1.15 II:24						
@@ -256,11 +258,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142913	abkrn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.15 III:17						
 142914	tbrk	!t!brk(II)[:d	/b-r-k/ (II)	vb D prefc.	to be blessed	
-142915	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+142915	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 142916	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come	
 # KTU 1.15 III:18						
 142917	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come	
-142918	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+142918	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 142919	l	l(I)	l (I)	prep.	to	
 142920	ahlhm	ahl/+hm	ảhl	n. m.	tent	
 # KTU 1.15 III:19						
@@ -287,7 +289,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 III:22						
 142935	mk	mk(II)	mk (II)	deictic functor	behold!	
 142936	b	b	b	prep.	in	
-142937	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+142937	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 142938	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
 # KTU 1.15 III:23						
 142939	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
@@ -317,7 +319,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142957	wtṣḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.15 III:28						
 142958	ph	phy[	/p-h-y/	vb G impv.	to see	
-142959	mˤ	mˤ(I)	mʕ (I)	postpositional emph. adv.	please!	
+142959	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 142960	ap	ap(I)	ảp (I)	adv./conj.	also	
 142960	ap	ap(II)/	ảp (II)	n. m.	nose	
 142961	krt	krt/	krt	PN	krt	
@@ -326,7 +328,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 III:29						
 142963	u	u	ủ	conj.	or	
 142964	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-142964	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+142964	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 142964	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 142965	ndrm	ndr/+m(I)	ndr	n. m.	vow	
 142966	xxxxx	?	?	?	?	
@@ -338,7 +340,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 IV:1						
 142970	š	š/	š	n. m. sg.	ram	
 # KTU 1.15 IV:2						
-142971	gm	g/	g	n. m. sg.	(loud) voice	
+142971	gm	g/~m	g	n. m. sg.	(loud) voice	
 142971	gm	gm(II)	gm (II)	adv.	also	
 142972	l	l(I)	l (I)	prep.	to	
 142972	l	l(III)	l (III)	functor	certainly	
@@ -365,7 +367,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142984	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.15 IV:6						
 142985	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G impv. / vb G	to exclaim	
-142986	šbˤm	šbˤm/	šbʕm	n. pl. num.	seventy	
+142986	šbˤm	šbˤm/	šbʕm	num.	seventy	
 142987	ṯry	ṯr(I)/y	ṯr (I)	n. m. pl.	bull	
 # KTU 1.15 IV:7						
 142988	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
@@ -573,7 +575,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143112	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.15 V:18						
 143113	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
-143114	špš	špš/	špš	n. sg.	sun	
+143114	špš	špš/	špš	n. f. sg.	sun	
 143115	l	l(III)	l (III)	functor	certainly	
 143116	ym	ym(I)/	ym (I)	n. m. sg.	day	
 143116	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -581,7 +583,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 V:19						
 143118	krt	krt/	krt	PN	krt	
 143119	ṣbia	?	?	?	?	DULAT: NOT FOUND
-143120	špš	špš/	špš	n. sg.	sun	
+143120	špš	špš/	špš	n. f. sg.	sun	
 # KTU 1.15 V:20						
 143121	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 143122	w	w	w	conj.	and	
@@ -667,6 +669,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143172	adnkm	adn(I)/+km	ảdn (I)	n. m.	lord	
 # KTU 1.15 VI:6						
 143173	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+143173	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+143173	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 143174	krt	krt/	krt	PN	krt	
 143175	tbun	!t!b(ʔ[&un	/b-ʔ/	vb G prefc.	to enter	
 143176	km	km	km	prep./conj./adv.		
@@ -682,7 +686,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143182	ḏrthm	ḏrt/+hm	ḏrt	n. f.	vision	
 143183	mt	mt(II)/	mt (II)	n. m. sg.	death	
 143183	mt	mt[	/m-t/	vb G suffc.	to die	
-143183	mt	!!mt[/	/m-t/	vb G inf.	to die	
 143183	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 143183	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 143184	krt	krt/	krt	PN	krt	

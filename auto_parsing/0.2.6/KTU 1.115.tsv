@@ -49,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153974	bt	bt(II)/	bt (II)	n. m. sg.	house	
 153974	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 153975	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-153975	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+153975	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.115 10						
 153976	kll	kll/	kll	n. m. sg.	totality	
 153977	ylḥm	!y!lḥm(I)[	/l-ḥ-m/ (I)	vb G suffc.	to eat	
@@ -58,7 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153979	w	w	w	conj.	and	
 153980	lbbt	?	?	?	?	DULAT: NOT FOUND
 153981	šqym	šqy/m	šqy	n. m. pl. / n. m. du.	cupbearer	
-153981	šqym	šq/	šq	n. m. sg.	thigh	
+153981	šqym	šq/	šq	n. m.	thigh	
 # KTU 1.115 12						
 153982	š	š/	š	n. m. sg.	ram	
 153983	lušḫr	?	?	?	?	DULAT: NOT FOUND
@@ -71,6 +71,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.115 14						
 153988	ym	ym(I)/	ym (I)	n. m. sg.	day	
 153988	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-153989	aḥd	aḥd/	ảḥd	adj. sg. num./adv. num.	one	
+153989	aḥd	aḥd/	ảḥd	adj. sg./num.	one	
 153989	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc.	to see	
 153989	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	

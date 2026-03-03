@@ -4,10 +4,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
 154726	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 # KTU 1.133 2						
-154727	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+154727	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 154728	mt	mt(II)/	mt (II)	n. m. sg.	death	
 154728	mt	mt[	/m-t/	vb G suffc.	to die	
-154728	mt	!!mt[/	/m-t/	vb G inf.	to die	
 154728	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 154728	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 154729	npšm	npš(I)/	npš (I)	n. f.	throat	
@@ -47,7 +46,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 9						
 154746	mt	mt(II)/	mt (II)	n. m. sg.	death	
 154746	mt	mt[	/m-t/	vb G suffc.	to die	
-154746	mt	!!mt[/	/m-t/	vb G inf.	to die	
 154746	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 154746	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 154747	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -62,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154752	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154752	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 1.133 11						
-154753	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+154753	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 154754	ydty	yd(I)/	yd (I)	n. f.	hand	
 154755	b	b	b	prep.	in	
 154756	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg.	plate / wide bowl / platter	
@@ -81,11 +79,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154764	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 # KTU 1.133 15						
 154765	xxbn	?	?	?	?	DULAT: NOT FOUND
-154766	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+154766	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.133 16						
 154767	mt	mt(II)/	mt (II)	n. m. sg.	death	
 154767	mt	mt[	/m-t/	vb G suffc.	to die	
-154767	mt	!!mt[/	/m-t/	vb G inf.	to die	
 154767	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 154767	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 154768	šmḥ	šmḫ[	/š-m-ḫ/	vb G suffc.	to be glad	
@@ -101,7 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154774	b	b	b	prep.	in	
 154775	abn	ab/+n	ảb	n. m.	father	
 154775	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
-154775	abn	!(ʔ&a!bn[	/b-n/	vb G impv.	to understand	
+154775	abn	!(ʔ&a!bn[	/b-n/	vb G prefc.	to understand	
 154776	ˤ	?	?	?	?	
 154777	z	d	d	det. or rel. functor	the one(s) of	Based on DULAT reconstruction.
 154777	z	z	z	→	?	

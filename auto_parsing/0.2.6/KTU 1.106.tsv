@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.106 2						
 152806	l	l(I)	l (I)	prep.	to	
 152807	inš	inš/	ỉnš	n. m. sg.	people	
-152808	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+152808	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 152809	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 # KTU 1.106 3						
 152810	ydbil	ydbil/	ydbỉl	PN	to be generous	
@@ -34,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152824	ˤṣrml	?	?	?	?	DULAT: NOT FOUND
 152825	inš	inš/	ỉnš	n. m. sg.	people	
 # KTU 1.106 8						
-152826	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+152826	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.106 9						
 152827	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 152827	bn	bn(II)	bn (II)	prep.	between	
@@ -62,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152837	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 152837	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 152838	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
-152839	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+152839	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.106 13						
 152840	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg.	ewe	
 152841	ḫmnh	ḫmn(I)/h	ḫmn (I)	n. m. sg.	chapel	
@@ -109,14 +109,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152866	w	w	w	conj.	and	
 152867	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.106 20						
-152868	ˤšrh	ˤšr(I)/+h	ʕšr (I)	n. num.	ten	
+152868	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
 152868	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 152868	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 152869	dqt	dq(t(I)/t	dqt (I)	adj. f. or n. f. sg.	small	
 152869	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. sg.	small	
 # KTU 1.106 21						
 152870	w	w	w	conj.	and	
-152871	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+152871	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 152872	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 152872	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 152873	w	w	w	conj.	and	
@@ -149,17 +149,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152887	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 152888	l	l(I)	l (I)	prep.	to	
 152888	l	l(III)	l (III)	functor	certainly	
-152889	ˤšrm	ˤšrm/	ʕšrm	n. num.	twenty	
+152889	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 1.106 25						
 152890	tuṣl	ʔṣl[l:pass	/ʔ-ṣ-l/	vb G prefc. / vb Gpass prefc.	to (be) put aside	
 152891	šlḥmt	šlḥm(t/t	šlḥmt	n. f. sg.	provisions	
 152891	šlḥmt	šlḥm(t/t=	šlḥmt	n. f. sg.	provisions	
 152892	b	b	b	prep.	in	
-152893	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
+152893	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.106 26						
 152894	l	l(I)	l (I)	prep.	to	
 152894	l	l(III)	l (III)	functor	certainly	
-152895	ˤšrm	ˤšrm/	ʕšrm	n. num.	twenty	
+152895	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 152896	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc.	to wash	
 152897	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 152897	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -170,12 +170,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152900	lllltˤrk	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.106 28						
 152901	ksu	?	?	?	?	DULAT: NOT FOUND
-152902	ˤlm	ˤl(I)	ʕl (I)	prep.	upon	
+152902	ˤlm	ˤl~m	ʕl (I)	prep.	upon	
 152903	tṣu	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 152904	šlḥmt	šlḥm(t/t	šlḥmt	n. f. sg.	provisions	
 152904	šlḥmt	šlḥm(t/t=	šlḥmt	n. f. sg.	provisions	
 # KTU 1.106 29						
-152905	tšˤ	tšˤ/	tšʕ	n. sg. num.	nine	
+152905	tšˤ	tšˤ/	tšʕ	num.	nine	
 152906	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg.	ewe	
 152907	w	w	w	conj.	and	
 152908	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	

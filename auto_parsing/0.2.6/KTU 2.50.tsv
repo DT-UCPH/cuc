@@ -10,10 +10,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 3						
 158455	w	w	w	conj.	and	
 158456	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
-158457	mrḥqtm	mrḥq(t/tm	mrḥqt	n. f. sg.	distance	
+158457	mrḥqtm	mrḥqt/tm~m	mrḥqt	n. f. sg.	distance	
 # KTU 2.50 4						
 158458	qlt	ql[t	/q-l/	vb G suffc.	to fall (down)	
-158459	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
+158459	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+158459	ˤmk	ˤm(II)/	ʕm (II)	n. m.	lineage	
 158460	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.50 5						
 158461	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
@@ -42,7 +43,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158472	lm	l(I)	l (I)	prep.	to	
 # KTU 2.50 10						
 158473	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
-158473	šil	!!š(ʔ&il[/	/š-ʔ-l/	vb G inf.	to ask	
 158473	šil	šil(I)/	šỉl (I)	n. m. sg.	interrogator	
 158474	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158474	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
@@ -62,7 +62,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158481	kbr	kbr/	kbr	PN	kbr	
 # KTU 2.50 15						
 158482	xy	?	?	?	?	DULAT: NOT FOUND
-158483	ˤmk	ˤm(II)/+k	ʕm (II)	n. m. sg.	lineage	
+158483	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+158483	ˤmk	ˤm(II)/	ʕm (II)	n. m.	lineage	
 # KTU 2.50 16						
 158484	x	?	?	?	?	
 158485	w	w	w	conj.	and	
@@ -83,7 +84,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158493	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 # KTU 2.50 19						
 158494	x	?	?	?	?	
-158495	m	l(I)	l (I)	prep.	to	
+158495	m	mt(II)/	mt (II)	n. m.	death	
 158496	d	d	d	det. or rel. functor	the one(s) of	
 158497	l	l(I)	l (I)	prep.	to	
 158497	l	l(III)	l (III)	functor	certainly	

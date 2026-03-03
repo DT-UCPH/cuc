@@ -25,7 +25,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141485	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 141486	qrtm	qrt(I)/m	qrt (I)	n. f. du.	city	
 141487	tṯˤr	!t!ṯˤr[	/ṯ-ʕ-r/	vb G prefc.	to prepare (the table)	
-141487	tṯˤr	!!tṯˤr[/	/ṯ-ʕ-r/	vb G inf.	to prepare (the table)	
 141488	ṯlḥntl	?	?	?	?	DULAT: NOT FOUND
 141489	ṣbim	ṣb(u(I)&i/m	ṣbủ (I)	n. m. pl.	army	
 141490	ksat	ksa/t=	ks/śủ	n. f. pl.	seat	
@@ -44,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141499	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 141499	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 141500	tġdd	!t!ġdd[:d	/ġ-d-d/	vb D prefc.	to swell	
-141501	kbdh	kbd(I)/+h	kbd (I)	n.	liver	
+141501	kbdh	kbd(I)	kbd (I)		liver	
 141502	bṣḥq	?	?	?	?	DULAT: NOT FOUND
 141503	ymlu	!y!ml(ʔ[&u:d	/m-l-ʔ/	vb G prefc. / vb D prefc.	to be full	
 141504	lbh	lb/+h	lb	n. m.	heart	
@@ -52,8 +51,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141505	b	b	b	prep.	in	
 141506	šmḫt	šmḫ(t/t	šmḫt	n. f. sg.	joy	
 141507	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-141507	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-141507	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 141508	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 141508	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 141508	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
@@ -187,7 +184,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141588	arbdd	arbdd/	ảrbdd	n. m. sg.	rest	
 # KTU 1.7 29						
 141589	l	l(I)	l (I)	prep.	to	
-141590	kbd	kbd(I)/	kbd (I)	n.	within	
+141589	l	l(III)	l (III)	functor	certainly	
+141590	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
 141591	šdm	šd(I)/m	šd (I)	n. m. pl.	open field	
 141592	ḥšk	ḥšk[	/ḥ-š-k/	vb G impv.	to seize	
 141593	ˤṣk	ˤṣ/+k	ʕṣ	n. m.	tree	
@@ -231,7 +229,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141622	tdˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc.	to know	
 141623	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
 141624	atm	at(I)	ảt (I)	pers. pn.	you	
-141624	atm	ʔtw[	/ʔ-t-w/	vb G impv.	to come	
+141624	atm	at[~m	/ʔ-t-w/	vb G impv.	to come	
 141624	atm	atm	ảtm	pers. pn.	you	
 # KTU 1.7 34						
 141625	w	w	w	conj.	and	
@@ -243,7 +241,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141630	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.7 36						
 141631	kpr	kpr(II)/	kpr (II)	n. m. sg.	henna (powder or dye)	
-141632	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+141632	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 141633	bnt	bn(t(II)/t	bnt (II)	n. f. sg.	produce	
 141633	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
 141633	bnt	bnt(III)/	bnt (III)	n. m. sg.	tamarisk	
@@ -284,7 +282,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141655	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 141656	x	?	?	?	?	
 # KTU 1.7 40						
-141657	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+141657	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 141658	w	w	w	conj.	and	
 141659	t	/t, /t=				
 141659	t	[t, [t=, [t==, [t===				
@@ -292,7 +290,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141660	mx	?	?	?	?	DULAT: NOT FOUND
 141661	mt	mt(II)/	mt (II)	n. m. sg.	death	
 141661	mt	mt[	/m-t/	vb G suffc.	to die	
-141661	mt	!!mt[/	/m-t/	vb G inf.	to die	
 141661	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 141661	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 # KTU 1.7 42						

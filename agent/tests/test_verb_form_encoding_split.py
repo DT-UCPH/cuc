@@ -113,6 +113,11 @@ class VerbFormEncodingSplitFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "(ʔ&aḫr[/")
 
+    def test_restores_hidden_weak_final_radical_for_truncated_nonfinite_host(self) -> None:
+        row = TabletRow("13", "bk", "bk[", "/b-k-y/", "vb G inf.", "to weep", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!!bk(y[/")
+
     def test_demotes_single_finite_option_to_finite_encoding(self) -> None:
         row = TabletRow("3", "qtl", "!!qtl[/", "/q-t-l/", "vb G suffc.", "to kill", "")
         result = self.fixer.refine_row(row)

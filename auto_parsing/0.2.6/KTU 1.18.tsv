@@ -24,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145159	y	+y, [y	-y (I)	prep. functor	my	
 145159	y	~y	-y (II)	prep. functor	indeed	
 145159	y	y	y	prep. functor	oh!	
-145160	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+145160	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 145161	xxxxxxxx	?	?	?	?	
 # KTU 1.18 I:8						
 145162	xxxxxx	?	?	?	?	
@@ -93,11 +93,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145212	aši	?	?	?	?	DULAT: NOT FOUND
 145213	a	?	?	?	?	
 # KTU 1.18 I:18						
-145214	ḫd	ṭbḫ/+d	ṭbḫ	n. m.	sacrificer, ?	
+145214	ḫd	?	?	?	?	DULAT: NOT FOUND
 145215	d	d	d	det. or rel. functor	the one(s) of	
 145216	išṯ	?	?	?	?	DULAT: NOT FOUND
 145217	b	b	b	prep.	in	
-145218	kbdhk	kbd(I)&h/+k	kbd (I)	n.	liver	
+145218	kbdhk	kbd(I)+k	kbd (I)	pers. pn./morph.	liver	
 145219	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 145219	tšt	!t!št(y[	/š-t-y/	vb G prefc.	to drink	
 145220	diṯ	?	?	?	?	DULAT: NOT FOUND
@@ -148,7 +148,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145249	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv.	to hear	
 145249	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
 145249	šmˤ	šmˤ/	šmʕ	n. m. sg.	auditor	
-145250	mˤ	mˤ(I)	mʕ (I)	postpositional emph. adv.	please!	
 145250	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 145251	l	l(I)	l (I)	prep.	to	
 145251	l	l(III)	l (III)	functor	certainly	
@@ -165,7 +164,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145260	xxx	?	?	?	?	
 145261	qrb	qrb[	/q-r-b/	vb G suffc.	to approach	
 145261	qrb	qrb/	qrb	n. m. sg.	inside	
-145262	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+145262	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 145263	ṯirk	ṯar/	ṯảr	n. m. pl.	surety	
 145264	lxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 I:26						
@@ -310,6 +309,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145361	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
 145362	at	at(I)	ảt (I)	pers. pn.	you	
 145363	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+145363	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+145363	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 145364	qšth	qšt/h	qšt	n. m. sg.	bow	
 # KTU 1.18 IV:13						
 145365	tmḫṣh	!t!mḫṣ[h	/m-ḫ-ṣ/	vb G prefc.	to wound	
@@ -398,6 +399,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145418	arḫp	!(ʔ&a!rḫp[:d	/r-ḫ-p/	vb D prefc.	to hover	
 145419	ank	ank	ảnk	pers. pn.	I	
 145420	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+145420	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+145420	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 # KTU 1.18 IV:22						
 145421	aqht	aqht/	ảqht	PN	Most Obedient	
 145422	ˤdbk	ˤdb[k	/ʕ-d-b/	vb G suffc.	to leave > to put in	
@@ -408,6 +411,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:23						
 145426	ṯlṯid	ṯlṯid	ṯlṯỉd	adv.	three times	
 145427	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+145427	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+145427	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 145428	udn	udn(I)/	ủdn (I)	n. m. sg.	ear	
 145429	špk	špk[	/š-p-k/	vb G impv.	to spill	
 145430	km	km	km	prep./conj./adv.		
@@ -441,7 +446,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145447	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 145448	u	u	ủ	conj.	or	
 145449	ap	ap(II)/	ảp (II)	n. m.	nose	
-145450	mprh	mhr(II)/	mhr (II)	n. m. sg.	warrior strength	
+145450	mprh	mhr(II)/	mhr (II)	n. m.	warrior strength	
+145450	mprh	mpr/+h	mpr	n. m.	warrior strength	
 145451	ank	ank	ảnk	pers. pn.	I	
 # KTU 1.18 IV:27						
 145452	l	l(II)	l (II)	adv.	no	
@@ -507,7 +513,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145488	tˤdbnh	!t!ˤdb[nh	/ʕ-d-b/	vb G prefc. / vb G suffc.	to leave > to put in	
 145489	hlmn	hlm[n	/h-l-m/	vb G prefc. / vb G suffc.	to hit	
 145490	ṯnm	ṯn(I)/	ṯn (I)	num.	two	
-145490	ṯnm	ṯny[	/ṯ-n-y/	vb G impv.	to repeat	
+145490	ṯnm	ṯn[~m	/ṯ-n-y/	vb G impv.	to repeat	
 145491	qdqd	qdqd/	qdqd	n. m. sg.	skull	
 # KTU 1.18 IV:34						
 145492	ṯlṯid	ṯlṯid	ṯlṯỉd	adv.	three times	
@@ -576,9 +582,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145526	ank	ank	ảnk	pers. pn.	I	
 145527	w	w	w	conj.	and	
 145528	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+145528	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+145528	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 145529	qštk	qšt/	qšt	n. m. sg.	bow	
 145530	mḫṣtk	mḫṣ[t+k	/m-ḫ-ṣ/	vb G suffc.	to wound	
 145531	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+145531	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+145531	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 # KTU 1.18 IV:41						
 145532	qṣˤtk	qṣˤ(t/t	qṣʕt	n. f. sg.	arrow(s)	
 145532	qṣˤtk	qṣˤ(t/t=	qṣʕt	n. f. sg.	arrow(s)	

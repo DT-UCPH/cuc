@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153592	xxxx	?	?	?	?	
 # KTU 1.112 3						
 153593	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-153593	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+153593	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 153593	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 153594	šm	š/m	š	n. m. du.	ram	
 153594	šm	šm(I)/	šm (I)	n. m. sg.	name	
@@ -29,11 +29,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153603	bˤlt	bˤl(t/t	bʕlt	n. f. sg.	lady	
 # KTU 1.112 5						
 153604	bht	bt(II)/	bt (II)	n. m. pl.	house	
-153605	m	l(I)	l (I)	prep.	to	
+153605	m	mt(II)/	mt (II)	n. m.	death	
 153606	šˤṣrm	?	?	?	?	DULAT: NOT FOUND
 153607	linš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 6						
-153608	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+153608	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 153609	w	w	w	conj.	and	
 153610	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 153610	bn	bn(II)	bn (II)	prep.	between	
@@ -46,19 +46,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153613	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153614	ttˤln	?	?	?	?	DULAT: NOT FOUND
 153615	pamt	pa/m	pảm(t)	n. f. pl.	time	
-153616	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+153616	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.112 8						
 153617	b	b	b	prep.	in	
-153618	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. sg. num.	three	
+153618	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 153618	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-153618	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. ord. num.	third	
+153618	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
 153619	tˤln	ˤly[n	/ʕ-l-y/	vb G prefc.	to go up	
-153620	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+153620	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 153621	bḫmn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 9						
 153622	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 153622	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
-153623	špš	špš/	špš	n. sg.	sun	
+153623	špš	špš/	špš	n. f. sg.	sun	
 153624	wḥl	?	?	?	?	DULAT: NOT FOUND
 153625	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153625	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -76,28 +76,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153631	brr	brr/	brr	adj. m. sg.	pure	
 153632	b	b	b	prep.	in	
 153633	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
-153634	iynm	iyn/	ỉyn	n. m. sg.	disaster	
+153634	iynm	iyn/~m	ỉyn	n. m. sg.	disaster	
 # KTU 1.112 12						
 153635	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
 153636	ṯql	ṯql/	ṯql	n. m. sg.	shekel	
 153637	ksp	ksp/	ksp	n. m. sg.	silver	
 153638	w	w	w	conj.	and	
 153639	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
-153639	kbd	kbd(I)/	kbd (I)	n. sg. f.	liver	
-153639	kbd	kbd[:d	/k-b-d/	vb D impv.	to honour	
 # KTU 1.112 13						
 153640	yn	yn/	yn	n. m. sg.	wine	
 153641	l	l(I)	l (I)	prep.	to	
 153642	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
 153643	ḫr	ḫr(I)/	ḫr (I)	n. m. sg.	cave	
 153644	b	b	b	prep.	in	
-153645	ˤšt	ˤš(t/t	ʕšt(y)	n. sg. of card. num.	one	
+153645	ˤšt	ˤš(t/t	ʕšt(y)	num. sg.	one	
 # KTU 1.112 14						
-153646	ˤšrh	ˤšr(I)/+h	ʕšr (I)	n. num.	ten	
+153646	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
 153646	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 153646	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 153647	ṣba	ṣb(u(II)/&a	ṣbủ (II)	n. m. sg.	setting	
-153648	špš	špš/	špš	n. sg.	sun	
+153648	špš	špš/	špš	n. f. sg.	sun	
 153649	wḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 15						
 153650	l	l(I)	l (I)	prep.	to	
@@ -106,13 +104,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153651	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153651	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153652	b	b	b	prep.	in	
-153653	ṯlṯt	ṯlṯ(I)/t	ṯlṯ (I)	n. nuf. sg.	three	
+153653	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	nuf.	three	
 # KTU 1.112 16						
 153654	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 153654	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 153655	yrt	!y!(yrd[	/y-r-d/	vb G suffc.	to go down	
 153656	ḥṣ	ḥṣ/	ḥṣ	n. m. sg.	gravel	
-153657	m	l(I)	l (I)	prep.	to	
+153657	m	mt(II)/	mt (II)	n. m.	death	
 # KTU 1.112 17						
 153658	lk	l(I)+k	l (I)	prep.	to	
 153659	brr	br/	br(r)	n. m. sg.	tin	
@@ -129,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153665	mṣdh	mṣd(III)/~h	mṣd (III)	TN	mṣd (III)	
 153665	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg.	large fortified tower	
 153666	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-153666	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+153666	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 153666	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 153667	šm	š/m	š	n. m. du.	ram	
 153667	šm	šm(I)/	šm (I)	n. m. sg.	name	
@@ -149,7 +147,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153674	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 153675	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc.	to sing	
 153676	b	b	b	prep.	in	
-153677	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
+153677	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 153678	ˤ	?	?	?	?	
 # KTU 1.112 22						
 153679	šrh	šr(IV)/h	šr (IV)	n. m. sg.	navel	
@@ -173,7 +171,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153690	l	l(III)	l (III)	functor	certainly	
 153691	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 153692	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-153692	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+153692	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 153692	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 153693	šm	š/m	š	n. m. du.	ram	
 153693	šm	šm(I)/	šm (I)	n. m. sg.	name	
@@ -191,19 +189,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153702	aġt	aġt/	ảġt	TN	une ảġt	
 # KTU 1.112 26						
 153703	w	w	w	conj.	and	
-153704	šbˤ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+153704	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 153705	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 153705	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 153706	w	w	w	conj.	and	
 153707	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.112 27						
-153708	ˤšrh	ˤšr(I)/+h	ʕšr (I)	n. num.	ten	
+153708	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
 153708	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
 153708	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 153709	dqt	dq(t(I)/t	dqt (I)	adj. f. or n. f. sg.	small	
 153709	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. sg.	small	
 153710	b	b	b	prep.	in	
-153711	ṯṯt	ṯṯ/t	ṯṯ	n. nuf. sg.	six	
+153711	ṯṯt	ṯṯ/	ṯṯ	nuf.	six	
 153712	ˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 28						
 153713	rt	rt/	rt	PN	rt	
@@ -214,12 +212,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153717	x	?	?	?	?	
 # KTU 1.112 29						
 153718	b	b	b	prep.	in	
-153719	šbˤt	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+153719	šbˤt	šbˤ(I)/	šbʕ (I)	num.	seven	
 153720	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 153720	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 # KTU 1.112 30						
 153721	iln	il(I)/+n	ỉl (I)	n. m.	god	
-153722	ṯlṯt	ṯlṯ(I)/t	ṯlṯ (I)	n. nuf. sg.	three	
+153722	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	nuf.	three	
 # KTU 1.112 31						
 153723	pbxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 32						

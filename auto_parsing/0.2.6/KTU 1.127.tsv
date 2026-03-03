@@ -64,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.127 17						
 154510	w	w	w	conj.	and	
 154511	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
-154511	šlmm	šlm(II)/m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
+154511	šlmm	šlm(II)/m~m	šlm (II)	n. m. sg. / n. m. pl.	communion victim / sacrifice	
 # KTU 1.127 18						
 154512	dtnat	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.127 19						
@@ -109,7 +109,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154535	hm	hm(I)	hm (I)	pers. pn.	they	
 154536	mt	mt(II)/	mt (II)	n. m. sg.	death	
 154536	mt	mt[	/m-t/	vb G suffc.	to die	
-154536	mt	!!mt[/	/m-t/	vb G inf.	to die	
 154536	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 154536	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 154537	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc.	to go up	
@@ -128,4 +127,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.127 32						
 154544	w	w	w	conj.	and	
 154545	yḥdy	!y!ḥdy[	/ḥ-d-y/	vb G prefc.	to see	
-154546	mrḥqm	mrḥq/	mrḥq	n. m. sg.	distance	
+154546	mrḥqm	mrḥq/~m	mrḥq	n. m. sg.	distance	

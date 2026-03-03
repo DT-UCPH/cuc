@@ -51,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150029	b	b	b	prep.	in	
 150030	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 150031	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-150031	ṯn	ṯn(II)/	ṯn (II)	nuf./adj. sg.	second	
+150031	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 150031	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 150032	pk	p(III)/+k	p (III)	n. m.	mouth	
 150033	b	b	b	prep.	in	
@@ -79,7 +79,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150044	l	l(III)	l (III)	functor	certainly	
 150045	mt	mt(II)/	mt (II)	n. m. sg.	death	
 150045	mt	mt[	/m-t/	vb G suffc.	to die	
-150045	mt	!!mt[/	/m-t/	vb G inf.	to die	
 150045	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 150045	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 150046	brtk	br[t+k	/b-r(-r)/	vb G suffc.	to be or remain pure	
@@ -91,12 +90,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150049	arnn	!(ʔ&a!rn[n	/r-n(-n)/	vb G prefc.	to shout	
 150050	ql	ql[	/q-l/	vb G suffc. / vb G impv.	to fall (down)	
 150050	ql	ql(I)/	ql (I)	n. m. sg.	voice	
-150051	špš	špš/	špš	n. sg.	sun	
+150051	špš	špš/	špš	n. f. sg.	sun	
 150052	ḥw	ḥw(I)[:d	/ḥ-w/y-y/ (I)	vb D impv.	to live	
 150053	bṯnm	bṯn/m	bṯn	n. m. pl.	serpent	
 150054	uḫd	(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G impv.	to collect	
 150054	uḫd	(ʔ&uḫd[/	/ʔ-ḫ-d(/ḏ)/	vb Gpass ptcpl.	to collect	
-150055	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+150055	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 # KTU 1.82 7						
 150056	x	?	?	?	?	
 150057	aṭm	(ʔ&aṭm[	/ʔ-ṭ-m/	vb	to stop up	
@@ -164,11 +163,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150099	bnt	bt(I)/	bt (I)	n. f. pl.	daughter	
 150099	bnt	bn(t(II)/t	bnt (II)	n. f. sg.	produce	
 150099	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
-150100	ḥ	lqḥ[	/l-q-ḥ/	vb G suffc. / vb N suffc.	to get hold of	
+150100	ḥ	lqḥ[	/l-q-ḥ/	vb N suffc.	to get hold of	
 # KTU 1.82 14						
 150101	uḫd	(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G impv.	to collect	
 150101	uḫd	(ʔ&uḫd[/	/ʔ-ḫ-d(/ḏ)/	vb Gpass ptcpl.	to collect	
-150102	bˤlm	bˤl(II)/m	bʕl (II)	n. m.	lord	
+150102	bˤlm	bˤl(II)/m~m	bʕl (II)	n. m.	lord	
 150103	ˤxxxl	?	?	?	?	DULAT: NOT FOUND
 150104	ydk	yd(I)/+k	yd (I)	n. f.	hand	
 150104	ydk	yd(I)/+k=	yd (I)	n. f.	hand	
@@ -211,9 +210,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150127	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
 150127	bnt	bnt(III)/	bnt (III)	n. m. sg.	tamarisk	
 150128	ḫrp	ḫrp	ḫrp		mania	
-150129	ak	ahl/+k	ảhl	n. m.	tent	
-150129	ak	lʔy(I)[+k	/l-ʔ-y/w/ (I)	vb	to conquer	
-150129	ak	aġzr/+k	ảġzr	n. m.	?	
+150129	ak	mt[+k	/m-t/	vb G suffc.	to die	
+150129	ak	mt[/+k	/m-t/	vb G ptcpl.	to die	
+150129	ak	mru(I)/+k	mrủ (I)	adj. m. or n. m.	fattened	
+150129	ak	ṣbu(II)/+k	ṣbủ (II)	n. m.	setting	
 # KTU 1.82 19						
 150130	xxxxxxxx	?	?	?	?	
 150131	aḥw	!(ʔ&a!ḥw(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc.	to live	
@@ -241,6 +241,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150149	tlk	hlk[	/h-l-k/	vb G prefc.	to go	
 150150	xxx	?	?	?	?	
 150151	bm	b	b	prep.	in	
+150151	bm	b+m(I)	b	prep.	in	
+150151	bm	ˤrb(II)[+m(I)	/ʕ-r-b/ (II)	vb G suffc.	to give a guarantee or pledge	
 # KTU 1.82 23						
 150152	xxxxqp	?	?	?	?	DULAT: NOT FOUND
 150153	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
@@ -343,6 +345,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150206	xxxxxxbṯnm	?	?	?	?	DULAT: NOT FOUND
 150207	wtṯb	?	?	?	?	DULAT: NOT FOUND
 150208	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+150208	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+150208	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
 150209	bṯnt	bṯn/t=	bṯn	n. m. pl.	serpent	
 150210	trtḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.82 36						
@@ -416,8 +420,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150256	ˤnk	ˤn(I)/	ʕn (I)	n. f. du.	eye	
 150257	ẓẓ	ẓẓ/	ẓẓ	element/DN	ẓẓ	
 150258	w	w	w	conj.	and	
-150259	kmġ	kmṯ/	kmṯ	DN/element of DN	kmṯ	
-150260	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+150259	kmġ	kmṯ/	kmṯ	DN/element	kmṯ	
+150260	ilm	il(I)/m~m	ỉl (I)	n. m. pl.	god	
 # KTU 1.82 43						
 150261	xw	?	?	?	?	DULAT: NOT FOUND
 150262	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	
