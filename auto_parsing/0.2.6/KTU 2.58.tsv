@@ -28,8 +28,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158603	p	p(II)	p (II)	adv.	here	
 158604	x	?	?	?	?	
 # KTU 2.58 8						
-158605	t	/t, /t=				
-158605	t	[t, [t=, [t==, [t===				
+158605	t	/t, /t=				DULAT: NOT FOUND
+158605	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 2.58 9						
 158606	k	+k	-k (I)			
 158606	k	~k	-k (II)			

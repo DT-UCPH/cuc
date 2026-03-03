@@ -2,8 +2,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.172 1						
 155797	x	?	?	?	?	
 # KTU 1.172 2						
-155798	t	/t, /t=				
-155798	t	[t, [t=, [t==, [t===				
+155798	t	/t, /t=				DULAT: NOT FOUND
+155798	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.172 3						
 155799	bat	b(ʔ&a[t	/b-ʔ/	vb G suffc.	to enter	
 # KTU 1.172 4						
@@ -29,8 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155810	x	?	?	?	?	
 155811	ḫlt	ḫlt	ḫlt	?	?	
 # KTU 1.172 12						
-155812	t	/t, /t=				
-155812	t	[t, [t=, [t==, [t===				
+155812	t	/t, /t=				DULAT: NOT FOUND
+155812	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 155813	šmal	šmal/	šmảl	adj. m. or n. m. sg.	left	
 # KTU 1.172 13						
 155814	xˤnk	?	?	?	?	DULAT: NOT FOUND
@@ -39,18 +39,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155816	rn	?	?	?	?	DULAT: NOT FOUND
 155817	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 15						
-155818	n	~n	-n (I)	encl. morph.		
-155818	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-155818	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-155818	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+155818	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+155818	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+155818	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+155818	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 155819	tlm	tlm/	tlm	n. m. sg.	furrow	
 # KTU 1.172 16						
-155820	qd	ḥkpt/+d	ḥkpt	TN	ḥkpt, ?	
+155820	qd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 17						
-155821	n	~n	-n (I)	encl. morph.		
-155821	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-155821	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-155821	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+155821	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+155821	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+155821	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+155821	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 155822	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 155822	il	il(I)/	ỉl (I)	n. m.	god	
 # KTU 1.172 18						
@@ -75,8 +75,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155835	ydh	yd(I)/+h	yd (I)	n. f.	hand	
 # KTU 1.172 22						
 155836	nh	n(I)	-n (I)	morph.	Sun	
-155836	nh	ṣpn/+h	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-155836	nh	rḫnt/+h	rḫnt	n. f.	sweetness	
 155837	w	w	w	conj.	and	
 155838	lyamr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 23						

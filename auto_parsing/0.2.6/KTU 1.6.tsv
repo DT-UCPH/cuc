@@ -292,7 +292,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140624	bnh	bn(I)/+h	bn (I)	n. m.	son	
 140625	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
 140626	w	w	w	conj.	and	
-140627	ṣb	ṣbu(II)/	ṣbủ (II)	n. m. sg.	setting	
+140627	ṣb	ṣbu(II)/	ṣbủ (II)	n. m.	setting	
 # KTU 1.6 I:41						
 140628	rt	rt/	rt	PN	rt	
 140629	aryh	ary(I)/+h	ảry (I)	n. m. sg.	fellow	
@@ -343,7 +343,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140651	aḥd	aḥd/	ảḥd	adj. sg./num.	one	
 140652	b	b	b	prep.	in	
 140653	bnk	bn(I)/+k	bn (I)	n. m.	son	
-140654	am	!(ʔ&a!m(l(k[:d	/m-l-k/	vb D prefc.	to reign	
+140654	am	?	?	?	?	DULAT: NOT FOUND
 140655	lkn	l(I)+kn	l (I)	prep.	to	
 140655	lkn	l(I)+n	l (I)	prep.	to	
 140655	lkn	lkn/	lkn	PN	lkn	
@@ -567,7 +567,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140788	w	w	w	conj.	and	
 140789	tṣ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.6 II:12						
-140790	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
+140790	ḥ	ḥ/	ḥ	n. m.	life	
 140791	at	at(I)	ảt (I)	pers. pn.	you	
 140792	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 140792	mt	mt(II)/	mt (II)	n. m. sg.	death	
@@ -739,7 +739,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140894	ḫṯr	ḫṯr/	ḫṯr	n. m. sg.	sieve	
 140895	tdry	ndr[+y	/n-d-r/	vb	to make a vow	
 # KTU 1.6 II:33						
-140896	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 140896	nn	grš[	/g-r-š/	vb	to eject	
 140896	nn	gr[	/g-r(-y)/	vb	to attack	
 140897	b	b	b	prep.	in	
@@ -1071,8 +1070,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141097	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. / n. f. du.	eye	
 141098	b	b	b	prep.	in	
 141099	qbˤt	qbˤ(t/t	qbʕt	n. f. sg.	goblet	
-141100	t	/t, /t=				
-141100	t	[t, [t=, [t==, [t===				
+141100	t	/t, /t=				DULAT: NOT FOUND
+141100	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.6 IV:19						
 141101	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 141101	bl	bl(II)	bl (II)	prep.	without	
@@ -1099,7 +1098,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141116	y	y	y	prep. functor	oh!	
 141117	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
 141117	špš	špš/	špš	n. f. sg.	sun	
-141118	a	?	?	?	?	
+141118	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.6 IV:23						
 141119	an	an(I)	ản (I)	pers. pn.	I	
 141119	an	an(II)	ản (II)	adv.	wherever	
@@ -1315,7 +1314,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:4						
 141260	dnh	d+nh	d	det. or rel. functor	the one(s) of, ?	
 141260	dnh	dn(I)/+h	dn (I)	n. m.	judgment	
-141260	dnh	dll[+nh	/d-l-l/	vb	to oppress, ?	
 141261	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 141262	aḫh	aḫ(I)/+h	ảḫ (I)	n. m.	brother (by blood)	
 # KTU 1.6 VI:5						

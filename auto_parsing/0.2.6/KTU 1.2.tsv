@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136033	at	at(I)	ảt (I)	pers. pn.	you	
 136034	ypˤt	!y!](n](ypˤ[t	/y-p-ʕ/	vb G suffc. / vb N suffc.	to go up	
 136035	b	b	b	prep.	in	
-136036	a	?	?	?	?	
+136036	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 I:4						
 136037	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 136038	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
@@ -103,7 +103,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136097	qmm	qm[m	/q-m/	vb G pl.	to stand up	
 136097	qmm	qmm	qmm	?	?	
 136098	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-136099	am	!(ʔ&a!m(l(k[:d	/m-l-k/	vb D prefc.	to reign	
+136099	am	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 I:16						
 136100	r	?	?	?	?	DULAT: NOT FOUND
 136101	ṯny	ṯny[	/ṯ-n-y/	vb G impv.	to repeat	
@@ -547,8 +547,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136394	ġb	ġb(II)	ġb (II)	?	?	
 # KTU 1.2 II:7						
 136395	w	w	w	conj.	and	
-136396	t	/t, /t=				
-136396	t	[t, [t=, [t==, [t===				
+136396	t	/t, /t=				DULAT: NOT FOUND
+136396	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.2 II:8						
 136397	imḫṣ	!(ʔ&i!mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 136398		?	?	?	?	
@@ -743,8 +743,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136513	pn	pn(m/	pnm	n. m. pl. tant. pl.	face	
 136514	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
 136515	d	d	d	det. or rel. functor	the one(s) of	
-136516	t	/t, /t=				
-136516	t	[t, [t=, [t==, [t===				
+136516	t	/t, /t=				DULAT: NOT FOUND
+136516	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.2 III:13						
 136517	ḥrḥrtm	ḥrḥrt/~m	ḥrḥrt	n. f. sg. / du.	crimson red	
 136518	w	w	w	conj.	and	
@@ -763,7 +763,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136527	bn	bn(II)	bn (II)	prep.	between	
 136527	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 1.2 III:15						
-136528	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 136528	nn	grš[	/g-r-š/	vb	to eject	
 136528	nn	gr[	/g-r(-y)/	vb	to attack	
 136529	nrt	nr(t(I)/t	nrt (I)	n. f. sg.	lantern	
@@ -1312,7 +1311,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136897	b	b	b	prep.	in	
 # KTU 1.2 IV:31						
 136898	ybṯ	!y!bṯ[	/b-ṯ/	vb G prefc. / vb G suffc.	to be ashamed	
-136899	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 136899	nn	grš[	/g-r-š/	vb	to eject	
 136899	nn	gr[	/g-r(-y)/	vb	to attack	
 136900	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	

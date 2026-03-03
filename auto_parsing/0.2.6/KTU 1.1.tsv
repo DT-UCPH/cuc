@@ -217,10 +217,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135686	l	l(I)	l (I)	prep.	to	
 135686	l	l(III)	l (III)	functor	certainly	
 135687	skt	sk(II)/t=	sk (II)	n. m. pl.	den	
-135688	n	~n	-n (I)	encl. morph.		
-135688	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-135688	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-135688	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+135688	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+135688	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+135688	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+135688	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.1 III:9						
 135689	ˤdb	ˤdb[	/ʕ-d-b/	vb G suffc. / vb G impv.	to leave > to put in	
 135689	ˤdb	!!ˤdb[/	/ʕ-d-b/	vb G inf.	to leave > to put in	
@@ -750,8 +750,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136017	b	b	b	prep.	in	
 136018	ši	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.1 V:27						
-136019	t	/t, /t=				
-136019	t	[t, [t=, [t==, [t===				
+136019	t	/t, /t=				DULAT: NOT FOUND
+136019	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 136020	l	l(III)	l (III)	functor	certainly	
 136021	tzd	!t!zd[	/z-d/	vb G prefc.	to boil	
 136022	l	l(III)	l (III)	functor	certainly	

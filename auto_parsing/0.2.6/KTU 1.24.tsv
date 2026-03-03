@@ -95,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147687	xxx	?	?	?	?	
 147688	tb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 15						
-147689	ˤ	?	?	?	?	
+147689	ˤ	?	?	?	?	DULAT: NOT FOUND
 147690	l	l(IV)	l (IV)	interj.	oh!	
 147691	kṯrt	kṯrt/	kṯrt	DN	Swallows	
 147692	l	l(IV)	l (IV)	interj.	oh!	
@@ -126,9 +126,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147708	tˤrbm	!t!ˤrb(I)[m	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 147709	bbh	bb/+h	bb	PN	bb	
 # KTU 1.24 19						
-147710	th	m(II)+h	-m (II)	morph.	und das (ist) so!	
-147710	th	aḫt(I)/+h	ảḫt (I)	n. f.	sister (related by blood)	
-147710	th	rḫnt/+h	rḫnt	n. f.	sweetness	
+147710	th	?	?	?	?	DULAT: NOT FOUND
 147711	w	w	w	conj.	and	
 147712	atn	ytn[	/y-t-n/	vb G prefc.	to give	
 147713	mhrh	mhr(I)/h	mhr (I)	n. m. sg.	warrior (trained, expert)	
@@ -195,8 +193,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 28						
 147749	yġtr	!y!ġtr[	/ġ-t-r/	vb G prefc.	to implore	
 147750	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
-147751	t	/t, /t=				
-147751	t	[t, [t=, [t==, [t===				
+147751	t	/t, /t=				DULAT: NOT FOUND
+147751	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.24 29						
 147752	rḫ	?	?	?	?	DULAT: NOT FOUND
 147753	lk	l(I)+k	l (I)	prep.	to	
@@ -252,7 +250,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147782	mšrrm	mšrr/	mšrr	n. m. sg.	pointer (of the balance)	
 147783	aḫtth	?	?	?	?	DULAT: NOT FOUND
 147784	l	l(III)	l (III)	functor	certainly	
-147785	a	?	?	?	?	
+147785	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 37						
 147786	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 147786	bn	bn(II)	bn (II)	prep.	between	
@@ -280,15 +278,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147800	bn	bn(II)	bn (II)	prep.	between	
 147800	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 1.24 41						
-147801	t	/t, /t=				
-147801	t	[t, [t=, [t==, [t===				
+147801	t	/t, /t=				DULAT: NOT FOUND
+147801	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 147802	hll	hll/	hll	DN	New Moon	
 147803	snnt	snnt/	snnt	n. f. pl.	swallow	
 147804	bnt	bn(t(II)/t	bnt (II)	n. f. sg.	produce	
 147804	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
 147804	bnt	bnt(III)/	bnt (III)	n. m. sg.	tamarisk	
-147805	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
-147805	h	~h	-h(II)	adv. functor	to, towards	
+147805	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
+147805	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 # KTU 1.24 42						
 147806	ll	ll(I)/	ll (I)	n. m. sg.	night	
 147807	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	

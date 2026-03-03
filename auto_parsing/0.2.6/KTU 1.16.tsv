@@ -638,9 +638,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 II:46						
 143577	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 143577	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
-143578	nny	ṣpn/+ny	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 143578	nny	grš[+y	/g-r-š/	vb G suffc. / vb G impv.	to eject	
 143578	nny	grš[/+y	/g-r-š/	vb G ptcpl. m. sg.	to eject	
+143578	nny	gr[+y	/g-r(-y)/	vb G suffc.	to attack	
 143578	nny	nny/	nny	TN	nny	
 143579	ḥlm	ḥlm(I)/	ḥlm (I)	n. m. sg.	dream	
 143580	adr	adr(I)/	ảdr (I)	adj. m. or n. m. sg.	wonderful	
@@ -1168,8 +1168,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 V:50						
 143890	zbln	zbln/	zbln	n. m. sg.	sickness	
 # KTU 1.16 V:51						
-143891	t	/t, /t=				
-143891	t	[t, [t=, [t==, [t===				
+143891	t	/t, /t=				DULAT: NOT FOUND
+143891	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.16 V:52						
 143892	b	b	b	prep.	in	
 # KTU 1.16 VI:1						
@@ -1227,7 +1227,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143926	w	w	w	conj.	and	
 143927	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 143928	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc.	to wash	
-143929	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 143929	nn	grš[	/g-r-š/	vb	to eject	
 143929	nn	gr[	/g-r(-y)/	vb	to attack	
 143930	b	b	b	prep.	in	
@@ -1402,8 +1401,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144031	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 # KTU 1.16 VI:35						
 144032	km	km	km	prep./conj./adv.		
-144033	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. sg.	sister (related by blood)	
-144033	aḫt	aḫ(t(I)/t=	ảḫt (I)	n. f. sg.	sister (related by blood)	
+144033	aḫt	aḫ(t(I)/t=	/ʔ-ḫ-d(/ḏ)/	vb G suffc.	to collect	
 144034	ˤrš	ˤrš/	ʕrš	n. f. sg.	bed	
 144035	mdw	mdw/	mdw	n. m. sg.	sickness	
 # KTU 1.16 VI:36						

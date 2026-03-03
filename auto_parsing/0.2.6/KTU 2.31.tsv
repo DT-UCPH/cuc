@@ -20,8 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157264	bt	bt(II)/	bt (II)	n. m. sg.	house	
 157264	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 157264	bt	bt(III)/	bt (III)	n. m. pl.	length	
-157265	t	/t, /t=				
-157265	t	[t, [t=, [t==, [t===				
+157265	t	/t, /t=				DULAT: NOT FOUND
+157265	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 2.31 6						
 157266	xxx	?	?	?	?	
 157267	xxank	?	?	?	?	DULAT: NOT FOUND
@@ -110,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157322	xlm	?	?	?	?	DULAT: NOT FOUND
 157323	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 24						
-157324	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
+157324	ḥ	ḥ/	ḥ	n. m.	life	
 157325	asrm	asr/m	ảsr	n. m. pl.	prisoner	
 # KTU 2.31 25						
 157326	dbḥn	dbḥ/	dbḥ	n. m. sg.	sacrifice	
@@ -129,7 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 30						
 157335	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 31						
-157336	q	?	?	?	?	
+157336	q	?	?	?	?	DULAT: NOT FOUND
 157337	mrkbt	mrkb(t/t	mrkbt	n. f. sg.	(light war-)chariot	
 157337	mrkbt	mrkb(t/t=	mrkbt	n. f. sg.	(light war-)chariot	
 # KTU 2.31 32						

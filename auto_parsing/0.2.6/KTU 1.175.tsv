@@ -17,7 +17,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 4						
 155941	ṯrn	ṯrn(I)	ṯrn (I)			
 155942	dk	d+k	d	det. or rel. functor	the one(s) of	
-155942	dk	dll[+k	/d-l-l/	vb	to oppress	
 # KTU 1.175 5						
 155943		?	?	?	?	
 155944	w	w	w	conj.	and	
@@ -36,8 +35,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155952	w	w	w	conj.	and	
 155953	yšḥmm	!y!]š]ḥmm[	/ḥ-m-m/	vb Š prefc.	to heat up	
 # KTU 1.175 8						
-155954	t	/t, /t=				
-155954	t	[t, [t=, [t==, [t===				
+155954	t	/t, /t=				DULAT: NOT FOUND
+155954	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 155955	w	w	w	conj.	and	
 155956	byn	b+n	b	prep.	in	
 155956	byn	byn/	byn	PN	byn	
@@ -66,7 +65,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155969	bṯn	bṯn/	bṯn	n. m. sg.	serpent	
 # KTU 1.175 12						
 155970	dk	d+k	d	det. or rel. functor	the one(s) of	
-155970	dk	dll[+k	/d-l-l/	vb	to oppress	
 155971	yḥdh	yḥdh	yḥdh	adv.	together	
 155972	w	w	w	conj.	and	
 155973	šgbˤll	?	?	?	?	DULAT: NOT FOUND

@@ -215,7 +215,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141817	ṯxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.14 I:45						
 141818	xxn	?	?	?	?	DULAT: NOT FOUND
-141819	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
+141819	ḥ	ḥ/	ḥ	n. m.	life	
 # KTU 1.14 I:46						
 141820		?	?	?	?	
 # KTU 1.14 I:47						
@@ -1192,7 +1192,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142427	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 142427	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 142427	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
-142428	a	?	?	?	?	
+142428	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.14 IV:45						
 142429	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 142429	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
@@ -1319,8 +1319,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142499	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
 142499	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
 # KTU 1.14 V:14						
-142500	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
-142500	h	~h	-h(II)	adv. functor	to, towards	
+142500	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
+142500	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 142501	kyṣḥ	?	?	?	?	DULAT: NOT FOUND
 142502	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv.	to hear	
 142502	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
@@ -1667,8 +1667,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142703	špḥ	špḥ/	špḥ	n. m.	family	
 142704	lkrk	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.14 VI:34						
-142705	t	/t, /t=				
-142705	t	[t, [t=, [t==, [t===				
+142705	t	/t, /t=				DULAT: NOT FOUND
+142705	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 142706	w	w	w	conj.	and	
 142707	ġlm	ġlm/	ġlm	n. m. sg.	boy	
 142708	l	l(I)	l (I)	prep.	to	

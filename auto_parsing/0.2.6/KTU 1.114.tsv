@@ -71,7 +71,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153825	y	+y, [y	-y (I)	prep. functor	my	
 153825	y	~y	-y (II)	prep. functor	indeed	
 153825	y	y	y	prep. functor	oh!	
-153826	lmn	šlm[:d	/š-l-m/	vb D prefc.	to be well	
+153826	lmn	l(I)+n	l (I)	prep.	to	
+153826	lmn	šlm[	/š-l-m/	vb	to be well	
+153826	lmn	lm(II)/+n	lm (II)	interr. pn.	why?	
 153827	ḫṭm	ḫṭ/~m	ḫṭ	n. m. sg.	sceptre	
 153828	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 153829	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg.	table	
@@ -159,7 +161,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153880	l	l(III)	l (III)	functor	certainly	
 153881	ḥẓrh	ḥẓr/h	ḥẓr	n. m. sg.	mansion	
 153882	yˤmsn	!y!ˤms[n	/ʕ-m-s/	vb G prefc. / vb G suffc.	to load	
-153883	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 153883	nn	grš[	/g-r-š/	vb	to eject	
 153883	nn	gr[	/g-r(-y)/	vb	to attack	
 153884	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	

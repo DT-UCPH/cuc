@@ -78,7 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159514	l	l(I)	l (I)	prep.	to	
 159514	l	l(II)	l (II)	adv.	no	
 159514	l	l(III)	l (III)	functor	certainly	
-159515	tšm	!t!š(l(m[:d+m(I)	/š-l-m/	vb D prefc.	to be well	
+159515	tšm	!t!š(l(m[+m(I)	/š-l-m/	vb	to be well	
 # KTU 2.85 16						
 159516	w	w	w	conj.	and	
 159517	ixx	?	?	?	?	DULAT: NOT FOUND
@@ -158,8 +158,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159562	d	d	d	det. or rel. functor	the one(s) of	
 159563	ḫsrxxxb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 35						
-159564	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
-159564	h	~h	-h(II)	adv. functor	to, towards	
+159564	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
+159564	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 159565	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 159565	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
 159566	txxxxxy	?	?	?	?	DULAT: NOT FOUND
@@ -173,4 +173,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159572	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
 159573	ˤxn	?	?	?	?	DULAT: NOT FOUND
 159574	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
-159575	q	?	?	?	?	
+159575	q	?	?	?	?	DULAT: NOT FOUND

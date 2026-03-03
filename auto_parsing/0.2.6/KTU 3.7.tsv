@@ -81,8 +81,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161136	tkn	!t!kn[	/k-n/	vb G prefc.	to be (stable)	
 161137		?	?	?	?	
 # KTU 3.7 14						
+161138	knn	k(III)+nn	k (III)	Subordinating or completive functor	when, ?	
 161138	knn	k(I)+nn	k (I)	prep.	like, ?	
-161138	knn	k(II)+nn	k (II)	emph. functor	yes, ?	
 161138	knn	knn/	knn	PN	knn	
 161139	b	b	b	prep.	in	
 161140	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg.	massif	
@@ -93,7 +93,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161142	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 161142	bn	bn(II)	bn (II)	prep.	between	
 161142	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
-161143	mṯ	mṯn/	mṯn	n. m.	repetition	
 161143	mṯ	mṯ(I)/	mṯ (I)	n. m. sg.	infant	
 161144	b	b	b	prep.	in	
 161145	qmy	qm[+y	/q-m/	vb G suffc. / vb G impv.	to stand up	

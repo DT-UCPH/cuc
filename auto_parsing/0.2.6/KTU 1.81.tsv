@@ -49,10 +49,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.81 11						
 149984	l	l(I)	l (I)	prep.	to	
 149985	ršp	ršp/	ršp	DN	Rašap	
-149986	n	~n	-n (I)	encl. morph.		
-149986	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-149986	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-149986	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+149986	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+149986	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+149986	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+149986	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.81 12						
 149987	l	l(I)	l (I)	prep.	to	
 149987	l	l(III)	l (III)	functor	certainly	

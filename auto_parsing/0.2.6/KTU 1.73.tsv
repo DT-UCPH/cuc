@@ -24,8 +24,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149801	lbṯ	?	?	?	?	DULAT: NOT FOUND
 149802	tx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.73 6						
-149803	t	/t, /t=				
-149803	t	[t, [t=, [t==, [t===				
+149803	t	/t, /t=				DULAT: NOT FOUND
+149803	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 149804	ṯm	ṯm	ṯm	adv.	there	
 149805	qby	?	?	?	?	DULAT: NOT FOUND
 149806	ax	?	?	?	?	DULAT: NOT FOUND
@@ -48,13 +48,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.73 11						
 149818	anẓ	anẓ	ảnẓ	→	?	
 149819	wġzr	?	?	?	?	DULAT: NOT FOUND
-149820	t	/t, /t=				
-149820	t	[t, [t=, [t==, [t===				
+149820	t	/t, /t=				DULAT: NOT FOUND
+149820	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.73 12						
 149821	w	w	w	conj.	and	
 149822	kbdt	kbd(I)	kbd (I)		liver	
-149823	t	/t, /t=				
-149823	t	[t, [t=, [t==, [t===				
+149823	t	/t, /t=				DULAT: NOT FOUND
+149823	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.73 13						
 149824	w	w	w	conj.	and	
 149825	ta	?	?	?	?	DULAT: NOT FOUND
@@ -71,5 +71,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.73 17						
 149832	xznl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.73 18						
-149833	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
-149833	h	~h	-h(II)	adv. functor	to, towards	
+149833	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
+149833	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND

@@ -55,10 +55,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152342	mt	mt[	/m-t/	vb G suffc.	to die	
 152342	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 152342	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
-152343	n	~n	-n (I)	encl. morph.		
-152343	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-152343	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-152343	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+152343	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+152343	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+152343	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+152343	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 152344	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
 152344	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 152344	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
@@ -150,7 +150,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152405	bhmt	bhm(t/t	bhmt	n. f. sg.	cattle	
 152406	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 # KTU 1.103 17						
-152407	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
+152407	ḥ	ḥ/	ḥ	n. m.	life	
 152408	ṯnn	ṯnn(I)/	ṯnn (I)	n. m. sg.	archer	
 152409	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc.	to be strong	
 152409	ˤz	ˤz(III)/	ʕz (III)	adj. m. or n. m. sg.	strong	

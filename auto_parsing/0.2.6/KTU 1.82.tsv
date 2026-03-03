@@ -165,7 +165,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150099	bnt	bt(I)/	bt (I)	n. f. pl.	daughter	
 150099	bnt	bn(t(II)/t	bnt (II)	n. f. sg.	produce	
 150099	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
-150100	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
+150100	ḥ	ḥ/	ḥ	n. m.	life	
 # KTU 1.82 14						
 150101	uḫd	(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G impv.	to collect	
 150101	uḫd	(ʔ&uḫd[/	/ʔ-ḫ-d(/ḏ)/	vb Gpass ptcpl.	to collect	
@@ -212,8 +212,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150127	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
 150127	bnt	bnt(III)/	bnt (III)	n. m. sg.	tamarisk	
 150128	ḫrp	ḫrp	ḫrp		mania	
-150129	ak	mru(I)/+k	mrủ (I)	adj. m. or n. m.	fattened	
-150129	ak	ṣbu(II)/+k	ṣbủ (II)	n. m.	setting	
+150129	ak	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.82 19						
 150130	xxxxxxxx	?	?	?	?	
 150131	aḥw	!(ʔ&a!ḥw(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc.	to live	
@@ -307,10 +306,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 29						
 150185	xxxxxxxxxxxx	?	?	?	?	
 150186	aṯtn	aṯt/	ảṯt	n. f. du.	woman	
-150187	n	~n	-n (I)	encl. morph.		
-150187	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-150187	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-150187	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+150187	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+150187	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+150187	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+150187	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.82 30						
 150188	xxxxxxxxxxxḥrġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.82 31						
@@ -336,10 +335,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150202	w	w	w	conj.	and	
 150203	tḥ	!t!ḥ(w(I)[	/ḥ-w/y-y/ (I)	vb G prefc.	to live	
 150204	ṭbt	ṭb(t/t	ṭbt	n. f. sg.	well-being	
-150205	n	~n	-n (I)	encl. morph.		
-150205	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-150205	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-150205	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+150205	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+150205	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+150205	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+150205	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.82 35						
 150206	xxxxxxbṯnm	?	?	?	?	DULAT: NOT FOUND
 150207	wtṯb	?	?	?	?	DULAT: NOT FOUND

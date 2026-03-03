@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-03-04
+- Refreshed `auto_parsing/0.2.6` against a rebuilt DULAT cache that preserves curly-brace uncertainty inside single forms (for example `ḥ{q}kpt`).
+- This removes the one-letter false TN match class caused by fragmented DULAT forms, so rows like `155086 ḥ -> ḥkpt/` and `155820 qd -> ḥkpt/+d` no longer appear after regeneration.
+
 ## 2026-03-03
 - Made DULAT note-backed `-m` handling ambiguity-aware across the corpus:
   - `pipeline/config/dulat_form_note_index.py` now indexes both exact `encl. -m` form notes and note-listed extended `...m` surfaces.

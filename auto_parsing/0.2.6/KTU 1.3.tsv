@@ -566,7 +566,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137330	w	w	w	conj.	and	
 137331	lḫšt	lḫš(t/t	lḫšt	n. f. sg.	chatter	
 137332	abn	abn/	ảbn	n. f. sg. / n. f. pl. cstr.	stone	
-137333	ˤ	?	?	?	?	
+137333	ˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 III:24						
 137334	tant	?	?	?	?	DULAT: NOT FOUND
 137335	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
@@ -766,7 +766,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137461	u	u	ủ	conj.	or	
 137462	dnh	d+nh	d	det. or rel. functor	the one(s) of, ?	
 137462	dnh	dn(I)/+h	dn (I)	n. m.	judgment	
-137462	dnh	dll[+nh	/d-l-l/	vb	to oppress, ?	
 137463	gršh	grš[/h	/g-r-š/	vb G ptcpl. m. sg.	to eject	
 137464	l	l(I)	l (I)	prep.	to	
 137465	ksi	ks/	ks/śủ	n. f.	seat	
@@ -1218,7 +1217,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137753	aṯb	yṯb[	/y-ṯ-b/	vb G prefc.	to sit down	
 # KTU 1.3 V:1						
 137754	xxxamṣḫ	?	?	?	?	DULAT: NOT FOUND
-137755	nn	ṣpn/+n	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 137755	nn	grš[	/g-r-š/	vb	to eject	
 137755	nn	gr[	/g-r(-y)/	vb	to attack	
 137756	k	k(I)	k (I)	prep.	like	
@@ -1583,7 +1581,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 V:46						
 137985	x	?	?	?	?	
 # KTU 1.3 V:47						
-137986	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
+137986	ḥ	ḥ/	ḥ	n. m.	life	
 # KTU 1.3 V:48						
 137987	x	?	?	?	?	
 # KTU 1.3 V:49						
@@ -1800,8 +1798,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138109	ṯny	!!ṯny[/	/ṯ-n-y/	vb G inf.	to repeat	
 138110	l	l(I)	l (I)	prep.	to	
 138110	l	l(III)	l (III)	functor	certainly	
-138111	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	
-138111	h	~h	-h(II)	adv. functor	to, towards	
+138111	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
+138111	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 # KTU 1.3 VI:34						
 138112	yn	yn/	yn	n. m. sg.	wine	
 138113	d	d	d	det. or rel. functor	the one(s) of	

@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 1						
-150309	t	/t, /t=				
-150309	t	[t, [t=, [t==, [t===				
+150309	t	/t, /t=				DULAT: NOT FOUND
+150309	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 150310	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 1.84 2						
 150311	w	w	w	conj.	and	
@@ -212,7 +212,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150470	xxx	?	?	?	?	
 # KTU 1.84 32						
 150471	dkm	d+km	d	det. or rel. functor	the one(s) of	
-150471	dkm	dll[+km	/d-l-l/	vb	to oppress	
 # KTU 1.84 33						
 150472		?	?	?	?	
 # KTU 1.84 34						

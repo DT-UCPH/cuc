@@ -75,8 +75,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150840	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 150841	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 # KTU 1.87 10						
-150842	t	/t, /t=				
-150842	t	[t, [t=, [t==, [t===				
+150842	t	/t, /t=				DULAT: NOT FOUND
+150842	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 150843	k	+k	-k (I)			
 150843	k	~k	-k (II)			
 150843	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -320,10 +320,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150983	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. sg.	small	
 150984	ṯkm	ṯkm/	ṯkm	n. m. sg.	shoulder	
 # KTU 1.87 34						
-150985	n	~n	-n (I)	encl. morph.		
-150985	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-150985	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-150985	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+150985	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+150985	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+150985	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+150985	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 150986	w	w	w	conj.	and	
 150987	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 150987	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	

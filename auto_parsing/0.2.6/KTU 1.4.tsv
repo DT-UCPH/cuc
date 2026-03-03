@@ -136,7 +136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138200	ksp	ksp/	ksp	n. m. sg.	silver	
 138201	yšl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 I:26						
-138202	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
+138202	ḥ	ḥ/	ḥ	n. m.	life	
 138203	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 138204	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G suffc.	to pour (out)	
 138205	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -416,8 +416,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138391	qḥ	lqḥ[	/l-q-ḥ/	vb G impv.	to get hold of	
 138392	rṯt	rṯ(t/t	rṯt	n. f. sg.	net	
 138393	bdk	bd(IV)+k	bd (IV)	prep.	into the hands of	
-138394	t	/t, /t=				
-138394	t	[t, [t=, [t==, [t===				
+138394	t	/t, /t=				DULAT: NOT FOUND
+138394	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.4 II:33						
 138395	rbt	rb(t(II)/t	rbt (II)	n. f. sg.	seine	
 138396	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -1967,20 +1967,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139376	dm	dm(I)	dm (I)	functor	since	
 139377	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	
 # KTU 1.4 VI:60						
-139378	n	~n	-n (I)	encl. morph.		
-139378	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-139378	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-139378	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+139378	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+139378	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+139378	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+139378	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.4 VI:61						
-139379	t	/t, /t=				
-139379	t	[t, [t=, [t==, [t===				
+139379	t	/t, /t=				DULAT: NOT FOUND
+139379	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.4 VI:62						
 139380	ṯ	ṯ	ṯ	→	?	
 # KTU 1.4 VI:63						
-139381	n	~n	-n (I)	encl. morph.		
-139381	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-139381	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-139381	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+139381	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+139381	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+139381	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+139381	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.4 VI:64						
 139382	xt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 VI:65						
@@ -2136,7 +2136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139481	l	l(III)	l (III)	functor	certainly	
 139482	hwty	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 139483	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb G prefc. / vb N prefc.	to open	
-139484	ḥ	ḥkpt/	ḥkpt	TN	ḥkpt	
+139484	ḥ	ḥ/	ḥ	n. m.	life	
 # KTU 1.4 VII:26						
 139485	ln	l(I)+n	l (I)	prep.	to	
 139486	b	b	b	prep.	in	
@@ -2302,7 +2302,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139590	d	d	d	det. or rel. functor	the one(s) of	
 139591	yšb	!y!(yṯb[	/y-ṯ-b/	vb	to sit down	
 # KTU 1.4 VII:52						
-139592	ˤ	?	?	?	?	
+139592	ˤ	?	?	?	?	DULAT: NOT FOUND
 139593	hmlt	hml(t/t=	hmlt	n. f. pl.	multitude	
 139594	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 139595	gm	g/~m	g	n. m. sg.	(loud) voice	
@@ -2482,7 +2482,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139701	mt	mt[/	/m-t/	vb G ptcpl.	to die	
 139701	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
 139702	b	b	b	prep.	in	
-139703	a	?	?	?	?	
+139703	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 VIII:25						
 139704	lp	?	?	?	?	DULAT: NOT FOUND
 139705	šd	šd(I)/	šd (I)	n. m. sg.	open field	
@@ -2553,7 +2553,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VIII:34						
 139734	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 139735	aliy	aliy/	ảlỉy	adj. m. sg.	The Most Powerful	
-139736	q	?	?	?	?	
+139736	q	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 VIII:35						
 139737	rdm	yrd[+m(I)	/y-r-d/	vb G prefc. / vb G suffc.	to go down	
 139738	bhty	bt(II)/+y	bt (II)	n. m.	house	
@@ -2603,8 +2603,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139761	ugr	ugr(II)/	ủgr (II)	DN	Ugar/one of the two messenger-boys of Baal	
 139761	ugr	ugr(I)/	ủgr (I)	n. m.	field	
 # KTU 1.4 VIII:48						
-139762	t	/t, /t=				
-139762	t	[t, [t=, [t==, [t===				
+139762	t	/t, /t=				DULAT: NOT FOUND
+139762	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.4 VIII:49						
 139763	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
 139763	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	

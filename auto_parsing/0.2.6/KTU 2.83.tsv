@@ -21,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159403	y	~y	-y (II)	prep. functor	indeed	
 159403	y	y	y	prep. functor	oh!	
 159404	adnty	?	?	?	?	DULAT: NOT FOUND
-159405	a	?	?	?	?	
+159405	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.83 6						
 159406	xm	?	?	?	?	DULAT: NOT FOUND
 159407	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
@@ -46,10 +46,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159418	su	?	?	?	?	DULAT: NOT FOUND
 159419	adr	adr(I)/	ảdr (I)	adj. m. or n. m. sg.	wonderful	
 # KTU 2.83 11						
-159420	n	~n	-n (I)	encl. morph.		
-159420	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	
-159420	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	
-159420	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	
+159420	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+159420	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+159420	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
+159420	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
 159421	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
 159421	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 159422	i	i(I)	ỉ (I)	interj.	woe	
