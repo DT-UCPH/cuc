@@ -38,10 +38,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.108 8						
 160643	by	b	b	prep.	in	
 160644	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-160644	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-160644	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+160644	spr	spr[	/s-p-r/	vb G suffc.	to count	
+160644	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+160644	spr	spr[	/s-p-r/	vb D suffc.	to count	
+160644	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 160644	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
-160645	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+160645	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+160645	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 160645	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 160645	št	št(I)/	št (I)	n. m. sg.	base	
 # KTU 2.108 9						
@@ -71,9 +74,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.108 14						
 160662	b	b	b	prep.	in	
 160663	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-160663	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-160663	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+160663	spr	spr[	/s-p-r/	vb G suffc.	to count	
+160663	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+160663	spr	spr[	/s-p-r/	vb D suffc.	to count	
+160663	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 160663	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 160664	štnn	št[n+n	/š-t/	vb G impv.	to place	
-160664	štnn	št[:pass+nn	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place, ?	
+160664	štnn	št[:pass+nn	/š-t/	vb G suffc. / vb G impv.	to place, ?	
+160664	štnn	št[+nn	/š-t/	vb Gpass suffc.	to place, ?	
 160664	štnn	št(II)/+nn	št (II)	n. f.	raíz, ?	

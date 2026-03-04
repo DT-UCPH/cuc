@@ -2,7 +2,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 1						
 151218	yn	yn/	yn	n. m. sg.	wine	
 151219	d	d	d	det. or rel. functor	the one(s) of	
-151220	ykl	!y!kl(y[:d	/k-l-y/	vb G prefc. / vb D prefc.	to finish	
+151220	ykl	!y!kl(y[	/k-l-y/	vb G prefc.	to finish	
+151220	ykl	!y!kl(y[:d	/k-l-y/	vb D prefc.	to finish	
 151221	bd	b	b	prep.	in	
 151222	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 2						
@@ -108,7 +109,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 21						
 151271	lbnm	lbn(I)/m	lbn (I)	adj. m. pl.	white	
 151272	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
-151272	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+151272	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+151272	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 151272	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151273	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 22						
@@ -121,7 +123,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 23						
 151278	bṣr	bṣr(II)[	/b-ṣ-r/ (II)	vb G impv.	to sever	
 151279	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
-151279	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+151279	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+151279	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151280	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 24						
@@ -151,7 +154,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 29						
 151296	bir	bir/	bỉr	TN/n. f.	biʾiru	
 151297	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
-151297	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+151297	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+151297	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 151297	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151298	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151299	xxxxxtm	?	?	?	?	DULAT: NOT FOUND

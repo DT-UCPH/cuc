@@ -23,7 +23,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158842	p	p(III)/	p (III)	n. m.	mouth	
 158842	p	p(II)	p (II)	adv.	here	
 158843	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158843	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158843	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158843	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158843	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.70 6						
 158844	l	l(I)	l (I)	prep.	to	
@@ -69,7 +70,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158870	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc.	to get hold of	
 158871	w	w	w	conj.	and	
 158872	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
-158872	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb D suffc. / vb Dpass suffc.	to live	
+158872	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc.	to live	
+158872	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc.	to live	
 # KTU 2.70 16						
 158873	hbt	hbt	hbt	→	?	
 158874	w	w	w	conj.	and	
@@ -132,7 +134,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158903	l	l(II)	l (II)	adv.	no	
 158903	l	l(III)	l (III)	functor	certainly	
 158904	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158904	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158904	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158904	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158904	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.70 27						
 158905	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	

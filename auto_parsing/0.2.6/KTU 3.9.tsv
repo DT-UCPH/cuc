@@ -12,7 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161194	btw	bt(II)/	bt (II)	n. m.	house	
 # KTU 3.9 5						
 161195	w	w	w	conj.	and	
-161196	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+161196	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+161196	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 161197	ibsn	ibsn/	ỉbsn	n. m. sg.	warehouse	
 # KTU 3.9 6						
 161198	lwkm	?	?	?	?	DULAT: NOT FOUND

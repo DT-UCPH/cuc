@@ -136,7 +136,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153866	b	b	b	prep.	in	
 153867	mrzḥh	mrzḥ/+h	mrzḥ	n. m.	cultic association	
 # KTU 1.114 16						
-153868	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+153868	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+153868	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 153868	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
 153869	yn	yn/	yn	n. m. sg.	wine	
 153870	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
@@ -248,10 +249,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153926	trpa	!t!rp(ʔ[&a	/r-p-ʔ/	vb G prefc.	to heal	
 153927	hn	hn	hn	functor	behold!	
 153928	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. / n. m. pl. cstr.	boy	
-153928	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. / vb G suffc. / vb N prefc. / vb N suffc.	to become agitated	
+153928	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. / vb G suffc.	to become agitated	
+153928	nˤr	!n!](n]ˤr[	/ʕ-r/	vb N prefc. / vb N suffc.	to become agitated	
 # KTU 1.114 29						
 153929	d	d	d	det. or rel. functor	the one(s) of	
-153930	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+153930	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+153930	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 153931	l	l(I)	l (I)	prep.	to	
 153931	l	l(III)	l (III)	functor	certainly	
 153932	lṣbh	lṣb/+h	lṣb	n. m.	brow	
@@ -267,7 +270,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153940	šrh	šry[	/š-r-y/w/	vb G suffc.	to release	
 153940	šrh	!!šrh[/	/š-r-y/w/	vb G inf.	to release	
 # KTU 1.114 31						
-153941	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+153941	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+153941	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 153941	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
 153942	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
 153943	dm	dm(II)/	dm (II)	n. m.	blood	

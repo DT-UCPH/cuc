@@ -4,8 +4,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148898	išrythlnr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.45 2						
 148899	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-148899	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-148899	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+148899	spr	spr[	/s-p-r/	vb G suffc.	to count	
+148899	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+148899	spr	spr[	/s-p-r/	vb D suffc.	to count	
+148899	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 148899	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 148900	xxxk	?	?	?	?	DULAT: NOT FOUND
 148901	šbˤt	šbˤ(I)/	šbʕ (I)	num.	seven	
@@ -41,7 +43,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148921	bk	b	b	prep.	in	
 148921	bk	!!bk[/	/b-k-y/	vb G inf.	to weep	
 148921	bk	bk/	bk	n. m. sg.	beaker	
-148922	mla	ml(ʔ&a[:d	/m-l-ʔ/	vb G suffc. / vb D suffc.	to be full	
+148922	mla	ml(ʔ&a[	/m-l-ʔ/	vb G suffc.	to be full	
+148922	mla	ml(ʔ&a[:d	/m-l-ʔ/	vb D suffc.	to be full	
 148923	ḏxx	?	?	?	?	DULAT: NOT FOUND
 148924	xxx	?	?	?	?	
 # KTU 1.45 11						

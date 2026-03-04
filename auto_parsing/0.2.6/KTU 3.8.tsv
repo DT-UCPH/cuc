@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.8 1						
-161149	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
 161149	tldn	!!yld[/+n	/y-l-d/	vb G inf.	to give birth (to)	
+161149	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
 161149	tldn	tldn/	tldn	PN	tldn	
 # KTU 3.8 2						
 161150	ṯrkn	ṯr(I)/+kn	ṯr (I)	n. m.	bull	
@@ -88,6 +88,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161187	brqn	brq(I)/+n	brq (I)	n. m.	ray	
 161187	brqn	brqn/	brqn	PN	brqn	
 161188	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-161188	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-161188	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+161188	spr	spr[	/s-p-r/	vb G suffc.	to count	
+161188	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+161188	spr	spr[	/s-p-r/	vb D suffc.	to count	
+161188	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 161188	spr	spr(I)/	spr (I)	n. m. sg.	scribe	

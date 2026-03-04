@@ -54,7 +54,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158135	il	il(I)/	ỉl (I)	n. m.	god	
 158136	alṯy	alṯy/	ảlṯy(y)	GN	ảlṯy(y)	
 158137	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158137	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158137	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158137	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158137	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.42 9						
 158138	nmry	nmry	nmry		Nimmureya	
@@ -74,7 +75,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158147	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 # KTU 2.42 12						
 158148	ˤšrid	ˤšr(I)/+id	ʕšr (I)	num.	ten, time	
-158148	ˤšrid	ˤšr[:d:pass+id	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite, time	
+158148	ˤšrid	ˤšr[:d:pass+id	/ʕ-š-r/	vb D suffc.	to invite, time	
+158148	ˤšrid	ˤšr[+id	/ʕ-š-r/	vb Dpass suffc.	to invite, time	
 158148	ˤšrid	ˤšrid	ʕšrỉd	adv.	ten times	
 158149	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	
 # KTU 2.42 13						
@@ -89,7 +91,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.42 15						
 158155	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 2.42 16						
-158156	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+158156	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+158156	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 158157	u	u	ủ	conj.	or	
 # KTU 2.42 17						
 158158	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	

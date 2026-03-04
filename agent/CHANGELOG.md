@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-03-04
+- Added `pipeline/steps/verb_mixed_stem_split.py` so rows whose verb POS carries multiple stem signatures are split into aligned semicolon variants before stem-marker normalization; this prevents collapsed rows like `yšlm -> vb G prefc. / vb D prefc.` from forcing `:d` onto the shared analysis and lets the post-verb unwrapper emit separate `G` and `D` rows.
 - Fixed bracketed-form fallback extraction in `pipeline/config/dulat_entry_forms_fallback.py` so forms like `yq[bh]` no longer get indexed as standalone tails such as `bh`, and added `pipeline/steps/function_word_clitic_pruner.py` to drop unreconstructable host-only function-word rows when the same lexeme already has a clitic-bearing sibling (for example `bh: b+h` now survives, bare `b` does not).
 - Refreshed `auto_parsing/0.2.6` against a rebuilt DULAT cache that preserves curly-brace uncertainty inside single forms (for example `ḥ{q}kpt`).
 - This removes the one-letter false TN match class caused by fragmented DULAT forms, so rows like `155086 ḥ -> ḥkpt/` and `155820 qd -> ḥkpt/+d` no longer appear after regeneration.

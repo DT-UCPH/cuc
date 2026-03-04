@@ -41,7 +41,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156616	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
 # KTU 2.11 12						
 156617	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-156617	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+156617	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+156617	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 156617	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.11 13						
 156618	w	w	w	conj.	and	
@@ -58,7 +59,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.11 16						
 156625	mnm	mnm	mnm	indef. pn.	any(thing)	
 156626	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-156626	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+156626	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+156626	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 156626	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.11 17						
 156627	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	

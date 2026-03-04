@@ -26,7 +26,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:5						
 139786	ipdk	ipd/+k	ỉpd	n. m.	tunic	
 139787	ank	ank	ảnk	pers. pn.	I	
-139788	ispi	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb G prefc. / vb N prefc.	to devour	
+139788	ispi	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb G prefc.	to devour	
+139788	ispi	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc.	to devour	
 139789	uṭm	uṭ/+m(I)	ủṭ	n. m.	span	
 # KTU 1.5 I:6						
 139790	ḏrqm	ḏrq/m	ḏrq	n. m. pl.	fragment	
@@ -76,8 +77,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139817	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 139818	w	w	w	conj.	and	
 139819	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-139819	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-139819	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+139819	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+139819	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+139819	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+139819	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 # KTU 1.5 I:12						
 139820	gmpn	?	?	?	?	DULAT: NOT FOUND
 139821	w	w	w	conj.	and	
@@ -223,7 +226,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139918	l	l(III)	l (III)	functor	certainly	
 139919	šmm	šm(m(I)/m	šmm (I)	n. m. tant. pl. / n. m. tant. du.	heavens	
 # KTU 1.5 II:3						
-139920	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+139920	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+139920	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 139920	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
 139921	lšn	lšn/	lšn	n. f. sg.	tongue	
 139922	l	l(I)	l (I)	prep.	to	
@@ -683,7 +687,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140177	ks	ks(I)/	ks (I)	n. m. sg.	cup	
 140177	ks	ks/	ks/śm(n)	n. m. pl.	emmer-corn	
 140178	ksp	ksp/	ksp	n. m. sg.	silver	
-140179	ymlun	!y!ml(ʔ[&u:d+n	/m-l-ʔ/	vb G prefc. / vb D prefc.	to be full	
+140179	ymlun	!y!ml(ʔ[&u:d+n	/m-l-ʔ/	vb G prefc.	to be full	
+140179	ymlun	!y!ml(ʔ[&u+n	/m-l-ʔ/	vb D prefc.	to be full	
 # KTU 1.5 IV:19						
 140180	krpn	krpn/	krpn	n. m. sg.	cup	
 140181		?	?	?	?	
@@ -828,7 +833,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140271	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 140272	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.5 V:18						
-140273	yuhb	ʔhb[b:d	/ʔ-h-b/	vb G suffc. / vb D suffc.	to love	
+140273	yuhb	ʔhb[b	/ʔ-h-b/	vb G suffc.	to love	
+140273	yuhb	ʔhb[b:d	/ʔ-h-b/	vb D suffc.	to love	
 140274	ˤglt	ˤgl(t/t	ʕglt	n. f. sg.	heifer	
 140275	b	b	b	prep.	in	
 140276	dbr	dbr(II)/	dbr (II)	n. m. sg.	plague	
@@ -857,8 +863,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140290	w	w	w	conj.	and	
 140291	txxrn	?	?	?	?	DULAT: NOT FOUND
 140292	w	w	w	conj.	and	
-140293	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
 140293	tldn	!!yld[/+n	/y-l-d/	vb G inf.	to give birth (to)	
+140293	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
 140294	mṯ	mṯ(I)/	mṯ (I)	n. m. sg.	infant	
 # KTU 1.5 V:23						
 140295	alxx	?	?	?	?	DULAT: NOT FOUND
@@ -879,7 +885,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 V:26						
 140306	šxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.5 VI:1						
-140307	tgly	!t!](n]gly[	/g-l-y/	vb G prefc. / vb N prefc.	to present oneself	
+140307	tgly	!t!](n]gly[	/g-l-y/	vb G prefc.	to present oneself	
+140307	tgly	!t!](n]gly[	/g-l-y/	vb N prefc.	to present oneself	
 140308	ḏd	ḏd(I)/	ḏd (I)	n. m. sg.	breast	
 140308	ḏd	ḏd(III)/	ḏd (III)	n. m. sg.	flock	
 140309	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
@@ -940,7 +947,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140345	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 140346	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.5 VI:10						
-140347	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb G suffc. / vb Dpass suffc.	to perish	
+140347	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc.	to perish	
+140347	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 140348	zbl	zbl(I)/	zbl (I)	n. m. sg. / n. m. pl. cstr.	prince	
 140348	zbl	zbl(III)/	zbl (III)	n. m. sg.	one carried	
 140349	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	

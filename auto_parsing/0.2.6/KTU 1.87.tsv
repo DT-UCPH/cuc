@@ -174,7 +174,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150899	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150899	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
 150900	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-150900	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+150900	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+150900	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 150900	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 150901	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150901	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
@@ -201,7 +202,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150915	mˤrb	mˤrb(I)/	mʕrb (I)	n. m. sg.	tribute-offering	
 150915	mˤrb	mˤrb(II)/	mʕrb (II)	n. m. sg.	sunset	
 150916	d	d	d	det. or rel. functor	the one(s) of	
-150917	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
+150917	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+150917	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 150918	bt	bt(II)/	bt (II)	n. m. sg.	house	
 150918	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 150919	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
@@ -232,7 +234,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150934	bġr	bġr/	bġr	n. m. sg.	shout	
 150935	arbˤ	arbˤ/	ảrbʕ	num.	four	
 150936	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
-150936	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+150936	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+150936	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 150936	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 150937	kdm	kd(I)/m	kd (I)	n. f. pl. / n. f. du.	jar	
 150938	yn	yn/	yn	n. m. sg.	wine	

@@ -1,8 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.30 1						
 161971	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-161971	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-161971	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+161971	spr	spr[	/s-p-r/	vb G suffc.	to count	
+161971	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+161971	spr	spr[	/s-p-r/	vb D suffc.	to count	
+161971	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 161971	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 161972	ksp	ksp/	ksp	n. m. sg.	silver	
 # KTU 3.30 2						

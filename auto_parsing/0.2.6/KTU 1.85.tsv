@@ -1,8 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.85 1						
 150496	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-150496	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-150496	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+150496	spr	spr[	/s-p-r/	vb G suffc.	to count	
+150496	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+150496	spr	spr[	/s-p-r/	vb D suffc.	to count	
+150496	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 150496	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 150497	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
 150497	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
@@ -11,7 +13,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150499	k	k(III)	k (III)	Subordinating or completive functor	when	
 150500	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc.	to reproach	
 150501	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
-150502	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150502	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150502	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150502	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150502	št	št(I)/	št (I)	n. m. sg.	base	
 150503	ˤqrbn	ˤqrbn/	ʕqrbn	n. m. sg.	Skorpionspflanze	
@@ -115,12 +118,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150552	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
 # KTU 1.85 10						
 150553	mss	mss/	mss	n. m. sg.	sap	
-150554	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150554	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150554	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150554	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150554	št	št(I)/	št (I)	n. m. sg.	base	
 150555	qlql	qlql/	qlql	n. m. sg.	cardamome	
 150556	w	w	w	conj.	and	
-150557	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150557	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150557	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150557	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150557	št	št(I)/	št (I)	n. m. sg.	base	
 150558	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m. sg.	juniper berries (?)	
@@ -147,7 +152,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150567	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc.	to collect	
 150568	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
 150569	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
-150570	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150570	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150570	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150570	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150570	št	št(I)/	št (I)	n. m. sg.	base	
 150571	mkšr	mkšr/	mkšr	n. m. sg.	semolina	
@@ -155,7 +161,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150572	grn	grn(I)/	grn (I)	n. m. sg.	threshing-floor	
 150572	grn	grn(II)/	grn (II)	adj. m. sg.	current	
 150573	w	w	w	conj.	and	
-150574	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150574	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150574	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150574	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150574	št	št(I)/	št (I)	n. m. sg.	base	
 150575	aškrr	aškrr/	ảškrr	n. m. sg.	wax	
@@ -185,20 +192,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150586	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc.	to collect	
 150587	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
 150588	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
-150589	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150589	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150589	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150589	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150589	št	št(I)/	št (I)	n. m. sg.	base	
 150590	nni	nn(u(I)/&i	nnủ (I)	n. m. sg.	Ammi	
 # KTU 1.85 16						
 150591	w	w	w	conj.	and	
-150592	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150592	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150592	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150592	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150592	št	št(I)/	št (I)	n. m. sg.	base	
 150593	mkšr	mkšr/	mkšr	n. m. sg.	semolina	
 150594	grn	grn(I)/	grn (I)	n. m. sg.	threshing-floor	
 150594	grn	grn(II)/	grn (II)	adj. m. sg.	current	
 150595	w	w	w	conj.	and	
-150596	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150596	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150596	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150596	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150596	št	št(I)/	št (I)	n. m. sg.	base	
 # KTU 1.85 17						
@@ -221,7 +231,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150605	k	k(III)	k (III)	Subordinating or completive functor	when	
 150606	yraš	rʔš[š	/r-ʔ-š/	vb G prefc.	to toss the head	
 150607	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
-150608	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150608	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150608	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150608	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150608	št	št(I)/	št (I)	n. m. sg.	base	
 150609	bln	bln/	bln	n. m. sg.	mixed fodder	
@@ -300,7 +311,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150649	xxxx	?	?	?	?	
 # KTU 1.85 26						
 150650	w	w	w	conj.	and	
-150651	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+150651	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+150651	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 150651	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 150651	št	št(I)/	št (I)	n. m. sg.	base	
 150652	nni	nn(u(I)/&i	nnủ (I)	n. m. sg.	Ammi	

@@ -62,8 +62,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 I:14						
 141715	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
 141715	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
-141716	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to marry	
-141716	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl. / vb D act. ptcpl.	to marry	
+141716	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv.	to marry	
+141716	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl.	to marry	
+141716	trḫ	trḫ[	/t-r-ḫ/	vb D suffc. / vb D impv.	to marry	
+141716	trḫ	trḫ[/	/t-r-ḫ/	vb D act. ptcpl.	to marry	
 141717	w	w	w	conj.	and	
 141718	tbˤt	tbˤ[t	/t-b-ʕ/	vb G suffc.	to go	
 # KTU 1.14 I:15						
@@ -92,14 +94,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141736	šlḥḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.14 I:21						
 141737	ttpl	n]t]pl[	/n-p-l/	vb Gt prefc.	to fall	
-141738	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
+141738	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+141738	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
 141739	ḥtkh	ḥtk(II)/h	ḥtk (II)	n. m. sg.	lineage	
 141739	ḥtkh	ḥtk(III)/+h	ḥtk (III)	n. m. sg.	sovereignty	
 # KTU 1.14 I:22						
 141740	krt	krt/	krt	PN	krt	
 141741	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-141741	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-141741	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+141741	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+141741	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+141741	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+141741	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 141742	ḥtkh	ḥtk(II)/h	ḥtk (II)	n. m. sg.	lineage	
 141742	ḥtkh	ḥtk(III)/+h	ḥtk (III)	n. m. sg.	sovereignty	
 141743	rš	rš[	/r-š(-š)/	vb G suffc.	to be ruined	
@@ -201,7 +206,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141808	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. / n. m. pl.	bull	
 141809	abh	ab/+h	ảb	n. m.	father	
 # KTU 1.14 I:42						
-141810	yarš	ʔrš[š:d	/ʔ-r-š/	vb G prefc. / vb D prefc.	to request	
+141810	yarš	ʔrš[š	/ʔ-r-š/	vb G prefc.	to request	
+141810	yarš	ʔrš[š:d	/ʔ-r-š/	vb D prefc.	to request	
 141811	hm	hm(II)	hm (II)	conj./interr. functor	if	
 141812	drkt	drk(t/t	drkt	n. f. sg.	rule	
 # KTU 1.14 I:43						
@@ -327,7 +333,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141884	klatnm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.14 II:16						
 141885	klt	kl(t(I)/t	klt (I)	n. f. sg.	bride	
-141885	klt	kl(t(I)/t=	/k-l-y/	vb G suffc. / vb D suffc.	to finish	
+141885	klt	kl(t(I)/t=	/k-l-y/	vb G suffc.	to finish	
+141885	klt	kl(t(I)/t=	/k-l-y/	vb D suffc.	to finish	
 141885	klt	kly[	klt (II)	n. f. sg.	measure	
 141885	klt	kl(t(II)/t				
 141886	lḥmk	lḥm/+k	lḥm	n. m.	grain	
@@ -389,7 +396,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141920	abk	ab/+k	ảb	n. m.	father	
 141921	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 141921	il	il(I)/	ỉl (I)	n. m.	god	
-141922	šrd	šrd[:d	/š-r-d/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to honour	
+141922	šrd	šrd[	/š-r-d/	vb G suffc. / vb G impv.	to honour	
+141922	šrd	šrd[:d	/š-r-d/	vb D suffc. / vb D impv.	to honour	
 141923	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 141923	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 # KTU 1.14 II:25						
@@ -460,8 +468,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141969	d	d	d	det. or rel. functor	the one(s) of	
 141970	bl	bl(II)	bl (II)	prep.	without	
 141971	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-141971	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-141971	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+141971	spr	spr[	/s-p-r/	vb G suffc.	to count	
+141971	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+141971	spr	spr[	/s-p-r/	vb D suffc.	to count	
+141971	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 141971	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 # KTU 1.14 II:38						
 141972	ṯnn	ṯnn(I)/	ṯnn (I)	n. m. sg.	archer	
@@ -513,11 +523,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142000	ˤwr	ˤwr/	ʕwr	n. m. sg.	blind man	
 142001	mszlym	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.14 II:47						
-142002	ymzl	!y!mzl[:d	/m-z-l/	vb G prefc. / vb D prefc.	to avoid (obstacles)	
+142002	ymzl	!y!mzl[	/m-z-l/	vb G prefc.	to avoid (obstacles)	
+142002	ymzl	!y!mzl[:d	/m-z-l/	vb D prefc.	to avoid (obstacles)	
 142003	w	w	w	conj.	and	
 142004	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out	
-142005	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to marry	
-142005	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl. / vb D act. ptcpl.	to marry	
+142005	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv.	to marry	
+142005	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl.	to marry	
+142005	trḫ	trḫ[	/t-r-ḫ/	vb D suffc. / vb D impv.	to marry	
+142005	trḫ	trḫ[/	/t-r-ḫ/	vb D act. ptcpl.	to marry	
 # KTU 1.14 II:48						
 142006	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
 142007	ybˤr	!y!bˤr(II)[:d	/b-ʕ-r/ (II)	vb D prefc.	to abandon	
@@ -951,8 +964,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142294	abh	ab/+h	ảb	n. m.	father	
 142295	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 142295	il	il(I)/	ỉl (I)	n. m.	god	
-142296	šrd	yrd[:d	/y-r-d/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to go down	
-142296	šrd	šrd[:d	/š-r-d/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to honour	
+142296	šrd	yrd[	/y-r-d/	vb G suffc. / vb G impv.	to go down	
+142296	šrd	yrd[:d	/y-r-d/	vb D suffc. / vb D impv.	to go down	
+142296	šrd	šrd[	/š-r-d/	vb G suffc. / vb G impv.	to honour	
+142296	šrd	šrd[:d	/š-r-d/	vb D suffc. / vb D impv.	to honour	
 # KTU 1.14 IV:7						
 142297	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 142297	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
@@ -1004,7 +1019,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 IV:13						
 142322	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg.	party	
 142322	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg.	time	
-142322	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf. / vb D inf.	to appoint the time	
+142322	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf.	to appoint the time	
+142322	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb D inf.	to appoint the time	
 142323	ngb	ngb/	ngb	n. m. sg.	victualling	
 142324	wyṣu	?	?	?	?	DULAT: NOT FOUND
 142325	ṣbu	ṣbu(I)/	ṣbủ (I)	n. m. sg.	army	
@@ -1017,7 +1033,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142329	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg.	exit	
 142330	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg.	party	
 142330	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg.	time	
-142330	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf. / vb D inf.	to appoint the time	
+142330	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf.	to appoint the time	
+142330	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb D inf.	to appoint the time	
 # KTU 1.14 IV:15						
 142331	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 142332	ṣbuh	ṣbu(I)/+h	ṣbủ (I)	n. m.	army	
@@ -1088,13 +1105,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142363	ˤwr	ˤwr/	ʕwr	n. m. sg.	blind man	
 # KTU 1.14 IV:25						
 142364	mzl	mzl/	mzl	n. m. sg. / n. m. pl. cstr.	?	
-142364	mzl	!!mzl[/	/m-z-l/	vb G inf. / vb D inf.	to avoid (obstacles)	
-142365	ymzl	!y!mzl[:d	/m-z-l/	vb G prefc. / vb D prefc.	to avoid (obstacles)	
+142364	mzl	!!mzl[/	/m-z-l/	vb G inf.	to avoid (obstacles)	
+142364	mzl	!!mzl[/	/m-z-l/	vb D inf.	to avoid (obstacles)	
+142365	ymzl	!y!mzl[	/m-z-l/	vb G prefc.	to avoid (obstacles)	
+142365	ymzl	!y!mzl[:d	/m-z-l/	vb D prefc.	to avoid (obstacles)	
 # KTU 1.14 IV:26						
 142366	w	w	w	conj.	and	
 142367	ybl	!y!(ybl[	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
-142368	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to marry	
-142368	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl. / vb D act. ptcpl.	to marry	
+142368	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv.	to marry	
+142368	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl.	to marry	
+142368	trḫ	trḫ[	/t-r-ḫ/	vb D suffc. / vb D impv.	to marry	
+142368	trḫ	trḫ[/	/t-r-ḫ/	vb D act. ptcpl.	to marry	
 142369	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
 142369	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
 # KTU 1.14 IV:27						

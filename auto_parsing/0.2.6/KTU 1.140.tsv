@@ -6,7 +6,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154906	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
 # KTU 1.140 2						
 154907	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
-154907	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb D suffc. / vb Dpass suffc.	to live	
+154907	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc.	to live	
+154907	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc.	to live	
 # KTU 1.140 3						
 154908	k	+k	-k (I)			
 154908	k	~k	-k (II)			
@@ -28,7 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154915	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 154916	ib	ib(I)/	ỉb (I)	n. m. sg. / n. m. pl.	enemy	
 154916	ib	ib(II)/	ỉb (II)	n. m. sg./DN	fruit	
-154917	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb G prefc. / vb Dpass suffc.	to perish	
+154917	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc.	to perish	
+154917	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 # KTU 1.140 7						
 154918	k	k(III)	k (III)	Subordinating or completive functor	when	
 154919	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	

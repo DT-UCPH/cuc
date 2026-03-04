@@ -15,7 +15,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135554	ḫršnr	ḫršn&r/	ḫršn (I)	n. m.	(divine) mountain	UDB: [tk . ḫršn ----]r . [-] ḥmk . w št.
 135555	tḥmk	tḥm/+k	tḥm	n. m. sg.	message	
 135556	w	w	w	conj.	and	
-135557	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+135557	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+135557	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 1.1 II:4						
 135558	l	l(I)	l (I)	prep.	to	
 135559	ẓr	ẓr(I)/	ẓr (I)	n. m.	upon	
@@ -101,7 +102,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135610	b	b	b	prep.	in	
 135611	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 135612	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg.	war	
-135613	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+135613	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+135613	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 135613	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 135613	št	št(I)/	št (I)	n. m. sg.	base	
 135614	bˤp	?	?	?	?	DULAT: NOT FOUND
@@ -112,7 +114,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135616	ddym	ddy(m/m	ddym	n. m. pl. tant. pl.	harmony	
 135617	sk	sk(I)/	sk (I)	n. m. sg.	coverlet	
 135618	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-135618	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+135618	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+135618	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 135618	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 135619	l	l(I)	l (I)	prep.	to	
 135619	l	l(III)	l (III)	functor	certainly	
@@ -140,8 +143,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.1 II:24						
 135637	bdk	bd(IV)+k	bd (IV)	prep.	into the hands of	
 135638	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-135638	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-135638	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+135638	spr	spr[	/s-p-r/	vb G suffc.	to count	
+135638	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+135638	spr	spr[	/s-p-r/	vb D suffc.	to count	
+135638	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 135638	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 # KTU 1.1 II:25						
 135639	ymnk	ymn(I)/+k	ymn (I)	n. m.	right (side)	
@@ -213,7 +218,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135684	bn	bn(II)	bn (II)	prep.	between	
 135684	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
 # KTU 1.1 III:8						
-135685	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+135685	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+135685	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 135686	l	l(I)	l (I)	prep.	to	
 135686	l	l(III)	l (III)	functor	certainly	
 135687	skt	sk(II)/t=	sk (II)	n. m. pl.	den	
@@ -296,12 +302,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135734	at	at(I)	ảt (I)	pers. pn.	you	
 135735	w	w	w	conj.	and	
 135736	ank	ank	ảnk	pers. pn.	I	
-135737	ibġyh	!(ʔ&i!bġy[h:d	/b-ġ-y/	vb G prefc. / vb G suffc. / vb D prefc. / vb D suffc.	to reveal	
+135737	ibġyh	!(ʔ&i!bġy[h	/b-ġ-y/	vb G prefc. / vb G suffc.	to reveal	
+135737	ibġyh	!(ʔ&i!bġy[h:d	/b-ġ-y/	vb D prefc. / vb D suffc.	to reveal	
 # KTU 1.1 III:17						
 135738	w	w	w	conj.	and	
 135739	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-135739	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-135739	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+135739	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+135739	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+135739	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+135739	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 135740	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
 135741	w	w	w	conj.	and	
 135742	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
@@ -368,7 +377,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135780	ks	ks(I)/	ks (I)	n. m. sg.	cup	
 135780	ks	ks/	ks/śm(n)	n. m. pl.	emmer-corn	
 # KTU 1.1 III:23						
-135781	ygly	!y!](n]gly[	/g-l-y/	vb G prefc. / vb N prefc.	to present oneself	
+135781	ygly	!y!](n]gly[	/g-l-y/	vb G prefc.	to present oneself	
+135781	ygly	!y!](n]gly[	/g-l-y/	vb N prefc.	to present oneself	
 135782	ḏd	ḏd(I)/	ḏd (I)	n. m. sg.	breast	
 135782	ḏd	ḏd(III)/	ḏd (III)	n. m. sg.	flock	
 135783	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
@@ -508,8 +518,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.1 IV:13						
 135867	w	w	w	conj.	and	
 135868	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-135868	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-135868	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+135868	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+135868	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+135868	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+135868	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 135869	lṯpn	?	?	?	?	DULAT: NOT FOUND
 135870	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 135870	il	il(I)/	ỉl (I)	n. m.	god	
@@ -652,8 +664,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135959	km	km	km	prep./conj./adv.		
 135959	km	+km, +km=	-km			
 135960	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-135960	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-135960	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+135960	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+135960	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+135960	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+135960	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 # KTU 1.1 V:8						
 135961	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G suffc.	to know	
 135961	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
@@ -716,8 +730,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135996		?	?	?	?	
 135997	mbkm	mbk/m	mbk	n. m. pl.	source	
 135998	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-135998	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-135998	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+135998	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+135998	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+135998	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+135998	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 # KTU 1.1 V:21						
 135999		?	?	?	?	
 136000	ydˤ	!y!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G suffc.	to know	

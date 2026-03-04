@@ -120,7 +120,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147704	y	y	y	prep. functor	oh!	
 # KTU 1.24 18						
 147705	rḫ	?	?	?	?	DULAT: NOT FOUND
-147706	ytrḫ	!y!trḫ[:d	/t-r-ḫ/	vb G prefc. / vb D prefc.	to marry	
+147706	ytrḫ	!y!trḫ[	/t-r-ḫ/	vb G prefc.	to marry	
+147706	ytrḫ	!y!trḫ[:d	/t-r-ḫ/	vb D prefc.	to marry	
 147707	ib	ib(I)/	ỉb (I)	n. m. sg. / n. m. pl.	enemy	
 147707	ib	ib(II)/	ỉb (II)	n. m. sg./DN	fruit	
 147708	tˤrbm	!t!ˤrb(I)[m	/ʕ-r-b/ (I)	vb G prefc.	to enter	
@@ -163,8 +164,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147732	w	w	w	conj.	and	
 # KTU 1.24 24						
 147733	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-147733	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-147733	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+147733	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+147733	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+147733	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+147733	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 147734	ḫrḫb	ḫrḫb/	ḫrḫb	DN	ḫrḫb	
 147735	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 147735	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -179,8 +182,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147741	m	?	?	?	?	DULAT: NOT FOUND
 147742	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 147742	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-147743	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv. / vb D suffc. / vb D impv.	to marry	
-147743	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl. / vb D act. ptcpl.	to marry	
+147743	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. / vb G impv.	to marry	
+147743	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl.	to marry	
+147743	trḫ	trḫ[	/t-r-ḫ/	vb D suffc. / vb D impv.	to marry	
+147743	trḫ	trḫ[/	/t-r-ḫ/	vb D act. ptcpl.	to marry	
 147744	pdry	pdry/	pdry	DN	Pidray	
 147744	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
 147745	bth	bt(II)/+h	bt (II)	n. m.	house	
@@ -204,8 +209,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147758	yˤrr	!y!ˤr[r	/ʕ-r/	vb	to become agitated	
 147759	w	w	w	conj.	and	
 147760	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-147760	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-147760	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+147760	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+147760	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+147760	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+147760	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 # KTU 1.24 31						
 147761	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 147761	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
@@ -226,12 +233,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147770	nkl	!n!](n]kl(y[	/k-l-y/	vb N suffc.	to finish	
 147771	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 147771	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
-147772	ytrḫ	!y!trḫ[:d	/t-r-ḫ/	vb G prefc. / vb D prefc.	to marry	
+147772	ytrḫ	!y!trḫ[	/t-r-ḫ/	vb G prefc.	to marry	
+147772	ytrḫ	!y!trḫ[:d	/t-r-ḫ/	vb D prefc.	to marry	
 147773	adnh	adn(I)/+h	ảdn (I)	n. m.	lord	
 147773	adnh	ad/+nh	ảd	n. m.	father, ?	
 147773	adnh	!!(ʔ&ad[/+nh	/ʔ-d/	vb G inf.	general commercial mng to overcharge, ?	
 # KTU 1.24 34						
-147774	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+147774	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+147774	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 147775	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 147775	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 147776	mznm	mzn/m	mzn	n. m. du.	weight	

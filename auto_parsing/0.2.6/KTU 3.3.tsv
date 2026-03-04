@@ -1,8 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.3 1						
 160946	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-160946	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-160946	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+160946	spr	spr[	/s-p-r/	vb G suffc.	to count	
+160946	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+160946	spr	spr[	/s-p-r/	vb D suffc.	to count	
+160946	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 160946	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 160947	ˤrbnm	ˤrbn/m	ʕrbn	n. m. pl.	guarantor	
 # KTU 3.3 2						

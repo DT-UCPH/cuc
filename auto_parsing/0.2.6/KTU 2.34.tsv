@@ -13,7 +13,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157580	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 157580	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.34 3						
-157581	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+157581	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+157581	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 157582	lk	l(I)+k	l (I)	prep.	to	
 157583	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 157583	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
@@ -23,7 +24,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.34 5						
 157586	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
 157587	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157587	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+157587	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+157587	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 157587	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157588	k	+k	-k (I)			
 157588	k	~k	-k (II)			
@@ -40,7 +42,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.34 7						
 157594	kll	kll/	kll	n. m. sg.	totality	
 157595	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157595	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+157595	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+157595	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 157595	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157596	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.34 8						
@@ -48,7 +51,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157598	umy	um/y	ủm	n. f. sg.	mother	
 157599	mnm	mnm	mnm	indef. pn.	any(thing)	
 157600	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157600	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+157600	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+157600	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 157600	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.34 9						
 157601	w	w	w	conj.	and	
@@ -146,7 +150,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157651	mrṯ	mrṯ(I)/	mrṯ (I)	n. m. sg.	must	
 157651	mrṯ	mrṯ(II)/	mrṯ (II)	n. m. sg.	estate	
 157652	d	d	d	det. or rel. functor	the one(s) of	
-157653	štt	št[t:pass	/š-t/	vb G suffc. / vb Gpass suffc.	to place	
+157653	štt	št[t	/š-t/	vb G suffc.	to place	
+157653	štt	št[t:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 2.34 33						
 157654	ašṣu	?	?	?	?	DULAT: NOT FOUND
 157655	b	b	b	prep.	in	

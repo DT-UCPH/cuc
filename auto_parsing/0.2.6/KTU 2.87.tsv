@@ -119,7 +119,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159699	akm	nkm[	n-k-m	vb	to store	
 # KTU 2.87 21						
 159700	iqna	?	?	?	?	DULAT: NOT FOUND
-159701	štt	št[t:pass	/š-t/	vb G suffc. / vb Gpass suffc.	to place	
+159701	štt	št[t	/š-t/	vb G suffc.	to place	
+159701	štt	št[t:pass	/š-t/	vb Gpass suffc.	to place	
 159702	bhm	b+hm	b	prep.	in	
 159702	bhm	b+m(I)	b	prep.	in	
 # KTU 2.87 22						
@@ -129,7 +130,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159705	bnil	bnil/	bnỉl	PN	bnỉl	
 # KTU 2.87 23						
 159706	w	w	w	conj.	and	
-159707	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
+159707	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+159707	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 159708	ttnk	ytn[+k	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 # KTU 2.87 24						
 159709	w	w	w	conj.	and	

@@ -63,7 +63,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 18						
 151202	xxxḫ	?	?	?	?	DULAT: NOT FOUND
 151203	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-151203	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+151203	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+151203	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 151203	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 1.90 19						
 151204	xxx	?	?	?	?	
@@ -80,7 +81,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151211	l	l(II)	l (II)	adv.	no	
 151211	l	l(III)	l (III)	functor	certainly	
 151212	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-151212	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+151212	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+151212	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 151212	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 151213	w	w	w	conj.	and	
 151214	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	

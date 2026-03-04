@@ -99,7 +99,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160499	mxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 24						
 160500	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-160500	tˤn	!t!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
+160500	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
+160500	tˤn	!t!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
 160500	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
 # KTU 2.103 25						
 160501	ktt	ktt(I)/	ktt (I)	adj. m. sg.	ground	
@@ -133,6 +134,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 33						
 160520	ˤkd	ˤkd/	ʕkd	TN	ungestüm	
 160521	w	w	w	conj.	and	
-160522	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
+160522	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+160522	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 160523	t	/t, /t=				DULAT: NOT FOUND
 160523	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND

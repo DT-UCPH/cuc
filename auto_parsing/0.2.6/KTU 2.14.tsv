@@ -26,8 +26,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156709	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
 # KTU 2.14 7						
 156710	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-156710	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-156710	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+156710	spr	spr[	/s-p-r/	vb G suffc.	to count	
+156710	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+156710	spr	spr[	/s-p-r/	vb D suffc.	to count	
+156710	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 156710	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 156711	d	d	d	det. or rel. functor	the one(s) of	
 156712	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc.	to send (a message)	

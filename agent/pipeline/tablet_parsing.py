@@ -60,6 +60,7 @@ from pipeline.steps.variant_row_unwrapper import VariantRowUnwrapper
 from pipeline.steps.verb_form_encoding_split import VerbFormEncodingSplitFixer
 from pipeline.steps.verb_form_morph_pos import VerbFormMorphPosFixer
 from pipeline.steps.verb_l_stem_gemination import VerbLStemGeminationFixer
+from pipeline.steps.verb_mixed_stem_split import VerbMixedStemSplitFixer
 from pipeline.steps.verb_n_stem_assimilation import VerbNStemAssimilationFixer
 from pipeline.steps.verb_pos_stem import VerbPosStemFixer
 from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
@@ -142,6 +143,7 @@ class TabletParsingPipeline:
             PrefixedIIIAlephVerbFixer(),
             VerbPosStemFixer(dulat_db=self.config.dulat_db),
             VerbFormMorphPosFixer(dulat_db=self.config.dulat_db),
+            VerbMixedStemSplitFixer(),
             VerbFormEncodingSplitFixer(),
             DulatEncliticMFixer(dulat_db=self.config.dulat_db, gate=self.morph_gate),
             VerbLStemGeminationFixer(),

@@ -43,8 +43,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158677	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
 # KTU 2.62 13						
 158678	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-158678	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-158678	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+158678	spr	spr[	/s-p-r/	vb G suffc.	to count	
+158678	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+158678	spr	spr[	/s-p-r/	vb D suffc.	to count	
+158678	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 158678	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 158679	ḥxnx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.62 14						
@@ -52,7 +54,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158681	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 158682		?	?	?	?	
 # KTU 2.62 15						
-158683	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
+158683	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+158683	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 # KTU 2.62 16						
 158684	w	w	w	conj.	and	
 158685	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND

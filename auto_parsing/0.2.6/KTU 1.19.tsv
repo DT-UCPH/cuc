@@ -17,7 +17,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 I:4						
 145552	qšt	qšt/	qšt	n. m. sg. / n. m. pl.	bow	
 145553	wxxxxnr	?	?	?	?	DULAT: NOT FOUND
-145554	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+145554	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+145554	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 # KTU 1.19 I:5						
 145555	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 145556	xxxx	?	?	?	?	
@@ -74,7 +75,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145588	šr	šr(III)/	šr (III)	n. m. sg.	Prince	
 # KTU 1.19 I:12						
 145589	aqht	aqht/	ảqht	PN	Most Obedient	
-145590	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+145590	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+145590	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 145591	k	+k	-k (I)			
 145591	k	~k	-k (II)			
 145591	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -198,15 +200,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145659	k	k(I)	k (I)	prep.	like	
 145659	k	k(II)	k (II)	emph. functor	yes	
 145660	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-145660	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-145660	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+145660	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+145660	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+145660	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+145660	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 # KTU 1.19 I:28						
 145661	hlk	hlk[	/h-l-k/	vb G suffc.	to go	
 145661	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m.	to go	
 145662	pġt	pġ(t/t	pġt	n. f. sg.	girl	
 145663	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-145663	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-145663	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+145663	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+145663	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+145663	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+145663	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 145664	b	b	b	prep.	in	
 145665	nši	!!nš(ʔ&i[/	/n-š-ʔ/	vb G inf.	to raise	
 145665	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl.	to raise	
@@ -372,14 +378,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 II:3						
 145763	hlk	hlk(I)/	hlk (I)	n. m. sg.	walk	
 145764	kbkbm	kbkb/m	kbkb	n. m. pl. / n. m. du.	heavenly body	
-145765	mdl	mdl[:d	/m-d-l/	vb G impv. / vb D impv.	to bridle	
+145765	mdl	mdl[	/m-d-l/	vb G impv.	to bridle	
+145765	mdl	mdl[:d	/m-d-l/	vb D impv.	to bridle	
 145766	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
 145766	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
 # KTU 1.19 II:4						
 145767	ṣmd	ṣmd/	ṣmd	n. m. sg.	pair	
 145767	ṣmd	ṣmd[	/ṣ-m-d/	vb G suffc. / vb G impv.	to harness	
 145768	pḥl	pḥl/	pḥl	n. m. sg.	ass	
-145769	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+145769	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+145769	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 145769	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 145769	št	št(I)/	št (I)	n. m. sg.	base	
 145770	gpny	gpn(I)/+y	gpn (I)	n. m.	(vine-)stock	
@@ -407,7 +415,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145785	kbkbm	kbkb/m	kbkb	n. m. pl. / n. m. du.	heavenly body	
 # KTU 1.19 II:8						
 145786	bkm	bkm	bkm	adv.	next	
-145787	tmdln	!t!mdl[n:d	/m-d-l/	vb G prefc. / vb D prefc.	to bridle	
+145787	tmdln	!t!mdl[n	/m-d-l/	vb G prefc.	to bridle	
+145787	tmdln	!t!mdl[n:d	/m-d-l/	vb D prefc.	to bridle	
 145788	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
 145788	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
 # KTU 1.19 II:9						
@@ -466,7 +475,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145823	b	b	b	prep.	in	
 145824	palt	pal(t/t	pảlt	n. f. sg.	fallow land	
 145825	bṣql	bṣql/	bṣql	n. m. sg.	sprout	
-145826	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G prefc. / vb N prefc.	to go up	
+145826	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G prefc.	to go up	
+145826	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb N prefc.	to go up	
 145827	b	b	b	prep.	in	
 145828	yġlm	yġl/~m	yġl	n. m. pl.	poor (earth)	
 # KTU 1.19 II:17						
@@ -495,7 +505,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145844	aklt	akl(t(I)/t	ảklt (I)	adj. f. or n. f. sg.	devouring	
 145845	šblt	šbl(t/t	šblt	n. f. sg.	ear	
 145845	šblt	šbl(t/t=	šblt	n. f. sg.	ear	
-145846	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G prefc. / vb N prefc.	to go up	
+145846	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G prefc.	to go up	
+145846	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb N prefc.	to go up	
 # KTU 1.19 II:21						
 145847	b	b	b	prep.	in	
 145848	ḥmdrt	ḥmdr(t/t	ḥmdrt	n. f. sg.	parched field	
@@ -511,12 +522,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145855	šblt	šbl(t/t	šblt	n. f. sg.	ear	
 145855	šblt	šbl(t/t=	šblt	n. f. sg.	ear	
 # KTU 1.19 II:23						
-145856	tpˤ	ypˤ[	/y-p-ʕ/	vb G prefc. / vb N prefc.	to go up	
+145856	tpˤ	ypˤ[	/y-p-ʕ/	vb G prefc.	to go up	
+145856	tpˤ	ypˤ[	/y-p-ʕ/	vb N prefc.	to go up	
 145857	b	b	b	prep.	in	
 145858	aklt	akl(t(II)/t	ảklt (II)	n. f. sg.	waste land	
 145859	šblt	šbl(t/t	šblt	n. f. sg.	ear	
 145859	šblt	šbl(t/t=	šblt	n. f. sg.	ear	
-145860	tpˤ	ypˤ[	/y-p-ʕ/	vb G prefc. / vb N prefc.	to go up	
+145860	tpˤ	ypˤ[	/y-p-ʕ/	vb G prefc.	to go up	
+145860	tpˤ	ypˤ[	/y-p-ʕ/	vb N prefc.	to go up	
 145861	b	b	b	prep.	in	
 145862	ḥmdrt	ḥmdr(t/t	ḥmdrt	n. f. sg.	parched field	
 # KTU 1.19 II:24						
@@ -548,7 +561,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145884	tphn	phy[n	/p-h-y/	vb G suffc.	to see	
 145885	in	in/	ỉn	n. m. sg.	lack of	
 145886	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-145886	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+145886	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+145886	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 145886	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 1.19 II:28						
 145887	b	b	b	prep.	in	
@@ -707,7 +721,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145985	bˤdn	bˤd+n	bʕd	adv. or prep.	behind	
 # KTU 1.19 II:46						
 145986	ksl	ksl/	ksl	n. f. sg.	back	
-145987	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+145987	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+145987	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 145988	yġṣ	?	?	?	?	DULAT: NOT FOUND
 145989	pnt	pnt/	pnt	n. f. pl.	knuckle	
 145990	kslh	ksl/+h	ksl	n. f.	back	
@@ -761,10 +776,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 III:2						
 146021	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146021	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146022	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146022	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146022	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 146023	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146023	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146024	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146024	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146024	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 146025	diy	diy(II)/	dỉy (II)	n. m. pl.	wing	
 146025	diy	diy(I)/	dỉy (I)	n. m. sg.	hawk	
 146026	hmt	hmt	hmt	pers. pn.		
@@ -816,7 +833,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146057	nšrm	nšr/m	nšr	n. m. pl.	bird of prey	
 146058	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146058	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146059	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146059	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146059	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 # KTU 1.19 III:9						
 146060	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146060	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
@@ -849,7 +867,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 III:13						
 146081	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146081	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146082	ybn	!y!](n]bn(y[:pass	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
+146082	ybn	!y!](n]bn(y[	/b-n-y/	vb G prefc.	to build	
+146082	ybn	!y!](n]bn(y[	/b-n-y/	vb N prefc.	to build	
+146082	ybn	!y!](n]bn(y[:pass	/b-n-y/	vb Gpass prefc.	to build	
 146083	diy	diy(II)/	dỉy (II)	n. m. pl.	wing	
 146084	hmt	hmt	hmt	pers. pn.		
 146085	nšrm	nšr/m	nšr	n. m. pl.	bird of prey	
@@ -879,10 +899,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 III:17						
 146104	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146104	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146105	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146105	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146105	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 146106	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146106	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146107	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146107	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146107	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 146108	diy	diy(II)/	dỉy (II)	n. m. pl.	wing	
 146108	diy	diy(I)/	dỉy (I)	n. m. sg.	hawk	
 146109	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
@@ -971,11 +993,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146165	hrgb	hrgb/	hrgb	DN	Taube!	
 146166	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146166	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146167	ybn	!y!](n]bn(y[:pass	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
+146167	ybn	!y!](n]bn(y[	/b-n-y/	vb G prefc.	to build	
+146167	ybn	!y!](n]bn(y[	/b-n-y/	vb N prefc.	to build	
+146167	ybn	!y!](n]bn(y[:pass	/b-n-y/	vb Gpass prefc.	to build	
 # KTU 1.19 III:27						
 146168	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146168	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146169	ybn	!y!](n]bn(y[:pass	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
+146169	ybn	!y!](n]bn(y[	/b-n-y/	vb G prefc.	to build	
+146169	ybn	!y!](n]bn(y[	/b-n-y/	vb N prefc.	to build	
+146169	ybn	!y!](n]bn(y[:pass	/b-n-y/	vb Gpass prefc.	to build	
 146170	diy	diy(II)/	dỉy (II)	n. m. pl.	wing	
 146170	diy	diy(I)/	dỉy (I)	n. m. sg.	hawk	
 146171	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
@@ -1006,10 +1032,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 III:31						
 146191	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146191	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146192	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146192	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146192	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 146193	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146193	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146194	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146194	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146194	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 146195	diy	diy(II)/	dỉy (II)	n. m. pl.	wing	
 146195	diy	diy(I)/	dỉy (I)	n. m. sg.	hawk	
 # KTU 1.19 III:32						
@@ -1083,7 +1111,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146242	ˤẓm	ˤẓm(I)/	ʕẓm (I)	n. f. sg.	bone	
 146242	ˤẓm	ˤẓm(II)/	ʕẓm (II)	adj. m. sg.	imposing	
 146243	w	w	w	conj.	and	
-146244	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
+146244	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+146244	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 146245	bhm	b+hm	b	prep.	in	
 146245	bhm	b+m(I)	b	prep.	in	
 # KTU 1.19 III:40						
@@ -1115,10 +1144,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 III:43						
 146266	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146266	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146267	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146267	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146267	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 146268	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 146268	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-146269	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+146269	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+146269	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 146270	diy	diy(II)/	dỉy (II)	n. m. pl.	wing	
 146270	diy	diy(I)/	dỉy (I)	n. m. sg.	hawk	
 # KTU 1.19 III:44						
@@ -1213,7 +1244,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146334	arṣ	arṣ/	ảrṣ	n. f. sg.	earth	
 146335	al	al(I)	ảl (I)	neg. functor	no	
 # KTU 1.19 III:54						
-146336	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G prefc. / vb N prefc.	to go up	
+146336	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb G prefc.	to go up	
+146336	ypˤ	!y!](n](ypˤ[	/y-p-ʕ/	vb N prefc.	to go up	
 146337	riš	riš(I)/	rỉš (I)	n. m. sg.	head	
 146338	ġly	ġly[	/ġ-l-y/	vb G suffc.	to lose the proper aspect	
 146338	ġly	!!ġly[/	/ġ-l-y/	vb G inf.	to lose the proper aspect	
@@ -1304,7 +1336,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146391	ym	ym(I)/	ym (I)	n. m. sg.	day	
 146391	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 146392	ġyn	?	?	?	?	DULAT: NOT FOUND
-146393	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+146393	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+146393	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 146393	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
 # KTU 1.19 IV:9						
 146394	ql	ql[	/q-l/	vb G suffc. / vb G impv.	to fall (down)	
@@ -1395,8 +1428,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146445	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
 146446	w	w	w	conj.	and	
 146447	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-146447	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-146447	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+146447	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+146447	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+146447	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+146447	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 146448	dnil	dnil/	dnỉl	PN	Raphaite	
 146449	mt	mt(II)/	mt (II)	DN m.	Mot/Death	
 146449	mt	mt(II)/	mt (II)	n. m. sg.	death	
@@ -1481,7 +1516,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.19 IV:28						
 146498	w	w	w	conj.	and	
 146499	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-146499	tˤn	!t!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
+146499	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
+146499	tˤn	!t!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
 146499	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
 146500	pġt	pġ(t/t	pġt	n. f. sg.	girl	
 146501	ṯkmt	ṯkm(t/t	ṯkmt	n. f. sg.	she who carries on her shoulders	
@@ -1528,8 +1564,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146530	umty	um(t/t	umt	n. f. sg.	family	
 146531	w	w	w	conj.	and	
 146532	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-146532	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-146532	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+146532	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+146532	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+146532	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+146532	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 146533	dn	dn(I)/	dn (I)	n. m. sg.	judgment	
 # KTU 1.19 IV:36						
 146534	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
@@ -1671,12 +1709,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146623	bahlm	ahl/	ảhl	n. m.	tent	
 146624	w	w	w	conj.	and	
 146625	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-146625	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-146625	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+146625	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+146625	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+146625	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+146625	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 146626	yṭpn	?	?	?	?	DULAT: NOT FOUND
 146627	mhr	mhr(I)/	mhr (I)	n. m. sg.	warrior (trained, expert)	
 # KTU 1.19 IV:53						
-146628	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+146628	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+146628	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 146628	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 146628	št	št(I)/	št (I)	n. m. sg.	base	
 146629	qḥn	lqḥ[	/l-q-ḥ/	vb G impv.	to get hold of	
@@ -1707,12 +1748,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146649	ymnh	ymn(I)/h	ymn (I)	n. m. sg.	right (side)	
 146650	w	w	w	conj.	and	
 146651	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-146651	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-146651	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+146651	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+146651	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+146651	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+146651	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 146652	yṭpn	?	?	?	?	DULAT: NOT FOUND
 146653	mhr	mhr(I)/	mhr (I)	n. m. sg.	warrior (trained, expert)	
 # KTU 1.19 IV:57						
-146654	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+146654	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+146654	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 146654	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 146654	št	št(I)/	št (I)	n. m. sg.	base	
 146655	b	b	b	prep.	in	
@@ -1720,7 +1764,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146657	y	+y, [y	-y (I)	prep. functor	my	
 146657	y	~y	-y (II)	prep. functor	indeed	
 146657	y	y	y	prep. functor	oh!	
-146658	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+146658	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+146658	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 146658	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 146658	št	št(I)/	št (I)	n. m. sg.	base	
 146659	ila	?	?	?	?	DULAT: NOT FOUND
@@ -1741,7 +1786,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146670	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 146671	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 146672	ib	ib(I)/	ỉb (I)	n. m. sg. / n. m. pl.	enemy	
-146673	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+146673	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+146673	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 146674	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 # KTU 1.19 IV:60						
 146675	ḥršm	ḥrš(I)/m	ḥrš (I)	n. m. pl. / n. m. du.	craftsman	

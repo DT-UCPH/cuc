@@ -1,8 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.72 1						
 149651	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-149651	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-149651	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+149651	spr	spr[	/s-p-r/	vb G suffc.	to count	
+149651	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+149651	spr	spr[	/s-p-r/	vb D suffc.	to count	
+149651	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 149651	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 149652	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
 149652	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
@@ -90,12 +92,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149690	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
 # KTU 1.72 13						
 149691	mss	mss/	mss	n. m. sg.	sap	
-149692	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149692	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149692	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149692	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149692	št	št(I)/	št (I)	n. m. sg.	base	
 149693	qlql	qlql/	qlql	n. m. sg.	cardamome	
 149694	w	w	w	conj.	and	
-149695	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149695	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149695	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149695	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149695	št	št(I)/	št (I)	n. m. sg.	base	
 # KTU 1.72 14						
@@ -115,11 +119,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149702	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.72 16						
 149703	k	k(III)	k (III)	Subordinating or completive functor	when	
-149704	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
+149704	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+149704	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
 149705	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
 149706	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
 # KTU 1.72 17						
-149707	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149707	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149707	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149707	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149707	št	št(I)/	št (I)	n. m. sg.	base	
 149708	mkšr	mkšr/	mkšr	n. m. sg.	semolina	
@@ -127,7 +133,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149709	grn	grn(II)/	grn (II)	adj. m. sg.	current	
 # KTU 1.72 18						
 149710	w	w	w	conj.	and	
-149711	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149711	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149711	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149711	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149711	št	št(I)/	št (I)	n. m. sg.	base	
 149712	aškrr	aškrr/	ảškrr	n. m. sg.	wax	
@@ -151,15 +158,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149721	aph	ap(II)/+h	ảp (II)	n. m.	nose	
 # KTU 1.72 21						
 149722	k	k(III)	k (III)	Subordinating or completive functor	when	
-149723	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
+149723	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+149723	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
 149724	arl	?	?	?	?	DULAT: NOT FOUND
 149725	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
 # KTU 1.72 22						
-149726	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149726	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149726	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149726	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149726	št	št(I)/	št (I)	n. m. sg.	base	
 149727	nni	nn(u(I)/&i	nnủ (I)	n. m. sg.	Ammi	
-149728	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149728	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149728	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149728	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149728	št	št(I)/	št (I)	n. m. sg.	base	
 149729	mkšr	mkšr/	mkšr	n. m. sg.	semolina	
@@ -167,7 +177,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149730	grn	grn(II)/	grn (II)	adj. m. sg.	current	
 149731	w	w	w	conj.	and	
 # KTU 1.72 23						
-149732	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149732	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149732	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149732	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149732	št	št(I)/	št (I)	n. m. sg.	base	
 149733	irġn	?	?	?	?	DULAT: NOT FOUND
@@ -190,7 +201,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149741	k	k(III)	k (III)	Subordinating or completive functor	when	
 149742	yraš	rʔš[š	/r-ʔ-š/	vb G prefc.	to toss the head	
 149743	śśw	ss/	s:śs/św	n. f. sg. / n. f. pl. cstr.	horse	
-149744	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149744	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149744	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149744	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149744	št	št(I)/	št (I)	n. m. sg.	base	
 # KTU 1.72 26						
@@ -216,7 +228,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149757	mġmġ	mġmġ/	mġmġ	n. m. sg.		
 # KTU 1.72 32						
 149758	w	w	w	conj.	and	
-149759	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+149759	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+149759	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 149759	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 149759	št	št(I)/	št (I)	n. m. sg.	base	
 # KTU 1.72 33						

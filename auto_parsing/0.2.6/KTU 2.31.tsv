@@ -59,16 +59,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157289	ksiy	ksi/+y	ks/śủ	n. f.	seat	
 157290	w	w	w	conj.	and	
 157291	prˤ	prˤ(I)/	prʕ (I)	n. m. sg.	first fruit	
-157291	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. / vb D suffc.	to wash	
-157291	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf. / vb D inf.	to wash	
+157291	prˤ	prˤ[	/p-r-ʕ/	vb G suffc.	to wash	
+157291	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash	
+157291	prˤ	prˤ[	/p-r-ʕ/	vb D suffc.	to wash	
+157291	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash	
 157291	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg.	first	
 # KTU 2.31 16						
 157292	xxx	?	?	?	?	
 157293	xxx	?	?	?	?	
 157294	xxx	?	?	?	?	
 157295	prˤ	prˤ(I)/	prʕ (I)	n. m. sg.	first fruit	
-157295	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. / vb D suffc.	to wash	
-157295	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf. / vb D inf.	to wash	
+157295	prˤ	prˤ[	/p-r-ʕ/	vb G suffc.	to wash	
+157295	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash	
+157295	prˤ	prˤ[	/p-r-ʕ/	vb D suffc.	to wash	
+157295	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash	
 157295	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg.	first	
 157296	ank	ank	ảnk	pers. pn.	I	
 157297	š	š/	š	n. m. sg.	ram	
@@ -165,8 +169,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157356	dy	d	d	det. or rel. functor	the one(s) of	
 157357	w	w	w	conj.	and	
 157358	prˤ	prˤ(I)/	prʕ (I)	n. m. sg.	first fruit	
-157358	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. / vb D suffc.	to wash	
-157358	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf. / vb D inf.	to wash	
+157358	prˤ	prˤ[	/p-r-ʕ/	vb G suffc.	to wash	
+157358	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash	
+157358	prˤ	prˤ[	/p-r-ʕ/	vb D suffc.	to wash	
+157358	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash	
 157358	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg.	first	
 157359	bxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 40						
@@ -267,9 +273,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157431	l	l(I)	l (I)	prep.	to	
 157431	l	l(II)	l (II)	adv.	no	
 157431	l	l(III)	l (III)	functor	certainly	
-157432	ihbt	(ʔ&ihb[t:d	/ʔ-h-b/	vb G suffc. / vb D suffc.	to love	
+157432	ihbt	(ʔ&ihb[t	/ʔ-h-b/	vb G suffc.	to love	
+157432	ihbt	(ʔ&ihb[t:d	/ʔ-h-b/	vb D suffc.	to love	
 157432	ihbt	ahb(t/t	ảhbt	n. f. sg.	love	
-157433	ybn	!y!](n]bn(y[:pass	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
+157433	ybn	!y!](n]bn(y[	/b-n-y/	vb G prefc.	to build	
+157433	ybn	!y!](n]bn(y[	/b-n-y/	vb N prefc.	to build	
+157433	ybn	!y!](n]bn(y[:pass	/b-n-y/	vb Gpass prefc.	to build	
 157434	rgmy	rgm/y	rgm	n. m. pl.	word	
 # KTU 2.31 52						
 157435	xxx	?	?	?	?	
@@ -295,7 +304,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157450	hw	hw	hw	pers. pn.	he	
 157451	xxn	?	?	?	?	DULAT: NOT FOUND
 157452	w	w	w	conj.	and	
-157453	aspt	(ʔ&asp[t:d	/ʔ-s-p/	vb G suffc. / vb D suffc.	to gather	
+157453	aspt	(ʔ&asp[t	/ʔ-s-p/	vb G suffc.	to gather	
+157453	aspt	(ʔ&asp[t:d	/ʔ-s-p/	vb D suffc.	to gather	
 157454	klh	kl/+h	kl	n. m.	totality (of)	
 # KTU 2.31 55						
 157455	xxx	?	?	?	?	

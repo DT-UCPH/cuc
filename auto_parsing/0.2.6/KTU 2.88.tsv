@@ -24,8 +24,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159771	k	k(II)	k (II)	emph. functor	yes	
 159772	ytnt	!y!(ytn[t	/y-t-n/	vb G suffc.	to give	
 159773	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-159773	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-159773	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+159773	spr	spr[	/s-p-r/	vb G suffc.	to count	
+159773	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+159773	spr	spr[	/s-p-r/	vb D suffc.	to count	
+159773	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 159773	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 # KTU 2.88 5						
 159774	hnd	hnd	hnd	dem.	this	
@@ -177,7 +179,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 30						
 159863	w	w	w	conj.	and	
 159864	rišk	riš(I)/	rỉš (I)	n. m. sg.	head	
-159865	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb G suffc. / vb Dpass suffc.	to perish	
+159865	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc.	to perish	
+159865	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 159865	ḫlq	ḫlq/	ḫlq	adj. m. or n. m. sg.	ruined	
 # KTU 2.88 31						
 159866	tḥm	tḥm/	tḥm	n. m. sg.	message	
@@ -194,7 +197,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159873	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159873	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.88 33						
-159874	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+159874	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+159874	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 159875	lk	l(I)+k	l (I)	prep.	to	
 159876	k	+k	-k (I)			
 159876	k	~k	-k (II)			

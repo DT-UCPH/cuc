@@ -15,7 +15,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158267	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 158267	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.46 4						
-158268	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+158268	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+158268	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 158269	lk	l(I)+k	l (I)	prep.	to	
 158270	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 158270	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
@@ -28,7 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158273	hnny	hnny+ny	hnny	adv.	here	
 158274	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158275	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158275	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158275	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158275	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158275	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.46 7						
 158276	ṯmny	ṯm	ṯm	adv.	there	
@@ -39,7 +41,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.46 8						
 158279	mnm	mnm	mnm	indef. pn.	any(thing)	
 158280	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158280	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158280	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158280	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158280	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158281	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
 158281	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	

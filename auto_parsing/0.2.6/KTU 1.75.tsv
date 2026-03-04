@@ -33,8 +33,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149858	rb	rb(I)/	rb (I)	adj. m. sg.	great	
 149858	rb	rb/	rb(b)	n. m. sg.	drizzle	
 149859	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-149859	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-149859	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+149859	spr	spr[	/s-p-r/	vb G suffc.	to count	
+149859	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+149859	spr	spr[	/s-p-r/	vb D suffc.	to count	
+149859	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 149859	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 149860	ḫbb	ḫbb/	ḫbb	PN	ḫbb	
 # KTU 1.75 11						

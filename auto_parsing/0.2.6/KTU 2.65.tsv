@@ -5,7 +5,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.65 2						
 158755	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158756	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158756	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158756	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158756	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158756	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.65 3						
 158757	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
@@ -14,7 +15,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.65 4						
 158759	mnm	mnm	mnm	indef. pn.	any(thing)	
 158760	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158760	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158760	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158760	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158760	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.65 5						
 158761	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	

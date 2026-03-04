@@ -12,7 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155400	l	l(I)	l (I)	prep.	to	
 155400	l	l(II)	l (II)	adv.	no	
 155400	l	l(III)	l (III)	functor	certainly	
-155401	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+155401	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+155401	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 # KTU 1.164 3						
 155402	id	id	ỉd	conj.	when	
 155403	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc.	to sacrifice	
@@ -81,7 +82,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155444	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 14						
 155445	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
-155445	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+155445	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+155445	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 155445	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 155446	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 155447	w	w	w	conj.	and	
@@ -99,7 +101,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155456	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 18						
 155457	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
-155457	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+155457	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+155457	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 155457	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 155458	sxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 19						

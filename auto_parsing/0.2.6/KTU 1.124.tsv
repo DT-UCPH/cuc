@@ -17,8 +17,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154381	w	w	w	conj.	and	
 154382	yšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
 154383	mṯpẓ	mṯpṭ/	mṯpṭ	n.	command	
-154384	yld	!y!](n](yld[	/y-l-d/	vb N suffc.	to give birth (to)	
 154384	yld	!!yld[/	/y-l-d/	vb G inf.	to give birth (to)	
+154384	yld	!y!](n](yld[	/y-l-d/	vb N suffc.	to give birth (to)	
 154384	yld	yld/	yld	n. m. sg. / n. m. pl. cstr.	son	
 # KTU 1.124 4						
 154385	w	w	w	conj.	and	
@@ -35,7 +35,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154392	qḥ	lqḥ[	/l-q-ḥ/	vb G impv.	to get hold of	
 # KTU 1.124 6						
 154393	w	w	w	conj.	and	
-154394	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+154394	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+154394	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 154395	bbt	bbt(II)/	bbt (II)	DN	superintendent	
 154395	bbt	bbt(I)/	bbt (I)	TN	bbt (I)	
 154396	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
@@ -49,7 +50,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154399	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
 154400	qḥ	lqḥ[	/l-q-ḥ/	vb G impv.	to get hold of	
 154401	w	w	w	conj.	and	
-154402	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+154402	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+154402	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 154402	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 154402	št	št(I)/	št (I)	n. m. sg.	base	
 # KTU 1.124 8						
@@ -63,7 +65,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154407	qḥ	lqḥ[	/l-q-ḥ/	vb G impv.	to get hold of	
 # KTU 1.124 9						
 154408	w	w	w	conj.	and	
-154409	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+154409	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+154409	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 154409	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 154409	št	št(I)/	št (I)	n. m. sg.	base	
 154410	b	b	b	prep.	in	

@@ -308,6 +308,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("verb-form-morph-pos"),
+                names.index("verb-mixed-stem-split"),
+            )
+            self.assertLess(
+                names.index("verb-mixed-stem-split"),
                 names.index("verb-form-encoding-split"),
             )
             self.assertLess(

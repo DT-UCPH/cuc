@@ -22,7 +22,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157200	ly	l(I)+y	l (I)	prep.	to	
 157201	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.30 6						
-157202	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+157202	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+157202	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 157203	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 157203	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.30 7						
@@ -33,7 +34,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157207	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 157207	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
 157208	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157208	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+157208	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+157208	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 157208	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.30 9						
 157209	w	w	w	conj.	and	
@@ -43,7 +45,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.30 10						
 157213	mnm	mnm	mnm	indef. pn.	any(thing)	
 157214	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157214	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+157214	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+157214	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 157214	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.30 11						
 157215	w	w	w	conj.	and	

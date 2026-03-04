@@ -1,8 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 1						
 155115	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-155115	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-155115	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+155115	spr	spr[	/s-p-r/	vb G suffc.	to count	
+155115	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+155115	spr	spr[	/s-p-r/	vb D suffc.	to count	
+155115	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 155115	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 155116	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
 155116	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. / vb G impv.	to sacrifice	
@@ -129,7 +131,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 22						
 155190	rd	yrd[	/y-r-d/	vb G impv.	to go down	
 155191	w	w	w	conj.	and	
-155192	špl	špl[:d	/š-p-l/	vb G impv. / vb D impv.	to bend down	
+155192	špl	špl[	/š-p-l/	vb G impv.	to bend down	
+155192	špl	špl[:d	/š-p-l/	vb D impv.	to bend down	
 155193	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg.	dust	
 155194	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 # KTU 1.161 23						
@@ -197,38 +200,46 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155231	w	w	w	conj.	and	
 155232	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	
 155232	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl.	to offer	
-155233	tqdm	!t!qdm[:d	/q-d-m/	vb G prefc. / vb D prefc.	to proceed	
+155233	tqdm	!t!qdm[	/q-d-m/	vb G prefc.	to proceed	
+155233	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc.	to proceed	
 155234	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg.	bird	
 # KTU 1.161 31						
 155235	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-155235	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+155235	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+155235	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 155235	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 155236	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-155236	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+155236	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+155236	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 155236	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 155237	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN	ʿAmmurāpʾi	
 # KTU 1.161 32						
 155238	w	w	w	conj.	and	
 155239	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-155239	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+155239	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+155239	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 155239	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 155240	bah	?	?	?	?	DULAT: NOT FOUND
 155241	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-155241	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+155241	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+155241	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 155241	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 155242	ṯryl	ṯryl/	ṯryl	PN	ṯryl	
 # KTU 1.161 33						
 155243	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-155243	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+155243	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+155243	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 155243	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 155244	bth	bt(II)/+h	bt (II)	n. m.	house	
 155245	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-155245	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+155245	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+155245	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 155245	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 155246	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 1.161 34						
 155247	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-155247	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+155247	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+155247	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 155247	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 155248	ṯġrh	ṯġr(II)/h	ṯġr (II)	n. m. sg.	gatekeeper	
 155248	ṯġrh	ṯġr(I)/h	ṯġr (I)	n. m. pl.	gate	

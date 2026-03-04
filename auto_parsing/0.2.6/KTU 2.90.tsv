@@ -60,7 +60,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160007	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.90 14						
 160008	ḫrdk	ḫrd/	ḫrd	n. m. sg.	(royal) guard	
-160009	yuḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
+160009	yuḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+160009	yuḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
 # KTU 2.90 15						
 160010	hn	hn	hn	functor	behold!	
 160011	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
@@ -102,5 +103,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160032	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.90 24						
 160033	štnn	št[n+n	/š-t/	vb G impv.	to place	
-160033	štnn	št[:pass+nn	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place, ?	
+160033	štnn	št[:pass+nn	/š-t/	vb G suffc. / vb G impv.	to place, ?	
+160033	štnn	št[+nn	/š-t/	vb Gpass suffc.	to place, ?	
 160033	štnn	št(II)/+nn	št (II)	n. f.	raíz, ?	

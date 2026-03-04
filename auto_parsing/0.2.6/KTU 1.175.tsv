@@ -12,7 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155936	d	d	d	det. or rel. functor	the one(s) of	
 155937	kr	kr[	/k-r/	vb	to be hot	
 155938	w	w	w	conj.	and	
-155939	tasp	ʔsp[p:d	/ʔ-s-p/	vb G prefc. / vb D prefc.	to gather	
+155939	tasp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
+155939	tasp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
 155940	naṯt	naṯt	nảṯt	?		
 # KTU 1.175 4						
 155941	ṯrn	ṯrn(I)	ṯrn (I)			
@@ -20,7 +21,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 5						
 155943		?	?	?	?	
 155944	w	w	w	conj.	and	
-155945	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+155945	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+155945	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 155945	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 155945	št	št(I)/	št (I)	n. m. sg.	base	
 155946	lšn	lšn/	lšn	n. f. sg.	tongue	
@@ -46,7 +48,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155958	k	k(III)	k (III)	Subordinating or completive functor	when	
 155958	k	k(I)	k (I)	prep.	like	
 155958	k	k(II)	k (II)	emph. functor	yes	
-155959	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+155959	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+155959	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 155959	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
 # KTU 1.175 9						
 155960		?	?	?	?	
@@ -73,7 +76,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155975	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
 155975	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155976	w	w	w	conj.	and	
-155977	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+155977	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+155977	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 155978	b	b	b	prep.	in	
 155979	gbh	gb(II)/+h	gb (II)	n. m. sg.	spine	
 # KTU 1.175 14						
@@ -90,9 +94,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155988	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg.	a kind of leather or leather object	
 155988	ṯnt	ṯn(t(I)/t=	ṯnt (I)	n. f. sg.	a kind of leather or leather object	
 155989	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. / n. m. pl. cstr.	boy	
-155989	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. / vb G suffc. / vb N prefc. / vb N suffc.	to become agitated	
+155989	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. / vb G suffc.	to become agitated	
+155989	nˤr	!n!](n]ˤr[	/ʕ-r/	vb N prefc. / vb N suffc.	to become agitated	
 # KTU 1.175 17						
-155990	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+155990	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+155990	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 155990	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 155990	št	št(I)/	št (I)	n. m. sg.	base	
 155991	b	b	b	prep.	in	

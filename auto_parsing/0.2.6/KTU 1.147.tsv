@@ -18,7 +18,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.147 8						
 154992	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
 154992	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
-154993	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+154993	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+154993	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 1.147 9						
 154994	dk	d+k	d	det. or rel. functor	the one(s) of	
 154995	km	k(III)	k (III)	functor	when	

@@ -8,7 +8,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.96 2						
 151569	tp	tp(II)/	tp (II)	n. m. sg.	aspect	
 151569	tp	tp(I)/	tp (I)	n. m. sg.	drum	
-151569	tp	npy[:pass	/n-p-y/	vb N prefc. / vb Gpass prefc.	to be driven away	
+151569	tp	npy[	/n-p-y/	vb N prefc.	to be driven away	
+151569	tp	npy[:pass	/n-p-y/	vb Gpass prefc.	to be driven away	
 151570	aḫh	aḫ(I)/+h	ảḫ (I)	n. m.	brother (by blood)	
 151571	k	+k	-k (I)			
 151571	k	~k	-k (II)			

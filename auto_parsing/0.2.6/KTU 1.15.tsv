@@ -76,7 +76,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142783	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 142784	b	b	b	prep.	in	
 142785	bth	bt(II)/+h	bt (II)	n. m.	house	
-142786	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+142786	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+142786	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 142787	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
 # KTU 1.15 II:10						
 142788	bth	bt(II)/+h	bt (II)	n. m.	house	
@@ -120,7 +121,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142814	ġlmil	?	?	?	?	DULAT: NOT FOUND
 142815	ks	ks(I)/	ks (I)	n. m. sg.	cup	
 142815	ks	ks/	ks/śm(n)	n. m. pl.	emmer-corn	
-142816	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
+142816	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+142816	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
 # KTU 1.15 II:17						
 142817	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 142817	il	il(I)/	ỉl (I)	n. m.	god	
@@ -211,7 +213,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142876	dtn	d+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.15 III:5						
 142877	w	w	w	conj.	and	
-142878	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc. / vb N prefc.	to approach	
+142878	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc.	to approach	
+142878	tqrb	!t!](n]qrb[	/q-r-b/	vb N prefc.	to approach	
 142879	wld	(y&wld[	/y-l-d/	vb	to give birth (to)	Based on DULAT reconstruction.
 # KTU 1.15 III:6						
 142880	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
@@ -281,14 +284,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142924	mšknthm	mškn(t/t+hm	mšknt	n. f. sg.	residence	
 # KTU 1.15 III:20						
 142925	w	w	w	conj.	and	
-142926	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc. / vb N prefc.	to approach	
+142926	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc.	to approach	
+142926	tqrb	!t!](n]qrb[	/q-r-b/	vb N prefc.	to approach	
 142927	wld	(y&wld[	/y-l-d/	vb	to give birth (to)	Based on DULAT reconstruction.
 142927	wld	wld	wld	→	?	
 142928	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 142929	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.15 III:21						
 142930	w	w	w	conj.	and	
-142931	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc. / vb N prefc.	to approach	
+142931	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc.	to approach	
+142931	tqrb	!t!](n]qrb[	/q-r-b/	vb N prefc.	to approach	
 142932	wld	(y&wld[	/y-l-d/	vb	to give birth (to)	Based on DULAT reconstruction.
 142932	wld	wld	wld	→	?	
 142933	bnm	b	b	prep.	in	
@@ -452,7 +457,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143035	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
 143035	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
 143035	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
-143036	tqdm	!t!qdm[:d	/q-d-m/	vb G prefc. / vb D prefc.	to proceed	
+143036	tqdm	!t!qdm[	/q-d-m/	vb G prefc.	to proceed	
+143036	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc.	to proceed	
 # KTU 1.15 IV:24						
 143037	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 143038	b	b	b	prep.	in	
@@ -527,7 +533,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 V:9						
 143084	w	w	w	conj.	and	
 143085	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-143085	tˤn	!t!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
+143085	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
+143085	tˤn	!t!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
 143085	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
 143086	mṯt	mṯ(t/t	mṯt	n. f. sg.	damsel	
 143087	ḥry	ḥr(I)/+y	ḥr (I)	n. m.	intestine(s)	
@@ -657,7 +664,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 VI:3						
 143160	w	w	w	conj.	and	
 143161	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-143161	tˤn	!t!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
+143161	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
+143161	tˤn	!t!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
 143161	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
 143162	mṯt	mṯ(t/t	mṯt	n. f. sg.	damsel	
 143163	ḥry	ḥr(I)/+y	ḥr (I)	n. m.	intestine(s)	

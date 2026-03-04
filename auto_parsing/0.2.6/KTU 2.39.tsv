@@ -19,7 +19,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157929	midm	mid/~m	mỉ/ủd	n. m. sg.	abundance	
 # KTU 2.39 4						
 157930	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-157930	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+157930	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+157930	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 157930	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.39 5						
 157931	l	l(I)	l (I)	prep.	to	
@@ -164,8 +165,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.39 32						
 158013	w	w	w	conj.	and	
 158014	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-158014	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-158014	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+158014	spr	spr[	/s-p-r/	vb G suffc.	to count	
+158014	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+158014	spr	spr[	/s-p-r/	vb D suffc.	to count	
+158014	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 158014	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 158015	inx	?	?	?	?	DULAT: NOT FOUND
 158016	ly	l(I)+y	l (I)	prep.	to	
@@ -177,8 +180,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158019	adm	adm(II)/	ảdm (II)	adj. m. sg.	obtained	
 # KTU 2.39 34						
 158020	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-158020	aṯr	(ʔ&aṯr[	/ʔ-ṯ-r/	vb G suffc. / vb D suffc.	to go	
+158020	aṯr	(ʔ&aṯr[	/ʔ-ṯ-r/	vb G suffc.	to go	
 158020	aṯr	!!(ʔ&aṯr[/	/ʔ-ṯ-r/	vb G inf.	to go	
+158020	aṯr	(ʔ&aṯr[	/ʔ-ṯ-r/	vb D suffc.	to go	
 158020	aṯr	aṯr(III)	ảṯr (III)	interr. adv.	where	
 158021	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
 158022	bqṯ	bqṯ[:d	/b-q-ṯ/	vb D impv.	to search for	

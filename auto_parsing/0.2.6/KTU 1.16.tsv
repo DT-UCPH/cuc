@@ -82,7 +82,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143239	ybky	!y!bky[	/b-k-y/	vb G prefc.	to weep	
 # KTU 1.16 I:13						
 143240	w	w	w	conj.	and	
-143241	yšnn	!y!šnn[:d	/š-n-n/	vb G prefc. / vb D prefc.	to grind teeth	
+143241	yšnn	!y!šnn[	/š-n-n/	vb G prefc.	to grind teeth	
+143241	yšnn	!y!šnn[:d	/š-n-n/	vb D prefc.	to grind teeth	
 143242	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
 143243	gh	ytn[	/y-t-n/	vb	to give	
 143243	gh	g/+h	g	n. m. sg.	(loud) voice	
@@ -267,7 +268,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143354	dbḥ	dbḥ/	dbḥ	n. m. sg. / n. m. pl. cstr.	sacrifice	
 143355	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 143355	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-143356	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+143356	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+143356	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 # KTU 1.16 I:41						
 143357	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 143358	qḥ	lqḥ[	/l-q-ḥ/	vb G impv.	to get hold of	
@@ -302,7 +304,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143379	ilḥu	ilḥu/	ỉlḥủ	PN	ỉlḥủ	
 # KTU 1.16 I:47						
 143380	mrḥh	mrḥ/h	mrḥ	n. f. sg.	lance	
-143381	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
+143381	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+143381	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
 143382	b	b	b	prep.	in	
 143383	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 # KTU 1.16 I:48						
@@ -356,8 +359,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 I:58						
 143420	w	w	w	conj.	and	
 143421	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-143421	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-143421	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+143421	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+143421	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+143421	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+143421	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 143422	ġzr	ġzr/	ġzr	n. m. sg.	lad	
 143423	ilḥu	ilḥu/	ỉlḥủ	PN	ỉlḥủ	
 # KTU 1.16 I:59						
@@ -382,7 +387,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143433	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 143433	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 143434	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
-143434	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+143434	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+143434	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 143434	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 143435	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 143435	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
@@ -436,7 +442,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143461	msk	msk/	msk	n. m. sg.	mixture	
 143462	trxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.16 II:17						
-143463	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc. / vb N prefc.	to approach	
+143463	tqrb	!t!](n]qrb[	/q-r-b/	vb G prefc.	to approach	
+143463	tqrb	!t!](n]qrb[	/q-r-b/	vb N prefc.	to approach	
 143464	aḫ	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
 143465	xxx	?	?	?	?	
 # KTU 1.16 II:18						
@@ -554,7 +561,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 II:35						
 143529	tbky	!t!bky[	/b-k-y/	vb G prefc.	to weep	
 143530	w	w	w	conj.	and	
-143531	tšnn	!t!šnn[:d	/š-n-n/	vb G prefc. / vb D prefc.	to grind teeth	
+143531	tšnn	!t!šnn[	/š-n-n/	vb G prefc.	to grind teeth	
+143531	tšnn	!t!šnn[:d	/š-n-n/	vb D prefc.	to grind teeth	
 143532	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
 # KTU 1.16 II:36						
 143533	gh	ytn[	/y-t-n/	vb	to give	
@@ -879,8 +887,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143722	k	k(I)	k (I)	prep.	like	
 143722	k	k(II)	k (II)	emph. functor	yes	
 143723	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-143723	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-143723	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+143723	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+143723	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+143723	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+143723	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 143724	lṭpn	lṭpn/	lṭpn	adj. m. sg.	Benevolent	
 143725	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 143725	il	il(I)/	ỉl (I)	n. m.	god	
@@ -1064,8 +1074,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 V:23						
 143829	w	w	w	conj.	and	
 143830	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-143830	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-143830	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+143830	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+143830	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+143830	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+143830	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 143831	ltpn	?	?	?	?	DULAT: NOT FOUND
 143832	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 143832	il	il(I)/	ỉl (I)	n. m.	god	
@@ -1097,7 +1109,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 V:28						
 143849	zbln	zbln/	zbln	n. m. sg.	sickness	
 143850	rḥth	rḥ(t/t+h	rḥt	n. f. sg.	palm of the hand	
-143851	ymlu	!y!ml(ʔ[&u:d	/m-l-ʔ/	vb G prefc. / vb D prefc.	to be full	
+143851	ymlu	!y!ml(ʔ[&u	/m-l-ʔ/	vb G prefc.	to be full	
+143851	ymlu	!y!ml(ʔ[&u:d	/m-l-ʔ/	vb D prefc.	to be full	
 # KTU 1.16 V:29						
 143852	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
 143853	rṯ	rṯ/	rṯ	n. m. sg.	dirt	
@@ -1194,7 +1207,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143905	tbu	!t!b(ʔ[&u	/b-ʔ/	vb G prefc.	to enter	
 # KTU 1.16 VI:4						
 143906	bkt	bky[/t	/b-k-y/	vb G act. ptcpl. f.	to weep	
-143907	tgly	!t!](n]gly[	/g-l-y/	vb G prefc. / vb N prefc.	to present oneself	
+143907	tgly	!t!](n]gly[	/g-l-y/	vb G prefc.	to present oneself	
+143907	tgly	!t!](n]gly[	/g-l-y/	vb N prefc.	to present oneself	
 143908	w	w	w	conj.	and	
 143909	tbu	!t!b(ʔ[&u	/b-ʔ/	vb G prefc.	to enter	
 # KTU 1.16 VI:5						
@@ -1368,7 +1382,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144015	ġzm	ġz/m	ġz	n. m. pl.	warrior	
 # KTU 1.16 VI:31						
 144016	tdbr	!t!dbr(II)[:d	/d-b-r/ (II)	vb D prefc.	to say	
-144016	tdbr	!t!dbr(I)[:d	/d-b-r/ (I)	vb G prefc. / vb D prefc.	drive away	
+144016	tdbr	!t!dbr(I)[	/d-b-r/ (I)	vb G prefc.	drive away	
+144016	tdbr	!t!dbr(I)[:d	/d-b-r/ (I)	vb D prefc.	drive away	
 144017	wġrm	?	?	?	?	DULAT: NOT FOUND
 144018	tṯwy	!t!ṯwy[:d	/ṯ-w-y/	vb D prefc.	to resist	
 # KTU 1.16 VI:32						
@@ -1455,7 +1470,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144066	k	k(II)	k (II)	emph. functor	yes	
 144067	ġz	ġz/	ġz	n. m. sg.	warrior	
 144068	ġzm	ġz/m	ġz	n. m. pl.	warrior	
-144069	tdbr	!t!dbr(I)[:d	/d-b-r/ (I)	vb G prefc. / vb D prefc.	drive away	
+144069	tdbr	!t!dbr(I)[	/d-b-r/ (I)	vb G prefc.	drive away	
+144069	tdbr	!t!dbr(I)[:d	/d-b-r/ (I)	vb D prefc.	drive away	
 # KTU 1.16 VI:44						
 144070	w	w	w	conj.	and	
 144071	ġrm	ġr(I)/m	ġr (I)	n. m. pl.	mountain	
@@ -1540,14 +1556,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144116	krt	krt/	krt	PN	krt	
 144117	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
 144117	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
-144118	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+144118	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+144118	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 # KTU 1.16 VI:55						
 144119	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
 144120	y	y	y	prep. functor	oh!	
 144121	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
 144121	bn	bn(II)	bn (II)	prep.	between	
 144121	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
-144122	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+144122	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+144122	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 144123	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
 # KTU 1.16 VI:56						
 144124	rišk	riš(I)/	rỉš (I)	n. m. sg.	head	
@@ -1568,8 +1586,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144136	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
 # KTU 1.16 VI:59						
 144137	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-144137	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-144137	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+144137	spr	spr[	/s-p-r/	vb G suffc.	to count	
+144137	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+144137	spr	spr[	/s-p-r/	vb D suffc.	to count	
+144137	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 144137	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 144138	ilmlk	ilmlk/	ỉlmlk	PN	ʾIlimalku/Ilimilku/Elimelek	
 144139	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg.	minister	

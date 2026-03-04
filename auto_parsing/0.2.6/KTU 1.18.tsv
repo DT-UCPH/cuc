@@ -31,7 +31,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145162	xxxxxx	?	?	?	?	
 145163	al	al(I)	ảl (I)	neg. functor	no	
 145163	al	al(II)	ảl (II)	pos. functor	surely	
-145164	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb G prefc. / vb D prefc.	to be glad	
+145164	tšmḫ	!t!šmḫ[	/š-m-ḫ/	vb G prefc.	to be glad	
+145164	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc.	to be glad	
 145165	xxxxxxxxx	?	?	?	?	
 # KTU 1.18 I:9						
 145166	xxxxx	?	?	?	?	
@@ -70,8 +71,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 I:15						
 145194	w	w	w	conj.	and	
 145195	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-145195	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-145195	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+145195	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+145195	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+145195	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+145195	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 145196	lṭpn	lṭpn/	lṭpn	adj. m. sg.	Benevolent	
 145197	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 145197	il	il(I)/	ỉl (I)	n. m.	god	
@@ -225,7 +228,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145302	xxxxtpsxxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 IV:2						
 145303	xxxx	?	?	?	?	
-145304	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. / vb N prefc.	to break	
+145304	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc.	to break	
+145304	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb N prefc.	to break	
 145305	xxxxxxxxxxxx	?	?	?	?	
 # KTU 1.18 IV:3						
 145306	xxxx	?	?	?	?	
@@ -253,7 +257,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145322	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 145323	yṭpn	?	?	?	?	DULAT: NOT FOUND
 145324	mhr	mhr(I)/	mhr (I)	n. m. sg.	warrior (trained, expert)	
-145325	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+145325	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+145325	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 145325	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 145325	št	št(I)/	št (I)	n. m. sg.	base	
 145326	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
@@ -297,11 +302,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145352	qdqdh	qdqd/h	qdqd	n. m. sg.	skull	
 145353	w	w	w	conj.	and	
 145354	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-145354	yˤn	!y!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
-145354	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb G prefc. / vb Dpass	to be / remain depressed	
+145354	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc.	to see	
+145354	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
+145354	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+145354	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
 145355	yṭpn	?	?	?	?	DULAT: NOT FOUND
 145356	mhr	mhr(I)/	mhr (I)	n. m. sg.	warrior (trained, expert)	
-145357	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+145357	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+145357	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 145357	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 145357	št	št(I)/	št (I)	n. m. sg.	base	
 # KTU 1.18 IV:12						
@@ -330,7 +338,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:14						
 145371	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg.	handsome	
 145372	ġzr	ġzr/	ġzr	n. m. sg.	lad	
-145373	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+145373	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+145373	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 145374	ṯrm	ṯr(I)/m	ṯr (I)	n. m. pl.	bull	
 145375	w	w	w	conj.	and	
 145376	xxxxx	?	?	?	?	
@@ -344,7 +353,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:16						
 145383	w	w	w	conj.	and	
 145384	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-145384	tˤn	!t!ˤn[:d	/ʕ-n/	vb G prefc. / vb D prefc.	to see	
+145384	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
+145384	tˤn	!t!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
 145384	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
 145385	btlt	btl(t/t	btlt	n. f. sg.	virgin	
 145386	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
@@ -605,7 +615,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145536	xxxxxx	?	?	?	?	
 # KTU 1.18 IV:42						
 145537	w	w	w	conj.	and	
-145538	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb G suffc. / vb Dpass suffc.	to perish	
+145538	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc.	to perish	
+145538	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 145539	ˤpt	ˤp(I)/t	ʕp (I)	n. f. sg.	bird	
 145540	mḫṣk	mḫṣ[+k	/m-ḫ-ṣ/	vb G prefc.	to wound	
 145540	mḫṣk	mḫṣ(II)/+k	mḫṣ (II)	n. m.	striking instrument	

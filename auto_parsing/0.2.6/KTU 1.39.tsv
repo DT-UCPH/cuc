@@ -77,7 +77,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.39 8						
 147962	xgdlt	?	?	?	?	DULAT: NOT FOUND
 147963	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-147963	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+147963	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+147963	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 147963	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 147964	šgdlt	?	?	?	?	DULAT: NOT FOUND
 147965	w	w	w	conj.	and	
@@ -95,7 +96,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147974	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.39 10						
 147975	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
-147975	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+147975	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+147975	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 147975	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 147976	mlun	mlu/	mlủ	n. m. sg.	fill	
 147977	šnpt	šnp(t/t	šnpt	n. f. sg.	wave- offering	

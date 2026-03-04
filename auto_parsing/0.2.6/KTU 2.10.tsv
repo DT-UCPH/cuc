@@ -12,7 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156557	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156557	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.10 4						
-156558	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+156558	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+156558	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 156559	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.10 5						
 156560	l	l(I)	l (I)	prep.	to	
@@ -75,11 +76,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 18						
 156590	ṯmt	ṯm	ṯm	adv.	there	
 156591	w	w	w	conj.	and	
-156592	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+156592	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+156592	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 2.10 19						
 156593	b	b	b	prep.	in	
 156594	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-156594	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-156594	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+156594	spr	spr[	/s-p-r/	vb G suffc.	to count	
+156594	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+156594	spr	spr[	/s-p-r/	vb D suffc.	to count	
+156594	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 156594	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 156595	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	

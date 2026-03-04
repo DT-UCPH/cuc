@@ -21,7 +21,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 5						
 158974	ly	l(I)+y	l (I)	prep.	to	
 158975	umy	um/y	ủm	n. f. sg.	mother	
-158976	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+158976	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+158976	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 158977	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 158977	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.72 6						
@@ -40,7 +41,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158986	mxnm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.72 9						
 158987	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158987	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158987	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158987	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158987	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158988	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
 158988	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -104,7 +106,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159021	ky	k(II)	k (II)	emph. functor	yes	
 159021	ky	k(IV)	k (IV)	adv.	thus	
 159022	tdbr	!t!dbr(II)[:d	/d-b-r/ (II)	vb D prefc.	to say	
-159022	tdbr	!t!dbr(I)[:d	/d-b-r/ (I)	vb G prefc. / vb D prefc.	drive away	
+159022	tdbr	!t!dbr(I)[	/d-b-r/ (I)	vb G prefc.	drive away	
+159022	tdbr	!t!dbr(I)[:d	/d-b-r/ (I)	vb D prefc.	drive away	
 159023	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.72 19						
 159024	l	l(I)	l (I)	prep.	to	
@@ -138,7 +141,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159040	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 159041	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
 # KTU 2.72 25						
-159042	ybnn	!y!](n]bn(y[:pass+n	/b-n-y/	vb G prefc. / vb N prefc. / vb Gpass prefc.	to build	
+159042	ybnn	!y!](n]bn(y[:pass+n	/b-n-y/	vb G prefc.	to build	
+159042	ybnn	!y!](n]bn(y[+n	/b-n-y/	vb N prefc.	to build	
+159042	ybnn	!y!](n]bn(y[+n	/b-n-y/	vb Gpass prefc.	to build	
 159042	ybnn	ybnn/	ybnn	PN	ybnn	
 159043	hlk	hlk[	/h-l-k/	vb G suffc.	to go	
 159043	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m.	to go	

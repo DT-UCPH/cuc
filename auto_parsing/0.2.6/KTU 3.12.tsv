@@ -3,7 +3,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161333	l	l(I)	l (I)	prep.	to	
 161333	l	l(II)	l (II)	adv.	no	
 161333	l	l(III)	l (III)	functor	certainly	
-161334	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb G prefc. / vb Gpass prefc.	to collect	
+161334	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+161334	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
 161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
 # KTU 3.12 2						
 161336	b	b	b	prep.	in	
@@ -49,8 +50,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.12 9						
 161356	ktb	ktb[	/k-t-b/	vb G suffc.	to write	
 161357	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-161357	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-161357	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+161357	spr	spr[	/s-p-r/	vb G suffc.	to count	
+161357	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+161357	spr	spr[	/s-p-r/	vb D suffc.	to count	
+161357	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 161357	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 161358	hnd	hnd	hnd	dem.	this	
 # KTU 3.12 10						
@@ -66,11 +69,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161366	l	l(I)	l (I)	prep.	to	
 161366	l	l(II)	l (II)	adv.	no	
 161366	l	l(III)	l (III)	functor	certainly	
-161367	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
+161367	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+161367	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 # KTU 3.12 13						
 161368	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-161368	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-161368	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+161368	spr	spr[	/s-p-r/	vb G suffc.	to count	
+161368	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+161368	spr	spr[	/s-p-r/	vb D suffc.	to count	
+161368	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 161368	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 161369	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 161369	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	

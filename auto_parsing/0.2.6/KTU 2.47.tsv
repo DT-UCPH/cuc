@@ -82,7 +82,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158367	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.47 II:4						
 158368	d	d	d	det. or rel. functor	the one(s) of	
-158369	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+158369	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+158369	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 158369	št	š(t(II)/t	št (II)	n. f. sg.	raíz	
 158369	št	št(I)/	št (I)	n. m. sg.	base	
 158370	ˤl	ˤl(I)	ʕl (I)	prep.	upon	

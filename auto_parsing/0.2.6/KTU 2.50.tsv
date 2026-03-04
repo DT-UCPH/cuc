@@ -18,7 +18,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158460	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.50 5						
 158461	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158461	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158461	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158461	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158461	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158462	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
 158462	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -45,7 +46,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158473	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
 158473	šil	šil(I)/	šỉl (I)	n. m. sg.	interrogator	
 158474	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158474	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158474	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158474	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158474	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.50 11						
 158475	ank	ank	ảnk	pers. pn.	I	

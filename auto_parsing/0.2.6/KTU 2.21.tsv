@@ -15,7 +15,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156911	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 156911	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.21 4						
-156912	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+156912	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+156912	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 156913	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.21 5						
 156914	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
@@ -55,7 +56,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.21 13						
 156933	kl	kl/	kl	n. m. sg.	totality (of)	
 156934	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-156934	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+156934	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+156934	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 156934	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 156935	w	w	w	conj.	and	
 156936	lm	l(I)	l (I)	prep.	to	

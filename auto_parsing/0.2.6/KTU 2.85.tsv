@@ -32,7 +32,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159492	km	km	km	prep./conj./adv.		
 159492	km	+km, +km=	-km			
 # KTU 2.85 6						
-159493	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+159493	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+159493	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 159494	lkm	l(I)+k~m	l (I)	prep.	to	
 # KTU 2.85 7						
 159495	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
@@ -41,7 +42,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159496	l	l(II)	l (II)	adv.	no	
 159496	l	l(III)	l (III)	functor	certainly	
 159497	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-159497	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+159497	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+159497	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 159497	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.85 8						
 159498	tġrkm	nġr[km	/n-ġ-r/	vb G suffc.	to protect	
@@ -52,14 +54,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159502	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.85 10						
 159503	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-159503	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+159503	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+159503	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 159503	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 159504	w	w	w	conj.	and	
 159505	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 2.85 11						
 159506	mnm	mnm	mnm	indef. pn.	any(thing)	
 159507	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-159507	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+159507	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+159507	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 159507	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.85 12						
 159508	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
@@ -121,7 +125,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159541	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
 159541	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.85 26						
-159542	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+159542	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+159542	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 159543	lk	l(I)+k	l (I)	prep.	to	
 159544	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 159544	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	

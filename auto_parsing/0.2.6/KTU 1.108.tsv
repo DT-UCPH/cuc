@@ -1,7 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.108 1						
 153210	hln	hln	hln	deictic adv. functor	look!	
-153211	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+153211	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+153211	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 153212	rpu	rpu/	rpủ	n. m. sg.	healer	
 153213	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 153213	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -9,7 +10,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153214	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
 153214	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg.	eternity	
 153215	w	w	w	conj.	and	
-153216	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+153216	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+153216	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 # KTU 1.108 2						
 153217	ilgṯr	?	?	?	?	DULAT: NOT FOUND
 153218	w	w	w	conj.	and	
@@ -30,7 +32,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153228	d	d	d	det. or rel. functor	the one(s) of	
 153229	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc.	to sing	
 153230	w	w	w	conj.	and	
-153231	yḏmr	!y!ḏmr(II)[:d	/ḏ-m-r/ (II)	vb G prefc. / vb D prefc.	to sing	
+153231	yḏmr	!y!ḏmr(II)[	/ḏ-m-r/ (II)	vb G prefc.	to sing	
+153231	yḏmr	!y!ḏmr(II)[:d	/ḏ-m-r/ (II)	vb D prefc.	to sing	
 # KTU 1.108 4						
 153232	b	b	b	prep.	in	
 153233	knr	knr/	knr	n. m. sg.	harp	
@@ -39,7 +42,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153236	b	b	b	prep.	in	
 153237	tp	tp(I)/	tp (I)	n. m. sg.	drum	
 153237	tp	tp(II)/	tp (II)	n. m. sg.	aspect	
-153237	tp	npy[:pass	/n-p-y/	vb N prefc. / vb Gpass prefc.	to be driven away	
+153237	tp	npy[	/n-p-y/	vb N prefc.	to be driven away	
+153237	tp	npy[:pass	/n-p-y/	vb Gpass prefc.	to be driven away	
 153238	w	w	w	conj.	and	
 153239	mṣltm	mṣlt(I)/m	mṣlt (I)	n. f. du.	cymbal	
 153240	bm	b+m(I)	b	prep.	in	
@@ -96,7 +100,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153274	ḫmr	ḫmr/	ḫmr	n. m. sg.	(sparkling(?)) wine	
 153275	špr	špr/	špr	n. m. sg.	horn	
 153276	w	w	w	conj.	and	
-153277	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+153277	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+153277	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 153277	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
 153278	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
 153278	il	il(I)/	ỉl (I)	n. m.	god	
@@ -120,7 +125,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153288	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.108 13						
 153289	xxxxxxxxxḥ	?	?	?	?	DULAT: NOT FOUND
-153290	yšt	!y!št[:pass	/š-t/	vb G prefc. / vb Gpass prefc.	to place	
+153290	yšt	!y!št[	/š-t/	vb G prefc.	to place	
+153290	yšt	!y!št[:pass	/š-t/	vb Gpass prefc.	to place	
 153290	yšt	!y!št(y[	/š-t-y/	vb G prefc.	to drink	
 153291	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg.	goddess	
 153291	ilh	ilh/	ỉlh	DN	the ‘Divine One’	

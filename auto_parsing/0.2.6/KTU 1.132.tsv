@@ -3,10 +3,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154650	b	b	b	prep.	in	
 154651	tšˤ	tšˤ/	tšʕ	num.	nine	
 154652	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
-154652	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+154652	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+154652	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 154652	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 # KTU 1.132 2						
-154653	trbd	!t!](n]rbd[	/r-b-d/	vb G prefc. / vb N prefc.	to (be) prepare(d)	
+154653	trbd	!t!](n]rbd[	/r-b-d/	vb G prefc.	to (be) prepare(d)	
+154653	trbd	!t!](n]rbd[	/r-b-d/	vb N prefc.	to (be) prepare(d)	
 154654	ˤrš	ˤrš/	ʕrš	n. f. sg.	bed	
 154655	pd	pd(I)/	pd (I)	n. m. sg.	lock (of hair)	
 # KTU 1.132 3						

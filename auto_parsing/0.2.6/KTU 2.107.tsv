@@ -32,10 +32,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.107 9						
 160593	x	?	?	?	?	
 160594	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-160594	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-160594	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+160594	spr	spr[	/s-p-r/	vb G suffc.	to count	
+160594	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+160594	spr	spr[	/s-p-r/	vb D suffc.	to count	
+160594	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 160594	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
-160595	šthm	št[:pass+hm	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+160595	šthm	št[:pass+hm	/š-t/	vb G suffc. / vb G impv.	to place	
+160595	šthm	št[+hm	/š-t/	vb Gpass suffc.	to place	
 160595	šthm	št(II)/+hm	št (II)	n. f.	raíz	
 160595	šthm	št(I)/+hm	št (I)	n. m.	base	
 # KTU 2.107 10						

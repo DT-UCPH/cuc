@@ -44,7 +44,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.1 12						
 160769	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
 160770	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-160770	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+160770	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+160770	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 160770	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 160771	wšpš	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.1 13						
@@ -81,7 +82,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160789	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
 160789	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 160790	ugrt	ugrt/	ủgrt	TN	Ugarit	
-160791	št	št[:pass	/š-t/	vb G suffc. / vb G impv. / vb Gpass suffc.	to place	
+160791	št	št[	/š-t/	vb G suffc. / vb G impv.	to place	
+160791	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 3.1 18						
 160792	hlny	hlny	hlny	deictic adv. functor	behold	
 160793	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
@@ -95,7 +97,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160798	arn	arn(I)/	ảrn (I)	n. m. sg.	chest	
 160799	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 160800	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
-160800	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+160800	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+160800	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 160800	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 160801	mn	mn(III)/	mn (III)	n. m. sg.	mina	
 160801	mn	mn(IV)	mn (IV)	?	?	

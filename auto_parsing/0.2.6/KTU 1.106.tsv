@@ -113,7 +113,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152867	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.106 20						
 152868	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
-152868	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+152868	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+152868	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 152868	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
 152869	dqt	dq(t(I)/t	dqt (I)	adj. f. or n. f. sg.	small	
 152869	dqt	dq(t(I)/t=	dqt (I)	adj. f. or n. f. sg.	small	
@@ -154,7 +155,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152888	l	l(III)	l (III)	functor	certainly	
 152889	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 1.106 25						
-152890	tuṣl	ʔṣl[l:pass	/ʔ-ṣ-l/	vb G prefc. / vb Gpass prefc.	to (be) put aside	
+152890	tuṣl	ʔṣl[l	/ʔ-ṣ-l/	vb G prefc.	to (be) put aside	
+152890	tuṣl	ʔṣl[l:pass	/ʔ-ṣ-l/	vb Gpass prefc.	to (be) put aside	
 152891	šlḥmt	šlḥm(t/t	šlḥmt	n. f. sg.	provisions	
 152891	šlḥmt	šlḥm(t/t=	šlḥmt	n. f. sg.	provisions	
 152892	b	b	b	prep.	in	

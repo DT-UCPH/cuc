@@ -52,11 +52,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158645	ap	ap(II)/	ảp (II)	n. m.	nose	
 158646	krmm	krm/	krm	n. m. sg. / n. m. pl.	vineyard	
 # KTU 2.61 11						
-158647	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb G suffc. / vb Dpass suffc.	to perish	
+158647	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc.	to perish	
+158647	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 158647	ḫlq	ḫlq/	ḫlq	adj. m. or n. m. sg.	ruined	
 # KTU 2.61 12						
 158648	qrtln	?	?	?	?	DULAT: NOT FOUND
-158649	ḫlqt	ḫlq[t:pass	/ḫ-l-q/	vb G suffc. / vb Dpass suffc.	to perish	
+158649	ḫlqt	ḫlq[t	/ḫ-l-q/	vb G suffc.	to perish	
+158649	ḫlqt	ḫlq[t:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 # KTU 2.61 13						
 158650	w	w	w	conj.	and	
 158651	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv.	to know	

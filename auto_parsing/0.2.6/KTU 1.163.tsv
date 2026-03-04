@@ -7,7 +7,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155308	l	l(III)	l (III)	functor	certainly	
 155309	xxxxxxx	?	?	?	?	
 155310	bhmtn	bhm(t/t+n	bhmt	n. f. sg.	cattle	
-155311	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb G prefc. / vb Dpass suffc.	to perish	
+155311	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc.	to perish	
+155311	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 # KTU 1.163 2						
 155312	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155312	hm	hm(I)	hm (I)	pers. pn.	they	
@@ -121,7 +122,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155381	yrq	yrq/	yrq	n. m. sg.	greenish yellow (a metal / gold)	
 # KTU 1.163 15						
 155382	xxxxxxbhmtn	?	?	?	?	DULAT: NOT FOUND
-155383	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb G prefc. / vb Dpass suffc.	to perish	
+155383	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc.	to perish	
+155383	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 # KTU 1.163 16						
 155384	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155384	hm	hm(I)	hm (I)	pers. pn.	they	

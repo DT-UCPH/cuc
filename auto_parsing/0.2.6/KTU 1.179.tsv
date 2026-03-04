@@ -297,8 +297,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156249	mntn	mnt(I)/+n	mnt (I)	n. f.	portion	
 # KTU 1.179 40						
 156250	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-156250	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-156250	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+156250	spr	spr[	/s-p-r/	vb G suffc.	to count	
+156250	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+156250	spr	spr[	/s-p-r/	vb D suffc.	to count	
+156250	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 156250	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 156251	ilmlk	ilmlk/	ỉlmlk	PN	ʾIlimalku/Ilimilku/Elimelek	
 156252	šbny	šbny/	šbny	GN	Shubanite	
@@ -323,6 +325,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 43						
 156265	b	b	b	prep.	in	
 156266	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-156266	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-156266	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+156266	spr	spr[	/s-p-r/	vb G suffc.	to count	
+156266	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+156266	spr	spr[	/s-p-r/	vb D suffc.	to count	
+156266	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 156266	spr	spr(I)/	spr (I)	n. m. sg.	scribe	

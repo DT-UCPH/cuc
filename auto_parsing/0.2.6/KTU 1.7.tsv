@@ -45,7 +45,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141500	tġdd	!t!ġdd[:d	/ġ-d-d/	vb D prefc.	to swell	
 141501	kbdh	kbd(I)	kbd (I)		liver	
 141502	bṣḥq	?	?	?	?	DULAT: NOT FOUND
-141503	ymlu	!y!ml(ʔ[&u:d	/m-l-ʔ/	vb G prefc. / vb D prefc.	to be full	
+141503	ymlu	!y!ml(ʔ[&u	/m-l-ʔ/	vb G prefc.	to be full	
+141503	ymlu	!y!ml(ʔ[&u:d	/m-l-ʔ/	vb D prefc.	to be full	
 141504	lbh	lb/+h	lb	n. m.	heart	
 # KTU 1.7 8						
 141505	b	b	b	prep.	in	
@@ -121,8 +122,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141548	irth	ir(t/t+h	ỉrt	n. f. sg.	breast	
 141549	mšr	mšr(I)/	mšr (I)	n. m. sg.	justice	
 141549	mšr	mšr(II)/	mšr (II)	n. sg.	song	
-141550	ldd	yld[+d	/y-l-d/	vb N suffc.	to give birth (to), ?	
 141550	ldd	!!yld[/+d	/y-l-d/	vb G inf.	to give birth (to), ?	
+141550	ldd	yld[+d	/y-l-d/	vb N suffc.	to give birth (to), ?	
 141551	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 141552	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
 # KTU 1.7 24						
@@ -177,7 +178,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141583	bˤprmddym	?	?	?	?	DULAT: NOT FOUND
 141584	sk	sk(I)/	sk (I)	n. m. sg.	coverlet	
 141585	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-141585	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+141585	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+141585	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 141585	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 141586	lkbd	?	?	?	?	DULAT: NOT FOUND
 141587	ars	?	?	?	?	DULAT: NOT FOUND
@@ -237,7 +239,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141627	ibġy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.7 35						
 141628	hl	hl	hl	deictic adv. functor	behold	
-141629	yˤmdn	!y!ˤmd[n:d	/ʕ-m-d/	vb G prefc. / vb D prefc.	?	
+141629	yˤmdn	!y!ˤmd[n	/ʕ-m-d/	vb G prefc.	?	
+141629	yˤmdn	!y!ˤmd[n:d	/ʕ-m-d/	vb D prefc.	?	
 141630	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.7 36						
 141631	kpr	kpr(II)/	kpr (II)	n. m. sg.	henna (powder or dye)	

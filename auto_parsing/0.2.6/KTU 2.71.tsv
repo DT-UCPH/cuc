@@ -8,7 +8,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158919	pzy	pzy/	pzy	PN	pzy	
 158920	rmgm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.71 3						
-158921	yšlm	!y!šlm[:d	/š-l-m/	vb G prefc. / vb D prefc.	to be well	
+158921	yšlm	!y!šlm[	/š-l-m/	vb G prefc.	to be well	
+158921	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc.	to be well	
 158922	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.71 4						
 158923	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
@@ -22,7 +23,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 6						
 158927	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158928	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-158928	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+158928	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+158928	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 158928	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.71 7						
 158929	ṯmny	ṯm	ṯm	adv.	there	
@@ -42,14 +44,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 10						
 158936	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg.	party	
 158936	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg.	time	
-158936	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf. / vb D inf.	to appoint the time	
+158936	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf.	to appoint the time	
+158936	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb D inf.	to appoint the time	
 158937	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 # KTU 2.71 11						
 158938	ˤmnk	ˤm(I)+k	ʕm (I)	prep.	to	
 158939	pm	p(I)+m(I)	p (I)	conj. functor	and	
 158939	pm	p(III)/+m(I)	p (III)	n. m.	mouth	
 158939	pm	p(II)+m(I)	p (II)	adv.	here	
-158940	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
+158940	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+158940	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 # KTU 2.71 12						
 158941	bk	b	b	prep.	in	
 158942	tˤpr	!t!ˤpr[	/ʕ-p-r/	vb G prefc.	to supply (something)	
@@ -79,7 +83,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 18						
 158957	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg.	party	
 158957	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg.	time	
-158957	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf. / vb D inf.	to appoint the time	
+158957	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf.	to appoint the time	
+158957	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb D inf.	to appoint the time	
 158958	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
 158959	akl	akl(II)/	ảkl (II)	n. m. sg.	grain	
 # KTU 2.71 19						

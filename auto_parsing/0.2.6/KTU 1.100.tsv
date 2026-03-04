@@ -540,7 +540,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152032	šḥr	šḥr/	šḥr	n. m. sg.	dawn	
 152033	w	w	w	conj.	and	
 152034	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-152034	šlm	šlm[:d	/š-l-m/	vb G suffc. / vb D suffc.	to be well	
+152034	šlm	šlm[	/š-l-m/	vb G suffc.	to be well	
+152034	šlm	šlm[:d	/š-l-m/	vb D suffc.	to be well	
 152034	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 152035	šmmh	šmm(I)/+h	šmm (I)	n. m. pl. tant.	heavens	
 152036	mnt	mn(t(I)/t	mnt (I)	n. f. sg.	portion	
@@ -630,14 +631,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152084	pnm	pn(m/m	pnm	n. m. pl. tant. pl.	face	
 152085	trġnw	?	?	?	?	DULAT: NOT FOUND
 152086	w	w	w	conj.	and	
-152087	tṯkl	!t!ṯkl[:d	/ṯ-k-l/	vb G prefc. / vb D prefc.	be childless	
+152087	tṯkl	!t!ṯkl[	/ṯ-k-l/	vb G prefc.	be childless	
+152087	tṯkl	!t!ṯkl[:d	/ṯ-k-l/	vb D prefc.	be childless	
 # KTU 1.100 62						
 152088	bnwth	bn&w(t(II)/t=+h	bnt (II)	n. f. pl.	produce	
 152089	ykr	!y!kr(y[	/k-r-y/	vb G prefc.	to dig	
 152090	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
 152090	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
 152091	d	d	d	det. or rel. functor	the one(s) of	
-152092	qdm	qdm[:d	/q-d-m/	vb G suffc. / vb D suffc.	to proceed	
+152092	qdm	qdm[	/q-d-m/	vb G suffc.	to proceed	
+152092	qdm	qdm[:d	/q-d-m/	vb D suffc.	to proceed	
 152092	qdm	qdm(I)/	qdm (I)	n. m. sg.	front	
 152092	qdm	qdm(II)	qdm (II)	prep.	in front of	
 # KTU 1.100 63						
@@ -710,13 +713,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152131	km	+km, +km=	-km			
 152132	nḫl	nḫl(I)/	nḫl (I)	n. m. sg.	torrent	
 # KTU 1.100 69						
-152133	tplg	!t!](n]plg[	/p-l-g/	vb G prefc. / vb N prefc.	to be split	
+152133	tplg	!t!](n]plg[	/p-l-g/	vb G prefc.	to be split	
+152133	tplg	!t!](n]plg[	/p-l-g/	vb N prefc.	to be split	
 152134	km	k(III)	k (III)	functor	when	
 152134	km	k(I)	k (I)	prep.	like	
 152134	km	k(IV)	k (IV)	adv.	thus	
 152134	km	km	km	prep./conj./adv.		
 152134	km	+km, +km=	-km			
-152135	plg	plg[	/p-l-g/	vb G suffc. / vb N suffc.	to be split	
+152135	plg	plg[	/p-l-g/	vb G suffc.	to be split	
+152135	plg	plg[	/p-l-g/	vb N suffc.	to be split	
 152135	plg	plg/	plg	n. m. sg.	stream	
 # KTU 1.100 70						
 152136	bˤdh	bˤd+h	bʕd	adv. or prep.	behind	

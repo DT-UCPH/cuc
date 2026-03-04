@@ -48,7 +48,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155632	k	k(I)	k (I)	prep.	like	
 155632	k	k(II)	k (II)	emph. functor	yes	
 155633	yˤlm	yˤl(I)/m	yʕl (I)	n. m. pl.	mountain goat	
-155633	yˤlm	!y!](n]ˤlm[:pass	/ʕ-l-m/	vb N prefc. / vb Gpass prefc.	to be known	
+155633	yˤlm	!y!](n]ˤlm[	/ʕ-l-m/	vb N prefc.	to be known	
+155633	yˤlm	!y!](n]ˤlm[:pass	/ʕ-l-m/	vb Gpass prefc.	to be known	
 155634	ẓrh	ẓr(I)/h	ẓr (I)	n. m. sg.	back	
 155635	k	+k	-k (I)			
 155635	k	~k	-k (II)			
@@ -192,7 +193,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155720	xxxxxxxx	?	?	?	?	
 155721	al	al(I)	ảl (I)	neg. functor	no	
 155721	al	al(II)	ảl (II)	pos. functor	surely	
-155722	tṯbb	!t!ṯbb[:l:r	/ṯ-b/	vb L prefc. / vb R prefc.	to return	
+155722	tṯbb	!t!ṯbb[	/ṯ-b/	vb L prefc.	to return	
+155722	tṯbb	!t!ṯbb[:l:r	/ṯ-b/	vb R prefc.	to return	
 155723	riš	riš(I)/	rỉš (I)	n. m. sg.	head	
 # KTU 1.169 20						
 155724	xxxxxxxxx	?	?	?	?	

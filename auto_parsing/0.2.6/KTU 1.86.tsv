@@ -1,8 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 1						
 150688	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-150688	spr	spr[	/s-p-r/	vb G suffc. / vb D suffc.	to count	
-150688	spr	!!spr[/	/s-p-r/	vb G inf. / vb D inf.	to count	
+150688	spr	spr[	/s-p-r/	vb G suffc.	to count	
+150688	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+150688	spr	spr[	/s-p-r/	vb D suffc.	to count	
+150688	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 150688	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 150689	ḥlmm	ḥlm(II)/	ḥlm (II)	n. m. pl.	growing animal	
 150690	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
@@ -87,7 +89,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150737	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
 150737	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
 150738	mdl	mdl(I)/	mdl (I)	n. m. sg.	riding gear	
-150738	mdl	mdl[:d	/m-d-l/	vb G impv. / vb D impv.	to bridle	
+150738	mdl	mdl[	/m-d-l/	vb G impv.	to bridle	
+150738	mdl	mdl[:d	/m-d-l/	vb D impv.	to bridle	
 150738	mdl	mdl(II)/	mdl (II)	n. m. sg.	lightning (?)	
 150739	nˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 13						
@@ -96,7 +99,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150742	l	l(I)	l (I)	prep.	to	
 150742	l	l(II)	l (II)	adv.	no	
 150742	l	l(III)	l (III)	functor	certainly	
-150743	mdl	mdl[:d	/m-d-l/	vb G impv. / vb D impv.	to bridle	
+150743	mdl	mdl[	/m-d-l/	vb G impv.	to bridle	
+150743	mdl	mdl[:d	/m-d-l/	vb D impv.	to bridle	
 150743	mdl	mdl(I)/	mdl (I)	n. m. sg.	riding gear	
 150743	mdl	mdl(II)/	mdl (II)	n. m. sg.	lightning (?)	
 150744	rxxš	?	?	?	?	DULAT: NOT FOUND

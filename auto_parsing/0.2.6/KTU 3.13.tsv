@@ -39,7 +39,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.13 5						
 161397	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 161398	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
-161398	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+161398	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+161398	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 161398	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 161399	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 161400	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -110,7 +111,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161436	kdrn	kdrn/	kdrn	PN	kdrn	
 # KTU 3.13 12						
 161437	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
-161437	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb D suffc. / vb Dpass suffc.	to invite	
+161437	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+161437	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 161437	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 161438	ksp	ksp/	ksp	n. m. sg.	silver	
 161439	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
