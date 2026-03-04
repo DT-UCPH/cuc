@@ -46,4 +46,5 @@ class GroupedToken:
     line_id: str
     surface: str
     section_ref: str
+    row_indexes: tuple[int, ...]
     candidates: tuple[Candidate, ...]

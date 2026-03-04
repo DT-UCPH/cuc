@@ -2,6 +2,11 @@
 # Changelog
 
 ## 2026-03-04
+- Replaced the five-step legacy `l`-context chain (`l-negation-verb-context`, `l-functor-vocative-context`, `l-kbd-compound-prep`, `l-body-compound-prep`, `l-preposition-bigram-context`) with a single document-level `pipeline/steps/spacy_l_context.py` pass backed by the isolated spaCy spike.
+- Split `TabletParsingPipeline` into explicit pre-`l`, `l`, and post-`l` sections so the `l` strategy can be compared and swapped independently.
+- Added `pipeline/l_context_step_factory.py`, `spacy_ugaritic_rewriter.py`, and `scripts/compare_l_context_strategies.py` to compare the integrated spaCy step against the legacy chain on the same pre-`l` parser state.
+- Added exact-output equivalence coverage in `tests/test_spacy_l_context_step.py` and pipeline wiring coverage in `tests/test_tablet_parsing_pipeline.py`.
+- Ran the corpus comparison across all `278` target tablets after the swap: `0` output diffs versus the legacy `l` chain.
 - Added an isolated spaCy-based `l`-context spike that groups TSV candidate rows into token-level documents and applies current `l` disambiguation heuristics in one rule component without changing the main parsing pipeline.
 - Added `spacy_ugaritic_*` helper modules, a `scripts/spacy_l_context_spike.py` debug runner, and focused regressions in `tests/test_spacy_l_context.py` covering token grouping, forced `l(IV)` references, `l + kbd`, high-confidence `l` bigrams, and `l(II)` pruning/retention by verbal context.
 - Narrowed `scripts/refine_results_mentions.py` host slash rendering to nouns and adjectives only, so non-nominal suffix variants such as pronouns and adverbs no longer inherit nominal `/` in col3 (for example `anh -> an(I)+h; an(II)+h` instead of `an(I)/+h; an(II)+h`).

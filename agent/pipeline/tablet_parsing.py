@@ -10,6 +10,7 @@ from lint_reports.generator import LintReportGenerator
 from pipeline.config.surface_option_allowlist import SURFACE_OPTION_PROPAGATION_ALLOWLIST
 from pipeline.dulat_attestation_index import DulatAttestationIndex
 from pipeline.instruction_refiner import InstructionRefiner
+from pipeline.l_context_step_factory import build_spacy_l_context_steps
 from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_reference_disambiguator import AttestationReferenceDisambiguator
 from pipeline.steps.attestation_sort import AttestationSortFixer
@@ -30,11 +31,6 @@ from pipeline.steps.iii_aleph_case_fixer import IIIAlephCaseFixer
 from pipeline.steps.k_functor_bigram_context import KFunctorBigramContextDisambiguator
 from pipeline.steps.known_ambiguities import KnownAmbiguityExpander
 from pipeline.steps.ktu1_family_homonym_pruner import Ktu1FamilyHomonymPruner
-from pipeline.steps.l_body_compound_prep import LBodyCompoundPrepDisambiguator
-from pipeline.steps.l_functor_vocative_context import LFunctorVocativeContextDisambiguator
-from pipeline.steps.l_kbd_compound_prep import LKbdCompoundPrepDisambiguator
-from pipeline.steps.l_negation_verb_context import LNegationVerbContextPruner
-from pipeline.steps.l_preposition_bigram_context import LPrepositionBigramContextDisambiguator
 from pipeline.steps.nominal_case_ending_yh import NominalCaseEndingYHFixer
 from pipeline.steps.nominal_form_morph_pos import NominalFormMorphPosFixer
 from pipeline.steps.noun_closure import NounPosClosureFixer
@@ -92,7 +88,7 @@ class TabletParsingPipeline:
         self.instruction_refiner = InstructionRefiner(dulat_db=self.config.dulat_db)
         self.morph_gate = DulatMorphGate(self.config.dulat_db)
         self.attestation_index = DulatAttestationIndex.from_sqlite(self.config.dulat_db)
-        self._refinement_steps: List[RefinementStep] = [
+        self._pre_l_context_steps: List[RefinementStep] = [
             TsvSchemaFormatter(),
             NounPosClosureFixer(),
             FormulaTrigramFixer(),
@@ -138,11 +134,9 @@ class TabletParsingPipeline:
                 dulat_db=self.config.dulat_db,
                 udb_db=self.config.udb_db,
             ),
-            LNegationVerbContextPruner(),
-            LFunctorVocativeContextDisambiguator(),
-            LKbdCompoundPrepDisambiguator(),
-            LBodyCompoundPrepDisambiguator(),
-            LPrepositionBigramContextDisambiguator(),
+        ]
+        self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps()
+        self._post_l_context_steps: List[RefinementStep] = [
             KFunctorBigramContextDisambiguator(),
             YdkContextDisambiguator(),
             PrefixedIIIAlephVerbFixer(),
@@ -160,6 +154,23 @@ class TabletParsingPipeline:
             # strict 7-column/quote-safe TSV for GitHub rendering.
             TsvSchemaFormatter(),
         ]
+        self._refinement_steps: List[RefinementStep] = [
+            *self._pre_l_context_steps,
+            *self._l_context_steps,
+            *self._post_l_context_steps,
+        ]
+
+    @property
+    def pre_l_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._pre_l_context_steps)
+
+    @property
+    def l_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._l_context_steps)
+
+    @property
+    def post_l_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._post_l_context_steps)
 
     def discover_source_files(self) -> List[Path]:
         return sorted(self.config.source_dir.glob(self.config.source_glob))

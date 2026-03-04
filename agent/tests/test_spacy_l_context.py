@@ -54,11 +54,10 @@ class SpacyLContextTest(unittest.TestCase):
 
     def test_forces_l_iv_in_known_reference(self) -> None:
         doc = self._doc_from_lines(
-            "# KTU 1.4 V:59\t\t\t\t\t\t",
+            "# KTU 1.24:15\t\t\t\t\t\t",
             "1\tl\tl(I)\tl (I)\tprep.\tto\t",
             "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
-            "1\tl\tl(IV)\tl (IV)\tinterj.\toh!\t",
-            "2\tbˤl\tbˤl(II)/\tbʕl (II)\tDN\tBaʿlu/Baal\t",
+            "2\tkṯrt\tkṯrt/\tkṯrt\tDN\tKotharat\t",
         )
         self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(IV)"])
 

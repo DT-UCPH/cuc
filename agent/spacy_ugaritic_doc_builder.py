@@ -51,16 +51,23 @@ def group_tablet_lines(lines: Iterable[str]) -> list[GroupedToken]:
     current_line_id = ""
     current_surface = ""
     current_ref = ""
+    current_row_indexes: list[int] = []
     current_candidates: list[Candidate] = []
 
     def flush() -> None:
-        nonlocal current_line_id, current_surface, current_ref, current_candidates
+        nonlocal \
+            current_line_id, \
+            current_surface, \
+            current_ref, \
+            current_row_indexes, \
+            current_candidates
         if not current_candidates:
             return
         if not current_surface:
             current_line_id = ""
             current_surface = ""
             current_ref = ""
+            current_row_indexes = []
             current_candidates = []
             return
         groups.append(
@@ -68,15 +75,17 @@ def group_tablet_lines(lines: Iterable[str]) -> list[GroupedToken]:
                 line_id=current_line_id,
                 surface=current_surface,
                 section_ref=current_ref,
+                row_indexes=tuple(current_row_indexes),
                 candidates=tuple(current_candidates),
             )
         )
         current_line_id = ""
         current_surface = ""
         current_ref = ""
+        current_row_indexes = []
         current_candidates = []
 
-    for raw in lines:
+    for row_index, raw in enumerate(lines):
         separator_ref = extract_separator_ref(raw)
         if separator_ref is not None:
             flush()
@@ -94,6 +103,7 @@ def group_tablet_lines(lines: Iterable[str]) -> list[GroupedToken]:
             current_line_id = key[0]
             current_surface = key[1]
             current_ref = active_ref
+        current_row_indexes.append(row_index)
         current_candidates.append(Candidate.from_row(row))
 
     flush()

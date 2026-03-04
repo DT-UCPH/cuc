@@ -7,6 +7,7 @@ from spacy.tokens import Doc, Token
 
 from pipeline.config.l_body_compound_prep_rules import L_BODY_COMPOUND_PREP_RULES
 from pipeline.config.l_functor_vocative_refs import expected_l_homonym_for_ref
+from pipeline.config.l_negation_exception_refs import is_forced_l_negation_ref
 from pipeline.config.l_preposition_bigram_rules import (
     L_BAAL_ANALYSIS,
     L_BAAL_DULAT,
@@ -31,15 +32,22 @@ def _is_l_candidate(candidate: Candidate, homonym: str) -> bool:
     return candidate.analysis == f"l({homonym})" and candidate.dulat == f"l ({homonym})"
 
 
-def _canonical_l(homonym: str, source: Token) -> Candidate:
+def _first_comment(token: Token) -> str:
+    candidates = token._.resolved_candidates or token._.candidates
+    if not candidates:
+        return ""
+    return candidates[0].comment
+
+
+def _canonical_l(homonym: str, comment: str = "") -> Candidate:
     if homonym == "I":
-        return Candidate("l(I)", "l (I)", "prep.", "to")
+        return Candidate("l(I)", "l (I)", "prep.", "to", comment=comment)
     if homonym == "II":
-        return Candidate("l(II)", "l (II)", "adv.", "no")
+        return Candidate("l(II)", "l (II)", "adv.", "no", comment=comment)
     if homonym == "III":
-        return Candidate("l(III)", "l (III)", "functor", "certainly")
+        return Candidate("l(III)", "l (III)", "functor", "certainly", comment=comment)
     if homonym == "IV":
-        return Candidate("l(IV)", "l (IV)", "interj.", "oh!")
+        return Candidate("l(IV)", "l (IV)", "interj.", "oh!", comment=comment)
     raise ValueError(homonym)
 
 
@@ -52,12 +60,12 @@ def _matches_payload(candidate: Candidate, payload: CanonicalSecondPayload) -> b
     )
 
 
-def _canonical_second(payload: CanonicalSecondPayload, source: Token) -> Candidate:
-    return Candidate(payload.analysis, payload.dulat, payload.pos, payload.gloss)
+def _canonical_second(payload: CanonicalSecondPayload, comment: str = "") -> Candidate:
+    return Candidate(payload.analysis, payload.dulat, payload.pos, payload.gloss, comment=comment)
 
 
-def _canonical_kbd_compound() -> Candidate:
-    return Candidate("kbd(I)/", "kbd (I)", "n.", "within")
+def _canonical_kbd_compound(comment: str = "") -> Candidate:
+    return Candidate("kbd(I)/", "kbd (I)", "n.", "within", comment=comment)
 
 
 def _is_kbd_i(candidate: Candidate) -> bool:
@@ -76,7 +84,21 @@ def _keep_single_l(token: Token, homonym: str) -> tuple[Candidate, ...]:
     )
     if matches:
         return (matches[0],)
-    return (_canonical_l(homonym, token),)
+    return (_canonical_l(homonym, comment=_first_comment(token)),)
+
+
+def _keep_single_payload(
+    token: Token,
+    payload: CanonicalSecondPayload,
+) -> tuple[Candidate, ...]:
+    matches = tuple(
+        candidate
+        for candidate in token._.resolved_candidates
+        if _matches_payload(candidate, payload)
+    )
+    if matches:
+        return (matches[0],)
+    return (_canonical_second(payload, comment=_first_comment(token)),)
 
 
 def _has_class(token: Token | None, label: str) -> bool:
@@ -102,11 +124,14 @@ class LContextResolver:
                 continue
             next_token = _next_token(doc, index)
             next_has_verb = _has_class(next_token, "VERB")
+            if is_forced_l_negation_ref(token._.section_ref):
+                self._replace(token, _keep_single_l(token, "II"), "forced-ii", doc)
+                continue
+            if self._apply_compound_rules(token, next_token, doc):
+                continue
             forced = expected_l_homonym_for_ref(token._.section_ref, next_has_verb)
             if forced is not None:
                 self._replace(token, _keep_single_l(token, forced), f"forced-{forced.lower()}", doc)
-                continue
-            if self._apply_compound_rules(token, next_token, doc):
                 continue
             if next_has_verb:
                 continue
@@ -125,7 +150,16 @@ class LContextResolver:
 
         if next_token.text == "kbd" and any(_is_kbd_i(c) for c in next_token._.resolved_candidates):
             self._replace(token, _keep_single_l(token, "I"), "force-l-i-kbd", doc)
-            self._replace(next_token, (_canonical_kbd_compound(),), "force-kbd-compound", doc)
+            kbd_candidates = tuple(c for c in next_token._.resolved_candidates if _is_kbd_i(c))
+            kbd_comment = (
+                kbd_candidates[0].comment if kbd_candidates else _first_comment(next_token)
+            )
+            self._replace(
+                next_token,
+                (_canonical_kbd_compound(comment=kbd_comment),),
+                "force-kbd-compound",
+                doc,
+            )
             return True
 
         body_rule = L_BODY_COMPOUND_PREP_RULES.get(next_token.text)
@@ -136,15 +170,13 @@ class LContextResolver:
             self._replace(token, _keep_single_l(token, "I"), f"force-l-i-{next_token.text}", doc)
             self._replace(
                 next_token,
-                (
-                    _canonical_second(
-                        CanonicalSecondPayload(
-                            analysis=body_rule.second_analysis,
-                            dulat=body_rule.second_dulat,
-                            pos=body_rule.second_pos,
-                            gloss=body_rule.second_gloss,
-                        ),
-                        next_token,
+                _keep_single_payload(
+                    next_token,
+                    CanonicalSecondPayload(
+                        analysis=body_rule.second_analysis,
+                        dulat=body_rule.second_dulat,
+                        pos=body_rule.second_pos,
+                        gloss=body_rule.second_gloss,
                     ),
                 ),
                 f"force-body-{next_token.text}",
@@ -161,7 +193,7 @@ class LContextResolver:
             if payload is not None:
                 self._replace(
                     next_token,
-                    (_canonical_second(payload, next_token),),
+                    _keep_single_payload(next_token, payload),
                     f"force-pn-{next_token.text}",
                     doc,
                 )
@@ -170,8 +202,12 @@ class LContextResolver:
         if next_token.text == L_BAAL_SURFACE and doc._.source_name.startswith("KTU 4.") is False:
             baal_candidates = tuple(c for c in next_token._.resolved_candidates if _is_baal_ii(c))
             if baal_candidates:
+                preferred_baal = next(
+                    (candidate for candidate in baal_candidates if "DN" in (candidate.pos or "")),
+                    baal_candidates[0],
+                )
                 self._replace(token, _keep_single_l(token, "I"), "force-l-i-baal", doc)
-                self._replace(next_token, (baal_candidates[0],), "force-baal-ii", doc)
+                self._replace(next_token, (preferred_baal,), "force-baal-ii", doc)
                 return True
         return False
 

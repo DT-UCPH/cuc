@@ -7,6 +7,28 @@ from pipeline.tablet_parsing import PipelineConfig, TabletParsingPipeline
 
 
 class TabletParsingPipelineTest(unittest.TestCase):
+    def test_pipeline_uses_integrated_spacy_l_context_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual([step.name for step in pipeline.l_context_steps], ["spacy-l-context"])
+            self.assertNotIn(
+                "l-negation-verb-context", [step.name for step in pipeline._refinement_steps]
+            )
+
     def test_default_glob_includes_ktu2_family(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
@@ -268,26 +290,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("attestation-reference-disambiguator"),
-                names.index("l-negation-verb-context"),
+                names.index("spacy-l-context"),
             )
             self.assertLess(
-                names.index("l-negation-verb-context"),
-                names.index("l-functor-vocative-context"),
-            )
-            self.assertLess(
-                names.index("l-functor-vocative-context"),
-                names.index("l-kbd-compound-prep"),
-            )
-            self.assertLess(
-                names.index("l-kbd-compound-prep"),
-                names.index("l-body-compound-prep"),
-            )
-            self.assertLess(
-                names.index("l-body-compound-prep"),
-                names.index("l-preposition-bigram-context"),
-            )
-            self.assertLess(
-                names.index("l-preposition-bigram-context"),
+                names.index("spacy-l-context"),
                 names.index("k-functor-bigram-context"),
             )
             self.assertLess(
@@ -365,7 +371,7 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("attested-split-token-merge"),
-                names.index("l-negation-verb-context"),
+                names.index("spacy-l-context"),
             )
 
 
