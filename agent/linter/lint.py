@@ -15,6 +15,7 @@ if __package__ in {None, ""}:
     if str(_repo_root) not in sys.path:
         sys.path.insert(0, str(_repo_root))
 
+from linter.feature_validation import inferable_feature_issues
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
@@ -2314,6 +2315,18 @@ def lint_file(
                                 surface,
                                 a_var,
                                 "Prefixed N-stem forms should encode assimilated nun as '](n]'",
+                            )
+                        )
+                    for feature_message in inferable_feature_issues(a_var, p_field):
+                        issues.append(
+                            Issue(
+                                "error",
+                                str(path),
+                                i,
+                                line_id,
+                                surface,
+                                a_var,
+                                feature_message,
                             )
                         )
                     if len(p_tokens) > len(d_tokens):
