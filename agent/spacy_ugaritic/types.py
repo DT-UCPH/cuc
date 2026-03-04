@@ -1,4 +1,4 @@
-"""Shared data structures for the spaCy-based Ugaritic rule spikes."""
+"""Shared data structures for the spaCy-based Ugaritic context rules."""
 
 from __future__ import annotations
 
@@ -38,10 +38,13 @@ class Candidate:
             comment=self.comment,
         )
 
+    def is_unresolved(self) -> bool:
+        return self.analysis.strip() == "?"
+
 
 @dataclass(frozen=True)
-class GroupedToken:
-    """One tablet token with all candidate rows grouped together."""
+class TabletToken:
+    """One tablet token with one or more candidate readings."""
 
     line_id: str
     surface: str

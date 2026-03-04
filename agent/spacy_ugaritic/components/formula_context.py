@@ -7,74 +7,84 @@ from spacy.tokens import Doc, Token
 
 from pipeline.config.formula_bigram_rules import FORMULA_BIGRAM_RULES, FormulaBigramRule
 from pipeline.config.formula_trigram_rules import FORMULA_TRIGRAM_RULES, FormulaTrigramRule
-from pipeline.steps.base import TabletRow, is_unresolved
+from spacy_ugaritic.types import Candidate
 
 
 @dataclass(frozen=True)
 class ResolutionEvent:
     token_index: int
     rule: str
-    before: TabletRow
-    after: TabletRow
+    before: Candidate
+    after: Candidate
 
 
 def _split_variants(value: str) -> list[str]:
     return [variant.strip() for variant in (value or "").split(";") if variant.strip()]
 
 
-def _target_supported(row: TabletRow, target) -> bool:
-    return target.dulat in set(_split_variants(row.dulat))
+def _target_supported(candidate: Candidate, target) -> bool:
+    return target.dulat in set(_split_variants(candidate.dulat))
 
 
-def _has_variants(row: TabletRow) -> bool:
-    return ";" in row.analysis or ";" in row.dulat or ";" in row.pos or ";" in row.gloss
+def _has_variants(candidate: Candidate) -> bool:
+    return any(
+        ";" in value
+        for value in (candidate.analysis, candidate.dulat, candidate.pos, candidate.gloss)
+    )
 
 
-def _apply_target(row: TabletRow, target, *, require_variants: bool) -> TabletRow:
-    if not _target_supported(row, target):
-        return row
+def _apply_target(candidate: Candidate, target, *, require_variants: bool) -> Candidate:
+    if not _target_supported(candidate, target):
+        return candidate
     if (
-        row.analysis == target.analysis
-        and row.dulat == target.dulat
-        and row.pos == target.pos
-        and row.gloss == target.gloss
+        candidate.analysis == target.analysis
+        and candidate.dulat == target.dulat
+        and candidate.pos == target.pos
+        and candidate.gloss == target.gloss
     ):
-        return row
-    if require_variants and not _has_variants(row):
-        return row
-    return TabletRow(
-        line_id=row.line_id,
-        surface=row.surface,
+        return candidate
+    if require_variants and not _has_variants(candidate):
+        return candidate
+    return Candidate(
         analysis=target.analysis,
         dulat=target.dulat,
         pos=target.pos,
         gloss=target.gloss,
-        comment=row.comment,
+        comment=candidate.comment,
     )
+
+
+def _resolved_candidate(token: Token) -> Candidate | None:
+    candidates = token._.resolved_candidates or token._.candidates
+    if not candidates:
+        return None
+    return candidates[0]
 
 
 class FormulaContextResolver:
     def __call__(self, doc: Doc) -> Doc:
         doc.user_data.setdefault("formula_context_events", [])
         for token in doc:
-            token._.resolved_row = token._.row
+            token._.resolved_candidates = token._.candidates
 
         self._apply_trigram_rules(doc)
         self._apply_bigram_rules(doc)
         return doc
 
     def _apply_trigram_rules(self, doc: Doc) -> None:
-        snapshot = [token._.resolved_row for token in doc]
+        snapshot = [_resolved_candidate(token) for token in doc]
         for index in range(len(doc) - 2):
             first = snapshot[index]
             second = snapshot[index + 1]
             third = snapshot[index + 2]
             if first is None or second is None or third is None:
                 continue
-            if is_unresolved(first) or is_unresolved(second) or is_unresolved(third):
+            if first.is_unresolved() or second.is_unresolved() or third.is_unresolved():
                 continue
             rule = self._match_trigram_rule(
-                first.surface.strip(), second.surface.strip(), third.surface.strip()
+                doc[index]._.surface.strip(),
+                doc[index + 1]._.surface.strip(),
+                doc[index + 2]._.surface.strip(),
             )
             if rule is None:
                 continue
@@ -83,33 +93,42 @@ class FormulaContextResolver:
                 first,
                 rule.first_target,
                 require_variants=True,
-                rule_name=f"formula-trigram:{rule.first_surface}-{rule.second_surface}-{rule.third_surface}:1",
+                rule_name=(
+                    f"formula-trigram:{rule.first_surface}-{rule.second_surface}-{rule.third_surface}:1"
+                ),
             )
             self._maybe_replace(
                 doc[index + 1],
                 second,
                 rule.second_target,
                 require_variants=True,
-                rule_name=f"formula-trigram:{rule.first_surface}-{rule.second_surface}-{rule.third_surface}:2",
+                rule_name=(
+                    f"formula-trigram:{rule.first_surface}-{rule.second_surface}-{rule.third_surface}:2"
+                ),
             )
             self._maybe_replace(
                 doc[index + 2],
                 third,
                 rule.third_target,
                 require_variants=True,
-                rule_name=f"formula-trigram:{rule.first_surface}-{rule.second_surface}-{rule.third_surface}:3",
+                rule_name=(
+                    f"formula-trigram:{rule.first_surface}-{rule.second_surface}-{rule.third_surface}:3"
+                ),
             )
 
     def _apply_bigram_rules(self, doc: Doc) -> None:
-        snapshot = [token._.resolved_row for token in doc]
+        snapshot = [_resolved_candidate(token) for token in doc]
         for index in range(len(doc) - 1):
             first = snapshot[index]
             second = snapshot[index + 1]
             if first is None or second is None:
                 continue
-            if is_unresolved(first) or is_unresolved(second):
+            if first.is_unresolved() or second.is_unresolved():
                 continue
-            rule = self._match_bigram_rule(first.surface.strip(), second.surface.strip())
+            rule = self._match_bigram_rule(
+                doc[index]._.surface.strip(),
+                doc[index + 1]._.surface.strip(),
+            )
             if rule is None:
                 continue
             self._maybe_replace(
@@ -150,7 +169,7 @@ class FormulaContextResolver:
     def _maybe_replace(
         self,
         token: Token,
-        row: TabletRow,
+        candidate: Candidate,
         target,
         *,
         require_variants: bool,
@@ -158,12 +177,12 @@ class FormulaContextResolver:
     ) -> None:
         if target is None:
             return
-        updated = _apply_target(row, target, require_variants=require_variants)
-        if updated.to_tsv() == row.to_tsv():
+        updated = _apply_target(candidate, target, require_variants=require_variants)
+        if updated == candidate:
             return
-        token._.resolved_row = updated
+        token._.resolved_candidates = (updated,)
         token.doc.user_data["formula_context_events"].append(
-            ResolutionEvent(token.i, rule_name, row, updated)
+            ResolutionEvent(token.i, rule_name, candidate, updated)
         )
 
 

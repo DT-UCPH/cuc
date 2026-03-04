@@ -961,3 +961,5 @@
 - Added regression tests for migrated path resolution (`tests/test_project_paths.py`) and copied required local-only runtime assets into ignored `agent/local_sources/`.
 
 - Replaced the legacy `OfferingListLPrepFixer` pipeline step with a row-level spaCy `spacy-offering-context` component, added an offering strategy comparison harness, and kept exact-output equivalence against the legacy offering-list normalization before activating the new step.
+
+- Consolidated the spaCy support layer onto one token/candidate document model, removed the separate row-builder/row-rewriter path, and moved formula/offering context onto the same `resolved_candidates` flow used by `l` and `k`.

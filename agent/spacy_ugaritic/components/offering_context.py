@@ -3,10 +3,10 @@
 from dataclasses import dataclass
 
 from spacy.language import Language
-from spacy.tokens import Doc
+from spacy.tokens import Doc, Token
 
-from pipeline.steps.base import TabletRow, is_unresolved
 from pipeline.steps.dulat_gate import LOOKUP_NORMALIZE
+from spacy_ugaritic.types import Candidate
 
 _OFFERING_SURFACES = {
     "gdlt",
@@ -25,8 +25,8 @@ _OFFERING_SURFACES = {
 class ResolutionEvent:
     token_index: int
     rule: str
-    before: TabletRow
-    after: TabletRow
+    before: Candidate
+    after: Candidate
 
 
 def _normalize(text: str) -> str:
@@ -40,66 +40,70 @@ def _is_nominal_pos(pos_text: str) -> bool:
     return any(tag in pos for tag in ("n.", "adj.", "num.", "DN", "PN", "TN"))
 
 
-def _is_ambiguous_l_row(row: TabletRow) -> bool:
+def _is_ambiguous_l_candidate(surface: str, candidate: Candidate) -> bool:
     return (
-        row.surface.strip() == "l"
-        and row.analysis.strip() == "l(I);l(II);l(III)"
-        and row.dulat.strip() == "l (I);l (II);l (III)"
-        and row.pos.strip() == "prep.;adv.;functor"
-        and row.gloss.strip() == "to;no;certainly"
+        surface.strip() == "l"
+        and candidate.analysis.strip() == "l(I);l(II);l(III)"
+        and candidate.dulat.strip() == "l (I);l (II);l (III)"
+        and candidate.pos.strip() == "prep.;adv.;functor"
+        and candidate.gloss.strip() == "to;no;certainly"
     )
 
 
-def _is_offering_row(row: TabletRow) -> bool:
-    return _normalize(row.surface) in _OFFERING_SURFACES and _is_nominal_pos(row.pos)
+def _is_offering_candidate(surface: str, candidate: Candidate) -> bool:
+    return _normalize(surface) in _OFFERING_SURFACES and _is_nominal_pos(candidate.pos)
 
 
-def _is_recipient_row(row: TabletRow) -> bool:
-    pos_text = (row.pos or "").strip()
-    if "vb" in pos_text:
+def _is_recipient_candidate(candidate: Candidate) -> bool:
+    if "vb" in (candidate.pos or "").strip():
         return False
-    return _is_nominal_pos(pos_text)
+    return _is_nominal_pos(candidate.pos)
 
 
-def _canonical_l_prep(row: TabletRow) -> TabletRow:
-    return TabletRow(
-        line_id=row.line_id,
-        surface=row.surface,
+def _canonical_l_prep(candidate: Candidate) -> Candidate:
+    return Candidate(
         analysis="l(I)",
         dulat="l (I)",
         pos="prep.",
         gloss="to",
-        comment=row.comment,
+        comment=candidate.comment,
     )
+
+
+def _resolved_candidate(token: Token) -> Candidate | None:
+    candidates = token._.resolved_candidates or token._.candidates
+    if not candidates:
+        return None
+    return candidates[0]
 
 
 class OfferingContextResolver:
     def __call__(self, doc: Doc) -> Doc:
         doc.user_data.setdefault("offering_context_events", [])
         for token in doc:
-            token._.resolved_row = token._.row
+            token._.resolved_candidates = token._.candidates
 
-        snapshot = [token._.resolved_row for token in doc]
+        snapshot = [_resolved_candidate(token) for token in doc]
         for index, token in enumerate(doc):
-            row = snapshot[index]
-            if row is None or is_unresolved(row):
+            candidate = snapshot[index]
+            if candidate is None or candidate.is_unresolved():
                 continue
-            if not _is_ambiguous_l_row(row):
+            if not _is_ambiguous_l_candidate(token._.surface, candidate):
                 continue
             if index == 0 or index + 1 >= len(doc):
                 continue
-            prev_row = snapshot[index - 1]
-            next_row = snapshot[index + 1]
-            if prev_row is None or next_row is None:
+            prev_candidate = snapshot[index - 1]
+            next_candidate = snapshot[index + 1]
+            if prev_candidate is None or next_candidate is None:
                 continue
-            if not _is_offering_row(prev_row):
+            if not _is_offering_candidate(doc[index - 1]._.surface, prev_candidate):
                 continue
-            if not _is_recipient_row(next_row):
+            if not _is_recipient_candidate(next_candidate):
                 continue
-            updated = _canonical_l_prep(row)
-            token._.resolved_row = updated
+            updated = _canonical_l_prep(candidate)
+            token._.resolved_candidates = (updated,)
             doc.user_data["offering_context_events"].append(
-                ResolutionEvent(index, "offering-l-prep", row, updated)
+                ResolutionEvent(index, "offering-l-prep", candidate, updated)
             )
         return doc
 

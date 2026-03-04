@@ -5,9 +5,9 @@ from __future__ import annotations
 from pathlib import Path
 
 from pipeline.steps.base import RefinementStep, StepResult
+from spacy_ugaritic.doc_builder import build_doc, parse_row_tokens
 from spacy_ugaritic.language import create_ugaritic_formula_context_nlp
-from spacy_ugaritic.row_builder import build_row_doc, parse_rows
-from spacy_ugaritic.row_rewriter import count_data_rows, render_resolved_rows
+from spacy_ugaritic.rewriter import count_data_rows, render_resolved_lines
 
 
 class SpacyFormulaContextDisambiguator(RefinementStep):
@@ -25,14 +25,14 @@ class SpacyFormulaContextDisambiguator(RefinementStep):
 
     def refine_file(self, path: Path) -> StepResult:
         lines = path.read_text(encoding="utf-8").splitlines()
-        rows = parse_rows(lines)
+        tokens = parse_row_tokens(lines)
         rows_processed = count_data_rows(lines)
-        if not rows:
+        if not tokens:
             return StepResult(file=path.name, rows_processed=rows_processed, rows_changed=0)
 
-        doc = build_row_doc(self._nlp, rows, source_name=path.name)
+        doc = build_doc(self._nlp, tokens, source_name=path.name)
         resolved_doc = self._nlp(doc)
-        out_lines, rows_changed = render_resolved_rows(lines, resolved_doc)
+        out_lines, rows_changed = render_resolved_lines(lines, tokens, resolved_doc)
         if rows_changed:
             path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
         return StepResult(file=path.name, rows_processed=rows_processed, rows_changed=rows_changed)

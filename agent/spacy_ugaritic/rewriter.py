@@ -7,7 +7,7 @@ from collections.abc import Sequence
 from spacy.tokens import Doc
 
 from pipeline.steps.base import parse_tsv_line
-from spacy_ugaritic.types import GroupedToken
+from spacy_ugaritic.types import TabletToken
 
 
 def count_data_rows(lines: Sequence[str]) -> int:
@@ -17,26 +17,33 @@ def count_data_rows(lines: Sequence[str]) -> int:
 
 def render_resolved_lines(
     lines: Sequence[str],
-    grouped_tokens: Sequence[GroupedToken],
+    tokens: Sequence[TabletToken],
     doc: Doc,
 ) -> tuple[list[str], int]:
     """Render output TSV lines and a line-level changed-row count."""
-    group_entries = list(zip(grouped_tokens, doc, strict=True))
-    first_index_to_group = {group.row_indexes[0]: (group, token) for group, token in group_entries}
-    skipped_indexes = {row_index for group in grouped_tokens for row_index in group.row_indexes[1:]}
+    token_entries = list(zip(tokens, doc, strict=True))
+    first_index_to_token = {
+        tablet_token.row_indexes[0]: (tablet_token, token) for tablet_token, token in token_entries
+    }
+    skipped_indexes = {
+        row_index for tablet_token in tokens for row_index in tablet_token.row_indexes[1:]
+    }
     out_lines: list[str] = []
     rows_changed = 0
 
     for row_index, raw in enumerate(lines):
-        group_entry = first_index_to_group.get(row_index)
-        if group_entry is not None:
-            group, token = group_entry
+        token_entry = first_index_to_token.get(row_index)
+        if token_entry is not None:
+            tablet_token, token = token_entry
             resolved_candidates = token._.resolved_candidates or token._.candidates
             rendered_rows = [
-                candidate.to_row(line_id=group.line_id, surface=group.surface).to_tsv()
+                candidate.to_row(
+                    line_id=tablet_token.line_id,
+                    surface=tablet_token.surface,
+                ).to_tsv()
                 for candidate in resolved_candidates
             ]
-            original_rows = [lines[index] for index in group.row_indexes]
+            original_rows = [lines[index] for index in tablet_token.row_indexes]
             rows_changed += _count_group_row_changes(original_rows, rendered_rows)
             out_lines.extend(rendered_rows)
             continue
