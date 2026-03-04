@@ -23,11 +23,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154875	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr.	help	
 154876	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 154876	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
+154876	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+154876	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+154876	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 154877	š	š/	š	n. m. sg.	ram	
 # KTU 1.139 7						
 154878		?	?	?	?	
 # KTU 1.139 8						
-154879	ugrt	ugrt/	ủgrt	TN	Ugarit	
+154879	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 154880	š	š/	š	n. m. sg.	ram	
 # KTU 1.139 9						
 154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
@@ -56,7 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154890	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 154890	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
 # KTU 1.139 14						
-154891	pdry	pdry/	pdry	DN	Pidray	
+154891	pdry	pdry/	pdry	DN sg.	Pidray	
 154891	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 154892	bt	bt(II)/	bt (II)	n. m. sg.	house	
 154892	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
@@ -68,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154894	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 154894	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
 154894	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg.	to sacrifice	
-154895	pdry	pdry/	pdry	DN	Pidray	
+154895	pdry	pdry/	pdry	DN sg.	Pidray	
 154895	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 # KTU 1.139 16						
 154896	alpw	?	?	?	?	DULAT: NOT FOUND

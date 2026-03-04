@@ -23,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156993	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 156994	u	u	ủ	conj.	or	
 # KTU 2.23 3						
-156995	ˤṯtrab	ˤṯtrab/	ʕṯtrab	PN	ʿṯtrab	
+156995	ˤṯtrab	ˤṯtrab/	ʕṯtrab	PN sg.	ʿṯtrab	
 156996	mlakt	mlak(t/t	mlảkt	n. f. sg.	message	
 156997	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr.	servant	
 # KTU 2.23 4						
@@ -99,7 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157030	ank	ank	ảnk	pers. pn.	I	
 157031	xxxxxxxb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 16						
-157032	arš	arš/	ảrš	DN	a monster (“many-headed”, “whale”)	
+157032	arš	arš/	ảrš	DN sg.	a monster (“many-headed”, “whale”)	
 157033	ḥy	ḥy(m/	ḥym	n. m. pl. cstr.	life	
 157033	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg.	alive	
 157034	l	l(I)	l (I)	prep.	to	
@@ -122,13 +122,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157041	ḥy	ḥy(m/	ḥym	n. m. pl. cstr.	life	
 157041	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg.	alive	
 157042	npš	npš(I)/	npš (I)	n. f. sg.	throat	
-157043	arš	arš/	ảrš	DN	a monster (“many-headed”, “whale”)	
+157043	arš	arš/	ảrš	DN sg.	a monster (“many-headed”, “whale”)	
 # KTU 2.23 19						
 157044	l	l(I)	l (I)	prep.	to	
 157045	pn	pn(m/	pnm	n. m. pl. tant.	in front	
+157046	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+157046	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+157046	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 157046	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 157046	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
-157047	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+157047	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 157048	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 # KTU 2.23 20						
 157049	w	w	w	conj.	and	
@@ -148,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157059	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 157059	il	il(I)/	ỉl (I)	n. m. sg.	god	
 157059	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-157060	mṣrm	mṣrm/	mṣrm	TN	Egypt	
+157060	mṣrm	mṣrm/	mṣrm	TN sg.	Egypt	
 157060	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr.	sob	
 157061	dt	d	d	det. or rel. functor	the one(s) of	
 157062	tġrn	nġr[n	/n-ġ-r/	vb G suffc.	to protect	

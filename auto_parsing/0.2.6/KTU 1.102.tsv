@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152275	bt	bt(II)/	bt (II)	n. m. sg.	house	
 152275	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 # KTU 1.102 2						
-152276	ušḫry	ušḫry/	ỉ/ủšḫry	DN	ỉ/ủšḫry	
+152276	ušḫry	ušḫry/	ỉ/ủšḫry	DN sg.	ỉ/ủšḫry	
 # KTU 1.102 3						
 152277	ym	ym(I)/	ym (I)	n. m. sg.	day	
 152277	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -18,11 +18,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152279	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
 152279	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
 # KTU 1.102 5						
-152280	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
+152280	kṯr	kṯr(III)/	kṯr (III)	DN/element sg.	Koṯaru/Kothar	
 # KTU 1.102 6						
 152281	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg.	term for the kings of Ugarit	
 # KTU 1.102 7						
-152282	pdry	pdry/	pdry	DN	Pidray	
+152282	pdry	pdry/	pdry	DN sg.	Pidray	
 152282	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 # KTU 1.102 8						
 152283	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
@@ -31,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.102 9						
 152284	trṯ	trṯ/	trṯ	n. m. sg.	new wine	
 # KTU 1.102 10						
-152285	ršp	ršp/	ršp	DN	Rašap	
+152285	ršp	ršp/	ršp	DN sg.	Rašap	
 # KTU 1.102 11						
 152286	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 152286	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
@@ -50,30 +50,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152293	kty	kt(I)/+y	kt (I)	n. f. cstr.	pitcher	
 152293	kty	kt(II)/+y	kt (II)	n. f. cstr.	stage	
 # KTU 1.102 15						
-152294	yrgbhd	yrgbhd/	yrgbhd	PN	yrgbhd	
+152294	yrgbhd	yrgbhd/	yrgbhd	PN sg.	yrgbhd	
 # KTU 1.102 16						
-152295	yrgbbˤl	yrgbbˤl/	yrgbbʕl	PN	yrgbbʿl	
+152295	yrgbbˤl	yrgbbˤl/	yrgbbʕl	PN sg.	yrgbbʿl	
 # KTU 1.102 17						
-152296	ydbil	ydbil/	ydbỉl	PN	to be generous	
+152296	ydbil	ydbil/	ydbỉl	PN sg.	to be generous	
 # KTU 1.102 18						
-152297	yaršil	yaršil/	yảršỉl	PN	yảršỉl	
+152297	yaršil	yaršil/	yảršỉl	PN sg.	yảršỉl	
 # KTU 1.102 19						
-152298	yrġmil	yrġmil/	yrġmỉl	PN	yrġmỉl	
+152298	yrġmil	yrġmil/	yrġmỉl	PN sg.	yrġmỉl	
 # KTU 1.102 20						
-152299	ˤmtr	ˤmtr/	ʕmtr	PN	ʿmtr	
+152299	ˤmtr	ˤmtr/	ʕmtr	PN sg.	ʿmtr	
 # KTU 1.102 21						
-152300	ydbil	ydbil/	ydbỉl	PN	to be generous	
+152300	ydbil	ydbil/	ydbỉl	PN sg.	to be generous	
 # KTU 1.102 22						
-152301	yrgblim	yrgblim/	yrgblỉm	PN	yrgblỉm	
+152301	yrgblim	yrgblim/	yrgblỉm	PN sg.	yrgblỉm	
 # KTU 1.102 23						
-152302	ˤmtr	ˤmtr/	ʕmtr	PN	ʿmtr	
+152302	ˤmtr	ˤmtr/	ʕmtr	PN sg.	ʿmtr	
 # KTU 1.102 24						
-152303	yaršil	yaršil/	yảršỉl	PN	yảršỉl	
+152303	yaršil	yaršil/	yảršỉl	PN sg.	yảršỉl	
 # KTU 1.102 25						
-152304	ydbbˤl	ydbbˤl/	ydbbʕl	PN	to be generous	
+152304	ydbbˤl	ydbbˤl/	ydbbʕl	PN sg.	to be generous	
 # KTU 1.102 26						
-152305	yrġmbˤl	yrġmbˤl/	yrġmbʕl	PN	yrġmbʿl	
+152305	yrġmbˤl	yrġmbˤl/	yrġmbʕl	PN sg.	yrġmbʿl	
 # KTU 1.102 27						
-152306	ˤzbˤl	ˤzbˤl/	ʕzbʕl	PN	ʿzbʿl	
+152306	ˤzbˤl	ˤzbˤl/	ʕzbʕl	PN sg.	ʿzbʿl	
 # KTU 1.102 28						
-152307	ydbhd	ydbhd/	ydbhd	PN	to be generous	
+152307	ydbhd	ydbhd/	ydbhd	PN sg.	to be generous	

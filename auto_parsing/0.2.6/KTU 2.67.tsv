@@ -8,7 +8,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158779	grgš	?	?	?	?	DULAT: NOT FOUND
 158780	ˤbdy	ˤbd(I)/+y	ʕbd (I)	n. m. cstr.	servant	
 158780	ˤbdy	ˤbd[/+y	/ʕ-b-d/	vb G act. ptcpl. m. sg.	to work (a field)	
-158780	ˤbdy	ˤbdy/	ʕbdy	PN	ʿbdy	
+158780	ˤbdy	ˤbdy/	ʕbdy	PN sg.	ʿbdy	
 158781	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158781	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158781	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -18,6 +18,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158782	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158782	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158782	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158782	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158782	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158782	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158782	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158782	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158783	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.67 4						

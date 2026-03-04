@@ -27,7 +27,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:4						
 146856	ydk	yd(II)/+k=	yd (II)	n. m.	love	
 146857	ṣġr	ṣġr(I)/	ṣġr (I)	adj. m. sg.	small	
-146858	tnšq	!t!nšq[:d	/n-š-q/	vb D prefc.	to kiss	
+146858	tnšq	!t!nšq[:d	/n-š-q/	vb D prefc. 3 f. sg.	to kiss	
+146858	tnšq	!t=!nšq[:d	/n-š-q/	vb D prefc. 2 m. sg.	to kiss	
+146858	tnšq	!t==!nšq[:d	/n-š-q/	vb D prefc. 2 f. sg.	to kiss	
+146858	tnšq	!t!nšq[:d	/n-š-q/	vb D prefc. 3 m. du.	to kiss	
+146858	tnšq	!t!nšq[:d:w	/n-š-q/	vb D prefc. 3 m. pl.	to kiss	
+146858	tnšq	!t===!nšq[:d	/n-š-q/	vb D prefc. 2 m. pl.	to kiss	
 146859	šptk	šp(t/t	špt	n. f. sg.	lip	
 146860	ṯm	ṯm	ṯm	adv.	there	
 # KTU 1.22 I:5						
@@ -63,7 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146877	ġzrm	ġzr/m	ġzr	n. m. pl.	lad	
 # KTU 1.22 I:8						
 146878	ṯm	ṯm	ṯm	adv.	there	
-146879	ṯmq	ṯmq(I)/	ṯmq (I)	DN	ṯmq (I)	
+146879	ṯmq	ṯmq(I)/	ṯmq (I)	DN sg.	ṯmq (I)	
 146880	rpu	rpu/	rpủ	n. m. sg. abs.	healer	
 146880	rpu	rpu/	rpủ	n. m. sg. cstr.	healer	
 146881	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
@@ -78,8 +83,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146886	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 146886	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 146887	ṯm	ṯm	ṯm	adv.	there	
-146888	yḥpn	yḥpn/	yḥpn	DN	rustled	
-146889	ḥyl	ḥyl/	ḥyl	PN	ḥyl	
+146888	yḥpn	yḥpn/	yḥpn	DN sg.	rustled	
+146889	ḥyl	ḥyl/	ḥyl	PN sg.	ḥyl	
 # KTU 1.22 I:10						
 146890	y	+y, [y	-y (I)	prep. functor	my	
 146890	y	~y	-y (II)	prep. functor	indeed	
@@ -107,7 +112,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146902	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 146903	ap	ap(I)	ảp (I)	adv./conj.	also	
 146904	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg.	ewe	
-146905	šql	šql/	šql	TN	šql	
+146905	šql	šql/	šql	TN sg.	šql	
 146906	ṯrm	ṯr(I)/m	ṯr (I)	n. m. pl.	bull	
 146906	ṯrm	!!ṯrm[/	/ṯ-r-m/	vb G inf.	to break	
 # KTU 1.22 I:13						
@@ -149,7 +154,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146934	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 146935	yn	yn/	yn	n. m. sg.	wine	
 146936	ṯmk	ṯm+k	ṯm	adv.	there	
-146936	ṯmk	ṯmk/	ṯmk	TN	Bitterkraut	
+146936	ṯmk	ṯmk/	ṯmk	TN sg.	Bitterkraut	
 # KTU 1.22 I:18						
 146937	mrṯ	mrṯ(I)/	mrṯ (I)	n. m. sg.	must	
 146938	yn	yn/	yn	n. m. sg.	wine	
@@ -158,7 +163,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146941	bld	bld/	bld	n. m. sg.	land	
 # KTU 1.22 I:19						
 146942	ġll	ġll(I)/	ġll (I)	n. m.	thirsty one	
-146942	ġll	ġll(II)/	ġll (II)	TN	intoxication (?)	
+146942	ġll	ġll(II)/	ġll (II)	TN sg.	intoxication (?)	
 146943	yn	yn/	yn	n. m. sg.	wine	
 146944	išryt	išry(t/t	ỉšryt	n. f. sg.	happiness	
 146945	ˤnq	ˤnq/	ʕnq	n. m. sg.	necklace	
@@ -166,7 +171,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146946	smd	smd/	smd	n. m. sg. cstr.	bead	
 # KTU 1.22 I:20						
 146947	lbnn	lb/+nn	lb	n. m. cstr.	heart, ?	
-146947	lbnn	lbnn(I)/	lbnn (I)	TN	Lebanon	
+146947	lbnn	lbnn(I)/	lbnn (I)	TN sg.	Lebanon	
 146947	lbnn	lbnn(II)	lbnn (II)	element		
 146948	ṭṣ	ṭl/	ṭl	n. m.	dew	
 146949	mrṯ	mrṯ(I)/	mrṯ (I)	n. m. sg.	must	
@@ -213,7 +218,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146974	b	b	b	prep.	in	
 146975	irt	ir(t/t	ỉrt	n. f. sg. cstr.	breast	
 146976	lbnn	lb/+nn	lb	n. m. cstr.	heart, ?	
-146976	lbnn	lbnn(I)/	lbnn (I)	TN	Lebanon	
+146976	lbnn	lbnn(I)/	lbnn (I)	TN sg.	Lebanon	
 146976	lbnn	lbnn(II)	lbnn (II)	element		
 146977	mk	mk(II)	mk (II)	deictic functor	behold!	
 146977	mk	mk(I)/	mk (I)	n. m. sg.	large puddle	
@@ -226,6 +231,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146982	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 146983	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 146983	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
+146983	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+146983	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+146983	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 # KTU 1.22 I:27						
 146984	xxxxxxxxxx	?	?	?	?	
 146985	rˤh	rˤ/+h	rʕ	n. m. sg. cstr.	companion	
@@ -312,7 +320,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147032	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
 147033	ilnym	ilny/m	ỉlny	adj. m. pl.	divine one	
 # KTU 1.22 II:12						
-147034	yḥpn	yḥpn/	yḥpn	DN	rustled	
+147034	yḥpn	yḥpn/	yḥpn	DN sg.	rustled	
 147035	ḥyly	ḫyly/	ḫyly	adj. m. sg.	fighter	
 # KTU 1.22 II:13						
 147036	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	

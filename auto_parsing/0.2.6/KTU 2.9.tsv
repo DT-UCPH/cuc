@@ -11,7 +11,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.9 2						
 156537	špš	špš/	špš	DN f. sg.	Šapšu/Shapsh/Shapshu	
 156537	špš	špš/	špš	n. f. sg.	sun	
-156538	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
+156538	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give	
+156538	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give	
+156538	ttn	!t==!(ytn[	/y-t-n/	vb G prefc. 2 f. sg.	to give	
+156538	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give	
+156538	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
+156538	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give	
 156539		?	?	?	?	
 # KTU 2.9 3						
 156540	x	?	?	?	?	

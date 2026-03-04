@@ -15,7 +15,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157118	adty	ad(t/t+y	ảdt	n. f. sg. cstr.	lady	
 157119	w	w	w	conj.	and	
 # KTU 2.25 5						
-157120	tšṣḥq	!t!]š]ṣḥq[	/ṣ-ḥ-q/	vb Š prefc.	to laugh	
+157120	tšṣḥq	!t!]š]ṣḥq[	/ṣ-ḥ-q/	vb Š prefc. 3 f. sg.	to laugh	
+157120	tšṣḥq	!t=!]š]ṣḥq[	/ṣ-ḥ-q/	vb Š prefc. 2 m. sg.	to laugh	
+157120	tšṣḥq	!t==!]š]ṣḥq[	/ṣ-ḥ-q/	vb Š prefc. 2 f. sg.	to laugh	
+157120	tšṣḥq	!t!]š]ṣḥq[	/ṣ-ḥ-q/	vb Š prefc. 3 m. du.	to laugh	
+157120	tšṣḥq	!t!]š]ṣḥq[:w	/ṣ-ḥ-q/	vb Š prefc. 3 m. pl.	to laugh	
+157120	tšṣḥq	!t===!]š]ṣḥq[	/ṣ-ḥ-q/	vb Š prefc. 2 m. pl.	to laugh	
 157121	hn	hn	hn	functor	behold!	
 157122	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
 157122	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
@@ -34,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157128	ksp	ksp/	ksp	n. m. sg.	silver	
 # KTU 2.25 7						
 157129	ḫtm	ḫt[+m(I)	/ḫ-t(-t)/	vb G suffc.	to break	
-157129	ḫtm	ḫtm/	ḫtm	PN	ḫtm	
+157129	ḫtm	ḫtm/	ḫtm	PN sg.	ḫtm	
 157130	rbxxx	?	?	?	?	DULAT: NOT FOUND
 157131	aḥd	aḥd/	ảḥd	adj. m. sg.	one	
 157131	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	

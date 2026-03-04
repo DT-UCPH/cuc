@@ -8,18 +8,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.32 2						
 162057	l	l(I)	l (I)	prep.	to	
 162058	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-162059	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
+162059	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg.	ʿmṯtmr	
 # KTU 3.32 3						
 162060	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 162060	bn	bn(I)/	bn (I)	n. m. sg.	son	
 162060	bn	bn(II)	bn (II)	prep.	between	
 162060	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 162060	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162061	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
+162061	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg.	nqmpʿ	
 # KTU 3.32 4						
 162062	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 162062	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-162063	ugrt	ugrt/	ủgrt	TN	Ugarit	
+162063	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 3.32 5						
 162064	bhtm	bt(II)/	bt (II)	n. m. pl.	house	
 162065	šdm	šd(I)/m	šd (I)	n. m. pl.	open field	
@@ -31,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162068	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 162069	l	l(I)	l (I)	prep.	to	
 162069	l	l(III)	l (III)	functor	certainly	
-162070	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
+162070	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
 # KTU 3.32 7						
 162071	w	w	w	conj.	and	
 162072	l	l(I)	l (I)	prep.	to	
@@ -78,7 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162087	d	d	d	det. or rel. functor	the one(s) of	
 162088	ihb	(ʔ&ihb[	/ʔ-h-b/	vb G suffc. 3 m. sg.	to love	
 162088	ihb	(ʔ&ihb[:d	/ʔ-h-b/	vb D suffc.	to love	
-162089	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
+162089	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
 # KTU 3.32 12						
 162090	b	b	b	prep.	in	
 162091	bnh	bn(I)/+h	bn (I)	n. m. cstr.	son	
@@ -89,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.32 13						
 162095	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 162095	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-162096	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
+162096	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
 # KTU 3.32 14						
 162097	bhth	bt(II)/+h	bt (II)	n. m. cstr.	house	
 162098	šdh	šd(I)/+h	šd (I)	n. m. cstr.	open field	
@@ -98,7 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162099	mrˤh	mrˤ/+h	mrʕ	n. sg. cstr.	pasture land	
 # KTU 3.32 16						
 162100	w	w	w	conj.	and	
-162101	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
+162101	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
 # KTU 3.32 17						
 162102	bnh	bn(I)/+h	bn (I)	n. m. cstr.	son	
 162103	km	k(III)	k (III)	functor	when	
@@ -114,9 +114,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162107	hm	hm(II)	hm (II)	conj./interr. functor	if	
 162107	hm	hm(I)	hm (I)	pers. pn.	they	
 162108	lb	lb/	lb	n. m. sg.	heart	
-162109	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
+162109	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
 # KTU 3.32 20						
 162110	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
+162110	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
+162110	bhl	bhl[:dt=	/b-h-l/	vb D suffc. 2 m. sg.	to dismiss	
+162110	bhl	bhl[:dt==	/b-h-l/	vb D suffc. 2 f. sg.	to dismiss	
+162110	bhl	bhl[:dt	/b-h-l/	vb D suffc. 1 c. sg.	to dismiss	
 162111	bnh	bn(I)/+h	bn (I)	n. m. cstr.	son	
 162112	w	w	w	conj.	and	
 162113	km	k(III)	k (III)	functor	when	
@@ -134,6 +138,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162117	hm	hm(I)	hm (I)	pers. pn.	they	
 162118	lbh	lb/+h	lb	n. m. cstr.	heart	
 162119	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
+162119	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
+162119	bhl	bhl[:dt=	/b-h-l/	vb D suffc. 2 m. sg.	to dismiss	
+162119	bhl	bhl[:dt==	/b-h-l/	vb D suffc. 2 f. sg.	to dismiss	
+162119	bhl	bhl[:dt	/b-h-l/	vb D suffc. 1 c. sg.	to dismiss	
 # KTU 3.32 23						
 162120	bnh	bn(I)/+h	bn (I)	n. m. cstr.	son	
 162121	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
@@ -163,7 +171,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162130	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 3.32 26						
 162131	lbh	lb/+h	lb	n. m. cstr.	heart	
-162132	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
+162132	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
 162133	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 162133	bn	bn(I)/	bn (I)	n. m. sg.	son	
 162133	bn	bn(II)	bn (II)	prep.	between	

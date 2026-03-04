@@ -12,10 +12,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156599	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.11 3						
 156600	tḥm	tḥm/	tḥm	n. m. sg.	message	
-156601	tlmyn	tlmyn/	tlmyn	PN	tlmyn	
+156601	tlmyn	tlmyn/	tlmyn	PN sg.	tlmyn	
 # KTU 2.11 4						
 156602	w	w	w	conj.	and	
-156603	aḫtmlk	aḫtmlk/	ảḫtmlk	PN	ảḫtmlk	
+156603	aḫtmlk	aḫtmlk/	ảḫtmlk	PN sg.	ảḫtmlk	
 156604	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
 # KTU 2.11 5						
 156605	l	l(I)	l (I)	prep.	to	
@@ -44,6 +44,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156617	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 156617	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156617	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156617	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+156617	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+156617	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+156617	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 156617	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.11 13						
 156618	w	w	w	conj.	and	
@@ -62,6 +66,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156626	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 156626	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156626	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156626	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+156626	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+156626	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+156626	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 156626	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.11 17						
 156627	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	

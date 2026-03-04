@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.34 2						
 157577	l	l(I)	l (I)	prep.	to	
 157577	l	l(III)	l (III)	functor	certainly	
-157578	ṯryl	ṯryl/	ṯryl	PN	ṯryl	
+157578	ṯryl	ṯryl/	ṯryl	PN sg.	ṯryl	
 157579	umy	um/y	ủm	n. f. sg.	mother	
 157580	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157580	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -27,6 +27,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157587	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157587	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157587	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157587	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157587	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157587	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157587	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157587	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157588	k	+k	-k (I)			
 157588	k	~k	-k (II)			
@@ -45,6 +49,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157595	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157595	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157595	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157595	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157595	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157595	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157595	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157595	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157596	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.34 8						
@@ -54,6 +62,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157600	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157600	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157600	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157600	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157600	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157600	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157600	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157600	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.34 9						
 157601	w	w	w	conj.	and	

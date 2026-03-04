@@ -1,14 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 1						
 157694	tḥm	tḥm/	tḥm	n. m. sg.	message	
-157695	pdġb	pdġb/	pdġb	PN	pdġb	
+157695	pdġb	pdġb/	pdġb	PN sg.	pdġb	
 157696	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 157697	xxxxxx	?	?	?	?	
 157698	kxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 2						
 157699	l	l(I)	l (I)	prep.	to	
 157699	l	l(III)	l (III)	functor	certainly	
-157700	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+157700	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 157701	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157701	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157701	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -26,12 +26,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157709	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157709	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157709	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157709	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157709	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157709	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157709	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157709	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.36 4						
 157710	w	w	w	conj.	and	
 157711	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157711	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157711	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157711	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157711	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157711	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157711	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157711	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157712	d	d	d	det. or rel. functor	the one(s) of	
 157713	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr.	country	
@@ -78,7 +86,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157738	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 m. du.	to proceed	
 157738	tqdm	!t!qdm[:w	/q-d-m/	vb G prefc. 3 m. pl.	to proceed	
 157738	tqdm	!t===!qdm[	/q-d-m/	vb G prefc. 2 m. pl.	to proceed	
-157738	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc.	to proceed	
+157738	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc. 3 f. sg.	to proceed	
+157738	tqdm	!t=!qdm[:d	/q-d-m/	vb D prefc. 2 m. sg.	to proceed	
+157738	tqdm	!t==!qdm[:d	/q-d-m/	vb D prefc. 2 f. sg.	to proceed	
+157738	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc. 3 m. du.	to proceed	
+157738	tqdm	!t!qdm[:d:w	/q-d-m/	vb D prefc. 3 m. pl.	to proceed	
+157738	tqdm	!t===!qdm[:d	/q-d-m/	vb D prefc. 2 m. pl.	to proceed	
 157739	udk	ud/+k	ủd	n. m. cstr.	pay	
 157740	mġt	mġy[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come	
 157741	w	w	w	conj.	and	
@@ -154,23 +167,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 15						
 157782	šbt	šb(t/t	šbt	n. f. sg. cstr.	greyness > old age	
 157783	ntbt	ntbt/	ntbt	n. m. sg.	path	
-157784	mṣrm	mṣrm/	mṣrm	TN	Egypt	
+157784	mṣrm	mṣrm/	mṣrm	TN sg.	Egypt	
 157784	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr.	sob	
 157785	ušbtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 16						
 157786	ntbt	ntbt/	ntbt	n. m. sg.	path	
-157787	mṣrm	mṣrm/	mṣrm	TN	Egypt	
+157787	mṣrm	mṣrm/	mṣrm	TN sg.	Egypt	
 157787	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr.	sob	
 157788	b	b	b	prep.	in	
 157789	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
-157790	ugrt	ugrt/	ủgrt	TN	Ugarit	
+157790	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 2.36 17						
 157791	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 157792	qṭ	qṭ(I)/	qṭ (I)	n. m. sg.	flax	
 157793	w	w	w	conj.	and	
 157794	b	b	b	prep.	in	
 157795	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
-157796	nġṯ	nġṯ/	nġṯ	TN	go to TN	
+157796	nġṯ	nġṯ/	nġṯ	TN sg.	go to TN	
 157797	tˤtqnn	!t!ˤtq[n+n	/ʕ-t-q/	vb G prefc.	to pass	
 157797	tˤtqnn	!t!ˤtq[+nn	/ʕ-t-q/	vb G prefc.	to pass, ?	
 # KTU 2.36 18						
@@ -181,7 +194,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 19						
 157802	w	w	w	conj.	and	
 157803	ḥwtm	ḥwt/m	ḥwt	n. f. pl.	country	
-157804	ugrt	ugrt/	ủgrt	TN	Ugarit	
+157804	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 157805	tˤtqn	!t!ˤtq[n	/ʕ-t-q/	vb G prefc.	to pass	
 157806	ht	ht	ht	adv.	here	
 # KTU 2.36 20						
@@ -198,7 +211,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157812	xxx	?	?	?	?	
 157813	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 157813	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-157814	grgmš	grgmš/	grgmš	TN	gargamiš	
+157814	grgmš	grgmš/	grgmš	TN sg.	gargamiš	
 157815	xx	?	?	?	?	
 157816	rxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 22						

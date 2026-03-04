@@ -8,6 +8,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153513	lmd	lmd/	lmd	adj. m. pl. cstr.	trained	
 153513	lmd	lmd/	lmd	adj. m. sg.	trained	
 153513	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
+153513	lmd	lmd[:d:w	/l-m-d/	vb D suffc. 3 m. pl.	to teach	
+153513	lmd	lmd[:dt=	/l-m-d/	vb D suffc. 2 m. sg.	to teach	
+153513	lmd	lmd[:dt==	/l-m-d/	vb D suffc. 2 f. sg.	to teach	
+153513	lmd	lmd[:dt	/l-m-d/	vb D suffc. 1 c. sg.	to teach	
 # KTU 1.111 2						
 153514	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 153514	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
@@ -25,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153521	atnd	ytn[+d	/y-t-n/	vb G suffc.	to give, ?	
 # KTU 1.111 4						
 153522	ild	il(I)/+d	ỉl (I)	n. m. cstr.	god, ?	
-153523	tṯbd	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
+153523	tṯbd	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
 153524	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 5						
 153525	kḏġd	?	?	?	?	DULAT: NOT FOUND
@@ -48,7 +52,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153538	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 9						
 153539	ild	il(I)/+d	ỉl (I)	n. m. cstr.	god, ?	
-153540	tṯbd	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
+153540	tṯbd	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
 153541	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 10						
 153542	kḏġd	?	?	?	?	DULAT: NOT FOUND
@@ -56,9 +60,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153544	iydaṯtbd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 11						
 153545	in	in/	ỉn	n. m. sg.	lack of	
-153546	ardnd	ardn/+d	ảrdn	PN cstr.	ảrdn, ?	
+153546	ardnd	ardn/+d	ảrdn	PN sg. cstr.	ảrdn, ?	
 # KTU 1.111 12						
-153547	ṯmgnd	ṯmg/	ṯmg	DN	ṯmg	
+153547	ṯmgnd	ṯmg/	ṯmg	DN sg.	ṯmg	
 153548	x	?	?	?	?	
 # KTU 1.111 13						
 153549	xxxx	?	?	?	?	
@@ -103,7 +107,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 19						
 153567	kmlt	kmlt/	kmlt	adj. f. pl.	whole	
 153568	d	d	d	det. or rel. functor	the one(s) of	
-153569	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
+153569	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg.	ʿAṯtar	
 153570	š	š/	š	n. m. sg.	ram	
 # KTU 1.111 20						
 153571	b	b	b	prep.	in	
@@ -123,6 +127,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153582	l	l(I)	l (I)	prep.	to	
 153582	l	l(II)	l (II)	adv.	no	
 153582	l	l(III)	l (III)	functor	certainly	
-153583	tšlm	!t!šlm[:d	/š-l-m/	vb D prefc.	to be well	
+153583	tšlm	!t!šlm[:d	/š-l-m/	vb D prefc. 3 f. sg.	to be well	
+153583	tšlm	!t=!šlm[:d	/š-l-m/	vb D prefc. 2 m. sg.	to be well	
+153583	tšlm	!t==!šlm[:d	/š-l-m/	vb D prefc. 2 f. sg.	to be well	
+153583	tšlm	!t!šlm[:d	/š-l-m/	vb D prefc. 3 m. du.	to be well	
+153583	tšlm	!t!šlm[:d:w	/š-l-m/	vb D prefc. 3 m. pl.	to be well	
+153583	tšlm	!t===!šlm[:d	/š-l-m/	vb D prefc. 2 m. pl.	to be well	
 # KTU 1.111 24						
 153584	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	

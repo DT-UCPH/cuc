@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.21 2						
 156907	l	l(I)	l (I)	prep.	to	
 156908	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
-156909	ugrt	ugrt/	ủgrt	TN	Ugarit	
+156909	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 2.21 3						
 156910	aḫty	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg. cstr.	sister (related by blood)	
 156911	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156916	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.21 7						
 156917	hlny	hlny	hlny	deictic adv. functor	behold	
-156918	ibrkḏ	ibrkḏ/	ỉbrkḏ	PN	ỉbrkḏ	
+156918	ibrkḏ	ibrkḏ/	ỉbrkḏ	PN sg.	ỉbrkḏ	
 # KTU 2.21 8						
 156919	mkry	mkr/+y	mkr	n. m. cstr.	merchant	
 156920	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -42,7 +42,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156923	gt	g(t/t	gt	n. f. sg.	gittu	
 # KTU 2.21 9						
 156924	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
-156925	ugrt	ugrt/	ủgrt	TN	Ugarit	
+156925	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 2.21 10						
 156926	hnkt	hnk	hnk(t)	dem./pers. pn.	that	
 156927	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say	
@@ -54,13 +54,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156930	ilak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
 # KTU 2.21 12						
 156931	ˤtn	ˤnt(II)	ʕnt (II)	adv.	now	
-156931	ˤtn	ˤt/+n	ʕt	TN cstr.	ʿt	
+156931	ˤtn	ˤt/+n	ʕt	TN sg. cstr.	ʿt	
 156932	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.21 13						
 156933	kl	kl/	kl	n. m. sg.	totality (of)	
 156934	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 156934	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156934	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156934	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+156934	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+156934	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+156934	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 156934	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 156935	w	w	w	conj.	and	
 156936	lm	l(I)	l (I)	prep.	to	

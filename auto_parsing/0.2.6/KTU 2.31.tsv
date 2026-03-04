@@ -87,7 +87,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157303	xxx	?	?	?	?	
 157304	xxx	?	?	?	?	
 157305	xxxṯbr	?	?	?	?	DULAT: NOT FOUND
-157306	ḫss	ḫss/	ḫss	DN/element	Ḫasisu/Khasis	
+157306	ḫss	ḫss/	ḫss	DN/element sg.	Ḫasisu/Khasis	
 157307	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 19						
 157308	xxx	?	?	?	?	
@@ -124,7 +124,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157329	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to approach	
 # KTU 2.31 27						
 157330	b	b	b	prep.	in	
-157331	bb	bb/	bb	PN	bb	
+157331	bb	bb/	bb	PN sg.	bb	
 157332	xxx	?	?	?	?	
 # KTU 2.31 28						
 157333		?	?	?	?	
@@ -260,7 +260,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157417	xxx	?	?	?	?	
 157418	xxxxḏḏyn	?	?	?	?	DULAT: NOT FOUND
 157419	bˤd	bˤd	bʕd	adv. or prep.	behind	
-157420	ḏḏyn	ḏḏyn/	ḏḏyn	PN	ḏḏyn	
+157420	ḏḏyn	ḏḏyn/	ḏḏyn	PN sg.	ḏḏyn	
 157421	w	w	w	conj.	and	
 157422	l	l(I)	l (I)	prep.	to	
 157422	l	l(III)	l (III)	functor	certainly	
@@ -387,7 +387,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157507	xxy	?	?	?	?	DULAT: NOT FOUND
 157508	al	al(I)	ảl (I)	neg. functor	no	
 157508	al	al(II)	ảl (II)	pos. functor	surely	
-157509	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+157509	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 157510	xxw	?	?	?	?	DULAT: NOT FOUND
 157511	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 157511	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
@@ -437,6 +437,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157538	l	l(I)	l (I)	prep.	to	
 157538	l	l(II)	l (II)	adv.	no	
 157538	l	l(III)	l (III)	functor	certainly	
-157539	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+157539	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 157540	bty	bt(II)/+y	bt (II)	n. m. cstr.	house	
 157541	lh	l(I)+h	l (I)	prep.	to	

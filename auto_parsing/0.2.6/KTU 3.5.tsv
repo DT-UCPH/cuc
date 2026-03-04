@@ -6,18 +6,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161028	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 161029	hnd	hnd	hnd	dem.	this	
 # KTU 3.5 2						
-161030	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
+161030	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg.	ʿmṯtmr	
 161031	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161031	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161031	bn	bn(II)	bn (II)	prep.	between	
 161031	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161031	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 3						
-161032	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
+161032	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg.	nqmpʿ	
 161033	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 161033	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.5 4						
-161034	ugrt	ugrt/	ủgrt	TN	Ugarit	
+161034	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 161035	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 161035	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 # KTU 3.5 5						
@@ -25,14 +25,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161036	šd	šd(I)/	šd (I)	n. m. sg. cstr.	open field	
 161036	šd	šd(II)/	šd (II)	n. m. sg.	a strip	
 161036	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
-161037	kḏġdl	kḏġdl/	kḏġdl	PN	kḏġdl	
+161037	kḏġdl	kḏġdl/	kḏġdl	PN sg.	kḏġdl	
 # KTU 3.5 6						
-161038	uškn	uškn/	ủškn	TN	ủškn	
+161038	uškn	uškn/	ủškn	TN sg.	ủškn	
 161038	uškn	ušr/+n	ủšr	n. m. cstr.	penis	
 161039	d	d	d	det. or rel. functor	the one(s) of	
 161040	b	b	b	prep.	in	
 161041	šdy	šd(I)/+y	šd (I)	n. m. cstr.	open field	
-161041	šdy	šdy(II)/	šdy (II)	PN	šdy (II)	
+161041	šdy	šdy(II)/	šdy (II)	PN sg.	šdy (II)	
 161041	šdy	šdy(I)/	šdy (I)	adj.	land labourer	
 # KTU 3.5 7						
 161042	bmt	bm(t/t	bmt	n. f. pl. cstr.	back	
@@ -76,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 13						
 161057	kltn	kly[+n	/k-l-y/	vb G suffc.	to finish	
 161057	kltn	klt(I)/+n	klt (I)	n. f. cstr.	bride	
-161057	kltn	kltn/	kltn	PN	kltn	
+161057	kltn	kltn/	kltn	PN sg.	kltn	
 161058	w	w	w	conj.	and	
 161059	l	l(I)	l (I)	prep.	to	
 161059	l	l(III)	l (III)	functor	certainly	
@@ -114,7 +114,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161073	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161074	kltn	kly[+n	/k-l-y/	vb G suffc.	to finish	
 161074	kltn	klt(I)/+n	klt (I)	n. f. cstr.	bride	
-161074	kltn	kltn/	kltn	PN	kltn	
+161074	kltn	kltn/	kltn	PN sg.	kltn	
 # KTU 3.5 19						
 161075	w	w	w	conj.	and	
 161076	bd	b	b	prep.	in	
@@ -134,15 +134,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 22						
 161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg.	seal	
 # KTU 3.5 23						
-161085	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
+161085	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg.	ʿmṯtmr	
 161086	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161086	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161086	bn	bn(II)	bn (II)	prep.	between	
 161086	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161086	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 24						
-161087	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
+161087	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg.	nqmpʿ	
 161088	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 161088	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.5 25						
-161089	ugrt	ugrt/	ủgrt	TN	Ugarit	
+161089	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	

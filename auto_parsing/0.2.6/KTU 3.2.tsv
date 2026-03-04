@@ -6,32 +6,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160893	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 160894	hnd	hnd	hnd	dem.	this	
 # KTU 3.2 2						
-160895	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
+160895	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg.	ʿmṯtmr	
 # KTU 3.2 3						
 160896	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 160896	bn	bn(I)/	bn (I)	n. m. sg.	son	
 160896	bn	bn(II)	bn (II)	prep.	between	
 160896	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 160896	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160897	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
+160897	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg.	nqmpʿ	
 # KTU 3.2 4						
 160898	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 160898	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-160899	ugrt	ugrt/	ủgrt	TN	Ugarit	
+160899	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 3.2 5						
 160900	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 160900	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 160901	bt	bt(II)/	bt (II)	n. m. sg.	house	
 160901	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 160901	bt	bt(III)/	bt (III)	n. m. pl. cstr.	length	
-160902	annḏr	annḏr/	ảnnḏr	PN	ảnnḏr	
+160902	annḏr	annḏr/	ảnnḏr	PN sg.	ảnnḏr	
 # KTU 3.2 6						
 160903	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 160903	bn	bn(I)/	bn (I)	n. m. sg.	son	
 160903	bn	bn(II)	bn (II)	prep.	between	
 160903	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 160903	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160904	agytn	agytn/	ảgytn	PN	ảgytn	
+160904	agytn	agytn/	ảgytn	PN sg.	ảgytn	
 160905	bnš	bnš/	bnš	n. m. pl.	man	
 160905	bnš	bnš/	bnš	n. m. sg.	man	
 # KTU 3.2 7						
@@ -49,14 +49,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 9						
 160912	l	l(I)	l (I)	prep.	to	
 160912	l	l(III)	l (III)	functor	certainly	
-160913	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
+160913	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
 # KTU 3.2 10						
 160914	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 160914	bn	bn(I)/	bn (I)	n. m. sg.	son	
 160914	bn	bn(II)	bn (II)	prep.	between	
 160914	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 160914	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160915	amtrn	amtrn/	ảmtrn	PN	ảmtrn	
+160915	amtrn	amtrn/	ảmtrn	PN sg.	ảmtrn	
 # KTU 3.2 11						
 160916	w	w	w	conj.	and	
 160917	l	l(I)	l (I)	prep.	to	
@@ -83,14 +83,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160926	hnd	hnd	hnd	dem.	this	
 160927	bd	b	b	prep.	in	
 # KTU 3.2 15						
-160928	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
+160928	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
 # KTU 3.2 16						
 160929	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 160929	bn	bn(I)/	bn (I)	n. m. sg.	son	
 160929	bn	bn(II)	bn (II)	prep.	between	
 160929	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 160929	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160930	amtrn	amtrn/	ảmtrn	PN	ảmtrn	
+160930	amtrn	amtrn/	ảmtrn	PN sg.	ảmtrn	
 # KTU 3.2 17						
 160931	wbd	?	?	?	?	DULAT: NOT FOUND
 160932	bnh	bn(I)/+h	bn (I)	n. m. cstr.	son	
@@ -106,7 +106,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160939	bh	b+h	b	prep.	in	
 # KTU 3.2 19						
 160940	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg.	seal	
-160941	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
+160941	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg.	ʿmṯtmr	
 # KTU 3.2 20						
 160942	xxxk	?	?	?	?	DULAT: NOT FOUND
 160943	u	u	ủ	conj.	or	

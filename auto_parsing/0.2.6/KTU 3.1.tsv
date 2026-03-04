@@ -29,10 +29,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160760	lnqmd	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.1 10						
 160761	w	w	w	conj.	and	
-160762	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+160762	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 160763	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 160763	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-160764	ugrt	ugrt/	ủgrt	TN	Ugarit	
+160764	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 3.1 11						
 160765	wˤmn	?	?	?	?	DULAT: NOT FOUND
 160766	špš	špš/	špš	DN f. sg.	Šapšu/Shapsh/Shapshu	
@@ -48,6 +48,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160770	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 160770	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 160770	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+160770	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+160770	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+160770	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+160770	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 160770	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 160771	wšpš	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.1 13						
@@ -60,15 +64,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160774	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 160775		?	?	?	?	
 # KTU 3.1 14						
-160776	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+160776	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 160777	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 160777	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-160778	ugrt	ugrt/	ủgrt	TN	Ugarit	
+160778	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 3.1 15						
 160779	phy	phy[	/p-h-y/	vb G suffc. 3 m. sg.	to see	
 # KTU 3.1 16						
 160780	w	w	w	conj.	and	
-160781	ṯpllm	ṯpllm/	ṯpllm	PN	ṯpllm	
+160781	ṯpllm	ṯpllm/	ṯpllm	PN sg.	ṯpllm	
 160782	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 160782	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 160783	rb	rb(II)/	rb (II)	n. m. sg. abs.	chief	
@@ -82,10 +86,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160786	mṣmt	mṣm(t/t	mṣmt	n. f. sg.	treaty	
 160787	l	l(I)	l (I)	prep.	to	
 160787	l	l(III)	l (III)	functor	certainly	
-160788	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+160788	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 160789	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 160789	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-160790	ugrt	ugrt/	ủgrt	TN	Ugarit	
+160790	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 160791	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 160791	št	št[	/š-t/	vb G impv. 2	to place	
 160791	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
@@ -94,7 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160793	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
 160793	argmn	argmn/	ả/ỉrgmn	n. m. sg.	payment of tribute to the Hittite court	
 160794	dybl	?	?	?	?	DULAT: NOT FOUND
-160795	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+160795	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 # KTU 3.1 19						
 160796	l	l(I)	l (I)	prep.	to	
 160797	špš	špš/	špš	DN f. sg.	Šapšu/Shapsh/Shapshu	
@@ -136,11 +140,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.1 24						
 160819	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
 160819	argmn	argmn/	ả/ỉrgmn	n. m. sg.	payment of tribute to the Hittite court	
-160820	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+160820	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 160821	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 160821	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.1 25						
-160822	ugrt	ugrt/	ủgrt	TN	Ugarit	
+160822	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 160823	d	d	d	det. or rel. functor	the one(s) of	
 160824	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 160824	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	

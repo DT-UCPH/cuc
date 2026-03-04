@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.27 1						
-147871	ugrt	ugrt/	ủgrt	TN	Ugarit	
+147871	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 1.27 2						
 147872	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 147872	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147875	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 147875	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 147875	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
-147876	ugrt	ugrt/	ủgrt	TN	Ugarit	
+147876	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 1.27 5						
 147877	w	w	w	conj.	and	
 147878	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
@@ -30,7 +30,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147885	il	il(I)/	ỉl (I)	n. m. sg.	god	
 147885	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 147886	limm	lim(I)/	lỉm (I)	n. m. pl.	people	
-147886	limm	lim(II)/	lỉm (II)	DN	the Potent	
+147886	limm	lim(II)/	lỉm (II)	DN sg.	the Potent	
 # KTU 1.27 9						
 147887	w	w	w	conj.	and	
 147888	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
@@ -43,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147892	ṯ	ṯ	ṯ	→	?	
 # KTU 1.27 11						
 147893	l	l(I)	l (I)	prep.	to	
-147894	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+147894	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.27 12						
 147895	š	š/	š	n. m. sg.	ram	
 147896	l	l(I)	l (I)	prep.	to	

@@ -45,12 +45,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149979	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
 # KTU 1.81 10						
 149980	l	l(I)	l (I)	prep.	to	
-149981	ršp	ršp/	ršp	DN	Rašap	
+149981	ršp	ršp/	ršp	DN sg.	Rašap	
 149982	xng	?	?	?	?	DULAT: NOT FOUND
 149983	kbb	kbb	kbb	?	?	
 # KTU 1.81 11						
 149984	l	l(I)	l (I)	prep.	to	
-149985	ršp	ršp/	ršp	DN	Rašap	
+149985	ršp	ršp/	ršp	DN sg.	Rašap	
 149986	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 149986	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 149986	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
@@ -64,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149990	l	l(I)	l (I)	prep.	to	
 149990	l	l(III)	l (III)	functor	certainly	
 149991	arṣy	arṣ/+y	ảrṣ	n. f. cstr.	earth	
-149991	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
+149991	arṣy	arṣy/	ảrṣy	DN sg.	Arṣay/Arsay	
 # KTU 1.81 14						
 149992	l	l(I)	l (I)	prep.	to	
 149992	l	l(III)	l (III)	functor	certainly	

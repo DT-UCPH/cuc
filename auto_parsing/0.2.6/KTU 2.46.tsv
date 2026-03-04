@@ -1,14 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.46 1						
 158262	tḥm	tḥm/	tḥm	n. m. sg.	message	
-158263	pgn	pgn/	pgn	PN	pgn	
+158263	pgn	pgn/	pgn	PN sg.	pgn	
 # KTU 2.46 2						
 158264	l	l(I)	l (I)	prep.	to	
 158264	l	l(II)	l (II)	adv.	no	
 158264	l	l(III)	l (III)	functor	certainly	
 158265	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 158265	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-158266	ugrt	ugrt/	ủgrt	TN	Ugarit	
+158266	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 2.46 3						
 158267	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158267	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -32,6 +32,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158275	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158275	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158275	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158275	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158275	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158275	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158275	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158275	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.46 7						
 158276	ṯmny	ṯm	ṯm	adv.	there	
@@ -44,6 +48,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158280	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158280	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158280	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158280	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158280	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158280	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158280	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158280	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 158281	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158281	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	

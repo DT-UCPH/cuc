@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153995	grn	grn(II)/	grn (II)	adj. m. sg.	current	
 # KTU 1.116 3						
 153996	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
-153997	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN cstr.	ṯủṯk, ?	
+153997	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN sg. cstr.	ṯủṯk, ?	
 # KTU 1.116 4						
 153998	agndy	?	?	?	?	DULAT: NOT FOUND
 153999	mṯdndy	?	?	?	?	DULAT: NOT FOUND
@@ -31,18 +31,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154006	kltd	klt(I)/+d	klt (I)	n. f. cstr.	bride, ?	
 154006	kltd	klt(II)/+d	klt (II)	n. f. cstr.	measure, ?	
 # KTU 1.116 8						
-154007	nbdgd	nbdg/+d	nbdg	DN cstr.	nbdg, ?	
+154007	nbdgd	nbdg/+d	nbdg	DN sg. cstr.	nbdg, ?	
 154008	w	w	w	conj.	and	
 154009	lbbtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 9						
 154010	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
-154011	ṯuṯk	ṯuṯk/	ṯủṯk	DN	ṯủṯk	
+154011	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg.	ṯủṯk	
 154012	tizr	ʔzr[r:pass	/ʔ-z-r/	vb Gpass prefc.	to be girded	
 154013	pnm	pn(m/m	pnm	n. m. pl.	face	
 # KTU 1.116 10						
 154014	w	w	w	conj.	and	
-154015	bbt	bbt(II)/	bbt (II)	DN	superintendent	
-154015	bbt	bbt(I)/	bbt (I)	TN	bbt (I)	
+154015	bbt	bbt(II)/	bbt (II)	DN sg.	superintendent	
+154015	bbt	bbt(I)/	bbt (I)	TN sg.	bbt (I)	
 154016	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
 # KTU 1.116 11						
 154017	inṯt	?	?	?	?	DULAT: NOT FOUND
@@ -52,8 +52,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154020	atnṯtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 13						
 154021	ild	il(I)/+d	ỉl (I)	n. m. cstr.	god, ?	
-154022	tṯbd	tṯb/	tṯb	DN	Teṯo/Hurrian storm god	
-154023	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN cstr.	ṯủṯk, ?	
+154022	tṯbd	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
+154023	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN sg. cstr.	ṯủṯk, ?	
 # KTU 1.116 14						
 154024	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 154025	kzġd	?	?	?	?	DULAT: NOT FOUND
@@ -61,20 +61,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.116 15						
 154027	aṯtbd	?	?	?	?	DULAT: NOT FOUND
 154028	in	in/	ỉn	n. m. sg.	lack of	
-154029	ardnd	ardn/+d	ảrdn	PN cstr.	ảrdn, ?	
+154029	ardnd	ardn/+d	ảrdn	PN sg. cstr.	ảrdn, ?	
 # KTU 1.116 16						
 154030	in	in/	ỉn	n. m. sg.	lack of	
 154031	ḫmnd	ḫmn(I)/+d	ḫmn (I)	n. m. cstr.	chapel, ?	
-154032	nbdgd	nbdg/+d	nbdg	DN cstr.	nbdg, ?	
+154032	nbdgd	nbdg/+d	nbdg	DN sg. cstr.	nbdg, ?	
 # KTU 1.116 17						
 154033	ˤntd	ˤn(I)&t/+d	ʕn (I)	n. f. cstr.	eye, ?	
-154033	ˤntd	ˤnt(I)/+d	ʕnt (I)	DN cstr.	ʿAnatu/Anat, ?	
+154033	ˤntd	ˤnt(I)/+d	ʕnt (I)	DN sg. cstr.	ʿAnatu/Anat, ?	
 154033	ˤntd	ˤn(II)&t/+d	ʕn (II)	n. f. cstr.	furrow, ?	
-154034	ṯmgnd	ṯmg/	ṯmg	DN	ṯmg	
+154034	ṯmgnd	ṯmg/	ṯmg	DN sg.	ṯmg	
 # KTU 1.116 18						
 154035	pḏḏpḫnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 19						
-154036	ḫbtd	ḫbt(II)/	ḫbt (II)	DN	Bien-amada	
+154036	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg.	Bien-amada	
 154037	dqtd	dqt(I)/+d	dqt (I)	adj. f. cstr.	small, ?	
 154037	dqtd	dqt(II)/+d	dqt (II)	n. f. cstr.	manufacture, ?	
 # KTU 1.116 20						
@@ -100,7 +100,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.116 26						
 154049	xndrṯt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 27						
-154050	uḏnd	uḏn/+d	ủḏn	PN cstr.	[für] die Opferschau, ?	
+154050	uḏnd	uḏn/+d	ủḏn	PN sg. cstr.	[für] die Opferschau, ?	
 154051	xxxxx	?	?	?	?	
 # KTU 1.116 28						
 154052	adnd	adn(I)/+d	ảdn (I)	n. m. cstr.	lord, ?	

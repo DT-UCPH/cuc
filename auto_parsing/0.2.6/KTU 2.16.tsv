@@ -1,11 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.16 1						
 156768	tḥm	tḥm/	tḥm	n. m. sg.	message	
-156769	tlmyn	tlmyn/	tlmyn	PN	tlmyn	
+156769	tlmyn	tlmyn/	tlmyn	PN sg.	tlmyn	
 # KTU 2.16 2						
 156770	l	l(I)	l (I)	prep.	to	
 156770	l	l(III)	l (III)	functor	certainly	
-156771	ṯryl	ṯryl/	ṯryl	PN	ṯryl	
+156771	ṯryl	ṯryl/	ṯryl	PN sg.	ṯryl	
 156772	umy	um/y	ủm	n. f. sg.	mother	
 # KTU 2.16 3						
 156773	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -19,7 +19,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156775	lk	l(I)+k	l (I)	prep.	to	
 156776	ily	il(I)/y	ỉl (I)	n. m. pl. cstr.	god	
 # KTU 2.16 5						
-156777	ugrt	ugrt/	ủgrt	TN	Ugarit	
+156777	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 156778	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.16 6						
 156779	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -54,7 +54,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156795	tšmḫ	!t!šmḫ[	/š-m-ḫ/	vb G prefc. 3 m. du.	to be glad	
 156795	tšmḫ	!t!šmḫ[:w	/š-m-ḫ/	vb G prefc. 3 m. pl.	to be glad	
 156795	tšmḫ	!t===!šmḫ[	/š-m-ḫ/	vb G prefc. 2 m. pl.	to be glad	
-156795	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc.	to be glad	
+156795	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc. 3 f. sg.	to be glad	
+156795	tšmḫ	!t=!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 m. sg.	to be glad	
+156795	tšmḫ	!t==!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 f. sg.	to be glad	
+156795	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc. 3 m. du.	to be glad	
+156795	tšmḫ	!t!šmḫ[:d:w	/š-m-ḫ/	vb D prefc. 3 m. pl.	to be glad	
+156795	tšmḫ	!t===!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 m. pl.	to be glad	
 156796	mab	ab/	ảb	n. m.	father	Based on DULAT reconstruction.
 156796	mab	mab	mảb	→	?	
 # KTU 2.16 12						
@@ -64,7 +69,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156799	twḥln	y[wḥln	/y/w-ḥ-l/	vb G prefc.	to be worried	
 # KTU 2.16 13						
 156800	ˤtn	ˤnt(II)	ʕnt (II)	adv.	now	
-156800	ˤtn	ˤt/+n	ʕt	TN cstr.	ʿt	
+156800	ˤtn	ˤt/+n	ʕt	TN sg. cstr.	ʿt	
 156801	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr.	(royal) guard	
 156801	ḫrd	ḫrd/	ḫrd	n. m. sg.	(royal) guard	
 156802	ank	ank	ảnk	pers. pn.	I	
@@ -74,6 +79,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156804	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 156804	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156804	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156804	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+156804	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+156804	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+156804	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 156804	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.16 15						
 156805	kll	kll/	kll	n. m. sg.	totality	
@@ -84,6 +93,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156808	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 156808	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156808	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156808	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+156808	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+156808	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+156808	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 156808	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 156809	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.16 18						

@@ -66,13 +66,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153752	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 153752	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153752	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-153753	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN	ʿmṯtmr	
+153753	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg.	ʿmṯtmr	
 # KTU 1.113 14						
 153754	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153754	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 153754	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153754	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-153755	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
+153755	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg.	nqmpʿ	
 # KTU 1.113 15						
 153756	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153756	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
@@ -85,21 +85,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153758	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153758	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 153759	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr.	bull	
-153759	ibrn	ibrn/	ỉbrn	PN	ỉbrn	
+153759	ibrn	ibrn/	ỉbrn	PN sg.	ỉbrn	
 153759	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr.	wing	
 # KTU 1.113 17						
 153760	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153760	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 153760	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153760	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-153761	yˤḏrd	yˤḏrd/	yʕḏrd	PN	yʿḏrd	
+153761	yˤḏrd	yˤḏrd/	yʕḏrd	PN sg.	yʿḏrd	
 # KTU 1.113 18						
 153762	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153762	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 153762	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153762	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 153763	ˤmṯtmril	?	?	?	?	DULAT: NOT FOUND
-153764	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
+153764	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg.	nqmpʿ	
 # KTU 1.113 19						
 153765	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153765	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
@@ -107,7 +107,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153765	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 153766	nqmdil	?	?	?	?	DULAT: NOT FOUND
 153767	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr.	bull	
-153767	ibrn	ibrn/	ỉbrn	PN	ỉbrn	
+153767	ibrn	ibrn/	ỉbrn	PN sg.	ỉbrn	
 153767	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr.	wing	
 # KTU 1.113 20						
 153768	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
@@ -115,7 +115,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153768	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153768	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 153769	arḫlbil	?	?	?	?	DULAT: NOT FOUND
-153770	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN	ʿAmmurāpʾi	
+153770	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg.	ʿAmmurāpʾi	
 # KTU 1.113 21						
 153771	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153771	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
@@ -129,7 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153773	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 153774	ˤmṯtmril	?	?	?	?	DULAT: NOT FOUND
 153775	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr.	bull	
-153775	ibrn	ibrn/	ỉbrn	PN	ỉbrn	
+153775	ibrn	ibrn/	ỉbrn	PN sg.	ỉbrn	
 153775	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr.	wing	
 # KTU 1.113 23						
 153776	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
@@ -137,21 +137,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153776	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153776	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 153777	nqmdil	?	?	?	?	DULAT: NOT FOUND
-153778	nqmpˤ	nqmpˤ/	nqmpʕ	PN	nqmpʿ	
+153778	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg.	nqmpʿ	
 # KTU 1.113 24						
 153779	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153779	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 153779	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153779	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 153780	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr.	bull	
-153780	ibrn	ibrn/	ỉbrn	PN	ỉbrn	
+153780	ibrn	ibrn/	ỉbrn	PN sg.	ỉbrn	
 153780	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr.	wing	
 # KTU 1.113 25						
 153781	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153781	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 153781	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153781	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-153782	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+153782	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 # KTU 1.113 26						
 153783	pˤil	?	?	?	?	DULAT: NOT FOUND
 153784	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to meet	

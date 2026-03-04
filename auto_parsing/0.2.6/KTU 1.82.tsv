@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149999	xxy	?	?	?	?	DULAT: NOT FOUND
 150000	tnn	ytn[+n	/y-t-n/	vb G prefc.	to give	
 150000	tnn	ytn[+n	/y-t-n/	vb G suffc.	to give	
-150000	tnn	tnn(I)/	tnn (I)	DN	“dragon” ym’s primordial ally or double	
+150000	tnn	tnn(I)/	tnn (I)	DN sg.	“dragon” ym’s primordial ally or double	
 150001	w	w	w	conj.	and	
 150002	ygl	!y!](n]gl(y[	/g-l-y/	vb G prefc. 3 m. sg.	to present oneself	
 150002	ygl	!y!](n]gl(y[	/g-l-y/	vb N prefc. 3 m. sg.	to present oneself	
@@ -36,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150018	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 150018	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 150019	ḥẓ	ḥẓ/	ḥẓ	n. m. sg.	arrow	
-150020	ršp	ršp/	ršp	DN	Rašap	
+150020	ršp	ršp/	ršp	DN sg.	Rašap	
 150021	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 150021	bn	bn(I)/	bn (I)	n. m. sg.	son	
 150021	bn	bn(II)	bn (II)	prep.	between	
@@ -80,7 +80,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150041	tššy	]š]nšy[y	/n-š-y/	vb Š prefc.	to be forgotten	
 150042	hm	hm(II)	hm (II)	conj./interr. functor	if	
 150042	hm	hm(I)	hm (I)	pers. pn.	they	
-150043	tġrm	!t!ġrm[:d	/ġ-r-m/	vb D prefc.	to commit	
+150043	tġrm	!t!ġrm[:d	/ġ-r-m/	vb D prefc. 3 f. sg.	to commit	
+150043	tġrm	!t=!ġrm[:d	/ġ-r-m/	vb D prefc. 2 m. sg.	to commit	
+150043	tġrm	!t==!ġrm[:d	/ġ-r-m/	vb D prefc. 2 f. sg.	to commit	
+150043	tġrm	!t!ġrm[:d	/ġ-r-m/	vb D prefc. 3 m. du.	to commit	
+150043	tġrm	!t!ġrm[:d:w	/ġ-r-m/	vb D prefc. 3 m. pl.	to commit	
+150043	tġrm	!t===!ġrm[:d	/ġ-r-m/	vb D prefc. 2 m. pl.	to commit	
 150044	l	l(I)	l (I)	prep.	to	
 150044	l	l(II)	l (II)	adv.	no	
 150044	l	l(III)	l (III)	functor	certainly	
@@ -314,9 +319,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150178	mdbm	mdb/m	mdb	n. m. pl.	tide	
 150179	l	l(I)	l (I)	prep.	to	
 150179	l	l(III)	l (III)	functor	certainly	
-150180	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
+150180	ḥrn	ḥrn/	ḥrn	DN sg.	Ḥôrānu	
 150180	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr.	intestine(s)	
-150181	ḥrnm	ḥrn/+m(I)	ḥrn	DN cstr.	Ḥôrānu	
+150181	ḥrnm	ḥrn/+m(I)	ḥrn	DN sg. cstr.	Ḥôrānu	
 # KTU 1.82 28						
 150182	xxxxxxxxlhm	?	?	?	?	DULAT: NOT FOUND
 150183	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
@@ -375,15 +380,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150212	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. pl.	sister (related by blood)	
 150212	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. sg.	sister (related by blood)	
 150212	aḫt	aḫ(t(I)/t=	ảḫt (I)	n. f. pl.	sister (related by blood)	
-150213	ppšr	ppšr/	ppšr	PN	ppšr	
+150213	ppšr	ppšr/	ppšr	PN sg.	ppšr	
 150214	w	w	w	conj.	and	
-150215	ppšrt	ppšrt/	ppšrt	PN	ppšrt	
+150215	ppšrt	ppšrt/	ppšrt	PN sg.	ppšrt	
 150216		?	?	?	?	
 # KTU 1.82 37						
 150217	xxxxxlk	?	?	?	?	DULAT: NOT FOUND
 150218	drḫm	drḫ/m	drḫ	n. m. pl.	chamois	
 150219	w	w	w	conj.	and	
-150220	aṯb	yṯb[	/y-ṯ-b/	vb G prefc.	to sit down	
+150220	aṯb	!(ʔ&a!(yṯb[	/y-ṯ-b/	vb G prefc. 1 c. sg.	to sit down	
 150221	l	l(I)	l (I)	prep.	to	
 150221	l	l(III)	l (III)	functor	certainly	
 150222	ntbtk	ntbt/+k	ntbt	n. m. cstr.	path	
@@ -436,16 +441,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150251	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr.	servant	
 150251	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs.	servant	
 150251	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr.	servant	
-150252	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
+150252	ḥrn	ḥrn/	ḥrn	DN sg.	Ḥôrānu	
 150252	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr.	intestine(s)	
 150253	tqxk	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.82 42						
 150254	xx	?	?	?	?	
 150255	aġwyn	!(ʔ&a!ġwy[n:d	/ġ-w-y/	vb D prefc. 1 c. sg.	to cry vigorously	
 150256	ˤnk	ˤn(I)/	ʕn (I)	n. f. du. abs.	eye	
-150257	ẓẓ	ẓẓ/	ẓẓ	element/DN	ẓẓ	
+150257	ẓẓ	ẓẓ/	ẓẓ	element/DN sg.	ẓẓ	
 150258	w	w	w	conj.	and	
-150259	kmġ	kmṯ/	kmṯ	DN/element	kmṯ	
+150259	kmġ	kmṯ/	kmṯ	DN/element sg.	kmṯ	
 150260	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 150260	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.82 43						
@@ -460,7 +465,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150265	l	l(I)	l (I)	prep.	to	
 150265	l	l(II)	l (II)	adv.	no	
 150265	l	l(III)	l (III)	functor	certainly	
-150266	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
+150266	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
 150267	k	+k	-k (I)			
 150267	k	~k	-k (II)			
 150267	k	k(III)	k (III)	Subordinating or completive functor	when	

@@ -3,11 +3,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159627	tḥm	tḥm/	tḥm	n. m. sg.	message	
 159628	abny	ab/+ny	ảb	n. m. cstr.	father	
 159628	abny	ab&n/+y	ảb	n. m. cstr.	father	
-159628	abny	abny/	ảbny	PN	verso	
+159628	abny	abny/	ảbny	PN sg.	verso	
 # KTU 2.87 2						
 159629	l	l(I)	l (I)	prep.	to	
 159629	l	l(III)	l (III)	functor	certainly	
-159630	urtṯb	urtṯb/	ủrtṯb	PN	ủrtṯb	
+159630	urtṯb	urtṯb/	ủrtṯb	PN sg.	ủrtṯb	
 159631	urtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 3						
 159632	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr.	brother (by blood)	
@@ -42,7 +42,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159649	ky	k(II)	k (II)	emph. functor	yes	
 159649	ky	k(IV)	k (IV)	adv.	thus	
 159650	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	
-159650	ḫbt	ḫbt(II)/	ḫbt (II)	DN	Bien-amada	
+159650	ḫbt	ḫbt(II)/	ḫbt (II)	DN sg.	Bien-amada	
 159651	w	w	w	conj.	and	
 159652	l	l(I)	l (I)	prep.	to	
 159652	l	l(III)	l (III)	functor	certainly	
@@ -96,15 +96,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.87 15						
 159682	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
 159683	mly	ml+y	ml	?	?	
-159683	mly	mly(II)/	mly (II)	PN	mly (II)	
+159683	mly	mly(II)/	mly (II)	PN sg.	mly (II)	
 159683	mly	mly(I)	mly (I)	?	?	
 # KTU 2.87 16						
-159684	aġltn	aġltn/	ảġltn	PN	ảġltn	
+159684	aġltn	aġltn/	ảġltn	PN sg.	ảġltn	
 159685	mxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 17						
 159686	alny	al(I)+ny	ảl (I)	neg. functor	no	
 159686	alny	al(II)+ny	ảl (II)	pos. functor	surely	
-159686	alny	alny/	ảlny	PN	ảlny	
+159686	alny	alny/	ảlny	PN sg.	ảlny	
 159687	b	b	b	prep.	in	
 159688	ddbḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 18						
@@ -135,7 +135,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159704	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
 159704	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
 159704	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg.	to eject	
-159705	bnil	bnil/	bnỉl	PN	bnỉl	
+159705	bnil	bnil/	bnỉl	PN sg.	bnỉl	
 # KTU 2.87 23						
 159706	w	w	w	conj.	and	
 159707	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
@@ -154,10 +154,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159713	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 159713	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.87 25						
-159714	bbd	bb/+d	bb	PN cstr.	bb, ?	
-159715	bnil	bnil/	bnỉl	PN	bnỉl	
+159714	bbd	bb/+d	bb	PN sg. cstr.	bb, ?	
+159715	bnil	bnil/	bnỉl	PN sg.	bnỉl	
 159716	hl	hl	hl	deictic adv. functor	behold	
-159717	ˤkd	ˤkd/	ʕkd	TN	ungestüm	
+159717	ˤkd	ˤkd/	ʕkd	TN sg.	ungestüm	
 # KTU 2.87 26						
 159718	w	w	w	conj.	and	
 159719	atm	at(I)	ảt (I)	pers. pn.	you	
@@ -178,7 +178,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159725	hm	hm(I)	hm (I)	pers. pn.	they	
 159726	idt	id(t/t	ỉdt	n. f. sg.	?	
 159727	w	w	w	conj.	and	
-159728	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+159728	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 # KTU 2.87 28						
 159729	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 159730	ḫpnm	ḫpn(I)/m	ḫpn (I)	n. m. pl.	Gewand	
@@ -186,7 +186,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159731	ḥdṯm	ḥdṯ(I)/+m(I)	ḥdṯ (I)	adj. cstr.	new	
 # KTU 2.87 29						
 159732	hyn	hy+n	hy	pers. pn.	she	
-159732	hyn	hyn/	hyn	DN	Hayyānu/alt. name of the god kṯr (Kothar)	
+159732	hyn	hyn/	hyn	DN sg.	Hayyānu/alt. name of the god kṯr (Kothar)	
 159733	d	d	d	det. or rel. functor	the one(s) of	
 159734	znt	zn(t/t	znt	n. f. sg.	sustenance	
 159735	ly	l(I)+y	l (I)	prep.	to	
@@ -197,7 +197,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159738	ks	ks/	ks/śm(n)	n. m. pl.	emmer-corn	
 159739	pa	?	?	?	?	DULAT: NOT FOUND
 159740	nmḥt	nmḥt[	/m-ḥ(-w:y)/	vb N suffc. 3 m. sg.	to clean	
-159741	aky	aky/	ảky	PN	ảky	
+159741	aky	aky/	ảky	PN sg.	ảky	
 159742	dnt	dn(t(II)/t	dnt (II)	n. f. sg.	plight	
 # KTU 2.87 31						
 159743	hn	hn	hn	functor	behold!	

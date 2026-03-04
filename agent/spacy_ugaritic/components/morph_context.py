@@ -31,6 +31,8 @@ class MorphContextResolver:
                 continue
             agreement_token = _nearest_plural_dual_subject(doc, index)
             if agreement_token is None:
+                agreement_token = _nearest_previous_plural_dual_subject(doc, index)
+            if agreement_token is None:
                 continue
             keep_numbers = _subject_numbers(agreement_token)
             filtered = tuple(
@@ -76,7 +78,20 @@ def _nearest_plural_dual_subject(doc: Doc, index: int) -> Token | None:
         token = doc[probe]
         if _is_plural_dual_masculine_nominal(token):
             return token
-        if not _is_all_verbal(token):
+        if not _is_transparent_context_token(token):
+            break
+    return None
+
+
+def _nearest_previous_plural_dual_subject(doc: Doc, index: int) -> Token | None:
+    for lookback in range(1, 4):
+        probe = index - lookback
+        if probe < 0:
+            break
+        token = doc[probe]
+        if _is_plural_dual_masculine_nominal(token):
+            return token
+        if not _is_transparent_context_token(token):
             break
     return None
 
@@ -84,6 +99,15 @@ def _nearest_plural_dual_subject(doc: Doc, index: int) -> Token | None:
 def _is_all_verbal(token: Token) -> bool:
     candidates = tuple(token._.resolved_candidates)
     return bool(candidates) and all("vb" in candidate.pos.lower() for candidate in candidates)
+
+
+def _is_transparent_context_token(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    if not candidates:
+        return False
+    if _is_all_verbal(token):
+        return True
+    return all(_is_function_like(candidate) for candidate in candidates)
 
 
 def _is_plural_dual_masculine_nominal(token: Token) -> bool:
@@ -101,6 +125,21 @@ def _subject_numbers(token: Token) -> set[str]:
         if "du." in pos or "tant." in pos:
             keep_numbers.add("du.")
     return keep_numbers
+
+
+def _is_function_like(candidate: Candidate) -> bool:
+    pos = candidate.pos.lower()
+    return any(
+        marker in pos
+        for marker in (
+            "prep.",
+            "conj.",
+            "functor",
+            "adv.",
+            "narrative adv.",
+            "interr. pn.",
+        )
+    )
 
 
 def _is_third_masculine_for_numbers(candidate: Candidate, keep_numbers: set[str]) -> bool:

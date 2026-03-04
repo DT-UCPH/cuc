@@ -25,7 +25,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153221	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 153221	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	
 153222	b	b	b	prep.	in	
-153223	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+153223	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 # KTU 1.108 3						
 153224	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 153224	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
@@ -34,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153225	ṯpẓ	ṯpẓ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg.	to judge	
 153225	ṯpẓ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg.	judge	
 153226	b	b	b	prep.	in	
-153227	hdrˤy	hdrˤy/	hdrʕy	TN	Haddou le berger	
+153227	hdrˤy	hdrˤy/	hdrʕy	TN sg.	Haddou le berger	
 153228	d	d	d	det. or rel. functor	the one(s) of	
 153229	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	to sing	
 153230	w	w	w	conj.	and	
@@ -54,22 +54,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153239	mṣltm	mṣlt(I)/m	mṣlt (I)	n. f. pl.	cymbal	
 153240	bm	b+m(I)	b	prep.	in	
 # KTU 1.108 5						
-153241	rqdm	rqd/+m(I)	rqd	TN cstr.	rqd	
+153241	rqdm	rqd/+m(I)	rqd	TN sg. cstr.	rqd	
 153242	d	d	d	det. or rel. functor	the one(s) of	
 153243	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 153244	b	b	b	prep.	in	
 153245	ḥbr	ḥbr(I)/	ḥbr (I)	n. m. pl. cstr.	companion	
-153246	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
+153246	kṯr	kṯr(III)/	kṯr (III)	DN/element sg.	Koṯaru/Kothar	
 153247	ẓbm	ẓby/	ẓby	n. m. pl.	gazelle	
 # KTU 1.108 6						
 153248	w	w	w	conj.	and	
-153249	tšt	!t!št[	/š-t/	vb G prefc.	to place	
-153249	tšt	!t!št(y[	/š-t-y/	vb G prefc. 3 f. sg.	to drink	
-153249	tšt	!t=!št(y[	/š-t-y/	vb G prefc. 2 m. sg.	to drink	
-153249	tšt	!t==!št(y[	/š-t-y/	vb G prefc. 2 f. sg.	to drink	
-153249	tšt	!t!št(y[	/š-t-y/	vb G prefc. 3 m. du.	to drink	
 153249	tšt	!t!št(y[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
-153249	tšt	!t===!št(y[	/š-t-y/	vb G prefc. 2 m. pl.	to drink	
 153250	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 153250	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 153250	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
@@ -137,7 +131,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153285	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153285	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 153286	šdy	šd(I)/+y	šd (I)	n. m. cstr.	open field	
-153286	šdy	šdy(II)/	šdy (II)	PN	šdy (II)	
+153286	šdy	šdy(II)/	šdy (II)	PN sg.	šdy (II)	
 153287	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	
 153287	ṣd	ṣd(I)/	ṣd (I)	n. m. sg.	hunt	
 153288	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
@@ -154,7 +148,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153293	iṯmh	iṯm(I)/h	ỉṯm (I)	n. m. sg.	firm-fleshed cattle	
 # KTU 1.108 15						
 153294	xxxxxxxxxxxxx	?	?	?	?	
-153295	ršp	ršp/	ršp	DN	Rašap	
+153295	ršp	ršp/	ršp	DN sg.	Rašap	
 # KTU 1.108 16						
 153296	xxxxxxxxxxxxmġy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.108 17						
@@ -232,7 +226,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153339	b	b	b	prep.	in	
 153340	tk	tk/	tk	n. m.	centre	
 # KTU 1.108 26						
-153341	ugrt	ugrt/	ủgrt	TN	Ugarit	
+153341	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 153342	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 153342	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 153342	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	

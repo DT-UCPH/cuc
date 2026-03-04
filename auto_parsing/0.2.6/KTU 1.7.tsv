@@ -40,11 +40,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141496	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg.	battle	
 # KTU 1.7 7						
 141497	w	w	w	conj.	and	
-141498	tḥdy	!t!ḥdy[	/ḥ-d-y/	vb G prefc.	to see	
+141498	tḥdy	!t!ḥdy[	/ḥ-d-y/	vb G prefc. 3 f. sg.	to see	
+141498	tḥdy	!t=!ḥdy[	/ḥ-d-y/	vb G prefc. 2 m. sg.	to see	
+141498	tḥdy	!t==!ḥdy[	/ḥ-d-y/	vb G prefc. 2 f. sg.	to see	
+141498	tḥdy	!t!ḥdy[	/ḥ-d-y/	vb G prefc. 3 m. du.	to see	
+141498	tḥdy	!t!ḥdy[:w	/ḥ-d-y/	vb G prefc. 3 m. pl.	to see	
+141498	tḥdy	!t===!ḥdy[	/ḥ-d-y/	vb G prefc. 2 m. pl.	to see	
 141499	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 141499	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 141499	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
-141500	tġdd	!t!ġdd[:d	/ġ-d-d/	vb D prefc.	to swell	
+141500	tġdd	!t!ġdd[:d	/ġ-d-d/	vb D prefc. 3 f. sg.	to swell	
+141500	tġdd	!t=!ġdd[:d	/ġ-d-d/	vb D prefc. 2 m. sg.	to swell	
+141500	tġdd	!t==!ġdd[:d	/ġ-d-d/	vb D prefc. 2 f. sg.	to swell	
+141500	tġdd	!t!ġdd[:d	/ġ-d-d/	vb D prefc. 3 m. du.	to swell	
+141500	tġdd	!t!ġdd[:d:w	/ġ-d-d/	vb D prefc. 3 m. pl.	to swell	
+141500	tġdd	!t===!ġdd[:d	/ġ-d-d/	vb D prefc. 2 m. pl.	to swell	
 141501	kbdh	kbd(I)	kbd (I)		liver	
 141502	bṣḥq	?	?	?	?	DULAT: NOT FOUND
 141503	ymlu	!y!ml(ʔ[&u	/m-l-ʔ/	vb G prefc. 3 m. sg.	to be full	
@@ -65,8 +75,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141513	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
 141514	kirbym	?	?	?	?	DULAT: NOT FOUND
 141515	kp	kp/	kp	n. f. sg.	palm (of the hand)	
-141516	kbrk	kbr/+k	kbr	PN cstr.	kbr	
-141517	tġll	!t!ġll[:d	/ġ-l-l/	vb D prefc.	to insert	
+141516	kbrk	kbr/+k	kbr	PN sg. cstr.	kbr	
+141517	tġll	!t!ġll[:d	/ġ-l-l/	vb D prefc. 3 f. sg.	to insert	
+141517	tġll	!t=!ġll[:d	/ġ-l-l/	vb D prefc. 2 m. sg.	to insert	
+141517	tġll	!t==!ġll[:d	/ġ-l-l/	vb D prefc. 2 f. sg.	to insert	
+141517	tġll	!t!ġll[:d	/ġ-l-l/	vb D prefc. 3 m. du.	to insert	
+141517	tġll	!t!ġll[:d:w	/ġ-l-l/	vb D prefc. 3 m. pl.	to insert	
+141517	tġll	!t===!ġll[:d	/ġ-l-l/	vb D prefc. 2 m. pl.	to insert	
 141518	b	b	b	prep.	in	
 141519	dm	dm(II)/	dm (II)	n. m. sg.	blood	
 141519	dm	dm(I)	dm (I)	functor	since	
@@ -144,16 +159,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141551	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 141552	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 141552	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
+141552	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+141552	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+141552	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 # KTU 1.7 24						
 141553	ahbt	ahb(t/t	ảhbt	n. f. sg. cstr.	love	
-141554	pdry	pdry/	pdry	DN	Pidray	
+141554	pdry	pdry/	pdry	DN sg.	Pidray	
 141554	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 141555	bt	bt(II)/	bt (II)	n. m. sg.	house	
 141555	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 141556	ar	a/	ả/ỉr	n. m. sg.	light	
 141557	yd	yd(I)/	yd (I)	n. f. sg.	hand	
 141558	ṭly	ṭl/+y	ṭl	n. m. cstr.	dew	
-141558	ṭly	ṭly/	ṭly	DN	Tallay	
+141558	ṭly	ṭly/	ṭly	DN sg.	Tallay	
 141559	bt	bt(II)/	bt (II)	n. m. sg.	house	
 141559	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 141560	rb	rb(II)/	rb (II)	n. m. sg. abs.	chief	
@@ -163,10 +181,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141561	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
 # KTU 1.7 25						
 141562	arṣy	arṣ/+y	ảrṣ	n. f. cstr.	earth	
-141562	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
+141562	arṣy	arṣy/	ảrṣy	DN sg.	Arṣay/Arsay	
 141563	bt	bt(II)/	bt (II)	n. m. sg.	house	
 141563	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-141564	yˤbdr	yˤbdr/	yʕbdr	DN	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
+141564	yˤbdr	yˤbdr/	yʕbdr	DN sg.	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
 # KTU 1.7 26						
 141565	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 141565	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -185,6 +203,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141573	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
 141574	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 141574	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
+141574	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+141574	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+141574	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 # KTU 1.7 27						
 141575	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
 141576	aliy	aliy/	ảlỉy	adj. m. sg. cstr.	The Most Powerful	
@@ -201,6 +222,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141585	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 141585	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 141585	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+141585	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+141585	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+141585	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+141585	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 141585	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 141586	lkbd	?	?	?	?	DULAT: NOT FOUND
 141587	ars	?	?	?	?	DULAT: NOT FOUND
@@ -219,7 +244,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.7 30						
 141598	mn	mn(IV)	mn (IV)	?	?	
 141599	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-141600	twtḥ	!t!w]t]ḥ(y[	/w-ḥ-y/	vb Gt prefc.	to hasten	
+141600	twtḥ	!t!w]t]ḥ(y[	/w-ḥ-y/	vb Gt prefc. 3 m. du.	to hasten	
+141600	twtḥ	!t!w]t]ḥ(y[:w	/w-ḥ-y/	vb Gt prefc. 3 m. pl.	to hasten	
 141601	išdk	išd/+k	ỉšd	n. m. du. cstr.	leg	
 141601	išdk	išd/+k	ỉšd	n. m. pl. cstr.	leg	
 141602	dm	dm(II)/	dm (II)	n. m. sg.	blood	

@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160978	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 160979	hnd	hnd	hnd	dem.	this	
 # KTU 3.4 2						
-160980	iwrkl	iwrkl/	ỉwrkl	PN	ỉwrkl	
+160980	iwrkl	iwrkl/	ỉwrkl	PN sg.	ỉwrkl	
 160981	pdy	pdy[	/p-d-y/	vb G suffc. 3 m. sg.	to redeem	
 # KTU 3.4 3						
 160982	agdn	?	?	?	?	DULAT: NOT FOUND
@@ -15,10 +15,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160983	bn	bn(II)	bn (II)	prep.	between	
 160983	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 160983	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160984	nwgn	nwgn/	nwgn	PN	nwgn	
+160984	nwgn	nwgn/	nwgn	PN sg.	nwgn	
 # KTU 3.4 4						
 160985	w	w	w	conj.	and	
-160986	ynḥm	ynḥm/	ynḥm	PN	ynḥm	
+160986	ynḥm	ynḥm/	ynḥm	PN sg.	ynḥm	
 160987	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr.	brother (by blood)	
 # KTU 3.4 5						
 160988	w	w	w	conj.	and	
@@ -30,18 +30,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160993	bnh	bn(I)/+h	bn (I)	n. m. cstr.	son	
 # KTU 3.4 7						
 160994	w	w	w	conj.	and	
-160995	btšy	btšy/	btšy	PN	btšy	
+160995	btšy	btšy/	btšy	PN sg.	btšy	
 160996	bth	bt(II)/+h	bt (II)	n. m. cstr.	house	
 160996	bth	bt(I)/h	bt (I)	n. f. du. abs.	daughter	
 160996	bth	bt(I)/h	bt (I)	n. f. sg.	daughter	
 # KTU 3.4 8						
 160997	w	w	w	conj.	and	
-160998	ištrmy	ištrmy/	ỉštrmy	PN	ỉštrmy	
+160998	ištrmy	ištrmy/	ỉštrmy	PN sg.	ỉštrmy	
 # KTU 3.4 9						
 160999	bt	bt(II)/	bt (II)	n. m. sg.	house	
 160999	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 160999	bt	bt(III)/	bt (III)	n. m. pl. cstr.	length	
-161000	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN	ʿbdmlk	
+161000	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
 161001	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr.	woman	
 # KTU 3.4 10						
 161002	w	w	w	conj.	and	
@@ -50,14 +50,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161004	bt	bt(II)/	bt (II)	n. m. sg.	house	
 161004	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 161004	bt	bt(III)/	bt (III)	n. m. pl. cstr.	length	
-161005	ugrt	ugrt/	ủgrt	TN	Ugarit	
+161005	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 3.4 12						
 161006	w	w	w	conj.	and	
 161007	pdy	pdy[	/p-d-y/	vb G suffc. 3 m. sg.	to redeem	
 161008	hm	hm(II)	hm (II)	conj./interr. functor	if	
 161008	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 3.4 13						
-161009	iwrkl	iwrkl/	ỉwrkl	PN	ỉwrkl	
+161009	iwrkl	iwrkl/	ỉwrkl	PN sg.	ỉwrkl	
 161010	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
 # KTU 3.4 14						
 161011	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -77,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161020	tṯṯbn	]š]ṯb[ṯbn	/ṯ-b/	vb Š prefc.	to return	
 # KTU 3.4 18						
 161021	ksp	ksp/	ksp	n. m. sg.	silver	
-161022	iwrkl	iwrkl/	ỉwrkl	PN	ỉwrkl	
+161022	iwrkl	iwrkl/	ỉwrkl	PN sg.	ỉwrkl	
 # KTU 3.4 19						
 161023	w	w	w	conj.	and	
 161024	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	

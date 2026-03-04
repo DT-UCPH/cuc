@@ -978,3 +978,6 @@
 - Consolidated the spaCy support layer onto one token/candidate document model, removed the separate row-builder/row-rewriter path, and moved formula/offering context onto the same `resolved_candidates` flow used by `l` and `k`.
 
 - Added shared spaCy lexical-context components for `bʕl` and `ydk` disambiguation, keeping the historical pre-`l` and post-`k` stage placements while validating exact corpus equivalence against the legacy lexical heuristics.
+- Extended `morph_features/paradigm_matcher.py` with sparse-table fallback form inventories plus weak-initial/weak-final body variants, so under-specified `morphology.py` stems can still generate valid parser analyses for cases like `tkly`, `ttrp`, and weak-initial `ytn`.
+- Extended `spacy_ugaritic/components/morph_context.py` with backward plural/dual agreement across transparent function-word context, so later verbs can prune against an earlier plural nominal subject as well as a following one.
+- Refined `NominalFeatureCompleter` to default unresolved name-class rows (`DN/PN/TN/GN/MN/RN`) to singular when no other number evidence is available, improving rows like `ṣpn/ -> TN/DN sg.` without inventing gender.

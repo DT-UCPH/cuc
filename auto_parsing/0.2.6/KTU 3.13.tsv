@@ -31,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161391	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161391	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161391	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161392	rny	rny/	rny	PN	rny	
+161392	rny	rny/	rny	PN sg.	rny	
 161393	ksp	ksp/	ksp	n. m. sg.	silver	
 161394	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161394	ˤl	ˤl(II)	ʕl (II)	adv.	above	
@@ -71,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161407	bn	bn(II)	bn (II)	prep.	between	
 161407	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161407	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161408	llit	llit/	llỉt	PN	llỉt	
+161408	llit	llit/	llỉt	PN sg.	llỉt	
 # KTU 3.13 7						
 161409	w	w	w	conj.	and	
 161410	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
@@ -80,7 +80,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161412	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161412	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161412	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161413	yrbˤm	yrbˤm/	yrbʕm	PN	yrbʿm	
+161413	yrbˤm	yrbˤm/	yrbʕm	PN sg.	yrbʿm	
 161414	arny	arny(II)/	ảrny (II)	GN sg.	ảrny (II)	
 # KTU 3.13 8						
 161415	w	w	w	conj.	and	
@@ -88,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161416	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161416	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161416	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161417	is	is/	ỉs	PN	ỉs	
+161417	is	is/	ỉs	PN sg.	ỉs	
 161418	arbˤm	arbˤ/	ảrbʕ	num.	four	
 161418	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
 161419	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr.	shekel	
@@ -101,7 +101,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161424	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161424	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161424	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161425	mnḥm	mnḥm/	mnḥm	PN	mnḥm	
+161425	mnḥm	mnḥm/	mnḥm	PN sg.	mnḥm	
 161425	mnḥm	mnḥ[+m(I)	/m-n-ḥ/	vb G suffc.	to deliver	
 161425	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr.	delivery	
 161426	arbˤ	arbˤ/	ảrbʕ	num.	four	
@@ -127,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161435	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161435	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161436	kdrn	kdr/+n	kdr	n. m. cstr.	trough	
-161436	kdrn	kdrn/	kdrn	PN	kdrn	
+161436	kdrn	kdrn/	kdrn	PN sg.	kdrn	
 # KTU 3.13 12						
 161437	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
 161437	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
@@ -207,7 +207,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161478	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 161479	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
 161480	d	d	d	det. or rel. functor	the one(s) of	
-161481	ṯbṭ	ṯbṭ/	ṯbṭ	PN	ṯbṭ	
+161481	ṯbṭ	ṯbṭ/	ṯbṭ	PN sg.	ṯbṭ	
 # KTU 3.13 23						
 161482	w	w	w	conj.	and	
 161483	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	

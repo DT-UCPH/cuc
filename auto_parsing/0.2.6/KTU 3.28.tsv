@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161859	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161859	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161860	uln	ul/+n	ủl	n. m. cstr.	(military) force	
-161860	uln	uln(II)/	ủln (II)	PN	ủln (II)	
+161860	uln	uln(II)/	ủln (II)	PN sg.	ủln (II)	
 # KTU 3.28 3						
 161861	miḫdy	miḫdy/	m(ả/ỉ)ḫdy	GN sg.	one indigenous to or dwelling in ‘The Port’	
 161862	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
@@ -18,9 +18,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161863	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 161863	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 161864	mšlm	?	?	?	?	DULAT: NOT FOUND
-161865	ṣry	ṣr/+y	ṣr	TN cstr.	Tyre	
-161865	ṣry	ṣry(II)/	ṣry (II)	PN	ṣry (II)	
-161865	ṣry	ṣry(I)/	ṣry (I)	GN	ṣry (I)	
+161865	ṣry	ṣr/+y	ṣr	TN sg. cstr.	Tyre	
+161865	ṣry	ṣry(II)/	ṣry (II)	PN sg.	ṣry (II)	
+161865	ṣry	ṣry(I)/	ṣry (I)	GN sg.	ṣry (I)	
 # KTU 3.28 5						
 161866	kd	kd(I)/	kd (I)	n. f. sg.	jar	
 161867	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
@@ -32,13 +32,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161870	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161870	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161870	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161871	mzt	mzt/	mzt	PN	mzt	
+161871	mzt	mzt/	mzt	PN sg.	mzt	
 161872	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161872	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161872	bn	bn(II)	bn (II)	prep.	between	
 161872	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161872	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161873	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
+161873	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg.	ʿAṯtar	
 # KTU 3.28 7						
 161874	kd	kd(I)/	kd (I)	n. f. sg.	jar	
 161875	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
@@ -74,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161887	bn	bn(II)	bn (II)	prep.	between	
 161887	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161887	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161888	kmnt	kmnt/	kmnt	PN	kmnt	
+161888	kmnt	kmnt/	kmnt	PN sg.	kmnt	
 161889	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
 # KTU 3.28 12						
 161890	mtn	mt(II)/+n	mt (II)	n. m. cstr.	death	
@@ -92,14 +92,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161896	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161896	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161896	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161897	stry	stry/	stry	PN	stry	
+161897	stry	stry/	stry	PN sg.	stry	
 # KTU 3.28 15						
 161898	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161898	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161898	bn	bn(II)	bn (II)	prep.	between	
 161898	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161898	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161899	ktš	ktš/	ktš	PN	ktš	
+161899	ktš	ktš/	ktš	PN sg.	ktš	
 # KTU 3.28 16						
 161900	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 161901	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -112,7 +112,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161905	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161905	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161905	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161906	abbt	abbt/	ảbbt	PN	ảbbt	
+161906	abbt	abbt/	ảbbt	PN sg.	ảbbt	
 161907	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161907	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161907	bn	bn(II)	bn (II)	prep.	between	

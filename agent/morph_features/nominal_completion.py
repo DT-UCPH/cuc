@@ -33,7 +33,7 @@ class NominalFeatureCompleter:
             bundle = build_nominal_bundle(
                 part_of_speech=base_pos,
                 gender=self._infer_gender(row, morphology),
-                number=self._infer_number(row, morphology),
+                number=self._infer_number(row, morphology, base_pos),
                 state=self._infer_state(row, morphology),
                 case=self._infer_case(row, morphology),
                 source="analysis+dulat" if morphology else "analysis",
@@ -96,7 +96,7 @@ class NominalFeatureCompleter:
         return match.group(1) if match else ""
 
     @staticmethod
-    def _infer_number(row: TabletRow, morphology: str) -> str:
+    def _infer_number(row: TabletRow, morphology: str, base_pos: str) -> str:
         morph = (morphology or "").lower()
         analysis = row.analysis or ""
         if "/tm" in analysis:
@@ -115,6 +115,8 @@ class NominalFeatureCompleter:
             return "sg."
         if " du. " in f" {row.pos} ":
             return "du."
+        if any(name_class in base_pos for name_class in _NAME_CLASSES):
+            return "sg."
         return ""
 
     @staticmethod

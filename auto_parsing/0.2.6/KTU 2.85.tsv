@@ -23,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159488	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
 159488	rgm	rgm/	rgm	n. m. sg.	word	
 159489	tḥm	tḥm/	tḥm	n. m. sg.	message	
-159490	ˤzilt	ˤzilt/	ʕzilt	PN	ʿzilt	
+159490	ˤzilt	ˤzilt/	ʕzilt	PN sg.	ʿzilt	
 # KTU 2.85 5						
 159491	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 159491	bn	bn(I)/	bn (I)	n. m. sg.	son	
@@ -45,10 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159496	l	l(I)	l (I)	prep.	to	
 159496	l	l(II)	l (II)	adv.	no	
 159496	l	l(III)	l (III)	functor	certainly	
-159497	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-159497	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-159497	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-159497	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+159497	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 # KTU 2.85 8						
 159498	tġrkm	nġr[km	/n-ġ-r/	vb G suffc.	to protect	
 159499	tšlmkm	tšlmkm[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -60,6 +57,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159503	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 159503	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 159503	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+159503	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+159503	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+159503	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+159503	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 159503	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 159504	w	w	w	conj.	and	
 159505	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
@@ -68,6 +69,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159507	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 159507	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 159507	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+159507	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+159507	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+159507	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+159507	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 159507	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.85 12						
 159508	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -113,12 +118,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.85 22						
 159532	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
 159532	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
-159533	ḫytr	ḫytr/	ḫytr	MN		
+159533	ḫytr	ḫytr/	ḫytr	MN sg.		
 159534	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
 159535	xx	?	?	?	?	
 # KTU 2.85 23						
 159536	tḥm	tḥm/	tḥm	n. m. sg.	message	
-159537	ˤzilt	ˤzilt/	ʕzilt	PN	ʿzilt	
+159537	ˤzilt	ˤzilt/	ʕzilt	PN sg.	ʿzilt	
 # KTU 2.85 24						
 159538	l	l(I)	l (I)	prep.	to	
 159538	l	l(III)	l (III)	functor	certainly	
@@ -137,7 +142,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159544	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 159544	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 2.85 27						
-159545	tšlm	!t!šlm[:d	/š-l-m/	vb D prefc.	to be well	
+159545	tšlm	!t!šlm[:d:w	/š-l-m/	vb D prefc. 3 m. pl.	to be well	
 159546	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.85 28						
 159547	xxx	?	?	?	?	

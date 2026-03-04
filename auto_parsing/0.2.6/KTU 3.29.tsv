@@ -12,16 +12,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161915	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161915	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161916	uln	ul/+n	ủl	n. m. cstr.	(military) force	
-161916	uln	uln(II)/	ủln (II)	PN	ủln (II)	
+161916	uln	uln(II)/	ủln (II)	PN sg.	ủln (II)	
 # KTU 3.29 4						
 161917	maḫdy	maḫdy/	m(ả/ỉ)ḫdy	GN sg.	one indigenous to or dwelling in ‘The Port’	
 # KTU 3.29 5						
 161918	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161919	bˤlmšlm	bˤlmšlm/	bʕlmšlm	PN	bʿlmšlm	
+161919	bˤlmšlm	bˤlmšlm/	bʕlmšlm	PN sg.	bʿlmšlm	
 # KTU 3.29 6						
-161920	ṣry	ṣr/+y	ṣr	TN cstr.	Tyre	
-161920	ṣry	ṣry(II)/	ṣry (II)	PN	ṣry (II)	
-161920	ṣry	ṣry(I)/	ṣry (I)	GN	ṣry (I)	
+161920	ṣry	ṣr/+y	ṣr	TN sg. cstr.	Tyre	
+161920	ṣry	ṣry(II)/	ṣry (II)	PN sg.	ṣry (II)	
+161920	ṣry	ṣry(I)/	ṣry (I)	GN sg.	ṣry (I)	
 # KTU 3.29 7						
 161921	kd	kd(I)/	kd (I)	n. f. sg.	jar	
 161922	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
@@ -34,15 +34,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161925	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161925	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161925	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161926	mzt	mzt/	mzt	PN	mzt	
+161926	mzt	mzt/	mzt	PN sg.	mzt	
 161927	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161927	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161927	bn	bn(II)	bn (II)	prep.	between	
 161927	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161927	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.29 10						
-161928	ˤṯtry	ˤṯtr/+y	ʕṯtr	DN cstr.	ʿAṯtar	
-161928	ˤṯtry	ˤṯtry/	ʕṯtry	PN	ʿṯtry	
+161928	ˤṯtry	ˤṯtr/+y	ʕṯtr	DN sg. cstr.	ʿAṯtar	
+161928	ˤṯtry	ˤṯtry/	ʕṯtry	PN sg.	ʿṯtry	
 # KTU 3.29 11						
 161929	kd	kd(I)/	kd (I)	n. f. sg.	jar	
 161930	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
@@ -55,7 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161933	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161933	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161933	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161934	abmn	abmn/	ảbmn	PN	ảbmn	
+161934	abmn	abmn/	ảbmn	PN sg.	ảbmn	
 # KTU 3.29 14						
 161935	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161935	bn	bn(I)/	bn (I)	n. m. sg.	son	
@@ -79,7 +79,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161941	bn	bn(II)	bn (II)	prep.	between	
 161941	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161941	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161942	kmnt	kmnt/	kmnt	PN	kmnt	
+161942	kmnt	kmnt/	kmnt	PN sg.	kmnt	
 # KTU 3.29 18						
 161943	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
 161944	mtn	mt(II)/+n	mt (II)	n. m. cstr.	death	
@@ -98,14 +98,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161950	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161950	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161950	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161951	stry	stry/	stry	PN	stry	
+161951	stry	stry/	stry	PN sg.	stry	
 # KTU 3.29 22						
 161952	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161952	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161952	bn	bn(II)	bn (II)	prep.	between	
 161952	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161952	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161953	ktš	ktš/	ktš	PN	ktš	
+161953	ktš	ktš/	ktš	PN sg.	ktš	
 # KTU 3.29 23						
 161954	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 161955	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -114,7 +114,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161956	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161956	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161956	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161957	abbt	abbt/	ảbbt	PN	ảbbt	
+161957	abbt	abbt/	ảbbt	PN sg.	ảbbt	
 # KTU 3.29 25						
 161958	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161958	bn	bn(I)/	bn (I)	n. m. sg.	son	
@@ -142,7 +142,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161967	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 # KTU 3.29 29						
 161968	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr.	heavens	
-161968	šmmn	šmmn/	šmmn	PN	šmmn	
+161968	šmmn	šmmn/	šmmn	PN sg.	šmmn	
 # KTU 3.29 30						
 161969	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161969	bn	bn(I)/	bn (I)	n. m. sg.	son	

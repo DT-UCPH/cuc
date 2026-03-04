@@ -6,6 +6,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149403	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 149404	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 149404	bn	bn(I)/	bn (I)	n. m. sg.	son	
+149404	bn	bn(II)	bn (II)	prep.	between	
+149404	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+149404	bn	bn[	/b-n/	vb G impv. 2	to understand	
 149405	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 149405	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 149405	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -15,6 +18,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149406	dr	dr/	dr	n. m. sg.	circle	
 149407	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 149407	bn	bn(I)/	bn (I)	n. m. sg.	son	
+149407	bn	bn(II)	bn (II)	prep.	between	
+149407	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+149407	bn	bn[	/b-n/	vb G impv. 2	to understand	
 149408	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 149408	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 149408	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -23,6 +29,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149409	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
 149410	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 149410	bn	bn(I)/	bn (I)	n. m. sg.	son	
+149410	bn	bn(II)	bn (II)	prep.	between	
+149410	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+149410	bn	bn[	/b-n/	vb G impv. 2	to understand	
 149411	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 149411	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 149411	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -53,6 +62,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149420	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 149420	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 149420	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+149420	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+149420	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+149420	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+149420	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 149420	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 149421	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 149421	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
@@ -63,20 +76,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149422	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 149422	il	il(I)/	ỉl (I)	n. m. sg.	god	
 149422	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-149423	ḫš	ḫš/	ḫš	DN	le dieu qui montre la solicitude	
+149423	ḫš	ḫš/	ḫš	DN sg.	le dieu qui montre la solicitude	
 149424	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 149424	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 149424	il	il(I)/	ỉl (I)	n. m. sg.	god	
 149424	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-149425	add	hd/	hd(d)	DN	Haddu/Hadad	
+149425	add	hd/	hd(d)	DN sg.	Haddu/Hadad	
 # KTU 1.65 10						
 149426	bˤd	bˤd	bʕd	adv. or prep.	behind	
-149427	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149427	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 149428	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 149428	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 149428	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 # KTU 1.65 11						
-149429	ugrt	ugrt/	ủgrt	TN	Ugarit	
+149429	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 1.65 12						
 149430	b	b	b	prep.	in	
 149431	mrḥ	mrḥ/	mrḥ	n. f. sg.	lance	

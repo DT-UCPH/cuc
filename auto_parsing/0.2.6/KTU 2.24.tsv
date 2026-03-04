@@ -34,6 +34,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157101	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157101	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157101	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157101	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157101	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157101	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157101	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157101	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.24 10						
 157102	ṯmny	ṯm	ṯm	adv.	there	
@@ -44,6 +48,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157106	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157106	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157106	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157106	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157106	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157106	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157106	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157106	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.24 12						
 157107	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	

@@ -66,6 +66,10 @@ _STEM_MARKER_SUFFIX = {
     "tL": ":l",
     "R": ":r",
 }
+_DEFAULT_FORM_INVENTORY = {
+    "prefc.": ("3ms", "3fs", "2ms", "2fs", "1cs", "3md", "3mp", "2mp"),
+    "suffc.": ("3ms", "3mp", "2ms", "2fs", "1cs"),
+}
 
 
 @lru_cache(maxsize=1)
@@ -111,33 +115,31 @@ def generate_verbal_candidates(
     if len(root) != 3:
         return []
     candidates: list[VerbalCandidate] = []
-    for pattern in load_verbal_pattern_rows():
-        if pattern.stem != stem or pattern.conjugation != conjugation:
-            continue
-        features = _decode_form(pattern.form)
+    for form in _candidate_forms(stem=stem, conjugation=conjugation):
+        features = _decode_form(form)
         if features is None:
             continue
-        analysis = _build_analysis(
+        for analysis in _build_analyses(
             root=root,
             stem=stem,
             conjugation=conjugation,
-            form=pattern.form,
-        )
-        if not analysis:
-            continue
-        if reconstruct_surface_from_analysis(analysis) != surface:
-            continue
-        person, gender, number = features
-        candidates.append(
-            VerbalCandidate(
-                analysis=analysis,
-                person=person,
-                gender=gender,
-                number=number,
-                stem=stem,
-                conjugation=conjugation,
+            form=form,
+        ):
+            if not analysis:
+                continue
+            if reconstruct_surface_from_analysis(analysis) != surface:
+                continue
+            person, gender, number = features
+            candidates.append(
+                VerbalCandidate(
+                    analysis=analysis,
+                    person=person,
+                    gender=gender,
+                    number=number,
+                    stem=stem,
+                    conjugation=conjugation,
+                )
             )
-        )
     deduped: list[VerbalCandidate] = []
     seen: set[tuple[str, str, str, str]] = set()
     for candidate in candidates:
@@ -147,6 +149,21 @@ def generate_verbal_candidates(
         seen.add(key)
         deduped.append(candidate)
     return deduped
+
+
+def _candidate_forms(*, stem: str, conjugation: str) -> tuple[str, ...]:
+    forms = [
+        pattern.form
+        for pattern in load_verbal_pattern_rows()
+        if pattern.stem == stem and pattern.conjugation == conjugation
+    ]
+    if len(set(forms)) < 2:
+        forms.extend(_DEFAULT_FORM_INVENTORY.get(conjugation, ()))
+    out: list[str] = []
+    for form in forms:
+        if form and form not in out:
+            out.append(form)
+    return tuple(out)
 
 
 def _extract_root_letters(dulat: str) -> tuple[str, ...]:
@@ -171,16 +188,29 @@ def _decode_form(form: str) -> tuple[str, str, str] | None:
     )
 
 
-def _build_analysis(
+def _build_analyses(
     *,
     root: tuple[str, str, str],
     stem: str,
     conjugation: str,
     form: str,
+) -> tuple[str, ...]:
+    analyses: list[str] = []
+    for body in _build_body_variants(root=root, stem=stem, conjugation=conjugation):
+        if not body:
+            continue
+        analysis = _build_analysis_from_body(body=body, conjugation=conjugation, form=form)
+        if analysis and analysis not in analyses:
+            analyses.append(analysis)
+    return tuple(analyses)
+
+
+def _build_analysis_from_body(
+    *,
+    body: str,
+    conjugation: str,
+    form: str,
 ) -> str:
-    body = _build_body(root=root, stem=stem)
-    if not body:
-        return ""
     if conjugation == "prefc.":
         return _build_prefixed_analysis(body=body, form=form)
     if conjugation == "suffc.":
@@ -194,27 +224,43 @@ def _build_analysis(
     return ""
 
 
-def _build_body(*, root: tuple[str, str, str], stem: str) -> str:
-    r1, r2, r3 = root
-    third = _third_radical_segment(root)
-    if stem == "G":
-        return f"{r1}{r2}{third}["
-    if stem == "D":
-        return f"{r1}{r2}{third}[{_STEM_MARKER_SUFFIX['D']}"
-    if stem == "Gt":
-        return f"{r1}]t]{r2}{third}["
-    if stem == "Dt":
-        return f"]t]{r1}{r2}{third}[{_STEM_MARKER_SUFFIX['Dt']}"
-    if stem == "Š":
-        return f"]š]{r1}{r2}{third}["
-    return ""
+def _build_body_variants(
+    *,
+    root: tuple[str, str, str],
+    stem: str,
+    conjugation: str,
+) -> tuple[str, ...]:
+    r2 = root[1]
+    out: list[str] = []
+    for r1 in _first_radical_variants(root[0], conjugation):
+        for r3 in _third_radical_variants(root[2]):
+            if stem == "G":
+                body = f"{r1}{r2}{r3}["
+            elif stem == "D":
+                body = f"{r1}{r2}{r3}[{_STEM_MARKER_SUFFIX['D']}"
+            elif stem == "Gt":
+                body = f"{r1}]t]{r2}{r3}["
+            elif stem == "Dt":
+                body = f"]t]{r1}{r2}{r3}[{_STEM_MARKER_SUFFIX['Dt']}"
+            elif stem == "Š":
+                body = f"]š]{r1}{r2}{r3}["
+            else:
+                body = ""
+            if body and body not in out:
+                out.append(body)
+    return tuple(out)
 
 
-def _third_radical_segment(root: tuple[str, str, str]) -> str:
-    third = root[2]
-    if third in {"y", "w", "ʔ"}:
-        return f"({third}"
-    return third
+def _first_radical_variants(first: str, conjugation: str) -> tuple[str, ...]:
+    if first not in {"y", "w"} or conjugation != "prefc.":
+        return (first,)
+    return (first, f"({first}")
+
+
+def _third_radical_variants(third: str) -> tuple[str, ...]:
+    if third not in {"y", "w", "ʔ"}:
+        return (third,)
+    return (third, f"({third}")
 
 
 def _build_prefixed_analysis(*, body: str, form: str) -> str:

@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157850	l	l(III)	l (III)	functor	certainly	
 157851	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 157851	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-157852	ugrt	ugrt/	ủgrt	TN	Ugarit	
+157852	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 2.38 2						
 157853	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr.	brother (by blood)	
 157854	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -37,6 +37,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157866	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157866	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157866	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157866	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157866	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157866	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157866	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157866	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 157867	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.38 8						
@@ -46,6 +50,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157870	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 157870	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157870	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157870	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+157870	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+157870	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+157870	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157870	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.38 9						
 157871	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -60,7 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157874	dt	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.38 11						
 157875	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-157876	mṣrm	mṣrm/	mṣrm	TN	Egypt	
+157876	mṣrm	mṣrm/	mṣrm	TN sg.	Egypt	
 157876	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr.	sob	
 # KTU 2.38 12						
 157877	hndt	hnd	hnd	dem.	this	
@@ -119,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157910	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
 # KTU 2.38 25						
 157911	by	b	b	prep.	in	
-157912	ˤky	ˤky(I)/	ʕky (I)	TN	ʿky (I)	
+157912	ˤky	ˤky(I)/	ʕky (I)	TN sg.	ʿky (I)	
 157913	ˤryt	ˤry[t	/ʕ-r-y/	vb G suffc. 1 c. sg.	to be naked	
 # KTU 2.38 26						
 157914	w	w	w	conj.	and	

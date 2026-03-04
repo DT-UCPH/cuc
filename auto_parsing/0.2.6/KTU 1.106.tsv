@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.106 1						
 152802	l	l(I)	l (I)	prep.	to	
-152803	ršp	ršp/	ršp	DN	Rašap	
+152803	ršp	ršp/	ršp	DN sg.	Rašap	
 152804	ḥgb	ḥgb/	ḥgb	n. m. sg.	locust	
 152805	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
 # KTU 1.106 2						
@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152808	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 152809	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 # KTU 1.106 3						
-152810	ydbil	ydbil/	ydbỉl	PN	to be generous	
+152810	ydbil	ydbil/	ydbỉl	PN sg.	to be generous	
 152811	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 152811	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 152811	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152814	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 152814	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 # KTU 1.106 5						
-152815	ˤmtr	ˤmtr/	ʕmtr	PN	ʿmtr	
+152815	ˤmtr	ˤmtr/	ʕmtr	PN sg.	ʿmtr	
 152816	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 152816	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 152816	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
@@ -31,8 +31,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152818	w	w	w	conj.	and	
 152819	š	š/	š	n. m. sg.	ram	
 152820	l	l(I)	l (I)	prep.	to	
-152821	ršp	ršp/	ršp	DN	Rašap	
-152822	mhbn	mhbn/	mhbn	TN	Gedanke	
+152821	ršp	ršp/	ršp	DN sg.	Rašap	
+152822	mhbn	mhbn/	mhbn	TN sg.	Gedanke	
 # KTU 1.106 7						
 152823	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 152824	ˤṣrml	?	?	?	?	DULAT: NOT FOUND
@@ -218,7 +218,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152917	l	l(I)	l (I)	prep.	to	
 152917	l	l(III)	l (III)	functor	certainly	
 152918	arṣy	arṣ/+y	ảrṣ	n. f. cstr.	earth	
-152918	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
+152918	arṣy	arṣy/	ảrṣy	DN sg.	Arṣay/Arsay	
 152919	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 152919	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 152920	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	

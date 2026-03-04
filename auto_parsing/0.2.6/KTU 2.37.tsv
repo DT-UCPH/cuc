@@ -9,7 +9,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.37 4						
 157822	mxxx	?	?	?	?	DULAT: NOT FOUND
 157823	td	ndd[	/n-d-d/	vb G prefc.	to go	
-157823	td	ydy(I)[	/y-d-y/ (I)	vb G prefc.	to throw	
+157823	td	!t!(yd(y[	/y-d-y/ (I)	vb G prefc. 3 f. sg.	to throw	
+157823	td	!t=!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 m. sg.	to throw	
+157823	td	!t==!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 f. sg.	to throw	
+157823	td	!t!(yd(y[	/y-d-y/ (I)	vb G prefc. 3 m. du.	to throw	
+157823	td	!t!(yd(y[:w	/y-d-y/ (I)	vb G prefc. 3 m. pl.	to throw	
+157823	td	!t===!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 m. pl.	to throw	
 157823	td	nd[	/n-d(-y)/	vb G prefc.	to throw	
 # KTU 2.37 5						
 157824	ˤl	ˤl(I)	ʕl (I)	prep.	upon	

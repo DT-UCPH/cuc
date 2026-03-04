@@ -1,11 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 1						
 158916	tḥm	tḥm/	tḥm	n. m. sg.	message	
-158917	tlmyn	tlmyn/	tlmyn	PN	tlmyn	
+158917	tlmyn	tlmyn/	tlmyn	PN sg.	tlmyn	
 # KTU 2.71 2						
 158918	l	l(I)	l (I)	prep.	to	
 158918	l	l(III)	l (III)	functor	certainly	
-158919	pzy	pzy/	pzy	PN	pzy	
+158919	pzy	pzy/	pzy	PN sg.	pzy	
 158920	rmgm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.71 3						
 158921	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
@@ -25,6 +25,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158928	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158928	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158928	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158928	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158928	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158928	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158928	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158928	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.71 7						
 158929	ṯmny	ṯm	ṯm	adv.	there	

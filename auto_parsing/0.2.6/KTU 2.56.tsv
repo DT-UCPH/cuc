@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158559	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
 158559	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.56 3						
-158560	rtm	rt/+m(I)	rt	PN cstr.	rt	
+158560	rtm	rt/+m(I)	rt	PN sg. cstr.	rt	
 # KTU 2.56 4						
 158561	hnny	hn+ny	hn	functor	behold!	
 158561	hnny	hnny	hnny	adv.	here	
@@ -23,6 +23,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158565	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158565	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158565	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158565	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158565	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158565	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158565	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158565	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.56 6						
 158566	ṯmny	ṯm	ṯm	adv.	there	
@@ -32,4 +36,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158569	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158569	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158569	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158569	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158569	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158569	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158569	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158569	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	

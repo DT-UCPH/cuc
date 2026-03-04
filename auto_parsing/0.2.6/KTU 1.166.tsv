@@ -75,10 +75,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155508	wi	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 22						
 155509	rḥ	rḥ(I)/	rḥ (I)	n. f. sg.	wind	
-155510	arr	arr/	ảrr	TN	district	
+155510	arr	arr/	ảrr	TN sg.	district	
 # KTU 1.166 23						
 155511	ydnm	!y!dn[+m(I)	/d-n/	vb G prefc. 3 m. sg.	to judge	
-155511	ydnm	ydnm/	ydnm	PN	ydnm	
+155511	ydnm	ydnm/	ydnm	PN sg.	ydnm	
 155511	ydnm	!y!(ydn[+m(I)	/y-d-n/	vb G prefc. 3 m. sg.	?	
 155512	ap	ap(I)	ảp (I)	adv./conj.	also	
 155512	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
@@ -89,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155515	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 155515	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.166 25						
-155516	gṯrn	gṯr/	gṯr	DN	Gaṯaru/Gašru/eponym of the dead and deified kings	
+155516	gṯrn	gṯr/	gṯr	DN sg.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 155517	ylk	hlk[	/h-l-k/	vb G prefc.	to go	
 # KTU 1.166 26						
 155518	tḥt	tḥt(I)	tḥt (I)	prep.	under	

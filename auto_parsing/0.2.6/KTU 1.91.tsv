@@ -21,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151226	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 151226	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
 151226	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg.	to sacrifice	
-151227	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+151227	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.91 4						
 151228	tzġm	tzġ/m	tzġ	n. m. pl.	kind of sacrificial meat	
 # KTU 1.91 5						
@@ -33,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151230	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 151231	bldn	bld/+n	bld	n. m. cstr.	land	
 # KTU 1.91 7						
-151232	pdry	pdry/	pdry	DN	Pidray	
+151232	pdry	pdry/	pdry	DN sg.	Pidray	
 151232	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 151233	bt	bt(II)/	bt (II)	n. m. sg.	house	
 151233	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
@@ -99,7 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 15						
 151258	b	b	b	prep.	in	
 151259	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr.	(sacrificial) pit	
-151260	ršp	ršp/	ršp	DN	Rašap	
+151260	ršp	ršp/	ršp	DN sg.	Rašap	
 151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. pl.	army	
 151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. sg.	army	
 151261	ṣbi	ṣb(u(II)/&i	ṣbủ (II)	n. m. sg.	setting	
@@ -113,7 +113,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151265	xxxxx	?	?	?	?	
 151266	ṣmdt	?	?	?	?	DULAT: NOT FOUND
 151267	rxš	?	?	?	?	DULAT: NOT FOUND
-151268	pdġy	pdġy/	pdġy	PN	pdġy	
+151268	pdġy	pdġy/	pdġy	PN sg.	pdġy	
 # KTU 1.91 19						
 151269	xxxxx	?	?	?	?	
 # KTU 1.91 20						
@@ -127,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151273	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 22						
 151274	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg.	massif	
-151275	gngnt	gngnt/	gngnt	TN	gngnt	
+151275	gngnt	gngnt/	gngnt	TN sg.	gngnt	
 151276	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 151276	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 151276	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
@@ -140,11 +140,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 151280	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 24						
-151281	nnu	nnu(II)/	nnủ (II)	TN	nnủ (II)	
+151281	nnu	nnu(II)/	nnủ (II)	TN sg.	nnủ (II)	
 151282	arbˤ	arbˤ/	ảrbʕ	num.	four	
 151283	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 25						
-151284	šql	šql/	šql	TN	šql	
+151284	šql	šql/	šql	TN sg.	šql	
 151285	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 151285	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 151285	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
@@ -156,15 +156,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151288	kdm	kd(I)/m	kd (I)	n. f. pl.	jar	
 151289	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 27						
-151290	šmgy	šmgy/	šmgy	TN	šmgy	
+151290	šmgy	šmgy/	šmgy	TN sg.	šmgy	
 151291	kd	kd(I)/	kd (I)	n. f. sg.	jar	
 151292	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 28						
-151293	hzp	hzp/	hzp	TN	hzp	
+151293	hzp	hzp/	hzp	TN sg.	hzp	
 151294	tšˤ	tšˤ/	tšʕ	num.	nine	
 151295	yn	yn/	yn	n. m. sg.	wine	
 # KTU 1.91 29						
-151296	bir	bir/	bỉr	TN/n. f.	biʾiru	
+151296	bir	bir/	bỉr	TN/n. f. sg.	biʾiru	
 151297	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
 151297	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
 151297	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
@@ -173,8 +173,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151299	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
 151300	ḥsp	ḥsp/	ḥsp	adj. m. sg.	decanted	
 # KTU 1.91 30						
-151301	ḫpty	ḫpty/	ḫb/pt(y)	TN	ḫb/pt(y)	Based on DULAT reconstruction.
-151301	ḫpty	ḫpt/+y	ḫpt	TN cstr.	ḫpt	Based on DULAT reconstruction.
+151301	ḫpty	ḫpty/	ḫb/pt(y)	TN sg.	ḫb/pt(y)	Based on DULAT reconstruction.
+151301	ḫpty	ḫpt/+y	ḫpt	TN sg. cstr.	ḫpt	Based on DULAT reconstruction.
 151301	ḫpty	ḫpty	ḫpty	→	?	
 151302	kdm	kd(I)/m	kd (I)	n. f. pl.	jar	
 151303	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
@@ -190,7 +190,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151309	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151309	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	
 # KTU 1.91 33						
-151310	rqd	rqd/	rqd	TN	rqd	
+151310	rqd	rqd/	rqd	TN sg.	rqd	
 151310	rqd	rq(II)/+d	rq (II)	adj. m. cstr.	fine, ?	
 151311	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 151311	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
@@ -200,7 +200,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151313	w	w	w	conj.	and	
 151314	x	?	?	?	?	
 # KTU 1.91 34						
-151315	uḫnp	uḫnp/	ủḫnp	TN	ủḫnp	
+151315	uḫnp	uḫnp/	ủḫnp	TN sg.	ủḫnp	
 151316	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 151317	mṣb	mṣb(II)/	mṣb (II)	n. m. sg.	place in which something is put	
 151317	mṣb	mṣb(I)/	mṣb (I)	n. m. sg.	beam	

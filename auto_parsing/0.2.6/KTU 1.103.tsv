@@ -5,7 +5,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152308	ṯknt	ṯkn(t/t=	ṯknt	n. f. pl.	appearance	
 152309	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg.	ewe	
 152310	k	k(III)	k (III)	Subordinating or completive functor	when	
-152311	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+152311	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
+152311	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
+152311	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to)	
+152311	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to)	
+152311	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
+152311	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 152312	at	at(I)	ảt (I)	pers. pn.	you	
 152312	at	ṯa(t/t	ṯảt	n. f. sg.	ewe	
 152312	at	a(t(II)/t	ảt (II)	n. f. sg.	prodigious	
@@ -285,13 +290,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152473	ib	ib(I)/	ỉb (I)	n. m. sg. cstr.	enemy	
 152473	ib	ib(II)/	ỉb (II)	n. m. sg.	fruit	
 152473	ib	ib(II)/	ỉb (II)	n. m. sg. cstr.	fruit	
-152474	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
-152474	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish	
-152474	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish	
-152474	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 m. du.	to perish	
 152474	tḫlq	!t!ḫlq[:w	/ḫ-l-q/	vb G prefc. 3 m. pl.	to perish	
-152474	tḫlq	!t===!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. pl.	to perish	
-152474	tḫlq	tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 # KTU 1.103 35						
 152475	w	w	w	conj.	and	
 152476	in	in/	ỉn	n. m. sg.	lack of	
@@ -334,7 +333,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152503	y	y	y	prep. functor	oh!	
 152504	ykly	!y!kly[	/k-l-y/	vb G prefc. 3 m. sg.	to finish	
 152504	ykly	!y!kly[:d	/k-l-y/	vb D prefc. 3 m. sg.	to finish	
-152505	ršp	ršp/	ršp	DN	Rašap	
+152505	ršp	ršp/	ršp	DN sg.	Rašap	
 # KTU 1.103 41						
 152506	w	w	w	conj.	and	
 152507	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -411,6 +410,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 49						
 152551	w	w	w	conj.	and	
 152552	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
+152552	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
+152552	bhl	bhl[:dt=	/b-h-l/	vb D suffc. 2 m. sg.	to dismiss	
+152552	bhl	bhl[:dt==	/b-h-l/	vb D suffc. 2 f. sg.	to dismiss	
+152552	bhl	bhl[:dt	/b-h-l/	vb D suffc. 1 c. sg.	to dismiss	
 152553	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 152554	ˤnh	ˤn(I)/h	ʕn (I)	n. f. du. abs.	eye	
 152555	w	w	w	conj.	and	
@@ -518,10 +521,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152625	ib	ib(I)/	ỉb (I)	n. m. sg. cstr.	enemy	
 152625	ib	ib(II)/	ỉb (II)	n. m. sg.	fruit	
 152625	ib	ib(II)/	ỉb (II)	n. m. sg. cstr.	fruit	
-152626	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
-152626	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish	
-152626	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish	
-152626	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 m. du.	to perish	
 152626	tḫlq	!t!ḫlq[:w	/ḫ-l-q/	vb G prefc. 3 m. pl.	to perish	
-152626	tḫlq	!t===!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. pl.	to perish	
-152626	tḫlq	tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	

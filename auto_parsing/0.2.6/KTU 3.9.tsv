@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161191	qny	qny[/	/q-n-y/	vb G act. ptcpl. m. sg.	to acquire	
 # KTU 3.9 3						
 161192	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr.	heavens	
-161192	šmmn	šmmn/	šmmn	PN	šmmn	
+161192	šmmn	šmmn/	šmmn	PN sg.	šmmn	
 # KTU 3.9 4						
 161193	b	b	b	prep.	in	
 161194	btw	bt(II)/	bt (II)	n. m.	house	
@@ -60,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161217	l	l(III)	l (III)	functor	certainly	
 # KTU 3.9 15						
 161218	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr.	heavens	
-161218	šmmn	šmmn/	šmmn	PN	šmmn	
+161218	šmmn	šmmn/	šmmn	PN sg.	šmmn	
 161219	tn	(ytn[	/y-t-n/	vb	give	
 161219	tn	(ytn[/	/y-t-n/	vb	give	
 # KTU 3.9 16						
@@ -89,4 +89,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161231	bn	bn(II)	bn (II)	prep.	between	
 161231	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161231	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161232	sgld	sgld/	sgld	PN	sgld	
+161232	sgld	sgld/	sgld	PN sg.	sgld	

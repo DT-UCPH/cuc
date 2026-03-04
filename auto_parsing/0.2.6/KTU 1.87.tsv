@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150796	b	b	b	prep.	in	
 150797	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
 150797	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
-150798	rišyn	rišy/+n	rỉšy	GN cstr.	rỉšy	
+150798	rišyn	rišy/+n	rỉšy	GN sg. cstr.	rỉšy	
 150799	b	b	b	prep.	in	
 150800	ym	ym(I)/	ym (I)	n. m. sg.	day	
 150800	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -57,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150828	š	š/	š	n. m. sg.	ram	
 # KTU 1.87 7						
 150829	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
-150830	ilš	ilš(I)/	ỉlš (I)	DN	ỉlš (I)	
+150830	ilš	ilš(I)/	ỉlš (I)	DN sg.	ỉlš (I)	
 150831	šilhm	š(ʔ&il[+hm	/š-ʔ-l/	vb G prefc.	to ask	
 150831	šilhm	šil(I)/+hm	šỉl (I)	n. m. cstr.	interrogator	
 150832	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
@@ -121,17 +121,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150863	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 150864	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr.	god	
 150864	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr.	goddess	
-150864	ilhm	ilh/+m(I)	ỉlh	DN cstr.	the ‘Divine One’	
+150864	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr.	the ‘Divine One’	
 # KTU 1.87 14						
-150865	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+150865	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 150865	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
 150866	w	w	w	conj.	and	
-150867	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+150867	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 150867	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 150868	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 150868	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 150868	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
-150869	ršp	ršp/	ršp	DN	Rašap	
+150869	ršp	ršp/	ršp	DN sg.	Rašap	
 150870	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 150870	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 150870	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
@@ -152,13 +152,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 16						
 150879	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr.	god	
 150879	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr.	goddess	
-150879	ilhm	ilh/+m(I)	ỉlh	DN cstr.	the ‘Divine One’	
+150879	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr.	the ‘Divine One’	
 150880	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 150880	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150880	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 150881	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr.	god	
 150881	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr.	goddess	
-150881	ilhm	ilh/+m(I)	ỉlh	DN cstr.	the ‘Divine One’	
+150881	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr.	the ‘Divine One’	
 150882	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 150882	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 150882	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
@@ -166,17 +166,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150884	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg.	back part (of the head)	
 150885	š	š/	š	n. m. sg.	ram	
 # KTU 1.87 17						
-150886	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+150886	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 150886	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
 150887	w	w	w	conj.	and	
-150888	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+150888	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 150888	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 150889	š	š/	š	n. m. sg.	ram	
 150890	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 150890	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 150890	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 150891	š	š/	š	n. m. sg.	ram	
-150892	ršp	ršp/	ršp	DN	Rašap	
+150892	ršp	ršp/	ršp	DN sg.	Rašap	
 150893	š	š/	š	n. m. sg.	ram	
 150894	dr	dr/	dr	n. m. pl. cstr.	circle	
 150894	dr	dr/	dr	n. m. sg.	circle	
@@ -195,6 +195,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150900	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 150900	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 150900	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+150900	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+150900	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+150900	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+150900	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 150900	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 150901	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 150901	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
@@ -206,7 +210,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150905	rmṣt	rmṣ/t=	rmṣ	n. f. pl.	embers	
 150906	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr.	god	
 150906	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr.	goddess	
-150906	ilhm	ilh/+m(I)	ỉlh	DN cstr.	the ‘Divine One’	
+150906	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr.	the ‘Divine One’	
 # KTU 1.87 20						
 150907	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	lord	
 150908	w	w	w	conj.	and	
@@ -218,7 +222,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 21						
 150913	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 150914	w	w	w	conj.	and	
-150915	mˤrb	mˤrb/	mʕrb(y)	TN	mʿrb(y)	
+150915	mˤrb	mˤrb/	mʕrb(y)	TN sg.	mʿrb(y)	
 150915	mˤrb	mˤrb(I)/	mʕrb (I)	n. m. sg.	tribute-offering	
 150915	mˤrb	mˤrb(II)/	mʕrb (II)	n. m. sg.	sunset	
 150916	d	d	d	det. or rel. functor	the one(s) of	
@@ -275,7 +279,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150945	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
 150946	l	l(I)	l (I)	prep.	to	
 # KTU 1.87 27						
-150947	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+150947	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 150948	š	š/	š	n. m. sg.	ram	
 150949	l	l(I)	l (I)	prep.	to	
 150949	l	l(III)	l (III)	functor	certainly	
@@ -316,7 +320,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150967	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 150968	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr.	god	
 150968	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr.	goddess	
-150968	ilhm	ilh/+m(I)	ỉlh	DN cstr.	the ‘Divine One’	
+150968	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr.	the ‘Divine One’	
 150969	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 150969	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 150969	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
@@ -326,7 +330,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150971	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 150971	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150971	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
-150972	ršp	ršp/	ršp	DN	Rašap	
+150972	ršp	ršp/	ršp	DN sg.	Rašap	
 150973	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 # KTU 1.87 32						
 150974	w	w	w	conj.	and	
@@ -343,13 +347,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 33						
 150980	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr.	god	
 150980	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr.	goddess	
-150980	ilhm	ilh/+m(I)	ỉlh	DN cstr.	the ‘Divine One’	
+150980	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr.	the ‘Divine One’	
 150981	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 150981	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 150981	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 150982	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr.	god	
 150982	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr.	goddess	
-150982	ilhm	ilh/+m(I)	ỉlh	DN cstr.	the ‘Divine One’	
+150982	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr.	the ‘Divine One’	
 150983	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 150983	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 150983	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
@@ -360,7 +364,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150985	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 150985	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 150986	w	w	w	conj.	and	
-150987	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+150987	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 150987	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 150988	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 150988	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
@@ -384,19 +388,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150998	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 150999	l	l(I)	l (I)	prep.	to	
 151000	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
-151001	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+151001	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 151002	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 151002	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 151002	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
 # KTU 1.87 37						
 151003	l	l(I)	l (I)	prep.	to	
-151004	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+151004	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 151005	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 151005	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 151005	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 151006	lbˤl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 38						
-151007	ugrt	ugrt/	ủgrt	TN	Ugarit	
+151007	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 151008	š	š/	š	n. m. sg.	ram	
 151009	lilib	?	?	?	?	DULAT: NOT FOUND
 151010	ġ	?	?	?	?	DULAT: NOT FOUND
@@ -405,7 +409,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151012	l	l(III)	l (III)	functor	certainly	
 151013	aṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 39						
-151014	rt	rt/	rt	PN	rt	
+151014	rt	rt/	rt	PN sg.	rt	
 151015	w	w	w	conj.	and	
 151016	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
 151017	lri	?	?	?	?	DULAT: NOT FOUND
@@ -467,13 +471,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151047	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 151048	l	l(I)	l (I)	prep.	to	
 151049	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
-151050	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+151050	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 151051	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 151051	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 151051	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
 # KTU 1.87 46						
 151052	l	l(I)	l (I)	prep.	to	
-151053	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+151053	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 151054	wdqt	?	?	?	?	DULAT: NOT FOUND
 151055	lṯn	?	?	?	?	DULAT: NOT FOUND
 151056	l	l(I)	l (I)	prep.	to	
@@ -565,7 +569,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151099	šm	š/m	š	n. m. pl.	ram	
 151099	šm	šm(I)/	šm (I)	n. m. sg.	name	
 151100	l	l(I)	l (I)	prep.	to	
-151101	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+151101	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 151102	xxxtx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 54						
 151103	b	b	b	prep.	in	
@@ -575,7 +579,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151106	arbˤt	arbˤ/	ảrbʕ	num.	four	
 151107	ˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 55						
-151108	rt	rt/	rt	PN	rt	
+151108	rt	rt/	rt	PN sg.	rt	
 151109	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash	
 151110	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 151110	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
@@ -605,18 +609,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151123	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 151123	bn	bn[	/b-n/	vb G impv. 2	to understand	
 151124	aupšw	?	?	?	?	DULAT: NOT FOUND
-151125	bs	bs/	bs	PN	bs	
+151125	bs	bs/	bs	PN sg.	bs	
 151126	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 151126	bn	bn(I)/	bn (I)	n. m. sg.	son	
 151126	bn	bn(II)	bn (II)	prep.	between	
 151126	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 151126	bn	bn[	/b-n/	vb G impv. 2	to understand	
-151127	hzpḫ	hzpy(I)/	hzpy (I)	GN	hzpy (I)	Based on DULAT reconstruction.
-151127	hzpḫ	hzpy(II)/	hzpy (II)	PN	hzpy (II)	Based on DULAT reconstruction.
+151127	hzpḫ	hzpy(I)/	hzpy (I)	GN sg.	hzpy (I)	Based on DULAT reconstruction.
+151127	hzpḫ	hzpy(II)/	hzpy (II)	PN sg.	hzpy (II)	Based on DULAT reconstruction.
 151127	hzpḫ	hzpḫ	hzpḫ	→	?	
 151128	ṯlṯṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 59						
-151129	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
+151129	kṯr	kṯr(III)/	kṯr (III)	DN/element sg.	Koṯaru/Kothar	
 151130	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 151130	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 151131	bnytrt	?	?	?	?	DULAT: NOT FOUND
@@ -626,13 +630,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151133	bn	bn(II)	bn (II)	prep.	between	
 151133	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 151133	bn	bn[	/b-n/	vb G impv. 2	to understand	
-151134	gdaḫ	gdaḫ/	gdaḫ	PN	gdaḫ	
+151134	gdaḫ	gdaḫ/	gdaḫ	PN sg.	gdaḫ	
 151135	tšˤ	tšˤ/	tšʕ	num.	nine	
 # KTU 1.87 60						
 151136	klxxxxxyt	?	?	?	?	DULAT: NOT FOUND
 151137	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
-151138	krwn	krwn/	krwn	PN	krwn	
-151138	krwn	krw/+n	krw	PN cstr.	krw	
+151138	krwn	krwn/	krwn	PN sg.	krwn	
+151138	krwn	krw/+n	krw	PN sg. cstr.	krw	
 # KTU 1.87 61						
 151139	xmxxxxṣp	?	?	?	?	DULAT: NOT FOUND
 151140	iryṯlṯt	?	?	?	?	DULAT: NOT FOUND

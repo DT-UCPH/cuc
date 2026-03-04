@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156073	il	il(I)/	ỉl (I)	n. m. sg.	god	
 156073	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 156074	ṯmk	ṯm+k	ṯm	adv.	there	
-156074	ṯmk	ṯmk/	ṯmk	TN	Bitterkraut	
+156074	ṯmk	ṯmk/	ṯmk	TN sg.	Bitterkraut	
 # KTU 1.179 3						
 156075		?	?	?	?	
 156076	w	w	w	conj.	and	
@@ -74,11 +74,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156108	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 156108	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 156109	w	w	w	conj.	and	
-156110	pdry	pdry/	pdry	DN	Pidray	
+156110	pdry	pdry/	pdry	DN sg.	Pidray	
 156110	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 156111	kbkb	kbkb/	kbkb	n. m. sg.	heavenly body	
 # KTU 1.179 11						
-156112	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
+156112	kṯr	kṯr(III)/	kṯr (III)	DN/element sg.	Koṯaru/Kothar	
 156113	w	w	w	conj.	and	
 156114	yss	?	?	?	?	DULAT: NOT FOUND
 156115	kbkb	kbkb/	kbkb	n. m. sg.	heavenly body	
@@ -141,10 +141,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156146	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.179 18						
 156147	nḫl	nḫl(I)/	nḫl (I)	n. m. sg.	torrent	
-156148	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+156148	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 156149	b	b	b	prep.	in	
 156150	rḥbn	rḥb(I)/+n	rḥb (I)	adj. m. cstr.	wide	
-156150	rḥbn	rḥbn/	rḥbn	TN	) ra-(aḫ -) ba/bá-ni/na	
+156150	rḥbn	rḥbn/	rḥbn	TN sg.	) ra-(aḫ -) ba/bá-ni/na	
 # KTU 1.179 19						
 156151	xarr	?	?	?	?	DULAT: NOT FOUND
 156152	b	b	b	prep.	in	
@@ -234,7 +234,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 33						
 156196	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
 156196	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
-156197	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
+156197	ḥrn	ḥrn/	ḥrn	DN sg.	Ḥôrānu	
 156197	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr.	intestine(s)	
 156198	bth	bt(II)/+h	bt (II)	n. m. cstr.	house	
 156199	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
@@ -244,8 +244,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156201	w	w	w	conj.	and	
 156202	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 156203	mx	?	?	?	?	DULAT: NOT FOUND
-156204	bbt	bbt(II)/	bbt (II)	DN	superintendent	
-156204	bbt	bbt(I)/	bbt (I)	TN	bbt (I)	
+156204	bbt	bbt(II)/	bbt (II)	DN sg.	superintendent	
+156204	bbt	bbt(I)/	bbt (I)	TN sg.	bbt (I)	
 # KTU 1.179 34						
 156205	xxxx	?	?	?	?	
 156206	ḥdr	ḥdr/	ḥdr	n. m. sg.	room	
@@ -333,12 +333,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156250	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 156250	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 156250	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
-156251	ilmlk	ilmlk/	ỉlmlk	PN	ʾIlimalku/Ilimilku/Elimelek	
+156251	ilmlk	ilmlk/	ỉlmlk	PN sg.	ʾIlimalku/Ilimilku/Elimelek	
 156252	šbny	šbny/	šbny	GN m. sg.	Shubanite	
 156253	lmd	lmd/	lmd	adj. m. pl. cstr.	trained	
 156253	lmd	lmd/	lmd	adj. m. sg.	trained	
 156253	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
-156254	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+156253	lmd	lmd[:d:w	/l-m-d/	vb D suffc. 3 m. pl.	to teach	
+156253	lmd	lmd[:dt=	/l-m-d/	vb D suffc. 2 m. sg.	to teach	
+156253	lmd	lmd[:dt==	/l-m-d/	vb D suffc. 2 f. sg.	to teach	
+156253	lmd	lmd[:dt	/l-m-d/	vb D suffc. 1 c. sg.	to teach	
+156254	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 156255	prln	prln/	prln	n. m. sg.	diviner	
 # KTU 1.179 41						
 156256	r	?	?	?	?	DULAT: NOT FOUND

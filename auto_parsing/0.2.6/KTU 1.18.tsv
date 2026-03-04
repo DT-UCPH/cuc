@@ -37,7 +37,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145164	tšmḫ	!t!šmḫ[	/š-m-ḫ/	vb G prefc. 3 m. du.	to be glad	
 145164	tšmḫ	!t!šmḫ[:w	/š-m-ḫ/	vb G prefc. 3 m. pl.	to be glad	
 145164	tšmḫ	!t===!šmḫ[	/š-m-ḫ/	vb G prefc. 2 m. pl.	to be glad	
-145164	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc.	to be glad	
+145164	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc. 3 f. sg.	to be glad	
+145164	tšmḫ	!t=!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 m. sg.	to be glad	
+145164	tšmḫ	!t==!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 f. sg.	to be glad	
+145164	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc. 3 m. du.	to be glad	
+145164	tšmḫ	!t!šmḫ[:d:w	/š-m-ḫ/	vb D prefc. 3 m. pl.	to be glad	
+145164	tšmḫ	!t===!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 m. pl.	to be glad	
 145165	xxxxxxxxx	?	?	?	?	
 # KTU 1.18 I:9						
 145166	xxxxx	?	?	?	?	
@@ -60,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145180	mmˤm	mmˤ/m	mmʕ	n. m. pl.	gore	
 145181	wxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 I:13						
-145182	aqht	aqht/	ảqht	PN	Most Obedient	
+145182	aqht	aqht/	ảqht	PN sg.	Most Obedient	
 145183	w	w	w	conj.	and	
 145184	yplṭk	!y!plṭ[k:d	/p-l-ṭ/	vb D prefc. 3 m. sg.	to be safe	
 145184	yplṭk	yplṭk[	/p-l-ṭ/	vb D suffc. 3 m. sg.	to be safe	
@@ -136,11 +141,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145230	l	l(I)	l (I)	prep.	to	
 145230	l	l(II)	l (II)	adv.	no	
 145230	l	l(III)	l (III)	functor	certainly	
-145231	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
+145231	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
 145232	pnm	pn(m/m	pnm	n. m. pl.	face	
 # KTU 1.18 I:21						
 145233	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-145234	aqht	aqht/	ảqht	PN	Most Obedient	
+145234	aqht	aqht/	ảqht	PN sg.	Most Obedient	
 145235	ġzr	ġzr/	ġzr	n. m. sg.	lad	
 145236	b	b	b	prep.	in	
 145237	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
@@ -219,10 +224,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145285	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 145286	ablm	ybl[+m(I)	/y-b-l/	vb G prefc.	to carry	
 145286	ablm	ybl[+m(I)	/y-b-l/	vb G suffc.	to carry	
-145286	ablm	ablm/	ảblm	TN	meadows	
+145286	ablm	ablm/	ảblm	TN sg.	meadows	
 145287	ablm	ybl[+m(I)	/y-b-l/	vb G prefc.	to carry	
 145287	ablm	ybl[+m(I)	/y-b-l/	vb G suffc.	to carry	
-145287	ablm	ablm/	ảblm	TN	meadows	
+145287	ablm	ablm/	ảblm	TN sg.	meadows	
 # KTU 1.18 I:31						
 145288	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 145289	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr.	prince	
@@ -271,7 +276,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145319	l	l(I)	l (I)	prep.	to	
 145319	l	l(II)	l (II)	adv.	no	
 145319	l	l(III)	l (III)	functor	certainly	
-145320	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
+145320	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
 145321	pnm	pn(m/m	pnm	n. m. pl.	face	
 # KTU 1.18 IV:6						
 145322	ˤm	ˤm(I)	ʕm (I)	prep.	to	
@@ -297,10 +302,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145333	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 145334	ablm	ybl[+m(I)	/y-b-l/	vb G prefc.	to carry	
 145334	ablm	ybl[+m(I)	/y-b-l/	vb G suffc.	to carry	
-145334	ablm	ablm/	ảblm	TN	meadows	
+145334	ablm	ablm/	ảblm	TN sg.	meadows	
 145335	ablm	ybl[+m(I)	/y-b-l/	vb G prefc.	to carry	
 145335	ablm	ybl[+m(I)	/y-b-l/	vb G suffc.	to carry	
-145335	ablm	ablm/	ảblm	TN	meadows	
+145335	ablm	ablm/	ảblm	TN sg.	meadows	
 145336	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 145337	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr.	prince	
 145337	zbl	zbl(I)/	zbl (I)	n. m. sg.	prince	
@@ -411,7 +416,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145397	diy	diy(I)/	dỉy (I)	n. m. sg.	hawk	
 145398	b	b	b	prep.	in	
 145399	tˤrty	tˤr(t/t+y	tʕrt	n. f. sg. cstr.	sheath	
-145400	aqht	aqht/	ảqht	PN	Most Obedient	
+145400	aqht	aqht/	ảqht	PN sg.	Most Obedient	
 145401	km	k(III)	k (III)	functor	when	
 145401	km	k(I)	k (I)	prep.	like	
 145401	km	k(IV)	k (IV)	adv.	thus	
@@ -435,7 +440,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145406	bn	bn(II)	bn (II)	prep.	between	
 145406	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 145406	bn	bn[	/b-n/	vb G impv. 2	to understand	
-145407	dnil	dnil/	dnỉl	PN	Raphaite	
+145407	dnil	dnil/	dnỉl	PN sg.	Raphaite	
 145408	l	l(I)	l (I)	prep.	to	
 145408	l	l(III)	l (III)	functor	certainly	
 145409	ṯrmˤlh	?	?	?	?	DULAT: NOT FOUND
@@ -456,7 +461,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145420	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 145420	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 # KTU 1.18 IV:22						
-145421	aqht	aqht/	ảqht	PN	Most Obedient	
+145421	aqht	aqht/	ảqht	PN sg.	Most Obedient	
 145422	ˤdbk	ˤdb[k	/ʕ-d-b/	vb G suffc.	to leave > to put in	
 145422	ˤdbk	!!ˤdb[/k	/ʕ-d-b/	vb G inf.	to leave > to put in	
 145423	hlmn	hlm[n	/h-l-m/	vb G prefc.	to hit	
@@ -532,7 +537,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:29						
 145465	b	b	b	prep.	in	
 145466	tˤrth	tˤr(t/t+h	tʕrt	n. f. sg. cstr.	sheath	
-145467	aqht	aqht/	ảqht	PN	Most Obedient	
+145467	aqht	aqht/	ảqht	PN sg.	Most Obedient	
 145468	km	km	km	prep./conj./adv.		
 145469	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 145469	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
@@ -547,7 +552,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145472	bn	bn(II)	bn (II)	prep.	between	
 145472	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 145472	bn	bn[	/b-n/	vb G impv. 2	to understand	
-145473	dnil	dnil/	dnỉl	PN	Raphaite	
+145473	dnil	dnil/	dnỉl	PN sg.	Raphaite	
 145474	l	l(I)	l (I)	prep.	to	
 145474	l	l(II)	l (II)	adv.	no	
 145474	l	l(III)	l (III)	functor	certainly	
@@ -567,10 +572,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145482	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 1.18 IV:32						
 145483	nšrm	nšr/m	nšr	n. m. pl.	bird of prey	
-145484	trḫp	!t!rḫp[:d	/r-ḫ-p/	vb D prefc.	to hover	
+145484	trḫp	!t!rḫp[:d:w	/r-ḫ-p/	vb D prefc. 3 m. pl.	to hover	
 145485	xˤnt	?	?	?	?	DULAT: NOT FOUND
 145486	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-145487	aqht	aqht/	ảqht	PN	Most Obedient	
+145487	aqht	aqht/	ảqht	PN sg.	Most Obedient	
 # KTU 1.18 IV:33						
 145488	tˤdbnh	!t!ˤdb[nh	/ʕ-d-b/	vb G prefc.	to leave > to put in	
 145488	tˤdbnh	tˤdbnh[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to leave > to put in	
@@ -635,14 +640,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145517	mhrh	mhr(II)/+h	mhr (II)	n. m. sg. cstr.	warrior strength	
 145518	xxxxx	?	?	?	?	
 # KTU 1.18 IV:39						
-145519	aqht	aqht/	ảqht	PN	Most Obedient	
+145519	aqht	aqht/	ảqht	PN sg.	Most Obedient	
 145520	w	w	w	conj.	and	
 145521	tbk	!t!bk(y[:w	/b-k-y/	vb G prefc. 3 m. pl.	to weep	
 145522	yld	!!yld[/	/y-l-d/	vb G inf.	to give birth (to)	
 145522	yld	yld[	/y-l-d/	vb N suffc. 3 m. sg.	to give birth (to)	
 145522	yld	yld/	yld	n. m. pl. cstr.	son	
 145522	yld	yld/	yld	n. m. sg.	son	
-145523	dnil	dnil/	dnỉl	PN	Raphaite	
+145523	dnil	dnil/	dnỉl	PN sg.	Raphaite	
 145524	xxx	?	?	?	?	
 # KTU 1.18 IV:40						
 145525	abn	!(ʔ&a!bn(y[	/b-n-y/	vb G prefc. 1 c. sg.	to build	

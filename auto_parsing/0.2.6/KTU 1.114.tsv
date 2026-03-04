@@ -80,17 +80,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153825	y	y	y	prep. functor	oh!	
 153826	lmn	l(I)+n	l (I)	prep.	to	
 153826	lmn	lm(II)+n	lm (II)	interr. pn.	why?	
-153826	lmn	lmn/	lmn	PN	lmn	
+153826	lmn	lmn/	lmn	PN sg.	lmn	
 153827	ḫṭm	ḫṭ/~m	ḫṭ	n. m. sg.	sceptre	
 153828	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 153829	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg.	table	
 # KTU 1.114 9						
-153830	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+153830	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 153831	w	w	w	conj.	and	
 153832	ˤnyt	?	?	?	?	DULAT: NOT FOUND
 153833	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come	
 # KTU 1.114 10						
-153834	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+153834	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 153835	tˤdb	?	?	?	?	DULAT: NOT FOUND
 153836	nšb	nšb/	nšb	n. m. sg.	slice	
 153837	lh	l(I)+h	l (I)	prep.	to	
@@ -186,15 +186,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153882	yˤmsn	yˤmsn[	/ʕ-m-s/	vb G suffc. 3 m. sg.	to load	
 153883	nn	grš[	/g-r-š/	vb	to eject	
 153883	nn	gr[	/g-r(-y)/	vb	to attack	
-153884	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+153884	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 153884	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
 # KTU 1.114 19						
 153885	w	w	w	conj.	and	
-153886	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+153886	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 153886	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 153887	w	w	w	conj.	and	
 153888	ngšnn	ngš[nn	/n-g-š/	vb G suffc.	to approach	
-153889	ḥby	ḥby(I)/	ḥby (I)	DN	Apis	
+153889	ḥby	ḥby(I)/	ḥby (I)	DN sg.	Apis	
 # KTU 1.114 20						
 153890	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 153890	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
@@ -245,7 +245,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153907	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.114 23						
 153908	w	w	w	conj.	and	
-153909	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+153909	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 153910	tṣdn	!t!ṣd[n	/ṣ-d/	vb G prefc.	to hunt	
 153911	šdxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.114 24						
@@ -260,7 +260,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153916	xxx	?	?	?	?	
 153917	xx	?	?	?	?	
 # KTU 1.114 26						
-153918	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+153918	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 153919	w	w	w	conj.	and	
 153920	ˤntxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.114 27						
@@ -291,7 +291,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153931	l	l(I)	l (I)	prep.	to	
 153931	l	l(III)	l (III)	functor	certainly	
 153932	lṣbh	lṣb/+h	lṣb	n. m. cstr.	brow	
-153933	ḫš	ḫš/	ḫš	DN	le dieu qui montre la solicitude	
+153933	ḫš	ḫš/	ḫš	DN sg.	le dieu qui montre la solicitude	
 153934	ˤrk	ˤrk(I)/	ʕrk (I)	n. m. sg.	bookkeeping account	
 153935	lb	lb/	lb	n. m. sg.	heart	
 # KTU 1.114 30						

@@ -20,7 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.8 3						
 156513	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 156513	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
-156514	ˤrym	ˤry/+m(I)	ʕry	TN cstr.	ʿry	
+156514	ˤrym	ˤry/+m(I)	ʕry	TN sg. cstr.	ʿry	
 156515	w	w	w	conj.	and	
 156516	k	+k	-k (I)			
 156516	k	~k	-k (II)			
@@ -45,7 +45,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156525	k	k(III)	k (III)	Subordinating or completive functor	when	
 156525	k	k(I)	k (I)	prep.	like	
 156525	k	k(II)	k (II)	emph. functor	yes	
-156526	ttn	ytn[	/y-t-n/	vb G prefc.	to give	
+156526	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give	
+156526	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give	
+156526	ttn	!t==!(ytn[	/y-t-n/	vb G prefc. 2 f. sg.	to give	
+156526	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give	
+156526	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
+156526	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give	
 156527	ly	l(I)+y	l (I)	prep.	to	
 156528	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 # KTU 2.8 6						

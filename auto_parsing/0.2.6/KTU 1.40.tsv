@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148051	npy	npy/	npy	n. m. sg.	purification	
 # KTU 1.40 2						
 148052	wnpy	?	?	?	?	DULAT: NOT FOUND
-148053	ugrt	ugrt/	ủgrt	TN	Ugarit	
+148053	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 1.40 3						
 148054	y	+y, [y	-y (I)	prep. functor	my	
 148054	y	~y	-y (II)	prep. functor	indeed	
@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148055	ulp	ulp	ủlp	→	?	
 148056		?	?	?	?	
 # KTU 1.40 4						
-148057	ġbr	ġbr/	ġbr	TN	nom propre	
+148057	ġbr	ġbr/	ġbr	TN sg.	nom propre	
 148058	ul	ul/	ủl	n. m. sg.	(military) force	
 148059	p	p(I)	p (I)	conj. functor	and	
 148059	p	p(III)/	p (III)	n. m. sg.	mouth	
@@ -42,6 +42,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148069	ab	ab/	ảb	n. m. sg. cstr.	father	
 148070	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148070	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148070	bn	bn(II)	bn (II)	prep.	between	
+148070	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148070	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148071	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148071	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148071	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -53,6 +56,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148074	dr	dr/	dr	n. m. sg.	circle	
 148075	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148075	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148075	bn	bn(II)	bn (II)	prep.	between	
+148075	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148075	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148076	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148076	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148076	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -63,16 +69,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148078	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
 148079	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148079	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148079	bn	bn(II)	bn (II)	prep.	between	
+148079	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148079	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148080	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148080	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148080	il	il(I)/	ỉl (I)	n. m. sg.	god	
 148080	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 148081	l	l(I)	l (I)	prep.	to	
 148081	l	l(III)	l (III)	functor	certainly	
-148082	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148082	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148082	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
 148083	w	w	w	conj.	and	
-148084	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+148084	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148084	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 148085	hn	hn	hn	functor	behold!	
 148086	š	š/	š	n. m. sg.	ram	
@@ -87,7 +96,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148091	bn	bn(II)	bn (II)	prep.	between	
 148091	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148091	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148092	ugrt	ugrt/	ủgrt	TN	Ugarit	
+148092	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 148093	w	w	w	conj.	and	
 148094	npyx	?	?	?	?	DULAT: NOT FOUND
 148095	w	w	w	conj.	and	
@@ -95,7 +104,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 10						
 148097	w	w	w	conj.	and	
 148098	npy	npy/	npy	n. m. sg.	purification	
-148099	ugrt	ugrt/	ủgrt	TN	Ugarit	
+148099	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 1.40 11						
 148100	u	u	ủ	conj.	or	
 148101	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
@@ -109,7 +118,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148108	u	u	ủ	conj.	or	
 148109	lp	?	?	?	?	DULAT: NOT FOUND
 148110	ḥry	ḥr(I)/+y	ḥr (I)	n. m. cstr.	intestine(s)	
-148110	ḥry	ḥry/	ḥry	PN	ḥry	
+148110	ḥry	ḥry/	ḥry	PN sg.	ḥry	
 148111	u	u	ủ	conj.	or	
 148112	lp	?	?	?	?	DULAT: NOT FOUND
 148113	ḫty	ḫty(I)/	ḫty (I)	GN sg.	Hittite	
@@ -118,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148116	alṯy	alṯy/	ảlṯy(y)	GN sg.	ảlṯy(y)	
 148117	u	u	ủ	conj.	or	
 148118	lp	?	?	?	?	DULAT: NOT FOUND
-148119	ġbr	ġbr/	ġbr	TN	nom propre	
+148119	ġbr	ġbr/	ġbr	TN sg.	nom propre	
 # KTU 1.40 13						
 148120	u	u	ủ	conj.	or	
 148121	lp	?	?	?	?	DULAT: NOT FOUND
@@ -128,7 +137,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148125	mdllkm	mdll+km	mdll	→	?	
 148126	u	u	ủ	conj.	or	
 148127	lp	?	?	?	?	DULAT: NOT FOUND
-148128	qrzbl	qrzbl/	qrzbl	TN	Fürstenquelle	
+148128	qrzbl	qrzbl/	qrzbl	TN sg.	Fürstenquelle	
 # KTU 1.40 14						
 148129	u	u	ủ	conj.	or	
 148130	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
@@ -172,6 +181,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148156	ab	ab/	ảb	n. m. sg. cstr.	father	
 148157	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148157	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148157	bn	bn(II)	bn (II)	prep.	between	
+148157	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148157	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148158	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148158	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148158	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -184,6 +196,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148161	dr	dr/	dr	n. m. sg.	circle	
 148162	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148162	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148162	bn	bn(II)	bn (II)	prep.	between	
+148162	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148162	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148163	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148163	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148163	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -193,16 +208,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148165	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
 148166	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148166	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148166	bn	bn(II)	bn (II)	prep.	between	
+148166	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148166	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148167	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148167	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148167	il	il(I)/	ỉl (I)	n. m. sg.	god	
 148167	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 148168	l	l(I)	l (I)	prep.	to	
 148168	l	l(III)	l (III)	functor	certainly	
-148169	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148169	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148169	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
 148170	w	w	w	conj.	and	
-148171	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+148171	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148171	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 148172	hn	hn	hn	functor	behold!	
 148173	š	š/	š	n. m. sg.	ram	
@@ -213,7 +231,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148176	gr	gr(I)/	gr (I)	n. m. sg.	protected	
 148176	gr	gr[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
 148177	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl.	wall	
-148178	ugrt	ugrt/	ủgrt	TN	Ugarit	
+148178	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 148179	w	w	w	conj.	and	
 148180	npy	npy/	npy	n. m. sg.	purification	
 # KTU 1.40 19						
@@ -242,7 +260,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148200	alṯy	alṯy/	ảlṯy(y)	GN sg.	ảlṯy(y)	
 148201	u	u	ủ	conj.	or	
 148202	lp	?	?	?	?	DULAT: NOT FOUND
-148203	ġbr	ġbr/	ġbr	TN	nom propre	
+148203	ġbr	ġbr/	ġbr	TN sg.	nom propre	
 # KTU 1.40 21						
 148204	u	u	ủ	conj.	or	
 148205	lp	?	?	?	?	DULAT: NOT FOUND
@@ -252,7 +270,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148209	mdllkn	mdll+kn	mdll	→	?	
 148210	u	u	ủ	conj.	or	
 148211	lp	?	?	?	?	DULAT: NOT FOUND
-148212	qrzbl	qrzbl/	qrzbl	TN	Fürstenquelle	
+148212	qrzbl	qrzbl/	qrzbl	TN sg.	Fürstenquelle	
 # KTU 1.40 22						
 148213	u	u	ủ	conj.	or	
 148214	tḫṭin	!t!ḫṭ(ʔ[&in	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake	
@@ -290,6 +308,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148236	ab	ab/	ảb	n. m. sg. cstr.	father	
 148237	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148237	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148237	bn	bn(II)	bn (II)	prep.	between	
+148237	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148237	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148238	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148238	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148238	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -302,6 +323,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148241	dr	dr/	dr	n. m. sg.	circle	
 148242	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148242	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148242	bn	bn(II)	bn (II)	prep.	between	
+148242	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148242	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148243	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148243	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148243	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -311,16 +335,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148245	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
 148246	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148246	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148246	bn	bn(II)	bn (II)	prep.	between	
+148246	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148246	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148247	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148247	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148247	il	il(I)/	ỉl (I)	n. m. sg.	god	
 148247	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 148248	l	l(I)	l (I)	prep.	to	
 148248	l	l(III)	l (III)	functor	certainly	
-148249	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148249	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148249	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
 148250	w	w	w	conj.	and	
-148251	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+148251	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148251	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 148252	hn	hn	hn	functor	behold!	
 148253	š	š/	š	n. m. sg.	ram	
@@ -336,24 +363,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148259	bn	bn(II)	bn (II)	prep.	between	
 148259	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148259	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148260	ugrt	ugrt/	ủgrt	TN	Ugarit	
+148260	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 148261	w	w	w	conj.	and	
 148262	npy	npy/	npy	n. m. sg.	purification	
-148263	ugrt	ugrt/	ủgrt	TN	Ugarit	
+148263	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 1.40 27						
 148264	w	w	w	conj.	and	
 148265	npy	npy/	npy	n. m. sg.	purification	
-148266	yman	yman/	ymản	TN	Ionia	
+148266	yman	yman/	ymản	TN sg.	Ionia	
 148267	w	w	w	conj.	and	
 148268	npy	npy/	npy	n. m. sg.	purification	
-148269	ˤrmt	ˤrmt/	ʕrmt	TN	ʿrmt	
+148269	ˤrmt	ˤrmt/	ʕrmt	TN sg.	ʿrmt	
 148270	w	w	w	conj.	and	
 148271	npy	npy/	npy	n. m. sg.	purification	
 148272	x	?	?	?	?	
 # KTU 1.40 28						
 148273	w	w	w	conj.	and	
 148274	npy	npy/	npy	n. m. sg.	purification	
-148275	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+148275	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 148276	u	u	ủ	conj.	or	
 148277	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 148278	ypkm	yp/	yp	n. m. sg.	dignity	
@@ -372,12 +399,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148290	ḫty	ḫty(I)/	ḫty (I)	GN sg.	Hittite	
 148291	u	u	ủ	conj.	or	
 148292	lp	?	?	?	?	DULAT: NOT FOUND
-148293	alty	alty/	ảlty	PN	villager	
+148293	alty	alty/	ảlty	PN sg.	villager	
 148293	alty	alt(I)/+y	ảlt (I)	n. f. cstr.	curse	
 148293	alty	alt(II)/+y	ảlt (II)	n. f. cstr.	support	
 148294	u	u	ủ	conj.	or	
 148295	lp	?	?	?	?	DULAT: NOT FOUND
-148296	ġbr	ġbr/	ġbr	TN	nom propre	
+148296	ġbr	ġbr/	ġbr	TN sg.	nom propre	
 148297	u	u	ủ	conj.	or	
 148298	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.40 30						
@@ -387,7 +414,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148302	mdllkm	mdll+km	mdll	→	?	
 148303	u	u	ủ	conj.	or	
 148304	lp	?	?	?	?	DULAT: NOT FOUND
-148305	qrzbl	qrzbl/	qrzbl	TN	Fürstenquelle	
+148305	qrzbl	qrzbl/	qrzbl	TN sg.	Fürstenquelle	
 148306	u	u	ủ	conj.	or	
 148307	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 148308	ypkm	yp/	yp	n. m. sg.	dignity	
@@ -431,6 +458,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148335	ab	ab/	ảb	n. m. sg. cstr.	father	
 148336	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148336	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148336	bn	bn(II)	bn (II)	prep.	between	
+148336	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148336	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148337	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148337	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148337	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -443,6 +473,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 34						
 148341	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148341	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148341	bn	bn(II)	bn (II)	prep.	between	
+148341	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148341	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148342	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148342	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148342	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -455,8 +488,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148345	bn	bn(II)	bn (II)	prep.	between	
 148345	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148345	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148346	ill	ill/	ỉll	PN	ỉll	
-148347	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148346	ill	ill/	ỉll	PN sg.	ỉll	
+148347	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148347	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
 148348	wšnm	?	?	?	?	DULAT: NOT FOUND
 148349	hn	hn	hn	functor	behold!	
@@ -477,7 +510,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148357	bnt	bt(I)/	bt (I)	n. f. pl. cstr.	daughter	
 148357	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr.	produce	
 148357	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
-148358	ugrt	ugrt/	ủgrt	TN	Ugarit	
+148358	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 148359	w	w	w	conj.	and	
 148360	npy	npy/	npy	n. m. sg.	purification	
 148361	gr	gr(I)/	gr (I)	n. m. pl. cstr.	protected	
@@ -485,7 +518,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148361	gr	gr[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
 # KTU 1.40 36						
 148362	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl.	wall	
-148363	ugrt	ugrt/	ủgrt	TN	Ugarit	
+148363	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 148364	wnpy	?	?	?	?	DULAT: NOT FOUND
 148365	axṯt	?	?	?	?	DULAT: NOT FOUND
 148366	u	u	ủ	conj.	or	
@@ -511,7 +544,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 38						
 148384	u	u	ủ	conj.	or	
 148385	lp	?	?	?	?	DULAT: NOT FOUND
-148386	ġbr	ġbr/	ġbr	TN	nom propre	
+148386	ġbr	ġbr/	ġbr	TN sg.	nom propre	
 148387	u	u	ủ	conj.	or	
 148388	lp	?	?	?	?	DULAT: NOT FOUND
 148389	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. cstr.	oppressor	
@@ -522,7 +555,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148392	mdllkn	mdll+kn	mdll	→	?	
 148393	u	u	ủ	conj.	or	
 148394	lp	?	?	?	?	DULAT: NOT FOUND
-148395	qrzbl	qrzbl/	qrzbl	TN	Fürstenquelle	
+148395	qrzbl	qrzbl/	qrzbl	TN sg.	Fürstenquelle	
 # KTU 1.40 39						
 148396	lšn	lšn/	lšn	n. f. sg.	tongue	
 148397	ypkn	yp/	yp	n. m. sg.	dignity	
@@ -565,6 +598,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148423	ab	ab/	ảb	n. m. sg. cstr.	father	
 148424	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148424	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148424	bn	bn(II)	bn (II)	prep.	between	
+148424	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148424	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148425	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148425	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148425	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -577,6 +613,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148428	dr	dr/	dr	n. m. sg.	circle	
 148429	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148429	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148429	bn	bn(II)	bn (II)	prep.	between	
+148429	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148429	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148430	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148430	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148430	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -584,6 +623,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148431	lmpḫrt	?	?	?	?	DULAT: NOT FOUND
 148432	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 148432	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148432	bn	bn(II)	bn (II)	prep.	between	
+148432	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148432	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148433	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148433	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 148433	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -591,10 +633,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 43						
 148434	l	l(I)	l (I)	prep.	to	
 148434	l	l(III)	l (III)	functor	certainly	
-148435	ṯkmn	ṯkmn/	ṯkmn	DN/element	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148435	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 148435	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
 148436	w	w	w	conj.	and	
-148437	šnm	šnm/	šnm	DN	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+148437	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148437	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 148438	hn	hn	hn	functor	behold!	
 148439	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	

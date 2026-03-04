@@ -20,6 +20,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160045	lmd	lmd/	lmd	adj. m. pl. cstr.	trained	
 160045	lmd	lmd/	lmd	adj. m. sg.	trained	
 160045	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
+160045	lmd	lmd[:d:w	/l-m-d/	vb D suffc. 3 m. pl.	to teach	
+160045	lmd	lmd[:dt=	/l-m-d/	vb D suffc. 2 m. sg.	to teach	
+160045	lmd	lmd[:dt==	/l-m-d/	vb D suffc. 2 f. sg.	to teach	
+160045	lmd	lmd[:dt	/l-m-d/	vb D suffc. 1 c. sg.	to teach	
 # KTU 2.91 5						
 160046	d	d	d	det. or rel. functor	the one(s) of	
 160047	bdy	bd(IV)+y	bd (IV)	prep.	into the hands of	

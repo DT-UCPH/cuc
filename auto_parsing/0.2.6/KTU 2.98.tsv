@@ -19,15 +19,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160153	xxxx	?	?	?	?	
 160154	l	l(I)	l (I)	prep.	to	
 160154	l	l(III)	l (III)	functor	certainly	
-160155	anzḫ	anzḫ/	ảnzḫ	TN	ảnzḫ	
+160155	anzḫ	anzḫ/	ảnzḫ	TN sg.	ảnzḫ	
 # KTU 2.98 5						
 160156	xxxnkm	?	?	?	?	DULAT: NOT FOUND
 160157	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
 # KTU 2.98 6						
-160158	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+160158	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 160159	ḥmrm	ḥmr(I)/m	ḥmr (I)	n. m. pl.	donkey	
 # KTU 2.98 7						
-160160	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+160160	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 160161	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr.	(royal) guard	
 160161	ḫrd	ḫrd/	ḫrd	n. m. sg.	(royal) guard	
 160162	ˤmnh	ˤm(I)+h	ʕm (I)	prep.	to	
@@ -122,7 +122,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160205		?	?	?	?	
 # KTU 2.98 18						
 160206	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-160207	atḏn	atḏn/	ảtḏn	PN	ảtḏn	
+160207	atḏn	atḏn/	ảtḏn	PN sg.	ảtḏn	
 # KTU 2.98 19						
 160208	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 160209	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
@@ -137,7 +137,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160214	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg.	to go	
 160215	l	l(I)	l (I)	prep.	to	
 160215	l	l(III)	l (III)	functor	certainly	
-160216	anzḫ	anzḫ/	ảnzḫ	TN	ảnzḫ	
+160216	anzḫ	anzḫ/	ảnzḫ	TN sg.	ảnzḫ	
 # KTU 2.98 22						
 160217	w	w	w	conj.	and	
 160218	špšm	špš/~m	špš	n. f. sg.	sun	
@@ -157,7 +157,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160223	ky	k(IV)	k (IV)	adv.	thus	
 # KTU 2.98 24						
 160224	šisp	?	?	?	?	DULAT: NOT FOUND
-160225	artṯb	artṯb/	ảrtṯb	PN	ảrtṯb	
+160225	artṯb	artṯb/	ảrtṯb	PN sg.	ảrtṯb	
 # KTU 2.98 25						
 160226	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl.	dust	
 160227	ˤmnh	ˤm(I)+h	ʕm (I)	prep.	to	
@@ -198,7 +198,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160249	ḫrd	ḫrd/	ḫrd	n. m. sg.	(royal) guard	
 160250	l	l(I)	l (I)	prep.	to	
 160250	l	l(III)	l (III)	functor	certainly	
-160251	atḏn	atḏn/	ảtḏn	PN	ảtḏn	
+160251	atḏn	atḏn/	ảtḏn	PN sg.	ảtḏn	
 # KTU 2.98 33						
 160252	x	?	?	?	?	
 160253	w	w	w	conj.	and	
@@ -232,7 +232,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160266	l	l(III)	l (III)	functor	certainly	
 160267	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
 160268	w	w	w	conj.	and	
-160269	arš	arš/	ảrš	DN	a monster (“many-headed”, “whale”)	
+160269	arš	arš/	ảrš	DN sg.	a monster (“many-headed”, “whale”)	
 160270	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.98 37						
 160271	xxx	?	?	?	?	

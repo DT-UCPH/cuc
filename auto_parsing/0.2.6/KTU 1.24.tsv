@@ -4,11 +4,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147628	nkl	nkl[	/k-l-y/	vb N suffc. 3 m. sg.	to finish	
 147629	wib	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 2						
-147630	ḫrḫb	ḫrḫb/	ḫrḫb	DN	ḫrḫb	
+147630	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg.	ḫrḫb	
 147631	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 147631	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 147632	qẓ	qẓ/	qẓ	n. m. sg.	summer	
-147633	ḫrḫb	ḫrḫb/	ḫrḫb	DN	ḫrḫb	
+147633	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg.	ḫrḫb	
 147634	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 3						
 147635	lk	l(I)+k	l (I)	prep.	to	
@@ -24,7 +24,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147642	yḥbq	!y!ḥbq[	/ḥ-b-q/	vb G prefc. 3 m. sg.	to embrace	
 147643	dt	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.24 5						
-147644	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+147644	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
+147644	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
+147644	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to)	
+147644	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to)	
+147644	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
+147644	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 147645	b	b	b	prep.	in	
 147646	tṯrt	?	?	?	?	DULAT: NOT FOUND
 147647	ḫrxx	?	?	?	?	DULAT: NOT FOUND
@@ -34,13 +39,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147650	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr.	produce	
 147650	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
 147650	bnt	bnt(III)/	bnt (III)	n. m. sg.	tamarisk	
-147651	hll	hll/	hll	DN	New Moon	
+147651	hll	hll/	hll	DN sg.	New Moon	
 147652	snnt	snnt/	snnt	n. f. pl.	swallow	
 # KTU 1.24 7						
 147653	hl	hl	hl	deictic adv. functor	behold	
 147654	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg.	damsel	
 147654	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg.	concealment	
-147655	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+147655	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
+147655	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
+147655	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to)	
+147655	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to)	
+147655	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
+147655	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 147656	bnxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 8						
 147657	ˤnha	?	?	?	?	DULAT: NOT FOUND
@@ -90,7 +100,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147683	rxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 14						
 147684	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
-147685	ttl	ttl/	ttl	TN	ttl	
+147685	ttl	ttl/	ttl	TN sg.	ttl	
 147686	xxx	?	?	?	?	
 147687	xxx	?	?	?	?	
 147688	tb	?	?	?	?	DULAT: NOT FOUND
@@ -108,7 +118,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147697	šmm	šm(m(I)/m	šmm (I)	n. m. pl.	heavens	
 147698	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.24 17						
-147699	ḫrḫb	ḫrḫb/	ḫrḫb	DN	ḫrḫb	
+147699	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg.	ḫrḫb	
 147700	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 147700	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 147701	qẓ	qẓ/	qẓ	n. m. sg.	summer	
@@ -128,11 +138,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147707	ib	ib(II)/	ỉb (II)	n. m. sg.	fruit	
 147707	ib	ib(II)/	ỉb (II)	n. m. sg. cstr.	fruit	
 147708	tˤrbm	!t!ˤrb(I)[m	/ʕ-r-b/ (I)	vb G prefc.	to enter	
-147709	bbh	bb/+h	bb	PN cstr.	bb	
+147709	bbh	bb/+h	bb	PN sg. cstr.	bb	
 # KTU 1.24 19						
 147710	th	?	?	?	?	DULAT: NOT FOUND
 147711	w	w	w	conj.	and	
-147712	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+147712	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 147713	mhrh	mhr(I)/h	mhr (I)	n. m. sg.	warrior (trained, expert)	
 147713	mhrh	mhr(III)/+h	mhr (III)	n. m. sg. cstr.	dowry	
 147713	mhrh	mhr(II)/+h	mhr (II)	n. m. sg. cstr.	warrior strength	
@@ -156,7 +166,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147724	iq	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 22						
 147725	nim	?	?	?	?	DULAT: NOT FOUND
-147726	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+147726	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 147727	šdh	šd(I)/+h	šd (I)	n. m. cstr.	open field	
 147728	krmm	krm/	krm	n. m. pl.	vineyard	
 147728	krmm	krm/	krm	n. m. sg.	vineyard	
@@ -174,7 +184,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147733	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc. 3 m. sg.	to see	
 147733	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed	
 147733	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
-147734	ḫrḫb	ḫrḫb/	ḫrḫb	DN	ḫrḫb	
+147734	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg.	ḫrḫb	
 147735	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 147735	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 147736	qẓ	qẓ/	qẓ	n. m. sg.	summer	
@@ -195,7 +205,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147743	trḫ	trḫ[	/t-r-ḫ/	vb D suffc. 3 m. sg.	to marry	
 147743	trḫ	trḫ[	/t-r-ḫ/	vb D impv. 2	to marry	
 147743	trḫ	trḫ[/	/t-r-ḫ/	vb D act. ptcpl. m. sg.	to marry	
-147744	pdry	pdry/	pdry	DN	Pidray	
+147744	pdry	pdry/	pdry	DN sg.	Pidray	
 147744	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 147745	bth	bt(II)/+h	bt (II)	n. m. cstr.	house	
 # KTU 1.24 27						
@@ -205,13 +215,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147748	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 # KTU 1.24 28						
 147749	yġtr	!y!ġtr[	/ġ-t-r/	vb G prefc. 3 m. sg.	to implore	
-147750	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
+147750	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg.	ʿAṯtar	
 147751	t	/t, /t=				DULAT: NOT FOUND
 147751	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.24 29						
 147752	rḫ	?	?	?	?	DULAT: NOT FOUND
 147753	lk	l(I)+k	l (I)	prep.	to	
-147754	ybrdmy	ybrdmy/	ybrdmy	DN	ybrdmy	
+147754	ybrdmy	ybrdmy/	ybrdmy	DN sg.	ybrdmy	
 147755	bta	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 30						
 147756	bh	b+h	b	prep.	in	
@@ -301,7 +311,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 41						
 147801	t	/t, /t=				DULAT: NOT FOUND
 147801	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-147802	hll	hll/	hll	DN	New Moon	
+147802	hll	hll/	hll	DN sg.	New Moon	
 147803	snnt	snnt/	snnt	n. f. pl.	swallow	
 147804	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr.	produce	
 147804	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
@@ -345,21 +355,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147828	mn	mn(IV)	mn (IV)	?	?	
 # KTU 1.24 47						
 147829	hnthn	?	?	?	?	DULAT: NOT FOUND
-147830	ṯlḫh	ṯlḫh/	ṯlḫh	DN	dowry	
+147830	ṯlḫh	ṯlḫh/	ṯlḫh	DN sg.	dowry	
 147831	wmlgh	?	?	?	?	DULAT: NOT FOUND
 147832	y	+y, [y	-y (I)	prep. functor	my	
 147832	y	~y	-y (II)	prep. functor	indeed	
 147832	y	y	y	prep. functor	oh!	
 # KTU 1.24 48						
-147833	ṯtqt	ṯtqt/	ṯtqt	DN	ṯtqt	
+147833	ṯtqt	ṯtqt/	ṯtqt	DN sg.	ṯtqt	
 147834	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
-147835	bqˤt	bqˤt(I)/	bqʕt (I)	DN	Midwife	
+147835	bqˤt	bqˤt(I)/	bqʕt (I)	DN sg.	Midwife	
 # KTU 1.24 49						
-147836	tqˤt	tqˤt/	tqʕt	DN	applauder	
+147836	tqˤt	tqˤt/	tqʕt	DN sg.	applauder	
 147837	ˤmp	?	?	?	?	DULAT: NOT FOUND
 147838	rbḫṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 50						
-147839	dmqt	dmqt/	dmqt	DN	gut	
+147839	dmqt	dmqt/	dmqt	DN sg.	gut	
 147840	ṣġrt	ṣġr(I)/t	ṣġr (I)	adj. f. sg.	small	
 147840	ṣġrt	ṣġr(t(I)/t	ṣġrt (I)	adj. f. sg.	youngest	
 147841	kṯrt	kṯrt/	kṯrt	DN pl.	Swallows	

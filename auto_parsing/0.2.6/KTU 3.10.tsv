@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161234	mnḥ	mnḥ/	mnḥ	n. m. sg.	delivery	
 161234	mnḥ	mnḫ/	mnḫ	n. m. sg.	calm	
 161235	dbd	db/+d	db	n. m. cstr.	threshold, ?	
-161236	mnny	mnny/	mnny	PN	mnny	
+161236	mnny	mnny/	mnny	PN sg.	mnny	
 161236	mnny	mn(III)/+ny	mn (III)	n. m. cstr.	mina	
 161236	mnny	mn(IV)+ny	mn (IV)	?	?	
 # KTU 3.10 2						
@@ -20,8 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161240	bn	bn(II)	bn (II)	prep.	between	
 161240	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161240	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161241	rqdn	rqd/+n	rqd	TN cstr.	rqd	
-161241	rqdn	rqdn/	rqdn	PN	rqdn	
+161241	rqdn	rqd/+n	rqd	TN sg. cstr.	rqd	
+161241	rqdn	rqdn/	rqdn	PN sg.	rqdn	
 # KTU 3.10 3						
 161242	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 161243	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -29,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161244	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161244	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161244	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161245	śzn	z/+n	śz	PN cstr.	śz	
+161245	śzn	z/+n	śz	PN sg. cstr.	śz	
 161246	ḫbty	ḫbty/	ḫbty	GN sg.	ḫbty	
 # KTU 3.10 4						
 161247	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
@@ -55,7 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161255	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.10 7						
 161256	drt	dr(t(I)/t	drt (I)	n. f. sg.	bran	
-161256	drt	drt(II)/	drt (II)	PN	drt (II)	
+161256	drt	drt(II)/	drt (II)	PN sg.	drt (II)	
 161257	uškny	uškny(I)/	ủškny (I)	GN sg.	ủškny (I)	
 # KTU 3.10 8						
 161258	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
@@ -97,7 +97,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161278	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161278	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 # KTU 3.10 14						
-161279	anntn	anntn/	ảnntn	PN	ảnntn	
+161279	anntn	anntn/	ảnntn	PN sg.	ảnntn	
 161280	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161280	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161280	bn	bn(II)	bn (II)	prep.	between	
@@ -112,15 +112,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161284	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161284	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161284	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161285	tmrtn	tmrtn/	tmrtn	PN	tmrtn	
+161285	tmrtn	tmrtn/	tmrtn	PN sg.	tmrtn	
 # KTU 3.10 16						
 161286	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161286	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161286	bn	bn(II)	bn (II)	prep.	between	
 161286	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161286	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161287	urmy	urmy/	ủrmy	PN	ủrmy	
-161287	urmy	urm/+y	ủrm	PN cstr.	ủrm	
+161287	urmy	urmy/	ủrmy	PN sg.	ủrmy	
+161287	urmy	urm/+y	ủrm	PN sg. cstr.	ủrm	
 # KTU 3.10 17						
 161288	arbˤm	arbˤ/	ảrbʕ	num.	four	
 161288	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
@@ -129,15 +129,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161290	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161290	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161290	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161291	bnil	bnil/	bnỉl	PN	bnỉl	
+161291	bnil	bnil/	bnỉl	PN sg.	bnỉl	
 # KTU 3.10 18						
 161292	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161292	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161292	bn	bn(II)	bn (II)	prep.	between	
 161292	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161292	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161293	krwn	krwn/	krwn	PN	krwn	
-161293	krwn	krw/+n	krw	PN cstr.	krw	
+161293	krwn	krwn/	krwn	PN sg.	krwn	
+161293	krwn	krw/+n	krw	PN sg. cstr.	krw	
 # KTU 3.10 19						
 161294	xxṯṯm	?	?	?	?	DULAT: NOT FOUND
 161295	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -145,7 +145,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161296	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161296	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161296	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161297	abġl	abġl/	ảbġl	PN	ảbġl	
+161297	abġl	abġl/	ảbġl	PN sg.	ảbġl	
 # KTU 3.10 20						
 161298	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161298	bn	bn(I)/	bn (I)	n. m. sg.	son	
@@ -154,7 +154,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161298	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161299	ṯdny	ṯd/+ny	ṯd	n. m. cstr.	breast	
 161299	ṯdny	ṯd&n/+y	ṯd	n. m. cstr.	breast	
-161299	ṯdny	ṯdny/	ṯdny	PN	ṯdny	
+161299	ṯdny	ṯdny/	ṯdny	PN sg.	ṯdny	
 # KTU 3.10 21						
 161300	arbˤm	arbˤ/	ảrbʕ	num.	four	
 161300	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
@@ -163,7 +163,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161302	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161302	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161302	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161303	tlmyn	tlmyn/	tlmyn	PN	tlmyn	
+161303	tlmyn	tlmyn/	tlmyn	PN sg.	tlmyn	
 # KTU 3.10 22						
 161304	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 161304	bn	bn(I)/	bn (I)	n. m. sg.	son	

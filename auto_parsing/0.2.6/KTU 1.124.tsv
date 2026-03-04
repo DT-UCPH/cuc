@@ -39,9 +39,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154394	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 154394	št	št[	/š-t/	vb G impv. 2	to place	
 154394	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
-154395	bbt	bbt(II)/	bbt (II)	DN	superintendent	
-154395	bbt	bbt(I)/	bbt (I)	TN	bbt (I)	
-154396	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
+154395	bbt	bbt(II)/	bbt (II)	DN sg.	superintendent	
+154395	bbt	bbt(I)/	bbt (I)	TN sg.	bbt (I)	
+154396	ḥrn	ḥrn/	ḥrn	DN sg.	Ḥôrānu	
 154396	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr.	intestine(s)	
 154397	trḥ	trḥ/	trḥ	n. m. sg. cstr.	flask	
 # KTU 1.124 7						
@@ -63,6 +63,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154404	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154405	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 154405	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
+154405	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+154405	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+154405	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 154406	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr.	produce	
 154406	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
 154406	bnt	bnt(III)/	bnt (III)	n. m. sg.	tamarisk	

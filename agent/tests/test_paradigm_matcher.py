@@ -29,6 +29,37 @@ class ParadigmMatcherTest(unittest.TestCase):
         self.assertIn(("ytn[", "3", "m.", "sg."), rendered)
         self.assertIn(("ytn[:w", "3", "m.", "pl."), rendered)
 
+    def test_generates_weak_final_d_prefix_candidates_when_pattern_table_is_sparse(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="tkly",
+            dulat="/k-l-y/",
+            stem="D",
+            conjugation="prefc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("!t=!kly[:d", "2", "m.", "sg."), rendered)
+
+    def test_generates_dt_prefix_candidates_for_weak_final_roots(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="ttrp",
+            dulat="/r-p-y/",
+            stem="Dt",
+            conjugation="prefc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("!t!]t]rp(y[:d", "3", "m.", "du."), rendered)
+        self.assertIn(("!t!]t]rp(y[:d:w", "3", "m.", "pl."), rendered)
+
+    def test_generates_weak_initial_prefix_candidates(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="ytn",
+            dulat="/y-t-n/",
+            stem="G",
+            conjugation="prefc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("!y!(ytn[", "3", "m.", "sg."), rendered)
+
 
 if __name__ == "__main__":
     unittest.main()

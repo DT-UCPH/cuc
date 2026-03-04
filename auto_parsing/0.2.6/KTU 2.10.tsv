@@ -1,11 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 1						
 156553	tḥm	tḥm/	tḥm	n. m. sg.	message	
-156554	iwrḏr	iwrḏr/	ỉwrḏr	PN	ỉwrḏr	
+156554	iwrḏr	iwrḏr/	ỉwrḏr	PN sg.	ỉwrḏr	
 # KTU 2.10 2						
 156555	l	l(I)	l (I)	prep.	to	
 156555	l	l(III)	l (III)	functor	certainly	
-156556	plsy	plsy/	plsy	PN	plsy	
+156556	plsy	plsy/	plsy	PN sg.	plsy	
 # KTU 2.10 3						
 156557	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156557	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -19,13 +19,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 5						
 156560	l	l(I)	l (I)	prep.	to	
 156560	l	l(III)	l (III)	functor	certainly	
-156561	trġds	trġds/	trġ(n)ds	PN	trġ(n)ds	
+156561	trġds	trġds/	trġ(n)ds	PN sg.	trġ(n)ds	
 # KTU 2.10 6						
 156562	w	w	w	conj.	and	
 156563	l	l(I)	l (I)	prep.	to	
 156563	l	l(III)	l (III)	functor	certainly	
 156564	klby	klb(I)/+y	klb (I)	n. m. cstr.	dog	
-156564	klby	klby/	klby	PN	klby	
+156564	klby	klby/	klby	PN sg.	klby	
 # KTU 2.10 7						
 156565	šmˤt	šmˤ[t	/š-m-ʕ/	vb G suffc. 1 c. sg.	to hear	
 156566	ḫti	!!ḫt(ʔ&i[/	/ḫ-t-ʔ/	vb G inf.	to be ground up	

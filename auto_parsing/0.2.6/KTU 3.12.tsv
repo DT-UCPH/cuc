@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161333	l	l(III)	l (III)	functor	certainly	
 161334	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 161334	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
-161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
+161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg.	ṣdqšlm	
 # KTU 3.12 2						
 161336	b	b	b	prep.	in	
 161337	unṯ	unṯ/	ủnṯ	n. m. pl. cstr.	obligation	
@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161343	br	br/	br(r)	n. m. sg.	tin	
 161343	br	br(I)/	br (I)	n. m. sg.	Art Seeschiff	
 161343	br	br[	/b-r(-r)/	vb G suffc. 3 m. sg.	to be or remain pure	
-161344	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
+161344	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg.	ṣdqšlm	
 # KTU 3.12 5						
 161345	b	b	b	prep.	in	
 161346	unṯ	unṯ/	ủnṯ	n. m. pl. cstr.	obligation	
@@ -39,16 +39,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161348	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs.	eternity	
 # KTU 3.12 6						
 161349	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg.	seal	
-161350	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+161350	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 # KTU 3.12 7						
 161351	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 161351	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-161352	ugrt	ugrt/	ủgrt	TN	Ugarit	
+161352	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 3.12 8						
-161353	nqmd	nqmd/	nqmd	PN	Niqmaddu II	
+161353	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
 161354	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 161354	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-161355	ugrt	ugrt/	ủgrt	TN	Ugarit	
+161355	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 3.12 9						
 161356	ktb	ktb[	/k-t-b/	vb G suffc. 3 m. sg.	to write	
 161357	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
@@ -61,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.12 10						
 161359	d	d	d	det. or rel. functor	the one(s) of	
 161360	tbrrt	tbrr(t/t	tbrrt	n. f. sg.	exemption	
-161361	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
+161361	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg.	ṣdqšlm	
 # KTU 3.12 11						
 161362	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr.	servant	
 161363	hnd	hnd	hnd	dem.	this	
@@ -86,7 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.12 14						
 161371	b	b	b	prep.	in	
 161372	yd	yd(I)/	yd (I)	n. f. sg.	hand	
-161373	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN	ṣdqšlm	
+161373	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg.	ṣdqšlm	
 # KTU 3.12 15						
 161374	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
 161374	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	

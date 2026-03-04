@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152183	k	k(II)	k (II)	emph. functor	yes	
 152184	ṯbt	ṯb(t/t	ṯbt	n. f. sg. cstr.	seat	
 152185	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
-152186	hd	hd/	hd(d)	DN	Haddu/Hadad	
+152186	hd	hd/	hd(d)	DN sg.	Haddu/Hadad	
 152187	k	+k	-k (I)			
 152187	k	~k	-k (II)			
 152187	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -33,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152193	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 152193	il	il(I)/	ỉl (I)	n. m. sg.	god	
 152193	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-152194	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+152194	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 152195	bġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.101 3						
 152196	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
@@ -51,13 +51,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152204	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs.	tree	
 152205	brq	brq(I)/	brq (I)	n. m. sg.	ray	
 152206	yry	!y!(yry[+y	/y-r-y/	vb	to fire	
-152206	yry	yry/	yry	PN	yry	
+152206	yry	yry/	yry	PN sg.	yry	
 152206	yry	yr/+y	yr	n. m. cstr.	early rain	
 # KTU 1.101 5						
 152207	rišh	riš(I)/h	rỉš (I)	n. m. sg.	head	
-152208	tply	!t!ply[	/p-l-y/	vb G prefc.	to distinguish	
+152208	tply	!t!ply[	/p-l-y/	vb G prefc. 3 f. sg.	to distinguish	
+152208	tply	!t=!ply[	/p-l-y/	vb G prefc. 2 m. sg.	to distinguish	
+152208	tply	!t==!ply[	/p-l-y/	vb G prefc. 2 f. sg.	to distinguish	
+152208	tply	!t!ply[	/p-l-y/	vb G prefc. 3 m. du.	to distinguish	
+152208	tply	!t!ply[:w	/p-l-y/	vb G prefc. 3 m. pl.	to distinguish	
+152208	tply	!t===!ply[	/p-l-y/	vb G prefc. 2 m. pl.	to distinguish	
 152209	ṭly	ṭl/+y	ṭl	n. m. cstr.	dew	
-152209	ṭly	ṭly/	ṭly	DN	Tallay	
+152209	ṭly	ṭly/	ṭly	DN sg.	Tallay	
 152210	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
 152210	bn	bn(I)/	bn (I)	n. m. sg.	son	
 152210	bn	bn(II)	bn (II)	prep.	between	
@@ -118,6 +123,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152251	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 152251	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 152251	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+152251	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+152251	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+152251	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+152251	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 152251	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 152252	b	b	b	prep.	in	
 152253	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg.	plate / wide bowl / platter	
@@ -157,4 +166,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 19						
 152272	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 152272	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
+152272	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+152272	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+152272	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 152273	ahbt	ahb(t/t	ảhbt	n. f. sg. cstr.	love	

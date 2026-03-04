@@ -1,7 +1,12 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.140 1						
 154904	k	k(III)	k (III)	Subordinating or completive functor	when	
-154905	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+154905	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
+154905	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
+154905	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to)	
+154905	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to)	
+154905	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
+154905	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 154906	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
 154906	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154906	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
@@ -26,7 +31,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154911	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 # KTU 1.140 5						
 154912	k	k(III)	k (III)	Subordinating or completive functor	when	
-154913	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+154913	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
+154913	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
+154913	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to)	
+154913	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to)	
+154913	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
+154913	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 154914	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
 154914	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154914	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
@@ -39,16 +49,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154916	ib	ib(I)/	ỉb (I)	n. m. sg. cstr.	enemy	
 154916	ib	ib(II)/	ỉb (II)	n. m. sg.	fruit	
 154916	ib	ib(II)/	ỉb (II)	n. m. sg. cstr.	fruit	
-154917	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
-154917	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish	
-154917	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish	
-154917	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 m. du.	to perish	
 154917	tḫlq	!t!ḫlq[:w	/ḫ-l-q/	vb G prefc. 3 m. pl.	to perish	
-154917	tḫlq	!t===!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. pl.	to perish	
-154917	tḫlq	tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 # KTU 1.140 7						
 154918	k	k(III)	k (III)	Subordinating or completive functor	when	
-154919	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+154919	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
 154920	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
 154920	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154920	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
@@ -59,7 +63,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154922	tkn	!t!kn[	/k-n/	vb G prefc.	to be (stable)	
 # KTU 1.140 9						
 154923	k	k(III)	k (III)	Subordinating or completive functor	when	
-154924	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+154924	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
+154924	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
+154924	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to)	
+154924	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to)	
+154924	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
+154924	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 154925	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
 154925	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154925	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
@@ -82,7 +91,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.140 13						
 154932	tḥ	!t!ḥ(w(I)[	/ḥ-w/y-y/ (I)	vb G prefc.	to live	
 # KTU 1.140 14						
-154933	ktld	ktl/+d	ktl	PN cstr.	ktl, ?	
+154933	ktld	ktl/+d	ktl	PN sg. cstr.	ktl, ?	
 154934	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
 154934	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154934	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	

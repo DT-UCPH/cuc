@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154785	š	š/	š	n. m. sg.	ram	
 154786	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 # KTU 1.134 3						
-154787	ršp	ršp/	ršp	DN	Rašap	
+154787	ršp	ršp/	ršp	DN sg.	Rašap	
 154788	ḥgb	ḥgb/	ḥgb	n. m. sg.	locust	
 # KTU 1.134 4						
 154789	inš	inš/	ỉnš	n. m. sg.	people	
@@ -35,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.134 9						
 154799	l	l(I)	l (I)	prep.	to	
 154799	l	l(III)	l (III)	functor	certainly	
-154800	pdry	pdry/	pdry	DN	Pidray	
+154800	pdry	pdry/	pdry	DN sg.	Pidray	
 154800	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 # KTU 1.134 10						
 154801	xš	?	?	?	?	DULAT: NOT FOUND
@@ -44,5 +44,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154803	lḏx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.134 12						
 154804	arṣy	arṣ/+y	ảrṣ	n. f. cstr.	earth	
-154804	arṣy	arṣy/	ảrṣy	DN	Arṣay/Arsay	
+154804	arṣy	arṣy/	ảrṣy	DN sg.	Arṣay/Arsay	
 154805	npš	npš(I)/	npš (I)	n. f. sg.	throat	

@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 1						
 152697	bġb	?	?	?	?	DULAT: NOT FOUND
-152698	ršp	ršp/	ršp	DN	Rašap	
-152699	mhbn	mhbn/	mhbn	TN	Gedanke	
+152698	ršp	ršp/	ršp	DN sg.	Rašap	
+152699	mhbn	mhbn/	mhbn	TN sg.	Gedanke	
 152700	š	š/	š	n. m. sg.	ram	
 # KTU 1.105 2						
 152701	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
@@ -29,7 +29,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152714	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 152715	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 152715	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
-152716	ugrt	ugrt/	ủgrt	TN	Ugarit	
+152715	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+152715	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+152715	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
+152716	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 152717	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 152717	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 152717	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
@@ -38,7 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 7						
 152719	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 152720	l	l(I)	l (I)	prep.	to	
-152721	ršp	ršp/	ršp	DN	Rašap	
+152721	ršp	ršp/	ršp	DN sg.	Rašap	
 152722	mlkx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 8						
 152723	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
@@ -50,12 +53,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 9						
 152727	bwtm	bt(II)/	bt (II)	n. m. pl.	house	
 152728	š	š/	š	n. m. sg.	ram	
-152729	iṯtqb	iṯtqb/	ỉṯtqb	TN	ỉṯtqb	
+152729	iṯtqb	iṯtqb/	ỉṯtqb	TN sg.	ỉṯtqb	
 # KTU 1.105 10						
 152730	w	w	w	conj.	and	
 152731	š	š/	š	n. m. sg.	ram	
 152732	nbkm	nb(I)&k/+m(I)	nb/pk (I)	n. m. cstr.	fountain	
-152732	nbkm	nbkm/	nbkm	TN	nbkm	
+152732	nbkm	nbkm/	nbkm	TN sg.	nbkm	
 152733	w	w	w	conj.	and	
 152734	š	š/	š	n. m. sg.	ram	
 # KTU 1.105 11						
@@ -65,7 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 12						
 152738	l	l(I)	l (I)	prep.	to	
 152738	l	l(III)	l (III)	functor	certainly	
-152739	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
+152739	kṯr	kṯr(III)/	kṯr (III)	DN/element sg.	Koṯaru/Kothar	
 152740	ṯnšmˤlm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 13						
 152741	tzġm	tzġ/m	tzġ	n. m. pl.	kind of sacrificial meat	
@@ -77,7 +80,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152744	pr	pr(II)/	pr (II)	n. m. sg.	young bull	
 152744	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 # KTU 1.105 14						
-152745	hzp	hzp/	hzp	TN	hzp	
+152745	hzp	hzp/	hzp	TN sg.	hzp	
 # KTU 1.105 15						
 152746	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
 152746	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
@@ -124,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152771	b	b	b	prep.	in	
 152772	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr.	(sacrificial) pit	
 152772	ġb	ġb(II)	ġb (II)	?	?	
-152773	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+152773	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.105 22						
 152774	nskt	nsk(t/t	nskt	n. f. sg.	casting	
 152775	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -159,9 +162,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152792	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 152793	wš	?	?	?	?	DULAT: NOT FOUND
 152794	l	l(I)	l (I)	prep.	to	
-152795	ršp	ršp/	ršp	DN	Rašap	
-152796	bbt	bbt(II)/	bbt (II)	DN	superintendent	
-152796	bbt	bbt(I)/	bbt (I)	TN	bbt (I)	
+152795	ršp	ršp/	ršp	DN sg.	Rašap	
+152796	bbt	bbt(II)/	bbt (II)	DN sg.	superintendent	
+152796	bbt	bbt(I)/	bbt (I)	TN sg.	bbt (I)	
 # KTU 1.105 26						
 152797	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
 152798	linš	?	?	?	?	DULAT: NOT FOUND

@@ -35,14 +35,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158122	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say	
 158123	l	l(I)	l (I)	prep.	to	
 158124	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
-158125	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+158125	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 2.42 7						
 158126	l	l(I)	l (I)	prep.	to	
 158127	špš	špš/	špš	DN f. sg.	Šapšu/Shapsh/Shapshu	
 158127	špš	špš/	špš	n. f. sg.	sun	
 158128	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 158129	l	l(I)	l (I)	prep.	to	
-158130	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+158130	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 # KTU 2.42 8						
 158131	l	l(I)	l (I)	prep.	to	
 158131	l	l(III)	l (III)	functor	certainly	
@@ -60,6 +60,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158137	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158137	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158137	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158137	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158137	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158137	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158137	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158137	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.42 9						
 158138	nmry	nmry	nmry		Nimmureya	
@@ -123,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158167	al	al(I)	ảl (I)	neg. functor	no	
 158167	al	al(II)	ảl (II)	pos. functor	surely	
 # KTU 2.42 20						
-158168	atn	ytn[	/y-t-n/	vb G prefc.	to give	
+158168	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 158169	ksp	ksp/	ksp	n. m. sg.	silver	
 158170	lhm	l(I)+hm	l (I)	prep.	to	
 158171	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	

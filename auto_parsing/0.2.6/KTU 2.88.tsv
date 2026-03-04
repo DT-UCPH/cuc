@@ -48,17 +48,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159785	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg.	to sweep	
 # KTU 2.88 8						
 159786	adnyh	adn(I)&y/+h	ảdn (I)	n. m. cstr.	lord	
-159786	adnyh	adny/	ảdny	TN	ảdny	
+159786	adnyh	adny/	ảdny	TN sg.	ảdny	
 159787	b	b	b	prep.	in	
 159788	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 159788	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 159788	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
 # KTU 2.88 9						
-159789	snġr	snġr/	snġr	TN	snġr	
+159789	snġr	snġr/	snġr	TN sg.	snġr	
 159790	b	b	b	prep.	in	
 159791	rbˤ	rbˤ/	rbʕ	num.	fourth	
 # KTU 2.88 10						
-159792	unġ	unġ/	ủnġ	TN	ủnġ	
+159792	unġ	unġ/	ủnġ	TN sg.	ủnġ	
 159793	w	w	w	conj.	and	
 159794	dˤt	dˤ(t(II)/t	dʕt (II)	n. f. sg.	sweat	
 # KTU 2.88 11						
@@ -86,7 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159806	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 159807	ṯh	ṯh/	ṯh	n. m. sg.	neighbour	
 159808	w	w	w	conj.	and	
-159809	arš	arš/	ảrš	DN	a monster (“many-headed”, “whale”)	
+159809	arš	arš/	ảrš	DN sg.	a monster (“many-headed”, “whale”)	
 # KTU 2.88 15						
 159810	iršth	iršt/+h	ỉršt	n. f. cstr.	request	
 159811	tḥd	!t!ḥd(y[	/ḥ-d-y/	vb G prefc. 3 f. sg.	to see	
@@ -131,7 +131,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159834	mġyy	!!mġy[/y	/m-ġ-y/	vb G inf.	to come	
 # KTU 2.88 23						
 159835	w	w	w	conj.	and	
-159836	ugrt	ugrt/	ủgrt	TN	Ugarit	
+159836	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 159837	ilak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
 # KTU 2.88 24						
 159838	w	w	w	conj.	and	
@@ -196,7 +196,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159865	ḫlq	ḫlq/	ḫlq	adj. m. sg.	ruined	
 # KTU 2.88 31						
 159866	tḥm	tḥm/	tḥm	n. m. sg.	message	
-159867	ilmlk	ilmlk/	ỉlmlk	PN	ʾIlimalku/Ilimilku/Elimelek	
+159867	ilmlk	ilmlk/	ỉlmlk	PN sg.	ʾIlimalku/Ilimilku/Elimelek	
 159868	x	?	?	?	?	
 159869	xx	?	?	?	?	
 # KTU 2.88 32						
@@ -274,4 +274,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159907	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
 # KTU 2.88 40						
 159908	mhk	mhk	mhk(m)	indef. pn.	anything	
-159909	ugrt	ugrt/	ủgrt	TN	Ugarit	
+159909	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	

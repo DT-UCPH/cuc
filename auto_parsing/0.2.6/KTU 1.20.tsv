@@ -76,12 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.20 II:3						
 146737	asr	(ʔ&asr[	/ʔ-s-r/	vb G suffc. 3 m. sg.	to tie	
 146738	sswm	ssw/m	s:śs/św	n. m. pl.	horse	
-146739	tṣmd	!t!ṣmd[	/ṣ-m-d/	vb G prefc. 3 f. sg.	to harness	
-146739	tṣmd	!t=!ṣmd[	/ṣ-m-d/	vb G prefc. 2 m. sg.	to harness	
-146739	tṣmd	!t==!ṣmd[	/ṣ-m-d/	vb G prefc. 2 f. sg.	to harness	
-146739	tṣmd	!t!ṣmd[	/ṣ-m-d/	vb G prefc. 3 m. du.	to harness	
 146739	tṣmd	!t!ṣmd[:w	/ṣ-m-d/	vb G prefc. 3 m. pl.	to harness	
-146739	tṣmd	!t===!ṣmd[	/ṣ-m-d/	vb G prefc. 2 m. pl.	to harness	
 146740	b	b	b	prep.	in	
 146741	gx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.20 II:4						
@@ -125,7 +120,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146762	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc. 3 m. sg.	to see	
 146762	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed	
 146762	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
-146763	dnil	dnil/	dnỉl	PN	Raphaite	
+146763	dnil	dnil/	dnỉl	PN sg.	Raphaite	
 146764	mt	mt(II)/	mt (II)	DN m. sg.	Mot/Death	
 146764	mt	mt(II)/	mt (II)	n. m. sg.	death	
 146764	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	

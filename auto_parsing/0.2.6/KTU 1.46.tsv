@@ -37,13 +37,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148967	dgn	dgn(I)/	dgn (I)	n. m. sg.	grain	
 148968	š	š/	š	n. m. sg.	ram	
 # KTU 1.46 4						
-148969	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
+148969	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg.	ʿAṯtar	
 148970	w	w	w	conj.	and	
 148971	ˤṯtpl	?	?	?	?	DULAT: NOT FOUND
 148972	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 148972	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
 148972	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
-148973	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+148973	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 148974	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 148974	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 148974	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
@@ -61,8 +61,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148979	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 148979	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
 148979	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
-148980	tmrm	tmr/+m(I)	tmr	PN cstr.	tmr	
-148980	tmrm	tmrm/	tmrm	TN	tmrm	
+148980	tmrm	tmr/+m(I)	tmr	PN sg. cstr.	tmr	
+148980	tmrm	tmrm/	tmrm	TN sg.	tmrm	
 # KTU 1.46 6						
 148981	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 148981	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
@@ -83,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148991	g	g/	g	n. m.	(loud) voice	
 # KTU 1.46 7						
 148992	dltgdlt	?	?	?	?	DULAT: NOT FOUND
-148993	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+148993	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 148994	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 148994	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 148994	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
@@ -152,7 +152,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.46 12						
 149029	l	l(I)	l (I)	prep.	to	
 149030	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
-149031	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149031	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 149032	dqtm	dqt(I)/m	dqt (I)	adj. f. pl.	small	
 149033	wynt	?	?	?	?	DULAT: NOT FOUND
 149034	qrt	qr(t(I)/t	qrt (I)	n. f. sg.	city	
@@ -163,7 +163,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149038	š	š/	š	n. m. sg.	ram	
 149039	l	l(I)	l (I)	prep.	to	
 149039	l	l(III)	l (III)	functor	certainly	
-149040	rmš	rmš/	rmš	DN	rmš	
+149040	rmš	rmš/	rmš	DN sg.	rmš	
 149041	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
 149042	w	w	w	conj.	and	
 149043	š	š/	š	n. m. sg.	ram	
@@ -174,6 +174,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149045	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 149045	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 149045	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+149045	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+149045	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+149045	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+149045	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 149045	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 149046	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
 149047	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
@@ -181,13 +185,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149047	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 149048	wš	?	?	?	?	DULAT: NOT FOUND
 149049	lbˤl	?	?	?	?	DULAT: NOT FOUND
-149050	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149050	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.46 15						
 149051	dqt	dq(t(I)/t	dqt (I)	adj. f. pl.	small	
 149051	dqt	dq(t(I)/t	dqt (I)	adj. f. sg.	small	
 149051	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl.	small	
 149052	l	l(I)	l (I)	prep.	to	
-149053	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149053	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 149054	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 149055	w	w	w	conj.	and	
 149056	šlmm	šlm(II)/~m	šlm (II)	n. m. pl.	communion victim / sacrifice	
@@ -196,12 +200,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149057	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.46 16						
 149058	w	w	w	conj.	and	
-149059	bbt	bbt(II)/	bbt (II)	DN	superintendent	
-149059	bbt	bbt(I)/	bbt (I)	TN	bbt (I)	
+149059	bbt	bbt(II)/	bbt (II)	DN sg.	superintendent	
+149059	bbt	bbt(I)/	bbt (I)	TN sg.	bbt (I)	
 149060	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 149060	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 149060	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
-149061	ugrt	ugrt/	ủgrt	TN	Ugarit	
+149061	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 149062	kbdm	kbd(I)	kbd (I)		liver	
 149063	w	w	w	conj.	and	
 149064	npš	npš(I)/	npš (I)	n. f. sg.	throat	
@@ -222,7 +226,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149071	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
 149071	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 149071	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
-149072	ṣpn	ṣpn/	ṣpn	TN/DN	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149072	ṣpn	ṣpn/	ṣpn	TN/DN sg.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.46 18						
 149073	w	w	w	conj.	and	
 149074	npš	npš(I)/	npš (I)	n. f. sg.	throat	

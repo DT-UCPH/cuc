@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159271	rb	rb/	rb(b)	n. m. sg.	drizzle	
 159272	l	l(I)	l (I)	prep.	to	
 159272	l	l(III)	l (III)	functor	certainly	
-159273	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN	ʿAmmurāpʾi	
+159273	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg.	ʿAmmurāpʾi	
 # KTU 2.78 3						
 159274	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 159274	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -35,6 +35,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159281	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 159281	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 159281	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+159281	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+159281	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+159281	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+159281	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 159281	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.78 6						
 159282	dm	dm(II)/	dm (II)	n. m. sg.	blood	

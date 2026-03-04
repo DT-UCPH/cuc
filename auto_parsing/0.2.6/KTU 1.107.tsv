@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152932	wxrṣ	?	?	?	?	DULAT: NOT FOUND
 152933	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
 152934	ydrm	ndr[+m(I)	/n-d-r/	vb	to make a vow	
-152934	ydrm	ydrm/	ydrm	PN	ydrm	
+152934	ydrm	ydrm/	ydrm	PN sg.	ydrm	
 152935	pit	pit/	pỉt	n. m.	temple	
 152936	adm	adm(I)/	ảdm (I)	n. m. sg.	man	
 152936	adm	(ʔ&adm[	/ʔ-d-m/	vb G suffc. 3 m. sg.	to be	
@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152937	xxxxxxiṯx	?	?	?	?	DULAT: NOT FOUND
 152938	yšql	ql[ql	/q-l/	vb	to fall (down)	
 152939	yṯkxxxn	?	?	?	?	DULAT: NOT FOUND
-152940	pbl	pbl/	pbl	PN	pbl	
+152940	pbl	pbl/	pbl	PN sg.	pbl	
 152941	hn	hn	hn	functor	behold!	
 # KTU 1.107 5						
 152942	xxxxxxṭbt	?	?	?	?	DULAT: NOT FOUND
@@ -72,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152963	šr	šr(II)/	šr (II)	n. m. sg.	musician	
 152963	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
 152963	šr	šr(III)/	šr (III)	n. m. sg.	Prince	
-152964	šrġzz	šrġzz/	šrġzz	DN	the Devil is a munificent one	
+152964	šrġzz	šrġzz/	šrġzz	DN sg.	the Devil is a munificent one	
 152965	ybky	!y!bky[	/b-k-y/	vb G prefc. 3 m. sg.	to weep	
 152966	km	k(III)	k (III)	functor	when	
 152966	km	k(I)	k (I)	prep.	like	
@@ -112,7 +112,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152983	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
 152983	šr	šr(III)/	šr (III)	n. m. sg.	Prince	
 # KTU 1.107 11						
-152984	šrġzz	šrġzz/	šrġzz	DN	the Devil is a munificent one	
+152984	šrġzz	šrġzz/	šrġzz	DN sg.	the Devil is a munificent one	
 152985	w	w	w	conj.	and	
 152986	tpky	bky[y	/b-k-y/	vb G prefc.	to weep	
 152987	bm	b+m(I)	b	prep.	in	
@@ -134,7 +134,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152992	bkm	!!bk(y[/~m	/b-k-y/	vb G inf.	to weep	
 152992	bkm	bkm	bkm	adv.	next	
 152993	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-152994	šrġzz	šrġzz/	šrġzz	DN	the Devil is a munificent one	
+152994	šrġzz	šrġzz/	šrġzz	DN sg.	the Devil is a munificent one	
 152995	xxxxwth	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 13						
 152996	xxxnn	?	?	?	?	DULAT: NOT FOUND
@@ -257,7 +257,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153074	nxxx	?	?	?	?	DULAT: NOT FOUND
 153075	xxx	?	?	?	?	
 153076	xxxx	?	?	?	?	
-153077	ḥrn	ḥrn/	ḥrn	DN	Ḥôrānu	
+153077	ḥrn	ḥrn/	ḥrn	DN sg.	Ḥôrānu	
 153077	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr.	intestine(s)	
 # KTU 1.107 32						
 153078	xxxxxsp	?	?	?	?	DULAT: NOT FOUND
@@ -366,7 +366,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153132	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 153132	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 153133	w	w	w	conj.	and	
-153134	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+153134	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 # KTU 1.107 40						
 153135	tisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
 153135	tisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
@@ -375,19 +375,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153137	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
 153137	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
 153138	w	w	w	conj.	and	
-153139	ršp	ršp/	ršp	DN	Rašap	
+153139	ršp	ršp/	ršp	DN sg.	Rašap	
 153140	ḫyisp	?	?	?	?	DULAT: NOT FOUND
 153141	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
 153141	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 41						
-153142	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
+153142	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg.	ʿAṯtar	
 153143	w	w	w	conj.	and	
 153144	ˤṯtpr	?	?	?	?	DULAT: NOT FOUND
 153145	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
 153145	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
 153146	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
 153146	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
-153147	ẓẓ	ẓẓ/	ẓẓ	element/DN	ẓẓ	
+153147	ẓẓ	ẓẓ/	ẓẓ	element/DN sg.	ẓẓ	
 153148	w	w	w	conj.	and	
 153149	ktṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 42						
@@ -398,13 +398,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153152	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 153152	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 153153	b	b	b	prep.	in	
-153154	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+153154	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 153155	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
 153155	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
 153156	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg.	venom	
 153156	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg.	wall	
 # KTU 1.107 43						
-153157	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
+153157	kṯr	kṯr(III)/	kṯr (III)	DN/element sg.	Koṯaru/Kothar	
 153158	wḫss	?	?	?	?	DULAT: NOT FOUND
 153159	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
 153159	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
@@ -415,6 +415,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153163	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 153163	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 153163	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+153163	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+153163	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+153163	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+153163	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 153163	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 1.107 44						
 153164	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
@@ -483,7 +487,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153197	b	b	b	prep.	in	
 153198	ym	ym(I)/	ym (I)	n. m. sg.	day	
 153198	ym	ym(II)/	ym (II)	n. m. sg.	sea	
-153199	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+153199	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
+153199	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
+153199	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to)	
+153199	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to)	
+153199	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
+153199	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 # KTU 1.107 50						
 153200	xxxxxxxxxxxbryxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 51						

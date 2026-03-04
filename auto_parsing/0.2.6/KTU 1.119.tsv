@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154143	b	b	b	prep.	in	
 154144	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
 154144	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
-154145	ibˤlt	ibˤlt/	ỉbʕlt	MN	where-is-the- Mistress?	
+154145	ibˤlt	ibˤlt/	ỉbʕlt	MN sg.	where-is-the- Mistress?	
 154146	b	b	b	prep.	in	
 154147	ym	ym(I)/	ym (I)	n. m. sg.	day	
 154147	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -22,7 +22,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154157	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154158	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 154158	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
-154159	ugrt	ugrt/	ủgrt	TN	Ugarit	
+154158	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+154158	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+154158	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
+154159	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 154160	xx	?	?	?	?	
 154161	šxxy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.119 4						
@@ -89,6 +92,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154193	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154194	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 154194	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
+154194	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+154194	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+154194	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 # KTU 1.119 10						
 154195	lgrt	?	?	?	?	DULAT: NOT FOUND
 154196	imr	imr(I)/	ỉmr (I)	n. m. sg.	lamb	
@@ -102,7 +108,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154202	b	b	b	prep.	in	
 154203	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 154204	ṯˤšrt	?	?	?	?	DULAT: NOT FOUND
-154205	ibˤlt	ibˤlt/	ỉbʕlt	MN	where-is-the- Mistress?	
+154205	ibˤlt	ibˤlt/	ỉbʕlt	MN sg.	where-is-the- Mistress?	
 # KTU 1.119 12						
 154206	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
 154206	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
@@ -113,11 +119,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154209	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 154209	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 154209	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
-154210	ugrt	ugrt/	ủgrt	TN	Ugarit	
+154210	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 # KTU 1.119 13						
 154211	u	u	ủ	conj.	or	
 154212	urm	ur/+m(I)	ủr	n. m. cstr.	warmth	
-154212	urm	urm/	ủrm	PN	ủrm	
+154212	urm	urm/	ủrm	PN sg.	ủrm	
 154213	u	u	ủ	conj.	or	
 154214	šnpt	šnp(t/t	šnpt	n. f. sg.	wave- offering	
 154215	l	l(I)	l (I)	prep.	to	
@@ -136,7 +142,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154220	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 154221	l	l(I)	l (I)	prep.	to	
 154221	l	l(III)	l (III)	functor	certainly	
-154222	išḫry	išḫry/	ỉ/ủšḫry	DN	ỉ/ủšḫry	
+154222	išḫry	išḫry/	ỉ/ủšḫry	DN sg.	ỉ/ủšḫry	
 # KTU 1.119 15						
 154223	npš	npš(I)/	npš (I)	n. f. sg.	throat	
 154224	l	l(I)	l (I)	prep.	to	
@@ -178,7 +184,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154251	l	l(I)	l (I)	prep.	to	
 154252	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 # KTU 1.119 22						
-154253	ugrt	ugrt/	ủgrt	TN	Ugarit	
+154253	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 154254	b	b	b	prep.	in	
 154255	bt	bt(II)/	bt (II)	n. m. sg.	house	
 154255	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
@@ -200,10 +206,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154265	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 154266	hn	hn	hn	functor	behold!	
 154267	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
-154268	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-154268	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-154268	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-154268	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+154268	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 # KTU 1.119 25						
 154269	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 154269	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
@@ -238,7 +241,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154284	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 154285	al	al(I)	ảl (I)	neg. functor	no	
 154285	al	al(II)	ảl (II)	pos. functor	surely	
-154286	tdy	ydy(I)[	/y-d-y/ (I)	vb G prefc.	to throw	
+154286	tdy	!t!(ydy[	/y-d-y/ (I)	vb G prefc. 3 f. sg.	to throw	
+154286	tdy	!t=!(ydy[	/y-d-y/ (I)	vb G prefc. 2 m. sg.	to throw	
+154286	tdy	!t==!(ydy[	/y-d-y/ (I)	vb G prefc. 2 f. sg.	to throw	
+154286	tdy	!t!(ydy[	/y-d-y/ (I)	vb G prefc. 3 m. du.	to throw	
+154286	tdy	!t!(ydy[:w	/y-d-y/ (I)	vb G prefc. 3 m. pl.	to throw	
+154286	tdy	!t===!(ydy[	/y-d-y/ (I)	vb G prefc. 2 m. pl.	to throw	
 154287	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 154287	ˤz	ˤz(II)/	ʕz (II)	n. m. sg.	caprine animal	
 154287	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg.	strong	
@@ -296,6 +304,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154312	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154313	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
 154313	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
+154313	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+154313	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+154313	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 # KTU 1.119 34						
 154314	ntlk	?	?	?	?	DULAT: NOT FOUND
 154315	w	w	w	conj.	and	

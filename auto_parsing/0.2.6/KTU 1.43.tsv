@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148779	k	k(I)	k (I)	prep.	like	
 148779	k	k(II)	k (II)	emph. functor	yes	
 148780	tˤrb	!t!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
-148781	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+148781	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 148782	ḫr	ḫr(I)/	ḫr (I)	n. m. sg.	cave	
 148783	gb	gb(I)/	gb (I)	n. m. sg.	pit	
 # KTU 1.43 2						
@@ -66,11 +66,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148812	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 148813	l	l(I)	l (I)	prep.	to	
 148813	l	l(III)	l (III)	functor	certainly	
-148814	kṯr	kṯr(III)/	kṯr (III)	DN/element	Koṯaru/Kothar	
+148814	kṯr	kṯr(III)/	kṯr (III)	DN/element sg.	Koṯaru/Kothar	
 # KTU 1.43 9						
 148815	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 148816	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
-148817	gṯrm	gṯr/+m(I)	gṯr	DN cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+148817	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 10						
 148818	bt	bt(II)/	bt (II)	n. m. sg.	house	
 148818	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
@@ -99,7 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.43 13						
 148834	l	l(I)	l (I)	prep.	to	
 148834	l	l(III)	l (III)	functor	certainly	
-148835	ˤnth	ˤn(t(I)/t	ʕnt (I)	DN f.	ʿAnatu/Anat	
+148835	ˤnth	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 148836	ṯql	ṯql/	ṯql	n. m. sg.	shekel	
 148837	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 # KTU 1.43 14						
@@ -123,7 +123,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.43 16						
 148850	l	l(I)	l (I)	prep.	to	
 148850	l	l(III)	l (III)	functor	certainly	
-148851	ˤnth	ˤn(t(I)/t	ʕnt (I)	DN f.	ʿAnatu/Anat	
+148851	ˤnth	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 148852	bt	bt(II)/	bt (II)	n. m. sg.	house	
 148852	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 148853	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
@@ -136,7 +136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148857	lˤntm	?	?	?	?	DULAT: NOT FOUND
 148858	l	l(I)	l (I)	prep.	to	
 148858	l	l(III)	l (III)	functor	certainly	
-148859	gṯrm	gṯr/+m(I)	gṯr	DN cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+148859	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 18						
 148860	ap	ap(I)	ảp (I)	adv./conj.	also	
 148860	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
@@ -152,7 +152,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148866	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 148867	l	l(I)	l (I)	prep.	to	
 148867	l	l(III)	l (III)	functor	certainly	
-148868	gṯrm	gṯr/+m(I)	gṯr	DN cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+148868	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 148869	dkrm	dkr/m	dkr	n. m. pl.	male animal	
 # KTU 1.43 20						
 148870	ap	ap(I)	ảp (I)	adv./conj.	also	

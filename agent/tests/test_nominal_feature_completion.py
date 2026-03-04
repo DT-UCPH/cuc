@@ -50,7 +50,7 @@ class NominalFeatureCompletionTest(unittest.TestCase):
         rewritten = rewrite_row(row, completer)
         self.assertEqual(rewritten.pos, "n. f. sg.")
 
-    def test_preserves_name_class_when_no_additional_features_exist(self) -> None:
+    def test_preserves_name_class_while_defaulting_to_singular(self) -> None:
         completer = NominalFeatureCompleter(_FakeReader({("ṣpn", "ṣpn"): _Features(("",))}))
         row = TabletRow(
             "139817",
@@ -62,7 +62,21 @@ class NominalFeatureCompletionTest(unittest.TestCase):
             "",
         )
         rewritten = rewrite_row(row, completer)
-        self.assertEqual(rewritten.pos, "TN/DN")
+        self.assertEqual(rewritten.pos, "TN/DN sg.")
+
+    def test_defaults_names_to_singular_when_no_number_is_available(self) -> None:
+        completer = NominalFeatureCompleter(_FakeReader({("ṣpn", "ṣpn"): _Features(("",))}))
+        row = TabletRow(
+            "139817",
+            "ṣpn",
+            "ṣpn/",
+            "ṣpn",
+            "TN/DN",
+            "Ṣapānu/Zaphon/the mountain dwelling of bʕl deified",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.pos, "TN/DN sg.")
 
 
 if __name__ == "__main__":

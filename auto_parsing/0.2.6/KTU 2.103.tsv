@@ -37,7 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160465	ky	k(II)	k (II)	emph. functor	yes	
 160465	ky	k(IV)	k (IV)	adv.	thus	
 160466	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	
-160466	ḫbt	ḫbt(II)/	ḫbt (II)	DN	Bien-amada	
+160466	ḫbt	ḫbt(II)/	ḫbt (II)	DN sg.	Bien-amada	
 160467	w	w	w	conj.	and	
 160468	lušal	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 12						
@@ -95,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 22						
 160498	lkn	l(I)+kn	l (I)	prep.	to	
 160498	lkn	l(I)+n	l (I)	prep.	to	
-160498	lkn	lkn/	lkn	PN	lkn	
+160498	lkn	lkn/	lkn	PN sg.	lkn	
 # KTU 2.103 23						
 160499	mxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 24						
@@ -129,11 +129,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160516	p	p(I)	p (I)	conj. functor	and	
 160516	p	p(III)/	p (III)	n. m. sg.	mouth	
 160516	p	p(II)	p (II)	adv.	here	
-160517	bnil	bnil/	bnỉl	PN	bnỉl	
+160517	bnil	bnil/	bnỉl	PN sg.	bnỉl	
 160518	šḥš	]š]ḥš(I)[	/ḥ-š/ (I)	vb Š impv. 2	to hurry	
 160519		?	?	?	?	
 # KTU 2.103 33						
-160520	ˤkd	ˤkd/	ʕkd	TN	ungestüm	
+160520	ˤkd	ˤkd/	ʕkd	TN sg.	ungestüm	
 160521	w	w	w	conj.	and	
 160522	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 160522	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	

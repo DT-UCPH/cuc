@@ -37,6 +37,18 @@ class SpacyMorphContextTest(unittest.TestCase):
         )
         self.assertEqual(len(doc[0]._.resolved_candidates), 2)
 
+    def test_prefers_plural_candidate_from_previous_plural_subject(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tilm\til(I)/m\tỉl (I)\tn. m. pl.\tgod\t",
+            "2\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "3\tytn\t!y!(ytn[\t/y-t-n/\tvb G prefc. 3 m. sg.\tto give\t",
+            "3\tytn\t!t!(ytn[:w\t/y-t-n/\tvb G prefc. 3 m. pl.\tto give\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[2]._.resolved_candidates],
+            ["vb G prefc. 3 m. pl."],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

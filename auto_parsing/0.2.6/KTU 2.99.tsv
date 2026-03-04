@@ -13,11 +13,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 4						
 160281	hlny	hlny	hlny	deictic adv. functor	behold	
 160282	klby	klb(I)/+y	klb (I)	n. m. cstr.	dog	
-160282	klby	klby/	klby	PN	klby	
+160282	klby	klby/	klby	PN sg.	klby	
 # KTU 2.99 5						
 160283	w	w	w	conj.	and	
 160284	gtn	gt/+n	gt	n. f. cstr.	gittu	
-160284	gtn	gtn/	gtn	PN	gtn	
+160284	gtn	gtn/	gtn	PN sg.	gtn	
 160285	yit	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 6						
 160286	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
@@ -64,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 18						
 160307	tqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 # KTU 2.99 19						
-160308	pln	pln/	pln	PN	pln	
+160308	pln	pln/	pln	PN sg.	pln	
 160308	pln	pl[+n	/p-l(-l)/	vb G suffc.	to be cracked	
 # KTU 2.99 20						
 160309	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	

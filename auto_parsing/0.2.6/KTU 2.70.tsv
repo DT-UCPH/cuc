@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158833	l	l(II)	l (II)	adv.	no	
 158833	l	l(III)	l (III)	functor	certainly	
 158834	ydrm	ndr[+m(I)	/n-d-r/	vb	to make a vow	
-158834	ydrm	ydrm/	ydrm	PN	ydrm	
+158834	ydrm	ydrm/	ydrm	PN sg.	ydrm	
 158835	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 # KTU 2.70 2						
 158836	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -14,10 +14,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158836	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.70 3						
 158837	atḥm	?	?	?	?	DULAT: NOT FOUND
-158838	pnḥṯ	pnḥṯ/	pnḥṯ	PN	pnḥṯ	
+158838	pnḥṯ	pnḥṯ/	pnḥṯ	PN sg.	pnḥṯ	
 # KTU 2.70 4						
 158839	w	w	w	conj.	and	
-158840	yrmhd	yrmhd/	yrmhd	PN	yrmhd	
+158840	yrmhd	yrmhd/	yrmhd	PN sg.	yrmhd	
 # KTU 2.70 5						
 158841	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
 158842	p	p(I)	p (I)	conj. functor	and	
@@ -26,6 +26,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158843	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158843	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158843	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158843	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158843	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158843	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158843	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158843	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.70 6						
 158844	l	l(I)	l (I)	prep.	to	
@@ -53,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158857	bn	bn(II)	bn (II)	prep.	between	
 158857	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 158857	bn	bn[	/b-n/	vb G impv. 2	to understand	
-158858	ˤyn	ˤyn/	ʕyn	PN	ʿyn	
+158858	ˤyn	ˤyn/	ʕyn	PN sg.	ʿyn	
 # KTU 2.70 12						
 158859	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 158860	ˤm	ˤm(I)	ʕm (I)	prep.	to	
@@ -87,7 +91,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158877	bn	bn(II)	bn (II)	prep.	between	
 158877	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 158877	bn	bn[	/b-n/	vb G impv. 2	to understand	
-158878	ˤyn	ˤyn/	ʕyn	PN	ʿyn	
+158878	ˤyn	ˤyn/	ʕyn	PN sg.	ʿyn	
 # KTU 2.70 18						
 158879	w	w	w	conj.	and	
 158880	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
@@ -142,6 +146,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158904	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 158904	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158904	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158904	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158904	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158904	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158904	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158904	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 2.70 27						
 158905	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	

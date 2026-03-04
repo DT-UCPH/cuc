@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161753	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161753	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161754	ḫzrn	ḫzr/+n	ḫzr	n. m. cstr.	assistant	
-161754	ḫzrn	ḫzrn/	ḫzrn	PN	ḫzrn	
+161754	ḫzrn	ḫzrn/	ḫzrn	PN sg.	ḫzrn	
 # KTU 3.23 7						
 161755	w	w	w	conj.	and	
 161756	nit	ni(t/t	nỉt	n. f. sg.	axe	
@@ -46,7 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161763	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161763	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161763	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161764	rṣn	rṣn/	rṣn	PN	rṣn	
+161764	rṣn	rṣn/	rṣn	PN sg.	rṣn	
 # KTU 3.23 11						
 161765	w	w	w	conj.	and	
 161766	nit	ni(t/t	nỉt	n. f. sg.	axe	
@@ -88,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161785	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161785	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
 161785	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161786	tgyn	tgyn/	tgyn	PN	tgyn	
+161786	tgyn	tgyn/	tgyn	PN sg.	tgyn	
 # KTU 3.23 21						
 161787	w	w	w	conj.	and	
 161788	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -109,4 +109,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161792	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161793	lbn	lb/+n	lb	n. m. cstr.	heart	
 161793	lbn	lbn(I)/	lbn (I)	adj. m.	white	
-161793	lbn	lbn(II)/	lbn (II)	PN	lbn (II)	
+161793	lbn	lbn(II)/	lbn (II)	PN sg.	lbn (II)	

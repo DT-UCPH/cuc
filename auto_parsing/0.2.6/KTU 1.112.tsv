@@ -93,7 +93,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 13						
 153640	yn	yn/	yn	n. m. sg.	wine	
 153641	l	l(I)	l (I)	prep.	to	
-153642	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
+153642	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
 153643	ḫr	ḫr(I)/	ḫr (I)	n. m. sg.	cave	
 153644	b	b	b	prep.	in	
 153645	ˤšt	ˤš(t/t	ʕšt(y)	num. sg.	one	
@@ -131,7 +131,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153662	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 153663	yrdn	!y!(yrd[+n	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
 153663	yrdn	yrdn[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
-153664	gṯrm	gṯr/+m(I)	gṯr	DN cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+153664	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.112 19						
 153665	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr.	(feast / banquet of) game	
 153665	mṣdh	mṣd(III)/~h	mṣd (III)	TN sg.	mṣd (III)	
@@ -149,7 +149,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153670	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 153670	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
 153670	rgm	rgm/	rgm	n. m. sg.	word	
-153671	gṯrm	gṯr/+m(I)	gṯr	DN cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+153671	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 153672	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 153672	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š prefc.	to sit down	
 # KTU 1.112 21						
@@ -169,7 +169,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153681	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 153681	il	il(I)/	ỉl (I)	n. m. sg.	god	
 153681	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-153682	šbˤl	šbˤl/	šbʕl	PN	šbʿl	
+153682	šbˤl	šbˤl/	šbʕl	PN sg.	šbʿl	
 153683	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 # KTU 1.112 23						
 153684	pn	pn(m/	pnm	n. m. pl. cstr.	face	
@@ -178,7 +178,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153686	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
 153686	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 153686	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
-153687	ugrt	ugrt/	ủgrt	TN	Ugarit	
+153687	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
 153688	š	š/	š	n. m. sg.	ram	
 153689	ṯnšm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 24						
@@ -192,7 +192,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153693	šm	šm(I)/	šm (I)	n. m. sg.	name	
 153694	l	l(I)	l (I)	prep.	to	
 153694	l	l(III)	l (III)	functor	certainly	
-153695	btbt	btbt/	btbt	DN	btbt	
+153695	btbt	btbt/	btbt	DN sg.	btbt	
 153696	w	w	w	conj.	and	
 153697	l	l(I)	l (I)	prep.	to	
 153697	l	l(III)	l (III)	functor	certainly	
@@ -201,7 +201,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153699	mgdl	mgdl/	mgdl	n. m. sg.	tower	
 153700	š	š/	š	n. m. sg.	ram	
 153701	w	w	w	conj.	and	
-153702	aġt	aġt/	ảġt	TN	une ảġt	
+153702	aġt	aġt/	ảġt	TN sg.	une ảġt	
 # KTU 1.112 26						
 153703	w	w	w	conj.	and	
 153704	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
@@ -222,10 +222,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153711	ṯṯt	ṯṯ/	ṯṯ	nuf.	six	
 153712	ˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 28						
-153713	rt	rt/	rt	PN	rt	
+153713	rt	rt/	rt	PN sg.	rt	
 153714	šl	šl[	/š-l(-l)/	vb G suffc. 3 m. sg.	to plunder	
 153714	šl	!!šl[/	/š-l(-l)/	vb G inf.	to plunder	
-153715	btbt	btbt/	btbt	DN	btbt	
+153715	btbt	btbt/	btbt	DN sg.	btbt	
 153716	w	w	w	conj.	and	
 153717	x	?	?	?	?	
 # KTU 1.112 29						

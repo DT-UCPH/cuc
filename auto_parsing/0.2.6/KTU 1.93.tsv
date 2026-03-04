@@ -2,7 +2,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.93 1						
 151462	arḫ	arḫ/	ảrḫ	n. f. sg.	cow	
 151463	td	ndd[	/n-d-d/	vb G prefc.	to go	
-151463	td	ydy(I)[	/y-d-y/ (I)	vb G prefc.	to throw	
+151463	td	!t!(yd(y[	/y-d-y/ (I)	vb G prefc. 3 f. sg.	to throw	
+151463	td	!t=!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 m. sg.	to throw	
+151463	td	!t==!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 f. sg.	to throw	
+151463	td	!t!(yd(y[	/y-d-y/ (I)	vb G prefc. 3 m. du.	to throw	
+151463	td	!t!(yd(y[:w	/y-d-y/ (I)	vb G prefc. 3 m. pl.	to throw	
+151463	td	!t===!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 m. pl.	to throw	
 151463	td	nd[	/n-d(-y)/	vb G prefc.	to throw	
 151464	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 151464	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	

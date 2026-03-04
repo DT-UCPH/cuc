@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151170	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 151170	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.90 2						
-151171	ršp	ršp/	ršp	DN	Rašap	
+151171	ršp	ršp/	ršp	DN sg.	Rašap	
 151172	ḥgb	ḥgb/	ḥgb	n. m. sg.	locust	
 151173	ap	ap(I)	ảp (I)	adv./conj.	also	
 151173	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
@@ -68,16 +68,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151203	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 151203	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 151203	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+151203	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+151203	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+151203	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+151203	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 151203	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 1.90 19						
 151204	xxx	?	?	?	?	
 151205	š	š/	š	n. m. sg.	ram	
 151206	l	l(I)	l (I)	prep.	to	
 151206	l	l(III)	l (III)	functor	certainly	
-151207	alit	alit/	ảlỉt	DN	the most powerful	
+151207	alit	alit/	ảlỉt	DN sg.	the most powerful	
 # KTU 1.90 20						
 151208	xxx	?	?	?	?	
-151209	ršp	ršp/	ršp	DN	Rašap	
+151209	ršp	ršp/	ršp	DN sg.	Rašap	
 151210	š	š/	š	n. m. sg.	ram	
 # KTU 1.90 21						
 151211	l	l(I)	l (I)	prep.	to	
@@ -86,6 +90,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151212	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 151212	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 151212	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+151212	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+151212	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+151212	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+151212	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 151212	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 151213	w	w	w	conj.	and	
 151214	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	

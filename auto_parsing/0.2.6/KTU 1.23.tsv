@@ -57,12 +57,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147126	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 147126	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 147126	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+147126	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+147126	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+147126	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+147126	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 147126	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 147127	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 147127	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 147128	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 147128	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 147128	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+147128	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+147128	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+147128	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+147128	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 147128	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 147129	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
 147130	ˤrbm	ˤrb(II)/m	ʕrb (II)	n. m. pl.	officiant	
@@ -143,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147166	w	w	w	conj.	and	
 147167	rḥmy	rḥm/+y	rḥm	n. f. cstr.	womb	
 147167	rḥmy	rḥ(III)&m/+y	rḥ (III)	n. m. cstr.	millstone	
-147167	rḥmy	rḥmy/	rḥmy	DN	rḥmy	
+147167	rḥmy	rḥmy/	rḥmy	DN sg.	rḥmy	
 # KTU 1.23 14						
 147168	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 147168	ˤl	ˤl(II)	ʕl (II)	adv.	above	
@@ -178,7 +186,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147184	tlkm	hlk[~m	/h-l-k/	vb G suffc.	to go	
 147185	rḥmy	rḥm/+y	rḥm	n. f. cstr.	womb	
 147185	rḥmy	rḥ(III)&m/+y	rḥ (III)	n. m. cstr.	millstone	
-147185	rḥmy	rḥmy/	rḥmy	DN	rḥmy	
+147185	rḥmy	rḥmy/	rḥmy	DN sg.	rḥmy	
 147186	w	w	w	conj.	and	
 147187	tṣd	!t!ṣd[	/ṣ-d/	vb G prefc.	to hunt	
 # KTU 1.23 17						
@@ -236,10 +244,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.23 26						
 147221	w	w	w	conj.	and	
 147222	ġnbm	ġnb/m	ġnb	n. m. pl.	grape(s)	
-147223	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
-147223	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-147223	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-147223	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+147223	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 147224	ˤrbm	ˤrb(II)/m	ʕrb (II)	n. m. pl.	officiant	
 147225	ṯnnm	ṯnn(I)/m	ṯnn (I)	n. m. pl.	archer	
 # KTU 1.23 27						
@@ -268,7 +273,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147234	w	w	w	conj.	and	
 147235	rḥmy	rḥm/+y	rḥm	n. f. cstr.	womb	
 147235	rḥmy	rḥ(III)&m/+y	rḥ (III)	n. m. cstr.	millstone	
-147235	rḥmy	rḥmy/	rḥmy	DN	rḥmy	
+147235	rḥmy	rḥmy/	rḥmy	DN sg.	rḥmy	
 # KTU 1.23 29						
 147236	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 147236	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
@@ -302,8 +307,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147253	agn	agn/	ảgn	n. m. sg.	cauldron	
 # KTU 1.23 32						
 147254	hlh	hlh	hlh	deictic adv. functor	look!	
-147255	tšpl	!t!špl[	/š-p-l/	vb G	to bend down	
-147255	tšpl	!t!špl[:d	/š-p-l/	vb D prefc.	to bend down	
+147255	tšpl	!t!špl[:d:w	/š-p-l/	vb D prefc. 3 m. pl.	to bend down	
 147256	hlh	hlh	hlh	deictic adv. functor	look!	
 147257	trm	!t!rm[	/r-m/	vb G prefc.	to go up	
 147257	trm	tr(I)/m	tr (I)	n. m. pl.	pole	
@@ -397,6 +401,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147298	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 147299	ḫṭh	ḫṭ/h	ḫṭ	n. m. sg.	sceptre	
 147300	nḥt	nḥt[:d	/n-ḥ-t/	vb D suffc. 3 m. sg.	to take down (for oneself) > to reach for	
+147300	nḥt	nḥt[:d:w	/n-ḥ-t/	vb D suffc. 3 m. pl.	to take down (for oneself) > to reach for	
+147300	nḥt	nḥt[:dt=	/n-ḥ-t/	vb D suffc. 2 m. sg.	to take down (for oneself) > to reach for	
+147300	nḥt	nḥt[:dt==	/n-ḥ-t/	vb D suffc. 2 f. sg.	to take down (for oneself) > to reach for	
+147300	nḥt	nḥt[:dt	/n-ḥ-t/	vb D suffc. 1 c. sg.	to take down (for oneself) > to reach for	
 147301	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 147301	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
 147301	il	il(I)/	ỉl (I)	n. m. sg.	god	
@@ -656,12 +664,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.23 52						
 147420	tldn	!!yld[/+n	/y-l-d/	vb G inf.	to give birth (to)	
 147420	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
-147420	tldn	tldn/	tldn	PN	tldn	
+147420	tldn	tldn/	tldn	PN sg.	tldn	
 147421	šḥr	šḥr/	šḥr	n. m. sg.	dawn	
 147422	w	w	w	conj.	and	
 147423	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 147423	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 147423	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+147423	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+147423	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+147423	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+147423	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 147423	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 147424	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 147424	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -691,6 +703,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147436	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
 147436	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 147436	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+147436	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+147436	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+147436	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+147436	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 147436	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
 # KTU 1.23 54						
 147437	šu	nšʔ[	/n-š-ʔ/	vb G impv. 2	to raise	
@@ -750,10 +766,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147473	w	w	w	conj.	and	
 147474	tldn	!!yld[/+n	/y-l-d/	vb G inf.	to give birth (to)	
 147474	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
-147474	tldn	tldn/	tldn	PN	tldn	
+147474	tldn	tldn/	tldn	PN sg.	tldn	
 147475	tldn	!!yld[/+n	/y-l-d/	vb G inf.	to give birth (to)	
 147475	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
-147475	tldn	tldn/	tldn	PN	tldn	
+147475	tldn	tldn/	tldn	PN sg.	tldn	
 147476	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 147476	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 147477	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl.	handsome	
@@ -863,7 +879,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147536	bn	bn(II)	bn (II)	prep.	between	
 147536	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 147536	bn	bn[	/b-n/	vb G impv. 2	to understand	
-147537	ašld	]š]yld[d	/y-l-d/	vb Š prefc.	to give birth (to)	
+147537	ašld	!(ʔ&a!]š](yld[	/y-l-d/	vb Š prefc. 1 c. sg.	to give birth (to)	
 147538	šu	nšʔ[	/n-š-ʔ/	vb G impv. 2	to raise	
 147539	ˤdb	ˤdb[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to leave > to put in	
 147539	ˤdb	ˤdb[	/ʕ-d-b/	vb G impv. 2	to leave > to put in	
@@ -896,7 +912,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147556	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 147557	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl.	handsome	
 147558	ttlkn	h]t]lk[+n	/h-l-k/	vb	to go	
-147558	ttlkn	ttl/+kn	ttl	TN cstr.	ttl	
+147558	ttlkn	ttl/+kn	ttl	TN sg. cstr.	ttl	
 # KTU 1.23 68						
 147559	šd	šd(I)/	šd (I)	n. m. sg.	open field	
 147559	šd	šd(I)/	šd (I)	n. m. sg. cstr.	open field	
@@ -994,8 +1010,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147610	lḥm	!!lḥm(I)[/	/l-ḥ-m/ (I)	vb G inf.	to eat	
 147610	lḥm	lḥm/	lḥm	n. m. sg.	grain	
 147610	lḥm	lḥ(I)/m	lḥ (I)	n. f. pl.	cheek	
-147611	bbt	bbt(II)/	bbt (II)	DN	superintendent	
-147611	bbt	bbt(I)/	bbt (I)	TN	bbt (I)	
+147611	bbt	bbt(II)/	bbt (II)	DN sg.	superintendent	
+147611	bbt	bbt(I)/	bbt (I)	TN sg.	bbt (I)	
 # KTU 1.23 74						
 147612	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg.	presence	
 147613	yn	yn/	yn	n. m. sg.	wine	
