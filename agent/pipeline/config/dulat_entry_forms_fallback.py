@@ -23,6 +23,10 @@ _ITALIC_BRACKET_JOIN_RE = re.compile(
     r"<i>\s*([^<]+?)\s*</i>\s*\[\s*<i>\s*([^<]+?)\s*</i>\s*\]",
     flags=re.IGNORECASE,
 )
+_ITALIC_CURLY_EDITORIAL_JOIN_RE = re.compile(
+    r"<i>\s*([^<]+?)\s*</i>\s*\{\s*<i>\s*([^<]+?)\s*</i>\s*\}\s*<i>\s*([^<]+?)\s*</i>",
+    flags=re.IGNORECASE,
+)
 _PREV_TOKEN_RE = re.compile(r"([A-Za-z0-9À-ÖØ-öø-ÿŠṮṯḫḥḏẓʿʕʔ/\\-]+\.?)\s*$")
 _ABBR_INDEX = frozenset(
     {
@@ -111,6 +115,13 @@ def _merge_word_break_italic_tokens(html_text: str) -> str:
     while True:
         body, n_subs = _ITALIC_BRACKET_JOIN_RE.subn(
             lambda m: f"<i>{m.group(1)}{m.group(2)}</i>",
+            body,
+        )
+        if n_subs == 0:
+            break
+    while True:
+        body, n_subs = _ITALIC_CURLY_EDITORIAL_JOIN_RE.subn(
+            lambda m: f"<i>{m.group(1)}{m.group(2)}{m.group(3)}</i>",
             body,
         )
         if n_subs == 0:

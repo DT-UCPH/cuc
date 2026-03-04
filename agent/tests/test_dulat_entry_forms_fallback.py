@@ -60,6 +60,15 @@ class DulatEntryFormsFallbackTest(unittest.TestCase):
         self.assertNotIn("wm", forms)
         self.assertNotIn("wt", forms)
 
+    def test_preserves_curly_brace_editorial_letters_inside_one_form(self) -> None:
+        text = (
+            "<b>¶ Forms:</b> G suffc. <i>šlm</i>; prefc. <i>yšlm</i>; "
+            "D prefc. <i>tš</i>{<i>š</i>}<i>lmn</i>; suff. <i>tšlmk</i>. <br><b>G</b>."
+        )
+        forms = extract_forms_from_entry_text(text)
+        self.assertIn("tššlmn", forms)
+        self.assertNotIn("lmn", forms)
+
 
 if __name__ == "__main__":
     unittest.main()
