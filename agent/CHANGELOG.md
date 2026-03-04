@@ -2,6 +2,9 @@
 # Changelog
 
 ## 2026-03-04
+- Replaced the legacy `formula-trigram` + `formula-bigram` chain with a row-level spaCy `pipeline/steps/spacy_formula_context.py` pass, added `pipeline/formula_context_step_factory.py`, and introduced `scripts/compare_formula_context_strategies.py` for exact-output comparison against the historical formula steps.
+- Added row-level spaCy helpers in `spacy_ugaritic/row_builder.py` and `spacy_ugaritic/row_rewriter.py`, plus focused coverage in `tests/test_spacy_formula_context.py`, exact-output equivalence coverage in `tests/test_spacy_formula_context_step.py`, and updated `tests/test_tablet_parsing_pipeline.py` for the new `spacy-formula-context` slot.
+- Ran the corpus comparison across all `278` target tablets after the swap: `0` output diffs versus the legacy formula chain.
 - Replaced the legacy `k-functor-bigram-context` step with a spaCy-backed `pipeline/steps/spacy_k_context.py` pass, added `pipeline/k_context_step_factory.py`, and introduced `scripts/compare_k_context_strategies.py` for exact-output comparison against the historical `k` step.
 - Added focused coverage in `tests/test_spacy_k_context.py`, exact-output equivalence coverage in `tests/test_spacy_k_context_step.py`, and updated `tests/test_tablet_parsing_pipeline.py` for the new `spacy-k-context` slot.
 - Ran the corpus comparison across all `278` target tablets after the swap: `0` output diffs versus the legacy `k` step.

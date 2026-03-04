@@ -9,6 +9,7 @@ import scripts.refine_results_mentions as refine
 from lint_reports.generator import LintReportGenerator
 from pipeline.config.surface_option_allowlist import SURFACE_OPTION_PROPAGATION_ALLOWLIST
 from pipeline.dulat_attestation_index import DulatAttestationIndex
+from pipeline.formula_context_step_factory import build_spacy_formula_context_steps
 from pipeline.instruction_refiner import InstructionRefiner
 from pipeline.k_context_step_factory import build_spacy_k_context_steps
 from pipeline.l_context_step_factory import build_spacy_l_context_steps
@@ -24,8 +25,6 @@ from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFix
 from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
 from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.feminine_t_singular_split import FeminineTSingularSplitFixer
-from pipeline.steps.formula_bigram import FormulaBigramFixer
-from pipeline.steps.formula_trigram import FormulaTrigramFixer
 from pipeline.steps.function_word_clitic_pruner import FunctionWordCliticPruner
 from pipeline.steps.generic_parsing_override import GenericParsingOverrideFixer
 from pipeline.steps.iii_aleph_case_fixer import IIIAlephCaseFixer
@@ -88,11 +87,12 @@ class TabletParsingPipeline:
         self.instruction_refiner = InstructionRefiner(dulat_db=self.config.dulat_db)
         self.morph_gate = DulatMorphGate(self.config.dulat_db)
         self.attestation_index = DulatAttestationIndex.from_sqlite(self.config.dulat_db)
-        self._pre_l_context_steps: List[RefinementStep] = [
+        self._pre_formula_context_steps: List[RefinementStep] = [
             TsvSchemaFormatter(),
             NounPosClosureFixer(),
-            FormulaTrigramFixer(),
-            FormulaBigramFixer(),
+        ]
+        self._formula_context_steps: List[RefinementStep] = build_spacy_formula_context_steps()
+        self._post_formula_context_steps: List[RefinementStep] = [
             OfferingListLPrepFixer(),
             PluralSplitFixer(gate=self.morph_gate),
             PluraleTantumMFixer(gate=self.morph_gate),
@@ -135,6 +135,7 @@ class TabletParsingPipeline:
                 udb_db=self.config.udb_db,
             ),
         ]
+        self._pre_l_context_steps: List[RefinementStep] = []
         self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps()
         self._pre_k_context_steps: List[RefinementStep] = []
         self._k_context_steps: List[RefinementStep] = build_spacy_k_context_steps()
@@ -156,6 +157,9 @@ class TabletParsingPipeline:
             TsvSchemaFormatter(),
         ]
         self._refinement_steps: List[RefinementStep] = [
+            *self._pre_formula_context_steps,
+            *self._formula_context_steps,
+            *self._post_formula_context_steps,
             *self._pre_l_context_steps,
             *self._l_context_steps,
             *self._pre_k_context_steps,
@@ -164,8 +168,26 @@ class TabletParsingPipeline:
         ]
 
     @property
+    def pre_formula_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._pre_formula_context_steps)
+
+    @property
+    def formula_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._formula_context_steps)
+
+    @property
+    def post_formula_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._post_formula_context_steps)
+
+    @property
     def pre_l_context_steps(self) -> Sequence[RefinementStep]:
-        return tuple(self._pre_l_context_steps)
+        return tuple(
+            [
+                *self._pre_formula_context_steps,
+                *self._formula_context_steps,
+                *self._post_formula_context_steps,
+            ]
+        )
 
     @property
     def l_context_steps(self) -> Sequence[RefinementStep]:

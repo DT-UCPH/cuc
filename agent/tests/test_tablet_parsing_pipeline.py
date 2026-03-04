@@ -7,6 +7,30 @@ from pipeline.tablet_parsing import PipelineConfig, TabletParsingPipeline
 
 
 class TabletParsingPipelineTest(unittest.TestCase):
+    def test_pipeline_uses_integrated_spacy_formula_context_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual(
+                [step.name for step in pipeline.formula_context_steps],
+                ["spacy-formula-context"],
+            )
+            self.assertNotIn("formula-trigram", [step.name for step in pipeline._refinement_steps])
+            self.assertNotIn("formula-bigram", [step.name for step in pipeline._refinement_steps])
+
     def test_pipeline_uses_integrated_spacy_l_context_step(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
@@ -303,6 +327,18 @@ class TabletParsingPipelineTest(unittest.TestCase):
             pipeline = TabletParsingPipeline(config=config)
             names = [step.name for step in pipeline._refinement_steps]
 
+            self.assertLess(
+                names.index("tsv-schema"),
+                names.index("noun-pos-closure"),
+            )
+            self.assertLess(
+                names.index("noun-pos-closure"),
+                names.index("spacy-formula-context"),
+            )
+            self.assertLess(
+                names.index("spacy-formula-context"),
+                names.index("offering-l-prep"),
+            )
             self.assertLess(
                 names.index("known-ambiguity-expander"),
                 names.index("suffix-payload-collapse"),
