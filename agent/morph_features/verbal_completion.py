@@ -1,0 +1,182 @@
+"""Deterministic verbal morphology completion from analysis + DULAT features."""
+
+from __future__ import annotations
+
+import re
+from typing import Sequence
+
+from morph_features.analysis_decoder import (
+    decode_analysis,
+    explicit_prefix_features,
+    explicit_suffix_conjugation_features,
+)
+from morph_features.dulat_feature_reader import DulatFeatureReader
+from morph_features.feature_bundle_builder import build_verbal_bundle
+from morph_features.pos_renderer import render_pos
+from morph_features.types import CompletedVariant
+from pipeline.steps.analysis_utils import reconstruct_surface_from_analysis
+from pipeline.steps.base import TabletRow
+
+_STEM_POS_RE = re.compile(r"\b(Gt|Dt|Lt|Nt|tD|tL|Št|Gpass|Dpass|Špass|G|D|L|N|R|Š)\b")
+_FORM_ORDER = {
+    "prefc.": 0,
+    "suffc.": 1,
+    "impv.": 2,
+    "inf.": 3,
+    "act. ptcpl.": 4,
+    "pass. ptcpl.": 5,
+    "ptcpl.": 6,
+}
+
+
+class VerbalFeatureCompleter:
+    """Complete and split verbal rows conservatively."""
+
+    def __init__(self, feature_reader: DulatFeatureReader) -> None:
+        self._reader = feature_reader
+
+    def complete_row(self, row: TabletRow) -> list[CompletedVariant]:
+        if "vb" not in (row.pos or "").lower():
+            return [self._variant(row.analysis, row.dulat, row.pos, row.gloss, row.comment)]
+
+        features = self._reader.read_surface_features(row.surface, row.dulat, row.pos)
+        stems = self._extract_stems(row.pos)
+        forms = self._extract_forms(row.pos, features.forms)
+        if not stems:
+            stems = [""]
+        if not forms:
+            return [self._variant(row.analysis, row.dulat, row.pos, row.gloss, row.comment)]
+
+        variants: list[CompletedVariant] = []
+        for form in forms:
+            analysis_variant = self._analysis_for_form(row, form)
+            decoded = decode_analysis(analysis_variant)
+            person, gender, number = self._features_for_form(form, decoded)
+            bundle = build_verbal_bundle(
+                stem=stems[0],
+                form=form,
+                person=person,
+                gender=gender,
+                number=number,
+                source="analysis+dulat",
+                confidence="high" if person or gender or number else "medium",
+                has_enclitic=decoded.has_enclitic,
+                enclitic_type=decoded.enclitic_marker,
+            )
+            variants.append(
+                CompletedVariant(
+                    analysis=analysis_variant,
+                    dulat=row.dulat,
+                    gloss=row.gloss,
+                    comment=row.comment,
+                    features=bundle,
+                )
+            )
+
+        deduped: list[CompletedVariant] = []
+        seen: set[tuple[str, str]] = set()
+        for variant in variants:
+            rendered = render_pos(variant.features, fallback=row.pos)
+            key = (variant.analysis, rendered)
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(variant)
+        return deduped or [self._variant(row.analysis, row.dulat, row.pos, row.gloss, row.comment)]
+
+    def _variant(
+        self, analysis: str, dulat: str, pos: str, gloss: str, comment: str
+    ) -> CompletedVariant:
+        bundle = build_verbal_bundle(
+            stem=self._extract_stems(pos)[0] if self._extract_stems(pos) else "",
+            form=self._extract_forms(pos, ())[0] if self._extract_forms(pos, ()) else "",
+            source="existing",
+        )
+        return CompletedVariant(
+            analysis=analysis, dulat=dulat, gloss=gloss, comment=comment, features=bundle
+        )
+
+    @staticmethod
+    def _extract_stems(pos_text: str) -> list[str]:
+        out: list[str] = []
+        for match in _STEM_POS_RE.findall(pos_text or ""):
+            if match not in out:
+                out.append(match)
+        return out
+
+    @staticmethod
+    def _extract_forms(pos_text: str, fallback_forms: Sequence[str]) -> list[str]:
+        explicit_forms = [label for label in _FORM_ORDER if label in (pos_text or "")]
+        if "act. ptcpl." in explicit_forms and "ptcpl." in explicit_forms:
+            explicit_forms.remove("ptcpl.")
+        if "pass. ptcpl." in explicit_forms and "ptcpl." in explicit_forms:
+            explicit_forms.remove("ptcpl.")
+        if explicit_forms:
+            return explicit_forms
+
+        return []
+
+    @staticmethod
+    def _analysis_for_form(row: TabletRow, form: str) -> str:
+        analysis = (row.analysis or "").strip()
+        if form == "suffc." and analysis.startswith("!"):
+            surface = reconstruct_surface_from_analysis(analysis)
+            suffix = VerbalFeatureCompleter._analysis_suffix_marker(analysis)
+            return f"{surface}[{suffix}" if suffix else f"{surface}["
+        return analysis
+
+    @staticmethod
+    def _analysis_suffix_marker(analysis: str) -> str:
+        if "[" not in analysis:
+            return ""
+        payload = analysis.split("[", 1)[1]
+        if not payload:
+            return ""
+        keep = []
+        for prefix in (":d", ":l", ":r", ":pass"):
+            if payload.startswith(prefix):
+                keep.append(prefix)
+        if "~" in payload:
+            keep.append(payload[payload.index("~") :])
+        return "".join(keep)
+
+    @staticmethod
+    def _features_for_form(form: str, decoded) -> tuple[str, str, str]:
+        if form == "prefc.":
+            return explicit_prefix_features(decoded)
+        if form == "suffc.":
+            return explicit_suffix_conjugation_features(decoded)
+        if form == "impv.":
+            person, gender, number = explicit_prefix_features(decoded)
+            if person or gender or number:
+                return person, gender, number
+            return ("2", "", "")
+        if form in {"act. ptcpl.", "pass. ptcpl.", "ptcpl."}:
+            return ("", "m.", "sg.")
+        return ("", "", "")
+
+
+def rewrite_row(row: TabletRow, completer: VerbalFeatureCompleter) -> TabletRow:
+    if "vb" not in (row.pos or "").lower():
+        return row
+    variants = completer.complete_row(row)
+    if len(variants) == 1:
+        variant = variants[0]
+        return TabletRow(
+            line_id=row.line_id,
+            surface=row.surface,
+            analysis=variant.analysis,
+            dulat=variant.dulat,
+            pos=render_pos(variant.features, fallback=row.pos),
+            gloss=variant.gloss,
+            comment=variant.comment,
+        )
+    return TabletRow(
+        line_id=row.line_id,
+        surface=row.surface,
+        analysis="; ".join(variant.analysis for variant in variants),
+        dulat="; ".join(variant.dulat for variant in variants),
+        pos="; ".join(render_pos(variant.features, fallback=row.pos) for variant in variants),
+        gloss="; ".join(variant.gloss for variant in variants),
+        comment="; ".join(variant.comment for variant in variants),
+    )

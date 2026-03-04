@@ -1,3 +1,9 @@
+## 2026-03-04 Morphology Feature Groundwork
+
+- Added a new `morph_features/` package with typed feature payloads, analysis decoding, vocalized-to-non-vocalized normalization, sqlite-backed DULAT exact-form lookup, and a first deterministic verbal completion helper.
+- Added a reviewed gold-case fixture for `KTU 1.5` under `tests/fixtures/reviewed_ktu_1_5_cases.tsv` plus focused tests for analysis decoding and deterministic verbal completion.
+- Added `pipeline/steps/verbal_feature_completion.py` as the first parser integration step for the new morphology layer, but left it inactive in the runtime pipeline after smoke validation exposed a late semicolon-unwrapper regression on `KTU 1.5` that still needs a second iteration to resolve safely.
+
 - Added an attested adjacent split-token merge step so cases like `la` + unresolved `nk` can yield an extra `lảnk`-based variant without rewriting unrelated rows such as `anh`.
 # Changelog
 
