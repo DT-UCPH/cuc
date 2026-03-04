@@ -23,6 +23,8 @@ _REPLACEMENT_DULAT = "bʕl (II);/b-ʕ-l/"
 _REPLACEMENT_POS = "n. m./DN;vb"
 _REPLACEMENT_GLOSS = "Baʿlu;to make"
 _ALIYN_GLOSS = "the very / most powerful"
+_BULL_GLOSS = "bull"
+_EL_GLOSS = "ʾilu/ilu/el"
 
 
 @dataclass(frozen=True)
@@ -136,6 +138,20 @@ def _canonical_aliyn_baal(comment: str = "") -> Candidate:
     )
 
 
+def _canonical_thr_bull(comment: str = "") -> Candidate:
+    return Candidate("ṯr(I)/", "ṯr (I)", "n. m. sg. abs. nom.", "bull", comment=comment)
+
+
+def _canonical_il_el(comment: str = "") -> Candidate:
+    return Candidate(
+        "il(I)/",
+        "ỉl (I)",
+        "DN m. sg. abs. nom.",
+        "ʾIlu/Ilu/El",
+        comment=comment,
+    )
+
+
 def _packed_baal_labourer_row(candidate: Candidate) -> bool:
     return (
         ";".join(_split_semicolon(candidate.analysis)) in _TARGET_ANALYSES
@@ -164,6 +180,20 @@ class LexicalContextResolver:
         allow_labourer = _is_ktu4(doc)
         for index, token in enumerate(doc):
             candidates = tuple(token._.resolved_candidates)
+            if token._.surface == "ṯr" and _is_thr_il_context(doc, index):
+                comment = next(
+                    (candidate.comment for candidate in candidates if candidate.comment),
+                    "",
+                )
+                self._maybe_replace(token, (_canonical_thr_bull(comment),), "thr-il-bull")
+                continue
+            if token._.surface == "il" and _is_el_in_thr_il_context(doc, index):
+                comment = next(
+                    (candidate.comment for candidate in candidates if candidate.comment),
+                    "",
+                )
+                self._maybe_replace(token, (_canonical_il_el(comment),), "thr-il-el")
+                continue
             if token._.surface == "bˤl":
                 if _is_aliyn_baal_context(doc, index):
                     comment = next(
@@ -249,3 +279,28 @@ def _is_aliyn_baal_context(doc: Doc, index: int) -> bool:
         and (candidate.gloss or "").strip().lower() == _ALIYN_GLOSS
         for candidate in previous._.resolved_candidates
     )
+
+
+def _is_thr_il_context(doc: Doc, index: int) -> bool:
+    if index < 0 or index + 1 >= len(doc) or doc[index]._.surface != "ṯr":
+        return False
+    next_token = doc[index + 1]
+    if next_token._.surface != "il":
+        return False
+    return any(
+        candidate.analysis.strip() == "ṯr(I)/"
+        and candidate.dulat.strip() == "ṯr (I)"
+        and candidate.gloss.strip().lower() == _BULL_GLOSS
+        for candidate in doc[index]._.resolved_candidates
+    ) and any(
+        candidate.analysis.strip() == "il(I)/"
+        and candidate.dulat.strip() == "ỉl (I)"
+        and candidate.gloss.strip().lower() == _EL_GLOSS
+        for candidate in next_token._.resolved_candidates
+    )
+
+
+def _is_el_in_thr_il_context(doc: Doc, index: int) -> bool:
+    if index <= 0 or doc[index]._.surface != "il":
+        return False
+    return _is_thr_il_context(doc, index - 1)

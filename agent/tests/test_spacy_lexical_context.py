@@ -52,6 +52,34 @@ class SpacyBaalContextTest(unittest.TestCase):
             ["DN m. sg. abs. nom."],
         )
 
+    def test_collapses_thr_il_sequence_to_bull_and_el(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tṯr\tṯr(I)/\tṯr (I)\tn. m. pl. abs. nom.\tbull\t",
+            "1\tṯr\tṯr(I)/\tṯr (I)\tn. m. sg. abs. nom.\tbull\t",
+            "2\til\til(I)/\tỉl (I)\tDN sg. abs. nom.\tʾIlu/Ilu/El\t",
+            "2\til\til(I)/\tỉl (I)\tDN sg. cstr. nom.\tʾIlu/Ilu/El\t",
+            "2\til\til(I)/\tỉl (I)\tDN m. sg. abs. nom.\tʾIlu/Ilu/El\t",
+            "2\til\til(I)/\tỉl (I)\tDN m. sg. cstr. nom.\tʾIlu/Ilu/El\t",
+            "2\til\til(I)/\tỉl (I)\tn. m. sg. abs. nom.\tgod\t",
+            "2\til\til(I)/\tỉl (I)\tn. m. sg. cstr. nom.\tgod\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["ṯr(I)/"],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[0]._.resolved_candidates],
+            ["n. m. sg. abs. nom."],
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["il(I)/"],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["DN m. sg. abs. nom."],
+        )
+
 
 class SpacyYdkContextTest(unittest.TestCase):
     def setUp(self) -> None:

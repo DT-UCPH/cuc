@@ -848,8 +848,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140885	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 140886	tiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 # KTU 1.6 II:31						
-140887	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-140887	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+140887	bn	b	b	prep.	in	
 140888	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 140888	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 140889	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
@@ -1179,14 +1178,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141062	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
 # KTU 1.6 IV:10						
 141063	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-141064	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
 141064	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
-141065	il	il(I)/	ỉl (I)	DN sg. abs. nom.	ʾIlu/Ilu/El	
-141065	il	il(I)/	ỉl (I)	DN sg. cstr. nom.	ʾIlu/Ilu/El	
 141065	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-141065	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-141065	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-141065	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 141066	abk	ab/+k	ảb	n. m. cstr. nom.	father	
 # KTU 1.6 IV:11						
 141067	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
@@ -1746,15 +1739,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141351	ik	ik	ỉk	interr. functor	how?	
 141352	al	al(II)	ảl (II)	pos. functor	surely	
 141353	yšmˤk	!y!šmˤ[k	/š-m-ʕ/	vb G prefc. 3 m. sg.	to hear	
-141354	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
 141354	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
 # KTU 1.6 VI:27						
-141355	il	il(I)/	ỉl (I)	DN sg. abs. nom.	ʾIlu/Ilu/El	
-141355	il	il(I)/	ỉl (I)	DN sg. cstr. nom.	ʾIlu/Ilu/El	
 141355	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-141355	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-141355	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-141355	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 141356	abk	ab/+k	ảb	n. m. cstr. nom.	father	
 141357	l	l(III)	l (III)	functor	certainly	
 141358	ysˤ	nsˤ(I)[	/n-s-ʕ/ (I)	vb G prefc.	to pull out	
