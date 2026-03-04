@@ -12,8 +12,8 @@ if str(ROOT) not in sys.path:
 
 
 def main() -> int:
-    from spacy_ugaritic_doc_builder import build_doc_from_path
-    from spacy_ugaritic_language import create_ugaritic_nlp
+    from spacy_ugaritic.doc_builder import build_doc_from_path
+    from spacy_ugaritic.language import create_ugaritic_nlp
 
     parser = argparse.ArgumentParser()
     parser.add_argument("path", type=Path)

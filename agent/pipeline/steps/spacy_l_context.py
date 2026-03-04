@@ -5,9 +5,9 @@ from __future__ import annotations
 from pathlib import Path
 
 from pipeline.steps.base import RefinementStep, StepResult
-from spacy_ugaritic_doc_builder import build_doc, group_tablet_lines
-from spacy_ugaritic_language import create_ugaritic_nlp
-from spacy_ugaritic_rewriter import count_data_rows, render_resolved_lines
+from spacy_ugaritic.doc_builder import build_doc, group_tablet_lines
+from spacy_ugaritic.language import create_ugaritic_nlp
+from spacy_ugaritic.rewriter import count_data_rows, render_resolved_lines
 
 
 class SpacyLContextDisambiguator(RefinementStep):

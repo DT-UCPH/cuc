@@ -1,7 +1,7 @@
 import unittest
 
-from spacy_ugaritic_doc_builder import build_doc, group_tablet_lines
-from spacy_ugaritic_language import create_ugaritic_nlp
+from spacy_ugaritic.doc_builder import build_doc, group_tablet_lines
+from spacy_ugaritic.language import create_ugaritic_nlp
 
 
 class SpacyLContextTest(unittest.TestCase):

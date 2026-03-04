@@ -10,8 +10,8 @@ from spacy.tokens import Doc
 
 from pipeline.config.l_negation_exception_refs import extract_separator_ref
 from pipeline.steps.base import parse_tsv_line
-from spacy_ugaritic_extensions import ensure_extensions
-from spacy_ugaritic_types import Candidate, GroupedToken
+from spacy_ugaritic.extensions import ensure_extensions
+from spacy_ugaritic.types import Candidate, GroupedToken
 
 _NAME_TAGS = ("DN", "PN", "RN", "TN", "GN", "MN")
 

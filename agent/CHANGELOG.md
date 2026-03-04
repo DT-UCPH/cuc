@@ -2,6 +2,7 @@
 # Changelog
 
 ## 2026-03-04
+- Moved the spaCy-based parser support code out of the `agent/` root into the dedicated `agent/spacy_ugaritic/` package so parser-related modules no longer live as top-level files.
 - Replaced the five-step legacy `l`-context chain (`l-negation-verb-context`, `l-functor-vocative-context`, `l-kbd-compound-prep`, `l-body-compound-prep`, `l-preposition-bigram-context`) with a single document-level `pipeline/steps/spacy_l_context.py` pass backed by the isolated spaCy spike.
 - Split `TabletParsingPipeline` into explicit pre-`l`, `l`, and post-`l` sections so the `l` strategy can be compared and swapped independently.
 - Added `pipeline/l_context_step_factory.py`, `spacy_ugaritic_rewriter.py`, and `scripts/compare_l_context_strategies.py` to compare the integrated spaCy step against the legacy chain on the same pre-`l` parser state.

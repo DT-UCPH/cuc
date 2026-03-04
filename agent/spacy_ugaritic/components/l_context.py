@@ -17,7 +17,7 @@ from pipeline.config.l_preposition_bigram_rules import (
     L_PN_PREP_CANONICAL_PAYLOADS,
     CanonicalSecondPayload,
 )
-from spacy_ugaritic_types import Candidate
+from spacy_ugaritic.types import Candidate
 
 
 @dataclass(frozen=True)

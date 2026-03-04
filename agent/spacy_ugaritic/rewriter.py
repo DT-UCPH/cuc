@@ -7,7 +7,7 @@ from collections.abc import Sequence
 from spacy.tokens import Doc
 
 from pipeline.steps.base import parse_tsv_line
-from spacy_ugaritic_types import GroupedToken
+from spacy_ugaritic.types import GroupedToken
 
 
 def count_data_rows(lines: Sequence[str]) -> int:

@@ -6,8 +6,8 @@ import spacy
 from spacy.language import Language
 
 # Import registers the component factory.
-from spacy_ugaritic_components.l_context import make_l_context_resolver  # noqa: F401
-from spacy_ugaritic_extensions import ensure_extensions
+from spacy_ugaritic.components.l_context import make_l_context_resolver  # noqa: F401
+from spacy_ugaritic.extensions import ensure_extensions
 
 
 def create_ugaritic_nlp() -> Language:
