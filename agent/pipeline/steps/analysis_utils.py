@@ -38,6 +38,10 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
     i = 0
     n = len(a)
     while i < n:
+        if a.startswith("(]n]", i):
+            i += 4
+            continue
+
         m_hom = re.match(r"\(([IV]+)\)", a[i:])
         if m_hom:
             i += len(m_hom.group(0))

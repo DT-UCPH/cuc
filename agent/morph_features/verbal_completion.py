@@ -177,14 +177,19 @@ class VerbalFeatureCompleter:
         analysis_variant = self._analysis_for_form(row, form)
         decoded = decode_analysis(analysis_variant)
         explicit = self._features_for_form(form, decoded)
-        if any(explicit):
-            return []
         candidates = generate_verbal_candidates(
             surface=row.surface,
             dulat=row.dulat,
             stem=stem,
             conjugation=form,
         )
+        if any(explicit) and not self._should_expand_under_specified_suffix_row(
+            form=form,
+            decoded=decoded,
+            analysis=analysis_variant,
+            candidates=candidates,
+        ):
+            return []
         variants: list[CompletedVariant] = []
         for candidate in candidates:
             variants.append(
@@ -207,6 +212,22 @@ class VerbalFeatureCompleter:
                 )
             )
         return variants
+
+    @staticmethod
+    def _should_expand_under_specified_suffix_row(
+        *,
+        form: str,
+        decoded,
+        analysis: str,
+        candidates: list,
+    ) -> bool:
+        if form != "suffc.":
+            return False
+        if decoded.visible_suffix:
+            return False
+        if not candidates:
+            return False
+        return all(candidate.analysis != analysis for candidate in candidates)
 
 
 def rewrite_row(row: TabletRow, completer: VerbalFeatureCompleter) -> TabletRow:

@@ -33,6 +33,19 @@ class MorphContextResolver:
         for index, token in enumerate(doc):
             if not _has_multiple_verbal_png(token):
                 continue
+            if index == 0 or not _is_second_singular_pronoun(doc[index - 1]):
+                continue
+            filtered = tuple(
+                candidate
+                for candidate in token._.resolved_candidates
+                if _is_second_singular_verb_candidate(candidate)
+            )
+            if filtered:
+                self._maybe_replace(token, filtered, "second-singular-pronoun-agreement")
+
+        for index, token in enumerate(doc):
+            if not _has_multiple_verbal_png(token):
+                continue
             agreement_token = _nearest_plural_dual_subject(doc, index)
             if agreement_token is None:
                 agreement_token = _nearest_previous_plural_dual_subject(doc, index)
@@ -209,6 +222,18 @@ def _is_plural_dual_masculine_nominal(token: Token) -> bool:
     return bool(_subject_numbers(token))
 
 
+def _is_second_singular_pronoun(token: Token) -> bool:
+    for candidate in token._.resolved_candidates:
+        pos = (candidate.pos or "").lower()
+        analysis = candidate.analysis or ""
+        dulat = candidate.dulat or ""
+        if "pers. pn." not in pos:
+            continue
+        if analysis.startswith("at(I)") or dulat.startswith("ảt (I)"):
+            return True
+    return False
+
+
 def _subject_numbers(token: Token) -> set[str]:
     keep_numbers: set[str] = set()
     for candidate in token._.resolved_candidates:
@@ -235,6 +260,12 @@ def _is_function_like(candidate: Candidate) -> bool:
             "interr. pn.",
         )
     )
+
+
+def _is_second_singular_verb_candidate(candidate: Candidate) -> bool:
+    pos = candidate.pos or ""
+    lowered = pos.lower()
+    return "vb" in lowered and "2" in pos and "sg." in pos
 
 
 def _is_preposition_token(token: Token) -> bool:

@@ -12,8 +12,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136032	x	?	?	?	?	
 # KTU 1.2 I:3						
 136033	at	at(I)	ảt (I)	pers. pn.	you	
-136034	ypˤt	ypˤt[	/y-p-ʕ/	vb G suffc. 3 m. sg.	to go up	
-136034	ypˤt	ypˤt[	/y-p-ʕ/	vb N suffc. 3 m. sg.	to go up	
+136034	ypˤt	ypˤ[t=	/y-p-ʕ/	vb G suffc. 2 m. sg.	to go up	
+136034	ypˤt	ypˤ[t==	/y-p-ʕ/	vb G suffc. 2 f. sg.	to go up	
+136034	ypˤt	(]n]ypˤ[t=	/y-p-ʕ/	vb N suffc. 2 m. sg.	to go up	
+136034	ypˤt	(]n]ypˤ[t==	/y-p-ʕ/	vb N suffc. 2 f. sg.	to go up	
 136035	b	b	b	prep.	in	
 136036	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 I:4						
@@ -195,9 +197,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136148	ap	ap(I)	ảp (I)	adv./conj.	also	
 136149	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 136149	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-136150	lḥm	lḥm(I)[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
-136150	lḥm	lḥm(I)[	/l-ḥ-m/ (I)	vb G impv. 2	to eat	
-136150	lḥm	!!lḥm(I)[/	/l-ḥ-m/ (I)	vb G inf.	to eat	
+136150	lḥm	lḥm[:w	/l-ḥ-m/ (I)	vb G suffc. 3 m. pl.	to eat	
 # KTU 1.2 I:21						
 136151	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. cstr. nom.	to sit down	
 136152	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
@@ -1117,7 +1117,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136716	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 136716	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 136716	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
-136717	ṯnt	ṯn(t(I)/t=	/ṯ-n-y/	vb G suffc. 3 m. sg.	to repeat	
+136717	ṯnt	ṯn(y[t===	/ṯ-n-y/	vb G suffc. 3 f. sg.	to repeat	
+136717	ṯnt	ṯn(y[t=	/ṯ-n-y/	vb G suffc. 2 m. sg.	to repeat	
+136717	ṯnt	ṯn(y[t==	/ṯ-n-y/	vb G suffc. 2 f. sg.	to repeat	
+136717	ṯnt	ṯn(y[t	/ṯ-n-y/	vb G suffc. 1 c. sg.	to repeat	
 136718	l	l(IV)	l (IV)	interj.	oh!	
 136719	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
 136720	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl. abs. gen.	cloud(s)	
@@ -1457,10 +1460,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136919	l	l(III)	l (III)	functor	certainly	
 136920	šrr	šrr/	šrr	n. m. sg. abs. nom.	enemy	
 136921	w	w	w	conj.	and	
-136922	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
+136922	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
+136922	tˤn	!t=!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. sg.	to answer	
+136922	tˤn	!t==!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 f. sg.	to answer	
+136922	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	
+136922	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
+136922	tˤn	!t===!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	to answer	
 136922	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
 136922	tˤn	!t!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
-136922	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+136922	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 f. sg.	to be / remain depressed	
+136922	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
+136922	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
+136922	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+136922	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
+136922	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 # KTU 1.2 IV:36						
 136923	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. abs. nom. sg.	Baʿlu/Baal	
 136924	hmt	hmt	hmt	pers. pn.		

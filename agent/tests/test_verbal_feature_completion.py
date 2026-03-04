@@ -73,6 +73,21 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         self.assertIn("vb G prefc. 3 m. du.", rewritten.pos)
         self.assertIn("vb G prefc. 3 m. pl.", rewritten.pos)
 
+    def test_expands_under_specified_suffix_analysis_from_surface(self) -> None:
+        completer = VerbalFeatureCompleter(
+            _FakeReader({("ypˤt", "/y-p-ʕ/"): _Features(("suffc",))})
+        )
+        row = TabletRow("136034", "ypˤt", "ypˤt[", "/y-p-ʕ/", "vb G suffc.", "to go up", "")
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "ypˤ[t===; ypˤ[t=; ypˤ[t==; ypˤ[t")
+        self.assertEqual(
+            rewritten.pos,
+            (
+                "vb G suffc. 3 f. sg.; vb G suffc. 2 m. sg.; "
+                "vb G suffc. 2 f. sg.; vb G suffc. 1 c. sg."
+            ),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

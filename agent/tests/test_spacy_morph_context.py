@@ -119,6 +119,28 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["n. m. pl. abs. gen."],
         )
 
+    def test_prunes_suffix_conjugation_to_second_singular_after_at_pronoun(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tat\tat(I)\tảt (I)\tpers. pn.\tyou\t",
+            "2\typˤt\typˤ[t===\t/y-p-ʕ/\tvb G suffc. 3 f. sg.\tto go up\t",
+            "2\typˤt\t(]n]ypˤ[t===\t/y-p-ʕ/\tvb N suffc. 3 f. sg.\tto go up\t",
+            "2\typˤt\typˤ[t=\t/y-p-ʕ/\tvb G suffc. 2 m. sg.\tto go up\t",
+            "2\typˤt\t(]n]ypˤ[t=\t/y-p-ʕ/\tvb N suffc. 2 m. sg.\tto go up\t",
+            "2\typˤt\typˤ[t==\t/y-p-ʕ/\tvb G suffc. 2 f. sg.\tto go up\t",
+            "2\typˤt\t(]n]ypˤ[t==\t/y-p-ʕ/\tvb N suffc. 2 f. sg.\tto go up\t",
+            "2\typˤt\typˤ[t\t/y-p-ʕ/\tvb G suffc. 1 c. sg.\tto go up\t",
+            "2\typˤt\t(]n]ypˤ[t\t/y-p-ʕ/\tvb N suffc. 1 c. sg.\tto go up\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            [
+                "vb G suffc. 2 m. sg.",
+                "vb N suffc. 2 m. sg.",
+                "vb G suffc. 2 f. sg.",
+                "vb N suffc. 2 f. sg.",
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

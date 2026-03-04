@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from functools import lru_cache
 
 from linter import morphology as ug_morphology
-from pipeline.steps.analysis_utils import reconstruct_surface_from_analysis
+from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
 
 
 @dataclass(frozen=True)
@@ -68,7 +68,7 @@ _STEM_MARKER_SUFFIX = {
 }
 _DEFAULT_FORM_INVENTORY = {
     "prefc.": ("3ms", "3fs", "2ms", "2fs", "1cs", "3md", "3mp", "2mp"),
-    "suffc.": ("3ms", "3mp", "2ms", "2fs", "1cs"),
+    "suffc.": ("3ms", "3fs", "3mp", "2ms", "2fs", "1cs"),
 }
 
 
@@ -114,6 +114,7 @@ def generate_verbal_candidates(
     root = _extract_root_letters(dulat)
     if len(root) != 3:
         return []
+    root = _prefer_surface_allographs(root, surface=surface)
     candidates: list[VerbalCandidate] = []
     for form in _candidate_forms(stem=stem, conjugation=conjugation):
         features = _decode_form(form)
@@ -127,7 +128,9 @@ def generate_verbal_candidates(
         ):
             if not analysis:
                 continue
-            if reconstruct_surface_from_analysis(analysis) != surface:
+            if normalize_surface(reconstruct_surface_from_analysis(analysis)) != normalize_surface(
+                surface
+            ):
                 continue
             person, gender, number = features
             candidates.append(
@@ -172,6 +175,15 @@ def _extract_root_letters(dulat: str) -> tuple[str, ...]:
         return tuple()
     token = match.group(1)
     return tuple(letter for letter in token if _LETTER_RE.match(letter))
+
+
+def _prefer_surface_allographs(root: tuple[str, ...], *, surface: str) -> tuple[str, ...]:
+    if "ˤ" not in surface:
+        return root
+    mapped = []
+    for letter in root:
+        mapped.append("ˤ" if letter == "ʕ" else letter)
+    return tuple(mapped)
 
 
 def _decode_form(form: str) -> tuple[str, str, str] | None:
@@ -244,6 +256,9 @@ def _build_body_variants(
                 body = f"]t]{r1}{r2}{r3}[{_STEM_MARKER_SUFFIX['Dt']}"
             elif stem == "Š":
                 body = f"]š]{r1}{r2}{r3}["
+            elif stem == "N":
+                marker = "](n]" if conjugation == "prefc." else "(]n]"
+                body = f"{marker}{r1}{r2}{r3}["
             else:
                 body = ""
             if body and body not in out:
@@ -295,6 +310,8 @@ def _build_suffix_analysis(*, body: str, form: str) -> str:
         marker = "["
     if form == "3ms":
         return f"{base}{marker}"
+    if form == "3fs":
+        return f"{base}{marker}t==="
     if form == "3mp":
         return f"{base}{marker}:w"
     if form == "2ms":

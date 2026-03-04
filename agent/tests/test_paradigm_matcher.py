@@ -29,6 +29,32 @@ class ParadigmMatcherTest(unittest.TestCase):
         self.assertIn(("ytn[", "3", "m.", "sg."), rendered)
         self.assertIn(("ytn[:w", "3", "m.", "pl."), rendered)
 
+    def test_generates_all_visible_t_suffix_candidates_for_strong_g_root(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="ypˤt",
+            dulat="/y-p-ʕ/",
+            stem="G",
+            conjugation="suffc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("ypˤ[t===", "3", "f.", "sg."), rendered)
+        self.assertIn(("ypˤ[t=", "2", "m.", "sg."), rendered)
+        self.assertIn(("ypˤ[t==", "2", "f.", "sg."), rendered)
+        self.assertIn(("ypˤ[t", "1", "c.", "sg."), rendered)
+
+    def test_generates_all_visible_t_suffix_candidates_for_n_stem(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="ypˤt",
+            dulat="/y-p-ʕ/",
+            stem="N",
+            conjugation="suffc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("(]n]ypˤ[t===", "3", "f.", "sg."), rendered)
+        self.assertIn(("(]n]ypˤ[t=", "2", "m.", "sg."), rendered)
+        self.assertIn(("(]n]ypˤ[t==", "2", "f.", "sg."), rendered)
+        self.assertIn(("(]n]ypˤ[t", "1", "c.", "sg."), rendered)
+
     def test_generates_weak_final_d_prefix_candidates_when_pattern_table_is_sparse(self) -> None:
         candidates = generate_verbal_candidates(
             surface="tkly",
