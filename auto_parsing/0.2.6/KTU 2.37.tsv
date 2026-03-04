@@ -23,9 +23,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157824	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 157825	xxxštt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 6						
-157826	mn	mn(IV)	mn (IV)	?	?	
-157826	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	
-157827	ṭbt	ṭb(t/t	ṭbt	n. f. sg. abs. nom.	well-being	
+157826	mn	mn(III)/	mn (III)	n. m. sg. cstr. nom.	mina	
+157827	ṭbt	ṭb(t/t	ṭbt	n. f. sg. abs. gen.	well-being	
 157828	w	w	w	conj.	and	
 157829		?	?	?	?	
 # KTU 2.37 7						
@@ -53,8 +52,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157845	xxxxmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 12						
 157846	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157847	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-157847	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+157847	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+157847	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.37 13						
 157848	kš	kš/	kš	n. m. sg. abs. gen.	date	
 157849		?	?	?	?	

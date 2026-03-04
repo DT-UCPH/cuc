@@ -1,15 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.21 1						
-156904	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-156905	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-156905	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-156906	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
+156904	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+156905	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+156905	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+156906	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 2.21 2						
 156907	l	l(I)	l (I)	prep.	to	
 156908	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
-156909	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+156909	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 2.21 3						
-156910	aḫty	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg. cstr. gen.	sister (related by blood)	
+156910	aḫty	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg. cstr. nom.	sister (related by blood)	
 156911	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156911	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156911	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -20,26 +20,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156912	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156913	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.21 5						
-156914	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+156914	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 156914	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 156915	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.21 6						
 156916	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.21 7						
 156917	hlny	hlny	hlny	deictic adv. functor	behold	
-156918	ibrkḏ	ibrkḏ/	ỉbrkḏ	PN sg. abs. nom.	ỉbrkḏ	
+156918	ibrkḏ	ibrkḏ/	ỉbrkḏ	PN sg. cstr. nom.	ỉbrkḏ	
 # KTU 2.21 8						
-156919	mkry	mkr/+y	mkr	n. m. cstr. nom.	merchant	
-156920	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156920	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-156920	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156920	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-156920	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+156919	mkry	mkr/+y	mkr	n. m. cstr. gen.	merchant	
+156920	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+156920	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 156921	l	l(I)	l (I)	prep.	to	
 156921	l	l(III)	l (III)	functor	certainly	
-156922	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
 156922	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
-156923	gt	g(t/t	gt	n. f. sg. abs. nom.	gittu	
+156923	gt	g(t/t	gt	n. f. sg. abs. gen.	gittu	
 # KTU 2.21 9						
 156924	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
 156925	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
@@ -57,15 +53,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156931	ˤtn	ˤt/+n	ʕt	TN sg. cstr. nom.	ʿt	
 156932	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.21 13						
-156933	kl	kl/	kl	n. m. sg. abs. gen.	totality (of)	
-156934	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-156934	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-156934	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-156934	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-156934	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-156934	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-156934	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-156934	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+156933	kl	kl/	kl	n. m. sg. cstr. gen.	totality (of)	
+156934	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 156935	w	w	w	conj.	and	
 156936	lm	l(I)	l (I)	prep.	to	
 # KTU 2.21 14						

@@ -19,12 +19,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155480	maḫr	(ʔ&aḫr[/	/ʔ-ḫ-r/	vb D ptcpl. m. sg. abs. nom.	generic mng to go behind > D to retain (?)	
 # KTU 1.166 8						
 155481	ṯnh	ṯn(I)/	ṯn (I)	num.	two	
-155482	lb	lb/	lb	n. m. sg. abs. nom.	heart	
+155482	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 # KTU 1.166 9						
-155483	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. nom.	grain	
-155484	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-155484	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-155484	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+155483	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
+155484	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+155484	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+155484	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.166 10						
 155485	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155485	hm	hm(I)	hm (I)	pers. pn.	they	
@@ -37,17 +37,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155489	l	l(I)	l (I)	prep.	to	
 155489	l	l(II)	l (II)	adv.	no	
 155489	l	l(III)	l (III)	functor	certainly	
-155490	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 155490	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
-155490	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
-155490	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
-155491	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
-155491	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+155490	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
+155491	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
 155492		?	?	?	?	
 # KTU 1.166 13						
-155493	rpi	rp(u/&i	rpủ	n. m. pl. abs. nom.	healer	
-155493	rpi	rp(u/&i	rpủ	n. m. sg. abs. nom.	healer	
-155493	rpi	rp(u/&i	rpủ	n. m. sg. cstr. nom.	healer	
+155493	rpi	rp(u/&i	rpủ	n. m. pl. abs. gen.	healer	
+155493	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
 155494	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to meet	
 155495		?	?	?	?	
 # KTU 1.166 14						
@@ -74,26 +70,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155507	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
 155508	wi	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 22						
-155509	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. nom.	wind	
-155510	arr	arr/	ảrr	TN sg. abs. nom.	district	
+155509	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. cstr. nom.	wind	
+155510	arr	arr/	ảrr	TN sg. cstr. gen.	district	
 # KTU 1.166 23						
-155511	ydnm	!y!dn[+m(I)	/d-n/	vb G prefc. 3 m. sg.	to judge	
-155511	ydnm	ydnm/	ydnm	PN sg. abs. nom.	ydnm	
-155511	ydnm	!y!(ydn[+m(I)	/y-d-n/	vb G prefc. 3 m. sg.	?	
-155512	ap	ap(I)	ảp (I)	adv./conj.	also	
-155512	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
+155511	ydnm	ydnm/	ydnm	PN sg. cstr. gen.	ydnm	
+155512	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
 # KTU 1.166 24						
 155513	l	l(I)	l (I)	prep.	to	
 155513	l	l(III)	l (III)	functor	certainly	
-155514	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-155515	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155515	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+155514	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+155515	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+155515	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.166 25						
-155516	gṯrn	gṯr/	gṯr	DN sg. abs. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+155516	gṯrn	gṯr/	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 155517	ylk	hlk[	/h-l-k/	vb G prefc.	to go	
 # KTU 1.166 26						
 155518	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155519	pˤnh	pˤn/+h	pʕn	n. f. cstr. gen.	foot	
+155519	pˤnh	pˤn/+h	pʕn	n. f. abs. gen.	foot	
 # KTU 1.166 27						
 155520	w	w	w	conj.	and	
 155521	hlk	hlk[	/h-l-k/	vb G suffc. 3 m. sg.	to go	

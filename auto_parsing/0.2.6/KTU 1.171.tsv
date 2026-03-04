@@ -1,37 +1,31 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.171 1						
 155759	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-155759	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-155759	bn	bn(II)	bn (II)	prep.	between	
-155759	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-155759	bn	bn[	/b-n/	vb G impv. 2	to understand	
-155760	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-155760	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-155761	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155761	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+155759	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+155760	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+155760	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+155761	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+155761	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.171 2						
-155762	š	š/	š	n. m. sg. abs. nom.	ram	
-155763	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
-155764	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-155764	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-155764	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+155762	š	š/	š	n. m. sg. cstr. gen.	ram	
+155763	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
+155764	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
+155764	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 155765	w	w	w	conj.	and	
-155766	š	š/	š	n. m. sg. abs. nom.	ram	
-155767	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-155767	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
-155767	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+155766	š	š/	š	n. m. sg. cstr. nom.	ram	
+155767	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
+155767	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+155767	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.171 3						
 155768	w	w	w	conj.	and	
 155769	š	š/	š	n. m. sg. abs. nom.	ram	
 155770	l	l(I)	l (I)	prep.	to	
-155771	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
-155772	bbt	bbt(II)/	bbt (II)	DN sg. abs. gen.	superintendent	
-155772	bbt	bbt(I)/	bbt (I)	TN sg. abs. gen.	bbt (I)	
+155771	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
+155772	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	superintendent	
+155772	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
 155773	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 # KTU 1.171 4						
-155774	rm	rm(I)/	rm (I)	adj. m. sg. abs. nom.	high	
-155774	rm	rm[	/r-m/	vb G suffc. 3 m. sg.	to go up	
-155774	rm	rm(II)/	rm (II)	n. m. sg. cstr. nom.	erection	
+155774	rm	rm(II)/	rm (II)	n. m. sg. abs. gen.	erection	
 155775	w	w	w	conj.	and	
 155776	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 155776	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
@@ -39,18 +33,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155778	x	?	?	?	?	
 # KTU 1.171 5						
 155779		?	?	?	?	
-155780	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
-155781	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+155780	šrp	šrp/	šrp	n. m. sg. cstr. nom.	burnt sacrifice	
+155781	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. abs. gen.	bird	
 155782	l	l(I)	l (I)	prep.	to	
 155782	l	l(III)	l (III)	functor	certainly	
 155783	inšilm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.171 6						
 155784	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
-155785	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
-155785	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
-155785	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
-155786	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155786	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+155785	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. cstr. nom.	to sit down	
+155786	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+155786	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 155787	b	b	b	prep.	in	
 155788	urbt	urb(t/t	ủrbt	n. f. sg. abs. gen.	window	
 # KTU 1.171 7						

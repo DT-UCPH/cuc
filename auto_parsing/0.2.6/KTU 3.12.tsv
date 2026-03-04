@@ -8,7 +8,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
 # KTU 3.12 2						
 161336	b	b	b	prep.	in	
-161337	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	obligation	
+161337	unṯ	unṯ/	ủnṯ	n. m. pl. abs. gen.	obligation	
 161337	unṯ	unṯ/	ủnṯ	n. m. sg. abs. gen.	obligation	
 161338	km	k(III)	k (III)	functor	when	
 161338	km	k(I)	k (I)	prep.	like	
@@ -24,31 +24,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161342	kmt	k(I)	k (I)	prep.	like	
 161342	kmt	kmt	kmt	adv.	like(wise)	
 # KTU 3.12 4						
-161343	br	br/	br(r)	n. m. sg. abs. nom.	tin	
-161343	br	br(I)/	br (I)	n. m. sg. abs. nom.	Art Seeschiff	
-161343	br	br[	/b-r(-r)/	vb G suffc. 3 m. sg.	to be or remain pure	
-161344	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
+161343	br	br/	br(r)	n. m. sg. cstr. nom.	tin	
+161343	br	br(I)/	br (I)	n. m. sg. cstr. nom.	Art Seeschiff	
+161344	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. gen.	ṣdqšlm	
 # KTU 3.12 5						
 161345	b	b	b	prep.	in	
 161346	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	obligation	
-161346	unṯ	unṯ/	ủnṯ	n. m. sg. abs. gen.	obligation	
-161347	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
-161347	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
-161348	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-161348	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
-161348	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
+161346	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. gen.	obligation	
+161347	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. cstr. gen.	throne	
+161347	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. cstr. gen.	time	
+161348	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. cstr. gen.	eternity	
 # KTU 3.12 6						
-161349	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. nom.	seal	
-161350	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
+161349	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. cstr. gen.	seal	
+161350	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu II	
 # KTU 3.12 7						
-161351	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-161351	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-161352	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+161351	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+161351	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+161352	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 3.12 8						
-161353	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
-161354	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-161354	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-161355	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+161353	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu II	
+161354	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+161354	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+161355	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 3.12 9						
 161356	ktb	ktb[	/k-t-b/	vb G suffc. 3 m. sg.	to write	
 161357	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
@@ -74,19 +71,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161367	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 161367	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 # KTU 3.12 13						
-161368	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-161368	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
-161368	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-161368	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-161368	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-161368	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
-161369	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-161369	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+161368	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
+161368	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
+161369	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+161369	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 161370	hnd	hnd	hnd	dem.	this	
 # KTU 3.12 14						
 161371	b	b	b	prep.	in	
-161372	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
-161373	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. gen.	ṣdqšlm	
+161372	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
+161373	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. cstr. gen.	ṣdqšlm	
 # KTU 3.12 15						
 161374	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
 161374	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	

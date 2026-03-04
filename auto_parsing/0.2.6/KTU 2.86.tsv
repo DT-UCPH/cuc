@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159585	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.86 6						
 159586	l	l(I)	l (I)	prep.	to	
-159587	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+159587	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 159588	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.86 7						
 159589	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
@@ -42,15 +42,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159596	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 159597	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.86 11						
-159598	mid	mi/	mỉ/ủd	n. m. sg. abs. gen.	abundance	
-159599	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-159599	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-159599	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-159599	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-159599	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-159599	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-159599	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-159599	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+159598	mid	mi/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	
+159599	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 # KTU 2.86 12						
 159600	w	w	w	conj.	and	
 159601	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
@@ -73,42 +66,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159605	nkly	nkly[	/k-l-y/	vb N suffc. 3 m. sg.	to finish	
 # KTU 2.86 16						
 159606	w	w	w	conj.	and	
-159607	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-159607	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-159607	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-159607	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-159607	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-159607	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-159607	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-159607	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+159607	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.86 17						
-159608	bth	bt(II)/+h	bt (II)	n. m. cstr. nom.	house	
+159608	bth	bt(II)/+h	bt (II)	n. m. abs. gen.	house	
 159609	w	w	w	conj.	and	
-159610	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-159610	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-159610	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-159610	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-159610	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-159610	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-159610	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-159610	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+159610	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.86 18						
-159611	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	
-159611	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
-159611	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
-159612	rgmk	rgm[+k	/r-g-m/	vb G suffc.	to say	
-159612	rgmk	rgm[+k	/r-g-m/	vb G impv. 2	to say	
-159612	rgmk	!!rgm[/+k	/r-g-m/	vb G inf.	to say	
-159612	rgmk	rgm[/+k	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159612	rgmk	rgm/+k	rgm	n. m. cstr. nom.	word	
+159611	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. gen.	auditor	
+159612	rgmk	rgm[/+k	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
+159612	rgmk	rgm/+k	rgm	n. m. cstr. gen.	word	
 # KTU 2.86 19						
-159613	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	handsome	
-159613	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
+159613	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	
 159614	at	at(I)	ảt (I)	pers. pn.	you	
 159615	ṯtṯb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.86 20						
 159616	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159617	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
+159617	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. abs. gen.	servant	
 # KTU 2.86 21						
 159618	w	w	w	conj.	and	
 159619	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
@@ -127,4 +100,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159624	ybˤr	!y!bˤr(II)[:d	/b-ʕ-r/ (II)	vb D prefc. 3 m. sg.	to abandon	
 # KTU 2.86 24						
 159625	b	b	b	prep.	in	
-159626	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	
+159626	ydh	yd(I)/+h	yd (I)	n. f. abs. gen.	hand	

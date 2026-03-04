@@ -14,13 +14,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154653	trbd	!t!rbd[:w	/r-b-d/	vb G prefc. 3 m. pl.	to (be) prepare(d)	
 154653	trbd	!t===!rbd[	/r-b-d/	vb G prefc. 2 m. pl.	to (be) prepare(d)	
 154653	trbd	!t!](n]rbd[	/r-b-d/	vb N prefc.	to (be) prepare(d)	
-154654	ˤrš	ˤrš/	ʕrš	n. f. sg. abs. nom.	bed	
-154655	pd	pd(I)/	pd (I)	n. m. sg. abs. nom.	lock (of hair)	
+154654	ˤrš	ˤrš/	ʕrš	n. f. sg. cstr. nom.	bed	
+154655	pd	pd(I)/	pd (I)	n. m. sg. abs. gen.	lock (of hair)	
 # KTU 1.132 3						
 154656	ry	?	?	?	?	DULAT: NOT FOUND
 154657	b	b	b	prep.	in	
-154658	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
-154658	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+154658	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+154658	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154659	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 154659	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 1.132 4						
@@ -71,13 +71,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154681	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 13						
 154682	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-154683	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-154683	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-154683	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-154684	šm	š/m	š	n. m. pl. abs. nom.	ram	
-154684	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
+154683	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+154684	šm	š/m	š	n. m. pl. cstr. gen.	ram	
+154684	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
 # KTU 1.132 14						
-154685	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
+154685	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. abs. gen.	Bien-amada	
 154686	w	w	w	conj.	and	
 154687	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.132 15						
@@ -87,7 +85,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 16						
 154690	kmm	kmm	kmm	adv.	ditto	
 154691	l	l(I)	l (I)	prep.	to	
-154692	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+154692	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 # KTU 1.132 17						
 154693	ll	ll(I)/	ll (I)	n. m. sg. abs. gen.	night	
 154694	ˤṣrmm	?	?	?	?	DULAT: NOT FOUND
@@ -114,38 +112,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154704	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.132 22						
 154705	b	b	b	prep.	in	
-154706	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-154706	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-154706	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-154707	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
+154706	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+154707	in	in/	ỉn	n. m. sg. abs. gen.	lack of	
 154708	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.132 23						
-154709	alnd	aln(II)/	ảln (II)	DN sg. abs. nom.	the Lady	
-154710	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-154710	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-154710	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-154711	šm	š/m	š	n. m. pl. abs. nom.	ram	
-154711	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
+154709	alnd	aln(II)/	ảln (II)	DN sg. cstr. nom.	the Lady	
+154710	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+154711	šm	š/m	š	n. m. pl. cstr. gen.	ram	
+154711	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
 # KTU 1.132 24						
-154712	inš	inš/	ỉnš	n. m. sg. abs. nom.	people	
-154713	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-154713	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+154712	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
+154713	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
+154713	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 154714	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.132 25						
 154715	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
-154715	pn	pn	pn	functor	lest	
-154716	ll	ll(I)/	ll (I)	n. m. sg. abs. nom.	night	
+154716	ll	ll(I)/	ll (I)	n. m. sg. abs. gen.	night	
 154717	tnˤr	!t!nˤr[	/n-ʕ-r/	vb G prefc.	to shake	
 # KTU 1.132 26						
-154718	ˤrš	ˤrš/	ʕrš	n. f. sg. abs. nom.	bed	
+154718	ˤrš	ˤrš/	ʕrš	n. f. sg. cstr. nom.	bed	
 # KTU 1.132 27						
-154719	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
-154719	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
-154720	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-154720	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+154719	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. cstr. gen.	entry	
+154720	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+154720	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 1.132 28						
 154721	w	w	w	conj.	and	
-154722	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
-154722	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
-154723	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-154723	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+154722	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
+154723	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+154723	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	

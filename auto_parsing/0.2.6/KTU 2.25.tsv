@@ -5,8 +5,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157111	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
 157112	x	?	?	?	?	
 # KTU 2.25 3						
-157113	lb	lb/	lb	n. m. sg. abs. nom.	heart	
-157114	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+157113	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
+157114	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. abs. gen.	servant	
 157115	al	al(I)	ảl (I)	neg. functor	no	
 157115	al	al(II)	ảl (II)	pos. functor	surely	
 # KTU 2.25 4						
@@ -34,11 +34,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.25 6						
 157125	šbˤt	šbˤ(I)/	šbʕ (I)	num.	seven	
 157126	w	w	w	conj.	and	
-157127	nṣp	nṣp/	nṣp	n. m. sg. abs. nom.	half (a shekel)	
-157128	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+157127	nṣp	nṣp/	nṣp	n. m. sg. cstr. nom.	half (a shekel)	
+157128	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 # KTU 2.25 7						
-157129	ḫtm	ḫt[+m(I)	/ḫ-t(-t)/	vb G suffc.	to break	
-157129	ḫtm	ḫtm/	ḫtm	PN sg. abs. nom.	ḫtm	
+157129	ḫtm	ḫtm/	ḫtm	PN sg. abs. gen.	ḫtm	
 157130	rbxxx	?	?	?	?	DULAT: NOT FOUND
 157131	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	one	
 157131	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	

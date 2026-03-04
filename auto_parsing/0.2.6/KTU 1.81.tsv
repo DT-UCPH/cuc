@@ -26,9 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149970	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. gen.	lady	
 # KTU 1.81 7						
 149971	l	l(I)	l (I)	prep.	to	
-149972	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 149972	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149972	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 149972	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 149973	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
 149973	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
@@ -41,8 +39,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.81 9						
 149977	l	l(I)	l (I)	prep.	to	
 149977	l	l(III)	l (III)	functor	certainly	
-149978	ḥtk	ḥtk(II)/	ḥtk (II)	n. m. sg. abs. nom.	lineage	
-149979	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. nom.	grain	
+149978	ḥtk	ḥtk(II)/	ḥtk (II)	n. m. sg. cstr. nom.	lineage	
+149979	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. gen.	grain	
 # KTU 1.81 10						
 149980	l	l(I)	l (I)	prep.	to	
 149981	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	

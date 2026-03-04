@@ -3,9 +3,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160094	l	l(I)	l (I)	prep.	to	
 160094	l	l(II)	l (II)	adv.	no	
 160094	l	l(III)	l (III)	functor	certainly	
-160095	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-160095	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-160096	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+160095	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+160095	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+160096	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.97 2						
 160097	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 160097	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -20,7 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160100	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.97 4						
 160101	l	l(I)	l (I)	prep.	to	
-160102	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+160102	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 160103	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.97 5						
 160104	ṯnid	ṯnid	ṯnỉd	adv.	twice	
@@ -47,13 +47,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.97 10						
 160116	khnm	khn(I)/m	khn (I)	n. m. pl. abs. nom.	priest	
 160117	l	l(I)	l (I)	prep.	to	
-160118	pnh	pn(m/+h	pnm	n. m. pl. tant. gen.	in front	
+160118	pnh	pn(m/+h	pnm	n. m. pl. tant. abs. gen.	in front	
 # KTU 2.97 11						
 160119	w	w	w	conj.	and	
 160120	šlmth	šlm(t(II)/t+h	šlmt (II)	n. f. sg. cstr. nom.	compensation	
 # KTU 2.97 12						
-160121	zn	zn/	zn	n. m. abs. nom.	provider	Based on DULAT reconstruction.
-160121	zn	z+n	z	→	?	
+160121	zn	zn/	zn	n. m. abs. gen.	provider	Based on DULAT reconstruction.
 160122	w	w	w	conj.	and	
 160123	tšx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.97 13						

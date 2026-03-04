@@ -22,8 +22,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156824	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 156825	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. gen.	message	
 # KTU 2.17 5						
-156826	pġsdb	pġsdb/	pġsdb	PN sg. abs. gen.	pġsdb	
-156827	šml	šml(I)/	šml (I)	n. m. sg. cstr. gen.	commercial agent	
+156826	pġsdb	pġsdb/	pġsdb	PN sg. abs. nom.	pġsdb	
+156827	šml	šml(I)/	šml (I)	n. m. sg. cstr. nom.	commercial agent	
 156828	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 # KTU 2.17 6						
 156829	w	w	w	conj.	and	
@@ -33,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.17 7						
 156833	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 156834	mlakth	mlak(t/t+h	mlảkt	n. f. sg. cstr. gen.	message	
-156835	šmˤh	šmˤ/+h	šmʕ	n. m. cstr. gen.	auditor	
+156835	šmˤh	šmˤ/+h	šmʕ	n. m. abs. gen.	auditor	
 # KTU 2.17 8						
 156836	w	w	w	conj.	and	
 156837	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
@@ -52,10 +52,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156842	ht	ht	ht	adv.	here	
 156843	aby	ab/+y	ảb	n. m. cstr. nom.	father	
 156844	ṯṯ	ṯṯ/	ṯṯ	num.	six	
-156845	tl	tl(I)/	tl (I)	n. m. sg. abs. nom.	hill	
-156845	tl	tl(II)/	tl (II)	n. m. sg. abs. nom.	weapon	
+156845	tl	tl(I)/	tl (I)	n. m. sg. cstr. nom.	hill	
+156845	tl	tl(II)/	tl (II)	n. m. sg. cstr. nom.	weapon	
 # KTU 2.17 10						
-156846	ḥ	ḥ/	ḥ	n. m. abs. nom.	life	
+156846	ḥ	ḥ/	ḥ	n. m. abs. gen.	life	
 # KTU 2.17 11						
 156847	lsx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.17 12						

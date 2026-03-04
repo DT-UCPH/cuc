@@ -2,17 +2,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.168 1						
 155554	id	id	ỉd	conj.	when	
 155555	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-155556	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155556	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-155557	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
+155556	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+155556	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+155557	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
 # KTU 1.168 2						
-155558	ḥgb	ḥgb/	ḥgb	n. m. sg. abs. nom.	locust	
-155559	ap	ap(I)	ảp (I)	adv./conj.	also	
-155559	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
+155558	ḥgb	ḥgb/	ḥgb	n. m. sg. cstr. gen.	locust	
+155559	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
 155560	w	w	w	conj.	and	
-155561	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+155561	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 # KTU 1.168 3						
-155562	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+155562	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 155563	w	w	w	conj.	and	
 155564	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 155565	kmm	kmm	kmm	adv.	ditto	
@@ -32,18 +31,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.168 8						
 155574	id	id	ỉd	conj.	when	
 155575	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-155576	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155576	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-155577	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
-155577	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-155577	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+155576	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+155576	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+155577	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. gen.	eye	
+155577	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 # KTU 1.168 9						
 155578	slḫ	slḫ(I)/	slḫ (I)	n. m. sg. abs. nom.	befeuchtet	
 155579	ap	ap(I)	ảp (I)	adv./conj.	also	
 155579	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 155580	w	w	w	conj.	and	
-155581	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-155582	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+155581	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
+155582	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 1.168 10						
 155583	w	w	w	conj.	and	
 155584	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
@@ -53,8 +51,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155586	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.168 11						
 155587	w	w	w	conj.	and	
-155588	š	š/	š	n. m. sg. abs. nom.	ram	
-155589	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
+155588	š	š/	š	n. m. sg. cstr. nom.	ram	
+155589	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 155590	l	l(I)	l (I)	prep.	to	
 155590	l	l(III)	l (III)	functor	certainly	
 155591	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
@@ -72,13 +70,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.168 14						
 155597	xnt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.168 15						
-155598	alit	alit/	ảlỉt	DN sg. abs. nom.	the most powerful	
-155599	š	š/	š	n. m. sg. abs. nom.	ram	
+155598	alit	alit/	ảlỉt	DN sg. cstr. nom.	the most powerful	
+155599	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.168 16						
-155600	šp	šp/	šp	n. m. abs. nom.	dune	
+155600	šp	šp/	šp	n. m. cstr. gen.	dune	
 # KTU 1.168 17						
-155601	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
-155601	dm	dm(I)	dm (I)	functor	since	
+155601	dm	dm(II)/	dm (II)	n. m. sg. abs. gen.	blood	
 # KTU 1.168 18						
 155602		?	?	?	?	
 155603	k	+k	-k (I)			

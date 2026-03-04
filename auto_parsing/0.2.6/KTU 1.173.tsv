@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.173 2						
 155858	x	?	?	?	?	
 155859	l	l(I)	l (I)	prep.	to	
-155860	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+155860	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 155861	ġdm	ġdm	ġdm	?	?	
 # KTU 1.173 3						
 155862	xld	?	?	?	?	DULAT: NOT FOUND
@@ -14,34 +14,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155863	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155864	wš	?	?	?	?	DULAT: NOT FOUND
 155865	l	l(I)	l (I)	prep.	to	
-155866	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+155866	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 # KTU 1.173 4						
 155867	x	?	?	?	?	
-155868	š	š/	š	n. m. sg. abs. nom.	ram	
-155869	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. nom.	grain	
-155870	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-155870	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-155870	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+155868	š	š/	š	n. m. sg. cstr. nom.	ram	
+155869	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
+155870	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
+155870	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 155871	w	w	w	conj.	and	
-155872	š	š/	š	n. m. sg. abs. nom.	ram	
+155872	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.173 5						
-155873	p	p(I)	p (I)	conj. functor	and	
-155873	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-155873	p	p(II)	p (II)	adv.	here	
+155873	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 155874	w	w	w	conj.	and	
-155875	š	š/	š	n. m. sg. abs. nom.	ram	
-155876	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-155876	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-155876	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-155876	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-155876	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-155877	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+155875	š	š/	š	n. m. sg. cstr. nom.	ram	
+155876	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+155876	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+155876	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
+155876	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+155876	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
+155877	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.173 6						
 155878	xxṣpn	?	?	?	?	DULAT: NOT FOUND
-155879	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
+155879	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 155879	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 # KTU 1.173 7						
-155880	inš	inš/	ỉnš	n. m. sg. abs. nom.	people	
+155880	inš	inš/	ỉnš	n. m. sg. abs. gen.	people	
 # KTU 1.173 8						
 155881	xt	?	?	?	?	DULAT: NOT FOUND
 155882	ap	ap(I)	ảp (I)	adv./conj.	also	
@@ -91,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155904	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 155905	npṣh	npṣ/+h	npṣ	n. m. cstr. nom.	personal belongings	
 # KTU 1.173 17						
-155906	ṯˤh	ṯˤ(II)/h	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+155906	ṯˤh	ṯˤ(II)/h	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 155907	w	w	w	conj.	and	
 155908	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 155908	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	

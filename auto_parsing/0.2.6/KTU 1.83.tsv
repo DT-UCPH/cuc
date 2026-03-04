@@ -8,24 +8,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.83 3						
 150275	tṣun	yṣʔ[+n	/y-ṣ-ʔ/	vb	to go out	
 150276	b	b	b	prep.	in	
-150277	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
+150277	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
 # KTU 1.83 4						
-150278	mḫnm	mḫn/~m	mḫn	n. m. abs. gen. pl.	?	
+150278	mḫnm	mḫn/~m	mḫn	n. m. pl. abs. gen.	?	
 150279	ṯrp	ṯrp[	/ṯ-r-p/	vb	to spur on (an animal)	
-150280	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-150280	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+150280	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+150280	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
 # KTU 1.83 5						
-150281	lšnm	lšn/m	lšn	n. f. pl. abs. nom.	tongue	
+150281	lšnm	lšn/m	lšn	n. f. pl. abs. gen.	tongue	
 150282	tlhk	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.83 6						
 150283	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
 150284	tṯrp	!t!ṯrp[	/ṯ-r-p/	vb	to spur on (an animal)	
 # KTU 1.83 7						
-150285	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-150285	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-150286	ḏnbtm	ḏnb/	ḏnb(t)	n. f. du. abs. nom.	tail	
+150285	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+150285	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
+150286	ḏnbtm	ḏnb/	ḏnb(t)	n. f. du. cstr. gen.	tail	
 # KTU 1.83 8						
-150287	tan	tan/	tản	PN sg. abs. nom.	tản	
+150287	tan	tan/	tản	PN sg. abs. gen.	tản	
 150288	l	l(I)	l (I)	prep.	to	
 150288	l	l(III)	l (III)	functor	certainly	
 150289	šbm	šb/m	šb	n. m. pl. abs. nom.	old man	
@@ -36,10 +36,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.83 10						
 150292	l	l(I)	l (I)	prep.	to	
 150292	l	l(III)	l (III)	functor	certainly	
-150293	mrym	mrym/	mrym	n. m. sg. abs. nom.	height	
-150294	lbnt	lbn(t/t	lbnt	n. f. pl. abs. nom.	brick	
-150294	lbnt	lbn(t/t	lbnt	n. f. sg. abs. nom.	brick	
-150294	lbnt	lbn(t/t=	lbnt	n. f. pl. abs. nom.	brick	
+150293	mrym	mrym/	mrym	n. m. sg. cstr. nom.	height	
+150294	lbnt	lbn(t/t	lbnt	n. f. pl. abs. gen.	brick	
+150294	lbnt	lbn(t/t	lbnt	n. f. sg. abs. gen.	brick	
+150294	lbnt	lbn(t/t=	lbnt	n. f. pl. abs. gen.	brick	
 # KTU 1.83 11						
 150295	pl	pl[	/p-l(-l)/	vb G suffc. 3 m. sg.	to be cracked	
 150296	tbˤn	tbˤ[+n	/t-b-ʕ/	vb G suffc.	to go	
@@ -58,22 +58,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150302	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 m. du.	to see	
 150302	tph	!t!ph(y[:w	/p-h-y/	vb G prefc. 3 m. pl.	to see	
 150302	tph	!t===!ph(y[	/p-h-y/	vb G prefc. 2 m. pl.	to see	
-150303	mk	mk(II)	mk (II)	deictic functor	behold!	
-150303	mk	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	
+150303	mk	mk(I)/	mk (I)	n. m. sg. cstr. nom.	large puddle	
 # KTU 1.83 14						
-150304	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-150305	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-150305	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-150305	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-150305	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-150305	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+150304	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+150305	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
+150305	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 1.83 15						
-150306	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
-150306	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
-150306	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-150306	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
-150306	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+150306	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+150306	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+150306	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+150306	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
 # KTU 1.83 16						
 150307		?	?	?	?	
 # KTU 1.83 17						
-150308	š	š/	š	n. m. sg. abs. nom.	ram	
+150308	š	š/	š	n. m. sg. abs. gen.	ram	

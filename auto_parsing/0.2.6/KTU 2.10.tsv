@@ -1,17 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 1						
-156553	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-156554	iwrḏr	iwrḏr/	ỉwrḏr	PN sg. abs. nom.	ỉwrḏr	
+156553	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+156554	iwrḏr	iwrḏr/	ỉwrḏr	PN sg. abs. gen.	ỉwrḏr	
 # KTU 2.10 2						
 156555	l	l(I)	l (I)	prep.	to	
 156555	l	l(III)	l (III)	functor	certainly	
-156556	plsy	plsy/	plsy	PN sg. abs. nom.	plsy	
+156556	plsy	plsy/	plsy	PN sg. cstr. nom.	plsy	
 # KTU 2.10 3						
-156557	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156557	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-156557	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156557	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-156557	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+156557	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+156557	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.10 4						
 156558	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156558	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
@@ -44,20 +41,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 11						
 156574	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 156575	w	w	w	conj.	and	
-156576	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
+156576	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 # KTU 2.10 12						
-156577	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-156577	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+156577	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
+156577	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 156578	p	p(I)	p (I)	conj. functor	and	
 156578	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 156578	p	p(II)	p (II)	adv.	here	
 156579	kmtm	k(I)+m(I)	k (I)	prep.	like	
 156579	kmtm	kmt+m(I)	kmt	adv.	like(wise)	
 # KTU 2.10 13						
-156580	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
-156580	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
-156580	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
-156581	mid	mi/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
+156580	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. cstr. nom.	caprine animal	
+156581	mid	mi/	mỉ/ủd	n. m. sg. abs. gen.	abundance	
 # KTU 2.10 14						
 156582	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156582	hm	hm(I)	hm (I)	pers. pn.	they	
@@ -83,10 +78,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156592	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 2.10 19						
 156593	b	b	b	prep.	in	
-156594	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+156594	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	tablet / register	
 156594	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 156594	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
 156594	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 156594	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-156594	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+156594	spr	spr(I)/	spr (I)	n. m. sg. abs. gen.	scribe	
 156595	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	

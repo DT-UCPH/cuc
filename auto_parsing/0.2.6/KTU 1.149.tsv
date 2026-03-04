@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.149 1						
-155024	unp	unp/	ủnp	PN sg. abs. nom.	ủnp	
-155025	uḏn	uḏn/	ủḏn	PN sg. abs. nom.	[für] die Opferschau	
+155024	unp	unp/	ủnp	PN sg. cstr. nom.	ủnp	
+155025	uḏn	uḏn/	ủḏn	PN sg. abs. gen.	[für] die Opferschau	
 155026	pġrḏ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.149 2						
 155027	inḏ	?	?	?	?	DULAT: NOT FOUND
@@ -50,13 +50,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155057	tyn	tyn/	tyn	PN sg. abs. nom.	tyn	
 155058	x	?	?	?	?	
 # KTU 1.149 10						
-155059	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg. abs. nom.	ṯủṯk	
-155060	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
-155061	arm	a&r/+m(I)	ả/ỉr	n. m. cstr. nom.	light	
-155061	arm	arm/	ảrm	PN sg. abs. nom.	ảrm	
+155059	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg. cstr. nom.	ṯủṯk	
+155060	tzġ	tzġ/	tzġ	n. m. sg. cstr. gen.	kind of sacrificial meat	
+155061	arm	a&r/+m(I)	ả/ỉr	n. m. abs. gen.	light	
+155061	arm	arm/	ảrm	PN sg. abs. gen.	ảrm	
 155062	tṯp	?	?	?	?	DULAT: NOT FOUND
 155063		?	?	?	?	
 # KTU 1.149 11						
-155064	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg. abs. nom.	ṯủṯk	
-155065	ḫzr	ḫzr/	ḫzr	n. m. sg. abs. nom.	assistant	
+155064	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg. cstr. nom.	ṯủṯk	
+155065	ḫzr	ḫzr/	ḫzr	n. m. sg. abs. gen.	assistant	
 155066	pġrḏnṯ	?	?	?	?	DULAT: NOT FOUND

@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146790	lk	l(I)+k	l (I)	prep.	to	
 146791	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
 # KTU 1.21 II:2						
-146792	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
+146792	bty	bt(II)/+y	bt (II)	n. m. abs. gen.	house	
 146793	aṣḥkm	!(ʔ&a!ṣḥ[km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
 146794	iqra	!(ʔ&i!qr(ʔ[&a	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	
 # KTU 1.21 II:3						
@@ -25,11 +25,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146807	y	+y, [y	-y (I)	prep. functor	my	
 146807	y	~y	-y (II)	prep. functor	indeed	
 146807	y	y	y	prep. functor	oh!	
-146808	rp	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
 146808	rp	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 # KTU 1.21 II:6						
 146809	umkm	um/+km	ủm	n. f. cstr. gen.	mother	
-146810	rˤy	rˤ/+y	rʕ	n. m. sg. cstr. gen.	companion	
+146810	rˤy	rˤ/+y	rʕ	n. m. sg. abs. gen.	companion	
 146811	ht	ht	ht	adv.	here	
 146812	alk	hlk[	/h-l-k/	vb G prefc.	to go	
 # KTU 1.21 II:7						
@@ -41,9 +40,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146816	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 # KTU 1.21 II:8						
 146817	yl	?	?	?	?	DULAT: NOT FOUND
-146818	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 146818	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
-146819	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
+146819	hkly	hkl/y	hkl	n. m. sg. abs. gen.	palace	
 146820	w	w	w	conj.	and	
 146821	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 146821	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	

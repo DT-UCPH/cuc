@@ -1,17 +1,13 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.162 1						
 155249	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-155249	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-155249	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-155249	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-155249	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
-155250	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-155250	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-155250	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-155250	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-155251	bldn	bld/+n	bld	n. m. cstr. nom.	land	
+155249	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
+155249	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
+155250	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+155250	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+155251	bldn	bld/+n	bld	n. m. cstr. gen.	land	
 # KTU 1.162 2						
-155252	nskt	nsk(t/t	nskt	n. f. sg. abs. nom.	casting	
+155252	nskt	nsk(t/t	nskt	n. f. sg. abs. gen.	casting	
 155253	qlˤ	qlˤ/	qlʕ	n. m. sg. abs. nom.	shield	
 # KTU 1.162 3						
 155254	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
@@ -59,18 +55,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155276	lymš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.162 12						
 155277	l	l(I)	l (I)	prep.	to	
-155278	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 155278	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-155278	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 155278	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 155279	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. gen.	help	
 # KTU 1.162 13						
 155280	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
-155280	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
+155280	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
 155280	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-155280	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-155280	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
-155281	š	š/	š	n. m. sg. abs. nom.	ram	
+155280	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+155280	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
+155281	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.162 14						
 155282	l	l(I)	l (I)	prep.	to	
 155282	l	l(III)	l (III)	functor	certainly	
@@ -81,30 +75,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.162 15						
 155285	l	l(I)	l (I)	prep.	to	
 155285	l	l(III)	l (III)	functor	certainly	
-155286	amšrt	amšrt/	ảmšrt	DN sg. abs. nom.	ảmšrt	
-155287	š	š/	š	n. m. sg. abs. nom.	ram	
+155286	amšrt	amšrt/	ảmšrt	DN sg. cstr. nom.	ảmšrt	
+155287	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.162 16						
 155288	l	l(I)	l (I)	prep.	to	
 155288	l	l(III)	l (III)	functor	certainly	
 155289	dr	dr/	dr	n. m. pl. cstr. nom.	circle	
-155289	dr	dr/	dr	n. m. sg. abs. nom.	circle	
-155290	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-155290	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-155290	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-155290	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+155289	dr	dr/	dr	n. m. sg. cstr. nom.	circle	
+155290	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+155290	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.162 17						
 155291	w	w	w	conj.	and	
-155292	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. abs. nom.	assembly	
-155293	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-155293	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-155293	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+155292	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. nom.	assembly	
+155293	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+155293	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+155293	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 # KTU 1.162 18						
-155294	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-155294	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-155294	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+155294	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+155294	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+155294	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 # KTU 1.162 19						
 155295	l	l(I)	l (I)	prep.	to	
-155296	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+155296	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 155297	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 155297	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 155297	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
@@ -118,8 +110,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155302	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 1.162 22						
 155303	mlsm	mlsm/	mlsm	n. m. sg. cstr. nom.	race	
-155304	mrkbt	mrkb(t/t	mrkbt	n. f. pl. abs. nom.	(light war-)chariot	
-155304	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. nom.	(light war-)chariot	
-155304	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. nom.	(light war-)chariot	
+155304	mrkbt	mrkb(t/t	mrkbt	n. f. pl. abs. gen.	(light war-)chariot	
+155304	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. gen.	(light war-)chariot	
+155304	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. gen.	(light war-)chariot	
 # KTU 1.162 23						
 155305	mtrn	mtrn/	mtrn	n. m. sg. abs. nom.	surplus	

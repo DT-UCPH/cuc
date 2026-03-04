@@ -4,15 +4,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162033	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 162034	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 2						
-162035	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-162035	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-162035	bn	bn(II)	bn (II)	prep.	between	
-162035	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-162035	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162036	rqdn	rqd/+n	rqd	TN sg. cstr. nom.	rqd	
-162036	rqdn	rqdn/	rqdn	PN sg. abs. nom.	rqdn	
+162035	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+162035	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+162036	rqdn	rqd/+n	rqd	TN sg. cstr. gen.	rqd	
+162036	rqdn	rqdn/	rqdn	PN sg. cstr. gen.	rqdn	
 # KTU 3.31 3						
-162037	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
+162037	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. gen.	group of ten	
 162038	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 162039	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 4						
@@ -23,8 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162043	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 162044	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 6						
-162045	špšn	špš/	špš	n. f. sg. abs. gen.	sun	
-162046	uškny	uškny(I)/	ủškny (I)	GN sg. abs. gen.	ủškny (I)	
+162045	špšn	špš/	špš	n. f. sg. cstr. gen.	sun	
+162046	uškny	uškny(I)/	ủškny (I)	GN sg. cstr. gen.	ủškny (I)	
 # KTU 3.31 7						
 162047	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. gen.	group of ten	
 162048	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
@@ -32,11 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.31 8						
 162050	xxxn	?	?	?	?	DULAT: NOT FOUND
 162051	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-162051	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-162051	bn	bn(II)	bn (II)	prep.	between	
-162051	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-162051	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162052	drt	dr(t(I)/t	drt (I)	n. f. sg. abs. nom.	bran	
-162052	drt	drt(II)/	drt (II)	PN sg. abs. nom.	drt (II)	
+162051	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+162052	drt	dr(t(I)/t	drt (I)	n. f. sg. cstr. gen.	bran	
+162052	drt	drt(II)/	drt (II)	PN sg. cstr. gen.	drt (II)	
 # KTU 3.31 9						
-162053	uškny	uškny(I)/	ủškny (I)	GN sg. abs. nom.	ủškny (I)	
+162053	uškny	uškny(I)/	ủškny (I)	GN sg. abs. gen.	ủškny (I)	

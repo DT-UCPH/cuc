@@ -66,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160482	xxxd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 17						
 160483	l	l(I)	l (I)	prep.	to	
-160484	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+160484	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 160485	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. gen.	brother (by blood)	
 160486	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.103 18						
@@ -122,14 +122,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160511	hlmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 31						
 160512	w	w	w	conj.	and	
-160513	lb	lb/	lb	n. m. sg. abs. nom.	heart	
-160514	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. cstr. nom.	sister (related by blood)	
-160515	mid	mi/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
+160513	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
+160514	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. cstr. gen.	sister (related by blood)	
+160515	mid	mi/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	
 # KTU 2.103 32						
-160516	p	p(I)	p (I)	conj. functor	and	
-160516	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-160516	p	p(II)	p (II)	adv.	here	
-160517	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
+160516	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
+160517	bnil	bnil/	bnỉl	PN sg. abs. gen.	bnỉl	
 160518	šḥš	]š]ḥš(I)[	/ḥ-š/ (I)	vb Š impv. 2	to hurry	
 160519		?	?	?	?	
 # KTU 2.103 33						

@@ -1,13 +1,13 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.34 1						
-157575	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-157576	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157576	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157575	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+157576	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+157576	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.34 2						
 157577	l	l(I)	l (I)	prep.	to	
 157577	l	l(III)	l (III)	functor	certainly	
-157578	ṯryl	ṯryl/	ṯryl	PN sg. abs. nom.	ṯryl	
-157579	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+157578	ṯryl	ṯryl/	ṯryl	PN sg. cstr. nom.	ṯryl	
+157579	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 157580	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157580	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157580	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -17,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157581	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 157581	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 157582	lk	l(I)+k	l (I)	prep.	to	
-157583	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+157583	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 157583	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.34 4						
 157584	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
@@ -45,15 +45,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157593	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 157593	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.34 7						
-157594	kll	kll/	kll	n. m. sg. abs. gen.	totality	
-157595	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-157595	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-157595	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-157595	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-157595	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-157595	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-157595	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-157595	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+157594	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
+157595	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 157596	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.34 8						
 157597	ˤm	ˤm(I)	ʕm (I)	prep.	to	

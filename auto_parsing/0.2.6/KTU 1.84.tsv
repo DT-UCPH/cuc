@@ -5,8 +5,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150310	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 1.84 2						
 150311	w	w	w	conj.	and	
-150312	npy	npy/	npy	n. m. sg. abs. nom.	purification	
-150313	yman	yman/	ymản	TN sg. abs. nom.	Ionia	
+150312	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
+150313	yman	yman/	ymản	TN sg. abs. gen.	Ionia	
 150314	xxx	?	?	?	?	
 # KTU 1.84 3						
 150315	w	w	w	conj.	and	
@@ -35,12 +35,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150336	alṯy	alṯy/	ảlṯy(y)	GN sg. abs. nom.	ảlṯy(y)	
 150337	u	u	ủ	conj.	or	
 150338	lp	?	?	?	?	DULAT: NOT FOUND
-150339	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
-150340	ul	ul/	ủl	n. m. sg. abs. nom.	(military) force	
-150341	p	p(I)	p (I)	conj. functor	and	
-150341	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-150341	p	p(II)	p (II)	adv.	here	
-150342	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. cstr. nom.	oppressor	
+150339	ġbr	ġbr/	ġbr	TN sg. cstr. nom.	nom propre	
+150340	ul	ul/	ủl	n. m. sg. cstr. gen.	(military) force	
+150341	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
+150342	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. abs. gen.	oppressor	
 # KTU 1.84 6						
 150343	u	u	ủ	conj.	or	
 150344	lp	?	?	?	?	DULAT: NOT FOUND
@@ -54,8 +52,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 7						
 150352	b	b	b	prep.	in	
 150353	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
-150353	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. nom.	nose	
-150353	apkn	apq/+n	ảpq	n. m. cstr. nom.	spring	
+150353	apkn	ap(II)/+kn	ảp (II)	n. m. abs. gen.	nose	
+150353	apkn	apq/+n	ảpq	n. m. abs. gen.	spring	
 150354	u	u	ủ	conj.	or	
 150355	bqṣrt	?	?	?	?	DULAT: NOT FOUND
 150356	npškn	npš(I)/+kn	npš (I)	n. f. cstr. nom.	throat	
@@ -67,16 +65,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150360	u	u	ủ	conj.	or	
 150361	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 150362	ypknġl	?	?	?	?	DULAT: NOT FOUND
-150363	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 150363	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-150363	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 150363	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-150364	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. nom.	help	
-150365	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-150365	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-150365	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-150365	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-150365	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+150364	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. gen.	help	
+150365	bˤl	bˤl(II)/	bʕl (II)	DN pl. abs. gen.	Baʿlu/Baal	
+150365	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
+150365	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+150365	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+150365	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.84 9						
 150366	xl	?	?	?	?	DULAT: NOT FOUND
 150367	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
@@ -89,19 +85,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 12						
 150372		?	?	?	?	
 150373	w	w	w	conj.	and	
-150374	npy	npy/	npy	n. m. sg. abs. nom.	purification	
-150375	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
-150375	gr	gr(I)/	gr (I)	n. m. sg. abs. nom.	protected	
-150375	gr	gr[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
+150374	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
+150375	gr	gr(I)/	gr (I)	n. m. pl. cstr. gen.	protected	
+150375	gr	gr(I)/	gr (I)	n. m. sg. cstr. gen.	protected	
 # KTU 1.84 13						
-150376	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl. abs. nom.	wall	
-150377	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+150376	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl. cstr. gen.	wall	
+150377	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 150378	w	w	w	conj.	and	
-150379	npy	npy/	npy	n. m. sg. abs. nom.	purification	
-150380	yman	yman/	ymản	TN sg. abs. nom.	Ionia	
+150379	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
+150380	yman	yman/	ymản	TN sg. abs. gen.	Ionia	
 150381	w	w	w	conj.	and	
-150382	npy	npy/	npy	n. m. sg. abs. nom.	purification	
-150383	ˤrmt	ˤrmt/	ʕrmt	TN sg. abs. nom.	ʿrmt	
+150382	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
+150383	ˤrmt	ˤrmt/	ʕrmt	TN sg. abs. gen.	ʿrmt	
 150384	w	w	w	conj.	and	
 150385	npy	npy/	npy	n. m. sg. abs. nom.	purification	
 # KTU 1.84 14						
@@ -138,10 +133,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150411	u	u	ủ	conj.	or	
 150412	lp	?	?	?	?	DULAT: NOT FOUND
 150413	mdllkm	mdll+km	mdll	→	?	
-150414	ul	ul/	ủl	n. m. sg. abs. nom.	(military) force	
-150415	p	p(I)	p (I)	conj. functor	and	
-150415	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-150415	p	p(II)	p (II)	adv.	here	
+150414	ul	ul/	ủl	n. m. sg. cstr. nom.	(military) force	
+150415	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 # KTU 1.84 17						
 150416	xr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.84 18						
@@ -187,8 +180,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150451	ypkm	yp/	yp	n. m. sg. abs. nom.	dignity	
 150452	b	b	b	prep.	in	
 150453	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
-150453	apkm	ap(II)/+km	ảp (II)	n. m. cstr. nom.	nose	
-150453	apkm	apq/+m(I)	ảpq	n. m. cstr. nom.	spring	
+150453	apkm	ap(II)/+km	ảp (II)	n. m. abs. gen.	nose	
+150453	apkm	apq/+m(I)	ảpq	n. m. abs. gen.	spring	
 150454	u	u	ủ	conj.	or	
 150455	bqṣrt	?	?	?	?	DULAT: NOT FOUND
 150456	npškm	npš(I)/+km	npš (I)	n. f. cstr. nom.	throat	
@@ -199,8 +192,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 24						
 150460	ṣym	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.84 25						
-150461	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
-150462	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
+150461	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
+150462	kbkb	kbkb/	kbkb	n. m. sg. abs. gen.	heavenly body	
 # KTU 1.84 26						
 150463		?	?	?	?	
 # KTU 1.84 27						
@@ -212,10 +205,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 30						
 150467	pšmtkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.84 31						
-150468	p	p(I)	p (I)	conj. functor	and	
-150468	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-150468	p	p(II)	p (II)	adv.	here	
-150469	yt	yt/	yt	n. m. sg. abs. nom.	?	
+150468	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
+150469	yt	yt/	yt	n. m. sg. abs. gen.	?	
 150470	xxx	?	?	?	?	
 # KTU 1.84 32						
 150471	dkm	d+km	d	det. or rel. functor	the one(s) of	
@@ -233,18 +224,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 37						
 150478		?	?	?	?	
 # KTU 1.84 38						
-150479	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. nom.	justice	
-150480	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. nom.	justice	
+150479	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. nom.	justice	
+150480	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	justice	
 # KTU 1.84 39						
 150481	y	+y, [y	-y (I)	prep. functor	my	
 150481	y	~y	-y (II)	prep. functor	indeed	
 150481	y	y	y	prep. functor	oh!	
 # KTU 1.84 40						
-150482	npy	npy/	npy	n. m. sg. abs. gen.	purification	
+150482	npy	npy/	npy	n. m. sg. cstr. gen.	purification	
 150483	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu II	
 # KTU 1.84 41						
 150484	x	?	?	?	?	
-150485	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. abs. nom.	assembly	
+150485	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. nom.	assembly	
 # KTU 1.84 42						
 150486		?	?	?	?	
 # KTU 1.84 43						
@@ -256,16 +247,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 46						
 150490		?	?	?	?	
 # KTU 1.84 47						
-150491	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-150491	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-150491	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-150491	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-150492	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. nom.	help	
-150493	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-150493	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-150493	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-150493	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-150493	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+150491	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+150491	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+150492	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. gen.	help	
+150493	bˤl	bˤl(II)/	bʕl (II)	DN pl. abs. gen.	Baʿlu/Baal	
+150493	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
+150493	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+150493	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+150493	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.84 48						
 150494		?	?	?	?	
 # KTU 1.84 49						

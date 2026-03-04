@@ -2,7 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.68 1						
 158787	l	l(I)	l (I)	prep.	to	
 158788	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
-158789	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
+158789	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
 # KTU 2.68 2						
 158790	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158790	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -15,10 +15,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158793	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.68 4						
 158794	l	l(I)	l (I)	prep.	to	
-158795	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158795	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 158796	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.68 5						
-158797	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. gen. sg.	distance	
+158797	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. sg. abs. gen.	distance	
 # KTU 2.68 6						
 158798	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158799	w	w	w	conj.	and	
@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158801	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 158802	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.68 8						
-158803	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
+158803	adty	ad(t/t+y	ảdt	n. f. sg. abs. gen.	lady	
 158804	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158804	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 # KTU 2.68 9						
@@ -42,37 +42,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158808	hnny	hnny+ny	hnny	adv.	here	
 # KTU 2.68 12						
 158809	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-158810	kll	kll/	kll	n. m. sg. abs. gen.	totality	
+158810	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
 # KTU 2.68 13						
-158811	mid	mi/	mỉ/ủd	n. m. sg. abs. gen.	abundance	
-158812	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-158812	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-158812	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-158812	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-158812	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-158812	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-158812	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158812	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+158811	mid	mi/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	
+158812	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 # KTU 2.68 14						
 158813	ṯmny	ṯm	ṯm	adv.	there	
 158814	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.68 15						
-158815	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
+158815	adty	ad(t/t+y	ảdt	n. f. sg. abs. gen.	lady	
 158816	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.68 16						
-158817	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-158817	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-158817	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-158817	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-158817	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-158817	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-158817	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158817	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
-158818	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158818	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158818	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158818	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158818	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+158817	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+158818	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+158818	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.68 17						
 158819	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 158819	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	

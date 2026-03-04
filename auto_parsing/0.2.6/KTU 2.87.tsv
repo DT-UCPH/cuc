@@ -1,9 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.87 1						
-159627	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-159628	abny	ab/+ny	ảb	n. m. cstr. nom.	father	
-159628	abny	ab&n/+y	ảb	n. m. cstr. nom.	father	
-159628	abny	abny/	ảbny	PN sg. abs. nom.	verso	
+159627	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+159628	abny	ab/+ny	ảb	n. m. abs. gen.	father	
+159628	abny	ab&n/+y	ảb	n. m. abs. gen.	father	
+159628	abny	abny/	ảbny	PN sg. abs. gen.	verso	
 # KTU 2.87 2						
 159629	l	l(I)	l (I)	prep.	to	
 159629	l	l(III)	l (III)	functor	certainly	
@@ -11,11 +11,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159631	urtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 3						
 159632	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
-159633	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159633	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-159633	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159633	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159633	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+159633	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+159633	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 159634	hlny	hlny	hlny	deictic adv. functor	behold	
 # KTU 2.87 4						
 159635	bdbnil	?	?	?	?	DULAT: NOT FOUND
@@ -25,16 +22,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159638	w	w	w	conj.	and	
 159639	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	nuf.	three	
 # KTU 2.87 6						
-159640	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
-159640	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
-159641	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. nom.	salt	
+159640	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. cstr. nom.	city	
+159640	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. cstr. nom.	donkey	
+159641	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. gen.	salt	
 159642	w	w	w	conj.	and	
 159643	arbˤ	arbˤ/	ảrbʕ	num.	four	
 159644	spm	sp/m	sp	n. m. pl. abs. nom.	bowl	
 # KTU 2.87 7						
 159645	w	w	w	conj.	and	
-159646	lb	lb/	lb	n. m. sg. abs. nom.	heart	
-159647	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. cstr. nom.	sister (related by blood)	
+159646	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
+159647	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. abs. gen.	sister (related by blood)	
 159648	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
 # KTU 2.87 8						
 159649	ky	k(III)	k (III)	Subordinating or completive functor	when	
@@ -76,8 +73,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159668	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 159669	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.87 12						
-159670	ḥ	ḥ/	ḥ	n. m. abs. gen.	life	
-159671	npšk	npš(I)/+k	npš (I)	n. f. cstr. gen.	throat	
+159670	ḥ	ḥ/	ḥ	n. m. cstr. gen.	life	
+159671	npšk	npš(I)/+k	npš (I)	n. f. abs. gen.	throat	
 159672	w	w	w	conj.	and	
 159673	ḥnpšy	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 13						
@@ -131,10 +128,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159702	bhm	b+m(I)	b	prep.	in	
 # KTU 2.87 22						
 159703	w	w	w	conj.	and	
-159704	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
-159704	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
-159704	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject	
-159705	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
+159704	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. cstr. nom.	to eject	
+159705	bnil	bnil/	bnỉl	PN sg. abs. gen.	bnỉl	
 # KTU 2.87 23						
 159706	w	w	w	conj.	and	
 159707	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
@@ -154,7 +149,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159713	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.87 25						
 159714	bbd	bb/+d	bb	PN sg. cstr. nom.	bb, ?	
-159715	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
+159715	bnil	bnil/	bnỉl	PN sg. abs. gen.	bnỉl	
 159716	hl	hl	hl	deictic adv. functor	behold	
 159717	ˤkd	ˤkd/	ʕkd	TN sg. abs. nom.	ungestüm	
 # KTU 2.87 26						
@@ -196,8 +191,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159738	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
 159739	pa	?	?	?	?	DULAT: NOT FOUND
 159740	nmḥt	nmḥt[	/m-ḥ(-w:y)/	vb N suffc. 3 m. sg.	to clean	
-159741	aky	aky/	ảky	PN sg. abs. nom.	ảky	
-159742	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. nom.	plight	
+159741	aky	aky/	ảky	PN sg. cstr. nom.	ảky	
+159742	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. gen.	plight	
 # KTU 2.87 31						
 159743	hn	hn	hn	functor	behold!	
 159744	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	

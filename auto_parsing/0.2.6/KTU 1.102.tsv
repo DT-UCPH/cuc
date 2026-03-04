@@ -1,48 +1,45 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.102 1						
-152274	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 152274	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-152274	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 152274	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-152275	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-152275	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+152275	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+152275	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 1.102 2						
-152276	ušḫry	ušḫry/	ỉ/ủšḫry	DN sg. abs. nom.	ỉ/ủšḫry	
+152276	ušḫry	ušḫry/	ỉ/ủšḫry	DN sg. cstr. gen.	ỉ/ủšḫry	
 # KTU 1.102 3						
-152277	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-152277	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-152278	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-152278	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-152278	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+152277	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+152277	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+152278	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+152278	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+152278	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 # KTU 1.102 4						
-152279	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-152279	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+152279	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
+152279	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
 # KTU 1.102 5						
-152280	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+152280	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. cstr. gen.	Koṯaru/Kothar	
 # KTU 1.102 6						
-152281	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. nom.	term for the kings of Ugarit	
+152281	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. cstr. gen.	term for the kings of Ugarit	
 # KTU 1.102 7						
-152282	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
-152282	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
+152282	pdry	pdry/	pdry	DN sg. abs. gen.	Pidray	
+152282	pdry	pdr(I)/+y	pdr (I)	n. m. abs. gen.	town	
 # KTU 1.102 8						
 152283	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
 152283	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 152283	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.102 9						
-152284	trṯ	trṯ/	trṯ	n. m. sg. abs. nom.	new wine	
+152284	trṯ	trṯ/	trṯ	n. m. sg. cstr. nom.	new wine	
 # KTU 1.102 10						
-152285	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
+152285	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
 # KTU 1.102 11						
-152286	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
-152286	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-152286	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+152286	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. gen.	eye	
+152286	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 152287	ḫbly	ḫbly/	ḫbly	adj. f. sg. abs. nom.	distrut- trice	
 # KTU 1.102 12						
-152288	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-152288	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-152289	pgr	pgr/	pgr	n. m. sg. abs. nom.	body	
+152288	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
+152288	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
+152289	pgr	pgr/	pgr	n. m. sg. cstr. gen.	body	
 # KTU 1.102 13						
-152290	iltm	ilt(I)/m	ỉlt (I)	n. f. pl. abs. nom.	goddess	
+152290	iltm	ilt(I)/m	ỉlt (I)	n. f. pl. abs. gen.	goddess	
 152291	ḫnqtm	ḫnqt/m	ḫnqt	n. f. pl. abs. nom.	strangler	
 # KTU 1.102 14						
 152292	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	

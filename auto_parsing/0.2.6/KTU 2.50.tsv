@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158450	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.50 2						
 158451	l	l(I)	l (I)	prep.	to	
-158452	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158452	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 158453	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 158454	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.50 3						
@@ -17,19 +17,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158459	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
 158460	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.50 5						
-158461	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-158461	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-158461	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-158461	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-158461	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-158461	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-158461	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158461	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
-158462	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158462	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158462	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158462	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158462	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+158461	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+158462	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+158462	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 158463	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 158463	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.50 6						
@@ -41,23 +31,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158467	ly	l(I)+y	l (I)	prep.	to	
 158468	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.50 8						
-158469	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. gen.	handsome	
+158469	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	handsome	
 158469	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	
 # KTU 2.50 9						
 158470	xy	?	?	?	?	DULAT: NOT FOUND
 158471	w	w	w	conj.	and	
 158472	lm	l(I)	l (I)	prep.	to	
 # KTU 2.50 10						
-158473	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
-158473	šil	šil(I)/	šỉl (I)	n. m. sg. abs. nom.	interrogator	
-158474	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-158474	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-158474	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-158474	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-158474	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-158474	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-158474	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158474	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+158473	šil	šil(I)/	šỉl (I)	n. m. sg. cstr. gen.	interrogator	
+158474	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 # KTU 2.50 11						
 158475	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 12						
@@ -84,11 +66,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158487	štnt	ytn[t	/y-t-n/	vb	to give	
 # KTU 2.50 17						
 158488	d	d	d	det. or rel. functor	the one(s) of	
-158489	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	handsome	
-158489	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
-158490	lbšk	lbš/+k	lbš	n. m. cstr. nom.	clothing	
-158490	lbšk	lbš[/+k	/l-b-š/	vb G act. ptcpl. m. sg. abs. nom.	to dress	
-158490	lbšk	lbš[/+k	/l-b-š/	vb G pass. ptcpl. m. sg. abs. nom.	to dress	
+158489	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. nom.	grace	
+158490	lbšk	lbš/+k	lbš	n. m. abs. gen.	clothing	
+158490	lbšk	lbš[/+k	/l-b-š/	vb G act. ptcpl. m. sg. abs. gen.	to dress	
+158490	lbšk	lbš[/+k	/l-b-š/	vb G pass. ptcpl. m. sg. abs. gen.	to dress	
 # KTU 2.50 18						
 158491	x	?	?	?	?	
 158492	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
@@ -109,9 +90,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158500	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 158501	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.50 21						
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. gen.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. abs. gen.	servant	
 158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. gen.	servant	
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. gen.	servant	
 158503	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 22						
 158504	xxy	?	?	?	?	DULAT: NOT FOUND

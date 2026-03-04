@@ -3,46 +3,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158833	l	l(I)	l (I)	prep.	to	
 158833	l	l(II)	l (II)	adv.	no	
 158833	l	l(III)	l (III)	functor	certainly	
-158834	ydrm	ndr[+m(I)	/n-d-r/	vb	to make a vow	
-158834	ydrm	ydrm/	ydrm	PN sg. abs. nom.	ydrm	
-158835	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158834	ydrm	ydrm/	ydrm	PN sg. cstr. nom.	ydrm	
+158835	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.70 2						
-158836	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158836	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158836	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158836	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158836	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+158836	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+158836	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.70 3						
 158837	atḥm	?	?	?	?	DULAT: NOT FOUND
 158838	pnḥṯ	pnḥṯ/	pnḥṯ	PN sg. abs. nom.	pnḥṯ	
 # KTU 2.70 4						
 158839	w	w	w	conj.	and	
-158840	yrmhd	yrmhd/	yrmhd	PN sg. abs. nom.	yrmhd	
+158840	yrmhd	yrmhd/	yrmhd	PN sg. cstr. nom.	yrmhd	
 # KTU 2.70 5						
-158841	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
-158842	p	p(I)	p (I)	conj. functor	and	
-158842	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-158842	p	p(II)	p (II)	adv.	here	
-158843	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-158843	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-158843	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-158843	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-158843	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-158843	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-158843	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158843	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+158841	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
+158842	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
+158843	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 # KTU 2.70 6						
 158844	l	l(I)	l (I)	prep.	to	
 158844	l	l(III)	l (III)	functor	certainly	
-158845	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-158846	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-158846	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+158845	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+158846	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
+158846	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.70 7						
 158847	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 158848	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.70 8						
 158849	l	l(I)	l (I)	prep.	to	
-158850	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158850	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 158851	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.70 9						
 158852	ṯnid	ṯnid	ṯnỉd	adv.	twice	
@@ -53,15 +40,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.70 11						
 158856	hlny	hlny	hlny	deictic adv. functor	behold	
 158857	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-158857	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-158857	bn	bn(II)	bn (II)	prep.	between	
-158857	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-158857	bn	bn[	/b-n/	vb G impv. 2	to understand	
-158858	ˤyn	ˤyn/	ʕyn	PN sg. abs. nom.	ʿyn	
+158857	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+158858	ˤyn	ˤyn/	ʕyn	PN sg. abs. gen.	ʿyn	
 # KTU 2.70 12						
 158859	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 158860	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158861	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. cstr. gen.	(female) slave	
+158861	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. abs. gen.	(female) slave	
 # KTU 2.70 13						
 158862	w	w	w	conj.	and	
 158863	lak	l(ʔ&ak[	/l-ʔ-k/	vb G impv. 2	to send (a message)	
@@ -87,20 +71,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158876	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
 # KTU 2.70 17						
 158877	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-158877	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-158877	bn	bn(II)	bn (II)	prep.	between	
-158877	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-158877	bn	bn[	/b-n/	vb G impv. 2	to understand	
-158878	ˤyn	ˤyn/	ʕyn	PN sg. abs. nom.	ʿyn	
+158877	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+158878	ˤyn	ˤyn/	ʕyn	PN sg. abs. gen.	ʿyn	
 # KTU 2.70 18						
 158879	w	w	w	conj.	and	
 158880	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 158880	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
 158881	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
 # KTU 2.70 19						
-158882	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+158882	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 158883	bd	b	b	prep.	in	
-158884	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. cstr. gen.	(female) slave	
+158884	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. abs. gen.	(female) slave	
 # KTU 2.70 20						
 158885	w	w	w	conj.	and	
 158886	ṯn	ṯn(I)/	ṯn (I)	num.	two	
@@ -126,10 +107,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158895	k	k(II)	k (II)	emph. functor	yes	
 158896	tšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
 # KTU 2.70 24						
-158897	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-158897	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+158897	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
+158897	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 158897	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-158898	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+158898	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. abs. gen.	servant	
 # KTU 2.70 25						
 158899	w	w	w	conj.	and	
 158900	k	+k	-k (I)			
@@ -143,20 +124,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158903	l	l(I)	l (I)	prep.	to	
 158903	l	l(II)	l (II)	adv.	no	
 158903	l	l(III)	l (III)	functor	certainly	
-158904	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-158904	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-158904	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-158904	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-158904	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-158904	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-158904	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158904	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+158904	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.70 27						
-158905	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-158905	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
-158906	p	p(I)	p (I)	conj. functor	and	
-158906	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-158906	p	p(II)	p (II)	adv.	here	
+158905	ˤmk	ˤm(II)/	ʕm (II)	n. m. cstr. gen.	lineage	
+158906	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 158907	l	l(I)	l (I)	prep.	to	
 158907	l	l(III)	l (III)	functor	certainly	
 158908	yšbˤl	?	?	?	?	DULAT: NOT FOUND

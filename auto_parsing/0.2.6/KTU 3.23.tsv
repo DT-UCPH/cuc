@@ -81,26 +81,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161781	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 161782	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 3.23 19						
-161783	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
-161784	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161783	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. nom.	total (quantity or price)	
+161784	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 # KTU 3.23 20						
-161785	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161785	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161785	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161785	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161786	tgyn	tgyn/	tgyn	PN sg. abs. nom.	tgyn	
+161785	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161786	tgyn	tgyn/	tgyn	PN sg. abs. gen.	tgyn	
 # KTU 3.23 21						
 161787	w	w	w	conj.	and	
-161788	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161788	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161788	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 161788	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161789	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	woman	
+161789	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. gen.	woman	
 # KTU 3.23 22						
-161790	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
-161791	mˤnt	mˤn(t(I)/t	mʕnt (I)	n. f. pl. abs. nom.	?	
-161791	mˤnt	mˤn(t(I)/t	mʕnt (I)	n. f. sg. abs. nom.	?	
-161791	mˤnt	mˤn(t(I)/t=	mʕnt (I)	n. f. pl. abs. nom.	?	
+161790	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
+161791	mˤnt	mˤn(t(I)/t	mʕnt (I)	n. f. pl. abs. gen.	?	
+161791	mˤnt	mˤn(t(I)/t	mʕnt (I)	n. f. sg. abs. gen.	?	
+161791	mˤnt	mˤn(t(I)/t=	mʕnt (I)	n. f. pl. abs. gen.	?	
 # KTU 3.23 23						
 161792	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 161792	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	

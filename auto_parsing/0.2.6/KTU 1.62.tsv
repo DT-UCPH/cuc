@@ -11,33 +11,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149352	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request	
 149352	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request	
 # KTU 1.62 3						
-149353	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
-149354	ph	p(III)/+h	p (III)	n. m. cstr. nom.	mouth	
+149353	amr	amr(I)/	ảmr (I)	n. m. sg. cstr. nom.	order	
+149354	ph	p(III)/+h	p (III)	n. m. cstr. gen.	mouth	
 # KTU 1.62 4						
-149355	mm	mm(I)/	mm (I)	n. m. sg. abs. nom.	winter	
-149356	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
+149355	mm	mm(I)/	mm (I)	n. m. sg. cstr. gen.	winter	
+149356	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to go	
 # KTU 1.62 5						
 149357	b	b	b	prep.	in	
-149358	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
-149358	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
-149359	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
-149359	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
+149358	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
+149359	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. cstr. gen.	city	
+149359	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. cstr. gen.	donkey	
 # KTU 1.62 6						
-149360	mlakm	mlak/m	mlảk	n. m. pl. abs. nom.	messenger	
+149360	mlakm	mlak/m	mlảk	n. m. pl. abs. gen.	messenger	
 149361	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.62 7						
 149362	l	l(I)	l (I)	prep.	to	
 149362	l	l(II)	l (II)	adv.	no	
 149362	l	l(III)	l (III)	functor	certainly	
 149363	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-149363	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-149363	bn	bn(II)	bn (II)	prep.	between	
-149363	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-149363	bn	bn[	/b-n/	vb G impv. 2	to understand	
-149364	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149364	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149364	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149364	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149363	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+149364	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+149364	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.62 8						
 149365	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 149365	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND

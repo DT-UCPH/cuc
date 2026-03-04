@@ -12,9 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158537	hm	hm(II)	hm (II)	conj./interr. functor	if	
 158537	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 2.54 4						
-158538	š	š/	š	n. m. sg. abs. nom.	ram	
-158539	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
-158539	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
+158538	š	š/	š	n. m. sg. cstr. nom.	ram	
+158539	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. gen.	prefect	
 # KTU 2.54 5						
 158540	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 158540	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND

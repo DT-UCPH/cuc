@@ -24,12 +24,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155406	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 # KTU 1.164 4						
 155407	b	b	b	prep.	in	
-155408	db	db/	db	n. m. sg. abs. gen.	threshold	
-155409	ap	ap(I)	ảp (I)	adv./conj.	also	
-155409	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
+155408	db	db/	db	n. m. sg. cstr. gen.	threshold	
+155409	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
 155410	w	w	w	conj.	and	
-155411	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-155412	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+155411	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
+155412	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 1.164 5						
 155413	w	w	w	conj.	and	
 155414	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
@@ -38,9 +37,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155416	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 155416	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155417	w	w	w	conj.	and	
-155418	š	š/	š	n. m. sg. abs. nom.	ram	
+155418	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.164 6						
-155419	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
+155419	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 155420	l	l(I)	l (I)	prep.	to	
 155420	l	l(III)	l (III)	functor	certainly	
 155421	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
@@ -52,9 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155424	kmm	kmm	kmm	adv.	ditto	
 155425	š	š/	š	n. m. sg. abs. nom.	ram	
 155426	l	l(I)	l (I)	prep.	to	
-155427	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 155427	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-155427	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 155427	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 155428	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 # KTU 1.164 8						
@@ -73,8 +70,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155436	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 155437	b	b	b	prep.	in	
 155438	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	source	
-155438	qr	qr(II)/	qr (II)	n. m. sg. cstr. gen.	noise	
-155438	qr	qr(III)/	qr (III)	n. m. pl. cstr. gen.	wall	
+155438	qr	qr(II)/	qr (II)	n. m. sg. abs. gen.	noise	
+155438	qr	qr(III)/	qr (III)	n. m. pl. abs. gen.	wall	
 # KTU 1.164 11						
 155439	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
 155440	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
@@ -86,11 +83,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155443	xxtql	?	?	?	?	DULAT: NOT FOUND
 155444	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 14						
-155445	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
-155445	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
-155445	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 155445	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-155446	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+155446	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	throat	
 155447	w	w	w	conj.	and	
 155448	str	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 15						
@@ -99,9 +93,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 16						
 155451	w	w	w	conj.	and	
 155452	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-155453	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
+155453	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. nom.	gold	
 # KTU 1.164 17						
-155454	riš	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	head	
+155454	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	head	
 155455	axxm	?	?	?	?	DULAT: NOT FOUND
 155456	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 18						

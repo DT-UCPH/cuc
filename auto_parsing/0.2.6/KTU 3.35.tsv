@@ -7,46 +7,35 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.35 2						
 162208	xx	?	?	?	?	
 162209	ḫtyn	ḫty(I)/+n	ḫty (I)	GN sg. cstr. nom.	Hittite	
-162209	ḫtyn	ḫtyn/	ḫtyn	PN sg. abs. nom.	ḫtyn	
-162210	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-162210	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-162210	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-162211	bth	bt(II)/+h	bt (II)	n. m. cstr. nom.	house	
+162209	ḫtyn	ḫtyn/	ḫtyn	PN sg. cstr. nom.	ḫtyn	
+162210	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
+162210	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
+162211	bth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
 # KTU 3.35 3						
-162212	aġltn	aġltn/	ảġltn	PN sg. abs. nom.	ảġltn	
+162212	aġltn	aġltn/	ảġltn	PN sg. abs. gen.	ảġltn	
 # KTU 3.35 4						
 162213	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
 162214	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-162214	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-162214	bn	bn(II)	bn (II)	prep.	between	
-162214	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-162214	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162215	ddy	dd(II)/+y	dd (II)	n. m. cstr. nom.	cauldronful	
-162215	ddy	dd(I)/+y	dd (I)	adj. m. cstr. nom.	love	
-162215	ddy	ddy/	ddy	PN sg. abs. nom.	ddy	
+162214	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+162215	ddy	dd(II)/+y	dd (II)	n. m. abs. gen.	cauldronful	
+162215	ddy	ddy/	ddy	PN sg. abs. gen.	ddy	
 # KTU 3.35 5						
 162216	ˤbdil	?	?	?	?	DULAT: NOT FOUND
 162217	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-162217	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-162217	bn	bn(II)	bn (II)	prep.	between	
-162217	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-162217	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162218	ṣdqn	ṣdqn/	ṣdqn	PN sg. abs. nom.	ṣdqn	
+162217	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+162218	ṣdqn	ṣdqn/	ṣdqn	PN sg. cstr. gen.	ṣdqn	
 # KTU 3.35 6						
-162219	bnšm	bnš/~m	bnš	n. m. abs. nom. pl.	man	
+162219	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	man	
 162220	hnmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
 162221	ypḥm	ypḥ/+m(I)	ypḥ	n. m. cstr. nom.	witness	
 # KTU 3.35 7						
-162222	kbby	kbby/	kbby	PN sg. abs. nom.	kbby	
-162222	kbby	kbb+y	kbb	?	?	
-162223	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-162223	yd	bd(IV)	bd (IV)	prep.	into the hands of	
-162223	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-162224	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-162224	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-162224	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-162225	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	
-162225	amt	am(t(I)/t	ảmt (I)	n. f. sg. abs. nom.	(female) slave	
-162225	amt	am(t(II)/t	ảmt (II)	n. f. sg. abs. nom.	elbow	
+162222	kbby	kbby/	kbby	PN sg. cstr. gen.	kbby	
+162223	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
+162223	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
+162224	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+162224	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+162224	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
+162225	amt	am(t(I)/t	ảmt (I)	n. f. sg. abs. gen.	(female) slave	
+162225	amt	am(t(II)/t	ảmt (II)	n. f. sg. abs. gen.	elbow	
 # KTU 3.35 8						
 162226	ilmlk	ilmlk/	ỉlmlk	PN sg. abs. nom.	ʾIlimalku/Ilimilku/Elimelek	

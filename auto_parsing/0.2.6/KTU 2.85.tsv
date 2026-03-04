@@ -5,11 +5,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159481	urtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 2						
 159482	adny	adn(I)/+y	ảdn (I)	n. m. cstr. nom.	lord	
-159483	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159483	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-159483	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159483	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159483	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+159483	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+159483	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.85 3						
 159484	w	w	w	conj.	and	
 159485	l	l(I)	l (I)	prep.	to	
@@ -40,7 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159493	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 159494	lkm	l(I)+k~m	l (I)	prep.	to	
 # KTU 2.85 7						
-159495	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+159495	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 159495	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 159496	l	l(I)	l (I)	prep.	to	
 159496	l	l(II)	l (II)	adv.	no	
@@ -54,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159501	hn	hn	hn	functor	behold!	
 159502	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.85 10						
-159503	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+159503	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 159503	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 159503	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 159503	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
@@ -66,20 +63,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159505	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 2.85 11						
 159506	mnm	mnm	mnm	indef. pn.	any(thing)	
-159507	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-159507	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-159507	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-159507	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-159507	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-159507	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-159507	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-159507	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+159507	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.85 12						
-159508	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159508	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-159508	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159508	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159508	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+159508	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+159508	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 159509	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 159509	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.85 13						
@@ -118,28 +105,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.85 22						
 159532	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 159532	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
-159533	ḫytr	ḫytr/	ḫytr	MN sg. abs. nom.		
+159533	ḫytr	ḫytr/	ḫytr	MN sg. abs. gen.		
 159534	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
 159535	xx	?	?	?	?	
 # KTU 2.85 23						
-159536	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-159537	ˤzilt	ˤzilt/	ʕzilt	PN sg. abs. nom.	ʿzilt	
+159536	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+159537	ˤzilt	ˤzilt/	ʕzilt	PN sg. abs. gen.	ʿzilt	
 # KTU 2.85 24						
 159538	l	l(I)	l (I)	prep.	to	
 159538	l	l(III)	l (III)	functor	certainly	
 159539	aby	ab/+y	ảb	n. m. cstr. nom.	father	
-159540	aḫty	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg. cstr. nom.	sister (related by blood)	
+159540	aḫty	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg. cstr. gen.	sister (related by blood)	
 # KTU 2.85 25						
-159541	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159541	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-159541	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159541	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159541	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+159541	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+159541	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.85 26						
 159542	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 159542	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 159543	lk	l(I)+k	l (I)	prep.	to	
-159544	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+159544	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 159544	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.85 27						
 159545	tšlm	!t!šlm[:d:w	/š-l-m/	vb D prefc. 3 m. pl.	to be well	

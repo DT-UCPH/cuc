@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160402	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 160403		?	?	?	?	
 # KTU 2.101 2						
-160404	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
+160404	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
 160405	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 160405	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 160405	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -16,14 +16,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160407	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
 # KTU 2.101 4						
 160408	ly	l(I)+y	l (I)	prep.	to	
-160409	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
+160409	adty	ad(t/t+y	ảdt	n. f. sg. abs. gen.	lady	
 160410	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 160410	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 # KTU 2.101 5						
 160411	w	w	w	conj.	and	
 160412	l	l(I)	l (I)	prep.	to	
-160413	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
-160414	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
+160413	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
+160414	adty	ad(t/t+y	ảdt	n. f. sg. abs. gen.	lady	
 # KTU 2.101 6						
 160415	xxxx	?	?	?	?	
 160416	šb	šb/	šb	n. m. abs. nom.	old man	

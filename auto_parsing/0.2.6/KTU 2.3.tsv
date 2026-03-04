@@ -20,7 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156316	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure	
 156316	brt	br(t/t	brt	n. f. sg. abs. nom.	forecast	
 156317	l	l(I)	l (I)	prep.	to	
-156318	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+156318	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 # KTU 2.3 6						
 156319	ušxšir	?	?	?	?	DULAT: NOT FOUND
 156320	k	+k	-k (I)			
@@ -44,8 +44,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 9						
 156331	w	w	w	conj.	and	
 156332	sip	sip	sỉp	?	?	
-156333	db	db/	db	n. m. sg. abs. nom.	threshold	
-156334	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
+156333	db	db/	db	n. m. sg. cstr. nom.	threshold	
+156334	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 # KTU 2.3 10						
 156335	w	w	w	conj.	and	
 156336	ank	ank	ảnk	pers. pn.	I	
@@ -104,11 +104,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156364	at	at(I)	ảt (I)	pers. pn.	you	
 156365	trgm	!t!rgm[	/r-g-m/	vb	to say	
 # KTU 2.3 19						
-156366	p	p(I)	p (I)	conj. functor	and	
-156366	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-156366	p	p(II)	p (II)	adv.	here	
-156367	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. nom.	poplar	
-156367	adrm	adr(IV)/m	ảdr (IV)	n. m. pl. abs. nom.	fibula	
+156366	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
+156367	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. gen.	poplar	
+156367	adrm	adr(IV)/m	ảdr (IV)	n. m. pl. abs. gen.	fibula	
 156368	ḏrm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 20						
 156369	w	w	w	conj.	and	

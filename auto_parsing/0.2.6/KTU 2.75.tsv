@@ -7,24 +7,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159192	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 159193	xxxx	?	?	?	?	
 # KTU 2.75 2						
-159194	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159194	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-159194	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159194	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159194	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+159194	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. nom.	to say	
+159194	rgm	rgm/	rgm	n. m. sg. cstr. nom.	word	
 # KTU 2.75 3						
-159195	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+159195	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
 # KTU 2.75 4						
-159196	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+159196	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. abs. gen.	servant	
 159197	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 159197	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 # KTU 2.75 5						
 159198	l	l(I)	l (I)	prep.	to	
 159198	l	l(II)	l (II)	adv.	no	
 159198	l	l(III)	l (III)	functor	certainly	
-159199	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-159199	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-159200	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+159199	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+159199	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+159200	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.75 6						
 159201	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 159201	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	

@@ -2,9 +2,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.61 1						
 158622	l	l(I)	l (I)	prep.	to	
 158622	l	l(III)	l (III)	functor	certainly	
-158623	ġrdn	ġrdn/	ġrdn	PN sg. abs. nom.	ġrdn	
+158623	ġrdn	ġrdn/	ġrdn	PN sg. cstr. nom.	ġrdn	
 # KTU 2.61 2						
-158624	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158624	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 158625	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158625	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158625	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -52,10 +52,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158643	l	l(III)	l (III)	functor	certainly	
 158644	bˤr	bˤr/	bʕr	adj. m. abs. nom.	burnt	
 # KTU 2.61 10						
-158645	ap	ap(I)	ảp (I)	adv./conj.	also	
-158645	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
-158646	krmm	krm/	krm	n. m. pl. abs. nom.	vineyard	
-158646	krmm	krm/	krm	n. m. sg. abs. nom.	vineyard	
+158645	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
+158646	krmm	krm/	krm	n. m. pl. abs. gen.	vineyard	
+158646	krmm	krm/	krm	n. m. sg. abs. gen.	vineyard	
 # KTU 2.61 11						
 158647	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish	
 158647	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	

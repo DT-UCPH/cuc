@@ -31,11 +31,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.49 9						
 149206	l	l(I)	l (I)	prep.	to	
 149206	l	l(III)	l (III)	functor	certainly	
-149207	ll	ll(I)/	ll (I)	n. m. sg. abs. nom.	night	
-149208	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
-149208	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+149207	ll	ll(I)/	ll (I)	n. m. sg. cstr. nom.	night	
+149208	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
+149208	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
 # KTU 1.49 10						
-149209	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
+149209	mit	mi(t/t	mỉt	n. f. sg. abs. gen.	a hundred	
 149210	šˤrt	šˤr(t(I)/t	šʕrt (I)	n. f. pl. abs. nom.	wool	
 149210	šˤrt	šˤr(t(I)/t	šʕrt (I)	n. f. sg. abs. nom.	wool	
 149210	šˤrt	šˤr(t(I)/t=	šʕrt (I)	n. f. pl. abs. nom.	wool	

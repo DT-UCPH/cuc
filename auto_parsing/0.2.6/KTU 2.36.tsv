@@ -1,19 +1,16 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 1						
-157694	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-157695	pdġb	pdġb/	pdġb	PN sg. abs. nom.	pdġb	
-157696	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
+157694	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+157695	pdġb	pdġb/	pdġb	PN sg. cstr. gen.	pdġb	
+157696	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 157697	xxxxxx	?	?	?	?	
 157698	kxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 2						
 157699	l	l(I)	l (I)	prep.	to	
 157699	l	l(III)	l (III)	functor	certainly	
-157700	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
-157701	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157701	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-157701	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157701	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-157701	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+157700	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu II	
+157701	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+157701	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 157702	hlny	hlny	hlny	deictic adv. functor	behold	
 157703	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157704	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
@@ -22,7 +19,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157705	w	w	w	conj.	and	
 157706	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157707	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
-157708	kll	kll/	kll	n. m. sg. abs. gen.	totality	
+157708	kll	kll/	kll	n. m. sg. abs. nom.	totality	
 157709	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157709	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157709	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -52,16 +49,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157717	ky	k(II)	k (II)	emph. functor	yes	
 157717	ky	k(IV)	k (IV)	adv.	thus	
 157718	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-157719	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-157719	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+157719	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
+157719	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 157719	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-157720	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157720	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-157721	tḥmk	tḥm/+k	tḥm	n. m. sg. cstr. nom.	message	
+157720	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+157720	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+157721	tḥmk	tḥm/+k	tḥm	n. m. sg. abs. gen.	message	
 157722	hlny	hlny	hlny	deictic adv. functor	behold	
 # KTU 2.36 6						
-157723	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
-157724	argmny	argm/+ny	ả/ỉrgmn	n. m. cstr. nom.	payment of tribute to the Hittite court	
+157723	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. nom.	gold	
+157724	argmny	argm/+ny	ả/ỉrgmn	n. m. abs. gen.	payment of tribute to the Hittite court	
 157725	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157726	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 157726	špš	špš/	špš	n. f. sg. abs. gen.	sun	
@@ -70,14 +67,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 7						
 157729	w	w	w	conj.	and	
 157730	at	at(I)	ảt (I)	pers. pn.	you	
-157731	kdwṯ	kdwṯ/	kdwṯ	n. m. sg. abs. nom.		
-157732	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
-157732	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
+157731	kdwṯ	kdwṯ/	kdwṯ	n. m. sg. cstr. nom.		
+157732	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. gen.	new moon	
 157733	d	d	d	det. or rel. functor	the one(s) of	
 157734	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to place	
 157734	štt	št[t:pass	/š-t/	vb Gpass suffc. 1 c. sg.	to place	
 157735	b	b	b	prep.	in	
-157736	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. cstr. gen.	message	
+157736	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. abs. gen.	message	
 # KTU 2.36 8						
 157737	xx	?	?	?	?	
 157738	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 f. sg.	to proceed	
@@ -102,7 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157745	xnṯb	?	?	?	?	DULAT: NOT FOUND
 157746	ˤmnkm	ˤm(I)+km	ʕm (I)	prep.	to	
 157747	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
-157747	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
+157747	qrb	qrb/	qrb	n. m. sg. abs. gen.	inside	
 157748	xx	?	?	?	?	
 # KTU 2.36 10						
 157749	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
@@ -159,31 +155,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157778	ky	k(II)	k (II)	emph. functor	yes	
 157778	ky	k(IV)	k (IV)	adv.	thus	
 157779	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-157780	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-157780	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+157780	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
+157780	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 157780	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-157781	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157781	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157781	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+157781	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.36 15						
-157782	šbt	šb(t/t	šbt	n. f. sg. cstr. nom.	greyness > old age	
+157782	šbt	šb(t/t	šbt	n. f. sg. abs. gen.	greyness > old age	
 157783	ntbt	ntbt/	ntbt	n. m. sg. abs. nom.	path	
 157784	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
 157784	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. nom.	sob	
 157785	ušbtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 16						
-157786	ntbt	ntbt/	ntbt	n. m. sg. abs. nom.	path	
-157787	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
-157787	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. nom.	sob	
+157786	ntbt	ntbt/	ntbt	n. m. sg. cstr. nom.	path	
+157787	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
+157787	mṣrm	mṣr/+m(I)	mṣr	n. m. abs. gen.	sob	
 157788	b	b	b	prep.	in	
 157789	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
-157790	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+157790	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 2.36 17						
-157791	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
+157791	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
 157792	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. abs. nom.	flax	
 157793	w	w	w	conj.	and	
 157794	b	b	b	prep.	in	
 157795	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
-157796	nġṯ	nġṯ/	nġṯ	TN sg. abs. gen.	go to TN	
+157796	nġṯ	nġṯ/	nġṯ	TN sg. abs. nom.	go to TN	
 157797	tˤtqnn	!t!ˤtq[n+n	/ʕ-t-q/	vb G prefc.	to pass	
 157797	tˤtqnn	!t!ˤtq[+nn	/ʕ-t-q/	vb G prefc.	to pass, ?	
 # KTU 2.36 18						
@@ -209,9 +205,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157811	rxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 21						
 157812	xxx	?	?	?	?	
-157813	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157813	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-157814	grgmš	grgmš/	grgmš	TN sg. abs. nom.	gargamiš	
+157813	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+157813	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+157814	grgmš	grgmš/	grgmš	TN sg. abs. gen.	gargamiš	
 157815	xx	?	?	?	?	
 157816	rxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 22						

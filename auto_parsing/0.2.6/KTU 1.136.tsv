@@ -1,10 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.136 1						
 154806	xn	?	?	?	?	DULAT: NOT FOUND
-154807	ipd	ipd/	ỉpd	n. m. sg. abs. nom.	tunic	
+154807	ipd	ipd/	ỉpd	n. m. sg. cstr. nom.	tunic	
 # KTU 1.136 2						
-154808	ipd	ipd/	ỉpd	n. m. sg. abs. nom.	tunic	
-154809	gk	g/+k	g	n. m. cstr. nom.	(loud) voice	
+154808	ipd	ipd/	ỉpd	n. m. sg. cstr. gen.	tunic	
+154809	gk	g/+k	g	n. m. abs. gen.	(loud) voice	
 # KTU 1.136 3						
 154810	w	w	w	conj.	and	
 154811	lṯġr	?	?	?	?	DULAT: NOT FOUND

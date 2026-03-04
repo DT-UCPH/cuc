@@ -103,19 +103,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157317	xxx	?	?	?	?	
 157318	xxxḥd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 21						
-157319	pkn	p(I)+kn	p (I)	conj. functor	and	
 157319	pkn	p(III)/+kn	p (III)	n. m. cstr. nom.	mouth	
 157319	pkn	p(III)&k/+n	p (III)	n. m. cstr. nom.	mouth	
 # KTU 2.31 22						
-157320	š	š/	š	n. m. sg. abs. nom.	ram	
+157320	š	š/	š	n. m. sg. abs. gen.	ram	
 157321	an	an(I)	ản (I)	pers. pn.	I	
 157321	an	an(II)	ản (II)	adv.	wherever	
 # KTU 2.31 23						
 157322	xlm	?	?	?	?	DULAT: NOT FOUND
 157323	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 24						
-157324	ḥ	ḥ/	ḥ	n. m. abs. nom.	life	
-157325	asrm	asr/m	ảsr	n. m. pl. abs. nom.	prisoner	
+157324	ḥ	ḥ/	ḥ	n. m. cstr. nom.	life	
+157325	asrm	asr/m	ảsr	n. m. pl. abs. gen.	prisoner	
 # KTU 2.31 25						
 157326	dbḥn	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 # KTU 2.31 26						
@@ -253,9 +252,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157412	d	d	d	det. or rel. functor	the one(s) of	
 157413	b	b	b	prep.	in	
 157414	dmt	dm(t(I)/t	dmt (I)	n. f. sg. abs. gen.	tower	
-157415	um	um/	ủm	n. f. sg. abs. gen.	mother	
-157416	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
-157416	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+157415	um	um/	ủm	n. f. sg. abs. nom.	mother	
+157416	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+157416	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.31 49						
 157417	xxx	?	?	?	?	
 157418	xxxxḏḏyn	?	?	?	?	DULAT: NOT FOUND

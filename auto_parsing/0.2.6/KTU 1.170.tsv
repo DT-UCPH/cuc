@@ -1,11 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.170 1						
 155731	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-155731	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-155731	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-155731	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-155731	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
-155732	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
+155731	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
+155731	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
+155732	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 # KTU 1.170 2						
 155733	ddn	dd(II)/+n	dd (II)	n. m. cstr. nom.	cauldronful	
 155733	ddn	ddn(I)/	ddn (I)	PN sg. abs. nom.	ddn (I)	
@@ -19,12 +17,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155737	w	w	w	conj.	and	
 155738	š	š/	š	n. m. sg. abs. nom.	ram	
 155739	w	w	w	conj.	and	
-155740	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+155740	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 # KTU 1.170 4						
-155741	dmlt	dmlt/	dmlt	DN sg. abs. nom.	dmlt	
-155742	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-155742	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
-155742	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+155741	dmlt	dmlt/	dmlt	DN sg. cstr. gen.	dmlt	
+155742	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
+155742	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+155742	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.170 5						
 155743	xx	?	?	?	?	
 # KTU 1.170 6						
@@ -38,11 +36,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155747	št	št[	/š-t/	vb G impv. 2	to place	
 155747	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 155748	b	b	b	prep.	in	
-155749	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
+155749	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. cstr. gen.	plate / wide bowl / platter	
 # KTU 1.170 9						
-155750	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-155750	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-155750	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+155750	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
+155750	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 155751	w	w	w	conj.	and	
 155752	š	š/	š	n. m. sg. abs. nom.	ram	
 155753	l	l(I)	l (I)	prep.	to	

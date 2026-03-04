@@ -2,27 +2,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 1						
 151168	id	id	ỉd	conj.	when	
 151169	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-151170	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151170	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+151170	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+151170	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 # KTU 1.90 2						
-151171	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-151172	ḥgb	ḥgb/	ḥgb	n. m. sg. abs. nom.	locust	
-151173	ap	ap(I)	ảp (I)	adv./conj.	also	
-151173	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
+151171	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
+151172	ḥgb	ḥgb/	ḥgb	n. m. sg. cstr. gen.	locust	
+151173	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
 # KTU 1.90 3						
 151174	w	w	w	conj.	and	
-151175	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-151176	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+151175	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
+151176	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 1.90 4						
 151177	w	w	w	conj.	and	
 151178	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 151179	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.90 5						
 151180	w	w	w	conj.	and	
-151181	ḥẓ	ḥẓ/	ḥẓ	n. m. sg. abs. nom.	arrow	
-151182	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-151182	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-151182	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+151181	ḥẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. nom.	arrow	
+151182	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
+151182	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 # KTU 1.90 6						
 151183	w	w	w	conj.	and	
 151184	š	š/	š	n. m. sg. abs. nom.	ram	
@@ -34,9 +32,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151187	w	w	w	conj.	and	
 151188	xxxx	?	?	?	?	
 151189	l	l(I)	l (I)	prep.	to	
-151190	inš	inš/	ỉnš	n. m. sg. abs. gen.	people	
+151190	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
 # KTU 1.90 8						
-151191	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+151191	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 151191	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.90 9						
 151192	w	w	w	conj.	and	
@@ -81,8 +79,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151207	alit	alit/	ảlỉt	DN sg. abs. nom.	the most powerful	
 # KTU 1.90 20						
 151208	xxx	?	?	?	?	
-151209	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-151210	š	š/	š	n. m. sg. abs. nom.	ram	
+151209	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
+151210	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.90 21						
 151211	l	l(I)	l (I)	prep.	to	
 151211	l	l(II)	l (II)	adv.	no	

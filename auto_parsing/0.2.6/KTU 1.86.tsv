@@ -1,16 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 1						
-150688	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-150688	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
-150688	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-150688	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-150688	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-150688	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
-150689	ḥlmm	ḥlm(II)/	ḥlm (II)	n. m. pl. abs. nom.	growing animal	
-150690	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-150690	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-150690	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-150691	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
+150688	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
+150688	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
+150689	ḥlmm	ḥlm(II)/	ḥlm (II)	n. m. pl. cstr. gen.	growing animal	
+150690	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. gen.	(head of) cattle	
+150690	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
+150691	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
 150692	w	w	w	conj.	and	
 # KTU 1.86 2						
 150693	šntm	šnt(I)/m	šnt (I)	n. f. pl. abs. nom.	year	
@@ -21,14 +16,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150696	w	w	w	conj.	and	
 150697	x	?	?	?	?	
 # KTU 1.86 3						
-150698	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-150698	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-150698	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-150699	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
-150699	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
-150700	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-150700	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-150700	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+150698	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
+150698	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+150699	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
+150699	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
+150700	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+150700	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+150700	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 150701	xx	?	?	?	?	
 150702	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 150702	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
@@ -49,8 +43,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150709	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 150710	w	w	w	conj.	and	
 150711	śśw	ss/	s:śs/św	n. f. pl. cstr. nom.	horse	
-150711	śśw	ss/	s:śs/św	n. f. sg. abs. nom.	horse	
-150712	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
+150711	śśw	ss/	s:śs/św	n. f. sg. cstr. nom.	horse	
+150712	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
 # KTU 1.86 7						
 150713	w	w	w	conj.	and	
 150714	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -58,12 +52,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150715	yhpk	!y!hpk[	/h-p-k/	vb G prefc. 3 m. sg.	to overturn	
 150715	yhpk	!!yhpk[/	/h-p-k/	vb G inf.	to overturn	
 150716	śśw	ss/	s:śs/św	n. f. pl. cstr. nom.	horse	
-150716	śśw	ss/	s:śs/św	n. f. sg. abs. nom.	horse	
-150717	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-150717	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-150717	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-150717	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-150717	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+150716	śśw	ss/	s:śs/św	n. f. sg. cstr. nom.	horse	
+150717	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+150717	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 150718		?	?	?	?	
 # KTU 1.86 8						
 150719	d	d	d	det. or rel. functor	the one(s) of	
@@ -98,14 +89,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 12						
 150735	l	l(I)	l (I)	prep.	to	
 150735	l	l(III)	l (III)	functor	certainly	
-150736	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
-150736	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
-150737	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
-150737	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
-150738	mdl	mdl(I)/	mdl (I)	n. m. sg. abs. nom.	riding gear	
-150738	mdl	mdl[	/m-d-l/	vb G impv. 2	to bridle	
-150738	mdl	mdl[:d	/m-d-l/	vb D impv. 2	to bridle	
-150738	mdl	mdl(II)/	mdl (II)	n. m. sg. abs. nom.	lightning (?)	
+150736	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
+150736	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	
+150737	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. gen.	donkey	
+150738	mdl	mdl(I)/	mdl (I)	n. m. sg. abs. gen.	riding gear	
+150738	mdl	mdl(II)/	mdl (II)	n. m. sg. abs. gen.	lightning (?)	
 150739	nˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 13						
 150740	w	w	w	conj.	and	
@@ -120,31 +108,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150744	rxxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 14						
 150745	w	w	w	conj.	and	
-150746	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
-150747	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
-150747	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
-150747	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
+150746	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. cstr. nom.	ewe	
+150747	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. gen.	caprine animal	
 150748	bx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 15						
-150749	llu	llu/	llủ	n. m. sg. abs. nom.	suckling (lamb or kid)	
-150750	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-150750	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-150750	bn	bn(II)	bn (II)	prep.	between	
-150750	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-150750	bn	bn[	/b-n/	vb G impv. 2	to understand	
-150751	md	md(II)/	md (II)	n. m. pl. cstr. nom.	skilled	
+150749	llu	llu/	llủ	n. m. sg. cstr. nom.	suckling (lamb or kid)	
+150750	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+150750	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+150751	md	md(II)/	md (II)	n. m. pl. cstr. gen.	skilled	
 # KTU 1.86 16						
-150752	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. nom.	lamb	
+150752	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. gen.	lamb	
 150753	ḫmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 17						
 150754	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-150754	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-150754	bn	bn(II)	bn (II)	prep.	between	
-150754	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-150754	bn	bn[	/b-n/	vb G impv. 2	to understand	
-150755	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-150755	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-150755	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+150754	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+150755	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+150755	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+150755	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.86 18						
 150756	xxn	?	?	?	?	DULAT: NOT FOUND
 150757	axxkx	?	?	?	?	DULAT: NOT FOUND
@@ -160,18 +140,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 22						
 150764	trgm	!t!rgm[	/r-g-m/	vb	to say	
 150765	b	b	b	prep.	in	
-150766	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-150766	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
-150766	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-150766	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+150766	ydk	yd(I)/+k	yd (I)	n. f. abs. gen.	hand	
+150766	ydk	yd(I)/+k=	yd (I)	n. f. abs. gen.	hand	
+150766	ydk	yd(II)/+k	yd (II)	n. m. abs. gen.	love	
+150766	ydk	yd(II)/+k=	yd (II)	n. m. abs. gen.	love	
 150766	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
 150766	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 150767	yxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 23						
 150768	mˤbd	mˤbd/	mʕbd	n. m. sg. cstr. nom.	labour	
-150769	ḫrmṯt	ḫrmṯ(t/t	ḫrmṯt	n. f. pl. abs. nom.	sickle	
-150769	ḫrmṯt	ḫrmṯ(t/t	ḫrmṯt	n. f. sg. abs. nom.	sickle	
-150769	ḫrmṯt	ḫrmṯ(t/t=	ḫrmṯt	n. f. pl. abs. nom.	sickle	
+150769	ḫrmṯt	ḫrmṯ(t/t	ḫrmṯt	n. f. pl. abs. gen.	sickle	
+150769	ḫrmṯt	ḫrmṯ(t/t	ḫrmṯt	n. f. sg. abs. gen.	sickle	
+150769	ḫrmṯt	ḫrmṯ(t/t=	ḫrmṯt	n. f. pl. abs. gen.	sickle	
 # KTU 1.86 24						
 150770	w	w	w	conj.	and	
 150771	kśt	ks(t/t	kst	n. f. sg. abs. nom.	Gewand	Based on DULAT reconstruction.
@@ -189,10 +169,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150775	xx	?	?	?	?	
 # KTU 1.86 26						
 150776	kbdt	kbd(I)	kbd (I)		liver	
-150777	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
-150777	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
+150777	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
+150777	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	
 # KTU 1.86 27						
-150778	šinm	šin/m	šỉn	n. m. pl. abs. nom.	shoe	
+150778	šinm	šin/m	šỉn	n. m. pl. abs. gen.	shoe	
 150779	nxbxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 28						
 150780	b	b	b	prep.	in	

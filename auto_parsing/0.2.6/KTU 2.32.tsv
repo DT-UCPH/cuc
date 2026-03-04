@@ -6,12 +6,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157543	xxxxd	?	?	?	?	DULAT: NOT FOUND
 157544	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.32 3						
-157545	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+157545	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	tablet / register	
 157545	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 157545	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
 157545	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 157545	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-157545	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+157545	spr	spr(I)/	spr (I)	n. m. sg. abs. gen.	scribe	
 157546	lm	l(I)	l (I)	prep.	to	
 157547	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.32 4						
@@ -26,32 +26,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157551	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 2.32 5						
 157552	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
-157553	kkr	kkr/	kkr	n. m. sg. abs. nom.	talent	
-157554	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-157554	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-157554	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+157553	kkr	kkr/	kkr	n. m. sg. cstr. nom.	talent	
+157554	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
 # KTU 2.32 6						
 157555	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-157556	kkr	kkr/	kkr	n. m. sg. abs. nom.	talent	
-157557	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-157557	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-157557	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+157556	kkr	kkr/	kkr	n. m. sg. cstr. nom.	talent	
+157557	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
 # KTU 2.32 7						
 157558	d	d	d	det. or rel. functor	the one(s) of	
 157559	aštn	!(ʔ&a!št[n	/š-t/	vb G prefc. 1 c. sg.	to place	
 157560	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.32 8						
 157561	xy	?	?	?	?	DULAT: NOT FOUND
-157562	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
-157563	dbrm	dbr(I)/m	dbr (I)	n. m. pl. abs. nom.	matter	
+157562	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
+157563	dbrm	dbr(I)/m	dbr (I)	n. m. pl. abs. gen.	matter	
 157564	hmt	hmt	hmt	pers. pn.		
 # KTU 2.32 9						
 157565	al	al(I)	ảl (I)	neg. functor	no	
 157565	al	al(II)	ảl (II)	pos. functor	surely	
 157566	w	w	w	conj.	and	
-157567	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
-157568	mḫrk	mḫr(I)/+k	mḫr (I)	n. m. sg. cstr. nom.	price	
-157568	mḫrk	mḫr(II)/+k	mḫr (II)	n. m. cstr. nom.	tax collector	
+157567	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
+157568	mḫrk	mḫr(I)/+k	mḫr (I)	n. m. sg. abs. gen.	price	
+157568	mḫrk	mḫr(II)/+k	mḫr (II)	n. m. abs. gen.	tax collector	
 # KTU 2.32 10						
 157569	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt suffc.	to remain	
 157569	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt impv. 2	to remain	

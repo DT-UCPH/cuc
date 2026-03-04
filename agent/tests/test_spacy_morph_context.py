@@ -49,7 +49,7 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["vb G prefc. 3 m. pl."],
         )
 
-    def test_forces_genitive_on_nominal_after_preposition(self) -> None:
+    def test_forces_genitive_on_single_nominal_after_preposition(self) -> None:
         doc = self._doc_from_lines(
             "1\tb\tb\tb\tprep.\tin\t",
             "2\tṣpn\tṣpn/\tṣpn\tTN/DN m. sg. abs. nom.\tṢapānu/Zaphon\t",
@@ -57,7 +57,7 @@ class SpacyMorphContextTest(unittest.TestCase):
         )
         self.assertEqual(
             [candidate.pos for candidate in doc[1]._.resolved_candidates],
-            ["TN/DN m. sg. abs. gen.", "TN/DN m. sg. cstr. gen."],
+            ["TN/DN m. sg. abs. gen."],
         )
 
     def test_forces_genitive_on_adjective_noun_phrase_after_preposition(self) -> None:
@@ -83,6 +83,40 @@ class SpacyMorphContextTest(unittest.TestCase):
         self.assertEqual(
             [candidate.pos for candidate in doc[1]._.resolved_candidates],
             ["vb G act. ptcpl. m. sg. abs. gen."],
+        )
+
+    def test_forces_construct_chain_after_preposition(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tb\tb\tb\tprep.\tin\t",
+            "2\tnpš\tnpš(I)/\tnpš (I)\tn. f. sg. abs. nom.\tthroat\t",
+            "3\tbn\tbn(I)/\tbn (I)\tn. m. sg. abs. nom.\tson\t",
+            "4\tilm\til(I)/m\tỉl (I)\tn. m. pl. abs. nom.\tgod\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["n. f. sg. cstr. gen."],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[2]._.resolved_candidates],
+            ["n. m. sg. cstr. gen."],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[3]._.resolved_candidates],
+            ["n. m. pl. abs. gen."],
+        )
+
+    def test_forces_construct_chain_without_preposition(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tbn\tbn(I)/\tbn (I)\tn. m. sg. abs. nom.\tson\t",
+            "2\tilm\til(I)/m\tỉl (I)\tn. m. pl. abs. nom.\tgod\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[0]._.resolved_candidates],
+            ["n. m. sg. cstr. nom."],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["n. m. pl. abs. gen."],
         )
 
 

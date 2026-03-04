@@ -6,18 +6,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159427	l	l(II)	l (II)	adv.	no	
 159427	l	l(III)	l (III)	functor	certainly	
 159428	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
-159428	gr	gr(I)/	gr (I)	n. m. sg. abs. nom.	protected	
-159428	gr	gr[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
+159428	gr	gr(I)/	gr (I)	n. m. sg. cstr. nom.	protected	
 # KTU 2.84 3						
-159429	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159429	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-159429	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159429	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159429	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+159429	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+159429	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.84 4						
 159430	lm	l(I)	l (I)	prep.	to	
-159431	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. pl. abs. nom.	sister (related by blood)	
-159431	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. sg. abs. nom.	sister (related by blood)	
+159431	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. pl. abs. gen.	sister (related by blood)	
+159431	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. sg. abs. gen.	sister (related by blood)	
 159431	aḫt	aḫ(t(I)/t=	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
 159431	aḫt	ʔḫd[				
 # KTU 2.84 5						
@@ -43,15 +39,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159444	kr	kr[	/k-r/	vb	to be hot	
 # KTU 2.84 12						
 159445	b	b	b	prep.	in	
-159446	mdy	md(I)/+y	md (I)	n. f. sg. cstr. gen.	cape	
+159446	mdy	md(I)/+y	md (I)	n. f. sg. abs. gen.	cape	
 159447	t	/t, /t=				DULAT: NOT FOUND
 159447	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 2.84 13						
 159448	b	b	b	prep.	in	
 159449	mdk	md(I)/+k	md (I)	n. f. sg. cstr. gen.	cape	
 # KTU 2.84 14						
-159450	mn	mn(IV)	mn (IV)	?	?	
-159450	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	
+159450	mn	mn(III)/	mn (III)	n. m. sg. abs. gen.	mina	
 159451	ˤps	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 15						
 159452	km	k(III)	k (III)	functor	when	
@@ -64,8 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159454	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 16						
 159455	mdy	md(I)/+y	md (I)	n. f. sg. cstr. nom.	cape	
-159456	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-159456	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
+159456	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. gen.	lineage	
 # KTU 2.84 17						
 159457	lm	l(I)	l (I)	prep.	to	
 159458	l	l(I)	l (I)	prep.	to	

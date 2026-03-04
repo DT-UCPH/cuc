@@ -4,20 +4,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156655	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 # KTU 2.13 2						
 156656	adtumy	?	?	?	?	DULAT: NOT FOUND
-156657	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156657	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-156657	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156657	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-156657	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+156657	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. nom.	to say	
+156657	rgm	rgm/	rgm	n. m. sg. cstr. nom.	word	
 # KTU 2.13 3						
-156658	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-156659	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-156659	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+156658	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+156659	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+156659	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.13 4						
-156660	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
+156660	bnk	bn(I)/+k	bn (I)	n. m. abs. gen.	son	
 # KTU 2.13 5						
 156661	l	l(I)	l (I)	prep.	to	
-156662	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+156662	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 156663	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 # KTU 2.13 6						
 156664	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
@@ -37,15 +34,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156672	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 156672	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.13 10						
-156673	kll	kll/	kll	n. m. sg. abs. gen.	totality	
-156674	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-156674	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-156674	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-156674	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-156674	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-156674	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-156674	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-156674	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+156673	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
+156674	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 # KTU 2.13 11						
 156675	ṯmny	ṯm	ṯm	adv.	there	
 156676	ˤm	ˤm(I)	ʕm (I)	prep.	to	
@@ -87,11 +77,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156693	w	w	w	conj.	and	
 156694	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
 # KTU 2.13 18						
-156695	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-156695	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-156696	nr	nr/	nr	n. m. sg. cstr. nom.	sheen	
-156696	nr	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	
-156697	bn	b	b	prep.	in	
-156697	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-156697	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-156697	bn	bn(II)	bn (II)	prep.	between	
+156695	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+156695	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+156696	nr	nr/	nr	n. m. sg. cstr. gen.	sheen	
+156697	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
+156697	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	

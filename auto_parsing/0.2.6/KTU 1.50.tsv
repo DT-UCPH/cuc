@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149220	w	w	w	conj.	and	
 149221	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 149222	l	l(I)	l (I)	prep.	to	
-149223	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
+149223	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. gen.	ʿṯtrt (II)	
 # KTU 1.50 4						
 149224	š	š/	š	n. m. sg. abs. gen.	ram	
 149225	l	l(I)	l (I)	prep.	to	
@@ -34,15 +34,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149237	w	w	w	conj.	and	
 149238	l	l(I)	l (I)	prep.	to	
 149238	l	l(III)	l (III)	functor	certainly	
-149239	ll	ll(I)/	ll (I)	n. m. sg. abs. nom.	night	
-149240	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+149239	ll	ll(I)/	ll (I)	n. m. sg. cstr. nom.	night	
+149240	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. abs. gen.	bird	
 149241	w	w	w	conj.	and	
 149242		?	?	?	?	
 # KTU 1.50 8						
 149243	kmm	kmm	kmm	adv.	ditto	
 149244	w	w	w	conj.	and	
-149245	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
-149246	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. nom.	bird	
+149245	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
+149246	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	
 # KTU 1.50 9						
 149247	w	w	w	conj.	and	
 149248	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	

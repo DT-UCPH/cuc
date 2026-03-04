@@ -3,9 +3,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158105	l	l(I)	l (I)	prep.	to	
 158105	l	l(II)	l (II)	adv.	no	
 158105	l	l(III)	l (III)	functor	certainly	
-158106	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158106	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158107	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158106	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+158106	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158107	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.42 2						
 158108	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158108	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -22,9 +22,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158112	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.42 4						
 158113	l	l(I)	l (I)	prep.	to	
-158114	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158114	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 158115	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-158116	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. gen. sg.	distance	
+158116	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. nom. sg.	distance	
 # KTU 2.42 5						
 158117	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158118	w	w	w	conj.	and	
@@ -51,27 +51,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158132	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 158133	l	l(I)	l (I)	prep.	to	
 158133	l	l(III)	l (III)	functor	certainly	
-158134	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
-158135	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-158135	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-158135	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-158135	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-158136	alṯy	alṯy/	ảlṯy(y)	GN sg. abs. nom.	ảlṯy(y)	
-158137	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-158137	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-158137	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-158137	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-158137	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-158137	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-158137	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158137	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+158134	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
+158135	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+158135	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+158136	alṯy	alṯy/	ảlṯy(y)	GN sg. cstr. gen.	ảlṯy(y)	
+158137	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 # KTU 2.42 9						
 158138	nmry	nmry	nmry		Nimmureya	
-158139	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158139	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158140	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-158140	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
-158140	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
+158139	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+158139	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158140	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. gen.	eternity	
 # KTU 2.42 10						
 158141	mlkn	mlk(I)	mlk (I)		king	
 158142	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	

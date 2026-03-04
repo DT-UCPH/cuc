@@ -11,24 +11,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.16 3						
 161526	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 161526	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
-161527	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.	aller de ci de là	
-161528	bth	bt(II)/+h	bt (II)	n. m. cstr. nom.	house	
+161527	ḫyr	ḫyr/	ḫyr	MN sg. cstr. gen.	aller de ci de là	
+161528	bth	bt(II)/+h	bt (II)	n. m. abs. gen.	house	
 161529	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.16 4						
 161530	hmšm	?	?	?	?	DULAT: NOT FOUND
-161531	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161532	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161532	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161532	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161532	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161533	gd	g/+d	g	n. m. cstr. nom.	(loud) voice, ?	
-161533	gd	gd(I)/	gd (I)	n. m. abs. nom.	coriander	
-161533	gd	gd(II)/	gd (II)	n. m. abs. nom.	sinew	
+161531	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+161532	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161533	gd	g/+d	g	n. m. abs. gen.	(loud) voice, ?	
+161533	gd	gd(I)/	gd (I)	n. m. abs. gen.	coriander	
+161533	gd	gd(II)/	gd (II)	n. m. abs. gen.	sinew	
 # KTU 3.16 5						
 161534	y	+y, [y	-y (I)	prep. functor	my	
 161534	y	~y	-y (II)	prep. functor	indeed	
 161534	y	y	y	prep. functor	oh!	
-161535	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. gen.	witness	
+161535	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
 161536	ˤbdršp	ˤbdršp/	ʕbdršp	PN sg. abs. gen.	ʿbdršp	
 161537	b	b	b	prep.	in	
 # KTU 3.16 6						
@@ -43,12 +40,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161543	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 # KTU 3.16 8						
 161544	m	?	?	?	?	DULAT: NOT FOUND
-161545	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161546	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161546	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161546	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161546	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161547	kš	kš/	kš	n. m. sg. abs. nom.	date	
+161545	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+161546	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161547	kš	kš/	kš	n. m. sg. abs. gen.	date	
 # KTU 3.16 9						
 161548	k	+k	-k (I)			
 161548	k	~k	-k (II)			
@@ -56,38 +50,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161548	k	k(I)	k (I)	prep.	like	
 161548	k	k(II)	k (II)	emph. functor	yes	
 # KTU 3.16 10						
-161549	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161550	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161550	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161551	bnn	bnn(I)/	bnn (I)	n. m. sg. abs. nom.	carp	
+161549	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+161550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161551	bnn	bnn(I)/	bnn (I)	n. m. sg. abs. gen.	carp	
 # KTU 3.16 11						
 161552	x	?	?	?	?	
-161553	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161553	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.16 12						
-161554	mhr	mhr(I)/	mhr (I)	n. m. sg. abs. nom.	warrior (trained, expert)	
+161554	mhr	mhr(I)/	mhr (I)	n. m. sg. abs. gen.	warrior (trained, expert)	
 # KTU 3.16 13						
 161555	x	?	?	?	?	
-161556	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161556	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161556	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 161556	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161557	ynḥm	ynḥm/	ynḥm	PN sg. abs. nom.	ynḥm	
+161557	ynḥm	ynḥm/	ynḥm	PN sg. abs. gen.	ynḥm	
 # KTU 3.16 14						
 161558	x	?	?	?	?	
-161559	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161559	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161559	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 161559	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161560	ab	ab/	ảb	n. m. sg. abs. nom.	father	
-161560	ab	ab/	ảb	n. m. sg. cstr. nom.	father	
+161560	ab	ab/	ảb	n. m. sg. abs. gen.	father	
 161561	b	b	b	prep.	in	
 # KTU 3.16 15						
 161562	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161562	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+161562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
 161563	ˤb	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.16 16						
 161564	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	

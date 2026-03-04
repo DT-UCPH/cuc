@@ -17,12 +17,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.111 5						
 160702	šˤt	?	?	?	?	DULAT: NOT FOUND
 160703	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-160703	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-160703	bn	bn(II)	bn (II)	prep.	between	
-160703	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-160703	bn	bn[	/b-n/	vb G impv. 2	to understand	
+160703	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 # KTU 2.111 6						
-160704	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. nom.	to sweep	
+160704	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. gen.	to sweep	
 160705	x	?	?	?	?	
 # KTU 2.111 7						
 160706	ṯx	?	?	?	?	DULAT: NOT FOUND

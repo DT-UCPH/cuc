@@ -3,10 +3,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161189	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. nom.	cultic association	
 # KTU 3.9 2						
 161190	d	d	d	det. or rel. functor	the one(s) of	
-161191	qny	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. abs. nom.	to acquire	
+161191	qny	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
 # KTU 3.9 3						
-161192	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. nom.	heavens	
-161192	šmmn	šmmn/	šmmn	PN sg. abs. nom.	šmmn	
+161192	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. abs. gen.	heavens	
+161192	šmmn	šmmn/	šmmn	PN sg. abs. gen.	šmmn	
 # KTU 3.9 4						
 161193	b	b	b	prep.	in	
 161194	btw	bt(II)/	bt (II)	n. m. abs. gen.	house	
@@ -33,26 +33,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161206	isˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 11						
 161207	w	w	w	conj.	and	
-161208	šm	š/m	š	n. m. pl. abs. nom.	ram	
-161208	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
-161209	mn	mn(IV)	mn (IV)	?	?	
-161209	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	
+161208	šm	š/m	š	n. m. pl. cstr. nom.	ram	
+161208	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
+161209	mn	mn(III)/	mn (III)	n. m. sg. cstr. gen.	mina	
 # KTU 3.9 12						
-161210	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-161210	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-161210	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-161210	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+161210	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
+161210	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
 161211	al	al(I)	ảl (I)	neg. functor	no	
 161211	al	al(II)	ảl (II)	pos. functor	surely	
 161212	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
 # KTU 3.9 13						
-161213	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
-161213	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
-161213	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-161213	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+161213	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
+161213	mt	mt(II)/	mt (II)	n. m. sg. cstr. nom.	death	
+161213	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
 161213	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
-161213	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
-161214	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. nom.	cultic association	
+161213	mt	mt(III)/	mt (III)	n. m. sg. cstr. nom.	man	
+161214	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. gen.	cultic association	
 # KTU 3.9 14						
 161215	w	w	w	conj.	and	
 161216	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to say	
@@ -64,8 +60,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161219	tn	(ytn[	/y-t-n/	vb	give	
 161219	tn	(ytn[/	/y-t-n/	vb	give	
 # KTU 3.9 16						
-161220	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161221	ṯql	ṯql/	ṯql	n. m. sg. abs. nom.	shekel	
+161220	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+161221	ṯql	ṯql/	ṯql	n. m. sg. abs. gen.	shekel	
 161222	dˤmnk	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 17						
 161223	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
@@ -75,18 +71,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161226	iḫršp	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 19						
 161227	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161227	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161227	bn	bn(II)	bn (II)	prep.	between	
-161227	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161227	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161228	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. cstr. nom.	express messenger, ?	
+161227	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+161228	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. abs. gen.	express messenger, ?	
 # KTU 3.9 20						
 161229	w	w	w	conj.	and	
 161230	ˤbdn	ˤbd(I)/+n	ʕbd (I)	n. m. pl. cstr. nom.	servant	
 # KTU 3.9 21						
-161231	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161231	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161231	bn	bn(II)	bn (II)	prep.	between	
-161231	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161231	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161232	sgld	sgld/	sgld	PN sg. abs. nom.	sgld	
+161231	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+161231	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+161232	sgld	sgld/	sgld	PN sg. abs. gen.	sgld	

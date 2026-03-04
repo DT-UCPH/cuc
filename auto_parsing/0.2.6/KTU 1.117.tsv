@@ -55,9 +55,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154088	šknt	škn[t	/š-k-n/	vb G suffc. 1 c. sg.	to be placed	
 # KTU 1.117 9						
 154089	x	?	?	?	?	
-154090	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
-154091	ṭlm	ṭl/+m(I)	ṭl	n. m. cstr. nom.	dew	
-154091	ṭlm	ṭlm	ṭlm	?	dew	
+154090	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	mountain	
+154091	ṭlm	ṭl/+m(I)	ṭl	n. m. abs. gen.	dew	
 # KTU 1.117 10						
 154092	ryt	?	?	?	?	DULAT: NOT FOUND
 154093	aṣṣ	nṣṣ[	/n-ṣ-ṣ/	vb G prefc.	to take flight	
@@ -70,11 +69,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.117 11						
 154096	m	?	?	?	?	DULAT: NOT FOUND
 154097	wtˤn	?	?	?	?	DULAT: NOT FOUND
-154098	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
+154098	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 154098	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 # KTU 1.117 12						
-154099	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-154099	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+154099	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
+154099	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 154100	arx	?	?	?	?	DULAT: NOT FOUND
 154101	ṯbtk	ṯb(t/t	ṯbt	n. f. sg. cstr. nom.	seat	
 # KTU 1.117 13						

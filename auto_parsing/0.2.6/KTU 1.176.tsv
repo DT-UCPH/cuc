@@ -4,15 +4,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 2						
 155996		?	?	?	?	
 # KTU 1.176 3						
-155997	plg	plg[	/p-l-g/	vb G suffc. 3 m. sg.	to be split	
-155997	plg	plg[	/p-l-g/	vb N suffc. 3 m. sg.	to be split	
-155997	plg	plg/	plg	n. m. sg. abs. nom.	stream	
-155998	yt	yt/	yt	n. m. sg. abs. nom.	?	
+155997	plg	plg/	plg	n. m. sg. cstr. nom.	stream	
+155998	yt	yt/	yt	n. m. sg. cstr. gen.	?	
 155999		?	?	?	?	
 # KTU 1.176 4						
-156000	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
-156000	dm	dm(I)	dm (I)	functor	since	
-156001	lšn	lšn/	lšn	n. f. sg. abs. nom.	tongue	
+156000	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
+156001	lšn	lšn/	lšn	n. f. sg. abs. gen.	tongue	
 156002	x	?	?	?	?	
 # KTU 1.176 5						
 156003	th	?	?	?	?	DULAT: NOT FOUND
@@ -29,16 +26,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156009	l	l(III)	l (III)	functor	certainly	
 156010	ˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.176 8						
-156011	yt	yt/	yt	n. m. sg. abs. nom.	?	
-156012	lḥk	lḥ(II)/+k	lḥ (II)	n. m. cstr. nom.	missive	
-156012	lḥk	lḥ(I)/+k	lḥ (I)	n. f. cstr. nom.	cheek	
+156011	yt	yt/	yt	n. m. sg. cstr. nom.	?	
+156012	lḥk	lḥ(II)/+k	lḥ (II)	n. m. cstr. gen.	missive	
+156012	lḥk	lḥ(I)/+k	lḥ (I)	n. f. cstr. gen.	cheek	
 # KTU 1.176 9						
-156013	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
-156014	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-156014	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-156014	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-156014	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-156014	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
+156013	in	in/	ỉn	n. m. sg. cstr. gen.	lack of	
+156014	dbḥ	dbḥ/	dbḥ	n. m. pl. abs. gen.	sacrifice	
+156014	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	
+156014	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. gen.	to sacrifice	
 156015		?	?	?	?	
 # KTU 1.176 10						
 156016	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in	
@@ -49,20 +44,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 12						
 156020	tˤ	tˤb[	/t-ʕ-b/	vb	to exhaust	
 # KTU 1.176 13						
-156021	g	g/	g	n. m. abs. nom.	(loud) voice	
+156021	g	g/	g	n. m. cstr. nom.	(loud) voice	
 # KTU 1.176 14						
-156022	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-156022	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-156022	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-156022	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+156022	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+156022	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 156023	w	w	w	conj.	and	
 # KTU 1.176 15						
 156024	ḥsm	ḥsm	ḥsm	?	?	
-156025	ḥ	ḥ/	ḥ	n. m. abs. nom.	life	
+156025	ḥ	ḥ/	ḥ	n. m. cstr. nom.	life	
 # KTU 1.176 16						
-156026	pat	pit/	pỉt	n. m. pl. abs. nom.	temple	
-156027	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-156027	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+156026	pat	pit/	pỉt	n. m. pl. cstr. gen.	temple	
+156027	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
+156027	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.176 17						
 156028	tm	tm/	tm	adj. m. sg. abs. nom.	complete	
 156029	ḥwy	ḥw(I)[:d+y	/ḥ-w/y-y/ (I)	vb D impv. 2	to live	
@@ -70,14 +63,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156030	w	w	w	conj.	and	
 # KTU 1.176 18						
 156031	b	b	b	prep.	in	
-156032	ġlmk	ġlm/+k	ġlm	n. m. cstr. gen.	boy	
+156032	ġlmk	ġlm/+k	ġlm	n. m. abs. gen.	boy	
 156033		?	?	?	?	
 # KTU 1.176 19						
-156034	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. gen.	wonderful	
-156035	ṣr	ṣr/	ṣr	TN sg. abs. gen.	Tyre	
+156034	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	wonderful	
+156035	ṣr	ṣr/	ṣr	TN sg. cstr. nom.	Tyre	
 # KTU 1.176 20						
-156036	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-156036	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+156036	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
+156036	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 156037	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
 156037	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 # KTU 1.176 21						
@@ -110,10 +103,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 26						
 156051	al	al(I)	ảl (I)	neg. functor	no	
 156051	al	al(II)	ảl (II)	pos. functor	surely	
-156052	ḫtt	ḫt[t	/ḫ-t(-t)/	vb G suffc. 1 c. sg.	to break	
-156052	ḫtt	ḫtt/	ḫtt	n. m. sg. abs. nom.	?	
+156052	ḫtt	ḫtt/	ḫtt	n. m. sg. cstr. nom.	?	
 # KTU 1.176 27						
-156053	ḫttk	ḫtt/	ḫtt	n. m. sg. abs. nom.	?	
+156053	ḫttk	ḫtt/	ḫtt	n. m. sg. abs. gen.	?	
 156054		?	?	?	?	
 # KTU 1.176 28						
 156055	l	l(I)	l (I)	prep.	to	

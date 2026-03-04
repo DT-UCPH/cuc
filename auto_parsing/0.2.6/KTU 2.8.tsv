@@ -56,14 +56,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.8 6						
 156529		?	?	?	?	
 156530	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-156530	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-156530	bn	bn(II)	bn (II)	prep.	between	
-156530	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-156530	bn	bn[	/b-n/	vb G impv. 2	to understand	
-156531	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156531	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-156531	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156531	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-156531	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+156530	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+156531	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+156531	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 156532	w	w	w	conj.	and	
 156533	ydˤx	?	?	?	?	DULAT: NOT FOUND

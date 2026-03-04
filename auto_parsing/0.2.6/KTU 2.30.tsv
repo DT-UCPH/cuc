@@ -2,7 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.30 1						
 157189	l	l(I)	l (I)	prep.	to	
 157190	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
-157191	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
+157191	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
 # KTU 2.30 2						
 157192	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157192	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -16,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157195	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
 # KTU 2.30 4						
 157196	l	l(I)	l (I)	prep.	to	
-157197	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+157197	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 157198	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 # KTU 2.30 5						
 157199	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
@@ -34,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157206	hlny	hlny	hlny	deictic adv. functor	behold	
 157207	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 157207	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
-157208	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+157208	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 157208	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157208	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 157208	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
@@ -80,9 +80,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157225	w	w	w	conj.	and	
 157226	ht	ht	ht	adv.	here	
 # KTU 2.30 15						
-157227	ysny	ysny/	ysny	PN sg. abs. nom.	to increase	
-157227	ysny	nsy(II)[+ny	/n-s-y/ (II)	vb	to remove	
-157228	uḏrh	uḏr(I)/h	ủḏr (I)	n. m. sg. abs. nom.	express messenger	
+157227	ysny	ysny/	ysny	PN sg. cstr. nom.	to increase	
+157228	uḏrh	uḏr(I)/h	ủḏr (I)	n. m. sg. abs. gen.	express messenger	
 # KTU 2.30 16						
 157229	w	w	w	conj.	and	
 157230	hm	hm(II)	hm (II)	conj./interr. functor	if	

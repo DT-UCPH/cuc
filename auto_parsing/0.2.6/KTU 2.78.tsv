@@ -1,51 +1,36 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.78 1						
-159268	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-159269	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-159269	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-159270	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-159270	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+159268	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+159269	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
+159269	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
+159270	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+159270	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.78 2						
-159271	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-159271	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-159271	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-159271	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+159271	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
+159271	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
 159272	l	l(I)	l (I)	prep.	to	
 159272	l	l(III)	l (III)	functor	certainly	
-159273	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. abs. nom.	ʿAmmurāpʾi	
+159273	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. cstr. nom.	ʿAmmurāpʾi	
 # KTU 2.78 3						
-159274	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159274	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-159274	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159274	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159274	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+159274	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+159274	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.78 4						
 159275	hlny	hlny	hlny	deictic adv. functor	behold	
 159276	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159277	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
-159277	špš	špš/	špš	n. f. sg. abs. gen.	sun	
-159278	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-159278	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+159277	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
+159277	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
+159278	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+159278	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.78 5						
-159279	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
 159279	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-159279	rb	rb(I)/	rb (I)	adj. m. sg. abs. gen.	great	
-159279	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
-159280	kll	kll/	kll	n. m. sg. abs. nom.	totality	
-159281	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-159281	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-159281	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-159281	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-159281	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-159281	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-159281	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-159281	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+159279	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+159280	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
+159281	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	peace	
 # KTU 2.78 6						
-159282	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
-159282	dm	dm(I)	dm (I)	functor	since	
+159282	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
 159283		?	?	?	?	
 # KTU 2.78 7						
-159284	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
+159284	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
 # KTU 2.78 8						
 159285	ṣb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.78 9						

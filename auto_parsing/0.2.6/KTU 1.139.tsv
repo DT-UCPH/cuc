@@ -1,12 +1,12 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.139 1						
-154866	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. nom.	plate / wide bowl / platter	
+154866	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. cstr. nom.	plate / wide bowl / platter	
 # KTU 1.139 2						
-154867	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
+154867	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
 # KTU 1.139 3						
-154868	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-154868	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
-154868	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+154868	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
+154868	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+154868	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.139 4						
 154869	x	?	?	?	?	
 154870	wṯn	?	?	?	?	DULAT: NOT FOUND
@@ -14,28 +14,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154871	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.139 5						
 154872	w	w	w	conj.	and	
-154873	š	š/	š	n. m. sg. abs. nom.	ram	
+154873	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.139 6						
-154874	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-154874	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-154874	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-154874	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-154875	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. nom.	help	
-154876	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-154876	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-154876	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-154876	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-154876	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-154877	š	š/	š	n. m. sg. abs. nom.	ram	
+154874	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+154874	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+154875	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. gen.	help	
+154876	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+154876	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
+154876	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+154876	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+154876	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
+154877	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.139 7						
 154878		?	?	?	?	
 # KTU 1.139 8						
-154879	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
-154880	š	š/	š	n. m. sg. abs. nom.	ram	
+154879	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
+154880	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.139 9						
-154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-154881	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+154881	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 # KTU 1.139 10						
 154882	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. nom.	damsel	
 154882	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. nom.	concealment	
@@ -59,26 +57,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154890	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 154890	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
 # KTU 1.139 14						
-154891	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
+154891	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 154891	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
-154892	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-154892	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-154893	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-154893	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+154892	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+154892	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+154893	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+154893	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.139 15						
-154894	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-154894	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-154894	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-154894	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-154894	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
-154895	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
-154895	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
+154894	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. gen.	sacrifice	
+154894	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
+154894	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
+154895	pdry	pdry/	pdry	DN sg. abs. gen.	Pidray	
+154895	pdry	pdr(I)/+y	pdr (I)	n. m. abs. gen.	town	
 # KTU 1.139 16						
 154896	alpw	?	?	?	?	DULAT: NOT FOUND
 154897	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.139 17						
 154898	b	b	b	prep.	in	
-154899	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+154899	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 154899	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.139 18						
 154900	xm	?	?	?	?	DULAT: NOT FOUND

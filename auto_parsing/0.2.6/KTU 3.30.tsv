@@ -1,145 +1,95 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.30 1						
-161971	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-161971	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
-161971	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-161971	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-161971	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-161971	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
-161972	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161971	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
+161971	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
+161972	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 # KTU 3.30 2						
-161973	mnny	mnny/	mnny	PN sg. abs. nom.	mnny	
-161973	mnny	mn(III)/+ny	mn (III)	n. m. cstr. nom.	mina	
-161973	mnny	mn(IV)+ny	mn (IV)	?	?	
+161973	mnny	mnny/	mnny	PN sg. abs. gen.	mnny	
+161973	mnny	mn(III)/+ny	mn (III)	n. m. abs. gen.	mina	
 # KTU 3.30 3						
 161974	ṯṯm	ṯṯm/	ṯṯm	num.	sixty	
-161975	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161975	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 4						
-161976	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161976	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161976	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161976	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161977	yrmn	yrmn/	yrmn	PN sg. abs. nom.	yrmn	
-161977	yrmn	!y!rm(y[+n	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
+161976	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161977	yrmn	yrmn/	yrmn	PN sg. abs. gen.	yrmn	
 # KTU 3.30 5						
 161978	šbˤm	šbˤm/	šbʕm	num.	seventy	
 161979	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
 # KTU 3.30 6						
-161980	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
-161981	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161980	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	total (quantity or price)	
+161981	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 # KTU 3.30 7						
-161982	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161982	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161982	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161982	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161983	anntn	anntn/	ảnntn	PN sg. abs. nom.	ảnntn	
+161982	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161983	anntn	anntn/	ảnntn	PN sg. cstr. gen.	ảnntn	
 # KTU 3.30 8						
-161984	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161984	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161984	bn	bn(II)	bn (II)	prep.	between	
-161984	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161984	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161984	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
+161984	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161985	yrm	!y!rm(y[	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
 # KTU 3.30 9						
 161986	arbˤm	arbˤ/	ảrbʕ	num.	four	
 161986	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
-161987	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161987	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 10						
-161988	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161988	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161988	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161988	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161989	tmrtn	tmrtn/	tmrtn	PN sg. abs. nom.	tmrtn	
+161988	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161989	tmrtn	tmrtn/	tmrtn	PN sg. cstr. gen.	tmrtn	
 # KTU 3.30 11						
-161990	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161990	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161990	bn	bn(II)	bn (II)	prep.	between	
-161990	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161990	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161991	urmy	urmy/	ủrmy	PN sg. abs. nom.	ủrmy	
-161991	urmy	urm/+y	ủrm	PN sg. cstr. nom.	ủrm	
+161990	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+161990	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+161991	urmy	urmy/	ủrmy	PN sg. abs. gen.	ủrmy	
+161991	urmy	urm/+y	ủrm	PN sg. abs. gen.	ủrm	
 # KTU 3.30 12						
 161992	arbˤm	arbˤ/	ảrbʕ	num.	four	
 161992	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
-161993	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161993	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 13						
-161994	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161994	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161994	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161994	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161995	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
+161994	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161995	bnil	bnil/	bnỉl	PN sg. cstr. gen.	bnỉl	
 # KTU 3.30 14						
-161996	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161996	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161996	bn	bn(II)	bn (II)	prep.	between	
-161996	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161996	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161997	krwn	krwn/	krwn	PN sg. abs. nom.	krwn	
-161997	krwn	krw/+n	krw	PN sg. cstr. nom.	krw	
+161996	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+161996	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+161997	krwn	krwn/	krwn	PN sg. abs. gen.	krwn	
+161997	krwn	krw/+n	krw	PN sg. abs. gen.	krw	
 # KTU 3.30 15						
 161998	ṯṯm	ṯṯm/	ṯṯm	num.	sixty	
-161999	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161999	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 16						
-162000	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-162000	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-162000	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-162000	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-162001	abġl	abġl/	ảbġl	PN sg. abs. nom.	ảbġl	
-162002	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-162002	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-162002	bn	bn(II)	bn (II)	prep.	between	
-162002	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-162002	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162003	ṯdny	ṯd/+ny	ṯd	n. m. cstr. nom.	breast	
-162003	ṯdny	ṯd&n/+y	ṯd	n. m. cstr. nom.	breast	
-162003	ṯdny	ṯdny/	ṯdny	PN sg. abs. nom.	ṯdny	
+162000	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+162001	abġl	abġl/	ảbġl	PN sg. cstr. gen.	ảbġl	
+162002	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+162002	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+162003	ṯdny	ṯd/+ny	ṯd	n. m. abs. gen.	breast	
+162003	ṯdny	ṯd&n/+y	ṯd	n. m. abs. gen.	breast	
+162003	ṯdny	ṯdny/	ṯdny	PN sg. abs. gen.	ṯdny	
 # KTU 3.30 17						
 162004	arbˤm	arbˤ/	ảrbʕ	num.	four	
 162004	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
-162005	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+162005	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 18						
-162006	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-162006	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-162006	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-162006	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-162007	tlmyn	tlmyn/	tlmyn	PN sg. abs. nom.	tlmyn	
-162008	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-162008	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-162008	bn	bn(II)	bn (II)	prep.	between	
-162008	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-162008	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162009	ilyy	il(I)&y/+y	ỉl (I)	n. m. cstr. nom.	god	
-162009	ilyy	ilyy/	ỉlyy	PN sg. abs. nom.	ỉlyy	
+162006	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+162007	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	tlmyn	
+162008	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+162008	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+162009	ilyy	il(I)&y/+y	ỉl (I)	n. m. abs. gen.	god	
+162009	ilyy	ilyy/	ỉlyy	PN sg. abs. gen.	ỉlyy	
 # KTU 3.30 19						
 162010	ṯṯt	ṯṯ/	ṯṯ	nuf.	six	
 162011	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
 162012	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 # KTU 3.30 20						
-162013	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-162014	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-162014	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-162014	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-162014	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-162015	yˤḏrn	yˤḏrn/	yʕḏrn	PN sg. abs. nom.	15.Z	
+162013	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+162014	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+162015	yˤḏrn	yˤḏrn/	yʕḏrn	PN sg. cstr. gen.	15.Z	
 # KTU 3.30 21						
-162016	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-162016	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-162016	bn	bn(II)	bn (II)	prep.	between	
-162016	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-162016	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162017	ytrm	!y!tr[+m(I)	/t-r/	vb	to scour	
-162017	ytrm	ytrm/	ytrm	PN sg. abs. nom.	15.Z	
-162017	ytrm	ntr[+m(I)	/n-t-r/	vb	to banish	
-162018	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
-162018	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	
+162016	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+162016	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+162017	ytrm	ytrm/	ytrm	PN sg. cstr. gen.	15.Z	
+162018	šlmy	šlm(I)/+y	šlm (I)	n. m. abs. gen.	peace	
+162018	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. gen.	šlmy (II)	
 # KTU 3.30 22						
 162019	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
-162020	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+162020	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 23						
-162021	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-162021	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-162021	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-162021	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+162021	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
 162022	ršpmlk	?	?	?	?	DULAT: NOT FOUND
 162023	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
 162023	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	

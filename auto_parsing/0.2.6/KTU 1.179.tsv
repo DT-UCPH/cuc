@@ -8,12 +8,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 2						
 156071	x	?	?	?	?	
 156072	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-156073	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 156073	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-156073	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 156073	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-156074	ṯmk	ṯm+k	ṯm	adv.	there	
-156074	ṯmk	ṯmk/	ṯmk	TN sg. abs. nom.	Bitterkraut	
+156074	ṯmk	ṯmk/	ṯmk	TN sg. abs. gen.	Bitterkraut	
 # KTU 1.179 3						
 156075		?	?	?	?	
 156076	w	w	w	conj.	and	
@@ -26,27 +23,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156082	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156082	hm	hm(I)	hm (I)	pers. pn.	they	
 156083	škb	škb[	/š-k-b/	vb G suffc. 3 m. sg.	to lie down	
-156084	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-156084	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-156084	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 156084	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-156085	thm	thm/	thm	DN m. sg. abs. nom.	DN m. the Ocean/Primordial Ocean	
-156085	thm	thm/	thm	n. m. sg. abs. nom.	ocean	
+156085	thm	thm/	thm	DN m. sg. cstr. gen.	DN m. the Ocean/Primordial Ocean	
+156085	thm	thm/	thm	n. m. sg. cstr. gen.	ocean	
 # KTU 1.179 5						
-156086	šk	š/+k	š	n. m. cstr. nom.	ram	
-156086	šk	šrt(II)/+k	šrt (II)	n. f. cstr. nom.	?	
-156087	qṣḥm	qṣḥ/m	qṣḥ	n. m. pl. abs. nom.	cumin	
+156086	šk	š/+k	š	n. m. cstr. gen.	ram	
+156086	šk	šrt(II)/+k	šrt (II)	n. f. cstr. gen.	?	
+156087	qṣḥm	qṣḥ/m	qṣḥ	n. m. pl. abs. gen.	cumin	
 156088	ˤpˤpk	ˤpˤp/+k	ʕpʕp	n. m. pl. cstr. nom.	eyelid	
 # KTU 1.179 6						
 156089	b	b	b	prep.	in	
 156090	adx	?	?	?	?	DULAT: NOT FOUND
 156091	pˤnk	pˤn/+k	pʕn	n. f. cstr. nom.	foot	
-156092	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-156092	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
-156092	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-156092	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
-156092	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-156092	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
+156092	ydk	yd(I)/+k	yd (I)	n. f. abs. gen.	hand	
+156092	ydk	yd(I)/+k=	yd (I)	n. f. abs. gen.	hand	
+156092	ydk	yd(II)/+k	yd (II)	n. m. abs. gen.	love	
+156092	ydk	yd(II)/+k=	yd (II)	n. m. abs. gen.	love	
 156093	l	l(I)	l (I)	prep.	to	
 156093	l	l(III)	l (III)	functor	certainly	
 156094	thm	thm/	thm	DN m. sg. abs. nom.	DN m. the Ocean/Primordial Ocean	
@@ -55,30 +47,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156095	xm	?	?	?	?	DULAT: NOT FOUND
 156096	ḥmm	ḥmm/	ḥmm	n. m. sg. abs. nom.	heat	
 156097	b	b	b	prep.	in	
-156098	bšrk	bšr/+k	bšr	n. m. cstr. nom.	flesh	
-156098	bšrk	bšr[:pass+k	/b-š-r/	vb Dpass impv. 2	to impart (good) news	
+156098	bšrk	bšr/+k	bšr	n. m. cstr. gen.	flesh	
 # KTU 1.179 8						
-156099	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
-156100	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	heavenly body	
+156099	kbkb	kbkb/	kbkb	n. m. sg. cstr. gen.	heavenly body	
+156100	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body	
 156101	al	al(I)	ảl (I)	neg. functor	no	
 156101	al	al(II)	ảl (II)	pos. functor	surely	
-156102	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
+156102	kbkb	kbkb/	kbkb	n. m. sg. cstr. nom.	heavenly body	
 # KTU 1.179 9						
-156103	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
-156103	dm	dm(I)	dm (I)	functor	since	
-156104	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
-156105	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
+156103	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
+156104	kbkb	kbkb/	kbkb	n. m. sg. cstr. gen.	heavenly body	
+156105	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 156106	wthm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.179 10						
-156107	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
-156108	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-156108	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+156107	kbkb	kbkb/	kbkb	n. m. sg. cstr. nom.	heavenly body	
+156108	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+156108	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 156109	w	w	w	conj.	and	
-156110	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
+156110	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 156110	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
-156111	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
+156111	kbkb	kbkb/	kbkb	n. m. sg. cstr. gen.	heavenly body	
 # KTU 1.179 11						
-156112	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+156112	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 156113	w	w	w	conj.	and	
 156114	yss	?	?	?	?	DULAT: NOT FOUND
 156115	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
@@ -90,9 +80,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156118	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
 # KTU 1.179 12						
 156119	x	?	?	?	?	
-156120	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
-156121	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
-156121	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+156120	kbkb	kbkb/	kbkb	n. m. sg. cstr. nom.	heavenly body	
+156121	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. gen.	sanctuary	
 156122	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash	
 # KTU 1.179 13						
 156123	y	+y, [y	-y (I)	prep. functor	my	
@@ -100,11 +89,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156123	y	y	y	prep. functor	oh!	
 156124	ylḥm	ylḥm[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
 156125	b	b	b	prep.	in	
-156126	lḥmy	lḥm/+y	lḥm	n. m. cstr. gen.	grain	
+156126	lḥmy	lḥm/+y	lḥm	n. m. abs. gen.	grain	
 156127	yḥṣ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.179 14						
 156128	rṯy	rṯ/+y	rṯ	n. m. cstr. nom.	dirt	
-156129	dˤt	dˤ(t(II)/t	dʕt (II)	n. f. sg. abs. nom.	sweat	
+156129	dˤt	dˤ(t(II)/t	dʕt (II)	n. f. sg. abs. gen.	sweat	
 156130	my	my(I)	my (I)	pn. interr.	who?	
 156131	k	+k	-k (I)			
 156131	k	~k	-k (II)			
@@ -116,9 +105,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 15						
 156133	xm	?	?	?	?	DULAT: NOT FOUND
 156134	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. nom.	servant	
-156134	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
 156134	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
-156135	ṭl	ṭl/	ṭl	n. m. sg. abs. nom.	dew	
+156135	ṭl	ṭl/	ṭl	n. m. sg. abs. gen.	dew	
 156136	arbˤtm	arbˤ/~m	ảrbʕ	num. sg.	four	
 # KTU 1.179 16						
 156137	y	+y, [y	-y (I)	prep. functor	my	
@@ -137,26 +125,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156143	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 156144	qdšm	qdš(I)/m	qdš (I)	adj. m. pl. abs. nom.	holy	
 156145	b	b	b	prep.	in	
-156146	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
-156146	nhr	nhr/	nhr	n. m. sg. abs. gen.	river	
+156146	nhr	nhr/	nhr	DN m. sg. cstr. gen.	Naharu/“River”/alternative DN of the god ym	
+156146	nhr	nhr/	nhr	n. m. sg. cstr. gen.	river	
 # KTU 1.179 18						
-156147	nḫl	nḫl(I)/	nḫl (I)	n. m. sg. abs. gen.	torrent	
+156147	nḫl	nḫl(I)/	nḫl (I)	n. m. sg. cstr. gen.	torrent	
 156148	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 156149	b	b	b	prep.	in	
-156150	rḥbn	rḥb(I)/+n	rḥb (I)	adj. m. cstr. gen.	wide	
+156150	rḥbn	rḥb(I)/+n	rḥb (I)	adj. m. cstr. nom.	wide	
 156150	rḥbn	rḥbn/	rḥbn	TN sg. abs. gen.	) ra-(aḫ -) ba/bá-ni/na	
 # KTU 1.179 19						
 156151	xarr	?	?	?	?	DULAT: NOT FOUND
 156152	b	b	b	prep.	in	
-156153	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
-156153	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-156154	tl	tl(I)/	tl (I)	n. m. sg. abs. gen.	hill	
-156154	tl	tl(II)/	tl (II)	n. m. sg. abs. gen.	weapon	
+156153	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+156153	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+156154	tl	tl(I)/	tl (I)	n. m. sg. cstr. gen.	hill	
+156154	tl	tl(II)/	tl (II)	n. m. sg. cstr. gen.	weapon	
 156155	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-156155	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-156155	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
+156155	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+156155	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 # KTU 1.179 20						
-156156	prṯt	prṯ(t/t	prṯt	n. f. sg. abs. nom.	secret	
+156156	prṯt	prṯ(t/t	prṯt	n. f. sg. abs. gen.	secret	
 156157	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 156157	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 156157	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
@@ -192,9 +180,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156175	xh	?	?	?	?	DULAT: NOT FOUND
 156176	w	w	w	conj.	and	
 156177	ysb	ysb[	/s:ś-b-b/	vb G suffc. 3 m. sg.	to turn round	
-156178	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-156178	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-156179	mḫrh	mḫr(II)/+h	mḫr (II)	n. m. cstr. nom.	tax collector	
+156178	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
+156178	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
+156179	mḫrh	mḫr(II)/+h	mḫr (II)	n. m. abs. gen.	tax collector	
 # KTU 1.179 31						
 156180	rḥq	rḥq[	/r-ḥ-q/	vb G impv. 2	to go away	
 156180	rḥq	rḥq/	rḥq	adj. m. sg. abs. nom.	distant	
@@ -229,14 +217,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156194	l	l(III)	l (III)	functor	certainly	
 156195	abn	ab/+n	ảb	n. m. cstr. nom.	father	
 156195	abn	abn/	ảbn	n. f. pl. cstr. nom.	stone	
-156195	abn	abn/	ảbn	n. f. sg. abs. nom.	stone	
-156195	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	
+156195	abn	abn/	ảbn	n. f. sg. cstr. nom.	stone	
 # KTU 1.179 33						
-156196	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
-156196	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
-156197	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
-156197	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
-156198	bth	bt(II)/+h	bt (II)	n. m. cstr. nom.	house	
+156196	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. cstr. gen.	entry	
+156197	ḥrn	ḥrn/	ḥrn	DN sg. cstr. gen.	Ḥôrānu	
+156197	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. gen.	intestine(s)	
+156198	bth	bt(II)/+h	bt (II)	n. m. abs. gen.	house	
 156199	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 156199	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 156200	gh	ytn[	/y-t-n/	vb	to give	
@@ -272,11 +258,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156218	k	k(II)	k (II)	emph. functor	yes	
 156219	yṯnyn	!y!ṯny[+n	/ṯ-n-y/	vb G prefc. 3 m. sg.	to repeat	
 156220	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-156220	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-156220	bn	bn(II)	bn (II)	prep.	between	
-156220	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-156220	bn	bn[	/b-n/	vb G impv. 2	to understand	
-156221	ˤnm	ˤn(I)/m	ʕn (I)	n. f. pl. abs. nom.	eye	
+156220	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+156221	ˤnm	ˤn(I)/m	ʕn (I)	n. f. pl. abs. gen.	eye	
 # KTU 1.179 36						
 156222	xxxxr	?	?	?	?	DULAT: NOT FOUND
 156223	hpkm	!!hpk[/m	/h-p-k/	vb G inf.	to overturn	
@@ -324,7 +307,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156246	ksmḥṯ	?	?	?	?	DULAT: NOT FOUND
 156247	l	l(I)	l (I)	prep.	to	
 156248	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
-156249	mntn	mnt(I)/+n	mnt (I)	n. f. cstr. gen.	portion	
+156249	mntn	mnt(I)/+n	mnt (I)	n. f. cstr. nom.	portion	
 # KTU 1.179 40						
 156250	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 156250	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
@@ -347,9 +330,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156256	r	?	?	?	?	DULAT: NOT FOUND
 156257	bbx	?	?	?	?	DULAT: NOT FOUND
 156258	w	w	w	conj.	and	
-156259	mspr	spr[r	/s-p-r/	vb	to count	
-156259	mspr	mspr/	mspr	n. m. sg. abs. nom.	recitation	
-156260	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
+156259	mspr	mspr/	mspr	n. m. sg. cstr. nom.	recitation	
+156260	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 # KTU 1.179 42						
 156261	xxrbh	?	?	?	?	DULAT: NOT FOUND
 156262	w	w	w	conj.	and	
@@ -359,9 +341,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156264	ylmdnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.179 43						
 156265	b	b	b	prep.	in	
-156266	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+156266	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	tablet / register	
 156266	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 156266	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
 156266	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 156266	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-156266	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+156266	spr	spr(I)/	spr (I)	n. m. sg. abs. gen.	scribe	

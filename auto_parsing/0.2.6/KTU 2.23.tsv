@@ -6,25 +6,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156988	k	k(III)	k (III)	Subordinating or completive functor	when	
 156988	k	k(I)	k (I)	prep.	like	
 156988	k	k(II)	k (II)	emph. functor	yes	
-156989	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156989	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-156989	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156989	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-156989	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-156990	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-156990	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+156989	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. nom.	to say	
+156989	rgm	rgm/	rgm	n. m. sg. cstr. nom.	word	
+156990	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
+156990	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
 # KTU 2.23 2						
-156991	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-156991	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-156992	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-156992	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-156992	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-156992	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-156993	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+156991	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+156991	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+156992	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+156992	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+156993	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 156994	u	u	ủ	conj.	or	
 # KTU 2.23 3						
-156995	ˤṯtrab	ˤṯtrab/	ʕṯtrab	PN sg. abs. nom.	ʿṯtrab	
-156996	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. nom.	message	
+156995	ˤṯtrab	ˤṯtrab/	ʕṯtrab	PN sg. cstr. nom.	ʿṯtrab	
+156996	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. gen.	message	
 156997	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	servant	
 # KTU 2.23 4						
 156998	ylak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
@@ -69,16 +64,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157016	ydˤt	ydˤt[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
 157016	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 157017	šxx	?	?	?	?	DULAT: NOT FOUND
-157018	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157018	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-157019	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157019	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157018	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
+157018	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
+157019	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+157019	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.23 10						
-157020	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-157020	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-157020	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-157020	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-157021	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157020	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+157020	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+157021	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.23 11						
 157022	x	?	?	?	?	
 # KTU 2.23 12						
@@ -86,33 +79,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 13						
 157024	b	b	b	prep.	in	
 157025	xšpš	?	?	?	?	DULAT: NOT FOUND
-157026	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157026	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157026	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+157026	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 # KTU 2.23 14						
-157027	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-157027	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-157027	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-157027	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-157028	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157027	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+157027	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+157028	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.23 15						
 157029	w	w	w	conj.	and	
 157030	ank	ank	ảnk	pers. pn.	I	
 157031	xxxxxxxb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 16						
-157032	arš	arš/	ảrš	DN sg. abs. nom.	a monster (“many-headed”, “whale”)	
-157033	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
-157033	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	
+157032	arš	arš/	ảrš	DN sg. cstr. nom.	a monster (“many-headed”, “whale”)	
+157033	ḥy	ḥy(m/	ḥym	n. m. pl. abs. gen.	life	
 157034	l	l(I)	l (I)	prep.	to	
-157035	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
-157035	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+157035	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
+157035	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
 # KTU 2.23 17						
-157036	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-157036	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
-157037	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
+157036	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+157036	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 157037	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-157037	rb	rb(I)/	rb (I)	adj. m. sg. abs. gen.	great	
-157037	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
-157038	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157037	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+157038	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 157039	p	p(I)	p (I)	conj. functor	and	
 157039	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 157039	p	p(II)	p (II)	adv.	here	
@@ -120,53 +108,48 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157040	l	l(III)	l (III)	functor	certainly	
 # KTU 2.23 18						
 157041	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
-157041	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	
-157042	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-157043	arš	arš/	ảrš	DN sg. abs. nom.	a monster (“many-headed”, “whale”)	
+157042	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
+157043	arš	arš/	ảrš	DN sg. abs. gen.	a monster (“many-headed”, “whale”)	
 # KTU 2.23 19						
 157044	l	l(I)	l (I)	prep.	to	
-157045	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+157045	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 157046	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-157046	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-157046	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
+157046	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157046	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 157046	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
-157046	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
-157047	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-157048	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157046	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
+157047	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+157048	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.23 20						
 157049	w	w	w	conj.	and	
-157050	urk	urk/	ủrk	n. m. sg. abs. nom.	length	
-157051	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-157051	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-157052	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157050	urk	urk/	ủrk	n. m. sg. cstr. nom.	length	
+157051	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+157051	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+157052	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.23 21						
 157053	l	l(I)	l (I)	prep.	to	
-157054	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
-157055	amn	amn(III)/	ảmn (III)	adj. m. sg. abs. gen.	faithful	
+157054	pn	pn(m/	pnm	n. m. pl. tant. abs. gen.	in front	
+157055	amn	amn(III)/	ảmn (III)	adj. m. sg. abs. nom.	faithful	
 157056	w	w	w	conj.	and	
 157057	l	l(I)	l (I)	prep.	to	
-157058	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+157058	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 # KTU 2.23 22						
-157059	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 157059	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-157059	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 157059	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 157060	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
-157060	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. gen.	sob	
+157060	mṣrm	mṣr/+m(I)	mṣr	n. m. abs. gen.	sob	
 157061	dt	d	d	det. or rel. functor	the one(s) of	
 157062	tġrn	nġr[n	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.23 23						
-157063	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-157064	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157064	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-157065	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157065	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157063	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
+157064	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
+157064	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
+157065	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+157065	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.23 24						
-157066	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-157066	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-157066	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-157066	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-157067	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157066	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+157066	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+157067	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.23 25						
 157068	b	b	b	prep.	in	
 157069	x	?	?	?	?	

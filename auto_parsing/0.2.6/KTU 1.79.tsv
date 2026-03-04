@@ -9,22 +9,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149903	wl	?	?	?	?	DULAT: NOT FOUND
 149904	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 149904	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-149905	ḫsn	ḫsn(II)/	ḫsn (II)	PN sg. abs. nom.	ḫsn (II)	
+149905	ḫsn	ḫsn(II)/	ḫsn (II)	PN sg. cstr. nom.	ḫsn (II)	
 # KTU 1.79 3						
-149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. nom.	servant	
-149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
-149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
-149907	ulm	ulm/	ủlm	TN sg. abs. nom.	ủlm	
-149907	ulm	ul/+m(I)	ủl	n. m. cstr. nom.	(military) force	
+149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. gen.	servant	
+149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. gen.	servant	
+149907	ulm	ulm/	ủlm	TN sg. abs. gen.	ủlm	
+149907	ulm	ul/+m(I)	ủl	n. m. abs. gen.	(military) force	
 149908	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-149909	un	un/	ủn	n. m. sg. abs. nom.	grief	
-149910	ḫsn	ḫsn(II)/	ḫsn (II)	PN sg. abs. nom.	ḫsn (II)	
+149909	un	un/	ủn	n. m. sg. cstr. nom.	grief	
+149910	ḫsn	ḫsn(II)/	ḫsn (II)	PN sg. cstr. gen.	ḫsn (II)	
 # KTU 1.79 4						
-149911	gdy	gd(I)/y	gd (I)	n. m. sg. abs. nom.	coriander	
+149911	gdy	gd(I)/y	gd (I)	n. m. sg. abs. gen.	coriander	
 149912	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 149912	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
-149913	ṣtqn	ṣdqn/	ṣdqn	PN sg. abs. nom.	ṣdqn	
-149914	gt	g(t/t	gt	n. f. sg. abs. nom.	gittu	
+149913	ṣtqn	ṣdqn/	ṣdqn	PN sg. cstr. nom.	ṣdqn	
+149914	gt	g(t/t	gt	n. f. sg. abs. gen.	gittu	
 149915	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 149915	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 149915	bn	bn(II)	bn (II)	prep.	between	
@@ -44,15 +43,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.79 6						
 149924	l	l(I)	l (I)	prep.	to	
 149924	l	l(III)	l (III)	functor	certainly	
-149925	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. nom.	wind	
-149926	gt	g(t/t	gt	n. f. sg. abs. nom.	gittu	
+149925	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. cstr. nom.	wind	
+149926	gt	g(t/t	gt	n. f. sg. abs. gen.	gittu	
 149927	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 149927	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
-149928	ṣtqn	ṣdqn/	ṣdqn	PN sg. abs. nom.	ṣdqn	
+149928	ṣtqn	ṣdqn/	ṣdqn	PN sg. cstr. nom.	ṣdqn	
 # KTU 1.79 7						
-149929	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-149929	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-149930	qbṣ	qbṣ/	qbṣ	n. m. sg. abs. nom.	clan	
+149929	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+149929	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+149930	qbṣ	qbṣ/	qbṣ	n. m. sg. abs. gen.	clan	
 149931	ub	?	?	?	?	DULAT: NOT FOUND
 149932	gt	g(t/t	gt	n. f. sg. abs. nom.	gittu	
 149933	ilštmˤ	ilštmˤ/	ỉlštmʕ	TN sg. abs. nom.	1957.4	

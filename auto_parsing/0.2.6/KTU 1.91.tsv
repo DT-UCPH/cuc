@@ -8,22 +8,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151222	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 2						
 151223	b	b	b	prep.	in	
-151224	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-151224	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-151224	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-151224	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-151224	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
-151225	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151225	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+151224	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. gen.	sacrifice	
+151224	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
+151224	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
+151225	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+151225	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.91 3						
-151226	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-151226	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-151226	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-151226	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-151226	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
-151227	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+151226	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. gen.	sacrifice	
+151226	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
+151226	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
+151227	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.91 4						
-151228	tzġm	tzġ/m	tzġ	n. m. pl. abs. nom.	kind of sacrificial meat	
+151228	tzġm	tzġ/m	tzġ	n. m. pl. abs. gen.	kind of sacrificial meat	
 # KTU 1.91 5						
 151229	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 # KTU 1.91 6						
@@ -54,14 +50,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151238	k	k(II)	k (II)	emph. functor	yes	
 151239	tˤrb	!t!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 151240	ṯˤṯtrt	?	?	?	?	DULAT: NOT FOUND
-151241	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 151241	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
-151241	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
-151241	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
-151242	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-151242	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-151243	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151243	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+151241	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
+151242	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+151242	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+151243	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+151243	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 1.91 11						
 151244	k	+k	-k (I)			
 151244	k	~k	-k (II)			
@@ -69,24 +63,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151244	k	k(I)	k (I)	prep.	like	
 151244	k	k(II)	k (II)	emph. functor	yes	
 151245	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
-151246	ršpm	ršp/	ršp	DN du. abs. nom.	Rašap	
-151246	ršpm	ršp/	ršp	DN pl. abs. nom.	Rašap	
-151247	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-151247	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-151248	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151248	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+151246	ršpm	ršp/	ršp	DN du. cstr. nom.	Rašap	
+151246	ršpm	ršp/	ršp	DN pl. cstr. nom.	Rašap	
+151247	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+151247	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+151248	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+151248	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.91 12						
-151249	ḫlu	ḫlu/	ḫlủ	n. m. sg. abs. nom.	cake	
-151250	dg	dg(I)/	dg (I)	n. m. sg. abs. nom.	fish	
+151249	ḫlu	ḫlu/	ḫlủ	n. m. sg. cstr. gen.	cake	
+151250	dg	dg(I)/	dg (I)	n. m. sg. cstr. gen.	fish	
 # KTU 1.91 13						
-151251	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. nom.	new moon	
-151251	ḥdṯm	ḥdṯ(I)/+m(I)	ḥdṯ (I)	adj. cstr. nom.	new	
+151251	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. gen.	new moon	
 # KTU 1.91 14						
-151252	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-151252	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-151252	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
+151252	dbḥ	dbḥ/	dbḥ	n. m. pl. abs. gen.	sacrifice	
+151252	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	
+151252	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. gen.	to sacrifice	
 151253	bˤlxxxxx	?	?	?	?	DULAT: NOT FOUND
 151254	k	+k	-k (I)			
 151254	k	~k	-k (II)			
@@ -99,7 +90,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 15						
 151258	b	b	b	prep.	in	
 151259	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
-151260	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
+151260	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
 151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. pl. abs. gen.	army	
 151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. sg. abs. gen.	army	
 151261	ṣbi	ṣb(u(II)/&i	ṣbủ (II)	n. m. sg. abs. gen.	setting	
@@ -120,40 +111,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151270	xxxxbˤlt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 21						
 151271	lbnm	lbn(I)/m	lbn (I)	adj. m. pl. abs. nom.	white	
-151272	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-151272	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
-151272	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
-151272	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
-151273	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+151272	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+151273	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
 # KTU 1.91 22						
-151274	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. nom.	massif	
-151275	gngnt	gngnt/	gngnt	TN sg. abs. nom.	gngnt	
-151276	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-151276	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-151276	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-151277	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+151274	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. cstr. gen.	massif	
+151275	gngnt	gngnt/	gngnt	TN sg. cstr. gen.	gngnt	
+151276	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+151277	yn	yn/	yn	n. m. sg. abs. gen.	wine	
 # KTU 1.91 23						
 151278	bṣr	bṣr(II)[	/b-ṣ-r/ (II)	vb G impv. 2	to sever	
-151279	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-151279	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
-151279	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
-151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
-151280	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+151280	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
 # KTU 1.91 24						
-151281	nnu	nnu(II)/	nnủ (II)	TN sg. abs. nom.	nnủ (II)	
+151281	nnu	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
 151282	arbˤ	arbˤ/	ảrbʕ	num.	four	
-151283	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+151283	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
 # KTU 1.91 25						
-151284	šql	šql/	šql	TN sg. abs. nom.	šql	
-151285	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-151285	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-151285	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-151286	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+151284	šql	šql/	šql	TN sg. cstr. gen.	šql	
+151285	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+151286	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
 # KTU 1.91 26						
-151287	šmny	šmn(I)/+y	šmn (I)	n. m. cstr. nom.	oil	
-151287	šmny	š&m/+ny	š	n. m. cstr. nom.	ram	
-151287	šmny	šm(I)/+ny	šm (I)	n. m. cstr. nom.	name	
-151288	kdm	kd(I)/m	kd (I)	n. f. pl. abs. nom.	jar	
+151287	šmny	šmn(I)/+y	šmn (I)	n. m. cstr. gen.	oil	
+151287	šmny	š&m/+ny	š	n. m. cstr. gen.	ram	
+151287	šmny	šm(I)/+ny	šm (I)	n. m. cstr. gen.	name	
+151288	kdm	kd(I)/m	kd (I)	n. f. pl. abs. gen.	jar	
 151289	yn	yn/	yn	n. m. sg. abs. nom.	wine	
 # KTU 1.91 27						
 151290	šmgy	šmgy/	šmgy	TN sg. abs. nom.	šmgy	
@@ -162,52 +143,45 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 28						
 151293	hzp	hzp/	hzp	TN sg. abs. nom.	hzp	
 151294	tšˤ	tšˤ/	tšʕ	num.	nine	
-151295	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+151295	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
 # KTU 1.91 29						
-151296	bir	bir/	bỉr	TN/n. f. sg. abs. nom.	biʾiru	
-151297	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-151297	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
-151297	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
-151297	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
-151298	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. nom.	place in which something is put	
+151296	bir	bir/	bỉr	TN/n. f. sg. cstr. gen.	biʾiru	
+151297	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. gen.	banquet	
+151298	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
 151299	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
 151300	ḥsp	ḥsp/	ḥsp	adj. m. sg. abs. nom.	decanted	
 # KTU 1.91 30						
-151301	ḫpty	ḫpty/	ḫb/pt(y)	TN sg. abs. nom.	ḫb/pt(y)	Based on DULAT reconstruction.
+151301	ḫpty	ḫpty/	ḫb/pt(y)	TN sg. cstr. nom.	ḫb/pt(y)	Based on DULAT reconstruction.
 151301	ḫpty	ḫpt/+y	ḫpt	TN sg. cstr. nom.	ḫpt	Based on DULAT reconstruction.
-151301	ḫpty	ḫpty	ḫpty	→	?	
-151302	kdm	kd(I)/m	kd (I)	n. f. pl. abs. nom.	jar	
+151302	kdm	kd(I)/m	kd (I)	n. f. pl. abs. gen.	jar	
 151303	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. nom.	place in which something is put	
 151303	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. nom.	beam	
 # KTU 1.91 31						
 151304	agm	agm	ảgm	→	?	
 151305	arbˤ	arbˤ/	ảrbʕ	num.	four	
-151306	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. nom.	place in which something is put	
-151306	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. nom.	beam	
+151306	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
+151306	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
 # KTU 1.91 32						
-151307	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. nom.	root	
+151307	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. gen.	root	
 151308	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-151309	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. nom.	place in which something is put	
-151309	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. nom.	beam	
+151309	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
+151309	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
 # KTU 1.91 33						
-151310	rqd	rqd/	rqd	TN sg. abs. nom.	rqd	
-151310	rqd	rq(II)/+d	rq (II)	adj. m. cstr. nom.	fine, ?	
-151311	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-151311	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-151311	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-151312	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. nom.	place in which something is put	
-151312	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. nom.	beam	
+151310	rqd	rqd/	rqd	TN sg. cstr. gen.	rqd	
+151311	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+151312	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
+151312	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. gen.	beam	
 151313	w	w	w	conj.	and	
 151314	x	?	?	?	?	
 # KTU 1.91 34						
 151315	uḫnp	uḫnp/	ủḫnp	TN sg. abs. nom.	ủḫnp	
 151316	ṯṯ	ṯṯ/	ṯṯ	num.	six	
-151317	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. nom.	place in which something is put	
-151317	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. nom.	beam	
+151317	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
+151317	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
 # KTU 1.91 35						
-151318	tgmr	tgmr/	tgmr	n. m. sg. abs. nom.	totality	
-151319	yn	yn/	yn	n. m. sg. abs. nom.	wine	
-151320	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. nom.	place in which something is put	
+151318	tgmr	tgmr/	tgmr	n. m. sg. cstr. gen.	totality	
+151319	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
+151320	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
 151321	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.91 36						
 151322	w	w	w	conj.	and	

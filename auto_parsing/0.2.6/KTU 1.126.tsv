@@ -15,10 +15,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154444	šˤx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.126 5						
 154445	xxxx	?	?	?	?	
-154446	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-154447	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-154447	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-154447	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+154446	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
+154447	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
+154447	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 # KTU 1.126 6						
 154448	xxxxmt	?	?	?	?	DULAT: NOT FOUND
 154449	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
@@ -61,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 19						
 154466	b	b	b	prep.	in	
 154467	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. gen.	sixth	
-154468	š	š/	š	n. m. sg. abs. gen.	ram	
+154468	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.126 20						
 154469	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg. abs. gen.	place of sacrifice	
 154470	x	?	?	?	?	

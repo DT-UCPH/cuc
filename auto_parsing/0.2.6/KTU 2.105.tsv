@@ -1,23 +1,20 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.105 1						
-160566	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-160567	aġltṯb	aġltṯb/	ảġltṯb	PN sg. abs. nom.	ảġltṯb	
+160566	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+160567	aġltṯb	aġltṯb/	ảġltṯb	PN sg. abs. gen.	ảġltṯb	
 # KTU 2.105 2						
 160568	l	l(I)	l (I)	prep.	to	
 160568	l	l(III)	l (III)	functor	certainly	
 160569	xxxyn	?	?	?	?	DULAT: NOT FOUND
-160570	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
-160571	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-160571	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-160571	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-160571	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-160571	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+160570	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. cstr. nom.	brother (by blood)	
+160571	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+160571	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.105 3						
 160572	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 160572	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 160573	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.105 4						
-160574	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+160574	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 160574	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 160575	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.105 5						

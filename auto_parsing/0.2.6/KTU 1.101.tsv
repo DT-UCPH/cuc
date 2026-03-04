@@ -1,11 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 1						
 152181	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-152181	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-152181	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-152182	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
-152182	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
-152182	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
+152181	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+152181	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
+152182	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. gen.	to sit down	
 152183	k	+k	-k (I)			
 152183	k	~k	-k (II)			
 152183	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -27,27 +25,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152188	k	k(II)	k (II)	emph. functor	yes	
 152189	mdb	mdb/	mdb	n. m. sg. abs. nom.	tide	
 152190	b	b	b	prep.	in	
-152191	tk	tk/	tk	n. m. abs. gen.	centre	
+152191	tk	tk/	tk	n. m. cstr. gen.	centre	
 152192	ġrh	ġr(I)/h	ġr (I)	n. m. sg. abs. gen.	mountain	
-152193	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-152193	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-152193	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
-152193	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+152193	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+152193	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+152193	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+152193	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 152194	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 152195	bġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.101 3						
-152196	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
-152196	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
-152197	tliyt	tliy(t/t	tlỉyt	n. f. sg. abs. nom.	triumph	
+152196	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	mountain	
+152196	ġr	ġr(III)/	ġr (III)	n. m. sg. cstr. nom.	skin	
+152197	tliyt	tliy(t/t	tlỉyt	n. f. sg. abs. gen.	triumph	
 152198	šbˤt	šbˤ(I)/	šbʕ (I)	num.	seven	
 152199	brqm	brq(I)/m	brq (I)	n. m. pl. abs. nom.	ray	
 152200	ṯ	ṯ	ṯ	→	?	
 # KTU 1.101 4						
 152201	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 152202	iṣr	iṣr/	ỉṣr	n. m. pl. cstr. nom.	?	
-152203	rˤt	rˤ(t/t	rʕt	n. f. pl. abs. nom.	thunder	
-152203	rˤt	rˤ(t/t	rʕt	n. f. sg. abs. nom.	thunder	
-152203	rˤt	rˤ(t/t=	rʕt	n. f. pl. abs. nom.	thunder	
+152203	rˤt	rˤ(t/t	rʕt	n. f. pl. abs. gen.	thunder	
+152203	rˤt	rˤ(t/t	rʕt	n. f. sg. abs. gen.	thunder	
+152203	rˤt	rˤ(t/t=	rʕt	n. f. pl. abs. gen.	thunder	
 152204	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs. nom.	tree	
 152205	brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
 152206	yry	!y!(yry[+y	/y-r-y/	vb	to fire	
@@ -62,19 +60,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152208	tply	!t!ply[:w	/p-l-y/	vb G prefc. 3 m. pl.	to distinguish	
 152208	tply	!t===!ply[	/p-l-y/	vb G prefc. 2 m. pl.	to distinguish	
 152209	ṭly	ṭl/+y	ṭl	n. m. cstr. nom.	dew	
-152209	ṭly	ṭly/	ṭly	DN sg. abs. nom.	Tallay	
-152210	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-152210	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-152210	bn	bn(II)	bn (II)	prep.	between	
-152210	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-152210	bn	bn[	/b-n/	vb G impv. 2	to understand	
-152211	ˤnh	ˤn(I)/h	ʕn (I)	n. f. du. abs. nom.	eye	
+152209	ṭly	ṭly/	ṭly	DN sg. cstr. nom.	Tallay	
+152210	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+152210	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+152211	ˤnh	ˤn(I)/h	ʕn (I)	n. f. du. abs. gen.	eye	
 # KTU 1.101 6						
 152212	uzˤrt	uzˤr(t/t	ủzʕrt	adj. f. sg. abs. nom.	the smallest	
 152213	tmll	?	?	?	?	DULAT: NOT FOUND
 152214	išdh	išd/+h	ỉšd	n. m. du. cstr. nom.	leg	
 152214	išdh	išd/+h	ỉšd	n. m. pl. cstr. nom.	leg	
-152215	qrnm	qrn/m	qrn	n. f. pl. abs. nom.	horn	
+152215	qrnm	qrn/m	qrn	n. f. pl. abs. gen.	horn	
 # KTU 1.101 7						
 152216	dt	d	d	det. or rel. functor	the one(s) of	
 152217	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
@@ -119,15 +114,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 15						
 152248	xx	?	?	?	?	
 152249	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
-152250	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
-152251	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-152251	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-152251	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-152251	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-152251	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-152251	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-152251	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-152251	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+152250	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
+152251	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 152252	b	b	b	prep.	in	
 152253	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
 152254	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 f. sg.	to wash	
@@ -138,7 +126,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152254	trḥṣ	!t===!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 2 m. pl.	to wash	
 # KTU 1.101 16						
 152255	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
-152256	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
+152256	btlt	btl(t/t	btlt	n. f. sg. abs. gen.	virgin	
 152257	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 152258	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl. abs. nom.	finger	
 152259	ybmt	ybm(t/t	ybmt	n. f. sg. cstr. nom.	widow sister-in-law	
@@ -147,7 +135,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152261	tiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 152262	knrh	knr/+h	knr	n. m. cstr. nom.	harp	
 152263	b	b	b	prep.	in	
-152264	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	
+152264	ydh	yd(I)/+h	yd (I)	n. f. abs. gen.	hand	
 152265	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 152265	tšt	!t!št(y[	/š-t-y/	vb G prefc. 3 f. sg.	to drink	
 152265	tšt	!t=!št(y[	/š-t-y/	vb G prefc. 2 m. sg.	to drink	
@@ -164,5 +152,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152270	dd	dd(II)/	dd (II)	n. m. sg. abs. nom.	cauldronful	
 152271	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 # KTU 1.101 19						
-152272	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
-152273	ahbt	ahb(t/t	ảhbt	n. f. sg. cstr. nom.	love	
+152272	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. cstr. nom.	Baʿlu/Baal	
+152273	ahbt	ahb(t/t	ảhbt	n. f. sg. abs. gen.	love	

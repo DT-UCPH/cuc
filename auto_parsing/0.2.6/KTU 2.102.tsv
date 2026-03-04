@@ -1,18 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.102 1						
-160439	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-160440	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-160440	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+160439	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+160440	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+160440	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.102 2						
 160441	l	l(I)	l (I)	prep.	to	
 160441	l	l(III)	l (III)	functor	certainly	
-160442	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
 160442	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
-160443	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-160443	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-160443	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-160443	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-160443	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+160443	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+160443	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.102 3						
 160444	ky	k(III)	k (III)	Subordinating or completive functor	when	
 160444	ky	k(II)	k (II)	emph. functor	yes	

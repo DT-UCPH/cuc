@@ -3,13 +3,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153210	hln	hln	hln	deictic adv. functor	look!	
 153211	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 153211	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
-153212	rpu	rpu/	rpủ	n. m. sg. abs. nom.	healer	
 153212	rpu	rpu/	rpủ	n. m. sg. cstr. nom.	healer	
-153213	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-153213	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-153214	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-153214	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
-153214	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
+153213	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+153213	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+153214	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. gen.	eternity	
 153215	w	w	w	conj.	and	
 153216	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 153216	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
@@ -17,19 +14,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153217	ilgṯr	?	?	?	?	DULAT: NOT FOUND
 153218	w	w	w	conj.	and	
 153219	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to meet	
-153220	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153220	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153220	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 153220	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-153221	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
-153221	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
-153221	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
+153221	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. gen.	to sit down	
 153222	b	b	b	prep.	in	
-153223	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
+153223	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. gen.	ʿṯtrt (II)	
 # KTU 1.108 3						
-153224	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 153224	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-153224	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 153224	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 153225	ṯpẓ	ṯpẓ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. gen.	to judge	
 153225	ṯpẓ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
@@ -46,20 +37,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153234	w	w	w	conj.	and	
 153235	ṯlb	ṯlb/	ṯlb	n. m. sg. abs. nom.	flute	
 153236	b	b	b	prep.	in	
-153237	tp	tp(I)/	tp (I)	n. m. sg. abs. nom.	drum	
-153237	tp	tp(II)/	tp (II)	n. m. sg. abs. nom.	aspect	
+153237	tp	tp(I)/	tp (I)	n. m. sg. abs. gen.	drum	
+153237	tp	tp(II)/	tp (II)	n. m. sg. abs. gen.	aspect	
 153237	tp	npy[	/n-p-y/	vb N prefc.	to be driven away	
 153237	tp	npy[:pass	/n-p-y/	vb Gpass prefc.	to be driven away	
 153238	w	w	w	conj.	and	
 153239	mṣltm	mṣlt(I)/m	mṣlt (I)	n. f. pl. abs. nom.	cymbal	
 153240	bm	b+m(I)	b	prep.	in	
 # KTU 1.108 5						
-153241	rqdm	rqd/+m(I)	rqd	TN sg. cstr. gen.	rqd	
+153241	rqdm	rqd/+m(I)	rqd	TN sg. abs. gen.	rqd	
 153242	d	d	d	det. or rel. functor	the one(s) of	
 153243	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 153244	b	b	b	prep.	in	
 153245	ḥbr	ḥbr(I)/	ḥbr (I)	n. m. pl. cstr. gen.	companion	
-153246	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
+153246	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. cstr. gen.	Koṯaru/Kothar	
 153247	ẓbm	ẓby/	ẓby	n. m. pl. abs. gen.	gazelle	
 # KTU 1.108 6						
 153248	w	w	w	conj.	and	
@@ -114,28 +105,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153278	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.108 11						
 153279	xxxxxxxn	?	?	?	?	DULAT: NOT FOUND
-153280	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153280	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153280	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 153280	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-153281	ġnṯ	ġnṯ[/	/ġ-n-ṯ/	vb G act. ptcpl. m. sg. abs. nom.	to gulp down	
-153282	ˤgl	ˤgl(I)/	ʕgl (I)	n. m. sg. abs. nom.	calf	
-153283	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-153283	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153283	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-153283	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153281	ġnṯ	ġnṯ[/	/ġ-n-ṯ/	vb G act. ptcpl. m. sg. cstr. gen.	to gulp down	
+153282	ˤgl	ˤgl(I)/	ʕgl (I)	n. m. sg. cstr. gen.	calf	
+153283	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+153283	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.108 12						
 153284	xxxxxxxxxd	?	?	?	?	DULAT: NOT FOUND
-153285	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153285	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153285	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 153285	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-153286	šdy	šd(I)/+y	šd (I)	n. m. cstr. nom.	open field	
-153286	šdy	šdy(II)/	šdy (II)	PN sg. abs. nom.	šdy (II)	
-153287	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	
-153287	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. abs. nom.	hunt	
-153288	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-153288	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+153286	šdy	šd(I)/+y	šd (I)	n. m. cstr. gen.	open field	
+153286	šdy	šdy(II)/	šdy (II)	PN sg. cstr. gen.	šdy (II)	
+153287	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. cstr. gen.	hunt	
+153288	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+153288	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 1.108 13						
 153289	xxxxxxxxxḥ	?	?	?	?	DULAT: NOT FOUND
 153290	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
@@ -156,14 +140,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.108 18						
 153298	xxxxxxxxxxrš	?	?	?	?	DULAT: NOT FOUND
 153299	l	l(I)	l (I)	prep.	to	
-153300	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+153300	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 # KTU 1.108 19						
 153301	xxxxxx	?	?	?	?	
 153302	ymġk	!y!mġ(y[+k	/m-ġ-y/	vb G prefc. 3 m. sg.	to come	
-153303	rpu	rpu/	rpủ	n. m. sg. abs. nom.	healer	
 153303	rpu	rpu/	rpủ	n. m. sg. cstr. nom.	healer	
-153304	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-153304	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+153304	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+153304	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 1.108 20						
 153305	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 153306	xxxxk	?	?	?	?	DULAT: NOT FOUND
@@ -185,13 +168,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153313	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 153314	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 153315	b	b	b	prep.	in	
-153316	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
-153316	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
-153316	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
+153316	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. cstr. gen.	caprine animal	
 # KTU 1.108 22						
-153317	rpi	rp(u/&i	rpủ	n. m. pl. abs. nom.	healer	
-153317	rpi	rp(u/&i	rpủ	n. m. sg. abs. nom.	healer	
-153317	rpi	rp(u/&i	rpủ	n. m. sg. cstr. nom.	healer	
+153317	rpi	rp(u/&i	rpủ	n. m. pl. abs. gen.	healer	
+153317	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
 153318	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 153318	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 153319	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
@@ -205,33 +185,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153324	anh	an(II)+h	ản (II)	adv.	wherever	
 153325	b	b	b	prep.	in	
 153326	ḥtkh	ḥtk(II)/h	ḥtk (II)	n. m. sg. abs. gen.	lineage	
-153326	ḥtkh	ḥtk(III)/+h	ḥtk (III)	n. m. sg. cstr. gen.	sovereignty	
+153326	ḥtkh	ḥtk(III)/+h	ḥtk (III)	n. m. sg. abs. gen.	sovereignty	
 153327	b	b	b	prep.	in	
-153328	nmrth	nmr(t/t+h	nmrt	n. f. sg. cstr. gen.	splendour	
+153328	nmrth	nmr(t/t+h	nmrt	n. f. sg. abs. gen.	splendour	
 153329	l	l(I)	l (I)	prep.	to	
 153329	l	l(III)	l (III)	functor	certainly	
 153330	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.108 24						
 153331	pi	?	?	?	?	DULAT: NOT FOUND
-153332	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
-153333	ˤzk	ˤz(I)/+k	ʕz (I)	n. m. cstr. nom.	strength	
-153334	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg. cstr. nom.	fortress	
-153335	la	la/	lả	n. m. sg. abs. nom.	power	
-153335	la	lan/+k	lản	n. m. sg. abs. nom.	power	If merged with following token nk.
+153332	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	
+153333	ˤzk	ˤz(I)/+k	ʕz (I)	n. m. cstr. gen.	strength	
+153334	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg. cstr. gen.	fortress	
+153335	la	la/	lả	n. m. sg. abs. gen.	power	
+153335	la	lan/+k	lản	n. m. sg. abs. gen.	power	If merged with following token nk.
 # KTU 1.108 25						
 153336	nk	?	?	?	?	DULAT: NOT FOUND
 153337	ḥtkk	ḥt(I)/+k	ḥtk (I)	n. m. sg. cstr. nom.	ruler > progenitor	
 153337	ḥtkk	ḥt(III)/+k	ḥtk (III)	n. m. sg. cstr. nom.	sovereignty	
-153338	nmrtk	nmr(t/t+k	nmrt	n. f. sg. cstr. nom.	splendour	
+153338	nmrtk	nmr(t/t+k	nmrt	n. f. sg. abs. gen.	splendour	
 153339	b	b	b	prep.	in	
-153340	tk	tk/	tk	n. m. abs. gen.	centre	
+153340	tk	tk/	tk	n. m. cstr. gen.	centre	
 # KTU 1.108 26						
-153341	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
-153342	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-153342	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-153342	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-153343	ymt	ym(I)/t=	ym (I)	n. f. pl. abs. nom.	day	
-153343	ymt	!y!mt[	/m-t/	vb G prefc. 3 m. sg.	to die	
+153341	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
+153342	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+153343	ymt	ym(I)/t=	ym (I)	n. f. pl. abs. gen.	day	
 153344	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 153344	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153345	w	w	w	conj.	and	

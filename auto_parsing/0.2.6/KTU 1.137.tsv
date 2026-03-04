@@ -16,18 +16,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154843	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 154844	w	w	w	conj.	and	
 # KTU 1.137 5						
-154845	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-154845	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-154846	mṯbth	mṯb/	mṯb	n. m. abs. nom.	residence	
+154845	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
+154845	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
+154846	mṯbth	mṯb/	mṯb	n. m. cstr. gen.	residence	
 # KTU 1.137 6						
-154847	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
+154847	ydh	yd(I)/+h	yd (I)	n. f. abs. gen.	hand	
 154848	yx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.137 7						
 154849	b	b	b	prep.	in	
 154850	mzn	mzn/	mzn	n. m. sg. abs. gen.	weight	
 154851	x	?	?	?	?	
 # KTU 1.137 8						
-154852	mṯbth	mṯb/	mṯb	n. m. abs. nom.	residence	
+154852	mṯbth	mṯb/	mṯb	n. m. cstr. nom.	residence	
 # KTU 1.137 9						
-154853	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
-154853	dm	dm(I)	dm (I)	functor	since	
+154853	dm	dm(II)/	dm (II)	n. m. sg. abs. gen.	blood	

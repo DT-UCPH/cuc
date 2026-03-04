@@ -3,13 +3,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154724	w	w	w	conj.	and	
 154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 154726	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-154726	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-154726	bn	bn(II)	bn (II)	prep.	between	
-154726	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-154726	bn	bn[	/b-n/	vb G impv. 2	to understand	
+154726	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 # KTU 1.133 2						
-154727	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-154727	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+154727	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
+154727	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 154728	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 154728	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 154728	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
@@ -22,9 +19,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 4						
 154732	thw	thw/	thw	n. m. sg. abs. nom.	steppe	
 154733	w	w	w	conj.	and	
-154734	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+154734	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 # KTU 1.133 5						
-154735	anḫr	anḫr/	ảnḫr	n. m. sg. abs. nom.	dolphin	
+154735	anḫr	anḫr/	ảnḫr	n. m. sg. abs. gen.	dolphin	
 154736	b	b	b	prep.	in	
 154737	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
 154737	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
@@ -43,15 +40,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 8						
 154743	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
-154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
-154743	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-154743	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
-154744	kḏd	ḏd(II)/	ḏd (II)	n. m. abs. nom.	grotto	Based on DULAT reconstruction.
-154744	kḏd	kḏd	kḏd	→	?	
-154744	kḏd	ḏd(I)/	ḏd (I)	n. m. abs. nom.	breast	Based on DULAT reconstruction.
-154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. pl. abs. nom.	hind	
-154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg. abs. nom.	hind	
-154745	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. nom.	hind	
+154743	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. nom.	furrow	
+154744	kḏd	ḏd(II)/	ḏd (II)	n. m. cstr. gen.	grotto	Based on DULAT reconstruction.
+154744	kḏd	ḏd(I)/	ḏd (I)	n. m. cstr. gen.	breast	Based on DULAT reconstruction.
+154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. pl. abs. gen.	hind	
+154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg. abs. gen.	hind	
+154745	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
 # KTU 1.133 9						
 154746	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 154746	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
@@ -60,14 +54,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154746	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
 154747	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154747	hm	hm(I)	hm (I)	pers. pn.	they	
-154748	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
-154748	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
-154749	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-154749	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+154748	ks	ks(I)/	ks (I)	n. m. sg. cstr. nom.	cup	
+154748	ks	ks/	ks/śm(n)	n. m. pl. cstr. nom.	emmer-corn	
+154749	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+154749	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 # KTU 1.133 10						
-154750	sk	sk(I)/	sk (I)	n. m. sg. abs. nom.	coverlet	
-154751	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
-154751	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
+154750	sk	sk(I)/	sk (I)	n. m. sg. cstr. gen.	coverlet	
+154751	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
+154751	nhr	nhr/	nhr	n. m. sg. abs. gen.	river	
 154752	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154752	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 1.133 11						
@@ -86,9 +80,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154761	ṯmt	ṯm	ṯm	adv.	there	
 # KTU 1.133 14						
 154762	xxxm	?	?	?	?	DULAT: NOT FOUND
-154763	ẓbm	ẓby/	ẓby	n. m. pl. abs. nom.	gazelle	
-154764	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
-154764	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
+154763	ẓbm	ẓby/	ẓby	n. m. pl. cstr. nom.	gazelle	
+154764	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	bull	
+154764	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	bull	
 # KTU 1.133 15						
 154765	xxbn	?	?	?	?	DULAT: NOT FOUND
 154766	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
@@ -105,17 +99,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154769	p	p(II)	p (II)	adv.	here	
 154770	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
 # KTU 1.133 17						
-154771	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 154771	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-154771	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 154771	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-154772	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	lad	
+154772	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 154773	b	b	b	prep.	in	
 # KTU 1.133 18						
 154774	b	b	b	prep.	in	
-154775	abn	ab/+n	ảb	n. m. cstr. nom.	father	
-154775	abn	abn/	ảbn	n. f. pl. cstr. nom.	stone	
-154775	abn	abn/	ảbn	n. f. sg. abs. nom.	stone	
+154775	abn	ab/+n	ảb	n. m. abs. gen.	father	
+154775	abn	abn/	ảbn	n. f. pl. abs. gen.	stone	
+154775	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	
 154775	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	
 154776	ˤ	?	?	?	?	DULAT: NOT FOUND
 154777	z	d	d	det. or rel. functor	the one(s) of	Based on DULAT reconstruction.

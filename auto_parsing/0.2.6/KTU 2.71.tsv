@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 1						
-158916	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158917	tlmyn	tlmyn/	tlmyn	PN sg. abs. nom.	tlmyn	
+158916	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+158917	tlmyn	tlmyn/	tlmyn	PN sg. abs. gen.	tlmyn	
 # KTU 2.71 2						
 158918	l	l(I)	l (I)	prep.	to	
 158918	l	l(III)	l (III)	functor	certainly	
@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158921	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158922	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.71 4						
-158923	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+158923	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 158923	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 158924	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.71 5						
@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158926	hnny	hnny+ny	hnny	adv.	here	
 # KTU 2.71 6						
 158927	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-158928	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+158928	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 158928	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158928	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 158928	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
@@ -32,14 +32,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158928	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.71 7						
 158929	ṯmny	ṯm	ṯm	adv.	there	
-158930	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-158930	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
+158930	ˤmk	ˤm(II)/	ʕm (II)	n. m. cstr. nom.	lineage	
 # KTU 2.71 8						
-158931	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158931	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158931	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158931	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158931	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+158931	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+158931	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 158932	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 158932	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 158933	ly	l(I)+y	l (I)	prep.	to	
@@ -55,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 11						
 158938	ˤmnk	ˤm(I)+k	ʕm (I)	prep.	to	
 158939	pm	p(I)+m(I)	p (I)	conj. functor	and	
-158939	pm	p(III)/+m(I)	p (III)	n. m. cstr. nom.	mouth	
+158939	pm	p(III)/+m(I)	p (III)	n. m. abs. gen.	mouth	
 158939	pm	p(II)+m(I)	p (II)	adv.	here	
 158940	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 158940	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
@@ -87,10 +83,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158953	mġyy	!!mġy[/y	/m-ġ-y/	vb G inf.	to come	
 # KTU 2.71 17						
 158954	b	b	b	prep.	in	
-158955	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. abs. gen. sg.	city	
-158955	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg. abs. gen.	naked	
-158956	ḥpr	ḥpr/	ḥpr	n. m. pl. cstr. gen.	ration(s)	
-158956	ḥpr	ḥpr/	ḥpr	n. m. sg. cstr. gen.	ration(s)	
+158955	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. sg. abs. gen.	city	
+158955	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg. abs. nom.	naked	
+158956	ḥpr	ḥpr/	ḥpr	n. m. pl. cstr. nom.	ration(s)	
+158956	ḥpr	ḥpr/	ḥpr	n. m. sg. cstr. nom.	ration(s)	
 # KTU 2.71 18						
 158957	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg. cstr. nom.	party	
 158957	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg. abs. nom.	time	

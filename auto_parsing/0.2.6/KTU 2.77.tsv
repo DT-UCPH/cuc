@@ -18,9 +18,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159231	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 6						
 159232	w	w	w	conj.	and	
-159233	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-159233	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-159234	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+159233	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+159233	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+159234	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.77 7						
 159235	d	d	d	det. or rel. functor	the one(s) of	
 159236	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -35,9 +35,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159240	hlny	hlny	hlny	deictic adv. functor	behold	
 159241	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 9						
-159242	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
-159242	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
-159243	bir	bir/	bỉr	TN/n. f. sg. abs. nom.	biʾiru	
+159242	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
+159242	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	
+159243	bir	bir/	bỉr	TN/n. f. sg. abs. gen.	biʾiru	
 # KTU 2.77 10						
 159244	xxxxk	?	?	?	?	DULAT: NOT FOUND
 159245	d	d	d	det. or rel. functor	the one(s) of	

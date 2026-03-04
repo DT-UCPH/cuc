@@ -3,28 +3,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158214	l	l(I)	l (I)	prep.	to	
 158214	l	l(II)	l (II)	adv.	no	
 158214	l	l(III)	l (III)	functor	certainly	
-158215	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158215	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158216	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+158215	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+158215	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158216	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 2.44 2						
-158217	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
-158218	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158218	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158218	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158218	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158218	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+158217	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. cstr. gen.	brother (by blood)	
+158218	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
+158218	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 2.44 3						
-158219	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158220	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158220	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158221	gbl	gbl(I)/	gbl (I)	n. m. sg. abs. nom.	summit	
-158221	gbl	gbl(II)/	gbl (II)	n. m. sg. abs. nom.	limit	
-158222	iḫk	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
+158219	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+158220	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+158220	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+158221	gbl	gbl(I)/	gbl (I)	n. m. sg. cstr. gen.	summit	
+158221	gbl	gbl(II)/	gbl (II)	n. m. sg. cstr. gen.	limit	
+158222	iḫk	aḫ(I)/	ảḫ (I)	n. m. sg. abs. gen.	brother (by blood)	
 # KTU 2.44 4						
 158223	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158223	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158224	lk	l(I)+k	l (I)	prep.	to	
-158225	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+158225	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 158225	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.44 5						
 158226	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
@@ -40,26 +37,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.44 8						
 158233	w	w	w	conj.	and	
 158234	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-158234	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-158234	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-158235	gbl	gbl(I)/	gbl (I)	n. m. sg. abs. nom.	summit	
-158235	gbl	gbl(II)/	gbl (II)	n. m. sg. abs. nom.	limit	
+158234	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+158234	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
+158235	gbl	gbl(I)/	gbl (I)	n. m. sg. cstr. gen.	summit	
+158235	gbl	gbl(II)/	gbl (II)	n. m. sg. cstr. gen.	limit	
 # KTU 2.44 9						
-158236	p	p(I)	p (I)	conj. functor	and	
-158236	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-158236	p	p(II)	p (II)	adv.	here	
-158237	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+158236	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
+158237	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 158238	w	w	w	conj.	and	
 158239	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 158239	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 2.44 10						
 158240	hmt	hmt	hmt	pers. pn.		
 158241	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-158241	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-158241	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+158241	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+158241	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
 158241	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-158241	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-158242	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+158241	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. nom.	Baʿlu/Baal	
+158242	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 2.44 11						
 158243	xˤx	?	?	?	?	DULAT: NOT FOUND
 158244	tšr	!t!šr(I)[	/š-r/ (I)	vb G prefc.	to sing	

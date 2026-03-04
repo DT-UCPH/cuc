@@ -3,27 +3,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161487	xḏx	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.14 2						
 161488	tlby	tlb/+y	tlb	PN sg. cstr. nom.	tlb	
-161488	tlby	tlby/	tlby	PN sg. abs. nom.	tlby	
+161488	tlby	tlby/	tlby	PN sg. cstr. nom.	tlby	
 # KTU 3.14 3						
-161489	tlby	tlb/+y	tlb	PN sg. cstr. nom.	tlb	
-161489	tlby	tlby/	tlby	PN sg. abs. nom.	tlby	
+161489	tlby	tlb/+y	tlb	PN sg. abs. gen.	tlb	
+161489	tlby	tlby/	tlby	PN sg. abs. gen.	tlby	
 # KTU 3.14 4						
 161490	unr	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.14 5						
-161491	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
-161491	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
-161491	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to know	
+161491	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. cstr. nom.	to know	
 # KTU 3.14 6						
-161492	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
-161492	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
+161492	bnš	bnš/	bnš	n. m. pl. cstr. gen.	man	
+161492	bnš	bnš/	bnš	n. m. sg. cstr. gen.	man	
 # KTU 3.14 7						
-161493	kṯtġlm	kṯtġlm/	kṯtġlm	TN sg. abs. nom.	kṯtġlm	
+161493	kṯtġlm	kṯtġlm/	kṯtġlm	TN sg. abs. gen.	kṯtġlm	
 # KTU 3.14 8						
 161494	l	l(I)	l (I)	prep.	to	
 161494	l	l(III)	l (III)	functor	certainly	
-161495	ḫby	ḫby/	ḫby	PN sg. abs. nom.	ḫby	
+161495	ḫby	ḫby/	ḫby	PN sg. cstr. nom.	ḫby	
 # KTU 3.14 9						
-161496	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
+161496	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
 # KTU 3.14 10						
 161497	tšˤ	tšˤ/	tšʕ	num.	nine	
 # KTU 3.14 11						

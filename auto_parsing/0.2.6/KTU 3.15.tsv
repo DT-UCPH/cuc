@@ -10,32 +10,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.15 3						
 161504	w	w	w	conj.	and	
 161505	bd	b	b	prep.	in	
-161506	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161506	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161506	bn	bn(II)	bn (II)	prep.	between	
-161506	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161506	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161506	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+161506	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 # KTU 3.15 4						
-161507	udbr	udbr/	ủdbr	n. m. abs. nom.	leaseholder	
+161507	udbr	udbr/	ủdbr	n. m. cstr. gen.	leaseholder	
 # KTU 3.15 5						
-161508	ˤrš	ˤrš/	ʕrš	n. f. sg. abs. nom.	bed	
+161508	ˤrš	ˤrš/	ʕrš	n. f. sg. cstr. gen.	bed	
 # KTU 3.15 6						
-161509	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. abs. nom.	table	
+161509	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. cstr. gen.	table	
 # KTU 3.15 7						
-161510	ap	ap(I)	ảp (I)	adv./conj.	also	
-161510	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
+161510	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
 # KTU 3.15 8						
 161511	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 3.15 9						
-161512	ptr	ptr/	ptr	n. m. abs. nom.	sack	
+161512	ptr	ptr/	ptr	n. m. cstr. nom.	sack	
 # KTU 3.15 10						
-161513	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
+161513	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
 # KTU 3.15 11						
-161514	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161514	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161514	bn	bn(II)	bn (II)	prep.	between	
-161514	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161514	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161514	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
+161514	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 # KTU 3.15 12						
 161515	x	?	?	?	?	
 # KTU 3.15 13						

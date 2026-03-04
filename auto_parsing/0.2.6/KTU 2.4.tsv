@@ -2,11 +2,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 1						
 156391	l	l(I)	l (I)	prep.	to	
 156391	l	l(III)	l (III)	functor	certainly	
-156392	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 156392	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-156392	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-156392	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-156393	khnm	khn(I)/m	khn (I)	n. m. pl. abs. nom.	priest	
+156392	rb	rb/	rb(b)	n. m. sg. cstr. nom.	drizzle	
+156393	khnm	khn(I)/m	khn (I)	n. m. pl. abs. gen.	priest	
 # KTU 2.4 2						
 156394	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156394	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -21,7 +19,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156397	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156397	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156398	lk	l(I)+k	l (I)	prep.	to	
-156399	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+156399	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 156399	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.4 5						
 156400	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -30,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156402	tˤzzk	!t!ˤz[zk:d	/ʕ-z(-z)/	vb D prefc.	to be strong	
 156402	tˤzzk	tˤzzk[	/ʕ-z(-z)/	vb D suffc. 3 m. sg.	to be strong	
 156403	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-156404	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+156404	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 156404	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156404	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 156404	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
@@ -42,7 +40,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156405	w	w	w	conj.	and	
 156406	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 156407	ly	l(I)+y	l (I)	prep.	to	
-156408	šlmk	šlm(I)/+k	šlm (I)	n. m. cstr. nom.	peace	
+156408	šlmk	šlm(I)/+k	šlm (I)	n. m. abs. gen.	peace	
 156408	šlmk	šlm[:d+k	/š-l-m/	vb G suffc.	to be well	
 156408	šlmk	šlm[+k	/š-l-m/	vb D suffc.	to be well	
 156408	šlmk	šlm(III)/+k	šlm (III)	adj. m. cstr. nom.	pure	
@@ -64,25 +62,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156417	lm	l(I)	l (I)	prep.	to	
 # KTU 2.4 15						
 156418	xxxx	?	?	?	?	
-156419	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 156419	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
-156419	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
-156419	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
-156420	gṯr	gṯr/	gṯr	DN sg. abs. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+156419	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
+156420	gṯr	gṯr/	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 2.4 16						
 156421	xmġy	?	?	?	?	DULAT: NOT FOUND
-156422	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 156422	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
-156422	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
-156422	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
-156423	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
+156422	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
+156423	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 # KTU 2.4 17						
 156424	xkḥd	?	?	?	?	DULAT: NOT FOUND
-156425	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 156425	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
-156425	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
-156425	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
-156426	gṯr	gṯr/	gṯr	DN sg. abs. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+156425	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
+156426	gṯr	gṯr/	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 2.4 18						
 156427	ht	ht	ht	adv.	here	
 156428	yšmˤ	!y!šmˤ[	/š-m-ʕ/	vb G prefc. 3 m. sg.	to hear	
@@ -109,8 +101,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 22						
 156442	w	w	w	conj.	and	
 156443	bd	b	b	prep.	in	
-156444	ytrhd	ytrhd/	ytrhd	PN sg. abs. gen.	ytrhd	
+156444	ytrhd	ytrhd/	ytrhd	PN sg. cstr. gen.	ytrhd	
 # KTU 2.4 23						
-156445	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+156445	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 156445	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 156445	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	

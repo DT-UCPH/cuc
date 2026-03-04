@@ -1,18 +1,17 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.78 1						
 149887	bṯṯ	bṯ[ṯ	/b-ṯ/	vb	to be ashamed	
-149888	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-149888	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-149889	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
-149889	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
+149888	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+149888	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
+149889	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. cstr. gen.	new moon	
 # KTU 1.78 2						
-149890	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.	aller de ci de là	
+149890	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
 149891	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
 # KTU 1.78 3						
-149892	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-149892	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-149893	ṯġrh	ṯġr(II)/h	ṯġr (II)	n. m. sg. abs. nom.	gatekeeper	
-149893	ṯġrh	ṯġr(I)/h	ṯġr (I)	n. m. pl. cstr. nom.	gate	
+149892	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
+149892	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
+149893	ṯġrh	ṯġr(II)/h	ṯġr (II)	n. m. sg. abs. gen.	gatekeeper	
+149893	ṯġrh	ṯġr(I)/h	ṯġr (I)	n. m. pl. abs. gen.	gate	
 # KTU 1.78 4						
 149894	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
 # KTU 1.78 5						

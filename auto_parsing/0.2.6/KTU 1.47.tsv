@@ -1,27 +1,23 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 1						
-149075	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 149075	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149075	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 149075	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-149076	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149076	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.47 2						
-149077	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
+149077	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
 # KTU 1.47 3						
-149078	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149078	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149078	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149078	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149078	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+149078	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.47 4						
-149079	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. nom.	grain	
+149079	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
 # KTU 1.47 5						
-149080	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-149080	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-149080	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-149080	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-149081	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149080	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+149080	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+149080	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+149080	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
+149081	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.47 6						
-149082	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. abs. nom. sg.	Baʿlu/Baal	
+149082	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 1.47 7						
 149083	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. abs. nom. sg.	Baʿlu/Baal	
 # KTU 1.47 8						

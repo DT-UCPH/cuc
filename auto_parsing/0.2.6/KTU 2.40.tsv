@@ -3,9 +3,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158026	l	l(I)	l (I)	prep.	to	
 158026	l	l(II)	l (II)	adv.	no	
 158026	l	l(III)	l (III)	functor	certainly	
-158027	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158027	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158028	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158027	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+158027	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158028	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.40 2						
 158029	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158029	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -19,7 +19,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158032	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.40 5						
 158033	l	l(I)	l (I)	prep.	to	
-158034	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158034	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 158035	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.40 6						
 158036	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
@@ -43,9 +43,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158046	w	w	w	conj.	and	
 158047	ht	ht	ht	adv.	here	
 # KTU 2.40 14						
-158048	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158048	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158049	syr	syr/	syr	TN sg. abs. nom.	syr	
+158048	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+158048	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158049	syr	syr/	syr	TN sg. abs. gen.	syr	
 # KTU 2.40 15						
 158050	ns	ns[	/n-s/	vb G suffc. 3 m. sg.	to flee	
 158051	w	w	w	conj.	and	
@@ -59,9 +59,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158056	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 2.40 18						
 158057	w	w	w	conj.	and	
-158058	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158058	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158059	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158058	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
+158058	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158059	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.40 19						
 158060	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
 158060	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	

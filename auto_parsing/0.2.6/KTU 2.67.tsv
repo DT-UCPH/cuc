@@ -1,28 +1,18 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.67 1						
-158776	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158777	uṯryn	uṯryn/	ủṯryn	n. m. sg. abs. nom.	crown prince	
+158776	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+158777	uṯryn	uṯryn/	ủṯryn	n. m. sg. abs. gen.	crown prince	
 # KTU 2.67 2						
 158778	l	l(I)	l (I)	prep.	to	
 158778	l	l(III)	l (III)	functor	certainly	
 158779	grgš	?	?	?	?	DULAT: NOT FOUND
 158780	ˤbdy	ˤbd(I)/+y	ʕbd (I)	n. m. cstr. nom.	servant	
-158780	ˤbdy	ˤbd[/+y	/ʕ-b-d/	vb G act. ptcpl. m. sg. abs. nom.	to work (a field)	
-158780	ˤbdy	ˤbdy/	ʕbdy	PN sg. abs. nom.	ʿbdy	
-158781	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158781	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158781	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158781	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158781	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+158780	ˤbdy	ˤbd[/+y	/ʕ-b-d/	vb G act. ptcpl. m. sg. cstr. nom.	to work (a field)	
+158780	ˤbdy	ˤbdy/	ʕbdy	PN sg. cstr. nom.	ʿbdy	
+158781	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
+158781	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 2.67 3						
-158782	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-158782	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-158782	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-158782	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-158782	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-158782	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-158782	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158782	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+158782	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 158783	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.67 4						
 158784	hlny	hlny	hlny	deictic adv. functor	behold	

@@ -10,15 +10,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161835		?	?	?	?	
 161836	ˤrbn	ˤrb(I)[n	/ʕ-r-b/ (I)	vb G impv. 2	to enter	
 # KTU 3.26 4						
-161837	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161838	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161838	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161838	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161838	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161839	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-161839	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-161839	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-161839	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+161837	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+161838	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161839	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+161839	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 3.26 5						
 161840	xšm	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.26 6						
@@ -28,10 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161842	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 161842	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 3.26 7						
-161843	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161844	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161844	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161844	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161844	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+161843	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+161844	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
 # KTU 3.26 8						
 161845	xxxxx	?	?	?	?	
