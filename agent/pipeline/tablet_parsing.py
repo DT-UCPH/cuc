@@ -13,6 +13,7 @@ from pipeline.instruction_refiner import InstructionRefiner
 from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_reference_disambiguator import AttestationReferenceDisambiguator
 from pipeline.steps.attestation_sort import AttestationSortFixer
+from pipeline.steps.attested_split_token_merge import AttestedSplitTokenMergeFixer
 from pipeline.steps.baal_labourer_ktu1 import BaalLabourerKtu1Fixer
 from pipeline.steps.baal_plural import BaalPluralGodListFixer
 from pipeline.steps.baal_verbal_slash import BaalVerbalSlashFixer
@@ -133,6 +134,10 @@ class TabletParsingPipeline:
             UnwrappedDuplicatePruner(),
             FunctionWordCliticPruner(),
             AttestationReferenceDisambiguator(index=self.attestation_index),
+            AttestedSplitTokenMergeFixer(
+                dulat_db=self.config.dulat_db,
+                udb_db=self.config.udb_db,
+            ),
             LNegationVerbContextPruner(),
             LFunctorVocativeContextDisambiguator(),
             LKbdCompoundPrepDisambiguator(),

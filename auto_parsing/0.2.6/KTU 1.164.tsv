@@ -81,7 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155443	xxtql	?	?	?	?	DULAT: NOT FOUND
 155444	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 14						
-155445	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
+155445	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
 155445	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 155445	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 155445	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
@@ -100,7 +100,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155455	axxm	?	?	?	?	DULAT: NOT FOUND
 155456	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 18						
-155457	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
+155457	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
 155457	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 155457	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 155457	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
@@ -116,4 +116,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155463	w	w	w	conj.	and	
 155464	ḥlt	ḥl(II)/	ḥl (II)	adj.	desacralised	
 155464	ḥlt	ḥl(t(II)/t	ḥlt (II)	n. f. sg.	desacralisation	
-155464	ḥlt	ḥlt(I)/	ḥlt (I)	MN	phoenix	
+155464	ḥlt	ḥlt(I)	ḥlt (I)	MN	phoenix	

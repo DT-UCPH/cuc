@@ -82,6 +82,39 @@ class RefineResultsMentionsTest(unittest.TestCase):
         self.assertEqual(analysis_for_entry("ušḫry", entry), "ušḫry/")
         self.assertEqual(analysis_for_entry("išḫry", entry), "išḫry/")
 
+    def test_analysis_for_pronoun_does_not_add_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=431,
+            lemma="ản",
+            hom="I",
+            pos="pers. pn.",
+            gloss="I",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("an", entry), "an(I)")
+
+    def test_analysis_for_adverb_does_not_add_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=432,
+            lemma="ản",
+            hom="II",
+            pos="adv.",
+            gloss="wherever",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("an", entry), "an(II)")
+
+    def test_analysis_for_dn_keeps_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=433,
+            lemma="špš",
+            hom="",
+            pos="DN f.",
+            gloss="Šapšu/Shapsh/Shapshu",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("špš", entry), "špš/")
+
     def test_analysis_keeps_trailing_prefixed_verb_tail(self) -> None:
         entry = Entry(
             entry_id=2520,
@@ -105,6 +138,29 @@ class RefineResultsMentionsTest(unittest.TestCase):
         self.assertEqual(
             analysis_for_entry("twtḥ", entry, morph_values=["Gt, prefc."]),
             "!t!w]t]ḥ(y[",
+        )
+
+    def test_render_variant_keeps_non_nominal_suffix_host_without_slash(self) -> None:
+        base = Entry(
+            entry_id=431,
+            lemma="ản",
+            hom="I",
+            pos="pers. pn.",
+            gloss="I",
+            wiki_tr="",
+        )
+        suffix = Entry(
+            entry_id=9000,
+            lemma="-h",
+            hom="",
+            pos="pers. pn.",
+            gloss="his / her",
+            wiki_tr="",
+        )
+        variant = Variant(entries=(base, suffix), base_surface="an")
+        self.assertEqual(
+            render_variant("anh", variant, forms_morph={}),
+            ("an(I)+h", "ản (I),-h", "pers. pn.,pers. pn.", "I,his / her"),
         )
 
     def test_analysis_normalizes_aleph_prefix_preformative_marker(self) -> None:
@@ -440,7 +496,7 @@ class RefineResultsMentionsTest(unittest.TestCase):
             self.assertEqual(rows, 1)
             self.assertEqual(changed, 1)
             lines = out_path.read_text(encoding="utf-8").splitlines()
-            self.assertIn("\tṭly/\tṭly\tDN\tTallay\t", lines[1])
+            self.assertIn("\tṭly\tṭly/\tṭly\tDN\tTallay\t", lines[1])
 
     def test_load_entries_applies_form_text_alias_override(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

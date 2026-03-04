@@ -185,7 +185,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153323	l	l(I)	l (I)	prep.	to	
 153323	l	l(III)	l (III)	functor	certainly	
 # KTU 1.108 23						
-153324	anh	an(I)/+h	ản (I)	pers. pn.	I	
+153324	anh	an(I)+h	ản (I)	pers. pn.	I	
 153324	anh	an(II)+h	ản (II)	adv.	wherever	
 153325	b	b	b	prep.	in	
 153326	ḥtkh	ḥtk(II)/h	ḥtk (II)	n. m. sg.	lineage	
@@ -201,6 +201,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153333	ˤzk	ˤz(I)/+k	ʕz (I)	n. m.	strength	
 153334	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg.	fortress	
 153335	la	la/	lả	n. m. sg.	power	
+153335	la	lan/+k	lản	n. m. sg.	power	If merged with following token nk.
 # KTU 1.108 25						
 153336	nk	?	?	?	?	DULAT: NOT FOUND
 153337	ḥtkk	ḥt(I)/+k	ḥtk (I)	n. m. sg.	ruler > progenitor	

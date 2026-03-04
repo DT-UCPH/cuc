@@ -763,7 +763,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144620	rbˤ	rbˤ/	rbʕ	num.	fourth	
 144621	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 144621	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
-144622	ˤšr	ˤšr(I)/	ʕšr (I)	num.	ten	
+144622	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
 144622	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
 144622	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 144622	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
@@ -929,7 +929,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144714	l	l(I)	l (I)	prep.	to	
 144714	l	l(III)	l (III)	functor	certainly	
 144715	brlt	brl(t/t	brlt	n. f. sg.	hunger	
-144716	hyn	hy/+n	hy	pers. pn.	she	
+144716	hyn	hy+n	hy	pers. pn.	she	
 144716	hyn	hyn/	hyn	DN	Hayyānu/alt. name of the god kṯr (Kothar)	
 144717	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.17 V:19						
@@ -970,7 +970,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144742	l	l(I)	l (I)	prep.	to	
 144742	l	l(III)	l (III)	functor	certainly	
 144743	brlt	brl(t/t	brlt	n. f. sg.	hunger	
-144744	hyn	hy/+n	hy	pers. pn.	she	
+144744	hyn	hy+n	hy	pers. pn.	she	
 144744	hyn	hyn/	hyn	DN	Hayyānu/alt. name of the god kṯr (Kothar)	
 144745	d	d	d	det. or rel. functor	the one(s) of	
 144746	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. / n. m. pl.	craftsman	
@@ -1019,7 +1019,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 V:32						
 144776	l	l(I)	l (I)	prep.	to	
 144777	ahlh	ahl/+h	ảhl	n. m. sg.	tent	
-144778	hyn	hy/+n	hy	pers. pn.	she	
+144778	hyn	hy+n	hy	pers. pn.	she	
 144778	hyn	hyn/	hyn	DN	Hayyānu/alt. name of the god kṯr (Kothar)	
 144779	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc.	to go	
 144780	l	l(I)	l (I)	prep.	to	
@@ -1251,7 +1251,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144921	b	b	b	prep.	in	
 144922	lbnn	lb/+nn	lb	n. m.	heart, ?	
 144922	lbnn	lbnn(I)/	lbnn (I)	TN	Lebanon	
-144922	lbnn	lbnn(II)/	lbnn (II)	element		
+144922	lbnn	lbnn(II)	lbnn (II)	element		
 144923	adr	adr(I)/	ảdr (I)	adj. m. or n. m. sg.	wonderful	
 144924	gdm	gd(II)/m	gd (II)	n. m. pl.	sinew	
 144925	b	b	b	prep.	in	
@@ -1490,7 +1490,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145075	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 # KTU 1.17 VI:45						
 145076	pˤny	pˤn/+y	pʕn	n. f.	foot	
-145077	atk	at(I)/+k	ảt (I)	pers. pn.	you	
+145077	atk	at(I)+k	ảt (I)	pers. pn.	you	
 145077	atk	ʔtw[+k	/ʔ-t-w/	vb	to come	
 145077	atk	ṯat/+k	ṯảt	n. f.	ewe	
 145078	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg.	handsome	

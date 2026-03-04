@@ -121,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138191	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 138191	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.4 I:23						
-138192	hyn	hy/+n	hy	pers. pn.	she	
+138192	hyn	hy+n	hy	pers. pn.	she	
 138192	hyn	hyn/	hyn	DN	Hayyānu/alt. name of the god kṯr (Kothar)	
 138193	ˤly	ˤly[	/ʕ-l-y/	vb G suffc.	to go up	
 138194	l	l(I)	l (I)	prep.	to	
@@ -1760,7 +1760,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139218	hn	hn	hn	functor	behold!	
 139219	lbnn	lb/+nn	lb	n. m.	heart, ?	
 139219	lbnn	lbnn(I)/	lbnn (I)	TN	Lebanon	
-139219	lbnn	lbnn(II)/	lbnn (II)	element		
+139219	lbnn	lbnn(II)	lbnn (II)	element		
 139220	w	w	w	conj.	and	
 139221	ˤṣh	ˤṣ/+h	ʕṣ	n. m.	tree	
 # KTU 1.4 VI:21						
@@ -2345,7 +2345,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139597	ġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 VII:53						
 139598	lmh	l(I)+h	l (I)	prep.	to	
-139598	lmh	lm(II)/+h	lm (II)	interr. pn.	why?	
+139598	lmh	lm(II)+h	lm (II)	interr. pn.	why?	
 139599	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
 139599	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
 139600	k	k(III)	k (III)	Subordinating or completive functor	when	

@@ -340,6 +340,34 @@ class TabletParsingPipelineTest(unittest.TestCase):
                 final_schema_index,
             )
 
+    def test_pipeline_includes_attested_split_token_merge_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+            names = [step.name for step in pipeline._refinement_steps]
+
+            self.assertIn("attested-split-token-merge", names)
+            self.assertLess(
+                names.index("attestation-reference-disambiguator"),
+                names.index("attested-split-token-merge"),
+            )
+            self.assertLess(
+                names.index("attested-split-token-merge"),
+                names.index("l-negation-verb-context"),
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

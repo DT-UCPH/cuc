@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153585	b	b	b	prep.	in	
 153586	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
 153586	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
-153587	ḫyr	ḫyr/	ḫyr	MN	aller de ci de là	
+153587	ḫyr	ḫyr	ḫyr	MN	aller de ci de là	
 153588	b	b	b	prep.	in	
 153589	ym	ym(I)/	ym (I)	n. m. sg.	day	
 153589	ym	ym(II)/	ym (II)	n. m. sg.	sea	
@@ -95,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153644	b	b	b	prep.	in	
 153645	ˤšt	ˤš(t/t	ʕšt(y)	num. sg.	one	
 # KTU 1.112 14						
-153646	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
+153646	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
 153646	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 153646	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 153646	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	
@@ -202,7 +202,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153706	w	w	w	conj.	and	
 153707	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.112 27						
-153708	ˤšrh	ˤšr(I)/+h	ʕšr (I)	num.	ten	
+153708	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
 153708	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 153708	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 153708	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m.	banquet	

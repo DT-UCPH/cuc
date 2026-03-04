@@ -299,6 +299,16 @@ def is_nominal_pos(pos: str) -> bool:
     return any(k in p for k in ("n.", "adj", "dn", "pn", "tn", "gn", "mn", "num", "element"))
 
 
+def takes_nominal_slash(pos: str) -> bool:
+    raw = pos or ""
+    p = raw.lower()
+    return bool(
+        re.search(r"\bn\.", p)
+        or re.search(r"\badj\.?", p)
+        or any(tag in raw for tag in ("DN", "PN", "TN", "GN"))
+    )
+
+
 def extract_letters(text: str) -> str:
     return "".join(ch for ch in (text or "") if LETTER_RE.match(ch))
 
@@ -680,7 +690,7 @@ def analysis_for_entry(
             prefix_len = len(lex_plain) - len(surface_plain)
             if prefix_len <= 3:
                 lex = mark_reconstructed_prefix_letters(lex, prefix_len)
-    if is_nominal_pos(e.pos):
+    if takes_nominal_slash(e.pos):
         return f"{lex}{hom}/"
     return f"{lex}{hom}"
 
