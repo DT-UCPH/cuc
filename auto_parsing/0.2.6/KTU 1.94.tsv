@@ -56,16 +56,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 24						
 151520	t	/t, /t=				DULAT: NOT FOUND
 151520	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-151521	btm	bt(II)/m	bt (II)	n. m. pl. / n. m. du.	house	
-151521	btm	bt(I)/m	bt (I)	n. f. du.	daughter	
+151521	btm	bt(II)/m	bt (II)	n. m. pl.	house	
+151521	btm	bt(I)/m	bt (I)	n. f. pl. abs.	daughter	
 151522	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 151522	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
-151523	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
-151523	il	il(I)/	ỉl (I)	n. m.	god	
+151523	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
+151523	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
+151523	il	il(I)/	ỉl (I)	n. m. sg.	god	
+151523	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 # KTU 1.94 25						
-151524	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+151524	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+151524	bn	bn(I)/	bn (I)	n. m. sg.	son	
 151524	bn	bn(II)	bn (II)	prep.	between	
-151524	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+151524	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+151524	bn	bn[	/b-n/	vb G impv. 2	to understand	
 151525	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
 151525	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
 151526	kb	kb(I)/	kb (I)	adj. m.	sewn	
@@ -89,8 +93,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 29						
 151535	xẓk	?	?	?	?	DULAT: NOT FOUND
 151536	w	w	w	conj.	and	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 151537	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
-151537	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
+151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs.	woman	
+151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
 # KTU 1.94 30						
 151538	xk	?	?	?	?	DULAT: NOT FOUND
 151539	w	w	w	conj.	and	
@@ -116,9 +123,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 35						
 151553	ṯtm	ṯn(I)/	ṯn (I)	nuf.	two	
 151554	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-151554	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+151554	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 151554	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
-151554	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
+151554	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.94 36						
 151555	km	k(III)	k (III)	functor	when	
 151555	km	k(I)	k (I)	prep.	like	

@@ -4,16 +4,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151463	td	ndd[	/n-d-d/	vb G prefc.	to go	
 151463	td	ydy(I)[	/y-d-y/ (I)	vb G prefc.	to throw	
 151463	td	nd[	/n-d(-y)/	vb G prefc.	to throw	
-151464	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+151464	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+151464	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 151464	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-151464	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
+151464	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
 151464	rgm	rgm/	rgm	n. m. sg.	word	
 151465	b	b	b	prep.	in	
 151466	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 151466	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
 # KTU 1.93 2						
 151467	b	b	b	prep.	in	
-151468	py	p(III)/+y	p (III)	n. m.	mouth	
+151468	py	p(III)/+y	p (III)	n. m. cstr.	mouth	
 151469	tˤlgt	tˤlg(t/t	tʕlgt	n. f. sg.	bleat(ing)	
 151470	b	b	b	prep.	in	
 151471	lšn	lšn/	lšn	n. f. sg.	tongue	
@@ -21,22 +22,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151472	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 151473	tyb	?	?	?	?	DULAT: NOT FOUND
 151474	b	b	b	prep.	in	
-151475	npšy	npš(I)/+y	npš (I)	n. f.	throat	
-151476	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+151475	npšy	npš(I)/+y	npš (I)	n. f. cstr.	throat	
+151476	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+151476	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 151476	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-151476	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
+151476	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
 151476	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 1.93 4						
 151477	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
-151478	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
-151478	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
-151479	ištmˤ	!(ʔ&i!š]t]mˤ[	/š-m-ʕ/	vb Gt impv.	to hear	
+151478	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+151478	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+151478	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
+151479	ištmˤ	!(ʔ&i!š]t]mˤ[	/š-m-ʕ/	vb Gt impv. 1 c. sg.	to hear	
 # KTU 1.93 5						
-151480	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv.	to hear	
+151480	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	
 151480	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
-151480	šmˤ	šmˤ/	šmʕ	n. m. sg.	auditor	
+151480	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr.	auditor	
 151481	ly	l(I)+y	l (I)	prep.	to	
-151482	ypš	!y!pš[	/p-š/	vb G prefc.	?	
+151482	ypš	!y!pš[	/p-š/	vb G prefc. 3 m. sg.	?	
 151483	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.93 6						
 151484	ḥkr	ḥkr[	/ḥ-k-r/	vb G	to knock down	

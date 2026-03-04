@@ -1,19 +1,20 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.49 1						
 158415	tḥm	tḥm/	tḥm	n. m. sg.	message	
-158416	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
+158416	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 158416	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.49 2						
 158417	l	l(I)	l (I)	prep.	to	
 158417	l	l(II)	l (II)	adv.	no	
 158417	l	l(III)	l (III)	functor	certainly	
-158418	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
+158418	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 158418	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 158419	x	?	?	?	?	
 # KTU 2.49 3						
-158420	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158420	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+158420	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158420	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158420	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
+158420	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
 158420	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.49 4						
 158421	hn	hn	hn	functor	behold!	
@@ -34,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158431	w	w	w	conj.	and	
 158432		?	?	?	?	
 # KTU 2.49 10						
-158433	šmˤt	šmˤ[t	/š-m-ʕ/	vb G suffc.	to hear	
+158433	šmˤt	šmˤ[t	/š-m-ʕ/	vb G suffc. 1 c. sg.	to hear	
 158434	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
 # KTU 2.49 11						
 158435	x	?	?	?	?	
@@ -47,11 +48,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.49 13						
 158441	w	w	w	conj.	and	
 158442	ap	ap(I)	ảp (I)	adv./conj.	also	
-158442	ap	ap(II)/	ảp (II)	n. m.	nose	
+158442	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
 158443	b	b	b	prep.	in	
 158444	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 2.49 14						
-158445	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg./DN	Baʿlu/Baal	
+158445	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
 158446	y	+y, [y	-y (I)	prep. functor	my	
 158446	y	~y	-y (II)	prep. functor	indeed	
 158446	y	y	y	prep. functor	oh!	

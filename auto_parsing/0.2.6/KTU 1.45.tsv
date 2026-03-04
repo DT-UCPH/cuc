@@ -4,28 +4,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148898	išrythlnr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.45 2						
 148899	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-148899	spr	spr[	/s-p-r/	vb G suffc.	to count	
+148899	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 148899	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-148899	spr	spr[	/s-p-r/	vb D suffc.	to count	
+148899	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 148899	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 148899	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 148900	xxxk	?	?	?	?	DULAT: NOT FOUND
 148901	šbˤt	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.45 3						
 148902	ghl	gl(I)/	gl (I)	n. m. pl.	stentorian shout	
-148903	ph	p(III)/+h	p (III)	n. m.	mouth	
+148903	ph	p(III)/+h	p (III)	n. m. cstr.	mouth	
 148904	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 1.45 4						
-148905	nbluh	nblu/+h	nblủ	n. m. sg. / n. m. pl.	flame	
-148906	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
+148905	nbluh	nblu/+h	nblủ	n. m. pl. cstr.	flame	
+148905	nbluh	nblu/+h	nblủ	n. m. sg. cstr.	flame	
+148906	špš	špš/	špš	DN f. sg.	Šapšu/Shapsh/Shapshu	
 148906	špš	špš/	špš	n. f. sg.	sun	
 148907	ympx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.45 5						
-148908	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m.	to go	
-148909	tdrq	tdrq/	tdrq	n. m. sg.	nimble step	
+148908	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg.	to go	
+148909	tdrq	tdrq/	tdrq	n. m. sg. cstr.	nimble step	
 148910	xx	?	?	?	?	
 # KTU 1.45 6						
-148911	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
+148911	špš	špš/	špš	DN f. sg.	Šapšu/Shapsh/Shapshu	
 148911	špš	špš/	špš	n. f. sg.	sun	
 148912	bˤdh	bˤd+h	bʕd	adv. or prep.	behind	
 148913	txx	?	?	?	?	DULAT: NOT FOUND
@@ -43,7 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148921	bk	b	b	prep.	in	
 148921	bk	!!bk[/	/b-k-y/	vb G inf.	to weep	
 148921	bk	bk/	bk	n. m. sg.	beaker	
-148922	mla	ml(ʔ&a[	/m-l-ʔ/	vb G suffc.	to be full	
+148922	mla	ml(ʔ&a[	/m-l-ʔ/	vb G suffc. 3 m. sg.	to be full	
 148922	mla	ml(ʔ&a[:d	/m-l-ʔ/	vb D suffc.	to be full	
 148923	ḏxx	?	?	?	?	DULAT: NOT FOUND
 148924	xxx	?	?	?	?	
@@ -53,9 +54,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148927	klm	kl/	kl	n. m.	totality (of)	
 # KTU 1.45 12						
 148928	xxx	?	?	?	?	
-148929	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+148929	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+148929	bn	bn(I)/	bn (I)	n. m. sg.	son	
 148929	bn	bn(II)	bn (II)	prep.	between	
-148929	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+148929	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+148929	bn	bn[	/b-n/	vb G impv. 2	to understand	
 148930	ṯtṯb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.45 13						
 148931	xxx	?	?	?	?	
@@ -76,7 +79,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148942	xxx	?	?	?	?	
 148943	xxx	?	?	?	?	
 148944	xxṯṯt	?	?	?	?	DULAT: NOT FOUND
-148945	ḥn	ḥn/	ḥn	n. m. sg.	grace	
+148945	ḥn	ḥn/	ḥn	n. m. sg. cstr.	grace	
 # KTU 1.45 18						
 148946	xxx	?	?	?	?	
 148947	xxx	?	?	?	?	

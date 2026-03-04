@@ -5,8 +5,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147911	y	~y	-y (II)	prep. functor	indeed	
 147911	y	y	y	prep. functor	oh!	
 # KTU 1.31 2						
-147912	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
-147912	il	il(I)/	ỉl (I)	n. m.	god	
+147912	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
+147912	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
+147912	il	il(I)/	ỉl (I)	n. m. sg.	god	
+147912	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 # KTU 1.31 3						
-147913	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
-147913	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
+147913	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+147913	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+147913	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	

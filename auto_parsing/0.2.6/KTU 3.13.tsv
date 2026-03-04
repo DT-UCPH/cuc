@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.13 1						
 161376	xxx	?	?	?	?	
-161377	rušy	ruš/+y	rủš	n. m.	hurt in the head	
+161377	rušy	ruš/+y	rủš	n. m. cstr.	hurt in the head	
 161378	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 161379	ksp	ksp/	ksp	n. m. sg.	silver	
 161380	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
@@ -11,42 +11,51 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161383	kkr	kkr/	kkr	n. m. sg.	talent	
 161384	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161384	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161384	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161385	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161384	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161384	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161385	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161385	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161385	bn	bn(II)	bn (II)	prep.	between	
-161385	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161385	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161385	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161386	xx	?	?	?	?	
 # KTU 3.13 3						
 161387	w	w	w	conj.	and	
 161388	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 161388	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-161388	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
+161388	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
 161389	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 # KTU 3.13 4						
 161390	w	w	w	conj.	and	
 161391	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161391	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161391	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161391	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161391	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161392	rny	rny/	rny	PN	rny	
 161393	ksp	ksp/	ksp	n. m. sg.	silver	
 161394	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161394	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161394	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161395	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161394	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161394	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161395	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161395	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161395	bn	bn(II)	bn (II)	prep.	between	
-161395	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161395	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161395	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161396	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
 # KTU 3.13 5						
 161397	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 161398	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-161398	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+161398	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
 161398	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 161398	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 161399	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 161400	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161400	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161400	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161401	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. sg. / n. m. pl. cstr.	(suit of) armour	
+161400	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161400	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161401	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. pl. cstr.	(suit of) armour	
+161401	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. sg.	(suit of) armour	
 # KTU 3.13 6						
 161402	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
 161403	l	l(I)	l (I)	prep.	to	
@@ -55,10 +64,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161405	ksp	ksp/	ksp	n. m. sg.	silver	
 161406	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161406	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161406	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161407	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161406	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161406	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161407	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161407	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161407	bn	bn(II)	bn (II)	prep.	between	
-161407	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161407	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161407	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161408	llit	llit/	llỉt	PN	llỉt	
 # KTU 3.13 7						
 161409	w	w	w	conj.	and	
@@ -66,18 +78,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161411	ksp	ksp/	ksp	n. m. sg.	silver	
 161412	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161412	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161412	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161412	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161412	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161413	yrbˤm	yrbˤm/	yrbʕm	PN	yrbʿm	
-161414	arny	arny(II)/	ảrny (II)	GN	ảrny (II)	
+161414	arny	arny(II)/	ảrny (II)	GN sg.	ảrny (II)	
 # KTU 3.13 8						
 161415	w	w	w	conj.	and	
 161416	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161416	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161416	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161416	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161416	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161417	is	is/	ỉs	PN	ỉs	
 161418	arbˤm	arbˤ/	ảrbʕ	num.	four	
 161418	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
-161419	ṯqlm	ṯql/+m(I)	ṯql	n. m.	shekel	
+161419	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr.	shekel	
 161420	w	w	w	conj.	and	
 161421	arbˤ	arbˤ/	ảrbʕ	num.	four	
 161422	yn	yn/	yn	n. m. sg.	wine	
@@ -85,39 +99,45 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161423	w	w	w	conj.	and	
 161424	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161424	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161424	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161424	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161424	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161425	mnḥm	mnḥm/	mnḥm	PN	mnḥm	
 161425	mnḥm	mnḥ[+m(I)	/m-n-ḥ/	vb G suffc.	to deliver	
-161425	mnḥm	mnḥ/+m(I)	mnḥ	n. m.	delivery	
+161425	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr.	delivery	
 161426	arbˤ	arbˤ/	ảrbʕ	num.	four	
 161427	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 # KTU 3.13 10						
 161428	w	w	w	conj.	and	
 161429	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161429	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161429	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161430	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161429	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161429	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161430	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161430	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161430	bn	bn(II)	bn (II)	prep.	between	
-161430	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161430	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161430	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161431	agyn	?	?	?	?	DULAT: NOT FOUND
-161432	ṯqlm	ṯql/+m(I)	ṯql	n. m.	shekel	
+161432	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr.	shekel	
 # KTU 3.13 11						
 161433	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 161434	ksp	ksp/	ksp	n. m. sg.	silver	
 161435	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161435	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161435	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161436	kdrn	kdr/+n	kdr	n. m.	trough	
+161435	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161435	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161436	kdrn	kdr/+n	kdr	n. m. cstr.	trough	
 161436	kdrn	kdrn/	kdrn	PN	kdrn	
 # KTU 3.13 12						
 161437	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-161437	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+161437	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
 161437	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 161437	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 161438	ksp	ksp/	ksp	n. m. sg.	silver	
 161439	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161439	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161439	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161439	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161439	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161440	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
 161440	ġr	ġr(V)/	ġr (V)	n. m. sg.	total	
 161440	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
@@ -130,53 +150,56 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161445	mat	mit/	mỉt	n. f. pl.	a hundred	
 161446	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 161446	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-161446	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
+161446	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
 161447	tyt	ty(t/t	tyt	n. f. sg.	ranunculus	
 # KTU 3.13 15						
-161448	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161448	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161448	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161448	bn	bn(II)	bn (II)	prep.	between	
-161448	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161448	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161448	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161449	grgš	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.13 16						
 161450	w	w	w	conj.	and	
-161451	npṣ	npṣ/	npṣ	n. m. sg. / n. m. pl. cstr.	personal belongings	
+161451	npṣ	npṣ/	npṣ	n. m. pl. cstr.	personal belongings	
+161451	npṣ	npṣ/	npṣ	n. m. sg.	personal belongings	
 161452	bt	bt(II)/	bt (II)	n. m. sg.	house	
 161452	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-161452	bt	bt(III)/	bt (III)	n. m. pl.	length	
+161452	bt	bt(III)/	bt (III)	n. m. pl. cstr.	length	
 161453	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 161453	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 161453	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
 161454	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 161454	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-161454	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
+161454	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
 161455	mat	mit/	mỉt	n. f. pl.	a hundred	
 # KTU 3.13 17						
 161456	w	w	w	conj.	and	
 161457	spl	spl/	spl	n. m. sg.	platter	
 161458	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 161458	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-161458	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
+161458	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
 161459	mat	mit/	mỉt	n. f. pl.	a hundred	
 # KTU 3.13 18						
 161460	w	w	w	conj.	and	
 161461	mmskn	mmskn/	mmskn	n. m.	earthenware bowl	
-161461	mmskn	mmskn/+n	mmskn	n. m.	earthenware bowl	
+161461	mmskn	mmskn/+n	mmskn	n. m. cstr.	earthenware bowl	
 # KTU 3.13 19						
 161462	w	w	w	conj.	and	
 161463	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
-161464	mqrtm	mqrt/m	mqrt	n. f. du.	Goblet	
+161464	mqrtm	mqrt/m	mqrt	n. f. pl.	Goblet	
 # KTU 3.13 20						
 161465	w	w	w	conj.	and	
 161466	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-161467	irpm	irp/m	ỉrp	n. m. du.	Zeder(n-holz)	
+161467	irpm	irp/m	ỉrp	n. m. pl.	Zeder(n-holz)	
 161468	w	w	w	conj.	and	
 161469	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-161470	trqm	trq/m	trq	n. m. du.	(Metall-)Kessel	
+161470	trqm	trq/m	trq	n. m. pl.	(Metall-)Kessel	
 # KTU 3.13 21						
 161471	w	w	w	conj.	and	
 161472	qpt	qp(t/t	qpt	n. f. sg.	box	
 161473	w	w	w	conj.	and	
-161474	mqḥm	mqḥ/m	mqḥ	n. m. du.	tong(s)	
+161474	mqḥm	mqḥ/m	mqḥ	n. m. pl.	tong(s)	
 # KTU 3.13 22						
 161475	w	w	w	conj.	and	
 161476	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	

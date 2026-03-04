@@ -14,7 +14,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.37 5						
 157824	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 157824	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-157824	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+157824	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+157824	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 157825	xxxštt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 6						
 157826	mn	mn(IV)	mn (IV)	?	?	
@@ -27,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157831	pxnr	?	?	?	?	DULAT: NOT FOUND
 157832		?	?	?	?	
 # KTU 2.37 8						
-157833	argmnm	argm/+nm	ả/ỉrgmn	n. m.	payment of tribute to the Hittite court	
+157833	argmnm	argm/+nm	ả/ỉrgmn	n. m. cstr.	payment of tribute to the Hittite court	
 157834	d	d	d	det. or rel. functor	the one(s) of	
 157835	ar	a/	ả/ỉr	n. m. sg.	light	
 # KTU 2.37 9						
@@ -47,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157845	xxxxmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 12						
 157846	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157847	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
+157847	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 157847	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 2.37 13						
 157848	kš	kš/	kš	n. m. sg.	date	

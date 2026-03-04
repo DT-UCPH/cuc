@@ -10,9 +10,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 4						
 160453		?	?	?	?	
 # KTU 2.103 5						
-160454	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+160454	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+160454	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 160454	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-160454	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
+160454	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
 160454	rgm	rgm/	rgm	n. m. sg.	word	
 # KTU 2.103 6						
 160455	bxx	?	?	?	?	DULAT: NOT FOUND
@@ -28,8 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 10						
 160461	xxny	?	?	?	?	DULAT: NOT FOUND
 160462	xxxxlb	?	?	?	?	DULAT: NOT FOUND
-160463	nḫtk	nḫ[t+k	/n-ḫ/	vb G suffc.	to rest	
-160463	nḫtk	nḫt/+k	nḫt	n. f.	divan	
+160463	nḫtk	nḫ[t+k	/n-ḫ/	vb G suffc. 1 c. sg.	to rest	
+160463	nḫtk	nḫt/+k	nḫt	n. f. cstr.	divan	
 # KTU 2.103 11						
 160464	xxṣ	?	?	?	?	DULAT: NOT FOUND
 160465	ky	k(III)	k (III)	Subordinating or completive functor	when	
@@ -47,13 +48,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160472	rṣ	?	?	?	?	DULAT: NOT FOUND
 160473	lby	lb/y	lb	n. m. sg.	heart	
 160474	w	w	w	conj.	and	
-160475	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+160475	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl.	missive	
 160475	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl.	cheek	
 # KTU 2.103 14						
 160476	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
 160476	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
 160477	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-160478	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+160478	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl.	missive	
 160478	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl.	cheek	
 # KTU 2.103 15						
 160479	u	u	ủ	conj.	or	
@@ -67,14 +68,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160483	l	l(I)	l (I)	prep.	to	
 160484	pˤn	pˤn/	pʕn	n. f.	at the feet of	
 160485	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
-160486	qlt	ql[t	/q-l/	vb G suffc.	to fall (down)	
+160486	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.103 18						
 160487	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 160487	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 160488	tġr	nġr[	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.103 19						
-160489	tšlmk	!t!šlm[k:d	/š-l-m/	vb D suffc.	to be well	
-160490	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl.	missive	
+160489	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+160490	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl.	missive	
 160490	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl.	cheek	
 # KTU 2.103 20						
 160491	k	+k	-k (I)			
@@ -122,14 +123,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 31						
 160512	w	w	w	conj.	and	
 160513	lb	lb/	lb	n. m. sg.	heart	
-160514	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg.	sister (related by blood)	
+160514	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. cstr.	sister (related by blood)	
 160515	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
 # KTU 2.103 32						
 160516	p	p(I)	p (I)	conj. functor	and	
-160516	p	p(III)/	p (III)	n. m.	mouth	
+160516	p	p(III)/	p (III)	n. m. sg.	mouth	
 160516	p	p(II)	p (II)	adv.	here	
 160517	bnil	bnil/	bnỉl	PN	bnỉl	
-160518	šḥš	]š]ḥš(I)[	/ḥ-š/ (I)	vb Š impv.	to hurry	
+160518	šḥš	]š]ḥš(I)[	/ḥ-š/ (I)	vb Š impv. 2	to hurry	
 160519		?	?	?	?	
 # KTU 2.103 33						
 160520	ˤkd	ˤkd/	ʕkd	TN	ungestüm	

@@ -10,13 +10,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149794	imt	im(t/t	ỉmt	n. f. sg.	truth	
 149795	nqt	?	?	?	?	DULAT: NOT FOUND
 149796	p	p(I)	p (I)	conj. functor	and	
-149796	p	p(III)/	p (III)	n. m.	mouth	
+149796	p	p(III)/	p (III)	n. m. sg.	mouth	
 149796	p	p(II)	p (II)	adv.	here	
 # KTU 1.73 4						
 149797	l	l(I)	l (I)	prep.	to	
 149797	l	l(III)	l (III)	functor	certainly	
 149798	plḫtṯ	?	?	?	?	DULAT: NOT FOUND
-149799	pl	pl[	/p-l(-l)/	vb G suffc.	to be cracked	
+149799	pl	pl[	/p-l(-l)/	vb G suffc. 3 m. sg.	to be cracked	
 # KTU 1.73 5						
 149800	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
 149800	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
@@ -37,8 +37,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149810	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
 149811	qrd	qrd(I)/	qrd (I)	n. m. sg.	hero	
 # KTU 1.73 9						
-149812	tskn	!t!skn[	/s-k-n/	vb G prefc.	to place	
-149813	ydm	yd(I)/m	yd (I)	n. f. du.	hand	
+149812	tskn	!t!skn[	/s-k-n/	vb G prefc. 3 f. sg.	to place	
+149812	tskn	!t=!skn[	/s-k-n/	vb G prefc. 2 m. sg.	to place	
+149812	tskn	!t==!skn[	/s-k-n/	vb G prefc. 2 f. sg.	to place	
+149812	tskn	!t!skn[	/s-k-n/	vb G prefc. 3 m. du.	to place	
+149812	tskn	!t!skn[:w	/s-k-n/	vb G prefc. 3 m. pl.	to place	
+149812	tskn	!t===!skn[	/s-k-n/	vb G prefc. 2 m. pl.	to place	
+149813	ydm	yd(I)/m	yd (I)	n. f. pl.	hand	
 149814	l	l(I)	l (I)	prep.	to	
 149814	l	l(III)	l (III)	functor	certainly	
 # KTU 1.73 10						

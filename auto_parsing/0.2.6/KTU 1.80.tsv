@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.80 1						
 149938	db	db/	db	n. m. sg.	threshold	
-149939	gt	g(t/t	gt	n. f. sg./TNN	gittu	
+149939	gt	g(t/t	gt	n. f. sg.	gittu	
 149940	ilštmˤ	ilštmˤ/	ỉlštmʕ	TN	1957.4	
 # KTU 1.80 2						
 149941	bt	bt(II)/	bt (II)	n. m. sg.	house	
@@ -12,7 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149945	ṣtqn	ṣdqn/	ṣdqn	PN	ṣdqn	
 # KTU 1.80 3						
 149946	ṯut	ṯat/	ṯảt	n. f. pl.	ewe	
-149947	ṭbḫ	ṭbḫ[	/ṭ-b-ḫ/	vb G suffc. / vb G impv.	to sacrifice	
+149947	ṭbḫ	ṭbḫ[	/ṭ-b-ḫ/	vb G suffc. 3 m. sg.	to sacrifice	
+149947	ṭbḫ	ṭbḫ[	/ṭ-b-ḫ/	vb G impv. 2	to sacrifice	
 149948	ṣtqn	ṣdqn/	ṣdqn	PN	ṣdqn	
 # KTU 1.80 4						
 149949	b	b	b	prep.	in	
@@ -23,6 +24,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.80 5						
 149954	b	b	b	prep.	in	
 149955	kl	kl/	kl	n. m. sg.	totality (of)	
-149956	ygz	!y!gz(z[	/g-z-z/	vb G prefc.	to shear	
+149956	ygz	!y!gz(z[	/g-z-z/	vb G prefc. 3 m. sg.	to shear	
 149957	ḥḫ	?	?	?	?	DULAT: NOT FOUND
 149958	šh	š/	š	n. m. sg.	ram	

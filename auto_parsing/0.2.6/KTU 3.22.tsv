@@ -1,21 +1,23 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.22 1						
-161728	mitm	mit/m	mỉt	n. f. du.	a hundred	
+161728	mitm	mit/m	mỉt	n. f. pl.	a hundred	
 161729	kkr	kkr/	kkr	n. m. sg.	talent	
 # KTU 3.22 2						
-161730	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
+161730	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
+161730	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
 161730	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-161731	mitm	mit/m	mỉt	n. f. du.	a hundred	
+161731	mitm	mit/m	mỉt	n. f. pl.	a hundred	
 161732	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
 # KTU 3.22 3						
 161733	d	d	d	det. or rel. functor	the one(s) of	
-161734	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
-161735	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
+161734	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
+161734	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+161735	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 161735	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 3.22 4						
 161736	bd	b	b	prep.	in	
-161737	snrn	snr(I)/+n	snr (I)	TN	snr (I)	
-161737	snrn	snr(II)/+n	snr (II)	PN	snr (II)	
+161737	snrn	snr(I)/+n	snr (I)	TN cstr.	snr (I)	
+161737	snrn	snr(II)/+n	snr (II)	PN cstr.	snr (II)	
 # KTU 3.22 5						
 161738	ylqḥšxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.22 6						

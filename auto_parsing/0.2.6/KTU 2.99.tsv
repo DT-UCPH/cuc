@@ -12,11 +12,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160280	gm	gm(II)	gm (II)	adv.	also	
 # KTU 2.99 4						
 160281	hlny	hlny	hlny	deictic adv. functor	behold	
-160282	klby	klb(I)/+y	klb (I)	n. m.	dog	
+160282	klby	klb(I)/+y	klb (I)	n. m. cstr.	dog	
 160282	klby	klby/	klby	PN	klby	
 # KTU 2.99 5						
 160283	w	w	w	conj.	and	
-160284	gtn	gt/+n	gt	n. f./TNN	gittu	
+160284	gtn	gt/+n	gt	n. f. cstr.	gittu	
 160284	gtn	gtn/	gtn	PN	gtn	
 160285	yit	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 6						
@@ -26,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160287	xxxxtddhm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 8						
 160288	xx	?	?	?	?	
-160289	mitm	mit/m	mỉt	n. f. du.	a hundred	
+160289	mitm	mit/m	mỉt	n. f. pl.	a hundred	
 160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
 # KTU 2.99 9						
 160291	xxxxxt	?	?	?	?	DULAT: NOT FOUND
@@ -34,16 +34,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160292	xxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 11						
 160293	x	?	?	?	?	
-160294	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
+160294	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
+160294	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
 160294	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 160295	pḥm	pḥm/	pḥm	n. m. sg.	ember	
 # KTU 2.99 12						
-160296	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
+160296	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
+160296	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
 160296	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 160297	iqni	iqn(u/&i	ỉqnủ	n. m. sg.	gem of lapis lazuli	
 160298	w	w	w	conj.	and	
 160299	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-160300	ybl	!y!(ybl[	/y-b-l/	vb G prefc. / vb G suffc.	to carry	
+160300	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
+160300	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
 # KTU 2.99 13						
 160301	d	d	d	det. or rel. functor	the one(s) of	
 160302	štnt	ytn[t	/y-t-n/	vb	to give	
@@ -55,9 +58,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160305		?	?	?	?	
 # KTU 2.99 17						
 160306	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-160306	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+160306	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 160306	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
-160306	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
+160306	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 2.99 18						
 160307	tqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 # KTU 2.99 19						
@@ -72,12 +75,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160311	xxspln	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 22						
 160312	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
-160313	nr	nr/	nr	n. m. sg.	sheen	
-160313	nr	nr[	/n-r/	vb G suffc.	to shine	
+160313	nr	nr/	nr	n. m. sg. cstr.	sheen	
+160313	nr	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.99 23						
 160314	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
 160314	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
-160315	gpt	gp(I)/t=	gp (I)	n. m. pl.	shore	
+160315	gpt	gp(I)/t=	gp (I)	n. f. pl.	shore	
 # KTU 2.99 24						
 160316	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
 160316	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
@@ -104,17 +107,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160330	xxxrxqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 30						
 160331	x	?	?	?	?	
-160332	igrn	!(ʔ&i!](n]gr[n	/g-r/	vb N prefc.	to lodge	
+160332	igrn	!(ʔ&i!](n]gr[n	/g-r/	vb N prefc. 1 c. sg.	to lodge	
 # KTU 2.99 31						
-160333	qthm	qt/+hm	qt	n. m.	handle	
-160333	qthm	ṯigt/+hm	ṯỉgt	n. f.	neighing	
+160333	qthm	qt/+hm	qt	n. m. cstr.	handle	
+160333	qthm	ṯigt/+hm	ṯỉgt	n. f. cstr.	neighing	
 # KTU 2.99 32						
 160334	xh	?	?	?	?	DULAT: NOT FOUND
 160335	tbxnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 33						
 160336	x	?	?	?	?	
 160337	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
-160337	ḥmr	ḥmr(II)/	ḥmr (II)	adj. sg.	red	
+160337	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg.	red	
 # KTU 2.99 34						
 160338	xxrt	?	?	?	?	DULAT: NOT FOUND
 160339	ipd	ipd/	ỉpd	n. m. sg.	tunic	

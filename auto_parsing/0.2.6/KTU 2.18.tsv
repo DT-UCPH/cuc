@@ -3,12 +3,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156857	x	?	?	?	?	
 156858	bt	bt(II)/	bt (II)	n. m. sg.	house	
 156858	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-156858	bt	bt(III)/	bt (III)	n. m. pl.	length	
+156858	bt	bt(III)/	bt (III)	n. m. pl. cstr.	length	
 # KTU 2.18 2						
 156859	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-156859	n	[n, [n=	-n (II)	suffixed pn. morph. used with vb	me/to me	DULAT: NOT FOUND
+156859	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 156859	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
-156859	n		-n (IV)	contracted suff. pn. morph. used with a vb	him/her/it	DULAT: NOT FOUND
+156859	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 156860	šḥr	šḥr/	šḥr	n. m. sg.	dawn	
 156861		?	?	?	?	
 # KTU 2.18 3						
@@ -27,4 +27,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156869	w	w	w	conj.	and	
 156870	yššil	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.18 6						
-156871	ġlp	ġlp/	ġlp	n. m. pl.	husk	
+156871	ġlp	ġlp/	ġlp	n. m. pl. cstr.	husk	

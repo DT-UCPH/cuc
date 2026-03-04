@@ -5,21 +5,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161523		?	?	?	?	
 161524	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161524	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161524	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161524	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161524	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161525	ṯnyx	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.16 3						
-161526	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
-161526	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
-161527	ḫyr	ḫyr/	ḫyr	MN	aller de ci de là	
-161528	bth	bt(II)/+h	bt (II)	n. m.	house	
+161526	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
+161526	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
+161527	ḫyr	ḫyr/	ḫyr	MN sg.	aller de ci de là	
+161528	bth	bt(II)/+h	bt (II)	n. m. cstr.	house	
 161529	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.16 4						
 161530	hmšm	?	?	?	?	DULAT: NOT FOUND
 161531	ksp	ksp/	ksp	n. m. sg.	silver	
 161532	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161532	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161532	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161533	gd	g/+d	g	n. m.	(loud) voice, ?	
+161532	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161532	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161533	gd	g/+d	g	n. m. cstr.	(loud) voice, ?	
 161533	gd	gd(I)/	gd (I)	n. m.	coriander	
 161533	gd	gd(II)/	gd (II)	n. m.	sinew	
 # KTU 3.16 5						
@@ -34,16 +36,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161539	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 161540	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
 # KTU 3.16 7						
-161541	arwd	arw/+d	ảrw	n. m.	lion, ?	
-161542	šm	š/m	š	n. m. du.	ram	
+161541	arwd	arw/+d	ảrw	n. m. cstr.	lion, ?	
+161542	šm	š/m	š	n. m. pl.	ram	
 161542	šm	šm(I)/	šm (I)	n. m. sg.	name	
-161543	bnš	bnš/	bnš	n. m. sg. / n. m. pl.	man	
+161543	bnš	bnš/	bnš	n. m. pl.	man	
+161543	bnš	bnš/	bnš	n. m. sg.	man	
 # KTU 3.16 8						
 161544	m	?	?	?	?	DULAT: NOT FOUND
 161545	ksp	ksp/	ksp	n. m. sg.	silver	
 161546	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161546	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161546	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161546	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161546	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161547	kš	kš/	kš	n. m. sg.	date	
 # KTU 3.16 9						
 161548	k	+k	-k (I)			
@@ -55,7 +59,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161549	ksp	ksp/	ksp	n. m. sg.	silver	
 161550	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161550	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161551	bnn	bnn(I)/	bnn (I)	n. m. sg.	carp	
 # KTU 3.16 11						
 161552	x	?	?	?	?	
@@ -66,22 +71,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161555	x	?	?	?	?	
 161556	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161556	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161556	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161556	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161556	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161557	ynḥm	ynḥm/	ynḥm	PN	ynḥm	
 # KTU 3.16 14						
 161558	x	?	?	?	?	
 161559	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161559	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161559	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161560	ab	ab/	ảb	n. m. sg.	father	
+161559	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161559	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161560	ab	ab/	ảb	n. m. sg. abs.	father	
+161560	ab	ab/	ảb	n. m. sg. cstr.	father	
 161561	b	b	b	prep.	in	
 # KTU 3.16 15						
 161562	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161562	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161563	ˤb	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.16 16						
 161564	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 161565	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161565	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161565	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161565	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161565	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	

@@ -22,7 +22,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149229	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg.	bird	
 149230	l	l(I)	l (I)	prep.	to	
 149230	l	l(III)	l (III)	functor	certainly	
-149231	pdr	pdr(I)/	pdr (I)	n. m. sg. / n. m. pl. cstr.	town	
+149231	pdr	pdr(I)/	pdr (I)	n. m. pl. cstr.	town	
+149231	pdr	pdr(I)/	pdr (I)	n. m. sg.	town	
 149232	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 149233	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg.	ewe	
 # KTU 1.50 6						
@@ -34,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149238	l	l(I)	l (I)	prep.	to	
 149238	l	l(III)	l (III)	functor	certainly	
 149239	ll	ll(I)/	ll (I)	n. m. sg.	night	
-149240	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
+149240	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
 149241	w	w	w	conj.	and	
 149242		?	?	?	?	
 # KTU 1.50 8						
@@ -45,8 +46,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.50 9						
 149247	w	w	w	conj.	and	
 149248	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
+149249	šˤrt	šˤr(t(I)/t	šʕrt (I)	n. f. pl.	wool	
 149249	šˤrt	šˤr(t(I)/t	šʕrt (I)	n. f. sg.	wool	
-149249	šˤrt	šˤr(t(I)/t=	šʕrt (I)	n. f. sg.	wool	
+149249	šˤrt	šˤr(t(I)/t=	šʕrt (I)	n. f. pl.	wool	
 149250	y	+y, [y	-y (I)	prep. functor	my	
 149250	y	~y	-y (II)	prep. functor	indeed	
 149250	y	y	y	prep. functor	oh!	
@@ -61,5 +63,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.50 11						
 149256	w	w	w	conj.	and	
 149257	ksp	ksp/	ksp	n. m. sg.	silver	
-149258	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc.	to leave > to put in	
+149258	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in	
 149259	x	?	?	?	?	

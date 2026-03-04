@@ -5,19 +5,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149845	k	k(III)	k (III)	Subordinating or completive functor	when	
 149845	k	k(I)	k (I)	prep.	like	
 149845	k	k(II)	k (II)	emph. functor	yes	
-149846	ydm	yd(I)/m	yd (I)	n. f. du.	hand	
+149846	ydm	yd(I)/m	yd (I)	n. f. pl.	hand	
 149847	ym	ym(I)/	ym (I)	n. m. sg.	day	
 149847	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 # KTU 1.75 2						
-149848	ydm	yd(I)/m	yd (I)	n. f. du.	hand	
-149849	nhr	nhr/	nhr	DN m.	Naharu/“River”/alternative DN of the god ym	
+149848	ydm	yd(I)/m	yd (I)	n. f. pl.	hand	
+149849	nhr	nhr/	nhr	DN m. sg.	Naharu/“River”/alternative DN of the god ym	
 149849	nhr	nhr/	nhr	n. m. sg.	river	
 # KTU 1.75 3						
 149850	trġt	trġt	trġt	?		
 # KTU 1.75 4						
 149851	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 149851	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
-149852	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc.	to collect	
+149852	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
 # KTU 1.75 5						
 149853	ilnx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.75 6						
@@ -29,13 +29,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.75 9						
 149857	mnty	mn(t(I)/t	mnt (I)	n. f. sg.	portion	
 # KTU 1.75 10						
-149858	rb	rb(II)/	rb (II)	n. m. sg.	chief	
+149858	rb	rb(II)/	rb (II)	n. m. sg. abs.	chief	
+149858	rb	rb(II)/	rb (II)	n. m. sg. cstr.	chief	
 149858	rb	rb(I)/	rb (I)	adj. m. sg.	great	
 149858	rb	rb/	rb(b)	n. m. sg.	drizzle	
 149859	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
-149859	spr	spr[	/s-p-r/	vb G suffc.	to count	
+149859	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 149859	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-149859	spr	spr[	/s-p-r/	vb D suffc.	to count	
+149859	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 149859	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 149859	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
 149860	ḫbb	ḫbb/	ḫbb	PN	ḫbb	
@@ -43,7 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149861	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 149861	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 149861	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
-149862	dbḥm	dbḥ/m	dbḥ	n. m. pl. / n. m. du.	sacrifice	
+149862	dbḥm	dbḥ/m	dbḥ	n. m. pl.	sacrifice	
 # KTU 1.75 12						
 149863	x	?	?	?	?	
 149864	ˤbdssm	ˤbdssm/	ʕbdssm	PN	ʿbdssm	

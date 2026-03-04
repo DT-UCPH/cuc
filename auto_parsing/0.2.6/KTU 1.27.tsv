@@ -3,18 +3,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147871	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 1.27 2						
 147872	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl.	eye	
-147872	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN	ʿAnatu/Anat	
+147872	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg.	ʿAnatu/Anat	
 147872	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.27 3						
 147873	kmm	kmm	kmm	adv.	ditto	
 147874	lbt	lbt/	lbt	n. f. pl.	hoop / plate	
 # KTU 1.27 4						
-147875	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
-147875	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
+147875	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+147875	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+147875	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 147876	ugrt	ugrt/	ủgrt	TN	Ugarit	
 # KTU 1.27 5						
 147877	w	w	w	conj.	and	
-147878	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f.	bird	
+147878	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
 # KTU 1.27 6						
 147879	ṣlyh	?	?	?	?	DULAT: NOT FOUND
 147880	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
@@ -24,15 +25,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147883	b	b	b	prep.	in	
 # KTU 1.27 8						
 147884	l	l(I)	l (I)	prep.	to	
-147885	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
-147885	il	il(I)/	ỉl (I)	n. m.	god	
+147885	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
+147885	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
+147885	il	il(I)/	ỉl (I)	n. m. sg.	god	
+147885	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 147886	limm	lim(I)/	lỉm (I)	n. m. pl.	people	
 147886	limm	lim(II)/	lỉm (II)	DN	the Potent	
 # KTU 1.27 9						
 147887	w	w	w	conj.	and	
 147888	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
 147889	npš	npš(I)/	npš (I)	n. f. sg.	throat	
-147890	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
+147890	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
+147890	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
 147890	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.27 10						
 147891	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
@@ -52,4 +56,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.27 15						
 147900	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 147900	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-147900	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
+147900	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	

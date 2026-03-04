@@ -7,13 +7,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154067	kl	kl/	kl	n. m. sg.	totality (of)	
 # KTU 1.117 3						
 154068	nynil	?	?	?	?	DULAT: NOT FOUND
-154069	abh	ab/+h	ảb	n. m.	father	
+154069	abh	ab/+h	ảb	n. m. cstr.	father	
 154070	ilmšr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.117 4						
 154071	lkw	?	?	?	?	DULAT: NOT FOUND
-154072	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+154072	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+154072	bn	bn(I)/	bn (I)	n. m. sg.	son	
 154072	bn	bn(II)	bn (II)	prep.	between	
-154072	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+154072	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+154072	bn	bn[	/b-n/	vb G impv. 2	to understand	
 154073	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 154073	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 154074	ilt	il(t(I)/t	ỉlt (I)	n. f. sg.	goddess	
@@ -32,13 +34,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154079	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
 154079	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 # KTU 1.117 6						
-154080	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
-154080	il	il(I)/	ỉl (I)	n. m.	god	
+154080	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
+154080	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
+154080	il	il(I)/	ỉl (I)	n. m. sg.	god	
+154080	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 154081	mẓll	mẓll/	mẓll	n. m. sg.	shelter	
-154082	bnh	bn(I)/+h	bn (I)	n. m.	son	
+154082	bnh	bn(I)/+h	bn (I)	n. m. cstr.	son	
 # KTU 1.117 7						
 154083	pdry	pdry/	pdry	DN	Pidray	
-154083	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
+154083	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 154084	bt	bt(II)/	bt (II)	n. m. sg.	house	
 154084	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154085	ar	a/	ả/ỉr	n. m. sg.	light	
@@ -48,11 +52,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154087	mtm	mt(II)/~m	mt (II)	n. m. sg.	death	
 154087	mtm	!!mt[/~m	/m-t/	vb G inf.	to die	
 154087	mtm	mt(I)/m	mt (I)	n. m. pl.	dead person	
-154088	šknt	škn[t	/š-k-n/	vb G suffc.	to be placed	
+154088	šknt	škn[t	/š-k-n/	vb G suffc. 1 c. sg.	to be placed	
 # KTU 1.117 9						
 154089	x	?	?	?	?	
 154090	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
-154091	ṭlm	ṭl/+m(I)	ṭl	n. m.	dew	
+154091	ṭlm	ṭl/+m(I)	ṭl	n. m. cstr.	dew	
 154091	ṭlm	ṭlm	ṭlm	?	dew	
 # KTU 1.117 10						
 154092	ryt	?	?	?	?	DULAT: NOT FOUND
@@ -67,12 +71,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154096	m	?	?	?	?	DULAT: NOT FOUND
 154097	wtˤn	?	?	?	?	DULAT: NOT FOUND
 154098	pdry	pdry/	pdry	DN	Pidray	
-154098	pdry	pdr(I)/+y	pdr (I)	n. m.	town	
+154098	pdry	pdr(I)/+y	pdr (I)	n. m. cstr.	town	
 # KTU 1.117 12						
 154099	bt	bt(II)/	bt (II)	n. m. sg.	house	
 154099	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 154100	arx	?	?	?	?	DULAT: NOT FOUND
-154101	ṯbtk	ṯb(t/t	ṯbt	n. f. sg.	seat	
+154101	ṯbtk	ṯb(t/t	ṯbt	n. f. sg. cstr.	seat	
 # KTU 1.117 13						
 154102	l	l(I)	l (I)	prep.	to	
 154102	l	l(III)	l (III)	functor	certainly	

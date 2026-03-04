@@ -4,15 +4,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149888	ym	ym(I)/	ym (I)	n. m. sg.	day	
 149888	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 149889	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
-149889	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. sg.	new	
+149889	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg.	new	
 # KTU 1.78 2						
-149890	ḫyr	ḫyr/	ḫyr	MN	aller de ci de là	
-149891	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc.	to enter	
+149890	ḫyr	ḫyr/	ḫyr	MN sg.	aller de ci de là	
+149891	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
 # KTU 1.78 3						
-149892	špš	špš/	špš	DN f.	Šapšu/Shapsh/Shapshu	
+149892	špš	špš/	špš	DN f. sg.	Šapšu/Shapsh/Shapshu	
 149892	špš	špš/	špš	n. f. sg.	sun	
 149893	ṯġrh	ṯġr(II)/h	ṯġr (II)	n. m. sg.	gatekeeper	
-149893	ṯġrh	ṯġr(I)/h	ṯġr (I)	n. m. pl.	gate	
+149893	ṯġrh	ṯġr(I)/h	ṯġr (I)	n. m. pl. cstr.	gate	
 # KTU 1.78 4						
 149894	ršp	ršp/	ršp	DN	Rašap	
 # KTU 1.78 5						
@@ -21,3 +21,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149896	tbqrn	!t!bqr[n:d	/b-q-r/	vb D prefc.	to examine	
 # KTU 1.78 6						
 149897	skn	skn(I)/	s:śkn (I)	n. m. sg.	prefect	
+149897	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr.	prefect	

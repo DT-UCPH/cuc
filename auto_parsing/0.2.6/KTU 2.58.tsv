@@ -2,11 +2,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.58 1						
 158592	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.58 2						
-158593	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
+158593	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+158593	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158593	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158593	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
+158593	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
 158593	rgm	rgm/	rgm	n. m. sg.	word	
-158594	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv.	to return	
+158594	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 158594	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.58 3						
 158595	x	?	?	?	?	
@@ -15,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158597	y	+y, [y	-y (I)	prep. functor	my	
 158597	y	~y	-y (II)	prep. functor	indeed	
 158597	y	y	y	prep. functor	oh!	
-158598	gt	g(t/t	gt	n. f. sg./TNN	gittu	
+158598	gt	g(t/t	gt	n. f. sg.	gittu	
 # KTU 2.58 5						
 158599	xġ	?	?	?	?	DULAT: NOT FOUND
 158600	txxg	?	?	?	?	DULAT: NOT FOUND
@@ -24,7 +25,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158602		?	?	?	?	
 # KTU 2.58 7						
 158603	p	p(I)	p (I)	conj. functor	and	
-158603	p	p(III)/	p (III)	n. m.	mouth	
+158603	p	p(III)/	p (III)	n. m. sg.	mouth	
 158603	p	p(II)	p (II)	adv.	here	
 158604	x	?	?	?	?	
 # KTU 2.58 8						

@@ -8,29 +8,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152630	pd	pd(I)/	pd (I)	n. m. sg.	lock (of hair)	
 # KTU 1.104 3						
 152631	d	d	d	det. or rel. functor	the one(s) of	
-152632	ykl	!y!kl(y[	/k-l-y/	vb G prefc.	to finish	
-152632	ykl	!y!kl(y[:d	/k-l-y/	vb D prefc.	to finish	
+152632	ykl	!y!kl(y[	/k-l-y/	vb G prefc. 3 m. sg.	to finish	
+152632	ykl	!y!kl(y[:d	/k-l-y/	vb D prefc. 3 m. sg.	to finish	
 152633	x	?	?	?	?	
 # KTU 1.104 4						
 152634	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 152635	x	?	?	?	?	
 # KTU 1.104 5						
 152636	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-152636	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+152636	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
 152636	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 152636	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 152637		?	?	?	?	
 # KTU 1.104 6						
 152638	w	w	w	conj.	and	
 152639	ap	ap(I)	ảp (I)	adv./conj.	also	
-152639	ap	ap(II)/	ảp (II)	n. m.	nose	
+152639	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
 152640	yxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.104 7						
 152641	b	b	b	prep.	in	
 152642	ym	ym(I)/	ym (I)	n. m. sg.	day	
 152642	ym	ym(II)/	ym (II)	n. m. sg.	sea	
 152643	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-152643	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+152643	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
 152643	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 152643	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 # KTU 1.104 8						
@@ -52,7 +52,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152652	w	w	w	conj.	and	
 152653	btšˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.104 12						
-152654	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
+152654	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
+152654	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 152655	šqdš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.104 13						
 152656	bt	bt(II)/	bt (II)	n. m. sg.	house	
@@ -65,31 +66,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152661	bt	bt(II)/	bt (II)	n. m. sg.	house	
 152661	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
 152662	šr	šr(II)/	šr (II)	n. m. sg.	musician	
-152662	šr	šr(I)[	/š-r/ (I)	vb G impv.	to sing	
+152662	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
 152662	šr	šr(III)/	šr (III)	n. m. sg.	Prince	
 # KTU 1.104 15						
 152663	w	w	w	conj.	and	
 152664	bym	b+m(I)	b	prep.	in	
 152665	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-152665	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc.	to invite	
+152665	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
 152665	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 152665	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg.	banquet	
 # KTU 1.104 16						
-152666	tpnn	!t!pnn[	/p-n-n/	vb G prefc.	to distort	
-152667	npṣm	npṣ/m	npṣ	n. m. pl.	personal belongings	
+152666	tpnn	!t!pnn[:w	/p-n-n/	vb G prefc. 3 m. pl.	to distort	
+152667	npṣm	npṣ/m	npṣ	n. m. pl. abs.	personal belongings	
 152668	ḫmnh	ḫmn(I)/h	ḫmn (I)	n. m. sg.	chapel	
 # KTU 1.104 17						
 152669	w	w	w	conj.	and	
 152670	tṯ	?	?	?	?	DULAT: NOT FOUND
-152671	ḥdṯn	ḥdṯ(II)/+n	ḥdṯ (II)	n. m.	new moon	
-152671	ḥdṯn	ḥdṯ(I)/+n	ḥdṯ (I)	adj.	new	
+152671	ḥdṯn	ḥdṯ(II)/+n	ḥdṯ (II)	n. m. cstr.	new moon	
+152671	ḥdṯn	ḥdṯ(I)/+n	ḥdṯ (I)	adj. cstr.	new	
 152671	ḥdṯn	ḥdṯn/	ḥdṯn	PN	born at the time of the new moon	
 # KTU 1.104 18						
 152672	ṯnm	ṯn(I)	ṯn (I)	num.	two	
-152672	ṯnm	ṯny[~m	/ṯ-n-y/	vb G impv.	to repeat	
+152672	ṯnm	ṯny[~m	/ṯ-n-y/	vb G impv. 2	to repeat	
 152673	w	w	w	conj.	and	
-152674	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m.	new moon	
-152674	ḥdṯh	ḥdṯ(I)/+h	ḥdṯ (I)	adj.	new	
+152674	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m. cstr.	new moon	
+152674	ḥdṯh	ḥdṯ(I)/+h	ḥdṯ (I)	adj. cstr.	new	
 # KTU 1.104 19						
 152675	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
 152676	hmt	hmt	hmt	pers. pn.		
@@ -108,8 +109,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 22						
 152684	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 152685	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
-152686	gmlm	gml(II)/+m(I)	gml (II)	n. m.	together	
-152686	gmlm	gml(I)/+m(I)	gml (I)	n. m.	first quarter (of the moon)	
+152686	gmlm	gml(II)/+m(I)	gml (II)	n. m. cstr.	together	
+152686	gmlm	gml(I)/+m(I)	gml (I)	n. m. cstr.	first quarter (of the moon)	
 # KTU 1.104 23						
 152687	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 152688	urx	?	?	?	?	DULAT: NOT FOUND
@@ -127,6 +128,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 29						
 152695	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 152695	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-152695	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg./num.	third	
+152695	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
 152696	l	l(I)	l (I)	prep.	to	
 152696	l	l(III)	l (III)	functor	certainly	

@@ -2,12 +2,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.140 1						
 154904	k	k(III)	k (III)	Subordinating or completive functor	when	
 154905	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+154906	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
+154906	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154906	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
-154906	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
+154906	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs.	woman	
+154906	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
 # KTU 1.140 2						
 154907	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
-154907	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc.	to live	
-154907	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc.	to live	
+154907	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to live	
+154907	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to live	
 # KTU 1.140 3						
 154908	k	+k	-k (I)			
 154908	k	~k	-k (II)			
@@ -16,42 +19,60 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154908	k	k(II)	k (II)	emph. functor	yes	
 154909	tldaṯt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.140 4						
-154910	yˤzz	!y!ˤz[z	/ʕ-z(-z)/	vb G prefc.	to be strong	
+154910	yˤzz	!y!ˤz[z	/ʕ-z(-z)/	vb G prefc. 3 m. sg.	to be strong	
 154911	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 154911	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-154911	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+154911	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+154911	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 # KTU 1.140 5						
 154912	k	k(III)	k (III)	Subordinating or completive functor	when	
 154913	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+154914	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
+154914	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154914	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
-154914	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
+154914	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs.	woman	
+154914	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
 # KTU 1.140 6						
 154915	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
-154916	ib	ib(I)/	ỉb (I)	n. m. sg. / n. m. pl.	enemy	
-154916	ib	ib(II)/	ỉb (II)	n. m. sg./DN	fruit	
-154917	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc.	to perish	
-154917	tḫlq	!t!ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
+154916	ib	ib(I)/	ỉb (I)	n. m. pl. abs.	enemy	
+154916	ib	ib(I)/	ỉb (I)	n. m. sg.	enemy	
+154916	ib	ib(I)/	ỉb (I)	n. m. sg. cstr.	enemy	
+154916	ib	ib(II)/	ỉb (II)	n. m. sg.	fruit	
+154916	ib	ib(II)/	ỉb (II)	n. m. sg. cstr.	fruit	
+154917	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
+154917	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish	
+154917	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish	
+154917	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 m. du.	to perish	
+154917	tḫlq	!t!ḫlq[:w	/ḫ-l-q/	vb G prefc. 3 m. pl.	to perish	
+154917	tḫlq	!t===!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. pl.	to perish	
+154917	tḫlq	tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 # KTU 1.140 7						
 154918	k	k(III)	k (III)	Subordinating or completive functor	when	
 154919	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+154920	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
+154920	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154920	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
-154920	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
+154920	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs.	woman	
+154920	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
 # KTU 1.140 8						
 154921	ˤḏrt	ˤḏr(t/t	ʕḏrt	n. f. sg.	help	
 154922	tkn	!t!kn[	/k-n/	vb G prefc.	to be (stable)	
 # KTU 1.140 9						
 154923	k	k(III)	k (III)	Subordinating or completive functor	when	
 154924	tld	yld[	/y-l-d/	vb G prefc.	to give birth (to)	
+154925	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
+154925	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154925	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
-154925	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
+154925	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs.	woman	
+154925	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
 # KTU 1.140 10						
 154926	mrḥymlkmlkn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.140 11						
 154927	l	l(I)	l (I)	prep.	to	
 154927	l	l(II)	l (II)	adv.	no	
 154927	l	l(III)	l (III)	functor	certainly	
-154928	ypq	!y!pq[	/p-q/	vb G prefc.	to obtain	
-154928	ypq	!y!(ypq[	/y-p-q/	vb G suffc.	to get	
+154928	ypq	!y!pq[	/p-q/	vb G prefc. 3 m. sg.	to obtain	
+154928	ypq	ypq[	/y-p-q/	vb G suffc. 3 m. sg.	to get	
 154929	špḥ	špḥ/	špḥ	n. m.	family	
 # KTU 1.140 12						
 154930	bh	b+h	b	prep.	in	
@@ -61,6 +82,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.140 13						
 154932	tḥ	!t!ḥ(w(I)[	/ḥ-w/y-y/ (I)	vb G prefc.	to live	
 # KTU 1.140 14						
-154933	ktld	ktl/+d	ktl	PN	ktl, ?	
+154933	ktld	ktl/+d	ktl	PN cstr.	ktl, ?	
+154934	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
+154934	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
 154934	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
-154934	aṯt	aṯ(t/t=	ảṯt	n. f. sg.	woman	
+154934	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs.	woman	
+154934	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	

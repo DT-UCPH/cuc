@@ -1,8 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.74 1						
-149834	ilib	ilib(I)/	ỉlỉb (I)	DN	father god	
-149835	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
-149835	il	il(I)/	ỉl (I)	n. m.	god	
+149834	ilib	ilib(I)/	ỉlỉb (I)	DN sg.	father god	
+149835	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
+149835	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
+149835	il	il(I)/	ỉl (I)	n. m. sg.	god	
+149835	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 # KTU 1.74 2						
 149836	xb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.74 3						

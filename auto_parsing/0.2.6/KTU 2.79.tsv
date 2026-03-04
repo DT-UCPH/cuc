@@ -33,9 +33,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159307	xxxxx	?	?	?	?	
 159308		?	?	?	?	
 # KTU 2.79 10						
-159309	sp	sp/	sp	n. m. sg. / n. m. pl. cstr.	bowl	
+159309	sp	sp/	sp	n. m. pl. cstr.	bowl	
+159309	sp	sp/	sp	n. m. sg.	bowl	
 159310	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl.	handsome	
-159311	mlbš	mlbš/	mlbš	n. m. sg.	cloak	
+159311	mlbš	mlbš/	mlbš	n. m. sg. abs.	cloak	
+159311	mlbš	mlbš/	mlbš	n. m. sg. cstr.	cloak	
 159312	š	š/	š	n. m. sg.	ram	
 159313	ktn	ktn(I)/	ktn (I)	n. f. sg.	shirt-like tunic	
 159314	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl.	handsome	

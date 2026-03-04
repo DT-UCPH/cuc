@@ -6,8 +6,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154439		?	?	?	?	
 # KTU 1.126 3						
 154440	xxxršp	?	?	?	?	DULAT: NOT FOUND
+154441	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 154441	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
-154441	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
+154441	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 # KTU 1.126 4						
 154442	xxxby	?	?	?	?	DULAT: NOT FOUND
 154443	b	b	b	prep.	in	
@@ -15,11 +16,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 5						
 154445	xxxx	?	?	?	?	
 154446	ršp	ršp/	ršp	DN	Rašap	
-154447	alp	alp(I)/	ảlp (I)	n. m. sg. / n. m. pl.	(head of) cattle	
+154447	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
+154447	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
 154447	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.126 6						
 154448	xxxxmt	?	?	?	?	DULAT: NOT FOUND
-154449	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out	
+154449	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
 # KTU 1.126 7						
 154450		?	?	?	?	
 # KTU 1.126 8						
@@ -48,15 +50,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154461	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.126 17						
 154462	xxy	?	?	?	?	DULAT: NOT FOUND
-154463	il	il(I)/	ỉl (I)	DN m.	ʾIlu/Ilu/El	
-154463	il	il(I)/	ỉl (I)	n. m.	god	
+154463	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
+154463	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
+154463	il	il(I)/	ỉl (I)	n. m. sg.	god	
+154463	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
 # KTU 1.126 18						
 154464	w	w	w	conj.	and	
-154465	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
+154465	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 154465	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.126 19						
 154466	b	b	b	prep.	in	
-154467	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg./num.	sixth	
+154467	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg.	sixth	
 154468	š	š/	š	n. m. sg.	ram	
 # KTU 1.126 20						
 154469	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg.	place of sacrifice	
@@ -73,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154476	yṣ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.126 23						
 154477	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
-154478	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc.	to enter	
+154478	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
 154478	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
 # KTU 1.126 24						
 154479	xtštn	?	?	?	?	DULAT: NOT FOUND

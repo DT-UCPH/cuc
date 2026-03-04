@@ -17,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149196	lpdr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.49 5						
 149197	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg.	ewe	
-149198	aḥdh	aḥd/+h	ảḥd	adj./num.	one	
+149198	aḥdh	aḥd/+h	ảḥd	adj. cstr.	one	
 # KTU 1.49 6						
 149199	l	l(I)	l (I)	prep.	to	
 149200	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN	ʿṯtrt (II)	
@@ -36,15 +36,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149208	pr	pr(I)/	pr (I)	n. m. sg.	fruit	
 # KTU 1.49 10						
 149209	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
+149210	šˤrt	šˤr(t(I)/t	šʕrt (I)	n. f. pl.	wool	
 149210	šˤrt	šˤr(t(I)/t	šʕrt (I)	n. f. sg.	wool	
-149210	šˤrt	šˤr(t(I)/t=	šʕrt (I)	n. f. sg.	wool	
+149210	šˤrt	šˤr(t(I)/t=	šʕrt (I)	n. f. pl.	wool	
 # KTU 1.49 11						
 149211	ptr	ptr/	ptr	n. m.	sack	
 149212	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.49 12						
 149213	xlyu	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.49 13						
-149214	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
+149214	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
 149214	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
 # KTU 1.49 14						
 149215	y	+y, [y	-y (I)	prep. functor	my	

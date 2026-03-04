@@ -3,8 +3,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149331		?	?	?	?	
 149332	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.58 2						
+149333	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl.	head of cattle	
 149333	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg.	head of cattle	
-149333	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. sg.	head of cattle	
+149333	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl.	head of cattle	
 149334	ˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.58 3						
 149335	ddmš	ddmš/	ddmš	DN	ddmš	
@@ -13,8 +14,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149337	š	š/	š	n. m. sg.	ram	
 149338	b	b	b	prep.	in	
 # KTU 1.58 5						
-149339	yrḫ	yrḫ/	yrḫ	DN m.	Yariḫu/Yarikh	
-149339	yrḫ	yrḫ/	yrḫ	n. m. sg.	moon	
+149339	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
+149339	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
 149340	š	š/	š	n. m. sg.	ram	
 149341	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
 # KTU 1.58 6						

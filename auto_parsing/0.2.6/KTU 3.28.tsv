@@ -6,48 +6,56 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161858	ksp	ksp/	ksp	n. m. sg.	silver	
 161859	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161859	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161859	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
-161860	uln	ul/+n	ủl	n. m.	(military) force	
+161859	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161859	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161860	uln	ul/+n	ủl	n. m. cstr.	(military) force	
 161860	uln	uln(II)/	ủln (II)	PN	ủln (II)	
 # KTU 3.28 3						
-161861	miḫdy	miḫdy/	m(ả/ỉ)ḫdy	GN	one indigenous to or dwelling in ‘The Port’	
+161861	miḫdy	miḫdy/	m(ả/ỉ)ḫdy	GN sg.	one indigenous to or dwelling in ‘The Port’	
 161862	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
 # KTU 3.28 4						
-161863	bˤl	bˤl(II)/	bʕl (II)	n. m. / DN	Baʿlu/Baal	
-161863	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m.	to make	
+161863	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+161863	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+161863	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
 161864	mšlm	?	?	?	?	DULAT: NOT FOUND
-161865	ṣry	ṣr/+y	ṣr	TN	Tyre	
+161865	ṣry	ṣr/+y	ṣr	TN cstr.	Tyre	
 161865	ṣry	ṣry(II)/	ṣry (II)	PN	ṣry (II)	
 161865	ṣry	ṣry(I)/	ṣry (I)	GN	ṣry (I)	
 # KTU 3.28 5						
 161866	kd	kd(I)/	kd (I)	n. f. sg.	jar	
 161867	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
 161868	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg.	residue	
-161869	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc.	to fail	
+161869	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc. 3 m. sg.	to fail	
 161869	ḫsr	ḫsr/	ḫsr	n. m. sg.	deficit	
 # KTU 3.28 6						
 161870	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161870	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161870	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161870	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161870	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161871	mzt	mzt/	mzt	PN	mzt	
-161872	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161872	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161872	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161872	bn	bn(II)	bn (II)	prep.	between	
-161872	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161872	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161872	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161873	ˤṯtr	ˤṯtr/	ʕṯtr	DN	ʿAṯtar	
 # KTU 3.28 7						
 161874	kd	kd(I)/	kd (I)	n. f. sg.	jar	
 161875	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
-161876	mltḥm	mltḥ/m	mltḥ	n. m. du.	Hälfte	
+161876	mltḥm	mltḥ/m	mltḥ	n. m. pl.	Hälfte	
 # KTU 3.28 8						
-161877	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc.	to fail	
+161877	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc. 3 m. sg.	to fail	
 161877	ḫsr	ḫsr/	ḫsr	n. m. sg.	deficit	
 161878	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161878	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161878	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161878	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161878	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161879	abqn	?	?	?	?	DULAT: NOT FOUND
-161880	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161880	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161880	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161880	bn	bn(II)	bn (II)	prep.	between	
-161880	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161880	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161880	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161881	śwn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.28 9						
 161882	arbˤm	arbˤ/	ảrbʕ	num.	four	
@@ -58,18 +66,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161885	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
 161886	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161886	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161886	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161886	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161886	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 # KTU 3.28 11						
-161887	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161887	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161887	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161887	bn	bn(II)	bn (II)	prep.	between	
-161887	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161887	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161887	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161888	kmnt	kmnt/	kmnt	PN	kmnt	
 161889	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
 # KTU 3.28 12						
-161890	mtn	mt(II)/+n	mt (II)	n. m.	death	
+161890	mtn	mt(II)/+n	mt (II)	n. m. cstr.	death	
 161890	mtn	mt[n	/m-t/	vb	to die	
 161890	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-161890	mtn	mt[/+n	/m-t/	vb G ptcpl.	to die	
+161890	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg.	to die	
 # KTU 3.28 13						
 161891	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg.	group of ten	
 161892	ksp	ksp/	ksp	n. m. sg.	silver	
@@ -79,33 +90,39 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161895	iqni	iqn(u/&i	ỉqnủ	n. m. sg.	gem of lapis lazuli	
 161896	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161896	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161896	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161896	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161896	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161897	stry	stry/	stry	PN	stry	
 # KTU 3.28 15						
-161898	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161898	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161898	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161898	bn	bn(II)	bn (II)	prep.	between	
-161898	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
+161898	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161898	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161899	ktš	ktš/	ktš	PN	ktš	
 # KTU 3.28 16						
 161900	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 161901	ksp	ksp/	ksp	n. m. sg.	silver	
 # KTU 3.28 17						
 161902	w	w	w	conj.	and	
-161903	mitm	mit/m	mỉt	n. f. du.	a hundred	
+161903	mitm	mit/m	mỉt	n. f. pl.	a hundred	
 161904	iqnu	iqnu/	ỉqnủ	n. m. sg.	gem of lapis lazuli	
 # KTU 3.28 18						
 161905	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161905	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161905	ˤl	ˤl(III)/	ʕl (III)	n. m. sg.	offspring	
+161905	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
+161905	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
 161906	abbt	abbt/	ảbbt	PN	ảbbt	
-161907	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr.	son	
+161907	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
+161907	bn	bn(I)/	bn (I)	n. m. sg.	son	
 161907	bn	bn(II)	bn (II)	prep.	between	
-161907	bn	bn[	/b-n/	vb G suffc. / vb G impv.	to understand	
-161908	ġly	ġly[	/ġ-l-y/	vb G suffc.	to lose the proper aspect	
+161907	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161907	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161908	ġly	ġly[	/ġ-l-y/	vb G suffc. 3 m. sg.	to lose the proper aspect	
 161908	ġly	!!ġly[/	/ġ-l-y/	vb G inf.	to lose the proper aspect	
 # KTU 3.28 19						
 161909	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161910	mtn	mt(II)/+n	mt (II)	n. m.	death	
+161910	mtn	mt(II)/+n	mt (II)	n. m. cstr.	death	
 161910	mtn	mt[n	/m-t/	vb	to die	
 161910	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-161910	mtn	mt[/+n	/m-t/	vb G ptcpl.	to die	
+161910	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg.	to die	
