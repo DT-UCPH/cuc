@@ -1,12 +1,12 @@
-"""Deterministic verbal morphology completion and row splitting."""
+"""Deterministic nominal morphology completion and row splitting."""
 
 from __future__ import annotations
 
 from pathlib import Path
 
 from morph_features.dulat_feature_reader import DulatFeatureReader
+from morph_features.nominal_completion import NominalFeatureCompleter, rewrite_row
 from morph_features.pos_renderer import render_pos
-from morph_features.verbal_completion import VerbalFeatureCompleter, rewrite_row
 from pipeline.steps.base import (
     RefinementStep,
     StepResult,
@@ -17,15 +17,15 @@ from pipeline.steps.base import (
 )
 
 
-class VerbalFeatureCompletionFixer(RefinementStep):
-    """Complete verb form/person features from analysis and exact DULAT forms."""
+class NominalFeatureCompletionFixer(RefinementStep):
+    """Complete nominal gender/number/state features from analysis and DULAT."""
 
     def __init__(self, dulat_db: Path) -> None:
-        self._completer = VerbalFeatureCompleter(DulatFeatureReader(db_path=dulat_db))
+        self._completer = NominalFeatureCompleter(DulatFeatureReader(db_path=dulat_db))
 
     @property
     def name(self) -> str:
-        return "verbal-feature-completion"
+        return "nominal-feature-completion"
 
     def refine_row(self, row: TabletRow) -> TabletRow:
         return rewrite_row(row, self._completer)
@@ -50,7 +50,7 @@ class VerbalFeatureCompletionFixer(RefinementStep):
                 continue
 
             rows_processed += 1
-            if "vb" not in (row.pos or "").lower() or ";" in row.analysis or ";" in row.pos:
+            if not self._is_nominal_row(row) or ";" in row.analysis or ";" in row.pos:
                 out_lines.append(raw)
                 continue
 
@@ -74,3 +74,10 @@ class VerbalFeatureCompletionFixer(RefinementStep):
 
         path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
         return StepResult(file=path.name, rows_processed=rows_processed, rows_changed=rows_changed)
+
+    @staticmethod
+    def _is_nominal_row(row: TabletRow) -> bool:
+        pos = row.pos or ""
+        return pos.startswith("n.") or pos.startswith("adj.") or any(
+            marker in pos for marker in ("DN", "PN", "RN", "TN", "GN", "MN")
+        )

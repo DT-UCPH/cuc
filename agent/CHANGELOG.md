@@ -4,6 +4,7 @@
 - Added a reviewed gold-case fixture for `KTU 1.5` under `tests/fixtures/reviewed_ktu_1_5_cases.tsv` plus focused tests for analysis decoding and deterministic verbal completion.
 - Added `pipeline/steps/verbal_feature_completion.py` as the first parser integration step for the new morphology layer, but left it inactive in the runtime pipeline after smoke validation exposed a late semicolon-unwrapper regression on `KTU 1.5` that still needs a second iteration to resolve safely.
 - Added conservative nominal completion scaffolding in `morph_features/nominal_completion.py`, extended the POS renderer to emit nominal feature strings from structured bundles, and added focused tests for exact-surface DULAT-driven number/state splitting (`bn`), suffix-driven construct state (`ipdk`), and feminine singular preservation (`brlt`).
+- Integrated both morphology completion steps into the runtime parser as file-level expanders on already-unwrapped rows: nominal completion now runs after the main variant-unwrapper stage, and verbal completion now runs after the post-verb unwrapper stage. This avoided the earlier semicolon-compounding corruption on `KTU 1.5` while keeping the completion logic active in the real pipeline.
 
 - Added an attested adjacent split-token merge step so cases like `la` + unresolved `nk` can yield an extra `lảnk`-based variant without rewriting unrelated rows such as `anh`.
 # Changelog

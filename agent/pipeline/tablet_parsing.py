@@ -33,6 +33,7 @@ from pipeline.steps.iii_aleph_case_fixer import IIIAlephCaseFixer
 from pipeline.steps.known_ambiguities import KnownAmbiguityExpander
 from pipeline.steps.ktu1_family_homonym_pruner import Ktu1FamilyHomonymPruner
 from pipeline.steps.nominal_case_ending_yh import NominalCaseEndingYHFixer
+from pipeline.steps.nominal_feature_completion import NominalFeatureCompletionFixer
 from pipeline.steps.nominal_form_morph_pos import NominalFormMorphPosFixer
 from pipeline.steps.noun_closure import NounPosClosureFixer
 from pipeline.steps.onomastic_gloss import OnomasticGlossOverrideFixer
@@ -61,6 +62,7 @@ from pipeline.steps.verb_mixed_stem_split import VerbMixedStemSplitFixer
 from pipeline.steps.verb_n_stem_assimilation import VerbNStemAssimilationFixer
 from pipeline.steps.verb_pos_stem import VerbPosStemFixer
 from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
+from pipeline.steps.verbal_feature_completion import VerbalFeatureCompletionFixer
 from pipeline.steps.weak_final_sc import WeakFinalSuffixConjugationFixer
 from pipeline.steps.weak_verb import WeakVerbFixer
 
@@ -132,6 +134,7 @@ class TabletParsingPipeline:
             RedirectReconstructionCommentFixer(),
             UnwrappedDuplicatePruner(),
             FunctionWordCliticPruner(),
+            NominalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
             AttestationReferenceDisambiguator(index=self.attestation_index),
             AttestedSplitTokenMergeFixer(
                 dulat_db=self.config.dulat_db,
@@ -157,6 +160,7 @@ class TabletParsingPipeline:
             VerbNStemAssimilationFixer(),
             PostVerbVariantRowUnwrapper(),
             PostVerbUnwrappedDuplicatePruner(),
+            VerbalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
             # Keep schema pass last so any content-changing steps still end in
             # strict 7-column/quote-safe TSV for GitHub rendering.
             TsvSchemaFormatter(),

@@ -110,6 +110,14 @@ class TabletParsingPipelineTest(unittest.TestCase):
             self.assertNotIn(
                 "baal-labourer-ktu1", [step.name for step in pipeline._refinement_steps]
             )
+            self.assertIn(
+                "nominal-feature-completion",
+                [step.name for step in pipeline._refinement_steps],
+            )
+            self.assertIn(
+                "verbal-feature-completion",
+                [step.name for step in pipeline._refinement_steps],
+            )
 
     def test_pipeline_uses_integrated_spacy_k_context_step(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
