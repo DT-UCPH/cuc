@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155308	l	l(I)	l (I)	prep.	to	
 155308	l	l(III)	l (III)	functor	certainly	
 155309	xxxxxxx	?	?	?	?	
-155310	bhmtn	bhm(t/t+n	bhmt	n. f. sg. cstr.	cattle	
+155310	bhmtn	bhm(t/t+n	bhmt	n. f. sg. cstr. nom.	cattle	
 155311	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
 155311	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish	
 155311	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish	
@@ -17,15 +17,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.163 2						
 155312	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155312	hm	hm(I)	hm (I)	pers. pn.	they	
-155313	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155313	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
+155313	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155313	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 155314	xxx	?	?	?	?	
 155315	b	b	b	prep.	in	
-155316	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
-155316	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg.	new	
-155317	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155317	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
-155318	bnšm	bnš/~m	bnš	n. m. pl.	man	
+155316	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
+155316	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
+155317	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155317	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+155318	bnšm	bnš/~m	bnš	n. m. abs. nom. pl.	man	
 # KTU 1.163 3						
 155319	xxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
 155320	thbẓn	hbṭ[ẓn:d	/h-b-ṭ/ẓ/	vb D prefc.	to knock down	
@@ -34,43 +34,43 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155321	hm	hm(I)	hm (I)	pers. pn.	they	
 155322	b	b	b	prep.	in	
 155323	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-155323	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-155323	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
-155324	ym	ym(I)/	ym (I)	n. m. sg.	day	
-155324	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+155323	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+155323	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+155324	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+155324	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 155325	yh	!y!(yh[	/y-h(-y)/	vb G prefc. 3 m. sg.	to wane	
-155326	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155326	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
-155327	kslm	ksl/m	ksl	n. f. pl.	back	
+155326	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155326	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+155327	kslm	ksl/m	ksl	n. f. pl. abs. nom.	back	
 155328	mlkm	mlk(I)	mlk (I)		king	
 155329	tbṣrn	!t!](n]bṣr(I)[n	/b-ṣ-r/ (I)	vb N prefc.	to watch	
 # KTU 1.163 5						
 155330	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155330	hm	hm(I)	hm (I)	pers. pn.	they	
 155331	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-155331	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-155331	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
+155331	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+155331	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 155332	id	id	ỉd	conj.	when	
 155333	ynphy	phy[hy	/p-h-y/	vb N prefc.	to see	
-155334	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155334	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
+155334	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155334	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 155335	b	b	b	prep.	in	
-155336	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155336	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
+155336	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155336	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 155337	aḫrm	aḫr	ảḫr	adv./prep./conj.	afterwards	
 # KTU 1.163 6						
-155338	ġrplt	ġrpl(t/t	ġrplt	n. f. sg.	cloudy sky	
-155339	mẓrn	mẓr/	mẓr	n. m. sg.	rain	
+155338	ġrplt	ġrpl(t/t	ġrplt	n. f. sg. abs. nom.	cloudy sky	
+155339	mẓrn	mẓr/	mẓr	n. m. sg. abs. nom.	rain	
 155340	ylk	hlk[	/h-l-k/	vb G prefc.	to go	
 # KTU 1.163 7						
 155341	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155341	hm	hm(I)	hm (I)	pers. pn.	they	
-155342	kbkb	kbkb/	kbkb	n. m. sg.	heavenly body	
+155342	kbkb	kbkb/	kbkb	n. m. sg. abs. nom.	heavenly body	
 155343	yql	!y!ql[	/q-l/	vb G prefc. 3 m. sg.	to fall (down)	
 155344	b	b	b	prep.	in	
 155345	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-155346	ym	ym(I)/	ym (I)	n. m. sg.	day	
-155346	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+155346	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+155346	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 155347	mlkn	mlk(I)	mlk (I)		king	
 155348	l	l(I)	l (I)	prep.	to	
 155348	l	l(III)	l (III)	functor	certainly	
@@ -83,20 +83,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155353	yxxx	?	?	?	?	DULAT: NOT FOUND
 155354	xxx	?	?	?	?	
 155355	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-155355	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-155355	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
+155355	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+155355	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 # KTU 1.163 9						
 155356	xxxxxxxxxxxxxxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.163 10						
 155357	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155357	hm	hm(I)	hm (I)	pers. pn.	they	
 155358	b	b	b	prep.	in	
-155359	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
-155359	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg.	new	
-155360	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155360	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
+155359	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
+155359	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
+155360	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155360	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 155361	wqdr	?	?	?	?	DULAT: NOT FOUND
-155362	iršn	irš/	ỉrš	n. m. sg.	demand	
+155362	iršn	irš/	ỉrš	n. m. sg. abs. nom.	demand	
 155363	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable)	
 # KTU 1.163 11						
 155364	w	w	w	conj.	and	
@@ -107,24 +107,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.163 12						
 155368	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155368	hm	hm(I)	hm (I)	pers. pn.	they	
-155369	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155369	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
+155369	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155369	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 155370	b	b	b	prep.	in	
-155371	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg.	place of sacrifice	
+155371	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
 155372	w	w	w	conj.	and	
-155373	pḥm	pḥm/	pḥm	n. m. sg.	ember	
+155373	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
 # KTU 1.163 13						
-155374	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr.	handsome	
+155374	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
 155375	yḫsr	!y!ḫsr[	/ḫ-s-r/	vb G prefc. 3 m. sg.	to fail	
 155376	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.163 14						
 155377	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155377	hm	hm(I)	hm (I)	pers. pn.	they	
-155378	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155378	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
+155378	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155378	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 155379	b	b	b	prep.	in	
-155380	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg.	place of sacrifice	
-155381	yrq	yrq/	yrq	n. m. sg. cstr.	greenish yellow (a metal / gold)	
+155380	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
+155381	yrq	yrq/	yrq	n. m. sg. cstr. nom.	greenish yellow (a metal / gold)	
 # KTU 1.163 15						
 155382	xxxxxxbhmtn	?	?	?	?	DULAT: NOT FOUND
 155383	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
@@ -137,14 +137,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.163 16						
 155384	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155384	hm	hm(I)	hm (I)	pers. pn.	they	
-155385	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-155385	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
+155385	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+155385	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 155386	b	b	b	prep.	in	
-155387	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg.	place of sacrifice	
+155387	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
 155388	w	w	w	conj.	and	
-155389	pḥm	pḥm/	pḥm	n. m. sg.	ember	
+155389	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
 # KTU 1.163 17						
 155390	xxxxxxxxxxw	?	?	?	?	DULAT: NOT FOUND
-155391	qbṣt	qbṣ(t/t	qbṣt	n. f. sg.	assembly	
+155391	qbṣt	qbṣ(t/t	qbṣt	n. f. sg. abs. nom.	assembly	
 # KTU 1.163 18						
 155392	bhmtxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND

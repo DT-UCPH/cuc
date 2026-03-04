@@ -2,32 +2,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 1						
 154724	w	w	w	conj.	and	
 154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-154726	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-154726	bn	bn(I)/	bn (I)	n. m. sg.	son	
+154726	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+154726	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 154726	bn	bn(II)	bn (II)	prep.	between	
 154726	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 154726	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 1.133 2						
-154727	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-154727	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-154728	mt	mt(II)/	mt (II)	DN m. sg.	Mot/Death	
-154728	mt	mt(II)/	mt (II)	n. m. sg.	death	
+154727	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+154727	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+154728	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+154728	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 154728	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-154728	mt	mt[/	/m-t/	vb G ptcpl. m. sg.	to die	
-154728	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
-154729	npšm	npš(I)/	npš (I)	n. f.	throat	
+154728	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+154728	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+154729	npšm	npš(I)/	npš (I)	n. f. abs. nom.	throat	
 # KTU 1.133 3						
-154730	npš	npš(I)/	npš (I)	n. f. sg.	throat	
-154731	lbim	lbu/	lbủ	n. m. sg.	lion	
+154730	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+154731	lbim	lbu/	lbủ	n. m. sg. abs. nom.	lion	
 # KTU 1.133 4						
-154732	thw	thw/	thw	n. m. sg.	steppe	
+154732	thw	thw/	thw	n. m. sg. abs. nom.	steppe	
 154733	w	w	w	conj.	and	
-154734	npš	npš(I)/	npš (I)	n. f. sg.	throat	
+154734	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 # KTU 1.133 5						
-154735	anḫr	anḫr/	ảnḫr	n. m. sg.	dolphin	
+154735	anḫr	anḫr/	ảnḫr	n. m. sg. abs. nom.	dolphin	
 154736	b	b	b	prep.	in	
-154737	ym	ym(I)/	ym (I)	n. m. sg.	day	
-154737	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+154737	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+154737	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 # KTU 1.133 6						
 154738	brkyt	?	?	?	?	DULAT: NOT FOUND
 154739	kšbšt	?	?	?	?	DULAT: NOT FOUND
@@ -37,91 +37,91 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154740	k	k(III)	k (III)	Subordinating or completive functor	when	
 154740	k	k(I)	k (I)	prep.	like	
 154740	k	k(II)	k (II)	emph. functor	yes	
-154741	rumm	rum/	rủm	n. m. pl.	wild bull	
+154741	rumm	rum/	rủm	n. m. pl. abs. nom.	wild bull	
 154742	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154742	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 1.133 8						
-154743	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+154743	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 154743	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-154743	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-154744	kḏd	ḏd(II)/	ḏd (II)	n. m.	grotto	Based on DULAT reconstruction.
+154743	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+154744	kḏd	ḏd(II)/	ḏd (II)	n. m. abs. nom.	grotto	Based on DULAT reconstruction.
 154744	kḏd	kḏd	kḏd	→	?	
-154744	kḏd	ḏd(I)/	ḏd (I)	n. m.	breast	Based on DULAT reconstruction.
-154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. pl.	hind	
-154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg.	hind	
-154745	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl.	hind	
+154744	kḏd	ḏd(I)/	ḏd (I)	n. m. abs. nom.	breast	Based on DULAT reconstruction.
+154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. pl. abs. nom.	hind	
+154745	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg. abs. nom.	hind	
+154745	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. nom.	hind	
 # KTU 1.133 9						
-154746	mt	mt(II)/	mt (II)	DN m. sg.	Mot/Death	
-154746	mt	mt(II)/	mt (II)	n. m. sg.	death	
+154746	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+154746	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 154746	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-154746	mt	mt[/	/m-t/	vb G ptcpl. m. sg.	to die	
-154746	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
+154746	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+154746	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
 154747	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154747	hm	hm(I)	hm (I)	pers. pn.	they	
-154748	ks	ks(I)/	ks (I)	n. m. sg.	cup	
-154748	ks	ks/	ks/śm(n)	n. m. pl.	emmer-corn	
-154749	ym	ym(I)/	ym (I)	n. m. sg.	day	
-154749	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+154748	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
+154748	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
+154749	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+154749	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 # KTU 1.133 10						
-154750	sk	sk(I)/	sk (I)	n. m. sg.	coverlet	
-154751	nhr	nhr/	nhr	DN m. sg.	Naharu/“River”/alternative DN of the god ym	
-154751	nhr	nhr/	nhr	n. m. sg.	river	
+154750	sk	sk(I)/	sk (I)	n. m. sg. abs. nom.	coverlet	
+154751	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
+154751	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
 154752	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154752	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 1.133 11						
 154753	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-154754	ydty	yd(I)/	yd (I)	n. f.	hand	
+154754	ydty	yd(I)/	yd (I)	n. f. abs. nom.	hand	
 154755	b	b	b	prep.	in	
-154756	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg.	plate / wide bowl / platter	
+154756	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. nom.	plate / wide bowl / platter	
 # KTU 1.133 12						
 154757	xšbˤ	?	?	?	?	DULAT: NOT FOUND
-154758	rbt	rb(I)/t	rb (I)	adj. f. sg.	great	
+154758	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	
 154758	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
-154758	rbt	rb(t(I)/t	rbt (I)	n. f. sg.	Lady	
+154758	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	
 # KTU 1.133 13						
 154759	xxx	?	?	?	?	
 154760	qbẓ	qbẓ	qbẓ	?	?	
 154761	ṯmt	ṯm	ṯm	adv.	there	
 # KTU 1.133 14						
 154762	xxxm	?	?	?	?	DULAT: NOT FOUND
-154763	ẓbm	ẓby/	ẓby	n. m. pl.	gazelle	
-154764	ṯr	ṯr(I)/	ṯr (I)	n. m. pl.	bull	
-154764	ṯr	ṯr(I)/	ṯr (I)	n. m. sg.	bull	
+154763	ẓbm	ẓby/	ẓby	n. m. pl. abs. nom.	gazelle	
+154764	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
+154764	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
 # KTU 1.133 15						
 154765	xxbn	?	?	?	?	DULAT: NOT FOUND
-154766	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-154766	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+154766	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+154766	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.133 16						
-154767	mt	mt(II)/	mt (II)	DN m. sg.	Mot/Death	
-154767	mt	mt(II)/	mt (II)	n. m. sg.	death	
+154767	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+154767	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 154767	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-154767	mt	mt[/	/m-t/	vb G ptcpl. m. sg.	to die	
-154767	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
+154767	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+154767	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
 154768	šmḥ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad	
 154769	p	p(I)	p (I)	conj. functor	and	
-154769	p	p(III)/	p (III)	n. m. sg.	mouth	
+154769	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 154769	p	p(II)	p (II)	adv.	here	
-154770	ydd	ydd(I)/	ydd (I)	adj. m. sg.	loved	
+154770	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
 # KTU 1.133 17						
-154771	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-154771	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-154771	il	il(I)/	ỉl (I)	n. m. sg.	god	
-154771	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-154772	ġzr	ġzr/	ġzr	n. m. sg.	lad	
+154771	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+154771	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+154771	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+154771	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+154772	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	lad	
 154773	b	b	b	prep.	in	
 # KTU 1.133 18						
 154774	b	b	b	prep.	in	
-154775	abn	ab/+n	ảb	n. m. cstr.	father	
-154775	abn	abn/	ảbn	n. f. pl. cstr.	stone	
-154775	abn	abn/	ảbn	n. f. sg.	stone	
+154775	abn	ab/+n	ảb	n. m. cstr. nom.	father	
+154775	abn	abn/	ảbn	n. f. pl. cstr. nom.	stone	
+154775	abn	abn/	ảbn	n. f. sg. abs. nom.	stone	
 154775	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	
 154776	ˤ	?	?	?	?	DULAT: NOT FOUND
 154777	z	d	d	det. or rel. functor	the one(s) of	Based on DULAT reconstruction.
 154777	z	z	z	→	?	
 154778	w	w	w	conj.	and	
 # KTU 1.133 19						
-154779	rgbt	rgb(t/t	rgbt	n. f. sg.	respect	
-154780	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr.	prince	
-154780	zbl	zbl(I)/	zbl (I)	n. m. sg.	prince	
+154779	rgbt	rgb(t/t	rgbt	n. f. sg. abs. nom.	respect	
+154780	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
+154780	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. nom.	prince	

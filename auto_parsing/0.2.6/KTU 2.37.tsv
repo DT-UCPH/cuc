@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157819	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 2						
 157820	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
-157820	argmn	argmn/	ả/ỉrgmn	n. m. sg.	payment of tribute to the Hittite court	
+157820	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. nom.	payment of tribute to the Hittite court	
 # KTU 2.37 3						
 157821	šixxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 4						
@@ -19,13 +19,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.37 5						
 157824	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 157824	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-157824	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-157824	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+157824	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+157824	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 157825	xxxštt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 6						
 157826	mn	mn(IV)	mn (IV)	?	?	
-157826	mn	mn(III)/	mn (III)	n. m. sg.	mina	
-157827	ṭbt	ṭb(t/t	ṭbt	n. f. sg.	well-being	
+157826	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	
+157827	ṭbt	ṭb(t/t	ṭbt	n. f. sg. abs. nom.	well-being	
 157828	w	w	w	conj.	and	
 157829		?	?	?	?	
 # KTU 2.37 7						
@@ -33,9 +33,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157831	pxnr	?	?	?	?	DULAT: NOT FOUND
 157832		?	?	?	?	
 # KTU 2.37 8						
-157833	argmnm	argm/+nm	ả/ỉrgmn	n. m. cstr.	payment of tribute to the Hittite court	
+157833	argmnm	argm/+nm	ả/ỉrgmn	n. m. cstr. nom.	payment of tribute to the Hittite court	
 157834	d	d	d	det. or rel. functor	the one(s) of	
-157835	ar	a/	ả/ỉr	n. m. sg.	light	
+157835	ar	a/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 2.37 9						
 157836		?	?	?	?	
 157837	ibˤr	?	?	?	?	DULAT: NOT FOUND
@@ -44,17 +44,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157839		?	?	?	?	
 # KTU 2.37 10						
 157840	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
-157840	argmn	argmn/	ả/ỉrgmn	n. m. sg.	payment of tribute to the Hittite court	
+157840	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. nom.	payment of tribute to the Hittite court	
 157841	d	d	d	det. or rel. functor	the one(s) of	
-157842	riš	riš(I)/	rỉš (I)	n. m. sg.	head	
+157842	riš	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	head	
 # KTU 2.37 11						
-157843	dq	dq(I)/	dq (I)	adj. m. sg.	tiny	
+157843	dq	dq(I)/	dq (I)	adj. m. sg. abs. nom.	tiny	
 157844	w	w	w	conj.	and	
 157845	xxxxmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 12						
 157846	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157847	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-157847	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+157847	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+157847	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 2.37 13						
-157848	kš	kš/	kš	n. m. sg.	date	
+157848	kš	kš/	kš	n. m. sg. abs. nom.	date	
 157849		?	?	?	?	

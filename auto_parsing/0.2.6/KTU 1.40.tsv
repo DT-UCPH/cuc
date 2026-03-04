@@ -1,10 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 1						
 148050	w	w	w	conj.	and	
-148051	npy	npy/	npy	n. m. sg.	purification	
+148051	npy	npy/	npy	n. m. sg. abs. nom.	purification	
 # KTU 1.40 2						
 148052	wnpy	?	?	?	?	DULAT: NOT FOUND
-148053	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+148053	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 1.40 3						
 148054	y	+y, [y	-y (I)	prep. functor	my	
 148054	y	~y	-y (II)	prep. functor	indeed	
@@ -14,10 +14,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148055	ulp	ulp	ủlp	→	?	
 148056		?	?	?	?	
 # KTU 1.40 4						
-148057	ġbr	ġbr/	ġbr	TN sg.	nom propre	
-148058	ul	ul/	ủl	n. m. sg.	(military) force	
+148057	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+148058	ul	ul/	ủl	n. m. sg. abs. nom.	(military) force	
 148059	p	p(I)	p (I)	conj. functor	and	
-148059	p	p(III)/	p (III)	n. m. sg.	mouth	
+148059	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 148059	p	p(II)	p (II)	adv.	here	
 # KTU 1.40 5						
 148060	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
@@ -26,128 +26,128 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148060	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.40 6						
 148061	hw	hw	hw	pers. pn.	he	
-148062	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
-148062	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
+148062	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+148062	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
 148063	nṯˤy	!n!ṯˤy[	/ṯ-ʕ-y/	vb G prefc. 1 c. pl.	to offer	
 # KTU 1.40 7						
 148064	hw	hw	hw	pers. pn.	he	
 148065	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148065	nkt	nkt/	nkt	n. m. sg.	immolation	
+148065	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148066	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148066	nkt	nkt/	nkt	n. m. sg.	immolation	
+148066	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148067	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148068	l	l(I)	l (I)	prep.	to	
 148068	l	l(III)	l (III)	functor	certainly	
-148069	ab	ab/	ảb	n. m. sg. abs.	father	
-148069	ab	ab/	ảb	n. m. sg. cstr.	father	
-148070	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148070	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148069	ab	ab/	ảb	n. m. sg. abs. nom.	father	
+148069	ab	ab/	ảb	n. m. sg. cstr. nom.	father	
+148070	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148070	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148070	bn	bn(II)	bn (II)	prep.	between	
 148070	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148070	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148071	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148071	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148071	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148071	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148071	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148071	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148071	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148071	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148072	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148073	l	l(I)	l (I)	prep.	to	
 148073	l	l(III)	l (III)	functor	certainly	
-148074	dr	dr/	dr	n. m. pl. cstr.	circle	
-148074	dr	dr/	dr	n. m. sg.	circle	
-148075	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148075	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148074	dr	dr/	dr	n. m. pl. cstr. nom.	circle	
+148074	dr	dr/	dr	n. m. sg. abs. nom.	circle	
+148075	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148075	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148075	bn	bn(II)	bn (II)	prep.	between	
 148075	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148075	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148076	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148076	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148076	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148076	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148076	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148076	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148076	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148076	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.40 8						
 148077	l	l(I)	l (I)	prep.	to	
 148077	l	l(III)	l (III)	functor	certainly	
-148078	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
-148079	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148079	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148078	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. abs. nom.	assembly	
+148079	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148079	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148079	bn	bn(II)	bn (II)	prep.	between	
 148079	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148079	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148080	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148080	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148080	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148080	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148080	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148080	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148080	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148080	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148081	l	l(I)	l (I)	prep.	to	
 148081	l	l(III)	l (III)	functor	certainly	
-148082	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
-148082	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
+148082	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148082	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. nom.	shoulder	
 148083	w	w	w	conj.	and	
-148084	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+148084	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148084	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 148085	hn	hn	hn	functor	behold!	
-148086	š	š/	š	n. m. sg.	ram	
+148086	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.40 9						
 148087	w	w	w	conj.	and	
 148088	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to approach	
-148089	š	š/	š	n. m. sg.	ram	
-148090	mšr	mšr(I)/	mšr (I)	n. m. sg.	justice	
-148090	mšr	mšr(II)/	mšr (II)	n. sg.	song	
-148091	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148091	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148089	š	š/	š	n. m. sg. abs. nom.	ram	
+148090	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. nom.	justice	
+148090	mšr	mšr(II)/	mšr (II)	n. sg. abs. nom.	song	
+148091	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148091	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148091	bn	bn(II)	bn (II)	prep.	between	
 148091	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148091	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148092	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+148092	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 148093	w	w	w	conj.	and	
 148094	npyx	?	?	?	?	DULAT: NOT FOUND
 148095	w	w	w	conj.	and	
-148096	npy	npy/	npy	n. m. sg.	purification	
+148096	npy	npy/	npy	n. m. sg. abs. nom.	purification	
 # KTU 1.40 10						
 148097	w	w	w	conj.	and	
-148098	npy	npy/	npy	n. m. sg.	purification	
-148099	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+148098	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+148099	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 1.40 11						
 148100	u	u	ủ	conj.	or	
 148101	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
 148102	u	u	ủ	conj.	or	
 148103	lp	?	?	?	?	DULAT: NOT FOUND
-148104	qṭy	qṭy(I)/	qṭy (I)	GN sg.	il qadita	
+148104	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
 148105	u	u	ủ	conj.	or	
 148106	lp	?	?	?	?	DULAT: NOT FOUND
-148107	ddmy	ddmy/	ddmy	GN sg.	ddmy	
+148107	ddmy	ddmy/	ddmy	GN sg. abs. nom.	ddmy	
 # KTU 1.40 12						
 148108	u	u	ủ	conj.	or	
 148109	lp	?	?	?	?	DULAT: NOT FOUND
-148110	ḥry	ḥr(I)/+y	ḥr (I)	n. m. cstr.	intestine(s)	
-148110	ḥry	ḥry/	ḥry	PN sg.	ḥry	
+148110	ḥry	ḥr(I)/+y	ḥr (I)	n. m. cstr. nom.	intestine(s)	
+148110	ḥry	ḥry/	ḥry	PN sg. abs. nom.	ḥry	
 148111	u	u	ủ	conj.	or	
 148112	lp	?	?	?	?	DULAT: NOT FOUND
-148113	ḫty	ḫty(I)/	ḫty (I)	GN sg.	Hittite	
+148113	ḫty	ḫty(I)/	ḫty (I)	GN sg. abs. nom.	Hittite	
 148114	u	u	ủ	conj.	or	
 148115	lp	?	?	?	?	DULAT: NOT FOUND
-148116	alṯy	alṯy/	ảlṯy(y)	GN sg.	ảlṯy(y)	
+148116	alṯy	alṯy/	ảlṯy(y)	GN sg. abs. nom.	ảlṯy(y)	
 148117	u	u	ủ	conj.	or	
 148118	lp	?	?	?	?	DULAT: NOT FOUND
-148119	ġbr	ġbr/	ġbr	TN sg.	nom propre	
+148119	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
 # KTU 1.40 13						
 148120	u	u	ủ	conj.	or	
 148121	lp	?	?	?	?	DULAT: NOT FOUND
-148122	ḫbtkm	ḫbt(I)/+km	ḫbt (I)	n. m. pl. cstr.	oppressor	
+148122	ḫbtkm	ḫbt(I)/+km	ḫbt (I)	n. m. pl. cstr. nom.	oppressor	
 148123	u	u	ủ	conj.	or	
 148124	lp	?	?	?	?	DULAT: NOT FOUND
 148125	mdllkm	mdll+km	mdll	→	?	
 148126	u	u	ủ	conj.	or	
 148127	lp	?	?	?	?	DULAT: NOT FOUND
-148128	qrzbl	qrzbl/	qrzbl	TN sg.	Fürstenquelle	
+148128	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
 # KTU 1.40 14						
 148129	u	u	ủ	conj.	or	
 148130	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
 148131	b	b	b	prep.	in	
 148132	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
-148132	apkm	ap(II)/+km	ảp (II)	n. m. cstr.	nose	
-148132	apkm	apq/+m(I)	ảpq	n. m. cstr.	spring	
+148132	apkm	ap(II)/+km	ảp (II)	n. m. cstr. nom.	nose	
+148132	apkm	apq/+m(I)	ảpq	n. m. cstr. nom.	spring	
 148133	u	u	ủ	conj.	or	
 148134	bqṣrt	?	?	?	?	DULAT: NOT FOUND
-148135	npškm	npš(I)/+km	npš (I)	n. f. cstr.	throat	
+148135	npškm	npš(I)/+km	npš (I)	n. f. cstr. nom.	throat	
 148136	u	u	ủ	conj.	or	
 148137	bqṭt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.40 15						
@@ -156,84 +156,84 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148140	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
 148141	l	l(I)	l (I)	prep.	to	
 148141	l	l(III)	l (III)	functor	certainly	
-148142	dbḥm	dbḥ/m	dbḥ	n. m. pl.	sacrifice	
+148142	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	sacrifice	
 148143	w	w	w	conj.	and	
 148144	l	l(I)	l (I)	prep.	to	
 148144	l	l(III)	l (III)	functor	certainly	
-148145	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
-148145	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
-148146	dbḥn	dbḥ/	dbḥ	n. m. sg.	sacrifice	
+148145	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+148145	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
+148146	dbḥn	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 148147	ndbḥ	!n!dbḥ[	/d-b-ḥ/	vb G prefc. 1 c. pl.	to sacrifice	
 # KTU 1.40 16						
 148148	hw	hw	hw	pers. pn.	he	
-148149	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
-148149	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
+148149	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+148149	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
 148150	nṯˤy	!n!ṯˤy[	/ṯ-ʕ-y/	vb G prefc. 1 c. pl.	to offer	
 148151	hw	hw	hw	pers. pn.	he	
 148152	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148152	nkt	nkt/	nkt	n. m. sg.	immolation	
+148152	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148153	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148153	nkt	nkt/	nkt	n. m. sg.	immolation	
+148153	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148154	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148155	l	l(I)	l (I)	prep.	to	
 148155	l	l(III)	l (III)	functor	certainly	
-148156	ab	ab/	ảb	n. m. sg. abs.	father	
-148156	ab	ab/	ảb	n. m. sg. cstr.	father	
-148157	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148157	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148156	ab	ab/	ảb	n. m. sg. abs. nom.	father	
+148156	ab	ab/	ảb	n. m. sg. cstr. nom.	father	
+148157	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148157	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148157	bn	bn(II)	bn (II)	prep.	between	
 148157	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148157	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148158	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148158	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148158	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148158	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148158	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148158	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148158	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148158	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.40 17						
 148159	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148160	l	l(I)	l (I)	prep.	to	
 148160	l	l(III)	l (III)	functor	certainly	
-148161	dr	dr/	dr	n. m. pl. cstr.	circle	
-148161	dr	dr/	dr	n. m. sg.	circle	
-148162	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148162	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148161	dr	dr/	dr	n. m. pl. cstr. nom.	circle	
+148161	dr	dr/	dr	n. m. sg. abs. nom.	circle	
+148162	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148162	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148162	bn	bn(II)	bn (II)	prep.	between	
 148162	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148162	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148163	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148163	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148163	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148163	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148163	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148163	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148163	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148163	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148164	l	l(I)	l (I)	prep.	to	
 148164	l	l(III)	l (III)	functor	certainly	
-148165	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
-148166	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148166	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148165	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. abs. nom.	assembly	
+148166	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148166	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148166	bn	bn(II)	bn (II)	prep.	between	
 148166	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148166	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148167	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148167	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148167	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148167	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148167	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148167	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148167	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148167	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148168	l	l(I)	l (I)	prep.	to	
 148168	l	l(III)	l (III)	functor	certainly	
-148169	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
-148169	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
+148169	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148169	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. nom.	shoulder	
 148170	w	w	w	conj.	and	
-148171	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+148171	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148171	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 148172	hn	hn	hn	functor	behold!	
-148173	š	š/	š	n. m. sg.	ram	
+148173	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.40 18						
 148174	w	w	w	conj.	and	
-148175	npy	npy/	npy	n. m. sg.	purification	
-148176	gr	gr(I)/	gr (I)	n. m. pl. cstr.	protected	
-148176	gr	gr(I)/	gr (I)	n. m. sg.	protected	
+148175	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+148176	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
+148176	gr	gr(I)/	gr (I)	n. m. sg. abs. nom.	protected	
 148176	gr	gr[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
-148177	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl.	wall	
-148178	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+148177	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl. abs. nom.	wall	
+148178	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 148179	w	w	w	conj.	and	
-148180	npy	npy/	npy	n. m. sg.	purification	
+148180	npy	npy/	npy	n. m. sg. abs. nom.	purification	
 # KTU 1.40 19						
 148181	x	?	?	?	?	
 148182	w	w	w	conj.	and	
@@ -242,46 +242,46 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148185	tḫṭin	!t!ḫṭ(ʔ[&in	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake	
 148186	u	u	ủ	conj.	or	
 148187	lp	?	?	?	?	DULAT: NOT FOUND
-148188	qṭy	qṭy(I)/	qṭy (I)	GN sg.	il qadita	
+148188	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
 # KTU 1.40 20						
 148189	u	u	ủ	conj.	or	
 148190	lp	?	?	?	?	DULAT: NOT FOUND
-148191	ddmy	ddmy/	ddmy	GN sg.	ddmy	
+148191	ddmy	ddmy/	ddmy	GN sg. abs. nom.	ddmy	
 148192	u	u	ủ	conj.	or	
 148193	lp	?	?	?	?	DULAT: NOT FOUND
-148194	ḫry	ḫry/	ḫry	GN sg.	Hurrian	
-148195	ul	ul/	ủl	n. m. sg.	(military) force	
+148194	ḫry	ḫry/	ḫry	GN sg. abs. nom.	Hurrian	
+148195	ul	ul/	ủl	n. m. sg. abs. nom.	(military) force	
 148196	p	p(I)	p (I)	conj. functor	and	
-148196	p	p(III)/	p (III)	n. m. sg.	mouth	
+148196	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 148196	p	p(II)	p (II)	adv.	here	
-148197	ḫty	ḫty(I)/	ḫty (I)	GN sg.	Hittite	
+148197	ḫty	ḫty(I)/	ḫty (I)	GN sg. abs. nom.	Hittite	
 148198	u	u	ủ	conj.	or	
 148199	lp	?	?	?	?	DULAT: NOT FOUND
-148200	alṯy	alṯy/	ảlṯy(y)	GN sg.	ảlṯy(y)	
+148200	alṯy	alṯy/	ảlṯy(y)	GN sg. abs. nom.	ảlṯy(y)	
 148201	u	u	ủ	conj.	or	
 148202	lp	?	?	?	?	DULAT: NOT FOUND
-148203	ġbr	ġbr/	ġbr	TN sg.	nom propre	
+148203	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
 # KTU 1.40 21						
 148204	u	u	ủ	conj.	or	
 148205	lp	?	?	?	?	DULAT: NOT FOUND
-148206	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. cstr.	oppressor	
+148206	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. cstr. nom.	oppressor	
 148207	u	u	ủ	conj.	or	
 148208	lp	?	?	?	?	DULAT: NOT FOUND
 148209	mdllkn	mdll+kn	mdll	→	?	
 148210	u	u	ủ	conj.	or	
 148211	lp	?	?	?	?	DULAT: NOT FOUND
-148212	qrzbl	qrzbl/	qrzbl	TN sg.	Fürstenquelle	
+148212	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
 # KTU 1.40 22						
 148213	u	u	ủ	conj.	or	
 148214	tḫṭin	!t!ḫṭ(ʔ[&in	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake	
 148215	b	b	b	prep.	in	
 148216	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
-148216	apkn	ap(II)/+kn	ảp (II)	n. m. cstr.	nose	
-148216	apkn	apq/+n	ảpq	n. m. cstr.	spring	
+148216	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. nom.	nose	
+148216	apkn	apq/+n	ảpq	n. m. cstr. nom.	spring	
 148217	u	u	ủ	conj.	or	
 148218	bqṣrt	?	?	?	?	DULAT: NOT FOUND
-148219	npškn	npš(I)/+kn	npš (I)	n. f. cstr.	throat	
-148219	npškn	npš(I)&k/+n	npš (I)	n. f. cstr.	throat	
+148219	npškn	npš(I)/+kn	npš (I)	n. f. cstr. nom.	throat	
+148219	npškn	npš(I)&k/+n	npš (I)	n. f. cstr. nom.	throat	
 148220	u	u	ủ	conj.	or	
 148221	bqṭt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.40 23						
@@ -289,355 +289,355 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148223	utḫṭin	?	?	?	?	DULAT: NOT FOUND
 148224	ldbḥm	?	?	?	?	DULAT: NOT FOUND
 148225	wl	?	?	?	?	DULAT: NOT FOUND
-148226	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
-148226	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
-148227	dbḥn	dbḥ/	dbḥ	n. m. sg.	sacrifice	
+148226	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+148226	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
+148227	dbḥn	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 148228	ndbḥ	!n!dbḥ[	/d-b-ḥ/	vb G prefc. 1 c. pl.	to sacrifice	
 # KTU 1.40 24						
 148229	hw	hw	hw	pers. pn.	he	
-148230	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
-148230	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
+148230	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+148230	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
 148231	nṯˤy	!n!ṯˤy[	/ṯ-ʕ-y/	vb G prefc. 1 c. pl.	to offer	
 148232	hw	hw	hw	pers. pn.	he	
 148233	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148233	nkt	nkt/	nkt	n. m. sg.	immolation	
+148233	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148234	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148234	nkt	nkt/	nkt	n. m. sg.	immolation	
+148234	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148235	ytšil	?	?	?	?	DULAT: NOT FOUND
-148236	ab	ab/	ảb	n. m. sg. abs.	father	
-148236	ab	ab/	ảb	n. m. sg. cstr.	father	
-148237	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148237	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148236	ab	ab/	ảb	n. m. sg. abs. nom.	father	
+148236	ab	ab/	ảb	n. m. sg. cstr. nom.	father	
+148237	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148237	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148237	bn	bn(II)	bn (II)	prep.	between	
 148237	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148237	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148238	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148238	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148238	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148238	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148238	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148238	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148238	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148238	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.40 25						
 148239	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148240	l	l(I)	l (I)	prep.	to	
 148240	l	l(III)	l (III)	functor	certainly	
-148241	dr	dr/	dr	n. m. pl. cstr.	circle	
-148241	dr	dr/	dr	n. m. sg.	circle	
-148242	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148242	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148241	dr	dr/	dr	n. m. pl. cstr. nom.	circle	
+148241	dr	dr/	dr	n. m. sg. abs. nom.	circle	
+148242	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148242	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148242	bn	bn(II)	bn (II)	prep.	between	
 148242	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148242	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148243	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148243	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148243	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148243	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148243	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148243	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148243	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148243	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148244	l	l(I)	l (I)	prep.	to	
 148244	l	l(III)	l (III)	functor	certainly	
-148245	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
-148246	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148246	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148245	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. abs. nom.	assembly	
+148246	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148246	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148246	bn	bn(II)	bn (II)	prep.	between	
 148246	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148246	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148247	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148247	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148247	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148247	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148247	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148247	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148247	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148247	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148248	l	l(I)	l (I)	prep.	to	
 148248	l	l(III)	l (III)	functor	certainly	
-148249	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
-148249	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
+148249	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148249	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. nom.	shoulder	
 148250	w	w	w	conj.	and	
-148251	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+148251	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148251	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 148252	hn	hn	hn	functor	behold!	
-148253	š	š/	š	n. m. sg.	ram	
+148253	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.40 26						
 148254	w	w	w	conj.	and	
 148255	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to approach	
-148256	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
-148256	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
-148257	mšr	mšr(I)/	mšr (I)	n. m. sg.	justice	
-148258	mšr	mšr(I)/	mšr (I)	n. m. sg.	justice	
-148259	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148259	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148256	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
+148256	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
+148257	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. nom.	justice	
+148258	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. nom.	justice	
+148259	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148259	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148259	bn	bn(II)	bn (II)	prep.	between	
 148259	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148259	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148260	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+148260	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 148261	w	w	w	conj.	and	
-148262	npy	npy/	npy	n. m. sg.	purification	
-148263	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+148262	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+148263	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 1.40 27						
 148264	w	w	w	conj.	and	
-148265	npy	npy/	npy	n. m. sg.	purification	
-148266	yman	yman/	ymản	TN sg.	Ionia	
+148265	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+148266	yman	yman/	ymản	TN sg. abs. nom.	Ionia	
 148267	w	w	w	conj.	and	
-148268	npy	npy/	npy	n. m. sg.	purification	
-148269	ˤrmt	ˤrmt/	ʕrmt	TN sg.	ʿrmt	
+148268	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+148269	ˤrmt	ˤrmt/	ʕrmt	TN sg. abs. nom.	ʿrmt	
 148270	w	w	w	conj.	and	
-148271	npy	npy/	npy	n. m. sg.	purification	
+148271	npy	npy/	npy	n. m. sg. abs. nom.	purification	
 148272	x	?	?	?	?	
 # KTU 1.40 28						
 148273	w	w	w	conj.	and	
-148274	npy	npy/	npy	n. m. sg.	purification	
-148275	nqmd	nqmd/	nqmd	PN sg.	Niqmaddu II	
+148274	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+148275	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
 148276	u	u	ủ	conj.	or	
 148277	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-148278	ypkm	yp/	yp	n. m. sg.	dignity	
+148278	ypkm	yp/	yp	n. m. sg. abs. nom.	dignity	
 148279	u	u	ủ	conj.	or	
 148280	lp	?	?	?	?	DULAT: NOT FOUND
-148281	qṭy	qṭy(I)/	qṭy (I)	GN sg.	il qadita	
+148281	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
 148282	u	u	ủ	conj.	or	
 148283	lp	?	?	?	?	DULAT: NOT FOUND
-148284	ddmy	ddmy/	ddmy	GN sg.	ddmy	
+148284	ddmy	ddmy/	ddmy	GN sg. abs. nom.	ddmy	
 # KTU 1.40 29						
 148285	u	u	ủ	conj.	or	
 148286	lp	?	?	?	?	DULAT: NOT FOUND
-148287	ḫry	ḫry/	ḫry	GN sg.	Hurrian	
+148287	ḫry	ḫry/	ḫry	GN sg. abs. nom.	Hurrian	
 148288	u	u	ủ	conj.	or	
 148289	lp	?	?	?	?	DULAT: NOT FOUND
-148290	ḫty	ḫty(I)/	ḫty (I)	GN sg.	Hittite	
+148290	ḫty	ḫty(I)/	ḫty (I)	GN sg. abs. nom.	Hittite	
 148291	u	u	ủ	conj.	or	
 148292	lp	?	?	?	?	DULAT: NOT FOUND
-148293	alty	alty/	ảlty	PN sg.	villager	
-148293	alty	alt(I)/+y	ảlt (I)	n. f. cstr.	curse	
-148293	alty	alt(II)/+y	ảlt (II)	n. f. cstr.	support	
+148293	alty	alty/	ảlty	PN sg. abs. nom.	villager	
+148293	alty	alt(I)/+y	ảlt (I)	n. f. cstr. nom.	curse	
+148293	alty	alt(II)/+y	ảlt (II)	n. f. cstr. nom.	support	
 148294	u	u	ủ	conj.	or	
 148295	lp	?	?	?	?	DULAT: NOT FOUND
-148296	ġbr	ġbr/	ġbr	TN sg.	nom propre	
+148296	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
 148297	u	u	ủ	conj.	or	
 148298	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.40 30						
-148299	ḫbtkm	ḫbt(I)/+km	ḫbt (I)	n. m. pl. cstr.	oppressor	
+148299	ḫbtkm	ḫbt(I)/+km	ḫbt (I)	n. m. pl. cstr. nom.	oppressor	
 148300	u	u	ủ	conj.	or	
 148301	lp	?	?	?	?	DULAT: NOT FOUND
 148302	mdllkm	mdll+km	mdll	→	?	
 148303	u	u	ủ	conj.	or	
 148304	lp	?	?	?	?	DULAT: NOT FOUND
-148305	qrzbl	qrzbl/	qrzbl	TN sg.	Fürstenquelle	
+148305	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
 148306	u	u	ủ	conj.	or	
 148307	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-148308	ypkm	yp/	yp	n. m. sg.	dignity	
+148308	ypkm	yp/	yp	n. m. sg. abs. nom.	dignity	
 # KTU 1.40 31						
 148309	u	u	ủ	conj.	or	
 148310	bapkm	?	?	?	?	DULAT: NOT FOUND
 148311	u	u	ủ	conj.	or	
 148312	bqṣrt	?	?	?	?	DULAT: NOT FOUND
-148313	npškm	npš(I)/+km	npš (I)	n. f. cstr.	throat	
+148313	npškm	npš(I)/+km	npš (I)	n. f. cstr. nom.	throat	
 148314	u	u	ủ	conj.	or	
 148315	bqṭt	?	?	?	?	DULAT: NOT FOUND
 148316	tqṭṭ	!t!qṭṭ[:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
 # KTU 1.40 32						
 148317	u	u	ủ	conj.	or	
 148318	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-148319	ypkm	yp/	yp	n. m. sg.	dignity	
+148319	ypkm	yp/	yp	n. m. sg. abs. nom.	dignity	
 148320	l	l(I)	l (I)	prep.	to	
 148320	l	l(III)	l (III)	functor	certainly	
-148321	dbḥm	dbḥ/m	dbḥ	n. m. pl.	sacrifice	
+148321	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	sacrifice	
 148322	w	w	w	conj.	and	
 148323	l	l(I)	l (I)	prep.	to	
 148323	l	l(III)	l (III)	functor	certainly	
-148324	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
-148324	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
-148325	dbḥn	dbḥ/	dbḥ	n. m. sg.	sacrifice	
+148324	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+148324	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
+148325	dbḥn	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 148326	ndbḥ	!n!dbḥ[	/d-b-ḥ/	vb G prefc. 1 c. pl.	to sacrifice	
 148327	hw	hw	hw	pers. pn.	he	
-148328	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
-148328	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
+148328	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+148328	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
 148329	nṯˤy	!n!ṯˤy[	/ṯ-ʕ-y/	vb G prefc. 1 c. pl.	to offer	
 # KTU 1.40 33						
 148330	hw	hw	hw	pers. pn.	he	
 148331	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148331	nkt	nkt/	nkt	n. m. sg.	immolation	
+148331	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148332	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148332	nkt	nkt/	nkt	n. m. sg.	immolation	
+148332	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148333	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148334	l	l(I)	l (I)	prep.	to	
 148334	l	l(III)	l (III)	functor	certainly	
-148335	ab	ab/	ảb	n. m. sg. abs.	father	
-148335	ab	ab/	ảb	n. m. sg. cstr.	father	
-148336	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148336	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148335	ab	ab/	ảb	n. m. sg. abs. nom.	father	
+148335	ab	ab/	ảb	n. m. sg. cstr. nom.	father	
+148336	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148336	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148336	bn	bn(II)	bn (II)	prep.	between	
 148336	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148336	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148337	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148337	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148337	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148337	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148337	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148337	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148337	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148337	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148338	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148339	l	l(I)	l (I)	prep.	to	
 148339	l	l(III)	l (III)	functor	certainly	
-148340	dr	dr/	dr	n. m. pl. cstr.	circle	
-148340	dr	dr/	dr	n. m. sg.	circle	
+148340	dr	dr/	dr	n. m. pl. cstr. nom.	circle	
+148340	dr	dr/	dr	n. m. sg. abs. nom.	circle	
 # KTU 1.40 34						
-148341	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148341	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148341	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148341	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148341	bn	bn(II)	bn (II)	prep.	between	
 148341	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148341	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148342	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148342	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148342	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148342	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148342	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148342	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148342	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148342	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148343	l	l(I)	l (I)	prep.	to	
 148343	l	l(III)	l (III)	functor	certainly	
-148344	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg.	assembly	
-148345	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148345	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148344	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. abs. nom.	assembly	
+148345	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148345	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148345	bn	bn(II)	bn (II)	prep.	between	
 148345	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148345	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148346	ill	ill/	ỉll	PN sg.	ỉll	
-148347	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
-148347	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
+148346	ill	ill/	ỉll	PN sg. abs. nom.	ỉll	
+148347	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148347	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. nom.	shoulder	
 148348	wšnm	?	?	?	?	DULAT: NOT FOUND
 148349	hn	hn	hn	functor	behold!	
-148350	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
-148350	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
+148350	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
+148350	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
 # KTU 1.40 35						
 148351	w	w	w	conj.	and	
 148352	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 148352	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
 148353	l	l(I)	l (I)	prep.	to	
 148353	l	l(III)	l (III)	functor	certainly	
-148354	mspr	mspr/	mspr	n. m. sg.	recitation	
-148355	mšr	mšr(I)/	mšr (I)	n. m. sg.	justice	
-148355	mšr	mšr(II)/	mšr (II)	n. sg.	song	
-148356	mšr	mšr(I)/	mšr (I)	n. m. sg.	justice	
-148356	mšr	mšr(II)/	mšr (II)	n. sg.	song	
-148357	bnt	bt(I)/	bt (I)	n. f. pl. abs.	daughter	
-148357	bnt	bt(I)/	bt (I)	n. f. pl. cstr.	daughter	
-148357	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr.	produce	
-148357	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
-148358	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+148354	mspr	mspr/	mspr	n. m. sg. abs. nom.	recitation	
+148355	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. nom.	justice	
+148355	mšr	mšr(II)/	mšr (II)	n. sg. abs. nom.	song	
+148356	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. nom.	justice	
+148356	mšr	mšr(II)/	mšr (II)	n. sg. abs. nom.	song	
+148357	bnt	bt(I)/	bt (I)	n. f. pl. abs. nom.	daughter	
+148357	bnt	bt(I)/	bt (I)	n. f. pl. cstr. nom.	daughter	
+148357	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
+148357	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. nom.	masonry	
+148358	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 148359	w	w	w	conj.	and	
-148360	npy	npy/	npy	n. m. sg.	purification	
-148361	gr	gr(I)/	gr (I)	n. m. pl. cstr.	protected	
-148361	gr	gr(I)/	gr (I)	n. m. sg.	protected	
+148360	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+148361	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
+148361	gr	gr(I)/	gr (I)	n. m. sg. abs. nom.	protected	
 148361	gr	gr[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
 # KTU 1.40 36						
-148362	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl.	wall	
-148363	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+148362	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl. abs. nom.	wall	
+148363	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 148364	wnpy	?	?	?	?	DULAT: NOT FOUND
 148365	axṯt	?	?	?	?	DULAT: NOT FOUND
 148366	u	u	ủ	conj.	or	
 148367	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-148368	ypkn	yp/	yp	n. m. sg.	dignity	
+148368	ypkn	yp/	yp	n. m. sg. abs. nom.	dignity	
 148369	u	u	ủ	conj.	or	
 148370	lp	?	?	?	?	DULAT: NOT FOUND
-148371	qty	qt/+y	qt	n. m. cstr.	handle	
-148371	qty	ṯigt/+y	ṯỉgt	n. f. cstr.	neighing	
+148371	qty	qt/+y	qt	n. m. cstr. nom.	handle	
+148371	qty	ṯigt/+y	ṯỉgt	n. f. cstr. nom.	neighing	
 # KTU 1.40 37						
 148372	u	u	ủ	conj.	or	
 148373	lp	?	?	?	?	DULAT: NOT FOUND
-148374	ddmy	ddmy/	ddmy	GN sg.	ddmy	
+148374	ddmy	ddmy/	ddmy	GN sg. abs. nom.	ddmy	
 148375	u	u	ủ	conj.	or	
 148376	lp	?	?	?	?	DULAT: NOT FOUND
-148377	ḫry	ḫry/	ḫry	GN sg.	Hurrian	
+148377	ḫry	ḫry/	ḫry	GN sg. abs. nom.	Hurrian	
 148378	u	u	ủ	conj.	or	
 148379	lp	?	?	?	?	DULAT: NOT FOUND
-148380	ḫty	ḫty(I)/	ḫty (I)	GN sg.	Hittite	
+148380	ḫty	ḫty(I)/	ḫty (I)	GN sg. abs. nom.	Hittite	
 148381	u	u	ủ	conj.	or	
 148382	lp	?	?	?	?	DULAT: NOT FOUND
-148383	alṯy	alṯy/	ảlṯy(y)	GN sg.	ảlṯy(y)	
+148383	alṯy	alṯy/	ảlṯy(y)	GN sg. abs. nom.	ảlṯy(y)	
 # KTU 1.40 38						
 148384	u	u	ủ	conj.	or	
 148385	lp	?	?	?	?	DULAT: NOT FOUND
-148386	ġbr	ġbr/	ġbr	TN sg.	nom propre	
+148386	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
 148387	u	u	ủ	conj.	or	
 148388	lp	?	?	?	?	DULAT: NOT FOUND
-148389	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. cstr.	oppressor	
-148390	ul	ul/	ủl	n. m. sg.	(military) force	
+148389	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. cstr. nom.	oppressor	
+148390	ul	ul/	ủl	n. m. sg. abs. nom.	(military) force	
 148391	p	p(I)	p (I)	conj. functor	and	
-148391	p	p(III)/	p (III)	n. m. sg.	mouth	
+148391	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 148391	p	p(II)	p (II)	adv.	here	
 148392	mdllkn	mdll+kn	mdll	→	?	
 148393	u	u	ủ	conj.	or	
 148394	lp	?	?	?	?	DULAT: NOT FOUND
-148395	qrzbl	qrzbl/	qrzbl	TN sg.	Fürstenquelle	
+148395	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
 # KTU 1.40 39						
-148396	lšn	lšn/	lšn	n. f. sg.	tongue	
-148397	ypkn	yp/	yp	n. m. sg.	dignity	
+148396	lšn	lšn/	lšn	n. f. sg. abs. nom.	tongue	
+148397	ypkn	yp/	yp	n. m. sg. abs. nom.	dignity	
 148398	b	b	b	prep.	in	
 148399	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
-148399	apkn	ap(II)/+kn	ảp (II)	n. m. cstr.	nose	
-148399	apkn	apq/+n	ảpq	n. m. cstr.	spring	
+148399	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. nom.	nose	
+148399	apkn	apq/+n	ảpq	n. m. cstr. nom.	spring	
 148400	u	u	ủ	conj.	or	
 148401	bqṣrt	?	?	?	?	DULAT: NOT FOUND
-148402	npškn	npš(I)/+kn	npš (I)	n. f. cstr.	throat	
-148402	npškn	npš(I)&k/+n	npš (I)	n. f. cstr.	throat	
+148402	npškn	npš(I)/+kn	npš (I)	n. f. cstr. nom.	throat	
+148402	npškn	npš(I)&k/+n	npš (I)	n. f. cstr. nom.	throat	
 148403	u	u	ủ	conj.	or	
 148404	bqṭt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.40 40						
 148405	tqṭṭn	!t!qṭṭ[n:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
 148406	u	u	ủ	conj.	or	
 148407	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-148408	ypkn	yp/	yp	n. m. sg.	dignity	
+148408	ypkn	yp/	yp	n. m. sg. abs. nom.	dignity	
 148409	l	l(I)	l (I)	prep.	to	
 148409	l	l(III)	l (III)	functor	certainly	
-148410	dbḥm	dbḥ/m	dbḥ	n. m. pl.	sacrifice	
+148410	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	sacrifice	
 148411	w	w	w	conj.	and	
 148412	lṯˤ	?	?	?	?	DULAT: NOT FOUND
-148413	dbḥn	dbḥ/	dbḥ	n. m. sg.	sacrifice	
+148413	dbḥn	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 # KTU 1.40 41						
 148414	ndbḥ	!n!dbḥ[	/d-b-ḥ/	vb G prefc. 1 c. pl.	to sacrifice	
 148415	hw	hw	hw	pers. pn.	he	
-148416	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg.	Hero	
-148416	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg.	offering	
+148416	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+148416	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
 148417	nṯˤy	!n!ṯˤy[	/ṯ-ʕ-y/	vb G prefc. 1 c. pl.	to offer	
 148418	hw	hw	hw	pers. pn.	he	
 148419	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148419	nkt	nkt/	nkt	n. m. sg.	immolation	
+148419	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148420	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
-148420	nkt	nkt/	nkt	n. m. sg.	immolation	
+148420	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 148421	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148422	l	l(I)	l (I)	prep.	to	
 148422	l	l(III)	l (III)	functor	certainly	
-148423	ab	ab/	ảb	n. m. sg. abs.	father	
-148423	ab	ab/	ảb	n. m. sg. cstr.	father	
-148424	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148424	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148423	ab	ab/	ảb	n. m. sg. abs. nom.	father	
+148423	ab	ab/	ảb	n. m. sg. cstr. nom.	father	
+148424	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148424	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148424	bn	bn(II)	bn (II)	prep.	between	
 148424	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148424	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148425	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148425	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148425	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148425	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148425	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148425	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148425	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148425	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.40 42						
 148426	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to raise	
 148427	l	l(I)	l (I)	prep.	to	
 148427	l	l(III)	l (III)	functor	certainly	
-148428	dr	dr/	dr	n. m. pl. cstr.	circle	
-148428	dr	dr/	dr	n. m. sg.	circle	
-148429	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148429	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148428	dr	dr/	dr	n. m. pl. cstr. nom.	circle	
+148428	dr	dr/	dr	n. m. sg. abs. nom.	circle	
+148429	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148429	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148429	bn	bn(II)	bn (II)	prep.	between	
 148429	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148429	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148430	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148430	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148430	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148430	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148430	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148430	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148430	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148430	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 148431	lmpḫrt	?	?	?	?	DULAT: NOT FOUND
-148432	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-148432	bn	bn(I)/	bn (I)	n. m. sg.	son	
+148432	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+148432	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 148432	bn	bn(II)	bn (II)	prep.	between	
 148432	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 148432	bn	bn[	/b-n/	vb G impv. 2	to understand	
-148433	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-148433	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-148433	il	il(I)/	ỉl (I)	n. m. sg.	god	
-148433	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+148433	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+148433	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+148433	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148433	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.40 43						
 148434	l	l(I)	l (I)	prep.	to	
 148434	l	l(III)	l (III)	functor	certainly	
-148435	ṯkmn	ṯkmn/	ṯkmn	DN/element sg.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
-148435	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr.	shoulder	
+148435	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+148435	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. nom.	shoulder	
 148436	w	w	w	conj.	and	
-148437	šnm	šnm/	šnm	DN sg.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+148437	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 148437	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 148438	hn	hn	hn	functor	behold!	
-148439	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
-148439	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
+148439	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
+148439	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	

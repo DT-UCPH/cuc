@@ -2,13 +2,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 1						
 155393	id	id	ỉd	conj.	when	
 155394	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
-155395	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-155395	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+155395	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+155395	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 155396	bḫmn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 2						
 155397	xxśx	?	?	?	?	DULAT: NOT FOUND
 155398	w	w	w	conj.	and	
-155399	šinm	šin/m	šỉn	n. m. pl.	shoe	
+155399	šinm	šin/m	šỉn	n. m. pl. abs. nom.	shoe	
 155400	l	l(I)	l (I)	prep.	to	
 155400	l	l(II)	l (II)	adv.	no	
 155400	l	l(III)	l (III)	functor	certainly	
@@ -17,68 +17,68 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 3						
 155402	id	id	ỉd	conj.	when	
 155403	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
-155404	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-155404	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+155404	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+155404	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 155405	l	l(I)	l (I)	prep.	to	
 155405	l	l(III)	l (III)	functor	certainly	
-155406	ilib	ilib(I)/	ỉlỉb (I)	DN sg.	father god	
+155406	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 # KTU 1.164 4						
 155407	b	b	b	prep.	in	
-155408	db	db/	db	n. m. sg.	threshold	
+155408	db	db/	db	n. m. sg. abs. nom.	threshold	
 155409	ap	ap(I)	ảp (I)	adv./conj.	also	
-155409	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
+155409	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 155410	w	w	w	conj.	and	
-155411	npš	npš(I)/	npš (I)	n. f. sg.	throat	
-155412	ksp	ksp/	ksp	n. m. sg.	silver	
+155411	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+155412	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 1.164 5						
 155413	w	w	w	conj.	and	
-155414	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
+155414	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 155415	kmm	kmm	kmm	adv.	ditto	
-155416	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
-155416	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
+155416	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+155416	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 155416	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155417	w	w	w	conj.	and	
-155418	š	š/	š	n. m. sg.	ram	
+155418	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.164 6						
-155419	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
+155419	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 155420	l	l(I)	l (I)	prep.	to	
 155420	l	l(III)	l (III)	functor	certainly	
-155421	ilib	ilib(I)/	ỉlỉb (I)	DN sg.	father god	
+155421	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 155422	w	w	w	conj.	and	
-155423	šlmm	šlm(II)/~m	šlm (II)	n. m. pl.	communion victim / sacrifice	
-155423	šlmm	šlm(II)/~m	šlm (II)	n. m. sg.	communion victim / sacrifice	
-155423	šlmm	šlm(II)/m	šlm (II)	n. m. pl.	communion victim / sacrifice	
+155423	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+155423	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+155423	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.164 7						
 155424	kmm	kmm	kmm	adv.	ditto	
-155425	š	š/	š	n. m. sg.	ram	
+155425	š	š/	š	n. m. sg. abs. nom.	ram	
 155426	l	l(I)	l (I)	prep.	to	
-155427	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-155427	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-155427	il	il(I)/	ỉl (I)	n. m. sg.	god	
-155427	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-155428	šrp	šrp/	šrp	n. m. sg.	burnt sacrifice	
+155427	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+155427	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+155427	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+155427	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+155428	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 # KTU 1.164 8						
 155429	w	w	w	conj.	and	
-155430	šlmm	šlm(II)/~m	šlm (II)	n. m. pl.	communion victim / sacrifice	
-155430	šlmm	šlm(II)/~m	šlm (II)	n. m. sg.	communion victim / sacrifice	
-155430	šlmm	šlm(II)/m	šlm (II)	n. m. pl.	communion victim / sacrifice	
+155430	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+155430	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+155430	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 155431	kmm	kmm	kmm	adv.	ditto	
-155432	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
+155432	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
 # KTU 1.164 9						
 155433	l	l(I)	l (I)	prep.	to	
 155433	l	l(III)	l (III)	functor	certainly	
-155434	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
+155434	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 # KTU 1.164 10						
 155435	w	w	w	conj.	and	
 155436	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 155437	b	b	b	prep.	in	
-155438	qr	qr(I)/	qr (I)	n. m. sg.	source	
-155438	qr	qr(II)/	qr (II)	n. m. sg. cstr.	noise	
-155438	qr	qr(III)/	qr (III)	n. m. pl. cstr.	wall	
+155438	qr	qr(I)/	qr (I)	n. m. sg. abs. nom.	source	
+155438	qr	qr(II)/	qr (II)	n. m. sg. cstr. nom.	noise	
+155438	qr	qr(III)/	qr (III)	n. m. pl. cstr. nom.	wall	
 # KTU 1.164 11						
 155439	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-155440	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-155440	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+155440	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+155440	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 1.164 12						
 155441	xxt	?	?	?	?	DULAT: NOT FOUND
 155442	w	w	w	conj.	and	
@@ -89,26 +89,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155445	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
 155445	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 155445	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
-155445	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr.	banquet	
-155446	npš	npš(I)/	npš (I)	n. f. sg.	throat	
+155445	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
+155446	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 155447	w	w	w	conj.	and	
 155448	str	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 15						
 155449	xnxxxšbˤ	?	?	?	?	DULAT: NOT FOUND
-155450	kbkbm	kbkb/m	kbkb	n. m. pl.	heavenly body	
+155450	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	heavenly body	
 # KTU 1.164 16						
 155451	w	w	w	conj.	and	
 155452	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-155453	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
+155453	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 # KTU 1.164 17						
-155454	riš	riš(I)/	rỉš (I)	n. m. sg.	head	
+155454	riš	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	head	
 155455	axxm	?	?	?	?	DULAT: NOT FOUND
 155456	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 18						
 155457	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
 155457	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 155457	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
-155457	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr.	banquet	
+155457	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
 155458	sxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 19						
 155459	w	w	w	conj.	and	
@@ -116,9 +116,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155460	al	al(II)	ảl (II)	pos. functor	surely	
 155461	tṣu	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 155462	yṣu	!y!(yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
-155462	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg.	exit	
+155462	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 # KTU 1.164 20						
 155463	w	w	w	conj.	and	
-155464	ḥlt	ḥl(II)/	ḥl (II)	adj.	desacralised	
-155464	ḥlt	ḥl(t(II)/t	ḥlt (II)	n. f. sg.	desacralisation	
-155464	ḥlt	ḥlt(I)/	ḥlt (I)	MN sg.	phoenix	
+155464	ḥlt	ḥl(II)/	ḥl (II)	adj. abs. nom.	desacralised	
+155464	ḥlt	ḥl(t(II)/t	ḥlt (II)	n. f. sg. abs. nom.	desacralisation	
+155464	ḥlt	ḥlt(I)/	ḥlt (I)	MN sg. abs. nom.	phoenix	

@@ -981,3 +981,6 @@
 - Extended `morph_features/paradigm_matcher.py` with sparse-table fallback form inventories plus weak-initial/weak-final body variants, so under-specified `morphology.py` stems can still generate valid parser analyses for cases like `tkly`, `ttrp`, and weak-initial `ytn`.
 - Extended `spacy_ugaritic/components/morph_context.py` with backward plural/dual agreement across transparent function-word context, so later verbs can prune against an earlier plural nominal subject as well as a following one.
 - Refined `NominalFeatureCompleter` to default unresolved name-class rows (`DN/PN/TN/GN/MN/RN`) to singular when no other number evidence is available, improving rows like `ṣpn/ -> TN/DN sg.` without inventing gender.
+- Refined nominal and adjectival morphology completion to default eligible rows to `abs. nom.` when no stronger state/case evidence is available; participial verbal rows now render the same default state/case payload.
+- Switched the Baal lexical spaCy step to grouped-token mode and added a dedicated `aliyn bˤl` rule that collapses the cluster to the divine-name reading `bˤl(II)/ -> DN m. sg. abs. nom.` in all immediate `aliyn bˤl` contexts.
+- Moved the Baal lexical spaCy stage after nominal/attestation expansion so the grouped-token `aliyn bˤl` collapse survives later morphology completion and remains the final lexical choice before `l`-context.

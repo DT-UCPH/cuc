@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.60 1						
-158615	mṯn	mṯn/	mṯn	n. m. sg. cstr.	repetition	
-158615	mṯn	mṯn/	mṯn	n. m. sg.	repetition	
+158615	mṯn	mṯn/	mṯn	n. m. sg. cstr. nom.	repetition	
+158615	mṯn	mṯn/	mṯn	n. m. sg. abs. nom.	repetition	
 # KTU 2.60 2						
 158616	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.60 3						
@@ -13,5 +13,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158620	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 2.60 6						
 158621	p	p(I)	p (I)	conj. functor	and	
-158621	p	p(III)/	p (III)	n. m. sg.	mouth	
+158621	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 158621	p	p(II)	p (II)	adv.	here	

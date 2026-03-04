@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.54 1						
 158532	x	?	?	?	?	
-158533	tmtt	tmt(t/t	tmtt	n. f. sg.	group of men	
+158533	tmtt	tmt(t/t	tmtt	n. f. sg. abs. nom.	group of men	
 # KTU 2.54 2						
 158534	l	l(I)	l (I)	prep.	to	
 158534	l	l(II)	l (II)	adv.	no	
@@ -12,9 +12,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158537	hm	hm(II)	hm (II)	conj./interr. functor	if	
 158537	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 2.54 4						
-158538	š	š/	š	n. m. sg.	ram	
-158539	skn	skn(I)/	s:śkn (I)	n. m. sg.	prefect	
-158539	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr.	prefect	
+158538	š	š/	š	n. m. sg. abs. nom.	ram	
+158539	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
+158539	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
 # KTU 2.54 5						
 158540	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 158540	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND

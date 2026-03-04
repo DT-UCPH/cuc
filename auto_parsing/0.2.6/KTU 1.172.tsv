@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155801	l	l(III)	l (III)	functor	certainly	
 # KTU 1.172 6						
 155802	w	w	w	conj.	and	
-155803	šb	šb/	šb	n. m.	old man	
+155803	šb	šb/	šb	n. m. abs. nom.	old man	
 # KTU 1.172 7						
 155804	nwy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 8						
@@ -21,18 +21,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155806	angḥ	!(ʔ&a!ngḥ[	/n-g-ḥ/	vb N prefc. 1 c. sg.	to butt each other	
 # KTU 1.172 9						
 155807	ṭx	?	?	?	?	DULAT: NOT FOUND
-155808	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl.	torrent	
+155808	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl. abs. nom.	torrent	
 # KTU 1.172 10						
-155809	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
-155809	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
-155809	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
+155809	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+155809	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+155809	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 1.172 11						
 155810	x	?	?	?	?	
 155811	ḫlt	ḫlt	ḫlt	?	?	
 # KTU 1.172 12						
 155812	t	/t, /t=				DULAT: NOT FOUND
 155812	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-155813	šmal	šmal/	šmảl	adj. m. sg.	left	
+155813	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	left	
 # KTU 1.172 13						
 155814	xˤnk	?	?	?	?	DULAT: NOT FOUND
 155815	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
@@ -46,7 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155818	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 155818	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 155818	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
-155819	tlm	tlm/	tlm	n. m. sg.	furrow	
+155819	tlm	tlm/	tlm	n. m. sg. abs. nom.	furrow	
 # KTU 1.172 16						
 155820	qd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 17						
@@ -54,55 +54,55 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155821	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 155821	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 155821	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
-155822	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-155822	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-155822	il	il(I)/	ỉl (I)	n. m. sg.	god	
-155822	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+155822	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+155822	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+155822	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+155822	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.172 18						
 155823		?	?	?	?	
 155824	l	l(I)	l (I)	prep.	to	
 155824	l	l(III)	l (III)	functor	certainly	
-155825	mˤt	mˤ(t/t	mʕt	n. f. pl.	?	
-155825	mˤt	mˤ(t/t	mʕt	n. f. sg.	?	
-155825	mˤt	mˤ(t/t=	mʕt	n. f. pl.	?	
+155825	mˤt	mˤ(t/t	mʕt	n. f. pl. abs. nom.	?	
+155825	mˤt	mˤ(t/t	mʕt	n. f. sg. abs. nom.	?	
+155825	mˤt	mˤ(t/t=	mʕt	n. f. pl. abs. nom.	?	
 # KTU 1.172 19						
-155826	šnt	šn(t(I)/t	šnt (I)	n. f. sg.	year	
+155826	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
 155827	ˤlyqm	ˤlyqm	ʕlyqm	?	?	
 # KTU 1.172 20						
 155828	xšy	?	?	?	?	DULAT: NOT FOUND
 155829	ybġ	?	?	?	?	DULAT: NOT FOUND
-155830	dd	dd(II)/	dd (II)	n. m. sg.	cauldronful	
+155830	dd	dd(II)/	dd (II)	n. m. sg. abs. nom.	cauldronful	
 # KTU 1.172 21						
 155831		?	?	?	?	
-155832	ḫẓ	ḥẓ/	ḥẓ	n. m. sg.	arrow	
+155832	ḫẓ	ḥẓ/	ḥẓ	n. m. sg. abs. nom.	arrow	
 155832	ḫẓ	ḫẓ	ḫẓ	?	?	
-155833	ksp	ksp/	ksp	n. m. sg.	silver	
+155833	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 155834	b	b	b	prep.	in	
-155835	ydh	yd(I)/+h	yd (I)	n. f. cstr.	hand	
+155835	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
 # KTU 1.172 22						
 155836	nh	n(I)	-n (I)	morph.	Sun	
 155837	w	w	w	conj.	and	
 155838	lyamr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 23						
 155839	x	?	?	?	?	
-155840	gb	gb(I)/	gb (I)	n. m. sg.	pit	
-155841	ad	ad/	ảd	n. m. sg.	father	
+155840	gb	gb(I)/	gb (I)	n. m. sg. abs. nom.	pit	
+155841	ad	ad/	ảd	n. m. sg. abs. nom.	father	
 # KTU 1.172 24						
 155842	xḫl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 25						
 155843	x	?	?	?	?	
-155844	brkh	brk/+h	brk	n. f. cstr.	knee	
+155844	brkh	brk/+h	brk	n. f. cstr. nom.	knee	
 # KTU 1.172 26						
 155845	xšb	?	?	?	?	DULAT: NOT FOUND
 155846	l	l(I)	l (I)	prep.	to	
 155846	l	l(III)	l (III)	functor	certainly	
-155847	rḥ	rḥ(I)/	rḥ (I)	n. f. sg.	wind	
+155847	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. nom.	wind	
 # KTU 1.172 27						
 155848	dy	d	d	det. or rel. functor	the one(s) of	
 155849	w	w	w	conj.	and	
 155850	mrḫt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 28						
-155851	ḥmṯ	ḥmṯ/	ḥmṯ	n. m. sg.	belly	
+155851	ḥmṯ	ḥmṯ/	ḥmṯ	n. m. sg. abs. nom.	belly	
 # KTU 1.172 29						
 155852	bm	b+m(I)	b	prep.	in	
 # KTU 1.172 30						

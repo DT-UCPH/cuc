@@ -3,25 +3,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158687	l	l(I)	l (I)	prep.	to	
 158687	l	l(II)	l (II)	adv.	no	
 158687	l	l(III)	l (III)	functor	certainly	
-158688	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-158688	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-158689	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+158688	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+158688	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+158689	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 2.63 2						
 158690	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158690	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158690	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158690	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-158690	rgm	rgm/	rgm	n. m. sg.	word	
+158690	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+158690	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.63 3						
-158691	tḥm	tḥm/	tḥm	n. m. sg.	message	
+158691	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 158692	wrblˤbdk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.63 4						
 158693	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158693	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158694	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.63 5						
-158695	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-158695	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+158695	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+158695	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 158696	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.63 6						
 158697	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -33,15 +33,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158700	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.63 8						
 158701	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
-158701	šil	šil(I)/	šỉl (I)	n. m. sg.	interrogator	
-158702	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr.	peace	
-158702	šlmy	šlmy(II)/	šlmy (II)	GN sg.	šlmy (II)	
+158701	šil	šil(I)/	šỉl (I)	n. m. sg. abs. nom.	interrogator	
+158702	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
+158702	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	
 # KTU 2.63 9						
-158703	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
-158703	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
-158704	ruš	ruš/	rủš	n. m. sg.	hurt in the head	
+158703	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+158703	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+158704	ruš	ruš/	rủš	n. m. sg. abs. nom.	hurt in the head	
 # KTU 2.63 10						
-158705	uly	ul/+y	ủl	n. m. cstr.	(military) force	
+158705	uly	ul/+y	ủl	n. m. cstr. nom.	(military) force	
 158706	l	l(I)	l (I)	prep.	to	
 158706	l	l(II)	l (II)	adv.	no	
 158706	l	l(III)	l (III)	functor	certainly	
@@ -51,8 +51,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158709	ˤxxxnxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.63 12						
 158710	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
-158710	šil	šil(I)/	šỉl (I)	n. m. sg.	interrogator	
-158711	š	š/	š	n. m. sg.	ram	
+158710	šil	šil(I)/	šỉl (I)	n. m. sg. abs. nom.	interrogator	
+158711	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 2.63 13						
 158712	lm	l(I)	l (I)	prep.	to	
 158713	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	

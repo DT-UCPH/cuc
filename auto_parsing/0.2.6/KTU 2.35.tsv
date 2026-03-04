@@ -1,23 +1,23 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.35 1						
 157657	xn	?	?	?	?	DULAT: NOT FOUND
-157658	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
-157658	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
-157658	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
+157658	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+157658	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157658	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 2.35 2						
-157659	tḥm	tḥm/	tḥm	n. m. sg.	message	
+157659	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 # KTU 2.35 3						
-157660	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
+157660	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.35 4						
 157661	xxxx	?	?	?	?	
 # KTU 2.35 5						
 157662		?	?	?	?	
-157663	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+157663	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 2.35 6						
-157664	šlmk	šlm(I)/+k	šlm (I)	n. m. cstr.	peace	
+157664	šlmk	šlm(I)/+k	šlm (I)	n. m. cstr. nom.	peace	
 157664	šlmk	šlm[:d+k	/š-l-m/	vb G suffc.	to be well	
 157664	šlmk	šlm[+k	/š-l-m/	vb D suffc.	to be well	
-157664	šlmk	šlm(III)/+k	šlm (III)	adj. m. cstr.	pure	
+157664	šlmk	šlm(III)/+k	šlm (III)	adj. m. cstr. nom.	pure	
 # KTU 2.35 7						
 157665	t	/t, /t=				DULAT: NOT FOUND
 157665	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
@@ -25,13 +25,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157667	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.35 8						
 157668	mx	?	?	?	?	DULAT: NOT FOUND
-157669	rb	rb(II)/	rb (II)	n. m. sg. abs.	chief	
-157669	rb	rb(II)/	rb (II)	n. m. sg. cstr.	chief	
-157669	rb	rb(I)/	rb (I)	adj. m. sg.	great	
-157669	rb	rb/	rb(b)	n. m. sg.	drizzle	
+157669	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+157669	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+157669	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+157669	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 # KTU 2.35 9						
-157670	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-157670	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+157670	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+157670	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 2.35 10						
 157671	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 157671	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
@@ -51,28 +51,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157678	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 157678	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 157678	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
-157679	bnš	bnš/	bnš	n. m. pl.	man	
-157679	bnš	bnš/	bnš	n. m. sg.	man	
+157679	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
+157679	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 # KTU 2.35 15						
 157680	lk	l(I)+k	l (I)	prep.	to	
 157681	w	w	w	conj.	and	
 157682	l	l(I)	l (I)	prep.	to	
 157682	l	l(III)	l (III)	functor	certainly	
-157683	kl	kl/	kl	n. m. sg.	totality (of)	
+157683	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
 # KTU 2.35 16						
-157684	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+157684	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 157685	argm	!(ʔ&a!rgm[	/r-g-m/	vb	to say	
 # KTU 2.35 17						
-157686	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-157686	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-157687	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+157686	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+157686	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157687	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 2.35 18						
 157688		?	?	?	?	
-157689	bnš	bnš/	bnš	n. m. pl.	man	
-157689	bnš	bnš/	bnš	n. m. sg.	man	
+157689	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
+157689	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 # KTU 2.35 19						
 157690	a	?	?	?	?	DULAT: NOT FOUND
 157691	w	w	w	conj.	and	
-157692	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+157692	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 2.35 20						
 157693	x	?	?	?	?	

@@ -1,14 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.20 I:1						
-146697	rpum	rp(u&/m	rpủ	n. m. pl.	healer	
+146697	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
 146698	tdbḥn	tdbḥn[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 # KTU 1.20 I:2						
 146699	bˤd	bˤd	bʕd	adv. or prep.	behind	
-146700	ilnym	ilny/m	ỉlny	adj. m. pl.	divine one	
+146700	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.20 I:3						
 146701		?	?	?	?	
 146702	km	km	km	prep./conj./adv.		
-146703	tmtm	tm&t/+m(I)	tm	adj. m. cstr.	complete	
+146703	tmtm	tm&t/+m(I)	tm	adj. m. cstr. nom.	complete	
 # KTU 1.20 I:4						
 146704	b	b	b	prep.	in	
 146705	k	+k	-k (I)			
@@ -16,29 +16,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146705	k	k(III)	k (III)	Subordinating or completive functor	when	
 146705	k	k(I)	k (I)	prep.	like	
 146705	k	k(II)	k (II)	emph. functor	yes	
-146706	qrb	qrb/	qrb	n. m. sg. cstr.	inside	
-146707	sd	sd/	sd	n. m. sg.	council	
+146706	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
+146707	sd	sd/	sd	n. m. sg. abs. nom.	council	
 # KTU 1.20 I:5						
 146708	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 146708	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 146708	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 146708	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 146709	bym	b+m(I)	b	prep.	in	
-146710	qẓ	qẓ/	qẓ	n. m. sg.	summer	
+146710	qẓ	qẓ/	qẓ	n. m. sg. abs. nom.	summer	
 # KTU 1.20 I:6						
-146711	rpim	rp(u&i/m	rpủ	n. m. pl.	healer	
+146711	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
 146712	tlḥmn	tlḥmn[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
 # KTU 1.20 I:7						
-146713	rpim	rp(u&i/m	rpủ	n. m. pl.	healer	
+146713	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
 146714	tštyn	!t!šty[n	/š-t-y/	vb G prefc.	to drink	
 # KTU 1.20 I:8						
 146715		?	?	?	?	
-146716	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-146716	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-146716	il	il(I)/	ỉl (I)	n. m. sg.	god	
-146716	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+146716	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+146716	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+146716	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+146716	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 146717	d	d	d	det. or rel. functor	the one(s) of	
-146718	ˤrgzm	ˤrgz(I)/m	ʕrgz (I)	n. m. pl.	juniper berries (?)	
+146718	ˤrgzm	ˤrgz(I)/m	ʕrgz (I)	n. m. pl. abs. nom.	juniper berries (?)	
 # KTU 1.20 I:9						
 146719		?	?	?	?	
 146720	dt	d	d	det. or rel. functor	the one(s) of	
@@ -51,31 +51,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146723	tdbḥ	!t!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. du.	to sacrifice	
 146723	tdbḥ	!t!dbḥ[:w	/d-b-ḥ/	vb G prefc. 3 m. pl.	to sacrifice	
 146723	tdbḥ	!t===!dbḥ[	/d-b-ḥ/	vb G prefc. 2 m. pl.	to sacrifice	
-146724	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
+146724	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
 # KTU 1.20 I:11						
 146725	yxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.20 II:1						
 146726	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 146727	b	b	b	prep.	in	
 146728	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
-146728	qrb	qrb/	qrb	n. m. sg. cstr.	inside	
-146729	hkly	hkl/y	hkl	n. m. sg.	palace	
+146728	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
+146729	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
 146730	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-146731	rpum	rp(u&/m	rpủ	n. m. pl.	healer	
+146731	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
 # KTU 1.20 II:2						
 146732	ndd	ndd[	/n-d-d/	vb G suffc. 3 m. sg.	to go	
 146732	ndd	!!ndd[/	/n-d-d/	vb G inf.	to go	
 146733	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 146734	ndd	ndd[	/n-d-d/	vb G suffc. 3 m. sg.	to go	
 146734	ndd	!!ndd[/	/n-d-d/	vb G inf.	to go	
-146735	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-146735	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-146736	mrkbt	mrkb(t/t	mrkbt	n. f. pl.	(light war-)chariot	
-146736	mrkbt	mrkb(t/t	mrkbt	n. f. sg.	(light war-)chariot	
-146736	mrkbt	mrkb(t/t=	mrkbt	n. f. pl.	(light war-)chariot	
+146735	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+146735	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+146736	mrkbt	mrkb(t/t	mrkbt	n. f. pl. abs. nom.	(light war-)chariot	
+146736	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. nom.	(light war-)chariot	
+146736	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. nom.	(light war-)chariot	
 # KTU 1.20 II:3						
 146737	asr	(ʔ&asr[	/ʔ-s-r/	vb G suffc. 3 m. sg.	to tie	
-146738	sswm	ssw/m	s:śs/św	n. m. pl.	horse	
+146738	sswm	ssw/m	s:śs/św	n. m. pl. abs. nom.	horse	
 146739	tṣmd	!t!ṣmd[:w	/ṣ-m-d/	vb G prefc. 3 m. pl.	to harness	
 146740	b	b	b	prep.	in	
 146741	gx	?	?	?	?	DULAT: NOT FOUND
@@ -83,89 +83,89 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146742	tˤln	ˤly[n	/ʕ-l-y/	vb G prefc.	to go up	
 146743	l	l(I)	l (I)	prep.	to	
 146743	l	l(III)	l (III)	functor	certainly	
-146744	mrkbthm	mrkbt/	mrkbt	n. f. pl.	(light war-)chariot	
+146744	mrkbthm	mrkbt/	mrkbt	n. f. pl. abs. nom.	(light war-)chariot	
 146745	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come	
 # KTU 1.20 II:5						
 146746	tlkn	hlk[n	/h-l-k/	vb G prefc.	to go	
-146747	ym	ym(I)/	ym (I)	n. m. sg.	day	
-146747	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+146747	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+146747	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 146748	w	w	w	conj.	and	
 146749	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 146749	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-146749	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
+146749	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 146750	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
-146751	špšm	špš/~m	špš	n. f. sg.	sun	
+146751	špšm	špš/~m	špš	n. f. abs. nom. sg.	sun	
 146752	b	b	b	prep.	in	
 146753	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-146753	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-146753	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
+146753	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+146753	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 # KTU 1.20 II:6						
 146754	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 146754	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
-146755	rpum	rp(u&/m	rpủ	n. m. pl.	healer	
+146755	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
 146756	l	l(I)	l (I)	prep.	to	
 146756	l	l(III)	l (III)	functor	certainly	
-146757	grnt	grn(I)/t=	grn (I)	n. f. pl.	threshing-floor	
-146758	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-146758	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+146757	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. nom.	threshing-floor	
+146758	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+146758	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 146759	l	l(I)	l (I)	prep.	to	
 146759	l	l(III)	l (III)	functor	certainly	
 # KTU 1.20 II:7						
-146760	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. pl.	plantation	
-146760	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg.	plantation	
-146760	mṭˤt	mṭˤ(t/t=	mṭʕt	n. f. pl.	plantation	
+146760	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. pl. abs. nom.	plantation	
+146760	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg. abs. nom.	plantation	
+146760	mṭˤt	mṭˤ(t/t=	mṭʕt	n. f. pl. abs. nom.	plantation	
 146761	w	w	w	conj.	and	
 146762	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 146762	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
 146762	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc. 3 m. sg.	to see	
 146762	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed	
 146762	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
-146763	dnil	dnil/	dnỉl	PN sg.	Raphaite	
-146764	mt	mt(II)/	mt (II)	DN m. sg.	Mot/Death	
-146764	mt	mt(II)/	mt (II)	n. m. sg.	death	
+146763	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+146764	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+146764	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 146764	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-146764	mt	mt[/	/m-t/	vb G ptcpl. m. sg.	to die	
-146764	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
-146765	rpi	rp(u/&i	rpủ	n. m. pl.	healer	
-146765	rpi	rp(u/&i	rpủ	n. m. sg. abs.	healer	
-146765	rpi	rp(u/&i	rpủ	n. m. sg. cstr.	healer	
+146764	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+146764	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+146765	rpi	rp(u/&i	rpủ	n. m. pl. abs. nom.	healer	
+146765	rpi	rp(u/&i	rpủ	n. m. sg. abs. nom.	healer	
+146765	rpi	rp(u/&i	rpủ	n. m. sg. cstr. nom.	healer	
 # KTU 1.20 II:8						
 146766	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 146766	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
-146766	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	
-146767	ġzr	ġzr/	ġzr	n. m. sg.	lad	
-146768	mt	mt(II)/	mt (II)	DN m. sg.	Mot/Death	
-146768	mt	mt(II)/	mt (II)	n. m. sg.	death	
+146766	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
+146767	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	lad	
+146768	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+146768	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 146768	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-146768	mt	mt[/	/m-t/	vb G ptcpl. m. sg.	to die	
-146768	mt	mt(I)/	mt (I)	n. m. sg.	dead person	
-146769	hrnmy	hrnmy/	hrnmy	GN sg.	native of the TN *hrnm	
+146768	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+146768	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+146769	hrnmy	hrnmy/	hrnmy	GN sg. abs. nom.	native of the TN *hrnm	
 # KTU 1.20 II:9						
 146770	b	b	b	prep.	in	
-146771	grnt	grn(I)/t=	grn (I)	n. f. pl.	threshing-floor	
-146772	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-146772	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+146771	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. nom.	threshing-floor	
+146772	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+146772	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 146773	b	b	b	prep.	in	
-146774	qrb	qrb/	qrb	n. m. sg. cstr.	inside	
-146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. pl.	plantation	
-146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg.	plantation	
-146775	mṭˤt	mṭˤ(t/t=	mṭʕt	n. f. pl.	plantation	
-146776	ilnym	ilny/m	ỉlny	adj. m. pl.	divine one	
+146774	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
+146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. pl. abs. nom.	plantation	
+146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg. abs. nom.	plantation	
+146775	mṭˤt	mṭˤ(t/t=	mṭʕt	n. f. pl. abs. nom.	plantation	
+146776	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.20 II:10						
 146777	d	d	d	det. or rel. functor	the one(s) of	
 146778	tit	ʔtw[	/ʔ-t-w/	vb G prefc.	to come	
 146779	yspi	!y!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 3 m. sg.	to devour	
 146780	spu	!!sp(ʔ&u[/	/s-p-ʔ/	vb G inf.	to devour	
-146780	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg.	to devour	
-146781	qdmym	qdmy/m	qdmy	adj. m. pl.	ancient	
+146780	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour	
+146781	qdmym	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
 # KTU 1.20 II:11						
-146782	tpḥ	tpḥ(I)/	tpḥ (I)	n. m. sg.	apple	
-146783	ṯṣr	ṯṣr/	ṯṣr	n. m. sg.	?	
+146782	tpḥ	tpḥ(I)/	tpḥ (I)	n. m. sg. abs. nom.	apple	
+146783	ṯṣr	ṯṣr/	ṯṣr	n. m. sg. abs. nom.	?	
 146784	shr	shr	shr	?	?	
 146785	xxx	?	?	?	?	
 # KTU 1.20 II:12						
-146786	brd	br/+d	br(r)	n. m. cstr.	tin, ?	
+146786	brd	br/+d	br(r)	n. m. cstr. nom.	tin, ?	
 146786	brd	br[+d	/b-r(-r)/	vb G suffc.	to be or remain pure, ?	
-146786	brd	br(I)/+d	br (I)	n. m. cstr.	Art Seeschiff, ?	
+146786	brd	br(I)/+d	br (I)	n. m. cstr. nom.	Art Seeschiff, ?	
 146787	xx	?	?	?	?	
 146788	bpx	?	?	?	?	DULAT: NOT FOUND

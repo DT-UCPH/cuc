@@ -18,6 +18,10 @@ def render_pos(bundle: FeatureBundle, *, fallback: str = "") -> str:
             parts.append(bundle.gender)
         if bundle.number:
             parts.append(bundle.number)
+        if bundle.state:
+            parts.append(bundle.state)
+        if bundle.case:
+            parts.append(bundle.case)
         return " ".join(part for part in parts if part).strip() or fallback
 
     parts = [bundle.part_of_speech]

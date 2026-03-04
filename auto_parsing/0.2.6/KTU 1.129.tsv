@@ -10,10 +10,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154552	x	?	?	?	?	
 154553	nn	grš[	/g-r-š/	vb	to eject	
 154553	nn	gr[	/g-r(-y)/	vb	to attack	
-154554	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr.	prince	
-154554	zbl	zbl(I)/	zbl (I)	n. m. sg.	prince	
+154554	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
+154554	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. nom.	prince	
 # KTU 1.129 4						
-154555	ḥkmt	ḥkm(t/t	ḥkmt	n. f. sg.	wisdom	
+154555	ḥkmt	ḥkm(t/t	ḥkmt	n. f. sg. abs. nom.	wisdom	
 154556	yx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.129 5						
 154557	t	/t, /t=				DULAT: NOT FOUND
@@ -21,9 +21,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154558	y	+y, [y	-y (I)	prep. functor	my	
 154558	y	~y	-y (II)	prep. functor	indeed	
 154558	y	y	y	prep. functor	oh!	
-154559	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
-154559	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
-154559	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
+154559	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+154559	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+154559	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 1.129 6						
 154560	xk	?	?	?	?	DULAT: NOT FOUND
 154561	r	?	?	?	?	DULAT: NOT FOUND

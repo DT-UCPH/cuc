@@ -1,17 +1,17 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 1						
-156553	tḥm	tḥm/	tḥm	n. m. sg.	message	
-156554	iwrḏr	iwrḏr/	ỉwrḏr	PN sg.	ỉwrḏr	
+156553	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+156554	iwrḏr	iwrḏr/	ỉwrḏr	PN sg. abs. nom.	ỉwrḏr	
 # KTU 2.10 2						
 156555	l	l(I)	l (I)	prep.	to	
 156555	l	l(III)	l (III)	functor	certainly	
-156556	plsy	plsy/	plsy	PN sg.	plsy	
+156556	plsy	plsy/	plsy	PN sg. abs. nom.	plsy	
 # KTU 2.10 3						
 156557	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156557	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156557	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156557	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-156557	rgm	rgm/	rgm	n. m. sg.	word	
+156557	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+156557	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.10 4						
 156558	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156558	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
@@ -19,13 +19,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 5						
 156560	l	l(I)	l (I)	prep.	to	
 156560	l	l(III)	l (III)	functor	certainly	
-156561	trġds	trġds/	trġ(n)ds	PN sg.	trġ(n)ds	
+156561	trġds	trġds/	trġ(n)ds	PN sg. abs. nom.	trġ(n)ds	
 # KTU 2.10 6						
 156562	w	w	w	conj.	and	
 156563	l	l(I)	l (I)	prep.	to	
 156563	l	l(III)	l (III)	functor	certainly	
-156564	klby	klb(I)/+y	klb (I)	n. m. cstr.	dog	
-156564	klby	klby/	klby	PN sg.	klby	
+156564	klby	klb(I)/+y	klb (I)	n. m. cstr. nom.	dog	
+156564	klby	klby/	klby	PN sg. abs. nom.	klby	
 # KTU 2.10 7						
 156565	šmˤt	šmˤ[t	/š-m-ʕ/	vb G suffc. 1 c. sg.	to hear	
 156566	ḫti	!!ḫt(ʔ&i[/	/ḫ-t-ʔ/	vb G inf.	to be ground up	
@@ -35,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 9						
 156569	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156569	hm	hm(I)	hm (I)	pers. pn.	they	
-156570	inmm	in/	ỉn	n. m. sg.	lack of	
+156570	inmm	in/	ỉn	n. m. sg. abs. nom.	lack of	
 # KTU 2.10 10						
 156571	nḫtu	nḫtu[	/ḫ-t-ʔ/	vb N suffc. 3 m. sg.	to be ground up	
 156572	w	w	w	conj.	and	
@@ -44,26 +44,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 11						
 156574	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 156575	w	w	w	conj.	and	
-156576	yd	yd(I)/	yd (I)	n. f. sg.	hand	
+156576	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 # KTU 2.10 12						
-156577	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-156577	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+156577	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+156577	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 156578	p	p(I)	p (I)	conj. functor	and	
-156578	p	p(III)/	p (III)	n. m. sg.	mouth	
+156578	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 156578	p	p(II)	p (II)	adv.	here	
 156579	kmtm	k(I)+m(I)	k (I)	prep.	like	
 156579	kmtm	kmt+m(I)	kmt	adv.	like(wise)	
 # KTU 2.10 13						
 156580	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
-156580	ˤz	ˤz(II)/	ʕz (II)	n. m. sg.	caprine animal	
-156580	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg.	strong	
-156581	mid	mi/	mỉ/ủd	n. m. sg.	abundance	
+156580	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
+156580	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
+156581	mid	mi/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
 # KTU 2.10 14						
 156582	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156582	hm	hm(I)	hm (I)	pers. pn.	they	
 156583	nṯkp	!n!ṯkp[	/ṯ-k-p/	vb	?	
 # KTU 2.10 15						
-156584	mˤnk	mˤn/+k	mʕn	n. m. cstr.	reply	
+156584	mˤnk	mˤn/+k	mʕn	n. m. cstr. nom.	reply	
 # KTU 2.10 16						
 156585	w	w	w	conj.	and	
 156586	mnm	mnm	mnm	indef. pn.	any(thing)	
@@ -71,8 +71,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156587	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156587	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156587	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156587	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-156587	rgm	rgm/	rgm	n. m. sg.	word	
+156587	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+156587	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 156588	d	d	d	det. or rel. functor	the one(s) of	
 156589	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc.	to hear	
 # KTU 2.10 18						
@@ -83,10 +83,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156592	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 2.10 19						
 156593	b	b	b	prep.	in	
-156594	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
+156594	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 156594	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 156594	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
 156594	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 156594	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-156594	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
+156594	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
 156595	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	

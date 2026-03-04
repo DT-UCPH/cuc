@@ -1,14 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.26 1						
-157136	tḥm	tḥm/	tḥm	n. m. sg.	message	
+157136	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 157137	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157137	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157137	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157137	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-157137	rgm	rgm/	rgm	n. m. sg.	word	
+157137	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+157137	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.26 2						
-157138	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-157138	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+157138	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+157138	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 2.26 3						
 157139	l	l(I)	l (I)	prep.	to	
 157139	l	l(III)	l (III)	functor	certainly	
@@ -22,82 +22,82 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157145	aškn	!(ʔ&a!škn[:d	/š-k-n/	vb D	to be placed	
 157145	aškn	kn[kn:d	/k-n/	vb D	to be (stable)	
 # KTU 2.26 6						
-157146	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	
+157146	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
 157147	l	l(I)	l (I)	prep.	to	
 157147	l	l(III)	l (III)	functor	certainly	
-157148	bt	bt(II)/	bt (II)	n. m. sg.	house	
-157148	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-157148	bt	bt(III)/	bt (III)	n. m. pl. cstr.	length	
-157149	dml	dml/	dml	DN sg.	dml	
+157148	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
+157148	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+157148	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
+157149	dml	dml/	dml	DN sg. abs. nom.	dml	
 # KTU 2.26 7						
 157150	p	p(I)	p (I)	conj. functor	and	
-157150	p	p(III)/	p (III)	n. m. sg.	mouth	
+157150	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 157150	p	p(II)	p (II)	adv.	here	
 157151	ank	ank	ảnk	pers. pn.	I	
 157152	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 # KTU 2.26 8						
-157153	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	
+157153	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
 157154	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.26 9						
 157155	arbˤ	arbˤ/	ảrbʕ	num.	four	
-157156	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	
+157156	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
 # KTU 2.26 10						
 157157	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 157157	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-157157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-157157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-157158	ar	a/	ả/ỉr	n. m. sg.	light	
+157157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+157157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+157158	ar	a/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 2.26 11						
 157159	w	w	w	conj.	and	
 157160	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-157160	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-157160	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
+157160	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+157160	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 # KTU 2.26 12						
 157161	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 157161	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-157161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-157161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-157162	ubrˤy	ubrˤ/	ủbrʕ(y)	TN sg.	ủbrʿ(y)	
-157162	ubrˤy	ubrˤy/	ủbrʕy	GN sg.	ủbrʿy	
+157161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+157161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+157162	ubrˤy	ubrˤ/	ủbrʕ(y)	TN sg. abs. nom.	ủbrʿ(y)	
+157162	ubrˤy	ubrˤy/	ủbrʕy	GN sg. abs. nom.	ủbrʿy	
 # KTU 2.26 13						
 157163	w	w	w	conj.	and	
 157164	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 157165	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 157165	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-157165	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-157165	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+157165	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+157165	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 2.26 14						
-157166	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-157166	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+157166	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+157166	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 2.26 15						
 157167	w	w	w	conj.	and	
-157168	aḥd	aḥd/	ảḥd	adj. m. sg.	one	
+157168	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	one	
 157168	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
 157168	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
 # KTU 2.26 16						
 157169	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 157169	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-157169	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-157169	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-157170	atlg	atlg/	ảtlg	TN sg.	ảtlg	
+157169	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+157169	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+157170	atlg	atlg/	ảtlg	TN sg. abs. nom.	ảtlg	
 # KTU 2.26 17						
 157171	w	w	w	conj.	and	
 157172	l	l(I)	l (I)	prep.	to	
 157172	l	l(III)	l (III)	functor	certainly	
-157173	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl.	tree	
+157173	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
 # KTU 2.26 18						
 157174	tspr	!t!spr[	/s-p-r/	vb	to count	
 # KTU 2.26 19						
-157175	nrn	nr/+n	nr	n. m. cstr.	sheen	
+157175	nrn	nr/+n	nr	n. m. cstr. nom.	sheen	
 157175	nrn	nr[+n	/n-r/	vb G suffc.	to shine	
-157175	nrn	nrn/	nrn	PN sg.	nrn	
+157175	nrn	nrn/	nrn	PN sg. abs. nom.	nrn	
 157176	al	al(I)	ảl (I)	neg. functor	no	
 157176	al	al(II)	ảl (II)	pos. functor	surely	
 157177	tud	ʔd[d	/ʔ-d/	vb G prefc.	general commercial mng to overcharge	
 # KTU 2.26 20						
-157178	ad	ad/	ảd	n. m. sg.	father	
+157178	ad	ad/	ảd	n. m. sg. abs. nom.	father	
 157179	at	at(I)	ảt (I)	pers. pn.	you	
 157180	lhm	l(I)+hm	l (I)	prep.	to	
 # KTU 2.26 21						
 157181	ṯṯm	ṯṯm/	ṯṯm	num.	sixty	
-157182	ksp	ksp/	ksp	n. m. sg.	silver	
+157182	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	

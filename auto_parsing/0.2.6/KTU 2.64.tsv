@@ -6,24 +6,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158720	ybnn	!y!](n]bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
 158720	ybnn	!y!](n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to build	
 158720	ybnn	!y!](n]bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
-158720	ybnn	ybnn/	ybnn	PN sg.	ybnn	
+158720	ybnn	ybnn/	ybnn	PN sg. abs. nom.	ybnn	
 # KTU 2.64 2						
-158721	adny	adn(I)/+y	ảdn (I)	n. m. cstr.	lord	
+158721	adny	adn(I)/+y	ảdn (I)	n. m. cstr. nom.	lord	
 # KTU 2.64 3						
 158722	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158722	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158722	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158722	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-158722	rgm	rgm/	rgm	n. m. sg.	word	
+158722	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+158722	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.64 4						
-158723	tḥm	tḥm/	tḥm	n. m. sg.	message	
-158724	tlmyn	tlmyn/	tlmyn	PN sg.	tlmyn	
+158723	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+158724	tlmyn	tlmyn/	tlmyn	PN sg. abs. nom.	tlmyn	
 # KTU 2.64 5						
-158725	bnk	bn(I)/+k	bn (I)	n. m. cstr.	son	
+158725	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
 # KTU 2.64 6						
 158726	l	l(I)	l (I)	prep.	to	
 158727	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158728	adny	adn(I)/+y	ảdn (I)	n. m. cstr.	lord	
+158728	adny	adn(I)/+y	ảdn (I)	n. m. cstr. nom.	lord	
 # KTU 2.64 7						
 158729	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.64 8						
@@ -35,52 +35,52 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158732	ybnn	!y!](n]bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
 158732	ybnn	!y!](n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to build	
 158732	ybnn	!y!](n]bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
-158732	ybnn	ybnn/	ybnn	PN sg.	ybnn	
+158732	ybnn	ybnn/	ybnn	PN sg. abs. nom.	ybnn	
 # KTU 2.64 10						
-158733	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+158733	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 158734	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158734	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158734	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158734	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-158734	rgm	rgm/	rgm	n. m. sg.	word	
+158734	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+158734	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.64 11						
-158735	tḥm	tḥm/	tḥm	n. m. sg.	message	
-158736	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg.	ʿbdỉlt	
+158735	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+158736	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg. abs. nom.	ʿbdỉlt	
 # KTU 2.64 12						
-158737	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
+158737	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.64 13						
 158738	l	l(I)	l (I)	prep.	to	
 158739	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158740	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+158740	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 2.64 14						
 158741	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 158742	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.64 15						
-158743	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. sg.	distance	
+158743	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. nom. sg.	distance	
 # KTU 2.64 16						
 158744	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 158745	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.64 17						
-158746	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+158746	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 158747	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.64 18						
-158748	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+158748	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 158748	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158748	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 158748	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 158748	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 158748	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
 158748	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-158748	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+158748	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.64 19						
 158749	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158749	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158749	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158749	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-158749	rgm	rgm/	rgm	n. m. sg.	word	
+158749	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+158749	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 158750	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 158750	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.64 20						
 158751	l	l(I)	l (I)	prep.	to	
 158751	l	l(III)	l (III)	functor	certainly	
-158752	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
+158752	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	

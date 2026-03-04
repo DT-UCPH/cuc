@@ -1,10 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.92 1						
 151325	d	d	d	det. or rel. functor	the one(s) of	
-151326	ṯbil	ṯbil(I)/	ṯbỉl (I)	PN sg.	ṯbỉl (I)	
+151326	ṯbil	ṯbil(I)/	ṯbỉl (I)	PN sg. abs. nom.	ṯbỉl (I)	
 # KTU 1.92 2						
-151327	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
-151328	ṣwdt	ṣd[/dt	/ṣ-d/	vb G act. ptcpl. m. sg.	to hunt	
+151327	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
+151328	ṣwdt	ṣd[/dt	/ṣ-d/	vb G act. ptcpl. m. sg. abs. nom.	to hunt	
 # KTU 1.92 3						
 151329	tlk	hlk[	/h-l-k/	vb G prefc.	to go	
 151330	bmdbr	?	?	?	?	DULAT: NOT FOUND
@@ -15,11 +15,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151331	tḥd	!t!ḥd(y[	/ḥ-d-y/	vb G prefc. 3 m. du.	to see	
 151331	tḥd	!t!ḥd(y[:w	/ḥ-d-y/	vb G prefc. 3 m. pl.	to see	
 151331	tḥd	!t===!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 m. pl.	to see	
-151332	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151332	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151332	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151332	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151332	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151332	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151332	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151332	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151332	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 151333	whl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 5						
 151334	w	w	w	conj.	and	
@@ -29,23 +29,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151335	tglṯ	!t!glṯ[	/g-l-ṯ/	vb G prefc. 3 m. du.	to jump	
 151335	tglṯ	!t!glṯ[:w	/g-l-ṯ/	vb G prefc. 3 m. pl.	to jump	
 151335	tglṯ	!t===!glṯ[	/g-l-ṯ/	vb G prefc. 2 m. pl.	to jump	
-151336	thmt	thm(t/t	thmt	n. f. pl.	Primordial Ocean	
-151336	thmt	thm(t/t	thmt	n. f. sg.	Primordial Ocean	
-151336	thmt	thm/t	thm	n. f.	ocean/deep	
+151336	thmt	thm(t/t	thmt	n. f. pl. abs. nom.	Primordial Ocean	
+151336	thmt	thm(t/t	thmt	n. f. sg. abs. nom.	Primordial Ocean	
+151336	thmt	thm/t	thm	n. f. abs. nom.	ocean/deep	
 151337	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 151337	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-151337	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-151337	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+151337	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+151337	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 1.92 6						
 151338	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
-151339	ġlh	ġl(I)/h	ġl (I)	n. m. pl. cstr.	far extent of desert	
-151339	ġlh	ġl(I)/h	ġl (I)	n. m. sg. cstr.	far extent of desert	
+151339	ġlh	ġl(I)/h	ġl (I)	n. m. pl. cstr. nom.	far extent of desert	
+151339	ġlh	ġl(I)/h	ġl (I)	n. m. sg. cstr. nom.	far extent of desert	
 151340	tḥmd	!t!ḥmd[:w	/ḥ-m-d/	vb G prefc. 3 m. pl.	to desire	
 # KTU 1.92 7						
-151341	mrḥh	mrḥ/h	mrḥ	n. f. sg.	lance	
+151341	mrḥh	mrḥ/h	mrḥ	n. f. sg. abs. nom.	lance	
 151342	ladr	?	?	?	?	DULAT: NOT FOUND
-151343	tl	tl(I)/	tl (I)	n. m. sg.	hill	
-151343	tl	tl(II)/	tl (II)	n. m. sg.	weapon	
+151343	tl	tl(I)/	tl (I)	n. m. sg. abs. nom.	hill	
+151343	tl	tl(II)/	tl (II)	n. m. sg. abs. nom.	weapon	
 # KTU 1.92 8						
 151344	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 151344	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 f. sg.	to sit down	
@@ -54,55 +54,55 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151344	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
 151344	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down	
 151344	tṯb	!t===!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. pl.	to sit down	
-151344	tṯb	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
-151345	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
+151344	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+151345	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 151346	bġlx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 9						
-151347	qrẓ	qrẓ/	qrẓ	n. m. sg.	acacia	
+151347	qrẓ	qrẓ/	qrẓ	n. m. sg. abs. nom.	acacia	
 151348	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 151349	l	l(I)	l (I)	prep.	to	
 151349	l	l(III)	l (III)	functor	certainly	
-151350	šmal	šmal/	šmảl	adj. m. sg.	left	
+151350	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	left	
 # KTU 1.92 10						
-151351	arbḫ	arbḫ/	ảrbḫ	adj. m. sg.	four year old (animal)	
-151352	ˤnh	ˤn(I)/h	ʕn (I)	n. f. du. abs.	eye	
+151351	arbḫ	arbḫ/	ảrbḫ	adj. m. sg. abs. nom.	four year old (animal)	
+151352	ˤnh	ˤn(I)/h	ʕn (I)	n. f. du. abs. nom.	eye	
 151353	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
 151354	wt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 11						
-151355	aylt	ayl(t(I)/t	ảylt (I)	n. f. pl.	hind	
-151355	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg.	hind	
-151355	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl.	hind	
+151355	aylt	ayl(t(I)/t	ảylt (I)	n. f. pl. abs. nom.	hind	
+151355	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg. abs. nom.	hind	
+151355	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. nom.	hind	
 151356	tġpy	!t!ġpy[:w	/ġ-p-y/	vb G prefc. 3 m. pl.	to espy	
-151357	ṯr	ṯr(I)/	ṯr (I)	n. m. pl.	bull	
-151357	ṯr	ṯr(I)/	ṯr (I)	n. m. sg.	bull	
-151358	ṯr	ṯr(I)/	ṯr (I)	n. m. pl.	bull	
-151358	ṯr	ṯr(I)/	ṯr (I)	n. m. sg.	bull	
+151357	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
+151357	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
+151358	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
+151358	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
 # KTU 1.92 12						
 151359	b	b	b	prep.	in	
-151360	qr	qr(I)/	qr (I)	n. m. sg.	source	
-151360	qr	qr(II)/	qr (II)	n. m. sg. cstr.	noise	
-151360	qr	qr(III)/	qr (III)	n. m. pl. cstr.	wall	
-151361	mrḥh	mrḥ/h	mrḥ	n. f. sg.	lance	
+151360	qr	qr(I)/	qr (I)	n. m. sg. abs. nom.	source	
+151360	qr	qr(II)/	qr (II)	n. m. sg. cstr. nom.	noise	
+151360	qr	qr(III)/	qr (III)	n. m. pl. cstr. nom.	wall	
+151361	mrḥh	mrḥ/h	mrḥ	n. f. sg. abs. nom.	lance	
 151362	tiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 # KTU 1.92 13						
-151363	šbrh	šbr/+h	šbr	n. m. sg. cstr.	stick	
+151363	šbrh	šbr/+h	šbr	n. m. sg. cstr. nom.	stick	
 151364	bm	b+m(I)	b	prep.	in	
-151365	ymn	ymn(I)/	ymn (I)	n. m. sg.	right (side)	
+151365	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. nom.	right (side)	
 151366	tr	!!tr[/	/t-r/	vb G inf.	to scour	
-151366	tr	tr(II)/	tr (II)	n. m. sg.	turtledove	
+151366	tr	tr(II)/	tr (II)	n. m. sg. abs. nom.	turtledove	
 # KTU 1.92 14						
 151367	tšpl	!t!špl[:d:w	/š-p-l/	vb D prefc. 3 m. pl.	to bend down	
-151368	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
-151368	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+151368	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+151368	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 151369	ˤbx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 15						
-151370	ṯr	ṯr(I)/	ṯr (I)	n. m. pl.	bull	
-151370	ṯr	ṯr(I)/	ṯr (I)	n. m. sg.	bull	
-151371	abh	ab/+h	ảb	n. m. cstr.	father	
-151372	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-151372	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-151372	il	il(I)/	ỉl (I)	n. m. sg.	god	
-151372	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+151370	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
+151370	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
+151371	abh	ab/+h	ảb	n. m. cstr. nom.	father	
+151372	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+151372	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+151372	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+151372	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 151373	tṯrm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 16						
 151374	tšlḥm	!t!]š]lḥm[	/l-ḥ-m/ (I)	vb Š prefc. 3 f. sg.	to eat	
@@ -111,19 +111,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151374	tšlḥm	!t!]š]lḥm[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. du.	to eat	
 151374	tšlḥm	!t!]š]lḥm[:w	/l-ḥ-m/ (I)	vb Š prefc. 3 m. pl.	to eat	
 151374	tšlḥm	!t===!]š]lḥm[	/l-ḥ-m/ (I)	vb Š prefc. 2 m. pl.	to eat	
-151375	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr.	Yariḫu/Yarikh	
-151375	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr.	moon	
-151376	ggn	gg(I)/+n	gg (I)	n. m. cstr.	roof	
-151376	ggn	ggn/	ggn	n. m.	insides	
+151375	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+151375	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+151376	ggn	gg(I)/+n	gg (I)	n. m. cstr. nom.	roof	
+151376	ggn	ggn/	ggn	n. m. abs. nom.	insides	
 151377		?	?	?	?	
 # KTU 1.92 17						
-151378	kṯr	kṯr(III)/	kṯr (III)	DN/element sg.	Koṯaru/Kothar	
-151379	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. pl.	craftsman	
-151379	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg.	craftsman	
-151380	ḫssm	ḫss/+m(I)	ḫss	DN/element sg. cstr.	Ḫasisu/Khasis	
+151378	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+151379	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. pl. abs. nom.	craftsman	
+151379	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. abs. nom.	craftsman	
+151380	ḫssm	ḫss/+m(I)	ḫss	DN/element sg. cstr. nom.	Ḫasisu/Khasis	
 # KTU 1.92 18						
 151381	xxxxxbm	?	?	?	?	DULAT: NOT FOUND
-151382	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg.	ʿṯtrt (II)	
+151382	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 # KTU 1.92 19						
 151383	xxx	?	?	?	?	
 151384	xxxṯr	?	?	?	?	DULAT: NOT FOUND
@@ -134,28 +134,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.92 22						
 151387		?	?	?	?	
 # KTU 1.92 23						
-151388	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
-151388	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
+151388	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
+151388	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
 151389	bnġr	?	?	?	?	DULAT: NOT FOUND
-151390	krm	krm/	krm	n. m. sg.	vineyard	
+151390	krm	krm/	krm	n. m. sg. abs. nom.	vineyard	
 # KTU 1.92 24						
 151391	x	?	?	?	?	
-151392	abh	ab/+h	ảb	n. m. cstr.	father	
-151393	krm	krm/	krm	n. m. sg.	vineyard	
-151394	ar	a/	ả/ỉr	n. m. sg.	light	
+151392	abh	ab/+h	ảb	n. m. cstr. nom.	father	
+151393	krm	krm/	krm	n. m. sg. abs. nom.	vineyard	
+151394	ar	a/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 1.92 25						
 151395	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 151395	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
-151396	mḥtrt	mḥtr(t/t	mḥtrt	n. f. sg.	green (garment)	
-151397	pṯtm	pṯt(I)/m	pṯt (I)	n. m. pl.	linen	
+151396	mḥtrt	mḥtr(t/t	mḥtrt	n. f. sg. abs. nom.	green (garment)	
+151397	pṯtm	pṯt(I)/m	pṯt (I)	n. m. pl. abs. nom.	linen	
 # KTU 1.92 26						
 151398	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
-151399	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg.	ein Gewand	
-151400	tišr	tišr/	tỉšr	n. m. sg.	cypress	
+151399	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg. abs. nom.	ein Gewand	
+151400	tišr	tišr/	tỉšr	n. m. sg. abs. nom.	cypress	
 # KTU 1.92 27						
 151401	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
 151402	nšat	nš(ʔ&a[t	/n-š-ʔ/	vb G suffc. 1 c. sg.	to raise	
-151403	ẓl	ẓl(I)/	ẓl (I)	n. m. sg.	shade	
+151403	ẓl	ẓl(I)/	ẓl (I)	n. m. sg. abs. nom.	shade	
 151404	kkbkbm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 28						
 151405	xb	?	?	?	?	DULAT: NOT FOUND
@@ -164,21 +164,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151406	km	k(IV)	k (IV)	adv.	thus	
 151406	km	km	km	prep./conj./adv.		
 151406	km	+km, +km=	-km			
-151407	kbkbt	kbkb/t=	kbkb	n. f. pl.	heavenly body	
-151408	kṯn	kṯ(I)/+n	kṯ (I)	n. f. cstr.	flask	
-151408	kṯn	kṯn(II)/	kṯn (II)	TN sg.	kṯn (II)	
+151407	kbkbt	kbkb/t=	kbkb	n. f. pl. abs. nom.	heavenly body	
+151408	kṯn	kṯ(I)/+n	kṯ (I)	n. f. cstr. nom.	flask	
+151408	kṯn	kṯn(II)/	kṯn (II)	TN sg. abs. nom.	kṯn (II)	
 # KTU 1.92 29						
-151409	btlt	btl(t/t	btlt	n. f. sg.	virgin	
-151410	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
-151410	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
-151410	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
+151409	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
+151410	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+151410	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+151410	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 151411	yḥmdnh	!y!ḥmd[nh	/ḥ-m-d/	vb G prefc. 3 m. sg.	to desire	
 151411	yḥmdnh	yḥmdnh[	/ḥ-m-d/	vb G suffc. 3 m. sg.	to desire	
 151412	yrty	!y!(yrd[+y	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
 151412	yrty	yrdy[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
 # KTU 1.92 30						
-151413	nˤmh	nˤm(II)/+h	nʕm (II)	n. m. cstr.	grace	
-151414	dmrn	dmrn/	dmrn	DN sg.	the Powerful One/Valiant One/title of Baal	Based on DULAT reconstruction.
+151413	nˤmh	nˤm(II)/+h	nʕm (II)	n. m. cstr. nom.	grace	
+151414	dmrn	dmrn/	dmrn	DN sg. abs. nom.	the Powerful One/Valiant One/title of Baal	Based on DULAT reconstruction.
 151414	dmrn	dmr+n	dmr	→	?	
 151415	l	l(I)	l (I)	prep.	to	
 151416	pnh	pn(m/+h	pnm	n. m. pl. tant.	in front	
@@ -186,8 +186,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151417	yrd	yrd[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
 # KTU 1.92 31						
 151418	xaliyn	?	?	?	?	DULAT: NOT FOUND
-151419	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
-151419	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
+151419	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+151419	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 151420	šmḫrgbt	?	?	?	?	DULAT: NOT FOUND
 151421	yu	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 32						
@@ -195,18 +195,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151423	mnx	?	?	?	?	DULAT: NOT FOUND
 151424	w	w	w	conj.	and	
 151425	yrmy	!y!rmy[	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
-151426	qrnh	qrn/h	qrn	n. f. du.	horn	
-151426	qrnh	qrn/h	qrn	n. f. sg.	horn	
+151426	qrnh	qrn/h	qrn	n. f. du. abs. nom.	horn	
+151426	qrnh	qrn/h	qrn	n. f. sg. abs. nom.	horn	
 # KTU 1.92 33						
 151427	lnġrw	?	?	?	?	DULAT: NOT FOUND
 151428	yˤnyh	!y!ˤny(I)[+h	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-151429	pdr	pdr(I)/	pdr (I)	n. m. pl. cstr.	town	
-151429	pdr	pdr(I)/	pdr (I)	n. m. sg.	town	
+151429	pdr	pdr(I)/	pdr (I)	n. m. pl. cstr. nom.	town	
+151429	pdr	pdr(I)/	pdr (I)	n. m. sg. abs. nom.	town	
 151430	ttġr	n]t]ġr[	/n-ġ-r/	vb Gt prefc.	to protect	
 # KTU 1.92 34						
 151431	ybˤl	!y!bˤl[	/b-ʕ-l/	vb G prefc. 3 m. sg.	to make	
 151432	xxx	?	?	?	?	
-151433	bšrk	bšr/+k	bšr	n. m. cstr.	flesh	
+151433	bšrk	bšr/+k	bšr	n. m. cstr. nom.	flesh	
 151433	bšrk	bšr[:pass+k	/b-š-r/	vb Dpass impv. 2	to impart (good) news	
 151434	al	al(I)	ảl (I)	neg. functor	no	
 151434	al	al(II)	ảl (II)	pos. functor	surely	
@@ -224,8 +224,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151437	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 151437	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.92 35						
-151438	ġr	ġr(I)/	ġr (I)	n. m. sg.	mountain	
-151438	ġr	ġr(III)/	ġr (III)	n. m. sg.	skin	
+151438	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
+151438	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
 151439	xxxxx	?	?	?	?	
 151440	al	al(I)	ảl (I)	neg. functor	no	
 151440	al	al(II)	ảl (II)	pos. functor	surely	
@@ -238,46 +238,42 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151442	lrbd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 36						
 151443	p	p(I)	p (I)	conj. functor	and	
-151443	p	p(III)/	p (III)	n. m. sg.	mouth	
+151443	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 151443	p	p(II)	p (II)	adv.	here	
-151444	npš	npš(I)/	npš (I)	n. f. sg.	throat	
+151444	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 151445	npšbˤl	?	?	?	?	DULAT: NOT FOUND
 151446	thwyn	!t!hwy[n	/h-w-y/	vb G prefc.	to want	
 # KTU 1.92 37						
 151447	hm	hm(II)	hm (II)	conj./interr. functor	if	
 151447	hm	hm(I)	hm (I)	pers. pn.	they	
-151448	brlt	brl(t/t	brlt	n. f. sg.	hunger	
+151448	brlt	brl(t/t	brlt	n. f. sg. abs. nom.	hunger	
 151449	rkb	rkb[	/r-k-b/	vb G suffc. 3 m. sg.	to mount (especially a chariot)	
 151449	rkb	rkb[	/r-k-b/	vb G impv. 2	to mount (especially a chariot)	
-151449	rkb	rkb[/	/r-k-b/	vb G ptcpl. m. sg.	to mount (especially a chariot)	
-151449	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr.	Charioteer	
-151449	rkb	rkb(II)/	rkb (II)	n. m. pl. cstr.	?	
-151449	rkb	rkb(II)/	rkb (II)	n. m. sg. cstr.	?	
-151450	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl.	cloud(s)	
-151450	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
-151450	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
+151449	rkb	rkb[/	/r-k-b/	vb G ptcpl. m. sg. abs. nom.	to mount (especially a chariot)	
+151449	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
+151449	rkb	rkb(II)/	rkb (II)	n. m. pl. cstr. nom.	?	
+151449	rkb	rkb(II)/	rkb (II)	n. m. sg. cstr. nom.	?	
+151450	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl. abs. nom.	cloud(s)	
+151450	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg. abs. nom.	cloud(s)	
+151450	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl. abs. nom.	cloud(s)	
 # KTU 1.92 38						
 151451	hn	hn	hn	functor	behold!	
 151452	xxxxyn	?	?	?	?	DULAT: NOT FOUND
 151453	w	w	w	conj.	and	
 151454	mnu	mnu	mnủ	?	?	
-151455	dg	dg(I)/	dg (I)	n. m. sg.	fish	
+151455	dg	dg(I)/	dg (I)	n. m. sg. abs. nom.	fish	
 # KTU 1.92 39						
 151456	xxxxxl	?	?	?	?	DULAT: NOT FOUND
-151457	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
-151458	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
-151458	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
-151458	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
-151458	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
-151458	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
+151457	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
+151458	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.92 40						
 151459	xxxbˤl	?	?	?	?	DULAT: NOT FOUND
 151460	rkb	rkb[	/r-k-b/	vb G suffc. 3 m. sg.	to mount (especially a chariot)	
 151460	rkb	rkb[	/r-k-b/	vb G impv. 2	to mount (especially a chariot)	
-151460	rkb	rkb[/	/r-k-b/	vb G ptcpl. m. sg.	to mount (especially a chariot)	
-151460	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr.	Charioteer	
-151460	rkb	rkb(II)/	rkb (II)	n. m. pl. cstr.	?	
-151460	rkb	rkb(II)/	rkb (II)	n. m. sg. cstr.	?	
-151461	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl.	cloud(s)	
-151461	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
-151461	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl.	cloud(s)	
+151460	rkb	rkb[/	/r-k-b/	vb G ptcpl. m. sg. abs. nom.	to mount (especially a chariot)	
+151460	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
+151460	rkb	rkb(II)/	rkb (II)	n. m. pl. cstr. nom.	?	
+151460	rkb	rkb(II)/	rkb (II)	n. m. sg. cstr. nom.	?	
+151461	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl. abs. nom.	cloud(s)	
+151461	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg. abs. nom.	cloud(s)	
+151461	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl. abs. nom.	cloud(s)	

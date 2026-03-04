@@ -1,25 +1,25 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.96 1						
-151565	ˤnn	ˤn(I)/	ʕn (I)	n. f. du. abs.	eye	
-151565	ˤnn	ˤnn/	ʕnn	n. m. pl. cstr.	manservant	
-151565	ˤnn	ˤnn/	ʕnn	n. m. sg.	manservant	
-151566	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg.	to go	
+151565	ˤnn	ˤn(I)/	ʕn (I)	n. f. du. abs. nom.	eye	
+151565	ˤnn	ˤnn/	ʕnn	n. m. pl. cstr. nom.	manservant	
+151565	ˤnn	ˤnn/	ʕnn	n. m. sg. abs. nom.	manservant	
+151566	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
 151567	w	w	w	conj.	and	
-151568	šnwt	šnw[/t	/š-n-w/	vb G act. ptcpl. m. sg.	to change: a) reflex.	
+151568	šnwt	šnw[/t	/š-n-w/	vb G act. ptcpl. m. sg. abs. nom.	to change: a) reflex.	
 # KTU 1.96 2						
-151569	tp	tp(II)/	tp (II)	n. m. sg.	aspect	
-151569	tp	tp(I)/	tp (I)	n. m. sg.	drum	
+151569	tp	tp(II)/	tp (II)	n. m. sg. abs. nom.	aspect	
+151569	tp	tp(I)/	tp (I)	n. m. sg. abs. nom.	drum	
 151569	tp	npy[	/n-p-y/	vb N prefc.	to be driven away	
 151569	tp	npy[:pass	/n-p-y/	vb Gpass prefc.	to be driven away	
-151570	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr.	brother (by blood)	
+151570	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 151571	k	+k	-k (I)			
 151571	k	~k	-k (II)			
 151571	k	k(III)	k (III)	Subordinating or completive functor	when	
 151571	k	k(I)	k (I)	prep.	like	
 151571	k	k(II)	k (II)	emph. functor	yes	
-151572	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg.	handsome	
-151572	nˤm	nˤm(II)/	nʕm (II)	n. m. sg.	grace	
-151573	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr.	brother (by blood)	
+151572	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	handsome	
+151572	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
+151573	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 151574	xxx	?	?	?	?	
 # KTU 1.96 3						
 151575	k	+k	-k (I)			
@@ -27,16 +27,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151575	k	k(III)	k (III)	Subordinating or completive functor	when	
 151575	k	k(I)	k (I)	prep.	like	
 151575	k	k(II)	k (II)	emph. functor	yes	
-151576	ysmsm	ysmsm/	ysmsm	adj. m. sg.	handsome	
+151576	ysmsm	ysmsm/	ysmsm	adj. m. sg. abs. nom.	handsome	
 151577	tspi	!t!sp(ʔ[&i	/s-p-ʔ/	vb G prefc.	to devour	
-151578	širh	šir(I)/h	šỉr (I)	n. m. sg.	flesh	
+151578	širh	šir(I)/h	šỉr (I)	n. m. sg. abs. nom.	flesh	
 # KTU 1.96 4						
 151579	l	l(I)	l (I)	prep.	to	
 151579	l	l(III)	l (III)	functor	certainly	
 151580	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 151580	bl	bl(II)	bl (II)	prep.	without	
-151580	bl	bl(III)/	bl (III)	n. m. sg.	blended beer	
-151581	ḥrb	ḥrb/	ḥrb	n. f. sg.	knife	
+151580	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
+151581	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. nom.	knife	
 151582	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 151582	tšt	!t!št(y[	/š-t-y/	vb G prefc. 3 f. sg.	to drink	
 151582	tšt	!t=!št(y[	/š-t-y/	vb G prefc. 2 m. sg.	to drink	
@@ -50,24 +50,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151584	l	l(III)	l (III)	functor	certainly	
 151585	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 151585	bl	bl(II)	bl (II)	prep.	without	
-151585	bl	bl(III)/	bl (III)	n. m. sg.	blended beer	
-151586	ks	ks(I)/	ks (I)	n. m. sg.	cup	
-151586	ks	ks/	ks/śm(n)	n. m. pl.	emmer-corn	
+151585	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
+151586	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
+151586	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
 151587	tpnn	!t!pnn[:w	/p-n-n/	vb G prefc. 3 m. pl.	to distort	
-151588	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151588	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151588	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151588	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151588	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151588	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151588	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151588	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+151588	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 # KTU 1.96 6						
-151589	bty	bt(II)/+y	bt (II)	n. m. cstr.	house	
-151590	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151589	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+151590	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151590	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151590	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151591	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg.	shame	
-151591	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg.	evildoing woman	
+151590	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151591	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
+151591	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. nom.	evildoing woman	
 151592	tpnn	!t!pnn[	/p-n-n/	vb G prefc. 3 f. sg.	to distort	
 151592	tpnn	!t=!pnn[	/p-n-n/	vb G prefc. 2 m. sg.	to distort	
 151592	tpnn	!t==!pnn[	/p-n-n/	vb G prefc. 2 f. sg.	to distort	
@@ -75,39 +75,39 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151592	tpnn	!t!pnn[:w	/p-n-n/	vb G prefc. 3 m. pl.	to distort	
 151592	tpnn	!t===!pnn[	/p-n-n/	vb G prefc. 2 m. pl.	to distort	
 # KTU 1.96 7						
-151593	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151593	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151593	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151593	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151593	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151593	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151593	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151593	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151594	mḫr	mḫr(II)/	mḫr (II)	n. m. sg.	tax collector	
-151595	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151595	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151595	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151593	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151594	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. abs. nom.	tax collector	
+151595	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151595	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151595	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151595	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151595	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151596	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
-151596	pḫr	pḫr(II)/	pḫr (II)	n. m. sg.	potter	
+151595	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151596	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. abs. nom.	assembly	
+151596	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. abs. nom.	potter	
 # KTU 1.96 8						
-151597	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151597	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151597	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151597	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151597	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151597	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151597	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151597	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151598	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg.	gatekeeper	
-151598	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg.	gate	
-151599	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151599	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151599	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151597	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151598	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. abs. nom.	gatekeeper	
+151598	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. nom.	gate	
+151599	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151599	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151599	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151599	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151599	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151600	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg.	gatekeeper	
-151600	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg.	gate	
+151599	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151600	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. abs. nom.	gatekeeper	
+151600	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. nom.	gate	
 # KTU 1.96 9						
 151601	l	l(I)	l (I)	prep.	to	
 151601	l	l(III)	l (III)	functor	certainly	
-151602	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg.	gatekeeper	
-151602	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg.	gate	
+151602	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. abs. nom.	gatekeeper	
+151602	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. nom.	gate	
 151603	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 151603	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 f. sg.	to sit down	
 151603	tṯb	!t=!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. sg.	to sit down	
@@ -115,18 +115,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151603	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
 151603	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down	
 151603	tṯb	!t===!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. pl.	to sit down	
-151603	tṯb	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
-151604	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151604	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151604	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151603	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+151604	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151604	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151604	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151604	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151604	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151605	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
-151605	pḫr	pḫr(II)/	pḫr (II)	n. m. sg.	potter	
+151604	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151605	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. abs. nom.	assembly	
+151605	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. abs. nom.	potter	
 # KTU 1.96 10						
 151606	l	l(I)	l (I)	prep.	to	
 151606	l	l(III)	l (III)	functor	certainly	
-151607	pḫr	pḫr(I)/	pḫr (I)	n. m. sg.	assembly	
+151607	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. abs. nom.	assembly	
 151608	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 151608	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 f. sg.	to sit down	
 151608	tṯb	!t=!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. sg.	to sit down	
@@ -134,17 +134,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151608	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
 151608	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down	
 151608	tṯb	!t===!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. pl.	to sit down	
-151608	tṯb	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
-151609	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151609	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151609	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151608	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+151609	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151609	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151609	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151609	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151609	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151610	mḫr	mḫr(II)/	mḫr (II)	n. m. sg.	tax collector	
+151609	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151610	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. abs. nom.	tax collector	
 # KTU 1.96 11						
 151611	l	l(I)	l (I)	prep.	to	
 151611	l	l(III)	l (III)	functor	certainly	
-151612	mḫr	mḫr(II)/	mḫr (II)	n. m. sg.	tax collector	
+151612	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. abs. nom.	tax collector	
 151613	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 151613	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 f. sg.	to sit down	
 151613	tṯb	!t=!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. sg.	to sit down	
@@ -152,17 +152,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151613	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
 151613	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down	
 151613	tṯb	!t===!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. pl.	to sit down	
-151613	tṯb	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
-151614	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151614	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151614	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151613	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+151614	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151614	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151614	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151614	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151614	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151615	bty	bt(II)/+y	bt (II)	n. m. cstr.	house	
+151614	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151615	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
 # KTU 1.96 12						
 151616	l	l(I)	l (I)	prep.	to	
 151616	l	l(III)	l (III)	functor	certainly	
-151617	bṯy	bṯy/	bṯy	n. m. sg.	evildoer	
+151617	bṯy	bṯy/	bṯy	n. m. sg. abs. nom.	evildoer	
 151618	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 151618	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 f. sg.	to sit down	
 151618	tṯb	!t=!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. sg.	to sit down	
@@ -170,19 +170,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151618	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
 151618	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down	
 151618	tṯb	!t===!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. pl.	to sit down	
-151618	tṯb	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
-151619	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-151619	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-151619	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+151618	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+151619	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151619	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151619	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151619	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-151619	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
-151620	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg.	shame	
-151620	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg.	evildoing woman	
+151619	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151620	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
+151620	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. nom.	evildoing woman	
 # KTU 1.96 13						
 151621	l	l(I)	l (I)	prep.	to	
 151621	l	l(III)	l (III)	functor	certainly	
-151622	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg.	shame	
-151622	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg.	evildoing woman	
+151622	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
+151622	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. nom.	evildoing woman	
 151623	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
 151623	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 f. sg.	to sit down	
 151623	tṯb	!t=!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. sg.	to sit down	
@@ -190,6 +190,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151623	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
 151623	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down	
 151623	tṯb	!t===!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. pl.	to sit down	
-151623	tṯb	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
+151623	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
 # KTU 1.96 14						
 151624	xx	?	?	?	?	

@@ -1,10 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 1						
 151491	r	?	?	?	?	DULAT: NOT FOUND
-151492	š	š/	š	n. m. sg.	ram	
+151492	š	š/	š	n. m. sg. abs. nom.	ram	
 151493	ybšr	?	?	?	?	DULAT: NOT FOUND
-151494	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
-151494	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
+151494	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
+151494	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 # KTU 1.94 2						
 151495		?	?	?	?	
 # KTU 1.94 3						
@@ -51,30 +51,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 23						
 151517	x	?	?	?	?	
 151518	ybšr	?	?	?	?	DULAT: NOT FOUND
-151519	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
-151519	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
+151519	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
+151519	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 # KTU 1.94 24						
 151520	t	/t, /t=				DULAT: NOT FOUND
 151520	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-151521	btm	bt(II)/m	bt (II)	n. m. pl.	house	
-151521	btm	bt(I)/m	bt (I)	n. f. pl. abs.	daughter	
-151522	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
-151522	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
-151523	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-151523	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-151523	il	il(I)/	ỉl (I)	n. m. sg.	god	
-151523	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+151521	btm	bt(II)/m	bt (II)	n. m. pl. abs. nom.	house	
+151521	btm	bt(I)/m	bt (I)	n. f. pl. abs. nom.	daughter	
+151522	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+151522	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
+151523	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+151523	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+151523	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+151523	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.94 25						
-151524	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-151524	bn	bn(I)/	bn (I)	n. m. sg.	son	
+151524	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+151524	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 151524	bn	bn(II)	bn (II)	prep.	between	
 151524	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 151524	bn	bn[	/b-n/	vb G impv. 2	to understand	
-151525	qdš	qdš(I)/	qdš (I)	adj. m. sg.	holy	
-151525	qdš	qdš(II)/	qdš (II)	n. m. sg.	sanctuary	
-151526	kb	kb(I)/	kb (I)	adj. m.	sewn	
-151526	kb	kb(II)/	kb (II)	n. m.	intestine(s)	
-151526	kb	kb/	kb	PN sg.	kb	
+151525	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
+151525	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+151526	kb	kb(I)/	kb (I)	adj. m. abs. nom.	sewn	
+151526	kb	kb(II)/	kb (II)	n. m. abs. nom.	intestine(s)	
+151526	kb	kb/	kb	PN sg. abs. nom.	kb	
 # KTU 1.94 26						
 151527	ˤsb	ˤsb	ʕsb	?	?	
 151528	xxḥ	?	?	?	?	DULAT: NOT FOUND
@@ -93,11 +93,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 29						
 151535	xẓk	?	?	?	?	DULAT: NOT FOUND
 151536	w	w	w	conj.	and	
-151537	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
-151537	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
-151537	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
-151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs.	woman	
-151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. du. abs. nom.	woman	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. pl. abs. nom.	woman	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
+151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
 # KTU 1.94 30						
 151538	xk	?	?	?	?	DULAT: NOT FOUND
 151539	w	w	w	conj.	and	
@@ -106,7 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151541	rġrm	?	?	?	?	DULAT: NOT FOUND
 151542	l	l(I)	l (I)	prep.	to	
 151542	l	l(III)	l (III)	functor	certainly	
-151543	pṯ	pṯ/	pṯ	PN sg.	pṯ	
+151543	pṯ	pṯ/	pṯ	PN sg. abs. nom.	pṯ	
 # KTU 1.94 32						
 151544	l	l(I)	l (I)	prep.	to	
 151544	l	l(III)	l (III)	functor	certainly	

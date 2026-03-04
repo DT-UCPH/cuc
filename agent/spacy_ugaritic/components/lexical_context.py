@@ -22,6 +22,7 @@ _REPLACEMENT_ANALYSIS = "bˤl(II)/;bˤl[/"
 _REPLACEMENT_DULAT = "bʕl (II);/b-ʕ-l/"
 _REPLACEMENT_POS = "n. m./DN;vb"
 _REPLACEMENT_GLOSS = "Baʿlu;to make"
+_ALIYN_GLOSS = "the very / most powerful"
 
 
 @dataclass(frozen=True)
@@ -125,6 +126,16 @@ def _canonical_ydk(comment: str = "") -> Candidate:
     return Candidate("yd(II)/+k=", "yd (II)", "n. m.", "love", comment=comment)
 
 
+def _canonical_aliyn_baal(comment: str = "") -> Candidate:
+    return Candidate(
+        "bˤl(II)/",
+        "bʕl (II)",
+        "DN m. sg. abs. nom.",
+        "Baʿlu/Baal",
+        comment=comment,
+    )
+
+
 def _packed_baal_labourer_row(candidate: Candidate) -> bool:
     return (
         ";".join(_split_semicolon(candidate.analysis)) in _TARGET_ANALYSES
@@ -151,9 +162,16 @@ class LexicalContextResolver:
 
     def _apply_baal_rules(self, doc: Doc) -> None:
         allow_labourer = _is_ktu4(doc)
-        for token in doc:
+        for index, token in enumerate(doc):
             candidates = tuple(token._.resolved_candidates)
             if token._.surface == "bˤl":
+                if _is_aliyn_baal_context(doc, index):
+                    comment = next(
+                        (candidate.comment for candidate in candidates if candidate.comment),
+                        "",
+                    )
+                    self._maybe_replace(token, (_canonical_aliyn_baal(comment),), "aliyn-baal-dn")
+                    continue
                 if len(candidates) == 1:
                     candidate = _normalize_packed_baal_verbal(candidates[0])
                     if not allow_labourer and _packed_baal_labourer_row(candidate):
@@ -216,3 +234,18 @@ class LexicalContextResolver:
 @Language.factory("ugaritic_lexical_context_resolver")
 def make_lexical_context_resolver(nlp, name, rule_groups=("baal", "ydk")):
     return LexicalContextResolver(rule_groups=rule_groups)
+
+
+def _is_aliyn_baal_context(doc: Doc, index: int) -> bool:
+    if index <= 0 or doc[index]._.surface != "bˤl":
+        return False
+    previous = doc[index - 1]
+    if previous._.surface != "aliyn":
+        return False
+    return any(
+        candidate.analysis.strip() == "aliyn/"
+        and candidate.dulat.strip() == "ảlỉyn"
+        and "adj." in candidate.pos
+        and (candidate.gloss or "").strip().lower() == _ALIYN_GLOSS
+        for candidate in previous._.resolved_candidates
+    )

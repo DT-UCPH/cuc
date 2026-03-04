@@ -56,7 +56,7 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         )
         row = TabletRow("139808", "yṯb", "yṯb[/", "/y-ṯ-b/", "vb G act. ptcpl.", "to sit down", "")
         rewritten = rewrite_row(row, completer)
-        self.assertEqual(rewritten.pos, "vb G act. ptcpl. m. sg.")
+        self.assertEqual(rewritten.pos, "vb G act. ptcpl. m. sg. abs. nom.")
 
     def test_pipeline_step_uses_real_dulat_reader(self) -> None:
         fixer = VerbalFeatureCompletionFixer(Path("unused.sqlite"))

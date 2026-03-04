@@ -2,21 +2,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.8 1						
 161149	tldn	!!yld[/+n	/y-l-d/	vb G inf.	to give birth (to)	
 161149	tldn	yld[+n	/y-l-d/	vb N suffc.	to give birth (to)	
-161149	tldn	tldn/	tldn	PN sg.	tldn	
+161149	tldn	tldn/	tldn	PN sg. abs. nom.	tldn	
 # KTU 3.8 2						
-161150	ṯrkn	ṯr(I)/+kn	ṯr (I)	n. m. cstr.	bull	
-161150	ṯrkn	ṯrkn/	ṯrkn	PN sg.	ṯrkn	
-161150	ṯrkn	ṯr(III)/+kn	ṯr (III)	n. m. cstr.	a mat	
+161150	ṯrkn	ṯr(I)/+kn	ṯr (I)	n. m. cstr. nom.	bull	
+161150	ṯrkn	ṯrkn/	ṯrkn	PN sg. abs. nom.	ṯrkn	
+161150	ṯrkn	ṯr(III)/+kn	ṯr (III)	n. m. cstr. nom.	a mat	
 # KTU 3.8 3						
-161151	kli	kli/	klỉ	PN sg.	klỉ	
+161151	kli	kli/	klỉ	PN sg. abs. nom.	klỉ	
 # KTU 3.8 4						
-161152	plġn	plġn/	plġn	PN sg.	plġn	
+161152	plġn	plġn/	plġn	PN sg. abs. nom.	plġn	
 # KTU 3.8 5						
-161153	apśnym	apny/+m(I)	ảpśny	TN sg. cstr.	ảpśny	
+161153	apśnym	apny/+m(I)	ảpśny	TN sg. cstr. nom.	ảpśny	
 # KTU 3.8 6						
 161154	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
 161154	ˤrb	ˤrb(II)[	/ʕ-r-b/ (II)	vb G suffc. 3 m. sg.	to give a guarantee or pledge	
-161154	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg.	entry	
+161154	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
 161155	b	b	b	prep.	in	
 161156	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 161156	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
@@ -27,26 +27,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161158	b	b	b	prep.	in	
 161159	pxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.8 8						
-161160	apśnym	apny/+m(I)	ảpśny	TN sg. cstr.	ảpśny	
+161160	apśnym	apny/+m(I)	ảpśny	TN sg. cstr. nom.	ảpśny	
 # KTU 3.8 9						
 161161	b	b	b	prep.	in	
-161162	yṣihm	yṣu(I)/	yṣủ (I)	n. m.	exit	
+161162	yṣihm	yṣu(I)/	yṣủ (I)	n. m. abs. nom.	exit	
 # KTU 3.8 10						
-161163	ḥwt	ḥw(t/t	ḥwt	n. f. sg.	country	
+161163	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
 161164	ṯth	ṯn(I)/	ṯn (I)	nuf.	two	
 # KTU 3.8 11						
-161165	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
-161165	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
+161165	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+161165	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 161165	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-161166	ksp	ksp/	ksp	n. m. sg.	silver	
+161166	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.8 12						
 161167	tśˤn	nsˤ(II)[	/n-s:ś-ʕ/ (II)	vb G prefc.	to pay	
 # KTU 3.8 13						
 161168	w	w	w	conj.	and	
 161169	hm	hm(II)	hm (II)	conj./interr. functor	if	
 161169	hm	hm(I)	hm (I)	pers. pn.	they	
-161170	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
-161170	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
+161170	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+161170	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 161170	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 3.8 14						
 161171	l	l(I)	l (I)	prep.	to	
@@ -54,50 +54,50 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161171	l	l(III)	l (III)	functor	certainly	
 161172	tśˤn	nsˤ(II)[	/n-s:ś-ʕ/ (II)	vb G prefc.	to pay	
 # KTU 3.8 15						
-161173	mṣrm	mṣrm/	mṣrm	TN sg.	Egypt	
-161173	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr.	sob	
+161173	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
+161173	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. nom.	sob	
 # KTU 3.8 16						
 161174	tmkrn	!t!](n]mkr[n	/m-k-r/	vb N prefc.	to be sold	
 # KTU 3.8 17						
-161175	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161176	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg.	ʿbdỉlt	
+161175	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
+161176	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg. abs. nom.	ʿbdỉlt	
 # KTU 3.8 18						
-161177	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161177	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161177	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161177	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161177	bn	bn(II)	bn (II)	prep.	between	
 161177	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161177	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161178	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.8 19						
-161179	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161180	ilšlm	ilšlm/	ỉlšlm	PN sg.	ỉlšlm	
+161179	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
+161180	ilšlm	ilšlm/	ỉlšlm	PN sg. abs. nom.	ỉlšlm	
 # KTU 3.8 20						
-161181	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161181	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161181	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161181	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161181	bn	bn(II)	bn (II)	prep.	between	
 161181	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161181	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161182	prqdš	prqdš/	prqdš	PN sg.	prqdš	
+161182	prqdš	prqdš/	prqdš	PN sg. abs. nom.	prqdš	
 # KTU 3.8 21						
-161183	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161184	mnḥm	mnḥm/	mnḥm	PN sg.	mnḥm	
+161183	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
+161184	mnḥm	mnḥm/	mnḥm	PN sg. abs. nom.	mnḥm	
 161184	mnḥm	mnḥ[+m(I)	/m-n-ḥ/	vb G suffc.	to deliver	
-161184	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr.	delivery	
+161184	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr. nom.	delivery	
 # KTU 3.8 22						
-161185	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161185	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161185	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161185	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161185	bn	bn(II)	bn (II)	prep.	between	
 161185	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161185	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161186	ḥnn	ḥ/+nn	ḥ	n. m. cstr.	life, ?	
-161186	ḥnn	ḥnn(II)/	ḥnn (II)	PN sg.	ḥnn (II)	
-161186	ḥnn	ḥnn(I)/	ḥnn (I)	n. m.	kindness	
+161186	ḥnn	ḥ/+nn	ḥ	n. m. cstr. nom.	life, ?	
+161186	ḥnn	ḥnn(II)/	ḥnn (II)	PN sg. abs. nom.	ḥnn (II)	
+161186	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. abs. nom.	kindness	
 # KTU 3.8 23						
-161187	brqn	brq(I)/+n	brq (I)	n. m. cstr.	ray	
-161187	brqn	brqn/	brqn	PN sg.	brqn	
-161188	spr	spr(II)/	spr (II)	n. m. sg.	tablet / register	
+161187	brqn	brq(I)/+n	brq (I)	n. m. cstr. nom.	ray	
+161187	brqn	brqn/	brqn	PN sg. abs. nom.	brqn	
+161188	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 161188	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 161188	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
 161188	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 161188	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-161188	spr	spr(I)/	spr (I)	n. m. sg.	scribe	
+161188	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	

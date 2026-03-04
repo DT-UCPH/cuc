@@ -128,6 +128,8 @@ class NominalFeatureCompleter:
             return "cstr."
         if "abs." in morph:
             return "abs."
+        if NominalFeatureCompleter._base_pos(row.pos):
+            return "abs."
         return ""
 
     @staticmethod
@@ -136,7 +138,11 @@ class NominalFeatureCompleter:
         if match:
             return match.group(1)
         match = _CASE_RE.search(row.pos or "")
-        return match.group(1) if match else ""
+        if match:
+            return match.group(1)
+        if NominalFeatureCompleter._base_pos(row.pos):
+            return "nom."
+        return ""
 
     @staticmethod
     def _suffix_person(analysis: str) -> str:

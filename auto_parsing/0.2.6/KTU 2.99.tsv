@@ -1,48 +1,48 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 1						
-160275	tḥm	tḥm/	tḥm	n. m. sg.	message	
-160276	mlkt	mlk(t/t	mlkt	n. f. sg.	queen	
+160275	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+160276	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
 # KTU 2.99 2						
 160277	l	l(I)	l (I)	prep.	to	
 160277	l	l(III)	l (III)	functor	certainly	
 160278	urtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 3						
 160279	r	?	?	?	?	DULAT: NOT FOUND
-160280	gm	g/~m	g	n. m. sg.	(loud) voice	
+160280	gm	g/~m	g	n. m. abs. nom. sg.	(loud) voice	
 160280	gm	gm(II)	gm (II)	adv.	also	
 # KTU 2.99 4						
 160281	hlny	hlny	hlny	deictic adv. functor	behold	
-160282	klby	klb(I)/+y	klb (I)	n. m. cstr.	dog	
-160282	klby	klby/	klby	PN sg.	klby	
+160282	klby	klb(I)/+y	klb (I)	n. m. cstr. nom.	dog	
+160282	klby	klby/	klby	PN sg. abs. nom.	klby	
 # KTU 2.99 5						
 160283	w	w	w	conj.	and	
-160284	gtn	gt/+n	gt	n. f. cstr.	gittu	
-160284	gtn	gtn/	gtn	PN sg.	gtn	
+160284	gtn	gt/+n	gt	n. f. cstr. nom.	gittu	
+160284	gtn	gtn/	gtn	PN sg. abs. nom.	gtn	
 160285	yit	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 6						
 160286	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-160286	ˤmk	ˤm(II)/	ʕm (II)	n. m.	lineage	
+160286	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.99 7						
 160287	xxxxtddhm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 8						
 160288	xx	?	?	?	?	
-160289	mitm	mit/m	mỉt	n. f. pl.	a hundred	
-160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg.	gold	
+160289	mitm	mit/m	mỉt	n. f. pl. abs. nom.	a hundred	
+160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 # KTU 2.99 9						
 160291	xxxxxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 10						
 160292	xxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 11						
 160293	x	?	?	?	?	
-160294	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
-160294	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
+160294	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+160294	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 160294	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-160295	pḥm	pḥm/	pḥm	n. m. sg.	ember	
+160295	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
 # KTU 2.99 12						
-160296	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
-160296	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
+160296	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+160296	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 160296	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-160297	iqni	iqn(u/&i	ỉqnủ	n. m. sg.	gem of lapis lazuli	
+160297	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
 160298	w	w	w	conj.	and	
 160299	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 160300	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
@@ -53,7 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 14						
 160303		?	?	?	?	
 # KTU 2.99 15						
-160304	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
+160304	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
 # KTU 2.99 16						
 160305		?	?	?	?	
 # KTU 2.99 17						
@@ -64,30 +64,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 18						
 160307	tqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 # KTU 2.99 19						
-160308	pln	pln/	pln	PN sg.	pln	
+160308	pln	pln/	pln	PN sg. abs. nom.	pln	
 160308	pln	pl[+n	/p-l(-l)/	vb G suffc.	to be cracked	
 # KTU 2.99 20						
-160309	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
-160310	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
-160310	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
-160310	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
+160309	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+160310	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
+160310	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
+160310	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
 # KTU 2.99 21						
 160311	xxspln	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 22						
-160312	šmn	šmn(I)/	šmn (I)	n. m. sg.	oil	
-160313	nr	nr/	nr	n. m. sg. cstr.	sheen	
+160312	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+160313	nr	nr/	nr	n. m. sg. cstr. nom.	sheen	
 160313	nr	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.99 23						
-160314	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
-160314	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
-160315	gpt	gp(I)/t=	gp (I)	n. f. pl.	shore	
+160314	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
+160314	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
+160315	gpt	gp(I)/t=	gp (I)	n. f. pl. abs. nom.	shore	
 # KTU 2.99 24						
-160316	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
-160316	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
-160317	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg.	vinegar	
+160316	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
+160316	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
+160317	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	
 160317	ḥmṣ	ḥmṣ[	/ḥ-m-ṣ/	vb	to be(come) sour	
 160318	w	w	w	conj.	and	
-160319	nbt	nb(t/t	nbt	n. f. sg.	honey	
+160319	nbt	nb(t/t	nbt	n. f. sg. abs. nom.	honey	
 # KTU 2.99 25						
 160320	w	w	w	conj.	and	
 160321	lgtn	?	?	?	?	DULAT: NOT FOUND
@@ -101,7 +101,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160326	lhm	l(I)+hm	l (I)	prep.	to	
 # KTU 2.99 28						
 160327	xxx	?	?	?	?	
-160328	ksp	ksp/	ksp	n. m. sg.	silver	
+160328	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 160329	xxrx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 29						
 160330	xxxrxqt	?	?	?	?	DULAT: NOT FOUND
@@ -109,19 +109,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160331	x	?	?	?	?	
 160332	igrn	!(ʔ&i!](n]gr[n	/g-r/	vb N prefc. 1 c. sg.	to lodge	
 # KTU 2.99 31						
-160333	qthm	qt/+hm	qt	n. m. cstr.	handle	
-160333	qthm	ṯigt/+hm	ṯỉgt	n. f. cstr.	neighing	
+160333	qthm	qt/+hm	qt	n. m. cstr. nom.	handle	
+160333	qthm	ṯigt/+hm	ṯỉgt	n. f. cstr. nom.	neighing	
 # KTU 2.99 32						
 160334	xh	?	?	?	?	DULAT: NOT FOUND
 160335	tbxnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 33						
 160336	x	?	?	?	?	
-160337	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
-160337	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg.	red	
+160337	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
+160337	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
 # KTU 2.99 34						
 160338	xxrt	?	?	?	?	DULAT: NOT FOUND
-160339	ipd	ipd/	ỉpd	n. m. sg.	tunic	
+160339	ipd	ipd/	ỉpd	n. m. sg. abs. nom.	tunic	
 # KTU 2.99 35						
 160340	x	?	?	?	?	
 160341	w	w	w	conj.	and	
-160342	rq	rq(II)/	rq (II)	adj. m. sg.	fine	
+160342	rq	rq(II)/	rq (II)	adj. m. sg. abs. nom.	fine	

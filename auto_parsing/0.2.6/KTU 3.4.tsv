@@ -2,86 +2,86 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.4 1						
 160977	l	l(I)	l (I)	prep.	to	
 160977	l	l(III)	l (III)	functor	certainly	
-160978	ym	ym(I)/	ym (I)	n. m. sg.	day	
-160978	ym	ym(II)/	ym (II)	n. m. sg.	sea	
+160978	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+160978	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 160979	hnd	hnd	hnd	dem.	this	
 # KTU 3.4 2						
-160980	iwrkl	iwrkl/	ỉwrkl	PN sg.	ỉwrkl	
+160980	iwrkl	iwrkl/	ỉwrkl	PN sg. abs. nom.	ỉwrkl	
 160981	pdy	pdy[	/p-d-y/	vb G suffc. 3 m. sg.	to redeem	
 # KTU 3.4 3						
 160982	agdn	?	?	?	?	DULAT: NOT FOUND
-160983	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-160983	bn	bn(I)/	bn (I)	n. m. sg.	son	
+160983	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+160983	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 160983	bn	bn(II)	bn (II)	prep.	between	
 160983	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 160983	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160984	nwgn	nwgn/	nwgn	PN sg.	nwgn	
+160984	nwgn	nwgn/	nwgn	PN sg. abs. nom.	nwgn	
 # KTU 3.4 4						
 160985	w	w	w	conj.	and	
-160986	ynḥm	ynḥm/	ynḥm	PN sg.	ynḥm	
-160987	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr.	brother (by blood)	
+160986	ynḥm	ynḥm/	ynḥm	PN sg. abs. nom.	ynḥm	
+160987	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 # KTU 3.4 5						
 160988	w	w	w	conj.	and	
-160989	bˤln	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
-160990	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr.	brother (by blood)	
+160989	bˤln	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+160990	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 # KTU 3.4 6						
 160991	w	w	w	conj.	and	
 160992	ḥṯtṯn	?	?	?	?	DULAT: NOT FOUND
-160993	bnh	bn(I)/+h	bn (I)	n. m. cstr.	son	
+160993	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
 # KTU 3.4 7						
 160994	w	w	w	conj.	and	
-160995	btšy	btšy/	btšy	PN sg.	btšy	
-160996	bth	bt(II)/+h	bt (II)	n. m. cstr.	house	
-160996	bth	bt(I)/h	bt (I)	n. f. du. abs.	daughter	
-160996	bth	bt(I)/h	bt (I)	n. f. sg.	daughter	
+160995	btšy	btšy/	btšy	PN sg. abs. nom.	btšy	
+160996	bth	bt(II)/+h	bt (II)	n. m. cstr. nom.	house	
+160996	bth	bt(I)/h	bt (I)	n. f. du. abs. nom.	daughter	
+160996	bth	bt(I)/h	bt (I)	n. f. sg. abs. nom.	daughter	
 # KTU 3.4 8						
 160997	w	w	w	conj.	and	
-160998	ištrmy	ištrmy/	ỉštrmy	PN sg.	ỉštrmy	
+160998	ištrmy	ištrmy/	ỉštrmy	PN sg. abs. nom.	ỉštrmy	
 # KTU 3.4 9						
-160999	bt	bt(II)/	bt (II)	n. m. sg.	house	
-160999	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-160999	bt	bt(III)/	bt (III)	n. m. pl. cstr.	length	
-161000	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg.	ʿbdmlk	
-161001	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr.	woman	
+160999	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
+160999	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+160999	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
+161000	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
+161001	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	woman	
 # KTU 3.4 10						
 161002	w	w	w	conj.	and	
 161003	sntb	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.4 11						
-161004	bt	bt(II)/	bt (II)	n. m. sg.	house	
-161004	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-161004	bt	bt(III)/	bt (III)	n. m. pl. cstr.	length	
-161005	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+161004	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
+161004	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+161004	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
+161005	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 3.4 12						
 161006	w	w	w	conj.	and	
 161007	pdy	pdy[	/p-d-y/	vb G suffc. 3 m. sg.	to redeem	
 161008	hm	hm(II)	hm (II)	conj./interr. functor	if	
 161008	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 3.4 13						
-161009	iwrkl	iwrkl/	ỉwrkl	PN sg.	ỉwrkl	
-161010	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
+161009	iwrkl	iwrkl/	ỉwrkl	PN sg. abs. nom.	ỉwrkl	
+161010	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
 # KTU 3.4 14						
-161011	ksp	ksp/	ksp	n. m. sg.	silver	
+161011	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161012	b	b	b	prep.	in	
-161013	yd	yd(I)/	yd (I)	n. f. sg.	hand	
+161013	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 # KTU 3.4 15						
-161014	birtym	birty/	bỉrty	GN pl.	bỉrty	
+161014	birtym	birty/	bỉrty	GN pl. abs. nom.	bỉrty	
 # KTU 3.4 16						
 161015	w	w	w	conj.	and	
-161016	unṯ	unṯ/	ủnṯ	n. m. pl. cstr.	obligation	
-161016	unṯ	unṯ/	ủnṯ	n. m. sg.	obligation	
-161017	inn	in/	ỉn	n. m. sg.	lack of	
+161016	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	
+161016	unṯ	unṯ/	ủnṯ	n. m. sg. abs. nom.	obligation	
+161017	inn	in/	ỉn	n. m. sg. abs. nom.	lack of	
 # KTU 3.4 17						
 161018	lhm	l(I)+hm	l (I)	prep.	to	
-161019	ˤd	ˤd(III)/	ʕd (III)	n. m. sg.	throne	
-161019	ˤd	ˤd(II)/	ʕd (II)	n. m. sg.	time	
+161019	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+161019	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 161020	tṯṯbn	]š]ṯb[ṯbn	/ṯ-b/	vb Š prefc.	to return	
 # KTU 3.4 18						
-161021	ksp	ksp/	ksp	n. m. sg.	silver	
-161022	iwrkl	iwrkl/	ỉwrkl	PN sg.	ỉwrkl	
+161021	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161022	iwrkl	iwrkl/	ỉwrkl	PN sg. abs. nom.	ỉwrkl	
 # KTU 3.4 19						
 161023	w	w	w	conj.	and	
 161024	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 161024	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
 161025	l	l(I)	l (I)	prep.	to	
 161025	l	l(III)	l (III)	functor	certainly	
-161026	unṯhm	unṯ/	ủnṯ	n. m. pl. cstr.	obligation	
+161026	unṯhm	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	

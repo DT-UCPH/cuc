@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from pipeline.steps.base import RefinementStep, StepResult
-from spacy_ugaritic.doc_builder import build_doc, parse_grouped_tokens, parse_row_tokens
+from spacy_ugaritic.doc_builder import build_doc, parse_grouped_tokens
 from spacy_ugaritic.language import (
     create_ugaritic_baal_context_nlp,
     create_ugaritic_ydk_context_nlp,
@@ -30,7 +30,7 @@ class SpacyBaalContextDisambiguator(_BaseSpacyLexicalContextDisambiguator):
 
     def refine_file(self, path: Path) -> StepResult:
         lines = path.read_text(encoding="utf-8").splitlines()
-        tokens = parse_row_tokens(lines)
+        tokens = parse_grouped_tokens(lines)
         rows_processed = count_data_rows(lines)
         if not tokens:
             return StepResult(file=path.name, rows_processed=rows_processed, rows_changed=0)

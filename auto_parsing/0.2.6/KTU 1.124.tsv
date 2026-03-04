@@ -6,21 +6,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154374	k	k(I)	k (I)	prep.	like	
 154374	k	k(II)	k (II)	emph. functor	yes	
 154375	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come	
-154376	adn	adn(I)/	ảdn (I)	n. m. sg.	lord	
+154376	adn	adn(I)/	ảdn (I)	n. m. sg. abs. nom.	lord	
 # KTU 1.124 2						
-154377	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-154377	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
-154378	rbm	rb(I)/m	rb (I)	adj. m. pl.	great	
+154377	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+154377	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+154378	rbm	rb(I)/m	rb (I)	adj. m. pl. abs. nom.	great	
 154379	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 154380	dtn	d+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.124 3						
 154381	w	w	w	conj.	and	
 154382	yšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
-154383	mṯpẓ	mṯpṭ/	mṯpṭ	n.	command	
+154383	mṯpẓ	mṯpṭ/	mṯpṭ	n. abs. nom.	command	
 154384	yld	!!yld[/	/y-l-d/	vb G inf.	to give birth (to)	
 154384	yld	yld[	/y-l-d/	vb N suffc. 3 m. sg.	to give birth (to)	
-154384	yld	yld/	yld	n. m. pl. cstr.	son	
-154384	yld	yld/	yld	n. m. sg.	son	
+154384	yld	yld/	yld	n. m. pl. cstr. nom.	son	
+154384	yld	yld/	yld	n. m. sg. abs. nom.	son	
 # KTU 1.124 4						
 154385	w	w	w	conj.	and	
 154386	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
@@ -29,74 +29,74 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154388	dtn	d+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.124 5						
 154389	tˤny	!t!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
-154390	nad	nad/	nảd	n. m. sg. cstr.	(little) bag	
-154391	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
-154391	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
-154391	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
+154390	nad	nad/	nảd	n. m. sg. cstr. nom.	(little) bag	
+154391	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
+154391	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
+154391	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
 154392	qḥ	lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of	
 # KTU 1.124 6						
 154393	w	w	w	conj.	and	
 154394	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 154394	št	št[	/š-t/	vb G impv. 2	to place	
 154394	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
-154395	bbt	bbt(II)/	bbt (II)	DN sg.	superintendent	
-154395	bbt	bbt(I)/	bbt (I)	TN sg.	bbt (I)	
-154396	ḥrn	ḥrn/	ḥrn	DN sg.	Ḥôrānu	
-154396	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr.	intestine(s)	
-154397	trḥ	trḥ/	trḥ	n. m. sg. cstr.	flask	
+154395	bbt	bbt(II)/	bbt (II)	DN sg. abs. nom.	superintendent	
+154395	bbt	bbt(I)/	bbt (I)	TN sg. abs. nom.	bbt (I)	
+154396	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
+154396	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
+154397	trḥ	trḥ/	trḥ	n. m. sg. cstr. nom.	flask	
 # KTU 1.124 7						
-154398	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg.	new moon	
-154398	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg.	new	
-154399	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
-154399	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
-154399	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
+154398	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
+154398	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
+154399	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
+154399	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
+154399	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
 154400	qḥ	lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of	
 154401	w	w	w	conj.	and	
 154402	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 154402	št	št[	/š-t/	vb G impv. 2	to place	
 154402	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
-154402	št	š(t(II)/t	št (II)	n. f. sg. cstr.	raíz	
-154402	št	št(I)/	št (I)	n. m. sg. cstr.	base	
+154402	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+154402	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 # KTU 1.124 8						
 154403	b	b	b	prep.	in	
-154404	bt	bt(II)/	bt (II)	n. m. sg.	house	
-154404	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
-154405	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr.	Baʿlu/Baal	
-154405	bˤl	bˤl(II)/	bʕl (II)	DN sg.	Baʿlu/Baal	
-154405	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
-154405	bˤl	bˤl(II)/	bʕl (II)	n. m. sg.	Baʿlu/Baal	
-154405	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg.	to make	
-154406	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr.	produce	
-154406	bnt	bn(t(I)/t	bnt (I)	n. f. sg.	masonry	
-154406	bnt	bnt(III)/	bnt (III)	n. m. sg.	tamarisk	
+154404	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
+154404	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+154405	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
+154405	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
+154405	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+154405	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+154405	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+154406	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
+154406	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. nom.	masonry	
+154406	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. nom.	tamarisk	
 154407	qḥ	lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of	
 # KTU 1.124 9						
 154408	w	w	w	conj.	and	
 154409	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 154409	št	št[	/š-t/	vb G impv. 2	to place	
 154409	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
-154409	št	š(t(II)/t	št (II)	n. f. sg. cstr.	raíz	
-154409	št	št(I)/	št (I)	n. m. sg. cstr.	base	
+154409	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+154409	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 154410	b	b	b	prep.	in	
-154411	bt	bt(II)/	bt (II)	n. m. sg.	house	
-154411	bt	b(t(I)/t	bt (I)	n. f. sg.	daughter	
+154411	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
+154411	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 154412	w	w	w	conj.	and	
-154413	prˤt	prˤt/	prʕt	n. f. pl.	height	
+154413	prˤt	prˤt/	prʕt	n. f. pl. abs. nom.	height	
 # KTU 1.124 10						
 154414	hy	hy	hy	pers. pn.	she	
-154415	ḫlh	ḫl/+h	ḫl	n. m. cstr.	pain	
+154415	ḫlh	ḫl/+h	ḫl	n. m. cstr. nom.	pain	
 154415	ḫlh	ḫl[+h	/ḫ-l/	vb G impv. 2	to writhe (with birth pangs)	
 154415	ḫlh	!!ḫl[/+h	/ḫ-l/	vb G inf.	to writhe (with birth pangs)	
 154416	w	w	w	conj.	and	
 154417	ymġ	!y!mġ(y[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come	
 # KTU 1.124 11						
-154418	mlakk	mla/+k	mlảk	n. m. cstr.	messenger	
+154418	mlakk	mla/+k	mlảk	n. m. cstr. nom.	messenger	
 154419	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 154420	dtn	d+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.124 12						
 154421	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 154421	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
-154422	mṯpẓ	mṯpṭ/	mṯpṭ	n.	command	
+154422	mṯpẓ	mṯpṭ/	mṯpṭ	n. abs. nom.	command	
 # KTU 1.124 13						
 154423	w	w	w	conj.	and	
 154424	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
@@ -104,18 +104,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154425	nn	gr[	/g-r(-y)/	vb	to attack	
 # KTU 1.124 14						
 154426	dtn	d+n	d	det. or rel. functor	the one(s) of	
-154427	btn	btn(I)/	btn (I)	n. m. sg.	inside of the house	
+154427	btn	btn(I)/	btn (I)	n. m. sg. abs. nom.	inside of the house	
 154428	mḥy	mḥ[y	/m-ḥ(-w:y)/	vb G impv. 2	to clean	
 # KTU 1.124 15						
 154429	l	l(I)	l (I)	prep.	to	
 154429	l	l(III)	l (III)	functor	certainly	
-154430	dg	dg(I)/	dg (I)	n. m. sg.	fish	
+154430	dg	dg(I)/	dg (I)	n. m. sg. abs. nom.	fish	
 154431	w	w	w	conj.	and	
 154432	lklb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.124 16						
 154433	w	w	w	conj.	and	
 154434	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-154435	in	in/	ỉn	n. m. sg.	lack of	
-154436	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
-154436	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
-154436	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
+154435	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
+154436	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
+154436	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
+154436	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	

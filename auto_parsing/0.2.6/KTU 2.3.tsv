@@ -8,19 +8,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 3						
 156307	xxxxxxtm	?	?	?	?	DULAT: NOT FOUND
 156308	w	w	w	conj.	and	
-156309	š	š/	š	n. m. sg.	ram	
+156309	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 2.3 4						
 156310	xxx	?	?	?	?	
 156311	w	w	w	conj.	and	
-156312	kl	kl/	kl	n. m. sg.	totality (of)	
+156312	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
 156313	hw	hw	hw	pers. pn.	he	
 # KTU 2.3 5						
 156314	w	w	w	conj.	and	
 156315	ht	ht	ht	adv.	here	
 156316	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure	
-156316	brt	br(t/t	brt	n. f. sg. abs.	forecast	
+156316	brt	br(t/t	brt	n. f. sg. abs. nom.	forecast	
 156317	l	l(I)	l (I)	prep.	to	
-156318	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr.	Baʿlu/Baal	
+156318	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 # KTU 2.3 6						
 156319	ušxšir	?	?	?	?	DULAT: NOT FOUND
 156320	k	+k	-k (I)			
@@ -31,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156321	uš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 7						
 156322	b	b	b	prep.	in	
-156323	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+156323	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 156324	w	w	w	conj.	and	
 156325	ht	ht	ht	adv.	here	
 156326	a	?	?	?	?	DULAT: NOT FOUND
@@ -44,8 +44,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 9						
 156331	w	w	w	conj.	and	
 156332	sip	sip	sỉp	?	?	
-156333	db	db/	db	n. m. sg.	threshold	
-156334	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
+156333	db	db/	db	n. m. sg. abs. nom.	threshold	
+156334	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 2.3 10						
 156335	w	w	w	conj.	and	
 156336	ank	ank	ảnk	pers. pn.	I	
@@ -55,20 +55,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156339	ank	ank	ảnk	pers. pn.	I	
 156340	nˤkn	nˤkn	nʕkn	?		
 # KTU 2.3 12						
-156341	kst	ks(t/t	kst	n. f. pl.	Gewand	
-156341	kst	ks(t/t	kst	n. f. sg.	Gewand	
-156341	kst	ks(t/t=	kst	n. f. pl.	Gewand	
+156341	kst	ks(t/t	kst	n. f. pl. abs. nom.	Gewand	
+156341	kst	ks(t/t	kst	n. f. sg. abs. nom.	Gewand	
+156341	kst	ks(t/t=	kst	n. f. pl. abs. nom.	Gewand	
 156342	lxk	?	?	?	?	DULAT: NOT FOUND
 156343	x	?	?	?	?	
 # KTU 2.3 13						
 156344	w	w	w	conj.	and	
 156345	hw	hw	hw	pers. pn.	he	
 156346	uy	u	ủ	conj.	or	
-156347	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr.	eye	
-156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr.	eye	
-156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg.	eye	
+156347	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 156347	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-156347	ˤn	ˤn(II)/	ʕn (II)	n. f. sg.	furrow	
+156347	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 # KTU 2.3 14						
 156348	l	l(I)	l (I)	prep.	to	
 156348	l	l(II)	l (II)	adv.	no	
@@ -79,13 +79,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156351	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156351	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156351	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156351	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-156351	rgm	rgm/	rgm	n. m. sg.	word	
+156351	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+156351	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.3 15						
 156352	wy	w+y	w	conj.	and	
 156353	rdnn	yrd[+nn	/y-r-d/	vb G prefc.	to go down, ?	
 156353	rdnn	yrd[+nn	/y-r-d/	vb G suffc.	to go down, ?	
-156353	rdnn	rdn/+n	rdn	PN sg. cstr.	to rule	
+156353	rdnn	rdn/+n	rdn	PN sg. cstr. nom.	to rule	
 156354	an	an(I)	ản (I)	pers. pn.	I	
 156354	an	an(II)	ản (II)	adv.	wherever	
 # KTU 2.3 16						
@@ -105,15 +105,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156365	trgm	!t!rgm[	/r-g-m/	vb	to say	
 # KTU 2.3 19						
 156366	p	p(I)	p (I)	conj. functor	and	
-156366	p	p(III)/	p (III)	n. m. sg.	mouth	
+156366	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 156366	p	p(II)	p (II)	adv.	here	
-156367	adrm	adr(III)/m	ảdr (III)	n. m. pl.	poplar	
-156367	adrm	adr(IV)/m	ảdr (IV)	n. m. pl.	fibula	
+156367	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. nom.	poplar	
+156367	adrm	adr(IV)/m	ảdr (IV)	n. m. pl. abs. nom.	fibula	
 156368	ḏrm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 20						
 156369	w	w	w	conj.	and	
 156370	ap	ap(I)	ảp (I)	adv./conj.	also	
-156370	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
+156370	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 156371	ht	ht	ht	adv.	here	
 156372	k	+k	-k (I)			
 156372	k	~k	-k (II)			
@@ -134,17 +134,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 24						
 156381	xxxxxxt	?	?	?	?	DULAT: NOT FOUND
 156382	ydˤt	ydˤt[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
-156382	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg.	to know	
+156382	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 # KTU 2.3 25						
 156383	xxxxxx	?	?	?	?	
 156384	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156384	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156384	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156384	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-156384	rgm	rgm/	rgm	n. m. sg.	word	
+156384	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+156384	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.3 26						
 156385	xxxxxxx	?	?	?	?	
-156386	kl	kl/	kl	n. m. sg.	totality (of)	
+156386	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
 156387	lh	l(I)+h	l (I)	prep.	to	
 # KTU 2.3 27						
 156388	xxxxxxly	?	?	?	?	DULAT: NOT FOUND

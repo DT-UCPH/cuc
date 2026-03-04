@@ -37,6 +37,31 @@ class SpacyBaalContextDisambiguatorTest(unittest.TestCase):
                 "1\tbˤl\tbˤl(II)/;bˤl[/\tbʕl (II);/b-ʕ-l/\tn. m./DN;vb\tBaʿlu;to make\t",
             )
 
+    def test_collapses_aliyn_baal_sequence_to_dn_only(self) -> None:
+        content = "\n".join(
+            [
+                "1\taliyn\taliyn/\tảlỉyn\tadj. m. sg. abs. nom.\tThe Very / Most Powerful\t",
+                "2\tbˤl\tbˤl(II)/\tbʕl (II)\tDN pl. cstr.\tBaʿlu/Baal\t",
+                "2\tbˤl\tbˤl(II)/\tbʕl (II)\tDN sg.\tBaʿlu/Baal\t",
+                "2\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. pl. cstr.\tBaʿlu/Baal\t",
+                "2\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. sg.\tBaʿlu/Baal\t",
+                "2\tbˤl\tbˤl[/\t/b-ʕ-l/\tvb G act. ptcpl. m. sg. abs. nom.\tto make\t",
+                "",
+            ]
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = self.step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 5)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(
+                lines[1], "2\tbˤl\tbˤl(II)/\tbʕl (II)\tDN m. sg. abs. nom.\tBaʿlu/Baal\t"
+            )
+            self.assertEqual(len([line for line in lines if line.startswith("2\tbˤl\t")]), 1)
+
 
 class SpacyYdkContextDisambiguatorTest(unittest.TestCase):
     def setUp(self) -> None:

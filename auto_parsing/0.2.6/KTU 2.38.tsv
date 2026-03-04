@@ -3,28 +3,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157850	l	l(I)	l (I)	prep.	to	
 157850	l	l(II)	l (II)	adv.	no	
 157850	l	l(III)	l (III)	functor	certainly	
-157851	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-157851	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-157852	ugrt	ugrt/	ủgrt	TN sg.	Ugarit	
+157851	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+157851	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157852	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 2.38 2						
-157853	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr.	brother (by blood)	
+157853	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 157854	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157854	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157854	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157854	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-157854	rgm	rgm/	rgm	n. m. sg.	word	
+157854	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+157854	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.38 3						
-157855	tḥm	tḥm/	tḥm	n. m. sg.	message	
-157856	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-157856	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
-157857	ṣr	ṣr/	ṣr	TN sg.	Tyre	
-157858	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. cstr.	brother (by blood)	
+157855	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+157856	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+157856	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157857	ṣr	ṣr/	ṣr	TN sg. abs. nom.	Tyre	
+157858	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 # KTU 2.38 4						
 157859	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 157859	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 157860	lk	l(I)+k	l (I)	prep.	to	
-157861	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-157861	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+157861	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+157861	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.38 5						
 157862	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 157863	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -34,86 +34,86 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157864	hnny	hnny+ny	hnny	adv.	here	
 157865	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.38 7						
-157866	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+157866	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157866	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157866	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 157866	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 157866	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 157866	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
 157866	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-157866	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+157866	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 157867	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.38 8						
 157868	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-157868	ˤmk	ˤm(II)/	ʕm (II)	n. m.	lineage	
+157868	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
 157869	mnm	mnm	mnm	indef. pn.	any(thing)	
-157870	šlm	šlm(I)/	šlm (I)	n. m. sg.	peace	
+157870	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157870	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157870	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 157870	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 157870	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 157870	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
 157870	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-157870	šlm	šlm(III)/	šlm (III)	adj. m. sg.	pure	
+157870	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.38 9						
 157871	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157871	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157871	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157871	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-157871	rgm	rgm/	rgm	n. m. sg.	word	
+157871	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+157871	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 157872	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 157872	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.38 10						
-157873	anykn	any/+kn	ảny(t)	n. f. cstr.	ship	
+157873	anykn	any/+kn	ảny(t)	n. f. cstr. nom.	ship	
 157874	dt	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.38 11						
 157875	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-157876	mṣrm	mṣrm/	mṣrm	TN sg.	Egypt	
-157876	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr.	sob	
+157876	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
+157876	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. nom.	sob	
 # KTU 2.38 12						
 157877	hndt	hnd	hnd	dem.	this	
 157878	b	b	b	prep.	in	
-157879	ṣr	ṣr/	ṣr	TN sg.	Tyre	
+157879	ṣr	ṣr/	ṣr	TN sg. abs. nom.	Tyre	
 # KTU 2.38 13						
-157880	tmtt	tmt(t/t	tmtt	n. f. sg.	group of men	
+157880	tmtt	tmt(t/t	tmtt	n. f. sg. abs. nom.	group of men	
 157881	bygš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.38 14						
-157882	gšm	gšm/	gšm	n. m. sg.	rain	
-157883	adr	adr(I)/	ảdr (I)	adj. m. sg.	wonderful	
+157882	gšm	gšm/	gšm	n. m. sg. abs. nom.	rain	
+157883	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	wonderful	
 # KTU 2.38 15						
 157884	nškḥ	?	?	?	?	DULAT: NOT FOUND
 157885	w	w	w	conj.	and	
 # KTU 2.38 16						
-157886	rb	rb(II)/	rb (II)	n. m. sg. abs.	chief	
-157886	rb	rb(II)/	rb (II)	n. m. sg. cstr.	chief	
-157886	rb	rb(I)/	rb (I)	adj. m. sg.	great	
-157886	rb	rb/	rb(b)	n. m. sg.	drizzle	
-157887	tmtt	tmt(t/t	tmtt	n. f. sg.	group of men	
+157886	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+157886	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+157886	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+157886	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+157887	tmtt	tmt(t/t	tmtt	n. f. sg. abs. nom.	group of men	
 # KTU 2.38 17						
 157888	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 157888	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
-157889	kl	kl/	kl	n. m. sg.	totality (of)	
-157890	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f.	arm	
+157889	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+157890	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f. abs. nom.	arm	
 # KTU 2.38 18						
 157891	b	b	b	prep.	in	
-157892	dnhm	dn(II)/+hm	dn (II)	n. m. pl. cstr.	vessel	
+157892	dnhm	dn(II)/+hm	dn (II)	n. m. pl. cstr. nom.	vessel	
 157893	w	w	w	conj.	and	
 157894	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.38 19						
-157895	kl	kl/	kl	n. m. sg.	totality (of)	
-157896	ḏrˤhm	ḏrˤ/+hm	d/ḏrʕ	n. m. cstr.	seed	
+157895	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+157896	ḏrˤhm	ḏrˤ/+hm	d/ḏrʕ	n. m. cstr. nom.	seed	
 # KTU 2.38 20						
-157897	kl	kl/	kl	n. m. sg.	totality (of)	
-157898	npš	npš(I)/	npš (I)	n. f. sg.	throat	
+157897	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+157898	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 # KTU 2.38 21						
-157899	klklhm	klkl/	klkl	n. m. sg.	anybody	
+157899	klklhm	klkl/	klkl	n. m. sg. abs. nom.	anybody	
 157900	bd	b	b	prep.	in	
 # KTU 2.38 22						
-157901	rb	rb(II)/	rb (II)	n. m. sg. abs.	chief	
-157901	rb	rb(II)/	rb (II)	n. m. sg. cstr.	chief	
-157901	rb	rb(I)/	rb (I)	adj. m. sg.	great	
-157901	rb	rb/	rb(b)	n. m. sg.	drizzle	
-157902	tmtt	tmt(t/t	tmtt	n. f. sg.	group of men	
+157901	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+157901	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+157901	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+157901	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+157902	tmtt	tmt(t/t	tmtt	n. f. sg. abs. nom.	group of men	
 157903	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc. 1 c. sg.	to get hold of	
 # KTU 2.38 23						
 157904	w	w	w	conj.	and	
@@ -123,19 +123,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157907	lhm	l(I)+hm	l (I)	prep.	to	
 # KTU 2.38 24						
 157908	w	w	w	conj.	and	
-157909	anyk	any/+k	ảny(t)	n. f. cstr.	ship	
+157909	anyk	any/+k	ảny(t)	n. f. cstr. nom.	ship	
 157910	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
 # KTU 2.38 25						
 157911	by	b	b	prep.	in	
-157912	ˤky	ˤky(I)/	ʕky (I)	TN sg.	ʿky (I)	
+157912	ˤky	ˤky(I)/	ʕky (I)	TN sg. abs. nom.	ʿky (I)	
 157913	ˤryt	ˤry[t	/ʕ-r-y/	vb G suffc. 1 c. sg.	to be naked	
 # KTU 2.38 26						
 157914	w	w	w	conj.	and	
-157915	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr.	brother (by blood)	
+157915	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 157916	mhk	mhk	mhk(m)	indef. pn.	anything	
 # KTU 2.38 27						
 157917	b	b	b	prep.	in	
-157918	lbh	lb/+h	lb	n. m. cstr.	heart	
+157918	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
 157919	al	al(I)	ảl (I)	neg. functor	no	
 157919	al	al(II)	ảl (II)	pos. functor	surely	
 157920	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	

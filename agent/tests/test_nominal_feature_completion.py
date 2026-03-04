@@ -36,19 +36,22 @@ class NominalFeatureCompletionTest(unittest.TestCase):
         )
         row = TabletRow("139796", "bn", "bn(I)/", "bn (I)", "n. m.", "son", "")
         rewritten = rewrite_row(row, completer)
-        self.assertEqual(rewritten.pos, "n. m. sg.; n. m. pl. cstr.")
+        self.assertEqual(
+            rewritten.pos,
+            "n. m. sg. abs. nom.; n. m. pl. cstr. nom.",
+        )
 
     def test_marks_suffix_bearing_nominal_as_construct(self) -> None:
         completer = NominalFeatureCompleter(_FakeReader({("ipdk", "ỉpd"): _Features(("suff.",))}))
         row = TabletRow("139786", "ipdk", "ipd/+k", "ỉpd", "n. m.", "tunic", "")
         rewritten = rewrite_row(row, completer)
-        self.assertEqual(rewritten.pos, "n. m. cstr.")
+        self.assertEqual(rewritten.pos, "n. m. cstr. nom.")
 
     def test_keeps_feminine_singular_when_surface_and_dulat_agree(self) -> None:
         completer = NominalFeatureCompleter(_FakeReader({("brlt", "brlt"): _Features(("sg.",))}))
         row = TabletRow("139839", "brlt", "brl(t/t", "brlt", "n. f.", "hunger", "")
         rewritten = rewrite_row(row, completer)
-        self.assertEqual(rewritten.pos, "n. f. sg.")
+        self.assertEqual(rewritten.pos, "n. f. sg. abs. nom.")
 
     def test_preserves_name_class_while_defaulting_to_singular(self) -> None:
         completer = NominalFeatureCompleter(_FakeReader({("ṣpn", "ṣpn"): _Features(("",))}))
@@ -62,7 +65,7 @@ class NominalFeatureCompletionTest(unittest.TestCase):
             "",
         )
         rewritten = rewrite_row(row, completer)
-        self.assertEqual(rewritten.pos, "TN/DN sg.")
+        self.assertEqual(rewritten.pos, "TN/DN sg. abs. nom.")
 
     def test_defaults_names_to_singular_when_no_number_is_available(self) -> None:
         completer = NominalFeatureCompleter(_FakeReader({("ṣpn", "ṣpn"): _Features(("",))}))
@@ -76,7 +79,15 @@ class NominalFeatureCompletionTest(unittest.TestCase):
             "",
         )
         rewritten = rewrite_row(row, completer)
-        self.assertEqual(rewritten.pos, "TN/DN sg.")
+        self.assertEqual(rewritten.pos, "TN/DN sg. abs. nom.")
+
+    def test_defaults_adjectives_to_absolute_nominative(self) -> None:
+        completer = NominalFeatureCompleter(_FakeReader({("aliyn", "ảlỉyn"): _Features(("sg.",))}))
+        row = TabletRow(
+            "135903", "aliyn", "aliyn/", "ảlỉyn", "adj. m. sg.", "The Very / Most Powerful", ""
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.pos, "adj. m. sg. abs. nom.")
 
 
 if __name__ == "__main__":

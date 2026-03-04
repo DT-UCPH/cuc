@@ -103,9 +103,6 @@ class TabletParsingPipeline:
             PluralSplitFixer(gate=self.morph_gate),
             PluraleTantumMFixer(gate=self.morph_gate),
             FeminineTSingularSplitFixer(gate=self.morph_gate),
-        ]
-        self._baal_context_steps: List[RefinementStep] = build_spacy_baal_context_steps()
-        self._post_baal_context_steps: List[RefinementStep] = [
             Ktu1FamilyHomonymPruner(dulat_db=self.config.dulat_db),
             SuffixCliticFixer(gate=self.morph_gate),
             ToponymDirectionalHFixer(gate=self.morph_gate),
@@ -142,6 +139,8 @@ class TabletParsingPipeline:
                 udb_db=self.config.udb_db,
             ),
         ]
+        self._baal_context_steps: List[RefinementStep] = build_spacy_baal_context_steps()
+        self._post_baal_context_steps: List[RefinementStep] = []
         self._pre_l_context_steps: List[RefinementStep] = []
         self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps()
         self._pre_k_context_steps: List[RefinementStep] = []

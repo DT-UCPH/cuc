@@ -1,27 +1,27 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.6 1						
-156458	tḥm	tḥm/	tḥm	n. m. sg.	message	
+156458	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 156459	hl	hl	hl	deictic adv. functor	behold	
 # KTU 2.6 2						
 156460	l	l(I)	l (I)	prep.	to	
 156460	l	l(III)	l (III)	functor	certainly	
-156461	pzry	pzry/	pzry	PN sg.	pzry	
-156462	aby	ab/+y	ảb	n. m. cstr.	father	
+156461	pzry	pzry/	pzry	PN sg. abs. nom.	pzry	
+156462	aby	ab/+y	ảb	n. m. cstr. nom.	father	
 # KTU 2.6 3						
 156463	w	w	w	conj.	and	
 156464	lgpn	?	?	?	?	DULAT: NOT FOUND
 156465	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156465	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156465	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156465	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg.	to say	
-156465	rgm	rgm/	rgm	n. m. sg.	word	
+156465	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+156465	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.6 4						
 156466	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156466	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156467	lkm	l(I)+k~m	l (I)	prep.	to	
 # KTU 2.6 5						
-156468	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-156468	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+156468	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+156468	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 156469	tġrkm	nġr[km	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.6 6						
 156470	tšlmkm	tšlmkm[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	

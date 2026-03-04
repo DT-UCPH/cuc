@@ -1,47 +1,47 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.21 1						
 161679	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-161680	ksp	ksp/	ksp	n. m. sg.	silver	
+161680	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161681	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161681	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161681	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-161681	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161681	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+161681	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 3.21 2						
-161682	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161682	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161682	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161682	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161682	bn	bn(II)	bn (II)	prep.	between	
 161682	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161682	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161683	bly	ybl[+y	/y-b-l/	vb G prefc.	to carry	
 161683	bly	ybl[+y	/y-b-l/	vb G suffc.	to carry	
 161683	bly	bl(I)+y	bl (I)	adv. /emph. functor	no	
-161683	bly	bly/	bly	PN sg.	bly	
-161684	gbˤly	gbˤly(I)/	gbʕly (I)	GN sg.	gbʿly (I)	
+161683	bly	bly/	bly	PN sg. abs. nom.	bly	
+161684	gbˤly	gbˤly(I)/	gbʕly (I)	GN sg. abs. nom.	gbʿly (I)	
 # KTU 3.21 3						
-161685	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
-161686	annṯb	annṯb/	ảnnṯb	PN sg.	161:21	
+161685	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
+161686	annṯb	annṯb/	ảnnṯb	PN sg. abs. nom.	161:21	
 # KTU 3.21 4						
-161687	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161687	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161687	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161687	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161687	bn	bn(II)	bn (II)	prep.	between	
 161687	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161687	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161688	madl	?	?	?	?	DULAT: NOT FOUND
-161689	uškny	uškny(I)/	ủškny (I)	GN sg.	ủškny (I)	
+161689	uškny	uškny(I)/	ủškny (I)	GN sg. abs. nom.	ủškny (I)	
 # KTU 3.21 5						
 161690	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 161691	l	l(I)	l (I)	prep.	to	
 161691	l	l(III)	l (III)	functor	certainly	
-161692	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
-161693	ksp	ksp/	ksp	n. m. sg.	silver	
+161692	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
+161693	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.21 6						
 161694	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161694	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161694	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-161694	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161694	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+161694	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 161695	xxxb	?	?	?	?	DULAT: NOT FOUND
-161696	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161696	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161696	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161696	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161696	bn	bn(II)	bn (II)	prep.	between	
 161696	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161696	bn	bn[	/b-n/	vb G impv. 2	to understand	
@@ -53,67 +53,66 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161699	xḥxxxxxxdn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 10						
 161700	arbˤt	arbˤ/	ảrbʕ	num.	four	
-161701	ksp	ksp/	ksp	n. m. sg.	silver	
+161701	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161702	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161702	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161702	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-161702	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161702	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+161702	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 3.21 11						
-161703	ilmlk	ilmlk/	ỉlmlk	PN sg.	ʾIlimalku/Ilimilku/Elimelek	
-161704	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161704	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161703	ilmlk	ilmlk/	ỉlmlk	PN sg. abs. nom.	ʾIlimalku/Ilimilku/Elimelek	
+161704	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161704	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161704	bn	bn(II)	bn (II)	prep.	between	
 161704	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161704	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161705	argnd	argnd/	ảrgnd	PN sg.	ảrgnd	
+161705	argnd	argnd/	ảrgnd	PN sg. abs. nom.	ảrgnd	
 # KTU 3.21 12						
-161706	uškny	uškny(I)/	ủškny (I)	GN sg.	ủškny (I)	
+161706	uškny	uškny(I)/	ủškny (I)	GN sg. abs. nom.	ủškny (I)	
 161707	w	w	w	conj.	and	
-161708	mit	mi(t/t	mỉt	n. f. sg.	a hundred	
+161708	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
 # KTU 3.21 13						
-161709	zt	zt/	zt	n. m. pl.	olive	
-161709	zt	zt/	zt	n. m. sg.	olive	
+161709	zt	zt/	zt	n. m. pl. abs. nom.	olive	
+161709	zt	zt/	zt	n. m. sg. abs. nom.	olive	
 161710	bdhm	bd(IV)+hm	bd (IV)	prep.	into the hands of	
-161711	rib	rib/	rỉb	n. m. sg.	vessel	
+161711	rib	rib/	rỉb	n. m. sg. abs. nom.	vessel	
 # KTU 3.21 14						
-161712	ksp	ksp/	ksp	n. m. sg.	silver	
+161712	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161713	xxx	?	?	?	?	
 # KTU 3.21 15						
 161714	arbˤt	arbˤ/	ảrbʕ	num.	four	
-161715	ksp	ksp/	ksp	n. m. sg.	silver	
+161715	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.21 16						
 161716	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161716	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161716	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-161716	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
+161716	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+161716	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 161717	xšyxxh	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 17						
 161718	xxxktxxxxnrn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 18						
-161719	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161719	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161719	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161719	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161719	bn	bn(II)	bn (II)	prep.	between	
 161719	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161719	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161720	nmqn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 19						
 161721	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
-161722	ksp	ksp/	ksp	n. m. sg.	silver	
+161722	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161723	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161723	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161723	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-161723	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-161724	aṯt	aṯ(t/t	ảṯt	n. f. du. abs.	woman	
-161724	aṯt	aṯ(t/t	ảṯt	n. f. pl.	woman	
-161724	aṯt	aṯ(t/t	ảṯt	n. f. sg.	woman	
-161724	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs.	woman	
-161724	aṯt	aṯ(t/t=	ảṯt	n. f. pl.	woman	
+161723	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+161723	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+161724	aṯt	aṯ(t/t	ảṯt	n. f. du. abs. nom.	woman	
+161724	aṯt	aṯ(t/t	ảṯt	n. f. pl. abs. nom.	woman	
+161724	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
+161724	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
 # KTU 3.21 20						
-161725	mrṯd	mrṯ(I)/+d	mrṯ (I)	n. m. cstr.	must, ?	
-161725	mrṯd	mrṯd/	mrṯd	PN sg.	mrṯd	
-161725	mrṯd	mrṯ(II)/+d	mrṯ (II)	n. m. cstr.	estate, ?	
-161726	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161726	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161725	mrṯd	mrṯ(I)/+d	mrṯ (I)	n. m. cstr. nom.	must, ?	
+161725	mrṯd	mrṯd/	mrṯd	PN sg. abs. nom.	mrṯd	
+161725	mrṯd	mrṯ(II)/+d	mrṯ (II)	n. m. cstr. nom.	estate, ?	
+161726	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161726	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161726	bn	bn(II)	bn (II)	prep.	between	
 161726	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161726	bn	bn[	/b-n/	vb G impv. 2	to understand	

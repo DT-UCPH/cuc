@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.15 1						
-161499	npṣ	npṣ/	npṣ	n. m. pl. cstr.	personal belongings	
-161499	npṣ	npṣ/	npṣ	n. m. sg.	personal belongings	
+161499	npṣ	npṣ/	npṣ	n. m. pl. cstr. nom.	personal belongings	
+161499	npṣ	npṣ/	npṣ	n. m. sg. abs. nom.	personal belongings	
 161500	ˤx	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.15 2						
 161501	d	d	d	det. or rel. functor	the one(s) of	
@@ -10,29 +10,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.15 3						
 161504	w	w	w	conj.	and	
 161505	bd	b	b	prep.	in	
-161506	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161506	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161506	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161506	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161506	bn	bn(II)	bn (II)	prep.	between	
 161506	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161506	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.15 4						
-161507	udbr	udbr/	ủdbr	n. m.	leaseholder	
+161507	udbr	udbr/	ủdbr	n. m. abs. nom.	leaseholder	
 # KTU 3.15 5						
-161508	ˤrš	ˤrš/	ʕrš	n. f. sg.	bed	
+161508	ˤrš	ˤrš/	ʕrš	n. f. sg. abs. nom.	bed	
 # KTU 3.15 6						
-161509	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg.	table	
+161509	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. abs. nom.	table	
 # KTU 3.15 7						
 161510	ap	ap(I)	ảp (I)	adv./conj.	also	
-161510	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
+161510	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 # KTU 3.15 8						
 161511	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 3.15 9						
-161512	ptr	ptr/	ptr	n. m.	sack	
+161512	ptr	ptr/	ptr	n. m. abs. nom.	sack	
 # KTU 3.15 10						
-161513	ypḥ	ypḥ/	ypḥ	n. m. sg.	witness	
+161513	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
 # KTU 3.15 11						
-161514	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-161514	bn	bn(I)/	bn (I)	n. m. sg.	son	
+161514	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161514	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161514	bn	bn(II)	bn (II)	prep.	between	
 161514	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161514	bn	bn[	/b-n/	vb G impv. 2	to understand	

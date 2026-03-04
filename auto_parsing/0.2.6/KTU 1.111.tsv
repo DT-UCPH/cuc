@@ -1,12 +1,12 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 1						
-153511	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-153511	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-153511	il	il(I)/	ỉl (I)	n. m. sg.	god	
-153511	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-153512	prz	prz/	prz	n. m. sg.	decision	
-153513	lmd	lmd/	lmd	adj. m. pl. cstr.	trained	
-153513	lmd	lmd/	lmd	adj. m. sg.	trained	
+153511	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+153511	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+153511	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+153511	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153512	prz	prz/	prz	n. m. sg. abs. nom.	decision	
+153513	lmd	lmd/	lmd	adj. m. pl. cstr. nom.	trained	
+153513	lmd	lmd/	lmd	adj. m. sg. abs. nom.	trained	
 153513	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
 153513	lmd	lmd[:d:w	/l-m-d/	vb D suffc. 3 m. pl.	to teach	
 153513	lmd	lmd[:dt=	/l-m-d/	vb D suffc. 2 m. sg.	to teach	
@@ -14,55 +14,55 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153513	lmd	lmd[:dt	/l-m-d/	vb D suffc. 1 c. sg.	to teach	
 # KTU 1.111 2						
 153514	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-153514	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-153514	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
-153515	ymm	ym(I)/m	ym (I)	n. m. pl.	day	
-153515	ymm	y(II)/~m	ym (II)	n. m. sg.	sea	
+153514	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+153514	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+153515	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
+153515	ymm	y(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
 153516	llxm	?	?	?	?	DULAT: NOT FOUND
 153517	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	to enter	
 # KTU 1.111 3						
-153518	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-153518	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+153518	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+153518	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 153519	aṯḫḫlm	?	?	?	?	DULAT: NOT FOUND
-153520	in	in/	ỉn	n. m. sg.	lack of	
+153520	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 153521	atnd	ytn[+d	/y-t-n/	vb G prefc.	to give, ?	
 153521	atnd	ytn[+d	/y-t-n/	vb G suffc.	to give, ?	
 # KTU 1.111 4						
-153522	ild	il(I)/+d	ỉl (I)	n. m. cstr.	god, ?	
-153523	tṯbd	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
+153522	ild	il(I)/+d	ỉl (I)	n. m. cstr. nom.	god, ?	
+153523	tṯbd	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
 153524	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 5						
 153525	kḏġd	?	?	?	?	DULAT: NOT FOUND
-153526	in	in/	ỉn	n. m. sg.	lack of	
+153526	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 153527	prznd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 6						
 153528	nkld	nkld[	/k-l-y/	vb N suffc. 3 m. sg.	to finish, ?	
-153529	šrpm	šrp/~m	šrp	n. m. sg.	burnt sacrifice	
-153530	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr.	bird	
+153529	šrpm	šrp/~m	šrp	n. m. abs. nom. sg.	burnt sacrifice	
+153530	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
 # KTU 1.111 7						
-153531	gdm	gd(I)/m	gd (I)	n. m. pl.	coriander	
-153531	gdm	gd(II)/m	gd (II)	n. m. pl.	sinew	
-153532	klhn	kl/+hn	kl	n. m. cstr.	totality (of)	
-153533	š	š/	š	n. m. sg.	ram	
+153531	gdm	gd(I)/m	gd (I)	n. m. pl. abs. nom.	coriander	
+153531	gdm	gd(II)/m	gd (II)	n. m. pl. abs. nom.	sinew	
+153532	klhn	kl/+hn	kl	n. m. cstr. nom.	totality (of)	
+153533	š	š/	š	n. m. sg. abs. nom.	ram	
 153534	lyrḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 8						
-153535	šmm	šm(m(I)/m	šmm (I)	n. m. pl.	heavens	
+153535	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
 153536	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
-153537	in	in/	ỉn	n. m. sg.	lack of	
+153537	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 153538	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 9						
-153539	ild	il(I)/+d	ỉl (I)	n. m. cstr.	god, ?	
-153540	tṯbd	tṯb/	tṯb	DN sg.	Teṯo/Hurrian storm god	
+153539	ild	il(I)/+d	ỉl (I)	n. m. cstr. nom.	god, ?	
+153540	tṯbd	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
 153541	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 10						
 153542	kḏġd	?	?	?	?	DULAT: NOT FOUND
-153543	š	š/	š	n. m. sg.	ram	
+153543	š	š/	š	n. m. sg. abs. nom.	ram	
 153544	iydaṯtbd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 11						
-153545	in	in/	ỉn	n. m. sg.	lack of	
-153546	ardnd	ardn/+d	ảrdn	PN sg. cstr.	ảrdn, ?	
+153545	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
+153546	ardnd	ardn/+d	ảrdn	PN sg. cstr. nom.	ảrdn, ?	
 # KTU 1.111 12						
-153547	ṯmgnd	ṯmg/	ṯmg	DN sg.	ṯmg	
+153547	ṯmgnd	ṯmg/	ṯmg	DN sg. abs. nom.	ṯmg	
 153548	x	?	?	?	?	
 # KTU 1.111 13						
 153549	xxxx	?	?	?	?	
@@ -73,48 +73,46 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153552	wb	?	?	?	?	DULAT: NOT FOUND
 153553	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 153553	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-153553	ṯn	ṯn(III)/	ṯn (III)	n. m. sg.	crimson (cloth, wool, purple)	
-153554	alpm	alp(I)/m	ảlp (I)	n. m. pl.	(head of) cattle	
-153554	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs.	(head of) cattle	
+153553	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+153554	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
 153554	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 # KTU 1.111 16						
 153555	b	b	b	prep.	in	
 153556	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-153556	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg.	copper	
-153556	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg.	third	
-153557	dqr	dqr/	dqr	n. m. sg.	Topf	
-153558	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg.	donkey	
-153558	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg.	red	
+153556	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+153556	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+153557	dqr	dqr/	dqr	n. m. sg. abs. nom.	Topf	
+153558	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
+153558	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
 # KTU 1.111 17						
 153559	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-153560	alpm	alp(I)/m	ảlp (I)	n. m. pl.	(head of) cattle	
-153560	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs.	(head of) cattle	
+153560	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
 153560	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 153561	l	l(I)	l (I)	prep.	to	
 # KTU 1.111 18						
-153562	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-153562	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-153562	il	il(I)/	ỉl (I)	n. m. sg.	god	
-153562	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
-153563	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg.	to reign	
-153563	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+153562	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+153562	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+153562	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+153562	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153563	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+153563	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 153564	ššbˤ	?	?	?	?	DULAT: NOT FOUND
-153565	ṯat	ṯa(t/t	ṯảt	n. f. pl.	ewe	
-153565	ṯat	ṯa(t/t	ṯảt	n. f. sg.	ewe	
-153565	ṯat	ṯa(t/t=	ṯảt	n. f. pl.	ewe	
+153565	ṯat	ṯa(t/t	ṯảt	n. f. pl. abs. nom.	ewe	
+153565	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. nom.	ewe	
+153565	ṯat	ṯa(t/t=	ṯảt	n. f. pl. abs. nom.	ewe	
 153566	l	l(I)	l (I)	prep.	to	
 153566	l	l(III)	l (III)	functor	certainly	
 # KTU 1.111 19						
-153567	kmlt	kmlt/	kmlt	adj. f. pl.	whole	
+153567	kmlt	kmlt/	kmlt	adj. f. pl. abs. nom.	whole	
 153568	d	d	d	det. or rel. functor	the one(s) of	
-153569	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg.	ʿAṯtar	
-153570	š	š/	š	n. m. sg.	ram	
+153569	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. abs. nom.	ʿAṯtar	
+153570	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.111 20						
 153571	b	b	b	prep.	in	
 153572	trḫtt	?	?	?	?	DULAT: NOT FOUND
-153573	ar	a/	ả/ỉr	n. m. sg.	light	
+153573	ar	a/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 1.111 21						
-153574	š	š/	š	n. m. sg.	ram	
+153574	š	š/	š	n. m. sg. abs. nom.	ram	
 153575	lnh	l(I)+h	l (I)	prep.	to	
 153576	w	w	w	conj.	and	
 153577	lib	?	?	?	?	DULAT: NOT FOUND
@@ -123,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153579	hy	hy	hy	pers. pn.	she	
 153580	bh	b+h	b	prep.	in	
 # KTU 1.111 23						
-153581	mth	mt(II)/+h	mt (II)	n. m. cstr.	death	
+153581	mth	mt(II)/+h	mt (II)	n. m. cstr. nom.	death	
 153582	l	l(I)	l (I)	prep.	to	
 153582	l	l(II)	l (II)	adv.	no	
 153582	l	l(III)	l (III)	functor	certainly	

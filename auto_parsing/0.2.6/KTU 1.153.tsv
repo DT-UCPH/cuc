@@ -4,14 +4,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.153 2						
 155068	x	?	?	?	?	
 # KTU 1.153 3						
-155069	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr.	sacrifice	
-155069	dbḥ	dbḥ/	dbḥ	n. m. sg.	sacrifice	
+155069	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
+155069	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 155069	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 155069	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-155069	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg.	to sacrifice	
+155069	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 # KTU 1.153 4						
-155070	kt	k(t(I)/t	kt (I)	n. f. sg.	pitcher	
-155070	kt	k(t(II)/t	kt (II)	n. f. sg.	stage	
+155070	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
+155070	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
 # KTU 1.153 5						
 155071	ba	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.153 6						
@@ -19,13 +19,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155072	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 155072	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 155072	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
-155073	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-155073	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-155073	il	il(I)/	ỉl (I)	n. m. sg.	god	
-155073	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+155073	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+155073	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+155073	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+155073	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.153 7						
-155074	alp	alp(I)/	ảlp (I)	n. m. pl. abs.	(head of) cattle	
-155074	alp	alp(I)/	ảlp (I)	n. m. sg.	(head of) cattle	
+155074	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+155074	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 155074	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.153 8						
 155075	y	+y, [y	-y (I)	prep. functor	my	

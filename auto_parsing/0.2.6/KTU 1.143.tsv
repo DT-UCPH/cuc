@@ -1,15 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.143 1						
-154949	kbd	kbd(II)/	kbd (II)	n. m. sg.	total (quantity or price)	
+154949	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
 154950	dt	d	d	det. or rel. functor	the one(s) of	
-154951	ypt	yp(t(I)/t	ypt (I)	n. f. sg.	cow	
+154951	ypt	yp(t(I)/t	ypt (I)	n. f. sg. abs. nom.	cow	
 # KTU 1.143 2						
-154952	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-154952	bn	bn(I)/	bn (I)	n. m. sg.	son	
+154952	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+154952	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 154952	bn	bn(II)	bn (II)	prep.	between	
 154952	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 154952	bn	bn[	/b-n/	vb G impv. 2	to understand	
-154953	yknˤ	yknˤ/	yknʕ	PN sg.	yknʿ	
+154953	yknˤ	yknˤ/	yknʕ	PN sg. abs. nom.	yknʿ	
 # KTU 1.143 3						
 154954	k	+k	-k (I)			
 154954	k	~k	-k (II)			
@@ -18,6 +18,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154954	k	k(II)	k (II)	emph. functor	yes	
 154955	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb G prefc. 3 m. sg.	to open	
 154955	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb N prefc. 3 m. sg.	to open	
-154956	yrk	yrk/	yrk	n. m. sg.	body back part	
+154956	yrk	yrk/	yrk	n. m. sg. abs. nom.	body back part	
 # KTU 1.143 4						
 154957	hnd	hnd	hnd	dem.	this	

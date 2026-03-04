@@ -1,15 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.167 1						
-155530	br	br/	br(r)	n. m. sg.	tin	
-155530	br	br(I)/	br (I)	n. m. sg.	Art Seeschiff	
+155530	br	br/	br(r)	n. m. sg. abs. nom.	tin	
+155530	br	br(I)/	br (I)	n. m. sg. abs. nom.	Art Seeschiff	
 155530	br	br[	/b-r(-r)/	vb G suffc. 3 m. sg.	to be or remain pure	
 # KTU 1.167 2						
 155531	bk	b	b	prep.	in	
 155531	bk	!!bk[/	/b-k-y/	vb G inf.	to weep	
-155531	bk	bk/	bk	n. m. sg.	beaker	
-155532	mr	mr(I)/	mr (I)	n. m. sg.	myrrh	
-155532	mr	mr(IV)/	mr (IV)	adj. m. sg.	valiant	
-155532	mr	mr(II)/	mr (II)	adj. m. sg.	bitter	
+155531	bk	bk/	bk	n. m. sg. abs. nom.	beaker	
+155532	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
+155532	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
+155532	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
 # KTU 1.167 3						
 155533	ġsb	?	?	?	?	DULAT: NOT FOUND
 155534	ġsb	?	?	?	?	DULAT: NOT FOUND
@@ -19,31 +19,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155536		?	?	?	?	
 155537	qṣṣ	qṣṣ[	/q-ṣ(-ṣ)/	vb G suffc. 3 m. sg.	to carve	
 155537	qṣṣ	qṣṣ[:w	/q-ṣ(-ṣ)/	vb G suffc. 3 m. pl.	to carve	
-155538	bb	bb/	bb	PN sg.	bb	
+155538	bb	bb/	bb	PN sg. abs. nom.	bb	
 # KTU 1.167 6						
 155539	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 155539	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-155539	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs.	offspring	
-155539	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr.	offspring	
-155540	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg.	dust	
+155539	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+155539	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+155540	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. nom.	dust	
 # KTU 1.167 7						
 155541	m	?	?	?	?	DULAT: NOT FOUND
-155542	ˤnh	ˤn(I)/h	ʕn (I)	n. f. du. abs.	eye	
+155542	ˤnh	ˤn(I)/h	ʕn (I)	n. f. du. abs. nom.	eye	
 # KTU 1.167 8						
 155543	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
-155544	ˤp	ˤp(I)/	ʕp (I)	n. m.	bird	
+155544	ˤp	ˤp(I)/	ʕp (I)	n. m. abs. nom.	bird	
 # KTU 1.167 9						
 155545	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155545	hm	hm(I)	hm (I)	pers. pn.	they	
-155546	ih	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
+155546	ih	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
 155546	ih	i(I)+h	ỉ (I)	interj.	woe	
 # KTU 1.167 10						
 155547	ˤẓrn	ˤẓrn	ʕẓrn		(?)	
 155548		?	?	?	?	
 # KTU 1.167 11						
-155549	qṭr	qṭr/	qṭr	n. m. sg.	smoke	
-155550	lbn	lb/+n	lb	n. m. cstr.	heart	
-155550	lbn	lbn(I)/	lbn (I)	adj. m.	white	
+155549	qṭr	qṭr/	qṭr	n. m. sg. abs. nom.	smoke	
+155550	lbn	lb/+n	lb	n. m. cstr. nom.	heart	
+155550	lbn	lbn(I)/	lbn (I)	adj. m. abs. nom.	white	
 # KTU 1.167 12						
 155551	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.167 13						

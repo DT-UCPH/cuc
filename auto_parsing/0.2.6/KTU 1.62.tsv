@@ -11,47 +11,47 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149352	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request	
 149352	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request	
 # KTU 1.62 3						
-149353	amr	amr(I)/	ảmr (I)	n. m. sg.	order	
-149354	ph	p(III)/+h	p (III)	n. m. cstr.	mouth	
+149353	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
+149354	ph	p(III)/+h	p (III)	n. m. cstr. nom.	mouth	
 # KTU 1.62 4						
-149355	mm	mm(I)/	mm (I)	n. m. sg.	winter	
-149356	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg.	to go	
+149355	mm	mm(I)/	mm (I)	n. m. sg. abs. nom.	winter	
+149356	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
 # KTU 1.62 5						
 149357	b	b	b	prep.	in	
 149358	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
-149358	qrb	qrb/	qrb	n. m. sg. cstr.	inside	
-149359	ˤr	ˤr(I)/	ʕr (I)	n. f. sg.	city	
-149359	ˤr	ˤr(II)/	ʕr (II)	n. m. sg.	donkey	
+149358	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
+149359	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
+149359	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
 # KTU 1.62 6						
-149360	mlakm	mlak/m	mlảk	n. m. pl.	messenger	
+149360	mlakm	mlak/m	mlảk	n. m. pl. abs. nom.	messenger	
 149361	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.62 7						
 149362	l	l(I)	l (I)	prep.	to	
 149362	l	l(II)	l (II)	adv.	no	
 149362	l	l(III)	l (III)	functor	certainly	
-149363	bn	bn(I)/	bn (I)	n. m. pl. cstr.	son	
-149363	bn	bn(I)/	bn (I)	n. m. sg.	son	
+149363	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+149363	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 149363	bn	bn(II)	bn (II)	prep.	between	
 149363	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 149363	bn	bn[	/b-n/	vb G impv. 2	to understand	
-149364	il	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
-149364	il	il(I)/	ỉl (I)	DN m. sg. cstr.	ʾIlu/Ilu/El	
-149364	il	il(I)/	ỉl (I)	n. m. sg.	god	
-149364	il	il(I)/	ỉl (I)	n. m. sg. cstr.	god	
+149364	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+149364	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+149364	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+149364	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.62 8						
 149365	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 149365	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 149365	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 149365	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
-149366	ˤdh	ˤd(III)/+h	ʕd (III)	n. m. cstr.	throne	
+149366	ˤdh	ˤd(III)/+h	ʕd (III)	n. m. cstr. nom.	throne	
 # KTU 1.62 9						
 149367	srh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.62 10						
 149368	y	+y, [y	-y (I)	prep. functor	my	
 149368	y	~y	-y (II)	prep. functor	indeed	
 149368	y	y	y	prep. functor	oh!	
-149369	špš	špš/	špš	DN f. sg.	Šapšu/Shapsh/Shapshu	
-149369	špš	špš/	špš	n. f. sg.	sun	
+149369	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+149369	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 1.62 11						
 149370		?	?	?	?	
 # KTU 1.62 12						
@@ -68,7 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.62 17						
 149376		?	?	?	?	
 # KTU 1.62 18						
-149377	š	š/	š	n. m. sg.	ram	
+149377	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.62 19						
 149378		?	?	?	?	
 # KTU 1.62 20						

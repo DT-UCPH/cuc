@@ -3,8 +3,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158061	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158061	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158062	lk	l(I)+k	l (I)	prep.	to	
-158063	ilm	il(I)/~m	ỉl (I)	n. m. sg.	god	
-158063	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+158063	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+158063	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.41 2						
 158064	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 158065	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -33,14 +33,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158077	xršxxxmy	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.41 14						
 158078	hnm	hnm	hnm	deictic functor	behold	
-158079	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr.	servant	
-158080	hwt	hw(t(I)/t	hwt (I)	n. f. sg.	word	
+158079	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+158080	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 2.41 15						
 158081	yrš	?	?	?	?	DULAT: NOT FOUND
 158082	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.41 16						
 158083	mnm	mnm	mnm	indef. pn.	any(thing)	
-158084	irštk	irš(t/t	ỉršt	n. f. sg.	request	
+158084	irštk	irš(t/t	ỉršt	n. f. sg. abs. nom.	request	
 # KTU 2.41 17						
 158085	d	d	d	det. or rel. functor	the one(s) of	
 158086	ḫsrt	ḫsr[t	/ḫ-s-r/	vb G suffc. 1 c. sg.	to fail	
@@ -50,24 +50,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158089	aštn	!(ʔ&a!št[n	/š-t/	vb G prefc. 1 c. sg.	to place	
 158090	l	l(I)	l (I)	prep.	to	
 158090	l	l(III)	l (III)	functor	certainly	
-158091	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
+158091	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
 # KTU 2.41 19						
 158092	w	w	w	conj.	and	
 158093	ap	ap(I)	ảp (I)	adv./conj.	also	
-158093	ap	ap(II)/	ảp (II)	n. m. sg.	nose	
+158093	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 158094	ank	ank	ảnk	pers. pn.	I	
 158095	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.41 20						
 158096	ḫsrt	ḫsr[t	/ḫ-s-r/	vb G suffc. 1 c. sg.	to fail	
 158097	w	w	w	conj.	and	
-158098	uḫy	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
+158098	uḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
 # KTU 2.41 21						
 158099	yˤmsn	!y!ˤms[n	/ʕ-m-s/	vb G prefc. 3 m. sg.	to load	
 158099	yˤmsn	yˤmsn[	/ʕ-m-s/	vb G suffc. 3 m. sg.	to load	
 158100	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 2.41 22						
 158101	w	w	w	conj.	and	
-158102	uḫy	aḫ(I)/	ảḫ (I)	n. m. sg.	brother (by blood)	
+158102	uḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
 158103	al	al(I)	ảl (I)	neg. functor	no	
 158103	al	al(II)	ảl (II)	pos. functor	surely	
 158104	ybˤrn	ybˤrn[	/b-ʕ-r/ (II)	vb D suffc. 3 m. sg.	to abandon	

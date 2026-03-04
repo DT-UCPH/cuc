@@ -73,6 +73,8 @@ class VerbalFeatureCompleter:
                         person=person,
                         gender=gender,
                         number=number,
+                        state="abs." if "ptcpl." in form else "",
+                        case="nom." if "ptcpl." in form else "",
                         source="analysis+dulat",
                         confidence="high" if person or gender or number else "medium",
                         has_enclitic=decoded.has_enclitic,
@@ -98,6 +100,8 @@ class VerbalFeatureCompleter:
         bundle = build_verbal_bundle(
             stem=self._extract_stems(pos)[0] if self._extract_stems(pos) else "",
             form=self._extract_forms(pos, ())[0] if self._extract_forms(pos, ()) else "",
+            state="abs." if "ptcpl." in pos else "",
+            case="nom." if "ptcpl." in pos else "",
             source="existing",
         )
         return CompletedVariant(
@@ -195,6 +199,8 @@ class VerbalFeatureCompleter:
                         person=candidate.person,
                         gender=candidate.gender,
                         number=candidate.number,
+                        state="abs." if "ptcpl." in form else "",
+                        case="nom." if "ptcpl." in form else "",
                         source="morphology-pattern",
                         confidence="medium",
                     ),
