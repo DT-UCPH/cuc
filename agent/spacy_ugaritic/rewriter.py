@@ -35,7 +35,7 @@ def render_resolved_lines(
         token_entry = first_index_to_token.get(row_index)
         if token_entry is not None:
             tablet_token, token = token_entry
-            resolved_candidates = token._.resolved_candidates or token._.candidates
+            resolved_candidates = token._.resolved_candidates
             rendered_rows = [
                 candidate.to_row(
                     line_id=tablet_token.line_id,

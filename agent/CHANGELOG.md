@@ -2,6 +2,8 @@
 # Changelog
 
 ## 2026-03-04
+- Consolidated the remaining lexical-context rules (`bʕl` heuristics and `ydk`) into the shared spaCy context layer with stage-correct placement (`spacy-baal-context` before `l`, `spacy-ydk-context` after `k`), then removed the deleted legacy context step implementations, comparison scripts, and direct legacy-step tests that were no longer part of the active parser.
+- Simplified the context-step factories so they expose only the active spaCy strategies, rewrote the remaining spaCy step tests to assert expected output directly instead of diffing against deleted legacy steps, and removed obsolete step-specific docs for the old context chain.
 - Replaced the legacy `formula-trigram` + `formula-bigram` chain with a row-level spaCy `pipeline/steps/spacy_formula_context.py` pass, added `pipeline/formula_context_step_factory.py`, and introduced `scripts/compare_formula_context_strategies.py` for exact-output comparison against the historical formula steps.
 - Added row-level spaCy helpers in `spacy_ugaritic/row_builder.py` and `spacy_ugaritic/row_rewriter.py`, plus focused coverage in `tests/test_spacy_formula_context.py`, exact-output equivalence coverage in `tests/test_spacy_formula_context_step.py`, and updated `tests/test_tablet_parsing_pipeline.py` for the new `spacy-formula-context` slot.
 - Ran the corpus comparison across all `278` target tablets after the swap: `0` output diffs versus the legacy formula chain.
@@ -963,3 +965,5 @@
 - Replaced the legacy `OfferingListLPrepFixer` pipeline step with a row-level spaCy `spacy-offering-context` component, added an offering strategy comparison harness, and kept exact-output equivalence against the legacy offering-list normalization before activating the new step.
 
 - Consolidated the spaCy support layer onto one token/candidate document model, removed the separate row-builder/row-rewriter path, and moved formula/offering context onto the same `resolved_candidates` flow used by `l` and `k`.
+
+- Added shared spaCy lexical-context components for `bʕl` and `ydk` disambiguation, keeping the historical pre-`l` and post-`k` stage placements while validating exact corpus equivalence against the legacy lexical heuristics.

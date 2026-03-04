@@ -13,14 +13,15 @@ from pipeline.formula_context_step_factory import build_spacy_formula_context_st
 from pipeline.instruction_refiner import InstructionRefiner
 from pipeline.k_context_step_factory import build_spacy_k_context_steps
 from pipeline.l_context_step_factory import build_spacy_l_context_steps
+from pipeline.lexical_context_step_factory import (
+    build_spacy_baal_context_steps,
+    build_spacy_ydk_context_steps,
+)
 from pipeline.offering_context_step_factory import build_spacy_offering_context_steps
 from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_reference_disambiguator import AttestationReferenceDisambiguator
 from pipeline.steps.attestation_sort import AttestationSortFixer
 from pipeline.steps.attested_split_token_merge import AttestedSplitTokenMergeFixer
-from pipeline.steps.baal_labourer_ktu1 import BaalLabourerKtu1Fixer
-from pipeline.steps.baal_plural import BaalPluralGodListFixer
-from pipeline.steps.baal_verbal_slash import BaalVerbalSlashFixer
 from pipeline.steps.base import RefinementStep
 from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFixer
 from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
@@ -62,7 +63,6 @@ from pipeline.steps.verb_pos_stem import VerbPosStemFixer
 from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
 from pipeline.steps.weak_final_sc import WeakFinalSuffixConjugationFixer
 from pipeline.steps.weak_verb import WeakVerbFixer
-from pipeline.steps.ydk_context_disambiguator import YdkContextDisambiguator
 
 
 @dataclass(frozen=True)
@@ -95,13 +95,14 @@ class TabletParsingPipeline:
         self._post_formula_context_steps: List[RefinementStep] = []
         self._pre_offering_context_steps: List[RefinementStep] = []
         self._offering_context_steps: List[RefinementStep] = build_spacy_offering_context_steps()
-        self._post_offering_context_steps: List[RefinementStep] = [
+        self._post_offering_context_steps: List[RefinementStep] = []
+        self._pre_baal_context_steps: List[RefinementStep] = [
             PluralSplitFixer(gate=self.morph_gate),
             PluraleTantumMFixer(gate=self.morph_gate),
             FeminineTSingularSplitFixer(gate=self.morph_gate),
-            BaalLabourerKtu1Fixer(),
-            BaalVerbalSlashFixer(),
-            BaalPluralGodListFixer(),
+        ]
+        self._baal_context_steps: List[RefinementStep] = build_spacy_baal_context_steps()
+        self._post_baal_context_steps: List[RefinementStep] = [
             Ktu1FamilyHomonymPruner(dulat_db=self.config.dulat_db),
             SuffixCliticFixer(gate=self.morph_gate),
             ToponymDirectionalHFixer(gate=self.morph_gate),
@@ -141,8 +142,10 @@ class TabletParsingPipeline:
         self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps()
         self._pre_k_context_steps: List[RefinementStep] = []
         self._k_context_steps: List[RefinementStep] = build_spacy_k_context_steps()
-        self._post_k_context_steps: List[RefinementStep] = [
-            YdkContextDisambiguator(),
+        self._post_k_context_steps: List[RefinementStep] = []
+        self._pre_ydk_context_steps: List[RefinementStep] = []
+        self._ydk_context_steps: List[RefinementStep] = build_spacy_ydk_context_steps()
+        self._post_ydk_context_steps: List[RefinementStep] = [
             PrefixedIIIAlephVerbFixer(),
             VerbPosStemFixer(dulat_db=self.config.dulat_db),
             VerbFormMorphPosFixer(dulat_db=self.config.dulat_db),
@@ -165,11 +168,17 @@ class TabletParsingPipeline:
             *self._pre_offering_context_steps,
             *self._offering_context_steps,
             *self._post_offering_context_steps,
+            *self._pre_baal_context_steps,
+            *self._baal_context_steps,
+            *self._post_baal_context_steps,
             *self._pre_l_context_steps,
             *self._l_context_steps,
             *self._pre_k_context_steps,
             *self._k_context_steps,
             *self._post_k_context_steps,
+            *self._pre_ydk_context_steps,
+            *self._ydk_context_steps,
+            *self._post_ydk_context_steps,
         ]
 
     @property
@@ -188,11 +197,17 @@ class TabletParsingPipeline:
                 *self._pre_offering_context_steps,
                 *self._offering_context_steps,
                 *self._post_offering_context_steps,
+                *self._pre_baal_context_steps,
+                *self._baal_context_steps,
+                *self._post_baal_context_steps,
                 *self._pre_l_context_steps,
                 *self._l_context_steps,
                 *self._pre_k_context_steps,
                 *self._k_context_steps,
                 *self._post_k_context_steps,
+                *self._pre_ydk_context_steps,
+                *self._ydk_context_steps,
+                *self._post_ydk_context_steps,
             ]
         )
 
@@ -211,15 +226,35 @@ class TabletParsingPipeline:
         return tuple(self._offering_context_steps)
 
     @property
+    def pre_baal_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._pre_formula_context_steps,
+                *self._formula_context_steps,
+                *self._post_formula_context_steps,
+                *self._pre_offering_context_steps,
+                *self._offering_context_steps,
+                *self._post_offering_context_steps,
+                *self._pre_baal_context_steps,
+            ]
+        )
+
+    @property
     def post_offering_context_steps(self) -> Sequence[RefinementStep]:
         return tuple(
             [
                 *self._post_offering_context_steps,
+                *self._pre_baal_context_steps,
+                *self._baal_context_steps,
+                *self._post_baal_context_steps,
                 *self._pre_l_context_steps,
                 *self._l_context_steps,
                 *self._pre_k_context_steps,
                 *self._k_context_steps,
                 *self._post_k_context_steps,
+                *self._pre_ydk_context_steps,
+                *self._ydk_context_steps,
+                *self._post_ydk_context_steps,
             ]
         )
 
@@ -233,6 +268,26 @@ class TabletParsingPipeline:
                 *self._pre_offering_context_steps,
                 *self._offering_context_steps,
                 *self._post_offering_context_steps,
+                *self._pre_baal_context_steps,
+                *self._baal_context_steps,
+                *self._post_baal_context_steps,
+            ]
+        )
+
+    @property
+    def baal_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._baal_context_steps)
+
+    @property
+    def post_baal_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._post_baal_context_steps,
+                *self._pre_l_context_steps,
+                *self._l_context_steps,
+                *self._pre_k_context_steps,
+                *self._k_context_steps,
+                *self._post_k_context_steps,
             ]
         )
 
@@ -247,6 +302,9 @@ class TabletParsingPipeline:
                 *self._pre_k_context_steps,
                 *self._k_context_steps,
                 *self._post_k_context_steps,
+                *self._pre_ydk_context_steps,
+                *self._ydk_context_steps,
+                *self._post_ydk_context_steps,
             ]
         )
 
@@ -260,7 +318,22 @@ class TabletParsingPipeline:
 
     @property
     def post_k_context_steps(self) -> Sequence[RefinementStep]:
-        return tuple(self._post_k_context_steps)
+        return tuple(
+            [
+                *self._post_k_context_steps,
+                *self._pre_ydk_context_steps,
+                *self._ydk_context_steps,
+                *self._post_ydk_context_steps,
+            ]
+        )
+
+    @property
+    def ydk_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._ydk_context_steps)
+
+    @property
+    def post_ydk_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._post_ydk_context_steps)
 
     def discover_source_files(self) -> List[Path]:
         return sorted(self.config.source_dir.glob(self.config.source_glob))

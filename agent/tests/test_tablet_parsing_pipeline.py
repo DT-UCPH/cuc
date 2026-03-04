@@ -79,6 +79,38 @@ class TabletParsingPipelineTest(unittest.TestCase):
                 "l-negation-verb-context", [step.name for step in pipeline._refinement_steps]
             )
 
+    def test_pipeline_uses_integrated_spacy_baal_and_ydk_context_steps(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual(
+                [step.name for step in pipeline.baal_context_steps],
+                ["spacy-baal-context"],
+            )
+            self.assertEqual(
+                [step.name for step in pipeline.ydk_context_steps],
+                ["spacy-ydk-context"],
+            )
+            self.assertNotIn(
+                "ydk-context-disambiguator", [step.name for step in pipeline._refinement_steps]
+            )
+            self.assertNotIn(
+                "baal-labourer-ktu1", [step.name for step in pipeline._refinement_steps]
+            )
+
     def test_pipeline_uses_integrated_spacy_k_context_step(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
@@ -367,6 +399,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("spacy-offering-context"),
+                names.index("spacy-baal-context"),
+            )
+            self.assertLess(
+                names.index("spacy-baal-context"),
                 names.index("spacy-l-context"),
             )
             self.assertLess(
@@ -387,10 +423,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("spacy-k-context"),
-                names.index("ydk-context-disambiguator"),
+                names.index("spacy-ydk-context"),
             )
             self.assertLess(
-                names.index("ydk-context-disambiguator"),
+                names.index("spacy-ydk-context"),
                 names.index("prefixed-iii-aleph-verb"),
             )
             self.assertLess(
