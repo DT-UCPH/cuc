@@ -104,6 +104,28 @@ class RefineResultsMentionsTest(unittest.TestCase):
         )
         self.assertEqual(analysis_for_entry("an", entry), "an(II)")
 
+    def test_analysis_for_mn_keeps_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=434,
+            lemma="ḫyr",
+            hom="",
+            pos="MN",
+            gloss="aller de ci de là",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("ḫyr", entry), "ḫyr/")
+
+    def test_analysis_for_rn_keeps_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=435,
+            lemma="nql",
+            hom="",
+            pos="RN",
+            gloss="river-name",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("nql", entry), "nql/")
+
     def test_analysis_for_dn_keeps_nominal_slash(self) -> None:
         entry = Entry(
             entry_id=433,

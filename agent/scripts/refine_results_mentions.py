@@ -305,7 +305,7 @@ def takes_nominal_slash(pos: str) -> bool:
     return bool(
         re.search(r"\bn\.", p)
         or re.search(r"\badj\.?", p)
-        or any(tag in raw for tag in ("DN", "PN", "TN", "GN"))
+        or any(tag in raw for tag in ("DN", "PN", "RN", "TN", "GN", "MN"))
     )
 
 
