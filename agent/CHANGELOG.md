@@ -2,6 +2,8 @@
 # Changelog
 
 ## 2026-03-04
+- Added an isolated spaCy-based `l`-context spike that groups TSV candidate rows into token-level documents and applies current `l` disambiguation heuristics in one rule component without changing the main parsing pipeline.
+- Added `spacy_ugaritic_*` helper modules, a `scripts/spacy_l_context_spike.py` debug runner, and focused regressions in `tests/test_spacy_l_context.py` covering token grouping, forced `l(IV)` references, `l + kbd`, high-confidence `l` bigrams, and `l(II)` pruning/retention by verbal context.
 - Narrowed `scripts/refine_results_mentions.py` host slash rendering to nouns and adjectives only, so non-nominal suffix variants such as pronouns and adverbs no longer inherit nominal `/` in col3 (for example `anh -> an(I)+h; an(II)+h` instead of `an(I)/+h; an(II)+h`).
 - Added `pipeline/steps/verb_mixed_stem_split.py` so rows whose verb POS carries multiple stem signatures are split into aligned semicolon variants before stem-marker normalization; this prevents collapsed rows like `yšlm -> vb G prefc. / vb D prefc.` from forcing `:d` onto the shared analysis and lets the post-verb unwrapper emit separate `G` and `D` rows.
 - Fixed bracketed-form fallback extraction in `pipeline/config/dulat_entry_forms_fallback.py` so forms like `yq[bh]` no longer get indexed as standalone tails such as `bh`, and added `pipeline/steps/function_word_clitic_pruner.py` to drop unreconstructable host-only function-word rows when the same lexeme already has a clitic-bearing sibling (for example `bh: b+h` now survives, bare `b` does not).
