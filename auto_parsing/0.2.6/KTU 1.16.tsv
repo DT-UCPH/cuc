@@ -550,12 +550,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 II:34						
 143525	trm	!t!rm[	/r-m/	vb G prefc.	to go up	
 143525	trm	tr(I)/m	tr (I)	n. m. pl.	pole	
-143525	trm	trm(t/t	trmt	n. f. sg.	offering	
 143526	tṣr	nṣr[	/n-ṣ-r/	vb G prefc.	to sob	
 143526	tṣr	!t!ṣr[	/ṣ-r(-r)/	vb G prefc.	to besiege	
 143527	trm	!t!rm[	/r-m/	vb G prefc.	to go up	
 143527	trm	tr(I)/m	tr (I)	n. m. pl.	pole	
-143527	trm	trm(t/t	trmt	n. f. sg.	offering	
 143528	tnqt	tnq(t(I)/t	tnqt (I)	n. f. sg.	scream	
 143528	tnqt	tnq(t(II)/t	tnqt (II)	n. f. sg.	lactation	
 # KTU 1.16 II:35						
@@ -965,6 +963,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143768	bxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.16 V:8						
 143769	ṯnnth	ṯn(II)/	ṯn (II)	num./adj.	second	
+143769	ṯnnth	ṯn(II)&nt/+h	ṯn (II)	num./adj.	second	
 143770	xxxxx	?	?	?	?	
 # KTU 1.16 V:9						
 143771	ṯlṯth	ṯlṯ(IV)/	ṯlṯ (IV)	num.	triple	
