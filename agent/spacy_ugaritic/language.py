@@ -10,6 +10,7 @@ from spacy_ugaritic.components.formula_context import make_formula_context_resol
 from spacy_ugaritic.components.k_context import make_k_context_resolver  # noqa: F401
 from spacy_ugaritic.components.l_context import make_l_context_resolver  # noqa: F401
 from spacy_ugaritic.components.lexical_context import make_lexical_context_resolver  # noqa: F401
+from spacy_ugaritic.components.morph_context import make_morph_context_resolver  # noqa: F401
 from spacy_ugaritic.components.offering_context import make_offering_context_resolver  # noqa: F401
 from spacy_ugaritic.extensions import ensure_extensions
 
@@ -51,3 +52,7 @@ def create_ugaritic_ydk_context_nlp() -> Language:
     nlp = spacy.blank("xx")
     nlp.add_pipe("ugaritic_lexical_context_resolver", config={"rule_groups": ["ydk"]})
     return nlp
+
+
+def create_ugaritic_morph_context_nlp() -> Language:
+    return create_ugaritic_nlp("ugaritic_morph_context_resolver")

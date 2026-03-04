@@ -17,6 +17,7 @@ from pipeline.lexical_context_step_factory import (
     build_spacy_baal_context_steps,
     build_spacy_ydk_context_steps,
 )
+from pipeline.morph_context_step_factory import build_spacy_morph_context_steps
 from pipeline.offering_context_step_factory import build_spacy_offering_context_steps
 from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_reference_disambiguator import AttestationReferenceDisambiguator
@@ -161,6 +162,7 @@ class TabletParsingPipeline:
             PostVerbVariantRowUnwrapper(),
             PostVerbUnwrappedDuplicatePruner(),
             VerbalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
+            *build_spacy_morph_context_steps(),
             # Keep schema pass last so any content-changing steps still end in
             # strict 7-column/quote-safe TSV for GitHub rendering.
             TsvSchemaFormatter(),

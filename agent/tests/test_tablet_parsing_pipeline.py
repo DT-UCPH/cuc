@@ -104,6 +104,7 @@ class TabletParsingPipelineTest(unittest.TestCase):
                 [step.name for step in pipeline.ydk_context_steps],
                 ["spacy-ydk-context"],
             )
+            self.assertIn("spacy-morph-context", [step.name for step in pipeline._refinement_steps])
             self.assertNotIn(
                 "ydk-context-disambiguator", [step.name for step in pipeline._refinement_steps]
             )
