@@ -29,3 +29,33 @@ def build_verbal_bundle(
         has_enclitic=has_enclitic,
         enclitic_type=enclitic_type,
     )
+
+
+def build_nominal_bundle(
+    *,
+    part_of_speech: str,
+    gender: str = "",
+    number: str = "",
+    state: str = "",
+    case: str = "",
+    source: str = "",
+    confidence: str = "",
+    has_suffix: bool = False,
+    suffix_person: str = "",
+    suffix_gender: str = "",
+    suffix_number: str = "",
+) -> FeatureBundle:
+    return FeatureBundle(
+        part_of_speech=part_of_speech,
+        gender=gender,
+        number=number,
+        state=state,
+        case=case,
+        source=source,
+        confidence=confidence,
+        has_suffix=has_suffix,
+        suffix_person=suffix_person,
+        suffix_gender=suffix_gender,
+        suffix_number=suffix_number,
+        is_construct=state == "cstr.",
+    )
