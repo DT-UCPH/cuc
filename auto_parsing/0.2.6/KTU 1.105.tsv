@@ -13,8 +13,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 3						
 152705	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 152706	b	b	b	prep.	in	
-152707	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. nom.	(sacrificial) pit	
-152708	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.	aller de ci de là	
+152707	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
+152708	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
 # KTU 1.105 4						
 152709	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 152710	lṯlṯm	?	?	?	?	DULAT: NOT FOUND
@@ -40,7 +40,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 7						
 152719	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 152720	l	l(I)	l (I)	prep.	to	
-152721	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
+152721	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
 152722	mlkx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 8						
 152723	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
@@ -48,10 +48,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152723	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 152724	wš	?	?	?	?	DULAT: NOT FOUND
 152725	l	l(I)	l (I)	prep.	to	
-152726	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. nom.	lady	
+152726	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. gen.	lady	
 # KTU 1.105 9						
-152727	bwtm	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
-152728	š	š/	š	n. m. sg. abs. nom.	ram	
+152727	bwtm	bt(II)/	bt (II)	n. m. pl. abs. gen.	house	
+152728	š	š/	š	n. m. sg. abs. gen.	ram	
 152729	iṯtqb	iṯtqb/	ỉṯtqb	TN sg. abs. nom.	ỉṯtqb	
 # KTU 1.105 10						
 152730	w	w	w	conj.	and	
@@ -85,10 +85,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152746	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 152747	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.	aller de ci de là	
 152748	b	b	b	prep.	in	
-152749	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-152749	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-152750	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
-152750	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
+152749	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+152749	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+152750	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. gen.	new moon	
+152750	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. gen.	new	
 # KTU 1.105 16						
 152751	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
 152751	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
@@ -96,8 +96,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152752	w	w	w	conj.	and	
 152753	š	š/	š	n. m. sg. abs. nom.	ram	
 152754	l	l(I)	l (I)	prep.	to	
-152755	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. nom.	lady	
-152756	bhtm	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
+152755	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. gen.	lady	
+152756	bhtm	bt(II)/	bt (II)	n. m. pl. abs. gen.	house	
 # KTU 1.105 17						
 152757	b	b	b	prep.	in	
 152758	arbˤt	arbˤ/	ảrbʕ	num.	four	
@@ -122,7 +122,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152768	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.105 21						
 152769	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-152770	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
+152770	tzġ	tzġ/	tzġ	n. m. sg. abs. gen.	kind of sacrificial meat	
 152771	b	b	b	prep.	in	
 152772	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. nom.	(sacrificial) pit	
 152772	ġb	ġb(II)	ġb (II)	?	?	
@@ -154,18 +154,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152787	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.105 24						
 152788	l	l(I)	l (I)	prep.	to	
-152789	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-152790	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. nom.	bird	
+152789	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+152790	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	
 152791	lṣpn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 25						
 152792	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 152793	wš	?	?	?	?	DULAT: NOT FOUND
 152794	l	l(I)	l (I)	prep.	to	
-152795	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-152796	bbt	bbt(II)/	bbt (II)	DN sg. abs. nom.	superintendent	
-152796	bbt	bbt(I)/	bbt (I)	TN sg. abs. nom.	bbt (I)	
+152795	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
+152796	bbt	bbt(II)/	bbt (II)	DN sg. abs. gen.	superintendent	
+152796	bbt	bbt(I)/	bbt (I)	TN sg. abs. gen.	bbt (I)	
 # KTU 1.105 26						
-152797	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+152797	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 152798	linš	?	?	?	?	DULAT: NOT FOUND
 152799	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 152799	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	

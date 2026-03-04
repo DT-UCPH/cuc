@@ -7,8 +7,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162056	hnd	hnd	hnd	dem.	this	
 # KTU 3.32 2						
 162057	l	l(I)	l (I)	prep.	to	
-162058	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-162059	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
+162058	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+162059	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. gen.	ʿmṯtmr	
 # KTU 3.32 3						
 162060	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 162060	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
@@ -81,7 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162089	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
 # KTU 3.32 12						
 162090	b	b	b	prep.	in	
-162091	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+162091	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 162092	l	l(I)	l (I)	prep.	to	
 162092	l	l(III)	l (III)	functor	certainly	
 162093	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	

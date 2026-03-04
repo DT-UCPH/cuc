@@ -6,10 +6,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156906	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
 # KTU 2.21 2						
 156907	l	l(I)	l (I)	prep.	to	
-156908	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
-156909	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+156908	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
+156909	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 2.21 3						
-156910	aḫty	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg. cstr. nom.	sister (related by blood)	
+156910	aḫty	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg. cstr. gen.	sister (related by blood)	
 156911	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156911	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156911	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -20,8 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156912	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156913	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.21 5						
-156914	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-156914	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+156914	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+156914	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 156915	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.21 6						
 156916	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
@@ -57,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156931	ˤtn	ˤt/+n	ʕt	TN sg. cstr. nom.	ʿt	
 156932	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.21 13						
-156933	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+156933	kl	kl/	kl	n. m. sg. abs. gen.	totality (of)	
 156934	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 156934	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156934	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	

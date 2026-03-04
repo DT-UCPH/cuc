@@ -16,10 +16,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141480	lšbˤt	?	?	?	?	DULAT: NOT FOUND
 141481	tmtḫṣ	mḫṣ[ḫṣ	/m-ḫ-ṣ/	vb G prefc.	to wound	
 141482	b	b	b	prep.	in	
-141483	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. abs. nom.	valley	
-141483	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m. sg. abs. nom.	tough	
+141483	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. abs. gen.	valley	
+141483	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m. sg. abs. gen.	tough	
 # KTU 1.7 5						
-141484	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg. abs. nom.	battle	
+141484	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg. abs. gen.	battle	
 141485	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 141485	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 141485	bn	bn(II)	bn (II)	prep.	between	
@@ -62,15 +62,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141504	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
 # KTU 1.7 8						
 141505	b	b	b	prep.	in	
-141506	šmḫt	šmḫ(t/t	šmḫt	n. f. sg. abs. nom.	joy	
-141507	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
+141506	šmḫt	šmḫ(t/t	šmḫt	n. f. sg. abs. gen.	joy	
+141507	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. gen.	total (quantity or price)	
 141508	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 141508	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 141508	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 141509	tšyt	tšy(t/t	tšyt	n. f. sg. abs. nom.	triumph	
 141510	tḥthk	tḥt(I)+k	tḥt (I)	prep.	under	
-141511	kdrt	kdrt/	kdrt	n. f. pl. abs. nom.	ball	
-141512	riš	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	head	
+141511	kdrt	kdrt/	kdrt	n. f. pl. abs. gen.	ball	
+141512	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	head	
 # KTU 1.7 9						
 141513	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
 141514	kirbym	?	?	?	?	DULAT: NOT FOUND
@@ -231,7 +231,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141593	ˤṣk	ˤṣ/+k	ʕṣ	n. m. cstr. nom.	tree	
 141594	ˤbṣk	ˤbṣ(I)/+k	ʕbṣ (I)	n. m. sg. cstr. nom.	mace	
 141595	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-141596	pˤnk	pˤn/+k	pʕn	n. f. cstr. nom.	foot	
+141596	pˤnk	pˤn/+k	pʕn	n. f. cstr. gen.	foot	
 141597	tls	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.7 30						
 141598	mn	mn(IV)	mn (IV)	?	?	
@@ -261,10 +261,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141613	abntant	?	?	?	?	DULAT: NOT FOUND
 141614	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
 141615	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-141616	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
-141617	thmt	thm(t/t	thmt	n. f. pl. abs. nom.	Primordial Ocean	
-141617	thmt	thm(t/t	thmt	n. f. sg. abs. nom.	Primordial Ocean	
-141617	thmt	thm/t	thm	n. f. abs. nom.	ocean/deep	
+141616	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
+141617	thmt	thm(t/t	thmt	n. f. pl. abs. gen.	Primordial Ocean	
+141617	thmt	thm(t/t	thmt	n. f. sg. abs. gen.	Primordial Ocean	
+141617	thmt	thm/t	thm	n. f. abs. gen.	ocean/deep	
 # KTU 1.7 33						
 141618	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 141619	kbkbmabn	?	?	?	?	DULAT: NOT FOUND

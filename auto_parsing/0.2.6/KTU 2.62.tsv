@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.62 5						
 158659	w	w	w	conj.	and	
 158660	b	b	b	prep.	in	
-158661	glb	glb/	glb	n. m. abs. nom.	Gerste	
+158661	glb	glb/	glb	n. m. abs. gen.	Gerste	
 # KTU 2.62 6						
 158662	phnn	phy[n	/p-h-y/	vb G suffc.	to see	
 158663	w	w	w	conj.	and	
@@ -21,18 +21,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158664	mndym	mndym/	mndym	GN pl. abs. nom.	the (Ummān-)Manda	
 # KTU 2.62 8						
 158665	b	b	b	prep.	in	
-158666	ddnh	dd(II)/+nh	dd (II)	n. m. cstr. nom.	cauldronful, ?	
-158666	ddnh	dd(I)/+nh	dd (I)	adj. m. cstr. nom.	love, ?	
-158666	ddnh	ddn(I)/+h	ddn (I)	PN sg. cstr. nom.	ddn (I)	
+158666	ddnh	dd(II)/+nh	dd (II)	n. m. cstr. gen.	cauldronful, ?	
+158666	ddnh	dd(I)/+nh	dd (I)	adj. m. cstr. gen.	love, ?	
+158666	ddnh	ddn(I)/+h	ddn (I)	PN sg. cstr. gen.	ddn (I)	
 # KTU 2.62 9						
 158667	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc. 1 c. sg.	to get hold of	
 # KTU 2.62 10						
 158668	xrm	?	?	?	?	DULAT: NOT FOUND
 158669	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158670	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158670	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+158670	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+158670	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.62 11						
-158671	yblhm	ybl(II)/+hm	ybl (II)	n. m. pl. cstr. nom.	rod	
+158671	yblhm	ybl(II)/+hm	ybl (II)	n. m. pl. cstr. gen.	rod	
 158672	w	w	w	conj.	and	
 158673	iblblhm	blbl/	(ỉ)blbl	n. m. abs. nom.	messenger	
 # KTU 2.62 12						

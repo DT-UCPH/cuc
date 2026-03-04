@@ -19,10 +19,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156604	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.11 5						
 156605	l	l(I)	l (I)	prep.	to	
-156606	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-156607	adtny	ad(t/t+ny	ảdt	n. f. sg. cstr. nom.	lady	
+156606	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+156607	adtny	ad(t/t+ny	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.11 6						
-156608	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. nom. sg.	distance	
+156608	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. gen. sg.	distance	
 # KTU 2.11 7						
 156609	qlny	ql[ny	/q-l/	vb G suffc.	to fall (down)	
 156610	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
@@ -38,8 +38,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156614	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 156614	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.11 11						
-156615	kll	kll/	kll	n. m. sg. abs. nom.	totality	
-156616	mid	mi/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
+156615	kll	kll/	kll	n. m. sg. abs. gen.	totality	
+156616	mid	mi/	mỉ/ủd	n. m. sg. abs. gen.	abundance	
 # KTU 2.11 12						
 156617	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 156617	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
@@ -60,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156622	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.11 15						
 156623	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-156624	adtny	ad(t/t+ny	ảdt	n. f. sg. cstr. nom.	lady	
+156624	adtny	ad(t/t+ny	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.11 16						
 156625	mnm	mnm	mnm	indef. pn.	any(thing)	
 156626	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	

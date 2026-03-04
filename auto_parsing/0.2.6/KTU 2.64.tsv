@@ -22,8 +22,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158725	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
 # KTU 2.64 6						
 158726	l	l(I)	l (I)	prep.	to	
-158727	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158728	adny	adn(I)/+y	ảdn (I)	n. m. cstr. nom.	lord	
+158727	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158728	adny	adn(I)/+y	ảdn (I)	n. m. cstr. gen.	lord	
 # KTU 2.64 7						
 158729	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.64 8						
@@ -50,8 +50,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158737	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.64 13						
 158738	l	l(I)	l (I)	prep.	to	
-158739	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158740	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158739	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158740	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.64 14						
 158741	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 158742	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
@@ -61,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158744	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 158745	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.64 17						
-158746	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158746	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 158747	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.64 18						
 158748	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	

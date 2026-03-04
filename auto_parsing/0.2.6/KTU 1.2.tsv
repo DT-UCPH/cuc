@@ -26,12 +26,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136042	ṯmšl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 I:6						
 136043	b	b	b	prep.	in	
-136044	rišk	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	head	
-136045	aymr	aymr/	ảymr	DN sg. abs. nom.	name of a magic mace	
+136044	rišk	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	head	
+136045	aymr	aymr/	ảymr	DN sg. abs. gen.	name of a magic mace	
 # KTU 1.2 I:7						
-136046	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. nom.	to judge	
-136046	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. nom.	judge	
-136046	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. nom.	case	
+136046	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. gen.	to judge	
+136046	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
+136046	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. gen.	case	
 136047	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
 136047	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
 136048	yṯbr	!y!](n]ṯbr[	/ṯ-b-r/	vb G prefc. 3 m. sg.	to break	
@@ -52,11 +52,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136055	mṭ	mṭ/	mṭ	n. m. sg. cstr. nom.	rod	
 136056	tpln	npl[n	/n-p-l/	vb G prefc.	to fall	
 136057	b	b	b	prep.	in	
-136058	gbl	gbl(I)/	gbl (I)	n. m. sg. abs. nom.	summit	
-136058	gbl	gbl(II)/	gbl (II)	n. m. sg. abs. nom.	limit	
+136058	gbl	gbl(I)/	gbl (I)	n. m. sg. abs. gen.	summit	
+136058	gbl	gbl(II)/	gbl (II)	n. m. sg. abs. gen.	limit	
 # KTU 1.2 I:10						
-136059	ab	ab/	ảb	n. m. sg. abs. nom.	father	
-136059	ab	ab/	ảb	n. m. sg. cstr. nom.	father	
+136059	ab	ab/	ảb	n. m. sg. abs. gen.	father	
+136059	ab	ab/	ảb	n. m. sg. cstr. gen.	father	
 136060	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 136060	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 136061	aṯtm	aṯt/m	ảṯt	n. f. pl. abs. nom.	woman	
@@ -87,18 +87,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136080	al	al(II)	ảl (II)	pos. functor	surely	
 136081	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
 136082	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-136083	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. abs. nom.	assembly	
-136084	mˤd	mˤd/	mʕd	n. m. sg. abs. nom.	convention	
-136085	tk	tk/	tk	n. m. abs. nom.	centre	
+136083	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. abs. gen.	assembly	
+136084	mˤd	mˤd/	mʕd	n. m. sg. abs. gen.	convention	
+136085	tk	tk/	tk	n. m. abs. gen.	centre	
 136086	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
 136086	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
 136087	ll	ll(I)/	ll (I)	n. m. sg. abs. nom.	night	
 136088	l	l(I)	l (I)	prep.	to	
-136089	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-136090	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-136090	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-136090	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-136090	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+136089	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+136090	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+136090	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+136090	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+136090	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.2 I:15						
 136091	al	al(II)	ảl (II)	pos. functor	surely	
 136092	tpl	npl[	/n-p-l/	vb G prefc.	to fall	
@@ -217,11 +217,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136153	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 136153	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 136154	l	l(I)	l (I)	prep.	to	
-136155	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
-136155	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
-136156	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-136156	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-136156	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+136155	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	bull	
+136155	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	bull	
+136156	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+136156	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+136156	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 136157	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 136158	im	im	ỉm	conj.	if	
 136159	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
@@ -231,10 +231,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136160	qm	qm[	/q-m/	vb G impv. 2	to stand up	
 136160	qm	qm[/	/q-m/	vb G act. ptcpl. m. sg. abs. nom.	to stand up	
 136161	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-136162	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-136162	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-136162	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-136162	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+136162	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+136162	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+136162	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+136162	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 136163	hlm	hlm	hlm	conj. functor	and so	
 # KTU 1.2 I:22						
 136164	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
@@ -259,8 +259,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136173	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 136174	rišthm	riš(I)&t/+hm	rỉš (I)	n. m. cstr. nom.	head	
 136175	l	l(I)	l (I)	prep.	to	
-136176	ẓr	ẓr(I)/	ẓr (I)	n. m.	upon	
-136177	brkthm	brk/	brk	n. f. pl. abs. nom.	knee	
+136176	ẓr	ẓr(I)/	ẓr (I)	n. m. gen.	upon	
+136177	brkthm	brk/	brk	n. f. pl. abs. gen.	knee	
 136178	w	w	w	conj.	and	
 136179	lkḥṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 I:24						
@@ -285,13 +285,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136189	km	km	km	prep./conj./adv.		
 136189	km	+km, +km=	-km			
 136190	l	l(I)	l (I)	prep.	to	
-136191	ẓr	ẓr(I)/	ẓr (I)	n. m.	upon	
-136192	brktkm	brk/	brk	n. f. pl. abs. nom.	knee	
+136191	ẓr	ẓr(I)/	ẓr (I)	n. m. gen.	upon	
+136192	brktkm	brk/	brk	n. f. pl. abs. gen.	knee	
 136193	w	w	w	conj.	and	
 136194	ln	l(I)+n	l (I)	prep.	to	
-136195	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. nom.	throne	
-136196	zblkm	zbl(II)/+km	zbl (II)	n. m. sg. cstr. nom.	principality	
-136197	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	one	
+136195	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. gen.	throne	
+136196	zblkm	zbl(II)/+km	zbl (II)	n. m. sg. cstr. gen.	principality	
+136197	aḥd	aḥd/	ảḥd	adj. m. sg. abs. gen.	one	
 # KTU 1.2 I:26						
 136198	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 136198	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
@@ -314,12 +314,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136207	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 136208	raštkm	riš(I)/+km	rỉš (I)	n. m. cstr. nom.	head	
 136209	l	l(I)	l (I)	prep.	to	
-136210	ẓr	ẓr(I)/	ẓr (I)	n. m.	upon	
-136211	brktkm	brk/	brk	n. f. pl. abs. nom.	knee	
+136210	ẓr	ẓr(I)/	ẓr (I)	n. m. gen.	upon	
+136211	brktkm	brk/	brk	n. f. pl. abs. gen.	knee	
 136212	ln	l(I)+n	l (I)	prep.	to	
-136213	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. nom.	throne	
+136213	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. gen.	throne	
 # KTU 1.2 I:28						
-136214	zblkm	zbl(II)/+km	zbl (II)	n. m. sg. cstr. nom.	principality	
+136214	zblkm	zbl(II)/+km	zbl (II)	n. m. sg. cstr. gen.	principality	
 136215	w	w	w	conj.	and	
 136216	ank	ank	ảnk	pers. pn.	I	
 136217	ˤny	ˤny(I)[/	/ʕ-n-y/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to answer	
@@ -340,11 +340,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136224	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 136225	rašthm	riš(I)/+hm	rỉš (I)	n. m. cstr. nom.	head	
 136226	l	l(I)	l (I)	prep.	to	
-136227	ẓr	ẓr(I)/	ẓr (I)	n. m.	upon	
-136228	brkthm	brk/	brk	n. f. pl. abs. nom.	knee	
+136227	ẓr	ẓr(I)/	ẓr (I)	n. m. gen.	upon	
+136228	brkthm	brk/	brk	n. f. pl. abs. gen.	knee	
 136229	lnh	l(I)+h	l (I)	prep.	to	
-136230	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. nom.	throne	
-136231	zblhm	zbl(II)/+hm	zbl (II)	n. m. sg. cstr. nom.	principality	
+136230	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. gen.	throne	
+136231	zblhm	zbl(II)/+hm	zbl (II)	n. m. sg. cstr. gen.	principality	
 # KTU 1.2 I:30						
 136232	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
 136233	tmġyn	!t!mġy[n	/m-ġ-y/	vb G prefc.	to come	
@@ -361,11 +361,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136238	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
 136238	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
 136239	l	l(I)	l (I)	prep.	to	
-136240	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-136241	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-136241	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-136241	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-136241	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+136240	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+136241	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+136241	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+136241	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+136241	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.2 I:31						
 136242	l	l(III)	l (III)	functor	certainly	
 136243	tpl	npl[	/n-p-l/	vb G prefc.	to fall	
@@ -375,7 +375,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136247	mˤd	mˤd/	mʕd	n. m. sg. abs. nom.	convention	
 136248	mqmm	mqm/+m(I)	mqm	n. m. cstr. nom.	place	
 136249	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-136250	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
+136250	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 1.2 I:32						
 136251	ṯny	ṯny[	/ṯ-n-y/	vb G impv. 2	to repeat	
 136251	ṯny	!!ṯny[/	/ṯ-n-y/	vb G inf.	to repeat	
@@ -455,11 +455,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136291	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 136291	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 136292	y	y	y	prep. functor	oh!	
-136293	ymm	y(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
-136294	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
-136295	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-136295	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-136295	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+136293	ymm	y(II)/~m	ym (II)	n. m. abs. gen. sg.	sea	
+136294	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
+136295	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+136295	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+136295	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.2 I:37						
 136296	nhrm	nhr/+m(I)	nhr	n. m. cstr. nom.	river	
 136297	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
@@ -474,8 +474,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136301	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
 136302	argmnk	argmn/+k	ả/ỉrgmn	n. m. cstr. nom.	payment of tribute to the Hittite court	
 136303	k	k(I)	k (I)	prep.	like	
-136304	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-136304	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+136304	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+136304	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.2 I:38						
 136305	xxxxybl	?	?	?	?	DULAT: NOT FOUND
 136306	k	+k	-k (I)			
@@ -505,12 +505,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136315	yuḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 136315	yuḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
 136316	b	b	b	prep.	in	
-136317	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-136318	mšḫṭ	mšḫṭ/	mšḫṭ	n. m. sg. abs. nom.	axe	
+136317	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
+136318	mšḫṭ	mšḫṭ/	mšḫṭ	n. m. sg. abs. gen.	axe	
 136319	bm	b+m(I)	b	prep.	in	
-136320	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. nom.	right (side)	
-136321	mḫṣ	mḫṣ(II)/	mḫṣ (II)	n. m. sg. abs. nom.	striking instrument	
-136322	ġlmm	ġlm/+m(I)	ġlm	n. m. cstr. nom.	boy	
+136320	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. gen.	right (side)	
+136321	mḫṣ	mḫṣ(II)/	mḫṣ (II)	n. m. sg. abs. gen.	striking instrument	
+136322	ġlmm	ġlm/+m(I)	ġlm	n. m. cstr. gen.	boy	
 136323	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
 # KTU 1.2 I:40						
 136324	xxx	?	?	?	?	
@@ -543,9 +543,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136341	mlak	mlak/	mlảk	n. m. pl. abs. nom.	messenger	
 136341	mlak	mlak/	mlảk	n. m. sg. abs. nom.	messenger	
 136342	bn	bn(II)	bn (II)	prep.	between	
-136343	ktpm	ktp(I)/m	ktp (I)	n. f. pl. abs. nom.	shoulder	
-136344	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-136345	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+136343	ktpm	ktp(I)/m	ktp (I)	n. f. pl. abs. gen.	shoulder	
+136344	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+136345	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 136346	w	w	w	conj.	and	
 136347	yxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 I:43						
@@ -566,8 +566,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136353	šdmt	šdm(t/t	šdmt	n. f. sg. abs. nom.	terrace	
 136353	šdmt	šdm(t/t=	šdmt	n. f. pl. abs. nom.	terrace	
 136354	b	b	b	prep.	in	
-136355	gpnm	gpn(I)/+m(I)	gpn (I)	n. m. cstr. nom.	(vine-)stock	
-136355	gpnm	gpn(II)/+m(I)	gpn (II)	n. m. cstr. nom.	harness	
+136355	gpnm	gpn(I)/+m(I)	gpn (I)	n. m. cstr. gen.	(vine-)stock	
+136355	gpnm	gpn(II)/+m(I)	gpn (II)	n. m. cstr. gen.	harness	
 136356	xxxxx	?	?	?	?	
 # KTU 1.2 I:44						
 136357	xxxxxxdm	?	?	?	?	DULAT: NOT FOUND
@@ -712,12 +712,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136430	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 136431	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 136432	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-136433	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-136433	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-136433	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-136433	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-136434	mbk	mbk/	mbk	n. m. sg. abs. nom.	source	
-136435	nhrm	nhr/+m(I)	nhr	n. m. cstr. nom.	river	
+136433	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+136433	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+136433	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+136433	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+136434	mbk	mbk/	mbk	n. m. sg. abs. gen.	source	
+136435	nhrm	nhr/+m(I)	nhr	n. m. cstr. gen.	river	
 136436	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 136436	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 136437	apq	apq/	ảpq	n. m. sg. abs. nom.	spring	
@@ -740,11 +740,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136447	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 136447	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 136448	l	l(I)	l (I)	prep.	to	
-136449	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-136450	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-136450	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-136450	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-136450	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+136449	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+136450	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+136450	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+136450	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+136450	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.2 III:6						
 136451	yhbr	!y!hbr[	/h-b-r/	vb G prefc. 3 m. sg.	to bow	
 136452	w	w	w	conj.	and	
@@ -755,7 +755,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136456	ykbdnh	ykbdnh[	/k-b-d/	vb D suffc. 3 m. sg.	to honour	
 136457	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
 # KTU 1.2 III:7						
-136458	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+136458	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 136459	w	w	w	conj.	and	
 136460	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
 136461	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go	
@@ -802,8 +802,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136483	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
 136483	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
 136484	b	b	b	prep.	in	
-136485	tk	tk/	tk	n. m. abs. nom.	centre	
-136486	upqt	upq(t/t	ủpqt	n. f. sg. abs. nom.	bed of a torrent	
+136485	tk	tk/	tk	n. m. abs. gen.	centre	
+136486	upqt	upq(t/t	ủpqt	n. f. sg. abs. gen.	bed of a torrent	
 136487	ymx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 III:10						
 136488	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb G impv. 2	to hurry	
@@ -867,7 +867,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136521	y	+y, [y	-y (I)	prep. functor	my	
 136521	y	~y	-y (II)	prep. functor	indeed	
 136521	y	y	y	prep. functor	oh!	
-136522	yblmm	ybl(III)/~m	ybl (III)	n. m. abs. nom. pl.	?	
+136522	yblmm	ybl(III)/~m	ybl (III)	n. m. abs. gen. pl.	?	
 136523	ubl	?	?	?	?	DULAT: NOT FOUND
 136524	xxxṯxxk	?	?	?	?	DULAT: NOT FOUND
 136525	yrdxxxixxxx	?	?	?	?	DULAT: NOT FOUND
@@ -902,19 +902,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136541	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 136542	abk	ab/+k	ảb	n. m. cstr. nom.	father	
 136543	l	l(I)	l (I)	prep.	to	
-136544	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-136545	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
-136545	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. nom.	prince	
-136545	zbl	zbl(III)/	zbl (III)	n. m. sg. abs. nom.	one carried	
-136546	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-136546	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+136544	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+136545	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
+136545	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. gen.	prince	
+136545	zbl	zbl(III)/	zbl (III)	n. m. sg. abs. gen.	one carried	
+136546	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+136546	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 136547	l	l(I)	l (I)	prep.	to	
-136548	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-136549	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. nom.	to judge	
-136549	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. nom.	judge	
-136549	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. nom.	case	
-136550	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
-136550	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
+136548	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+136549	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. gen.	to judge	
+136549	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
+136549	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. gen.	case	
+136550	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
+136550	nhr	nhr/	nhr	n. m. sg. abs. gen.	river	
 # KTU 1.2 III:17						
 136551	ik	ik	ỉk	interr. functor	how?	
 136552	al	al(I)	ảl (I)	neg. functor	no	
@@ -960,9 +960,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136575	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 136575	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
 136576	by	b	b	prep.	in	
-136577	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
-136578	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-136579	aby	ab/+y	ảb	n. m. cstr. nom.	father	
+136577	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	bull	
+136578	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+136579	aby	ab/+y	ảb	n. m. cstr. gen.	father	
 136580	ank	ank	ảnk	pers. pn.	I	
 136581	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 136582	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
@@ -985,7 +985,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136590	lbdm	lbdm	lbdm	→	?	
 136591	ard	!(ʔ&a!(yrd[	/y-r-d/	vb G prefc. 1 c. sg.	to go down	
 136592	b	b	b	prep.	in	
-136593	npšny	npšn/+y	npšn	n. m. cstr. nom.	place of / for ‘souls’	
+136593	npšny	npšn/+y	npšn	n. m. cstr. gen.	place of / for ‘souls’	
 136594	trḥṣn	!t!rḥṣ[n	/r-ḥ-ṣ/	vb G prefc.	to wash	
 136595	kṯrmyṯb	?	?	?	?	DULAT: NOT FOUND
 136596	bbt	bbt(II)/	bbt (II)	DN sg. abs. nom.	superintendent	
@@ -997,36 +997,36 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136598	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 136598	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 136599	b	b	b	prep.	in	
-136600	hkl	hkl/	hkl	n. m. sg. abs. nom.	palace	
-136601	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. nom.	to judge	
-136601	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. nom.	judge	
-136601	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. nom.	case	
-136602	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
-136602	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
+136600	hkl	hkl/	hkl	n. m. sg. abs. gen.	palace	
+136601	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. gen.	to judge	
+136601	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
+136601	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. gen.	case	
+136602	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
+136602	nhr	nhr/	nhr	n. m. sg. abs. gen.	river	
 136603	yṯir	ṯʔr[r	/ṯ-ʔ-r/	vb G prefc.	to stand surety for	
 136603	yṯir	ṯʔr[r:d	/ṯ-ʔ-r/	vb D prefc.	to stand surety for	
 136604	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
 136605	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 136606	abh	ab/+h	ảb	n. m. cstr. nom.	father	
 136607	l	l(I)	l (I)	prep.	to	
-136608	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-136609	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
-136609	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. nom.	prince	
-136609	zbl	zbl(III)/	zbl (III)	n. m. sg. abs. nom.	one carried	
-136610	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-136610	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+136608	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+136609	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
+136609	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. gen.	prince	
+136609	zbl	zbl(III)/	zbl (III)	n. m. sg. abs. gen.	one carried	
+136610	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+136610	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.2 III:22						
 136611	l	l(I)	l (I)	prep.	to	
-136612	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-136613	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. nom.	to judge	
-136613	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. nom.	judge	
-136613	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. nom.	case	
-136614	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
-136614	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
+136612	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+136613	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. gen.	to judge	
+136613	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
+136613	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. gen.	case	
+136614	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
+136614	nhr	nhr/	nhr	n. m. sg. abs. gen.	river	
 136615	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
 136616	wim	?	?	?	?	DULAT: NOT FOUND
 136617	l	l(I)	l (I)	prep.	to	
-136618	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
+136618	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 136619	wn	w+n	w	conj.	and	
 136620	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 136621	aṯt	aṯ(t/t	ảṯt	n. f. du. abs. nom.	woman	
@@ -1036,8 +1036,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136622	lk	l(I)+k	l (I)	prep.	to	
 136623	km	k(I)	k (I)	prep.	like	
 # KTU 1.2 III:23						
-136624	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-136624	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+136624	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+136624	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 136625	xx	?	?	?	?	
 136626	xx	?	?	?	?	
 136627	xx	?	?	?	?	
@@ -1097,11 +1097,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136666		?	?	?	?	
 136667	w	w	w	conj.	and	
 136668	bym	b+m(I)	b	prep.	in	
-136669	mnḫ	mnḫ/	mnḫ	n. m. abs. nom.	calm	
+136669	mnḫ	mnḫ/	mnḫ	n. m. abs. gen.	calm	
 136670	labd	?	?	?	?	DULAT: NOT FOUND
 136671	b	b	b	prep.	in	
-136672	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-136673	irtm	ir(t/tm	ỉrt	n. f. du. abs. nom.	breast	
+136672	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+136673	irtm	ir(t/tm	ỉrt	n. f. du. abs. gen.	breast	
 136674	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 1.2 IV:4						
 136675	xxxm	?	?	?	?	DULAT: NOT FOUND
@@ -1115,13 +1115,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 IV:5						
 136682	pitm	pit/+m(I)	pỉt	n. m. cstr. nom.	temple	
 136683	l	l(I)	l (I)	prep.	to	
-136684	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+136684	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 136685	ypl	npl[	/n-p-l/	vb G prefc.	to fall	
 136686	ulny	ul/	ủl	n. m. sg. abs. nom.	(military) force	
 136687	w	w	w	conj.	and	
 136688	l	l(I)	l (I)	prep.	to	
-136689	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. nom.	dust	
-136690	ˤẓmny	ˤẓm(III)/+ny	ʕẓm (III)	n. m. sg. cstr. nom.	power	
+136689	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. gen.	dust	
+136690	ˤẓmny	ˤẓm(III)/+ny	ʕẓm (III)	n. m. sg. cstr. gen.	power	
 # KTU 1.2 IV:6						
 136691	bph	?	?	?	?	DULAT: NOT FOUND
 136692	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -1134,8 +1134,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136693	l	l(III)	l (III)	functor	certainly	
 136694	yṣa	!y!(yṣ(ʔ&a[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
 136695	b	b	b	prep.	in	
-136696	špth	šp(t/t	špt	n. f. sg. abs. nom.	lip	
-136697	hwth	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
+136696	špth	šp(t/t	špt	n. f. sg. abs. gen.	lip	
+136697	hwth	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 136698	w	w	w	conj.	and	
 136699	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give	
 136699	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give	
@@ -1147,12 +1147,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136701	yġr	nġr[	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 1.2 IV:7						
 136702	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-136703	ksi	ks/	ks/śủ	n. f. abs. nom.	seat	
-136704	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
-136704	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. nom.	prince	
-136704	zbl	zbl(III)/	zbl (III)	n. m. sg. abs. nom.	one carried	
-136705	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-136705	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+136703	ksi	ks/	ks/śủ	n. f. abs. gen.	seat	
+136704	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
+136704	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. gen.	prince	
+136704	zbl	zbl(III)/	zbl (III)	n. m. sg. abs. gen.	one carried	
+136705	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+136705	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 136706	w	w	w	conj.	and	
 136707	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 136707	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
@@ -1238,13 +1238,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136753	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
 136753	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
 136754	l	l(I)	l (I)	prep.	to	
-136755	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. nom.	throne	
-136756	drkth	drk(t/t	drkt	n. f. sg. abs. nom.	rule	
+136755	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. gen.	throne	
+136756	drkth	drk(t/t	drkt	n. f. sg. abs. gen.	rule	
 136757	trtqṣ	!t!r]t]qṣ[:w	/r-q-ṣ/	vb Gt prefc. 3 m. pl.	to jump	
 136758	bd	b	b	prep.	in	
-136759	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-136759	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-136759	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+136759	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+136759	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+136759	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 136760	km	k(III)	k (III)	functor	when	
 136760	km	k(I)	k (I)	prep.	like	
 136760	km	k(IV)	k (IV)	adv.	thus	
@@ -1254,7 +1254,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 IV:14						
 136762	r	?	?	?	?	DULAT: NOT FOUND
 136763	b	b	b	prep.	in	
-136764	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl. abs. nom.	finger	
+136764	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl. abs. gen.	finger	
 136765	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 136765	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 136766	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. nom.	shoulder	
@@ -1263,24 +1263,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136767	zbl	zbl(III)/	zbl (III)	n. m. sg. abs. nom.	one carried	
 136768	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 136769	bn	bn(II)	bn (II)	prep.	between	
-136770	ydm	yd(I)/m	yd (I)	n. f. pl. abs. nom.	hand	
+136770	ydm	yd(I)/m	yd (I)	n. f. pl. abs. gen.	hand	
 # KTU 1.2 IV:15						
-136771	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. nom.	to judge	
-136771	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. nom.	judge	
-136771	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. nom.	case	
-136772	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
-136772	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
+136771	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. gen.	to judge	
+136771	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
+136771	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. gen.	case	
+136772	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
+136772	nhr	nhr/	nhr	n. m. sg. abs. gen.	river	
 136773	yrtqṣ	!y!r]t]qṣ[	/r-q-ṣ/	vb Gt prefc. 3 m. sg.	to jump	
 136774	ṣmd	ṣmd/	ṣmd	n. m. sg. abs. nom.	pair	
 136775	bd	b	b	prep.	in	
-136776	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-136776	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-136776	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+136776	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+136776	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+136776	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 136777	km	km	km	prep./conj./adv.		
-136778	nšr	nšr/	nšr	n. m. sg. abs. nom.	bird of prey	
+136778	nšr	nšr/	nšr	n. m. sg. abs. gen.	bird of prey	
 # KTU 1.2 IV:16						
 136779	b	b	b	prep.	in	
-136780	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl. abs. nom.	finger	
+136780	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl. abs. gen.	finger	
 136781	ylm	hlm[	/h-l-m/	vb G prefc.	to hit	
 136782	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. nom.	shoulder	
 136783	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
@@ -1340,14 +1340,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136815	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
 136815	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
 136816	l	l(I)	l (I)	prep.	to	
-136817	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. nom.	throne	
-136818	drkth	drk(t/t	drkt	n. f. sg. abs. nom.	rule	
+136817	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. abs. gen.	throne	
+136818	drkth	drk(t/t	drkt	n. f. sg. abs. gen.	rule	
 136819	trtqṣ	!t!r]t]qṣ[:w	/r-q-ṣ/	vb Gt prefc. 3 m. pl.	to jump	
 # KTU 1.2 IV:21						
 136820	bd	b	b	prep.	in	
-136821	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-136821	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-136821	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+136821	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+136821	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+136821	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 136822	km	k(III)	k (III)	functor	when	
 136822	km	k(I)	k (I)	prep.	like	
 136822	km	k(IV)	k (IV)	adv.	thus	
@@ -1368,12 +1368,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136829	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 136829	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 136830	bn	bn(II)	bn (II)	prep.	between	
-136831	ˤnm	ˤn(I)/m	ʕn (I)	n. f. pl. abs. nom.	eye	
-136832	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. nom.	to judge	
-136832	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. nom.	judge	
-136832	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. nom.	case	
-136833	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
-136833	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
+136831	ˤnm	ˤn(I)/m	ʕn (I)	n. f. pl. abs. gen.	eye	
+136832	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. gen.	to judge	
+136832	ṯpṭ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
+136832	ṯpṭ	ṯpṭ(I)/	ṯpṭ (I)	n. m. abs. gen.	case	
+136833	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
+136833	nhr	nhr/	nhr	n. m. sg. abs. gen.	river	
 136834	yprsḥ	!y!prsḥ[	prsḥ	vb G prefc. 3 m. sg.	to collapse	
 136835	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 136835	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
@@ -1381,16 +1381,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136836	w	w	w	conj.	and	
 136837	yql	!y!ql[	/q-l/	vb G prefc. 3 m. sg.	to fall (down)	
 136838	l	l(I)	l (I)	prep.	to	
-136839	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+136839	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 136840	w	w	w	conj.	and	
 136841	yrtqṣ	!y!r]t]qṣ[	/r-q-ṣ/	vb Gt prefc. 3 m. sg.	to jump	
 136842	ṣmd	ṣmd/	ṣmd	n. m. sg. abs. nom.	pair	
 136842	ṣmd	ṣmd[	/ṣ-m-d/	vb G suffc. 3 m. sg.	to harness	
 136842	ṣmd	ṣmd[	/ṣ-m-d/	vb G impv. 2	to harness	
 136843	bd	b	b	prep.	in	
-136844	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-136844	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-136844	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+136844	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+136844	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+136844	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.2 IV:24						
 136845	km	k(III)	k (III)	functor	when	
 136845	km	k(I)	k (I)	prep.	like	
@@ -1399,7 +1399,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136845	km	+km, +km=	-km			
 136846	nšr	nšr/	nšr	n. m. sg. abs. nom.	bird of prey	
 136847	b	b	b	prep.	in	
-136848	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl. abs. nom.	finger	
+136848	uṣbˤth	uṣbˤ/	ủṣbʕ	n. f. pl. abs. gen.	finger	
 136849	ylm	hlm[	/h-l-m/	vb G prefc.	to hit	
 136850	qdqd	qdqd/	qdqd	n. m. sg. abs. nom.	skull	
 136851	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
@@ -1423,7 +1423,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136859	yql	!y!ql[	/q-l/	vb G prefc. 3 m. sg.	to fall (down)	
 # KTU 1.2 IV:26						
 136860	l	l(I)	l (I)	prep.	to	
-136861	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+136861	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 136862	tnġṣn	!t!nġṣ[n	/n-ġ-ṣ/	vb G prefc.	to contract	
 136862	tnġṣn	!t!nġṣ[n	/n-ġ-ṣ/	vb N prefc.	to contract	
 136863	pnth	pnt/h	pnt	n. f. pl. cstr. nom.	knuckle	
@@ -1449,7 +1449,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136874	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
 # KTU 1.2 IV:28						
 136875	b	b	b	prep.	in	
-136876	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
+136876	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 136877	tgˤrm	!t!gˤr[~m	/g-ʕ-r/	vb G prefc.	to reproach	
 136878	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 136879	bṯ	bṯ[	/b-ṯ/	vb	to be ashamed	
@@ -1550,10 +1550,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136928	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 1.2 IV:38						
 136929	b	b	b	prep.	in	
-136930	rišh	riš(I)/h	rỉš (I)	n. m. sg. abs. nom.	head	
+136930	rišh	riš(I)/h	rỉš (I)	n. m. sg. abs. gen.	head	
 136931		?	?	?	?	
 # KTU 1.2 IV:39						
-136932	ibh	ib(I)/+h	ỉb (I)	n. m. cstr. nom.	enemy	
+136932	ibh	ib(I)/+h	ỉb (I)	n. m. cstr. gen.	enemy	
 136933	mš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.2 IV:40						
 136934	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	

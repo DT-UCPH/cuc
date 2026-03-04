@@ -1,16 +1,16 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 1						
 153585	b	b	b	prep.	in	
-153586	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-153586	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
-153587	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.	aller de ci de là	
+153586	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
+153586	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
+153587	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
 153588	b	b	b	prep.	in	
-153589	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-153589	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+153589	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+153589	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.112 2						
-153590	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
-153590	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
-153591	ḫḏrġl	ḫḏrġl/	ḫḏrġl	n. m. sg. abs. nom.	assistant	
+153590	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. gen.	new moon	
+153590	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. gen.	new	
+153591	ḫḏrġl	ḫḏrġl/	ḫḏrġl	n. m. sg. abs. gen.	assistant	
 153592	xxxx	?	?	?	?	
 # KTU 1.112 3						
 153593	ṯn	ṯn(I)/	ṯn (I)	num.	two	
@@ -27,10 +27,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153600	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. nom.	plate / wide bowl / platter	
 153601	rgbt	rgb(t/t	rgbt	n. f. sg. abs. nom.	respect	
 153602	l	l(I)	l (I)	prep.	to	
-153603	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. nom.	lady	
+153603	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. gen.	lady	
 # KTU 1.112 5						
-153604	bht	bt(II)/	bt (II)	n. m. pl. cstr. nom.	house	
-153604	bht	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
+153604	bht	bt(II)/	bt (II)	n. m. pl. cstr. gen.	house	
+153604	bht	bt(II)/	bt (II)	n. m. pl. abs. gen.	house	
 153605	m	?	?	?	?	DULAT: NOT FOUND
 153606	šˤṣrm	?	?	?	?	DULAT: NOT FOUND
 153607	linš	?	?	?	?	DULAT: NOT FOUND
@@ -93,8 +93,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 13						
 153640	yn	yn/	yn	n. m. sg. abs. nom.	wine	
 153641	l	l(I)	l (I)	prep.	to	
-153642	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
-153643	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
+153642	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
+153643	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. gen.	cave	
 153644	b	b	b	prep.	in	
 153645	ˤšt	ˤš(t/t	ʕšt(y)	num. sg.	one	
 # KTU 1.112 14						
@@ -122,8 +122,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153657	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 17						
 153658	lk	l(I)+k	l (I)	prep.	to	
-153659	brr	br/	br(r)	n. m. sg. abs. nom.	tin	
-153659	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
+153659	brr	br/	br(r)	n. m. sg. abs. gen.	tin	
+153659	brr	brr/	brr	adj. m. sg. abs. gen.	pure	
 153660	b	b	b	prep.	in	
 153661	arbˤt	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.112 18						

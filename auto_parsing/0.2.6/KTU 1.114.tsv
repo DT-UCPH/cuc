@@ -10,8 +10,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153786	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
 153786	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 153787	b	b	b	prep.	in	
-153788	bth	bt(II)/+h	bt (II)	n. m. cstr. nom.	house	
-153789	mṣd	mṣd(I)/	mṣd (I)	n. m. sg. abs. nom.	(feast / banquet of) game	
+153788	bth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
+153789	mṣd	mṣd(I)/	mṣd (I)	n. m. sg. abs. gen.	(feast / banquet of) game	
 153790	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	
 153790	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. abs. nom.	hunt	
 153791	b	b	b	prep.	in	
@@ -56,11 +56,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153813	yqṯqṯ	!y!qṯ[qṯ:r	/q-ṯ/	vb R prefc. 3 m. sg.	to drag	
 153814	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 # KTU 1.114 6						
-153815	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. f. pl. abs. nom.	table	
-153816	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-153816	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153816	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-153816	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153815	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. f. pl. abs. gen.	table	
+153816	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+153816	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+153816	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+153816	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 153817	d	d	d	det. or rel. functor	the one(s) of	
 153818	ydˤnn	!y!(ydˤ(I)[nn	/y-d-ʕ/ (I)	vb G prefc. 3 m. sg.	to know	
 # KTU 1.114 7						
@@ -83,9 +83,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153826	lmn	lmn/	lmn	PN sg. abs. nom.	lmn	
 153827	ḫṭm	ḫṭ/~m	ḫṭ	n. m. abs. nom. sg.	sceptre	
 153828	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-153829	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. abs. nom.	table	
+153829	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. abs. gen.	table	
 # KTU 1.114 9						
-153830	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
+153830	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 153831	w	w	w	conj.	and	
 153832	ˤnyt	?	?	?	?	DULAT: NOT FOUND
 153833	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come	
@@ -127,11 +127,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153854	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. nom.	shoulder	
 # KTU 1.114 14						
 153855	b	b	b	prep.	in	
-153856	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-153856	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153856	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-153856	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-153857	abh	ab/+h	ảb	n. m. cstr. nom.	father	
+153856	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+153856	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+153856	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+153856	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+153857	abh	ab/+h	ảb	n. m. cstr. gen.	father	
 153858	gˤr	gˤr[	/g-ʕ-r/	vb G suffc. 3 m. sg.	to reproach	
 153859	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 153859	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
@@ -153,7 +153,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153865	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 153865	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
 153866	b	b	b	prep.	in	
-153867	mrzḥh	mrzḥ/+h	mrzḥ	n. m. cstr. nom.	cultic association	
+153867	mrzḥh	mrzḥ/+h	mrzḥ	n. m. cstr. gen.	cultic association	
 # KTU 1.114 16						
 153868	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 153868	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
@@ -205,7 +205,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153894	ylšn	ylšn[	/l-š/	vb G suffc. 3 m. sg.	to soil	
 # KTU 1.114 21						
 153895	b	b	b	prep.	in	
-153896	ḫrih	ḫru/	ḫrủ	n. m. sg. abs. nom.	faeces	
+153896	ḫrih	ḫru/	ḫrủ	n. m. sg. abs. gen.	faeces	
 153897	w	w	w	conj.	and	
 153898	ṯnth	ṯny[+h	/ṯ-n-y/	vb G impv. 2	to repeat	
 153898	ṯnth	!!ṯny[/+h	/ṯ-n-y/	vb G inf.	to repeat	

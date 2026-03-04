@@ -124,7 +124,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157329	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to approach	
 # KTU 2.31 27						
 157330	b	b	b	prep.	in	
-157331	bb	bb/	bb	PN sg. abs. nom.	bb	
+157331	bb	bb/	bb	PN sg. abs. gen.	bb	
 157332	xxx	?	?	?	?	
 # KTU 2.31 28						
 157333		?	?	?	?	
@@ -149,8 +149,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157342	iy	iy	ỉy	interr. adv.	where?	
 157343	lmx	?	?	?	?	DULAT: NOT FOUND
 157344	b	b	b	prep.	in	
-157345	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
-157345	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
+157345	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
+157345	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
 # KTU 2.31 36						
 157346	x	?	?	?	?	
 157347	trxx	?	?	?	?	DULAT: NOT FOUND
@@ -252,15 +252,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157411	ḥln	ḥln/	ḥln	n. m. sg. abs. nom.	window	
 157412	d	d	d	det. or rel. functor	the one(s) of	
 157413	b	b	b	prep.	in	
-157414	dmt	dm(t(I)/t	dmt (I)	n. f. sg. abs. nom.	tower	
-157415	um	um/	ủm	n. f. sg. abs. nom.	mother	
-157416	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-157416	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+157414	dmt	dm(t(I)/t	dmt (I)	n. f. sg. abs. gen.	tower	
+157415	um	um/	ủm	n. f. sg. abs. gen.	mother	
+157416	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+157416	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.31 49						
 157417	xxx	?	?	?	?	
 157418	xxxxḏḏyn	?	?	?	?	DULAT: NOT FOUND
 157419	bˤd	bˤd	bʕd	adv. or prep.	behind	
-157420	ḏḏyn	ḏḏyn/	ḏḏyn	PN sg. abs. nom.	ḏḏyn	
+157420	ḏḏyn	ḏḏyn/	ḏḏyn	PN sg. abs. gen.	ḏḏyn	
 157421	w	w	w	conj.	and	
 157422	l	l(I)	l (I)	prep.	to	
 157422	l	l(III)	l (III)	functor	certainly	

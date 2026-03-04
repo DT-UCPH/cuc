@@ -8,8 +8,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
 # KTU 3.12 2						
 161336	b	b	b	prep.	in	
-161337	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	
-161337	unṯ	unṯ/	ủnṯ	n. m. sg. abs. nom.	obligation	
+161337	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	obligation	
+161337	unṯ	unṯ/	ủnṯ	n. m. sg. abs. gen.	obligation	
 161338	km	k(III)	k (III)	functor	when	
 161338	km	k(I)	k (I)	prep.	like	
 161338	km	k(IV)	k (IV)	adv.	thus	
@@ -30,10 +30,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161344	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
 # KTU 3.12 5						
 161345	b	b	b	prep.	in	
-161346	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	
-161346	unṯ	unṯ/	ủnṯ	n. m. sg. abs. nom.	obligation	
-161347	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
-161347	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+161346	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	obligation	
+161346	unṯ	unṯ/	ủnṯ	n. m. sg. abs. gen.	obligation	
+161347	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
+161347	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
 161348	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 161348	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
 161348	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
@@ -85,9 +85,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161370	hnd	hnd	hnd	dem.	this	
 # KTU 3.12 14						
 161371	b	b	b	prep.	in	
-161372	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-161373	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
+161372	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
+161373	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. gen.	ṣdqšlm	
 # KTU 3.12 15						
-161374	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
-161374	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+161374	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
+161374	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
 161375	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	

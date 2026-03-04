@@ -17,8 +17,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157581	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 157581	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 157582	lk	l(I)+k	l (I)	prep.	to	
-157583	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-157583	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+157583	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+157583	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.34 4						
 157584	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 157585	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -45,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157593	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 157593	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.34 7						
-157594	kll	kll/	kll	n. m. sg. abs. nom.	totality	
+157594	kll	kll/	kll	n. m. sg. abs. gen.	totality	
 157595	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157595	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157595	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -57,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157596	ṯmny	ṯm	ṯm	adv.	there	
 # KTU 2.34 8						
 157597	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157598	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+157598	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 157599	mnm	mnm	mnm	indef. pn.	any(thing)	
 157600	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157600	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
@@ -103,8 +103,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157616	igr	!(ʔ&i!](n]gr[	/g-r/	vb N prefc. 1 c. sg.	to lodge	
 # KTU 2.34 13						
 157617	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157618	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157618	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+157618	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157618	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 157619	lxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.34 14						
 157620	nšlḥ	!n!šlḥ(I)[	/š-l-ḥ/ (I)	vb G prefc. 1 c. pl.	to stretch	

@@ -38,9 +38,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:5						
 146861	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. nom.	shoulder	
 146862	bm	b+m(I)	b	prep.	in	
-146863	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. nom.	shoulder	
-146864	aḫm	aḫ(I)/m	ảḫ (I)	n. m. pl. abs. nom.	brother (by blood)	
-146865	qym	qym(I)/	qym (I)	n. m. pl. cstr. nom.	assistant	
+146863	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. gen.	shoulder	
+146864	aḫm	aḫ(I)/m	ảḫ (I)	n. m. pl. abs. gen.	brother (by blood)	
+146865	qym	qym(I)/	qym (I)	n. m. pl. cstr. gen.	assistant	
 146866	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 146866	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 146866	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
@@ -89,11 +89,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146890	y	+y, [y	-y (I)	prep. functor	my	
 146890	y	~y	-y (II)	prep. functor	indeed	
 146890	y	y	y	prep. functor	oh!	
-146891	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
-146891	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. nom.	prince	
-146892	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-146892	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-146893	ˤllmy	ˤllmy/	ʕllmy	adj. abs. nom.	eternal	
+146891	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
+146891	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. gen.	prince	
+146892	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+146892	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+146893	ˤllmy	ˤllmy/	ʕllmy	adj. abs. gen.	eternal	
 146894	km	km	km	prep./conj./adv.		
 146895	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
 # KTU 1.22 I:11						
@@ -128,23 +128,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146914	qmṣ	qmṣ(II)/	qmṣ (II)	n. m. sg. abs. nom.	Unterschenkel	
 146915	llim	ll(u&i/m	llủ	n. m. pl. abs. nom.	suckling (lamb or kid)	
 146916	k	k(I)	k (I)	prep.	like	
-146917	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+146917	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 1.22 I:15						
 146918	l	l(I)	l (I)	prep.	to	
-146919	ˤbrm	ˤbr(I)/m	ʕbr (I)	n. m. pl. abs. nom.	passer-by	
-146920	zt	zt/	zt	n. m. pl. abs. nom.	olive	
-146920	zt	zt/	zt	n. m. sg. abs. nom.	olive	
-146921	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
+146919	ˤbrm	ˤbr(I)/m	ʕbr (I)	n. m. pl. abs. gen.	passer-by	
+146920	zt	zt/	zt	n. m. pl. abs. gen.	olive	
+146920	zt	zt/	zt	n. m. sg. abs. gen.	olive	
+146921	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
 146922	l	l(I)	l (I)	prep.	to	
-146923	ˤbrm	ˤbr(I)/m	ʕbr (I)	n. m. pl. abs. nom.	passer-by	
-146924	kš	kš/	kš	n. m. sg. abs. nom.	date	
+146923	ˤbrm	ˤbr(I)/m	ʕbr (I)	n. m. pl. abs. gen.	passer-by	
+146924	kš	kš/	kš	n. m. sg. abs. gen.	date	
 # KTU 1.22 I:16						
 146925	dpr	dpr[	/d-p-r/	vb G suffc. 3 m. sg.	to exude a strong smell	
 146926	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. abs. nom.	table	
 146927	b	b	b	prep.	in	
-146928	qˤl	qˤl(II)/	qʕl (II)	n. m. sg. abs. nom.	vine blossom	
+146928	qˤl	qˤl(II)/	qʕl (II)	n. m. sg. abs. gen.	vine blossom	
 146929	b	b	b	prep.	in	
-146930	qˤl	qˤl(II)/	qʕl (II)	n. m. sg. abs. nom.	vine blossom	
+146930	qˤl	qˤl(II)/	qʕl (II)	n. m. sg. abs. gen.	vine blossom	
 # KTU 1.22 I:17						
 146931	mlkm	mlk(I)	mlk (I)		king	
 146932	hn	hn	hn	functor	behold!	
@@ -209,12 +209,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146969	ikl	!!(ʔ&ikl[/	/ʔ-k-l/	vb G inf.	to eat	
 146969	ikl	ikl/	ỉkl	n. m. sg. abs. nom.	act of eating	
 146970	b	b	b	prep.	in	
-146971	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. nom.	first fruit	
+146971	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. gen.	first fruit	
 # KTU 1.22 I:25						
 146972	b	b	b	prep.	in	
-146973	ṣq	ṣq/	ṣq	adj. m. sg. abs. nom.	distressed	
+146973	ṣq	ṣq/	ṣq	adj. m. sg. abs. gen.	distressed	
 146974	b	b	b	prep.	in	
-146975	irt	ir(t/t	ỉrt	n. f. sg. cstr. nom.	breast	
+146975	irt	ir(t/t	ỉrt	n. f. sg. cstr. gen.	breast	
 146976	lbnn	lb/+nn	lb	n. m. cstr. nom.	heart, ?	
 146976	lbnn	lbnn(I)/	lbnn (I)	TN sg. abs. nom.	Lebanon	
 146976	lbnn	lbnn(II)	lbnn (II)	element		
@@ -241,12 +241,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146989	ṯlqr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.22 II:2						
 146990	b	b	b	prep.	in	
-146991	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
+146991	hkly	hkl/y	hkl	n. m. sg. abs. gen.	palace	
 146992	x	?	?	?	?	
 # KTU 1.22 II:3						
 146993	lk	l(I)+k	l (I)	prep.	to	
-146994	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
-146995	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
+146994	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
+146995	rpim	rp(u&i/m	rpủ	n. m. pl. abs. gen.	healer	
 146996	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
 # KTU 1.22 II:4						
 146997	km	k(III)	k (III)	functor	when	
@@ -262,7 +262,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147002	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
 # KTU 1.22 II:5						
 147003	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-147004	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+147004	rpum	rp(u&/m	rpủ	n. m. pl. abs. gen.	healer	
 147005	l	l(I)	l (I)	prep.	to	
 147005	l	l(II)	l (II)	adv.	no	
 147005	l	l(III)	l (III)	functor	certainly	
@@ -282,10 +282,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147013	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 147013	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 147014	lk	l(I)+k	l (I)	prep.	to	
-147015	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
-147016	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+147015	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
+147016	rpum	rp(u&/m	rpủ	n. m. pl. abs. gen.	healer	
 147017	b	b	b	prep.	in	
-147018	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+147018	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
 # KTU 1.22 II:9						
 147019	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
 147020	km	k(III)	k (III)	functor	when	
@@ -301,7 +301,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 II:10						
 147025	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
 147026	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-147027	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+147027	rpum	rp(u&/m	rpủ	n. m. pl. abs. gen.	healer	
 147028	l	l(I)	l (I)	prep.	to	
 147028	l	l(II)	l (II)	adv.	no	
 147028	l	l(III)	l (III)	functor	certainly	
@@ -355,7 +355,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147058	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 147059	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
 147060	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-147061	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+147061	rpum	rp(u&/m	rpủ	n. m. pl. abs. gen.	healer	
 147062	l	l(I)	l (I)	prep.	to	
 147062	l	l(II)	l (II)	adv.	no	
 147062	l	l(III)	l (III)	functor	certainly	
@@ -388,7 +388,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147079	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 147079	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 147080	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
-147081	špšm	špš/~m	špš	n. f. abs. nom. sg.	sun	
+147081	špšm	špš/~m	špš	n. f. abs. gen. sg.	sun	
 # KTU 1.22 II:25						
 147082	b	b	b	prep.	in	
 147083	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	

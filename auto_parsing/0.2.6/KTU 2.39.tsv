@@ -14,10 +14,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157925	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.39 3						
 157926	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157927	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157927	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-157928	kll	kll/	kll	n. m. sg. abs. nom.	totality	
-157929	midm	mid/~m	mỉ/ủd	n. m. abs. nom. sg.	abundance	
+157927	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157927	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+157928	kll	kll/	kll	n. m. sg. abs. gen.	totality	
+157929	midm	mid/~m	mỉ/ủd	n. m. abs. gen. sg.	abundance	
 # KTU 2.39 4						
 157930	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157930	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
@@ -29,10 +29,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157930	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.39 5						
 157931	l	l(I)	l (I)	prep.	to	
-157932	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-157933	adn	adn(I)/	ảdn (I)	n. m. sg. abs. nom.	lord	
-157934	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157934	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+157932	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+157933	adn	adn(I)/	ảdn (I)	n. m. sg. abs. gen.	lord	
+157934	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157934	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 2.39 6						
 157935	adnh	adn(I)/+h	ảdn (I)	n. m. cstr. nom.	lord	
 157935	adnh	ad/+nh	ảd	n. m. cstr. nom.	father, ?	
@@ -80,11 +80,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157958	ht	ht	ht	adv.	here	
 157959	xxx	?	?	?	?	
 157960	l	l(I)	l (I)	prep.	to	
-157961	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157961	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-157962	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157961	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157961	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+157962	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.39 12						
-157963	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m. pl. abs. nom.	servant	
+157963	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m. pl. abs. gen.	servant	
 157964	sglth	sgl(t/t+h	sglt	n. f. sg. cstr. nom.	treasure	
 157965	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.39 13						
@@ -102,11 +102,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157972	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 # KTU 2.39 15						
 157973	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-157974	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157974	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-157975	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157974	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157974	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+157975	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.39 16						
-157976	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
+157976	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
 157977	šntm	šnt(I)/m	šnt (I)	n. f. pl. abs. nom.	year	
 157978	lm	l(I)	l (I)	prep.	to	
 157979	l	l(I)	l (I)	prep.	to	
@@ -123,20 +123,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.39 18						
 157985	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 157986	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157987	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157987	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+157987	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157987	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 2.39 19						
-157988	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157988	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 157989	ky	k(III)	k (III)	Subordinating or completive functor	when	
 157989	ky	k(II)	k (II)	emph. functor	yes	
 157989	ky	k(IV)	k (IV)	adv.	thus	
 157990	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
 # KTU 2.39 20						
 157991	b	b	b	prep.	in	
-157992	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. nom.	country	
-157993	inn	in/	ỉn	n. m. sg. abs. nom.	lack of	
+157992	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. gen.	country	
+157993	inn	in/	ỉn	n. m. sg. abs. gen.	lack of	
 # KTU 2.39 21						
-157994	špšn	špš/	špš	n. f. sg. abs. nom.	sun	
+157994	špšn	špš/	špš	n. f. sg. abs. gen.	sun	
 157995	tubd	ʔbd[d	/ʔ-b-d/	vb G prefc.	be missing	
 # KTU 2.39 22						
 157996	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -180,8 +180,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158015	inx	?	?	?	?	DULAT: NOT FOUND
 158016	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.39 33						
-158017	sprn	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-158018	ṭhrm	ṭhr/m	ṭhr	adj. m. pl. abs. nom.	pure	
+158017	sprn	spr(II)/	spr (II)	n. m. sg. abs. gen.	tablet / register	
+158018	ṭhrm	ṭhr/m	ṭhr	adj. m. pl. abs. gen.	pure	
 158019	adm	adm(I)/	ảdm (I)	n. m. sg. abs. nom.	man	
 158019	adm	(ʔ&adm[	/ʔ-d-m/	vb G suffc. 3 m. sg.	to be	
 158019	adm	adm(II)/	ảdm (II)	adj. m. sg. abs. nom.	obtained	

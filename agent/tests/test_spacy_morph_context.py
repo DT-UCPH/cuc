@@ -49,6 +49,42 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["vb G prefc. 3 m. pl."],
         )
 
+    def test_forces_genitive_on_nominal_after_preposition(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tb\tb\tb\tprep.\tin\t",
+            "2\tṣpn\tṣpn/\tṣpn\tTN/DN m. sg. abs. nom.\tṢapānu/Zaphon\t",
+            "2\tṣpn\tṣpn/\tṣpn\tTN/DN m. sg. cstr. nom.\tṢapānu/Zaphon\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["TN/DN m. sg. abs. gen.", "TN/DN m. sg. cstr. gen."],
+        )
+
+    def test_forces_genitive_on_adjective_noun_phrase_after_preposition(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tb\tb\tb\tprep.\tin\t",
+            "2\taliyn\taliyn/\tảlỉyn\tadj. m. sg. abs. nom.\tThe Very / Most Powerful\t",
+            "3\tbˤl\tbˤl(II)/\tbʕl (II)\tDN m. sg. abs. nom.\tBaʿlu/Baal\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["adj. m. sg. abs. gen."],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[2]._.resolved_candidates],
+            ["DN m. sg. abs. gen."],
+        )
+
+    def test_forces_genitive_on_participle_after_preposition(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tb\tb\tb\tprep.\tin\t",
+            "2\tmḫṣ\tmḫṣ[/\t/m-ḫ-ṣ/\tvb G act. ptcpl. m. sg. abs. nom.\tto wound\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["vb G act. ptcpl. m. sg. abs. gen."],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

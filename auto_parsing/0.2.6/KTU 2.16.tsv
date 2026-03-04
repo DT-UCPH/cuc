@@ -17,9 +17,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156774	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156774	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156775	lk	l(I)+k	l (I)	prep.	to	
-156776	ily	il(I)/y	ỉl (I)	n. m. pl. cstr. nom.	god	
+156776	ily	il(I)/y	ỉl (I)	n. m. pl. cstr. gen.	god	
 # KTU 2.16 5						
-156777	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+156777	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 156778	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.16 6						
 156779	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -32,9 +32,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156783	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
 # KTU 2.16 8						
 156784	l	l(I)	l (I)	prep.	to	
-156785	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-156786	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-156786	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+156785	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+156786	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+156786	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 2.16 9						
 156787	w	w	w	conj.	and	
 156788	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
@@ -44,7 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156790	nr	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.16 10						
 156791	by	b	b	prep.	in	
-156792	mid	mi/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
+156792	mid	mi/	mỉ/ủd	n. m. sg. abs. gen.	abundance	
 156793	w	w	w	conj.	and	
 156794	um	um/	ủm	n. f. sg. abs. nom.	mother	
 # KTU 2.16 11						
@@ -100,7 +100,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156808	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 156809	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.16 18						
-156810	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+156810	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 # KTU 2.16 19						
 156811	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 156812	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	

@@ -62,9 +62,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.4 14						
 161011	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161012	b	b	b	prep.	in	
-161013	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
+161013	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
 # KTU 3.4 15						
-161014	birtym	birty/	bỉrty	GN pl. abs. nom.	bỉrty	
+161014	birtym	birty/	bỉrty	GN pl. abs. gen.	bỉrty	
 # KTU 3.4 16						
 161015	w	w	w	conj.	and	
 161016	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	
@@ -72,8 +72,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161017	inn	in/	ỉn	n. m. sg. abs. nom.	lack of	
 # KTU 3.4 17						
 161018	lhm	l(I)+hm	l (I)	prep.	to	
-161019	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
-161019	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+161019	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
+161019	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
 161020	tṯṯbn	]š]ṯb[ṯbn	/ṯ-b/	vb Š prefc.	to return	
 # KTU 3.4 18						
 161021	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	

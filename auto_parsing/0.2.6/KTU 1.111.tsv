@@ -90,12 +90,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153560	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 153561	l	l(I)	l (I)	prep.	to	
 # KTU 1.111 18						
-153562	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-153562	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153562	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-153562	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-153563	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-153563	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+153562	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+153562	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+153562	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+153562	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+153563	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+153563	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 153564	ššbˤ	?	?	?	?	DULAT: NOT FOUND
 153565	ṯat	ṯa(t/t	ṯảt	n. f. pl. abs. nom.	ewe	
 153565	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. nom.	ewe	
@@ -121,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153579	hy	hy	hy	pers. pn.	she	
 153580	bh	b+h	b	prep.	in	
 # KTU 1.111 23						
-153581	mth	mt(II)/+h	mt (II)	n. m. cstr. nom.	death	
+153581	mth	mt(II)/+h	mt (II)	n. m. cstr. gen.	death	
 153582	l	l(I)	l (I)	prep.	to	
 153582	l	l(II)	l (II)	adv.	no	
 153582	l	l(III)	l (III)	functor	certainly	

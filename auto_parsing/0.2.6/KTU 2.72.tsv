@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 1						
 158963	l	l(I)	l (I)	prep.	to	
-158964	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
-158965	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+158964	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
+158965	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 # KTU 2.72 2						
 158966	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158966	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -16,12 +16,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158969	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
 # KTU 2.72 4						
 158970	l	l(I)	l (I)	prep.	to	
-158971	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158972	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+158971	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158972	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 158973	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.72 5						
 158974	ly	l(I)+y	l (I)	prep.	to	
-158975	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+158975	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 158976	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158976	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158977	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
@@ -137,15 +137,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159023	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
 # KTU 2.72 19						
 159024	l	l(I)	l (I)	prep.	to	
-159025	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-159026	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	city	
+159025	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+159026	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. gen.	city	
 # KTU 2.72 20						
 159027	im	im	ỉm	conj.	if	
 159028	ht	ht	ht	adv.	here	
 159029	l	l(III)	l (III)	functor	certainly	
 159030	b	b	b	prep.	in	
 # KTU 2.72 21						
-159031	mṣqt	mṣq(t/t	mṣqt	n. f. sg. abs. nom.	difficult situation	
+159031	mṣqt	mṣq(t/t	mṣqt	n. f. sg. abs. gen.	difficult situation	
 159032	yṯbt	yṯbt[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 # KTU 2.72 22						
 159033	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	city	
@@ -175,9 +175,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159043	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
 # KTU 2.72 26						
 159044	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159045	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-159045	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-159046	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
+159045	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+159045	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+159046	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 2.72 27						
 159047	w	w	w	conj.	and	
 159048	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
@@ -202,8 +202,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 30						
 159060	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 159061	b	b	b	prep.	in	
-159062	qrnh	qrn/h	qrn	n. f. du. abs. nom.	horn	
-159062	qrnh	qrn/h	qrn	n. f. sg. abs. nom.	horn	
+159062	qrnh	qrn/h	qrn	n. f. du. abs. gen.	horn	
+159062	qrnh	qrn/h	qrn	n. f. sg. abs. gen.	horn	
 # KTU 2.72 31						
 159063	w	w	w	conj.	and	
 159064	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
@@ -255,7 +255,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159088	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 159089	kly	kly[	/k-l-y/	vb G suffc. 3 m. sg.	to finish	
 159090	b	b	b	prep.	in	
-159091	kpr	kpr(II)/	kpr (II)	n. m. sg. cstr. nom.	henna (powder or dye)	
+159091	kpr	kpr(II)/	kpr (II)	n. m. sg. cstr. gen.	henna (powder or dye)	
 # KTU 2.72 44						
 159092	xxx	?	?	?	?	
 159093	ibk	ib(I)/+k	ỉb (I)	n. m. cstr. nom.	enemy	

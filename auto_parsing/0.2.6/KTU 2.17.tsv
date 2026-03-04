@@ -20,10 +20,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156822	ht	ht	ht	adv.	here	
 156823	luk	l(ʔ&uk[:pass	/l-ʔ-k/	vb Gpass	to send (a message)	
 156824	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-156825	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. nom.	message	
+156825	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. gen.	message	
 # KTU 2.17 5						
-156826	pġsdb	pġsdb/	pġsdb	PN sg. abs. nom.	pġsdb	
-156827	šml	šml(I)/	šml (I)	n. m. sg. cstr. nom.	commercial agent	
+156826	pġsdb	pġsdb/	pġsdb	PN sg. abs. gen.	pġsdb	
+156827	šml	šml(I)/	šml (I)	n. m. sg. cstr. gen.	commercial agent	
 156828	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 # KTU 2.17 6						
 156829	w	w	w	conj.	and	
@@ -32,8 +32,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156832	ˤx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.17 7						
 156833	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-156834	mlakth	mlak(t/t+h	mlảkt	n. f. sg. cstr. nom.	message	
-156835	šmˤh	šmˤ/+h	šmʕ	n. m. cstr. nom.	auditor	
+156834	mlakth	mlak(t/t+h	mlảkt	n. f. sg. cstr. gen.	message	
+156835	šmˤh	šmˤ/+h	šmʕ	n. m. cstr. gen.	auditor	
 # KTU 2.17 8						
 156836	w	w	w	conj.	and	
 156837	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
@@ -73,6 +73,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156853	tštil	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 # KTU 2.17 16						
 156854	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-156855	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
-156855	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
+156855	bnš	bnš/	bnš	n. m. pl. abs. gen.	man	
+156855	bnš	bnš/	bnš	n. m. sg. abs. gen.	man	
 156856	xx	?	?	?	?	

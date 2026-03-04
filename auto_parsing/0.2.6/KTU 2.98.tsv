@@ -64,8 +64,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 11						
 160176	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg. abs. nom.	war	
 160177	b	b	b	prep.	in	
-160178	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-160179	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+160178	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
+160179	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.98 12						
 160180	w	w	w	conj.	and	
 160181	atnn	ytn[+n	/y-t-n/	vb G prefc.	to give	
@@ -125,7 +125,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160207	atḏn	atḏn/	ảtḏn	PN sg. abs. nom.	ảtḏn	
 # KTU 2.98 19						
 160208	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-160209	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+160209	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 160210	ht	ht	ht	adv.	here	
 # KTU 2.98 20						
 160211	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
@@ -179,8 +179,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160237	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 160238	ḫpṯ	ḫpṯ/	ḫpṯ	n. m. sg. abs. nom.	fugitive	
 160239	b	b	b	prep.	in	
-160240	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-160241	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+160240	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
+160241	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.98 30						
 160242	l	l(I)	l (I)	prep.	to	
 160242	l	l(III)	l (III)	functor	certainly	

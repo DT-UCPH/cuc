@@ -6,8 +6,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154564	x	?	?	?	?	
 # KTU 1.130 3						
 154565	l	l(I)	l (I)	prep.	to	
-154566	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-154567	š	š/	š	n. m. sg. abs. nom.	ram	
+154566	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+154567	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.130 4						
 154568	l	l(I)	l (I)	prep.	to	
 154568	l	l(III)	l (III)	functor	certainly	
@@ -38,12 +38,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154580	ilibš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 10						
 154581	l	l(I)	l (I)	prep.	to	
-154582	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-154583	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
-154584	š	š/	š	n. m. sg. abs. nom.	ram	
+154582	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+154583	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+154584	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.130 11						
 154585	l	l(I)	l (I)	prep.	to	
-154586	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+154586	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 154587	ḫlbš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 12						
 154588	l	l(I)	l (I)	prep.	to	
@@ -72,11 +72,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154599	ymmlatalpm	?	?	?	?	DULAT: NOT FOUND
 154600	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 # KTU 1.130 17						
-154601	nbšt	nbš(t/t	nbšt	n. f. pl. abs. nom.	living being(s)	
-154601	nbšt	nbš(t/t	nbšt	n. f. sg. abs. nom.	living being(s)	
-154601	nbšt	nbš(t/t=	nbšt	n. f. pl. abs. nom.	living being(s)	
-154602	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-154602	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+154601	nbšt	nbš(t/t	nbšt	n. f. pl. abs. gen.	living being(s)	
+154601	nbšt	nbš(t/t	nbšt	n. f. sg. abs. gen.	living being(s)	
+154601	nbšt	nbš(t/t=	nbšt	n. f. pl. abs. gen.	living being(s)	
+154602	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
+154602	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
 154603	lbˤl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 18						
 154604	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
@@ -104,8 +104,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154620	ššlm	ššl/+m(I)	ššl	PN sg. cstr. nom.	ššl	
 # KTU 1.130 22						
 154621	l	l(I)	l (I)	prep.	to	
-154622	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-154623	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+154622	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+154623	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 154624	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
 154624	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 154624	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
@@ -120,8 +120,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154630	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 154630	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 154631	l	l(I)	l (I)	prep.	to	
-154632	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-154633	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+154632	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+154633	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.130 25						
 154634	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
 154634	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
@@ -129,15 +129,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154635	w	w	w	conj.	and	
 154636	š	š/	š	n. m. sg. abs. nom.	ram	
 154637	l	l(I)	l (I)	prep.	to	
-154638	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+154638	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 26						
-154639	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-154639	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-154640	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-154640	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-154640	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-154640	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-154640	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+154639	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
+154639	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+154640	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+154640	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
+154640	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+154640	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+154640	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 154641	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 154642	kbdm	kbd(I)	kbd (I)		liver	
 # KTU 1.130 27						

@@ -97,7 +97,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155159	pˤnh	pˤn/+h	pʕn	n. f. cstr. nom.	foot	
 # KTU 1.161 15						
 155160	l	l(I)	l (I)	prep.	to	
-155161	pnh	pn(m/+h	pnm	n. m. pl. tant.	in front	
+155161	pnh	pn(m/+h	pnm	n. m. pl. tant. gen.	in front	
 155162	ybky	!y!bky[	/b-k-y/	vb G prefc. 3 m. sg.	to weep	
 155163	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. abs. nom.	table	
 155164	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
@@ -138,8 +138,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155177	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 155177	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	
 155178	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	
-155179	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-155179	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+155179	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+155179	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 155180	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
 # KTU 1.161 20						
 155181	xaṯr	?	?	?	?	DULAT: NOT FOUND
@@ -149,8 +149,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155184	kisih	?	?	?	?	DULAT: NOT FOUND
 155185	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
 # KTU 1.161 21						
-155186	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-155187	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+155186	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+155187	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 155188	rd	yrd[	/y-r-d/	vb G impv. 2	to go down	
 155189	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
 # KTU 1.161 22						
@@ -161,15 +161,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155193	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. nom.	dust	
 155194	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 # KTU 1.161 23						
-155195	sdn	sdn/	sdn	n. f. abs. nom.	?	
-155195	sdn	sd/+n	sd	n. m. cstr. nom.	council	
+155195	sdn	sdn/	sdn	n. f. abs. gen.	?	
+155195	sdn	sd/+n	sd	n. m. cstr. gen.	council	
 155196	w	w	w	conj.	and	
 155197	rdn	yrd[+n	/y-r-d/	vb G prefc.	to go down	
 155197	rdn	yrd[+n	/y-r-d/	vb G suffc.	to go down	
 155197	rdn	rdn/	rdn	PN sg. abs. nom.	to rule	
 155198	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155199	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
-155199	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
+155199	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	bull	
+155199	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	bull	
 # KTU 1.161 24						
 155200	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 155200	ˤl	ˤl(II)	ʕl (II)	adv.	above	
@@ -179,15 +179,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155201	lmn	lm(II)+n	lm (II)	interr. pn.	why?	
 155201	lmn	lmn/	lmn	PN sg. abs. nom.	lmn	
 155202	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155203	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
-155204	qdmym	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
+155203	rpim	rp(u&i/m	rpủ	n. m. pl. abs. gen.	healer	
+155204	qdmym	qdmy/m	qdmy	adj. m. pl. abs. gen.	ancient	
 # KTU 1.161 25						
 155205	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155206	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
-155207	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155207	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+155206	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. gen.	ʿmṯtmr	
+155207	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+155207	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 1.161 26						
-155208	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+155208	tḥm	tḥm/	tḥm	n. m. sg. abs. gen.	message	
 155209	u	u	ủ	conj.	or	
 155210	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
 155211	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	

@@ -99,7 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152973	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 152973	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 152974	b	b	b	prep.	in	
-152975	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
+152975	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 152976	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 # KTU 1.107 10						
 152977	xxxxx	?	?	?	?	
@@ -158,7 +158,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153007	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 153007	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153008	b	b	b	prep.	in	
-153009	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
+153009	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 153010	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 153011	xxxxxxxxxxxxrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 16						
@@ -398,7 +398,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153152	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 153152	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 153153	b	b	b	prep.	in	
-153154	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
+153154	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 153155	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
 153155	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
 153156	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
@@ -485,8 +485,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 49						
 153196	xxxxxxxxxxxxnxxxṭ	?	?	?	?	DULAT: NOT FOUND
 153197	b	b	b	prep.	in	
-153198	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-153198	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+153198	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+153198	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 153199	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
 153199	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
 153199	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to)	

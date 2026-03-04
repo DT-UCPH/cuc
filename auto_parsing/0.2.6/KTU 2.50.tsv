@@ -4,8 +4,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158450	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.50 2						
 158451	l	l(I)	l (I)	prep.	to	
-158452	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158453	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158452	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158453	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 158454	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.50 3						
 158455	w	w	w	conj.	and	
@@ -41,8 +41,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158467	ly	l(I)+y	l (I)	prep.	to	
 158468	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.50 8						
-158469	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	handsome	
-158469	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
+158469	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. gen.	handsome	
+158469	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	
 # KTU 2.50 9						
 158470	xy	?	?	?	?	DULAT: NOT FOUND
 158471	w	w	w	conj.	and	
@@ -109,9 +109,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158500	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 158501	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.50 21						
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. nom.	servant	
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. gen.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. gen.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. gen.	servant	
 158503	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 22						
 158504	xxy	?	?	?	?	DULAT: NOT FOUND

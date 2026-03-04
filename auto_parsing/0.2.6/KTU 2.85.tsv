@@ -40,8 +40,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159493	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 159494	lkm	l(I)+k~m	l (I)	prep.	to	
 # KTU 2.85 7						
-159495	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-159495	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+159495	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+159495	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 159496	l	l(I)	l (I)	prep.	to	
 159496	l	l(II)	l (II)	adv.	no	
 159496	l	l(III)	l (III)	functor	certainly	
@@ -139,8 +139,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159542	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 159542	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 159543	lk	l(I)+k	l (I)	prep.	to	
-159544	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-159544	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+159544	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+159544	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.85 27						
 159545	tšlm	!t!šlm[:d:w	/š-l-m/	vb D prefc. 3 m. pl.	to be well	
 159546	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	

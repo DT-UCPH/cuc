@@ -42,8 +42,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158848	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.70 8						
 158849	l	l(I)	l (I)	prep.	to	
-158850	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158851	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158850	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158851	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.70 9						
 158852	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 158853	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
@@ -61,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.70 12						
 158859	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 158860	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158861	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. cstr. nom.	(female) slave	
+158861	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. cstr. gen.	(female) slave	
 # KTU 2.70 13						
 158862	w	w	w	conj.	and	
 158863	lak	l(ʔ&ak[	/l-ʔ-k/	vb G impv. 2	to send (a message)	
@@ -100,7 +100,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.70 19						
 158882	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 158883	bd	b	b	prep.	in	
-158884	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. cstr. nom.	(female) slave	
+158884	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. cstr. gen.	(female) slave	
 # KTU 2.70 20						
 158885	w	w	w	conj.	and	
 158886	ṯn	ṯn(I)/	ṯn (I)	num.	two	

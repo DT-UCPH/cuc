@@ -4,10 +4,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158321	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
 158321	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
 158322	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158323	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158323	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+158323	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+158323	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.47 I:2						
-158324	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158324	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 158325	nġr	nġr[	/n-ġ-r/	vb G impv. 2	to protect	
 158325	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect	
 158326	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. nom.	country	
@@ -70,8 +70,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158360	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 2.47 II:2						
 158361	b	b	b	prep.	in	
-158362	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-158363	špḥ	špḥ/	špḥ	n. m. abs. nom.	family	
+158362	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
+158363	špḥ	špḥ/	špḥ	n. m. abs. gen.	family	
 # KTU 2.47 II:3						
 158364	l	l(I)	l (I)	prep.	to	
 158364	l	l(II)	l (II)	adv.	no	

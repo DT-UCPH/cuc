@@ -59,16 +59,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154402	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 # KTU 1.124 8						
 154403	b	b	b	prep.	in	
-154404	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-154404	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-154405	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-154405	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-154405	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-154405	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-154405	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-154406	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
-154406	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. nom.	masonry	
-154406	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. nom.	tamarisk	
+154404	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
+154404	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+154405	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+154405	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
+154405	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+154405	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+154405	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
+154406	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. gen.	produce	
+154406	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. gen.	masonry	
+154406	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. gen.	tamarisk	
 154407	qḥ	lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of	
 # KTU 1.124 9						
 154408	w	w	w	conj.	and	
@@ -78,8 +78,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154409	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 154409	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 154410	b	b	b	prep.	in	
-154411	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-154411	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+154411	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
+154411	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 154412	w	w	w	conj.	and	
 154413	prˤt	prˤt/	prʕt	n. f. pl. abs. nom.	height	
 # KTU 1.124 10						
@@ -115,7 +115,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.124 16						
 154433	w	w	w	conj.	and	
 154434	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-154435	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
-154436	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-154436	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
-154436	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+154435	in	in/	ỉn	n. m. sg. abs. gen.	lack of	
+154436	mr	mr(I)/	mr (I)	n. m. sg. abs. gen.	myrrh	
+154436	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. gen.	valiant	
+154436	mr	mr(II)/	mr (II)	adj. m. sg. abs. gen.	bitter	

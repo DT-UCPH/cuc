@@ -1,15 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.106 1						
 152802	l	l(I)	l (I)	prep.	to	
-152803	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-152804	ḥgb	ḥgb/	ḥgb	n. m. sg. abs. nom.	locust	
-152805	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+152803	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
+152804	ḥgb	ḥgb/	ḥgb	n. m. sg. abs. gen.	locust	
+152805	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 # KTU 1.106 2						
 152806	l	l(I)	l (I)	prep.	to	
-152807	inš	inš/	ỉnš	n. m. sg. abs. nom.	people	
-152808	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-152808	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-152809	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
+152807	inš	inš/	ỉnš	n. m. sg. abs. gen.	people	
+152808	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+152808	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+152809	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 # KTU 1.106 3						
 152810	ydbil	ydbil/	ydbỉl	PN sg. abs. nom.	to be generous	
 152811	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
@@ -31,10 +31,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152818	w	w	w	conj.	and	
 152819	š	š/	š	n. m. sg. abs. nom.	ram	
 152820	l	l(I)	l (I)	prep.	to	
-152821	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-152822	mhbn	mhbn/	mhbn	TN sg. abs. nom.	Gedanke	
+152821	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
+152822	mhbn	mhbn/	mhbn	TN sg. abs. gen.	Gedanke	
 # KTU 1.106 7						
-152823	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
+152823	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 152824	ˤṣrml	?	?	?	?	DULAT: NOT FOUND
 152825	inš	inš/	ỉnš	n. m. sg. abs. nom.	people	
 # KTU 1.106 8						
@@ -65,12 +65,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152835	y	~y	-y (II)	prep. functor	indeed	
 152835	y	y	y	prep. functor	oh!	
 # KTU 1.106 12						
-152836	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-152836	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-152837	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-152837	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-152838	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-152838	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+152836	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
+152836	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+152837	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+152837	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+152838	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
+152838	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
 152839	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.106 13						
 152840	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
@@ -97,10 +97,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152853	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	Prince	
 152854	tar	tar/	tảr	n. m. sg. abs. nom.	glory	
 152855	l	l(I)	l (I)	prep.	to	
-152856	pn	pn(m/	pnm	n. m. pl. tant.	in front	
+152856	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
 # KTU 1.106 17						
-152857	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-152857	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+152857	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+152857	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 152858	ptḥ	ptḥ[	/p-t-ḥ/	vb G suffc. 3 m. sg.	to open	
 152858	ptḥ	ptḥ[	/p-t-ḥ/	vb G impv. 2	to open	
 152858	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. abs. nom.	to open	
@@ -154,7 +154,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152880	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 152880	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 152881	b	b	b	prep.	in	
-152882	gn	gn(I)/	gn (I)	n. m. sg. abs. nom.	garden	
+152882	gn	gn(I)/	gn (I)	n. m. sg. abs. gen.	garden	
 152883	w	w	w	conj.	and	
 152884	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 152884	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	

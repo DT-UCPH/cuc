@@ -31,16 +31,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161038	uškn	ušr/+n	ủšr	n. m. cstr. nom.	penis	
 161039	d	d	d	det. or rel. functor	the one(s) of	
 161040	b	b	b	prep.	in	
-161041	šdy	šd(I)/+y	šd (I)	n. m. cstr. nom.	open field	
-161041	šdy	šdy(II)/	šdy (II)	PN sg. abs. nom.	šdy (II)	
-161041	šdy	šdy(I)/	šdy (I)	adj. abs. nom.	land labourer	
+161041	šdy	šd(I)/+y	šd (I)	n. m. cstr. gen.	open field	
+161041	šdy	šdy(II)/	šdy (II)	PN sg. abs. gen.	šdy (II)	
+161041	šdy	šdy(I)/	šdy (I)	adj. abs. gen.	land labourer	
 # KTU 3.5 7						
-161042	bmt	bm(t/t	bmt	n. f. pl. cstr. nom.	back	
-161042	bmt	bm(t/t	bmt	n. f. sg. abs. nom.	back	
-161042	bmt	bm(t/t	bmt	n. f. sg. cstr. nom.	back	
-161042	bmt	bm(t/t=	bmt	n. f. pl. cstr. nom.	back	
-161042	bmt	bm(t/t=	bmt	n. f. pl. abs. nom.	back	
-161043	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
+161042	bmt	bm(t/t	bmt	n. f. pl. cstr. gen.	back	
+161042	bmt	bm(t/t	bmt	n. f. sg. abs. gen.	back	
+161042	bmt	bm(t/t	bmt	n. f. sg. cstr. gen.	back	
+161042	bmt	bm(t/t=	bmt	n. f. pl. cstr. gen.	back	
+161042	bmt	bm(t/t=	bmt	n. f. pl. abs. gen.	back	
+161043	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
 161044	gth	g(t/t	gt	n. f. sg. abs. nom.	gittu	
 # KTU 3.5 8						
 161045	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
@@ -106,7 +106,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161070	yqḥnn	lqḥ[nn	/l-q-ḥ/	vb G prefc.	to get hold of	
 161071	bd	b	b	prep.	in	
 # KTU 3.5 18						
-161072	bˤln	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+161072	bˤln	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 161073	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 161073	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161073	bn	bn(II)	bn (II)	prep.	between	
@@ -118,9 +118,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 19						
 161075	w	w	w	conj.	and	
 161076	bd	b	b	prep.	in	
-161077	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
-161078	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
-161078	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+161077	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
+161078	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
+161078	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
 # KTU 3.5 20						
 161079	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 161079	ˤlm	ˤl(II)	ʕl (II)	adv.	above	
@@ -132,9 +132,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161082	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 161083	bh	b+h	b	prep.	in	
 # KTU 3.5 22						
-161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. nom.	seal	
+161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. gen.	seal	
 # KTU 3.5 23						
-161085	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
+161085	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. gen.	ʿmṯtmr	
 161086	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 161086	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161086	bn	bn(II)	bn (II)	prep.	between	

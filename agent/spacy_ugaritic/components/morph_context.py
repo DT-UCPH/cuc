@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 
 from spacy.language import Language
 from spacy.tokens import Doc, Token
 
 from spacy_ugaritic.types import Candidate
+
+_CASE_RE = re.compile(r"(?<!\w)(nom\.|gen\.|acc\.|acc\.\?)(?!\w)")
+_NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
 
 
 @dataclass(frozen=True)
@@ -42,6 +46,19 @@ class MorphContextResolver:
             )
             if filtered:
                 self._maybe_replace(token, filtered, "plural-dual-subject-agreement")
+        for index, token in enumerate(doc):
+            if not _is_preposition_token(token):
+                continue
+            for dependent in _following_genitive_targets(doc, index):
+                rewritten = tuple(
+                    _force_genitive(candidate) for candidate in dependent._.resolved_candidates
+                )
+                if rewritten != tuple(dependent._.resolved_candidates):
+                    self._maybe_replace(
+                        dependent,
+                        rewritten,
+                        "preposition-governs-genitive",
+                    )
         return doc
 
     def _maybe_replace(
@@ -139,6 +156,58 @@ def _is_function_like(candidate: Candidate) -> bool:
             "narrative adv.",
             "interr. pn.",
         )
+    )
+
+
+def _is_preposition_token(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    return bool(candidates) and all("prep." in candidate.pos.lower() for candidate in candidates)
+
+
+def _following_genitive_targets(doc: Doc, index: int) -> tuple[Token, ...]:
+    targets: list[Token] = []
+    for lookahead in range(1, 4):
+        probe = index + lookahead
+        if probe >= len(doc):
+            break
+        token = doc[probe]
+        if not _is_genitive_target_token(token):
+            break
+        targets.append(token)
+    return tuple(targets)
+
+
+def _is_genitive_target_token(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    return bool(candidates) and all(
+        _candidate_accepts_genitive(candidate) for candidate in candidates
+    )
+
+
+def _candidate_accepts_genitive(candidate: Candidate) -> bool:
+    pos = candidate.pos
+    lowered = pos.lower()
+    if "ptcpl." in lowered:
+        return True
+    if pos.startswith("n.") or pos.startswith("adj."):
+        return True
+    return any(name_class in pos for name_class in _NAME_CLASSES)
+
+
+def _force_genitive(candidate: Candidate) -> Candidate:
+    if not _candidate_accepts_genitive(candidate):
+        return candidate
+    pos = candidate.pos
+    if _CASE_RE.search(pos):
+        pos = _CASE_RE.sub("gen.", pos)
+    else:
+        pos = f"{pos} gen.".strip()
+    return Candidate(
+        analysis=candidate.analysis,
+        dulat=candidate.dulat,
+        pos=pos,
+        gloss=candidate.gloss,
+        comment=candidate.comment,
     )
 
 

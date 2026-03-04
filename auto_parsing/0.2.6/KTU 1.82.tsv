@@ -17,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 2						
 150006	xxy	?	?	?	?	DULAT: NOT FOUND
 150007	l	l(I)	l (I)	prep.	to	
-150008	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+150008	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 150009	idy	idy	ỉdy	adv.	already	
 150010	alt	al(t(I)/t	ảlt (I)	n. f. sg. abs. nom.	curse	
 150010	alt	alt(II)/	ảlt (II)	n. f. pl. cstr. nom.	support	
@@ -56,13 +56,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150027	xxx	?	?	?	?	
 150028	pk	p(III)/+k	p (III)	n. m. cstr. nom.	mouth	
 150029	b	b	b	prep.	in	
-150030	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
+150030	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
 150031	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 150031	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 150031	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 150032	pk	p(III)/+k	p (III)	n. m. cstr. nom.	mouth	
 150033	b	b	b	prep.	in	
-150034	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. nom.	massif	
+150034	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. gen.	massif	
 150035	k	+k	-k (I)			
 150035	k	~k	-k (II)			
 150035	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -136,7 +136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150073	ˤlt	ˤl(I)	ʕl (I)	prep.	upon	
 150073	ˤlt	ˤly[t	/ʕ-l-y/	vb G suffc. 1 c. sg.	to go up	
 150074	b	b	b	prep.	in	
-150075	aby	ab/+y	ảb	n. m. cstr. nom.	father	
+150075	aby	ab/+y	ảb	n. m. cstr. gen.	father	
 # KTU 1.82 10						
 150076	xk	?	?	?	?	DULAT: NOT FOUND
 150077	ˤlt	ˤl(I)	ʕl (I)	prep.	upon	
@@ -146,11 +146,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150078	bk	bk/	bk	n. m. sg. abs. nom.	beaker	
 150079	lk	l(I)+k	l (I)	prep.	to	
 150080	l	l(I)	l (I)	prep.	to	
-150081	pny	pn(m/+y	pnm	n. m. pl. tant.	in front	
-150082	yrk	yrk/	yrk	n. m. sg. abs. nom.	body back part	
-150083	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-150083	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-150083	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+150081	pny	pn(m/+y	pnm	n. m. pl. tant. gen.	in front	
+150082	yrk	yrk/	yrk	n. m. sg. abs. gen.	body back part	
+150083	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+150083	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+150083	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 150084	xxx	?	?	?	?	
 # KTU 1.82 11						
 150085	xxxxx	?	?	?	?	
@@ -242,7 +242,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150137	xxẓn	?	?	?	?	DULAT: NOT FOUND
 150138	xx	?	?	?	?	
 150139	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
-150140	aqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+150140	aqšr	aqšr/	ảqšr	adj. m. abs. gen.	which sloughs its skin	
 # KTU 1.82 21						
 150141	xxxk	?	?	?	?	DULAT: NOT FOUND
 150142	ptḥy	ptḥ/y	ptḥ	n. m. sg. abs. nom.	entrance	
@@ -306,7 +306,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 26						
 150169	lhkl	?	?	?	?	DULAT: NOT FOUND
 150170	b	b	b	prep.	in	
-150171	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+150171	kl	kl/	kl	n. m. sg. abs. gen.	totality (of)	
 150172	l	l(I)	l (I)	prep.	to	
 150172	l	l(III)	l (III)	functor	certainly	
 150173	pgm	pgm/	pgm	n. m. sg. abs. nom.	harm	
@@ -399,11 +399,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150226	brḥ	brḥ/	brḥ	adj. m. sg. abs. nom.	fleeing	
 150227	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
 150228	lk	l(I)+k	l (I)	prep.	to	
-150229	pnh	pn(m/+h	pnm	n. m. pl. cstr. nom.	face	
-150230	yrk	yrk/	yrk	n. m. sg. abs. nom.	body back part	
-150231	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-150231	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-150231	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+150229	pnh	pn(m/+h	pnm	n. m. pl. cstr. gen.	face	
+150230	yrk	yrk/	yrk	n. m. sg. abs. gen.	body back part	
+150231	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+150231	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+150231	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.82 39						
 150232	xxxxxṯbtk	?	?	?	?	DULAT: NOT FOUND
 150233	ap	ap(I)	ảp (I)	adv./conj.	also	

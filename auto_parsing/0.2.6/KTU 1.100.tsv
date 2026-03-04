@@ -26,11 +26,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 2						
 151719	qrit	qr(ʔ&i[t	/q-r-ʔ/	vb G suffc. 1 c. sg.	to call	
 151720	l	l(I)	l (I)	prep.	to	
-151721	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-151721	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-151722	umh	um/h	ủm	n. f. sg. abs. nom.	mother	
-151723	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-151723	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+151721	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+151721	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+151722	umh	um/h	ủm	n. f. sg. abs. gen.	mother	
+151723	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+151723	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 151724	um	um/	ủm	n. f. sg. abs. nom.	mother	
 151725	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
 151725	ql	ql[	/q-l/	vb G impv. 2	to fall (down)	
@@ -40,18 +40,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151726	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 151727	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 3						
-151728	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-151728	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-151728	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-151728	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-151729	mbk	mbk/	mbk	n. m. sg. abs. nom.	source	
-151730	nhrm	nhr/+m(I)	nhr	n. m. cstr. nom.	river	
+151728	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+151728	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+151728	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+151728	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+151729	mbk	mbk/	mbk	n. m. sg. abs. gen.	source	
+151730	nhrm	nhr/+m(I)	nhr	n. m. cstr. gen.	river	
 151731	b	b	b	prep.	in	
-151732	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg. abs. nom.	assembly	
-151732	ˤdt	ˤd(t(II)/t	ʕdt (II)	n. f. sg. abs. nom.	date	
-151733	thmtm	thm(t/tm	thmt	n. f. du. abs. nom.	Primordial Ocean	
+151732	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg. abs. gen.	assembly	
+151732	ˤdt	ˤd(t(II)/t	ʕdt (II)	n. f. sg. abs. gen.	date	
+151733	thmtm	thm(t/tm	thmt	n. f. du. abs. gen.	Primordial Ocean	
 # KTU 1.100 4						
-151734	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+151734	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	
 151735	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 151735	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 151735	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
@@ -62,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 5						
 151739	ˤxqšr	?	?	?	?	DULAT: NOT FOUND
 151740	lnh	l(I)+h	l (I)	prep.	to	
-151741	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
+151741	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. gen.	conjuror	
 151742	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 151742	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 151743	lnh	l(I)+h	l (I)	prep.	to	
@@ -93,11 +93,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 8						
 151755	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 151756	l	l(I)	l (I)	prep.	to	
-151757	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-151757	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-151758	umh	um/h	ủm	n. f. sg. abs. nom.	mother	
-151759	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-151759	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+151757	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+151757	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+151758	umh	um/h	ủm	n. f. sg. abs. gen.	mother	
+151759	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+151759	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 151760	um	um/	ủm	n. f. sg. abs. nom.	mother	
 151761	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
 151761	ql	ql[	/q-l/	vb G impv. 2	to fall (down)	
@@ -107,11 +107,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151762	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 # KTU 1.100 9						
 151763	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-151764	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-151764	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-151764	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-151765	mrym	mrym/	mrym	n. m. sg. abs. nom.	height	
-151766	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+151764	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+151764	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+151764	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
+151765	mrym	mrym/	mrym	n. m. sg. abs. gen.	height	
+151766	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 151767	mnty	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
 151768	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 151768	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
@@ -124,7 +124,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151772	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 151773	lnh	l(I)+h	l (I)	prep.	to	
 # KTU 1.100 11						
-151774	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
+151774	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. gen.	conjuror	
 151775	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 151775	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 151776	lnh	l(I)+h	l (I)	prep.	to	
@@ -168,9 +168,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151795	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 151796	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 15						
-151797	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. nom.	grain	
-151798	ttlh	ttl/	ttl	TN sg. abs. nom.	ttl	
-151799	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+151797	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. gen.	grain	
+151798	ttlh	ttl/	ttl	TN sg. abs. gen.	ttl	
+151799	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	
 151800	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 151800	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 151800	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
@@ -181,7 +181,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151803	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 151804	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 151805	lnh	l(I)+h	l (I)	prep.	to	
-151806	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
+151806	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. gen.	conjuror	
 151807	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 151807	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 151808	lnh	l(I)+h	l (I)	prep.	to	
@@ -276,11 +276,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 25						
 151856	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 151857	l	l(I)	l (I)	prep.	to	
-151858	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-151858	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-151859	umh	um/h	ủm	n. f. sg. abs. nom.	mother	
-151860	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-151860	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+151858	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+151858	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+151859	umh	um/h	ủm	n. f. sg. abs. gen.	mother	
+151860	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+151860	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 151861	um	um/	ủm	n. f. sg. abs. nom.	mother	
 151862	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
 151862	ql	ql[	/q-l/	vb G impv. 2	to fall (down)	
@@ -290,10 +290,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151863	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 151864	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 26						
-151865	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-151865	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
-151866	lrgth	lrgt/+h	lrgt	TN sg. cstr. nom.	Larugat	
-151867	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+151865	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
+151865	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
+151866	lrgth	lrgt/+h	lrgt	TN sg. cstr. gen.	Larugat	
+151867	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	
 151868	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 151868	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 151868	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
@@ -304,7 +304,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151871	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 151872	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 151873	lnh	l(I)+h	l (I)	prep.	to	
-151874	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
+151874	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. gen.	conjuror	
 151875	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 151875	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 151876	lnh	l(I)+h	l (I)	prep.	to	
@@ -336,11 +336,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 30						
 151889	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 151890	l	l(I)	l (I)	prep.	to	
-151891	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-151891	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-151892	umh	um/h	ủm	n. f. sg. abs. nom.	mother	
-151893	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-151893	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+151891	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+151891	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+151892	umh	um/h	ủm	n. f. sg. abs. gen.	mother	
+151893	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+151893	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 151894	um	um/	ủm	n. f. sg. abs. nom.	mother	
 151895	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
 151895	ql	ql[	/q-l/	vb G impv. 2	to fall (down)	
@@ -350,9 +350,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151896	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 151897	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 31						
-151898	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-151899	bbth	bbt(I)/	bbt (I)	TN sg. abs. nom.	bbt (I)	
-151900	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+151898	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
+151899	bbth	bbt(I)/	bbt (I)	TN sg. abs. gen.	bbt (I)	
+151900	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	
 151901	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 151901	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 151901	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
@@ -408,7 +408,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151928	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 151929	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 36						
-151930	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. nom.	ẓẓ	
+151930	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. gen.	ẓẓ	
 151931	w	w	w	conj.	and	
 151932	kmṯ	kmṯ/	kmṯ	DN/element sg. abs. nom.	kmṯ	
 151933	ḥryth	ḥryt/~h	ḥryt	TN sg. abs. nom.	ḥryt	
@@ -470,10 +470,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151963	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 151964	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 41						
-151965	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151965	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-151966	ˤṯtrth	ˤṯtrt(II)/~h	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
-151967	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+151965	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+151965	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+151966	ˤṯtrth	ˤṯtrt(II)/~h	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
+151967	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	
 151968	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 151968	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 151968	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
@@ -484,7 +484,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151971	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 151972	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 151973	lnh	l(I)+h	l (I)	prep.	to	
-151974	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
+151974	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. gen.	conjuror	
 151975	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 151975	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 151976	lnh	l(I)+h	l (I)	prep.	to	
@@ -528,7 +528,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151995	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 151996	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 46						
-151997	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+151997	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 151998	w	w	w	conj.	and	
 151999	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
 152000	kptrh	kptr/	kptr	TN sg. abs. nom.	Crete	
@@ -589,7 +589,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152030	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 152031	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 52						
-152032	šḥr	šḥr/	šḥr	n. m. sg. abs. nom.	dawn	
+152032	šḥr	šḥr/	šḥr	n. m. sg. abs. gen.	dawn	
 152033	w	w	w	conj.	and	
 152034	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 152035	šmmh	šmm(I)/+h	šmm (I)	n. m. pl. cstr. nom.	heavens	
@@ -604,7 +604,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152040	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 152041	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 152042	lnh	l(I)+h	l (I)	prep.	to	
-152043	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
+152043	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. gen.	conjuror	
 # KTU 1.100 54						
 152044	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 152044	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
@@ -637,10 +637,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 57						
 152058	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 152059	l	l(I)	l (I)	prep.	to	
-152060	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-152060	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-152061	umh	um/h	ủm	n. f. sg. abs. nom.	mother	
-152062	šp	šp/	šp	n. m. abs. nom.	dune	
+152060	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+152060	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+152061	umh	um/h	ủm	n. f. sg. abs. gen.	mother	
+152062	šp	šp/	šp	n. m. abs. gen.	dune	
 152063	š	š/	š	n. m. sg. abs. nom.	ram	
 152064	um	um/	ủm	n. f. sg. abs. nom.	mother	
 152065	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
@@ -651,12 +651,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152066	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 # KTU 1.100 58						
 152067	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-152068	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
-152068	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
-152069	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr. nom.	(feast / banquet of) game	
-152069	mṣdh	mṣd(III)/~h	mṣd (III)	TN sg. abs. nom.	mṣd (III)	
-152069	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. nom.	large fortified tower	
-152070	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+152068	ḥrn	ḥrn/	ḥrn	DN sg. abs. gen.	Ḥôrānu	
+152068	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. gen.	intestine(s)	
+152069	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr. gen.	(feast / banquet of) game	
+152069	mṣdh	mṣd(III)/~h	mṣd (III)	TN sg. abs. gen.	mṣd (III)	
+152069	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. gen.	large fortified tower	
+152070	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	
 152071	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 152071	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 152071	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
@@ -667,7 +667,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152074	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 152075	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 152076	lnh	l(I)+h	l (I)	prep.	to	
-152077	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
+152077	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. gen.	conjuror	
 # KTU 1.100 60						
 152078	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 152078	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
@@ -682,9 +682,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152081	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 # KTU 1.100 61						
 152082	b	b	b	prep.	in	
-152083	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
-152083	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
-152084	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
+152083	ḥrn	ḥrn/	ḥrn	DN sg. abs. gen.	Ḥôrānu	
+152083	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. gen.	intestine(s)	
+152084	pnm	pn(m/m	pnm	n. m. pl. abs. gen.	face	
 152085	trġnw	?	?	?	?	DULAT: NOT FOUND
 152086	w	w	w	conj.	and	
 152087	tṯkl	!t!ṯkl[	/ṯ-k-l/	vb G prefc. 3 f. sg.	be childless	
@@ -730,11 +730,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152103	ydy	ydy(I)[/	/y-d-y/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to throw	
 152103	ydy	!y!(ydy(II)[	/y-d-y/ (II)	vb G	to rip	
 152104	b	b	b	prep.	in	
-152105	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
-152106	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
-152106	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
-152107	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
-152107	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
+152105	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
+152106	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. gen.	city	
+152106	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. gen.	donkey	
+152107	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. gen.	city	
+152107	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. gen.	donkey	
 # KTU 1.100 65						
 152108	w	w	w	conj.	and	
 152109	bšḫt	?	?	?	?	DULAT: NOT FOUND
@@ -797,10 +797,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152135	plg	plg/	plg	n. m. sg. abs. nom.	stream	
 # KTU 1.100 70						
 152136	bˤdh	bˤd+h	bʕd	adv. or prep.	behind	
-152137	bhtm	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
-152138	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+152137	bhtm	bt(II)/	bt (II)	n. m. pl. abs. gen.	house	
+152138	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	
 152139	bˤdh	bˤd+h	bʕd	adv. or prep.	behind	
-152140	bhtm	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
+152140	bhtm	bt(II)/	bt (II)	n. m. pl. abs. gen.	house	
 152141	sgrt	sgr[t	/s-g-r/	vb G suffc. 1 c. sg.	to close	
 152141	sgrt	sgr(t/t	sgrt	n. f. sg. abs. nom.	room	
 # KTU 1.100 71						
@@ -834,7 +834,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152157	y	+y, [y	-y (I)	prep. functor	my	
 152157	y	~y	-y (II)	prep. functor	indeed	
 152157	y	y	y	prep. functor	oh!	
-152158	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. nom.	intestine(s)	
+152158	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. gen.	intestine(s)	
 152159	tn	(ytn[	/y-t-n/	vb	give	
 152159	tn	(ytn[/	/y-t-n/	vb	give	
 152160	km	k(III)	k (III)	functor	when	
@@ -867,14 +867,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152171	itnnk	itnn/+k	ỉtnn	n. m. sg. cstr. nom.	present	
 # KTU 1.100 77						
 152172	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-152173	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-152174	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
+152173	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
+152174	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 # KTU 1.100 78						
 152175	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-152176	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
-152177	mrh	mr(VII)/	mr (VII)	TN sg. abs. nom.	mr (VII)	
+152176	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
+152177	mrh	mr(VII)/	mr (VII)	TN sg. abs. gen.	mr (VII)	
 # KTU 1.100 79						
-152178	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+152178	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	
 152179	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 152179	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 152179	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	

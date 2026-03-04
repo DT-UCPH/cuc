@@ -39,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160906	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 160907	d	d	d	det. or rel. functor	the one(s) of	
 160908	b	b	b	prep.	in	
-160909	riš	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	head	
+160909	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	head	
 # KTU 3.2 8						
 160910	w	w	w	conj.	and	
 160911	ytnn	!y!(ytn[n	/y-t-n/	vb	to give	
@@ -83,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160926	hnd	hnd	hnd	dem.	this	
 160927	bd	b	b	prep.	in	
 # KTU 3.2 15						
-160928	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
+160928	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 3.2 16						
 160929	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 160929	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
@@ -105,8 +105,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160938	mnm	mnm	mnm	indef. pn.	any(thing)	
 160939	bh	b+h	b	prep.	in	
 # KTU 3.2 19						
-160940	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. nom.	seal	
-160941	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
+160940	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. gen.	seal	
+160941	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. gen.	ʿmṯtmr	
 # KTU 3.2 20						
 160942	xxxk	?	?	?	?	DULAT: NOT FOUND
 160943	u	u	ủ	conj.	or	

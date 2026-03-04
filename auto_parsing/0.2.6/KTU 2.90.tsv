@@ -39,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159992	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 9						
 159993	b	b	b	prep.	in	
-159994	gty	gt/+y	gt	n. f. cstr. nom.	gittu	
+159994	gty	gt/+y	gt	n. f. cstr. gen.	gittu	
 159995	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
 159995	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. nom.	to flee	
 159995	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
@@ -76,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160014	štnnh	št[n+nh	/š-t/	vb G impv. 2	to place, ?	
 # KTU 2.90 17						
 160015	bd	b	b	prep.	in	
-160016	mlakty	mlak(t/t+y	mlảkt	n. f. sg. cstr. nom.	message	
+160016	mlakty	mlak(t/t+y	mlảkt	n. f. sg. cstr. gen.	message	
 # KTU 2.90 18						
 160017	w	w	w	conj.	and	
 160018	kin	?	?	?	?	DULAT: NOT FOUND
@@ -92,8 +92,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160022	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.90 20						
 160023	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-160024	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-160024	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+160024	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+160024	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.90 21						
 160025	w	w	w	conj.	and	
 160026	ˤmkm	ˤm(I)+km	ʕm (I)	prep.	to	
@@ -104,7 +104,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160029	at	at(I)	ảt (I)	pers. pn.	you	
 160030	bd	b	b	prep.	in	
 # KTU 2.90 23						
-160031	mlakty	mlak(t/t+y	mlảkt	n. f. sg. cstr. nom.	message	
+160031	mlakty	mlak(t/t+y	mlảkt	n. f. sg. cstr. gen.	message	
 160032	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.90 24						
 160033	štnn	št[n+n	/š-t/	vb G impv. 2	to place	

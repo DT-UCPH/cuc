@@ -12,8 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153356	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.109 3						
 153357	b	b	b	prep.	in	
-153358	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-153358	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+153358	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+153358	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 153359	mlat	mla(t/t	mlảt	n. f. pl. abs. nom.	fullness	
 153359	mlat	mla(t/t	mlảt	n. f. sg. abs. nom.	fullness	
 153359	mlat	mla(t/t=	/m-l-ʔ/	vb G suffc. 3 m. sg.	to be full	
@@ -28,10 +28,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153363	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 153363	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 153364	l	l(I)	l (I)	prep.	to	
-153365	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-153366	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+153365	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+153366	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.109 6						
-153367	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
+153367	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. gen.	small	
 153368	w	w	w	conj.	and	
 153369	ynt	yn(t/t	ynt	n. f. sg. cstr. nom.	dove	
 153370	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	city	
@@ -64,12 +64,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153383	w	w	w	conj.	and	
 153384	š	š/	š	n. m. sg. abs. nom.	ram	
 153385	l	l(I)	l (I)	prep.	to	
-153386	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-153387	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+153386	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+153387	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.109 10						
-153388	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
-153388	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-153388	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+153388	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. gen.	small	
+153388	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. gen.	small	
+153388	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. gen.	small	
 153389	lṣpn	?	?	?	?	DULAT: NOT FOUND
 153390	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 153391	w	w	w	conj.	and	
@@ -233,8 +233,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153476	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.109 29						
 153477	l	l(I)	l (I)	prep.	to	
-153478	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-153479	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+153478	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+153479	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 153480	bˤrˤr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.109 30						
 153481	pamt	pa/m	pảm(t)	n. f. pl. abs. nom.	time	
@@ -249,26 +249,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 32						
 153488	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 153489	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-153490	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-153490	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-153490	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+153490	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+153490	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+153490	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 153491	l	l(I)	l (I)	prep.	to	
-153492	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
+153492	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 # KTU 1.109 33						
-153493	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-153494	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. nom.	massif	
+153493	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+153494	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. gen.	massif	
 153495	txxḥd	?	?	?	?	DULAT: NOT FOUND
 153496	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
 153496	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 153496	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.109 34						
 153497	l	l(I)	l (I)	prep.	to	
-153498	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-153499	š	š/	š	n. m. sg. abs. nom.	ram	
+153498	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+153499	š	š/	š	n. m. sg. abs. gen.	ram	
 153500	l	l(I)	l (I)	prep.	to	
-153501	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-153502	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
-153503	š	š/	š	n. m. sg. abs. nom.	ram	
+153501	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+153502	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+153503	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.109 35						
 153504	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 153505	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	

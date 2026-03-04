@@ -19,8 +19,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158032	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.40 5						
 158033	l	l(I)	l (I)	prep.	to	
-158034	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158035	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158034	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158035	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.40 6						
 158036	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158037	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
@@ -32,13 +32,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158040	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 158041	b	b	b	prep.	in	
 # KTU 2.40 10						
-158042	lwsnd	lwsnd/	lwsnd	TN sg. abs. nom.	lwsnd	
+158042	lwsnd	lwsnd/	lwsnd	TN sg. abs. gen.	lwsnd	
 # KTU 2.40 11						
 158043	abṣr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.40 12						
 158044	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158045	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158045	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+158045	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+158045	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.40 13						
 158046	w	w	w	conj.	and	
 158047	ht	ht	ht	adv.	here	
@@ -55,8 +55,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.40 17						
 158054	mlġ	?	?	?	?	DULAT: NOT FOUND
 158055	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158056	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-158056	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+158056	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+158056	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 2.40 18						
 158057	w	w	w	conj.	and	
 158058	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	

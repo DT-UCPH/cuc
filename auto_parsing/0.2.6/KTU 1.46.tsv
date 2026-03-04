@@ -1,11 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.46 1						
 148949	b	b	b	prep.	in	
-148950	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-148950	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-148951	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
-148951	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
-148952	slḫ	slḫ(I)/	slḫ (I)	n. m. sg. abs. nom.	befeuchtet	
+148950	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+148950	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+148951	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. gen.	new moon	
+148951	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. gen.	new	
+148952	slḫ	slḫ(I)/	slḫ (I)	n. m. sg. abs. gen.	befeuchtet	
 148953	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 148954	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
 148955	wṯnkbdm	?	?	?	?	DULAT: NOT FOUND
@@ -97,18 +97,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148998	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 148998	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 148999	l	l(I)	l (I)	prep.	to	
-149000	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+149000	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 149001	w	w	w	conj.	and	
 149002	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. nom.	back part (of the head)	
 149003	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
 149004	l	l(I)	l (I)	prep.	to	
-149005	inš	inš/	ỉnš	n. m. sg. abs. nom.	people	
+149005	inš	inš/	ỉnš	n. m. sg. abs. gen.	people	
 # KTU 1.46 9						
-149006	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-149006	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-149007	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-149007	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-149007	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+149006	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+149006	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+149007	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+149007	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+149007	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 149008	l	l(I)	l (I)	prep.	to	
 149008	l	l(III)	l (III)	functor	certainly	
 149009	bbtm	bbt(II)/~m	bbt (II)	DN du. abs. nom.	superintendent	
@@ -134,8 +134,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149020	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.46 11						
 149021	b	b	b	prep.	in	
-149022	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-149022	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+149022	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+149022	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 149023	mlat	ml(ʔ&a[t	/m-l-ʔ/	vb G suffc. 1 c. sg.	to be full	
 149023	mlat	mla(t/t	mlảt	n. f. pl. abs. nom.	fullness	
 149023	mlat	mla(t/t	mlảt	n. f. sg. abs. nom.	fullness	
@@ -150,9 +150,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149028	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 # KTU 1.46 12						
 149029	l	l(I)	l (I)	prep.	to	
-149030	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-149031	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-149032	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
+149030	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+149031	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149032	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. gen.	small	
 149033	wynt	?	?	?	?	DULAT: NOT FOUND
 149034	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	city	
 # KTU 1.46 13						
@@ -190,8 +190,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149051	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 149051	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 149052	l	l(I)	l (I)	prep.	to	
-149053	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-149054	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
+149053	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+149054	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 149055	w	w	w	conj.	and	
 149056	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 149056	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	

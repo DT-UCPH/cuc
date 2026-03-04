@@ -101,9 +101,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160795	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
 # KTU 3.1 19						
 160796	l	l(I)	l (I)	prep.	to	
-160797	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-160797	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-160798	arn	arn(I)/	ảrn (I)	n. m. sg. abs. nom.	chest	
+160797	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+160797	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+160798	arn	arn(I)/	ảrn (I)	n. m. sg. abs. gen.	chest	
 160799	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 160800	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
 160800	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
@@ -149,15 +149,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160824	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 160824	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
 160825	l	l(I)	l (I)	prep.	to	
-160826	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-160826	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+160826	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+160826	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 3.1 26						
-160827	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-160827	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-160828	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-160828	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-160828	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-160828	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+160827	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+160827	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+160828	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
+160828	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+160828	rb	rb(I)/	rb (I)	adj. m. sg. abs. gen.	great	
+160828	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
 160829	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 3.1 27						
 160830	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
@@ -170,11 +170,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160835	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
 160836	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
 160837	l	l(I)	l (I)	prep.	to	
-160838	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
+160838	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 # KTU 3.1 29						
-160839	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
-160839	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
-160840	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
+160839	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
+160839	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
+160840	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
 160841	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. nom.	shirt-like tunic	
 160842	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
 160843	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	

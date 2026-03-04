@@ -27,12 +27,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152188	k	k(II)	k (II)	emph. functor	yes	
 152189	mdb	mdb/	mdb	n. m. sg. abs. nom.	tide	
 152190	b	b	b	prep.	in	
-152191	tk	tk/	tk	n. m. abs. nom.	centre	
-152192	ġrh	ġr(I)/h	ġr (I)	n. m. sg. abs. nom.	mountain	
-152193	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-152193	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-152193	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-152193	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+152191	tk	tk/	tk	n. m. abs. gen.	centre	
+152192	ġrh	ġr(I)/h	ġr (I)	n. m. sg. abs. gen.	mountain	
+152193	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+152193	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+152193	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+152193	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 152194	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 152195	bġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.101 3						
@@ -78,11 +78,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 7						
 152216	dt	d	d	det. or rel. functor	the one(s) of	
 152217	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
-152218	rišh	riš(I)/h	rỉš (I)	n. m. sg. abs. nom.	head	
+152218	rišh	riš(I)/h	rỉš (I)	n. m. sg. abs. gen.	head	
 152219	b	b	b	prep.	in	
-152220	glṯ	glṯ/	glṯ	n. m. sg. abs. nom.	storm	
+152220	glṯ	glṯ/	glṯ	n. m. sg. abs. gen.	storm	
 152221	b	b	b	prep.	in	
-152222	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
+152222	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 # KTU 1.101 8						
 152223	yšil	?	?	?	?	DULAT: NOT FOUND
 152224	ṯrm	ṯr(I)/m	ṯr (I)	n. m. pl. abs. nom.	bull	
@@ -129,7 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152251	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 152251	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 152252	b	b	b	prep.	in	
-152253	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. nom.	plate / wide bowl / platter	
+152253	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
 152254	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 f. sg.	to wash	
 152254	trḥṣ	!t=!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 2 m. sg.	to wash	
 152254	trḥṣ	!t==!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 2 f. sg.	to wash	
@@ -147,7 +147,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152261	tiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 152262	knrh	knr/+h	knr	n. m. cstr. nom.	harp	
 152263	b	b	b	prep.	in	
-152264	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
+152264	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	
 152265	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 152265	tšt	!t!št(y[	/š-t-y/	vb G prefc. 3 f. sg.	to drink	
 152265	tšt	!t=!št(y[	/š-t-y/	vb G prefc. 2 m. sg.	to drink	

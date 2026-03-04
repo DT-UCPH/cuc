@@ -16,13 +16,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157701	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 157702	hlny	hlny	hlny	deictic adv. functor	behold	
 157703	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157704	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157704	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+157704	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157704	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 2.36 3						
 157705	w	w	w	conj.	and	
 157706	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157707	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
-157708	kll	kll/	kll	n. m. sg. abs. nom.	totality	
+157707	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
+157708	kll	kll/	kll	n. m. sg. abs. gen.	totality	
 157709	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157709	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157709	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -63,8 +63,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157723	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 157724	argmny	argm/+ny	ả/ỉrgmn	n. m. cstr. nom.	payment of tribute to the Hittite court	
 157725	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157726	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157726	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+157726	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157726	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 157727	štn	št[n	/š-t/	vb G impv. 2	to place	
 157728	xx	?	?	?	?	
 # KTU 2.36 7						
@@ -77,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157734	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to place	
 157734	štt	št[t:pass	/š-t/	vb Gpass suffc. 1 c. sg.	to place	
 157735	b	b	b	prep.	in	
-157736	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. cstr. nom.	message	
+157736	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. cstr. gen.	message	
 # KTU 2.36 8						
 157737	xx	?	?	?	?	
 157738	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 f. sg.	to proceed	
@@ -145,8 +145,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157771	štnt	ytn[t	/y-t-n/	vb	to give	
 157772	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 157773	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157774	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157774	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+157774	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+157774	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 157775	štnt	ytn[t	/y-t-n/	vb	to give	
 # KTU 2.36 14						
 157776	ṯnnty	ṯn(II)&nt/+y	ṯn (II)	num./adj.	second	
@@ -175,15 +175,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157787	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
 157787	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. nom.	sob	
 157788	b	b	b	prep.	in	
-157789	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-157790	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+157789	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
+157790	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 2.36 17						
-157791	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
+157791	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
 157792	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. abs. nom.	flax	
 157793	w	w	w	conj.	and	
 157794	b	b	b	prep.	in	
-157795	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-157796	nġṯ	nġṯ/	nġṯ	TN sg. abs. nom.	go to TN	
+157795	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
+157796	nġṯ	nġṯ/	nġṯ	TN sg. abs. gen.	go to TN	
 157797	tˤtqnn	!t!ˤtq[n+n	/ʕ-t-q/	vb G prefc.	to pass	
 157797	tˤtqnn	!t!ˤtq[+nn	/ʕ-t-q/	vb G prefc.	to pass, ?	
 # KTU 2.36 18						

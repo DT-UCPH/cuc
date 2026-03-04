@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147634	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 3						
 147635	lk	l(I)+k	l (I)	prep.	to	
-147636	aġzt	aġz(t/t	ảġzt	n. f. sg. abs. nom.	wedding	
+147636	aġzt	aġz(t/t	ảġzt	n. f. sg. abs. gen.	wedding	
 147637	b	b	b	prep.	in	
 147638	srr	!!srr[/	/s-r-r/	vb G inf.	to set	
 147639	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
@@ -118,10 +118,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147697	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
 147698	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.24 17						
-147699	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. abs. nom.	ḫrḫb	
-147700	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-147700	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-147701	qẓ	qẓ/	qẓ	n. m. sg. abs. nom.	summer	
+147699	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. abs. gen.	ḫrḫb	
+147700	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+147700	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+147701	qẓ	qẓ/	qẓ	n. m. sg. abs. gen.	summer	
 147702	tn	(ytn[	/y-t-n/	vb	give	
 147702	tn	(ytn[/	/y-t-n/	vb	give	
 147703	nkl	nkl[	/k-l-y/	vb N suffc. 3 m. sg.	to finish	
@@ -221,11 +221,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 29						
 147752	rḫ	?	?	?	?	DULAT: NOT FOUND
 147753	lk	l(I)+k	l (I)	prep.	to	
-147754	ybrdmy	ybrdmy/	ybrdmy	DN sg. abs. nom.	ybrdmy	
+147754	ybrdmy	ybrdmy/	ybrdmy	DN sg. abs. gen.	ybrdmy	
 147755	bta	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 30						
 147756	bh	b+h	b	prep.	in	
-147757	lbu	lbu/	lbủ	n. m. abs. nom.	lion	
+147757	lbu	lbu/	lbủ	n. m. abs. gen.	lion	
 147758	yˤrr	!y!ˤr[r	/ʕ-r/	vb	to become agitated	
 147759	w	w	w	conj.	and	
 147760	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
@@ -327,7 +327,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147809	yrdt	yrd[/t	/y-r-d/	vb G act. ptcpl. m. sg. abs. nom.	to go down	
 # KTU 1.24 43						
 147810	b	b	b	prep.	in	
-147811	ˤrgzm	ˤrgz(I)/m	ʕrgz (I)	n. m. pl. abs. nom.	juniper berries (?)	
+147811	ˤrgzm	ˤrgz(I)/m	ʕrgz (I)	n. m. pl. abs. gen.	juniper berries (?)	
 147812	bzgb	?	?	?	?	DULAT: NOT FOUND
 147813	zt	zt/	zt	n. m. pl. abs. nom.	olive	
 147813	zt	zt/	zt	n. m. sg. abs. nom.	olive	
@@ -345,13 +345,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147820	ḏpid	?	?	?	?	DULAT: NOT FOUND
 147821	hn	hn	hn	functor	behold!	
 147822	b	b	b	prep.	in	
-147823	py	p(III)/+y	p (III)	n. m. cstr. nom.	mouth	
-147824	sp	sp/	sp	n. m. pl. cstr. nom.	bowl	
-147824	sp	sp/	sp	n. m. sg. abs. nom.	bowl	
+147823	py	p(III)/+y	p (III)	n. m. cstr. gen.	mouth	
+147824	sp	sp/	sp	n. m. pl. cstr. gen.	bowl	
+147824	sp	sp/	sp	n. m. sg. abs. gen.	bowl	
 # KTU 1.24 46						
 147825	rhn	?	?	?	?	DULAT: NOT FOUND
 147826	b	b	b	prep.	in	
-147827	špty	šp(t/t	špt	n. f. sg. abs. nom.	lip	
+147827	špty	šp(t/t	špt	n. f. sg. abs. gen.	lip	
 147828	mn	mn(IV)	mn (IV)	?	?	
 # KTU 1.24 47						
 147829	hnthn	?	?	?	?	DULAT: NOT FOUND
@@ -361,11 +361,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147832	y	~y	-y (II)	prep. functor	indeed	
 147832	y	y	y	prep. functor	oh!	
 # KTU 1.24 48						
-147833	ṯtqt	ṯtqt/	ṯtqt	DN sg. abs. nom.	ṯtqt	
+147833	ṯtqt	ṯtqt/	ṯtqt	DN sg. abs. gen.	ṯtqt	
 147834	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
-147835	bqˤt	bqˤt(I)/	bqʕt (I)	DN sg. abs. nom.	Midwife	
+147835	bqˤt	bqˤt(I)/	bqʕt (I)	DN sg. abs. gen.	Midwife	
 # KTU 1.24 49						
-147836	tqˤt	tqˤt/	tqʕt	DN sg. abs. nom.	applauder	
+147836	tqˤt	tqˤt/	tqʕt	DN sg. abs. gen.	applauder	
 147837	ˤmp	?	?	?	?	DULAT: NOT FOUND
 147838	rbḫṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 50						

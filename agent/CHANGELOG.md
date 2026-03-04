@@ -985,3 +985,4 @@
 - Switched the Baal lexical spaCy step to grouped-token mode and added a dedicated `aliyn bˤl` rule that collapses the cluster to the divine-name reading `bˤl(II)/ -> DN m. sg. abs. nom.` in all immediate `aliyn bˤl` contexts.
 - Moved the Baal lexical spaCy stage after nominal/attestation expansion so the grouped-token `aliyn bˤl` collapse survives later morphology completion and remains the final lexical choice before `l`-context.
 - Extended the grouped-token lexical spaCy stage with a `ṯr il` rule that collapses immediate `ṯr il` bigrams to `ṯr (I) -> n. m. sg. abs. nom. bull` and `ỉl (I) -> DN m. sg. abs. nom. El`, removing plural, construct, and common-noun alternatives in that fixed context.
+- Extended `spacy_morph_context` so a preposition governs `gen.` on the following contiguous nominal/adjectival/name/participial phrase, preserving existing state ambiguity while replacing default `nom.` with `gen.` where the context makes case deterministic.

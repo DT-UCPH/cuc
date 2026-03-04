@@ -103,21 +103,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155653	tšt	!t!št(y[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
 155653	tšt	!t===!št(y[	/š-t-y/	vb G prefc. 2 m. pl.	to drink	
 155654	b	b	b	prep.	in	
-155655	ḫlṣ	ḫlṣ/	ḫlṣ	n. m. abs. nom.	squeezing	
+155655	ḫlṣ	ḫlṣ/	ḫlṣ	n. m. abs. gen.	squeezing	
 155656	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 155656	bl	bl(II)	bl (II)	prep.	without	
 155656	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 155657	ṣml	ṣml(I)/	ṣml (I)	n. m. sg. abs. nom.	to be hard	
 155658	b	b	b	prep.	in	
-155659	mrmt	mrm/t=	mrm	n. f. pl. abs. nom.	height	
+155659	mrmt	mrm/t=	mrm	n. f. pl. abs. gen.	height	
 # KTU 1.169 8						
 155660	b	b	b	prep.	in	
-155661	miyt	miy(t/t	mỉyt	n. f. sg. abs. nom.	swamp	
+155661	miyt	miy(t/t	mỉyt	n. f. sg. abs. gen.	swamp	
 155662	b	b	b	prep.	in	
-155663	ẓlm	ẓl(I)/m	ẓl (I)	n. m. pl. abs. nom.	shade	
+155663	ẓlm	ẓl(I)/m	ẓl (I)	n. m. pl. abs. gen.	shade	
 155664	b	b	b	prep.	in	
-155665	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
-155665	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
+155665	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. gen.	sanctuary	
+155665	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. gen.	holy	
 155666	aphm	aphm	ảphm	illative adv. functor	immediately afterwards	
 # KTU 1.169 9						
 155667	kšpm	kšp/m	kšp	n. m. pl. abs. nom.	sorcerer	
@@ -133,7 +133,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155674	dˤtm	dˤt(I)/~m	dʕt (I)	n. f. abs. nom. pl.	knowledge	
 155675	lk	l(I)+k	l (I)	prep.	to	
 # KTU 1.169 11						
-155676	lẓtm	lẓ(t/t~m	lẓt	n. f. abs. nom. sg.	severity	
+155676	lẓtm	lẓ(t/t~m	lẓt	n. f. abs. gen. sg.	severity	
 155677	al	al(I)	ảl (I)	neg. functor	no	
 155677	al	al(II)	ảl (II)	pos. functor	surely	
 155678	tmk	!t!mk[	/m-k-(k)/	vb G prefc.	to fall	
@@ -173,7 +173,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155694	d	d	d	det. or rel. functor	the one(s) of	
 155695	ḫṭm	ḫṭ/~m	ḫṭ	n. m. abs. nom. sg.	sceptre	
 155696	l	l(I)	l (I)	prep.	to	
-155697	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+155697	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 155698	zrm	zr[m	/z-r/	vb	to divert	
 # KTU 1.169 15						
 155699	l	l(I)	l (I)	prep.	to	
@@ -187,13 +187,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155701	adm	adm(I)/	ảdm (I)	n. m. sg. abs. nom.	man	
 155701	adm	(ʔ&adm[	/ʔ-d-m/	vb G suffc. 3 m. sg.	to be	
 155702	b	b	b	prep.	in	
-155703	anšt	anš(t/t	ảnšt	n. f. sg. abs. nom.	illness	
+155703	anšt	anš(t/t	ảnšt	n. f. sg. abs. gen.	illness	
 155704	npẓl	npẓl[	/p-ẓ-l/	vb N suffc. 3 m. sg.	to be overcome by	
 # KTU 1.169 16						
 155705	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 155706	b	b	b	prep.	in	
-155707	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-155708	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. nom.	back part (of the head)	
+155707	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	throat	
+155708	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. gen.	back part (of the head)	
 155709	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	
 155709	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 155709	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	

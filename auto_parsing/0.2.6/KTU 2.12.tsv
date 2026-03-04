@@ -1,9 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.12 1						
 156631	l	l(I)	l (I)	prep.	to	
-156632	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
+156632	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 # KTU 2.12 2						
-156633	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
+156633	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.12 3						
 156634	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 156634	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -17,9 +17,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156637	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.12 6						
 156638	l	l(I)	l (I)	prep.	to	
-156639	pˤn	pˤn/	pʕn	n. f.	at the feet of	
+156639	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
 # KTU 2.12 7						
-156640	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
+156640	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.12 8						
 156641	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.12 9						
@@ -31,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156645	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.12 12						
 156646	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-156647	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
+156647	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.12 13						
 156648	mnm	mnm	mnm	indef. pn.	any(thing)	
 156649	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	

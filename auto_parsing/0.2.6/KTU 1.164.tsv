@@ -24,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155406	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 # KTU 1.164 4						
 155407	b	b	b	prep.	in	
-155408	db	db/	db	n. m. sg. abs. nom.	threshold	
+155408	db	db/	db	n. m. sg. abs. gen.	threshold	
 155409	ap	ap(I)	ảp (I)	adv./conj.	also	
 155409	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 155410	w	w	w	conj.	and	
@@ -52,11 +52,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155424	kmm	kmm	kmm	adv.	ditto	
 155425	š	š/	š	n. m. sg. abs. nom.	ram	
 155426	l	l(I)	l (I)	prep.	to	
-155427	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-155427	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-155427	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-155427	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-155428	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
+155427	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+155427	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+155427	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+155427	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+155428	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 # KTU 1.164 8						
 155429	w	w	w	conj.	and	
 155430	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
@@ -72,9 +72,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155435	w	w	w	conj.	and	
 155436	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 155437	b	b	b	prep.	in	
-155438	qr	qr(I)/	qr (I)	n. m. sg. abs. nom.	source	
-155438	qr	qr(II)/	qr (II)	n. m. sg. cstr. nom.	noise	
-155438	qr	qr(III)/	qr (III)	n. m. pl. cstr. nom.	wall	
+155438	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	source	
+155438	qr	qr(II)/	qr (II)	n. m. sg. cstr. gen.	noise	
+155438	qr	qr(III)/	qr (III)	n. m. pl. cstr. gen.	wall	
 # KTU 1.164 11						
 155439	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
 155440	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	

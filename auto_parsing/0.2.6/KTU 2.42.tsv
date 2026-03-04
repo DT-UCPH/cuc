@@ -22,9 +22,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158112	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.42 4						
 158113	l	l(I)	l (I)	prep.	to	
-158114	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-158115	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-158116	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. nom. sg.	distance	
+158114	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+158115	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+158116	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. gen. sg.	distance	
 # KTU 2.42 5						
 158117	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158118	w	w	w	conj.	and	
@@ -34,15 +34,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158121	ankn	ank	ảnk	pers. pn.	I	
 158122	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say	
 158123	l	l(I)	l (I)	prep.	to	
-158124	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-158125	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+158124	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+158125	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 2.42 7						
 158126	l	l(I)	l (I)	prep.	to	
-158127	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-158127	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+158127	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+158127	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 158128	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 158129	l	l(I)	l (I)	prep.	to	
-158130	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
+158130	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 # KTU 2.42 8						
 158131	l	l(I)	l (I)	prep.	to	
 158131	l	l(III)	l (III)	functor	certainly	
@@ -80,7 +80,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158144	yšiḫr	]š]ʔḫr[ḫr	/ʔ-ḫ-r/	vb Š prefc.	generic mng to go behind > D to retain (?)	
 158145	w	w	w	conj.	and	
 158146	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158147	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158147	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.42 12						
 158148	ˤšrid	ˤšr(I)+id	ʕšr (I)	num.	ten, time	
 158148	ˤšrid	ˤšr[:d:pass+id	/ʕ-š-r/	vb D suffc.	to invite, time	
@@ -130,13 +130,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158168	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 158169	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 158170	lhm	l(I)+hm	l (I)	prep.	to	
-158171	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
-158171	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+158171	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
+158171	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
 # KTU 2.42 21						
 158172	ilak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
 158173	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158174	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158174	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+158174	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+158174	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.42 22						
 158175	ht	ht	ht	adv.	here	
 158176	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	

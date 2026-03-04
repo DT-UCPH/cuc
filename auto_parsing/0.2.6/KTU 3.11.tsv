@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.11 1						
 161306	l	l(I)	l (I)	prep.	to	
-161307	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-161308	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. abs. nom.	nqmpʿ	
+161307	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+161308	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. abs. gen.	nqmpʿ	
 # KTU 3.11 2						
 161309	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 161309	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
@@ -42,7 +42,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161323	ymlu	!y!ml(ʔ[&u	/m-l-ʔ/	vb G prefc. 3 m. sg.	to be full	
 161323	ymlu	!y!ml(ʔ[&u:d	/m-l-ʔ/	vb D prefc. 3 m. sg.	to be full	
 161324	b	b	b	prep.	in	
-161325	šmḫt	šmḫ(t/t	šmḫt	n. f. sg. abs. nom.	joy	
+161325	šmḫt	šmḫ(t/t	šmḫt	n. f. sg. abs. gen.	joy	
 # KTU 3.11 10						
 161326		?	?	?	?	
 # KTU 3.11 11						
@@ -50,8 +50,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.11 12						
 161328		?	?	?	?	
 # KTU 3.11 13						
-161329	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
-161329	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
+161329	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	bull	
+161329	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	bull	
 # KTU 3.11 14						
 161330		?	?	?	?	
 # KTU 3.11 15						

@@ -26,8 +26,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 5						
 154735	anḫr	anḫr/	ảnḫr	n. m. sg. abs. nom.	dolphin	
 154736	b	b	b	prep.	in	
-154737	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-154737	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+154737	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+154737	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.133 6						
 154738	brkyt	?	?	?	?	DULAT: NOT FOUND
 154739	kšbšt	?	?	?	?	DULAT: NOT FOUND
@@ -74,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154753	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 154754	ydty	yd(I)/	yd (I)	n. f. abs. nom.	hand	
 154755	b	b	b	prep.	in	
-154756	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. nom.	plate / wide bowl / platter	
+154756	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
 # KTU 1.133 12						
 154757	xšbˤ	?	?	?	?	DULAT: NOT FOUND
 154758	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	

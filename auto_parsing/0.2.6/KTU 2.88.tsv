@@ -15,8 +15,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159767	hlny	hlny	hlny	deictic adv. functor	behold	
 159768	ank	ank	ảnk	pers. pn.	I	
 159769	b	b	b	prep.	in	
-159770	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-159770	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+159770	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+159770	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 2.88 4						
 159771	k	+k	-k (I)			
 159771	k	~k	-k (II)			
@@ -37,7 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159776	w	w	w	conj.	and	
 159777	bym	b+m(I)	b	prep.	in	
 # KTU 2.88 6						
-159778	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
+159778	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 159779	ank	ank	ảnk	pers. pn.	I	
 159780	b	b	b	prep.	in	
 159781	mlwm	?	?	?	?	DULAT: NOT FOUND
@@ -45,10 +45,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159782	btt	?	?	?	?	DULAT: NOT FOUND
 159783	w	w	w	conj.	and	
 159784	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-159785	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. nom.	to sweep	
+159785	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. gen.	to sweep	
 # KTU 2.88 8						
-159786	adnyh	adn(I)&y/+h	ảdn (I)	n. m. cstr. nom.	lord	
-159786	adnyh	adny/	ảdny	TN sg. abs. nom.	ảdny	
+159786	adnyh	adn(I)&y/+h	ảdn (I)	n. m. cstr. gen.	lord	
+159786	adnyh	adny/	ảdny	TN sg. abs. gen.	ảdny	
 159787	b	b	b	prep.	in	
 159788	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 159788	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
@@ -120,7 +120,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159826	w	w	w	conj.	and	
 159827	at	at(I)	ảt (I)	pers. pn.	you	
 159828	b	b	b	prep.	in	
-159829	pk	p(III)/+k	p (III)	n. m. cstr. nom.	mouth	
+159829	pk	p(III)/+k	p (III)	n. m. cstr. gen.	mouth	
 159830	al	al(I)	ảl (I)	neg. functor	no	
 159830	al	al(II)	ảl (II)	pos. functor	surely	
 # KTU 2.88 22						
@@ -183,8 +183,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159859	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
 # KTU 2.88 29						
 159860	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-159861	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-159861	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+159861	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+159861	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 159862	tlak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
 # KTU 2.88 30						
 159863	w	w	w	conj.	and	
@@ -238,8 +238,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159886	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say	
 # KTU 2.88 36						
 159887	l	l(I)	l (I)	prep.	to	
-159888	pn	pn(m/	pnm	n. m. pl. tant.	in front	
-159889	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
+159888	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
+159889	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 159890	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.88 37						
 159891	w	w	w	conj.	and	
@@ -266,7 +266,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159902	w	w	w	conj.	and	
 159903	at	at(I)	ảt (I)	pers. pn.	you	
 159904	b	b	b	prep.	in	
-159905	pk	p(III)/+k	p (III)	n. m. cstr. nom.	mouth	
+159905	pk	p(III)/+k	p (III)	n. m. cstr. gen.	mouth	
 159906	al	al(I)	ảl (I)	neg. functor	no	
 159906	al	al(II)	ảl (II)	pos. functor	surely	
 159907	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	

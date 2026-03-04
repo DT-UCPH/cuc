@@ -4,11 +4,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146698	tdbḥn	tdbḥn[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 # KTU 1.20 I:2						
 146699	bˤd	bˤd	bʕd	adv. or prep.	behind	
-146700	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
+146700	ilnym	ilny/m	ỉlny	adj. m. pl. abs. gen.	divine one	
 # KTU 1.20 I:3						
 146701		?	?	?	?	
 146702	km	km	km	prep./conj./adv.		
-146703	tmtm	tm&t/+m(I)	tm	adj. m. cstr. nom.	complete	
+146703	tmtm	tm&t/+m(I)	tm	adj. m. cstr. gen.	complete	
 # KTU 1.20 I:4						
 146704	b	b	b	prep.	in	
 146705	k	+k	-k (I)			
@@ -24,9 +24,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146708	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 146708	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 146709	bym	b+m(I)	b	prep.	in	
-146710	qẓ	qẓ/	qẓ	n. m. sg. abs. nom.	summer	
+146710	qẓ	qẓ/	qẓ	n. m. sg. abs. gen.	summer	
 # KTU 1.20 I:6						
-146711	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
+146711	rpim	rp(u&i/m	rpủ	n. m. pl. abs. gen.	healer	
 146712	tlḥmn	tlḥmn[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
 # KTU 1.20 I:7						
 146713	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
@@ -61,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146728	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 146729	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
 146730	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-146731	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+146731	rpum	rp(u&/m	rpủ	n. m. pl. abs. gen.	healer	
 # KTU 1.20 II:2						
 146732	ndd	ndd[	/n-d-d/	vb G suffc. 3 m. sg.	to go	
 146732	ndd	!!ndd[/	/n-d-d/	vb G inf.	to go	
@@ -94,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146749	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 146749	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 146750	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
-146751	špšm	špš/~m	špš	n. f. abs. nom. sg.	sun	
+146751	špšm	špš/~m	špš	n. f. abs. gen. sg.	sun	
 146752	b	b	b	prep.	in	
 146753	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 146753	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
@@ -142,15 +142,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146769	hrnmy	hrnmy/	hrnmy	GN sg. abs. nom.	native of the TN *hrnm	
 # KTU 1.20 II:9						
 146770	b	b	b	prep.	in	
-146771	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. nom.	threshing-floor	
-146772	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-146772	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+146771	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. gen.	threshing-floor	
+146772	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+146772	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 146773	b	b	b	prep.	in	
-146774	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
-146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. pl. abs. nom.	plantation	
-146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg. abs. nom.	plantation	
-146775	mṭˤt	mṭˤ(t/t=	mṭʕt	n. f. pl. abs. nom.	plantation	
-146776	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
+146774	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
+146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. pl. abs. gen.	plantation	
+146775	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg. abs. gen.	plantation	
+146775	mṭˤt	mṭˤ(t/t=	mṭʕt	n. f. pl. abs. gen.	plantation	
+146776	ilnym	ilny/m	ỉlny	adj. m. pl. abs. gen.	divine one	
 # KTU 1.20 II:10						
 146777	d	d	d	det. or rel. functor	the one(s) of	
 146778	tit	ʔtw[	/ʔ-t-w/	vb G prefc.	to come	

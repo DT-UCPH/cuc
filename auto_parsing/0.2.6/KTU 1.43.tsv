@@ -23,11 +23,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148787	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 148787	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 148788	b	b	b	prep.	in	
-148789	gb	gb(I)/	gb (I)	n. m. sg. abs. nom.	pit	
-148790	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-148790	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-148791	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-148791	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+148789	gb	gb(I)/	gb (I)	n. m. sg. abs. gen.	pit	
+148790	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
+148790	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+148791	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+148791	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.43 3						
 148792	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	heavenly body	
 148793	xtrmt	?	?	?	?	DULAT: NOT FOUND
@@ -80,8 +80,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148821	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 # KTU 1.43 11						
 148822	l	l(I)	l (I)	prep.	to	
-148823	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-148823	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+148823	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+148823	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 148824	w	w	w	conj.	and	
 148825	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 148825	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
@@ -104,8 +104,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148837	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 # KTU 1.43 14						
 148838	l	l(I)	l (I)	prep.	to	
-148839	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-148839	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+148839	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
+148839	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 148840	wyrḫ	?	?	?	?	DULAT: NOT FOUND
 148841	l	l(I)	l (I)	prep.	to	
 148841	l	l(III)	l (III)	functor	certainly	
@@ -187,8 +187,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148886	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.43 24						
 148887	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-148888	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-148888	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+148888	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+148888	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 148889	ylk	hlk[	/h-l-k/	vb G prefc.	to go	
 148890	pˤnm	pˤn/m	pʕn	n. f. pl. abs. nom.	foot	
 # KTU 1.43 25						

@@ -34,9 +34,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149132	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
 149132	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
 149133	b	b	b	prep.	in	
-149134	išt	iš(t/t	ỉšt	n. f. sg. abs. nom.	fire	
+149134	išt	iš(t/t	ỉšt	n. f. sg. abs. gen.	fire	
 # KTU 1.48 9						
-149135	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+149135	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 149136	štx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 10						
 149137	ḫqrn	ḫqrn	ḫqrn	?		
@@ -49,8 +49,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149142	ḫmxxxṯn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 13						
 149143	b	b	b	prep.	in	
-149144	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-149144	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+149144	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+149144	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 149145	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
 149145	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 149145	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
@@ -82,7 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.48 16						
 149157	aḥt	aḥd/t	ảḥd	adj. f. sg. abs. nom.	one	
 149158	l	l(I)	l (I)	prep.	to	
-149159	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
+149159	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 149160	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 149160	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
 149160	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	

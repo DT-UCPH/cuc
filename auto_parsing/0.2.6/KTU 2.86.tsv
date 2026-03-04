@@ -22,8 +22,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159585	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.86 6						
 159586	l	l(I)	l (I)	prep.	to	
-159587	pˤn	pˤn/	pʕn	n. f.	at the feet of	
-159588	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+159587	pˤn	pˤn/	pʕn	n. f. gen.	at the feet of	
+159588	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 2.86 7						
 159589	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 159590	w	w	w	conj.	and	
@@ -40,9 +40,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159595	hnny	hnny+ny	hnny	adv.	here	
 # KTU 2.86 10						
 159596	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159597	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+159597	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.86 11						
-159598	mid	mi/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
+159598	mid	mi/	mỉ/ủd	n. m. sg. abs. gen.	abundance	
 159599	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 159599	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 159599	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -108,7 +108,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159615	ṯtṯb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.86 20						
 159616	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159617	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+159617	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.86 21						
 159618	w	w	w	conj.	and	
 159619	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
@@ -127,4 +127,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159624	ybˤr	!y!bˤr(II)[:d	/b-ʕ-r/ (II)	vb D prefc. 3 m. sg.	to abandon	
 # KTU 2.86 24						
 159625	b	b	b	prep.	in	
-159626	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
+159626	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	

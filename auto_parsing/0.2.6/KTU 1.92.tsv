@@ -79,15 +79,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151358	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
 # KTU 1.92 12						
 151359	b	b	b	prep.	in	
-151360	qr	qr(I)/	qr (I)	n. m. sg. abs. nom.	source	
-151360	qr	qr(II)/	qr (II)	n. m. sg. cstr. nom.	noise	
-151360	qr	qr(III)/	qr (III)	n. m. pl. cstr. nom.	wall	
-151361	mrḥh	mrḥ/h	mrḥ	n. f. sg. abs. nom.	lance	
+151360	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	source	
+151360	qr	qr(II)/	qr (II)	n. m. sg. cstr. gen.	noise	
+151360	qr	qr(III)/	qr (III)	n. m. pl. cstr. gen.	wall	
+151361	mrḥh	mrḥ/h	mrḥ	n. f. sg. abs. gen.	lance	
 151362	tiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 # KTU 1.92 13						
 151363	šbrh	šbr/+h	šbr	n. m. sg. cstr. nom.	stick	
 151364	bm	b+m(I)	b	prep.	in	
-151365	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. nom.	right (side)	
+151365	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. gen.	right (side)	
 151366	tr	!!tr[/	/t-r/	vb G inf.	to scour	
 151366	tr	tr(II)/	tr (II)	n. m. sg. abs. nom.	turtledove	
 # KTU 1.92 14						
@@ -150,8 +150,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151397	pṯtm	pṯt(I)/m	pṯt (I)	n. m. pl. abs. nom.	linen	
 # KTU 1.92 26						
 151398	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
-151399	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg. abs. nom.	ein Gewand	
-151400	tišr	tišr/	tỉšr	n. m. sg. abs. nom.	cypress	
+151399	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg. abs. gen.	ein Gewand	
+151400	tišr	tišr/	tỉšr	n. m. sg. abs. gen.	cypress	
 # KTU 1.92 27						
 151401	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
 151402	nšat	nš(ʔ&a[t	/n-š-ʔ/	vb G suffc. 1 c. sg.	to raise	
@@ -181,7 +181,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151414	dmrn	dmrn/	dmrn	DN sg. abs. nom.	the Powerful One/Valiant One/title of Baal	Based on DULAT reconstruction.
 151414	dmrn	dmr+n	dmr	→	?	
 151415	l	l(I)	l (I)	prep.	to	
-151416	pnh	pn(m/+h	pnm	n. m. pl. tant.	in front	
+151416	pnh	pn(m/+h	pnm	n. m. pl. tant. gen.	in front	
 151417	yrd	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
 151417	yrd	yrd[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
 # KTU 1.92 31						

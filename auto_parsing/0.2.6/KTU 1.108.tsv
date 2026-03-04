@@ -25,16 +25,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153221	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 153221	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
 153222	b	b	b	prep.	in	
-153223	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
+153223	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 # KTU 1.108 3						
-153224	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-153224	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153224	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-153224	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-153225	ṯpẓ	ṯpẓ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. nom.	to judge	
-153225	ṯpẓ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. nom.	judge	
+153224	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+153224	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+153224	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+153224	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+153225	ṯpẓ	ṯpẓ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. gen.	to judge	
+153225	ṯpẓ	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
 153226	b	b	b	prep.	in	
-153227	hdrˤy	hdrˤy/	hdrʕy	TN sg. abs. nom.	Haddou le berger	
+153227	hdrˤy	hdrˤy/	hdrʕy	TN sg. abs. gen.	Haddou le berger	
 153228	d	d	d	det. or rel. functor	the one(s) of	
 153229	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	to sing	
 153230	w	w	w	conj.	and	
@@ -42,7 +42,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153231	yḏmr	!y!ḏmr(II)[:d	/ḏ-m-r/ (II)	vb D prefc. 3 m. sg.	to sing	
 # KTU 1.108 4						
 153232	b	b	b	prep.	in	
-153233	knr	knr/	knr	n. m. sg. abs. nom.	harp	
+153233	knr	knr/	knr	n. m. sg. abs. gen.	harp	
 153234	w	w	w	conj.	and	
 153235	ṯlb	ṯlb/	ṯlb	n. m. sg. abs. nom.	flute	
 153236	b	b	b	prep.	in	
@@ -54,13 +54,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153239	mṣltm	mṣlt(I)/m	mṣlt (I)	n. f. pl. abs. nom.	cymbal	
 153240	bm	b+m(I)	b	prep.	in	
 # KTU 1.108 5						
-153241	rqdm	rqd/+m(I)	rqd	TN sg. cstr. nom.	rqd	
+153241	rqdm	rqd/+m(I)	rqd	TN sg. cstr. gen.	rqd	
 153242	d	d	d	det. or rel. functor	the one(s) of	
 153243	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 153244	b	b	b	prep.	in	
-153245	ḥbr	ḥbr(I)/	ḥbr (I)	n. m. pl. cstr. nom.	companion	
-153246	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
-153247	ẓbm	ẓby/	ẓby	n. m. pl. abs. nom.	gazelle	
+153245	ḥbr	ḥbr(I)/	ḥbr (I)	n. m. pl. cstr. gen.	companion	
+153246	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
+153247	ẓbm	ẓby/	ẓby	n. m. pl. abs. gen.	gazelle	
 # KTU 1.108 6						
 153248	w	w	w	conj.	and	
 153249	tšt	!t!št(y[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
@@ -92,7 +92,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153266	rḫpt	rḫp[/t	/r-ḫ-p/	vb G ptcpl. m. sg. abs. nom.	to hover	
 # KTU 1.108 9						
 153267	b	b	b	prep.	in	
-153268	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
+153268	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 153269	rmm	rm(I)/	rm (I)	adj. m. pl. abs. nom.	high	
 153269	rmm	rmm[:l	/r-m/	vb L prefc.	to go up	
 153270	aklt	(ʔ&akl[/t	/ʔ-k-l/	vb G act. ptcpl. m. sg. abs. nom.	to eat	
@@ -156,7 +156,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.108 18						
 153298	xxxxxxxxxxrš	?	?	?	?	DULAT: NOT FOUND
 153299	l	l(I)	l (I)	prep.	to	
-153300	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+153300	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 # KTU 1.108 19						
 153301	xxxxxx	?	?	?	?	
 153302	ymġk	!y!mġ(y[+k	/m-ġ-y/	vb G prefc. 3 m. sg.	to come	
@@ -204,10 +204,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153324	anh	an(I)+h	ản (I)	pers. pn.	I	
 153324	anh	an(II)+h	ản (II)	adv.	wherever	
 153325	b	b	b	prep.	in	
-153326	ḥtkh	ḥtk(II)/h	ḥtk (II)	n. m. sg. abs. nom.	lineage	
-153326	ḥtkh	ḥtk(III)/+h	ḥtk (III)	n. m. sg. cstr. nom.	sovereignty	
+153326	ḥtkh	ḥtk(II)/h	ḥtk (II)	n. m. sg. abs. gen.	lineage	
+153326	ḥtkh	ḥtk(III)/+h	ḥtk (III)	n. m. sg. cstr. gen.	sovereignty	
 153327	b	b	b	prep.	in	
-153328	nmrth	nmr(t/t+h	nmrt	n. f. sg. cstr. nom.	splendour	
+153328	nmrth	nmr(t/t+h	nmrt	n. f. sg. cstr. gen.	splendour	
 153329	l	l(I)	l (I)	prep.	to	
 153329	l	l(III)	l (III)	functor	certainly	
 153330	r	?	?	?	?	DULAT: NOT FOUND
@@ -224,9 +224,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153337	ḥtkk	ḥt(III)/+k	ḥtk (III)	n. m. sg. cstr. nom.	sovereignty	
 153338	nmrtk	nmr(t/t+k	nmrt	n. f. sg. cstr. nom.	splendour	
 153339	b	b	b	prep.	in	
-153340	tk	tk/	tk	n. m. abs. nom.	centre	
+153340	tk	tk/	tk	n. m. abs. gen.	centre	
 # KTU 1.108 26						
-153341	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+153341	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 153342	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 153342	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
 153342	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	

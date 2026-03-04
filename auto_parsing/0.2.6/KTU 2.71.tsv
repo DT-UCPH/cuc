@@ -12,8 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158921	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158922	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.71 4						
-158923	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-158923	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+158923	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+158923	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 158924	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.71 5						
 158925	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
@@ -71,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158947	hmhkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.71 15						
 158948	b	b	b	prep.	in	
-158949	lbk	lb/	lb	n. m. sg. abs. nom.	heart	
+158949	lbk	lb/	lb	n. m. sg. abs. gen.	heart	
 158950	al	al(I)	ảl (I)	neg. functor	no	
 158950	al	al(II)	ảl (II)	pos. functor	surely	
 158951	tšt	!t!št[	/š-t/	vb G prefc.	to place	
@@ -87,10 +87,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158953	mġyy	!!mġy[/y	/m-ġ-y/	vb G inf.	to come	
 # KTU 2.71 17						
 158954	b	b	b	prep.	in	
-158955	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. abs. nom. sg.	city	
-158955	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg. abs. nom.	naked	
-158956	ḥpr	ḥpr/	ḥpr	n. m. pl. cstr. nom.	ration(s)	
-158956	ḥpr	ḥpr/	ḥpr	n. m. sg. cstr. nom.	ration(s)	
+158955	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. abs. gen. sg.	city	
+158955	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg. abs. gen.	naked	
+158956	ḥpr	ḥpr/	ḥpr	n. m. pl. cstr. gen.	ration(s)	
+158956	ḥpr	ḥpr/	ḥpr	n. m. sg. cstr. gen.	ration(s)	
 # KTU 2.71 18						
 158957	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg. cstr. nom.	party	
 158957	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg. abs. nom.	time	

@@ -19,10 +19,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 3						
 154656	ry	?	?	?	?	DULAT: NOT FOUND
 154657	b	b	b	prep.	in	
-154658	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-154658	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-154659	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-154659	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+154658	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
+154658	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+154659	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+154659	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 1.132 4						
 154660	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
 154661	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
@@ -87,9 +87,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 16						
 154690	kmm	kmm	kmm	adv.	ditto	
 154691	l	l(I)	l (I)	prep.	to	
-154692	pn	pn(m/	pnm	n. m. pl. tant.	in front	
+154692	pn	pn(m/	pnm	n. m. pl. tant. gen.	in front	
 # KTU 1.132 17						
-154693	ll	ll(I)/	ll (I)	n. m. sg. abs. nom.	night	
+154693	ll	ll(I)/	ll (I)	n. m. sg. abs. gen.	night	
 154694	ˤṣrmm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.132 18						
 154695	in	in/	ỉn	n. m. sg. abs. nom.	lack of	

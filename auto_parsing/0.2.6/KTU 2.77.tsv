@@ -7,8 +7,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159224	ax	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 3						
 159225	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159226	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-159226	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+159226	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+159226	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 159227	x	?	?	?	?	
 # KTU 2.77 4						
 159228	mitm	mit/m	mỉt	n. f. pl. abs. nom.	a hundred	
@@ -68,8 +68,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159261	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 17						
 159262	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-159263	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
-159263	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+159263	pr	pr(II)/	pr (II)	n. m. sg. abs. gen.	young bull	
+159263	pr	pr(I)/	pr (I)	n. m. sg. abs. gen.	fruit	
 # KTU 2.77 18						
 159264	ḥd	ḥdy[	/ḥ-d-y/	vb G impv. 2	to see	
 159265	mlx	?	?	?	?	DULAT: NOT FOUND

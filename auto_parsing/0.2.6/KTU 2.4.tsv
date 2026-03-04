@@ -21,8 +21,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156397	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156397	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156398	lk	l(I)+k	l (I)	prep.	to	
-156399	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-156399	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+156399	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+156399	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.4 5						
 156400	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 156401	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
@@ -109,8 +109,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 22						
 156442	w	w	w	conj.	and	
 156443	bd	b	b	prep.	in	
-156444	ytrhd	ytrhd/	ytrhd	PN sg. abs. nom.	ytrhd	
+156444	ytrhd	ytrhd/	ytrhd	PN sg. abs. gen.	ytrhd	
 # KTU 2.4 23						
-156445	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-156445	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-156445	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+156445	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+156445	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+156445	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	

@@ -24,8 +24,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145159	y	+y, [y	-y (I)	prep. functor	my	
 145159	y	~y	-y (II)	prep. functor	indeed	
 145159	y	y	y	prep. functor	oh!	
-145160	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-145160	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+145160	ilm	il(I)/~m	ỉl (I)	n. m. abs. gen. sg.	god	
+145160	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 145161	xxxxxxxx	?	?	?	?	
 # KTU 1.18 I:8						
 145162	xxxxxx	?	?	?	?	
@@ -76,9 +76,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145188	yˤḏrk	!y!ˤḏr[k	/ʕ-ḏ-r/	vb G prefc. 3 m. sg.	to help	
 145188	yˤḏrk	yˤḏrk[	/ʕ-ḏ-r/	vb G suffc. 3 m. sg.	to help	
 145189	b	b	b	prep.	in	
-145190	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-145191	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
-145192	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+145190	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
+145191	btlt	btl(t/t	btlt	n. f. sg. abs. gen.	virgin	
+145192	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 145193	xxx	?	?	?	?	
 # KTU 1.18 I:15						
 145194	w	w	w	conj.	and	
@@ -102,7 +102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145203	w	w	w	conj.	and	
 145204	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 145205	b	b	b	prep.	in	
-145206	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. abs. nom.	goddess	
+145206	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. abs. gen.	goddess	
 # KTU 1.18 I:17						
 145207	qlṣxxk	?	?	?	?	DULAT: NOT FOUND
 145208	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go	
@@ -127,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145220	diṯ	?	?	?	?	DULAT: NOT FOUND
 145221	b	b	b	prep.	in	
 # KTU 1.18 I:19						
-145222	irtk	ir(t/t+k	ỉrt	n. f. sg. cstr. nom.	breast	
+145222	irtk	ir(t/t+k	ỉrt	n. f. sg. cstr. gen.	breast	
 145223	dṯ	!!dṯ[/	/d-ṯ/	vb G inf.	to smash	
 145224	ydṯ	!y!dṯ[	/d-ṯ/	vb G prefc. 3 m. sg.	to smash	
 145225	mˤqbk	ˤqb[bk	/ʕ-q-b/	vb D suffc.	to accept or perform a property transfer	
@@ -145,8 +145,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145232	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.18 I:21						
 145233	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-145234	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
-145235	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	lad	
+145234	aqht	aqht/	ảqht	PN sg. abs. gen.	Most Obedient	
+145235	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 145236	b	b	b	prep.	in	
 145237	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
 145237	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
@@ -319,16 +319,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145342	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 145342	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 145343	b	b	b	prep.	in	
-145344	qrn	qrn/	qrn	n. f. du. abs. nom.	horn	
-145344	qrn	qrn/	qrn	n. f. sg. abs. nom.	horn	
-145345	šmalh	šmal/h	šmảl	adj. m. sg. abs. nom.	left	
+145344	qrn	qrn/	qrn	n. f. du. abs. gen.	horn	
+145344	qrn	qrn/	qrn	n. f. sg. abs. gen.	horn	
+145345	šmalh	šmal/h	šmảl	adj. m. sg. abs. gen.	left	
 # KTU 1.18 IV:10						
 145346	b	b	b	prep.	in	
-145347	qrn	qrn/	qrn	n. f. du. abs. nom.	horn	
-145347	qrn	qrn/	qrn	n. f. sg. abs. nom.	horn	
-145348	ymnh	ymn(I)/h	ymn (I)	n. m. sg. abs. nom.	right (side)	
+145347	qrn	qrn/	qrn	n. f. du. abs. gen.	horn	
+145347	qrn	qrn/	qrn	n. f. sg. abs. gen.	horn	
+145348	ymnh	ymn(I)/h	ymn (I)	n. m. sg. abs. gen.	right (side)	
 145349	b	b	b	prep.	in	
-145350	anšt	anš(t/t	ảnšt	n. f. sg. abs. nom.	illness	
+145350	anšt	anš(t/t	ảnšt	n. f. sg. abs. gen.	illness	
 145351	xxxxxxxxx	?	?	?	?	
 # KTU 1.18 IV:11						
 145352	qdqdh	qdqd/h	qdqd	n. m. sg. abs. nom.	skull	
@@ -383,7 +383,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145377	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt suffc.	to remain	
 145377	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt impv. 2	to remain	
 145378	b	b	b	prep.	in	
-145379	ḏdm	ḏd(II)/m	ḏd (II)	n. m. pl. abs. nom.	grotto	
+145379	ḏdm	ḏd(II)/m	ḏd (II)	n. m. pl. abs. gen.	grotto	
 145380	w	w	w	conj.	and	
 145381	nˤrs	!n!ˤrs[	/ʕ-r-s/	vb G prefc. 1 c. pl.	to rejoice	
 145382	xxxx	?	?	?	?	
@@ -403,10 +403,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145390	lk	l(I)+k	l (I)	prep.	to	
 145391	aštk	!(ʔ&a!št[k	/š-t/	vb G prefc. 1 c. sg.	to place	
 145392	km	km	km	prep./conj./adv.		
-145393	nšr	nšr/	nšr	n. m. sg. abs. nom.	bird of prey	
+145393	nšr	nšr/	nšr	n. m. sg. abs. gen.	bird of prey	
 145394	b	b	b	prep.	in	
-145395	ḥbšy	ḥbš(I)/y	ḥbš (I)	n. m. abs. nom.	cinch	
-145395	ḥbšy	ḥbš(I)/+y	ḥbš (I)	n. m. cstr. nom.	cinch	
+145395	ḥbšy	ḥbš(I)/y	ḥbš (I)	n. m. abs. gen.	cinch	
+145395	ḥbšy	ḥbš(I)/+y	ḥbš (I)	n. m. cstr. gen.	cinch	
 # KTU 1.18 IV:18						
 145396	km	k(III)	k (III)	functor	when	
 145396	km	k(I)	k (I)	prep.	like	
@@ -415,8 +415,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145396	km	+km, +km=	-km			
 145397	diy	diy(I)/	dỉy (I)	n. m. sg. abs. nom.	hawk	
 145398	b	b	b	prep.	in	
-145399	tˤrty	tˤr(t/t+y	tʕrt	n. f. sg. cstr. nom.	sheath	
-145400	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
+145399	tˤrty	tˤr(t/t+y	tʕrt	n. f. sg. cstr. gen.	sheath	
+145400	aqht	aqht/	ảqht	PN sg. abs. gen.	Most Obedient	
 145401	km	k(III)	k (III)	functor	when	
 145401	km	k(I)	k (I)	prep.	like	
 145401	km	k(IV)	k (IV)	adv.	thus	
@@ -453,7 +453,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:21						
 145415	iym	iy+m(I)	ỉy	interr. adv.	where?	
 145416	bn	bn(II)	bn (II)	prep.	between	
-145417	nšrm	nšr/m	nšr	n. m. pl. abs. nom.	bird of prey	
+145417	nšrm	nšr/m	nšr	n. m. pl. abs. gen.	bird of prey	
 145418	arḫp	!(ʔ&a!rḫp[:d	/r-ḫ-p/	vb D prefc. 1 c. sg.	to hover	
 145419	ank	ank	ảnk	pers. pn.	I	
 145420	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -477,18 +477,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145428	udn	udn(I)/	ủdn (I)	n. m. sg. abs. nom.	ear	
 145429	špk	špk[	/š-p-k/	vb G impv. 2	to spill	
 145430	km	km	km	prep./conj./adv.		
-145431	šiy	šiy(I)/	šỉy (I)	adj. m. sg. abs. nom.	assassin	
+145431	šiy	šiy(I)/	šỉy (I)	adj. m. sg. abs. gen.	assassin	
 # KTU 1.18 IV:24						
-145432	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
+145432	dm	dm(II)/	dm (II)	n. m. sg. abs. gen.	blood	
 145433	km	km	km	prep./conj./adv.		
-145434	šḫṭ	šḫṭ/	šḫṭ	n. m. sg. abs. nom.	butcher	
+145434	šḫṭ	šḫṭ/	šḫṭ	n. m. sg. abs. gen.	butcher	
 145435	l	l(I)	l (I)	prep.	to	
-145436	brkh	brk/+h	brk	n. f. cstr. nom.	knee	
+145436	brkh	brk/+h	brk	n. f. cstr. gen.	knee	
 145437	tṣi	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 145438	km	km	km	prep./conj./adv.		
 # KTU 1.18 IV:25						
-145439	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. nom.	wind	
-145440	npšh	npš(I)/+h	npš (I)	n. f. cstr. nom.	throat	
+145439	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. gen.	wind	
+145440	npšh	npš(I)/+h	npš (I)	n. f. cstr. gen.	throat	
 145441	km	k(III)	k (III)	functor	when	
 145441	km	k(I)	k (I)	prep.	like	
 145441	km	k(IV)	k (IV)	adv.	thus	
@@ -504,7 +504,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:26						
 145445	qṭr	qṭr/	qṭr	n. m. sg. abs. nom.	smoke	
 145446	b	b	b	prep.	in	
-145447	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
+145447	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 145448	u	u	ủ	conj.	or	
 145449	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 145450	mprh	mhr(II)/	mhr (II)	n. m. abs. nom.	warrior strength	
@@ -526,7 +526,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145459	k	k(II)	k (II)	emph. functor	yes	
 145460	nšr	nšr/	nšr	n. m. sg. abs. nom.	bird of prey	
 145461	b	b	b	prep.	in	
-145462	ḥbšh	ḥbš(I)/h	ḥbš (I)	n. m. sg. abs. nom.	cinch	
+145462	ḥbšh	ḥbš(I)/h	ḥbš (I)	n. m. sg. abs. gen.	cinch	
 145463	km	k(III)	k (III)	functor	when	
 145463	km	k(I)	k (I)	prep.	like	
 145463	km	k(IV)	k (IV)	adv.	thus	
@@ -536,8 +536,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145464	diy	diy(I)/	dỉy (I)	n. m. sg. abs. nom.	hawk	
 # KTU 1.18 IV:29						
 145465	b	b	b	prep.	in	
-145466	tˤrth	tˤr(t/t+h	tʕrt	n. f. sg. cstr. nom.	sheath	
-145467	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
+145466	tˤrth	tˤr(t/t+h	tʕrt	n. f. sg. cstr. gen.	sheath	
+145467	aqht	aqht/	ảqht	PN sg. abs. gen.	Most Obedient	
 145468	km	km	km	prep./conj./adv.		
 145469	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 145469	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
@@ -559,7 +559,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145475	ṯrm	ṯr(I)/m	ṯr (I)	n. m. pl. abs. nom.	bull	
 145475	ṯrm	!!ṯrm[/	/ṯ-r-m/	vb G inf.	to break	
 145476	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
-145477	nšrm	nšr/m	nšr	n. m. pl. abs. nom.	bird of prey	
+145477	nšrm	nšr/m	nšr	n. m. pl. abs. gen.	bird of prey	
 # KTU 1.18 IV:31						
 145478	trḫpn	!t!rḫp[n:d	/r-ḫ-p/	vb D prefc.	to hover	
 145479	ybṣr	!y!bṣr(I)[	/b-ṣ-r/ (I)	vb G prefc. 3 m. sg.	to watch	
@@ -575,7 +575,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145484	trḫp	!t!rḫp[:d:w	/r-ḫ-p/	vb D prefc. 3 m. pl.	to hover	
 145485	xˤnt	?	?	?	?	DULAT: NOT FOUND
 145486	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-145487	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
+145487	aqht	aqht/	ảqht	PN sg. abs. gen.	Most Obedient	
 # KTU 1.18 IV:33						
 145488	tˤdbnh	!t!ˤdb[nh	/ʕ-d-b/	vb G prefc.	to leave > to put in	
 145488	tˤdbnh	tˤdbnh[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to leave > to put in	
@@ -587,7 +587,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:34						
 145492	ṯlṯid	ṯlṯid	ṯlṯỉd	adv.	three times	
 145493	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-145494	udn	udn(I)/	ủdn (I)	n. m. sg. abs. nom.	ear	
+145494	udn	udn(I)/	ủdn (I)	n. m. sg. abs. gen.	ear	
 145495	špk	špk[	/š-p-k/	vb G impv. 2	to spill	
 145496	km	k(III)	k (III)	functor	when	
 145496	km	k(I)	k (I)	prep.	like	
@@ -636,8 +636,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145514	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 145514	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 145515	b	b	b	prep.	in	
-145516	ṣmt	ṣmt/	ṣmt	n. m. sg. cstr. nom.	destruction	
-145517	mhrh	mhr(II)/+h	mhr (II)	n. m. sg. cstr. nom.	warrior strength	
+145516	ṣmt	ṣmt/	ṣmt	n. m. sg. cstr. gen.	destruction	
+145517	mhrh	mhr(II)/+h	mhr (II)	n. m. sg. cstr. gen.	warrior strength	
 145518	xxxxx	?	?	?	?	
 # KTU 1.18 IV:39						
 145519	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
