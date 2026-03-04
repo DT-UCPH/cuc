@@ -31,6 +31,32 @@ class TabletParsingPipelineTest(unittest.TestCase):
             self.assertNotIn("formula-trigram", [step.name for step in pipeline._refinement_steps])
             self.assertNotIn("formula-bigram", [step.name for step in pipeline._refinement_steps])
 
+    def test_pipeline_uses_integrated_spacy_offering_context_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual(
+                [step.name for step in pipeline.offering_context_steps],
+                ["spacy-offering-context"],
+            )
+            self.assertNotIn(
+                "offering-l-prep",
+                [step.name for step in pipeline._refinement_steps],
+            )
+
     def test_pipeline_uses_integrated_spacy_l_context_step(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
@@ -337,7 +363,11 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("spacy-formula-context"),
-                names.index("offering-l-prep"),
+                names.index("spacy-offering-context"),
+            )
+            self.assertLess(
+                names.index("spacy-offering-context"),
+                names.index("spacy-l-context"),
             )
             self.assertLess(
                 names.index("known-ambiguity-expander"),

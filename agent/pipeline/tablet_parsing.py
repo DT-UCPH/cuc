@@ -13,6 +13,7 @@ from pipeline.formula_context_step_factory import build_spacy_formula_context_st
 from pipeline.instruction_refiner import InstructionRefiner
 from pipeline.k_context_step_factory import build_spacy_k_context_steps
 from pipeline.l_context_step_factory import build_spacy_l_context_steps
+from pipeline.offering_context_step_factory import build_spacy_offering_context_steps
 from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_reference_disambiguator import AttestationReferenceDisambiguator
 from pipeline.steps.attestation_sort import AttestationSortFixer
@@ -33,7 +34,6 @@ from pipeline.steps.ktu1_family_homonym_pruner import Ktu1FamilyHomonymPruner
 from pipeline.steps.nominal_case_ending_yh import NominalCaseEndingYHFixer
 from pipeline.steps.nominal_form_morph_pos import NominalFormMorphPosFixer
 from pipeline.steps.noun_closure import NounPosClosureFixer
-from pipeline.steps.offering_l_prep import OfferingListLPrepFixer
 from pipeline.steps.onomastic_gloss import OnomasticGlossOverrideFixer
 from pipeline.steps.plural_split import PluralSplitFixer
 from pipeline.steps.plurale_tantum_m import PluraleTantumMFixer
@@ -92,8 +92,10 @@ class TabletParsingPipeline:
             NounPosClosureFixer(),
         ]
         self._formula_context_steps: List[RefinementStep] = build_spacy_formula_context_steps()
-        self._post_formula_context_steps: List[RefinementStep] = [
-            OfferingListLPrepFixer(),
+        self._post_formula_context_steps: List[RefinementStep] = []
+        self._pre_offering_context_steps: List[RefinementStep] = []
+        self._offering_context_steps: List[RefinementStep] = build_spacy_offering_context_steps()
+        self._post_offering_context_steps: List[RefinementStep] = [
             PluralSplitFixer(gate=self.morph_gate),
             PluraleTantumMFixer(gate=self.morph_gate),
             FeminineTSingularSplitFixer(gate=self.morph_gate),
@@ -160,6 +162,9 @@ class TabletParsingPipeline:
             *self._pre_formula_context_steps,
             *self._formula_context_steps,
             *self._post_formula_context_steps,
+            *self._pre_offering_context_steps,
+            *self._offering_context_steps,
+            *self._post_offering_context_steps,
             *self._pre_l_context_steps,
             *self._l_context_steps,
             *self._pre_k_context_steps,
@@ -177,7 +182,46 @@ class TabletParsingPipeline:
 
     @property
     def post_formula_context_steps(self) -> Sequence[RefinementStep]:
-        return tuple(self._post_formula_context_steps)
+        return tuple(
+            [
+                *self._post_formula_context_steps,
+                *self._pre_offering_context_steps,
+                *self._offering_context_steps,
+                *self._post_offering_context_steps,
+                *self._pre_l_context_steps,
+                *self._l_context_steps,
+                *self._pre_k_context_steps,
+                *self._k_context_steps,
+                *self._post_k_context_steps,
+            ]
+        )
+
+    @property
+    def pre_offering_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._pre_formula_context_steps,
+                *self._formula_context_steps,
+                *self._post_formula_context_steps,
+            ]
+        )
+
+    @property
+    def offering_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._offering_context_steps)
+
+    @property
+    def post_offering_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._post_offering_context_steps,
+                *self._pre_l_context_steps,
+                *self._l_context_steps,
+                *self._pre_k_context_steps,
+                *self._k_context_steps,
+                *self._post_k_context_steps,
+            ]
+        )
 
     @property
     def pre_l_context_steps(self) -> Sequence[RefinementStep]:
@@ -186,6 +230,9 @@ class TabletParsingPipeline:
                 *self._pre_formula_context_steps,
                 *self._formula_context_steps,
                 *self._post_formula_context_steps,
+                *self._pre_offering_context_steps,
+                *self._offering_context_steps,
+                *self._post_offering_context_steps,
             ]
         )
 

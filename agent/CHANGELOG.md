@@ -959,3 +959,5 @@
 - Added `agent/project_paths.py` to centralize migrated path resolution for local databases, reports, raw sources, and generated TSV outputs in the new `cuc-origin` layout.
 - Updated migrated entrypoints (`scripts/run_tablet_parsing_pipeline.py`, `scripts/generate_lint_reports.py`, `scripts/build_dulat_attestation_index.py`, `scripts/token_ref_index.py`, `scripts/bootstrap_tablet_labeling.py`, `scripts/refine_results_mentions.py`, `scripts/extract_notarius_evidence.py`, `scripts/notarius_refinement_pass.py`, `linter/lint.py`, and `pipeline/steps/ktu1_family_homonym_pruner.py`) to use agent-local path defaults instead of the old `sources/`, `out/`, and `reports/` layout.
 - Added regression tests for migrated path resolution (`tests/test_project_paths.py`) and copied required local-only runtime assets into ignored `agent/local_sources/`.
+
+- Replaced the legacy `OfferingListLPrepFixer` pipeline step with a row-level spaCy `spacy-offering-context` component, added an offering strategy comparison harness, and kept exact-output equivalence against the legacy offering-list normalization before activating the new step.
