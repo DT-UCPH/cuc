@@ -10,6 +10,7 @@ from lint_reports.generator import LintReportGenerator
 from pipeline.config.surface_option_allowlist import SURFACE_OPTION_PROPAGATION_ALLOWLIST
 from pipeline.dulat_attestation_index import DulatAttestationIndex
 from pipeline.instruction_refiner import InstructionRefiner
+from pipeline.k_context_step_factory import build_spacy_k_context_steps
 from pipeline.l_context_step_factory import build_spacy_l_context_steps
 from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_reference_disambiguator import AttestationReferenceDisambiguator
@@ -28,7 +29,6 @@ from pipeline.steps.formula_trigram import FormulaTrigramFixer
 from pipeline.steps.function_word_clitic_pruner import FunctionWordCliticPruner
 from pipeline.steps.generic_parsing_override import GenericParsingOverrideFixer
 from pipeline.steps.iii_aleph_case_fixer import IIIAlephCaseFixer
-from pipeline.steps.k_functor_bigram_context import KFunctorBigramContextDisambiguator
 from pipeline.steps.known_ambiguities import KnownAmbiguityExpander
 from pipeline.steps.ktu1_family_homonym_pruner import Ktu1FamilyHomonymPruner
 from pipeline.steps.nominal_case_ending_yh import NominalCaseEndingYHFixer
@@ -136,8 +136,9 @@ class TabletParsingPipeline:
             ),
         ]
         self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps()
-        self._post_l_context_steps: List[RefinementStep] = [
-            KFunctorBigramContextDisambiguator(),
+        self._pre_k_context_steps: List[RefinementStep] = []
+        self._k_context_steps: List[RefinementStep] = build_spacy_k_context_steps()
+        self._post_k_context_steps: List[RefinementStep] = [
             YdkContextDisambiguator(),
             PrefixedIIIAlephVerbFixer(),
             VerbPosStemFixer(dulat_db=self.config.dulat_db),
@@ -157,7 +158,9 @@ class TabletParsingPipeline:
         self._refinement_steps: List[RefinementStep] = [
             *self._pre_l_context_steps,
             *self._l_context_steps,
-            *self._post_l_context_steps,
+            *self._pre_k_context_steps,
+            *self._k_context_steps,
+            *self._post_k_context_steps,
         ]
 
     @property
@@ -170,7 +173,25 @@ class TabletParsingPipeline:
 
     @property
     def post_l_context_steps(self) -> Sequence[RefinementStep]:
-        return tuple(self._post_l_context_steps)
+        return tuple(
+            [
+                *self._pre_k_context_steps,
+                *self._k_context_steps,
+                *self._post_k_context_steps,
+            ]
+        )
+
+    @property
+    def pre_k_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._pre_k_context_steps)
+
+    @property
+    def k_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._k_context_steps)
+
+    @property
+    def post_k_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._post_k_context_steps)
 
     def discover_source_files(self) -> List[Path]:
         return sorted(self.config.source_dir.glob(self.config.source_glob))

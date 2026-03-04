@@ -29,6 +29,29 @@ class TabletParsingPipelineTest(unittest.TestCase):
                 "l-negation-verb-context", [step.name for step in pipeline._refinement_steps]
             )
 
+    def test_pipeline_uses_integrated_spacy_k_context_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual([step.name for step in pipeline.k_context_steps], ["spacy-k-context"])
+            self.assertNotIn(
+                "k-functor-bigram-context",
+                [step.name for step in pipeline._refinement_steps],
+            )
+
     def test_default_glob_includes_ktu2_family(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
@@ -294,10 +317,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("spacy-l-context"),
-                names.index("k-functor-bigram-context"),
+                names.index("spacy-k-context"),
             )
             self.assertLess(
-                names.index("k-functor-bigram-context"),
+                names.index("spacy-k-context"),
                 names.index("ydk-context-disambiguator"),
             )
             self.assertLess(

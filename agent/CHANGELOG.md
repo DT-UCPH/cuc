@@ -2,6 +2,9 @@
 # Changelog
 
 ## 2026-03-04
+- Replaced the legacy `k-functor-bigram-context` step with a spaCy-backed `pipeline/steps/spacy_k_context.py` pass, added `pipeline/k_context_step_factory.py`, and introduced `scripts/compare_k_context_strategies.py` for exact-output comparison against the historical `k` step.
+- Added focused coverage in `tests/test_spacy_k_context.py`, exact-output equivalence coverage in `tests/test_spacy_k_context_step.py`, and updated `tests/test_tablet_parsing_pipeline.py` for the new `spacy-k-context` slot.
+- Ran the corpus comparison across all `278` target tablets after the swap: `0` output diffs versus the legacy `k` step.
 - Moved the spaCy-based parser support code out of the `agent/` root into the dedicated `agent/spacy_ugaritic/` package so parser-related modules no longer live as top-level files.
 - Replaced the five-step legacy `l`-context chain (`l-negation-verb-context`, `l-functor-vocative-context`, `l-kbd-compound-prep`, `l-body-compound-prep`, `l-preposition-bigram-context`) with a single document-level `pipeline/steps/spacy_l_context.py` pass backed by the isolated spaCy spike.
 - Split `TabletParsingPipeline` into explicit pre-`l`, `l`, and post-`l` sections so the `l` strategy can be compared and swapped independently.
