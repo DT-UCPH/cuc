@@ -63,6 +63,16 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         row = TabletRow("1", "mlk", "mlk/", "mlk", "n. m.", "king", "")
         self.assertEqual(fixer.refine_row(row), row)
 
+    def test_uses_pattern_candidates_when_analysis_lacks_explicit_png(self) -> None:
+        completer = VerbalFeatureCompleter(
+            _FakeReader({("tṯkḥ", "/ṯ-k-ḥ/"): _Features(("prefc",))})
+        )
+        row = TabletRow("139782", "tṯkḥ", "!t!ṯkḥ[", "/ṯ-k-ḥ/", "vb G prefc.", "to burn", "")
+        rewritten = rewrite_row(row, completer)
+        self.assertIn("vb G prefc. 3 f. sg.", rewritten.pos)
+        self.assertIn("vb G prefc. 3 m. du.", rewritten.pos)
+        self.assertIn("vb G prefc. 3 m. pl.", rewritten.pos)
+
 
 if __name__ == "__main__":
     unittest.main()

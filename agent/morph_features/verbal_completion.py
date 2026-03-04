@@ -12,6 +12,7 @@ from morph_features.analysis_decoder import (
 )
 from morph_features.dulat_feature_reader import DulatFeatureReader
 from morph_features.feature_bundle_builder import build_verbal_bundle
+from morph_features.paradigm_matcher import generate_verbal_candidates
 from morph_features.pos_renderer import render_pos
 from morph_features.types import CompletedVariant
 from pipeline.steps.analysis_utils import reconstruct_surface_from_analysis
@@ -49,27 +50,34 @@ class VerbalFeatureCompleter:
 
         variants: list[CompletedVariant] = []
         for form in forms:
+            candidates = self._pattern_candidates(
+                row=row,
+                stem=stems[0],
+                form=form,
+            )
+            if candidates:
+                variants.extend(candidates)
+                continue
             analysis_variant = self._analysis_for_form(row, form)
             decoded = decode_analysis(analysis_variant)
             person, gender, number = self._features_for_form(form, decoded)
-            bundle = build_verbal_bundle(
-                stem=stems[0],
-                form=form,
-                person=person,
-                gender=gender,
-                number=number,
-                source="analysis+dulat",
-                confidence="high" if person or gender or number else "medium",
-                has_enclitic=decoded.has_enclitic,
-                enclitic_type=decoded.enclitic_marker,
-            )
             variants.append(
                 CompletedVariant(
                     analysis=analysis_variant,
                     dulat=row.dulat,
                     gloss=row.gloss,
                     comment=row.comment,
-                    features=bundle,
+                    features=build_verbal_bundle(
+                        stem=stems[0],
+                        form=form,
+                        person=person,
+                        gender=gender,
+                        number=number,
+                        source="analysis+dulat",
+                        confidence="high" if person or gender or number else "medium",
+                        has_enclitic=decoded.has_enclitic,
+                        enclitic_type=decoded.enclitic_marker,
+                    ),
                 )
             )
 
@@ -154,6 +162,45 @@ class VerbalFeatureCompleter:
         if form in {"act. ptcpl.", "pass. ptcpl.", "ptcpl."}:
             return ("", "m.", "sg.")
         return ("", "", "")
+
+    def _pattern_candidates(
+        self,
+        *,
+        row: TabletRow,
+        stem: str,
+        form: str,
+    ) -> list[CompletedVariant]:
+        analysis_variant = self._analysis_for_form(row, form)
+        decoded = decode_analysis(analysis_variant)
+        explicit = self._features_for_form(form, decoded)
+        if any(explicit):
+            return []
+        candidates = generate_verbal_candidates(
+            surface=row.surface,
+            dulat=row.dulat,
+            stem=stem,
+            conjugation=form,
+        )
+        variants: list[CompletedVariant] = []
+        for candidate in candidates:
+            variants.append(
+                CompletedVariant(
+                    analysis=candidate.analysis,
+                    dulat=row.dulat,
+                    gloss=row.gloss,
+                    comment=row.comment,
+                    features=build_verbal_bundle(
+                        stem=stem,
+                        form=form,
+                        person=candidate.person,
+                        gender=candidate.gender,
+                        number=candidate.number,
+                        source="morphology-pattern",
+                        confidence="medium",
+                    ),
+                )
+            )
+        return variants
 
 
 def rewrite_row(row: TabletRow, completer: VerbalFeatureCompleter) -> TabletRow:
