@@ -46,6 +46,22 @@ class LinterFeatureValidationTest(unittest.TestCase):
         messages = self._lint_messages("1\tggt\tgg/t=\tgg\tn.\troofs\t\n")
         self.assertIn("Nominal POS is missing explicit morphology from analysis: f. pl.", messages)
 
+    def test_errors_when_t_split_conflicts_with_plural_pos(self) -> None:
+        messages = self._lint_messages("1\tġrt\tġr(t(I)/t\tġrt (I)\tn. f. pl. cstr. gen.\trock\t\n")
+        self.assertIn(
+            "Nominal POS conflicts with analysis: '/t' marks feminine singular but POS is plural",
+            messages,
+        )
+
+    def test_errors_when_t_equals_split_conflicts_with_singular_pos(self) -> None:
+        messages = self._lint_messages(
+            "1\tġrt\tġr(t(I)/t=\tġrt (I)\tn. f. sg. cstr. gen.\trock\t\n"
+        )
+        self.assertIn(
+            "Nominal POS conflicts with analysis: '/t=' marks feminine plural but POS is singular",
+            messages,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

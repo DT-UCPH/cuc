@@ -10,6 +10,9 @@ PACKED_MSG = (
     "Semicolon-packed variants are not allowed in out/*.tsv; split each option into its own row"
 )
 DUPLICATE_MSG = "Duplicate unwrapped row payload (same id, surface, and col3-col6)"
+SEMANTIC_DUPLICATE_MSG = (
+    "Duplicate feature bundle with different analysis (same id, surface, and col4-col6)"
+)
 
 
 class LinterUnwrappedRowsTest(unittest.TestCase):
@@ -49,6 +52,14 @@ class LinterUnwrappedRowsTest(unittest.TestCase):
         messages = [issue.message for issue in issues]
         self.assertFalse(any(DUPLICATE_MSG in message for message in messages))
         self.assertNotIn(PACKED_MSG, messages)
+
+    def test_flags_semantic_duplicate_with_different_analysis(self) -> None:
+        issues = self._lint(
+            "1\tġrt\tġr(t(I)/t\tġrt (I)\tn. f. pl. cstr. gen.\trock\t\n"
+            "1\tġrt\tġr(t(I)/t=\tġrt (I)\tn. f. pl. cstr. gen.\trock\t\n"
+        )
+        messages = [issue.message for issue in issues]
+        self.assertTrue(any(SEMANTIC_DUPLICATE_MSG in message for message in messages))
 
 
 if __name__ == "__main__":

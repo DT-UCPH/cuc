@@ -1880,6 +1880,7 @@ def lint_file(
     seen_pairs: List[Tuple[str, Tuple[str, str]]] = []
     token_rows: List[Dict[str, str]] = []
     seen_unwrapped_row_payloads: Dict[Tuple[str, str, str, str, str, str], int] = {}
+    seen_unwrapped_semantic_payloads: Dict[Tuple[str, str, str, str, str], Tuple[int, str]] = {}
     entry_index: Dict[Tuple[str, str], set] = {}
     entry_gender_index: Dict[Tuple[str, str], set] = {}
     entry_morph_index: Dict[int, set] = {}
@@ -1975,7 +1976,17 @@ def lint_file(
             continue
 
         line_id, surface, analysis = parts[0], parts[1], parts[2]
-        if is_out_tsv_file and len(parts) >= 6 and has_semicolon_packed_variants(parts):
+        in_cuc_dir = "cuc_tablets_tsv" in str(path)
+        is_raw_cuc_row = False
+        if input_format == "cuc_tablets_tsv":
+            is_raw_cuc_row = is_cuc_placeholder_row(parts)
+        elif input_format == "auto":
+            is_raw_cuc_row = is_cuc_placeholder_row(parts) and (
+                in_cuc_dir or path.suffix.lower() == ".tsv"
+            )
+        is_labeled_parsed_row = (len(parts) >= 6) and not is_raw_cuc_row
+
+        if is_labeled_parsed_row and has_semicolon_packed_variants(parts):
             issues.append(
                 Issue(
                     "error",
@@ -1987,7 +1998,7 @@ def lint_file(
                     "Semicolon-packed variants are not allowed in out/*.tsv; split each option into its own row",
                 )
             )
-        if is_out_tsv_file and len(parts) >= 6:
+        if is_labeled_parsed_row:
             payload_key = (
                 line_id.strip(),
                 surface.strip(),
@@ -2012,14 +2023,33 @@ def lint_file(
                 )
             else:
                 seen_unwrapped_row_payloads[payload_key] = i
-        in_cuc_dir = "cuc_tablets_tsv" in str(path)
-        is_raw_cuc_row = False
-        if input_format == "cuc_tablets_tsv":
-            is_raw_cuc_row = is_cuc_placeholder_row(parts)
-        elif input_format == "auto":
-            is_raw_cuc_row = is_cuc_placeholder_row(parts) and (
-                in_cuc_dir or path.suffix.lower() == ".tsv"
+            semantic_key = (
+                line_id.strip(),
+                surface.strip(),
+                (parts[3] or "").strip(),
+                (parts[4] or "").strip(),
+                (parts[5] or "").strip(),
             )
+            first_seen_semantic = seen_unwrapped_semantic_payloads.get(semantic_key)
+            current_analysis = (parts[2] or "").strip()
+            if first_seen_semantic is not None:
+                first_line, first_analysis = first_seen_semantic
+                if first_analysis != current_analysis:
+                    issues.append(
+                        Issue(
+                            "error",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            analysis,
+                            "Duplicate feature bundle with different analysis "
+                            "(same id, surface, and col4-col6); "
+                            f"first seen on line {first_line}",
+                        )
+                    )
+            else:
+                seen_unwrapped_semantic_payloads[semantic_key] = (i, current_analysis)
 
         analysis_variants = [analysis.strip()] if analysis.strip() else [analysis]
         declared_head: Optional[str] = None

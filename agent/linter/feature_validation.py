@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import re
+
 from morph_features.analysis_decoder import (
     decode_analysis,
     explicit_prefix_features,
@@ -9,6 +11,8 @@ from morph_features.analysis_decoder import (
 )
 
 _NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
+_SPLIT_T_PLURAL_RE = re.compile(r"/t=(?=\s*$|[+;,~])")
+_SPLIT_T_SINGULAR_RE = re.compile(r"/t(?=\s*$|[+;,~])")
 
 
 def inferable_feature_issues(analysis: str, pos_field: str) -> list[str]:
@@ -47,15 +51,28 @@ def nominal_feature_issues(analysis: str, pos_field: str) -> list[str]:
     if not _is_nominal_pos(pos):
         return []
 
+    has_t_plural_split = _SPLIT_T_PLURAL_RE.search(analysis) is not None
+    has_t_singular_split = (
+        not has_t_plural_split and _SPLIT_T_SINGULAR_RE.search(analysis) is not None
+    )
+
+    conflicts: list[str] = []
+    if has_t_plural_split and "sg." in pos and "pl." not in pos:
+        conflicts.append("'/t=' marks feminine plural but POS is singular")
+    if has_t_singular_split and "pl." in pos and "sg." not in pos:
+        conflicts.append("'/t' marks feminine singular but POS is plural")
+    if conflicts:
+        return ["Nominal POS conflicts with analysis: " + "; ".join(conflicts)]
+
     expected: list[str] = []
     if "/tm" in analysis and "du." not in pos:
         expected.append("du.")
-    elif "/t=" in analysis:
+    elif has_t_plural_split:
         if "f." not in pos:
             expected.append("f.")
         if "pl." not in pos:
             expected.append("pl.")
-    elif "/t" in analysis and "f." not in pos:
+    elif has_t_singular_split and "f." not in pos:
         expected.append("f.")
     if analysis.endswith("/m") and "pl." not in pos:
         expected.append("pl.")

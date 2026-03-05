@@ -993,3 +993,6 @@
 - Refined `VerbalFeatureCompleter` to expand under-specified suffix-conjugation rows (`...[` with no visible suffix marker) via pattern candidates when the generated analyses do not include the current bare analysis.
 - Extended `spacy_morph_context` with a second-singular agreement rule: after `ảt (I)` personal pronoun context, mixed suffix-conjugation bundles are pruned to `2 sg.` verbal candidates.
 - Re-ran `KTU 1.2` parsing and confirmed `136034 ypˤt` resolves to the four second-singular candidates (`G/N 2 m. sg.` and `G/N 2 f. sg.`), with non-`2 sg.` variants removed by context.
+- Added strict linter sanity checks for feminine ending consistency: `'/t'` now errors when paired with plural-only POS, and `'/t='` now errors when paired with singular-only POS.
+- Added strict linter sanity checks for semantic duplicate variants: rows with identical `id + surface + col4-col6` but different col3 analyses now error, preventing duplicate feature bundles from entering `auto_parsing`.
+- Added regression tests for both sanity classes (`tests/test_linter_feature_validation.py`, `tests/test_linter_unwrapped_rows.py`) and verified all linter tests pass (`111` tests).
