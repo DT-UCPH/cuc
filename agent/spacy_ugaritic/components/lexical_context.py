@@ -125,7 +125,7 @@ def _looks_like_packed_baal_plural(candidate: Candidate) -> bool:
 
 
 def _canonical_ydk(comment: str = "") -> Candidate:
-    return Candidate("yd(II)/+k=", "yd (II)", "n. m.", "love", comment=comment)
+    return Candidate("yd(II)/+k=", "yd (II)", "n. m. cstr. nom.", "love", comment=comment)
 
 
 def _canonical_aliyn_baal(comment: str = "") -> Candidate:

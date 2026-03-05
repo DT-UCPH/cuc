@@ -15,6 +15,7 @@ normal pass.
 
 from __future__ import annotations
 
+import re
 import sqlite3
 from pathlib import Path
 from typing import Dict
@@ -31,6 +32,14 @@ from scripts.refine_results_mentions import (
 )
 
 _SUFFIX_SEGMENTS = ("hm", "hn", "km", "kn", "ny", "nm", "nn", "h", "k", "n", "y")
+_PRONOMINAL_SUFFIX_RE = re.compile(
+    r"\+(?:y|n=?|ny=?|k=?|nk|h=?|nh=?|nn|km=?|nkm|kn|hm=?|hn)(?=\s*$|[;,\s])",
+    flags=re.IGNORECASE,
+)
+_NOMINAL_HEAD_RE = re.compile(
+    r"^(?:n\.|adj\.|num\.|dn\b|pn\b|rn\b|tn\b|gn\b|mn\b)",
+    flags=re.IGNORECASE,
+)
 
 
 def _split_semicolon(value: str) -> list[str]:
@@ -53,6 +62,51 @@ def _inject_nominal_suffix(analysis: str, suffix: str) -> str:
     if not suffix or not value.endswith("/"):
         return value
     return f"{value[:-1]}/+{suffix}"
+
+
+def _pos_with_construct_for_pronominal_suffix(pos: str, analysis: str) -> str:
+    value = (pos or "").strip()
+    if not value:
+        return value
+    if not _PRONOMINAL_SUFFIX_RE.search((analysis or "").strip()):
+        return value
+
+    rewritten_variants: list[str] = []
+    for variant in value.split(";"):
+        text = variant.strip()
+        if not text:
+            continue
+        head, sep, rest = text.partition(",")
+        head_options = [part.strip() for part in head.split("/") if part.strip()] or [head.strip()]
+        rewritten_heads: list[str] = []
+        for option in head_options:
+            if not _NOMINAL_HEAD_RE.match(option):
+                rewritten_heads.append(option)
+                continue
+            option = re.sub(r"(?<!\w)(?:abs\.|cstr\.)(?!\w)", "", option)
+            option = re.sub(r"\s{2,}", " ", option).strip()
+            if "cstr." not in option:
+                tokens = option.split()
+                case_idx = next(
+                    (
+                        idx
+                        for idx, token in enumerate(tokens)
+                        if token in {"nom.", "gen.", "acc.", "acc.?"}
+                    ),
+                    -1,
+                )
+                if case_idx >= 0:
+                    tokens.insert(case_idx, "cstr.")
+                    option = " ".join(tokens)
+                else:
+                    option = f"{option} cstr."
+            rewritten_heads.append(option.strip())
+        new_head = " / ".join(rewritten_heads)
+        if sep:
+            rewritten_variants.append(f"{new_head}, {rest.strip()}")
+        else:
+            rewritten_variants.append(new_head)
+    return "; ".join(rewritten_variants) if rewritten_variants else value
 
 
 class AttestedSplitTokenMergeFixer(RefinementStep):
@@ -204,12 +258,13 @@ class AttestedSplitTokenMergeFixer(RefinementStep):
                 variant=variant,
                 analysis=analysis,
             )
+            merged_pos = _pos_with_construct_for_pronominal_suffix(row.pos, merged_analysis)
             return TabletRow(
                 line_id=row.line_id,
                 surface=row.surface,
                 analysis=merged_analysis,
                 dulat=dulat,
-                pos=row.pos,
+                pos=merged_pos,
                 gloss=row.gloss,
                 comment=f"If merged with following token {next_row.surface.strip()}.",
             )

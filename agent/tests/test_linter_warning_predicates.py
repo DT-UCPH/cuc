@@ -11,6 +11,7 @@ from linter.lint import (
     analysis_has_missing_plural_split,
     analysis_has_missing_suffix_plus,
     choose_lookup_candidates,
+    has_unprefixed_reconstructed_sequence,
     missing_required_n_assimilation_marker,
     missing_required_verb_stem_markers,
     required_verb_stem_markers_from_pos,
@@ -217,6 +218,12 @@ class LinterWarningPredicateTest(unittest.TestCase):
                 gloss_field="lord",
             )
         )
+
+    def test_reconstruction_marker_applies_to_single_letter_only(self) -> None:
+        self.assertFalse(has_unprefixed_reconstructed_sequence("!y!(nš(ʔ[&u"))
+
+    def test_bracket_wrapped_single_letter_reconstruction_is_valid(self) -> None:
+        self.assertFalse(has_unprefixed_reconstructed_sequence("([n["))
 
     def test_offering_sequence_l_ambiguity_detected(self) -> None:
         self.assertTrue(

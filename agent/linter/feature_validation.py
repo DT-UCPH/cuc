@@ -72,8 +72,6 @@ def nominal_feature_issues(analysis: str, pos_field: str) -> list[str]:
             expected.append("f.")
         if "pl." not in pos:
             expected.append("pl.")
-    elif has_t_singular_split and "f." not in pos:
-        expected.append("f.")
     if analysis.endswith("/m") and "pl." not in pos:
         expected.append("pl.")
     if "+" in analysis and "cstr." not in pos:

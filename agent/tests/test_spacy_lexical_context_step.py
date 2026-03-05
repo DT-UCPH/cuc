@@ -111,7 +111,7 @@ class SpacyYdkContextDisambiguatorTest(unittest.TestCase):
 
             self.assertEqual(result.rows_changed, 2)
             lines = path.read_text(encoding="utf-8").splitlines()
-            self.assertEqual(lines[0], "1\tydk\tyd(II)/+k=\tyd (II)\tn. m.\tlove\t")
+            self.assertEqual(lines[0], "1\tydk\tyd(II)/+k=\tyd (II)\tn. m. cstr. nom.\tlove\t")
 
 
 if __name__ == "__main__":

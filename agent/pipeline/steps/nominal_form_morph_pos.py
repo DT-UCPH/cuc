@@ -8,8 +8,8 @@ from typing import Optional
 from pipeline.steps.base import RefinementStep, TabletRow
 from pipeline.steps.dulat_gate import DulatMorphGate
 
-_MASC_RE = re.compile(r"m\.", flags=re.IGNORECASE)
-_FEM_RE = re.compile(r"f\.", flags=re.IGNORECASE)
+_MASC_RE = re.compile(r"(?<!\w)m\.(?=$|[\s,;/])", flags=re.IGNORECASE)
+_FEM_RE = re.compile(r"(?<!\w)f\.(?=$|[\s,;/])", flags=re.IGNORECASE)
 _DUAL_POS_RE = re.compile(r"du\.", flags=re.IGNORECASE)
 _PLURAL_POS_RE = re.compile(r"(?:pl\.|plur(?:al)?)", flags=re.IGNORECASE)
 _SINGULAR_POS_RE = re.compile(r"(?:sg\.|sing(?:ular)?)", flags=re.IGNORECASE)
@@ -20,6 +20,10 @@ _NUMBER_TOKEN_RE = re.compile(
 )
 _FEM_SING_ANALYSIS_RE = re.compile(r"/t(?=\s*$|[+~])")
 _FEM_PL_ANALYSIS_RE = re.compile(r"/t=(?=\s*$|[+~])")
+_PRONOMINAL_SUFFIX_RE = re.compile(
+    r"\+(?:y|n=?|ny=?|k=?|nk|h=?|nh=?|nn|km=?|nkm|kn|hm=?|hn)(?=\s*$|[;,\s])",
+    flags=re.IGNORECASE,
+)
 
 
 def _split_semicolon(value: str) -> list[str]:
@@ -188,7 +192,8 @@ class NominalFormMorphPosFixer(RefinementStep):
 
         morphologies = self._gate.surface_morphologies(dulat_head, surface=surface)
         if not morphologies:
-            return _with_number_from_feminine_split(value, analysis_variant)
+            out = _with_number_from_feminine_split(value, analysis_variant)
+            return _with_construct_for_pronominal_suffix(out, analysis_variant)
 
         token_genders = set()
         token_gender_getter = getattr(self._gate, "token_genders", None)
@@ -244,7 +249,8 @@ class NominalFormMorphPosFixer(RefinementStep):
             number_options,
             construct_by_number=construct_by_number,
         )
-        return _with_number_from_feminine_split(out, analysis_variant)
+        out = _with_number_from_feminine_split(out, analysis_variant)
+        return _with_construct_for_pronominal_suffix(out, analysis_variant)
 
 
 def _with_number_from_feminine_split(pos_value: str, analysis_variant: str) -> str:
@@ -255,32 +261,32 @@ def _with_number_from_feminine_split(pos_value: str, analysis_variant: str) -> s
         return value
 
     if _FEM_PL_ANALYSIS_RE.search(analysis):
-        return _ensure_number_marker(value, target="pl")
+        return _force_number_marker(value, target="pl")
     if _FEM_SING_ANALYSIS_RE.search(analysis):
-        return _ensure_number_marker(value, target="sg")
+        return _force_number_marker(value, target="sg")
     return value
 
 
-def _ensure_number_marker(pos_value: str, target: str) -> str:
+def _force_number_marker(pos_value: str, target: str) -> str:
     value = (pos_value or "").strip()
     if not value:
         return value
 
     head, sep, rest = value.partition(",")
-    head_text = head.strip()
-    if _DUAL_POS_RE.search(head_text):
-        return value
-    if _PLURAL_POS_RE.search(head_text):
-        return value
-    if _SINGULAR_POS_RE.search(head_text):
-        return value
-
-    if target == "pl":
-        head_text = f"{head_text} pl."
-    elif target == "sg":
-        head_text = f"{head_text} sg."
-    else:
-        return value
+    options = [part.strip() for part in re.split(r"\s*/\s*", head) if part.strip()]
+    if not options:
+        options = [head.strip()]
+    rewritten: list[str] = []
+    for option in options:
+        base = _NUMBER_TOKEN_RE.sub("", option)
+        base = re.sub(r"\s{2,}", " ", base).strip()
+        if target == "pl":
+            rewritten.append(f"{base} pl.".strip())
+        elif target == "sg":
+            rewritten.append(f"{base} sg.".strip())
+        else:
+            rewritten.append(option)
+    head_text = " / ".join(_dedupe(rewritten))
 
     if not sep:
         return head_text
@@ -370,3 +376,20 @@ def _dedupe(values: list[str]) -> list[str]:
             continue
         out.append(item)
     return out
+
+
+def _with_construct_for_pronominal_suffix(pos_value: str, analysis_variant: str) -> str:
+    """Force cstr. for nominal/adjectival rows with pronominal suffix payload."""
+    value = (pos_value or "").strip()
+    analysis = (analysis_variant or "").strip()
+    if not value or not _PRONOMINAL_SUFFIX_RE.search(analysis):
+        return value
+
+    head, sep, rest = value.partition(",")
+    head_options = [part.strip() for part in re.split(r"\s*/\s*", head) if part.strip()]
+    if not head_options:
+        head_options = [head.strip()]
+    rewritten_head = " / ".join(_append_construct_marker(option) for option in head_options)
+    if not sep:
+        return rewritten_head
+    return f"{rewritten_head}, {rest.strip()}"

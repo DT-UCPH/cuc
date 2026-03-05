@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from pipeline.steps.base import RefinementStep, StepResult
-from spacy_ugaritic.doc_builder import build_doc, parse_row_tokens
+from spacy_ugaritic.doc_builder import build_doc, parse_grouped_tokens
 from spacy_ugaritic.language import create_ugaritic_formula_context_nlp
 from spacy_ugaritic.rewriter import count_data_rows, render_resolved_lines
 
@@ -25,7 +25,9 @@ class SpacyFormulaContextDisambiguator(RefinementStep):
 
     def refine_file(self, path: Path) -> StepResult:
         lines = path.read_text(encoding="utf-8").splitlines()
-        tokens = parse_row_tokens(lines)
+        # Formula disambiguation must operate on grouped token variants (same
+        # line_id+surface) so canonical rewrites collapse whole token groups.
+        tokens = parse_grouped_tokens(lines)
         rows_processed = count_data_rows(lines)
         if not tokens:
             return StepResult(file=path.name, rows_processed=rows_processed, rows_changed=0)

@@ -119,6 +119,30 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["n. m. pl. abs. gen."],
         )
 
+    def test_suffix_bearing_nominals_do_not_form_construct_chain_heads(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tˤṣk\tˤṣ/+k\tʕṣ\tn. m. sg. cstr. nom.\ttree\t",
+            "2\tˤbṣk\tˤbṣ(I)/+k\tʕbṣ (I)\tn. m. sg. cstr. nom.\tmace\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[0]._.resolved_candidates],
+            ["n. m. sg. cstr. nom."],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["n. m. sg. cstr. nom."],
+        )
+
+    def test_suffix_bearing_nominal_after_preposition_stays_construct(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tb\tb\tb\tprep.\tin\t",
+            "2\tˤbṣk\tˤbṣ(I)/+k\tʕbṣ (I)\tn. m. sg. cstr. nom.\tmace\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["n. m. sg. cstr. gen."],
+        )
+
     def test_prunes_suffix_conjugation_to_second_singular_after_at_pronoun(self) -> None:
         doc = self._doc_from_lines(
             "1\tat\tat(I)\tảt (I)\tpers. pn.\tyou\t",

@@ -330,7 +330,7 @@ class SuffixCliticFixerTest(unittest.TestCase):
         fixer = SuffixCliticFixer(gate=StaticGate(suffix_tokens={"l (I)"}))
         row = TabletRow("1", "lnh", "l(I)", "l (I)", "prep.", "to", "")
         result = fixer.refine_row(row)
-        self.assertEqual(result.analysis, "l(I)+h")
+        self.assertEqual(result.analysis, "l(I)+nh")
 
     def test_adds_suffix_to_homonym_noun_with_slash(self) -> None:
         fixer = SuffixCliticFixer(gate=StaticGate(suffix_tokens={"šmm (I)"}))
@@ -373,6 +373,18 @@ class SuffixCliticFixerTest(unittest.TestCase):
         row = TabletRow("1", "bny", "bn(I)/", "bn (I)", "n. m.", "son", "")
         result = fixer.refine_row(row)
         self.assertEqual(result.analysis, "bn(I)/+y")
+
+    def test_keeps_host_final_k_when_adding_k_suffix(self) -> None:
+        fixer = SuffixCliticFixer(gate=StaticGate(suffix_tokens={"ḥtk (I)"}))
+        row = TabletRow("1", "ḥtkk", "ḥtk(I)/", "ḥtk (I)", "n. m.", "ruler", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ḥtk(I)/+k")
+
+    def test_promotes_existing_h_suffix_to_nh_when_surface_requires_it(self) -> None:
+        fixer = SuffixCliticFixer(gate=StaticGate(suffix_tokens={"kbd (I)"}))
+        row = TabletRow("1", "kbdnh", "kbd(I)+h", "kbd (I)", "n. m.", "liver", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "kbd(I)+nh")
 
 
 class WeakVerbFixerTest(unittest.TestCase):

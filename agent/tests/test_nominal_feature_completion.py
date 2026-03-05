@@ -89,6 +89,30 @@ class NominalFeatureCompletionTest(unittest.TestCase):
         rewritten = rewrite_row(row, completer)
         self.assertEqual(rewritten.pos, "adj. m. sg. abs. nom.")
 
+    def test_t_split_forces_singular_even_when_dulat_lists_plural(self) -> None:
+        completer = NominalFeatureCompleter(
+            _FakeReader({("ġrt", "ġrt (I)"): _Features(("sg.", "pl."))})
+        )
+        row = TabletRow("135691", "ġrt", "ġr(t(I)/t", "ġrt (I)", "n. f. pl.", "rock", "")
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.pos, "n. f. sg. abs. nom.")
+
+    def test_morphology_gender_overrides_t_split_heuristic(self) -> None:
+        completer = NominalFeatureCompleter(
+            _FakeReader({("ˤšrt", "ʕšr(t) (I)"): _Features(("sg., m.",))})
+        )
+        row = TabletRow(
+            "152759",
+            "ˤšrt",
+            "ˤšr(I)/t",
+            "ʕšr(t) (I)",
+            "n. f. sg. cstr. nom.",
+            "banquet",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.pos, "n. m. sg. abs. nom.")
+
 
 if __name__ == "__main__":
     unittest.main()

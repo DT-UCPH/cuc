@@ -327,8 +327,8 @@ def _candidate_is_modifier(candidate: Candidate) -> bool:
 def _candidate_supports_construct_head(candidate: Candidate) -> bool:
     analysis = candidate.analysis.strip()
     if "+" in analysis:
-        return True
-    return analysis.endswith("/")
+        return False
+    return "/" in analysis
 
 
 def _force_case(candidate: Candidate, case: str) -> Candidate:
@@ -351,13 +351,15 @@ def _force_case(candidate: Candidate, case: str) -> Candidate:
 def _force_state_case(candidate: Candidate, state: str, case: str) -> Candidate:
     if not _candidate_accepts_construct_chain(candidate):
         return candidate
+    analysis = candidate.analysis.strip()
+    effective_state = "cstr." if "+" in analysis else state
     pos = candidate.pos
     parts = [
         part
         for part in pos.split()
         if part not in {"abs.", "cstr.", "nom.", "gen.", "acc.", "acc.?"}
     ]
-    parts.extend([state, case])
+    parts.extend([effective_state, case])
     return Candidate(
         analysis=candidate.analysis,
         dulat=candidate.dulat,

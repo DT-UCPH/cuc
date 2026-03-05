@@ -42,6 +42,15 @@ class LinterPosNormalizationTest(unittest.TestCase):
         allowed = {"adv.", "prep."}
         self.assertTrue(pos_option_matches_allowed("adv. or prep.", allowed))
 
+    def test_enriched_adj_option_matches_composite_allowed_label(self) -> None:
+        allowed = {"adj. or n"}
+        self.assertTrue(
+            pos_option_matches_allowed("adj. m. sg. abs. nom.", allowed),
+        )
+        self.assertTrue(
+            pos_option_matches_allowed("adj. f. pl. abs. nom.", allowed),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -130,7 +130,28 @@ class DulatEncliticMFixerTest(unittest.TestCase):
             fixer = DulatEncliticMFixer(db_path)
             row = TabletRow("2c", "atm", "ʔtw[", "/ʔ-t-w/", "vb G impv.", "to come", "")
             result = fixer.refine_row(row)
-            self.assertEqual(result.analysis, "ʔtw[~m")
+            self.assertEqual(result.analysis, "!!(ʔ&at(w[~m")
+
+    def test_normalizes_weak_final_y_imperative_with_enclitic_m(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            conn = sqlite3.connect(db_path)
+            _init_schema(conn)
+            cur = conn.cursor()
+            cur.execute(
+                "INSERT INTO entries(entry_id, lemma, homonym, pos) VALUES (1, '/ṯ-n-y/', '', 'vb')"
+            )
+            cur.execute(
+                "INSERT INTO forms(entry_id, text, morphology, cert, notes) "
+                "VALUES (1, 'ṯnm', 'G, impv.', '', 'encl. -m')"
+            )
+            conn.commit()
+            conn.close()
+
+            fixer = DulatEncliticMFixer(db_path)
+            row = TabletRow("2e", "ṯnm", "ṯny[~m", "/ṯ-n-y/", "vb G impv. 2", "to repeat", "")
+            result = fixer.refine_row(row)
+            self.assertEqual(result.analysis, "ṯn(y[~m")
 
     def test_does_not_strip_root_final_m_from_existing_plain_variant(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

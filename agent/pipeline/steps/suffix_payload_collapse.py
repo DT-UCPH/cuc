@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import re
 
+from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
 from pipeline.steps.base import RefinementStep, TabletRow
 
 _CLITIC_MARKER_RE = re.compile(r"(?:\+|~|\[)[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]+=?")
@@ -92,6 +93,7 @@ class SuffixPayloadCollapseFixer(RefinementStep):
         gloss_variants = _split_semicolon(row.gloss)
 
         changed = False
+        out_analysis: list[str] = []
         out_dulat: list[str] = []
         out_pos: list[str] = []
         out_gloss: list[str] = []
@@ -111,15 +113,17 @@ class SuffixPayloadCollapseFixer(RefinementStep):
             d_new = d_var
             p_new = p_var
             g_new = g_var
+            a_new = _normalize_clitic_analysis(surface=row.surface, analysis_variant=a_var)
 
             if _has_clitic_marker(a_var) and _has_dulat_suffix_payload(d_var):
                 d_new = d_var.split(",", 1)[0].strip()
                 p_new = _trim_pos_suffix_payload(p_var)
                 g_new = _trim_gloss_suffix_payload(g_var)
 
-            if d_new != d_var or p_new != p_var or g_new != g_var:
+            if a_new != a_var or d_new != d_var or p_new != p_var or g_new != g_var:
                 changed = True
 
+            out_analysis.append(a_new)
             out_dulat.append(d_new)
             out_pos.append(p_new)
             out_gloss.append(g_new)
@@ -130,9 +134,26 @@ class SuffixPayloadCollapseFixer(RefinementStep):
         return TabletRow(
             line_id=row.line_id,
             surface=row.surface,
-            analysis=row.analysis,
+            analysis="; ".join(out_analysis),
             dulat="; ".join(out_dulat),
             pos="; ".join(out_pos),
             gloss="; ".join(out_gloss),
             comment=row.comment,
         )
+
+
+def _normalize_clitic_analysis(*, surface: str, analysis_variant: str) -> str:
+    """Repair recurrent host/suffix split mismatches introduced upstream."""
+    value = (analysis_variant or "").strip()
+    if not value or "+" not in value:
+        return value
+    if not normalize_surface(surface).endswith("nh"):
+        return value
+    if not value.endswith("+h"):
+        return value
+    candidate = f"{value[:-2]}+nh"
+    if normalize_surface(reconstruct_surface_from_analysis(candidate)) == normalize_surface(
+        surface
+    ):
+        return candidate
+    return value

@@ -87,11 +87,11 @@ class NominalFeatureCompleter:
 
     @staticmethod
     def _infer_gender(row: TabletRow, morphology: str) -> str:
-        if "/t=" in (row.analysis or "") or "/t" in (row.analysis or ""):
-            return "f."
         match = _GENDER_RE.search(morphology or "")
         if match:
             return match.group(1)
+        if "/t=" in (row.analysis or "") or "/t" in (row.analysis or ""):
+            return "f."
         match = _GENDER_RE.search(row.pos or "")
         return match.group(1) if match else ""
 
@@ -103,6 +103,8 @@ class NominalFeatureCompleter:
             return "du."
         if "/t=" in analysis or analysis.endswith("/m"):
             return "pl."
+        if re.search(r"/t(?=\s*$|[+~])", analysis):
+            return "sg."
         if "du." in morph or "dual" in morph:
             return "du."
         if "pl." in morph or "plural" in morph:

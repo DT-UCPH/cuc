@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 
 from pipeline.config.dulat_form_note_index import DulatFormNoteIndex
+from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
 from pipeline.steps.base import (
     RefinementStep,
     StepResult,
@@ -220,27 +221,94 @@ def _append_group_row(
 def _to_enclitic_m_analysis(*, surface: str, analysis: str, dulat: str, pos: str) -> str:
     text = _normalize_variant_encoding(surface=surface, analysis=analysis, dulat=dulat, pos=pos)
     if not text or "~m" in text:
-        return text
+        return _normalize_known_weak_imperative_with_enclitic(
+            surface=surface,
+            dulat=dulat,
+            pos=pos,
+            analysis=text,
+        )
 
     homonym_slash_match = re.search(r"m(\([IVX]+\)/)(?=$|[+~])", text)
     if homonym_slash_match:
         start = homonym_slash_match.start()
         suffix = homonym_slash_match.group(1)
-        return f"{text[:start]}{suffix}~m"
+        return _normalize_known_weak_imperative_with_enclitic(
+            surface=surface,
+            dulat=dulat,
+            pos=pos,
+            analysis=f"{text[:start]}{suffix}~m",
+        )
 
     slash_match = re.search(r"m(?=/)", text)
     if slash_match:
         start = slash_match.start()
-        return f"{text[:start]}{text[start + 1 :]}~m"
+        return _normalize_known_weak_imperative_with_enclitic(
+            surface=surface,
+            dulat=dulat,
+            pos=pos,
+            analysis=f"{text[:start]}{text[start + 1 :]}~m",
+        )
 
     for old, new in (("[m", "[~m"), ("/m", "/~m"), ("m[", "[~m")):
         if old in text:
-            return text.replace(old, new, 1)
+            return _normalize_known_weak_imperative_with_enclitic(
+                surface=surface,
+                dulat=dulat,
+                pos=pos,
+                analysis=text.replace(old, new, 1),
+            )
 
     if text.endswith("m"):
-        return f"{text[:-1]}~m"
+        return _normalize_known_weak_imperative_with_enclitic(
+            surface=surface,
+            dulat=dulat,
+            pos=pos,
+            analysis=f"{text[:-1]}~m",
+        )
 
-    return f"{text}~m"
+    return _normalize_known_weak_imperative_with_enclitic(
+        surface=surface,
+        dulat=dulat,
+        pos=pos,
+        analysis=f"{text}~m",
+    )
+
+
+def _normalize_known_weak_imperative_with_enclitic(
+    *,
+    surface: str,
+    dulat: str,
+    pos: str,
+    analysis: str,
+) -> str:
+    """Normalize known weak imperative + enclitic shapes to canonical encoding."""
+    text = analysis or ""
+    if "~m" not in text:
+        return analysis
+    surface_norm = normalize_surface(surface).lower()
+    pos_norm = (pos or "").lower()
+    dulat_norm = (dulat or "").strip()
+    if "vb" not in pos_norm or "impv." not in pos_norm:
+        return analysis
+
+    if surface_norm == "atm" and dulat_norm == "/ʔ-t-w/":
+        return "!!(ʔ&at(w[~m"
+
+    # Weak-final-y imperative + enclitic m: keep hidden y reconstructed as (y.
+    # Example: ṯny[~m -> ṯn(y[~m for surface ṯnm.
+    if surface_norm.endswith("m") and not surface_norm.endswith("ym"):
+        for marker in ("y[~m", "y[/~m"):
+            if marker not in text:
+                continue
+            head, tail = text.rsplit(marker, 1)
+            candidate = f"{head}(y{marker[1:]}{tail}"
+            if (
+                normalize_surface(reconstruct_surface_from_analysis(candidate)).lower()
+                == surface_norm
+            ):
+                return candidate
+
+    return analysis
 
 
 def _normalize_variant_encoding(*, surface: str, analysis: str, dulat: str, pos: str) -> str:

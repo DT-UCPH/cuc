@@ -62,6 +62,15 @@ class LinterFeatureValidationTest(unittest.TestCase):
             messages,
         )
 
+    def test_does_not_require_feminine_marker_for_singular_t_split(self) -> None:
+        messages = self._lint_messages(
+            "1\tˤšrt\tˤšr(I)/t\tʕšr(t) (I)\tn. m. sg. cstr. nom.\tbanquet\t\n"
+        )
+        self.assertNotIn(
+            "Nominal POS is missing explicit morphology from analysis: f.",
+            messages,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

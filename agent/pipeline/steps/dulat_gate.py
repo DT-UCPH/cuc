@@ -29,6 +29,7 @@ _SINGULAR_WORD_RE = re.compile(r"\bsing", flags=re.IGNORECASE)
 _SUFFIX_RE = re.compile(r"\bsuff", flags=re.IGNORECASE)
 _CONSTRUCT_RE = re.compile(r"\bcst(?:r)?\.?\b", flags=re.IGNORECASE)
 _TOKEN_RE = re.compile(r"^(.*?)(?:\s*\(([IVX]+)\))?$")
+_SURFACE_SUFFIX_INFER_TAILS = ("nh", "nk", "km", "kn", "hm", "hn", "h", "k")
 
 
 @dataclass(frozen=True)
@@ -349,11 +350,44 @@ class DulatMorphGate:
             return None
 
         matched_morphologies: List[str] = []
+        matched_keys: set[Tuple[str, str]] = set()
         for key in keys:
             for form_text, morphology in self._forms_by_token.get(key, []):
                 if form_text == canon_surface:
                     matched_morphologies.append(morphology)
+                    matched_keys.add(key)
 
         if not matched_morphologies:
             return None
-        return self._flags_from_morphologies(matched_morphologies)
+        flags = self._flags_from_morphologies(matched_morphologies)
+        if not flags.has_pronominal_suffix and self._surface_tail_implies_suffix(
+            keys=matched_keys,
+            canon_surface=canon_surface,
+        ):
+            flags = TokenFeatures(
+                has_plural=flags.has_plural,
+                has_pronominal_suffix=True,
+            )
+        return flags
+
+    def _surface_tail_implies_suffix(
+        self,
+        keys: set[Tuple[str, str]],
+        canon_surface: str,
+    ) -> bool:
+        if not canon_surface:
+            return False
+        for tail in _SURFACE_SUFFIX_INFER_TAILS:
+            if not canon_surface.endswith(tail):
+                continue
+            if len(canon_surface) <= len(tail):
+                continue
+            base_surface = canon_surface[: -len(tail)]
+            if not base_surface:
+                continue
+            for key in keys:
+                if any(
+                    form_text == base_surface for form_text, _ in self._forms_by_token.get(key, [])
+                ):
+                    return True
+        return False

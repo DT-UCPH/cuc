@@ -33,6 +33,12 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
     FormulaBigramRule(
         first_surface="aliyn",
         second_surface="bˤl",
+        first_target=TokenParse(
+            analysis="aliyn/",
+            dulat="ảlỉyn",
+            pos="adj. m.",
+            gloss="The Very / Most Powerful",
+        ),
         second_target=TokenParse(
             analysis="bˤl(II)/",
             dulat="bʕl (II)",
@@ -45,6 +51,12 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
     FormulaBigramRule(
         first_surface="zbl",
         second_surface="bˤl",
+        first_target=TokenParse(
+            analysis="zbl(I)/",
+            dulat="zbl (I)",
+            pos="n. m.",
+            gloss="prince",
+        ),
         second_target=TokenParse(
             analysis="bˤl(II)/",
             dulat="bʕl (II)",
@@ -77,6 +89,18 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
         ),
         min_count=34,
         note="Epithets formula: Virgin ʿAnatu.",
+    ),
+    FormulaBigramRule(
+        first_surface="rkb",
+        second_surface="ˤrpt",
+        first_target=TokenParse(
+            analysis="rkb(I)/",
+            dulat="rkb (I)",
+            pos="n. m.",
+            gloss="Charioteer",
+        ),
+        min_count=8,
+        note="Epithets formula: Charioteer of the clouds.",
     ),
     FormulaBigramRule(
         first_surface="bn",

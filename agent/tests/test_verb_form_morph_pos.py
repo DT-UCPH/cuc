@@ -89,6 +89,13 @@ class VerbFormMorphPosFixerTest(unittest.TestCase):
         result = fixer.refine_row(row)
         self.assertEqual(result.pos, "vb G prefc.")
 
+    def test_marks_participle_with_suffix_as_construct(self) -> None:
+        index = _FormIndex({("bˤl", "/b-ʕ-l/"): {"G, act., ptc., m., sg."}})
+        fixer = VerbFormMorphPosFixer(dulat_db=Path("unused.sqlite"), form_index=index)
+        row = TabletRow("7", "bˤlh", "bˤl[/+h", "/b-ʕ-l/", "vb G", "to make", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.pos, "vb G act. ptcpl. m. sg. cstr.")
+
 
 if __name__ == "__main__":
     unittest.main()

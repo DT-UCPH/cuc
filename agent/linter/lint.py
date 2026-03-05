@@ -1567,6 +1567,16 @@ def pos_option_matches_allowed(option: str, allowed: set[str]) -> bool:
     opt_norm = normalize_pos_option_for_validation(opt)
     if opt_norm in allowed:
         return True
+    # Allow enriched concrete tags when DULAT allowlist is composite
+    # (e.g. allowed contains `adj. or n` and option is `adj. m. sg. abs. nom.`).
+    for allowed_opt in allowed:
+        allowed_parts = [
+            normalize_pos_option_for_validation(part)
+            for part in re.split(r"\s+or\s+", normalize_pos_label(allowed_opt))
+            if part.strip()
+        ]
+        if len(allowed_parts) > 1 and opt_norm in set(allowed_parts):
+            return True
     # Accept composed labels like "adv. or prep." when each arm is allowed.
     parts = [p.strip() for p in re.split(r"\s+or\s+", normalize_pos_label(opt)) if p.strip()]
     if len(parts) <= 1:

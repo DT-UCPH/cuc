@@ -78,7 +78,10 @@ class AttestedSplitTokenMergeFixerTest(unittest.TestCase):
             self.assertEqual(result.rows_changed, 1)
             rows = target.read_text(encoding="utf-8").splitlines()
             self.assertIn(
-                "153335\tla\tlan/+k\tlản\tn. m. sg.\tpower\tIf merged with following token nk.",
+                (
+                    "153335\tla\tlan/+k\tlản\tn. m. sg. cstr.\t"
+                    "power\tIf merged with following token nk."
+                ),
                 rows,
             )
 

@@ -97,6 +97,7 @@ class SpacyYdkContextTest(unittest.TestCase):
             "2	ṣġr	ṣġr/	ṣġr	adj.	small	",
         )
         self.assertEqual(doc[0]._.resolved_candidates[0].analysis, "yd(II)/+k=")
+        self.assertEqual(doc[0]._.resolved_candidates[0].pos, "n. m. cstr. nom.")
 
 
 if __name__ == "__main__":

@@ -12,8 +12,9 @@ from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface
 from pipeline.steps.base import RefinementStep, TabletRow
 from pipeline.steps.dulat_gate import DulatMorphGate
 
-# Ordered from longest to shortest so greedy match captures full suffix
-_SUFFIX_SEGMENTS = ("hm", "hn", "km", "kn", "ny", "nm", "nn", "h", "k", "n", "y")
+# Ordered from longest to shortest so greedy match captures full suffix.
+# Includes digraph suffixes like `+nh` to avoid truncating host letters.
+_SUFFIX_SEGMENTS = ("nkm", "hm", "hn", "km", "kn", "ny", "nh", "nk", "nm", "nn", "h", "k", "n", "y")
 
 # POS patterns that commonly carry suffixes
 _SUFFIXABLE_POS_PREFIXES = {"n.", "adj.", "prep.", "adv.", "vb"}
@@ -107,6 +108,12 @@ class SuffixCliticFixer(RefinementStep):
 
         # Already has '+' — suffix already marked
         if "+" in normalized:
+            promoted = self._promote_single_h_suffix_to_nh(
+                analysis_variant=normalized,
+                surface=surface,
+            )
+            if promoted != normalized:
+                return promoted
             return normalized
 
         # Must have noun-like/adjectival POS for suffix injection
@@ -135,7 +142,7 @@ class SuffixCliticFixer(RefinementStep):
         ):
             return normalized
 
-        return self._inject_suffix(normalized, suffix)
+        return self._inject_suffix(normalized, suffix, surface)
 
     def _is_confident_suffix_variant(
         self,
@@ -165,8 +172,13 @@ class SuffixCliticFixer(RefinementStep):
         analysis_surface = normalize_surface(reconstruct_surface_from_analysis(analysis_variant))
         return analysis_surface == base_surface
 
-    def _inject_suffix(self, analysis_variant: str, suffix: str) -> str:
+    def _inject_suffix(self, analysis_variant: str, suffix: str, surface: str) -> str:
         """Try to inject '+' before the suffix in a single analysis variant."""
+        target_surface = normalize_surface(surface)
+
+        def _candidate_matches_surface(candidate: str) -> bool:
+            return normalize_surface(reconstruct_surface_from_analysis(candidate)) == target_surface
+
         # Analysis ends with suffix letters followed by optional closure
         # e.g., "npšh/" → "npš/+h"
         # e.g., "bth(II)/" → "bt(II)/+h"
@@ -177,21 +189,30 @@ class SuffixCliticFixer(RefinementStep):
             base = core[: -len(suffix)]
             # Re-add the '/' if the original had it
             if analysis_variant.endswith("/"):
-                return base + "/+" + suffix
+                candidate = base + "/+" + suffix
+                if _candidate_matches_surface(candidate):
+                    return candidate
             else:
-                return base + "+" + suffix
+                candidate = base + "+" + suffix
+                if _candidate_matches_surface(candidate):
+                    return candidate
 
         # Check if it ends with suffix + homonym tag + /
         m = re.match(r"^(.+?)" + re.escape(suffix) + r"(\([IVX]+\))?/$", analysis_variant)
         if m:
             base = m.group(1)
             hom = m.group(2) or ""
-            return base + hom + "/+" + suffix
+            candidate = base + hom + "/+" + suffix
+            if _candidate_matches_surface(candidate):
+                return candidate
 
         # Surface-form-specific fallback: if DULAT confirms this surface is a
         # suffixal form but the analysis is lemma-style (e.g., l(I), šmm(I)/),
         # append +suffix conservatively.
-        return analysis_variant + "+" + suffix
+        candidate = analysis_variant + "+" + suffix
+        if _candidate_matches_surface(candidate):
+            return candidate
+        return analysis_variant
 
     def _normalize_existing_plus(
         self,
@@ -249,3 +270,16 @@ class SuffixCliticFixer(RefinementStep):
         if self._gate is None:
             return False
         return self._gate.has_suffix_token(token, surface=surface)
+
+    def _promote_single_h_suffix_to_nh(self, analysis_variant: str, surface: str) -> str:
+        """Repair `+h` to `+nh` when surface explicitly ends with `nh`."""
+        if not normalize_surface(surface).endswith("nh"):
+            return analysis_variant
+        if not analysis_variant.endswith("+h"):
+            return analysis_variant
+        candidate = analysis_variant[:-2] + "+nh"
+        if normalize_surface(reconstruct_surface_from_analysis(candidate)) == normalize_surface(
+            surface
+        ):
+            return candidate
+        return analysis_variant
