@@ -22,10 +22,15 @@ LOOKUP_NORMALIZE = str.maketrans(
     }
 )
 _TOKEN_RE = re.compile(r"^(.*?)(?:\s*\(([IVX]+)\))?$")
-_FORM_RE = re.compile(
-    r"\b(prefc\.?|suffc\.?|suff\.?|impv\.?|inf\.?|act\.?|pass\.?|ptc\.?|ptcpl\.?)\b",
-    re.IGNORECASE,
-)
+_FORM_PREFC_RE = re.compile(r"\b(?:prefc?|cprf)\b", re.IGNORECASE)
+_FORM_SUFFC_RE = re.compile(r"\b(?:suffc|csuff)\b", re.IGNORECASE)
+_FORM_SUFF_SHORT_RE = re.compile(r"\bsuff\.", re.IGNORECASE)
+_FORM_WITH_SUFFIX_RE = re.compile(r"\bwith\s+suff\.", re.IGNORECASE)
+_FORM_IMPV_RE = re.compile(r"\bimpv\b", re.IGNORECASE)
+_FORM_INF_RE = re.compile(r"\binf\b", re.IGNORECASE)
+_FORM_PTC_RE = re.compile(r"\bptc(?:pl)?\b", re.IGNORECASE)
+_FORM_ACT_RE = re.compile(r"\bact\b", re.IGNORECASE)
+_FORM_PASS_RE = re.compile(r"\bpass\b", re.IGNORECASE)
 _NUMBER_RE = re.compile(r"\b(sg\.?|pl\.?|du\.?|dual|singular|plural)\b", re.IGNORECASE)
 _STATE_RE = re.compile(r"\b(cstr\.?|cst\.?|abs\.?|suff\.)\b", re.IGNORECASE)
 _CASE_RE = re.compile(r"\b(nom\.?|gen\.?|acc\.?|gen\., acc\.)\b", re.IGNORECASE)
@@ -58,7 +63,7 @@ class DulatFeatureReader:
         gate_morphologies = set(self._gate.surface_morphologies(dulat, surface))
         index_morphologies = set(self._lookup_index(surface, dulat))
         morphologies = tuple(sorted(gate_morphologies | index_morphologies))
-        forms = self._collect(morphologies, _FORM_RE)
+        forms = self._collect_forms(morphologies)
         genders = self._collect(morphologies, _GENDER_RE)
         numbers = self._collect(morphologies, _NUMBER_RE)
         states = self._collect(morphologies, _STATE_RE)
@@ -119,6 +124,37 @@ class DulatFeatureReader:
                 value = (match or "").strip().lower()
                 if value and value not in out:
                     out.append(value)
+        return tuple(out)
+
+    @staticmethod
+    def _collect_forms(morphologies: Iterable[str]) -> tuple[str, ...]:
+        labels: list[str] = []
+        for morph in morphologies:
+            text = (morph or "").lower()
+            has_prefc = _FORM_PREFC_RE.search(text) is not None
+            has_suffc = _FORM_SUFFC_RE.search(text) is not None
+            has_bare_suff = _FORM_SUFF_SHORT_RE.search(text) is not None
+            if has_prefc:
+                labels.append("prefc.")
+            if has_suffc or (has_bare_suff and not _FORM_WITH_SUFFIX_RE.search(text)):
+                labels.append("suffc.")
+            if _FORM_IMPV_RE.search(text):
+                labels.append("impv.")
+            if _FORM_INF_RE.search(text):
+                labels.append("inf.")
+            if _FORM_PTC_RE.search(text):
+                has_act = _FORM_ACT_RE.search(text) is not None
+                has_pass = _FORM_PASS_RE.search(text) is not None
+                if has_act:
+                    labels.append("act. ptcpl.")
+                if has_pass:
+                    labels.append("pass. ptcpl.")
+                if not has_act and not has_pass:
+                    labels.append("ptcpl.")
+        out: list[str] = []
+        for label in labels:
+            if label not in out:
+                out.append(label)
         return tuple(out)
 
     @staticmethod

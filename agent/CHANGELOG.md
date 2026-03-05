@@ -1,5 +1,14 @@
 ## 2026-03-05
 
+- Fixed preposition-suffix handling in spaCy morphology context:
+  - `spacy_ugaritic/components/morph_context.py` now skips post-preposition genitive forcing when the preposition itself carries a bound pronoun (`+...` or `~...`), so sequences like `ˤm(I)+y pˤn/+k` no longer force the following nominal into genitive.
+  - added regression coverage in `tests/test_spacy_morph_context.py`.
+- Hardened suffix/clitic normalization and DULAT host lookup:
+  - `pipeline/steps/suffix_paradigm_normalizer.py` now normalizes invalid `&+` / `&~` sequences to `+` / `~` (for example `ˤm(I)&+y -> ˤm(I)+y`).
+  - `linter/lint.py` now strips both `+` and `~` tails when deriving the host analysis for lexeme-level DULAT checks, and only treats explicit `+...`/`~...` segments as clitic parts.
+  - added regression coverage in `tests/test_suffix_paradigm_normalizer.py` and `tests/test_linter_warning_predicates.py`.
+- Re-ran full parsing pipeline (`--include-existing --allow-large-step-changes`) in `cuc-origin` and regenerated `auto_parsing/0.2.6`.
+
 - Fixed parser-side reconstruction regressions in `scripts/refine_results_mentions.py` for recurring weak/prefixed and slash-variant forms:
   - added prefixed fallback encoding for weak-final, weak-initial `h`, I-aleph, and II-aleph verbs (e.g. `tbnn`, `ylkn`, `tusp`, `ynaṣn`) so col3 stays reconstructable and prefix markers are preserved.
   - preserved full non-root slash lemmas in DULAT labels (e.g. `ʕllmy/n`) and added nominal `-y` to surface `-n` encoding support (`ˤllm(y/n`).
@@ -1049,3 +1058,8 @@
 - Extended `DulatEncliticMFixer` weak-verb normalization for imperative + enclitic `-m`: forms like `ṯny[~m` are canonicalized to `ṯn(y[~m` when the surface lacks visible `y` (`152672`).
 - Relaxed inferable nominal linting for singular `/t`: linter no longer requires auto-injected `f.` solely from `/t` in column 3, avoiding false positives on masculine lexical-`t` entries while keeping `/t=` plural checks strict.
 - Added regression tests in `tests/test_nominal_feature_completion.py`, `tests/test_dulat_enclitic_m.py`, and `tests/test_linter_feature_validation.py` for the above fixes.
+
+- Fixed verbal form-label extraction so `with suff.` in DULAT morphology is no longer misread as suffix-conjugation (`suffc.`); this removes false `prefc./suffc.` ambiguity for rows like `135906 ynaṣn` and preserves true bare `suff.` conjugation labels.
+- Fixed `verb-form-morph-pos` morphology parsing to ignore `with suff.` as a conjugation label while still mapping true `suff.`/`suffc.` verb forms to `suffc.`.
+- Refined linter semantic-duplicate detection: rows with identical `id+surface+col4-col6` are now allowed when col3 differs only by explicit clitic payload (`+...`/`~...`), matching the project rule that clitic distinctions may share identical POS morphology.
+- Added regression tests: `tests/test_dulat_feature_reader_forms.py`, `test_verb_form_morph_pos.py` (`with suff.` case), and `test_linter_unwrapped_rows.py` (clitic-payload duplicate allowance).

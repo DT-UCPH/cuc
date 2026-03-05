@@ -72,7 +72,9 @@ _STEM_CANON = {
 }
 
 _FORM_PREFC_RE = re.compile(r"\b(?:prefc?|cprf)\b", flags=re.IGNORECASE)
-_FORM_SUFFC_RE = re.compile(r"\b(?:suffc?|csuff)\b", flags=re.IGNORECASE)
+_FORM_SUFFC_RE = re.compile(r"\b(?:suffc|csuff)\b", flags=re.IGNORECASE)
+_FORM_SUFF_SHORT_RE = re.compile(r"\bsuff\.", flags=re.IGNORECASE)
+_FORM_WITH_SUFFIX_RE = re.compile(r"\bwith\s+suff\.", flags=re.IGNORECASE)
 _FORM_IMPV_RE = re.compile(r"\bimpv\b", flags=re.IGNORECASE)
 _FORM_INF_RE = re.compile(r"\binf\b", flags=re.IGNORECASE)
 _FORM_PTC_RE = re.compile(r"\bptc(?:pl)?\b", flags=re.IGNORECASE)
@@ -169,7 +171,9 @@ def _extract_form_labels(morphology: str) -> list[str]:
     labels: list[str] = []
     if _FORM_PREFC_RE.search(text):
         labels.append("prefc.")
-    if _FORM_SUFFC_RE.search(text):
+    has_suffc = _FORM_SUFFC_RE.search(text) is not None
+    has_bare_suff = _FORM_SUFF_SHORT_RE.search(text) is not None
+    if has_suffc or (has_bare_suff and not _FORM_WITH_SUFFIX_RE.search(text)):
         labels.append("suffc.")
     if _FORM_IMPV_RE.search(text):
         labels.append("impv.")

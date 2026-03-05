@@ -1439,6 +1439,59 @@ def extract_lexeme_from_analysis(analysis: str) -> Tuple[str, bool, str]:
     return lex, is_verb, hom
 
 
+def _extract_marked_clitic_parts(text: str) -> List[str]:
+    """Extract explicit +x/~x clitic tails from analysis text."""
+    value = (text or "").strip()
+    if not value:
+        return []
+    out: List[str] = []
+    for chunk in re.split(r"(?=[+~])", value):
+        chunk = chunk.strip()
+        if not chunk or chunk[0] not in {"+", "~"}:
+            continue
+        part = chunk[1:].strip()
+        if part:
+            out.append(part)
+    return out
+
+
+def split_analysis_for_lexeme_and_clitics(analysis: str) -> Tuple[str, List[str]]:
+    """Return host analysis and explicit +/~ clitic parts for DULAT host checks."""
+    value = (analysis or "").strip()
+    if not value:
+        return "", []
+
+    host = value
+    clitic_parts: List[str] = []
+
+    # Verbal/inflectional tail: only harvest explicit +/~ clitics from tail.
+    if "[" in host:
+        base, tail = host.split("[", 1)
+        host = base.strip()
+        clitic_parts.extend(_extract_marked_clitic_parts(tail))
+
+    # Host-level suffix/enclitic markers.
+    marker_positions = [pos for pos in (host.find("+"), host.find("~")) if pos != -1]
+    if marker_positions:
+        split_idx = min(marker_positions)
+        host_tail = host[split_idx:]
+        host = host[:split_idx].strip()
+        clitic_parts.extend(_extract_marked_clitic_parts(host_tail))
+
+    return host.strip(), clitic_parts
+
+
+def analyses_differ_only_by_clitic_payload(first: str, second: str) -> bool:
+    """Return True when analyses differ only in explicit +/~ clitic payloads."""
+    first_host, first_clitics = split_analysis_for_lexeme_and_clitics(first)
+    second_host, second_clitics = split_analysis_for_lexeme_and_clitics(second)
+    if first_host != second_host:
+        return False
+    if not first_clitics or not second_clitics:
+        return False
+    return True
+
+
 ALT_FORM_RE = re.compile(r"\b[!\](/[&\(\)A-Za-z0-9ˤʔḫḫṣṯẓġḏḫḥṭš]+\b")
 
 
@@ -2174,7 +2227,10 @@ def lint_file(
             current_analysis = (parts[2] or "").strip()
             if first_seen_semantic is not None:
                 first_line, first_analysis = first_seen_semantic
-                if first_analysis != current_analysis:
+                if (
+                    first_analysis != current_analysis
+                    and not analyses_differ_only_by_clitic_payload(first_analysis, current_analysis)
+                ):
                     issues.append(
                         Issue(
                             "error",
@@ -3123,24 +3179,8 @@ def lint_file(
                 )
 
         if db_checks:
-            # Handle clitic splits (e.g., b+h=). Base lexeme is checked normally.
-            analysis_for_lexeme = analysis
-            clitic_parts: List[str] = []
-            if "+" in analysis:
-                split_parts = analysis.split("+")
-                base_part = split_parts[0].strip()
-                clitic_parts.extend([p for p in split_parts[1:] if p.strip()])
-                analysis_for_lexeme = base_part
-
-            if "[" in analysis:
-                base, tail = analysis.split("[", 1)
-                analysis_for_lexeme = base.strip()
-                tail = tail.strip()
-                if tail:
-                    for seg in tail.split("+"):
-                        seg = seg.strip()
-                        if seg:
-                            clitic_parts.append(seg)
+            # Handle clitic splits (e.g., b+h=, hl~m). Base lexeme is checked normally.
+            analysis_for_lexeme, clitic_parts = split_analysis_for_lexeme_and_clitics(analysis)
 
             seen_clitics = set()
             for part in clitic_parts:

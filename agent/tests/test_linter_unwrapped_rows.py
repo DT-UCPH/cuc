@@ -53,6 +53,22 @@ class LinterUnwrappedRowsTest(unittest.TestCase):
         self.assertFalse(any(DUPLICATE_MSG in message for message in messages))
         self.assertNotIn(PACKED_MSG, messages)
 
+    def test_allows_semantic_duplicate_when_only_clitic_payload_differs(self) -> None:
+        issues = self._lint(
+            "1\tynaṣn\t!y!n(ʔ&aṣ[+n\t/n-ʔ-ṣ/\tvb G prefc. 3 m. sg.\tto despise\t\n"
+            "1\tynaṣn\t!y!n(ʔ&aṣ[+n=\t/n-ʔ-ṣ/\tvb G prefc. 3 m. sg.\tto despise\t\n"
+        )
+        messages = [issue.message for issue in issues]
+        self.assertFalse(any(SEMANTIC_DUPLICATE_MSG in message for message in messages))
+
+    def test_keeps_semantic_duplicate_error_when_only_one_row_has_clitic(self) -> None:
+        issues = self._lint(
+            "1\tynaṣn\t!y!n(ʔ&aṣ[\t/n-ʔ-ṣ/\tvb G prefc. 3 m. sg.\tto despise\t\n"
+            "1\tynaṣn\t!y!n(ʔ&aṣ[+n\t/n-ʔ-ṣ/\tvb G prefc. 3 m. sg.\tto despise\t\n"
+        )
+        messages = [issue.message for issue in issues]
+        self.assertTrue(any(SEMANTIC_DUPLICATE_MSG in message for message in messages))
+
     def test_flags_semantic_duplicate_with_different_analysis(self) -> None:
         issues = self._lint(
             "1\tġrt\tġr(t(I)/t\tġrt (I)\tn. f. pl. cstr. gen.\trock\t\n"
