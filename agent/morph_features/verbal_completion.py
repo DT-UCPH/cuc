@@ -61,6 +61,7 @@ class VerbalFeatureCompleter:
             analysis_variant = self._analysis_for_form(row, form)
             decoded = decode_analysis(analysis_variant)
             person, gender, number = self._features_for_form(form, decoded)
+            state, case = self._state_case_for_form(form=form, analysis=analysis_variant)
             variants.append(
                 CompletedVariant(
                     analysis=analysis_variant,
@@ -73,8 +74,8 @@ class VerbalFeatureCompleter:
                         person=person,
                         gender=gender,
                         number=number,
-                        state="abs." if "ptcpl." in form else "",
-                        case="nom." if "ptcpl." in form else "",
+                        state=state,
+                        case=case,
                         source="analysis+dulat",
                         confidence="high" if person or gender or number else "medium",
                         has_enclitic=decoded.has_enclitic,
@@ -97,11 +98,13 @@ class VerbalFeatureCompleter:
     def _variant(
         self, analysis: str, dulat: str, pos: str, gloss: str, comment: str
     ) -> CompletedVariant:
+        form = self._extract_forms(pos, ())[0] if self._extract_forms(pos, ()) else ""
+        state, case = self._state_case_for_form(form=form, analysis=analysis)
         bundle = build_verbal_bundle(
             stem=self._extract_stems(pos)[0] if self._extract_stems(pos) else "",
-            form=self._extract_forms(pos, ())[0] if self._extract_forms(pos, ()) else "",
-            state="abs." if "ptcpl." in pos else "",
-            case="nom." if "ptcpl." in pos else "",
+            form=form,
+            state=state,
+            case=case,
             source="existing",
         )
         return CompletedVariant(
@@ -123,9 +126,17 @@ class VerbalFeatureCompleter:
             explicit_forms.remove("ptcpl.")
         if "pass. ptcpl." in explicit_forms and "ptcpl." in explicit_forms:
             explicit_forms.remove("ptcpl.")
+        fallback = [label for label in fallback_forms if label in _FORM_ORDER]
+        fallback = list(dict.fromkeys(fallback))
         if explicit_forms:
+            if fallback:
+                constrained = [label for label in explicit_forms if label in fallback]
+                if constrained:
+                    return constrained
+                return fallback
             return explicit_forms
-
+        if fallback:
+            return fallback
         return []
 
     @staticmethod
@@ -177,6 +188,7 @@ class VerbalFeatureCompleter:
         analysis_variant = self._analysis_for_form(row, form)
         decoded = decode_analysis(analysis_variant)
         explicit = self._features_for_form(form, decoded)
+        state, case = self._state_case_for_form(form=form, analysis=analysis_variant)
         candidates = generate_verbal_candidates(
             surface=row.surface,
             dulat=row.dulat,
@@ -204,8 +216,8 @@ class VerbalFeatureCompleter:
                         person=candidate.person,
                         gender=candidate.gender,
                         number=candidate.number,
-                        state="abs." if "ptcpl." in form else "",
-                        case="nom." if "ptcpl." in form else "",
+                        state=state,
+                        case=case,
                         source="morphology-pattern",
                         confidence="medium",
                     ),
@@ -228,6 +240,14 @@ class VerbalFeatureCompleter:
         if not candidates:
             return False
         return all(candidate.analysis != analysis for candidate in candidates)
+
+    @staticmethod
+    def _state_case_for_form(*, form: str, analysis: str) -> tuple[str, str]:
+        if "ptcpl." not in (form or ""):
+            return "", ""
+        if "+" in (analysis or ""):
+            return "cstr.", "nom."
+        return "abs.", "nom."
 
 
 def rewrite_row(row: TabletRow, completer: VerbalFeatureCompleter) -> TabletRow:

@@ -55,6 +55,17 @@ class RefineResultsMentionsTest(unittest.TestCase):
         )
         self.assertEqual(entry_label(entry), "ỉ/ủšḫry")
 
+    def test_entry_label_preserves_non_root_slash_lemma(self) -> None:
+        entry = Entry(
+            entry_id=915,
+            lemma="ʕllmy/n",
+            hom="",
+            pos="adj. /n.",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(entry_label(entry), "ʕllmy/n")
+
     def test_compact_gloss_keeps_parenthetical_comma(self) -> None:
         self.assertEqual(compact_gloss("(one, a) thousand"), "(one, a) thousand")
 
@@ -104,6 +115,28 @@ class RefineResultsMentionsTest(unittest.TestCase):
         )
         self.assertEqual(analysis_for_entry("an", entry), "an(II)")
 
+    def test_analysis_uses_surface_for_non_nominal_form_variant(self) -> None:
+        entry = Entry(
+            entry_id=1334,
+            lemma="d",
+            hom="",
+            pos="det. / rel. functor",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("dt", entry), "d&t")
+
+    def test_analysis_encodes_nominal_y_to_surface_n_variant(self) -> None:
+        entry = Entry(
+            entry_id=915,
+            lemma="ʕllmy/n",
+            hom="",
+            pos="adj. /n.",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("ˤllmn", entry), "ˤllm(y/n")
+
     def test_analysis_for_mn_keeps_nominal_slash(self) -> None:
         entry = Entry(
             entry_id=434,
@@ -147,6 +180,62 @@ class RefineResultsMentionsTest(unittest.TestCase):
             wiki_tr="",
         )
         self.assertEqual(analysis_for_entry("tlsmn", entry), "!t!lsm[n")
+
+    def test_analysis_rewrites_prefixed_weak_final_tbnn(self) -> None:
+        entry = Entry(
+            entry_id=1245,
+            lemma="/b-n-y/",
+            hom="",
+            pos="vb",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(
+            analysis_for_entry("tbnn", entry, morph_values=["G, prefc."]),
+            "!t!bn(y[n",
+        )
+
+    def test_analysis_rewrites_prefixed_weak_initial_h_ylkn(self) -> None:
+        entry = Entry(
+            entry_id=1747,
+            lemma="/h-l-k/",
+            hom="",
+            pos="vb",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(
+            analysis_for_entry("ylkn", entry, morph_values=["G, prefc."]),
+            "!y!(hlk[n",
+        )
+
+    def test_analysis_rewrites_prefixed_i_aleph(self) -> None:
+        entry = Entry(
+            entry_id=642,
+            lemma="/ʔ-s-p/",
+            hom="",
+            pos="vb",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(
+            analysis_for_entry("tusp", entry, morph_values=["Gpass., prefc."]),
+            "!t!(ʔ&usp[",
+        )
+
+    def test_analysis_rewrites_prefixed_ii_aleph(self) -> None:
+        entry = Entry(
+            entry_id=3012,
+            lemma="/n-ʔ-ṣ/",
+            hom="",
+            pos="vb",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(
+            analysis_for_entry("ynaṣn", entry, morph_values=["G, prefc., with suff."]),
+            "!y!n(ʔ&aṣ[n",
+        )
 
     def test_analysis_keeps_preformative_for_contracted_prefixed_verb(self) -> None:
         entry = Entry(

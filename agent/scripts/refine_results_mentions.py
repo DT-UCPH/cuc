@@ -263,13 +263,6 @@ def parse_optional_hom(lemma: str, hom: str) -> Tuple[str, str]:
 
 def entry_label(e: Entry) -> str:
     lemma = (e.lemma or "").strip()
-    if not (lemma.startswith("/") and lemma.endswith("/")) and "/" in lemma:
-        first = lemma.split("/", 1)[0].strip()
-        # Some DULAT headwords encode orthographic alternatives like
-        # ỉ/ủšḫry. Keeping only the first short fragment would destroy
-        # lexical identity (ỉ), so preserve the full slash lemma.
-        if len(extract_letters(first)) > 2:
-            lemma = first
     if e.hom:
         return f"{lemma} ({e.hom})"
     return lemma
@@ -577,6 +570,69 @@ def build_prefixed_n_weak_iii_aleph_analysis(
     return f"{marker}{stem_marker}{normalized_stem}{hom}[&{inflection}"
 
 
+def build_prefixed_weak_fallback_analysis(
+    *,
+    surface_plain: str,
+    stem_plain: str,
+    stem_marker: str,
+    hom: str,
+) -> Optional[str]:
+    """Build reconstructable fallback for prefixed verbs when direct match fails.
+
+    Handles recurrent classes:
+    - weak-final y/w showing surface -n in prefc. forms
+    - weak-initial h elision after preformative
+    - I-aleph and II-aleph vowel realization in prefix forms
+    """
+    if not surface_plain or not stem_plain:
+        return None
+    preformative = surface_plain[0]
+    if preformative not in _PREFORMATIVE_LETTERS:
+        return None
+    body = surface_plain[1:]
+    if not body:
+        return None
+
+    marker = format_preformative_marker(preformative)
+
+    # Weak-final roots: surface keeps n where root has terminal y/w.
+    if stem_plain.endswith(("y", "w")) and body.startswith(stem_plain[:-1]):
+        tail = body[len(stem_plain) - 1 :]
+        host = f"{stem_plain[:-1]}({stem_plain[-1]}"
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+
+    # Weak-initial h can drop in prefixed forms (e.g. /h-l-k/ -> ylkn).
+    if stem_plain.startswith("h") and len(stem_plain) > 1 and body.startswith(stem_plain[1:]):
+        tail = body[len(stem_plain) - 1 :]
+        host = f"(h{stem_plain[1:]}"
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+
+    # I-aleph roots: aleph realized via vowel after preformative.
+    if (
+        stem_plain.startswith("ʔ")
+        and body[0] in {"a", "i", "u"}
+        and body[1:].startswith(stem_plain[1:])
+    ):
+        tail = body[len(stem_plain) :]
+        host = f"(ʔ&{body[0]}{stem_plain[1:]}"
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+
+    # II-aleph roots: middle aleph realized via vowel.
+    if (
+        len(stem_plain) >= 3
+        and stem_plain[1] == "ʔ"
+        and body.startswith(stem_plain[0])
+        and len(body) >= 3
+        and body[1] in {"a", "i", "u"}
+        and body[2:].startswith(stem_plain[2:])
+    ):
+        tail = body[len(stem_plain) :]
+        host = f"{stem_plain[0]}(ʔ&{body[1]}{stem_plain[2:]}"
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+
+    return None
+
+
 def analysis_for_entry(
     surface: str,
     e: Entry,
@@ -657,6 +713,15 @@ def analysis_for_entry(
         ):
             # Redirect target can be a weak-initial y-root while surface keeps w.
             return f"{stem_marker}(y&{surface_plain}{hom}["
+        if has_prefix_morphology(morph_values or []):
+            prefixed_fallback = build_prefixed_weak_fallback_analysis(
+                surface_plain=surface_plain,
+                stem_plain=stem_plain,
+                stem_marker=stem_marker,
+                hom=hom,
+            )
+            if prefixed_fallback is not None:
+                return prefixed_fallback
         tail = ""
         marker_plus_stem = f"{stem_marker_plain}{stem_plain}"
         if marker_plus_stem and surface_plain.startswith(marker_plus_stem):
@@ -691,7 +756,24 @@ def analysis_for_entry(
             if prefix_len <= 3:
                 lex = mark_reconstructed_prefix_letters(lex, prefix_len)
     if takes_nominal_slash(e.pos):
+        lex_plain = extract_letters(lex)
+        surface_plain = extract_letters(s)
+        if (
+            lex_plain
+            and surface_plain
+            and lex_plain.endswith(("y", "w"))
+            and surface_plain == f"{lex_plain[:-1]}n"
+        ):
+            return f"{lex[:-1]}({lex[-1]}{hom}/n"
         return f"{lex}{hom}/"
+    lex_plain = extract_letters(lex)
+    surface_plain = extract_letters(s)
+    if lex_plain != surface_plain:
+        if lex_plain and surface_plain.startswith(lex_plain):
+            tail = surface_plain[len(lex_plain) :]
+            if tail:
+                return f"{lex}{hom}&{tail}"
+        return f"{s}{hom}"
     return f"{lex}{hom}"
 
 

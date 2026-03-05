@@ -50,6 +50,40 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         self.assertEqual(rewritten.analysis, "!y!(yṯb[; yṯb[")
         self.assertEqual(rewritten.pos, "vb G prefc. 3 m. sg.; vb G suffc. 3 m. sg.")
 
+    def test_constrains_explicit_forms_with_dulat_form_metadata(self) -> None:
+        completer = VerbalFeatureCompleter(
+            _FakeReader({("ynaṣn", "/n-ʔ-ṣ/"): _Features(("prefc.",))})
+        )
+        row = TabletRow(
+            "135906",
+            "ynaṣn",
+            "!y!n(ʔ&aṣ[n",
+            "/n-ʔ-ṣ/",
+            "vb G prefc. / vb G suffc.",
+            "to despise",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "!y!n(ʔ&aṣ[n")
+        self.assertEqual(rewritten.pos, "vb G prefc. 3 m. sg.")
+
+    def test_replaces_non_overlapping_explicit_form_with_dulat_form_metadata(self) -> None:
+        completer = VerbalFeatureCompleter(
+            _FakeReader({("ynaṣn", "/n-ʔ-ṣ/"): _Features(("prefc.",))})
+        )
+        row = TabletRow(
+            "135906",
+            "ynaṣn",
+            "ynaṣn[",
+            "/n-ʔ-ṣ/",
+            "vb G suffc.",
+            "to despise",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "ynaṣn[")
+        self.assertEqual(rewritten.pos, "vb G prefc.")
+
     def test_preserves_participle_and_adds_default_gender_number(self) -> None:
         completer = VerbalFeatureCompleter(
             _FakeReader({("yṯb", "/y-ṯ-b/"): _Features(("act", "ptc"))})
@@ -57,6 +91,14 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         row = TabletRow("139808", "yṯb", "yṯb[/", "/y-ṯ-b/", "vb G act. ptcpl.", "to sit down", "")
         rewritten = rewrite_row(row, completer)
         self.assertEqual(rewritten.pos, "vb G act. ptcpl. m. sg. abs. nom.")
+
+    def test_marks_suffix_bearing_participle_as_construct(self) -> None:
+        completer = VerbalFeatureCompleter(
+            _FakeReader({("bˤl", "/b-ʕ-l/"): _Features(("act", "ptc"))})
+        )
+        row = TabletRow("151368", "bˤlh", "bˤl[/+h", "/b-ʕ-l/", "vb G act. ptcpl.", "to make", "")
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.pos, "vb G act. ptcpl. m. sg. cstr. nom.")
 
     def test_pipeline_step_uses_real_dulat_reader(self) -> None:
         fixer = VerbalFeatureCompletionFixer(Path("unused.sqlite"))

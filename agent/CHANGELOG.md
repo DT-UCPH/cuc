@@ -1,3 +1,49 @@
+## 2026-03-05
+
+- Fixed parser-side reconstruction regressions in `scripts/refine_results_mentions.py` for recurring weak/prefixed and slash-variant forms:
+  - added prefixed fallback encoding for weak-final, weak-initial `h`, I-aleph, and II-aleph verbs (e.g. `tbnn`, `ylkn`, `tusp`, `ynaṣn`) so col3 stays reconstructable and prefix markers are preserved.
+  - preserved full non-root slash lemmas in DULAT labels (e.g. `ʕllmy/n`) and added nominal `-y` to surface `-n` encoding support (`ˤllm(y/n`).
+  - changed non-nominal variant fallback to append visible tail as surface-only markers (`&...`) instead of collapsing to raw surface (`d&t`, `b&d`), keeping lexeme identity aligned with DULAT.
+- Tightened verbal completion form selection in `morph_features/verbal_completion.py`: when explicit POS form labels conflict with DULAT exact-form metadata, completion now trusts DULAT forms.
+- Added regression coverage for the above in:
+  - `tests/test_refine_results_mentions.py`
+  - `tests/test_verbal_feature_completion.py`
+- Re-ran full parser pipeline and full linter report regeneration in `cuc-origin` (`auto_parsing/0.2.6`, `agent/reports/lint_report.{txt,html}`).
+
+- Rolled back two linter-side compatibility workarounds so parser/data issues are surfaced again:
+  - removed malformed onomastic POS payload coercion from `load_onomastic_override_pos(...)`,
+  - removed `nuf.`/`nuf` POS alias normalization to `num.`.
+- Fixed the parser-side `nuf.` regression in `pipeline/steps/nominal_form_morph_pos.py` by tightening `m.`/`f.` token replacement to standalone gender markers only (so `num.` is no longer mutated to `nuf.`).
+- Added/updated regression coverage:
+  - `tests/test_nominal_form_morph_pos.py` now asserts numeral POS remains `num. ...` under feminine morphology enrichment,
+  - `tests/test_linter_onomastic_pos_allowlist.py` now verifies malformed onomastic override POS payloads are rejected instead of silently normalized.
+- Extended generic-override-scoped demotions to cover `No DULAT entry found for lexeme/surface` in addition to the previously demoted generic-override message classes.
+- Improved POS validation compatibility:
+  - composed POS labels like `adv. or prep.` now validate when each component POS is allowed,
+  - legacy typo alias `nuf.` now normalizes to `num.` for validation.
+- Hardened onomastic POS allowlist normalization so malformed override payloads like `DN m. the Ocean/Primordial Ocean` still contribute a valid onomastic POS head (`DN m.`) during validation.
+- Extended linter POS compatibility checks with an onomastic allowlist loaded from `data_sources/onomastic_gloss_overrides.tsv`; onomastic readings (for example `DN m. ...`) now validate against DULAT noun entries when the lexeme is explicitly listed in the overrides table.
+- Added CLI wiring in `linter/lint.py` via `--onomastic-overrides` (defaulting to the migrated data-source path) and regression coverage in `tests/test_linter_onomastic_pos_allowlist.py`.
+- Added scoped lint demotions for lexemes listed in `data_sources/generic_parsing_overrides.tsv`: only those override-mapped lexemes now downgrade three high-noise classes to `info` (`POS token ... not allowed`, `Analysis does not reconstruct to surface`, and `No DULAT entry found for clitic part ...`).
+- Added helper loading/matching in `linter/lint.py` (`load_generic_override_lexemes`, `variant_uses_generic_override_lexeme`) plus CLI wiring via `--generic-overrides`.
+- Added regression coverage in `tests/test_linter_generic_override_demotions.py`.
+- Linter POS validation now strips `functor` role qualifiers during DULAT-token compatibility checks, so enriched tags like `prep. functor` validate against DULAT coarse POS heads such as `prep.`.
+- Demoted `Deverbal form matches both verb and noun entries in DULAT` from `error` to `warning` so ambiguous deverbal matches are review signals instead of hard failures.
+- Added regression coverage in `tests/test_linter_pos_normalization.py` and `tests/test_linter_deverbal_warning.py`.
+- Fixed parser-side reconstructability regressions in `cuc-origin` for recurring clitic/enclitic forms:
+  - `pipeline/steps/suffix_fixer.py`: expanded suffix candidate inventory (`+nh` etc.), made suffix injection reconstructability-safe, and prevented host-letter truncation in forms like `ḥtk(I)/+k`.
+  - `pipeline/steps/dulat_gate.py`: added conservative surface-tail suffix inference (`...h`, `...nh`, `...k`, etc.) when exact-form morphology labels omit `suff.`.
+  - `pipeline/steps/surface_reconstructability_fixer.py`: restores missing single-tail letters in nominal/pronoun variants where col3 is one visible letter short (e.g. `ˤn(I)&n/`, `at(I)&m`).
+  - `pipeline/steps/dulat_enclitic_m.py`: normalized `/ʔ-t-w/` imperative `atm` with enclitic `-m` to `!!(ʔ&at(w[~m`.
+  - `pipeline/steps/suffix_payload_collapse.py`: added late-stage repair from `+h` to `+nh` when surface explicitly requires `nh`.
+  - added/updated regressions in:
+    - `tests/test_refinement_steps.py`
+    - `tests/test_dulat_gate_plurale_tantum.py`
+    - `tests/test_surface_reconstructability_fixer.py`
+    - `tests/test_dulat_enclitic_m.py`
+    - `tests/test_suffix_payload_collapse.py`
+  - re-ran parsing for `KTU 1.1.tsv` in `cuc-origin`; target errors for `135597`, `135608`, `135644`, `135745`, `135747` are resolved.
+
 ## 2026-03-04 Morphology Feature Groundwork
 
 - Added a new `morph_features/` package with typed feature payloads, analysis decoding, vocalized-to-non-vocalized normalization, sqlite-backed DULAT exact-form lookup, and a first deterministic verbal completion helper.
@@ -996,3 +1042,10 @@
 - Added strict linter sanity checks for feminine ending consistency: `'/t'` now errors when paired with plural-only POS, and `'/t='` now errors when paired with singular-only POS.
 - Added strict linter sanity checks for semantic duplicate variants: rows with identical `id + surface + col4-col6` but different col3 analyses now error, preventing duplicate feature bundles from entering `auto_parsing`.
 - Added regression tests for both sanity classes (`tests/test_linter_feature_validation.py`, `tests/test_linter_unwrapped_rows.py`) and verified all linter tests pass (`111` tests).
+- Fixed POS normalization in DULAT compatibility lint: state/case tokens (`abs./cstr./nom./gen./acc.`) and standalone gender markers are now stripped during validation, so enriched parser POS like `n. m. sg. cstr. nom.` correctly matches DULAT base POS `n`.
+- Added regression coverage in `tests/test_linter_pos_normalization.py` for noun and DN rows carrying extended morphology in POS.
+- Refined `NominalFeatureCompleter` so analysis-level feminine singular split (`/t`) forces `sg.` and no longer expands to `pl.` when DULAT lists both `sg./pl.` for the same surface (fixes duplicate-bundle rows like `135691 ġrt` and `135995 aylt`).
+- Refined nominal gender completion precedence to trust explicit DULAT form gender before `/t` heuristics, so masculine lexical-`t` nouns like `ʕšr(t) (I)` retain `n. m.` POS (`152759`, `152764`).
+- Extended `DulatEncliticMFixer` weak-verb normalization for imperative + enclitic `-m`: forms like `ṯny[~m` are canonicalized to `ṯn(y[~m` when the surface lacks visible `y` (`152672`).
+- Relaxed inferable nominal linting for singular `/t`: linter no longer requires auto-injected `f.` solely from `/t` in column 3, avoiding false positives on masculine lexical-`t` entries while keeping `/t=` plural checks strict.
+- Added regression tests in `tests/test_nominal_feature_completion.py`, `tests/test_dulat_enclitic_m.py`, and `tests/test_linter_feature_validation.py` for the above fixes.
