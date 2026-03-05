@@ -69,6 +69,105 @@ def normalize_udb(s: str) -> str:
     return s.translate(ALEPH_NORMALIZE_UDB)
 
 
+def override_lexeme_keys(token: str) -> set[str]:
+    """Return normalized key variants used for generic-override matching."""
+    src = normalize_surface((token or "").strip())
+    if not src:
+        return set()
+    out = {src.lower()}
+    cleaned = _DECLARED_LEMMA_LETTER_RE.sub("", src).lower()
+    if cleaned:
+        out.add(cleaned)
+    if src.startswith("-"):
+        bare = src[1:].strip().lower()
+        if bare:
+            out.add(bare)
+    if src.startswith("/") and src.endswith("/"):
+        inner = src[1:-1].strip().lower()
+        if inner:
+            out.add(inner)
+            compact = inner.replace("-", "")
+            if compact:
+                out.add(compact)
+    return out
+
+
+def load_generic_override_lexemes(path: Path) -> set[str]:
+    """Load normalized lexeme keys from generic_parsing_overrides.tsv."""
+    if not path.exists():
+        return set()
+    out: set[str] = set()
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.lower().startswith("surface form\t"):
+            continue
+        parts = raw.split("\t")
+        if not parts:
+            continue
+        out.update(override_lexeme_keys(parts[0]))
+        dulat_field = parts[2] if len(parts) > 2 else ""
+        for d_variant in split_semicolon_field(dulat_field):
+            for dtok in split_csv_field(d_variant):
+                lemma, _hom = parse_declared_dulat_token(dtok)
+                if lemma:
+                    out.update(override_lexeme_keys(lemma))
+                out.update(override_lexeme_keys(dtok))
+    return out
+
+
+def load_onomastic_override_pos(path: Path) -> Dict[Tuple[str, str], set[str]]:
+    """Load onomastic POS overrides keyed by (lemma, homonym)."""
+    out: Dict[Tuple[str, str], set[str]] = {}
+    if not path.exists():
+        return out
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.lower().startswith("dulat\t"):
+            continue
+        parts = raw.split("\t")
+        if len(parts) < 2:
+            continue
+        dulat_tok = (parts[0] or "").strip()
+        pos_raw = (parts[1] or "").strip()
+        if not dulat_tok or not pos_raw:
+            continue
+        lemma, hom = parse_declared_dulat_token(dulat_tok)
+        key = (normalize_surface(lemma), hom or "")
+        out.setdefault(key, set()).add(pos_raw)
+    return out
+
+
+def variant_uses_generic_override_lexeme(
+    *,
+    surface: str,
+    analysis_variant: str,
+    dulat_variant: str,
+    generic_override_lexemes: set[str],
+    extra_tokens: Optional[Iterable[str]] = None,
+) -> bool:
+    """Return True when variant tokens map to generic override lexeme keys."""
+    if not generic_override_lexemes:
+        return False
+    tokens: set[str] = set()
+    tokens.update(override_lexeme_keys(surface))
+    lexeme, _is_verb, _hom = extract_lexeme_from_analysis((analysis_variant or "").strip())
+    if lexeme:
+        tokens.update(override_lexeme_keys(lexeme))
+    for dtok in split_csv_field(dulat_variant or ""):
+        lemma, _hom = parse_declared_dulat_token(dtok)
+        if lemma:
+            tokens.update(override_lexeme_keys(lemma))
+        tokens.update(override_lexeme_keys(dtok))
+    if extra_tokens:
+        for token in extra_tokens:
+            tokens.update(override_lexeme_keys(token or ""))
+    return bool(tokens & generic_override_lexemes)
+
+
 def lemma_aliases(lemma: str) -> List[str]:
     """
     Generate additional lookup aliases for lemmas with optional/alternative segments.
@@ -284,18 +383,17 @@ def morphology_is_construct_state(morph: str) -> bool:
 
 def has_unprefixed_reconstructed_sequence(s: str, allow_weak_y_cluster: bool = False) -> bool:
     """
-    Enforce explicit per-letter reconstruction marking:
-    every reconstructed letter must be preceded by '('.
+    Validate reconstruction marker grouping.
 
-    Example:
-      invalid:  š(lyṭ/
-      valid:    š(l(y(ṭ/
+    '(' binds to exactly one reconstructed letter. Valid atoms are:
+    - '(X' where X is a letter
+    - '([X[' bracket-wrapped single-letter reconstructions
+    - '(X&Y' substitution bundles where X is reconstructed and Y is surface-visible
 
-    Exempt substitution bundles like (k&w..., where only the first
-    letter is reconstructed and '&' introduces surface-only material.
-    Optionally exempt weak-initial y-root prefix clusters such as "(ytn",
-    "(yṯb", etc., where only initial y is reconstructed.
+    This check does not infer whether adjacent unmarked letters are reconstructed.
     """
+    _ = allow_weak_y_cluster  # Backward-compatible arg; retained for call sites.
+
     i = 0
     while i < len(s):
         if s[i] != "(":
@@ -312,28 +410,25 @@ def has_unprefixed_reconstructed_sequence(s: str, allow_weak_y_cluster: bool = F
         if j >= len(s):
             i += 1
             continue
-        if not LETTER_RE.match(s[j]):
+
+        # Single reconstructed letter atom.
+        if LETTER_RE.match(s[j]):
+            j += 1
+        # Bracket-wrapped single reconstructed letter, e.g. ([n[
+        elif j + 2 < len(s) and s[j] == "[" and LETTER_RE.match(s[j + 1]) and s[j + 2] == "[":
+            j += 3
+        else:
             i += 1
             continue
-        j += 1
 
-        # Local substitution pair "(X&Y" is a single reconstruction event.
+        # Optional substitution bundle payload '&X'.
         if j < len(s) and s[j] == "&":
             j += 1
             if j < len(s) and LETTER_RE.match(s[j]):
                 j += 1
-            i = j
-            continue
 
-        # If another letter follows immediately, it should be marked with "(" too.
-        if j < len(s) and LETTER_RE.match(s[j]):
-            # Allow weak-initial y-root cluster when only initial y
-            # is reconstructed in prefix forms (e.g., "(ytn", "(yṯb").
-            if allow_weak_y_cluster and s[i:j] == "(y" and j < len(s) and LETTER_RE.match(s[j]):
-                i = j + 1
-                continue
-            return True
         i = j
+
     return False
 
 
@@ -1418,7 +1513,10 @@ def normalize_pos_label(value: str) -> str:
     tok = re.sub(r"\s+", " ", (value or "").strip())
     if not tok:
         return ""
-    return POS_LABEL_NORMALIZATION.get(tok.lower(), tok)
+    lowered = tok.lower()
+    if lowered in POS_LABEL_NORMALIZATION:
+        return POS_LABEL_NORMALIZATION[lowered]
+    return tok
 
 
 def is_known_slash_pos_label(value: str) -> bool:
@@ -1461,10 +1559,33 @@ def split_pos_options(value: str) -> List[str]:
     return [normalize_pos_label(p) for p in parts if p]
 
 
+def pos_option_matches_allowed(option: str, allowed: set[str]) -> bool:
+    """Return True when POS option is directly or compositionally allowed."""
+    opt = (option or "").strip()
+    if not opt or not allowed:
+        return False
+    opt_norm = normalize_pos_option_for_validation(opt)
+    if opt_norm in allowed:
+        return True
+    # Accept composed labels like "adv. or prep." when each arm is allowed.
+    parts = [p.strip() for p in re.split(r"\s+or\s+", normalize_pos_label(opt)) if p.strip()]
+    if len(parts) <= 1:
+        return False
+    part_norms = {normalize_pos_option_for_validation(p) for p in parts}
+    if not part_norms:
+        return False
+    return part_norms.issubset(allowed)
+
+
 NOUN_GENDER_POS_RE = re.compile(r"n\.\s*(m|f)\.?(?=\s|$|[,;/])", re.IGNORECASE)
 NOUN_BASE_POS_RE = re.compile(r"\bn\.\s*", re.IGNORECASE)
 ADJ_GENDER_POS_RE = re.compile(r"adj\.\s*(m|f)\.?(?=\s|$|[,;/])", re.IGNORECASE)
 POS_NUMBER_RE = re.compile(r"\b(?:sg|du|pl)\.?(?=\s|$|[,;/])", re.IGNORECASE)
+POS_GENDER_RE = re.compile(r"\b(?:m|f|c)\.?(?=\s|$|[,;/])", re.IGNORECASE)
+POS_STATE_CASE_RE = re.compile(
+    r"\b(?:abs|cstr|nom|gen|acc)\.?(?=\s|$|[,;/])",
+    re.IGNORECASE,
+)
 
 
 def normalize_pos_option_for_validation(value: str) -> str:
@@ -1478,7 +1599,12 @@ def normalize_pos_option_for_validation(value: str) -> str:
     tok = NOUN_GENDER_POS_RE.sub("n ", tok)
     tok = NOUN_BASE_POS_RE.sub("n ", tok)
     tok = ADJ_GENDER_POS_RE.sub("adj.", tok)
+    tok = POS_GENDER_RE.sub("", tok)
     tok = POS_NUMBER_RE.sub("", tok)
+    tok = POS_STATE_CASE_RE.sub("", tok)
+    # Project-side role qualifiers like `prep. functor` should validate
+    # against DULAT coarse POS heads (e.g. `prep.`).
+    tok = re.sub(r"\bfunctor\b\.?", "", tok, flags=re.IGNORECASE)
     # DULAT POS inventory encodes verbs as `vb`; stem labels are tracked
     # separately (see verb stem lint), so collapse `vb <stem>` for this
     # validation layer.
@@ -1807,8 +1933,12 @@ def lint_file(
     baseline: Optional[Path],
     input_format: str = "auto",
     db_checks: bool = True,
+    generic_override_lexemes: Optional[set[str]] = None,
+    onomastic_override_pos: Optional[Dict[Tuple[str, str], set[str]]] = None,
 ):
     issues: List[Issue] = []
+    generic_override_lexemes = generic_override_lexemes or set()
+    onomastic_override_pos = onomastic_override_pos or {}
 
     lines = path.read_text(encoding="utf-8").splitlines()
     is_out_tsv_file = path.parent.name == "out"
@@ -2422,15 +2552,21 @@ def lint_file(
                         key = (normalize_surface(lemma_tok), hom_tok or "")
                         pos_matches = set(entry_index.get(key, set()))
                         gender_matches = set(entry_gender_index.get(key, set()))
+                        onomastic_pos_matches = set(onomastic_override_pos.get(key, set()))
                         # Fallback: if homonym omitted in col4 token, allow any homonym with same lemma.
                         if not pos_matches and not hom_tok:
                             for (k_lemma, _k_hom), pos_set in entry_index.items():
                                 if k_lemma == normalize_surface(lemma_tok):
                                     pos_matches.update(pos_set)
+                        if not onomastic_pos_matches and not hom_tok:
+                            for (k_lemma, _k_hom), pos_set in onomastic_override_pos.items():
+                                if k_lemma == normalize_surface(lemma_tok):
+                                    onomastic_pos_matches.update(pos_set)
                         if not gender_matches and not hom_tok:
                             for (k_lemma, _k_hom), g_set in entry_gender_index.items():
                                 if k_lemma == normalize_surface(lemma_tok):
                                     gender_matches.update(g_set)
+                        pos_matches.update(onomastic_pos_matches)
                         if not pos_matches:
                             issues.append(
                                 Issue(
@@ -2455,12 +2591,18 @@ def lint_file(
                                         allowed.add(normalize_pos_option_for_validation(sub_opt))
                             pos_tok_opts = split_pos_options(pos_tok) if pos_tok else []
                             for opt in pos_tok_opts:
-                                opt_norm = normalize_pos_option_for_validation(opt)
-                                if opt and allowed and opt_norm not in allowed:
+                                if opt and allowed and not pos_option_matches_allowed(opt, allowed):
                                     allowed_list = ", ".join(sorted(allowed))
+                                    is_generic_override = variant_uses_generic_override_lexeme(
+                                        surface=surface,
+                                        analysis_variant=a_var,
+                                        dulat_variant=d_field,
+                                        generic_override_lexemes=generic_override_lexemes,
+                                        extra_tokens=[dtok],
+                                    )
                                     issues.append(
                                         Issue(
-                                            "error",
+                                            "info" if is_generic_override else "error",
                                             str(path),
                                             i,
                                             line_id,
@@ -2922,7 +3064,8 @@ def lint_file(
             expected_norm = normalize_surface(expected_letters)
             if not expected_norm:
                 expected_norm = normalize_surface(surface_clean)
-            for a_var in analysis_variants or [analysis]:
+            variant_rows = analysis_variants or [analysis]
+            for idx, a_var in enumerate(variant_rows):
                 a_txt = (a_var or "").strip()
                 if not a_txt:
                     continue
@@ -2930,9 +3073,20 @@ def lint_file(
                     continue
                 reconstructed = normalize_surface(reconstruct_surface_from_analysis(a_txt))
                 if reconstructed != expected_norm:
+                    d_variant = (
+                        dulat_variants[idx]
+                        if idx < len(dulat_variants)
+                        else (dulat_variants[0] if dulat_variants else "")
+                    )
+                    is_generic_override = variant_uses_generic_override_lexeme(
+                        surface=surface,
+                        analysis_variant=a_txt,
+                        dulat_variant=d_variant,
+                        generic_override_lexemes=generic_override_lexemes,
+                    )
                     issues.append(
                         Issue(
-                            "error",
+                            "info" if is_generic_override else "error",
                             str(path),
                             i,
                             line_id,
@@ -3015,9 +3169,16 @@ def lint_file(
                         if part_hom:
                             part_candidates = [c for c in part_candidates if c.homonym == part_hom]
                 if not part_candidates:
+                    is_generic_override = variant_uses_generic_override_lexeme(
+                        surface=surface,
+                        analysis_variant=analysis,
+                        dulat_variant=parts[3] if len(parts) >= 4 else "",
+                        generic_override_lexemes=generic_override_lexemes,
+                        extra_tokens=[part, part_lexeme],
+                    )
                     issues.append(
                         Issue(
-                            "error",
+                            "info" if is_generic_override else "error",
                             str(path),
                             i,
                             line_id,
@@ -3107,7 +3268,7 @@ def lint_file(
                 if verb_candidates and noun_candidates:
                     issues.append(
                         Issue(
-                            "error",
+                            "warning",
                             str(path),
                             i,
                             line_id,
@@ -3207,9 +3368,15 @@ def lint_file(
 
             if not skip_dulat:
                 if not d_candidates:
+                    is_generic_override = variant_uses_generic_override_lexeme(
+                        surface=surface,
+                        analysis_variant=analysis_for_lexeme or analysis,
+                        dulat_variant=parts[3] if len(parts) >= 4 else "",
+                        generic_override_lexemes=generic_override_lexemes,
+                    )
                     issues.append(
                         Issue(
-                            "error",
+                            "info" if is_generic_override else "error",
                             str(path),
                             i,
                             line_id,
@@ -4524,6 +4691,16 @@ def main():
         default="auto",
         help="Input row format: auto-detect, fully labeled files, or raw cuc_tablets_tsv rows",
     )
+    parser.add_argument(
+        "--generic-overrides",
+        default=str(paths.data_sources_dir / "generic_parsing_overrides.tsv"),
+        help="Path to generic parsing overrides table used for scoped lint demotions",
+    )
+    parser.add_argument(
+        "--onomastic-overrides",
+        default=str(paths.data_sources_dir / "onomastic_gloss_overrides.tsv"),
+        help="Path to onomastic override table used for POS allowlist expansion",
+    )
     args = parser.parse_args()
 
     if args.no_db:
@@ -4536,6 +4713,8 @@ def main():
     else:
         dulat_forms, entry_meta, lemma_map, entry_stems, entry_gender = load_dulat(Path(args.dulat))
         udb_words = load_udb_words(Path(args.udb)) if Path(args.udb).exists() else None
+    generic_override_lexemes = load_generic_override_lexemes(Path(args.generic_overrides))
+    onomastic_override_pos = load_onomastic_override_pos(Path(args.onomastic_overrides))
 
     all_issues: List[Issue] = []
 
@@ -4560,6 +4739,8 @@ def main():
             baseline,
             input_format=args.input_format,
             db_checks=(not args.no_db),
+            generic_override_lexemes=generic_override_lexemes,
+            onomastic_override_pos=onomastic_override_pos,
         )
         all_issues.extend(issues)
 
