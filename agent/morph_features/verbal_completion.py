@@ -167,6 +167,21 @@ class VerbalFeatureCompleter:
                 host = f"(]n]{visible}"
             return f"{host}[{suffix}" if suffix else f"{host}["
 
+        if stem == "tD":
+            stemmed = visible
+            normalized_visible = normalize_surface(visible)
+            normalized_root = normalize_surface(root)
+            if normalized_root and normalized_visible.endswith(normalized_root):
+                prefix_len = len(normalized_visible) - len(normalized_root)
+                if prefix_len > 0:
+                    stemmed = visible[prefix_len:]
+            elif stemmed.startswith("tt"):
+                stemmed = stemmed[2:]
+            elif stemmed.startswith("t"):
+                stemmed = stemmed[1:]
+            host = f"]t]{stemmed}"
+            return f"{host}[{suffix}" if suffix else f"{host}["
+
         if root:
             normalized_visible = normalize_surface(visible)
             normalized_root = normalize_surface(root)

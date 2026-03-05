@@ -160,6 +160,23 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         self.assertEqual(rewritten.analysis, "]n]ˤr[")
         self.assertEqual(rewritten.pos, "vb N suffc. 3 m. sg.")
 
+    def test_suffix_fallback_uses_t_marker_for_td_stem(self) -> None:
+        completer = VerbalFeatureCompleter(
+            _FakeReader({("tgr", "/g-r(-y)/"): _Features(("suffc",))})
+        )
+        row = TabletRow(
+            "135862",
+            "tgr",
+            "!t!]t]gr[:d",
+            "/g-r(-y)/",
+            "vb tD suffc.",
+            "to attack",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "]t]gr[:d")
+        self.assertEqual(rewritten.pos, "vb tD suffc.")
+
 
 if __name__ == "__main__":
     unittest.main()

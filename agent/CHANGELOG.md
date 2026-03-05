@@ -1,5 +1,15 @@
 ## 2026-03-05
 
+- Fixed `tD` stem handling for suffixed fallback rewrites and validation:
+  - `morph_features/verbal_completion.py` now rewrites fallback `tD` analyses with the required `]t]` stem marker (e.g. `tgr` -> `]t]gr[:d`) instead of `&...` host prefixing.
+  - `linter/lint.py` now treats `]t]` as required when POS includes `vb tD`, and accepts `]t]` compatibility for DULAT `tD`/`tL` stems in the legacy `Xt` marker check.
+  - updated regression coverage in `tests/test_verbal_feature_completion.py` and `tests/test_linter_verb_pos_stem.py`.
+- Fixed drift in `tests/test_linter_generic_override_demotions.py` for clitic-missing message matching after recent lint message normalization.
+
+- Refined generic-override lint demotions to apply only to stand-alone clitic/suffix analyses (`+...`, `~...`, `/...`, `[...]`) for three high-noise classes: `DULAT comment ... not in candidates`, `Missing DULAT entry token(s) in column 4`, and duplicate semantic bundle errors.
+- Improved DULAT comment mismatch diagnostics to include declared token and candidate list, e.g. `DULAT comment 'X' not in candidates: ...`.
+- Added regression coverage in `tests/test_linter_generic_override_demotions.py` for scoped demotion and non-standalone guard behavior.
+
 - Fixed N-stem marker policy and suffixed short-root fallback in parser/linter:
   - `morph_features/verbal_completion.py` now rewrites suffc fallback analyses for short roots using stem-aware encoding, producing `&...[` for visible non-lexeme prefixes in G (for example `nˤr -> &nˤr[`) and `]n]...[`/`(]n]...[` for N depending on visibility.
   - `pipeline/steps/verb_n_stem_assimilation.py` now uses canonical `(]n]` insertion for prefixed N forms, normalizes legacy `](n]`, and applies variant-by-variant so non-N POS variants do not keep N markers.

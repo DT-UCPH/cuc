@@ -168,6 +168,14 @@ def variant_uses_generic_override_lexeme(
     return bool(tokens & generic_override_lexemes)
 
 
+def analysis_is_standalone_clitic_or_suffix(analysis_variant: str) -> bool:
+    """Return True when analysis consists only of clitic/suffix fragments."""
+    parts = split_csv_field((analysis_variant or "").strip())
+    if not parts:
+        return False
+    return all(part and part[0] in {"+", "~", "/", "["} for part in parts)
+
+
 def lemma_aliases(lemma: str) -> List[str]:
     """
     Generate additional lookup aliases for lemmas with optional/alternative segments.
@@ -1116,6 +1124,8 @@ def required_verb_stem_markers_from_pos(pos_field: str) -> set[str]:
         required.add(":r")
     if stems & {"Gpass", "Dpass", "Lpass", "Špass"}:
         required.add(":pass")
+    if "tD" in stems:
+        required.add("]t]")
     return required
 
 
@@ -2257,9 +2267,16 @@ def lint_file(
                     first_analysis != current_analysis
                     and not analyses_differ_only_by_clitic_payload(first_analysis, current_analysis)
                 ):
+                    is_generic_override = variant_uses_generic_override_lexeme(
+                        surface=surface,
+                        analysis_variant=current_analysis,
+                        dulat_variant=parts[3] if len(parts) >= 4 else "",
+                        generic_override_lexemes=generic_override_lexemes,
+                        extra_tokens=[first_analysis],
+                    ) and analysis_is_standalone_clitic_or_suffix(current_analysis)
                     issues.append(
                         Issue(
-                            "error",
+                            "info" if is_generic_override else "error",
                             str(path),
                             i,
                             line_id,
@@ -2450,9 +2467,15 @@ def lint_file(
                         ]
 
                     if not d_tokens:
+                        is_generic_override = variant_uses_generic_override_lexeme(
+                            surface=surface,
+                            analysis_variant=a_var,
+                            dulat_variant=d_field,
+                            generic_override_lexemes=generic_override_lexemes,
+                        ) and analysis_is_standalone_clitic_or_suffix(a_var)
                         issues.append(
                             Issue(
-                                "error",
+                                "info" if is_generic_override else "error",
                                 str(path),
                                 i,
                                 line_id,
@@ -3527,7 +3550,7 @@ def lint_file(
                                     "Š stem marker present but DULAT lacks Š/Št/Špass",
                                 )
                             )
-                        if has_t_stem and not ({"Gt", "Št", "Dt", "Lt", "Nt"} & stems):
+                        if has_t_stem and not ({"Gt", "Št", "Dt", "Lt", "Nt", "tD", "tL"} & stems):
                             issues.append(
                                 Issue(
                                     "error",
@@ -3619,15 +3642,28 @@ def lint_file(
                     # Unambiguous DULAT entry
                     if len(d_candidates) > 1 and head:
                         if not any(c.lemma == head and c.homonym == hom for c in d_candidates):
+                            is_generic_override = variant_uses_generic_override_lexeme(
+                                surface=surface,
+                                analysis_variant=analysis,
+                                dulat_variant=parts[3] if len(parts) >= 4 else "",
+                                generic_override_lexemes=generic_override_lexemes,
+                            ) and analysis_is_standalone_clitic_or_suffix(analysis)
+                            declared = f"{head} ({hom})" if hom else head
+                            cand_list = ", ".join(
+                                sorted(
+                                    f"{c.lemma} ({c.homonym})" if c.homonym else c.lemma
+                                    for c in d_candidates
+                                )
+                            )
                             issues.append(
                                 Issue(
-                                    "error",
+                                    "info" if is_generic_override else "error",
                                     str(path),
                                     i,
                                     line_id,
                                     surface,
                                     analysis,
-                                    "DULAT comment does not match candidates",
+                                    f"DULAT comment '{declared}' not in candidates: {cand_list}",
                                 )
                             )
                     elif len(d_candidates) > 1 and not head:
