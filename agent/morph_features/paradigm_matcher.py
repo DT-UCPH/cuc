@@ -257,7 +257,7 @@ def _build_body_variants(
             elif stem == "Š":
                 body = f"]š]{r1}{r2}{r3}["
             elif stem == "N":
-                marker = "](n]" if conjugation == "prefc." else "(]n]"
+                marker = "(]n]"
                 body = f"{marker}{r1}{r2}{r3}["
             else:
                 body = ""

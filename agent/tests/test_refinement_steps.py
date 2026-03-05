@@ -417,9 +417,9 @@ class WeakVerbFixerTest(unittest.TestCase):
         self.assertEqual(result.analysis, "!(ʔ&a!(ytn[")
 
     def test_keeps_assimilated_n_before_hidden_y_in_n_stem(self) -> None:
-        row = TabletRow("1", "yld", "!y!](n]yld[", "/y-l-d/", "vb N", "to give birth", "")
+        row = TabletRow("1", "yld", "!y!(]n]yld[", "/y-l-d/", "vb N", "to give birth", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "!y!](n](yld[")
+        self.assertEqual(result.analysis, "!y!(]n](yld[")
 
     def test_non_weak_initial_verb_unchanged(self) -> None:
         row = TabletRow("1", "tqru", "tqrʔ[", "/q-r-ʔ/", "vb", "to call", "")
@@ -1019,17 +1019,17 @@ class VerbNStemAssimilationFixerTest(unittest.TestCase):
     def test_inserts_assimilated_n_for_prefixed_n_stem(self) -> None:
         row = TabletRow("1", "tṯbr", "!t!ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "!t!](n]ṯbr[")
+        self.assertEqual(result.analysis, "!t!(]n]ṯbr[")
 
     def test_inserts_assimilated_n_for_aleph_prefixed_n_stem(self) -> None:
         row = TabletRow("1", "aṯbr", "!(ʔ&a!ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "!(ʔ&a!](n]ṯbr[")
+        self.assertEqual(result.analysis, "!(ʔ&a!(]n]ṯbr[")
 
     def test_keeps_row_when_marker_already_present(self) -> None:
-        row = TabletRow("1", "tṯbr", "!t!](n]ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
+        row = TabletRow("1", "tṯbr", "!t!(]n]ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "!t!](n]ṯbr[")
+        self.assertEqual(result.analysis, "!t!(]n]ṯbr[")
 
     def test_keeps_non_prefixed_n_stem_row_unchanged(self) -> None:
         row = TabletRow("1", "nṯbr", "nṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
@@ -1040,14 +1040,14 @@ class VerbNStemAssimilationFixerTest(unittest.TestCase):
         row = TabletRow(
             "1",
             "yld",
-            "!y!](n](y](n](y](n](yld[",
+            "!y!(]n](y](n](y](n](yld[",
             "/y-l-d/",
             "vb N",
             "to give birth",
             "",
         )
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "!y!](n](yld[")
+        self.assertEqual(result.analysis, "!y!(]n](yld[")
 
     def test_normalizes_semicolon_variants_independently(self) -> None:
         row = TabletRow(
@@ -1060,7 +1060,20 @@ class VerbNStemAssimilationFixerTest(unittest.TestCase):
             "",
         )
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "!y!](n]yld[; yld[/")
+        self.assertEqual(result.analysis, "!y!(]n]yld[; yld[/")
+
+    def test_does_not_keep_n_marker_on_non_n_variant(self) -> None:
+        row = TabletRow(
+            "1",
+            "nˤr",
+            "!n!(]n]ˤr[; !n!(]n]ˤr[",
+            "/ʕ-r/; /ʕ-r/",
+            "vb G prefc.; vb N prefc.",
+            "to become agitated; to become agitated",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!n!ˤr[; !n!(]n]ˤr[")
 
 
 class PrefixedIIIAlephVerbFixerTest(unittest.TestCase):

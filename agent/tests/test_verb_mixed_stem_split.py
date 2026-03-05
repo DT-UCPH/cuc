@@ -30,7 +30,7 @@ class VerbMixedStemSplitFixerTest(unittest.TestCase):
         row = TabletRow(
             "1",
             "ybn",
-            "!y!](n]bn(y[:pass",
+            "!y!(]n]bn(y[:pass",
             "/b-n-y/",
             "vb G prefc. / vb N prefc. / vb Gpass prefc.",
             "to build",
@@ -39,7 +39,7 @@ class VerbMixedStemSplitFixerTest(unittest.TestCase):
 
         result = self.fixer.refine_row(row)
 
-        self.assertEqual(result.analysis, "!y!bn(y[; !y!](n]bn(y[; !y!bn(y[:pass")
+        self.assertEqual(result.analysis, "!y!bn(y[; !y!(]n]bn(y[; !y!bn(y[:pass")
         self.assertEqual(result.dulat, "/b-n-y/; /b-n-y/; /b-n-y/")
         self.assertEqual(
             result.pos,
@@ -51,7 +51,7 @@ class VerbMixedStemSplitFixerTest(unittest.TestCase):
         row = TabletRow(
             "1",
             "ybnn",
-            "!y!](n]bn(y[:pass+n; !y!](n]bn(y[+n; !y!bn(y[:pass+n",
+            "!y!(]n]bn(y[:pass+n; !y!(]n]bn(y[+n; !y!bn(y[:pass+n",
             "/b-n-y/; /b-n-y/; /b-n-y/",
             "vb G prefc. / vb N prefc. / vb Gpass prefc.",
             "to build; to build; to build",
@@ -60,7 +60,7 @@ class VerbMixedStemSplitFixerTest(unittest.TestCase):
 
         result = self.fixer.refine_row(row)
 
-        self.assertEqual(result.analysis, "!y!bn(y[+n; !y!](n]bn(y[+n; !y!bn(y[:pass+n")
+        self.assertEqual(result.analysis, "!y!bn(y[+n; !y!(]n]bn(y[+n; !y!bn(y[:pass+n")
         self.assertEqual(
             result.pos,
             "vb G prefc.; vb N prefc.; vb Gpass prefc.",

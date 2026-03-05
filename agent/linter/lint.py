@@ -414,8 +414,10 @@ def has_unprefixed_reconstructed_sequence(s: str, allow_weak_y_cluster: bool = F
         # Single reconstructed letter atom.
         if LETTER_RE.match(s[j]):
             j += 1
-        # Bracket-wrapped single reconstructed letter, e.g. ([n[
+        # Bracket-wrapped single reconstructed letter, e.g. ([n[ or (]n]
         elif j + 2 < len(s) and s[j] == "[" and LETTER_RE.match(s[j + 1]) and s[j + 2] == "[":
+            j += 3
+        elif j + 2 < len(s) and s[j] == "]" and LETTER_RE.match(s[j + 1]) and s[j + 2] == "]":
             j += 3
         else:
             i += 1
@@ -452,6 +454,10 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
     i = 0
     n = len(a)
     while i < n:
+        if a.startswith("(]n]", i):
+            i += 4
+            continue
+
         m_hom = re.match(r"\(([IV]+)\)", a[i:])
         if m_hom:
             i += len(m_hom.group(0))
@@ -1125,7 +1131,7 @@ def missing_required_verb_stem_markers(analysis: str, pos_field: str) -> List[st
 
 
 def missing_required_n_assimilation_marker(analysis: str, pos_field: str) -> bool:
-    """Return True when prefixed N-stem forms miss the `](n]` marker."""
+    """Return True when prefixed N-stem forms miss `(]n]`/`]n]` marker."""
     stems = extract_verb_stems_from_pos(pos_field)
     if "N" not in stems:
         return False
@@ -1140,9 +1146,29 @@ def missing_required_n_assimilation_marker(analysis: str, pos_field: str) -> boo
     tail = a_txt[match.end() :]
     if not tail:
         return False
-    if tail.startswith("](n]") or tail.startswith("(n") or tail.startswith("n"):
+    if (
+        tail.startswith("(]n]")
+        or tail.startswith("]n]")
+        or tail.startswith("(n")
+        or tail.startswith("n")
+    ):
         return False
     return True
+
+
+def analysis_has_invalid_n_assimilation_order(analysis: str) -> bool:
+    """Return True when deprecated `](n]` order is present."""
+    variants = split_semicolon_field(analysis) or [analysis]
+    return any("](n]" in ((value or "").strip()) for value in variants)
+
+
+def analysis_has_n_assimilation_marker_without_n_stem(analysis: str, pos_field: str) -> bool:
+    """Return True when `(]n]`/`]n]` marker appears outside N-stem verb POS."""
+    variants = split_semicolon_field(analysis) or [analysis]
+    if not any(("(]n]" in (value or "")) or ("]n]" in (value or "")) for value in variants):
+        return False
+    stems = extract_verb_stems_from_pos(pos_field)
+    return "N" not in stems
 
 
 @dataclass
@@ -2540,7 +2566,7 @@ def lint_file(
                                 line_id,
                                 surface,
                                 a_var,
-                                "Prefixed N-stem forms should encode assimilated nun as '](n]'",
+                                "Prefixed N-stem forms should encode assimilated nun as '(]n]' (or ']n]' when visible)",
                             )
                         )
                     for feature_message in inferable_feature_issues(a_var, p_field):
@@ -2983,6 +3009,30 @@ def lint_file(
                         surface,
                         a_txt,
                         "Enclitic marker '~' must not be followed by '+' (use '~n'/'~y')",
+                    )
+                )
+            if analysis_has_invalid_n_assimilation_order(a_txt):
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        "Invalid N-stem marker order `](n]`; use `(]n]` (reconstructed) or `]n]` (visible)",
+                    )
+                )
+            if analysis_has_n_assimilation_marker_without_n_stem(a_txt, p_field):
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        "Markers `(]n]`/`]n]` are only valid in N-stem verb analyses",
                     )
                 )
             if analysis_has_homonym_marked_n_clitic(a_txt):

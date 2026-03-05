@@ -11,7 +11,9 @@ class LinterVerbPosStemTest(unittest.TestCase):
     WARNING = "Verb POS should include stem label(s):"
     POS_ERROR = "POS token '"
     MISSING_STEM_MARKER = "Verb stem marker(s) required by POS but missing in analysis:"
-    MISSING_N_ASSIMILATION = "Prefixed N-stem forms should encode assimilated nun as '](n]'"
+    MISSING_N_ASSIMILATION = (
+        "Prefixed N-stem forms should encode assimilated nun as '(]n]' (or ']n]' when visible)"
+    )
 
     def _lint_messages(
         self,
@@ -126,7 +128,7 @@ class LinterVerbPosStemTest(unittest.TestCase):
         messages = self._lint_messages(
             "vb N",
             surface="tṯbr",
-            analysis="!t!](n]ṯbr[",
+            analysis="!t!(]n]ṯbr[",
             dulat_token="/ṯ-b-r/",
             gloss="to break",
             entry_morph="N, prefc.",
@@ -154,7 +156,7 @@ class LinterVerbPosStemTest(unittest.TestCase):
         messages = self._lint_messages(
             "vb N",
             surface="aṯbr",
-            analysis="!(ʔ&a!](n]ṯbr[",
+            analysis="!(ʔ&a!(]n]ṯbr[",
             dulat_token="/ṯ-b-r/",
             gloss="to break",
             entry_morph="N, prefc.",

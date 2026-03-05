@@ -16,7 +16,7 @@ _WEAK_INITIAL_Y_RE = re.compile(r"^\s*/y-")
 _PREFORMATIVE_MARKER_RE = re.compile(
     r"^(?:!(?P<plain>[ytaniu])(?:=|==|===)?!|!\(ʔ&(?P<aleph>[aiu])!)"
 )
-_ASSIMILATED_N_MARKER = "](n]"
+_ASSIMILATED_N_MARKER = "(]n]"
 
 
 def _format_preformative_marker(letter: str) -> str:

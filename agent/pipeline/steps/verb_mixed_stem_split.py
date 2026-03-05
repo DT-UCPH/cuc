@@ -98,9 +98,10 @@ def _strip_assimilated_n_marker(analysis: str) -> str:
 
     prefix_end = match.end()
     tail = text[prefix_end:]
-    if not tail.startswith("](n]"):
-        return text
-    return f"{text[:prefix_end]}{tail[4:]}"
+    for marker in ("(]n]", "]n]", "](n]"):
+        if tail.startswith(marker):
+            return f"{text[:prefix_end]}{tail[len(marker) :]}"
+    return text
 
 
 @dataclass(frozen=True)

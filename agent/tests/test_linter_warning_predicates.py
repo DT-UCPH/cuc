@@ -5,11 +5,13 @@ import unittest
 from linter.lint import (
     analysis_has_homonym_marked_n_clitic,
     analysis_has_invalid_enclitic_plus,
+    analysis_has_invalid_n_assimilation_order,
     analysis_has_lexeme_t_split_without_reconstructed_t,
     analysis_has_missing_feminine_singular_split,
     analysis_has_missing_lexeme_m_before_plural_split,
     analysis_has_missing_plural_split,
     analysis_has_missing_suffix_plus,
+    analysis_has_n_assimilation_marker_without_n_stem,
     choose_lookup_candidates,
     has_unprefixed_reconstructed_sequence,
     missing_required_n_assimilation_marker,
@@ -134,9 +136,17 @@ class LinterWarningPredicateTest(unittest.TestCase):
 
     def test_missing_required_n_assimilation_marker_detected(self) -> None:
         self.assertTrue(missing_required_n_assimilation_marker("!t!ṯbr[", "vb N"))
-        self.assertFalse(missing_required_n_assimilation_marker("!t!](n]ṯbr[", "vb N"))
+        self.assertFalse(missing_required_n_assimilation_marker("!t!(]n]ṯbr[", "vb N"))
         self.assertFalse(missing_required_n_assimilation_marker("!t!nṯbr[", "vb N"))
         self.assertFalse(missing_required_n_assimilation_marker("!t!ṯbr[", "vb G"))
+
+    def test_invalid_n_marker_order_detected(self) -> None:
+        self.assertTrue(analysis_has_invalid_n_assimilation_order("!t!](n]ṯbr["))
+        self.assertFalse(analysis_has_invalid_n_assimilation_order("!t!(]n]ṯbr["))
+
+    def test_n_marker_outside_n_stem_detected(self) -> None:
+        self.assertTrue(analysis_has_n_assimilation_marker_without_n_stem("!t!(]n]ṯbr[", "vb G"))
+        self.assertFalse(analysis_has_n_assimilation_marker_without_n_stem("!t!(]n]ṯbr[", "vb N"))
 
     def test_verb_root_lookup_keys_include_non_slash_variant(self) -> None:
         keys = verb_root_lookup_keys("dk")

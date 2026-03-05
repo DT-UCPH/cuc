@@ -1,5 +1,21 @@
 ## 2026-03-05
 
+- Fixed N-stem marker policy and suffixed short-root fallback in parser/linter:
+  - `morph_features/verbal_completion.py` now rewrites suffc fallback analyses for short roots using stem-aware encoding, producing `&...[` for visible non-lexeme prefixes in G (for example `nˤr -> &nˤr[`) and `]n]...[`/`(]n]...[` for N depending on visibility.
+  - `pipeline/steps/verb_n_stem_assimilation.py` now uses canonical `(]n]` insertion for prefixed N forms, normalizes legacy `](n]`, and applies variant-by-variant so non-N POS variants do not keep N markers.
+  - `morph_features/paradigm_matcher.py` switched prefixed N candidate construction to canonical `(]n]`.
+  - `pipeline/steps/verb_mixed_stem_split.py` and `pipeline/steps/weak_verb.py` were updated to recognize and normalize `(]n]`/`]n]` markers consistently.
+- Tightened linter N-marker validation:
+  - `linter/lint.py` now flags deprecated `](n]` ordering as error, enforces `(]n]`/`]n]` usage only in N-stem verb analyses, and updates required-marker checks/messages for prefixed N forms.
+  - reconstruction helpers were aligned so `(]n]` behaves as reconstructed-hidden `n` for surface reconstruction checks.
+- Added/updated regression coverage in:
+  - `tests/test_verbal_feature_completion.py`
+  - `tests/test_linter_warning_predicates.py`
+  - `tests/test_linter_verb_pos_stem.py`
+  - `tests/test_verb_mixed_stem_split.py`
+  - `tests/test_verb_form_morph_pos.py`
+  - `tests/test_refinement_steps.py`
+
 - Fixed preposition-suffix handling in spaCy morphology context:
   - `spacy_ugaritic/components/morph_context.py` now skips post-preposition genitive forcing when the preposition itself carries a bound pronoun (`+...` or `~...`), so sequences like `ˤm(I)+y pˤn/+k` no longer force the following nominal into genitive.
   - added regression coverage in `tests/test_spacy_morph_context.py`.

@@ -44,7 +44,7 @@ class VerbFormMorphPosFixerTest(unittest.TestCase):
     def test_uses_existing_stem_when_multiple_stems_present(self) -> None:
         index = _FormIndex({("tṯbr", "/ṯ-b-r/"): {"G, prefc.", "N, prefc."}})
         fixer = VerbFormMorphPosFixer(dulat_db=Path("unused.sqlite"), form_index=index)
-        row = TabletRow("3", "tṯbr", "!t!](n]ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
+        row = TabletRow("3", "tṯbr", "!t!(]n]ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
         result = fixer.refine_row(row)
         self.assertEqual(result.pos, "vb N prefc.")
 

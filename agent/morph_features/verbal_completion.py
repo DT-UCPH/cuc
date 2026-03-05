@@ -15,7 +15,7 @@ from morph_features.feature_bundle_builder import build_verbal_bundle
 from morph_features.paradigm_matcher import generate_verbal_candidates
 from morph_features.pos_renderer import render_pos
 from morph_features.types import CompletedVariant
-from pipeline.steps.analysis_utils import reconstruct_surface_from_analysis
+from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
 from pipeline.steps.base import TabletRow
 
 _STEM_POS_RE = re.compile(r"\b(Gt|Dt|Lt|Nt|tD|tL|Št|Gpass|Dpass|Špass|G|D|L|N|R|Š)\b")
@@ -28,6 +28,7 @@ _FORM_ORDER = {
     "pass. ptcpl.": 5,
     "ptcpl.": 6,
 }
+_VERB_ROOT_RE = re.compile(r"^/([^/]+)/")
 
 
 class VerbalFeatureCompleter:
@@ -50,15 +51,16 @@ class VerbalFeatureCompleter:
 
         variants: list[CompletedVariant] = []
         for form in forms:
+            stem = stems[0]
             candidates = self._pattern_candidates(
                 row=row,
-                stem=stems[0],
+                stem=stem,
                 form=form,
             )
             if candidates:
                 variants.extend(candidates)
                 continue
-            analysis_variant = self._analysis_for_form(row, form)
+            analysis_variant = self._analysis_for_form(row, form, stem)
             decoded = decode_analysis(analysis_variant)
             person, gender, number = self._features_for_form(form, decoded)
             state, case = self._state_case_for_form(form=form, analysis=analysis_variant)
@@ -140,13 +142,54 @@ class VerbalFeatureCompleter:
         return []
 
     @staticmethod
-    def _analysis_for_form(row: TabletRow, form: str) -> str:
+    def _analysis_for_form(row: TabletRow, form: str, stem: str) -> str:
         analysis = (row.analysis or "").strip()
         if form == "suffc." and analysis.startswith("!"):
             surface = reconstruct_surface_from_analysis(analysis)
             suffix = VerbalFeatureCompleter._analysis_suffix_marker(analysis)
-            return f"{surface}[{suffix}" if suffix else f"{surface}["
+            return VerbalFeatureCompleter._suffix_fallback_analysis(
+                surface=surface,
+                dulat=row.dulat,
+                stem=stem,
+                suffix=suffix,
+            )
         return analysis
+
+    @staticmethod
+    def _suffix_fallback_analysis(*, surface: str, dulat: str, stem: str, suffix: str) -> str:
+        visible = (surface or "").strip()
+        root = VerbalFeatureCompleter._dulat_root_letters(dulat)
+
+        if stem == "N":
+            if visible.startswith("n"):
+                host = f"]n]{visible[1:]}"
+            else:
+                host = f"(]n]{visible}"
+            return f"{host}[{suffix}" if suffix else f"{host}["
+
+        if root:
+            normalized_visible = normalize_surface(visible)
+            normalized_root = normalize_surface(root)
+            if normalized_visible.endswith(normalized_root) and len(normalized_visible) > len(
+                normalized_root
+            ):
+                prefix_len = len(normalized_visible) - len(normalized_root)
+                host = f"&{visible[:prefix_len]}{visible[prefix_len:]}"
+                return f"{host}[{suffix}" if suffix else f"{host}["
+
+        return f"{visible}[{suffix}" if suffix else f"{visible}["
+
+    @staticmethod
+    def _dulat_root_letters(dulat: str) -> str:
+        token = (dulat or "").strip()
+        if "," in token:
+            token = token.split(",", 1)[0].strip()
+        match = _VERB_ROOT_RE.match(token)
+        if match is None:
+            return ""
+        body = match.group(1)
+        body = re.sub(r"\([^)]*\)", "", body)
+        return body.replace("-", "")
 
     @staticmethod
     def _analysis_suffix_marker(analysis: str) -> str:
@@ -185,7 +228,7 @@ class VerbalFeatureCompleter:
         stem: str,
         form: str,
     ) -> list[CompletedVariant]:
-        analysis_variant = self._analysis_for_form(row, form)
+        analysis_variant = self._analysis_for_form(row, form, stem)
         decoded = decode_analysis(analysis_variant)
         explicit = self._features_for_form(form, decoded)
         state, case = self._state_case_for_form(form=form, analysis=analysis_variant)

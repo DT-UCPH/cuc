@@ -130,6 +130,36 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
             ),
         )
 
+    def test_suffix_fallback_marks_visible_nonlexeme_prefix_for_g_stem(self) -> None:
+        completer = VerbalFeatureCompleter(_FakeReader({("nˤr", "/ʕ-r/"): _Features(("suffc",))}))
+        row = TabletRow(
+            "152967",
+            "nˤr",
+            "!n!(]n]ˤr[",
+            "/ʕ-r/",
+            "vb G suffc.",
+            "to become agitated",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "&nˤr[")
+        self.assertEqual(rewritten.pos, "vb G suffc. 3 m. sg.")
+
+    def test_suffix_fallback_keeps_visible_n_marker_for_n_stem(self) -> None:
+        completer = VerbalFeatureCompleter(_FakeReader({("nˤr", "/ʕ-r/"): _Features(("suffc",))}))
+        row = TabletRow(
+            "152967",
+            "nˤr",
+            "!n!(]n]ˤr[",
+            "/ʕ-r/",
+            "vb N suffc.",
+            "to become agitated",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "]n]ˤr[")
+        self.assertEqual(rewritten.pos, "vb N suffc. 3 m. sg.")
+
 
 if __name__ == "__main__":
     unittest.main()
