@@ -1063,3 +1063,5 @@
 - Fixed `verb-form-morph-pos` morphology parsing to ignore `with suff.` as a conjugation label while still mapping true `suff.`/`suffc.` verb forms to `suffc.`.
 - Refined linter semantic-duplicate detection: rows with identical `id+surface+col4-col6` are now allowed when col3 differs only by explicit clitic payload (`+...`/`~...`), matching the project rule that clitic distinctions may share identical POS morphology.
 - Added regression tests: `tests/test_dulat_feature_reader_forms.py`, `test_verb_form_morph_pos.py` (`with suff.` case), and `test_linter_unwrapped_rows.py` (clitic-payload duplicate allowance).
+
+- Committed the parser-side implementation for bound-pronoun preposition handling and clitic ampersand normalization, with matching regression tests (`suffix_paradigm_normalizer`, `spacy_morph_context`, and related test suites).

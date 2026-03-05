@@ -19,6 +19,7 @@ from linter.lint import (
     row_has_baal_labourer_outside_ktu4,
     row_has_baal_verbal_missing_slash,
     row_has_mixed_baal_dn_labourer_reading,
+    split_analysis_for_lexeme_and_clitics,
     variant_has_baad_plus_n,
     variant_has_lexeme_terminal_single_suffix_split,
     variant_has_suffix_payload_linked_dulat,
@@ -300,6 +301,20 @@ class LinterWarningPredicateTest(unittest.TestCase):
                 dulat_field="bʕl (II);/b-ʕ-l/",
             )
         )
+
+    def test_split_analysis_for_lexeme_and_clitics_handles_plus_and_tilde(self) -> None:
+        host, clitics = split_analysis_for_lexeme_and_clitics("ˤm(I)+y")
+        self.assertEqual(host, "ˤm(I)")
+        self.assertEqual(clitics, ["y"])
+
+        host, clitics = split_analysis_for_lexeme_and_clitics("hl~m")
+        self.assertEqual(host, "hl")
+        self.assertEqual(clitics, ["m"])
+
+    def test_split_analysis_for_lexeme_and_clitics_ignores_unmarked_bracket_tail(self) -> None:
+        host, clitics = split_analysis_for_lexeme_and_clitics("!y!ṣḥ[n")
+        self.assertEqual(host, "!y!ṣḥ")
+        self.assertEqual(clitics, [])
 
 
 if __name__ == "__main__":

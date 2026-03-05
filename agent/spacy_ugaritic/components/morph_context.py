@@ -91,6 +91,9 @@ class MorphContextResolver:
         )
 
     def _apply_post_preposition_sequence(self, doc: Doc, index: int) -> None:
+        if _preposition_has_bound_pronoun(doc[index]):
+            # Preposition+suffix governs the suffix pronoun, not the next token.
+            return
         next_index = index + 1
         if next_index >= len(doc):
             return
@@ -271,6 +274,18 @@ def _is_second_singular_verb_candidate(candidate: Candidate) -> bool:
 def _is_preposition_token(token: Token) -> bool:
     candidates = tuple(token._.resolved_candidates)
     return bool(candidates) and all("prep." in candidate.pos.lower() for candidate in candidates)
+
+
+def _preposition_has_bound_pronoun(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    if not candidates:
+        return False
+    if not all("prep." in candidate.pos.lower() for candidate in candidates):
+        return False
+    return any(
+        ("+" in (candidate.analysis or "")) or ("~" in (candidate.analysis or ""))
+        for candidate in candidates
+    )
 
 
 def _construct_chain_tokens(doc: Doc, start: int) -> tuple[Token, ...]:

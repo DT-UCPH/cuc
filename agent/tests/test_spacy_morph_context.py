@@ -143,6 +143,17 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["n. m. sg. cstr. gen."],
         )
 
+    def test_preposition_with_suffix_does_not_force_next_nominal_genitive(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tˤmy\tˤm(I)+y\tʕm (I)\tprep.\tto\t",
+            "2\tpˤnk\tpˤn/+k\tpʕn\tn. f. cstr. nom.\tfoot\t",
+            "2\tpˤnk\tpˤn/+k\tpʕn\tn. f. cstr. gen.\tfoot\t",
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["n. f. cstr. nom.", "n. f. cstr. gen."],
+        )
+
     def test_prunes_suffix_conjugation_to_second_singular_after_at_pronoun(self) -> None:
         doc = self._doc_from_lines(
             "1\tat\tat(I)\tảt (I)\tpers. pn.\tyou\t",

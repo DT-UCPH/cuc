@@ -44,6 +44,11 @@ class SuffixParadigmNormalizerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "ˤl(I)+n; bt(II)/+h=; bn(I)/+ny; x~n; y[n=")
 
+    def test_drops_surface_ampersand_before_clitic_marker(self) -> None:
+        row = TabletRow("4", "ˤmy", "ˤm(I)&+y", "ʕm (I)", "prep.", "to", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ˤm(I)+y")
+
 
 if __name__ == "__main__":
     unittest.main()
