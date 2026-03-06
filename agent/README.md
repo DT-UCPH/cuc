@@ -59,6 +59,16 @@ Pipeline stages are:
 6. Apply ordered linguistic heuristics with safeguards (`pipeline/tablet_parsing.py`): formula disambiguation, plural/suffix/feminine and weak-verb normalization, KTU1-specific pruning, controlled ambiguity expansion, onomastic/generic overrides, and schema formatting (first and last).
 7. Regenerate lint reports in `reports/`.
 
+## Reviewed Agreement Evaluation
+
+Use `scripts/score_reviewed_morphology.py` to compare automatic parses against the manually reviewed files in `../reviewed/`.
+
+- From inside `agent/`: `./.venv/bin/python scripts/score_reviewed_morphology.py`
+- From the repo root: `agent/.venv/bin/python agent/scripts/score_reviewed_morphology.py`
+- Full JSON payload: add `--json`
+
+Metric definitions and scoring behavior are documented in [docs/reviewed_morphology_metrics.md](docs/reviewed_morphology_metrics.md).
+
 ## GitHub Actions
 
 GitHub Actions no longer runs the linter itself. It parses committed files under `reports/` and publishes the summary in the workflow UI.

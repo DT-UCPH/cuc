@@ -580,6 +580,149 @@ class RefineResultsMentionsTest(unittest.TestCase):
             self.assertTrue(any("+y(I)" in row[0] for row in rendered))
             self.assertTrue(any(row[0].startswith("yr/+y") for row in rendered))
 
+    def test_exact_direct_lexical_candidate_blocks_suffix_split_variants(self) -> None:
+        direct = Entry(
+            entry_id=20,
+            lemma="nny",
+            hom="",
+            pos="TN",
+            gloss="nny",
+            wiki_tr="",
+        )
+        base_one = Entry(
+            entry_id=21,
+            lemma="/g-r-š/",
+            hom="",
+            pos="vb",
+            gloss="to eject",
+            wiki_tr="",
+        )
+        base_two = Entry(
+            entry_id=22,
+            lemma="/g-r(-y)/",
+            hom="",
+            pos="vb",
+            gloss="to attack",
+            wiki_tr="",
+        )
+        suffix = Entry(
+            entry_id=23,
+            lemma="-y",
+            hom="I",
+            pos="prep.",
+            gloss="my",
+            wiki_tr="",
+        )
+        variants = build_variants(
+            surface="nny",
+            current_ref="CAT 1.16 I:1",
+            forms_map={"nny": [direct], "nn": [base_one, base_two]},
+            lemma_map={"nny": [direct]},
+            suffix_map={"y": [suffix]},
+            forms_morph={},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            max_variants=5,
+        )
+
+        rendered = [render_variant("nny", variant, forms_morph={}) for variant in variants]
+        self.assertEqual(rendered[0], ("nny/", "nny", "TN", "nny"))
+        self.assertFalse(any("+y(I)" in row[0] for row in rendered))
+
+    def test_direct_exact_lexical_candidate_is_not_split_into_itself(self) -> None:
+        direct = Entry(
+            entry_id=30,
+            lemma="hnny",
+            hom="",
+            pos="adv.",
+            gloss="here",
+            wiki_tr="",
+        )
+        suffix = Entry(
+            entry_id=31,
+            lemma="-ny",
+            hom="",
+            pos="deictic functor/adv.",
+            gloss="behold!",
+            wiki_tr="",
+        )
+        variants = build_variants(
+            surface="hnny",
+            current_ref="CAT 2.38:1",
+            forms_map={"hnny": [direct], "hn": [direct]},
+            lemma_map={"hnny": [direct]},
+            suffix_map={"ny": [suffix]},
+            forms_morph={("hn", 30): {"adv."}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            max_variants=5,
+        )
+
+        rendered = [render_variant("hnny", variant, forms_morph={}) for variant in variants]
+        self.assertEqual(rendered, [("hnny", "hnny", "adv.", "here")])
+
+    def test_direct_exact_lexical_candidate_blocks_function_word_splits(self) -> None:
+        direct = Entry(
+            entry_id=40,
+            lemma="hnny",
+            hom="",
+            pos="adv.",
+            gloss="here",
+            wiki_tr="",
+        )
+        base_hn = Entry(
+            entry_id=41,
+            lemma="hn",
+            hom="",
+            pos="deictic functor/adv.",
+            gloss="behold!",
+            wiki_tr="",
+        )
+        base_hnn = Entry(
+            entry_id=42,
+            lemma="hnn",
+            hom="",
+            pos="adv. functor",
+            gloss="here",
+            wiki_tr="",
+        )
+        suffix_ny = Entry(
+            entry_id=43,
+            lemma="-ny",
+            hom="",
+            pos="deictic functor/adv.",
+            gloss="behold!",
+            wiki_tr="",
+        )
+        suffix_y = Entry(
+            entry_id=44,
+            lemma="-y",
+            hom="I",
+            pos="postp.",
+            gloss="my",
+            wiki_tr="",
+        )
+        variants = build_variants(
+            surface="hnny",
+            current_ref="CAT 2.38:1",
+            forms_map={"hnny": [direct], "hn": [base_hn], "hnn": [base_hnn]},
+            lemma_map={"hnny": [direct]},
+            suffix_map={"ny": [suffix_ny], "y": [suffix_y]},
+            forms_morph={("hn", 41): {"deictic functor/adv."}, ("hnn", 42): {"adv. functor"}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            max_variants=5,
+        )
+
+        rendered = [render_variant("hnny", variant, forms_morph={}) for variant in variants]
+        self.assertEqual(rendered, [("hnny", "hnny", "adv.", "here")])
+
     def test_parse_separator_ref_supports_no_column_format(self) -> None:
         self.assertEqual(
             parse_separator_ref("#---------------------------- KTU 1.101 5"),

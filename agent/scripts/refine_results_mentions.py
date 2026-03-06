@@ -1181,6 +1181,14 @@ def dedupe_suffix_entries(entries: Iterable[Entry]) -> List[Entry]:
     return out
 
 
+def is_function_word_like(entry: Entry) -> bool:
+    """Return True for short function-word entries that should not outrank exact lexemes."""
+    pos = (entry.pos or "").lower()
+    if (entry.lemma or "").startswith("-"):
+        return True
+    return any(token in pos for token in ("functor", "adv.", "prep.", "conj.", "det."))
+
+
 def build_variants(
     surface: str,
     current_ref: str,
@@ -1199,6 +1207,15 @@ def build_variants(
     direct_pref = [e for e in direct_all if (e.pos or "").strip() and (e.pos or "").strip() != "→"]
     direct = direct_pref if direct_pref else direct_all
     direct_has_exact_form = any((s_norm, e.entry_id) in forms_morph for e in direct)
+    direct_exact_lexical = [
+        e
+        for e in direct
+        if not (e.lemma or "").startswith("-")
+        and (e.pos or "").strip()
+        and (e.pos or "").strip() != "→"
+        and normalize_lookup(e.lemma) == s_norm
+    ]
+    direct_exact_lexical_ids = {e.entry_id for e in direct_exact_lexical}
     direct_ids = {e.entry_id for e in direct}
 
     variants: List[Variant] = [Variant((e,), surface) for e in direct]
@@ -1242,6 +1259,19 @@ def build_variants(
                 e for e in base_all if (e.pos or "").strip() and (e.pos or "").strip() != "→"
             ]
             base_entries = base_pref if base_pref else base_all
+            if direct_exact_lexical_ids:
+                base_entries = [
+                    e for e in base_entries if e.entry_id not in direct_exact_lexical_ids
+                ]
+                if not base_entries:
+                    continue
+                base_has_exact_form = any(
+                    (base_norm, e.entry_id) in forms_morph for e in base_entries
+                )
+                if not base_has_exact_form:
+                    continue
+                if all(is_function_word_like(e) for e in base_entries):
+                    continue
             if not base_entries:
                 continue
             suffix_all = dedupe_entries(suffix_map.get(suf, []))

@@ -1,3 +1,31 @@
+## 2026-03-06
+
+- Added a reviewed-vs-auto morphology agreement scorer under `reviewed_evaluation/` plus `scripts/score_reviewed_morphology.py`.
+- The scorer uses `reviewed/` as the gold source, compares unordered unique morphology-option sets per token id, and reports exact-set accuracy, macro/micro precision/recall/F1, Jaccard, coverage, and over/under-generation counts with ambiguous/unambiguous splits.
+- Added focused regression tests in `tests/test_reviewed_morphology_evaluation.py` for TSV loading, reviewed `.txt` to auto `.tsv` matching, collapsed `surface + analysis` recovery, set-based scoring, and JSON serialization.
+- Extended the reviewed morphology loader to include reviewed `.txt` files and recover malformed rows where the surface form and morphology analysis were collapsed into the same field, without modifying the reviewed source files.
+- Documented the reviewed morphology agreement metrics and usage in `docs/reviewed_morphology_metrics.md` and linked the evaluator from `README.md`.
+
+- Fixed DULAT forms-block fallback extraction in `pipeline/config/dulat_entry_forms_fallback.py` so suffix-note clitic fragments like `-nn` / `-n` are no longer harvested as standalone fallback forms from raw `¶ Forms:` HTML.
+- Tightened suffix splitting in `scripts/refine_results_mentions.py`:
+  - exact non-clitic lexical hits now block fallback-only split generation,
+  - direct lexical hits are no longer split into themselves,
+  - direct lexical hits also suppress competing function-word splits such as `hn + ny` / `hnn + y` when the surface already matches a lexical `hnny`.
+- Added/updated regression coverage in:
+  - `tests/test_dulat_entry_forms_fallback.py`
+  - `tests/test_refine_results_mentions.py`
+- Re-ran the focused parsing pipeline for `KTU 1.114`, `KTU 1.16`, and `KTU 2.38` against a clean DULAT cache rebuilt from the fixed parser output without the reviewed-lexicon overlay.
+- Verified that the parser-side `/g-r-š/` pollution is gone and that `157864 hnny` no longer produces the malformed `hn+ny` / DULAT-comment-mismatch row.
+- Verified that the clean cache restores the reported DULAT regressions in focused outputs:
+  - `153804 šbˤ -> num.`
+  - `153827 ḫṭm -> n. m. abs. nom. sg.`
+  - `143342 špš -> n. f. sg. abs. gen.` (alongside the DN row)
+- Fixed Text-Fabric raw-source reference formatting for single-column tablets: when a tablet's only exported column is `I`, generated separator comments now use `KTU X.Y line` instead of `KTU X.Y I:line` (for example `KTU 2.38 27`).
+- Added exporter regression coverage in `tests/test_text_fabric_tablet_source_exporter.py` for both true multi-column tablets and single-column `I` tablets.
+- Noted two remaining non-parser follow-ups from the focused rerun:
+  - `153883/143929 nn` and `143578 nny` still admit separate `ks/+n` / `ks/+ny` false-positive split candidates.
+  - `143217 ġr (III)` is still pruned downstream by attestation disambiguation because only `ġr (I)` is attested at `CAT 1.16 I:6` in the clean DULAT cache.
+
 ## 2026-03-05
 
 - Fixed `tD` stem handling for suffixed fallback rewrites and validation:

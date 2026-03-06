@@ -94,8 +94,8 @@ class TextFabricTabletSourceExporter:
     def _collect_tablet_rows(self, api: object) -> dict[str, list[str]]:
         F = api.F
         T = api.T
-        rows_by_tablet: dict[str, list[str]] = {}
-        last_ref_by_tablet: dict[str, str] = {}
+        token_records_by_tablet: dict[str, list[tuple[str, str, str]]] = {}
+        tablet_columns: dict[str, set[str]] = {}
 
         for word in F.otype.s("word"):
             section = T.sectionFromNode(word)
@@ -103,21 +103,45 @@ class TextFabricTabletSourceExporter:
                 continue
             tablet_name, column, line = section[:3]
             surface = str(F.g_cons.v(word) or "")
-            reference = self._format_reference(tablet_name, column, line)
+            column_text = str(column).strip() if column is not None else ""
+            line_text = str(line).strip() if line is not None else ""
 
-            tablet_rows = rows_by_tablet.setdefault(tablet_name, [])
-            if last_ref_by_tablet.get(tablet_name) != reference:
-                tablet_rows.append(f"#---------------------------- {reference}\n")
-                last_ref_by_tablet[tablet_name] = reference
-            tablet_rows.append(f"{word}\t{surface}\t{surface}\n")
+            token_records_by_tablet.setdefault(tablet_name, []).append(
+                (column_text, line_text, f"{word}\t{surface}\t{surface}\n")
+            )
+            if column_text:
+                tablet_columns.setdefault(tablet_name, set()).add(column_text)
+
+        rows_by_tablet: dict[str, list[str]] = {}
+        for tablet_name, records in token_records_by_tablet.items():
+            omit_first_column = tablet_columns.get(tablet_name, set()) == {"I"}
+            tablet_rows: list[str] = []
+            last_ref = ""
+            for column_text, line_text, token_row in records:
+                reference = self._format_reference(
+                    tablet_name,
+                    column_text,
+                    line_text,
+                    omit_first_column=omit_first_column,
+                )
+                if last_ref != reference:
+                    tablet_rows.append(f"#---------------------------- {reference}\n")
+                    last_ref = reference
+                tablet_rows.append(token_row)
+            rows_by_tablet[tablet_name] = tablet_rows
 
         return rows_by_tablet
 
     @staticmethod
-    def _format_reference(tablet_name: str, column: object, line: object) -> str:
+    def _format_reference(
+        tablet_name: str,
+        column: object,
+        line: object,
+        omit_first_column: bool = False,
+    ) -> str:
         column_text = str(column).strip() if column is not None else ""
         line_text = str(line).strip() if line is not None else ""
-        if column_text and line_text:
+        if column_text and line_text and not omit_first_column:
             return f"{tablet_name} {column_text}:{line_text}"
         if line_text:
             return f"{tablet_name} {line_text}"

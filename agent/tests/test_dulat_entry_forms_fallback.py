@@ -30,6 +30,16 @@ class DulatEntryFormsFallbackTest(unittest.TestCase):
         self.assertNotIn("hm", forms)
         self.assertNotIn("nn", forms)
 
+    def test_ignores_suffix_note_clitic_fragments(self) -> None:
+        text = (
+            "<b>¶ Forms:</b> G suffc. <i>gr</i>; inf. suff. <i>grnn</i> "
+            "(suff. pn. - <i>nn</i>, UT §6.17. Cf. De Moor-Spronk UF 14 1982 166; "
+            "diff. Aartun PU/1 62 n. 4, 76: energ. mood with - <i>n</i> + "
+            "pn. suff. - <i>n</i> / emph. - <i>n</i> ); tD (?) suffc. <i>tgr</i>."
+        )
+        forms = extract_forms_from_entry_text(text)
+        self.assertEqual(forms, ("gr", "grnn", "tgr"))
+
     def test_truncates_before_examples_and_ignores_example_tokens(self) -> None:
         text = (
             "<b>¶ Forms:</b> sg. <i>ảrḫ</i>; pl. <i>ảrḫt</i>. "
