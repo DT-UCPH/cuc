@@ -118,15 +118,30 @@ class Ktu1FamilyHomonymPrunerTest(unittest.TestCase):
 class StaticGate:
     """Small test double for DULAT feature-gating behavior."""
 
-    def __init__(self, plural_tokens=None, suffix_tokens=None) -> None:
+    def __init__(
+        self,
+        plural_tokens=None,
+        suffix_tokens=None,
+        surface_morphologies=None,
+    ) -> None:
         self._plural = set(plural_tokens or [])
         self._suffix = set(suffix_tokens or [])
+        self._surface_morphologies = {
+            (token, surface): set(morphologies)
+            for (token, surface), morphologies in (surface_morphologies or {}).items()
+        }
 
     def is_plural_token(self, token: str, surface: str = "") -> bool:
         return token in self._plural
 
     def has_suffix_token(self, token: str, surface: str = "") -> bool:
         return token in self._suffix
+
+    def surface_morphologies(self, token: str, surface: str) -> set[str]:
+        return set(self._surface_morphologies.get((token, surface), set()))
+
+    def has_surface_form(self, token: str, surface: str) -> bool:
+        return (token, surface) in self._surface_morphologies
 
 
 class ParseTsvLineTest(unittest.TestCase):
@@ -325,6 +340,28 @@ class SuffixCliticFixerTest(unittest.TestCase):
         row = TabletRow("1", "abn", "abn/", "ảbn", "n. f.", "stone", "")
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "abn/")
+
+    def test_exact_surface_with_non_suffix_dulat_form_stays_unsplit(self) -> None:
+        fixer = SuffixCliticFixer(
+            gate=StaticGate(
+                suffix_tokens={"pnm"},
+                surface_morphologies={("pnm", "pnm"): {"pl.", "suff."}},
+            )
+        )
+        row = TabletRow("1", "pnm", "pnm/", "pnm", "n. m. pl.", "face", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "pnm/")
+
+    def test_exact_surface_with_ambiguous_suffix_allograph_stays_unsplit(self) -> None:
+        fixer = SuffixCliticFixer(
+            gate=StaticGate(
+                suffix_tokens={"mh/y"},
+                surface_morphologies={("mh/y", "mh"): {"sg., suff., or, allog."}},
+            )
+        )
+        row = TabletRow("1", "mh", "mh/", "mh/y", "n. m. sg.", "water", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "mh/")
 
     def test_adds_suffix_to_lemma_style_prep(self) -> None:
         fixer = SuffixCliticFixer(gate=StaticGate(suffix_tokens={"l (I)"}))

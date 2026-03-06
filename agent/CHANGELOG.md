@@ -1,5 +1,12 @@
 ## 2026-03-07
 
+- Tightened `pipeline/steps/suffix_fixer.py` so exact DULAT surface forms are no longer forced into `+suffix` analyses when the same written form is lexically attested without a suffix or when DULAT marks the exact form as suffix-vs-other ambiguous (`or`, `allog.`, or mixed exact morph labels).
+- This removes the false `suffix-clitic` rewrites behind rows like `pnm -> p/+nm` and `mh -> m/+h`, while still allowing genuinely suffix-only exact forms such as `npšh` to keep `+h`.
+- Added focused regression coverage in `tests/test_refinement_steps.py` for:
+  - exact-surface mixed `pl.` / `suff.` forms staying unsplit,
+  - exact-surface `suff., or, allog.` forms staying unsplit,
+  - legitimate suffix-only forms still splitting.
+
 - Tightened proper-name candidate generation so rare `PN` readings are only kept when they are directly attested for the current tablet line in DULAT or when no competing non-onomastic lexical reading survives:
   - `scripts/refine_results_mentions.py` now prunes unattested `PN` variants during initial DULAT-backed candidate building while preserving `pers. pn.` pronouns.
   - `pipeline/tablet_parsing.py` now passes the direct DULAT attestation index into the main refine pass, so full-tablet runs use the same gate as the standalone refine script.

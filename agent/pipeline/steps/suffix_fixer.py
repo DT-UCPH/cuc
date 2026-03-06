@@ -22,6 +22,7 @@ _LEMMA_STYLE_RE = re.compile(r"^[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉ�
 _TOKEN_RE = re.compile(r"^(.*?)(?:\s*\(([IVX]+)\))?$")
 _LEMMA_LETTER_RE = re.compile(r"[^A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]")
 _EXPLICIT_SUFFIX_NY_RE = re.compile(r",\s*-[ny](?:\s|\(|$)", re.IGNORECASE)
+_MORPH_OR_RE = re.compile(r"\bor\b", re.IGNORECASE)
 
 
 class SuffixCliticFixer(RefinementStep):
@@ -133,6 +134,13 @@ class SuffixCliticFixer(RefinementStep):
         # explicitly encode that suffixal reading for this variant, keep it as
         # lexeme-final letter (e.g., mṯn, lšn, klny).
         if self._should_keep_lexeme_terminal_letter(dulat_token=dulat_token, suffix=suffix):
+            return normalized
+
+        if self._should_keep_exact_surface_host(
+            analysis_variant=normalized,
+            dulat_token=dulat_token,
+            surface=surface,
+        ):
             return normalized
 
         if not self._is_confident_suffix_variant(
@@ -270,6 +278,42 @@ class SuffixCliticFixer(RefinementStep):
         if self._gate is None:
             return False
         return self._gate.has_suffix_token(token, surface=surface)
+
+    def _should_keep_exact_surface_host(
+        self,
+        analysis_variant: str,
+        dulat_token: str,
+        surface: str,
+    ) -> bool:
+        if self._gate is None or not dulat_token or dulat_token == "?":
+            return False
+        if not hasattr(self._gate, "surface_morphologies"):
+            return False
+
+        exact_morphologies = self._gate.surface_morphologies(dulat_token, surface)
+        if not exact_morphologies:
+            return False
+
+        analysis_surface = normalize_surface(reconstruct_surface_from_analysis(analysis_variant))
+        if analysis_surface != normalize_surface(surface):
+            return False
+
+        return not all(
+            self._is_explicit_suffix_only_morphology(morph)
+            for morph in exact_morphologies
+        )
+
+    def _is_explicit_suffix_only_morphology(self, morphology: str) -> bool:
+        text = (morphology or "").strip().lower()
+        if not text:
+            return False
+        if "suff" not in text:
+            return False
+        if _MORPH_OR_RE.search(text):
+            return False
+        if "allog" in text:
+            return False
+        return True
 
     def _promote_single_h_suffix_to_nh(self, analysis_variant: str, surface: str) -> str:
         """Repair `+h` to `+nh` when surface explicitly ends with `nh`."""
