@@ -3,8 +3,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161333	l	l(I)	l (I)	prep.	to	
 161333	l	l(II)	l (II)	adv.	no	
 161333	l	l(III)	l (III)	functor	certainly	
-161334	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
-161334	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
+161334	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
+161334	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
 161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
 # KTU 3.12 2						
 161336	b	b	b	prep.	in	
@@ -21,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161340	d	d	d	det. or rel. functor	the one(s) of	
 161341	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure	
 161341	brt	br(t/t	brt	n. f. sg. abs. nom.	forecast	
-161342	kmt	k(I)	k (I)	prep.	like	
+161342	kmt	k(I)&mt	k (I)	prep.	like	
 161342	kmt	kmt	kmt	adv.	like(wise)	
 # KTU 3.12 4						
 161343	br	br/	br(r)	n. m. sg. cstr. nom.	tin	
@@ -51,25 +51,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161357	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 161357	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 161357	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-161357	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+161357	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+161357	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
+161357	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+161357	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
+161357	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
+161357	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
 161357	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 161357	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
 161358	hnd	hnd	hnd	dem.	this	
 # KTU 3.12 10						
 161359	d	d	d	det. or rel. functor	the one(s) of	
-161360	tbrrt	tbrr(t/t	tbrrt	n. f. sg. abs. nom.	exemption	
-161361	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
+161360	tbrrt	tbrr(t/t	tbrrt	n. f. sg. cstr. nom.	exemption	
+161361	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. cstr. gen.	ṣdqšlm	
 # KTU 3.12 11						
-161362	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	servant	
+161362	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. gen.	servant	
 161363	hnd	hnd	hnd	dem.	this	
 # KTU 3.12 12						
 161364	w	w	w	conj.	and	
-161365	mnkm	mnk	mnk	indef. pn.	whoever	
+161365	mnkm	mnk&m	mnk	indef. pn.	whoever	
 161366	l	l(I)	l (I)	prep.	to	
 161366	l	l(II)	l (II)	adv.	no	
 161366	l	l(III)	l (III)	functor	certainly	
 161367	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-161367	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
+161367	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 # KTU 3.12 13						
 161368	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
 161368	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
@@ -83,4 +88,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.12 15						
 161374	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
 161374	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
-161375	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+161375	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	

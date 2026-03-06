@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 4						
 158458	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 158459	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-158459	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
+158459	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 158460	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.50 5						
 158461	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
@@ -36,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 9						
 158470	xy	?	?	?	?	DULAT: NOT FOUND
 158471	w	w	w	conj.	and	
-158472	lm	l(I)	l (I)	prep.	to	
+158472	lm	l(I)&m	l (I)	prep.	to	
 # KTU 2.50 10						
 158473	šil	šil(I)/	šỉl (I)	n. m. sg. cstr. gen.	interrogator	
 158474	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
@@ -56,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 15						
 158482	xy	?	?	?	?	DULAT: NOT FOUND
 158483	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-158483	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
+158483	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.50 16						
 158484	x	?	?	?	?	
 158485	w	w	w	conj.	and	
@@ -67,9 +67,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 17						
 158488	d	d	d	det. or rel. functor	the one(s) of	
 158489	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. nom.	grace	
-158490	lbšk	lbš/+k	lbš	n. m. abs. gen.	clothing	
-158490	lbšk	lbš[/+k	/l-b-š/	vb G act. ptcpl. m. sg. abs. gen.	to dress	
-158490	lbšk	lbš[/+k	/l-b-š/	vb G pass. ptcpl. m. sg. abs. gen.	to dress	
+158490	lbšk	lbš/+k	lbš	n. m. cstr. gen.	clothing	
+158490	lbšk	lbš[/+k	/l-b-š/	vb G act. ptcpl. m. sg. cstr. gen.	to dress	
+158490	lbšk	lbš[/+k	/l-b-š/	vb G pass. ptcpl. m. sg. cstr. gen.	to dress	
 # KTU 2.50 18						
 158491	x	?	?	?	?	
 158492	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
@@ -90,8 +90,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158500	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 158501	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.50 21						
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. abs. gen.	servant	
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. gen.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. nom.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
 158503	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 22						
 158504	xxy	?	?	?	?	DULAT: NOT FOUND

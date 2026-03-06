@@ -1,20 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.18 1						
-161595	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-161596	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-161596	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-161596	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-161597	mḫsrn	mḫsrn/	mḫsrn	n. m. sg. abs. nom.	deficit	
+161595	mit	mi(t/t	mỉt	n. f. sg. cstr. nom.	a hundred	
+161596	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+161597	mḫsrn	mḫsrn/	mḫsrn	n. m. sg. cstr. gen.	deficit	
 # KTU 3.18 2						
-161598	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161598	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161598	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161598	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161599	nsk	nsk/	nsk	n. m. pl. cstr. nom.	caster	
-161599	nsk	nsk/	nsk	n. m. sg. abs. nom.	caster	
-161600	kṯtġlm	kṯtġlm/	kṯtġlm	TN sg. abs. nom.	kṯtġlm	
+161598	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161599	nsk	nsk/	nsk	n. m. pl. cstr. gen.	caster	
+161599	nsk	nsk/	nsk	n. m. sg. cstr. gen.	caster	
+161600	kṯtġlm	kṯtġlm/	kṯtġlm	TN sg. abs. gen.	kṯtġlm	
 # KTU 3.18 3						
-161601	arbˤm	arbˤ/	ảrbʕ	num.	four	
+161601	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
 161601	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
 161602	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
 161603	mḫsrn	mḫsrn/	mḫsrn	n. m. sg. abs. gen.	deficit	
@@ -46,4 +41,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161619	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 161620	mtn	mt(II)/+n	mt (II)	n. m. cstr. gen.	death	
 161620	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-161621	rišy	rišy/	rỉšy	GN sg. abs. gen.	rỉšy	
+161621	rišy	rišy/	rỉšy	GN sg. abs. nom.	rỉšy	

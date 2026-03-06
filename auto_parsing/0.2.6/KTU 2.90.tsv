@@ -23,21 +23,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159984	ank	ank	ảnk	pers. pn.	I	
 159985	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	woman	
 # KTU 2.90 7						
-159986	ytnt	ytnt[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+159986	ytnt	ytn[t===	/y-t-n/	vb G suffc. 3 f. sg.	to give	
+159986	ytnt	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give	
+159986	ytnt	ytn[t==	/y-t-n/	vb G suffc. 2 f. sg.	to give	
+159986	ytnt	ytn[t	/y-t-n/	vb G suffc. 1 c. sg.	to give	
 159987	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.90 8						
 159988	w	w	w	conj.	and	
 159989	ht	ht	ht	adv.	here	
-159990	hn	w	w	conj.	and	
+159990	hn	hn	w	conj.	and	
 159990	hn	hn	hn	functor	behold!	
-159990	hn	hnny	hnny	adv.	here	
+159990	hn	hn	hnny	adv.	here	
 159991	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
 159991	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 159992	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 9						
 159993	b	b	b	prep.	in	
 159994	gty	gt/+y	gt	n. f. cstr. gen.	gittu	
-159995	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. gen.	to flee	
+159995	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
+159995	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. nom.	to flee	
+159995	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
 # KTU 2.90 10						
 159996	w	w	w	conj.	and	
 159997	ht	ht	ht	adv.	here	
@@ -49,7 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160001	ˤmm	ˤmm[:pass	/ʕ-m-m/	vb Gpass suffc.	to be covered	
 160002	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	woman	
 # KTU 2.90 12						
-160003	btk	bt(II)/+k	bt (II)	n. m. abs. gen.	house	
+160003	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	house	
 160004	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 160004	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
 # KTU 2.90 13						
@@ -58,9 +63,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160006	and	an(II)+d	ản (II)	adv.	wherever, ?	
 160007	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.90 14						
-160008	ḫrdk	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
-160009	yuḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
-160009	yuḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
+160008	ḫrdk	ḫrd/+k	ḫrd	n. m. sg. cstr. nom.	(royal) guard	
+160009	yuḫd	!y!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
+160009	yuḫd	!y!(ʔ&uḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
 # KTU 2.90 15						
 160010	hn	hn	hn	functor	behold!	
 160011	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
@@ -70,8 +75,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160013	w	w	w	conj.	and	
 160014	štnnh	št[n+nh	/š-t/	vb G impv. 2	to place, ?	
 # KTU 2.90 17						
-160015	bd	b	b	prep.	in	
-160016	mlakty	mlak(t/t+y	mlảkt	n. f. sg. abs. gen.	message	
+160015	bd	b&d	b	prep.	in	
+160016	mlakty	mlak(t/t+y	mlảkt	n. f. sg. cstr. gen.	message	
 # KTU 2.90 18						
 160017	w	w	w	conj.	and	
 160018	kin	?	?	?	?	DULAT: NOT FOUND
@@ -97,13 +102,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.90 22						
 160028	w	w	w	conj.	and	
 160029	at	at(I)	ảt (I)	pers. pn.	you	
-160030	bd	b	b	prep.	in	
+160030	bd	b&d	b	prep.	in	
 # KTU 2.90 23						
-160031	mlakty	mlak(t/t+y	mlảkt	n. f. sg. abs. gen.	message	
+160031	mlakty	mlak(t/t+y	mlảkt	n. f. sg. cstr. gen.	message	
 160032	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.90 24						
 160033	štnn	št[n+n	/š-t/	vb G impv. 2	to place	
 160033	štnn	št[:pass+nn	/š-t/	vb G suffc.	to place, ?	
 160033	štnn	št[:pass+nn	/š-t/	vb G impv. 2	to place, ?	
 160033	štnn	št[+nn	/š-t/	vb Gpass suffc.	to place, ?	
-160033	štnn	št(II)/+nn	št (II)	n. f. abs. gen.	raíz, ?	
+160033	štnn	št(II)/+nn	št (II)	n. f. cstr. nom.	raíz, ?	

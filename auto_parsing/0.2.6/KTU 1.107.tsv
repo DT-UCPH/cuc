@@ -13,9 +13,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152931	xxxxxx	?	?	?	?	
 152932	wxrṣ	?	?	?	?	DULAT: NOT FOUND
 152933	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
-152934	ydrm	ydrm/	ydrm	PN sg. cstr. gen.	ydrm	
-152935	pit	pit/	pỉt	n. m. cstr. gen.	temple	
-152936	adm	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	man	
+152934	ydrm	ndr[+m(I)	/n-d-r/	vb	to make a vow	
+152934	ydrm	ydrm/	ydrm	PN sg. abs. nom.	ydrm	
+152935	pit	pit/	pỉt	n. m. abs. nom.	temple	
+152936	adm	adm(I)/	ảdm (I)	n. m. sg. abs. nom.	man	
+152936	adm	(ʔ&adm[	/ʔ-d-m/	vb G suffc. 3 m. sg.	to be	
 # KTU 1.107 4						
 152937	xxxxxxiṯx	?	?	?	?	DULAT: NOT FOUND
 152938	yšql	ql[ql	/q-l/	vb	to fall (down)	
@@ -76,10 +78,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152966	km	+km, +km=	-km			
 152967	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. cstr. nom.	boy	
 152967	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
-152967	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
-152967	nˤr	nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
-152967	nˤr	!n!](n]ˤr[	/ʕ-r/	vb N prefc. 1 c. pl.	to become agitated	
-152967	nˤr	nˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
+152967	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
+152967	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
+152967	nˤr	!n!(]n]ˤr[	/ʕ-r/	vb N prefc. 1 c. pl.	to become agitated	
+152967	nˤr	]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
 # KTU 1.107 9						
 152968	w	w	w	conj.	and	
 152969	ydmˤ	!y!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. sg.	to shed tears	
@@ -109,14 +111,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152984	šrġzz	šrġzz/	šrġzz	DN sg. abs. gen.	the Devil is a munificent one	
 152985	w	w	w	conj.	and	
 152986	tpky	bky[y	/b-k-y/	vb G prefc.	to weep	
+152987	bm	b&m	b	prep.	in	
 152987	bm	b+m(I)	b	prep.	in	
-152988	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. abs. gen.	boy	
-152988	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. gen.	boy	
-152988	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
-152988	nˤr	nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
-152988	nˤr	!n!](n]ˤr[	/ʕ-r/	vb N prefc. 1 c. pl.	to become agitated	
-152988	nˤr	nˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
-152989	tdmˤ	!t!dmˤ[	/d-m-ʕ/	vb G prefc.	to shed tears	
+152988	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. cstr. nom.	boy	
+152988	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
+152988	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
+152988	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
+152988	nˤr	!n!(]n]ˤr[	/ʕ-r/	vb N prefc. 1 c. pl.	to become agitated	
+152988	nˤr	]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
+152989	tdmˤ	!t!dmˤ[:w	/d-m-ʕ/	vb G prefc. 3 m. pl.	to shed tears	
 152990	km	k(III)	k (III)	functor	when	
 152990	km	k(I)	k (I)	prep.	like	
 152990	km	k(IV)	k (IV)	adv.	thus	
@@ -124,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152990	km	+km, +km=	-km			
 # KTU 1.107 12						
 152991	ṣġr	ṣġr(I)/	ṣġr (I)	adj. m. sg. abs. nom.	small	
-152992	bkm	b	b	prep.	in	
+152992	bkm	b&km	b	prep.	in	
 152992	bkm	!!bk(y[/~m	/b-k-y/	vb G inf.	to weep	
 152992	bkm	bkm	bkm	adv.	next	
 152993	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
@@ -253,7 +256,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153077	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 # KTU 1.107 32						
 153078	xxxxxsp	?	?	?	?	DULAT: NOT FOUND
-153079	ḫph	ḫp(I)/h	ḫp (I)	n. m. sg. abs. nom.	shore	
+153079	ḫph	ḫp(I)/+h	ḫp (I)	n. m. sg. cstr. nom.	shore	
 153080	ḫxx	?	?	?	?	DULAT: NOT FOUND
 153081	xxxx	?	?	?	?	
 153082	isp	(ʔ&isp[	/ʔ-s-p/	vb G impv. 2	to gather	
@@ -262,16 +265,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153083	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153084	l	l(I)	l (I)	prep.	to	
 153084	l	l(III)	l (III)	functor	certainly	
-153085	hrm	hr(I)/m	hr (I)	n. m. pl. abs. nom.	mountain	
+153085	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. nom.	mountain	
 # KTU 1.107 33						
-153086	ġrpl	ġrpl/	ġrpl	n. m. sg. abs. nom.	cloud	
-153087	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-153087	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-153087	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-153087	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-153088	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
-153089	lan	lʔy(I)[	/l-ʔ-y/w/ (I)	vb	to conquer	
-153089	lan	la/+n	lả	n. m. cstr. nom.	power	
+153086	ġrpl	ġrpl/	ġrpl	n. m. sg. cstr. gen.	cloud	
+153087	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+153088	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
+153089	lan	la/+n	lả	n. m. cstr. gen.	power	
 153090	isp	(ʔ&isp[	/ʔ-s-p/	vb G impv. 2	to gather	
 153090	isp	(ʔ&isp[:d	/ʔ-s-p/	vb D impv. 2	to gather	
 153091	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
@@ -283,16 +282,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153093	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153094	l	l(I)	l (I)	prep.	to	
 153094	l	l(III)	l (III)	functor	certainly	
-153095	hrm	hr(I)/m	hr (I)	n. m. pl. abs. nom.	mountain	
-153096	ġrpl	ġrpl/	ġrpl	n. m. sg. abs. nom.	cloud	
-153097	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-153097	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-153097	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-153097	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-153098	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+153095	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. nom.	mountain	
+153096	ġrpl	ġrpl/	ġrpl	n. m. sg. cstr. gen.	cloud	
+153097	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+153098	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
 # KTU 1.107 35						
-153099	lan	lʔy(I)[	/l-ʔ-y/w/ (I)	vb	to conquer	
-153099	lan	la/+n	lả	n. m. cstr. nom.	power	
+153099	lan	la/+n	lả	n. m. cstr. gen.	power	
 153100	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 153100	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 153101	l	l(I)	l (I)	prep.	to	
@@ -310,8 +305,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153108	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 153109	xxxxx	?	?	?	?	
 153110	axxhm	?	?	?	?	DULAT: NOT FOUND
-153111	yasp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153111	yasp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
+153111	yasp	!y!(ʔ&asp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
+153111	yasp	!y!(ʔ&asp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
 153112	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 153112	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 # KTU 1.107 37						
@@ -321,100 +316,94 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153114	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153115	l	l(I)	l (I)	prep.	to	
 153115	l	l(III)	l (III)	functor	certainly	
-153116	hrm	hr(I)/m	hr (I)	n. m. pl. abs. nom.	mountain	
-153117	ġrpl	ġrpl/	ġrpl	n. m. sg. abs. nom.	cloud	
-153118	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-153118	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-153118	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-153118	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-153119	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
-153120	lan	lʔy(I)[	/l-ʔ-y/w/ (I)	vb	to conquer	
-153120	lan	la/+n	lả	n. m. cstr. nom.	power	
+153116	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. nom.	mountain	
+153117	ġrpl	ġrpl/	ġrpl	n. m. sg. cstr. gen.	cloud	
+153118	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+153119	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
+153120	lan	la/+n	lả	n. m. cstr. gen.	power	
 # KTU 1.107 38						
 153121	isp	(ʔ&isp[	/ʔ-s-p/	vb G impv. 2	to gather	
 153121	isp	(ʔ&isp[:d	/ʔ-s-p/	vb D impv. 2	to gather	
-153122	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153122	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
-153123	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-153123	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153123	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-153123	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153122	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153122	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
+153123	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+153123	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 153124	wḥrn	?	?	?	?	DULAT: NOT FOUND
-153125	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153125	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
-153126	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153126	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
+153125	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
+153125	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
+153126	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153126	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
 # KTU 1.107 39						
-153127	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-153127	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-153127	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+153127	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+153127	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+153127	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 153128	w	w	w	conj.	and	
 153129	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. nom.	grain	
-153130	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153130	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
-153131	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153131	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
-153132	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
-153132	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-153132	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+153130	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
+153130	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
+153131	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153131	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
+153132	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. gen.	eye	
+153132	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 153133	w	w	w	conj.	and	
 153134	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 # KTU 1.107 40						
-153135	tisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153135	tisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
-153136	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153136	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
-153137	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-153137	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+153135	tisp	!t!(ʔ&isp[	/ʔ-s-p/	vb G prefc.	to gather	
+153135	tisp	!t!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc.	to gather	
+153136	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153136	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
+153137	yrḫ	yrḫ/	yrḫ	DN m. sg. abs. gen.	Yariḫu/Yarikh	
+153137	yrḫ	yrḫ/	yrḫ	n. m. sg. abs. gen.	moon	
 153138	w	w	w	conj.	and	
 153139	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
 153140	ḫyisp	?	?	?	?	DULAT: NOT FOUND
-153141	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153141	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
+153141	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153141	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
 # KTU 1.107 41						
-153142	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. abs. nom.	ʿAṯtar	
+153142	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. abs. gen.	ʿAṯtar	
 153143	w	w	w	conj.	and	
 153144	ˤṯtpr	?	?	?	?	DULAT: NOT FOUND
-153145	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153145	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
-153146	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153146	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
-153147	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. nom.	ẓẓ	
+153145	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
+153145	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
+153146	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153146	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
+153147	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. gen.	ẓẓ	
 153148	w	w	w	conj.	and	
 153149	ktṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 42						
-153150	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153150	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
-153151	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153151	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
-153152	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-153152	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+153150	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
+153150	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
+153151	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153151	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
+153152	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+153152	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 153153	b	b	b	prep.	in	
 153154	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
-153155	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153155	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
-153156	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153156	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
+153155	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
+153155	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
+153156	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153156	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
 # KTU 1.107 43						
-153157	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+153157	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 153158	wḫss	?	?	?	?	DULAT: NOT FOUND
-153159	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153159	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
-153160	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
-153160	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
-153161	šḥr	šḥr/	šḥr	n. m. sg. abs. nom.	dawn	
+153159	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
+153159	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
+153160	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
+153160	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
+153161	šḥr	šḥr/	šḥr	n. m. sg. abs. gen.	dawn	
 153162	w	w	w	conj.	and	
 153163	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 153163	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 153163	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+153163	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
 153163	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 153163	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 153163	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
 153163	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 153163	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 1.107 44						
-153164	yisp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-153164	yisp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
+153164	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
+153164	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
 153165	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 153165	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 153166	isp	(ʔ&isp[	/ʔ-s-p/	vb G impv. 2	to gather	
@@ -461,9 +450,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153191	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 # KTU 1.107 48						
 153192	xxxxxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
-153193	mšḥt	mšḥ(t/t	mšḥt	n. f. sg. abs. nom.	anointing	
-153194	kṯpm	kṯp/m	kṯp	n. m. pl. abs. nom.	?	
-153195	akṯn	nkṯ	/n-k-ṯ/	?	?	
+153193	mšḥt	mšḥ(t/t	mšḥt	n. f. sg. cstr. nom.	anointing	
+153194	kṯpm	kṯp/m	kṯp	n. m. pl. abs. gen.	?	
+153195	akṯn	akṯn	/n-k-ṯ/	?	?	
 # KTU 1.107 49						
 153196	xxxxxxxxxxxxnxxxṭ	?	?	?	?	DULAT: NOT FOUND
 153197	b	b	b	prep.	in	

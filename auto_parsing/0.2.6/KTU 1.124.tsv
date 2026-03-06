@@ -12,11 +12,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154377	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 154378	rbm	rb(I)/m	rb (I)	adj. m. pl. abs. nom.	great	
 154379	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-154380	dtn	d+n	d	det. or rel. functor	the one(s) of	
+154380	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.124 3						
 154381	w	w	w	conj.	and	
-154382	yšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
-154383	mṯpẓ	mṯpṭ/	mṯpṭ	n. cstr. nom.	command	
+154382	yšal	!y!š(ʔ&al[	/š-ʔ-l/	vb G prefc. 3 m. sg.	to ask	
+154383	mṯpẓ	mṯpṭ/	mṯpṭ/ẓ	n. m. sg. cstr. nom.	command	
 154384	yld	yld/	yld	n. m. pl. abs. gen.	son	
 154384	yld	yld/	yld	n. m. sg. abs. gen.	son	
 # KTU 1.124 4						
@@ -24,9 +24,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154386	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 154387	nn	grš[	/g-r-š/	vb	to eject	
 154387	nn	gr[	/g-r(-y)/	vb	to attack	
-154388	dtn	d+n	d	det. or rel. functor	the one(s) of	
+154388	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.124 5						
-154389	tˤny	!t!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
+154389	tˤny	!t!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
+154389	tˤny	!t=!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 2 m. sg.	to answer	
+154389	tˤny	!t==!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 2 f. sg.	to answer	
+154389	tˤny	!t!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	
+154389	tˤny	!t!ˤny[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
+154389	tˤny	!t===!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	to answer	
 154390	nad	nad/	nảd	n. m. sg. cstr. nom.	(little) bag	
 154391	mr	mr(I)/	mr (I)	n. m. sg. abs. gen.	myrrh	
 154392	qḥ	lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of	
@@ -56,9 +61,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154404	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154405	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 154405	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
-154405	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-154405	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-154405	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 154406	bnt	bn(t(II)/t	bnt (II)	n. f. sg. abs. gen.	produce	
 154406	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. gen.	masonry	
 154406	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. gen.	tamarisk	
@@ -83,20 +85,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154416	w	w	w	conj.	and	
 154417	ymġ	!y!mġ(y[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come	
 # KTU 1.124 11						
-154418	mlakk	mla/+k	mlảk	n. m. cstr. nom.	messenger	
+154418	mlakk	mlak/+k	mlảk	n. m. cstr. nom.	messenger	
 154419	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-154420	dtn	d+n	d	det. or rel. functor	the one(s) of	
+154420	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.124 12						
 154421	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 154421	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
-154422	mṯpẓ	mṯpṭ/	mṯpṭ	n. abs. nom.	command	
+154422	mṯpẓ	mṯpṭ/	mṯpṭ/ẓ	n. m. sg. cstr. nom.	command	
 # KTU 1.124 13						
 154423	w	w	w	conj.	and	
 154424	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 154425	nn	grš[	/g-r-š/	vb	to eject	
 154425	nn	gr[	/g-r(-y)/	vb	to attack	
 # KTU 1.124 14						
-154426	dtn	d+n	d	det. or rel. functor	the one(s) of	
+154426	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
 154427	btn	btn(I)/	btn (I)	n. m. sg. abs. nom.	inside of the house	
 154428	mḥy	mḥ[y	/m-ḥ(-w:y)/	vb G impv. 2	to clean	
 # KTU 1.124 15						

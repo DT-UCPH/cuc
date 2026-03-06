@@ -2,15 +2,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.21 II:1						
 146789	mrzˤy	mrzˤy/	mrzʕy	adj. m. sg. abs. nom.	he of the mrzḥ	
 146790	lk	l(I)+k	l (I)	prep.	to	
-146791	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
+146791	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
 # KTU 1.21 II:2						
-146792	bty	bt(II)/+y	bt (II)	n. m. abs. gen.	house	
+146792	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
 146793	aṣḥkm	!(ʔ&a!ṣḥ[km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
 146794	iqra	!(ʔ&i!qr(ʔ[&a	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	
 # KTU 1.21 II:3						
 146795	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
 146796	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-146797	rpum	rp(u&/m	rpủ	n. m. pl. abs. gen.	healer	
+146797	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
 # KTU 1.21 II:4						
 146798	l	l(III)	l (III)	functor	certainly	
 146799	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
@@ -25,14 +25,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146807	y	+y, [y	-y (I)	prep. functor	my	
 146807	y	~y	-y (II)	prep. functor	indeed	
 146807	y	y	y	prep. functor	oh!	
-146808	rp	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+146808	rp	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+146808	rp	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
 # KTU 1.21 II:6						
-146809	umkm	um/+km	ủm	n. f. cstr. gen.	mother	
-146810	rˤy	rˤ/+y	rʕ	n. m. sg. abs. gen.	companion	
+146809	umkm	um/+km	ủm	n. f. cstr. nom.	mother	
+146810	rˤy	rˤ/+y	rʕ	n. m. sg. cstr. nom.	companion	
 146811	ht	ht	ht	adv.	here	
-146812	alk	hlk[	/h-l-k/	vb G prefc.	to go	
+146812	alk	!(ʔ&a!(hlk[	/h-l-k/	vb G prefc. 1 c. sg.	to go	
 # KTU 1.21 II:7						
-146813	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	nuf.	three	
+146813	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
 146814	amġy	!(ʔ&a!mġy[	/m-ġ-y/	vb G prefc. 1 c. sg.	to come	
 146815	l	l(I)	l (I)	prep.	to	
 146815	l	l(III)	l (III)	functor	certainly	
@@ -47,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146821	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
 146821	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc. 3 m. sg.	to see	
 146821	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed	
-146821	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass	to be / remain depressed	
+146821	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to be / remain depressed	
 146822	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 146822	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 146822	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
@@ -57,8 +58,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146823	y	~y	-y (II)	prep. functor	indeed	
 146823	y	y	y	prep. functor	oh!	
 146824	lk	l(I)+k	l (I)	prep.	to	
-146825	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
-146826	rpim	rp(u&i/m	rpủ	n. m. pl. abs. gen.	healer	
+146825	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+146826	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
 # KTU 1.21 II:10						
 146827	aṣḥkm	!(ʔ&a!ṣḥ[km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
 146828	iqrakm	!(ʔ&i!qr(ʔ[&akm	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	
@@ -66,7 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146829	b	b	b	prep.	in	
 146830	hkly	hkl/y	hkl	n. m. sg. abs. gen.	palace	
 146831	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-146832	rpum	rp(u&/m	rpủ	n. m. pl. abs. gen.	healer	
+146832	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
 # KTU 1.21 II:12						
 146833	l	l(I)	l (I)	prep.	to	
 146833	l	l(II)	l (II)	adv.	no	

@@ -21,13 +21,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160285	yit	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 6						
 160286	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-160286	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
+160286	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.99 7						
 160287	xxxxtddhm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 8						
 160288	xx	?	?	?	?	
-160289	mitm	mit/m	mỉt	n. f. pl. abs. nom.	a hundred	
-160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
+160289	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	a hundred	
+160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
 # KTU 2.99 9						
 160291	xxxxxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 10						
@@ -72,14 +72,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160312	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
 160313	nr	nr/	nr	n. m. sg. cstr. gen.	sheen	
 # KTU 2.99 23						
-160314	kt	k(t(I)/t	kt (I)	n. f. sg. abs. gen.	pitcher	
-160314	kt	k(t(II)/t	kt (II)	n. f. sg. abs. gen.	stage	
-160315	gpt	gp(I)/t=	gp (I)	n. f. pl. abs. nom.	shore	
+160314	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. gen.	pitcher	
+160314	kt	k(t(II)/t	kt (II)	n. f. sg. cstr. gen.	stage	
+160315	gpt	gp(I)/t=	gp (I)	n. f. pl. cstr. gen.	shore	
 # KTU 2.99 24						
-160316	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
-160316	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
-160317	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	
-160317	ḥmṣ	ḥmṣ[	/ḥ-m-ṣ/	vb	to be(come) sour	
+160316	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. gen.	pitcher	
+160316	kt	k(t(II)/t	kt (II)	n. f. sg. cstr. gen.	stage	
+160317	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. gen.	vinegar	
 160318	w	w	w	conj.	and	
 160319	nbt	nb(t/t	nbt	n. f. sg. abs. nom.	honey	
 # KTU 2.99 25						
@@ -101,7 +100,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160330	xxxrxqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 30						
 160331	x	?	?	?	?	
-160332	igrn	!(ʔ&i!](n]gr[n	/g-r/	vb N prefc. 1 c. sg.	to lodge	
+160332	igrn	!(ʔ&i!(]n]gr[n	/g-r/	vb N prefc. 1 c. sg.	to lodge	
 # KTU 2.99 31						
 160333	qthm	qt/+hm	qt	n. m. cstr. nom.	handle	
 160333	qthm	ṯigt/+hm	ṯỉgt	n. f. cstr. nom.	neighing	

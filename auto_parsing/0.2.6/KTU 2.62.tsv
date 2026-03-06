@@ -7,9 +7,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158655	d	d	d	det. or rel. functor	the one(s) of	
 158656	xxxx	?	?	?	?	
 # KTU 2.62 4						
-158657	bnšm	bnš/~m	bnš	n. m. abs. nom. pl.	man	
-158658	mdym	md(I)&y/+m(I)	md (I)	n. f. cstr. nom.	cape	
-158658	mdym	mndym/	mndym	GN sg. abs. nom.	the (Ummān-)Manda	
+158657	bnšm	bnš/~m	bnš	n. m. pl. cstr. nom.	man	
+158658	mdym	md(I)&y/+m(I)	md (I)	n. f. cstr. gen.	cape	
+158658	mdym	mndym/	mndym	GN sg. abs. gen.	the (Ummān-)Manda	
 # KTU 2.62 5						
 158659	w	w	w	conj.	and	
 158660	b	b	b	prep.	in	
@@ -21,9 +21,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158664	mndym	mndym/	mndym	GN pl. abs. nom.	the (Ummān-)Manda	
 # KTU 2.62 8						
 158665	b	b	b	prep.	in	
-158666	ddnh	dd(II)/+nh	dd (II)	n. m. abs. gen.	cauldronful, ?	
+158666	ddnh	dd(II)/+nh	dd (II)	n. m. cstr. gen.	cauldronful, ?	
 158666	ddnh	dd(I)/+nh	dd (I)	adj. m. cstr. nom.	love, ?	
-158666	ddnh	ddn(I)/+h	ddn (I)	PN sg. abs. gen.	ddn (I)	
+158666	ddnh	ddn(I)/+h	ddn (I)	PN sg. cstr. gen.	ddn (I)	
 # KTU 2.62 9						
 158667	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc. 1 c. sg.	to get hold of	
 # KTU 2.62 10						
@@ -32,9 +32,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158670	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 158670	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.62 11						
-158671	yblhm	ybl(II)/+hm	ybl (II)	n. m. pl. abs. gen.	rod	
+158671	yblhm	ybl(II)/+hm	ybl (II)	n. m. pl. cstr. gen.	rod	
 158672	w	w	w	conj.	and	
-158673	iblblhm	blbl/	(ỉ)blbl	n. m. abs. nom.	messenger	
+158673	iblblhm	iblblh/m	(ỉ)blbl	n. m. pl. abs. nom.	messenger	
 # KTU 2.62 12						
 158674	w	w	w	conj.	and	
 158675	b	b	b	prep.	in	
@@ -42,12 +42,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158676	ṯbh	!!ṯb[/h	/ṯ-b/	vb G inf.	to return	
 158677	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
 # KTU 2.62 13						
-158678	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	tablet / register	
+158678	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 158678	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 158678	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-158678	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+158678	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+158678	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
+158678	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+158678	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
+158678	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
+158678	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
 158678	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-158678	spr	spr(I)/	spr (I)	n. m. sg. abs. gen.	scribe	
+158678	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
 158679	ḥxnx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.62 14						
 158680	w	w	w	conj.	and	
@@ -55,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158682		?	?	?	?	
 # KTU 2.62 15						
 158683	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-158683	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
+158683	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 # KTU 2.62 16						
 158684	w	w	w	conj.	and	
 158685	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND

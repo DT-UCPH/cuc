@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156748	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 156748	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 # KTU 2.15 4						
-156749	šink	šin/+k	šỉn	n. m. abs. gen.	shoe	
+156749	šink	šin/+k	šỉn	n. m. cstr. gen.	shoe	
 156750	itn	ytn[	/y-t-n/	vb	to give	
 # KTU 2.15 5						
 156751	rˤy	rˤ/+y	rʕ	n. m. sg. cstr. nom.	companion	
@@ -39,7 +39,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156764	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to say	
 # KTU 2.15 9						
 156765	aḫnnn	!(ʔ&a!ḫnn[n:d	/ḫ-n-n/	vb D prefc. 1 c. sg.	to denature	
-156765	aḫnnn	aḫnnn[	/ḫ-n-n/	vb D suffc. 3 m. sg.	to denature	
 # KTU 2.15 10						
 156766	w	w	w	conj.	and	
 156767	iḫd	(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	

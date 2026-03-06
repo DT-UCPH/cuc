@@ -18,21 +18,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 3						
 157705	w	w	w	conj.	and	
 157706	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157707	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
-157708	kll	kll/	kll	n. m. sg. abs. nom.	totality	
-157709	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-157709	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-157709	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-157709	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-157709	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-157709	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-157709	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-157709	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+157707	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
+157708	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
+157709	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 # KTU 2.36 4						
 157710	w	w	w	conj.	and	
 157711	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157711	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157711	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157711	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
 157711	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 157711	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 157711	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
@@ -41,24 +35,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157712	d	d	d	det. or rel. functor	the one(s) of	
 157713	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. nom.	country	
 157714	w	w	w	conj.	and	
-157715	dt	d	d	det. or rel. functor	the one(s) of	
+157715	dt	d&t	d	det. or rel. functor	the one(s) of	
 157716	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-157716	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
+157716	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.36 5						
-157717	ky	k(III)	k (III)	Subordinating or completive functor	when	
-157717	ky	k(II)	k (II)	emph. functor	yes	
-157717	ky	k(IV)	k (IV)	adv.	thus	
+157717	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
+157717	ky	k(II)&y	k (II)	emph. functor	yes	
+157717	ky	k(IV)&y	k (IV)	adv.	thus	
 157718	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 157719	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 157719	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 157719	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 157720	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 157720	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
-157721	tḥmk	tḥm/+k	tḥm	n. m. sg. abs. gen.	message	
+157721	tḥmk	tḥm/+k	tḥm	n. m. sg. cstr. gen.	message	
 157722	hlny	hlny	hlny	deictic adv. functor	behold	
 # KTU 2.36 6						
 157723	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. nom.	gold	
-157724	argmny	argm/+ny	ả/ỉrgmn	n. m. abs. gen.	payment of tribute to the Hittite court	
+157724	argmny	argm/+ny	ả/ỉrgmn	n. m. cstr. gen.	payment of tribute to the Hittite court	
 157725	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157726	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 157726	špš	špš/	špš	n. f. sg. abs. gen.	sun	
@@ -73,7 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157734	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to place	
 157734	štt	št[t:pass	/š-t/	vb Gpass suffc. 1 c. sg.	to place	
 157735	b	b	b	prep.	in	
-157736	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. abs. gen.	message	
+157736	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. cstr. gen.	message	
 # KTU 2.36 8						
 157737	xx	?	?	?	?	
 157738	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 f. sg.	to proceed	
@@ -89,16 +83,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157738	tqdm	!t!qdm[:d:w	/q-d-m/	vb D prefc. 3 m. pl.	to proceed	
 157738	tqdm	!t===!qdm[:d	/q-d-m/	vb D prefc. 2 m. pl.	to proceed	
 157739	udk	ud/+k	ủd	n. m. cstr. nom.	pay	
-157740	mġt	mġy[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come	
+157740	mġt	mġ(y[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come	
 157741	w	w	w	conj.	and	
-157742	mlkn	mlk(I)	mlk (I)		king	
+157742	mlkn	mlk(I)&n	mlk (I)		king	
 157743	xx	?	?	?	?	
 # KTU 2.36 9						
 157744	ṣḥrt	?	?	?	?	DULAT: NOT FOUND
 157745	xnṯb	?	?	?	?	DULAT: NOT FOUND
-157746	ˤmnkm	ˤm(I)+km	ʕm (I)	prep.	to	
+157746	ˤmnkm	ˤm(I)&n+km	ʕm (I)	prep.	to	
 157747	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
-157747	qrb	qrb/	qrb	n. m. sg. abs. gen.	inside	
+157747	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 157748	xx	?	?	?	?	
 # KTU 2.36 10						
 157749	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
@@ -113,7 +107,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157754	l	l(I)	l (I)	prep.	to	
 157754	l	l(II)	l (II)	adv.	no	
 157754	l	l(III)	l (III)	functor	certainly	
-157755	mġt	mġy[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come	
+157755	mġt	mġ(y[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come	
 157756	šxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 11						
 157757	w	w	w	conj.	and	
@@ -145,15 +139,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157774	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 157775	štnt	ytn[t	/y-t-n/	vb	to give	
 # KTU 2.36 14						
-157776	ṯnnty	ṯn(II)&nt/+y	ṯn (II)	num./adj.	second	
+157776	ṯnnty	ṯn(II)&nt/+y	ṯn (II)	num. cstr. / adj. cstr.	second	
 157777	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157777	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157777	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 157777	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 157777	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-157778	ky	k(III)	k (III)	Subordinating or completive functor	when	
-157778	ky	k(II)	k (II)	emph. functor	yes	
-157778	ky	k(IV)	k (IV)	adv.	thus	
+157778	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
+157778	ky	k(II)&y	k (II)	emph. functor	yes	
+157778	ky	k(IV)&y	k (IV)	adv.	thus	
 157779	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 157780	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 157780	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
@@ -161,25 +155,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157781	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 157781	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.36 15						
-157782	šbt	šb(t/t	šbt	n. f. sg. abs. gen.	greyness > old age	
-157783	ntbt	ntbt/	ntbt	n. m. sg. abs. nom.	path	
-157784	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
-157784	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. nom.	sob	
+157782	šbt	šb(t/t	šbt	n. f. sg. cstr. gen.	greyness > old age	
+157783	ntbt	ntbt/	ntbt	n. m. sg. cstr. gen.	path	
+157784	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
+157784	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. gen.	sob	
 157785	ušbtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 16						
 157786	ntbt	ntbt/	ntbt	n. m. sg. cstr. nom.	path	
 157787	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
-157787	mṣrm	mṣr/+m(I)	mṣr	n. m. abs. gen.	sob	
+157787	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. gen.	sob	
 157788	b	b	b	prep.	in	
-157789	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
-157790	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+157789	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
+157790	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 2.36 17						
-157791	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-157792	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. abs. nom.	flax	
+157791	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
+157792	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. abs. gen.	flax	
 157793	w	w	w	conj.	and	
 157794	b	b	b	prep.	in	
-157795	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
-157796	nġṯ	nġṯ/	nġṯ	TN sg. abs. nom.	go to TN	
+157795	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
+157796	nġṯ	nġṯ/	nġṯ	TN sg. abs. gen.	go to TN	
 157797	tˤtqnn	!t!ˤtq[n+n	/ʕ-t-q/	vb G prefc.	to pass	
 157797	tˤtqnn	!t!ˤtq[+nn	/ʕ-t-q/	vb G prefc.	to pass, ?	
 # KTU 2.36 18						
@@ -189,12 +183,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157801	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. abs. nom.	valley	
 # KTU 2.36 19						
 157802	w	w	w	conj.	and	
-157803	ḥwtm	ḥwt/m	ḥwt	n. f. pl. abs. nom.	country	
-157804	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+157803	ḥwtm	ḥwt/m	ḥwt	n. f. pl. cstr. nom.	country	
+157804	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 157805	tˤtqn	!t!ˤtq[n	/ʕ-t-q/	vb G prefc.	to pass	
 157806	ht	ht	ht	adv.	here	
 # KTU 2.36 20						
-157807	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	nuf.	three	
+157807	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
 157808	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 157808	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157808	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	

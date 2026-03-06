@@ -6,7 +6,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154439		?	?	?	?	
 # KTU 1.126 3						
 154440	xxxršp	?	?	?	?	DULAT: NOT FOUND
-154441	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 154441	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 154441	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 # KTU 1.126 4						
@@ -62,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154467	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. gen.	sixth	
 154468	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.126 20						
-154469	ˤlyh	ˤly(II)/h	ʕly (II)	n. m. sg. abs. gen.	place of sacrifice	
+154469	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. sg. cstr. gen.	place of sacrifice	
 154470	x	?	?	?	?	
 # KTU 1.126 21						
 154471	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
@@ -76,7 +75,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154476	yṣ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.126 23						
 154477	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
-154478	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
+154478	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
+154478	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
 154478	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
 # KTU 1.126 24						
 154479	xtštn	?	?	?	?	DULAT: NOT FOUND

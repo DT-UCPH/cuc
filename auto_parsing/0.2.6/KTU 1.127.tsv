@@ -13,11 +13,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154484	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	
 154484	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. gen.	to sacrifice	
 # KTU 1.127 4						
-154485	dt	d	d	det. or rel. functor	the one(s) of	
+154485	dt	d&t	d	det. or rel. functor	the one(s) of	
 154486	nat	na(t/t	nảt	n. f. sg. abs. nom.	lament	
 # KTU 1.127 5						
 154487	w	w	w	conj.	and	
-154488	ytnt	ytnt[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+154488	ytnt	ytn[t===	/y-t-n/	vb G suffc. 3 f. sg.	to give	
+154488	ytnt	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give	
+154488	ytnt	ytn[t==	/y-t-n/	vb G suffc. 2 f. sg.	to give	
+154488	ytnt	ytn[t	/y-t-n/	vb G suffc. 1 c. sg.	to give	
 # KTU 1.127 6						
 154489	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. nom.	term for the kings of Ugarit	
 154490	w	w	w	conj.	and	
@@ -41,11 +44,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154496	k	k(III)	k (III)	Subordinating or completive functor	when	
 154496	k	k(I)	k (I)	prep.	like	
 154496	k	k(II)	k (II)	emph. functor	yes	
-154497	sprt	spr(t/t	sprt	n. f. pl. abs. nom.	instruction	
 154497	sprt	spr(t/t	sprt	n. f. sg. abs. nom.	instruction	
 154497	sprt	spr(t/t=	sprt	n. f. pl. abs. nom.	instruction	
 # KTU 1.127 10						
-154498	dt	d	d	det. or rel. functor	the one(s) of	
+154498	dt	d&t	d	det. or rel. functor	the one(s) of	
 154499	nat	na(t/t	nảt	n. f. sg. abs. nom.	lament	
 # KTU 1.127 11						
 154500	w	w	w	conj.	and	
@@ -87,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154518	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. gen.	grain	
 # KTU 1.127 23						
 154519	b	b	b	prep.	in	
-154520	btk	bt(II)/+k	bt (II)	n. m. abs. gen.	house	
+154520	btk	bt(II)/+k	bt (II)	n. m. cstr. gen.	house	
 154521	s	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.127 24						
 154522	w	w	w	conj.	and	
@@ -96,12 +98,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154524	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.127 26						
 154525	x	?	?	?	?	
-154526	aṯt	aṯ(t/t	ảṯt	n. f. du. abs. nom.	woman	
-154526	aṯt	aṯ(t/t	ảṯt	n. f. pl. abs. nom.	woman	
 154526	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
 154526	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
 154527	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-154527	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
+154527	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 154528	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 154528	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 154528	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
@@ -115,7 +115,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154532	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154532	hm	hm(I)	hm (I)	pers. pn.	they	
 154533	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	city	
-154534	tuḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+154534	tuḫd	!t!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 154535	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154535	hm	hm(I)	hm (I)	pers. pn.	they	
 154536	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
@@ -134,7 +134,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154541	bnš	bnš/	bnš	n. m. pl. abs. gen.	man	
 154541	bnš	bnš/	bnš	n. m. sg. abs. gen.	man	
 154542	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-154542	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
+154542	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 154543	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 154543	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 154543	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	

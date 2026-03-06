@@ -14,16 +14,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157927	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 157927	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
 157928	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
-157929	midm	mid/~m	mỉ/ủd	n. m. sg. abs. gen.	abundance	
+157929	midm	mid/~m	mỉ/ủd	n. m. sg. cstr. gen.	abundance	
 # KTU 2.39 4						
-157930	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-157930	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-157930	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-157930	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-157930	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-157930	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-157930	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-157930	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+157930	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
 # KTU 2.39 5						
 157931	l	l(I)	l (I)	prep.	to	
 157932	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -33,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.39 6						
 157935	adnh	adn(I)/+h	ảdn (I)	n. m. cstr. gen.	lord	
 157935	adnh	ad/+nh	ảd	n. m. cstr. gen.	father, ?	
-157936	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. abs. gen.	servant	
+157936	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	servant	
 157937	uk	uk	ủk	positive emph. functor	yes	
 157938	škn	škn[:d	/š-k-n/	vb D impv. 2	to be placed	
 # KTU 2.39 7						
@@ -42,12 +35,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157939	k	k(III)	k (III)	Subordinating or completive functor	when	
 157939	k	k(I)	k (I)	prep.	like	
 157939	k	k(II)	k (II)	emph. functor	yes	
-157940	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m. pl. abs. nom.	servant	
-157941	sglth	sgl(t/t+h	sglt	n. f. sg. cstr. nom.	treasure	
+157940	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m. pl. cstr. nom.	servant	
+157941	sglth	sgl(t/t+h	sglt	n. f. sg. cstr. gen.	treasure	
 157942	hw	hw	hw	pers. pn.	he	
 # KTU 2.39 8						
 157943	w	w	w	conj.	and	
-157944	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157944	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 157945	uk	uk	ủk	positive emph. functor	yes	
 157946	nġr	nġr[	/n-ġ-r/	vb G impv. 2	to protect	
 157946	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect	
@@ -70,7 +63,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157956	l	l(I)	l (I)	prep.	to	
 157956	l	l(II)	l (II)	adv.	no	
 157956	l	l(III)	l (III)	functor	certainly	
-157957	ydˤt	ydˤt[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
+157957	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
+157957	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
+157957	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
+157957	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
 157957	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 # KTU 2.39 11						
 157958	ht	ht	ht	adv.	here	
@@ -78,9 +74,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157960	l	l(I)	l (I)	prep.	to	
 157961	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 157961	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
-157962	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157962	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.39 12						
-157963	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m. pl. abs. gen.	servant	
+157963	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m. pl. abs. nom.	servant	
 157964	sglth	sgl(t/t+h	sglt	n. f. sg. cstr. nom.	treasure	
 157965	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.39 13						
@@ -88,58 +84,64 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157967	xxx	?	?	?	?	
 157968	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
 157968	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
-157969	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+157969	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.39 14						
 157970	ydˤm	!!ydˤ(I)[/m	/y-d-ʕ/ (I)	vb G inf.	to know	
 157971	l	l(I)	l (I)	prep.	to	
 157971	l	l(II)	l (II)	adv.	no	
 157971	l	l(III)	l (III)	functor	certainly	
-157972	ydˤt	ydˤt[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
+157972	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
+157972	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
+157972	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
+157972	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
 157972	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 # KTU 2.39 15						
 157973	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-157974	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
-157974	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
-157975	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157974	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+157974	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+157975	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 # KTU 2.39 16						
-157976	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
+157976	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
 157977	šntm	šnt(I)/m	šnt (I)	n. f. pl. abs. nom.	year	
-157978	lm	l(I)	l (I)	prep.	to	
+157978	lm	l(I)&m	l (I)	prep.	to	
 157979	l	l(I)	l (I)	prep.	to	
 157979	l	l(II)	l (II)	adv.	no	
 157979	l	l(III)	l (III)	functor	certainly	
-157980	tlk	hlk[	/h-l-k/	vb G prefc.	to go	
+157980	tlk	!t!(hlk[	/h-l-k/	vb G prefc.	to go	
 # KTU 2.39 17						
 157981	w	w	w	conj.	and	
-157982	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
-157983	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
-157984	ky	k(III)	k (III)	Subordinating or completive functor	when	
-157984	ky	k(II)	k (II)	emph. functor	yes	
-157984	ky	k(IV)	k (IV)	adv.	thus	
+157982	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
+157983	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	grain	
+157984	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
+157984	ky	k(II)&y	k (II)	emph. functor	yes	
+157984	ky	k(IV)&y	k (IV)	adv.	thus	
 # KTU 2.39 18						
 157985	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 157986	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157987	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 157987	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
 # KTU 2.39 19						
-157988	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-157989	ky	k(III)	k (III)	Subordinating or completive functor	when	
-157989	ky	k(II)	k (II)	emph. functor	yes	
-157989	ky	k(IV)	k (IV)	adv.	thus	
+157988	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157989	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
+157989	ky	k(II)&y	k (II)	emph. functor	yes	
+157989	ky	k(IV)&y	k (IV)	adv.	thus	
 157990	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
 # KTU 2.39 20						
 157991	b	b	b	prep.	in	
 157992	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. gen.	country	
-157993	inn	in/	ỉn	n. m. sg. cstr. gen.	lack of	
+157993	inn	in&n/	ỉn	n. m. sg. abs. nom.	lack of	
 # KTU 2.39 21						
-157994	špšn	špš/	špš	n. f. sg. abs. gen.	sun	
-157995	tubd	ʔbd[d	/ʔ-b-d/	vb G prefc.	be missing	
+157994	špšn	špš&n/	špš	n. f. sg. abs. nom.	sun	
+157995	tubd	!t!(ʔ&ubd[	/ʔ-b-d/	vb G prefc.	be missing	
 # KTU 2.39 22						
 157996	hm	hm(II)	hm (II)	conj./interr. functor	if	
 157996	hm	hm(I)	hm (I)	pers. pn.	they	
 157997	alkxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 23						
-157998	ytnt	ytnt[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+157998	ytnt	ytn[t===	/y-t-n/	vb G suffc. 3 f. sg.	to give	
+157998	ytnt	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give	
+157998	ytnt	ytn[t==	/y-t-n/	vb G suffc. 2 f. sg.	to give	
+157998	ytnt	ytn[t	/y-t-n/	vb G suffc. 1 c. sg.	to give	
 157999	xxx	?	?	?	?	
 # KTU 2.39 24						
 158000	ṯn	ṯn(I)/	ṯn (I)	num.	two	
@@ -163,20 +165,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158010	ib	ib(I)/	ỉb (I)	n. m. pl. abs. nom.	enemy	
 158010	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 158010	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
-158011	ˤltn	ˤl(I)+n	ʕl (I)	prep.	upon	
+158011	ˤltn	ˤl(I)&t+n	ʕl (I)	prep.	upon	
 158012	xk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 32						
 158013	w	w	w	conj.	and	
 158014	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 158014	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 158014	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-158014	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+158014	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+158014	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
+158014	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+158014	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
+158014	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
+158014	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
 158014	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 158014	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
 158015	inx	?	?	?	?	DULAT: NOT FOUND
 158016	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.39 33						
-158017	sprn	spr(II)/	spr (II)	n. m. sg. abs. gen.	tablet / register	
+158017	sprn	spr(II)&n/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 158018	ṭhrm	ṭhr/m	ṭhr	adj. m. pl. abs. nom.	pure	
 158019	adm	adm(I)/	ảdm (I)	n. m. sg. abs. nom.	man	
 158019	adm	(ʔ&adm[	/ʔ-d-m/	vb G suffc. 3 m. sg.	to be	

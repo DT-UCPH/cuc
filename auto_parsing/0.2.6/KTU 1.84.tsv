@@ -15,8 +15,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150318	annpdgl	annpdgl/	ảnnpdgl	PN sg. abs. nom.	ảnnpdgl	
 # KTU 1.84 4						
 150319	u	u	ủ	conj.	or	
-150320	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-150321	ypkn	yp/	yp	n. m. sg. abs. nom.	dignity	
+150320	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+150320	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
+150321	ypkn	yp/+kn	yp	n. m. sg. cstr. nom.	dignity	
 150322	u	u	ủ	conj.	or	
 150323	lp	?	?	?	?	DULAT: NOT FOUND
 150324	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
@@ -38,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150339	ġbr	ġbr/	ġbr	TN sg. cstr. nom.	nom propre	
 150340	ul	ul/	ủl	n. m. sg. cstr. gen.	(military) force	
 150341	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
-150342	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. abs. gen.	oppressor	
+150342	ḫbtkn	ḫbt(I)/+kn	ḫbt (I)	n. m. pl. cstr. gen.	oppressor	
 # KTU 1.84 6						
 150343	u	u	ủ	conj.	or	
 150344	lp	?	?	?	?	DULAT: NOT FOUND
@@ -47,13 +48,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150347	lp	?	?	?	?	DULAT: NOT FOUND
 150348	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
 150349	u	u	ủ	conj.	or	
-150350	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-150351	ypkn	yp/	yp	n. m. sg. abs. nom.	dignity	
+150350	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+150350	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
+150351	ypkn	yp/+kn	yp	n. m. sg. cstr. nom.	dignity	
 # KTU 1.84 7						
 150352	b	b	b	prep.	in	
 150353	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
-150353	apkn	ap(II)/+kn	ảp (II)	n. m. abs. gen.	nose	
-150353	apkn	apq/+n	ảpq	n. m. abs. gen.	spring	
+150353	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. gen.	nose	
+150353	apkn	apq/+n	ảpq	n. m. cstr. gen.	spring	
 150354	u	u	ủ	conj.	or	
 150355	bqṣrt	?	?	?	?	DULAT: NOT FOUND
 150356	npškn	npš(I)/+kn	npš (I)	n. f. cstr. nom.	throat	
@@ -63,16 +65,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150359	tqṭṭ	!t!qṭṭ[:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
 # KTU 1.84 8						
 150360	u	u	ủ	conj.	or	
-150361	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+150361	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+150361	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 150362	ypknġl	?	?	?	?	DULAT: NOT FOUND
 150363	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 150363	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 150364	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. gen.	help	
 150365	bˤl	bˤl(II)/	bʕl (II)	DN pl. abs. gen.	Baʿlu/Baal	
 150365	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
-150365	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
-150365	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-150365	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.84 9						
 150366	xl	?	?	?	?	DULAT: NOT FOUND
 150367	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
@@ -102,8 +102,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 14						
 150386		?	?	?	?	
 150387	u	u	ủ	conj.	or	
-150388	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-150389	ypkm	yp/	yp	n. m. sg. abs. nom.	dignity	
+150388	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+150388	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
+150389	ypkm	yp/+km	yp	n. m. sg. cstr. nom.	dignity	
 150390	u	u	ủ	conj.	or	
 150391	lp	?	?	?	?	DULAT: NOT FOUND
 150392	qty	qt/+y	qt	n. m. cstr. nom.	handle	
@@ -142,8 +143,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150418	npy	npy/	npy	n. m. sg. abs. nom.	purification	
 # KTU 1.84 19						
 150419	u	u	ủ	conj.	or	
-150420	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-150421	ypkm	yp/	yp	n. m. sg. abs. nom.	dignity	
+150420	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+150420	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
+150421	ypkm	yp/+km	yp	n. m. sg. cstr. nom.	dignity	
 150422	u	u	ủ	conj.	or	
 150423	lp	?	?	?	?	DULAT: NOT FOUND
 150424	qty	qt/+y	qt	n. m. cstr. nom.	handle	
@@ -176,12 +178,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150448	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
 # KTU 1.84 22						
 150449	u	u	ủ	conj.	or	
-150450	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-150451	ypkm	yp/	yp	n. m. sg. abs. nom.	dignity	
+150450	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+150450	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
+150451	ypkm	yp/+km	yp	n. m. sg. cstr. nom.	dignity	
 150452	b	b	b	prep.	in	
 150453	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
-150453	apkm	ap(II)/+km	ảp (II)	n. m. abs. gen.	nose	
-150453	apkm	apq/+m(I)	ảpq	n. m. abs. gen.	spring	
+150453	apkm	ap(II)/+km	ảp (II)	n. m. cstr. gen.	nose	
+150453	apkm	apq/+m(I)	ảpq	n. m. cstr. gen.	spring	
 150454	u	u	ủ	conj.	or	
 150455	bqṣrt	?	?	?	?	DULAT: NOT FOUND
 150456	npškm	npš(I)/+km	npš (I)	n. f. cstr. nom.	throat	
@@ -231,8 +234,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150481	y	~y	-y (II)	prep. functor	indeed	
 150481	y	y	y	prep. functor	oh!	
 # KTU 1.84 40						
-150482	npy	npy/	npy	n. m. sg. cstr. gen.	purification	
-150483	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu II	
+150482	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+150483	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
 # KTU 1.84 41						
 150484	x	?	?	?	?	
 150485	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. nom.	assembly	
@@ -252,9 +255,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150492	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. gen.	help	
 150493	bˤl	bˤl(II)/	bʕl (II)	DN pl. abs. gen.	Baʿlu/Baal	
 150493	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
-150493	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
-150493	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-150493	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.84 48						
 150494		?	?	?	?	
 # KTU 1.84 49						

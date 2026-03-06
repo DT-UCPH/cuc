@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152703	ṣp	ṣp(I)/	ṣp (I)	n. m. sg. cstr. nom.	look	
 152704	ḫršḫ	ḫršḫ/	ḫršḫ	n. m. sg. abs. gen.	bowl for burning perfume	
 # KTU 1.105 3						
-152705	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+152705	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 152706	b	b	b	prep.	in	
 152707	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
 152708	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
@@ -21,24 +21,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152711	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
 # KTU 1.105 5						
 152712	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-152713	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-152713	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
+152713	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
 # KTU 1.105 6						
-152714	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
-152714	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-152715	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-152715	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-152715	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-152715	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-152715	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-152716	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
-152717	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-152717	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-152717	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-152718	šm	š/m	š	n. m. pl. abs. nom.	ram	
-152718	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
+152714	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+152714	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+152715	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+152715	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
+152716	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
+152717	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+152718	šm	š/m	š	n. m. pl. abs. gen.	ram	
+152718	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 # KTU 1.105 7						
-152719	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+152719	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 152720	l	l(I)	l (I)	prep.	to	
 152721	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
 152722	mlkx	?	?	?	?	DULAT: NOT FOUND
@@ -48,42 +42,40 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152723	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 152724	wš	?	?	?	?	DULAT: NOT FOUND
 152725	l	l(I)	l (I)	prep.	to	
-152726	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. gen.	lady	
+152726	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 # KTU 1.105 9						
-152727	bwtm	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
-152728	š	š/	š	n. m. sg. abs. nom.	ram	
-152729	iṯtqb	iṯtqb/	ỉṯtqb	TN sg. abs. nom.	ỉṯtqb	
+152727	bwtm	bwt(II)/m	bt (II)	n. m. pl. cstr. gen.	house	
+152728	š	š/	š	n. m. sg. cstr. gen.	ram	
+152729	iṯtqb	iṯtqb/	ỉṯtqb	TN sg. abs. gen.	ỉṯtqb	
 # KTU 1.105 10						
 152730	w	w	w	conj.	and	
 152731	š	š/	š	n. m. sg. cstr. nom.	ram	
-152732	nbkm	nb(I)&k/+m(I)	nb/pk (I)	n. m. abs. gen.	fountain	
+152732	nbkm	nbk(I)/+m(I)	nb/pk (I)	n. m. cstr. gen.	fountain	
 152732	nbkm	nbkm/	nbkm	TN sg. abs. gen.	nbkm	
 152733	w	w	w	conj.	and	
 152734	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.105 11						
 152735	gt	g(t/t	gt	n. f. sg. abs. gen.	gittu	
 152736	mlkš	?	?	?	?	DULAT: NOT FOUND
-152737	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+152737	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 # KTU 1.105 12						
 152738	l	l(I)	l (I)	prep.	to	
 152738	l	l(III)	l (III)	functor	certainly	
 152739	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
 152740	ṯnšmˤlm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 13						
-152741	tzġm	tzġ/m	tzġ	n. m. pl. abs. nom.	kind of sacrificial meat	
-152742	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-152742	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-152742	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-152743	šm	š/m	š	n. m. pl. abs. nom.	ram	
-152743	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
-152744	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
-152744	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+152741	tzġm	tzġ/m	tzġ	n. m. pl. cstr. nom.	kind of sacrificial meat	
+152742	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+152743	šm	š/m	š	n. m. pl. cstr. gen.	ram	
+152743	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
+152744	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
+152744	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
 # KTU 1.105 14						
-152745	hzp	hzp/	hzp	TN sg. abs. nom.	hzp	
+152745	hzp	hzp/	hzp	TN sg. cstr. gen.	hzp	
 # KTU 1.105 15						
-152746	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-152746	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
-152747	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.	aller de ci de là	
+152746	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
+152746	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
+152747	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
 152748	b	b	b	prep.	in	
 152749	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
 152749	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
@@ -94,12 +86,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152752	w	w	w	conj.	and	
 152753	š	š/	š	n. m. sg. abs. nom.	ram	
 152754	l	l(I)	l (I)	prep.	to	
-152755	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. gen.	lady	
-152756	bhtm	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
+152755	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
+152756	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 # KTU 1.105 17						
 152757	b	b	b	prep.	in	
-152758	arbˤt	arbˤ/	ảrbʕ	num.	four	
-152759	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+152758	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
+152759	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
 152759	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 152760	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 152760	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -108,27 +100,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152761	ˤrkm	ˤrk(II)/m	ʕrk (II)	n. m. pl. abs. gen.	loaves of bread	
 # KTU 1.105 19						
 152762	b	b	b	prep.	in	
-152763	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
-152764	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+152763	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num.	eight	
+152764	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
 152764	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 152765	yr	yr/	yr	n. m. sg. abs. gen.	early rain	
 # KTU 1.105 20						
 152766	tḥṣ	?	?	?	?	DULAT: NOT FOUND
 152767	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 152767	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-152768	brr	br/	br(r)	n. m. sg. abs. gen.	tin	
+152768	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 # KTU 1.105 21						
-152769	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-152770	tzġ	tzġ/	tzġ	n. m. sg. abs. gen.	kind of sacrificial meat	
+152769	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+152770	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
 152771	b	b	b	prep.	in	
 152772	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
 152773	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.105 22						
-152774	nskt	nsk(t/t	nskt	n. f. sg. abs. gen.	casting	
-152775	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+152774	nskt	nsk(t/t	nskt	n. f. sg. cstr. gen.	casting	
+152775	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 152776	w	w	w	conj.	and	
 152777	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
-152778	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
+152778	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 152779	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
 152780	šm	š/m	š	n. m. pl. abs. gen.	ram	
 152780	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
@@ -158,7 +150,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152796	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	superintendent	
 152796	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
 # KTU 1.105 26						
-152797	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. abs. gen.	bird	
+152797	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 152798	linš	?	?	?	?	DULAT: NOT FOUND
 152799	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 152799	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	

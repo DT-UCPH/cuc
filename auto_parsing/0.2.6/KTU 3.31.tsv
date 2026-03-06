@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.31 1						
-162032	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-162033	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+162032	mit	mi(t/t	mỉt	n. f. sg. cstr. nom.	a hundred	
+162033	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 162034	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 2						
 162035	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
@@ -9,22 +9,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162036	rqdn	rqd/+n	rqd	TN sg. cstr. gen.	rqd	
 162036	rqdn	rqdn/	rqdn	PN sg. cstr. gen.	rqdn	
 # KTU 3.31 3						
-162037	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. gen.	group of ten	
-162038	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+162037	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. gen.	group of ten	
+162038	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 162039	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 4						
 162040	śzn	z/+n	śz	PN sg. cstr. gen.	śz	
-162041	ḫbty	ḫbty/	ḫbty	GN sg. abs. gen.	ḫbty	
+162041	ḫbty	ḫbty/	ḫbty	GN sg. abs. nom.	ḫbty	
 # KTU 3.31 5						
 162042	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 162043	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 162044	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 6						
-162045	špšn	špš/	špš	n. f. sg. cstr. gen.	sun	
+162045	špšn	špš&n/	špš	n. f. sg. cstr. gen.	sun	
 162046	uškny	uškny(I)/	ủškny (I)	GN sg. cstr. gen.	ủškny (I)	
 # KTU 3.31 7						
-162047	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. gen.	group of ten	
-162048	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+162047	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. gen.	group of ten	
+162048	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 162049	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 8						
 162050	xxxn	?	?	?	?	DULAT: NOT FOUND

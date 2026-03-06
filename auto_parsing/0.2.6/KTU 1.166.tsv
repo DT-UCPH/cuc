@@ -18,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.166 7						
 155480	maḫr	(ʔ&aḫr[/	/ʔ-ḫ-r/	vb D ptcpl. m. sg. abs. nom.	generic mng to go behind > D to retain (?)	
 # KTU 1.166 8						
-155481	ṯnh	ṯn(I)/	ṯn (I)	num.	two	
+155481	ṯnh	ṯn(I)&h/	ṯn (I)	num.	two	
 155482	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 # KTU 1.166 9						
 155483	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
@@ -82,11 +82,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155515	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 155515	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.166 25						
-155516	gṯrn	gṯr/	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
-155517	ylk	hlk[	/h-l-k/	vb G prefc.	to go	
+155516	gṯrn	gṯr&n/	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+155517	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 # KTU 1.166 26						
 155518	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155519	pˤnh	pˤn/+h	pʕn	n. f. abs. gen.	foot	
+155519	pˤnh	pˤn/+h	pʕn	n. f. cstr. gen.	foot	
 # KTU 1.166 27						
 155520	w	w	w	conj.	and	
 155521	hlk	hlk[	/h-l-k/	vb G suffc. 3 m. sg.	to go	

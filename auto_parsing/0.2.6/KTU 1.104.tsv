@@ -3,9 +3,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152627	iršt	irš(t/t	ỉršt	n. f. sg. abs. nom.	request	
 # KTU 1.104 2						
 152628	d	d	d	det. or rel. functor	the one(s) of	
-152629	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-152629	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-152630	pd	pd(I)/	pd (I)	n. m. sg. abs. nom.	lock (of hair)	
+152629	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. nom.	god	
+152629	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
+152630	pd	pd(I)/	pd (I)	n. m. sg. abs. gen.	lock (of hair)	
 # KTU 1.104 3						
 152631	d	d	d	det. or rel. functor	the one(s) of	
 152632	ykl	!y!kl(y[	/k-l-y/	vb G prefc. 3 m. sg.	to finish	
@@ -16,7 +16,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152635	x	?	?	?	?	
 # KTU 1.104 5						
 152636	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-152636	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+152636	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+152636	ˤšr	ˤšr[:dt===	/ʕ-š-r/	vb D suffc. 3 f. sg.	to invite	
+152636	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+152636	ˤšr	ˤšr[:dt=	/ʕ-š-r/	vb D suffc. 2 m. sg.	to invite	
+152636	ˤšr	ˤšr[:dt==	/ʕ-š-r/	vb D suffc. 2 f. sg.	to invite	
+152636	ˤšr	ˤšr[:dt	/ʕ-š-r/	vb D suffc. 1 c. sg.	to invite	
 152636	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
 152636	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 152637		?	?	?	?	
@@ -36,7 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152646	b	b	b	prep.	in	
 # KTU 1.104 9						
 152647	w	w	w	conj.	and	
-152648	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
+152648	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 152649	k	+k	-k (I)			
 152649	k	~k	-k (II)			
 152649	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -66,15 +71,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152662	šr	šr(III)/	šr (III)	n. m. sg. abs. gen.	Prince	
 # KTU 1.104 15						
 152663	w	w	w	conj.	and	
-152664	bym	b+m(I)	b	prep.	in	
-152665	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
-152665	ˤšr	ˤšr[	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
-152665	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
-152665	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. gen.	banquet	
+152664	bym	b&y+m(I)	b	prep.	in	
+152665	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
 # KTU 1.104 16						
 152666	tpnn	!t!pnn[:w	/p-n-n/	vb G prefc. 3 m. pl.	to distort	
-152667	npṣm	npṣ/m	npṣ	n. m. pl. abs. nom.	personal belongings	
-152668	ḫmnh	ḫmn(I)/h	ḫmn (I)	n. m. sg. abs. nom.	chapel	
+152667	npṣm	npṣ/m	npṣ	n. m. pl. cstr. nom.	personal belongings	
+152668	ḫmnh	ḫmn(I)/+h	ḫmn (I)	n. m. sg. cstr. gen.	chapel	
 # KTU 1.104 17						
 152669	w	w	w	conj.	and	
 152670	tṯ	?	?	?	?	DULAT: NOT FOUND
@@ -82,8 +84,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152671	ḥdṯn	ḥdṯ(I)/+n	ḥdṯ (I)	adj. cstr. nom.	new	
 152671	ḥdṯn	ḥdṯn/	ḥdṯn	PN sg. abs. nom.	born at the time of the new moon	
 # KTU 1.104 18						
-152672	ṯnm	ṯn(I)	ṯn (I)	num.	two	
-152672	ṯnm	ṯny[~m	/ṯ-n-y/	vb G impv. 2	to repeat	
+152672	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
+152672	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G impv. 2	to repeat	
 152673	w	w	w	conj.	and	
 152674	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m. cstr. nom.	new moon	
 152674	ḥdṯh	ḥdṯ(I)/+h	ḥdṯ (I)	adj. cstr. nom.	new	
@@ -93,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 20						
 152677	w	w	w	conj.	and	
 152678	tštn	!t!št[n	/š-t/	vb G prefc.	to place	
-152679	ṯnm	ṯn(I)/	ṯn (I)	num.	two	
+152679	ṯnm	ṯn(I)&m/	ṯn (I)	num.	two	
 # KTU 1.104 21						
 152680	wm	wm	wm	conj., morph.		
 152680	wm	w+m(I)	w	conj., morph.	and	

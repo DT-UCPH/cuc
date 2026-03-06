@@ -24,19 +24,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.116 6						
 154002	kzġd	?	?	?	?	DULAT: NOT FOUND
 154003	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
-154004	ḫmnd	ḫmn(I)/+d	ḫmn (I)	n. m. abs. gen.	chapel, ?	
+154004	ḫmnd	ḫmn(I)/+d	ḫmn (I)	n. m. cstr. gen.	chapel, ?	
 # KTU 1.116 7						
 154005	xxxdnntd	?	?	?	?	DULAT: NOT FOUND
+154006	kltd	kly[+d	/k-l-y/	vb G suffc.	to finish, ?	
 154006	kltd	klt(I)/+d	klt (I)	n. f. cstr. nom.	bride, ?	
 154006	kltd	klt(II)/+d	klt (II)	n. f. cstr. nom.	measure, ?	
 # KTU 1.116 8						
-154007	nbdgd	nbdg/+d	nbdg	DN sg. abs. gen.	nbdg, ?	
+154007	nbdgd	nbdg/+d	nbdg	DN sg. cstr. nom.	nbdg, ?	
 154008	w	w	w	conj.	and	
 154009	lbbtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 9						
 154010	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
 154011	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg. abs. nom.	ṯủṯk	
-154012	tizr	ʔzr[r:pass	/ʔ-z-r/	vb Gpass prefc.	to be girded	
+154012	tizr	!t!(ʔ&izr[:pass	/ʔ-z-r/	vb Gpass prefc.	to be girded	
 154013	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.116 10						
 154014	w	w	w	conj.	and	
@@ -51,8 +52,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154020	atnṯtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 13						
 154021	ild	il(I)/+d	ỉl (I)	n. m. cstr. nom.	god, ?	
-154022	tṯbd	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
-154023	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN sg. abs. gen.	ṯủṯk, ?	
+154022	tṯbd	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+154023	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN sg. cstr. nom.	ṯủṯk, ?	
 # KTU 1.116 14						
 154024	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 154025	kzġd	?	?	?	?	DULAT: NOT FOUND
@@ -62,19 +63,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154028	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
 154029	ardnd	ardn/+d	ảrdn	PN sg. cstr. gen.	ảrdn, ?	
 # KTU 1.116 16						
-154030	in	in/	ỉn	n. m. sg. cstr. gen.	lack of	
-154031	ḫmnd	ḫmn(I)/+d	ḫmn (I)	n. m. cstr. gen.	chapel, ?	
-154032	nbdgd	nbdg/+d	nbdg	DN sg. cstr. gen.	nbdg, ?	
+154030	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
+154031	ḫmnd	ḫmn(I)/+d	ḫmn (I)	n. m. cstr. nom.	chapel, ?	
+154032	nbdgd	nbdg/+d	nbdg	DN sg. cstr. nom.	nbdg, ?	
 # KTU 1.116 17						
-154033	ˤntd	ˤn(I)&t/+d	ʕn (I)	n. f. cstr. gen.	eye, ?	
-154033	ˤntd	ˤnt(I)/+d	ʕnt (I)	DN sg. cstr. gen.	ʿAnatu/Anat, ?	
-154033	ˤntd	ˤn(II)&t/+d	ʕn (II)	n. f. cstr. gen.	furrow, ?	
-154034	ṯmgnd	ṯmg/	ṯmg	DN sg. abs. gen.	ṯmg	
+154033	ˤntd	ˤn(I)&t/+d	ʕn (I)	n. f. cstr. nom.	eye, ?	
+154033	ˤntd	ˤnt(I)/+d	ʕnt (I)	DN sg. cstr. nom.	ʿAnatu/Anat, ?	
+154033	ˤntd	ˤn(II)&t/+d	ʕn (II)	n. f. cstr. nom.	furrow, ?	
+154034	ṯmgnd	ṯmg/	ṯmg	DN sg. abs. nom.	ṯmg	
 # KTU 1.116 18						
 154035	pḏḏpḫnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 19						
 154036	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. cstr. nom.	Bien-amada	
-154037	dqtd	dqt(II)/+d	dqt (II)	n. f. abs. gen.	manufacture, ?	
+154037	dqtd	dqt(II)/+d	dqt (II)	n. f. cstr. gen.	manufacture, ?	
 # KTU 1.116 20						
 154038	ḫdnṯt	?	?	?	?	DULAT: NOT FOUND
 154039	ḫdlrṯt	?	?	?	?	DULAT: NOT FOUND
@@ -82,12 +83,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154040	išḫrd	?	?	?	?	DULAT: NOT FOUND
 154041	alnb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 22						
-154042	nkld	nkld[	/k-l-y/	vb N suffc. 3 m. sg.	to finish, ?	
+154042	nkld	]n]kld[	/k-l-y/	vb N suffc. 3 m. sg.	to finish, ?	
 154043	nntdm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 23						
+154044	kltd	kly[+d	/k-l-y/	vb G suffc.	to finish, ?	
 154044	kltd	klt(I)/+d	klt (I)	n. f. cstr. nom.	bride, ?	
 154044	kltd	klt(II)/+d	klt (II)	n. f. cstr. nom.	measure, ?	
-154045	admd	adm(I)/+d	ảdm (I)	n. m. abs. gen.	man, ?	
+154045	admd	adm(I)/+d	ảdm (I)	n. m. cstr. nom.	man, ?	
+154045	admd	(ʔ&adm[+d	/ʔ-d-m/	vb G suffc.	to be, ?	
 154046	kbbd	kbb+d	kbb	?	?, ?	
 # KTU 1.116 24						
 154047	pnġnṯtxx	?	?	?	?	DULAT: NOT FOUND

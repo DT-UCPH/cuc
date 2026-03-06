@@ -23,32 +23,40 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159771	k	k(III)	k (III)	Subordinating or completive functor	when	
 159771	k	k(I)	k (I)	prep.	like	
 159771	k	k(II)	k (II)	emph. functor	yes	
-159772	ytnt	ytnt[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+159772	ytnt	ytn[t===	/y-t-n/	vb G suffc. 3 f. sg.	to give	
+159772	ytnt	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give	
+159772	ytnt	ytn[t==	/y-t-n/	vb G suffc. 2 f. sg.	to give	
+159772	ytnt	ytn[t	/y-t-n/	vb G suffc. 1 c. sg.	to give	
 159773	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 159773	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 159773	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-159773	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+159773	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+159773	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
+159773	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+159773	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
+159773	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
+159773	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
 159773	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 159773	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
 # KTU 2.88 5						
 159774	hnd	hnd	hnd	dem.	this	
 159775	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
-159775	ˤmk	ˤm(II)/	ʕm (II)	n. m. abs. nom.	lineage	
+159775	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 159776	w	w	w	conj.	and	
-159777	bym	b+m(I)	b	prep.	in	
+159777	bym	b&y+m(I)	b	prep.	in	
 # KTU 2.88 6						
-159778	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
+159778	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 159779	ank	ank	ảnk	pers. pn.	I	
 159780	b	b	b	prep.	in	
 159781	mlwm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.88 7						
 159782	btt	?	?	?	?	DULAT: NOT FOUND
 159783	w	w	w	conj.	and	
-159784	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-159785	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. gen.	to sweep	
+159784	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+159785	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. nom.	to sweep	
 # KTU 2.88 8						
-159786	adnyh	adn(I)&y/+h	ảdn (I)	n. m. abs. gen.	lord	
-159786	adnyh	adny/	ảdny	TN sg. abs. gen.	ảdny	
+159786	adnyh	adn(I)&y/+h	ảdn (I)	n. m. cstr. nom.	lord	
+159786	adnyh	adny&h/	ảdny	TN sg. abs. nom.	ảdny	
 159787	b	b	b	prep.	in	
 159788	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
 # KTU 2.88 9						
@@ -62,13 +70,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 11						
 159795	w	w	w	conj.	and	
 159796	at	at(I)	ảt (I)	pers. pn.	you	
-159797	klklk	klkl/	klkl	n. m. sg. abs. nom.	anybody	
+159797	klklk	klkl/+k	klkl	n. m. sg. cstr. nom.	anybody	
 # KTU 2.88 12						
 159798	škn	škn[:d	/š-k-n/	vb D impv. 2	to be placed	
 159799	l	l(I)	l (I)	prep.	to	
 159799	l	l(III)	l (III)	functor	certainly	
 159800	šmk	šlm(I)/	šlm (I)	n. m. abs. nom.	peace	
-159800	šmk	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
+159800	šmk	šm(I)/+k	šm (I)	n. m. sg. cstr. nom.	name	
 # KTU 2.88 13						
 159801	w	w	w	conj.	and	
 159802	kly	kly[	/k-l-y/	vb G suffc. 3 m. sg.	to finish	
@@ -78,7 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159804	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.88 14						
 159805	p	p(I)	p (I)	conj. functor	and	
-159805	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
+159805	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 159805	p	p(II)	p (II)	adv.	here	
 159806	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 159806	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
@@ -86,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159808	w	w	w	conj.	and	
 159809	arš	arš/	ảrš	DN sg. cstr. nom.	a monster (“many-headed”, “whale”)	
 # KTU 2.88 15						
-159810	iršth	iršt/+h	ỉršt	n. f. abs. gen.	request	
+159810	iršth	iršt/+h	ỉršt	n. f. cstr. gen.	request	
 159811	tḥd	!t!ḥd(y[	/ḥ-d-y/	vb G prefc. 3 f. sg.	to see	
 159811	tḥd	!t=!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 m. sg.	to see	
 159811	tḥd	!t==!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 f. sg.	to see	
@@ -113,12 +121,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159823	šqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.88 20						
 159824	mrḥṣm	rḥṣ[/ṣm	/r-ḥ-ṣ/	vb D act. ptcpl. m. sg. abs. nom.	to wash	
+159825	bh	b&h	b	prep.	in	
 159825	bh	b+h	b	prep.	in	
 # KTU 2.88 21						
 159826	w	w	w	conj.	and	
 159827	at	at(I)	ảt (I)	pers. pn.	you	
 159828	b	b	b	prep.	in	
-159829	pk	p(III)/+k	p (III)	n. m. abs. gen.	mouth	
+159829	pk	p(III)/+k	p (III)	n. m. cstr. gen.	mouth	
 159830	al	al(I)	ảl (I)	neg. functor	no	
 159830	al	al(II)	ảl (II)	pos. functor	surely	
 # KTU 2.88 22						
@@ -130,7 +139,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 23						
 159835	w	w	w	conj.	and	
 159836	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
-159837	ilak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
+159837	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
 # KTU 2.88 24						
 159838	w	w	w	conj.	and	
 159839	išmˤ	!(ʔ&i!šmˤ[	/š-m-ʕ/	vb G prefc. 1 c. sg.	to hear	
@@ -144,24 +153,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159841	l	l(III)	l (III)	functor	certainly	
 159842	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
 # KTU 2.88 25						
-159843	bk	b	b	prep.	in	
-159844	ankm	ank	ảnk	pers. pn.	I	
-159845	ilak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
+159843	bk	b&k	b	prep.	in	
+159844	ankm	ank&m	ảnk	pers. pn.	I	
+159845	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
 # KTU 2.88 26						
 159846	w	w	w	conj.	and	
 159847	spm	sp/m	sp	n. m. pl. abs. nom.	bowl	
 159848	lh	l(I)+h	l (I)	prep.	to	
 159849	w	w	w	conj.	and	
-159850	išprm	išpr	ỉšpr		date cake	
+159850	išprm	išpr&m	ỉšpr		date cake	
 # KTU 2.88 27						
 159851	w	w	w	conj.	and	
-159852	spm	sp/m	sp	n. m. pl. abs. nom.	bowl	
-159853	ˤdbm	ˤdb[+m(I)	/ʕ-d-b/	vb G suffc.	to leave > to put in	
-159853	ˤdbm	ˤdb[+m(I)	/ʕ-d-b/	vb G impv. 2	to leave > to put in	
-159853	ˤdbm	!!ˤdb[/+m(I)	/ʕ-d-b/	vb G inf.	to leave > to put in	
-159853	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G act. ptcpl. m. sg. abs. nom.	to leave > to put in	
-159853	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G pass. ptcpl. m. sg. abs. nom.	to leave > to put in	
-159853	ˤdbm	ˤdb/+m(I)	ʕdb	adj. m. cstr. nom.	available	
+159852	spm	sp/m	sp	n. m. pl. cstr. nom.	bowl	
+159853	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G act. ptcpl. m. sg. cstr. gen.	to leave > to put in	
+159853	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G pass. ptcpl. m. sg. cstr. gen.	to leave > to put in	
 # KTU 2.88 28						
 159854	k	+k	-k (I)			
 159854	k	~k	-k (II)			
@@ -172,7 +177,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159855	l	l(II)	l (II)	adv.	no	
 159855	l	l(III)	l (III)	functor	certainly	
 159856	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
-159857	bk	b	b	prep.	in	
+159857	bk	b&k	b	prep.	in	
 159857	bk	!!bk[/	/b-k-y/	vb G inf.	to weep	
 159857	bk	bk/	bk	n. m. sg. abs. nom.	beaker	
 159858	l	l(I)	l (I)	prep.	to	
@@ -181,12 +186,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159859	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
 # KTU 2.88 29						
 159860	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-159861	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-159861	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
-159862	tlak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
+159861	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+159861	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+159862	tlak	!t!l(ʔ&ak[	/l-ʔ-k/	vb G prefc.	to send (a message)	
 # KTU 2.88 30						
 159863	w	w	w	conj.	and	
-159864	rišk	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	head	
+159864	rišk	riš(I)/+k	rỉš (I)	n. m. sg. cstr. nom.	head	
 159865	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish	
 159865	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 159865	ḫlq	ḫlq/	ḫlq	adj. m. sg. abs. nom.	ruined	
@@ -214,9 +219,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159877	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.88 34						
 159878	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-159879	ky	k(III)	k (III)	Subordinating or completive functor	when	
-159879	ky	k(II)	k (II)	emph. functor	yes	
-159879	ky	k(IV)	k (IV)	adv.	thus	
+159879	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
+159879	ky	k(II)&y	k (II)	emph. functor	yes	
+159879	ky	k(IV)&y	k (IV)	adv.	thus	
 159880	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb G impv. 2	to hurry	
 159880	ḥš	!!ḥš(I)[/	/ḥ-š/ (I)	vb G inf.	to hurry	
 159881	k	+k	-k (I)			
@@ -259,7 +264,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159902	w	w	w	conj.	and	
 159903	at	at(I)	ảt (I)	pers. pn.	you	
 159904	b	b	b	prep.	in	
-159905	pk	p(III)/+k	p (III)	n. m. abs. gen.	mouth	
+159905	pk	p(III)/+k	p (III)	n. m. cstr. gen.	mouth	
 159906	al	al(I)	ảl (I)	neg. functor	no	
 159906	al	al(II)	ảl (II)	pos. functor	surely	
 159907	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	

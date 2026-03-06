@@ -167,3 +167,5 @@ cython_debug/
 # Agent-local runtime assets copied from non-git sources
 agent/local_sources/
 agent/generated_sources/
+agent/reports/
+reports/

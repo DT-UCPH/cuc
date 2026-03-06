@@ -40,7 +40,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156328	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156328	hm	hm(I)	hm (I)	pers. pn.	they	
 156329	at	at(I)	ảt (I)	pers. pn.	you	
-156330	trgm	!t!rgm[	/r-g-m/	vb	to say	
+156330	trgm	!t!rgm[	/r-g-m/	vb prefc.	to say	
 # KTU 2.3 9						
 156331	w	w	w	conj.	and	
 156332	sip	sip	sỉp	?	?	
@@ -55,7 +55,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156339	ank	ank	ảnk	pers. pn.	I	
 156340	nˤkn	nˤkn	nʕkn	?		
 # KTU 2.3 12						
-156341	kst	ks(t/t	kst	n. f. pl. abs. nom.	Gewand	
 156341	kst	ks(t/t	kst	n. f. sg. abs. nom.	Gewand	
 156341	kst	ks(t/t=	kst	n. f. pl. abs. nom.	Gewand	
 156342	lxk	?	?	?	?	DULAT: NOT FOUND
@@ -63,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 13						
 156344	w	w	w	conj.	and	
 156345	hw	hw	hw	pers. pn.	he	
-156346	uy	u	ủ	conj.	or	
+156346	uy	u&y	ủ	conj.	or	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
@@ -102,7 +101,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156363	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156363	hm	hm(I)	hm (I)	pers. pn.	they	
 156364	at	at(I)	ảt (I)	pers. pn.	you	
-156365	trgm	!t!rgm[	/r-g-m/	vb	to say	
+156365	trgm	!t!rgm[	/r-g-m/	vb prefc.	to say	
 # KTU 2.3 19						
 156366	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
 156367	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. gen.	poplar	
@@ -122,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 21						
 156374	w	w	w	conj.	and	
 156375	mṯnnx	?	?	?	?	DULAT: NOT FOUND
-156376	ˤmnk	ˤm(I)+k	ʕm (I)	prep.	to	
+156376	ˤmnk	ˤm(I)&n+k	ʕm (I)	prep.	to	
 # KTU 2.3 22						
 156377	ištš	ištš	ỉštš	?	?	
 156378	prgmy	?	?	?	?	DULAT: NOT FOUND
@@ -131,7 +130,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156380	rxpġt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 24						
 156381	xxxxxxt	?	?	?	?	DULAT: NOT FOUND
-156382	ydˤt	ydˤt[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
+156382	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
+156382	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
+156382	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
+156382	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
 156382	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 # KTU 2.3 25						
 156383	xxxxxx	?	?	?	?	

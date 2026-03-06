@@ -5,33 +5,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158105	l	l(III)	l (III)	functor	certainly	
 158106	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 158106	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-158107	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+158107	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.42 2						
-158108	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158108	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158108	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158108	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158108	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+158108	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
+158108	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 2.42 3						
-158109	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158110	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-158110	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-158110	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-158110	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-158111	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-158112	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+158109	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+158110	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+158110	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+158111	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+158112	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.42 4						
 158113	l	l(I)	l (I)	prep.	to	
 158114	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-158115	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-158116	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. nom. sg.	distance	
+158115	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+158116	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. sg. abs. gen.	distance	
 # KTU 2.42 5						
 158117	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158118	w	w	w	conj.	and	
 158119	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 158120	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.42 6						
-158121	ankn	ank	ảnk	pers. pn.	I	
+158121	ankn	ank&n	ảnk	pers. pn.	I	
 158122	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say	
 158123	l	l(I)	l (I)	prep.	to	
 158124	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
@@ -40,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158126	l	l(I)	l (I)	prep.	to	
 158127	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 158127	špš	špš/	špš	n. f. sg. abs. gen.	sun	
-158128	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+158128	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 158129	l	l(I)	l (I)	prep.	to	
 158130	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 # KTU 2.42 8						
@@ -62,9 +57,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158139	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 158140	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. gen.	eternity	
 # KTU 2.42 10						
-158141	mlkn	mlk(I)	mlk (I)		king	
-158142	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-158143	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
+158141	mlkn	mlk(I)&n	mlk (I)		king	
+158142	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+158143	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
 # KTU 2.42 11						
 158144	yšiḫr	]š]ʔḫr[ḫr	/ʔ-ḫ-r/	vb Š prefc.	generic mng to go behind > D to retain (?)	
 158145	w	w	w	conj.	and	
@@ -78,9 +73,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158149	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.42 13						
 158150	w	w	w	conj.	and	
-158151	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-158152	mn	mn(IV)	mn (IV)	?	?	
-158152	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	
+158151	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+158152	mn	mn(III)/	mn (III)	n. m. sg. abs. gen.	mina	
 # KTU 2.42 14						
 158153	w	w	w	conj.	and	
 158154	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
@@ -93,9 +87,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158156	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
 158157	u	u	ủ	conj.	or	
 # KTU 2.42 17						
-158158	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	city	
-158159	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158159	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+158158	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. nom.	city	
+158159	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+158159	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.42 18						
 158160	w	w	w	conj.	and	
 158161	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -104,8 +98,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 158162	aḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.42 19						
+158163	bhm	b&hm	b	prep.	in	
 158163	bhm	b+hm	b	prep.	in	
-158163	bhm	b+m(I)	b	prep.	in	
+158163	bhm	b&h+m(I)	b	prep.	in	
 158164	w	w	w	conj.	and	
 158165	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158165	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -119,10 +114,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158168	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 158169	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 158170	lhm	l(I)+hm	l (I)	prep.	to	
-158171	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
-158171	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
+158171	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+158171	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 # KTU 2.42 21						
-158172	ilak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
+158172	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
 158173	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 158174	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 158174	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
@@ -142,7 +137,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.42 24						
 158184	hmt	hmt	hmt	pers. pn.		
 158185	w	w	w	conj.	and	
-158186	anyt	any(t/t	ảny(t)	n. f. pl. abs. nom.	ship	
 158186	anyt	any(t/t	ảny(t)	n. f. sg. abs. nom.	ship	
 158187	hm	hm(II)	hm (II)	conj./interr. functor	if	
 158187	hm	hm(I)	hm (I)	pers. pn.	they	
@@ -159,9 +153,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158192	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 158193	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.42 26						
-158194	mlkn	mlk(I)	mlk (I)		king	
+158194	mlkn	mlk(I)&n	mlk (I)		king	
 158195	ybqṯ	!y!bqṯ[:d	/b-q-ṯ/	vb D prefc. 3 m. sg.	to search for	
-158196	anyt	any(t/t	ảny(t)	n. f. pl. abs. nom.	ship	
 158196	anyt	any(t/t	ảny(t)	n. f. sg. abs. nom.	ship	
 158197	w	w	w	conj.	and	
 158198	at	at(I)	ảt (I)	pers. pn.	you	

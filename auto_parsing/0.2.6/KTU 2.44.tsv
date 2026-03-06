@@ -21,8 +21,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158223	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158223	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158224	lk	l(I)+k	l (I)	prep.	to	
-158225	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
-158225	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+158225	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+158225	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.44 5						
 158226	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 158227	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -49,9 +49,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158239	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 2.44 10						
 158240	hmt	hmt	hmt	pers. pn.		
-158241	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-158241	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-158241	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
 158241	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
 158241	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. nom.	Baʿlu/Baal	
 158242	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	

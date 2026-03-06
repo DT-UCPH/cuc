@@ -7,17 +7,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.64 2						
 158721	adny	adn(I)/+y	ảdn (I)	n. m. cstr. gen.	lord	
 # KTU 2.64 3						
-158722	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-158722	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+158722	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+158722	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+158722	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158722	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+158722	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.64 4						
-158723	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
-158724	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	tlmyn	
+158723	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+158724	tlmyn	tlmyn/	tlmyn	PN sg. abs. nom.	tlmyn	
 # KTU 2.64 5						
-158725	bnk	bn(I)/+k	bn (I)	n. m. abs. gen.	son	
+158725	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
 # KTU 2.64 6						
 158726	l	l(I)	l (I)	prep.	to	
 158727	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-158728	adny	adn(I)/+y	ảdn (I)	n. m. abs. gen.	lord	
+158728	adny	adn(I)/+y	ảdn (I)	n. m. cstr. gen.	lord	
 # KTU 2.64 7						
 158729	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.64 8						
@@ -28,17 +31,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158731	l	l(III)	l (III)	functor	certainly	
 158732	ybnn	ybnn/	ybnn	PN sg. cstr. nom.	ybnn	
 # KTU 2.64 10						
-158733	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-158734	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158734	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158734	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158734	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158734	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+158733	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+158734	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
+158734	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 2.64 11						
-158735	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158736	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg. abs. nom.	ʿbdỉlt	
+158735	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+158736	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg. cstr. gen.	ʿbdỉlt	
 # KTU 2.64 12						
-158737	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+158737	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.64 13						
 158738	l	l(I)	l (I)	prep.	to	
 158739	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	

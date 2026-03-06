@@ -12,28 +12,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161526	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 161526	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 161527	ḫyr	ḫyr/	ḫyr	MN sg. cstr. gen.	aller de ci de là	
-161528	bth	bt(II)/+h	bt (II)	n. m. abs. gen.	house	
+161528	bth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
 161529	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.16 4						
 161530	hmšm	?	?	?	?	DULAT: NOT FOUND
 161531	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 161532	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161533	gd	g/+d	g	n. m. abs. gen.	(loud) voice, ?	
+161533	gd	g/+d	g	n. m. cstr. gen.	(loud) voice, ?	
 161533	gd	gd(I)/	gd (I)	n. m. abs. gen.	coriander	
 161533	gd	gd(II)/	gd (II)	n. m. abs. gen.	sinew	
 # KTU 3.16 5						
 161534	y	+y, [y	-y (I)	prep. functor	my	
 161534	y	~y	-y (II)	prep. functor	indeed	
 161534	y	y	y	prep. functor	oh!	
-161535	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
-161536	ˤbdršp	ˤbdršp/	ʕbdršp	PN sg. abs. gen.	ʿbdršp	
+161535	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
+161536	ˤbdršp	ˤbdršp/	ʕbdršp	PN sg. abs. nom.	ʿbdršp	
 161537	b	b	b	prep.	in	
 # KTU 3.16 6						
-161538	arbˤt	arbˤ/	ảrbʕ	num.	four	
-161539	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
-161540	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
+161538	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
+161539	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
+161540	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	total (quantity or price)	
 # KTU 3.16 7						
-161541	arwd	arw/+d	ảrw	n. m. cstr. nom.	lion, ?	
+161541	arwd	arw/+d	ảrw	n. m. cstr. gen.	lion, ?	
 161542	šm	š/m	š	n. m. pl. abs. nom.	ram	
 161542	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 161543	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	

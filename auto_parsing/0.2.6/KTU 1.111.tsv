@@ -6,6 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153513	lmd	lmd/	lmd	adj. m. pl. cstr. nom.	trained	
 153513	lmd	lmd/	lmd	adj. m. sg. abs. nom.	trained	
 153513	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
+153513	lmd	lmd[:dt===	/l-m-d/	vb D suffc. 3 f. sg.	to teach	
 153513	lmd	lmd[:d:w	/l-m-d/	vb D suffc. 3 m. pl.	to teach	
 153513	lmd	lmd[:dt=	/l-m-d/	vb D suffc. 2 m. sg.	to teach	
 153513	lmd	lmd[:dt==	/l-m-d/	vb D suffc. 2 f. sg.	to teach	
@@ -25,16 +26,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153521	atnd	ytn[+d	/y-t-n/	vb G suffc.	to give, ?	
 # KTU 1.111 4						
 153522	ild	il(I)/+d	ỉl (I)	n. m. cstr. nom.	god, ?	
-153523	tṯbd	tṯb/	tṯb	DN sg. abs. gen.	Teṯo/Hurrian storm god	
+153523	tṯbd	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
 153524	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 5						
 153525	kḏġd	?	?	?	?	DULAT: NOT FOUND
 153526	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 153527	prznd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 6						
-153528	nkld	nkld[	/k-l-y/	vb N suffc. 3 m. sg.	to finish, ?	
-153529	šrpm	šrp/~m	šrp	n. m. abs. nom. sg.	burnt sacrifice	
-153530	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+153528	nkld	]n]kld[	/k-l-y/	vb N suffc. 3 m. sg.	to finish, ?	
+153529	šrpm	šrp/~m	šrp	n. m. sg. cstr. nom.	burnt sacrifice	
+153530	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 # KTU 1.111 7						
 153531	gdm	gd(I)/m	gd (I)	n. m. pl. abs. nom.	coriander	
 153531	gdm	gd(II)/m	gd (II)	n. m. pl. abs. nom.	sinew	
@@ -48,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153538	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 9						
 153539	ild	il(I)/+d	ỉl (I)	n. m. cstr. nom.	god, ?	
-153540	tṯbd	tṯb/	tṯb	DN sg. abs. gen.	Teṯo/Hurrian storm god	
+153540	tṯbd	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
 153541	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 10						
 153542	kḏġd	?	?	?	?	DULAT: NOT FOUND
@@ -58,12 +59,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153545	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
 153546	ardnd	ardn/+d	ảrdn	PN sg. cstr. gen.	ảrdn, ?	
 # KTU 1.111 12						
-153547	ṯmgnd	ṯmg/	ṯmg	DN sg. abs. gen.	ṯmg	
+153547	ṯmgnd	ṯmg/	ṯmg	DN sg. abs. nom.	ṯmg	
 153548	x	?	?	?	?	
 # KTU 1.111 13						
 153549	xxxx	?	?	?	?	
 # KTU 1.111 14						
-153550	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+153550	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 153551	x	?	?	?	?	
 # KTU 1.111 15						
 153552	wb	?	?	?	?	DULAT: NOT FOUND
@@ -77,7 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 17						
 153559	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 153560	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-153560	alpm	alp(II)/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
+153560	alpm	alp(II)&m/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 153561	l	l(I)	l (I)	prep.	to	
 # KTU 1.111 18						
 153562	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
@@ -85,7 +86,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153563	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 153563	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 153564	ššbˤ	?	?	?	?	DULAT: NOT FOUND
-153565	ṯat	ṯa(t/t	ṯảt	n. f. pl. abs. nom.	ewe	
 153565	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. nom.	ewe	
 153565	ṯat	ṯa(t/t=	ṯảt	n. f. pl. abs. nom.	ewe	
 153566	l	l(I)	l (I)	prep.	to	
@@ -98,18 +98,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 20						
 153571	b	b	b	prep.	in	
 153572	trḫtt	?	?	?	?	DULAT: NOT FOUND
-153573	ar	a/	ả/ỉr	n. m. sg. cstr. nom.	light	
+153573	ar	ar/	ả/ỉr	n. m. sg. cstr. nom.	light	
 # KTU 1.111 21						
 153574	š	š/	š	n. m. sg. abs. gen.	ram	
-153575	lnh	l(I)+h	l (I)	prep.	to	
+153575	lnh	l(I)+nh	l (I)	prep.	to	
 153576	w	w	w	conj.	and	
 153577	lib	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 22						
 153578	tkmml	?	?	?	?	DULAT: NOT FOUND
 153579	hy	hy	hy	pers. pn.	she	
+153580	bh	b&h	b	prep.	in	
 153580	bh	b+h	b	prep.	in	
 # KTU 1.111 23						
-153581	mth	mt(II)/+h	mt (II)	n. m. abs. gen.	death	
+153581	mth	mt(II)/+h	mt (II)	n. m. cstr. nom.	death	
 153582	l	l(I)	l (I)	prep.	to	
 153582	l	l(II)	l (II)	adv.	no	
 153582	l	l(III)	l (III)	functor	certainly	

@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156460	l	l(I)	l (I)	prep.	to	
 156460	l	l(III)	l (III)	functor	certainly	
 156461	pzry	pzry/	pzry	PN sg. cstr. nom.	pzry	
-156462	aby	ab/+y	ảb	n. m. abs. gen.	father	
+156462	aby	ab/+y	ảb	n. m. cstr. gen.	father	
 # KTU 2.6 3						
 156463	w	w	w	conj.	and	
 156464	lgpn	?	?	?	?	DULAT: NOT FOUND
@@ -20,8 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156466	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156467	lkm	l(I)+k~m	l (I)	prep.	to	
 # KTU 2.6 5						
-156468	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
-156468	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+156468	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+156468	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 156469	tġrkm	nġr[km	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.6 6						
 156470	tšlmkm	tšlmkm[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	

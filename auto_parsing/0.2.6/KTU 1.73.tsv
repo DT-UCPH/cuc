@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149791	l	l(I)	l (I)	prep.	to	
 149791	l	l(III)	l (III)	functor	certainly	
 149792	lmt	?	?	?	?	DULAT: NOT FOUND
-149793	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
+149793	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 # KTU 1.73 3						
 149794	imt	im(t/t	ỉmt	n. f. sg. abs. nom.	truth	
 149795	nqt	?	?	?	?	DULAT: NOT FOUND
@@ -57,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149820	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.73 12						
 149821	w	w	w	conj.	and	
-149822	kbdt	kbd(I)	kbd (I)		liver	
+149822	kbdt	kbd(I)&t	kbd (I)		liver	
 149823	t	/t, /t=				DULAT: NOT FOUND
 149823	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.73 13						

@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156659	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 156659	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 2.13 4						
-156660	bnk	bn(I)/+k	bn (I)	n. m. abs. gen.	son	
+156660	bnk	bn(I)/+k	bn (I)	n. m. cstr. gen.	son	
 # KTU 2.13 5						
 156661	l	l(I)	l (I)	prep.	to	
 156662	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -32,12 +32,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.13 9						
 156671	hlnky	?	?	?	?	DULAT: NOT FOUND
 156672	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
-156672	ˤmny	ˤm(I)+y	ʕm (I)	prep.	to	
+156672	ˤmny	ˤm(I)&n+y	ʕm (I)	prep.	to	
 # KTU 2.13 10						
-156673	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
-156674	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
+156673	kll	kll/	kll	n. m. sg. abs. nom.	totality	
+156674	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+156674	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
+156674	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156674	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
+156674	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+156674	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+156674	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+156674	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
+156674	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.13 11						
-156675	ṯmny	ṯm	ṯm	adv.	there	
+156675	ṯmny	ṯm&ny	ṯm	adv.	there	
 156676	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 156677	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
 # KTU 2.13 12						
@@ -45,6 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156679	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 156679	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156679	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156679	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
 156679	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 156679	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 156679	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
@@ -61,12 +70,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156682	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 156683	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.13 14						
+156684	bm	b&m	b	prep.	in	
 156684	bm	b+m(I)	b	prep.	in	
 156685	tyndr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.13 15						
 156686	iṯt	iṯt	ỉṯt	?	?	
 156687	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-156688	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
+156688	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
 # KTU 2.13 16						
 156689	w	w	w	conj.	and	
 156690	rgmy	rgm/y	rgm	n. m. pl. abs. nom.	word	

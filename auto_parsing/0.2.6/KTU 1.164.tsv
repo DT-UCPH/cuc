@@ -67,7 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155434	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 # KTU 1.164 10						
 155435	w	w	w	conj.	and	
-155436	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+155436	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 155437	b	b	b	prep.	in	
 155438	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	source	
 155438	qr	qr(II)/	qr (II)	n. m. sg. abs. gen.	noise	
@@ -83,8 +83,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155443	xxtql	?	?	?	?	DULAT: NOT FOUND
 155444	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 14						
+155445	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
+155445	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+155445	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 155445	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-155446	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	throat	
+155446	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 155447	w	w	w	conj.	and	
 155448	str	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 15						
@@ -99,7 +102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155455	axxm	?	?	?	?	DULAT: NOT FOUND
 155456	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 18						
-155457	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
+155457	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
 155457	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 155457	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 155457	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
@@ -113,6 +116,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155462	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 # KTU 1.164 20						
 155463	w	w	w	conj.	and	
-155464	ḥlt	ḥl(II)/	ḥl (II)	adj. abs. nom.	desacralised	
+155464	ḥlt	ḥl(II)/t	ḥl (II)	adj. f. sg. abs. nom.	desacralised	
 155464	ḥlt	ḥl(t(II)/t	ḥlt (II)	n. f. sg. abs. nom.	desacralisation	
 155464	ḥlt	ḥlt(I)/	ḥlt (I)	MN sg. abs. nom.	phoenix	

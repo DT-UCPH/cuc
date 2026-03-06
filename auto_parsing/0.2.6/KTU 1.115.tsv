@@ -47,27 +47,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153970	tlḥm	!t!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 3 m. du.	to eat	
 153970	tlḥm	!t!lḥm[:w	/l-ḥ-m/ (I)	vb G prefc. 3 m. pl.	to eat	
 153970	tlḥm	!t===!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 2 m. pl.	to eat	
-153971	aṯt	aṯ(t/t	ảṯt	n. f. du. abs. nom.	woman	
-153971	aṯt	aṯ(t/t	ảṯt	n. f. pl. abs. nom.	woman	
-153971	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
-153971	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
+153971	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
+153971	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
 # KTU 1.115 9						
-153972	š	š/	š	n. m. sg. abs. nom.	ram	
+153972	š	š/	š	n. m. sg. abs. gen.	ram	
 153973	lil	?	?	?	?	DULAT: NOT FOUND
 153974	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 153974	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-153975	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
-153975	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
-153975	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
+153975	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
+153975	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. gen.	communion victim / sacrifice	
+153975	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 # KTU 1.115 10						
-153976	kll	kll/	kll	n. m. sg. abs. nom.	totality	
-153977	ylḥm	ylḥm[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
+153976	kll	kll/	kll	n. m. sg. abs. gen.	totality	
+153977	ylḥm	&ylḥm[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
+153978	bh	b&h	b	prep.	in	
 153978	bh	b+h	b	prep.	in	
 # KTU 1.115 11						
 153979	w	w	w	conj.	and	
 153980	lbbt	?	?	?	?	DULAT: NOT FOUND
 153981	šqym	šqy/m	šqy	n. m. pl. cstr. nom.	cupbearer	
-153981	šqym	šq/	šq	n. m. cstr. nom.	thigh	
+153981	šqym	šqy/m	šq	n. m. pl. cstr. nom.	thigh	
 # KTU 1.115 12						
 153982	š	š/	š	n. m. sg. abs. gen.	ram	
 153983	lušḫr	?	?	?	?	DULAT: NOT FOUND

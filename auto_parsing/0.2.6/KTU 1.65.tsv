@@ -14,18 +14,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149408	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 149408	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 3						
-149409	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. abs. gen.	assembly	
-149410	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-149410	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-149410	bn	bn(II)	bn (II)	prep.	between	
-149410	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-149410	bn	bn[	/b-n/	vb G impv. 2	to understand	
-149411	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149411	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149411	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149411	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149409	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. cstr. gen.	assembly	
+149410	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+149410	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+149411	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+149411	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 4						
-149412	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. nom.	term for the kings of Ugarit	
+149412	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. gen.	term for the kings of Ugarit	
 149413	wšnm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.65 5						
 149414	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
@@ -39,35 +34,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149417	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 149417	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 7						
-149418	nṣbt	nṣb(t/t	nṣbt	n. f. sg. abs. gen.	predilection	
-149419	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149419	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149419	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149419	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149418	nṣbt	nṣb(t/t	nṣbt	n. f. sg. cstr. gen.	predilection	
+149419	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+149419	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 8						
-149420	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-149420	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-149420	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-149420	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-149420	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-149420	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-149420	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-149420	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
-149421	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149421	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149421	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149421	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149420	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	peace	
+149421	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+149421	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 9						
-149422	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149422	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149422	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149422	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-149423	ḫš	ḫš/	ḫš	DN sg. abs. nom.	le dieu qui montre la solicitude	
-149424	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149424	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149424	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149424	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-149425	add	hd/	hd(d)	DN sg. abs. nom.	Haddu/Hadad	
+149422	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+149422	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+149423	ḫš	ḫš/	ḫš	DN sg. cstr. gen.	le dieu qui montre la solicitude	
+149424	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+149424	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+149425	add	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
 # KTU 1.65 10						
 149426	bˤd	bˤd	bʕd	adv. or prep.	behind	
 149427	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -83,11 +63,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149432	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 13						
 149433	b	b	b	prep.	in	
-149434	nit	ni(t/t	nỉt	n. f. sg. abs. gen.	axe	
-149435	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149435	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149435	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149435	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149434	nit	ni(t/t	nỉt	n. f. sg. cstr. gen.	axe	
+149435	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+149435	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 14						
 149436	b	b	b	prep.	in	
 149437	ṣmd	ṣmd/	ṣmd	n. m. sg. cstr. gen.	pair	
@@ -105,11 +83,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149444	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 17						
 149445	b	b	b	prep.	in	
-149446	knt	kn(t/t	knt	n. f. sg. abs. gen.	continuity	
-149447	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149447	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149447	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149447	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149446	knt	kn(t/t	knt	n. f. sg. cstr. gen.	continuity	
+149447	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+149447	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 18						
 149448	b	b	b	prep.	in	
 149449	ġdyn	ġdyn(I)/	ġdyn (I)	n. m. sg. cstr. gen.	entretien	

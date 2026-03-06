@@ -13,9 +13,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.56 5						
 149307	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
 # KTU 1.56 6						
-149308	tˤrb	!t!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
+149308	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	to enter	
+149308	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	to enter	
+149308	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	to enter	
+149308	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 m. du.	to enter	
+149308	tˤrb	!t!ˤrb[:w	/ʕ-r-b/ (I)	vb G prefc. 3 m. pl.	to enter	
+149308	tˤrb	!t===!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. pl.	to enter	
 # KTU 1.56 7						
-149309	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
 149309	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 149309	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.56 8						

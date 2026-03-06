@@ -2,9 +2,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.7 1						
 161100	mṣry	mṣry(I)/	mṣry (I)	GN sg. abs. nom.	Egyptian	
 161101	d	d	d	det. or rel. functor	the one(s) of	
-161102	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
-161102	ˤrb	ˤrb(II)[	/ʕ-r-b/ (II)	vb G suffc. 3 m. sg.	to give a guarantee or pledge	
-161102	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
+161102	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
+161102	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	to give a guarantee or pledge	
 161103	b	b	b	prep.	in	
 161104	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	obligation	
 161104	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. gen.	obligation	
@@ -27,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161113	mḏrġl	mḏrġl/	mḏrġl	n. m. sg. cstr. gen.	watchman	
 # KTU 3.7 5						
 161114	špšyn	špšyn/	špšyn	PN sg. abs. gen.	špšyn	
-161114	špšyn	špšy/+n	špšy	PN sg. abs. gen.	špšy	
+161114	špšyn	špšy/+n	špšy	PN sg. cstr. gen.	špšy	
 161115	b	b	b	prep.	in	
 161116	ulm	ulm/	ủlm	TN sg. cstr. gen.	ủlm	
 161116	ulm	ul/+m(I)	ủl	n. m. cstr. gen.	(military) force	
@@ -43,13 +42,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161121	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161122	gdrn	gdrn/	gdrn	PN sg. abs. gen.	gdrn	
 161123	b	b	b	prep.	in	
-161124	mˤrby	mˤrb/	mʕrb(y)	TN sg. cstr. gen.	mʿrb(y)	
+161124	mˤrby	mˤrb&y/	mʕrb(y)	TN sg. cstr. gen.	mʿrb(y)	
 # KTU 3.7 8						
 161125	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161125	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161126	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161126	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-161127	dˤm	ydˤ(I)[/+m(I)	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to know	
+161127	dˤm	ydˤ(I)[/+m(I)	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. cstr. gen.	to know	
 161127	dˤm	dˤm/	dʕm	PN sg. abs. gen.	dʿm	
 161128	b	b	b	prep.	in	
 # KTU 3.7 9						
@@ -94,4 +93,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161146	nˤr	nˤr(II)/	nʕr (II)	n. m. sg. abs. gen.	roasted	
 161147	b	b	b	prep.	in	
 161148	ulm	ulm/	ủlm	TN sg. abs. gen.	ủlm	
-161148	ulm	ul/+m(I)	ủl	n. m. abs. gen.	(military) force	
+161148	ulm	ul/+m(I)	ủl	n. m. cstr. gen.	(military) force	

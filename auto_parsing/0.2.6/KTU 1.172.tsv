@@ -21,11 +21,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155806	angḥ	!(ʔ&a!ngḥ[	/n-g-ḥ/	vb N prefc. 1 c. sg.	to butt each other	
 # KTU 1.172 9						
 155807	ṭx	?	?	?	?	DULAT: NOT FOUND
-155808	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl. abs. nom.	torrent	
+155808	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl. cstr. nom.	torrent	
 # KTU 1.172 10						
-155809	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-155809	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-155809	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+155809	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+155809	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+155809	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.172 11						
 155810	x	?	?	?	?	
 155811	ḫlt	ḫlt	ḫlt	?	?	
@@ -62,11 +62,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155823		?	?	?	?	
 155824	l	l(I)	l (I)	prep.	to	
 155824	l	l(III)	l (III)	functor	certainly	
-155825	mˤt	mˤ(t/t	mʕt	n. f. pl. abs. nom.	?	
-155825	mˤt	mˤ(t/t	mʕt	n. f. sg. abs. nom.	?	
-155825	mˤt	mˤ(t/t=	mʕt	n. f. pl. abs. nom.	?	
+155825	mˤt	mˤ(t/t	mʕt	n. f. sg. cstr. nom.	?	
+155825	mˤt	mˤ(t/t=	mʕt	n. f. pl. cstr. nom.	?	
 # KTU 1.172 19						
-155826	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
+155826	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
 155827	ˤlyqm	ˤlyqm	ʕlyqm	?	?	
 # KTU 1.172 20						
 155828	xšy	?	?	?	?	DULAT: NOT FOUND
@@ -77,9 +76,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155832	ḫẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. gen.	arrow	
 155833	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 155834	b	b	b	prep.	in	
-155835	ydh	yd(I)/+h	yd (I)	n. f. abs. gen.	hand	
+155835	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	
 # KTU 1.172 22						
-155836	nh	n(I)	-n (I)	morph.	Sun	
+155836	nh	n(I)&h	-n (I)	morph.	Sun	
 155837	w	w	w	conj.	and	
 155838	lyamr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 23						
@@ -97,12 +96,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155846	l	l(III)	l (III)	functor	certainly	
 155847	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. nom.	wind	
 # KTU 1.172 27						
-155848	dy	d	d	det. or rel. functor	the one(s) of	
+155848	dy	d&y	d	det. or rel. functor	the one(s) of	
 155849	w	w	w	conj.	and	
 155850	mrḫt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 28						
 155851	ḥmṯ	ḥmṯ/	ḥmṯ	n. m. sg. abs. nom.	belly	
 # KTU 1.172 29						
+155852	bm	b&m	b	prep.	in	
 155852	bm	b+m(I)	b	prep.	in	
 # KTU 1.172 30						
 155853		?	?	?	?	

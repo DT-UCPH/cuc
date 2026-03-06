@@ -2,7 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 1						
 154650	b	b	b	prep.	in	
 154651	tšˤ	tšˤ/	tšʕ	num.	nine	
-154652	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
+154652	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
 154652	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 154652	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 154652	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
@@ -13,7 +13,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154653	trbd	!t!rbd[	/r-b-d/	vb G prefc. 3 m. du.	to (be) prepare(d)	
 154653	trbd	!t!rbd[:w	/r-b-d/	vb G prefc. 3 m. pl.	to (be) prepare(d)	
 154653	trbd	!t===!rbd[	/r-b-d/	vb G prefc. 2 m. pl.	to (be) prepare(d)	
-154653	trbd	!t!](n]rbd[	/r-b-d/	vb N prefc.	to (be) prepare(d)	
+154653	trbd	!t!(]n]rbd[	/r-b-d/	vb N prefc. 3 f. sg.	to (be) prepare(d)	
+154653	trbd	!t=!(]n]rbd[	/r-b-d/	vb N prefc. 2 m. sg.	to (be) prepare(d)	
+154653	trbd	!t==!(]n]rbd[	/r-b-d/	vb N prefc. 2 f. sg.	to (be) prepare(d)	
+154653	trbd	!t!(]n]rbd[	/r-b-d/	vb N prefc. 3 m. du.	to (be) prepare(d)	
+154653	trbd	!t!(]n]rbd[:w	/r-b-d/	vb N prefc. 3 m. pl.	to (be) prepare(d)	
+154653	trbd	!t===!(]n]rbd[	/r-b-d/	vb N prefc. 2 m. pl.	to (be) prepare(d)	
 154654	ˤrš	ˤrš/	ʕrš	n. f. sg. cstr. nom.	bed	
 154655	pd	pd(I)/	pd (I)	n. m. sg. abs. gen.	lock (of hair)	
 # KTU 1.132 3						
@@ -28,20 +33,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154661	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 154662	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.132 5						
-154663	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-154663	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-154663	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-154664	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
-154665	š	š/	š	n. m. sg. abs. nom.	ram	
+154663	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
+154663	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
+154664	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. cstr. gen.	Bien-amada	
+154665	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.132 6						
-154666	šbrd	šbr/+d	šbr	n. m. cstr. nom.	stick, ?	
-154667	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+154666	šbrd	šbr/+d	šbr	n. m. cstr. gen.	stick, ?	
 154667	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 154667	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 # KTU 1.132 7						
 154668	dqtd	dqt(I)/+d	dqt (I)	adj. f. cstr. nom.	small, ?	
 154668	dqtd	dqt(II)/+d	dqt (II)	n. f. cstr. nom.	manufacture, ?	
-154669	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 154669	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 154669	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 # KTU 1.132 8						
@@ -50,32 +52,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154672	dqtt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.132 9						
 154673	ḫnnġd	ḫnnġ/	ḫnnġ	DN sg. abs. nom.	ḫnnġ	
-154674	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
-154675	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
+154674	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 154675	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 154675	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 10						
 154676	nbdgd	nbdg/+d	nbdg	DN sg. cstr. nom.	nbdg, ?	
-154677	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
 154677	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 154677	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 11						
 154678	tgnd	tgn/+d	tgn	PN sg. cstr. nom.	tgn, ?	
-154679	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
 154679	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 154679	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 12						
 154680	kldnd	kld(II)/	kld (II)	DN sg. abs. nom.	Health	
-154681	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
 154681	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 154681	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 13						
-154682	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-154683	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-154684	šm	š/m	š	n. m. pl. cstr. gen.	ram	
-154684	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
+154682	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+154683	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+154683	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+154683	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+154684	šm	š/m	š	n. m. pl. abs. nom.	ram	
+154684	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.132 14						
-154685	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. abs. gen.	Bien-amada	
+154685	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
 154686	w	w	w	conj.	and	
 154687	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.132 15						
@@ -92,23 +92,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 18						
 154695	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 154696	ṯlnd	?	?	?	?	DULAT: NOT FOUND
-154697	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-154697	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-154697	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+154697	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
+154697	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
 # KTU 1.132 19						
-154698	alnd	aln(II)/	ảln (II)	DN sg. abs. nom.	the Lady	
-154699	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-154699	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-154699	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+154698	alnd	aln(II)/	ảln (II)	DN sg. cstr. gen.	the Lady	
+154699	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+154699	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 # KTU 1.132 20						
-154700	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
-154701	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-154701	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-154701	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+154700	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. cstr. gen.	Bien-amada	
+154701	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+154701	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 # KTU 1.132 21						
-154702	inš	inš/	ỉnš	n. m. sg. abs. nom.	people	
-154703	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-154703	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+154702	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
+154703	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
+154703	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 154704	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.132 22						
 154705	b	b	b	prep.	in	
@@ -128,7 +125,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 25						
 154715	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
 154716	ll	ll(I)/	ll (I)	n. m. sg. abs. gen.	night	
-154717	tnˤr	!t!nˤr[	/n-ʕ-r/	vb G prefc.	to shake	
+154717	tnˤr	!t!nˤr[	/n-ʕ-r/	vb G prefc. 3 f. sg.	to shake	
+154717	tnˤr	!t=!nˤr[	/n-ʕ-r/	vb G prefc. 2 m. sg.	to shake	
+154717	tnˤr	!t==!nˤr[	/n-ʕ-r/	vb G prefc. 2 f. sg.	to shake	
+154717	tnˤr	!t!nˤr[	/n-ʕ-r/	vb G prefc. 3 m. du.	to shake	
+154717	tnˤr	!t!nˤr[:w	/n-ʕ-r/	vb G prefc. 3 m. pl.	to shake	
+154717	tnˤr	!t===!nˤr[	/n-ʕ-r/	vb G prefc. 2 m. pl.	to shake	
 # KTU 1.132 26						
 154718	ˤrš	ˤrš/	ʕrš	n. f. sg. cstr. nom.	bed	
 # KTU 1.132 27						

@@ -40,10 +40,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160768	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 160768	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 # KTU 3.1 12						
-160769	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+160769	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 160770	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 160770	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 160770	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+160770	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
 160770	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 160770	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 160770	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
@@ -55,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160772	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 160773	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 160773	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-160774	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+160774	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 160775		?	?	?	?	
 # KTU 3.1 14						
 160776	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
@@ -87,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160791	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
 # KTU 3.1 18						
 160792	hlny	hlny	hlny	deictic adv. functor	behold	
-160793	argmn	!(ʔ&a!rgm[n	/r-g-m/	vb	to say	
+160793	argmn	argmn[	/r-g-m/	vb suffc. 3 m. sg.	to say	
 160793	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. nom.	payment of tribute to the Hittite court	
 160794	dybl	?	?	?	?	DULAT: NOT FOUND
 160795	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
@@ -110,12 +111,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.1 21						
 160808	w	w	w	conj.	and	
 160809	arbˤ	arbˤ/	ảrbʕ	num.	four	
-160810	ktnt	ktn(I)/t=	ktn (I)	n. f. pl. abs. nom.	shirt-like tunic	
-160811	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. nom.	shirt-like tunic	
-160812	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-160812	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-160812	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-160812	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+160810	ktnt	ktn(I)/t=	ktn (I)	n. f. pl. cstr. nom.	shirt-like tunic	
+160811	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
+160812	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
+160812	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
 # KTU 3.1 22						
 160813	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 160814	mat	mit/	mỉt	n. f. pl. cstr. nom.	a hundred	
@@ -142,7 +141,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160827	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 160828	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 160828	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-160829	bˤlh	bˤl(II)/h	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+160829	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 3.1 27						
 160830	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
 160830	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
@@ -154,17 +153,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160835	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
 160836	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
 160837	l	l(I)	l (I)	prep.	to	
-160838	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
+160838	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
 # KTU 3.1 29						
-160839	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
-160839	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
-160840	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
-160841	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. nom.	shirt-like tunic	
-160842	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-160843	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
+160839	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
+160839	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
+160840	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. gen.	gold	
+160841	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
+160842	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160843	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 30						
-160844	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-160845	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
+160844	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160845	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. gen.	gem of lapis lazuli	
 160846	l	l(I)	l (I)	prep.	to	
 160846	l	l(III)	l (III)	functor	certainly	
 160847	uṯryn	uṯryn/	ủṯryn	n. m. sg. cstr. nom.	crown prince	
@@ -173,33 +172,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160848	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
 160849	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 160850	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
-160851	mit	mi(t/t	mỉt	n. f. sg. abs. gen.	a hundred	
-160852	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
+160851	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160852	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 32						
-160853	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-160854	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
+160853	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160854	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. gen.	gem of lapis lazuli	
 160855	ltpnr	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.1 33						
 160856	ks	ks(I)/	ks (I)	n. m. sg. cstr. nom.	cup	
 160856	ks	ks/	ks/śm(n)	n. m. pl. cstr. nom.	emmer-corn	
 160857	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 160858	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
-160859	mit	mi(t/t	mỉt	n. f. sg. abs. gen.	a hundred	
-160860	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
+160859	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160860	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 34						
-160861	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-160862	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
+160861	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160862	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. gen.	gem of lapis lazuli	
 160863	lḫbrtnr	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.1 35						
 160864	ks	ks(I)/	ks (I)	n. m. sg. cstr. nom.	cup	
 160864	ks	ks/	ks/śm(n)	n. m. pl. cstr. nom.	emmer-corn	
 160865	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 160866	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
-160867	mit	mi(t/t	mỉt	n. f. sg. abs. gen.	a hundred	
-160868	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
+160867	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160868	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 36						
-160869	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-160870	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
+160869	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160870	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. gen.	gem of lapis lazuli	
 160871	l	l(I)	l (I)	prep.	to	
 160871	l	l(III)	l (III)	functor	certainly	
 160872	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. cstr. nom.	chief steward	
@@ -209,11 +208,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160874	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
 160875	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 160876	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
-160877	mit	mi(t/t	mỉt	n. f. sg. abs. gen.	a hundred	
-160878	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
+160877	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160878	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 38						
-160879	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-160880	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
+160879	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160880	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. gen.	gem of lapis lazuli	
 160881	l	l(I)	l (I)	prep.	to	
 160881	l	l(III)	l (III)	functor	certainly	
 160882	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
@@ -223,8 +222,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160884	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 160884	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 3.1 39						
-160885	mit	mi(t/t	mỉt	n. f. sg. abs. gen.	a hundred	
-160886	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
+160885	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+160886	pḥm	pḥm/	pḥm	n. m. sg. abs. gen.	ember	
 160887	l	l(I)	l (I)	prep.	to	
 160887	l	l(III)	l (III)	functor	certainly	
 160888	škl	škl/	škl	n. m. sg. abs. nom.	minister	

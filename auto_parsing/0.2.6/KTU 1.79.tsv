@@ -1,11 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.79 1						
 149898	xxxb	?	?	?	?	DULAT: NOT FOUND
-149899	gt	g(t/t	gt	n. f. sg. abs. nom.	gittu	
-149900	nṯṯ	nṯṯ/	nṯṯ	TN sg. abs. nom.	nṯṯ	
+149899	gt	g(t/t	gt	n. f. sg. cstr. nom.	gittu	
+149900	nṯṯ	nṯṯ/	nṯṯ	TN sg. abs. gen.	nṯṯ	
 # KTU 1.79 2						
 149901	xxxx	?	?	?	?	
-149902	šh	š/	š	n. m. sg. abs. nom.	ram	
+149902	šh	š/+h	š	n. m. sg. cstr. nom.	ram	
 149903	wl	?	?	?	?	DULAT: NOT FOUND
 149904	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 149904	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. gen.	servant	
 149906	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. gen.	servant	
 149907	ulm	ulm/	ủlm	TN sg. abs. gen.	ủlm	
-149907	ulm	ul/+m(I)	ủl	n. m. abs. gen.	(military) force	
+149907	ulm	ul/+m(I)	ủl	n. m. cstr. gen.	(military) force	
 149908	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 149909	un	un/	ủn	n. m. sg. cstr. nom.	grief	
 149910	ḫsn	ḫsn(II)/	ḫsn (II)	PN sg. cstr. gen.	ḫsn (II)	
@@ -23,23 +23,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149912	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 149912	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
 149913	ṣtqn	ṣdqn/	ṣdqn	PN sg. cstr. nom.	ṣdqn	
-149914	gt	g(t/t	gt	n. f. sg. abs. gen.	gittu	
-149915	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-149915	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-149915	bn	bn(II)	bn (II)	prep.	between	
-149915	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-149915	bn	bn[	/b-n/	vb G impv. 2	to understand	
-149916	ndk	nd[+k	/n-d(-y)/	vb G suffc.	to throw	
-149916	ndk	ndk/	ndk	PN sg. abs. nom.	ndk	
+149914	gt	g(t/t	gt	n. f. sg. cstr. gen.	gittu	
+149915	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+149915	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+149916	ndk	ndk/	ndk	PN sg. abs. gen.	ndk	
 # KTU 1.79 5						
 149917	u	u	ủ	conj.	or	
 149918	mru	mru(III)/	mrủ (III)	n. m. pl. cstr. nom.	chief groom	
 149918	mru	mru(III)/	mrủ (III)	n. m. sg. abs. nom.	chief groom	
 149919	xx	?	?	?	?	
-149920	gt	g(t/t	gt	n. f. sg. abs. nom.	gittu	
-149921	nṯṯ	nṯṯ/	nṯṯ	TN sg. abs. nom.	nṯṯ	
-149922	ḫsn	ḫsn(II)/	ḫsn (II)	PN sg. abs. nom.	ḫsn (II)	
-149923	lytn	lyt/+n	lyt	n. f. cstr. nom.	retinue	
+149920	gt	g(t/t	gt	n. f. sg. cstr. nom.	gittu	
+149921	nṯṯ	nṯṯ/	nṯṯ	TN sg. cstr. gen.	nṯṯ	
+149922	ḫsn	ḫsn(II)/	ḫsn (II)	PN sg. cstr. gen.	ḫsn (II)	
+149923	lytn	lyt/+n	lyt	n. f. cstr. gen.	retinue	
 # KTU 1.79 6						
 149924	l	l(I)	l (I)	prep.	to	
 149924	l	l(III)	l (III)	functor	certainly	
@@ -53,14 +49,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149929	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 149930	qbṣ	qbṣ/	qbṣ	n. m. sg. abs. gen.	clan	
 149931	ub	?	?	?	?	DULAT: NOT FOUND
-149932	gt	g(t/t	gt	n. f. sg. abs. nom.	gittu	
-149933	ilštmˤ	ilštmˤ/	ỉlštmʕ	TN sg. abs. nom.	1957.4	
-149934	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-149934	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-149934	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-149934	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-149934	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
-149935	ṣtqn	ṣdqn/	ṣdqn	PN sg. abs. nom.	ṣdqn	
+149932	gt	g(t/t	gt	n. f. sg. cstr. nom.	gittu	
+149933	ilštmˤ	ilštmˤ/	ỉlštmʕ	TN sg. cstr. gen.	1957.4	
+149934	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. gen.	sacrifice	
+149934	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
+149934	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
+149935	ṣtqn	ṣdqn/	ṣdqn	PN sg. abs. gen.	ṣdqn	
 # KTU 1.79 8						
 149936	l	l(I)	l (I)	prep.	to	
 # KTU 1.79 9						

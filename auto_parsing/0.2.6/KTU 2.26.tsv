@@ -11,8 +11,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157139	l	l(III)	l (III)	functor	certainly	
 157140	ḥyil	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.26 4						
-157141	lm	l(I)	l (I)	prep.	to	
-157142	tlik	lʔk[k:d	/l-ʔ-k/	vb D prefc.	to send (a message)	
+157141	lm	l(I)&m	l (I)	prep.	to	
+157142	tlik	!t!l(ʔ&ik[:d	/l-ʔ-k/	vb D prefc.	to send (a message)	
 157143	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.26 5						
 157144	iky	iky	ỉky	interr. functor	what of?	
@@ -35,19 +35,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157154	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.26 9						
 157155	arbˤ	arbˤ/	ảrbʕ	num.	four	
-157156	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
+157156	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. cstr. nom.	tree	
 # KTU 2.26 10						
-157157	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-157157	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-157157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-157157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-157158	ar	a/	ả/ỉr	n. m. sg. abs. nom.	light	
+157157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+157158	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	
 # KTU 2.26 11						
 157159	w	w	w	conj.	and	
 157160	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
 # KTU 2.26 12						
 157161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-157162	ubrˤy	ubrˤ/	ủbrʕ(y)	TN sg. abs. gen.	ủbrʿ(y)	
+157162	ubrˤy	ubrˤ&y/	ủbrʕ(y)	TN sg. abs. gen.	ủbrʿ(y)	
 157162	ubrˤy	ubrˤy/	ủbrʕy	GN sg. abs. gen.	ủbrʿy	
 # KTU 2.26 13						
 157163	w	w	w	conj.	and	
@@ -70,14 +67,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157172	l	l(III)	l (III)	functor	certainly	
 157173	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
 # KTU 2.26 18						
-157174	tspr	!t!spr[	/s-p-r/	vb	to count	
+157174	tspr	!t!spr[	/s-p-r/	vb prefc.	to count	
 # KTU 2.26 19						
 157175	nrn	nr/+n	nr	n. m. cstr. nom.	sheen	
 157175	nrn	nr[+n	/n-r/	vb G suffc.	to shine	
 157175	nrn	nrn/	nrn	PN sg. abs. nom.	nrn	
 157176	al	al(I)	ảl (I)	neg. functor	no	
 157176	al	al(II)	ảl (II)	pos. functor	surely	
-157177	tud	ʔd[d	/ʔ-d/	vb G prefc.	general commercial mng to overcharge	
+157177	tud	!t!(ʔ&ud[	/ʔ-d/	vb G prefc.	general commercial mng to overcharge	
 # KTU 2.26 20						
 157178	ad	ad/	ảd	n. m. sg. abs. nom.	father	
 157179	at	at(I)	ảt (I)	pers. pn.	you	

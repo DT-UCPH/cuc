@@ -10,11 +10,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.24 3						
 161799	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 161799	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-161800	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+161800	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 # KTU 3.24 4						
-161801	šd	šd(I)/	šd (I)	n. m. sg. cstr. gen.	open field	
-161801	šd	šd(II)/	šd (II)	n. m. sg. cstr. gen.	a strip	
-161802	admn	admn	ảdmn	n. abs. gen.	red (soil)	
+161801	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
+161801	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
+161801	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
+161801	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
+161802	admn	admn	ảdmn	n. abs. nom.	red (soil)	
+161802	admn	adm(I)/+n	ảdm (I)	vb G suffc. 3 m. sg.	man	
+161802	admn	(ʔ&adm[+n	/ʔ-d-m/		to be	
 # KTU 3.24 5						
 161803	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	one	
 161803	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	

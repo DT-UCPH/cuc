@@ -11,24 +11,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156702	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to build	
 156702	bny	bny/	bny	n. m. sg. cstr. nom.	architect	
 156703	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
-156704	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-156704	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+156704	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+156704	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+156704	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+156704	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+156704	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.14 4						
-156705	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
-156705	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+156705	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+156705	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 156706	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.14 5						
 156707	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.14 6						
 156708	iky	iky	ỉky	interr. functor	what of?	
-156709	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
+156709	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
 # KTU 2.14 7						
-156710	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-156710	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
-156710	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-156710	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-156710	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-156710	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+156710	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	tablet / register	
+156710	spr	spr(I)/	spr (I)	n. m. sg. abs. gen.	scribe	
 156711	d	d	d	det. or rel. functor	the one(s) of	
 156712	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.14 8						
@@ -36,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156714	tryl	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.14 9						
 156715	mhy	mh/+y	mh/y	n. m. cstr. nom.	water	Based on DULAT reconstruction.
-156715	mhy	m+y	m(h)	pers. pn.	what?	Based on DULAT reconstruction.
+156715	mhy	m&h+y	m(h)	pers. pn.	what?	Based on DULAT reconstruction.
 156715	mhy	mhy	mhy	→	?	
 156716	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say	
 # KTU 2.14 10						
@@ -44,10 +43,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156718	ht	ht	ht	adv.	here	
 156719	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 # KTU 2.14 11						
-156720	bny	bn(I)/+y	bn (I)	n. m. abs. gen.	son	
-156720	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. abs. gen.	to build	
-156720	bny	bny/	bny	n. m. sg. abs. gen.	architect	
-156721	yšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
+156720	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
+156720	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. abs. nom.	to build	
+156720	bny	bny/	bny	n. m. sg. abs. nom.	architect	
+156721	yšal	!y!š(ʔ&al[	/š-ʔ-l/	vb G prefc. 3 m. sg.	to ask	
 # KTU 2.14 12						
 156722	ṯryl	ṯryl/	ṯryl	PN sg. cstr. nom.	ṯryl	
 156723	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
@@ -67,10 +66,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156731	ht	ht	ht	adv.	here	
 156732	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 # KTU 2.14 16						
-156733	bny	bn(I)/+y	bn (I)	n. m. abs. gen.	son	
-156733	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. abs. gen.	to build	
-156733	bny	bny/	bny	n. m. sg. abs. gen.	architect	
-156734	yšal	šʔl[l	/š-ʔ-l/	vb G prefc.	to ask	
+156733	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
+156733	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. abs. nom.	to build	
+156733	bny	bny/	bny	n. m. sg. abs. nom.	architect	
+156734	yšal	!y!š(ʔ&al[	/š-ʔ-l/	vb G prefc. 3 m. sg.	to ask	
 # KTU 2.14 17						
 156735	ṯryl	ṯryl/	ṯryl	PN sg. abs. nom.	ṯryl	
 156736	w	w	w	conj.	and	

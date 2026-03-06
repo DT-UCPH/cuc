@@ -29,18 +29,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160593	x	?	?	?	?	
 160594	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
 160594	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
-160595	šthm	št(II)/+hm	št (II)	n. f. abs. gen.	raíz	
-160595	šthm	št(I)/+hm	št (I)	n. m. abs. gen.	base	
+160595	šthm	št(II)/+hm	št (II)	n. f. cstr. gen.	raíz	
+160595	šthm	št(I)/+hm	št (I)	n. m. cstr. gen.	base	
 # KTU 2.107 10						
 160596	šṣu	?	?	?	?	DULAT: NOT FOUND
 160597	ṯh	ṯh/	ṯh	n. m. sg. cstr. nom.	neighbour	
-160598	ˤmk	ˤm(II)/	ʕm (II)	n. m. cstr. gen.	lineage	
+160598	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. cstr. gen.	lineage	
 # KTU 2.107 11						
 160599		?	?	?	?	
-160600	lbk	lb/	lb	n. m. sg. cstr. gen.	heart	
+160600	lbk	lb/+k	lb	n. m. sg. cstr. gen.	heart	
 # KTU 2.107 12						
-160601	š	š/	š	n. m. sg. cstr. gen.	ram	
-160602	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+160601	š	š/	š	n. m. sg. abs. nom.	ram	
+160602	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 2.107 13						
 160603		?	?	?	?	
 160604	grgš	?	?	?	?	DULAT: NOT FOUND
@@ -56,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.107 17						
 160608	hm	hm(II)	hm (II)	conj./interr. functor	if	
 160608	hm	hm(I)	hm (I)	pers. pn.	they	
-160609	ˤmk	ˤm(II)/	ʕm (II)	n. m. cstr. nom.	lineage	
+160609	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. cstr. nom.	lineage	
 # KTU 2.107 18						
 160610	pr	pr(II)/	pr (II)	n. m. sg. abs. gen.	young bull	
 160610	pr	pr(I)/	pr (I)	n. m. sg. abs. gen.	fruit	
@@ -73,7 +73,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160615	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 160615	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.107 21						
-160616	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc.	to hear	
+160616	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc. 3 f. sg.	to hear	
+160616	tšmˤ	!t=!šmˤ[	/š-m-ʕ/	vb G prefc. 2 m. sg.	to hear	
+160616	tšmˤ	!t==!šmˤ[	/š-m-ʕ/	vb G prefc. 2 f. sg.	to hear	
+160616	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc. 3 m. du.	to hear	
+160616	tšmˤ	!t!šmˤ[:w	/š-m-ʕ/	vb G prefc. 3 m. pl.	to hear	
+160616	tšmˤ	!t===!šmˤ[	/š-m-ʕ/	vb G prefc. 2 m. pl.	to hear	
 # KTU 2.107 22						
 160617	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. cstr. nom.	message	
 # KTU 2.107 23						

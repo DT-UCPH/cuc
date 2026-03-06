@@ -4,14 +4,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151626	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 151627	b	b	b	prep.	in	
 151628	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-151628	aph	ap(II)/+h	ảp (II)	n. m. abs. gen.	nose	
+151628	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.97 2						
 151629	k	k(III)	k (III)	Subordinating or completive functor	when	
-151630	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
-151630	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
+151630	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
+151630	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
 151631	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. nom.	grain	
-151632	śśw	ss/	s:śs/św	n. f. pl. abs. gen.	horse	
-151632	śśw	ss/	s:śs/św	n. f. sg. abs. gen.	horse	
+151632	śśw	śśw/	s:śs/św	n. f. pl. abs. gen.	horse	
+151632	śśw	śśw/	s:śs/św	n. f. sg. abs. gen.	horse	
 151633	xxxxx	?	?	?	?	
 # KTU 1.97 3						
 151634	w	w	w	conj.	and	
@@ -23,19 +23,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.97 4						
 151639	arġn	?	?	?	?	DULAT: NOT FOUND
 151640	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. nom.	donkey	
-151641	tdk	ydy(I)[/+k	/y-d-y/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to throw	
+151641	tdk	ydy(I)[/+k	/y-d-y/ (I)	vb G act. ptcpl. m. sg. cstr. gen.	to throw	
 151642	xxxx	?	?	?	?	
 # KTU 1.97 5						
 151643	w	w	w	conj.	and	
 151644	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 151645	b	b	b	prep.	in	
 151646	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-151646	aph	ap(II)/+h	ảp (II)	n. m. abs. gen.	nose	
+151646	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.97 6						
 151647	k	k(III)	k (III)	Subordinating or completive functor	when	
-151648	yraš	rʔš[š	/r-ʔ-š/	vb G prefc.	to toss the head	
-151649	śśw	ss/	s:śs/św	n. f. pl. cstr. nom.	horse	
-151649	śśw	ss/	s:śs/św	n. f. sg. abs. nom.	horse	
+151648	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
+151649	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
+151649	śśw	śśw/	s:śs/św	n. f. sg. abs. nom.	horse	
 151650	xxxxxxx	?	?	?	?	
 # KTU 1.97 7						
 151651	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
@@ -47,11 +47,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151652	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 151653	b	b	b	prep.	in	
 151654	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-151654	aph	ap(II)/+h	ảp (II)	n. m. abs. gen.	nose	
+151654	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.97 8						
 151655	xxxkṣ	?	?	?	?	DULAT: NOT FOUND
-151656	śśw	ss/	s:śs/św	n. f. pl. cstr. nom.	horse	
-151656	śśw	ss/	s:śs/św	n. f. sg. abs. nom.	horse	
+151656	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
+151656	śśw	śśw/	s:śs/św	n. f. sg. abs. nom.	horse	
 151657	xxxxx	?	?	?	?	
 # KTU 1.97 9						
 151658	xxxxx	?	?	?	?	
@@ -61,13 +61,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.97 11						
 151661	k	k(III)	k (III)	Subordinating or completive functor	when	
 151662	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach	
-151663	śśw	ss/	s:śs/św	n. f. pl. cstr. nom.	horse	
-151663	śśw	ss/	s:śs/św	n. f. sg. cstr. nom.	horse	
+151663	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
+151663	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
 # KTU 1.97 12						
 151664	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
 151664	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
 151665	ˤṯrb	ˤṯrb/	ʕṯrb	n. m. sg. cstr. gen.	arbrisseau semblable au grenadier	
-151666	drˤ	d/	d/ḏrʕ	n. m. sg. abs. gen.	seed	
+151666	drˤ	drˤ/	d/ḏrʕ	n. m. sg. abs. gen.	seed	
 151667	xxxxxx	?	?	?	?	
 # KTU 1.97 13						
 151668	w	w	w	conj.	and	

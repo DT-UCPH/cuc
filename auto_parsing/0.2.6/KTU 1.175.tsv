@@ -5,18 +5,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155931	mru	mru(III)/	mrủ (III)	n. m. pl. cstr. gen.	chief groom	
 155931	mru	mru(III)/	mrủ (III)	n. m. sg. cstr. gen.	chief groom	
 # KTU 1.175 2						
-155932	mrrt	mrr(t(I)/t	mrrt (I)	n. f. sg. abs. gen.	bile	
-155933	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-155933	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-155933	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+155932	mrrt	mrr(t(I)/t	mrrt (I)	n. f. sg. cstr. gen.	bile	
+155933	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
+155933	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 155934	ti	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.175 3						
 155935	b	b	b	prep.	in	
 155936	d	d	d	det. or rel. functor	the one(s) of	
-155937	kr	kr[	/k-r/	vb	to be hot	
+155937	kr	kr[	/k-r/	vb suffc. 3 m. sg.	to be hot	
 155938	w	w	w	conj.	and	
-155939	tasp	ʔsp[p	/ʔ-s-p/	vb G prefc.	to gather	
-155939	tasp	ʔsp[p:d	/ʔ-s-p/	vb D prefc.	to gather	
+155939	tasp	!t!(ʔ&asp[	/ʔ-s-p/	vb G prefc.	to gather	
+155939	tasp	!t!(ʔ&asp[:d	/ʔ-s-p/	vb D prefc.	to gather	
 155940	naṯt	naṯt	nảṯt	?		
 # KTU 1.175 4						
 155941	ṯrn	ṯrn(I)	ṯrn (I)			
@@ -30,19 +29,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 6						
 155947	w	w	w	conj.	and	
 155948	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	
-155948	ḥmṣ	ḥmṣ[	/ḥ-m-ṣ/	vb	to be(come) sour	
+155948	ḥmṣ	ḥmṣ[	/ḥ-m-ṣ/	vb suffc. 3 m. sg.	to be(come) sour	
 155949	w	w	w	conj.	and	
 155950	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. nom.	salt	
 # KTU 1.175 7						
 155951	yḥrkn	!y!ḥrk[n	/ḥ-r-k/	vb G prefc. 3 m. sg.	to burn	
-155951	yḥrkn	yḥrkn[	/ḥ-r-k/	vb G suffc. 3 m. sg.	to burn	
 155952	w	w	w	conj.	and	
 155953	yšḥmm	!y!]š]ḥmm[	/ḥ-m-m/	vb Š prefc. 3 m. sg.	to heat up	
 # KTU 1.175 8						
 155954	t	/t, /t=				DULAT: NOT FOUND
 155954	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 155955	w	w	w	conj.	and	
-155956	byn	b+n	b	prep.	in	
+155956	byn	b&y+n	b	prep.	in	
 155956	byn	byn/	byn	PN sg. abs. nom.	byn	
 155957	tṯibṯn	]š]ʔbṯ[bṯn	/ʔ-b-ṯ/	vb Š	?	
 155958	k	+k	-k (I)			
@@ -71,7 +69,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155969	bṯn	bṯn/	bṯn	n. m. sg. abs. gen.	serpent	
 # KTU 1.175 12						
 155970	dk	d+k	d	det. or rel. functor	the one(s) of	
-155971	yḥdh	yḥdh	yḥdh	adv.	together	
+155971	yḥdh	yḥd+h	yḥdh	adv.	together	
 155972	w	w	w	conj.	and	
 155973	šgbˤll	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.175 13						
@@ -83,35 +81,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155977	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 155977	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
 155978	b	b	b	prep.	in	
-155979	gbh	gb(II)/+h	gb (II)	n. m. sg. abs. gen.	spine	
+155979	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	spine	
 # KTU 1.175 14						
 155980		?	?	?	?	
 155981	w	w	w	conj.	and	
-155982	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
-155983	ylk	hlk[	/h-l-k/	vb G prefc.	to go	
+155982	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+155983	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 155984	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	lad	
 # KTU 1.175 15						
 155985	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 # KTU 1.175 16						
 155986	mṭt	mṭ(t/t	mṭt	n. f. sg. abs. nom.	bed	
 155987	w	w	w	conj.	and	
-155988	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. pl. abs. nom.	a kind of leather or leather object	
-155988	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg. abs. nom.	a kind of leather or leather object	
-155988	ṯnt	ṯn(t(I)/t=	ṯnt (I)	n. f. pl. abs. nom.	a kind of leather or leather object	
-155989	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. cstr. nom.	boy	
-155989	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
-155989	nˤr	!n!](n]ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
-155989	nˤr	nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
-155989	nˤr	!n!](n]ˤr[	/ʕ-r/	vb N prefc. 1 c. pl.	to become agitated	
-155989	nˤr	nˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
+155988	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg. cstr. nom.	a kind of leather or leather object	
+155988	ṯnt	ṯn(t(I)/t=	ṯnt (I)	n. f. pl. cstr. nom.	a kind of leather or leather object	
+155989	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. cstr. gen.	boy	
+155989	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. gen.	boy	
 # KTU 1.175 17						
-155990	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
-155990	št	št[	/š-t/	vb G impv. 2	to place	
-155990	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
-155990	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-155990	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
+155990	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
+155990	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
 155991	b	b	b	prep.	in	
-155992	gbh	gb(II)/+h	gb (II)	n. m. sg. abs. gen.	spine	
+155992	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	spine	
 155993	b	b	b	prep.	in	
 155994	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 155994	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	

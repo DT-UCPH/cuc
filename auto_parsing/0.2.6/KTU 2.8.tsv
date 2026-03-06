@@ -31,10 +31,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156518	x	?	?	?	?	
 # KTU 2.8 4						
 156519	at	at(I)	ảt (I)	pers. pn.	you	
-156520	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure	
-156520	brt	br(t/t	brt	n. f. sg. abs. nom.	forecast	
-156521	lbk	lb/	lb	n. m. sg. abs. nom.	heart	
-156522	ˤnn	ˤn(I)/	ʕn (I)	n. f. du. abs. nom.	eye	
+156520	brt	br(t/t	brt	n. f. sg. cstr. nom.	forecast	
+156521	lbk	lb/+k	lb	n. m. sg. cstr. gen.	heart	
+156522	ˤnn	ˤn(I)&n/	ʕn (I)	n. f. du. abs. nom.	eye	
 156522	ˤnn	ˤnn/	ʕnn	n. m. pl. cstr. nom.	manservant	
 156522	ˤnn	ˤnn/	ʕnn	n. m. sg. abs. nom.	manservant	
 156523	x	?	?	?	?	
@@ -52,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156526	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
 156526	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give	
 156527	ly	l(I)+y	l (I)	prep.	to	
-156528	šn	šnw[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+156528	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 # KTU 2.8 6						
 156529		?	?	?	?	
 156530	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	

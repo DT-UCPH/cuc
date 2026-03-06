@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161377	rušy	ruš/+y	rủš	n. m. cstr. nom.	hurt in the head	
 161378	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 161379	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161380	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
+161380	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
 # KTU 3.13 2						
 161381	w	w	w	conj.	and	
 161382	arbˤ	arbˤ/	ảrbʕ	num.	four	
@@ -34,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161401	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. pl. abs. gen.	(suit of) armour	
 161401	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. sg. abs. gen.	(suit of) armour	
 # KTU 3.13 6						
-161402	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
+161402	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
 161403	l	l(I)	l (I)	prep.	to	
 161403	l	l(III)	l (III)	functor	certainly	
 161404	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
@@ -45,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161408	llit	llit/	llỉt	PN sg. abs. gen.	llỉt	
 # KTU 3.13 7						
 161409	w	w	w	conj.	and	
-161410	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
+161410	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
 161411	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 161412	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 161413	yrbˤm	yrbˤm/	yrbʕm	PN sg. cstr. gen.	yrbʿm	
@@ -54,7 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161415	w	w	w	conj.	and	
 161416	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 161417	is	is/	ỉs	PN sg. abs. gen.	ỉs	
-161418	arbˤm	arbˤ/	ảrbʕ	num.	four	
+161418	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
 161418	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
 161419	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
 161420	w	w	w	conj.	and	
@@ -64,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161423	w	w	w	conj.	and	
 161424	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 161425	mnḥm	mnḥm/	mnḥm	PN sg. abs. gen.	mnḥm	
-161425	mnḥm	mnḥ/+m(I)	mnḥ	n. m. abs. gen.	delivery	
+161425	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr. gen.	delivery	
 161426	arbˤ	arbˤ/	ảrbʕ	num.	four	
 161427	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 # KTU 3.13 10						
@@ -90,18 +90,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.13 13						
 161441	w	w	w	conj.	and	
 161442	dšn	dšn	dšn			
-161443	krsnm	krs/	krs	n. abs. nom.	wineskin	
+161443	krsnm	krsn/m	krs/śn	n. m. pl. abs. nom.	wineskin	
 # KTU 3.13 14						
 161444	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 161445	mat	mit/	mỉt	n. f. pl. cstr. nom.	a hundred	
 161446	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-161447	tyt	ty(t/t	tyt	n. f. sg. abs. gen.	ranunculus	
+161447	tyt	ty(t/t	tyt	n. f. sg. cstr. gen.	ranunculus	
 # KTU 3.13 15						
-161448	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161448	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161448	bn	bn(II)	bn (II)	prep.	between	
-161448	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161448	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161448	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
+161448	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161449	grgš	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.13 16						
 161450	w	w	w	conj.	and	
@@ -124,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161461	mmskn	mmskn/+n	mmskn	n. m. cstr. nom.	earthenware bowl	
 # KTU 3.13 19						
 161462	w	w	w	conj.	and	
-161463	ṯt	ṯn(I)/	ṯn (I)	nuf.	two	
+161463	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 161464	mqrtm	mqrt/m	mqrt	n. f. pl. abs. nom.	Goblet	
 # KTU 3.13 20						
 161465	w	w	w	conj.	and	

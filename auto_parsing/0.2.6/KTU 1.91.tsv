@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151219	d	d	d	det. or rel. functor	the one(s) of	
 151220	ykl	!y!kl(y[	/k-l-y/	vb G prefc. 3 m. sg.	to finish	
 151220	ykl	!y!kl(y[:d	/k-l-y/	vb D prefc. 3 m. sg.	to finish	
-151221	bd	b	b	prep.	in	
+151221	bd	b&d	b	prep.	in	
 151222	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 2						
 151223	b	b	b	prep.	in	
@@ -19,15 +19,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151226	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
 151227	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.91 4						
-151228	tzġm	tzġ/m	tzġ	n. m. pl. abs. gen.	kind of sacrificial meat	
+151228	tzġm	tzġ/m	tzġ	n. m. pl. cstr. gen.	kind of sacrificial meat	
 # KTU 1.91 5						
-151229	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
+151229	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
 # KTU 1.91 6						
-151230	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-151230	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-151230	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-151230	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-151231	bldn	bld/+n	bld	n. m. cstr. nom.	land	
+151230	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+151230	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+151231	bldn	bld/+n	bld	n. m. cstr. gen.	land	
 # KTU 1.91 7						
 151232	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
 151232	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
@@ -48,7 +46,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151238	k	k(III)	k (III)	Subordinating or completive functor	when	
 151238	k	k(I)	k (I)	prep.	like	
 151238	k	k(II)	k (II)	emph. functor	yes	
-151239	tˤrb	!t!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
+151239	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	to enter	
+151239	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	to enter	
+151239	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	to enter	
+151239	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 m. du.	to enter	
+151239	tˤrb	!t!ˤrb[:w	/ʕ-r-b/ (I)	vb G prefc. 3 m. pl.	to enter	
+151239	tˤrb	!t===!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. pl.	to enter	
 151240	ṯˤṯtrt	?	?	?	?	DULAT: NOT FOUND
 151241	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
 151241	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
@@ -75,9 +78,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 13						
 151251	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. gen.	new moon	
 # KTU 1.91 14						
-151252	dbḥ	dbḥ/	dbḥ	n. m. pl. abs. gen.	sacrifice	
-151252	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	
-151252	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. gen.	to sacrifice	
+151252	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
+151252	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
+151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
+151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
+151252	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 151253	bˤlxxxxx	?	?	?	?	DULAT: NOT FOUND
 151254	k	+k	-k (I)			
 151254	k	~k	-k (II)			
@@ -85,8 +90,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151254	k	k(I)	k (I)	prep.	like	
 151254	k	k(II)	k (II)	emph. functor	yes	
 151255	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
-151256	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. nom.	lady	
-151257	bhtm	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
+151256	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. nom.	lady	
+151257	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 # KTU 1.91 15						
 151258	b	b	b	prep.	in	
 151259	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
@@ -111,8 +116,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151270	xxxxbˤlt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 21						
 151271	lbnm	lbn(I)/m	lbn (I)	adj. m. pl. abs. nom.	white	
-151272	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
-151273	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
+151272	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+151273	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
 # KTU 1.91 22						
 151274	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. cstr. gen.	massif	
 151275	gngnt	gngnt/	gngnt	TN sg. cstr. gen.	gngnt	
@@ -134,7 +139,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151287	šmny	šmn(I)/+y	šmn (I)	n. m. cstr. gen.	oil	
 151287	šmny	š&m/+ny	š	n. m. cstr. gen.	ram	
 151287	šmny	šm(I)/+ny	šm (I)	n. m. cstr. gen.	name	
-151288	kdm	kd(I)/m	kd (I)	n. f. pl. abs. gen.	jar	
+151288	kdm	kd(I)/m	kd (I)	n. f. pl. abs. nom.	jar	
 151289	yn	yn/	yn	n. m. sg. abs. nom.	wine	
 # KTU 1.91 27						
 151290	šmgy	šmgy/	šmgy	TN sg. abs. nom.	šmgy	
@@ -153,9 +158,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 30						
 151301	ḫpty	ḫpty/	ḫb/pt(y)	TN sg. cstr. nom.	ḫb/pt(y)	Based on DULAT reconstruction.
 151301	ḫpty	ḫpt/+y	ḫpt	TN sg. cstr. nom.	ḫpt	Based on DULAT reconstruction.
-151302	kdm	kd(I)/m	kd (I)	n. f. pl. abs. gen.	jar	
-151303	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. nom.	place in which something is put	
-151303	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. nom.	beam	
+151302	kdm	kd(I)/m	kd (I)	n. f. pl. cstr. gen.	jar	
+151303	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
+151303	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. gen.	beam	
 # KTU 1.91 31						
 151304	agm	agm	ảgm	→	?	
 151305	arbˤ	arbˤ/	ảrbʕ	num.	four	

@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150277	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
 # KTU 1.83 4						
 150278	mḫnm	mḫn/~m	mḫn	n. m. pl. abs. gen.	?	
-150279	ṯrp	ṯrp[	/ṯ-r-p/	vb	to spur on (an animal)	
+150279	ṯrp	ṯrp[	/ṯ-r-p/	vb inf.	to spur on (an animal)	
 150280	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 150280	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
 # KTU 1.83 5						
@@ -19,11 +19,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150282	tlhk	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.83 6						
 150283	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
-150284	tṯrp	!t!ṯrp[	/ṯ-r-p/	vb	to spur on (an animal)	
+150284	tṯrp	!t!ṯrp[	/ṯ-r-p/	vb prefc.	to spur on (an animal)	
 # KTU 1.83 7						
 150285	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 150285	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
-150286	ḏnbtm	ḏnb/	ḏnb(t)	n. f. du. cstr. gen.	tail	
+150286	ḏnbtm	ḏnbt/m	ḏnb(t)	n. f. pl. cstr. gen.	tail	
 # KTU 1.83 8						
 150287	tan	tan/	tản	PN sg. abs. gen.	tản	
 150288	l	l(I)	l (I)	prep.	to	
@@ -37,7 +37,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150292	l	l(I)	l (I)	prep.	to	
 150292	l	l(III)	l (III)	functor	certainly	
 150293	mrym	mrym/	mrym	n. m. sg. cstr. nom.	height	
-150294	lbnt	lbn(t/t	lbnt	n. f. pl. abs. gen.	brick	
 150294	lbnt	lbn(t/t	lbnt	n. f. sg. abs. gen.	brick	
 150294	lbnt	lbn(t/t=	lbnt	n. f. pl. abs. gen.	brick	
 # KTU 1.83 11						

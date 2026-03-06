@@ -5,11 +5,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161190	d	d	d	det. or rel. functor	the one(s) of	
 161191	qny	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
 # KTU 3.9 3						
-161192	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. abs. gen.	heavens	
+161192	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
 161192	šmmn	šmmn/	šmmn	PN sg. abs. gen.	šmmn	
 # KTU 3.9 4						
 161193	b	b	b	prep.	in	
-161194	btw	bt(II)/	bt (II)	n. m. abs. gen.	house	
+161194	btw	bt(II)&w/	bt (II)	n. m. abs. gen.	house	
 # KTU 3.9 5						
 161195	w	w	w	conj.	and	
 161196	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
@@ -26,8 +26,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161202	b	b	b	prep.	in	
 161203	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
 # KTU 3.9 9						
-161204	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
-161205	ḫmšm	ḫmš(I)/	ḫmš (I)	num.	five	
+161204	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161205	ḫmšm	ḫmš(I)&m/	ḫmš (I)	num.	five	
 161205	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	
 # KTU 3.9 10						
 161206	isˤ	?	?	?	?	DULAT: NOT FOUND
@@ -72,11 +72,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.9 19						
 161227	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 161227	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-161228	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. abs. gen.	express messenger, ?	
+161228	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. cstr. gen.	express messenger, ?	
 # KTU 3.9 20						
 161229	w	w	w	conj.	and	
 161230	ˤbdn	ˤbd(I)/+n	ʕbd (I)	n. m. pl. cstr. nom.	servant	
 # KTU 3.9 21						
-161231	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
-161231	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-161232	sgld	sgld/	sgld	PN sg. abs. gen.	sgld	
+161231	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161231	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+161231	bn	bn(II)	bn (II)	prep.	between	
+161231	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161231	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161232	sgld	sgld/	sgld	PN sg. abs. nom.	sgld	

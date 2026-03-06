@@ -19,13 +19,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156994	u	u	ủ	conj.	or	
 # KTU 2.23 3						
 156995	ˤṯtrab	ˤṯtrab/	ʕṯtrab	PN sg. cstr. nom.	ʿṯtrab	
-156996	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. gen.	message	
-156997	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	servant	
+156996	mlakt	mlak(t/t	mlảkt	n. f. sg. cstr. gen.	message	
+156997	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. gen.	servant	
 # KTU 2.23 4						
-156998	ylak	lʔk[k	/l-ʔ-k/	vb G prefc.	to send (a message)	
+156998	ylak	!y!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 3 m. sg.	to send (a message)	
 156999	l	l(I)	l (I)	prep.	to	
 156999	l	l(III)	l (III)	functor	certainly	
-157000	bˤlk	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157000	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 157001	k	+k	-k (I)			
 157001	k	~k	-k (II)			
 157001	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -39,29 +39,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157005	uky	uk+y	ủk	positive emph. functor	yes	
 157005	uky	uky	ủky	?	?	
 # KTU 2.23 6						
-157006	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. nom.	message	
-157007	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+157006	mlakt	mlak(t/t	mlảkt	n. f. sg. cstr. nom.	message	
+157007	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 157008	k	+k	-k (I)			
 157008	k	~k	-k (II)			
 157008	k	k(III)	k (III)	Subordinating or completive functor	when	
 157008	k	k(I)	k (I)	prep.	like	
 157008	k	k(II)	k (II)	emph. functor	yes	
-157009	tmġy	tmġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
+157009	tmġy	&tmġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 # KTU 2.23 7						
-157010	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. nom.	message	
-157011	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-157011	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-157012	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157012	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-157013	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-157013	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-157013	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-157013	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+157010	mlakt	mlak(t/t	mlảkt	n. f. sg. cstr. nom.	message	
+157011	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
+157011	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
+157012	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
+157012	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+157013	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+157013	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 # KTU 2.23 8						
-157014	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157014	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 157015	ˤmxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 9						
-157016	ydˤt	ydˤt[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
+157016	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
+157016	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
+157016	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
+157016	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
 157016	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 157017	šxx	?	?	?	?	DULAT: NOT FOUND
 157018	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
@@ -100,10 +101,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157036	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 157037	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 157037	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-157038	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-157039	p	p(I)	p (I)	conj. functor	and	
-157039	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-157039	p	p(II)	p (II)	adv.	here	
+157038	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157039	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 157040	l	l(I)	l (I)	prep.	to	
 157040	l	l(III)	l (III)	functor	certainly	
 # KTU 2.23 18						
@@ -113,9 +112,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 19						
 157044	l	l(I)	l (I)	prep.	to	
 157045	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
-157046	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-157046	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-157046	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 157046	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 157046	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
 157047	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -137,8 +133,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157059	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 157059	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 157060	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
-157060	mṣrm	mṣr/+m(I)	mṣr	n. m. abs. gen.	sob	
-157061	dt	d	d	det. or rel. functor	the one(s) of	
+157060	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. gen.	sob	
+157061	dt	d&t	d	det. or rel. functor	the one(s) of	
 157062	tġrn	nġr[n	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.23 23						
 157063	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	

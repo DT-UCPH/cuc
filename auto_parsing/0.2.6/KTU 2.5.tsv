@@ -4,13 +4,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156446	l	l(III)	l (III)	functor	certainly	
 156447	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. nom.	head	
 # KTU 2.5 2						
-156448	ypt	yp(t(I)/t	ypt (I)	n. f. sg. abs. gen.	cow	
-156449	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs. nom.	tree	
+156448	ypt	yp(t(I)/t	ypt (I)	n. f. sg. cstr. gen.	cow	
+156449	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs. gen.	tree	
 # KTU 2.5 3						
 156450	hp	?	?	?	?	DULAT: NOT FOUND
 156451	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 156451	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 156451	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156451	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
 156451	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 156451	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 156451	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	

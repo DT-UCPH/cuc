@@ -12,27 +12,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158921	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158922	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.71 4						
-158923	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
-158923	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+158923	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+158923	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 158924	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.71 5						
 158925	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 158926	hnny	hn+ny	hn	functor	behold!	
 158926	hnny	hnny	hnny	adv.	here	
-158926	hnny	hnny+ny	hnny	adv.	here	
+158926	hnny	hn+ny	hnny	adv.	here	
 # KTU 2.71 6						
 158927	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-158928	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
+158928	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 158928	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 158928	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158928	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
 158928	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 158928	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
 158928	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
 158928	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158928	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.71 7						
-158929	ṯmny	ṯm	ṯm	adv.	there	
-158930	ˤmk	ˤm(II)/	ʕm (II)	n. m. cstr. nom.	lineage	
+158929	ṯmny	ṯm&ny	ṯm	adv.	there	
+158930	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. cstr. nom.	lineage	
 # KTU 2.71 8						
 158931	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 158931	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
@@ -49,15 +50,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158936	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb D inf.	to appoint the time	
 158937	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 # KTU 2.71 11						
-158938	ˤmnk	ˤm(I)+k	ʕm (I)	prep.	to	
+158938	ˤmnk	ˤm(I)&n+k	ʕm (I)	prep.	to	
 158939	pm	p(I)+m(I)	p (I)	conj. functor	and	
-158939	pm	p(III)/+m(I)	p (III)	n. m. abs. gen.	mouth	
+158939	pm	p(III)/+m(I)	p (III)	n. m. cstr. nom.	mouth	
 158939	pm	p(II)+m(I)	p (II)	adv.	here	
 158940	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-158940	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
+158940	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 # KTU 2.71 12						
-158941	bk	b	b	prep.	in	
-158942	tˤpr	!t!ˤpr[	/ʕ-p-r/	vb G prefc.	to supply (something)	
+158941	bk	b&k	b	prep.	in	
+158942	tˤpr	!t!ˤpr[	/ʕ-p-r/	vb G prefc. 3 f. sg.	to supply (something)	
+158942	tˤpr	!t=!ˤpr[	/ʕ-p-r/	vb G prefc. 2 m. sg.	to supply (something)	
+158942	tˤpr	!t==!ˤpr[	/ʕ-p-r/	vb G prefc. 2 f. sg.	to supply (something)	
+158942	tˤpr	!t!ˤpr[	/ʕ-p-r/	vb G prefc. 3 m. du.	to supply (something)	
+158942	tˤpr	!t!ˤpr[:w	/ʕ-p-r/	vb G prefc. 3 m. pl.	to supply (something)	
+158942	tˤpr	!t===!ˤpr[	/ʕ-p-r/	vb G prefc. 2 m. pl.	to supply (something)	
 # KTU 2.71 13						
 158943	ht	ht	ht	adv.	here	
 158944	at	at(I)	ảt (I)	pers. pn.	you	
@@ -67,7 +73,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158947	hmhkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.71 15						
 158948	b	b	b	prep.	in	
-158949	lbk	lb/	lb	n. m. sg. abs. gen.	heart	
+158949	lbk	lb/+k	lb	n. m. sg. cstr. gen.	heart	
 158950	al	al(I)	ảl (I)	neg. functor	no	
 158950	al	al(II)	ảl (II)	pos. functor	surely	
 158951	tšt	!t!št[	/š-t/	vb G prefc.	to place	
@@ -83,20 +89,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158953	mġyy	!!mġy[/y	/m-ġ-y/	vb G inf.	to come	
 # KTU 2.71 17						
 158954	b	b	b	prep.	in	
-158955	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. sg. abs. gen.	city	
-158955	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg. abs. nom.	naked	
-158956	ḥpr	ḥpr/	ḥpr	n. m. pl. cstr. nom.	ration(s)	
-158956	ḥpr	ḥpr/	ḥpr	n. m. sg. cstr. nom.	ration(s)	
+158955	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. sg. cstr. gen.	city	
+158956	ḥpr	ḥpr/	ḥpr	n. m. pl. cstr. gen.	ration(s)	
+158956	ḥpr	ḥpr/	ḥpr	n. m. sg. cstr. gen.	ration(s)	
 # KTU 2.71 18						
-158957	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg. cstr. nom.	party	
-158957	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg. abs. nom.	time	
-158957	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf.	to appoint the time	
-158957	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb D inf.	to appoint the time	
-158958	dd	dd(II)/	dd (II)	n. m. sg. abs. nom.	cauldronful	
-158959	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
+158957	ˤdn	ˤdn(III)/	ʕdn (III)	n. m. sg. cstr. gen.	party	
+158957	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg. cstr. gen.	time	
+158958	dd	dd(II)/	dd (II)	n. m. sg. cstr. gen.	cauldronful	
+158959	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. gen.	grain	
 # KTU 2.71 19						
-158960	mkr	mkr/	mkr	n. m. pl. cstr. nom.	merchant	
-158960	mkr	mkr/	mkr	n. m. sg. abs. nom.	merchant	
+158960	mkr	mkr/	mkr	n. m. pl. abs. gen.	merchant	
+158960	mkr	mkr/	mkr	n. m. sg. abs. gen.	merchant	
 158961	tn	(ytn[	/y-t-n/	vb	give	
 158961	tn	(ytn[/	/y-t-n/	vb	give	
 158962	lh	l(I)+h	l (I)	prep.	to	

@@ -1,24 +1,22 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.96 1						
-151565	ˤnn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151565	ˤnn	ˤn(I)&n/	ʕn (I)	n. f. du. cstr. nom.	eye	
 151565	ˤnn	ˤnn/	ʕnn	n. m. pl. cstr. nom.	manservant	
 151565	ˤnn	ˤnn/	ʕnn	n. m. sg. cstr. nom.	manservant	
 151566	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to go	
 151567	w	w	w	conj.	and	
-151568	šnwt	šnw[/t	/š-n-w/	vb G act. ptcpl. m. sg. abs. nom.	to change: a) reflex.	
+151568	šnwt	šnw[/t	/š-n-w/	vb G act. ptcpl. m. sg. cstr. nom.	to change: a) reflex.	
 # KTU 1.96 2						
-151569	tp	tp(II)/	tp (II)	n. m. sg. abs. nom.	aspect	
-151569	tp	tp(I)/	tp (I)	n. m. sg. abs. nom.	drum	
-151569	tp	npy[	/n-p-y/	vb N prefc.	to be driven away	
-151569	tp	npy[:pass	/n-p-y/	vb Gpass prefc.	to be driven away	
-151570	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
+151569	tp	tp(II)/	tp (II)	n. m. sg. cstr. gen.	aspect	
+151569	tp	tp(I)/	tp (I)	n. m. sg. cstr. gen.	drum	
+151570	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
 151571	k	+k	-k (I)			
 151571	k	~k	-k (II)			
 151571	k	k(III)	k (III)	Subordinating or completive functor	when	
 151571	k	k(I)	k (I)	prep.	like	
 151571	k	k(II)	k (II)	emph. functor	yes	
 151572	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. nom.	grace	
-151573	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. abs. gen.	brother (by blood)	
+151573	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
 151574	xxx	?	?	?	?	
 # KTU 1.96 3						
 151575	k	+k	-k (I)			
@@ -28,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151575	k	k(II)	k (II)	emph. functor	yes	
 151576	ysmsm	ysmsm/	ysmsm	adj. m. sg. abs. nom.	handsome	
 151577	tspi	!t!sp(ʔ[&i	/s-p-ʔ/	vb G prefc.	to devour	
-151578	širh	šir(I)/h	šỉr (I)	n. m. sg. abs. nom.	flesh	
+151578	širh	šir(I)/+h	šỉr (I)	n. m. sg. cstr. nom.	flesh	
 # KTU 1.96 4						
 151579	l	l(I)	l (I)	prep.	to	
 151579	l	l(III)	l (III)	functor	certainly	
@@ -54,11 +52,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151588	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. nom.	furrow	
 # KTU 1.96 6						
 151589	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
-151590	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
-151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
-151590	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-151591	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. gen.	shame	
-151591	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. gen.	evildoing woman	
+151590	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+151590	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+151590	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+151591	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
+151591	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. nom.	evildoing woman	
 151592	tpnn	!t!pnn[	/p-n-n/	vb G prefc. 3 f. sg.	to distort	
 151592	tpnn	!t=!pnn[	/p-n-n/	vb G prefc. 2 m. sg.	to distort	
 151592	tpnn	!t==!pnn[	/p-n-n/	vb G prefc. 2 f. sg.	to distort	
@@ -114,7 +114,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151614	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
 151614	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
 151614	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-151615	bty	bt(II)/+y	bt (II)	n. m. abs. gen.	house	
+151615	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
 # KTU 1.96 12						
 151616	l	l(I)	l (I)	prep.	to	
 151616	l	l(III)	l (III)	functor	certainly	
@@ -128,15 +128,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.96 13						
 151621	l	l(I)	l (I)	prep.	to	
 151621	l	l(III)	l (III)	functor	certainly	
-151622	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
-151622	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. nom.	evildoing woman	
-151623	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
-151623	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 f. sg.	to sit down	
-151623	tṯb	!t=!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. sg.	to sit down	
-151623	tṯb	!t==!(yṯb[	/y-ṯ-b/	vb G prefc. 2 f. sg.	to sit down	
-151623	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
-151623	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down	
-151623	tṯb	!t===!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. pl.	to sit down	
-151623	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+151622	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. cstr. nom.	shame	
+151622	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. cstr. nom.	evildoing woman	
+151623	tṯb	tṯb/	tṯb	DN sg. abs. gen.	Teṯo/Hurrian storm god	
 # KTU 1.96 14						
 151624	xx	?	?	?	?	

@@ -20,8 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149563	k	k(I)	k (I)	prep.	like	
 149563	k	k(II)	k (II)	emph. functor	yes	
 149564	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
-149565	śśw	ss/	s:śs/św	n. f. pl. cstr. gen.	horse	
-149565	śśw	ss/	s:śs/św	n. f. sg. cstr. gen.	horse	
+149565	śśw	śśw/	s:śs/św	n. f. pl. cstr. gen.	horse	
+149565	śśw	śśw/	s:śs/św	n. f. sg. cstr. gen.	horse	
 149566	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
 149567	wbṣqlˤrgz	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 6						
@@ -45,10 +45,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149575	wṯqd	?	?	?	?	DULAT: NOT FOUND
 149576	mr	mr(I)/	mr (I)	n. m. sg. cstr. nom.	myrrh	
 # KTU 1.71 8						
-149577	ydk	yd(I)/+k	yd (I)	n. f. abs. gen.	hand	
-149577	ydk	yd(I)/+k=	yd (I)	n. f. abs. gen.	hand	
-149577	ydk	yd(II)/+k	yd (II)	n. m. abs. gen.	love	
-149577	ydk	yd(II)/+k=	yd (II)	n. m. abs. gen.	love	
+149577	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
+149577	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
+149577	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
+149577	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 149578	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 149579	wyṣq	?	?	?	?	DULAT: NOT FOUND
 149580	baph	?	?	?	?	DULAT: NOT FOUND
@@ -73,8 +73,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149592	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 11						
 149593	k	k(III)	k (III)	Subordinating or completive functor	when	
-149594	yiḫd	ʔḫd[d	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
-149594	yiḫd	ʔḫd[d:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc.	to collect	
+149594	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
+149594	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
 149595	aklśśw	?	?	?	?	DULAT: NOT FOUND
 149596	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 149596	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
@@ -98,8 +98,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149606	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 14						
 149607	xxxxxxxx	?	?	?	?	
-149608	śśw	ss/	s:śs/św	n. f. pl. cstr. nom.	horse	
-149608	śśw	ss/	s:śs/św	n. f. sg. cstr. nom.	horse	
+149608	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
+149608	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
 149609	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
 149609	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
 149610	xxx	?	?	?	?	
@@ -108,25 +108,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149612	irġn	?	?	?	?	DULAT: NOT FOUND
 149613	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. nom.	donkey	
 # KTU 1.71 16						
-149614	ydk	yd(I)/+k	yd (I)	n. f. abs. gen.	hand	
-149614	ydk	yd(I)/+k=	yd (I)	n. f. abs. gen.	hand	
-149614	ydk	yd(II)/+k	yd (II)	n. m. abs. gen.	love	
-149614	ydk	yd(II)/+k=	yd (II)	n. m. abs. gen.	love	
+149614	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
+149614	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
+149614	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
+149614	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 149615	wyṣq	?	?	?	?	DULAT: NOT FOUND
 149616	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 17						
 149617	k	k(III)	k (III)	Subordinating or completive functor	when	
-149618	yraš	rʔš[š	/r-ʔ-š/	vb G prefc.	to toss the head	
-149619	śśw	ss/	s:śs/św	n. f. pl. cstr. nom.	horse	
-149619	śśw	ss/	s:śs/św	n. f. sg. cstr. nom.	horse	
+149618	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
+149619	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
+149619	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
 149620	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 149620	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
 149621	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
 149622	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. cstr. gen.	flax	
-149623	ydk	yd(I)/+k	yd (I)	n. f. abs. gen.	hand	
-149623	ydk	yd(I)/+k=	yd (I)	n. f. abs. gen.	hand	
-149623	ydk	yd(II)/+k	yd (II)	n. m. abs. gen.	love	
-149623	ydk	yd(II)/+k=	yd (II)	n. m. abs. gen.	love	
+149623	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
+149623	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
+149623	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
+149623	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 # KTU 1.71 18						
 149624	w	w	w	conj.	and	
 149625	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
@@ -149,11 +149,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149635	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 26						
 149636	k	k(III)	k (III)	Subordinating or completive functor	when	
-149637	yraš	rʔš[š	/r-ʔ-š/	vb G prefc.	to toss the head	
+149637	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
 149638	wykhp	?	?	?	?	DULAT: NOT FOUND
-149639	mid	mi/	mỉ/ủd	n. m. sg. cstr. nom.	abundance	
+149639	mid	mid/	mỉ/ủd	n. m. sg. cstr. nom.	abundance	
 # KTU 1.71 27						
-149640	dblt	dbl(t/t	dblt	n. f. pl. abs. gen.	dried fig	
 149640	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	dried fig	
 149640	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	dried fig	
 149641	yṯnt	yṯn/t=	yṯn	adj. f. pl. abs. nom.	old	
@@ -168,4 +167,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.71 29						
 149649	b	b	b	prep.	in	
 149650	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-149650	aph	ap(II)/+h	ảp (II)	n. m. abs. gen.	nose	
+149650	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	

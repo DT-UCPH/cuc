@@ -1,10 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.82 1						
 159343	l	l(I)	l (I)	prep.	to	
-159344	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
-159345	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+159344	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
+159345	umy	um/y	ủm	n. f. sg. cstr. gen.	mother	
 # KTU 2.82 2						
-159346	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
+159346	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 159347	l	l(I)	l (I)	prep.	to	
 159347	l	l(III)	l (III)	functor	certainly	
 159348	pˤnk	pˤn/+k	pʕn	n. f. cstr. nom.	foot	
@@ -14,14 +14,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159351	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.82 4						
 159352	ˤky	ˤky(I)/	ʕky (I)	TN sg. abs. nom.	ʿky (I)	
-159353	nplṭ	nplṭ[	/p-l-ṭ/	vb N suffc. 3 m. sg.	to be safe	
+159353	nplṭ	]n]plṭ[	/p-l-ṭ/	vb N suffc. 3 m. sg.	to be safe	
 # KTU 2.82 5						
 159354	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
 159355	šˤtq	šˤtq/	šʕtq	adj. m. sg. abs. nom.	noble	
 # KTU 2.82 6						
 159356	w	w	w	conj.	and	
 159357	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
-159358	bnk	bn(I)/+k	bn (I)	n. m. abs. gen.	son	
+159358	bnk	bn(I)/+k	bn (I)	n. m. cstr. gen.	son	
 # KTU 2.82 7						
 159359	l	l(I)	l (I)	prep.	to	
 159359	l	l(II)	l (II)	adv.	no	
@@ -33,20 +33,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159363	w	w	w	conj.	and	
 159364	ank	ank	ảnk	pers. pn.	I	
 159365	ṯṯ	ṯṯ/	ṯṯ	num.	six	
-159366	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
-159366	ymm	y(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
+159366	ymm	ym(I)/m	ym (I)	n. m. pl. cstr. nom.	day	
+159366	ymm	y(II)/~m	ym (II)	n. m. sg. cstr. nom.	sea	
 # KTU 2.82 9						
-159367	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+159367	kl	kl/	kl	n. m. sg. abs. gen.	totality (of)	
 159368	lḥmt	lḥm(II)[t	/l-ḥ-m/ (II)	vb G suffc. 1 c. sg.	to fight (against someone)	
 # KTU 2.82 10						
 159369	w	w	w	conj.	and	
 159370	hm	hm(II)	hm (II)	conj./interr. functor	if	
 159370	hm	hm(I)	hm (I)	pers. pn.	they	
-159371	inm	in/	ỉn	n. m. sg. cstr. nom.	lack of	
+159371	inm	in/m	ỉn	n. m. pl. cstr. nom.	lack of	
 # KTU 2.82 11						
 159372	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 2.82 12						
-159373	nplṭ	nplṭ[	/p-l-ṭ/	vb N suffc. 3 m. sg.	to be safe	
+159373	nplṭ	]n]plṭ[	/p-l-ṭ/	vb N suffc. 3 m. sg.	to be safe	
 159374	ḥxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.82 13						
 159375	w	w	w	conj.	and	
@@ -58,7 +58,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159379	xxxtṯb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.82 16						
 159380	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
-159381	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl. m. sg. abs. gen.	to raise	
+159381	nši	!!nš(ʔ&i[/	/n-š-ʔ/	vb G inf.	to raise	
+159381	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl. m. sg. abs. nom.	to raise	
 # KTU 2.82 17						
 159382	ikmy	ikmy	ỉkmy	conj.	however that may be	
 159383	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	

@@ -54,14 +54,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 13						
 154591	l	l(I)	l (I)	prep.	to	
 154591	l	l(III)	l (III)	functor	certainly	
-154592	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
-154592	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-154592	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
-154593	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+154592	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. nom.	eye	
+154592	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. nom.	ʿAnatu/Anat	
+154593	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 14						
-154594	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
-154594	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-154594	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+154594	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
+154594	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 154595	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 15						
 154596	l	l(I)	l (I)	prep.	to	
@@ -70,11 +68,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 16						
 154598	b	b	b	prep.	in	
 154599	ymmlatalpm	?	?	?	?	DULAT: NOT FOUND
-154600	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+154600	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 # KTU 1.130 17						
-154601	nbšt	nbš(t/t	nbšt	n. f. pl. abs. gen.	living being(s)	
-154601	nbšt	nbš(t/t	nbšt	n. f. sg. abs. gen.	living being(s)	
-154601	nbšt	nbš(t/t=	nbšt	n. f. pl. abs. gen.	living being(s)	
+154601	nbšt	nbš(t/t	nbšt	n. f. sg. abs. nom.	living being(s)	
+154601	nbšt	nbš(t/t=	nbšt	n. f. pl. abs. nom.	living being(s)	
 154602	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 154602	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 154603	lbˤl	?	?	?	?	DULAT: NOT FOUND
@@ -93,7 +90,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154612	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
 # KTU 1.130 20						
 154613	w	w	w	conj.	and	
-154614	kbdm	kbd(I)	kbd (I)		liver	
+154614	kbdm	kbd(I)&m	kbd (I)		liver	
 154615	l	l(I)	l (I)	prep.	to	
 154615	l	l(III)	l (III)	functor	certainly	
 154616	kṯrt	kṯrt/	kṯrt	DN pl. cstr. nom.	Swallows	
@@ -133,15 +130,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154639	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154640	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 154640	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
-154640	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-154640	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-154640	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 154641	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
-154642	kbdm	kbd(I)	kbd (I)		liver	
+154642	kbdm	kbd(I)&m	kbd (I)		liver	
 # KTU 1.130 27						
 154643	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 154644	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
-154645	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 154645	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 154645	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 # KTU 1.130 28						

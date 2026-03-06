@@ -15,7 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153593	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
 153594	šm	š/m	š	n. m. pl. cstr. gen.	ram	
 153594	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
-153595	ḫmnh	ḫmn(I)/h	ḫmn (I)	n. m. sg. abs. gen.	chapel	
+153595	ḫmnh	ḫmn(I)/+h	ḫmn (I)	n. m. sg. cstr. gen.	chapel	
 153596	w	w	w	conj.	and	
 153597	ṯql	ṯql/	ṯql	n. m. sg. cstr. nom.	shekel	
 # KTU 1.112 4						
@@ -24,10 +24,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153600	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. cstr. nom.	plate / wide bowl / platter	
 153601	rgbt	rgb(t/t	rgbt	n. f. sg. abs. gen.	respect	
 153602	l	l(I)	l (I)	prep.	to	
-153603	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. gen.	lady	
+153603	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 # KTU 1.112 5						
-153604	bht	bt(II)/	bt (II)	n. m. pl. cstr. nom.	house	
-153604	bht	bt(II)/	bt (II)	n. m. pl. abs. nom.	house	
+153604	bht	bt(II)/	bt (II)	n. m. pl. abs. gen.	house	
 153605	m	?	?	?	?	DULAT: NOT FOUND
 153606	šˤṣrm	?	?	?	?	DULAT: NOT FOUND
 153607	linš	?	?	?	?	DULAT: NOT FOUND
@@ -44,14 +43,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153613	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 153613	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 153614	ttˤln	?	?	?	?	DULAT: NOT FOUND
-153615	pamt	pa/m	pảm(t)	n. f. pl. abs. nom.	time	
+153615	pamt	pa/m&t	pảm(t)	n. f. pl. abs. nom.	time	
 153616	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.112 8						
 153617	b	b	b	prep.	in	
 153618	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 153618	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
 153618	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-153619	tˤln	ˤly[n	/ʕ-l-y/	vb G prefc.	to go up	
+153619	tˤln	!t!ˤl(y[n	/ʕ-l-y/	vb G prefc.	to go up	
 153620	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 153620	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 153621	bḫmn	?	?	?	?	DULAT: NOT FOUND
@@ -71,14 +70,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 11						
 153630	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 153630	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-153631	brr	br/	br(r)	n. m. sg. abs. gen.	tin	
+153631	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 153632	b	b	b	prep.	in	
-153633	ṯmnt	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
-153634	iynm	iyn/~m	ỉyn	n. m. abs. nom. sg.	disaster	
+153633	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num.	eight	
+153634	iynm	iyn/~m	ỉyn	n. m. sg. cstr. nom.	disaster	
 # KTU 1.112 12						
-153635	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
-153636	ṯql	ṯql/	ṯql	n. m. sg. abs. nom.	shekel	
-153637	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+153635	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. gen.	grain	
+153636	ṯql	ṯql/	ṯql	n. m. sg. cstr. gen.	shekel	
+153637	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 153638	w	w	w	conj.	and	
 153639	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. nom.	total (quantity or price)	
 # KTU 1.112 13						
@@ -89,8 +88,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153644	b	b	b	prep.	in	
 153645	ˤšt	ˤš(t/t	ʕšt(y)	num. sg.	one	
 # KTU 1.112 14						
+153646	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
+153646	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+153646	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 153646	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-153647	ṣba	ṣb(u(II)/&a	ṣbủ (II)	n. m. sg. abs. gen.	setting	
+153647	ṣba	ṣb(u(II)/&a	ṣbủ (II)	n. m. sg. abs. nom.	setting	
 153648	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 153648	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153649	wḥ	?	?	?	?	DULAT: NOT FOUND
@@ -101,38 +103,40 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153651	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 153651	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 153652	b	b	b	prep.	in	
-153653	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	nuf.	three	
+153653	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
 # KTU 1.112 16						
-153654	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+153654	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 153654	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 153655	yrt	yrd[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
 153656	ḥṣ	ḥṣ/	ḥṣ	n. m. sg. abs. nom.	gravel	
 153657	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 17						
 153658	lk	l(I)+k	l (I)	prep.	to	
-153659	brr	br/	br(r)	n. m. sg. abs. gen.	tin	
+153659	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
 153659	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 153660	b	b	b	prep.	in	
-153661	arbˤt	arbˤ/	ảrbʕ	num.	four	
+153661	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
 # KTU 1.112 18						
-153662	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+153662	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 153662	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 153663	yrdn	!y!(yrd[+n	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
 153663	yrdn	yrdn[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
 153664	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.112 19						
-153665	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr. gen.	(feast / banquet of) game	
-153665	mṣdh	mṣd(III)/~h	mṣd (III)	TN sg. cstr. gen.	mṣd (III)	
-153665	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. gen.	large fortified tower	
-153666	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-153667	šm	š/m	š	n. m. pl. abs. gen.	ram	
-153667	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
+153665	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr. nom.	(feast / banquet of) game	
+153665	mṣdh	mṣd(III)/~h	mṣd (III)	TN sg. abs. nom.	mṣd (III)	
+153665	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. nom.	large fortified tower	
+153666	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+153666	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+153666	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+153667	šm	š/m	š	n. m. pl. abs. nom.	ram	
+153667	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 153668	lgṯrm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 20						
 153669	w	w	w	conj.	and	
 153670	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. nom.	to say	
 153670	rgm	rgm/	rgm	n. m. sg. cstr. nom.	word	
-153671	gṯrm	gṯr/+m(I)	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+153671	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 153672	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 153672	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š prefc.	to sit down	
 # KTU 1.112 21						
@@ -144,7 +148,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153677	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 153678	ˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 22						
-153679	šrh	šr(IV)/h	šr (IV)	n. m. sg. abs. nom.	navel	
+153679	šrh	šr(IV)/+h	šr (IV)	n. m. sg. cstr. nom.	navel	
 153679	šrh	šry[	/š-r-y/w/	vb G suffc. 3 m. sg.	to release	
 153679	šrh	!!šrh[/	/š-r-y/w/	vb G inf.	to release	
 153680	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	wave- offering	
@@ -166,12 +170,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 24						
 153690	l	l(I)	l (I)	prep.	to	
 153690	l	l(III)	l (III)	functor	certainly	
-153691	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. nom.	back part (of the head)	
-153692	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-153692	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-153692	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-153693	šm	š/m	š	n. m. pl. abs. nom.	ram	
-153693	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
+153691	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. nom.	back part (of the head)	
+153692	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+153693	šm	š/m	š	n. m. pl. abs. gen.	ram	
+153693	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 153694	l	l(I)	l (I)	prep.	to	
 153694	l	l(III)	l (III)	functor	certainly	
 153695	btbt	btbt/	btbt	DN sg. abs. nom.	btbt	
@@ -179,29 +181,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153697	l	l(I)	l (I)	prep.	to	
 153697	l	l(III)	l (III)	functor	certainly	
 # KTU 1.112 25						
-153698	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	goddess	
-153699	mgdl	mgdl/	mgdl	n. m. sg. abs. nom.	tower	
-153700	š	š/	š	n. m. sg. abs. nom.	ram	
+153698	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. cstr. nom.	goddess	
+153699	mgdl	mgdl/	mgdl	n. m. sg. cstr. gen.	tower	
+153700	š	š/	š	n. m. sg. abs. gen.	ram	
 153701	w	w	w	conj.	and	
 153702	aġt	aġt/	ảġt	TN sg. abs. nom.	une ảġt	
 # KTU 1.112 26						
 153703	w	w	w	conj.	and	
 153704	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-153705	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 153705	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 153705	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 153706	w	w	w	conj.	and	
 153707	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.112 27						
-153708	ˤšrh	ˤšr(I)+h	ʕšr (I)	num.	ten	
+153708	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
 153708	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 153708	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 153708	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-153709	dqt	dq(t(I)/t	dqt (I)	adj. f. pl. abs. nom.	small	
 153709	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 153709	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 153710	b	b	b	prep.	in	
-153711	ṯṯt	ṯṯ/	ṯṯ	nuf.	six	
+153711	ṯṯt	ṯṯ&t/	ṯṯ	num. f.	six	
 153712	ˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 28						
 153713	rt	rt/	rt	PN sg. abs. nom.	rt	
@@ -212,13 +212,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153717	x	?	?	?	?	
 # KTU 1.112 29						
 153718	b	b	b	prep.	in	
-153719	šbˤt	šbˤ(I)/	šbʕ (I)	num.	seven	
-153720	ˤšrt	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+153719	šbˤt	šbˤ(I)&t/	šbʕ (I)	num.	seven	
+153720	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
 153720	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 # KTU 1.112 30						
-153721	iln	il(I)/+n	ỉl (I)	n. m. abs. gen.	god	
+153721	iln	il(I)/+n	ỉl (I)	n. m. cstr. gen.	god	
 153721	iln	iln(I)/	ỉln (I)	n. m. sg. abs. gen.	deity	
-153722	ṯlṯt	ṯlṯ(I)/	ṯlṯ (I)	nuf.	three	
+153722	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
 # KTU 1.112 31						
 153723	pbxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 32						

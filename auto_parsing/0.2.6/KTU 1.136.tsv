@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154807	ipd	ipd/	ỉpd	n. m. sg. cstr. nom.	tunic	
 # KTU 1.136 2						
 154808	ipd	ipd/	ỉpd	n. m. sg. cstr. gen.	tunic	
-154809	gk	g/+k	g	n. m. abs. gen.	(loud) voice	
+154809	gk	g/+k	g	n. m. cstr. gen.	(loud) voice	
 # KTU 1.136 3						
 154810	w	w	w	conj.	and	
 154811	lṯġr	?	?	?	?	DULAT: NOT FOUND
@@ -50,10 +50,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154831	l	l(I)	l (I)	prep.	to	
 154831	l	l(III)	l (III)	functor	certainly	
 154832	ilz	ilz	ỉlz	?	?	
-154833	ṣt	ṣ(t/t	ṣt	n. f. sg. abs. nom.	garment	
+154833	ṣt	ṣ(t/t	ṣt	n. f. sg. cstr. nom.	garment	
 # KTU 1.136 12						
-154834	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+154834	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 154835	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.136 13						
-154836	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+154836	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 154837	kmm	kmm	kmm	adv.	ditto	

@@ -5,13 +5,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149845	k	k(III)	k (III)	Subordinating or completive functor	when	
 149845	k	k(I)	k (I)	prep.	like	
 149845	k	k(II)	k (II)	emph. functor	yes	
-149846	ydm	yd(I)/m	yd (I)	n. f. pl. abs. nom.	hand	
-149847	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-149847	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+149846	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. nom.	hand	
+149847	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+149847	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 # KTU 1.75 2						
-149848	ydm	yd(I)/m	yd (I)	n. f. pl. abs. nom.	hand	
-149849	nhr	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	
-149849	nhr	nhr/	nhr	n. m. sg. abs. nom.	river	
+149848	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. gen.	hand	
+149849	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
+149849	nhr	nhr/	nhr	n. m. sg. abs. gen.	river	
 # KTU 1.75 3						
 149850	trġt	trġt	trġt	?		
 # KTU 1.75 4						
@@ -23,28 +23,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.75 6						
 149854	xḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.75 7						
-149855	dt	d	d	det. or rel. functor	the one(s) of	
+149855	dt	d&t	d	det. or rel. functor	the one(s) of	
 # KTU 1.75 8						
 149856	ksḥṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.75 9						
-149857	mnty	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+149857	mnty	mn(t(I)/t&y	mnt (I)	n. f. sg. cstr. nom.	portion	
 # KTU 1.75 10						
-149858	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-149858	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-149858	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-149858	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-149859	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-149859	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
-149859	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-149859	spr	spr[	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-149859	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-149859	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
-149860	ḫbb	ḫbb/	ḫbb	PN sg. abs. nom.	ḫbb	
+149858	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+149858	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+149859	spr	spr(II)/	spr (II)	n. m. sg. cstr. gen.	tablet / register	
+149859	spr	spr(I)/	spr (I)	n. m. sg. cstr. gen.	scribe	
+149860	ḫbb	ḫbb/	ḫbb	PN sg. cstr. gen.	ḫbb	
 # KTU 1.75 11						
-149861	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-149861	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-149861	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-149862	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	sacrifice	
+149861	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+149862	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. gen.	sacrifice	
 # KTU 1.75 12						
 149863	x	?	?	?	?	
 149864	ˤbdssm	ˤbdssm/	ʕbdssm	PN sg. abs. nom.	ʿbdssm	

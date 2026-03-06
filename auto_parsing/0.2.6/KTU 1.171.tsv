@@ -25,7 +25,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155772	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
 155773	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 # KTU 1.171 4						
-155774	rm	rm(II)/	rm (II)	n. m. sg. abs. gen.	erection	
+155774	rm	rm(I)/	rm (I)	adj. m. sg. abs. nom.	high	
+155774	rm	rm[	/r-m/	vb G suffc. 3 m. sg.	to go up	
+155774	rm	rm(II)/	rm (II)	n. m. sg. cstr. nom.	erection	
 155775	w	w	w	conj.	and	
 155776	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 155776	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
@@ -34,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.171 5						
 155779		?	?	?	?	
 155780	šrp	šrp/	šrp	n. m. sg. cstr. nom.	burnt sacrifice	
-155781	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. abs. gen.	bird	
+155781	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 155782	l	l(I)	l (I)	prep.	to	
 155782	l	l(III)	l (III)	functor	certainly	
 155783	inšilm	?	?	?	?	DULAT: NOT FOUND

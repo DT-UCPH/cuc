@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.28 1						
-161857	arbˤm	arbˤ/	ảrbʕ	num.	four	
+161857	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
 161857	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
 # KTU 3.28 2						
 161858	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
@@ -21,32 +21,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.28 5						
 161866	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	jar	
 161867	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
-161868	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg. abs. gen.	residue	
-161869	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc. 3 m. sg.	to fail	
-161869	ḫsr	ḫsr/	ḫsr	n. m. sg. abs. nom.	deficit	
+161868	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg. cstr. gen.	residue	
+161869	ḫsr	ḫsr/	ḫsr	n. m. sg. cstr. gen.	deficit	
 # KTU 3.28 6						
-161870	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161870	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161870	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161870	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161871	mzt	mzt/	mzt	PN sg. abs. nom.	mzt	
-161872	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161872	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161872	bn	bn(II)	bn (II)	prep.	between	
-161872	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161872	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161873	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. abs. nom.	ʿAṯtar	
+161870	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161871	mzt	mzt/	mzt	PN sg. cstr. gen.	mzt	
+161872	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+161872	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+161873	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. cstr. gen.	ʿAṯtar	
 # KTU 3.28 7						
-161874	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	jar	
-161875	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
-161876	mltḥm	mltḥ/m	mltḥ	n. m. pl. abs. nom.	Hälfte	
+161874	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	jar	
+161875	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
+161876	mltḥm	mltḥ/m	mltḥ	n. m. pl. cstr. gen.	Hälfte	
 # KTU 3.28 8						
-161877	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc. 3 m. sg.	to fail	
-161877	ḫsr	ḫsr/	ḫsr	n. m. sg. abs. nom.	deficit	
-161878	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161878	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161878	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161878	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+161877	ḫsr	ḫsr/	ḫsr	n. m. sg. cstr. gen.	deficit	
+161878	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
 161879	abqn	?	?	?	?	DULAT: NOT FOUND
 161880	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 161880	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
@@ -55,11 +44,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161880	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161881	śwn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.28 9						
-161882	arbˤm	arbˤ/	ảrbʕ	num.	four	
+161882	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
 161882	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
 161883	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.28 10						
-161884	ḫmšt	ḫmš(I)/	ḫmš (I)	nuf.	five	
+161884	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
 161885	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. nom.	total (quantity or price)	
 161886	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 # KTU 3.28 11						
@@ -71,45 +60,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161890	mtn	mt(II)/+n	mt (II)	n. m. cstr. gen.	death	
 161890	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
 # KTU 3.28 13						
-161891	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. gen.	group of ten	
+161891	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 161892	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161893	w	w	w	conj.	and	
-161894	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
+161894	mit	mi(t/t	mỉt	n. f. sg. cstr. nom.	a hundred	
 # KTU 3.28 14						
-161895	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
-161896	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161896	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161896	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161896	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161897	stry	stry/	stry	PN sg. abs. nom.	stry	
+161895	iqni	iqn(u/&i	ỉqnủ	n. m. sg. cstr. gen.	gem of lapis lazuli	
+161896	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161897	stry	stry/	stry	PN sg. cstr. gen.	stry	
 # KTU 3.28 15						
-161898	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161898	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161898	bn	bn(II)	bn (II)	prep.	between	
-161898	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161898	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161899	ktš	ktš/	ktš	PN sg. abs. nom.	ktš	
+161898	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+161898	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+161899	ktš	ktš/	ktš	PN sg. abs. gen.	ktš	
 # KTU 3.28 16						
 161900	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 161901	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.28 17						
 161902	w	w	w	conj.	and	
-161903	mitm	mit/m	mỉt	n. f. pl. abs. nom.	a hundred	
-161904	iqnu	iqnu/	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
+161903	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	a hundred	
+161904	iqnu	iqnu/	ỉqnủ	n. m. sg. cstr. gen.	gem of lapis lazuli	
 # KTU 3.28 18						
-161905	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
-161905	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-161905	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-161905	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161906	abbt	abbt/	ảbbt	PN sg. abs. nom.	ảbbt	
-161907	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-161907	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161907	bn	bn(II)	bn (II)	prep.	between	
-161907	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161907	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161905	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+161906	abbt	abbt/	ảbbt	PN sg. cstr. gen.	ảbbt	
+161907	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
+161907	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161908	ġly	ġly[	/ġ-l-y/	vb G suffc. 3 m. sg.	to lose the proper aspect	
 161908	ġly	!!ġly[/	/ġ-l-y/	vb G inf.	to lose the proper aspect	
 # KTU 3.28 19						
 161909	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. nom.	witness	
-161910	mtn	mt(II)/+n	mt (II)	n. m. abs. gen.	death	
-161910	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. abs. gen.	to die	
+161910	mtn	mt(II)/+n	mt (II)	n. m. cstr. gen.	death	
+161910	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	

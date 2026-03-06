@@ -27,9 +27,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155873	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 155874	w	w	w	conj.	and	
 155875	š	š/	š	n. m. sg. cstr. nom.	ram	
-155876	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-155876	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-155876	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 155876	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 155876	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
 155877	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -62,33 +59,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155890	š	š/	š	n. m. sg. abs. nom.	ram	
 155891	m	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.173 12						
-155892	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-155892	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
-155892	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-155893	š	š/	š	n. m. sg. abs. nom.	ram	
-155894	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
-155894	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-155894	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+155892	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
+155892	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. nom.	communion victim / sacrifice	
+155892	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
+155893	š	š/	š	n. m. sg. cstr. gen.	ram	
+155894	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
+155894	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.173 13						
 155895		?	?	?	?	
-155896	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
-155896	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
-155897	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155897	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+155896	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. cstr. gen.	Hero	
+155896	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. cstr. gen.	offering	
+155897	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
+155897	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 1.173 14						
 155898	x	?	?	?	?	
 155899	w	w	w	conj.	and	
 155900	kll	kll/	kll	n. m. sg. abs. nom.	totality	
 # KTU 1.173 15						
 155901	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-155902	pamt	pa/m	pảm(t)	n. f. pl. abs. nom.	time	
+155902	pamt	pa/m&t	pảm(t)	n. f. pl. abs. nom.	time	
 # KTU 1.173 16						
 155903	w	w	w	conj.	and	
 155904	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 155904	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 155905	npṣh	npṣ/+h	npṣ	n. m. cstr. nom.	personal belongings	
 # KTU 1.173 17						
-155906	ṯˤh	ṯˤ(II)/h	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
+155906	ṯˤh	ṯˤ(II)/+h	ṯʕ (II)	n. m. sg. cstr. nom.	Hero	
 155907	w	w	w	conj.	and	
 155908	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 155908	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	

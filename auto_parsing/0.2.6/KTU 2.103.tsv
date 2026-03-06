@@ -33,9 +33,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160463	nḫtk	nḫt/+k	nḫt	n. f. cstr. nom.	divan	
 # KTU 2.103 11						
 160464	xxṣ	?	?	?	?	DULAT: NOT FOUND
-160465	ky	k(III)	k (III)	Subordinating or completive functor	when	
-160465	ky	k(II)	k (II)	emph. functor	yes	
-160465	ky	k(IV)	k (IV)	adv.	thus	
+160465	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
+160465	ky	k(II)&y	k (II)	emph. functor	yes	
+160465	ky	k(IV)&y	k (IV)	adv.	thus	
 160466	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	
 160466	ḫbt	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
 160467	w	w	w	conj.	and	
@@ -48,19 +48,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160472	rṣ	?	?	?	?	DULAT: NOT FOUND
 160473	lby	lb/y	lb	n. m. sg. abs. nom.	heart	
 160474	w	w	w	conj.	and	
-160475	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
-160475	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
+160475	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
+160475	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. cstr. nom.	cheek	
 # KTU 2.103 14						
-160476	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
-160476	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
+160476	kt	k(t(I)/t	kt (I)	n. f. sg. abs. gen.	pitcher	
+160476	kt	k(t(II)/t	kt (II)	n. f. sg. abs. gen.	stage	
 160477	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 160478	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. gen.	missive	
 160478	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. gen.	cheek	
 # KTU 2.103 15						
 160479	u	u	ủ	conj.	or	
-160480	ky	k(III)	k (III)	Subordinating or completive functor	when	
-160480	ky	k(II)	k (II)	emph. functor	yes	
-160480	ky	k(IV)	k (IV)	adv.	thus	
+160480	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
+160480	ky	k(II)&y	k (II)	emph. functor	yes	
+160480	ky	k(IV)&y	k (IV)	adv.	thus	
 160481	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.103 16						
 160482	xxxd	?	?	?	?	DULAT: NOT FOUND
@@ -94,15 +94,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160497	lkblm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 22						
 160498	lkn	l(I)+kn	l (I)	prep.	to	
-160498	lkn	l(I)+n	l (I)	prep.	to	
+160498	lkn	l(I)&k+n	l (I)	prep.	to	
 160498	lkn	lkn/	lkn	PN sg. abs. nom.	lkn	
 # KTU 2.103 23						
 160499	mxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 24						
-160500	tˤn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc.	to answer	
+160500	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
+160500	tˤn	!t=!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. sg.	to answer	
+160500	tˤn	!t==!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 f. sg.	to answer	
+160500	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	
+160500	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
+160500	tˤn	!t===!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	to answer	
 160500	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
 160500	tˤn	!t!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
-160500	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc.	to be / remain depressed	
+160500	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 f. sg.	to be / remain depressed	
+160500	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
+160500	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
+160500	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+160500	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
+160500	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 # KTU 2.103 25						
 160501	ktt	ktt(I)/	ktt (I)	adj. m. sg. abs. nom.	ground	
 160502		?	?	?	?	
@@ -124,16 +134,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160512	w	w	w	conj.	and	
 160513	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 160514	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. cstr. gen.	sister (related by blood)	
-160515	mid	mi/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	
+160515	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
 # KTU 2.103 32						
-160516	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
-160517	bnil	bnil/	bnỉl	PN sg. abs. gen.	bnỉl	
+160516	p	p(I)	p (I)	conj. functor	and	
+160516	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+160516	p	p(II)	p (II)	adv.	here	
+160517	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
 160518	šḥš	]š]ḥš(I)[	/ḥ-š/ (I)	vb Š impv. 2	to hurry	
 160519		?	?	?	?	
 # KTU 2.103 33						
 160520	ˤkd	ˤkd/	ʕkd	TN sg. abs. nom.	ungestüm	
 160521	w	w	w	conj.	and	
 160522	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-160522	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
+160522	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 160523	t	/t, /t=				DULAT: NOT FOUND
 160523	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND

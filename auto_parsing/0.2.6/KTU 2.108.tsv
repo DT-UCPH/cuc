@@ -7,18 +7,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160624	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	one	
 160624	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
 160624	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
-160625	inn	in/	ỉn	n. m. sg. abs. nom.	lack of	
+160625	inn	in&n/	ỉn	n. m. sg. abs. nom.	lack of	
 160626	xxx	?	?	?	?	
 # KTU 2.108 3						
 160627	w	w	w	conj.	and	
 160628	ank	ank	ảnk	pers. pn.	I	
 160629	inny	in/	ỉn	n. m. sg. cstr. nom.	lack of	
 # KTU 2.108 4						
-160630	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. gen.	to know	
-160631	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
-160632	bnšm	bnš/~m	bnš	n. m. abs. nom. pl.	man	
+160630	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. cstr. gen.	to know	
+160631	kl	kl/	kl	n. m. sg. cstr. gen.	totality (of)	
+160632	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	man	
 # KTU 2.108 5						
-160633	dt	d	d	det. or rel. functor	the one(s) of	
+160633	dt	d&t	d	det. or rel. functor	the one(s) of	
 160634	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
 160634	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. nom.	to flee	
 160634	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
@@ -29,13 +29,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160638	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
 160639	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	man	
 # KTU 2.108 7						
-160640	dt	d	d	det. or rel. functor	the one(s) of	
+160640	dt	d&t	d	det. or rel. functor	the one(s) of	
 160641	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
 160641	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. nom.	to flee	
 160641	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
 160642	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 2.108 8						
-160643	by	b	b	prep.	in	
+160643	by	b&y	b	prep.	in	
 160644	spr	spr(II)/	spr (II)	n. m. sg. cstr. gen.	tablet / register	
 160644	spr	spr(I)/	spr (I)	n. m. sg. cstr. gen.	scribe	
 160645	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
@@ -49,7 +49,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160650	w	w	w	conj.	and	
 160651	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.108 11						
-160652	ydˤt	ydˤt[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
+160652	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
+160652	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
+160652	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
+160652	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
 160652	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
 160653	d	d	d	det. or rel. functor	the one(s) of	
 160654	ašxn	?	?	?	?	DULAT: NOT FOUND
@@ -66,4 +69,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160662	b	b	b	prep.	in	
 160663	spr	spr(II)/	spr (II)	n. m. sg. cstr. gen.	tablet / register	
 160663	spr	spr(I)/	spr (I)	n. m. sg. cstr. gen.	scribe	
-160664	štnn	št(II)/+nn	št (II)	n. f. abs. gen.	raíz, ?	
+160664	štnn	št(II)/+nn	št (II)	n. f. cstr. gen.	raíz, ?	

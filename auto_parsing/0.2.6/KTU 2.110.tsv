@@ -17,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160688	l	l(I)	l (I)	prep.	to	
 160688	l	l(III)	l (III)	functor	certainly	
 # KTU 2.110 6						
-160689	dt	d	d	det. or rel. functor	the one(s) of	
+160689	dt	d&t	d	det. or rel. functor	the one(s) of	
 160690	l	l(I)	l (I)	prep.	to	
 160690	l	l(II)	l (II)	adv.	no	
 160690	l	l(III)	l (III)	functor	certainly	
@@ -26,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160691	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 160691	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 2.110 7						
-160692	mid	mi/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
+160692	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
 160693	w	w	w	conj.	and	
 # KTU 2.110 8						
 160694	xxrx	?	?	?	?	DULAT: NOT FOUND

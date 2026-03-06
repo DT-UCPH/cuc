@@ -53,24 +53,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160917	l	l(I)	l (I)	prep.	to	
 160917	l	l(III)	l (III)	functor	certainly	
 160918	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
-160919	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. cstr. gen.	throne	
-160919	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. cstr. gen.	time	
+160919	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+160919	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 # KTU 3.2 12						
-160920	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. gen.	eternity	
+160920	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+160920	ˤlm	ˤl(II)&m	ʕl (II)	adv.	above	
+160920	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 160921	mnk	mnk	mnk	indef. pn.	whoever	
 # KTU 3.2 13						
-160922	mnkm	mnk	mnk	indef. pn.	whoever	
+160922	mnkm	mnk&m	mnk	indef. pn.	whoever	
 160923	l	l(I)	l (I)	prep.	to	
 160923	l	l(II)	l (II)	adv.	no	
 160923	l	l(III)	l (III)	functor	certainly	
 160924	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-160924	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass	to get hold of	
+160924	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 # KTU 3.2 14						
 160925	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 160925	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 160925	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 160926	hnd	hnd	hnd	dem.	this	
-160927	bd	b	b	prep.	in	
+160927	bd	b&d	b	prep.	in	
 # KTU 3.2 15						
 160928	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. gen.	ʿbdmlk	
 # KTU 3.2 16						
@@ -80,19 +82,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 17						
 160931	wbd	?	?	?	?	DULAT: NOT FOUND
 160932	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
-160933	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
-160933	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
-160934	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
+160933	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+160933	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+160934	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 # KTU 3.2 18						
 160935	w	w	w	conj.	and	
 160936	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	
 160936	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. nom.	obligation	
 160937	in	in/	ỉn	n. m. sg. abs. gen.	lack of	
 160938	mnm	mnm	mnm	indef. pn.	any(thing)	
+160939	bh	b&h	b	prep.	in	
 160939	bh	b+h	b	prep.	in	
 # KTU 3.2 19						
-160940	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. cstr. gen.	seal	
-160941	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. gen.	ʿmṯtmr	
+160940	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. nom.	seal	
+160941	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
 # KTU 3.2 20						
 160942	xxxk	?	?	?	?	DULAT: NOT FOUND
 160943	u	u	ủ	conj.	or	

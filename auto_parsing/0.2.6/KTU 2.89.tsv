@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.89 1						
 159910	l	l(I)	l (I)	prep.	to	
-159911	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
-159912	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
+159911	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
+159912	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 159913	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 159913	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 159913	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -40,10 +40,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159930	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
 # KTU 2.89 7						
 159931	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
-159932	ṯmny	ṯm	ṯm	adv.	there	
+159932	ṯmny	ṯm&ny	ṯm	adv.	there	
 # KTU 2.89 8						
 159933	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159934	adty	ad(t/t+y	ảdt	n. f. sg. abs. gen.	lady	
+159934	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 159935	mnmšlm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.89 9						
 159936	w	w	w	conj.	and	
@@ -51,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159938	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 # KTU 2.89 10						
 159939	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159940	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. abs. gen.	servant	
+159940	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. gen.	servant	
 # KTU 2.89 11						
 159941	w	w	w	conj.	and	
 159942	hln	hln	hln	deictic adv. functor	look!	
@@ -70,9 +70,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159952	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 2.89 15						
 159953	dbd	db/+d	db	n. m. cstr. nom.	threshold, ?	
-159954	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. abs. gen.	boy	
-159954	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. gen.	boy	
-159954	nˤr	nˤr(II)/	nʕr (II)	n. m. sg. abs. gen.	roasted	
+159954	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. cstr. nom.	boy	
+159954	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
+159954	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
+159954	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
+159954	nˤr	!n!(]n]ˤr[	/ʕ-r/	vb N prefc. 1 c. pl.	to become agitated	
+159954	nˤr	]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
+159954	nˤr	nˤr(II)/	nʕr (II)	n. m. sg. abs. nom.	roasted	
 159955	x	?	?	?	?	
 # KTU 2.89 16						
 159956	kd	kd(I)/	kd (I)	n. f. sg. cstr. nom.	jar	
@@ -87,11 +91,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159963	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. cstr. gen.	vinegar	
 # KTU 2.89 19						
 159964	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	jar	
-159965	ztmm	zt&m/+m(I)	zt	n. m. abs. gen.	olive	
+159965	ztmm	zt&m/+m(I)	zt	n. m. cstr. gen.	olive	
 # KTU 2.89 20						
 159966	d	d	d	det. or rel. functor	the one(s) of	
-159967	znt	zn(t/t	znt	n. f. sg. abs. nom.	sustenance	
-159968	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
+159967	znt	zn(t/t	znt	n. f. sg. cstr. nom.	sustenance	
+159968	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.89 21						
-159969	kllm	kll/	kll	n. m. sg. abs. nom.	totality	
+159969	kllm	kll/m	kll	n. m. pl. abs. nom.	totality	
 159970	štnt	ytn[t	/y-t-n/	vb	to give	

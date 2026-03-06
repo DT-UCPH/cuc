@@ -1,17 +1,16 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.20 1						
 161648	rišym	rišy/	rỉšy	GN pl. abs. nom.	rỉšy	
-161649	dt	d	d	det. or rel. functor	the one(s) of	
-161650	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
-161650	ˤrb	ˤrb(II)[	/ʕ-r-b/ (II)	vb G suffc. 3 m. sg.	to give a guarantee or pledge	
-161650	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
+161649	dt	d&t	d	det. or rel. functor	the one(s) of	
+161650	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
+161650	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	to give a guarantee or pledge	
 # KTU 3.20 2						
 161651	b	b	b	prep.	in	
-161652	bnšhm	bnš/	bnš	n. m. pl. cstr. gen.	man	
+161652	bnšhm	bnš/+hm	bnš	n. m. pl. cstr. gen.	man	
 # KTU 3.20 3						
-161653	ḏmry	ḏmr(I)[/+y	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to protect	
-161653	ḏmry	ḏmr(I)/+y	ḏmr (I)	n. m. abs. gen.	guardian	
-161653	ḏmry	ḏmry/	ḏmry	PN sg. abs. gen.	ḏmry	
+161653	ḏmry	ḏmr(I)[/+y	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. cstr. nom.	to protect	
+161653	ḏmry	ḏmr(I)/+y	ḏmr (I)	n. m. cstr. nom.	guardian	
+161653	ḏmry	ḏmry/	ḏmry	PN sg. abs. nom.	ḏmry	
 161654	w	w	w	conj.	and	
 161655	pṯpṯ	pṯpṯ/	pṯpṯ	PN sg. cstr. nom.	pṯpṯ	
 161656	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. gen.	entry	
@@ -49,8 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161674	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161675	yrm	!y!rm(y[	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
 # KTU 3.20 10						
-161676	ˤrb	ˤrb(I)[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
-161676	ˤrb	ˤrb(II)[	/ʕ-r-b/ (II)	vb G suffc. 3 m. sg.	to give a guarantee or pledge	
-161676	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
+161676	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
+161676	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	to give a guarantee or pledge	
 161677	b	b	b	prep.	in	
 161678	adˤy	?	?	?	?	DULAT: NOT FOUND

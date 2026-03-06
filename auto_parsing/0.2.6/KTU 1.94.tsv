@@ -56,25 +56,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 24						
 151520	t	/t, /t=				DULAT: NOT FOUND
 151520	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-151521	btm	bt(II)/m	bt (II)	n. m. pl. abs. nom.	house	
-151521	btm	bt(I)/m	bt (I)	n. f. pl. abs. nom.	daughter	
-151522	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
-151522	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
-151523	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-151523	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-151523	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-151523	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+151521	btm	bt(II)/m	bt (II)	n. m. pl. cstr. nom.	house	
+151521	btm	bt(I)/m	bt (I)	n. f. pl. cstr. nom.	daughter	
+151522	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+151523	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+151523	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.94 25						
-151524	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
-151524	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-151524	bn	bn(II)	bn (II)	prep.	between	
-151524	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-151524	bn	bn[	/b-n/	vb G impv. 2	to understand	
-151525	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
-151525	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
-151526	kb	kb(I)/	kb (I)	adj. m. abs. nom.	sewn	
-151526	kb	kb(II)/	kb (II)	n. m. abs. nom.	intestine(s)	
-151526	kb	kb/	kb	PN sg. abs. nom.	kb	
+151524	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+151524	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+151525	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+151526	kb	kb(II)/	kb (II)	n. m. abs. gen.	intestine(s)	
+151526	kb	kb/	kb	PN sg. abs. gen.	kb	
 # KTU 1.94 26						
 151527	ˤsb	ˤsb	ʕsb	?	?	
 151528	xxḥ	?	?	?	?	DULAT: NOT FOUND
@@ -93,8 +85,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 29						
 151535	xẓk	?	?	?	?	DULAT: NOT FOUND
 151536	w	w	w	conj.	and	
-151537	aṯt	aṯ(t/t	ảṯt	n. f. du. abs. nom.	woman	
-151537	aṯt	aṯ(t/t	ảṯt	n. f. pl. abs. nom.	woman	
 151537	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
 151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
 # KTU 1.94 30						
@@ -120,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151551	xṯ	?	?	?	?	DULAT: NOT FOUND
 151552	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.94 35						
-151553	ṯtm	ṯn(I)/	ṯn (I)	nuf.	two	
+151553	ṯtm	ṯtm(I)/	ṯn (I)	num. f.	two	
 151554	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 151554	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 151554	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
@@ -131,4 +121,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151555	km	k(IV)	k (IV)	adv.	thus	
 151555	km	km	km	prep./conj./adv.		
 151555	km	+km, +km=	-km			
-151556	tˤrb	!t!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc.	to enter	
+151556	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	to enter	
+151556	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	to enter	
+151556	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	to enter	
+151556	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 m. du.	to enter	
+151556	tˤrb	!t!ˤrb[:w	/ʕ-r-b/ (I)	vb G prefc. 3 m. pl.	to enter	
+151556	tˤrb	!t===!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. pl.	to enter	

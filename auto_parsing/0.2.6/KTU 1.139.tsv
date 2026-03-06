@@ -21,9 +21,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154875	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. gen.	help	
 154876	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 154876	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
-154876	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-154876	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-154876	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 154877	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.139 7						
 154878		?	?	?	?	
@@ -31,12 +28,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154879	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 154880	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.139 9						
-154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
-154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-154881	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+154881	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+154881	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 # KTU 1.139 10						
-154882	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. nom.	damsel	
-154882	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. nom.	concealment	
+154882	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. gen.	damsel	
+154882	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	
 154883	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 1.139 11						
 154884	mm	mm(I)/	mm (I)	n. m. sg. abs. nom.	winter	
@@ -47,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154886	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 154886	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 154887	w	w	w	conj.	and	
-154888	prs	pr/	prś/s	n. m. sg. abs. nom.	misura di capacità per aridi	
+154888	prs	prs/	prś/s	n. m. sg. abs. nom.	misura di capacità per aridi	
 # KTU 1.139 13						
 154889	k	+k	-k (I)			
 154889	k	~k	-k (II)			
@@ -68,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154894	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
 154894	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
 154895	pdry	pdry/	pdry	DN sg. abs. gen.	Pidray	
-154895	pdry	pdr(I)/+y	pdr (I)	n. m. abs. gen.	town	
+154895	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
 # KTU 1.139 16						
 154896	alpw	?	?	?	?	DULAT: NOT FOUND
 154897	š	š/	š	n. m. sg. abs. nom.	ram	

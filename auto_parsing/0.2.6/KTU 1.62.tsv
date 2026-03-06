@@ -14,8 +14,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149353	amr	amr(I)/	ảmr (I)	n. m. sg. cstr. nom.	order	
 149354	ph	p(III)/+h	p (III)	n. m. cstr. gen.	mouth	
 # KTU 1.62 4						
-149355	mm	mm(I)/	mm (I)	n. m. sg. cstr. gen.	winter	
-149356	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to go	
+149355	mm	mm(I)/	mm (I)	n. m. sg. abs. nom.	winter	
+149356	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
 # KTU 1.62 5						
 149357	b	b	b	prep.	in	
 149358	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
@@ -26,7 +26,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149361	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.62 7						
 149362	l	l(I)	l (I)	prep.	to	
-149362	l	l(II)	l (II)	adv.	no	
 149362	l	l(III)	l (III)	functor	certainly	
 149363	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 149363	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
@@ -44,8 +43,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149368	y	+y, [y	-y (I)	prep. functor	my	
 149368	y	~y	-y (II)	prep. functor	indeed	
 149368	y	y	y	prep. functor	oh!	
-149369	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
-149369	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+149369	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+149369	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 1.62 11						
 149370		?	?	?	?	
 # KTU 1.62 12						

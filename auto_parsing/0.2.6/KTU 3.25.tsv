@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.25 4						
 161813	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
 161813	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
-161814	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. abs. gen.	woman	
+161814	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. gen.	woman	
 161815	w	w	w	conj.	and	
 # KTU 3.25 5						
 161816	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
@@ -29,14 +29,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161823	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 161823	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 161823	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
-161824	agpṯr	agb/	ảgb	PN sg. abs. gen.	ảgb	Based on DULAT reconstruction.
+161824	agpṯr	agb/	ảgb/pṯr	PN sg. abs. gen.	ảgb/pṯr	Based on DULAT reconstruction.
 # KTU 3.25 8						
 161825	b	b	b	prep.	in	
 161826	ḫrbġlm	ḫrbġlm/	ḫrbġlm	TN sg. cstr. gen.	ḫrbġlm	
 # KTU 3.25 9						
 161827	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
 161827	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
-161828	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. abs. gen.	woman	
+161828	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. gen.	woman	
 # KTU 3.25 10						
 161829	w	w	w	conj.	and	
 161830	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
