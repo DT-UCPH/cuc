@@ -30,6 +30,7 @@ from project_paths import get_project_paths  # noqa: E402
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text  # noqa: E402
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology  # noqa: E402
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts  # noqa: E402
+from pipeline.dulat_attestation_index import DulatAttestationIndex  # noqa: E402
 
 SEPARATOR_RE = re.compile(
     r"^\s*#\s*(?:-+\s*)?(?:KTU|CAT)\s+(\d+\.\d+)"
@@ -1189,6 +1190,70 @@ def is_function_word_like(entry: Entry) -> bool:
     return any(token in pos for token in ("functor", "adv.", "prep.", "conj.", "det."))
 
 
+def is_proper_name_pos(pos: str) -> bool:
+    """Return True for PN onomastic candidates, but not personal pronouns."""
+    raw = (pos or "").strip()
+    return "pers. pn." not in raw.lower() and bool(re.search(r"\bPN\b", raw))
+
+
+def variant_is_proper_name(variant: Variant) -> bool:
+    lexical_entries = [
+        entry for entry in variant.entries if not (entry.lemma or "").startswith("-")
+    ]
+    return any(is_proper_name_pos(entry.pos) for entry in lexical_entries)
+
+
+def variant_has_non_pn_lexical_reading(variant: Variant) -> bool:
+    lexical_entries = [
+        entry for entry in variant.entries if not (entry.lemma or "").startswith("-")
+    ]
+    if not lexical_entries:
+        return False
+    if all((entry.pos or "").strip() == "→" for entry in lexical_entries):
+        return False
+    return not variant_is_proper_name(variant)
+
+
+def variant_has_direct_dulat_attestation(
+    variant: Variant,
+    current_ref: str,
+    direct_reference_index: DulatAttestationIndex | None,
+) -> bool:
+    if direct_reference_index is None or not current_ref:
+        return False
+    for entry in variant.entries:
+        if not is_proper_name_pos(entry.pos):
+            continue
+        if direct_reference_index.has_reference_for_variant_token(entry_label(entry), current_ref):
+            return True
+    return False
+
+
+def prune_unattested_pn_variants(
+    variants: List[Variant],
+    current_ref: str,
+    direct_reference_index: DulatAttestationIndex | None,
+) -> List[Variant]:
+    """Keep PN variants only when directly attested for this line or alone."""
+    pn_variants = [variant for variant in variants if variant_is_proper_name(variant)]
+    other_variants = [
+        variant for variant in variants if variant_has_non_pn_lexical_reading(variant)
+    ]
+    if not pn_variants or not other_variants:
+        return variants
+
+    kept_pn_variants = [
+        variant
+        for variant in pn_variants
+        if variant_has_direct_dulat_attestation(
+            variant=variant,
+            current_ref=current_ref,
+            direct_reference_index=direct_reference_index,
+        )
+    ]
+    return other_variants + kept_pn_variants
+
+
 def build_variants(
     surface: str,
     current_ref: str,
@@ -1200,6 +1265,7 @@ def build_variants(
     entry_ref_count: Dict[int, int],
     entry_tablets: Dict[int, Set[str]],
     entry_family_count: Dict[int, Dict[str, int]],
+    direct_reference_index: DulatAttestationIndex | None = None,
     max_variants: int = 3,
 ) -> List[Variant]:
     s_norm = normalize_lookup(surface)
@@ -1300,6 +1366,11 @@ def build_variants(
         if sig not in uniq:
             uniq[sig] = v
     variants = list(uniq.values())
+    variants = prune_unattested_pn_variants(
+        variants=variants,
+        current_ref=current_ref,
+        direct_reference_index=direct_reference_index,
+    )
 
     for v in variants:
         v.score = score_variant(
@@ -1414,6 +1485,7 @@ def refine_file(
     entry_ref_count: Dict[int, int],
     entry_tablets: Dict[int, Set[str]],
     entry_family_count: Dict[int, Dict[str, int]],
+    direct_reference_index: DulatAttestationIndex | None = None,
     only_not_found: bool = False,
 ) -> Tuple[int, int]:
     lines = path.read_text(encoding="utf-8").splitlines()
@@ -1477,6 +1549,7 @@ def refine_file(
             entry_ref_count,
             entry_tablets,
             entry_family_count,
+            direct_reference_index=direct_reference_index,
             max_variants=3,
         )
 
@@ -1545,6 +1618,7 @@ def main() -> None:
     reverse_mentions, entry_ref_count, entry_tablets, entry_family_count = load_reverse_mentions(
         Path(args.dulat_db), Path(args.udb_db)
     )
+    direct_reference_index = DulatAttestationIndex.from_sqlite(Path(args.dulat_db))
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -1563,6 +1637,7 @@ def main() -> None:
             entry_ref_count,
             entry_tablets,
             entry_family_count,
+            direct_reference_index=direct_reference_index,
             only_not_found=args.only_not_found,
         )
         print(f"{src} -> {dst} | rows={rows} changed={changed}")

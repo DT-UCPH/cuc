@@ -20,6 +20,7 @@ import sqlite3
 from pathlib import Path
 from typing import Dict
 
+from pipeline.dulat_attestation_index import DulatAttestationIndex
 from pipeline.steps.base import RefinementStep, StepResult, TabletRow, parse_tsv_line
 from scripts.refine_results_mentions import (
     Variant,
@@ -124,6 +125,7 @@ class AttestedSplitTokenMergeFixer(RefinementStep):
         self._entry_ref_count = {}
         self._entry_tablets = {}
         self._entry_family_count = {}
+        self._direct_reference_index = DulatAttestationIndex.empty()
 
     @property
     def name(self) -> str:
@@ -149,6 +151,7 @@ class AttestedSplitTokenMergeFixer(RefinementStep):
                 self._entry_tablets,
                 self._entry_family_count,
             ) = load_reverse_mentions(self._dulat_db, self._udb_db)
+            self._direct_reference_index = DulatAttestationIndex.from_sqlite(self._dulat_db)
         except (sqlite3.Error, OSError):
             self._disabled = True
         self._loaded = True
@@ -236,6 +239,7 @@ class AttestedSplitTokenMergeFixer(RefinementStep):
             self._entry_ref_count,
             self._entry_tablets,
             self._entry_family_count,
+            direct_reference_index=self._direct_reference_index,
             max_variants=5,
         )
         if not variants:

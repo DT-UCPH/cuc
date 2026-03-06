@@ -5,6 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from pipeline.dulat_attestation_index import DulatAttestationIndex, normalize_reference_label
 from scripts.refine_results_mentions import (
     Entry,
     Variant,
@@ -576,7 +577,7 @@ class RefineResultsMentionsTest(unittest.TestCase):
             )
 
             rendered = [render_variant("yry", variant, forms_morph) for variant in variants]
-            self.assertIn(("yry/", "yry", "PN", "yry"), rendered)
+            self.assertNotIn(("yry/", "yry", "PN", "yry"), rendered)
             self.assertTrue(any("+y(I)" in row[0] for row in rendered))
             self.assertTrue(any(row[0].startswith("yr/+y") for row in rendered))
 
@@ -630,6 +631,123 @@ class RefineResultsMentionsTest(unittest.TestCase):
         rendered = [render_variant("nny", variant, forms_morph={}) for variant in variants]
         self.assertEqual(rendered[0], ("nny/", "nny", "TN", "nny"))
         self.assertFalse(any("+y(I)" in row[0] for row in rendered))
+
+    def test_prunes_pn_variant_without_direct_dulat_attestation_when_non_pn_exists(self) -> None:
+        dn_entry = Entry(
+            entry_id=50,
+            lemma="ltn",
+            hom="I",
+            pos="DN",
+            gloss="Lotan",
+            wiki_tr="",
+        )
+        pn_entry = Entry(
+            entry_id=51,
+            lemma="ltn",
+            hom="II",
+            pos="PN",
+            gloss="ltn (II)",
+            wiki_tr="",
+        )
+
+        variants = build_variants(
+            surface="ltn",
+            current_ref="CAT 1.5 I:1",
+            forms_map={"ltn": [dn_entry, pn_entry]},
+            lemma_map={"ltn": [dn_entry, pn_entry]},
+            suffix_map={},
+            forms_morph={("ltn", 50): {"abs."}, ("ltn", 51): {"cstr."}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            direct_reference_index=DulatAttestationIndex.empty(),
+            max_variants=5,
+        )
+
+        rendered = [render_variant("ltn", variant, forms_morph={}) for variant in variants]
+        self.assertEqual(rendered, [("ltn(I)/", "ltn (I)", "DN", "Lotan")])
+
+    def test_keeps_pn_variant_with_direct_dulat_attestation_when_non_pn_exists(self) -> None:
+        dn_entry = Entry(
+            entry_id=60,
+            lemma="ltn",
+            hom="I",
+            pos="DN",
+            gloss="Lotan",
+            wiki_tr="",
+        )
+        pn_entry = Entry(
+            entry_id=61,
+            lemma="ltn",
+            hom="II",
+            pos="PN",
+            gloss="ltn (II)",
+            wiki_tr="",
+        )
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={
+                ("ltn", "II"): {normalize_reference_label("CAT 1.5 I:1")},
+            },
+        )
+
+        variants = build_variants(
+            surface="ltn",
+            current_ref="CAT 1.5 I:1",
+            forms_map={"ltn": [dn_entry, pn_entry]},
+            lemma_map={"ltn": [dn_entry, pn_entry]},
+            suffix_map={},
+            forms_morph={("ltn", 60): {"abs."}, ("ltn", 61): {"cstr."}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            direct_reference_index=attestation_index,
+            max_variants=5,
+        )
+
+        rendered = [render_variant("ltn", variant, forms_morph={}) for variant in variants]
+        self.assertIn(("ltn(I)/", "ltn (I)", "DN", "Lotan"), rendered)
+        self.assertIn(("ltn(II)/", "ltn (II)", "PN", "ltn (II)"), rendered)
+
+    def test_does_not_treat_personal_pronoun_as_prunable_pn_variant(self) -> None:
+        pronoun_entry = Entry(
+            entry_id=70,
+            lemma="hm",
+            hom="I",
+            pos="pers. pn.",
+            gloss="they",
+            wiki_tr="",
+        )
+        conjunction_entry = Entry(
+            entry_id=71,
+            lemma="hm",
+            hom="II",
+            pos="conj./interr. functor",
+            gloss="if",
+            wiki_tr="",
+        )
+
+        variants = build_variants(
+            surface="hm",
+            current_ref="CAT 1.5 I:16",
+            forms_map={"hm": [pronoun_entry, conjunction_entry]},
+            lemma_map={"hm": [pronoun_entry, conjunction_entry]},
+            suffix_map={},
+            forms_morph={("hm", 70): {"sg."}, ("hm", 71): {"functor"}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            direct_reference_index=DulatAttestationIndex.empty(),
+            max_variants=5,
+        )
+
+        rendered = [render_variant("hm", variant, forms_morph={}) for variant in variants]
+        self.assertIn(("hm(I)", "hm (I)", "pers. pn.", "they"), rendered)
+        self.assertIn(("hm(II)", "hm (II)", "conj./interr. functor", "if"), rendered)
 
     def test_direct_exact_lexical_candidate_is_not_split_into_itself(self) -> None:
         direct = Entry(

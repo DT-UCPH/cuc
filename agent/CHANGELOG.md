@@ -1,3 +1,19 @@
+## 2026-03-07
+
+- Tightened proper-name candidate generation so rare `PN` readings are only kept when they are directly attested for the current tablet line in DULAT or when no competing non-onomastic lexical reading survives:
+  - `scripts/refine_results_mentions.py` now prunes unattested `PN` variants during initial DULAT-backed candidate building while preserving `pers. pn.` pronouns.
+  - `pipeline/tablet_parsing.py` now passes the direct DULAT attestation index into the main refine pass, so full-tablet runs use the same gate as the standalone refine script.
+  - `pipeline/steps/attested_split_token_merge.py` now also passes the direct attestation index into merged-token candidate generation.
+- Made `pipeline/steps/onomastic_gloss.py` reference-aware so it no longer blindly appends onomastic override variants to non-onomastic rows:
+  - unattested `PN` override rows are now suppressed when the same token already has a viable non-onomastic reading for that line,
+  - directly attested `PN` rows are still appended when DULAT cites that exact section reference.
+- Corrected `agent/data_sources/onomastic_gloss_overrides.tsv` so `šlyṭ` is treated as `DN m.` rather than `PN m.` in the override source.
+- Added focused regression coverage in:
+  - `tests/test_refine_results_mentions.py`
+  - `tests/test_tablet_parsing_pipeline.py`
+  - `tests/test_attested_split_token_merge.py`
+  - `tests/test_onomastic_gloss_overrides_format.py`
+
 ## 2026-03-06
 
 - Added a reviewed-vs-auto morphology agreement scorer under `reviewed_evaluation/` plus `scripts/score_reviewed_morphology.py`.

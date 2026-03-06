@@ -2,8 +2,11 @@ import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
+from pipeline.dulat_attestation_index import DulatAttestationIndex
 from pipeline.steps.attested_split_token_merge import AttestedSplitTokenMergeFixer
+from pipeline.steps.base import TabletRow
 
 
 class AttestedSplitTokenMergeFixerTest(unittest.TestCase):
@@ -110,3 +113,40 @@ class AttestedSplitTokenMergeFixerTest(unittest.TestCase):
             result = fixer.refine_file(target)
 
             self.assertEqual(result.rows_changed, 0)
+
+    def test_merged_row_uses_direct_attestation_index_for_variant_building(self) -> None:
+        fixer = AttestedSplitTokenMergeFixer(
+            dulat_db=Path("missing.sqlite"),
+            udb_db=Path("missing.sqlite"),
+        )
+        fixer._direct_reference_index = DulatAttestationIndex.empty()
+        row = TabletRow(
+            line_id="1",
+            surface="šly",
+            analysis="šly/",
+            dulat="šly",
+            pos="n.",
+            gloss="gift",
+            comment="",
+        )
+        next_row = TabletRow(
+            line_id="2",
+            surface="ṭ",
+            analysis="?",
+            dulat="?",
+            pos="?",
+            gloss="?",
+            comment="DULAT: NOT FOUND",
+        )
+
+        with patch(
+            "pipeline.steps.attested_split_token_merge.build_variants",
+            return_value=[],
+        ) as mock_build_variants:
+            merged = fixer._merged_row_for_pair("CAT 1.5 I:3", row, "CAT 1.5 I:4", next_row)
+
+        self.assertIsNone(merged)
+        self.assertIs(
+            mock_build_variants.call_args.kwargs["direct_reference_index"],
+            fixer._direct_reference_index,
+        )

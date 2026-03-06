@@ -6,9 +6,18 @@ import re
 from pathlib import Path
 from typing import Dict
 
-from pipeline.steps.base import RefinementStep, TabletRow
+from pipeline.dulat_attestation_index import DulatAttestationIndex
+from pipeline.steps.base import (
+    RefinementStep,
+    StepResult,
+    TabletRow,
+    is_separator_line,
+    normalize_separator_row,
+    parse_tsv_line,
+)
 from pipeline.steps.onomastic_overrides import OnomasticOverrideStore
 from project_paths import get_project_paths
+from scripts.refine_results_mentions import parse_separator_ref
 
 _ONOMASTIC_POS_TAGS = ("DN", "PN", "TN", "MN", "GN")
 _ONOMASTIC_CHAR_MAP = str.maketrans(
@@ -45,11 +54,13 @@ class OnomasticGlossOverrideFixer(RefinementStep):
         self,
         overrides_path: Path | None = None,
         overrides: Dict[str, str] | None = None,
+        attestation_index: DulatAttestationIndex | None = None,
     ) -> None:
         self._overrides_path = overrides_path or (
             get_project_paths(Path(__file__).resolve()).data_sources_dir
             / "onomastic_gloss_overrides.tsv"
         )
+        self._attestation_index = attestation_index or DulatAttestationIndex.empty()
         if overrides is not None:
             self._store = OnomasticOverrideStore.from_gloss_map(overrides)
         else:
@@ -60,6 +71,42 @@ class OnomasticGlossOverrideFixer(RefinementStep):
         return "onomastic-gloss-override"
 
     def refine_row(self, row: TabletRow) -> TabletRow:
+        return self._refine_row(row, current_ref="")
+
+    def refine_file(self, path: Path) -> StepResult:
+        lines = path.read_text(encoding="utf-8").splitlines()
+        out_lines: list[str] = []
+        rows_processed = 0
+        rows_changed = 0
+        current_ref = ""
+
+        for raw in lines:
+            if not raw.strip():
+                out_lines.append(raw)
+                continue
+            if is_separator_line(raw):
+                parsed_ref = parse_separator_ref(raw)
+                if parsed_ref:
+                    current_ref = parsed_ref
+                out_lines.append(normalize_separator_row(raw))
+                continue
+
+            row = parse_tsv_line(raw)
+            if row is None:
+                out_lines.append(raw)
+                continue
+
+            rows_processed += 1
+            refined = self._refine_row(row, current_ref=current_ref)
+            new_line = refined.to_tsv()
+            if new_line != raw:
+                rows_changed += 1
+            out_lines.append(new_line)
+
+        path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
+        return StepResult(file=path.name, rows_processed=rows_processed, rows_changed=rows_changed)
+
+    def _refine_row(self, row: TabletRow, *, current_ref: str) -> TabletRow:
         analysis_variants = _split_semicolon(row.analysis)
         dulat_variants = _split_semicolon(row.dulat)
         pos_variants = _split_semicolon(row.pos)
@@ -110,13 +157,16 @@ class OnomasticGlossOverrideFixer(RefinementStep):
                 pos_variant=pos_variant,
                 gloss_variant=gloss_variants[i],
             )
+            has_other_viable_option = self._has_non_onomastic_viable_option(pos_variants)
             appended = self._appended_onomastic_variant(
+                current_ref=current_ref,
                 surface=row.surface,
                 analysis_variant=analysis_variant,
                 dulat_variant=dulat_variant,
                 pos_variant=pos_variant,
                 gloss_variant=transformed,
                 existing_keys=existing_variant_keys,
+                has_other_viable_option=has_other_viable_option,
             )
             if appended is not None:
                 appended_key = (appended.analysis, appended.dulat, appended.pos)
@@ -198,12 +248,14 @@ class OnomasticGlossOverrideFixer(RefinementStep):
     def _appended_onomastic_variant(
         self,
         *,
+        current_ref: str,
         surface: str,
         analysis_variant: str,
         dulat_variant: str,
         pos_variant: str,
         gloss_variant: str,
         existing_keys: set[tuple[str, str, str]],
+        has_other_viable_option: bool,
     ) -> TabletRow | None:
         if self._is_onomastic_pos(pos_variant):
             return None
@@ -215,6 +267,13 @@ class OnomasticGlossOverrideFixer(RefinementStep):
 
         appended_pos = override_entry.pos.strip()
         appended_gloss = (override_entry.gloss or gloss_variant or "").strip()
+        if self._should_prune_pn_append(
+            dulat_variant=dulat_variant,
+            appended_pos=appended_pos,
+            current_ref=current_ref,
+            has_other_viable_option=has_other_viable_option,
+        ):
+            return None
         key = (analysis_variant, dulat_variant, appended_pos)
         if key in existing_keys:
             return None
@@ -235,6 +294,37 @@ class OnomasticGlossOverrideFixer(RefinementStep):
     def _is_onomastic_pos(self, pos: str) -> bool:
         token = (pos or "").upper()
         return any(tag in token for tag in _ONOMASTIC_POS_TAGS)
+
+    def _has_non_onomastic_viable_option(self, pos_variants: list[str]) -> bool:
+        for pos_variant in pos_variants:
+            token = (pos_variant or "").strip()
+            if not token or token == "?":
+                continue
+            if "?" in token:
+                continue
+            if self._is_onomastic_pos(token):
+                continue
+            return True
+        return False
+
+    def _should_prune_pn_append(
+        self,
+        *,
+        dulat_variant: str,
+        appended_pos: str,
+        current_ref: str,
+        has_other_viable_option: bool,
+    ) -> bool:
+        if "PN" not in (appended_pos or "").upper():
+            return False
+        if not current_ref:
+            return False
+        if not has_other_viable_option:
+            return False
+        return not self._attestation_index.has_reference_for_variant_token(
+            dulat_variant,
+            current_ref,
+        )
 
     def _surface_matches_declared_token(self, surface: str, dulat_variant: str) -> bool:
         surface_key = self._store.normalize_key(surface).replace(" ", "")

@@ -121,7 +121,7 @@ class TabletParsingPipeline:
             ),
             AttestationSortFixer(index=self.attestation_index),
             KnownAmbiguityExpander(),
-            OnomasticGlossOverrideFixer(),
+            OnomasticGlossOverrideFixer(attestation_index=self.attestation_index),
             IIIAlephCaseFixer(gate=self.morph_gate),
             NominalCaseEndingYHFixer(gate=self.morph_gate),
             NominalFormMorphPosFixer(gate=self.morph_gate),
@@ -409,6 +409,7 @@ class TabletParsingPipeline:
                 entry_ref_count,
                 entry_tablets,
                 entry_family_count,
+                direct_reference_index=self.attestation_index,
             )
             rows_total += rows
             changed_total += changed

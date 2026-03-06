@@ -376,6 +376,49 @@ class TabletParsingPipelineTest(unittest.TestCase):
             self.assertEqual(result["refine_rows"], 1)
             self.assertEqual(result["refine_changed"], 1)
 
+    def test_refine_targets_passes_direct_attestation_index(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            target = src / "KTU 1.5.tsv"
+            target.write_text("", encoding="utf-8")
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "missing.sqlite",
+                udb_db=root / "missing.sqlite",
+                include_existing=True,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            with (
+                patch(
+                    "pipeline.tablet_parsing.refine.load_entries",
+                    return_value=({}, {}, {}, {}, {}),
+                ),
+                patch(
+                    "pipeline.tablet_parsing.refine.load_reverse_mentions",
+                    return_value=({}, {}, {}, {}),
+                ),
+                patch(
+                    "pipeline.tablet_parsing.refine.refine_file",
+                    return_value=(1, 1),
+                ) as mock_refine_file,
+            ):
+                result = pipeline.refine_targets([target])
+
+            self.assertEqual(result["refine_rows"], 1)
+            self.assertEqual(result["refine_changed"], 1)
+            self.assertIs(
+                mock_refine_file.call_args.kwargs["direct_reference_index"],
+                pipeline.attestation_index,
+            )
+
     def test_suffix_payload_collapse_runs_after_known_ambiguities(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
