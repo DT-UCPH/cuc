@@ -151,6 +151,22 @@ class SurfaceReconstructabilityFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "b&y+m(I)")
 
+    def test_restores_case_vowel_tail_for_ksi(self) -> None:
+        row = TabletRow("22", "ksi", "ks/", "ks/śủ", "n. f.", "seat", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ks&i/")
+
+    def test_rewrites_tmthetn_to_gt_prefixed_with_energic_n(self) -> None:
+        row = TabletRow("23", "tmtḫṣn", "mḫṣ[ḫṣn", "/m-ḫ-ṣ/", "vb G prefc.", "to wound", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!m]t]ḫṣ[~n")
+        self.assertEqual(result.pos, "vb Gt prefc. 3 f. sg.")
+
+    def test_restores_hidden_weak_y_before_suffix_t(self) -> None:
+        row = TabletRow("24", "klt", "kly[t", "/k-l-y/", "vb G suffc. 1 c. sg.", "to finish", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "kl(y[t")
+
 
 if __name__ == "__main__":
     unittest.main()

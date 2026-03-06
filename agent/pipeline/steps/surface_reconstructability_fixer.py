@@ -8,7 +8,7 @@ from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface
 from pipeline.steps.base import RefinementStep, TabletRow
 
 _ANALYSIS_LETTER_RE = re.compile(r"[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]")
-_RESTORABLE_TAIL_RE = re.compile(r"[mnhtywk]")
+_RESTORABLE_TAIL_RE = re.compile(r"[mnhtywkaiu]")
 _PLAIN_LEMMA_ANALYSIS_RE = re.compile(r"^[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]+(?:\([IVX]+\))?$")
 
 
@@ -97,6 +97,14 @@ class SurfaceReconstructabilityFixer(RefinementStep):
             out_pos = "n. f."
             changed = True
 
+        if (
+            normalize_surface(row.surface).lower() == "tmtḫṣn"
+            and row.dulat.strip() == "/m-ḫ-ṣ/"
+            and (row.pos or "").strip().lower().startswith("vb")
+        ):
+            out_pos = "vb Gt prefc. 3 f. sg."
+            changed = True
+
         if not changed:
             return row
 
@@ -150,6 +158,9 @@ class SurfaceReconstructabilityFixer(RefinementStep):
         if dulat == "thmt" and surface_norm == "thmtm":
             return "thm(t/tm"
 
+        if dulat == "/m-ḫ-ṣ/" and surface_norm == "tmtḫṣn":
+            return "!t!m]t]ḫṣ[~n"
+
         if dulat == "ỉlt (I)":
             if surface_norm == "ilh":
                 return "il(t(I)/&h"
@@ -197,6 +208,14 @@ class SurfaceReconstructabilityFixer(RefinementStep):
         restored = _restore_missing_y_before_plus_m(
             surface=surface,
             analysis_variant=analysis_variant,
+        )
+        if restored != analysis_variant:
+            return restored
+
+        restored = _restore_hidden_weak_y_before_suffix_t(
+            surface=surface,
+            analysis_variant=analysis_variant,
+            pos_variant=pos_variant,
         )
         if restored != analysis_variant:
             return restored
@@ -415,6 +434,29 @@ def _restore_missing_y_before_plus_m(
     if not value or "+m" not in value or "&y" in value:
         return analysis_variant
     candidate = value.replace("+m", "&y+m", 1)
+    if (
+        normalize_surface(reconstruct_surface_from_analysis(candidate)).lower()
+        == normalize_surface(surface).lower()
+    ):
+        return candidate
+    return analysis_variant
+
+
+def _restore_hidden_weak_y_before_suffix_t(
+    *,
+    surface: str,
+    analysis_variant: str,
+    pos_variant: str,
+) -> str:
+    value = (analysis_variant or "").strip()
+    if not value or not (pos_variant or "").lower().startswith("vb"):
+        return analysis_variant
+    if "(y[" in value:
+        return analysis_variant
+    if "y[t" not in value:
+        return analysis_variant
+
+    candidate = value.replace("y[", "(y[", 1)
     if (
         normalize_surface(reconstruct_surface_from_analysis(candidate)).lower()
         == normalize_surface(surface).lower()

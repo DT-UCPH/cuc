@@ -41,6 +41,27 @@ class VerbalFeatureCompleter:
         if "vb" not in (row.pos or "").lower():
             return [self._variant(row.analysis, row.dulat, row.pos, row.gloss, row.comment)]
 
+        if self._is_tmthetn_gt_prefc_row(row):
+            return [
+                CompletedVariant(
+                    analysis="!t!m]t]ḫṣ[~n",
+                    dulat=row.dulat,
+                    gloss=row.gloss,
+                    comment=row.comment,
+                    features=build_verbal_bundle(
+                        stem="Gt",
+                        form="prefc.",
+                        person="3",
+                        gender="f.",
+                        number="sg.",
+                        source="analysis+dulat",
+                        confidence="high",
+                        has_enclitic=True,
+                        enclitic_type="n",
+                    ),
+                )
+            ]
+
         features = self._reader.read_surface_features(row.surface, row.dulat, row.pos)
         stems = self._extract_stems(row.pos)
         forms = self._extract_forms(row.pos, features.forms)
@@ -111,6 +132,15 @@ class VerbalFeatureCompleter:
         )
         return CompletedVariant(
             analysis=analysis, dulat=dulat, gloss=gloss, comment=comment, features=bundle
+        )
+
+    @staticmethod
+    def _is_tmthetn_gt_prefc_row(row: TabletRow) -> bool:
+        return (
+            normalize_surface(row.surface).lower() == "tmtḫṣn"
+            and (row.dulat or "").strip() == "/m-ḫ-ṣ/"
+            and "vb" in (row.pos or "").lower()
+            and "prefc." in (row.pos or "")
         )
 
     @staticmethod

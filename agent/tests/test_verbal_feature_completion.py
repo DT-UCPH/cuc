@@ -177,6 +177,21 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         self.assertEqual(rewritten.analysis, "]t]gr[:d")
         self.assertEqual(rewritten.pos, "vb tD suffc.")
 
+    def test_gates_tmthetn_as_gt_prefc_3fs(self) -> None:
+        completer = VerbalFeatureCompleter(_FakeReader())
+        row = TabletRow(
+            "137140",
+            "tmtḫṣn",
+            "!t!m]t]ḫṣ[~n",
+            "/m-ḫ-ṣ/",
+            "vb Gt prefc.",
+            "to wound",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "!t!m]t]ḫṣ[~n")
+        self.assertEqual(rewritten.pos, "vb Gt prefc. 3 f. sg.")
+
 
 if __name__ == "__main__":
     unittest.main()

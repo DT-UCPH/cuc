@@ -92,6 +92,25 @@ def _sorted_stems(stems: Iterable[str]) -> List[str]:
     return sorted(set(stems), key=lambda stem: (ranking.get(stem, 999), stem))
 
 
+def _analysis_stem_hint(analysis: str) -> str:
+    text = (analysis or "").strip()
+    if not text:
+        return ""
+    if "]š]]t]" in text:
+        return "Št"
+    if "]š]" in text:
+        return "Š"
+    if "]t]" in text:
+        if ":d" in text:
+            return "tD"
+        if ":l" in text:
+            return "tL"
+        return "Gt"
+    if "]n]" in text or "(]n]" in text:
+        return "N"
+    return ""
+
+
 def _surface_candidates(surface: str, analysis_variant: str) -> List[str]:
     out: List[str] = []
     raw_surface = (surface or "").strip()
@@ -243,6 +262,10 @@ class VerbPosStemFixer(RefinementStep):
             stems = self._stem_index.stems_for(surface=candidate, dulat_token=row.dulat)
             if stems:
                 break
+        analysis_stem = _analysis_stem_hint(row.analysis)
+        if analysis_stem and (not stems or analysis_stem not in stems):
+            stems = [analysis_stem]
+
         if not stems:
             return row
 

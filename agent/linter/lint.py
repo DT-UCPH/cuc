@@ -4750,7 +4750,13 @@ def lint_file(
 
 def render_html(issues: List[Issue], out_path: Path):
     rows = []
+    by_severity = {"error": 0, "warning": 0, "info": 0}
+    by_message: Dict[str, int] = {}
     for it in issues:
+        level = (it.level or "").lower()
+        if level in by_severity:
+            by_severity[level] += 1
+        by_message[it.message] = by_message.get(it.message, 0) + 1
         rows.append(
             f"<tr class='{it.level}'>"
             f"<td>{html.escape(it.level)}</td>"
@@ -4765,6 +4771,15 @@ def render_html(issues: List[Issue], out_path: Path):
 
     body = "\n".join(rows) if rows else "<tr><td colspan='7'>No issues</td></tr>"
 
+    total = len(issues)
+    top_messages = sorted(by_message.items(), key=lambda item: (-item[1], item[0]))[:10]
+    top_rows = "\n".join(
+        f"<tr><td>{html.escape(message)}</td><td>{count}</td></tr>"
+        for message, count in top_messages
+    )
+    if not top_rows:
+        top_rows = "<tr><td colspan='2'>No issues</td></tr>"
+
     html_text = f"""
 <!doctype html>
 <html>
@@ -4778,10 +4793,32 @@ th, td {{ border: 1px solid #ccc; padding: 4px 6px; font-size: 12px; }}
 tr.error {{ background: #ffe5e5; }}
 tr.warning {{ background: #fff3cd; }}
 tr.info {{ background: #e8f4ff; }}
+.summary {{ margin-bottom: 16px; }}
+.summary-grid {{ display: grid; grid-template-columns: repeat(4, max-content); gap: 8px 14px; align-items: center; }}
+.summary-label {{ font-weight: 700; }}
 </style>
 </head>
 <body>
 <h1>Morphology Lint Report</h1>
+<div class="summary">
+  <h2>Statistical Summary</h2>
+  <div class="summary-grid">
+    <div class="summary-label">Total issues</div><div>{total}</div>
+    <div class="summary-label">Errors</div><div>{by_severity["error"]}</div>
+    <div class="summary-label">Warnings</div><div>{by_severity["warning"]}</div>
+    <div class="summary-label">Info</div><div>{by_severity["info"]}</div>
+  </div>
+</div>
+<h2>Top Problem Types</h2>
+<table>
+<thead>
+<tr><th>Message</th><th>Count</th></tr>
+</thead>
+<tbody>
+{top_rows}
+</tbody>
+</table>
+<h2>Detailed Issues</h2>
 <table>
 <thead>
 <tr>

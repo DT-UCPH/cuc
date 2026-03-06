@@ -93,6 +93,28 @@ class RefineResultsMentionsTest(unittest.TestCase):
         self.assertEqual(analysis_for_entry("ušḫry", entry), "ušḫry/")
         self.assertEqual(analysis_for_entry("išḫry", entry), "išḫry/")
 
+    def test_analysis_prefers_surface_for_short_nominal_slash_lemma(self) -> None:
+        entry = Entry(
+            entry_id=525,
+            lemma="ả/ỉr",
+            hom="",
+            pos="n.",
+            gloss="light",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("ar", entry), "ar/")
+
+    def test_analysis_prefers_surface_for_slash_variant_long_nominal(self) -> None:
+        entry = Entry(
+            entry_id=2801,
+            lemma="m/bqr",
+            hom="",
+            pos="n.",
+            gloss="spring",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("bqr", entry), "bqr/")
+
     def test_analysis_for_pronoun_does_not_add_nominal_slash(self) -> None:
         entry = Entry(
             entry_id=431,

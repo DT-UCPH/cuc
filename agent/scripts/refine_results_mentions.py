@@ -737,11 +737,11 @@ def analysis_for_entry(
         "/" in (e.lemma or "")
         and not ((e.lemma or "").startswith("/") and (e.lemma or "").endswith("/"))
         and len(lex) <= 2
-        and len(s) >= 4
+        and len(s) >= 2
     ):
         # Slash-variant lemmas like ỉ/ủšḫry can collapse to a one-letter
-        # fragment if we keep only the first variant. For long surfaces,
-        # prefer the observed token shape.
+        # fragment if we keep only the first variant. Prefer the observed
+        # token shape in these short-fragment cases.
         lex = s
     if allow_prefix_restoration and is_nominal_pos(e.pos):
         lex_plain = extract_letters(lex)

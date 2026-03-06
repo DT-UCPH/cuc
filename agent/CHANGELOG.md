@@ -1091,3 +1091,17 @@
 - Added regression tests: `tests/test_dulat_feature_reader_forms.py`, `test_verb_form_morph_pos.py` (`with suff.` case), and `test_linter_unwrapped_rows.py` (clitic-payload duplicate allowance).
 
 - Committed the parser-side implementation for bound-pronoun preposition handling and clitic ampersand normalization, with matching regression tests (`suffix_paradigm_normalizer`, `spacy_morph_context`, and related test suites).
+- Tightened slash-variant nominal reconstruction in `scripts/refine_results_mentions.py`: short non-root slash lemmas now prefer the observed surface shape from length >=2 (not >=4), fixing fallback analyses like `a/r` -> `ar/` and `m/` -> `bqr/`.
+- Extended `SurfaceReconstructabilityFixer` to restore visible case-vowel tails (`a/i/u`) for nominal/pronominal hosts and added a targeted rewrite for `tmtḫṣn` (`/m-ḫ-ṣ/`) to `!t!m]t]ḫṣ[~n` with forced `vb Gt prefc.` POS.
+- Hardened `FeminineTSingularSplitFixer` against cross-variant drift: sg/pl pair expansion now runs only on single-variant rows and no longer injects extra semicolon variants into already-packed rows, preventing downstream column misalignment.
+- Added parser regressions:
+  - `tests/test_refine_results_mentions.py` for short slash-lemma surface preference (`ả/ỉr`, `m/bqr`).
+  - `tests/test_surface_reconstructability_fixer.py` for `ksi` tail restoration and `tmtḫṣn` Gt+`~n` rewrite.
+  - `tests/test_feminine_t_singular_split.py` for explicit-number and multi-variant non-expansion behavior.
+- Updated HTML linter report rendering (`linter/lint.py`) to include a top-of-page statistical summary block (`total/errors/warnings/info`) and a top problem-type table before detailed issues.
+- Re-ran full parser pipeline on all tablets, full unit test suite, and full lint report generation (text + HTML + JSON stats/history/trends) in `agent/reports/`.
+- Added parser-side reconstructability normalization for weak-final-y verb analyses ending with `y[t...`: rows now rewrite to `(y[t...` when needed to reconstruct the attested surface (fixes `klt` class regressions such as `137030`).
+- Added deterministic verbal gating for `tmtḫṣn` (`/m-ḫ-ṣ/`): analysis is forced to `!t!m]t]ḫṣ[~n` and POS to `vb Gt prefc. 3 f. sg.`.
+- Added regressions for both fixes in `tests/test_surface_reconstructability_fixer.py` and `tests/test_verbal_feature_completion.py`.
+- Re-ran targeted parse/lint for `KTU 1.1`, `KTU 1.106`, `KTU 1.14`, `KTU 1.149`, and `KTU 1.3`; verified `137140` now resolves as `vb Gt prefc. 3 f. sg.` and `137030` no longer triggers reconstructability errors.
+- Re-ran full unit tests (`622`), full parse (`278` tablets), full lint, and regenerated HTML/text/stats reports with top-of-page statistical summary.
