@@ -54,7 +54,7 @@ class DulatGatePluraleTantumTest(unittest.TestCase):
             cur.executemany(
                 "INSERT INTO forms(entry_id, text, morphology) VALUES (?, ?, ?)",
                 [
-                    (1, "pn", "pl., cstr."),
+                    (1, "pn", "cstr."),
                     (1, "pnm", "pl."),
                     (1, "pnh", "suff."),
                     (2, "šlmm", "pl."),

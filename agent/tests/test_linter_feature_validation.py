@@ -38,6 +38,18 @@ class LinterFeatureValidationTest(unittest.TestCase):
         messages = self._lint_messages("1\tytn\tytn[:w\t/y-t-n/\tvb G suffc. 3 m. sg.\tto give\t\n")
         self.assertIn("Verb POS is missing explicit morphology from analysis: pl.", messages)
 
+    def test_accepts_reviewed_journey_formula_ytn_plural_prefix_notation(self) -> None:
+        messages = self._lint_messages(
+            "1\tytn\t!y!(ytn[\t/y-t-n/\tvb G prefc. 3 m. pl.\tto give\t\n"
+        )
+        self.assertNotIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
+
+    def test_accepts_reviewed_journey_formula_ytn_plural_suffix_notation(self) -> None:
+        messages = self._lint_messages(
+            "1\tytn\tytn[\t/y-t-n/\tvb G suffc. 3 m. pl.\tto give\t\n"
+        )
+        self.assertNotIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
+
     def test_errors_when_nominal_pos_omits_construct(self) -> None:
         messages = self._lint_messages("1\tipdk\tipd/+k\tỉpd\tn. m.\ttunic\t\n")
         self.assertIn("Nominal POS is missing explicit morphology from analysis: cstr.", messages)

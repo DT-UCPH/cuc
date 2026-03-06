@@ -303,6 +303,7 @@ class DulatMorphGate:
                 or _DUAL_RE.search(morph)
                 or _DUAL_WORD_RE.search(morph)
             )
+            or self._morphology_is_construct_only(morph)
             for morph in non_suffix
         )
 
@@ -311,6 +312,23 @@ class DulatMorphGate:
         if not text:
             return False
         return bool(_SINGULAR_RE.search(text) or _SINGULAR_WORD_RE.search(text))
+
+    def _morphology_is_construct_only(self, morph: str) -> bool:
+        text = (morph or "").lower().strip()
+        if not text:
+            return False
+        if not _CONSTRUCT_RE.search(text):
+            return False
+        if (
+            _PLURAL_RE.search(text)
+            or _PLURAL_WORD_RE.search(text)
+            or _DUAL_RE.search(text)
+            or _DUAL_WORD_RE.search(text)
+            or _SINGULAR_RE.search(text)
+            or _SINGULAR_WORD_RE.search(text)
+        ):
+            return False
+        return True
 
     def _normalize(self, text: str) -> str:
         return (text or "").translate(LOOKUP_NORMALIZE).strip()

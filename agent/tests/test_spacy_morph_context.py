@@ -49,6 +49,34 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["vb G prefc. 3 m. pl."],
         )
 
+    def test_rewrites_journey_formula_ytn_and_pnm_after_plural_subject(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tilm\til(I)/m\tỉl (I)\tn. m. pl. abs. gen.\tgod\t",
+            "2\tidk\tidk\tỉdk\tnarrative adv. functor\tthen\t",
+            "3\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "3\tl\tl(II)\tl (II)\tadv.\tno\t",
+            "3\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "4\tytn\t!y!(ytn[\t/y-t-n/\tvb G prefc. 3 m. sg.\tto give\t",
+            "4\tytn\tytn[\t/y-t-n/\tvb G suffc. 3 m. sg.\tto give\t",
+            "5\tpnm\tpn(m/m\tpnm\tn. m. pl. tant. abs. nom.\tface\t",
+        )
+        self.assertEqual(
+            [candidate.dulat for candidate in doc[2]._.resolved_candidates],
+            ["l (III)"],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[3]._.resolved_candidates],
+            ["vb G prefc. 3 m. pl.", "vb G suffc. 3 m. pl."],
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[4]._.resolved_candidates],
+            ["pn(m/m"],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[4]._.resolved_candidates],
+            ["n. m. pl. tant. abs. acc."],
+        )
+
     def test_forces_genitive_on_single_nominal_after_preposition(self) -> None:
         doc = self._doc_from_lines(
             "1\tb\tb\tb\tprep.\tin\t",

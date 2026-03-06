@@ -1,5 +1,22 @@
 ## 2026-03-07
 
+- Fixed DULAT plurale-tantum detection for live `-m` nouns with bare construct forms:
+  - `pipeline/steps/dulat_gate.py` now treats construct-only non-suffix morphologies such as bare `cstr.` as compatible supporting evidence instead of rejecting the entire lemma.
+  - This restores real plurale-tantum handling for `pnm`, so rows like `pnm/` can normalize to `pn(m/m` instead of staying unsplit or being re-split as `p/+nm`.
+- Added a late journey-formula morphology rule in `spacy_ugaritic/components/morph_context.py` for plural-subject `... idk l ytn pnm ...` sequences:
+  - forces `l` to `l(III)` in that formula window,
+  - rewrites `ytn` verb rows to the reviewed plural reading there,
+  - rewrites `pnm` to the project plurale-tantum object analysis/accusative POS in that window.
+- Narrowed `linter/feature_validation.py` so the reviewed plural journey-formula notation for `ytn` (`!y!(ytn[` / `ytn[`) is accepted without weakening generic explicit-feature validation for other verb analyses.
+- Added focused regression coverage in:
+  - `tests/test_dulat_gate_plurale_tantum.py`
+  - `tests/test_spacy_morph_context.py`
+  - `tests/test_linter_feature_validation.py`
+- Verified on `KTU 1.5.tsv` that:
+  - `139811 l` now resolves to `l(III)`,
+  - `139812 ytn` now matches the reviewed `prefc./suffc. 3 m. pl.` pair,
+  - `139813 pnm` now matches the reviewed `pn(m/m` analysis and accusative noun reading.
+
 - Tightened `pipeline/steps/suffix_fixer.py` so exact DULAT surface forms are no longer forced into `+suffix` analyses when the same written form is lexically attested without a suffix or when DULAT marks the exact form as suffix-vs-other ambiguous (`or`, `allog.`, or mixed exact morph labels).
 - This removes the false `suffix-clitic` rewrites behind rows like `pnm -> p/+nm` and `mh -> m/+h`, while still allowing genuinely suffix-only exact forms such as `npšh` to keep `+h`.
 - Added focused regression coverage in `tests/test_refinement_steps.py` for:

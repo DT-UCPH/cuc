@@ -15,13 +15,36 @@ _SPLIT_T_PLURAL_RE = re.compile(r"/t=(?=\s*$|[+;,~])")
 _SPLIT_T_SINGULAR_RE = re.compile(r"/t(?=\s*$|[+;,~])")
 
 
-def inferable_feature_issues(analysis: str, pos_field: str) -> list[str]:
-    return verbal_feature_issues(analysis, pos_field) + nominal_feature_issues(analysis, pos_field)
+def inferable_feature_issues(
+    analysis: str,
+    pos_field: str,
+    surface: str = "",
+    dulat: str = "",
+) -> list[str]:
+    return verbal_feature_issues(
+        analysis,
+        pos_field,
+        surface=surface,
+        dulat=dulat,
+    ) + nominal_feature_issues(analysis, pos_field)
 
 
-def verbal_feature_issues(analysis: str, pos_field: str) -> list[str]:
+def verbal_feature_issues(
+    analysis: str,
+    pos_field: str,
+    *,
+    surface: str = "",
+    dulat: str = "",
+) -> list[str]:
     pos = pos_field or ""
     if "vb" not in pos.lower():
+        return []
+    if _is_journey_formula_ytn_plural_notation(
+        analysis=analysis,
+        pos_field=pos_field,
+        surface=surface,
+        dulat=dulat,
+    ):
         return []
 
     decoded = decode_analysis(analysis)
@@ -89,4 +112,22 @@ def _is_nominal_pos(pos: str) -> bool:
         pos.startswith("n.")
         or pos.startswith("adj.")
         or any(name_class in pos for name_class in _NAME_CLASSES)
+    )
+
+
+def _is_journey_formula_ytn_plural_notation(
+    *,
+    analysis: str,
+    pos_field: str,
+    surface: str,
+    dulat: str,
+) -> bool:
+    pos = pos_field or ""
+    return (
+        (surface or "").strip() == "ytn"
+        and (dulat or "").strip() == "/y-t-n/"
+        and (analysis or "").strip() in {"!y!(ytn[", "ytn["}
+        and "vb" in pos.lower()
+        and "3 m. pl." in pos
+        and ("prefc." in pos or "suffc." in pos)
     )

@@ -30,6 +30,7 @@ class MorphContextResolver:
         for token in doc:
             token._.resolved_candidates = token._.candidates
 
+        self._apply_journey_formula_rules(doc)
         for index, token in enumerate(doc):
             if not _has_multiple_verbal_png(token):
                 continue
@@ -169,6 +170,50 @@ class MorphContextResolver:
             if rewritten and rewritten != tuple(token._.resolved_candidates):
                 self._maybe_replace(token, rewritten, "construct-chain-case")
 
+    def _apply_journey_formula_rules(self, doc: Doc) -> None:
+        for index in range(1, len(doc) - 1):
+            if doc[index]._.surface.strip() != "ytn":
+                continue
+            if index < 2:
+                continue
+            if doc[index - 2]._.surface.strip() != "idk":
+                continue
+            if doc[index - 1]._.surface.strip() != "l":
+                continue
+            if doc[index + 1]._.surface.strip() != "pnm":
+                continue
+            if _nearest_previous_plural_dual_subject(doc, index) is None:
+                continue
+            self._apply_journey_formula_l(doc[index - 1])
+            self._apply_journey_formula_ytn(doc[index])
+            self._apply_journey_formula_pnm(doc[index + 1])
+
+    def _apply_journey_formula_l(self, token: Token) -> None:
+        resolved = tuple(token._.resolved_candidates)
+        functor = tuple(candidate for candidate in resolved if candidate.dulat.strip() == "l (III)")
+        if functor:
+            self._maybe_replace(token, functor, "journey-formula-l")
+
+    def _apply_journey_formula_ytn(self, token: Token) -> None:
+        resolved = tuple(token._.resolved_candidates)
+        rewritten = tuple(
+            _rewrite_journey_formula_ytn(candidate)
+            for candidate in resolved
+            if _is_journey_formula_ytn_candidate(candidate)
+        )
+        if rewritten:
+            self._maybe_replace(token, rewritten, "journey-formula-ytn-plural")
+
+    def _apply_journey_formula_pnm(self, token: Token) -> None:
+        resolved = tuple(token._.resolved_candidates)
+        rewritten = tuple(
+            _rewrite_journey_formula_pnm(candidate)
+            for candidate in resolved
+            if _is_journey_formula_pnm_candidate(candidate)
+        )
+        if rewritten:
+            self._maybe_replace(token, rewritten, "journey-formula-pnm-object")
+
 
 def _has_multiple_verbal_png(token: Token) -> bool:
     candidates = tuple(token._.resolved_candidates)
@@ -248,6 +293,68 @@ def _subject_numbers(token: Token) -> set[str]:
         if "du." in pos or "tant." in pos:
             keep_numbers.add("du.")
     return keep_numbers
+
+
+def _is_journey_formula_ytn_candidate(candidate: Candidate) -> bool:
+    pos = candidate.pos or ""
+    return (
+        candidate.dulat.strip() == "/y-t-n/"
+        and "vb" in pos.lower()
+        and ("prefc." in pos or "suffc." in pos)
+    )
+
+
+def _rewrite_journey_formula_ytn(candidate: Candidate) -> Candidate:
+    pos = (candidate.pos or "").strip()
+    if "3 m. sg." in pos:
+        pos = pos.replace("3 m. sg.", "3 m. pl.")
+    elif ("prefc." in pos or "suffc." in pos) and "3 m. pl." not in pos:
+        if "prefc." in pos:
+            pos = pos.replace("prefc.", "prefc. 3 m. pl.")
+        if "suffc." in pos:
+            pos = pos.replace("suffc.", "suffc. 3 m. pl.")
+    return Candidate(
+        analysis=candidate.analysis,
+        dulat=candidate.dulat,
+        pos=pos,
+        gloss=candidate.gloss,
+        comment=candidate.comment,
+    )
+
+
+def _is_journey_formula_pnm_candidate(candidate: Candidate) -> bool:
+    return candidate.dulat.strip() == "pnm" and candidate.pos.lower().startswith("n.")
+
+
+def _rewrite_journey_formula_pnm(candidate: Candidate) -> Candidate:
+    analysis = candidate.analysis.strip()
+    if analysis in {"pnm/", "p/+nm"}:
+        analysis = "pn(m/m"
+
+    pos = (candidate.pos or "").strip()
+    parts = [
+        part
+        for part in pos.split()
+        if part not in {"abs.", "cstr.", "nom.", "gen.", "acc.", "acc.?"}
+    ]
+    if "pl." not in parts and "pl./du." not in parts:
+        insert_at = 2 if len(parts) >= 2 else len(parts)
+        parts.insert(insert_at, "pl.")
+    if "tant." not in parts:
+        if "pl./du." in parts:
+            parts.insert(parts.index("pl./du.") + 1, "tant.")
+        elif "pl." in parts:
+            parts.insert(parts.index("pl.") + 1, "tant.")
+        else:
+            parts.append("tant.")
+    parts.extend(["abs.", "acc."])
+    return Candidate(
+        analysis=analysis,
+        dulat=candidate.dulat,
+        pos=" ".join(parts),
+        gloss=candidate.gloss,
+        comment=candidate.comment,
+    )
 
 
 def _is_function_like(candidate: Candidate) -> bool:

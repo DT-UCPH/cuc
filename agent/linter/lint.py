@@ -2592,7 +2592,12 @@ def lint_file(
                                 "Prefixed N-stem forms should encode assimilated nun as '(]n]' (or ']n]' when visible)",
                             )
                         )
-                    for feature_message in inferable_feature_issues(a_var, p_field):
+                    for feature_message in inferable_feature_issues(
+                        a_var,
+                        p_field,
+                        surface=surface,
+                        dulat=d_field,
+                    ):
                         issues.append(
                             Issue(
                                 "error",
