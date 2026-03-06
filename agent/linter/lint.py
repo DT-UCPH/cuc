@@ -4751,12 +4751,18 @@ def lint_file(
 def render_html(issues: List[Issue], out_path: Path):
     rows = []
     by_severity = {"error": 0, "warning": 0, "info": 0}
-    by_message: Dict[str, int] = {}
+    by_message_by_severity: Dict[str, Dict[str, int]] = {
+        "error": {},
+        "warning": {},
+        "info": {},
+    }
     for it in issues:
         level = (it.level or "").lower()
         if level in by_severity:
             by_severity[level] += 1
-        by_message[it.message] = by_message.get(it.message, 0) + 1
+        severity_bucket = by_message_by_severity.get(level)
+        if severity_bucket is not None:
+            severity_bucket[it.message] = severity_bucket.get(it.message, 0) + 1
         rows.append(
             f"<tr class='{it.level}'>"
             f"<td>{html.escape(it.level)}</td>"
@@ -4772,13 +4778,34 @@ def render_html(issues: List[Issue], out_path: Path):
     body = "\n".join(rows) if rows else "<tr><td colspan='7'>No issues</td></tr>"
 
     total = len(issues)
-    top_messages = sorted(by_message.items(), key=lambda item: (-item[1], item[0]))[:10]
-    top_rows = "\n".join(
-        f"<tr><td>{html.escape(message)}</td><td>{count}</td></tr>"
-        for message, count in top_messages
-    )
-    if not top_rows:
-        top_rows = "<tr><td colspan='2'>No issues</td></tr>"
+
+    severity_order = ("error", "warning", "info")
+    top_sections: list[str] = []
+    for severity in severity_order:
+        messages = by_message_by_severity.get(severity, {})
+        top_messages = sorted(messages.items(), key=lambda item: (-item[1], item[0]))[:10]
+        top_rows = "\n".join(
+            f"<tr><td>{html.escape(message)}</td><td>{count}</td></tr>"
+            for message, count in top_messages
+        )
+        if not top_rows:
+            top_rows = "<tr><td colspan='2'>No issues</td></tr>"
+        top_sections.append(
+            "\n".join(
+                [
+                    f"<h3>{severity.upper()}</h3>",
+                    "<table>",
+                    "<thead>",
+                    "<tr><th>Message</th><th>Count</th></tr>",
+                    "</thead>",
+                    "<tbody>",
+                    top_rows,
+                    "</tbody>",
+                    "</table>",
+                ]
+            )
+        )
+    top_sections_html = "\n".join(top_sections)
 
     html_text = f"""
 <!doctype html>
@@ -4810,14 +4837,7 @@ tr.info {{ background: #e8f4ff; }}
   </div>
 </div>
 <h2>Top Problem Types</h2>
-<table>
-<thead>
-<tr><th>Message</th><th>Count</th></tr>
-</thead>
-<tbody>
-{top_rows}
-</tbody>
-</table>
+{top_sections_html}
 <h2>Detailed Issues</h2>
 <table>
 <thead>

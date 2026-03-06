@@ -1105,3 +1105,5 @@
 - Added regressions for both fixes in `tests/test_surface_reconstructability_fixer.py` and `tests/test_verbal_feature_completion.py`.
 - Re-ran targeted parse/lint for `KTU 1.1`, `KTU 1.106`, `KTU 1.14`, `KTU 1.149`, and `KTU 1.3`; verified `137140` now resolves as `vb Gt prefc. 3 f. sg.` and `137030` no longer triggers reconstructability errors.
 - Re-ran full unit tests (`622`), full parse (`278` tablets), full lint, and regenerated HTML/text/stats reports with top-of-page statistical summary.
+- Updated `linter/lint.py` HTML renderer so “Top Problem Types” is now split into three severity-specific sections (`ERROR`, `WARNING`, `INFO`) instead of a single combined table.
+- Added regression test `tests/test_linter_html_report.py` to enforce severity-separated top-problem reporting in HTML output.
