@@ -24,7 +24,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158225	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 158225	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.44 5						
+158226	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 158226	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+158227	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 158227	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.44 6						
 158228	kxx	?	?	?	?	DULAT: NOT FOUND
@@ -63,7 +65,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.44 14						
 158248	xxxx	?	?	?	?	
 158249	ṯtyy	ṯtyy/	ṯtyy	PN sg. abs. nom.	Seth	
-158249	ṯtyy	ṯty/+y	ṯty	PN sg. cstr. nom.	ṯty	
 # KTU 2.44 15						
 158250	xxxxkdy	?	?	?	?	DULAT: NOT FOUND
 158251	w	w	w	conj.	and	

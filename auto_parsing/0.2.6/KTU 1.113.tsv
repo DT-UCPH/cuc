@@ -89,11 +89,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153765	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 153766	nqmdil	?	?	?	?	DULAT: NOT FOUND
 153767	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr. nom.	bull	
-153767	ibrn	ibrn/	ỉbrn	PN sg. cstr. nom.	ỉbrn	
 153767	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr. nom.	wing	
 # KTU 1.113 20						
-153768	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-153768	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+153768	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+153768	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+153768	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153768	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 153769	arḫlbil	?	?	?	?	DULAT: NOT FOUND
 153770	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. cstr. nom.	ʿAmmurāpʾi	
 # KTU 1.113 21						
@@ -101,29 +102,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153771	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 153772	nqmpˤilnqmpˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.113 22						
-153773	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153773	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153773	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+153773	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153773	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153773	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 153774	ˤmṯtmril	?	?	?	?	DULAT: NOT FOUND
 153775	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr. nom.	bull	
-153775	ibrn	ibrn/	ỉbrn	PN sg. cstr. nom.	ỉbrn	
 153775	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr. nom.	wing	
 # KTU 1.113 23						
-153776	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-153776	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+153776	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+153776	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+153776	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153776	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 153777	nqmdil	?	?	?	?	DULAT: NOT FOUND
 153778	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
 # KTU 1.113 24						
 153779	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 153779	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 153780	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr. gen.	bull	
-153780	ibrn	ibrn/	ỉbrn	PN sg. cstr. gen.	ỉbrn	
 153780	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr. gen.	wing	
 # KTU 1.113 25						
-153781	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-153781	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-153782	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu II	
+153781	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+153781	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+153781	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153781	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+153782	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
 # KTU 1.113 26						
 153783	pˤil	?	?	?	?	DULAT: NOT FOUND
 153784	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to meet	

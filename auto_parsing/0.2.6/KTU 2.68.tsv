@@ -33,13 +33,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.68 9						
 158805	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 158805	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+158806	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 158806	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.68 10						
+158807	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 158807	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.68 11						
-158808	hnny	hn+ny	hn	functor	behold!	
-158808	hnny	hnny	hnny	adv.	here	
-158808	hnny	hn+ny	hnny	adv.	here	
+158808	hnny	hn&ny	hn	functor	behold!	
 # KTU 2.68 12						
 158809	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158810	kll	kll/	kll	n. m. sg. abs. nom.	totality	
@@ -55,7 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158812	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158812	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.68 14						
-158813	ṯmny	ṯm&ny	ṯm	adv.	there	
+158813	ṯmny	ṯm+ny	ṯm	adv.	there	
 158814	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.68 15						
 158815	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	

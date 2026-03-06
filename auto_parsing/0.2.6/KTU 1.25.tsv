@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147848	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 147849	l	l(I)	l (I)	prep.	to	
 147849	l	l(III)	l (III)	functor	certainly	
-147850	šbˤm	šbˤ(I)&m/	šbʕ (I)	num.	seven	
+147850	šbˤm	šbˤ(I)&m/	šbʕ (I)	num. f.	seven	
 147850	šbˤm	šbˤm/	šbʕm	num.	seventy	
 147851	abx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 4						
@@ -24,10 +24,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.25 5						
 147856	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
 147856	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
-147857	lẓpn	lṭpn/	lṭpn	adj. m. abs. nom.	Benevolent	Based on DULAT reconstruction.
-147857	lẓpn	lẓpn	lẓpn	→	?	
+147857	lẓpn	lṭpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 # KTU 1.25 6						
-147858	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
+147858	pn	pnm/	pnm	n. m. cstr. nom.	face	
 147859	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
 147859	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 147860	ymgn	?	?	?	?	DULAT: NOT FOUND

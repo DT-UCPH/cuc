@@ -11,7 +11,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.39 2						
 147923	mtntm	mtnt/m	mtnt	n. f. pl. abs. gen.	loin	
 147924	wkbd	?	?	?	?	DULAT: NOT FOUND
-147925	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
 147925	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 147926	š	š/	š	n. m. sg. abs. gen.	ram	
 147927	l	l(I)	l (I)	prep.	to	
@@ -35,13 +34,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147936	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 147937	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 147938	w	w	w	conj.	and	
-147939	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 147939	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+147939	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 147939	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 147940	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.39 5						
 147941	ilh	ilh/	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
-147942	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 147942	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 147943	wš	?	?	?	?	DULAT: NOT FOUND
 147944	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
@@ -107,7 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147975	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 147975	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
 147975	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-147976	mlun	mlu&n/	mlủ	n. m. sg. abs. nom.	fill	
+147976	mlun	mlu/+n	mlủ	n. m. cstr. nom.	fill	
 147977	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	wave- offering	
 147978	ḫṣth	ḫṣ(t/t+h	ḫṣt	n. f. sg. cstr. nom.	half	
 147979	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	

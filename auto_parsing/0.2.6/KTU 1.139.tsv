@@ -4,8 +4,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.139 2						
 154867	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
 # KTU 1.139 3						
-154868	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 154868	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+154868	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 154868	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.139 4						
 154869	x	?	?	?	?	
@@ -35,6 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154882	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	
 154883	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 1.139 11						
+154884	mm	m/m	mh/y	n. m. pl. abs. nom.	water	
 154884	mm	mm(I)/	mm (I)	n. m. sg. abs. nom.	winter	
 154885	lsyxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.139 12						
@@ -60,7 +61,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154893	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 154893	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.139 15						
-154894	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. gen.	sacrifice	
 154894	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
 154894	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
 154895	pdry	pdry/	pdry	DN sg. abs. gen.	Pidray	

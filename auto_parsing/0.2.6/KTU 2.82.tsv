@@ -2,9 +2,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.82 1						
 159343	l	l(I)	l (I)	prep.	to	
 159344	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
-159345	umy	um/y	ủm	n. f. sg. cstr. gen.	mother	
+159345	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.82 2						
-159346	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
+159346	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
 159347	l	l(I)	l (I)	prep.	to	
 159347	l	l(III)	l (III)	functor	certainly	
 159348	pˤnk	pˤn/+k	pʕn	n. f. cstr. nom.	foot	
@@ -62,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159381	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl. m. sg. abs. nom.	to raise	
 # KTU 2.82 17						
 159382	ikmy	ikmy	ỉkmy	conj.	however that may be	
-159383	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
+159383	ḥy	ḥym/	ḥym	n. m. cstr. nom.	life	
 # KTU 2.82 18						
 159384	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 159385	hm	hm(II)	hm (II)	conj./interr. functor	if	

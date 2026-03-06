@@ -12,9 +12,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157661	xxxx	?	?	?	?	
 # KTU 2.35 5						
 157662		?	?	?	?	
-157663	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+157663	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 # KTU 2.35 6						
-157664	šlmk	šlm(I)/+k	šlm (I)	n. m. cstr. gen.	peace	
+157664	šlmk	šlm(I)/+k	šlm (I)	n. m. cstr. nom.	peace	
+157664	šlmk	šlm[:d+k	/š-l-m/	vb G suffc.	to be well	
+157664	šlmk	šlm[+k	/š-l-m/	vb D suffc.	to be well	
+157664	šlmk	šlm(III)/+k	šlm (III)	adj. m. cstr. nom.	pure	
 # KTU 2.35 7						
 157665	t	/t, /t=				DULAT: NOT FOUND
 157665	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
@@ -46,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157678	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 157678	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 157678	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
-157679	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
+157679	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
 157679	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 # KTU 2.35 15						
 157680	lk	l(I)+k	l (I)	prep.	to	
@@ -55,8 +58,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157682	l	l(III)	l (III)	functor	certainly	
 157683	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
 # KTU 2.35 16						
-157684	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-157685	argm	!(ʔ&a!rgm[	/r-g-m/	vb prefc. 1 c. sg.	to say	
+157684	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157685	argm	!(ʔ&a!rgm[	/r-g-m/	vb G prefc. 1 c. sg.	to say	
 # KTU 2.35 17						
 157686	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 157686	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
@@ -68,6 +71,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.35 19						
 157690	a	?	?	?	?	DULAT: NOT FOUND
 157691	w	w	w	conj.	and	
-157692	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+157692	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 # KTU 2.35 20						
 157693	x	?	?	?	?	

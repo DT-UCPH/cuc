@@ -3,14 +3,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149555	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
 149555	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
 149556	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
-149557	śśwm	śśwm/	s:śs/św	n. m. du. abs. gen.	horse	
-149557	śśwm	śśwm/	s:śs/św	n. m. pl. abs. gen.	horse	
+149557	śśwm	śśwm/	s:śs/św	n. f. du. abs. gen.	horse	
+149557	śśwm	śśwm/	s:śs/św	n. f. pl. abs. gen.	horse	
 # KTU 1.71 2						
 149558	xxxxxxxwxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 3						
 149559	xxxxxxśśxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 4						
 149560	xxxxxxxw	?	?	?	?	DULAT: NOT FOUND
+149561	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 149561	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 149562	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 5						
@@ -20,8 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149563	k	k(I)	k (I)	prep.	like	
 149563	k	k(II)	k (II)	emph. functor	yes	
 149564	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
-149565	śśw	śśw/	s:śs/św	n. f. pl. cstr. gen.	horse	
-149565	śśw	śśw/	s:śs/św	n. f. sg. cstr. gen.	horse	
+149565	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
 149566	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
 149567	wbṣqlˤrgz	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 6						
@@ -98,8 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149606	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 14						
 149607	xxxxxxxx	?	?	?	?	
-149608	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
-149608	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
+149608	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 149609	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
 149609	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
 149610	xxx	?	?	?	?	
@@ -117,8 +116,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.71 17						
 149617	k	k(III)	k (III)	Subordinating or completive functor	when	
 149618	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
-149619	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
-149619	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
+149619	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 149620	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 149620	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
 149621	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
@@ -129,6 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149623	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 # KTU 1.71 18						
 149624	w	w	w	conj.	and	
+149625	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 149625	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 149626	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 19						
@@ -162,6 +161,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149644	w	w	w	conj.	and	
 149645	qmḥ	qmḥ/	qmḥ	n. m. sg. cstr. nom.	flour	
 149646	bql	bql/	bql	n. m. sg. abs. gen.	malt	
+149647	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 149647	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 149648	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 # KTU 1.71 29						

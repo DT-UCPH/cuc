@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.80 1						
-159320	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
+159320	pn	pnm/	pnm	n. m. cstr. nom.	face	
 159320	pn	pn	pn	functor	lest	
 # KTU 2.80 2						
 159321	ṯm	ṯm	ṯm	adv.	there	
@@ -35,6 +35,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159340	šl	šl[	/š-l(-l)/	vb G suffc. 3 m. sg.	to plunder	
 159340	šl	!!šl[/	/š-l(-l)/	vb G inf.	to plunder	
 # KTU 2.80 12						
-159341	nn	grš[	/g-r-š/	vb	to eject	
-159341	nn	gr[	/g-r(-y)/	vb	to attack	
+159341	nn	nn/	nn	PN sg. abs. nom.	nn	
 159342	x	?	?	?	?	

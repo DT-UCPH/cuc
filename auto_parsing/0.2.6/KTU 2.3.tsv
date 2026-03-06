@@ -40,7 +40,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156328	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156328	hm	hm(I)	hm (I)	pers. pn.	they	
 156329	at	at(I)	ảt (I)	pers. pn.	you	
-156330	trgm	!t!rgm[	/r-g-m/	vb prefc.	to say	
+156330	trgm	!t=!rgm[	/r-g-m/	vb G prefc. 2 m. sg.	to say	
+156330	trgm	!t==!rgm[	/r-g-m/	vb G prefc. 2 f. sg.	to say	
 # KTU 2.3 9						
 156331	w	w	w	conj.	and	
 156332	sip	sip	sỉp	?	?	
@@ -67,6 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 156347	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+156347	ˤn	ˤn[:d	/ʕ-n/	vb D impv. 2	to see	
 156347	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 # KTU 2.3 14						
 156348	l	l(I)	l (I)	prep.	to	
@@ -84,7 +86,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156352	wy	w+y	w	conj.	and	
 156353	rdnn	yrd[+nn	/y-r-d/	vb G prefc.	to go down, ?	
 156353	rdnn	yrd[+nn	/y-r-d/	vb G suffc.	to go down, ?	
-156353	rdnn	rdn/+n	rdn	PN sg. cstr. nom.	to rule	
 156354	an	an(I)	ản (I)	pers. pn.	I	
 156354	an	an(II)	ản (II)	adv.	wherever	
 # KTU 2.3 16						
@@ -101,7 +102,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156363	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156363	hm	hm(I)	hm (I)	pers. pn.	they	
 156364	at	at(I)	ảt (I)	pers. pn.	you	
-156365	trgm	!t!rgm[	/r-g-m/	vb prefc.	to say	
+156365	trgm	!t=!rgm[	/r-g-m/	vb G prefc. 2 m. sg.	to say	
+156365	trgm	!t==!rgm[	/r-g-m/	vb G prefc. 2 f. sg.	to say	
 # KTU 2.3 19						
 156366	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
 156367	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. gen.	poplar	
@@ -121,7 +123,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 21						
 156374	w	w	w	conj.	and	
 156375	mṯnnx	?	?	?	?	DULAT: NOT FOUND
-156376	ˤmnk	ˤm(I)&n+k	ʕm (I)	prep.	to	
+156376	ˤmnk	ˤm(I)+nk	ʕm (I)	prep.	to	
 # KTU 2.3 22						
 156377	ištš	ištš	ỉštš	?	?	
 156378	prgmy	?	?	?	?	DULAT: NOT FOUND

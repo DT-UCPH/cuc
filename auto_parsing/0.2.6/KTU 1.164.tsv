@@ -33,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155413	w	w	w	conj.	and	
 155414	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 155415	kmm	kmm	kmm	adv.	ditto	
-155416	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+155416	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 155416	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 155416	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155417	w	w	w	conj.	and	
@@ -44,8 +44,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155420	l	l(III)	l (III)	functor	certainly	
 155421	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 155422	w	w	w	conj.	and	
-155423	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 155423	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+155423	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 155423	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.164 7						
 155424	kmm	kmm	kmm	adv.	ditto	
@@ -56,8 +56,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155428	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 # KTU 1.164 8						
 155429	w	w	w	conj.	and	
-155430	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 155430	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+155430	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 155430	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 155431	kmm	kmm	kmm	adv.	ditto	
 155432	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	

@@ -21,7 +21,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.84 6						
 159435	abrḥd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 7						
-159436	tiḫdn	ʔḫd[dn	/ʔ-ḫ-d(/ḏ)/	vb G suffc.	to collect	
+159436	tiḫdn	!t!(ʔ&iḫd[n	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+159436	tiḫdn	tiḫdn[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
 # KTU 2.84 8						
 159437	uškny	uškny(I)/	ủškny (I)	GN sg. abs. nom.	ủškny (I)	
 # KTU 2.84 9						
@@ -30,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159439	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 159440	utnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 10						
-159441	alphm	alp(I)/+hm	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
+159441	alphm	alp(I)/+hm	ảlp (I)	n. m. cstr. nom.	(head of) cattle	
 159442	x	?	?	?	?	
 # KTU 2.84 11						
 159443	ġrm	ġr(I)/m	ġr (I)	n. m. pl. abs. nom.	mountain	
@@ -67,10 +68,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159459	hbṭx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 18						
 159460	ht	ht	ht	adv.	here	
-159461	alpy	alp(I)/y	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+159461	alpy	alp(I)/+y	ảlp (I)	n. m. cstr. nom.	(head of) cattle	
 159462		?	?	?	?	
 # KTU 2.84 19						
+159463	hbṭ	hbṭ[:d	/h-b-ṭ/ẓ/	vb D suffc. 3 m. sg.	to knock down	
+159463	hbṭ	hbṭ[:dt===	/h-b-ṭ/ẓ/	vb D suffc. 3 f. sg.	to knock down	
 159463	hbṭ	hbṭ[:d:w	/h-b-ṭ/ẓ/	vb D suffc. 3 m. pl.	to knock down	
+159463	hbṭ	hbṭ[:dt=	/h-b-ṭ/ẓ/	vb D suffc. 2 m. sg.	to knock down	
+159463	hbṭ	hbṭ[:dt==	/h-b-ṭ/ẓ/	vb D suffc. 2 f. sg.	to knock down	
+159463	hbṭ	hbṭ[:dt	/h-b-ṭ/ẓ/	vb D suffc. 1 c. sg.	to knock down	
+159463	hbṭ	!!hbṭ[/	/h-b-ṭ/ẓ/	vb D inf.	to knock down	
 159464	w	w	w	conj.	and	
 159465	l	l(I)	l (I)	prep.	to	
 159465	l	l(III)	l (III)	functor	certainly	
@@ -80,7 +87,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159468	xx	?	?	?	?	
 # KTU 2.84 21						
 159469	uy	u&y	ủ	conj.	or	
-159470	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+159470	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 159470	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 159470	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 159471	x	?	?	?	?	

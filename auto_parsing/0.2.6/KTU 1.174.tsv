@@ -1,9 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.174 1						
-155909	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 155909	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-155909	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+155909	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 155909	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+155909	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 155910	yṣġd	!y!ṣġd[	/ṣ-ġ-d/	vb G prefc. 3 m. sg.	to go	
 155911	ḥ	ḥ/	ḥ	n. m. abs. nom.	life	
 # KTU 1.174 2						
@@ -30,6 +30,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.174 8						
 155925	lg	lg(I)/	lg (I)	n. m. sg. cstr. gen.	jar	
 155926	lšn	lšn/	lšn	n. f. sg. abs. gen.	tongue	
+155927	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 155927	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 # KTU 1.174 9						
 155928	mšmṭr	mšmṭr/	mšmṭr	n. m. sg. abs. nom.	rainmaker	

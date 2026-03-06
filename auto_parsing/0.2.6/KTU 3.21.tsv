@@ -4,7 +4,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161680	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 161681	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 # KTU 3.21 2						
-161682	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161682	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161683	bly	bly/	bly	PN sg. cstr. gen.	bly	
 161684	gbˤly	gbˤly(I)/	gbʕly (I)	GN sg. cstr. gen.	gbʿly (I)	
@@ -12,7 +11,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161685	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
 161686	annṯb	annṯb/	ảnnṯb	PN sg. cstr. gen.	161:21	
 # KTU 3.21 4						
-161687	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
 161687	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161688	madl	?	?	?	?	DULAT: NOT FOUND
 161689	uškny	uškny(I)/	ủškny (I)	GN sg. abs. nom.	ủškny (I)	
@@ -25,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.21 6						
 161694	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
 161695	xxxb	?	?	?	?	DULAT: NOT FOUND
-161696	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161696	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161696	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161696	bn	bn(II)	bn (II)	prep.	between	
 161696	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
@@ -37,12 +35,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.21 9						
 161699	xḥxxxxxxdn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 10						
-161700	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
+161700	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
 161701	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 161702	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 # KTU 3.21 11						
 161703	ilmlk	ilmlk/	ỉlmlk	PN sg. cstr. gen.	ʾIlimalku/Ilimilku/Elimelek	
-161704	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161704	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161705	argnd	argnd/	ảrgnd	PN sg. cstr. gen.	ảrgnd	
 # KTU 3.21 12						
@@ -50,7 +47,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161707	w	w	w	conj.	and	
 161708	mit	mi(t/t	mỉt	n. f. sg. cstr. nom.	a hundred	
 # KTU 3.21 13						
-161709	zt	zt/	zt	n. m. pl. abs. gen.	olive	
 161709	zt	zt/	zt	n. m. sg. abs. gen.	olive	
 161710	bdhm	bd(IV)+hm	bd (IV)	prep.	into the hands of	
 161711	rib	rib/	rỉb	n. m. sg. abs. nom.	vessel	
@@ -58,7 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161712	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161713	xxx	?	?	?	?	
 # KTU 3.21 15						
-161714	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
+161714	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
 161715	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.21 16						
 161716	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
@@ -66,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.21 17						
 161718	xxxktxxxxnrn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 18						
-161719	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161719	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161719	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161719	bn	bn(II)	bn (II)	prep.	between	
 161719	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
@@ -80,8 +76,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161724	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. gen.	woman	
 # KTU 3.21 20						
 161725	mrṯd	mrṯ(I)/+d	mrṯ (I)	n. m. cstr. gen.	must, ?	
-161725	mrṯd	mrṯd/	mrṯd	PN sg. cstr. gen.	mrṯd	
 161725	mrṯd	mrṯ(II)/+d	mrṯ (II)	n. m. cstr. gen.	estate, ?	
-161726	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
-161726	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+161726	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+161726	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+161726	bn	bn(II)	bn (II)	prep.	between	
+161726	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161726	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161727	štn	št[n	/š-t/	vb G suffc.	to place	
 161727	štn	št[n	/š-t/	vb G impv. 2	to place	

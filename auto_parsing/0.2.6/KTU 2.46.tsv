@@ -19,12 +19,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158270	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 158270	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.46 5						
+158271	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 158271	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+158272	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 158272	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.46 6						
-158273	hnny	hn+ny	hn	functor	behold!	
-158273	hnny	hnny	hnny	adv.	here	
-158273	hnny	hn+ny	hnny	adv.	here	
+158273	hnny	hn&ny	hn	functor	behold!	
 158274	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158275	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 158275	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
@@ -36,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158275	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158275	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.46 7						
-158276	ṯmny	ṯm&ny	ṯm	adv.	there	
+158276	ṯmny	ṯm+ny	ṯm	adv.	there	
 158277	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 158278	bny	bn(I)/+y	bn (I)	n. m. cstr. gen.	son	
 158278	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. abs. gen.	to build	
@@ -89,6 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158304	xxxx	?	?	?	?	
 # KTU 2.46 19						
 158305	xxxxx	?	?	?	?	
+158306	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 158306	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 158306	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 # KTU 2.46 20						

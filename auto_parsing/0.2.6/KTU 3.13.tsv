@@ -10,7 +10,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161382	arbˤ	arbˤ/	ảrbʕ	num.	four	
 161383	kkr	kkr/	kkr	n. m. sg. cstr. nom.	talent	
 161384	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161385	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
 161385	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161386	xx	?	?	?	?	
 # KTU 3.13 3						
@@ -23,7 +22,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161392	rny	rny/	rny	PN sg. cstr. gen.	rny	
 161393	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 161394	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161395	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161395	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161396	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. gen.	right (side)	
 # KTU 3.13 5						
@@ -40,7 +38,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161404	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 161405	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 161406	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161407	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161407	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161408	llit	llit/	llỉt	PN sg. abs. gen.	llỉt	
 # KTU 3.13 7						
@@ -63,14 +60,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.13 9						
 161423	w	w	w	conj.	and	
 161424	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161425	mnḥm	mnḥm/	mnḥm	PN sg. abs. gen.	mnḥm	
 161425	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr. gen.	delivery	
+161425	mnḥm	mnḫ/+m(I)	mnḫ	n. m. cstr. gen.	calm	
 161426	arbˤ	arbˤ/	ảrbʕ	num.	four	
 161427	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 # KTU 3.13 10						
 161428	w	w	w	conj.	and	
 161429	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161430	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
 161430	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161431	agyn	?	?	?	?	DULAT: NOT FOUND
 161432	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
@@ -79,14 +75,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161434	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 161435	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 161436	kdrn	kdr/+n	kdr	n. m. cstr. gen.	trough	
-161436	kdrn	kdrn/	kdrn	PN sg. cstr. gen.	kdrn	
 # KTU 3.13 12						
-161437	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. gen.	banquet	
-161438	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
-161439	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161440	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
-161440	ġr	ġr(V)/	ġr (V)	n. m. sg. abs. gen.	total	
-161440	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
+161437	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
+161437	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+161437	ˤšr	ˤšr[:dt===	/ʕ-š-r/	vb D suffc. 3 f. sg.	to invite	
+161437	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+161437	ˤšr	ˤšr[:dt=	/ʕ-š-r/	vb D suffc. 2 m. sg.	to invite	
+161437	ˤšr	ˤšr[:dt==	/ʕ-š-r/	vb D suffc. 2 f. sg.	to invite	
+161437	ˤšr	ˤšr[:dt	/ʕ-š-r/	vb D suffc. 1 c. sg.	to invite	
+161437	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to invite	
+161437	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+161438	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+161439	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+161439	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+161439	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+161439	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+161440	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
+161440	ġr	ġr(V)/	ġr (V)	n. m. sg. abs. nom.	total	
+161440	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
 # KTU 3.13 13						
 161441	w	w	w	conj.	and	
 161442	dšn	dšn	dšn			
@@ -97,12 +103,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161446	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
 161447	tyt	ty(t/t	tyt	n. f. sg. cstr. gen.	ranunculus	
 # KTU 3.13 15						
-161448	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
 161448	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161449	grgš	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.13 16						
 161450	w	w	w	conj.	and	
-161451	npṣ	npṣ/	npṣ	n. m. pl. cstr. nom.	personal belongings	
 161451	npṣ	npṣ/	npṣ	n. m. sg. cstr. nom.	personal belongings	
 161452	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 161452	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
@@ -118,7 +122,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.13 18						
 161460	w	w	w	conj.	and	
 161461	mmskn	mmskn/	mmskn	n. m. abs. nom.	earthenware bowl	
-161461	mmskn	mmskn/+n	mmskn	n. m. cstr. nom.	earthenware bowl	
 # KTU 3.13 19						
 161462	w	w	w	conj.	and	
 161463	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	

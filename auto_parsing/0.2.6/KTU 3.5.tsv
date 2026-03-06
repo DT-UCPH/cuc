@@ -2,12 +2,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 1						
 161027	l	l(I)	l (I)	prep.	to	
 161027	l	l(III)	l (III)	functor	certainly	
+161028	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 161028	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 161028	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 161029	hnd	hnd	hnd	dem.	this	
 # KTU 3.5 2						
 161030	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. nom.	ʿmṯtmr	
-161031	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161031	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 # KTU 3.5 3						
 161032	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
@@ -23,47 +23,56 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161037	kḏġdl	kḏġdl/	kḏġdl	PN sg. cstr. gen.	kḏġdl	
 # KTU 3.5 6						
 161038	uškn	uškn/	ủškn	TN sg. abs. gen.	ủškn	
-161038	uškn	ušr/+n	ủšr	n. m. cstr. gen.	penis	
 161039	d	d	d	det. or rel. functor	the one(s) of	
 161040	b	b	b	prep.	in	
 161041	šdy	šd(I)/+y	šd (I)	n. m. cstr. gen.	open field	
-161041	šdy	šdy(II)/	šdy (II)	PN sg. cstr. gen.	šdy (II)	
+161041	šdy	šdy[+y	/š-d-y/	vb	to pour	
+161041	šdy	šdy(I)/	šdy (I)	adj. abs. nom.	land labourer	
 # KTU 3.5 7						
-161042	bmt	bm(t/t	bmt	n. f. sg. cstr. gen.	back	
-161042	bmt	bm(t/t=	bmt	n. f. pl. cstr. gen.	back	
-161043	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
-161044	gth	g(t/t+h	gt	n. f. sg. cstr. gen.	gittu	
+161042	bmt	bm(t/t	bmt	n. f. sg. cstr. nom.	back	
+161042	bmt	bm(t/t	bmt	n. f. sg. abs. nom.	back	
+161042	bmt	bm(t/t=	bmt	n. f. pl. cstr. nom.	back	
+161042	bmt	bm(t/t=	bmt	n. f. pl. abs. nom.	back	
+161043	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+161043	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
+161044	gth	g(t/t+h	gt	n. f. sg. cstr. nom.	gittu	
 # KTU 3.5 8						
+161045	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 161045	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 161045	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 161045	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 161046	zth	zt/+h	zt	n. m. cstr. nom.	olive	
+161047	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 161047	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 161047	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 161047	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 # KTU 3.5 9						
 161048	krmh	krm/+h	krm	n. m. cstr. nom.	vineyard	
 161048	krmh	kr&m/+h	kr	n. m. cstr. nom.	ram	
+161049	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 161049	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 161049	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 161049	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 # KTU 3.5 10						
-161050	klklh	klkl/+h	klkl	n. m. sg. cstr. nom.	anybody	
+161050	klklh	klkl/+h	klkl	n. m. cstr. nom.	anybody	
 # KTU 3.5 11						
 161051	w	w	w	conj.	and	
 161052	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 161052	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-161053	nn	grš[	/g-r-š/	vb	to eject	
-161053	nn	gr[	/g-r(-y)/	vb	to attack	
+161053	nn	nn/	nn	PN sg. abs. nom.	nn	
 # KTU 3.5 12						
 161054	l	l(I)	l (I)	prep.	to	
 161054	l	l(III)	l (III)	functor	certainly	
-161055	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-161056	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
-161056	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+161055	bˤln	bˤl(II)/+n	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+161056	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+161056	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+161056	bn	bn(II)	bn (II)	prep.	between	
+161056	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161056	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 13						
-161057	kltn	klt(I)/+n	klt (I)	n. f. cstr. gen.	bride	
-161057	kltn	kltn/	kltn	PN sg. abs. gen.	kltn	
+161057	kltn	kly[+n	/k-l-y/	vb G suffc.	to finish	
+161057	kltn	klt(I)/+n	klt (I)	n. f. cstr. nom.	bride	
+161057	kltn	kltn/	kltn	PN sg. abs. nom.	kltn	
 161058	w	w	w	conj.	and	
 161059	l	l(I)	l (I)	prep.	to	
 161059	l	l(III)	l (III)	functor	certainly	
@@ -93,11 +102,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161070	yqḥnn	lqḥ[nn	/l-q-ḥ/	vb G prefc.	to get hold of	
 161071	bd	b&d	b	prep.	in	
 # KTU 3.5 18						
-161072	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-161073	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
-161073	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-161074	kltn	klt(I)/+n	klt (I)	n. f. cstr. gen.	bride	
-161074	kltn	kltn/	kltn	PN sg. abs. gen.	kltn	
+161072	bˤln	bˤl(II)/+n	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+161073	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+161073	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+161073	bn	bn(II)	bn (II)	prep.	between	
+161073	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161073	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161074	kltn	kly[+n	/k-l-y/	vb G suffc.	to finish	
+161074	kltn	klt(I)/+n	klt (I)	n. f. cstr. nom.	bride	
+161074	kltn	klt(II)/+n	klt (II)	n. f. cstr. nom.	measure	
 # KTU 3.5 19						
 161075	w	w	w	conj.	and	
 161076	bd	b&d	b	prep.	in	
@@ -119,7 +132,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. nom.	seal	
 # KTU 3.5 23						
 161085	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
-161086	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161086	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161086	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161086	bn	bn(II)	bn (II)	prep.	between	
 161086	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	

@@ -13,7 +13,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 4						
 160281	hlny	hlny	hlny	deictic adv. functor	behold	
 160282	klby	klb(I)/+y	klb (I)	n. m. cstr. nom.	dog	
-160282	klby	klby/	klby	PN sg. abs. nom.	klby	
 # KTU 2.99 5						
 160283	w	w	w	conj.	and	
 160284	gtn	gt/+n	gt	n. f. cstr. nom.	gittu	
@@ -34,13 +33,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160292	xxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 11						
 160293	x	?	?	?	?	
-160294	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
 160294	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 160295	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 2.99 12						
-160296	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. gen.	(head of) cattle	
 160296	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
-160297	iqni	iqn(u/&i	ỉqnủ	n. m. sg. abs. gen.	gem of lapis lazuli	
+160297	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 160298	w	w	w	conj.	and	
 160299	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 160300	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
@@ -62,9 +59,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 18						
 160307	tqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 # KTU 2.99 19						
-160308	pln	pln/	pln	PN sg. cstr. nom.	pln	
+160308	pln	pl[+n	/p-l(-l)/	vb G suffc.	to be cracked	
 # KTU 2.99 20						
-160309	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
+160309	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
 160310	mr	mr(I)/	mr (I)	n. m. sg. abs. gen.	myrrh	
 # KTU 2.99 21						
 160311	xxspln	?	?	?	?	DULAT: NOT FOUND
@@ -101,6 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 30						
 160331	x	?	?	?	?	
 160332	igrn	!(ʔ&i!(]n]gr[n	/g-r/	vb N prefc. 1 c. sg.	to lodge	
+160332	igrn	(]n]igrn[	/g-r/	vb N suffc. 3 m. sg.	to lodge	
 # KTU 2.99 31						
 160333	qthm	qt/+hm	qt	n. m. cstr. nom.	handle	
 160333	qthm	ṯigt/+hm	ṯỉgt	n. f. cstr. nom.	neighing	

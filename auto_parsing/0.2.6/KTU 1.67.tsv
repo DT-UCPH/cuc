@@ -39,6 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149477	kly	kly[	/k-l-y/	vb G suffc. 3 m. sg.	to finish	
 # KTU 1.67 9						
 149478	rty	rt/+y	rt	PN sg. cstr. nom.	rt	
+149479	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 149479	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 149479	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 149480	ulxxṯ	?	?	?	?	DULAT: NOT FOUND
@@ -80,10 +81,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.67 21						
 149501	q	?	?	?	?	DULAT: NOT FOUND
 149502	ušsk	?	?	?	?	DULAT: NOT FOUND
-149503	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 149503	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149503	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+149503	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 149503	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149503	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.67 22						
 149504	u	u	ủ	conj.	or	
 149505	nṯt	?	?	?	?	DULAT: NOT FOUND

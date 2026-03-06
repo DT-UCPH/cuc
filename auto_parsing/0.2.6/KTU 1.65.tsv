@@ -2,20 +2,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.65 1						
 149403	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 149403	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-149404	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+149404	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
 149404	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 149405	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 149405	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 2						
 149406	dr	dr/	dr	n. m. pl. cstr. gen.	circle	
 149406	dr	dr/	dr	n. m. sg. cstr. gen.	circle	
-149407	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+149407	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
 149407	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 149408	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 149408	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 3						
 149409	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. cstr. gen.	assembly	
-149410	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
+149410	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
 149410	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 149411	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 149411	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
@@ -23,13 +23,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149412	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. gen.	term for the kings of Ugarit	
 149413	wšnm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.65 5						
-149414	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 149414	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149414	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+149414	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 149414	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149414	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 149415	waṯrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.65 6						
-149416	ḥnn	ḥ/+nn	ḥ	n. m. cstr. nom.	life, ?	
+149416	ḥnn	ḥn/+n	ḥn	n. m. cstr. nom.	grace	
 149416	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. cstr. nom.	kindness	
 149417	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 149417	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	

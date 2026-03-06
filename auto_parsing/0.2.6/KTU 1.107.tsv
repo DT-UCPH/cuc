@@ -7,17 +7,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152927	xxxxxxxxxˤrt	?	?	?	?	DULAT: NOT FOUND
 152928	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 152928	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-152929	rbm	rb(I)/m	rb (I)	adj. m. pl. abs. nom.	great	
+152929	rbm	rb(I)/m	rb (I)	adj. f. pl. abs. nom.	great	
 152930	nˤlxxxmr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 3						
 152931	xxxxxx	?	?	?	?	
 152932	wxrṣ	?	?	?	?	DULAT: NOT FOUND
 152933	bdh	bd(IV)+h	bd (IV)	prep.	into the hands of	
 152934	ydrm	ndr[+m(I)	/n-d-r/	vb	to make a vow	
-152934	ydrm	ydrm/	ydrm	PN sg. abs. nom.	ydrm	
-152935	pit	pit/	pỉt	n. m. abs. nom.	temple	
-152936	adm	adm(I)/	ảdm (I)	n. m. sg. abs. nom.	man	
-152936	adm	(ʔ&adm[	/ʔ-d-m/	vb G suffc. 3 m. sg.	to be	
+152935	pit	pit/	pỉt	n. m. cstr. nom.	temple	
+152936	adm	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	man	
 # KTU 1.107 4						
 152937	xxxxxxiṯx	?	?	?	?	DULAT: NOT FOUND
 152938	yšql	ql[ql	/q-l/	vb	to fall (down)	
@@ -32,10 +30,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152946	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
 # KTU 1.107 6						
 152947	xxxxxq	?	?	?	?	DULAT: NOT FOUND
+152948	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. nom.	bite	
 152948	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 152948	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 152948	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
-152948	nṯk	nṯk[	/n-ṯ-k/	vb G prefc.	to bite	
+152948	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. abs. nom.	to bite	
 152949	l	l(I)	l (I)	prep.	to	
 152949	l	l(II)	l (II)	adv.	no	
 152949	l	l(III)	l (III)	functor	certainly	
@@ -45,7 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152951	l	l(I)	l (I)	prep.	to	
 152951	l	l(II)	l (II)	adv.	no	
 152951	l	l(III)	l (III)	functor	certainly	
-152952	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+152952	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 152952	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 152952	bn	bn(II)	bn (II)	prep.	between	
 152952	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
@@ -76,7 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152966	km	k(IV)	k (IV)	adv.	thus	
 152966	km	km	km	prep./conj./adv.		
 152966	km	+km, +km=	-km			
-152967	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. cstr. nom.	boy	
+152967	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	boy	
 152967	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
 152967	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
 152967	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
@@ -113,13 +112,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152986	tpky	bky[y	/b-k-y/	vb G prefc.	to weep	
 152987	bm	b&m	b	prep.	in	
 152987	bm	b+m(I)	b	prep.	in	
-152988	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. cstr. nom.	boy	
+152988	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	boy	
 152988	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
 152988	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
 152988	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
 152988	nˤr	!n!(]n]ˤr[	/ʕ-r/	vb N prefc. 1 c. pl.	to become agitated	
 152988	nˤr	]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
+152989	tdmˤ	!t!dmˤ[	/d-m-ʕ/	vb G prefc. 3 f. sg.	to shed tears	
+152989	tdmˤ	!t=!dmˤ[	/d-m-ʕ/	vb G prefc. 2 m. sg.	to shed tears	
+152989	tdmˤ	!t==!dmˤ[	/d-m-ʕ/	vb G prefc. 2 f. sg.	to shed tears	
+152989	tdmˤ	!t!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. du.	to shed tears	
 152989	tdmˤ	!t!dmˤ[:w	/d-m-ʕ/	vb G prefc. 3 m. pl.	to shed tears	
+152989	tdmˤ	!t===!dmˤ[	/d-m-ʕ/	vb G prefc. 2 m. pl.	to shed tears	
 152990	km	k(III)	k (III)	functor	when	
 152990	km	k(I)	k (I)	prep.	like	
 152990	km	k(IV)	k (IV)	adv.	thus	
@@ -128,7 +132,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 12						
 152991	ṣġr	ṣġr(I)/	ṣġr (I)	adj. m. sg. abs. nom.	small	
 152992	bkm	b&km	b	prep.	in	
-152992	bkm	!!bk(y[/~m	/b-k-y/	vb G inf.	to weep	
+152992	bkm	bky[	/b-k-y/	vb G suffc. 3 m. sg.	to weep	
+152992	bkm	!!bkm[/	/b-k-y/	vb G inf.	to weep	
 152992	bkm	bkm	bkm	adv.	next	
 152993	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 152994	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	the Devil is a munificent one	
@@ -177,9 +182,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153023	k	k(III)	k (III)	Subordinating or completive functor	when	
 153023	k	k(I)	k (I)	prep.	like	
 153023	k	k(II)	k (II)	emph. functor	yes	
-153024	pˤn	pˤn/	pʕn	n. f. du. cstr. nom.	foot	
+153024	pˤn	pˤn/	pʕn	n. f. cstr. nom.	foot	
 # KTU 1.107 19						
 153025	xxxxxxy	?	?	?	?	DULAT: NOT FOUND
+153026	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 153026	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 153027	nšy	nšy	nšy	?, prep.		
 153027	nšy	nš+y	nš	?, prep.		
@@ -203,7 +209,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153040	alxxxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 23						
 153041	xxxxxxxt	?	?	?	?	DULAT: NOT FOUND
-153042	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+153042	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 153042	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 153042	bn	bn(II)	bn (II)	prep.	between	
 153042	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
@@ -256,7 +262,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153077	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 # KTU 1.107 32						
 153078	xxxxxsp	?	?	?	?	DULAT: NOT FOUND
-153079	ḫph	ḫp(I)/+h	ḫp (I)	n. m. sg. cstr. nom.	shore	
+153079	ḫph	ḫp(I)/+h	ḫp (I)	n. m. cstr. nom.	shore	
 153080	ḫxx	?	?	?	?	DULAT: NOT FOUND
 153081	xxxx	?	?	?	?	
 153082	isp	(ʔ&isp[	/ʔ-s-p/	vb G impv. 2	to gather	
@@ -425,6 +431,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153176	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 153176	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 153176	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+153176	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 153177	abd	abd(I)/	ảbd (I)	n. m. sg. abs. gen.	ruin	
 153178	l	l(I)	l (I)	prep.	to	
 153178	l	l(III)	l (III)	functor	certainly	

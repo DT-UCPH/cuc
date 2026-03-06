@@ -16,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160043	nzq	nzq[:pass	/n-z-q/	vb Gpass suffc.	to be injured	
 # KTU 2.91 4						
 160044	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
-160045	lmd	lmd/	lmd	adj. m. pl. cstr. nom.	trained	
+160045	lmd	lmd/	lmd	adj. m. sg. cstr. nom.	trained	
 160045	lmd	lmd/	lmd	adj. m. sg. abs. nom.	trained	
 160045	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
 160045	lmd	lmd[:dt===	/l-m-d/	vb D suffc. 3 f. sg.	to teach	
@@ -43,14 +43,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160054	k	k(II)	k (II)	emph. functor	yes	
 160055	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. cstr. nom.	to know	
 # KTU 2.91 8						
-160056	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-160057	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-160057	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+160056	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+160057	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+160057	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+160057	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+160057	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+160057	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.91 9						
-160058	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
+160058	hwt	hw&t	hw	pers. pn.	he	
+160058	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 2.91 10						
 160059	w	w	w	conj.	and	
-160060	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+160060	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 160061	ys	nsy(II)[	/n-s-y/ (II)	vb G prefc.	to remove	
 # KTU 2.91 11						
 160062	xṯdt	?	?	?	?	DULAT: NOT FOUND

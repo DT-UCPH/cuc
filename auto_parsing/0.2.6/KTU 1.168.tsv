@@ -45,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155583	w	w	w	conj.	and	
 155584	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
 155585	kmm	kmm	kmm	adv.	ditto	
-155586	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+155586	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 155586	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 155586	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.168 11						
@@ -59,8 +59,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155591	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.168 12						
 155592	w	w	w	conj.	and	
-155593	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 155593	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+155593	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 155593	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.168 13						
 155594	kmm	kmm	kmm	adv.	ditto	

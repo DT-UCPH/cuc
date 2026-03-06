@@ -15,13 +15,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148449	l	l(I)	l (I)	prep.	to	
 148450	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 148450	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-148451	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 148451	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+148451	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 148451	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.41 3						
 148452	b	b	b	prep.	in	
 148453	ṯlṯṯ	?	?	?	?	DULAT: NOT FOUND
-148454	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+148454	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 148454	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 148455	yrtḫṣ	?	?	?	?	DULAT: NOT FOUND
 148456	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
@@ -29,8 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148457	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 # KTU 1.41 4						
 148458	b	b	b	prep.	in	
-148459	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
-148460	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+148459	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
+148460	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 148460	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 148461	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. gen.	head	
 148462	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. gen.	payment of tribute to the Hittite court	
@@ -69,6 +69,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148482	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
 148482	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
 # KTU 1.41 8						
+148483	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 148483	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 148483	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 148484	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
@@ -92,7 +93,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148496	lˤnt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.41 11						
 148497	w	w	w	conj.	and	
-148498	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
 148498	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 148499	š	š/	š	n. m. sg. abs. gen.	ram	
 148500	lil	?	?	?	?	DULAT: NOT FOUND
@@ -116,14 +116,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148510	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
 148511	dqtšrp	?	?	?	?	DULAT: NOT FOUND
 148512	w	w	w	conj.	and	
-148513	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148513	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+148513	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148513	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148514	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.41 14						
 148515	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg. cstr. nom.	goddess	
 148515	ilh	ilh/	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
-148516	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 148516	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 148517	w	w	w	conj.	and	
 148518	š	š/	š	n. m. sg. cstr. nom.	ram	
@@ -276,8 +275,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148611	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
 148612	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 148613	w	w	w	conj.	and	
-148614	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148614	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+148614	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148614	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148615	kmm	kmm	kmm	adv.	ditto	
 148616	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
@@ -291,10 +290,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148619	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 148620	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 148620	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-148621	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 148621	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-148621	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+148621	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 148621	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+148621	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.41 31						
 148622	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 148622	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
@@ -314,8 +313,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148631	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 148632	w	w	w	conj.	and	
 # KTU 1.41 33						
-148633	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148633	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+148633	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148633	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 148634	kmm	kmm	kmm	adv.	ditto	
 148635	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
@@ -351,7 +350,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148655	btm	bt(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 148655	btm	bt(I)/m	bt (I)	n. f. pl. abs. gen.	daughter	
 148656	rmm	rm(I)/	rm (I)	adj. m. pl. abs. nom.	high	
-148656	rmm	rmm[:l	/r-m/	vb L prefc.	to go up	
+148656	rmm	rmm[:l	/r-m/	vb L impv. 2	to go up	
 148657	w	w	w	conj.	and	
 148658	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
 # KTU 1.41 38						
@@ -369,7 +368,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148666	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
 148667	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. gen.	total (quantity or price)	
 148668	w	w	w	conj.	and	
-148669	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
+148669	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 148669	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 148669	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 148669	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
@@ -437,7 +436,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148707	dd	dd(II)/	dd (II)	n. m. sg. cstr. nom.	cauldronful	
 148708	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
 # KTU 1.41 46						
-148709	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. sg. cstr. gen.	place of sacrifice	
+148709	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. cstr. gen.	place of sacrifice	
 148710	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 148710	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 148711	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -492,20 +491,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.41 51						
 148742	arbˤ	arbˤ/	ảrbʕ	num.	four	
 148743	arbˤ	arbˤ/	ảrbʕ	num.	four	
-148744	mṯbt	mṯb/t	mṯb	n. f. sg. cstr. nom.	residence	
+148744	mṯbt	mṯb/t=	mṯb	n. f. pl. cstr. nom.	residence	
 148745	azmr	azmr/	ảzmr	n. m. sg. abs. gen.	shoot	
 148746	bh	b&h	b	prep.	in	
 148746	bh	b+h	b	prep.	in	
 148747	š	š/	š	n. m. sg. abs. nom.	ram	
 148748	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 # KTU 1.41 52						
-148749	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+148749	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 148749	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 148749	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 148750	w	w	w	conj.	and	
 148751	š	š/	š	n. m. sg. cstr. nom.	ram	
-148752	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 148752	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. gen.	communion victim / sacrifice	
+148752	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 148752	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 148753	pamt	pa/m&t	pảm(t)	n. f. pl. abs. gen.	time	
 148754	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
@@ -516,6 +515,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148755	k	k(II)	k (II)	emph. functor	yes	
 148756	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
 # KTU 1.41 53						
+148757	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say	
 148757	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to say	
 148758	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 148758	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
@@ -548,6 +548,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148773	km	+km, +km=	-km			
 148774	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence	
 148775	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
+148775	yšu	yšu[	/n-š-ʔ/	vb G suffc. 3 m. sg.	to raise	
 148776	l	l(I)	l (I)	prep.	to	
 148776	l	l(III)	l (III)	functor	certainly	
 148777	šmm	šm(m(I)/m	šmm (I)	n. m. pl. cstr. nom.	heavens	

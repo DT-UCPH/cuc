@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 1						
 153351	b	b	b	prep.	in	
-153352	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
-153353	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+153352	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
+153353	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 153353	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 # KTU 1.109 2						
 153354	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash	
@@ -21,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 5						
 153362	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 153362	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
-153363	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. gen.	banquet	
+153363	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. gen.	banquet	
 153363	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. gen.	group of ten	
 153364	l	l(I)	l (I)	prep.	to	
 153365	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
@@ -47,7 +47,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153380	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 153381	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	total (quantity or price)	
 # KTU 1.109 9						
-153382	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 153382	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 153383	w	w	w	conj.	and	
 153384	š	š/	š	n. m. sg. abs. nom.	ram	
@@ -60,8 +59,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153389	lṣpn	?	?	?	?	DULAT: NOT FOUND
 153390	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 153391	w	w	w	conj.	and	
-153392	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 153392	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+153392	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 153392	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.109 11						
 153393	kmm	kmm	kmm	adv.	ditto	
@@ -91,7 +90,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153407	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.109 14						
 153408	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-153409	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 153409	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 153410	w	w	w	conj.	and	
 153411	š	š/	š	n. m. sg. cstr. nom.	ram	
@@ -101,8 +99,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 15						
 153414	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 153415	w	w	w	conj.	and	
-153416	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 153416	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. nom.	communion victim / sacrifice	
+153416	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 153416	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 153417	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
 153418	š	š/	š	n. m. sg. cstr. gen.	ram	
@@ -122,7 +120,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153427	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 153427	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 153428	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-153429	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 153429	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 # KTU 1.109 18						
 153430	w	w	w	conj.	and	
@@ -141,7 +138,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153440	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 153440	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 153440	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
-153441	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 153441	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 153442	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.109 21						
@@ -162,8 +158,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153452	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
 153453	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.109 23						
-153454	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 153454	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+153454	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 153454	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.109 24						
 153455	w	w	w	conj.	and	
@@ -191,15 +187,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153469	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
 153469	alpm	alp(II)&m/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 153470	w	w	w	conj.	and	
-153471	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+153471	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 153471	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 153471	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 153472	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.109 28						
 153473	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 153474	w	w	w	conj.	and	
-153475	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 153475	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+153475	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 153475	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 153476	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.109 29						
@@ -249,6 +245,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153508	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 153509	ṣpnxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.109 37						
-153510	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 153510	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+153510	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 153510	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	

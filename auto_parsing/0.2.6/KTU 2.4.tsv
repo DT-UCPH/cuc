@@ -19,7 +19,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156399	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 156399	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.4 5						
+156400	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 156400	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156401	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 156401	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.4 6						
 156402	tˤzzk	!t!ˤz[zk:d	/ʕ-z(-z)/	vb D prefc.	to be strong	
@@ -82,7 +84,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156431	gy	g/+y	g	n. m. sg. cstr. nom.	(loud) voice	
 156432	w	w	w	conj.	and	
 156433	yhbṭ	!y!hbṭ[:d	/h-b-ṭ/ẓ/	vb D prefc. 3 m. sg.	to knock down	
-156434	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
+156434	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
 156434	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 # KTU 2.4 20						
 156435	w	w	w	conj.	and	

@@ -10,8 +10,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.78 3						
 149892	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
 149892	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
-149893	ṯġrh	ṯġr(II)/+h	ṯġr (II)	n. m. sg. cstr. gen.	gatekeeper	
-149893	ṯġrh	ṯġr(I)/+h	ṯġr (I)	n. m. pl. cstr. gen.	gate	
+149893	ṯġrh	ṯġr(II)/+h	ṯġr (II)	n. m. cstr. gen.	gatekeeper	
+149893	ṯġrh	ṯġr(I)/+h	ṯġr (I)	n. m. cstr. gen.	gate	
 # KTU 1.78 4						
 149894	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
 # KTU 1.78 5						
@@ -19,5 +19,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149896	tbqrn	!t!bqr[n	/b-q-r/	vb G prefc.	to examine	
 149896	tbqrn	!t!bqr[n:d	/b-q-r/	vb D prefc.	to examine	
 # KTU 1.78 6						
-149897	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
 149897	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
+149897	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	

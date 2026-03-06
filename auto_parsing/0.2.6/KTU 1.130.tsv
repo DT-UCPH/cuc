@@ -18,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154571	l	l(III)	l (III)	functor	certainly	
 154572	ˤntṣpn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 6						
-154573	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+154573	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 154573	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 154573	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 154574	wš	?	?	?	?	DULAT: NOT FOUND
@@ -29,8 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154576	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 # KTU 1.130 8						
 154577	w	w	w	conj.	and	
-154578	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 154578	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+154578	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 154578	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.130 9						
 154579	l	l(I)	l (I)	prep.	to	
@@ -58,7 +58,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154592	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. nom.	ʿAnatu/Anat	
 154593	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 14						
-154594	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 154594	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 154595	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 15						
@@ -103,7 +102,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154621	l	l(I)	l (I)	prep.	to	
 154622	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 154623	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-154624	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 154624	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 154625	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 23						
@@ -112,14 +110,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154628	lṣpn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 24						
 154629	w	w	w	conj.	and	
-154630	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 154630	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+154630	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 154630	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 154631	l	l(I)	l (I)	prep.	to	
 154632	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 154633	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 1.130 25						
-154634	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 154634	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 154635	w	w	w	conj.	and	
 154636	š	š/	š	n. m. sg. abs. nom.	ram	

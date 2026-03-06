@@ -2,13 +2,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 1						
 160892	l	l(I)	l (I)	prep.	to	
 160892	l	l(III)	l (III)	functor	certainly	
+160893	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 160893	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 160893	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 160894	hnd	hnd	hnd	dem.	this	
 # KTU 3.2 2						
 160895	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. nom.	ʿmṯtmr	
 # KTU 3.2 3						
-160896	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 160896	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 160897	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
 # KTU 3.2 4						
@@ -23,7 +23,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160901	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 160902	annḏr	annḏr/	ảnnḏr	PN sg. cstr. gen.	ảnnḏr	
 # KTU 3.2 6						
-160903	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 160903	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 160904	agytn	agytn/	ảgytn	PN sg. cstr. gen.	ảgytn	
 160905	bnš	bnš/	bnš	n. m. pl. cstr. gen.	man	
@@ -45,7 +44,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160912	l	l(III)	l (III)	functor	certainly	
 160913	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. nom.	ʿbdmlk	
 # KTU 3.2 10						
-160914	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 160914	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 160915	amtrn	amtrn/	ảmtrn	PN sg. abs. gen.	ảmtrn	
 # KTU 3.2 11						
@@ -76,7 +74,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 15						
 160928	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. gen.	ʿbdmlk	
 # KTU 3.2 16						
-160929	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 160929	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 160930	amtrn	amtrn/	ảmtrn	PN sg. abs. gen.	ảmtrn	
 # KTU 3.2 17						

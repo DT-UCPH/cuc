@@ -1,11 +1,13 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 1						
+158449	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 158449	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+158450	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 158450	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.50 2						
 158451	l	l(I)	l (I)	prep.	to	
 158452	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-158453	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+158453	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 158454	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.50 3						
 158455	w	w	w	conj.	and	
@@ -44,8 +46,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158475	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 12						
 158476	x	?	?	?	?	
-158477	mly	ml+y	ml	?	?	
-158477	mly	mly(II)/	mly (II)	PN sg. abs. nom.	mly (II)	
 158477	mly	mly(I)	mly (I)	?	?	
 # KTU 2.50 13						
 158478	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
@@ -77,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158493	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 # KTU 2.50 19						
 158494	x	?	?	?	?	
-158495	m	?	?	?	?	DULAT: NOT FOUND
+158495	m	m	m(h)	pers. pn.	what?	
 158496	d	d	d	det. or rel. functor	the one(s) of	
 158497	l	l(I)	l (I)	prep.	to	
 158497	l	l(III)	l (III)	functor	certainly	
@@ -90,9 +90,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158500	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 158501	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.50 21						
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. nom.	servant	
-158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
 158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+158502	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
 158503	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 22						
 158504	xxy	?	?	?	?	DULAT: NOT FOUND

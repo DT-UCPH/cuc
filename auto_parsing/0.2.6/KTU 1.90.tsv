@@ -19,13 +19,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 5						
 151180	w	w	w	conj.	and	
 151181	ḥẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. nom.	arrow	
-151182	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 151182	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 # KTU 1.90 6						
 151183	w	w	w	conj.	and	
 151184	š	š/	š	n. m. sg. abs. nom.	ram	
 151185	lll	?	?	?	?	DULAT: NOT FOUND
-151186	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+151186	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 151186	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 151186	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.90 7						
@@ -54,7 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 14						
 151198	w	w	w	conj.	and	
 # KTU 1.90 15						
-151199	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+151199	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 151199	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 151199	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.90 16						

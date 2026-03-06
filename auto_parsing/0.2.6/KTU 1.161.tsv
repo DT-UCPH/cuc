@@ -1,9 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 1						
-155115	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
-155116	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
-155116	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
-155116	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
+155115	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
+155115	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
+155116	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
+155116	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
 155117	ẓlm	ẓl(I)/m	ẓl (I)	n. m. pl. abs. gen.	shade	
 # KTU 1.161 2						
 155118	qritm	qr(ʔ&i[tm	/q-r-ʔ/	vb G suffc. 2 c. pl.	to call	
@@ -13,8 +13,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155121	qbitm	qb(ʔ&i[tm	/q-b-ʔ/	vb G suffc. 2 c. pl.	to send (someone) to say	
 155122	qbṣ	qbṣ/	qbṣ	n. m. sg. cstr. nom.	clan	
 155123	ddn	dd(II)/+n	dd (II)	n. m. cstr. gen.	cauldronful	
-155123	ddn	ddn(I)/	ddn (I)	PN sg. abs. gen.	ddn (I)	
-155123	ddn	ddn(II)/	ddn (II)	PN sg. abs. gen.	ddn (II)	
 # KTU 1.161 4						
 155124	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
 155124	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
@@ -45,18 +43,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 8						
 155137	qru	qr(ʔ&u[	/q-r-ʔ/	vb G impv. 2	to call	
 155138	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
+155138	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	healer	
 155139	qdmym	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
 # KTU 1.161 9						
 155140	qritm	qr(ʔ&i[tm	/q-r-ʔ/	vb G suffc. 2 c. pl.	to call	
-155141	rpi	rp(u/&i	rpủ	n. m. pl. cstr. nom.	healer	
 155141	rpi	rp(u/&i	rpủ	n. m. sg. cstr. nom.	healer	
 155142	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.161 10						
 155143	qbitm	qb(ʔ&i[tm	/q-b-ʔ/	vb G suffc. 2 c. pl.	to send (someone) to say	
 155144	qbṣ	qbṣ/	qbṣ	n. m. sg. cstr. nom.	clan	
 155145	ddn	dd(II)/+n	dd (II)	n. m. cstr. gen.	cauldronful	
-155145	ddn	ddn(I)/	ddn (I)	PN sg. abs. gen.	ddn (I)	
-155145	ddn	ddn(II)/	ddn (II)	PN sg. abs. gen.	ddn (II)	
 # KTU 1.161 11						
 155146	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
 155146	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
@@ -94,7 +90,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 16						
 155165	w	w	w	conj.	and	
 155166	yblˤ	!y!blˤ[	/b-l-ʕ/	vb G prefc. 3 m. sg.	to swallow	
-155167	udmˤth	dmˤt/	dmʕt	n. f. pl. cstr. nom.	tear	
+155167	udmˤth	dmˤ(t/t	dmʕt	n. f. sg. cstr. nom.	tear	
 # KTU 1.161 17						
 155168	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. gen.	desolation	
 155168	ˤdmt	ˤdm(t/t=	ʕdmt	n. f. pl. abs. gen.	desolation	
@@ -141,13 +137,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155196	w	w	w	conj.	and	
 155197	rdn	yrd[+n	/y-r-d/	vb G prefc.	to go down	
 155197	rdn	yrd[+n	/y-r-d/	vb G suffc.	to go down	
-155197	rdn	rdn/	rdn	PN sg. abs. nom.	to rule	
 155198	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 155199	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. cstr. gen.	bull	
 155199	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. gen.	bull	
 # KTU 1.161 24						
-155200	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-155201	lmn	lmn/	lmn	PN sg. abs. gen.	lmn	
+155200	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+155201	lmn	l(I)&m+n	l (I)	prep.	to	
+155201	lmn	lm(II)+n	lm (II)	interr. pn.	why?	
 155202	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 155203	rpim	rp(u&i/m	rpủ	n. m. pl. abs. gen.	healer	
 155204	qdmym	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
@@ -227,7 +223,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155242	ṯryl	ṯryl/	ṯryl	PN sg. cstr. gen.	ṯryl	
 # KTU 1.161 33						
 155243	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	peace	
-155244	bth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
+155244	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
+155244	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 155245	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 155245	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 155245	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -239,6 +236,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155245	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 155246	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 1.161 34						
+155247	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+155247	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
+155247	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+155247	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
 155247	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-155248	ṯġrh	ṯġr(II)/+h	ṯġr (II)	n. m. sg. cstr. nom.	gatekeeper	
-155248	ṯġrh	ṯġr(I)/+h	ṯġr (I)	n. m. pl. cstr. nom.	gate	
+155247	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+155247	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+155247	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
+155247	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+155248	ṯġrh	ṯġr(II)/+h	ṯġr (II)	n. m. cstr. nom.	gatekeeper	
+155248	ṯġrh	ṯġr(I)/+h	ṯġr (I)	n. m. cstr. nom.	gate	

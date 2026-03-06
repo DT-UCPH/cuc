@@ -4,10 +4,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158833	l	l(II)	l (II)	adv.	no	
 158833	l	l(III)	l (III)	functor	certainly	
 158834	ydrm	ydrm/	ydrm	PN sg. cstr. nom.	ydrm	
-158835	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+158835	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.70 2						
-158836	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-158836	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+158836	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+158836	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+158836	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+158836	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+158836	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.70 3						
 158837	atḥm	?	?	?	?	DULAT: NOT FOUND
 158838	pnḥṯ	pnḥṯ/	pnḥṯ	PN sg. abs. nom.	pnḥṯ	
@@ -31,16 +34,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.70 6						
 158844	l	l(I)	l (I)	prep.	to	
 158844	l	l(III)	l (III)	functor	certainly	
-158845	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-158846	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
-158846	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+158845	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+158846	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+158846	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.70 7						
+158847	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 158847	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+158848	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 158848	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.70 8						
 158849	l	l(I)	l (I)	prep.	to	
 158850	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-158851	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+158851	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.70 9						
 158852	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 158853	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
@@ -49,7 +54,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158855	qlny	ql[ny	/q-l/	vb G suffc.	to fall (down)	
 # KTU 2.70 11						
 158856	hlny	hlny	hlny	deictic adv. functor	behold	
-158857	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 158857	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 158858	ˤyn	ˤyn/	ʕyn	PN sg. abs. gen.	ʿyn	
 # KTU 2.70 12						
@@ -70,17 +74,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.70 15						
 158870	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc. 1 c. sg.	to get hold of	
 158871	w	w	w	conj.	and	
-158872	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-158872	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to live	
-158872	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to live	
+158872	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. nom.	country	
 # KTU 2.70 16						
-158873	hbt	hbt	hbt	→	?	
+158873	hbt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 158874	w	w	w	conj.	and	
 158875	lm	l(I)&m	l (I)	prep.	to	
 158876	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 158876	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
 # KTU 2.70 17						
-158877	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 158877	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 158878	ˤyn	ˤyn/	ʕyn	PN sg. abs. gen.	ʿyn	
 # KTU 2.70 18						
@@ -98,7 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158887	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.70 21						
 158888	ṯmt	ṯm&t	ṯm	adv.	there	
-158889	ˤmnk	ˤm(I)&n+k	ʕm (I)	prep.	to	
+158889	ˤmnk	ˤm(I)+nk	ʕm (I)	prep.	to	
 # KTU 2.70 22						
 158890	k	+k	-k (I)			
 158890	k	~k	-k (II)			
@@ -145,7 +146,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158909	ḫpn	ḫpn(I)/	ḫpn (I)	n. m. sg. abs. nom.	Gewand	
 158910	l	l(I)	l (I)	prep.	to	
 158910	l	l(III)	l (III)	functor	certainly	
-158911	bˤlny	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+158911	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 # KTU 2.70 29						
 158912	mnm	mnm	mnm	indef. pn.	any(thing)	
 158913	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence	

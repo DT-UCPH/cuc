@@ -3,14 +3,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146789	mrzˤy	mrzˤy/	mrzʕy	adj. m. sg. abs. nom.	he of the mrzḥ	
 146790	lk	l(I)+k	l (I)	prep.	to	
 146791	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+146791	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
 # KTU 1.21 II:2						
 146792	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+146792	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
 146793	aṣḥkm	!(ʔ&a!ṣḥ[km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
+146793	aṣḥkm	aṣḥkm[	/ṣ-ḥ/	vb G suffc. 3 m. sg.	to exclaim	
 146794	iqra	!(ʔ&i!qr(ʔ[&a	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	
 # KTU 1.21 II:3						
-146795	hkly	hkl/y	hkl	n. m. sg. abs. nom.	palace	
+146795	hkly	hkl/+y	hkl	n. m. cstr. nom.	palace	
 146796	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 146797	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+146797	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
 # KTU 1.21 II:4						
 146798	l	l(III)	l (III)	functor	certainly	
 146799	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
@@ -42,32 +46,37 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.21 II:8						
 146817	yl	?	?	?	?	DULAT: NOT FOUND
 146818	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
-146819	hkly	hkl/y	hkl	n. m. sg. abs. gen.	palace	
+146819	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
 146820	w	w	w	conj.	and	
 146821	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 146821	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
 146821	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc. 3 m. sg.	to see	
 146821	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed	
 146821	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to be / remain depressed	
-146822	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 146822	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-146822	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+146822	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 146822	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+146822	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.21 II:9						
 146823	y	+y, [y	-y (I)	prep. functor	my	
 146823	y	~y	-y (II)	prep. functor	indeed	
 146823	y	y	y	prep. functor	oh!	
 146824	lk	l(I)+k	l (I)	prep.	to	
 146825	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+146825	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
 146826	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
+146826	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	healer	
 # KTU 1.21 II:10						
 146827	aṣḥkm	!(ʔ&a!ṣḥ[km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
+146827	aṣḥkm	aṣḥkm[	/ṣ-ḥ/	vb G suffc. 3 m. sg.	to exclaim	
 146828	iqrakm	!(ʔ&i!qr(ʔ[&akm	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	
+146828	iqrakm	iqrakm[	/q-r-ʔ/	vb G suffc. 3 m. sg.	to call	
 # KTU 1.21 II:11						
 146829	b	b	b	prep.	in	
-146830	hkly	hkl/y	hkl	n. m. sg. abs. gen.	palace	
+146830	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
 146831	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 146832	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+146832	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
 # KTU 1.21 II:12						
 146833	l	l(I)	l (I)	prep.	to	
 146833	l	l(II)	l (II)	adv.	no	

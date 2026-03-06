@@ -8,13 +8,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151222	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 2						
 151223	b	b	b	prep.	in	
-151224	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. gen.	sacrifice	
 151224	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
 151224	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
 151225	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 151225	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.91 3						
-151226	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. gen.	sacrifice	
 151226	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
 151226	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
 151227	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -34,7 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151234	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 151234	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 1.91 8						
-151235	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+151235	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 151235	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 151235	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 151236	izr	izr/	ỉzr	n. m. sg. abs. nom.	investiture	
@@ -78,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 13						
 151251	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. gen.	new moon	
 # KTU 1.91 14						
-151252	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
+151252	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 151252	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
@@ -96,14 +94,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151258	b	b	b	prep.	in	
 151259	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
 151260	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
-151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. pl. abs. gen.	army	
 151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. sg. abs. gen.	army	
 151261	ṣbi	ṣb(u(II)/&i	ṣbủ (II)	n. m. sg. abs. gen.	setting	
 # KTU 1.91 16						
 151262	xxxxxkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 17						
 151263	xxxxxxh	?	?	?	?	DULAT: NOT FOUND
-151264	iln	il(I)/+n	ỉl (I)	n. m. cstr. nom.	god	
+151264	iln	il(I)&n/	ỉl (I)	n. m. sg. abs. nom.	god	
 151264	iln	iln(I)/	ỉln (I)	n. m. sg. abs. nom.	deity	
 # KTU 1.91 18						
 151265	xxxxx	?	?	?	?	

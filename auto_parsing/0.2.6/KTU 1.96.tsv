@@ -1,7 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.96 1						
-151565	ˤnn	ˤn(I)&n/	ʕn (I)	n. f. du. cstr. nom.	eye	
-151565	ˤnn	ˤnn/	ʕnn	n. m. pl. cstr. nom.	manservant	
+151565	ˤnn	ˤn(I)&n/	ʕn (I)	n. f. cstr. nom.	eye	
 151565	ˤnn	ˤnn/	ʕnn	n. m. sg. cstr. nom.	manservant	
 151566	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to go	
 151567	w	w	w	conj.	and	
@@ -26,7 +25,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151575	k	k(II)	k (II)	emph. functor	yes	
 151576	ysmsm	ysmsm/	ysmsm	adj. m. sg. abs. nom.	handsome	
 151577	tspi	!t!sp(ʔ[&i	/s-p-ʔ/	vb G prefc.	to devour	
-151578	širh	šir(I)/+h	šỉr (I)	n. m. sg. cstr. nom.	flesh	
+151578	širh	šir(I)/+h	šỉr (I)	n. m. cstr. nom.	flesh	
 # KTU 1.96 4						
 151579	l	l(I)	l (I)	prep.	to	
 151579	l	l(III)	l (III)	functor	certainly	
@@ -52,10 +51,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151588	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. nom.	furrow	
 # KTU 1.96 6						
 151589	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
+151589	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
 151590	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
 151590	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 151590	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+151590	ˤn	ˤn[:d	/ʕ-n/	vb D impv. 2	to see	
 151590	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 151591	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
 151591	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. nom.	evildoing woman	
@@ -115,6 +116,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151614	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
 151614	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
 151615	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
+151615	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 1.96 12						
 151616	l	l(I)	l (I)	prep.	to	
 151616	l	l(III)	l (III)	functor	certainly	

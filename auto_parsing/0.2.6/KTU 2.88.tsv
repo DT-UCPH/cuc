@@ -45,6 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159776	w	w	w	conj.	and	
 159777	bym	b&y+m(I)	b	prep.	in	
 # KTU 2.88 6						
+159778	hwt	hw&t	hw	pers. pn.	he	
 159778	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 159779	ank	ank	ảnk	pers. pn.	I	
 159780	b	b	b	prep.	in	
@@ -70,19 +71,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 11						
 159795	w	w	w	conj.	and	
 159796	at	at(I)	ảt (I)	pers. pn.	you	
-159797	klklk	klkl/+k	klkl	n. m. sg. cstr. nom.	anybody	
+159797	klklk	klkl/+k	klkl	n. m. cstr. nom.	anybody	
 # KTU 2.88 12						
 159798	škn	škn[:d	/š-k-n/	vb D impv. 2	to be placed	
 159799	l	l(I)	l (I)	prep.	to	
 159799	l	l(III)	l (III)	functor	certainly	
 159800	šmk	šlm(I)/	šlm (I)	n. m. abs. nom.	peace	
-159800	šmk	šm(I)/+k	šm (I)	n. m. sg. cstr. nom.	name	
+159800	šmk	šm(I)/+k	šm (I)	n. m. cstr. nom.	name	
 # KTU 2.88 13						
 159801	w	w	w	conj.	and	
 159802	kly	kly[	/k-l-y/	vb G suffc. 3 m. sg.	to finish	
-159803	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. nom.	servant	
-159803	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
 159803	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+159803	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
 159804	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.88 14						
 159805	p	p(I)	p (I)	conj. functor	and	
@@ -135,6 +135,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159832	mnk	mnk	mnk	indef. pn.	whoever	
 159833	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 159833	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+159834	mġyy	mġy[y	/m-ġ-y/	vb G suffc.	to come	
 159834	mġyy	!!mġy[/y	/m-ġ-y/	vb G inf.	to come	
 # KTU 2.88 23						
 159835	w	w	w	conj.	and	
@@ -191,7 +192,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159862	tlak	!t!l(ʔ&ak[	/l-ʔ-k/	vb G prefc.	to send (a message)	
 # KTU 2.88 30						
 159863	w	w	w	conj.	and	
-159864	rišk	riš(I)/+k	rỉš (I)	n. m. sg. cstr. nom.	head	
+159864	rišk	riš(I)/+k	rỉš (I)	n. m. cstr. nom.	head	
 159865	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish	
 159865	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 159865	ḫlq	ḫlq/	ḫlq	adj. m. sg. abs. nom.	ruined	

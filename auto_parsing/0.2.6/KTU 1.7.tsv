@@ -2,14 +2,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.7 1						
 141471	xxx	?	?	?	?	
 # KTU 1.7 2						
-141472	ḥbšh	ḥbš(I)/+h	ḥbš (I)	n. m. sg. cstr. nom.	cinch	
+141472	ḥbšh	ḥbš(I)/+h	ḥbš (I)	n. m. cstr. nom.	cinch	
 141473	ˤtkt	ˤtk[t:d	/ʕ-t-k/	vb D suffc. 1 c. sg.	to tie	
 141474	rišt	riš(I)/t=	rỉš (I)	n. f. pl. abs. nom.	head	
 # KTU 1.7 3						
 141475	l	l(I)	l (I)	prep.	to	
 141475	l	l(III)	l (III)	functor	certainly	
 141476	bmthhy	?	?	?	?	DULAT: NOT FOUND
-141477	bth	bt(II)/+h	bt (II)	n. m. cstr. nom.	house	
+141477	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	
+141477	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. nom.	daughter	
 141478	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	to enter	
 141478	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	to enter	
 141478	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	to enter	
@@ -19,12 +20,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.7 4						
 141479	w	w	w	conj.	and	
 141480	lšbˤt	?	?	?	?	DULAT: NOT FOUND
-141481	tmtḫṣ	mḫṣ[ḫṣ	/m-ḫ-ṣ/	vb G prefc.	to wound	
+141481	tmtḫṣ	!t!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 3 f. sg.	to wound	
+141481	tmtḫṣ	!t=!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 m. sg.	to wound	
+141481	tmtḫṣ	!t==!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 f. sg.	to wound	
+141481	tmtḫṣ	!t!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 3 m. du.	to wound	
+141481	tmtḫṣ	!t!m]t]ḫṣ[:w	/m-ḫ-ṣ/	vb Gt prefc. 3 m. pl.	to wound	
+141481	tmtḫṣ	!t===!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 m. pl.	to wound	
 141482	b	b	b	prep.	in	
 141483	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. cstr. gen.	valley	
 # KTU 1.7 5						
 141484	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg. cstr. gen.	battle	
-141485	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 141485	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 141486	qrtm	qrt(I)/m	qrt (I)	n. f. pl. abs. gen.	city	
 141487	tṯˤr	!t!ṯˤr[	/ṯ-ʕ-r/	vb G prefc. 3 f. sg.	to prepare (the table)	
@@ -146,9 +151,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141541	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 m. du.	to wash	
 141541	trḥṣ	!t!rḥṣ[:w	/r-ḥ-ṣ/	vb G prefc. 3 m. pl.	to wash	
 141541	trḥṣ	!t===!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 2 m. pl.	to wash	
+141542	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 141542	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 # KTU 1.7 22						
 141543	id	id	ỉd	conj.	when	
+141544	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 141544	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 141545	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 # KTU 1.7 23						
@@ -195,6 +202,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141566	l	l(III)	l (III)	functor	certainly	
 141567	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
 141568	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
+141569	ṯny	ṯny[	/ṯ-n-y/	vb G suffc. 3 m. sg.	to repeat	
 141569	ṯny	ṯny[	/ṯ-n-y/	vb G impv. 2	to repeat	
 141569	ṯny	!!ṯny[/	/ṯ-n-y/	vb G inf.	to repeat	
 141570	lybmt	?	?	?	?	DULAT: NOT FOUND
@@ -251,6 +259,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141607	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 141608	d	d	d	det. or rel. functor	the one(s) of	
 141609	aṯnykrgm	?	?	?	?	DULAT: NOT FOUND
+141610	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. cstr. nom.	tree	
 141610	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs. nom.	tree	
 # KTU 1.7 32						
 141611	w	w	w	conj.	and	
@@ -305,10 +314,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141645	ap	ap(II)/	ảp (II)	n. m. sg. cstr. gen.	nose	
 141646	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. gen.	eye	
 141646	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
-141647	tmtḫṣ	mḫṣ[ḫṣ	/m-ḫ-ṣ/	vb G prefc.	to wound	
+141647	tmtḫṣ	!t!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 3 f. sg.	to wound	
+141647	tmtḫṣ	!t=!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 m. sg.	to wound	
+141647	tmtḫṣ	!t==!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 f. sg.	to wound	
+141647	tmtḫṣ	!t!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 3 m. du.	to wound	
+141647	tmtḫṣ	!t!m]t]ḫṣ[:w	/m-ḫ-ṣ/	vb Gt prefc. 3 m. pl.	to wound	
+141647	tmtḫṣ	!t===!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 m. pl.	to wound	
 141648	bˤmq	?	?	?	?	DULAT: NOT FOUND
 141649	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg. cstr. nom.	battle	
-141650	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 141650	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 141651	qrytm	qryt/m	qryt	n. f. pl. abs. gen.	city	
 141652	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 f. sg.	to wound	

@@ -9,14 +9,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148954	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 148955	wṯnkbdm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.46 2						
-148956	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 148956	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. nom.	communion victim / sacrifice	
+148956	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 148956	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 148957	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
 148958	šm	š/m	š	n. m. pl. abs. gen.	ram	
 148958	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 148959	w	w	w	conj.	and	
-148960	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+148960	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 148960	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 148960	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 148961	ldgn	?	?	?	?	DULAT: NOT FOUND
@@ -41,7 +41,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148974	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 148974	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.46 5						
-148975	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
 148975	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 148976	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 148976	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
@@ -49,7 +48,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148977	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 148978	b	b	b	prep.	in	
 148979	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-148980	tmrm	tmr/+m(I)	tmr	PN sg. cstr. gen.	tmr	
 148980	tmrm	tmrm/	tmrm	TN sg. cstr. gen.	tmrm	
 # KTU 1.46 6						
 148981	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
@@ -74,11 +72,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148994	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 148995	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 148996	w	w	w	conj.	and	
-148997	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 148997	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. nom.	communion victim / sacrifice	
+148997	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 148997	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 # KTU 1.46 8						
-148998	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 148998	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 148999	l	l(I)	l (I)	prep.	to	
 149000	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
@@ -105,8 +102,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149014	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 149014	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 149015	b	b	b	prep.	in	
-149016	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
-149017	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+149016	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
+149017	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 149017	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 149018	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash	
 149019	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
@@ -123,7 +120,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149026	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
 149027	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 149027	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
-149028	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. gen.	banquet	
+149028	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. gen.	banquet	
 149028	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. gen.	group of ten	
 # KTU 1.46 12						
 149029	l	l(I)	l (I)	prep.	to	
@@ -149,7 +146,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149044	l	l(III)	l (III)	functor	certainly	
 149045	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 149046	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	total (quantity or price)	
-149047	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 149047	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 149048	wš	?	?	?	?	DULAT: NOT FOUND
 149049	lbˤl	?	?	?	?	DULAT: NOT FOUND
@@ -161,8 +157,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149053	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 149054	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 149055	w	w	w	conj.	and	
-149056	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 149056	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+149056	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 149056	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 149057	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.46 16						

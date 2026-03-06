@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147631	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 147632	qẓ	qẓ/	qẓ	n. m. sg. cstr. gen.	summer	
 147633	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. abs. gen.	ḫrḫb	
-147634	m	?	?	?	?	DULAT: NOT FOUND
+147634	m	m	m(h)	pers. pn.	what?	
 # KTU 1.24 3						
 147635	lk	l(I)+k	l (I)	prep.	to	
 147636	aġzt	aġz(t/t	ảġzt	n. f. sg. abs. nom.	wedding	
@@ -58,6 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147658	l	l(III)	l (III)	functor	certainly	
 147659	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
 147660	tzdn	!t!zd[n	/z-d/	vb G prefc.	to boil	
+147660	tzdn	tzdn[	/z-d/	vb G suffc. 3 m. sg.	to boil	
 147661	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.24 9						
 147662	pt	?	?	?	?	DULAT: NOT FOUND
@@ -80,11 +81,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147673	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	Swallows	
 147674	tḥmm	tḥm/+m(I)	tḥm	n. m. cstr. gen.	message	
 # KTU 1.24 12						
-147675	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. du. cstr. nom.	eye	
+147675	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	eye	
 147676	l	l(I)	l (I)	prep.	to	
 147676	l	l(III)	l (III)	functor	certainly	
 147677	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
 147678	tzdn	!t!zd[n	/z-d/	vb G prefc.	to boil	
+147678	tzdn	tzdn[	/z-d/	vb G suffc. 3 m. sg.	to boil	
 147679	xxxn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 13						
 147680	l	l(I)	l (I)	prep.	to	
@@ -129,25 +131,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147705	rḫ	?	?	?	?	DULAT: NOT FOUND
 147706	ytrḫ	!y!trḫ[	/t-r-ḫ/	vb G prefc. 3 m. sg.	to marry	
 147706	ytrḫ	!y!trḫ[:d	/t-r-ḫ/	vb D prefc. 3 m. sg.	to marry	
-147707	ib	ib(I)/	ỉb (I)	n. m. pl. abs. nom.	enemy	
-147707	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 147707	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
+147707	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
+147707	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
 147707	ib	ib(II)/	ỉb (II)	n. m. sg. abs. nom.	fruit	
-147707	ib	ib(II)/	ỉb (II)	n. m. sg. cstr. nom.	fruit	
 147708	tˤrbm	!t!ˤrb(I)[m	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 147709	bbh	bb/+h	bb	PN sg. cstr. nom.	bb	
 # KTU 1.24 19						
 147710	th	?	?	?	?	DULAT: NOT FOUND
 147711	w	w	w	conj.	and	
 147712	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
-147713	mhrh	mhr(I)/+h	mhr (I)	n. m. sg. cstr. nom.	warrior (trained, expert)	
-147713	mhrh	mhr(III)/+h	mhr (III)	n. m. sg. cstr. nom.	dowry	
-147713	mhrh	mhr(II)/+h	mhr (II)	n. m. sg. cstr. nom.	warrior strength	
+147713	mhrh	mhr(I)/+h	mhr (I)	n. m. cstr. nom.	warrior (trained, expert)	
 147714	la	la/	lả	n. m. sg. abs. nom.	power	
 # KTU 1.24 20						
 147715	bh	b&h	b	prep.	in	
 147715	bh	b+h	b	prep.	in	
-147716	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+147716	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 147716	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 147716	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 147717	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
@@ -169,11 +168,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147728	krmm	krm/	krm	n. m. pl. abs. nom.	vineyard	
 147728	krmm	krm/	krm	n. m. sg. abs. nom.	vineyard	
 # KTU 1.24 23						
-147729	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 147729	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
+147729	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 147729	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
 147729	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
-147730	ddh	dd(I)/+h	dd (I)	adj. m. sg. cstr. nom.	love	
+147730	ddh	dd(I)/+h	dd (I)	adj. m. cstr. nom.	love	
 147731	ḥrnqm	ḥrnq/m	ḥrnq	n. m. pl. abs. nom.	orchard	
 147732	w	w	w	conj.	and	
 # KTU 1.24 24						
@@ -193,14 +192,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147739	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 147740	lḫtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 26						
-147741	m	?	?	?	?	DULAT: NOT FOUND
+147741	m	m	m(h)	pers. pn.	what?	
 147742	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 147742	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 147742	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 147743	trḫ	trḫ[:d:w	/t-r-ḫ/	vb D suffc. 3 m. pl.	to marry	
 147744	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 147744	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
-147745	bth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
+147745	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
+147745	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 1.24 27						
 147746	aqrbk	?	?	?	?	DULAT: NOT FOUND
 147747	abh	ab/+h	ảb	n. m. cstr. nom.	father	
@@ -233,16 +233,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147762	nyr	nyr/	nyr	n. f. sg. cstr. gen.	luminary	
 147763	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 147764	wn	w&n	w	conj.	and	
-147764	wn	w+n	w	conj.	and	
 147765	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 147765	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
 147765	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 147765	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+147765	ˤn	ˤn[:d	/ʕ-n/	vb D impv. 2	to see	
 147765	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 # KTU 1.24 32						
 147766	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 147767	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to finish	
 147768	ḫtny	ḫtn[y	/ḫ-t-n/	vb D suffc.	to become a son-in-law	
+147768	ḫtny	ḫtn[y	/ḫ-t-n/	vb D impv. 2	to become a son-in-law	
 147768	ḫtny	!!ḫtn[/y	/ḫ-t-n/	vb D inf.	to become a son-in-law	
 147768	ḫtny	ḫtn(I)/+y	ḫtn (I)	n. m. sg. cstr. nom.	relationship by marriage	
 147769	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
@@ -261,7 +262,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147775	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
 147775	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
 147776	mznm	mzn/m	mzn	n. m. pl. cstr. gen.	weight	
-147777	umh	um/+h	ủm	n. f. sg. cstr. gen.	mother	
+147777	umh	um/+h	ủm	n. f. cstr. gen.	mother	
 # KTU 1.24 35						
 147778	kp	kp/	kp	n. f. sg. abs. nom.	palm (of the hand)	
 147779	mznm	mzn/m	mzn	n. m. pl. abs. nom.	weight	
@@ -273,7 +274,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147784	l	l(III)	l (III)	functor	certainly	
 147785	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 37						
-147786	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 147786	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 147787	mznm	mzn/m	mzn	n. m. pl. abs. gen.	weight	
 147788	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to finish	
@@ -295,7 +295,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 40						
 147798	ašr	!(ʔ&a!šr(I)[	/š-r/ (I)	vb G prefc. 1 c. sg.	to sing	
 147799	ilhtkṯrt	?	?	?	?	DULAT: NOT FOUND
-147800	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+147800	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 147800	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 147800	bn	bn(II)	bn (II)	prep.	between	
 147800	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
@@ -321,14 +321,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147810	b	b	b	prep.	in	
 147811	ˤrgzm	ˤrgz(I)/m	ʕrgz (I)	n. m. pl. abs. gen.	juniper berries (?)	
 147812	bzgb	?	?	?	?	DULAT: NOT FOUND
-147813	zt	zt/	zt	n. m. pl. cstr. nom.	olive	
 147813	zt	zt/	zt	n. m. sg. cstr. nom.	olive	
 147814	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
 # KTU 1.24 44						
 147815	llay	llu/+y	llủ	n. m. cstr. gen.	suckling (lamb or kid)	
 147816	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-147817	lẓpn	lṭpn/	lṭpn	adj. m. abs. nom.	Benevolent	Based on DULAT reconstruction.
-147817	lẓpn	lẓpn	lẓpn	→	?	
+147817	lẓpn	lṭpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 147818	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.24 45						
 147819	l	l(I)	l (I)	prep.	to	
@@ -337,12 +335,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147821	hn	hn	hn	functor	behold!	
 147822	b	b	b	prep.	in	
 147823	py	p(III)/+y	p (III)	n. m. cstr. gen.	mouth	
-147824	sp	sp/	sp	n. m. pl. cstr. nom.	bowl	
+147824	sp	sp/	sp	n. m. sg. cstr. nom.	bowl	
 147824	sp	sp/	sp	n. m. sg. abs. nom.	bowl	
 # KTU 1.24 46						
 147825	rhn	?	?	?	?	DULAT: NOT FOUND
 147826	b	b	b	prep.	in	
-147827	špty	šp(t/t&y	špt	n. f. sg. abs. gen.	lip	
+147827	špty	šp(t/t+y	špt	n. f. sg. cstr. gen.	lip	
 147828	mn	mn(IV)	mn (IV)	?	?	
 # KTU 1.24 47						
 147829	hnthn	?	?	?	?	DULAT: NOT FOUND

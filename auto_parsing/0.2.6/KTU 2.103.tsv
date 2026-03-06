@@ -46,7 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160471	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.103 13						
 160472	rṣ	?	?	?	?	DULAT: NOT FOUND
-160473	lby	lb/y	lb	n. m. sg. abs. nom.	heart	
+160473	lby	lb/+y	lb	n. m. cstr. nom.	heart	
 160474	w	w	w	conj.	and	
 160475	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
 160475	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. cstr. nom.	cheek	
@@ -74,6 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160487	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 160488	tġr	nġr[	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.103 19						
+160489	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 160489	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 160490	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
 160490	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
@@ -95,7 +96,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 22						
 160498	lkn	l(I)+kn	l (I)	prep.	to	
 160498	lkn	l(I)&k+n	l (I)	prep.	to	
-160498	lkn	lkn/	lkn	PN sg. abs. nom.	lkn	
+160498	lkn	l(II)+kn	l (II)	adv.	no	
 # KTU 2.103 23						
 160499	mxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 24						

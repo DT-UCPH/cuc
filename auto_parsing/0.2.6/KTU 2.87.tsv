@@ -39,6 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159646	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 159647	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. cstr. gen.	sister (related by blood)	
 159648	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
+159648	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
 # KTU 2.87 8						
 159649	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 159649	ky	k(II)&y	k (II)	emph. functor	yes	
@@ -67,7 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159661	w	w	w	conj.	and	
 159662	ṭbḫ	ṭbḫ[	/ṭ-b-ḫ/	vb G suffc. 3 m. sg.	to sacrifice	
 159662	ṭbḫ	ṭbḫ[	/ṭ-b-ḫ/	vb G impv. 2	to sacrifice	
-159663	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+159663	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 159663	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 159663	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 159664	mrdu	?	?	?	?	DULAT: NOT FOUND
@@ -94,17 +95,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.87 14						
 159679	w	w	w	conj.	and	
 159680	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
-159681	lby	lb/y	lb	n. m. sg. cstr. nom.	heart	
+159680	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
+159681	lby	lb/+y	lb	n. m. cstr. nom.	heart	
 # KTU 2.87 15						
-159682	mid	mid/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	
-159683	mly	mly(II)/	mly (II)	PN sg. cstr. gen.	mly (II)	
+159682	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
+159683	mly	mly(I)	mly (I)	?	?	
 # KTU 2.87 16						
-159684	aġltn	aġltn/	ảġltn	PN sg. abs. gen.	ảġltn	
+159684	aġltn	aġltn/	ảġltn	PN sg. abs. nom.	ảġltn	
 159685	mxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 17						
-159686	alny	al(I)+ny	ảl (I)	neg. functor	no	
-159686	alny	al(II)+ny	ảl (II)	pos. functor	surely	
 159686	alny	alny/	ảlny	PN sg. abs. nom.	ảlny	
+159686	alny	aln(I)/+y	ảln (I)	n. m. cstr. nom.	oak grove	
 159687	b	b	b	prep.	in	
 159688	ddbḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 18						
@@ -126,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159698	hm	hm(I)	hm (I)	pers. pn.	they	
 159699	akm	nkm[	n-k-m	vb suffc. 3 m. sg.	to store	
 # KTU 2.87 21						
-159700	iqna	?	?	?	?	DULAT: NOT FOUND
+159700	iqna	iqn(u/&a	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
 159701	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to place	
 159701	štt	št[t:pass	/š-t/	vb Gpass suffc. 1 c. sg.	to place	
 159702	bhm	b&hm	b	prep.	in	
@@ -174,6 +175,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159723	k	k(I)	k (I)	prep.	like	
 159723	k	k(II)	k (II)	emph. functor	yes	
 159724	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
+159724	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
 159725	hm	hm(II)	hm (II)	conj./interr. functor	if	
 159725	hm	hm(I)	hm (I)	pers. pn.	they	
 159726	idt	id(t/t	ỉdt	n. f. sg. abs. nom.	?	
@@ -196,8 +198,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159738	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
 159739	pa	?	?	?	?	DULAT: NOT FOUND
 159740	nmḥt	]n]mḥt[	/m-ḥ(-w:y)/	vb N suffc. 3 m. sg.	to clean	
-159741	aky	aky/	ảky	PN sg. cstr. nom.	ảky	
-159742	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. gen.	plight	
+159741	aky	aky	ỉky	interr. functor	what of?	
+159742	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. nom.	plight	
 # KTU 2.87 31						
 159743	hn	hn	hn	functor	behold!	
 159744	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
@@ -226,5 +228,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159758	l	l(II)	l (II)	adv.	no	
 159758	l	l(III)	l (III)	functor	certainly	
 159759	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. cstr. nom.	to know	
-159760	lby	lb/y	lb	n. m. sg. abs. gen.	heart	
+159760	lby	lb/+y	lb	n. m. cstr. gen.	heart	
 159761	kmrṣ	?	?	?	?	DULAT: NOT FOUND

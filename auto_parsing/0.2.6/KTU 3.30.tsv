@@ -4,14 +4,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161971	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
 161972	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 # KTU 3.30 2						
-161973	mnny	mnny/	mnny	PN sg. abs. gen.	mnny	
 161973	mnny	mn(III)/+ny	mn (III)	n. m. cstr. gen.	mina	
 # KTU 3.30 3						
 161974	ṯṯm	ṯṯm/	ṯṯm	num.	sixty	
 161975	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 4						
-161976	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161977	yrmn	yrmn/	yrmn	PN sg. abs. gen.	yrmn	
+161976	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+161977	yrmn	!y!rm(y[+n	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
 # KTU 3.30 5						
 161978	šbˤm	šbˤm/	šbʕm	num.	seventy	
 161979	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
@@ -25,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161982	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 161983	anntn	anntn/	ảnntn	PN sg. abs. nom.	ảnntn	
 # KTU 3.30 8						
-161984	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161984	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161984	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161984	bn	bn(II)	bn (II)	prep.	between	
 161984	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
@@ -39,10 +38,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161988	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 161989	tmrtn	tmrtn/	tmrtn	PN sg. cstr. gen.	tmrtn	
 # KTU 3.30 11						
-161990	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161990	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161991	urmy	urmy/	ủrmy	PN sg. abs. gen.	ủrmy	
-161991	urmy	urm/+y	ủrm	PN sg. cstr. gen.	ủrm	
 # KTU 3.30 12						
 161992	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
 161992	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
@@ -51,21 +48,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161994	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 161995	bnil	bnil/	bnỉl	PN sg. cstr. gen.	bnỉl	
 # KTU 3.30 14						
-161996	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161996	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161997	krwn	krwn/	krwn	PN sg. abs. gen.	krwn	
-161997	krwn	krw/+n	krw	PN sg. cstr. gen.	krw	
 # KTU 3.30 15						
 161998	ṯṯm	ṯṯm/	ṯṯm	num.	sixty	
 161999	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 16						
 162000	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 162001	abġl	abġl/	ảbġl	PN sg. cstr. gen.	ảbġl	
-162002	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 162002	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 162003	ṯdny	ṯd/+ny	ṯd	n. m. cstr. gen.	breast	
 162003	ṯdny	ṯd&n/+y	ṯd	n. m. cstr. gen.	breast	
-162003	ṯdny	ṯdny/	ṯdny	PN sg. abs. gen.	ṯdny	
 # KTU 3.30 17						
 162004	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
 162004	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
@@ -73,7 +66,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.30 18						
 162006	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 162007	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	tlmyn	
-162008	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 162008	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 162009	ilyy	il(I)&y/+y	ỉl (I)	n. m. cstr. gen.	god	
 162009	ilyy	ilyy/	ỉlyy	PN sg. abs. gen.	ỉlyy	
@@ -86,11 +78,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162014	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 162015	yˤḏrn	yˤḏrn/	yʕḏrn	PN sg. cstr. gen.	15.Z	
 # KTU 3.30 21						
-162016	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
-162016	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-162017	ytrm	ytrm/	ytrm	PN sg. cstr. gen.	15.Z	
-162018	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. gen.	peace	
-162018	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. gen.	šlmy (II)	
+162016	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+162017	ytrm	!y!tr[+m(I)	/t-r/	vb	to scour	
+162017	ytrm	ntr[+m(I)	/n-t-r/	vb	to banish	
+162018	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
+162018	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	
 # KTU 3.30 22						
 162019	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 162020	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
@@ -100,17 +92,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162023	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
 162023	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	
 # KTU 3.30 24						
-162024	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
+162024	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
 162025	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 # KTU 3.30 25						
 162026	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 162027	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 162028	gln	gl(II)/+n	gl (II)	n. m. cstr. gen.	cup	
-162028	gln	gln/	gln	PN sg. cstr. gen.	gln	
 162028	gln	gl(III)/+n	gl (III)	n. m. cstr. gen.	small	
 # KTU 3.30 26						
-162029	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
-162029	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-162030	amdn	amdn/	ảmdn	PN sg. cstr. gen.	ảmdn	
-162031	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. gen.	peace	
-162031	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. gen.	šlmy (II)	
+162029	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+162029	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+162029	bn	bn(II)	bn (II)	prep.	between	
+162029	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+162029	bn	bn[	/b-n/	vb G impv. 2	to understand	
+162030	amdn	amdn/	ảmdn	PN sg. abs. nom.	ảmdn	
+162031	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
+162031	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	

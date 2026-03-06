@@ -15,7 +15,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 5						
 154445	xxxx	?	?	?	?	
 154446	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
-154447	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 154447	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 # KTU 1.126 6						
 154448	xxxxmt	?	?	?	?	DULAT: NOT FOUND
@@ -48,10 +47,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154461	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.126 17						
 154462	xxy	?	?	?	?	DULAT: NOT FOUND
-154463	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 154463	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-154463	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+154463	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 154463	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+154463	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.126 18						
 154464	w	w	w	conj.	and	
 154465	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
@@ -61,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154467	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. gen.	sixth	
 154468	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.126 20						
-154469	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. sg. cstr. gen.	place of sacrifice	
+154469	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. cstr. gen.	place of sacrifice	
 154470	x	?	?	?	?	
 # KTU 1.126 21						
 154471	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
@@ -69,6 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154472	b	b	b	prep.	in	
 154473	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.126 22						
+154474	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 154474	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 154474	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 154475	w	w	w	conj.	and	

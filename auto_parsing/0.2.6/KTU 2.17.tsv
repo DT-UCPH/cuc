@@ -41,11 +41,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156835	šmˤh	šmˤ/+h	šmʕ	n. m. cstr. nom.	auditor	
 # KTU 2.17 8						
 156836	w	w	w	conj.	and	
-156837	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-156838	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
-156839	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. cstr. gen.	to know	
-156840	rgmh	rgm[/+h	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-156840	rgmh	rgm/+h	rgm	n. m. cstr. gen.	word	
+156837	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+156838	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
+156838	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
+156839	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
+156839	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
+156839	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to know	
+156840	rgmh	rgm[+h	/r-g-m/	vb G suffc.	to say	
+156840	rgmh	rgm[+h	/r-g-m/	vb G impv. 2	to say	
+156840	rgmh	!!rgm[/+h	/r-g-m/	vb G inf.	to say	
+156840	rgmh	rgm[/+h	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. nom.	to say	
+156840	rgmh	rgm/+h	rgm	n. m. cstr. nom.	word	
 # KTU 2.17 9						
 156841	w	w	w	conj.	and	
 156842	ht	ht	ht	adv.	here	
@@ -72,6 +78,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156853	tštil	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to ask	
 # KTU 2.17 16						
 156854	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-156855	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
+156855	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
 156855	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 156856	xx	?	?	?	?	

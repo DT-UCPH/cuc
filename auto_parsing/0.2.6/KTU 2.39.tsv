@@ -46,7 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157946	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect	
 # KTU 2.39 9						
 157947	w	w	w	conj.	and	
-157948	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f. abs. nom.	arm	
+157948	ḏrˤ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. nom.	seed	
 157949	l	l(I)	l (I)	prep.	to	
 157949	l	l(III)	l (III)	functor	certainly	
 157950	adny	adn(I)/+y	ảdn (I)	n. m. cstr. nom.	lord	
@@ -86,6 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157968	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
 157969	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.39 14						
+157970	ydˤm	ydˤm[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
 157970	ydˤm	!!ydˤ(I)[/m	/y-d-ʕ/ (I)	vb G inf.	to know	
 157971	l	l(I)	l (I)	prep.	to	
 157971	l	l(II)	l (II)	adv.	no	
@@ -129,9 +130,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.39 20						
 157991	b	b	b	prep.	in	
 157992	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. gen.	country	
-157993	inn	in&n/	ỉn	n. m. sg. abs. nom.	lack of	
+157993	inn	in&n/	ỉn	n. m. abs. nom.	lack of	
 # KTU 2.39 21						
-157994	špšn	špš&n/	špš	n. f. sg. abs. nom.	sun	
+157994	špšn	špš/+n	špš	n. f. cstr. nom.	sun	
 157995	tubd	!t!(ʔ&ubd[	/ʔ-b-d/	vb G prefc.	be missing	
 # KTU 2.39 22						
 157996	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -162,9 +163,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158008	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
 158009	yṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 31						
-158010	ib	ib(I)/	ỉb (I)	n. m. pl. abs. nom.	enemy	
-158010	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 158010	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
+158010	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 158011	ˤltn	ˤl(I)&t+n	ʕl (I)	prep.	upon	
 158012	xk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 32						
@@ -198,5 +198,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158022	bqṯ	bqṯ[:d	/b-q-ṯ/	vb D impv. 2	to search for	
 # KTU 2.39 35						
 158023	w	w	w	conj.	and	
+158024	štn	št[n	/š-t/	vb G suffc.	to place	
 158024	štn	št[n	/š-t/	vb G impv. 2	to place	
 158025	ly	l(I)+y	l (I)	prep.	to	

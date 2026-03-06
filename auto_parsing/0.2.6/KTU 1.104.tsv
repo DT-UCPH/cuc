@@ -82,9 +82,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152670	tṯ	?	?	?	?	DULAT: NOT FOUND
 152671	ḥdṯn	ḥdṯ(II)/+n	ḥdṯ (II)	n. m. cstr. nom.	new moon	
 152671	ḥdṯn	ḥdṯ(I)/+n	ḥdṯ (I)	adj. cstr. nom.	new	
-152671	ḥdṯn	ḥdṯn/	ḥdṯn	PN sg. abs. nom.	born at the time of the new moon	
 # KTU 1.104 18						
 152672	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
+152672	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G suffc.	to repeat	
 152672	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G impv. 2	to repeat	
 152673	w	w	w	conj.	and	
 152674	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m. cstr. nom.	new moon	
@@ -95,7 +95,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 20						
 152677	w	w	w	conj.	and	
 152678	tštn	!t!št[n	/š-t/	vb G prefc.	to place	
-152679	ṯnm	ṯn(I)&m/	ṯn (I)	num.	two	
+152678	tštn	tštn[	/š-t/	vb G suffc. 3 m. sg.	to place	
+152679	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
+152679	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G suffc.	to repeat	
+152679	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G impv. 2	to repeat	
 # KTU 1.104 21						
 152680	wm	wm	wm	conj., morph.		
 152680	wm	w+m(I)	w	conj., morph.	and	

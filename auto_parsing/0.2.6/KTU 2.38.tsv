@@ -26,12 +26,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157861	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 157861	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.38 5						
+157862	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 157862	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+157863	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 157863	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.38 6						
-157864	hnny	hn+ny	hn	functor	behold!	
-157864	hnny	hnny	hnny	adv.	here	
-157864	hnny	hn+ny	hnny	adv.	here	
+157864	hnny	hn&ny	hn	functor	behold!	
 157865	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.38 7						
 157866	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
@@ -43,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157866	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
 157866	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 157866	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
-157867	ṯmny	ṯm&ny	ṯm	adv.	there	
+157867	ṯmny	ṯm+ny	ṯm	adv.	there	
 # KTU 2.38 8						
 157868	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
 157868	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
@@ -82,7 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157888	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 157888	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
 157889	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
-157890	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f. abs. gen.	arm	
+157890	ḏrˤ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. gen.	seed	
 # KTU 2.38 18						
 157891	b	b	b	prep.	in	
 157892	dnhm	dn(II)/+hm	dn (II)	n. m. pl. cstr. gen.	vessel	
@@ -95,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157897	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
 157898	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 # KTU 2.38 21						
-157899	klklhm	klkl/+hm	klkl	n. m. sg. cstr. nom.	anybody	
+157899	klklhm	klkl/+hm	klkl	n. m. cstr. nom.	anybody	
 157900	bd	b&d	b	prep.	in	
 # KTU 2.38 22						
 157901	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	

@@ -14,6 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149353	amr	amr(I)/	ảmr (I)	n. m. sg. cstr. nom.	order	
 149354	ph	p(III)/+h	p (III)	n. m. cstr. gen.	mouth	
 # KTU 1.62 4						
+149355	mm	m/m	mh/y	n. m. pl. abs. nom.	water	
 149355	mm	mm(I)/	mm (I)	n. m. sg. abs. nom.	winter	
 149356	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
 # KTU 1.62 5						
@@ -27,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.62 7						
 149362	l	l(I)	l (I)	prep.	to	
 149362	l	l(III)	l (III)	functor	certainly	
-149363	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+149363	bn	bn(I)/	bn (I)	n. m. cstr. nom.	son	
 149363	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 149364	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 149364	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	

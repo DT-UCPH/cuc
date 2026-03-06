@@ -69,7 +69,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153257	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 153258	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 153259	rmm	rm(I)/	rm (I)	adj. m. pl. abs. nom.	high	
-153259	rmm	rmm[:l	/r-m/	vb L prefc.	to go up	
+153259	rmm	rmm[:l	/r-m/	vb L impv. 2	to go up	
 # KTU 1.108 8						
 153260	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. nom.	lady	
 153261	kpṯ	kpṯ/	kpṯ	n. m. sg. abs. gen.	floor	
@@ -85,7 +85,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153267	b	b	b	prep.	in	
 153268	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 153269	rmm	rm(I)/	rm (I)	adj. m. pl. abs. nom.	high	
-153269	rmm	rmm[:l	/r-m/	vb L prefc.	to go up	
+153269	rmm	rmm[:l	/r-m/	vb L impv. 2	to go up	
 153270	aklt	(ʔ&akl[/t	/ʔ-k-l/	vb G act. ptcpl. m. sg. abs. nom.	to eat	
 153270	aklt	akl(t(II)/t	ảklt (II)	n. f. sg. abs. nom.	waste land	
 153270	aklt	akl(t(I)/t	ảklt (I)	adj. f. sg. abs. nom.	devouring	
@@ -99,10 +99,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153277	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 153277	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
 153277	yšt	!y!št(y[	/š-t-y/	vb G prefc. 3 m. sg.	to drink	
-153278	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153278	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153278	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+153278	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153278	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153278	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.108 11						
 153279	xxxxxxxn	?	?	?	?	DULAT: NOT FOUND
 153280	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
@@ -129,7 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153291	ilh	ilh/	ỉlh	DN sg. abs. nom.	the ‘Divine One’	
 # KTU 1.108 14						
 153292	xxxxxxxxxxxh	?	?	?	?	DULAT: NOT FOUND
-153293	iṯmh	iṯm(I)/+h	ỉṯm (I)	n. m. sg. cstr. nom.	firm-fleshed cattle	
+153293	iṯmh	iṯm(I)/+h	ỉṯm (I)	n. m. cstr. nom.	firm-fleshed cattle	
 # KTU 1.108 15						
 153294	xxxxxxxxxxxxx	?	?	?	?	
 153295	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
@@ -154,6 +154,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153307	l	l(II)	l (II)	adv.	no	
 153307	l	l(III)	l (III)	functor	certainly	
 153308	tštk	!t!št[k	/š-t/	vb G prefc.	to place	
+153308	tštk	tštk[	/š-t/	vb G suffc. 3 m. sg.	to place	
 153309	l	l(I)	l (I)	prep.	to	
 153309	l	l(III)	l (III)	functor	certainly	
 153310	iršt	irš(t/t	ỉršt	n. f. sg. abs. nom.	request	
@@ -170,7 +171,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153315	b	b	b	prep.	in	
 153316	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. cstr. gen.	caprine animal	
 # KTU 1.108 22						
-153317	rpi	rp(u/&i	rpủ	n. m. pl. cstr. gen.	healer	
 153317	rpi	rp(u/&i	rpủ	n. m. sg. cstr. gen.	healer	
 153318	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 153318	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
@@ -184,7 +184,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153324	anh	an(I)+h	ản (I)	pers. pn.	I	
 153324	anh	an(II)+h	ản (II)	adv.	wherever	
 153325	b	b	b	prep.	in	
-153326	ḥtkh	ḥtk(II)/+h	ḥtk (II)	n. m. sg. cstr. gen.	lineage	
+153326	ḥtkh	ḥtk(II)/+h	ḥtk (II)	n. m. cstr. gen.	lineage	
 153326	ḥtkh	ḥtk(III)/+h	ḥtk (III)	n. m. sg. cstr. gen.	sovereignty	
 153327	b	b	b	prep.	in	
 153328	nmrth	nmr(t/t+h	nmrt	n. f. sg. cstr. gen.	splendour	

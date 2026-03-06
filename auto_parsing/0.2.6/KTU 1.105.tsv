@@ -37,7 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152721	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
 152722	mlkx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 8						
-152723	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+152723	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 152723	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 152723	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 152724	wš	?	?	?	?	DULAT: NOT FOUND
@@ -81,7 +81,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152749	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 152750	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. cstr. gen.	new moon	
 # KTU 1.105 16						
-152751	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 152751	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 152752	w	w	w	conj.	and	
 152753	š	š/	š	n. m. sg. abs. nom.	ram	
@@ -90,8 +89,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152756	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 # KTU 1.105 17						
 152757	b	b	b	prep.	in	
-152758	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
-152759	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+152758	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
+152759	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 152759	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 152760	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 152760	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -100,8 +99,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152761	ˤrkm	ˤrk(II)/m	ʕrk (II)	n. m. pl. abs. gen.	loaves of bread	
 # KTU 1.105 19						
 152762	b	b	b	prep.	in	
-152763	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num.	eight	
-152764	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+152763	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	eight	
+152764	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 152764	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 152765	yr	yr/	yr	n. m. sg. abs. gen.	early rain	
 # KTU 1.105 20						
@@ -126,16 +125,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152780	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 152781	lbtbt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 23						
-152782	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+152782	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 152782	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 152782	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 152783	w	w	w	conj.	and	
 152784	š	š/	š	n. m. sg. cstr. nom.	ram	
 152785	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
-152786	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. gen.	(head of) cattle	
 152786	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
-152787	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 152787	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+152787	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 152787	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.105 24						
 152788	l	l(I)	l (I)	prep.	to	

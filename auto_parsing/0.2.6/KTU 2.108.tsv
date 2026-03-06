@@ -7,22 +7,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160624	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	one	
 160624	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
 160624	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
-160625	inn	in&n/	ỉn	n. m. sg. abs. nom.	lack of	
+160625	inn	in&n/	ỉn	n. m. abs. nom.	lack of	
 160626	xxx	?	?	?	?	
 # KTU 2.108 3						
 160627	w	w	w	conj.	and	
 160628	ank	ank	ảnk	pers. pn.	I	
-160629	inny	in/	ỉn	n. m. sg. cstr. nom.	lack of	
+160629	inny	in/+ny	ỉn	n. m. cstr. nom.	lack of	
 # KTU 2.108 4						
-160630	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. cstr. gen.	to know	
-160631	kl	kl/	kl	n. m. sg. cstr. gen.	totality (of)	
-160632	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	man	
+160630	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
+160630	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
+160630	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
+160630	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
+160630	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
+160631	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+160632	bnšm	bnš/~m	bnš	n. m. abs. nom. pl.	man	
 # KTU 2.108 5						
 160633	dt	d&t	d	det. or rel. functor	the one(s) of	
 160634	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
 160634	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. nom.	to flee	
 160634	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
-160635	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+160635	ṯmn	ṯmn(I)	ṯmn(y) (I)	num.	eight	
+160635	ṯmn	ṯm+n	ṯm	adv.	there	
+160635	ṯmn	ṯmn(II)/	ṯmn (II)	adj. sg. abs. nom.	eighth	
 # KTU 2.108 6						
 160636	ht	ht	ht	adv.	here	
 160637	at	at(I)	ảt (I)	pers. pn.	you	
@@ -42,6 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160645	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
 # KTU 2.108 9						
 160646	w	w	w	conj.	and	
+160647	štn	št[n	/š-t/	vb G suffc.	to place	
 160647	štn	št[n	/š-t/	vb G impv. 2	to place	
 160648	hndh	hndh	hndh	adv. functor	(towards) here	
 # KTU 2.108 10						

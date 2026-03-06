@@ -3,13 +3,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150496	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
 150496	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
 150497	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
-150498	śśwm	śśwm/	s:śs/św	n. m. du. abs. gen.	horse	
-150498	śśwm	śśwm/	s:śs/św	n. m. pl. abs. gen.	horse	
+150498	śśwm	śśwm/	s:śs/św	n. f. du. abs. gen.	horse	
+150498	śśwm	śśwm/	s:śs/św	n. f. pl. abs. gen.	horse	
 # KTU 1.85 2						
 150499	k	k(III)	k (III)	Subordinating or completive functor	when	
 150500	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach	
-150501	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
-150501	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
+150501	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 150502	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 150502	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
 150503	ˤqrbn	ˤqrbn/	ʕqrbn	n. m. sg. cstr. gen.	Skorpionspflanze	
@@ -31,6 +30,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150512	b	b	b	prep.	in	
 150513	mndġ	mndġ/	mndġ	n. m. sg. abs. gen.		
 150514	w	w	w	conj.	and	
+150515	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150515	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150516	b	b	b	prep.	in	
 150517	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -44,8 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150519	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
 150519	ḫr	ḫr[/	/ḫ-r-ʔ/	vb G ptcpl. m. sg. cstr. nom.	to defecate	
 150519	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. cstr. nom.	to have spasms (of diarrhoea)	
-150520	śśw	śśw/	s:śs/św	n. f. pl. cstr. gen.	horse	
-150520	śśw	śśw/	s:śs/św	n. f. sg. cstr. gen.	horse	
+150520	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
 150521	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
 150522	w	w	w	conj.	and	
 150523	bṣql	bṣql/	bṣql	n. m. sg. cstr. nom.	sprout	
@@ -57,6 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150525	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 150526	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 150527	w	w	w	conj.	and	
+150528	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150528	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150529	b	b	b	prep.	in	
 150530	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -69,8 +69,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150532	k	k(I)	k (I)	prep.	like	
 150532	k	k(II)	k (II)	emph. functor	yes	
 150533	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
-150534	śśw	śśw/	s:śs/św	n. f. pl. cstr. gen.	horse	
-150534	śśw	śśw/	s:śs/św	n. f. sg. cstr. gen.	horse	
+150534	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
 150535	ḫndrṯ	ḫndrṯ/	ḫndrṯ	n. m. sg. abs. gen.	apricot tree	
 150536	w	w	w	conj.	and	
 150537	ṯqd	ṯqd/	ṯqd	n. m. sg. cstr. nom.	almond	
@@ -82,6 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150539	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 150540	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 150541	w	w	w	conj.	and	
+150542	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150542	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150543	b	b	b	prep.	in	
 150544	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -102,8 +102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150550	l	l(II)	l (II)	adv.	no	
 150550	l	l(III)	l (III)	functor	certainly	
 150551	yṯtn	!y!ṯ]t]n[	/ṯ-n/	vb Gt prefc. 3 m. sg.	to urinate	
-150552	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
-150552	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
+150552	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 # KTU 1.85 10						
 150553	mss	mss/	mss	n. m. sg. cstr. gen.	sap	
 150554	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
@@ -120,6 +119,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150559	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 150560	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 150561	w	w	w	conj.	and	
+150562	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150562	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150563	b	b	b	prep.	in	
 150564	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -133,8 +133,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150566	k	k(II)	k (II)	emph. functor	yes	
 150567	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
 150568	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. nom.	grain	
-150569	śśw	śśw/	s:śs/św	n. f. pl. cstr. gen.	horse	
-150569	śśw	śśw/	s:śs/św	n. f. sg. cstr. gen.	horse	
+150569	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
 150570	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 150570	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
 150571	mkšr	mkšr/	mkšr	n. m. sg. cstr. gen.	semolina	
@@ -156,6 +155,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150579	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
 150579	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 150580	w	w	w	conj.	and	
+150581	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150581	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150582	b	b	b	prep.	in	
 150583	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -169,10 +169,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150585	k	k(II)	k (II)	emph. functor	yes	
 150586	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
 150587	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. nom.	grain	
-150588	śśw	śśw/	s:śs/św	n. f. pl. cstr. gen.	horse	
-150588	śśw	śśw/	s:śs/św	n. f. sg. cstr. gen.	horse	
+150588	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
 150589	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 150589	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
+150590	nni	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
 150590	nni	nn(u(I)/&i	nnủ (I)	n. m. sg. abs. gen.	Ammi	
 # KTU 1.85 16						
 150591	w	w	w	conj.	and	
@@ -194,6 +194,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150599	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
 150599	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 150600	w	w	w	conj.	and	
+150601	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150601	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150602	b	b	b	prep.	in	
 150603	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -202,8 +203,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150604	w	w	w	conj.	and	
 150605	k	k(III)	k (III)	Subordinating or completive functor	when	
 150606	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
-150607	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
-150607	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
+150607	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 150608	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 150608	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
 150609	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
@@ -214,6 +214,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150611	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
 150611	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 150612	w	w	w	conj.	and	
+150613	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150613	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150614	b	b	b	prep.	in	
 150615	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -226,11 +227,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150617	k	k(I)	k (I)	prep.	like	
 150617	k	k(II)	k (II)	emph. functor	yes	
 150618	xxxxxˤbd	?	?	?	?	DULAT: NOT FOUND
-150619	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
-150619	śśw	śśw/	s:śs/św	n. f. sg. cstr. nom.	horse	
-150620	gd	g/+d	g	n. m. cstr. gen.	(loud) voice, ?	
+150619	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 150620	gd	gd(I)/	gd (I)	n. m. cstr. gen.	coriander	
-150620	gd	gd(II)/	gd (II)	n. m. cstr. gen.	sinew	
 150621	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. gen.	massif	
 # KTU 1.85 21						
 150622	w	w	w	conj.	and	
@@ -249,6 +247,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150626	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 150627	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 150628	w	w	w	conj.	and	
+150629	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150629	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150630	b	b	b	prep.	in	
 150631	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -257,8 +256,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150632	w	w	w	conj.	and	
 150633	k	k(III)	k (III)	Subordinating or completive functor	when	
 150634	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach	
-150635	śśw	śśw/	s:śs/św	n. f. pl. cstr. nom.	horse	
-150635	śśw	śśw/	s:śs/św	n. f. sg. abs. nom.	horse	
+150635	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
+150635	śśw	śśw/	s:śs/św	n. m. sg. abs. nom.	horse	
 150636	xxxxx	?	?	?	?	
 # KTU 1.85 24						
 150637	pr	pr(II)/	pr (II)	n. m. sg. cstr. nom.	young bull	
@@ -271,7 +270,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150643	w	w	w	conj.	and	
 # KTU 1.85 25						
 150644	tmṯl	tmṯl/	tmṯl	n. m. sg. cstr. nom.	equal amount	
-150645	gd	g/+d	g	n. m. cstr. gen.	(loud) voice, ?	
 150645	gd	gd(I)/	gd (I)	n. m. abs. gen.	coriander	
 150645	gd	gd(II)/	gd (II)	n. m. abs. gen.	sinew	
 150646	w	w	w	conj.	and	
@@ -282,6 +280,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150650	w	w	w	conj.	and	
 150651	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 150651	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
+150652	nni	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
 150652	nni	nn(u(I)/&i	nnủ (I)	n. m. sg. abs. gen.	Ammi	
 150653	w	w	w	conj.	and	
 150654	pr	pr(II)/	pr (II)	n. m. sg. cstr. nom.	young bull	
@@ -307,6 +306,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150667	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 # KTU 1.85 29						
 150668	w	w	w	conj.	and	
+150669	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150669	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150670	b	b	b	prep.	in	
 150671	aph	ap(I)+h	ảp (I)	adv./conj.	also	
@@ -327,6 +327,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150681	w	w	w	conj.	and	
 150682	qmḥ	qmḥ/	qmḥ	n. m. sg. cstr. nom.	flour	
 150683	bql	bql/	bql	n. m. sg. abs. gen.	malt	
+150684	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 150684	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 150685	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 150686	b	b	b	prep.	in	

@@ -5,19 +5,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160094	l	l(III)	l (III)	functor	certainly	
 160095	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 160095	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-160096	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+160096	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.97 2						
-160097	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-160097	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
-160098	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+160097	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+160097	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+160097	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+160097	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+160097	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+160098	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 # KTU 2.97 3						
-160099	ˤzn	ˤz(II)/+n	ʕz (II)	n. m. cstr. gen.	caprine animal	
-160099	ˤzn	ˤzn/	ʕzn	PN sg. cstr. gen.	ʿzn	
-160100	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
+160099	ˤzn	ˤz[+n	/ʕ-z(-z)/	vb G suffc.	to be strong	
+160099	ˤzn	ˤz(II)/+n	ʕz (II)	n. m. cstr. nom.	caprine animal	
+160099	ˤzn	ˤz(III)/+n	ʕz (III)	adj. m. cstr. nom.	strong	
+160100	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.97 4						
 160101	l	l(I)	l (I)	prep.	to	
 160102	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-160103	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+160103	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.97 5						
 160104	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 160105	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
@@ -26,7 +30,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160107	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.97 7						
 160108	ly	l(I)+y	l (I)	prep.	to	
-160109	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+160109	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 160110	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 160110	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 # KTU 2.97 8						
@@ -48,12 +52,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160119	w	w	w	conj.	and	
 160120	šlmth	šlm(t(II)/t+h	šlmt (II)	n. f. sg. cstr. nom.	compensation	
 # KTU 2.97 12						
-160121	zn	zn/	zn	n. m. abs. nom.	provider	Based on DULAT reconstruction.
-160121	zn	z+n	z	→	?	
+160121	zn	zn/	zn	n. m. abs. nom.	provider	
 160122	w	w	w	conj.	and	
 160123	tšx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.97 13						
 160124	ly	l(I)+y	l (I)	prep.	to	
+160125	mġyh	mġy[h	/m-ġ-y/	vb G suffc.	to come	
 160125	mġyh	!!mġy[/h	/m-ġ-y/	vb G inf.	to come	
 # KTU 2.97 14						
 160126	w	w	w	conj.	and	

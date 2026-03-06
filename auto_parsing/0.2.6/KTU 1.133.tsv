@@ -2,7 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 1						
 154724	w	w	w	conj.	and	
 154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-154726	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+154726	bn	bn(I)/	bn (I)	n. m. cstr. nom.	son	
 154726	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 # KTU 1.133 2						
 154727	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. gen.	god	
@@ -102,7 +102,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 18						
 154774	b	b	b	prep.	in	
 154775	abn	ab/+n	ảb	n. m. cstr. gen.	father	
-154775	abn	abn/	ảbn	n. f. pl. abs. gen.	stone	
 154775	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	
 154775	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	
 154776	ˤ	?	?	?	?	DULAT: NOT FOUND

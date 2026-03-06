@@ -12,8 +12,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160405	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.101 3						
 160406	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-160407	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
 160407	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
+160407	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
 # KTU 2.101 4						
 160408	ly	l(I)+y	l (I)	prep.	to	
 160409	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
@@ -29,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160416	šb	šb/	šb	n. m. abs. nom.	old man	
 # KTU 2.101 7						
 160417	x	?	?	?	?	
-160418	m	?	?	?	?	DULAT: NOT FOUND
+160418	m	m	m(h)	pers. pn.	what?	
 # KTU 2.101 8						
 160419	w	w	w	conj.	and	
 160420	dbl	?	?	?	?	DULAT: NOT FOUND
@@ -38,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160422	lrx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.101 10						
 160423	nbšl	?	?	?	?	DULAT: NOT FOUND
-160424	m	?	?	?	?	DULAT: NOT FOUND
+160424	m	m	m(h)	pers. pn.	what?	
 # KTU 2.101 11						
 160425	w	w	w	conj.	and	
 160426	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	

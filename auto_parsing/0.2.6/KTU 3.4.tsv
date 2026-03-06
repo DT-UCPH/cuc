@@ -2,6 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.4 1						
 160977	l	l(I)	l (I)	prep.	to	
 160977	l	l(III)	l (III)	functor	certainly	
+160978	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 160978	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 160978	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 160979	hnd	hnd	hnd	dem.	this	
@@ -10,7 +11,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160981	pdy	pdy[	/p-d-y/	vb G suffc. 3 m. sg.	to redeem	
 # KTU 3.4 3						
 160982	agdn	?	?	?	?	DULAT: NOT FOUND
-160983	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 160983	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160984	nwgn	nwgn/	nwgn	PN sg. abs. gen.	nwgn	
 # KTU 3.4 4						
@@ -19,8 +19,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160987	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
 # KTU 3.4 5						
 160988	w	w	w	conj.	and	
-160989	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-160990	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
+160989	bˤln	bˤl(II)/+n	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+160990	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 # KTU 3.4 6						
 160991	w	w	w	conj.	and	
 160992	ḥṯtṯn	?	?	?	?	DULAT: NOT FOUND
@@ -28,9 +28,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.4 7						
 160994	w	w	w	conj.	and	
 160995	btšy	btšy/	btšy	PN sg. cstr. nom.	btšy	
-160996	bth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
-160996	bth	bt(I)/+h	bt (I)	n. f. du. cstr. gen.	daughter	
-160996	bth	bt(I)/+h	bt (I)	n. f. sg. cstr. gen.	daughter	
+160996	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
+160996	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 3.4 8						
 160997	w	w	w	conj.	and	
 160998	ištrmy	ištrmy/	ỉštrmy	PN sg. cstr. nom.	ỉštrmy	
@@ -66,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161015	w	w	w	conj.	and	
 161016	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	
 161016	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. nom.	obligation	
-161017	inn	in&n/	ỉn	n. m. sg. abs. gen.	lack of	
+161017	inn	in&n/	ỉn	n. m. abs. gen.	lack of	
 # KTU 3.4 17						
 161018	lhm	l(I)+hm	l (I)	prep.	to	
 161019	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
@@ -81,4 +80,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161024	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
 161025	l	l(I)	l (I)	prep.	to	
 161025	l	l(III)	l (III)	functor	certainly	
-161026	unṯhm	unṯ/+hm	ủnṯ	n. m. pl. cstr. nom.	obligation	
+161026	unṯhm	unṯ/+hm	ủnṯ	n. m. cstr. nom.	obligation	

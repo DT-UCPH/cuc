@@ -32,7 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156012	lḥk	lḥ(I)/+k	lḥ (I)	n. f. cstr. gen.	cheek	
 # KTU 1.176 9						
 156013	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
-156014	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
+156014	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 156014	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 156014	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 156014	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
@@ -77,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156037	ḥrn	ḥrn/	ḥrn	DN sg. abs. gen.	Ḥôrānu	
 156037	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. gen.	intestine(s)	
 # KTU 1.176 21						
-156038	ylḥm	&ylḥm[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
+156038	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to eat	
 156039	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.176 22						
 156040	ik	ik	ỉk	interr. functor	how?	
@@ -108,7 +108,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156051	al	al(II)	ảl (II)	pos. functor	surely	
 156052	ḫtt	ḫtt/	ḫtt	n. m. sg. cstr. nom.	?	
 # KTU 1.176 27						
-156053	ḫttk	ḫtt/+k	ḫtt	n. m. sg. cstr. gen.	?	
+156053	ḫttk	ḫtt/+k	ḫtt	n. m. cstr. gen.	?	
 156054		?	?	?	?	
 # KTU 1.176 28						
 156055	l	l(I)	l (I)	prep.	to	

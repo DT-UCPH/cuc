@@ -18,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158329	anyt	any(t/t	ảny(t)	n. f. sg. abs. nom.	ship	
 158330	tšknn	!t!škn[n:d	/š-k-n/	vb D	to be placed	
 # KTU 2.47 I:4						
-158331	ḫmšm	ḫmš(I)&m/	ḫmš (I)	num.	five	
+158331	ḫmšm	ḫmš(I)&m/	ḫmš (I)	num. f.	five	
 158331	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	
 158332	l	l(I)	l (I)	prep.	to	
 158332	l	l(III)	l (III)	functor	certainly	
@@ -76,7 +76,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158364	l	l(III)	l (III)	functor	certainly	
 158365	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
 158365	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
-158366	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. pl. cstr. nom.	servant	
 158366	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
 158367	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 158367	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
@@ -85,7 +84,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158369	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 158369	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 158370	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-158371	ḫrdh	ḫrd/+h	ḫrd	n. m. sg. cstr. gen.	(royal) guard	
+158371	ḫrdh	ḫrd/+h	ḫrd	n. m. cstr. gen.	(royal) guard	
 # KTU 2.47 II:5						
 158372	špḥ	špḥ/	špḥ	n. m. abs. nom.	family	
 158373	al	al(I)	ảl (I)	neg. functor	no	
@@ -105,7 +104,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.47 II:7						
 158380	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. cstr. nom.	to sweep	
 # KTU 2.47 II:8						
-158381	ḫrdk	ḫrd/+k	ḫrd	n. m. sg. cstr. gen.	(royal) guard	
+158381	ḫrdk	ḫrd/+k	ḫrd	n. m. cstr. gen.	(royal) guard	
 158382	ˤps	?	?	?	?	DULAT: NOT FOUND
 158383	xxr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:9						

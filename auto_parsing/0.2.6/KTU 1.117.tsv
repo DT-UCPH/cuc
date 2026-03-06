@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154070	ilmšr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.117 4						
 154071	lkw	?	?	?	?	DULAT: NOT FOUND
-154072	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+154072	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 154072	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 154072	bn	bn(II)	bn (II)	prep.	between	
 154072	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
@@ -65,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154094	k	k(II)	k (II)	emph. functor	yes	
 154095	nṣ	nṣ(I)/	nṣ (I)	n. m. sg. abs. nom.	bird	
 # KTU 1.117 11						
-154096	m	?	?	?	?	DULAT: NOT FOUND
+154096	m	m	m(h)	pers. pn.	what?	
 154097	wtˤn	?	?	?	?	DULAT: NOT FOUND
 154098	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 154098	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	

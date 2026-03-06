@@ -15,15 +15,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159485	l	l(I)	l (I)	prep.	to	
 159485	l	l(III)	l (III)	functor	certainly	
 159486	bḏmr	?	?	?	?	DULAT: NOT FOUND
-159487	umy	um/y	ủm	n. f. sg. cstr. nom.	mother	
+159487	umy	um/+y	ủm	n. f. cstr. nom.	mother	
 # KTU 2.85 4						
-159488	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-159488	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
-159489	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
-159490	ˤzilt	ˤzilt/	ʕzilt	PN sg. cstr. gen.	ʿzilt	
+159488	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+159488	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+159488	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+159488	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+159488	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+159489	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+159490	ˤzilt	ˤzilt/	ʕzilt	PN sg. abs. nom.	ʿzilt	
 # KTU 2.85 5						
-159491	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
-159491	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+159491	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+159491	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+159491	bn	bn(II)	bn (II)	prep.	between	
+159491	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+159491	bn	bn[	/b-n/	vb G impv. 2	to understand	
 159492	km	k(III)	k (III)	functor	when	
 159492	km	k(I)	k (I)	prep.	like	
 159492	km	k(IV)	k (IV)	adv.	thus	
@@ -41,7 +47,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159496	l	l(III)	l (III)	functor	certainly	
 159497	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 # KTU 2.85 8						
+159498	tġrkm	nġr[km	/n-ġ-r/	vb G prefc.	to protect	
 159498	tġrkm	nġr[km	/n-ġ-r/	vb G suffc.	to protect	
+159499	tšlmkm	!t!šlm[km:d	/š-l-m/	vb D prefc.	to be well	
 159499	tšlmkm	tšlmkm[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.85 9						
 159500	hln	hln	hln	deictic adv. functor	look!	
@@ -58,7 +66,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159503	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 159503	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 159504	w	w	w	conj.	and	
-159505	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+159505	ṯmn	ṯmn(I)	ṯmn(y) (I)	num.	eight	
+159505	ṯmn	ṯm+n	ṯm	adv.	there	
+159505	ṯmn	ṯmn(II)/	ṯmn (II)	adj. sg. abs. nom.	eighth	
 # KTU 2.85 11						
 159506	mnm	mnm	mnm	indef. pn.	any(thing)	
 159507	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
@@ -71,7 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159510	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.85 14						
 159511	xxtm	?	?	?	?	DULAT: NOT FOUND
-159512	lbk	lb/+k	lb	n. m. sg. cstr. nom.	heart	
+159512	lbk	lb/+k	lb	n. m. cstr. nom.	heart	
 # KTU 2.85 15						
 159513	xxx	?	?	?	?	
 159514	l	l(I)	l (I)	prep.	to	
@@ -92,7 +102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159524	b	b	b	prep.	in	
 # KTU 2.85 20						
 159525	w	w	w	conj.	and	
-159526	ḥršy	ḥrš(I)/y	ḥrš (I)	n. m. pl. abs. nom.	craftsman	
+159526	ḥršy	ḥrš(I)/+y	ḥrš (I)	n. m. cstr. nom.	craftsman	
 159527	ṣu	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 21						
 159528	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
@@ -128,6 +138,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159544	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.85 27						
 159545	tšlm	!t!šlm[:d:w	/š-l-m/	vb D prefc. 3 m. pl.	to be well	
+159546	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 159546	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.85 28						
 159547	xxx	?	?	?	?	
@@ -156,7 +167,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159559	šbk	šb/+k	šb	n. m. cstr. nom.	old man	
 159560	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.85 34						
-159561	m	?	?	?	?	DULAT: NOT FOUND
+159561	m	m	m(h)	pers. pn.	what?	
 159562	d	d	d	det. or rel. functor	the one(s) of	
 159563	ḫsrxxxb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 35						
@@ -169,7 +180,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159567	xrˤy	?	?	?	?	DULAT: NOT FOUND
 159568	xxxl	?	?	?	?	DULAT: NOT FOUND
 159569	w	w	w	conj.	and	
-159570	m	?	?	?	?	DULAT: NOT FOUND
+159570	m	m	m(h)	pers. pn.	what?	
 # KTU 2.85 37						
 159571	u	u	ủ	conj.	or	
 159572	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence	

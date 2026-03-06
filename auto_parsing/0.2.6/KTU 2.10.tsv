@@ -22,7 +22,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156563	l	l(I)	l (I)	prep.	to	
 156563	l	l(III)	l (III)	functor	certainly	
 156564	klby	klb(I)/+y	klb (I)	n. m. cstr. nom.	dog	
-156564	klby	klby/	klby	PN sg. abs. nom.	klby	
 # KTU 2.10 7						
 156565	šmˤt	šmˤ[t	/š-m-ʕ/	vb G suffc. 1 c. sg.	to hear	
 156566	ḫti	!!ḫt(ʔ&i[/	/ḫ-t-ʔ/	vb G inf.	to be ground up	
@@ -32,7 +31,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 9						
 156569	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156569	hm	hm(I)	hm (I)	pers. pn.	they	
-156570	inmm	inm/m	ỉn	n. m. pl. abs. nom.	lack of	
+156570	inmm	inm/m	ỉn	n. m. pl. abs. nom.	lack of	Based on DULAT reconstruction.
+156570	inmm	in&m/+m(I)	ỉn	n. m. cstr. nom.	lack of	Based on DULAT reconstruction.
+156570	inmm	inmm	ỉnmm	→	?	
 # KTU 2.10 10						
 156571	nḫtu	]n]ḫtu[	/ḫ-t-ʔ/	vb N suffc. 3 m. sg.	to be ground up	
 156572	w	w	w	conj.	and	

@@ -48,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157719	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 157720	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 157720	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
-157721	tḥmk	tḥm/+k	tḥm	n. m. sg. cstr. gen.	message	
+157721	tḥmk	tḥm/+k	tḥm	n. m. cstr. gen.	message	
 157722	hlny	hlny	hlny	deictic adv. functor	behold	
 # KTU 2.36 6						
 157723	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. nom.	gold	
@@ -56,6 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157725	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 157726	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 157726	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+157727	štn	št[n	/š-t/	vb G suffc.	to place	
 157727	štn	št[n	/š-t/	vb G impv. 2	to place	
 157728	xx	?	?	?	?	
 # KTU 2.36 7						
@@ -91,6 +92,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157744	ṣḥrt	?	?	?	?	DULAT: NOT FOUND
 157745	xnṯb	?	?	?	?	DULAT: NOT FOUND
 157746	ˤmnkm	ˤm(I)&n+km	ʕm (I)	prep.	to	
+157746	ˤmnkm	ˤm(I)&nk+m(I)	ʕm (I)	prep.	to	
 157747	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 157747	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 157748	xx	?	?	?	?	
@@ -100,7 +102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157749	aṯr	!!(ʔ&aṯr[/	/ʔ-ṯ-r/	vb G inf.	to go	
 157749	aṯr	(ʔ&aṯr[	/ʔ-ṯ-r/	vb D suffc. 3 m. sg.	to go	
 157749	aṯr	aṯr(III)	ảṯr (III)	interr. adv.	where	
-157750	iṯt	iṯt	ỉṯt	?	?	
+157750	iṯt	iṯ(I)/t	ỉṯ (I)	n. m. sg. abs. nom.	presence	
 157751	w	w	w	conj.	and	
 157752	at	at(I)	ảt (I)	pers. pn.	you	
 157753	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
@@ -159,7 +161,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157783	ntbt	ntbt/	ntbt	n. m. sg. cstr. gen.	path	
 157784	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
 157784	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. gen.	sob	
-157785	ušbtm	?	?	?	?	DULAT: NOT FOUND
+157785	ušbtm	ušbtm(II)	-m (II)	morph.	und das (ist) so!	
 # KTU 2.36 16						
 157786	ntbt	ntbt/	ntbt	n. m. sg. cstr. nom.	path	
 157787	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
@@ -179,7 +181,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 18						
 157798	xxxxḥwtm	?	?	?	?	DULAT: NOT FOUND
 157799	nxxx	?	?	?	?	DULAT: NOT FOUND
-157800	ysb	ysb[	/s:ś-b-b/	vb G suffc. 3 m. sg.	to turn round	
+157800	ysb	!y!sb(b[	/s:ś-b-b/	vb G prefc. 3 m. sg.	to turn round	
 157801	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. abs. nom.	valley	
 # KTU 2.36 19						
 157802	w	w	w	conj.	and	

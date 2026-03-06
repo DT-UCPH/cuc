@@ -6,10 +6,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161191	qny	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
 # KTU 3.9 3						
 161192	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
-161192	šmmn	šmmn/	šmmn	PN sg. abs. gen.	šmmn	
 # KTU 3.9 4						
 161193	b	b	b	prep.	in	
-161194	btw	bt(II)&w/	bt (II)	n. m. abs. gen.	house	
+161194	btw	bt(II)&w/	bt (II)	n. m. sg. abs. gen.	house	
 # KTU 3.9 5						
 161195	w	w	w	conj.	and	
 161196	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
@@ -25,9 +24,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.9 8						
 161202	b	b	b	prep.	in	
 161203	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
+161203	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 3.9 9						
 161204	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161205	ḫmšm	ḫmš(I)&m/	ḫmš (I)	num.	five	
+161205	ḫmšm	ḫmš(I)&m/	ḫmš (I)	num. f.	five	
 161205	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	
 # KTU 3.9 10						
 161206	isˤ	?	?	?	?	DULAT: NOT FOUND
@@ -51,12 +51,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161214	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. gen.	cultic association	
 # KTU 3.9 14						
 161215	w	w	w	conj.	and	
+161216	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say	
 161216	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to say	
 161217	l	l(I)	l (I)	prep.	to	
 161217	l	l(III)	l (III)	functor	certainly	
 # KTU 3.9 15						
 161218	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. nom.	heavens	
-161218	šmmn	šmmn/	šmmn	PN sg. abs. nom.	šmmn	
 161219	tn	(ytn[	/y-t-n/	vb	give	
 161219	tn	(ytn[/	/y-t-n/	vb	give	
 # KTU 3.9 16						
@@ -70,14 +70,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161225	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
 161226	iḫršp	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 19						
-161227	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 161227	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161228	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. cstr. gen.	express messenger, ?	
 # KTU 3.9 20						
 161229	w	w	w	conj.	and	
 161230	ˤbdn	ˤbd(I)/+n	ʕbd (I)	n. m. pl. cstr. nom.	servant	
 # KTU 3.9 21						
-161231	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+161231	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161231	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161231	bn	bn(II)	bn (II)	prep.	between	
 161231	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	

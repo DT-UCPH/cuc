@@ -7,21 +7,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.35 2						
 162208	xx	?	?	?	?	
 162209	ḫtyn	ḫty(I)/+n	ḫty (I)	GN sg. cstr. nom.	Hittite	
-162209	ḫtyn	ḫtyn/	ḫtyn	PN sg. cstr. nom.	ḫtyn	
-162210	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
-162210	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
-162211	bth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
+162210	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+162210	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
+162210	yd	yd(IV)	bd (IV)	prep.	into the hands of	
+162210	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
+162211	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	
+162211	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. nom.	daughter	
 # KTU 3.35 3						
 162212	aġltn	aġltn/	ảġltn	PN sg. abs. nom.	ảġltn	
 # KTU 3.35 4						
 162213	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
-162214	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 162214	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 162215	ddy	dd(II)/+y	dd (II)	n. m. cstr. gen.	cauldronful	
-162215	ddy	ddy/	ddy	PN sg. abs. gen.	ddy	
 # KTU 3.35 5						
 162216	ˤbdil	?	?	?	?	DULAT: NOT FOUND
-162217	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 162217	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 162218	ṣdqn	ṣdqn/	ṣdqn	PN sg. cstr. gen.	ṣdqn	
 # KTU 3.35 6						
@@ -30,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162221	ypḥm	ypḥ/+m(I)	ypḥ	n. m. cstr. nom.	witness	
 # KTU 3.35 7						
 162222	kbby	kbby/	kbby	PN sg. abs. nom.	kbby	
-162222	kbby	kbb+y	kbb	?	?	
+162223	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 162223	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 162223	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 162223	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	

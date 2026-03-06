@@ -27,16 +27,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.75 8						
 149856	ksḥṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.75 9						
-149857	mnty	mn(t(I)/t&y	mnt (I)	n. f. sg. cstr. nom.	portion	
+149857	mnty	mn(t(I)/t+y	mnt (I)	n. f. sg. cstr. nom.	portion	
 # KTU 1.75 10						
-149858	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-149858	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-149859	spr	spr(II)/	spr (II)	n. m. sg. cstr. gen.	tablet / register	
-149859	spr	spr(I)/	spr (I)	n. m. sg. cstr. gen.	scribe	
-149860	ḫbb	ḫbb/	ḫbb	PN sg. cstr. gen.	ḫbb	
+149858	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+149858	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+149858	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+149858	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+149859	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+149859	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
+149859	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+149859	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+149859	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
+149859	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+149859	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
+149859	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
+149859	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
+149859	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
+149859	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+149860	ḫbb	ḫbb/	ḫbb	PN sg. abs. nom.	ḫbb	
 # KTU 1.75 11						
-149861	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-149862	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. gen.	sacrifice	
+149861	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+149861	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+149861	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+149862	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	sacrifice	
 # KTU 1.75 12						
 149863	x	?	?	?	?	
 149864	ˤbdssm	ˤbdssm/	ʕbdssm	PN sg. abs. nom.	ʿbdssm	

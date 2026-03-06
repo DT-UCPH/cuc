@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.127 1						
-154481	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
+154481	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 154481	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 154481	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 154481	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
@@ -9,7 +9,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.127 2						
 154483	ndr	ndr/	ndr	n. m. sg. cstr. nom.	vow	
 # KTU 1.127 3						
-154484	dbḥ	dbḥ/	dbḥ	n. m. pl. abs. gen.	sacrifice	
 154484	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	
 154484	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. gen.	to sacrifice	
 # KTU 1.127 4						
@@ -25,7 +24,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154489	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. nom.	term for the kings of Ugarit	
 154490	w	w	w	conj.	and	
 # KTU 1.127 7						
-154491	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
 154491	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 154491	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
 154492	kl	kl/	kl	n. m. sg. cstr. gen.	totality (of)	
@@ -34,7 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154494	ykly	!y!kly[	/k-l-y/	vb G prefc. 3 m. sg.	to finish	
 154494	ykly	!y!kly[:d	/k-l-y/	vb D prefc. 3 m. sg.	to finish	
 # KTU 1.127 9						
-154495	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
+154495	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 154495	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
 154495	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 154495	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
@@ -57,7 +55,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154502	l	l(III)	l (III)	functor	certainly	
 154503	kdbḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.127 13						
-154504	dbḥ	dbḥ/	dbḥ	n. m. pl. cstr. nom.	sacrifice	
 154504	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 154504	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
 # KTU 1.127 14						
@@ -71,8 +68,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154509	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 # KTU 1.127 17						
 154510	w	w	w	conj.	and	
-154511	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 154511	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+154511	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 154511	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.127 18						
 154512	dtnat	?	?	?	?	DULAT: NOT FOUND
@@ -98,7 +95,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154524	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.127 26						
 154525	x	?	?	?	?	
+154526	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
 154526	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
+154526	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
 154526	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
 154527	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 154527	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
@@ -106,7 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154528	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 154528	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
 # KTU 1.127 27						
-154529	ḏ	ḏ	ḏ			
+154529	ḏ	ḏ	d	det. or rel. functor	the one(s) of	
 # KTU 1.127 28						
 154530		?	?	?	?	
 # KTU 1.127 29						
@@ -129,7 +128,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.127 31						
 154539	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 154539	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-154540	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 154540	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 154541	bnš	bnš/	bnš	n. m. pl. abs. gen.	man	
 154541	bnš	bnš/	bnš	n. m. sg. abs. gen.	man	

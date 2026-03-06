@@ -27,14 +27,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153603	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 # KTU 1.112 5						
 153604	bht	bt(II)/	bt (II)	n. m. pl. abs. gen.	house	
-153605	m	?	?	?	?	DULAT: NOT FOUND
+153605	m	m	m(h)	pers. pn.	what?	
 153606	šˤṣrm	?	?	?	?	DULAT: NOT FOUND
 153607	linš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 6						
 153608	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 153608	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 153609	w	w	w	conj.	and	
-153610	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 153610	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 153611	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 153611	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
@@ -72,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153630	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 153631	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 153632	b	b	b	prep.	in	
-153633	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num.	eight	
+153633	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	eight	
 153634	iynm	iyn/~m	ỉyn	n. m. sg. cstr. nom.	disaster	
 # KTU 1.112 12						
 153635	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. gen.	grain	
@@ -105,19 +104,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153652	b	b	b	prep.	in	
 153653	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
 # KTU 1.112 16						
-153654	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+153654	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 153654	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 153655	yrt	yrd[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
 153656	ḥṣ	ḥṣ/	ḥṣ	n. m. sg. abs. nom.	gravel	
-153657	m	?	?	?	?	DULAT: NOT FOUND
+153657	m	m	m(h)	pers. pn.	what?	
 # KTU 1.112 17						
 153658	lk	l(I)+k	l (I)	prep.	to	
 153659	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
 153659	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 153660	b	b	b	prep.	in	
-153661	arbˤt	arbˤ&t/	ảrbʕ	num.	four	
+153661	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
 # KTU 1.112 18						
-153662	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+153662	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 153662	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 153663	yrdn	!y!(yrd[+n	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
 153663	yrdn	yrdn[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
@@ -148,18 +147,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153677	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 153678	ˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 22						
-153679	šrh	šr(IV)/+h	šr (IV)	n. m. sg. cstr. nom.	navel	
+153679	šrh	šr(IV)/+h	šr (IV)	n. m. cstr. nom.	navel	
 153679	šrh	šry[	/š-r-y/w/	vb G suffc. 3 m. sg.	to release	
 153679	šrh	!!šrh[/	/š-r-y/w/	vb G inf.	to release	
 153680	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	wave- offering	
-153681	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153681	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153681	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+153681	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153681	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153681	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 153682	šbˤl	šbˤl/	šbʕl	PN sg. abs. nom.	šbʿl	
 153683	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
 # KTU 1.112 23						
-153684	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
+153684	pn	pnm/	pnm	n. m. cstr. nom.	face	
 153685	š	š/	š	n. m. sg. cstr. gen.	ram	
 153686	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 153686	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -212,11 +211,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153717	x	?	?	?	?	
 # KTU 1.112 29						
 153718	b	b	b	prep.	in	
-153719	šbˤt	šbˤ(I)&t/	šbʕ (I)	num.	seven	
-153720	ˤšrt	ˤšr(I)/t	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+153719	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	seven	
+153720	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 153720	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 # KTU 1.112 30						
-153721	iln	il(I)/+n	ỉl (I)	n. m. cstr. gen.	god	
+153721	iln	il(I)&n/	ỉl (I)	n. m. sg. abs. gen.	god	
 153721	iln	iln(I)/	ỉln (I)	n. m. sg. abs. gen.	deity	
 153722	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
 # KTU 1.112 31						

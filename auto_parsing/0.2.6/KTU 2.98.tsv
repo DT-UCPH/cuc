@@ -30,8 +30,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160160	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 160161	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
 160161	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
-160162	ˤmnh	ˤm(I)&n+h	ʕm (I)	prep.	to	
-160162	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	to, ?	
+160162	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	to	
 # KTU 2.98 8						
 160163	p	p(I)	p (I)	conj. functor	and	
 160163	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
@@ -50,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160167	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
 160167	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 # KTU 2.98 9						
-160168	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+160168	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 160169	aṯṯb	?	?	?	?	DULAT: NOT FOUND
 160170	w	w	w	conj.	and	
 160171	ml	ml	ml	?	?	
@@ -76,19 +75,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160182	ḫrd	ḫrd/	ḫrd	n. m. sg. cstr. nom.	(royal) guard	
 160183	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
 160184	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. gen.	presence	
-160185	ˤmnh	ˤm(I)&n+h	ʕm (I)	prep.	to	
-160185	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	to, ?	
+160185	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	to	
 # KTU 2.98 13						
 160186	w	w	w	conj.	and	
-160187	ˤmm	ˤmm[:pass	/ʕ-m-m/	vb Gpass suffc.	to be covered	
-160188	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
-160188	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
-160189	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-160189	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
-160190	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-160190	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+160187	ˤmm	ˤm(I)&~m	ʕm (I)	prep.	to	
+160188	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+160188	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+160189	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+160189	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+160190	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+160190	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+160190	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+160190	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 # KTU 2.98 14						
-160191	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+160191	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 160192	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 160193	ṯlṯid	ṯlṯid	ṯlṯỉd	adv.	three times	
 160194	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
@@ -139,8 +139,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160220	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 160220	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 # KTU 2.98 23						
-160221	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-160222	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to know	
+160221	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+160222	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
+160222	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
+160222	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to know	
 160223	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 160223	ky	k(II)&y	k (II)	emph. functor	yes	
 160223	ky	k(IV)&y	k (IV)	adv.	thus	
@@ -149,8 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160225	artṯb	artṯb/	ảrtṯb	PN sg. cstr. nom.	ảrtṯb	
 # KTU 2.98 25						
 160226	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl. abs. gen.	dust	
-160227	ˤmnh	ˤm(I)&n+h	ʕm (I)	prep.	to	
-160227	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	to, ?	
+160227	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	to	
 # KTU 2.98 26						
 160228	w	w	w	conj.	and	
 160229	yšdd	!y!šdd(II)[	/š-d-d/ (II)	vb G prefc. 3 m. sg.	to devastate	
@@ -198,8 +199,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160255	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 160256	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 160256	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-160257	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-160258	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to know	
+160257	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+160258	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
+160258	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
+160258	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to know	
 # KTU 2.98 35						
 160259	x	?	?	?	?	
 160260	ẓr	ẓr(I)/	ẓr (I)	n. m. sg. cstr. nom.	back	

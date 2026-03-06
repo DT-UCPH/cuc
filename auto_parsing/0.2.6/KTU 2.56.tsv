@@ -12,12 +12,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.56 3						
 158560	rtm	rt/+m(I)	rt	PN sg. cstr. nom.	rt	
 # KTU 2.56 4						
-158561	hnny	hn+ny	hn	functor	behold!	
-158561	hnny	hnny	hnny	adv.	here	
-158561	hnny	hn+ny	hnny	adv.	here	
+158561	hnny	hn&ny	hn	functor	behold!	
 # KTU 2.56 5						
 158562	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
-158562	ˤmny	ˤm(I)&n+y	ʕm (I)	prep.	to	
 158563	kll	kll/	kll	n. m. sg. abs. nom.	totality	
 158564	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
 158565	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
@@ -30,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158565	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 158565	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.56 6						
-158566	ṯmny	ṯm&ny	ṯm	adv.	there	
+158566	ṯmny	ṯm+ny	ṯm	adv.	there	
 158567	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
 158567	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 158568	mnm	mnm	mnm	indef. pn.	any(thing)	

@@ -31,10 +31,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.90 8						
 159988	w	w	w	conj.	and	
 159989	ht	ht	ht	adv.	here	
-159990	hn	hn	w	conj.	and	
 159990	hn	hn	hn	functor	behold!	
-159990	hn	hn	hnny	adv.	here	
-159991	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
+159991	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
 159991	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 159992	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 9						
@@ -47,11 +45,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159996	w	w	w	conj.	and	
 159997	ht	ht	ht	adv.	here	
 159998	hn	hn	hn	functor	behold!	
-159999	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
+159999	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
 159999	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 160000	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 11						
-160001	ˤmm	ˤmm[:pass	/ʕ-m-m/	vb Gpass suffc.	to be covered	
+160001	ˤmm	ˤm(I)&~m	ʕm (I)	prep.	to	
 160002	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	woman	
 # KTU 2.90 12						
 160003	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	house	
@@ -63,16 +61,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160006	and	an(II)+d	ản (II)	adv.	wherever, ?	
 160007	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.90 14						
-160008	ḫrdk	ḫrd/+k	ḫrd	n. m. sg. cstr. nom.	(royal) guard	
+160008	ḫrdk	ḫrd/+k	ḫrd	n. m. cstr. nom.	(royal) guard	
 160009	yuḫd	!y!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
 160009	yuḫd	!y!(ʔ&uḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
 # KTU 2.90 15						
 160010	hn	hn	hn	functor	behold!	
-160011	bnš	bnš/	bnš	n. m. pl. abs. nom.	man	
+160011	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
 160011	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 160012	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 16						
 160013	w	w	w	conj.	and	
+160014	štnnh	št[n+nh	/š-t/	vb G suffc.	to place, ?	
 160014	štnnh	št[n+nh	/š-t/	vb G impv. 2	to place, ?	
 # KTU 2.90 17						
 160015	bd	b&d	b	prep.	in	
@@ -97,7 +96,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.90 21						
 160025	w	w	w	conj.	and	
 160026	ˤmkm	ˤm(I)+km	ʕm (I)	prep.	to	
-160026	ˤmkm	ˤm(II)&k/+m(I)	ʕm (II)	n. m. cstr. nom.	lineage	
 160027	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.90 22						
 160028	w	w	w	conj.	and	
@@ -107,6 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160031	mlakty	mlak(t/t+y	mlảkt	n. f. sg. cstr. gen.	message	
 160032	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.90 24						
+160033	štnn	št[n+n	/š-t/	vb G suffc.	to place	
 160033	štnn	št[n+n	/š-t/	vb G impv. 2	to place	
 160033	štnn	št[:pass+nn	/š-t/	vb G suffc.	to place, ?	
 160033	štnn	št[:pass+nn	/š-t/	vb G impv. 2	to place, ?	

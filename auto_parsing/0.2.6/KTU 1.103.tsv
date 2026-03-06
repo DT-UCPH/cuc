@@ -13,7 +13,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152312	at	ṯa(t/t	ṯảt	n. f. sg. cstr. nom.	ewe	
 152312	at	a(t(II)/t	ảt (II)	n. f. sg. cstr. nom.	prodigious	
 152313	abn	ab/+n	ảb	n. m. cstr. gen.	father	
-152313	abn	abn/	ảbn	n. f. pl. cstr. gen.	stone	
 152313	abn	abn/	ảbn	n. f. sg. cstr. gen.	stone	
 152314	madtn	mad(t(I)/t+n	mảdt (I)	n. f. sg. cstr. gen.	great quantity	
 152315	tqln	!t!ql[n	/q-l/	vb G prefc.	to fall (down)	
@@ -87,7 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152351	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 152352	tdlln	!t!dll[n:d	/d-l-l/	vb D prefc.	to oppress	
 # KTU 1.103 8						
-152353	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. du. cstr. nom.	eye	
+152353	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	eye	
 152354	mxxxxxxxmḫt	?	?	?	?	DULAT: NOT FOUND
 152355	bhmt	bhm(t/t	bhmt	n. f. sg. cstr. nom.	cattle	
 152356	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
@@ -117,7 +116,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152369	xxxxḥwtibh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 11						
 152370	w	w	w	conj.	and	
-152371	qrn	qrn/	qrn	n. f. du. abs. nom.	horn	
+152371	qrn	qrn/	qrn	n. f. sg. cstr. nom.	horn	
 152371	qrn	qrn/	qrn	n. f. sg. abs. nom.	horn	
 152372	širbpith	?	?	?	?	DULAT: NOT FOUND
 152373	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	left	
@@ -147,7 +146,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152390	uškm	ušk/m	ủšk	n. m. pl. abs. gen.	testicle	
 152391	bh	b&h	b	prep.	in	
 152391	bh	b+h	b	prep.	in	
-152392	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f. abs. nom.	arm	
+152392	ḏrˤ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. nom.	seed	
 152393	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
 152393	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to live	
 152393	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to live	
@@ -173,8 +172,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152409	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. gen.	caprine animal	
 152410	yuḫd	!y!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
 152410	yuḫd	!y!(ʔ&uḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
-152411	ib	ib(I)/	ỉb (I)	n. m. pl. cstr. nom.	enemy	
 152411	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
+152411	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
 152411	ib	ib(II)/	ỉb (II)	n. m. sg. cstr. nom.	fruit	
 152412	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 152412	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
@@ -204,7 +203,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152426	l	l(III)	l (III)	functor	certainly	
 # KTU 1.103 25						
 152427	w	w	w	conj.	and	
-152428	qrn	qrn/	qrn	n. f. du. cstr. nom.	horn	
 152428	qrn	qrn/	qrn	n. f. sg. cstr. nom.	horn	
 152429	šir	šir(I)/	šỉr (I)	n. m. sg. abs. gen.	flesh	
 152430	l	l(I)	l (I)	prep.	to	
@@ -256,27 +254,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152462	tḥyt	?	?	?	?	DULAT: NOT FOUND
 152463	krtx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 33						
-152464	pnh	pn(m/+h	pnm	n. m. pl. cstr. nom.	face	
-152465	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
-152466	irn	irn(I)/	ỉrn (I)	n. m. sg. abs. nom.	puppy	
+152464	pnh	pnm/	pnm	n. m. cstr. nom.	face	
+152465	pn	pnm/	pnm	n. m. cstr. gen.	face	
+152466	irn	irn(I)/	ỉrn (I)	n. m. sg. abs. gen.	puppy	
 152467	uxxxxxxx	?	?	?	?	DULAT: NOT FOUND
-152468	ib	ib(I)/	ỉb (I)	n. m. pl. abs. nom.	enemy	
-152468	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 152468	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
+152468	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
+152468	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
 152468	ib	ib(II)/	ỉb (II)	n. m. sg. abs. nom.	fruit	
-152468	ib	ib(II)/	ỉb (II)	n. m. sg. cstr. nom.	fruit	
 152469	tqṣrn	!t!qṣr[n	/q-ṣ-r/	vb G prefc.	to be short	
 152469	tqṣrn	!t!qṣr[n:d	/q-ṣ-r/	vb D prefc.	to be short	
 # KTU 1.103 34						
-152470	ymy	ym(I)&y/	ym (I)	n. m. pl. cstr. nom.	day	
+152470	ymy	ym(I)&y/	ym (I)	n. m. cstr. nom.	day	
 152471	bˤlhn	bˤl(II)/+hn	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 152472	bhmt	bhm(t/t	bhmt	n. f. sg. abs. nom.	cattle	
-152473	ib	ib(I)/	ỉb (I)	n. m. pl. abs. nom.	enemy	
-152473	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 152473	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
+152473	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
+152473	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
 152473	ib	ib(II)/	ỉb (II)	n. m. sg. abs. nom.	fruit	
-152473	ib	ib(II)/	ỉb (II)	n. m. sg. cstr. nom.	fruit	
+152474	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
+152474	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish	
+152474	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish	
+152474	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 m. du.	to perish	
 152474	tḫlq	!t!ḫlq[:w	/ḫ-l-q/	vb G prefc. 3 m. pl.	to perish	
+152474	tḫlq	!t===!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. pl.	to perish	
+152474	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
 # KTU 1.103 35						
 152475	w	w	w	conj.	and	
 152476	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
@@ -290,7 +292,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152482	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to live	
 152482	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to live	
 # KTU 1.103 36						
-152483	hyt	hyt	hyt			
+152483	hyt	hy&t	hy	pers. pn.	she	
 152484	wyḥslnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 37						
 152485	w	w	w	conj.	and	
@@ -311,7 +313,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152496	w	w	w	conj.	and	
 152497	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. nom.	shortness	
 152498	pˤnh	pˤn/+h	pʕn	n. f. cstr. gen.	foot	
-152499	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+152499	bˤln	bˤl(II)/+n	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 152500	yġtrḫrd	?	?	?	?	DULAT: NOT FOUND
 152501	w	w	w	conj.	and	
 152502	uḫr	?	?	?	?	DULAT: NOT FOUND
@@ -335,10 +337,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152510	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. cstr. gen.	bird	
 152511	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 152511	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+152512	tbˤrn	!t!bˤr(II)[n:d	/b-ʕ-r/ (II)	vb D prefc.	to abandon	
 152512	tbˤrn	tbˤrn[	/b-ʕ-r/ (II)	vb D suffc. 3 m. sg.	to abandon	
 152513	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
 # KTU 1.103 42						
-152514	hyt	hyt	hyt			
+152514	hyt	hy&t	hy	pers. pn.	she	
 152515	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
 152515	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to live	
 152515	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to live	
@@ -356,10 +359,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152521	xxxxxx	?	?	?	?	
 152522	l	l(I)	l (I)	prep.	to	
 152522	l	l(III)	l (III)	functor	certainly	
-152523	rišh	riš(I)/+h	rỉš (I)	n. m. sg. cstr. nom.	head	
-152524	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f. abs. nom.	arm	
+152523	rišh	riš(I)/+h	rỉš (I)	n. m. cstr. nom.	head	
+152524	ḏrˤ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. nom.	seed	
 152525	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 152525	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+152526	hwt	hw&t	hw	pers. pn.	he	
 152526	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 1.103 44						
 152527	yḥsl	!y!(]n]ḥsl[	/ḥ-s-l/	vb N prefc. 3 m. sg.	to wipe out	
@@ -369,16 +373,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152530	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
 152531	bšbrh	?	?	?	?	DULAT: NOT FOUND
 152532	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. cstr. nom.	exit	
-152533	špšn	špš&n/	špš	n. f. sg. cstr. gen.	sun	
-152534	tpšlt	tpšl(t/t	tpšlt	n. f. sg. cstr. gen.	oppression	
-152535	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
-152536	hyt	hyt	hyt			
+152533	špšn	špš/+n	špš	n. f. cstr. gen.	sun	
+152534	tpšlt	tpšl(t/t	tpšlt	n. f. sg. cstr. nom.	oppression	
+152535	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
+152535	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to live	
+152535	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to live	
+152536	hyt	hy&t	hy	pers. pn.	she	
 # KTU 1.103 46						
 152537	w	w	w	conj.	and	
 152538	xxxx	?	?	?	?	
 152539	mlkn	mlk(I)&n	mlk (I)		king	
 152540	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
-152541	ḫrdh	ḫrd/+h	ḫrd	n. m. sg. cstr. gen.	(royal) guard	
+152541	ḫrdh	ḫrd/+h	ḫrd	n. m. cstr. gen.	(royal) guard	
 152542	yddll	dll[ll:d	/d-l-l/	vb D prefc.	to oppress	
 # KTU 1.103 47						
 152543	w	w	w	conj.	and	
@@ -400,9 +406,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152552	bhl	bhl[:dt==	/b-h-l/	vb D suffc. 2 f. sg.	to dismiss	
 152552	bhl	bhl[:dt	/b-h-l/	vb D suffc. 1 c. sg.	to dismiss	
 152553	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. nom.	back part (of the head)	
-152554	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. du. cstr. gen.	eye	
+152554	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	eye	
 152555	w	w	w	conj.	and	
-152556	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. du. cstr. nom.	eye	
+152556	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	eye	
 152557	blṣbh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 50						
 152558	ibn	ib(I)/+n	ỉb (I)	n. m. cstr. nom.	enemy	
@@ -424,9 +430,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152571	pˤnt	pˤn/t=	pʕn	n. f. pl. abs. gen.	foot	
 152572	bh	b&h	b	prep.	in	
 152572	bh	b+h	b	prep.	in	
-152573	ḫrdn	ḫrd&n/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
+152573	ḫrdn	ḫrd/+n	ḫrd	n. m. cstr. nom.	(royal) guard	
 152574	yhpk	!y!hpk[	/h-p-k/	vb G prefc. 3 m. sg.	to overturn	
-152574	yhpk	!!yhpk[/	/h-p-k/	vb G inf.	to overturn	
+152574	yhpk	!y!(]n]hpk[	/h-p-k/	vb N prefc. 3 m. sg.	to overturn	
 152575	l	l(I)	l (I)	prep.	to	
 152575	l	l(II)	l (II)	adv.	no	
 152575	l	l(III)	l (III)	functor	certainly	
@@ -448,7 +454,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 54						
 152582	b	b	b	prep.	in	
 152583	ḥxz	?	?	?	?	DULAT: NOT FOUND
-152584	ḥrh	ḥr(I)/+h	ḥr (I)	n. m. sg. cstr. nom.	intestine(s)	
+152584	ḥrh	ḥr(I)/+h	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 152585	b	b	b	prep.	in	
 152586	pith	pit/+h	pỉt	n. m. cstr. gen.	temple	
 152587	mlkn	mlk(I)&n	mlk (I)		king	
@@ -461,22 +467,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152592	kbm	kb(II)/m	kb (II)	n. m. pl. abs. gen.	intestine(s)	
 152593	bh	b&h	b	prep.	in	
 152593	bh	b+h	b	prep.	in	
-152594	ḏrˤ	ḏrˤ(I)/	ḏrʕ (I)	n. f. abs. nom.	arm	
+152594	ḏrˤ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. nom.	seed	
 152595	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
 152595	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to live	
 152595	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to live	
-152596	hyt	hyt	hyt			
+152596	hyt	hy&t	hy	pers. pn.	she	
 152597	yḥsl	!y!(]n]ḥsl[	/ḥ-s-l/	vb N prefc. 3 m. sg.	to wipe out	
 # KTU 1.103 56						
 152598	w	w	w	conj.	and	
 152599	ˤql	?	?	?	?	DULAT: NOT FOUND
 152600	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 152600	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+152601	tbˤrn	!t!bˤr(II)[n:d	/b-ʕ-r/ (II)	vb D prefc.	to abandon	
 152601	tbˤrn	tbˤrn[	/b-ʕ-r/ (II)	vb D suffc. 3 m. sg.	to abandon	
 152602	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
 152602	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to live	
 152602	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to live	
-152603	hyt	hyt	hyt			
+152603	hyt	hy&t	hy	pers. pn.	she	
 # KTU 1.103 57						
 152604	w	w	w	conj.	and	
 152605	ˤnhb	?	?	?	?	DULAT: NOT FOUND
@@ -484,7 +491,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152607	mlkn	mlk(I)&n	mlk (I)		king	
 152608	yˤzz	!y!ˤz[z	/ʕ-z(-z)/	vb G prefc. 3 m. sg.	to be strong	
 152609	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-152610	ḫpṯh	ḫpṯ/+h	ḫpṯ	n. m. sg. cstr. gen.	fugitive	
+152610	ḫpṯh	ḫpṯ/+h	ḫpṯ	n. m. cstr. gen.	fugitive	
 # KTU 1.103 58						
 152611	w	w	w	conj.	and	
 152612	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. nom.	intestine(s)	
@@ -506,9 +513,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152623	bh	b&h	b	prep.	in	
 152623	bh	b+h	b	prep.	in	
 152624	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-152625	ib	ib(I)/	ỉb (I)	n. m. pl. abs. nom.	enemy	
-152625	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 152625	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
+152625	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
+152625	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
 152625	ib	ib(II)/	ỉb (II)	n. m. sg. abs. nom.	fruit	
-152625	ib	ib(II)/	ỉb (II)	n. m. sg. cstr. nom.	fruit	
+152626	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
+152626	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish	
+152626	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish	
+152626	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 m. du.	to perish	
 152626	tḫlq	!t!ḫlq[:w	/ḫ-l-q/	vb G prefc. 3 m. pl.	to perish	
+152626	tḫlq	!t===!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. pl.	to perish	
+152626	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	

@@ -15,24 +15,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.13 5						
 156661	l	l(I)	l (I)	prep.	to	
 156662	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-156663	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
+156663	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.13 6						
 156664	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 156665	l	l(I)	l (I)	prep.	to	
 156665	l	l(III)	l (III)	functor	certainly	
-156666	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+156666	umy	um/+y	ủm	n. f. cstr. nom.	mother	
 # KTU 2.13 7						
 156667	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156667	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156668	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 156668	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.13 8						
+156669	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 156669	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+156670	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 156670	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.13 9						
 156671	hlnky	?	?	?	?	DULAT: NOT FOUND
 156672	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
-156672	ˤmny	ˤm(I)&n+y	ʕm (I)	prep.	to	
 # KTU 2.13 10						
 156673	kll	kll/	kll	n. m. sg. abs. nom.	totality	
 156674	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
@@ -45,9 +46,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156674	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 156674	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.13 11						
-156675	ṯmny	ṯm&ny	ṯm	adv.	there	
+156675	ṯmny	ṯm+ny	ṯm	adv.	there	
 156676	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-156677	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
+156677	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.13 12						
 156678	mnm	mnm	mnm	indef. pn.	any(thing)	
 156679	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
@@ -74,21 +75,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156684	bm	b+m(I)	b	prep.	in	
 156685	tyndr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.13 15						
-156686	iṯt	iṯt	ỉṯt	?	?	
+156686	iṯt	iṯ(I)/t	ỉṯ (I)	n. m. sg. abs. nom.	presence	
 156687	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 156688	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
 # KTU 2.13 16						
 156689	w	w	w	conj.	and	
-156690	rgmy	rgm/y	rgm	n. m. pl. abs. nom.	word	
+156690	rgmy	rgm/+y	rgm	n. m. cstr. nom.	word	
 156691	l	l(I)	l (I)	prep.	to	
 156691	l	l(III)	l (III)	functor	certainly	
 # KTU 2.13 17						
 156692	qḥlqt	?	?	?	?	DULAT: NOT FOUND
 156693	w	w	w	conj.	and	
-156694	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
+156694	pn	pnm/	pnm	n. m. cstr. nom.	face	
 # KTU 2.13 18						
 156695	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 156695	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 156696	nr	nr/	nr	n. m. sg. cstr. gen.	sheen	
-156697	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
 156697	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	

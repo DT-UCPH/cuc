@@ -9,7 +9,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.17 4						
 161570	kd	kd(I)/	kd (I)	n. f. sg. abs. gen.	jar	
 161571	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable)	
-161572	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 161572	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161573	ˤbdṯrm	ˤbdṯrm/	ʕbdṯrm	PN sg. cstr. gen.	ʿbdṯrm	
 # KTU 3.17 5						
@@ -18,20 +17,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.17 6						
 161576	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
 161577	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161578	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
 161578	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161579	srġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.17 7						
 161580	kd	kd(I)/	kd (I)	n. f. sg. cstr. nom.	jar	
 161581	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 161582	ẓrm	ẓr(I)/+m(I)	ẓr (I)	n. m. cstr. gen.	back	
-161582	ẓrm	ẓrm/	ẓrm	PN sg. cstr. gen.	ẓrm	
 # KTU 3.17 8						
-161583	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	jar	
-161584	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161585	śz	z/	śz	PN sg. cstr. gen.	śz	
-161586	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
-161586	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+161583	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	jar	
+161584	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+161584	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+161584	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+161584	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+161585	śz	z/	śz	PN sg. abs. nom.	śz	
+161586	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+161586	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+161586	bn	bn(II)	bn (II)	prep.	between	
+161586	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161586	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161587	pls	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.17 9						
 161588	kd	kd(I)/	kd (I)	n. f. sg. cstr. nom.	jar	

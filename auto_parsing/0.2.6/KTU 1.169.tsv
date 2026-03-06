@@ -43,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155632	k	k(I)	k (I)	prep.	like	
 155632	k	k(II)	k (II)	emph. functor	yes	
 155633	yˤlm	yˤl(I)/m	yʕl (I)	n. m. pl. cstr. nom.	mountain goat	
-155634	ẓrh	ẓr(I)/+h	ẓr (I)	n. m. sg. cstr. gen.	back	
+155634	ẓrh	ẓr(I)/+h	ẓr (I)	n. m. cstr. gen.	back	
 155635	k	+k	-k (I)			
 155635	k	~k	-k (II)			
 155635	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -137,7 +137,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155682	al	al(II)	ảl (II)	pos. functor	surely	
 155683	tapq	!t!(ʔ&apq[:d	/ʔ-p-q/	vb D prefc.	to move away	
 155684	apq	apq/	ảpq	n. m. sg. cstr. nom.	spring	
-155685	lbš	lbš/	lbš	n. m. pl. cstr. gen.	clothing	
 155685	lbš	lbš/	lbš	n. m. sg. cstr. gen.	clothing	
 155685	lbš	lbš[/	/l-b-š/	vb G act. ptcpl. m. sg. cstr. gen.	to dress	
 155685	lbš	lbš[/	/l-b-š/	vb G pass. ptcpl. m. sg. cstr. gen.	to dress	
@@ -145,10 +144,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155686	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 155686	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 155687	yštk	!y!št[k	/š-t/	vb G prefc. 3 m. sg.	to place	
+155687	yštk	yštk[	/š-t/	vb G suffc. 3 m. sg.	to place	
 155688	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. sg. cstr. nom.	city	
 155689	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 155689	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 155690	yštk	!y!št[k	/š-t/	vb G prefc. 3 m. sg.	to place	
+155690	yštk	yštk[	/š-t/	vb G suffc. 3 m. sg.	to place	
 # KTU 1.169 14						
 155691	l	l(I)	l (I)	prep.	to	
 155691	l	l(II)	l (II)	adv.	no	
@@ -165,7 +166,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155699	l	l(I)	l (I)	prep.	to	
 155699	l	l(II)	l (II)	adv.	no	
 155699	l	l(III)	l (III)	functor	certainly	
-155700	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 155700	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 155701	adm	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	man	
 155702	b	b	b	prep.	in	
@@ -182,7 +182,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155711	bˤrk	bˤr/+k	bʕr	adj. m. cstr. nom.	burnt	
 155712	l	l(I)	l (I)	prep.	to	
 155712	l	l(III)	l (III)	functor	certainly	
-155713	ṯtm	ṯtm(I)/	ṯn (I)	num. f.	two	
+155713	ṯtm	ṯtm(I)/	ṯn (I)	num.	two	
 155714	itbnnk	bn[bnnk:l	/b-n/	vb tL prefc.	to understand	
 # KTU 1.169 18						
 155715	xxxxx	?	?	?	?	

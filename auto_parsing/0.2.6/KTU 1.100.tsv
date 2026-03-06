@@ -12,7 +12,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151713	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 151713	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 151714	abn	ab/+n	ảb	n. m. cstr. gen.	father	
-151714	abn	abn/	ảbn	n. f. pl. cstr. gen.	stone	
 151714	abn	abn/	ảbn	n. f. sg. cstr. gen.	stone	
 151715	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 151715	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
@@ -25,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151720	l	l(I)	l (I)	prep.	to	
 151721	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 151721	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
-151722	umh	um/+h	ủm	n. f. sg. cstr. gen.	mother	
+151722	umh	um/+h	ủm	n. f. cstr. gen.	mother	
 151723	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151723	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151724	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -50,6 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151735	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 151735	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 151735	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+151735	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 151736	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 151737	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 151738	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
@@ -70,8 +70,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151745	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 151745	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 151746	hlm	hlm	hlm	conj. functor	and so	
-151746	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 151746	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+151746	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 151746	hlm	hl&m	hl	deictic adv. functor	behold	
 151747	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151748	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -89,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151756	l	l(I)	l (I)	prep.	to	
 151757	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 151757	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
-151758	umh	um/+h	ủm	n. f. sg. cstr. gen.	mother	
+151758	umh	um/+h	ủm	n. f. cstr. gen.	mother	
 151759	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151759	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151760	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -106,14 +106,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151764	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 151765	mrym	mrym/	mrym	n. m. sg. cstr. gen.	height	
 151766	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-151767	mnty	mn(t(I)/t&y	mnt (I)	n. f. sg. cstr. gen.	portion	
-151768	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
-151768	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
-151768	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+151767	mnty	mn(t(I)/t+y	mnt (I)	n. f. sg. cstr. gen.	portion	
+151768	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. nom.	bite	
+151768	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
+151768	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
+151768	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
+151768	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. abs. nom.	to bite	
 # KTU 1.100 10						
-151769	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
-151770	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
-151771	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
+151769	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
+151770	šmrr	šmrr/	šmrr	n. m. sg. cstr. nom.	poisoning	
+151771	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 151772	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 151773	lnh	l(I)+nh	l (I)	prep.	to	
 # KTU 1.100 11						
@@ -130,8 +132,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151778	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 151778	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 151779	hlm	hlm	hlm	conj. functor	and so	
-151779	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 151779	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+151779	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 151779	hlm	hl&m	hl	deictic adv. functor	behold	
 151780	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 12						
@@ -149,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 14						
 151789	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 151790	lšpš	?	?	?	?	DULAT: NOT FOUND
-151791	umh	um/+h	ủm	n. f. sg. cstr. nom.	mother	
+151791	umh	um/+h	ủm	n. f. cstr. nom.	mother	
 151792	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151792	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151793	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -167,6 +169,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151800	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 151800	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 151800	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+151800	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 151801	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 151802	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 # KTU 1.100 16						
@@ -187,8 +190,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151810	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 151810	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 151811	hlm	hlm	hlm	conj. functor	and so	
-151811	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 151811	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+151811	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 151811	hlm	hl&m	hl	deictic adv. functor	behold	
 151812	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151813	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -205,7 +208,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 19						
 151821	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 151822	lšpš	?	?	?	?	DULAT: NOT FOUND
-151823	umh	um/+h	ủm	n. f. sg. cstr. nom.	mother	
+151823	umh	um/+h	ủm	n. f. cstr. nom.	mother	
 151824	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151824	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151825	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -222,11 +225,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151829	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 151830	wˤ	?	?	?	?	DULAT: NOT FOUND
 151831	rṯtrt	?	?	?	?	DULAT: NOT FOUND
-151832	inbbh	inbb&h/	ỉnbb	TN sg. cstr. nom.	god (of the) mountain	
+151832	inbbh	inbb/~h	ỉnbb	TN sg. cstr. nom.	god (of the) mountain	
 151833	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 151834	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 151834	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 151834	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+151834	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 # KTU 1.100 21						
 151835	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 151836	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
@@ -247,8 +251,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151845	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 151845	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 151846	hlm	hlm	hlm	conj. functor	and so	
-151846	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 151846	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+151846	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 151846	hlm	hl&m	hl	deictic adv. functor	behold	
 151847	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 23						
@@ -268,7 +272,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151857	l	l(I)	l (I)	prep.	to	
 151858	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 151858	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
-151859	umh	um/+h	ủm	n. f. sg. cstr. gen.	mother	
+151859	umh	um/+h	ủm	n. f. cstr. gen.	mother	
 151860	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151860	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151861	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -284,10 +288,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151865	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
 151866	lrgth	lrgt/+h	lrgt	TN sg. cstr. gen.	Larugat	
 151867	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+151868	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. nom.	bite	
 151868	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 151868	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 151868	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
-151868	nṯk	nṯk[	/n-ṯ-k/	vb G prefc.	to bite	
+151868	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. abs. nom.	to bite	
 151869	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 151870	šmrr	šmrr/	šmrr	n. m. sg. cstr. nom.	poisoning	
 # KTU 1.100 27						
@@ -308,8 +313,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151878	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 151878	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 151879	hlm	hlm	hlm	conj. functor	and so	
-151879	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 151879	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+151879	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 151879	hlm	hl&m	hl	deictic adv. functor	behold	
 151880	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151881	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -328,7 +333,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151890	l	l(I)	l (I)	prep.	to	
 151891	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 151891	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
-151892	umh	um/+h	ủm	n. f. sg. cstr. gen.	mother	
+151892	umh	um/+h	ủm	n. f. cstr. gen.	mother	
 151893	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151893	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151894	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -341,11 +346,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151897	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 31						
 151898	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
-151899	bbth	bbt(I)&h/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
+151899	bbth	bbt(I)/~h	bbt (I)	TN sg. cstr. gen.	bbt (I)	
 151900	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 151901	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 151901	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 151901	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+151901	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 151902	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 151903	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 # KTU 1.100 32						
@@ -364,8 +370,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151910	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 151910	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 151911	hlm	hlm	hlm	conj. functor	and so	
-151911	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 151911	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+151911	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 151911	hlm	hl&m	hl	deictic adv. functor	behold	
 151912	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151913	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -384,7 +390,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 35						
 151922	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 151923	lšpš	?	?	?	?	DULAT: NOT FOUND
-151924	umh	um/+h	ủm	n. f. sg. cstr. nom.	mother	
+151924	umh	um/+h	ủm	n. f. cstr. nom.	mother	
 151925	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151925	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151926	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -404,6 +410,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151935	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 151935	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 151935	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+151935	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 151936	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 151937	šm	š/m	š	n. m. pl. abs. gen.	ram	
 151937	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
@@ -424,8 +431,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151945	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 151945	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 151946	hlm	hlm	hlm	conj. functor	and so	
-151946	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 151946	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+151946	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 151946	hlm	hl&m	hl	deictic adv. functor	behold	
 151947	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151948	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -444,7 +451,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 40						
 151957	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 151958	lšpš	?	?	?	?	DULAT: NOT FOUND
-151959	umh	um/+h	ủm	n. f. sg. cstr. nom.	mother	
+151959	umh	um/+h	ủm	n. f. cstr. nom.	mother	
 151960	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151960	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151961	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -463,6 +470,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151968	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 151968	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 151968	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+151968	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 151969	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 151970	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 # KTU 1.100 42						
@@ -483,8 +491,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151978	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 151978	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 151979	hlm	hlm	hlm	conj. functor	and so	
-151979	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 151979	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+151979	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 151979	hlm	hl&m	hl	deictic adv. functor	behold	
 151980	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151981	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -501,7 +509,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 45						
 151989	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 151990	lšpš	?	?	?	?	DULAT: NOT FOUND
-151991	umh	um/+h	ủm	n. f. sg. cstr. nom.	mother	
+151991	umh	um/+h	ủm	n. f. cstr. nom.	mother	
 151992	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151992	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 151993	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -521,6 +529,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152002	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 152002	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 152002	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+152002	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 152003	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 # KTU 1.100 47						
 152004	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
@@ -541,8 +550,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152013	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 152013	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 152014	hlm	hlm	hlm	conj. functor	and so	
-152014	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 152014	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+152014	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 152014	hlm	hl&m	hl	deictic adv. functor	behold	
 152015	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 152016	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -560,7 +569,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 51						
 152024	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call	
 152025	lšpš	?	?	?	?	DULAT: NOT FOUND
-152026	umh	um/+h	ủm	n. f. sg. cstr. nom.	mother	
+152026	umh	um/+h	ủm	n. f. cstr. nom.	mother	
 152027	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 152027	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 152028	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -577,10 +586,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152034	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
 152035	šmmh	šmm(I)/+h	šmm (I)	n. m. pl. cstr. nom.	heavens	
 152036	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+152037	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. nom.	bite	
 152037	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
 152037	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 152037	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
-152037	nṯk	nṯk[	/n-ṯ-k/	vb G prefc.	to bite	
+152037	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. abs. nom.	to bite	
 152038	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.100 53						
 152039	šmrr	šmrr/	šmrr	n. m. sg. cstr. nom.	poisoning	
@@ -601,8 +611,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152047	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 152047	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 152048	hlm	hlm	hlm	conj. functor	and so	
-152048	hlm	hlm[	/h-l-m/	vb G prefc.	to hit	
 152048	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
+152048	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
 152048	hlm	hl&m	hl	deictic adv. functor	behold	
 152049	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 55						
@@ -622,7 +632,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152059	l	l(I)	l (I)	prep.	to	
 152060	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 152060	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
-152061	umh	um/+h	ủm	n. f. sg. cstr. gen.	mother	
+152061	umh	um/+h	ủm	n. f. cstr. gen.	mother	
 152062	šp	šp/	šp	n. m. abs. nom.	dune	
 152063	š	š/	š	n. m. sg. abs. nom.	ram	
 152064	um	um/	ủm	n. f. sg. abs. nom.	mother	
@@ -643,6 +653,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152071	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 152071	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 152071	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+152071	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 152072	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 # KTU 1.100 59						
 152073	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
@@ -666,7 +677,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152082	b	b	b	prep.	in	
 152083	ḥrn	ḥrn/	ḥrn	DN sg. cstr. gen.	Ḥôrānu	
 152083	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. gen.	intestine(s)	
-152084	pnm	pn(m/m	pnm	n. m. pl. abs. gen.	face	
+152084	pnm	p/+nm	pnm	n. m. pl. cstr. gen.	face	
 152085	trġnw	?	?	?	?	DULAT: NOT FOUND
 152086	w	w	w	conj.	and	
 152087	tṯkl	!t!ṯkl[	/ṯ-k-l/	vb G prefc. 3 f. sg.	be childless	
@@ -690,7 +701,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152092	qdm	qdm[:d:w	/q-d-m/	vb D suffc. 3 m. pl.	to proceed	
 # KTU 1.100 63						
 152093	idk	idk	ỉdk	narrative adv. functor	then	
-152094	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
+152094	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
 152095	l	l(I)	l (I)	prep.	to	
 152095	l	l(II)	l (II)	adv.	no	
 152095	l	l(III)	l (III)	functor	certainly	
@@ -727,12 +738,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152113	ynˤrah	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 66						
 152114	ssnm	ssn(I)/~m	ssn (I)	n. m. abs. nom. sg.	date-palm branch	
+152115	ysynh	nsy(II)[nh	/n-s-y/ (II)	vb G prefc.	to remove	
 152115	ysynh	nsy(II)[nh	/n-s-y/ (II)	vb G suffc.	to remove	
 152116	ˤdtm	ˤd(t(I)/t~m	ʕdt (I)	n. f. abs. nom. sg.	assembly	
 152117	yˤdynh	!y!ˤdy[nh:d	/ʕ-d-y/	vb D prefc. 3 m. sg.	to make disappear / remove	
 152118	yb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 67						
 152119	ltm	lt+m(I)	lt	?	?	
+152120	yblnh	!y!(ybl[nh	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 152120	yblnh	yblnh[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
 152121	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 152121	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
@@ -740,13 +753,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152122	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 152123	l	l(I)	l (I)	prep.	to	
 152123	l	l(III)	l (III)	functor	certainly	
-152124	bth	bt(II)/+h	bt (II)	n. m. cstr. nom.	house	
+152124	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	
+152124	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. nom.	daughter	
 152125	w	w	w	conj.	and	
 # KTU 1.100 68						
 152126	yštql	?	?	?	?	DULAT: NOT FOUND
 152127	l	l(I)	l (I)	prep.	to	
 152127	l	l(III)	l (III)	functor	certainly	
-152128	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. sg. cstr. nom.	mansion	
+152128	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. cstr. nom.	mansion	
 152129	tlu	lʔy(II)[	/l-ʔ-y/w/ (II)	vb G prefc.	to lose strength	
 152129	tlu	lʔy(II)[	/l-ʔ-y/w/ (II)	vb G suffc. 3 m. sg.	to lose strength	
 152130	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
@@ -820,16 +834,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 74						
 152161	mhry	mhr(III)/+y	mhr (III)	n. m. sg. cstr. nom.	dowry	
 152162	w	w	w	conj.	and	
-152163	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 152163	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 152164	bṯn	bṯn/	bṯn	n. m. sg. cstr. gen.	serpent	
 152165	itnny	itnn/+y	ỉtnn	n. m. sg. cstr. gen.	present	
 # KTU 1.100 75						
 152166	ytt	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 152167	nḥšm	nḥš/m	nḥš	n. m. pl. cstr. nom.	serpent	
-152168	mhrk	mhr(I)/+k	mhr (I)	n. m. sg. cstr. gen.	warrior (trained, expert)	
-152168	mhrk	mhr(III)/+k	mhr (III)	n. m. sg. cstr. gen.	dowry	
-152169	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+152168	mhrk	mhr(I)/+k	mhr (I)	n. m. cstr. gen.	warrior (trained, expert)	
+152169	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 152169	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 152169	bn	bn(II)	bn (II)	prep.	between	
 152169	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
@@ -850,4 +862,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152179	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 152179	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 152179	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
+152179	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 152180	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	

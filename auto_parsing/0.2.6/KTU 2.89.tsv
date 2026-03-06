@@ -10,8 +10,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159913	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.89 2						
 159914	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-159915	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
 159915	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
+159915	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
 159916	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.89 3						
 159917	l	l(I)	l (I)	prep.	to	
@@ -26,6 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159923	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 # KTU 2.89 5						
 159924	hlny	hlny	hlny	deictic adv. functor	behold	
+159925	hnn	hn&n	hn	functor	behold!	
 159925	hnn	hnn	hnn	adv. functor	here	
 159926	b	b	b	prep.	in	
 159927	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
@@ -40,7 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159930	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
 # KTU 2.89 7						
 159931	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
-159932	ṯmny	ṯm&ny	ṯm	adv.	there	
+159932	ṯmny	ṯm+ny	ṯm	adv.	there	
 # KTU 2.89 8						
 159933	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 159934	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
@@ -70,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159952	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 2.89 15						
 159953	dbd	db/+d	db	n. m. cstr. nom.	threshold, ?	
-159954	nˤr	nˤr(I)/	nʕr (I)	n. m. pl. cstr. nom.	boy	
+159954	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	boy	
 159954	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
 159954	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
 159954	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	

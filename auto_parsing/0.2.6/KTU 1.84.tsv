@@ -17,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150319	u	u	ủ	conj.	or	
 150320	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 150320	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
-150321	ypkn	yp/+kn	yp	n. m. sg. cstr. nom.	dignity	
+150321	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 150322	u	u	ủ	conj.	or	
 150323	lp	?	?	?	?	DULAT: NOT FOUND
 150324	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
@@ -50,7 +50,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150349	u	u	ủ	conj.	or	
 150350	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 150350	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
-150351	ypkn	yp/+kn	yp	n. m. sg. cstr. nom.	dignity	
+150351	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 # KTU 1.84 7						
 150352	b	b	b	prep.	in	
 150353	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
@@ -104,7 +104,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150387	u	u	ủ	conj.	or	
 150388	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 150388	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
-150389	ypkm	yp/+km	yp	n. m. sg. cstr. nom.	dignity	
+150389	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 150390	u	u	ủ	conj.	or	
 150391	lp	?	?	?	?	DULAT: NOT FOUND
 150392	qty	qt/+y	qt	n. m. cstr. nom.	handle	
@@ -121,7 +121,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150401	ḫty	ḫty(I)/	ḫty (I)	GN sg. abs. nom.	Hittite	
 150402	u	u	ủ	conj.	or	
 150403	lp	?	?	?	?	DULAT: NOT FOUND
-150404	alty	alty/	ảlty	PN sg. abs. nom.	villager	
 150404	alty	alt(I)/+y	ảlt (I)	n. f. cstr. nom.	curse	
 150404	alty	alt(II)/+y	ảlt (II)	n. f. cstr. nom.	support	
 # KTU 1.84 16						
@@ -145,7 +144,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150419	u	u	ủ	conj.	or	
 150420	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 150420	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
-150421	ypkm	yp/+km	yp	n. m. sg. cstr. nom.	dignity	
+150421	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 150422	u	u	ủ	conj.	or	
 150423	lp	?	?	?	?	DULAT: NOT FOUND
 150424	qty	qt/+y	qt	n. m. cstr. nom.	handle	
@@ -180,7 +179,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150449	u	u	ủ	conj.	or	
 150450	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 150450	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
-150451	ypkm	yp/+km	yp	n. m. sg. cstr. nom.	dignity	
+150451	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 150452	b	b	b	prep.	in	
 150453	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
 150453	apkm	ap(II)/+km	ảp (II)	n. m. cstr. gen.	nose	

@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155861	ġdm	ġdm	ġdm	?	?	
 # KTU 1.173 3						
 155862	xld	?	?	?	?	DULAT: NOT FOUND
-155863	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+155863	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 155863	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 155863	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 155864	wš	?	?	?	?	DULAT: NOT FOUND
@@ -19,7 +19,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155867	x	?	?	?	?	
 155868	š	š/	š	n. m. sg. cstr. nom.	ram	
 155869	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
-155870	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 155870	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 155871	w	w	w	conj.	and	
 155872	š	š/	š	n. m. sg. cstr. nom.	ram	
@@ -57,10 +56,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155888		?	?	?	?	
 155889	špqġhm	špqġhm	špqġhm	?		
 155890	š	š/	š	n. m. sg. abs. nom.	ram	
-155891	m	?	?	?	?	DULAT: NOT FOUND
+155891	m	m	m(h)	pers. pn.	what?	
 # KTU 1.173 12						
-155892	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 155892	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. nom.	communion victim / sacrifice	
+155892	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 155892	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 155893	š	š/	š	n. m. sg. cstr. gen.	ram	
 155894	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
@@ -84,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155904	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 155905	npṣh	npṣ/+h	npṣ	n. m. cstr. nom.	personal belongings	
 # KTU 1.173 17						
-155906	ṯˤh	ṯˤ(II)/+h	ṯʕ (II)	n. m. sg. cstr. nom.	Hero	
+155906	ṯˤh	ṯˤ(II)/+h	ṯʕ (II)	n. m. cstr. nom.	Hero	
 155907	w	w	w	conj.	and	
 155908	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 155908	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	

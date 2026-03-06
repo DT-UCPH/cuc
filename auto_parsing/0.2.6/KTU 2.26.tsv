@@ -67,11 +67,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157172	l	l(III)	l (III)	functor	certainly	
 157173	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
 # KTU 2.26 18						
-157174	tspr	!t!spr[	/s-p-r/	vb prefc.	to count	
+157174	tspr	!t!spr[:w	/s-p-r/	vb G prefc. 3 m. pl.	to count	
+157174	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to count	
 # KTU 2.26 19						
 157175	nrn	nr/+n	nr	n. m. cstr. nom.	sheen	
 157175	nrn	nr[+n	/n-r/	vb G suffc.	to shine	
-157175	nrn	nrn/	nrn	PN sg. abs. nom.	nrn	
 157176	al	al(I)	ảl (I)	neg. functor	no	
 157176	al	al(II)	ảl (II)	pos. functor	surely	
 157177	tud	!t!(ʔ&ud[	/ʔ-d/	vb G prefc.	general commercial mng to overcharge	

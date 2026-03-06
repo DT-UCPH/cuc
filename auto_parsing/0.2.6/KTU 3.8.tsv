@@ -33,9 +33,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161162	yṣihm	yṣih(I)/m	yṣủ (I)	n. m. pl. cstr. gen.	exit	
 # KTU 3.8 10						
 161163	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
-161164	ṯth	ṯth(I)/	ṯn (I)	num. f.	two	
+161164	ṯth	ṯth(I)/	ṯn (I)	num.	two	
 # KTU 3.8 11						
-161165	alp	alp(I)/	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
 161165	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 161166	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.8 12						
@@ -44,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161168	w	w	w	conj.	and	
 161169	hm	hm(II)	hm (II)	conj./interr. functor	if	
 161169	hm	hm(I)	hm (I)	pers. pn.	they	
-161170	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+161170	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 161170	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 161170	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 3.8 14						
@@ -61,28 +60,37 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161175	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. nom.	witness	
 161176	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg. cstr. gen.	ʿbdỉlt	
 # KTU 3.8 18						
-161177	bn	bn(I)/	bn (I)	n. m. pl. abs. gen.	son	
 161177	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
-161178	m	?	?	?	?	DULAT: NOT FOUND
+161178	m	m	m(h)	pers. pn.	what?	
 # KTU 3.8 19						
 161179	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. nom.	witness	
 161180	ilšlm	ilšlm/	ỉlšlm	PN sg. cstr. gen.	ỉlšlm	
 # KTU 3.8 20						
-161181	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 161181	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161182	prqdš	prqdš/	prqdš	PN sg. cstr. gen.	prqdš	
 # KTU 3.8 21						
 161183	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
-161184	mnḥm	mnḥm/	mnḥm	PN sg. cstr. gen.	mnḥm	
 161184	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr. gen.	delivery	
+161184	mnḥm	mnḫ/+m(I)	mnḫ	n. m. cstr. gen.	calm	
 # KTU 3.8 22						
-161185	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
-161185	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-161186	ḥnn	ḥ/+nn	ḥ	n. m. cstr. gen.	life, ?	
-161186	ḥnn	ḥnn(II)/	ḥnn (II)	PN sg. cstr. gen.	ḥnn (II)	
-161186	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. cstr. gen.	kindness	
+161185	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+161185	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+161185	bn	bn(II)	bn (II)	prep.	between	
+161185	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+161185	bn	bn[	/b-n/	vb G impv. 2	to understand	
+161186	ḥnn	ḥn/+n	ḥn	n. m. cstr. nom.	grace	
+161186	ḥnn	ḥnn(II)/	ḥnn (II)	PN sg. abs. nom.	ḥnn (II)	
+161186	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. abs. nom.	kindness	
 # KTU 3.8 23						
-161187	brqn	brq(I)/+n	brq (I)	n. m. cstr. gen.	ray	
-161187	brqn	brqn/	brqn	PN sg. cstr. gen.	brqn	
-161188	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	tablet / register	
-161188	spr	spr(I)/	spr (I)	n. m. sg. abs. gen.	scribe	
+161187	brqn	brq(I)/+n	brq (I)	n. m. cstr. nom.	ray	
+161188	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+161188	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
+161188	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+161188	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+161188	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
+161188	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+161188	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
+161188	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
+161188	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
+161188	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
+161188	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	

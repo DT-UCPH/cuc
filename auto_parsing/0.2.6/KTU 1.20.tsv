@@ -1,6 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.20 I:1						
 146697	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+146697	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+146698	tdbḥn	!t!dbḥ[n	/d-b-ḥ/	vb G prefc.	to sacrifice	
 146698	tdbḥn	tdbḥn[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 # KTU 1.20 I:2						
 146699	bˤd	bˤd	bʕd	adv. or prep.	behind	
@@ -27,16 +29,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146710	qẓ	qẓ/	qẓ	n. m. sg. abs. nom.	summer	
 # KTU 1.20 I:6						
 146711	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
+146711	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	healer	
+146712	tlḥmn	!t!lḥm(I)[n	/l-ḥ-m/ (I)	vb G prefc.	to eat	
 146712	tlḥmn	tlḥmn[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
 # KTU 1.20 I:7						
 146713	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
+146713	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	healer	
 146714	tštyn	!t!šty[n	/š-t-y/	vb G prefc.	to drink	
 # KTU 1.20 I:8						
 146715		?	?	?	?	
-146716	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 146716	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-146716	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+146716	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 146716	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+146716	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 146717	d	d	d	det. or rel. functor	the one(s) of	
 146718	ˤrgzm	ˤrgz(I)/m	ʕrgz (I)	n. m. pl. abs. nom.	juniper berries (?)	
 # KTU 1.20 I:9						
@@ -58,9 +63,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146726	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 146727	b	b	b	prep.	in	
 146728	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
-146729	hkly	hkl/y	hkl	n. m. sg. abs. gen.	palace	
+146729	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
 146730	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 146731	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+146731	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
 # KTU 1.20 II:2						
 146732	ndd	ndd[	/n-d-d/	vb G suffc. 3 m. sg.	to go	
 146732	ndd	!!ndd[/	/n-d-d/	vb G inf.	to go	
@@ -73,18 +79,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146736	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. gen.	(light war-)chariot	
 # KTU 1.20 II:3						
 146737	asr	(ʔ&asr[	/ʔ-s-r/	vb G suffc. 3 m. sg.	to tie	
-146738	sswm	ssw/m	s:śs/św	n. m. pl. abs. nom.	horse	
+146738	sswm	ssw/m	s:śs/św	n. f. pl. abs. nom.	horse	
+146739	tṣmd	!t!ṣmd[	/ṣ-m-d/	vb G prefc. 3 f. sg.	to harness	
+146739	tṣmd	!t=!ṣmd[	/ṣ-m-d/	vb G prefc. 2 m. sg.	to harness	
+146739	tṣmd	!t==!ṣmd[	/ṣ-m-d/	vb G prefc. 2 f. sg.	to harness	
+146739	tṣmd	!t!ṣmd[	/ṣ-m-d/	vb G prefc. 3 m. du.	to harness	
 146739	tṣmd	!t!ṣmd[:w	/ṣ-m-d/	vb G prefc. 3 m. pl.	to harness	
+146739	tṣmd	!t===!ṣmd[	/ṣ-m-d/	vb G prefc. 2 m. pl.	to harness	
 146740	b	b	b	prep.	in	
 146741	gx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.20 II:4						
 146742	tˤln	!t!ˤl(y[n	/ʕ-l-y/	vb G prefc.	to go up	
 146743	l	l(I)	l (I)	prep.	to	
 146743	l	l(III)	l (III)	functor	certainly	
-146744	mrkbthm	mrkbt/+hm	mrkbt	n. f. pl. cstr. nom.	(light war-)chariot	
+146744	mrkbthm	mrkb(t/t+hm	mrkbt	n. f. sg. cstr. nom.	(light war-)chariot	
 146745	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come	
 # KTU 1.20 II:5						
 146746	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
+146747	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 146747	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 146747	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 146748	w	w	w	conj.	and	
@@ -101,6 +113,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146754	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 146754	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 146755	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
+146755	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
 146756	l	l(I)	l (I)	prep.	to	
 146756	l	l(III)	l (III)	functor	certainly	
 146757	grnt	grn(I)/t=	grn (I)	n. f. pl. cstr. nom.	threshing-floor	
@@ -122,11 +135,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146764	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
 146764	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
 146764	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-146765	rpi	rp(u/&i	rpủ	n. m. pl. cstr. gen.	healer	
-146765	rpi	rp(u/&i	rpủ	n. m. sg. cstr. gen.	healer	
+146765	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
 # KTU 1.20 II:8						
-146766	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. cstr. gen.	to sit down	
-146767	ġzr	ġzr/	ġzr	n. m. sg. cstr. gen.	lad	
+146766	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+146766	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
+146767	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
 146768	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
 146768	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
 146768	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	

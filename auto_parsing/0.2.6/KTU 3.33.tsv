@@ -7,21 +7,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162144	agny	agny(II)/	ảgny (II)	GN sg. abs. gen.	ảgny (II)	
 # KTU 3.33 2						
 162145	d	d	d	det. or rel. functor	the one(s) of	
-162146	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. cstr. nom.	to open	
-162146	ptḥ	ptḥ/	ptḥ	n. m. sg. cstr. nom.	entrance	
-162147	ybnn	ybnn/	ybnn	PN sg. cstr. gen.	ybnn	
+162146	ptḥ	ptḥ[	/p-t-ḥ/	vb G suffc. 3 m. sg.	to open	
+162146	ptḥ	ptḥ[	/p-t-ḥ/	vb G impv. 2	to open	
+162146	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. abs. nom.	to open	
+162146	ptḥ	ptḥ/	ptḥ	n. m. sg. abs. nom.	entrance	
+162147	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
+162147	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to build	
+162147	ybnn	!y!bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
 # KTU 3.33 3						
-162148	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
+162148	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+162148	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 162149	ˤpsh	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.33 4						
 162150	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 162150	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 162151	nḫlh	nḫl(I)/+h	nḫl (I)	n. m. cstr. gen.	torrent	
 # KTU 3.33 5						
+162152	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 162152	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 162152	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 162152	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-162153	ġrh	ġr(I)/+h	ġr (I)	n. m. sg. cstr. nom.	mountain	
+162153	ġrh	ġr(I)/+h	ġr (I)	n. m. cstr. nom.	mountain	
 # KTU 3.33 6						
 162154	w	w	w	conj.	and	
 162155	ˤpśh	?	?	?	?	DULAT: NOT FOUND
@@ -54,10 +60,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162170	hnmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
 # KTU 3.33 13						
 162171	bd	b&d	b	prep.	in	
-162172	ybnn	ybnn/	ybnn	PN sg. cstr. gen.	ybnn	
+162172	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
+162172	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to build	
+162172	ybnn	!y!bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
 # KTU 3.33 14						
-162173	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
-162173	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
+162173	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+162173	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 162174	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
 # KTU 3.33 15						
 162175	w	w	w	conj.	and	
@@ -68,16 +76,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162178	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
 162179	šdh	šd(I)/+h	šd (I)	n. m. cstr. gen.	open field	
 # KTU 3.33 17						
+162180	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 162180	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 162180	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 162180	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 162181	krmh	krm/+h	krm	n. m. cstr. nom.	vineyard	
 162181	krmh	kr&m/+h	kr	n. m. cstr. nom.	ram	
 # KTU 3.33 18						
+162182	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 162182	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 162182	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 162182	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-162183	klklh	klkl/+h	klkl	n. m. sg. cstr. nom.	anybody	
+162183	klklh	klkl/+h	klkl	n. m. cstr. nom.	anybody	
 # KTU 3.33 19						
 162184	w	w	w	conj.	and	
 162185	y	+y, [y	-y (I)	prep. functor	my	
@@ -100,7 +110,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162193	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
 # KTU 3.33 23						
 162194	unṯm	unṯ/m	ủnṯ	n. m. pl. cstr. nom.	obligation	
-162195	bth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
+162195	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
+162195	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 3.33 24						
 162196	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 162196	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	

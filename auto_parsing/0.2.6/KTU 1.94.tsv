@@ -62,11 +62,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151523	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 151523	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.94 25						
-151524	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 151524	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 151525	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
 151526	kb	kb(II)/	kb (II)	n. m. abs. gen.	intestine(s)	
-151526	kb	kb/	kb	PN sg. abs. gen.	kb	
 # KTU 1.94 26						
 151527	ˤsb	ˤsb	ʕsb	?	?	
 151528	xxḥ	?	?	?	?	DULAT: NOT FOUND
@@ -85,7 +83,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 29						
 151535	xẓk	?	?	?	?	DULAT: NOT FOUND
 151536	w	w	w	conj.	and	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
 151537	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
+151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
 151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
 # KTU 1.94 30						
 151538	xk	?	?	?	?	DULAT: NOT FOUND
@@ -110,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151551	xṯ	?	?	?	?	DULAT: NOT FOUND
 151552	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.94 35						
-151553	ṯtm	ṯtm(I)/	ṯn (I)	num. f.	two	
+151553	ṯtm	ṯtm(I)/	ṯn (I)	num.	two	
 151554	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 151554	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 151554	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND

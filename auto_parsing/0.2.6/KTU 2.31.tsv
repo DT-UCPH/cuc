@@ -127,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157324	ḥ	ḥ/	ḥ	n. m. cstr. nom.	life	
 157325	asrm	asr/m	ảsr	n. m. pl. cstr. gen.	prisoner	
 # KTU 2.31 25						
-157326	dbḥn	dbḥ&n/	dbḥ	n. m. sg. abs. gen.	sacrifice	
+157326	dbḥn	dbḥ/+n	dbḥ	n. m. cstr. gen.	sacrifice	
 # KTU 2.31 26						
 157327	rḫ	?	?	?	?	DULAT: NOT FOUND
 157328	w	w	w	conj.	and	
@@ -141,7 +141,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 29						
 157334		?	?	?	?	
 # KTU 2.31 30						
-157335	m	?	?	?	?	DULAT: NOT FOUND
+157335	m	m	m(h)	pers. pn.	what?	
 # KTU 2.31 31						
 157336	q	?	?	?	?	DULAT: NOT FOUND
 157337	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. nom.	(light war-)chariot	
@@ -296,7 +296,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157433	ybn	!y!bn(y[	/b-n-y/	vb G prefc. 3 m. sg.	to build	
 157433	ybn	!y!(]n]bn(y[	/b-n-y/	vb N prefc. 3 m. sg.	to build	
 157433	ybn	!y!bn(y[:pass	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
-157434	rgmy	rgm/y	rgm	n. m. pl. abs. nom.	word	
+157434	rgmy	rgm/+y	rgm	n. m. cstr. nom.	word	
 # KTU 2.31 52						
 157435	xxx	?	?	?	?	
 157436	xxxxxxškb	?	?	?	?	DULAT: NOT FOUND
@@ -402,15 +402,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157508	al	al(II)	ảl (II)	pos. functor	surely	
 157509	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 157510	xxw	?	?	?	?	DULAT: NOT FOUND
-157511	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 157511	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-157511	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+157511	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 157511	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+157511	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 157512	ḥxky	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 64						
 157513	xxx	?	?	?	?	
 157514	xxxxṣlm	?	?	?	?	DULAT: NOT FOUND
-157515	pny	pn(m/+y	pnm	n. m. pl. cstr. nom.	face	
+157515	pny	pnm/	pnm	n. m. abs. nom.	face	
 157516	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
 # KTU 2.31 65						
 157517	xxx	?	?	?	?	
@@ -452,4 +452,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157538	l	l(III)	l (III)	functor	certainly	
 157539	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 157540	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+157540	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
 157541	lh	l(I)+h	l (I)	prep.	to	

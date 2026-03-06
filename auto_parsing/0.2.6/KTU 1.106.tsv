@@ -38,7 +38,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152826	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. gen.	god	
 152826	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 # KTU 1.106 I:9						
-152827	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 152827	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 152828	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 152828	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
@@ -53,7 +52,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152832	š	š/	š	n. m. sg. abs. gen.	ram	
 152833	l	l(I)	l (I)	prep.	to	
 152833	l	l(III)	l (III)	functor	certainly	
-152834	pdr	pdr(I)/	pdr (I)	n. m. pl. cstr. nom.	town	
+152834	pdr	pdr(I)/	pdr (I)	n. m. sg. cstr. nom.	town	
 152834	pdr	pdr(I)/	pdr (I)	n. m. sg. abs. nom.	town	
 152835	y	+y, [y	-y (I)	prep. functor	my	
 152835	y	~y	-y (II)	prep. functor	indeed	
@@ -73,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152843	qdšh	qdš(I)/+h	qdš (I)	adj. m. cstr. nom.	holy	
 152843	qdšh	qdš(II)/+h	qdš (II)	n. m. cstr. nom.	sanctuary	
 # KTU 1.106 I:14						
-152844	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. sg. cstr. nom.	place of sacrifice	
+152844	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. cstr. nom.	place of sacrifice	
 152845	š	š/	š	n. m. sg. abs. nom.	ram	
 152846	ḫmnh	ḫmn(I)/+h	ḫmn (I)	n. m. sg. cstr. nom.	chapel	
 152847	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to finish	
@@ -183,12 +182,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152905	tšˤ	tšˤ/	tšʕ	num.	nine	
 152906	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
 152907	w	w	w	conj.	and	
-152908	alp	alp(I)/	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+152908	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 152908	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 152908	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.106 I:30						
 152909	w	w	w	conj.	and	
-152910	uz	uz/	ủz	n. f. pl. abs. nom.	goose	
+152910	uz	uz/	ủz	n. f. sg. cstr. nom.	goose	
 152910	uz	uz/	ủz	n. f. sg. abs. nom.	goose	
 152911	išm	išm	ỉšm	morph.	catégorie grammaticale et sens inconnus	
 152911	išm	iš+m(I)	ỉš	morph.	Getier/Taube	

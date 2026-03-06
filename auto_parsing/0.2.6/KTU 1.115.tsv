@@ -54,12 +54,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153973	lil	?	?	?	?	DULAT: NOT FOUND
 153974	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 153974	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-153975	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 153975	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. gen.	communion victim / sacrifice	
+153975	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 153975	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 # KTU 1.115 10						
 153976	kll	kll/	kll	n. m. sg. abs. gen.	totality	
-153977	ylḥm	&ylḥm[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
+153977	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to eat	
 153978	bh	b&h	b	prep.	in	
 153978	bh	b+h	b	prep.	in	
 # KTU 1.115 11						
@@ -77,6 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153986	tr	tr(II)/	tr (II)	n. m. sg. abs. nom.	turtledove	
 153987	lqlḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.115 14						
+153988	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 153988	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 153988	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 153989	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	one	

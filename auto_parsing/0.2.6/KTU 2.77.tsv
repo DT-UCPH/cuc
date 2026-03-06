@@ -14,13 +14,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159228	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	a hundred	
 159229	ṯql	ṯql/	ṯql	n. m. sg. cstr. gen.	shekel	
 # KTU 2.77 5						
-159230	tḥmk	tḥm/+k	tḥm	n. m. sg. cstr. gen.	message	
+159230	tḥmk	tḥm/+k	tḥm	n. m. cstr. gen.	message	
 159231	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 6						
 159232	w	w	w	conj.	and	
 159233	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 159233	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-159234	bˤly	bˤl(II)/y	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+159234	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.77 7						
 159235	d	d	d	det. or rel. functor	the one(s) of	
 159236	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -74,7 +74,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159264	ḥd	ḥdy[	/ḥ-d-y/	vb G impv. 2	to see	
 159265	mlx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 19						
-159266	prḫn	prḫ(II)/+n	prḫ (II)	PN sg. cstr. nom.	prḫ (II)	
 159266	prḫn	prḫn/	prḫn	PN sg. abs. nom.	flower-like	
 # KTU 2.77 20						
 159267	xxxx	?	?	?	?	

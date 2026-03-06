@@ -17,8 +17,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.104 4						
 160531	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 160531	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+160532	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 160532	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.104 5						
+160533	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 160533	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.104 6						
 160534	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
@@ -29,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160536	k	k(III)	k (III)	Subordinating or completive functor	when	
 160536	k	k(I)	k (I)	prep.	like	
 160536	k	k(II)	k (II)	emph. functor	yes	
-160537	inn	in&n/	ỉn	n. m. sg. cstr. nom.	lack of	
+160537	inn	in&n/	ỉn	n. m. cstr. nom.	lack of	
 160538	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	grain	
 # KTU 2.104 7						
 160539	xbtk	?	?	?	?	DULAT: NOT FOUND

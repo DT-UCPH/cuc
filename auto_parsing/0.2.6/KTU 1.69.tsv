@@ -72,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149545	bly	ybl[+y	/y-b-l/	vb G prefc.	to carry	
 149545	bly	ybl[+y	/y-b-l/	vb G suffc.	to carry	
 149545	bly	bl(I)+y	bl (I)	adv. /emph. functor	no	
-149545	bly	bly/	bly	PN sg. abs. nom.	bly	
+149545	bly	bl(II)+y	bl (II)	prep.	without	
 # KTU 1.69 12						
 149546	x	?	?	?	?	
 149547	nmq	?	?	?	?	DULAT: NOT FOUND
@@ -82,7 +82,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 13						
 149549	xx	?	?	?	?	
 # KTU 1.69 14						
-149550	ṣk	mḫṣ[+k	/m-ḫ-ṣ/	vb G prefc.	to wound	
+149550	ṣk	!!mḫṣ[/+k	/m-ḫ-ṣ/	vb G inf.	to wound	
+149550	ṣk	mḫṣ[/+k	/m-ḫ-ṣ/	vb G act. ptcpl. m. sg. cstr. nom.	to wound	
 # KTU 1.69 15						
 149551	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 149551	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND

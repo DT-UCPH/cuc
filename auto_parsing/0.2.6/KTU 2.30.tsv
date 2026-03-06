@@ -2,35 +2,39 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.30 1						
 157189	l	l(I)	l (I)	prep.	to	
 157190	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
-157191	umy	um/y	ủm	n. f. sg. cstr. gen.	mother	
+157191	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.30 2						
-157192	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-157192	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
-157193	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+157192	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+157192	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+157192	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157192	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+157192	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+157193	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 # KTU 2.30 3						
-157194	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-157194	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
-157195	bnk	bn(I)/+k	bn (I)	n. m. cstr. gen.	son	
+157194	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+157194	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+157195	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
 # KTU 2.30 4						
 157196	l	l(I)	l (I)	prep.	to	
 157197	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-157198	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
+157198	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.30 5						
 157199	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 157200	ly	l(I)+y	l (I)	prep.	to	
-157201	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+157201	umy	um/+y	ủm	n. f. cstr. nom.	mother	
 # KTU 2.30 6						
 157202	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 157202	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 157203	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 157203	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.30 7						
+157204	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
 157204	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+157205	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
 157205	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
 # KTU 2.30 8						
 157206	hlny	hlny	hlny	deictic adv. functor	behold	
 157207	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
-157207	ˤmny	ˤm(I)&n+y	ʕm (I)	prep.	to	
 157208	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 157208	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
 157208	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
@@ -44,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157209	w	w	w	conj.	and	
 157210	ṯmt	ṯm&t	ṯm	adv.	there	
 157211	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-157212	umy	um/y	ủm	n. f. sg. abs. gen.	mother	
+157212	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.30 10						
 157213	mnm	mnm	mnm	indef. pn.	any(thing)	
 157214	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
@@ -75,12 +79,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157222	b	b	b	prep.	in	
 157223	tyndr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.30 14						
-157224	iṯt	iṯt	ỉṯt	?	?	
+157224	iṯt	iṯ(I)/t	ỉṯ (I)	n. m. sg. abs. nom.	presence	
 157225	w	w	w	conj.	and	
 157226	ht	ht	ht	adv.	here	
 # KTU 2.30 15						
 157227	ysny	ysny/	ysny	PN sg. cstr. nom.	to increase	
-157228	uḏrh	uḏr(I)/+h	ủḏr (I)	n. m. sg. cstr. gen.	express messenger	
+157228	uḏrh	uḏr(I)/+h	ủḏr (I)	n. m. cstr. gen.	express messenger	
 # KTU 2.30 16						
 157229	w	w	w	conj.	and	
 157230	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -113,7 +117,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157243	w	w	w	conj.	and	
 157244	at	at(I)	ảt (I)	pers. pn.	you	
 # KTU 2.30 21						
-157245	umy	um/y	ủm	n. f. sg. abs. nom.	mother	
+157245	umy	um/+y	ủm	n. f. cstr. nom.	mother	
 157246	al	al(I)	ảl (I)	neg. functor	no	
 157246	al	al(II)	ảl (II)	pos. functor	surely	
 157247	tdḥṣ	!t!dḥṣ[	/d-ḥ-ṣ/	vb prefc.	to be worried	
@@ -124,7 +128,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157250	mhkm	mhk&m	mhk(m)	indef. pn.	anything	
 # KTU 2.30 23						
 157251	b	b	b	prep.	in	
-157252	lbk	lb/+k	lb	n. m. sg. cstr. gen.	heart	
+157252	lbk	lb/+k	lb	n. m. cstr. gen.	heart	
 157253	al	al(I)	ảl (I)	neg. functor	no	
 157253	al	al(II)	ảl (II)	pos. functor	surely	
 # KTU 2.30 24						

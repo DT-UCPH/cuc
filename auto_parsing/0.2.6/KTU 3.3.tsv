@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160951	mtn	mt[+n	/m-t/	vb G suffc.	to die	
 160951	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
 160952	bn	b&n	b	prep.	in	
-160952	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+160952	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160952	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 160952	bn	bn(II)	bn (II)	prep.	between	
 160953	ayaḫ	?	?	?	?	DULAT: NOT FOUND
@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160955	ḫbṯh	ḫbṯ[h	/ḫ-b-ṯ/	vb G suffc.	to flee	
 160955	ḫbṯh	!!ḫbṯ[/h	/ḫ-b-ṯ/	vb G inf.	to flee	
 160956	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-160957	ṯth	ṯth(I)/	ṯn (I)	num. f.	two	
+160957	ṯth	ṯth(I)/	ṯn (I)	num.	two	
 # KTU 3.3 5						
 160958	w	w	w	conj.	and	
 160959	mnm	mnm	mnm	indef. pn.	any(thing)	
@@ -42,25 +42,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160967	mtn	mt[n	/m-t/	vb	to die	
 160967	mtn	mt[+n	/m-t/	vb G suffc.	to die	
 160967	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-160968	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+160968	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160968	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 160968	bn	bn(II)	bn (II)	prep.	between	
 160968	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 160968	bn	bn[	/b-n/	vb G impv. 2	to understand	
 160969	ˤbdym	ˤbdym/	ʕbdym	PN sg. abs. nom.	ʿbdym	
-160969	ˤbdym	ˤbdy/+m(I)	ʕbdy	PN sg. cstr. nom.	ʿbdy	
 # KTU 3.3 11						
 160970	ilrb	ilrb/	ỉlrb	PN sg. abs. nom.	ỉlrb	
-160971	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+160971	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160971	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 160971	bn	bn(II)	bn (II)	prep.	between	
 160971	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 160971	bn	bn[	/b-n/	vb G impv. 2	to understand	
 160972	ilyn	il(I)&y/+n	ỉl (I)	n. m. cstr. nom.	god	
-160972	ilyn	ilyn/	ỉlyn	PN sg. abs. nom.	1957.4	
 # KTU 3.3 12						
 160973	ˤbdadt	ˤbdadt/	ʕbdảdt	PN sg. abs. nom.	ʿbdảdt	
-160974	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+160974	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160974	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 160974	bn	bn(II)	bn (II)	prep.	between	
 160974	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	

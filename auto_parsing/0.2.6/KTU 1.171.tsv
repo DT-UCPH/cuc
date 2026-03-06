@@ -1,6 +1,5 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.171 1						
-155759	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
 155759	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 155760	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 155760	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
@@ -9,12 +8,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.171 2						
 155762	š	š/	š	n. m. sg. cstr. gen.	ram	
 155763	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
-155764	alp	alp(I)/	ảlp (I)	n. m. pl. abs. gen.	(head of) cattle	
 155764	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 155765	w	w	w	conj.	and	
 155766	š	š/	š	n. m. sg. cstr. nom.	ram	
-155767	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 155767	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+155767	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 155767	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.171 3						
 155768	w	w	w	conj.	and	

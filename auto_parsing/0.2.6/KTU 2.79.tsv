@@ -10,13 +10,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159292	ˤmt	?	?	?	?	DULAT: NOT FOUND
 159293	w	w	w	conj.	and	
 159294	ištn	ytn[n	/y-t-n/	vb G prefc.	to give	
+159294	ištn	ytn[n	/y-t-n/	vb G suffc.	to give	
 159294	ištn	!(ʔ&i!št(y[n	/š-t-y/	vb G prefc. 1 c. sg.	to drink	
+159294	ištn	ištn[	/š-t-y/	vb G suffc. 3 m. sg.	to drink	
 159295	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.79 4						
 159296	xk	?	?	?	?	DULAT: NOT FOUND
 159297	w	w	w	conj.	and	
 159298	al	al(I)	ảl (I)	neg. functor	no	
 159298	al	al(II)	ảl (II)	pos. functor	surely	
+159299	tšiḫrhm	]š]ʔḫr[ḫrhm	/ʔ-ḫ-r/	vb Š prefc.	generic mng to go behind > D to retain (?)	
 159299	tšiḫrhm	]š]ʔḫr[ḫrhm	/ʔ-ḫ-r/	vb Š suffc.	generic mng to go behind > D to retain (?)	
 # KTU 2.79 5						
 159300	xnt	?	?	?	?	DULAT: NOT FOUND
@@ -33,16 +36,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159307	xxxxx	?	?	?	?	
 159308		?	?	?	?	
 # KTU 2.79 10						
-159309	sp	sp/	sp	n. m. pl. cstr. nom.	bowl	
-159309	sp	sp/	sp	n. m. sg. abs. nom.	bowl	
-159310	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl. abs. nom.	handsome	
-159311	mlbš	mlbš/	mlbš	n. m. sg. cstr. nom.	cloak	
+159309	sp	sp/	sp	n. m. sg. cstr. nom.	bowl	
+159310	nˤmm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
+159311	mlbš	mlbš/	mlbš	n. m. sg. cstr. gen.	cloak	
 159312	š	š/	š	n. m. sg. cstr. gen.	ram	
-159313	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. gen.	shirt-like tunic	
-159314	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl. abs. nom.	handsome	
+159313	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
+159314	nˤmm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	
 # KTU 2.79 11						
 159315	ṣpy	!!ṣpy[/	/ṣ-p-y/	vb G inf.	to plate	
 159316	b	b	b	prep.	in	
-159317	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
-159318	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl. abs. nom.	handsome	
-159319	nˤmm	nˤm(I)/	nʕm (I)	adj. m. pl. abs. nom.	handsome	
+159317	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. gen.	gold	
+159318	nˤmm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
+159319	nˤmm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	

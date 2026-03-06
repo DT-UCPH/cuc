@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.124 2						
 154377	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 154377	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-154378	rbm	rb(I)/m	rb (I)	adj. m. pl. abs. nom.	great	
+154378	rbm	rb(I)/m	rb (I)	adj. f. pl. abs. nom.	great	
 154379	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 154380	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.124 3						
@@ -22,8 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.124 4						
 154385	w	w	w	conj.	and	
 154386	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-154387	nn	grš[	/g-r-š/	vb	to eject	
-154387	nn	gr[	/g-r(-y)/	vb	to attack	
+154387	nn	nn/	nn	PN sg. abs. nom.	nn	
 154388	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
 # KTU 1.124 5						
 154389	tˤny	!t!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
@@ -95,8 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.124 13						
 154423	w	w	w	conj.	and	
 154424	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-154425	nn	grš[	/g-r-š/	vb	to eject	
-154425	nn	gr[	/g-r(-y)/	vb	to attack	
+154425	nn	nn/	nn	PN sg. abs. nom.	nn	
 # KTU 1.124 14						
 154426	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
 154427	btn	btn(I)/	btn (I)	n. m. sg. abs. nom.	inside of the house	
