@@ -1,5 +1,15 @@
 ## 2026-03-07
 
+- Tightened `spacy_ugaritic/components/l_context.py` so non-verbal `l` tokens now prefer the preposition reading `l(I)` by default instead of carrying a stray `l(III)` "certainly" variant unless a forced reference, compound rule, or verb-following context keeps another homonym alive.
+- Added focused regression coverage in:
+  - `tests/test_spacy_l_context.py`
+  - `tests/test_spacy_l_context_step.py`
+- Verified with targeted and full reruns that the change improves reviewed morphology agreement without introducing new lint issues:
+  - exact-set accuracy `0.5261 -> 0.5430`
+  - macro F1 `0.6370 -> 0.6418`
+  - micro F1 `0.5982 -> 0.6007`
+  - lint severity totals unchanged on the refreshed corpus output
+
 - Added `scripts/regenerate_tablets_and_reports.py` as a single entrypoint for the full refresh loop:
   - regenerates parsed tablets,
   - reruns lint report generation,

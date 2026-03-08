@@ -51,3 +51,22 @@ class SpacyLContextDisambiguatorTest(unittest.TestCase):
             lines = path.read_text(encoding="utf-8").splitlines()
             self.assertIn("1\tl\tl(I)\tl (I)\tprep.\tto\tfrom l", lines)
             self.assertIn("2\tkbd\tkbd(I)/\tkbd (I)\tn.\twithin\tfrom noun", lines)
+
+    def test_prefers_l_i_before_non_verbal_token(self) -> None:
+        content = (
+            "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+            "# KTU 1.5 II:2\n"
+            "1\tl\tl(I)\tl (I)\tprep.\tto\tkeep me\n"
+            "1\tl\tl(II)\tl (II)\tadv.\tno\tdrop me\n"
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\tdrop me too\n"
+            "2\tšmm\tšm(m(I)/m\tšmm (I)\tn. m. pl.\theavens\t\n"
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = self.step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 2)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(lines[2], "1\tl\tl(I)\tl (I)\tprep.\tto\tkeep me")

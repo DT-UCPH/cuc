@@ -32,7 +32,7 @@ class SpacyLContextTest(unittest.TestCase):
         )
         self.assertEqual([token.text for token in doc], ["l", "kbd"])
 
-    def test_prunes_l_ii_when_next_token_is_not_verbal(self) -> None:
+    def test_prefers_l_i_when_next_token_is_not_verbal(self) -> None:
         doc = self._doc_from_lines(
             "# KTU 9.9 1\t\t\t\t\t\t",
             "1\tl\tl(I)\tl (I)\tprep.\tto\t",
@@ -40,7 +40,7 @@ class SpacyLContextTest(unittest.TestCase):
             "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
             "2\tbt\tb(t(I)/t\tbt (I)\tn. f. sg.\tdaughter\t",
         )
-        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)", "l(III)"])
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
 
     def test_keeps_l_ii_when_next_token_is_verbal(self) -> None:
         doc = self._doc_from_lines(

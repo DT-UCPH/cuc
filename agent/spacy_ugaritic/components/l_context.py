@@ -135,6 +135,9 @@ class LContextResolver:
                 continue
             if next_has_verb:
                 continue
+            if any(_is_l_candidate(candidate, "I") for candidate in token._.resolved_candidates):
+                self._replace(token, _keep_single_l(token, "I"), "prefer-l-i-no-verb", doc)
+                continue
             filtered = tuple(
                 candidate
                 for candidate in token._.resolved_candidates
