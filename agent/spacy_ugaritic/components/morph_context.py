@@ -12,6 +12,7 @@ from spacy_ugaritic.types import Candidate
 
 _CASE_RE = re.compile(r"(?<!\w)(nom\.|gen\.|acc\.|acc\.\?)(?!\w)")
 _NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
+_EPISTOLARY_RGM_OPENING_HINTS = frozenset({"tḥm", "yšlm", "ilm"})
 
 
 @dataclass(frozen=True)
@@ -31,6 +32,7 @@ class MorphContextResolver:
             token._.resolved_candidates = token._.candidates
 
         self._apply_journey_formula_rules(doc)
+        self._apply_epistolary_rgm_rules(doc)
         for index, token in enumerate(doc):
             if not _has_multiple_verbal_png(token):
                 continue
@@ -214,6 +216,32 @@ class MorphContextResolver:
         if rewritten:
             self._maybe_replace(token, rewritten, "journey-formula-pnm-object")
 
+    def _apply_epistolary_rgm_rules(self, doc: Doc) -> None:
+        if not _looks_like_epistolary_doc(doc):
+            return
+        rgm_indices = [
+            index
+            for index, token in enumerate(doc)
+            if token._.surface.strip() == "rgm" and _has_rgm_candidates(token)
+        ]
+        if not rgm_indices:
+            return
+
+        opening_index = rgm_indices[0]
+        if _is_opening_epistolary_rgm(doc, opening_index):
+            opening_token = doc[opening_index]
+            self._maybe_replace(
+                opening_token,
+                (_prefer_or_build_rgm_infinitive(opening_token),),
+                "epistolary-rgm-opening",
+            )
+
+        for index in rgm_indices[1:]:
+            token = doc[index]
+            noun = _prefer_rgm_noun(token)
+            if noun is not None:
+                self._maybe_replace(token, (noun,), "epistolary-rgm-noun")
+
 
 def _has_multiple_verbal_png(token: Token) -> bool:
     candidates = tuple(token._.resolved_candidates)
@@ -355,6 +383,58 @@ def _rewrite_journey_formula_pnm(candidate: Candidate) -> Candidate:
         gloss=candidate.gloss,
         comment=candidate.comment,
     )
+
+
+def _looks_like_epistolary_doc(doc: Doc) -> bool:
+    source_name = (doc._.source_name or "").strip()
+    if not source_name.startswith("KTU 2."):
+        return False
+    surfaces = {token._.surface.strip() for token in doc}
+    return "rgm" in surfaces and bool(surfaces & _EPISTOLARY_RGM_OPENING_HINTS)
+
+
+def _is_opening_epistolary_rgm(doc: Doc, index: int) -> bool:
+    if index < 0 or index >= len(doc) or doc[index]._.surface.strip() != "rgm":
+        return False
+    for lookahead in range(1, 4):
+        probe = index + lookahead
+        if probe >= len(doc):
+            break
+        if doc[probe]._.surface.strip() in _EPISTOLARY_RGM_OPENING_HINTS:
+            return True
+    return False
+
+
+def _has_rgm_candidates(token: Token) -> bool:
+    return any(
+        candidate.dulat.strip() in {"/r-g-m/", "rgm"} for candidate in token._.resolved_candidates
+    )
+
+
+def _prefer_or_build_rgm_infinitive(token: Token) -> Candidate:
+    for candidate in token._.resolved_candidates:
+        if _is_rgm_infinitive(candidate):
+            return candidate
+    comment = next(
+        (candidate.comment for candidate in token._.resolved_candidates if candidate.comment),
+        "",
+    )
+    return Candidate("!!rgm[/", "/r-g-m/", "vb G inf.", "to say", comment=comment)
+
+
+def _prefer_rgm_noun(token: Token) -> Candidate | None:
+    for candidate in token._.resolved_candidates:
+        if _is_rgm_noun(candidate):
+            return candidate
+    return None
+
+
+def _is_rgm_infinitive(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "!!rgm[/" and candidate.dulat.strip() == "/r-g-m/"
+
+
+def _is_rgm_noun(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "rgm/" and candidate.dulat.strip() == "rgm"
 
 
 def _is_function_like(candidate: Candidate) -> bool:

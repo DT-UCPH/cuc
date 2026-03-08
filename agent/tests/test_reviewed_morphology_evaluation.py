@@ -37,6 +37,41 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
         self.assertEqual(token.surface, "yṯb")
         self.assertEqual(token.analyses, frozenset({"yṯb[", "!y!(yṯb["}))
 
+    def test_strips_inline_review_notes_from_analysis_column(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "reviewed.txt"
+            path.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "1\tlak\t!!l(ʔ&ak[ # imperative reading\t\t\t\t\n",
+                encoding="utf-8",
+            )
+
+            dataset = MorphologyTsvLoader().load(path)
+
+        token = dataset.tokens_by_id["1"]
+        self.assertEqual(token.analyses, frozenset({"!!l(ʔ&ak[/"}))
+
+    def test_normalizes_legacy_reviewed_analysis_notation(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "reviewed.txt"
+            path.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "1\tl\tl\t\t\t\t\n"
+                "2\tlk\tl+k\t\t\t\t\n"
+                "3\taḫy\taḫ/(I)+y\t\t\t\t\n"
+                "4\trgm\t!!rgm[\t\t\t\t\n"
+                "5\tˤmy\tʿm(I)+y\t\t\t\t\n",
+                encoding="utf-8",
+            )
+
+            dataset = MorphologyTsvLoader().load(path)
+
+        self.assertEqual(dataset.tokens_by_id["1"].analyses, frozenset({"l(I)"}))
+        self.assertEqual(dataset.tokens_by_id["2"].analyses, frozenset({"l(I)+k"}))
+        self.assertEqual(dataset.tokens_by_id["3"].analyses, frozenset({"aḫ(I)/+y"}))
+        self.assertEqual(dataset.tokens_by_id["4"].analyses, frozenset({"!!rgm[/"}))
+        self.assertEqual(dataset.tokens_by_id["5"].analyses, frozenset({"ˤm(I)+y"}))
+
 
 class EvaluationTargetResolverTest(unittest.TestCase):
     def test_matches_reviewed_and_auto_files_by_basename(self) -> None:

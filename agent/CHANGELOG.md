@@ -1,3 +1,31 @@
+## 2026-03-09
+
+- Normalized legacy reviewed-analysis notation so the expanded `reviewed/` set scores against current CUC morphology conventions instead of old notation quirks.
+- Added `reviewed_normalization.py` and threaded it through:
+  - `reviewed_migration/migrator.py`
+  - `reviewed_evaluation/loader.py`
+- The normalization currently handles the high-confidence legacy patterns found in the new reviewed tablets:
+  - `/(I)`-style homonym markers are reordered to current `(...)/` notation,
+  - legacy infinitives like `!!rgm[` are normalized to `!!rgm[/`,
+  - legacy `ʿ` analysis letters are normalized to current `ˤ`,
+  - bare default-preposition forms `l` / `l+suffix` are normalized to `l(I)` / `l(I)+suffix`.
+- Added focused regression coverage in:
+  - `tests/test_reviewed_morphology_evaluation.py`
+  - `tests/test_reviewed_tablet_migrator.py`
+- Verified with targeted tests and a rescoring pass on the expanded local reviewed set that the normalized notation materially improves evaluation fidelity:
+  - exact-set accuracy `0.4741 -> 0.5102`
+  - macro F1 `0.5283 -> 0.5693`
+  - micro F1 `0.4903 -> 0.5290`
+  - gold coverage `0.5503 -> 0.5961`
+- Tightened `spacy_ugaritic/components/morph_context.py` so epistolary `rgm` in KTU 2.* letters collapses to the infinitive opening formula when it introduces the greeting and to the noun `rgm/` in later message-content positions.
+- Added focused regression coverage in `tests/test_spacy_morph_context.py`.
+- Verified with a full regeneration, lint refresh, and rescoring pass that the new `rgm` rule improves agreement on the expanded reviewed set without introducing lint-severity regressions:
+  - exact-set accuracy `0.5102 -> 0.5149`
+  - macro F1 `0.5693 -> 0.5721`
+  - micro F1 `0.5290 -> 0.5322`
+  - gold coverage `0.5961 -> 0.5969`
+  - lint severity totals unchanged on the refreshed corpus output
+
 ## 2026-03-07
 
 - Tightened `spacy_ugaritic/components/lexical_context.py` so `bt` no longer carries an extra `bt(II)/` "house" reading next to `b(t(I)/t` "daughter" by default.

@@ -178,6 +178,72 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             )
             self.assertNotIn("\thkm/\thkm\tn. m.\twise one\tlegacy", output)
 
+    def test_moves_inline_analysis_notes_to_comment_column(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            reviewed = root / "reviewed.tsv"
+            raw = root / "raw.tsv"
+            auto = root / "auto.tsv"
+            reviewed.write_text(
+                "1\tlak\t!!l(ʔ&ak[ # imperative reading\n",
+                encoding="utf-8",
+            )
+            raw.write_text(
+                "#---------------------------- KTU 2.10 10\n156573\tlak\tlak\n",
+                encoding="utf-8",
+            )
+            auto.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 2.10 10\t\t\t\t\t\t\n"
+                "156573\tlak\t!!l(ʔ&ak[\t/l-ʔ-k/\tvb\tto send\t\n",
+                encoding="utf-8",
+            )
+
+            migrator = ReviewedTabletMigrator()
+            output = migrator.migrate(reviewed, raw, auto)
+
+            self.assertIn(
+                "156573\tlak\t!!l(ʔ&ak[/\t\t\t\timperative reading",
+                output,
+            )
+            self.assertNotIn("!!l(ʔ&ak[ # imperative reading", output)
+
+    def test_normalizes_legacy_analysis_notation_during_migration(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            reviewed = root / "reviewed.tsv"
+            raw = root / "raw.tsv"
+            auto = root / "auto.tsv"
+            reviewed.write_text(
+                "1\tl\tl\n2\tlk\tl+k\n3\taḫy\taḫ/(I)+y\n4\trgm\t!!rgm[\n",
+                encoding="utf-8",
+            )
+            raw.write_text(
+                "#---------------------------- KTU 2.38 1\n"
+                "10\tl\tl\n"
+                "11\tlk\tlk\n"
+                "12\taḫy\taḫy\n"
+                "13\trgm\trgm\n",
+                encoding="utf-8",
+            )
+            auto.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 2.38 1\t\t\t\t\t\t\n"
+                "10\tl\tl(I)\tl (I)\tprep.\tto\t\n"
+                "11\tlk\tl(I)+k\tl (I)\tprep.\tto\t\n"
+                "12\taḫy\taḫ(I)/+y\tảḫ (I)\tn. m.\tbrother\t\n"
+                "13\trgm\t!!rgm[/\t/r-g-m/\tvb G inf.\tto say\t\n",
+                encoding="utf-8",
+            )
+
+            migrator = ReviewedTabletMigrator()
+            output = migrator.migrate(reviewed, raw, auto)
+
+            self.assertIn("10\tl\tl(I)\t", output)
+            self.assertIn("11\tlk\tl(I)+k\t", output)
+            self.assertIn("12\taḫy\taḫ(I)/+y\t", output)
+            self.assertIn("13\trgm\t!!rgm[/\t", output)
+
 
 if __name__ == "__main__":
     unittest.main()

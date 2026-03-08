@@ -204,6 +204,58 @@ class SpacyMorphContextTest(unittest.TestCase):
             ],
         )
 
+    def test_epistolary_rgm_opening_builds_infinitive_from_letter_formula(self) -> None:
+        doc = self._doc_from_lines(
+            "1\ttḥm\ttḥm/\ttḥm\tn. m. sg. cstr. nom.\tmessage\t",
+            "2\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "2\tplsy\tplsy/\tplsy\tPN sg. cstr. gen.\tplsy\t",
+            "3\trgm\trgm[/\t/r-g-m/\tvb G pass. ptcpl. m. sg. abs. gen.\tto say\t",
+            "3\trgm\trgm/\trgm\tn. m. sg. abs. gen.\tword\t",
+            "4\tyšlm\t!y!šlm[\t/š-l-m/\tvb G prefc. 3 m. sg.\tto be well\t",
+            "4\tyšlm\t!y!šlm[:d\t/š-l-m/\tvb D prefc. 3 m. sg.\tto be well\t",
+            source_name="KTU 2.10.tsv",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[3]._.resolved_candidates],
+            ["!!rgm[/"],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[3]._.resolved_candidates],
+            ["vb G inf."],
+        )
+
+    def test_epistolary_rgm_later_prefers_noun(self) -> None:
+        doc = self._doc_from_lines(
+            "1\ttḥm\ttḥm/\ttḥm\tn. m. sg. abs. nom.\tmessage\t",
+            "2\trgm\t!!rgm[/\t/r-g-m/\tvb G inf.\tto say\t",
+            "2\trgm\trgm/\trgm\tn. m. sg. abs. nom.\tword\t",
+            "3\tyšlm\t!y!šlm[\t/š-l-m/\tvb G prefc. 3 m. sg.\tto be well\t",
+            "4\tmnm\tmnm\tmnm\tindef. pn.\tany(thing)\t",
+            "5\trgm\trgm[/\t/r-g-m/\tvb G pass. ptcpl. m. sg. abs. gen.\tto say\t",
+            "5\trgm\trgm/\trgm\tn. m. sg. abs. gen.\tword\t",
+            source_name="KTU 2.38.tsv",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[4]._.resolved_candidates],
+            ["rgm/"],
+        )
+        self.assertEqual(
+            [candidate.dulat for candidate in doc[4]._.resolved_candidates],
+            ["rgm"],
+        )
+
+    def test_non_epistolary_rgm_is_unchanged(self) -> None:
+        doc = self._doc_from_lines(
+            "1\trgm\trgm[/\t/r-g-m/\tvb G pass. ptcpl. m. sg. abs. nom.\tto say\t",
+            "1\trgm\trgm/\trgm\tn. m. sg. abs. nom.\tword\t",
+            "2\tmlk\tmlk(II)/\tmlk (II)\tn. m. sg. abs. nom.\tkingdom (power and territory)\t",
+            source_name="KTU 1.3.tsv",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["rgm[/", "rgm/"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

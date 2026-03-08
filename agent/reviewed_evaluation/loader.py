@@ -5,6 +5,8 @@ from __future__ import annotations
 from collections import defaultdict
 from pathlib import Path
 
+from reviewed_normalization import normalize_reviewed_analysis
+
 from .models import EvaluationPair, MorphologyDataset, MorphologyToken
 
 
@@ -27,7 +29,9 @@ class MorphologyTsvLoader:
 
             parts = self._normalize_parts(line)
 
-            token_id, surface, analysis = parts[0].strip(), parts[1].strip(), parts[2].strip()
+            token_id = parts[0].strip()
+            surface = parts[1].strip()
+            analysis = normalize_reviewed_analysis(parts[2])
             if not token_id:
                 continue
             self._validate_group_identity(
@@ -79,6 +83,7 @@ class MorphologyTsvLoader:
                 parts[4],
                 parts[5] if len(parts) > 5 else "",
             ]
+        parts = _split_inline_analysis_comment(parts)
         return parts
 
     @staticmethod
@@ -201,3 +206,18 @@ def _looks_like_collapsed_surface_analysis(parts: list[str]) -> bool:
 
 def _token_sort_key(token_id: str) -> tuple[int, object]:
     return (0, int(token_id)) if token_id.isdigit() else (1, token_id)
+
+
+def _split_inline_analysis_comment(parts: list[str]) -> list[str]:
+    analysis = parts[2]
+    if " # " not in analysis:
+        return parts
+    stripped_analysis, inline_comment = analysis.split(" # ", 1)
+    stripped_analysis = stripped_analysis.rstrip()
+    inline_comment = inline_comment.strip()
+    if not inline_comment:
+        parts[2] = stripped_analysis
+        return parts
+    parts[2] = stripped_analysis
+    parts[6] = inline_comment if not parts[6] else f"{inline_comment} | {parts[6]}"
+    return parts

@@ -6,6 +6,8 @@ from dataclasses import dataclass
 from difflib import SequenceMatcher
 from pathlib import Path
 
+from reviewed_normalization import normalize_reviewed_analysis
+
 
 @dataclass(frozen=True)
 class TokenRow:
@@ -339,6 +341,7 @@ class ReviewedTabletMigrator:
                 parts += [""] * (7 - len(parts))
             elif len(parts) > 7:
                 parts = parts[:6] + ["\t".join(parts[6:])]
+            parts = ReviewedTabletMigrator._split_inline_analysis_comment(parts)
             token_id, surface = parts[0], parts[1]
             key = (token_id, surface, ref)
             if current_key is not None and key != current_key:
@@ -358,7 +361,7 @@ class ReviewedTabletMigrator:
                     token_id=token_id,
                     surface=surface,
                     ref=ref,
-                    analysis=parts[2],
+                    analysis=normalize_reviewed_analysis(parts[2]),
                     dulat=parts[3],
                     pos=parts[4],
                     gloss=parts[5],
@@ -375,6 +378,21 @@ class ReviewedTabletMigrator:
             )
 
         return groups
+
+    @staticmethod
+    def _split_inline_analysis_comment(parts: list[str]) -> list[str]:
+        analysis = parts[2]
+        if " # " not in analysis:
+            return parts
+        stripped_analysis, inline_comment = analysis.split(" # ", 1)
+        stripped_analysis = stripped_analysis.rstrip()
+        inline_comment = inline_comment.strip()
+        if not inline_comment:
+            parts[2] = stripped_analysis
+            return parts
+        parts[2] = stripped_analysis
+        parts[6] = inline_comment if not parts[6] else f"{inline_comment} | {parts[6]}"
+        return parts
 
     @staticmethod
     def _parse_raw_groups(path: Path) -> list[TokenGroup]:
