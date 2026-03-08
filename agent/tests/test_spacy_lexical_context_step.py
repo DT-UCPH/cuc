@@ -4,6 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from pipeline.dulat_attestation_index import DulatAttestationIndex, normalize_reference_label
 from pipeline.steps.spacy_lexical_context import (
     SpacyBaalContextDisambiguator,
     SpacyYdkContextDisambiguator,
@@ -61,6 +62,52 @@ class SpacyBaalContextDisambiguatorTest(unittest.TestCase):
                 lines[1], "2\tbˤl\tbˤl(II)/\tbʕl (II)\tDN m. sg. abs. nom.\tBaʿlu/Baal\t"
             )
             self.assertEqual(len([line for line in lines if line.startswith("2\tbˤl\t")]), 1)
+
+    def test_prunes_unattested_baal_verbal_variant(self) -> None:
+        content = "\n".join(
+            [
+                "# KTU 1.5 I:10",
+                "1\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. sg. cstr. gen.\tBaʿlu/Baal\t",
+                "1\tbˤl\tbˤl[/\t/b-ʕ-l/\tvb G act. ptcpl. m. sg. cstr. gen.\tto make\t",
+                "",
+            ]
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = self.step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 1)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(
+                lines[1],
+                "1\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. sg. cstr. gen.\tBaʿlu/Baal\t",
+            )
+            self.assertEqual(len([line for line in lines if line.startswith("1\tbˤl\t")]), 1)
+
+    def test_keeps_attested_baal_verbal_variant(self) -> None:
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={("/b-ʕ-l/", ""): {normalize_reference_label("CAT 1.17 VI:24")}},
+        )
+        step = SpacyBaalContextDisambiguator(attestation_index=attestation_index)
+        content = "\n".join(
+            [
+                "# KTU 1.17 VI:24",
+                "1\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. sg. abs. nom.\tBaʿlu/Baal\t",
+                "1\tbˤl\tbˤl[/\t/b-ʕ-l/\tvb G act. ptcpl. m. sg. abs. nom.\tto make\t",
+                "",
+            ]
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 0)
 
     def test_collapses_thr_il_sequence_to_bull_and_el(self) -> None:
         content = "\n".join(

@@ -2,6 +2,7 @@
 
 import unittest
 
+from pipeline.dulat_attestation_index import DulatAttestationIndex, normalize_reference_label
 from spacy_ugaritic.doc_builder import build_doc, parse_grouped_tokens
 from spacy_ugaritic.language import (
     create_ugaritic_baal_context_nlp,
@@ -13,9 +14,15 @@ class SpacyBaalContextTest(unittest.TestCase):
     def setUp(self) -> None:
         self.nlp = create_ugaritic_baal_context_nlp()
 
-    def _doc_from_lines(self, *lines: str, source_name: str = "KTU 1.3.tsv"):
+    def _doc_from_lines(
+        self,
+        *lines: str,
+        source_name: str = "KTU 1.3.tsv",
+        attestation_index: DulatAttestationIndex | None = None,
+    ):
         tokens = parse_grouped_tokens(lines)
         doc = build_doc(self.nlp, tokens, source_name=source_name)
+        doc.user_data["attestation_index"] = attestation_index or DulatAttestationIndex.empty()
         return self.nlp(doc)
 
     def test_prunes_baal_labourer_and_normalizes_verbal_variant_outside_ktu4(self) -> None:
@@ -50,6 +57,34 @@ class SpacyBaalContextTest(unittest.TestCase):
         self.assertEqual(
             [candidate.pos for candidate in doc[1]._.resolved_candidates],
             ["DN m. sg. abs. nom."],
+        )
+
+    def test_prunes_unattested_baal_verbal_when_nominal_variant_exists(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 1.5 I:10\t\t\t\t\t\t",
+            "1\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. sg. cstr. gen.\tBaʿlu/Baal\t",
+            "1\tbˤl\tbˤl[/\t/b-ʕ-l/\tvb G act. ptcpl. m. sg. cstr. gen.\tto make\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["bˤl(II)/"],
+        )
+
+    def test_keeps_directly_attested_baal_verbal_variant(self) -> None:
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={("/b-ʕ-l/", ""): {normalize_reference_label("CAT 1.17 VI:24")}},
+        )
+        doc = self._doc_from_lines(
+            "# KTU 1.17 VI:24\t\t\t\t\t\t",
+            "1\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. sg. abs. nom.\tBaʿlu/Baal\t",
+            "1\tbˤl\tbˤl[/\t/b-ʕ-l/\tvb G act. ptcpl. m. sg. abs. nom.\tto make\t",
+            attestation_index=attestation_index,
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["bˤl(II)/", "bˤl[/"],
         )
 
     def test_collapses_thr_il_sequence_to_bull_and_el(self) -> None:

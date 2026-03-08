@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from pipeline.dulat_attestation_index import DulatAttestationIndex
 from pipeline.steps.base import RefinementStep, StepResult
 from spacy_ugaritic.doc_builder import build_doc, parse_grouped_tokens
 from spacy_ugaritic.language import (
@@ -21,8 +22,9 @@ class _BaseSpacyLexicalContextDisambiguator(RefinementStep):
 class SpacyBaalContextDisambiguator(_BaseSpacyLexicalContextDisambiguator):
     """Apply bʕl lexical-context disambiguation at the historical pre-l stage."""
 
-    def __init__(self) -> None:
+    def __init__(self, attestation_index: DulatAttestationIndex | None = None) -> None:
         self._nlp = create_ugaritic_baal_context_nlp()
+        self._attestation_index = attestation_index or DulatAttestationIndex.empty()
 
     @property
     def name(self) -> str:
@@ -36,6 +38,7 @@ class SpacyBaalContextDisambiguator(_BaseSpacyLexicalContextDisambiguator):
             return StepResult(file=path.name, rows_processed=rows_processed, rows_changed=0)
 
         doc = build_doc(self._nlp, tokens, source_name=path.name)
+        doc.user_data["attestation_index"] = self._attestation_index
         resolved_doc = self._nlp(doc)
         out_lines, rows_changed = render_resolved_lines(lines, tokens, resolved_doc)
         if rows_changed:

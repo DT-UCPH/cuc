@@ -1,5 +1,19 @@
 ## 2026-03-07
 
+- Tightened `spacy_ugaritic/components/lexical_context.py` so `bˤl` no longer keeps an unattested verbal `/b-ʕ-l/` candidate beside the nominal `bʕl (II)` reading when the current tablet reference has no direct DULAT attestation for the verb.
+- Threaded the DULAT attestation index through the spaCy lexical-context step in:
+  - `pipeline/steps/spacy_lexical_context.py`
+  - `pipeline/lexical_context_step_factory.py`
+  - `pipeline/tablet_parsing.py`
+- Added focused regression coverage in:
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_spacy_lexical_context_step.py`
+- Verified with targeted and full reruns that the change removes the noisy `bˤl[/` overgeneration in reviewed contexts without lint-severity regression:
+  - exact-set accuracy `0.5548 -> 0.5629`
+  - macro F1 `0.6457 -> 0.6484`
+  - micro F1 `0.6037 -> 0.6059`
+  - lint severity totals unchanged on the refreshed corpus output
+
 - Tightened `pipeline/steps/dulat_enclitic_m.py` so noun/adjective/number rows no longer synthesize an extra `~m` enclitic variant when DULAT only gives a generic `suff.` note and the same exact surface is already attested as a plain plural/dual nominal form.
 - This removes broad false overgeneration for forms like `ilm` while still preserving explicit `~m` rows and note-backed cases with more specific morphology such as `sg., suff.`.
 - Added focused regression coverage in `tests/test_dulat_enclitic_m.py`.

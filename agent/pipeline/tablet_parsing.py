@@ -139,7 +139,9 @@ class TabletParsingPipeline:
                 udb_db=self.config.udb_db,
             ),
         ]
-        self._baal_context_steps: List[RefinementStep] = build_spacy_baal_context_steps()
+        self._baal_context_steps: List[RefinementStep] = build_spacy_baal_context_steps(
+            attestation_index=self.attestation_index
+        )
         self._post_baal_context_steps: List[RefinementStep] = []
         self._pre_l_context_steps: List[RefinementStep] = []
         self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps()

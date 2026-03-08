@@ -8,6 +8,7 @@ from typing import Iterable
 from spacy.language import Language
 from spacy.tokens import Doc, Token
 
+from pipeline.dulat_attestation_index import DulatAttestationIndex
 from spacy_ugaritic.types import Candidate
 
 _BAAL_VERBAL_DULAT = "/b-ʕ-l/"
@@ -50,6 +51,14 @@ def _is_baal_labourer(candidate: Candidate) -> bool:
         and "n. m." in candidate.pos
         and candidate.gloss.strip().lower() == "labourer"
     )
+
+
+def _is_baal_nominal(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "bˤl(II)/" and candidate.dulat.strip() == "bʕl (II)"
+
+
+def _is_baal_verbal(candidate: Candidate) -> bool:
+    return candidate.dulat.strip() == _BAAL_VERBAL_DULAT
 
 
 def _normalize_baal_verbal(candidate: Candidate) -> Candidate:
@@ -178,6 +187,9 @@ class LexicalContextResolver:
 
     def _apply_baal_rules(self, doc: Doc) -> None:
         allow_labourer = _is_ktu4(doc)
+        attestation_index = doc.user_data.get("attestation_index")
+        if not isinstance(attestation_index, DulatAttestationIndex):
+            attestation_index = DulatAttestationIndex.empty()
         for index, token in enumerate(doc):
             candidates = tuple(token._.resolved_candidates)
             if token._.surface == "ṯr" and _is_thr_il_context(doc, index):
@@ -222,6 +234,11 @@ class LexicalContextResolver:
                 if not allow_labourer:
                     normalized = tuple(
                         candidate for candidate in normalized if not _is_baal_labourer(candidate)
+                    )
+                    normalized = _prune_unattested_baal_verbal(
+                        normalized,
+                        section_ref=token._.section_ref,
+                        attestation_index=attestation_index,
                     )
                 self._maybe_replace(token, normalized, "baal-lexical")
                 continue
@@ -304,3 +321,20 @@ def _is_el_in_thr_il_context(doc: Doc, index: int) -> bool:
     if index <= 0 or doc[index]._.surface != "il":
         return False
     return _is_thr_il_context(doc, index - 1)
+
+
+def _prune_unattested_baal_verbal(
+    candidates: tuple[Candidate, ...],
+    *,
+    section_ref: str,
+    attestation_index: DulatAttestationIndex,
+) -> tuple[Candidate, ...]:
+    """Drop `/b-ʕ-l/` when `bʕl (II)` is present and the verb lacks direct attestation."""
+    has_nominal = any(_is_baal_nominal(candidate) for candidate in candidates)
+    has_verbal = any(_is_baal_verbal(candidate) for candidate in candidates)
+    if not has_nominal or not has_verbal:
+        return candidates
+    if attestation_index.has_reference_for_variant_token(_BAAL_VERBAL_DULAT, section_ref):
+        return candidates
+    filtered = tuple(candidate for candidate in candidates if not _is_baal_verbal(candidate))
+    return filtered or candidates
