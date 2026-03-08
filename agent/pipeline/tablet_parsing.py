@@ -28,6 +28,7 @@ from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFix
 from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
 from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.feminine_t_singular_split import FeminineTSingularSplitFixer
+from pipeline.steps.function_word_clitic_notation import FunctionWordCliticNotationFixer
 from pipeline.steps.function_word_clitic_pruner import FunctionWordCliticPruner
 from pipeline.steps.generic_parsing_override import GenericParsingOverrideFixer
 from pipeline.steps.iii_aleph_case_fixer import IIIAlephCaseFixer
@@ -126,6 +127,7 @@ class TabletParsingPipeline:
             NominalCaseEndingYHFixer(gate=self.morph_gate),
             NominalFormMorphPosFixer(gate=self.morph_gate),
             SurfaceReconstructabilityFixer(),
+            FunctionWordCliticNotationFixer(),
             GenericParsingOverrideFixer(),
             SuffixPayloadCollapseFixer(),
             VariantRowUnwrapper(),

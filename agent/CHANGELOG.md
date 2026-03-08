@@ -1,5 +1,19 @@
 ## 2026-03-09
 
+- Added a late `function-word-clitic-notation` cleanup step in `pipeline/steps/function_word_clitic_notation.py` to convert reconstructability-only `&...` tails on function words back into canonical clitic notation when the row is already a function-word analysis.
+- The new step fixes recurring prepositional rows such as `lm`, `ˤlm`, `ˤmm`, and `ˤlt`, rewriting malformed forms like `l(I)&m`, `ˤl(I)&~m`, and `ˤl(I)&t` to canonical clitic analyses.
+- Tightened `pipeline/steps/dulat_enclitic_m.py` so rows that already carry an explicit pronominal `+m...` suffix are not rewritten a second time into malformed mixed encodings like `+m(I)~m`.
+- Threaded the new cleanup step into the runtime pipeline immediately after `surface-reconstructability` in `pipeline/tablet_parsing.py`.
+- Added focused regression coverage in:
+  - `tests/test_function_word_clitic_notation.py`
+  - `tests/test_dulat_enclitic_m.py`
+- Verified with targeted tests, `ruff format`, `ruff check`, a full parser rerun, and refreshed lint/scoring artifacts:
+  - lint total issues `9796 -> 9682`
+  - `ERROR 1438 -> 1305`
+  - `WARNING 1869 -> 1860`
+  - reviewed exact-set accuracy unchanged at `0.5171`
+  - reviewed micro F1 effectively flat at `0.5344 -> 0.5345`
+
 - Normalized legacy reviewed-analysis notation so the expanded `reviewed/` set scores against current CUC morphology conventions instead of old notation quirks.
 - Added `reviewed_normalization.py` and threaded it through:
   - `reviewed_migration/migrator.py`
@@ -24,6 +38,14 @@
   - macro F1 `0.5693 -> 0.5721`
   - micro F1 `0.5290 -> 0.5322`
   - gold coverage `0.5961 -> 0.5969`
+  - lint severity totals unchanged on the refreshed corpus output
+- Tightened `spacy_ugaritic/components/morph_context.py` again for the recurring letter-blessing pair `tġrk tšlmk` (and plural `tġrkm tšlmkm`), collapsing the malformed mixed candidates to single attested prefixed forms with bound pronominal suffixes.
+- Added focused regression coverage in `tests/test_spacy_morph_context.py` for both the singular and plural blessing pair.
+- Verified with targeted tablet reruns plus refreshed lint and reviewed scoring that the blessing-formula rule improves the expanded reviewed set again without lint-severity regression:
+  - exact-set accuracy `0.5149 -> 0.5171`
+  - macro F1 `0.5721 -> 0.5743`
+  - micro F1 `0.5322 -> 0.5344`
+  - gold coverage `0.5969 -> 0.5991`
   - lint severity totals unchanged on the refreshed corpus output
 
 ## 2026-03-07

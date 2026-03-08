@@ -213,6 +213,27 @@ class DulatEncliticMFixerTest(unittest.TestCase):
             result = fixer.refine_row(row)
             self.assertEqual(result.analysis, row.analysis)
 
+    def test_keeps_explicit_pronominal_plus_m_variant_unchanged(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            conn = sqlite3.connect(db_path)
+            _init_schema(conn)
+            cur = conn.cursor()
+            cur.execute(
+                "INSERT INTO entries(entry_id, lemma, homonym, pos) VALUES (1, 'l', 'I', 'prep.')"
+            )
+            cur.execute(
+                "INSERT INTO forms(entry_id, text, morphology, cert, notes) "
+                "VALUES (1, 'lm', 'suff.', '', 'encl. -m')"
+            )
+            conn.commit()
+            conn.close()
+
+            fixer = DulatEncliticMFixer(db_path)
+            row = TabletRow("2f", "lm", "l(I)+m(I)", "l (I)", "prep.", "to", "")
+            result = fixer.refine_row(row)
+            self.assertEqual(result.analysis, "l(I)+m(I)")
+
     def test_leaves_row_unchanged_without_note_backing(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "dulat.sqlite"

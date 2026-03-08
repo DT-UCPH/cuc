@@ -13,6 +13,12 @@ from spacy_ugaritic.types import Candidate
 _CASE_RE = re.compile(r"(?<!\w)(nom\.|gen\.|acc\.|acc\.\?)(?!\w)")
 _NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
 _EPISTOLARY_RGM_OPENING_HINTS = frozenset({"tḥm", "yšlm", "ilm"})
+_LETTER_BLESSING_CLITICS = {
+    "tġrk": "+k",
+    "tšlmk": "+k",
+    "tġrkm": "+km",
+    "tšlmkm": "+km",
+}
 
 
 @dataclass(frozen=True)
@@ -33,6 +39,7 @@ class MorphContextResolver:
 
         self._apply_journey_formula_rules(doc)
         self._apply_epistolary_rgm_rules(doc)
+        self._apply_letter_blessing_rules(doc)
         for index, token in enumerate(doc):
             if not _has_multiple_verbal_png(token):
                 continue
@@ -242,6 +249,23 @@ class MorphContextResolver:
             if noun is not None:
                 self._maybe_replace(token, (noun,), "epistolary-rgm-noun")
 
+    def _apply_letter_blessing_rules(self, doc: Doc) -> None:
+        if not (doc._.source_name or "").startswith("KTU 2."):
+            return
+        for token in doc:
+            surface = token._.surface.strip()
+            clitic = _LETTER_BLESSING_CLITICS.get(surface)
+            if clitic is None:
+                continue
+            if surface.startswith("tġr"):
+                ngr_candidate = _prefer_letter_blessing_ngr(token, clitic)
+                if ngr_candidate is not None:
+                    self._maybe_replace(token, (ngr_candidate,), "letter-blessing-ngr")
+                continue
+            shlm_candidate = _prefer_letter_blessing_shlm(token, clitic)
+            if shlm_candidate is not None:
+                self._maybe_replace(token, (shlm_candidate,), "letter-blessing-shlm")
+
 
 def _has_multiple_verbal_png(token: Token) -> bool:
     candidates = tuple(token._.resolved_candidates)
@@ -435,6 +459,34 @@ def _is_rgm_infinitive(candidate: Candidate) -> bool:
 
 def _is_rgm_noun(candidate: Candidate) -> bool:
     return candidate.analysis.strip() == "rgm/" and candidate.dulat.strip() == "rgm"
+
+
+def _prefer_letter_blessing_ngr(token: Token, clitic: str) -> Candidate | None:
+    for candidate in token._.resolved_candidates:
+        if candidate.dulat.strip() != "/n-ġ-r/" or "prefc." not in candidate.pos:
+            continue
+        return Candidate(
+            analysis=f"!t!(nġr[{clitic}",
+            dulat=candidate.dulat,
+            pos=candidate.pos,
+            gloss=candidate.gloss,
+            comment=candidate.comment,
+        )
+    return None
+
+
+def _prefer_letter_blessing_shlm(token: Token, clitic: str) -> Candidate | None:
+    for candidate in token._.resolved_candidates:
+        if candidate.dulat.strip() != "/š-l-m/" or "prefc." not in candidate.pos:
+            continue
+        return Candidate(
+            analysis=f"!t!šlm[:d{clitic}",
+            dulat=candidate.dulat,
+            pos=candidate.pos,
+            gloss=candidate.gloss,
+            comment=candidate.comment,
+        )
+    return None
 
 
 def _is_function_like(candidate: Candidate) -> bool:

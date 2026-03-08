@@ -256,6 +256,60 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["rgm[/", "rgm/"],
         )
 
+    def test_letter_blessing_pair_prefers_prefixed_suffix_forms(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tilm\til(I)/m\tỉl (I)\tn. m. pl.\tgod\t",
+            "2\ttġrk\tnġr[k\t/n-ġ-r/\tvb G prefc.\tto protect\t",
+            "2\ttġrk\tnġr[k\t/n-ġ-r/\tvb G suffc.\tto protect\t",
+            "3\ttšlmk\t!t!šlm[k:d\t/š-l-m/\tvb D prefc.\tto be well\t",
+            "3\ttšlmk\ttšlmk[\t/š-l-m/\tvb D suffc. 3 m. sg.\tto be well\t",
+            source_name="KTU 2.38.tsv",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["!t!(nġr[+k"],
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[2]._.resolved_candidates],
+            ["!t!šlm[:d+k"],
+        )
+
+    def test_letter_blessing_pair_supports_plural_suffix(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tšlm\tšlm(I)/\tšlm (I)\tn. m. sg. abs. nom.\tpeace\t",
+            "2\ttġrkm\tnġr[k\t/n-ġ-r/\tvb G prefc.\tto protect\t",
+            "2\ttġrkm\tnġr[k\t/n-ġ-r/\tvb G suffc.\tto protect\t",
+            "3\ttšlmkm\t!t!šlm[k:d\t/š-l-m/\tvb D prefc.\tto be well\t",
+            "3\ttšlmkm\ttšlmkm[\t/š-l-m/\tvb D suffc. 3 m. pl.\tto be well\t",
+            source_name="KTU 2.85.tsv",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["!t!(nġr[+km"],
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[2]._.resolved_candidates],
+            ["!t!šlm[:d+km"],
+        )
+
+    def test_letter_blessing_handles_reversed_order(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tilm\til(I)/m\tỉl (I)\tn. m. pl.\tgod\t",
+            "2\ttšlmk\t!t!šlm[k:d\t/š-l-m/\tvb D prefc.\tto be well\t",
+            "2\ttšlmk\ttšlmk[\t/š-l-m/\tvb D suffc. 3 m. sg.\tto be well\t",
+            "3\ttġrk\tnġr[k\t/n-ġ-r/\tvb G prefc.\tto protect\t",
+            "3\ttġrk\tnġr[k\t/n-ġ-r/\tvb G suffc.\tto protect\t",
+            source_name="KTU 2.4.tsv",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["!t!šlm[:d+k"],
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[2]._.resolved_candidates],
+            ["!t!(nġr[+k"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

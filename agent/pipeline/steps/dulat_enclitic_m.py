@@ -228,6 +228,8 @@ def _append_group_row(
 
 def _to_enclitic_m_analysis(*, surface: str, analysis: str, dulat: str, pos: str) -> str:
     text = _normalize_variant_encoding(surface=surface, analysis=analysis, dulat=dulat, pos=pos)
+    if "+m" in text:
+        return text
     if not text or "~m" in text:
         return _normalize_known_weak_imperative_with_enclitic(
             surface=surface,
