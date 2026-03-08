@@ -466,7 +466,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144441	b	b	b	prep.	in	
 144442	unil	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 II:9						
-144443	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+144443	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 144444	tšmḫ	!t!šmḫ[:w	/š-m-ḫ/	vb G prefc. 3 m. pl.	to be glad	
 144444	tšmḫ	!t!šmḫ[:d:w	/š-m-ḫ/	vb D prefc. 3 m. pl.	to be glad	
 144445	w	w	w	conj.	and	
@@ -1317,14 +1317,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144956	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 144957	yirš	!y!(ʔ&irš[	/ʔ-r-š/	vb G prefc. 3 m. sg.	to request	
 144957	yirš	!y!(ʔ&irš[:d	/ʔ-r-š/	vb D prefc. 3 m. sg.	to request	
-144958	ḥym	ḥym/	ḥym	n. m. pl. abs. nom.	life	
+144958	ḥym	ḥy(m/m	ḥym	n. m. pl. abs. nom.	life	
 144959	l	l(IV)	l (IV)	interj.	oh!	
 144960	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
 144961	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.17 VI:27						
 144962	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request	
 144962	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request	
-144963	ḥym	ḥym/	ḥym	n. m. pl. abs. nom.	life	
+144963	ḥym	ḥy(m/m	ḥym	n. m. pl. abs. nom.	life	
 144964	w	w	w	conj.	and	
 144965	atnk	ytn[k	/y-t-n/	vb G prefc.	to give	
 144965	atnk	ytn[k	/y-t-n/	vb G suffc.	to give	
@@ -1434,7 +1434,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145016	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 145016	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 # KTU 1.17 VI:36						
-145017	mh	m/+h	mh/y	n. m. sg. cstr. nom.	water	
+145017	mh	mh/	mh/y	n. m. sg. abs. nom.	water	
 145018	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 145018	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
 145019	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
@@ -1551,7 +1551,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145087	l	l(II)	l (II)	adv.	no	
 145087	l	l(III)	l (III)	functor	certainly	
 145088	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-145089	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+145089	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 145090	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 145091	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 145091	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	

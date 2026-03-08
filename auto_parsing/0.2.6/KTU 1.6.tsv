@@ -312,7 +312,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140588	l	l(II)	l (II)	adv.	no	
 140588	l	l(III)	l (III)	functor	certainly	
 140589	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-140590	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+140590	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 140591	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.6 I:33						
 140592	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
@@ -916,7 +916,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:2						
 140923	w	w	w	conj.	and	
 140924	hm	hm(II)	hm (II)	conj./interr. functor	if	
-140925	ḥy	ḥym/	ḥym	n. m. cstr. nom.	life	
+140925	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
 140925	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	
 140926	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 140927	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
@@ -965,7 +965,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140952	k	k(III)	k (III)	Subordinating or completive functor	when	
 140952	k	k(I)	k (I)	prep.	like	
 140952	k	k(II)	k (II)	emph. functor	yes	
-140953	ḥy	ḥym/	ḥym	n. m. cstr. nom.	life	
+140953	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
 140953	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	
 140954	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 140955	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
@@ -1137,7 +1137,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141052	l	l(II)	l (II)	adv.	no	
 141052	l	l(III)	l (III)	functor	certainly	
 141053	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-141054	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+141054	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.6 IV:8						
 141055	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 141056	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. gen.	lantern	

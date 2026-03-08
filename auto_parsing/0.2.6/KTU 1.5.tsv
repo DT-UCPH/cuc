@@ -54,7 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139798	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. gen.	to die	
 139798	mt	mt(I)/	mt (I)	n. m. sg. abs. gen.	dead person	
 139799	b	b	b	prep.	in	
-139800	mh	m/+h	mh/y	n. m. sg. cstr. gen.	water	
+139800	mh	mh/	mh/y	n. m. sg. abs. gen.	water	
 # KTU 1.5 I:8						
 139801	mrt	?	?	?	?	DULAT: NOT FOUND
 139802	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
@@ -70,12 +70,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139809	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 139810	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 I:10						
-139811	l	l(I)	l (I)	prep.	to	
-139811	l	l(II)	l (II)	adv.	no	
 139811	l	l(III)	l (III)	functor	certainly	
-139812	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-139812	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-139813	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+139812	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. pl.	to give	
+139812	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. pl.	to give	
+139813	pnm	pn(m/m	pnm	n. m. pl. tant. abs. acc.	face	
 139814	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 139815	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 139815	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -355,25 +353,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139977	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 139978	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 II:14						
-139979	l	l(I)	l (I)	prep.	to	
-139979	l	l(II)	l (II)	adv.	no	
 139979	l	l(III)	l (III)	functor	certainly	
-139980	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-139980	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-139981	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
-139982	ṯˤm	ṯˤ(II)/m	ṯʕ (II)	n. m. pl. abs. nom.	Hero	
-139983	bn	bn(I)/	bn (I)	n. m. cstr. nom.	son	
-139983	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-139984	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-139984	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-139985	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
-139985	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
-139985	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-139985	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
-139985	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+139980	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. pl.	to give	
+139980	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. pl.	to give	
+139981	pnm	pn(m/m	pnm	n. m. pl. tant. cstr. nom.	face	
+139982	ṯˤm	ṯˤ(II)/m	ṯʕ (II)	n. m. pl. cstr. gen.	Hero	
+139983	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
+139983	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+139984	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. gen.	god	
+139984	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
+139985	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+139985	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+139985	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+139985	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
 # KTU 1.5 II:15						
-139986	tk	tk/	tk	n. m. abs. nom.	centre	
-139987	qrth	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. nom.	city	
+139986	tk	tk/	tk	n. m. cstr. gen.	centre	
+139987	qrth	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. gen.	city	
 139988	hmry	hmry/	hmry	TN sg. abs. nom.	Fangosa	
 139989	mk	mk(II)	mk (II)	deictic functor	behold!	
 139989	mk	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	
@@ -828,15 +823,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140239	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
 140240	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 V:12						
-140241	pnk	pnm/	pnm	n. m. abs. nom.	face	
+140241	pnk	pn(m/+k	pnm	n. m. pl. cstr. nom.	face	
 140242	al	al(I)	ảl (I)	neg. functor	no	
 140242	al	al(II)	ảl (II)	pos. functor	surely	
-140243	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give	
-140243	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give	
-140243	ttn	!t==!(ytn[	/y-t-n/	vb G prefc. 2 f. sg.	to give	
-140243	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give	
 140243	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-140243	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give	
 140244	tk	tk/	tk	n. m. cstr. nom.	centre	
 140245	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. gen.	mountain	
 # KTU 1.5 V:13						

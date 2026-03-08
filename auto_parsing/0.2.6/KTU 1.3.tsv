@@ -456,7 +456,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137212	lhdmm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.3 II:38						
 137213	tḥspn	!t!ḥsp[n	/ḥ-s-p/	vb G prefc.	to draw	
-137214	mh	m/+h	mh/y	n. m. sg. cstr. nom.	water	
+137214	mh	mh/	mh/y	n. m. sg. abs. nom.	water	
 137215	w	w	w	conj.	and	
 137216	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 f. sg.	to wash	
 137216	trḥṣ	!t=!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 2 m. sg.	to wash	
@@ -711,21 +711,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137379	tṭṭ	nṭṭ[	/n-ṭ-ṭ/	vb G prefc.	to shake	
 137380	bˤdn	bˤd+n	bʕd	adv. or prep.	behind	
 137381	ksl	ksl/	ksl	n. f. sg. abs. nom.	back	
-137382	tṯbr	!t!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 3 f. sg.	to break	
-137382	tṯbr	!t=!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 2 m. sg.	to break	
-137382	tṯbr	!t==!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 2 f. sg.	to break	
-137382	tṯbr	!t!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 3 m. du.	to break	
 137382	tṯbr	!t!(]n]ṯbr[:w	/ṯ-b-r/	vb N prefc. 3 m. pl.	to break	
-137382	tṯbr	!t===!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 2 m. pl.	to break	
 # KTU 1.3 III:34						
 137383	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	
-137384	pnh	pnm/	pnm	n. m. abs. nom.	face	
-137385	tdˤ	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 f. sg.	to know	
-137385	tdˤ	!t=!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. sg.	to know	
-137385	tdˤ	!t==!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 f. sg.	to know	
-137385	tdˤ	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 m. du.	to know	
+137384	pnh	pn(m/+h	pnm	n. m. pl. cstr. nom.	face	
 137385	tdˤ	!t!(ydˤ[:w	/y-d-ʕ/ (I)	vb G prefc. 3 m. pl.	to know	
-137385	tdˤ	!t===!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. pl.	to know	
 137386	tġṣ	nġṣ[	/n-ġ-ṣ/	vb G prefc.	to contract	
 137387	pnt	pnt/	pnt	n. f. pl. cstr. nom.	knuckle	
 # KTU 1.3 III:35						
@@ -1166,7 +1156,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137655	l	l(II)	l (II)	adv.	no	
 137655	l	l(III)	l (III)	functor	certainly	
 137656	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-137657	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+137657	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 137658	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 137659	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 137659	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -1197,7 +1187,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137675	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
 137675	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
 137676	l	l(I)	l (I)	prep.	to	
-137677	pnnh	pnm/	pnm	n. m. abs. gen.	face	
+137677	pnnh	pnm/	pnm	n. m. pl. abs. gen.	face	
 # KTU 1.3 IV:41						
 137678	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 137678	št	št[	/š-t/	vb G impv. 2	to place	
@@ -1210,9 +1200,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137682	w	w	w	conj.	and	
 137683	tk	tk/	tk	n. m. cstr. nom.	centre	
 # KTU 1.3 IV:42						
-137684	pnh	pnm/	pnm	n. m. abs. gen.	face	
+137684	pnh	pn(m/+h	pnm	n. m. pl. cstr. gen.	face	
 137685	tḥspn	!t!ḥsp[n	/ḥ-s-p/	vb G prefc.	to draw	
-137686	mh	m/+h	mh/y	n. m. sg. cstr. nom.	water	
+137686	mh	mh/	mh/y	n. m. sg. abs. nom.	water	
 137687	w	w	w	conj.	and	
 137688	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 f. sg.	to wash	
 137688	trḥṣ	!t=!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 2 m. sg.	to wash	
@@ -1399,7 +1389,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137784	l	l(II)	l (II)	adv.	no	
 137784	l	l(III)	l (III)	functor	certainly	
 137785	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-137786	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+137786	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.3 V:6						
 137787	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 137788	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
@@ -1631,7 +1621,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137900	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. abs. gen.	goddess	
 137901	qlṣk	!!qlṣ[/+k	/q-l-ṣ/	vb G inf.	to resist	
 137901	qlṣk	!!qlṣ[/+k	/q-l-ṣ/	vb D inf.	to resist	
-137902	mh	m/+h	mh/y	n. m. sg. cstr. nom.	water	
+137902	mh	mh/	mh/y	n. m. sg. abs. nom.	water	
 137903	taršn	!t!(ʔ&arš[n	/ʔ-r-š/	vb G prefc.	to request	
 137903	taršn	!t!(ʔ&arš[n:d	/ʔ-r-š/	vb D prefc.	to request	
 # KTU 1.3 V:29						
@@ -1937,15 +1927,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138074	al	al(II)	ảl (II)	pos. functor	surely	
 138075	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
 # KTU 1.3 VI:24						
-138076	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
-138077	tk	tk/	tk	n. m. abs. nom.	centre	
-138078	ḥqkpt	ḥkpt/	ḥkpt	TN sg. abs. nom.	ḥkpt	
+138076	pnm	pn(m/m	pnm	n. m. pl. cstr. nom.	face	
+138077	tk	tk/	tk	n. m. cstr. gen.	centre	
+138078	ḥqkpt	ḥkpt/	ḥkpt	TN sg. cstr. gen.	ḥkpt	
 # KTU 1.3 VI:25						
-138079	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-138079	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-138079	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-138079	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-138080	klh	kl/+h	kl	n. m. cstr. nom.	totality (of)	
+138079	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+138079	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+138080	klh	kl/+h	kl	n. m. cstr. gen.	totality (of)	
 138081	kptr	kptr/	kptr	TN sg. abs. nom.	Crete	
 # KTU 1.3 VI:26						
 138082	ksu	?	?	?	?	DULAT: NOT FOUND

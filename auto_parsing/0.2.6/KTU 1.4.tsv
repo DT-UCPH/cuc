@@ -361,20 +361,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138334	bˤdn	bˤd+n	bʕd	adv. or prep.	behind	
 138335	ksl	ksl/	ksl	n. f. sg. abs. nom.	back	
 # KTU 1.4 II:18						
-138336	tṯbr	!t!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 3 f. sg.	to break	
-138336	tṯbr	!t=!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 2 m. sg.	to break	
-138336	tṯbr	!t==!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 2 f. sg.	to break	
-138336	tṯbr	!t!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 3 m. du.	to break	
 138336	tṯbr	!t!(]n]ṯbr[:w	/ṯ-b-r/	vb N prefc. 3 m. pl.	to break	
-138336	tṯbr	!t===!(]n]ṯbr[	/ṯ-b-r/	vb N prefc. 2 m. pl.	to break	
 138337	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	
-138338	pnh	pnm/	pnm	n. m. abs. nom.	face	
-138339	tdˤ	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 f. sg.	to know	
-138339	tdˤ	!t=!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. sg.	to know	
-138339	tdˤ	!t==!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 f. sg.	to know	
-138339	tdˤ	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 m. du.	to know	
+138338	pnh	pn(m/+h	pnm	n. m. pl. cstr. nom.	face	
 138339	tdˤ	!t!(ydˤ[:w	/y-d-ʕ/ (I)	vb G prefc. 3 m. pl.	to know	
-138339	tdˤ	!t===!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. pl.	to know	
 # KTU 1.4 II:19						
 138340	tġṣ	nġṣ[	/n-ġ-ṣ/	vb G prefc.	to contract	
 138341	pnt	pnt/	pnt	n. f. pl. cstr. nom.	knuckle	
@@ -492,7 +482,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138411	btlt	btl(t/t	btlt	n. f. sg. cstr. gen.	virgin	
 138412	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.4 II:39						
-138413	mh	m/+h	mh/y	n. m. sg. cstr. gen.	water	
+138413	mh	mh/	mh/y	n. m. sg. abs. gen.	water	
 138414	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 II:40						
 138415	w	w	w	conj.	and	
@@ -548,7 +538,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138443	dr	dr/	dr	n. m. sg. abs. gen.	circle	
 # KTU 1.4 III:8						
 138444	xxxx	?	?	?	?	
-138445	ḥyk	ḥym/	ḥym	n. m. abs. nom.	life	
+138445	ḥyk	ḥy(m/+k	ḥym	n. m. pl. cstr. nom.	life	
 138446	w	w	w	conj.	and	
 138447	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. nom.	wind	
 138448	d	d	d	det. or rel. functor	the one(s) of	
@@ -944,7 +934,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138674	idk	idk	ỉdk	narrative adv. functor	then	
 138675	l	l(III)	l (III)	functor	certainly	
 138676	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-138677	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+138677	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.4 IV:21						
 138678	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 138679	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
@@ -1445,7 +1435,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138961	l	l(II)	l (II)	adv.	no	
 138961	l	l(III)	l (III)	functor	certainly	
 138962	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-138963	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+138963	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.4 V:23						
 138964	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 138965	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
@@ -1593,7 +1583,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 V:46						
 139058	w	w	w	conj.	and	
 139059	tk	tk/	tk	n. m. cstr. nom.	centre	
-139060	pnh	pnm/	pnm	n. m. abs. gen.	face	
+139060	pnh	pn(m/+h	pnm	n. m. pl. cstr. gen.	face	
 139061	tˤdb	?	?	?	?	DULAT: NOT FOUND
 139062	ksu	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.4 V:47						
@@ -2496,7 +2486,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139623	idk	idk	ỉdk	narrative adv. functor	then	
 139624	al	al(II)	ảl (II)	pos. functor	surely	
 139625	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-139626	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+139626	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.4 VIII:2						
 139627	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 139628	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. gen.	mountain	
@@ -2555,9 +2545,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139656	al	al(II)	ảl (II)	pos. functor	surely	
 139657	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
 # KTU 1.4 VIII:11						
-139658	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
-139659	tk	tk/	tk	n. m. abs. nom.	centre	
-139660	qrth	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. nom.	city	
+139658	pnm	pn(m/m	pnm	n. m. pl. cstr. nom.	face	
+139659	tk	tk/	tk	n. m. cstr. gen.	centre	
+139660	qrth	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. gen.	city	
 # KTU 1.4 VIII:12						
 139661	hmry	hmry/	hmry	TN sg. abs. nom.	Fangosa	
 139662	mk	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	

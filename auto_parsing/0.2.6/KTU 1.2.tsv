@@ -81,7 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136076	al	al(II)	ảl (II)	pos. functor	surely	
 136077	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down	
 136078	idk	idk	ỉdk	narrative adv. functor	then	
-136079	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+136079	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.2 I:14						
 136080	al	al(II)	ảl (II)	pos. functor	surely	
 136081	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
@@ -181,7 +181,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136137	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 136137	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
 136138	idk	idk	ỉdk	narrative adv. functor	then	
-136139	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+136139	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
 # KTU 1.2 I:20						
 136140	l	l(I)	l (I)	prep.	to	
 136140	l	l(II)	l (II)	adv.	no	
@@ -656,12 +656,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136427	ġyrm	ġyr/m	ġyr	n. m. pl. abs. gen.	depth	
 # KTU 1.2 III:4						
 136428	idk	idk	ỉdk	narrative adv. functor	then	
-136429	l	l(I)	l (I)	prep.	to	
-136429	l	l(II)	l (II)	adv.	no	
 136429	l	l(III)	l (III)	functor	certainly	
-136430	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-136430	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-136431	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+136430	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. pl.	to give	
+136430	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. pl.	to give	
+136431	pnm	pn(m/m	pnm	n. m. pl. tant. abs. acc.	face	
 136432	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 136433	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 136433	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
@@ -785,7 +783,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136511	ymt	ym(I)/t=	ym (I)	n. f. pl. abs. gen.	day	
 136512	yˤmdn	!y!ˤmd[n	/ʕ-m-d/	vb G prefc. 3 m. sg.	?	
 136512	yˤmdn	!y!ˤmd[n:d	/ʕ-m-d/	vb D prefc. 3 m. sg.	?	
-136513	pn	pnm/	pnm	n. m. cstr. nom.	face	
+136513	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
 136514	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. abs. gen.	ʿAṯtar	
 136515	d	d	d	det. or rel. functor	the one(s) of	
 136516	t	/t, /t=				DULAT: NOT FOUND
@@ -1010,7 +1008,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 136658	mtt	mt[t	/m-t/	vb G suffc. 1 c. sg.	to die	
 136659	xxx	?	?	?	?	
 # KTU 1.2 IV:2						
-136660	ḥy	ḥym/	ḥym	n. m. cstr. nom.	life	
+136660	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
 136660	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	
 136661	npšl	?	?	?	?	DULAT: NOT FOUND
 136662	ašṣi	]š]yṣʔ[i	/y-ṣ-ʔ/	vb Š prefc.	to go out	

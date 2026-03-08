@@ -91,9 +91,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143244	bky	bky[	/b-k-y/	vb G impv. 2	to weep	
 143244	bky	!!bky[/	/b-k-y/	vb G inf.	to weep	
 143245	b	b	b	prep.	in	
-143246	ḥyk	ḥym/	ḥym	n. m. cstr. gen.	life	
-143247	abn	ab/+n	ảb	n. m. cstr. gen.	father	
-143247	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	
+143246	ḥyk	ḥy(m/+k	ḥym	n. m. pl. cstr. gen.	life	
+143247	abn	ab/+n	ảb	n. m. cstr. nom.	father	
+143247	abn	abn/	ảbn	n. f. sg. cstr. nom.	stone	
+143247	abn	abn/	ảbn	n. f. sg. abs. nom.	stone	
+143247	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	
 143248	ašmḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.16 I:15						
 143249	blmtk	blmt/+k	blmt	n. m. cstr. nom.	immortality	
@@ -356,7 +358,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143397	l	l(I)	l (I)	prep.	to	
 143398	tl	tl(II)/	tl (II)	n. m. sg. abs. gen.	weapon	
 143399	yṣb	nṣb[	/n-ṣ-b/	vb G prefc.	to erect	
-143400	pnh	pnm/	pnm	n. m. abs. nom.	face	
+143400	pnh	pn(m/+h	pnm	n. m. pl. cstr. nom.	face	
 143401	ġṯġr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.16 I:53						
 143402	yṣu	!y!(yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
@@ -656,9 +658,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143534	bky	bky[	/b-k-y/	vb G impv. 2	to weep	
 143534	bky	!!bky[/	/b-k-y/	vb G inf.	to weep	
 143535	b	b	b	prep.	in	
-143536	ḥyk	ḥym/	ḥym	n. m. cstr. gen.	life	
-143537	abn	ab/+n	ảb	n. m. cstr. gen.	father	
-143537	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	
+143536	ḥyk	ḥy(m/+k	ḥym	n. m. pl. cstr. gen.	life	
+143537	abn	ab/+n	ảb	n. m. cstr. nom.	father	
+143537	abn	abn/	ảbn	n. f. sg. cstr. nom.	stone	
+143537	abn	abn/	ảbn	n. f. sg. abs. nom.	stone	
+143537	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	
 # KTU 1.16 II:37						
 143538	nšmḫ	!n!šmḫ[	/š-m-ḫ/	vb G prefc. 1 c. pl.	to be glad	
 143539	bl	bl(III)/	bl (III)	n. m. sg. cstr. nom.	blended beer	
@@ -1315,9 +1319,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 VI:5						
 143910	nxṣrt	?	?	?	?	DULAT: NOT FOUND
 143911	tbu	!t!b(ʔ[&u	/b-ʔ/	vb G prefc.	to enter	
-143912	pnm	p/+nm	pnm	n. m. pl. cstr. nom.	face	
+143912	pnm	pn(m/m	pnm	n. m. pl. cstr. nom.	face	
 # KTU 1.16 VI:6						
-143913	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. abs. nom. sg.	city	
+143913	ˤrm	ˤr(I)/~m	ʕr (I)	n. f. sg. abs. gen.	city	
 143914	tdu	dʔy[	/d-ʔ-y/	vb G suffc. 3 m. sg.	to fly	
 143914	tdu	ndʔ[	/n-d-ʔ/	vb G suffc. 3 m. sg.	to frighten away	
 143915	mhpd	?	?	?	?	DULAT: NOT FOUND
