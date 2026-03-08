@@ -1,5 +1,15 @@
 ## 2026-03-07
 
+- Added `scripts/regenerate_tablets_and_reports.py` as a single entrypoint for the full refresh loop:
+  - regenerates parsed tablets,
+  - reruns lint report generation,
+  - reruns reviewed morphology scoring,
+  - writes before/after scoring snapshots plus combined lint/scoring delta summaries.
+- Added `full_regeneration/` orchestration helpers and focused regression coverage in:
+  - `tests/test_full_regeneration_reports.py`
+  - `tests/test_full_regeneration_runner.py`
+- The wrapper now keeps `--dry-run` side-effect free, honors the requested `reports_dir`, and defaults to the full-rerun behavior of allowing large per-step parser changes unless `--enforce-step-change-limit` is passed.
+
 - Fixed DULAT plurale-tantum detection for live `-m` nouns with bare construct forms:
   - `pipeline/steps/dulat_gate.py` now treats construct-only non-suffix morphologies such as bare `cstr.` as compatible supporting evidence instead of rejecting the entire lemma.
   - This restores real plurale-tantum handling for `pnm`, so rows like `pnm/` can normalize to `pn(m/m` instead of staying unsplit or being re-split as `p/+nm`.
