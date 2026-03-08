@@ -1,5 +1,14 @@
 ## 2026-03-07
 
+- Tightened `pipeline/steps/dulat_enclitic_m.py` so noun/adjective/number rows no longer synthesize an extra `~m` enclitic variant when DULAT only gives a generic `suff.` note and the same exact surface is already attested as a plain plural/dual nominal form.
+- This removes broad false overgeneration for forms like `ilm` while still preserving explicit `~m` rows and note-backed cases with more specific morphology such as `sg., suff.`.
+- Added focused regression coverage in `tests/test_dulat_enclitic_m.py`.
+- Verified with targeted and full reruns that the change improves reviewed morphology agreement again without lint-severity regression:
+  - exact-set accuracy `0.5430 -> 0.5548`
+  - macro F1 `0.6418 -> 0.6457`
+  - micro F1 `0.6007 -> 0.6037`
+  - lint severity totals unchanged on the refreshed corpus output
+
 - Tightened `spacy_ugaritic/components/l_context.py` so non-verbal `l` tokens now prefer the preposition reading `l(I)` by default instead of carrying a stray `l(III)` "certainly" variant unless a forced reference, compound rule, or verb-following context keeps another homonym alive.
 - Added focused regression coverage in:
   - `tests/test_spacy_l_context.py`

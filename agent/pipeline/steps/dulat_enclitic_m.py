@@ -166,7 +166,15 @@ class DulatEncliticMFixer(RefinementStep):
             enclitic_pos = _rewrite_pos_for_enclitic_variant(pos, note_morphologies)
 
             if has_plain_variant:
-                if "~m" not in analysis and (dulat, gloss) not in existing_enclitic_variants:
+                if (
+                    "~m" not in analysis
+                    and (dulat, gloss) not in existing_enclitic_variants
+                    and _should_add_synthetic_enclitic_variant(
+                        pos=pos,
+                        plain_morphologies=plain_morphologies,
+                        note_morphologies=note_morphologies,
+                    )
+                ):
                     _append_group_row(
                         out_rows,
                         seen,
@@ -355,6 +363,34 @@ def _number_markers_from_morphologies(morphologies: set[str]) -> list[str]:
     if re.search(r"\bdu\.", joined, flags=re.IGNORECASE):
         numbers.append("du.")
     return numbers
+
+
+def _should_add_synthetic_enclitic_variant(
+    *,
+    pos: str,
+    plain_morphologies: set[str],
+    note_morphologies: set[str],
+) -> bool:
+    """Return False for noisy nounish plural forms with only generic `suff.` note backing."""
+    if not pos or not _NOUNISH_HEAD_RE.search(pos):
+        return True
+    if not any(_has_plural_or_dual_marker(value) for value in plain_morphologies):
+        return True
+    if not note_morphologies:
+        return True
+    if all(_is_generic_suffix_only_morphology(value) for value in note_morphologies):
+        return False
+    return True
+
+
+def _has_plural_or_dual_marker(morphology: str) -> bool:
+    text = (morphology or "").lower()
+    return "pl." in text or "du." in text
+
+
+def _is_generic_suffix_only_morphology(morphology: str) -> bool:
+    text = (morphology or "").lower().strip().strip(",")
+    return text == "suff."
 
 
 def _strip_terminal_surface_m(text: str) -> str:

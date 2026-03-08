@@ -64,7 +64,7 @@ class DulatEncliticMFixerTest(unittest.TestCase):
             self.assertEqual(result.analysis, "ủgr(I)/~m")
             self.assertEqual(result.pos, "n. m. sg.")
 
-    def test_preserves_plain_nominal_variant_and_adds_enclitic_variant(self) -> None:
+    def test_preserves_plain_plural_nominal_variant_without_generic_enclitic_clone(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "dulat.sqlite"
             conn = sqlite3.connect(db_path)
@@ -86,6 +86,32 @@ class DulatEncliticMFixerTest(unittest.TestCase):
 
             fixer = DulatEncliticMFixer(db_path)
             row = TabletRow("2a", "ilm", "il(I)/m", "ỉl (I)", "n. m. pl.", "god", "")
+            result = fixer.refine_row(row)
+            self.assertEqual(result.analysis, "il(I)/m")
+            self.assertEqual(result.pos, "n. m. pl.")
+
+    def test_adds_enclitic_variant_when_note_morphology_is_specific(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            conn = sqlite3.connect(db_path)
+            _init_schema(conn)
+            cur = conn.cursor()
+            cur.execute(
+                "INSERT INTO entries(entry_id, lemma, homonym, pos) VALUES (1, 'ỉl', 'I', 'n. m.')"
+            )
+            cur.execute(
+                "INSERT INTO forms(entry_id, text, morphology, cert, notes) "
+                "VALUES (1, 'ỉlm', 'sg., suff.', '', 'encl. -m')"
+            )
+            cur.execute(
+                "INSERT INTO forms(entry_id, text, morphology, cert, notes) "
+                "VALUES (1, 'ỉlm', 'pl.', '', '')"
+            )
+            conn.commit()
+            conn.close()
+
+            fixer = DulatEncliticMFixer(db_path)
+            row = TabletRow("2aa", "ilm", "il(I)/m", "ỉl (I)", "n. m. pl.", "god", "")
             result = fixer.refine_row(row)
             self.assertEqual(result.analysis, "il(I)/~m; il(I)/m")
             self.assertEqual(result.pos, "n. m. sg.; n. m. pl.")
