@@ -1,5 +1,16 @@
 ## 2026-03-07
 
+- Tightened `spacy_ugaritic/components/lexical_context.py` so `bt` no longer carries an extra `bt(II)/` "house" reading next to `b(t(I)/t` "daughter" by default.
+- The lexical-context resolver now keeps `bt(II)` only when the current reference has direct DULAT attestation for `bt (II)` or when the token participates in the recurring `bt l bˤl` / `bt lbˤl` phrase.
+- Added focused regression coverage in:
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_spacy_lexical_context_step.py`
+- Verified with targeted and full reruns that the change improves reviewed morphology agreement again without lint-severity regression:
+  - exact-set accuracy `0.5629 -> 0.5732`
+  - macro F1 `0.6484 -> 0.6519`
+  - micro F1 `0.6059 -> 0.6087`
+  - lint severity totals unchanged on the refreshed corpus output
+
 - Tightened `spacy_ugaritic/components/lexical_context.py` so `bˤl` no longer keeps an unattested verbal `/b-ʕ-l/` candidate beside the nominal `bʕl (II)` reading when the current tablet reference has no direct DULAT attestation for the verb.
 - Threaded the DULAT attestation index through the spaCy lexical-context step in:
   - `pipeline/steps/spacy_lexical_context.py`

@@ -61,6 +61,14 @@ def _is_baal_verbal(candidate: Candidate) -> bool:
     return candidate.dulat.strip() == _BAAL_VERBAL_DULAT
 
 
+def _is_bt_house(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "bt(II)/" and candidate.dulat.strip() == "bt (II)"
+
+
+def _is_bt_daughter(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "b(t(I)/t" and candidate.dulat.strip() == "bt (I)"
+
+
 def _normalize_baal_verbal(candidate: Candidate) -> Candidate:
     if candidate.dulat.strip() != _BAAL_VERBAL_DULAT:
         return candidate
@@ -242,6 +250,15 @@ class LexicalContextResolver:
                     )
                 self._maybe_replace(token, normalized, "baal-lexical")
                 continue
+            if token._.surface == "bt":
+                normalized = _resolve_bt_baal_phrase(
+                    doc,
+                    index,
+                    candidates,
+                    attestation_index=attestation_index,
+                )
+                self._maybe_replace(token, normalized, "bt-baal-context")
+                continue
             if token._.surface != "bˤlm":
                 continue
             if len(candidates) == 1:
@@ -337,4 +354,39 @@ def _prune_unattested_baal_verbal(
     if attestation_index.has_reference_for_variant_token(_BAAL_VERBAL_DULAT, section_ref):
         return candidates
     filtered = tuple(candidate for candidate in candidates if not _is_baal_verbal(candidate))
+    return filtered or candidates
+
+
+def _is_bt_baal_phrase(doc: Doc, index: int) -> bool:
+    if index < 0 or index >= len(doc) or doc[index]._.surface != "bt":
+        return False
+    if index + 1 >= len(doc):
+        return False
+    next_surface = doc[index + 1]._.surface
+    if next_surface == "lbˤl":
+        return True
+    if next_surface != "l" or index + 2 >= len(doc):
+        return False
+    return doc[index + 2]._.surface == "bˤl"
+
+
+def _resolve_bt_baal_phrase(
+    doc: Doc,
+    index: int,
+    candidates: tuple[Candidate, ...],
+    *,
+    attestation_index: DulatAttestationIndex,
+) -> tuple[Candidate, ...]:
+    has_house = any(_is_bt_house(candidate) for candidate in candidates)
+    has_daughter = any(_is_bt_daughter(candidate) for candidate in candidates)
+    if not has_house or not has_daughter:
+        return candidates
+    section_ref = doc[index]._.section_ref
+    if _is_bt_baal_phrase(doc, index) or attestation_index.has_reference_for_variant_token(
+        "bt (II)",
+        section_ref,
+    ):
+        filtered = tuple(candidate for candidate in candidates if _is_bt_house(candidate))
+        return filtered or candidates
+    filtered = tuple(candidate for candidate in candidates if not _is_bt_house(candidate))
     return filtered or candidates

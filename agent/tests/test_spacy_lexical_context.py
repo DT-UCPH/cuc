@@ -87,6 +87,48 @@ class SpacyBaalContextTest(unittest.TestCase):
             ["bˤl(II)/", "bˤl[/"],
         )
 
+    def test_prunes_unattested_bt_house_variant_outside_baal_phrase(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 1.3 I:24\t\t\t\t\t\t",
+            "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. cstr. gen.\thouse\t",
+            "1\tbt\tb(t(I)/t\tbt (I)\tn. f. sg. cstr. gen.\tdaughter\t",
+            "2\tar\tar/\tả/ỉr\tn. m. sg. abs. gen.\tlight\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["b(t(I)/t"],
+        )
+
+    def test_keeps_bt_house_variant_in_bt_l_baal_phrase(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 1.3 VI:3\t\t\t\t\t\t",
+            "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\t",
+            "1\tbt\tb(t(I)/t\tbt (I)\tn. f. sg. abs. nom.\tdaughter\t",
+            "2\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "3\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. pl. abs. gen.\tBaʿlu/Baal\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["bt(II)/"],
+        )
+
+    def test_keeps_directly_attested_bt_house_variant(self) -> None:
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={("bt", "II"): {normalize_reference_label("CAT 1.3 V:3")}},
+        )
+        doc = self._doc_from_lines(
+            "# KTU 1.3 V:3\t\t\t\t\t\t",
+            "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\t",
+            "1\tbt\tb(t(I)/t\tbt (I)\tn. f. sg. abs. nom.\tdaughter\t",
+            attestation_index=attestation_index,
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["bt(II)/"],
+        )
+
     def test_collapses_thr_il_sequence_to_bull_and_el(self) -> None:
         doc = self._doc_from_lines(
             "1\tṯr\tṯr(I)/\tṯr (I)\tn. m. pl. abs. nom.\tbull\t",

@@ -109,6 +109,84 @@ class SpacyBaalContextDisambiguatorTest(unittest.TestCase):
 
             self.assertEqual(result.rows_changed, 0)
 
+    def test_prunes_unattested_bt_house_variant(self) -> None:
+        content = "\n".join(
+            [
+                "# KTU 1.3 I:24",
+                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. cstr. gen.\thouse\t",
+                "1\tbt\tb(t(I)/t\tbt (I)\tn. f. sg. cstr. gen.\tdaughter\t",
+                "2\tar\tar/\tả/ỉr\tn. m. sg. abs. gen.\tlight\t",
+                "",
+            ]
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = self.step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 2)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(
+                lines[1],
+                "1\tbt\tb(t(I)/t\tbt (I)\tn. f. sg. cstr. gen.\tdaughter\t",
+            )
+            self.assertEqual(len([line for line in lines if line.startswith("1\tbt\t")]), 1)
+
+    def test_keeps_bt_house_variant_in_baal_phrase(self) -> None:
+        content = "\n".join(
+            [
+                "# KTU 1.3 VI:3",
+                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\t",
+                "1\tbt\tb(t(I)/t\tbt (I)\tn. f. sg. abs. nom.\tdaughter\t",
+                "2\tl\tl(I)\tl (I)\tprep.\tto\t",
+                "3\tbˤl\tbˤl(II)/\tbʕl (II)\tn. m. pl. abs. gen.\tBaʿlu/Baal\t",
+                "",
+            ]
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = self.step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 1)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(
+                lines[1],
+                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\t",
+            )
+            self.assertEqual(len([line for line in lines if line.startswith("1\tbt\t")]), 1)
+
+    def test_keeps_directly_attested_bt_house_variant(self) -> None:
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={("bt", "II"): {normalize_reference_label("CAT 1.3 V:3")}},
+        )
+        step = SpacyBaalContextDisambiguator(attestation_index=attestation_index)
+        content = "\n".join(
+            [
+                "# KTU 1.3 V:3",
+                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\t",
+                "1\tbt\tb(t(I)/t\tbt (I)\tn. f. sg. abs. nom.\tdaughter\t",
+                "",
+            ]
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 1)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(
+                lines[1],
+                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\t",
+            )
+            self.assertEqual(len([line for line in lines if line.startswith("1\tbt\t")]), 1)
+
     def test_collapses_thr_il_sequence_to_bull_and_el(self) -> None:
         content = "\n".join(
             [
