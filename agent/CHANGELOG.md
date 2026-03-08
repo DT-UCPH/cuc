@@ -1,5 +1,17 @@
 ## 2026-03-09
 
+- Broadened `pipeline/steps/weak_verb.py` from weak-initial `/y-/` handling to weak-initial dropped-radical verb handling for attested `/l-/` forms too.
+- The step now rewrites `/l-q-ḥ/` surfaces with hidden initial `l` to reconstructable canonical analyses, including:
+  - `yqḥ -> !y!(lqḥ[`
+  - `iqḥ -> !(ʔ&i!(lqḥ[`
+  - `qḥ -> (lqḥ[`
+- Added focused regression coverage in `tests/test_weak_verb.py`, including a guard that leaves unrelated `/l-ʔ-y/w/` forms like `tlu` untouched until their own encoding family is fixed.
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_weak_verb`
+  - `./.venv/bin/python -m unittest tests.test_refinement_steps`
+  - `uv run ruff check agent/pipeline/steps/weak_verb.py agent/tests/test_weak_verb.py`
+  - targeted reruns confirming updated rows in `KTU 1.3`, `KTU 1.14`, `KTU 1.5`, `KTU 2.62`, and `KTU 3.2`
+
 - Added a late `function-word-clitic-notation` cleanup step in `pipeline/steps/function_word_clitic_notation.py` to convert reconstructability-only `&...` tails on function words back into canonical clitic notation when the row is already a function-word analysis.
 - The new step fixes recurring prepositional rows such as `lm`, `ˤlm`, `ˤmm`, and `ˤlt`, rewriting malformed forms like `l(I)&m`, `ˤl(I)&~m`, and `ˤl(I)&t` to canonical clitic analyses.
 - Tightened `pipeline/steps/dulat_enclitic_m.py` so rows that already carry an explicit pronominal `+m...` suffix are not rewritten a second time into malformed mixed encodings like `+m(I)~m`.
