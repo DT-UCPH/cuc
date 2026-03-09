@@ -29,4 +29,8 @@ def normalize_reviewed_analysis(analysis: str) -> str:
     if text.startswith("l+") and not text.startswith("l(I)+"):
         return f"l(I){text[1:]}"
 
+    # Legacy reviewed files sometimes leave the default `king` homonym bare.
+    if text == "mlk/":
+        return "mlk(I)/"
+
     return text

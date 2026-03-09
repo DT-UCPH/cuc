@@ -26,6 +26,12 @@ _REPLACEMENT_GLOSS = "Baʿlu;to make"
 _ALIYN_GLOSS = "the very / most powerful"
 _BULL_GLOSS = "bull"
 _EL_GLOSS = "ʾilu/ilu/el"
+_MLK_VERBAL_DULAT = "/m-l-k/"
+_MLK_TITLE_DULAT = "mlk (I)"
+_MLK_KINGDOM_DULAT = "mlk (II)"
+_MLK_TITLE_GLOSS = "king"
+_MLK_TITLE_NEXT_SURFACES = frozenset({"ab", "bn", "bnk", "ugrt", "ṣr", "šmy", "šink"})
+_MLK_TITLE_PREV_SURFACES = frozenset({"l", "lpn", "pn", "tḥm"})
 
 
 @dataclass(frozen=True)
@@ -67,6 +73,20 @@ def _is_bt_house(candidate: Candidate) -> bool:
 
 def _is_bt_daughter(candidate: Candidate) -> bool:
     return candidate.analysis.strip() == "b(t(I)/t" and candidate.dulat.strip() == "bt (I)"
+
+
+def _is_mlk_verbal(candidate: Candidate) -> bool:
+    return candidate.dulat.strip() == _MLK_VERBAL_DULAT
+
+
+def _is_mlk_kingdom(candidate: Candidate) -> bool:
+    return (
+        candidate.analysis.strip() == "mlk(II)/" and candidate.dulat.strip() == _MLK_KINGDOM_DULAT
+    )
+
+
+def _is_mlk_title(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "mlk(I)/" and candidate.dulat.strip() == _MLK_TITLE_DULAT
 
 
 def _normalize_baal_verbal(candidate: Candidate) -> Candidate:
@@ -179,7 +199,7 @@ def _packed_baal_labourer_row(candidate: Candidate) -> bool:
 
 
 class LexicalContextResolver:
-    def __init__(self, *, rule_groups: Iterable[str] = ("baal", "ydk")) -> None:
+    def __init__(self, *, rule_groups: Iterable[str] = ("baal", "ydk", "mlk")) -> None:
         self._rule_groups = frozenset(rule_groups)
 
     def __call__(self, doc: Doc) -> Doc:
@@ -189,6 +209,8 @@ class LexicalContextResolver:
 
         if "baal" in self._rule_groups:
             self._apply_baal_rules(doc)
+        if "mlk" in self._rule_groups:
+            self._apply_mlk_rules(doc)
         if "ydk" in self._rule_groups:
             self._apply_ydk_rules(doc)
         return doc
@@ -285,6 +307,22 @@ class LexicalContextResolver:
             comment = next((candidate.comment for candidate in candidates if candidate.comment), "")
             self._maybe_replace(token, (_canonical_ydk(comment),), "ydk-love-before-ṣġr")
 
+    def _apply_mlk_rules(self, doc: Doc) -> None:
+        attestation_index = doc.user_data.get("attestation_index")
+        if not isinstance(attestation_index, DulatAttestationIndex):
+            attestation_index = DulatAttestationIndex.empty()
+        for index, token in enumerate(doc):
+            if token._.surface != "mlk":
+                continue
+            candidates = tuple(token._.resolved_candidates)
+            normalized = _resolve_mlk_context(
+                doc,
+                index,
+                candidates,
+                attestation_index=attestation_index,
+            )
+            self._maybe_replace(token, normalized, "mlk-title-context")
+
     def _maybe_replace(self, token: Token, candidates: tuple[Candidate, ...], rule: str) -> None:
         before = tuple(token._.resolved_candidates)
         if candidates == before:
@@ -296,7 +334,7 @@ class LexicalContextResolver:
 
 
 @Language.factory("ugaritic_lexical_context_resolver")
-def make_lexical_context_resolver(nlp, name, rule_groups=("baal", "ydk")):
+def make_lexical_context_resolver(nlp, name, rule_groups=("baal", "ydk", "mlk")):
     return LexicalContextResolver(rule_groups=rule_groups)
 
 
@@ -390,3 +428,85 @@ def _resolve_bt_baal_phrase(
         return filtered or candidates
     filtered = tuple(candidate for candidate in candidates if not _is_bt_house(candidate))
     return filtered or candidates
+
+
+def _canonical_mlk_title(comment: str, nominal_candidate: Candidate) -> Candidate:
+    return Candidate(
+        "mlk(I)/",
+        _MLK_TITLE_DULAT,
+        nominal_candidate.pos,
+        _MLK_TITLE_GLOSS,
+        comment=comment,
+    )
+
+
+def _is_nominal_genitive_target(token: Token) -> bool:
+    for candidate in token._.resolved_candidates:
+        pos = candidate.pos
+        if "TN" in pos or "DN" in pos or "PN" in pos or "n." in pos or "adj." in pos:
+            return True
+    return False
+
+
+def _is_toponym(token: Token) -> bool:
+    return any("TN" in candidate.pos for candidate in token._.resolved_candidates)
+
+
+def _is_mlk_title_context(doc: Doc, index: int) -> bool:
+    token = doc[index]
+    previous = doc[index - 1] if index > 0 else None
+    next_token = doc[index + 1] if index + 1 < len(doc) else None
+    if next_token is not None:
+        if _is_toponym(next_token):
+            return True
+        if any("cstr." in candidate.pos for candidate in token._.resolved_candidates):
+            if _is_nominal_genitive_target(next_token):
+                return True
+        if next_token._.surface in _MLK_TITLE_NEXT_SURFACES:
+            return True
+        if previous is not None and previous._.surface in _MLK_TITLE_PREV_SURFACES:
+            if _is_nominal_genitive_target(next_token):
+                return True
+    if previous is not None:
+        if any("PN" in candidate.pos for candidate in previous._.resolved_candidates):
+            return True
+        if previous._.surface == "il":
+            return True
+    return False
+
+
+def _resolve_mlk_context(
+    doc: Doc,
+    index: int,
+    candidates: tuple[Candidate, ...],
+    *,
+    attestation_index: DulatAttestationIndex,
+) -> tuple[Candidate, ...]:
+    has_title = any(_is_mlk_title(candidate) for candidate in candidates)
+    has_kingdom = any(_is_mlk_kingdom(candidate) for candidate in candidates)
+    has_verbal = any(_is_mlk_verbal(candidate) for candidate in candidates)
+    if has_title or (not has_kingdom and not has_verbal):
+        return candidates
+    section_ref = doc[index]._.section_ref
+    if attestation_index.has_reference_for_variant_token(_MLK_VERBAL_DULAT, section_ref):
+        return candidates
+    if not (
+        attestation_index.has_reference_for_variant_token(_MLK_TITLE_DULAT, section_ref)
+        or _is_mlk_title_context(doc, index)
+    ):
+        return candidates
+
+    nominal_candidate = next(
+        (candidate for candidate in candidates if _is_mlk_kingdom(candidate)),
+        None,
+    )
+    if nominal_candidate is None:
+        return candidates
+    comment = next((candidate.comment for candidate in candidates if candidate.comment), "")
+    replacement = _canonical_mlk_title(comment, nominal_candidate)
+    preserved = tuple(
+        candidate
+        for candidate in candidates
+        if not _is_mlk_verbal(candidate) and not _is_mlk_kingdom(candidate)
+    )
+    return (*preserved, replacement) if preserved else (replacement,)

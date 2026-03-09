@@ -15,6 +15,7 @@ from pipeline.k_context_step_factory import build_spacy_k_context_steps
 from pipeline.l_context_step_factory import build_spacy_l_context_steps
 from pipeline.lexical_context_step_factory import (
     build_spacy_baal_context_steps,
+    build_spacy_mlk_context_steps,
     build_spacy_ydk_context_steps,
 )
 from pipeline.morph_context_step_factory import build_spacy_morph_context_steps
@@ -145,6 +146,11 @@ class TabletParsingPipeline:
             attestation_index=self.attestation_index
         )
         self._post_baal_context_steps: List[RefinementStep] = []
+        self._pre_mlk_context_steps: List[RefinementStep] = []
+        self._mlk_context_steps: List[RefinementStep] = build_spacy_mlk_context_steps(
+            attestation_index=self.attestation_index
+        )
+        self._post_mlk_context_steps: List[RefinementStep] = []
         self._pre_l_context_steps: List[RefinementStep] = []
         self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps()
         self._pre_k_context_steps: List[RefinementStep] = []
@@ -180,6 +186,9 @@ class TabletParsingPipeline:
             *self._pre_baal_context_steps,
             *self._baal_context_steps,
             *self._post_baal_context_steps,
+            *self._pre_mlk_context_steps,
+            *self._mlk_context_steps,
+            *self._post_mlk_context_steps,
             *self._pre_l_context_steps,
             *self._l_context_steps,
             *self._pre_k_context_steps,
@@ -209,6 +218,9 @@ class TabletParsingPipeline:
                 *self._pre_baal_context_steps,
                 *self._baal_context_steps,
                 *self._post_baal_context_steps,
+                *self._pre_mlk_context_steps,
+                *self._mlk_context_steps,
+                *self._post_mlk_context_steps,
                 *self._pre_l_context_steps,
                 *self._l_context_steps,
                 *self._pre_k_context_steps,

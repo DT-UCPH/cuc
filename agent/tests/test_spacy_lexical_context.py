@@ -6,6 +6,7 @@ from pipeline.dulat_attestation_index import DulatAttestationIndex, normalize_re
 from spacy_ugaritic.doc_builder import build_doc, parse_grouped_tokens
 from spacy_ugaritic.language import (
     create_ugaritic_baal_context_nlp,
+    create_ugaritic_mlk_context_nlp,
     create_ugaritic_ydk_context_nlp,
 )
 
@@ -175,6 +176,75 @@ class SpacyYdkContextTest(unittest.TestCase):
         )
         self.assertEqual(doc[0]._.resolved_candidates[0].analysis, "yd(II)/+k=")
         self.assertEqual(doc[0]._.resolved_candidates[0].pos, "n. m. cstr. nom.")
+
+
+class SpacyMlkContextTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.nlp = create_ugaritic_mlk_context_nlp()
+
+    def _doc_from_lines(
+        self,
+        *lines: str,
+        source_name: str = "KTU 1.test.tsv",
+        attestation_index: DulatAttestationIndex | None = None,
+    ):
+        tokens = parse_grouped_tokens(lines)
+        doc = build_doc(self.nlp, tokens, source_name=source_name)
+        doc.user_data["attestation_index"] = attestation_index or DulatAttestationIndex.empty()
+        return self.nlp(doc)
+
+    def test_resolves_mlk_title_before_place_name(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tmlk\tmlk[\t/m-l-k/\tvb\tto reign\t",
+            "1\tmlk\tmlk(II)/\tmlk (II)\tn. sg. abs. nom.\tkingdom (power and territory)\t",
+            "2\tugrt\tugrt/\tủgrt\tTN sg. abs. nom.\tUgarit\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["mlk(I)/"],
+        )
+        self.assertEqual(doc[0]._.resolved_candidates[0].pos, "n. sg. abs. nom.")
+
+    def test_resolves_mlk_title_after_personal_name(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tpbl\tpbl/\tpbl\tPN sg. abs. nom.\tpbl\t",
+            "2\tmlk\tmlk[/\t/m-l-k/\tvb G act. ptcpl. m. sg. abs. nom.\tto reign\t",
+            "2\tmlk\tmlk(II)/\tmlk (II)\tn. m. sg. abs. nom.\tkingdom (power and territory)\t",
+            "3\tl\tl(I)\tl (I)\tprep.\tto\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["mlk(I)/"],
+        )
+
+    def test_resolves_mlk_title_in_epistolary_message_formula(self) -> None:
+        doc = self._doc_from_lines(
+            "1\ttḥm\ttḥm/\ttḥm\tn. sg. abs. nom.\tmessage\t",
+            "2\tmlk\tmlk[\t/m-l-k/\tvb\tto reign\t",
+            "2\tmlk\tmlk(II)/\tmlk (II)\tn. sg. abs. nom.\tkingdom (power and territory)\t",
+            "3\tbnk\tbn(I)/+k\tbn (I)\tn. cstr. nom.\tson\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["mlk(I)/"],
+        )
+
+    def test_keeps_directly_attested_mlk_verbal_variant(self) -> None:
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={("/m-l-k/", ""): {normalize_reference_label("CAT 1.16 VI:37")}},
+        )
+        doc = self._doc_from_lines(
+            "# KTU 1.16 VI:37\t\t\t\t\t\t",
+            "1\tmlk\tmlk[/\t/m-l-k/\tvb G act. ptcpl. m. sg. abs. nom.\tto reign\t",
+            "1\tmlk\tmlk(II)/\tmlk (II)\tn. m. sg. abs. nom.\tkingdom (power and territory)\t",
+            attestation_index=attestation_index,
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["mlk[/", "mlk(II)/"],
+        )
 
 
 if __name__ == "__main__":

@@ -47,6 +47,13 @@ def create_ugaritic_baal_context_nlp() -> Language:
     return nlp
 
 
+def create_ugaritic_mlk_context_nlp() -> Language:
+    ensure_extensions()
+    nlp = spacy.blank("xx")
+    nlp.add_pipe("ugaritic_lexical_context_resolver", config={"rule_groups": ["mlk"]})
+    return nlp
+
+
 def create_ugaritic_ydk_context_nlp() -> Language:
     ensure_extensions()
     nlp = spacy.blank("xx")

@@ -6,6 +6,7 @@ from pipeline.dulat_attestation_index import DulatAttestationIndex
 from pipeline.steps.base import RefinementStep
 from pipeline.steps.spacy_lexical_context import (
     SpacyBaalContextDisambiguator,
+    SpacyMlkContextDisambiguator,
     SpacyYdkContextDisambiguator,
 )
 
@@ -20,3 +21,10 @@ def build_spacy_baal_context_steps(
 def build_spacy_ydk_context_steps() -> list[RefinementStep]:
     """Return the active spaCy-based `ydk` lexical-context strategy."""
     return [SpacyYdkContextDisambiguator()]
+
+
+def build_spacy_mlk_context_steps(
+    attestation_index: DulatAttestationIndex | None = None,
+) -> list[RefinementStep]:
+    """Return the active spaCy-based `mlk` lexical-context strategy."""
+    return [SpacyMlkContextDisambiguator(attestation_index=attestation_index)]

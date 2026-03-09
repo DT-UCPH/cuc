@@ -1,5 +1,38 @@
 ## 2026-03-09
 
+- Added a dedicated `mlk` lexical-context resolver in `spacy_ugaritic/components/lexical_context.py` and threaded it through the runtime pipeline via:
+  - `spacy_ugaritic/language.py`
+  - `pipeline/steps/spacy_lexical_context.py`
+  - `pipeline/lexical_context_step_factory.py`
+  - `pipeline/tablet_parsing.py`
+- The new rule upgrades the recurrent bare `mlk` ambiguity from `mlk(II)/` "kingdom" vs `/m-l-k/` "to reign" to the attested title noun `mlk(I)/` "king" in high-confidence title contexts already visible at the early lexical stage:
+  - `PN + mlk`
+  - `mlk + TN`
+  - epistolary/title formulas like `tḥm mlk bnk`
+  - legacy nominal chains like `l/lpn + mlk + noun`
+- Normalized legacy reviewed bare `mlk/` notation to `mlk(I)/` in `reviewed_normalization.py` so mixed old/new reviewed files score the same `king` reading consistently.
+- Added focused regression coverage in:
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_spacy_lexical_context_step.py`
+  - `tests/test_reviewed_morphology_evaluation.py`
+- Verified with focused unit tests, `ruff format`, `ruff check`, targeted tablet reruns, and a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass.
+- On the expanded reviewed set, this iteration improved scoring from:
+  - exact-set accuracy `0.5171 -> 0.5237`
+  - macro F1 `0.5743 -> 0.5805`
+  - micro F1 `0.5348 -> 0.5413`
+  - gold coverage `0.5991 -> 0.6049`
+- Biggest per-file score gains were in:
+  - `KTU 2.13.txt` micro F1 `+0.0472`
+  - `KTU 2.15.txt` micro F1 `+0.0429`
+  - `KTU 2.38.txt` micro F1 `+0.0415`
+  - `KTU 2.14.txt` micro F1 `+0.0322`
+- Full-corpus lint also improved against the previous full baseline:
+  - total issues `9630 -> 9547`
+  - `ERROR` unchanged at `1242`
+  - `WARNING 1871 -> 1810`
+  - `INFO` unchanged at `3478`
+  - the largest meaningful lint drop was `Deverbal form matches both verb and noun entries in DULAT` `1057 -> 996`
+
 - Broadened `pipeline/steps/weak_verb.py` from weak-initial `/y-/` handling to weak-initial dropped-radical verb handling for attested `/l-/` forms too.
 - The step now rewrites `/l-q-ḥ/` surfaces with hidden initial `l` to reconstructable canonical analyses, including:
   - `yqḥ -> !y!(lqḥ[`
