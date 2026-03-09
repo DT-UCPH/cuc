@@ -1,5 +1,26 @@
 ## 2026-03-09
 
+- Pruned noisy bare `šlm` bundles in `spacy_ugaritic/components/morph_context.py` for KTU 2 letter texts.
+- Bare `šlm` rows that carried the full noun/G/D/adjective bundle now keep only the real primary readings `šlm(I)/` and `šlm[`, dropping the noisy D-suffix and adjective overgeneration without forcing noun-versus-verb where the context remains ambiguous.
+- Added regression coverage in `tests/test_spacy_morph_context.py`.
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_morph_context`
+  - `uv run ruff format agent/spacy_ugaritic/components/morph_context.py agent/tests/test_spacy_morph_context.py`
+  - `uv run ruff check agent/spacy_ugaritic/components/morph_context.py agent/tests/test_spacy_morph_context.py`
+  - targeted tablet reruns for `KTU 2.11.tsv`, `KTU 2.13.tsv`, `KTU 2.16.tsv`, and `KTU 2.38.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- Focused reviewed-letter wins include:
+  - `KTU 2.11.txt`: `156617 šlm` now drops the D/adjective noise and keeps only noun + G
+  - `KTU 2.13.txt`: `156674 šlm` and `156679 šlm` now drop the D/adjective noise and keep only noun + G
+  - `KTU 2.16.txt`: `156804 šlm` and `156808 šlm` now drop the D/adjective noise and keep only noun + G
+  - `KTU 2.38.txt`: `157866 šlm` now drops the D/adjective noise and keeps only noun + G
+- Refreshed full-corpus reports now stand at:
+  - exact-set accuracy `0.5524`
+  - macro F1 `0.6090`
+  - micro F1 `0.5703`
+  - gold coverage `0.6322`
+  - lint totals unchanged at `9539` issues with `ERROR 1242`, `WARNING 1812`, `INFO 3478`
+
 - Extended legacy reviewed-homonym normalization in `reviewed_normalization.py`.
 - Bare legacy `il/` and `bn/` now normalize to `il(I)/` and `bn(I)/`, matching the already-established `mlk/ -> mlk(I)/` scorer convention for migrated reviewed files.
 - Updated regression coverage in:

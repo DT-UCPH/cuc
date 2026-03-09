@@ -389,6 +389,23 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["!t!(nġr[+k"],
         )
 
+    def test_epistolary_bare_shlm_prunes_d_suffix_and_adjective_noise(self) -> None:
+        doc = self._doc_from_lines(
+            "1\thnny\thn+ny\thn\tfunctor\tbehold!\t",
+            "2\tˤmn\tˤm(I)+n\tʕm (I)\tprep.\tto\t",
+            "3\tšlm\tšlm(I)/\tšlm (I)\tn. m. sg. abs. nom.\tpeace\t",
+            "3\tšlm\tšlm[\t/š-l-m/\tvb G suffc. 3 m. sg.\tto be well\t",
+            "3\tšlm\tšlm[:d\t/š-l-m/\tvb D suffc. 3 m. sg.\tto be well\t",
+            "3\tšlm\tšlm[:d:w\t/š-l-m/\tvb D suffc. 3 m. pl.\tto be well\t",
+            "3\tšlm\tšlm(III)/\tšlm (III)\tadj. m. sg. abs. nom.\tpure\t",
+            "4\tṯmny\tṯm+ny\tṯm\tadv.\tthere\t",
+            source_name="KTU 2.38.tsv",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[2]._.resolved_candidates],
+            ["šlm(I)/", "šlm["],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

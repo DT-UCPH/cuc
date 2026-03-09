@@ -43,6 +43,7 @@ class MorphContextResolver:
         self._apply_epistolary_rgm_rules(doc)
         self._apply_non_epistolary_rgm_rules(doc)
         self._apply_letter_blessing_rules(doc)
+        self._apply_epistolary_bare_shlm_rules(doc)
         self._apply_kbd_object_rules(doc)
         for index, token in enumerate(doc):
             if not _has_multiple_verbal_png(token):
@@ -288,6 +289,20 @@ class MorphContextResolver:
             shlm_candidate = _prefer_letter_blessing_shlm(token, clitic)
             if shlm_candidate is not None:
                 self._maybe_replace(token, (shlm_candidate,), "letter-blessing-shlm")
+
+    def _apply_epistolary_bare_shlm_rules(self, doc: Doc) -> None:
+        if not (doc._.source_name or "").startswith("KTU 2."):
+            return
+        for token in doc:
+            if token._.surface.strip() != "šlm" or not _has_bare_shlm_candidates(token):
+                continue
+            filtered = tuple(
+                candidate
+                for candidate in token._.resolved_candidates
+                if _is_primary_epistolary_shlm_candidate(candidate)
+            )
+            if filtered:
+                self._maybe_replace(token, filtered, "epistolary-bare-shlm")
 
     def _apply_kbd_object_rules(self, doc: Doc) -> None:
         for index, token in enumerate(doc):
@@ -575,6 +590,37 @@ def _prefer_letter_blessing_shlm(token: Token, clitic: str) -> Candidate | None:
             comment=candidate.comment,
         )
     return None
+
+
+def _has_bare_shlm_candidates(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    has_primary = any(_is_primary_epistolary_shlm_candidate(candidate) for candidate in candidates)
+    has_noise = any(_is_epistolary_shlm_noise(candidate) for candidate in candidates)
+    return has_primary and has_noise
+
+
+def _is_primary_epistolary_shlm_candidate(candidate: Candidate) -> bool:
+    return _is_shlm_peace_noun(candidate) or _is_shlm_g_suffix(candidate)
+
+
+def _is_shlm_peace_noun(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "šlm(I)/" and candidate.dulat.strip() == "šlm (I)"
+
+
+def _is_shlm_g_suffix(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "šlm[" and candidate.dulat.strip() == "/š-l-m/"
+
+
+def _is_epistolary_shlm_noise(candidate: Candidate) -> bool:
+    return _is_shlm_d_suffix(candidate) or _is_shlm_adjective(candidate)
+
+
+def _is_shlm_d_suffix(candidate: Candidate) -> bool:
+    return candidate.dulat.strip() == "/š-l-m/" and "vb d suffc." in candidate.pos.lower()
+
+
+def _is_shlm_adjective(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "šlm(III)/" and candidate.dulat.strip() == "šlm (III)"
 
 
 def _has_kbd_noun_candidate(token: Token) -> bool:
