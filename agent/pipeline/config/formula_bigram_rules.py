@@ -184,4 +184,23 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
         min_count=20,
         note="Epithets formula: Lady Asherah.",
     ),
+    FormulaBigramRule(
+        first_surface="aṯrt",
+        second_surface="ym",
+        first_target=TokenParse(
+            analysis="aṯrt(II)/",
+            dulat="ảṯrt (II)",
+            pos="DN",
+            gloss="Asherah",
+        ),
+        second_target=TokenParse(
+            analysis="ym(II)/",
+            dulat="ym (II)",
+            pos="n. m.",
+            gloss="sea",
+        ),
+        allow_first_build=True,
+        min_count=20,
+        note="Epithet formula: Asherah of the Sea.",
+    ),
 )

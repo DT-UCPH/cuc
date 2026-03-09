@@ -13,6 +13,7 @@ from spacy_ugaritic.types import Candidate
 _CASE_RE = re.compile(r"(?<!\w)(nom\.|gen\.|acc\.|acc\.\?)(?!\w)")
 _NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
 _EPISTOLARY_RGM_OPENING_HINTS = frozenset({"tḥm", "yšlm", "ilm"})
+_KBD_OBJECT_PRONOUN_SURFACES = frozenset({"hmt", "hwt", "hyt"})
 _LETTER_BLESSING_CLITICS = {
     "tġrk": "+k",
     "tšlmk": "+k",
@@ -40,6 +41,7 @@ class MorphContextResolver:
         self._apply_journey_formula_rules(doc)
         self._apply_epistolary_rgm_rules(doc)
         self._apply_letter_blessing_rules(doc)
+        self._apply_kbd_object_rules(doc)
         for index, token in enumerate(doc):
             if not _has_multiple_verbal_png(token):
                 continue
@@ -266,6 +268,20 @@ class MorphContextResolver:
             if shlm_candidate is not None:
                 self._maybe_replace(token, (shlm_candidate,), "letter-blessing-shlm")
 
+    def _apply_kbd_object_rules(self, doc: Doc) -> None:
+        for index, token in enumerate(doc):
+            if token._.surface.strip() != "kbd":
+                continue
+            if not _has_kbd_noun_candidate(token):
+                continue
+            if index + 1 >= len(doc) or not _is_personal_pronoun_token(doc[index + 1]):
+                continue
+            self._maybe_replace(
+                token,
+                (_build_kbd_d_imperative(token),),
+                "kbd-object-imperative",
+            )
+
 
 def _has_multiple_verbal_png(token: Token) -> bool:
     candidates = tuple(token._.resolved_candidates)
@@ -332,6 +348,14 @@ def _is_second_singular_pronoun(token: Token) -> bool:
         if analysis.startswith("at(I)") or dulat.startswith("ảt (I)"):
             return True
     return False
+
+
+def _is_personal_pronoun_token(token: Token) -> bool:
+    if token._.surface.strip() in _KBD_OBJECT_PRONOUN_SURFACES:
+        return True
+    return any(
+        "pers. pn." in (candidate.pos or "").lower() for candidate in token._.resolved_candidates
+    )
 
 
 def _subject_numbers(token: Token) -> set[str]:
@@ -487,6 +511,20 @@ def _prefer_letter_blessing_shlm(token: Token, clitic: str) -> Candidate | None:
             comment=candidate.comment,
         )
     return None
+
+
+def _has_kbd_noun_candidate(token: Token) -> bool:
+    return any(
+        candidate.dulat.strip().startswith("kbd (") for candidate in token._.resolved_candidates
+    )
+
+
+def _build_kbd_d_imperative(token: Token) -> Candidate:
+    comment = next(
+        (candidate.comment for candidate in token._.resolved_candidates if candidate.comment),
+        "",
+    )
+    return Candidate("kbd[:d", "/k-b-d/", "vb D impv. 2", "to honour", comment=comment)
 
 
 def _is_function_like(candidate: Candidate) -> bool:

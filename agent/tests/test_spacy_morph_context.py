@@ -256,6 +256,46 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["rgm[/", "rgm/"],
         )
 
+    def test_builds_kbd_d_imperative_before_personal_pronoun(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tw\tw\tw\tconj.\tand\t",
+            "2\tkbd\tkbd(II)/\tkbd (II)\tn. m. sg. abs. nom.\ttotal (quantity or price)\t",
+            "3\thyt\thy&t\thy\tpers. pn.\tshe\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["kbd[:d"],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["vb D impv. 2"],
+        )
+        self.assertEqual(
+            [candidate.dulat for candidate in doc[1]._.resolved_candidates],
+            ["/k-b-d/"],
+        )
+
+    def test_leaves_kbd_nominal_without_following_pronoun(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tkbd\tkbd(II)/\tkbd (II)\tn. m. sg. abs. nom.\ttotal (quantity or price)\t",
+            "2\tbˤl\tbˤl(II)/\tbʕl (II)\tDN m. sg. abs. nom.\tBaʿlu/Baal\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["kbd(II)/"],
+        )
+
+    def test_builds_kbd_d_imperative_for_hwt_surface_fallback(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tw\tw\tw\tconj.\tand\t",
+            "2\tkbd\tkbd(II)/\tkbd (II)\tn. m. sg. abs. nom.\ttotal (quantity or price)\t",
+            "3\thwt\thw(t(I)/t\thwt (I)\tn. f. sg. abs. gen.\tword\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["kbd[:d"],
+        )
+
     def test_letter_blessing_pair_prefers_prefixed_suffix_forms(self) -> None:
         doc = self._doc_from_lines(
             "1\tilm\til(I)/m\tỉl (I)\tn. m. pl.\tgod\t",

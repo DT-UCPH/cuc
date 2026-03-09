@@ -33,4 +33,8 @@ def normalize_reviewed_analysis(analysis: str) -> str:
     if text == "mlk/":
         return "mlk(I)/"
 
+    # Legacy reviewed files occasionally overmark the imperative `kbd`.
+    if text == "!!kbd[:d":
+        return "kbd[:d"
+
     return text

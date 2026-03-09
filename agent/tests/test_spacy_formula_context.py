@@ -42,6 +42,17 @@ class SpacyFormulaContextTest(unittest.TestCase):
         self.assertEqual(doc[1]._.resolved_candidates[0].pos, "DN")
         self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "Asherah")
 
+    def test_builds_asherah_and_rewrites_sea_in_athrt_ym_formula(self) -> None:
+        doc = self._doc_from_lines(
+            "1	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f.	back part (of the head)	",
+            "2	ym	ym(I)/;ym(II)/	ym (I);ym (II)	n. m.;n. m.	day;sea	",
+        )
+        self.assertEqual(doc[0]._.resolved_candidates[0].analysis, "aṯrt(II)/")
+        self.assertEqual(doc[0]._.resolved_candidates[0].pos, "DN")
+        self.assertEqual(doc[0]._.resolved_candidates[0].gloss, "Asherah")
+        self.assertEqual(doc[1]._.resolved_candidates[0].analysis, "ym(II)/")
+        self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "sea")
+
     def test_rewrites_trigram_target_only_when_variants_exist(self) -> None:
         doc = self._doc_from_lines(
             (

@@ -1,5 +1,30 @@
 ## 2026-03-09
 
+- Added a new `aṯrt + ym` epithet rule in `pipeline/config/formula_bigram_rules.py` and extended `spacy_ugaritic/components/formula_context.py` coverage.
+- The formula resolver now treats `aṯrt ym` as the Asherah-of-the-Sea epithet, rebuilding `aṯrt(II)/` when only the body-part noun survived upstream and pruning `ym(I)/` "day" in favor of `ym(II)/` "sea".
+- Added a narrow `kbd` object-context rule in `spacy_ugaritic/components/morph_context.py` for the attested imperative pattern `kbd + pronoun`.
+- The morph resolver now rebuilds `kbd[:d` `/k-b-d/ vb D impv. 2` before following object-pronoun surfaces such as `hyt`, `hwt`, and `hmt`, fixing rows that were previously stranded as `kbd(II)/`.
+- Normalized legacy reviewed `!!kbd[:d` to canonical `kbd[:d` in `reviewed_normalization.py` so the scorer does not treat the same imperative reading as a mismatch.
+- Added regression coverage in:
+  - `tests/test_spacy_formula_context.py`
+  - `tests/test_spacy_morph_context.py`
+  - `tests/test_reviewed_morphology_evaluation.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_formula_context tests.test_spacy_morph_context tests.test_reviewed_morphology_evaluation`
+  - `uv run ruff format ...`
+  - `uv run ruff check ...`
+  - targeted reruns of `KTU 1.1.tsv`, `KTU 1.3.tsv`, `KTU 1.4.tsv`, `KTU 1.6.tsv`, and `KTU 1.17.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- On the expanded reviewed set, this iteration improved scoring from:
+  - exact-set accuracy `0.5291 -> 0.5310`
+  - macro F1 `0.5859 -> 0.5870`
+  - micro F1 `0.5459 -> 0.5468`
+  - gold coverage `0.6103 -> 0.6111`
+- Lint severity totals stayed flat in the full rerun:
+  - `ERROR 1242`
+  - `WARNING 1824`
+  - `INFO 3478`
+
 - Added a late `BaalGlossFixer` in `pipeline/steps/baal_gloss.py` and wired it into `pipeline/tablet_parsing.py` after morph disambiguation.
 - The step resolves the recurring `bʕl (II)` gloss leak where suffixed rows already disambiguated to common-noun `n. ...` were still carrying the onomastic gloss `Baʿlu/Baal`.
 - It now keeps:
