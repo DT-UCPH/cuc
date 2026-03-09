@@ -15,7 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156991	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 156992	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 156992	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-156993	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+156993	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
 156994	u	u	ủ	conj.	or	
 # KTU 2.23 3						
 156995	ˤṯtrab	ˤṯtrab/	ʕṯtrab	PN sg. cstr. nom.	ʿṯtrab	
@@ -24,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 4						
 156998	ylak	!y!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 3 m. sg.	to send (a message)	
 156999	l	l(I)	l (I)	prep.	to	
-157000	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157000	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen.	lord	
 157001	k	+k	-k (I)			
 157001	k	~k	-k (II)			
 157001	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -60,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157013	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 157013	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 # KTU 2.23 8						
-157014	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157014	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
 157015	ˤmxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 9						
 157016	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
@@ -76,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 10						
 157020	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 157020	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-157021	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157021	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
 # KTU 2.23 11						
 157022	x	?	?	?	?	
 # KTU 2.23 12						
@@ -89,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 14						
 157027	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 157027	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-157028	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157028	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
 # KTU 2.23 15						
 157029	w	w	w	conj.	and	
 157030	ank	ank	ảnk	pers. pn.	I	
@@ -105,7 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157036	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 157037	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 157037	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-157038	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157038	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
 157039	p	p(I)	p (I)	conj. functor	and	
 157039	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 157039	p	p(II)	p (II)	adv.	here	
@@ -120,13 +120,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157046	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 157046	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
 157047	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-157048	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157048	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
 # KTU 2.23 20						
 157049	w	w	w	conj.	and	
 157050	urk	urk/	ủrk	n. m. sg. cstr. nom.	length	
 157051	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
 157051	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
-157052	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157052	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
 # KTU 2.23 21						
 157053	l	l(I)	l (I)	prep.	to	
 157054	pn	pn(m/	pnm	n. m. pl. tant. abs. gen.	in front	
@@ -151,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 24						
 157066	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 157066	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-157067	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+157067	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
 # KTU 2.23 25						
 157068	b	b	b	prep.	in	
 157069	x	?	?	?	?	
