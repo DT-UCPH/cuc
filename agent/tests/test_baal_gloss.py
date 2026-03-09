@@ -23,7 +23,7 @@ class BaalGlossFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.gloss, "lord")
 
-    def test_keeps_baal_dn_gloss_for_divine_name_rows(self) -> None:
+    def test_leaves_unsuffixed_baal_dn_gloss_untouched(self) -> None:
         row = TabletRow(
             "2",
             "bˤl",
@@ -34,11 +34,24 @@ class BaalGlossFixerTest(unittest.TestCase):
             "",
         )
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.gloss, "Baʿlu/Baal")
+        self.assertEqual(result, row)
+
+    def test_leaves_unsuffixed_baal_noun_gloss_untouched(self) -> None:
+        row = TabletRow(
+            "3",
+            "bˤl",
+            "bˤl(II)/",
+            "bʕl (II)",
+            "n. m. pl. abs. gen.",
+            "Baʿlu/Baal",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result, row)
 
     def test_leaves_mixed_baal_pos_untouched(self) -> None:
         row = TabletRow(
-            "3",
+            "4",
             "bˤly",
             "bˤl(II)/+y",
             "bʕl (II)",

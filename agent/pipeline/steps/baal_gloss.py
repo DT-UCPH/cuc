@@ -9,6 +9,11 @@ _BAAL_DN_GLOSS = "Baʿlu/Baal"
 _BAAL_NOUN_GLOSS = "lord"
 
 
+def _is_suffixed_baal_analysis(analysis: str) -> bool:
+    text = (analysis or "").strip()
+    return text.startswith("bˤl(II)/+") or text.startswith("bˤl(II)&")
+
+
 class BaalGlossFixer(RefinementStep):
     """Keep Baal glosses aligned with resolved DN vs noun POS."""
 
@@ -18,6 +23,8 @@ class BaalGlossFixer(RefinementStep):
 
     def refine_row(self, row: TabletRow) -> TabletRow:
         if row.dulat.strip() != _BAAL_DULAT:
+            return row
+        if not _is_suffixed_baal_analysis(row.analysis):
             return row
         pos = row.pos.strip()
         if "DN" in pos and "n." not in pos:

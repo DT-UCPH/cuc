@@ -1,9 +1,10 @@
 ## 2026-03-09
 
 - Added a late `BaalGlossFixer` in `pipeline/steps/baal_gloss.py` and wired it into `pipeline/tablet_parsing.py` after morph disambiguation.
-- The step resolves the recurring `bʕl (II)` gloss leak where rows already disambiguated to common-noun `n. ...` were still carrying the onomastic gloss `Baʿlu/Baal`.
+- The step resolves the recurring `bʕl (II)` gloss leak where suffixed rows already disambiguated to common-noun `n. ...` were still carrying the onomastic gloss `Baʿlu/Baal`.
 - It now keeps:
-  - noun `bʕl (II)` rows at gloss `lord`
+  - suffixed noun `bʕl (II)` rows at gloss `lord`
+  - unsuffixed `bʕl (II)` rows untouched, since many reviewed contexts still require the DN/noun ambiguity to remain visible through `Baʿlu/Baal`
   - pure `DN` `bʕl (II)` rows at gloss `Baʿlu/Baal`
   - unresolved mixed `n./DN` rows untouched until later disambiguation
 - Added focused regression coverage in `tests/test_baal_gloss.py`.
@@ -12,6 +13,7 @@
   - `uv run ruff format ...`
   - `uv run ruff check ...`
   - targeted rerun of `KTU 2.55.tsv`, which now keeps `158552 bˤly` as `n. m. sg. cstr. gen.` with gloss `lord`
+  - targeted rerun of `KTU 1.3.tsv`, which restores unsuffixed `138003 bˤl` to gloss `Baʿlu/Baal`
 
 - Added a dedicated `mlk` lexical-context resolver in `spacy_ugaritic/components/lexical_context.py` and threaded it through the runtime pipeline via:
   - `spacy_ugaritic/language.py`
