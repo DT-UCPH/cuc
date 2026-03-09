@@ -158,6 +158,38 @@ class SpacyBaalContextTest(unittest.TestCase):
             ["DN m. sg. abs. nom."],
         )
 
+    def test_prunes_anat_homographs_after_hln(self) -> None:
+        doc = self._doc_from_lines(
+            "1\thln\thln\thln\tdeictic adv. functor\tlook!\t",
+            "2\tˤnt\tˤn(I)/t=\tʕn (I)\tn. f. pl. abs. nom.\teye\t",
+            "2\tˤnt\tˤn(t(I)/t\tʕnt (I)\tDN f. sg. abs. nom.\tʿAnatu/Anat\t",
+            "2\tˤnt\tˤnt(II)\tʕnt (II)\tadv.\tnow\t",
+            "3\tl\tl(I)\tl (I)\tprep.\tto\t",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["ˤn(t(I)/t"],
+        )
+
+    def test_preserves_attested_eye_reading_for_taht_ant_ars(self) -> None:
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={("ʕn", "I"): {normalize_reference_label("CAT 1.3 IV:36")}},
+        )
+        doc = self._doc_from_lines(
+            "# KTU 1.3 IV:36\t\t\t\t\t\t",
+            "1\ttḥt\ttḥt(I)\ttḥt (I)\tprep.\tunder\t",
+            "2\tˤnt\tˤn(I)/t=\tʕn (I)\tn. f. pl. cstr. gen.\teye\t",
+            "2\tˤnt\tˤn(t(I)/t\tʕnt (I)\tDN f. sg. cstr. gen.\tʿAnatu/Anat\t",
+            "3\tarṣ\tarṣ/\tảrṣ\tn. f. sg. abs. gen.\tearth\t",
+            attestation_index=attestation_index,
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["ˤn(I)/t="],
+        )
+
 
 class SpacyYdkContextTest(unittest.TestCase):
     def setUp(self) -> None:

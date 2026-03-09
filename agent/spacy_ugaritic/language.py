@@ -43,7 +43,7 @@ def create_ugaritic_offering_context_nlp() -> Language:
 def create_ugaritic_baal_context_nlp() -> Language:
     ensure_extensions()
     nlp = spacy.blank("xx")
-    nlp.add_pipe("ugaritic_lexical_context_resolver", config={"rule_groups": ["baal"]})
+    nlp.add_pipe("ugaritic_lexical_context_resolver", config={"rule_groups": ["baal", "anat"]})
     return nlp
 
 

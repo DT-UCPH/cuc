@@ -37,4 +37,8 @@ def normalize_reviewed_analysis(analysis: str) -> str:
     if text == "!!kbd[:d":
         return "kbd[:d"
 
+    # Legacy reviewed files sometimes leave the feminine `eye` noun underspecified.
+    if text == "ˤn/t":
+        return "ˤn(I)/t="
+
     return text

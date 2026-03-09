@@ -32,6 +32,33 @@ _MLK_KINGDOM_DULAT = "mlk (II)"
 _MLK_TITLE_GLOSS = "king"
 _MLK_TITLE_NEXT_SURFACES = frozenset({"ab", "bn", "bnk", "ugrt", "ṣr", "šmy", "šink"})
 _MLK_TITLE_PREV_SURFACES = frozenset({"l", "lpn", "pn", "tḥm"})
+_ANAT_DN_DULAT = "ʕnt (I)"
+_ANAT_EYE_DULAT = "ʕn (I)"
+_ANAT_NOW_DULAT = "ʕnt (II)"
+_ANAT_DN_PREV_SURFACES = frozenset(
+    {
+        "aṯrt",
+        "ap",
+        "bht",
+        "bˤl",
+        "btlt",
+        "hln",
+        "hlm",
+        "kbd",
+        "l",
+        "lb",
+        "lt",
+        "pˤn",
+        "pl",
+        "rḥm",
+        "ršp",
+        "š",
+        "tḥdy",
+        "ugrt",
+        "ˤt",
+        "ḥmt",
+    }
+)
 
 
 @dataclass(frozen=True)
@@ -87,6 +114,18 @@ def _is_mlk_kingdom(candidate: Candidate) -> bool:
 
 def _is_mlk_title(candidate: Candidate) -> bool:
     return candidate.analysis.strip() == "mlk(I)/" and candidate.dulat.strip() == _MLK_TITLE_DULAT
+
+
+def _is_anat_divine(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "ˤn(t(I)/t" and candidate.dulat.strip() == _ANAT_DN_DULAT
+
+
+def _is_anat_eye(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "ˤn(I)/t=" and candidate.dulat.strip() == _ANAT_EYE_DULAT
+
+
+def _is_anat_now(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "ˤnt(II)" and candidate.dulat.strip() == _ANAT_NOW_DULAT
 
 
 def _normalize_baal_verbal(candidate: Candidate) -> Candidate:
@@ -199,7 +238,7 @@ def _packed_baal_labourer_row(candidate: Candidate) -> bool:
 
 
 class LexicalContextResolver:
-    def __init__(self, *, rule_groups: Iterable[str] = ("baal", "ydk", "mlk")) -> None:
+    def __init__(self, *, rule_groups: Iterable[str] = ("baal", "anat", "ydk", "mlk")) -> None:
         self._rule_groups = frozenset(rule_groups)
 
     def __call__(self, doc: Doc) -> Doc:
@@ -209,6 +248,8 @@ class LexicalContextResolver:
 
         if "baal" in self._rule_groups:
             self._apply_baal_rules(doc)
+        if "anat" in self._rule_groups:
+            self._apply_anat_rules(doc)
         if "mlk" in self._rule_groups:
             self._apply_mlk_rules(doc)
         if "ydk" in self._rule_groups:
@@ -307,6 +348,22 @@ class LexicalContextResolver:
             comment = next((candidate.comment for candidate in candidates if candidate.comment), "")
             self._maybe_replace(token, (_canonical_ydk(comment),), "ydk-love-before-ṣġr")
 
+    def _apply_anat_rules(self, doc: Doc) -> None:
+        attestation_index = doc.user_data.get("attestation_index")
+        if not isinstance(attestation_index, DulatAttestationIndex):
+            attestation_index = DulatAttestationIndex.empty()
+        for index, token in enumerate(doc):
+            if token._.surface != "ˤnt":
+                continue
+            candidates = tuple(token._.resolved_candidates)
+            normalized = _resolve_anat_context(
+                doc,
+                index,
+                candidates,
+                attestation_index=attestation_index,
+            )
+            self._maybe_replace(token, normalized, "anat-divine-name-context")
+
     def _apply_mlk_rules(self, doc: Doc) -> None:
         attestation_index = doc.user_data.get("attestation_index")
         if not isinstance(attestation_index, DulatAttestationIndex):
@@ -334,7 +391,7 @@ class LexicalContextResolver:
 
 
 @Language.factory("ugaritic_lexical_context_resolver")
-def make_lexical_context_resolver(nlp, name, rule_groups=("baal", "ydk", "mlk")):
+def make_lexical_context_resolver(nlp, name, rule_groups=("baal", "anat", "ydk", "mlk")):
     return LexicalContextResolver(rule_groups=rule_groups)
 
 
@@ -376,6 +433,14 @@ def _is_el_in_thr_il_context(doc: Doc, index: int) -> bool:
     if index <= 0 or doc[index]._.surface != "il":
         return False
     return _is_thr_il_context(doc, index - 1)
+
+
+def _is_anat_divine_name_context(doc: Doc, index: int) -> bool:
+    if index < 0 or index >= len(doc) or doc[index]._.surface != "ˤnt":
+        return False
+    if index == 0:
+        return False
+    return doc[index - 1]._.surface in _ANAT_DN_PREV_SURFACES
 
 
 def _prune_unattested_baal_verbal(
@@ -427,6 +492,33 @@ def _resolve_bt_baal_phrase(
         filtered = tuple(candidate for candidate in candidates if _is_bt_house(candidate))
         return filtered or candidates
     filtered = tuple(candidate for candidate in candidates if not _is_bt_house(candidate))
+    return filtered or candidates
+
+
+def _resolve_anat_context(
+    doc: Doc,
+    index: int,
+    candidates: tuple[Candidate, ...],
+    *,
+    attestation_index: DulatAttestationIndex,
+) -> tuple[Candidate, ...]:
+    has_divine = any(_is_anat_divine(candidate) for candidate in candidates)
+    has_eye = any(_is_anat_eye(candidate) for candidate in candidates)
+    has_now = any(_is_anat_now(candidate) for candidate in candidates)
+    if not has_divine or (not has_eye and not has_now):
+        return candidates
+
+    section_ref = doc[index]._.section_ref
+    if attestation_index.has_reference_for_variant_token(_ANAT_EYE_DULAT, section_ref):
+        filtered = tuple(candidate for candidate in candidates if _is_anat_eye(candidate))
+        return filtered or candidates
+    if attestation_index.has_reference_for_variant_token(_ANAT_NOW_DULAT, section_ref):
+        filtered = tuple(candidate for candidate in candidates if _is_anat_now(candidate))
+        return filtered or candidates
+    if not _is_anat_divine_name_context(doc, index):
+        return candidates
+
+    filtered = tuple(candidate for candidate in candidates if _is_anat_divine(candidate))
     return filtered or candidates
 
 

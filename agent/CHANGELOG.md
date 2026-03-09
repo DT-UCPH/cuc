@@ -1,5 +1,31 @@
 ## 2026-03-09
 
+- Extended the early lexical-context resolver in `spacy_ugaritic/components/lexical_context.py` to handle ambiguous `ˤnt` rows alongside the existing `bʕl` disambiguation family.
+- The new rule keeps `ˤnt` as the DN `ʕnt (I)` in recurring Anat contexts such as `hln ˤnt`, `pˤn ˤnt`, `kbd ˤnt`, and parallel mythic-name sequences, while preserving the attested `eye` reading when DULAT directly supports `ʕn (I)` at the current reference.
+- Wired the `ˤnt` rule into the existing lexical-context stage by extending `create_ugaritic_baal_context_nlp()` to load both `baal` and `anat` rule groups.
+- Normalized legacy reviewed `ˤn/t` to canonical `ˤn(I)/t=` in `reviewed_normalization.py` so the scorer treats the legacy shorthand as the same `eye` reading.
+- Added regression coverage in:
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_reviewed_morphology_evaluation.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_lexical_context tests.test_reviewed_morphology_evaluation`
+  - `uv run ruff check ...`
+  - targeted reruns of the main `ˤnt` families in `KTU 1.1.tsv`, `KTU 1.2.tsv`, `KTU 1.3.tsv`, `KTU 1.6.tsv`, `KTU 1.7.tsv`, `KTU 1.19.tsv`, `KTU 1.47.tsv`, `KTU 1.109.tsv`, `KTU 1.118.tsv`, `KTU 1.130.tsv`, `KTU 1.162.tsv`, and `KTU 2.42.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- On the expanded reviewed set, this iteration improved scoring from:
+  - exact-set accuracy `0.5310 -> 0.5342`
+  - macro F1 `0.5870 -> 0.5886`
+  - micro F1 `0.5468 -> 0.5481`
+  - gold coverage `0.6111 -> 0.6114`
+- Biggest reviewed gain was in `KTU 1.3.tsv`, where the `ˤnt` cleanup plus legacy `ˤn/t` normalization raised:
+  - exact-set accuracy by `+0.0076`
+  - macro F1 by `+0.0037`
+  - micro F1 by `+0.0033`
+- Lint severity totals stayed flat in the full rerun:
+  - `ERROR 1242`
+  - `WARNING 1824`
+  - `INFO 3478`
+
 - Added a new `aṯrt + ym` epithet rule in `pipeline/config/formula_bigram_rules.py` and extended `spacy_ugaritic/components/formula_context.py` coverage.
 - The formula resolver now treats `aṯrt ym` as the Asherah-of-the-Sea epithet, rebuilding `aṯrt(II)/` when only the body-part noun survived upstream and pruning `ym(I)/` "day" in favor of `ym(II)/` "sea".
 - Added a narrow `kbd` object-context rule in `spacy_ugaritic/components/morph_context.py` for the attested imperative pattern `kbd + pronoun`.
