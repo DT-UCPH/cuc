@@ -54,6 +54,16 @@ def _apply_target(candidate: Candidate, target, *, require_variants: bool) -> Ca
     )
 
 
+def _build_target(candidate: Candidate, target) -> Candidate:
+    return Candidate(
+        analysis=target.analysis,
+        dulat=target.dulat,
+        pos=target.pos,
+        gloss=target.gloss,
+        comment=candidate.comment,
+    )
+
+
 def _resolved_candidate(token: Token) -> Candidate | None:
     candidates = token._.resolved_candidates or token._.candidates
     if not candidates:
@@ -136,6 +146,7 @@ class FormulaContextResolver:
                 first,
                 rule.first_target,
                 require_variants=False,
+                allow_build=rule.allow_first_build,
                 rule_name=f"formula-bigram:{rule.first_surface}-{rule.second_surface}:1",
             )
             self._maybe_replace(
@@ -143,6 +154,7 @@ class FormulaContextResolver:
                 second,
                 rule.second_target,
                 require_variants=False,
+                allow_build=rule.allow_second_build,
                 rule_name=f"formula-bigram:{rule.first_surface}-{rule.second_surface}:2",
             )
 
@@ -173,11 +185,14 @@ class FormulaContextResolver:
         target,
         *,
         require_variants: bool,
+        allow_build: bool = False,
         rule_name: str,
     ) -> None:
         if target is None:
             return
         updated = _apply_target(candidate, target, require_variants=require_variants)
+        if updated == candidate and allow_build:
+            updated = _build_target(candidate, target)
         if updated == candidate:
             return
         token._.resolved_candidates = (updated,)

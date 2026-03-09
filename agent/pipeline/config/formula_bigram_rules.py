@@ -25,6 +25,8 @@ class FormulaBigramRule:
     second_surface: str
     first_target: TokenParse | None = None
     second_target: TokenParse | None = None
+    allow_first_build: bool = False
+    allow_second_build: bool = False
     min_count: int = 1
     note: str = ""
 
@@ -127,6 +129,19 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
         note="Formula sequence: bn ilm.",
     ),
     FormulaBigramRule(
+        first_surface="bn",
+        second_surface="aṯrt",
+        second_target=TokenParse(
+            analysis="aṯrt(II)/",
+            dulat="ảṯrt (II)",
+            pos="DN",
+            gloss="Asherah",
+        ),
+        allow_second_build=True,
+        min_count=8,
+        note="Formula sequence: bn aṯrt.",
+    ),
+    FormulaBigramRule(
         first_surface="bt",
         second_surface="bˤl",
         second_target=TokenParse(
@@ -165,6 +180,7 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
             pos="DN",
             gloss="Asherah",
         ),
+        allow_second_build=True,
         min_count=20,
         note="Epithets formula: Lady Asherah.",
     ),

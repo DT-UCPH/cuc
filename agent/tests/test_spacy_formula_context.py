@@ -23,6 +23,25 @@ class SpacyFormulaContextTest(unittest.TestCase):
         self.assertEqual(doc[1]._.resolved_candidates[0].analysis, "bˤl(II)/")
         self.assertEqual(doc[1]._.resolved_candidates[0].pos, "DN")
 
+    def test_builds_asherah_in_rbt_athrt_formula_when_canonical_candidate_is_missing(self) -> None:
+        doc = self._doc_from_lines(
+            "1	rbt	rb(t(I)/t	rbt (I)	n. f.	Lady	",
+            "2	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f.	back part (of the head)	",
+        )
+        self.assertEqual(doc[1]._.resolved_candidates[0].analysis, "aṯrt(II)/")
+        self.assertEqual(doc[1]._.resolved_candidates[0].pos, "DN")
+        self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "Asherah")
+
+    def test_builds_asherah_in_bn_athrt_formula_when_canonical_candidate_is_missing(self) -> None:
+        doc = self._doc_from_lines(
+            "1	bn	bn(I)/	bn (I)	n. m.	son	",
+            "2	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f.	back part (of the head)	",
+            "3	mṯb	mṯb/	mṯb	n. m.	residence	",
+        )
+        self.assertEqual(doc[1]._.resolved_candidates[0].analysis, "aṯrt(II)/")
+        self.assertEqual(doc[1]._.resolved_candidates[0].pos, "DN")
+        self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "Asherah")
+
     def test_rewrites_trigram_target_only_when_variants_exist(self) -> None:
         doc = self._doc_from_lines(
             (
