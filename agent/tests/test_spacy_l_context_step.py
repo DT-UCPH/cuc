@@ -52,6 +52,25 @@ class SpacyLContextDisambiguatorTest(unittest.TestCase):
             self.assertIn("1\tl\tl(I)\tl (I)\tprep.\tto\tfrom l", lines)
             self.assertIn("2\tkbd\tkbd(I)/\tkbd (I)\tn.\twithin\tfrom noun", lines)
 
+    def test_builds_l_kbd_compound_when_only_noncanonical_kbd_survives(self) -> None:
+        content = (
+            "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+            "# KTU 1.3 III:16\n"
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\tfrom l\n"
+            "2\tkbd\tkbd(II)/\tkbd (II)\tn. m.\ttotal\tfrom noun\n"
+            "3\tarṣ\tarṣ/\tảrṣ\tn. f.\tearth\t\n"
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = self.step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 2)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertIn("1\tl\tl(I)\tl (I)\tprep.\tto\tfrom l", lines)
+            self.assertIn("2\tkbd\tkbd(I)/\tkbd (I)\tn.\twithin\tfrom noun", lines)
+
     def test_prefers_l_i_before_non_verbal_token(self) -> None:
         content = (
             "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"

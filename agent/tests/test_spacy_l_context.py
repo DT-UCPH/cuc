@@ -72,6 +72,17 @@ class SpacyLContextTest(unittest.TestCase):
         self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
         self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "within")
 
+    def test_builds_kbd_compound_when_canonical_candidate_is_missing(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 9.9 2\t\t\t\t\t\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tkbd\tkbd(II)/\tkbd (II)\tn. m. sg.\ttotal\t",
+            "3\tarṣ\tarṣ/\tảrṣ\tn. f. sg.\tearth\t",
+        )
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
+        self.assertEqual([c.analysis for c in doc[1]._.resolved_candidates], ["kbd(I)/"])
+        self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "within")
+
     def test_forces_l_i_for_high_confidence_bigram(self) -> None:
         doc = self._doc_from_lines(
             "# KTU 9.9 3\t\t\t\t\t\t",
@@ -80,6 +91,17 @@ class SpacyLContextTest(unittest.TestCase):
             "2\tšpš\tšpš/\tšpš\tDN f.\tŠapšu/Shapsh/Shapshu\t",
         )
         self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
+
+    def test_builds_body_compound_when_canonical_candidate_is_missing(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 9.9 4\t\t\t\t\t\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tẓr\tẓr(II)/\tẓr (II)\tn. m. sg.\tadversary\t",
+            "3\tmgdl\tmgdl/\tmgdl\tn. m. sg.\ttower\t",
+        )
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
+        self.assertEqual([c.analysis for c in doc[1]._.resolved_candidates], ["ẓr(I)/"])
+        self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "upon")
 
 
 if __name__ == "__main__":

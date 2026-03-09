@@ -151,7 +151,7 @@ class LContextResolver:
         if next_token is None:
             return False
 
-        if next_token.text == "kbd" and any(_is_kbd_i(c) for c in next_token._.resolved_candidates):
+        if next_token.text == "kbd":
             self._replace(token, _keep_single_l(token, "I"), "force-l-i-kbd", doc)
             kbd_candidates = tuple(c for c in next_token._.resolved_candidates if _is_kbd_i(c))
             kbd_comment = (
@@ -166,10 +166,7 @@ class LContextResolver:
             return True
 
         body_rule = L_BODY_COMPOUND_PREP_RULES.get(next_token.text)
-        if body_rule is not None and any(
-            c.analysis == body_rule.second_analysis and c.dulat == body_rule.second_dulat
-            for c in next_token._.resolved_candidates
-        ):
+        if body_rule is not None:
             self._replace(token, _keep_single_l(token, "I"), f"force-l-i-{next_token.text}", doc)
             self._replace(
                 next_token,

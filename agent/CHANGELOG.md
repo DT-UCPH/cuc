@@ -1299,6 +1299,9 @@
 - Moved the Baal lexical spaCy stage after nominal/attestation expansion so the grouped-token `aliyn bˤl` collapse survives later morphology completion and remains the final lexical choice before `l`-context.
 - Extended the grouped-token lexical spaCy stage with a `ṯr il` rule that collapses immediate `ṯr il` bigrams to `ṯr (I) -> n. m. sg. abs. nom. bull` and `ỉl (I) -> DN m. sg. abs. nom. El`, removing plural, construct, and common-noun alternatives in that fixed context.
 - Extended `spacy_morph_context` so a preposition governs `gen.` on the following contiguous nominal/adjectival/name/participial phrase, preserving existing state ambiguity while replacing default `nom.` with `gen.` where the context makes case deterministic.
+- Relaxed lexicalized `l + X` compound-preposition resolution in `spacy_l_context`: `l + kbd`, `l + pˤn`, and `l + ẓr` now build the canonical compound payload even when the upstream candidate set has already lost the canonical second-token reading.
+- Added regression coverage in `tests/test_spacy_l_context.py` and `tests/test_spacy_l_context_step.py` for rebuilding `kbd(I)/` and `ẓr(I)/` compound readings from noncanonical surviving candidates.
+
 - Refined `spacy_morph_context` to model construct chains explicitly: after a preposition, only the first nominal is normally `gen.`, while adjacent construct-chain nominals become `cstr. gen.` until the final `abs. gen.`; without a preposition, construct chains now resolve to first `cstr. nom.`, interior `cstr. gen.`, and final `abs. gen.`.
 - Extended suffix-conjugation candidate generation to include explicit `3fs` (`[t===`) and N-stem suffix analyses with assimilated nun encoded as `(]n]...`, including sparse-form fallback generation for `ypˤt`-type rows.
 - Normalized verbal-candidate surface matching to allographic equivalence (`ʕ`/`ˤ`) so DULAT-root-derived candidates can match non-vocalized corpus orthography without dropping valid analyses.
