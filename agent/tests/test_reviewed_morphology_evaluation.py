@@ -78,7 +78,9 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
                 "6\tmlk\tmlk/\t\t\t\t\n"
                 "7\tkbd\t!!kbd[:d\t\t\t\t\n"
                 "8\tˤnt\tˤn/t\t\t\t\t\n"
-                "9\trgm\t!!rgm/\t\t\t\t\n",
+                "9\trgm\t!!rgm/\t\t\t\t\n"
+                "10\til\til/\t\t\t\t\n"
+                "11\tbn\tbn/\t\t\t\t\n",
                 encoding="utf-8",
             )
 
@@ -93,6 +95,8 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
         self.assertEqual(dataset.tokens_by_id["7"].analyses, frozenset({"kbd[:d"}))
         self.assertEqual(dataset.tokens_by_id["8"].analyses, frozenset({"ˤn(I)/t="}))
         self.assertEqual(dataset.tokens_by_id["9"].analyses, frozenset({"rgm/"}))
+        self.assertEqual(dataset.tokens_by_id["10"].analyses, frozenset({"il(I)/"}))
+        self.assertEqual(dataset.tokens_by_id["11"].analyses, frozenset({"bn(I)/"}))
 
 
 class EvaluationTargetResolverTest(unittest.TestCase):

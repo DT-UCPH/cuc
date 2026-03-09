@@ -1,5 +1,24 @@
 ## 2026-03-09
 
+- Extended legacy reviewed-homonym normalization in `reviewed_normalization.py`.
+- Bare legacy `il/` and `bn/` now normalize to `il(I)/` and `bn(I)/`, matching the already-established `mlk/ -> mlk(I)/` scorer convention for migrated reviewed files.
+- Updated regression coverage in:
+  - `tests/test_reviewed_morphology_evaluation.py`
+  - `tests/test_reviewed_tablet_migrator.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_reviewed_morphology_evaluation tests.test_reviewed_tablet_migrator`
+  - `uv run ruff check ...`
+- Recomputed the scorer in memory against the current full corpus output. This review-normalization pass improved scoring without changing parser output:
+  - exact-set accuracy `0.5448 -> 0.5524`
+  - macro F1 `0.6005 -> 0.6083`
+  - micro F1 `0.5598 -> 0.5666`
+  - gold coverage `0.6242 -> 0.6322`
+- Biggest gain was in `KTU 1.14.txt`:
+  - exact `+0.0190`
+  - macro F1 `+0.0194`
+  - micro F1 `+0.0175`
+  - coverage `+0.0199`
+
 - Tightened `rgm` handling in `spacy_ugaritic/components/morph_context.py`.
 - Added a narrow non-epistolary imperative builder for the reviewed `hyt / hmt + w + rgm + l ...` command pattern, producing canonical `!!rgm[` instead of leaving the mixed finite/non-finite bundle.
 - Added noun-side pruning for the attested `dm rgm iṯ ...` and adjacent message-formula contexts, so `rgm/` survives without the noisy passive-participle fallback in those reviewed rows.

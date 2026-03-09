@@ -28,6 +28,10 @@ def normalize_reviewed_analysis(analysis: str) -> str:
     # Legacy reviewed files sometimes leave the default `king` homonym bare.
     if text == "mlk/":
         return "mlk(I)/"
+    if text == "il/":
+        return "il(I)/"
+    if text == "bn/":
+        return "bn(I)/"
 
     # One legacy review row encodes the noun `rgm/` with a stray infinitive marker.
     if text == "!!rgm/":

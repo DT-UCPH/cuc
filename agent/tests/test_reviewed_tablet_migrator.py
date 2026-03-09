@@ -69,7 +69,7 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             output = migrator.migrate(reviewed, raw, auto)
 
             self.assertIn(
-                "137061\tbnx\tbn/\tbn (I)\tn. m.\tson\tlegacy split",
+                "137061\tbnx\tbn(I)/\tbn (I)\tn. m.\tson\tlegacy split",
                 output,
             )
             self.assertIn("137061\tbnx\t?\t?\t?\t?\tlegacy split", output)
