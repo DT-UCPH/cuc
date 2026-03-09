@@ -14,6 +14,7 @@ _CASE_RE = re.compile(r"(?<!\w)(nom\.|gen\.|acc\.|acc\.\?)(?!\w)")
 _NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
 _EPISTOLARY_RGM_OPENING_HINTS = frozenset({"tḥm", "yšlm", "ilm"})
 _KBD_OBJECT_PRONOUN_SURFACES = frozenset({"hmt", "hwt", "hyt"})
+_RGM_COMMAND_PRONOUN_SURFACES = frozenset({"hmt", "hyt"})
 _LETTER_BLESSING_CLITICS = {
     "tġrk": "+k",
     "tšlmk": "+k",
@@ -40,6 +41,7 @@ class MorphContextResolver:
 
         self._apply_journey_formula_rules(doc)
         self._apply_epistolary_rgm_rules(doc)
+        self._apply_non_epistolary_rgm_rules(doc)
         self._apply_letter_blessing_rules(doc)
         self._apply_kbd_object_rules(doc)
         for index, token in enumerate(doc):
@@ -250,6 +252,25 @@ class MorphContextResolver:
             noun = _prefer_rgm_noun(token)
             if noun is not None:
                 self._maybe_replace(token, (noun,), "epistolary-rgm-noun")
+
+    def _apply_non_epistolary_rgm_rules(self, doc: Doc) -> None:
+        if _looks_like_epistolary_doc(doc):
+            return
+        for index, token in enumerate(doc):
+            if token._.surface.strip() != "rgm" or not _has_rgm_candidates(token):
+                continue
+            if _is_non_epistolary_rgm_imperative_context(doc, index):
+                self._maybe_replace(
+                    token,
+                    (_prefer_or_build_rgm_imperative(token),),
+                    "non-epistolary-rgm-imperative",
+                )
+                continue
+            if not _is_non_epistolary_rgm_noun_context(doc, index):
+                continue
+            noun = _prefer_rgm_noun(token)
+            if noun is not None:
+                self._maybe_replace(token, (noun,), "non-epistolary-rgm-noun")
 
     def _apply_letter_blessing_rules(self, doc: Doc) -> None:
         if not (doc._.source_name or "").startswith("KTU 2."):
@@ -470,11 +491,34 @@ def _prefer_or_build_rgm_infinitive(token: Token) -> Candidate:
     return Candidate("!!rgm[/", "/r-g-m/", "vb G inf.", "to say", comment=comment)
 
 
+def _prefer_or_build_rgm_imperative(token: Token) -> Candidate:
+    for candidate in token._.resolved_candidates:
+        if _is_rgm_imperative(candidate):
+            if candidate.analysis.strip() == "!!rgm[":
+                return candidate
+            return Candidate(
+                "!!rgm[",
+                candidate.dulat,
+                candidate.pos,
+                candidate.gloss,
+                comment=candidate.comment,
+            )
+    comment = next(
+        (candidate.comment for candidate in token._.resolved_candidates if candidate.comment),
+        "",
+    )
+    return Candidate("!!rgm[", "/r-g-m/", "vb G impv. 2", "to say", comment=comment)
+
+
 def _prefer_rgm_noun(token: Token) -> Candidate | None:
     for candidate in token._.resolved_candidates:
         if _is_rgm_noun(candidate):
             return candidate
     return None
+
+
+def _is_rgm_imperative(candidate: Candidate) -> bool:
+    return candidate.dulat.strip() == "/r-g-m/" and "impv." in candidate.pos
 
 
 def _is_rgm_infinitive(candidate: Candidate) -> bool:
@@ -483,6 +527,26 @@ def _is_rgm_infinitive(candidate: Candidate) -> bool:
 
 def _is_rgm_noun(candidate: Candidate) -> bool:
     return candidate.analysis.strip() == "rgm/" and candidate.dulat.strip() == "rgm"
+
+
+def _is_non_epistolary_rgm_imperative_context(doc: Doc, index: int) -> bool:
+    if index < 2 or index + 1 >= len(doc):
+        return False
+    if doc[index - 1]._.surface.strip() != "w":
+        return False
+    if doc[index + 1]._.surface.strip() != "l":
+        return False
+    return doc[index - 2]._.surface.strip() in _RGM_COMMAND_PRONOUN_SURFACES
+
+
+def _is_non_epistolary_rgm_noun_context(doc: Doc, index: int) -> bool:
+    previous_surface = doc[index - 1]._.surface.strip() if index > 0 else ""
+    next_surface = doc[index + 1]._.surface.strip() if index + 1 < len(doc) else ""
+    return (
+        (previous_surface == "dm" and next_surface == "iṯ")
+        or previous_surface in {"aṯnyk", "wṯaṯnyk"}
+        or next_surface in {"ˤṣ", "ltdˤ"}
+    )
 
 
 def _prefer_letter_blessing_ngr(token: Token, clitic: str) -> Candidate | None:

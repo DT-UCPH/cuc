@@ -29,6 +29,10 @@ def normalize_reviewed_analysis(analysis: str) -> str:
     if text == "mlk/":
         return "mlk(I)/"
 
+    # One legacy review row encodes the noun `rgm/` with a stray infinitive marker.
+    if text == "!!rgm/":
+        return "rgm/"
+
     # Legacy reviewed files occasionally overmark the imperative `kbd`.
     if text == "!!kbd[:d":
         return "kbd[:d"

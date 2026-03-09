@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -382,11 +383,11 @@ class ReviewedTabletMigrator:
     @staticmethod
     def _split_inline_analysis_comment(parts: list[str]) -> list[str]:
         analysis = parts[2]
-        if " # " not in analysis:
+        match = _INLINE_ANALYSIS_COMMENT_RE.match(analysis)
+        if match is None:
             return parts
-        stripped_analysis, inline_comment = analysis.split(" # ", 1)
-        stripped_analysis = stripped_analysis.rstrip()
-        inline_comment = inline_comment.strip()
+        stripped_analysis = match.group("analysis").rstrip()
+        inline_comment = match.group("comment").strip()
         if not inline_comment:
             parts[2] = stripped_analysis
             return parts
@@ -425,3 +426,6 @@ class ReviewedTabletMigrator:
                 )
             )
         return groups
+
+
+_INLINE_ANALYSIS_COMMENT_RE = re.compile(r"^(?P<analysis>.+?)\s+#\s*(?P<comment>.+)$")

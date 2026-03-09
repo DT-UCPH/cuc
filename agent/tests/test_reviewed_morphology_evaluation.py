@@ -51,6 +51,20 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
         token = dataset.tokens_by_id["1"]
         self.assertEqual(token.analyses, frozenset({"!!l(ʔ&ak["}))
 
+    def test_strips_inline_review_notes_without_space_after_hash(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "reviewed.txt"
+            path.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "1\trgm\trgm/ #noun reading\t\t\t\t\n",
+                encoding="utf-8",
+            )
+
+            dataset = MorphologyTsvLoader().load(path)
+
+        token = dataset.tokens_by_id["1"]
+        self.assertEqual(token.analyses, frozenset({"rgm/"}))
+
     def test_normalizes_legacy_reviewed_analysis_notation(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             path = Path(tmp_dir) / "reviewed.txt"
@@ -63,7 +77,8 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
                 "5\tˤmy\tʿm(I)+y\t\t\t\t\n"
                 "6\tmlk\tmlk/\t\t\t\t\n"
                 "7\tkbd\t!!kbd[:d\t\t\t\t\n"
-                "8\tˤnt\tˤn/t\t\t\t\t\n",
+                "8\tˤnt\tˤn/t\t\t\t\t\n"
+                "9\trgm\t!!rgm/\t\t\t\t\n",
                 encoding="utf-8",
             )
 
@@ -77,6 +92,7 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
         self.assertEqual(dataset.tokens_by_id["6"].analyses, frozenset({"mlk(I)/"}))
         self.assertEqual(dataset.tokens_by_id["7"].analyses, frozenset({"kbd[:d"}))
         self.assertEqual(dataset.tokens_by_id["8"].analyses, frozenset({"ˤn(I)/t="}))
+        self.assertEqual(dataset.tokens_by_id["9"].analyses, frozenset({"rgm/"}))
 
 
 class EvaluationTargetResolverTest(unittest.TestCase):

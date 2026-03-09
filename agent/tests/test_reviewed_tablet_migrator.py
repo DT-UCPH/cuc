@@ -208,6 +208,33 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             )
             self.assertNotIn("!!l(ʔ&ak[ # imperative reading", output)
 
+    def test_moves_inline_analysis_notes_without_space_after_hash(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            reviewed = root / "reviewed.tsv"
+            raw = root / "raw.tsv"
+            auto = root / "auto.tsv"
+            reviewed.write_text(
+                "1\trgm\trgm/ #noun reading\n",
+                encoding="utf-8",
+            )
+            raw.write_text(
+                "#---------------------------- KTU 2.14 17\n156737\trgm\trgm\n",
+                encoding="utf-8",
+            )
+            auto.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 2.14 17\t\t\t\t\t\t\n"
+                "156737\trgm\trgm/\trgm\tn. m. sg.\tword\t\n",
+                encoding="utf-8",
+            )
+
+            migrator = ReviewedTabletMigrator()
+            output = migrator.migrate(reviewed, raw, auto)
+
+            self.assertIn("156737\trgm\trgm/\t\t\t\tnoun reading", output)
+            self.assertNotIn("rgm/ #noun reading", output)
+
     def test_normalizes_legacy_analysis_notation_during_migration(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)

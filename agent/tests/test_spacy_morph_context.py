@@ -256,6 +256,45 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["rgm[/", "rgm/"],
         )
 
+    def test_non_epistolary_rgm_after_pronoun_builds_imperative(self) -> None:
+        doc = self._doc_from_lines(
+            "1\thyt\thy&t\thy\tpers. pn.\tshe\t",
+            "2\tw\tw\tw\tconj.\tand\t",
+            "3\trgm\trgm[\t/r-g-m/\tvb G suffc. 3 m. sg.\tto say\t",
+            "3\trgm\trgm[\t/r-g-m/\tvb G impv. 2\tto say\t",
+            "3\trgm\t!!rgm[/\t/r-g-m/\tvb G inf.\tto say\t",
+            "3\trgm\trgm/\trgm\tn. m. sg. abs. nom.\tword\t",
+            "4\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "5\tbtlt\tbtl(t/t\tbtlt\tn. f. sg. cstr. gen.\tvirgin\t",
+            source_name="KTU 1.3.tsv",
+        )
+
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[2]._.resolved_candidates],
+            ["!!rgm["],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[2]._.resolved_candidates],
+            ["vb G impv. 2"],
+        )
+
+    def test_non_epistolary_rgm_dm_message_formula_prefers_noun(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tdm\tdm(I)\tdm (I)\tfunctor\tsince\t",
+            "2\trgm\trgm[\t/r-g-m/\tvb G suffc. 3 m. sg.\tto say\t",
+            "2\trgm\trgm[\t/r-g-m/\tvb G impv. 2\tto say\t",
+            "2\trgm\t!!rgm[/\t/r-g-m/\tvb G inf.\tto say\t",
+            "2\trgm\trgm[/\t/r-g-m/\tvb G pass. ptcpl. m. sg. abs. nom.\tto say\t",
+            "2\trgm\trgm/\trgm\tn. m. sg. abs. nom.\tword\t",
+            "3\tiṯ\tiṯ(I)/\tỉṯ (I)\tn. m. sg. abs. nom.\tpresence\t",
+            source_name="KTU 1.3.tsv",
+        )
+
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[1]._.resolved_candidates],
+            ["rgm/"],
+        )
+
     def test_builds_kbd_d_imperative_before_personal_pronoun(self) -> None:
         doc = self._doc_from_lines(
             "1\tw\tw\tw\tconj.\tand\t",

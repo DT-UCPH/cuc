@@ -1,5 +1,36 @@
 ## 2026-03-09
 
+- Tightened `rgm` handling in `spacy_ugaritic/components/morph_context.py`.
+- Added a narrow non-epistolary imperative builder for the reviewed `hyt / hmt + w + rgm + l ...` command pattern, producing canonical `!!rgm[` instead of leaving the mixed finite/non-finite bundle.
+- Added noun-side pruning for the attested `dm rgm iṯ ...` and adjacent message-formula contexts, so `rgm/` survives without the noisy passive-participle fallback in those reviewed rows.
+- Hardened reviewed-file comment handling in:
+  - `reviewed_evaluation/loader.py`
+  - `reviewed_migration/migrator.py`
+  - `reviewed_normalization.py`
+- The scorer/migrator now strip inline morphology notes written as both `analysis # note` and `analysis #note`, and normalize the legacy noun shorthand `!!rgm/` back to `rgm/`.
+- Added regression coverage in:
+  - `tests/test_spacy_morph_context.py`
+  - `tests/test_reviewed_morphology_evaluation.py`
+  - `tests/test_reviewed_tablet_migrator.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_morph_context tests.test_reviewed_morphology_evaluation tests.test_reviewed_tablet_migrator`
+  - `uv run ruff format ...`
+  - `uv run ruff check ...`
+  - targeted tablet reruns for `KTU 1.3.tsv`, `KTU 1.14.tsv`, and `KTU 2.14.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- Full-run scoring improved with no lint regression:
+  - exact-set accuracy `0.5342 -> 0.5448`
+  - macro F1 `0.5886 -> 0.6005`
+  - micro F1 `0.5481 -> 0.5598`
+  - gold coverage `0.6114 -> 0.6242`
+  - lint totals unchanged at `9539` issues with `ERROR 1242`, `WARNING 1812`, `INFO 3478`
+- Biggest reviewed gains in this pass:
+  - `KTU 1.14.txt`: exact `+0.0199`, macro F1 `+0.0269`, micro F1 `+0.0275`
+  - `KTU 1.3.tsv`: exact `+0.0042`, macro F1 `+0.0011`, micro F1 `+0.0013`
+  - `KTU 2.11.txt`: exact `+0.0286`
+  - `KTU 2.14.txt`: exact `+0.0222`
+  - `KTU 2.15.txt`: exact `+0.0400`
+
 - Corrected reviewed-notation handling in `reviewed_normalization.py` so `!!...[` is no longer automatically rewritten to `!!...[/`.
 - This preserves the distinction between imperative-style reviewed notation such as `!!(lqḥ[` and infinitive notation `!!(lqḥ[/`, instead of silently collapsing them into one scorer bucket.
 - Updated regression coverage in:
