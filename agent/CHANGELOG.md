@@ -1,5 +1,19 @@
 ## 2026-03-09
 
+- Corrected reviewed-notation handling in `reviewed_normalization.py` so `!!...[` is no longer automatically rewritten to `!!...[/`.
+- This preserves the distinction between imperative-style reviewed notation such as `!!(lqḥ[` and infinitive notation `!!(lqḥ[/`, instead of silently collapsing them into one scorer bucket.
+- Updated regression coverage in:
+  - `tests/test_reviewed_morphology_evaluation.py`
+  - `tests/test_reviewed_tablet_migrator.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_reviewed_morphology_evaluation tests.test_reviewed_tablet_migrator`
+  - `uv run ruff check ...`
+- Recomputed the reviewed-score summary in memory against the current corpus output. As expected for a correctness fix, this removes a small amount of false agreement:
+  - exact-set accuracy unchanged at `0.5342`
+  - macro F1 `0.5886 -> 0.5880`
+  - micro F1 `0.5481 -> 0.5472`
+  - gold coverage `0.6114 -> 0.6103`
+
 - Extended the early lexical-context resolver in `spacy_ugaritic/components/lexical_context.py` to handle ambiguous `ˤnt` rows alongside the existing `bʕl` disambiguation family.
 - The new rule keeps `ˤnt` as the DN `ʕnt (I)` in recurring Anat contexts such as `hln ˤnt`, `pˤn ˤnt`, `kbd ˤnt`, and parallel mythic-name sequences, while preserving the attested `eye` reading when DULAT directly supports `ʕn (I)` at the current reference.
 - Wired the `ˤnt` rule into the existing lexical-context stage by extending `create_ugaritic_baal_context_nlp()` to load both `baal` and `anat` rule groups.

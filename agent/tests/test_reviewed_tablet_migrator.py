@@ -203,7 +203,7 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             output = migrator.migrate(reviewed, raw, auto)
 
             self.assertIn(
-                "156573\tlak\t!!l(ʔ&ak[/\t\t\t\timperative reading",
+                "156573\tlak\t!!l(ʔ&ak[\t\t\t\timperative reading",
                 output,
             )
             self.assertNotIn("!!l(ʔ&ak[ # imperative reading", output)
@@ -242,7 +242,7 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             self.assertIn("10\tl\tl(I)\t", output)
             self.assertIn("11\tlk\tl(I)+k\t", output)
             self.assertIn("12\taḫy\taḫ(I)/+y\t", output)
-            self.assertIn("13\trgm\t!!rgm[/\t", output)
+            self.assertIn("13\trgm\t!!rgm[\t", output)
 
 
 if __name__ == "__main__":

@@ -49,7 +49,7 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
             dataset = MorphologyTsvLoader().load(path)
 
         token = dataset.tokens_by_id["1"]
-        self.assertEqual(token.analyses, frozenset({"!!l(ʔ&ak[/"}))
+        self.assertEqual(token.analyses, frozenset({"!!l(ʔ&ak["}))
 
     def test_normalizes_legacy_reviewed_analysis_notation(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
@@ -72,7 +72,7 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
         self.assertEqual(dataset.tokens_by_id["1"].analyses, frozenset({"l(I)"}))
         self.assertEqual(dataset.tokens_by_id["2"].analyses, frozenset({"l(I)+k"}))
         self.assertEqual(dataset.tokens_by_id["3"].analyses, frozenset({"aḫ(I)/+y"}))
-        self.assertEqual(dataset.tokens_by_id["4"].analyses, frozenset({"!!rgm[/"}))
+        self.assertEqual(dataset.tokens_by_id["4"].analyses, frozenset({"!!rgm["}))
         self.assertEqual(dataset.tokens_by_id["5"].analyses, frozenset({"ˤm(I)+y"}))
         self.assertEqual(dataset.tokens_by_id["6"].analyses, frozenset({"mlk(I)/"}))
         self.assertEqual(dataset.tokens_by_id["7"].analyses, frozenset({"kbd[:d"}))

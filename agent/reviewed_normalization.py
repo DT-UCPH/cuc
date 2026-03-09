@@ -16,10 +16,6 @@ def normalize_reviewed_analysis(analysis: str) -> str:
     # Legacy reviewed files often use ʿ where current CUC analysis uses ˤ.
     text = text.replace("ʿ", "ˤ")
 
-    # Legacy infinitive notation often omits the trailing slash after `[`.
-    if text.startswith("!!") and text.endswith("[") and not text.endswith("[/"):
-        text = f"{text}/"
-
     # Legacy homonym markers sometimes follow the slash: `mlk/(I)` -> `mlk(I)/`.
     text = _HOMONYM_AFTER_SLASH_RE.sub(r"(\1)/", text)
 
