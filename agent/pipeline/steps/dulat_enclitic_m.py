@@ -330,7 +330,7 @@ def _normalize_variant_encoding(*, surface: str, analysis: str, dulat: str, pos:
     if any(_requires_participle_encoding(option) for option in options):
         return _to_participle_encoding(host_surface, _strip_terminal_surface_m(text), dulat)
     if any(_requires_finite_encoding(option) for option in options):
-        return _to_finite_encoding(text)
+        return _to_finite_encoding(text, pos)
     return text
 
 

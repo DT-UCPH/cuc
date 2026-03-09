@@ -23,7 +23,17 @@ class WeakVerbFixerTest(unittest.TestCase):
     def test_adds_hidden_initial_l_to_nonprefixed_form(self) -> None:
         row = TabletRow("1", "qḥ", "lqḥ[", "/l-q-ḥ/", "vb G impv. 2", "to get hold of", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "(lqḥ[")
+        self.assertEqual(result.analysis, "!!(lqḥ[")
+
+    def test_adds_imperative_marker_to_nonprefixed_infinitive_form(self) -> None:
+        row = TabletRow("1", "qḥ", "lqḥ[/", "/l-q-ḥ/", "vb G inf.", "to get hold of", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!!(lqḥ[/")
+
+    def test_adds_imperative_marker_to_already_reconstructed_nonprefixed_form(self) -> None:
+        row = TabletRow("1", "qḥ", "(lqḥ[", "/l-q-ḥ/", "vb G impv. 2", "to get hold of", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!!(lqḥ[")
 
     def test_normalizes_marked_l_prefixed_variant(self) -> None:
         row = TabletRow("1", "yqḥ", "!y!lqḥ[", "/l-q-ḥ/", "vb G prefc.", "to get hold of", "")

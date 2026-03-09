@@ -6,7 +6,7 @@ For weak-initial verbs in prefix conjugation, analysis should encode:
 
 For attested forms where the initial weak radical drops from the written
 surface entirely, the analysis should encode it as reconstructed, e.g.
-``qḥ -> (lqḥ[`` for ``/l-q-ḥ/``.
+``qḥ -> !!(lqḥ[`` for ``/l-q-ḥ/`` imperatives.
 """
 
 import re
@@ -99,7 +99,11 @@ class WeakVerbFixer(RefinementStep):
         marked = self._normalize_marked_variant(var, radical=radical, surface=surface)
         if marked != var:
             return marked
-        return self._normalize_unmarked_variant(var, radical=radical, surface=surface)
+        return self._normalize_unmarked_variant(
+            var,
+            radical=radical,
+            surface=surface,
+        )
 
     def _normalize_marked_variant(self, var: str, *, radical: str, surface: str) -> str:
         """Ensure marked weak-initial variants reconstruct the hidden radical."""
@@ -126,10 +130,20 @@ class WeakVerbFixer(RefinementStep):
             return candidate
         return var
 
-    def _normalize_unmarked_variant(self, var: str, *, radical: str, surface: str) -> str:
+    def _normalize_unmarked_variant(
+        self,
+        var: str,
+        *,
+        radical: str,
+        surface: str,
+    ) -> str:
         """Add missing prefix/radical markers for weak-initial forms."""
         if not surface:
             return var
+        if radical == "l" and var.startswith("(l") and not var.startswith("!!"):
+            candidate = f"!!{var}"
+            if _surface_matches(surface, candidate):
+                return candidate
 
         if surface[0] in _PREFORMATIVES:
             prefix = surface[0]
@@ -147,7 +161,7 @@ class WeakVerbFixer(RefinementStep):
 
         if radical != "l" or not var.startswith("l"):
             return var
-        candidate = f"(l{var[1:]}"
+        candidate = f"!!(l{var[1:]}"
         if _surface_matches(surface, candidate):
             return candidate
         return var

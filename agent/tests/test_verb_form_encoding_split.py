@@ -124,6 +124,26 @@ class VerbFormEncodingSplitFixerTest(unittest.TestCase):
         self.assertEqual(result.analysis, "qtl[")
         self.assertEqual(result.pos, "vb G suffc.")
 
+    def test_preserves_unprefixed_imperative_marker_for_finite_encoding(self) -> None:
+        row = TabletRow("14", "qḥ", "!!(lqḥ[", "/l-q-ḥ/", "vb G impv. 2", "to get hold of", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!!(lqḥ[")
+        self.assertEqual(result.pos, "vb G impv. 2")
+
+    def test_preserves_unprefixed_imperative_marker_in_mixed_form_row(self) -> None:
+        row = TabletRow(
+            "15",
+            "qḥ",
+            "!!(lqḥ[/",
+            "/l-q-ḥ/",
+            "vb G impv. 2 / vb G inf.",
+            "to get hold of",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!!(lqḥ[; !!(lqḥ[/")
+        self.assertEqual(result.pos, "vb G impv. 2; vb G inf.")
+
     def test_nonverbal_row_unchanged(self) -> None:
         row = TabletRow("4", "mlk", "mlk/", "mlk", "n. m.", "king", "")
         result = self.fixer.refine_row(row)

@@ -1,5 +1,29 @@
 ## 2026-03-09
 
+- Normalized dropped-initial `/l-q-ḥ/` imperative and infinitive encoding in:
+  - `pipeline/steps/weak_verb.py`
+  - `pipeline/steps/verb_form_encoding_split.py`
+  - `pipeline/steps/dulat_enclitic_m.py`
+- Nonprefixed weak-`l` verb rows such as `qḥ` now keep the project’s canonical reconstructed imperative notation `!!(lqḥ[`, and mixed-form splitting preserves that marker instead of flattening it back to `(lqḥ[`.
+- Added regression coverage in:
+  - `tests/test_weak_verb.py`
+  - `tests/test_verb_form_encoding_split.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_weak_verb tests.test_verb_form_encoding_split`
+  - `uv run ruff format ...`
+  - `uv run ruff check ...`
+  - direct source-phase replay of `KTU 1.14.tsv` through `bootstrap -> refine -> instruction -> refinement`
+  - targeted tablet reruns for `KTU 1.14.tsv` and `KTU 1.16.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- Reviewed-score improvement with no lint regression:
+  - exact-set accuracy `0.5524 -> 0.5554`
+  - macro F1 `0.6090 -> 0.6119`
+  - micro F1 `0.5703 -> 0.5728`
+  - gold coverage `0.6322 -> 0.6351`
+  - lint totals unchanged at `9539` issues with `ERROR 1242`, `WARNING 1812`, `INFO 3478`
+- Main reviewed gain in this pass:
+  - `KTU 1.14.txt`: exact `+0.0076`, macro F1 `+0.0076`, micro F1 `+0.0067`, coverage `+0.0076`
+
 - Pruned noisy bare `šlm` bundles in `spacy_ugaritic/components/morph_context.py` for KTU 2 letter texts.
 - Bare `šlm` rows that carried the full noun/G/D/adjective bundle now keep only the real primary readings `šlm(I)/` and `šlm[`, dropping the noisy D-suffix and adjective overgeneration without forcing noun-versus-verb where the context remains ambiguous.
 - Added regression coverage in `tests/test_spacy_morph_context.py`.

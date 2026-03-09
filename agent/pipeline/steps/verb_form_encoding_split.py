@@ -59,6 +59,11 @@ def _requires_finite_encoding(pos_option: str) -> bool:
     return bool(_FORM_FINITE_RE.search(text))
 
 
+def _requires_imperative_preservation(pos_option: str, analysis: str) -> bool:
+    text = (pos_option or "").strip()
+    return "impv." in text and (analysis or "").strip().startswith("!!(")
+
+
 def _strip_infinitive_marker(text: str) -> str:
     value = (text or "").strip()
     if value.startswith("!!"):
@@ -248,6 +253,9 @@ def _canonicalize_nonfinite_core(surface: str, analysis: str, dulat: str) -> str
     if weak_final_restored is not None:
         return weak_final_restored
 
+    if _surface_matches_analysis(surface, stripped):
+        return stripped
+
     stripped = _promote_leading_reconstructed_letter(stripped)
     if _surface_matches_analysis(surface, stripped):
         return stripped
@@ -279,8 +287,12 @@ def _to_participle_encoding(surface: str, analysis: str, dulat: str) -> str:
     return text
 
 
-def _to_finite_encoding(analysis: str) -> str:
+def _to_finite_encoding(analysis: str, pos_option: str) -> str:
     text = (analysis or "").strip()
+    if _requires_imperative_preservation(pos_option, text):
+        if "[/" in text:
+            return text.replace("[/", "[", 1)
+        return text
     if "[/" in text:
         text = text.replace("[/", "[", 1)
     text = _strip_infinitive_marker(text)
@@ -351,7 +363,7 @@ class VerbFormEncodingSplitFixer(RefinementStep):
                         changed = True
                     normalized_analysis = converted
                 elif options and _requires_finite_encoding(options[0]):
-                    converted = _to_finite_encoding(analysis)
+                    converted = _to_finite_encoding(analysis, options[0])
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
@@ -404,7 +416,7 @@ class VerbFormEncodingSplitFixer(RefinementStep):
                     normalized_analysis = converted
                 elif has_finite:
                     normalized_pos = _join_options(finite_options + neutral_options)
-                    converted = _to_finite_encoding(analysis)
+                    converted = _to_finite_encoding(analysis, normalized_pos)
                     if converted != analysis:
                         changed = True
                     normalized_analysis = converted
@@ -419,7 +431,7 @@ class VerbFormEncodingSplitFixer(RefinementStep):
             finite_pos = _join_options(finite_options + neutral_options)
             infinitive_pos = _join_options(infinitive_options + neutral_options)
             participle_pos = _join_options(participle_options + neutral_options)
-            finite_analysis = _to_finite_encoding(analysis)
+            finite_analysis = _to_finite_encoding(analysis, finite_pos)
             infinitive_analysis = _to_infinitive_encoding(row.surface, analysis, dulat)
             participle_analysis = _to_participle_encoding(row.surface, analysis, dulat)
 
