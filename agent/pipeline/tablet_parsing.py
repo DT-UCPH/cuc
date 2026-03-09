@@ -24,6 +24,7 @@ from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_reference_disambiguator import AttestationReferenceDisambiguator
 from pipeline.steps.attestation_sort import AttestationSortFixer
 from pipeline.steps.attested_split_token_merge import AttestedSplitTokenMergeFixer
+from pipeline.steps.baal_gloss import BaalGlossFixer
 from pipeline.steps.base import RefinementStep
 from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFixer
 from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
@@ -172,6 +173,7 @@ class TabletParsingPipeline:
             PostVerbUnwrappedDuplicatePruner(),
             VerbalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
             *build_spacy_morph_context_steps(),
+            BaalGlossFixer(),
             # Keep schema pass last so any content-changing steps still end in
             # strict 7-column/quote-safe TSV for GitHub rendering.
             TsvSchemaFormatter(),
