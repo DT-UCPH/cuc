@@ -29,7 +29,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145159	y	+y, [y	-y (I)	prep. functor	my	
 145159	y	~y	-y (II)	prep. functor	indeed	
 145159	y	y	y	prep. functor	oh!	
-145160	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 145160	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 145161	xxxxxxxx	?	?	?	?	
 # KTU 1.18 I:8						
@@ -176,7 +175,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145249	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
 145250	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 145251	l	l(I)	l (I)	prep.	to	
-145251	l	l(III)	l (III)	functor	certainly	
 145252	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 I:24						
 145253	qht	?	?	?	?	DULAT: NOT FOUND
@@ -219,8 +217,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 I:30						
 145283	xxxxxx	?	?	?	?	
 145284	l	l(I)	l (I)	prep.	to	
-145284	l	l(III)	l (III)	functor	certainly	
-145285	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. nom.	city	
+145285	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. gen.	city	
 145286	ablm	ablm/	ảblm	TN sg. cstr. gen.	meadows	
 145287	ablm	ablm/	ảblm	TN sg. cstr. gen.	meadows	
 # KTU 1.18 I:31						
@@ -261,8 +258,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145310	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
 145311	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 145312	l	l(I)	l (I)	prep.	to	
-145312	l	l(III)	l (III)	functor	certainly	
-145313	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+145313	kl	kl/	kl	n. m. sg. abs. gen.	totality (of)	
 145314	yxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 IV:5						
 145315	ttbˤ	?	?	?	?	DULAT: NOT FOUND
@@ -333,8 +329,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:12						
 145358	šmˤ	šmˤ/	šmʕ	n. m. sg. abs. gen.	auditor	
 145359	l	l(I)	l (I)	prep.	to	
-145359	l	l(III)	l (III)	functor	certainly	
-145360	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
+145360	btlt	btl(t/t	btlt	n. f. sg. cstr. gen.	virgin	
 145361	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 145362	at	at(I)	ảt (I)	pers. pn.	you	
 145363	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
@@ -429,7 +424,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145406	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 145407	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
 145408	l	l(I)	l (I)	prep.	to	
-145408	l	l(III)	l (III)	functor	certainly	
 145409	ṯrmˤlh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 IV:20						
 145410	nšrm	nšr/m	nšr	n. m. pl. abs. nom.	bird of prey	
@@ -493,7 +487,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:27						
 145452	l	l(II)	l (II)	adv.	no	
 145453	aḥwy	!(ʔ&a!ḥw(I)[y:d	/ḥ-w/y-y/ (I)	vb D prefc. 1 c. sg.	to live	
-145454	tqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+145454	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 145455	yṭpn	?	?	?	?	DULAT: NOT FOUND
 145456	mhr	mhr(I)/	mhr (I)	n. m. sg. cstr. nom.	warrior (trained, expert)	
 145457	št	št(III)/	št (III)	n. m. sg. abs. gen.	tearing apart	
@@ -578,10 +572,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145499	km	+km, +km=	-km			
 145500	šḫṭ	šḫṭ/	šḫṭ	n. m. sg. abs. nom.	butcher	
 145501	l	l(I)	l (I)	prep.	to	
-145501	l	l(III)	l (III)	functor	certainly	
-145502	brkh	brk/+h	brk	n. f. cstr. nom.	knee	
+145502	brkh	brk/+h	brk	n. f. cstr. gen.	knee	
 # KTU 1.18 IV:36						
-145503	yṣat	!y!(yṣ(ʔ&a[t	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
+145503	yṣat	yṣ(ʔ&a[t	/y-ṣ-ʔ/	vb G prefc.	to go out	
 145504	km	k(III)	k (III)	functor	when	
 145504	km	k(I)	k (I)	prep.	like	
 145504	km	k(IV)	k (IV)	adv.	thus	
@@ -633,8 +626,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145532	qṣˤtk	qṣˤ(t/t+k	qṣʕt	n. f. sg. cstr. gen.	arrow(s)	
 145533	at	at(I)	ảt (I)	pers. pn.	you	
 145534	l	l(I)	l (I)	prep.	to	
-145534	l	l(III)	l (III)	functor	certainly	
-145535	ḥytk	ḥyt(I)/+k	ḥyt (I)	n. f. cstr. nom.	life	
+145535	ḥytk	ḥyt(I)/+k	ḥyt (I)	n. f. cstr. gen.	life	
 145536	xxxxxx	?	?	?	?	
 # KTU 1.18 IV:42						
 145537	w	w	w	conj.	and	

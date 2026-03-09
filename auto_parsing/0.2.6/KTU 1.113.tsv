@@ -48,8 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153745	ṯlbm	ṯlb/m	ṯlb	n. m. pl. abs. gen.	flute	
 # KTU 1.113 9						
 153746	l	l(I)	l (I)	prep.	to	
-153746	l	l(III)	l (III)	functor	certainly	
-153747	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. nom.	grace	
+153747	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
 # KTU 1.113 10						
 153748	ḥ	ḥ/	ḥ	n. m. cstr. gen.	life	
 153749	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	
@@ -126,7 +125,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153781	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 153781	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 153781	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-153782	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
+153782	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
 # KTU 1.113 26						
 153783	pˤil	?	?	?	?	DULAT: NOT FOUND
 153784	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to meet	

@@ -4,24 +4,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156554	iwrḏr	iwrḏr/	ỉwrḏr	PN sg. abs. gen.	ỉwrḏr	
 # KTU 2.10 2						
 156555	l	l(I)	l (I)	prep.	to	
-156555	l	l(III)	l (III)	functor	certainly	
-156556	plsy	plsy/	plsy	PN sg. cstr. nom.	plsy	
+156556	plsy	plsy/	plsy	PN sg. abs. gen.	plsy	
 # KTU 2.10 3						
-156557	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-156557	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+156557	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 # KTU 2.10 4						
 156558	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156558	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156559	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.10 5						
 156560	l	l(I)	l (I)	prep.	to	
-156560	l	l(III)	l (III)	functor	certainly	
-156561	trġds	trġds/	trġ(n)ds	PN sg. abs. nom.	trġ(n)ds	
+156561	trġds	trġds/	trġ(n)ds	PN sg. abs. gen.	trġ(n)ds	
 # KTU 2.10 6						
 156562	w	w	w	conj.	and	
 156563	l	l(I)	l (I)	prep.	to	
-156563	l	l(III)	l (III)	functor	certainly	
-156564	klby	klb(I)/+y	klb (I)	n. m. cstr. nom.	dog	
+156564	klby	klb(I)/+y	klb (I)	n. m. cstr. gen.	dog	
 # KTU 2.10 7						
 156565	šmˤt	šmˤ[t	/š-m-ʕ/	vb G suffc. 1 c. sg.	to hear	
 156566	ḫti	!!ḫt(ʔ&i[/	/ḫ-t-ʔ/	vb G inf.	to be ground up	
@@ -44,7 +40,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156575	w	w	w	conj.	and	
 156576	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 # KTU 2.10 12						
-156577	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. gen.	god	
 156577	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 156578	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 156579	kmtm	k(I)&mt+m(I)	k (I)	prep.	like	
@@ -62,10 +57,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156585	w	w	w	conj.	and	
 156586	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.10 17						
-156587	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156587	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-156587	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156587	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 156587	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 156588	d	d	d	det. or rel. functor	the one(s) of	
 156589	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc. 3 f. sg.	to hear	
@@ -75,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156589	tšmˤ	!t!šmˤ[:w	/š-m-ʕ/	vb G prefc. 3 m. pl.	to hear	
 156589	tšmˤ	!t===!šmˤ[	/š-m-ʕ/	vb G prefc. 2 m. pl.	to hear	
 # KTU 2.10 18						
-156590	ṯmt	ṯm&t	ṯm	adv.	there	
+156590	ṯmt	ṯm+t	ṯm	adv.	there	
 156591	w	w	w	conj.	and	
 156592	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 156592	št	št[	/š-t/	vb G impv. 2	to place	

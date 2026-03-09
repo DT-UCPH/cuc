@@ -3,7 +3,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157657	xn	?	?	?	?	DULAT: NOT FOUND
 157658	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 157658	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-157658	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
 # KTU 2.35 2						
 157659	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
 # KTU 2.35 3						
@@ -55,14 +54,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157680	lk	l(I)+k	l (I)	prep.	to	
 157681	w	w	w	conj.	and	
 157682	l	l(I)	l (I)	prep.	to	
-157682	l	l(III)	l (III)	functor	certainly	
-157683	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
+157683	kl	kl/	kl	n. m. sg. cstr. gen.	totality (of)	
 # KTU 2.35 16						
 157684	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 157685	argm	!(ʔ&a!rgm[	/r-g-m/	vb G prefc. 1 c. sg.	to say	
 # KTU 2.35 17						
-157686	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-157686	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+157686	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 157687	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 2.35 18						
 157688		?	?	?	?	

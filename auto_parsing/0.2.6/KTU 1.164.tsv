@@ -20,8 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155404	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 155404	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 155405	l	l(I)	l (I)	prep.	to	
-155405	l	l(III)	l (III)	functor	certainly	
-155406	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
+155406	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
 # KTU 1.164 4						
 155407	b	b	b	prep.	in	
 155408	db	db/	db	n. m. sg. cstr. gen.	threshold	
@@ -41,8 +40,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 6						
 155419	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 155420	l	l(I)	l (I)	prep.	to	
-155420	l	l(III)	l (III)	functor	certainly	
-155421	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. nom.	father god	
+155421	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
 155422	w	w	w	conj.	and	
 155423	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 155423	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
@@ -63,11 +61,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155432	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
 # KTU 1.164 9						
 155433	l	l(I)	l (I)	prep.	to	
-155433	l	l(III)	l (III)	functor	certainly	
-155434	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+155434	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. gen.	oil	
 # KTU 1.164 10						
 155435	w	w	w	conj.	and	
-155436	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+155436	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 155437	b	b	b	prep.	in	
 155438	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	source	
 155438	qr	qr(II)/	qr (II)	n. m. sg. abs. gen.	noise	
@@ -112,7 +109,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155460	al	al(I)	ảl (I)	neg. functor	no	
 155460	al	al(II)	ảl (II)	pos. functor	surely	
 155461	tṣu	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
-155462	yṣu	!y!(yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
+155462	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 155462	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 # KTU 1.164 20						
 155463	w	w	w	conj.	and	

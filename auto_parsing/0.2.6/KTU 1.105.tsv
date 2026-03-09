@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152703	ṣp	ṣp(I)/	ṣp (I)	n. m. sg. cstr. nom.	look	
 152704	ḫršḫ	ḫršḫ/	ḫršḫ	n. m. sg. abs. gen.	bowl for burning perfume	
 # KTU 1.105 3						
-152705	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+152705	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 152706	b	b	b	prep.	in	
 152707	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
 152708	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
@@ -23,7 +23,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152712	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 152713	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
 # KTU 1.105 6						
-152714	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 152714	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 152715	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 152715	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
@@ -32,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152718	šm	š/m	š	n. m. pl. abs. gen.	ram	
 152718	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 # KTU 1.105 7						
-152719	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+152719	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 152720	l	l(I)	l (I)	prep.	to	
 152721	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
 152722	mlkx	?	?	?	?	DULAT: NOT FOUND
@@ -57,11 +56,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 11						
 152735	gt	g(t/t	gt	n. f. sg. abs. gen.	gittu	
 152736	mlkš	?	?	?	?	DULAT: NOT FOUND
-152737	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+152737	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 # KTU 1.105 12						
 152738	l	l(I)	l (I)	prep.	to	
-152738	l	l(III)	l (III)	functor	certainly	
-152739	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+152739	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 152740	ṯnšmˤlm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 13						
 152741	tzġm	tzġ/m	tzġ	n. m. pl. cstr. nom.	kind of sacrificial meat	
@@ -94,7 +92,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152759	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 152760	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 152760	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-152760	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 # KTU 1.105 18						
 152761	ˤrkm	ˤrk(II)/m	ʕrk (II)	n. m. pl. abs. gen.	loaves of bread	
 # KTU 1.105 19						
@@ -109,7 +106,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152767	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 152768	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 # KTU 1.105 21						
-152769	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+152769	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 152770	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
 152771	b	b	b	prep.	in	
 152772	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
@@ -150,7 +147,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 26						
 152797	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 152798	linš	?	?	?	?	DULAT: NOT FOUND
-152799	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 152799	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.105 27						
 152800	xxxxxxxxxxx	?	?	?	?	

@@ -1,18 +1,13 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.11 1						
 156596	l	l(I)	l (I)	prep.	to	
-156596	l	l(III)	l (III)	functor	certainly	
-156597	umy	um/+y	ủm	n. f. cstr. nom.	mother	
+156597	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 156598	adtny	ad(t/t+ny	ảdt	n. f. sg. cstr. nom.	lady	
 # KTU 2.11 2						
-156599	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156599	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156599	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156599	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-156599	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.11 3						
-156600	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-156601	tlmyn	tlmyn/	tlmyn	PN sg. abs. nom.	tlmyn	
+156600	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+156601	tlmyn	tlmyn/	tlmyn	PN sg. abs. gen.	tlmyn	
 # KTU 2.11 4						
 156602	w	w	w	conj.	and	
 156603	aḫtmlk	aḫtmlk/	ảḫtmlk	PN sg. cstr. nom.	ảḫtmlk	
@@ -25,16 +20,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156608	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. abs. nom. sg.	distance	
 # KTU 2.11 7						
 156609	qlny	ql[ny	/q-l/	vb G suffc.	to fall (down)	
-156610	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 156610	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.11 8						
-156611	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-156611	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+156611	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.11 9						
-156612	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-156612	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156612	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.11 10						
-156613	hnny	hn&ny	hn	functor	behold!	
+156613	hnny	hn+ny	hn	functor	behold!	
 156614	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 # KTU 2.11 11						
 156615	kll	kll/	kll	n. m. sg. abs. nom.	totality	
@@ -65,11 +57,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156625	mnm	mnm	mnm	indef. pn.	any(thing)	
 156626	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.11 17						
-156627	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 156627	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 156628	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 156628	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.11 18						
 156629	l	l(I)	l (I)	prep.	to	
-156629	l	l(III)	l (III)	functor	certainly	
-156630	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+156630	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	

@@ -1,37 +1,26 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.38 1						
 157850	l	l(I)	l (I)	prep.	to	
-157850	l	l(II)	l (II)	adv.	no	
-157850	l	l(III)	l (III)	functor	certainly	
-157851	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-157851	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+157851	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 157852	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 2.38 2						
 157853	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
-157854	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157854	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157854	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157854	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-157854	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.38 3						
-157855	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-157856	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157856	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-157857	ṣr	ṣr/	ṣr	TN sg. abs. nom.	Tyre	
-157858	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
+157855	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+157856	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+157857	ṣr	ṣr/	ṣr	TN sg. cstr. gen.	Tyre	
+157858	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
 # KTU 2.38 4						
 157859	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 157859	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 157860	lk	l(I)+k	l (I)	prep.	to	
-157861	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 157861	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.38 5						
-157862	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-157862	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-157863	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-157863	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157862	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+157863	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.38 6						
-157864	hnny	hn&ny	hn	functor	behold!	
+157864	hnny	hn+ny	hn	functor	behold!	
 157865	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 # KTU 2.38 7						
 157866	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
@@ -50,13 +39,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157869	mnm	mnm	mnm	indef. pn.	any(thing)	
 157870	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.38 9						
-157871	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 157871	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 157872	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 157872	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.38 10						
 157873	anykn	any/+kn	ảny(t)	n. f. cstr. nom.	ship	
-157874	dt	d&t	d	det. or rel. functor	the one(s) of	
+157874	dt	d+t	d	det. or rel. functor	the one(s) of	
 # KTU 2.38 11						
 157875	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 157876	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
@@ -113,8 +101,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157909	anyk	any/+k	ảny(t)	n. f. cstr. nom.	ship	
 157910	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 # KTU 2.38 25						
-157911	by	b&y	b	prep.	in	
-157912	ˤky	ˤky(I)/	ʕky (I)	TN sg. abs. gen.	ʿky (I)	
+157911	by	b+y	b	prep.	in	
+157912	ˤky	ˤky(I)/	ʕky (I)	TN sg. abs. nom.	ʿky (I)	
 157913	ˤryt	ˤry[t	/ʕ-r-y/	vb G suffc. 1 c. sg.	to be naked	
 # KTU 2.38 26						
 157914	w	w	w	conj.	and	

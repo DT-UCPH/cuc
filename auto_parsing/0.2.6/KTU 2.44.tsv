@@ -1,19 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.44 1						
 158214	l	l(I)	l (I)	prep.	to	
-158214	l	l(II)	l (II)	adv.	no	
-158214	l	l(III)	l (III)	functor	certainly	
-158215	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-158215	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158215	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 158216	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 2.44 2						
-158217	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. cstr. gen.	brother (by blood)	
-158218	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-158218	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+158217	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. gen.	brother (by blood)	
+158218	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 # KTU 2.44 3						
-158219	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
-158220	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-158220	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+158219	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+158220	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 158221	gbl	gbl(I)/	gbl (I)	n. m. sg. cstr. gen.	summit	
 158221	gbl	gbl(II)/	gbl (II)	n. m. sg. cstr. gen.	limit	
 158222	iḫk	aḫ(I)/	ảḫ (I)	n. m. sg. abs. gen.	brother (by blood)	
@@ -21,13 +16,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158223	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158223	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158224	lk	l(I)+k	l (I)	prep.	to	
-158225	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 158225	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.44 5						
-158226	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-158226	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-158227	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-158227	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158226	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+158227	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.44 6						
 158228	kxx	?	?	?	?	DULAT: NOT FOUND
 158229	yxxx	?	?	?	?	DULAT: NOT FOUND
@@ -40,7 +32,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158233	w	w	w	conj.	and	
 158234	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 158234	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-158234	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
 158235	gbl	gbl(I)/	gbl (I)	n. m. sg. cstr. gen.	summit	
 158235	gbl	gbl(II)/	gbl (II)	n. m. sg. cstr. gen.	limit	
 # KTU 2.44 9						
@@ -73,7 +64,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158253	xxxx	?	?	?	?	
 158254	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 158254	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-158254	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 2.44 17						
 158255	xxxm	?	?	?	?	DULAT: NOT FOUND
 158256	pls	?	?	?	?	DULAT: NOT FOUND

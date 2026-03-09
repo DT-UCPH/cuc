@@ -2,7 +2,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 1						
 152181	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 152181	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-152181	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
 152182	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. gen.	to sit down	
 152183	k	+k	-k (I)			
 152183	k	~k	-k (II)			
@@ -67,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152214	išdh	išd/+h	ỉšd	n. m. pl. cstr. nom.	leg	
 152215	qrnm	qrn/m	qrn	n. f. pl. abs. nom.	horn	
 # KTU 1.101 7						
-152216	dt	d&t	d	det. or rel. functor	the one(s) of	
+152216	dt	d+t	d	det. or rel. functor	the one(s) of	
 152217	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
 152218	rišh	riš(I)/+h	rỉš (I)	n. m. cstr. nom.	head	
 152219	b	b	b	prep.	in	
@@ -142,8 +141,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 18						
 152266	rmimt	?	?	?	?	DULAT: NOT FOUND
 152267	l	l(I)	l (I)	prep.	to	
-152267	l	l(III)	l (III)	functor	certainly	
-152268	irth	ir(t/t+h	ỉrt	n. f. sg. cstr. nom.	breast	
+152268	irth	ir(t/t+h	ỉrt	n. f. sg. cstr. gen.	breast	
 152269	tšr	!t!šr(I)[	/š-r/ (I)	vb G prefc.	to sing	
 152270	dd	dd(II)/	dd (II)	n. m. sg. abs. nom.	cauldronful	
 152271	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	

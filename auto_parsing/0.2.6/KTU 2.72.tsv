@@ -4,16 +4,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158964	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
 158965	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.72 2						
-158966	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158966	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158966	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158966	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158966	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.72 3						
-158967	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158968	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158968	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158969	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
+158967	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+158968	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+158969	bnk	bn(I)/+k	bn (I)	n. m. cstr. gen.	son	
 # KTU 2.72 4						
 158970	l	l(I)	l (I)	prep.	to	
 158971	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -24,15 +19,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158975	umy	um/+y	ủm	n. f. cstr. nom.	mother	
 158976	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158976	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
-158977	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 158977	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.72 6						
-158978	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-158978	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-158979	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-158979	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158978	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+158979	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.72 7						
-158980	hnny	hn&ny	hn	functor	behold!	
+158980	hnny	hn+ny	hn	functor	behold!	
 158981	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158982	ṯmšlm	?	?	?	?	DULAT: NOT FOUND
 158983	kll	kll/	kll	n. m. sg. abs. nom.	totality	
@@ -42,13 +34,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158986	mxnm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.72 9						
 158987	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
-158988	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 158988	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 158989	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 158989	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 158990	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.72 10						
-158991	lm	l(I)&m	l (I)	prep.	to	
+158991	lm	l(I)+m(I)	l (I)	prep.	to	
 158992	tlikn	!t!l(ʔ&ik[n:d	/l-ʔ-k/	vb D prefc.	to send (a message)	
 158993	ḫpṯ	ḫpṯ/	ḫpṯ	n. m. sg. abs. nom.	fugitive	
 158994	hndn	hndn/	hndn	dem./adj. sg.	this	
@@ -90,7 +81,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 17						
 159016	w	w	w	conj.	and	
 159017	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
-159018	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 159018	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 159018	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 159019	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
@@ -99,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 18						
 159021	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 159021	ky	k(II)&y	k (II)	emph. functor	yes	
-159021	ky	k(IV)&y	k (IV)	adv.	thus	
+159021	ky	k(IV)+y	k (IV)	adv.	thus	
 159022	tdbr	!t!dbr[:d	/d-b-r/ (II)	vb D prefc. 3 f. sg.	to say	
 159022	tdbr	!t=!dbr[:d	/d-b-r/ (II)	vb D prefc. 2 m. sg.	to say	
 159022	tdbr	!t==!dbr[:d	/d-b-r/ (II)	vb D prefc. 2 f. sg.	to say	
@@ -144,7 +134,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159038	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
 159038	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. cstr. nom.	cheek	
 # KTU 2.72 24						
-159039	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 159039	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 159039	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 159040	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
@@ -191,10 +180,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159064	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 159065	hw	hw	hw	pers. pn.	he	
 159066	l	l(I)	l (I)	prep.	to	
-159066	l	l(III)	l (III)	functor	certainly	
-159067	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. nom.	head	
+159067	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. gen.	head	
 # KTU 2.72 32						
-159068	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 159068	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 159068	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 159069	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
@@ -206,7 +193,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 34						
 159073	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 159073	ky	k(II)&y	k (II)	emph. functor	yes	
-159073	ky	k(IV)&y	k (IV)	adv.	thus	
+159073	ky	k(IV)+y	k (IV)	adv.	thus	
 159074	umy	um/+y	ủm	n. f. cstr. nom.	mother	
 # KTU 2.72 35						
 159075	xxr	?	?	?	?	DULAT: NOT FOUND

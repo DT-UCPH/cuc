@@ -1,25 +1,16 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.42 1						
 158105	l	l(I)	l (I)	prep.	to	
-158105	l	l(II)	l (II)	adv.	no	
-158105	l	l(III)	l (III)	functor	certainly	
-158106	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-158106	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158106	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 158107	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.42 2						
-158108	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158108	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158108	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158108	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158108	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.42 3						
-158109	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158110	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-158110	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-158110	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-158110	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-158111	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-158112	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+158109	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+158110	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+158110	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+158111	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+158112	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.42 4						
 158113	l	l(I)	l (I)	prep.	to	
 158114	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -40,18 +31,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158126	l	l(I)	l (I)	prep.	to	
 158127	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 158127	špš	špš/	špš	n. f. sg. abs. gen.	sun	
-158128	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+158128	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 158129	l	l(I)	l (I)	prep.	to	
 158130	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 # KTU 2.42 8						
 158131	l	l(I)	l (I)	prep.	to	
-158131	l	l(III)	l (III)	functor	certainly	
-158132	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
-158132	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+158132	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. gen.	eye	
+158132	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 158132	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 158133	l	l(I)	l (I)	prep.	to	
-158133	l	l(III)	l (III)	functor	certainly	
-158134	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
+158134	kl	kl/	kl	n. m. sg. cstr. gen.	totality (of)	
 158135	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 158135	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 158136	alṯy	alṯy/	ảlṯy(y)	GN sg. cstr. gen.	ảlṯy(y)	
@@ -85,7 +74,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158153	w	w	w	conj.	and	
 158154	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 158154	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-158154	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 2.42 15						
 158155	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 2.42 16						
@@ -104,14 +92,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 158162	aḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.42 19						
-158163	bhm	b&hm	b	prep.	in	
 158163	bhm	b+hm	b	prep.	in	
-158163	bhm	b&h+m(I)	b	prep.	in	
 158164	w	w	w	conj.	and	
-158165	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158165	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158165	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158165	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 158165	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 158166	hw	hw	hw	pers. pn.	he	
 158167	al	al(I)	ảl (I)	neg. functor	no	
@@ -152,10 +134,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158189	mkr	mkr/	mkr	n. m. sg. abs. nom.	merchant	
 158190	had	?	?	?	?	DULAT: NOT FOUND
 158191	w	w	w	conj.	and	
-158192	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158192	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158192	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158192	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 158192	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 158193	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.42 26						

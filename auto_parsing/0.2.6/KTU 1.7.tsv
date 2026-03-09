@@ -7,7 +7,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141474	rišt	riš(I)/t=	rỉš (I)	n. f. pl. abs. nom.	head	
 # KTU 1.7 3						
 141475	l	l(I)	l (I)	prep.	to	
-141475	l	l(III)	l (III)	functor	certainly	
 141476	bmthhy	?	?	?	?	DULAT: NOT FOUND
 141477	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	
 141477	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. nom.	daughter	
@@ -43,8 +42,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141490	ksat	ksa/t=	ks/śủ	n. f. pl. abs. gen.	seat	
 # KTU 1.7 6						
 141491	l	l(I)	l (I)	prep.	to	
-141491	l	l(III)	l (III)	functor	certainly	
-141492	ġzrm	ġzr/m	ġzr	n. m. pl. cstr. nom.	lad	
+141492	ġzrm	ġzr/m	ġzr	n. m. pl. cstr. gen.	lad	
 141493	mid	mid/	mỉ/ủd	n. m. sg. abs. gen.	abundance	
 141494	tmtḫṣn	!t!m]t]ḫṣ[~n	/m-ḫ-ṣ/	vb Gt prefc. 3 f. sg.	to wound	
 141495	wtˤn	?	?	?	?	DULAT: NOT FOUND
@@ -178,13 +176,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141553	ahbt	ahb(t/t	ảhbt	n. f. sg. cstr. gen.	love	
 141554	pdry	pdry/	pdry	DN sg. cstr. gen.	Pidray	
 141554	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
-141555	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 141555	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 141556	ar	ar/	ả/ỉr	n. m. sg. cstr. gen.	light	
 141557	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
 141558	ṭly	ṭl/+y	ṭl	n. m. cstr. gen.	dew	
 141558	ṭly	ṭly/	ṭly	DN sg. cstr. gen.	Tallay	
-141559	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 141559	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 141560	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 141560	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
@@ -192,15 +188,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.7 25						
 141562	arṣy	arṣ/+y	ảrṣ	n. f. cstr. gen.	earth	
 141562	arṣy	arṣy/	ảrṣy	DN sg. cstr. gen.	Arṣay/Arsay	
-141563	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 141563	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 141564	yˤbdr	yˤbdr/	yʕbdr	DN sg. cstr. gen.	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
 # KTU 1.7 26						
 141565	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 141565	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 141566	l	l(I)	l (I)	prep.	to	
-141566	l	l(III)	l (III)	functor	certainly	
-141567	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
+141567	btlt	btl(t/t	btlt	n. f. sg. cstr. gen.	virgin	
 141568	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 141569	ṯny	ṯny[	/ṯ-n-y/	vb G suffc. 3 m. sg.	to repeat	
 141569	ṯny	ṯny[	/ṯ-n-y/	vb G impv. 2	to repeat	
@@ -229,8 +223,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141588	arbdd	arbdd/	ảrbdd	n. m. sg. abs. nom.	rest	
 # KTU 1.7 29						
 141589	l	l(I)	l (I)	prep.	to	
-141589	l	l(III)	l (III)	functor	certainly	
-141590	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. nom.	total (quantity or price)	
+141590	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	total (quantity or price)	
 141591	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
 141592	ḥšk	ḥšk[	/ḥ-š-k/	vb G impv. 2	to seize	
 141593	ˤṣk	ˤṣ/+k	ʕṣ	n. m. cstr. nom.	tree	
@@ -337,7 +330,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141655	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 141656	x	?	?	?	?	
 # KTU 1.7 40						
-141657	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 141657	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 141658	w	w	w	conj.	and	
 141659	t	/t, /t=				DULAT: NOT FOUND

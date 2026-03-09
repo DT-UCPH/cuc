@@ -64,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 13						
 153549	xxxx	?	?	?	?	
 # KTU 1.111 14						
-153550	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+153550	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 153551	x	?	?	?	?	
 # KTU 1.111 15						
 153552	wb	?	?	?	?	DULAT: NOT FOUND
@@ -83,13 +83,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 18						
 153562	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 153562	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-153563	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-153563	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+153563	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 153564	ššbˤ	?	?	?	?	DULAT: NOT FOUND
 153565	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. nom.	ewe	
 153565	ṯat	ṯa(t/t=	ṯảt	n. f. pl. abs. nom.	ewe	
 153566	l	l(I)	l (I)	prep.	to	
-153566	l	l(III)	l (III)	functor	certainly	
 # KTU 1.111 19						
 153567	kmlt	kmlt/	kmlt	adj. f. pl. abs. nom.	whole	
 153568	d	d	d	det. or rel. functor	the one(s) of	
@@ -107,7 +105,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 22						
 153578	tkmml	?	?	?	?	DULAT: NOT FOUND
 153579	hy	hy	hy	pers. pn.	she	
-153580	bh	b&h	b	prep.	in	
 153580	bh	b+h	b	prep.	in	
 # KTU 1.111 23						
 153581	mth	mt(II)/+h	mt (II)	n. m. cstr. nom.	death	

@@ -17,7 +17,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150699	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
 150700	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 150700	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-150700	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 150701	xx	?	?	?	?	
 150702	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 150702	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
@@ -79,9 +78,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150734	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
 # KTU 1.86 12						
 150735	l	l(I)	l (I)	prep.	to	
-150735	l	l(III)	l (III)	functor	certainly	
-150736	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
-150736	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	
+150736	bnš	bnš/	bnš	n. m. pl. cstr. gen.	man	
+150736	bnš	bnš/	bnš	n. m. sg. cstr. gen.	man	
 150737	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. gen.	donkey	
 150738	mdl	mdl(I)/	mdl (I)	n. m. sg. abs. gen.	riding gear	
 150738	mdl	mdl(II)/	mdl (II)	n. m. sg. abs. gen.	lightning (?)	
@@ -113,7 +111,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150754	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 150755	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 150755	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-150755	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.86 18						
 150756	xxn	?	?	?	?	DULAT: NOT FOUND
 150757	axxkx	?	?	?	?	DULAT: NOT FOUND
@@ -183,7 +180,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150792	bx	?	?	?	?	DULAT: NOT FOUND
 150793	xxxxxxxxxšmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 33						
-150794	bm	b&m	b	prep.	in	
 150794	bm	b+m(I)	b	prep.	in	
 # KTU 1.86 34						
 150795	x	?	?	?	?	

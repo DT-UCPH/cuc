@@ -24,7 +24,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155483	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
 155484	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 155484	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-155484	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.166 10						
 155485	hm	hm(II)	hm (II)	conj./interr. functor	if	
 155485	hm	hm(I)	hm (I)	pers. pn.	they	
@@ -66,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.166 20						
 155506	bdrš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 21						
-155507	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
+155507	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 155508	wi	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.166 22						
 155509	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. cstr. nom.	wind	
@@ -76,8 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155512	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
 # KTU 1.166 24						
 155513	l	l(I)	l (I)	prep.	to	
-155513	l	l(III)	l (III)	functor	certainly	
-155514	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+155514	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
 155515	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 155515	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.166 25						
@@ -101,4 +99,3 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.166 29						
 155528	xtxx	?	?	?	?	DULAT: NOT FOUND
 155529	l	l(I)	l (I)	prep.	to	
-155529	l	l(III)	l (III)	functor	certainly	

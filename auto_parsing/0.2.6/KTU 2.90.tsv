@@ -4,8 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159972	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 # KTU 2.90 2						
 159973	l	l(I)	l (I)	prep.	to	
-159973	l	l(III)	l (III)	functor	certainly	
-159974	yrmhd	yrmhd/	yrmhd	PN sg. cstr. nom.	yrmhd	
+159974	yrmhd	yrmhd/	yrmhd	PN sg. cstr. gen.	yrmhd	
 # KTU 2.90 3						
 159975	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. cstr. gen.	brother (by blood)	
 159976	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
@@ -49,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159999	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 160000	hw	hw	hw	pers. pn.	he	
 # KTU 2.90 11						
-160001	ˤmm	ˤm(I)&~m	ʕm (I)	prep.	to	
+160001	ˤmm	ˤm(I)+m(I)	ʕm (I)	prep.	to	
 160002	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	woman	
 # KTU 2.90 12						
 160003	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	house	

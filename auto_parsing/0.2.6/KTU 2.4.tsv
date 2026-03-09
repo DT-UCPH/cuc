@@ -1,28 +1,23 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 1						
 156391	l	l(I)	l (I)	prep.	to	
-156391	l	l(III)	l (III)	functor	certainly	
-156392	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-156392	rb	rb/	rb(b)	n. m. sg. cstr. nom.	drizzle	
-156393	khnm	khn(I)/m	khn (I)	n. m. pl. cstr. gen.	priest	
+156392	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
+156392	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+156393	khnm	khn(I)/m	khn (I)	n. m. pl. abs. gen.	priest	
 # KTU 2.4 2						
-156394	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-156394	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+156394	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 # KTU 2.4 3						
-156395	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+156395	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
 156396	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 156396	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.4 4						
 156397	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156397	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 156398	lk	l(I)+k	l (I)	prep.	to	
-156399	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 156399	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.4 5						
-156400	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-156400	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-156401	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-156401	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+156400	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
+156401	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.4 6						
 156402	tˤzzk	!t!ˤz[zk:d	/ʕ-z(-z)/	vb D prefc.	to be strong	
 156403	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
@@ -58,7 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156415	šilt	š(ʔ&il[t	/š-ʔ-l/	vb G suffc. 1 c. sg.	to ask	
 # KTU 2.4 14						
 156416	xxxxkm	?	?	?	?	DULAT: NOT FOUND
-156417	lm	l(I)&m	l (I)	prep.	to	
+156417	lm	l(I)+m(I)	l (I)	prep.	to	
 # KTU 2.4 15						
 156418	xxxx	?	?	?	?	
 156419	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
@@ -80,8 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156429	uḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
 # KTU 2.4 19						
 156430	l	l(I)	l (I)	prep.	to	
-156430	l	l(III)	l (III)	functor	certainly	
-156431	gy	g/+y	g	n. m. sg. cstr. nom.	(loud) voice	
+156431	gy	g/+y	g	n. m. sg. cstr. gen.	(loud) voice	
 156432	w	w	w	conj.	and	
 156433	yhbṭ	!y!hbṭ[:d	/h-b-ṭ/ẓ/	vb D prefc. 3 m. sg.	to knock down	
 156434	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
@@ -90,7 +84,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156435	w	w	w	conj.	and	
 156436	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 156436	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-156437	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 156437	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 156438	bdhm	bd(IV)+hm	bd (IV)	prep.	into the hands of	
 # KTU 2.4 21						
@@ -104,4 +97,3 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 23						
 156445	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 156445	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-156445	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	

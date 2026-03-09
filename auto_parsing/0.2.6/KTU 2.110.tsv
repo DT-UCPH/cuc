@@ -1,22 +1,19 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.110 1						
 160681	l	l(I)	l (I)	prep.	to	
-160681	l	l(III)	l (III)	functor	certainly	
 # KTU 2.110 2						
 160682	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.110 3						
 160683	zn	zn/	zn	n. m. abs. nom.	provider	
 160684	l	l(I)	l (I)	prep.	to	
-160684	l	l(III)	l (III)	functor	certainly	
 160685		?	?	?	?	
 # KTU 2.110 4						
-160686	mryn	mryn(I)/	mryn (I)	n. m. sg. abs. nom.	Officiers mittanniens commandant les escaudrons de chars de guerre	
+160686	mryn	mryn(I)/	mryn (I)	n. m. sg. abs. gen.	Officiers mittanniens commandant les escaudrons de chars de guerre	
 # KTU 2.110 5						
 160687	yzn	yzn	yzn	?	abwägen	
 160688	l	l(I)	l (I)	prep.	to	
-160688	l	l(III)	l (III)	functor	certainly	
 # KTU 2.110 6						
-160689	dt	d&t	d	det. or rel. functor	the one(s) of	
+160689	dt	d+t	d	det. or rel. functor	the one(s) of	
 160690	l	l(I)	l (I)	prep.	to	
 160690	l	l(II)	l (II)	adv.	no	
 160690	l	l(III)	l (III)	functor	certainly	

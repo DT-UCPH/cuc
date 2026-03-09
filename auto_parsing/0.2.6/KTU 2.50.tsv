@@ -1,9 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 1						
-158449	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-158449	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-158450	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-158450	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158449	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+158450	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.50 2						
 158451	l	l(I)	l (I)	prep.	to	
 158452	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -26,7 +24,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158463	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.50 6						
 158464	l	l(I)	l (I)	prep.	to	
-158464	l	l(III)	l (III)	functor	certainly	
 158465	xxx	?	?	?	?	
 158466	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.50 7						
@@ -38,10 +35,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 9						
 158470	xy	?	?	?	?	DULAT: NOT FOUND
 158471	w	w	w	conj.	and	
-158472	lm	l(I)&m	l (I)	prep.	to	
+158472	lm	l(I)+m(I)	l (I)	prep.	to	
 # KTU 2.50 10						
-158473	šil	šil(I)/	šỉl (I)	n. m. sg. cstr. gen.	interrogator	
-158474	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
+158473	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
+158473	šil	šil(I)/	šỉl (I)	n. m. sg. abs. nom.	interrogator	
+158474	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+158474	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
+158474	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158474	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
+158474	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
+158474	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
+158474	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
+158474	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
+158474	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.50 11						
 158475	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.50 12						
@@ -80,9 +86,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158495	m	m	m(h)	pers. pn.	what?	
 158496	d	d	d	det. or rel. functor	the one(s) of	
 158497	l	l(I)	l (I)	prep.	to	
-158497	l	l(III)	l (III)	functor	certainly	
 158498	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	handsome	
-158498	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
+158498	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	
 # KTU 2.50 20						
 158499	l	l(I)	l (I)	prep.	to	
 158499	l	l(II)	l (II)	adv.	no	

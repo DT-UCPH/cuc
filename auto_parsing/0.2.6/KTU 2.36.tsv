@@ -7,8 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157698	kxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 2						
 157699	l	l(I)	l (I)	prep.	to	
-157699	l	l(III)	l (III)	functor	certainly	
-157700	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu II	
+157700	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	
 157701	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 157701	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 157702	hlny	hlny	hlny	deictic adv. functor	behold	
@@ -35,15 +34,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157712	d	d	d	det. or rel. functor	the one(s) of	
 157713	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. nom.	country	
 157714	w	w	w	conj.	and	
-157715	dt	d&t	d	det. or rel. functor	the one(s) of	
+157715	dt	d+t	d	det. or rel. functor	the one(s) of	
 157716	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
 157716	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.36 5						
 157717	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 157717	ky	k(II)&y	k (II)	emph. functor	yes	
-157717	ky	k(IV)&y	k (IV)	adv.	thus	
+157717	ky	k(IV)+y	k (IV)	adv.	thus	
 157718	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-157719	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 157719	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 157719	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 157720	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
@@ -142,16 +140,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157775	štnt	ytn[t	/y-t-n/	vb	to give	
 # KTU 2.36 14						
 157776	ṯnnty	ṯn(II)&nt/+y	ṯn (II)	num. cstr. / adj. cstr.	second	
-157777	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157777	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-157777	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157777	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 157777	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 157778	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 157778	ky	k(II)&y	k (II)	emph. functor	yes	
-157778	ky	k(IV)&y	k (IV)	adv.	thus	
+157778	ky	k(IV)+y	k (IV)	adv.	thus	
 157779	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-157780	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 157780	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 157780	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 157781	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
@@ -191,18 +184,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157806	ht	ht	ht	adv.	here	
 # KTU 2.36 20						
 157807	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
-157808	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157808	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-157808	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157808	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 157808	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 157809	hnxxx	?	?	?	?	DULAT: NOT FOUND
 157810	xxš	?	?	?	?	DULAT: NOT FOUND
 157811	rxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 21						
 157812	xxx	?	?	?	?	
-157813	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-157813	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+157813	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 157814	grgmš	grgmš/	grgmš	TN sg. abs. gen.	gargamiš	
 157815	xx	?	?	?	?	
 157816	rxxx	?	?	?	?	DULAT: NOT FOUND

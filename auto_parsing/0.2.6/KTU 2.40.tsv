@@ -1,22 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.40 1						
 158026	l	l(I)	l (I)	prep.	to	
-158026	l	l(II)	l (II)	adv.	no	
-158026	l	l(III)	l (III)	functor	certainly	
-158027	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-158027	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158027	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 158028	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.40 2						
-158029	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158029	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158029	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158029	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158029	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.40 3						
-158030	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158031	ṯpṭbˤl	ṯpṭbˤl/	ṯpṭbʕl	PN sg. abs. nom.	ṯpṭbʿl	
+158030	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+158031	ṯpṭbˤl	ṯpṭbˤl/	ṯpṭbʕl	PN sg. cstr. gen.	ṯpṭbʿl	
 # KTU 2.40 4						
-158032	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+158032	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.40 5						
 158033	l	l(I)	l (I)	prep.	to	
 158034	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -43,8 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158046	w	w	w	conj.	and	
 158047	ht	ht	ht	adv.	here	
 # KTU 2.40 14						
-158048	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-158048	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+158048	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 158049	syr	syr/	syr	TN sg. abs. gen.	syr	
 # KTU 2.40 15						
 158050	ns	ns[	/n-s/	vb G suffc. 3 m. sg.	to flee	

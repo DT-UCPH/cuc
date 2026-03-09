@@ -34,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151336	thmt	thm/t	thm	n. f. sg. cstr. nom.	ocean/deep	
 151337	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
 # KTU 1.92 6						
-151338	yṣi	!y!(yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
+151338	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 151339	ġlh	ġl(I)/+h	ġl (I)	n. m. cstr. nom.	far extent of desert	
 151340	tḥmd	tḥm/+d	tḥm	n. m. cstr. nom.	message, ?	
 151340	tḥmd	!t!ḥmd[	/ḥ-m-d/	vb G prefc. 3 f. sg.	to desire	
@@ -56,11 +56,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151347	qrẓ	qrẓ/	qrẓ	n. m. sg. abs. nom.	acacia	
 151348	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 151349	l	l(I)	l (I)	prep.	to	
-151349	l	l(III)	l (III)	functor	certainly	
-151350	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	left	
+151350	šmal	šmal/	šmảl	adj. m. sg. abs. gen.	left	
 # KTU 1.92 10						
-151351	arbḫ	arbḫ/	ảrbḫ	adj. m. sg. abs. nom.	four year old (animal)	
-151352	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	eye	
+151351	arbḫ	arbḫ/	ảrbḫ	adj. m. sg. abs. gen.	four year old (animal)	
+151352	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	eye	
 151353	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
 151353	tšu	tšu[	/n-š-ʔ/	vb G suffc. 3 m. sg.	to raise	
 151354	wt	?	?	?	?	DULAT: NOT FOUND
@@ -81,7 +80,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151362	tiḫd	!t!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
 # KTU 1.92 13						
 151363	šbrh	šbr/+h	šbr	n. m. sg. cstr. nom.	stick	
-151364	bm	b&m	b	prep.	in	
 151364	bm	b+m(I)	b	prep.	in	
 151365	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. nom.	right (side)	
 151366	tr	!!tr[/	/t-r/	vb G inf.	to scour	
@@ -167,10 +165,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151409	btlt	btl(t/t	btlt	n. f. sg. cstr. gen.	virgin	
 151410	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 151410	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-151410	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 151411	yḥmdnh	!y!ḥmd[nh	/ḥ-m-d/	vb G prefc. 3 m. sg.	to desire	
-151412	yrty	!y!(yrd[+y	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
-151412	yrty	yrdy[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
+151412	yrty	yrd[+y	/y-r-d/	vb G prefc.	to go down	
+151412	yrty	yrd[+y	/y-r-d/	vb G suffc.	to go down	
 # KTU 1.92 30						
 151413	nˤmh	nˤm(II)/+h	nʕm (II)	n. m. cstr. nom.	grace	
 151414	dmrn	dmrn/	dmrn	DN sg. abs. nom.	the Powerful One/Valiant One/title of Baal	

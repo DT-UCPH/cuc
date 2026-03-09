@@ -13,7 +13,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.169 2						
 155619	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 155619	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-155619	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 155620	tgḫṭk	!t!gḫṭ[k	/g-ḫ-ṭ/	vb G prefc.	to cast out	
 155621	w	w	w	conj.	and	
 155622	tṣu	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
@@ -59,8 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155642	ḫṭ	ḫṭ/	ḫṭ	n. m. sg. abs. gen.	sceptre	
 155643	tḫṭa	!t!ḫṭ(ʔ[&a	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake	
 155644	l	l(I)	l (I)	prep.	to	
-155644	l	l(III)	l (III)	functor	certainly	
-155645	gbk	gb(II)/+k	gb (II)	n. m. sg. cstr. nom.	spine	
+155645	gbk	gb(II)/+k	gb (II)	n. m. sg. cstr. gen.	spine	
 # KTU 1.169 6						
 155646	w	w	w	conj.	and	
 155647	tršˤ	!t!ršˤ[	/r-š-ʕ/	vb G prefc. 3 f. sg.	to harm	
@@ -70,9 +68,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155647	tršˤ	!t!ršˤ[:w	/r-š-ʕ/	vb G prefc. 3 m. pl.	to harm	
 155647	tršˤ	!t===!ršˤ[	/r-š-ʕ/	vb G prefc. 2 m. pl.	to harm	
 155648	l	l(I)	l (I)	prep.	to	
-155648	l	l(III)	l (III)	functor	certainly	
-155649	tmntk	tmnt/+k	tmnt	n. f. cstr. nom.	frame	
-155649	tmntk	tmn(I)&t/+k	tmn (I)	n. m. cstr. nom.	frame	
+155649	tmntk	tmnt/+k	tmnt	n. f. cstr. gen.	frame	
+155649	tmntk	tmn(I)&t/+k	tmn (I)	n. m. cstr. gen.	frame	
 155650	tlḥm	!t!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 3 f. sg.	to eat	
 155650	tlḥm	!t=!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 2 m. sg.	to eat	
 155650	tlḥm	!t==!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 2 f. sg.	to eat	
@@ -181,12 +178,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.169 17						
 155711	bˤrk	bˤr/+k	bʕr	adj. m. cstr. nom.	burnt	
 155712	l	l(I)	l (I)	prep.	to	
-155712	l	l(III)	l (III)	functor	certainly	
 155713	ṯtm	ṯtm(I)/	ṯn (I)	num.	two	
 155714	itbnnk	bn[bnnk:l	/b-n/	vb tL prefc.	to understand	
 # KTU 1.169 18						
 155715	xxxxx	?	?	?	?	
-155716	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 155716	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 155717	ubu	!(ʔ&u!b(ʔ[&u	/b-ʔ/	vb G prefc. 1 c. sg.	to enter	
 155718	al	al(I)	ảl (I)	neg. functor	no	

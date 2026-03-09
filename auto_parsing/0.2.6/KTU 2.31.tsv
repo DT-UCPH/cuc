@@ -17,7 +17,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157262	k	k(II)	k (II)	emph. functor	yes	
 # KTU 2.31 5						
 157263	xxxrt	?	?	?	?	DULAT: NOT FOUND
-157264	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 157264	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 157264	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 157265	t	/t, /t=				DULAT: NOT FOUND
@@ -171,12 +170,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157351	kmynxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 38						
 157352	w	w	w	conj.	and	
-157353	yṣu	!y!(yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out	
+157353	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 157353	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 157354	ank	ank	ảnk	pers. pn.	I	
 157355	x	?	?	?	?	
 # KTU 2.31 39						
-157356	dy	d&y	d	det. or rel. functor	the one(s) of	
+157356	dy	d+y	d	det. or rel. functor	the one(s) of	
 157357	w	w	w	conj.	and	
 157358	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. nom.	first fruit	
 157358	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. 3 m. sg.	to wash	
@@ -250,7 +249,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157400	xxx	?	?	?	?	
 157401	xxx	?	?	?	?	
 157402	xxlk	?	?	?	?	DULAT: NOT FOUND
-157403	yritn	yritn[	/y-r-ʔ/	vb G suffc. 3 m. sg.	to be afraid	
+157403	yritn	yr(ʔ&i[tn	/y-r-ʔ/	vb G suffc. 2 f. pl.	to be afraid	
 157404	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 157404	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 157405	hy	hy	hy	pers. pn.	she	
@@ -267,7 +266,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157413	b	b	b	prep.	in	
 157414	dmt	dm(t(I)/t	dmt (I)	n. f. sg. cstr. gen.	tower	
 157415	um	um/	ủm	n. f. sg. cstr. gen.	mother	
-157416	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 157416	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.31 49						
 157417	xxx	?	?	?	?	
@@ -276,7 +274,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157420	ḏḏyn	ḏḏyn/	ḏḏyn	PN sg. abs. gen.	ḏḏyn	
 157421	w	w	w	conj.	and	
 157422	l	l(I)	l (I)	prep.	to	
-157422	l	l(III)	l (III)	functor	certainly	
 # KTU 2.31 50						
 157423	xxx	?	?	?	?	
 157424	xxxxk	?	?	?	?	DULAT: NOT FOUND
@@ -314,10 +311,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157446	xxx	?	?	?	?	
 157447	xxx	?	?	?	?	
 157448	xxxx	?	?	?	?	
-157449	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157449	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-157449	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157449	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 157449	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 157450	hw	hw	hw	pers. pn.	he	
 157451	xxn	?	?	?	?	DULAT: NOT FOUND
@@ -329,10 +322,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157455	xxx	?	?	?	?	
 157456	xxx	?	?	?	?	
 157457	xxx	?	?	?	?	
-157458	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157458	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-157458	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157458	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 157458	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 157459	ank	ank	ảnk	pers. pn.	I	
 157460	lxxdrny	?	?	?	?	DULAT: NOT FOUND
@@ -358,10 +347,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157477	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 157477	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 157478	w	w	w	conj.	and	
-157479	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157479	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-157479	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157479	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 157479	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 157480	xxxṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 59						
@@ -379,7 +364,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157491	xxxx	?	?	?	?	
 157492	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 157492	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-157492	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 2.31 61						
 157493	xxx	?	?	?	?	
 157494	xxx	?	?	?	?	
@@ -418,8 +402,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157519	hm	hm(II)	hm (II)	conj./interr. functor	if	
 157519	hm	hm(I)	hm (I)	pers. pn.	they	
 157520	l	l(I)	l (I)	prep.	to	
-157520	l	l(III)	l (III)	functor	certainly	
-157521	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. nom.	back part (of the head)	
+157521	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. gen.	back part (of the head)	
 157522	xt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 66						
 157523	xxx	?	?	?	?	
@@ -433,7 +416,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157529	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
 157530	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 157530	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-157530	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 157531	xxxn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 68						
 157532	xxx	?	?	?	?	

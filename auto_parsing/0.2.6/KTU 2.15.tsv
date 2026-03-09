@@ -3,16 +3,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156743	gnryn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.15 2						
 156744	l	l(I)	l (I)	prep.	to	
-156744	l	l(III)	l (III)	functor	certainly	
-156745	mlkytn	mlkytn/	mlkytn	PN sg. abs. nom.	mlkytn	
+156745	mlkytn	mlkytn/	mlkytn	PN sg. abs. gen.	mlkytn	
 # KTU 2.15 3						
 156746	ḥnny	ḥnn[y	/ḥ-n-n/	vb G prefc.	to be / appear kind	
 156746	ḥnny	ḥnn[y	/ḥ-n-n/	vb G suffc.	to be / appear kind	
 156746	ḥnny	ḥnn[y:d	/ḥ-n-n/	vb D prefc.	to be / appear kind	
 156746	ḥnny	ḥnn[y:d	/ḥ-n-n/	vb D suffc.	to be / appear kind	
 156747	lpn	?	?	?	?	DULAT: NOT FOUND
-156748	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-156748	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+156748	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 # KTU 2.15 4						
 156749	šink	šin/+k	šỉn	n. m. cstr. gen.	shoe	
 156750	itn	ytn[	/y-t-n/	vb	to give	
@@ -25,7 +23,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156754	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.15 6						
 156755	l	l(I)	l (I)	prep.	to	
-156755	l	l(III)	l (III)	functor	certainly	
 156756	šmin	?	?	?	?	DULAT: NOT FOUND
 156757	iṯr	(ʔ&iṯr[	/ʔ-ṯ-r/	vb G impv. 2	to go	
 156758	hw	hw	hw	pers. pn.	he	

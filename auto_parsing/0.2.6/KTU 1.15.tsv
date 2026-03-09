@@ -29,8 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142748	bn	bn[	/b-n/	vb G impv. 2	to understand	
 142749	ḫpṯ	ḫpṯ/	ḫpṯ	n. m. sg. abs. nom.	fugitive	
 142750	l	l(I)	l (I)	prep.	to	
-142750	l	l(III)	l (III)	functor	certainly	
-142751	umhthm	umhth/m	ủm	n. f. pl. abs. nom.	mother	
+142751	umhthm	umhth/m	ủm	n. f. pl. abs. gen.	mother	
 # KTU 1.15 I:7						
 142752	k	k(I)	k (I)	prep.	like	
 142753	tnḥn	!t!nḥ[n	/n-ḥ/	vb G prefc.	to moan	
@@ -72,7 +71,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142775	zbl	zbl(III)/	zbl (III)	n. m. sg. abs. gen.	one carried	
 # KTU 1.15 II:7						
 142776	wˤdt	?	?	?	?	DULAT: NOT FOUND
-142777	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 142777	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 142778	ṯlṯh	ṯlṯ(IV)&h/	ṯlṯ (IV)	num.	triple	
 # KTU 1.15 II:8						
@@ -106,7 +104,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142795	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 142796	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg. cstr. nom.	assembly	
 142796	ˤdt	ˤd(t(II)/t	ʕdt (II)	n. f. sg. cstr. nom.	date	
-142797	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 142797	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.15 II:12						
 142798	wyˤn	?	?	?	?	DULAT: NOT FOUND
@@ -135,8 +132,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142810	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 142810	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 142811	l	l(I)	l (I)	prep.	to	
-142811	l	l(III)	l (III)	functor	certainly	
-142812	tmr	tmr/	tmr	PN sg. abs. nom.	tmr	
+142812	tmr	tmr/	tmr	PN sg. abs. gen.	tmr	
 142813	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
 # KTU 1.15 II:16						
 142814	ġlmil	?	?	?	?	DULAT: NOT FOUND
@@ -151,7 +147,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142817	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 142818	byd	b&y+d	b	prep.	in, ?	
 142819	krpn	krpn/	krpn	n. m. sg. abs. nom.	cup	
-142820	bm	b&m	b	prep.	in	
 142820	bm	b+m(I)	b	prep.	in	
 142821	y	+y, [y	-y (I)	prep. functor	my	
 142821	y	~y	-y (II)	prep. functor	indeed	
@@ -178,13 +173,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 II:21						
 142834	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. gen.	woman	
 142834	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. gen.	woman	
-142835	tqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+142835	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 142836	y	y	y	prep. functor	oh!	
 142837	krt	krt/	krt	PN sg. cstr. gen.	krt	
 142838	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. gen.	woman	
 142838	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. gen.	woman	
 # KTU 1.15 II:22						
-142839	tqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+142839	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 142840	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	house	
 142841	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. nom.	damsel	
 142841	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. nom.	concealment	
@@ -347,12 +342,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142913	abkrn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.15 III:17						
 142914	tbrk	!t!brk[:d:w	/b-r-k/ (II)	vb D prefc. 3 m. pl.	to be blessed	
-142915	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 142915	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 142916	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come	
 # KTU 1.15 III:18						
 142917	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come	
-142918	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 142918	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 142919	l	l(I)	l (I)	prep.	to	
 142920	ahlhm	ahl/+hm	ảhl	n. m. cstr. gen.	tent	
@@ -364,8 +357,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142922	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 142922	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 142923	l	l(I)	l (I)	prep.	to	
-142923	l	l(III)	l (III)	functor	certainly	
-142924	mšknthm	mškn(t/t+hm	mšknt	n. f. sg. cstr. nom.	residence	
+142924	mšknthm	mškn(t/t+hm	mšknt	n. f. sg. cstr. gen.	residence	
 # KTU 1.15 III:20						
 142925	w	w	w	conj.	and	
 142926	tqrb	!t!qrb[	/q-r-b/	vb G prefc. 3 f. sg.	to approach	
@@ -467,8 +459,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 IV:2						
 142971	gm	g/~m	g	n. m. sg. abs. gen.	(loud) voice	
 142972	l	l(I)	l (I)	prep.	to	
-142972	l	l(III)	l (III)	functor	certainly	
-142973	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	woman	
+142973	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. gen.	woman	
 142974	k	k(III)	k (III)	Subordinating or completive functor	when	
 142975	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 # KTU 1.15 IV:3						
@@ -573,14 +564,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143025	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	Daughter-of-TN	
 143026	ṯrrt	ṯrr(t/t	ṯrrt	adj. f. sg. abs. nom.	powerful	
 # KTU 1.15 IV:21						
-143027	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 143027	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 143028	krt	krt/	krt	PN sg. abs. gen.	krt	
 143029	tbun	!t!b(ʔ[&un	/b-ʔ/	vb G prefc.	to enter	
 # KTU 1.15 IV:22						
-143030	lm	l(I)&m	l (I)	prep.	to	
-143031	mṯb	mṯb/	mṯb	n. m. sg. cstr. gen.	residence	
-143032	ˤwrt	ˤwr/t	ʕwr	n. f. sg. abs. gen.	blind man	
+143030	lm	l(I)+m(I)	l (I)	prep.	to	
+143031	mṯb	mṯb/	mṯb	n. m. sg. abs. nom.	residence	
+143032	ˤwrt	ˤwr/t	ʕwr	n. f. sg. abs. nom.	blind man	
 # KTU 1.15 IV:23						
 143033	w	w	w	conj.	and	
 143034	lḫm	?	?	?	?	DULAT: NOT FOUND
@@ -684,7 +674,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143073	xxx	?	?	?	?	
 # KTU 1.15 V:6						
 143074	l	l(I)	l (I)	prep.	to	
-143074	l	l(III)	l (III)	functor	certainly	
 143075	mṯbxxxtxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.15 V:7						
 143076	xxxx	?	?	?	?	
@@ -836,11 +825,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143151	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
 143151	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
 143152	l	l(I)	l (I)	prep.	to	
-143152	l	l(III)	l (III)	functor	certainly	
 143153	qmt	?	?	?	?	DULAT: NOT FOUND
 143154	xxm	?	?	?	?	DULAT: NOT FOUND
 143155	l	l(I)	l (I)	prep.	to	
-143155	l	l(III)	l (III)	functor	certainly	
 143156	bṭnm	bṭn+m(I)	bṭn	?	?	
 # KTU 1.15 VI:2						
 143157	ˤdm	ˤd(I)&m	ʕd (I)		up to	

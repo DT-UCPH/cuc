@@ -31,7 +31,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153606	šˤṣrm	?	?	?	?	DULAT: NOT FOUND
 153607	linš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 6						
-153608	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 153608	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 153609	w	w	w	conj.	and	
 153610	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
@@ -50,7 +49,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153618	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
 153618	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 153619	tˤln	!t!ˤl(y[n	/ʕ-l-y/	vb G prefc.	to go up	
-153620	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 153620	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 153621	bḫmn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 9						
@@ -162,25 +160,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153685	š	š/	š	n. m. sg. cstr. gen.	ram	
 153686	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 153686	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-153686	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 153687	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 153688	š	š/	š	n. m. sg. abs. gen.	ram	
 153689	ṯnšm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 24						
 153690	l	l(I)	l (I)	prep.	to	
-153690	l	l(III)	l (III)	functor	certainly	
-153691	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. nom.	back part (of the head)	
+153691	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. gen.	back part (of the head)	
 153692	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
 153693	šm	š/m	š	n. m. pl. abs. gen.	ram	
 153693	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 153694	l	l(I)	l (I)	prep.	to	
-153694	l	l(III)	l (III)	functor	certainly	
-153695	btbt	btbt/	btbt	DN sg. abs. nom.	btbt	
+153695	btbt	btbt/	btbt	DN sg. abs. gen.	btbt	
 153696	w	w	w	conj.	and	
 153697	l	l(I)	l (I)	prep.	to	
-153697	l	l(III)	l (III)	functor	certainly	
 # KTU 1.112 25						
-153698	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. cstr. nom.	goddess	
+153698	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. cstr. gen.	goddess	
 153699	mgdl	mgdl/	mgdl	n. m. sg. cstr. gen.	tower	
 153700	š	š/	š	n. m. sg. abs. gen.	ram	
 153701	w	w	w	conj.	and	
@@ -222,5 +216,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153723	pbxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 32						
 153724	l	l(I)	l (I)	prep.	to	
-153724	l	l(III)	l (III)	functor	certainly	
 153725	xxṯdṯ	?	?	?	?	DULAT: NOT FOUND

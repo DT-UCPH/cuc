@@ -5,7 +5,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152926	hlxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 2						
 152927	xxxxxxxxxˤrt	?	?	?	?	DULAT: NOT FOUND
-152928	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 152928	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 152929	rbm	rb(I)/m	rb (I)	adj. f. pl. abs. nom.	great	
 152930	nˤlxxxmr	?	?	?	?	DULAT: NOT FOUND
@@ -110,7 +109,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152984	šrġzz	šrġzz/	šrġzz	DN sg. abs. gen.	the Devil is a munificent one	
 152985	w	w	w	conj.	and	
 152986	tpky	bky[y	/b-k-y/	vb G prefc.	to weep	
-152987	bm	b&m	b	prep.	in	
 152987	bm	b+m(I)	b	prep.	in	
 152988	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	boy	
 152988	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
@@ -131,7 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152990	km	+km, +km=	-km			
 # KTU 1.107 12						
 152991	ṣġr	ṣġr(I)/	ṣġr (I)	adj. m. sg. abs. nom.	small	
-152992	bkm	b&km	b	prep.	in	
+152992	bkm	b+km	b	prep.	in	
 152992	bkm	bky[	/b-k-y/	vb G suffc. 3 m. sg.	to weep	
 152992	bkm	!!bkm[/	/b-k-y/	vb G inf.	to weep	
 152992	bkm	bkm	bkm	adv.	next	
@@ -152,8 +150,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153001	xxb	?	?	?	?	DULAT: NOT FOUND
 153002	kmm	kmm	kmm	adv.	ditto	
 153003	l	l(I)	l (I)	prep.	to	
-153003	l	l(III)	l (III)	functor	certainly	
-153004	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
+153004	kl	kl/	kl	n. m. sg. cstr. gen.	totality (of)	
 153005	mspr	mspr/	mspr	n. m. sg. abs. gen.	recitation	
 153006	xxxxxxxx	?	?	?	?	
 # KTU 1.107 15						
@@ -191,8 +188,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153027	nšy	nš+y	nš	?, prep.		
 153028	xxxxxxxxxxxš	?	?	?	?	DULAT: NOT FOUND
 153029	l	l(I)	l (I)	prep.	to	
-153029	l	l(III)	l (III)	functor	certainly	
-153030	mdb	mdb/	mdb	n. m. sg. abs. nom.	tide	
+153030	mdb	mdb/	mdb	n. m. sg. abs. gen.	tide	
 # KTU 1.107 20						
 153031	xxxxxh	?	?	?	?	DULAT: NOT FOUND
 153032	mḫlpt	mḫlpt/	mḫlpt	n. f. pl. abs. nom.	plait	
@@ -270,8 +266,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153083	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 153083	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153084	l	l(I)	l (I)	prep.	to	
-153084	l	l(III)	l (III)	functor	certainly	
-153085	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. nom.	mountain	
+153085	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. gen.	mountain	
 # KTU 1.107 33						
 153086	ġrpl	ġrpl/	ġrpl	n. m. sg. cstr. gen.	cloud	
 153087	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
@@ -287,8 +282,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153093	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 153093	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153094	l	l(I)	l (I)	prep.	to	
-153094	l	l(III)	l (III)	functor	certainly	
-153095	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. nom.	mountain	
+153095	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. gen.	mountain	
 153096	ġrpl	ġrpl/	ġrpl	n. m. sg. cstr. gen.	cloud	
 153097	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 153098	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
@@ -301,7 +295,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153103	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 153103	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 153104	l	l(I)	l (I)	prep.	to	
-153104	l	l(III)	l (III)	functor	certainly	
 153105	pakl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 36						
 153106	ṯmdl	ṯmdl/	ṯmdl	n. m. sg. abs. nom.	exhaustion	
@@ -321,8 +314,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153114	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 153114	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 153115	l	l(I)	l (I)	prep.	to	
-153115	l	l(III)	l (III)	functor	certainly	
-153116	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. nom.	mountain	
+153116	hrm	hr(I)/m	hr (I)	n. m. pl. cstr. gen.	mountain	
 153117	ġrpl	ġrpl/	ġrpl	n. m. sg. cstr. gen.	cloud	
 153118	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 153119	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
@@ -342,7 +334,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 39						
 153127	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 153127	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-153127	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 153128	w	w	w	conj.	and	
 153129	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. nom.	grain	
 153130	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
@@ -426,16 +417,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153173	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 153173	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 153174	l	l(I)	l (I)	prep.	to	
-153174	l	l(III)	l (III)	functor	certainly	
-153175	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
+153175	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
 153176	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 153176	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
 153176	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. cstr. gen.	biter	
 153176	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. cstr. gen.	to bite	
 153177	abd	abd(I)/	ảbd (I)	n. m. sg. abs. gen.	ruin	
 153178	l	l(I)	l (I)	prep.	to	
-153178	l	l(III)	l (III)	functor	certainly	
-153179	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
+153179	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
 153180	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. gen.	grain	
 153181	ṯmdl	ṯmdl/	ṯmdl	n. m. sg. abs. gen.	exhaustion	
 # KTU 1.107 46						

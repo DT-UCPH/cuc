@@ -1,7 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 1						
 156068	b	b	b	prep.	in	
-156069	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
 156069	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 156070	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 156070	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
@@ -42,9 +41,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156092	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
 156092	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 156093	l	l(I)	l (I)	prep.	to	
-156093	l	l(III)	l (III)	functor	certainly	
-156094	thm	thm/	thm	DN m. sg. abs. nom.	the Ocean/Primordial Ocean	
-156094	thm	thm/	thm	n. m. sg. abs. nom.	ocean	
+156094	thm	thm/	thm	DN m. sg. abs. gen.	the Ocean/Primordial Ocean	
+156094	thm	thm/	thm	n. m. sg. abs. gen.	ocean	
 # KTU 1.179 7						
 156095	xm	?	?	?	?	DULAT: NOT FOUND
 156096	ḥmm	ḥmm/	ḥmm	n. m. sg. abs. nom.	heat	
@@ -120,7 +118,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156140	prṯt	prṯ(t/t	prṯt	n. f. sg. cstr. nom.	secret	
 156141	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 156141	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-156141	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.179 17						
 156142	x	?	?	?	?	
 156143	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
@@ -144,17 +141,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156154	tl	tl(II)/	tl (II)	n. m. sg. cstr. gen.	weapon	
 156155	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 156155	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-156155	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 # KTU 1.179 20						
 156156	prṯt	prṯ(t/t	prṯt	n. f. sg. cstr. gen.	secret	
 156157	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 156157	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-156157	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.179 21						
 156158	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 156159	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 156159	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-156159	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 1.179 22						
 156160	xt	?	?	?	?	DULAT: NOT FOUND
 156161	yldt	?	?	?	?	DULAT: NOT FOUND
@@ -183,7 +177,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156175	xh	?	?	?	?	DULAT: NOT FOUND
 156176	w	w	w	conj.	and	
 156177	ysb	!y!sb(b[	/s:ś-b-b/	vb G prefc. 3 m. sg.	to turn round	
-156178	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 156178	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 156179	mḫrh	mḫr(II)/+h	mḫr (II)	n. m. cstr. gen.	tax collector	
 # KTU 1.179 31						
@@ -203,8 +196,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156184	w	w	w	conj.	and	
 156185	pslt	psl(t(II)/t	pslt (II)	n. f. sg. abs. nom.	sculpture	
 156186	l	l(I)	l (I)	prep.	to	
-156186	l	l(III)	l (III)	functor	certainly	
-156187	pslt	psl(t(II)/t	pslt (II)	n. f. sg. abs. nom.	sculpture	
+156187	pslt	psl(t(II)/t	pslt (II)	n. f. sg. abs. gen.	sculpture	
 # KTU 1.179 32						
 156188	w	w	w	conj.	and	
 156189	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	

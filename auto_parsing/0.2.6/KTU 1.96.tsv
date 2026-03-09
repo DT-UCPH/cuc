@@ -28,8 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151578	širh	šir(I)/+h	šỉr (I)	n. m. cstr. nom.	flesh	
 # KTU 1.96 4						
 151579	l	l(I)	l (I)	prep.	to	
-151579	l	l(III)	l (III)	functor	certainly	
-151580	bl	bl(III)/	bl (III)	n. m. sg. cstr. nom.	blended beer	
+151580	bl	bl(III)/	bl (III)	n. m. sg. cstr. gen.	blended beer	
 151581	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	knife	
 151582	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 151582	tšt	!t!št(y[	/š-t-y/	vb G prefc. 3 f. sg.	to drink	
@@ -41,8 +40,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151583	dmhx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.96 5						
 151584	l	l(I)	l (I)	prep.	to	
-151584	l	l(III)	l (III)	functor	certainly	
-151585	bl	bl(III)/	bl (III)	n. m. sg. cstr. nom.	blended beer	
+151585	bl	bl(III)/	bl (III)	n. m. sg. cstr. gen.	blended beer	
 151586	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
 151586	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
 151587	tpnn	!t!pnn[:w	/p-n-n/	vb G prefc. 3 m. pl.	to distort	
@@ -89,9 +87,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151600	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. gen.	gate	
 # KTU 1.96 9						
 151601	l	l(I)	l (I)	prep.	to	
-151601	l	l(III)	l (III)	functor	certainly	
-151602	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. cstr. nom.	gatekeeper	
-151602	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. cstr. nom.	gate	
+151602	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. cstr. gen.	gatekeeper	
+151602	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. cstr. gen.	gate	
 151603	tṯb	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
 151604	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
 151604	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
@@ -100,8 +97,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151605	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. abs. gen.	potter	
 # KTU 1.96 10						
 151606	l	l(I)	l (I)	prep.	to	
-151606	l	l(III)	l (III)	functor	certainly	
-151607	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. nom.	assembly	
+151607	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. gen.	assembly	
 151608	tṯb	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
 151609	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
 151609	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
@@ -109,8 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151610	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. abs. gen.	tax collector	
 # KTU 1.96 11						
 151611	l	l(I)	l (I)	prep.	to	
-151611	l	l(III)	l (III)	functor	certainly	
-151612	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. cstr. nom.	tax collector	
+151612	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. cstr. gen.	tax collector	
 151613	tṯb	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
 151614	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
 151614	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
@@ -119,8 +114,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151615	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 1.96 12						
 151616	l	l(I)	l (I)	prep.	to	
-151616	l	l(III)	l (III)	functor	certainly	
-151617	bṯy	bṯy/	bṯy	n. m. sg. cstr. nom.	evildoer	
+151617	bṯy	bṯy/	bṯy	n. m. sg. cstr. gen.	evildoer	
 151618	tṯb	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
 151619	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
 151619	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
@@ -129,9 +123,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151620	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. gen.	evildoing woman	
 # KTU 1.96 13						
 151621	l	l(I)	l (I)	prep.	to	
-151621	l	l(III)	l (III)	functor	certainly	
-151622	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. cstr. nom.	shame	
-151622	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. cstr. nom.	evildoing woman	
+151622	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. cstr. gen.	shame	
+151622	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. cstr. gen.	evildoing woman	
 151623	tṯb	tṯb/	tṯb	DN sg. abs. gen.	Teṯo/Hurrian storm god	
 # KTU 1.96 14						
 151624	xx	?	?	?	?	

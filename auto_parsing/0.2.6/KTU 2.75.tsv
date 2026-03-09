@@ -7,28 +7,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159192	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 159193	xxxx	?	?	?	?	
 # KTU 2.75 2						
-159194	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. nom.	to say	
-159194	rgm	rgm/	rgm	n. m. sg. cstr. nom.	word	
+159194	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 # KTU 2.75 3						
-159195	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+159195	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
 # KTU 2.75 4						
 159196	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 159197	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 159197	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 # KTU 2.75 5						
 159198	l	l(I)	l (I)	prep.	to	
-159198	l	l(II)	l (II)	adv.	no	
-159198	l	l(III)	l (III)	functor	certainly	
-159199	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-159199	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+159199	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 159200	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.75 6						
-159201	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 159201	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-159202	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-159202	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-159203	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-159203	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+159202	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+159203	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.75 7						
 159204	w	w	w	conj.	and	
 159205	ln	l(I)+n	l (I)	prep.	to	
@@ -52,7 +45,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159217	w	w	w	conj.	and	
 159218	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 159218	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-159218	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 159219	l	l(I)	l (I)	prep.	to	
 159219	l	l(II)	l (II)	adv.	no	
 159219	l	l(III)	l (III)	functor	certainly	

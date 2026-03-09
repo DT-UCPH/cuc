@@ -69,7 +69,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153395	bbt	bbt(I)/	bbt (I)	TN sg. cstr. nom.	bbt (I)	
 153396	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 153396	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-153396	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 153397	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.109 12						
 153398	kkdm	?	?	?	?	DULAT: NOT FOUND
@@ -84,7 +83,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153404	š	š/	š	n. m. sg. cstr. gen.	ram	
 153405	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 153405	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-153405	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 153406	š	š/	š	n. m. sg. cstr. gen.	ram	
 153407	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 153407	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
@@ -137,7 +135,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 20						
 153440	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 153440	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-153440	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 153441	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 153442	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.109 21						
@@ -150,7 +147,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 22						
 153448	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 153448	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-153448	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 153449	š	š/	š	n. m. sg. cstr. gen.	ram	
 153450	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 153450	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
@@ -169,17 +165,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153458	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.109 25						
 153459	l	l(I)	l (I)	prep.	to	
-153459	l	l(III)	l (III)	functor	certainly	
-153460	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. nom.	eye	
-153460	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. nom.	ʿAnatu/Anat	
+153460	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
+153460	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 153461	ḥlš	ḥlš/	ḥlš	n. m. sg. cstr. gen.	appellative or place name	
 153462	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
 153463	šm	š/m	š	n. m. pl. abs. gen.	ram	
 153463	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 # KTU 1.109 26						
 153464	l	l(I)	l (I)	prep.	to	
-153464	l	l(III)	l (III)	functor	certainly	
-153465	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+153465	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 153466	ġṣb	ġṣb/	ġṣb	n. m. sg. abs. nom.	abundance of the fur	
 153467	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	left	
 # KTU 1.109 27						
@@ -214,8 +208,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153486	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 153487	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 # KTU 1.109 32						
-153488	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
-153489	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+153488	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+153489	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 153490	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 153490	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 153491	l	l(I)	l (I)	prep.	to	

@@ -5,25 +5,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157576	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.34 2						
 157577	l	l(I)	l (I)	prep.	to	
-157577	l	l(III)	l (III)	functor	certainly	
-157578	ṯryl	ṯryl/	ṯryl	PN sg. cstr. nom.	ṯryl	
+157578	ṯryl	ṯryl/	ṯryl	PN sg. cstr. gen.	ṯryl	
 157579	umy	um/+y	ủm	n. f. cstr. gen.	mother	
-157580	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157580	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157580	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157580	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-157580	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.34 3						
 157581	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 157581	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 157582	lk	l(I)+k	l (I)	prep.	to	
-157583	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 157583	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.34 4						
-157584	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-157584	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-157585	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-157585	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+157584	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+157585	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.34 5						
 157586	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
 157587	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
@@ -65,10 +57,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157600	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.34 9						
 157601	w	w	w	conj.	and	
-157602	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157602	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-157602	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157602	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 157602	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 157603	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 157603	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	

@@ -27,7 +27,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148964	š	š/	š	n. m. sg. cstr. gen.	ram	
 148965	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 148965	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-148965	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 148966	š	š/	š	n. m. sg. cstr. gen.	ram	
 148967	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
 148968	š	š/	š	n. m. sg. cstr. gen.	ram	
@@ -85,13 +84,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149004	l	l(I)	l (I)	prep.	to	
 149005	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
 # KTU 1.46 9						
-149006	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. gen.	god	
 149006	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 149007	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 149007	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 149008	l	l(I)	l (I)	prep.	to	
-149008	l	l(III)	l (III)	functor	certainly	
-149009	bbtm	bbt(II)/~m	bbt (II)	DN du. cstr. nom.	superintendent	
+149009	bbtm	bbt(II)/~m	bbt (II)	DN du. cstr. gen.	superintendent	
 149010	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 149010	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 149011	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. cstr. gen.	entry	
@@ -135,8 +132,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149037	w	w	w	conj.	and	
 149038	š	š/	š	n. m. sg. abs. nom.	ram	
 149039	l	l(I)	l (I)	prep.	to	
-149039	l	l(III)	l (III)	functor	certainly	
-149040	rmš	rmš/	rmš	DN sg. cstr. nom.	rmš	
+149040	rmš	rmš/	rmš	DN sg. cstr. gen.	rmš	
 149041	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. gen.	total (quantity or price)	
 149042	w	w	w	conj.	and	
 149043	š	š/	š	n. m. sg. abs. nom.	ram	
@@ -167,7 +163,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149059	bbt	bbt(I)/	bbt (I)	TN sg. cstr. nom.	bbt (I)	
 149060	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 149060	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-149060	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 149061	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 149062	kbdm	kbd(I)&m	kbd (I)		liver	
 149063	w	w	w	conj.	and	
@@ -181,7 +176,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149068	š	š/	š	n. m. sg. cstr. gen.	ram	
 149069	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 149069	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-149069	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 149070	š	š/	š	n. m. sg. cstr. gen.	ram	
 149071	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 149071	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	

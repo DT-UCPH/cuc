@@ -11,11 +11,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159429	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 159429	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.84 4						
-159430	lm	l(I)&m	l (I)	prep.	to	
-159431	aḫt	aḫt(I)/	ảḫt (I)	n. f. pl. cstr. gen.	sister (related by blood)	
-159431	aḫt	aḫt(I)/	ảḫt (I)	n. f. sg. cstr. gen.	sister (related by blood)	
+159430	lm	l(I)+m(I)	l (I)	prep.	to	
+159431	aḫt	ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
+159431	aḫt	aḫt(I)/	ảḫt (I)	n. f. pl. abs. nom.	sister (related by blood)	
+159431	aḫt	aḫt(I)/	ảḫt (I)	n. f. sg. abs. nom.	sister (related by blood)	
 # KTU 2.84 5						
-159432	mdy	md(I)/+y	md (I)	n. f. sg. cstr. gen.	cape	
+159432	mdy	md(I)/+y	md (I)	n. f. sg. cstr. nom.	cape	
 159433	b	b	b	prep.	in	
 159434		?	?	?	?	
 # KTU 2.84 6						
@@ -62,9 +63,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159456	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
 159456	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.84 17						
-159457	lm	l(I)&m	l (I)	prep.	to	
+159457	lm	l(I)+m(I)	l (I)	prep.	to	
 159458	l	l(I)	l (I)	prep.	to	
-159458	l	l(III)	l (III)	functor	certainly	
 159459	hbṭx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 18						
 159460	ht	ht	ht	adv.	here	
@@ -80,19 +80,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159463	hbṭ	!!hbṭ[/	/h-b-ṭ/ẓ/	vb D inf.	to knock down	
 159464	w	w	w	conj.	and	
 159465	l	l(I)	l (I)	prep.	to	
-159465	l	l(III)	l (III)	functor	certainly	
 159466	x	?	?	?	?	
 # KTU 2.84 20						
 159467	amtk	am(t(I)/t+k	ảmt (I)	n. f. sg. cstr. nom.	(female) slave	
 159468	xx	?	?	?	?	
 # KTU 2.84 21						
-159469	uy	u&y	ủ	conj.	or	
+159469	uy	u+y	ủ	conj.	or	
 159470	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 159470	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 159470	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 159471	x	?	?	?	?	
 # KTU 2.84 22						
-159472	dt	d&t	d	det. or rel. functor	the one(s) of	
+159472	dt	d+t	d	det. or rel. functor	the one(s) of	
 159473	b	b	b	prep.	in	
 159474	ux	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 23						

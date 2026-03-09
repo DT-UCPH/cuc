@@ -15,7 +15,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148782	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. gen.	cave	
 148783	gb	gb(I)/	gb (I)	n. m. sg. cstr. gen.	pit	
 # KTU 1.43 2						
-148784	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 148784	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 148785	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 148785	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
@@ -23,9 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148787	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. gen.	banquet	
 148788	b	b	b	prep.	in	
 148789	gb	gb(I)/	gb (I)	n. m. sg. cstr. gen.	pit	
-148790	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 148790	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-148791	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. gen.	god	
 148791	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 # KTU 1.43 3						
 148792	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body	
@@ -59,19 +56,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148809	pamt	pa/m&t	pảm(t)	n. f. pl. abs. nom.	time	
 # KTU 1.43 8						
 148810	l	l(I)	l (I)	prep.	to	
-148810	l	l(III)	l (III)	functor	certainly	
-148811	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
-148811	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+148811	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 148812	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 148813	l	l(I)	l (I)	prep.	to	
-148813	l	l(III)	l (III)	functor	certainly	
-148814	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+148814	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 # KTU 1.43 9						
-148815	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+148815	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 148816	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 148817	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 10						
-148818	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 148818	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 148819	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 148819	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
@@ -85,8 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148825	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 148825	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 148826	l	l(I)	l (I)	prep.	to	
-148826	l	l(III)	l (III)	functor	certainly	
-148827	gṯr	gṯr/	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+148827	gṯr	gṯr/	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 12						
 148828	ṯql	ṯql/	ṯql	n. m. sg. cstr. gen.	shekel	
 148829	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
@@ -97,8 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148833	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 # KTU 1.43 13						
 148834	l	l(I)	l (I)	prep.	to	
-148834	l	l(III)	l (III)	functor	certainly	
-148835	ˤnth	ˤn(t(I)/t&h	ʕnt (I)	DN f. sg. cstr. nom.	ʿAnatu/Anat	
+148835	ˤnth	ˤn(t(I)/t&h	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 148836	ṯql	ṯql/	ṯql	n. m. sg. cstr. gen.	shekel	
 148837	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
 # KTU 1.43 14						
@@ -107,8 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148839	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 148840	wyrḫ	?	?	?	?	DULAT: NOT FOUND
 148841	l	l(I)	l (I)	prep.	to	
-148841	l	l(III)	l (III)	functor	certainly	
-148842	gṯr	gṯr/	gṯr	DN sg. abs. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+148842	gṯr	gṯr/	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 148843	tn	(ytn[	/y-t-n/	vb	give	
 148843	tn	(ytn[/	/y-t-n/	vb	give	
 # KTU 1.43 15						
@@ -121,9 +111,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148849	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 # KTU 1.43 16						
 148850	l	l(I)	l (I)	prep.	to	
-148850	l	l(III)	l (III)	functor	certainly	
-148851	ˤnth	ˤn(t(I)/t&h	ʕnt (I)	DN f. sg. cstr. nom.	ʿAnatu/Anat	
-148852	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+148851	ˤnth	ˤn(t(I)/t&h	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 148852	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 148853	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 148854	w	w	w	conj.	and	
@@ -132,22 +120,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148856	w	w	w	conj.	and	
 148857	lˤntm	?	?	?	?	DULAT: NOT FOUND
 148858	l	l(I)	l (I)	prep.	to	
-148858	l	l(III)	l (III)	functor	certainly	
-148859	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+148859	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 18						
 148860	ap	ap(I)	ảp (I)	adv./conj.	also	
 148860	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 148861	w	w	w	conj.	and	
 148862	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 148863	l	l(I)	l (I)	prep.	to	
-148863	l	l(III)	l (III)	functor	certainly	
-148864	ˤntm	ˤnt(I)/	ʕnt (I)	DN du. cstr. nom.	ʿAnatu/Anat	
+148864	ˤntm	ˤnt(I)/	ʕnt (I)	DN du. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.43 19						
 148865	š	š/	š	n. m. sg. cstr. gen.	ram	
 148866	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 148867	l	l(I)	l (I)	prep.	to	
-148867	l	l(III)	l (III)	functor	certainly	
-148868	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+148868	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 148869	dkrm	dkr/m	dkr	n. m. pl. abs. nom.	male animal	
 # KTU 1.43 20						
 148870	ap	ap(I)	ảp (I)	adv./conj.	also	
@@ -155,8 +140,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148871	w	w	w	conj.	and	
 148872	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 148873	l	l(I)	l (I)	prep.	to	
-148873	l	l(III)	l (III)	functor	certainly	
-148874	ˤntm	ˤnt(I)/	ʕnt (I)	DN du. abs. nom.	ʿAnatu/Anat	
+148874	ˤntm	ˤnt(I)/	ʕnt (I)	DN du. abs. gen.	ʿAnatu/Anat	
 # KTU 1.43 21						
 148875	x	?	?	?	?	
 148876	xx	?	?	?	?	
@@ -178,11 +162,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148884	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 148885	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	
 148885	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of	
-148886	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 148886	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.43 24						
 148887	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-148888	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 148888	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 148889	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 148890	pˤnm	pˤn/m	pʕn	n. f. pl. cstr. nom.	foot	
@@ -194,5 +176,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.43 26						
 148894	šbˤpamt	?	?	?	?	DULAT: NOT FOUND
 148895	l	l(I)	l (I)	prep.	to	
-148895	l	l(III)	l (III)	functor	certainly	
-148896	klhm	kl/+hm	kl	n. m. cstr. nom.	totality (of)	
+148896	klhm	kl/+hm	kl	n. m. cstr. gen.	totality (of)	

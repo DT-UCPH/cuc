@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147640	yrḫ	yrḫ/	yrḫ	n. m. sg. abs. gen.	moon	
 147641	yṯkḥ	!y!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. sg.	to burn	
 147642	yḥbq	!y!ḥbq[	/ḥ-b-q/	vb G prefc. 3 m. sg.	to embrace	
-147643	dt	d&t	d	det. or rel. functor	the one(s) of	
+147643	dt	d+t	d	det. or rel. functor	the one(s) of	
 # KTU 1.24 5						
 147644	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
 147644	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to)	
@@ -55,8 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 8						
 147657	ˤnha	?	?	?	?	DULAT: NOT FOUND
 147658	l	l(I)	l (I)	prep.	to	
-147658	l	l(III)	l (III)	functor	certainly	
-147659	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
+147659	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	
 147660	tzdn	!t!zd[n	/z-d/	vb G prefc.	to boil	
 147660	tzdn	tzdn[	/z-d/	vb G suffc. 3 m. sg.	to boil	
 147661	š	š/	š	n. m. sg. abs. nom.	ram	
@@ -83,8 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 12						
 147675	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	eye	
 147676	l	l(I)	l (I)	prep.	to	
-147676	l	l(III)	l (III)	functor	certainly	
-147677	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
+147677	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	
 147678	tzdn	!t!zd[n	/z-d/	vb G prefc.	to boil	
 147678	tzdn	tzdn[	/z-d/	vb G suffc. 3 m. sg.	to boil	
 147679	xxxn	?	?	?	?	DULAT: NOT FOUND
@@ -144,7 +142,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147713	mhrh	mhr(I)/+h	mhr (I)	n. m. cstr. nom.	warrior (trained, expert)	
 147714	la	la/	lả	n. m. sg. abs. nom.	power	
 # KTU 1.24 20						
-147715	bh	b&h	b	prep.	in	
 147715	bh	b+h	b	prep.	in	
 147716	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 147716	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
@@ -188,14 +185,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147737	l	l(IV)	l (IV)	interj.	oh!	
 # KTU 1.24 25						
 147738	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
-147739	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 147739	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 147740	lḫtn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 26						
 147741	m	m	m(h)	pers. pn.	what?	
 147742	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 147742	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-147742	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 147743	trḫ	trḫ[:d:w	/t-r-ḫ/	vb D suffc. 3 m. pl.	to marry	
 147744	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 147744	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
@@ -217,7 +212,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147754	ybrdmy	ybrdmy/	ybrdmy	DN sg. abs. nom.	ybrdmy	
 147755	bta	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 30						
-147756	bh	b&h	b	prep.	in	
 147756	bh	b+h	b	prep.	in	
 147757	lbu	lbu/	lbủ	n. m. abs. nom.	lion	
 147758	yˤrr	!y!ˤr[r	/ʕ-r/	vb	to become agitated	
@@ -232,7 +226,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147761	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 147762	nyr	nyr/	nyr	n. f. sg. cstr. gen.	luminary	
 147763	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
-147764	wn	w&n	w	conj.	and	
+147764	wn	w+n	w	conj.	and	
 147765	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 147765	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
 147765	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
@@ -330,7 +324,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147818	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.24 45						
 147819	l	l(I)	l (I)	prep.	to	
-147819	l	l(III)	l (III)	functor	certainly	
 147820	ḏpid	?	?	?	?	DULAT: NOT FOUND
 147821	hn	hn	hn	functor	behold!	
 147822	b	b	b	prep.	in	

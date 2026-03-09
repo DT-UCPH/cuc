@@ -1,8 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.56 1						
 158557	l	l(I)	l (I)	prep.	to	
-158557	l	l(III)	l (III)	functor	certainly	
-158558	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
+158558	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.56 2						
 158559	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158559	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -12,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.56 3						
 158560	rtm	rt/+m(I)	rt	PN sg. cstr. nom.	rt	
 # KTU 2.56 4						
-158561	hnny	hn&ny	hn	functor	behold!	
+158561	hnny	hn+ny	hn	functor	behold!	
 # KTU 2.56 5						
 158562	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 158563	kll	kll/	kll	n. m. sg. abs. nom.	totality	

@@ -1,8 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.5 1						
 156446	l	l(I)	l (I)	prep.	to	
-156446	l	l(III)	l (III)	functor	certainly	
-156447	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. nom.	head	
+156447	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. gen.	head	
 # KTU 2.5 2						
 156448	ypt	yp(t(I)/t	ypt (I)	n. f. sg. cstr. gen.	cow	
 156449	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs. gen.	tree	
@@ -26,6 +25,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.5 6						
 156456	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 156456	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-156456	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 2.5 7						
 156457	ġ	?	?	?	?	DULAT: NOT FOUND

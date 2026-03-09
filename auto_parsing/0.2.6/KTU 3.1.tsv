@@ -27,9 +27,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160760	lnqmd	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.1 10						
 160761	w	w	w	conj.	and	
-160762	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu II	
-160763	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-160763	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+160762	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
+160763	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 160764	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 3.1 11						
 160765	wˤmn	?	?	?	?	DULAT: NOT FOUND
@@ -59,17 +58,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160774	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 160775		?	?	?	?	
 # KTU 3.1 14						
-160776	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
-160777	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-160777	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+160776	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
+160777	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 160778	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 3.1 15						
 160779	phy	phy[	/p-h-y/	vb G suffc. 3 m. sg.	to see	
 # KTU 3.1 16						
 160780	w	w	w	conj.	and	
 160781	ṯpllm	ṯpllm/	ṯpllm	PN sg. cstr. nom.	ṯpllm	
-160782	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-160782	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+160782	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 160783	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 160783	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 160784	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
@@ -78,10 +75,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.1 17						
 160786	mṣmt	mṣm(t/t	mṣmt	n. f. sg. abs. nom.	treaty	
 160787	l	l(I)	l (I)	prep.	to	
-160787	l	l(III)	l (III)	functor	certainly	
-160788	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu II	
-160789	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-160789	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+160788	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	
+160789	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 160790	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 160791	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 160791	št	št[	/š-t/	vb G impv. 2	to place	
@@ -93,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160793	argmn	argmn/	ả/ỉrgmn	n. m. sg. cstr. nom.	payment of tribute to the Hittite court	
 160793	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. nom.	payment of tribute to the Hittite court	
 160794	dybl	?	?	?	?	DULAT: NOT FOUND
-160795	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
+160795	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
 # KTU 3.1 19						
 160796	l	l(I)	l (I)	prep.	to	
 160797	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
@@ -127,9 +122,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160818	iqnu	iqnu/	ỉqnủ	n. m. sg. cstr. gen.	gem of lapis lazuli	
 # KTU 3.1 24						
 160819	argmn	argmn/	ả/ỉrgmn	n. m. sg. cstr. gen.	payment of tribute to the Hittite court	
-160820	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu II	
-160821	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-160821	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+160820	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	
+160821	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.1 25						
 160822	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 160823	d	d	d	det. or rel. functor	the one(s) of	
@@ -167,8 +161,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160844	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 160845	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 160846	l	l(I)	l (I)	prep.	to	
-160846	l	l(III)	l (III)	functor	certainly	
-160847	uṯryn	uṯryn/	ủṯryn	n. m. sg. cstr. nom.	crown prince	
+160847	uṯryn	uṯryn/	ủṯryn	n. m. sg. cstr. gen.	crown prince	
 # KTU 3.1 31						
 160848	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
 160848	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
@@ -202,8 +195,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160869	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 160870	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 160871	l	l(I)	l (I)	prep.	to	
-160871	l	l(III)	l (III)	functor	certainly	
-160872	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. cstr. nom.	chief steward	
+160872	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. cstr. gen.	chief steward	
 160873	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
 # KTU 3.1 37						
 160874	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
@@ -216,9 +208,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160879	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 160880	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 160881	l	l(I)	l (I)	prep.	to	
-160881	l	l(III)	l (III)	functor	certainly	
-160882	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
-160883	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+160882	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
 160883	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 160883	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 160884	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
@@ -227,8 +217,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160885	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 160886	pḥm	pḥm/	pḥm	n. m. sg. abs. gen.	ember	
 160887	l	l(I)	l (I)	prep.	to	
-160887	l	l(III)	l (III)	functor	certainly	
-160888	škl	škl/	škl	n. m. sg. abs. nom.	minister	
+160888	škl	škl/	škl	n. m. sg. abs. gen.	minister	
 # KTU 3.1 40						
 160889	ax	?	?	?	?	DULAT: NOT FOUND
 160890	xxx	?	?	?	?	

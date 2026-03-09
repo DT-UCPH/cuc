@@ -24,7 +24,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 3						
 154656	ry	?	?	?	?	DULAT: NOT FOUND
 154657	b	b	b	prep.	in	
-154658	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 154658	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154659	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 154659	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
@@ -68,7 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154681	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 154681	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 13						
-154682	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+154682	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 154683	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 154683	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 154683	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
@@ -80,7 +79,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154687	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.132 15						
 154688	nš	nš	nš	?		
-154689	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 154689	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.132 16						
 154690	kmm	kmm	kmm	adv.	ditto	
@@ -104,7 +102,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154701	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 # KTU 1.132 21						
 154702	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
-154703	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 154703	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 154704	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.132 22						
@@ -119,7 +116,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154711	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
 # KTU 1.132 24						
 154712	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
-154713	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 154713	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 154714	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.132 25						

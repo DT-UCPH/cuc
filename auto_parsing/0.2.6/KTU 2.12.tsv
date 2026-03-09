@@ -5,16 +5,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.12 2						
 156633	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.12 3						
-156634	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156634	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156634	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156634	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-156634	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.12 4						
-156635	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-156636	tlmyn	tlmyn/	tlmyn	PN sg. abs. nom.	tlmyn	
+156635	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+156636	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	tlmyn	
 # KTU 2.12 5						
-156637	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+156637	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.12 6						
 156638	l	l(I)	l (I)	prep.	to	
 156639	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -36,10 +32,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156648	mnm	mnm	mnm	indef. pn.	any(thing)	
 156649	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.12 14						
-156650	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 156650	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 156651	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 # KTU 2.12 15						
 156652	l	l(I)	l (I)	prep.	to	
-156652	l	l(III)	l (III)	functor	certainly	
-156653	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	servant	
+156653	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. gen.	servant	

@@ -11,9 +11,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149192	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. nom.	back part (of the head)	
 149193	š	š/	š	n. m. sg. abs. gen.	ram	
 149194	l	l(I)	l (I)	prep.	to	
-149194	l	l(III)	l (III)	functor	certainly	
 # KTU 1.49 4						
-149195	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. nom.	bird	
+149195	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	
 149196	lpdr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.49 5						
 149197	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
@@ -22,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149199	l	l(I)	l (I)	prep.	to	
 149200	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 # KTU 1.49 7						
-149201	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+149201	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 149202	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.49 8						
 149203	w	w	w	conj.	and	
@@ -30,8 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149205	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
 # KTU 1.49 9						
 149206	l	l(I)	l (I)	prep.	to	
-149206	l	l(III)	l (III)	functor	certainly	
-149207	ll	ll(I)/	ll (I)	n. m. sg. cstr. nom.	night	
+149207	ll	ll(I)/	ll (I)	n. m. sg. cstr. gen.	night	
 149208	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
 149208	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
 # KTU 1.49 10						

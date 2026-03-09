@@ -4,27 +4,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158263	pgn	pgn/	pgn	PN sg. abs. gen.	pgn	
 # KTU 2.46 2						
 158264	l	l(I)	l (I)	prep.	to	
-158264	l	l(II)	l (II)	adv.	no	
-158264	l	l(III)	l (III)	functor	certainly	
-158265	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-158265	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-158266	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
+158265	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+158266	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 2.46 3						
-158267	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-158267	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+158267	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 # KTU 2.46 4						
 158268	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158268	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158269	lk	l(I)+k	l (I)	prep.	to	
-158270	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 158270	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.46 5						
-158271	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-158271	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-158272	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-158272	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158271	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+158272	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.46 6						
-158273	hnny	hn&ny	hn	functor	behold!	
+158273	hnny	hn+ny	hn	functor	behold!	
 158274	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158275	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 158275	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
@@ -44,14 +37,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.46 8						
 158279	mnm	mnm	mnm	indef. pn.	any(thing)	
 158280	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
-158281	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 158281	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 158282	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 158282	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.46 9						
 158283	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 158283	ky	k(II)&y	k (II)	emph. functor	yes	
-158283	ky	k(IV)&y	k (IV)	adv.	thus	
+158283	ky	k(IV)+y	k (IV)	adv.	thus	
 158284	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
 158285	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
 158285	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to build	

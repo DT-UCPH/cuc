@@ -16,7 +16,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154788	ḥgb	ḥgb/	ḥgb	n. m. sg. cstr. gen.	locust	
 # KTU 1.134 4						
 154789	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
-154790	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. gen.	god	
 154790	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 # KTU 1.134 5						
 154791	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
@@ -32,9 +31,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154798	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. gen.	massif	
 # KTU 1.134 9						
 154799	l	l(I)	l (I)	prep.	to	
-154799	l	l(III)	l (III)	functor	certainly	
-154800	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
-154800	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
+154800	pdry	pdry/	pdry	DN sg. abs. gen.	Pidray	
+154800	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
 # KTU 1.134 10						
 154801	xš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.134 11						

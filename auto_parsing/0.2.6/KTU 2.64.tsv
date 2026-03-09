@@ -7,16 +7,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.64 2						
 158721	adny	adn(I)/+y	ảdn (I)	n. m. cstr. gen.	lord	
 # KTU 2.64 3						
-158722	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158722	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158722	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158722	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-158722	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.64 4						
-158723	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158724	tlmyn	tlmyn/	tlmyn	PN sg. abs. nom.	tlmyn	
+158723	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+158724	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	tlmyn	
 # KTU 2.64 5						
-158725	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
+158725	bnk	bn(I)/+k	bn (I)	n. m. cstr. gen.	son	
 # KTU 2.64 6						
 158726	l	l(I)	l (I)	prep.	to	
 158727	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -34,10 +30,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158732	ybnn	!y!bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
 # KTU 2.64 10						
 158733	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-158734	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-158734	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-158734	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-158734	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 158734	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.64 11						
 158735	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
@@ -62,11 +54,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.64 18						
 158748	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.64 19						
-158749	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 158749	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 158750	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 158750	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
 # KTU 2.64 20						
 158751	l	l(I)	l (I)	prep.	to	
-158751	l	l(III)	l (III)	functor	certainly	
-158752	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+158752	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	

@@ -8,10 +8,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157138	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 # KTU 2.26 3						
 157139	l	l(I)	l (I)	prep.	to	
-157139	l	l(III)	l (III)	functor	certainly	
 157140	ḥyil	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.26 4						
-157141	lm	l(I)&m	l (I)	prep.	to	
+157141	lm	l(I)+m(I)	l (I)	prep.	to	
 157142	tlik	!t!l(ʔ&ik[:d	/l-ʔ-k/	vb D prefc.	to send (a message)	
 157143	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.26 5						
@@ -21,10 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.26 6						
 157146	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
 157147	l	l(I)	l (I)	prep.	to	
-157147	l	l(III)	l (III)	functor	certainly	
-157148	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
-157148	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-157148	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
+157148	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+157148	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 157149	dml	dml/	dml	DN sg. cstr. gen.	dml	
 # KTU 2.26 7						
 157150	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
@@ -64,8 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.26 17						
 157171	w	w	w	conj.	and	
 157172	l	l(I)	l (I)	prep.	to	
-157172	l	l(III)	l (III)	functor	certainly	
-157173	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
+157173	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
 # KTU 2.26 18						
 157174	tspr	!t!spr[:w	/s-p-r/	vb G prefc. 3 m. pl.	to count	
 157174	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to count	

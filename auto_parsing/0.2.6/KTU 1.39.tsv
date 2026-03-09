@@ -53,7 +53,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.39 6						
 147947	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 147947	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-147947	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 147948	š	š/	š	n. m. sg. abs. nom.	ram	
 147949	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. nom.	back part (of the head)	
 147950	š	š/	š	n. m. sg. abs. nom.	ram	
@@ -74,7 +73,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147960	wpḫr	?	?	?	?	DULAT: NOT FOUND
 147961	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 147961	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-147961	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 # KTU 1.39 8						
 147962	xgdlt	?	?	?	?	DULAT: NOT FOUND
 147963	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
@@ -129,14 +127,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147993	pgr	pgr/	pgr	n. m. sg. abs. gen.	body	
 147994	w	w	w	conj.	and	
 147995	ṯrmnm	ṯrmn(I)/	ṯrmn (I)	DN pl. cstr. nom.	term for the kings of Ugarit	
-147996	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 147996	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 147997	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
 147997	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.39 13						
 147998	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 147998	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-147999	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 147999	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 148000	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 148000	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
@@ -150,7 +146,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.39 14						
 148005	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 148005	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-148005	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 148006	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 148006	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 148007	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
@@ -220,5 +215,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.39 22						
 148047	l	l(I)	l (I)	prep.	to	
 148048	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
-148049	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 148049	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	

@@ -30,7 +30,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:5						
 146861	ṯkm	ṯkm/	ṯkm	n. m. sg. cstr. nom.	shoulder	
 146861	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. nom.	shoulder	
-146862	bm	b&m	b	prep.	in	
 146862	bm	b+m(I)	b	prep.	in	
 146863	ṯkm	ṯkm/	ṯkm	n. m. sg. cstr. nom.	shoulder	
 146863	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. nom.	shoulder	
@@ -105,10 +104,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146907	w	w	w	conj.	and	
 146908	mri	mr(u(I)/&i	mrủ (I)	adj. f. pl. cstr. nom.	fattened	
 146908	mri	mr(u(I)/&i	mrủ (I)	adj. f. sg. abs. nom.	fattened	
-146909	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. nom.	god	
 146909	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
 146910	ˤglm	ˤgl(I)/+m(I)	ʕgl (I)	n. m. cstr. gen.	calf	
-146911	dt	d&t	d	det. or rel. functor	the one(s) of	
+146911	dt	d+t	d	det. or rel. functor	the one(s) of	
 146912	šnt	šn(t(I)/t	šnt (I)	n. f. sg. cstr. nom.	year	
 # KTU 1.22 I:14						
 146913	imr	imr(I)/	ỉmr (I)	n. m. sg. cstr. gen.	lamb	
@@ -323,7 +321,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147039	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 147039	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
 147039	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-147040	lm	l(I)&m	l (I)	prep.	to	
+147040	lm	l(I)+m(I)	l (I)	prep.	to	
 147041	qdt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.22 II:15						
 147042	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
@@ -373,13 +371,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 II:23						
 147070	tˤln	!t!ˤl(y[n	/ʕ-l-y/	vb G prefc.	to go up	
 147071	l	l(I)	l (I)	prep.	to	
-147071	l	l(III)	l (III)	functor	certainly	
-147072	mrkbthm	mrkb(t/t+hm	mrkbt	n. f. sg. cstr. nom.	(light war-)chariot	
+147072	mrkbthm	mrkb(t/t+hm	mrkbt	n. f. sg. cstr. gen.	(light war-)chariot	
 147073	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come	
 147074	l	l(I)	l (I)	prep.	to	
-147074	l	l(III)	l (III)	functor	certainly	
 # KTU 1.22 II:24						
-147075	ˤrhm	ˤr(I)/+hm	ʕr (I)	n. f. cstr. nom.	city	
+147075	ˤrhm	ˤr(I)/+hm	ʕr (I)	n. f. cstr. gen.	city	
 147076	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
 147077	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 147077	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
@@ -400,17 +396,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147085	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
 147085	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
 147086	l	l(I)	l (I)	prep.	to	
-147086	l	l(III)	l (III)	functor	certainly	
-147087	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. nom.	threshing-floor	
+147087	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. gen.	threshing-floor	
 # KTU 1.22 II:26						
 147088	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 147089	l	l(I)	l (I)	prep.	to	
-147089	l	l(III)	l (III)	functor	certainly	
-147090	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg. abs. nom.	plantation	
-147090	mṭˤt	mṭˤ(t/t=	mṭʕt	n. f. pl. abs. nom.	plantation	
+147090	mṭˤt	mṭˤ(t/t	mṭʕt	n. f. sg. abs. gen.	plantation	
+147090	mṭˤt	mṭˤ(t/t=	mṭʕt	n. f. pl. abs. gen.	plantation	
 # KTU 1.22 IV:1						
 147091	l	l(I)	l (I)	prep.	to	
-147091	l	l(III)	l (III)	functor	certainly	
 # KTU 1.22 IV:2						
 147092	b	b	b	prep.	in	
 # KTU 1.22 IV:3						
@@ -418,7 +411,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 IV:4						
 147094	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
 # KTU 1.22 IV:5						
-147095	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
 147095	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 # KTU 1.22 IV:6						
 147096	x	?	?	?	?	

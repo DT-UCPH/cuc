@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 2						
 160148	xxx	?	?	?	?	
 160149	xxx	?	?	?	?	
-160150	ṯnidy	ṯnid&y	ṯnỉd	adv.	twice	
+160150	ṯnidy	ṯnid+y	ṯnỉd	adv.	twice	
 # KTU 2.98 3						
 160151	xxxxxt	?	?	?	?	DULAT: NOT FOUND
 160152	hlk	hlk[	/h-l-k/	vb G suffc. 3 m. sg.	to go	
@@ -18,8 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 4						
 160153	xxxx	?	?	?	?	
 160154	l	l(I)	l (I)	prep.	to	
-160154	l	l(III)	l (III)	functor	certainly	
-160155	anzḫ	anzḫ/	ảnzḫ	TN sg. abs. nom.	ảnzḫ	
+160155	anzḫ	anzḫ/	ảnzḫ	TN sg. abs. gen.	ảnzḫ	
 # KTU 2.98 5						
 160156	xxxnkm	?	?	?	?	DULAT: NOT FOUND
 160157	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
@@ -58,8 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160172	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 160173	hnkt	hnk&t	hnk(t)	dem./pers. pn.	that	
 160174	l	l(I)	l (I)	prep.	to	
-160174	l	l(III)	l (III)	functor	certainly	
-160175	knt	kn(t/t	knt	n. f. sg. cstr. nom.	continuity	
+160175	knt	kn(t/t	knt	n. f. sg. cstr. gen.	continuity	
 # KTU 2.98 11						
 160176	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg. abs. gen.	war	
 160177	b	b	b	prep.	in	
@@ -78,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160185	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	to	
 # KTU 2.98 13						
 160186	w	w	w	conj.	and	
-160187	ˤmm	ˤm(I)&~m	ʕm (I)	prep.	to	
+160187	ˤmm	ˤm(I)+m(I)	ʕm (I)	prep.	to	
 160188	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 160188	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 160189	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
@@ -129,8 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 21						
 160214	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to go	
 160215	l	l(I)	l (I)	prep.	to	
-160215	l	l(III)	l (III)	functor	certainly	
-160216	anzḫ	anzḫ/	ảnzḫ	TN sg. abs. nom.	ảnzḫ	
+160216	anzḫ	anzḫ/	ảnzḫ	TN sg. abs. gen.	ảnzḫ	
 # KTU 2.98 22						
 160217	w	w	w	conj.	and	
 160218	špšm	špš/~m	špš	n. f. sg. cstr. nom.	sun	
@@ -145,7 +142,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160222	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to know	
 160223	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 160223	ky	k(II)&y	k (II)	emph. functor	yes	
-160223	ky	k(IV)&y	k (IV)	adv.	thus	
+160223	ky	k(IV)+y	k (IV)	adv.	thus	
 # KTU 2.98 24						
 160224	šisp	?	?	?	?	DULAT: NOT FOUND
 160225	artṯb	artṯb/	ảrtṯb	PN sg. cstr. nom.	ảrtṯb	
@@ -173,7 +170,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160241	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.98 30						
 160242	l	l(I)	l (I)	prep.	to	
-160242	l	l(III)	l (III)	functor	certainly	
 160243	xxk	?	?	?	?	DULAT: NOT FOUND
 160244	štthm	št[t:pass+hm	/š-t/	vb G suffc. 1 c. sg.	to place	
 160244	štthm	št[t+hm	/š-t/	vb Gpass suffc. 1 c. sg.	to place	
@@ -187,8 +183,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160249	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
 160249	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
 160250	l	l(I)	l (I)	prep.	to	
-160250	l	l(III)	l (III)	functor	certainly	
-160251	atḏn	atḏn/	ảtḏn	PN sg. abs. nom.	ảtḏn	
+160251	atḏn	atḏn/	ảtḏn	PN sg. abs. gen.	ảtḏn	
 # KTU 2.98 33						
 160252	x	?	?	?	?	
 160253	w	w	w	conj.	and	
@@ -207,7 +202,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160259	x	?	?	?	?	
 160260	ẓr	ẓr(I)/	ẓr (I)	n. m. sg. cstr. nom.	back	
 160261	w	w	w	conj.	and	
-160262	tḥtm	tḥt(II)&m	tḥt (II)	adv.	underneath	
+160262	tḥtm	tḥt(II)+m(I)	tḥt (II)	adv.	underneath	
 160263	k	+k	-k (I)			
 160263	k	~k	-k (II)			
 160263	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -217,8 +212,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 36						
 160265	xx	?	?	?	?	
 160266	l	l(I)	l (I)	prep.	to	
-160266	l	l(III)	l (III)	functor	certainly	
-160267	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+160267	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 160268	w	w	w	conj.	and	
 160269	arš	arš/	ảrš	DN sg. abs. nom.	a monster (“many-headed”, “whale”)	
 160270	ank	ank	ảnk	pers. pn.	I	

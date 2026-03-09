@@ -1,18 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 1						
 161027	l	l(I)	l (I)	prep.	to	
-161027	l	l(III)	l (III)	functor	certainly	
-161028	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-161028	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-161028	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+161028	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+161028	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 161029	hnd	hnd	hnd	dem.	this	
 # KTU 3.5 2						
 161030	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. nom.	ʿmṯtmr	
 161031	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 # KTU 3.5 3						
 161032	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
-161033	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-161033	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+161033	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.5 4						
 161034	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 161035	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
@@ -62,8 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161053	nn	nn/	nn	PN sg. abs. nom.	nn	
 # KTU 3.5 12						
 161054	l	l(I)	l (I)	prep.	to	
-161054	l	l(III)	l (III)	functor	certainly	
-161055	bˤln	bˤl(II)/+n	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+161055	bˤln	bˤl(II)/+n	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 161056	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161056	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161056	bn	bn(II)	bn (II)	prep.	between	
@@ -75,13 +71,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161057	kltn	kltn/	kltn	PN sg. abs. nom.	kltn	
 161058	w	w	w	conj.	and	
 161059	l	l(I)	l (I)	prep.	to	
-161059	l	l(III)	l (III)	functor	certainly	
 # KTU 3.5 14						
-161060	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+161060	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 161061	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 161061	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-161062	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
-161062	ˤlm	ˤl(II)&m	ʕl (II)	adv.	above	
+161062	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+161062	ˤlm	ˤl(II)+m(I)	ʕl (II)	adv.	above	
 161062	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 3.5 15						
 161063	šḥr	šḥr/	šḥr	n. m. sg. abs. nom.	dawn	
@@ -91,7 +86,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161065	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	
 161066	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	man	
 161067	l	l(I)	l (I)	prep.	to	
-161067	l	l(III)	l (III)	functor	certainly	
 161068	y	+y, [y	-y (I)	prep. functor	my	
 161068	y	~y	-y (II)	prep. functor	indeed	
 161068	y	y	y	prep. functor	oh!	
@@ -99,7 +93,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161069	l	l(I)	l (I)	prep.	to	
 161069	l	l(II)	l (II)	adv.	no	
 161069	l	l(III)	l (III)	functor	certainly	
-161070	yqḥnn	lqḥ[nn	/l-q-ḥ/	vb G prefc.	to get hold of	
+161070	yqḥnn	!y!(lqḥ[nn	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
 161071	bd	b&d	b	prep.	in	
 # KTU 3.5 18						
 161072	bˤln	bˤl(II)/+n	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -118,15 +112,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161078	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 161078	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 # KTU 3.5 20						
-161079	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
-161079	ˤlm	ˤl(II)&m	ʕl (II)	adv.	above	
+161079	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+161079	ˤlm	ˤl(II)+m(I)	ʕl (II)	adv.	above	
 161079	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 161080	w	w	w	conj.	and	
 161081	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	
 161081	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. nom.	obligation	
 # KTU 3.5 21						
 161082	in	in/	ỉn	n. m. sg. abs. gen.	lack of	
-161083	bh	b&h	b	prep.	in	
 161083	bh	b+h	b	prep.	in	
 # KTU 3.5 22						
 161084	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. nom.	seal	
@@ -139,7 +132,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161086	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 24						
 161087	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. abs. nom.	nqmpʿ	
-161088	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-161088	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+161088	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 3.5 25						
 161089	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	

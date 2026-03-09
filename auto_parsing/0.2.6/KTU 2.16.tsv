@@ -4,15 +4,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156769	tlmyn	tlmyn/	tlmyn	PN sg. abs. gen.	tlmyn	
 # KTU 2.16 2						
 156770	l	l(I)	l (I)	prep.	to	
-156770	l	l(III)	l (III)	functor	certainly	
-156771	ṯryl	ṯryl/	ṯryl	PN sg. cstr. nom.	ṯryl	
+156771	ṯryl	ṯryl/	ṯryl	PN sg. cstr. gen.	ṯryl	
 156772	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.16 3						
-156773	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156773	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 156773	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156773	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-156773	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.16 4						
 156774	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 156774	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
@@ -20,11 +15,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156776	ily	il(I)/y	ỉl (I)	n. m. cstr. nom.	god	
 # KTU 2.16 5						
 156777	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
-156778	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-156778	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
+156778	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.16 6						
-156779	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-156779	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+156779	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 156780	umy	um/+y	ủm	n. f. cstr. nom.	mother	
 # KTU 2.16 7						
 156781	tdˤ	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 f. sg.	to know	
@@ -35,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156781	tdˤ	!t===!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. pl.	to know	
 156782	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 156782	ky	k(II)&y	k (II)	emph. functor	yes	
-156782	ky	k(IV)&y	k (IV)	adv.	thus	
+156782	ky	k(IV)+y	k (IV)	adv.	thus	
 156783	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
 # KTU 2.16 8						
 156784	l	l(I)	l (I)	prep.	to	
@@ -49,8 +42,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156789	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
 156790	nr	nr/	nr	n. m. sg. abs. gen.	sheen	
 # KTU 2.16 10						
-156791	by	b&y	b	prep.	in	
-156792	mid	mid/	mỉ/ủd	n. m. sg. abs. gen.	abundance	
+156791	by	b+y	b	prep.	in	
+156792	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
 156793	w	w	w	conj.	and	
 156794	um	um/	ủm	n. f. sg. abs. nom.	mother	
 # KTU 2.16 11						
@@ -112,8 +105,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156811	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 156812	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 # KTU 2.16 20						
-156813	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-156813	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-156813	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-156813	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 156813	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	

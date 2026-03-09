@@ -53,8 +53,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162167	l	l(I)	l (I)	prep.	to	
 162167	l	l(II)	l (II)	adv.	no	
 162167	l	l(III)	l (III)	functor	certainly	
-162168	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-162168	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
+162168	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
+162168	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 # KTU 3.33 12						
 162169	ˤpsm	ˤpsm/	ʕp/bs/ś	n. m. abs. nom.	landmark	
 162170	hnmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
@@ -66,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.33 14						
 162173	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 162173	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-162174	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+162174	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 # KTU 3.33 15						
 162175	w	w	w	conj.	and	
 162176	gt	g(t/t	gt	n. f. sg. cstr. nom.	gittu	

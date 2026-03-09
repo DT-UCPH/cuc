@@ -10,12 +10,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154567	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.130 4						
 154568	l	l(I)	l (I)	prep.	to	
-154568	l	l(III)	l (III)	functor	certainly	
-154569	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. nom.	grain	
+154569	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
 154570	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.130 5						
 154571	l	l(I)	l (I)	prep.	to	
-154571	l	l(III)	l (III)	functor	certainly	
 154572	ˤntṣpn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 6						
 154573	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
@@ -24,9 +22,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154574	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 7						
 154575	l	l(I)	l (I)	prep.	to	
-154575	l	l(III)	l (III)	functor	certainly	
-154576	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
-154576	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
+154576	pdry	pdry/	pdry	DN sg. abs. gen.	Pidray	
+154576	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
 # KTU 1.130 8						
 154577	w	w	w	conj.	and	
 154578	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
@@ -34,7 +31,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154578	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.130 9						
 154579	l	l(I)	l (I)	prep.	to	
-154579	l	l(III)	l (III)	functor	certainly	
 154580	ilibš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 10						
 154581	l	l(I)	l (I)	prep.	to	
@@ -47,27 +43,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154587	ḫlbš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 12						
 154588	l	l(I)	l (I)	prep.	to	
-154588	l	l(III)	l (III)	functor	certainly	
-154589	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-154589	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+154589	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
+154589	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
 154590	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.130 13						
 154591	l	l(I)	l (I)	prep.	to	
-154591	l	l(III)	l (III)	functor	certainly	
-154592	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. nom.	eye	
-154592	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. nom.	ʿAnatu/Anat	
+154592	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
+154592	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 154593	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 14						
 154594	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 154595	wš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 15						
 154596	l	l(I)	l (I)	prep.	to	
-154596	l	l(III)	l (III)	functor	certainly	
 154597	pdryš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.130 16						
 154598	b	b	b	prep.	in	
 154599	ymmlatalpm	?	?	?	?	DULAT: NOT FOUND
-154600	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+154600	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 # KTU 1.130 17						
 154601	nbšt	nbš(t/t	nbšt	n. f. sg. abs. nom.	living being(s)	
 154601	nbšt	nbš(t/t=	nbšt	n. f. pl. abs. nom.	living being(s)	
@@ -81,18 +74,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154607	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	city	
 # KTU 1.130 19						
 154608	l	l(I)	l (I)	prep.	to	
-154608	l	l(III)	l (III)	functor	certainly	
-154609	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. cstr. nom.	Hero	
+154609	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. cstr. gen.	Hero	
 154610	mtntm	mtnt/m	mtnt	n. f. pl. abs. gen.	loin	
 154611	l	l(I)	l (I)	prep.	to	
-154611	l	l(III)	l (III)	functor	certainly	
-154612	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+154612	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 # KTU 1.130 20						
 154613	w	w	w	conj.	and	
 154614	kbdm	kbd(I)&m	kbd (I)		liver	
 154615	l	l(I)	l (I)	prep.	to	
-154615	l	l(III)	l (III)	functor	certainly	
-154616	kṯrt	kṯrt/	kṯrt	DN pl. cstr. nom.	Swallows	
+154616	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	Swallows	
 # KTU 1.130 21						
 154617	rmš	rmš/	rmš	DN sg. cstr. gen.	rmš	
 154618	š	š/	š	n. m. sg. abs. gen.	ram	
@@ -123,7 +113,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154637	l	l(I)	l (I)	prep.	to	
 154638	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 26						
-154639	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 154639	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154640	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 154640	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	

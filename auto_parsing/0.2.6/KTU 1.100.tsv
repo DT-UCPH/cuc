@@ -4,16 +4,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151709	pḥl	pḥl/	pḥl	n. m. sg. cstr. gen.	ass	
 151710	pḥlt	pḥl/t	pḥl	n. f. sg. cstr. gen.	ass	
 151710	pḥlt	pḥl(t/t	pḥlt	n. f. sg. cstr. gen.	mare	
-151711	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 151711	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 151712	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
 151712	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
 151712	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-151713	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 151713	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 151714	abn	ab/+n	ảb	n. m. cstr. gen.	father	
 151714	abn	abn/	ảbn	n. f. sg. cstr. gen.	stone	
-151715	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 151715	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 151716	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 151717	w	w	w	conj.	and	
@@ -75,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151746	hlm	hl&m	hl	deictic adv. functor	behold	
 151747	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151748	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-151749	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+151749	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 151750	nḥšˤqšr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 7						
 151751	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in	
@@ -103,7 +100,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151763	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 151764	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 151764	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-151764	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 151765	mrym	mrym/	mrym	n. m. sg. cstr. gen.	height	
 151766	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 151767	mnty	mn(t(I)/t+y	mnt (I)	n. f. sg. cstr. gen.	portion	
@@ -138,7 +134,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151780	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 12						
 151781	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-151782	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+151782	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 151783	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 151784	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 151785	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in	
@@ -195,7 +191,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151811	hlm	hl&m	hl	deictic adv. functor	behold	
 151812	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151813	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-151814	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+151814	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 # KTU 1.100 18						
 151815	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 151816	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
@@ -257,7 +253,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151847	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 23						
 151848	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-151849	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+151849	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 151850	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 151851	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 151852	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in	
@@ -318,7 +314,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151879	hlm	hl&m	hl	deictic adv. functor	behold	
 151880	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151881	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-151882	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+151882	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 151883	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.100 29						
 151884	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
@@ -375,7 +371,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151911	hlm	hl&m	hl	deictic adv. functor	behold	
 151912	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151913	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-151914	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+151914	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 151915	nḥš	nḥš/	nḥš	n. m. sg. cstr. nom.	serpent	
 151916	ˤq	ˤq/	ʕq	n. m. sg. cstr. gen.	pupil	
 # KTU 1.100 34						
@@ -436,7 +432,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151946	hlm	hl&m	hl	deictic adv. functor	behold	
 151947	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151948	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-151949	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+151949	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 151950	nḥš	nḥš/	nḥš	n. m. sg. cstr. nom.	serpent	
 # KTU 1.100 39						
 151951	ˤq	ˤq/	ʕq	n. m. sg. cstr. gen.	pupil	
@@ -463,8 +459,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151963	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 151964	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 41						
-151965	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-151965	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+151965	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 151966	ˤṯtrth	ˤṯtrt(II)/~h	ʕṯtrt (II)	TN sg. cstr. gen.	ʿṯtrt (II)	
 151967	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 151968	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
@@ -496,7 +491,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151979	hlm	hl&m	hl	deictic adv. functor	behold	
 151980	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 151981	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-151982	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+151982	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 151983	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.100 44						
 151984	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
@@ -556,7 +551,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152015	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 152016	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.100 49						
-152017	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+152017	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 152018	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 152019	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 152020	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in	
@@ -617,7 +612,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152049	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 55						
 152050	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-152051	yšlḥm	!y!]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
+152051	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to eat	
 152052	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 152053	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 152054	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in	
@@ -752,15 +747,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152122	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
 152122	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 152123	l	l(I)	l (I)	prep.	to	
-152123	l	l(III)	l (III)	functor	certainly	
-152124	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	
-152124	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. nom.	daughter	
+152124	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
+152124	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 152125	w	w	w	conj.	and	
 # KTU 1.100 68						
 152126	yštql	?	?	?	?	DULAT: NOT FOUND
 152127	l	l(I)	l (I)	prep.	to	
-152127	l	l(III)	l (III)	functor	certainly	
-152128	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. cstr. nom.	mansion	
+152128	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. cstr. gen.	mansion	
 152129	tlu	lʔy(II)[	/l-ʔ-y/w/ (II)	vb G prefc.	to lose strength	
 152129	tlu	lʔy(II)[	/l-ʔ-y/w/ (II)	vb G suffc. 3 m. sg.	to lose strength	
 152130	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
@@ -803,13 +796,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152143	ˤdbt	ˤdb[t	/ʕ-d-b/	vb G suffc. 1 c. sg.	to leave > to put in	
 152144	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
 152145	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. cstr. gen.	to open	
-152146	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 152146	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 152147	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 # KTU 1.100 72						
 152148	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. cstr. gen.	to open	
 152148	ptḥ	ptḥ/	ptḥ	n. m. sg. cstr. gen.	entrance	
-152149	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
 152149	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 152150	w	w	w	conj.	and	
 152151	uba	!(ʔ&u!b(ʔ[&a	/b-ʔ/	vb G prefc. 1 c. sg.	to enter	

@@ -4,7 +4,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155306	hm	hm(I)	hm (I)	pers. pn.	they	
 155307	xxxxxxxxx	?	?	?	?	
 155308	l	l(I)	l (I)	prep.	to	
-155308	l	l(III)	l (III)	functor	certainly	
 155309	xxxxxxx	?	?	?	?	
 155310	bhmtn	bhm(t/t&n	bhmt	n. f. sg. abs. nom.	cattle	
 155311	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
@@ -55,10 +54,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155335	b	b	b	prep.	in	
 155336	yrḫ	yrḫ/	yrḫ	DN m. sg. abs. gen.	Yariḫu/Yarikh	
 155336	yrḫ	yrḫ/	yrḫ	n. m. sg. abs. gen.	moon	
-155337	aḫrm	aḫr&m	ảḫr	adv./prep./conj.	afterwards	
+155337	aḫrm	aḫr+m(I)	ảḫr	adv./prep./conj.	afterwards	
 # KTU 1.163 6						
-155338	ġrplt	ġrpl(t/t	ġrplt	n. f. sg. cstr. gen.	cloudy sky	
-155339	mẓrn	mẓr&n/	mẓr	n. m. sg. abs. gen.	rain	
+155338	ġrplt	ġrpl(t/t	ġrplt	n. f. sg. abs. nom.	cloudy sky	
+155339	mẓrn	mẓr&n/	mẓr	n. m. sg. abs. nom.	rain	
 155340	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 # KTU 1.163 7						
 155341	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -72,7 +71,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155346	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 155347	mlkn	mlk(I)&n	mlk (I)		king	
 155348	l	l(I)	l (I)	prep.	to	
-155348	l	l(III)	l (III)	functor	certainly	
 155349	yiḫdbh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.163 8						
 155350	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -100,7 +98,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155364	w	w	w	conj.	and	
 155365	xxx	?	?	?	?	
 155366	l	l(I)	l (I)	prep.	to	
-155366	l	l(III)	l (III)	functor	certainly	
 155367	yx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.163 12						
 155368	hm	hm(II)	hm (II)	conj./interr. functor	if	

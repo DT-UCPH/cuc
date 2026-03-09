@@ -59,8 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155964	rt	rt/	rt	PN sg. abs. nom.	rt	
 # KTU 1.175 11						
 155965	l	l(I)	l (I)	prep.	to	
-155965	l	l(III)	l (III)	functor	certainly	
-155966	ḫrt	ḫr(t/t	ḫrt	n. f. sg. abs. nom.	cave	
+155966	ḫrt	ḫr(t/t	ḫrt	n. f. sg. abs. gen.	cave	
 155967	w	w	w	conj.	and	
 155968	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. nom.	head	
 155969	bṯn	bṯn/	bṯn	n. m. sg. abs. gen.	serpent	
@@ -82,7 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 14						
 155980		?	?	?	?	
 155981	w	w	w	conj.	and	
-155982	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+155982	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 155983	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 155984	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	lad	
 # KTU 1.175 15						

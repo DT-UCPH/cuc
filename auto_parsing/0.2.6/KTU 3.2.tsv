@@ -1,10 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 1						
 160892	l	l(I)	l (I)	prep.	to	
-160892	l	l(III)	l (III)	functor	certainly	
-160893	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-160893	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-160893	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+160893	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+160893	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 160894	hnd	hnd	hnd	dem.	this	
 # KTU 3.2 2						
 160895	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. nom.	ʿmṯtmr	
@@ -12,13 +10,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160896	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 160897	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
 # KTU 3.2 4						
-160898	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-160898	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+160898	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 160899	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 3.2 5						
 160900	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 160900	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-160901	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 160901	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 160901	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 160902	annḏr	annḏr/	ảnnḏr	PN sg. cstr. gen.	ảnnḏr	
@@ -41,21 +37,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160911	ytnn	yt&n/+n	yt	n. m. cstr. nom.	?	
 # KTU 3.2 9						
 160912	l	l(I)	l (I)	prep.	to	
-160912	l	l(III)	l (III)	functor	certainly	
-160913	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. nom.	ʿbdmlk	
+160913	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. gen.	ʿbdmlk	
 # KTU 3.2 10						
 160914	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 160915	amtrn	amtrn/	ảmtrn	PN sg. abs. gen.	ảmtrn	
 # KTU 3.2 11						
 160916	w	w	w	conj.	and	
 160917	l	l(I)	l (I)	prep.	to	
-160917	l	l(III)	l (III)	functor	certainly	
-160918	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+160918	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 160919	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 160919	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 # KTU 3.2 12						
-160920	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
-160920	ˤlm	ˤl(II)&m	ʕl (II)	adv.	above	
+160920	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+160920	ˤlm	ˤl(II)+m(I)	ʕl (II)	adv.	above	
 160920	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 160921	mnk	mnk	mnk	indef. pn.	whoever	
 # KTU 3.2 13						
@@ -63,10 +57,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160923	l	l(I)	l (I)	prep.	to	
 160923	l	l(II)	l (II)	adv.	no	
 160923	l	l(III)	l (III)	functor	certainly	
-160924	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-160924	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
+160924	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
+160924	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 # KTU 3.2 14						
-160925	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 160925	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 160925	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 160926	hnd	hnd	hnd	dem.	this	
@@ -81,14 +74,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160932	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
 160933	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 160933	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-160934	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+160934	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 # KTU 3.2 18						
 160935	w	w	w	conj.	and	
 160936	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	obligation	
 160936	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. nom.	obligation	
 160937	in	in/	ỉn	n. m. sg. abs. gen.	lack of	
 160938	mnm	mnm	mnm	indef. pn.	any(thing)	
-160939	bh	b&h	b	prep.	in	
 160939	bh	b+h	b	prep.	in	
 # KTU 3.2 19						
 160940	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. nom.	seal	

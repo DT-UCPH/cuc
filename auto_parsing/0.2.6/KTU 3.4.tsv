@@ -1,10 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.4 1						
 160977	l	l(I)	l (I)	prep.	to	
-160977	l	l(III)	l (III)	functor	certainly	
-160978	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-160978	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-160978	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+160978	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+160978	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 160979	hnd	hnd	hnd	dem.	this	
 # KTU 3.4 2						
 160980	iwrkl	iwrkl/	ỉwrkl	PN sg. abs. nom.	ỉwrkl	
@@ -34,7 +32,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160997	w	w	w	conj.	and	
 160998	ištrmy	ištrmy/	ỉštrmy	PN sg. cstr. nom.	ỉštrmy	
 # KTU 3.4 9						
-160999	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 160999	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 160999	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 161000	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. gen.	ʿbdmlk	
@@ -43,7 +40,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161002	w	w	w	conj.	and	
 161003	sntb	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.4 11						
-161004	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 161004	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 161004	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 161005	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -79,5 +75,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161024	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 161024	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
 161025	l	l(I)	l (I)	prep.	to	
-161025	l	l(III)	l (III)	functor	certainly	
-161026	unṯhm	unṯ/+hm	ủnṯ	n. m. cstr. nom.	obligation	
+161026	unṯhm	unṯ/+hm	ủnṯ	n. m. cstr. gen.	obligation	

@@ -1,10 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.32 1						
 162054	l	l(I)	l (I)	prep.	to	
-162054	l	l(III)	l (III)	functor	certainly	
-162055	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-162055	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-162055	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+162055	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+162055	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 162056	hnd	hnd	hnd	dem.	this	
 # KTU 3.32 2						
 162057	l	l(I)	l (I)	prep.	to	
@@ -14,8 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162060	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 162061	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
 # KTU 3.32 4						
-162062	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-162062	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+162062	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 162063	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 3.32 5						
 162064	bhtm	bht(II)/m	bt (II)	n. m. pl. cstr. gen.	house	
@@ -27,20 +24,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162068	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 162068	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 162069	l	l(I)	l (I)	prep.	to	
-162069	l	l(III)	l (III)	functor	certainly	
-162070	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
+162070	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 3.32 7						
 162071	w	w	w	conj.	and	
 162072	l	l(I)	l (I)	prep.	to	
-162072	l	l(III)	l (III)	functor	certainly	
-162073	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+162073	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 162074	u	u	ủ	conj.	or	
 162075	l	l(I)	l (I)	prep.	to	
 162075	l	l(II)	l (II)	adv.	no	
 162075	l	l(III)	l (III)	functor	certainly	
 # KTU 3.32 8						
 162076	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-162077	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 162077	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 162077	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 162078	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
@@ -68,8 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162090	b	b	b	prep.	in	
 162091	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 162092	l	l(I)	l (I)	prep.	to	
-162092	l	l(III)	l (III)	functor	certainly	
-162093	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+162093	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 162094	hwt	hw&t	hw	pers. pn.	he	
 162094	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 3.32 13						
@@ -137,7 +130,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162121	bn	bn(II)	bn (II)	prep.	between	
 162121	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 162121	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162122	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 162122	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 162122	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 162123	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	

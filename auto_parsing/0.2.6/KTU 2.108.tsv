@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160631	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
 160632	bnšm	bnš/~m	bnš	n. m. abs. nom. pl.	man	
 # KTU 2.108 5						
-160633	dt	d&t	d	det. or rel. functor	the one(s) of	
+160633	dt	d+t	d	det. or rel. functor	the one(s) of	
 160634	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
 160634	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. nom.	to flee	
 160634	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
@@ -35,17 +35,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160638	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
 160639	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	man	
 # KTU 2.108 7						
-160640	dt	d&t	d	det. or rel. functor	the one(s) of	
+160640	dt	d+t	d	det. or rel. functor	the one(s) of	
 160641	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
 160641	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. nom.	to flee	
 160641	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
 160642	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 2.108 8						
-160643	by	b&y	b	prep.	in	
-160644	spr	spr(II)/	spr (II)	n. m. sg. cstr. gen.	tablet / register	
-160644	spr	spr(I)/	spr (I)	n. m. sg. cstr. gen.	scribe	
-160645	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
-160645	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
+160643	by	b+y	b	prep.	in	
+160644	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+160644	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
+160644	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+160644	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+160644	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
+160644	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+160644	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
+160644	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
+160644	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
+160644	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
+160644	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+160645	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+160645	št	št[	/š-t/	vb G impv. 2	to place	
+160645	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
+160645	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+160645	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 # KTU 2.108 9						
 160646	w	w	w	conj.	and	
 160647	štn	št[n	/š-t/	vb G suffc.	to place	

@@ -1,27 +1,19 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.86 1						
 159576	l	l(I)	l (I)	prep.	to	
-159576	l	l(III)	l (III)	functor	certainly	
 159577	ḫḏmrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.86 2						
 159578	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-159579	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159579	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 159579	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159579	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159579	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.86 3						
-159580	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-159581	anntn	anntn/	ảnntn	PN sg. abs. nom.	ảnntn	
+159580	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+159581	anntn	anntn/	ảnntn	PN sg. cstr. gen.	ảnntn	
 # KTU 2.86 4						
-159582	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
-159583	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+159582	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 159583	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.86 5						
-159584	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-159584	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-159585	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-159585	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+159584	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+159585	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.86 6						
 159586	l	l(I)	l (I)	prep.	to	
 159587	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -36,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159593	qlty	qlt(I)/+y	qlt (I)	n. f. cstr. gen.	vileness	
 159593	qlty	qlt(II)/+y	qlt (II)	n. f. cstr. gen.	(Messenger-)service	
 159594	w	w	w	conj.	and	
-159595	hnny	hn&ny	hn	functor	behold!	
+159595	hnny	hn+ny	hn	functor	behold!	
 # KTU 2.86 10						
 159596	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 159597	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
@@ -95,7 +87,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.86 21						
 159618	w	w	w	conj.	and	
 159619	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-159620	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 159620	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 159620	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 # KTU 2.86 22						

@@ -18,7 +18,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154155	xx	?	?	?	?	
 # KTU 1.119 3						
 154156	w	w	w	conj.	and	
-154157	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 154157	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 154158	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 154158	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
@@ -51,23 +50,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154176	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 154176	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 154177	l	l(I)	l (I)	prep.	to	
-154177	l	l(III)	l (III)	functor	certainly	
-154178	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+154178	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.119 7						
 154179	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 154179	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 154180	l	l(I)	l (I)	prep.	to	
-154180	l	l(III)	l (III)	functor	certainly	
-154181	ġlm	ġlm/	ġlm	n. m. sg. abs. nom.	boy	
+154181	ġlm	ġlm/	ġlm	n. m. sg. abs. gen.	boy	
 154182	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
 154183	w	w	w	conj.	and	
 154184	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 154184	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 # KTU 1.119 8						
 154185	l	l(I)	l (I)	prep.	to	
-154185	l	l(III)	l (III)	functor	certainly	
-154186	ġlmtm	ġlmt(I)/m	ġlmt (I)	n. f. pl. cstr. nom.	damsel	
-154187	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
+154186	ġlmtm	ġlmt(I)/m	ġlmt (I)	n. f. pl. cstr. gen.	damsel	
 154187	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154188	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. gen.	minister	
 154188	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. gen.	to offer	
@@ -76,7 +71,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154190	w	w	w	conj.	and	
 154191	tnrr	?	?	?	?	DULAT: NOT FOUND
 154192	bˤd	bˤd	bʕd	adv. or prep.	behind	
-154193	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 154193	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154194	bˤl	bˤl(II)/	bʕl (II)	DN pl. abs. gen.	Baʿlu/Baal	
 154194	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
@@ -88,8 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154199	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. gen.	city	
 # KTU 1.119 11						
 154200	l	l(I)	l (I)	prep.	to	
-154200	l	l(III)	l (III)	functor	certainly	
-154201	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. nom.	Hero	
+154201	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 154202	b	b	b	prep.	in	
 154203	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	eight	
 154204	ṯˤšrt	?	?	?	?	DULAT: NOT FOUND
@@ -97,11 +90,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 12						
 154206	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 154207	l	l(I)	l (I)	prep.	to	
-154207	l	l(III)	l (III)	functor	certainly	
-154208	mdgl	mgdl/	mgdl	n. m. sg. cstr. nom.	tower	
+154208	mdgl	mgdl/	mgdl	n. m. sg. cstr. gen.	tower	
 154209	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 154209	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-154209	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 154210	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.119 13						
 154211	u	u	ủ	conj.	or	
@@ -115,25 +106,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 14						
 154217	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 154217	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-154218	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 154218	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154219	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 154219	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 154220	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	throat	
 154221	l	l(I)	l (I)	prep.	to	
-154221	l	l(III)	l (III)	functor	certainly	
-154222	išḫry	išḫry/	ỉ/ủšḫry	DN sg. cstr. nom.	ỉ/ủšḫry	
+154222	išḫry	išḫry/	ỉ/ủšḫry	DN sg. cstr. gen.	ỉ/ủšḫry	
 # KTU 1.119 15						
 154223	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	throat	
 154224	l	l(I)	l (I)	prep.	to	
-154224	l	l(III)	l (III)	functor	certainly	
 154225	bˤlxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.119 16						
 154226	w	w	w	conj.	and	
 154227	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
 154227	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
 154228	l	l(I)	l (I)	prep.	to	
-154228	l	l(III)	l (III)	functor	certainly	
 154229	x	?	?	?	?	
 # KTU 1.119 17						
 154230	lxx	?	?	?	?	DULAT: NOT FOUND
@@ -167,7 +154,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 22						
 154253	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 154254	b	b	b	prep.	in	
-154255	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
 154255	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 154256	b	b	b	prep.	in	
 154257	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
@@ -189,7 +175,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 25						
 154269	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 154269	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-154269	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
 154270	mtk	mt(II)/+k	mt (II)	n. m. cstr. gen.	death	
 154271	mlkm	mlk(I)&m	mlk (I)		king	
 154272	rišyt	rišy(t/t	rỉšyt	n. f. sg. abs. nom.	beginning	
@@ -241,30 +226,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 30						
 154293	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 154293	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-154293	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. nom.	to make	
 154294	nšqdš	!n!]š]qdš[	/q-d-š/	vb Š prefc. 1 c. pl.	to consecrate	
 154295	mḏr	mḏr/	mḏr	n. m. sg. cstr. nom.	vow	
 154296	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 154296	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-154296	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.119 31						
 154297	nmlu	!n!ml(ʔ[&u:d	/m-l-ʔ/	vb D prefc. 1 c. pl.	to be full	
 154298	dkr	dkr/	dkr	n. m. sg. cstr. nom.	male animal	
 154299	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 154299	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-154299	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 154300	nšqdš	!n!]š]qdš[	/q-d-š/	vb Š prefc. 1 c. pl.	to consecrate	
 # KTU 1.119 32						
 154301	ḥtp	ḥtp/	ḥtp	n. m. sg. cstr. nom.	Speisen	
 154302	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 154302	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-154302	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 154303	nmlu	!n!ml(ʔ[&u:d	/m-l-ʔ/	vb D prefc. 1 c. pl.	to be full	
 154304	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 154304	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 154305	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 154305	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-154305	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 154306	nˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.119 33						
 154307	šr	šr(II)/	šr (II)	n. m. sg. cstr. nom.	musician	
@@ -272,10 +252,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154308	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
 154309	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 154309	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-154309	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 154310	nˤl	!n!ˤl(y[	/ʕ-l-y/	vb G prefc. 1 c. pl.	to go up	
 154311	ntbt	ntbt/	ntbt	n. m. sg. cstr. nom.	path	
-154312	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 154312	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154313	bˤl	bˤl(II)/	bʕl (II)	DN pl. abs. gen.	Baʿlu/Baal	
 154313	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. gen.	Baʿlu/Baal	
@@ -285,10 +263,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154316	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
 154317	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 154317	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-154317	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 154318	l	l(I)	l (I)	prep.	to	
-154318	l	l(III)	l (III)	functor	certainly	
-154319	ṣltkm	ṣl(t/t+km	ṣlt	n. f. sg. cstr. nom.	prayer	
+154319	ṣltkm	ṣl(t/t+km	ṣlt	n. f. sg. cstr. gen.	prayer	
 # KTU 1.119 35						
 154320	ydy	yd(I)/+y	yd (I)	n. f. cstr. nom.	hand	
 154320	ydy	!y!(ydy(I)[	/y-d-y/ (I)	vb G prefc. 3 m. sg.	to throw	
@@ -300,10 +276,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154321	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
 154321	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 154322	l	l(I)	l (I)	prep.	to	
-154322	l	l(III)	l (III)	functor	certainly	
-154323	ṯġrkm	ṯġr(I)/+km	ṯġr (I)	n. m. cstr. nom.	gate	
+154323	ṯġrkm	ṯġr(I)/+km	ṯġr (I)	n. m. cstr. gen.	gate	
 154324	qrd	qrd(I)/	qrd (I)	n. m. sg. abs. nom.	hero	
 # KTU 1.119 36						
 154325	l	l(I)	l (I)	prep.	to	
-154325	l	l(III)	l (III)	functor	certainly	
-154326	ḥmytkm	ḥmt(I)/+km	ḥmt (I)	n. f. cstr. nom.	wall	
+154326	ḥmytkm	ḥmt(I)/+km	ḥmt (I)	n. f. cstr. gen.	wall	

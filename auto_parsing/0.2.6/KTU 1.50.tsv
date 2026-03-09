@@ -3,7 +3,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149216	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 # KTU 1.50 2						
 149217	l	l(I)	l (I)	prep.	to	
-149217	l	l(III)	l (III)	functor	certainly	
 149218	ksu	?	?	?	?	DULAT: NOT FOUND
 149219	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	goddess	
 # KTU 1.50 3						
@@ -14,27 +13,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.50 4						
 149224	š	š/	š	n. m. sg. abs. gen.	ram	
 149225	l	l(I)	l (I)	prep.	to	
-149225	l	l(III)	l (III)	functor	certainly	
-149226	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. cstr. nom.	goddess	
+149226	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. cstr. gen.	goddess	
 149227	š	š/	š	n. m. sg. abs. gen.	ram	
 149228	lˤṯtrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.50 5						
 149229	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. nom.	bird	
 149230	l	l(I)	l (I)	prep.	to	
-149230	l	l(III)	l (III)	functor	certainly	
-149231	pdr	pdr(I)/	pdr (I)	n. m. sg. cstr. nom.	town	
-149231	pdr	pdr(I)/	pdr (I)	n. m. sg. abs. nom.	town	
+149231	pdr	pdr(I)/	pdr (I)	n. m. sg. abs. gen.	town	
 149232	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 149233	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
 # KTU 1.50 6						
 149234	tšnpn	!t!]š]np[n	/n-p/	vb Š prefc.	to raise	
-149235	ˤlm	ˤl(I)&~m	ʕl (I)	prep.	upon	
+149235	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 149236	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.50 7						
 149237	w	w	w	conj.	and	
 149238	l	l(I)	l (I)	prep.	to	
-149238	l	l(III)	l (III)	functor	certainly	
-149239	ll	ll(I)/	ll (I)	n. m. sg. cstr. nom.	night	
+149239	ll	ll(I)/	ll (I)	n. m. sg. cstr. gen.	night	
 149240	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 149241	w	w	w	conj.	and	
 149242		?	?	?	?	

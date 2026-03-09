@@ -4,11 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157084	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
 # KTU 2.24 2						
 157085	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
-157086	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157086	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 157086	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157086	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-157086	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.24 3						
 157087	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 157088	illḏr	?	?	?	?	DULAT: NOT FOUND
@@ -47,7 +43,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157105	mnm	mnm	mnm	indef. pn.	any(thing)	
 157106	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.24 12						
-157107	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 157107	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 157108	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
 157108	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	

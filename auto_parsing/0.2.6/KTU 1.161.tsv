@@ -63,12 +63,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155149	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
 155149	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
 155150	u	u	ủ	conj.	or	
-155151	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu II	
-155152	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-155152	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+155151	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
+155152	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.161 13						
 155153	ksi	ksi/	ks/śủ	n. f. cstr. gen.	seat	
-155154	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu II	
+155154	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu	
 155155	tbky	!t!bky[	/b-k-y/	vb G prefc. 3 f. sg.	to weep	
 155155	tbky	!t=!bky[	/b-k-y/	vb G prefc. 2 m. sg.	to weep	
 155155	tbky	!t==!bky[	/b-k-y/	vb G prefc. 2 f. sg.	to weep	
@@ -116,7 +115,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155181	xaṯr	?	?	?	?	DULAT: NOT FOUND
 155182	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 155183	l	l(I)	l (I)	prep.	to	
-155183	l	l(III)	l (III)	functor	certainly	
 155184	kisih	?	?	?	?	DULAT: NOT FOUND
 155185	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
 # KTU 1.161 21						
@@ -150,14 +148,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 25						
 155205	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 155206	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
-155207	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-155207	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+155207	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.161 26						
 155208	tḥm	tḥm/	tḥm	n. m. sg. abs. gen.	message	
 155209	u	u	ủ	conj.	or	
-155210	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu II	
-155211	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-155211	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+155210	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
+155211	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 1.161 27						
 155212	ˤšty	ˤšt&y/	ʕšt(y)	num.	one	
 155213	w	w	w	conj.	and	

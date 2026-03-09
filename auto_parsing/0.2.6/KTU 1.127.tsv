@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154484	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	
 154484	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. gen.	to sacrifice	
 # KTU 1.127 4						
-154485	dt	d&t	d	det. or rel. functor	the one(s) of	
+154485	dt	d+t	d	det. or rel. functor	the one(s) of	
 154486	nat	na(t/t	nảt	n. f. sg. abs. nom.	lament	
 # KTU 1.127 5						
 154487	w	w	w	conj.	and	
@@ -45,21 +45,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154497	sprt	spr(t/t	sprt	n. f. sg. abs. nom.	instruction	
 154497	sprt	spr(t/t=	sprt	n. f. pl. abs. nom.	instruction	
 # KTU 1.127 10						
-154498	dt	d&t	d	det. or rel. functor	the one(s) of	
+154498	dt	d+t	d	det. or rel. functor	the one(s) of	
 154499	nat	na(t/t	nảt	n. f. sg. abs. nom.	lament	
 # KTU 1.127 11						
 154500	w	w	w	conj.	and	
 154501	qrwn	qrwn(I)/	qrwn (I)	n. m. sg. abs. nom.	offering	
 # KTU 1.127 12						
 154502	l	l(I)	l (I)	prep.	to	
-154502	l	l(III)	l (III)	functor	certainly	
 154503	kdbḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.127 13						
 154504	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 154504	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
 # KTU 1.127 14						
 154505	ndr	ndr/	ndr	n. m. sg. cstr. gen.	vow	
-154506	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
 154506	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 # KTU 1.127 15						
 154507	bnbnš	?	?	?	?	DULAT: NOT FOUND
@@ -99,8 +97,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154526	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
 154526	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
 154526	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
-154527	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-154527	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
+154527	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
+154527	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 154528	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 154528	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 154528	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
@@ -126,13 +124,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154538	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
 154538	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	
 # KTU 1.127 31						
-154539	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 154539	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 154540	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 154541	bnš	bnš/	bnš	n. m. pl. abs. gen.	man	
 154541	bnš	bnš/	bnš	n. m. sg. abs. gen.	man	
-154542	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-154542	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
+154542	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
+154542	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 154543	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 154543	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 154543	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	

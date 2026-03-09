@@ -1,7 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.32 1						
 157542	l	l(I)	l (I)	prep.	to	
-157542	l	l(III)	l (III)	functor	certainly	
 # KTU 2.32 2						
 157543	xxxxd	?	?	?	?	DULAT: NOT FOUND
 157544	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
@@ -17,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157545	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
 157545	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 157545	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
-157546	lm	l(I)&m	l (I)	prep.	to	
+157546	lm	l(I)+m(I)	l (I)	prep.	to	
 157547	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.32 4						
 157548	ny	n(I)&y	-n (I)	morph.	Sun	

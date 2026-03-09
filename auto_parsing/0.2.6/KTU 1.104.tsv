@@ -3,7 +3,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152627	iršt	irš(t/t	ỉršt	n. f. sg. abs. nom.	request	
 # KTU 1.104 2						
 152628	d	d	d	det. or rel. functor	the one(s) of	
-152629	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. nom.	god	
 152629	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
 152630	pd	pd(I)/	pd (I)	n. m. sg. abs. gen.	lock (of hair)	
 # KTU 1.104 3						
@@ -58,14 +57,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152654	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 152655	šqdš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.104 13						
-152656	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 152656	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 152657	dxtt	?	?	?	?	DULAT: NOT FOUND
 152658	wbt	?	?	?	?	DULAT: NOT FOUND
 152659	bx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.104 14						
 152660	w	w	w	conj.	and	
-152661	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 152661	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 152662	šr	šr(II)/	šr (II)	n. m. sg. abs. gen.	musician	
 152662	šr	šr(III)/	šr (III)	n. m. sg. abs. gen.	Prince	
@@ -102,9 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 21						
 152680	wm	wm	wm	conj., morph.		
 152680	wm	w+m(I)	w	conj., morph.	and	
-152681	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 152681	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-152682	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 152682	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 152683	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 # KTU 1.104 22						
@@ -131,4 +126,3 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152695	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
 152695	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 152696	l	l(I)	l (I)	prep.	to	
-152696	l	l(III)	l (III)	functor	certainly	

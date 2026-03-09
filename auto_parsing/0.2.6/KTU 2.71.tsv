@@ -4,22 +4,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158917	tlmyn	tlmyn/	tlmyn	PN sg. abs. gen.	tlmyn	
 # KTU 2.71 2						
 158918	l	l(I)	l (I)	prep.	to	
-158918	l	l(III)	l (III)	functor	certainly	
-158919	pzy	pzy/	pzy	PN sg. abs. nom.	pzy	
+158919	pzy	pzy/	pzy	PN sg. abs. gen.	pzy	
 158920	rmgm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.71 3						
 158921	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158921	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158922	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.71 4						
-158923	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 158923	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-158924	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-158924	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158924	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.71 5						
-158925	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-158925	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-158926	hnny	hn&ny	hn	functor	behold!	
+158925	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+158926	hnny	hn+ny	hn	functor	behold!	
 # KTU 2.71 6						
 158927	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 158928	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
@@ -55,10 +51,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158939	pm	p(I)+m(I)	p (I)	conj. functor	and	
 158939	pm	p(III)/+m(I)	p (III)	n. m. cstr. nom.	mouth	
 158939	pm	p(II)+m(I)	p (II)	adv.	here	
-158940	yqḥ	lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
-158940	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc.	to get hold of	
+158940	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
+158940	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 # KTU 2.71 12						
-158941	bk	b&k	b	prep.	in	
+158941	bk	b+k	b	prep.	in	
 158942	tˤpr	!t!ˤpr[	/ʕ-p-r/	vb G prefc. 3 f. sg.	to supply (something)	
 158942	tˤpr	!t=!ˤpr[	/ʕ-p-r/	vb G prefc. 2 m. sg.	to supply (something)	
 158942	tˤpr	!t==!ˤpr[	/ʕ-p-r/	vb G prefc. 2 f. sg.	to supply (something)	

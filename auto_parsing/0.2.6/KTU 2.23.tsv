@@ -24,8 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 4						
 156998	ylak	!y!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 3 m. sg.	to send (a message)	
 156999	l	l(I)	l (I)	prep.	to	
-156999	l	l(III)	l (III)	functor	certainly	
-157000	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+157000	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 157001	k	+k	-k (I)			
 157001	k	~k	-k (II)			
 157001	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -111,9 +110,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157039	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 157039	p	p(II)	p (II)	adv.	here	
 157040	l	l(I)	l (I)	prep.	to	
-157040	l	l(III)	l (III)	functor	certainly	
 # KTU 2.23 18						
-157041	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
+157041	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. gen.	life	
 157042	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
 157043	arš	arš/	ảrš	DN sg. abs. gen.	a monster (“many-headed”, “whale”)	
 # KTU 2.23 19						
@@ -141,7 +139,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157059	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 157060	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
 157060	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. gen.	sob	
-157061	dt	d&t	d	det. or rel. functor	the one(s) of	
+157061	dt	d+t	d	det. or rel. functor	the one(s) of	
 157062	tġrn	nġr[n	/n-ġ-r/	vb G prefc.	to protect	
 157062	tġrn	nġr[n	/n-ġ-r/	vb G suffc.	to protect	
 # KTU 2.23 23						

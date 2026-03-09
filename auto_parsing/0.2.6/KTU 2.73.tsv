@@ -18,11 +18,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159106	tˤtq	!t!ˤtq[	/ʕ-t-q/	vb G prefc. 3 m. du.	to pass	
 159106	tˤtq	!t!ˤtq[:w	/ʕ-t-q/	vb G prefc. 3 m. pl.	to pass	
 159106	tˤtq	!t===!ˤtq[	/ʕ-t-q/	vb G prefc. 2 m. pl.	to pass	
-159107	by	b&y	b	prep.	in	
-159108	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
+159107	by	b+y	b	prep.	in	
+159108	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
 159109		?	?	?	?	
 # KTU 2.73 5						
-159110	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. gen.	sanctuary	
+159110	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
+159110	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 159111	w	w	w	conj.	and	
 159112	b	b	b	prep.	in	
 159113	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
@@ -51,22 +52,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159123	k	k(I)	k (I)	prep.	like	
 159123	k	k(II)	k (II)	emph. functor	yes	
 159124	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-159125	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 159125	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 159125	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 159126	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 159126	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 159127	l	l(I)	l (I)	prep.	to	
-159127	l	l(III)	l (III)	functor	certainly	
 # KTU 2.73 8						
 159128	hlny	hlny	hlny	deictic adv. functor	behold	
-159129	lm	l(I)&m	l (I)	prep.	to	
-159130	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-159130	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-159130	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-159130	mt	mt(III)/	mt (III)	n. m. pl. cstr. gen.	man	
-159130	mt	mt(III)/	mt (III)	n. m. sg. cstr. gen.	man	
-159131	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+159129	lm	l(I)+m(I)	l (I)	prep.	to	
+159130	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+159130	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
+159130	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
+159130	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+159130	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
+159130	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
+159131	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 159132	xxxxxxx	?	?	?	?	
 159133	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
 # KTU 2.73 9						
@@ -99,8 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159153	w	w	w	conj.	and	
 159154	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say	
 159155	l	l(I)	l (I)	prep.	to	
-159155	l	l(III)	l (III)	functor	certainly	
-159156	aġzr	aġzr/	ảġzr	n. m. sg. cstr. nom.	?	
+159156	aġzr	aġzr/	ảġzr	n. m. sg. cstr. gen.	?	
 # KTU 2.73 14						
 159157	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 159158	at	at(I)	ảt (I)	pers. pn.	you	
@@ -112,7 +111,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159160	tškḥ	!t!škḥ[:w	/š-k-ḥ/	vb G prefc. 3 m. pl.	to find	
 159160	tškḥ	!t===!škḥ[	/š-k-ḥ/	vb G prefc. 2 m. pl.	to find	
 # KTU 2.73 15						
-159161	dt	d&t	d	det. or rel. functor	the one(s) of	
+159161	dt	d+t	d	det. or rel. functor	the one(s) of	
 159162	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
 159163	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
 # KTU 2.73 16						

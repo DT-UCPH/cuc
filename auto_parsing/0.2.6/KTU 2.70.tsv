@@ -33,15 +33,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158843	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.70 6						
 158844	l	l(I)	l (I)	prep.	to	
-158844	l	l(III)	l (III)	functor	certainly	
-158845	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-158846	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
+158845	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 158846	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.70 7						
-158847	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-158847	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-158848	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-158848	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158847	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+158848	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.70 8						
 158849	l	l(I)	l (I)	prep.	to	
 158850	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
@@ -78,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.70 16						
 158873	hbt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 158874	w	w	w	conj.	and	
-158875	lm	l(I)&m	l (I)	prep.	to	
+158875	lm	l(I)+m(I)	l (I)	prep.	to	
 158876	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 158876	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return	
 # KTU 2.70 17						
@@ -98,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158886	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 158887	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.70 21						
-158888	ṯmt	ṯm&t	ṯm	adv.	there	
+158888	ṯmt	ṯm+t	ṯm	adv.	there	
 158889	ˤmnk	ˤm(I)+nk	ʕm (I)	prep.	to	
 # KTU 2.70 22						
 158890	k	+k	-k (I)			
@@ -118,7 +114,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158895	k	k(II)	k (II)	emph. functor	yes	
 158896	tšal	!t!š(ʔ&al[	/š-ʔ-l/	vb G prefc.	to ask	
 # KTU 2.70 24						
-158897	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	
 158897	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 158897	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 158898	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
@@ -140,16 +135,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158905	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. cstr. gen.	lineage	
 158906	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 158907	l	l(I)	l (I)	prep.	to	
-158907	l	l(III)	l (III)	functor	certainly	
 158908	yšbˤl	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.70 28						
 158909	ḫpn	ḫpn(I)/	ḫpn (I)	n. m. sg. abs. nom.	Gewand	
 158910	l	l(I)	l (I)	prep.	to	
-158910	l	l(III)	l (III)	functor	certainly	
-158911	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+158911	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 2.70 29						
 158912	mnm	mnm	mnm	indef. pn.	any(thing)	
 158913	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence	
 158914	l	l(I)	l (I)	prep.	to	
-158914	l	l(III)	l (III)	functor	certainly	
-158915	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
+158915	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	

@@ -3,13 +3,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158061	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 158061	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to be well	
 158062	lk	l(I)+k	l (I)	prep.	to	
-158063	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 158063	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.41 2						
-158064	tġrk	nġr[k	/n-ġ-r/	vb G prefc.	to protect	
-158064	tġrk	nġr[k	/n-ġ-r/	vb G suffc.	to protect	
-158065	tšlmk	!t!šlm[k:d	/š-l-m/	vb D prefc.	to be well	
-158065	tšlmk	tšlmk[	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
+158064	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+158065	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
 # KTU 2.41 3						
 158066	ˤbdxxxxxty	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.41 4						
@@ -34,7 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.41 13						
 158077	xršxxxmy	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.41 14						
-158078	hnm	hn&m	hn	functor	behold!	
+158078	hnm	hn+m(I)	hn	functor	behold!	
 158078	hnm	hnm	hnm	deictic functor	behold	
 158079	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 158080	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
@@ -53,8 +50,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158089	aštn	!(ʔ&a!št[n	/š-t/	vb G prefc. 1 c. sg.	to place	
 158089	aštn	aštn[	/š-t/	vb G suffc. 3 m. sg.	to place	
 158090	l	l(I)	l (I)	prep.	to	
-158090	l	l(III)	l (III)	functor	certainly	
-158091	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
+158091	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. gen.	brother (by blood)	
 # KTU 2.41 19						
 158092	w	w	w	conj.	and	
 158093	ap	ap(I)	ảp (I)	adv./conj.	also	

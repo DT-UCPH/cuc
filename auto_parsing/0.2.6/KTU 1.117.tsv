@@ -20,9 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154073	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 154074	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	goddess	
 # KTU 1.117 5						
-154075	dt	d&t	d	det. or rel. functor	the one(s) of	
+154075	dt	d+t	d	det. or rel. functor	the one(s) of	
 154076	l	l(I)	l (I)	prep.	to	
-154076	l	l(III)	l (III)	functor	certainly	
 154077	y	+y, [y	-y (I)	prep. functor	my	
 154077	y	~y	-y (II)	prep. functor	indeed	
 154077	y	y	y	prep. functor	oh!	
@@ -31,7 +30,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154078	k	k(III)	k (III)	Subordinating or completive functor	when	
 154078	k	k(I)	k (I)	prep.	like	
 154078	k	k(II)	k (II)	emph. functor	yes	
-154079	ilm	il(I)/~m	ỉl (I)	n. m. sg. cstr. nom.	god	
 154079	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
 # KTU 1.117 6						
 154080	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
@@ -41,7 +39,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.117 7						
 154083	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
 154083	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
-154084	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	
 154084	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 154085	ar	ar/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 1.117 8						
@@ -70,10 +67,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154098	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 154098	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 # KTU 1.117 12						
-154099	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	house	
 154099	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 154100	arx	?	?	?	?	DULAT: NOT FOUND
 154101	ṯbtk	ṯb(t/t+k	ṯbt	n. f. sg. cstr. nom.	seat	
 # KTU 1.117 13						
 154102	l	l(I)	l (I)	prep.	to	
-154102	l	l(III)	l (III)	functor	certainly	

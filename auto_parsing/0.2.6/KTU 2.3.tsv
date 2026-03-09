@@ -4,7 +4,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 2						
 156305	xxxxxxxty	?	?	?	?	DULAT: NOT FOUND
 156306	l	l(I)	l (I)	prep.	to	
-156306	l	l(III)	l (III)	functor	certainly	
 # KTU 2.3 3						
 156307	xxxxxxtm	?	?	?	?	DULAT: NOT FOUND
 156308	w	w	w	conj.	and	
@@ -63,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 13						
 156344	w	w	w	conj.	and	
 156345	hw	hw	hw	pers. pn.	he	
-156346	uy	u&y	ủ	conj.	or	
+156346	uy	u+y	ủ	conj.	or	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	

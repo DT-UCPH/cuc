@@ -219,8 +219,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 35						
 150474	x	?	?	?	?	
 150475	l	l(I)	l (I)	prep.	to	
-150475	l	l(III)	l (III)	functor	certainly	
-150476	lim	lim(I)/	lỉm (I)	n. m. sg. abs. nom.	people	
+150476	lim	lim(I)/	lỉm (I)	n. m. sg. abs. gen.	people	
 # KTU 1.84 36						
 150477	xmdx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.84 37						
@@ -234,7 +233,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150481	y	y	y	prep. functor	oh!	
 # KTU 1.84 40						
 150482	npy	npy/	npy	n. m. sg. abs. nom.	purification	
-150483	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu II	
+150483	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
 # KTU 1.84 41						
 150484	x	?	?	?	?	
 150485	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. nom.	assembly	

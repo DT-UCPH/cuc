@@ -19,12 +19,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153795	l	l(II)	l (II)	adv.	no	
 153795	l	l(III)	l (III)	functor	certainly	
 153796	qṣ	qṣ/	qṣ	n. m. sg. cstr. nom.	end	
-153797	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen.	god	
 153797	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 153798	tlḥmn	!t!lḥm(I)[n	/l-ḥ-m/ (I)	vb G prefc.	to eat	
 153798	tlḥmn	tlḥmn[	/l-ḥ-m/ (I)	vb G suffc. 3 m. sg.	to eat	
 # KTU 1.114 I:3						
-153799	ilm	il(I)/~m	ỉl (I)	n. m. abs. nom. sg.	god	
 153799	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 153800	w	w	w	conj.	and	
 153801	tštn	!t!št[n	/š-t/	vb G prefc.	to place	
@@ -101,19 +99,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153843	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. cstr. nom.	gatekeeper	
 153843	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. cstr. nom.	gate	
 # KTU 1.114 I:12						
-153844	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house	
 153844	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 153845	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 153845	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 153846	pn	pn(m/	pnm	n. m. pl. abs. gen.	face	
-153847	lm	l(I)&m	l (I)	prep.	to	
+153847	lm	l(I)+m(I)	l (I)	prep.	to	
 153848	rlb	?	?	?	?	DULAT: NOT FOUND
 153849	tˤdbn	!t!ˤdb[n	/ʕ-d-b/	vb G prefc.	to leave > to put in	
 # KTU 1.114 I:13						
 153850	nšb	nšb/	nšb	n. m. sg. abs. nom.	slice	
 153851	l	l(I)	l (I)	prep.	to	
-153851	l	l(III)	l (III)	functor	certainly	
-153852	inr	inr/	ỉnr	n. m. sg. abs. nom.	dog	
+153852	inr	inr/	ỉnr	n. m. sg. abs. gen.	dog	
 153853	tˤdbn	!t!ˤdb[n	/ʕ-d-b/	vb G prefc.	to leave > to put in	
 153854	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. nom.	shoulder	
 # KTU 1.114 I:14						
@@ -127,7 +123,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153860	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 153861	w	w	w	conj.	and	
 153862	l	l(I)	l (I)	prep.	to	
-153862	l	l(III)	l (III)	functor	certainly	
 # KTU 1.114 I:15						
 153863	aškr	?	?	?	?	DULAT: NOT FOUND
 153864	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
@@ -153,14 +148,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153875	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 153876	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to go	
 153877	l	l(I)	l (I)	prep.	to	
-153877	l	l(III)	l (III)	functor	certainly	
-153878	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	
-153878	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. nom.	daughter	
+153878	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
+153878	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 153879	yštql	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.114 I:18						
 153880	l	l(I)	l (I)	prep.	to	
-153880	l	l(III)	l (III)	functor	certainly	
-153881	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. cstr. nom.	mansion	
+153881	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. cstr. gen.	mansion	
 153882	yˤmsn	!y!ˤms[n	/ʕ-m-s/	vb G prefc. 3 m. sg.	to load	
 153883	nn	nn/	nn	PN sg. cstr. nom.	nn	
 153884	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. gen.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
@@ -175,7 +168,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.114 I:20						
 153890	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 153890	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-153890	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. cstr. gen.	to make	
 153891	qrnm	qrn/m	qrn	n. f. pl. abs. gen.	horn	
 153892	w	w	w	conj.	and	
 153893	ḏnb	ḏnb/	ḏnb(t)	n. m. sg. abs. nom.	tail	
@@ -226,7 +218,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153912	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. nom.	sanctuary	
 153913	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 153913	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
-153913	bˤl	bˤl[/	/b-ʕ-l/	vb G act. ptcpl. m. sg. abs. gen.	to make	
 # KTU 1.114 I:25						
 153914	xxxxxn	?	?	?	?	DULAT: NOT FOUND
 153915	dxx	?	?	?	?	DULAT: NOT FOUND
@@ -238,9 +229,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153920	ˤntxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.114 I:27						
 153921	w	w	w	conj.	and	
-153922	bhm	b&hm	b	prep.	in	
 153922	bhm	b+hm	b	prep.	in	
-153922	bhm	b&h+m(I)	b	prep.	in	
 153923	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
 153924	lmdh	lmd/+h	lmd	adj. m. cstr. nom.	trained	
 153924	lmdh	lmd[:d+h	/l-m-d/	vb D suffc.	to teach	
@@ -264,8 +253,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153930	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
 153930	yšt	!y!št(y[	/š-t-y/	vb G prefc. 3 m. sg.	to drink	
 153931	l	l(I)	l (I)	prep.	to	
-153931	l	l(III)	l (III)	functor	certainly	
-153932	lṣbh	lṣb/+h	lṣb	n. m. cstr. nom.	brow	
+153932	lṣbh	lṣb/+h	lṣb	n. m. cstr. gen.	brow	
 153933	ḫš	ḫš/	ḫš	DN sg. abs. nom.	le dieu qui montre la solicitude	
 153934	ˤrk	ˤrk(I)/	ʕrk (I)	n. m. sg. abs. nom.	bookkeeping account	
 153935	lb	lb/	lb	n. m. sg. abs. nom.	heart	
