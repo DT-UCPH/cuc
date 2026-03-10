@@ -59,6 +59,20 @@ class LinterSchemaEnforcementTest(unittest.TestCase):
             any("Missing or invalid TSV header row" in issue.message for issue in issues)
         )
 
+    def test_linter_flags_suffix_t_variant_that_does_not_match_surface(self) -> None:
+        issues = self._lint_text(
+            self.HEADER
+            + "# KTU 1.test 1\n"
+            + "1\tšlm\tšlm[:dt===\t/š-l-m/\tvb D suffc. 3 f. sg.\tto be well\t\n"
+        )
+        self.assertTrue(
+            any(
+                "Analysis does not reconstruct to surface" in issue.message
+                and "šlmt" in issue.message
+                for issue in issues
+            )
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

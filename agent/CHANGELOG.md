@@ -1,5 +1,21 @@
 ## 2026-03-10
 
+- Fixed analysis/surface reconstruction for stem-marker payloads in:
+  - `pipeline/steps/analysis_utils.py`
+  - `linter/lint.py`
+- The reconstructor now skips only the stem markers themselves (`:d`, `:l`, `:r`, `:pass`) instead of dropping all following letters.
+- This prevents impossible verbal analyses such as `šlm[:dt===`, `šlm[:dt=`, `šlm[:dt==`, `šlm[:dt`, and `šlm[:d:w` from falsely reconstructing as bare `šlm`; they now reconstruct as `šlmt` or `šlmw` and are rejected upstream.
+- This is a general fix for any verb carrying visible post-stem-marker payload letters, not just `šlm`.
+- Updated regression coverage in:
+  - `tests/test_analysis_utils.py`
+  - `tests/test_linter_schema_enforcement.py`
+  - `tests/test_paradigm_matcher.py`
+  - `tests/test_verbal_feature_completion.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_analysis_utils tests.test_linter_schema_enforcement tests.test_verbal_feature_completion tests.test_paradigm_matcher`
+  - `uv run ruff check agent/pipeline/steps/analysis_utils.py agent/linter/lint.py agent/tests/test_analysis_utils.py agent/tests/test_linter_schema_enforcement.py agent/tests/test_paradigm_matcher.py agent/tests/test_verbal_feature_completion.py`
+  - targeted reruns for `KTU 2.34.tsv`, `KTU 1.39.tsv`, and `KTU 1.161.tsv`
+
 - Added a conservative attestation-translation tie-breaker for `l` in:
   - `pipeline/dulat_attestation_translation_index.py`
   - `spacy_ugaritic/components/l_context.py`

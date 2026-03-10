@@ -113,7 +113,7 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         rewritten = rewrite_row(row, completer)
         self.assertIn("vb G prefc. 3 f. sg.", rewritten.pos)
         self.assertIn("vb G prefc. 3 m. du.", rewritten.pos)
-        self.assertIn("vb G prefc. 3 m. pl.", rewritten.pos)
+        self.assertNotIn("vb G prefc. 3 m. pl.", rewritten.pos)
 
     def test_expands_under_specified_suffix_analysis_from_surface(self) -> None:
         completer = VerbalFeatureCompleter(

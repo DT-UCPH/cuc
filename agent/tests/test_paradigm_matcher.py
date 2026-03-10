@@ -16,9 +16,9 @@ class ParadigmMatcherTest(unittest.TestCase):
         rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
         self.assertIn(("!t!ṯkḥ[", "3", "f.", "sg."), rendered)
         self.assertIn(("!t!ṯkḥ[", "3", "m.", "du."), rendered)
-        self.assertIn(("!t!ṯkḥ[:w", "3", "m.", "pl."), rendered)
+        self.assertNotIn(("!t!ṯkḥ[:w", "3", "m.", "pl."), rendered)
 
-    def test_generates_plural_suffix_candidate_when_surface_supports_it(self) -> None:
+    def test_omits_plural_suffix_candidate_when_surface_lacks_visible_w(self) -> None:
         candidates = generate_verbal_candidates(
             surface="ytn",
             dulat="/y-t-n/",
@@ -27,7 +27,7 @@ class ParadigmMatcherTest(unittest.TestCase):
         )
         rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
         self.assertIn(("ytn[", "3", "m.", "sg."), rendered)
-        self.assertIn(("ytn[:w", "3", "m.", "pl."), rendered)
+        self.assertNotIn(("ytn[:w", "3", "m.", "pl."), rendered)
 
     def test_generates_all_visible_t_suffix_candidates_for_strong_g_root(self) -> None:
         candidates = generate_verbal_candidates(
@@ -74,7 +74,7 @@ class ParadigmMatcherTest(unittest.TestCase):
         )
         rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
         self.assertIn(("!t!]t]rp(y[:d", "3", "m.", "du."), rendered)
-        self.assertIn(("!t!]t]rp(y[:d:w", "3", "m.", "pl."), rendered)
+        self.assertNotIn(("!t!]t]rp(y[:d:w", "3", "m.", "pl."), rendered)
 
     def test_generates_weak_initial_prefix_candidates(self) -> None:
         candidates = generate_verbal_candidates(

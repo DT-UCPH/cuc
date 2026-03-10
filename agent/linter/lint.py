@@ -473,10 +473,14 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
 
         ch = a[i]
 
+        if a.startswith(":pass", i):
+            i += len(":pass")
+            continue
+        if a.startswith(":d", i) or a.startswith(":l", i) or a.startswith(":r", i):
+            i += 2
+            continue
         if ch == ":":
             i += 1
-            while i < n and re.match(r"[A-Za-z]", a[i]):
-                i += 1
             continue
 
         if ch == "(":
