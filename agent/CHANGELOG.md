@@ -1,5 +1,19 @@
 ## 2026-03-10
 
+- Corrected the mistaken epistolary `rgm` opening rule in `spacy_ugaritic/components/morph_context.py`.
+- The opening `rgm` in KTU 2 letter formulas now resolves as imperative `!!rgm[` again instead of the previously forced infinitive `!!rgm[/`.
+- This aligns the parser with the restored canonical reviewed files under `reviewed/orig/` and removes the normalization-driven regression introduced in the earlier `rgm` pass.
+- Updated regression coverage in `tests/test_spacy_morph_context.py`.
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_morph_context tests.test_reviewed_morphology_evaluation tests.test_reviewed_tablet_migrator`
+  - `uv run ruff check spacy_ugaritic/components/morph_context.py tests/test_spacy_morph_context.py tests/test_reviewed_morphology_evaluation.py tests/test_reviewed_tablet_migrator.py`
+  - targeted reruns for `KTU 2.10.tsv`, `KTU 2.11.tsv`, `KTU 2.12.tsv`, `KTU 2.13.tsv`, `KTU 2.14.tsv`, `KTU 2.16.tsv`, and `KTU 2.38.tsv`
+- Targeted score impact after the fix:
+  - exact-set accuracy `0.5528 -> 0.5554`
+  - macro F1 `0.6089 -> 0.6115`
+  - micro F1 `0.5700 -> 0.5722`
+  - gold coverage `0.6318 -> 0.6344`
+
 - Restored migrated reviewed parses from the canonical source files under `reviewed/orig/` for:
   - `reviewed/KTU 1.14.txt`
   - `reviewed/KTU 2.10.txt`

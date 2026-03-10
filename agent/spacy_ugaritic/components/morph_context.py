@@ -244,7 +244,7 @@ class MorphContextResolver:
             opening_token = doc[opening_index]
             self._maybe_replace(
                 opening_token,
-                (_prefer_or_build_rgm_infinitive(opening_token),),
+                (_prefer_or_build_rgm_imperative(opening_token),),
                 "epistolary-rgm-opening",
             )
 
@@ -495,17 +495,6 @@ def _has_rgm_candidates(token: Token) -> bool:
     )
 
 
-def _prefer_or_build_rgm_infinitive(token: Token) -> Candidate:
-    for candidate in token._.resolved_candidates:
-        if _is_rgm_infinitive(candidate):
-            return candidate
-    comment = next(
-        (candidate.comment for candidate in token._.resolved_candidates if candidate.comment),
-        "",
-    )
-    return Candidate("!!rgm[/", "/r-g-m/", "vb G inf.", "to say", comment=comment)
-
-
 def _prefer_or_build_rgm_imperative(token: Token) -> Candidate:
     for candidate in token._.resolved_candidates:
         if _is_rgm_imperative(candidate):
@@ -534,12 +523,6 @@ def _prefer_rgm_noun(token: Token) -> Candidate | None:
 
 def _is_rgm_imperative(candidate: Candidate) -> bool:
     return candidate.dulat.strip() == "/r-g-m/" and "impv." in candidate.pos
-
-
-def _is_rgm_infinitive(candidate: Candidate) -> bool:
-    return candidate.analysis.strip() == "!!rgm[/" and candidate.dulat.strip() == "/r-g-m/"
-
-
 def _is_rgm_noun(candidate: Candidate) -> bool:
     return candidate.analysis.strip() == "rgm/" and candidate.dulat.strip() == "rgm"
 

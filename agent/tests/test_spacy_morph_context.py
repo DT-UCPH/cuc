@@ -204,7 +204,7 @@ class SpacyMorphContextTest(unittest.TestCase):
             ],
         )
 
-    def test_epistolary_rgm_opening_builds_infinitive_from_letter_formula(self) -> None:
+    def test_epistolary_rgm_opening_builds_imperative_from_letter_formula(self) -> None:
         doc = self._doc_from_lines(
             "1\ttḥm\ttḥm/\ttḥm\tn. m. sg. cstr. nom.\tmessage\t",
             "2\tl\tl(I)\tl (I)\tprep.\tto\t",
@@ -217,11 +217,11 @@ class SpacyMorphContextTest(unittest.TestCase):
         )
         self.assertEqual(
             [candidate.analysis for candidate in doc[3]._.resolved_candidates],
-            ["!!rgm[/"],
+            ["!!rgm["],
         )
         self.assertEqual(
             [candidate.pos for candidate in doc[3]._.resolved_candidates],
-            ["vb G inf."],
+            ["vb G impv. 2"],
         )
 
     def test_epistolary_rgm_later_prefers_noun(self) -> None:
