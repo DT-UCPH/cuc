@@ -18,7 +18,7 @@ import re
 import sqlite3
 import sys
 from collections import Counter, defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
 
@@ -106,6 +106,7 @@ class Entry:
     pos: str
     gloss: str
     wiki_tr: str
+    stem_glosses: Dict[str, str] = field(default_factory=dict)
     redirect_targets: Tuple[str, ...] = ()
 
 
@@ -815,7 +816,32 @@ def inject_surface_only_tail_before_nominal_closure(analysis: str, base_surface:
     return f"{lemma}{hom}&{tail}/"
 
 
-def gloss_for_entry(e: Entry, multi_slot: bool = False) -> str:
+def inferred_stem_from_analysis(analysis: str) -> str:
+    value = (analysis or "").strip()
+    if not value:
+        return ""
+    if ":pass" in value:
+        if "]š]" in value:
+            return "Špass."
+        if ":d" in value:
+            return "Dpass."
+        return "Gpass."
+    if ":d" in value:
+        return "D"
+    if ":l" in value:
+        return "L"
+    if ":r" in value:
+        return "R"
+    if "]š]" in value:
+        return "Š"
+    if "]n]" in value:
+        return "N"
+    if "]t]" in value:
+        return "Gt"
+    return "G"
+
+
+def gloss_for_entry(e: Entry, analysis: str = "", multi_slot: bool = False) -> str:
     if (e.pos or "").strip() == "→":
         return "?"
     pos_up = e.pos or ""
@@ -823,7 +849,20 @@ def gloss_for_entry(e: Entry, multi_slot: bool = False) -> str:
         # Prefer canonical name rendering for proper names if available.
         base = compact_gloss(e.wiki_tr) or compact_gloss(e.gloss) or entry_label(e)
     else:
-        base = compact_gloss(e.gloss)
+        base = ""
+        if is_verb_pos(pos_up) and analysis and e.stem_glosses:
+            stem_name = inferred_stem_from_analysis(analysis)
+            base = compact_gloss(
+                e.stem_glosses.get(stem_name)
+                or (
+                    e.stem_glosses.get("D")
+                    if stem_name in {"Dpass.", "Dt", "tD"}
+                    else e.stem_glosses.get("G")
+                )
+                or ""
+            )
+        if not base:
+            base = compact_gloss(e.gloss)
     if not base:
         base = ""
     if multi_slot:
@@ -867,6 +906,29 @@ def load_entries(
         if compact:
             sense_map[entry_id] = compact
 
+    stem_gloss_map: Dict[int, Dict[str, str]] = defaultdict(dict)
+    cur.execute(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='stems' LIMIT 1"
+    )
+    has_stems = cur.fetchone() is not None
+    if has_stems:
+        cur.execute(
+            "SELECT stems.entry_id, stems.name, senses.definition, stems.gloss "
+            "FROM stems "
+            "LEFT JOIN senses ON senses.stem_id = stems.id "
+            "ORDER BY stems.entry_id, stems.id, senses.id"
+        )
+        for entry_id, stem_name, definition, stem_gloss in cur.fetchall():
+            if not stem_name or stem_name in stem_gloss_map.get(entry_id, {}):
+                continue
+            compact = ""
+            if is_usable_sense_definition(definition or ""):
+                compact = compact_gloss(definition)
+            if not compact:
+                compact = compact_gloss(stem_gloss or "")
+            if compact:
+                stem_gloss_map[int(entry_id)][stem_name] = compact
+
     trans_map: Dict[int, str] = {}
     cur.execute(
         "SELECT entry_id, text "
@@ -901,6 +963,7 @@ def load_entries(
             pos=pos or "",
             gloss=sense_map.get(entry_id) or trans_map.get(entry_id, ""),
             wiki_tr=wiki_tr or "",
+            stem_glosses=stem_gloss_map.get(int(entry_id), {}),
             redirect_targets=redirect_targets,
         )
         if text:
@@ -1457,7 +1520,7 @@ def render_variant(
         )
         d = entry_label(e)
         p = pos_token(e)
-        g = gloss_for_entry(e, multi_slot=False)
+        g = gloss_for_entry(e, analysis=a, multi_slot=False)
         return a, d, p, g
 
     base, suf = entries[0], entries[1]
@@ -1470,7 +1533,10 @@ def render_variant(
     a = f"{base_analysis}+{suffix_fragment(suf)}"
     d = f"{entry_label(base)},{entry_label(suf)}"
     p = f"{pos_token(base)},{pos_token(suf)}"
-    g = f"{gloss_for_entry(base, multi_slot=True)},{gloss_for_entry(suf, multi_slot=True)}"
+    g = (
+        f"{gloss_for_entry(base, analysis=base_analysis, multi_slot=True)},"
+        f"{gloss_for_entry(suf, multi_slot=True)}"
+    )
     return a, d, p, g
 
 

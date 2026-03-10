@@ -1,3 +1,19 @@
+## 2026-03-11
+
+- Fixed `/š-l-m/` stem gloss propagation so mixed verb rows no longer duplicate the G-stem gloss onto D-stem variants.
+- Added DULAT-backed verb stem gloss lookup in `pipeline/steps/verb_mixed_stem_split.py` and wired `TabletParsingPipeline` to pass `dulat_db` into that step.
+- The splitter now keeps the existing gloss when it already fits the chosen stem, but replaces it with the stem-specific DULAT gloss when the row was previously sharing one gloss across different stems.
+- This fixes rows like `yšlm -> !y!šlm[ / !y!šlm[:d`, which now render `to be well` for G and `to re-establish > to pay` for D.
+- Fixed the epistolary `šlm` letter-blessing rewrite in `spacy_ugaritic/components/morph_context.py` so synthetic D forms such as `!t!šlm[:d+k` use the letter sense `to restore / preserve health` instead of inheriting the G gloss.
+- Extended regression coverage in:
+  - `tests/test_verb_mixed_stem_split.py`
+  - `tests/test_spacy_morph_context.py`
+  - `tests/test_refine_results_mentions.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_verb_mixed_stem_split tests.test_spacy_morph_context`
+  - `uv run ruff check agent/pipeline/steps/verb_mixed_stem_split.py agent/pipeline/tablet_parsing.py agent/spacy_ugaritic/components/morph_context.py agent/tests/test_verb_mixed_stem_split.py agent/tests/test_spacy_morph_context.py`
+  - targeted rerun for `KTU 1.103.tsv` and `KTU 2.38.tsv`
+
 ## 2026-03-10
 
 - Fixed analysis/surface reconstruction for stem-marker payloads in:

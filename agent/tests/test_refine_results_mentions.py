@@ -13,6 +13,7 @@ from scripts.refine_results_mentions import (
     build_variants,
     compact_gloss,
     entry_label,
+    gloss_for_entry,
     is_usable_sense_definition,
     load_entries,
     parse_separator_ref,
@@ -38,7 +39,12 @@ class RefineResultsMentionsTest(unittest.TestCase):
             "summary TEXT, text TEXT)"
         )
         cur.execute(
-            "CREATE TABLE senses (id INTEGER PRIMARY KEY, entry_id INTEGER, definition TEXT)"
+            "CREATE TABLE stems ("
+            "id INTEGER PRIMARY KEY, entry_id INTEGER, name TEXT, gloss TEXT, cert TEXT)"
+        )
+        cur.execute(
+            "CREATE TABLE senses ("
+            "id INTEGER PRIMARY KEY, entry_id INTEGER, stem_id INTEGER, definition TEXT)"
         )
         cur.execute("CREATE TABLE translations (entry_id INTEGER, text TEXT)")
         cur.execute("CREATE TABLE forms (text TEXT, entry_id INTEGER, morphology TEXT)")
@@ -297,6 +303,36 @@ class RefineResultsMentionsTest(unittest.TestCase):
             ("an(I)+h", "ản (I),-h", "pers. pn.,pers. pn.", "I,his / her"),
         )
 
+    def test_gloss_for_entry_prefers_stem_specific_gloss_for_verbs(self) -> None:
+        entry = Entry(
+            entry_id=4039,
+            lemma="/š-l-m/",
+            hom="",
+            pos="vb",
+            gloss="to be well, do well, be in peace",
+            wiki_tr="",
+            stem_glosses={
+                "G": "to be well, do well, be in peace",
+                "D": "to re-establish > to pay",
+            },
+        )
+        self.assertEqual(
+            gloss_for_entry(
+                entry,
+                analysis="!y!šlm[",
+                multi_slot=False,
+            ),
+            "to be well",
+        )
+        self.assertEqual(
+            gloss_for_entry(
+                entry,
+                analysis="!y!šlm[:d",
+                multi_slot=False,
+            ),
+            "to re-establish > to pay",
+        )
+
     def test_analysis_normalizes_aleph_prefix_preformative_marker(self) -> None:
         sh_entry = Entry(
             entry_id=4004,
@@ -489,6 +525,52 @@ class RefineResultsMentionsTest(unittest.TestCase):
             )
             self.assertTrue(variants)
             self.assertEqual(variants[0].entries[0].entry_id, 170)
+
+    def test_load_entries_reads_stem_specific_glosses(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._init_dulat_schema(db_path)
+            conn = sqlite3.connect(str(db_path))
+            cur = conn.cursor()
+            cur.execute(
+                _INSERT_ENTRY_SQL,
+                (
+                    4039,
+                    "/š-l-m/",
+                    "",
+                    "vb",
+                    "",
+                    "to be well, do well, be in peace",
+                    "",
+                ),
+            )
+            cur.execute(
+                "INSERT INTO stems(id, entry_id, name, gloss, cert) VALUES (?, ?, ?, ?, ?)",
+                (706, 4039, "G", "to be well, do well, be in peace", ""),
+            )
+            cur.execute(
+                "INSERT INTO stems(id, entry_id, name, gloss, cert) VALUES (?, ?, ?, ?, ?)",
+                (707, 4039, "D", "to re-establish > to pay; to restore / preserve health", ""),
+            )
+            cur.execute(
+                "INSERT INTO senses(id, entry_id, stem_id, definition) VALUES (?, ?, ?, ?)",
+                (791, 4039, 706, "to be well, do well, be in peace"),
+            )
+            cur.execute(
+                "INSERT INTO senses(id, entry_id, stem_id, definition) VALUES (?, ?, ?, ?)",
+                (792, 4039, 707, "to re-establish > to pay"),
+            )
+            conn.commit()
+            conn.close()
+
+            entries_by_id, _forms_map, _lemma_map, _suffix_map, _forms_morph = load_entries(db_path)
+            self.assertEqual(
+                entries_by_id[4039].stem_glosses,
+                {
+                    "G": "to be well",
+                    "D": "to re-establish > to pay",
+                },
+            )
 
     def test_load_entries_prefers_translation_when_first_sense_is_attestation_example(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

@@ -165,7 +165,7 @@ class TabletParsingPipeline:
             PrefixedIIIAlephVerbFixer(),
             VerbPosStemFixer(dulat_db=self.config.dulat_db),
             VerbFormMorphPosFixer(dulat_db=self.config.dulat_db),
-            VerbMixedStemSplitFixer(),
+            VerbMixedStemSplitFixer(dulat_db=self.config.dulat_db),
             VerbFormEncodingSplitFixer(),
             DulatEncliticMFixer(dulat_db=self.config.dulat_db, gate=self.morph_gate),
             VerbLStemGeminationFixer(),

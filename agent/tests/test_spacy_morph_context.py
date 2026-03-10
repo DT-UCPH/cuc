@@ -352,6 +352,10 @@ class SpacyMorphContextTest(unittest.TestCase):
             [candidate.analysis for candidate in doc[2]._.resolved_candidates],
             ["!t!šlm[:d+k"],
         )
+        self.assertEqual(
+            [candidate.gloss for candidate in doc[2]._.resolved_candidates],
+            ["to restore / preserve health"],
+        )
 
     def test_letter_blessing_pair_supports_plural_suffix(self) -> None:
         doc = self._doc_from_lines(

@@ -15,6 +15,7 @@ _NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
 _EPISTOLARY_RGM_OPENING_HINTS = frozenset({"tḥm", "yšlm", "ilm"})
 _KBD_OBJECT_PRONOUN_SURFACES = frozenset({"hmt", "hwt", "hyt"})
 _RGM_COMMAND_PRONOUN_SURFACES = frozenset({"hmt", "hyt"})
+_LETTER_BLESSING_SHLM_D_GLOSS = "to restore / preserve health"
 _LETTER_BLESSING_CLITICS = {
     "tġrk": "+k",
     "tšlmk": "+k",
@@ -569,7 +570,7 @@ def _prefer_letter_blessing_shlm(token: Token, clitic: str) -> Candidate | None:
             analysis=f"!t!šlm[:d{clitic}",
             dulat=candidate.dulat,
             pos=candidate.pos,
-            gloss=candidate.gloss,
+            gloss=_LETTER_BLESSING_SHLM_D_GLOSS,
             comment=candidate.comment,
         )
     return None

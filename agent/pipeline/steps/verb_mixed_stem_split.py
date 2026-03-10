@@ -9,7 +9,9 @@ can normalize each variant independently.
 from __future__ import annotations
 
 import re
+import sqlite3
 from dataclasses import dataclass
+from pathlib import Path
 
 from pipeline.steps.base import RefinementStep, TabletRow
 
@@ -111,8 +113,66 @@ class _StemSignatureGroup:
     options: list[str]
 
 
+@dataclass(frozen=True)
+class VerbStemGlossIndex:
+    """Lookup DULAT verb stem glosses by lemma and stem."""
+
+    glosses_by_lemma_stem: dict[tuple[str, str], str]
+
+    @classmethod
+    def from_sqlite(cls, dulat_db: Path | None) -> "VerbStemGlossIndex":
+        if dulat_db is None or not dulat_db.exists():
+            return cls({})
+
+        conn = sqlite3.connect(str(dulat_db))
+        cur = conn.cursor()
+        stem_columns = {
+            row[1] for row in cur.execute("PRAGMA table_info(stems)").fetchall() if len(row) > 1
+        }
+        sense_columns = {
+            row[1] for row in cur.execute("PRAGMA table_info(senses)").fetchall() if len(row) > 1
+        }
+        stem_name_column = "stem_name" if "stem_name" in stem_columns else "name"
+        stem_gloss_column = "summary" if "summary" in stem_columns else "gloss"
+        sense_gloss_column = "summary" if "summary" in sense_columns else "definition"
+
+        glosses_by_lemma_stem: dict[tuple[str, str], str] = {}
+        for lemma, stem_name, sense_gloss, stem_gloss in cur.execute(
+            (
+                "SELECT entries.lemma, "
+                f"stems.{stem_name_column}, "
+                f"senses.{sense_gloss_column}, "
+                f"stems.{stem_gloss_column} "
+                "FROM stems "
+                "JOIN entries ON entries.entry_id = stems.entry_id "
+                "LEFT JOIN senses ON senses.stem_id = stems.id "
+                "WHERE entries.pos LIKE '%vb%' "
+                "ORDER BY stems.entry_id, stems.id, senses.id"
+            )
+        ):
+            lemma_text = (lemma or "").strip()
+            stem_text = (stem_name or "").strip()
+            summary_text = (stem_gloss or sense_gloss or "").strip()
+            if not lemma_text or not stem_text or not summary_text:
+                continue
+            glosses_by_lemma_stem.setdefault((lemma_text, stem_text), summary_text)
+
+        conn.close()
+        return cls(glosses_by_lemma_stem)
+
+    def gloss_for(self, dulat: str, stem: str) -> str:
+        return self.glosses_by_lemma_stem.get(((dulat or "").strip(), (stem or "").strip()), "")
+
+
 class VerbMixedStemSplitFixer(RefinementStep):
     """Split verb rows whose slash options require different stem signatures."""
+
+    def __init__(
+        self,
+        dulat_db: Path | None = None,
+        stem_gloss_index: VerbStemGlossIndex | None = None,
+    ) -> None:
+        self._stem_gloss_index = stem_gloss_index or VerbStemGlossIndex.from_sqlite(dulat_db)
 
     @property
     def name(self) -> str:
@@ -178,8 +238,9 @@ class VerbMixedStemSplitFixer(RefinementStep):
                     changed = True
                 out_analysis.append(normalized_analysis)
                 out_dulat.append(dulat)
-                out_pos.append(_join_options(group.options))
-                out_gloss.append(gloss)
+                group_pos = _join_options(group.options)
+                out_pos.append(group_pos)
+                out_gloss.append(self._select_gloss(dulat=dulat, pos=group_pos, fallback=gloss))
 
         deduped: list[tuple[str, str, str, str]] = []
         for item in zip(out_analysis, out_dulat, out_pos, out_gloss):
@@ -248,8 +309,15 @@ class VerbMixedStemSplitFixer(RefinementStep):
 
             out_analysis.append(normalized_analysis)
             out_dulat.append(_variant_value(dulat_variants, idx))
-            out_pos.append(_join_options(group.options))
-            out_gloss.append(_variant_value(gloss_variants, idx))
+            group_pos = _join_options(group.options)
+            out_pos.append(group_pos)
+            out_gloss.append(
+                self._select_gloss(
+                    dulat=_variant_value(dulat_variants, idx),
+                    pos=group_pos,
+                    fallback=_variant_value(gloss_variants, idx),
+                )
+            )
 
         final_analysis = "; ".join(out_analysis)
         final_dulat = "; ".join(out_dulat)
@@ -274,6 +342,19 @@ class VerbMixedStemSplitFixer(RefinementStep):
             gloss=final_gloss,
             comment=row.comment,
         )
+
+    def _select_gloss(self, *, dulat: str, pos: str, fallback: str) -> str:
+        stems = _extract_stems(pos)
+        if len(stems) != 1:
+            return fallback
+        stem = next(iter(stems))
+        stem_gloss = self._stem_gloss_index.gloss_for(dulat, stem)
+        if not stem_gloss:
+            return fallback
+        fallback_text = (fallback or "").strip()
+        if fallback_text and fallback_text in stem_gloss:
+            return fallback_text
+        return stem_gloss
 
     def _signature_groups(self, pos_text: str) -> list[_StemSignatureGroup]:
         options = _split_slash_options(pos_text)
