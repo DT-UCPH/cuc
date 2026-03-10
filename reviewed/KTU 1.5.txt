@@ -12,9 +12,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139777	š	&š	?	?	?	
 # KTU 1.5 I:3						
 139778	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant, powerful	
-139778	šlyṭ	]š]l(w&yṭ/[	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-139778	šlyṭ	]š]lyṭ/[	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-139778	šlyṭ	]š]lyṭ/[	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT
+139778	šlyṭ	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
+139778	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
+139778	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT
 139778	šlyṭ	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
 139779	d	d	d	det. or rel. functor	the one(s) of	
 139780	šbˤt	šbˤ(I)/t	šbʕ (I)	n. num. f. sg.	seven	
@@ -26,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139783	ttrp	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
 139784	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant. / n. m. du. tant. abs. nom.	heavens	
 139785	krs	k(I); r(ks/	k (I); rks	prep.; n. m. sg. abs. gen.	like; belt	
-139785	krs	k(I); rs/[	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
+139785	krs	k(I); rs[/	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
 # KTU 1.5 I:5						
 139786	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc.?	tunic	
 139786	ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'	
@@ -200,9 +200,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139903	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 139904	ˤqltn	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
 139905	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant, powerful	
-139905	šlyṭ	]š]l(w&yṭ/[	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-139905	šlyṭ	]š]lyṭ/[	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-139905	šlyṭ	]š]lyṭ/[	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT
+139905	šlyṭ	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
+139905	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
+139905	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT
 139905	šlyṭ	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
 # KTU 1.5 I:30						
 139906	d	d	d	det. or rel. functor	the one(s) of	
@@ -215,7 +215,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139910	ttrp	!t!]t]rp(y[p:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
 139911	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant. / n. m. du. tant. abs. nom.	heavens	
 139912	krs	k(I); r(ks/	k (I); rks	prep.; n. m. sg. abs. gen.	like; belt	
-139912	krs	k(I); rs/[	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
+139912	krs	k(I); rs[/	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
 139913	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc.?	tunic	
 139913	ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'	
 # KTU 1.5 II:1						
