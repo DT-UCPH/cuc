@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141684	xxxxxxˤ	xxxxxxˤ				Token changed from previous version.
 # KTU 1.14 I:5						
 141685	xxxxm	xxxxm				
-141686	il	il/				
+141686	il	il(I)/				
 141687	xxxxx	xxxxx				
 # KTU 1.14 I:6						
 141688	xxxd	xxxd				
@@ -24,14 +24,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141693	bt	bt/				
 # KTU 1.14 I:8						
 141694	mlk	mlk(I)/				
-141695	itdb	(ʔ&i]t](bd&d[ #perhaps metathesis of itbd				
+141695	itdb	(ʔ&i]t](bd&d[				perhaps metathesis of itbd
 141696	d	d				
 141697	šbˤ	šbˤ(I)/				Token changed from previous version.
 # KTU 1.14 I:9						
 141698	aḫm	aḫ/m				
 141699	lh	l(I)+h				
 141700	ṯmnt	ṯmnt/				
-141701	bn	bn/				
+141701	bn	bn(I)/				
 141702	um	um/				
 # KTU 1.14 I:10						
 141703	krt	krt/				
@@ -44,8 +44,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 I:12						
 141709	aṯt	aṯ(t/t				
 141710	ṣdqh	ṣdq/+h				
-141711	l	l(III) #or l(IV)				
-141712	ypq	!y!pq[ #or !y!(ypq[ root y-p-q				
+141711	l	l(III)				or l(IV)
+141712	ypq	!y!pq[				or !y!(ypq[ root y-p-q
 # KTU 1.14 I:13						
 141713	mtrḫt	mtrḫ(t/t				
 141714	yšrh	yšr/+h				
@@ -56,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141718	tbˤt	tbˤ[t				Token changed from previous version.
 # KTU 1.14 I:15						
 141719	ṯt	ṯ(n(t(II)/t				
-141720	rum	rum/ #other editions read ṯar um				
+141720	rum	rum/				other editions read ṯar um
 141721	tkn	!t!kn[				
 141722	lh	l(I)+h				
 # KTU 1.14 I:16						
@@ -77,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141733	ym	ym/				
 141734	mšbˤthn	mšbˤ(t/t+hn				Token changed from previous version.
 141735	b	b				
-141736	šlḥḥ	šlḥ&ḥ/ #error for šlḥ				
+141736	šlḥḥ	šlḥ&ḥ/				error for šlḥ
 # KTU 1.14 I:21						
 141737	ttpl	!t!](n]t]pl[				
 141738	yˤn	!y!ˤn[				Token changed from previous version.
@@ -108,12 +108,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141758	ybky	!y!bky[				
 # KTU 1.14 I:27						
 141759	b	b				
-141760	ṯn	!!ṯn(y[/ #probably infinitive with a preposition				
-141761	pˤgmm	&pˤgm/m #scribal error				Token changed from previous version.
+141760	ṯn	!!ṯn(y[/				probably infinitive with a preposition
+141761	pˤgmm	&pˤgm/m				scribal error | Token changed from previous version.
 141762	w	w				
 141763	ydmˤ	!y!dmˤ[				Token changed from previous version.
 # KTU 1.14 I:28						
-141764	tntkn	!t!](n]ntk[n #the verb is in the N-stem				
+141764	tntkn	!t!](n]ntk[n				the verb is in the N-stem
 141765	udmˤth	!(ʔ&u!dmˤ(t/t+h				u is added in plural | Token changed from previous version.
 # KTU 1.14 I:29						
 141766	km	km				
@@ -121,20 +121,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141768	arṣh	arṣ/~h(II)				
 # KTU 1.14 I:30						
 141769	k	k				
-141770	mḫmšt	mḫmš(t/t #alternative words boundaries km ḫmš(t/t				
+141770	mḫmšt	mḫmš(t/t				alternative words boundaries km ḫmš(t/t
 141771	mṭth	mṭ(t/t~h(II)				
 # KTU 1.14 I:31						
-141772	bm	b~m #enclitic m				
+141772	bm	b~m				enclitic m
 141773	bkyh	!!bky[/+h(I)				
 141774	w	w				
 141775	yšn	!y!(yšn[				
 # KTU 1.14 I:32						
 141776	b	b				
 141777	dmˤh	!!dmˤ[/+h(I)				Token changed from previous version.
-141778	nhmmt	nhmm(t/t #a nominal pattern with a reduplication				
+141778	nhmmt	nhmm(t/t				a nominal pattern with a reduplication
 # KTU 1.14 I:33						
 141779	šnt	šn(t/t				
-141780	tluan	!t!l(ʔ&u(y(I)[~+(n&an #an is a variant of nn ending				
+141780	tluan	!t!l(ʔ&u(y(I)[~+(n&an				an is a variant of nn ending
 # KTU 1.14 I:34						
 141781	w	w				
 141782	yškb	!y!škb[				
@@ -143,7 +143,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141784	w	w				
 141785	yqmṣ	!y!qmṣ[				
 141786	w	w				
-141787	bḥlmh	b-ḥlm/+h #two words				
+141787	bḥlmh	b-ḥlm/+h				two words
 # KTU 1.14 I:36						
 141788	il	il(I)/				
 141789	yrd	!y!&yrd[ or yrd[				
@@ -158,7 +158,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141796	b	b				
 141797	šal	!!š(ʔ&al[/#infinitive				
 141798	krt	krt/				
-141799	mhakt	m(h-a&kt #two words; h is added, k is a mistake				
+141799	mhakt	m(h-a&kt				two words; h is added, k is a mistake
 # KTU 1.14 I:39						
 141800	krt	krt/				
 141801	k	k				
@@ -168,8 +168,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141804	nˤmn	nˤmn(I)/				Token changed from previous version.
 141805	ġlm	ġlm/				
 # KTU 1.14 I:41						
-141806	il	il/				
-141807	mlk	mlk/				
+141806	il	il(I)/				
+141807	mlk	mlk(I)/				
 141808	ṯr	ṯr/				
 141809	abh	ab/+h				
 # KTU 1.14 I:42						
@@ -214,10 +214,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141836	ṯlṯ	ṯlṯ/				
 # KTU 1.14 II:3						
 141837	sswm	ssw/m				
-141838	mrkbt	mrkb(t/t #or mrkb(t/t=				
+141838	mrkbt	mrkb(t/t				or mrkb(t/t=
 141839	b	b				
 141840	trbṣ	trbṣ/				
-141841	bn	bn/				
+141841	bn	bn(I)/				
 141842	amt	am(t(I)/t				
 # KTU 1.14 II:4						
 141843	xxx	xxx				
@@ -225,7 +225,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141845	aqny	!a!qny[				
 # KTU 1.14 II:5						
 141846	xx	xx				
-141847	šrm	šr/m #older reading ṯarm				
+141847	šrm	šr/m				older reading ṯarm
 141848	amid	!(ʔ&a!m(ʔ&id[:d				or !(ʔ&a!m(ʔ&id[
 # KTU 1.14 II:6						
 141849	wyṯb	w-!y!(yṯb[				isn't w a separate word?
@@ -235,20 +235,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 II:7						
 141853	dxxt	dxxt				
 141854	b	b				
-141855	bk	!!bk(y[/ #infinitive				
-141856	rkrt	&rkrt/ #r is probably a mistake				
+141855	bk	!!bk(y[/				infinitive
+141856	rkrt	&rkrt/				r is probably a mistake
 # KTU 1.14 II:8						
 141857	b	b				
 141858	dmˤ	!!dmˤ[/				Token changed from previous version.
-141859	nmˤmn	n&mˤmn(I)/ #first m is a mistake				Token changed from previous version.
+141859	nmˤmn	n&mˤmn(I)/				first m is a mistake | Token changed from previous version.
 141860	ġlm	ġlm/				
 # KTU 1.14 II:9						
-141861	il	il/				
+141861	il	il(I)/				
 141862	trtḥṣ	!t!r]t]ḥṣ[				
-141863	w	w #shouldn't it be attached to the next word?				
+141863	w	w				shouldn't it be attached to the next word?
 141864	tadm	!t!(]n](ʔ&adm[				
 # KTU 1.14 II:10						
-141865	rḥṣ	!!rḥṣ[ #imp				
+141865	rḥṣ	!!rḥṣ[				imp
 141866	ydk	yd/+k				
 141867	amt	am(t(II)/t				
 # KTU 1.14 II:11						
@@ -256,7 +256,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141869	ˤd	ˤd				Token changed from previous version.
 141870	ṯkm	ṯkm/				
 # KTU 1.14 II:12						
-141871	ˤrb	!!ˤrb[/				Token changed from previous version.
+141871	ˤrb	!!ˤrb[				Token changed from previous version.
 141872	b	b				
 141873	ẓl	ẓl/				
 141874	ḫmt	ḫm(t/t				
@@ -272,7 +272,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141882	ymn	ymn/				
 # KTU 1.14 II:15						
 141883	lla	ll(u/a				
-141884	klatnm	kla(t/tn~m(I) #fem du, m dissimilate to n because of m enclitic				
+141884	klatnm	kla(t/tn~m(I)				fem du, m dissimilate to n because of m enclitic
 # KTU 1.14 II:16						
 141885	klt	kl(t(II)/t				
 141886	lḥmk	lḥm/+k				
@@ -284,7 +284,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141891	ˤṣr	ˤṣr/				Token changed from previous version.
 # KTU 1.14 II:18						
 141892	dbḥ	dbḥ/				
-141893	ṣq	!!(yṣq[/				
+141893	ṣq	!!(yṣq[				
 141894	b	b				
 141895	gl	gl(II)/				
 141896	ḥtṯ	ḥtṯ/				
@@ -295,17 +295,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141900	ḫrṣ	ḫrṣ/				
 141901	nbt	nb(t/t				
 # KTU 1.14 II:20						
-141902	ˤl	!!ˤl(y[/				Token changed from previous version.
+141902	ˤl	!!ˤl(y[				Token changed from previous version.
 141903	l	l(I)				
 141904	ẓr	ẓr/				
 141905	mgdl	mgdl/				
 # KTU 1.14 II:21						
-141906	w	w #shouldn't it be attached to the next word?				
-141907	ˤl	!!ˤl(y[/				Token changed from previous version.
+141906	w	w				shouldn't it be attached to the next word?
+141907	ˤl	!!ˤl(y[				Token changed from previous version.
 141908	l	l(I)				
 141909	ẓr	ẓr/				
 141910	mgdl	mgdl/				
-141911	rkb	!!rkb[/				
+141911	rkb	!!rkb[				
 # KTU 1.14 II:22						
 141912	ṯkmm	ṯkm/~m(II)				or ~m(I)
 141913	ḥmt	ḥm(t/t				
@@ -313,7 +313,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141915	ydk	yd/+k				
 # KTU 1.14 II:23						
 141916	šmm	šmm/				
-141917	dbḥ	!!dbḥ[/				
+141917	dbḥ	!!dbḥ[				
 141918	l	l(I)				
 141919	ṯr	ṯr/				
 # KTU 1.14 II:24						
@@ -324,18 +324,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 II:25						
 141924	b	b				
 141925	dbḥk	dbḥ/+k				
-141926	bn	bn/				
+141926	bn	bn(I)/				
 141927	dgn	dgn/				
 # KTU 1.14 II:26						
 141928	b	b				
 141929	mṣdk	mṣd(I)/+k				
-141930	w	w #shouldn't it be attached to the next word?				
+141930	w	w				shouldn't it be attached to the next word?
 141931	yrd	!y!(yrd[				the tense is jussive, or yrd[ - SC for future
 # KTU 1.14 II:27						
 141932	krt	krt/				
 141933	l	l(I)				
-141934	ggt	gg/t= #t appears in plural form only				
-141935	ˤdb	ˤdb[/ #or an infinitive				Token changed from previous version.
+141934	ggt	gg/t=				t appears in plural form only
+141935	ˤdb	ˤdb[/				or an infinitive | Token changed from previous version.
 # KTU 1.14 II:28						
 141936	akl	akl/				
 141937	l	l(I)				
@@ -346,7 +346,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141941	bt	bt/				
 141942	ḫbr	ḫbr/				
 # KTU 1.14 II:30						
-141943	yip	!y!(ʔ&ip(y[ #the tense is jussive				
+141943	yip	!y!(ʔ&ip(y[				the tense is jussive
 141944	lḥm	lḥm/				
 141945	d	d				
 141946	ḫmš	ḫmš(II)/				
@@ -356,17 +356,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141949	yrḫm	yrḫ/m				
 # KTU 1.14 II:32						
 141950	ˤdn	ˤdn(III)/				Token changed from previous version.
-141951	ngb	ngb/ #or passive participle				
+141951	ngb	ngb/				or passive participle
 141952	w	w				
-141953	yṣi	!y!(yṣ&ʔ[(i #the vocalization marks jussive form				
+141953	yṣi	!y!(yṣ&ʔ[(i				the vocalization marks jussive form
 # KTU 1.14 II:33						
-141954	ṣbu	ṣb(u/&u #final aleph noun in nominative				
-141955	ṣbi	ṣb(u/&i #final aleph noun in genitive				
-141956	ngb	ngb/ #or passive participle				
+141954	ṣbu	ṣb(u/&u				final aleph noun in nominative
+141955	ṣbi	ṣb(u/&i				final aleph noun in genitive
+141956	ngb	ngb/				or passive participle
 # KTU 1.14 II:34						
 141957	w	w				
-141958	yṣi	!y!(yṣ(ʔ[&i #the vocalization fits jussive form				
-141959	ˤdnx	ˤdn&x/ #scribal error				Token changed from previous version.
+141958	yṣi	!y!(yṣ(ʔ[&i				the vocalization fits jussive form
+141959	ˤdnx	ˤdn&x/				scribal error | Token changed from previous version.
 141960						
 141961	mˤ	mˤ				Token changed from previous version.
 # KTU 1.14 II:35						
@@ -375,7 +375,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141964	mad	m(ʔ&ad[				
 # KTU 1.14 II:36						
 141965	ṯlṯ	ṯlṯ/				
-141966	mart	ma&r(t/t= #r is scribal error				
+141966	mart	ma&r(t/t=				r is scribal error
 141967	rbt	rb(t/t=				
 # KTU 1.14 II:37						
 141968	ḫpṯ	ḫpṯ/				
@@ -398,12 +398,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141982	km	km				
 141983	yr	yr/				
 # KTU 1.14 II:41						
-141984	aṯr	aṯr(I) #or aṯr[ ?				
+141984	aṯr	aṯr(I)				or aṯr[ ?
 141985	ṯn	ṯn/				
 141986	ṯn	ṯn/				
 141987	hlk	hlk[				or !!hlk[/ infinitive?
 # KTU 1.14 II:42						
-141988	aṯr	aṯr(I) #or aṯr[				
+141988	aṯr	aṯr(I)				or aṯr[
 141989	ṯlṯ	ṯlṯ/				
 141990	klhm	kl/+hm				
 # KTU 1.14 II:43						
@@ -418,9 +418,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141997	zbl	zbl(III)/				
 141998	ˤršm	ˤrš/~m(II)				Token changed from previous version.
 # KTU 1.14 II:46						
-141999	yšu	!y!(nš(ʔ[&u #the form is probably passive				
+141999	yšu	!y!(nš(ʔ[&u				the form is probably passive
 142000	ˤwr	ˤwr/				Token changed from previous version.
-142001	mszlym	!!m&szl[/&y&m #scribal errors				
+142001	mszlym	!!m&szl[/&y&m				scribal errors
 # KTU 1.14 II:47						
 142002	ymzl	!y!mzl[:d				or!y!mzl[
 142003	w	w				
@@ -440,15 +440,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142014	k	k				
 142015	irby	irby/				
 # KTU 1.14 II:51						
-142016	tškn	!t!škn[ #masc pl				
+142016	tškn	!t!škn[				masc pl
 142017	šd	šd/				
 # KTU 1.14 III:1						
 142018	km	km				
 142019	ḥsn	ḥsn/				
-142020	pat	p(i(&a(t/t= #pi/at is singular, pat is plural				
+142020	pat	p(i(&a(t/t=				pi/at is singular, pat is plural
 142021	mdbr	mdbr/				
 # KTU 1.14 III:2						
-142022	lk	!!(hlk[/				
+142022	lk	!!(hlk[				
 142023	ym	ym/				
 142024	w	w				
 142025	ṯn	ṯn/				
@@ -469,15 +469,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142038	l	l(I)				
 142039	udm	udm/				
 # KTU 1.14 III:5						
-142040	rbm	rb(I)&m(t/t #error rbm instead of rbt				
+142040	rbm	rb(I)&m(t/t				error rbm instead of rbt
 142041	w	w				
 142042	l	l(I)				
 142043	udm	udm/				
 142044	ṯrrt	ṯrr(t/t				
 # KTU 1.14 III:6						
 142045	w	w				
-142046	gr	!!gr(y[ #written separately but is ~nn with the following word, cf.-n(I)				
-142047	nn	~nn #although written separately with a division marker				
+142046	gr	!!gr(y[				written separately but is ~nn with the following word, cf.-n(I)
+142047	nn	~nn				although written separately with a division marker
 142048	ˤrm	ˤr(I)/m				Token changed from previous version.
 142049	šrn	!!šr(II)[~n(I)				the root is š-r
 # KTU 1.14 III:7						
@@ -486,20 +486,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142052	b	b				
 142053	šdm	šd/m				
 # KTU 1.14 III:8						
-142054	ḥṭbh	ḥṭb&h[/(t= #active participle  used as an agent noun				
+142054	ḥṭbh	ḥṭb&h[/(t=				active participle  used as an agent noun
 142055	b	b				
-142056	grnt	grn(I)/t= #singular is without t				
+142056	grnt	grn(I)/t=				singular is without t
 142057	ḥpšt	ḥpš[/t=				
 # KTU 1.14 III:9						
 142058	sˤt	sˤ[/t=				Token changed from previous version.
 142059	b	b				
 142060	npk	npk(I)/				
-142061	šibt	š(ʔ&ib[/t= #active participle used as an agent-noun				
+142061	šibt	š(ʔ&ib[/t=				active participle used as an agent-noun
 142062	b	b				
-142063	bqr	bqr/ #variant of mqr				
+142063	bqr	bqr/				variant of mqr
 # KTU 1.14 III:10						
-142064	mmlat	!m!ml(ʔ&a[/t=:d #D-stem active participle used as an agent-noun				
-142065	dm	!!dm[ #d-m root, or d~m				
+142064	mmlat	!m!ml(ʔ&a[/t=:d				D-stem active participle used as an agent-noun
+142065	dm	!!dm[				d-m root, or d~m
 142066	ym	ym/				
 142067	w	w				
 142068	ṯn	ṯn/				
@@ -507,7 +507,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142069	ṯlṯ	ṯlṯ/				
 142070	rbˤ	rbˤ/				Token changed from previous version.
 142071	ym	ym/				
-142072	ymš	&y(ḫmš/ #scribal error				
+142072	ymš	&y(ḫmš/				scribal error
 # KTU 1.14 III:12						
 142073	ṯdṯ	ṯdṯ/				
 142074	ym	ym/				
@@ -519,7 +519,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142079	abn	abn/				
 142080	ydk	yd/+k				
 # KTU 1.14 III:14						
-142081	mšdpt	!m!]š](ndp[/t #the root is n-d-p				
+142081	mšdpt	!m!]š](ndp[/t				the root is n-d-p
 142082	w	w				
 142083	hn	hn				
 142084	špšm	špš/~m(I)				
@@ -531,7 +531,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142089	yšn	!y!(yšn[				
 142090	pbl	pbl/				
 # KTU 1.14 III:16						
-142091	mlk	mlk/				
+142091	mlk	mlk(I)/				
 142092	l	l(I)				
 142093	qr	qr(II)/				
 142094	ṯigt	ṯig(t/t				
@@ -561,7 +561,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142113	mswnh	mswn/+h				
 142114	tḥm	tḥm/				
 142115	pbl	pbl/				
-142116	mlk	mlk/				
+142116	mlk	mlk(I)/				
 # KTU 1.14 III:22						
 142117	qḥ	!!(lqḥ[				
 142118	ksp	ksp/				
@@ -569,7 +569,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142120	yrq	yrq/				
 142121	ḫrṣ	ḫrṣ/				
 # KTU 1.14 III:23						
-142122	yd	yd(I)/  #used as a preposition "with"				
+142122	yd	yd(I)/				used as a preposition "with"
 142123	mqmh	mqm/+h				
 142124	w	w				
 142125	ˤbd	ˤbd/				Token changed from previous version.
@@ -577,11 +577,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 III:24						
 142127	ṯlṯ	ṯlṯ/				
 142128	sswm	ssw/m				
-142129	mrkbt	mrkb(t/t= #this is a plural ending				
+142129	mrkbt	mrkb(t/t=				this is a plural ending
 # KTU 1.14 III:25						
 142130	b	b				
 142131	trbṣ	trbṣ/				
-142132	bn	bn/				
+142132	bn	bn(I)/				
 142133	amt	am(t(I)/t				
 # KTU 1.14 III:26						
 142134	qḥ	!!(lqḥ[				
@@ -590,18 +590,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 III:27						
 142137	šlmm	šlm(II)/m				
 142138	w	w				
-142139	ng	!!ng(y[/				
-142140	mlk	mlk/				
+142139	ng	!!ng(y[				
+142140	mlk	mlk(I)/				
 # KTU 1.14 III:28						
 142141	l	l(I)				
 142142	bty	bt/+y				
-142143	rḥq	!!rḥq[ #or an adjective rḥq/				
+142143	rḥq	!!rḥq[				or an adjective rḥq/
 142144	krt	krt/				
 # KTU 1.14 III:29						
 142145	l	l(I)				
 142146	ḥẓry	ḥẓr/+y				
 142147	al	al				
-142148	tṣr	!t!ṣr(r[ #is it okay for a geminate verb in G?				
+142148	tṣr	!t!ṣr(r[				is it okay for a geminate verb in G?
 # KTU 1.14 III:30						
 142149	udm	udm/				
 142150	rbt	rb(t/t				
@@ -610,15 +610,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142153	ṯrrt	ṯrr(t/t				
 # KTU 1.14 III:31						
 142154	udm	udm				
-142155	ytnat	ytn&a(t/t #scribal error				
-142156	il	il/				
+142155	ytnat	ytn&a(t/t				scribal error
+142156	il	il(I)/				
 142157	w	w				
 142158	ušn	ušn/				
 # KTU 1.14 III:32						
 142159	ab	ab/				
 142160	adm	adm/				
 142161	w	w				
-142162	ṯṯb	!!]ṯ]ṯb[ #ṯ is a variant of š of shafel as a result of assimilation				
+142162	ṯṯb	!!]ṯ]ṯb[				ṯ is a variant of š of shafel as a result of assimilation
 # KTU 1.14 III:33						
 142163	mlakm	mlak/m				
 142164	lh	l(I)+h				
@@ -641,8 +641,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142178	mrkbt	mrkb(t/t=				
 # KTU 1.14 III:37						
 142179	b	b				
-142180	trbṣt	trbṣ/&t #a scribal error				
-142181	bn	bn/				
+142180	trbṣt	trbṣ/&t				a scribal error
+142181	bn	bn(I)/				
 142182	amt	am(t(I)/t				
 # KTU 1.14 III:38						
 142183	p	p				
@@ -652,7 +652,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142187	bty	bt/+y				
 142188	ttn	!t!(ytn[				
 # KTU 1.14 III:39						
-142189	tn	!!(ytn[/				
+142189	tn	!!(ytn[				
 142190	ly	l(I)+y				
 142191	mṯt	mṯ(t/t				
 142192	ḥry	ḥry/				
@@ -680,8 +680,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 III:44						
 142210	sp	sp/				
 142211	ṯrml	ṯrml/				
-142212	tḥgrn	!t!ḥgr[+n #the subject is obscure, can 3fs or 3mpl				
-142213	ṯdm	ṯd/m #very obscure				
+142212	tḥgrn	!t!ḥgr[+n				the subject is obscure, can 3fs or 3mpl
+142213	ṯdm	ṯd/m				very obscure
 # KTU 1.14 III:45						
 142214	ašlw	!(ʔ&a!šlw[				
 142215	b	b				
@@ -689,16 +689,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142217	ˤnh	ˤn/+h				Token changed from previous version.
 # KTU 1.14 III:46						
 142218	d	d				
-142219	bḥlmy	b-ḥlm/+y #b is a preposition, should be separated				
-142220	il	il/				
-142221	ytn	ytn[ #or !y!(ytn[				
+142219	bḥlmy	b-ḥlm/+y				b is a preposition, should be separated
+142220	il	il(I)/				
+142221	ytn	ytn[				or !y!(ytn[
 # KTU 1.14 III:47						
 142222	b	b				
 142223	ḏrty	ḏr(t/t+y				
 142224	ab	ab/				
 142225	adm	adm/				
 # KTU 1.14 III:48						
-142226	wld	w-(yld[/ #w is most probably a conjunction, the verb is inf; or wld/				
+142226	wld	w-(yld[/				w is most probably a conjunction, the verb is inf; or wld/
 142227	špḥ	špḥ/				
 142228	l	l(I)				
 142229	krt	krt/				
@@ -707,7 +707,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142231	ġlm	ġlm/				
 142232	l	l(I)				
 142233	ˤbd	ˤbd/				Token changed from previous version.
-142234	il	il/				
+142234	il	il(I)/				
 # KTU 1.14 III:50						
 142235	krt	krt/				
 142236	yḫṭ	!y!ḫṭ[				
@@ -715,17 +715,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142238	ḥlm	ḥlm/				
 # KTU 1.14 III:51						
 142239	ˤbd	ˤbd/				Token changed from previous version.
-142240	il	il/				
+142240	il	il(I)/				
 142241	w	w				
 142242	hdrt	hdr(t/t				
 # KTU 1.14 III:52						
-142243	yrxtxḥxṣ	!y!r&x]t]&xḥ&xṣ[ #perhaps erased signs; repetition in another tense				
+142243	yrxtxḥxṣ	!y!r&x]t]&xḥ&xṣ[				perhaps erased signs; repetition in another tense
 142244	w	w				
 142245	yadm	!y!(n(ʔ&adm[				
 # KTU 1.14 III:53						
 142246	yrḥṣ	!y!rḥṣ[				
 142247	ydh	yd/+h				
-142248	amth	am(t(I)/t~h(II) #directional h				
+142248	amth	am(t(I)/t~h(II)				directional h
 # KTU 1.14 III:54						
 142249	uṣbˤth	uṣbˤ(t/t=+h				Token changed from previous version.
 142250	ˤd	ˤd				Token changed from previous version.
@@ -743,7 +743,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142260	ydh	yd/+h				
 # KTU 1.14 III:57						
 142261	lla	ll(u/&a				
-142262	klatnm	kla(t/tn~m(I) #fem du, m dissimilate to n because of m enclitic				
+142262	klatnm	kla(t/tn~m(I)				fem du, m dissimilate to n because of m enclitic
 # KTU 1.14 III:58						
 142263	klt	kl(t/t				
 142264	lḥmh	lḥm/+h				
@@ -755,7 +755,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142269	ṣr	ṣr/	ṣr	TN sg. cstr. gen.	Tyre	Migrated from legacy reviewed tokenization.
 142270	dbḥ	dbḥ/				
 # KTU 1.14 IV:1						
-142271	yṣq	yṣq[ #SC because of nša below				
+142271	yṣq	yṣq[				SC because of nša below
 142272	b	b				
 142273	gl	gl(II)/				
 142274	ḥtṯ	ḥtṯ/				
@@ -775,7 +775,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 IV:4						
 142286	ṯkmm	ṯkm/~m(I)				
 142287	ḥmt	ḥm(t/t				
-142288	nša	nš(ʔ[&a #the vocalization shows SC				
+142288	nša	nš(ʔ[&a				the vocalization shows SC
 # KTU 1.14 IV:5						
 142289	ydh	yd/+h				
 142290	šmmh	šmm(I)/~h(II)				
@@ -784,21 +784,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142292	l	l(I)				
 142293	ṯr	ṯr/				
 142294	abh	ab/+h(I)				
-142295	il	il/				
-142296	šrd	šrd[:d #or ]š](yrd[				
+142295	il	il(I)/				
+142296	šrd	šrd[:d				or ]š](yrd[
 # KTU 1.14 IV:7						
 142297	bˤl	bˤl/				Token changed from previous version.
 142298	b	b				
 142299	dbḥh	dbḥ/+h(I)				
-142300	bn	bn/				
+142300	bn	bn(I)/				
 142301	dgn	dgn/				
 # KTU 1.14 IV:8						
-142302	bmṣdh	b-mṣd/+h(I) #preposition				
-142303	yrd	yrd[ #or !y!(rd[ because next verbal form is PC				
+142302	bmṣdh	b-mṣd/+h(I)				preposition
+142303	yrd	yrd[				or !y!(rd[ because next verbal form is PC
 142304	krt	krt				
 # KTU 1.14 IV:9						
 142305	l	l(I)				
-142306	ggt	gg(I)/t= #the noun is in masculine, but plural has t				
+142306	ggt	gg(I)/t=				the noun is in masculine, but plural has t
 142307	ˤdb	ˤdb[				Token changed from previous version.
 142308	akl	akl/				
 142309	l	l(I)				
@@ -819,14 +819,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142321	yrḫm	yrḫ/m				
 # KTU 1.14 IV:13						
 142322	ˤdn	ˤdn(III)/				Token changed from previous version.
-142323	ngb	ngb/ #or passive participle, or ngb[, or ]n]gb(g[				
-142324	wyṣu	w-!y!(yṣ(ʔ[&u #or !y!(yṣ(ʔ[&i according to some readings				
+142323	ngb	ngb/				or passive participle, or ngb[, or ]n]gb(g[
+142324	wyṣu	w-!y!(yṣ(ʔ[&u				or !y!(yṣ(ʔ[&i according to some readings
 142325	ṣbu	ṣbu[				
 # KTU 1.14 IV:14						
-142326	ṣba	ṣb(u&i[ #apparently a is a mistake for i				
-142327	ngb	ngb/ #or passive participle, or ngb[, or ]n]gb(g[				
+142326	ṣba	ṣb(u&i[				apparently a is a mistake for i
+142327	ngb	ngb/				or passive participle, or ngb[, or ]n]gb(g[
 142328	w	w				
-142329	yṣu	!y!(yṣ(ʔ[&u #or !y!(yṣ(ʔ[&i according to some readings				
+142329	yṣu	!y!(yṣ(ʔ[&u				or !y!(yṣ(ʔ[&i according to some readings
 142330	ˤdn	ˤdn/				Token changed from previous version.
 # KTU 1.14 IV:15						
 142331	mˤ	mˤ(II)				Token changed from previous version.
@@ -849,12 +849,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142345	km	km				
 142346	yr	yr/				
 # KTU 1.14 IV:19						
-142347	aṯr	aṯr(I) #or aṯr[				
+142347	aṯr	aṯr(I)				or aṯr[
 142348	ṯn	ṯn/				
 142349	ṯn	ṯn/				
 142350	hlk	hlk[				
 # KTU 1.14 IV:20						
-142351	aṯr	aṯr(I) #or aṯr[				
+142351	aṯr	aṯr(I)				or aṯr[
 142352	ṯlṯ	ṯlṯ/				
 142353	klhm	kl+hm				
 # KTU 1.14 IV:21						
@@ -873,25 +873,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142363	ˤwr	ˤwr/				Token changed from previous version.
 # KTU 1.14 IV:25						
 142364	mzl	!!mzl[/				
-142365	ymzl	!y!mzl[ #or !y!mzl[:d				
+142365	ymzl	!y!mzl[				or !y!mzl[:d
 # KTU 1.14 IV:26						
 142366	w	w				
-142367	ybl	!y!(ybl[ #Gpass maybe !y(u!(yb(al[ ?				
+142367	ybl	!y!(ybl[				Gpass maybe !y(u!(yb(al[ ?
 142368	trḫ	trḫ/				
 142369	ḥdṯ	ḥdṯ/				
 # KTU 1.14 IV:27						
-142370	ybˤr	!y!bˤr(II)[:d #but I don't think there are two bˤr roots				Token changed from previous version.
+142370	ybˤr	!y!bˤr(II)[:d				but I don't think there are two bʿr roots | Token changed from previous version.
 142371	l	l(I)				
 142372	ṯn	ṯn/				
 142373	aṯth	aṯ(t/t+h(I)				
 # KTU 1.14 IV:28						
 142374	w	w				
-142375	lnkr	l-nkr/ #preposition				
+142375	lnkr	l-nkr/				preposition
 142376	mddt	mdd(t/t				
 # KTU 1.14 IV:29						
 142377	km	km				
 142378	irby	irby/				
-142379	tškn	!t!škn[ #masc pl, maybe !t!škn[(u ? actually we need a symbol for vocalization that doesn't appear in the word nor the lexeme				
+142379	tškn	!t!škn[				masc pl, maybe !t!škn[(u ? actually we need a symbol for vocalization that doesn't appear in the word nor the lexeme
 # KTU 1.14 IV:30						
 142380	šd	šd/				
 142381	k	k				
@@ -915,9 +915,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142395	qdš	qdš/				
 # KTU 1.14 IV:35						
 142396	aṯrt	aṯr(t/t				
-142397	ṣrm	ṣr/m #or ṣr/~m(I)				
+142397	ṣrm	ṣr/m				or ṣr/~m(I)
 142398	w	w				
-142399	lilt	l-il(t/t #preposition				
+142399	lilt	l-il(t/t				preposition
 # KTU 1.14 IV:36						
 142400	ṣdynm	ṣdyn/m or ṣdyn/~m(I)				
 142401	ṯm	ṯm				
@@ -926,9 +926,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142403	krt	krt/				
 142404	ṯˤ	ṯˤ/				Token changed from previous version.
 # KTU 1.14 IV:38						
-142405	iṯiṯt	i&ṯ-iṯ(y[t #two words - an interrogative and a verb				
+142405	iṯiṯt	i&ṯ-iṯ(y[t				two words - an interrogative and a verb
 142406	aṯrt	aṯr(t/t				
-142407	ṣrm	ṣr/m #or ṣr/~m(I)				
+142407	ṣrm	ṣr/m				or ṣr/~m(I)
 # KTU 1.14 IV:39						
 142408	w	w				
 142409	ilt	il(t/t				
@@ -975,10 +975,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142441	udm	udm/				
 142442	ṯrrt	ṯrr(t/t				
 # KTU 1.14 IV:49						
-142443	ygrnn	!y!gr(y[+nn #or &ygr(y[+nn prefix y is erased but I don't understand				
+142443	ygrnn	!y!gr(y[+nn				or &ygr(y[+nn prefix y is erased but I don't understand
 142444	ˤrm	ˤr/m				Token changed from previous version.
 # KTU 1.14 IV:50						
-142445	yšrna	!y!šr[+n&a #or &yšr[+n&a with an erased prefix				
+142445	yšrna	!y!šr[+n&a				or &yšr[+n&a with an erased prefix
 142446	pdrm	pdr/m				
 # KTU 1.14 IV:51						
 142447	sˤt	sˤ[/t=				probably passive participle | Token changed from previous version.
@@ -987,22 +987,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142450	ḥṭbt	ḥṭb[/t=				
 # KTU 1.14 IV:52						
 142451	w	w				
-142452	bgrnmḥpšt	b-grn/m-ḥpš[/t= #three words!				
+142452	bgrnmḥpšt	b-grn/m-ḥpš[/t=				three words!
 # KTU 1.14 V:1						
 142453	sˤt	sˤ[/t=				probably passive participle | Token changed from previous version.
 142454	b	b				
 142455	npk	npk(I)/				
-142456	šibt	š(ʔ&ib[/t= #active participle used as an agent-noun				
+142456	šibt	š(ʔ&ib[/t=				active participle used as an agent-noun
 142457	w	w				
 142458	b	b				
 # KTU 1.14 V:2						
 142459	mqr	mqr/				
-142460	mmlatḥx	!m!ml(ʔ&a[/t=:d&ḥ&x #scribal mistakes				
+142460	mmlatḥx	!m!ml(ʔ&a[/t=:d&ḥ&x				scribal mistakes
 # KTU 1.14 V:3						
 142461	dm	dm[				
 142462	ym	ym/				
 142463	w	w				
-142464	ṯnṯlṯ	ṯn/&ṯ&l&ṯ #scribal error				
+142464	ṯnṯlṯ	ṯn/&ṯ&l&ṯ				scribal error
 # KTU 1.14 V:4						
 142465	ṯlṯ	ṯlṯ/				
 142466	rbˤ	rbˤ/				Token changed from previous version.
@@ -1019,10 +1019,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 V:7						
 142475	w	w				
 142476	l	l(I)				
-142477	yšn	!y!(yšn[ #or yšn[				
+142477	yšn	!y!(yšn[				or yšn[
 142478	pbl	pbl/				
 # KTU 1.14 V:8						
-142479	mlk	mlk/				
+142479	mlk	mlk(I)/				
 142480	l	l(I)				
 142481	qr	qr/				
 142482	ṯigqt	ṯi&gq(t/t				
@@ -1032,7 +1032,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142485	ql	ql/				
 142486	nhqt	nhq(t/t				
 # KTU 1.14 V:10						
-142487	ḥmrh	ḥmr/+h #note that all the following text is very fragmentary and heavily reconstructed				
+142487	ḥmrh	ḥmr/+h				note that all the following text is very fragmentary and heavily reconstructed
 142488	lgˤt	l-gˤ(t/t				Token changed from previous version.
 142489	alp	alp/				
 # KTU 1.14 V:11						
@@ -1044,14 +1044,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142494	apnk	ap~n~k				
 # KTU 1.14 V:13						
 142495	pbl	pbl/				
-142496	mlk	mlk/				
+142496	mlk	mlk(I)/				
 142497	gm	g~m(I)				
 142498	l	l(I)				
 142499	aṯt	aṯ(t/t				
 # KTU 1.14 V:14						
 142500	h	+h				
 142501	kyṣḥ	k-!y!ṣḥ[				
-142502	šmˤ	!!šmˤ[/				Token changed from previous version.
+142502	šmˤ	!!šmˤ[				Token changed from previous version.
 142503	mˤ	mˤ				Token changed from previous version.
 # KTU 1.14 V:15						
 142504	l	l(I)				
@@ -1063,7 +1063,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 V:17						
 142509	xxxx	xxxx				
 142510	krt	krt/				
-142511	tk	tk #I don't know what this can be				
+142511	tk	tk				I don't know what this can be
 # KTU 1.14 V:18						
 142512	xxxxxn	xxxxxn				
 # KTU 1.14 V:19						
@@ -1087,14 +1087,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142526	yṣḥ	!y!ṣḥ[				
 # KTU 1.14 V:24						
 142527	xxxxx	xxxxx				
-142528	kbd	kbd/ #not sure				
+142528	kbd	kbd/				not sure
 142529	ˤr	ˤr/				Token changed from previous version.
 # KTU 1.14 V:25						
-142530	xxxxxxbbx	xxxxxxbbx #?				
+142530	xxxxxxbbx	xxxxxxbbx				?
 # KTU 1.14 V:26						
-142531	xxxxxxlmy	xxxxxxlmy #?				
+142531	xxxxxxlmy	xxxxxxlmy				?
 # KTU 1.14 V:27						
-142532	btxxxxxp	btxxxxxp #?				
+142532	btxxxxxp	btxxxxxp				?
 # KTU 1.14 V:28						
 142533	hxxxxx	hxxxxx				
 142534	dbḥ	dbḥ/				
@@ -1118,7 +1118,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 V:33						
 142548	tḥm	tḥm/				
 142549	pbl	pbl/				
-142550	mlk	mlk/				
+142550	mlk	mlk(I)/				
 # KTU 1.14 V:34						
 142551	qḥ	!!(lqḥ[				
 142552	ksp	ksp/				
@@ -1138,7 +1138,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 V:38						
 142563	b	b				
 142564	trbṣ	trbṣ/				
-142565	bn	bn/				
+142565	bn	bn(I)/				
 142566	amt	am(t(I)/t				
 # KTU 1.14 V:39						
 142567	qḥ	!!(lqḥ[				
@@ -1158,18 +1158,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142578	udm	udm/				
 142579	ytnt	ytn(t/t				
 # KTU 1.14 V:43						
-142580	il	il/				
+142580	il	il(I)/				
 142581	w	w				
 142582	ušn	ušn/				
 142583	ab	ab/				
 142584	adm	adm/				
 # KTU 1.14 V:44						
-142585	rḥq	!!rḥq[/				
-142586	mlk	mlk/				
+142585	rḥq	!!rḥq[				
+142586	mlk	mlk(I)/				
 142587	l	l(I)				
 142588	bty	bt/+y				
 # KTU 1.14 V:45						
-142589	ng	!!ng(y[/				
+142589	ng	!!ng(y[				
 142590	krt	krt/				
 142591	l	l(I)				
 142592	ḥẓry	ḥẓr/+y				
@@ -1185,7 +1185,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 VI:3						
 142600	tḥm	tḥm/				
 142601	pbl	pbl/				
-142602	mlk	mlk/				
+142602	mlk	mlk(I)/				
 # KTU 1.14 VI:4						
 142603	qḥ	!!(lqḥ[				
 142604	ksp	ksp/				
@@ -1206,7 +1206,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 VI:8						
 142616	b	b				
 142617	trbṣ	trbṣ/				
-142618	bn	bn/				
+142618	bn	bn(I)/				
 142619	amt	am(t(I)/t				
 # KTU 1.14 VI:9						
 142620	qḥ	!!(lqḥ[				
@@ -1226,17 +1226,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142631	udm	udm/				
 142632	ytnt	ytn(/t				
 # KTU 1.14 VI:13						
-142633	il	il/				
+142633	il	il(I)/				
 142634	ušn	ušn/				
 142635	ab	ab/				
 142636	adm	adm/				
 # KTU 1.14 VI:14						
-142637	rḥq	!!rḥq[ #or rḥq/ - an adjective in optative meaning				
-142638	mlk	mlk/				
+142637	rḥq	!!rḥq[				or rḥq/ - an adjective in optative meaning
+142638	mlk	mlk(I)/				
 142639	l	l(I)				
 142640	bty	bt/+y				
 # KTU 1.14 VI:15						
-142641	ng	!!ng(y[/				
+142641	ng	!!ng(y[				
 142642	krt	krt/				
 142643	l	l(I)				
 142644	ḥẓry	ḥẓr/+y				
@@ -1267,7 +1267,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142663	b	b				
 142664	trbṣ	trbṣ/				
 # KTU 1.14 VI:22						
-142665	bn	bn/				
+142665	bn	bn(I)/				
 142666	amt	am(t(I)/t				
 142667	pd	p-d				these are two separate particles
 142668	in	in				
@@ -1275,7 +1275,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142669	b	b				
 142670	bty	bt/+y				
 142671	ttn	!t!(ytn[				
-142672	tn	!!(ytn[/				
+142672	tn	!!(ytn[				
 # KTU 1.14 VI:24						
 142673	ly	l(I)+y				
 142674	mṯt	mṯ(tqt				
@@ -1286,7 +1286,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142678	bkrk	bkr/+k				
 # KTU 1.14 VI:26						
 142679	d	d				
-142680	knˤm	k-nˤm/ #two words				Token changed from previous version.
+142680	knˤm	k-nˤm/				two words | Token changed from previous version.
 142681	ˤnt	ˤnt/				Token changed from previous version.
 # KTU 1.14 VI:27						
 142682	nˤmh	nˤm/+h				Token changed from previous version.
@@ -1306,18 +1306,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142693	ṯrml	ṯrml/				
 # KTU 1.14 VI:31						
 142694	d	d				
-142695	bḥlmy	b-ḥlm/+y #preposition				
-142696	il	il/				
-142697	ytn	ytn[ #SC makes sense here				
+142695	bḥlmy	b-ḥlm/+y				preposition
+142696	il	il(I)/				
+142697	ytn	ytn[				SC makes sense here
 # KTU 1.14 VI:32						
 142698	b	b				
 142699	ḏrty	ḏrt/+y				
 142700	ab	ab/				
 142701	adm	adm/				
 # KTU 1.14 VI:33						
-142702	wld	w-(yld[/ #or wld/				
+142702	wld	w-(yld[/				or wld/
 142703	špḥ	špḥ/				
-142704	lkrk	l-kr&k #the following t is here				
+142704	lkrk	l-kr&k				the following t is here
 # KTU 1.14 VI:34						
 142705	t	t				
 142706	w	w				
@@ -1325,7 +1325,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142708	l	l(I)				
 142709	ˤbd	ˤbd/				Token changed from previous version.
 # KTU 1.14 VI:35						
-142710	il	il/				
+142710	il	il(I)/				
 142711	ttbˤ	!t!tbˤ[				Token changed from previous version.
 142712	mlakm	mlak/m				
 # KTU 1.14 VI:36						
@@ -1339,7 +1339,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142719	ˤmm	ˤm~m(II)				Token changed from previous version.
 142720	pbl	pbl/				
 # KTU 1.14 VI:38						
-142721	mlk	mlk/				
+142721	mlk	mlk(I)/				
 142722	tšan	!t!(nš(ʔ&a/n				
 # KTU 1.14 VI:39						
 142723	ghm	g/+hm				
@@ -1350,7 +1350,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142727	krt	krt/				
 142728	ṯˤ	ṯˤ/				Token changed from previous version.
 # KTU 1.14 VI:41						
-142729	hwt	hw(t #but I am not sure				
-142730	nˤmn	nˤmn(I)/ #n is a suffix				Token changed from previous version.
+142729	hwt	hw(t				but I am not sure
+142730	nˤmn	nˤmn(I)/				n is a suffix | Token changed from previous version.
 142731	ġlm	ġlm/				
-142732	il	il/				
+142732	il	il(I)/				

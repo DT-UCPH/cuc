@@ -8,7 +8,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.14 3						
 156702	bny	bn/+y				
 156703	aḫy	aḫ/+y				
-156704	rgm	!!rgm[/				
+156704	rgm	!!rgm[				
 # KTU 2.14 4						
 156705	ilm	il(I)/m				
 156706	tġrk	!t!(nġr[+k				
@@ -40,7 +40,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156724	rgmt	rgm[+t				
 # KTU 2.14 13						
 156725	l	l(I)				
-156726	mlk	mlk/				
+156726	mlk	mlk(I)/				
 156727	šmy	šm/+y				
 # KTU 2.14 14						
 156728	w	w				
@@ -55,9 +55,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.14 17						
 156735	ṯryl	ṯryl/				
 156736	w	w				
-156737	rgm	rgm/ #here it is a noun 'word'				
+156737	rgm	rgm/				here it is a noun 'word'
 # KTU 2.14 18						
-156738	ṯṯb	!!]ṯ]ṯb[/				
+156738	ṯṯb	!!]ṯ]ṯb[				
 156739	l	l(I)				
 156740	aḫk	aḫ/+k				
 # KTU 2.14 19						

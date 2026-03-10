@@ -1,3 +1,21 @@
+## 2026-03-10
+
+- Restored migrated reviewed parses from the canonical source files under `reviewed/orig/` for:
+  - `reviewed/KTU 1.14.txt`
+  - `reviewed/KTU 2.10.txt`
+  - `reviewed/KTU 2.11.txt`
+  - `reviewed/KTU 2.12.txt`
+  - `reviewed/KTU 2.13.txt`
+  - `reviewed/KTU 2.14.txt`
+  - `reviewed/KTU 2.15.txt`
+  - `reviewed/KTU 2.16.txt`
+  - `reviewed/KTU 2.38.txt`
+- Used the existing `ReviewedTabletMigrator` to reapply the parsing and reviewer comments recorded in `reviewed/orig/` onto current ids and refs, instead of keeping the later scorer-side normalization artifacts in the live reviewed files.
+- This restores distinctions such as imperative `!!(lqḥ[` versus infinitive `!!(lqḥ[/`, noun `rgm/` versus imperative `!!rgm[`, and legacy reviewer comments into the dedicated comment column.
+- Recomputed the reviewed morphology score reports after the restoration with:
+  - `./agent/.venv/bin/python agent/scripts/score_reviewed_morphology.py`
+  - `./agent/.venv/bin/python agent/scripts/score_reviewed_morphology.py --json`
+
 ## 2026-03-09
 
 - Normalized dropped-initial `/l-q-ḥ/` imperative and infinitive encoding in:
