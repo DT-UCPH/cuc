@@ -1,5 +1,28 @@
 ## 2026-03-10
 
+- Added a conservative attestation-translation tie-breaker for `l` in:
+  - `pipeline/dulat_attestation_translation_index.py`
+  - `spacy_ugaritic/components/l_context.py`
+  - `pipeline/steps/spacy_l_context.py`
+- The `l` resolver now looks at exact-reference DULAT attestation translations and only collapses a homonym when one non-prepositional `l` reading wins uniquely on explicit cue words:
+  - `l(II)`: `not/no/without/...`
+  - `l(III)`: `certainly/truly/yes/really/...`
+  - `l(IV)`: `oh`
+- This is intentionally narrow and currently experimental for `l` only; it does not use phrase-level English translation as a general parser oracle.
+- Added regression coverage in:
+  - `tests/test_spacy_l_context.py`
+  - `tests/test_spacy_l_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_l_context tests.test_spacy_l_context_step tests.test_tablet_parsing_pipeline`
+  - `uv run ruff check pipeline/config/l_attestation_translation_cues.py pipeline/dulat_attestation_translation_index.py spacy_ugaritic/components/l_context.py spacy_ugaritic/language.py pipeline/steps/spacy_l_context.py pipeline/l_context_step_factory.py pipeline/tablet_parsing.py tests/test_spacy_l_context.py tests/test_spacy_l_context_step.py`
+  - targeted `regenerate_tablets_and_reports.py --skip-source-refresh` on the reviewed tablet set
+- Targeted reviewed-score delta for this experiment:
+  - exact-set accuracy `0.5528 -> 0.5554`
+  - macro F1 `0.6089 -> 0.6115`
+  - micro F1 `0.5700 -> 0.5722`
+  - gold coverage `0.6318 -> 0.6344`
+  - no lint delta
+
 - Corrected the mistaken epistolary `rgm` opening rule in `spacy_ugaritic/components/morph_context.py`.
 - The opening `rgm` in KTU 2 letter formulas now resolves as imperative `!!rgm[` again instead of the previously forced infinitive `!!rgm[/`.
 - This aligns the parser with the restored canonical reviewed files under `reviewed/orig/` and removes the normalization-driven regression introduced in the earlier `rgm` pass.

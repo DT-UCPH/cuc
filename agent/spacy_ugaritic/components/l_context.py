@@ -1,10 +1,16 @@
 """Rule-based spaCy component for `l`-context disambiguation."""
 
+import re
 from dataclasses import dataclass
 
 from spacy.language import Language
 from spacy.tokens import Doc, Token
 
+from pipeline.config.l_attestation_translation_cues import (
+    L_CERTAINTY_TRANSLATION_CUES,
+    L_INTERJECTION_TRANSLATION_CUES,
+    L_NEGATION_TRANSLATION_CUES,
+)
 from pipeline.config.l_body_compound_prep_rules import L_BODY_COMPOUND_PREP_RULES
 from pipeline.config.l_functor_vocative_refs import expected_l_homonym_for_ref
 from pipeline.config.l_negation_exception_refs import is_forced_l_negation_ref
@@ -17,7 +23,10 @@ from pipeline.config.l_preposition_bigram_rules import (
     L_PN_PREP_CANONICAL_PAYLOADS,
     CanonicalSecondPayload,
 )
+from pipeline.dulat_attestation_translation_index import DulatAttestationTranslationIndex
 from spacy_ugaritic.types import Candidate
+
+_TRANSLATION_WORD_RE = re.compile(r"[A-Za-z']+")
 
 
 @dataclass(frozen=True)
@@ -113,7 +122,31 @@ def _next_token(doc: Doc, index: int) -> Token | None:
     return doc[index + 1]
 
 
+def _l_candidate_homonym(candidate: Candidate) -> str:
+    if candidate.dulat.startswith("l (") and candidate.dulat.endswith(")"):
+        return candidate.dulat[3:-1]
+    return ""
+
+
+def _translation_words(text: str) -> frozenset[str]:
+    return frozenset(match.group(0).lower() for match in _TRANSLATION_WORD_RE.finditer(text or ""))
+
+
+def _translation_supports_l_homonym(translation: str, homonym: str) -> bool:
+    words = _translation_words(translation)
+    if homonym == "II":
+        return bool(words & L_NEGATION_TRANSLATION_CUES)
+    if homonym == "III":
+        return bool(words & L_CERTAINTY_TRANSLATION_CUES)
+    if homonym == "IV":
+        return bool(words & L_INTERJECTION_TRANSLATION_CUES)
+    return False
+
+
 class LContextResolver:
+    def __init__(self, translation_index: DulatAttestationTranslationIndex | None = None) -> None:
+        self._translation_index = translation_index or DulatAttestationTranslationIndex.empty()
+
     def __call__(self, doc: Doc) -> Doc:
         doc.user_data.setdefault("l_context_events", [])
         for token in doc:
@@ -133,6 +166,15 @@ class LContextResolver:
             if forced is not None:
                 self._replace(token, _keep_single_l(token, forced), f"forced-{forced.lower()}", doc)
                 continue
+            translated = self._resolve_by_attestation_translation(token)
+            if translated is not None:
+                self._replace(
+                    token,
+                    _keep_single_l(token, translated),
+                    f"translation-{translated.lower()}",
+                    doc,
+                )
+                continue
             if next_has_verb:
                 continue
             if any(_is_l_candidate(candidate, "I") for candidate in token._.resolved_candidates):
@@ -146,6 +188,25 @@ class LContextResolver:
             if filtered and len(filtered) != len(token._.resolved_candidates):
                 self._replace(token, filtered, "prune-l-ii-no-verb", doc)
         return doc
+
+    def _resolve_by_attestation_translation(self, token: Token) -> str | None:
+        matched_homonyms: set[str] = set()
+        for candidate in token._.resolved_candidates:
+            homonym = _l_candidate_homonym(candidate)
+            if homonym not in {"II", "III", "IV"}:
+                continue
+            translations = self._translation_index.translations_for_variant_token(
+                candidate.dulat,
+                token._.section_ref,
+            )
+            if any(
+                _translation_supports_l_homonym(translation, homonym)
+                for translation in translations
+            ):
+                matched_homonyms.add(homonym)
+        if len(matched_homonyms) != 1:
+            return None
+        return next(iter(matched_homonyms))
 
     def _apply_compound_rules(self, token: Token, next_token: Token | None, doc: Doc) -> bool:
         if next_token is None:
@@ -222,5 +283,9 @@ class LContextResolver:
 
 
 @Language.factory("ugaritic_l_context_resolver")
-def make_l_context_resolver(nlp, name):
+def make_l_context_resolver(nlp, name, dulat_db_path: str = ""):
+    if dulat_db_path:
+        return LContextResolver(
+            translation_index=DulatAttestationTranslationIndex.from_sqlite(dulat_db_path)
+        )
     return LContextResolver()

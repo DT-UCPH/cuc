@@ -153,7 +153,9 @@ class TabletParsingPipeline:
         )
         self._post_mlk_context_steps: List[RefinementStep] = []
         self._pre_l_context_steps: List[RefinementStep] = []
-        self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps()
+        self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps(
+            dulat_db=self.config.dulat_db
+        )
         self._pre_k_context_steps: List[RefinementStep] = []
         self._k_context_steps: List[RefinementStep] = build_spacy_k_context_steps()
         self._post_k_context_steps: List[RefinementStep] = []

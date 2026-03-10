@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
@@ -89,3 +90,41 @@ class SpacyLContextDisambiguatorTest(unittest.TestCase):
             self.assertEqual(result.rows_changed, 2)
             lines = path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(lines[2], "1\tl\tl(I)\tl (I)\tprep.\tto\tkeep me")
+
+    def test_uses_attestation_translation_to_force_l_ii(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            db_path = root / "dulat.sqlite"
+            conn = sqlite3.connect(db_path)
+            cur = conn.cursor()
+            cur.execute(
+                "CREATE TABLE entries (entry_id INTEGER PRIMARY KEY, lemma TEXT, homonym TEXT)"
+            )
+            cur.execute(
+                "CREATE TABLE attestations (entry_id INTEGER, translation TEXT, citation TEXT)"
+            )
+            cur.execute("INSERT INTO entries(entry_id, lemma, homonym) VALUES (1, 'l', 'II')")
+            cur.execute(
+                "INSERT INTO attestations(entry_id, translation, citation) VALUES (?, ?, ?)",
+                (1, "a lawful wife he did not get (keep)", "CAT 1.14 I:12"),
+            )
+            conn.commit()
+            conn.close()
+
+            step = SpacyLContextDisambiguator(dulat_db=db_path)
+            path = root / "KTU 1.test.tsv"
+            path.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.14 I:12\n"
+                "1\tl\tl(I)\tl (I)\tprep.\tto\tkeep me\n"
+                "1\tl\tl(II)\tl (II)\tadv.\tno\tkeep me too\n"
+                "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\tdrop me\n"
+                "2\typq\t!y!pq[\t/p-q-y/\tvb G prefc.\tto get\t\n",
+                encoding="utf-8",
+            )
+
+            result = step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 3)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(lines[2], "1\tl\tl(II)\tl (II)\tadv.\tno\tkeep me too")

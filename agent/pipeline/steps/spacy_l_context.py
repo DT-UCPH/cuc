@@ -13,8 +13,18 @@ from spacy_ugaritic.rewriter import count_data_rows, render_resolved_lines
 class SpacyLContextDisambiguator(RefinementStep):
     """Apply all `l`-context disambiguation in one document-level pass."""
 
-    def __init__(self) -> None:
-        self._nlp = create_ugaritic_nlp()
+    def __init__(self, dulat_db: Path | None = None) -> None:
+        config = {}
+        if dulat_db is not None:
+            config = {
+                "ugaritic_l_context_resolver": {
+                    "dulat_db_path": str(dulat_db),
+                }
+            }
+        self._nlp = create_ugaritic_nlp(
+            "ugaritic_l_context_resolver",
+            component_configs=config,
+        )
 
     @property
     def name(self) -> str:

@@ -15,12 +15,16 @@ from spacy_ugaritic.components.offering_context import make_offering_context_res
 from spacy_ugaritic.extensions import ensure_extensions
 
 
-def create_ugaritic_nlp(*component_names: str) -> Language:
+def create_ugaritic_nlp(
+    *component_names: str,
+    component_configs: dict[str, dict] | None = None,
+) -> Language:
     ensure_extensions()
     nlp = spacy.blank("xx")
     names = component_names or ("ugaritic_l_context_resolver",)
+    configs = component_configs or {}
     for component_name in names:
-        nlp.add_pipe(component_name)
+        nlp.add_pipe(component_name, config=configs.get(component_name, {}))
     return nlp
 
 
