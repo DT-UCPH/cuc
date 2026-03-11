@@ -15,9 +15,26 @@ _NORMALIZE_MAP = str.maketrans(
 
 _LETTER_RE = re.compile(r"[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]")
 
+
 def normalize_surface(text: str) -> str:
     """Normalize surface text for robust comparisons."""
     return (text or "").translate(_NORMALIZE_MAP)
+
+
+def analysis_matches_surface(surface: str, analysis: str) -> bool:
+    """Return whether an analysis is compatible with one written surface.
+
+    Besides exact reconstruction, this also accepts verbal plural ``:w`` as an
+    implicit ending. In Ugaritic that plural marker is often not written, even
+    though the project encoding represents it explicitly.
+    """
+    surface_norm = normalize_surface(surface)
+    reconstructed_norm = normalize_surface(reconstruct_surface_from_analysis(analysis))
+    if reconstructed_norm == surface_norm:
+        return True
+    if ":w" not in (analysis or ""):
+        return False
+    return reconstructed_norm == f"{surface_norm}w"
 
 
 def reconstruct_surface_from_analysis(analysis: str) -> str:

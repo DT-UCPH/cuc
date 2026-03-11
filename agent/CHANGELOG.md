@@ -1,5 +1,23 @@
 ## 2026-03-11
 
+- Fixed verbal surface matching so implicit plural `:w` is no longer deleted just because the written Ugaritic surface omits the final plural vowel marker.
+- Added `analysis_matches_surface()` in `pipeline/steps/analysis_utils.py` and switched verbal candidate generation and related verbal normalization steps to use it in:
+  - `morph_features/paradigm_matcher.py`
+  - `pipeline/steps/verb_form_encoding_split.py`
+  - `pipeline/steps/verb_pronominal_suffix_tail.py`
+  - `pipeline/steps/weak_verb.py`
+- This restores systematically missing `3 m. pl.` candidates such as:
+  - `tˤn -> !t!ˤn(y[:w`
+  - `tṯbr -> !t!(]n]ṯbr[:w`
+  - `šn -> šn(w[:w`
+- Added regressions in:
+  - `tests/test_analysis_utils.py`
+  - `tests/test_paradigm_matcher.py`
+  - `tests/test_verbal_feature_completion.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_analysis_utils tests.test_paradigm_matcher tests.test_verbal_feature_completion tests.test_verb_form_encoding_split`
+  - focused rerun for `KTU 1.4.tsv` and `KTU 1.40.tsv`
+
 - Fixed exact-reference ambiguity collapse in `pipeline/steps/attestation_reference_disambiguator.py` so it now keeps all rows for the single attested DULAT head token, instead of requiring exactly one matching row index.
 - This fixes cases like `ym` in `KTU 1.14 III:2`, where two valid `ym (I)` case rows and one unattested `ym (II)` row previously survived together because the disambiguator treated the two attested `ym (I)` rows as a conflict.
 - Added regression coverage in:

@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from functools import lru_cache
 
 from linter import morphology as ug_morphology
-from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
+from pipeline.steps.analysis_utils import analysis_matches_surface
 
 
 @dataclass(frozen=True)
@@ -128,9 +128,7 @@ def generate_verbal_candidates(
         ):
             if not analysis:
                 continue
-            if normalize_surface(reconstruct_surface_from_analysis(analysis)) != normalize_surface(
-                surface
-            ):
+            if not analysis_matches_surface(surface, analysis):
                 continue
             person, gender, number = features
             candidates.append(

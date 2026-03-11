@@ -11,7 +11,7 @@ surface entirely, the analysis should encode it as reconstructed, e.g.
 
 import re
 
-from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
+from pipeline.steps.analysis_utils import analysis_matches_surface
 from pipeline.steps.base import RefinementStep, TabletRow
 
 _PREFORMATIVES = {"t", "y", "a", "n", "i", "u"}
@@ -31,9 +31,7 @@ def _format_preformative_marker(letter: str) -> str:
 
 
 def _surface_matches(surface: str, analysis: str) -> bool:
-    return normalize_surface(reconstruct_surface_from_analysis(analysis)) == normalize_surface(
-        surface
-    )
+    return analysis_matches_surface(surface, analysis)
 
 
 class WeakVerbFixer(RefinementStep):

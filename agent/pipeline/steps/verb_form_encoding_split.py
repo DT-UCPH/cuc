@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import re
 
-from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
+from pipeline.steps.analysis_utils import analysis_matches_surface
 from pipeline.steps.base import RefinementStep, TabletRow
 
 _VB_POS_HEAD_RE = re.compile(r"^\s*vb\.?\b", flags=re.IGNORECASE)
@@ -91,15 +91,11 @@ def _promote_leading_reconstructed_letter(text: str) -> str:
 
 
 def _surface_matches_analysis(surface: str, analysis: str) -> bool:
-    return normalize_surface(reconstruct_surface_from_analysis(analysis)) == normalize_surface(
-        surface
-    )
+    return analysis_matches_surface(surface, analysis)
 
 
 def _target_matches_analysis(target: str, analysis: str) -> bool:
-    return normalize_surface(reconstruct_surface_from_analysis(analysis)) == normalize_surface(
-        target
-    )
+    return analysis_matches_surface(target, analysis)
 
 
 def _extract_homonym_marker(text: str) -> str:

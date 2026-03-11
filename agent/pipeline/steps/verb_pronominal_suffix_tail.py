@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 from typing import Optional
 
-from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
+from pipeline.steps.analysis_utils import analysis_matches_surface
 from pipeline.steps.base import RefinementStep, TabletRow
 from pipeline.steps.verb_form_morph_pos import VerbFormMorphIndex
 
@@ -133,8 +133,6 @@ class VerbPronominalSuffixTailFixer(RefinementStep):
         suffix, marker = parsed
         candidate_tail = f"{marker}+{suffix}" if marker else f"+{suffix}"
         candidate = f"{head}[{candidate_tail}"
-        if normalize_surface(reconstruct_surface_from_analysis(candidate)) != normalize_surface(
-            surface
-        ):
+        if not analysis_matches_surface(surface, candidate):
             return value
         return candidate
