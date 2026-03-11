@@ -1,5 +1,14 @@
 ## 2026-03-11
 
+- Fixed exact-reference ambiguity collapse in `pipeline/steps/attestation_reference_disambiguator.py` so it now keeps all rows for the single attested DULAT head token, instead of requiring exactly one matching row index.
+- This fixes cases like `ym` in `KTU 1.14 III:2`, where two valid `ym (I)` case rows and one unattested `ym (II)` row previously survived together because the disambiguator treated the two attested `ym (I)` rows as a conflict.
+- Added regression coverage in:
+  - `tests/test_attestation_reference_disambiguator.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_attestation_reference_disambiguator tests.test_tablet_parsing_pipeline`
+  - `uv run ruff check agent/pipeline/steps/attestation_reference_disambiguator.py agent/tests/test_attestation_reference_disambiguator.py`
+  - targeted rerun for `KTU 1.14.tsv`
+
 - Added exact-reference DULAT verb sense lookup in:
   - `pipeline/dulat_attestation_translation_index.py`
   - `scripts/refine_results_mentions.py`

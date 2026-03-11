@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from pipeline.config.l_negation_exception_refs import extract_separator_ref
-from pipeline.dulat_attestation_index import DulatAttestationIndex
+from pipeline.dulat_attestation_index import DulatAttestationIndex, parse_dulat_head_token
 from pipeline.steps.base import RefinementStep, StepResult, TabletRow, parse_tsv_line
 
 
@@ -63,16 +63,20 @@ class AttestationReferenceDisambiguator(RefinementStep):
             if not group.section_ref:
                 continue
 
-            matching_indexes = [
-                row_index
-                for row_index, row in zip(group.indexes, group.rows)
-                if self._index.has_reference_for_variant_token(row.dulat, group.section_ref)
-            ]
-            if len(matching_indexes) != 1:
+            matching_indexes_by_head: dict[tuple[str, str], list[int]] = {}
+            for row_index, row in zip(group.indexes, group.rows):
+                if not self._index.has_reference_for_variant_token(row.dulat, group.section_ref):
+                    continue
+                head_key = parse_dulat_head_token(row.dulat)
+                if not head_key[0]:
+                    continue
+                matching_indexes_by_head.setdefault(head_key, []).append(row_index)
+
+            if len(matching_indexes_by_head) != 1:
                 continue
-            keep_index = matching_indexes[0]
+            keep_indexes = next(iter(matching_indexes_by_head.values()))
             remove_indexes.update(
-                row_index for row_index in group.indexes if row_index != keep_index
+                row_index for row_index in group.indexes if row_index not in keep_indexes
             )
 
         if not remove_indexes:

@@ -62,6 +62,44 @@ class AttestationReferenceDisambiguatorTest(unittest.TestCase):
             result = fixer.refine_file(path)
             self.assertEqual(result.rows_changed, 0)
 
+    def test_keeps_multiple_rows_for_single_matching_dulat_head(self) -> None:
+        index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={
+                ("ym", "I"): {"1.14 III:2"},
+            },
+        )
+        fixer = AttestationReferenceDisambiguator(index=index)
+        content = (
+            "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+            "# KTU 1.14 III:2\t\t\t\t\t\t\n"
+            "142023\tym\tym(I)/\tym (I)\tn. m. sg. cstr. nom.\tday\t\n"
+            "142023\tym\tym(I)/\tym (I)\tn. m. sg. abs. nom.\tday\t\n"
+            "142023\tym\tym(II)/\tym (II)\tn. m. sg. abs. nom.\tsea\t\n"
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.14.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = fixer.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 1)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(len(lines), 4)
+            self.assertIn(
+                "142023\tym\tym(I)/\tym (I)\tn. m. sg. cstr. nom.\tday\t",
+                lines,
+            )
+            self.assertIn(
+                "142023\tym\tym(I)/\tym (I)\tn. m. sg. abs. nom.\tday\t",
+                lines,
+            )
+            self.assertNotIn(
+                "142023\tym\tym(II)/\tym (II)\tn. m. sg. abs. nom.\tsea\t",
+                lines,
+            )
+
 
 if __name__ == "__main__":
     unittest.main()
