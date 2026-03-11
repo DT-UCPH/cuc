@@ -31,6 +31,14 @@ class DulatFeatureReaderFormsTest(unittest.TestCase):
         features = reader.read_surface_features("yqbh", "/q-b/")
         self.assertEqual(features.forms, ("suffc.",))
 
+    def test_prefixed_form_with_bare_suffix_note_stays_prefixed(self) -> None:
+        reader = DulatFeatureReader(
+            db_path=Path("missing.sqlite"),
+            gate=_Gate({("/k-n/", "yknnh"): {"L, prefc., suff."}}),
+        )
+        features = reader.read_surface_features("yknnh", "/k-n/")
+        self.assertEqual(features.forms, ("prefc.",))
+
 
 if __name__ == "__main__":
     unittest.main()

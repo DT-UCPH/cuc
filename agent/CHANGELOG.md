@@ -1,5 +1,18 @@
 ## 2026-03-11
 
+- Fixed rare two-radical `/k-n/` L-stem prefixed forms with bound pronoun suffixes so `yknnh` no longer overgenerates a false `vb L suffc.` row and now encodes consistently as `!y!knn[:l+h`.
+- Tightened verb form-label extraction in `morph_features/dulat_feature_reader.py` and `pipeline/steps/verb_form_morph_pos.py`: bare DULAT `suff.` no longer creates a second `suffc.` form class when the same exact form is already labeled `prefc.`, `impv.`, `inf.`, or `ptcpl.`.
+- Added `pipeline/steps/verb_pronominal_suffix_tail.py`, a late verb-only normalizer that rewrites raw suffix-pronoun tails like `[h:l` and `[k:d` to canonical `[:l+h` and `[:d+k` when exact DULAT verb-form morphology marks the surface as a non-suffix-conjugation form with suffix pronoun.
+- Added regressions in:
+  - `tests/test_dulat_feature_reader_forms.py`
+  - `tests/test_verb_form_morph_pos.py`
+  - `tests/test_verb_pronominal_suffix_tail.py`
+  - `tests/test_tablet_parsing_pipeline.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_dulat_feature_reader_forms tests.test_verb_form_morph_pos tests.test_verb_pronominal_suffix_tail tests.test_tablet_parsing_pipeline`
+  - `uv run ruff check morph_features/dulat_feature_reader.py pipeline/steps/verb_form_morph_pos.py pipeline/steps/verb_pronominal_suffix_tail.py pipeline/tablet_parsing.py tests/test_dulat_feature_reader_forms.py tests/test_verb_form_morph_pos.py tests/test_verb_pronominal_suffix_tail.py tests/test_tablet_parsing_pipeline.py`
+  - targeted rerun for `KTU 1.3.tsv` and `KTU 1.4.tsv`
+
 - Fixed `/š-l-m/` stem gloss propagation so mixed verb rows no longer duplicate the G-stem gloss onto D-stem variants.
 - Added DULAT-backed verb stem gloss lookup in `pipeline/steps/verb_mixed_stem_split.py` and wired `TabletParsingPipeline` to pass `dulat_db` into that step.
 - The splitter now keeps the existing gloss when it already fits the chosen stem, but replaces it with the stem-specific DULAT gloss when the row was previously sharing one gloss across different stems.

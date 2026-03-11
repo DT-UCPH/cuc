@@ -65,6 +65,7 @@ from pipeline.steps.verb_l_stem_gemination import VerbLStemGeminationFixer
 from pipeline.steps.verb_mixed_stem_split import VerbMixedStemSplitFixer
 from pipeline.steps.verb_n_stem_assimilation import VerbNStemAssimilationFixer
 from pipeline.steps.verb_pos_stem import VerbPosStemFixer
+from pipeline.steps.verb_pronominal_suffix_tail import VerbPronominalSuffixTailFixer
 from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
 from pipeline.steps.verbal_feature_completion import VerbalFeatureCompletionFixer
 from pipeline.steps.weak_final_sc import WeakFinalSuffixConjugationFixer
@@ -170,6 +171,7 @@ class TabletParsingPipeline:
             DulatEncliticMFixer(dulat_db=self.config.dulat_db, gate=self.morph_gate),
             VerbLStemGeminationFixer(),
             VerbStemSuffixMarkerFixer(),
+            VerbPronominalSuffixTailFixer(dulat_db=self.config.dulat_db),
             VerbNStemAssimilationFixer(),
             PostVerbVariantRowUnwrapper(),
             PostVerbUnwrappedDuplicatePruner(),

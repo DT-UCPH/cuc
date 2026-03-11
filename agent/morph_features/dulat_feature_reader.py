@@ -134,9 +134,19 @@ class DulatFeatureReader:
             has_prefc = _FORM_PREFC_RE.search(text) is not None
             has_suffc = _FORM_SUFFC_RE.search(text) is not None
             has_bare_suff = _FORM_SUFF_SHORT_RE.search(text) is not None
+            has_other_form_label = (
+                has_prefc
+                or _FORM_IMPV_RE.search(text) is not None
+                or _FORM_INF_RE.search(text) is not None
+                or _FORM_PTC_RE.search(text) is not None
+            )
             if has_prefc:
                 labels.append("prefc.")
-            if has_suffc or (has_bare_suff and not _FORM_WITH_SUFFIX_RE.search(text)):
+            if has_suffc or (
+                has_bare_suff
+                and not _FORM_WITH_SUFFIX_RE.search(text)
+                and not has_other_form_label
+            ):
                 labels.append("suffc.")
             if _FORM_IMPV_RE.search(text):
                 labels.append("impv.")

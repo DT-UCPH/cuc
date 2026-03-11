@@ -169,17 +169,26 @@ def _extract_stems_from_morphology(morphology: str) -> set[str]:
 def _extract_form_labels(morphology: str) -> list[str]:
     text = (morphology or "").lower()
     labels: list[str] = []
-    if _FORM_PREFC_RE.search(text):
+    has_prefc = _FORM_PREFC_RE.search(text) is not None
+    has_impv = _FORM_IMPV_RE.search(text) is not None
+    has_inf = _FORM_INF_RE.search(text) is not None
+    has_ptc = _FORM_PTC_RE.search(text) is not None
+    has_other_form_label = has_prefc or has_impv or has_inf or has_ptc
+    if has_prefc:
         labels.append("prefc.")
     has_suffc = _FORM_SUFFC_RE.search(text) is not None
     has_bare_suff = _FORM_SUFF_SHORT_RE.search(text) is not None
-    if has_suffc or (has_bare_suff and not _FORM_WITH_SUFFIX_RE.search(text)):
+    if has_suffc or (
+        has_bare_suff
+        and not _FORM_WITH_SUFFIX_RE.search(text)
+        and not has_other_form_label
+    ):
         labels.append("suffc.")
-    if _FORM_IMPV_RE.search(text):
+    if has_impv:
         labels.append("impv.")
-    if _FORM_INF_RE.search(text):
+    if has_inf:
         labels.append("inf.")
-    if _FORM_PTC_RE.search(text):
+    if has_ptc:
         has_act = _FORM_ACT_RE.search(text) is not None
         has_pass = _FORM_PASS_RE.search(text) is not None
         if has_act:
