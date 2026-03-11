@@ -39,6 +39,12 @@ class DulatAttestationTranslationIndex:
     translations_by_key_ref: Dict[Tuple[str, str, str], tuple[str, ...]] = field(
         default_factory=dict
     )
+    sense_definitions_by_entry_ref: Dict[Tuple[int, str], tuple[str, ...]] = field(
+        default_factory=dict
+    )
+    sense_definitions_by_entry_ref_stem: Dict[Tuple[int, str, str], tuple[str, ...]] = field(
+        default_factory=dict
+    )
 
     @classmethod
     def empty(cls) -> "DulatAttestationTranslationIndex":
@@ -50,9 +56,15 @@ class DulatAttestationTranslationIndex:
             return cls.empty()
 
         translations_by_key_ref: Dict[Tuple[str, str, str], list[str]] = {}
+        sense_definitions_by_entry_ref: Dict[Tuple[int, str], list[str]] = {}
+        sense_definitions_by_entry_ref_stem: Dict[Tuple[int, str, str], list[str]] = {}
         conn = sqlite3.connect(dulat_db)
         try:
             cur = conn.cursor()
+            cur.execute("PRAGMA table_info(attestations)")
+            attestation_columns = {row[1] for row in cur.fetchall()}
+            has_sense_definition = "sense_definition" in attestation_columns
+            has_stem_name = "stem_name" in attestation_columns
             cur.execute(
                 """
                 SELECT
@@ -78,6 +90,42 @@ class DulatAttestationTranslationIndex:
                     bucket = translations_by_key_ref.setdefault(key, [])
                     if translation not in bucket:
                         bucket.append(translation)
+
+            if has_sense_definition:
+                stem_expr = "a.stem_name" if has_stem_name else "''"
+                cur.execute(
+                    f"""
+                    SELECT
+                      a.entry_id,
+                      a.sense_definition,
+                      a.citation,
+                      COALESCE({stem_expr}, '')
+                    FROM attestations a
+                    WHERE a.sense_definition IS NOT NULL
+                      AND TRIM(a.sense_definition) != ''
+                    """
+                )
+                for entry_id_raw, definition_raw, citation_raw, stem_name_raw in cur.fetchall():
+                    try:
+                        entry_id = int(entry_id_raw)
+                    except (TypeError, ValueError):
+                        continue
+                    definition = (definition_raw or "").strip()
+                    if not definition:
+                        continue
+                    stem_name = _normalize_stem_name(stem_name_raw or "")
+                    for ref_key in _reference_keys(citation_raw or ""):
+                        ref_bucket = sense_definitions_by_entry_ref.setdefault(
+                            (entry_id, ref_key), []
+                        )
+                        if definition not in ref_bucket:
+                            ref_bucket.append(definition)
+                        if stem_name:
+                            stem_bucket = sense_definitions_by_entry_ref_stem.setdefault(
+                                (entry_id, ref_key, stem_name), []
+                            )
+                            if definition not in stem_bucket:
+                                stem_bucket.append(definition)
         except sqlite3.Error:
             return cls.empty()
         finally:
@@ -86,7 +134,13 @@ class DulatAttestationTranslationIndex:
         return cls(
             translations_by_key_ref={
                 key: tuple(values) for key, values in translations_by_key_ref.items()
-            }
+            },
+            sense_definitions_by_entry_ref={
+                key: tuple(values) for key, values in sense_definitions_by_entry_ref.items()
+            },
+            sense_definitions_by_entry_ref_stem={
+                key: tuple(values) for key, values in sense_definitions_by_entry_ref_stem.items()
+            },
         )
 
     def translations_for_variant_token(
@@ -104,3 +158,52 @@ class DulatAttestationTranslationIndex:
                 if value not in translations:
                     translations.append(value)
         return tuple(translations)
+
+    def sense_definitions_for_entry(
+        self,
+        entry_id: int,
+        section_ref: str,
+        stem_name: str = "",
+    ) -> tuple[str, ...]:
+        ref_keys = _reference_keys(section_ref)
+        if not ref_keys:
+            return ()
+        out: list[str] = []
+        normalized_stem = _normalize_stem_name(stem_name)
+        if normalized_stem:
+            for stem_key in _stem_lookup_keys(normalized_stem):
+                for ref_key in ref_keys:
+                    values = self.sense_definitions_by_entry_ref_stem.get(
+                        (int(entry_id), ref_key, stem_key), ()
+                    )
+                    for value in values:
+                        if value not in out:
+                            out.append(value)
+            if out:
+                return tuple(out)
+        for ref_key in ref_keys:
+            values = self.sense_definitions_by_entry_ref.get((int(entry_id), ref_key), ())
+            for value in values:
+                if value not in out:
+                    out.append(value)
+        return tuple(out)
+
+
+def _normalize_stem_name(stem_name: str) -> str:
+    return (stem_name or "").strip().rstrip(".")
+
+
+def _stem_lookup_keys(stem_name: str) -> tuple[str, ...]:
+    normalized = _normalize_stem_name(stem_name)
+    if not normalized:
+        return ()
+    keys = [normalized]
+    if normalized == "Dpass":
+        keys.append("D")
+    elif normalized == "Gpass":
+        keys.append("G")
+    elif normalized in {"Dt", "tD"}:
+        keys.append("D")
+    elif normalized in {"Gt", "tG"}:
+        keys.append("G")
+    return tuple(dict.fromkeys(keys))

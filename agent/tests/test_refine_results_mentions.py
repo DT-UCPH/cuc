@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 
 from pipeline.dulat_attestation_index import DulatAttestationIndex, normalize_reference_label
+from pipeline.dulat_attestation_translation_index import DulatAttestationTranslationIndex
 from scripts.refine_results_mentions import (
     Entry,
     Variant,
@@ -45,6 +46,11 @@ class RefineResultsMentionsTest(unittest.TestCase):
         cur.execute(
             "CREATE TABLE senses ("
             "id INTEGER PRIMARY KEY, entry_id INTEGER, stem_id INTEGER, definition TEXT)"
+        )
+        cur.execute(
+            "CREATE TABLE attestations ("
+            "entry_id INTEGER, stem_name TEXT, sense_definition TEXT, "
+            "translation TEXT, citation TEXT)"
         )
         cur.execute("CREATE TABLE translations (entry_id INTEGER, text TEXT)")
         cur.execute("CREATE TABLE forms (text TEXT, entry_id INTEGER, morphology TEXT)")
@@ -331,6 +337,68 @@ class RefineResultsMentionsTest(unittest.TestCase):
                 multi_slot=False,
             ),
             "to re-establish > to pay",
+        )
+
+    def test_gloss_for_entry_prefers_reference_specific_sense_definition(self) -> None:
+        entry = Entry(
+            entry_id=4039,
+            lemma="/š-l-m/",
+            hom="",
+            pos="vb",
+            gloss="to be well, do well, be in peace",
+            wiki_tr="",
+            stem_glosses={
+                "G": "to be well, do well, be in peace",
+                "D": "to re-establish > to pay",
+            },
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref_stem={
+                (4039, normalize_reference_label("CAT 2.11:9"), "D"): (
+                    "to restore / preserve health",
+                ),
+            }
+        )
+        self.assertEqual(
+            gloss_for_entry(
+                entry,
+                analysis="!t!šlm[:d+k",
+                section_ref="CAT 2.11:9",
+                translation_index=translation_index,
+            ),
+            "to restore / preserve health",
+        )
+
+    def test_render_variant_uses_reference_specific_sense_definition(self) -> None:
+        entry = Entry(
+            entry_id=4039,
+            lemma="/š-l-m/",
+            hom="",
+            pos="vb",
+            gloss="to be well, do well, be in peace",
+            wiki_tr="",
+            stem_glosses={
+                "G": "to be well, do well, be in peace",
+                "D": "to re-establish > to pay",
+            },
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref_stem={
+                (4039, normalize_reference_label("CAT 1.103:54"), "D"): (
+                    "to restore / preserve health",
+                ),
+            }
+        )
+        variant = Variant(entries=(entry,), base_surface="yšlm")
+        self.assertEqual(
+            render_variant(
+                "yšlm",
+                variant,
+                forms_morph={("yšlm", 4039): {"D, prefc."}},
+                section_ref="CAT 1.103:54",
+                translation_index=translation_index,
+            )[3],
+            "to restore / preserve health",
         )
 
     def test_analysis_normalizes_aleph_prefix_preformative_marker(self) -> None:

@@ -31,6 +31,9 @@ from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology  # noqa: E402
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts  # noqa: E402
 from pipeline.dulat_attestation_index import DulatAttestationIndex  # noqa: E402
+from pipeline.dulat_attestation_translation_index import (  # noqa: E402
+    DulatAttestationTranslationIndex,
+)
 
 SEPARATOR_RE = re.compile(
     r"^\s*#\s*(?:-+\s*)?(?:KTU|CAT)\s+(\d+\.\d+)"
@@ -841,7 +844,49 @@ def inferred_stem_from_analysis(analysis: str) -> str:
     return "G"
 
 
-def gloss_for_entry(e: Entry, analysis: str = "", multi_slot: bool = False) -> str:
+def inferred_stem_from_morph_values(morph_values: Sequence[str]) -> str:
+    merged = " | ".join(morph_values or [])
+    if not merged:
+        return ""
+    if "Špass." in merged:
+        return "Špass."
+    if "Dpass." in merged:
+        return "Dpass."
+    if "Gpass." in merged:
+        return "Gpass."
+    if re.search(r"\bŠt\b", merged):
+        return "Št"
+    if re.search(r"\bGt\b", merged):
+        return "Gt"
+    if re.search(r"\bDt\b", merged):
+        return "Dt"
+    if re.search(r"\bLt\b", merged):
+        return "Lt"
+    if re.search(r"\bRt\b", merged):
+        return "Rt"
+    if re.search(r"\bŠ\b", merged):
+        return "Š"
+    if re.search(r"\bD\b", merged):
+        return "D"
+    if re.search(r"\bL\b", merged):
+        return "L"
+    if re.search(r"\bR\b", merged):
+        return "R"
+    if re.search(r"\bN\b", merged):
+        return "N"
+    if re.search(r"\bG\b", merged):
+        return "G"
+    return ""
+
+
+def gloss_for_entry(
+    e: Entry,
+    analysis: str = "",
+    multi_slot: bool = False,
+    section_ref: str = "",
+    translation_index: DulatAttestationTranslationIndex | None = None,
+    stem_name: str = "",
+) -> str:
     if (e.pos or "").strip() == "→":
         return "?"
     pos_up = e.pos or ""
@@ -850,13 +895,21 @@ def gloss_for_entry(e: Entry, analysis: str = "", multi_slot: bool = False) -> s
         base = compact_gloss(e.wiki_tr) or compact_gloss(e.gloss) or entry_label(e)
     else:
         base = ""
-        if is_verb_pos(pos_up) and analysis and e.stem_glosses:
-            stem_name = inferred_stem_from_analysis(analysis)
+        preferred_stem = stem_name or inferred_stem_from_analysis(analysis)
+        if is_verb_pos(pos_up) and section_ref and translation_index is not None:
+            reference_glosses = translation_index.sense_definitions_for_entry(
+                e.entry_id,
+                section_ref,
+                stem_name=preferred_stem,
+            )
+            if reference_glosses:
+                base = compact_gloss(reference_glosses[0])
+        if is_verb_pos(pos_up) and analysis and e.stem_glosses and not base:
             base = compact_gloss(
-                e.stem_glosses.get(stem_name)
+                e.stem_glosses.get(preferred_stem)
                 or (
                     e.stem_glosses.get("D")
-                    if stem_name in {"Dpass.", "Dt", "tD"}
+                    if preferred_stem in {"Dpass.", "Dt", "tD"}
                     else e.stem_glosses.get("G")
                 )
                 or ""
@@ -907,9 +960,7 @@ def load_entries(
             sense_map[entry_id] = compact
 
     stem_gloss_map: Dict[int, Dict[str, str]] = defaultdict(dict)
-    cur.execute(
-        "SELECT name FROM sqlite_master WHERE type='table' AND name='stems' LIMIT 1"
-    )
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='stems' LIMIT 1")
     has_stems = cur.fetchone() is not None
     if has_stems:
         cur.execute(
@@ -1506,7 +1557,11 @@ def build_variants(
 
 
 def render_variant(
-    surface: str, v: Variant, forms_morph: Dict[Tuple[str, int], Set[str]]
+    surface: str,
+    v: Variant,
+    forms_morph: Dict[Tuple[str, int], Set[str]],
+    section_ref: str = "",
+    translation_index: DulatAttestationTranslationIndex | None = None,
 ) -> Tuple[str, str, str, str]:
     entries = list(v.entries)
     if len(entries) == 1:
@@ -1520,7 +1575,15 @@ def render_variant(
         )
         d = entry_label(e)
         p = pos_token(e)
-        g = gloss_for_entry(e, analysis=a, multi_slot=False)
+        stem_name = inferred_stem_from_morph_values(mv) or inferred_stem_from_analysis(a)
+        g = gloss_for_entry(
+            e,
+            analysis=a,
+            multi_slot=False,
+            section_ref=section_ref,
+            translation_index=translation_index,
+            stem_name=stem_name,
+        )
         return a, d, p, g
 
     base, suf = entries[0], entries[1]
@@ -1533,10 +1596,18 @@ def render_variant(
     a = f"{base_analysis}+{suffix_fragment(suf)}"
     d = f"{entry_label(base)},{entry_label(suf)}"
     p = f"{pos_token(base)},{pos_token(suf)}"
-    g = (
-        f"{gloss_for_entry(base, analysis=base_analysis, multi_slot=True)},"
-        f"{gloss_for_entry(suf, multi_slot=True)}"
+    base_stem_name = inferred_stem_from_morph_values(mv) or inferred_stem_from_analysis(
+        base_analysis
     )
+    base_gloss = gloss_for_entry(
+        base,
+        analysis=base_analysis,
+        multi_slot=True,
+        section_ref=section_ref,
+        translation_index=translation_index,
+        stem_name=base_stem_name,
+    )
+    g = f"{base_gloss},{gloss_for_entry(suf, multi_slot=True)}"
     return a, d, p, g
 
 
@@ -1552,6 +1623,7 @@ def refine_file(
     entry_tablets: Dict[int, Set[str]],
     entry_family_count: Dict[int, Dict[str, int]],
     direct_reference_index: DulatAttestationIndex | None = None,
+    translation_index: DulatAttestationTranslationIndex | None = None,
     only_not_found: bool = False,
 ) -> Tuple[int, int]:
     lines = path.read_text(encoding="utf-8").splitlines()
@@ -1631,7 +1703,13 @@ def refine_file(
             pos_tokens: List[str] = []
             gloss_tokens: List[str] = []
             for v in variants:
-                a, d, p, g = render_variant(surface, v, forms_morph=forms_morph)
+                a, d, p, g = render_variant(
+                    surface,
+                    v,
+                    forms_morph=forms_morph,
+                    section_ref=current_ref,
+                    translation_index=translation_index,
+                )
                 analyses.append(a)
                 dulat_tokens.append(d)
                 pos_tokens.append(p)
@@ -1685,6 +1763,7 @@ def main() -> None:
         Path(args.dulat_db), Path(args.udb_db)
     )
     direct_reference_index = DulatAttestationIndex.from_sqlite(Path(args.dulat_db))
+    translation_index = DulatAttestationTranslationIndex.from_sqlite(Path(args.dulat_db))
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -1704,6 +1783,7 @@ def main() -> None:
             entry_tablets,
             entry_family_count,
             direct_reference_index=direct_reference_index,
+            translation_index=translation_index,
             only_not_found=args.only_not_found,
         )
         print(f"{src} -> {dst} | rows={rows} changed={changed}")

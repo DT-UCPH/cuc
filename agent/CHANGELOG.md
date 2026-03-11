@@ -1,5 +1,22 @@
 ## 2026-03-11
 
+- Added exact-reference DULAT verb sense lookup in:
+  - `pipeline/dulat_attestation_translation_index.py`
+  - `scripts/refine_results_mentions.py`
+- The attestation translation index now loads structured `sense_definition` and `stem_name` fields from the DULAT sqlite cache and exposes exact-reference sense lookup by `entry_id`, citation, and stem.
+- `refine_results_mentions.py` now prefers the DULAT attested sense definition for verb glosses when the current tablet reference is mentioned in DULAT, falling back to stem glosses and then the flat entry gloss only when no exact-reference sense is available.
+- This lets verb rows pick the right sense for the cited line, e.g.:
+  - `/š-l-m/` D at `CAT 1.103:54` -> `to re-establish > to pay`
+  - `/š-l-m/` D at `CAT 2.11:9` -> `to restore / preserve health`
+- Added regressions in:
+  - `tests/test_dulat_attestation_translation_index.py`
+  - `tests/test_refine_results_mentions.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_dulat_attestation_translation_index tests.test_refine_results_mentions`
+  - `uv run ruff format agent/pipeline/dulat_attestation_translation_index.py agent/scripts/refine_results_mentions.py agent/tests/test_dulat_attestation_translation_index.py agent/tests/test_refine_results_mentions.py`
+  - `uv run ruff check agent/pipeline/dulat_attestation_translation_index.py agent/scripts/refine_results_mentions.py agent/tests/test_dulat_attestation_translation_index.py agent/tests/test_refine_results_mentions.py`
+  - targeted rerun for `KTU 1.103.tsv`, `KTU 2.11.tsv`, and `KTU 2.38.tsv`
+
 - Fixed rare two-radical `/k-n/` L-stem prefixed forms with bound pronoun suffixes so `yknnh` no longer overgenerates a false `vb L suffc.` row and now encodes consistently as `!y!knn[:l+h`.
 - Tightened verb form-label extraction in `morph_features/dulat_feature_reader.py` and `pipeline/steps/verb_form_morph_pos.py`: bare DULAT `suff.` no longer creates a second `suffc.` form class when the same exact form is already labeled `prefc.`, `impv.`, `inf.`, or `ptcpl.`.
 - Added `pipeline/steps/verb_pronominal_suffix_tail.py`, a late verb-only normalizer that rewrites raw suffix-pronoun tails like `[h:l` and `[k:d` to canonical `[:l+h` and `[:d+k` when exact DULAT verb-form morphology marks the surface as a non-suffix-conjugation form with suffix pronoun.
