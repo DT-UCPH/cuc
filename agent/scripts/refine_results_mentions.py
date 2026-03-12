@@ -1012,7 +1012,7 @@ def load_entries(
             lemma=lm,
             hom=hm,
             pos=pos or "",
-            gloss=sense_map.get(entry_id) or trans_map.get(entry_id, ""),
+            gloss=trans_map.get(entry_id) or sense_map.get(entry_id, ""),
             wiki_tr=wiki_tr or "",
             stem_glosses=stem_gloss_map.get(int(entry_id), {}),
             redirect_targets=redirect_targets,

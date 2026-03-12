@@ -677,6 +677,40 @@ class RefineResultsMentionsTest(unittest.TestCase):
             self.assertIn("yʕšr", forms_map)
             self.assertEqual(entries_by_id[1057].gloss, "to invite")
 
+    def test_load_entries_prefers_translation_over_nonverbal_sense_label(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._init_dulat_schema(db_path)
+            conn = sqlite3.connect(str(db_path))
+            cur = conn.cursor()
+            cur.executemany(
+                _INSERT_ENTRY_SQL,
+                [
+                    (1211, "bn", "I", "n. m.", "", "son", ""),
+                    (4692, "-y", "I", "prep.", "", "my", ""),
+                ],
+            )
+            cur.executemany(
+                "INSERT INTO senses(id, entry_id, definition) VALUES (?, ?, ?)",
+                [
+                    (1, 1211, "Son"),
+                    (2, 4692, "As a genitive, “my”"),
+                ],
+            )
+            cur.executemany(
+                "INSERT INTO translations(entry_id, text) VALUES (?, ?)",
+                [
+                    (1211, "son"),
+                    (4692, "my"),
+                ],
+            )
+            conn.commit()
+            conn.close()
+
+            entries_by_id, _forms_map, _lemma_map, _suffix_map, _forms_morph = load_entries(db_path)
+            self.assertEqual(entries_by_id[1211].gloss, "son")
+            self.assertEqual(entries_by_id[4692].gloss, "my")
+
     def test_fallback_direct_hit_does_not_suppress_suffix_split_variants(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "dulat.sqlite"
