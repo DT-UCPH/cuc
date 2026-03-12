@@ -127,4 +127,7 @@ class SpacyLContextDisambiguatorTest(unittest.TestCase):
 
             self.assertEqual(result.rows_changed, 3)
             lines = path.read_text(encoding="utf-8").splitlines()
-            self.assertEqual(lines[2], "1\tl\tl(II)\tl (II)\tadv.\tno\tkeep me too")
+            self.assertTrue(
+                lines[2].startswith("1\tl\tl(II)\tl (II)\tadv.\tno\tkeep me too")
+            )
+            self.assertIn("DULAT quote", lines[2])

@@ -143,6 +143,49 @@ def _translation_supports_l_homonym(translation: str, homonym: str) -> bool:
     return False
 
 
+def _cue_for_l_translation(translation: str, homonym: str) -> str:
+    words = _translation_words(translation)
+    if homonym == "II":
+        cues = sorted(words & L_NEGATION_TRANSLATION_CUES)
+    elif homonym == "III":
+        cues = sorted(words & L_CERTAINTY_TRANSLATION_CUES)
+    elif homonym == "IV":
+        cues = sorted(words & L_INTERJECTION_TRANSLATION_CUES)
+    else:
+        cues = []
+    return cues[0] if cues else ""
+
+
+def _append_comment(existing: str, note: str) -> str:
+    current = (existing or "").strip()
+    if not current:
+        return note
+    if note in current:
+        return current
+    return f"{current} | {note}"
+
+
+def _annotate_candidates(
+    candidates: tuple[Candidate, ...],
+    *,
+    section_ref: str,
+    cue: str,
+) -> tuple[Candidate, ...]:
+    note = f"DULAT quote {section_ref} (cue: {cue})"
+    out: list[Candidate] = []
+    for candidate in candidates:
+        out.append(
+            Candidate(
+                candidate.analysis,
+                candidate.dulat,
+                candidate.pos,
+                candidate.gloss,
+                _append_comment(candidate.comment, note),
+            )
+        )
+    return tuple(out)
+
+
 class LContextResolver:
     def __init__(self, translation_index: DulatAttestationTranslationIndex | None = None) -> None:
         self._translation_index = translation_index or DulatAttestationTranslationIndex.empty()
@@ -168,10 +211,15 @@ class LContextResolver:
                 continue
             translated = self._resolve_by_attestation_translation(token)
             if translated is not None:
+                homonym, cue = translated
                 self._replace(
                     token,
-                    _keep_single_l(token, translated),
-                    f"translation-{translated.lower()}",
+                    _annotate_candidates(
+                        _keep_single_l(token, homonym),
+                        section_ref=token._.section_ref,
+                        cue=cue,
+                    ),
+                    f"translation-{homonym.lower()}",
                     doc,
                 )
                 continue
@@ -189,8 +237,8 @@ class LContextResolver:
                 self._replace(token, filtered, "prune-l-ii-no-verb", doc)
         return doc
 
-    def _resolve_by_attestation_translation(self, token: Token) -> str | None:
-        matched_homonyms: set[str] = set()
+    def _resolve_by_attestation_translation(self, token: Token) -> tuple[str, str] | None:
+        matched: dict[str, str] = {}
         for candidate in token._.resolved_candidates:
             homonym = _l_candidate_homonym(candidate)
             if homonym not in {"II", "III", "IV"}:
@@ -199,14 +247,16 @@ class LContextResolver:
                 candidate.dulat,
                 token._.section_ref,
             )
-            if any(
-                _translation_supports_l_homonym(translation, homonym)
-                for translation in translations
-            ):
-                matched_homonyms.add(homonym)
-        if len(matched_homonyms) != 1:
+            for translation in translations:
+                if not _translation_supports_l_homonym(translation, homonym):
+                    continue
+                cue = _cue_for_l_translation(translation, homonym)
+                matched.setdefault(homonym, cue or homonym.lower())
+                break
+        if len(matched) != 1:
             return None
-        return next(iter(matched_homonyms))
+        homonym = next(iter(matched))
+        return homonym, matched[homonym]
 
     def _apply_compound_rules(self, token: Token, next_token: Token | None, doc: Doc) -> bool:
         if next_token is None:

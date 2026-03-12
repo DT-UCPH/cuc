@@ -1,5 +1,27 @@
 ## 2026-03-11
 
+- Added a generic late quote-translation tie-breaker in:
+  - `pipeline/quote_translation_step_factory.py`
+  - `pipeline/steps/spacy_quote_translation_context.py`
+  - `spacy_ugaritic/components/quote_translation_context.py`
+- The parser can now use exact-citation DULAT quote translations as a final fallback for any still-ambiguous surface after stronger context and attestation rules have already run.
+- This resolver only fires when:
+  - the same cited line exists in DULAT
+  - the quoted Ugaritic string contains the same surface
+  - exactly one remaining candidate wins uniquely on explicit gloss/translation cue overlap
+- Resolution notes are now written into TSV comments as audit trails like `DULAT quote KTU 1.14 III:10 (cue: day)`.
+- Moved the quote-translation fallback to the very end of the refinement pipeline so comments attach only to final surviving rows instead of being copied onto later-expanded variants.
+- Added regressions in:
+  - `tests/test_spacy_quote_translation_context.py`
+  - `tests/test_spacy_quote_translation_context_step.py`
+  - `tests/test_spacy_l_context.py`
+  - `tests/test_spacy_l_context_step.py`
+  - `tests/test_spacy_k_context.py`
+  - `tests/test_spacy_k_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_dulat_attestation_translation_index tests.test_spacy_l_context tests.test_spacy_l_context_step tests.test_spacy_k_context tests.test_spacy_k_context_step tests.test_spacy_quote_translation_context tests.test_spacy_quote_translation_context_step`
+  - `uv run ruff check agent/pipeline/dulat_attestation_translation_index.py agent/pipeline/tablet_parsing.py agent/spacy_ugaritic/components/k_context.py agent/spacy_ugaritic/components/l_context.py agent/spacy_ugaritic/language.py agent/pipeline/quote_translation_step_factory.py agent/pipeline/steps/spacy_quote_translation_context.py agent/spacy_ugaritic/components/quote_translation_context.py agent/tests/test_dulat_attestation_translation_index.py agent/tests/test_spacy_l_context.py agent/tests/test_spacy_l_context_step.py agent/tests/test_spacy_k_context.py agent/tests/test_spacy_k_context_step.py agent/tests/test_spacy_quote_translation_context.py agent/tests/test_spacy_quote_translation_context_step.py`
+
 - Added citation-level DULAT quote-translation lookup for small-word tie-breaking in:
   - `pipeline/dulat_attestation_translation_index.py`
   - `spacy_ugaritic/components/k_context.py`

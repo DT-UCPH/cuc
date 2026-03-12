@@ -14,6 +14,9 @@ from spacy_ugaritic.components.l_context import make_l_context_resolver  # noqa:
 from spacy_ugaritic.components.lexical_context import make_lexical_context_resolver  # noqa: F401
 from spacy_ugaritic.components.morph_context import make_morph_context_resolver  # noqa: F401
 from spacy_ugaritic.components.offering_context import make_offering_context_resolver  # noqa: F401
+from spacy_ugaritic.components.quote_translation_context import (  # noqa: F401
+    make_quote_translation_resolver,
+)
 from spacy_ugaritic.extensions import ensure_extensions
 
 
@@ -79,3 +82,17 @@ def create_ugaritic_ydk_context_nlp() -> Language:
 
 def create_ugaritic_morph_context_nlp() -> Language:
     return create_ugaritic_nlp("ugaritic_morph_context_resolver")
+
+
+def create_ugaritic_quote_translation_nlp(dulat_db: str | Path | None = None) -> Language:
+    config = {}
+    if dulat_db is not None:
+        config = {
+            "ugaritic_quote_translation_resolver": {
+                "dulat_db_path": str(dulat_db),
+            }
+        }
+    return create_ugaritic_nlp(
+        "ugaritic_quote_translation_resolver",
+        component_configs=config,
+    )

@@ -98,7 +98,14 @@ class SpacyKContextDisambiguatorTest(unittest.TestCase):
 
             self.assertEqual(result.rows_changed, 2)
             lines = path.read_text(encoding="utf-8").splitlines()
-            self.assertIn("1\tk\tk(I)\tk (I)\tprep.\tlike\t", lines)
+            self.assertTrue(
+                any(
+                    line.startswith("1\tk\tk(I)\tk (I)\tprep.\tlike\t")
+                    and "DULAT quote" in line
+                    and "cue: like" in line
+                    for line in lines
+                )
+            )
             self.assertNotIn(
                 "1\tk\tk(III)\tk (III)\tSubordinating or completive functor\twhen\t",
                 lines,

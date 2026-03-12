@@ -130,6 +130,51 @@ def _translation_supports_k_homonym(translation: str, homonym: str) -> bool:
     return False
 
 
+def _cue_for_k_translation(translation: str, homonym: str) -> str:
+    words = _translation_words(translation)
+    if homonym == "I":
+        cues = sorted(words & K_PREPOSITION_TRANSLATION_CUES)
+    elif homonym == "II":
+        cues = sorted(words & K_EMPHATIC_TRANSLATION_CUES)
+    elif homonym == "III":
+        cues = sorted(words & K_SUBORDINATING_TRANSLATION_CUES)
+    elif homonym == "IV":
+        cues = sorted(words & K_ADVERB_TRANSLATION_CUES)
+    else:
+        cues = []
+    return cues[0] if cues else ""
+
+
+def _append_comment(existing: str, note: str) -> str:
+    current = (existing or "").strip()
+    if not current:
+        return note
+    if note in current:
+        return current
+    return f"{current} | {note}"
+
+
+def _annotate_candidates(
+    candidates: tuple[Candidate, ...],
+    *,
+    section_ref: str,
+    cue: str,
+) -> tuple[Candidate, ...]:
+    note = f"DULAT quote {section_ref} (cue: {cue})"
+    out: list[Candidate] = []
+    for candidate in candidates:
+        out.append(
+            Candidate(
+                candidate.analysis,
+                candidate.dulat,
+                candidate.pos,
+                candidate.gloss,
+                _append_comment(candidate.comment, note),
+            )
+        )
+    return tuple(out)
+
+
 class KContextResolver:
     def __init__(self, translation_index: DulatAttestationTranslationIndex | None = None) -> None:
         self._translation_index = translation_index or DulatAttestationTranslationIndex.empty()
@@ -161,45 +206,55 @@ class KContextResolver:
                 continue
             self._replace(
                 token,
-                _keep_single_k(token, translated),
-                f"translation-{translated.lower()}",
+                _annotate_candidates(
+                    _keep_single_k(token, translated[0]),
+                    section_ref=token._.section_ref,
+                    cue=translated[1],
+                ),
+                f"translation-{translated[0].lower()}",
                 doc,
             )
         return doc
 
-    def _resolve_by_citation_translation(self, token: Token) -> str | None:
+    def _resolve_by_citation_translation(self, token: Token) -> tuple[str, str] | None:
         translations = self._translation_index.translations_for_surface_at_reference(
             token.text,
             token._.section_ref,
         )
         if not translations:
             return None
-        matched_homonyms: set[str] = set()
+        matched_homonyms: dict[str, str] = {}
         for homonym in ("I", "II", "III", "IV"):
-            if not any(
-                _translation_supports_k_homonym(translation, homonym)
-                for translation in translations
-            ):
+            matched = False
+            cue = ""
+            for translation in translations:
+                if not _translation_supports_k_homonym(translation, homonym):
+                    continue
+                cue = _cue_for_k_translation(translation, homonym) or homonym.lower()
+                matched = True
+                break
+            if not matched:
                 continue
             if homonym == "I" and any(
                 _is_k_i_candidate(c) for c in token._.resolved_candidates
             ):
-                matched_homonyms.add(homonym)
+                matched_homonyms[homonym] = cue
             if homonym == "II" and any(
                 _is_k_ii_candidate(c) for c in token._.resolved_candidates
             ):
-                matched_homonyms.add(homonym)
+                matched_homonyms[homonym] = cue
             if homonym == "III" and any(
                 _is_k_iii_candidate(c) for c in token._.resolved_candidates
             ):
-                matched_homonyms.add(homonym)
+                matched_homonyms[homonym] = cue
             if homonym == "IV" and any(
                 _is_k_iv_candidate(c) for c in token._.resolved_candidates
             ):
-                matched_homonyms.add(homonym)
+                matched_homonyms[homonym] = cue
         if len(matched_homonyms) != 1:
             return None
-        return next(iter(matched_homonyms))
+        homonym = next(iter(matched_homonyms))
+        return homonym, matched_homonyms[homonym]
 
     def _replace(
         self, token: Token, candidates: tuple[Candidate, ...], rule: str, doc: Doc

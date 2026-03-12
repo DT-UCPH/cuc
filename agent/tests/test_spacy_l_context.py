@@ -157,6 +157,8 @@ class SpacyLContextTest(unittest.TestCase):
         doc = build_doc(nlp, grouped, source_name="KTU 1.14.tsv")
         resolved = nlp(doc)
         self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["l(II)"])
+        self.assertIn("DULAT quote", resolved[0]._.resolved_candidates[0].comment)
+        self.assertIn("cue:", resolved[0]._.resolved_candidates[0].comment)
 
     def test_translation_hint_prefers_l_iii_in_certainty_context(self) -> None:
         db_path = self._build_translation_db(

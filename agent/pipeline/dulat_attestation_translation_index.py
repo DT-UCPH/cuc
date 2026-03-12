@@ -71,6 +71,7 @@ class DulatAttestationTranslationIndex:
             attestation_columns = {row[1] for row in cur.fetchall()}
             has_sense_definition = "sense_definition" in attestation_columns
             has_stem_name = "stem_name" in attestation_columns
+            has_ug = "ug" in attestation_columns
             cur.execute(
                 """
                 SELECT
@@ -103,31 +104,32 @@ class DulatAttestationTranslationIndex:
                         if translation not in surface_bucket:
                             surface_bucket.append(translation)
 
-            cur.execute(
-                """
-                SELECT
-                  a.ug,
-                  a.translation,
-                  a.citation
-                FROM attestations a
-                WHERE a.translation IS NOT NULL
-                  AND TRIM(a.translation) != ''
-                  AND a.ug IS NOT NULL
-                  AND TRIM(a.ug) != ''
-                """
-            )
-            for ug_raw, translation_raw, citation_raw in cur.fetchall():
-                translation = (translation_raw or "").strip()
-                if not translation:
-                    continue
-                surfaces = _quote_surfaces(ug_raw or "")
-                if not surfaces:
-                    continue
-                for ref_key in _reference_keys(citation_raw or ""):
-                    for surface in surfaces:
-                        bucket = translations_by_surface_ref.setdefault((surface, ref_key), [])
-                        if translation not in bucket:
-                            bucket.append(translation)
+            if has_ug:
+                cur.execute(
+                    """
+                    SELECT
+                      a.ug,
+                      a.translation,
+                      a.citation
+                    FROM attestations a
+                    WHERE a.translation IS NOT NULL
+                      AND TRIM(a.translation) != ''
+                      AND a.ug IS NOT NULL
+                      AND TRIM(a.ug) != ''
+                    """
+                )
+                for ug_raw, translation_raw, citation_raw in cur.fetchall():
+                    translation = (translation_raw or "").strip()
+                    if not translation:
+                        continue
+                    surfaces = _quote_surfaces(ug_raw or "")
+                    if not surfaces:
+                        continue
+                    for ref_key in _reference_keys(citation_raw or ""):
+                        for surface in surfaces:
+                            bucket = translations_by_surface_ref.setdefault((surface, ref_key), [])
+                            if translation not in bucket:
+                                bucket.append(translation)
 
             if has_sense_definition:
                 stem_expr = "a.stem_name" if has_stem_name else "''"
