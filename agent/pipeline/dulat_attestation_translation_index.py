@@ -16,6 +16,8 @@ from pipeline.dulat_attestation_index import (
 
 _LETTER_REF_RE = re.compile(r"^(\d+\.\d+)\s+(\d+)$")
 _SINGLE_COLUMN_REF_RE = re.compile(r"^(\d+\.\d+)\s+I:(\d+)$")
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
+_UGARITIC_QUOTE_TOKEN_RE = re.compile(r"[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]+")
 
 
 def _reference_keys(reference: str) -> tuple[str, ...]:
@@ -39,6 +41,9 @@ class DulatAttestationTranslationIndex:
     translations_by_key_ref: Dict[Tuple[str, str, str], tuple[str, ...]] = field(
         default_factory=dict
     )
+    translations_by_surface_ref: Dict[Tuple[str, str], tuple[str, ...]] = field(
+        default_factory=dict
+    )
     sense_definitions_by_entry_ref: Dict[Tuple[int, str], tuple[str, ...]] = field(
         default_factory=dict
     )
@@ -56,6 +61,7 @@ class DulatAttestationTranslationIndex:
             return cls.empty()
 
         translations_by_key_ref: Dict[Tuple[str, str, str], list[str]] = {}
+        translations_by_surface_ref: Dict[Tuple[str, str], list[str]] = {}
         sense_definitions_by_entry_ref: Dict[Tuple[int, str], list[str]] = {}
         sense_definitions_by_entry_ref_stem: Dict[Tuple[int, str, str], list[str]] = {}
         conn = sqlite3.connect(dulat_db)
@@ -90,6 +96,38 @@ class DulatAttestationTranslationIndex:
                     bucket = translations_by_key_ref.setdefault(key, [])
                     if translation not in bucket:
                         bucket.append(translation)
+                    for surface in _quote_surfaces(lemma_raw or ""):
+                        surface_bucket = translations_by_surface_ref.setdefault(
+                            (surface, ref_key), []
+                        )
+                        if translation not in surface_bucket:
+                            surface_bucket.append(translation)
+
+            cur.execute(
+                """
+                SELECT
+                  a.ug,
+                  a.translation,
+                  a.citation
+                FROM attestations a
+                WHERE a.translation IS NOT NULL
+                  AND TRIM(a.translation) != ''
+                  AND a.ug IS NOT NULL
+                  AND TRIM(a.ug) != ''
+                """
+            )
+            for ug_raw, translation_raw, citation_raw in cur.fetchall():
+                translation = (translation_raw or "").strip()
+                if not translation:
+                    continue
+                surfaces = _quote_surfaces(ug_raw or "")
+                if not surfaces:
+                    continue
+                for ref_key in _reference_keys(citation_raw or ""):
+                    for surface in surfaces:
+                        bucket = translations_by_surface_ref.setdefault((surface, ref_key), [])
+                        if translation not in bucket:
+                            bucket.append(translation)
 
             if has_sense_definition:
                 stem_expr = "a.stem_name" if has_stem_name else "''"
@@ -135,6 +173,9 @@ class DulatAttestationTranslationIndex:
             translations_by_key_ref={
                 key: tuple(values) for key, values in translations_by_key_ref.items()
             },
+            translations_by_surface_ref={
+                key: tuple(values) for key, values in translations_by_surface_ref.items()
+            },
             sense_definitions_by_entry_ref={
                 key: tuple(values) for key, values in sense_definitions_by_entry_ref.items()
             },
@@ -154,6 +195,22 @@ class DulatAttestationTranslationIndex:
         translations: list[str] = []
         for ref_key in _reference_keys(section_ref):
             values = self.translations_by_key_ref.get((lemma, homonym, ref_key), ())
+            for value in values:
+                if value not in translations:
+                    translations.append(value)
+        return tuple(translations)
+
+    def translations_for_surface_at_reference(
+        self,
+        surface: str,
+        section_ref: str,
+    ) -> tuple[str, ...]:
+        normalized_surface = normalize_lemma(surface or "")
+        if not normalized_surface:
+            return ()
+        translations: list[str] = []
+        for ref_key in _reference_keys(section_ref):
+            values = self.translations_by_surface_ref.get((normalized_surface, ref_key), ())
             for value in values:
                 if value not in translations:
                     translations.append(value)
@@ -207,3 +264,12 @@ def _stem_lookup_keys(stem_name: str) -> tuple[str, ...]:
     elif normalized in {"Gt", "tG"}:
         keys.append("G")
     return tuple(dict.fromkeys(keys))
+
+
+def _quote_surfaces(text: str) -> tuple[str, ...]:
+    stripped = _HTML_TAG_RE.sub(" ", text or "")
+    tokens = [
+        normalize_lemma(match.group(0))
+        for match in _UGARITIC_QUOTE_TOKEN_RE.finditer(stripped)
+    ]
+    return tuple(dict.fromkeys(token for token in tokens if token))

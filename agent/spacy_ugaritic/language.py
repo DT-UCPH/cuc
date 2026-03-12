@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from pathlib import Path
+
 import spacy
 from spacy.language import Language
 
@@ -32,8 +34,18 @@ def create_ugaritic_l_context_nlp() -> Language:
     return create_ugaritic_nlp("ugaritic_l_context_resolver")
 
 
-def create_ugaritic_k_context_nlp() -> Language:
-    return create_ugaritic_nlp("ugaritic_k_context_resolver")
+def create_ugaritic_k_context_nlp(dulat_db: str | Path | None = None) -> Language:
+    config = {}
+    if dulat_db is not None:
+        config = {
+            "ugaritic_k_context_resolver": {
+                "dulat_db_path": str(dulat_db),
+            }
+        }
+    return create_ugaritic_nlp(
+        "ugaritic_k_context_resolver",
+        component_configs=config,
+    )
 
 
 def create_ugaritic_formula_context_nlp() -> Language:

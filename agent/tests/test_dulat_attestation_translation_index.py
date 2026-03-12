@@ -29,6 +29,7 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
               entry_id INTEGER,
               stem_name TEXT,
               sense_definition TEXT,
+              ug TEXT,
               translation TEXT,
               citation TEXT
             )
@@ -39,20 +40,22 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
             [
                 (4039, "/š-l-m/", ""),
                 (5001, "l", "III"),
+                (5002, "k", "I"),
             ],
         )
         cur.executemany(
             (
                 "INSERT INTO attestations("
-                "entry_id, stem_name, sense_definition, translation, citation"
+                "entry_id, stem_name, sense_definition, ug, translation, citation"
                 ") "
-                "VALUES (?, ?, ?, ?, ?)"
+                "VALUES (?, ?, ?, ?, ?, ?)"
             ),
             [
                 (
                     4039,
                     "D",
                     "to restore / preserve health",
+                    "tšlmk",
                     "may the gods protect you, keep you healthy",
                     "CAT 2.11:9",
                 ),
@@ -60,6 +63,7 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
                     4039,
                     "G",
                     "to be well, do well, be in peace",
+                    "šlm",
                     "may my mother be well",
                     "CAT 2.13:7",
                 ),
@@ -67,8 +71,17 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
                     5001,
                     "",
                     "",
+                    "l",
                     "certainly",
                     "CAT 2.10 5",
+                ),
+                (
+                    5002,
+                    "",
+                    "",
+                    "yd ỉlm p k mtm ʕz mỉd",
+                    "here the power of gods is like death / DN (of) an utter strength",
+                    "CAT 2.10:13",
                 ),
             ],
         )
@@ -84,6 +97,10 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
             self.assertEqual(
                 index.translations_for_variant_token("l (III)", "CAT 2.10:5"),
                 ("certainly",),
+            )
+            self.assertEqual(
+                index.translations_for_surface_at_reference("k", "KTU 2.10:13"),
+                ("here the power of gods is like death / DN (of) an utter strength",),
             )
             self.assertEqual(
                 index.sense_definitions_for_entry(

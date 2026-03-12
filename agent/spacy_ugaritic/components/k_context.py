@@ -1,12 +1,22 @@
 """Rule-based spaCy component for `k`-context disambiguation."""
 
+import re
 from dataclasses import dataclass
 
 from spacy.language import Language
 from spacy.tokens import Doc, Token
 
+from pipeline.config.k_attestation_translation_cues import (
+    K_ADVERB_TRANSLATION_CUES,
+    K_EMPHATIC_TRANSLATION_CUES,
+    K_PREPOSITION_TRANSLATION_CUES,
+    K_SUBORDINATING_TRANSLATION_CUES,
+)
 from pipeline.config.k_functor_bigram_surfaces import K_FUNCTOR_VERB_BIGRAM_SURFACES
+from pipeline.dulat_attestation_translation_index import DulatAttestationTranslationIndex
 from spacy_ugaritic.types import Candidate
+
+_TRANSLATION_WORD_RE = re.compile(r"[A-Za-z']+")
 
 
 @dataclass(frozen=True)
@@ -19,6 +29,18 @@ class ResolutionEvent:
 
 def _is_k_iii_candidate(candidate: Candidate) -> bool:
     return candidate.analysis == "k(III)" and candidate.dulat == "k (III)"
+
+
+def _is_k_i_candidate(candidate: Candidate) -> bool:
+    return candidate.analysis == "k(I)" and candidate.dulat == "k (I)"
+
+
+def _is_k_ii_candidate(candidate: Candidate) -> bool:
+    return candidate.analysis == "k(II)" and candidate.dulat == "k (II)"
+
+
+def _is_k_iv_candidate(candidate: Candidate) -> bool:
+    return candidate.analysis == "k(IV)" and candidate.dulat == "k (IV)"
 
 
 def _first_comment(token: Token) -> str:
@@ -38,6 +60,18 @@ def _canonical_k_iii(comment: str = "") -> Candidate:
     )
 
 
+def _canonical_k_i(comment: str = "") -> Candidate:
+    return Candidate("k(I)", "k (I)", "prep.", "like", comment=comment)
+
+
+def _canonical_k_ii(comment: str = "") -> Candidate:
+    return Candidate("k(II)", "k (II)", "emph. functor", "yes", comment=comment)
+
+
+def _canonical_k_iv(comment: str = "") -> Candidate:
+    return Candidate("k(IV)", "k (IV)", "adv.", "thus", comment=comment)
+
+
 def _keep_single_k_iii(token: Token) -> tuple[Candidate, ...]:
     matches = tuple(
         candidate for candidate in token._.resolved_candidates if _is_k_iii_candidate(candidate)
@@ -45,6 +79,26 @@ def _keep_single_k_iii(token: Token) -> tuple[Candidate, ...]:
     if matches:
         return (matches[0],)
     return (_canonical_k_iii(comment=_first_comment(token)),)
+
+
+def _keep_single_k(token: Token, homonym: str) -> tuple[Candidate, ...]:
+    predicates = {
+        "I": _is_k_i_candidate,
+        "II": _is_k_ii_candidate,
+        "III": _is_k_iii_candidate,
+        "IV": _is_k_iv_candidate,
+    }
+    canonicals = {
+        "I": _canonical_k_i,
+        "II": _canonical_k_ii,
+        "III": _canonical_k_iii,
+        "IV": _canonical_k_iv,
+    }
+    predicate = predicates[homonym]
+    matches = tuple(candidate for candidate in token._.resolved_candidates if predicate(candidate))
+    if matches:
+        return (matches[0],)
+    return (canonicals[homonym](comment=_first_comment(token)),)
 
 
 def _has_class(token: Token | None, label: str) -> bool:
@@ -59,7 +113,27 @@ def _next_token(doc: Doc, index: int) -> Token | None:
     return doc[index + 1]
 
 
+def _translation_words(text: str) -> frozenset[str]:
+    return frozenset(match.group(0).lower() for match in _TRANSLATION_WORD_RE.finditer(text or ""))
+
+
+def _translation_supports_k_homonym(translation: str, homonym: str) -> bool:
+    words = _translation_words(translation)
+    if homonym == "I":
+        return bool(words & K_PREPOSITION_TRANSLATION_CUES)
+    if homonym == "II":
+        return bool(words & K_EMPHATIC_TRANSLATION_CUES)
+    if homonym == "III":
+        return bool(words & K_SUBORDINATING_TRANSLATION_CUES)
+    if homonym == "IV":
+        return bool(words & K_ADVERB_TRANSLATION_CUES)
+    return False
+
+
 class KContextResolver:
+    def __init__(self, translation_index: DulatAttestationTranslationIndex | None = None) -> None:
+        self._translation_index = translation_index or DulatAttestationTranslationIndex.empty()
+
     def __call__(self, doc: Doc) -> Doc:
         doc.user_data.setdefault("k_context_events", [])
         for token in doc:
@@ -69,14 +143,63 @@ class KContextResolver:
             if token.text != "k":
                 continue
             next_token = _next_token(doc, index)
-            if next_token is None:
+            if (
+                next_token is not None
+                and next_token.text in K_FUNCTOR_VERB_BIGRAM_SURFACES
+                and _has_class(next_token, "VERB")
+            ):
+                self._replace(
+                    token,
+                    _keep_single_k_iii(token),
+                    f"force-k-iii-{next_token.text}",
+                    doc,
+                )
                 continue
-            if next_token.text not in K_FUNCTOR_VERB_BIGRAM_SURFACES:
+
+            translated = self._resolve_by_citation_translation(token)
+            if translated is None:
                 continue
-            if not _has_class(next_token, "VERB"):
-                continue
-            self._replace(token, _keep_single_k_iii(token), f"force-k-iii-{next_token.text}", doc)
+            self._replace(
+                token,
+                _keep_single_k(token, translated),
+                f"translation-{translated.lower()}",
+                doc,
+            )
         return doc
+
+    def _resolve_by_citation_translation(self, token: Token) -> str | None:
+        translations = self._translation_index.translations_for_surface_at_reference(
+            token.text,
+            token._.section_ref,
+        )
+        if not translations:
+            return None
+        matched_homonyms: set[str] = set()
+        for homonym in ("I", "II", "III", "IV"):
+            if not any(
+                _translation_supports_k_homonym(translation, homonym)
+                for translation in translations
+            ):
+                continue
+            if homonym == "I" and any(
+                _is_k_i_candidate(c) for c in token._.resolved_candidates
+            ):
+                matched_homonyms.add(homonym)
+            if homonym == "II" and any(
+                _is_k_ii_candidate(c) for c in token._.resolved_candidates
+            ):
+                matched_homonyms.add(homonym)
+            if homonym == "III" and any(
+                _is_k_iii_candidate(c) for c in token._.resolved_candidates
+            ):
+                matched_homonyms.add(homonym)
+            if homonym == "IV" and any(
+                _is_k_iv_candidate(c) for c in token._.resolved_candidates
+            ):
+                matched_homonyms.add(homonym)
+        if len(matched_homonyms) != 1:
+            return None
+        return next(iter(matched_homonyms))
 
     def _replace(
         self, token: Token, candidates: tuple[Candidate, ...], rule: str, doc: Doc
@@ -89,5 +212,9 @@ class KContextResolver:
 
 
 @Language.factory("ugaritic_k_context_resolver")
-def make_k_context_resolver(nlp, name):
+def make_k_context_resolver(nlp, name, dulat_db_path: str = ""):
+    if dulat_db_path:
+        return KContextResolver(
+            translation_index=DulatAttestationTranslationIndex.from_sqlite(dulat_db_path)
+        )
     return KContextResolver()

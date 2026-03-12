@@ -13,8 +13,8 @@ from spacy_ugaritic.rewriter import count_data_rows, render_resolved_lines
 class SpacyKContextDisambiguator(RefinementStep):
     """Apply `k`-context disambiguation in one document-level pass."""
 
-    def __init__(self) -> None:
-        self._nlp = create_ugaritic_k_context_nlp()
+    def __init__(self, dulat_db: Path | None = None) -> None:
+        self._nlp = create_ugaritic_k_context_nlp(dulat_db=dulat_db)
 
     @property
     def name(self) -> str:

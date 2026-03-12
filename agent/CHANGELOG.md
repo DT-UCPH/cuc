@@ -1,5 +1,18 @@
 ## 2026-03-11
 
+- Added citation-level DULAT quote-translation lookup for small-word tie-breaking in:
+  - `pipeline/dulat_attestation_translation_index.py`
+  - `spacy_ugaritic/components/k_context.py`
+- The translation index now also maps cited quote surfaces to their DULAT translations, so rules can use same-line quote evidence even when the current homonym's own article is not cited directly.
+- `k` now uses that quote evidence as a final fallback after existing local context rules, and only collapses when one homonym wins uniquely on explicit translation cues (`like/as`, `if/when/because/since/that`, `yes/truly/already`, `thus/here`).
+- Added regressions in:
+  - `tests/test_dulat_attestation_translation_index.py`
+  - `tests/test_spacy_k_context.py`
+  - `tests/test_spacy_k_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_dulat_attestation_translation_index tests.test_spacy_k_context tests.test_spacy_k_context_step`
+  - `uv run ruff check pipeline/dulat_attestation_translation_index.py pipeline/config/k_attestation_translation_cues.py spacy_ugaritic/components/k_context.py spacy_ugaritic/language.py pipeline/steps/spacy_k_context.py pipeline/k_context_step_factory.py pipeline/tablet_parsing.py tests/test_dulat_attestation_translation_index.py tests/test_spacy_k_context.py tests/test_spacy_k_context_step.py`
+
 - Fixed `suffix_payload_collapse` so gloss cleanup now reliably drops the grammatical suffix gloss tail after DULAT/POS payload collapse, instead of keeping stray values like `in gen`.
 - This corrects widespread rows where split `+m(I)` analyses were showing host glosses polluted by the morpheme gloss, e.g. `mrġṯm -> suckling, in gen` now collapses back to `suckling`.
 - Added regression coverage in:
