@@ -129,6 +129,7 @@ class SpacyBaalContextTest(unittest.TestCase):
             [candidate.analysis for candidate in doc[0]._.resolved_candidates],
             ["bt(II)/"],
         )
+        self.assertIn("DULAT direct ref KTU 1.3 V:3", doc[0]._.resolved_candidates[0].comment)
 
     def test_collapses_thr_il_sequence_to_bull_and_el(self) -> None:
         doc = self._doc_from_lines(
@@ -188,6 +189,10 @@ class SpacyBaalContextTest(unittest.TestCase):
         self.assertEqual(
             [candidate.analysis for candidate in doc[1]._.resolved_candidates],
             ["ˤn(I)/t="],
+        )
+        self.assertIn(
+            "DULAT direct ref KTU 1.3 IV:36",
+            doc[1]._.resolved_candidates[0].comment,
         )
 
 
@@ -277,6 +282,25 @@ class SpacyMlkContextTest(unittest.TestCase):
             [candidate.analysis for candidate in doc[0]._.resolved_candidates],
             ["mlk[/", "mlk(II)/"],
         )
+
+    def test_annotates_directly_attested_mlk_title_variant(self) -> None:
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={("mlk", "I"): {normalize_reference_label("CAT 2.10:13")}},
+        )
+        doc = self._doc_from_lines(
+            "# KTU 2.10:13\t\t\t\t\t\t",
+            "1\tmlk\tmlk[/\t/m-l-k/\tvb G act. ptcpl. m. sg. abs. nom.\tto reign\t",
+            "1\tmlk\tmlk(II)/\tmlk (II)\tn. m. sg. abs. nom.\tkingdom (power and territory)\t",
+            attestation_index=attestation_index,
+            source_name="KTU 2.10.tsv",
+        )
+        self.assertEqual(
+            [candidate.analysis for candidate in doc[0]._.resolved_candidates],
+            ["mlk(I)/"],
+        )
+        self.assertIn("DULAT direct ref KTU 2.10:13", doc[0]._.resolved_candidates[0].comment)
 
 
 if __name__ == "__main__":

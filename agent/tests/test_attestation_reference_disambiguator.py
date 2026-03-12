@@ -34,10 +34,13 @@ class AttestationReferenceDisambiguatorTest(unittest.TestCase):
             path.write_text(content, encoding="utf-8")
 
             result = self.fixer.refine_file(path)
-            self.assertEqual(result.rows_changed, 1)
+            self.assertEqual(result.rows_changed, 2)
             lines = path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(len(lines), 3)
-            self.assertEqual(lines[2], "136937\tal\tal(I)\tảl (I)\tneg. functor\tno\t")
+            self.assertEqual(
+                lines[2],
+                "136937\tal\tal(I)\tảl (I)\tneg. functor\tno\tDULAT direct ref KTU 1.3 I:1",
+            )
 
     def test_keeps_group_when_multiple_variants_match_ref(self) -> None:
         index = DulatAttestationIndex(
@@ -84,15 +87,23 @@ class AttestationReferenceDisambiguatorTest(unittest.TestCase):
 
             result = fixer.refine_file(path)
 
-            self.assertEqual(result.rows_changed, 1)
+            self.assertEqual(result.rows_changed, 3)
             lines = path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(len(lines), 4)
+            expected_cstr = (
+                "142023\tym\tym(I)/\tym (I)\tn. m. sg. cstr. nom.\tday\t"
+                "DULAT direct ref KTU 1.14 III:2"
+            )
+            expected_abs = (
+                "142023\tym\tym(I)/\tym (I)\tn. m. sg. abs. nom.\tday\t"
+                "DULAT direct ref KTU 1.14 III:2"
+            )
             self.assertIn(
-                "142023\tym\tym(I)/\tym (I)\tn. m. sg. cstr. nom.\tday\t",
+                expected_cstr,
                 lines,
             )
             self.assertIn(
-                "142023\tym\tym(I)/\tym (I)\tn. m. sg. abs. nom.\tday\t",
+                expected_abs,
                 lines,
             )
             self.assertNotIn(

@@ -69,6 +69,32 @@ class ResolutionEvent:
     after: tuple[Candidate, ...]
 
 
+def _append_comment(existing: str, note: str) -> str:
+    current = (existing or "").strip()
+    if not current:
+        return note
+    if note in current:
+        return current
+    return f"{current} | {note}"
+
+
+def _annotate_candidates(
+    candidates: tuple[Candidate, ...],
+    *,
+    note: str,
+) -> tuple[Candidate, ...]:
+    return tuple(
+        Candidate(
+            analysis=candidate.analysis,
+            dulat=candidate.dulat,
+            pos=candidate.pos,
+            gloss=candidate.gloss,
+            comment=_append_comment(candidate.comment, note),
+        )
+        for candidate in candidates
+    )
+
+
 def _is_ktu4(doc: Doc) -> bool:
     return (doc._.source_name or "").startswith("KTU 4.")
 
@@ -485,11 +511,14 @@ def _resolve_bt_baal_phrase(
     if not has_house or not has_daughter:
         return candidates
     section_ref = doc[index]._.section_ref
-    if _is_bt_baal_phrase(doc, index) or attestation_index.has_reference_for_variant_token(
-        "bt (II)",
-        section_ref,
-    ):
+    has_direct_house_ref = attestation_index.has_reference_for_variant_token("bt (II)", section_ref)
+    if _is_bt_baal_phrase(doc, index) or has_direct_house_ref:
         filtered = tuple(candidate for candidate in candidates if _is_bt_house(candidate))
+        if has_direct_house_ref:
+            filtered = _annotate_candidates(
+                filtered,
+                note=f"DULAT direct ref {section_ref}",
+            )
         return filtered or candidates
     filtered = tuple(candidate for candidate in candidates if not _is_bt_house(candidate))
     return filtered or candidates
@@ -511,9 +540,17 @@ def _resolve_anat_context(
     section_ref = doc[index]._.section_ref
     if attestation_index.has_reference_for_variant_token(_ANAT_EYE_DULAT, section_ref):
         filtered = tuple(candidate for candidate in candidates if _is_anat_eye(candidate))
+        filtered = _annotate_candidates(
+            filtered,
+            note=f"DULAT direct ref {section_ref}",
+        )
         return filtered or candidates
     if attestation_index.has_reference_for_variant_token(_ANAT_NOW_DULAT, section_ref):
         filtered = tuple(candidate for candidate in candidates if _is_anat_now(candidate))
+        filtered = _annotate_candidates(
+            filtered,
+            note=f"DULAT direct ref {section_ref}",
+        )
         return filtered or candidates
     if not _is_anat_divine_name_context(doc, index):
         return candidates
@@ -582,9 +619,11 @@ def _resolve_mlk_context(
     section_ref = doc[index]._.section_ref
     if attestation_index.has_reference_for_variant_token(_MLK_VERBAL_DULAT, section_ref):
         return candidates
+    has_direct_title_ref = attestation_index.has_reference_for_variant_token(
+        _MLK_TITLE_DULAT, section_ref
+    )
     if not (
-        attestation_index.has_reference_for_variant_token(_MLK_TITLE_DULAT, section_ref)
-        or _is_mlk_title_context(doc, index)
+        has_direct_title_ref or _is_mlk_title_context(doc, index)
     ):
         return candidates
 
@@ -595,6 +634,8 @@ def _resolve_mlk_context(
     if nominal_candidate is None:
         return candidates
     comment = next((candidate.comment for candidate in candidates if candidate.comment), "")
+    if has_direct_title_ref:
+        comment = _append_comment(comment, f"DULAT direct ref {section_ref}")
     replacement = _canonical_mlk_title(comment, nominal_candidate)
     preserved = tuple(
         candidate

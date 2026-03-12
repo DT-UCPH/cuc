@@ -1,5 +1,19 @@
 ## 2026-03-11
 
+- Added direct-reference audit comments for exact DULAT attestation collapses in:
+  - `pipeline/steps/attestation_reference_disambiguator.py`
+  - `spacy_ugaritic/components/lexical_context.py`
+- Rows resolved by a direct DULAT citation now carry comments like `DULAT direct ref KTU 1.14 III:2`.
+- This applies both to the generic exact-reference disambiguator and to direct-attestation lexical-context decisions such as `bt`, `ˤnt`, and `mlk`.
+- Added regressions in:
+  - `tests/test_attestation_reference_disambiguator.py`
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_spacy_lexical_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_attestation_reference_disambiguator tests.test_spacy_lexical_context tests.test_spacy_lexical_context_step`
+  - `uv run ruff check agent/pipeline/steps/attestation_reference_disambiguator.py agent/spacy_ugaritic/components/lexical_context.py agent/tests/test_attestation_reference_disambiguator.py agent/tests/test_spacy_lexical_context.py agent/tests/test_spacy_lexical_context_step.py`
+  - focused rerun for `KTU 1.14.tsv` and `KTU 2.10.tsv`
+
 - Added a generic late quote-translation tie-breaker in:
   - `pipeline/quote_translation_step_factory.py`
   - `pipeline/steps/spacy_quote_translation_context.py`

@@ -180,11 +180,11 @@ class SpacyBaalContextDisambiguatorTest(unittest.TestCase):
 
             result = step.refine_file(path)
 
-            self.assertEqual(result.rows_changed, 1)
+            self.assertEqual(result.rows_changed, 2)
             lines = path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(
                 lines[1],
-                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\t",
+                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\tDULAT direct ref KTU 1.3 V:3",
             )
             self.assertEqual(len([line for line in lines if line.startswith("1\tbt\t")]), 1)
 
@@ -306,6 +306,34 @@ class SpacyMlkContextDisambiguatorTest(unittest.TestCase):
             result = step.refine_file(path)
 
             self.assertEqual(result.rows_changed, 0)
+
+    def test_annotates_directly_attested_mlk_title_variant(self) -> None:
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={("mlk", "I"): {normalize_reference_label("CAT 2.10:13")}},
+        )
+        step = SpacyMlkContextDisambiguator(attestation_index=attestation_index)
+        content = "\n".join(
+            [
+                "# KTU 2.10:13",
+                "1\tmlk\tmlk[/\t/m-l-k/\tvb G act. ptcpl. m. sg. abs. nom.\tto reign\t",
+                "1\tmlk\tmlk(II)/\tmlk (II)\tn. m. sg. abs. nom.\tkingdom (power and territory)\t",
+                "",
+            ]
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 2.test.tsv"
+            path.write_text(content, encoding="utf-8")
+
+            result = step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 2)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(
+                lines[1],
+                "1\tmlk\tmlk(I)/\tmlk (I)\tn. m. sg. abs. nom.\tking\tDULAT direct ref KTU 2.10:13",
+            )
 
 
 if __name__ == "__main__":
