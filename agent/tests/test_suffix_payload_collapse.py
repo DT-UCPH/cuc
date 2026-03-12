@@ -40,6 +40,21 @@ class SuffixPayloadCollapseFixerTest(unittest.TestCase):
         self.assertEqual(result.pos, "vb")
         self.assertEqual(result.gloss, "to give, hand over, grant, bestow")
 
+    def test_collapses_morph_suffix_gloss_tail(self) -> None:
+        row = TabletRow(
+            "2b",
+            "mrġṯm",
+            "mrġṯ/+m(I)",
+            "mrġṯ, -m (I)",
+            "n. m. cstr. nom., morph.",
+            "suckling, in gen",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.dulat, "mrġṯ")
+        self.assertEqual(result.pos, "n. m. cstr. nom.")
+        self.assertEqual(result.gloss, "suckling")
+
     def test_does_not_change_when_dulat_has_no_suffix_payload(self) -> None:
         row = TabletRow("3", "gh", "g/+h", "g", "n. m.", "(loud) voice", "")
         result = self.fixer.refine_row(row)

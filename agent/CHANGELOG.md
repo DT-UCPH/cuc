@@ -1,5 +1,13 @@
 ## 2026-03-11
 
+- Fixed `suffix_payload_collapse` so gloss cleanup now reliably drops the grammatical suffix gloss tail after DULAT/POS payload collapse, instead of keeping stray values like `in gen`.
+- This corrects widespread rows where split `+m(I)` analyses were showing host glosses polluted by the morpheme gloss, e.g. `mrġṯm -> suckling, in gen` now collapses back to `suckling`.
+- Added regression coverage in:
+  - `tests/test_suffix_payload_collapse.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_suffix_payload_collapse`
+  - `uv run ruff check pipeline/steps/suffix_payload_collapse.py tests/test_suffix_payload_collapse.py`
+
 - Fixed verbal surface matching so implicit plural `:w` is no longer deleted just because the written Ugaritic surface omits the final plural vowel marker.
 - Added `analysis_matches_surface()` in `pipeline/steps/analysis_utils.py` and switched verbal candidate generation and related verbal normalization steps to use it in:
   - `morph_features/paradigm_matcher.py`

@@ -67,6 +67,10 @@ def _trim_pos_suffix_payload(pos_variant: str) -> str:
 
 def _trim_gloss_suffix_payload(gloss_variant: str) -> str:
     parts = [part.strip() for part in (gloss_variant or "").split(",")]
+    if len(parts) > 1:
+        # Split variants encode host and suffix gloss as `<host>,<suffix>`.
+        # When cols 4-5 collapse back to the host entry, drop that suffix tail.
+        parts.pop()
     while len(parts) > 1:
         tail = (parts[-1] or "").strip().lower()
         if tail in _GLOSS_TAILS:
