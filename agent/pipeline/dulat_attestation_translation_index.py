@@ -35,6 +35,12 @@ def _reference_keys(reference: str) -> tuple[str, ...]:
 
 
 @dataclass(frozen=True)
+class QuoteTranslationEvidence:
+    article: str
+    translation: str
+
+
+@dataclass(frozen=True)
 class DulatAttestationTranslationIndex:
     """Translations keyed by DULAT lemma/homonym plus reference."""
 
@@ -42,6 +48,12 @@ class DulatAttestationTranslationIndex:
         default_factory=dict
     )
     translations_by_surface_ref: Dict[Tuple[str, str], tuple[str, ...]] = field(
+        default_factory=dict
+    )
+    evidence_by_key_ref: Dict[Tuple[str, str, str], tuple[QuoteTranslationEvidence, ...]] = field(
+        default_factory=dict
+    )
+    evidence_by_surface_ref: Dict[Tuple[str, str], tuple[QuoteTranslationEvidence, ...]] = field(
         default_factory=dict
     )
     sense_definitions_by_entry_ref: Dict[Tuple[int, str], tuple[str, ...]] = field(
@@ -62,6 +74,8 @@ class DulatAttestationTranslationIndex:
 
         translations_by_key_ref: Dict[Tuple[str, str, str], list[str]] = {}
         translations_by_surface_ref: Dict[Tuple[str, str], list[str]] = {}
+        evidence_by_key_ref: Dict[Tuple[str, str, str], list[QuoteTranslationEvidence]] = {}
+        evidence_by_surface_ref: Dict[Tuple[str, str], list[QuoteTranslationEvidence]] = {}
         sense_definitions_by_entry_ref: Dict[Tuple[int, str], list[str]] = {}
         sense_definitions_by_entry_ref_stem: Dict[Tuple[int, str, str], list[str]] = {}
         conn = sqlite3.connect(dulat_db)
@@ -77,6 +91,8 @@ class DulatAttestationTranslationIndex:
                 SELECT
                   e.lemma,
                   COALESCE(e.homonym, ''),
+                  e.lemma,
+                  COALESCE(e.homonym, ''),
                   a.translation,
                   a.citation
                 FROM entries e
@@ -84,7 +100,14 @@ class DulatAttestationTranslationIndex:
                 WHERE a.translation IS NOT NULL AND TRIM(a.translation) != ''
                 """
             )
-            for lemma_raw, hom_raw, translation_raw, citation_raw in cur.fetchall():
+            for (
+                lemma_raw,
+                hom_raw,
+                article_lemma_raw,
+                article_hom_raw,
+                translation_raw,
+                citation_raw,
+            ) in cur.fetchall():
                 lemma = normalize_lemma(lemma_raw or "")
                 if not lemma:
                     continue
@@ -92,36 +115,61 @@ class DulatAttestationTranslationIndex:
                 translation = (translation_raw or "").strip()
                 if not translation:
                     continue
+                evidence = QuoteTranslationEvidence(
+                    article=_entry_label(article_lemma_raw or "", article_hom_raw or ""),
+                    translation=translation,
+                )
                 for ref_key in _reference_keys(citation_raw or ""):
                     key = (lemma, homonym, ref_key)
                     bucket = translations_by_key_ref.setdefault(key, [])
                     if translation not in bucket:
                         bucket.append(translation)
+                    evidence_bucket = evidence_by_key_ref.setdefault(key, [])
+                    if evidence not in evidence_bucket:
+                        evidence_bucket.append(evidence)
                     for surface in _quote_surfaces(lemma_raw or ""):
                         surface_bucket = translations_by_surface_ref.setdefault(
                             (surface, ref_key), []
                         )
                         if translation not in surface_bucket:
                             surface_bucket.append(translation)
+                        surface_evidence_bucket = evidence_by_surface_ref.setdefault(
+                            (surface, ref_key), []
+                        )
+                        if evidence not in surface_evidence_bucket:
+                            surface_evidence_bucket.append(evidence)
 
             if has_ug:
                 cur.execute(
                     """
                     SELECT
+                      e.lemma,
+                      COALESCE(e.homonym, ''),
                       a.ug,
                       a.translation,
                       a.citation
                     FROM attestations a
+                    JOIN entries e ON e.entry_id = a.entry_id
                     WHERE a.translation IS NOT NULL
                       AND TRIM(a.translation) != ''
                       AND a.ug IS NOT NULL
                       AND TRIM(a.ug) != ''
                     """
                 )
-                for ug_raw, translation_raw, citation_raw in cur.fetchall():
+                for (
+                    article_lemma_raw,
+                    article_hom_raw,
+                    ug_raw,
+                    translation_raw,
+                    citation_raw,
+                ) in cur.fetchall():
                     translation = (translation_raw or "").strip()
                     if not translation:
                         continue
+                    evidence = QuoteTranslationEvidence(
+                        article=_entry_label(article_lemma_raw or "", article_hom_raw or ""),
+                        translation=translation,
+                    )
                     surfaces = _quote_surfaces(ug_raw or "")
                     if not surfaces:
                         continue
@@ -130,6 +178,11 @@ class DulatAttestationTranslationIndex:
                             bucket = translations_by_surface_ref.setdefault((surface, ref_key), [])
                             if translation not in bucket:
                                 bucket.append(translation)
+                            evidence_bucket = evidence_by_surface_ref.setdefault(
+                                (surface, ref_key), []
+                            )
+                            if evidence not in evidence_bucket:
+                                evidence_bucket.append(evidence)
 
             if has_sense_definition:
                 stem_expr = "a.stem_name" if has_stem_name else "''"
@@ -178,6 +231,10 @@ class DulatAttestationTranslationIndex:
             translations_by_surface_ref={
                 key: tuple(values) for key, values in translations_by_surface_ref.items()
             },
+            evidence_by_key_ref={key: tuple(values) for key, values in evidence_by_key_ref.items()},
+            evidence_by_surface_ref={
+                key: tuple(values) for key, values in evidence_by_surface_ref.items()
+            },
             sense_definitions_by_entry_ref={
                 key: tuple(values) for key, values in sense_definitions_by_entry_ref.items()
             },
@@ -191,32 +248,52 @@ class DulatAttestationTranslationIndex:
         variant_token: str,
         section_ref: str,
     ) -> tuple[str, ...]:
+        return tuple(
+            evidence.translation
+            for evidence in self.translation_evidence_for_variant_token(variant_token, section_ref)
+        )
+
+    def translation_evidence_for_variant_token(
+        self,
+        variant_token: str,
+        section_ref: str,
+    ) -> tuple[QuoteTranslationEvidence, ...]:
         lemma, homonym = parse_dulat_head_token(variant_token)
         if not lemma:
             return ()
-        translations: list[str] = []
+        evidence_out: list[QuoteTranslationEvidence] = []
         for ref_key in _reference_keys(section_ref):
-            values = self.translations_by_key_ref.get((lemma, homonym, ref_key), ())
+            values = self.evidence_by_key_ref.get((lemma, homonym, ref_key), ())
             for value in values:
-                if value not in translations:
-                    translations.append(value)
-        return tuple(translations)
+                if value not in evidence_out:
+                    evidence_out.append(value)
+        return tuple(evidence_out)
 
     def translations_for_surface_at_reference(
         self,
         surface: str,
         section_ref: str,
     ) -> tuple[str, ...]:
+        return tuple(
+            evidence.translation
+            for evidence in self.translation_evidence_for_surface_at_reference(surface, section_ref)
+        )
+
+    def translation_evidence_for_surface_at_reference(
+        self,
+        surface: str,
+        section_ref: str,
+    ) -> tuple[QuoteTranslationEvidence, ...]:
         normalized_surface = normalize_lemma(surface or "")
         if not normalized_surface:
             return ()
-        translations: list[str] = []
+        evidence_out: list[QuoteTranslationEvidence] = []
         for ref_key in _reference_keys(section_ref):
-            values = self.translations_by_surface_ref.get((normalized_surface, ref_key), ())
+            values = self.evidence_by_surface_ref.get((normalized_surface, ref_key), ())
             for value in values:
-                if value not in translations:
-                    translations.append(value)
-        return tuple(translations)
+                if value not in evidence_out:
+                    evidence_out.append(value)
+        return tuple(evidence_out)
 
     def sense_definitions_for_entry(
         self,
@@ -250,6 +327,16 @@ class DulatAttestationTranslationIndex:
 
 def _normalize_stem_name(stem_name: str) -> str:
     return (stem_name or "").strip().rstrip(".")
+
+
+def _entry_label(lemma_raw: str, homonym_raw: str) -> str:
+    lemma = (lemma_raw or "").strip()
+    homonym = (homonym_raw or "").strip()
+    if not lemma:
+        return ""
+    if homonym:
+        return f"{lemma} ({homonym})"
+    return lemma
 
 
 def _stem_lookup_keys(stem_name: str) -> tuple[str, ...]:

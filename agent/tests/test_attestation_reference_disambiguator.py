@@ -39,7 +39,7 @@ class AttestationReferenceDisambiguatorTest(unittest.TestCase):
             self.assertEqual(len(lines), 3)
             self.assertEqual(
                 lines[2],
-                "136937\tal\tal(I)\tảl (I)\tneg. functor\tno\tDULAT direct ref KTU 1.3 I:1",
+                "136937\tal\tal(I)\tảl (I)\tneg. functor\tno\tDULAT direct ref",
             )
 
     def test_keeps_group_when_multiple_variants_match_ref(self) -> None:
@@ -91,12 +91,10 @@ class AttestationReferenceDisambiguatorTest(unittest.TestCase):
             lines = path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(len(lines), 4)
             expected_cstr = (
-                "142023\tym\tym(I)/\tym (I)\tn. m. sg. cstr. nom.\tday\t"
-                "DULAT direct ref KTU 1.14 III:2"
+                "142023\tym\tym(I)/\tym (I)\tn. m. sg. cstr. nom.\tday\tDULAT direct ref"
             )
             expected_abs = (
-                "142023\tym\tym(I)/\tym (I)\tn. m. sg. abs. nom.\tday\t"
-                "DULAT direct ref KTU 1.14 III:2"
+                "142023\tym\tym(I)/\tym (I)\tn. m. sg. abs. nom.\tday\tDULAT direct ref"
             )
             self.assertIn(
                 expected_cstr,

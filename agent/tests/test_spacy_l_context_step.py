@@ -130,4 +130,4 @@ class SpacyLContextDisambiguatorTest(unittest.TestCase):
             self.assertTrue(
                 lines[2].startswith("1\tl\tl(II)\tl (II)\tadv.\tno\tkeep me too")
             )
-            self.assertIn("DULAT quote", lines[2])
+            self.assertIn("DULAT quote in l (II)", lines[2])

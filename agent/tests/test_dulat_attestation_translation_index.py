@@ -103,6 +103,10 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
                 ("here the power of gods is like death / DN (of) an utter strength",),
             )
             self.assertEqual(
+                index.translation_evidence_for_surface_at_reference("k", "KTU 2.10:13")[0].article,
+                "k (I)",
+            )
+            self.assertEqual(
                 index.sense_definitions_for_entry(
                     4039,
                     "CAT 2.11:9",

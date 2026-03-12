@@ -101,7 +101,7 @@ class SpacyKContextDisambiguatorTest(unittest.TestCase):
             self.assertTrue(
                 any(
                     line.startswith("1\tk\tk(I)\tk (I)\tprep.\tlike\t")
-                    and "DULAT quote" in line
+                    and "DULAT quote in k (I)" in line
                     and "cue: like" in line
                     for line in lines
                 )

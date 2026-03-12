@@ -168,10 +168,10 @@ def _append_comment(existing: str, note: str) -> str:
 def _annotate_candidates(
     candidates: tuple[Candidate, ...],
     *,
-    section_ref: str,
+    article: str,
     cue: str,
 ) -> tuple[Candidate, ...]:
-    note = f"DULAT quote {section_ref} (cue: {cue})"
+    note = f"DULAT quote in {article} (cue: {cue})" if article else f"DULAT quote (cue: {cue})"
     out: list[Candidate] = []
     for candidate in candidates:
         out.append(
@@ -211,12 +211,12 @@ class LContextResolver:
                 continue
             translated = self._resolve_by_attestation_translation(token)
             if translated is not None:
-                homonym, cue = translated
+                homonym, cue, article = translated
                 self._replace(
                     token,
                     _annotate_candidates(
                         _keep_single_l(token, homonym),
-                        section_ref=token._.section_ref,
+                        article=article,
                         cue=cue,
                     ),
                     f"translation-{homonym.lower()}",
@@ -237,26 +237,28 @@ class LContextResolver:
                 self._replace(token, filtered, "prune-l-ii-no-verb", doc)
         return doc
 
-    def _resolve_by_attestation_translation(self, token: Token) -> tuple[str, str] | None:
-        matched: dict[str, str] = {}
+    def _resolve_by_attestation_translation(self, token: Token) -> tuple[str, str, str] | None:
+        matched: dict[str, tuple[str, str]] = {}
         for candidate in token._.resolved_candidates:
             homonym = _l_candidate_homonym(candidate)
             if homonym not in {"II", "III", "IV"}:
                 continue
-            translations = self._translation_index.translations_for_variant_token(
+            evidence_items = self._translation_index.translation_evidence_for_variant_token(
                 candidate.dulat,
                 token._.section_ref,
             )
-            for translation in translations:
+            for evidence in evidence_items:
+                translation = evidence.translation
                 if not _translation_supports_l_homonym(translation, homonym):
                     continue
                 cue = _cue_for_l_translation(translation, homonym)
-                matched.setdefault(homonym, cue or homonym.lower())
+                matched.setdefault(homonym, (cue or homonym.lower(), evidence.article))
                 break
         if len(matched) != 1:
             return None
         homonym = next(iter(matched))
-        return homonym, matched[homonym]
+        cue, article = matched[homonym]
+        return homonym, cue, article
 
     def _apply_compound_rules(self, token: Token, next_token: Token | None, doc: Doc) -> bool:
         if next_token is None:

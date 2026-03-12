@@ -515,10 +515,7 @@ def _resolve_bt_baal_phrase(
     if _is_bt_baal_phrase(doc, index) or has_direct_house_ref:
         filtered = tuple(candidate for candidate in candidates if _is_bt_house(candidate))
         if has_direct_house_ref:
-            filtered = _annotate_candidates(
-                filtered,
-                note=f"DULAT direct ref {section_ref}",
-            )
+            filtered = _annotate_candidates(filtered, note="DULAT direct ref")
         return filtered or candidates
     filtered = tuple(candidate for candidate in candidates if not _is_bt_house(candidate))
     return filtered or candidates
@@ -540,17 +537,11 @@ def _resolve_anat_context(
     section_ref = doc[index]._.section_ref
     if attestation_index.has_reference_for_variant_token(_ANAT_EYE_DULAT, section_ref):
         filtered = tuple(candidate for candidate in candidates if _is_anat_eye(candidate))
-        filtered = _annotate_candidates(
-            filtered,
-            note=f"DULAT direct ref {section_ref}",
-        )
+        filtered = _annotate_candidates(filtered, note="DULAT direct ref")
         return filtered or candidates
     if attestation_index.has_reference_for_variant_token(_ANAT_NOW_DULAT, section_ref):
         filtered = tuple(candidate for candidate in candidates if _is_anat_now(candidate))
-        filtered = _annotate_candidates(
-            filtered,
-            note=f"DULAT direct ref {section_ref}",
-        )
+        filtered = _annotate_candidates(filtered, note="DULAT direct ref")
         return filtered or candidates
     if not _is_anat_divine_name_context(doc, index):
         return candidates
@@ -635,7 +626,7 @@ def _resolve_mlk_context(
         return candidates
     comment = next((candidate.comment for candidate in candidates if candidate.comment), "")
     if has_direct_title_ref:
-        comment = _append_comment(comment, f"DULAT direct ref {section_ref}")
+        comment = _append_comment(comment, "DULAT direct ref")
     replacement = _canonical_mlk_title(comment, nominal_candidate)
     preserved = tuple(
         candidate

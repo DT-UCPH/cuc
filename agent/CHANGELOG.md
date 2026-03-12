@@ -3,7 +3,7 @@
 - Added direct-reference audit comments for exact DULAT attestation collapses in:
   - `pipeline/steps/attestation_reference_disambiguator.py`
   - `spacy_ugaritic/components/lexical_context.py`
-- Rows resolved by a direct DULAT citation now carry comments like `DULAT direct ref KTU 1.14 III:2`.
+- Rows resolved by a direct DULAT citation now carry the compact comment `DULAT direct ref`.
 - This applies both to the generic exact-reference disambiguator and to direct-attestation lexical-context decisions such as `bt`, `ˤnt`, and `mlk`.
 - Added regressions in:
   - `tests/test_attestation_reference_disambiguator.py`
@@ -19,6 +19,7 @@
   - `pipeline/steps/spacy_quote_translation_context.py`
   - `spacy_ugaritic/components/quote_translation_context.py`
 - The parser can now use exact-citation DULAT quote translations as a final fallback for any still-ambiguous surface after stronger context and attestation rules have already run.
+- Indirect quote-based notes now cite the DULAT article head instead of the KTU line, e.g. `DULAT quote in /š-l-m/ (cue: well)`.
 - This resolver only fires when:
   - the same cited line exists in DULAT
   - the quoted Ugaritic string contains the same surface

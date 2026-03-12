@@ -106,7 +106,7 @@ class SpacyKContextTest(unittest.TestCase):
             doc = build_doc(nlp, grouped, source_name="KTU 2.10.tsv")
             resolved = nlp(doc)
             self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["k(I)"])
-            self.assertIn("DULAT quote", resolved[0]._.resolved_candidates[0].comment)
+            self.assertIn("DULAT quote in k (I)", resolved[0]._.resolved_candidates[0].comment)
             self.assertIn("cue: like", resolved[0]._.resolved_candidates[0].comment)
 
 

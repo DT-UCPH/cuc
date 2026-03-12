@@ -184,7 +184,7 @@ class SpacyBaalContextDisambiguatorTest(unittest.TestCase):
             lines = path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(
                 lines[1],
-                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\tDULAT direct ref KTU 1.3 V:3",
+                "1\tbt\tbt(II)/\tbt (II)\tn. m. sg. abs. nom.\thouse\tDULAT direct ref",
             )
             self.assertEqual(len([line for line in lines if line.startswith("1\tbt\t")]), 1)
 
@@ -332,7 +332,7 @@ class SpacyMlkContextDisambiguatorTest(unittest.TestCase):
             lines = path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(
                 lines[1],
-                "1\tmlk\tmlk(I)/\tmlk (I)\tn. m. sg. abs. nom.\tking\tDULAT direct ref KTU 2.10:13",
+                "1\tmlk\tmlk(I)/\tmlk (I)\tn. m. sg. abs. nom.\tking\tDULAT direct ref",
             )
 
 

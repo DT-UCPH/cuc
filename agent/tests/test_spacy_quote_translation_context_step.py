@@ -78,7 +78,7 @@ class SpacyQuoteTranslationDisambiguatorTest(unittest.TestCase):
                 line for line in lines if line.startswith("1\tym\tym(I)/\tym (I)\t")
             )
             self.assertIn(
-                "DULAT quote KTU 1.14 III:2 (cue: day)",
+                "DULAT quote in ym (I) (cue: day)",
                 resolved_line,
             )
             self.assertNotIn("1\tym\tym(II)/\tym (II)\tn. m. sg. abs. gen.\tsea\t", lines)

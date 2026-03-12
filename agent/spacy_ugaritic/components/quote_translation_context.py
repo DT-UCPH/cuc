@@ -118,28 +118,36 @@ class QuoteTranslationResolver:
             section_ref = token._.section_ref
             if not section_ref:
                 continue
-            translations = self._translation_index.translations_for_surface_at_reference(
+            evidence_items = self._translation_index.translation_evidence_for_surface_at_reference(
                 token.text,
                 section_ref,
             )
-            if not translations:
+            if not evidence_items:
                 continue
             translation_words: set[str] = set()
-            for translation in translations:
-                translation_words.update(_translation_words(translation))
+            for evidence in evidence_items:
+                translation_words.update(_translation_words(evidence.translation))
             if not translation_words:
                 continue
 
-            winners: list[tuple[Candidate, tuple[str, ...]]] = []
+            winners: list[tuple[Candidate, tuple[str, ...], str]] = []
             for candidate in candidates:
-                cues = tuple(cue for cue in _candidate_cues(candidate) if cue in translation_words)
-                if cues:
-                    winners.append((candidate, cues))
+                candidate_cues = _candidate_cues(candidate)
+                for evidence in evidence_items:
+                    evidence_words = _translation_words(evidence.translation)
+                    cues = tuple(cue for cue in candidate_cues if cue in evidence_words)
+                    if cues:
+                        winners.append((candidate, cues, evidence.article))
+                        break
             if len(winners) != 1:
                 continue
 
-            winner, cues = winners[0]
-            note = f"DULAT quote {section_ref} (cue: {cues[0]})"
+            winner, cues, article = winners[0]
+            note = (
+                f"DULAT quote in {article} (cue: {cues[0]})"
+                if article
+                else f"DULAT quote (cue: {cues[0]})"
+            )
             resolved = (_with_comment(winner, note),)
             self._replace(token, resolved, "translation-last-resort", doc)
         return doc

@@ -129,7 +129,7 @@ class SpacyBaalContextTest(unittest.TestCase):
             [candidate.analysis for candidate in doc[0]._.resolved_candidates],
             ["bt(II)/"],
         )
-        self.assertIn("DULAT direct ref KTU 1.3 V:3", doc[0]._.resolved_candidates[0].comment)
+        self.assertIn("DULAT direct ref", doc[0]._.resolved_candidates[0].comment)
 
     def test_collapses_thr_il_sequence_to_bull_and_el(self) -> None:
         doc = self._doc_from_lines(
@@ -191,7 +191,7 @@ class SpacyBaalContextTest(unittest.TestCase):
             ["ˤn(I)/t="],
         )
         self.assertIn(
-            "DULAT direct ref KTU 1.3 IV:36",
+            "DULAT direct ref",
             doc[1]._.resolved_candidates[0].comment,
         )
 
@@ -300,7 +300,7 @@ class SpacyMlkContextTest(unittest.TestCase):
             [candidate.analysis for candidate in doc[0]._.resolved_candidates],
             ["mlk(I)/"],
         )
-        self.assertIn("DULAT direct ref KTU 2.10:13", doc[0]._.resolved_candidates[0].comment)
+        self.assertIn("DULAT direct ref", doc[0]._.resolved_candidates[0].comment)
 
 
 if __name__ == "__main__":

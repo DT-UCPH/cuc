@@ -157,10 +157,10 @@ def _append_comment(existing: str, note: str) -> str:
 def _annotate_candidates(
     candidates: tuple[Candidate, ...],
     *,
-    section_ref: str,
+    article: str,
     cue: str,
 ) -> tuple[Candidate, ...]:
-    note = f"DULAT quote {section_ref} (cue: {cue})"
+    note = f"DULAT quote in {article} (cue: {cue})" if article else f"DULAT quote (cue: {cue})"
     out: list[Candidate] = []
     for candidate in candidates:
         out.append(
@@ -208,7 +208,7 @@ class KContextResolver:
                 token,
                 _annotate_candidates(
                     _keep_single_k(token, translated[0]),
-                    section_ref=token._.section_ref,
+                    article=translated[2],
                     cue=translated[1],
                 ),
                 f"translation-{translated[0].lower()}",
@@ -216,21 +216,24 @@ class KContextResolver:
             )
         return doc
 
-    def _resolve_by_citation_translation(self, token: Token) -> tuple[str, str] | None:
-        translations = self._translation_index.translations_for_surface_at_reference(
+    def _resolve_by_citation_translation(self, token: Token) -> tuple[str, str, str] | None:
+        evidence_items = self._translation_index.translation_evidence_for_surface_at_reference(
             token.text,
             token._.section_ref,
         )
-        if not translations:
+        if not evidence_items:
             return None
-        matched_homonyms: dict[str, str] = {}
+        matched_homonyms: dict[str, tuple[str, str]] = {}
         for homonym in ("I", "II", "III", "IV"):
             matched = False
             cue = ""
-            for translation in translations:
+            article = ""
+            for evidence in evidence_items:
+                translation = evidence.translation
                 if not _translation_supports_k_homonym(translation, homonym):
                     continue
                 cue = _cue_for_k_translation(translation, homonym) or homonym.lower()
+                article = evidence.article
                 matched = True
                 break
             if not matched:
@@ -238,23 +241,24 @@ class KContextResolver:
             if homonym == "I" and any(
                 _is_k_i_candidate(c) for c in token._.resolved_candidates
             ):
-                matched_homonyms[homonym] = cue
+                matched_homonyms[homonym] = (cue, article)
             if homonym == "II" and any(
                 _is_k_ii_candidate(c) for c in token._.resolved_candidates
             ):
-                matched_homonyms[homonym] = cue
+                matched_homonyms[homonym] = (cue, article)
             if homonym == "III" and any(
                 _is_k_iii_candidate(c) for c in token._.resolved_candidates
             ):
-                matched_homonyms[homonym] = cue
+                matched_homonyms[homonym] = (cue, article)
             if homonym == "IV" and any(
                 _is_k_iv_candidate(c) for c in token._.resolved_candidates
             ):
-                matched_homonyms[homonym] = cue
+                matched_homonyms[homonym] = (cue, article)
         if len(matched_homonyms) != 1:
             return None
         homonym = next(iter(matched_homonyms))
-        return homonym, matched_homonyms[homonym]
+        cue, article = matched_homonyms[homonym]
+        return homonym, cue, article
 
     def _replace(
         self, token: Token, candidates: tuple[Candidate, ...], rule: str, doc: Doc

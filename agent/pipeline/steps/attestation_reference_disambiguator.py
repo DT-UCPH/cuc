@@ -85,7 +85,7 @@ class AttestationReferenceDisambiguator(RefinementStep):
             if len(matching_indexes_by_head) != 1:
                 continue
             keep_indexes = next(iter(matching_indexes_by_head.values()))
-            note = f"DULAT direct ref {group.section_ref}"
+            note = "DULAT direct ref"
             for row_index in keep_indexes:
                 row = parsed_rows[row_index]
                 updated_rows[row_index] = TabletRow(
