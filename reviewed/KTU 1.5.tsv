@@ -1,15 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:1						
-139769	k	k(III)	k (III)	subordinating / completive functor	when	
-139770	tmḫṣ	!t=!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 2 m. sg.	to wound	
+139769	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT direct ref
+139770	tmḫṣ	!t=!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 2 m. sg.	to wound, beat, crush, kill	
 139771	ltn	ltn(I)/	ltn (I)	DN m. sg. abs. acc.	Lôtan	
 139772	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
-139773	brḥ	brḥ/	brḥ	adj. m. sg. abs. acc.	fleeing	
+139773	brḥ	brḥ/	brḥ	adj. m. sg. abs. acc.	1) fleeing	
 # KTU 1.5 I:2						
-139774	tkly	!t=!kly[:d	/k-l-y/	vb D prefc. 2 m. sg.	to finish	
+139774	tkly	!t=!kly[:d	/k-l-y/	vb D prefc. 2 m. sg.	to finish (off), destroy, drain	
 139775	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 139776	ˤqltn	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
-139777	š	&š	?	?	?	
+139777	š	&š	?	?	?	Scribal mistake?
 # KTU 1.5 I:3						
 139778	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant, powerful	
 139778	šlyṭ	]š]l(w&yṭ/[	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
@@ -24,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139782	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
 139783	ttrp	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
 139783	ttrp	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
-139784	šmm	šm(m(I)/m	šmm (I)	n. m. pl. tant. / n. m. du. tant. abs. nom.	heavens	
+139784	šmm	šm(m(I)/m	šmm (I)	n. m. pl. / du. tant. abs. nom.	heavens, sky	
 139785	krs	k(I); r(ks/	k (I); rks	prep.; n. m. sg. abs. gen.	like; belt	
 139785	krs	k(I); rs/[	k (I); /r-s/	prep.; vb G? act. ptcpl. m. pl. abs. nom.	like; to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun?
 # KTU 1.5 I:5						
@@ -246,79 +246,71 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139933	ḥrr	ḥrr[	/ḥ-r-r/	vb G suffc. 3 m. sg.	to dry up	
 139933	ḥrr	ḥrr[/	/ḥ-r-r/	vb G pass. ptcpl. m. sg. abs. gen.	to dry up	
 139934	zt	zt/	zt	n. m. sg. / pl. abs. gen.	olive	
-139935	ybl	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.?	produce	
-139936	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
+139935	ybl	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.	produce	
+139936	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	1) earth	
 139937	w	w	w	conj.	and	
-139938	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.?	fruit	
+139938	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
 # KTU 1.5 II:6						
-139939	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
-139940	yraun	!y!(yr(ʔ&a[un	/y-r-ʔ/	vb G prefc.	to be afraid	
-139941	aliyn	aliyn/	ảlỉyn	adj. m. sg.	The Very / Most Powerful	
-139942	bˤl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+139939	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	1) tree	
+139940	yraun	!y!(yr(ʔ&a[u~n	/y-r-ʔ/	vb G prefc. 3 m. sg.	to be afraid	
+139941	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
+139942	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.5 II:7						
-139943	ṯtˤ	ṯtˤ[	/ṯ-t-ʕ/	vb G suffc.	to be frightened	
-139944	nn	grš[	/g-r-š/	vb G impv.	to eject	
-139944	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-139944	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
-139945	rkb	rkb[	/r-k-b/	vb G suffc. / vb G impv.	to mount (especially a chariot)	
-139945	rkb	rkb[/	/r-k-b/	vb G ptcpl.	to mount (especially a chariot)	
-139945	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
-139945	rkb	rkb(II)/	rkb (II)	n. m. sg. / n. m. pl. cstr.	?	
-139946	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg.	cloud(s)	
-139946	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. sg.	cloud(s)	
+139943	ṯtˤ	ṯtˤ[	/ṯ-t-ʕ/	vb G suffc. 3 m. sg.	to be frightened	
+139944	nn	~nn	-nn	?	?	
+139945	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
+139946	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.5 II:8						
-139947	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc.	to go	
-139948	rgm	rgm[	/r-g-m/	vb G suffc. / vb G impv.	to say	
-139948	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-139948	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl.	to say	
-139948	rgm	rgm/	rgm	n. m. sg.	word	
+139947	tbˤ	!!tbˤ[/	/t-b-ʕ/	vb G inf.	to go	
+139948	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 139949	l	l(I)	l (I)	prep.	to	
-139950	bn	bn(I)/	bn (I)	n. m. sg. / n. m. pl. cstr. gen.	son	
+139950	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 139951	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-139952	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Môt	
+139952	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:9						
-139953	ṯny	ṯny[	/ṯ-n-y/	vb G impv.	to repeat	
-139953	ṯny	!!ṯny[/	/ṯ-n-y/	vb G inf.	to repeat	
+139953	ṯny	ṯny[	/ṯ-n-y/	vb G impv. 2	to repeat	
 139954	l	l(I)	l (I)	prep.	to	
 139955	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
-139956	il	il(I)/	ỉl (I)	DN m. abs. gen.	ʾIlu	
+139956	il	il(I)/	ỉl (I)	DN m. abs. gen.	ʾIlu/Ilu/El	
 139957	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.5 II:10						
 139958	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
 139959	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
 139960	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 139961	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
-139962	aliy	aliy/	ảlỉy	adj. m. sg. abs. gen.	The Most Powerful	
+139962	aliy	aliy/	ảlỉy	adj. m. sg. cstr.? gen.	The Most Powerful	
 # KTU 1.5 II:11						
 139963	qrdm	qrd(I)/m	qrd (I)	n. m. pl. abs. gen.	hero	
-139964	bhṯ	bhṯ/	bhṯ	n. m. sg.	shame, greetings	
+139964	bhṯ	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame, greetings	
 139965	l	l(IV)	l (IV)	interj.	oh!	
-139966	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+139966	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.?	son	
 139967	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-139968	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
+139968	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.?	Môt	
 # KTU 1.5 II:12						
-139969	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du.	servant	
-139970	an	an(I)	ản (I)	pers. pn.	I	
+139969	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+139970	an	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 139971	w	w	w	conj.	and	
-139972	dšˤlmk	?	?	?	?	DULAT: NOT FOUND
+139972	dšˤlmk	d; &šˤlm/+k	ʕlm (I)	det. / rel. functor; n. m. sg. cstr. nom. 	1) The one(s) of a) det. of quality, type.; eternity, perpetuity	UNP: wdˤlmk
 # KTU 1.5 II:13						
-139973	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc.	to go	
+139973	tbˤ	tbˤ[:w	/t-b-ʕ/	vb G suffc. 3 m. pl.	to go	
 139974	w	w	w	conj.	and	
-139975	l	l(II)	l (II)	adv.	no	
-139976	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. / vb G suffc.	to sit down	
-139976	yṯb	(yṯb[/	/y-ṯ-b/	vb G act. ptcpl.	to sit down	
-139977	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+139975	l	l(II)	l (II)	adv.	not	
+139976	yṯb yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down		
+139976	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
+139976	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	
+139977	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 139978	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 II:14						
 139979	l	l(III)	l (III)	functor	certainly	
 139980	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. pl.	to give	
 139980	ytn ytn[	/y-t-n/	vb G suffc. 3 m. pl.	to give		
 139981	pnm	pn(m/m	pnm	n. m. pl./du. tant. abs. acc.	face	
-139982	ṯˤm	ṯˤ(II)/m	ṯʕ (II)	n. m. pl.	Hero	
-139983	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+139982	ṯˤm	&ṯˤm(I)	ʕm (I)	prep.	to	
+139983	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 139984	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-139985	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
+139985	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:15						
+# CHECKED UP TO HERE
 139986	tk	tk/	tk	n. m.	centre	
 139987	qrth	qr(t(I)/t	qrt (I)	n. f. sg.	city	
 139988	hmry	hmry/	hmry	TN	Fangosa	
@@ -360,13 +352,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140016	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
 140017	mt	mt(II)/	mt (II)	n. m. sg.	death	
 # KTU 1.5 II:21						
-140018	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	
+140018	ytn	!y!(ytn[	/y-t-n/	vb G prefc. / vb G suffc.	to give	UNP: [yšu]gh
 140019	gh	ytn[	/y-t-n/	vb	to give	
 140019	gh	g/+h	g	n. m. sg.	(loud) voice	
 140020	w	w	w	conj.	and	
-140021	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
+140021	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	UNP: wyṣḥ
 140022	ik	ik	ỉk	interr. functor	how?	
-140023	yṣḥn	!y!ṣḥ[n	/ṣ-ḥ/	vb G prefc.	to exclaim	
+140023	yṣḥn	!y!ṣḥ[n	/ṣ-ḥ/	vb G prefc.	to exclaim	UNP: y{.}ṣḥn
 # KTU 1.5 II:22						
 140024	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 140025	xxxxxx	?	?	?	?	
@@ -374,7 +366,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140027	un	qrʔ[	/q-r-ʔ/	vb G prefc.	to call	
 140028	hd	hd/	hd(d)	DN	Haddu/Hadad	
 # KTU 1.5 II:23						
-140029	xxxxxxxxxp	?	?	?	?	DULAT: NOT FOUND
+140029	xxxxxxxxxp	?	?	?	?	UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
 140030	mlḥmy	mlḥmy	mlḥmy	?	?	
 # KTU 1.5 II:24						
 140031	xxxxxxxxlt	?	?	?	?	DULAT: NOT FOUND
