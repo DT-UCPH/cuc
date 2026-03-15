@@ -402,6 +402,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
                     return_value=({}, {}, {}, {}, {}),
                 ),
                 patch(
+                    "pipeline.tablet_parsing.DulatAttestationTranslationIndex.from_sqlite",
+                    return_value=object(),
+                ) as mock_translation_index,
+                patch(
                     "pipeline.tablet_parsing.refine.load_reverse_mentions",
                     return_value=({}, {}, {}, {}),
                 ),
@@ -417,6 +421,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
             self.assertIs(
                 mock_refine_file.call_args.kwargs["direct_reference_index"],
                 pipeline.attestation_index,
+            )
+            self.assertIs(
+                mock_refine_file.call_args.kwargs["translation_index"],
+                mock_translation_index.return_value,
             )
 
     def test_suffix_payload_collapse_runs_after_known_ambiguities(self):

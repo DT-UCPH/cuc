@@ -17,6 +17,7 @@ from scripts.refine_results_mentions import (
     gloss_for_entry,
     is_usable_sense_definition,
     load_entries,
+    normalize_reference_sense_gloss,
     parse_separator_ref,
     refine_file,
     render_variant,
@@ -367,6 +368,92 @@ class RefineResultsMentionsTest(unittest.TestCase):
                 translation_index=translation_index,
             ),
             "to restore / preserve health",
+        )
+
+    def test_gloss_for_entry_prefers_reference_specific_sense_for_noun(self) -> None:
+        entry = Entry(
+            entry_id=2941,
+            lemma="mt",
+            hom="III",
+            pos="n.",
+            gloss="man",
+            wiki_tr="",
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref={
+                (2941, normalize_reference_label("CAT 1.22 I:6")): ("Hero",),
+            }
+        )
+        self.assertEqual(
+            gloss_for_entry(
+                entry,
+                section_ref="CAT 1.22 I:6",
+                translation_index=translation_index,
+            ),
+            "hero",
+        )
+
+    def test_render_variant_uses_reference_specific_sense_for_noun(self) -> None:
+        entry = Entry(
+            entry_id=2941,
+            lemma="mt",
+            hom="III",
+            pos="n.",
+            gloss="man",
+            wiki_tr="",
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref={
+                (2941, normalize_reference_label("CAT 1.22 I:6")): ("Hero",),
+            }
+        )
+        variant = Variant(entries=(entry,), base_surface="mtm")
+        self.assertEqual(
+            render_variant(
+                "mtm",
+                variant,
+                forms_morph={},
+                section_ref="CAT 1.22 I:6",
+                translation_index=translation_index,
+            )[3],
+            "hero",
+        )
+
+    def test_render_variant_preserves_hierarchical_reference_sense_for_noun(self) -> None:
+        entry = Entry(
+            entry_id=264,
+            lemma="ỉl",
+            hom="I",
+            pos="n.",
+            gloss="god",
+            wiki_tr="",
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref={
+                (264, normalize_reference_label("CAT 1.17 I:2")): (
+                    "1) God c) object or purpose of an action",
+                ),
+            }
+        )
+        variant = Variant(entries=(entry,), base_surface="ỉlm")
+        self.assertEqual(
+            render_variant(
+                "ỉlm",
+                variant,
+                forms_morph={},
+                section_ref="CAT 1.17 I:2",
+                translation_index=translation_index,
+            )[3],
+            "1) god c) object or purpose of an action",
+        )
+
+    def test_normalize_reference_sense_gloss_decapitalizes_common_labels(self) -> None:
+        self.assertEqual(normalize_reference_sense_gloss("Hero"), "hero")
+        self.assertEqual(normalize_reference_sense_gloss("Man, husband"), "man")
+        self.assertEqual(normalize_reference_sense_gloss("DN"), "DN")
+        self.assertEqual(
+            normalize_reference_sense_gloss("1) God c) object or purpose of an action"),
+            "1) god c) object or purpose of an action",
         )
 
     def test_render_variant_uses_reference_specific_sense_definition(self) -> None:

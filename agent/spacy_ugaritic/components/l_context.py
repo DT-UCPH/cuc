@@ -209,6 +209,8 @@ class LContextResolver:
             if forced is not None:
                 self._replace(token, _keep_single_l(token, forced), f"forced-{forced.lower()}", doc)
                 continue
+            if len(token._.resolved_candidates) <= 1:
+                continue
             translated = self._resolve_by_attestation_translation(token)
             if translated is not None:
                 homonym, cue, article = translated

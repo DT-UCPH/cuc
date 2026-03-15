@@ -188,6 +188,32 @@ class SpacyLContextTest(unittest.TestCase):
         resolved = nlp(doc)
         self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["l(III)"])
 
+    def test_skips_translation_hint_when_l_is_already_resolved(self) -> None:
+        db_path = self._build_translation_db(
+            citation="CAT 1.14 I:12",
+            homonym="II",
+            translation="a lawful wife he did not get (keep)",
+        )
+        nlp = create_ugaritic_nlp(
+            "ugaritic_l_context_resolver",
+            component_configs={
+                "ugaritic_l_context_resolver": {
+                    "dulat_db_path": str(db_path),
+                }
+            },
+        )
+        grouped = group_tablet_lines(
+            (
+                "# KTU 1.14 I:12\t\t\t\t\t\t",
+                "1\tl\tl(II)\tl (II)\tadv.\tno\tDULAT direct ref",
+                "2\typq\t!y!pq[\t/p-q-y/\tvb G prefc.\tto get\t",
+            )
+        )
+        doc = build_doc(nlp, grouped, source_name="KTU 1.14.tsv")
+        resolved = nlp(doc)
+        self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["l(II)"])
+        self.assertEqual(resolved[0]._.resolved_candidates[0].comment, "DULAT direct ref")
+
 
 if __name__ == "__main__":
     unittest.main()

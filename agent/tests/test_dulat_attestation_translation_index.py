@@ -1,5 +1,6 @@
 """Unit tests for DULAT attestation translation/sense lookup."""
 
+import json
 import sqlite3
 import tempfile
 import unittest
@@ -19,7 +20,8 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
             CREATE TABLE entries (
               entry_id INTEGER PRIMARY KEY,
               lemma TEXT,
-              homonym TEXT
+              homonym TEXT,
+              data TEXT
             )
             """
         )
@@ -36,11 +38,48 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
             """
         )
         cur.executemany(
-            "INSERT INTO entries(entry_id, lemma, homonym) VALUES (?, ?, ?)",
+            "INSERT INTO entries(entry_id, lemma, homonym, data) VALUES (?, ?, ?, ?)",
             [
-                (4039, "/š-l-m/", ""),
-                (5001, "l", "III"),
-                (5002, "k", "I"),
+                (4039, "/š-l-m/", "", None),
+                (5001, "l", "III", None),
+                (5002, "k", "I", None),
+                (
+                    264,
+                    "ỉl",
+                    "I",
+                    json.dumps(
+                        {
+                            "translations_structured": [{"text": "god"}],
+                            "stems_structured": [
+                                {
+                                    "name": "",
+                                    "senses": [
+                                        {
+                                            "number": "a",
+                                            "definition": "as a class",
+                                            "examples": [],
+                                        },
+                                        {
+                                            "number": "c",
+                                            "definition": "object or purpose of an action",
+                                            "examples": [
+                                                {"citation": "CAT 1.17 I:2"},
+                                            ],
+                                        },
+                                        {
+                                            "number": "2",
+                                            "definition": "DN",
+                                            "examples": [
+                                                {"citation": "CAT 1.118:2"},
+                                            ],
+                                        },
+                                    ],
+                                }
+                            ],
+                        },
+                        ensure_ascii=False,
+                    ),
+                ),
             ],
         )
         cur.executemany(
@@ -83,6 +122,14 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
                     "here the power of gods is like death / DN (of) an utter strength",
                     "CAT 2.10:13",
                 ),
+                (
+                    264,
+                    "",
+                    "object or purpose of an action",
+                    "ủzr ỉlm ylḥm",
+                    "enrobed, he fed the gods",
+                    "CAT 1.17 I:2",
+                ),
             ],
         )
         conn.commit()
@@ -121,6 +168,14 @@ class DulatAttestationTranslationIndexTest(unittest.TestCase):
                     stem_name="G",
                 ),
                 ("to be well, do well, be in peace",),
+            )
+            self.assertEqual(
+                index.sense_definitions_for_entry(264, "KTU 1.17 I:2"),
+                ("1) god c) object or purpose of an action", "object or purpose of an action"),
+            )
+            self.assertEqual(
+                index.sense_definitions_for_entry(264, "CAT 1.118:2"),
+                ("2) DN",),
             )
 
 

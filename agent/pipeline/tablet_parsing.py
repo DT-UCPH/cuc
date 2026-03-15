@@ -9,6 +9,7 @@ import scripts.refine_results_mentions as refine
 from lint_reports.generator import LintReportGenerator
 from pipeline.config.surface_option_allowlist import SURFACE_OPTION_PROPAGATION_ALLOWLIST
 from pipeline.dulat_attestation_index import DulatAttestationIndex
+from pipeline.dulat_attestation_translation_index import DulatAttestationTranslationIndex
 from pipeline.formula_context_step_factory import build_spacy_formula_context_steps
 from pipeline.instruction_refiner import InstructionRefiner
 from pipeline.k_context_step_factory import build_spacy_k_context_steps
@@ -413,6 +414,7 @@ class TabletParsingPipeline:
         _entries_by_id, forms_map, lemma_map, suffix_map, forms_morph = refine.load_entries(
             self.config.dulat_db
         )
+        translation_index = DulatAttestationTranslationIndex.from_sqlite(self.config.dulat_db)
         reverse_mentions, entry_ref_count, entry_tablets, entry_family_count = (
             refine.load_reverse_mentions(
                 self.config.dulat_db,
@@ -436,6 +438,7 @@ class TabletParsingPipeline:
                 entry_tablets,
                 entry_family_count,
                 direct_reference_index=self.attestation_index,
+                translation_index=translation_index,
             )
             rows_total += rows
             changed_total += changed

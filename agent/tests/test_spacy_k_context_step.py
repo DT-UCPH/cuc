@@ -111,6 +111,26 @@ class SpacyKContextDisambiguatorTest(unittest.TestCase):
                 lines,
             )
 
+    def test_skips_citation_translation_when_k_is_already_resolved(self) -> None:
+        content = (
+            "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+            "# KTU 2.10 13\t\t\t\t\t\t\n"
+            "1\tk\tk(I)\tk (I)\tprep.\tlike\tDULAT direct ref\n"
+            "2\tmtm\tmt/\tmt\tn. m.\tdeath\t\n"
+        )
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 2.10.tsv"
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            path.write_text(content, encoding="utf-8")
+            self._build_translation_db(db_path)
+
+            step = SpacyKContextDisambiguator(dulat_db=db_path)
+            result = step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 0)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(lines[2], "1\tk\tk(I)\tk (I)\tprep.\tlike\tDULAT direct ref")
+
 
 if __name__ == "__main__":
     unittest.main()

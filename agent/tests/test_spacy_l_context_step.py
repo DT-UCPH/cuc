@@ -131,3 +131,39 @@ class SpacyLContextDisambiguatorTest(unittest.TestCase):
                 lines[2].startswith("1\tl\tl(II)\tl (II)\tadv.\tno\tkeep me too")
             )
             self.assertIn("DULAT quote in l (II)", lines[2])
+
+    def test_skips_attestation_translation_when_l_is_already_resolved(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            db_path = root / "dulat.sqlite"
+            conn = sqlite3.connect(db_path)
+            cur = conn.cursor()
+            cur.execute(
+                "CREATE TABLE entries (entry_id INTEGER PRIMARY KEY, lemma TEXT, homonym TEXT)"
+            )
+            cur.execute(
+                "CREATE TABLE attestations (entry_id INTEGER, translation TEXT, citation TEXT)"
+            )
+            cur.execute("INSERT INTO entries(entry_id, lemma, homonym) VALUES (1, 'l', 'II')")
+            cur.execute(
+                "INSERT INTO attestations(entry_id, translation, citation) VALUES (?, ?, ?)",
+                (1, "a lawful wife he did not get (keep)", "CAT 1.14 I:12"),
+            )
+            conn.commit()
+            conn.close()
+
+            step = SpacyLContextDisambiguator(dulat_db=db_path)
+            path = root / "KTU 1.test.tsv"
+            path.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.14 I:12\n"
+                "1\tl\tl(II)\tl (II)\tadv.\tno\tDULAT direct ref\n"
+                "2\typq\t!y!pq[\t/p-q-y/\tvb G prefc.\tto get\t\n",
+                encoding="utf-8",
+            )
+
+            result = step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 0)
+            lines = path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(lines[2], "1\tl\tl(II)\tl (II)\tadv.\tno\tDULAT direct ref")

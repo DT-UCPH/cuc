@@ -201,6 +201,8 @@ class KContextResolver:
                 )
                 continue
 
+            if len(token._.resolved_candidates) <= 1:
+                continue
             translated = self._resolve_by_citation_translation(token)
             if translated is None:
                 continue

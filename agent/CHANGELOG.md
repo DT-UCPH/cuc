@@ -1,5 +1,28 @@
 ## 2026-03-11
 
+- Reference-specific DULAT sense definitions are now used for non-verbal entries during TSV rendering, not only for verbs.
+- This means rows resolved by direct DULAT citations now take the attested sense gloss when available, e.g. `mt (III)` at `KTU 1.17 I:18` renders `hero` instead of the entry-default `man`.
+- Fixed a pipeline wiring bug in `pipeline/tablet_parsing.py`: the main refinement stage now passes `DulatAttestationTranslationIndex` into `refine.refine_file(...)`, so the reference-specific sense logic is actually active in normal tablet runs.
+- Added regressions in:
+  - `tests/test_refine_results_mentions.py`
+  - `tests/test_tablet_parsing_pipeline.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_refine_results_mentions tests.test_tablet_parsing_pipeline`
+  - `uv run ruff check pipeline/tablet_parsing.py scripts/refine_results_mentions.py tests/test_refine_results_mentions.py tests/test_tablet_parsing_pipeline.py`
+  - focused rerun for `KTU 1.17.tsv`
+
+- Stopped `l` and `k` quote-translation tie-breakers from appending indirect `DULAT quote ...` notes after an earlier step had already collapsed the token to a single candidate via a direct DULAT reference.
+- `l` and `k` now use quote evidence only while real ambiguity remains, so rows like `l(II)` resolved by exact citation carry just `DULAT direct ref`.
+- Added regressions in:
+  - `tests/test_spacy_l_context.py`
+  - `tests/test_spacy_l_context_step.py`
+  - `tests/test_spacy_k_context.py`
+  - `tests/test_spacy_k_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_l_context tests.test_spacy_l_context_step tests.test_spacy_k_context tests.test_spacy_k_context_step`
+  - `uv run ruff check spacy_ugaritic/components/l_context.py spacy_ugaritic/components/k_context.py tests/test_spacy_l_context.py tests/test_spacy_l_context_step.py tests/test_spacy_k_context.py tests/test_spacy_k_context_step.py`
+  - focused rerun for `KTU 1.19.tsv`
+
 - Added direct-reference audit comments for exact DULAT attestation collapses in:
   - `pipeline/steps/attestation_reference_disambiguator.py`
   - `spacy_ugaritic/components/lexical_context.py`

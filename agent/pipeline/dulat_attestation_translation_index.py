@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import re
 import sqlite3
 from dataclasses import dataclass, field
@@ -83,9 +84,12 @@ class DulatAttestationTranslationIndex:
             cur = conn.cursor()
             cur.execute("PRAGMA table_info(attestations)")
             attestation_columns = {row[1] for row in cur.fetchall()}
+            cur.execute("PRAGMA table_info(entries)")
+            entry_columns = {row[1] for row in cur.fetchall()}
             has_sense_definition = "sense_definition" in attestation_columns
             has_stem_name = "stem_name" in attestation_columns
             has_ug = "ug" in attestation_columns
+            has_entry_data = "data" in entry_columns
             cur.execute(
                 """
                 SELECT
@@ -219,6 +223,32 @@ class DulatAttestationTranslationIndex:
                             )
                             if definition not in stem_bucket:
                                 stem_bucket.append(definition)
+
+            if has_entry_data:
+                cur.execute(
+                    """
+                    SELECT entry_id, data
+                    FROM entries
+                    WHERE data IS NOT NULL AND TRIM(data) != ''
+                    """
+                )
+                for entry_id_raw, data_raw in cur.fetchall():
+                    try:
+                        entry_id = int(entry_id_raw)
+                    except (TypeError, ValueError):
+                        continue
+                    if not data_raw:
+                        continue
+                    try:
+                        entry = json.loads(data_raw)
+                    except (TypeError, ValueError, json.JSONDecodeError):
+                        continue
+                    _merge_hierarchical_sense_labels(
+                        entry_id=entry_id,
+                        entry=entry,
+                        by_entry_ref=sense_definitions_by_entry_ref,
+                        by_entry_ref_stem=sense_definitions_by_entry_ref_stem,
+                    )
         except sqlite3.Error:
             return cls.empty()
         finally:
@@ -327,6 +357,122 @@ class DulatAttestationTranslationIndex:
 
 def _normalize_stem_name(stem_name: str) -> str:
     return (stem_name or "").strip().rstrip(".")
+
+
+def _append_unique(bucket: list[str], value: str) -> None:
+    if value and value not in bucket:
+        bucket.append(value)
+
+
+def _is_numeric_sense_number(value: str) -> bool:
+    return bool(re.fullmatch(r"\d+", (value or "").strip()))
+
+
+def _is_letter_sense_number(value: str) -> bool:
+    return bool(re.fullmatch(r"[A-Za-z]", (value or "").strip()))
+
+
+def _translation_texts(entry: dict) -> list[str]:
+    out: list[str] = []
+    for item in entry.get("translations_structured") or []:
+        if not isinstance(item, dict):
+            continue
+        text = _HTML_TAG_RE.sub(" ", str(item.get("text") or ""))
+        text = re.sub(r"\s+", " ", text).strip().strip(" ;,:")
+        if text and text not in out:
+            out.append(text)
+    return out
+
+
+def _preferred_top_label(
+    translations: list[str],
+    number: str,
+    definition: str,
+) -> str:
+    if definition:
+        return definition.strip()
+    if _is_numeric_sense_number(number):
+        index = int(number) - 1
+        if 0 <= index < len(translations):
+            return translations[index]
+    if translations:
+        return translations[0]
+    return definition.strip()
+
+
+def _format_hierarchical_sense_label(
+    *,
+    top_number: str,
+    top_label: str,
+    leaf_number: str,
+    leaf_definition: str,
+) -> str:
+    top_clean = re.sub(r"\s+", " ", _HTML_TAG_RE.sub(" ", top_label or "")).strip(" ;,:")
+    leaf_clean = re.sub(
+        r"\s+",
+        " ",
+        _HTML_TAG_RE.sub(" ", leaf_definition or ""),
+    ).strip(" ;,:")
+    if _is_letter_sense_number(leaf_number) and top_clean:
+        return f"{top_number}) {top_clean} {leaf_number}) {leaf_clean}".strip()
+    if _is_numeric_sense_number(leaf_number):
+        return f"{leaf_number}) {top_clean or leaf_clean}".strip()
+    return leaf_clean or top_clean
+
+
+def _merge_hierarchical_sense_labels(
+    *,
+    entry_id: int,
+    entry: dict,
+    by_entry_ref: Dict[Tuple[int, str], list[str]],
+    by_entry_ref_stem: Dict[Tuple[int, str, str], list[str]],
+) -> None:
+    translations = _translation_texts(entry)
+    for stem in entry.get("stems_structured") or []:
+        if not isinstance(stem, dict):
+            continue
+        stem_name = _normalize_stem_name(stem.get("name", "") or "")
+        active_top_number = ""
+        active_top_label = ""
+        inferred_first_top_number = "1" if translations else ""
+        inferred_first_top_label = translations[0] if translations else ""
+        for sense in stem.get("senses") or []:
+            if not isinstance(sense, dict):
+                continue
+            sense_number = str(sense.get("number") or "").strip()
+            definition = str(sense.get("definition") or "").strip()
+            if _is_numeric_sense_number(sense_number):
+                active_top_number = sense_number
+                active_top_label = _preferred_top_label(translations, sense_number, definition)
+            elif not active_top_number and inferred_first_top_number:
+                active_top_number = inferred_first_top_number
+                active_top_label = inferred_first_top_label
+
+            full_label = _format_hierarchical_sense_label(
+                top_number=active_top_number or inferred_first_top_number,
+                top_label=active_top_label or inferred_first_top_label,
+                leaf_number=sense_number,
+                leaf_definition=definition,
+            )
+            if not full_label:
+                continue
+
+            for example in sense.get("examples") or []:
+                if not isinstance(example, dict):
+                    continue
+                citation = str(example.get("citation") or "").strip()
+                if not citation:
+                    continue
+                for ref_key in _reference_keys(citation):
+                    ref_bucket = by_entry_ref.setdefault((entry_id, ref_key), [])
+                    if full_label not in ref_bucket:
+                        ref_bucket.insert(0, full_label)
+                    if stem_name:
+                        stem_bucket = by_entry_ref_stem.setdefault(
+                            (entry_id, ref_key, stem_name), []
+                        )
+                        if full_label not in stem_bucket:
+                            stem_bucket.insert(0, full_label)
 
 
 def _entry_label(lemma_raw: str, homonym_raw: str) -> str:

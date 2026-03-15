@@ -109,6 +109,23 @@ class SpacyKContextTest(unittest.TestCase):
             self.assertIn("DULAT quote in k (I)", resolved[0]._.resolved_candidates[0].comment)
             self.assertIn("cue: like", resolved[0]._.resolved_candidates[0].comment)
 
+    def test_skips_translation_hint_when_k_is_already_resolved(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_translation_db(db_path)
+            nlp = create_ugaritic_k_context_nlp(dulat_db=db_path)
+            grouped = group_tablet_lines(
+                [
+                    "# KTU 2.10 13\t\t\t\t\t\t",
+                    "1\tk\tk(I)\tk (I)\tprep.\tlike\tDULAT direct ref",
+                    "2\tmtm\tmt/\tmt\tn. m.\tdeath\t",
+                ]
+            )
+            doc = build_doc(nlp, grouped, source_name="KTU 2.10.tsv")
+            resolved = nlp(doc)
+            self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["k(I)"])
+            self.assertEqual(resolved[0]._.resolved_candidates[0].comment, "DULAT direct ref")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -158,6 +158,42 @@ def compact_gloss(s: str) -> str:
     return g
 
 
+def normalize_reference_sense_gloss(s: str) -> str:
+    """Normalize sense-label casing for rendered TSV glosses.
+
+    DULAT sense definitions for non-verbal entries are often title-cased labels
+    like `Hero` or `Man, husband`. In TSV output we keep the usual lowercase
+    gloss style unless the sense begins with an all-caps token or explicit
+    markup-like punctuation.
+    """
+    value = strip_html(s)
+    if not value:
+        return ""
+    value = value.replace("\n", " ")
+    value = re.sub(r"\s+", " ", value)
+    value = value.replace(";", ",")
+    value = value.replace('"', "")
+    value = _split_first_top_level(value, sep=",")[0]
+    value = value.strip(" ,;")
+    if not value:
+        return ""
+    prefix_match = re.match(r"^(?P<prefix>\d+\)\s+)?(?P<rest>.*)$", value)
+    prefix = prefix_match.group("prefix") or "" if prefix_match else ""
+    rest = prefix_match.group("rest") or value if prefix_match else value
+    letter_match = re.match(r"^(?P<head>[^A-Za-z]*)(?P<word>[A-Za-z]+)(?P<tail>.*)$", rest)
+    if letter_match:
+        word = letter_match.group("word")
+        if not (len(word) > 1 and word.isupper()):
+            rest = (
+                letter_match.group("head")
+                + word[:1].lower()
+                + word[1:]
+                + letter_match.group("tail")
+            )
+        return f"{prefix}{rest}".strip()
+    return value
+
+
 def is_usable_sense_definition(definition: str) -> bool:
     """Return False for sense rows that are attestational examples/cross-refs."""
     text = strip_html(definition or "")
@@ -896,14 +932,14 @@ def gloss_for_entry(
     else:
         base = ""
         preferred_stem = stem_name or inferred_stem_from_analysis(analysis)
-        if is_verb_pos(pos_up) and section_ref and translation_index is not None:
+        if section_ref and translation_index is not None:
             reference_glosses = translation_index.sense_definitions_for_entry(
                 e.entry_id,
                 section_ref,
-                stem_name=preferred_stem,
+                stem_name=preferred_stem if is_verb_pos(pos_up) else "",
             )
             if reference_glosses:
-                base = compact_gloss(reference_glosses[0])
+                base = normalize_reference_sense_gloss(reference_glosses[0])
         if is_verb_pos(pos_up) and analysis and e.stem_glosses and not base:
             base = compact_gloss(
                 e.stem_glosses.get(preferred_stem)
