@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154103	ilidb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.118 2						
 154104	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-154104	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+154104	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN	
 # KTU 1.118 3						
 154105	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
 # KTU 1.118 4						
@@ -23,11 +23,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.118 10						
 154113	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.118 11						
-154114	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
+154114	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	5) DN	
 154115	w	w	w	conj.	and	
-154116	šmm	šm(m(I)/m	šmm (I)	n. m. pl. cstr. nom.	heavens	
+154116	šmm	šm(m(I)/m	šmm (I)	n. m. pl. cstr. nom.	2) DN “Heavens”	
 # KTU 1.118 12						
-154117	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	Swallows	
+154117	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	ḥbl kṯrt the band / flock of the DNN	
 # KTU 1.118 13						
 154118	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 154118	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
@@ -41,16 +41,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.118 17						
 154122	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. cstr. gen.	ʿAṯtar	
 # KTU 1.118 18						
-154123	ġrm	ġr(I)/m	ġr (I)	n. m. pl. abs. gen.	mountain	
+154123	ġrm	ġr(I)/m	ġr (I)	n. m. pl. abs. gen.	2) DN “Mountain(s)”	
 154124	wˤmqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.118 19						
 154125	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. nom.	back part (of the head)	
 # KTU 1.118 20						
-154126	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 154126	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.118 21						
 154127	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
-154127	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
+154127	špš	špš/	špš	n. f. sg. cstr. gen.	2) sun	
 # KTU 1.118 22						
 154128	arṣy	arṣ/+y	ảrṣ	n. f. cstr. gen.	earth	
 154128	arṣy	arṣy/	ảrṣy	DN sg. cstr. gen.	Arṣay/Arsay	
@@ -81,12 +80,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.118 32						
 154141	mlkm	mlk(I)&m	mlk (I)		king	
 # KTU 1.118 33						
+154142	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+154142	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+154142	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
 154142	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-154142	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-154142	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-154142	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
-154142	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-154142	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-154142	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-154142	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 154142	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	

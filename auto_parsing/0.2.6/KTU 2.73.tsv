@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.73 3						
 159102	xxx	?	?	?	?	
 159103	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
-159104	ht	ht	ht	adv.	here	
+159104	ht	ht	ht	adv.	2) conj.	
 159105	b	b	b	prep.	in	
 # KTU 2.73 4						
 159106	tˤtq	!t!ˤtq[	/ʕ-t-q/	vb G prefc. 3 f. sg.	to pass	
@@ -19,11 +19,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159106	tˤtq	!t!ˤtq[:w	/ʕ-t-q/	vb G prefc. 3 m. pl.	to pass	
 159106	tˤtq	!t===!ˤtq[	/ʕ-t-q/	vb G prefc. 2 m. pl.	to pass	
 159107	by	b+y	b	prep.	in	
-159108	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
+159108	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	1) country	
 159109		?	?	?	?	
 # KTU 2.73 5						
-159110	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 159110	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+159110	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 159111	w	w	w	conj.	and	
 159112	b	b	b	prep.	in	
 159113	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
@@ -33,18 +33,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159116	l	l(I)	l (I)	prep.	to	
 159116	l	l(II)	l (II)	adv.	no	
 159116	l	l(III)	l (III)	functor	certainly	
-159117	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish	
-159117	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish	
-159117	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish	
-159117	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 m. du.	to perish	
-159117	tḫlq	!t!ḫlq[:w	/ḫ-l-q/	vb G prefc. 3 m. pl.	to perish	
-159117	tḫlq	!t===!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. pl.	to perish	
-159117	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
-159118	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
+159117	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	DULAT quote in /ḫ-l-q/ (cue: devastated)
+159118	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	1) country	
 159119	x	?	?	?	?	
 # KTU 2.73 7						
 159120	w	w	w	conj.	and	
-159121	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
+159121	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
 159122	qnim	qn(u&i/m	qnủ	n. m. pl. abs. gen.	(gem of (?)) lapis lazuli	
 159123	k	+k	-k (I)			
 159123	k	~k	-k (II)			
@@ -64,14 +58,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159130	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 159130	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
 159130	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
-159130	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
-159130	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
-159131	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. nom.	lord	
+159130	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	1) man	
+159130	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	1) man	
+159131	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. cstr. nom.	lord	
 159132	xxxxxxx	?	?	?	?	
 159133	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
 # KTU 2.73 9						
 159134	w	w	w	conj.	and	
-159135	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	ember	
+159135	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	3) deep red purple	
 159136	b	b	b	prep.	in	
 159137	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
 159137	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
@@ -80,20 +74,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.73 10						
 159140	ššmḫt	]š]šmḫ[t	/š-m-ḫ/	vb Š suffc. 1 c. sg.	to be glad	
 159141	w	w	w	conj.	and	
-159142	ht	ht	ht	adv.	here	
+159142	ht	ht	ht	adv.	2) conj.	
 159143	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 159143	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 159144	xxxxxxxxt	?	?	?	?	DULAT: NOT FOUND
 159145		?	?	?	?	
 # KTU 2.73 11						
 159146	mly	mly(I)	mly (I)	?	?	
-159147	innm	in/+nm	ỉn	n. m. cstr. nom.	lack of	
+159147	innm	in/+nm	ỉn	n. m. cstr. nom.	1) there is/are not	
 159148	smxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.73 12						
 159149	w	w	w	conj.	and	
-159150	at	at(I)	ảt (I)	pers. pn.	you	
-159151	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
-159152	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+159150	at	at(I)	ảt (I)	pers. pn.	1) you c) with ellipsis of the vb	
+159151	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+159152	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say, tell, announce, communicate, inform	
 159152	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.73 13						
 159153	w	w	w	conj.	and	
@@ -112,8 +106,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159160	tškḥ	!t===!škḥ[	/š-k-ḥ/	vb G prefc. 2 m. pl.	to find	
 # KTU 2.73 15						
 159161	dt	d+t	d	det. or rel. functor	the one(s) of	
-159162	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	queen	
-159163	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
+159162	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	1) queen b) genitive	
+159163	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go, go away	
 # KTU 2.73 16						
 159164	w	w	w	conj.	and	
 159165	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
@@ -126,11 +120,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.73 18						
 159171	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 159172	sḫlm	sḫl/m	sḫl	n. m. pl. cstr. gen.	chasser	
-159173	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. gen.	presence	
+159173	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. gen.	1) to be	
 159174	w	w	w	conj.	and	
 # KTU 2.73 19						
-159175	at	at(I)	ảt (I)	pers. pn.	you	
-159176	mġ	mġy[	/m-ġ-y/	vb G impv. 2	to come	
+159175	at	at(I)	ảt (I)	pers. pn.	1) you d) emphatic of suff. pn	
+159176	mġ	mġy[	/m-ġ-y/	vb G impv. 2	to come, arrive	
 159177	nškḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.73 20						
 159178	xxx	?	?	?	?	

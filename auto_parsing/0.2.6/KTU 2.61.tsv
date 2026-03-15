@@ -3,15 +3,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158622	l	l(I)	l (I)	prep.	to	
 158623	ġrdn	ġrdn/	ġrdn	PN sg. cstr. gen.	ġrdn	
 # KTU 2.61 2						
-158624	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
+158624	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 158625	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 158625	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 158625	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 158625	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 158625	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.61 3						
-158626	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-158626	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+158626	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	4) special uses d) dependent person	
+158626	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	4) special uses d) dependent person	
 158626	bn	bn(II)	bn (II)	prep.	between	
 158626	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 158626	bn	bn[	/b-n/	vb G impv. 2	to understand	
@@ -25,49 +25,43 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158628	k	k(I)	k (I)	prep.	like	
 158628	k	k(II)	k (II)	emph. functor	yes	
 # KTU 2.61 4						
-158629	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
-158629	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
+158629	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
+158629	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
 158630	hw	hw	hw	pers. pn.	he	
 158631	xx	?	?	?	?	
 158632	x	?	?	?	?	
 # KTU 2.61 5						
 158633	hbṭ	hbṭ[:d	/h-b-ṭ/ẓ/	vb D suffc. 3 m. sg.	to knock down	
-158633	hbṭ	hbṭ[:dt===	/h-b-ṭ/ẓ/	vb D suffc. 3 f. sg.	to knock down	
 158633	hbṭ	hbṭ[:d:w	/h-b-ṭ/ẓ/	vb D suffc. 3 m. pl.	to knock down	
-158633	hbṭ	hbṭ[:dt=	/h-b-ṭ/ẓ/	vb D suffc. 2 m. sg.	to knock down	
-158633	hbṭ	hbṭ[:dt==	/h-b-ṭ/ẓ/	vb D suffc. 2 f. sg.	to knock down	
-158633	hbṭ	hbṭ[:dt	/h-b-ṭ/ẓ/	vb D suffc. 1 c. sg.	to knock down	
 158633	hbṭ	!!hbṭ[/	/h-b-ṭ/ẓ/	vb D inf.	to knock down	
-158634	hw	hw	hw	pers. pn.	he	
+158634	hw	hw	hw	pers. pn.	1) he	
 # KTU 2.61 6						
-158635	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
-158635	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
+158635	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	1) (royal) guard	
+158635	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	1) (royal) guard	
 158636	w	w	w	conj.	and	
-158637	šl	šl[	/š-l(-l)/	vb G suffc. 3 m. sg.	to plunder	
-158637	šl	!!šl[/	/š-l(-l)/	vb G inf.	to plunder	
+158637	šl	šl[	/š-l(-l)/	vb G suffc. 3 m. sg.	to plunder, rob	
+158637	šl	!!šl[/	/š-l(-l)/	vb G inf.	to plunder, rob	
 158638	hw	hw	hw	pers. pn.	he	
 # KTU 2.61 7						
-158639	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. nom.	city	
+158639	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. nom.	1) city	
 # KTU 2.61 8						
-158640	akln	akl(II)/+n	ảkl (II)	n. m. cstr. gen.	grain	
+158640	akln	akl(II)/+n	ảkl (II)	n. m. cstr. gen.	1) grain	
 158641	b	b	b	prep.	in	
-158642	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. gen.	threshing-floor	
+158642	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. gen.	1) threshing-floor a) b grn yḫrb on the threshing-floor (the harvest) had withered	
 # KTU 2.61 9						
 158643	l	l(III)	l (III)	functor	certainly	
 158644	bˤr	bˤr/	bʕr	adj. m. abs. nom.	burnt	
 # KTU 2.61 10						
 158645	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
-158646	krmm	krm/	krm	n. m. pl. abs. gen.	vineyard	
-158646	krmm	krm/	krm	n. m. sg. abs. gen.	vineyard	
+158646	krmm	krm/	krm	n. m. pl. abs. gen.	1) vineyard a) krm ảḥd one vineyard	
+158646	krmm	krm/	krm	n. m. sg. abs. gen.	1) vineyard a) krm ảḥd one vineyard	
 # KTU 2.61 11						
-158647	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish	
-158647	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to perish	
-158647	ḫlq	ḫlq/	ḫlq	adj. m. sg. abs. nom.	ruined	
+158647	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	DULAT quote in /ḫ-l-q/ (cue: destroyed)
 # KTU 2.61 12						
 158648	qrtln	?	?	?	?	DULAT: NOT FOUND
-158649	ḫlqt	ḫlq[t	/ḫ-l-q/	vb G suffc. 1 c. sg.	to perish	
-158649	ḫlqt	ḫlq[t:pass	/ḫ-l-q/	vb Dpass suffc. 1 c. sg.	to perish	
+158649	ḫlqt	ḫlq[t	/ḫ-l-q/	vb G suffc. 1 c. sg.	to perish, to be lost	
+158649	ḫlqt	ḫlq[t:pass	/ḫ-l-q/	vb Dpass suffc. 1 c. sg.	to be destroyed, devastated	
 # KTU 2.61 13						
-158650	w	w	w	conj.	and	
-158651	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	to know	
-158652	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	to know	
+158650	w	w	w	conj.	3) in the correlation protasis-apodosis	
+158651	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	1) to know	
+158652	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	1) to know	

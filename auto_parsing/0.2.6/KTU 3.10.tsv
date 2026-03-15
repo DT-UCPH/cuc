@@ -1,9 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.10 1						
 161233	spxrn	?	?	?	?	DULAT: NOT FOUND
-161234	mnḥ	mnḥ/	mnḥ	n. m. sg. cstr. nom.	delivery	
-161234	mnḥ	mnḫ/	mnḫ	n. m. sg. cstr. nom.	calm	
-161235	dbd	db/+d	db	n. m. cstr. gen.	threshold, ?	
+161234	mnḥ	mnḥ/	mnḥ	n. m. sg. cstr. nom.	delivery	DULAT quote in mnḥ (cue: delivery)
+161235	dbd	db/+d	db	n. m. cstr. gen.	threshold	
 161236	mnny	mn(III)/+ny	mn (III)	n. m. cstr. nom.	mina	
 161236	mnny	mn(IV)+ny	mn (IV)	?	?	
 # KTU 3.10 2						
@@ -73,9 +72,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161272	bˤlyn	bˤl(II)&y/+n	bʕl (II)	n. m. cstr. gen.	lord	
 161273	ḥṭb	ḥṭb(I)/	ḥṭb (I)	n. m. sg. abs. nom.	wood-cutter	
 # KTU 3.10 13						
-161274	šbˤm	šbˤm/	šbʕm	num.	seventy	
-161275	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
-161276	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
+161274	šbˤm	šbˤm/	šbʕm	num.	1) seventy a) appositional syntagm	
+161275	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	1) unit of weight a) ṯql one shekel	
+161276	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	1) total quantity or price	
 161277	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 161278	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 161278	ˤl	ˤl(II)	ʕl (II)	adv.	above	
@@ -122,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161300	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
 161301	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 161302	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161303	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	tlmyn	
+161303	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	2.11	
 # KTU 3.10 22						
 161304	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161305	ily	il(I)/y	ỉl (I)	n. m. abs. gen.	god	

@@ -105,10 +105,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149702	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.72 16						
 149703	k	k(III)	k (III)	Subordinating or completive functor	when	
-149704	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
-149704	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
+149704	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
+149704	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to occupy space, cover	
 149705	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. nom.	grain	
-149706	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
+149706	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	1) horse a) ảsr sswm they harnessed the horses	
 # KTU 1.72 17						
 149707	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 149707	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
@@ -121,8 +121,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149712	aškrr	aškrr/	ảškrr	n. m. sg. abs. gen.	wax	
 # KTU 1.72 19						
 149713	w	w	w	conj.	and	
-149714	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 149714	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+149714	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 149715	ḥḏrt	?	?	?	?	DULAT: NOT FOUND
 149716	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
 149716	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
@@ -141,7 +141,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.72 21						
 149722	k	k(III)	k (III)	Subordinating or completive functor	when	
 149723	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
-149723	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
+149723	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to be seized, captured, collected, re- cruited, bloated	
 149724	arl	?	?	?	?	DULAT: NOT FOUND
 149725	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 # KTU 1.72 22						
@@ -157,7 +157,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.72 23						
 149732	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 149732	št	št[	/š-t/	vb G impv. 2	to place	
-149732	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
+149732	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 149732	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 149732	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 149733	irġn	?	?	?	?	DULAT: NOT FOUND
@@ -190,12 +190,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149749	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.72 27						
 149750	k	k(III)	k (III)	Subordinating or completive functor	when	
-149751	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach	
+149751	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach, rebuke	
 149752	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 # KTU 1.72 28						
-149753	dprn	dprn/	dprn	n. m. sg. cstr. gen.	juniper	
+149753	dprn	dprn/	dprn	n. m. sg. cstr. gen.	1) juniper a) commodity	
 # KTU 1.72 29						
-149754	drˤ	drˤ/	d/ḏrʕ	n. m. sg. cstr. gen.	seed	
+149754	drˤ	drˤ/	d/ḏrʕ	n. m. sg. cstr. gen.	2) (grain of) seed	
 149755		?	?	?	?	
 # KTU 1.72 30						
 149756	tmṯl	tmṯl/	tmṯl	n. m. sg. cstr. gen.	equal amount	
@@ -205,13 +205,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149758	w	w	w	conj.	and	
 149759	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 149759	št	št[	/š-t/	vb G impv. 2	to place	
-149759	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
+149759	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 149759	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 149759	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 # KTU 1.72 33						
 149760	w	w	w	conj.	and	
-149761	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 149761	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+149761	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 # KTU 1.72 34						
 149762	irġn	?	?	?	?	DULAT: NOT FOUND
 149763	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. nom.	donkey	
@@ -247,8 +247,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149782	qmḥ	qmḥ/	qmḥ	n. m. sg. cstr. nom.	flour	
 149783	bql	bql/	bql	n. m. sg. abs. gen.	malt	
 # KTU 1.72 39						
-149784	tdkn	!t!dk[:pass+n	d-k(-k)/	vb Gpass prefc.	to be pounded	
-149784	tdkn	tdkn[:pass	d-k(-k)/	vb Gpass suffc.	to be pounded	
+149784	tdkn	!t!dk[:pass+n	d-k(-k)/	vb Gpass prefc.	to be pounded, ground	
 149785	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 149786	w	w	w	conj.	and	
 149787	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	

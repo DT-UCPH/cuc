@@ -1,24 +1,24 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 1						
 154650	b	b	b	prep.	in	
-154651	tšˤ	tšˤ/	tšʕ	num.	nine	
+154651	tšˤ	tšˤ/	tšʕ	num.	1) nine a) elliptical syntagms	
 154652	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
 154652	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
-154652	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	to invite	
+154652	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
 154652	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
 # KTU 1.132 2						
-154653	trbd	!t!rbd[	/r-b-d/	vb G prefc. 3 f. sg.	to (be) prepare(d)	
-154653	trbd	!t=!rbd[	/r-b-d/	vb G prefc. 2 m. sg.	to (be) prepare(d)	
-154653	trbd	!t==!rbd[	/r-b-d/	vb G prefc. 2 f. sg.	to (be) prepare(d)	
-154653	trbd	!t!rbd[	/r-b-d/	vb G prefc. 3 m. du.	to (be) prepare(d)	
-154653	trbd	!t!rbd[:w	/r-b-d/	vb G prefc. 3 m. pl.	to (be) prepare(d)	
-154653	trbd	!t===!rbd[	/r-b-d/	vb G prefc. 2 m. pl.	to (be) prepare(d)	
-154653	trbd	!t!(]n]rbd[	/r-b-d/	vb N prefc. 3 f. sg.	to (be) prepare(d)	
-154653	trbd	!t=!(]n]rbd[	/r-b-d/	vb N prefc. 2 m. sg.	to (be) prepare(d)	
-154653	trbd	!t==!(]n]rbd[	/r-b-d/	vb N prefc. 2 f. sg.	to (be) prepare(d)	
-154653	trbd	!t!(]n]rbd[	/r-b-d/	vb N prefc. 3 m. du.	to (be) prepare(d)	
-154653	trbd	!t!(]n]rbd[:w	/r-b-d/	vb N prefc. 3 m. pl.	to (be) prepare(d)	
-154653	trbd	!t===!(]n]rbd[	/r-b-d/	vb N prefc. 2 m. pl.	to (be) prepare(d)	
+154653	trbd	!t!rbd[	/r-b-d/	vb G prefc. 3 f. sg.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t=!rbd[	/r-b-d/	vb G prefc. 2 m. sg.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t==!rbd[	/r-b-d/	vb G prefc. 2 f. sg.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t!rbd[	/r-b-d/	vb G prefc. 3 m. du.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t!rbd[:w	/r-b-d/	vb G prefc. 3 m. pl.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t===!rbd[	/r-b-d/	vb G prefc. 2 m. pl.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t!(]n]rbd[	/r-b-d/	vb N prefc. 3 f. sg.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t=!(]n]rbd[	/r-b-d/	vb N prefc. 2 m. sg.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t==!(]n]rbd[	/r-b-d/	vb N prefc. 2 f. sg.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t!(]n]rbd[	/r-b-d/	vb N prefc. 3 m. du.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t!(]n]rbd[:w	/r-b-d/	vb N prefc. 3 m. pl.	to (be) prepare(d), get (a bed) ready	
+154653	trbd	!t===!(]n]rbd[	/r-b-d/	vb N prefc. 2 m. pl.	to (be) prepare(d), get (a bed) ready	
 154654	ˤrš	ˤrš/	ʕrš	n. f. sg. cstr. nom.	bed	
 154655	pd	pd(I)/	pd (I)	n. m. sg. abs. gen.	lock (of hair)	
 # KTU 1.132 3						
@@ -35,14 +35,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154663	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
 154663	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
 154664	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. cstr. gen.	Bien-amada	
-154665	š	š/	š	n. m. sg. cstr. gen.	ram	
+154665	š	š/	š	n. m. sg. cstr. gen.	1) ram b) as a sacrificial victim	
 # KTU 1.132 6						
-154666	šbrd	šbr/+d	šbr	n. m. cstr. gen.	stick, ?	
+154666	šbrd	šbr/+d	šbr	n. m. cstr. gen.	stick	
 154667	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 154667	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 # KTU 1.132 7						
-154668	dqtd	dqt(I)/+d	dqt (I)	adj. f. cstr. nom.	small, ?	
-154668	dqtd	dqt(II)/+d	dqt (II)	n. f. cstr. nom.	manufacture, ?	
+154668	dqtd	dqt(I)/+d	dqt (I)	adj. f. cstr. nom.	3) DN < “the Little One”	
+154668	dqtd	dqt(II)/+d	dqt (II)	n. f. cstr. nom.	manufacture	
 154669	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 154669	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 # KTU 1.132 8						
@@ -55,11 +55,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154675	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 154675	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 10						
-154676	nbdgd	nbdg/+d	nbdg	DN sg. cstr. nom.	nbdg, ?	
+154676	nbdgd	nbdg/+d	nbdg	DN sg. cstr. nom.	nbdg	
 154677	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 154677	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 11						
-154678	tgnd	tgn/+d	tgn	PN sg. cstr. nom.	tgn, ?	
+154678	tgnd	tgn/+d	tgn	PN sg. cstr. nom.	tgn	
 154679	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 154679	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 12						
@@ -112,7 +112,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 23						
 154709	alnd	aln(II)/	ảln (II)	DN sg. cstr. nom.	the Lady	
 154710	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-154711	šm	š/m	š	n. m. pl. cstr. gen.	ram	
+154711	šm	š/m	š	n. m. pl. cstr. gen.	1) ram b) as a sacrificial victim	
 154711	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
 # KTU 1.132 24						
 154712	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	

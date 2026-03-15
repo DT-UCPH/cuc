@@ -21,8 +21,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 8						
 160457	xk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 9						
-160458	w	w	w	conj.	and	
-160459	l	l(I)	l (I)	prep.	to	
+160458	w	w	w	conj.	1) copulative conj.	
+160459	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: never)
 160460	aḫyxxxxxḥm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 10						
 160461	xxny	?	?	?	?	DULAT: NOT FOUND
@@ -34,9 +34,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160465	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
 160465	ky	k(II)&y	k (II)	emph. functor	yes	
 160465	ky	k(IV)+y	k (IV)	adv.	thus	
-160466	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	
 160466	ḫbt	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
-160467	w	w	w	conj.	and	
+160466	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	
+160467	w	w	w	conj.	4) declarative and emphatic functor	
 160468	lušal	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 12						
 160469	yby	?	?	?	?	DULAT: NOT FOUND
@@ -71,7 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160487	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 160488	tġr	nġr[	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.103 19						
-160489	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to be well	
+160489	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
 160490	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
 160490	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
 # KTU 2.103 20						
@@ -101,7 +101,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160500	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
 160500	tˤn	!t===!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	to answer	
 160500	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
-160500	tˤn	!t!ˤn[:d	/ʕ-n/	vb D prefc.	to see	
 160500	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 f. sg.	to be / remain depressed	
 160500	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 160500	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
@@ -117,7 +116,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 27						
 160505		?	?	?	?	
 # KTU 2.103 28						
-160506	w	w	w	conj.	and	
+160506	w	w	w	conj.	1) copulative conj.	
 160507	aḫ	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	brother (by blood)	
 160508	x	?	?	?	?	
 # KTU 2.103 29						
@@ -135,7 +134,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160516	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 160516	p	p(II)	p (II)	adv.	here	
 160517	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
-160518	šḥš	]š]ḥš(I)[	/ḥ-š/ (I)	vb Š impv. 2	to hurry	
+160518	šḥš	]š]ḥš(I)[	/ḥ-š/ (I)	vb Š impv. 2	to make somebody hurry up	
 160519		?	?	?	?	
 # KTU 2.103 33						
 160520	ˤkd	ˤkd/	ʕkd	TN sg. abs. nom.	ungestüm	

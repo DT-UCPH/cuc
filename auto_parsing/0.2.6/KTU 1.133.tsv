@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 1						
 154724	w	w	w	conj.	and	
-154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
+154725	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	
 154726	bn	bn(I)/	bn (I)	n. m. cstr. nom.	son	
 154726	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 # KTU 1.133 2						
@@ -10,9 +10,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154728	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
 154728	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
 154728	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-154729	npšm	npš(I)/m	npš (I)	n. f. pl. cstr. gen.	throat	
+154729	npšm	npš(I)/m	npš (I)	n. f. pl. cstr. gen.	2) appetite	
 # KTU 1.133 3						
-154730	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
+154730	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	2) appetite	
 154731	lbim	lbi/m	lbủ	n. m. pl. cstr. gen.	lion	
 # KTU 1.133 4						
 154732	thw	thw/	thw	n. m. sg. abs. gen.	steppe	
@@ -21,8 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 5						
 154735	anḫr	anḫr/	ảnḫr	n. m. sg. abs. gen.	dolphin	
 154736	b	b	b	prep.	in	
-154737	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
-154737	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+154737	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	1) sea	DULAT quote in ym (II) (cue: sea)
 # KTU 1.133 6						
 154738	brkyt	?	?	?	?	DULAT: NOT FOUND
 154739	kšbšt	?	?	?	?	DULAT: NOT FOUND
@@ -36,8 +35,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154742	hm	hm(II)	hm (II)	conj./interr. functor	if	
 154742	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 1.133 8						
-154743	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
-154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+154743	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	2) spring	
+154743	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	2) spring	
 154743	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. nom.	furrow	
 154744	kḏd	ḏd(II)/	ḏd (II)	n. m. cstr. gen.	grotto	Based on DULAT reconstruction.
 154744	kḏd	ḏd(I)/	ḏd (I)	n. m. cstr. gen.	breast	Based on DULAT reconstruction.
@@ -62,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154752	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 1.133 11						
 154753	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-154754	ydty	yd(I)/	yd (I)	n. f. abs. nom.	hand	
+154754	ydty	yd(I)/	yd (I)	n. f. abs. nom.	2) part	
 154755	b	b	b	prep.	in	
 154756	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
 # KTU 1.133 12						
@@ -77,8 +76,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 14						
 154762	xxxm	?	?	?	?	DULAT: NOT FOUND
 154763	ẓbm	ẓb/m	ẓby	n. m. pl. cstr. nom.	gazelle	
-154764	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	bull	
-154764	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	bull	
+154764	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	2) bull b) title of honour	
+154764	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	2) bull b) title of honour	
 # KTU 1.133 15						
 154765	xxbn	?	?	?	?	DULAT: NOT FOUND
 154766	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
@@ -87,7 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154767	mt	mt(II)/	mt (II)	n. m. sg. abs. gen.	death	
 154767	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. gen.	to die	
 154767	mt	mt(I)/	mt (I)	n. m. sg. abs. gen.	dead person	
-154768	šmḥ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad	
+154768	šmḥ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad, rejoice	
 154769	p	p(I)	p (I)	conj. functor	and	
 154769	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 154769	p	p(II)	p (II)	adv.	here	

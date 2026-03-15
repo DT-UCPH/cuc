@@ -30,12 +30,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.172 12						
 155812	t	/t, /t=				DULAT: NOT FOUND
 155812	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-155813	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	left	
+155813	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	2) left hand	
 # KTU 1.172 13						
 155814	xˤnk	?	?	?	?	DULAT: NOT FOUND
-155815	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
-155815	št	št[	/š-t/	vb G impv. 2	to place	
-155815	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
+155815	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
+155815	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
+155815	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
 # KTU 1.172 14						
 155816	rn	?	?	?	?	DULAT: NOT FOUND
 155817	lp	?	?	?	?	DULAT: NOT FOUND
@@ -60,7 +60,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155823		?	?	?	?	
 155824	l	l(I)	l (I)	prep.	to	
 155825	mˤt	mˤ(t/t	mʕt	n. f. sg. cstr. gen.	?	
-155825	mˤt	mˤ(t/t=	mʕt	n. f. pl. cstr. gen.	?	
 # KTU 1.172 19						
 155826	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
 155827	ˤlyqm	ˤlyqm	ʕlyqm	?	?	
@@ -70,12 +69,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155830	dd	dd(II)/	dd (II)	n. m. sg. cstr. nom.	cauldronful	
 # KTU 1.172 21						
 155831		?	?	?	?	
-155832	ḫẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. gen.	arrow	
+155832	ḫẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. gen.	1) arrow c) fletch- ers	
 155833	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 155834	b	b	b	prep.	in	
-155835	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	
+155835	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	5) used as a preposition	
 # KTU 1.172 22						
-155836	nh	n(I)&h	-n (I)	morph.	Sun	
+155836	nh	n(I)&h	-n (I)	morph.	with PNN and titles	
 155837	w	w	w	conj.	and	
 155838	lyamr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 23						
@@ -90,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.172 26						
 155845	xšb	?	?	?	?	DULAT: NOT FOUND
 155846	l	l(I)	l (I)	prep.	to	
-155847	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. gen.	wind	
+155847	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. gen.	2) gust	
 # KTU 1.172 27						
 155848	dy	d+y	d	det. or rel. functor	the one(s) of	
 155849	w	w	w	conj.	and	

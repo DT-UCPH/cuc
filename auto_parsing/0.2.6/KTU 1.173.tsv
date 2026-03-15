@@ -60,7 +60,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155892	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 155892	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 155893	š	š/	š	n. m. sg. cstr. gen.	ram	
-155894	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 155894	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.173 13						
 155895		?	?	?	?	
@@ -73,15 +72,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155899	w	w	w	conj.	and	
 155900	kll	kll/	kll	n. m. sg. abs. nom.	totality	
 # KTU 1.173 15						
-155901	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
+155901	ṯlṯm	ṯlṯm/	ṯlṯm	num.	1) the numeral thirty b) ge. syntagms	
 155902	pamt	pa/m&t	pảm(t)	n. f. pl. abs. nom.	time	
 # KTU 1.173 16						
 155903	w	w	w	conj.	and	
-155904	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-155904	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-155905	npṣh	npṣ/+h	npṣ	n. m. cstr. nom.	personal belongings	
+155904	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
+155904	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
+155905	npṣh	npṣ/+h	npṣ	n. m. cstr. nom.	2) clothes	
 # KTU 1.173 17						
-155906	ṯˤh	ṯˤ(II)/+h	ṯʕ (II)	n. m. cstr. nom.	Hero	
+155906	ṯˤh	ṯˤ(II)/+h	ṯʕ (II)	n. m. cstr. nom.	2) title of the dead and deified kings of Ugarit	
 155907	w	w	w	conj.	and	
-155908	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
-155908	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+155908	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	DULAT quote in ḥl (II) (cue: desacralised)

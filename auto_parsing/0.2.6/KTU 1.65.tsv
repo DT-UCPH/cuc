@@ -1,14 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.65 1						
 149403	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149403	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149403	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	1) god d) gods of a place or region	
 149404	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
 149404	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 149405	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149405	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+149405	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	
 # KTU 1.65 2						
-149406	dr	dr/	dr	n. m. pl. cstr. gen.	circle	
-149406	dr	dr/	dr	n. m. sg. cstr. gen.	circle	
+149406	dr	dr/	dr	n. m. pl. cstr. gen.	1) circle of relatives and friends	
+149406	dr	dr/	dr	n. m. sg. cstr. gen.	1) circle of relatives and friends	
 149407	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
 149407	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 149408	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
@@ -31,22 +31,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.65 6						
 149416	ḥnn	ḥn/+n	ḥn	n. m. cstr. nom.	grace	
 149416	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. cstr. nom.	kindness	
-149417	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149417	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+149417	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	DULAT quote in ḥn (cue: god)
 # KTU 1.65 7						
 149418	nṣbt	nṣb(t/t	nṣbt	n. f. sg. cstr. gen.	predilection	
 149419	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 149419	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 8						
-149420	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	peace	
+149420	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	1) peace a) sk šlm l kbd ảrṣ pour out peace into the bosom of the earth	
 149421	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 149421	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 9						
-149422	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149422	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-149423	ḫš	ḫš/	ḫš	DN sg. cstr. gen.	le dieu qui montre la solicitude	
-149424	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149424	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+149422	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
+149423	ḫš	ḫš/	ḫš	DN sg. cstr. gen.	ḫš	
+149424	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
 149425	add	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
 # KTU 1.65 10						
 149426	bˤd	bˤd	bʕd	adv. or prep.	behind	
@@ -62,12 +59,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149432	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 13						
 149433	b	b	b	prep.	in	
-149434	nit	ni(t/t	nỉt	n. f. sg. cstr. gen.	axe	
+149434	nit	ni(t/t	nỉt	n. f. sg. cstr. gen.	1) axe b) as a (divine) weapon	
 149435	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 149435	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 14						
 149436	b	b	b	prep.	in	
-149437	ṣmd	ṣmd/	ṣmd	n. m. sg. cstr. gen.	pair	
+149437	ṣmd	ṣmd/	ṣmd	n. m. sg. cstr. gen.	4) mace or double axe (De Moor SP 135)	
 149438	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 149438	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 15						
@@ -77,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149441	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 16						
 149442	b	b	b	prep.	in	
-149443	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
+149443	šrp	šrp/	šrp	n. m. sg. cstr. gen.	1) burnt sacrifice	
 149444	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 149444	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 17						

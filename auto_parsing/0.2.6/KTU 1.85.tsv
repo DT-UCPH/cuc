@@ -1,14 +1,13 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.85 1						
-150496	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
-150496	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
-150497	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
+150496	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	1) tablet c) of instructions	DULAT quote in spr (II) (cue: instructions)
+150497	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	1) grace	
 150498	śśwm	śśwm/	s:śs/św	n. f. du. abs. gen.	horse	
 150498	śśwm	śśwm/	s:śs/św	n. f. pl. abs. gen.	horse	
 # KTU 1.85 2						
 150499	k	k(III)	k (III)	Subordinating or completive functor	when	
-150500	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach	
-150501	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
+150500	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach, rebuke	
+150501	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	1) horse a) ảsr sswm they harnessed the horses	
 150502	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 150502	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
 150503	ˤqrbn	ˤqrbn/	ʕqrbn	n. m. sg. cstr. gen.	Skorpionspflanze	
@@ -18,15 +17,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150504	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
 150504	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 150505	w	w	w	conj.	and	
-150506	ymsś	!y!ms(s[	/m-s-s(/ś)/	vb G prefc. 3 m. sg.	to be liquefied	
+150506	ymsś	!y!ms(s[	/m-s-s(/ś)/	vb G prefc. 3 m. sg.	1) to be liquefied	
 150507	hm	hm(II)	hm (II)	conj./interr. functor	if	
 150507	hm	hm(I)	hm (I)	pers. pn.	they	
 150508	b	b	b	prep.	in	
 150509	mskt	msk(t/t	mskt	n. f. sg. abs. gen.	mixture	
 150510	dlḥt	dlḥ(t/t	dlḥt	adj. f. sg. abs. nom.	thick	
 # KTU 1.85 4						
-150511	hm	hm(II)	hm (II)	conj./interr. functor	if	
-150511	hm	hm(I)	hm (I)	pers. pn.	they	
+150511	hm	hm(II)	hm (II)	conj./interr. functor	2) perhaps …? (interr. functor) b) in compound question	DULAT quote in hm (II) (cue: compound)
 150512	b	b	b	prep.	in	
 150513	mndġ	mndġ/	mndġ	n. m. sg. abs. gen.		
 150514	w	w	w	conj.	and	
@@ -36,15 +34,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150517	aph	ap(I)+h	ảp (I)	adv./conj.	also	
 150517	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.85 5						
-150518	k	+k	-k (I)			
-150518	k	~k	-k (II)			
-150518	k	k(III)	k (III)	Subordinating or completive functor	when	
-150518	k	k(I)	k (I)	prep.	like	
-150518	k	k(II)	k (II)	emph. functor	yes	
-150519	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
-150519	ḫr	ḫr[/	/ḫ-r-ʔ/	vb G ptcpl. m. sg. cstr. nom.	to defecate	
-150519	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. cstr. nom.	to have spasms (of diarrhoea)	
-150520	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
+150518	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /ḫ-r(-r)/ (cue: if)
+150519	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. cstr. nom.	to have spasms (of diarrhoea)	DULAT quote in /ḫ-r(-r)/ (cue: diarrhoea)
+150520	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	1) horse a) ảsr sswm they harnessed the horses	
 150521	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
 150522	w	w	w	conj.	and	
 150523	bṣql	bṣql/	bṣql	n. m. sg. cstr. nom.	sprout	
@@ -70,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150532	k	k(II)	k (II)	emph. functor	yes	
 150533	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
 150534	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
-150535	ḫndrṯ	ḫndrṯ/	ḫndrṯ	n. m. sg. abs. gen.	apricot tree	
+150535	ḫndrṯ	ḫndrṯ/	ḫndrṯ	n. m. sg. abs. gen.	1) apricot tree	
 150536	w	w	w	conj.	and	
 150537	ṯqd	ṯqd/	ṯqd	n. m. sg. cstr. nom.	almond	
 150538	mr	mr(I)/	mr (I)	n. m. sg. cstr. gen.	myrrh	
@@ -88,21 +80,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150544	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.85 9						
 150545	w	w	w	conj.	and	
-150546	k	+k	-k (I)			
-150546	k	~k	-k (II)			
-150546	k	k(III)	k (III)	Subordinating or completive functor	when	
-150546	k	k(I)	k (I)	prep.	like	
-150546	k	k(II)	k (II)	emph. functor	yes	
-150547	l	l(I)	l (I)	prep.	to	
-150547	l	l(II)	l (II)	adv.	no	
-150547	l	l(III)	l (III)	functor	certainly	
+150546	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /ḫ-r-ʔ/ (cue: if)
+150547	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: neither)
 150548	yḫru	!y!ḫr(ʔ[&u	/ḫ-r-ʔ/	vb G prefc. 3 m. sg.	to defecate	
 150549	w	w	w	conj.	and	
-150550	l	l(I)	l (I)	prep.	to	
-150550	l	l(II)	l (II)	adv.	no	
-150550	l	l(III)	l (III)	functor	certainly	
+150550	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: neither)
 150551	yṯtn	!y!ṯ]t]n[	/ṯ-n/	vb Gt prefc. 3 m. sg.	to urinate	
-150552	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
+150552	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	1) horse a) ảsr sswm they harnessed the horses	
 # KTU 1.85 10						
 150553	mss	mss/	mss	n. m. sg. cstr. gen.	sap	
 150554	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
@@ -145,8 +129,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150575	aškrr	aškrr/	ảškrr	n. m. sg. abs. gen.	wax	
 # KTU 1.85 14						
 150576	w	w	w	conj.	and	
-150577	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 150577	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+150577	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 150578	ḥḏrt	?	?	?	?	DULAT: NOT FOUND
 150579	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
 150579	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
@@ -183,7 +167,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150595	w	w	w	conj.	and	
 150596	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 150596	št	št[	/š-t/	vb G impv. 2	to place	
-150596	št	št[:pass	/š-t/	vb Gpass suffc.	to place	
+150596	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 150596	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 150596	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 # KTU 1.85 17						
@@ -203,7 +187,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150604	w	w	w	conj.	and	
 150605	k	k(III)	k (III)	Subordinating or completive functor	when	
 150606	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
-150607	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
+150607	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	1) horse a) ảsr sswm they harnessed the horses	
 150608	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 150608	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
 150609	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
@@ -233,7 +217,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.85 21						
 150622	w	w	w	conj.	and	
 150623	šxxxxx	?	?	?	?	DULAT: NOT FOUND
-150624	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+150624	ˤl	ˤl(I)	ʕl (I)	prep.	4) relationship of sequence	
 150624	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 150624	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 150624	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
@@ -260,8 +244,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150635	śśw	śśw/	s:śs/św	n. m. sg. abs. nom.	horse	
 150636	xxxxx	?	?	?	?	
 # KTU 1.85 24						
-150637	pr	pr(II)/	pr (II)	n. m. sg. cstr. nom.	young bull	
 150637	pr	pr(I)/	pr (I)	n. m. sg. cstr. nom.	fruit	
+150637	pr	pr(II)/	pr (II)	n. m. sg. cstr. nom.	young bull	
 150638	ˤṯrb	ˤṯrb/	ʕṯrb	n. m. sg. cstr. gen.	arbrisseau semblable au grenadier	
 150639	drˤ	drˤ/	d/ḏrʕ	n. m. sg. abs. gen.	seed	
 150640	w	w	w	conj.	and	
@@ -283,16 +267,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150652	nni	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
 150652	nni	nn(u(I)/&i	nnủ (I)	n. m. sg. abs. gen.	Ammi	
 150653	w	w	w	conj.	and	
-150654	pr	pr(II)/	pr (II)	n. m. sg. cstr. nom.	young bull	
-150654	pr	pr(I)/	pr (I)	n. m. sg. cstr. nom.	fruit	
+150654	pr	pr(I)/	pr (I)	n. m. sg. cstr. nom.	fruit	DULAT quote in pr (I) (cue: fruit)
 150655	ˤbk	ˤbk/	ʕbk	n. m. sg. abs. gen.	eine Binsenart	
 150656	w	w	w	conj.	and	
 150657	xxxx	?	?	?	?	
 # KTU 1.85 27						
 150658	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. nom.		
 150659	w	w	w	conj.	and	
-150660	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 150660	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+150660	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 150661	ḥḏrt	?	?	?	?	DULAT: NOT FOUND
 150662	w	w	w	conj.	and	
 150663	xxxx	?	?	?	?	
@@ -315,8 +298,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150672	k	k(III)	k (III)	Subordinating or completive functor	when	
 150673	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
 150674	w	w	w	conj.	and	
-150675	ykhp	!y!khp[	/k-h-p/	vb G prefc. 3 m. sg.	to droop	
-150676	mid	mid/	mỉ/ủd	n. m. sg. cstr. nom.	abundance	
+150675	ykhp	!y!khp[	/k-h-p/	vb G prefc. 3 m. sg.	to droop, become depressed	
+150676	mid	mid/	mỉ/ủd	n. m. sg. cstr. nom.	2) abundantly	
 # KTU 1.85 31						
 150677	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	dried fig	
 150677	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	dried fig	

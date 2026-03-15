@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.8 2						
 161150	ṯrkn	ṯr(I)/+kn	ṯr (I)	n. m. cstr. gen.	bull	
 161150	ṯrkn	ṯrkn/	ṯrkn	PN sg. cstr. gen.	ṯrkn	
-161150	ṯrkn	ṯr(III)/+kn	ṯr (III)	n. m. cstr. gen.	a mat	
+161150	ṯrkn	ṯr(III)/+kn	ṯr (III)	n. m. cstr. gen.		
 # KTU 3.8 3						
 161151	kli	kli/	klỉ	PN sg. cstr. gen.	klỉ	
 # KTU 3.8 4						
@@ -14,10 +14,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.8 6						
 161154	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
 161154	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
-161154	ˤrb	ˤrb[	/ʕ-r-b/ (II)	vb G suffc. 3 m. sg.	to give a guarantee or pledge	
-161154	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	to give a guarantee or pledge	
+161154	ˤrb	ˤrb[	/ʕ-r-b/ (II)	vb G suffc. 3 m. sg.	1) to give a guarantee or pledge	
+161154	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	1) to give a guarantee or pledge	
 161154	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
-161155	b	b	b	prep.	in	
+161155	b	b	b	prep.	1) spatial location d) origin of a quality or process	
 161156	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 161156	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 161156	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
@@ -32,28 +32,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161161	b	b	b	prep.	in	
 161162	yṣihm	yṣih(I)/m	yṣủ (I)	n. m. pl. cstr. gen.	exit	
 # KTU 3.8 10						
-161163	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
+161163	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	1) country	
 161164	ṯth	ṯth(I)/	ṯn (I)	num.	two	
 # KTU 3.8 11						
 161165	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 161166	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.8 12						
-161167	tśˤn	nsˤ(II)[	/n-s:ś-ʕ/ (II)	vb G prefc.	to pay	
+161167	tśˤn	nsˤ(II)[	/n-s:ś-ʕ/ (II)	vb G prefc.	1) to pay	
 # KTU 3.8 13						
 161168	w	w	w	conj.	and	
-161169	hm	hm(II)	hm (II)	conj./interr. functor	if	
+161169	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
 161169	hm	hm(I)	hm (I)	pers. pn.	they	
-161170	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-161170	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-161170	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+161170	alp	alp(II)/	ảlp (II)	num.	1) (one, a) thousand e) elliptical use	DULAT quote in ảlp (II) (cue: thousand)
 # KTU 3.8 14						
-161171	l	l(I)	l (I)	prep.	to	
-161171	l	l(II)	l (II)	adv.	no	
-161171	l	l(III)	l (III)	functor	certainly	
+161171	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
 161172	tśˤn	nsˤ(II)[	/n-s:ś-ʕ/ (II)	vb G prefc.	to pay	
 # KTU 3.8 15						
-161173	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
-161173	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. nom.	sob	
+161173	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	DULAT quote in mṣrm (cue: egypt)
 # KTU 3.8 16						
 161174	tmkrn	!t!(]n]mkr[n	/m-k-r/	vb N prefc.	to be sold	
 # KTU 3.8 17						
@@ -83,14 +78,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161186	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. abs. nom.	kindness	
 # KTU 3.8 23						
 161187	brqn	brq(I)/+n	brq (I)	n. m. cstr. nom.	ray	
-161188	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-161188	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
-161188	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-161188	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-161188	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
-161188	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
-161188	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
-161188	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
-161188	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
-161188	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-161188	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+161188	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	DULAT quote in spr (I) (cue: scribe)

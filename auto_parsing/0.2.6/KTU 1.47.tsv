@@ -1,7 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 1						
-149075	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149075	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+149075	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	1) god d) gods of a place or region	DULAT quote in ỉl (I) (cue: gods)
 149076	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.47 2						
 149077	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
@@ -30,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149088	arṣw	?	?	?	?	DULAT: NOT FOUND
 149089	šmm	šm(m(I)/m	šmm (I)	n. m. pl. cstr. nom.	heavens	
 # KTU 1.47 13						
-149090	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	Swallows	
+149090	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	ḥbl kṯrt the band / flock of the DNN	
 # KTU 1.47 14						
 149091	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 149091	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
@@ -49,7 +48,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 20						
 149098	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. nom.	back part (of the head)	
 # KTU 1.47 21						
-149099	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 149099	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.47 22						
 149100	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
@@ -62,8 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 25						
 149103	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. gen.	ʿṯtrt (II)	
 # KTU 1.47 26						
-149104	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149104	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+149104	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god e) classes and groups of gods	DULAT quote in ỉl (I) (cue: gods)
 149105	tˤḏr	tˤḏr/	tʕḏr	n. m. sg. cstr. gen.	help	
 149106	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 149106	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
@@ -72,24 +69,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 28						
 149108	ddmš	ddmš/	ddmš	DN sg. cstr. gen.	ddmš	
 # KTU 1.47 29						
-149109	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. gen.	assembly	
+149109	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. gen.	1) assembly a) Assembly	
 149110	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 # KTU 1.47 30						
 149111	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-149111	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+149111	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	2) DN	
 # KTU 1.47 31						
 149112	uṯḫt	uṯḫ(t/t	ủṯḫt	DN/n. f. sg. cstr. gen.	incense burner	
 # KTU 1.47 32						
-149113	knr	knr/	knr	n. m. sg. abs. gen.	harp	
+149113	knr	knr/	knr	n. m. sg. abs. gen.	2) DN knr	
 # KTU 1.47 33						
-149114	mlkm	mlk(I)&m	mlk (I)		king	
+149114	mlkm	mlk(I)&m	mlk (I)		1) king a) human sovereign in gen	
 # KTU 1.47 34						
+149115	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+149115	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+149115	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
 149115	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-149115	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-149115	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-149115	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
-149115	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-149115	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-149115	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-149115	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 149115	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	

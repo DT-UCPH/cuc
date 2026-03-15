@@ -7,12 +7,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153727	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
 153727	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
 153728	wrm	?	?	?	?	DULAT: NOT FOUND
-153729	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 f. sg.	to see	
-153729	tph	!t=!ph(y[	/p-h-y/	vb G prefc. 2 m. sg.	to see	
-153729	tph	!t==!ph(y[	/p-h-y/	vb G prefc. 2 f. sg.	to see	
-153729	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 m. du.	to see	
-153729	tph	!t!ph(y[:w	/p-h-y/	vb G prefc. 3 m. pl.	to see	
-153729	tph	!t===!ph(y[	/p-h-y/	vb G prefc. 2 m. pl.	to see	
+153729	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 f. sg.	to see, espy	
+153729	tph	!t=!ph(y[	/p-h-y/	vb G prefc. 2 m. sg.	to see, espy	
+153729	tph	!t==!ph(y[	/p-h-y/	vb G prefc. 2 f. sg.	to see, espy	
+153729	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 m. du.	to see, espy	
+153729	tph	!t!ph(y[:w	/p-h-y/	vb G prefc. 3 m. pl.	to see, espy	
+153729	tph	!t===!ph(y[	/p-h-y/	vb G prefc. 2 m. pl.	to see, espy	
 # KTU 1.113 2						
 153730	lumm	?	?	?	?	DULAT: NOT FOUND
 153731	lnˤm	?	?	?	?	DULAT: NOT FOUND
@@ -21,16 +21,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153733	wrm	?	?	?	?	DULAT: NOT FOUND
 153734	ṯlbm	ṯlb/m	ṯlb	n. m. pl. cstr. nom.	flute	
 # KTU 1.113 4						
-153735	pr	pr(II)/	pr (II)	n. m. sg. abs. gen.	young bull	
 153735	pr	pr(I)/	pr (I)	n. m. sg. abs. gen.	fruit	
+153735	pr	pr(II)/	pr (II)	n. m. sg. abs. gen.	young bull	
 153736	lnˤm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.113 5						
 153737	d	d	d	det. or rel. functor	the one(s) of	
-153738	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
-153738	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
-153738	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
-153738	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
-153738	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+153738	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	DULAT quote in rm (I) (cue: dead)
 153739	wrm	?	?	?	?	DULAT: NOT FOUND
 153740	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 f. sg.	to see	
 153740	tph	!t=!ph(y[	/p-h-y/	vb G prefc. 2 m. sg.	to see	
@@ -42,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153741	ḥb	?	?	?	?	DULAT: NOT FOUND
 153742	lnˤm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.113 7						
-153743	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come	
+153743	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
 # KTU 1.113 8						
 153744	rm	rm(II)/	rm (II)	n. m. sg. cstr. nom.	erection	
 153745	ṯlbm	ṯlb/m	ṯlb	n. m. pl. abs. gen.	flute	
@@ -69,18 +65,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153756	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 153757	ˤmpi	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.113 16						
-153758	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-153758	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+153758	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
 153759	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr. gen.	bull	
 153759	ibrn	ibrn/	ỉbrn	PN sg. cstr. gen.	ỉbrn	
 153759	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr. gen.	wing	
 # KTU 1.113 17						
 153760	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 153760	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-153761	yˤḏrd	yˤḏrd/	yʕḏrd	PN sg. cstr. gen.	yʿḏrd	
+153761	yˤḏrd	yˤḏrd/	yʕḏrd	PN sg. cstr. gen.	dead king of Ugarit	
 # KTU 1.113 18						
-153762	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-153762	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+153762	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	DULAT quote in nqmpʕ (cue: god)
 153763	ˤmṯtmril	?	?	?	?	DULAT: NOT FOUND
 153764	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
 # KTU 1.113 19						
@@ -128,4 +122,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153782	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
 # KTU 1.113 26						
 153783	pˤil	?	?	?	?	DULAT: NOT FOUND
-153784	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to meet	
+153784	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to present, offer	

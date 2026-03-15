@@ -3,8 +3,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151491	r	?	?	?	?	DULAT: NOT FOUND
 151492	š	š/	š	n. m. sg. abs. nom.	ram	
 151493	ybšr	?	?	?	?	DULAT: NOT FOUND
-151494	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 151494	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+151494	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 # KTU 1.94 2						
 151495		?	?	?	?	
 # KTU 1.94 3						
@@ -51,8 +51,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 23						
 151517	x	?	?	?	?	
 151518	ybšr	?	?	?	?	DULAT: NOT FOUND
-151519	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 151519	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+151519	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	1) holy	
 # KTU 1.94 24						
 151520	t	/t, /t=				DULAT: NOT FOUND
 151520	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
@@ -83,10 +83,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 29						
 151535	xẓk	?	?	?	?	DULAT: NOT FOUND
 151536	w	w	w	conj.	and	
-151537	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
-151537	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
-151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
-151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	3) lady	
+151537	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	3) lady	
+151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	3) lady	
+151537	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	3) lady	
 # KTU 1.94 30						
 151538	xk	?	?	?	?	DULAT: NOT FOUND
 151539	w	w	w	conj.	and	
@@ -108,7 +108,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151551	xṯ	?	?	?	?	DULAT: NOT FOUND
 151552	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.94 35						
-151553	ṯtm	ṯtm(I)/	ṯn (I)	num.	two	
+151553	ṯtm	ṯtm(I)/	ṯn (I)	num.	4) adv. use	
 151554	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 151554	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 151554	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
@@ -119,9 +119,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151555	km	k(IV)	k (IV)	adv.	thus	
 151555	km	km	km	prep./conj./adv.		
 151555	km	+km, +km=	-km			
-151556	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	to enter	
-151556	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	to enter	
-151556	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	to enter	
-151556	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 m. du.	to enter	
-151556	tˤrb	!t!ˤrb[:w	/ʕ-r-b/ (I)	vb G prefc. 3 m. pl.	to enter	
-151556	tˤrb	!t===!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. pl.	to enter	
+151556	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	1) to cause to enter	
+151556	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	1) to cause to enter	
+151556	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	1) to cause to enter	
+151556	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 m. du.	1) to cause to enter	
+151556	tˤrb	!t!ˤrb[:w	/ʕ-r-b/ (I)	vb G prefc. 3 m. pl.	1) to cause to enter	
+151556	tˤrb	!t===!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. pl.	1) to cause to enter	

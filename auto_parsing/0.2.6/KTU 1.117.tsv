@@ -3,11 +3,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154064	x	?	?	?	?	
 # KTU 1.117 2						
 154065		?	?	?	?	
-154066	nbl	ybl[	/y-b-l/	vb G prefc.	to carry	
-154067	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+154066	nbl	ybl[	/y-b-l/	vb G prefc.	to carry, bring, take	
+154067	kl	kl/	kl	n. m. sg. abs. nom.	1) totality (of) c) with suff. pn	
 # KTU 1.117 3						
 154068	nynil	?	?	?	?	DULAT: NOT FOUND
-154069	abh	ab/+h	ảb	n. m. cstr. nom.	father	
+154069	abh	ab/+h	ảb	n. m. cstr. nom.	1) father b) espec. of El (Rahmouni DEUAT 3ff.)	
 154070	ilmšr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.117 4						
 154071	lkw	?	?	?	?	DULAT: NOT FOUND
@@ -18,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154072	bn	bn[	/b-n/	vb G impv. 2	to understand	
 154073	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 154073	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
-154074	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	goddess	
+154074	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	2) “the Goddess”	
 # KTU 1.117 5						
 154075	dt	d+t	d	det. or rel. functor	the one(s) of	
 154076	l	l(I)	l (I)	prep.	to	
@@ -47,20 +47,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 154087	mtm	mt(II)/~m	mt (II)	n. m. abs. nom. sg.	death	
 154087	mtm	!!mt[/~m	/m-t/	vb G inf.	to die	
 154087	mtm	mt(I)/m	mt (I)	n. m. pl. abs. nom.	dead person	
-154088	šknt	škn[t	/š-k-n/	vb G suffc. 1 c. sg.	to be placed	
+154088	šknt	škn[t	/š-k-n/	vb G suffc. 1 c. sg.	to be placed, settle, stay	
 # KTU 1.117 9						
 154089	x	?	?	?	?	
-154090	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	mountain	
+154090	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	2) DN “Mountain(s)”	
 154091	ṭlm	ṭl/+m(I)	ṭl	n. m. cstr. gen.	dew	
 # KTU 1.117 10						
 154092	ryt	?	?	?	?	DULAT: NOT FOUND
-154093	aṣṣ	nṣṣ[	/n-ṣ-ṣ/	vb G prefc.	to take flight	
-154094	k	+k	-k (I)			
-154094	k	~k	-k (II)			
-154094	k	k(III)	k (III)	Subordinating or completive functor	when	
-154094	k	k(I)	k (I)	prep.	like	
-154094	k	k(II)	k (II)	emph. functor	yes	
-154095	nṣ	nṣ(I)/	nṣ (I)	n. m. sg. abs. nom.	bird	
+154093	aṣṣ	nṣṣ[	/n-ṣ-ṣ/	vb G prefc.	to take flight, fly	
+154094	k	k(I)	k (I)	prep.	like	DULAT quote in /n-ṣ-ṣ/ (cue: like)
+154095	nṣ	nṣ(I)/	nṣ (I)	n. m. sg. abs. gen.	bird	
 # KTU 1.117 11						
 154096	m	m	m(h)	pers. pn.	what?	
 154097	wtˤn	?	?	?	?	DULAT: NOT FOUND

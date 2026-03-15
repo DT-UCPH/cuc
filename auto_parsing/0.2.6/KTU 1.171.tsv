@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155761	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
 # KTU 1.171 2						
 155762	š	š/	š	n. m. sg. cstr. gen.	ram	
-155763	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
+155763	šrp	šrp/	šrp	n. m. sg. cstr. gen.	1) burnt sacrifice	
 155764	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 155765	w	w	w	conj.	and	
 155766	š	š/	š	n. m. sg. cstr. nom.	ram	
@@ -32,17 +32,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155778	x	?	?	?	?	
 # KTU 1.171 5						
 155779		?	?	?	?	
-155780	šrp	šrp/	šrp	n. m. sg. cstr. nom.	burnt sacrifice	
+155780	šrp	šrp/	šrp	n. m. sg. cstr. nom.	1) burnt sacrifice	
 155781	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
 155782	l	l(I)	l (I)	prep.	to	
 155783	inšilm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.171 6						
 155784	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
-155785	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. cstr. nom.	to sit down	
+155785	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. cstr. nom.	to sit down, take a seat on the throne, install oneself, reside	
 155786	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
 155786	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
 155787	b	b	b	prep.	in	
-155788	urbt	urb(t/t	ủrbt	n. f. sg. abs. gen.	window	
+155788	urbt	urb(t/t	ủrbt	n. f. sg. abs. gen.	2) a cult installation	
 # KTU 1.171 7						
 155789	śd	?	?	?	?	DULAT: NOT FOUND
 155790	b	b	b	prep.	in	
@@ -51,5 +51,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 155793	ṯrx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.171 8						
 155794	xt	?	?	?	?	DULAT: NOT FOUND
-155795	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+155795	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	6) (piece of) offal	
 155796		?	?	?	?	

@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.97 2						
 151629	k	k(III)	k (III)	Subordinating or completive functor	when	
 151630	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
-151630	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
+151630	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to be seized, captured, collected, re- cruited, bloated	
 151631	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. nom.	grain	
 151632	śśw	śśw/	s:śs/św	n. m. sg. abs. gen.	horse	
 151633	xxxxx	?	?	?	?	
@@ -65,8 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151662	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach	
 151663	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 # KTU 1.97 12						
-151664	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
-151664	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
+151664	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	DULAT quote in pr (I) (cue: fruit)
 151665	ˤṯrb	ˤṯrb/	ʕṯrb	n. m. sg. cstr. gen.	arbrisseau semblable au grenadier	
 151666	drˤ	drˤ/	d/ḏrʕ	n. m. sg. abs. gen.	seed	
 151667	xxxxxx	?	?	?	?	
@@ -87,8 +86,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151677	ˤqrb	ˤqrb/	ʕqrb	n. f. sg. abs. nom.	scorpion	
 151678	w	w	w	conj.	and	
 151679	mġmġ	mġmġ/	mġmġ	n. m. sg. cstr. nom.		
-151680	pr	pr(II)/	pr (II)	n. m. sg. abs. gen.	young bull	
 151680	pr	pr(I)/	pr (I)	n. m. sg. abs. gen.	fruit	
+151680	pr	pr(II)/	pr (II)	n. m. sg. abs. gen.	young bull	
 151681	xxxxxx	?	?	?	?	
 # KTU 1.97 16						
 151682	xxx	?	?	?	?	

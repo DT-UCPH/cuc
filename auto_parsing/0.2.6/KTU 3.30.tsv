@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.30 1						
-161971	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
+161971	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	1) tablet c) of instructions	
 161971	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
 161972	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 # KTU 3.30 2						
@@ -51,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161996	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161997	krwn	krwn/	krwn	PN sg. abs. gen.	krwn	
 # KTU 3.30 15						
-161998	ṯṯm	ṯṯm/	ṯṯm	num.	sixty	
+161998	ṯṯm	ṯṯm/	ṯṯm	num.	1) the numeral sixty b) genitive syntagms	
 161999	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 16						
 162000	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
@@ -65,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162005	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 18						
 162006	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-162007	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	tlmyn	
+162007	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	2.11	
 162008	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 162009	ilyy	il(I)&y/+y	ỉl (I)	n. m. cstr. gen.	god	
 162009	ilyy	ilyy/	ỉlyy	PN sg. abs. gen.	ỉlyy	
@@ -76,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.30 20						
 162013	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 162014	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-162015	yˤḏrn	yˤḏrn/	yʕḏrn	PN sg. cstr. gen.	15.Z	
+162015	yˤḏrn	yˤḏrn/	yʕḏrn	PN sg. cstr. gen.	yʿḏrn	
 # KTU 3.30 21						
 162016	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 162017	ytrm	!y!tr[+m(I)	/t-r/	vb	to scour	
@@ -98,7 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162026	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 162027	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
 162028	gln	gl(II)/+n	gl (II)	n. m. cstr. gen.	cup	
-162028	gln	gl(III)/+n	gl (III)	n. m. cstr. gen.	small	
+162028	gln	gl(III)/+n	gl (III)	n. m. cstr. gen.	cup	
 # KTU 3.30 26						
 162029	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 162029	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	

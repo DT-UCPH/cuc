@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149118	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 # KTU 1.48 3						
 149119	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-149120	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
+149120	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	2) espec. domestic fowl	
 # KTU 1.48 4						
 149121	lbˤlt	?	?	?	?	DULAT: NOT FOUND
 149122	btm	bt(II)/m	bt (II)	n. m. pl. cstr. nom.	house	
@@ -21,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149127	xxx	?	?	?	?	
 149128	pixxn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 7						
-149129	ṯpš	ṯpš/	ṯpš	n. f. sg. cstr. nom.	for Šapšu ? un filet? d’oiseleur?	
+149129	ṯpš	ṯpš/	ṯpš	n. f. sg. cstr. nom.		
 149130	šnˤt	šnˤ(t/t	šnʕt	n. f. sg. cstr. gen.	?	
 149131	yqš	yqš(II)/	yqš (II)	n. m. cstr. gen.	game	
 # KTU 1.48 8						
@@ -30,7 +30,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149133	b	b	b	prep.	in	
 149134	išt	iš(t/t	ỉšt	n. f. sg. cstr. gen.	fire	
 # KTU 1.48 9						
-149135	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. sg. cstr. gen.	lord	
+149135	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. gen.	lord	
 149136	štx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 10						
 149137	ḫqrn	ḫqrn	ḫqrn	?		
@@ -43,18 +43,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149142	ḫmxxxṯn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 13						
 149143	b	b	b	prep.	in	
-149144	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-149144	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
-149145	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
+149144	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
+149145	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
 149145	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
-149146	ṯpḥ	špḥ/	špḥ	n. m. cstr. gen.	family	
-149146	ṯpḥ	ṯpḥ/	ṯpḥ	n. m. sg. cstr. gen.	stock	
+149146	ṯpḥ	ṯpḥ/	ṯpḥ	n. m. sg. cstr. gen.	stock	DULAT quote in dbḥ (cue: stock)
 149147	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 149147	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 1.48 14						
 149148	aḥt	aḥd/t	ảḥd	adj. f. sg. abs. nom.	one	
 149149	l	l(I)	l (I)	prep.	to	
-149150	mzy	mzy/	mzy	PN sg. cstr. gen.	a type of offering	
+149150	mzy	mzy/	mzy	PN sg. cstr. gen.	mzy	
 149151	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 149152	x	?	?	?	?	
 # KTU 1.48 15						

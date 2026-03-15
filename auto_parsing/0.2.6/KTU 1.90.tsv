@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.90 1						
 151168	id	id	ỉd	conj.	when	
-151169	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
+151169	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see, espy	
 151170	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 151170	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 # KTU 1.90 2						
@@ -10,28 +10,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151173	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
 # KTU 1.90 3						
 151174	w	w	w	conj.	and	
-151175	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
-151176	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+151175	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	6) (piece of) offal	
+151176	ksp	ksp/	ksp	n. m. sg. abs. gen.	1) silver a) 4.738	
 # KTU 1.90 4						
 151177	w	w	w	conj.	and	
-151178	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
+151178	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold d) cultic offering	
 151179	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.90 5						
 151180	w	w	w	conj.	and	
-151181	ḥẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. nom.	arrow	
+151181	ḥẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. nom.	1) arrow c) fletch- ers	
 151182	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 # KTU 1.90 6						
 151183	w	w	w	conj.	and	
 151184	š	š/	š	n. m. sg. abs. nom.	ram	
 151185	lll	?	?	?	?	DULAT: NOT FOUND
-151186	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-151186	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+151186	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	2) “bullock”	
+151186	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	2) “bullock”	
 151186	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.90 7						
 151187	w	w	w	conj.	and	
 151188	xxxx	?	?	?	?	
 151189	l	l(I)	l (I)	prep.	to	
-151190	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
+151190	inš	inš/	ỉnš	n. m. sg. cstr. gen.	1) people b) in general	
 # KTU 1.90 8						
 151191	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.90 9						
@@ -43,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151193	k	k(I)	k (I)	prep.	like	
 151193	k	k(II)	k (II)	emph. functor	yes	
 # KTU 1.90 11						
-151194	ṯql	ṯql/	ṯql	n. m. sg. abs. nom.	shekel	
+151194	ṯql	ṯql/	ṯql	n. m. sg. abs. nom.	1) unit of weight d) in literary texts	
 151195		?	?	?	?	
 # KTU 1.90 12						
 151196	w	w	w	conj.	and	
@@ -61,18 +61,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151201	w	w	w	conj.	and	
 # KTU 1.90 18						
 151202	xxxḫ	?	?	?	?	DULAT: NOT FOUND
+151203	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+151203	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+151203	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
 151203	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-151203	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-151203	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-151203	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
-151203	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-151203	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-151203	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-151203	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 151203	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 1.90 19						
 151204	xxx	?	?	?	?	
-151205	š	š/	š	n. m. sg. abs. nom.	ram	
+151205	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
 151206	l	l(I)	l (I)	prep.	to	
 151207	alit	alit/	ảlỉt	DN sg. abs. gen.	the most powerful	
 # KTU 1.90 20						
@@ -83,20 +79,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151211	l	l(I)	l (I)	prep.	to	
 151211	l	l(II)	l (II)	adv.	no	
 151211	l	l(III)	l (III)	functor	certainly	
+151212	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+151212	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+151212	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
 151212	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-151212	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-151212	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-151212	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
-151212	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-151212	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-151212	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-151212	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
 151212	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 151213	w	w	w	conj.	and	
 151214	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
 151214	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 1.90 22						
-151215	ynṣl	!y!nṣl[	/n-ṣ-l/	vb N prefc. 3 m. sg.	to retire	
+151215	ynṣl	!y!nṣl[	/n-ṣ-l/	vb N prefc. 3 m. sg.	to retire, cease	
 151216	l	l(I)	l (I)	prep.	to	
 151216	l	l(II)	l (II)	adv.	no	
 151216	l	l(III)	l (III)	functor	certainly	

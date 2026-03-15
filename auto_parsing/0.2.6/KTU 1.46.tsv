@@ -5,15 +5,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148950	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 148951	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. cstr. gen.	new moon	
 148952	slḫ	slḫ(I)/	slḫ (I)	n. m. sg. cstr. gen.	befeuchtet	
-148953	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
-148954	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
+148953	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	6) (piece of) offal	
+148954	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	2) title of the dead and deified kings of Ugarit	
 148955	wṯnkbdm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.46 2						
 148956	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. nom.	communion victim / sacrifice	
 148956	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 148956	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 148957	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-148958	šm	š/m	š	n. m. pl. abs. gen.	ram	
+148958	šm	š/m	š	n. m. pl. abs. gen.	1) ram b) as a sacrificial victim	
 148958	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 148959	w	w	w	conj.	and	
 148960	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
@@ -58,7 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148985	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. gen.	back part (of the head)	
 148986	š	š/	š	n. m. sg. cstr. gen.	ram	
 148987	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-148987	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+148987	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	2) DN	
 148988	š	š/	š	n. m. sg. cstr. gen.	ram	
 148989	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 148989	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -91,7 +91,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149009	bbtm	bbt(II)/~m	bbt (II)	DN du. cstr. gen.	superintendent	
 149010	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 149010	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
-149011	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. cstr. gen.	entry	
+149011	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. cstr. gen.	2) sunset	
 149012	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 149012	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 149013	wḥl	?	?	?	?	DULAT: NOT FOUND
@@ -102,21 +102,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149016	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
 149017	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 149017	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
-149018	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash	
+149018	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
 149019	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
 149019	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
 149020	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 # KTU 1.46 11						
 149021	b	b	b	prep.	in	
-149022	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-149022	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
-149023	mlat	mlat/	mlảt	n. f. pl. abs. gen.	fullness	
-149023	mlat	mlat/	mlảt	n. f. sg. abs. gen.	fullness	
+149022	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	DULAT quote in /q-l/ (cue: day)
+149023	mlat	mla(t/t	mlảt	n. f. sg. abs. gen.	fullness	
 149024	yqln	!y!ql[n	/q-l/	vb G prefc. 3 m. sg.	to fall (down)	
-149025	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-149026	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
+149025	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two b) ge	
+149026	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	2) “bullock”	
 149027	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
-149027	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
+149027	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	2) DN	
 149028	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. gen.	banquet	
 149028	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. gen.	group of ten	
 # KTU 1.46 12						
@@ -177,7 +175,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149069	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 149069	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 149070	š	š/	š	n. m. sg. cstr. gen.	ram	
-149071	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
 149071	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 149072	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.46 18						

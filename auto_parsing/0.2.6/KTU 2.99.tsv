@@ -13,19 +13,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160281	hlny	hlny	hlny	deictic adv. functor	behold	
 160282	klby	klb(I)/+y	klb (I)	n. m. cstr. nom.	dog	
 # KTU 2.99 5						
-160283	w	w	w	conj.	and	
+160283	w	w	w	conj.	1) copulative conj.	
 160284	gtn	gt/+n	gt	n. f. cstr. nom.	gittu	
 160284	gtn	gtn/	gtn	PN sg. abs. nom.	gtn	
 160285	yit	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 6						
-160286	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+160286	ˤmk	ˤm(I)+k	ʕm (I)	prep.	2) relationship of accompaniment	
 160286	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.99 7						
 160287	xxxxtddhm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 8						
 160288	xx	?	?	?	?	
-160289	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	a hundred	
-160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
+160289	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	1) a hundred	
+160290	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold f) elliptical use	
 # KTU 2.99 9						
 160291	xxxxxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 10						
@@ -33,17 +33,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 11						
 160293	x	?	?	?	?	
 160294	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-160295	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
+160295	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	3) deep red purple	
 # KTU 2.99 12						
 160296	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
-160297	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
-160298	w	w	w	conj.	and	
-160299	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-160300	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
-160300	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
+160297	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	3) espec. violet purple	
+160298	w	w	w	conj.	1) copulative conj.	
+160299	ˤmy	ˤm(I)+y	ʕm (I)	prep.	2) relationship of accompaniment	
+160300	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
+160300	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry, bring, take	
 # KTU 2.99 13						
-160301	d	d	d	det. or rel. functor	the one(s) of	
-160302	štnt	ytn[t	/y-t-n/	vb	to give	
+160301	d	d	d	det. or rel. functor	4) in compound conjunctions	
+160302	štnt	ytn[t	/y-t-n/	vb	1) to make (someone) give	
 # KTU 2.99 14						
 160303		?	?	?	?	
 # KTU 2.99 15						
@@ -56,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160306	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 160306	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 2.99 18						
-160307	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
+160307	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of, take, grasp	
 # KTU 2.99 19						
 160308	pln	pl[+n	/p-l(-l)/	vb G suffc.	to be cracked	
 # KTU 2.99 20						
@@ -68,15 +68,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160312	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
 160313	nr	nr/	nr	n. m. sg. cstr. gen.	sheen	
 # KTU 2.99 23						
-160314	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. gen.	pitcher	
-160314	kt	k(t(II)/t	kt (II)	n. f. sg. cstr. gen.	stage	
+160314	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. gen.	pitcher	DULAT quote in gpt (cue: pitcher)
 160315	gpt	gp(I)/t=	gp (I)	n. f. pl. cstr. gen.	shore	
 # KTU 2.99 24						
-160316	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. gen.	pitcher	
-160316	kt	k(t(II)/t	kt (II)	n. f. sg. cstr. gen.	stage	
+160316	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. gen.	pitcher	DULAT quote in kt (I) (cue: pitcher)
 160317	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. gen.	vinegar	
-160318	w	w	w	conj.	and	
-160319	nbt	nb(t/t	nbt	n. f. sg. abs. nom.	honey	
+160318	w	w	w	conj.	1) copulative conj.	
+160319	nbt	nb(t/t	nbt	n. f. sg. abs. nom.	1) honey a) kd nbt “jar(s)” of honey	
 # KTU 2.99 25						
 160320	w	w	w	conj.	and	
 160321	lgtn	?	?	?	?	DULAT: NOT FOUND
@@ -90,14 +88,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160326	lhm	l(I)+hm	l (I)	prep.	to	
 # KTU 2.99 28						
 160327	xxx	?	?	?	?	
-160328	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+160328	ksp	ksp/	ksp	n. m. sg. abs. nom.	1) silver c) treatment	
 160329	xxrx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 29						
 160330	xxxrxqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 30						
 160331	x	?	?	?	?	
-160332	igrn	!(ʔ&i!(]n]gr[n	/g-r/	vb N prefc. 1 c. sg.	to lodge	
-160332	igrn	(]n]igrn[	/g-r/	vb N suffc. 3 m. sg.	to lodge	
+160332	igrn	!(ʔ&i!(]n]gr[+n	/g-r/	vb N prefc. 1 c. sg.	to lodge, take refuge, be protected	
 # KTU 2.99 31						
 160333	qthm	qt/+hm	qt	n. m. cstr. nom.	handle	
 160333	qthm	ṯigt/+hm	ṯỉgt	n. f. cstr. nom.	neighing	
@@ -106,12 +103,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160335	tbxnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 33						
 160336	x	?	?	?	?	
-160337	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
+160337	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	1) donkey b) hearing nqht ḥmrh the braying of his donkey	
 160337	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
 # KTU 2.99 34						
 160338	xxrt	?	?	?	?	DULAT: NOT FOUND
 160339	ipd	ipd/	ỉpd	n. m. sg. abs. nom.	tunic	
 # KTU 2.99 35						
 160340	x	?	?	?	?	
-160341	w	w	w	conj.	and	
+160341	w	w	w	conj.	4) declarative and emphatic functor	
 160342	rq	rq(II)/	rq (II)	adj. m. sg. abs. nom.	fine	

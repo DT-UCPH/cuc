@@ -11,16 +11,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157661	xxxx	?	?	?	?	
 # KTU 2.35 5						
 157662		?	?	?	?	
-157663	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	lord	
+157663	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 2.35 6						
+157664	šlmk	šlm[:d+k	/š-l-m/	vb G suffc.	to be well, do well, be in peace	
+157664	šlmk	šlm[+k	/š-l-m/	vb D suffc.	to re-establish > to pay	
 157664	šlmk	šlm(I)/+k	šlm (I)	n. m. cstr. nom.	peace	
-157664	šlmk	šlm[:d+k	/š-l-m/	vb G suffc.	to be well	
-157664	šlmk	šlm[+k	/š-l-m/	vb D suffc.	to be well	
 157664	šlmk	šlm(III)/+k	šlm (III)	adj. m. cstr. nom.	pure	
 # KTU 2.35 7						
 157665	t	/t, /t=				DULAT: NOT FOUND
 157665	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-157666	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to return	
+157666	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word), an answer, to answer	
 157667	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.35 8						
 157668	mx	?	?	?	?	DULAT: NOT FOUND
@@ -35,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157671	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 157671	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 157672	w	w	w	conj.	and	
-157673	ht	ht	ht	adv.	here	
+157673	ht	ht	ht	adv.	2) conj.	
 # KTU 2.35 11						
 157674	tkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
 157675	lk	l(I)+k	l (I)	prep.	to	
@@ -48,26 +48,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157678	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
 157678	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 157678	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
-157679	bnš	bnš/	bnš	n. m. pl. cstr. nom.	man	
+157679	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	
 157679	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 # KTU 2.35 15						
 157680	lk	l(I)+k	l (I)	prep.	to	
 157681	w	w	w	conj.	and	
 157682	l	l(I)	l (I)	prep.	to	
-157683	kl	kl/	kl	n. m. sg. cstr. gen.	totality (of)	
+157683	kl	kl/	kl	n. m. sg. cstr. gen.	1) totality (of) c) with suff. pn	
 # KTU 2.35 16						
-157684	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen.	lord	
+157684	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 157685	argm	!(ʔ&a!rgm[	/r-g-m/	vb G prefc. 1 c. sg.	to say	
 # KTU 2.35 17						
 157686	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 157687	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 2.35 18						
 157688		?	?	?	?	
-157689	bnš	bnš/	bnš	n. m. pl. abs. gen.	man	
 157689	bnš	bnš/	bnš	n. m. sg. abs. gen.	man	
 # KTU 2.35 19						
 157690	a	?	?	?	?	DULAT: NOT FOUND
 157691	w	w	w	conj.	and	
-157692	bˤly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom.	lord	
+157692	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 2.35 20						
 157693	x	?	?	?	?	

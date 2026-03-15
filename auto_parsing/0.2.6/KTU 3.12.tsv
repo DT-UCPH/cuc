@@ -1,26 +1,18 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.12 1						
-161333	l	l(I)	l (I)	prep.	to	
-161333	l	l(II)	l (II)	adv.	no	
-161333	l	l(III)	l (III)	functor	certainly	
-161334	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
-161334	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
+161333	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+161334	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
+161334	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to occupy space, cover	
 161335	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
 # KTU 3.12 2						
 161336	b	b	b	prep.	in	
-161337	unṯ	unṯ/	ủnṯ	n. m. pl. abs. gen.	obligation	
-161337	unṯ	unṯ/	ủnṯ	n. m. sg. abs. gen.	obligation	
-161338	km	k(III)	k (III)	functor	when	
-161338	km	k(I)	k (I)	prep.	like	
-161338	km	k(IV)	k (IV)	adv.	thus	
-161338	km	km	km	prep./conj./adv.		
-161338	km	+km, +km=	-km			
-161339	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-161339	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+161337	unṯ	unṯ/	ủnṯ	n. m. pl. abs. gen.	1) obligation	
+161337	unṯ	unṯ/	ủnṯ	n. m. sg. abs. gen.	1) obligation	
+161338	km	k(I)	k (I)	prep.	like	DULAT quote in km (cue: like)
+161339	špš	špš/	špš	n. f. sg. abs. nom.	1) sun	DULAT quote in špš (cue: sun)
 # KTU 3.12 3						
-161340	d	d	d	det. or rel. functor	the one(s) of	
-161341	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure	
-161341	brt	br(t/t	brt	n. f. sg. abs. nom.	forecast	
+161340	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
+161341	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure, clean, free	DULAT quote in /b-r(-r)/ (cue: free)
 161342	kmt	k(I)&mt	k (I)	prep.	like	
 161342	kmt	kmt	kmt	adv.	like(wise)	
 # KTU 3.12 4						
@@ -28,7 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161343	br	br(I)/	br (I)	n. m. sg. cstr. nom.	Art Seeschiff	
 161344	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. abs. gen.	ṣdqšlm	
 # KTU 3.12 5						
-161345	b	b	b	prep.	in	
+161345	b	b	b	prep.	1) spatial location d) origin of a quality or process	
 161346	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	obligation	
 161346	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. gen.	obligation	
 161347	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. cstr. gen.	throne	
@@ -46,18 +38,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161355	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 3.12 9						
 161356	ktb	ktb[	/k-t-b/	vb G suffc. 3 m. sg.	to write	
-161357	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+161357	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	2) writing	
 161357	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 161357	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
 161357	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-161357	spr	spr[:dt===	/s-p-r/	vb D suffc. 3 f. sg.	to count	
 161357	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
-161357	spr	spr[:dt=	/s-p-r/	vb D suffc. 2 m. sg.	to count	
-161357	spr	spr[:dt==	/s-p-r/	vb D suffc. 2 f. sg.	to count	
-161357	spr	spr[:dt	/s-p-r/	vb D suffc. 1 c. sg.	to count	
 161357	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 161357	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
-161358	hnd	hnd	hnd	dem.	this	
+161358	hnd	hnd	hnd	dem.	1) adj. this	
 # KTU 3.12 10						
 161359	d	d	d	det. or rel. functor	the one(s) of	
 161360	tbrrt	tbrr(t/t	tbrrt	n. f. sg. cstr. nom.	exemption	
@@ -68,11 +56,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.12 12						
 161364	w	w	w	conj.	and	
 161365	mnkm	mnk&m	mnk	indef. pn.	whoever	
-161366	l	l(I)	l (I)	prep.	to	
-161366	l	l(II)	l (II)	adv.	no	
-161366	l	l(III)	l (III)	functor	certainly	
-161367	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
-161367	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
+161366	l	l(II)	l (II)	adv.	no	DULAT quote in /l-q-ḥ/ (cue: no)
+161367	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
+161367	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
 # KTU 3.12 13						
 161368	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
 161368	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
@@ -81,7 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161370	hnd	hnd	hnd	dem.	this	
 # KTU 3.12 14						
 161371	b	b	b	prep.	in	
-161372	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
+161372	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
 161373	ṣṭqšlm	ṣdqšlm/	ṣdqšlm	PN sg. cstr. gen.	ṣdqšlm	
 # KTU 3.12 15						
 161374	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	

@@ -2,17 +2,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 1						
 149508	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg. cstr. nom.	fortress	
 149509	bltn	bl(I)&t+n	bl (I)	adv. /emph. functor	no	
-149509	bltn	blt[+n	/b-l-t/	vb G suffc.	to open wide	
+149509	bltn	blt[+n	/b-l-t/	vb G suffc.	to open wide > couper	
 149509	bltn	bly[+n	/b-l-y/	vb	to devour	
 149510	i	i(I)	ỉ (I)	interj.	woe	
 149511		?	?	?	?	
 # KTU 1.69 2						
 149512	mṯ	mṯ(I)/	mṯ (I)	n. m. sg. cstr. nom.	infant	
 149513	mṯty	mṯt/+y	mṯt	n. f. cstr. gen.	damsel	
-149514	klt	kl(y[t	/k-l-y/	vb G suffc. 1 c. sg.	to finish	
-149514	klt	kl(y[t:d	/k-l-y/	vb D suffc. 1 c. sg.	to finish	
-149514	klt	klt(I)/	klt (I)	n. f. pl. abs. nom.	bride	
-149514	klt	klt(I)/	klt (I)	n. f. sg. abs. nom.	bride	
+149514	klt	kl(y[t	/k-l-y/	vb G suffc. 1 c. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
+149514	klt	kl(y[t:d	/k-l-y/	vb D suffc. 1 c. sg.	to finish (off)	
+149514	klt	kl(t(I)/t	klt (I)	n. f. sg. abs. nom.	bride	
 149514	klt	kl(t(II)/t	klt (II)	n. f. sg. abs. nom.	measure	
 149515	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 3						
@@ -38,15 +37,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149525	km	+km, +km=	-km			
 149526	ṯtmr	?	?	?	?	DULAT: NOT FOUND
 149527	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	
-149528	klt	klt(I)/	klt (I)	n. f. pl. cstr. gen.	bride	
-149528	klt	klt(I)/	klt (I)	n. f. sg. cstr. gen.	bride	
+149528	klt	kl(t(I)/t	klt (I)	n. f. sg. cstr. gen.	bride	
 149528	klt	kl(t(II)/t	klt (II)	n. f. sg. cstr. gen.	measure	
 # KTU 1.69 6						
 149529	mṯty	mṯt/+y	mṯt	n. f. cstr. gen.	damsel	
-149530	klt	kl(y[t	/k-l-y/	vb G suffc. 1 c. sg.	to finish	
-149530	klt	kl(y[t:d	/k-l-y/	vb D suffc. 1 c. sg.	to finish	
-149530	klt	klt(I)/	klt (I)	n. f. pl. abs. nom.	bride	
-149530	klt	klt(I)/	klt (I)	n. f. sg. abs. nom.	bride	
+149530	klt	kl(y[t	/k-l-y/	vb G suffc. 1 c. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
+149530	klt	kl(y[t:d	/k-l-y/	vb D suffc. 1 c. sg.	to finish (off)	
+149530	klt	kl(t(I)/t	klt (I)	n. f. sg. abs. nom.	bride	
 149530	klt	kl(t(II)/t	klt (II)	n. f. sg. abs. nom.	measure	
 149531	mkktm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 7						

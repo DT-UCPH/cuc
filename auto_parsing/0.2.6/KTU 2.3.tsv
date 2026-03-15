@@ -11,12 +11,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 4						
 156310	xxx	?	?	?	?	
 156311	w	w	w	conj.	and	
-156312	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
-156313	hw	hw	hw	pers. pn.	he	
+156312	kl	kl/	kl	n. m. sg. abs. nom.	1) totality (of) c) with suff. pn	
+156313	hw	hw	hw	pers. pn.	2) this	
 # KTU 2.3 5						
 156314	w	w	w	conj.	and	
 156315	ht	ht	ht	adv.	here	
-156316	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure	
+156316	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure, clean, free	
 156316	brt	br(t/t	brt	n. f. sg. abs. nom.	forecast	
 156317	l	l(I)	l (I)	prep.	to	
 156318	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
@@ -32,15 +32,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156322	b	b	b	prep.	in	
 156323	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 156324	w	w	w	conj.	and	
-156325	ht	ht	ht	adv.	here	
+156325	ht	ht	ht	adv.	2) conj.	
 156326	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 8						
 156327	w	w	w	conj.	and	
-156328	hm	hm(II)	hm (II)	conj./interr. functor	if	
-156328	hm	hm(I)	hm (I)	pers. pn.	they	
-156329	at	at(I)	ảt (I)	pers. pn.	you	
-156330	trgm	!t=!rgm[	/r-g-m/	vb G prefc. 2 m. sg.	to say	
-156330	trgm	!t==!rgm[	/r-g-m/	vb G prefc. 2 f. sg.	to say	
+156328	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
+156329	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+156330	trgm	!t=!rgm[	/r-g-m/	vb G prefc. 2 m. sg.	to say, tell, announce, communicate, inform	
+156330	trgm	!t==!rgm[	/r-g-m/	vb G prefc. 2 f. sg.	to say, tell, announce, communicate, inform	
 # KTU 2.3 9						
 156331	w	w	w	conj.	and	
 156332	sip	sip	sỉp	?	?	
@@ -61,13 +60,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156343	x	?	?	?	?	
 # KTU 2.3 13						
 156344	w	w	w	conj.	and	
-156345	hw	hw	hw	pers. pn.	he	
-156346	uy	u+y	ủ	conj.	or	
+156345	hw	hw	hw	pers. pn.	1) he	
+156346	uy	u+y	ủ	conj.	2) and / also	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
 156347	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
 156347	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
-156347	ˤn	ˤn[:d	/ʕ-n/	vb D impv. 2	to see	
 156347	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 # KTU 2.3 14						
 156348	l	l(I)	l (I)	prep.	to	
@@ -83,8 +81,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156351	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.3 15						
 156352	wy	w+y	w	conj.	and	
-156353	rdnn	yrd[+nn	/y-r-d/	vb G prefc.	to go down, ?	
-156353	rdnn	yrd[+nn	/y-r-d/	vb G suffc.	to go down, ?	
+156353	rdnn	yrd[+nn	/y-r-d/	vb G prefc.	to go down, descend	
+156353	rdnn	yrd[+nn	/y-r-d/	vb G suffc.	to go down, descend	
 156354	an	an(I)	ản (I)	pers. pn.	I	
 156354	an	an(II)	ản (II)	adv.	wherever	
 # KTU 2.3 16						
@@ -94,7 +92,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156358	lkm	l(I)+k~m	l (I)	prep.	to	
 # KTU 2.3 17						
 156359	ly	l(I)+y	l (I)	prep.	to	
-156360	ank	ank	ảnk	pers. pn.	I	
+156360	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
 156361	ašṣuk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 18						
 156362	w	w	w	conj.	and	
@@ -112,13 +110,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156369	w	w	w	conj.	and	
 156370	ap	ap(I)	ảp (I)	adv./conj.	also	
 156370	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
-156371	ht	ht	ht	adv.	here	
+156371	ht	ht	ht	adv.	2) conj.	
 156372	k	+k	-k (I)			
 156372	k	~k	-k (II)			
 156372	k	k(III)	k (III)	Subordinating or completive functor	when	
 156372	k	k(I)	k (I)	prep.	like	
 156372	k	k(II)	k (II)	emph. functor	yes	
-156373	škn	škn[:d	/š-k-n/	vb D impv. 2	to be placed	
+156373	škn	škn[:d	/š-k-n/	vb D impv. 2	to assign	
 # KTU 2.3 21						
 156374	w	w	w	conj.	and	
 156375	mṯnnx	?	?	?	?	DULAT: NOT FOUND
@@ -127,15 +125,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156377	ištš	ištš	ỉštš	?	?	
 156378	prgmy	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 23						
-156379	mad	m(ʔ&ad[	/m-ʔ-d/	vb G suffc. 3 m. sg.	to be immense	
+156379	mad	m(ʔ&ad[	/m-ʔ-d/	vb G suffc. 3 m. sg.	to be immense, numerous	
 156380	rxpġt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 24						
 156381	xxxxxxt	?	?	?	?	DULAT: NOT FOUND
-156382	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
-156382	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
-156382	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
-156382	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
-156382	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
+156382	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	1) to know	
+156382	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	1) to know	
+156382	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	1) to know	
+156382	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	1) to know	
+156382	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	1) to know	
 # KTU 2.3 25						
 156383	xxxxxx	?	?	?	?	
 156384	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	

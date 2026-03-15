@@ -2,29 +2,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.21 II:1						
 146789	mrzˤy	mrzˤy/	mrzʕy	adj. m. sg. abs. nom.	he of the mrzḥ	
 146790	lk	l(I)+k	l (I)	prep.	to	
-146791	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
-146791	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
+146791	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	DULAT quote in rpủ (cue: house)
 # KTU 1.21 II:2						
 146792	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
 146792	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
-146793	aṣḥkm	!(ʔ&a!ṣḥ[km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
-146793	aṣḥkm	aṣḥkm[	/ṣ-ḥ/	vb G suffc. 3 m. sg.	to exclaim	
+146793	aṣḥkm	!(ʔ&a!ṣḥ[+km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim, shout	
 146794	iqra	!(ʔ&i!qr(ʔ[&a	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	
 # KTU 1.21 II:3						
 146795	hkly	hkl/+y	hkl	n. m. cstr. nom.	palace	
 146796	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-146797	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-146797	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+146797	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	1) healer	DULAT direct ref
+146797	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	1) healer	DULAT direct ref
 # KTU 1.21 II:4						
-146798	l	l(III)	l (III)	functor	certainly	
+146798	l	l(III)	l (III)	functor	certainly	DULAT direct ref
 146799	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
 146800	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-146801	l	l(III)	l (III)	functor	certainly	
+146801	l	l(III)	l (III)	functor	certainly	DULAT direct ref
 146802	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
 146803	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.21 II:5						
 146804	mrzˤy	mrzˤy/	mrzʕy	adj. m. sg. abs. nom.	he of the mrzḥ	
-146805	ap	ap(I)	ảp (I)	adv./conj.	also	
+146805	ap	ap(I)	ảp (I)	adv./conj.	also	DULAT direct ref
 146806	ank	ank	ảnk	pers. pn.	I	
 146807	y	+y, [y	-y (I)	prep. functor	my	
 146807	y	~y	-y (II)	prep. functor	indeed	
@@ -33,12 +31,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146808	rp	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
 # KTU 1.21 II:6						
 146809	umkm	um/+km	ủm	n. f. cstr. nom.	mother	
-146810	rˤy	rˤ/+y	rʕ	n. m. sg. cstr. nom.	companion	
-146811	ht	ht	ht	adv.	here	
-146812	alk	!(ʔ&a!(hlk[	/h-l-k/	vb G prefc. 1 c. sg.	to go	
+146810	rˤy	rˤ/+y	rʕ	n. m. sg. cstr. nom.	companion	DULAT direct ref
+146811	ht	ht	ht	adv.	1) adv b) of time	
+146812	alk	!(ʔ&a!(hlk[	/h-l-k/	vb G prefc. 1 c. sg.	to go, go away	
 # KTU 1.21 II:7						
-146813	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
-146814	amġy	!(ʔ&a!mġy[	/m-ġ-y/	vb G prefc. 1 c. sg.	to come	
+146813	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	2) set of three	
+146814	amġy	!(ʔ&a!mġy[	/m-ġ-y/	vb G prefc. 1 c. sg.	to come, arrive	
 146815	l	l(I)	l (I)	prep.	to	
 146816	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 # KTU 1.21 II:8						
@@ -48,9 +46,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146820	w	w	w	conj.	and	
 146821	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 146821	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
-146821	yˤn	!y!ˤn[:d	/ʕ-n/	vb D prefc. 3 m. sg.	to see	
-146821	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed	
-146821	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to be / remain depressed	
+146821	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
+146821	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
+146821	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
 146822	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 146822	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 146822	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
@@ -65,10 +63,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146826	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	healer	
 146826	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	healer	
 # KTU 1.21 II:10						
-146827	aṣḥkm	!(ʔ&a!ṣḥ[km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
-146827	aṣḥkm	aṣḥkm[	/ṣ-ḥ/	vb G suffc. 3 m. sg.	to exclaim	
-146828	iqrakm	!(ʔ&i!qr(ʔ[&akm	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	
-146828	iqrakm	iqrakm[	/q-r-ʔ/	vb G suffc. 3 m. sg.	to call	
+146827	aṣḥkm	!(ʔ&a!ṣḥ[+km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
+146828	iqrakm	!(ʔ&i!qr(ʔ[&akm	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call, shout, invite	
 # KTU 1.21 II:11						
 146829	b	b	b	prep.	in	
 146830	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	

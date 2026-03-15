@@ -1,12 +1,12 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.7 1						
 161100	mṣry	mṣry(I)/	mṣry (I)	GN sg. abs. nom.	Egyptian	
-161101	d	d	d	det. or rel. functor	the one(s) of	
-161102	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
+161101	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
+161102	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	2) to enter to work	
 161102	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	to give a guarantee or pledge	
 161103	b	b	b	prep.	in	
-161104	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	obligation	
-161104	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. gen.	obligation	
+161104	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	1) obligation	
+161104	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. gen.	1) obligation	
 # KTU 3.7 2						
 161105	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161106	qrrn	qrrn/	qrrn	PN sg. cstr. gen.	qrrn	
@@ -35,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161121	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161122	gdrn	gdrn/	gdrn	PN sg. abs. gen.	gdrn	
 161123	b	b	b	prep.	in	
-161124	mˤrby	mˤrb&y/	mʕrb(y)	TN sg. cstr. gen.	mʿrb(y)	
+161124	mˤrby	mˤrb&y/	mʕrb(y)	TN sg. cstr. gen.	gt mʿrb(y)	
 # KTU 3.7 8						
 161125	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 161126	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
@@ -57,12 +57,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.7 12						
 161135	šmy	šm(I)/+y	šm (I)	n. m. cstr. gen.	name	
 # KTU 3.7 13						
-161136	tkn	!t!kn[	/k-n/	vb G prefc.	to be (stable)	
+161136	tkn	!t!kn[	/k-n/	vb G prefc.	to be (stable), have	
 161137		?	?	?	?	
 # KTU 3.7 14						
-161138	knn	k(III)+nn	k (III)	Subordinating or completive functor	when, ?	
-161138	knn	k(I)+nn	k (I)	prep.	like, ?	
-161138	knn	k(II)+nn	k (II)	emph. functor	yes, ?	
+161138	knn	k(III)+nn	k (III)	Subordinating or completive functor	when	
+161138	knn	k(I)+nn	k (I)	prep.	like	
+161138	knn	k(II)+nn	k (II)	emph. functor	yes	
 161139	b	b	b	prep.	in	
 161140	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. cstr. gen.	massif	
 161141	krd	krd(I)/	krd (I)	TN sg. cstr. gen.	krd (I)	

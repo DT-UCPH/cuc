@@ -68,13 +68,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.71 10						
 149588	w	w	w	conj.	and	
 149589	štˤrgzydk	?	?	?	?	DULAT: NOT FOUND
-149590	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
+149590	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	2) adv	
 149591	wyṣq	?	?	?	?	DULAT: NOT FOUND
 149592	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 11						
 149593	k	k(III)	k (III)	Subordinating or completive functor	when	
 149594	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
-149594	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to collect	
+149594	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to be seized, captured, collected, re- cruited, bloated	
 149595	aklśśw	?	?	?	?	DULAT: NOT FOUND
 149596	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 149596	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
@@ -143,7 +143,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.71 24						
 149632		?	?	?	?	
 # KTU 1.71 25						
-149633	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
+149633	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	2) adv	
 149634	wyṣq	?	?	?	?	DULAT: NOT FOUND
 149635	baph	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 26						
@@ -152,8 +152,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149638	wykhp	?	?	?	?	DULAT: NOT FOUND
 149639	mid	mid/	mỉ/ủd	n. m. sg. cstr. nom.	abundance	
 # KTU 1.71 27						
-149640	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	dried fig	
-149640	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	dried fig	
+149640	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	1) dried fig a) ltḥ dblt ltḥ ṣmqm a l . of dried figs (and) a l . of raisins	
+149640	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	1) dried fig a) ltḥ dblt ltḥ ṣmqm a l . of dried figs (and) a l . of raisins	
 149641	yṯnt	yṯn/t=	yṯn	adj. f. pl. abs. nom.	old	
 149642	wṣmqm	?	?	?	?	DULAT: NOT FOUND
 149643	yṯnm	yṯn/m	yṯn	adj. m. pl. abs. nom.	old	
@@ -161,8 +161,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149644	w	w	w	conj.	and	
 149645	qmḥ	qmḥ/	qmḥ	n. m. sg. cstr. nom.	flour	
 149646	bql	bql/	bql	n. m. sg. abs. gen.	malt	
-149647	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
-149647	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
+149647	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out), serve	
+149647	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out), serve	
 149648	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 # KTU 1.71 29						
 149649	b	b	b	prep.	in	

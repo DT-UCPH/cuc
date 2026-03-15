@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161684	gbˤly	gbˤly(I)/	gbʕly (I)	GN sg. cstr. gen.	gbʿly (I)	
 # KTU 3.21 3						
 161685	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
-161686	annṯb	annṯb/	ảnnṯb	PN sg. cstr. gen.	161:21	
+161686	annṯb	annṯb/	ảnnṯb	PN sg. cstr. gen.	ảnnṯb	
 # KTU 3.21 4						
 161687	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
 161688	madl	?	?	?	?	DULAT: NOT FOUND
@@ -44,10 +44,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.21 12						
 161706	uškny	uškny(I)/	ủškny (I)	GN sg. abs. gen.	ủškny (I)	
 161707	w	w	w	conj.	and	
-161708	mit	mi(t/t	mỉt	n. f. sg. cstr. nom.	a hundred	
+161708	mit	mi(t/t	mỉt	n. f. sg. cstr. nom.	1) a hundred	
 # KTU 3.21 13						
 161709	zt	zt/	zt	n. m. sg. abs. gen.	olive	
-161710	bdhm	bd(IV)+hm	bd (IV)	prep.	into the hands of	
+161710	bdhm	bd(IV)+hm	bd (IV)	prep.	1) into the hands of	
 161711	rib	rib/	rỉb	n. m. sg. abs. nom.	vessel	
 # KTU 3.21 14						
 161712	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
@@ -71,15 +71,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161721	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
 161722	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 161723	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-161724	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. gen.	woman	
-161724	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. gen.	woman	
+161724	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. gen.	2) married woman	
+161724	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. gen.	2) married woman	
 # KTU 3.21 20						
-161725	mrṯd	mrṯ(I)/+d	mrṯ (I)	n. m. cstr. gen.	must, ?	
-161725	mrṯd	mrṯ(II)/+d	mrṯ (II)	n. m. cstr. gen.	estate, ?	
+161725	mrṯd	mrṯ(I)/+d	mrṯ (I)	n. m. cstr. gen.	must	
+161725	mrṯd	mrṯ(II)/+d	mrṯ (II)	n. m. cstr. gen.	estate	
 161726	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 161726	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 161726	bn	bn(II)	bn (II)	prep.	between	
 161726	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161726	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161727	štn	št[n	/š-t/	vb G suffc.	to place	
-161727	štn	št[n	/š-t/	vb G impv. 2	to place	
+161727	štn	št[+n	/š-t/	vb G impv. 2	to place	

@@ -5,30 +5,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152699	mhbn	mhbn/	mhbn	TN sg. cstr. gen.	Gedanke	
 152700	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.105 2						
-152701	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
+152701	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
 152702	w	w	w	conj.	and	
-152703	ṣp	ṣp(III)/	ṣp (III)	n. m. sg. cstr. nom.	white ewe	
-152703	ṣp	ṣp(I)/	ṣp (I)	n. m. sg. cstr. nom.	look	
-152704	ḫršḫ	ḫršḫ/	ḫršḫ	n. m. sg. abs. gen.	bowl for burning perfume	
+152703	ṣp	ṣp(III)/	ṣp (III)	n. m. sg. cstr. nom.	white ewe	DULAT quote in ṣp (III) (cue: white)
+152704	ḫršḫ	ḫršḫ/	ḫršḫ	n. m. sg. abs. gen.	2) large brazier	
 # KTU 1.105 3						
 152705	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 152706	b	b	b	prep.	in	
 152707	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
 152708	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
 # KTU 1.105 4						
-152709	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+152709	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	1) eight d) composite numbers	
 152710	lṯlṯm	?	?	?	?	DULAT: NOT FOUND
 152711	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
 # KTU 1.105 5						
-152712	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-152713	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
+152712	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
+152713	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	1) (head of) cattle d) sacrificial material	
 # KTU 1.105 6						
 152714	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 152715	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 152715	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
 152716	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 152717	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-152718	šm	š/m	š	n. m. pl. abs. gen.	ram	
+152718	šm	š/m	š	n. m. pl. abs. gen.	1) ram b) as a sacrificial victim	
 152718	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 # KTU 1.105 7						
 152719	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
@@ -44,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152726	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 # KTU 1.105 9						
 152727	bwtm	bwt(II)/m	bt (II)	n. m. pl. cstr. gen.	house	
-152728	š	š/	š	n. m. sg. cstr. gen.	ram	
+152728	š	š/	š	n. m. sg. cstr. gen.	1) ram b) as a sacrificial victim	
 152729	iṯtqb	iṯtqb/	ỉṯtqb	TN sg. abs. gen.	ỉṯtqb	
 # KTU 1.105 10						
 152730	w	w	w	conj.	and	
@@ -66,8 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152742	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
 152743	šm	š/m	š	n. m. pl. cstr. gen.	ram	
 152743	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
-152744	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
-152744	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
+152744	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	DULAT quote in pr (II) (cue: bull)
 # KTU 1.105 14						
 152745	hzp	hzp/	hzp	TN sg. cstr. gen.	hzp	
 # KTU 1.105 15						
@@ -83,8 +81,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152752	w	w	w	conj.	and	
 152753	š	š/	š	n. m. sg. abs. nom.	ram	
 152754	l	l(I)	l (I)	prep.	to	
-152755	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
-152756	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
+152755	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	1) lady a) bʕlt bhtm “Lady of the Palace”	
+152756	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	1) house	
 # KTU 1.105 17						
 152757	b	b	b	prep.	in	
 152758	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
@@ -96,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152761	ˤrkm	ˤrk(II)/m	ʕrk (II)	n. m. pl. abs. gen.	loaves of bread	
 # KTU 1.105 19						
 152762	b	b	b	prep.	in	
-152763	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	eight	
+152763	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	1) eight d) composite numbers	
 152764	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 152764	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 152765	yr	yr/	yr	n. m. sg. abs. gen.	early rain	
@@ -113,32 +111,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152773	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.105 22						
 152774	nskt	nsk(t/t	nskt	n. f. sg. cstr. gen.	casting	
-152775	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+152775	ksp	ksp/	ksp	n. m. sg. abs. gen.	1) silver b) items made of silver	
 152776	w	w	w	conj.	and	
-152777	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
+152777	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold d) cultic offering	
 152778	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 152779	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
 152780	šm	š/m	š	n. m. pl. abs. gen.	ram	
 152780	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 152781	lbtbt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 23						
-152782	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-152782	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+152782	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle d) sacrificial material	
+152782	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle d) sacrificial material	
 152782	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 152783	w	w	w	conj.	and	
 152784	š	š/	š	n. m. sg. cstr. nom.	ram	
 152785	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
-152786	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
+152786	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	1) (head of) cattle d) sacrificial material	
 152787	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
 152787	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 152787	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.105 24						
 152788	l	l(I)	l (I)	prep.	to	
 152789	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-152790	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	
+152790	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	2) espec. domestic fowl	
 152791	lṣpn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.105 25						
-152792	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+152792	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	6) (piece of) offal	
 152793	wš	?	?	?	?	DULAT: NOT FOUND
 152794	l	l(I)	l (I)	prep.	to	
 152795	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	

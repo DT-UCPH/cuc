@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157084	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	
 # KTU 2.24 2						
 157085	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
-157086	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+157086	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
 # KTU 2.24 3						
 157087	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 157088	illḏr	?	?	?	?	DULAT: NOT FOUND
@@ -26,15 +26,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157099	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
 # KTU 2.24 9						
 157100	kll	kll/	kll	n. m. sg. abs. nom.	totality	
+157101	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
 157101	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-157101	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
-157101	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to be well	
-157101	šlm	šlm[:dt===	/š-l-m/	vb D suffc. 3 f. sg.	to be well	
-157101	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to be well	
-157101	šlm	šlm[:dt=	/š-l-m/	vb D suffc. 2 m. sg.	to be well	
-157101	šlm	šlm[:dt==	/š-l-m/	vb D suffc. 2 f. sg.	to be well	
-157101	šlm	šlm[:dt	/š-l-m/	vb D suffc. 1 c. sg.	to be well	
-157101	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 2.24 10						
 157102	ṯmny	ṯm+ny	ṯm	adv.	there	
 157103	ˤm	ˤm(I)	ʕm (I)	prep.	to	
@@ -44,6 +37,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 157106	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.24 12						
 157107	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
-157108	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to return	
-157108	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to return	
+157108	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
+157108	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
 157109	ly	l(I)+y	l (I)	prep.	to	
