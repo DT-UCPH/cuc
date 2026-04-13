@@ -183,6 +183,12 @@ But if the verb is III-aleph root, the aleph is added by (, [ marks the end of t
 !y!(nš(ʔ[&u
 ```
 
+If the i after the aleph in III-aleph verbs is silent, it is not a verbal ending and it comes before the [:
+
+```
+!!(yṣ(ʔ&i[
+```
+
 For aleph as a prefix, the vocalization is marked as follows:
 ```
 !(ʔ&a!šlw[ "I will be in peace"
