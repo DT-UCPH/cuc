@@ -43,8 +43,7 @@ For this dataset, we cooperate with Tania Notarius (University of the Free State
 - KTU 2.1
 - KTU 2.3-2.18
 - KTU 2.20-2.27
-- KTU 2.30-2.32
-- KTU 2.34-2.44
+- KTU 2.30-2.44
 - KTU 2.46-2.75
 - KTU 2.77-2.80
 - KTU 2.82-2.105
