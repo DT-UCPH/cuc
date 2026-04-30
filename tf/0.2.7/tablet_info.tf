@@ -11,7 +11,7 @@
 @valueType=str
 @version=0.2.7
 @writtenBy=Text-Fabric
-@dateWritten=2026-01-22T09:51:52+00:00Z
+@dateWritten=2026-04-28T14:59:09+00:00Z
 
-84600	Tablet KTU 1.7 is very damaged. For further information, see Pardee, Dennis. “Frustrations of an Epigrapher: Remarks on the Ugaritic Text RS 5.180 + 5.198.” Ve-’Ed Ya‘aleh (Gen 2:6): Volume 1: Essays in Biblical and Ancient Near Eastern Studies Presented to Edward L. Greenstein, ed. by Peter Machinist et al., The Society of Biblical Literature, 2021, pp. 121–58. https://doi.org/10.2307/j.ctv1zm2ts1.12
-84651	Lines 1-15 + 36-48 and lines 17-26 + 27-35 do not join directly; for the restorations see KTU 1.40
+125551	Tablet KTU 1.7 is very damaged. For further information, see Pardee, Dennis. “Frustrations of an Epigrapher: Remarks on the Ugaritic Text RS 5.180 + 5.198.” Ve-’Ed Ya‘aleh (Gen 2:6): Volume 1: Essays in Biblical and Ancient Near Eastern Studies Presented to Edward L. Greenstein, ed. by Peter Machinist et al., The Society of Biblical Literature, 2021, pp. 121–58. https://doi.org/10.2307/j.ctv1zm2ts1.12
+125602	Lines 1-15 + 36-48 and lines 17-26 + 27-35 do not join directly; for the restorations see KTU 1.40

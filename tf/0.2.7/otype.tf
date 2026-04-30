@@ -10,10 +10,10 @@
 @valueType=str
 @version=0.2.7
 @writtenBy=Text-Fabric
-@dateWritten=2026-01-22T09:51:52+00:00Z
+@dateWritten=2026-04-28T14:59:08+00:00Z
 
-1-76830	sign
-76831-77163	column
-77164-84593	line
-84594-84871	tablet
-84872-112028	word
+1-117594	sign
+117595-117928	column
+117929-125544	line
+125545-125823	tablet
+125824-153284	word
