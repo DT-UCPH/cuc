@@ -345,7 +345,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:20						
 140012	w	w	w	conj.	and	
 140013	dˤlmk	d; ˤlm/+k	ʕlm (I)	det. / rel. functor; n. m. sg. cstr. nom. 	1) The one(s) of a) det. of quality, type.; eternity, perpetuity	
-# CHECKED UP TO HERE
 140014	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad, rejoice	
 140015	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 140016	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
@@ -355,19 +354,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140018	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 140019	gh	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	
 140020	w	w	w	conj.	and	
-#CHECKED UP TO HERE
-140021	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	UNP: wyṣḥ
-140022	ik	ik	ỉk	interr. functor	how?	
-140023	yṣḥn	!y!ṣḥ[n	/ṣ-ḥ/	vb G prefc.	to exclaim	UNP: y{.}ṣḥn
+140021	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	3) to claim	UNP: wyṣḥ
+140021	aṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	3) to claim	UNP: wyṣḥ
+140022	ik	ik	ỉk	interr. functor	how?, why?	
+140023	yṣḥn	!y!ṣḥ[+n	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	UNP: y{.}ṣḥn
 # KTU 1.5 II:22						
 140024	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 140025	xxxxxx	?	?	?	?	
-140026	yqr	!y!qr(ʔ[	/q-r-ʔ/	vb G prefc.	to call	
-140027	un	qrʔ[	/q-r-ʔ/	vb G prefc.	to call	
-140028	hd	hd/	hd(d)	DN	Haddu/Hadad	
+# CHECKED UP TO HERE
+140026	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to present, offer	
+140027	un	un/	ủn	n. m. sg. cstr. nom.	grief	???
+140028	hd	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
 # KTU 1.5 II:23						
 140029	xxxxxxxxxp	?	?	?	?	UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
-140030	mlḥmy	mlḥmy	mlḥmy	?	?	
+140030	mlḥmy	mlḥmy	mlḥmy	?	?	DULAT direct ref
 # KTU 1.5 II:24						
 140031	xxxxxxxxlt	?	?	?	?	DULAT: NOT FOUND
 140032	qẓb	qẓb/	qẓb	DN	name of a demon (?)	
