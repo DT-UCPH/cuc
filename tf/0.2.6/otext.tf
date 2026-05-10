@@ -11,7 +11,7 @@
 @sectionFeatures=tablet,column,line
 @sectionTypes=tablet,column,line
 @source=
-@version=0.2.6
+@version=0.2.7
 @writtenBy=Text-Fabric
-@dateWritten=2026-01-08T12:19:48+00:00Z
+@dateWritten=2026-04-28T14:05:48+00:00Z
 
