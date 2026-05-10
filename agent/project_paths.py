@@ -121,6 +121,11 @@ class ProjectPaths:
             return Path(env_value).expanduser().resolve()
 
         auto_root = self.repo_root / "auto_parsing"
+        try:
+            return auto_root / self.latest_tf_version()
+        except FileNotFoundError:
+            pass
+
         versioned_dirs = (
             sorted(
                 [path for path in auto_root.iterdir() if path.is_dir()],
