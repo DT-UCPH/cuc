@@ -162,7 +162,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139874	ˤm	ˤm(I)	ʕm (I) 2	prep.	with, together with	
 # KTU 1.5 I:23						
 139875	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	
-139876	qran	qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg.	to call	
+139876	qran	!!qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg.	to call	
 139877	hd	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
 139878	ˤm	ˤm(I)	ʕm (I) 2	prep.	with, together with	
 139879	aryy	ary(I)/+y	ảry (I)	n. m. pl. cstr. gen.	fellow	
@@ -262,13 +262,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139946	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.5 II:8						
 139947	tbˤ	!!tbˤ[/	/t-b-ʕ/	vb G inf.	to go	
-139948	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+139948	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
 139949	l	l(I)	l (I)	prep.	to	
 139950	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 139951	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 139952	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:9						
-139953	ṯny	ṯny[	/ṯ-n-y/	vb G impv. 2	to repeat	
+139953	ṯny	!!ṯny[	/ṯ-n-y/	vb G impv. 2	to repeat	
 139954	l	l(I)	l (I)	prep.	to	
 139955	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
 139956	il	il(I)/	ỉl (I)	DN m. abs. gen.	ʾIlu/Ilu/El	
@@ -361,9 +361,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:22						
 140024	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 140025	xxxxxx	?	?	?	?	
-# CHECKED UP TO HERE
-140026	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to present, offer	
-140027	un	un/	ủn	n. m. sg. cstr. nom.	grief	???
+140026	yqr	!y!qr(ʔ&u[+n	/q-r-ʔ/	vb G prefc. 3 m. sg.	to call, shout, invite	# MERGE WITH THE NEXT. UNP: yqrun "[he] calls me"
+140027	un	!y!qr(ʔ&u[+n	/q-r-ʔ/	vb G prefc. 3 m. sg.	to call, shout, invite	# MERGE WITH THE PREVIOUS. UNP: yqrun "[he] calls me"
 140028	hd	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
 # KTU 1.5 II:23						
 140029	xxxxxxxxxp	?	?	?	?	UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
@@ -373,17 +372,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140032	qẓb	qẓb/	qẓb	DN	name of a demon (?)	
 # KTU 1.5 II:25						
 140033	xxxxxxxxxx	?	?	?	?	
-140034	šmḥy	šmḫ[+y	/š-m-ḫ/	vb G prefc. / vb G suffc.	to be glad	
-140034	šmḥy	!!šmḫ[/+y	/š-m-ḫ/	vb G inf.	to be glad	
+140034	!!šmḥy[	!!]š]mḫy[	/m-ḥ(-w:y)/	vb Š impv.	to clean, wipe, erase	Very uncertain.
 # KTU 1.5 II:26						
-140035	xxxxxxxxxxxtbˤ	?	?	?	?	DULAT: NOT FOUND
+140035	xxxxxxxxxxxtbˤ	tbˤ[	/t-b-ʕ/	vb G suffc.	1) to go 2) to die	
+140035	xxxxxxxxxxxtbˤ	!!tbˤ[/	/t-b-ʕ/	vb G inf.	1) to go 2) to die	
 140036	ṯ	ṯ	ṯ	→	?	
 # KTU 1.5 II:27						
-140037	xxxxxxxxxxxxtnṮnm	?	?	?	?	DULAT: NOT FOUND
+140037	xxxxxxxxxxxxtnṮnm	?	?	?	?	# KTU3: ṯ is written above a sign probably representing a Hurrian phoneme (ṯ?) of ln. 27.
 # KTU 1.5 III:1						
 140038	xxxxm	?	?	?	?	DULAT: NOT FOUND
 140039	x	?	?	?	?	
 # KTU 1.5 III:2						
+# CHECKED UP TO HERE
 140040	rḥbt	rḥb(t/t	rḥbt	n. f. sg.	amphora	
 140040	rḥbt	rḥb(t/t=	rḥbt	n. f. sg.	amphora	
 140041	ṯbt	ṯb(t/t	ṯbt	n. f. sg.	seat	
