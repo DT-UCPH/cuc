@@ -751,35 +751,6 @@ def analysis_reconstructs(surface: str, analysis: str) -> bool:
     return bool(expected) and reconstructed == expected
 
 
-def gate_rendered_variants(
-    surface: str,
-    rendered: List[Tuple[str, str, str, str]],
-) -> Tuple[List[Tuple[str, str, str, str]], Optional[str]]:
-    """Drop rendered variants whose analysis cannot reconstruct the surface.
-
-    Args:
-        surface: the token surface.
-        rendered: (analysis, dulat, pos, gloss) tuples as produced by
-            render_variant, in ranking order.
-
-    Returns:
-        (kept, hint): the reconstructable variants, or - when none survive -
-        an empty list plus a comment hint naming the DULAT candidates so the
-        reviewer keeps the lexical lead without a misleading parse.
-    """
-    if "x" in (surface or "").lower():
-        return rendered, None
-    sound = [item for item in rendered if analysis_reconstructs(surface, item[0])]
-    if sound:
-        return sound, None
-    hints = []
-    for _analysis, dulat, _pos, gloss in rendered[:3]:
-        label = " - ".join(part for part in (dulat.strip(), gloss.strip()) if part)
-        if label:
-            hints.append(label)
-    return [], "; ".join(hints) or None
-
-
 def build_s_stem_assimilation_analysis(
     *,
     surface_plain: str,
@@ -1958,24 +1929,20 @@ def refine_file(
                         translation_index=translation_index,
                     )
                 )
-            rendered, gate_hint = gate_rendered_variants(surface, rendered)
-            if not rendered:
-                hint_comment = (
-                    f"DULAT candidates (no reconstructable encoding): {gate_hint}"
-                    if gate_hint
-                    else "DULAT: NOT FOUND"
-                )
-                new_parts = [line_id, surface, "?", "?", "?", "?", hint_comment]
-            else:
-                new_parts = [
-                    line_id,
-                    surface,
-                    ";".join(item[0] for item in rendered),
-                    ";".join(item[1] for item in rendered),
-                    ";".join(item[2] for item in rendered),
-                    ";".join(item[3] for item in rendered),
-                    "",
-                ]
+            # No reconstructability gating here: rendering is deliberately
+            # followed by repair steps (plural split, suffix clitics, weak
+            # preformatives), so baselines like il(I)/ for ilm only become
+            # reconstructable later. The end-of-pipeline fallback step turns
+            # what still cannot reconstruct after repair into '?' + hint.
+            new_parts = [
+                line_id,
+                surface,
+                ";".join(item[0] for item in rendered),
+                ";".join(item[1] for item in rendered),
+                ";".join(item[2] for item in rendered),
+                ";".join(item[3] for item in rendered),
+                "",
+            ]
 
         new_line = "\t".join(new_parts)
         if comment and not comment.startswith("DULAT: NOT FOUND"):

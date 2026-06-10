@@ -60,6 +60,7 @@ from pipeline.steps.suffix_payload_collapse import SuffixPayloadCollapseFixer
 from pipeline.steps.surface_option_propagation import SurfaceOptionPropagationFixer
 from pipeline.steps.surface_reconstructability_fixer import SurfaceReconstructabilityFixer
 from pipeline.steps.toponym_directional_h import ToponymDirectionalHFixer
+from pipeline.steps.unresolvable_token_fallback import UnresolvableTokenFallback
 from pipeline.steps.unwrapped_duplicate_pruner import UnwrappedDuplicatePruner
 from pipeline.steps.variant_reconstruction_pruner import VariantReconstructionPruner
 from pipeline.steps.variant_row_unwrapper import VariantRowUnwrapper
@@ -193,6 +194,9 @@ class TabletParsingPipeline:
             *build_spacy_morph_context_steps(),
             BaalGlossFixer(),
             *build_spacy_quote_translation_steps(dulat_db=self.config.dulat_db),
+            # After every repair step has run, tokens that still cannot
+            # reconstruct fall back to '?' with a DULAT candidate hint.
+            UnresolvableTokenFallback(),
             # Keep schema pass last so any content-changing steps still end in
             # strict 7-column/quote-safe TSV for GitHub rendering.
             TsvSchemaFormatter(),
