@@ -26,8 +26,10 @@ def _verb_entry(lemma: str) -> Entry:
 
 class AnalysisNoFabricatedTailTest(unittest.TestCase):
     def test_surface_not_starting_with_stem_gets_no_tail(self) -> None:
+        # The Š-assimilation branch now owns this surface; the point here is
+        # that no fabricated '[b' tail appears.
         analysis = analysis_for_entry("ṯṯb", _verb_entry("/ṯ-b/"), morph_values=["Š, impv."])
-        self.assertEqual(analysis, "]š]ṯb[")
+        self.assertEqual(analysis, "](š&ṯ]ṯb[")
 
     def test_prefixed_surface_not_matching_stem_gets_no_tail(self) -> None:
         analysis = analysis_for_entry("tṯṯb", _verb_entry("/ṯ-b/"), morph_values=["Š, prefc."])

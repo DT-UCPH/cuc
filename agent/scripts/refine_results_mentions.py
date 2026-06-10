@@ -651,7 +651,11 @@ def build_prefixed_n_weak_iii_aleph_analysis(
 
     inflection = body[m.start() :]
     normalized_stem = stem
-    if normalized_stem.startswith("n"):
+    if body.startswith("n"):
+        # The root-initial n is written on the tablet (tnšan): keep it
+        # visible instead of wrapping it as a hidden '(n'.
+        pass
+    elif normalized_stem.startswith("n"):
         normalized_stem = "(n" + normalized_stem[1:]
     elif not normalized_stem.startswith("(n"):
         normalized_stem = "(n" + normalized_stem
@@ -727,6 +731,124 @@ def build_prefixed_weak_fallback_analysis(
         host = f"{stem_plain[0]}(ʔ&{body[1]}{stem_plain[2:]}"
         return f"{marker}{stem_marker}{host}{hom}[{tail}"
 
+    return None
+
+
+_VOWEL_LETTERS = {"a", "i", "u"}
+
+
+def analysis_reconstructs(surface: str, analysis: str) -> bool:
+    """Return True when the analysis decodes exactly to the surface letters."""
+    from linter.lint import (
+        ANALYSIS_SURFACE_LETTER_RE,
+        normalize_surface,
+        reconstruct_surface_from_analysis,
+    )
+
+    letters = "".join(ch for ch in (surface or "") if ANALYSIS_SURFACE_LETTER_RE.match(ch))
+    expected = normalize_surface(letters or (surface or "").strip())
+    reconstructed = normalize_surface(reconstruct_surface_from_analysis((analysis or "").strip()))
+    return bool(expected) and reconstructed == expected
+
+
+def gate_rendered_variants(
+    surface: str,
+    rendered: List[Tuple[str, str, str, str]],
+) -> Tuple[List[Tuple[str, str, str, str]], Optional[str]]:
+    """Drop rendered variants whose analysis cannot reconstruct the surface.
+
+    Args:
+        surface: the token surface.
+        rendered: (analysis, dulat, pos, gloss) tuples as produced by
+            render_variant, in ranking order.
+
+    Returns:
+        (kept, hint): the reconstructable variants, or - when none survive -
+        an empty list plus a comment hint naming the DULAT candidates so the
+        reviewer keeps the lexical lead without a misleading parse.
+    """
+    if "x" in (surface or "").lower():
+        return rendered, None
+    sound = [item for item in rendered if analysis_reconstructs(surface, item[0])]
+    if sound:
+        return sound, None
+    hints = []
+    for _analysis, dulat, _pos, gloss in rendered[:3]:
+        label = " - ".join(part for part in (dulat.strip(), gloss.strip()) if part)
+        if label:
+            hints.append(label)
+    return [], "; ".join(hints) or None
+
+
+def build_s_stem_assimilation_analysis(
+    *,
+    surface_plain: str,
+    stem: str,
+    stem_plain: str,
+    stem_marker_plain: str,
+    hom: str,
+) -> Optional[str]:
+    """Encode Š-augment assimilated to a following ṯ as ](š&ṯ].
+
+    DULAT /ṯ-b/ attests Š prefc. tṯṯb/yṯṯb/tṯṯbn, impv. ṯṯb, inf. ṯṯb: the
+    augment š is written ṯ before the ṯ-initial root.
+    """
+    if stem_marker_plain != "š" or not stem_plain.startswith("ṯ"):
+        return None
+    if surface_plain.startswith("ṯ" + stem_plain):
+        tail = surface_plain[len(stem_plain) + 1 :]
+        return f"](š&ṯ]{stem}{hom}[{tail}"
+    if surface_plain[:1] in _PREFORMATIVE_LETTERS and surface_plain[1:].startswith(
+        "ṯ" + stem_plain
+    ):
+        marker = format_preformative_marker(surface_plain[0])
+        tail = surface_plain[len(stem_plain) + 2 :]
+        return f"{marker}](š&ṯ]{stem}{hom}[{tail}"
+    return None
+
+
+def build_aleph_realization_analysis(
+    *,
+    surface_plain: str,
+    stem_plain: str,
+    stem_marker: str,
+    hom: str,
+) -> Optional[str]:
+    """Encode aleph radicals realized as vowel letters ((ʔ&V pattern).
+
+    Covers all three root positions, with or without a preformative:
+    likt -> l(ʔ&ik[t (II-ʔ), iḫdn -> (ʔ&iḫd[n (I-ʔ),
+    tnšan -> !t!nš(ʔ&a[n (III-ʔ).
+    """
+
+    def _attempt(body: str, marker: str) -> Optional[str]:
+        if not body:
+            return None
+        if (
+            stem_plain.startswith("ʔ")
+            and body[:1] in _VOWEL_LETTERS
+            and body[1:].startswith(stem_plain[1:])
+        ):
+            tail = body[len(stem_plain) :]
+            return f"{marker}{stem_marker}(ʔ&{body[0]}{stem_plain[1:]}{hom}[{tail}"
+        if (
+            len(stem_plain) >= 3
+            and stem_plain[1] == "ʔ"
+            and body[:1] == stem_plain[0]
+            and body[1:2] in _VOWEL_LETTERS
+            and body[2:].startswith(stem_plain[2:])
+        ):
+            tail = body[len(stem_plain) :]
+            return f"{marker}{stem_marker}{stem_plain[0]}(ʔ&{body[1]}{stem_plain[2:]}{hom}[{tail}"
+        # III-ʔ realization is owned by the prefixed III-aleph builders,
+        # which place the vocalization after '[' per the conventions.
+        return None
+
+    direct = _attempt(surface_plain, "")
+    if direct is not None:
+        return direct
+    if surface_plain[:1] in _PREFORMATIVE_LETTERS and len(surface_plain) > 1:
+        return _attempt(surface_plain[1:], format_preformative_marker(surface_plain[0]))
     return None
 
 
@@ -819,6 +941,23 @@ def analysis_for_entry(
             )
             if prefixed_fallback is not None:
                 return prefixed_fallback
+        assimilated = build_s_stem_assimilation_analysis(
+            surface_plain=surface_plain,
+            stem=stem,
+            stem_plain=stem_plain,
+            stem_marker_plain=stem_marker_plain,
+            hom=hom,
+        )
+        if assimilated is not None:
+            return assimilated
+        realized = build_aleph_realization_analysis(
+            surface_plain=surface_plain,
+            stem_plain=stem_plain,
+            stem_marker=stem_marker,
+            hom=hom,
+        )
+        if realized is not None:
+            return realized
         # A tail after '[' is only sound when the surface actually starts
         # with the (marker+)stem letters; fabricating one from unmatched
         # trailing surface letters created analyses that were wrong by
@@ -1808,32 +1947,35 @@ def refine_file(
                 continue
             new_parts = [line_id, surface, surface, "", "", "", "DULAT: NOT FOUND"]
         else:
-            analyses: List[str] = []
-            dulat_tokens: List[str] = []
-            pos_tokens: List[str] = []
-            gloss_tokens: List[str] = []
+            rendered: List[Tuple[str, str, str, str]] = []
             for v in variants:
-                a, d, p, g = render_variant(
-                    surface,
-                    v,
-                    forms_morph=forms_morph,
-                    section_ref=current_ref,
-                    translation_index=translation_index,
+                rendered.append(
+                    render_variant(
+                        surface,
+                        v,
+                        forms_morph=forms_morph,
+                        section_ref=current_ref,
+                        translation_index=translation_index,
+                    )
                 )
-                analyses.append(a)
-                dulat_tokens.append(d)
-                pos_tokens.append(p)
-                gloss_tokens.append(g)
-
-            new_parts = [
-                line_id,
-                surface,
-                ";".join(analyses),
-                ";".join(dulat_tokens),
-                ";".join(pos_tokens),
-                ";".join(gloss_tokens),
-                "",
-            ]
+            rendered, gate_hint = gate_rendered_variants(surface, rendered)
+            if not rendered:
+                hint_comment = (
+                    f"DULAT candidates (no reconstructable encoding): {gate_hint}"
+                    if gate_hint
+                    else "DULAT: NOT FOUND"
+                )
+                new_parts = [line_id, surface, "?", "?", "?", "?", hint_comment]
+            else:
+                new_parts = [
+                    line_id,
+                    surface,
+                    ";".join(item[0] for item in rendered),
+                    ";".join(item[1] for item in rendered),
+                    ";".join(item[2] for item in rendered),
+                    ";".join(item[3] for item in rendered),
+                    "",
+                ]
 
         new_line = "\t".join(new_parts)
         if comment and not comment.startswith("DULAT: NOT FOUND"):
