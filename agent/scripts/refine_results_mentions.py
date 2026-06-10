@@ -397,11 +397,23 @@ def lemma_to_letters(lemma: str, fallback: str = "") -> str:
         return normalize_analysis(extract_letters(fallback))
 
     if lm.startswith("/") and lm.endswith("/"):
-        body = lm[1:-1]
-        body = body.split("/", 1)[0]
-        body = re.sub(r"\([^)]*\)", "", body)
-        body = body.replace("-", "")
-        letters = extract_letters(body)
+        body = re.sub(r"\([^)]*\)", "", lm[1:-1])
+        # A slash inside a root separates alternative radicals of one slot
+        # (/y/w-ḥ-l/ = y-ḥ-l or w-ḥ-l). Prefer the alternative whose letters
+        # occur in the observed surface; default to the first one.
+        fallback_letters = normalize_analysis(extract_letters(fallback))
+        radicals = []
+        for slot in body.split("-"):
+            alternatives = [alt for alt in slot.split("/") if alt] or [slot]
+            chosen = alternatives[0]
+            if len(alternatives) > 1 and fallback_letters:
+                for alt in alternatives:
+                    alt_letters = normalize_analysis(extract_letters(alt))
+                    if alt_letters and alt_letters in fallback_letters:
+                        chosen = alt
+                        break
+            radicals.append(chosen)
+        letters = extract_letters("".join(radicals))
         if letters:
             return normalize_analysis(letters)
 
@@ -807,13 +819,15 @@ def analysis_for_entry(
             )
             if prefixed_fallback is not None:
                 return prefixed_fallback
+        # A tail after '[' is only sound when the surface actually starts
+        # with the (marker+)stem letters; fabricating one from unmatched
+        # trailing surface letters created analyses that were wrong by
+        # construction (ṯṯb -> ]š]ṯb[b, tṯṯb -> ]š]ṯb[ṯb).
         tail = ""
         marker_plus_stem = f"{stem_marker_plain}{stem_plain}"
         if marker_plus_stem and surface_plain.startswith(marker_plus_stem):
             tail = surface_plain[len(marker_plus_stem) :]
         elif stem_plain and surface_plain.startswith(stem_plain):
-            tail = surface_plain[len(stem_plain) :]
-        elif len(surface_plain) > len(stem_plain):
             tail = surface_plain[len(stem_plain) :]
         return f"{stem_marker}{stem}{hom}[{tail}"
 
@@ -1764,7 +1778,14 @@ def refine_file(
             rows += 1
             continue
 
-        mention_ids = mentions_for_ref(reverse_mentions, current_ref) if current_ref else set()
+        # Exact-line mentions only: neighbour-line fallback proved unsafe for
+        # ranking (it boosted a leaked /y-t-n/ row for surface gh at KTU 1.16
+        # II:36 via the II:35 citation and pushed out the correct g+h row).
+        mention_ids = (
+            mentions_for_ref(reverse_mentions, current_ref, line_tolerance=0)
+            if current_ref
+            else set()
+        )
         variants = build_variants(
             surface,
             current_ref,

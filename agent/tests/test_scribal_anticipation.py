@@ -33,6 +33,13 @@ class IsAnticipationFragmentTest(unittest.TestCase):
     def test_long_fragment_is_rejected(self) -> None:
         self.assertFalse(is_anticipation_fragment("spuy", "spuym", max_fragment_len=3))
 
+    def test_broken_x_surfaces_are_rejected(self) -> None:
+        # x marks a broken sign; xx|xxx is damage, not scribal anticipation
+        # (reported for token 142896).
+        self.assertFalse(is_anticipation_fragment("xx", "xxx"))
+        self.assertFalse(is_anticipation_fragment("s", "sxx"))
+        self.assertFalse(is_anticipation_fragment("X", "Xb"))
+
 
 class ScribalAnticipationAnnotatorTest(unittest.TestCase):
     HEADER = "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"

@@ -37,6 +37,10 @@ def is_anticipation_fragment(
     full = (full_surface or "").strip()
     if not fragment or not full:
         return False
+    # x marks a broken sign in CUC surfaces; damaged tokens cannot be
+    # identified as anticipations of one another.
+    if "x" in fragment.lower() or "x" in full.lower():
+        return False
     if len(fragment) > max_fragment_len:
         return False
     return len(full) > len(fragment) and full.startswith(fragment)

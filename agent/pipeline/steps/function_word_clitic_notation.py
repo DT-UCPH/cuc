@@ -35,7 +35,11 @@ def _split_semicolon(value: str) -> list[str]:
 
 def _is_function_word_pos(pos_variant: str) -> bool:
     head = ((pos_variant or "").split(",", 1)[0]).strip().lower()
-    return head.startswith(("prep.", "adv.", "conj.", "functor", "det."))
+    if head.startswith(("prep.", "adv.", "conj.", "functor", "det.")):
+        return True
+    # Functor labels often carry a qualifier first ('Subordinating or
+    # completive functor', 'emph. functor', 'deictic functor', ...).
+    return "functor" in head.split()
 
 
 def _rewrite_variant(analysis_variant: str, pos_variant: str) -> str:

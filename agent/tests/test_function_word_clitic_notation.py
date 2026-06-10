@@ -10,6 +10,19 @@ class FunctionWordCliticNotationFixerTest(unittest.TestCase):
     def setUp(self) -> None:
         self.fixer = FunctionWordCliticNotationFixer()
 
+    def test_rewrites_functor_y_tail_to_pronominal_plus(self) -> None:
+        # KTU 2.16 ky (Elijah): the pronoun must be +y, not a surface-only &y.
+        row = TabletRow(
+            "1", "ky", "k(III)&y", "k (III)", "Subordinating or completive functor", "when", ""
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "k(III)+y")
+
+    def test_rewrites_emph_functor_y_tail_to_pronominal_plus(self) -> None:
+        row = TabletRow("1", "ky", "k(II)&y", "k (II)", "emph. functor", "yes", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "k(II)+y")
+
     def test_rewrites_prep_m_suffix_to_plus_marker(self) -> None:
         row = TabletRow("1", "lm", "l(I)&m", "l (I)", "prep.", "to", "")
         result = self.fixer.refine_row(row)

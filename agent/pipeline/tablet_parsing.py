@@ -61,6 +61,7 @@ from pipeline.steps.surface_option_propagation import SurfaceOptionPropagationFi
 from pipeline.steps.surface_reconstructability_fixer import SurfaceReconstructabilityFixer
 from pipeline.steps.toponym_directional_h import ToponymDirectionalHFixer
 from pipeline.steps.unwrapped_duplicate_pruner import UnwrappedDuplicatePruner
+from pipeline.steps.variant_reconstruction_pruner import VariantReconstructionPruner
 from pipeline.steps.variant_row_unwrapper import VariantRowUnwrapper
 from pipeline.steps.verb_form_encoding_split import VerbFormEncodingSplitFixer
 from pipeline.steps.verb_form_morph_pos import VerbFormMorphPosFixer
@@ -140,6 +141,10 @@ class TabletParsingPipeline:
             RedirectReconstructionCommentFixer(),
             UnwrappedDuplicatePruner(),
             FunctionWordCliticPruner(),
+            # Runs after the marker fixers so repairable rows are repaired
+            # first; what still cannot reconstruct next to a healthy sibling
+            # is a parser artifact (cross-token leakage like gh -> ytn[).
+            VariantReconstructionPruner(),
             NominalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
             AttestationReferenceDisambiguator(index=self.attestation_index),
             # Must precede the split-token merge: an annotated anticipation
