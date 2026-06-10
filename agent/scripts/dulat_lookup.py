@@ -7,13 +7,43 @@ Usage:
   dulat_lookup.py entry <id>       - dump entry details (pos, gender, summary, forms, translations)
   dulat_lookup.py ref <ref>        - reverse refs for a line, e.g. "CAT 1.5 III:2"
   dulat_lookup.py udb <ref>        - UDB line text for a ref, e.g. "CAT 1.5 III:2"
+
+Database locations are resolved from the DULAT_DB / UDB_DB environment
+variables when set; otherwise common repo-relative and sibling-checkout
+locations are tried.
 """
+import os
 import sqlite3
 import sys
 import unicodedata
 
-DULAT = "/Users/alexandersosnovschenko/projects/dulat/app/data/dulat_cache.sqlite"
-UDB = "/Users/alexandersosnovschenko/projects/dulat/app/udb/udb_cache.sqlite"
+REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+
+
+def _find_db(env_var, candidates):
+    path = os.environ.get(env_var)
+    if path:
+        return os.path.expanduser(path)
+    for cand in candidates:
+        cand = os.path.expanduser(cand)
+        if os.path.exists(cand):
+            return cand
+    sys.exit(f"{env_var} not set and no database found; tried: {', '.join(candidates)}")
+
+
+DULAT = _find_db("DULAT_DB", [
+    os.path.join(REPO, "agent", "sources", "dulat_cache.sqlite"),
+    os.path.join(REPO, "sources", "dulat_cache.sqlite"),
+    os.path.join(REPO, "..", "dulat", "app", "data", "dulat_cache.sqlite"),
+    "~/projects/dulat/app/data/dulat_cache.sqlite",
+])
+UDB = _find_db("UDB_DB", [
+    os.path.join(REPO, "agent", "udb_cache.sqlite"),
+    os.path.join(REPO, "agent", "sources", "udb_cache.sqlite"),
+    os.path.join(REPO, "sources", "udb_cache.sqlite"),
+    os.path.join(REPO, "..", "dulat", "app", "udb", "udb_cache.sqlite"),
+    "~/projects/dulat/app/udb/udb_cache.sqlite",
+])
 
 ALEPH = {"ả": "a", "ỉ": "i", "ủ": "u", "Ả": "a", "Ỉ": "i", "Ủ": "u",
          "á": "a", "í": "i", "ú": "u", "à": "a", "ì": "i", "ù": "u"}
