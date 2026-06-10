@@ -117,6 +117,56 @@ def load_generic_override_lexemes(path: Path) -> set[str]:
     return out
 
 
+def load_generic_override_analyses(path: Path) -> Dict[str, set[str]]:
+    """Load surface -> allowed analysis variants from generic_parsing_overrides.tsv.
+
+    Unlike ``load_generic_override_lexemes`` (which flattens every lexeme key in
+    the table into one set), this preserves the per-surface scope so callers can
+    demote an issue only when the linted surface/analysis pair itself is
+    whitelisted by an override row.
+    """
+    out: Dict[str, set[str]] = {}
+    if not path.exists():
+        return out
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.lower().startswith("surface form\t"):
+            continue
+        parts = raw.split("\t")
+        if len(parts) < 2:
+            continue
+        surface_key = normalize_surface((parts[0] or "").strip()).lower()
+        if not surface_key:
+            continue
+        analyses = out.setdefault(surface_key, set())
+        for variant in split_semicolon_field(parts[1]):
+            variant = normalize_surface(variant.strip())
+            if variant:
+                analyses.add(variant)
+    return out
+
+
+def reconstruction_demotion_applies(
+    surface: str,
+    analysis_variant: str,
+    generic_override_analyses: Optional[Dict[str, set[str]]],
+) -> bool:
+    """Return True when an override row whitelists this exact surface/analysis pair.
+
+    Reconstruction failures are demoted to info only for analyses explicitly
+    listed for the linted surface. A mere lexeme-key intersection (e.g. surface
+    ``ttn`` analysed as ``ytn[`` while the override row is for surface ``tn``)
+    must not demote: those are genuine parser errors.
+    """
+    if not generic_override_analyses:
+        return False
+    surface_key = normalize_surface((surface or "").strip()).lower()
+    allowed = generic_override_analyses.get(surface_key)
+    if not allowed:
+        return False
+    return normalize_surface((analysis_variant or "").strip()) in allowed
+
+
 def load_onomastic_override_pos(path: Path) -> Dict[Tuple[str, str], set[str]]:
     """Load onomastic POS overrides keyed by (lemma, homonym)."""
     out: Dict[Tuple[str, str], set[str]] = {}
@@ -309,6 +359,47 @@ _PRONOMINAL_SUFFIX_SEGMENTS = (
 _HOMONYM_MARKED_SUFFIX_RE = re.compile(
     r"(?:\+|~|\[)(?:" + "|".join(_PRONOMINAL_SUFFIX_SEGMENTS) + r")=?\((?:I|II|III|IV)\)=?"
 )
+_AFFIX_HOMONYM_TAG_RE = re.compile(r"\((?:I|II|III|IV|V)\)")
+
+# Pronominal-suffix payloads allowed after '+', per the paradigm table in
+# 'Tagging conventions.md' (disambiguating '=' runs are stripped before the
+# lookup). Notably absent: 'm' - plural/dual/enclitic -m is never pronominal.
+PRONOMINAL_SUFFIX_INVENTORY = frozenset(_PRONOMINAL_SUFFIX_SEGMENTS)
+
+# Enclitic payloads allowed after '~': energic -n/-nn, emphatic/deictic -m,
+# directive -h (II), emphatic -y (II), -k (II), and -t (blt-type).
+ENCLITIC_INVENTORY = frozenset({"n", "nn", "m", "h", "y", "k", "t"})
+
+
+def invalid_affix_segments(analysis_variant: str) -> List[Tuple[str, str]]:
+    """Return (marker, segment) pairs for affixes outside the inventories.
+
+    Validates simple ``+payload`` (pronominal suffix) and ``~payload``
+    (enclitic) segments of one analysis variant. Segments that contain
+    reconstruction marks ('(', '&') or fused markers are skipped here; their
+    shape is governed by the reconstruction checks instead.
+    """
+    out: List[Tuple[str, str]] = []
+    value = (analysis_variant or "").strip()
+    if not value or is_unresolved_placeholder(value):
+        return out
+    for chunk in re.split(r"(?=[+~])", value):
+        chunk = chunk.strip()
+        if len(chunk) < 2 or chunk[0] not in "+~":
+            continue
+        marker, payload = chunk[0], chunk[1:]
+        payload = _AFFIX_HOMONYM_TAG_RE.sub("", payload)
+        if any(ch in payload for ch in "(&[]!+~"):
+            continue
+        core = payload.split(":")[0].rstrip("=,; ").strip()
+        if not core:
+            continue
+        inventory = PRONOMINAL_SUFFIX_INVENTORY if marker == "+" else ENCLITIC_INVENTORY
+        if normalize_surface(core).lower() not in inventory:
+            out.append((marker, chunk))
+    return out
+
+
 _PLURAL_MORPH_RE = re.compile(r"\bpl\.", flags=re.IGNORECASE)
 _PLURAL_WORD_MORPH_RE = re.compile(r"\bplur", flags=re.IGNORECASE)
 _DUAL_MORPH_RE = re.compile(r"\bdu\.", flags=re.IGNORECASE)
@@ -2024,6 +2115,186 @@ K_FUNCTOR_BIGRAM_MSG = "Formula bigram `k {surface}` should use a single k(III) 
 # Linter
 # -----------------------------
 
+_POS_PERSON_TOKENS = {"1", "2", "3"}
+_POS_GENDER_TOKENS = {"m.", "f.", "c."}
+_POS_NUMBER_TOKENS = {"sg.", "pl.", "du."}
+
+
+def pos_grammar_problems(pos_value: str) -> List[str]:
+    """Return grammar problems of one POS string (empty list when fine).
+
+    Two deterministic shape rules, both sourced from real review findings:
+
+    - a person digit (1/2/3) must be followed by a gender token (m./f./c.),
+      as in ``vb G prefc. 2 m. sg.``; a dangling ``vb G impv. 2`` is malformed;
+    - a number token (sg./pl./du.) must not repeat within one POS option,
+      as in ``n. f. pl. tant. pl.``.
+    """
+    problems: List[str] = []
+    value = (pos_value or "").strip()
+    if not value or is_unresolved_placeholder(value):
+        return problems
+    for option in split_semicolon_field(value) or [value]:
+        tokens = option.split()
+        for idx, token in enumerate(tokens):
+            if token in _POS_PERSON_TOKENS:
+                next_token = tokens[idx + 1] if idx + 1 < len(tokens) else None
+                if next_token not in _POS_GENDER_TOKENS:
+                    problems.append(
+                        f"person digit '{token}' must be followed by a gender token "
+                        f"(m./f./c.) in '{option}'"
+                    )
+        # A '+ ... suff.' tail describes the suffix, so number tokens may
+        # legitimately recur there; count duplicates per clause only.
+        for clause in option.split("+"):
+            number_counts: Dict[str, int] = {}
+            for token in clause.split():
+                if token in _POS_NUMBER_TOKENS:
+                    number_counts[token] = number_counts.get(token, 0) + 1
+            for token, count in number_counts.items():
+                if count > 1:
+                    problems.append(f"repeated number token '{token}' in '{option}'")
+    return problems
+
+
+MERGE_NEXT_RE = re.compile(r"\bMERGE WITH THE NEXT\b", re.IGNORECASE)
+MERGE_PREVIOUS_RE = re.compile(r"\bMERGE WITH THE PREVIOUS\b", re.IGNORECASE)
+
+
+@dataclass
+class MergeAnnotation:
+    """One row annotated as half of a word split across physical lines."""
+
+    line_no: int
+    line_id: str
+    surface: str
+    analysis: str
+    direction: str  # next|previous
+
+
+def merge_direction_from_comment(text: str) -> Optional[str]:
+    """Return 'next'/'previous' for structured MERGE annotations, else None."""
+    if not text:
+        return None
+    if MERGE_NEXT_RE.search(text):
+        return "next"
+    if MERGE_PREVIOUS_RE.search(text):
+        return "previous"
+    return None
+
+
+def _expected_merge_surface(first_surface: str, second_surface: str) -> str:
+    combined = strip_missing(first_surface).strip() + strip_missing(second_surface).strip()
+    letters = "".join(ch for ch in combined if ANALYSIS_SURFACE_LETTER_RE.match(ch))
+    return normalize_surface(letters or combined)
+
+
+def validate_merge_pairs(
+    merge_annotations: List[MergeAnnotation],
+    token_sequence: List[Tuple[int, str, str]],
+    file_path: str,
+) -> List["Issue"]:
+    """Validate MERGE WITH THE NEXT/PREVIOUS pairs.
+
+    Args:
+        merge_annotations: rows carrying a MERGE annotation, in file order.
+        token_sequence: (line_no, token_id, surface) for every data token, in
+            file order, with one entry per token (variant rows collapsed).
+        file_path: linted file path used in emitted issues.
+
+    Returns:
+        Error issues for unpaired annotations, analysis mismatches inside a
+        pair, and merged analyses that do not reconstruct to the concatenated
+        surfaces. Valid pairs yield no issues; the caller is expected to skip
+        the per-row reconstruction check for annotated rows.
+    """
+    issues: List[Issue] = []
+    if not merge_annotations:
+        return issues
+
+    token_pos = {token_id: pos for pos, (_ln, token_id, _surface) in enumerate(token_sequence)}
+    by_token: Dict[str, List[MergeAnnotation]] = {}
+    for ann in merge_annotations:
+        by_token.setdefault(ann.line_id, []).append(ann)
+
+    def _directions(anns: List[MergeAnnotation]) -> set:
+        return {a.direction for a in anns}
+
+    for token_id, anns in by_token.items():
+        first = anns[0]
+        pos = token_pos.get(token_id)
+        if pos is None:
+            continue
+        if "next" in _directions(anns):
+            partner = token_sequence[pos + 1] if pos + 1 < len(token_sequence) else None
+            partner_anns = by_token.get(partner[1], []) if partner else []
+            if not partner or "previous" not in _directions(partner_anns):
+                issues.append(
+                    Issue(
+                        "error",
+                        file_path,
+                        first.line_no,
+                        token_id,
+                        first.surface,
+                        first.analysis,
+                        "MERGE WITH THE NEXT has no matching MERGE WITH THE PREVIOUS "
+                        "on the following token",
+                    )
+                )
+                continue
+            own_analyses = {normalize_surface(a.analysis) for a in anns}
+            partner_analyses = {normalize_surface(a.analysis) for a in partner_anns}
+            if own_analyses != partner_analyses:
+                issues.append(
+                    Issue(
+                        "error",
+                        file_path,
+                        first.line_no,
+                        token_id,
+                        first.surface,
+                        first.analysis,
+                        "MERGE pair carries different analyses: "
+                        f"{sorted(own_analyses)} vs {sorted(partner_analyses)}",
+                    )
+                )
+                continue
+            combined = strip_missing(first.surface) + strip_missing(partner[2])
+            if "x" in combined.lower():
+                continue
+            expected = _expected_merge_surface(first.surface, partner[2])
+            for ann in anns:
+                reconstructed = normalize_surface(reconstruct_surface_from_analysis(ann.analysis))
+                if reconstructed != expected:
+                    issues.append(
+                        Issue(
+                            "error",
+                            file_path,
+                            ann.line_no,
+                            token_id,
+                            ann.surface,
+                            ann.analysis,
+                            "Merged analysis does not reconstruct to combined surface "
+                            f"(reconstructs as: {reconstructed}, expected: {expected})",
+                        )
+                    )
+        elif "previous" in _directions(anns):
+            prev = token_sequence[pos - 1] if pos > 0 else None
+            prev_anns = by_token.get(prev[1], []) if prev else []
+            if not prev or "next" not in _directions(prev_anns):
+                issues.append(
+                    Issue(
+                        "error",
+                        file_path,
+                        first.line_no,
+                        token_id,
+                        first.surface,
+                        first.analysis,
+                        "MERGE WITH THE PREVIOUS has no matching MERGE WITH THE NEXT "
+                        "on the preceding token",
+                    )
+                )
+    return issues
+
 
 def lint_file(
     path: Path,
@@ -2038,10 +2309,12 @@ def lint_file(
     db_checks: bool = True,
     generic_override_lexemes: Optional[set[str]] = None,
     onomastic_override_pos: Optional[Dict[Tuple[str, str], set[str]]] = None,
+    generic_override_analyses: Optional[Dict[str, set[str]]] = None,
 ):
     issues: List[Issue] = []
     generic_override_lexemes = generic_override_lexemes or set()
     onomastic_override_pos = onomastic_override_pos or {}
+    generic_override_analyses = generic_override_analyses or {}
 
     lines = path.read_text(encoding="utf-8").splitlines()
     is_out_tsv_file = path.parent.name == "out"
@@ -2163,6 +2436,8 @@ def lint_file(
             entry_plurale_tantum_m[_entry_id] = True
 
     current_separator_ref = ""
+    merge_annotations: List[MergeAnnotation] = []
+    data_token_sequence: List[Tuple[int, str, str]] = []
     for i, raw in enumerate(lines, 1):
         if not raw.strip():
             continue
@@ -2219,6 +2494,31 @@ def lint_file(
             )
         is_labeled_parsed_row = (len(parts) >= 6) and not is_raw_cuc_row
 
+        if is_labeled_parsed_row and not (analysis or "").strip():
+            issues.append(
+                Issue(
+                    "error",
+                    str(path),
+                    i,
+                    line_id,
+                    surface,
+                    analysis,
+                    "Empty morphological parsing cell; use '?' for unresolved tokens",
+                )
+            )
+        if is_labeled_parsed_row and "," in (analysis or ""):
+            issues.append(
+                Issue(
+                    "error",
+                    str(path),
+                    i,
+                    line_id,
+                    surface,
+                    analysis,
+                    "Comma-packed analysis variants are not allowed; "
+                    "split each option into its own row",
+                )
+            )
         if is_labeled_parsed_row and has_semicolon_packed_variants(parts):
             issues.append(
                 Issue(
@@ -3185,10 +3485,26 @@ def lint_file(
         note_text = "\t".join(parts[6:]).strip() if len(parts) > 6 else ""
         annotation_text = " ".join(x for x in (note_text, comment) if x).strip()
 
-        # Comments TODO markers
+        merge_direction = merge_direction_from_comment(annotation_text)
+        token_id = line_id.strip()
+        if token_id.isdigit():
+            if not data_token_sequence or data_token_sequence[-1][1] != token_id:
+                data_token_sequence.append((i, token_id, surface))
+            if merge_direction:
+                merge_annotations.append(
+                    MergeAnnotation(i, token_id, surface, (analysis or "").strip(), merge_direction)
+                )
+
+        # Comments TODO markers. Structured MERGE annotations are a recognized
+        # convention for words split across physical lines, not an uncertainty
+        # marker, so they do not count as a 'merge' TODO hit.
         todo_markers = ("merge", "???", "todo", "fix", "repair")
         annotation_lower = annotation_text.lower()
-        hit_markers = [t for t in todo_markers if t in annotation_lower]
+        hit_markers = [
+            t
+            for t in todo_markers
+            if t in annotation_lower and not (t == "merge" and merge_direction)
+        ]
         if hit_markers:
             issues.append(
                 Issue(
@@ -3204,8 +3520,43 @@ def lint_file(
 
         surface_clean = strip_missing(surface).strip()
 
+        # POS strings must keep the paradigm shape (person digit + gender,
+        # no repeated number tokens).
+        if is_labeled_parsed_row and len(parts) > 4:
+            for problem in pos_grammar_problems(parts[4]):
+                issues.append(
+                    Issue(
+                        "warning",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        analysis,
+                        f"POS grammar: {problem}",
+                    )
+                )
+
+        # Pronominal suffixes and enclitics must come from the paradigm
+        # inventories (catches plural/enclitic -m mis-marked as '+m').
+        for a_var in analysis_variants or [analysis]:
+            for marker, segment in invalid_affix_segments(a_var):
+                kind = "pronominal suffixes" if marker == "+" else "enclitics"
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_var,
+                        f"Suffix segment '{segment}' is not in the affix inventory ({kind})",
+                    )
+                )
+
         # Column 3 must be sufficient to reconstruct the original surface form.
-        if surface_clean and "x" not in surface.lower():
+        # Rows annotated as MERGE halves are validated jointly against the
+        # concatenated surfaces by validate_merge_pairs instead.
+        if surface_clean and "x" not in surface.lower() and merge_direction is None:
             expected_letters = "".join(
                 ch for ch in surface_clean if ANALYSIS_SURFACE_LETTER_RE.match(ch)
             )
@@ -3221,20 +3572,14 @@ def lint_file(
                     continue
                 reconstructed = normalize_surface(reconstruct_surface_from_analysis(a_txt))
                 if reconstructed != expected_norm:
-                    d_variant = (
-                        dulat_variants[idx]
-                        if idx < len(dulat_variants)
-                        else (dulat_variants[0] if dulat_variants else "")
-                    )
-                    is_generic_override = variant_uses_generic_override_lexeme(
+                    is_whitelisted_pair = reconstruction_demotion_applies(
                         surface=surface,
                         analysis_variant=a_txt,
-                        dulat_variant=d_variant,
-                        generic_override_lexemes=generic_override_lexemes,
+                        generic_override_analyses=generic_override_analyses,
                     )
                     issues.append(
                         Issue(
-                            "info" if is_generic_override else "error",
+                            "info" if is_whitelisted_pair else "error",
                             str(path),
                             i,
                             line_id,
@@ -3438,7 +3783,22 @@ def lint_file(
                         if non_vb:
                             lexeme_candidates = non_vb
                     if lex_hom:
-                        lexeme_candidates = [c for c in lexeme_candidates if c.homonym == lex_hom]
+                        hom_matched = [c for c in lexeme_candidates if c.homonym == lex_hom]
+                        if lexeme_candidates and not hom_matched:
+                            attested = sorted({c.homonym or "(none)" for c in lexeme_candidates})
+                            issues.append(
+                                Issue(
+                                    "error",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    f"Declared homonym ({lex_hom}) is not attested in DULAT "
+                                    f"for lemma '{lexeme}'; attested: {', '.join(attested)}",
+                                )
+                            )
+                        lexeme_candidates = hom_matched
 
             analysis_plain = analysis.strip()
             # Surface-only excised tokens (for example "&š") intentionally carry no lexical parse.
@@ -4749,6 +5109,8 @@ def lint_file(
                 )
             )
 
+    issues.extend(validate_merge_pairs(merge_annotations, data_token_sequence, str(path)))
+
     return issues
 
 
@@ -4916,6 +5278,7 @@ def main():
         dulat_forms, entry_meta, lemma_map, entry_stems, entry_gender = load_dulat(Path(args.dulat))
         udb_words = load_udb_words(Path(args.udb)) if Path(args.udb).exists() else None
     generic_override_lexemes = load_generic_override_lexemes(Path(args.generic_overrides))
+    generic_override_analyses = load_generic_override_analyses(Path(args.generic_overrides))
     onomastic_override_pos = load_onomastic_override_pos(Path(args.onomastic_overrides))
 
     all_issues: List[Issue] = []
@@ -4943,6 +5306,7 @@ def main():
             db_checks=(not args.no_db),
             generic_override_lexemes=generic_override_lexemes,
             onomastic_override_pos=onomastic_override_pos,
+            generic_override_analyses=generic_override_analyses,
         )
         all_issues.extend(issues)
 

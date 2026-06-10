@@ -53,6 +53,7 @@ from pipeline.steps.prefixed_iii_aleph_verb import PrefixedIIIAlephVerbFixer
 from pipeline.steps.pronoun_closure import PronounClosureFixer
 from pipeline.steps.redirect_reconstruction_comment import RedirectReconstructionCommentFixer
 from pipeline.steps.schema_formatter import TsvSchemaFormatter
+from pipeline.steps.scribal_anticipation import ScribalAnticipationAnnotator
 from pipeline.steps.suffix_fixer import SuffixCliticFixer
 from pipeline.steps.suffix_paradigm_normalizer import SuffixParadigmNormalizer
 from pipeline.steps.suffix_payload_collapse import SuffixPayloadCollapseFixer
@@ -141,6 +142,10 @@ class TabletParsingPipeline:
             FunctionWordCliticPruner(),
             NominalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
             AttestationReferenceDisambiguator(index=self.attestation_index),
+            # Must precede the split-token merge: an annotated anticipation
+            # fragment no longer carries 'DULAT: NOT FOUND', which keeps the
+            # merge fixer from joining it with its neighbour.
+            ScribalAnticipationAnnotator(),
             AttestedSplitTokenMergeFixer(
                 dulat_db=self.config.dulat_db,
                 udb_db=self.config.udb_db,

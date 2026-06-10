@@ -20,6 +20,7 @@ class LinterGenericOverrideDemotionsTest(unittest.TestCase):
         entry_meta: dict[int, tuple[str, str, str, str]],
         lemma_map: dict[str, list[DulatEntry]],
         generic_override_lexemes: set[str],
+        generic_override_analyses: dict[str, set[str]] | None = None,
     ) -> list[tuple[str, str]]:
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
@@ -46,8 +47,16 @@ class LinterGenericOverrideDemotionsTest(unittest.TestCase):
                 input_format="auto",
                 db_checks=True,
                 generic_override_lexemes=generic_override_lexemes,
+                generic_override_analyses=generic_override_analyses,
             )
             return [(issue.level, issue.message) for issue in issues]
+
+    def _reconstruction_levels(self, messages: list[tuple[str, str]]) -> list[str]:
+        return [
+            level
+            for level, message in messages
+            if message.startswith("Analysis does not reconstruct to surface")
+        ]
 
     def test_pos_token_not_allowed_is_info_for_generic_override_lexeme(self) -> None:
         entry = DulatEntry(
@@ -98,14 +107,70 @@ class LinterGenericOverrideDemotionsTest(unittest.TestCase):
             entry_meta={1: ("-y", "I", "prep.", "my")},
             lemma_map={normalize_surface("-y"): [entry]},
             generic_override_lexemes={"y", "-y"},
+            generic_override_analyses={"y": {"yy"}},
         )
-        mismatch_levels = [
-            level
-            for level, message in messages
-            if message.startswith("Analysis does not reconstruct to surface")
-        ]
+        mismatch_levels = self._reconstruction_levels(messages)
         self.assertTrue(mismatch_levels)
         self.assertTrue(all(level == "info" for level in mismatch_levels))
+
+    def test_reconstructability_error_stays_error_without_whitelisted_analysis(self) -> None:
+        """A lexeme-key intersection alone must not demote reconstruction errors.
+
+        Regression for KTU 1.5 V:12 ttn parsed as `ytn[`: the override row for
+        surface `tn` whitelists `(ytn[`, but `ttn`/`ytn[` is a genuine parser
+        error and must stay at error level.
+        """
+        entry = DulatEntry(
+            entry_id=1,
+            lemma="/y-t-n/",
+            homonym="",
+            pos="vb",
+            gloss="to give",
+            morph="G, prefc.",
+            form_text="ytn",
+        )
+        messages = self._lint_messages(
+            surface="ttn",
+            analysis="ytn[",
+            dulat_token="/y-t-n/",
+            pos_value="vb G prefc. 2 m. sg.",
+            gloss="to give",
+            dulat_forms={normalize_surface("ytn"): [entry]},
+            entry_meta={1: ("/y-t-n/", "", "vb", "to give")},
+            lemma_map={normalize_surface("/y-t-n/"): [entry]},
+            generic_override_lexemes={"tn", "ytn", "y-t-n"},
+            generic_override_analyses={"tn": {"(ytn[", "(ytn[/"}},
+        )
+        mismatch_levels = self._reconstruction_levels(messages)
+        self.assertTrue(mismatch_levels)
+        self.assertTrue(all(level == "error" for level in mismatch_levels))
+
+    def test_reconstructability_error_stays_error_for_foreign_surface(self) -> None:
+        """Cross-token leakage (gh parsed as ytn[) must stay at error level."""
+        entry = DulatEntry(
+            entry_id=1,
+            lemma="/y-t-n/",
+            homonym="",
+            pos="vb",
+            gloss="to give",
+            morph="G, prefc.",
+            form_text="ytn",
+        )
+        messages = self._lint_messages(
+            surface="gh",
+            analysis="ytn[",
+            dulat_token="/y-t-n/",
+            pos_value="vb",
+            gloss="to give",
+            dulat_forms={normalize_surface("ytn"): [entry]},
+            entry_meta={1: ("/y-t-n/", "", "vb", "to give")},
+            lemma_map={normalize_surface("/y-t-n/"): [entry]},
+            generic_override_lexemes={"tn", "ytn", "y-t-n"},
+            generic_override_analyses={"tn": {"(ytn[", "(ytn[/"}},
+        )
+        mismatch_levels = self._reconstruction_levels(messages)
+        self.assertTrue(mismatch_levels)
+        self.assertTrue(all(level == "error" for level in mismatch_levels))
 
     def test_missing_clitic_entry_error_is_info_for_generic_override_lexeme(self) -> None:
         entry = DulatEntry(

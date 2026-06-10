@@ -288,6 +288,49 @@ def tablet_id_from_ref(ref: str) -> str:
     return m.group(1) if m else ""
 
 
+_REF_LINE_RE = re.compile(r"^(?P<head>.+:)(?P<line>\d+)$")
+
+
+def mentions_for_ref(
+    reverse_mentions: Dict[str, Set[int]],
+    ref: str,
+    line_tolerance: int = 1,
+) -> Set[int]:
+    """Return reverse mentions for a line ref, tolerating small line shifts.
+
+    DULAT citations can be offset by one line from the CUC numbering (e.g.
+    DULAT '1.5 IV 2' = CUC IV:3 throughout KTU 1.5 col. IV). Exact-line
+    mentions always win; only when the exact lookup is empty are mentions of
+    the +-``line_tolerance`` neighbouring lines returned as a fallback.
+
+    Args:
+        reverse_mentions: canonical ref -> DULAT entry ids.
+        ref: canonical line ref (``CAT 1.5 IV:2``).
+        line_tolerance: maximum line distance for the fallback; 0 disables it.
+
+    Returns:
+        Entry ids cited for the line, or for its nearest neighbours when the
+        line itself has none.
+    """
+    exact = reverse_mentions.get(ref, set())
+    if exact or line_tolerance <= 0:
+        return set(exact)
+    m = _REF_LINE_RE.match(ref or "")
+    if not m:
+        return set()
+    head = m.group("head")
+    line_no = int(m.group("line"))
+    nearby: Set[int] = set()
+    for offset in range(1, line_tolerance + 1):
+        for neighbour in (line_no - offset, line_no + offset):
+            if neighbour < 1:
+                continue
+            nearby.update(reverse_mentions.get(f"{head}{neighbour}", set()))
+        if nearby:
+            break
+    return nearby
+
+
 def tablet_family(tablet_id: str) -> str:
     return (tablet_id or "").split(".", 1)[0]
 
@@ -1711,7 +1754,7 @@ def refine_file(
             rows += 1
             continue
 
-        mention_ids = reverse_mentions.get(current_ref, set()) if current_ref else set()
+        mention_ids = mentions_for_ref(reverse_mentions, current_ref) if current_ref else set()
         variants = build_variants(
             surface,
             current_ref,
