@@ -26,6 +26,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
+from dulat_patches import load_dulat_entry_patches  # noqa: E402
 from project_paths import get_project_paths  # noqa: E402
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text  # noqa: E402
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology  # noqa: E402
@@ -1007,6 +1008,7 @@ def gloss_for_entry(
 
 def load_entries(
     dulat_db: Path,
+    entry_patches: Optional[Dict[int, Dict[str, str]]] = None,
 ) -> Tuple[
     Dict[int, Entry],
     Dict[str, List[Entry]],
@@ -1014,6 +1016,10 @@ def load_entries(
     Dict[str, List[Entry]],
     Dict[Tuple[str, int], Set[str]],
 ]:
+    if entry_patches is None:
+        entry_patches = load_dulat_entry_patches(
+            Path(__file__).resolve().parents[1] / "data_sources" / "dulat_entry_patches.tsv"
+        )
     conn = sqlite3.connect(str(dulat_db))
     cur = conn.cursor()
     cur.execute("PRAGMA table_info(entries)")
@@ -1082,6 +1088,10 @@ def load_entries(
     suffix_map: Dict[str, List[Entry]] = {}
     entry_text_by_id: Dict[int, str] = {}
     for entry_id, lemma, hom, pos, wiki_tr, summary, text in cur.fetchall():
+        patch = entry_patches.get(int(entry_id), {})
+        lemma = patch.get("lemma", lemma)
+        hom = patch.get("homonym", hom)
+        pos = patch.get("pos", pos)
         lm, hm = parse_optional_hom(lemma or "", hom or "")
         redirect_targets = ()
         if (pos or "").strip() == "→":
