@@ -751,6 +751,120 @@ def analysis_reconstructs(surface: str, analysis: str) -> bool:
     return bool(expected) and reconstructed == expected
 
 
+_WEAK_INITIAL_RADICALS = {"y", "n", "l", "w"}
+
+
+def build_hidden_initial_radical_analysis(
+    *,
+    surface_plain: str,
+    stem_plain: str,
+    stem_marker: str,
+    hom: str,
+) -> Optional[str]:
+    """Hide an unwritten weak/assimilating first radical with '('.
+
+    ttn -> !t!(ytn[, tdd -> !t!(ndd[, dˤ -> (ydˤ[ per Tagging conventions
+    (assimilated n and weak-initial y/w/l are added by means of '(').
+    """
+    if len(stem_plain) < 2 or stem_plain[0] not in _WEAK_INITIAL_RADICALS:
+        return None
+    rest = stem_plain[1:]
+    host = f"({stem_plain[0]}{rest}"
+    if surface_plain.startswith(rest):
+        tail = surface_plain[len(rest) :]
+        return f"{stem_marker}{host}{hom}[{tail}"
+    if surface_plain[:1] in _PREFORMATIVE_LETTERS and surface_plain[1:].startswith(rest):
+        marker = format_preformative_marker(surface_plain[0])
+        tail = surface_plain[len(rest) + 1 :]
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+    return None
+
+
+def build_aligned_nominal_analysis(
+    *,
+    surface_plain: str,
+    lex_plain: str,
+    hom: str,
+) -> Optional[str]:
+    """Align a nominal surface against its lexeme letters with (/& marks.
+
+    Attested-form spellings that differ from the lexeme by at most two local
+    edits are encoded mechanically: lexeme-only letters get '(', surface-only
+    letters get '&' (adjacent pairs form substitutions), and surface material
+    after the last lexeme letter goes behind the '/' closure as ending:
+    bht -> b&ht/, mat -> m(i&at/, ˤqšr -> (a&ˤqšr/, rpum -> rpu/m.
+    """
+    if not lex_plain or not surface_plain or surface_plain == lex_plain:
+        return None
+    tail = ""
+    body = surface_plain
+    # Peel trailing nominal-ending material (plural m / feminine t) so it
+    # lands after the '/' closure; other surface-only tails stay before the
+    # closure as '&' letters (qdqdh -> qdqd&h/, per existing convention).
+    while (
+        body
+        and body[-1] in {"m", "t"}
+        and lex_plain
+        and not lex_plain.endswith(body[-1])
+        and body[:-1].startswith(lex_plain[: len(body) - 1])
+    ):
+        if lex_plain.startswith(body[:-1]) or body[:-1] == lex_plain:
+            tail = body[-1] + tail
+            body = body[:-1]
+        else:
+            break
+    if body == lex_plain:
+        return f"{lex_plain}{hom}/{tail}"
+    if body.startswith(lex_plain):
+        # Pure extensions of the lexeme are suffix/clitic material owned by
+        # the legacy tail logic and the suffix-split machinery.
+        return None
+
+    # Minimal-edit alignment between lexeme and (tail-less) surface body.
+    edits: List[Tuple[str, str]] = []  # (op, letter): keep|hide|extra
+    i = j = 0
+    ops = 0
+    while i < len(lex_plain) and j < len(body):
+        if lex_plain[i] == body[j]:
+            edits.append(("keep", lex_plain[i]))
+            i += 1
+            j += 1
+        elif (
+            lex_plain[i : i + 1]
+            and body[j : j + 1]
+            and lex_plain[i + 1 :].startswith(body[j + 1 :])
+        ):
+            edits.append(("hide", lex_plain[i]))
+            edits.append(("extra", body[j]))
+            i += 1
+            j += 1
+            ops += 1
+        elif lex_plain[i + 1 :].startswith(body[j:]):
+            edits.append(("hide", lex_plain[i]))
+            i += 1
+            ops += 1
+        elif body[j + 1 :].startswith(lex_plain[i:]):
+            edits.append(("extra", body[j]))
+            j += 1
+            ops += 1
+        else:
+            return None
+    for letter in lex_plain[i:]:
+        edits.append(("hide", letter))
+        ops += 1
+    for letter in body[j:]:
+        edits.append(("extra", letter))
+        ops += 1
+    kept = sum(1 for op, _letter in edits if op == "keep")
+    if ops > 2 or kept < 2 or kept <= ops:
+        return None
+    encoded = "".join(
+        letter if op == "keep" else ("(" + letter if op == "hide" else "&" + letter)
+        for op, letter in edits
+    )
+    return f"{encoded}{hom}/{tail}"
+
+
 def build_s_stem_assimilation_analysis(
     *,
     surface_plain: str,
@@ -929,6 +1043,14 @@ def analysis_for_entry(
         )
         if realized is not None:
             return realized
+        hidden_initial = build_hidden_initial_radical_analysis(
+            surface_plain=surface_plain,
+            stem_plain=stem_plain,
+            stem_marker=stem_marker,
+            hom=hom,
+        )
+        if hidden_initial is not None:
+            return hidden_initial
         # A tail after '[' is only sound when the surface actually starts
         # with the (marker+)stem letters; fabricating one from unmatched
         # trailing surface letters created analyses that were wrong by
@@ -974,6 +1096,14 @@ def analysis_for_entry(
             and surface_plain == f"{lex_plain[:-1]}n"
         ):
             return f"{lex[:-1]}({lex[-1]}{hom}/n"
+        if lex_plain and surface_plain and lex_plain != surface_plain:
+            aligned = build_aligned_nominal_analysis(
+                surface_plain=surface_plain,
+                lex_plain=lex_plain,
+                hom=hom,
+            )
+            if aligned is not None:
+                return aligned
         return f"{lex}{hom}/"
     lex_plain = extract_letters(lex)
     surface_plain = extract_letters(s)
