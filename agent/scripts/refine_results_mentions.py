@@ -856,7 +856,8 @@ def build_aligned_nominal_analysis(
         edits.append(("extra", letter))
         ops += 1
     kept = sum(1 for op, _letter in edits if op == "keep")
-    if ops > 2 or kept < 2 or kept <= ops:
+    min_kept = 1 if len(lex_plain) <= 2 else 2
+    if ops > 2 or kept < min_kept or (kept <= ops and kept >= 2) or (kept == 1 and ops > 1):
         return None
     encoded = "".join(
         letter if op == "keep" else ("(" + letter if op == "hide" else "&" + letter)
@@ -925,8 +926,19 @@ def build_aleph_realization_analysis(
         ):
             tail = body[len(stem_plain) :]
             return f"{marker}{stem_marker}{stem_plain[0]}(ʔ&{body[1]}{stem_plain[2:]}{hom}[{tail}"
-        # III-ʔ realization is owned by the prefixed III-aleph builders,
-        # which place the vocalization after '[' per the conventions.
+        # Unprefixed n-weak III-ʔ forms (impv. ša/šu of /n-š-ʔ/): hidden
+        # initial n and final ʔ, vocalization after '[' per the conventions.
+        if (
+            len(stem_plain) >= 3
+            and stem_plain.startswith("n")
+            and stem_plain.endswith("ʔ")
+            and body[:-1] == stem_plain[1:-1]
+            and body[-1:] in _VOWEL_LETTERS
+        ):
+            mid = stem_plain[1:-1]
+            return f"{marker}{stem_marker}(n{mid}(ʔ{hom}[&{body[-1]}"
+        # Other III-ʔ realization is owned by the prefixed III-aleph
+        # builders, which place the vocalization after '[' likewise.
         return None
 
     direct = _attempt(surface_plain, "")
@@ -1097,6 +1109,12 @@ def analysis_for_entry(
         ):
             return f"{lex[:-1]}({lex[-1]}{hom}/n"
         if lex_plain and surface_plain and lex_plain != surface_plain:
+            if surface_plain.startswith(lex_plain):
+                ending = surface_plain[len(lex_plain) :]
+                if ending and set(ending) <= {"m", "t"}:
+                    # Plural/feminine ending material goes after the closure
+                    # (limm -> lim/m, rpum -> rpu/m).
+                    return f"{lex}{hom}/{ending}"
             aligned = build_aligned_nominal_analysis(
                 surface_plain=surface_plain,
                 lex_plain=lex_plain,

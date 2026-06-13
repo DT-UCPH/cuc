@@ -75,5 +75,26 @@ class NominalAlignmentTest(unittest.TestCase):
         self.assertNotIn("&", analysis)
 
 
+class SecondPassClustersTest(unittest.TestCase):
+    def test_w_marker_reconstructs(self) -> None:
+        from scripts.refine_results_mentions import analysis_reconstructs
+
+        self.assertTrue(analysis_reconstructs("ttn", "!t!(ytn[:w"))
+        self.assertTrue(analysis_reconstructs("nšt", "nš(y[t:n"))
+
+    def test_plural_tail_after_nominal_closure(self) -> None:
+        self.assertEqual(analysis_for_entry("limm", _entry("lỉm (I)", "n.")), "lim/m")
+        self.assertEqual(analysis_for_entry("rpum", _entry("rpủ", "n.")), "rpu/m")
+
+    def test_unprefixed_n_weak_iii_aleph_imperative(self) -> None:
+        analysis = analysis_for_entry("ša", _entry("/n-š-ʔ/", "vb"), morph_values=["G, impv."])
+        self.assertEqual(analysis, "(nš(ʔ[&a")
+        analysis = analysis_for_entry("šu", _entry("/n-š-ʔ/", "vb"), morph_values=["G, impv."])
+        self.assertEqual(analysis, "(nš(ʔ[&u")
+
+    def test_two_letter_lexeme_alignment(self) -> None:
+        self.assertEqual(analysis_for_entry("iḫ", _entry("ảḫ (I)", "n.")), "(a&iḫ/")
+
+
 if __name__ == "__main__":
     unittest.main()

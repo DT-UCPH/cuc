@@ -567,7 +567,15 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
         if a.startswith(":pass", i):
             i += len(":pass")
             continue
-        if a.startswith(":d", i) or a.startswith(":l", i) or a.startswith(":r", i):
+        if (
+            a.startswith(":d", i)
+            or a.startswith(":l", i)
+            or a.startswith(":r", i)
+            or a.startswith(":w", i)
+            or a.startswith(":n", i)
+        ):
+            # Stem labels plus the unwritten-ending markers ':w' (plural -u,
+            # Tagging conventions, suffix/prefix conjugation) and ':n'.
             i += 2
             continue
         if ch == ":":
