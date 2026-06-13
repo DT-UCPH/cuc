@@ -401,249 +401,208 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 II:48						
 128766	yx	?	?	?	?	Broken: y[…].
 # KTU 1.4 III:1						
-128767	xh	?	?	?	?	DULAT: NOT FOUND
+128767	xh	?	?	?	?	Broken top of column.
 # KTU 1.4 III:2						
-128768	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
+128768	tdn	!t!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
 # KTU 1.4 III:3						
-128769	mdd	mdd(I)/	mdd (I)	n. m. sg. abs. nom.	beloved	
+128769	mdd	mdd(I)/	mdd (I)	n. m. sg. abs.	beloved	Broken context.
 # KTU 1.4 III:4						
-128770	xn	?	?	?	?	DULAT: NOT FOUND
-128771	kb	kb(II)/	kb (II)	n. m. abs. nom.	intestine(s)	
+128770	xn	?	?	?	?	
+128771	kb	kb(II)/	kb (II)	n. m. abs.	entrails (?)	
 # KTU 1.4 III:5						
 128772	x	?	?	?	?	
-128773	al	al(I)	ảl (I)	neg. functor	no	DULAT direct ref
+128773	al	al(I)	ảl (I)	neg. functor	do not	
 128774	yns	!y!ns[	/n-s/	vb G prefc. 3 m. sg.	to flee	
 # KTU 1.4 III:6						
 128775	x	?	?	?	?	
-128776	ysdk	ysd+k	ysd	?		
+128776	ysdk	?	?	?	?	DULAT: NOT FOUND; ysd+k?
 # KTU 1.4 III:7						
 128777	xxxxx	?	?	?	?	
 128778	w	w	w	conj.	and	
-128779	dr	dr/	dr	n. m. pl. cstr. nom.	circle	
-128779	dr	dr/	dr	n. m. sg. cstr. nom.	circle	
-128780	dr	dr/	dr	n. m. pl. abs. gen.	circle	
-128780	dr	dr/	dr	n. m. sg. abs. gen.	circle	
+128779	dr	dr/	dr	n. m. sg. cstr.	circle, assembly	
 # KTU 1.4 III:8						
 128781	xxxx	?	?	?	?	
 128782		?	?	?	?	
-128783	ḥyk	ḥy(m&/+k	ḥym	n. m. pl. cstr. nom.	life	
+128783	ḥyk	ḥy(m&/+k	ḥym	n. m. pl. tant. cstr. + 2 m. sg. suff.	life	'your life'.
 128784	w	w	w	conj.	and	
-128785	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs. nom.	2) gust	
-128786	d	d	d	det. or rel. functor	the one(s) of	
+128785	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. abs.	gust, wind	
+128786	d	d	d	det. or rel. functor	which	
 # KTU 1.4 III:9						
-128787	xxxxy	?	?	?	?	DULAT: NOT FOUND
+128787	xxxxy	?	?	?	?	
 128788	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-128789	d	d	d	det. or rel. functor	4) in compound conjunctions	
+128789	d	d	d	det. or rel. functor	who	
 128790	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.4 III:10						
-128791	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	DULAT direct ref
-128791	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	DULAT direct ref
+128791	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to respond, take a stand	DULAT files yṯb here s.v. /ṯ-b/; 'Mightiest Baal makes reply'.
 128792	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 128793	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.4 III:11						
-128794	ytˤdd	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-d(-d)/ - to declare
-128795	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
-128796	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg. cstr. gen.	cloud(s)	
-128796	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl. cstr. gen.	cloud(s)	
+128794	ytˤdd	!y!]t]ˤdd[	/ʕ-d(-d)/	vb tD prefc. 3 m. sg.	to take one's stand, declare	DULAT /ʕ-d(-d)/ tD; 'the Rider of Clouds takes his stand'.
+128795	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Rider	rkb ˤrpt 'Rider of the Clouds' (epithet of Baal).
+128796	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.4 III:12						
-128797	qm	qm[/	/q-m/	vb G act. ptcpl. m. sg. abs. gen.	to stand up	
-128798	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
+128797	qm	qm[/	/q-m/	vb G act. ptcpl. m. sg. abs. nom.	to rise, stand	'a foe rises and reviles him'.
+128798	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	beloved	ydd here = the Beloved-of-El (Mot), Baal's foe.
 128799	w	w	w	conj.	and	
-128800	yqlṣn	!y!qlṣ[+n	/q-l-ṣ/	vb G prefc. 3 m. sg.	to resist, stand up to, oppose	
-128800	yqlṣn	!y!qlṣ[:d+n	/q-l-ṣ/	vb D prefc. 3 m. sg.	to resist, stand up to, oppose	
+128800	yqlṣn	!y!qlṣ[~n	/q-l-ṣ/	vb G prefc. 3 m. sg. + energic -n	to revile, mock	
 # KTU 1.4 III:13						
-128801	yqm	!y!qm[	/q-m/	vb G prefc. 3 m. sg.	to stand up	
-128802	w	w	w	conj.	3) in the correlation protasis-apodosis	
-128803	ywpṯn	!y!wpṯ[:d+n	/w-p-ṯ/	vb D prefc. 3 m. sg.	to spit	
+128801	yqm	!y!qm[	/q-m/	vb G prefc. 3 m. sg.	to rise	
+128802	w	w	w	conj.	and	
+128803	ywpṯn	!y!wpṯ[~n	/w-p-ṯ/	vb G prefc. 3 m. sg. + energic -n	to spit	'rises and spits at him'.
 128804	b	b	b	prep.	in	
-128805	tk	tk/	tk	n. m. cstr. gen.	1) in	
+128805	tk	tk/	tk	n. m. sg. cstr. gen.	midst	
 # KTU 1.4 III:14						
-128806	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. gen.	1) assembly a) Assembly	
-128807	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
-128807	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+128806	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. gen.	assembly	b tk pḫr bn ilm 'in the midst of the assembly of the gods'.
+128807	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 128808	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-128809	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to place, set, set up, leave	
-128809	štt	št[t:pass	/š-t/	vb Gpass suffc. 1 c. sg.	to cause, leave (in a condition)	
+128809	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to be set, placed	Baal's complaint: 'I was set (as filth)'; 1 c. sg.
 # KTU 1.4 III:15						
-128810	pglt	pgl(t/t	pglt	n. f. sg. abs. nom.	unclean offering	
-128811	b	b	b	prep.	in	
-128812	ṯlḥny	ṯlḥn/+y	ṯlḥn	n. m. cstr. gen.	table	DULAT direct ref
-128813	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
+128810	pglt	pgl(t/t	pglt	n. f. sg. abs. acc.	filth, abomination	
+128811	b	b	b	prep.	at	
+128812	ṯlḥny	ṯlḥn/+y	ṯlḥn	n. m. sg. cstr. + 1 c. sg. suff.	table	'at my table'.
+128813	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to be shamed, fall	'I was shamed'; 1 c. sg.
 # KTU 1.4 III:16						
 128814	b	b	b	prep.	in	
-128815	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	DULAT direct ref
-128816	ištynh	!(ʔ&i!šty[+nh	/š-t-y/	vb G prefc. 1 c. sg.	to drink	
+128815	ks	ks(I)/	ks (I)	n. m. sg. abs. acc.	cup	
+128816	ištynh	!(ʔ&i!šty[~n+h	/š-t-y/	vb G prefc. 1 c. sg. + energic-n + suff.	to drink	'in a cup I drank it'.
 # KTU 1.4 III:17						
-128817	dm	dm(I)	dm (I)	functor	since	DULAT direct ref
-128818	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two b) ge	
-128819	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	1) sacrifice	
-128820	šna	šn(ʔ&a[	/š-n-ʔ/	vb G suffc. 3 m. sg.	to hate, loathe	
-128821	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-128821	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-128822	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	1) the numeral three a) elliptical syntagms	DULAT direct ref
+128817	dm	dm(I)	dm (I)	functor	since, for	
+128818	ṯn	ṯn(I)/	ṯn (I)	n. num.	two	ṯn dbḥm šna bˤl 'two sacrifices Baal hates'.
+128819	dbḥm	dbḥ/m	dbḥ	n. m. du. abs. acc.	sacrifice	
+128820	šna	šn(ʔ&a[	/š-n-ʔ/	vb G suffc. 3 m. sg.	to hate	DULAT form šnả G suffc.
+128821	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
+128822	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	n. num.	three	'three the Rider of Clouds (hates)'.
 # KTU 1.4 III:18						
-128823	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
-128824	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg. cstr. gen.	cloud(s)	
-128824	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl. cstr. gen.	cloud(s)	
-128825	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	DULAT direct ref
+128823	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Rider	
+128824	ˤrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+128825	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. acc.	sacrifice	dbḥ bṯt 'a sacrifice of shame'.
 # KTU 1.4 III:19						
-128826	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. gen.	shame	DULAT direct ref
+128826	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. gen.	shame	
 128827	w	w	w	conj.	and	
-128828	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
-128828	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
-128828	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-128828	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-128828	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
+128828	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. acc.	sacrifice	
 128829	w	w	w	conj.	and	
-128830	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
-128830	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
+128830	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. acc.	sacrifice	
 # KTU 1.4 III:20						
-128831	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. gen.	plight	
+128831	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. gen.	contention, plight	dbḥ dnt 'a sacrifice of strife'.
 128832	w	w	w	conj.	and	
-128833	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
-128833	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
-128834	tdmm	tdmm/	tdmm	n. m. sg. cstr. gen.	lascivious	
+128833	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. acc.	sacrifice	
+128834	tdmm	tdmm/	tdmm	n. m. sg. cstr. gen.	debauchery, lewdness	dbḥ tdmm amht 'a sacrifice of the debauchery of handmaids'.
 # KTU 1.4 III:21						
-128835	amht	am&ht(I)/	ảmt (I)	n. f. pl. abs. gen.	1) female slave	
-128836	k	k(II)	k (II)	emph. functor	yes	DULAT quote in bṯt (I) (cue: yes)
-128837	bh	b+h	b	prep.	in	
-128838	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	DULAT direct ref
-128839	l	l(III)	l (III)	functor	certainly	DULAT direct ref
-128840	tbṭ	!t!(nbṭ[	/n-b-ṭ/	vb G prefc.	to appear, arise, be obvious	
+128835	amht	am	am(t(I)/t=	ảmt (I)h(t/t=	ảmt (I)	n. f. pl. abs. gen.	handmaid, slave-girl	
+128836	k	k(III)	k (III)	subordinating / completive functor	for	'for therein is shame'.
+128837	bh	b+h	b	prep. + 3 m. sg. suff.	therein	'in it'.
+128838	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
+128839	l	l(III)	l (III)	functor	indeed	
+128840	tbṭ	!t!(nbṭ[	/n-b-ṭ/	vb G prefc. 3 f. sg.	to appear, be seen	'shame indeed appears'.
 # KTU 1.4 III:22						
 128841	w	w	w	conj.	and	
-128842	bh	b+h	b	prep.	in	
-128843	tdmmt	tdmm(t/t	tdmmt	n. f. sg. abs. nom.	lasciviousness	
-128844	amht	am&ht(I)/	ảmt (I)	n. f. pl. abs. nom.	(female) slave	
+128842	bh	b+h	b	prep. + 3 m. sg. suff.	therein	
+128843	tdmmt	tdmm(t/t	tdmmt	n. f. sg. abs. nom.	debauchery, lewdness	
+128844	amht	am	am(t(I)/t=	ảmt (I)h(t/t=	ảmt (I)	n. f. pl. abs. nom.	handmaid	'and in it the lewdness of handmaids'.
 # KTU 1.4 III:23						
-128845	aḫr	aḫr	ảḫr	adv./prep./conj.	3) after	
+128845	aḫr	aḫr	ảḫr	adv./conj.	afterwards	'after Mightiest Baal arrives'.
 128846	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
-128846	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
 128847	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 128848	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.4 III:24						
-128849	mġyt	mġy[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come	
+128849	mġyt	mġy[t	/m-ġ-y/	vb G suffc. 3 f. sg.	to come, arrive	Subject Virgin Anat; 3 f. sg.
 128850	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
-128851	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
+128851	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.4 III:25						
-128852	tmgnn	!t!mgn[:d+n	/m-g-n/	vb D prefc.	to wine and dine, regale, welcome	
-128853	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
-128854	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
+128852	tmgnn	!t!mgn[:d~n	/m-g-n/	vb D prefc. 3 m. du. + energic -n	to regale, present a gift	Baal and Anat regale Athirat; DULAT cites tmgnn here.
+128853	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. acc.	Lady	
+128854	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	Athirat/Asherah	
 128855	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.4 III:26						
-128856	tġẓyn	!t!ġẓy[n	/ġ-ẓ-y/	vb G prefc.	1) to win over	
-128856	tġẓyn	!t!ġẓy[n:d	/ġ-ẓ-y/	vb D prefc.	to win over	
-128857	qnyt	qny[/t	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
+128856	tġẓyn	!t!ġẓy[:d~n	/ġ-ẓ-y/	vb D prefc. 3 m. du. + energic -n	to entreat, win over	
+128857	qnyt	qny[/t	/q-n-y/	vb G act. ptcpl. f. sg. cstr.	creatress	qnyt ilm 'Creatress of the gods'.
 128858	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.4 III:27						
 128859	w	w	w	conj.	and	
-128860	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
-128860	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
-128860	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
+128860	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	Athirat answers; 3 f. sg.
 128861	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
-128862	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
+128862	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	Athirat/Asherah	
 128863	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.4 III:28						
-128864	ik	ik	ỉk	interr. functor	how?	
-128865	tmgnn	!t!mgn[:d+n	/m-g-n/	vb D prefc.	to wine and dine, regale, welcome	
-128866	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
+128864	ik	ik	ỉk	interr. functor	how is it that?	
+128865	tmgnn	!t=!mgn[:d~n	/m-g-n/	vb D prefc. 2 m. du. + energic -n	to regale	Athirat: 'how is it that you two regale...?'; 2 m. du.
+128866	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. acc.	Lady	
 # KTU 1.4 III:29						
-128867	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
+128867	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	Athirat/Asherah	
 128868	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-128869	tġẓyn	!t!ġẓy[n	/ġ-ẓ-y/	vb G prefc.	to win over	
-128869	tġẓyn	!t!ġẓy[n:d	/ġ-ẓ-y/	vb D prefc.	to win over	
+128869	tġẓyn	!t=!ġẓy[:d~n	/ġ-ẓ-y/	vb D prefc. 2 m. du. + energic -n	to entreat	
 # KTU 1.4 III:30						
-128870	qnyt	qny[/t	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
+128870	qnyt	qny[/t	/q-n-y/	vb G act. ptcpl. f. sg. cstr.	creatress	
 128871	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-128872	mgntm	mgn[tm:d	/m-g-n/	vb D suffc. 2 c. pl.	to wine and dine, regale, welcome	
+128872	mgntm	mgn[tm:d	/m-g-n/	vb D suffc. 2 m. du.	to regale	'have you (two) regaled Bull El...?'
 # KTU 1.4 III:31						
-128873	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	
-128874	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-128875	d	d	d	det. or rel. functor	the one(s) of	
-128876	pid	pid/	pỉd	n. m. sg. abs. nom.	heart	
-128877	hm	hm(II)	hm (II)	conj./interr. functor	2) perhaps …? (interr. functor) b) in compound question	DULAT direct ref
-128878	ġẓtm	?	?	?	?	DULAT candidates (no reconstructable encoding): /ġ-ẓ-y/ - 1) to win over; /ġ-ẓ-y/ - to win over
+128873	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. acc.	bull	
+128874	il	il(I)/	ỉl (I)	DN m. sg. abs. acc.	ʾIlu/El	
+128875	d	d	d	det. or rel. functor	the one of	
+128876	pid	pid/	pỉd	n. m. sg. abs. gen.	heart	d pid 'the Benevolent'.
+128877	hm	hm(II)	hm (II)	interr. functor	or	
+128878	ġẓtm	ġẓ(y[tm	/ġ-ẓ-y/	vb G suffc. 2 m. du.	to entreat	'or have you beseeched the Creator of Creatures?'
 # KTU 1.4 III:32						
-128879	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
-128879	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to build	
-128879	bny	bny/	bny	n. m. sg. cstr. nom.	architect	
-128880	bnwt	bn&w(t(II)/t=	bnt (II)	n. f. pl. abs. gen.	produce	
+128879	bny	bny/	bny	n. m. sg. cstr. acc.	creator	bny bnwt 'Creator of Creatures'.
+128880	bnwt	bn&w(t(II)/t=	bnt (II)	n. f. pl. abs. gen.	creatures	
 128881	w	w	w	conj.	and	
-128882	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
-128882	tˤn	!t=!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. sg.	to answer	
-128882	tˤn	!t==!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 f. sg.	to answer	
-128882	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	
-128882	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
-128882	tˤn	!t===!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	to answer	
-128882	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
-128882	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 f. sg.	to be / remain depressed	
-128882	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
-128882	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
-128882	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
-128882	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
-128882	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
-128882	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
+128882	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	Virgin Anat answers; 3 f. sg.
 # KTU 1.4 III:33						
 128883	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
-128884	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
-128885	nmgn	!n!mgn[:d	/m-g-n/	vb D prefc. 1 c. pl.	to wine and dine, regale, welcome	
+128884	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+128885	nmgn	!n!mgn[:d	/m-g-n/	vb D prefc. 1 c. pl.	to regale	'we shall (first) regale...'; 1 c. pl.
 # KTU 1.4 III:34						
-128886	km	km	km	prep./conj./adv.		
-128887	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	
-128888	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
+128886	km	km	km	prep.	first (?)	Broken sense; km.
+128887	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. acc.	Lady	
+128888	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	Athirat/Asherah	
 128889	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.4 III:35						
-128890	nġẓ	?	?	?	?	DULAT: NOT FOUND
-128891	qnyt	qny[/t	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
+128890	nġẓ	!n!ġẓ(y[	/ġ-ẓ-y/	vb G prefc. 1 c. pl.	to entreat	KTU: [n]ġẓ; 'we shall beseech the Creatress of the gods'.
+128891	qnyt	qny[/t	/q-n-y/	vb G act. ptcpl. f. sg. cstr.	creatress	
 128892	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.4 III:36						
-128893	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
-128894	nmgn	!n!mgn[:d	/m-g-n/	vb D prefc. 1 c. pl.	to wine and dine	
-128895	hwt	hw&t	hw	pers. pn.	1) he	DULAT direct ref
+128893	aḫr	aḫr	ảḫr	adv./conj.	afterwards	KTU: [aḫ]r.
+128894	nmgn	!n!mgn[:d	/m-g-n/	vb D prefc. 1 c. pl.	to regale	'afterwards we shall regale him'.
+128895	hwt	hw~t	hw	pers. pn. 3 m. sg. + encl. -t	him	DULAT: hw + -t.
 # KTU 1.4 III:37						
 128896	xxx	?	?	?	?	
 128897	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 128898	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.4 III:38						
-128899	xxxrbt	?	?	?	?	DULAT: NOT FOUND
-128900	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. nom.	ʾAṯiratu/Athirat/Asherah/El’s wife	
+128899	xxxrbt	?	?	?	?	KTU: [...]rbt.
+128900	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. nom.	Athirat/Asherah	
 128901	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.4 III:39						
-128902	xxxbtlt	?	?	?	?	DULAT: NOT FOUND
-128903	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. nom.	eye	
+128902	xxxbtlt	?	?	?	?	KTU: [...]btlt.
 128903	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-128903	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.4 III:40						
-128904	xxxtlḥm	?	?	?	?	DULAT: NOT FOUND
-128905	tšty	!t!šty[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
+128904	xxxtlḥm	?	?	?	?	KTU: [...]tlḥm 'they eat'.
+128905	tšty	!t!šty[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	Feast formula: 'the gods eat and drink'.
 # KTU 1.4 III:41						
 128906	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 128907	w	w	w	conj.	and	
-128908	tpq	!t!pq[	/p-q/	vb G prefc.	to obtain	
-128909	mrġṯm	mrġṯ/+m(I)	mrġṯ	n. m. cstr. nom.	suckling	
+128908	tpq	!t!pq[:w	/p-q/	vb G prefc. 3 m. pl.	to obtain, be served	'a suckling is provided'.
+128909	mrġṯm	mrġṯ/m	mrġṯ	n. m. pl. abs. acc.	suckling	
 # KTU 1.4 III:42						
-128910	ṯd	ṯd/	ṯd	n. m. pl. cstr. nom.	breast	
-128910	ṯd	ṯd/	ṯd	n. m. sg. abs. nom.	breast	
-128911	b	b	b	prep.	in	
-128912	ḥrb	ḥrb/	ḥrb	n. f. sg. cstr. gen.	knife	
-128913	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. cstr. gen.	salt	
-128914	qṣ	qṣ/	qṣ	n. m. sg. abs. gen.	end	
+128910	ṯd	ṯd/	ṯd	n. m. sg. abs.	breast	mrġṯ ṯd 'a suckling of the breast'.
+128911	b	b	b	prep.	with	
+128912	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	knife	
+128913	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. gen.	salt	b ḥrb mlḥt 'with a salted knife'.
+128914	qṣ	qṣ/	qṣ	n. m. sg. cstr. acc.	cut, fillet	qṣ mri 'a cut of fatling'.
 # KTU 1.4 III:43						
-128915	mri	mr(u&i(I)/	mrủ (I)	adj. f. pl. cstr. nom.	fattened	
-128915	mri	mr(u&i(I)/	mrủ (I)	adj. f. sg. abs. nom.	fattened	
+128915	mri	mr(u(I)/&i	mrủ (I)	n. m. sg. abs. gen.	fatling	
 128916	tšty	!t!šty[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
-128917	krpnm	krpn/m	krpn	n. m. pl. cstr. nom.	cup	
-128918	yn	yn/	yn	n. m. sg. abs. gen.	wine	
+128917	krpnm	krpn/m	krpn	n. m. pl. abs. acc.	goblet	'they drink wine from goblets'.
+128918	yn	yn/	yn	n. m. sg. abs. acc.	wine	
 # KTU 1.4 III:44						
 128919	w	w	w	conj.	and	
-128920	b	b	b	prep.	in	
+128920	b	b	b	prep.	in, from	
 128921	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
-128921	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
-128922	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. gen.	gold	
-128923	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
+128922	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	b ks ḫrṣ 'from a cup of gold'.
+128923	dm	dm(II)/	dm (II)	n. m. sg. cstr. acc.	blood	dm ˤṣm 'the blood of trees' = wine.
 128924	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
 # KTU 1.4 III:45						
-128925	xx	?	?	?	?	
+128925	xx	?	?	?	?	Lower part of column broken (III:45-53).
 # KTU 1.4 III:46						
 128926		?	?	?	?	
 # KTU 1.4 III:47						
@@ -657,13 +616,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 III:51						
 128931		?	?	?	?	
 # KTU 1.4 III:52						
-128932	xxḥ	?	?	?	?	DULAT: NOT FOUND
+128932	xxḥ	?	?	?	?	
 # KTU 1.4 III:53						
 128933	x	?	?	?	?	
 # KTU 1.4 III:54						
-128934	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	
+128934	ˤln	ˤl(I)~n	ʕl (I)	prep. + encl. -n	above	
 # KTU 1.4 III:55						
-128935	ln	l(I)+n	l (I)	prep.	to	
+128935	ln	l(I)~n	l (I)	prep. + encl. -n	to	
 # KTU 1.4 IV:1						
 128936	ṯril	?	?	?	?	DULAT: NOT FOUND
 128937	abn	ab/+n	ảb	n. m. cstr. nom.	father	
