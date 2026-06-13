@@ -3,7 +3,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140059	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg. cstr. nom.	fortress	
 140060	bltn	bl(I)&t+n	bl (I)	adv. /emph. functor	no	
 140060	bltn	blt[+n	/b-l-t/	vb G suffc.	to open wide > couper	
-140060	bltn	bly[+n	/b-l-y/	vb	to devour	
 140061	i	i(I)	ỉ (I)	interj.	woe	
 140062		?	?	?	?	
 # KTU 1.69 2						
@@ -16,8 +15,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140066	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 3						
 140067	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-140067	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-140067	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 140067	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 140068	ll	ll(I)/	ll (I)	n. m. sg. abs. nom.	night	
 140069	irbt	?	?	?	?	DULAT: NOT FOUND
@@ -30,11 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140074	mˤnh	mˤn/+h	mʕn	n. m. cstr. nom.	reply	
 140075	w	w	w	conj.	and	
 # KTU 1.69 5						
-140076	km	k(III)	k (III)	functor	when	
-140076	km	k(I)	k (I)	prep.	like	
-140076	km	k(IV)	k (IV)	adv.	thus	
 140076	km	km	km	prep./conj./adv.		
-140076	km	+km, +km=	-km			
 140077	ṯ	ṯ	ṯ	→	?	
 140078	tmr	tmr/	tmr	PN sg. cstr. nom.	tmr	
 140079	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. gen.	damsel	
@@ -56,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140088	utllt	?	?	?	?	DULAT: NOT FOUND
 140089	u	u	ủ	conj.	or	
 # KTU 1.69 9						
-140090	rd	yrd[	/y-r-d/	vb G impv. 2	to go down	
+140090	rd	(yrd[	/y-r-d/	vb G impv. 2	to go down	
 140091	u	u	ủ	conj.	or	
 140092	umam	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 10						
@@ -66,8 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140096	mṯ	mṯ(I)/	mṯ (I)	n. m. sg. abs. gen.	infant	
 # KTU 1.69 11						
 140097	nu	?	?	?	?	DULAT: NOT FOUND
-140098	bly	ybl[+y	/y-b-l/	vb G prefc.	to carry	
-140098	bly	ybl[+y	/y-b-l/	vb G suffc.	to carry	
+140098	bly	(ybl[+y	/y-b-l/	vb G impv. 2	to carry	
 140098	bly	bl(I)+y	bl (I)	adv. /emph. functor	no	
 140098	bly	bl(II)+y	bl (II)	prep.	without	
 # KTU 1.69 12						
@@ -79,12 +71,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 13						
 140102	xx	?	?	?	?	
 # KTU 1.69 14						
-140103	ṣk	!!mḫṣ[/+k	/m-ḫ-ṣ/	vb G inf.	to wound	
-140103	ṣk	mḫṣ[/+k	/m-ḫ-ṣ/	vb G act. ptcpl. m. sg. cstr. nom.	to wound	
+140103	ṣk	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḫ-ṣ/ - to wound
 # KTU 1.69 15						
 140104	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-140104	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-140104	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 140104	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 140105	w	w	w	conj.	and	
 140106	an	an(I)	ản (I)	pers. pn.	I	

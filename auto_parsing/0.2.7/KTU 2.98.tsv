@@ -36,8 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151202	p	p(II)	p (II)	adv.	here	
 151203	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	DULAT quote in rgm (cue: word)
 151204	špš	špš/	špš	n. f. sg. abs. nom.	sun	DULAT quote in rgm (cue: sun)
-151205	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151205	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+151205	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 151206	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 151206	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
 151206	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
@@ -60,10 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151218	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	2) servant (said of a special class of mercenaries or subordinate employees)	
 # KTU 2.98 12						
 151219	w	w	w	conj.	and	
-151220	atnn	ytn[+n	/y-t-n/	vb G prefc.	to give	
-151220	atnn	ytn[+n	/y-t-n/	vb G suffc.	to give	
-151220	atnn	at(I)+nn	ảt (I)	pers. pn.	you	
-151220	atnn	ʔtw[+nn	/ʔ-t-w/	vb	to come	
+151220	atnn	!(ʔ&a!(ytn[+n	/y-t-n/	vb G prefc. 1 c. sg.	to give	DULAT quote in ʕm (I) (cue: give)
 151221	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
 151221	ḫrd	ḫrd/	ḫrd	n. m. sg. cstr. nom.	(royal) guard	
 151222	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
@@ -74,8 +70,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151226	ˤmm	ˤm(I)+m(I)	ʕm (I)	prep.	3) commercial meaning	
 151227	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151227	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-151228	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151228	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+151228	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 151229	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 151229	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
 151229	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
@@ -94,7 +89,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151237	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
 151238	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
 151238	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. cstr. nom.	to have spasms (of diarrhoea)	
-151238	ḫr	ḫr[/	/ḫ-r-ʔ/	vb G ptcpl. m. sg. cstr. nom.	to defecate	
 # KTU 2.98 16						
 151239	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. cstr. gen.	to protect	
 151240	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	
@@ -122,8 +116,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 22						
 151256	w	w	w	conj.	and	
 151257	špšm	špš/~m	špš	n. f. sg. cstr. nom.	sun	
-151258	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-151258	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+151258	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 151259	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 151259	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 # KTU 2.98 23						
@@ -131,8 +124,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151261	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	1) to know	
 151261	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	1) to know	
 151261	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	1) to know	
-151262	ky	k(III)&y	k (III)	Subordinating or completive functor	1) when	
-151262	ky	k(II)&y	k (II)	emph. functor	yes	
+151262	ky	k(III)+y	k (III)	Subordinating or completive functor	1) when	
+151262	ky	k(II)+y	k (II)	emph. functor	yes	
 151262	ky	k(IV)+y	k (IV)	adv.	thus	
 # KTU 2.98 24						
 151263	šisp	?	?	?	?	DULAT: NOT FOUND
@@ -168,7 +161,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 31						
 151284	xxxx	?	?	?	?	
 151285	w	w	w	conj.	4) declarative and emphatic functor	
-151286	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	1) missive	
+151286	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	1) missive	
 # KTU 2.98 32						
 151287	xxxx	?	?	?	?	
 151288	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	1) (royal) guard	
@@ -181,8 +174,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151293	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
 151293	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
 # KTU 2.98 34						
-151294	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-151294	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+151294	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 151295	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 151295	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 151296	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	

@@ -27,12 +27,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 10						
 151503	xxny	?	?	?	?	DULAT: NOT FOUND
 151504	xxxxlb	?	?	?	?	DULAT: NOT FOUND
-151505	nḫtk	nḫ[t+k	/n-ḫ/	vb G suffc. 1 c. sg.	to rest	
+151505	nḫtk	nḫtk[	/n-ḫ/	vb G suffc. 3 m. sg.	to rest	
 151505	nḫtk	nḫt/+k	nḫt	n. f. cstr. nom.	divan	
 # KTU 2.103 11						
 151506	xxṣ	?	?	?	?	DULAT: NOT FOUND
-151507	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
-151507	ky	k(II)&y	k (II)	emph. functor	yes	
+151507	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
+151507	ky	k(II)+y	k (II)	emph. functor	yes	
 151507	ky	k(IV)+y	k (IV)	adv.	thus	
 151508	ḫbt	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
 151508	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	
@@ -41,24 +41,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151511	ušal	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 12						
 151512	yby	?	?	?	?	DULAT: NOT FOUND
-151513	ḥdy	ḥdy[+y	/ḥ-d-y/	vb	to see	
+151513	ḥdy	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - to see
 151514	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.103 13						
 151515	rṣ	?	?	?	?	DULAT: NOT FOUND
 151516	lby	lb/+y	lb	n. m. cstr. nom.	heart	
 151517	w	w	w	conj.	and	
-151518	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
-151518	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. cstr. nom.	cheek	
+151518	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	missive	
+151518	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
 # KTU 2.103 14						
 151519	kt	k(t(I)/t	kt (I)	n. f. sg. abs. gen.	pitcher	
 151519	kt	k(t(II)/t	kt (II)	n. f. sg. abs. gen.	stage	
 151520	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-151521	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. gen.	missive	
-151521	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. gen.	cheek	
+151521	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. gen.	missive	
+151521	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. gen.	cheek	
 # KTU 2.103 15						
 151522	u	u	ủ	conj.	or	
-151523	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
-151523	ky	k(II)&y	k (II)	emph. functor	yes	
+151523	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
+151523	ky	k(II)+y	k (II)	emph. functor	yes	
 151523	ky	k(IV)+y	k (IV)	adv.	thus	
 151524	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.103 16						
@@ -66,15 +66,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.103 17						
 151526	l	l(I)	l (I)	prep.	to	
 151527	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-151528	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. gen.	brother (by blood)	
+151528	iḫy	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - brother (by blood)
 151529	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.103 18						
 151530	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-151531	tġr	nġr[	/n-ġ-r/	vb G prefc.	to protect	
+151531	tġr	!t!(nġr[	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.103 19						
 151532	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
-151533	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
-151533	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
+151533	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
+151533	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
 # KTU 2.103 20						
 151534	k	+k	-k (I)			
 151534	k	~k	-k (II)			
@@ -107,6 +107,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151544	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 151544	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 151544	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+151544	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 151544	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 151544	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 # KTU 2.103 25						

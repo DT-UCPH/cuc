@@ -2,7 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.122 1						
 145112	hw	hw	hw	pers. pn.	he	
 145113	nkr	nkr/	nkr	adj. m. sg. abs. nom.	foreigner / stranger	
-145114	nkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
+145114	nkt	!n!(nkt[	/n-k-t/	vb G prefc. 1 c. pl.	to immolate	
 145114	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 # KTU 1.122 2						
 145115	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to go up	
@@ -33,11 +33,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145130	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. gen.	shoulder	
 145131	w	w	w	conj.	and	
 145132	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-145132	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 # KTU 1.122 5						
 145133	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-145133	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-145133	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 145133	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.122 6						
 145134	p	p(I)	p (I)	conj. functor	and	

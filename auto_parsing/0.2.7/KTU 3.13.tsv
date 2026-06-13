@@ -60,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152474	w	w	w	conj.	and	
 152475	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 152476	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr. gen.	delivery	
-152476	mnḥm	mnḫ/+m(I)	mnḫ	n. m. cstr. gen.	calm	
+152476	mnḥm	mn(ḫ&ḥ/+m(I)	mnḫ	n. m. cstr. gen.	calm	
 152477	arbˤ	arbˤ/	ảrbʕ	num.	four	
 152478	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 # KTU 3.13 10						
@@ -94,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152494	krsnm	krsn/m	krs/śn	n. m. pl. abs. nom.	wineskin	
 # KTU 3.13 14						
 152495	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
-152496	mat	mit/	mỉt	n. f. pl. cstr. nom.	1) a hundred	
+152496	mat	m(i&at/	mỉt	n. f. pl. cstr. nom.	1) a hundred	
 152497	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
 152498	tyt	ty(t/t	tyt	n. f. sg. cstr. gen.	ranunculus	
 # KTU 3.13 15						
@@ -106,12 +106,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152503	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	DULAT quote in bt (III) (cue: length)
 152504	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
 152505	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-152506	mat	mit/	mỉt	n. f. pl. abs. gen.	1) a hundred	
+152506	mat	m(i&at/	mỉt	n. f. pl. abs. gen.	1) a hundred	
 # KTU 3.13 17						
 152507	w	w	w	conj.	and	
 152508	spl	spl/	spl	n. m. sg. cstr. nom.	platter	
 152509	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-152510	mat	mit/	mỉt	n. f. pl. abs. gen.	a hundred	
+152510	mat	m(i&at/	mỉt	n. f. pl. abs. gen.	a hundred	
 # KTU 3.13 18						
 152511	w	w	w	conj.	and	
 152512	mmskn	mmskn/	mmskn	n. m. abs. nom.	earthenware bowl	
@@ -144,4 +144,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152534	ḫmšm	ḫmšm/	ḫmšm	num.	1) fifty a) elliptical syntagms	
 152535	yn	yn/	yn	n. m. sg. abs. nom.	wine	
 152536	d	d	d	det. or rel. functor	the one(s) of	
-152537	iḫh	aḫ(I)/	ảḫ (I)	n. m. pl. abs. nom.	brother (by blood)	
+152537	iḫh	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - brother (by blood)

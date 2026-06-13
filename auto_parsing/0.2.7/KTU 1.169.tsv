@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146416	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 146417	tgḫṭk	!t!gḫṭ[+k	/g-ḫ-ṭ/	vb G prefc.	to cast out > to vomit	
 146418	w	w	w	conj.	and	
-146419	tṣu	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
+146419	tṣu	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
 146420	lpn	?	?	?	?	DULAT: NOT FOUND
 146421	ql	ql(I)/	ql (I)	n. m. sg. cstr. nom.	1) voice	
 146422	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. gen.	minister	
@@ -21,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.169 3						
 146423	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: like)
 146424	qṭr	qṭr/	qṭr	n. m. sg. cstr. nom.	smoke	
-146425	urbtm	urb(t/t~m	ủrbt	n. f. sg. abs. gen.	1) skylight	
+146425	urbtm	urbt/~m	ủrbt	n. f. sg. abs. gen.	1) skylight	
 146426	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: like)
 146427	bṯn	bṯn/	bṯn	n. m. sg. cstr. nom.	serpent	
 146428	ˤmdm	ˤmd/m	ʕmd	n. m. pl. abs. gen.	support or foot of a wall	
@@ -34,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146434	skh	sk(II)/+h	sk (II)	n. m. sg. cstr. gen.	den	
 # KTU 1.169 5						
 146435	ḫṭ	ḫṭ/	ḫṭ	n. m. sg. abs. nom.	1) sceptre	
-146436	nqh	nqh[	/n-q-h/	vb G	1) to prepare	
+146436	nqh	!n!(nqh[	/n-q-h/	vb G	1) to prepare	
 146437	u	u	ủ	conj.	2) and / also	
 146438	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 146439	ḫṭ	ḫṭ/	ḫṭ	n. m. sg. abs. gen.	1) sceptre	
@@ -51,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146444	tršˤ	!t===!ršˤ[	/r-š-ʕ/	vb G prefc. 2 m. pl.	to harm	
 146445	l	l(I)	l (I)	prep.	to	
 146446	tmntk	tmnt/+k	tmnt	n. f. cstr. gen.	frame	
-146446	tmntk	tmn(I)&t/+k	tmn (I)	n. m. cstr. gen.	frame	
+146446	tmntk	tmn(I)/t+k	tmn (I)	n. f. sg. cstr. gen.	frame	
 146447	tlḥm	!t!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 3 f. sg.	1) to eat	
 146447	tlḥm	!t=!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 2 m. sg.	1) to eat	
 146447	tlḥm	!t==!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 2 f. sg.	1) to eat	
@@ -73,7 +73,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146453	bl	bl(III)/	bl (III)	n. m. sg. cstr. gen.	blended beer	
 146454	ṣml	ṣml(I)/	ṣml (I)	n. m. sg. abs. gen.	to be hard	
 146455	b	b	b	prep.	5) modal relation	
-146456	mrmt	mrm/t=	mrm	n. f. pl. abs. gen.	height	
+146456	mrmt	mrm/t	mrm	n. f. sg. abs. gen.	height	
 # KTU 1.169 8						
 146457	b	b	b	prep.	in	
 146458	miyt	miy(t/t	mỉyt	n. f. sg. abs. gen.	swamp	
@@ -96,7 +96,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146471	dˤtm	dˤt(I)/~m	dʕt (I)	n. f. pl. abs. gen.	2) friendship	
 146472	lk	l(I)+k	l (I)	prep.	to	
 # KTU 1.169 11						
-146473	lẓtm	lẓ(t/t~m	lẓt	n. f. abs. nom. sg.	severity	
+146473	lẓtm	lẓt/~m	lẓt	n. f. abs. nom. sg.	severity	
 146474	al	al(I)	ảl (I)	neg. functor	no	
 146474	al	al(II)	ảl (II)	pos. functor	surely	
 146475	tmk	!t!mk[	/m-k-(k)/	vb G prefc.	to fall, be cast down	
@@ -155,7 +155,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146508	bˤrk	bˤr/+k	bʕr	adj. m. cstr. nom.	burnt	
 146509	l	l(I)	l (I)	prep.	to	
 146510	ṯtm	ṯtm(I)/	ṯn (I)	num.	4) adv. use	
-146511	itbnnk	bn[bnnk:l	/b-n/	vb tL prefc.	to observe intently, scrutinise, recognise	
+146511	itbnnk	?	?	?	?	DULAT candidates (no reconstructable encoding): /b-n/ - to observe intently, scrutinise, recognise
 # KTU 1.169 18						
 146512	xxxxx	?	?	?	?	
 146513	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	

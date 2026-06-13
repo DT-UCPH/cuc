@@ -1,12 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.9 1						
 147362	x	?	?	?	?	
-147363	km	k(III)	k (III)	functor	when	
-147363	km	k(I)	k (I)	prep.	like	
-147363	km	k(IV)	k (IV)	adv.	thus	
 147363	km	km	km	prep./conj./adv.		
-147363	km	+km, +km=	-km			
-147364	tr	tr(II)/	tr (II)	n. m. sg. cstr. nom.	turtledove	
+147364	tr	tr(II)/	tr (II)	n. m. sg. cstr. gen.	turtledove	
 # KTU 2.9 2						
 147365	špš	špš/	špš	n. f. sg. abs. gen.	1) sun	DULAT quote in špš (cue: sun)
 147366	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give, hand over, grant, bestow	
@@ -35,7 +31,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147374	hm	hm(II)	hm (II)	conj./interr. functor	if	
 147374	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 2.9 5						
-147375	y	+y, [y	-y (I)	prep. functor	my	
 147375	y	~y	-y (II)	prep. functor	indeed	
 147375	y	y	y	prep. functor	oh!	
 147376	ṯby	ṯb[y	/ṯ-b/	vb G suffc.	to return	

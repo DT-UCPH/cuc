@@ -20,8 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153125	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
 153125	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
 # KTU 3.32 6						
-153126	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-153126	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+153126	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 153127	l	l(I)	l (I)	prep.	to	
 153128	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 3.32 7						
@@ -35,8 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.32 8						
 153134	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
 153135	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter a) of men and gods	DULAT quote in bt (I) (cue: daughter)
-153136	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-153136	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+153136	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 3.32 9						
 153137	u	u	ủ	conj.	or	
 153138	l	l(I)	l (I)	prep.	to	
@@ -50,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153142	l	l(II)	l (II)	adv.	no	
 153142	l	l(III)	l (III)	functor	certainly	
 153143	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-153144	amhth	amt(I)/+h	ảmt (I)	n. f. cstr. gen.	1) female slave	
+153144	amhth	am&ht(I)/+h	ảmt (I)	n. f. cstr. gen.	1) female slave	
 # KTU 3.32 11						
 153145	d	d	d	det. or rel. functor	2) which	
 153146	ihb	(ʔ&ihb[	/ʔ-h-b/	vb G suffc. 3 m. sg.	to love	
@@ -68,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153153	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 153154	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. nom.	ʿbdmlk	
 # KTU 3.32 14						
-153155	bhth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
+153155	bhth	b&ht(II)/+h	bt (II)	n. m. cstr. gen.	house	
 153156	šdh	šd(I)/+h	šd (I)	n. m. cstr. nom.	open field	
 # KTU 3.32 15						
 153157	mrˤh	mrˤ/+h	mrʕ	n. pl. cstr. nom.	pasture land	
@@ -77,13 +75,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153159	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. nom.	ʿbdmlk	
 # KTU 3.32 17						
 153160	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
-153161	km	k(III)	k (III)	functor	when	
-153161	km	k(I)	k (I)	prep.	like	
-153161	km	k(IV)	k (IV)	adv.	thus	
 153161	km	km	km	prep./conj./adv.		
-153161	km	+km, +km=	-km			
 # KTU 3.32 18						
-153162	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
+153162	lbh	lb/+h	lb	n. m. cstr. gen.	heart	
 153163	yškn	!y!škn[:d	/š-k-n/	vb D	to assign	
 153164	lhm	l(I)+hm	l (I)	prep.	4) introducing a complement of the addressee	
 # KTU 3.32 19						
@@ -95,13 +89,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153168	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
 153169	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
 153170	w	w	w	conj.	and	
-153171	km	k(III)	k (III)	functor	when	
-153171	km	k(I)	k (I)	prep.	like	
-153171	km	k(IV)	k (IV)	adv.	thus	
 153171	km	km	km	prep./conj./adv.		
-153171	km	+km, +km=	-km			
 # KTU 3.32 21						
-153172	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
+153172	lbh	lb/+h	lb	n. m. cstr. gen.	heart	
 153173	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
 153174	hm	hm(II)	hm (II)	conj./interr. functor	if	
 153174	hm	hm(I)	hm (I)	pers. pn.	they	
@@ -120,16 +110,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 153179	bn	bn[	/b-n/	vb G impv. 2	to understand	
 153180	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 153180	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-153181	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-153181	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+153181	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 3.32 24						
 153182	w	w	w	conj.	and	
-153183	km	k(III)	k (III)	functor	when	
-153183	km	k(I)	k (I)	prep.	like	
-153183	km	k(IV)	k (IV)	adv.	thus	
 153183	km	km	km	prep./conj./adv.		
-153183	km	+km, +km=	-km			
-153184	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
+153184	lbh	lb/+h	lb	n. m. cstr. gen.	heart	
 # KTU 3.32 25						
 153185	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
 153186	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -146,15 +131,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.32 27						
 153193	u	u	ủ	conj.	or	
 153194	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-153195	amhth	amt(I)/+h	ảmt (I)	n. f. cstr. gen.	(female) slave	
+153195	amhth	am&ht(I)/+h	ảmt (I)	n. f. cstr. gen.	(female) slave	
 # KTU 3.32 28						
 153196	w	w	w	conj.	and	
-153197	km	k(III)	k (III)	functor	when	
-153197	km	k(I)	k (I)	prep.	like	
-153197	km	k(IV)	k (IV)	adv.	thus	
 153197	km	km	km	prep./conj./adv.		
-153197	km	+km, +km=	-km			
-153198	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
+153198	lbh	lb/+h	lb	n. m. cstr. gen.	heart	
 # KTU 3.32 29						
 153199	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
 153200	hm	hm(II)	hm (II)	conj./interr. functor	if	

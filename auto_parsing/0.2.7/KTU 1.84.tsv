@@ -17,6 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 4						
 140918	u	u	ủ	conj.	or	
 140919	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+140919	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 140919	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 140920	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 140921	u	u	ủ	conj.	or	
@@ -61,13 +62,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140956	qrzbl	qrzbl/	qrzbl	TN sg. abs. gen.	Fürstenquelle	
 140957	u	u	ủ	conj.	or	
 140958	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+140958	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 140958	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 140959	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 # KTU 1.84 7						
 140960	b	b	b	prep.	in	
 140961	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
 140961	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. gen.	nose	
-140961	apkn	apq/+n	ảpq	n. m. cstr. gen.	spring	
+140961	apkn	ap(q&k/+n	ảpq	n. m. cstr. gen.	spring	
 140962	u	u	ủ	conj.	or	
 140963	b	b	b	prep.	in	
 140964	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
@@ -80,6 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 8						
 140970	u	u	ủ	conj.	or	
 140971	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+140971	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 140971	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 140972	ypknġl	?	?	?	?	DULAT: NOT FOUND
 140973	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
@@ -103,7 +106,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140985	gr	gr(I)/	gr (I)	n. m. pl. cstr. gen.	protected	
 140985	gr	gr(I)/	gr (I)	n. m. sg. cstr. gen.	protected	
 # KTU 1.84 13						
-140986	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl. cstr. gen.	wall	
+140986	ḥmyt	ḥm&yt(I)/	ḥmt (I)	n. f. pl. cstr. gen.	wall	
 140987	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 140988	w	w	w	conj.	and	
 140989	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
@@ -117,13 +120,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140996		?	?	?	?	
 140997	u	u	ủ	conj.	or	
 140998	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+140998	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 140998	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 140999	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 141000	u	u	ủ	conj.	or	
 141001	l	l(I)	l (I)	prep.	to	
 141002	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
 141003	qty	qt/+y	qt	n. m. cstr. gen.	handle	
-141003	qty	ṯigt/+y	ṯỉgt	n. f. cstr. gen.	neighing	
 # KTU 1.84 15						
 141004	u	u	ủ	conj.	or	
 141005	l	l(I)	l (I)	prep.	to	
@@ -170,13 +173,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 19						
 141038	u	u	ủ	conj.	or	
 141039	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+141039	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 141039	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 141040	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 141041	u	u	ủ	conj.	or	
 141042	l	l(I)	l (I)	prep.	to	
 141043	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
 141044	qty	qt/+y	qt	n. m. cstr. gen.	handle	
-141044	qty	ṯigt/+y	ṯỉgt	n. f. cstr. gen.	neighing	
 # KTU 1.84 20						
 141045	u	u	ủ	conj.	or	
 141046	l	l(I)	l (I)	prep.	to	
@@ -216,12 +219,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 22						
 141077	u	u	ủ	conj.	or	
 141078	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+141078	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 141078	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 141079	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 141080	b	b	b	prep.	in	
 141081	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
 141081	apkm	ap(II)/+km	ảp (II)	n. m. cstr. gen.	nose	
-141081	apkm	apq/+m(I)	ảpq	n. m. cstr. gen.	spring	
+141081	apkm	ap(q&k/+m(I)	ảpq	n. m. cstr. gen.	spring	
 141082	u	u	ủ	conj.	or	
 141083	b	b	b	prep.	in	
 141084	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
@@ -268,7 +272,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141109	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. nom.	1) justice	
 141110	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	1) justice	
 # KTU 1.84 39						
-141111	y	+y, [y	-y (I)	prep. functor	my	
 141111	y	~y	-y (II)	prep. functor	indeed	
 141111	y	y	y	prep. functor	oh!	
 # KTU 1.84 40						

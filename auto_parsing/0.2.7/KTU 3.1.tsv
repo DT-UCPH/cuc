@@ -36,8 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151811	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 151812	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 151812	špš	špš/	špš	n. f. sg. abs. nom.	sun	
-151813	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151813	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+151813	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 151814	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 151814	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
 151814	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
@@ -47,8 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151816	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in /š-l-m/ (cue: well)
 151817	wšpš	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.1 13						
-151818	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-151818	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+151818	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 151819	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 151819	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 151820	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. gen.	lord	
@@ -65,8 +63,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151828	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 151829	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 151829	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-151830	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-151830	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+151830	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 151831	ḫt	ḫt[	/ḫ-t(-t)/	vb G suffc. 3 m. sg.	to break	
 # KTU 3.1 17						
 151832	mṣmt	mṣm(t/t	mṣmt	n. f. sg. abs. nom.	treaty	
@@ -102,17 +99,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.1 21						
 151854	w	w	w	conj.	and	
 151855	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
-151856	ktnt	ktn(I)/t=	ktn (I)	n. f. pl. cstr. nom.	shirt-like tunic	
+151856	ktnt	ktn(I)/t	ktn (I)	n. f. sg. cstr. nom.	shirt-like tunic	
 151857	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
 151858	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
 151858	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
 # KTU 3.1 22						
 151859	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
-151860	mat	mit/	mỉt	n. f. pl. cstr. nom.	a hundred	
+151860	mat	m(i&at/	mỉt	n. f. pl. cstr. nom.	a hundred	
 151861	pḥm	pḥm/	pḥm	n. m. sg. abs. gen.	3) deep red purple	
 # KTU 3.1 23						
 151862	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
-151863	mat	mit/	mỉt	n. f. pl. cstr. nom.	1) a hundred	
+151863	mat	m(i&at/	mỉt	n. f. pl. cstr. nom.	1) a hundred	
 151864	iqnu	iqnu/	ỉqnủ	n. m. sg. cstr. gen.	3) espec. violet purple	
 # KTU 3.1 24						
 151865	argmn	argmn/	ả/ỉrgmn	n. m. sg. cstr. gen.	payment of tribute to the Hittite court	
@@ -126,8 +123,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151871	l	l(I)	l (I)	prep.	to	
 151872	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in l (I) (cue: sun)
 # KTU 3.1 26						
-151873	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-151873	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+151873	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king c) legendary heroes	
 151874	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 151874	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 151875	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. gen.	lord	
@@ -140,7 +136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151880	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	3) deep red purple	
 # KTU 3.1 28						
 151881	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	a hundred	
-151882	iqni	iqn(u/&i	ỉqnủ	n. m. abs. nom.	3) espec. violet purple	
+151882	iqni	iqn(u&i/	ỉqnủ	n. m. abs. nom.	3) espec. violet purple	
 151883	l	l(I)	l (I)	prep.	to	
 151884	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	1) queen a) in gen	
 # KTU 3.1 29						
@@ -152,7 +148,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151889	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 30						
 151890	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
-151891	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
+151891	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 151892	l	l(I)	l (I)	prep.	to	
 151893	uṯryn	uṯryn/	ủṯryn	n. m. sg. cstr. gen.	crown prince	
 # KTU 3.1 31						
@@ -164,7 +160,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151898	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 32						
 151899	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
-151900	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
+151900	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 151901	l	l(I)	l (I)	prep.	to	
 151902	tpnr	tpnr/	tpnr	n. m. sg. cstr. gen.	commissioner	
 # KTU 3.1 33						
@@ -176,7 +172,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151907	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 34						
 151908	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
-151909	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
+151909	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 151910	l	l(I)	l (I)	prep.	to	
 151911	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. cstr. gen.	chief steward	
 # KTU 3.1 35						
@@ -188,7 +184,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151916	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 36						
 151917	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
-151918	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
+151918	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 151919	l	l(I)	l (I)	prep.	to	
 151920	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. cstr. gen.	chief steward	
 151921	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
@@ -201,13 +197,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151926	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 38						
 151927	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
-151928	iqni	iqn(u/&i	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
+151928	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 151929	l	l(I)	l (I)	prep.	to	
 151930	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	1) prefect	
 151931	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 151931	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
-151932	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-151932	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+151932	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.1 39						
 151933	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 151934	pḥm	pḥm/	pḥm	n. m. sg. abs. gen.	ember	

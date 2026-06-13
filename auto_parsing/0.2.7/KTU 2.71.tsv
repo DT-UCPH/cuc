@@ -26,8 +26,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 8						
 149952	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
 149952	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
-149953	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
-149953	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
+149953	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
+149953	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 149954	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.71 9						
 149955	hnk	hnk	hnk(t)	dem./pers. pn.	that	
@@ -37,7 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149957	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb G inf.	to appoint the time	
 149957	ˤdn	!!ˤdn[/	/ʕ-d-n/	vb D inf.	to appoint the time	
 149957	ˤdn	ˤdn(I)/	ʕdn (I)	n. m. sg. abs. nom.	time	
-149958	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to require a cultic reply	
+149958	yštal	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-ʔ-l/ - to require a cultic reply
 # KTU 2.71 11						
 149959	ˤmnk	ˤm(I)+nk	ʕm (I)	prep.	to	
 149960	pm	p(I)+m(I)	p (I)	conj. functor	1) and a) copulative “and”	

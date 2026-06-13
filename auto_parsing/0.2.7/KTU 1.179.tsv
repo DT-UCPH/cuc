@@ -25,7 +25,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146897	thm	thm/	thm	n. m. sg. cstr. gen.	ocean	
 # KTU 1.179 5						
 146898	šk	š/+k	š	n. m. cstr. gen.	ram	
-146898	šk	šrt(II)/+k	šrt (II)	n. f. cstr. gen.	?	
 146899	qṣḥm	qṣḥ/m	qṣḥ	n. m. pl. abs. nom.	cumin	
 146900	ˤpˤpk	ˤpˤp/+k	ʕpʕp	n. m. pl. cstr. nom.	eyelid	
 # KTU 1.179 6						
@@ -77,14 +76,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146931	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
 146931	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 146931	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
-146931	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
 # KTU 1.179 12						
 146932	x	?	?	?	?	
 146933	kbkb	kbkb/	kbkb	n. m. sg. cstr. nom.	heavenly body	
 146934	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. gen.	sanctuary	
 146935	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
 # KTU 1.179 13						
-146936	y	+y, [y	-y (I)	prep. functor	my	
 146936	y	~y	-y (II)	prep. functor	indeed	
 146936	y	y	y	prep. functor	oh!	
 146937	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	1) to eat	
@@ -104,7 +101,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146948	ṭl	ṭl/	ṭl	n. m. sg. abs. gen.	dew	
 146949	arbˤtm	arbˤ&t/~m	ảrbʕ	num. f. sg.	1) four f) composite numbers	
 # KTU 1.179 16						
-146950	y	+y, [y	-y (I)	prep. functor	my	
 146950	y	~y	-y (II)	prep. functor	indeed	
 146950	y	y	y	prep. functor	oh!	
 146951	w	w	w	conj.	and	
@@ -214,7 +210,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147012	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 147013	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
 147013	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
-147014	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	DULAT quote in g (cue: voice)
+147014	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
 147015	w	w	w	conj.	and	
 147016	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	
 147017	mx	?	?	?	?	DULAT: NOT FOUND
@@ -311,14 +307,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147074	r	?	?	?	?	DULAT: NOT FOUND
 147075	bbx	?	?	?	?	DULAT: NOT FOUND
 147076	w	w	w	conj.	and	
-147077	mspr	spr[/r	/s-p-r/	vb G ptcpl. m. sg. cstr. nom.	to count, number	
-147077	mspr	spr[/r	/s-p-r/	vb D ptcpl. m. sg. cstr. nom.	to recite	
 147077	mspr	mspr/	mspr	n. m. sg. cstr. nom.	recitation	
 147078	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 # KTU 1.179 42						
 147079	xxrbh	?	?	?	?	DULAT: NOT FOUND
 147080	w	w	w	conj.	and	
-147081	ind	in/	ỉn	n. m. sg. abs. nom.	1) there is/are not	
+147081	ind	?	?	?	?	DULAT candidates (no reconstructable encoding): ỉn - 1) there is/are not
 147082	ylmdnn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.179 43						
 147083	b	b	b	prep.	in	

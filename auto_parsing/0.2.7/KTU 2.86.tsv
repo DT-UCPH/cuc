@@ -23,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150619	w	w	w	conj.	and	
 150620	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.86 8						
-150621	mrḥqtm	mrḥq(t/t~m	mrḥqt	n. f. sg. cstr. nom.	distance	
+150621	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. sg. cstr. nom.	distance	
 # KTU 2.86 9						
 150622	qlty	qlt(I)/+y	qlt (I)	n. f. cstr. gen.	vileness	
 150622	qlty	qlt(II)/+y	qlt (II)	n. f. cstr. gen.	(Messenger-)service	
@@ -75,7 +75,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150650	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	2) servant (said of a special class of mercenaries or subordinate employees)	
 150651	al	al(I)	ảl (I)	neg. functor	no	
 150651	al	al(II)	ảl (II)	pos. functor	surely	
-150652	y	+y, [y	-y (I)	prep. functor	my	
 150652	y	~y	-y (II)	prep. functor	indeed	
 150652	y	y	y	prep. functor	oh!	
 # KTU 2.86 23						

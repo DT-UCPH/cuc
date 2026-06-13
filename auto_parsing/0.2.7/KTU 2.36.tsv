@@ -31,14 +31,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148724	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
 148724	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.36 5						
-148725	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
-148725	ky	k(II)&y	k (II)	emph. functor	yes	
+148725	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
+148725	ky	k(II)+y	k (II)	emph. functor	yes	
 148725	ky	k(IV)+y	k (IV)	adv.	1) thus	
 148726	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 148727	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 148727	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-148728	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-148728	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+148728	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 148729	tḥmk	tḥm/+k	tḥm	n. m. cstr. gen.	message	
 148730	hlny	hlny	hlny	deictic adv. functor	behold	
 # KTU 2.36 6						
@@ -75,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148747	udk	ud/+k	ủd	n. m. cstr. nom.	pay	
 148748	mġt	mġ(y[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come, arrive	
 148749	w	w	w	conj.	and	
-148750	mlkn	mlk(I)&n	mlk (I)		king	
+148750	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	king	
 148751	xx	?	?	?	?	
 # KTU 2.36 9						
 148752	ṣḥrt	?	?	?	?	DULAT: NOT FOUND
@@ -109,11 +108,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148770	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.36 12						
 148771	xx	?	?	?	?	
-148772	km	k(III)	k (III)	functor	when	
-148772	km	k(I)	k (I)	prep.	like	
-148772	km	k(IV)	k (IV)	adv.	thus	
 148772	km	km	km	prep./conj./adv.		
-148772	km	+km, +km=	-km			
 148773	šknt	škn[t	/š-k-n/	vb G suffc. 1 c. sg.	to be placed, settle, stay	
 148774	ly	l(I)+y	l (I)	prep.	to	
 148775	ht	ht	ht	adv.	2) conj.	
@@ -122,22 +117,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148778	xx	?	?	?	?	
 # KTU 2.36 13						
 148779	xxx	?	?	?	?	
-148780	štnt	ytn[t	/y-t-n/	vb	1) to make (someone) give	
+148780	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
 148781	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 148782	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 148783	špš	špš/	špš	n. f. sg. abs. gen.	sun	DULAT quote in /y-t-n/ (cue: sun)
-148784	štnt	ytn[t	/y-t-n/	vb	1) to make (someone) give	
+148784	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
 # KTU 2.36 14						
 148785	ṯnnty	ṯn(II)&nt/+y	ṯn (II)	num. cstr. / adj. cstr.	second	
 148786	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-148787	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
-148787	ky	k(II)&y	k (II)	emph. functor	yes	
+148787	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
+148787	ky	k(II)+y	k (II)	emph. functor	yes	
 148787	ky	k(IV)+y	k (IV)	adv.	thus	
 148788	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 148789	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 148789	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-148790	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-148790	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+148790	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 2.36 15						
 148791	šbt	šb(t/t	šbt	n. f. sg. cstr. gen.	greyness > old age	
 148792	ntbt	ntbt/	ntbt	n. m. sg. cstr. gen.	path	

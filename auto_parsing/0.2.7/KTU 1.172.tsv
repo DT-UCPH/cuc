@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146599	t	/t, /t=				DULAT: NOT FOUND
 146599	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.172 3						
-146600	bat	b(ʔ&a[t	/b-ʔ/	vb G suffc. 1 c. sg.	to enter	
+146600	bat	?	?	?	?	DULAT candidates (no reconstructable encoding): /b-ʔ/ - to enter
 # KTU 1.172 4						
 146601	ṣḥr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 5						
@@ -41,16 +41,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146618	lp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 15						
 146619	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-146619	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-146619	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 146619	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 146620	tlm	tlm/	tlm	n. m. sg. abs. nom.	furrow	
 # KTU 1.172 16						
 146621	qd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 17						
 146622	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-146622	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-146622	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 146622	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 146623	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 146623	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
@@ -69,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146631	dd	dd(II)/	dd (II)	n. m. sg. cstr. nom.	cauldronful	
 # KTU 1.172 21						
 146632		?	?	?	?	
-146633	ḫẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. gen.	1) arrow c) fletch- ers	
+146633	ḫẓ	(ḥ&ḫẓ/	ḥẓ	n. m. sg. cstr. gen.	1) arrow c) fletch- ers	
 146634	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 146635	b	b	b	prep.	in	
 146636	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	5) used as a preposition	
@@ -79,7 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146639	l	l(I)	l (I)	prep.	to	
 146639	l	l(II)	l (II)	adv.	no	
 146639	l	l(III)	l (III)	functor	certainly	
-146640	yamr	ʔ]t]mr[	/ʔ-m-r/	vb Gt prefc.	to be seen	
+146640	yamr	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-m-r/ - to be seen
 # KTU 1.172 23						
 146641	x	?	?	?	?	
 146642	gb	gb(I)/	gb (I)	n. m. sg. cstr. nom.	pit	

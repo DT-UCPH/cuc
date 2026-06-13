@@ -24,11 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150519	bn	bn(II)	bn (II)	prep.	between	
 150519	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 150519	bn	bn[	/b-n/	vb G impv. 2	to understand	
-150520	km	k(III)	k (III)	functor	when	
-150520	km	k(I)	k (I)	prep.	like	
-150520	km	k(IV)	k (IV)	adv.	thus	
 150520	km	km	km	prep./conj./adv.		
-150520	km	+km, +km=	-km			
 # KTU 2.85 6						
 150521	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well, do well, be in peace	
 150521	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to re-establish > to pay	
@@ -58,8 +54,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150535	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 # KTU 2.85 12						
 150536	rgm	rgm/	rgm	n. m. sg. abs. gen.	1) word	
-150537	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word), an answer, to answer	
-150537	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word), an answer, to answer	
+150537	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word), an answer, to answer	
+150537	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word), an answer, to answer	
 # KTU 2.85 13						
 150538	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.85 14						
@@ -132,8 +128,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150584	xxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 32						
 150585	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-150586	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
-150586	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
+150586	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
+150586	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 # KTU 2.85 33						
 150587	xx	?	?	?	?	
 150588	šbk	šb/+k	šb	n. m. cstr. nom.	old man	
@@ -143,7 +139,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150591	d	d	d	det. or rel. functor	the one(s) of	
 150592	ḫsrxxxb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.85 35						
-150593	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 150593	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 150594	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 150594	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	

@@ -48,14 +48,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.61 8						
 149659	akln	akl(II)/+n	ảkl (II)	n. m. cstr. gen.	1) grain	
 149660	b	b	b	prep.	in	
-149661	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. gen.	1) threshing-floor a) b grn yḫrb on the threshing-floor (the harvest) had withered	
+149661	grnt	grn(I)/t	grn (I)	n. f. sg. abs. gen.	1) threshing-floor a) b grn yḫrb on the threshing-floor (the harvest) had withered	
 # KTU 2.61 9						
 149662	l	l(III)	l (III)	functor	certainly	
 149663	bˤr	bˤr/	bʕr	adj. m. abs. nom.	burnt	
 # KTU 2.61 10						
 149664	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
-149665	krmm	krm/	krm	n. m. pl. abs. gen.	1) vineyard a) krm ảḥd one vineyard	
-149665	krmm	krm/	krm	n. m. sg. abs. gen.	1) vineyard a) krm ảḥd one vineyard	
+149665	krmm	krm/m	krm	n. m. pl. abs. gen.	1) vineyard a) krm ảḥd one vineyard	
 # KTU 2.61 11						
 149666	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	DULAT quote in /ḫ-l-q/ (cue: destroyed)
 # KTU 2.61 12						
@@ -64,5 +63,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149668	ḫlqt	ḫlq[t:pass	/ḫ-l-q/	vb Dpass suffc. 1 c. sg.	to be destroyed, devastated	
 # KTU 2.61 13						
 149669	w	w	w	conj.	3) in the correlation protasis-apodosis	
-149670	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	1) to know	
-149671	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	1) to know	
+149670	dˤ	(ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	1) to know	
+149671	dˤ	(ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	1) to know	

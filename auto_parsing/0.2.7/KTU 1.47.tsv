@@ -47,7 +47,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 19						
 139633	ġrm	ġr(I)/m	ġr (I)	n. m. pl. abs. gen.	mountain	
 139634	w	w	w	conj.	and	
-139635	ˤmqt	ˤmq(I)/t=	ʕmq (I)	n. f. pl. cstr. nom.	valley	
+139635	ˤmqt	ˤmq(I)/t	ʕmq (I)	n. f. sg. cstr. nom.	valley	
 # KTU 1.47 20						
 139636	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. gen.	back part (of the head)	
 # KTU 1.47 21						
@@ -80,12 +80,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.47 31						
 139650	uṯḫt	uṯḫ(t/t	ủṯḫt	DN/n. f. sg. cstr. gen.	incense burner	
 # KTU 1.47 32						
-139651	knr	knr/	knr	n. m. sg. abs. gen.	2) DN knr	
+139651	knr	knr/	knr	n. m. sg. cstr. gen.	2) DN knr	
 # KTU 1.47 33						
-139652	mlkm	mlk(I)&m	mlk (I)		3) said particularly of “Dead Kings” (Xella UF 15 1983 299, WGE 357, Del Olmo AuOr 5 1987 60ff., cf. rpủ ) a) coll. pl. mlkm “Kings”	
+139652	mlkm	mlk(I)/m	mlk (I)	n. m. pl. abs. gen.	3) said particularly of “Dead Kings” (Xella UF 15 1983 299, WGE 357, Del Olmo AuOr 5 1987 60ff., cf. rpủ ) a) coll. pl. mlkm “Kings”	
 # KTU 1.47 34						
-139653	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
-139653	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
 139653	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
-139653	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-139653	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	

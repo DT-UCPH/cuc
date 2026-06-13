@@ -18,7 +18,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147535	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
 # KTU 2.14 6						
 147536	iky	iky	ỉky	interr. functor	what of?	
-147537	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+147537	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 # KTU 2.14 7						
 147538	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	3) letter	DULAT quote in /l-ʔ-k/ (cue: letter)
 147539	d	d	d	det. or rel. functor	2) which	
@@ -44,7 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147552	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say, tell, announce, communicate, inform	
 # KTU 2.14 13						
 147553	l	l(I)	l (I)	prep.	to	
-147554	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+147554	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 147555	šmy	šm(I)/+y	šm (I)	n. m. cstr. gen.	name	
 # KTU 2.14 14						
 147556	w	w	w	conj.	and	
@@ -64,8 +64,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147565	w	w	w	conj.	and	
 147566	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	
 # KTU 2.14 18						
-147567	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
-147567	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
+147567	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
+147567	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 147568	l	l(I)	l (I)	prep.	to	
 147569	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
 # KTU 2.14 19						

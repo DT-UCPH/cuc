@@ -12,8 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139308	gb	gb(I)/	gb (I)	n. m. sg. cstr. gen.	pit	
 # KTU 1.43 2						
 139309	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-139310	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-139310	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+139310	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 139311	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. gen.	1) banquet	
 139312	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. gen.	1) banquet	
 139313	b	b	b	prep.	in	
@@ -49,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139333	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 139333	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 139334	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
-139335	pamt	pa/m&t	pảm(t)	n. f. pl. abs. nom.	time	
+139335	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
 # KTU 1.43 8						
 139336	l	l(I)	l (I)	prep.	to	
 139337	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	1) god c) object or purpose of an action	
@@ -62,8 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139343	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 10						
 139344	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-139345	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-139345	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+139345	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 139346	ṯql	ṯql/	ṯql	n. m. sg. abs. nom.	1) unit of weight c) shekel of gold	
 139347	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold d) cultic offering	
 # KTU 1.43 11						
@@ -117,7 +115,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.43 17						
 139383	w	w	w	conj.	and	
 139384	l	l(I)	l (I)	prep.	to	
-139385	ˤntm	ˤnt(I)/	ʕnt (I)	DN du. abs. gen.	ʿAnatu/Anat	
+139385	ˤntm	ˤnt(I)/m	ʕnt (I)	DN pl. abs. gen.	ʿAnatu/Anat	
 139386	l	l(I)	l (I)	prep.	to	
 139387	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 18						
@@ -126,7 +124,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139389	w	w	w	conj.	and	
 139390	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 139391	l	l(I)	l (I)	prep.	to	
-139392	ˤntm	ˤnt(I)/	ʕnt (I)	DN du. cstr. gen.	ʿAnatu/Anat	
+139392	ˤntm	ˤnt(I)/m	ʕnt (I)	DN pl. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.43 19						
 139393	š	š/	š	n. m. sg. cstr. gen.	ram	
 139394	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
@@ -139,7 +137,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139399	w	w	w	conj.	and	
 139400	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 139401	l	l(I)	l (I)	prep.	to	
-139402	ˤntm	ˤnt(I)/	ʕnt (I)	DN du. abs. gen.	ʿAnatu/Anat	
+139402	ˤntm	ˤnt(I)/m	ʕnt (I)	DN pl. abs. gen.	ʿAnatu/Anat	
 # KTU 1.43 21						
 139403	x	?	?	?	?	
 139404	x	?	?	?	?	
@@ -148,8 +146,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139407	l	l(I)	l (I)	prep.	to	
 139408	slm	slm/	slm	n. m. sg. cstr. gen.	staircase	
 # KTU 1.43 22						
-139409	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-139409	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+139409	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 139410	k	+k	-k (I)			
 139410	k	~k	-k (II)			
 139410	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -158,8 +155,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139411	ḫry	ḫry/	ḫry	GN sg. abs. nom.	Hurrian	
 139412	ylbš	!y!lbš[	/l-b-š/	vb G prefc. 3 m. sg.	to dress, wear, put on clothes	
 # KTU 1.43 23						
-139413	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-139413	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+139413	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 139414	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go, go away	
 139415	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of, take, grasp	
 139415	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of, take, grasp	
@@ -170,8 +166,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139419	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 139420	pˤnm	pˤn/m	pʕn	n. f. pl. cstr. nom.	2) adv.	
 # KTU 1.43 25						
-139421	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-139421	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+139421	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 139422	pˤnm	pˤn/m	pʕn	n. f. pl. abs. gen.	foot	
 139423	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 # KTU 1.43 26						

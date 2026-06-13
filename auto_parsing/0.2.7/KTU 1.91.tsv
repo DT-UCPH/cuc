@@ -9,8 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141865	b	b	b	prep.	in	
 141866	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
 141866	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
-141867	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-141867	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+141867	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 # KTU 1.91 3						
 141868	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
 141868	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
@@ -27,8 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141874	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
 141874	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 141875	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-141876	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-141876	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+141876	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.91 8						
 141877	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 141877	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
@@ -48,16 +46,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141883	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
 141883	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
 141884	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-141885	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-141885	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+141885	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 1.91 11						
 141886	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in ršp (cue: when)
 141887	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
-141888	ršpm	ršp/	ršp	DN du. cstr. nom.	Rašap	
-141888	ršpm	ršp/	ršp	DN pl. cstr. nom.	Rašap	
+141888	ršpm	ršp/m	ršp	DN pl. cstr. nom.	Rašap	
 141889	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-141890	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-141890	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+141890	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.91 12						
 141891	ḫlu	ḫlu/	ḫlủ	n. m. sg. cstr. gen.	cake	
 141892	dg	dg(I)/	dg (I)	n. m. sg. cstr. gen.	fish	
@@ -71,14 +66,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141894	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 141895	bˤlxxxxx	?	?	?	?	DULAT: NOT FOUND
 141896	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /n-d-d/ (cue: when)
-141897	tdd	ndd[	/n-d-d/	vb G prefc.	to go, move	
+141897	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go, move	
 141898	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. nom.	lady	
 141899	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 # KTU 1.91 15						
 141900	b	b	b	prep.	in	
 141901	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
 141902	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
-141903	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. sg. abs. gen.	1) army	DULAT quote in ṣbủ (I) (cue: army)
+141903	ṣbi	ṣb(u&i(I)/	ṣbủ (I)	n. m. sg. abs. gen.	1) army	DULAT quote in ṣbủ (I) (cue: army)
 # KTU 1.91 16						
 141904	xxxxxkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 17						
@@ -118,7 +113,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141929	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
 # KTU 1.91 26						
 141930	šmny	šmn(I)/+y	šmn (I)	n. m. cstr. gen.	oil	
-141930	šmny	š&m/+ny	š	n. m. cstr. gen.	ram	
+141930	šmny	š/m+ny	š	n. m. cstr. gen.	ram	
 141930	šmny	šm(I)/+ny	šm (I)	n. m. cstr. gen.	name	
 141931	kdm	kd(I)/m	kd (I)	n. f. pl. abs. nom.	jar	
 141932	yn	yn/	yn	n. m. sg. abs. nom.	wine	

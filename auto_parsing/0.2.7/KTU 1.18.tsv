@@ -26,7 +26,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135579	xxxxxxxx	?	?	?	?	
 # KTU 1.18 I:7						
 135580	xxxxxxtk	?	?	?	?	DULAT: NOT FOUND
-135581	y	+y, [y	-y (I)	prep. functor	my	
 135581	y	~y	-y (II)	prep. functor	indeed	
 135581	y	y	y	prep. functor	oh!	
 135582	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
@@ -65,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135598	qdqdk	qdqd/+k	qdqd	n. m. cstr. gen.	skull	
 135599	ašhlk	!(ʔ&a!]š]hlk[	/h-l-k/	vb Š prefc. 1 c. sg.	to cause to run	
 135600	šbtk	šb(t/t+k	šbt	n. f. sg. cstr. nom.	greyness > old age	
-135601	dmm	dm(II)/	dm (II)	n. m. pl. abs. nom.	blood	
+135601	dmm	dm(II)/m	dm (II)	n. m. pl. abs. nom.	blood	
 # KTU 1.18 I:12						
 135602	šbt	šb(t/t	šbt	n. f. sg. cstr. nom.	greyness > old age	
 135603	dqnk	dqn(I)/+k	dqn (I)	n. m. cstr. nom.	beard	
@@ -135,7 +134,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135647	irtk	ir(t/t+k	ỉrt	n. f. sg. cstr. gen.	1) breast a) breast	
 135648	dṯ	!!dṯ[/	/d-ṯ/	vb G inf.	to smash, grind	
 135649	ydṯ	!y!dṯ[	/d-ṯ/	vb G prefc. 3 m. sg.	to smash, grind	
-135650	mˤqbk	ˤqb[/bk	/ʕ-q-b/	vb D ptcpl. m. sg. abs. nom.	to take the place of another, to rival	
 135650	mˤqbk	mˤqb(I)/+k	mʕqb (I)	n. m. sg. cstr. nom.	rival	
 135651	xxx	?	?	?	?	
 # KTU 1.18 I:20						
@@ -165,7 +163,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135669	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 # KTU 1.18 I:23						
 135670	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
-135671	gh	ytn[	/y-t-n/	vb	to give	
 135671	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
 135672	w	w	w	conj.	and	
 135673	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
@@ -188,12 +185,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135686	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 135686	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 135687	šbˤ	šbˤ(I)/	šbʕ (I)	num.	2) composite numbers d) thousands	
-135688	ṯirk	ṯar/	ṯảr	n. m. pl. abs. nom.	surety	
+135688	ṯirk	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯảr - surety
 135689	lxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.18 I:26						
 135690	xxxxx	?	?	?	?	
 135691	aby	ab/+y	ảb	n. m. cstr. nom.	father	
-135692	ndt	ndd[	/n-d-d/	vb G suffc. 3 m. sg.	to go, move	
+135692	ndt	?	?	?	?	DULAT candidates (no reconstructable encoding): /n-d-d/ - to go, move
 135693	ank	ank	ảnk	pers. pn.	I	
 135694	xxx	?	?	?	?	
 # KTU 1.18 I:27						
@@ -276,7 +273,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135750	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
 135750	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
 135751	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
-135752	gh	ytn[	/y-t-n/	vb	to give	
 135752	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
 # KTU 1.18 IV:7						
 135753	w	w	w	conj.	and	
@@ -337,7 +333,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135791	qṣˤth	qṣˤ(t/t+h	qṣʕt	n. f. sg. cstr. nom.	arrow(s)	
 135792	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 135793	l	l(II)	l (II)	adv.	no	DULAT direct ref
-135794	tḥwy	!t!ḥw(I)[y:d	/ḥ-w/y-y/ (I)	vb D prefc.	1) to give (back) life / revive	
+135794	tḥwy	!t!ḥwy(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc.	1) to give (back) life / revive	
 135795	xxx	?	?	?	?	
 # KTU 1.18 IV:14						
 135796	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
@@ -349,8 +345,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135800	w	w	w	conj.	and	
 135801	xxxxx	?	?	?	?	
 # KTU 1.18 IV:15						
-135802	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt suffc.	to remain, stay	
-135802	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt impv. 2	to remain, stay	
+135802	ištir	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-ʔ-r/ - to remain, stay
 135803	b	b	b	prep.	in	
 135804	ḏdm	ḏd(II)/m	ḏd (II)	n. m. pl. abs. gen.	grotto	
 135805	w	w	w	conj.	and	
@@ -369,6 +364,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135809	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 135809	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 135809	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+135809	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 135809	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 135809	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 135810	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
@@ -380,21 +376,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 IV:17						
 135815	lk	l(I)+k	l (I)	prep.	to	
 135816	aštk	!(ʔ&a!št[+k	/š-t/	vb G prefc. 1 c. sg.	to place, set, set up, leave	
-135817	km	km	km	prep./conj./adv.		DULAT direct ref
+135817	km	km	km	prep./conj./adv.		
 135818	nšr	nšr/	nšr	n. m. sg. abs. gen.	bird of prey	
 135819	b	b	b	prep.	in	
 135820	ḥbšy	ḥbš(I)/y	ḥbš (I)	n. m. abs. gen.	cinch	
 135820	ḥbšy	ḥbš(I)/+y	ḥbš (I)	n. m. cstr. gen.	cinch	
 # KTU 1.18 IV:18						
-135821	km	k(I)	k (I)	prep.	like	DULAT quote in tʕrt (cue: like)
-135822	diy	diy(I)/	dỉy (I)	n. m. sg. abs. nom.	hawk	DULAT direct ref
+135821	km	km	km	prep./conj./adv.		
+135822	diy	diy(I)/	dỉy (I)	n. m. sg. abs. gen.	hawk	DULAT direct ref
 135823	b	b	b	prep.	in	
 135824	tˤrty	tˤr(t/t+y	tʕrt	n. f. sg. cstr. gen.	2) quiver	
 135825	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
-135826	km	k(I)	k (I)	prep.	like	DULAT quote in tʕrt (cue: like)
+135826	km	km	km	prep./conj./adv.		
 135827	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 135827	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
-135827	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
+135827	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. gen.	to sit down	
 # KTU 1.18 IV:19						
 135828	l	l(I)	l (I)	prep.	to	
 135828	l	l(II)	l (II)	adv.	no	
@@ -428,41 +424,41 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135847	ˤdbk	!!ˤdb[/k	/ʕ-d-b/	vb G inf.	to leave > to put in > to place	
 135848	hlmn	hlm[n	/h-l-m/	vb G suffc.	to hit	
 135848	hlmn	hlm[n	/h-l-m/	vb G impv. 2	to hit	
-135849	ṯnm	ṯn(I)&m	ṯn (I)	num.	4) adv. use	DULAT direct ref
+135849	ṯnm	ṯn(I)&m	ṯn (I)	num.	4) adv. use	
 135850	qdqd	qdqd/	qdqd	n. m. sg. abs. nom.	skull	
 # KTU 1.18 IV:23						
 135851	ṯlṯid	ṯlṯid	ṯlṯỉd	adv.	three times	
 135852	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 135853	udn	udn(I)/	ủdn (I)	n. m. sg. abs. gen.	ear	
 135854	špk	špk[	/š-p-k/	vb G impv. 2	to spill, shed	
-135855	km	km	km	prep./conj./adv.		DULAT direct ref
+135855	km	km	km	prep./conj./adv.		
 135856	šiy	šiy(I)/	šỉy (I)	adj. m. sg. abs. gen.	assassin	
 # KTU 1.18 IV:24						
 135857	dm	dm(II)/	dm (II)	n. m. sg. abs. gen.	blood	DULAT direct ref
-135858	km	km	km	prep./conj./adv.		DULAT direct ref
+135858	km	km	km	prep./conj./adv.		
 135859	šḫṭ	šḫṭ/	šḫṭ	n. m. sg. abs. gen.	butcher	
 135860	l	l(I)	l (I)	prep.	to	DULAT direct ref
 135861	brkh	brk/+h	brk	n. f. cstr. gen.	knee	
-135862	tṣi	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out	
-135863	km	km	km	prep./conj./adv.		DULAT direct ref
+135862	tṣi	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out
+135863	km	km	km	prep./conj./adv.		
 # KTU 1.18 IV:25						
 135864	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. cstr. gen.	2) gust	
 135865	npšh	npš(I)/+h	npš (I)	n. f. cstr. gen.	4) soul	
-135866	km	k(I)	k (I)	prep.	like	DULAT quote in brlt (cue: like)
-135867	iṯl	iṯl/	ỉṯl	n. m. sg. cstr. nom.	saliva	
+135866	km	km	km	prep./conj./adv.		
+135867	iṯl	iṯl/	ỉṯl	n. m. sg. cstr. gen.	saliva	
 135868	brlth	brl(t/t+h	brlt	n. f. sg. cstr. gen.	2) spirit	
-135869	km	k(I)	k (I)	prep.	like	DULAT quote in brlt (cue: like)
+135869	km	km	km	prep./conj./adv.		
 # KTU 1.18 IV:26						
-135870	qṭr	qṭr/	qṭr	n. m. sg. abs. nom.	smoke	
+135870	qṭr	qṭr/	qṭr	n. m. sg. abs. gen.	smoke	
 135871	b	b	b	prep.	1) spatial location d) origin of a quality or process	
 135872	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	1) nose	DULAT direct ref
 135873	u	u	ủ	conj.	or	
 135874	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	DULAT direct ref
-135875	mprh	mhr(II)/	mhr (II)	n. m. abs. gen.	warrior strength	DULAT direct ref
+135875	mprh	mpr/+h	mpr	n. m. cstr. gen.	warrior strength	
 135876	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
 # KTU 1.18 IV:27						
 135877	l	l(II)	l (II)	adv.	no	DULAT direct ref
-135878	aḥwy	!(ʔ&a!ḥw(I)[y:d	/ḥ-w/y-y/ (I)	vb D prefc. 1 c. sg.	1) to give (back) life / revive	
+135878	aḥwy	!(ʔ&a!ḥwy(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc. 1 c. sg.	1) to give (back) life / revive	
 135879	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of, take, grasp	
 135880	yṭpn	?	?	?	?	DULAT: NOT FOUND
 135881	mhr	mhr(I)/	mhr (I)	n. m. sg. cstr. nom.	1) warrior (trained, expert)	
@@ -473,18 +469,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135885	nšr	nšr/	nšr	n. m. sg. abs. gen.	bird of prey	
 135886	b	b	b	prep.	in	
 135887	ḥbšh	ḥbš(I)/+h	ḥbš (I)	n. m. cstr. gen.	1) cinch	
-135888	km	k(III)	k (III)	functor	when	
-135888	km	k(I)	k (I)	prep.	like	
-135888	km	k(IV)	k (IV)	adv.	thus	
 135888	km	km	km	prep./conj./adv.		
-135888	km	+km, +km=	-km			
-135889	diy	diy(II)/	dỉy (II)	n. m. pl. cstr. nom.	wing	
-135889	diy	diy(I)/	dỉy (I)	n. m. sg. abs. nom.	hawk	
+135889	diy	diy(II)/	dỉy (II)	n. m. pl. abs. gen.	wing	
+135889	diy	diy(I)/	dỉy (I)	n. m. sg. abs. gen.	hawk	
 # KTU 1.18 IV:29						
 135890	b	b	b	prep.	in	
 135891	tˤrth	tˤr(t/t+h	tʕrt	n. f. sg. cstr. gen.	sheath	
 135892	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
-135893	km	km	km	prep./conj./adv.		DULAT direct ref
+135893	km	km	km	prep./conj./adv.		
 135894	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
 135894	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
 135894	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. gen.	to sit down, take a seat on the throne, install oneself, reside	
@@ -520,57 +512,35 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135914	hlmn	hlm[n	/h-l-m/	vb G suffc.	to hit	
 135914	hlmn	hlm[n	/h-l-m/	vb G impv. 2	to hit	
 135915	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
-135915	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G suffc.	to repeat	
-135915	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G impv. 2	to repeat	
 135916	qdqd	qdqd/	qdqd	n. m. sg. abs. nom.	skull	
 # KTU 1.18 IV:34						
 135917	ṯlṯid	ṯlṯid	ṯlṯỉd	adv.	three times	
 135918	ˤl	ˤl(I)	ʕl (I)	prep.	1) spatial location or pre-eminence a) upon	DULAT direct ref
 135919	udn	udn(I)/	ủdn (I)	n. m. sg. abs. gen.	ear	
 135920	špk	špk[	/š-p-k/	vb G impv. 2	to spill	
-135921	km	k(III)	k (III)	functor	when	
-135921	km	k(I)	k (I)	prep.	like	
-135921	km	k(IV)	k (IV)	adv.	thus	
 135921	km	km	km	prep./conj./adv.		
-135921	km	+km, +km=	-km			
 # KTU 1.18 IV:35						
-135922	šiy	šiy(I)/	šỉy (I)	adj. m. sg. abs. nom.	assassin	
-135923	dmh	dm(II)/+h	dm (II)	n. m. cstr. nom.	blood	
-135924	km	k(III)	k (III)	functor	when	
-135924	km	k(I)	k (I)	prep.	like	
-135924	km	k(IV)	k (IV)	adv.	thus	
+135922	šiy	šiy(I)/	šỉy (I)	adj. m. sg. abs. gen.	assassin	
+135923	dmh	dm(II)/+h	dm (II)	n. m. cstr. gen.	blood	
 135924	km	km	km	prep./conj./adv.		
-135924	km	+km, +km=	-km			
-135925	šḫṭ	šḫṭ/	šḫṭ	n. m. sg. abs. nom.	butcher	
+135925	šḫṭ	šḫṭ/	šḫṭ	n. m. sg. abs. gen.	butcher	
 135926	l	l(I)	l (I)	prep.	to	
 135927	brkh	brk/+h	brk	n. f. cstr. gen.	knee	
 # KTU 1.18 IV:36						
-135928	yṣat	yṣ(ʔ&a[t	/y-ṣ-ʔ/	vb G prefc.	to go out	
-135929	km	k(III)	k (III)	functor	when	
-135929	km	k(I)	k (I)	prep.	like	
-135929	km	k(IV)	k (IV)	adv.	thus	
+135928	yṣat	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out
 135929	km	km	km	prep./conj./adv.		
-135929	km	+km, +km=	-km			
-135930	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. cstr. nom.	wind	
+135930	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. cstr. gen.	wind	
 135931	npšh	npš(I)/+h	npš (I)	n. f. cstr. gen.	throat	
-135932	km	k(III)	k (III)	functor	when	
-135932	km	k(I)	k (I)	prep.	like	
-135932	km	k(IV)	k (IV)	adv.	thus	
 135932	km	km	km	prep./conj./adv.		
-135932	km	+km, +km=	-km			
-135933	iṯl	iṯl/	ỉṯl	n. m. sg. cstr. nom.	saliva	
+135933	iṯl	iṯl/	ỉṯl	n. m. sg. cstr. gen.	saliva	
 # KTU 1.18 IV:37						
 135934	brlth	brl(t/t+h	brlt	n. f. sg. cstr. gen.	hunger	
-135935	km	k(III)	k (III)	functor	when	
-135935	km	k(I)	k (I)	prep.	like	
-135935	km	k(IV)	k (IV)	adv.	thus	
 135935	km	km	km	prep./conj./adv.		
-135935	km	+km, +km=	-km			
-135936	qṭr	qṭr/	qṭr	n. m. sg. abs. nom.	smoke	
+135936	qṭr	qṭr/	qṭr	n. m. sg. abs. gen.	smoke	
 135937	baph	?	?	?	?	DULAT: NOT FOUND
 135938	xxxxxx	?	?	?	?	
 # KTU 1.18 IV:38						
-135939	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
+135939	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. nom.	eye	
 135939	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 135939	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 135940	b	b	b	prep.	in	
@@ -603,7 +573,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 135962	w	w	w	conj.	and	
 135963	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish, to be lost	
 135963	ḫlq	ḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	
-135964	ˤpt	ˤp(I)/t=	ʕp (I)	n. f. pl. cstr. nom.	bird	
+135964	ˤpt	ˤp(I)/t	ʕp (I)	n. f. sg. cstr. nom.	bird	
 135965	mḫṣk	mḫṣ[/+k	/m-ḫ-ṣ/	vb G act. ptcpl. m. sg. cstr. gen.	to wound	
 135965	mḫṣk	mḫṣ(II)/+k	mḫṣ (II)	n. m. cstr. gen.	striking instrument	
 135966	xxxxx	?	?	?	?	

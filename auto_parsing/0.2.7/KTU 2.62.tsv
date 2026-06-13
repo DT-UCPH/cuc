@@ -9,13 +9,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.62 4						
 149676	bnšm	bnš/~m	bnš	n. m. pl. cstr. nom.	1) man	
 149677	mdym	md(I)&y/+m(I)	md (I)	n. f. cstr. gen.	cape	
-149677	mdym	mndym/	mndym	GN sg. abs. gen.	the (Ummān-)Manda	
+149677	mdym	m(ndym/	mndym	GN sg. abs. gen.	the (Ummān-)Manda	
 # KTU 2.62 5						
 149678	w	w	w	conj.	and	
 149679	b	b	b	prep.	in	
 149680	glb	glb/	glb	n. m. abs. gen.	Gerste	
 # KTU 2.62 6						
-149681	phnn	phy[n	/p-h-y/	vb G suffc.	to see, espy	
+149681	phnn	?	?	?	?	DULAT candidates (no reconstructable encoding): /p-h-y/ - to see, espy
 149682	w	w	w	conj.	and	
 # KTU 2.62 7						
 149683	mndym	mndym/	mndym	GN pl. abs. nom.	the (Ummān-)Manda	
@@ -28,8 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.62 10						
 149687	xrm	?	?	?	?	DULAT: NOT FOUND
 149688	ˤm	ˤm(I)	ʕm (I)	prep.	3) commercial meaning	
-149689	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-149689	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+149689	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 2.62 11						
 149690	yblhm	ybl(II)/+hm	ybl (II)	n. m. pl. cstr. gen.	rod	
 149691	w	w	w	conj.	and	
@@ -59,8 +58,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.62 16						
 149703	w	w	w	conj.	and	
 149704	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-149704	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-149704	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 149704	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 2.62 17						
 149705	xxx	?	?	?	?	

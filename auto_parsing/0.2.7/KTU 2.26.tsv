@@ -4,8 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147974	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say, tell, announce, communicate, inform	
 147974	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 2.26 2						
-147975	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-147975	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+147975	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.26 3						
 147976	l	l(I)	l (I)	prep.	to	
 147977	ḥyil	?	?	?	?	DULAT: NOT FOUND
@@ -15,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147980	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
 # KTU 2.26 5						
 147981	iky	iky	ỉky	interr. functor	what of?	
-147982	aškn	!(ʔ&a!škn[:d	/š-k-n/	vb D	to assign	DULAT quote in /š-k-n/ (cue: assign)
+147982	aškn	!(ʔ&a!škn[:d	/š-k-n/	vb D	to assign	
 # KTU 2.26 6						
 147983	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	2) beam	
 147984	l	l(I)	l (I)	prep.	to	
@@ -47,8 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148001	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two a) elliptical syntagms	
 148002	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 2.26 14						
-148003	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-148003	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+148003	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.26 15						
 148004	w	w	w	conj.	and	
 148005	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	1) number one a) elliptical syntagms	
@@ -66,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148011	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to recite	
 # KTU 2.26 19						
 148012	nrn	nr/+n	nr	n. m. cstr. nom.	sheen	
-148012	nrn	nr[+n	/n-r/	vb G suffc.	to shine	
+148012	nrn	nrn[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 148013	al	al(I)	ảl (I)	neg. functor	no	
 148013	al	al(II)	ảl (II)	pos. functor	surely	
 148014	tud	!t!(ʔ&ud[	/ʔ-d/	vb G prefc.	to overcharge, levy	

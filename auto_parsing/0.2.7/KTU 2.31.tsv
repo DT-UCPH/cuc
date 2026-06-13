@@ -87,8 +87,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148141	xxx	?	?	?	?	
 148142	xx	?	?	?	?	
 148143	ank	ank	ảnk	pers. pn.	1) i e) emphatic of suff. pn	
-148144	nši	!!nš(ʔ&i[/	/n-š-ʔ/	vb G inf.	to raise, lift, help up	
-148144	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl. m. sg. abs. nom.	to raise, lift, help up	
+148144	nši	!!nš(ʔ[/&i	/n-š-ʔ/	vb G inf.	to raise, lift, help up	
+148144	nši	nš(ʔ[/&i	/n-š-ʔ/	vb G act. ptcpl. m. sg. abs. nom.	to raise, lift, help up	
 148145		?	?	?	?	
 # KTU 2.31 18						
 148146	xxx	?	?	?	?	
@@ -151,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 33						
 148184	w	w	w	conj.	and	
 148185	nrm	nr/+m(I)	nr	n. m. cstr. nom.	sheen	
-148185	nrm	nr[+m(I)	/n-r/	vb G suffc.	to shine	
+148185	nrm	nrm[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.31 34						
 148186	x	?	?	?	?	
 # KTU 2.31 35						
@@ -194,8 +194,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148208	xxx	?	?	?	?	
 148209	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 148209	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-148210	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-148210	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+148210	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 148211	ank	ank	ảnk	pers. pn.	1) i c) + inf. abs	
 148212	iphn	!(ʔ&i!ph(y[+n	/p-h-y/	vb G prefc. 1 c. sg.	to see	
 # KTU 2.31 42						
@@ -235,8 +234,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148237	xxx	?	?	?	?	
 148238	xxx	?	?	?	?	
 148239	xxptm	?	?	?	?	DULAT: NOT FOUND
-148240	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
-148240	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
+148240	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
+148240	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
 148241		?	?	?	?	
 # KTU 2.31 46						
 148242	xxx	?	?	?	?	
@@ -251,7 +250,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148250	xxx	?	?	?	?	
 148251	xx	?	?	?	?	
 148252	lk	l(I)+k	l (I)	prep.	to	
-148253	yritn	yr(ʔ&i[tn	/y-r-ʔ/	vb G suffc. 2 f. pl.	to be afraid	
+148253	yritn	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-r-ʔ/ - to be afraid
 148254	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 148254	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 148255	hy	hy	hy	pers. pn.	she	
@@ -297,7 +296,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148283	l	l(III)	l (III)	functor	certainly	
 148284	ihbt	(ʔ&ihb[t	/ʔ-h-b/	vb G suffc. 1 c. sg.	to love	
 148284	ihbt	(ʔ&ihb[t:d	/ʔ-h-b/	vb D suffc. 1 c. sg.	to love	
-148284	ihbt	ahb(t/t	ảhbt	n. f. sg. abs. nom.	love	
+148284	ihbt	(a&ihb(t/t	ảhbt	n. f. sg. abs. nom.	love	
 148285	ybn	!y!bn(y[	/b-n-y/	vb G prefc. 3 m. sg.	to build	
 148285	ybn	!y!(]n]bn(y[	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
 148285	ybn	!y!bn(y[:pass	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
@@ -352,8 +351,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148326	xxx	?	?	?	?	
 148327	xx	?	?	?	?	
 148328	w	w	w	conj.	and	
-148329	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-148329	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+148329	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 148330	w	w	w	conj.	and	
 148331	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 148332	xxxṯ	?	?	?	?	DULAT: NOT FOUND
@@ -404,7 +402,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148366	xxx	?	?	?	?	
 148367	xxxx	?	?	?	?	
 148368	ṣlm	ṣlm/	ṣlm	n. m. sg. cstr. nom.	image	
-148369	pny	pn(m/+y	pnm	n. m. pl. cstr. gen.	face	
+148369	pny	pn(m&/+y	pnm	n. m. pl. cstr. gen.	face	
 148370	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
 # KTU 2.31 65						
 148371	xxx	?	?	?	?	

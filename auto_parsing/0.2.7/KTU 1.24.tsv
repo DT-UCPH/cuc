@@ -8,8 +8,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138080	ib	ib(II)/	ỉb (II)	n. m. sg. cstr. nom.	fruit	
 # KTU 1.24 2						
 138081	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. gen.	ḫrḫb	
-138082	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-138082	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+138082	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king e) part of the divine titulary (cf. Rahmouni DEAUT 4ff.)	
 138083	qẓ	qẓ/	qẓ	n. m. sg. cstr. gen.	2) summer fruit	
 138084	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. abs. gen.	ḫrḫb	
 138085	m	m	m(h)	pers. pn.	what?	
@@ -66,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138116	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
 138116	dm	dm(I)	dm (I)	functor	since	
 138117	abh	ab/+h	ảb	n. m. cstr. nom.	father	
-138118	yḥ	!y!ḥ(w(I)[	/ḥ-w/y-y/ (I)	vb G prefc. 3 m. sg.	to live	
+138118	yḥ	!y!ḥ(y(y(I)[	/ḥ-w/y-y/ (I)	vb G prefc. 3 m. sg.	to live	
 # KTU 1.24 10						
 138119	wyn	?	?	?	?	DULAT: NOT FOUND
 138120	k	+k	-k (I)			
@@ -117,13 +116,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138150	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
 # KTU 1.24 17						
 138151	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. gen.	ḫrḫb	
-138152	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-138152	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+138152	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 138153	qẓ	qẓ/	qẓ	n. m. sg. abs. gen.	summer	
 138154	tn	(ytn[	/y-t-n/	vb	give	
 138154	tn	(ytn[/	/y-t-n/	vb	give	
 138155	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
-138156	y	+y, [y	-y (I)	prep. functor	my	
 138156	y	~y	-y (II)	prep. functor	indeed	
 138156	y	y	y	prep. functor	oh!	
 # KTU 1.24 18						
@@ -161,13 +158,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138179	nim	?	?	?	?	DULAT: NOT FOUND
 138180	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
 138181	šdh	šd(I)/+h	šd (I)	n. m. cstr. nom.	2) stretch of cultivated land	
-138182	krmm	krm/	krm	n. m. pl. abs. nom.	1) vineyard e) in literary texts	
-138182	krmm	krm/	krm	n. m. sg. abs. nom.	1) vineyard e) in literary texts	
+138182	krmm	krm/m	krm	n. m. pl. abs. nom.	1) vineyard e) in literary texts	
 # KTU 1.24 23						
 138183	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
 138183	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	open field	
 138183	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
-138183	šd	šdy[	/š-d-y/	vb G impv. 2	to pour	
 138184	ddh	dd(I)/+h	dd (I)	adj. m. cstr. nom.	love	
 138185	ḥrnqm	ḥrnq/m	ḥrnq	n. m. pl. abs. nom.	orchard	
 138186	w	w	w	conj.	and	
@@ -178,8 +173,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138187	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
 138187	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
 138188	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. nom.	ḫrḫb	
-138189	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-138189	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+138189	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 138190	qẓ	qẓ/	qẓ	n. m. sg. abs. gen.	summer	
 138191	l	l(IV)	l (IV)	interj.	oh!	
 # KTU 1.24 25						
@@ -260,11 +254,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 35						
 138233	kp	kp/	kp	n. f. sg. abs. nom.	2) pan (of scales)	
 138234	mznm	mzn/m	mzn	n. m. pl. abs. nom.	weight	
-138235	iḫh	aḫ(I)/	ảḫ (I)	n. m. pl. abs. nom.	brother (by blood)	
+138235	iḫh	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - brother (by blood)
 138236	yṯˤr	!y!ṯˤr[	/ṯ-ʕ-r/	vb G prefc. 3 m. sg.	to prepare (the table)	
 # KTU 1.24 36						
 138237	mšrrm	mšrr/m	mšrr	n. m. pl. cstr. nom.	pointer (of the balance)	
-138238	aḫtth	aḫ(t(I)/t	ảḫt (I)	n. f. sg. abs. gen.	1) sister (related by blood)	
+138238	aḫtth	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫt (I) - 1) sister (related by blood)
 138239	l	l(III)	l (III)	functor	certainly	
 138240	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 37						
@@ -283,7 +277,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138249	yrḫ	yrḫ/	yrḫ	DN m. sg. abs. gen.	Yariḫu/Yarikh	
 138249	yrḫ	yrḫ/	yrḫ	n. m. sg. abs. gen.	2) DN	
 138250	w	w	w	conj.	and	
-138251	y	+y, [y	-y (I)	prep. functor	my	
 138251	y	~y	-y (II)	prep. functor	indeed	
 138251	y	y	y	prep. functor	oh!	
 # KTU 1.24 39						
@@ -302,7 +295,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138261	bnt	bn(t(II)/t	bnt (II)	n. f. sg. abs. gen.	produce	
 138261	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. gen.	masonry	
 138261	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. gen.	tamarisk	
-138262	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 138262	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 # KTU 1.24 42						
 138263	ll	ll(I)/	ll (I)	n. m. sg. cstr. nom.	night	
@@ -317,9 +309,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138270	zt	zt/	zt	n. m. sg. cstr. nom.	1) olive c) types	
 138271	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
 # KTU 1.24 44						
-138272	llay	llu/+y	llủ	n. m. cstr. gen.	suckling (lamb or kid)	
+138272	llay	ll(u&a/+y	llủ	n. m. cstr. gen.	suckling (lamb or kid)	
 138273	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
-138274	lẓpn	lṭpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
+138274	lẓpn	l(ṭ&ẓpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 138275	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.24 45						
 138276	l	l(I)	l (I)	prep.	to	
@@ -340,7 +332,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138288	ṯlḫh	ṯlḫh/	ṯlḫh	DN sg. abs. nom.	dowry	
 138289	w	w	w	conj.	and	
 138290	mlgh	?	?	?	?	DULAT: NOT FOUND
-138291	y	+y, [y	-y (I)	prep. functor	my	
 138291	y	~y	-y (II)	prep. functor	indeed	
 138291	y	y	y	prep. functor	oh!	
 # KTU 1.24 48						

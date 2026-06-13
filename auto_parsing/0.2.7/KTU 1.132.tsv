@@ -25,8 +25,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145434	ry	?	?	?	?	DULAT: NOT FOUND
 145435	b	b	b	prep.	in	
 145436	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-145437	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-145437	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+145437	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 1.132 4						
 145438	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
 145439	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
@@ -34,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 5						
 145441	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
 145441	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
-145442	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. cstr. gen.	Bien-amada	
+145442	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Bien-amada
 145443	š	š/	š	n. m. sg. cstr. gen.	1) ram b) as a sacrificial victim	
 # KTU 1.132 6						
 145444	šbrd	šbr/+d	šbr	n. m. cstr. gen.	stick	
@@ -50,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145449	ḫdlr	ḫdlr	ḫdlr	→	?	
 145450	dqtt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.132 9						
-145451	ḫnnġd	ḫnnġ/	ḫnnġ	DN sg. abs. nom.	ḫnnġ	
+145451	ḫnnġd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫnnġ - ḫnnġ
 145452	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 145453	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 145453	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
@@ -63,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145457	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 145457	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 12						
-145458	kldnd	kld(II)/	kld (II)	DN sg. abs. nom.	Health	
+145458	kldnd	?	?	?	?	DULAT candidates (no reconstructable encoding): kld (II) - Health
 145459	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 145459	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.132 13						
@@ -74,7 +73,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145462	šm	š/m	š	n. m. pl. abs. nom.	ram	
 145462	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.132 14						
-145463	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
+145463	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Bien-amada
 145464	w	w	w	conj.	and	
 145465	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.132 15						
@@ -93,11 +92,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145475	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
 145475	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
 # KTU 1.132 19						
-145476	alnd	aln(II)/	ảln (II)	DN sg. cstr. gen.	the Lady	
+145476	alnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ảln (II) - the Lady
 145477	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 145477	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 # KTU 1.132 20						
-145478	ḫbtd	ḫbt(II)/	ḫbt (II)	DN sg. cstr. gen.	Bien-amada	
+145478	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Bien-amada
 145479	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 145479	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 # KTU 1.132 21						
@@ -110,7 +109,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145485	in	in/	ỉn	n. m. sg. abs. gen.	lack of	
 145486	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.132 23						
-145487	alnd	aln(II)/	ảln (II)	DN sg. cstr. nom.	the Lady	
+145487	alnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ảln (II) - the Lady
 145488	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
 145489	šm	š/m	š	n. m. pl. cstr. gen.	1) ram b) as a sacrificial victim	
 145489	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
@@ -136,5 +135,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.132 28						
 145499	w	w	w	conj.	and	
 145500	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-145501	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-145501	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+145501	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	

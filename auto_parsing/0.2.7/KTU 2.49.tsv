@@ -1,14 +1,10 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.49 1						
 149431	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-149432	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-149432	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+149432	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.49 2						
 149433	l	l(I)	l (I)	prep.	to	
-149433	l	l(II)	l (II)	adv.	no	
-149433	l	l(III)	l (III)	functor	certainly	
-149434	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-149434	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+149434	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 149435	x	?	?	?	?	
 # KTU 2.49 3						
 149436	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -53,7 +49,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149460	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 2.49 14						
 149461	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
-149462	y	+y, [y	-y (I)	prep. functor	my	
 149462	y	~y	-y (II)	prep. functor	indeed	
 149462	y	y	y	prep. functor	oh!	
 # KTU 2.49 15						

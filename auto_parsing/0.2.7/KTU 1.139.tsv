@@ -42,8 +42,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145668	syxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.139 12						
 145669	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-145669	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-145669	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 145669	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 145670	w	w	w	conj.	and	
 145671	prs	prs/	prś/s	n. m. sg. abs. nom.	misura di capacità per aridi	
@@ -59,8 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145674	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
 145674	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 145675	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-145676	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-145676	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+145676	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.139 15						
 145677	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
 145677	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	

@@ -38,20 +38,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151408	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	1) peace b) in greeting formulae	
 151409	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.100 12						
-151410	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
-151410	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
+151410	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
+151410	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 # KTU 2.100 13						
 151411	ˤxxm	?	?	?	?	DULAT: NOT FOUND
 151412		?	?	?	?	
 # KTU 2.100 14						
-151413	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+151413	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 151414		?	?	?	?	
 # KTU 2.100 15						
 151415	umy	um/+y	ủm	n. f. cstr. gen.	1) mother c) bn ủm sons of one mother	
 151416	x	?	?	?	?	
 # KTU 2.100 16						
 151417	w	w	w	conj.	and	
-151418	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
+151418	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
 # KTU 2.100 17						
 151419	k	+k	-k (I)			
 151419	k	~k	-k (II)			
@@ -91,6 +91,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.100 29						
 151439	xxx	?	?	?	?	
 151440	w	w	w	conj.	and	
-151441	mġ	mġy[	/m-ġ-y/	vb G impv. 2	to come, arrive	
+151441	mġ	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ġ-y/ - to come, arrive
 # KTU 2.100 30						
 151442	xxxx	?	?	?	?	

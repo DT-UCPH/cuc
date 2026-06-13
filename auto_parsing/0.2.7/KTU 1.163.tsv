@@ -23,9 +23,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146109	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	1) man	
 # KTU 1.163 3						
 146110	xxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
-146111	thbẓn	hbṭ[ẓn	/h-b-ṭ/ẓ/	vb D prefc.	to knock down	
-146111	thbẓn	hbṭ[ẓn	/h-b-ṭ/ẓ/	vb D suffc.	to knock down	
-146111	thbẓn	!!hbṭ[/ẓn	/h-b-ṭ/ẓ/	vb D inf.	to knock down	
+146111	thbẓn	!t!hbẓ[n	/h-b-ṭ/ẓ/	vb D prefc.	to knock down	
+146111	thbẓn	thbẓn[	/h-b-ṭ/ẓ/	vb D suffc. 3 m. sg.	to knock down	
+146111	thbẓn	!!hbẓ[/n	/h-b-ṭ/ẓ/	vb D inf.	to knock down	
 # KTU 1.163 4						
 146112	hm	hm(II)	hm (II)	conj./interr. functor	if	DULAT quote in ksl (cue: if)
 146113	b	b	b	prep.	in	
@@ -33,15 +33,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146115	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day b) as a period in time	DULAT quote in ym (I) (cue: day)
 146116	yh	!y!(yh[	/y-h(-y)/	vb G prefc. 3 m. sg.	to wane	
 146117	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	1) moon	DULAT quote in yrḫ (cue: moon)
-146118	kslm	ksl/m	ksl	n. f. pl. abs. gen.	3) side	
-146119	mlkm	mlk(I)&m	mlk (I)		3) said particularly of “Dead Kings” (Xella UF 15 1983 299, WGE 357, Del Olmo AuOr 5 1987 60ff., cf. rpủ ) a) coll. pl. mlkm “Kings”	
+146118	kslm	ksl/m	ksl	n. f. pl. cstr. gen.	3) side	
+146119	mlkm	mlk(I)/m	mlk (I)	n. m. pl. abs. gen.	3) said particularly of “Dead Kings” (Xella UF 15 1983 299, WGE 357, Del Olmo AuOr 5 1987 60ff., cf. rpủ ) a) coll. pl. mlkm “Kings”	
 146120	tbṣrn	!t!(]n]bṣr(I)[n	/b-ṣ-r/ (I)	vb N prefc.	1) to watch each other	
 # KTU 1.163 5						
 146121	hm	hm(II)	hm (II)	conj./interr. functor	if	
 146121	hm	hm(I)	hm (I)	pers. pn.	they	
 146122	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	DULAT quote in ảḫr (cue: three)
 146123	id	id	ỉd	conj.	when	
-146124	ynphy	phy[hy	/p-h-y/	vb N prefc.	to see	
+146124	ynphy	?	?	?	?	DULAT candidates (no reconstructable encoding): /p-h-y/ - to see
 146125	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	3) month a) as a division of the lunar calendar	DULAT quote in yrḫ (cue: month)
 146126	b	b	b	prep.	in	
 146127	yrḫ	yrḫ/	yrḫ	n. m. sg. abs. gen.	3) month a) as a division of the lunar calendar	DULAT quote in yrḫ (cue: month)
@@ -56,10 +56,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146134	yql	!y!ql[	/q-l/	vb G prefc. 3 m. sg.	to fall (down)	
 146135	b	b	b	prep.	in	
 146136	ṯlṯm	ṯlṯm/	ṯlṯm	num.	1) the numeral thirty b) ge. syntagms	
-146137	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day a) as a date	
-146137	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day a) as a date	
-146137	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-146138	mlkn	mlk(I)&n	mlk (I)		1) king a) human sovereign in gen	
+146137	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
+146138	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 146139	l	l(I)	l (I)	prep.	to	
 146140	yiḫdbh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.163 8						

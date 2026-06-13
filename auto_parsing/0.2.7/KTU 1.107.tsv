@@ -12,12 +12,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143631	xxxxxx	?	?	?	?	
 143632	wxrṣ	?	?	?	?	DULAT: NOT FOUND
 143633	bdh	bd(IV)+h	bd (IV)	prep.	3) at the hands of	
-143634	ydrm	ndr[+m(I)	/n-d-r/	vb	to make a vow	
+143634	ydrm	!y!(ndr[+m(I)	/n-d-r/	vb G prefc. 3 m. sg.	to make a vow	
 143635	pit	pit/	pỉt	n. m. cstr. nom.	1) temple	
 143636	adm	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	1) man	
 # KTU 1.107 4						
 143637	xxxxxxiṯx	?	?	?	?	DULAT: NOT FOUND
-143638	yšql	ql[ql	/q-l/	vb	1) to go down	
+143638	yšql	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-l/ - 1) to go down
 143639	yṯkxxxn	?	?	?	?	DULAT: NOT FOUND
 143640	pbl	pbl/	pbl	PN sg. abs. nom.	pbl	
 143641	hn	hn	hn	functor	behold!	
@@ -63,9 +63,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143663	šr	šr(III)/	šr (III)	n. m. sg. cstr. gen.	Prince	
 143664	šrġzz	šrġzz/	šrġzz	DN sg. abs. gen.	the Devil is a munificent one	
 143665	ybky	!y!bky[	/b-k-y/	vb G prefc. 3 m. sg.	to weep	
-143666	km	k(I)	k (I)	prep.	like	DULAT quote in km (cue: like)
-143667	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	1) boy	
-143667	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	1) boy	
+143666	km	km	km	prep./conj./adv.		
+143667	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. gen.	1) boy	
 143667	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
 143667	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
 143667	nˤr	!n!(]n]ˤr[	/ʕ-r/	vb N prefc. 1 c. pl.	to become agitated	
@@ -73,12 +72,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 9						
 143668	w	w	w	conj.	and	
 143669	ydmˤ	!y!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. sg.	to shed tears	
-143670	km	k(III)	k (III)	functor	when	
-143670	km	k(I)	k (I)	prep.	like	
-143670	km	k(IV)	k (IV)	adv.	thus	
 143670	km	km	km	prep./conj./adv.		
-143670	km	+km, +km=	-km			
-143671	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
+143671	ṣ	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḫ-ṣ/ - to wound
 143672	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	mountain	
 143672	ġr	ġr(III)/	ġr (III)	n. m. sg. cstr. nom.	skin	
 143673	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
@@ -88,9 +83,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143676	tqru	!t!qr(ʔ[&u	/q-r-ʔ/	vb G prefc.	to call, shout, invite	
 # KTU 1.107 10						
 143677	xxxxx	?	?	?	?	
+143678	nplt	npl[t===	/n-p-l/	vb G suffc. 3 f. sg.	to fall	
+143678	nplt	npl[t=	/n-p-l/	vb G suffc. 2 m. sg.	to fall	
+143678	nplt	npl[t==	/n-p-l/	vb G suffc. 2 f. sg.	to fall	
 143678	nplt	npl[t	/n-p-l/	vb G suffc. 1 c. sg.	to fall	
 143679	yḥx	?	?	?	?	DULAT: NOT FOUND
 143680	mdˤ	mdˤ(I)	mdʕ (I)	interr. functor	why?	
+143681	nplt	npl[t===	/n-p-l/	vb G suffc. 3 f. sg.	to fall	
+143681	nplt	npl[t=	/n-p-l/	vb G suffc. 2 m. sg.	to fall	
+143681	nplt	npl[t==	/n-p-l/	vb G suffc. 2 f. sg.	to fall	
 143681	nplt	npl[t	/n-p-l/	vb G suffc. 1 c. sg.	to fall	
 143682	b	b	b	prep.	in	
 143683	šr	šr(II)/	šr (II)	n. m. sg. cstr. gen.	musician	
@@ -98,7 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 11						
 143684	šrġzz	šrġzz/	šrġzz	DN sg. abs. gen.	the Devil is a munificent one	
 143685	w	w	w	conj.	and	
-143686	tpky	bky[y	/b-k-y/	vb G prefc.	to weep	
+143686	tpky	?	?	?	?	DULAT candidates (no reconstructable encoding): /b-k-y/ - to weep
 143687	bm	b+m(I)	b	prep.	in	
 143688	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	boy	
 143688	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
@@ -112,19 +113,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143689	tdmˤ	!t!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. du.	to shed tears, weep, sob	
 143689	tdmˤ	!t!dmˤ[:w	/d-m-ʕ/	vb G prefc. 3 m. pl.	to shed tears, weep, sob	
 143689	tdmˤ	!t===!dmˤ[	/d-m-ʕ/	vb G prefc. 2 m. pl.	to shed tears, weep, sob	
-143690	km	k(I)	k (I)	prep.	like	DULAT quote in /d-m-ʕ/ (cue: like)
+143690	km	km	km	prep./conj./adv.		
 # KTU 1.107 12						
 143691	ṣġr	ṣġr(I)/	ṣġr (I)	adj. m. sg. abs. nom.	small	
 143692	bkm	b+km	b	prep.	in	
-143692	bkm	!!bk(y[/~m	/b-k-y/	vb G inf.	to weep	
 143692	bkm	bkm	bkm	adv.	next	
 143693	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	
 143694	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	the Devil is a munificent one	
 143695	xxxxwth	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 13						
 143696	xxxnn	?	?	?	?	DULAT: NOT FOUND
-143697	bnt	bt(I)/	bt (I)	n. f. pl. abs. nom.	5) patronymic	
-143697	bnt	bt(I)/	bt (I)	n. f. pl. cstr. nom.	5) patronymic	
+143697	bnt	b&nt(I)/	bt (I)	n. f. pl. abs. nom.	5) patronymic	
+143697	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	5) patronymic	
 143697	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 143697	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. nom.	masonry	
 143698	yšxx	?	?	?	?	DULAT: NOT FOUND
@@ -151,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143714	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
 # KTU 1.107 17						
 143715	xxxxl	?	?	?	?	DULAT: NOT FOUND
-143716	ytk	ntk[	/n-t-k/	vb G prefc.	to spill	
+143716	ytk	!y!(ntk[	/n-t-k/	vb G prefc. 3 m. sg.	to spill	
 143717	bltxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 143718	amr	amr(I)/	ảmr (I)	n. m. sg. cstr. nom.	order	
 143719	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
@@ -237,8 +237,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143772	xxx	?	?	?	?	
 143773	xxx	?	?	?	?	
 143774	xx	?	?	?	?	
-143775	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-143775	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+143775	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.107 31						
 143776	xxxxxxsr	?	?	?	?	DULAT: NOT FOUND
 143777	nxxx	?	?	?	?	DULAT: NOT FOUND
@@ -358,8 +357,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143855	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
 143856	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
 143856	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
-143857	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-143857	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+143857	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 143858	b	b	b	prep.	in	
 143859	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 143860	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
@@ -432,7 +430,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 49						
 143903	xxxxxxxxxxxxnxxxṭ	?	?	?	?	DULAT: NOT FOUND
 143904	b	b	b	prep.	in	
-143905	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	DULAT quote in ym (I) (cue: expressions)
+143905	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	DULAT quote in ym (I) (cue: when)
 143906	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to), bear	
 143906	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to), bear	
 143906	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to), bear	

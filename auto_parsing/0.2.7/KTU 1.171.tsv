@@ -2,8 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.171 1						
 146557	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 146558	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-146559	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-146559	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+146559	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.171 2						
 146560		?	?	?	?	
 146561	š	š/	š	n. m. sg. cstr. gen.	ram	
@@ -27,8 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146573	rm	rm[	/r-m/	vb G suffc. 3 m. sg.	to go up	
 146573	rm	rm(II)/	rm (II)	n. m. sg. cstr. nom.	erection	
 146574	w	w	w	conj.	and	
-146575	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-146575	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+146575	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 146576	ykbd	?	?	?	?	DULAT: NOT FOUND
 146577	x	?	?	?	?	
 # KTU 1.171 5						
@@ -41,8 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146583		?	?	?	?	
 146584	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
 146585	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. cstr. nom.	to sit down, take a seat on the throne, install oneself, reside	
-146586	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-146586	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+146586	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 146587	b	b	b	prep.	in	
 146588	urbt	urb(t/t	ủrbt	n. f. sg. abs. gen.	2) a cult installation	
 # KTU 1.171 7						

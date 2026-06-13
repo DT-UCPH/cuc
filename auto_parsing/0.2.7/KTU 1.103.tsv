@@ -31,14 +31,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142995	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable)	
 142996	b	b	b	prep.	in	
 142997	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
-142997	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-142997	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 # KTU 1.103 4						
 142998	w	w	w	conj.	and	
 142999	inxxxxxx	?	?	?	?	DULAT: NOT FOUND
 143000	ḥwtn	ḥwt/+n	ḥwt	n. f. cstr. nom.	1) country	
-143000	ḥwtn	ḥw(I)[t:d:pass+n	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143000	ḥwtn	ḥw(I)[t+n	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 143001	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	DULAT quote in ḥwt (cue: destroyed)
 # KTU 1.103 5						
 143002	wqrbh	?	?	?	?	DULAT: NOT FOUND
@@ -63,8 +59,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143016	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
 143016	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
 143017	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-143017	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-143017	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 143017	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 143018	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 143018	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
@@ -75,13 +69,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143019	w	w	w	conj.	and	
 143020	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 143021	xxxx	?	?	?	?	
-143022	mlkn	mlk(I)&n	mlk (I)		2) qualifier in the genitive functioning as an adjective a) in gen.	
+143022	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 143023	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	DULAT quote in /ʔ-ḫ-d(/ḏ)/ (cue: take)
 143024	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. nom.	1) country	
 143025	ibh	ib(I)/+h	ỉb (I)	n. m. cstr. gen.	enemy	
 143026	mrḥy	mrḥ/y	mrḥ	n. f. pl. cstr. nom.	lance	
-143027	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-143027	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+143027	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 143028	tdlln	!t!dll[n:d	/d-l-l/	vb D prefc.	to oppress, subdue, subjugate	
 # KTU 1.103 8						
 143029	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	eye	
@@ -101,15 +94,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143036	šq	šq/	šq	n. m. sg. abs. gen.	thigh	
 143037	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	1) left	
 143038	bh	b+h	b	prep.	in	
-143039	mlkn	mlk(I)&n	mlk (I)		king	
-143040	y	+y, [y	-y (I)	prep. functor	my	
+143039	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	king	
 143040	y	~y	-y (II)	prep. functor	indeed	
 143040	y	y	y	prep. functor	oh!	
 # KTU 1.103 10						
 143041	w	w	w	conj.	and	
 143042	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 143043	qṣršmal	?	?	?	?	DULAT: NOT FOUND
-143044	mlkn	mlk(I)&n	mlk (I)		king	
+143044	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	king	
 143045	xxxxḥwt	?	?	?	?	DULAT: NOT FOUND
 143046	ibh	ib(I)/+h	ỉb (I)	n. m. cstr. nom.	enemy	
 # KTU 1.103 11						
@@ -119,7 +111,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143049	širb	?	?	?	?	DULAT: NOT FOUND
 143050	pith	pit/+h	pỉt	n. m. cstr. nom.	1) temple	
 143051	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	1) left	
-143052	mlkn	mlk(I)&n	mlk (I)		king	
+143052	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	king	
 143053	xxxxḥwt	?	?	?	?	DULAT: NOT FOUND
 143054	ibh	ib(I)/+h	ỉb (I)	n. m. cstr. nom.	enemy	
 # KTU 1.103 12						
@@ -130,11 +122,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143059	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable)	
 143060	b	b	b	prep.	in	
 143061	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
-143061	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143061	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 143062	xxxṯnykn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 13						
-143063	mlkn	mlk(I)&n	mlk (I)		1) king a) human sovereign in gen	
+143063	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 143064	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: no)
 143065	ypq	!y!pq[	/p-q/	vb G prefc. 3 m. sg.	to obtain, acquire	DULAT quote in /p-q/ (cue: obtain)
 143066	špḥ	špḥ/	špḥ	n. m. abs. nom.	family	
@@ -145,8 +135,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143070	bh	b+h	b	prep.	in	
 143071	ḏrˤ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. nom.	seed	
 143072	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-143072	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143072	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 143073	hytyḥsl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 15						
 143074	w	w	w	conj.	and	
@@ -169,8 +157,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143089	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. gen.	caprine animal	
 143090	yuḫd	!y!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	DULAT quote in /ʔ-ḫ-d(/ḏ)/ (cue: seize)
 143091	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	DULAT quote in ỉb (I) (cue: enemy)
-143092	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-143092	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+143092	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 # KTU 1.103 18						
 143093	ibn	ib(I)/+n	ỉb (I)	n. m. cstr. gen.	enemy	
 143094	yḫlq	!y!ḫlq[	/ḫ-l-q/	vb D prefc. 3 m. sg.	to destroy	
@@ -213,7 +200,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 27						
 143118	w	w	w	conj.	and	
 143119	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
-143120	ḫrṣp	ḫrṣ/	ḫrṣ/ẓp	n. m. sg. abs. gen.	ankle	
+143120	ḫrṣp	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫrṣ/ẓp - ankle
 143121	b	b	b	prep.	in	
 143122	krˤ	krˤ	krʕ		knuckle	
 143123	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	
@@ -247,7 +234,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143143	tḥyt	?	?	?	?	DULAT: NOT FOUND
 143144	krtx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 33						
-143145	pnh	pn(m/+h	pnm	n. m. pl. cstr. nom.	1) face	
+143145	pnh	pn(m&/+h	pnm	n. m. pl. cstr. nom.	1) face	
 143146	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
 143147	irn	irn(I)/	ỉrn (I)	n. m. sg. abs. nom.	puppy	
 143148	uxxxxxxx	?	?	?	?	DULAT: NOT FOUND
@@ -281,8 +268,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143161	ibn	ib(I)/+n	ỉb (I)	n. m. cstr. nom.	enemy	
 143162	yšdd	!y!šdd(II)[	/š-d-d/ (II)	vb G prefc. 3 m. sg.	to devastate	
 143163	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-143163	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143163	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 # KTU 1.103 36						
 143164	hyt	hy&t	hy	pers. pn.	she	
 143165	w	w	w	conj.	and	
@@ -293,7 +278,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143169	udn	udn(I)/	ủdn (I)	n. m. sg. abs. gen.	ear	
 143170	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	1) left	
 143171	bh	b+h	b	prep.	in	
-143172	mlkn	mlk(I)&n	mlk (I)		1) king a) human sovereign in gen	
+143172	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 143173	yšdd	!y!šdd(II)[	/š-d-d/ (II)	vb G prefc. 3 m. sg.	to devastate	
 143174	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. nom.	1) country	
 143175	ibh	ib(I)/+h	ỉb (I)	n. m. cstr. gen.	enemy	
@@ -309,7 +294,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143183	w	w	w	conj.	and	
 143184	uḫr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.103 40						
-143185	y	+y, [y	-y (I)	prep. functor	my	
 143185	y	~y	-y (II)	prep. functor	indeed	
 143185	y	y	y	prep. functor	oh!	
 143186	ykly	!y!kly[:d	/k-l-y/	vb D prefc. 3 m. sg.	to finish (off), destroy, drain	DULAT quote in /k-l-y/ (cue: destroy)
@@ -326,8 +310,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 42						
 143196	hyt	hy&t	hy	pers. pn.	she	
 143197	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-143197	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143197	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 143198	hy	hy	hy	pers. pn.	she	
 143199	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 143199	št	št[	/š-t/	vb G impv. 2	to place	
@@ -335,15 +317,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143199	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 143199	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 143200	w	w	w	conj.	and	
-143201	ydu	ndʔ[	/n-d-ʔ/	vb G suffc. 3 m. sg.	to frighten away, scare off, eject	DULAT quote in /n-d-ʔ/ (cue: scare)
+143201	ydu	ydu[	/n-d-ʔ/	vb G suffc. 3 m. sg.	to frighten away, scare off, eject	
 # KTU 1.103 43						
 143202	w	w	w	conj.	and	
 143203	xxxxxx	?	?	?	?	
 143204	l	l(I)	l (I)	prep.	to	
 143205	rišh	riš(I)/+h	rỉš (I)	n. m. cstr. gen.	5) used as a prep	
 143206	ḏrˤ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. nom.	seed	
-143207	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-143207	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+143207	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 143208	hwt	hw&t	hw	pers. pn.	1) he	
 143208	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 1.103 44						
@@ -359,24 +340,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143216	špšn	špš/+n	špš	n. f. cstr. nom.	3) “sun”	
 143217	tpšlt	tpšl(t/t	tpšlt	n. f. sg. cstr. nom.	oppression	
 143218	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-143218	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143218	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 143219	hyt	hy&t	hy	pers. pn.	she	
 # KTU 1.103 46						
 143220	w	w	w	conj.	and	
 143221	xxxx	?	?	?	?	
-143222	mlkn	mlk(I)&n	mlk (I)		1) king a) human sovereign in gen	
-143223	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	1) hand c) force	
+143222	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. cstr. nom.	1) king a) human sovereign in gen	
+143223	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	1) hand c) force	
 143224	ḫrdh	ḫrd/+h	ḫrd	n. m. cstr. gen.	1) (royal) guard	
-143225	yddll	dll[ll:d	/d-l-l/	vb D prefc.	to oppress, subdue, subjugate	
+143225	yddll	?	?	?	?	DULAT candidates (no reconstructable encoding): /d-l-l/ - to oppress, subdue, subjugate
 # KTU 1.103 47						
 143226	w	w	w	conj.	and	
 143227	gdl	gdl(II)/	gdl (II)	n. m. sg. cstr. nom.	fully grown	
 143228	ušrh	ušr/+h	ủšr	n. m. sg. cstr. gen.	penis	
 143229	mrḥy	mrḥ/y	mrḥ	n. f. pl. cstr. nom.	lance	
-143230	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-143230	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-143231	tnšan	nšʔ[an	/n-š-ʔ/	vb N	to be raised, lifted up	
+143230	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+143231	tnšan	?	?	?	?	DULAT candidates (no reconstructable encoding): /n-š-ʔ/ - to be raised, lifted up
 # KTU 1.103 48						
 143232	txxxn	?	?	?	?	DULAT: NOT FOUND
 143233	b	b	b	prep.	in	
@@ -408,23 +386,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 52						
 143255	w	w	w	conj.	and	
 143256	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
-143257	pˤnt	pˤn/t=	pʕn	n. f. pl. abs. gen.	1) foot c) of animals	
+143257	pˤnt	pˤn/t	pʕn	n. f. sg. abs. gen.	1) foot c) of animals	
 143258	bh	b+h	b	prep.	in	
 143259	ḫrdn	ḫrd/+n	ḫrd	n. m. cstr. nom.	1) (royal) guard	
 143260	yhpk	!y!hpk[	/h-p-k/	vb G prefc. 3 m. sg.	to overturn, alter	
 143260	yhpk	!y!(]n]hpk[	/h-p-k/	vb N prefc. 3 m. sg.	to return	
 143261	l	l(I)	l (I)	prep.	to	
-143261	l	l(II)	l (II)	adv.	no	
-143261	l	l(III)	l (III)	functor	certainly	
-143262	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-143262	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+143262	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 1.103 53						
 143263	w	w	w	conj.	and	
 143264	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
 143265	lšnh	lšn/+h	lšn	n. f. cstr. gen.	tongue	
 143266	ḥwtn	ḥwt/+n	ḥwt	n. f. cstr. nom.	1) country	
-143266	ḥwtn	ḥw(I)[t:d:pass+n	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143266	ḥwtn	ḥw(I)[t+n	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 143267	tprš	!t!(]n]prš[	/p-r-š/	vb N prefc. 3 f. sg.	to be extended, widened, expanded	
 143267	tprš	!t=!(]n]prš[	/p-r-š/	vb N prefc. 2 m. sg.	to be extended, widened, expanded	
 143267	tprš	!t==!(]n]prš[	/p-r-š/	vb N prefc. 2 f. sg.	to be extended, widened, expanded	
@@ -437,7 +410,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143270	ḥrh	ḥr(I)/+h	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 143271	b	b	b	prep.	in	
 143272	pith	pit/+h	pỉt	n. m. cstr. gen.	1) temple	
-143273	mlkn	mlk(I)&n	mlk (I)		1) king a) human sovereign in gen	
+143273	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 143274	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well, do well, be in peace	
 143274	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to re-establish > to pay	
 143275	l	l(I)	l (I)	prep.	to	
@@ -449,8 +422,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143280	bh	b+h	b	prep.	in	
 143281	ḏrˤ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. nom.	1) seed	
 143282	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-143282	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143282	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 143283	hyt	hy&t	hy	pers. pn.	2) that	
 143284	yḥsl	!y!(]n]ḥsl[	/ḥ-s-l/	vb N prefc. 3 m. sg.	to be destroyed	
 # KTU 1.103 56						
@@ -459,14 +430,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143287	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 143288	tbˤrn	!t!bˤr(II)[:d+n	/b-ʕ-r/ (II)	vb D prefc.	to abandon	
 143289	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	country	
-143289	ḥwt	ḥw(I)[t	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-143289	ḥwt	ḥw(I)[t:d:pass	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
 143290	hyt	hy&t	hy	pers. pn.	she	
 # KTU 1.103 57						
 143291	w	w	w	conj.	and	
 143292	ˤnhb	?	?	?	?	DULAT: NOT FOUND
 143293	lṣbh	lṣb/+h	lṣb	n. m. cstr. nom.	brow	
-143294	mlkn	mlk(I)&n	mlk (I)		1) king a) human sovereign in gen	
+143294	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 143295	yˤzz	!y!ˤz[z	/ʕ-z(-z)/	vb G prefc. 3 m. sg.	to be strong, have power	
 143296	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 143297	ḫpṯh	ḫpṯ/+h	ḫpṯ	n. m. cstr. gen.	2) a “legionary” or “mercenary of some kind” recruited from the “fugitives”	
@@ -476,7 +445,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 143300	w	w	w	conj.	and	
 143301	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	DULAT quote in šr (IV) (cue: navel)
 143302	bh	b+h	b	prep.	in	
-143303	mlkn	mlk(I)&n	mlk (I)		1) king a) human sovereign in gen	
+143303	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 143304	ybˤr	!y!bˤr(I)[:d	/b-ʕ-r/ (I)	vb D prefc. 3 m. sg.	1) to ignite	
 143304	ybˤr	!y!bˤr(II)[:d	/b-ʕ-r/ (II)	vb D prefc. 3 m. sg.	to abandon	
 143305	ibh	ib(I)/+h	ỉb (I)	n. m. cstr. nom.	enemy	

@@ -17,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.104 6						
 151578	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
 151579	ymm	ym(I)/m	ym (I)	n. m. pl. abs. gen.	1) day b) as a period in time	
-151579	ymm	y(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
+151579	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
 151580	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: since)
 151581	inn	in&n/	ỉn	n. m. cstr. nom.	1) there is/are not	
 151582	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	1) grain	
@@ -38,8 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.104 9						
 151591	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 151591	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-151592	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-151592	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+151592	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 151593	w	w	w	conj.	1) copulative conj.	
 151594	ht	ht	ht	adv.	1) adv b) of time	
 151595	ṯnidm	ṯnid+m(I)	ṯnỉd	adv.	twice	
@@ -47,12 +46,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151596	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
 151596	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry, bring, take	
 151597	w	w	w	conj.	and	
-151598	yštal	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to require a cultic reply	
+151598	yštal	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-ʔ-l/ - to require a cultic reply
 # KTU 2.104 11						
 151599	xx	?	?	?	?	
 151600	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 151600	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
-151601	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	1) missive	
+151601	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	1) missive	
 151602	hn	hn	hn	functor	2) as an adv.	
 151603	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	1) oil a) oil (prob. olive oil)	
 # KTU 2.104 12						

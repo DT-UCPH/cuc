@@ -1,12 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.62 1						
-139896	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 139896	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 139897	yb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.62 2						
 139898	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-139898	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-139898	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 139898	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 139899	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request	
 139899	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request	
@@ -32,14 +29,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 139911	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.62 8						
 139912	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-139912	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-139912	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 139912	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 139913	ˤdh	ˤd(III)/+h	ʕd (III)	n. m. cstr. nom.	throne	
 # KTU 1.62 9						
 139914	srh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.62 10						
-139915	y	+y, [y	-y (I)	prep. functor	my	
 139915	y	~y	-y (II)	prep. functor	indeed	
 139915	y	y	y	prep. functor	oh!	
 139916	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
@@ -47,7 +41,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.62 11						
 139917		?	?	?	?	
 # KTU 1.62 12						
-139918	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 139918	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 # KTU 1.62 13						
 139919		?	?	?	?	
@@ -68,10 +61,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.62 21						
 139927		?	?	?	?	
 # KTU 1.62 22						
-139928	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 139928	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 # KTU 1.62 23						
 139929	hṯh	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.62 24						
-139930	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 139930	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND

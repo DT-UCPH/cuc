@@ -7,14 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148832	šixxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 4						
 148833	mxxx	?	?	?	?	DULAT: NOT FOUND
-148834	td	ndd[	/n-d-d/	vb G prefc.	to go	
-148834	td	!t!(yd(y[	/y-d-y/ (I)	vb G prefc. 3 f. sg.	to throw	
-148834	td	!t=!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 m. sg.	to throw	
-148834	td	!t==!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 f. sg.	to throw	
-148834	td	!t!(yd(y[	/y-d-y/ (I)	vb G prefc. 3 m. du.	to throw	
-148834	td	!t!(yd(y[:w	/y-d-y/ (I)	vb G prefc. 3 m. pl.	to throw	
-148834	td	!t===!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 m. pl.	to throw	
-148834	td	nd[	/n-d(-y)/	vb G prefc.	to throw	
+148834	td	!t!(nd[	/n-d(-y)/	vb G prefc.	to throw	
 # KTU 2.37 5						
 148835	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 148835	ˤl	ˤl(II)	ʕl (II)	adv.	above	
@@ -51,8 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148857	xxxxmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 12						
 148858	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-148859	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-148859	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+148859	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 2.37 13						
 148860	kš	kš/	kš	n. m. sg. abs. gen.	date	
 148861		?	?	?	?	

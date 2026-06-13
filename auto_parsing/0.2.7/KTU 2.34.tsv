@@ -1,8 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.34 1						
 148583	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-148584	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-148584	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+148584	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.34 2						
 148585	l	l(I)	l (I)	prep.	to	
 148586	ṯryl	ṯryl/	ṯryl	PN sg. cstr. gen.	ṯryl	
@@ -16,7 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148592	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
 148593	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
 # KTU 2.34 5						
-148594	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+148594	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 148595	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	1) peace b) in greeting formulae	
 148596	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /l-ʔ-k/ (cue: that)
 148597	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
@@ -37,8 +36,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.34 9						
 148609	w	w	w	conj.	and	
 148610	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-148611	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
-148611	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
+148611	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
+148611	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 148612	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.34 10						
 148613	w	w	w	conj.	and	
@@ -90,10 +89,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148643	xxxxxxxxxx	?	?	?	?	
 # KTU 2.34 26						
 148644	mxxxxxxx	?	?	?	?	DULAT: NOT FOUND
-148645	mat	mit/	mỉt	n. f. pl. abs. nom.	1) a hundred	
+148645	mat	m(i&at/	mỉt	n. f. pl. abs. nom.	1) a hundred	
 # KTU 2.34 27						
 148646	ḫxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
-148647	mat	mit/	mỉt	n. f. pl. abs. nom.	a hundred	
+148647	mat	m(i&at/	mỉt	n. f. pl. abs. nom.	a hundred	
 # KTU 2.34 28						
 148648	šxx	?	?	?	?	DULAT: NOT FOUND
 148649	išal	?	?	?	?	DULAT: NOT FOUND
@@ -105,7 +104,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148652	šdh	šd(I)/+h	šd (I)	n. m. cstr. nom.	2) stretch of cultivated land	
 # KTU 2.34 30						
 148653	adˤ	?	?	?	?	DULAT: NOT FOUND
-148654	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	1) to know	
+148654	dˤ	(ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	1) to know	
 148655	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /y-ṣ-ʔ/ (cue: when)
 # KTU 2.34 31						
 148656	šṣu	?	?	?	?	DULAT: NOT FOUND

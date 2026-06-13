@@ -22,8 +22,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142296	xxx	?	?	?	?	
 # KTU 1.97 4						
 142297	arġn	?	?	?	?	DULAT: NOT FOUND
-142298	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. nom.	donkey	
-142299	tdk	ydy(I)[/+k	/y-d-y/ (I)	vb G act. ptcpl. m. sg. cstr. gen.	to throw	
+142298	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
+142298	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
+142299	tdk	!t!(nd[+k	/n-d(-y)/	vb G prefc.	to throw	
 142300	xxxx	?	?	?	?	
 # KTU 1.97 5						
 142301	w	w	w	conj.	and	
@@ -73,15 +74,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.97 13						
 142327	w	w	w	conj.	and	
 142328	tmṯl	tmṯl/	tmṯl	n. m. sg. abs. nom.	equal amount	
-142329	ld	yld[	/y-l-d/	vb G impv. 2	to give birth (to)	
+142329	ld	(yld[	/y-l-d/	vb G impv. 2	to give birth (to)	
 142330	xxxxxxxxxx	?	?	?	?	
 # KTU 1.97 14						
 142331	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. nom.		
 142332	w	w	w	conj.	and	
 142333	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 142333	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-142334	nni	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
-142334	nni	nn(u(I)/&i	nnủ (I)	n. m. sg. abs. gen.	Ammi	
+142334	nni	nn(u&i(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
+142334	nni	nn(u&i(I)/	nnủ (I)	n. m. sg. abs. gen.	Ammi	
 142335	xxxxxxxx	?	?	?	?	
 # KTU 1.97 15						
 142336	ˤqrb	ˤqrb/	ʕqrb	n. f. sg. abs. nom.	scorpion	

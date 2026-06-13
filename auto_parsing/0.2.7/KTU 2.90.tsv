@@ -6,11 +6,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151009	l	l(I)	l (I)	prep.	to	
 151010	yrmhd	yrmhd/	yrmhd	PN sg. cstr. gen.	yrmhd	
 # KTU 2.90 3						
-151011	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. cstr. gen.	brother (by blood)	
+151011	iḫy	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - brother (by blood)
 151012	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
 151012	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 2.90 4						
-151013	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. gen.	1) missive	
+151013	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. gen.	1) missive	
 151014	hn	hn	hn	functor	2) as an adv.	
 151015	bnšk	bnš/+k	bnš	n. m. cstr. nom.	2) personnel in service	
 # KTU 2.90 5						
@@ -88,8 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151059	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.90 20						
 151060	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
-151061	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-151061	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+151061	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.90 21						
 151062	w	w	w	conj.	3) in the correlation protasis-apodosis	
 151063	ˤmkm	ˤm(I)+km	ʕm (I)	prep.	to	

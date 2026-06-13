@@ -2,8 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.168 1						
 146351	id	id	ỉd	conj.	when	
 146352	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-146353	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-146353	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+146353	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 146354	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
 # KTU 1.168 2						
 146355	ḥgb	ḥgb/	ḥgb	n. m. sg. cstr. gen.	locust	
@@ -31,9 +30,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.168 8						
 146371	id	id	ỉd	conj.	when	
 146372	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-146373	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-146373	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-146374	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. gen.	eye	
+146373	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
+146374	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. cstr. gen.	eye	
 146374	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.168 9						
 146375	slḫ	slḫ(I)/	slḫ (I)	n. m. sg. cstr. gen.	befeuchtet	

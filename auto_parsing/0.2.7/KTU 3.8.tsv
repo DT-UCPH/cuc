@@ -19,8 +19,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152204	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
 152205	b	b	b	prep.	3) relationship of cause or reason	
 152206	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-152206	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-152206	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 152206	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 3.8 7						
 152207	w	w	w	conj.	and	
@@ -38,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152215	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 152216	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.8 12						
-152217	tśˤn	nsˤ(II)[	/n-s:ś-ʕ/ (II)	vb G prefc.	1) to pay	
+152217	tśˤn	?	?	?	?	DULAT candidates (no reconstructable encoding): /n-s:ś-ʕ/ (II) - 1) to pay
 # KTU 3.8 13						
 152218	w	w	w	conj.	and	
 152219	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
@@ -46,7 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 152220	alp	alp(II)/	ảlp (II)	num.	1) (one, a) thousand e) elliptical use	DULAT quote in ảlp (II) (cue: thousand)
 # KTU 3.8 14						
 152221	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
-152222	tśˤn	nsˤ(II)[	/n-s:ś-ʕ/ (II)	vb G prefc.	to pay	
+152222	tśˤn	?	?	?	?	DULAT candidates (no reconstructable encoding): /n-s:ś-ʕ/ (II) - to pay
 # KTU 3.8 15						
 152223	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	DULAT quote in mṣrm (cue: egypt)
 # KTU 3.8 16						
@@ -66,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.8 21						
 152233	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
 152234	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr. gen.	delivery	
-152234	mnḥm	mnḫ/+m(I)	mnḫ	n. m. cstr. gen.	calm	
+152234	mnḥm	mn(ḫ&ḥ/+m(I)	mnḫ	n. m. cstr. gen.	calm	
 # KTU 3.8 22						
 152235	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 152235	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	

@@ -21,8 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141440	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 141440	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 141441	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
-141442	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-141442	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+141442	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 # KTU 1.87 4						
 141443	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 141444	b	b	b	prep.	in	
@@ -50,8 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141461	dd	dd(II)/	dd (II)	n. m. sg. cstr. gen.	cauldronful	
 141462	ilš	ilš(I)/	ỉlš (I)	DN sg. cstr. gen.	ỉlš (I)	
 141463	šilhm	šil(I)/+hm	šỉl (I)	n. m. cstr. gen.	interrogator	
-141464	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-141464	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+141464	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 141465	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 141465	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 141465	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -102,18 +100,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141494	b	b	b	prep.	in	
 # KTU 1.87 13						
 141495	urbt	urb(t/t	ủrbt	n. f. sg. abs. gen.	window	
-141496	ytk	ntk[	/n-t-k/	vb G prefc.	to spill	
+141496	ytk	!y!(ntk[	/n-t-k/	vb G prefc. 3 m. sg.	to spill	
 141497	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
 141497	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
 141498	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-141498	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
+141498	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
 141498	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 # KTU 1.87 14						
 141499	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 141499	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. nom.	shoulder	
 141500	w	w	w	conj.	and	
 141501	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-141501	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 141502	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 141502	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 141503	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
@@ -126,19 +123,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141507	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 141507	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 141508	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
-141509	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg. cstr. nom.	goddess	
+141509	ilh	il(t(I)/&h	ỉlt (I)	n. f. cstr. nom.	goddess	
 141509	ilh	ilh/	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 141510	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
 141511	w	w	w	conj.	and	
 141512	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.87 16						
 141513	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-141513	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
+141513	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
 141513	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 141514	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 141514	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 141515	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
-141515	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
+141515	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
 141515	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 141516	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 141516	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
@@ -174,9 +171,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141537	b	b	b	prep.	in	
 141538	urm	ur/+m(I)	ủr	n. m. cstr. gen.	2) type of sacrifice	
 141539	lb	lb/	lb	n. m. sg. abs. nom.	heart	
-141540	rmṣt	rmṣ/t=	rmṣ	n. f. pl. abs. nom.	embers	
+141540	rmṣt	rmṣ/t	rmṣ	n. f. sg. abs. nom.	embers	
 141541	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
-141541	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
+141541	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
 141541	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 # KTU 1.87 20						
 141542	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. abs. nom. sg.	Baʿlu/Baal	
@@ -196,8 +193,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141552	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
 141552	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 141553	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-141554	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-141554	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+141554	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.87 22						
 141555	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	2) offering	DULAT quote in dbḥ (cue: offering)
 141556	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
@@ -228,7 +224,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141577	mˤlt	mˤl(t/t	mʕlt	n. f. sg. cstr. gen.	step	
 141577	mˤlt	mˤl(t/t=	mʕlt	n. f. pl. cstr. gen.	step	
 # KTU 1.87 26						
-141578	mdbḥt	mdbḥ/t=	mdbḥ	n. f. pl. cstr. gen.	altar	
+141578	mdbḥt	mdbḥ/t	mdbḥ	n. f. sg. cstr. gen.	altar	
 141579	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 141580	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. cstr. gen.	goddess	
 141581	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
@@ -265,7 +261,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141603	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 141603	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 141604	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-141604	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
+141604	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
 141604	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 141605	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 141605	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
@@ -283,18 +279,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141611	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 141612	kmm	kmm	kmm	adv.	ditto	
 141613	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
-141614	ilh	il(t(I)/&h	ỉlt (I)	n. f. sg. cstr. nom.	goddess	
+141614	ilh	il(t(I)/&h	ỉlt (I)	n. f. cstr. nom.	goddess	
 141614	ilh	ilh/	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 141615	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 141615	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 # KTU 1.87 33						
 141616	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-141616	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
+141616	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
 141616	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 141617	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 141617	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 141618	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
-141618	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
+141618	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
 141618	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 141619	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 141619	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
@@ -302,12 +298,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141620	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. nom.	shoulder	
 # KTU 1.87 34						
 141621	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-141621	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-141621	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 141621	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 141622	w	w	w	conj.	and	
 141623	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-141623	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 141624	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 141624	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 141625	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. cstr. nom.	goddess	
@@ -352,18 +345,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141654	lri	?	?	?	?	DULAT: NOT FOUND
 141655	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 # KTU 1.87 40						
-141656	pamt	pa/m&t	pảm(t)	n. f. pl. abs. nom.	time	
+141656	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
 141657	w	w	w	conj.	and	
 141658	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 141659	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 141660	btm	bt(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 141660	btm	bt(I)/m	bt (I)	n. f. pl. abs. gen.	daughter	
 # KTU 1.87 41						
-141661	rmm	rm(I)/	rm (I)	adj. m. pl. abs. nom.	high	
+141661	rmm	rm(I)/m	rm (I)	adj. m. pl. abs. nom.	high	
 141661	rmm	rmm[:l	/r-m/	vb L impv. 2	to erect	
 141662	w	w	w	conj.	and	
 141663	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. cstr. nom.	place of sacrifice	
-141664	mdbḥt	mdbḥ/t=	mdbḥ	n. f. pl. abs. gen.	altar	
+141664	mdbḥt	mdbḥ/t	mdbḥ	n. f. sg. abs. gen.	altar	
 141665	b	b	b	prep.	in	
 141666	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.87 42						
@@ -384,8 +377,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141677	l	l(I)	l (I)	prep.	to	
 141678	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
 141679	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-141680	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
-141680	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
+141680	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
+141680	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 141681	md	md(II)/	md (II)	n. m. cstr. nom.	skilled	
 # KTU 1.87 45						
 141682	bḥ	?	?	?	?	DULAT: NOT FOUND
@@ -407,7 +400,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141694	ˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 47						
 141695	rm	rm(II)/	rm (II)	n. m. sg. cstr. nom.	erection	
-141696	pamt	pa/m&t	pảm(t)	n. f. pl. abs. gen.	time	
+141696	pamt	pam(t/t	pảm(t)	n. f. sg. abs. gen.	time	
 141697	l	l(I)	l (I)	prep.	to	
 # KTU 1.87 48						
 141698	š	š/	š	n. m. sg. cstr. gen.	ram	
@@ -416,8 +409,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141701	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 141701	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 141702	w	w	w	conj.	and	
-141703	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-141703	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+141703	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 # KTU 1.87 49						
 141704	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 141705	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -425,8 +417,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141705	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 141705	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 141705	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-141706	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word)	
-141706	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š prefc.	to make (someone) sit	
+141706	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	
 141707	b	b	b	prep.	in	
 141708	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. gen.	sixth	
 141709	ṯn	ṯn(I)/	ṯn (I)	num.	two	
@@ -443,10 +434,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141714	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 141714	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 141714	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-141715	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word)	
-141715	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š prefc.	to make (someone) sit	
-141716	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-141716	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+141715	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	
+141716	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 # KTU 1.87 51						
 141717	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 141718	b	b	b	prep.	in	
@@ -464,11 +453,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141726	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 141727	w	w	w	conj.	and	
 141728	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-141729	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-141729	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+141729	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 141730	w	w	w	conj.	and	
 141731	b	b	b	prep.	in	
-141732	y	+y, [y	-y (I)	prep. functor	my	
 141732	y	~y	-y (II)	prep. functor	indeed	
 141732	y	y	y	prep. functor	oh!	
 # KTU 1.87 53						
@@ -490,8 +477,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 55						
 141745	rt	rt/	rt	PN sg. abs. nom.	rt	
 141746	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
-141747	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-141747	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+141747	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 141748	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 # KTU 1.87 56						
 141749	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
@@ -512,7 +498,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141762	w	w	w	conj.	and	
 141763	bs	bs/	bs	PN sg. cstr. nom.	bs	
 141764	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-141765	hzpḫ	hzpy(I)/	hzpy (I)	GN sg. abs. gen.	hzpy (I)	
+141765	hzpḫ	hzp(y&ḫ(I)/	hzpy (I)	GN sg. abs. gen.	hzpy (I)	
 141766	ṯlṯṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 59						
 141767	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. cstr. nom.	Koṯaru/Kothar	

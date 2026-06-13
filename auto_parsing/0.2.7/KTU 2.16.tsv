@@ -26,8 +26,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147611	tdˤ	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 m. du.	to know	
 147611	tdˤ	!t!(ydˤ[:w	/y-d-ʕ/ (I)	vb G prefc. 3 m. pl.	to know	
 147611	tdˤ	!t===!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. pl.	to know	
-147612	ky	k(III)&y	k (III)	Subordinating or completive functor	1) when	
-147612	ky	k(II)&y	k (II)	emph. functor	yes	
+147612	ky	k(III)+y	k (III)	Subordinating or completive functor	1) when	
+147612	ky	k(II)+y	k (II)	emph. functor	yes	
 147612	ky	k(IV)+y	k (IV)	adv.	thus	
 147613	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	1) to enter	
 # KTU 2.16 8						
@@ -57,13 +57,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147625	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc. 3 m. du.	to please, make happy	
 147625	tšmḫ	!t!šmḫ[:d:w	/š-m-ḫ/	vb D prefc. 3 m. pl.	to please, make happy	
 147625	tšmḫ	!t===!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 m. pl.	to please, make happy	
-147626	mab	ab/	ảb	n. m. abs. nom.	1) father a) ảp ảb ỉ k mtm tmtn father	Based on DULAT reconstruction.
+147626	mab	&mab/	ảb	n. m. abs. nom.	1) father a) ảp ảb ỉ k mtm tmtn father	Based on DULAT reconstruction.
 147626	mab	mab	mảb	→	?	
 # KTU 2.16 12						
 147627	w	w	w	conj.	and	
 147628	al	al(I)	ảl (I)	neg. functor	no	
 147628	al	al(II)	ảl (II)	pos. functor	surely	
-147629	twḥln	!t!(y[wḥln	/y/w-ḥ-l/	vb G prefc.	to be worried	
+147629	twḥln	!t!wḥl[n	/y/w-ḥ-l/	vb G prefc.	to be worried	
 # KTU 2.16 13						
 147630	ˤtn	ˤtn(II)	ʕnt (II)	adv.	now	DULAT quote in ʕnt (II) (cue: now)
 147631	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	2) soldier of the guard	
@@ -86,6 +86,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147640	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 # KTU 2.16 19						
 147641	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
-147642	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word)	
+147642	tṯṯb	!t!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc.	to send (word)	
 # KTU 2.16 20						
 147643	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	

@@ -157,8 +157,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141218	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
 141219	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 141219	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
-141220	nni	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
-141220	nni	nn(u(I)/&i	nnủ (I)	n. m. sg. abs. gen.	Ammi	
+141220	nni	nn(u&i(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
+141220	nni	nn(u&i(I)/	nnủ (I)	n. m. sg. abs. gen.	Ammi	
 # KTU 1.85 16						
 141221	w	w	w	conj.	and	
 141222	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
@@ -260,14 +260,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141276	gd	gd(II)/	gd (II)	n. m. abs. gen.	sinew	
 141277	w	w	w	conj.	and	
 141278	tmṯl	tmṯl/	tmṯl	n. m. sg. cstr. nom.	equal amount	
-141279	ṯmrg	ṯmr/	ṯmr	n. m. abs. gen.	fennel	
+141279	ṯmrg	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯmr - fennel
 141280	xxxx	?	?	?	?	
 # KTU 1.85 26						
 141281	w	w	w	conj.	and	
 141282	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 141282	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-141283	nni	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
-141283	nni	nn(u(I)/&i	nnủ (I)	n. m. sg. abs. gen.	Ammi	
+141283	nni	nn(u&i(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
+141283	nni	nn(u&i(I)/	nnủ (I)	n. m. sg. abs. gen.	Ammi	
 141284	w	w	w	conj.	and	
 141285	pr	pr(I)/	pr (I)	n. m. sg. cstr. nom.	fruit	DULAT quote in pr (I) (cue: fruit)
 141286	ˤbk	ˤbk/	ʕbk	n. m. sg. abs. gen.	eine Binsenart	
@@ -305,7 +305,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.85 31						
 141308	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	dried fig	
 141308	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	dried fig	
-141309	yṯnt	yṯn/t=	yṯn	adj. f. pl. abs. nom.	old	
+141309	yṯnt	yṯn/t	yṯn	adj. f. sg. abs. nom.	old	
 141310	ṣmqm	ṣmq/m	ṣmq	n. m. pl. abs. nom.	raisin	
 141311	yṯnm	yṯn/m	yṯn	adj. m. pl. abs. nom.	old	
 # KTU 1.85 32						

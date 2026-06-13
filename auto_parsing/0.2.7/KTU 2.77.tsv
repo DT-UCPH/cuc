@@ -7,8 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150251	ax	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 3						
 150252	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-150253	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-150253	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+150253	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 150254	x	?	?	?	?	
 # KTU 2.77 4						
 150255	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	1) a hundred	
@@ -18,8 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150258	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 6						
 150259	w	w	w	conj.	and	
-150260	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-150260	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+150260	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 150261	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 # KTU 2.77 7						
 150262	d	d	d	det. or rel. functor	the one(s) of	
@@ -31,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150264	ly	l(I)+y	l (I)	prep.	to	
 150265		?	?	?	?	
 # KTU 2.77 8						
-150266	ḥd	ḥdy[	/ḥ-d-y/	vb G impv. 2	to see, look, observe	
+150266	ḥd	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - to see, look, observe
 150267	hlny	hlny	hlny	deictic adv. functor	behold	
 150268	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 9						
@@ -58,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150283	tˤw	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 15						
 150284	w	w	w	conj.	and	
-150285	ḥd	ḥdy[	/ḥ-d-y/	vb G impv. 2	to see	
+150285	ḥd	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - to see
 150286	ax	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 16						
 150287	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	2) adv. acc.	
@@ -68,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150290	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
 150290	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 # KTU 2.77 18						
-150291	ḥd	ḥdy[	/ḥ-d-y/	vb G impv. 2	to see	
+150291	ḥd	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - to see
 150292	mlx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 19						
 150293	prḫn	prḫn/	prḫn	PN sg. abs. nom.	flower-like	

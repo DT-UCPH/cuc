@@ -67,7 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 12						
 150833	škn	škn[:d	/š-k-n/	vb D impv. 2	to assign	
 150834	l	l(I)	l (I)	prep.	to	
-150835	šmk	šm(I)/+k	šm (I)	n. m. cstr. gen.	name	DULAT quote in /š-k-n/ (cue: name)
+150835	šmk	šm(I)/+k	šm (I)	n. m. cstr. gen.	name	
 # KTU 2.88 13						
 150836	w	w	w	conj.	4) declarative and emphatic functor	
 150837	kly	kly[	/k-l-y/	vb G suffc. 3 m. sg.	to finish	
@@ -110,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150857	w	w	w	conj.	4) declarative and emphatic functor	
 150858	šqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.88 20						
-150859	mrḥṣm	rḥṣ[/ṣm	/r-ḥ-ṣ/	vb D act. ptcpl. m. sg. abs. nom.	to clean, cleanse	
+150859	mrḥṣm	mrḥṣm[/	/r-ḥ-ṣ/	vb D act. ptcpl. m. sg. abs. nom.	to clean, cleanse	
 150860	bh	b+h	b	prep.	in	
 # KTU 2.88 21						
 150861	w	w	w	conj.	and	
@@ -162,7 +162,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150890	l	l(III)	l (III)	functor	certainly	
 150891	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	1) to enter	
 150892	bk	b+k	b	prep.	in	
-150892	bk	!!bk[/	/b-k-y/	vb G inf.	to weep	
 150892	bk	bk/	bk	n. m. sg. abs. nom.	beaker	
 150893	l	l(I)	l (I)	prep.	to	
 150893	l	l(II)	l (II)	adv.	no	
@@ -170,8 +169,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150894	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	1) to enter	
 # KTU 2.88 29						
 150895	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
-150896	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-150896	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+150896	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 150897	tlak	!t!l(ʔ&ak[	/l-ʔ-k/	vb G prefc.	to send (a message)	
 # KTU 2.88 30						
 150898	w	w	w	conj.	3) in the correlation protasis-apodosis	
@@ -186,7 +184,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 32						
 150906	l	l(I)	l (I)	prep.	to	
 150907	urtn	?	?	?	?	DULAT: NOT FOUND
-150908	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. cstr. nom.	brother (by blood)	
+150908	iḫy	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - brother (by blood)
 150909	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.88 33						
 150910	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in l (I) (cue: peace)
@@ -199,7 +197,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150913	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.88 34						
 150914	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
-150915	ky	k(II)&y	k (II)	emph. functor	yes	DULAT quote in /ḥ-š/ (I) (cue: yes)
+150915	ky	k(II)+y	k (II)	emph. functor	yes	DULAT quote in /ḥ-š/ (I) (cue: yes)
 150916	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb G impv. 2	1) to hurry	
 150916	ḥš	!!ḥš(I)[/	/ḥ-š/ (I)	vb G inf.	1) to hurry	
 150917	k	k(II)	k (II)	emph. functor	yes	DULAT quote in k (II) (cue: yes)
@@ -224,7 +222,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150931	ly	l(I)+y	l (I)	prep.	7) of belonging ((not) being of, (not) having) b) with vb functor	
 # KTU 2.88 38						
 150932	w	w	w	conj.	and	
-150933	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	to know	
+150933	dˤ	(ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	to know	
 150934	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: that)
 150935	yṣa	yṣ(ʔ&a[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
 150936	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	

@@ -7,7 +7,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138521	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
 138522	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.40 3						
-138523	y	+y, [y	-y (I)	prep. functor	my	
 138523	y	~y	-y (II)	prep. functor	indeed	
 138523	y	y	y	prep. functor	oh!	
 138524	ulp	ulp(I)	l (I)	prep.	to	Based on DULAT reconstruction.
@@ -20,8 +19,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138528	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
 # KTU 1.40 5						
 138529	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-138529	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-138529	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 138529	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 # KTU 1.40 6						
 138530	hw	hw	hw	pers. pn.	he	
@@ -59,7 +56,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138551	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. gen.	shoulder	
 138552	w	w	w	conj.	and	
 138553	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-138553	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 138554	hn	hn	hn	functor	behold!	
 138555	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.40 9						
@@ -80,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138568	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.40 11						
 138569	u	u	ủ	conj.	or	
-138570	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
+138570	tḫṭu	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḫ-ṭ-ʔ/ - to make a mistake
 138571	u	u	ủ	conj.	or	
 138572	l	l(I)	l (I)	prep.	to	
 138573	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
@@ -123,11 +119,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138606	qrzbl	qrzbl/	qrzbl	TN sg. abs. gen.	Fürstenquelle	
 # KTU 1.40 14						
 138607	u	u	ủ	conj.	or	
-138608	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
+138608	tḫṭu	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḫ-ṭ-ʔ/ - to make a mistake
 138609	b	b	b	prep.	in	
 138610	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
 138610	apkm	ap(II)/+km	ảp (II)	n. m. cstr. gen.	nose	
-138610	apkm	apq/+m(I)	ảpq	n. m. cstr. gen.	spring	
+138610	apkm	ap(q&k/+m(I)	ảpq	n. m. cstr. gen.	spring	
 138611	u	u	ủ	conj.	or	
 138612	b	b	b	prep.	in	
 138613	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
@@ -138,7 +134,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 15						
 138618	tqṭṭ	!t!qṭṭ[:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
 138619	u	u	ủ	conj.	or	
-138620	tḫṭu	!t!ḫṭ(ʔ[&u	/ḫ-ṭ-ʔ/	vb	to make a mistake	
+138620	tḫṭu	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḫ-ṭ-ʔ/ - to make a mistake
 138621	l	l(I)	l (I)	prep.	to	
 138622	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. gen.	sacrifice	
 138623	w	w	w	conj.	and	
@@ -182,7 +178,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138649	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. gen.	shoulder	
 138650	w	w	w	conj.	and	
 138651	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-138651	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 138652	hn	hn	hn	functor	1) as a deictic functor	
 138653	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
 # KTU 1.40 18						
@@ -190,7 +185,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138655	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
 138656	gr	gr(I)/	gr (I)	n. m. pl. cstr. gen.	protected	
 138656	gr	gr(I)/	gr (I)	n. m. sg. cstr. gen.	protected	
-138657	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl. cstr. gen.	wall	
+138657	ḥmyt	ḥm&yt(I)/	ḥmt (I)	n. f. pl. cstr. gen.	wall	
 138658	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 138659	w	w	w	conj.	and	
 138660	npy	npy/	npy	n. m. sg. abs. nom.	purification	
@@ -295,7 +290,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138741	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. gen.	shoulder	
 138742	w	w	w	conj.	and	
 138743	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-138743	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 138744	hn	hn	hn	functor	behold!	
 138745	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.40 26						
@@ -325,6 +319,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138767	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu	
 138768	u	u	ủ	conj.	or	
 138769	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex., to be disfigured, deformed	
+138769	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex., to be disfigured, deformed	
 138769	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex., to be disfigured, deformed	
 138770	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 138771	u	u	ủ	conj.	or	
@@ -369,6 +364,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138805	qrzbl	qrzbl/	qrzbl	TN sg. abs. gen.	Fürstenquelle	
 138806	u	u	ủ	conj.	or	
 138807	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+138807	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 138807	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 138808	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 # KTU 1.40 31						
@@ -376,7 +372,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138810	b	b	b	prep.	in	
 138811	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
 138811	apkm	ap(II)/+km	ảp (II)	n. m. cstr. gen.	nose	
-138811	apkm	apq/+m(I)	ảpq	n. m. cstr. gen.	spring	
+138811	apkm	ap(q&k/+m(I)	ảpq	n. m. cstr. gen.	spring	
 138812	u	u	ủ	conj.	or	
 138813	b	b	b	prep.	in	
 138814	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
@@ -388,6 +384,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 32						
 138820	u	u	ủ	conj.	or	
 138821	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+138821	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 138821	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 138822	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 138823	l	l(I)	l (I)	prep.	to	
@@ -428,7 +425,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138850	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. gen.	shoulder	
 138851	w	w	w	conj.	and	
 138852	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-138852	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 138853	hn	hn	hn	functor	behold!	
 138854	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
 138854	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
@@ -442,7 +438,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138859	mšr	mšr(II)/	mšr (II)	n. sg. cstr. gen.	song	
 138860	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. gen.	justice	
 138860	mšr	mšr(II)/	mšr (II)	n. sg. cstr. gen.	song	
-138861	bnt	bt(I)/	bt (I)	n. f. pl. cstr. gen.	4) member of a group (+ TN)	
+138861	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. gen.	4) member of a group (+ TN)	
 138861	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. gen.	produce	
 138861	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. gen.	masonry	
 138862	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -451,20 +447,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138865	gr	gr(I)/	gr (I)	n. m. pl. cstr. gen.	protected	
 138865	gr	gr(I)/	gr (I)	n. m. sg. cstr. gen.	protected	
 # KTU 1.40 36						
-138866	ḥmyt	ḥmt(I)/	ḥmt (I)	n. f. pl. cstr. gen.	wall	
+138866	ḥmyt	ḥm&yt(I)/	ḥmt (I)	n. f. pl. cstr. gen.	wall	
 138867	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 138868	wnpy	?	?	?	?	DULAT: NOT FOUND
 138869	ax	?	?	?	?	DULAT: NOT FOUND
 138870	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 138871	u	u	ủ	conj.	or	
 138872	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+138872	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 138872	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 138873	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 138874	u	u	ủ	conj.	or	
 138875	l	l(I)	l (I)	prep.	to	
 138876	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
 138877	qty	qt/+y	qt	n. m. cstr. gen.	handle	
-138877	qty	ṯigt/+y	ṯỉgt	n. f. cstr. gen.	neighing	
 # KTU 1.40 37						
 138878	u	u	ủ	conj.	or	
 138879	l	l(I)	l (I)	prep.	to	
@@ -506,7 +502,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138911	b	b	b	prep.	in	
 138912	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
 138912	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. gen.	nose	
-138912	apkn	apq/+n	ảpq	n. m. cstr. gen.	spring	
+138912	apkn	ap(q&k/+n	ảpq	n. m. cstr. gen.	spring	
 138913	u	u	ủ	conj.	or	
 138914	b	b	b	prep.	in	
 138915	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
@@ -519,6 +515,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138920	tqṭṭn	!t!qṭṭ[n:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
 138921	u	u	ủ	conj.	or	
 138922	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+138922	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 138922	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 138923	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 138924	l	l(I)	l (I)	prep.	to	
@@ -565,7 +562,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138952	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. gen.	shoulder	
 138953	w	w	w	conj.	and	
 138954	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-138954	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 138955	hn	hn	hn	functor	behold!	
 138956	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
 138956	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	

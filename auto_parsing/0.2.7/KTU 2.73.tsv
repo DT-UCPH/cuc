@@ -38,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150142	x	?	?	?	?	
 # KTU 2.73 7						
 150143	w	w	w	conj.	and	
-150144	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+150144	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 150145	qnim	qn(u&i/m	qnủ	n. m. pl. abs. gen.	(gem of (?)) lapis lazuli	
 150146	k	+k	-k (I)			
 150146	k	~k	-k (II)			
@@ -48,8 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150147	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 150148	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 150148	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-150149	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-150149	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+150149	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 150150	l	l(I)	l (I)	prep.	to	
 # KTU 2.73 8						
 150151	hlny	hlny	hlny	deictic adv. functor	behold	
@@ -75,8 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150163	ššmḫt	]š]šmḫ[t	/š-m-ḫ/	vb Š suffc. 1 c. sg.	to be glad	
 150164	w	w	w	conj.	and	
 150165	ht	ht	ht	adv.	2) conj.	
-150166	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-150166	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+150166	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 150167	xxxxxxxxt	?	?	?	?	DULAT: NOT FOUND
 150168		?	?	?	?	
 # KTU 2.73 11						
@@ -86,7 +84,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.73 12						
 150172	w	w	w	conj.	and	
 150173	at	at(I)	ảt (I)	pers. pn.	1) you c) with ellipsis of the vb	
-150174	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+150174	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 150175	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say, tell, announce, communicate, inform	
 150175	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.73 13						
@@ -126,7 +124,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150199		?	?	?	?	
 # KTU 2.73 19						
 150200	at	at(I)	ảt (I)	pers. pn.	1) you d) emphatic of suff. pn	
-150201	mġ	mġy[	/m-ġ-y/	vb G impv. 2	to come, arrive	
+150201	mġ	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ġ-y/ - to come, arrive
 150202	nškḥ	?	?	?	?	DULAT: NOT FOUND
 150203		?	?	?	?	
 # KTU 2.73 20						

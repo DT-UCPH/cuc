@@ -4,11 +4,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149335	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
 149335	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
 149336	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
-149337	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-149337	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+149337	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 # KTU 2.47 I:2						
 149338	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. gen.	lord	
-149339	nġr	nġr[	/n-ġ-r/	vb G impv. 2	to protect, guard	
+149339	nġr	!n!(nġr[	/n-ġ-r/	vb G impv. 1 c. pl.	to protect, guard	
 149339	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect, guard	
 149340	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. nom.	1) country	
 # KTU 2.47 I:3						
@@ -36,11 +35,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149356	w	w	w	conj.	and	
 149357	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl. abs. nom.	dust	
 149358	arbˤ	arbˤ/	ảrbʕ	num.	four	
-149359	mat	mit/	mỉt	n. f. pl. abs. nom.	a hundred	
+149359	mat	m(i&at/	mỉt	n. f. pl. abs. nom.	a hundred	
 # KTU 2.47 I:8						
 149360	w	w	w	conj.	and	
-149361	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-149361	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+149361	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 149362	ḥxx	?	?	?	?	DULAT: NOT FOUND
 149363	dxxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 I:9						
@@ -60,11 +58,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149372		?	?	?	?	
 # KTU 2.47 II:1						
 149373	w	w	w	conj.	and	
-149374	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-149374	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+149374	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 149375	d	d	d	det. or rel. functor	the one(s) of	
-149376	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-149376	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+149376	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.47 II:2						
 149377	b	b	b	prep.	in	
 149378	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
@@ -76,8 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149381	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
 149381	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
 149382	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
-149383	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-149383	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+149383	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.47 II:4						
 149384	d	d	d	det. or rel. functor	the one(s) of	
 149385	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
@@ -108,7 +103,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149399	xxr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:9						
 149400	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
-149400	ymm	y(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
+149400	ymm	ym(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
 149401	w	w	w	conj.	and	
 149402	xxp	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:10						

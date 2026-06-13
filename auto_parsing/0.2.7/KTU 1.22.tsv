@@ -3,7 +3,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137280	šmrn	?	?	?	?	DULAT: NOT FOUND
 137281	xx	?	?	?	?	
 # KTU 1.22 I:2						
-137282	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
 137282	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
 137283	hn	hn	hn	functor	behold!	
 137284	bnk	bn(I)/+k	bn (I)	n. m. cstr. nom.	son	
@@ -66,29 +65,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:9						
 137321	w	w	w	conj.	and	
 137322	mhr	mhr(I)/	mhr (I)	n. m. sg. cstr. nom.	warrior (trained, expert)	
-137323	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. gen.	eye	
+137323	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. gen.	eye	
 137323	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 137324	ṯm	ṯm	ṯm	adv.	there	
 137325	yḥpn	yḥpn/	yḥpn	DN sg. cstr. nom.	rustled	
 137326	ḥyl	ḥyl/	ḥyl	PN sg. abs. gen.	ḥyl	
 # KTU 1.22 I:10						
-137327	y	+y, [y	-y (I)	prep. functor	my	
 137327	y	~y	-y (II)	prep. functor	indeed	
 137327	y	y	y	prep. functor	oh!	
 137328	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	DULAT direct ref
 137328	zbl	zbl(I)/	zbl (I)	n. m. sg. abs. nom.	prince	DULAT direct ref
-137329	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-137329	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+137329	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	3) said particularly of “Dead Kings” (Xella UF 15 1983 299, WGE 357, Del Olmo AuOr 5 1987 60ff., cf. rpủ ) a) coll. pl. mlkm “Kings”	
 137330	ˤllmy	ˤllmy/	ʕllmy/n	adj. m. sg. abs. nom.	1) eternal a) adjective	
-137331	km	km	km	prep./conj./adv.		DULAT direct ref
-137332	tdd	ndd[	/n-d-d/	vb G prefc.	to go, move	
+137331	km	km	km	prep./conj./adv.		
+137332	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go, move	
 # KTU 1.22 I:11						
-137333	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
+137333	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. nom.	eye	
 137333	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 137333	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 137334	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	DULAT direct ref
-137335	tštr	tr[tr	/t-r/	vb Gt prefc.	to scour	
-137336	ˤpt	ˤp(I)/t=	ʕp (I)	n. f. pl. cstr. nom.	bird	
+137335	tštr	?	?	?	?	DULAT candidates (no reconstructable encoding): /t-r/ - to scour
+137336	ˤpt	ˤp(I)/t	ʕp (I)	n. f. sg. cstr. nom.	bird	
 137337	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	1) heavens	
 # KTU 1.22 I:12						
 137338	ṭbḫ	ṭbḫ[	/ṭ-b-ḫ/	vb G suffc. 3 m. sg.	to sacrifice, butcher, slaughter	
@@ -100,8 +97,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137343	ṯrm	ṯr(I)/m	ṯr (I)	n. m. pl. abs. gen.	bull	
 # KTU 1.22 I:13						
 137344	w	w	w	conj.	and	
-137345	mri	mr(u(I)/&i	mrủ (I)	adj. f. pl. cstr. nom.	2) fatling	DULAT direct ref
-137345	mri	mr(u(I)/&i	mrủ (I)	adj. f. sg. abs. nom.	2) fatling	DULAT direct ref
+137345	mri	mr(u&i(I)/	mrủ (I)	adj. f. pl. cstr. nom.	2) fatling	DULAT direct ref
+137345	mri	mr(u&i(I)/	mrủ (I)	adj. f. sg. abs. nom.	2) fatling	DULAT direct ref
 137346	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 137347	ˤglm	ˤgl(I)/+m(I)	ʕgl (I)	n. m. cstr. gen.	calf	
 137348	dt	d+t	d	det. or rel. functor	1) the one(s) of a) det. of quality	
@@ -127,9 +124,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137364	b	b	b	prep.	in	
 137365	qˤl	qˤl(II)/	qʕl (II)	n. m. sg. abs. gen.	vine blossom	DULAT direct ref
 137366	b	b	b	prep.	in	
-137367	qˤl	qˤl(II)/	qʕl (II)	n. m. sg. abs. gen.	vine blossom	DULAT direct ref
+137367	qˤl	qˤl(II)/	qʕl (II)	n. m. sg. cstr. gen.	vine blossom	DULAT direct ref
 # KTU 1.22 I:17						
-137368	mlkm	mlk(I)&m	mlk (I)		2) qualifier in the genitive functioning as an adjective b) denoting superior quality (“of the king” > “royal” (Eng. “king-size”), cf. Akk. LUGAL, Veenhof AOATT 203ff.)	
+137368	mlkm	mlk(I)/m	mlk (I)	n. m. pl. abs. gen.	2) qualifier in the genitive functioning as an adjective b) denoting superior quality (“of the king” > “royal” (Eng. “king-size”), cf. Akk. LUGAL, Veenhof AOATT 203ff.)	
 137369	hn	hn	hn	functor	1) as a deictic functor	
 137370	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day a) as a date	DULAT direct ref
 137370	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day a) as a date	DULAT direct ref
@@ -152,7 +149,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:20						
 137384	lbnn	lb/+nn	lb	n. m. cstr. gen.	heart	
 137384	lbnn	lbnn(I)/	lbnn (I)	TN sg. cstr. gen.	Lebanon	
-137385	ṭṣ	ṭl/	ṭl	n. m. cstr. gen.	dew	
+137385	ṭṣ	ṭ(l&ṣ/	ṭl	n. m. cstr. gen.	dew	
 137386	mrṯ	mrṯ(I)/	mrṯ (I)	n. m. sg. abs. gen.	must	
 137387	yḥrṯ	!y!ḥrṯ[	/ḥ-r-ṯ/	vb G prefc. 3 m. sg.	to plough, till, farm the land	
 137388	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	DULAT direct ref
@@ -169,8 +166,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137392	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 137392	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 137393	tlḥm	!t!lḥm[:w	/l-ḥ-m/ (I)	vb G prefc. 3 m. pl.	to eat	
-137394	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	1) healer	DULAT direct ref
-137394	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	1) healer	DULAT direct ref
+137394	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	1) healer	DULAT direct ref
+137394	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	1) healer	DULAT direct ref
 # KTU 1.22 I:22						
 137395	tštyn	!t!šty[n	/š-t-y/	vb G prefc.	to drink	
 137396	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
@@ -207,7 +204,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:26						
 137417	b	b	b	prep.	in	
 137418	ymm	ym(I)/m	ym (I)	n. m. pl. abs. gen.	day	
-137418	ymm	y(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
+137418	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
 137419	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
 137419	apnk	apnk	ảpnk	adv. functor of illation	then	
 137420	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
@@ -236,11 +233,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137434		?	?	?	?	
 137435	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
 # KTU 1.22 II:4						
-137436	km	k(III)	k (III)	functor	when	
-137436	km	k(I)	k (I)	prep.	like	
-137436	km	k(IV)	k (IV)	adv.	thus	
 137436	km	km	km	prep./conj./adv.		
-137436	km	+km, +km=	-km			
 137437	iqrakm	!(ʔ&i!qr(ʔ[&akm	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call, shout, invite	
 137438	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 137439	b	b	b	prep.	in	
@@ -248,39 +241,35 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137441	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
 # KTU 1.22 II:5						
 137442	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-137443	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-137443	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+137443	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
+137443	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 137444	l	l(I)	l (I)	prep.	to	
 137444	l	l(II)	l (II)	adv.	no	
 137444	l	l(III)	l (III)	functor	certainly	
-137445	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137445	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137446	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 # KTU 1.22 II:6						
 137447	l	l(I)	l (I)	prep.	to	
 137447	l	l(II)	l (II)	adv.	no	
 137447	l	l(III)	l (III)	functor	certainly	
-137448	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137448	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137449	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.22 II:7						
 137450	mhr	mhr(I)/	mhr (I)	n. m. sg. abs. nom.	warrior (trained, expert)	
 137451	bˤlmhr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.22 II:8						
-137452	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
+137452	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. nom.	eye	
 137452	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 137452	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 137453	lk	l(I)+k	l (I)	prep.	to	
 137454	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	DULAT quote in /h-l-k/ (cue: house)
-137455	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-137455	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+137455	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
+137455	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 137456	b	b	b	prep.	in	
 137457	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	DULAT quote in /h-l-k/ (cue: house)
 # KTU 1.22 II:9						
 137458	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
-137459	km	k(III)	k (III)	functor	when	
-137459	km	k(I)	k (I)	prep.	like	
-137459	km	k(IV)	k (IV)	adv.	thus	
 137459	km	km	km	prep./conj./adv.		
-137459	km	+km, +km=	-km			
 137460	iqrakm	!(ʔ&i!qr(ʔ[&akm	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	
 137461	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 137462	b	b	b	prep.	in	
@@ -288,23 +277,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 II:10						
 137464	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
 137465	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-137466	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-137466	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+137466	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
+137466	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 137467	l	l(I)	l (I)	prep.	to	
 137467	l	l(II)	l (II)	adv.	no	
 137467	l	l(III)	l (III)	functor	certainly	
-137468	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137468	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 # KTU 1.22 II:11						
 137469	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 137470	l	l(I)	l (I)	prep.	to	
 137470	l	l(II)	l (II)	adv.	no	
 137470	l	l(III)	l (III)	functor	certainly	
-137471	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137471	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137472	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 137473		?	?	?	?	
 # KTU 1.22 II:12						
 137474	yḥpn	yḥpn/	yḥpn	DN sg. abs. nom.	rustled	
-137475	ḥyly	ḫyly/	ḫyly	adj. m. sg. abs. nom.	fighter	
+137475	ḥyly	(ḫ&ḥyly/	ḫyly	adj. m. sg. abs. nom.	fighter	
 137476		?	?	?	?	
 # KTU 1.22 II:13						
 137477	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear, listen (to), notice	DULAT direct ref
@@ -321,7 +310,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137483	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 137484	prsġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.22 II:16						
-137485	ydr	ndr[	/n-d-r/	vb G prefc.	to make a vow, promise	
+137485	ydr	!y!(ndr[	/n-d-r/	vb G prefc. 3 m. sg.	to make a vow, promise	
 137486	hm	hm(II)	hm (II)	conj./interr. functor	if	
 137486	hm	hm(I)	hm (I)	pers. pn.	they	
 137487	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
@@ -346,18 +335,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137499	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
 137500	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
 137501	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-137502	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-137502	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+137502	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
+137502	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 137503	l	l(I)	l (I)	prep.	to	
 137503	l	l(II)	l (II)	adv.	no	
 137503	l	l(III)	l (III)	functor	certainly	
 # KTU 1.22 II:21						
-137504	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137504	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137505	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 137506	l	l(I)	l (I)	prep.	to	
 137506	l	l(II)	l (II)	adv.	no	
 137506	l	l(III)	l (III)	functor	certainly	
-137507	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137507	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137508	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.22 II:22						
 137509	asr	(ʔ&asr[	/ʔ-s-r/	vb G suffc. 3 m. sg.	to tie	DULAT direct ref
@@ -366,7 +355,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137511	tˤln	!t!ˤl(y[n	/ʕ-l-y/	vb G prefc.	to go up	
 137512	l	l(I)	l (I)	prep.	to	
 137513	mrkbthm	mrkb(t/t+hm	mrkbt	n. f. sg. cstr. gen.	(light war-)chariot	
-137514	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come	
+137514	tity	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-t-w/ - to come
 137515	l	l(I)	l (I)	prep.	to	
 # KTU 1.22 II:24						
 137516	ˤrhm	ˤr(I)/+hm	ʕr (I)	n. f. cstr. gen.	city	
@@ -385,10 +374,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137524	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	DULAT direct ref
 137525	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 137525	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
-137526	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-137526	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+137526	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
+137526	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 137527	l	l(I)	l (I)	prep.	to	
-137528	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. gen.	threshing-floor	
+137528	grnt	grn(I)/t	grn (I)	n. f. sg. abs. gen.	threshing-floor	
 # KTU 1.22 II:26						
 137529	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 137530	l	l(I)	l (I)	prep.	to	

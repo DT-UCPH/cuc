@@ -1,15 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.20 I:1						
-137133	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-137133	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+137133	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
+137133	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 137134	tdbḥn	!t!dbḥ[+n	/d-b-ḥ/	vb G prefc.	to sacrifice	
 # KTU 1.20 I:2						
 137135	bˤd	bˤd	bʕd	adv. or prep.	behind	
 137136	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.20 I:3						
 137137		?	?	?	?	
-137138	km	km	km	prep./conj./adv.		DULAT direct ref
-137139	tmtm	tm&t/+m(I)	tm	adj. m. cstr. nom.	complete	
+137138	km	km	km	prep./conj./adv.		
+137139	tmtm	tm/t+m(I)	tm	adj. f. sg. cstr. nom.	complete	
 # KTU 1.20 I:4						
 137140	b	b	b	prep.	in	
 137141	k	+k	-k (I)			
@@ -21,8 +21,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137143	sd	sd/	sd	n. m. sg. abs. gen.	council	
 # KTU 1.20 I:5						
 137144	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-137144	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-137144	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
 137144	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 137145	b	b	b	prep.	in	
 137146	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day a) as a date	DULAT direct ref
@@ -63,8 +61,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137165	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
 137166	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
 137167	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-137168	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-137168	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+137168	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
+137168	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 # KTU 1.20 II:2						
 137169	ndd	ndd[	/n-d-d/	vb G suffc. 3 m. sg.	to go, move	
 137169	ndd	!!ndd[/	/n-d-d/	vb G inf.	to go, move	
@@ -89,7 +87,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137179	tˤln	!t!ˤl(y[n	/ʕ-l-y/	vb G prefc.	to go up, rise	
 137180	l	l(I)	l (I)	prep.	to	DULAT direct ref
 137181	mrkbthm	mrkb(t/t+hm	mrkbt	n. f. sg. cstr. gen.	1) (light war) chariot d) ảsr mrkbt they yoked the chariots	
-137182	tity	ʔtw[y	/ʔ-t-w/	vb G prefc.	to come, go	
+137182	tity	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-t-w/ - to come, go
 # KTU 1.20 II:5						
 137183	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
 137184	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
@@ -108,10 +106,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.20 II:6						
 137191	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
 137191	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
-137192	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	1) healer	DULAT direct ref
-137192	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	1) healer	DULAT direct ref
+137192	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	1) healer	DULAT direct ref
+137192	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	1) healer	DULAT direct ref
 137193	l	l(I)	l (I)	prep.	to	
-137194	grnt	grn(I)/t=	grn (I)	n. f. pl. cstr. gen.	1) threshing-floor b) place for social activities	
+137194	grnt	grn(I)/t	grn (I)	n. f. sg. cstr. gen.	1) threshing-floor b) place for social activities	
 137195	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 137196	l	l(I)	l (I)	prep.	to	
 # KTU 1.20 II:7						
@@ -127,7 +125,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137201	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
 137201	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
 137201	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-137202	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
+137202	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
 # KTU 1.20 II:8						
 137203	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	DULAT direct ref
 137203	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	DULAT direct ref
@@ -139,7 +137,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137206	hrnmy	hrnmy/	hrnmy	GN sg. abs. gen.	native of the TN *hrnm	
 # KTU 1.20 II:9						
 137207	b	b	b	prep.	in	
-137208	grnt	grn(I)/t=	grn (I)	n. f. pl. cstr. gen.	1) threshing-floor b) place for social activities	
+137208	grnt	grn(I)/t	grn (I)	n. f. sg. cstr. gen.	1) threshing-floor b) place for social activities	
 137209	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	1) god b) activities of the gods	
 137210	b	b	b	prep.	in	
 137211	qrb	qrb/	qrb	n. m. sg. cstr. gen.	1) inside	DULAT direct ref
@@ -147,7 +145,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137213	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.20 II:10						
 137214	d	d	d	det. or rel. functor	2) which	
-137215	tit	ʔtw[	/ʔ-t-w/	vb G prefc.	to come, go	
+137215	tit	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-t-w/ - to come, go
 137216	yspi	!y!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 3 m. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
 137217	spu	!!sp(ʔ&u[/	/s-p-ʔ/	vb G inf.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
 137217	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	

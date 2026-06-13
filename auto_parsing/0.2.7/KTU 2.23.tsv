@@ -9,8 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147825	rgm	rgm/	rgm	n. m. sg. cstr. nom.	1) word	DULAT quote in rgm (cue: word)
 147826	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	DULAT quote in špš (cue: sun)
 # KTU 2.23 2						
-147827	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-147827	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+147827	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 147828	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 147828	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 147829	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
@@ -42,8 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 7						
 147846	mlakt	mlak(t/t	mlảkt	n. f. sg. cstr. nom.	message	
 147847	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	DULAT quote in špš (cue: sun)
-147848	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-147848	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+147848	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 147849	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 147849	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 # KTU 2.23 8						
@@ -58,8 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147853	šxx	?	?	?	?	DULAT: NOT FOUND
 147854	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
 147854	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
-147855	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-147855	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+147855	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 2.23 10						
 147856	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 147856	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
@@ -71,8 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 13						
 147860	b	b	b	prep.	in	
 147861	xšpš	?	?	?	?	DULAT: NOT FOUND
-147862	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-147862	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+147862	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 # KTU 2.23 14						
 147863	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 147863	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
@@ -88,8 +84,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147871	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 147871	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
 # KTU 2.23 17						
-147872	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-147872	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+147872	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 147873	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 147873	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
 147874	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
@@ -124,12 +119,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147895	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	DULAT quote in ỉl (I) (cue: gods)
 147896	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	DULAT quote in mṣrm (cue: egypt)
 147897	dt	d+t	d	det. or rel. functor	2) which	
-147898	tġrn	nġr[n	/n-ġ-r/	vb G prefc.	to protect, guard	
+147898	tġrn	!t!(nġr[+n	/n-ġ-r/	vb G prefc.	to protect, guard	
 # KTU 2.23 23						
 147899	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	4) soul	
 147900	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in npš (I) (cue: sun)
-147901	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-147901	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+147901	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 2.23 24						
 147902	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
 147902	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
@@ -156,8 +150,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147912	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 147913	xnpšn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 33						
-147914	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-147914	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+147914	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.23 34						
 147915	yšlmxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 35						

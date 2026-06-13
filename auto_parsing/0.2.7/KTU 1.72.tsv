@@ -147,8 +147,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.72 22						
 140303	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 140303	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
-140304	nni	nnu(II)/	nnủ (II)	TN sg. cstr. gen.	nnủ (II)	
-140304	nni	nn(u(I)/&i	nnủ (I)	n. m. sg. cstr. gen.	Ammi	
+140304	nni	nn(u&i(II)/	nnủ (II)	TN sg. cstr. gen.	nnủ (II)	
+140304	nni	nn(u&i(I)/	nnủ (I)	n. m. sg. cstr. gen.	Ammi	
 140305	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
 140305	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
 140306	mkšr	mkšr/	mkšr	n. m. sg. cstr. gen.	semolina	
@@ -243,7 +243,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 140357	mid	mid/	mỉ/ủd	n. m. sg. cstr. nom.	abundance	
 140358	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	dried fig	
 140358	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	dried fig	
-140359	yṯnt	yṯn/t=	yṯn	adj. f. pl. abs. nom.	old	
+140359	yṯnt	yṯn/t	yṯn	adj. f. sg. abs. nom.	old	
 140360	w	w	w	conj.	and	
 # KTU 1.72 38						
 140361	ṣmqm	ṣmq/m	ṣmq	n. m. pl. abs. nom.	raisin	

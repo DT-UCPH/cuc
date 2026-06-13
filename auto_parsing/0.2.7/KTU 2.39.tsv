@@ -38,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148955	w	w	w	conj.	and	
 148956	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. nom.	lord	
 148957	uk	uk	ủk	positive emph. functor	yes	
-148958	nġr	nġr[	/n-ġ-r/	vb G impv. 2	to protect, guard	
+148958	nġr	!n!(nġr[	/n-ġ-r/	vb G impv. 1 c. pl.	to protect, guard	
 148958	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect, guard	
 # KTU 2.39 9						
 148959	w	w	w	conj.	and	
@@ -95,10 +95,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148992	tlk	!t!(hlk[	/h-l-k/	vb G prefc.	to go, go away	
 # KTU 2.39 17						
 148993	w	w	w	conj.	and	
-148994	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+148994	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 148995	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	1) grain	
-148996	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
-148996	ky	k(II)&y	k (II)	emph. functor	yes	
+148996	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
+148996	ky	k(II)+y	k (II)	emph. functor	yes	
 148996	ky	k(IV)+y	k (IV)	adv.	thus	
 # KTU 2.39 18						
 148997	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
@@ -106,8 +106,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148999	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in /l-ʔ-k/ (cue: sun)
 # KTU 2.39 19						
 149000	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. cstr. gen.	lord	
-149001	ky	k(III)&y	k (III)	Subordinating or completive functor	1) when	
-149001	ky	k(II)&y	k (II)	emph. functor	yes	
+149001	ky	k(III)+y	k (III)	Subordinating or completive functor	1) when	
+149001	ky	k(II)+y	k (II)	emph. functor	yes	
 149001	ky	k(IV)+y	k (IV)	adv.	thus	
 149002	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	1) grain	
 # KTU 2.39 20						

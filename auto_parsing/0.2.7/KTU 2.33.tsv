@@ -21,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.33 5						
 148445	xxx	?	?	?	?	
 148446	xx	?	?	?	?	
-148447	mlkn	mlk(I)&n	mlk (I)		king	
+148447	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	king	
 148448	amṣ	amṣ/	ảmṣ	adj. m. sg. abs. nom.	strength	
 # KTU 2.33 6						
 148449	xxx	?	?	?	?	
@@ -35,19 +35,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148455	xxxx	?	?	?	?	
 148456	tsˤ	?	?	?	?	DULAT: NOT FOUND
 148457	hn	hn	hn	functor	behold!	
-148458	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-148458	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+148458	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	3) said particularly of “Dead Kings” (Xella UF 15 1983 299, WGE 357, Del Olmo AuOr 5 1987 60ff., cf. rpủ ) a) coll. pl. mlkm “Kings”	
 # KTU 2.33 9						
 148459	xxx	?	?	?	?	
 148460	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
 148460	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
 148461	hn	hn	hn	functor	1) as a deictic functor	
 148462	l	l(I)	l (I)	prep.	to	
-148462	l	l(II)	l (II)	adv.	no	
-148462	l	l(III)	l (III)	functor	certainly	
-148463	ḥwth	ḥwt/+h	ḥwt	n. f. cstr. nom.	1) country	
-148463	ḥwth	ḥw(I)[t:d:pass+h	/ḥ-w/y-y/ (I)	vb D suffc. 1 c. sg.	to give (back) life / revive	
-148463	ḥwth	ḥw(I)[t+h	/ḥ-w/y-y/ (I)	vb Dpass suffc. 1 c. sg.	to give (back) life / revive	
+148463	ḥwth	ḥwt/+h	ḥwt	n. f. cstr. gen.	1) country	
 # KTU 2.33 10						
 148464	xxx	?	?	?	?	
 148465	p	p(I)	p (I)	conj. functor	and	
@@ -70,11 +65,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148477	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
 # KTU 2.33 12						
 148478	ašt	!(ʔ&a!št[	/š-t/	vb G prefc. 1 c. sg.	to place, set, set up, leave	
-148479	ašisp	]š]ʔsp[sp	/ʔ-s-p/	vb Š prefc.	to regroup, concentrate	
+148479	ašisp	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-s-p/ - to regroup, concentrate
 148480	w	w	w	conj.	and	
 148481	ašt	!(ʔ&a!št[	/š-t/	vb G prefc. 1 c. sg.	to place, set, set up, leave	
 # KTU 2.33 13						
-148482	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
+148482	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. nom.	eye	
 148482	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 148482	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 148483	iġr	iġr	ỉġr	?	?	
@@ -85,8 +80,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148487	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	DULAT quote in ym (I) (cue: when)
 148488	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /b-t/ (cue: when)
 148489	ybt	!y!bt[	/b-t/	vb G prefc. 3 m. sg.	to stay the night, lodge	
-148490	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-148490	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+148490	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 148491	b	b	b	prep.	in	
 # KTU 2.33 15						
 148492	ṯydr	ṯydr/	ṯydr	TN sg. abs. gen.	from the tribute they have vowed	
@@ -106,8 +100,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148503	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 # KTU 2.33 18						
 148504	yrḥq	?	?	?	?	DULAT: NOT FOUND
-148505	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-148505	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+148505	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.33 19						
 148506	w	w	w	conj.	and	
 148507	adty	ad(t/t+y	ảdt	n. f. sg. cstr. nom.	lady	
@@ -120,8 +113,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.33 20						
 148509	w	w	w	conj.	1) copulative conj.	
 148510	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
-148511	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-148511	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+148511	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 148512	uḏr	uḏr(I)/	ủḏr (I)	n. m. sg. cstr. gen.	express messenger	
 # KTU 2.33 21						
 148513	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. gen.	1) to know	
@@ -130,8 +122,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148516	hnd	hnd	hnd	dem.	2) pn. this	
 # KTU 2.33 22						
 148517	w	w	w	conj.	and	
-148518	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-148518	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+148518	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 148519	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 148520	lm	l(I)+m(I)	l (I)	prep.	to	
 # KTU 2.33 23						
@@ -157,8 +148,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148533	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
 148534	hm	hm(II)	hm (II)	conj./interr. functor	if	
 148534	hm	hm(I)	hm (I)	pers. pn.	they	
-148535	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-148535	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+148535	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 148536	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
 # KTU 2.33 27						
 148537	w	w	w	conj.	4) declarative and emphatic functor	
@@ -184,8 +174,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148552	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
 148553	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say, tell, announce, communicate, inform	
 148553	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to answer	
-148554	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-148554	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+148554	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 # KTU 2.33 31						
 148555	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 148556	tmġyy	!t!mġy[+y	/m-ġ-y/	vb G prefc.	to come, arrive	
@@ -197,8 +186,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 148560	hnd	hnd	hnd	dem.	1) adj. this	
 # KTU 2.33 33						
 148561	w	w	w	conj.	and	
-148562	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-148562	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+148562	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 148563	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 148564	bnš	bnš/	bnš	n. m. sg. cstr. nom.	1) man	
 148564	bnš	bnš/	bnš	n. m. sg. abs. nom.	1) man	

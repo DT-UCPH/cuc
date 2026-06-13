@@ -26,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144326	l	l(I)	l (I)	prep.	to	
 144327	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 # KTU 1.112 5						
-144328	bht	bt(II)/	bt (II)	n. m. pl. abs. gen.	house	
+144328	bht	b&ht(II)/	bt (II)	n. m. pl. abs. gen.	house	
 144329	m	m	m(h)	pers. pn.	what?	
 144330	š	š/	š	n. m. sg. cstr. nom.	ram	
 144331	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
@@ -36,17 +36,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144334	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 144335	w	w	w	conj.	and	
 144336	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
-144337	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-144337	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+144337	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 144338	w	w	w	conj.	and	
-144339	bnt	bt(I)/	bt (I)	n. f. pl. cstr. nom.	1) daughter a) of men and gods	
+144339	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	1) daughter a) of men and gods	
 144339	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 144339	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 # KTU 1.112 7						
-144340	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-144340	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+144340	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 144341	ttˤln	?	?	?	?	DULAT: NOT FOUND
-144342	pamt	pa/m&t	pảm(t)	n. f. pl. abs. nom.	time	
+144342	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
 144343	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven b) in apposition	
 # KTU 1.112 8						
 144344	b	b	b	prep.	in	
@@ -63,8 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144351	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 144352	w	w	w	conj.	and	
 144353	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-144354	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-144354	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+144354	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 1.112 10						
 144355	b	b	b	prep.	in	
 144356	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
@@ -72,8 +69,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144358	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. gen.	new moon	
 144359	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
 # KTU 1.112 11						
-144360	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-144360	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+144360	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 144361	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 144362	b	b	b	prep.	in	
 144363	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	1) eight a) elliptical syntagms	
@@ -96,23 +92,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144376	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 144376	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
 144376	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-144377	ṣba	ṣb(u(II)/&a	ṣbủ (II)	n. m. sg. abs. nom.	setting	
+144377	ṣba	ṣb(u&a(II)/	ṣbủ (II)	n. m. sg. abs. nom.	setting	
 144378	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 144378	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 144379	w	w	w	conj.	and	
 144380	ḥ	ḥ/	ḥ	n. m. abs. nom.	life	
 # KTU 1.112 15						
 144381	l	l(I)	l (I)	prep.	to	
-144381	l	l(II)	l (II)	adv.	no	
-144381	l	l(III)	l (III)	functor	certainly	
-144382	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-144382	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+144382	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 144383	b	b	b	prep.	in	
 144384	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	1) the numeral three d) composite numbers	
 # KTU 1.112 16						
 144385	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 144385	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
-144386	yrt	yrd[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	
+144386	yrt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-r-d/ - to go down
 144387	ḥṣ	ḥṣ/	ḥṣ	n. m. sg. abs. nom.	gravel	
 144388	m	m	m(h)	pers. pn.	what?	
 # KTU 1.112 17						
@@ -143,8 +136,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144402	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. nom.	to say	
 144402	rgm	rgm/	rgm	n. m. sg. cstr. nom.	1) word	
 144403	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
-144404	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word)	
-144404	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š prefc.	to make (someone) sit	
+144404	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	
 # KTU 1.112 21						
 144405	w	w	w	conj.	and	
 144406	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
@@ -155,7 +147,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144410	ˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 22						
 144411	šrh	šr(IV)/+h	šr (IV)	n. m. cstr. nom.	navel	
-144411	šrh	!!šrh[/	/š-r-y/w/	vb G inf.	to release	
 144412	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	wave- offering	
 144413	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 144413	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
@@ -164,7 +155,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144414	š	š/	š	n. m. sg. abs. nom.	ram	
 144415	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 144415	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-144416	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
+144416	ṣ	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḫ-ṣ/ - to wound
 # KTU 1.112 23						
 144417	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
 144418	š	š/	š	n. m. sg. cstr. gen.	ram	

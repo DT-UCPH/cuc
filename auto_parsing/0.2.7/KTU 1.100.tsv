@@ -15,7 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142377	thm	thm/	thm	DN m. sg. abs. nom.	the Ocean/Primordial Ocean	
 142377	thm	thm/	thm	n. m. sg. abs. nom.	2) the Ocean	
 # KTU 1.100 2						
-142378	qrit	qr(ʔ&i[t	/q-r-ʔ/	vb G suffc. 1 c. sg.	to call, shout, invite	
+142378	qrit	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-r-ʔ/ - to call, shout, invite
 142379	l	l(I)	l (I)	prep.	to	
 142380	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 142380	špš	špš/	špš	n. f. sg. cstr. gen.	2) sun	
@@ -62,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142405	hlm	hlm	hlm	conj. functor	1) and so	
 142405	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142405	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142405	hlm	hl&m	hl	deictic adv. functor	behold	
+142405	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142406	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 142407	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142408	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
@@ -105,7 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142428	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142429	šmrr	šmrr/	šmrr	n. m. sg. cstr. nom.	poisoning	
 142430	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142431	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142431	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142432	lnh	l(I)+nh	l (I)	prep.	to	
 # KTU 1.100 11						
 142433	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
@@ -123,13 +123,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142438	hlm	hlm	hlm	conj. functor	and so	
 142438	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142438	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142438	hlm	hl&m	hl	deictic adv. functor	behold	
+142438	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142439	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 12						
 142440	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142441	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 142442	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142443	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142443	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142444	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 142445	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 # KTU 1.100 13						
@@ -165,7 +165,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142462	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 # KTU 1.100 16						
 142463	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
-142464	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142464	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142465	lnh	l(I)+nh	l (I)	prep.	to	
 142466	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
 142467	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
@@ -183,13 +183,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142471	hlm	hlm	hlm	conj. functor	and so	
 142471	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142471	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142471	hlm	hl&m	hl	deictic adv. functor	behold	
+142471	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142472	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 142473	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142474	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 # KTU 1.100 18						
 142475	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142476	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142476	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142477	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 142478	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 142479	w	w	w	conj.	and	
@@ -227,7 +227,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142497	nḥš	nḥš/	nḥš	n. m. sg. cstr. gen.	serpent	
 142498	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 142499	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
-142500	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142500	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142501	lnh	l(I)+nh	l (I)	prep.	to	
 142502	ml	ml	ml	?	?	
 # KTU 1.100 22						
@@ -245,13 +245,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142508	hlm	hlm	hlm	conj. functor	and so	
 142508	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142508	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142508	hlm	hl&m	hl	deictic adv. functor	behold	
+142508	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142509	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 23						
 142510	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142511	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 142512	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142513	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142513	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142514	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 142515	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 # KTU 1.100 24						
@@ -289,7 +289,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142532	šmrr	šmrr/	šmrr	n. m. sg. cstr. nom.	poisoning	
 # KTU 1.100 27						
 142533	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142534	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142534	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142535	lnh	l(I)+nh	l (I)	prep.	to	
 142536	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
 142537	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
@@ -307,13 +307,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142541	hlm	hlm	hlm	conj. functor	and so	
 142541	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142541	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142541	hlm	hl&m	hl	deictic adv. functor	behold	
+142541	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142542	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 142543	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142544	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 142545	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.100 29						
-142546	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142546	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142547	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 142548	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 142549	w	w	w	conj.	and	
@@ -348,7 +348,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142565	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 # KTU 1.100 32						
 142566	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
-142567	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142567	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142568	lnh	l(I)+nh	l (I)	prep.	to	
 142569	mlḫšabd	?	?	?	?	DULAT: NOT FOUND
 142570	lnh	l(I)+nh	l (I)	prep.	to	
@@ -364,7 +364,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142573	hlm	hlm	hlm	conj. functor	and so	
 142573	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142573	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142573	hlm	hl&m	hl	deictic adv. functor	behold	
+142573	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142574	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 142575	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142576	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
@@ -411,7 +411,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 37						
 142601	rr	?	?	?	?	DULAT: NOT FOUND
 142602	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142603	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142603	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142604	lnh	l(I)+nh	l (I)	prep.	to	
 142605	mlḫšabd	?	?	?	?	DULAT: NOT FOUND
 142606	lnh	l(I)+nh	l (I)	prep.	to	
@@ -427,7 +427,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142609	hlm	hlm	hlm	conj. functor	and so	
 142609	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142609	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142609	hlm	hl&m	hl	deictic adv. functor	behold	
+142609	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142610	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 142611	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142612	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
@@ -459,7 +459,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142627	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 142628	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 41						
-142629	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+142629	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	4) DN (< “The King”, /Ma/āl(i)ku/, Milku . AHw 596	
 142630	ˤṯtrth	ˤṯtrt(II)/~h	ʕṯtrt (II)	TN sg. cstr. gen.	ʿṯtrt (II)	
 142631	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 142632	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
@@ -470,7 +470,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142634	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 # KTU 1.100 42						
 142635	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
-142636	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142636	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142637	lnh	l(I)+nh	l (I)	prep.	to	
 142638	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
 142639	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
@@ -488,13 +488,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142643	hlm	hlm	hlm	conj. functor	and so	
 142643	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142643	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142643	hlm	hl&m	hl	deictic adv. functor	behold	
+142643	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142644	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 142645	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142646	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 142647	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.100 44						
-142648	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142648	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142649	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 142650	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 142651	w	w	w	conj.	and	
@@ -531,7 +531,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 47						
 142669	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 142670	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
-142671	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142671	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142672	lnh	l(I)+nh	l (I)	prep.	to	
 142673	mlḫ	?	?	?	?	DULAT: NOT FOUND
 142674	š	š/	š	n. m. sg. cstr. nom.	ram	
@@ -549,13 +549,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142679	hlm	hlm	hlm	conj. functor	and so	
 142679	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142679	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142679	hlm	hl&m	hl	deictic adv. functor	behold	
+142679	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142680	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 142681	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.100 49						
 142682	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 142683	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142684	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142684	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142685	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 142686	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 # KTU 1.100 50						
@@ -594,7 +594,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 53						
 142705	šmrr	šmrr/	šmrr	n. m. sg. cstr. nom.	poisoning	
 142706	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142707	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142707	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142708	lnh	l(I)+nh	l (I)	prep.	to	
 142709	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
 # KTU 1.100 54						
@@ -612,13 +612,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142714	hlm	hlm	hlm	conj. functor	and so	
 142714	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 142714	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-142714	hlm	hl&m	hl	deictic adv. functor	behold	
+142714	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 142715	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 55						
 142716	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 142717	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 142718	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
-142719	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142719	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142720	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 # KTU 1.100 56						
 142721	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
@@ -657,7 +657,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 59						
 142739	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 142740	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
-142741	ˤqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
+142741	ˤqšr	(a&ˤqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	
 142742	lnh	l(I)+nh	l (I)	prep.	to	
 142743	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
 # KTU 1.100 60						
@@ -737,8 +737,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142780	ynˤrah	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 66						
 142781	ssnm	ssn(I)/~m	ssn (I)	n. m. abs. nom. sg.	date-palm branch	
-142782	ysynh	nsy(II)[nh	/n-s-y/ (II)	vb G prefc.	1) to remove	
-142783	ˤdtm	ˤd(t(I)/t~m	ʕdt (I)	n. f. abs. nom. sg.	3) overflowing	
+142782	ysynh	!y!(nsy(II)[+nh	/n-s-y/ (II)	vb G prefc. 3 m. sg.	1) to remove	
+142783	ˤdtm	ˤdt(I)/~m	ʕdt (I)	n. f. abs. nom. sg.	3) overflowing	
 142784	yˤdynh	!y!ˤdy[:d+nh	/ʕ-d-y/	vb D prefc. 3 m. sg.	to make disappear / remove	
 142785	yb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 67						
@@ -755,10 +755,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142793	yštql	?	?	?	?	DULAT: NOT FOUND
 142794	l	l(I)	l (I)	prep.	to	
 142795	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. cstr. gen.	1) mansion	
-142796	tlu	lʔy(II)[	/l-ʔ-y/w/ (II)	vb G prefc.	to lose strength	
+142796	tlu	?	?	?	?	DULAT candidates (no reconstructable encoding): /l-ʔ-y/w/ (II) - to lose strength
 142797	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	DULAT quote in ḥmt (III) (cue: venom)
-142798	km	k(I)	k (I)	prep.	like	DULAT quote in km (cue: like)
-142799	nḫl	nḫl(I)/	nḫl (I)	n. m. sg. abs. nom.	torrent	
+142798	km	km	km	prep./conj./adv.		
+142799	nḫl	nḫl(I)/	nḫl (I)	n. m. sg. abs. gen.	torrent	
 # KTU 1.100 69						
 142800	tplg	!t!plg[	/p-l-g/	vb G prefc. 3 f. sg.	1) to be split > to disintegrate	
 142800	tplg	!t=!plg[	/p-l-g/	vb G prefc. 2 m. sg.	1) to be split > to disintegrate	
@@ -772,7 +772,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142800	tplg	!t!(]n]plg[	/p-l-g/	vb N prefc. 3 m. du.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
 142800	tplg	!t!(]n]plg[:w	/p-l-g/	vb N prefc. 3 m. pl.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
 142800	tplg	!t===!(]n]plg[	/p-l-g/	vb N prefc. 2 m. pl.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
-142801	km	k(I)	k (I)	prep.	like	DULAT quote in /p-l-g/ (cue: like)
+142801	km	km	km	prep./conj./adv.		
 142802	plg	(]n]plg[:w	/p-l-g/	vb N suffc. 3 m. pl.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
 # KTU 1.100 70						
 142803	bˤdh	bˤd+h	bʕd	adv. or prep.	2) prep a) behind	
@@ -804,19 +804,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 142825	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. nom.	intestine(s)	
 142826	tn	(ytn[	/y-t-n/	vb	give	
 142826	tn	(ytn[/	/y-t-n/	vb	give	
-142827	km	k(III)	k (III)	functor	when	
-142827	km	k(I)	k (I)	prep.	like	
-142827	km	k(IV)	k (IV)	adv.	thus	
 142827	km	km	km	prep./conj./adv.		
-142827	km	+km, +km=	-km			
 # KTU 1.100 74						
-142828	mhry	mhr(III)/+y	mhr (III)	n. m. sg. cstr. nom.	dowry	
+142828	mhry	mhr(III)/+y	mhr (III)	n. m. sg. cstr. gen.	dowry	
 142829	w	w	w	conj.	and	
 142830	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	3) young of an animal	
 142831	bṯn	bṯn/	bṯn	n. m. sg. cstr. gen.	serpent	
 142832	itnny	itnn/+y	ỉtnn	n. m. sg. cstr. gen.	present	
 # KTU 1.100 75						
-142833	ytt	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+142833	ytt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - to give
 142834	nḥšm	nḥš/m	nḥš	n. m. pl. cstr. nom.	serpent	
 142835	mhrk	mhr(I)/+k	mhr (I)	n. m. cstr. gen.	warrior (trained, expert)	
 142836	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	

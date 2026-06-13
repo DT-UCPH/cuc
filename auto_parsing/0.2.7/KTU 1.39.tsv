@@ -21,12 +21,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138391	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 138391	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 138392	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-138392	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
+138392	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
 138392	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 138393	kṯkmn	?	?	?	?	DULAT: NOT FOUND
 138394	w	w	w	conj.	and	
 138395	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-138395	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 138396	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 138396	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.39 4						
@@ -45,12 +44,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138405	w	w	w	conj.	and	
 138406	š	š/	š	n. m. sg. cstr. nom.	ram	
 138407	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-138407	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
+138407	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
 138407	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 138408	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 138408	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 138409	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
-138409	ilhm	ilt(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
+138409	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
 138409	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 # KTU 1.39 6						
 138410	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
@@ -89,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138432	urm	ur/+m(I)	ủr	n. m. cstr. gen.	2) type of sacrifice	
 138433	lb	lb/	lb	n. m. sg. abs. nom.	heart	
 # KTU 1.39 9						
-138434	rmṣt	rmṣ/t=	rmṣ	n. f. pl. abs. nom.	embers	
+138434	rmṣt	rmṣ/t	rmṣ	n. f. sg. abs. nom.	embers	
 138435	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	DULAT quote in bʕl (II) (cue: divine)
 138436	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. abs. nom. sg.	Baʿlu/Baal	
 138437	dṯt	dṯ(t/t	dṯt	n. f. sg. abs. nom.	fodder or spring grass	
@@ -124,10 +123,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138459	špš	špš/	špš	n. f. sg. cstr. gen.	2) sun	DULAT quote in špš (cue: sun)
 138460	pgr	pgr/	pgr	n. m. sg. abs. gen.	1) body	
 138461	w	w	w	conj.	and	
-138462	ṯrmnm	ṯrmn(I)/	ṯrmn (I)	DN pl. cstr. nom.	term for the kings of Ugarit	
+138462	ṯrmnm	ṯrmn(I)/m	ṯrmn (I)	DN pl. cstr. nom.	term for the kings of Ugarit	
 138463	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-138464	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-138464	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+138464	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.39 13						
 138465	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 138465	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
@@ -172,7 +170,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138486	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
 # KTU 1.39 17						
 138487	šrp	šrp/	šrp	n. m. sg. cstr. gen.	1) burnt sacrifice	
-138488	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. gen.	eye	
+138488	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. gen.	eye	
 138488	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 138489	ḫbly	ḫbly/	ḫbly	adj. f. sg. abs. nom.	distrut- trice	
 138490	dbḥm	dbḥ/m	dbḥ	n. m. pl. cstr. nom.	2) offering	
@@ -198,11 +196,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 138503	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.39 20						
 138504	w	w	w	conj.	and	
-138505	pamt	pa/m&t	pảm(t)	n. f. pl. abs. nom.	time	
+138505	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
 138506	ṯlṯm	ṯlṯm/	ṯlṯm	num.	1) the numeral thirty c) in apposition	
 138507	w	w	w	conj.	and	
 138508	yrdt	yrdt/	yrdt	n. f. pl. cstr. nom.	step	DULAT quote in yrdt (cue: step)
-138509	mdbḥt	mdbḥ/t=	mdbḥ	n. f. pl. cstr. gen.	altar	
+138509	mdbḥt	mdbḥ/t	mdbḥ	n. f. sg. cstr. gen.	altar	
 # KTU 1.39 21						
 138510	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 138510	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	

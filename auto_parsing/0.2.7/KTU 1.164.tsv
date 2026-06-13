@@ -2,8 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 1						
 146185	id	id	ỉd	conj.	when	
 146186	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
-146187	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-146187	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+146187	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 146188	b	b	b	prep.	in	
 146189	ḫmn	ḫmn(I)/	ḫmn (I)	n. m. sg. abs. gen.	chapel	
 # KTU 1.164 2						
@@ -18,8 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 3						
 146195	id	id	ỉd	conj.	when	
 146196	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
-146197	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-146197	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+146197	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 146198	l	l(I)	l (I)	prep.	to	
 146199	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
 # KTU 1.164 4						
@@ -72,8 +70,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146231	qr	qr(III)/	qr (III)	n. m. pl. abs. gen.	wall	
 # KTU 1.164 11						
 146232	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-146233	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-146233	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+146233	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 # KTU 1.164 12						
 146234	xxt	?	?	?	?	DULAT: NOT FOUND
 146235	w	w	w	conj.	and	
@@ -111,7 +108,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 146254	w	w	w	conj.	and	
 146255	al	al(I)	ảl (I)	neg. functor	no	
 146255	al	al(II)	ảl (II)	pos. functor	surely	
-146256	tṣu	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
+146256	tṣu	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
 146257	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
 146257	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 # KTU 1.164 20						

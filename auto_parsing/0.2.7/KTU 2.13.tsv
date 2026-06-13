@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147485	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
 # KTU 2.13 3						
 147486	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-147487	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+147487	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 # KTU 2.13 4						
 147488	bnk	bn(I)/+k	bn (I)	n. m. cstr. gen.	1) son a) of men and gods	
 # KTU 2.13 5						
@@ -42,8 +42,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.13 13						
 147508	w	w	w	conj.	and	
 147509	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	
-147510	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word), an answer, to answer	
-147510	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word), an answer, to answer	
+147510	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word), an answer, to answer	
+147510	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word), an answer, to answer	
 147511	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.13 14						
 147512	bm	b+m(I)	b	prep.	1) spatial location a) place in which something occurs	
@@ -61,6 +61,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147521	w	w	w	conj.	and	
 147522	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
 # KTU 2.13 18						
-147523	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+147523	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 147524	nr	nr/	nr	n. m. sg. cstr. gen.	sheen	
 147525	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	

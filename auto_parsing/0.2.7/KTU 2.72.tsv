@@ -35,8 +35,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 9						
 150009	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
 150010	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
-150011	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
-150011	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
+150011	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
+150011	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 150012	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.72 10						
 150013	lm	l(I)+m(I)	l (I)	prep.	to	
@@ -46,8 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 11						
 150017	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
 150018	mšmˤt	mšmˤ(t/t	mšmʕt	n. f. sg. cstr. gen.	(body)guard	
-150019	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-150019	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+150019	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 # KTU 2.72 12						
 150020	inn	in&n/	ỉn	n. m. abs. gen.	lack of	
 150021	im	im	ỉm	conj.	2) disj. conj. or	
@@ -64,15 +63,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150027	im	im	ỉm	conj.	if	
 # KTU 2.72 14						
 150028	mšmˤt	mšmˤ(t/t	mšmʕt	n. f. sg. cstr. nom.	(body)guard	
-150029	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-150029	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+150029	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.72 15						
 150030	w	w	w	conj.	and	
 150031	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go, go away	
 150032	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 150033	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
-150033	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G suffc.	to repeat	
-150033	ṯnm	ṯn(y[~m	/ṯ-n-y/	vb G impv. 2	to repeat	
 # KTU 2.72 16						
 150034	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 150035	w	w	w	conj.	and	
@@ -80,10 +76,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150037	lby	lb/+y	lb	n. m. cstr. nom.	heart	
 # KTU 2.72 17						
 150038	w	w	w	conj.	and	
-150039	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+150039	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 150040	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	DULAT quote in ảmr (III) (cue: daughter)
-150041	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-150041	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+150041	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 150042	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 2.72 18						
 150043	ky	k(IV)+y	k (IV)	adv.	1) thus	DULAT quote in k (IV) (cue: thus)
@@ -128,13 +123,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 23						
 150058	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 150059	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
-150060	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	missive	
-150060	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. cstr. nom.	cheek	
+150060	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	missive	
+150060	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
 # KTU 2.72 24						
 150061	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 150061	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
-150062	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-150062	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+150062	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 150063	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 2.72 25						
 150064	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
@@ -144,8 +138,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150065	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
 # KTU 2.72 26						
 150066	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
-150067	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-150067	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+150067	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 150068	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 2.72 27						
 150069	w	w	w	conj.	and	
@@ -160,8 +153,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150075	mrdt	mrd(t/t=	mrdt	n. f. pl. abs. nom.	Teppich	
 150076	mlkl	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.72 29						
-150077	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-150077	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+150077	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 150078	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 150079	w	w	w	conj.	and	
 150080	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of, take, grasp	
@@ -181,15 +173,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 32						
 150090	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 150090	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
-150091	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-150091	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+150091	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 150092	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 2.72 33						
 150093	mnm	mnm	mnm	indef. pn.	any(thing)	
 150094	ḫṭut	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.72 34						
-150095	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
-150095	ky	k(II)&y	k (II)	emph. functor	yes	
+150095	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
+150095	ky	k(II)+y	k (II)	emph. functor	yes	
 150095	ky	k(IV)+y	k (IV)	adv.	thus	
 150096	umy	um/+y	ủm	n. f. cstr. nom.	mother	
 150097		?	?	?	?	
@@ -211,8 +202,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150105		?	?	?	?	
 # KTU 2.72 42						
 150106	xxx	?	?	?	?	
-150107	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt suffc.	to remain, stay	
-150107	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt impv. 2	to remain, stay	
+150107	ištir	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-ʔ-r/ - to remain, stay
 150108	p	p(I)	p (I)	conj. functor	and	
 150108	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 150108	p	p(II)	p (II)	adv.	here	

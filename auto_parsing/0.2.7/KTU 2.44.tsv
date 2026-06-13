@@ -4,14 +4,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149229	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 149230	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 2.44 2						
-149231	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. gen.	brother (by blood)	
+149231	iḫy	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - brother (by blood)
 149232	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
 # KTU 2.44 3						
 149233	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
 149234	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 149235	gbl	gbl(I)/	gbl (I)	n. m. sg. cstr. gen.	summit	
 149235	gbl	gbl(II)/	gbl (II)	n. m. sg. cstr. gen.	limit	
-149236	iḫk	aḫ(I)/	ảḫ (I)	n. m. sg. abs. gen.	3) brother > friend (formal usage in correspondence between equals)	
+149236	iḫk	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - 3) brother > friend (formal usage in correspondence between equals)
 # KTU 2.44 4						
 149237	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 149237	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to re-establish > to pay	
@@ -71,8 +71,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 149271	xxxxtk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.44 19						
 149272	xxx	?	?	?	?	
-149273	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-149273	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+149273	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.44 20						
 149274	xxxxˤr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.44 21						

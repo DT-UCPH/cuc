@@ -11,24 +11,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.21 II:3						
 137232	hkly	hkl/+y	hkl	n. m. cstr. nom.	palace	
 137233	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-137234	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	1) healer	DULAT direct ref
-137234	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	1) healer	DULAT direct ref
+137234	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	1) healer	DULAT direct ref
+137234	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	1) healer	DULAT direct ref
 # KTU 1.21 II:4						
 137235	l	l(III)	l (III)	functor	certainly	DULAT direct ref
-137236	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137236	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137237	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 137238	l	l(III)	l (III)	functor	certainly	DULAT direct ref
-137239	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137239	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137240	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.21 II:5						
 137241	mrzˤy	mrzˤy/	mrzʕy	adj. m. sg. abs. nom.	he of the mrzḥ	
 137242	ap	ap(I)	ảp (I)	adv./conj.	also	DULAT direct ref
 137243	ank	ank	ảnk	pers. pn.	I	
-137244	y	+y, [y	-y (I)	prep. functor	my	
 137244	y	~y	-y (II)	prep. functor	indeed	
 137244	y	y	y	prep. functor	oh!	
-137245	rp	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-137245	rp	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+137245	rp	r(b&p(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+137245	rp	r(b&p(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
 # KTU 1.21 II:6						
 137246	umkm	um/+km	ủm	n. f. cstr. nom.	mother	
 137247	rˤy	rˤ/+y	rʕ	n. m. sg. cstr. nom.	companion	DULAT direct ref
@@ -54,7 +53,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137259	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 137259	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.21 II:9						
-137260	y	+y, [y	-y (I)	prep. functor	my	
 137260	y	~y	-y (II)	prep. functor	indeed	
 137260	y	y	y	prep. functor	oh!	
 137261	lk	l(I)+k	l (I)	prep.	to	
@@ -69,18 +67,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 137266	b	b	b	prep.	in	
 137267	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
 137268	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-137269	rpum	rp(u&/m	rpủ	n. m. pl. abs. nom.	healer	
-137269	rpum	rp(u&/m	rpủ	n. m. pl. cstr. nom.	healer	
+137269	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
+137269	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 # KTU 1.21 II:12						
 137270	l	l(I)	l (I)	prep.	to	
 137270	l	l(II)	l (II)	adv.	no	
 137270	l	l(III)	l (III)	functor	certainly	
-137271	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137271	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137272	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 137273	l	l(I)	l (I)	prep.	to	
 137273	l	l(II)	l (II)	adv.	no	
 137273	l	l(III)	l (III)	functor	certainly	
-137274	tdd	ndd[	/n-d-d/	vb G prefc.	to go	
+137274	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go	
 137275	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 # KTU 1.21 II:13						
 137276	xxxrn	?	?	?	?	DULAT: NOT FOUND

@@ -26,8 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.89 6						
 150964	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 150964	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
-150965	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-150965	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+150965	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 150966	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
 # KTU 2.89 7						
 150967	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
@@ -39,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.89 9						
 150972	w	w	w	conj.	3) in the correlation protasis-apodosis	
 150973	rṯgm	?	?	?	?	DULAT: NOT FOUND
-150974	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word)	
+150974	tṯṯb	!t!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc.	to send (word)	
 # KTU 2.89 10						
 150975	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
 150976	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. gen.	3) faithful	
@@ -82,11 +81,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150999	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. cstr. gen.	vinegar	
 # KTU 2.89 19						
 151000	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	jar	
-151001	ztmm	zt&m/+m(I)	zt	n. m. cstr. gen.	1) olive c) types	
+151001	ztmm	zt/m+m(I)	zt	n. m. cstr. gen.	1) olive c) types	
 # KTU 2.89 20						
 151002	d	d	d	det. or rel. functor	the one(s) of	
 151003	znt	zn(t/t	znt	n. f. sg. cstr. nom.	sustenance	
 151004	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.89 21						
 151005	kllm	kll/m	kll	n. m. pl. abs. nom.	totality	
-151006	štnt	ytn[t	/y-t-n/	vb	1) to make (someone) give	
+151006	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give

@@ -11,19 +11,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 2						
 144236	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
 144237	ymm	ym(I)/m	ym (I)	n. m. pl. abs. gen.	1) day b) as a period in time	
-144237	ymm	y(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
+144237	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
 144238	llxm	?	?	?	?	DULAT: NOT FOUND
 144239	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	4) to enter	
 # KTU 1.111 3						
-144240	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-144240	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+144240	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 144241	aṯḫḫlm	?	?	?	?	DULAT: NOT FOUND
 144242	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
-144243	atnd	ytn[+d	/y-t-n/	vb G prefc.	to give	
-144243	atnd	ytn[+d	/y-t-n/	vb G suffc.	to give	
+144243	atnd	!(ʔ&a!(ytn[+d	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 # KTU 1.111 4						
 144244	ild	il(I)/+d	ỉl (I)	n. m. cstr. nom.	god	
-144245	tṯbd	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+144245	tṯbd	?	?	?	?	DULAT candidates (no reconstructable encoding): tṯb - Teṯo/Hurrian storm god
 144246	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 5						
 144247	kḏġd	?	?	?	?	DULAT: NOT FOUND
@@ -48,7 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144261	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 9						
 144262	ild	il(I)/+d	ỉl (I)	n. m. cstr. nom.	god	
-144263	tṯbd	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+144263	tṯbd	?	?	?	?	DULAT candidates (no reconstructable encoding): tṯb - Teṯo/Hurrian storm god
 144264	kmrbnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 10						
 144265	kḏġd	?	?	?	?	DULAT: NOT FOUND
@@ -58,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144268	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
 144269	ardnd	ardn/+d	ảrdn	PN sg. cstr. gen.	ảrdn	
 # KTU 1.111 12						
-144270	ṯmgnd	ṯmg/	ṯmg	DN sg. abs. nom.	ṯmg	
+144270	ṯmgnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯmg - ṯmg
 144271	x	?	?	?	?	
 # KTU 1.111 13						
 144272	xxxx	?	?	?	?	
@@ -76,11 +74,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144281	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. gen.	donkey	
 # KTU 1.111 17						
 144282	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-144283	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT quote in ảlp (I) (cue: head)
+144283	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT quote in ảlp (I) (cue: cattle)
 144284	l	l(I)	l (I)	prep.	to	
 # KTU 1.111 18						
 144285	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
-144286	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+144286	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	4) DN (< “The King”, /Ma/āl(i)ku/, Milku . AHw 596	
 144287	ššbˤ	?	?	?	?	DULAT: NOT FOUND
 144288	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. nom.	ewe	
 144288	ṯat	ṯa(t/t=	ṯảt	n. f. pl. abs. nom.	ewe	

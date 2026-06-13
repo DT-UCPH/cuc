@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 2						
 145202	xxx	?	?	?	?	
 145203	anp	anp(I)	ảp (I)	adv./conj.	also	Based on DULAT reconstruction.
-145203	anp	ap(II)/	ảp (II)	n. m. abs. nom.	1) nose	Based on DULAT reconstruction.
+145203	anp	a&np(II)/	ảp (II)	n. m. abs. nom.	1) nose	Based on DULAT reconstruction.
 145203	anp	anp	ảnp	→	?	
 145204		?	?	?	?	
 # KTU 1.126 3						
@@ -58,8 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145230	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.126 18						
 145231	w	w	w	conj.	and	
-145232	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-145232	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+145232	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.126 19						
 145233	b	b	b	prep.	in	
 145234	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. gen.	sixth	
@@ -68,8 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145236	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. cstr. gen.	place of sacrifice	
 145237	x	?	?	?	?	
 # KTU 1.126 21						
-145238	yṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word)	
-145238	yṯṯb	]š]yṯb[b	/y-ṯ-b/	vb Š prefc.	to make (someone) sit	
+145238	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	
 145239	b	b	b	prep.	in	
 145240	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.126 22						

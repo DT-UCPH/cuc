@@ -29,16 +29,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144916	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 144917	w	w	w	conj.	and	
 144918	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-144919	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-144919	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+144919	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 144920	b	b	b	prep.	in	
 144921	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	2) composite numbers b) tens	
 # KTU 1.119 5						
 144922	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 144922	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 144923	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
-144924	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-144924	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+144924	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 144925	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.119 6						
 144926	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
@@ -89,7 +87,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 12						
 144959	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle d) sacrificial material	
 144960	l	l(I)	l (I)	prep.	to	
-144961	mdgl	mgdl/	mgdl	n. m. sg. cstr. gen.	1) tower	
+144961	mdgl	?	?	?	?	DULAT candidates (no reconstructable encoding): mgdl - 1) tower
 144962	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 144962	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 144963	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -103,8 +101,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144968	l	l(III)	l (III)	functor	certainly	
 144969	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
 # KTU 1.119 14						
-144970	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-144970	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
+144970	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 144971	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 144972	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 144972	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
@@ -165,8 +162,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 24						
 145016	w	w	w	conj.	and	
 145017	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-145018	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-145018	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+145018	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 145019	hn	hn	hn	functor	1) as a deictic functor	
 145020	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	1) oil a) oil (prob. olive oil)	
 145021	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
@@ -174,7 +170,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145022	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 145022	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 145023	mtk	mt(II)/+k	mt (II)	n. m. cstr. gen.	death	
-145024	mlkm	mlk(I)&m	mlk (I)		2) qualifier in the genitive functioning as an adjective a) in gen.	
+145024	mlkm	mlk(I)/m	mlk (I)	n. m. pl. abs. nom.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 145025	rišyt	rišy(t/t	rỉšyt	n. f. sg. abs. nom.	beginning	
 # KTU 1.119 26						
 145026	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in ʕz (III) (cue: when)
@@ -184,7 +180,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145029	ṯġrkm	ṯġr(I)/+km	ṯġr (I)	n. m. cstr. gen.	gate	
 145030	qrd	qrd(I)/	qrd (I)	n. m. sg. abs. nom.	hero	
 # KTU 1.119 27						
-145031	ḥmytkm	ḥmt(I)/+km	ḥmt (I)	n. f. cstr. nom.	wall	
+145031	ḥmytkm	ḥm&yt(I)/+km	ḥmt (I)	n. f. cstr. nom.	wall	
 145032	ˤnkm	ˤn(I)/+km	ʕn (I)	n. f. cstr. nom.	1) eye a) ʕn bʕl qdm ydh the eye(/s) of DN precede(s) his hands	
 145033	l	l(I)	l (I)	prep.	to	
 145034	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
@@ -208,7 +204,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 29						
 145043	y	y	y	prep. functor	oh!	DULAT quote in ỉbr (I) (cue: oh)
 145044	qrdl	?	?	?	?	DULAT: NOT FOUND
-145045	ḥmytny	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
+145045	ḥmytny	?	?	?	?	DULAT candidates (no reconstructable encoding): ḥmt (I) - wall
 145046	ibr	ibr(I)/	ỉbr (I)	n. m. sg. abs. gen.	1) bull	DULAT quote in ỉbr (I) (cue: bull)
 145047	y	y	y	prep. functor	oh!	DULAT quote in ỉbr (I) (cue: oh)
 # KTU 1.119 30						
@@ -267,4 +263,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 145079	qrd	qrd(I)/	qrd (I)	n. m. sg. abs. nom.	hero	
 # KTU 1.119 36						
 145080	l	l(I)	l (I)	prep.	to	
-145081	ḥmytkm	ḥmt(I)/+km	ḥmt (I)	n. f. cstr. gen.	wall	
+145081	ḥmytkm	ḥm&yt(I)/+km	ḥmt (I)	n. f. cstr. gen.	wall	

@@ -37,12 +37,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144550	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	2) DN	
 # KTU 1.114 5						
 144551	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	1) spine	
-144552	km	k(I)	k (I)	prep.	like	DULAT quote in km (cue: like)
-144553	klb	klb(I)/	klb (I)	n. m. sg. abs. nom.	dog	
+144552	km	km	km	prep./conj./adv.		
+144553	klb	klb(I)/	klb (I)	n. m. sg. abs. gen.	dog	
 144554	yqṯqṯ	!y!qṯ[qṯ:r	/q-ṯ/	vb R prefc. 3 m. sg.	to creep	
 144555	tḥt	tḥt(I)	tḥt (I)	prep.	1) under	
 # KTU 1.114 6						
-144556	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. f. pl. cstr. gen.	table	
+144556	ṯlḥnt	ṯlḥn/t	ṯlḥn	n. f. sg. cstr. gen.	table	
 144557	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 144557	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 144558	d	d	d	det. or rel. functor	2) which	
@@ -56,7 +56,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144565	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
 144566	ydˤnn	!y!(ydˤ(I)[+nn	/y-d-ʕ/ (I)	vb G prefc. 3 m. sg.	to know	
 # KTU 1.114 8						
-144567	y	+y, [y	-y (I)	prep. functor	my	
 144567	y	~y	-y (II)	prep. functor	indeed	
 144567	y	y	y	prep. functor	oh!	
 144568	lmn	l(I)&m+n	l (I)	prep.	to	
@@ -76,7 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144579	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.114 11						
 144580	w	w	w	conj.	and	
-144581	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. cstr. nom.	eye	
+144581	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. cstr. nom.	eye	
 144581	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. nom.	ʿAnatu/Anat	
 144582	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. gen.	2) shoulder blade	
 144583	xbhm	?	?	?	?	DULAT: NOT FOUND
@@ -144,9 +143,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.114 19						
 144627	w	w	w	conj.	and	
 144628	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-144628	šnm	šnw[+m(I)	/š-n-w/	vb	to change: a) reflex.	
 144629	w	w	w	conj.	and	
-144630	ngšnn	ngš[nn	/n-g-š/	vb G suffc.	to approach, meet, find	
+144630	ngšnn	ngšnn[	/n-g-š/	vb G suffc. 3 m. sg.	to approach, meet, find	
 144631	ḥby	ḥby(I)/	ḥby (I)	DN sg. cstr. nom.	Apis	
 # KTU 1.114 20						
 144632	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
@@ -157,12 +155,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144636	ylšn	!y!lš[+n	/l-š/	vb G prefc. 3 m. sg.	to soil, plaster	
 # KTU 1.114 21						
 144637	b	b	b	prep.	in	
-144638	ḫrih	ḫru/	ḫrủ	n. m. sg. abs. gen.	faeces	
+144638	ḫrih	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫrủ - faeces
 144639	w	w	w	conj.	and	
-144640	ṯnth	ṯny[+h	/ṯ-n-y/	vb G suffc.	to repeat	
-144640	ṯnth	ṯny[+h	/ṯ-n-y/	vb G impv. 2	to repeat	
-144640	ṯnth	!!ṯny[/+h	/ṯ-n-y/	vb G inf.	to repeat	
-144640	ṯnth	ṯn(II)&t/+h	ṯn (II)	num. cstr. / adj. cstr.	second	
+144640	ṯnth	ṯn(II)/t+h	ṯn (II)	num. sg. cstr. / adj. sg. cstr.	second	
 144640	ṯnth	ṯnt(I)/+h	ṯnt (I)	n. f. cstr. nom.	a kind of leather or leather object	
 144641	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
 144641	ql	ql[	/q-l/	vb G impv. 2	to fall (down)	
@@ -171,15 +166,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 144642	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 144642	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN a) activities of the god	
 144642	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	2) DN a) activities of the god	
-144643	km	k(I)	k (I)	prep.	like	DULAT quote in mt (I) (cue: like)
-144644	mt	mt(I)/	mt (I)	n. m. sg. cstr. nom.	1) dead person	DULAT quote in mt (I) (cue: dead)
+144643	km	km	km	prep./conj./adv.		
+144644	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	1) dead person	DULAT quote in mt (I) (cue: dead)
 # KTU 1.114 22						
 144645	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 144645	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 144646	k	k(I)	k (I)	prep.	like	DULAT quote in ảrṣ (cue: like)
 144647	yrdm	yrd[/m	/y-r-d/	vb G act. ptcpl. m. sg. abs. gen.	to go down, descend	
 144648	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	4) the underworld	
-144649	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. gen.	eye	
+144649	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. gen.	eye	
 144649	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 # KTU 1.114 23						
 144650	w	w	w	conj.	and	
@@ -202,15 +197,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.114 27						
 144663	w	w	w	conj.	and	
 144664	bhm	b+hm	b	prep.	in	
-144665	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word), an answer, to answer	
+144665	tṯṯb	!t!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc.	to send (word), an answer, to answer	
 144666	lmdh	lmd/+h	lmd	adj. m. cstr. nom.	trained	
 144666	lmdh	lmd[:d+h	/l-m-d/	vb D suffc.	to teach	
 # KTU 1.114 28						
-144667	km	k(III)	k (III)	functor	when	
-144667	km	k(I)	k (I)	prep.	like	
-144667	km	k(IV)	k (IV)	adv.	thus	
 144667	km	km	km	prep./conj./adv.		
-144667	km	+km, +km=	-km			
 144668	trpa	!t!rp(ʔ[&a	/r-p-ʔ/	vb G prefc.	to heal, apply a remedy	
 144669	hn	hn	hn	functor	1) as a deictic functor	
 144670	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	2) lad	

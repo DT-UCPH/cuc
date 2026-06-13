@@ -1,16 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.102 1						
 151481	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-151482	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-151482	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+151482	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 2.102 2						
 151483	l	l(I)	l (I)	prep.	to	
 151484	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
 151485	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say, tell, announce, communicate, inform	
 151485	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.102 3						
-151486	ky	k(III)&y	k (III)	Subordinating or completive functor	3) in compounds	
-151486	ky	k(II)&y	k (II)	emph. functor	yes	
+151486	ky	k(III)+y	k (III)	Subordinating or completive functor	3) in compounds	
+151486	ky	k(II)+y	k (II)	emph. functor	yes	
 151486	ky	k(IV)+y	k (IV)	adv.	thus	
 151487	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
 # KTU 2.102 4						

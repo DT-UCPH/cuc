@@ -27,6 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147656	pġsdb	pġsdb/	pġsdb	PN sg. cstr. gen.	pġsdb	
 147657	šml	šml(I)/	šml (I)	n. m. sg. abs. gen.	commercial agent	
 147658	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+147658	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 147658	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 # KTU 2.17 6						
 147659	w	w	w	conj.	3) in the correlation protasis-apodosis	
@@ -60,8 +61,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.17 12						
 147678	lḥtxġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.17 13						
-147679	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
-147679	ky	k(II)&y	k (II)	emph. functor	yes	
+147679	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
+147679	ky	k(II)+y	k (II)	emph. functor	yes	
 147679	ky	k(IV)+y	k (IV)	adv.	2) here	
 147680	mi	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.17 14						
@@ -69,7 +70,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147682	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
 147682	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 # KTU 2.17 15						
-147683	tštil	š]t]ʔl[l	/š-ʔ-l/	vb Gt prefc.	to require a cultic reply	
+147683	tštil	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-ʔ-l/ - to require a cultic reply
 # KTU 2.17 16						
 147684	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
 147685	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	

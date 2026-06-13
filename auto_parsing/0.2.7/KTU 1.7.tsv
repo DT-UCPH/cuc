@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.7 2						
 131834	ḥbšh	ḥbš(I)/+h	ḥbš (I)	n. m. cstr. nom.	2) waist	
 131835	ˤtkt	ˤtk[t:d	/ʕ-t-k/	vb D suffc. 1 c. sg.	to tie	
-131836	rišt	riš(I)/t=	rỉš (I)	n. f. pl. abs. nom.	1) head	
+131836	rišt	riš(I)/t	rỉš (I)	n. f. sg. abs. nom.	1) head	
 # KTU 1.7 3						
 131837	l	l(I)	l (I)	prep.	to	
 131838	bmthhy	?	?	?	?	DULAT: NOT FOUND
@@ -37,7 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131850	tṯˤr	!t!ṯˤr[	/ṯ-ʕ-r/	vb G prefc. 3 m. du.	to prepare (the table)	
 131850	tṯˤr	!t!ṯˤr[:w	/ṯ-ʕ-r/	vb G prefc. 3 m. pl.	to prepare (the table)	
 131850	tṯˤr	!t===!ṯˤr[	/ṯ-ʕ-r/	vb G prefc. 2 m. pl.	to prepare (the table)	
-131851	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. f. pl. abs. nom.	table	
+131851	ṯlḥnt	ṯlḥn/t	ṯlḥn	n. f. sg. abs. nom.	table	
 131852	l	l(I)	l (I)	prep.	to	
 131853	ṣbim	ṣb(u(I)&i/m	ṣbủ (I)	n. m. pl. cstr. gen.	1) army	
 131854	ksat	ksa/t=	ks/śủ	n. f. pl. abs. gen.	seat	
@@ -58,6 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131860	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 131860	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 131860	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+131860	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 131860	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 131860	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 131861	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg. abs. nom.	battle	
@@ -141,7 +142,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131900	k	k(III)	k (III)	Subordinating or completive functor	when	
 131900	k	k(I)	k (I)	prep.	like	
 131900	k	k(II)	k (II)	emph. functor	yes	
-131901	lli	ll(u/&i	llủ	n. m. sg. abs. nom.	suckling (lamb or kid)	
+131901	lli	ll(u&i/	llủ	n. m. sg. abs. nom.	suckling (lamb or kid)	
 131902		?	?	?	?	
 131903	x	?	?	?	?	
 # KTU 1.7 16						
@@ -227,7 +228,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131941	ṯny	!!ṯny[/	/ṯ-n-y/	vb G inf.	to repeat	
 131942	l	l(I)	l (I)	prep.	to	
 131943	ybmt	ybm(t/t	ybmt	n. f. sg. cstr. gen.	widow sister-in-law	
-131944	limm	lim(I)/	lỉm (I)	n. m. pl. cstr. gen.	people	
+131944	limm	lim(I)/m	lỉm (I)	n. m. pl. cstr. gen.	people	
 131945	tḥm	tḥm/	tḥm	n. m. sg. abs. gen.	message	
 131946	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 131947	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. cstr. nom.	Baʿlu/Baal	
@@ -300,7 +301,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 132001	tdˤ	!t!(ydˤ[:w	/y-d-ʕ/ (I)	vb G prefc. 3 m. pl.	to know	
 132002	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
 132003	atm	at(I)&m	ảt (I)	pers. pn.	you	
-132003	atm	!!(ʔ&at(w[~m	/ʔ-t-w/	vb G impv. 2	to come	
 132003	atm	atm	ảtm	pers. pn.	you	
 # KTU 1.7 34						
 132004	w	w	w	conj.	and	
@@ -323,8 +323,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 132016	anhbm	anhb/m	ảnhb	n. m. pl. cstr. nom.	ein Stein	
 # KTU 1.7 37						
 132017	klat	kla(t/t	klảt(n)	n. f. sg. cstr. gen.	both	
-132018	ṯġrt	ṯġr(I)/t=	ṯġr (I)	n. f. pl. cstr. gen.	gate	
-132019	bht	bt(II)/	bt (II)	n. m. pl. cstr. gen.	house	
+132018	ṯġrt	ṯġr(I)/t	ṯġr (I)	n. f. sg. cstr. gen.	gate	
+132019	bht	b&ht(II)/	bt (II)	n. m. pl. cstr. gen.	house	
 132020	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 132021	w	w	w	conj.	and	
 132022	tqry	!t!qry[	/q-r-y/	vb G prefc. 3 f. sg.	to meet	

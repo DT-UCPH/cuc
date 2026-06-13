@@ -7,8 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147219	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
 # KTU 2.4 3						
 147220	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-147221	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-147221	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+147221	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.4 4						
 147222	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
 147222	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to re-establish > to pay	
@@ -24,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 147229	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.4 7						
 147230	w	w	w	conj.	and	
-147231	tṯṯb	]š]ṯb[ṯb	/ṯ-b/	vb Š prefc.	to send (word), an answer, to answer	
+147231	tṯṯb	!t!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc.	to send (word), an answer, to answer	
 147232	ly	l(I)+y	l (I)	prep.	to	
 147233	šlmk	šlm[:d+k	/š-l-m/	vb G suffc.	to be well, do well, be in peace	
 147233	šlmk	šlm[+k	/š-l-m/	vb D suffc.	to re-establish > to pay	
@@ -63,7 +62,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 18						
 147252	ht	ht	ht	adv.	2) conj.	
 147253	yšmˤ	!y!šmˤ[	/š-m-ʕ/	vb G prefc. 3 m. sg.	to hear, listen (to), notice	
-147254	uḫy	aḫ(I)/	ảḫ (I)	n. m. sg. abs. nom.	3) brother > friend (formal usage in correspondence between equals)	
+147254	uḫy	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - 3) brother > friend (formal usage in correspondence between equals)
 # KTU 2.4 19						
 147255	l	l(I)	l (I)	prep.	to	
 147256	gy	g/+y	g	n. m. sg. cstr. gen.	(loud) voice	

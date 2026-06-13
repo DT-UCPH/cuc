@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 1						
 141319	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
-141320	ḥlmm	ḥlm(II)/	ḥlm (II)	n. m. pl. cstr. nom.	growing animal	
+141320	ḥlmm	ḥlm(II)/m	ḥlm (II)	n. m. pl. cstr. nom.	growing animal	
 141321	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	2) “bullock”	
 141322	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
 141323	w	w	w	conj.	and	
@@ -25,7 +25,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141334	w	w	w	conj.	and	
 141335	prt	pr(t(I)/t	prt (I)	n. f. sg. abs. nom.	heifer	
 141335	prt	pr(t(I)/t=	prt (I)	n. f. pl. abs. nom.	heifer	
-141336	tkt	nkt[	/n-k-t/	vb G prefc.	to immolate	
+141336	tkt	!t!(nkt[	/n-k-t/	vb G prefc.	to immolate	
 141337	xxxx	?	?	?	?	
 141338	xlxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 5						
@@ -142,9 +142,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 141401	ḫrmṯt	ḫrmṯ(t/t	ḫrmṯt	n. f. sg. abs. gen.	sickle	
 # KTU 1.86 24						
 141402	w	w	w	conj.	and	
-141403	kśt	ks(t/t	kst	n. f. sg. cstr. nom.	Gewand	Based on DULAT reconstruction.
-141404	šqym	šqy/m	šqy	n. m. pl. cstr. gen.	cupbearer	
-141404	šqym	šqy/m	šq	n. m. pl. cstr. gen.	thigh	
+141403	kśt	kt	kśt	→	?	
+141404	šqym	šqy/m	šqy	n. m. pl. cstr. nom.	cupbearer	
+141404	šqym	šqy/m	šq	n. m. pl. cstr. nom.	thigh	
 # KTU 1.86 25						
 141405	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 141406	šqym	šqy/m	šqy	n. m. pl. abs. gen.	cupbearer	

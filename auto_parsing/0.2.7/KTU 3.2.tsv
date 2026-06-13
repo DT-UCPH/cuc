@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151945	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	1) son a) of men and gods	
 151946	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
 # KTU 3.2 4						
-151947	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+151947	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 151948	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 3.2 5						
 151949	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
@@ -22,8 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 151953	agytn	agytn/	ảgytn	PN sg. cstr. gen.	ảgytn	
 151954	bnš	bnš/	bnš	n. m. sg. cstr. gen.	2) personnel in service	
 # KTU 3.2 7						
-151955	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-151955	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+151955	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 151956	d	d	d	det. or rel. functor	2) which	
 151957	b	b	b	prep.	in	
 151958	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	4) title of a court official	

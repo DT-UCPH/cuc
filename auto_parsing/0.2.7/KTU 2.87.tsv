@@ -40,8 +40,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150677	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
 150677	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
 # KTU 2.87 8						
-150678	ky	k(III)&y	k (III)	Subordinating or completive functor	1) when	
-150678	ky	k(II)&y	k (II)	emph. functor	yes	
+150678	ky	k(III)+y	k (III)	Subordinating or completive functor	1) when	
+150678	ky	k(II)+y	k (II)	emph. functor	yes	
 150678	ky	k(IV)+y	k (IV)	adv.	thus	
 150679	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	DULAT quote in /ḫ-b-t/ (cue: oppressed)
 150680	w	w	w	conj.	1) copulative conj.	
@@ -49,8 +49,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150682	ušal	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 9						
 150683	u	u	ủ	conj.	2) and / also	
-150684	ky	k(III)&y	k (III)	Subordinating or completive functor	1) when	
-150684	ky	k(II)&y	k (II)	emph. functor	yes	
+150684	ky	k(III)+y	k (III)	Subordinating or completive functor	1) when	
+150684	ky	k(II)+y	k (II)	emph. functor	yes	
 150684	ky	k(IV)+y	k (IV)	adv.	thus	
 150685	b	b	b	prep.	2) temporal situation a) time when something happens	
 150686	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
@@ -104,22 +104,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150719	ddbḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 18						
 150720	w	w	w	conj.	1) copulative conj.	
-150721	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. nom.	1) missive	
+150721	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 150722	ḫpn	ḫpn(I)/	ḫpn (I)	n. m. sg. abs. gen.	1) for personal use c) ḫpn d ỉqnỉ w šmt a ḫ . of violet and reddish purple	
 150723	w	w	w	conj.	1) copulative conj.	
 150724	kblm	kbl(I)/m	kbl (I)	n. m. pl. cstr. nom.	leggings	
 # KTU 2.87 19						
 150725	iqnum	iqnu/m	ỉqnủ	n. m. pl. abs. gen.	gem of lapis lazuli	
-150726	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt suffc.	to remain	
-150726	ištir	š]t]ʔr[r	/š-ʔ-r/	vb Gt impv. 2	to remain	
+150726	ištir	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-ʔ-r/ - to remain
 # KTU 2.87 20						
 150727	bhm	b+hm	b	prep.	5) modal relation	
 150728	w	w	w	conj.	1) copulative conj.	
 150729	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
 150729	hm	hm(I)	hm (I)	pers. pn.	they	
-150730	akm	nkm[	n-k-m	vb suffc. 3 m. sg.	to store	
+150730	akm	akm[	n-k-m	vb suffc. 3 m. sg.	to store	
 # KTU 2.87 21						
-150731	iqna	iqn(u/&a	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
+150731	iqna	iqn(u&a/	ỉqnủ	n. m. sg. abs. nom.	gem of lapis lazuli	
 150732	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to place	
 150732	štt	št[t:pass	/š-t/	vb Gpass suffc. 1 c. sg.	to be placed, set	
 150733	bhm	b+hm	b	prep.	in	
@@ -131,15 +130,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150737	w	w	w	conj.	and	
 150738	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
 150738	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
-150739	ttnk	ytn[+k	/y-t-n/	vb G prefc.	to give	
-150739	ttnk	ytn[+k	/y-t-n/	vb G suffc.	to give	
+150739	ttnk	!t!(ytn[+k	/y-t-n/	vb G prefc.	to give	
 # KTU 2.87 24						
 150740	w	w	w	conj.	3) in the correlation protasis-apodosis	
 150741	mnm	mnm	mnm	indef. pn.	any(thing)	
 150742	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 150743	w	w	w	conj.	3) in the correlation protasis-apodosis	
-150744	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word), an answer, to answer	
-150744	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word), an answer, to answer	
+150744	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word), an answer, to answer	
+150744	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word), an answer, to answer	
 # KTU 2.87 25						
 150745	bbd	bb/+d	bb	PN sg. cstr. nom.	bb	
 150746	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
@@ -148,7 +146,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.87 26						
 150749	w	w	w	conj.	1) copulative conj.	
 150750	atm	at(I)&m	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
-150750	atm	!!(ʔ&at(w[~m	/ʔ-t-w/	vb G impv. 2	to come	
 150750	atm	atm	ảtm	pers. pn.	you	
 150751	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
 150751	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
@@ -203,7 +200,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 150786	w	w	w	conj.	1) copulative conj.	
 150787	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. cstr. nom.	message	
 150788	lm	l(I)+m(I)	l (I)	prep.	to	
-150789	tšḫr	]š]ʔḫr[r	/ʔ-ḫ-r/	vb Š prefc.	to delay	
+150789	tšḫr	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-ḫ-r/ - to delay
 # KTU 2.87 34						
 150790	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
 150791	l	l(III)	l (III)	functor	certainly	DULAT quote in k (III) (cue: certainly)
