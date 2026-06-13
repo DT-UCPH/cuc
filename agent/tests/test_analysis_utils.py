@@ -15,8 +15,11 @@ class AnalysisUtilsTest(unittest.TestCase):
         self.assertEqual(reconstruct_surface_from_analysis("šlm[:dt=="), "šlmt")
         self.assertEqual(reconstruct_surface_from_analysis("šlm[:dt"), "šlmt")
 
-    def test_reconstruction_keeps_suffix_w_after_stem_marker(self) -> None:
-        self.assertEqual(reconstruct_surface_from_analysis("šlm[:d:w"), "šlmw")
+    def test_reconstruction_drops_unwritten_plural_w_marker(self) -> None:
+        # ':w' marks the unwritten plural -u (Tagging conventions: "never
+        # written"), so it contributes no surface letter - consistent with
+        # analysis_matches_surface treating !t!ṯkḥ[:w as matching tṯkḥ.
+        self.assertEqual(reconstruct_surface_from_analysis("šlm[:d:w"), "šlm")
 
     def test_surface_match_accepts_hidden_plural_w(self) -> None:
         self.assertTrue(analysis_matches_surface("tṯkḥ", "!t!ṯkḥ[:w"))
