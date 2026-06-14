@@ -126,10 +126,10 @@
 125922	x	?	?	?	?	
 # KTU 1.1 III:1						
 125923	kptr	kptr/	kptr	TN sg. abs. nom.	Crete	
-125924	ksu	ks(u/&u	ks/śủ	n. m. sg. abs. nom.	seat, throne, chair	
+125924	ksu	ks(u/&u	ks/śủ	n. m. sg. cstr. nom.	seat, throne, chair	
 125925	ṯbth	ṯb(t/t+h	ṯbt	n. f. sg. cstr. nom.	seat	
 125926	ḥkpt	ḥkpt/	ḥkpt	TN sg. abs. nom.	mythical	
-125927	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+125927	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	
 125928	nḥlth	nḥl(t/t+h	nḥlt	n. f. sg. cstr. nom.	property	
 # KTU 1.1 III:2						
 125929	b	b	b	prep.	in	
@@ -221,7 +221,7 @@
 126003	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
 126004	thmt	thm(t/t	thmt	n. f. sg. abs. gen.	Primordial Ocean	
 126005	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-126006	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	heavenly body	
+126006	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body	
 # KTU 1.1 III:15						
 126007	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 126008	l	l(I)	l (I)	prep.	to	
@@ -337,7 +337,7 @@
 126101	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	source	
 # KTU 1.1 IV:3						
 126102	l	l(I)	l (I)	prep.	to	
-126103	rḥqm	rḥq/m	rḥq	adj. m. pl. abs. nom.	distant	
+126103	rḥqm	rḥq/m	rḥq	adj. m. pl. abs. gen.	distant	
 126104	lp	?	?	?	?	
 # KTU 1.1 IV:4						
 126105	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G impv. 2	to exclaim, shout	
@@ -434,7 +434,7 @@
 126180	mdd	mdd(I)/	mdd (I)	n. m. sg. abs. nom.	1) beloved	
 126181	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 # KTU 1.1 IV:21						
-126182	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+126182	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 126183	kspy	ksp/+y	ksp	n. m. cstr. nom.	1) silver b) items made of silver	
 126184	dt	d+t	d	det. or rel. functor	the one(s) of	
 # KTU 1.1 IV:22						
@@ -450,7 +450,7 @@
 126192	ksi	ksi/	ks/śủ	n. f. cstr. gen.	seat	
 126193	mlkh	mlk(II)/+h	mlk (II)	n. m. cstr. gen.	kingdom (power and territory)	
 126194	l	l(I)	l (I)	prep.	to	
-126195	nḫt	nḫ(t/t	nḫt	n. f. sg. abs. nom.	divan	
+126195	nḫt	nḫ(t/t	nḫt	n. f. sg. abs. gen.	divan	
 126196	l	l(I)	l (I)	prep.	to	
 126197	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
 # KTU 1.1 IV:25						

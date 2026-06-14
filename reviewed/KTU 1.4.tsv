@@ -43,7 +43,7 @@
 128489	ḥẓr	ḥẓr/	ḥẓr	n. m. sg. abs. nom.	mansion	'and a court like the sons of Athirat'.
 # KTU 1.4 I:11						
 128490	k	k(I)	k (I)	prep.	like	
-128491	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	k bn aṯrt 'like the sons of Athirat'.
+128491	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	k bn aṯrt 'like the sons of Athirat'.
 128492	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	KTU: [kbn ]aṯr[t].
 # KTU 1.4 I:12						
 128493	mṯb	mṯb/	mṯb	n. m. sg. cstr. nom.	1) residence	mṯb il 'the dwelling of El'.
@@ -162,7 +162,7 @@
 128582	qblbl	qblbl/	qblbl	n. m. sg. abs. nom.	junction	Meaning uncertain; DULAT 'junction'.
 # KTU 1.4 I:37						
 128583	ˤln	ˤl(I)~n	ʕl (I)	prep. + encl. -n	1) spatial location or pre-eminence a) upon	ʕl + -n; 'on it'.
-128584	yblhm	ybl(II)/+hm	ybl (II)	n. m. pl. cstr. nom. + 3 m. pl. suff.	rod	'their rails of gold'.
+128584	yblhm	ybl(II)/+hm	ybl (II)	n. m. pl. cstr. gen. + 3 m. pl. suff.	rod	'their rails of gold'.
 128585	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold b) in craftwork	
 # KTU 1.4 I:38						
 128586	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. cstr. acc.	table	ṯlḥn il 'a table for El'.
@@ -354,7 +354,7 @@
 128734	ydm	yd(I)/m	yd (I)	n. f. du. abs. gen.	hand	ˤl ydm 'upon (your) hands'.
 # KTU 1.4 II:34						
 128735	b	b	b	prep.	in	
-128736	mdd	mdd(I)/	mdd (I)	n. m. sg. cstr. acc.	beloved	mdd il ym 'the Beloved of El, Yammu'.
+128736	mdd	mdd(I)/	mdd (I)	n. m. sg. cstr. gen.	beloved	mdd il ym 'the Beloved of El, Yammu'.
 128737	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 128738	ym	ym(I)/	ym (I)	DN m. sg. abs. gen.	day	Here the deified Sea (Yam), Beloved of El.
 # KTU 1.4 II:35						
@@ -463,7 +463,7 @@
 128813	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	'I was shamed'; 1 c. sg.
 # KTU 1.4 III:16						
 128814	b	b	b	prep.	in	
-128815	ks	ks(I)/	ks (I)	n. m. sg. abs. acc.	cup	
+128815	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
 128816	ištynh	!(ʔ&i!šty[~n+h	/š-t-y/	vb G prefc. 1 c. sg. + energic-n + suff.	to drink	'in a cup I drank it'.
 # KTU 1.4 III:17						
 128817	dm	dm(I)	dm (I)	functor	since	
@@ -553,7 +553,7 @@
 128885	nmgn	!n!mgn[:d	/m-g-n/	vb D prefc. 1 c. pl.	to wine and dine, regale, welcome	'we shall (first) regale...'; 1 c. pl.
 # KTU 1.4 III:34						
 128886	km	km	km	prep.	like	Broken sense; km.
-128887	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. acc.	Lady	
+128887	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	
 128888	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
 128889	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.4 III:35						
@@ -965,7 +965,7 @@
 129212	w	w	w	conj.	and	
 129213	ḥẓr	ḥẓr/	ḥẓr	n. m. sg. abs. nom.	mansion	
 129214	k	k(I)	k (I)	prep.	like	
-129215	bn	bn(I)/	bn (I)	n. m. pl. cstr. nom.	son	
+129215	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	
 129216	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
 # KTU 1.4 V:2						
 129217	w	w	w	conj.	and	
@@ -1098,7 +1098,7 @@
 129320	tbšr	!t!bšr[:pass	/b-š-r/	vb Dpass prefc. 2 m. sg.	to be brought, hear, receive (good) news	tbšr bˤl 'Be informed, O Baal!'
 129321	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. voc.	Baʿlu/Baal	
 # KTU 1.4 V:27						
-129322	bšrtk	bšr(t/t+k	bšrt	n. f. sg. abs. acc. + 2 m. sg. suff.	news	'I bring you good news'.
+129322	bšrtk	bšr(t/t+k	bšrt	n. f. sg. cstr. acc. + 2 m. sg. suff.	news	'I bring you good news'.
 129323	yblt	ybl[t	/y-b-l/	vb G suffc. 1 c. sg.	to carry, bring, take	1 c. sg. (Anat speaking).
 129324	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	'A house will be given you'.
 # KTU 1.4 V:28						
@@ -1469,12 +1469,12 @@
 129618	sb	sb(b[	/s:ś-b-b/	vb G suffc. 3 m. sg.	to turn round, go round and round, go through	'the silver had turned to plates'.
 129619	ksp	ksp/	ksp	n. m. sg. abs. nom.	1) silver c) treatment	
 129620	l	l(I)	l (I)	prep.	to	
-129621	rqm	rq(I)/m	rq (I)	n. m. pl. abs. acc.	sheet	
+129621	rqm	rq(I)/m	rq (I)	n. m. pl. abs. gen.	sheet	
 129622	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold a) in general	
 # KTU 1.4 VI:35						
 129623	nsb	]n]sb[	/s:ś-b-b/	vb N suffc. 3 m. sg.	to be changed into	'the gold turned to bricks'.
 129624	l	l(I)	l (I)	prep.	to	
-129625	lbnt	lbn(t/t=	lbnt	n. f. pl. abs. acc.	brick	
+129625	lbnt	lbn(t/t=	lbnt	n. f. pl. abs. gen.	brick	
 129626	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad	'Mightiest Baal rejoices'.
 # KTU 1.4 VI:36						
 129627	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
@@ -1649,7 +1649,7 @@
 # KTU 1.4 VII:8						
 129760	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	'he passes from town to town'.
 129761	l	l(I)	l (I)	prep.	to	
-129762	pdr	pdr(I)/	pdr (I)	n. m. sg. cstr. acc.	town	
+129762	pdr	pdr(I)/	pdr (I)	n. m. sg. cstr. gen.	town	
 129763	pdrm	pdr(I)/m	pdr (I)	n. m. pl. abs. acc.	town	
 # KTU 1.4 VII:9						
 129764	ṯṯ	ṯṯ/	ṯṯ	num.	2) composite numbers	
@@ -1687,10 +1687,10 @@
 129790	kṯr	kṯr(III)/	kṯr (III)	DN m. sg. abs. voc.	Koṯaru/Kothar	
 129791	bn	b~n	b	prep. + encl. -n	2) temporal situation a) time when something happens	
 # KTU 1.4 VII:16						
-129792	ym	ym(I)/	ym (I)	n. m. sg. abs. acc.	1) day a) as a date	bn ym 'this very day'.
+129792	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	bn ym 'this very day'.
 129793	kṯr	kṯr(III)/	kṯr (III)	DN m. sg. abs. voc.	Koṯaru/Kothar	
 129794	bnm	b~nm	b	prep. + encl.	in	
-129795	ˤdt	ˤd(t(II)/t	ʕdt (II)	n. f. sg. abs. acc.	date	bnm ˤdt 'at the appointed time'.
+129795	ˤdt	ˤd(t(II)/t	ʕdt (II)	n. f. sg. abs. gen.	date	bnm ˤdt 'at the appointed time'.
 # KTU 1.4 VII:17						
 129796	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb N prefc. 3 m. sg.	to be opened	'a window is opened in the house'; assimilated N-stem n encoded ](n].
 129797	ḥln	ḥln/	ḥln	n. m. sg. abs. nom.	window	
@@ -1971,7 +1971,7 @@
 # KTU 1.4 VIII:13						
 130017	ṯbth	ṯb(t/t+h	ṯbt	n. f. sg. cstr. nom. + 3 m. sg. suff.	seat	
 130018	ḫḫ	ḫḫ/	ḫḫ	n. m. sg. abs. nom.	mire	ḫḫ arṣ nḥlth 'mire is the land of his possession'.
-130019	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+130019	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	
 # KTU 1.4 VIII:14						
 130020	nḥlth	nḥl(t/t+h	nḥlt	n. f. sg. cstr. nom. + 3 m. sg. suff.	property	his possession
 130021	w	w	w	conj.	and	
@@ -1991,7 +1991,7 @@
 130032	yˤdbkm	!y!ˤdb[+km	/ʕ-d-b/	vb G prefc. 3 m. sg. + 2 m. du. suff.	to leave > to put in > to place	'lest he place you two'.
 # KTU 1.4 VIII:18						
 130033	k	k(I)	k (I)	prep.	like	k imr 'like a lamb'.
-130034	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. acc.	lamb	
+130034	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. gen.	lamb	
 130035	b	b	b	prep.	in	
 130036	ph	p(III)/+h	p (III)	n. m. sg. cstr. gen. + 3 m. sg. suff.	1) mouth	his mouth
 # KTU 1.4 VIII:19						

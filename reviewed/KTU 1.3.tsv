@@ -84,7 +84,7 @@
 # KTU 1.3 I:19						
 127330	mṣltm	mṣl(t/tm	mṣlt (I)	n. f. pl. abs. nom.	cymbal	this is feminine dual form
 127331	bd	bd(IV)	b	prep.	in	
-127332	nˤm	nˤm	nʕm (I)	adj. m. sg. abs. nom.	1) handsome b) pleasant	
+127332	nˤm	nˤm	nʕm (I)	adj. m. sg. abs. gen.	1) handsome b) pleasant	
 # KTU 1.3 I:20						
 127333	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	1) to sing	
 127334	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	1) lad	
@@ -159,7 +159,7 @@
 127389	tḫtṣb	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb Gt prefc. 3 f. sg.	to fight	tḫtṣb 'she does battle'.
 127390	bnx	bn(II)&x	bn (II)	prep.	between, among	bnx: bn + broken sign (Tania bn+x).
 # KTU 1.3 II:7						
-127391	qrytm	qry(t/tm	qryt	n. f. pl. abs. nom.	city	dual of qryt
+127391	qrytm	qry(t/tm	qryt	n. f. pl. abs. gen.	city	dual of qryt
 127392	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 f. sg.	to wound, beat, crush, kill	
 127393	lim	lim(I)/	lỉm (I)	n. m. sg. cstr. nom.	people	
 127394	ḫp	ḫp(I)/	ḫp (I)	n. m. sg. cstr. gen.	shore	
@@ -497,7 +497,7 @@
 # KTU 1.3 III:25						
 127668	thmt	thm(t/t	thmt	n. f. sg. abs. gen.	Primordial Ocean	
 127669	ˤmn	ˤm~n(II)	ʕm (I)	prep.	to	actually ˤmn(II) is just ˤm(I)~n
-127670	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	1) heavenly body	
+127670	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	1) heavenly body	
 # KTU 1.3 III:26						
 127671	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	this is a noun although Gabrini: 'I undestand of lightening' !a!bn[
 127672	brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
@@ -751,7 +751,7 @@
 # KTU 1.3 IV:17						
 127883	thmt	thm(t/t	thmt	n. f. sg. abs. gen.	Primordial Ocean	
 127884	ˤmn	ˤm~n(II)	ʕm (I)	prep.	to	actually ˤmn(II) is just ˤm(I)~n
-127885	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	heavenly body	
+127885	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body	
 127886	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	abn brq 'I understand the lightning'.
 127887	brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
 # KTU 1.3 IV:18						
@@ -860,7 +860,7 @@
 127974	inbb	inbb/	ỉnbb	TN sg. abs. gen.	god (of the) mountain	
 # KTU 1.3 IV:35						
 127975	l	l(I)	l (I)	prep.	to	
-127976	rḥq	rḥq/	rḥq	adj. m. sg. abs. nom.	distant	
+127976	rḥq	rḥq/	rḥq	adj. m. sg. abs. gen.	distant	
 127977	ilnym	ilny/m	ỉlny	adj. m. pl. abs. nom.	divine one	
 127978	ṯn	ṯn(I)	ṯn (I)	num.	1) the numeral two b) ge	are numbers not like nouns?
 127979	mṯpdm	mṯpd/m	mṯpd	n. m. pl. abs. nom.	layer	
@@ -1191,7 +1191,7 @@
 128253	ḥẓt	ḥẓ(t/t	ḥẓt	adj. f. sg. abs. nom.	happy	
 128254	tḥmk	tḥm/+k	tḥm	n. m. cstr. nom.	message	
 # KTU 1.3 V:32						
-128255	mlkn	mlk(I)/+n	mlk (I)	n. m. sg. abs. nom.	1) king e) part of the divine titulary (cf. Rahmouni DEAUT 4ff.)	or ~n
+128255	mlkn	mlk(I)/+n	mlk (I)	n. m. sg. cstr. nom.	1) king e) part of the divine titulary (cf. Rahmouni DEAUT 4ff.)	or ~n
 128256	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 128257	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. cstr. nom.	Baʿlu/Baal	
 128258	ṯpṭn	ṯpṭ(II)/+n	ṯpṭ (II)	n. m. cstr. gen.	judge	or ~n
@@ -1321,7 +1321,7 @@
 128356	ġlmt	ġlm(t(I)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	
 # KTU 1.3 VI:8						
 128357	ˤmm	ˤm(II)/~m	ʕm (I)	prep.	to	
-128358	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+128358	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
 128359	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	or b~n (preposition)
 128360	ẓlmt	ẓlm(t/t	ẓlmt	n. f. sg. abs. nom.	darkness	
 # KTU 1.3 VI:9						
@@ -1398,11 +1398,11 @@
 128415	klh	kl/+h	kl	n. m. cstr. gen.	totality (of)	
 128416	kptr	kptr/	kptr	TN sg. abs. nom.	Crete	
 # KTU 1.3 VI:26						
-128417	ksu	ksu/	ks/śủ	n. m. sg. abs. nom.	seat, throne, chair	
+128417	ksu	ksu/	ks/śủ	n. m. sg. cstr. nom.	seat, throne, chair	
 128418	ṯbth	(yṯb[t+h	ṯbt	n. f. sg. cstr. nom.	seat	Correct?
 128419	ḥkpt	ḥkpt/	ḥkpt	TN sg. abs. nom.	mythical	
 # KTU 1.3 VI:27						
-128420	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
+128420	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	
 128421	nḥlth	nḥl(t/t+h	nḥlt	n. f. sg. cstr. nom.	property	
 # KTU 1.3 VI:28						
 128422	b	b	b	prep.	in	
@@ -1434,9 +1434,9 @@
 128443	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
 128444	ṯny	!!ṯny[	/ṯ-n-y/	vb G suffc. 3 m. sg.	to repeat	
 128445	l	l(I)	l (I)	prep.	to	
-128446	h	hyn/	hyn	DN m. sg. abs. nom.	<i>Ea</i> of the Artisans	MERGE WITH THE NEXT: h+yn = hyn (DN Hayyānu/Kothar).
+128446	h	hyn/	hyn	DN m. sg. abs. gen.	<i>Ea</i> of the Artisans	MERGE WITH THE NEXT: h+yn = hyn (DN Hayyānu/Kothar).
 # KTU 1.3 VI:34						
-128447	yn	hyn/	hyn	DN m. sg. abs. nom.	<i>Ea</i> of the Artisans	MERGE WITH THE PREVIOUS.
+128447	yn	hyn/	hyn	DN m. sg. abs. gen.	<i>Ea</i> of the Artisans	MERGE WITH THE PREVIOUS.
 128448	d	d	d	det. or rel. functor	the one(s) of	
 128449	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. cstr. nom.	craftsman	
 128450	ydm	yd/m	yd (I)	n. f. pl. cstr. gen.	hand	
