@@ -394,7 +394,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131122	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 131123	arḫ	arḫ/	ảrḫ	n. f. sg. abs. gen.	cow	'like the heart of a cow for her calf'. KTU: ar[ḫ].
 # KTU 1.6 II:7						
-131124	lxˤglh	l(I) ˤgl(I)/+h	l (I); ʕgl (I)	prep.; n. m. sg. cstr. gen.	to; calf	Split; x = broken sign (KTU: l ˤglh).
+131124	lxˤglh	l(I)&x ˤgl(I)/+h	l (I); ʕgl (I)	prep.; n. m. sg. cstr. gen.	to; calf	Split; x = broken sign (KTU: l ˤglh).
 131125	k	k(I)	k (I)	prep.	like	
 131126	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 131127	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. gen.	ewe	KTU: ṯa[t].
@@ -1210,7 +1210,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131778	l	l(III)	l (III)	functor	indeed	
 131779	tlḥm	!t=!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 2 m. sg.	to eat	
 # KTU 1.6 VI:44						
-131780	lḥm	lḥm/	lḥm 3	n. m. sg. cstr. acc.	food, bread	lḥm trmmt 'the bread of offering'.
+131780	lḥm	lḥm/	lḥm	n. m. sg. cstr. acc.	food, bread	lḥm trmmt 'the bread of offering'.
 131781	trmmt	tr&mm(t/t	trmt	n. f. sg. abs. gen.	offering	DULAT: trmt; second m scribal (tr{m}mt).
 131782	l	l(III)	l (III)	functor	indeed	
 131783	tšt	!t=!št(y[	/š-t-y/	vb G prefc. 2 m. sg.	to drink	'you may drink the offertory wine' (UNP).
