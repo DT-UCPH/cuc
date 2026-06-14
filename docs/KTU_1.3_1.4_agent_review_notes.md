@@ -181,3 +181,20 @@ KTU 2.x range and Ksenia reviewed 1.6. So 1.4 discrepancies are agent-vs-parser,
 and 1.3 is agent-aligned-onto-Tania. The POS-granularity / DN-vs-n. / multiple-
 glosses questions raised for 1.5/1.6 (see `KTU_1.5_agent_review_notes.md`) apply
 here too.
+
+## 5. KTU 1.1 and 1.2 (no human gold)
+
+The remaining Baal Cycle tablets, 1.1 (cols II–V, 491 tokens) and 1.2 (cols I–IV,
+950 tokens), have no human-reviewed reference, so they were seeded from the 0.2.7
+auto-parse with `agent/scripts/build_reviewed_from_auto.py`: every id kept, the
+best-reconstructing variant chosen per id, glosses re-derived from DULAT, col4
+spacing normalised. Clear auto-`?`s were resolved (1.1: `lṭpn` 'Benevolent' ×4,
+`ksu` 'throne', `lpˤn` = l + pʕn; 1.2: `lakt` /l-ʔ-k/ 'I sent', `wḫss` = w + ḫss).
+Both tablets are heavily damaged, so many tokens remain `?` (broken `x`-signs or
+words absent from DULAT) — these are flagged, not invented. They have **not**
+been morphologically reviewed token-by-token (no gold to check against); they are
+a validated, DULAT-faithful starting point.
+
+**Whole Baal Cycle now validates** (1.1–1.6, 6009 tokens): every CUC 0.2.7 id
+present, every col4 a real DULAT lemma or `?`, every non-MERGE row reconstructs,
+all MERGE pairs reconstruct the joined surface, 7-column layout throughout.
