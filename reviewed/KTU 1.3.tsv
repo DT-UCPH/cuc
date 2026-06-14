@@ -20,8 +20,8 @@
 127279	w	w	w	conj.	and	
 127280	yšlḥmnh	!y!]š]lḥm[~n+h	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	1) to give to eat	
 # KTU 1.3 I:6						
-127281	ybr	!y!br	?	?	?	d on next line should be attached?!
-127282	d	d[	d	det. or rel. functor	the one(s) of	
+127281	ybr	!y!brd[	/b-r-d/	vb G prefc. 3 m. sg.	to divide, separate	MERGE WITH THE NEXT: ybr+d = ybrd 'he carves (a portion)'.
+127282	d	!y!brd[	/b-r-d/	vb G prefc. 3 m. sg.	to divide, separate	MERGE WITH THE PREVIOUS.
 127283	ṯd	ṯd/	ṯd	n. m. pl. cstr. nom.	2) breast (of meat)	
 127284	l	l(I)	l (I)	prep.	to	
 127285	pnwh	pn&w(m/+h	pnm	n. m. pl. tant. cstr. gen.	in front	the lexeme is pnm (plur tantu)
@@ -151,9 +151,9 @@
 127382	w	w	w	conj.	and	
 127383	hln	hl~n	hln	deictic adv. functor	look!	
 127384	ˤnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-127385	tm	!t!m	tm	adj. m. sg. abs. nom.	complete	
+127385	tm	!t!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 3 f. sg.	to wound, beat, crush, kill	MERGE WITH THE NEXT: tm+tḫṣ = tmtḫṣ 'she fights'.
 # KTU 1.3 II:6						
-127386	tḫṣ	]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 3 f. sg.	to wound, beat, crush, kill	is one word with previous: tmtḫṣ Verb Gt 3fs. Repair!
+127386	tḫṣ	!t!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 3 f. sg.	to wound, beat, crush, kill	MERGE WITH THE PREVIOUS.
 127387	b	b	b	prep.	1) spatial location a) place in which something occurs	
 127388	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. cstr. gen.	1) valley a) w hln tmtḫṣ b ʕmq and then DN fought in the valley	
 127389	tḫtṣb	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb Gt prefc. 3 f. sg.	to fight	tḫtṣb 'she does battle'.
@@ -310,9 +310,9 @@
 127514	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	1.3 II 32
 127515	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 f. sg.	to wash	G
 127516	ydh	yd(I)/+h=	yd (I)	n. f. cstr. nom.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
-127517	bt	bt	bt (I)	n. f. sg. abs. nom.	daughter	MERGE WITh NEXT WORD? btlt
+127517	bt	btlt/	btlt	n. f. sg. cstr. nom.	virgin	MERGE WITH THE NEXT: bt+lt = btlt 'Maiden' (btlt ˤnt).
 # KTU 1.3 II:33						
-127518	lt	l(t/t	lt	?	?	MERGE WITH PREVIOUS WORD
+127518	lt	btlt/	btlt	n. f. sg. cstr. nom.	virgin	MERGE WITH THE PREVIOUS.
 127519	ˤnt	ˤnt(I)/	ʕnt (I)	DN f. sg. cstr. nom.	ʿAnatu/Anat	
 127520	uṣbˤth	uṣbˤ(t/t=+h=	ủṣbʕ	n. f. pl. cstr. + 3 m. sg. suff.	finger; claw	
 127521	ybmt	ybm(t/t	ybmt	n. f. sg. cstr. gen.	widow sister-in-law	
@@ -619,8 +619,8 @@
 127770	ˤtk	ˤtk(I)/	ʕtk (I)	DN m. sg. abs. acc.	the Savage One	ʕgl il ʕtk 'the calf of El, the Savage One'.
 # KTU 1.3 III:45						
 127771	mḫšt	mḫš[t	/m-ḫ-š/	vb G suffc. 1 c. sg.	to crush	
-127772	k	k	-k (I)		your(s)	MERGE WITH NEXT WORD: "DOG"
-127773	lbt	lb(t/t	lbt	n. f. pl. cstr. nom.	hoop / plate	
+127772	k	klb(t/t	klb (I)	n. f. sg. cstr. nom.	dog	MERGE WITH THE NEXT: k+lbt = klbt 'bitch (of the gods)'.
+127773	lbt	klb(t/t	klb (I)	n. f. sg. cstr. nom.	dog	MERGE WITH THE PREVIOUS.
 127774	ilm	il(I)/~m (I)	ỉl (I)	n. m. pl. cstr. gen.	god	SUFFIX?
 127775	išt	iš(t/t	ỉšt	n. f. sg. abs. gen.	4) DN	
 # KTU 1.3 III:46						
@@ -643,8 +643,8 @@
 127790	k	k(I)	k (I)	prep.	like	
 127791	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	1) bird	
 # KTU 1.3 IV:2						
-127792	u	u	ủ	conj.	or	MERGE WITH NEXT parsing udn/+h
-127793	dnh	dn(II)/+h	d	det. or rel. functor	the one(s) of	
+127792	u	udn/+h	ủdn (I)	n. f. sg. cstr. + 3 m. sg. suff.	ear	MERGE WITH THE NEXT: u+dnh = udnh 'his ear'.
+127793	dnh	udn/+h	ủdn (I)	n. f. sg. cstr. + 3 m. sg. suff.	ear	MERGE WITH THE PREVIOUS.
 127794	gršh	grš[/+h	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject, drive out, evict, cast out	G participle; or :d SC
 127795	l	l(I)	l (I)	prep.	to	
 127796	ksi	ks(u&/i	ks/śủ	n. f. cstr. gen.	seat	case ending
@@ -1112,9 +1112,9 @@
 128186	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
 128187	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 128188	bnt	bn(t(I)/t	bnt (II)	n. f. sg. cstr. gen.	produce	
-128189	bht	bht/	bt (II)	n. m. pl. abs. gen.	2) palace	MERGE WITH NEXT, is pron suffix
+128189	bht	b&ht(II)/+k	bt (II)	n. m. pl. cstr. + 2 m. sg. suff.	2) palace	MERGE WITH THE NEXT: bht+k = bhtk 'your house'.
 # KTU 1.3 V:20						
-128190	k	+k	-k (I)		your(s)	
+128190	k	b&ht(II)/+k	bt (II)	n. m. pl. cstr. + 2 m. sg. suff.	2) palace	MERGE WITH THE PREVIOUS.
 128191	y	y	y	prep. functor	oh!	
 128192	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	2) DN a) activities of the god	plural
 128193	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. gen.	masonry	
@@ -1345,9 +1345,9 @@
 128374	glṯ	glṯ/	glṯ	n. m. sg. abs. nom.	storm	
 128375	isr	isr	?	?	?	not in the dictionary,  perhaps root ʔ-s-r 'tie'
 128376	b	b	b	prep.	in	
-128377	rišk	riš(I)/+k	rỉš (I)	n. m. cstr. gen.	head	
+128377	rišk	riš(I)/+km	rỉš (I)	n. m. sg. cstr. + 2 m. pl. suff.	head	MERGE WITH THE NEXT: rišk+m = riškm 'your (pl.) head'.
 # KTU 1.3 VI:14						
-128378	m	m	m(h)	pers. pn.	what?	should merge with the previous word +km
+128378	m	riš(I)/+km	rỉš (I)	n. m. sg. cstr. + 2 m. pl. suff.	head	MERGE WITH THE PREVIOUS.
 128379	brqm	brq(I)/m	brq (I)	n. m. pl. cstr. nom.	ray	
 128380	bn	bn(II)	bn (I)	n. m. sg. cstr. gen.	son	
 128381	ˤnkm	ˤn/+km	ʕn (I)	n. f. cstr. gen.	eye	
@@ -1434,9 +1434,9 @@
 128443	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
 128444	ṯny	!!ṯny[	/ṯ-n-y/	vb G suffc. 3 m. sg.	to repeat	
 128445	l	l(I)	l (I)	prep.	to	
-128446	h	h	-h (II)	adv. functor	to, towards	
+128446	h	hyn/	hyn	DN m. sg. abs. nom.	<i>Ea</i> of the Artisans	MERGE WITH THE NEXT: h+yn = hyn (DN Hayyānu/Kothar).
 # KTU 1.3 VI:34						
-128447	yn	yn	yn	n. m. sg. abs. nom.	wine	MERGE WITH PREVIOUS? hyn, see DOL p346
+128447	yn	hyn/	hyn	DN m. sg. abs. nom.	<i>Ea</i> of the Artisans	MERGE WITH THE PREVIOUS.
 128448	d	d	d	det. or rel. functor	the one(s) of	
 128449	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. cstr. nom.	craftsman	
 128450	ydm	yd/m	yd (I)	n. f. pl. cstr. gen.	hand	
