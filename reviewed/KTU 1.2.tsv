@@ -28,7 +28,7 @@
 # KTU 1.2 I:8						
 126335	rišk	riš(I)/+k	rỉš (I)	n. m. cstr. nom.	1) head	
 126336	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
-126337	šm	š/m	š	n. m. pl. abs. nom.	ram	
+126337	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	ʕṯtrt šm bˤl 'Athtart-the-Name-of-Baal' (šm 'name', not 'ram').
 126338	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 126339	qdqd	qdqd/	qdqd	n. m. sg. abs. nom.	skull	
 126340		?	?	?	?	
@@ -102,7 +102,7 @@
 # KTU 1.2 I:17						
 126400	mˤd	mˤd/	mʕd	n. m. sg. cstr. gen.	convention	
 126401	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
-126402	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+126402	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 126403	bˤlkm	bˤl(II)/+km	bʕl (II)	n. m. cstr. gen.	lord	
 126404	adnkm	adn(I)/+km	ảdn (I)	n. m. cstr. nom.	1) lord	
 126405	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. abs. nom.	to judge	
@@ -161,7 +161,7 @@
 126453	tphhm	!t!ph(y[+hm	/p-h-y/	vb G prefc.	to see, espy	
 126454	tphn	!t!ph(y[+n	/p-h-y/	vb G prefc.	to see, espy	
 126455	mlak	mlak/	mlảk	n. m. sg. cstr. nom.	messenger	
-126456	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+126456	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 126457	tˤdṯpṭt	?	?	?	?	
 126458	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. nom.	to judge	
 126459	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
@@ -200,7 +200,7 @@
 126488	tˤny	!t!ˤn(w[y:d	/ʕ-n-w/	vb D prefc.	to humiliate, knock down	
 126489	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
 126490	mlak	mlak/	mlảk	n. m. sg. cstr. gen.	messenger	
-126491	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+126491	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 126492	tˤdt	tˤd(t/t	tʕdt	n. f. sg. cstr. gen.	embassy	
 126493	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. gen.	to judge	
 126494	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
@@ -219,7 +219,7 @@
 126505	ank	ank	ảnk	pers. pn.	1) i a) subj. in NC	
 126506	ˤny	ˤny(I)[/	/ʕ-n-y/ (I)	vb G act. ptcpl. m. sg. cstr. nom.	1) to answer	
 126507	mlak	mlak/	mlảk	n. m. sg. cstr. gen.	messenger	
-126508	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+126508	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 126509	tˤdt	tˤd(t/t	tʕdt	n. f. sg. cstr. gen.	embassy	
 126510	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. gen.	to judge	
 126511	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
@@ -238,7 +238,7 @@
 126522	aḫr	aḫr	ảḫr	adv./prep./conj.	3) after	
 126523	tmġyn	!t!mġy[+n	/m-ġ-y/	vb G prefc.	to come, arrive	
 126524	mlak	mlak/	mlảk	n. m. sg. cstr. nom.	messenger	
-126525	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+126525	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 126526	tˤdt	tˤd(t/t	tʕdt	n. f. sg. cstr. gen.	embassy	
 126527	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. gen.	to judge	
 126528	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
@@ -527,7 +527,7 @@
 126767	tbn	!t!bn(y[:w	/b-n-y/	vb G prefc. 3 m. pl.	to build	
 126768	bht	b&ht(II)/	bt (II)	n. m. pl. cstr. nom.	2) palace	
 126769	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
-126770	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+126770	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 # KTU 1.2 III:9						
 126771	m	m	m(h)	pers. pn.	what?	
 126772	hkl	hkl/	hkl	n. m. sg. abs. nom.	palace	
@@ -610,7 +610,7 @@
 126842	l	l(I)	l (I)	prep.	to	
 126843	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 126844	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
-126845	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+126845	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 126846	l	l(I)	l (I)	prep.	to	
 126847	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 126848	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. gen.	to judge	
@@ -667,7 +667,7 @@
 126895	bbt	bbt(II)/	bbt (II)	DN sg. cstr. nom.	superintendent	
 # KTU 1.2 III:21						
 126896	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
-126897	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+126897	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 126898	b	b	b	prep.	in	
 126899	hkl	hkl/	hkl	n. m. sg. cstr. gen.	palace	
 126900	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. gen.	to judge	
@@ -679,7 +679,7 @@
 126906	l	l(I)	l (I)	prep.	to	
 126907	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 126908	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
-126909	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+126909	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 # KTU 1.2 III:22						
 126910	l	l(I)	l (I)	prep.	to	
 126911	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
@@ -706,7 +706,7 @@
 126931	x	?	?	?	?	
 126932	x	?	?	?	?	
 126933	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
-126934	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+126934	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 126935	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	
 126936	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. nom.	to judge	
 126937	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
@@ -812,7 +812,7 @@
 127028	tḥt	tḥt(I)	tḥt (I)	prep.	2) at the feet of	
 127029	ksi	ksi/	ks/śủ	n. f. cstr. gen.	seat	
 127030	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
-127031	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+127031	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 127032	w	w	w	conj.	1) copulative conj.	
 127033	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 127034	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
@@ -901,7 +901,7 @@
 127108	ylm	!y!(hlm[	/h-l-m/	vb G prefc. 3 m. sg.	to hit	
 127109	ktp	ktp(I)/	ktp (I)	n. f. sg. cstr. nom.	shoulder	
 127110	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
-127111	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+127111	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 127112	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 127113	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. gen.	hand	
 127114	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. gen.	to judge	
@@ -953,13 +953,13 @@
 # KTU 1.2 IV:22						
 127155	d	d	d	det. or rel. functor	the one(s) of	
 127156	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
-127157	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+127157	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 127158	bn	bn(II)	bn (II)	prep.	between	
 127159	ˤnm	ˤn(I)/m	ʕn (I)	n. f. pl. cstr. gen.	1) eye c) syntagms	
 127160	ṯpṭ	ṯpṭ[/	/ṯ-p-ṭ/	vb G act. ptcpl. m. sg. cstr. gen.	to judge	
 127161	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
 127162	yprsḥ	!y!prsḥ[	prsḥ	vb G prefc. 3 m. sg.	to collapse	
-127163	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+127163	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 # KTU 1.2 IV:23						
 127164	w	w	w	conj.	and	
 127165	yql	!y!ql[	/q-l/	vb G prefc. 3 m. sg.	to fall (down)	
@@ -1021,7 +1021,7 @@
 127215	k	k(III)	k (III)	Subordinating or completive functor	when	
 127216	šbyn	šby/+n	šby	n. m. sg. cstr. nom.	captive	
 127217	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
-127218	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+127218	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 127219	k	k(III)	k (III)	Subordinating or completive functor	when	
 # KTU 1.2 IV:30						
 127220	šbyn	šby/+n	šby	n. m. sg. cstr. nom.	captive	
@@ -1051,7 +1051,7 @@
 127241	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	
 # KTU 1.2 IV:34						
 127242	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-127243	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+127243	ym	ym(I)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 127244	l	l(I)	l (I)	prep.	to	
 127245	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 127246		?	?	?	?	
