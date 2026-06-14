@@ -3,8 +3,8 @@
 127266	tġl	!t!ġl(y[	/ġ-l-y/	vb	1) to degrade	looks like a verb III-y
 127267	bdxxxxx	bdxxxxx	?	?	?	
 # KTU 1.3 I:2						
-127268	p	p	p (III)	n. m. sg. cstr. nom.	mouth	
-127269	rdmn	rdmn	prdmn	DN sg. cstr. gen.	Schar	
+127268	p	prdmn/	prdmn	DN m. sg. abs. nom.	Schar	MERGE WITH THE NEXT: p+rdmn = prdmn (DN); p is not 'mouth'.
+127269	rdmn	prdmn/	prdmn	DN m. sg. abs. nom.	Schar	MERGE WITH THE PREVIOUS.
 127270	ˤbd	ˤbd[	/ʕ-b-d/	vb G suffc. 3 m. sg.	to work (a field), to cultivate	'serves Mightiest Baal' (Tania reads vb; cf. noun ʕbd 'servant').
 127271	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 # KTU 1.3 I:3						
@@ -64,7 +64,7 @@
 # KTU 1.3 I:15						
 127314	l	l(II)	l (I)	prep.	to	or (III) for precative
 127315	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see, look (at), watch, spy	
-127316	aṯrt	aṯrt(II)/	ảṯrt (I)	n. f. sg. abs. nom.	back part (of the head)	
+127316	aṯrt	aṯrt(II)/	ảṯrt (II)	DN f. sg. abs. nom.	Asherah	krpn l tˤn aṯrt 'a goblet Athirat may not eye' (DN, not 'nape').
 127317	alp	alp(II)/	ảlp (II)	num.	1) (one, a) thousand c) in appos	
 # KTU 1.3 I:16						
 127318	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	2) “jar”	
@@ -130,7 +130,7 @@
 # KTU 1.3 II:2						
 127365	kpr	kpr(II)/	kpr (II)	n. m. sg. cstr. nom.	henna (powder or dye)	
 127366	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
-127367	bnt	bn(t/t=	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
+127367	bnt	b&nt/	bt (I)	n. f. pl. cstr. gen.	daughter	
 127368	rḥ	rḥ(II)/	rḥ (II)	n. m. sg. cstr. gen.	aroma	
 127369	gdm	gd(I)/m	gd (I)	n. m. pl. abs. gen.	coriander	coriander in plural ?
 # KTU 1.3 II:3						
@@ -157,7 +157,7 @@
 127387	b	b	b	prep.	1) spatial location a) place in which something occurs	
 127388	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. cstr. gen.	1) valley a) w hln tmtḫṣ b ʕmq and then DN fought in the valley	
 127389	tḫtṣb	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb Gt prefc. 3 f. sg.	to fight	tḫtṣb 'she does battle'.
-127390	bnx	bn(I)/&x	bn (I)	n. m. sg. cstr. gen.	son	bnx: bn + broken sign (Tania bn+x).
+127390	bnx	bn(II)&x	bn (II)	prep.	between, among	bnx: bn + broken sign (Tania bn+x).
 # KTU 1.3 II:7						
 127391	qrytm	qry(t/tm	qryt	n. f. pl. abs. nom.	city	dual of qryt
 127392	tmḫṣ	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 f. sg.	to wound, beat, crush, kill	
@@ -236,7 +236,7 @@
 127453	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. cstr. gen.	valley	
 # KTU 1.3 II:20						
 127454	tḫtṣb	!!tḫ]t]ṣb[/	tḫtṣb	n. m. sg. cstr. gen.	battle	infinite Gt or verbal noun, the first t is a nominal prefix
-127455	bn	bn(II)	bn (I)	n. m. sg. cstr. gen.	son	
+127455	bn	bn(II)	bn (II)	prep.	between, among	
 127456	qrtm	qrt(I)/m	qrt (I)	n. f. pl. abs. gen.	1) city	dual
 127457	tṯˤr	!t!ṯˤr[	/ṯ-ʕ-r/	vb G prefc. 3 f. sg.	to prepare (the table)	
 # KTU 1.3 II:21						
@@ -271,7 +271,7 @@
 127481	lbh	lb/+h=	lb	n. m. cstr. nom.	heart	
 127482	b	b	b	prep.	in	
 127483	šmḫt	šmḫ(t/t	šmḫt	n. f. sg. cstr. gen.	joy	
-127484	kbd	kbd(I)/	kbd (II)	n. m. sg. cstr. gen.	total (quantity or price)	
+127484	kbd	kbd(I)/	kbd (I)	n. m. sg. cstr. gen.	liver	
 127485	ˤnt	ˤnt(I)/	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.3 II:27						
 127486	tšyt	tšy(t/t	tšyt	n. f. sg. abs. gen.	triumph	
@@ -287,7 +287,7 @@
 127495	mmˤ	mmˤ/	mmʕ	n. m. pl. cstr. gen.	gore	
 127496	mhrm	mhr/m	mhr (I)	n. m. pl. cstr. gen.	warrior (trained, expert)	
 # KTU 1.3 II:29						
-127497	ˤd	ˤd(I)	ʕd (III)	n. m. sg. abs. gen.	throne	
+127497	ˤd	ˤd(I)	ʕd (I)	n. m. sg. abs. gen.	up to, until; close to, around	
 127498	tšbˤ	!t!šbˤ(II)[	/š-b-ʕ/ (II)	vb G prefc. 3 f. sg.	1) to be sated	
 127499	tmtḫṣ	!t!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 3 f. sg.	to fight	
 127500	b	b	b	prep.	in	
@@ -366,7 +366,7 @@
 127560	ttpp	!t!(n]t]pp[	/n-p(-p)/	vb Gt prefc.	to sprinkle oneself, anoint oneself	1.3 III
 127561	anhbm	anhb/m	ảnhb	n. m. pl. abs. nom.	ein Stein	
 127562	d	d	d	det. or rel. functor	the one(s) of	
-127563	alp	alp(II)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+127563	alp	alp(II)/	ảlp (II)	n. m. sg. cstr. nom.	(one, a) thousand	
 127564	šd	šd(I)/	šd (I)	n. m. sg. cstr. gen.	open field	
 # KTU 1.3 III:2						
 127565	ẓuh	ẓu/+h=	ẓủ	n. m. sg. cstr. gen.	exhalation	
@@ -384,7 +384,7 @@
 127574	irth	ir(t/t+h=	ỉrt	n. f. sg. cstr. gen.	1) breast a) breast	
 127575	tšr	!t!šr(I)[	/š-r/ (I)	vb G prefc.	1) to sing	
 127576	l	l(I)	l (I)	prep.	to	
-127577	dd	dd(I)/	dd (II)	n. m. sg. abs. gen.	cauldronful	
+127577	dd	dd(I)/	dd (I)	n. m. sg. abs. gen.	love	
 127578	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 # KTU 1.3 III:6						
 127579	bˤl	bˤl(III)	bʕl (II)	DN m. sg. cstr. nom.	Baʿlu/Baal	
@@ -397,7 +397,7 @@
 127585	ṭly	ṭly/	ṭly	DN sg. cstr. gen.	Tallay	
 127586	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	so we don't connect fem b(n(t/t with bn/?
 127587	rb	rb(b/	rb (II)	n. m. sg. cstr. gen.	chief	rb is a variant of rbb
-127588	dd	dd(I)/	dd (II)	n. m. sg. cstr. gen.	cauldronful	
+127588	dd	dd(I)/	dd (I)	n. m. sg. cstr. gen.	love	
 127589	arṣy	arṣy/	ảrṣy	DN sg. cstr. gen.	Arṣay/Arsay	
 # KTU 1.3 III:8						
 127590	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	so we don't connect fem b(n(t/t with bn/?
@@ -499,7 +499,7 @@
 127669	ˤmn	ˤm~n(II)	ʕm (I)	prep.	to	actually ˤmn(II) is just ˤm(I)~n
 127670	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	1) heavenly body	
 # KTU 1.3 III:26						
-127671	abn	abn/	ảbn	n. f. sg. cstr. nom.	1) stone b) types	this is a noun although Gabrini: 'I undestand of lightening' !a!bn[
+127671	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	this is a noun although Gabrini: 'I undestand of lightening' !a!bn[
 127672	brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
 127673	d	d	d	det. or rel. functor	the one(s) of	
 127674	l	l(II)	l (II)	adv.	no	
@@ -567,7 +567,7 @@
 127726	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
 127727	ik	ik	ỉk	interr. functor	how?	
 127728	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
-127729	gpn	gpn(III)/	gpn (I)	n. m. sg. abs. nom.	(vine-)stock	
+127729	gpn	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	(vine-)stock	
 127730	w	w	w	conj.	and	
 127731	ugr	ugr(II)/	ủgr (II)	DN sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
 # KTU 1.3 III:37						
@@ -733,7 +733,7 @@
 127867	w	w	w	conj.	and	
 127868	lḫšt	lḫš(t/t	lḫšt	n. f. sg. cstr. nom.	chatter	
 # KTU 1.3 IV:15						
-127869	abn	abn/	ảb	n. m. cstr. gen.	father	
+127869	abn	abn/	ảbn	n. f. sg. abs. nom.	stone	lḫšt abn 'the whisper of stones'.
 127870	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	rgm l tdˤ nšm 'a word people do not know'.
 127871	l	l(II)	l (I)	prep.	to	
 127872	tdˤ	!t!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc. 3 f. sg.	to know	tdˤ 'she knows' (Tania td+ˤ).
@@ -752,7 +752,7 @@
 127883	thmt	thm(t/t	thmt	n. f. sg. abs. gen.	Primordial Ocean	
 127884	ˤmn	ˤm~n(II)	ʕm (I)	prep.	to	actually ˤmn(II) is just ˤm(I)~n
 127885	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	heavenly body	
-127886	abn	abn/	ảb	n. m. cstr. nom.	father	this is a noun although Gabrini: 'I understand of lightening' !a!bn[
+127886	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	abn brq 'I understand the lightning'.
 127887	brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
 # KTU 1.3 IV:18						
 127888	d	d	d	det. or rel. functor	the one(s) of	
@@ -841,7 +841,7 @@
 127958	mṯn	mṯn/	mṯn	n. m. sg. cstr. nom.	repetition	
 127959	rgmm	rgm/~m	rgm	n. m. pl. cstr. gen.	word	
 # KTU 1.3 IV:32						
-127960	argmn	!a!rgm/~n	ả/ỉrgmn	n. m. sg. abs. gen.	payment of tribute to the Hittite court	energic
+127960	argmn	!a!rgm[~n	/r-g-m/	vb G prefc. 1 c. sg.	to say, tell, announce, communicate, inform; to answer; to recite	ap mṯn rgmm argmn 'a further word I will tell'.
 127961	lk	!!(hlk[	/h-l-k/	vb G impv. m. sg.	to go, go away; to run, flow; to roam	lk 'go!'.
 127962	lk	!!(hlk[	/h-l-k/	vb G impv. m. sg.	to go, go away; to run, flow; to roam	lk 'go!'.
 127963	ˤnn	ˤnn/	ʕnn	n. m. sg. cstr. nom.	2) herald	
@@ -882,7 +882,7 @@
 127992	mrym	mrym/	mrym	n. m. sg. cstr. gen.	height	
 127993	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 127994	b	b	b	prep.	in	
-127995	alp	alp(II)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	isn't it a noun?
+127995	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	alp šd rbt kmn 'a thousand fields, a myriad acres'.
 127996	šd	šd(I)/	šd (II)	n. m. sg. abs. gen.	1) a strip b) in lit. texts	
 127997	rbt	rb/t	rb(b)t	num. sg.	ten thousand	
 127998	kmn	kmn(I)/	kmn (I)	n. m. sg. cstr. nom.	acre	
@@ -903,7 +903,7 @@
 128010	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 128011	alp	alp(I).	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle c) for slaughter ( ṭbḫ )	
 128012	qdmh	qdm(II)+h	qdm (II)	prep.	in front of	
-128013	mria	mr(u&i(II)/&a	mrủ (II)	n. m. sg. abs. acc.	animal fattener	the first aleph-i is either an error or a vowel letter for i
+128013	mria	mr(u&i(I)/&a	mrủ (I)	n. m. sg. abs. acc.	fattened	alp qdmh mria 'an ox..., a fatling' (mrủ I; vs Tania (II)).
 128014	w	w	w	conj.	and	
 128015	tk	tk/	tk	n. m. cstr. nom.	3) before	
 # KTU 1.3 IV:42						
@@ -928,7 +928,7 @@
 128031	ttpp	!t!(n]t]pp[	/n-p(-p)/	vb Gt prefc.	to sprinkle oneself	
 128032	anhbm	anhb/m	ảnhb	n. m. pl. abs. nom.	ein Stein	
 128033	d	d	d	det. or rel. functor	2) which	
-128034	alp	alp(II)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+128034	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	d alp šd.
 128035	šd	šd(I)/	šd (I)	n. m. sg. cstr. gen.	open field	
 # KTU 1.3 IV:46						
 128036	ẓuh	ẓ(u/u+h	ẓủ	n. m. sg. cstr. gen.	exhalation	u is not just part of the root but also case ending
@@ -1169,7 +1169,7 @@
 128234	b	b	b	prep.	in	
 128235	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. abs. gen.	1) goddess a) as a category/class	Plural of ilt "goddess" extended by h
 128236	qlṣk	qlṣ[/k	/q-l-ṣ/	vb G inf.	to resist, stand up to, oppose	VErb form, infinitive or participle
-128237	mh	mh	mh/y	n. m. sg. abs. nom.	water	
+128237	mh	mh	mh	interr. pron.	what?	
 128238	taršn	!t!(ʔ&arš[n	/ʔ-r-š/	vb G prefc.	to request, wish, demand, claim	
 # KTU 1.3 V:29						
 128239	l	l	l (I)	prep.	to	
@@ -1219,7 +1219,7 @@
 128276	d	d	d	det. or rel. functor	2) which	
 128277	yknnh	!y!knn[:l+h	/k-n/	vb L prefc. 3 m. sg.	to establish, interpose, bring up	this is L-stem verb (paalil)
 128278	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	
-128279	aṯrt	aṯr(t(II)/t	ảṯrt (I)	n. f. sg. abs. nom.	back part (of the head)	
+128279	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Asherah	
 # KTU 1.3 V:37						
 128280	w	w	w	conj.	and	
 128281	bnh	bn(I)/h=	bn (I)	n. m. cstr. nom.	4) special uses b) pl. cstr./suff. bn “sons of” > family	
@@ -1313,12 +1313,12 @@
 128349	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 128350	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 128351	ˤn	!!ˤn[	/ʕ-n/	vb G impv. m. sg.	to see, look (at), watch, spy	ʕn gpn w ugr 'look, Gapnu-and-Ugaru!' (cf. 1.4 VII:53).
-128352	gpn	gpn(III)	gpn (I)	n. m. sg. abs. gen.	(vine-)stock	
+128352	gpn	gpn(III)	gpn (III)	DN m. sg. abs. nom.	(vine-)stock	
 # KTU 1.3 VI:7						
 128353	w	w	w	conj.	and	
 128354	ugr	ugr(II)	ủgr (II)	DN sg. cstr. nom.	Ugar/one of the two messenger-boys of Baal	
 128355	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-128356	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. gen.	damsel	
+128356	ġlmt	ġlm(t(I)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	
 # KTU 1.3 VI:8						
 128357	ˤmm	ˤm(II)/~m	ʕm (I)	prep.	to	
 128358	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
@@ -1379,7 +1379,7 @@
 # KTU 1.3 VI:21						
 128401	l	l(I)	l (I)	prep.	to	
 128402	dgy	dgy/	dgy	n. m. du. cstr. gen.	triton	
-128403	aṯrt	aṯr(t(II)/t	ảṯrt (I)	n. f. sg. abs. gen.	back part (of the head)	
+128403	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	Asherah	
 # KTU 1.3 VI:22						
 128404	mġ	!!mġ(y[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
 128405	l	l(I)	l (I)	prep.	to	
