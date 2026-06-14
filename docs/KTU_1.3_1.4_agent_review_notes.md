@@ -150,19 +150,27 @@ not flagged. A broader pass setting *all* prep-governed nouns to gen. (incl. the
 unwritten-case majority) is a separate decision — case is mostly notional where
 no aleph makes it visible.
 
-### 3.3 Tania's open questions (preserved verbatim as comments — need a decision)
+### 3.3 Word-split tokens resolved (Tania's "[" fragments / merge-notes)
 
-* **127517–518 `bt` + `lt`** — Tania: "MERGE WITH NEXT WORD? btlt". Likely the
-  epithet *btlt* 'Maiden' (of Anat); 0.2.7 keeps two tokens.
-* **127732 `m`** — "MERGE WITH NEXT?? or the previous one".
-* **127772 `k`** — "MERGE WITH NEXT WORD: 'DOG'" (i.e. `klb`?).
-* **127792 `u`** — "MERGE WITH NEXT, parsing udn/+h".
-* **128088 `nn`** — Tania: "No! let us keep it as it is, separately!".
-* **128189 `bht`** — "MERGE WITH NEXT, is pron suffix".
-* **128447 `yn`** — "MERGE WITH PREVIOUS? hyn, see DOL p346".
+Tania flags tokenizer splits two ways: a `[`-closed fragment that can't stand
+alone (e.g. `d[`) and explicit "merge/attach" notes. These are real splits — the
+0.2.7 tokenizer cut one word into two — and were joined with the MERGE convention
+(both rows carry the same analysis reconstructing the joined surface):
 
-These are deliberately left as Tania set them; resolving them is a project
-decision (and a good signal for the tokenizer/merger).
+| ids | joined | analysis | DULAT |
+|---|---|---|---|
+| 127281+282 | ybrd | `!y!brd[` | /b-r-d/ 'he carves (a portion)' |
+| 127385+386 | tmtḫṣ | `!t!m]t]ḫṣ[` | /m-ḫ-ṣ/ Gt 'she fights' |
+| 127517+518 | btlt | `btlt/` | btlt 'Maiden' (btlt ˤnt) |
+| 127772+773 | klbt | `klb(t/t` | klb (I) 'bitch (of the gods)' |
+| 127792+793 | udnh | `udn/+h` | ủdn (I) 'his ear' |
+| 128189+190 | bhtk | `b&ht(II)/+k` | bt (II) 'your house' |
+| 128377+378 | riškm | `riš(I)/+km` | rỉš (I) 'your (pl.) head' |
+| 128446+447 | hyn | `hyn/` | hyn (DN Hayyānu/Kothar) |
+
+Two were left as Tania set them, per her own notes: **127732 `m`** ("MERGE WITH
+NEXT?? or the previous one" — she is unsure) and **128088 `nn`** ("No! let us
+keep it as it is, separately!"). These remain a project/tokenizer decision.
 
 ---
 
