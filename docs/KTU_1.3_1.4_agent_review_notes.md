@@ -110,9 +110,45 @@ and glosses from DULAT; Tania's inline `# …` notes are kept as comments.
   encoded the reading difference (`128248 ḥkm`; `127847 (ḥ&hš[+k`).
 * **aleph a / ʔ:** Tania occasionally writes the consonantal aleph `ʔ` where
   0.2.7 writes `a` (e.g. `klat` vs `klʔt`); analyses adjusted to reconstruct the
-  0.2.7 surface (`127372 kl(ʔ&a[t=`).
+  0.2.7 surface (`127372 kl(ʔ&a/t=`).
 * **weak radicals:** a few analyses needed the unwritten radical encoded to
   reconstruct (`127688 ibġyh`, `127814 yˤnyn`).
+
+### 3.2a Auto col4/POS corrected against Tania's gold col3
+
+Merging Tania's col3 with the auto-parser's col4/POS is *not* safe on its own —
+the auto-parse contradicted her in 41 places, and where they conflict Tania (the
+expert) is authoritative. Every conflict was checked against DULAT + context:
+
+* **Auto mis-tagged nouns as verbs/particles** (12): `brkm` 'knees' (not
+  /b-r-k/), `ḏmr` 'warriors' (not vb), `rgm` 'word' ×3 (not /r-g-m/), `šlm`
+  'peace' ×2, `rḥq` 'distant', `qrb` 'midst', `klt` 'bride' ×2, `ʕtk` 'the Savage
+  One'.
+* **Auto mis-tagged verbs as nouns/particles** (16): `ˤbd` 'serves', `tḫtṣb` 'does
+  battle' ×3 (/ḫ-ṣ-b/, auto made it a noun "tḫtṣb"), `šbˤt` 'is sated' (/š-b-ʕ/ II,
+  not the number 'seven'), `sk`/`št` 'pour/place!' (imperatives, not nouns),
+  `ˤn` 'look!' (/ʕ-n/, not 'eye'), `lk` 'go!' ×2 (/h-l-k/, not prep. l), `anš`,
+  `atm`, `šnt`.
+* **Stem corrected to Tania's** (8): e.g. `šnst` D, `tgrš` D, `ˤtkt` G, `klt`
+  /k-l-l/ D, `ištmdh` Gt, `ybˤr` G, `ymḥ` G-passive.
+
+Two flagged conflicts were left as-is deliberately: `127282 d[` (relative
+functor; Tania's `[` is a notation quirk that still reconstructs `d`) and
+`128418 ṯbth` (the lexicalised noun `ṯbt` 'seat' in the formula `ksu ṯbth`, where
+Tania's col3 shows the deverbal `/y-ṯ-b/` origin).
+
+### 3.2b Noun case vs the analysis case-vowel (project-wide)
+
+The realised case vowel in the analysis must agree with the POS case label —
+`…/&u` = nom., `…/&i` = gen., `…/&a` = acc. — and a noun governed by a
+preposition is genitive. Fixed the visible-vowel mismatches: `lli` (1.4 VIII:19,
+after `k` 'like') acc.→**gen.**; `la` (1.3 V:18, object) nom.→**acc.** (Tania:
+"a noun in accusative"); `mri` (1.3 I:8, `qṣ mri`) auto's "adj. f. pl. cstr.
+nom."→**n. m. sg. cstr. gen.** (Tania: "likely passive participle"). Note: the
+plural oblique `-im`/`-i` legitimately covers both gen. and acc., so those are
+not flagged. A broader pass setting *all* prep-governed nouns to gen. (incl. the
+unwritten-case majority) is a separate decision — case is mostly notional where
+no aleph makes it visible.
 
 ### 3.3 Tania's open questions (preserved verbatim as comments — need a decision)
 
