@@ -243,8 +243,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131002	šmˤ	!!šmˤ[	/š-m-ʕ/	vb G impv. f. sg.	to hear	
 # KTU 1.6 I:45						
 131003	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here: 'Hear, O Lady Athirat…'.
-131004	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. voc.	Lady	KTU: aṯr[t].
-131005	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. voc.	Athirat/Asherah	
+131004	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	KTU: aṯr[t].
+131005	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
 131006	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 131007	tn	!!(ytn[	/y-t-n/	vb G impv. f. sg.	to give	'Give one of your sons, I will make him king'.
 # KTU 1.6 I:46						
@@ -425,7 +425,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 II:12						
 131148	ḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 f. sg.	to exclaim	MERGE WITH THE PREVIOUS.
 131149	at	at(I)	ảt (I)	pers. pn. 2 m. sg.	you	
-131150	mt	mt(II)/	mt (II)	DN m. sg. abs. voc.	Môt	'You, O Mot, give up my brother!'.
+131150	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	'You, O Mot, give up my brother!'.
 131151	tn	!!(ytn[	/y-t-n/	vb G impv. m. sg.	to give	
 131152	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. sg. cstr. acc.	brother (by blood)	'my brother'.
 # KTU 1.6 II:13						
@@ -438,8 +438,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 II:14						
 131159	taršn	!t==!(ʔ&arš[~n	/ʔ-r-š/	vb G prefc. 2 f. sg.	to request, desire	Mot to Anat: 'What do you desire, O Virgin Anat?'.
 131160	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here.
-131161	btlt	btl(t/t	btlt	n. f. sg. abs. voc.	virgin	
-131162	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. voc.	ʿAnatu/Anat	
+131161	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
+131162	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.6 II:15						
 131163	an	an(I)	ản (I)	pers. pn. 1 c. sg.	I	DULAT cites ản (I): ản ỉtlk w ảṣd.
 131164	itlk	!(ʔ&i!]t](hlk[	/h-l-k/	vb Gt prefc. 1 c. sg.	to go, roam	Gt with elided h; cf. ttlk 1.5 VI:26.
@@ -704,8 +704,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131376	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 131377	šmˤ	!!šmˤ[	/š-m-ʕ/	vb G impv. f. sg.	to hear	
 131378	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here: 'Hear, O Virgin Anat'.
-131379	btlt	btl(t/t	btlt	n. f. sg. abs. voc.	virgin	
-131380	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. voc.	ʿAnatu/Anat	
+131379	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
+131380	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.6 III:24						
 131381	rgm	!!rgm[	/r-g-m/	vb G impv. f. sg.	to say	'Say to the Lamp of the gods, Šapšu'.
 131382	l	l(I)	l (I)	prep.	to	
@@ -717,7 +717,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131387	ˤnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. nom.	furrow	DULAT cites ʕn (II) 'furrow' (pl. ʕnt) here — not ʕnt DN.
 131388	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
 131389	y	y	y	voc. functor	oh!	
-131390	špš	špš/	špš	DN f. sg. abs. voc.	Šapšu/Shapsh	
+131390	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
 # KTU 1.6 IV:2						
 131391	pl	pl(l[	/p-l(-l)/	vb G suffc. 3 f. pl.	to be cracked, parched	
 131392	ˤnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. nom.	furrow	
@@ -771,7 +771,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131430	ˤnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. nom.	furrow	
 131431	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
 131432	y	y	y	voc. functor	oh!	
-131433	špš	špš/	špš	DN f. sg. abs. voc.	Šapšu/Shapsh	
+131433	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
 # KTU 1.6 IV:13						
 131434	pl	pl(l[	/p-l(-l)/	vb G suffc. 3 f. pl.	to be cracked, parched	
 131435	ˤnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. nom.	furrow	
@@ -824,7 +824,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131473	l	l(I)	l (I)	prep.	to	
 131474	an	an(II)	ản (II)	adv.	wherever	
 131475	y	y	y	voc. functor	oh!	
-131476	špš	špš/	špš	DN f. sg. abs. voc.	Šapšu/Shapsh	
+131476	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
 131477	a	?	?	?	?	Broken: a[…] at line end.
 # KTU 1.6 IV:23						
 131478	an	an(II)	ản (II)	adv.	wherever	
@@ -908,7 +908,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131539	w	w	w	conj.	and	
 131540	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 131541	ˤlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	'because of you, O Baal, I experienced…' (Mot's complaint).
-131542	bˤlm	bˤl(II)/~m	bʕl (II)	DN m. sg. abs. voc. + encl. -m	Baʿlu/Baal	DULAT cites -m (II) here: ʕlk bʕlm.
+131542	bˤlm	bˤl(II)/~m	bʕl (II)	DN m. sg. abs. nom. + encl. -m	Baʿlu/Baal	DULAT cites -m (II) here: ʕlk bʕlm.
 # KTU 1.6 V:12						
 131543	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	DULAT cites /p-h-y/: ʕlk pht qlt.
 131544	qlt	ql(t(I)/t	qlt (I)	n. f. sg. abs. acc.	vileness, shame	DULAT cites qlt (I) n. here; Ksenia reads vb /q-l/ 'fall'.
@@ -1059,7 +1059,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:14						
 131658	aḫym	aḫ(I)/+y~m	ảḫ (I)	n. m. pl. cstr. acc. + 1 c. sg. suff. + encl. -m	brother (by blood)	'my own brothers you gave, O Baal, as my food'.
 131659	ytnt	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give	
-131660	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. voc.	Baʿlu/Baal	
+131660	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 VI:15						
 131661	spuy	!!sp(ʔ&u[/+y	/s-p-ʔ/	vb G inf. + 1 c. sg. suff.	food, devouring	
 131662	bnm	bn(I)/~m	bn (I)	n. m. pl. cstr. acc. + encl. -m	son	
@@ -1111,9 +1111,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 131700	mˤ	mˤ(I)	mʕ (I)	postpositional emph. adv.	please!	
 # KTU 1.6 VI:24						
 131701	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here.
-131702	bn	bn(I)/	bn (I)	n. m. sg. cstr. voc.	son	
+131702	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 131703	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	Or il + encl. -m: 'son of El'.
-131704	mt	mt(II)/	mt (II)	DN m. sg. abs. voc.	Môt	
+131704	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 131705	ik	ik	ỉk	interr. functor	how?, why?	'How can you fight with Mightiest Baal?'
 131706	tmtḫ	!t=!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 m. sg.	to fight	MERGE WITH THE NEXT: tmtḫ+ṣ = tmtḫṣ, split across lines VI:24/25; DULAT: ik tmtḫṣ ˤm aliyn bˤl.
 # KTU 1.6 VI:25						
@@ -1217,13 +1217,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:45						
 131784	yn	yn/	yn	n. m. sg. cstr. acc.	wine	
 131785	tġzyt	tġzy(t/t	tġẓyt	n. f. sg. abs. gen.	offering, libation	Surface z for DULAT ẓ.
-131786	špš	špš/	špš	DN f. sg. abs. voc.	Šapšu/Shapsh	Hymnic close: špš rpim tḥtk.
+131786	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	Hymnic close: špš rpim tḥtk.
 # KTU 1.6 VI:46						
 131787	rpim	rp(u&i/m	rpủ	n. m. pl. abs. acc.	Rephaim, healers	Encoding per Tagging conventions (rp(u&i/m).
 131788	tḥtk	!t==!ḥtk[	/ḥ-t-k/	vb G prefc. 2 f. sg.	to rule	'Šapšu, you rule the Rephaim' (DULAT /ḥ-t-k/).
 131788	tḥtk	tḥt(I)+k=	tḥt (I)	prep. + 2 f. sg. suff.	under	Alternative (DULAT tḥt (I)): 'the Rephaim are under you'.
 # KTU 1.6 VI:47						
-131789	špš	špš/	špš	DN f. sg. abs. voc.	Šapšu/Shapsh	
+131789	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
 131790	tḥtk	!t==!ḥtk[	/ḥ-t-k/	vb G prefc. 2 f. sg.	to rule	
 131790	tḥtk	tḥt(I)+k=	tḥt (I)	prep. + 2 f. sg. suff.	under	
 131791	ilnym	ilny/m	ỉlny	n. m. pl. abs. acc.	divine one	'the divine ones' (DULAT ỉlny).

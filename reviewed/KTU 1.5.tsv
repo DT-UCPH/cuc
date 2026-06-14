@@ -178,7 +178,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:26						
 130243	p	p(I)	p (I)	conj. functor	and	
 130244	nšt	nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	
-130245	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. voc.	Baʿlu	
+130245	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu	
 130246	ṭˤn	ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	
 130247	iṭˤnk	!(ʔ&i!ṭˤn[+k	/ṭ-ʕ-n/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to smite	
 # KTU 1.5 I:27						
@@ -382,7 +382,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 130399	ḥšn	ḥšn/	ḥšn	n. m. sg.	?	Meaning unknown; De Moor (ARTU 74 n. 345): 'bliss' (Arab. ḥasanat). KTU: ḥš[n].
 # KTU 1.5 III:4						
 130400	y	y	y	voc. functor	oh!	DULAT: vocative/exclamation; y arṣ 'O earth'.
-130401	arṣ	arṣ/	ảrṣ	n. f. sg. abs. voc.	earth	
+130401	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
 130402	ḥšn	ḥšn/	ḥšn	n. m. sg.	?	See III:3.
 # KTU 1.5 III:5						
 130403	tˤtd	!t!ˤtd[	/ʕ-t-d/	vb G prefc.	?	DULAT /ʕ-t-d/ '?': cites tʕtd tkl[ here; meaning unknown.
@@ -428,7 +428,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 III:14						
 130432	w	w	w	conj.	and	
 130433	lk	(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	UNP: 'And go, O Gods'; not l(I)+k.
-130434	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. voc.	god	
+130434	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.5 III:15						
 130435	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. cstr.	handsome	DULAT: nʕm ỉlm 'the (most) handsome of the gods'.
 130436	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
@@ -452,7 +452,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 III:20						
 130449	w	w	w	conj.	and	
 130450	lk	(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	Not l(I)+k; cf. III:14.
-130451	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. voc.	god	
+130451	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 130452		?	?	?	?	
 # KTU 1.5 III:21						
 130453	w	w	w	conj.	and	
