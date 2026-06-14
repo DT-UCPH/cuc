@@ -170,7 +170,9 @@ def build_gloss_authority(auto_rows):
         eid = ent2eid.get(entry)
         g = per_ie.get((tid, entry)) or (db_tr.get(eid) if eid else None) \
             or consensus.get(entry)
-        return g if g else "?"
+        # DULAT translations can contain embedded newlines/tabs; collapse so a
+        # gloss never breaks the TSV row structure.
+        return " ".join(g.split()) if g else "?"
 
     return gloss_for, valid
 
