@@ -21,6 +21,22 @@ def normalize_surface(text: str) -> str:
     return (text or "").translate(_NORMALIZE_MAP)
 
 
+def analysis_matches_surface(surface: str, analysis: str) -> bool:
+    """Return whether an analysis is compatible with one written surface.
+
+    Besides exact reconstruction, this also accepts verbal plural ``:w`` as an
+    implicit ending. In Ugaritic that plural marker is often not written, even
+    though the project encoding represents it explicitly.
+    """
+    surface_norm = normalize_surface(surface)
+    reconstructed_norm = normalize_surface(reconstruct_surface_from_analysis(analysis))
+    if reconstructed_norm == surface_norm:
+        return True
+    if ":w" not in (analysis or ""):
+        return False
+    return reconstructed_norm == f"{surface_norm}w"
+
+
 def reconstruct_surface_from_analysis(analysis: str) -> str:
     """Reconstruct expected surface letters from one analysis variant.
 
@@ -38,6 +54,10 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
     i = 0
     n = len(a)
     while i < n:
+        if a.startswith("(]n]", i):
+            i += 4
+            continue
+
         m_hom = re.match(r"\(([IV]+)\)", a[i:])
         if m_hom:
             i += len(m_hom.group(0))
@@ -45,10 +65,22 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
 
         ch = a[i]
 
+        if a.startswith(":pass", i):
+            i += len(":pass")
+            continue
+        if (
+            a.startswith(":d", i)
+            or a.startswith(":l", i)
+            or a.startswith(":r", i)
+            or a.startswith(":w", i)
+            or a.startswith(":n", i)
+        ):
+            # Stem labels plus the unwritten-ending markers ':w' (plural -u)
+            # and ':n'; kept in sync with linter.lint's decoder.
+            i += 2
+            continue
         if ch == ":":
             i += 1
-            while i < n and re.match(r"[A-Za-z]", a[i]):
-                i += 1
             continue
 
         if ch == "(":

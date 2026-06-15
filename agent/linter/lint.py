@@ -15,6 +15,7 @@ if __package__ in {None, ""}:
     if str(_repo_root) not in sys.path:
         sys.path.insert(0, str(_repo_root))
 
+from linter.feature_validation import inferable_feature_issues
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
@@ -33,6 +34,7 @@ from pipeline.config.l_preposition_bigram_rules import (
     L_PN_FAMILY_FORCE_I_SURFACES,
     L_PN_PREP_CANONICAL_PAYLOADS,
 )
+from project_paths import get_project_paths
 
 # -----------------------------
 # Utilities
@@ -65,6 +67,163 @@ def normalize_surface(s: str) -> str:
 
 def normalize_udb(s: str) -> str:
     return s.translate(ALEPH_NORMALIZE_UDB)
+
+
+def override_lexeme_keys(token: str) -> set[str]:
+    """Return normalized key variants used for generic-override matching."""
+    src = normalize_surface((token or "").strip())
+    if not src:
+        return set()
+    out = {src.lower()}
+    cleaned = _DECLARED_LEMMA_LETTER_RE.sub("", src).lower()
+    if cleaned:
+        out.add(cleaned)
+    if src.startswith("-"):
+        bare = src[1:].strip().lower()
+        if bare:
+            out.add(bare)
+    if src.startswith("/") and src.endswith("/"):
+        inner = src[1:-1].strip().lower()
+        if inner:
+            out.add(inner)
+            compact = inner.replace("-", "")
+            if compact:
+                out.add(compact)
+    return out
+
+
+def load_generic_override_lexemes(path: Path) -> set[str]:
+    """Load normalized lexeme keys from generic_parsing_overrides.tsv."""
+    if not path.exists():
+        return set()
+    out: set[str] = set()
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.lower().startswith("surface form\t"):
+            continue
+        parts = raw.split("\t")
+        if not parts:
+            continue
+        out.update(override_lexeme_keys(parts[0]))
+        dulat_field = parts[2] if len(parts) > 2 else ""
+        for d_variant in split_semicolon_field(dulat_field):
+            for dtok in split_csv_field(d_variant):
+                lemma, _hom = parse_declared_dulat_token(dtok)
+                if lemma:
+                    out.update(override_lexeme_keys(lemma))
+                out.update(override_lexeme_keys(dtok))
+    return out
+
+
+def load_generic_override_analyses(path: Path) -> Dict[str, set[str]]:
+    """Load surface -> allowed analysis variants from generic_parsing_overrides.tsv.
+
+    Unlike ``load_generic_override_lexemes`` (which flattens every lexeme key in
+    the table into one set), this preserves the per-surface scope so callers can
+    demote an issue only when the linted surface/analysis pair itself is
+    whitelisted by an override row.
+    """
+    out: Dict[str, set[str]] = {}
+    if not path.exists():
+        return out
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.lower().startswith("surface form\t"):
+            continue
+        parts = raw.split("\t")
+        if len(parts) < 2:
+            continue
+        surface_key = normalize_surface((parts[0] or "").strip()).lower()
+        if not surface_key:
+            continue
+        analyses = out.setdefault(surface_key, set())
+        for variant in split_semicolon_field(parts[1]):
+            variant = normalize_surface(variant.strip())
+            if variant:
+                analyses.add(variant)
+    return out
+
+
+def reconstruction_demotion_applies(
+    surface: str,
+    analysis_variant: str,
+    generic_override_analyses: Optional[Dict[str, set[str]]],
+) -> bool:
+    """Return True when an override row whitelists this exact surface/analysis pair.
+
+    Reconstruction failures are demoted to info only for analyses explicitly
+    listed for the linted surface. A mere lexeme-key intersection (e.g. surface
+    ``ttn`` analysed as ``ytn[`` while the override row is for surface ``tn``)
+    must not demote: those are genuine parser errors.
+    """
+    if not generic_override_analyses:
+        return False
+    surface_key = normalize_surface((surface or "").strip()).lower()
+    allowed = generic_override_analyses.get(surface_key)
+    if not allowed:
+        return False
+    return normalize_surface((analysis_variant or "").strip()) in allowed
+
+
+def load_onomastic_override_pos(path: Path) -> Dict[Tuple[str, str], set[str]]:
+    """Load onomastic POS overrides keyed by (lemma, homonym)."""
+    out: Dict[Tuple[str, str], set[str]] = {}
+    if not path.exists():
+        return out
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.lower().startswith("dulat\t"):
+            continue
+        parts = raw.split("\t")
+        if len(parts) < 2:
+            continue
+        dulat_tok = (parts[0] or "").strip()
+        pos_raw = (parts[1] or "").strip()
+        if not dulat_tok or not pos_raw:
+            continue
+        lemma, hom = parse_declared_dulat_token(dulat_tok)
+        key = (normalize_surface(lemma), hom or "")
+        out.setdefault(key, set()).add(pos_raw)
+    return out
+
+
+def variant_uses_generic_override_lexeme(
+    *,
+    surface: str,
+    analysis_variant: str,
+    dulat_variant: str,
+    generic_override_lexemes: set[str],
+    extra_tokens: Optional[Iterable[str]] = None,
+) -> bool:
+    """Return True when variant tokens map to generic override lexeme keys."""
+    if not generic_override_lexemes:
+        return False
+    tokens: set[str] = set()
+    tokens.update(override_lexeme_keys(surface))
+    lexeme, _is_verb, _hom = extract_lexeme_from_analysis((analysis_variant or "").strip())
+    if lexeme:
+        tokens.update(override_lexeme_keys(lexeme))
+    for dtok in split_csv_field(dulat_variant or ""):
+        lemma, _hom = parse_declared_dulat_token(dtok)
+        if lemma:
+            tokens.update(override_lexeme_keys(lemma))
+        tokens.update(override_lexeme_keys(dtok))
+    if extra_tokens:
+        for token in extra_tokens:
+            tokens.update(override_lexeme_keys(token or ""))
+    return bool(tokens & generic_override_lexemes)
+
+
+def analysis_is_standalone_clitic_or_suffix(analysis_variant: str) -> bool:
+    """Return True when analysis consists only of clitic/suffix fragments."""
+    parts = split_csv_field((analysis_variant or "").strip())
+    if not parts:
+        return False
+    return all(part and part[0] in {"+", "~", "/", "["} for part in parts)
 
 
 def lemma_aliases(lemma: str) -> List[str]:
@@ -200,6 +359,47 @@ _PRONOMINAL_SUFFIX_SEGMENTS = (
 _HOMONYM_MARKED_SUFFIX_RE = re.compile(
     r"(?:\+|~|\[)(?:" + "|".join(_PRONOMINAL_SUFFIX_SEGMENTS) + r")=?\((?:I|II|III|IV)\)=?"
 )
+_AFFIX_HOMONYM_TAG_RE = re.compile(r"\((?:I|II|III|IV|V)\)")
+
+# Pronominal-suffix payloads allowed after '+', per the paradigm table in
+# 'Tagging conventions.md' (disambiguating '=' runs are stripped before the
+# lookup). Notably absent: 'm' - plural/dual/enclitic -m is never pronominal.
+PRONOMINAL_SUFFIX_INVENTORY = frozenset(_PRONOMINAL_SUFFIX_SEGMENTS)
+
+# Enclitic payloads allowed after '~': energic -n/-nn, emphatic/deictic -m,
+# directive -h (II), emphatic -y (II), -k (II), and -t (blt-type).
+ENCLITIC_INVENTORY = frozenset({"n", "nn", "m", "h", "y", "k", "t"})
+
+
+def invalid_affix_segments(analysis_variant: str) -> List[Tuple[str, str]]:
+    """Return (marker, segment) pairs for affixes outside the inventories.
+
+    Validates simple ``+payload`` (pronominal suffix) and ``~payload``
+    (enclitic) segments of one analysis variant. Segments that contain
+    reconstruction marks ('(', '&') or fused markers are skipped here; their
+    shape is governed by the reconstruction checks instead.
+    """
+    out: List[Tuple[str, str]] = []
+    value = (analysis_variant or "").strip()
+    if not value or is_unresolved_placeholder(value):
+        return out
+    for chunk in re.split(r"(?=[+~])", value):
+        chunk = chunk.strip()
+        if len(chunk) < 2 or chunk[0] not in "+~":
+            continue
+        marker, payload = chunk[0], chunk[1:]
+        payload = _AFFIX_HOMONYM_TAG_RE.sub("", payload)
+        if any(ch in payload for ch in "(&[]!+~"):
+            continue
+        core = payload.split(":")[0].rstrip("=,; ").strip()
+        if not core:
+            continue
+        inventory = PRONOMINAL_SUFFIX_INVENTORY if marker == "+" else ENCLITIC_INVENTORY
+        if normalize_surface(core).lower() not in inventory:
+            out.append((marker, chunk))
+    return out
+
+
 _PLURAL_MORPH_RE = re.compile(r"\bpl\.", flags=re.IGNORECASE)
 _PLURAL_WORD_MORPH_RE = re.compile(r"\bplur", flags=re.IGNORECASE)
 _DUAL_MORPH_RE = re.compile(r"\bdu\.", flags=re.IGNORECASE)
@@ -282,18 +482,17 @@ def morphology_is_construct_state(morph: str) -> bool:
 
 def has_unprefixed_reconstructed_sequence(s: str, allow_weak_y_cluster: bool = False) -> bool:
     """
-    Enforce explicit per-letter reconstruction marking:
-    every reconstructed letter must be preceded by '('.
+    Validate reconstruction marker grouping.
 
-    Example:
-      invalid:  š(lyṭ/
-      valid:    š(l(y(ṭ/
+    '(' binds to exactly one reconstructed letter. Valid atoms are:
+    - '(X' where X is a letter
+    - '([X[' bracket-wrapped single-letter reconstructions
+    - '(X&Y' substitution bundles where X is reconstructed and Y is surface-visible
 
-    Exempt substitution bundles like (k&w..., where only the first
-    letter is reconstructed and '&' introduces surface-only material.
-    Optionally exempt weak-initial y-root prefix clusters such as "(ytn",
-    "(yṯb", etc., where only initial y is reconstructed.
+    This check does not infer whether adjacent unmarked letters are reconstructed.
     """
+    _ = allow_weak_y_cluster  # Backward-compatible arg; retained for call sites.
+
     i = 0
     while i < len(s):
         if s[i] != "(":
@@ -310,28 +509,27 @@ def has_unprefixed_reconstructed_sequence(s: str, allow_weak_y_cluster: bool = F
         if j >= len(s):
             i += 1
             continue
-        if not LETTER_RE.match(s[j]):
+
+        # Single reconstructed letter atom.
+        if LETTER_RE.match(s[j]):
+            j += 1
+        # Bracket-wrapped single reconstructed letter, e.g. ([n[ or (]n]
+        elif j + 2 < len(s) and s[j] == "[" and LETTER_RE.match(s[j + 1]) and s[j + 2] == "[":
+            j += 3
+        elif j + 2 < len(s) and s[j] == "]" and LETTER_RE.match(s[j + 1]) and s[j + 2] == "]":
+            j += 3
+        else:
             i += 1
             continue
-        j += 1
 
-        # Local substitution pair "(X&Y" is a single reconstruction event.
+        # Optional substitution bundle payload '&X'.
         if j < len(s) and s[j] == "&":
             j += 1
             if j < len(s) and LETTER_RE.match(s[j]):
                 j += 1
-            i = j
-            continue
 
-        # If another letter follows immediately, it should be marked with "(" too.
-        if j < len(s) and LETTER_RE.match(s[j]):
-            # Allow weak-initial y-root cluster when only initial y
-            # is reconstructed in prefix forms (e.g., "(ytn", "(yṯb").
-            if allow_weak_y_cluster and s[i:j] == "(y" and j < len(s) and LETTER_RE.match(s[j]):
-                i = j + 1
-                continue
-            return True
         i = j
+
     return False
 
 
@@ -355,6 +553,10 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
     i = 0
     n = len(a)
     while i < n:
+        if a.startswith("(]n]", i):
+            i += 4
+            continue
+
         m_hom = re.match(r"\(([IV]+)\)", a[i:])
         if m_hom:
             i += len(m_hom.group(0))
@@ -362,10 +564,22 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
 
         ch = a[i]
 
+        if a.startswith(":pass", i):
+            i += len(":pass")
+            continue
+        if (
+            a.startswith(":d", i)
+            or a.startswith(":l", i)
+            or a.startswith(":r", i)
+            or a.startswith(":w", i)
+            or a.startswith(":n", i)
+        ):
+            # Stem labels plus the unwritten-ending markers ':w' (plural -u,
+            # Tagging conventions, suffix/prefix conjugation) and ':n'.
+            i += 2
+            continue
         if ch == ":":
             i += 1
-            while i < n and re.match(r"[A-Za-z]", a[i]):
-                i += 1
             continue
 
         if ch == "(":
@@ -809,7 +1023,7 @@ def row_has_ambiguous_l_in_offering_sequence(
     return _pos_looks_nominal(next_pos_text)
 
 
-def row_has_baal_labourer_in_ktu1(
+def row_has_baal_labourer_outside_ktu4(
     file_path: str,
     surface: str,
     analysis_field: str,
@@ -817,8 +1031,8 @@ def row_has_baal_labourer_in_ktu1(
     pos_field: str,
     gloss_field: str,
 ) -> bool:
-    """Detect forbidden bʕl(I) 'labourer' variant in KTU 1.* rows."""
-    if not Path(file_path).name.startswith("KTU 1."):
+    """Detect forbidden bʕl(I) 'labourer' variant outside KTU 4.* rows."""
+    if Path(file_path).name.startswith("KTU 4."):
         return False
     if (surface or "").strip() != "bˤl":
         return False
@@ -958,6 +1172,14 @@ def pos_option_is_verb_participle(option: str) -> bool:
     return bool(VERB_PTCP_POS_RE.search(text))
 
 
+def analysis_has_finite_preformative(option: str) -> bool:
+    """Return True when analysis retains a finite preformative marker."""
+    text = (option or "").strip()
+    if text.startswith("!!"):
+        text = text[2:]
+    return bool(PREFIXED_VERB_ANALYSIS_RE.match(text))
+
+
 def extract_stems(morph: str) -> set:
     stems = set()
     for m in STEM_RE.findall(morph or ""):
@@ -1005,6 +1227,8 @@ def required_verb_stem_markers_from_pos(pos_field: str) -> set[str]:
         required.add(":r")
     if stems & {"Gpass", "Dpass", "Lpass", "Špass"}:
         required.add(":pass")
+    if "tD" in stems:
+        required.add("]t]")
     return required
 
 
@@ -1020,7 +1244,7 @@ def missing_required_verb_stem_markers(analysis: str, pos_field: str) -> List[st
 
 
 def missing_required_n_assimilation_marker(analysis: str, pos_field: str) -> bool:
-    """Return True when prefixed N-stem forms miss the `](n]` marker."""
+    """Return True when prefixed N-stem forms miss `(]n]`/`]n]` marker."""
     stems = extract_verb_stems_from_pos(pos_field)
     if "N" not in stems:
         return False
@@ -1035,9 +1259,29 @@ def missing_required_n_assimilation_marker(analysis: str, pos_field: str) -> boo
     tail = a_txt[match.end() :]
     if not tail:
         return False
-    if tail.startswith("](n]") or tail.startswith("(n") or tail.startswith("n"):
+    if (
+        tail.startswith("(]n]")
+        or tail.startswith("]n]")
+        or tail.startswith("(n")
+        or tail.startswith("n")
+    ):
         return False
     return True
+
+
+def analysis_has_invalid_n_assimilation_order(analysis: str) -> bool:
+    """Return True when deprecated `](n]` order is present."""
+    variants = split_semicolon_field(analysis) or [analysis]
+    return any("](n]" in ((value or "").strip()) for value in variants)
+
+
+def analysis_has_n_assimilation_marker_without_n_stem(analysis: str, pos_field: str) -> bool:
+    """Return True when `(]n]`/`]n]` marker appears outside N-stem verb POS."""
+    variants = split_semicolon_field(analysis) or [analysis]
+    if not any(("(]n]" in (value or "")) or ("]n]" in (value or "")) for value in variants):
+        return False
+    stems = extract_verb_stems_from_pos(pos_field)
+    return "N" not in stems
 
 
 @dataclass
@@ -1334,6 +1578,59 @@ def extract_lexeme_from_analysis(analysis: str) -> Tuple[str, bool, str]:
     return lex, is_verb, hom
 
 
+def _extract_marked_clitic_parts(text: str) -> List[str]:
+    """Extract explicit +x/~x clitic tails from analysis text."""
+    value = (text or "").strip()
+    if not value:
+        return []
+    out: List[str] = []
+    for chunk in re.split(r"(?=[+~])", value):
+        chunk = chunk.strip()
+        if not chunk or chunk[0] not in {"+", "~"}:
+            continue
+        part = chunk[1:].strip()
+        if part:
+            out.append(part)
+    return out
+
+
+def split_analysis_for_lexeme_and_clitics(analysis: str) -> Tuple[str, List[str]]:
+    """Return host analysis and explicit +/~ clitic parts for DULAT host checks."""
+    value = (analysis or "").strip()
+    if not value:
+        return "", []
+
+    host = value
+    clitic_parts: List[str] = []
+
+    # Verbal/inflectional tail: only harvest explicit +/~ clitics from tail.
+    if "[" in host:
+        base, tail = host.split("[", 1)
+        host = base.strip()
+        clitic_parts.extend(_extract_marked_clitic_parts(tail))
+
+    # Host-level suffix/enclitic markers.
+    marker_positions = [pos for pos in (host.find("+"), host.find("~")) if pos != -1]
+    if marker_positions:
+        split_idx = min(marker_positions)
+        host_tail = host[split_idx:]
+        host = host[:split_idx].strip()
+        clitic_parts.extend(_extract_marked_clitic_parts(host_tail))
+
+    return host.strip(), clitic_parts
+
+
+def analyses_differ_only_by_clitic_payload(first: str, second: str) -> bool:
+    """Return True when analyses differ only in explicit +/~ clitic payloads."""
+    first_host, first_clitics = split_analysis_for_lexeme_and_clitics(first)
+    second_host, second_clitics = split_analysis_for_lexeme_and_clitics(second)
+    if first_host != second_host:
+        return False
+    if not first_clitics or not second_clitics:
+        return False
+    return True
+
+
 ALT_FORM_RE = re.compile(r"\b[!\](/[&\(\)A-Za-z0-9ˤʔḫḫṣṯẓġḏḫḥṭš]+\b")
 
 
@@ -1408,7 +1705,10 @@ def normalize_pos_label(value: str) -> str:
     tok = re.sub(r"\s+", " ", (value or "").strip())
     if not tok:
         return ""
-    return POS_LABEL_NORMALIZATION.get(tok.lower(), tok)
+    lowered = tok.lower()
+    if lowered in POS_LABEL_NORMALIZATION:
+        return POS_LABEL_NORMALIZATION[lowered]
+    return tok
 
 
 def is_known_slash_pos_label(value: str) -> bool:
@@ -1451,10 +1751,43 @@ def split_pos_options(value: str) -> List[str]:
     return [normalize_pos_label(p) for p in parts if p]
 
 
+def pos_option_matches_allowed(option: str, allowed: set[str]) -> bool:
+    """Return True when POS option is directly or compositionally allowed."""
+    opt = (option or "").strip()
+    if not opt or not allowed:
+        return False
+    opt_norm = normalize_pos_option_for_validation(opt)
+    if opt_norm in allowed:
+        return True
+    # Allow enriched concrete tags when DULAT allowlist is composite
+    # (e.g. allowed contains `adj. or n` and option is `adj. m. sg. abs. nom.`).
+    for allowed_opt in allowed:
+        allowed_parts = [
+            normalize_pos_option_for_validation(part)
+            for part in re.split(r"\s+or\s+", normalize_pos_label(allowed_opt))
+            if part.strip()
+        ]
+        if len(allowed_parts) > 1 and opt_norm in set(allowed_parts):
+            return True
+    # Accept composed labels like "adv. or prep." when each arm is allowed.
+    parts = [p.strip() for p in re.split(r"\s+or\s+", normalize_pos_label(opt)) if p.strip()]
+    if len(parts) <= 1:
+        return False
+    part_norms = {normalize_pos_option_for_validation(p) for p in parts}
+    if not part_norms:
+        return False
+    return part_norms.issubset(allowed)
+
+
 NOUN_GENDER_POS_RE = re.compile(r"n\.\s*(m|f)\.?(?=\s|$|[,;/])", re.IGNORECASE)
 NOUN_BASE_POS_RE = re.compile(r"\bn\.\s*", re.IGNORECASE)
 ADJ_GENDER_POS_RE = re.compile(r"adj\.\s*(m|f)\.?(?=\s|$|[,;/])", re.IGNORECASE)
 POS_NUMBER_RE = re.compile(r"\b(?:sg|du|pl)\.?(?=\s|$|[,;/])", re.IGNORECASE)
+POS_GENDER_RE = re.compile(r"\b(?:m|f|c)\.?(?=\s|$|[,;/])", re.IGNORECASE)
+POS_STATE_CASE_RE = re.compile(
+    r"\b(?:abs|cstr|nom|gen|acc)\.?(?=\s|$|[,;/])",
+    re.IGNORECASE,
+)
 
 
 def normalize_pos_option_for_validation(value: str) -> str:
@@ -1468,7 +1801,12 @@ def normalize_pos_option_for_validation(value: str) -> str:
     tok = NOUN_GENDER_POS_RE.sub("n ", tok)
     tok = NOUN_BASE_POS_RE.sub("n ", tok)
     tok = ADJ_GENDER_POS_RE.sub("adj.", tok)
+    tok = POS_GENDER_RE.sub("", tok)
     tok = POS_NUMBER_RE.sub("", tok)
+    tok = POS_STATE_CASE_RE.sub("", tok)
+    # Project-side role qualifiers like `prep. functor` should validate
+    # against DULAT coarse POS heads (e.g. `prep.`).
+    tok = re.sub(r"\bfunctor\b\.?", "", tok, flags=re.IGNORECASE)
     # DULAT POS inventory encodes verbs as `vb`; stem labels are tracked
     # separately (see verb stem lint), so collapse `vb <stem>` for this
     # validation layer.
@@ -1785,6 +2123,186 @@ K_FUNCTOR_BIGRAM_MSG = "Formula bigram `k {surface}` should use a single k(III) 
 # Linter
 # -----------------------------
 
+_POS_PERSON_TOKENS = {"1", "2", "3"}
+_POS_GENDER_TOKENS = {"m.", "f.", "c."}
+_POS_NUMBER_TOKENS = {"sg.", "pl.", "du."}
+
+
+def pos_grammar_problems(pos_value: str) -> List[str]:
+    """Return grammar problems of one POS string (empty list when fine).
+
+    Two deterministic shape rules, both sourced from real review findings:
+
+    - a person digit (1/2/3) must be followed by a gender token (m./f./c.),
+      as in ``vb G prefc. 2 m. sg.``; a dangling ``vb G impv. 2`` is malformed;
+    - a number token (sg./pl./du.) must not repeat within one POS option,
+      as in ``n. f. pl. tant. pl.``.
+    """
+    problems: List[str] = []
+    value = (pos_value or "").strip()
+    if not value or is_unresolved_placeholder(value):
+        return problems
+    for option in split_semicolon_field(value) or [value]:
+        tokens = option.split()
+        for idx, token in enumerate(tokens):
+            if token in _POS_PERSON_TOKENS:
+                next_token = tokens[idx + 1] if idx + 1 < len(tokens) else None
+                if next_token not in _POS_GENDER_TOKENS:
+                    problems.append(
+                        f"person digit '{token}' must be followed by a gender token "
+                        f"(m./f./c.) in '{option}'"
+                    )
+        # A '+ ... suff.' tail describes the suffix, so number tokens may
+        # legitimately recur there; count duplicates per clause only.
+        for clause in option.split("+"):
+            number_counts: Dict[str, int] = {}
+            for token in clause.split():
+                if token in _POS_NUMBER_TOKENS:
+                    number_counts[token] = number_counts.get(token, 0) + 1
+            for token, count in number_counts.items():
+                if count > 1:
+                    problems.append(f"repeated number token '{token}' in '{option}'")
+    return problems
+
+
+MERGE_NEXT_RE = re.compile(r"\bMERGE WITH THE NEXT\b", re.IGNORECASE)
+MERGE_PREVIOUS_RE = re.compile(r"\bMERGE WITH THE PREVIOUS\b", re.IGNORECASE)
+
+
+@dataclass
+class MergeAnnotation:
+    """One row annotated as half of a word split across physical lines."""
+
+    line_no: int
+    line_id: str
+    surface: str
+    analysis: str
+    direction: str  # next|previous
+
+
+def merge_direction_from_comment(text: str) -> Optional[str]:
+    """Return 'next'/'previous' for structured MERGE annotations, else None."""
+    if not text:
+        return None
+    if MERGE_NEXT_RE.search(text):
+        return "next"
+    if MERGE_PREVIOUS_RE.search(text):
+        return "previous"
+    return None
+
+
+def _expected_merge_surface(first_surface: str, second_surface: str) -> str:
+    combined = strip_missing(first_surface).strip() + strip_missing(second_surface).strip()
+    letters = "".join(ch for ch in combined if ANALYSIS_SURFACE_LETTER_RE.match(ch))
+    return normalize_surface(letters or combined)
+
+
+def validate_merge_pairs(
+    merge_annotations: List[MergeAnnotation],
+    token_sequence: List[Tuple[int, str, str]],
+    file_path: str,
+) -> List["Issue"]:
+    """Validate MERGE WITH THE NEXT/PREVIOUS pairs.
+
+    Args:
+        merge_annotations: rows carrying a MERGE annotation, in file order.
+        token_sequence: (line_no, token_id, surface) for every data token, in
+            file order, with one entry per token (variant rows collapsed).
+        file_path: linted file path used in emitted issues.
+
+    Returns:
+        Error issues for unpaired annotations, analysis mismatches inside a
+        pair, and merged analyses that do not reconstruct to the concatenated
+        surfaces. Valid pairs yield no issues; the caller is expected to skip
+        the per-row reconstruction check for annotated rows.
+    """
+    issues: List[Issue] = []
+    if not merge_annotations:
+        return issues
+
+    token_pos = {token_id: pos for pos, (_ln, token_id, _surface) in enumerate(token_sequence)}
+    by_token: Dict[str, List[MergeAnnotation]] = {}
+    for ann in merge_annotations:
+        by_token.setdefault(ann.line_id, []).append(ann)
+
+    def _directions(anns: List[MergeAnnotation]) -> set:
+        return {a.direction for a in anns}
+
+    for token_id, anns in by_token.items():
+        first = anns[0]
+        pos = token_pos.get(token_id)
+        if pos is None:
+            continue
+        if "next" in _directions(anns):
+            partner = token_sequence[pos + 1] if pos + 1 < len(token_sequence) else None
+            partner_anns = by_token.get(partner[1], []) if partner else []
+            if not partner or "previous" not in _directions(partner_anns):
+                issues.append(
+                    Issue(
+                        "error",
+                        file_path,
+                        first.line_no,
+                        token_id,
+                        first.surface,
+                        first.analysis,
+                        "MERGE WITH THE NEXT has no matching MERGE WITH THE PREVIOUS "
+                        "on the following token",
+                    )
+                )
+                continue
+            own_analyses = {normalize_surface(a.analysis) for a in anns}
+            partner_analyses = {normalize_surface(a.analysis) for a in partner_anns}
+            if own_analyses != partner_analyses:
+                issues.append(
+                    Issue(
+                        "error",
+                        file_path,
+                        first.line_no,
+                        token_id,
+                        first.surface,
+                        first.analysis,
+                        "MERGE pair carries different analyses: "
+                        f"{sorted(own_analyses)} vs {sorted(partner_analyses)}",
+                    )
+                )
+                continue
+            combined = strip_missing(first.surface) + strip_missing(partner[2])
+            if "x" in combined.lower():
+                continue
+            expected = _expected_merge_surface(first.surface, partner[2])
+            for ann in anns:
+                reconstructed = normalize_surface(reconstruct_surface_from_analysis(ann.analysis))
+                if reconstructed != expected:
+                    issues.append(
+                        Issue(
+                            "error",
+                            file_path,
+                            ann.line_no,
+                            token_id,
+                            ann.surface,
+                            ann.analysis,
+                            "Merged analysis does not reconstruct to combined surface "
+                            f"(reconstructs as: {reconstructed}, expected: {expected})",
+                        )
+                    )
+        elif "previous" in _directions(anns):
+            prev = token_sequence[pos - 1] if pos > 0 else None
+            prev_anns = by_token.get(prev[1], []) if prev else []
+            if not prev or "next" not in _directions(prev_anns):
+                issues.append(
+                    Issue(
+                        "error",
+                        file_path,
+                        first.line_no,
+                        token_id,
+                        first.surface,
+                        first.analysis,
+                        "MERGE WITH THE PREVIOUS has no matching MERGE WITH THE NEXT "
+                        "on the preceding token",
+                    )
+                )
+    return issues
+
 
 def lint_file(
     path: Path,
@@ -1797,8 +2315,14 @@ def lint_file(
     baseline: Optional[Path],
     input_format: str = "auto",
     db_checks: bool = True,
+    generic_override_lexemes: Optional[set[str]] = None,
+    onomastic_override_pos: Optional[Dict[Tuple[str, str], set[str]]] = None,
+    generic_override_analyses: Optional[Dict[str, set[str]]] = None,
 ):
     issues: List[Issue] = []
+    generic_override_lexemes = generic_override_lexemes or set()
+    onomastic_override_pos = onomastic_override_pos or {}
+    generic_override_analyses = generic_override_analyses or {}
 
     lines = path.read_text(encoding="utf-8").splitlines()
     is_out_tsv_file = path.parent.name == "out"
@@ -1845,7 +2369,7 @@ def lint_file(
             core, _comment = raw.split("#", 1)
             core = core.rstrip()
         parts = core.split("\t")
-        if is_out_tsv_file and is_out_tsv_header_row(parts):
+        if is_out_tsv_header_row(parts):
             continue
         if len(parts) >= 3:
             data_parts_by_line[line_no] = parts
@@ -1870,6 +2394,7 @@ def lint_file(
     seen_pairs: List[Tuple[str, Tuple[str, str]]] = []
     token_rows: List[Dict[str, str]] = []
     seen_unwrapped_row_payloads: Dict[Tuple[str, str, str, str, str, str], int] = {}
+    seen_unwrapped_semantic_payloads: Dict[Tuple[str, str, str, str, str], Tuple[int, str]] = {}
     entry_index: Dict[Tuple[str, str], set] = {}
     entry_gender_index: Dict[Tuple[str, str], set] = {}
     entry_morph_index: Dict[int, set] = {}
@@ -1919,6 +2444,8 @@ def lint_file(
             entry_plurale_tantum_m[_entry_id] = True
 
     current_separator_ref = ""
+    merge_annotations: List[MergeAnnotation] = []
+    data_token_sequence: List[Tuple[int, str, str]] = []
     for i, raw in enumerate(lines, 1):
         if not raw.strip():
             continue
@@ -1934,7 +2461,7 @@ def lint_file(
             core = core.rstrip()
             comment = comment.strip()
         parts = core.split("\t")
-        if is_out_tsv_file and is_out_tsv_header_row(parts):
+        if is_out_tsv_header_row(parts):
             continue
 
         if is_out_tsv_file and len(parts) != 7:
@@ -1965,7 +2492,42 @@ def lint_file(
             continue
 
         line_id, surface, analysis = parts[0], parts[1], parts[2]
-        if is_out_tsv_file and len(parts) >= 6 and has_semicolon_packed_variants(parts):
+        in_cuc_dir = "cuc_tablets_tsv" in str(path)
+        is_raw_cuc_row = False
+        if input_format == "cuc_tablets_tsv":
+            is_raw_cuc_row = is_cuc_placeholder_row(parts)
+        elif input_format == "auto":
+            is_raw_cuc_row = is_cuc_placeholder_row(parts) and (
+                in_cuc_dir or path.suffix.lower() == ".tsv"
+            )
+        is_labeled_parsed_row = (len(parts) >= 6) and not is_raw_cuc_row
+
+        if is_labeled_parsed_row and not (analysis or "").strip():
+            issues.append(
+                Issue(
+                    "error",
+                    str(path),
+                    i,
+                    line_id,
+                    surface,
+                    analysis,
+                    "Empty morphological parsing cell; use '?' for unresolved tokens",
+                )
+            )
+        if is_labeled_parsed_row and "," in (analysis or ""):
+            issues.append(
+                Issue(
+                    "error",
+                    str(path),
+                    i,
+                    line_id,
+                    surface,
+                    analysis,
+                    "Comma-packed analysis variants are not allowed; "
+                    "split each option into its own row",
+                )
+            )
+        if is_labeled_parsed_row and has_semicolon_packed_variants(parts):
             issues.append(
                 Issue(
                     "error",
@@ -1977,7 +2539,7 @@ def lint_file(
                     "Semicolon-packed variants are not allowed in out/*.tsv; split each option into its own row",
                 )
             )
-        if is_out_tsv_file and len(parts) >= 6:
+        if is_labeled_parsed_row:
             payload_key = (
                 line_id.strip(),
                 surface.strip(),
@@ -2002,14 +2564,43 @@ def lint_file(
                 )
             else:
                 seen_unwrapped_row_payloads[payload_key] = i
-        in_cuc_dir = "cuc_tablets_tsv" in str(path)
-        is_raw_cuc_row = False
-        if input_format == "cuc_tablets_tsv":
-            is_raw_cuc_row = is_cuc_placeholder_row(parts)
-        elif input_format == "auto":
-            is_raw_cuc_row = is_cuc_placeholder_row(parts) and (
-                in_cuc_dir or path.suffix.lower() == ".tsv"
+            semantic_key = (
+                line_id.strip(),
+                surface.strip(),
+                (parts[3] or "").strip(),
+                (parts[4] or "").strip(),
+                (parts[5] or "").strip(),
             )
+            first_seen_semantic = seen_unwrapped_semantic_payloads.get(semantic_key)
+            current_analysis = (parts[2] or "").strip()
+            if first_seen_semantic is not None:
+                first_line, first_analysis = first_seen_semantic
+                if (
+                    first_analysis != current_analysis
+                    and not analyses_differ_only_by_clitic_payload(first_analysis, current_analysis)
+                ):
+                    is_generic_override = variant_uses_generic_override_lexeme(
+                        surface=surface,
+                        analysis_variant=current_analysis,
+                        dulat_variant=parts[3] if len(parts) >= 4 else "",
+                        generic_override_lexemes=generic_override_lexemes,
+                        extra_tokens=[first_analysis],
+                    ) and analysis_is_standalone_clitic_or_suffix(current_analysis)
+                    issues.append(
+                        Issue(
+                            "info" if is_generic_override else "error",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            analysis,
+                            "Duplicate feature bundle with different analysis "
+                            "(same id, surface, and col4-col6); "
+                            f"first seen on line {first_line}",
+                        )
+                    )
+            else:
+                seen_unwrapped_semantic_payloads[semantic_key] = (i, current_analysis)
 
         analysis_variants = [analysis.strip()] if analysis.strip() else [analysis]
         declared_head: Optional[str] = None
@@ -2061,7 +2652,7 @@ def lint_file(
                     )
                 )
 
-            if row_has_baal_labourer_in_ktu1(
+            if row_has_baal_labourer_outside_ktu4(
                 file_path=str(path),
                 surface=surface,
                 analysis_field=parts[2],
@@ -2077,7 +2668,7 @@ def lint_file(
                         line_id,
                         surface,
                         analysis,
-                        "In KTU 1.*, remove bʕl(I) 'labourer' and keep bʕl (II) /b-ʕ-l/ readings",
+                        "Outside KTU 4.*, remove bʕl(I) 'labourer' and keep bʕl (II) /b-ʕ-l/ readings",
                     )
                 )
 
@@ -2188,9 +2779,15 @@ def lint_file(
                         ]
 
                     if not d_tokens:
+                        is_generic_override = variant_uses_generic_override_lexeme(
+                            surface=surface,
+                            analysis_variant=a_var,
+                            dulat_variant=d_field,
+                            generic_override_lexemes=generic_override_lexemes,
+                        ) and analysis_is_standalone_clitic_or_suffix(a_var)
                         issues.append(
                             Issue(
-                                "error",
+                                "info" if is_generic_override else "error",
                                 str(path),
                                 i,
                                 line_id,
@@ -2304,7 +2901,24 @@ def lint_file(
                                 line_id,
                                 surface,
                                 a_var,
-                                "Prefixed N-stem forms should encode assimilated nun as '](n]'",
+                                "Prefixed N-stem forms should encode assimilated nun as '(]n]' (or ']n]' when visible)",
+                            )
+                        )
+                    for feature_message in inferable_feature_issues(
+                        a_var,
+                        p_field,
+                        surface=surface,
+                        dulat=d_field,
+                    ):
+                        issues.append(
+                            Issue(
+                                "error",
+                                str(path),
+                                i,
+                                line_id,
+                                surface,
+                                a_var,
+                                feature_message,
                             )
                         )
                     if len(p_tokens) > len(d_tokens):
@@ -2370,15 +2984,21 @@ def lint_file(
                         key = (normalize_surface(lemma_tok), hom_tok or "")
                         pos_matches = set(entry_index.get(key, set()))
                         gender_matches = set(entry_gender_index.get(key, set()))
+                        onomastic_pos_matches = set(onomastic_override_pos.get(key, set()))
                         # Fallback: if homonym omitted in col4 token, allow any homonym with same lemma.
                         if not pos_matches and not hom_tok:
                             for (k_lemma, _k_hom), pos_set in entry_index.items():
                                 if k_lemma == normalize_surface(lemma_tok):
                                     pos_matches.update(pos_set)
+                        if not onomastic_pos_matches and not hom_tok:
+                            for (k_lemma, _k_hom), pos_set in onomastic_override_pos.items():
+                                if k_lemma == normalize_surface(lemma_tok):
+                                    onomastic_pos_matches.update(pos_set)
                         if not gender_matches and not hom_tok:
                             for (k_lemma, _k_hom), g_set in entry_gender_index.items():
                                 if k_lemma == normalize_surface(lemma_tok):
                                     gender_matches.update(g_set)
+                        pos_matches.update(onomastic_pos_matches)
                         if not pos_matches:
                             issues.append(
                                 Issue(
@@ -2403,12 +3023,18 @@ def lint_file(
                                         allowed.add(normalize_pos_option_for_validation(sub_opt))
                             pos_tok_opts = split_pos_options(pos_tok) if pos_tok else []
                             for opt in pos_tok_opts:
-                                opt_norm = normalize_pos_option_for_validation(opt)
-                                if opt and allowed and opt_norm not in allowed:
+                                if opt and allowed and not pos_option_matches_allowed(opt, allowed):
                                     allowed_list = ", ".join(sorted(allowed))
+                                    is_generic_override = variant_uses_generic_override_lexeme(
+                                        surface=surface,
+                                        analysis_variant=a_var,
+                                        dulat_variant=d_field,
+                                        generic_override_lexemes=generic_override_lexemes,
+                                        extra_tokens=[dtok],
+                                    )
                                     issues.append(
                                         Issue(
-                                            "error",
+                                            "info" if is_generic_override else "error",
                                             str(path),
                                             i,
                                             line_id,
@@ -2676,18 +3302,43 @@ def lint_file(
                             "Infinitive should use `!!...[/` analysis encoding",
                         )
                     )
-            if has_participle_pos and not has_infinitive_pos and a_txt.startswith("!!"):
-                issues.append(
-                    Issue(
-                        "warning",
-                        str(path),
-                        i,
-                        line_id,
-                        surface,
-                        a_txt,
-                        "Participles should not use infinitive marker `!!`",
+                elif analysis_has_finite_preformative(a_txt):
+                    issues.append(
+                        Issue(
+                            "warning",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            a_txt,
+                            "Non-finite verb analysis should not retain finite preformative markers",
+                        )
                     )
-                )
+            if has_participle_pos and not has_infinitive_pos:
+                if a_txt.startswith("!!"):
+                    issues.append(
+                        Issue(
+                            "warning",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            a_txt,
+                            "Participles should not use infinitive marker `!!`",
+                        )
+                    )
+                elif analysis_has_finite_preformative(a_txt):
+                    issues.append(
+                        Issue(
+                            "warning",
+                            str(path),
+                            i,
+                            line_id,
+                            surface,
+                            a_txt,
+                            "Non-finite verb analysis should not retain finite preformative markers",
+                        )
+                    )
             if "~+" in a_txt:
                 issues.append(
                     Issue(
@@ -2698,6 +3349,30 @@ def lint_file(
                         surface,
                         a_txt,
                         "Enclitic marker '~' must not be followed by '+' (use '~n'/'~y')",
+                    )
+                )
+            if analysis_has_invalid_n_assimilation_order(a_txt):
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        "Invalid N-stem marker order `](n]`; use `(]n]` (reconstructed) or `]n]` (visible)",
+                    )
+                )
+            if analysis_has_n_assimilation_marker_without_n_stem(a_txt, p_field):
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        "Markers `(]n]`/`]n]` are only valid in N-stem verb analyses",
                     )
                 )
             if analysis_has_homonym_marked_n_clitic(a_txt):
@@ -2818,10 +3493,26 @@ def lint_file(
         note_text = "\t".join(parts[6:]).strip() if len(parts) > 6 else ""
         annotation_text = " ".join(x for x in (note_text, comment) if x).strip()
 
-        # Comments TODO markers
+        merge_direction = merge_direction_from_comment(annotation_text)
+        token_id = line_id.strip()
+        if token_id.isdigit():
+            if not data_token_sequence or data_token_sequence[-1][1] != token_id:
+                data_token_sequence.append((i, token_id, surface))
+            if merge_direction:
+                merge_annotations.append(
+                    MergeAnnotation(i, token_id, surface, (analysis or "").strip(), merge_direction)
+                )
+
+        # Comments TODO markers. Structured MERGE annotations are a recognized
+        # convention for words split across physical lines, not an uncertainty
+        # marker, so they do not count as a 'merge' TODO hit.
         todo_markers = ("merge", "???", "todo", "fix", "repair")
         annotation_lower = annotation_text.lower()
-        hit_markers = [t for t in todo_markers if t in annotation_lower]
+        hit_markers = [
+            t
+            for t in todo_markers
+            if t in annotation_lower and not (t == "merge" and merge_direction)
+        ]
         if hit_markers:
             issues.append(
                 Issue(
@@ -2837,15 +3528,51 @@ def lint_file(
 
         surface_clean = strip_missing(surface).strip()
 
+        # POS strings must keep the paradigm shape (person digit + gender,
+        # no repeated number tokens).
+        if is_labeled_parsed_row and len(parts) > 4:
+            for problem in pos_grammar_problems(parts[4]):
+                issues.append(
+                    Issue(
+                        "warning",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        analysis,
+                        f"POS grammar: {problem}",
+                    )
+                )
+
+        # Pronominal suffixes and enclitics must come from the paradigm
+        # inventories (catches plural/enclitic -m mis-marked as '+m').
+        for a_var in analysis_variants or [analysis]:
+            for marker, segment in invalid_affix_segments(a_var):
+                kind = "pronominal suffixes" if marker == "+" else "enclitics"
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_var,
+                        f"Suffix segment '{segment}' is not in the affix inventory ({kind})",
+                    )
+                )
+
         # Column 3 must be sufficient to reconstruct the original surface form.
-        if surface_clean and "x" not in surface.lower():
+        # Rows annotated as MERGE halves are validated jointly against the
+        # concatenated surfaces by validate_merge_pairs instead.
+        if surface_clean and "x" not in surface.lower() and merge_direction is None:
             expected_letters = "".join(
                 ch for ch in surface_clean if ANALYSIS_SURFACE_LETTER_RE.match(ch)
             )
             expected_norm = normalize_surface(expected_letters)
             if not expected_norm:
                 expected_norm = normalize_surface(surface_clean)
-            for a_var in analysis_variants or [analysis]:
+            variant_rows = analysis_variants or [analysis]
+            for idx, a_var in enumerate(variant_rows):
                 a_txt = (a_var or "").strip()
                 if not a_txt:
                     continue
@@ -2853,9 +3580,14 @@ def lint_file(
                     continue
                 reconstructed = normalize_surface(reconstruct_surface_from_analysis(a_txt))
                 if reconstructed != expected_norm:
+                    is_whitelisted_pair = reconstruction_demotion_applies(
+                        surface=surface,
+                        analysis_variant=a_txt,
+                        generic_override_analyses=generic_override_analyses,
+                    )
                     issues.append(
                         Issue(
-                            "error",
+                            "info" if is_whitelisted_pair else "error",
                             str(path),
                             i,
                             line_id,
@@ -2882,24 +3614,8 @@ def lint_file(
                 )
 
         if db_checks:
-            # Handle clitic splits (e.g., b+h=). Base lexeme is checked normally.
-            analysis_for_lexeme = analysis
-            clitic_parts: List[str] = []
-            if "+" in analysis:
-                split_parts = analysis.split("+")
-                base_part = split_parts[0].strip()
-                clitic_parts.extend([p for p in split_parts[1:] if p.strip()])
-                analysis_for_lexeme = base_part
-
-            if "[" in analysis:
-                base, tail = analysis.split("[", 1)
-                analysis_for_lexeme = base.strip()
-                tail = tail.strip()
-                if tail:
-                    for seg in tail.split("+"):
-                        seg = seg.strip()
-                        if seg:
-                            clitic_parts.append(seg)
+            # Handle clitic splits (e.g., b+h=, hl~m). Base lexeme is checked normally.
+            analysis_for_lexeme, clitic_parts = split_analysis_for_lexeme_and_clitics(analysis)
 
             seen_clitics = set()
             for part in clitic_parts:
@@ -2938,9 +3654,16 @@ def lint_file(
                         if part_hom:
                             part_candidates = [c for c in part_candidates if c.homonym == part_hom]
                 if not part_candidates:
+                    is_generic_override = variant_uses_generic_override_lexeme(
+                        surface=surface,
+                        analysis_variant=analysis,
+                        dulat_variant=parts[3] if len(parts) >= 4 else "",
+                        generic_override_lexemes=generic_override_lexemes,
+                        extra_tokens=[part, part_lexeme],
+                    )
                     issues.append(
                         Issue(
-                            "error",
+                            "info" if is_generic_override else "error",
                             str(path),
                             i,
                             line_id,
@@ -3030,7 +3753,7 @@ def lint_file(
                 if verb_candidates and noun_candidates:
                     issues.append(
                         Issue(
-                            "error",
+                            "warning",
                             str(path),
                             i,
                             line_id,
@@ -3068,7 +3791,22 @@ def lint_file(
                         if non_vb:
                             lexeme_candidates = non_vb
                     if lex_hom:
-                        lexeme_candidates = [c for c in lexeme_candidates if c.homonym == lex_hom]
+                        hom_matched = [c for c in lexeme_candidates if c.homonym == lex_hom]
+                        if lexeme_candidates and not hom_matched:
+                            attested = sorted({c.homonym or "(none)" for c in lexeme_candidates})
+                            issues.append(
+                                Issue(
+                                    "error",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    f"Declared homonym ({lex_hom}) is not attested in DULAT "
+                                    f"for lemma '{lexeme}'; attested: {', '.join(attested)}",
+                                )
+                            )
+                        lexeme_candidates = hom_matched
 
             analysis_plain = analysis.strip()
             # Surface-only excised tokens (for example "&š") intentionally carry no lexical parse.
@@ -3130,9 +3868,15 @@ def lint_file(
 
             if not skip_dulat:
                 if not d_candidates:
+                    is_generic_override = variant_uses_generic_override_lexeme(
+                        surface=surface,
+                        analysis_variant=analysis_for_lexeme or analysis,
+                        dulat_variant=parts[3] if len(parts) >= 4 else "",
+                        generic_override_lexemes=generic_override_lexemes,
+                    )
                     issues.append(
                         Issue(
-                            "error",
+                            "info" if is_generic_override else "error",
                             str(path),
                             i,
                             line_id,
@@ -3183,7 +3927,7 @@ def lint_file(
                                     "Š stem marker present but DULAT lacks Š/Št/Špass",
                                 )
                             )
-                        if has_t_stem and not ({"Gt", "Št", "Dt", "Lt", "Nt"} & stems):
+                        if has_t_stem and not ({"Gt", "Št", "Dt", "Lt", "Nt", "tD", "tL"} & stems):
                             issues.append(
                                 Issue(
                                     "error",
@@ -3275,15 +4019,28 @@ def lint_file(
                     # Unambiguous DULAT entry
                     if len(d_candidates) > 1 and head:
                         if not any(c.lemma == head and c.homonym == hom for c in d_candidates):
+                            is_generic_override = variant_uses_generic_override_lexeme(
+                                surface=surface,
+                                analysis_variant=analysis,
+                                dulat_variant=parts[3] if len(parts) >= 4 else "",
+                                generic_override_lexemes=generic_override_lexemes,
+                            ) and analysis_is_standalone_clitic_or_suffix(analysis)
+                            declared = f"{head} ({hom})" if hom else head
+                            cand_list = ", ".join(
+                                sorted(
+                                    f"{c.lemma} ({c.homonym})" if c.homonym else c.lemma
+                                    for c in d_candidates
+                                )
+                            )
                             issues.append(
                                 Issue(
-                                    "error",
+                                    "info" if is_generic_override else "error",
                                     str(path),
                                     i,
                                     line_id,
                                     surface,
                                     analysis,
-                                    "DULAT comment does not match candidates",
+                                    f"DULAT comment '{declared}' not in candidates: {cand_list}",
                                 )
                             )
                     elif len(d_candidates) > 1 and not head:
@@ -4360,6 +5117,8 @@ def lint_file(
                 )
             )
 
+    issues.extend(validate_merge_pairs(merge_annotations, data_token_sequence, str(path)))
+
     return issues
 
 
@@ -4370,7 +5129,19 @@ def lint_file(
 
 def render_html(issues: List[Issue], out_path: Path):
     rows = []
+    by_severity = {"error": 0, "warning": 0, "info": 0}
+    by_message_by_severity: Dict[str, Dict[str, int]] = {
+        "error": {},
+        "warning": {},
+        "info": {},
+    }
     for it in issues:
+        level = (it.level or "").lower()
+        if level in by_severity:
+            by_severity[level] += 1
+        severity_bucket = by_message_by_severity.get(level)
+        if severity_bucket is not None:
+            severity_bucket[it.message] = severity_bucket.get(it.message, 0) + 1
         rows.append(
             f"<tr class='{it.level}'>"
             f"<td>{html.escape(it.level)}</td>"
@@ -4385,6 +5156,36 @@ def render_html(issues: List[Issue], out_path: Path):
 
     body = "\n".join(rows) if rows else "<tr><td colspan='7'>No issues</td></tr>"
 
+    total = len(issues)
+
+    severity_order = ("error", "warning", "info")
+    top_sections: list[str] = []
+    for severity in severity_order:
+        messages = by_message_by_severity.get(severity, {})
+        top_messages = sorted(messages.items(), key=lambda item: (-item[1], item[0]))[:10]
+        top_rows = "\n".join(
+            f"<tr><td>{html.escape(message)}</td><td>{count}</td></tr>"
+            for message, count in top_messages
+        )
+        if not top_rows:
+            top_rows = "<tr><td colspan='2'>No issues</td></tr>"
+        top_sections.append(
+            "\n".join(
+                [
+                    f"<h3>{severity.upper()}</h3>",
+                    "<table>",
+                    "<thead>",
+                    "<tr><th>Message</th><th>Count</th></tr>",
+                    "</thead>",
+                    "<tbody>",
+                    top_rows,
+                    "</tbody>",
+                    "</table>",
+                ]
+            )
+        )
+    top_sections_html = "\n".join(top_sections)
+
     html_text = f"""
 <!doctype html>
 <html>
@@ -4398,10 +5199,25 @@ th, td {{ border: 1px solid #ccc; padding: 4px 6px; font-size: 12px; }}
 tr.error {{ background: #ffe5e5; }}
 tr.warning {{ background: #fff3cd; }}
 tr.info {{ background: #e8f4ff; }}
+.summary {{ margin-bottom: 16px; }}
+.summary-grid {{ display: grid; grid-template-columns: repeat(4, max-content); gap: 8px 14px; align-items: center; }}
+.summary-label {{ font-weight: 700; }}
 </style>
 </head>
 <body>
 <h1>Morphology Lint Report</h1>
+<div class="summary">
+  <h2>Statistical Summary</h2>
+  <div class="summary-grid">
+    <div class="summary-label">Total issues</div><div>{total}</div>
+    <div class="summary-label">Errors</div><div>{by_severity["error"]}</div>
+    <div class="summary-label">Warnings</div><div>{by_severity["warning"]}</div>
+    <div class="summary-label">Info</div><div>{by_severity["info"]}</div>
+  </div>
+</div>
+<h2>Top Problem Types</h2>
+{top_sections_html}
+<h2>Detailed Issues</h2>
 <table>
 <thead>
 <tr>
@@ -4431,10 +5247,11 @@ def main():
         help="Input labeled files (.txt) or raw CUC tablet files (.tsv)",
     )
     parser.add_argument("--html", help="Write HTML report to file")
+    paths = get_project_paths(Path(__file__).resolve().parents[1])
     parser.add_argument(
-        "--dulat", default="sources/dulat_cache.sqlite", help="Path to DULAT sqlite"
+        "--dulat", default=str(paths.default_dulat_db()), help="Path to DULAT sqlite"
     )
-    parser.add_argument("--udb", default="sources/udb_cache.sqlite", help="Path to UDB sqlite")
+    parser.add_argument("--udb", default=str(paths.default_udb_db()), help="Path to UDB sqlite")
     parser.add_argument(
         "--no-db",
         action="store_true",
@@ -4445,6 +5262,16 @@ def main():
         choices=["auto", "labeled", "cuc_tablets_tsv"],
         default="auto",
         help="Input row format: auto-detect, fully labeled files, or raw cuc_tablets_tsv rows",
+    )
+    parser.add_argument(
+        "--generic-overrides",
+        default=str(paths.data_sources_dir / "generic_parsing_overrides.tsv"),
+        help="Path to generic parsing overrides table used for scoped lint demotions",
+    )
+    parser.add_argument(
+        "--onomastic-overrides",
+        default=str(paths.data_sources_dir / "onomastic_gloss_overrides.tsv"),
+        help="Path to onomastic override table used for POS allowlist expansion",
     )
     args = parser.parse_args()
 
@@ -4458,6 +5285,9 @@ def main():
     else:
         dulat_forms, entry_meta, lemma_map, entry_stems, entry_gender = load_dulat(Path(args.dulat))
         udb_words = load_udb_words(Path(args.udb)) if Path(args.udb).exists() else None
+    generic_override_lexemes = load_generic_override_lexemes(Path(args.generic_overrides))
+    generic_override_analyses = load_generic_override_analyses(Path(args.generic_overrides))
+    onomastic_override_pos = load_onomastic_override_pos(Path(args.onomastic_overrides))
 
     all_issues: List[Issue] = []
 
@@ -4482,6 +5312,9 @@ def main():
             baseline,
             input_format=args.input_format,
             db_checks=(not args.no_db),
+            generic_override_lexemes=generic_override_lexemes,
+            onomastic_override_pos=onomastic_override_pos,
+            generic_override_analyses=generic_override_analyses,
         )
         all_issues.extend(issues)
 

@@ -72,7 +72,9 @@ _STEM_CANON = {
 }
 
 _FORM_PREFC_RE = re.compile(r"\b(?:prefc?|cprf)\b", flags=re.IGNORECASE)
-_FORM_SUFFC_RE = re.compile(r"\b(?:suffc?|csuff)\b", flags=re.IGNORECASE)
+_FORM_SUFFC_RE = re.compile(r"\b(?:suffc|csuff)\b", flags=re.IGNORECASE)
+_FORM_SUFF_SHORT_RE = re.compile(r"\bsuff\.", flags=re.IGNORECASE)
+_FORM_WITH_SUFFIX_RE = re.compile(r"\bwith\s+suff\.", flags=re.IGNORECASE)
 _FORM_IMPV_RE = re.compile(r"\bimpv\b", flags=re.IGNORECASE)
 _FORM_INF_RE = re.compile(r"\binf\b", flags=re.IGNORECASE)
 _FORM_PTC_RE = re.compile(r"\bptc(?:pl)?\b", flags=re.IGNORECASE)
@@ -84,6 +86,10 @@ _FEM_RE = re.compile(r"\bf\.", flags=re.IGNORECASE)
 _SING_RE = re.compile(r"(?:\bsg\.|\bsing(?:ular)?)(?=$|\s|,|;)", flags=re.IGNORECASE)
 _PLUR_RE = re.compile(r"(?:\bpl\.|\bplur(?:al)?)(?=$|\s|,|;)", flags=re.IGNORECASE)
 _DUAL_RE = re.compile(r"(?:\bdu\.|\bdual)(?=$|\s|,|;)", flags=re.IGNORECASE)
+_PRONOMINAL_SUFFIX_RE = re.compile(
+    r"\+(?:y|n=?|ny=?|k=?|nk|h=?|nh=?|nn|km=?|nkm|kn|hm=?|hn)(?=\s*$|[;,\s])",
+    flags=re.IGNORECASE,
+)
 
 FORM_ORDER = ("prefc.", "suffc.", "impv.", "inf.", "act. ptcpl.", "pass. ptcpl.", "ptcpl.")
 _FORM_RANK = {label: idx for idx, label in enumerate(FORM_ORDER)}
@@ -163,15 +169,26 @@ def _extract_stems_from_morphology(morphology: str) -> set[str]:
 def _extract_form_labels(morphology: str) -> list[str]:
     text = (morphology or "").lower()
     labels: list[str] = []
-    if _FORM_PREFC_RE.search(text):
+    has_prefc = _FORM_PREFC_RE.search(text) is not None
+    has_impv = _FORM_IMPV_RE.search(text) is not None
+    has_inf = _FORM_INF_RE.search(text) is not None
+    has_ptc = _FORM_PTC_RE.search(text) is not None
+    has_other_form_label = has_prefc or has_impv or has_inf or has_ptc
+    if has_prefc:
         labels.append("prefc.")
-    if _FORM_SUFFC_RE.search(text):
+    has_suffc = _FORM_SUFFC_RE.search(text) is not None
+    has_bare_suff = _FORM_SUFF_SHORT_RE.search(text) is not None
+    if has_suffc or (
+        has_bare_suff
+        and not _FORM_WITH_SUFFIX_RE.search(text)
+        and not has_other_form_label
+    ):
         labels.append("suffc.")
-    if _FORM_IMPV_RE.search(text):
+    if has_impv:
         labels.append("impv.")
-    if _FORM_INF_RE.search(text):
+    if has_inf:
         labels.append("inf.")
-    if _FORM_PTC_RE.search(text):
+    if has_ptc:
         has_act = _FORM_ACT_RE.search(text) is not None
         has_pass = _FORM_PASS_RE.search(text) is not None
         if has_act:
@@ -258,6 +275,7 @@ class VerbFormOption:
     form: str
     gender: str
     number: str
+    construct: bool = False
 
     def render(self) -> str:
         parts = ["vb", self.stem]
@@ -267,6 +285,8 @@ class VerbFormOption:
             parts.append(self.gender)
         if self.number:
             parts.append(self.number)
+        if self.construct:
+            parts.append("cstr.")
         return " ".join(part for part in parts if part).strip()
 
 
@@ -413,7 +433,11 @@ class VerbFormMorphPosFixer(RefinementStep):
                 )
                 if morphologies:
                     break
-            rewritten = self._rewrite_variant(current_pos=current_pos, morphologies=morphologies)
+            rewritten = self._rewrite_variant(
+                current_pos=current_pos,
+                morphologies=morphologies,
+                analysis_variant=analysis_variant,
+            )
             out_pos.append(rewritten)
             if rewritten != current_pos:
                 changed = True
@@ -431,15 +455,22 @@ class VerbFormMorphPosFixer(RefinementStep):
             comment=row.comment,
         )
 
-    def _rewrite_variant(self, current_pos: str, morphologies: set[str]) -> str:
+    def _rewrite_variant(
+        self, current_pos: str, morphologies: set[str], analysis_variant: str
+    ) -> str:
         if not morphologies:
             return current_pos
 
         existing_stems = _extract_existing_stems(current_pos)
+        has_pronominal_suffix = _PRONOMINAL_SUFFIX_RE.search(analysis_variant or "") is not None
         options: list[VerbFormOption] = []
         for morph in morphologies:
             options.extend(
-                _options_from_morphology(morphology=morph, existing_stems=existing_stems)
+                _options_from_morphology(
+                    morphology=morph,
+                    existing_stems=existing_stems,
+                    has_pronominal_suffix=has_pronominal_suffix,
+                )
             )
         if not options:
             return current_pos
@@ -448,7 +479,9 @@ class VerbFormMorphPosFixer(RefinementStep):
         return rendered or current_pos
 
 
-def _options_from_morphology(morphology: str, existing_stems: set[str]) -> list[VerbFormOption]:
+def _options_from_morphology(
+    morphology: str, existing_stems: set[str], has_pronominal_suffix: bool
+) -> list[VerbFormOption]:
     stems = _extract_stems_from_morphology(morphology)
     if stems and existing_stems:
         overlap = stems & existing_stems
@@ -469,7 +502,15 @@ def _options_from_morphology(morphology: str, existing_stems: set[str]) -> list[
         for form in forms:
             for gender in genders:
                 for number in numbers:
-                    out.append(VerbFormOption(stem=stem, form=form, gender=gender, number=number))
+                    out.append(
+                        VerbFormOption(
+                            stem=stem,
+                            form=form,
+                            gender=gender,
+                            number=number,
+                            construct=has_pronominal_suffix and "ptcpl." in form,
+                        )
+                    )
     return out
 
 

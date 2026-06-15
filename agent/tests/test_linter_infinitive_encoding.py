@@ -10,6 +10,7 @@ from linter.lint import DulatEntry, lint_file, normalize_surface, normalize_udb
 class LinterInfinitiveEncodingTest(unittest.TestCase):
     INF_WARNING = "Infinitive should use `!!...[/` analysis encoding"
     PTCP_WARNING = "Participles should not use infinitive marker `!!`"
+    FINITE_PREFIX_WARNING = "Non-finite verb analysis should not retain finite preformative markers"
 
     def _lint_messages(
         self,
@@ -96,6 +97,28 @@ class LinterInfinitiveEncodingTest(unittest.TestCase):
             entry_morph="G, pass. ptcpl.",
         )
         self.assertTrue(any(message.startswith(self.PTCP_WARNING) for message in messages))
+
+    def test_warns_when_infinitive_retains_finite_preformative(self) -> None:
+        messages = self._lint_messages(
+            surface="ydy",
+            analysis="!!!y!(ydy(I)[/",
+            dulat_token="/y-d-y/ (I)",
+            pos_value="vb G inf.",
+            gloss="to throw",
+            entry_morph="G, inf.",
+        )
+        self.assertTrue(any(message.startswith(self.FINITE_PREFIX_WARNING) for message in messages))
+
+    def test_warns_when_participle_retains_finite_preformative(self) -> None:
+        messages = self._lint_messages(
+            surface="ydy",
+            analysis="!y!(ydy(I)[/",
+            dulat_token="/y-d-y/ (I)",
+            pos_value="vb G act. ptcpl. m.",
+            gloss="to throw",
+            entry_morph="G, act. ptc., m.",
+        )
+        self.assertTrue(any(message.startswith(self.FINITE_PREFIX_WARNING) for message in messages))
 
 
 if __name__ == "__main__":

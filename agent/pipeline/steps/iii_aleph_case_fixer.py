@@ -94,6 +94,25 @@ class IIIAlephCaseFixer(RefinementStep):
         dulat_head: str,
         pos_head: str,
     ) -> str:
+        rewritten = self._rewrite_variant_inner(surface, analysis_variant, dulat_head, pos_head)
+        original = (analysis_variant or "").strip()
+        if rewritten == original:
+            return rewritten
+        # A case rewrite must never degrade reconstructability; if the rewrite
+        # does not decode back to the surface, keep the original analysis.
+        target = normalize_surface(surface).lower()
+        decoded = normalize_surface(reconstruct_surface_from_analysis(rewritten)).lower()
+        if "x" not in target and decoded != target:
+            return original
+        return rewritten
+
+    def _rewrite_variant_inner(
+        self,
+        surface: str,
+        analysis_variant: str,
+        dulat_head: str,
+        pos_head: str,
+    ) -> str:
         value = (analysis_variant or "").strip()
         if not value or value == "?":
             return value
@@ -217,8 +236,9 @@ class IIIAlephCaseFixer(RefinementStep):
         if not homonym and declared_homonym:
             homonym = f"({declared_homonym})"
 
-        if surface_vowel == lex_vowel:
-            return f"{rendered_base}({lex_vowel}{homonym}&/m"
+        # Always keep the realized surface vowel; dropping it when it equals
+        # the lexeme vowel produced `(u&/m`, which decodes to `rpm` (the u is
+        # lost) and gets gated out downstream.
         return f"{rendered_base}({lex_vowel}{homonym}&{surface_vowel}/m"
 
     def _has_plural_surface_morphology(self, *, dulat_head: str, surface: str) -> bool:

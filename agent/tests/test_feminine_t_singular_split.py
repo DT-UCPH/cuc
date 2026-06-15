@@ -219,6 +219,38 @@ class FeminineTSingularSplitFixerTest(unittest.TestCase):
         result = fixer.refine_row(row)
         self.assertEqual(result.analysis, "ṣrr(t/t;ṣrr(t/t=")
 
+    def test_does_not_emit_number_pair_when_pos_already_explicit_singular(self) -> None:
+        fixer = FeminineTSingularSplitFixer(
+            gate=_PluralOnlyGate(
+                morphologies={
+                    ("ṣrrt", "ṣrrt"): {"sg.", "pl."},
+                }
+            ),
+        )
+        row = TabletRow("18b", "ṣrrt", "ṣrrt/", "ṣrrt", "n. f. sg.", "height(s)", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ṣrr(t/t")
+
+    def test_does_not_expand_sg_pl_pair_inside_multi_variant_row(self) -> None:
+        fixer = FeminineTSingularSplitFixer(
+            gate=_PluralOnlyGate(
+                morphologies={
+                    ("klt (I)", "klt"): {"sg.", "pl."},
+                }
+            ),
+        )
+        row = TabletRow(
+            "18c",
+            "klt",
+            "klt(I)/;kly[;klt(II)/",
+            "klt (I); /k-l-y/; klt (II)",
+            "n. f.; vb; n. f. sg.",
+            "bride; to finish; measure",
+            "",
+        )
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "kl(t(I)/t;kly[;kl(t(II)/t")
+
     def test_splits_t_final_numeral_without_adding_plural_pair(self) -> None:
         fixer = FeminineTSingularSplitFixer(
             gate=_PluralOnlyGate(

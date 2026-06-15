@@ -9,33 +9,39 @@ import scripts.refine_results_mentions as refine
 from lint_reports.generator import LintReportGenerator
 from pipeline.config.surface_option_allowlist import SURFACE_OPTION_PROPAGATION_ALLOWLIST
 from pipeline.dulat_attestation_index import DulatAttestationIndex
+from pipeline.dulat_attestation_translation_index import DulatAttestationTranslationIndex
+from pipeline.formula_context_step_factory import build_spacy_formula_context_steps
 from pipeline.instruction_refiner import InstructionRefiner
+from pipeline.k_context_step_factory import build_spacy_k_context_steps
+from pipeline.l_context_step_factory import build_spacy_l_context_steps
+from pipeline.lexical_context_step_factory import (
+    build_spacy_baal_context_steps,
+    build_spacy_mlk_context_steps,
+    build_spacy_ydk_context_steps,
+)
+from pipeline.morph_context_step_factory import build_spacy_morph_context_steps
+from pipeline.offering_context_step_factory import build_spacy_offering_context_steps
+from pipeline.quote_translation_step_factory import build_spacy_quote_translation_steps
 from pipeline.steps.aleph_prefix import AlephPrefixFixer
 from pipeline.steps.attestation_reference_disambiguator import AttestationReferenceDisambiguator
 from pipeline.steps.attestation_sort import AttestationSortFixer
-from pipeline.steps.baal_labourer_ktu1 import BaalLabourerKtu1Fixer
-from pipeline.steps.baal_plural import BaalPluralGodListFixer
-from pipeline.steps.baal_verbal_slash import BaalVerbalSlashFixer
+from pipeline.steps.attested_split_token_merge import AttestedSplitTokenMergeFixer
+from pipeline.steps.baal_gloss import BaalGlossFixer
 from pipeline.steps.base import RefinementStep
 from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFixer
+from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
 from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.feminine_t_singular_split import FeminineTSingularSplitFixer
-from pipeline.steps.formula_bigram import FormulaBigramFixer
-from pipeline.steps.formula_trigram import FormulaTrigramFixer
+from pipeline.steps.function_word_clitic_notation import FunctionWordCliticNotationFixer
+from pipeline.steps.function_word_clitic_pruner import FunctionWordCliticPruner
 from pipeline.steps.generic_parsing_override import GenericParsingOverrideFixer
 from pipeline.steps.iii_aleph_case_fixer import IIIAlephCaseFixer
-from pipeline.steps.k_functor_bigram_context import KFunctorBigramContextDisambiguator
 from pipeline.steps.known_ambiguities import KnownAmbiguityExpander
 from pipeline.steps.ktu1_family_homonym_pruner import Ktu1FamilyHomonymPruner
-from pipeline.steps.l_body_compound_prep import LBodyCompoundPrepDisambiguator
-from pipeline.steps.l_functor_vocative_context import LFunctorVocativeContextDisambiguator
-from pipeline.steps.l_kbd_compound_prep import LKbdCompoundPrepDisambiguator
-from pipeline.steps.l_negation_verb_context import LNegationVerbContextPruner
-from pipeline.steps.l_preposition_bigram_context import LPrepositionBigramContextDisambiguator
 from pipeline.steps.nominal_case_ending_yh import NominalCaseEndingYHFixer
+from pipeline.steps.nominal_feature_completion import NominalFeatureCompletionFixer
 from pipeline.steps.nominal_form_morph_pos import NominalFormMorphPosFixer
 from pipeline.steps.noun_closure import NounPosClosureFixer
-from pipeline.steps.offering_l_prep import OfferingListLPrepFixer
 from pipeline.steps.onomastic_gloss import OnomasticGlossOverrideFixer
 from pipeline.steps.plural_split import PluralSplitFixer
 from pipeline.steps.plurale_tantum_m import PluraleTantumMFixer
@@ -47,23 +53,28 @@ from pipeline.steps.prefixed_iii_aleph_verb import PrefixedIIIAlephVerbFixer
 from pipeline.steps.pronoun_closure import PronounClosureFixer
 from pipeline.steps.redirect_reconstruction_comment import RedirectReconstructionCommentFixer
 from pipeline.steps.schema_formatter import TsvSchemaFormatter
+from pipeline.steps.scribal_anticipation import ScribalAnticipationAnnotator
 from pipeline.steps.suffix_fixer import SuffixCliticFixer
 from pipeline.steps.suffix_paradigm_normalizer import SuffixParadigmNormalizer
 from pipeline.steps.suffix_payload_collapse import SuffixPayloadCollapseFixer
 from pipeline.steps.surface_option_propagation import SurfaceOptionPropagationFixer
 from pipeline.steps.surface_reconstructability_fixer import SurfaceReconstructabilityFixer
 from pipeline.steps.toponym_directional_h import ToponymDirectionalHFixer
+from pipeline.steps.unresolvable_token_fallback import UnresolvableTokenFallback
 from pipeline.steps.unwrapped_duplicate_pruner import UnwrappedDuplicatePruner
+from pipeline.steps.variant_reconstruction_pruner import VariantReconstructionPruner
 from pipeline.steps.variant_row_unwrapper import VariantRowUnwrapper
 from pipeline.steps.verb_form_encoding_split import VerbFormEncodingSplitFixer
 from pipeline.steps.verb_form_morph_pos import VerbFormMorphPosFixer
 from pipeline.steps.verb_l_stem_gemination import VerbLStemGeminationFixer
+from pipeline.steps.verb_mixed_stem_split import VerbMixedStemSplitFixer
 from pipeline.steps.verb_n_stem_assimilation import VerbNStemAssimilationFixer
 from pipeline.steps.verb_pos_stem import VerbPosStemFixer
+from pipeline.steps.verb_pronominal_suffix_tail import VerbPronominalSuffixTailFixer
 from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
+from pipeline.steps.verbal_feature_completion import VerbalFeatureCompletionFixer
 from pipeline.steps.weak_final_sc import WeakFinalSuffixConjugationFixer
 from pipeline.steps.weak_verb import WeakVerbFixer
-from pipeline.steps.ydk_context_disambiguator import YdkContextDisambiguator
 
 
 @dataclass(frozen=True)
@@ -88,22 +99,26 @@ class TabletParsingPipeline:
         self.instruction_refiner = InstructionRefiner(dulat_db=self.config.dulat_db)
         self.morph_gate = DulatMorphGate(self.config.dulat_db)
         self.attestation_index = DulatAttestationIndex.from_sqlite(self.config.dulat_db)
-        self._refinement_steps: List[RefinementStep] = [
+        self._pre_formula_context_steps: List[RefinementStep] = [
             TsvSchemaFormatter(),
             NounPosClosureFixer(),
-            FormulaTrigramFixer(),
-            FormulaBigramFixer(),
-            OfferingListLPrepFixer(),
+        ]
+        self._formula_context_steps: List[RefinementStep] = build_spacy_formula_context_steps()
+        self._post_formula_context_steps: List[RefinementStep] = []
+        self._pre_offering_context_steps: List[RefinementStep] = []
+        self._offering_context_steps: List[RefinementStep] = build_spacy_offering_context_steps()
+        self._post_offering_context_steps: List[RefinementStep] = []
+        self._pre_baal_context_steps: List[RefinementStep] = [
             PluralSplitFixer(gate=self.morph_gate),
             PluraleTantumMFixer(gate=self.morph_gate),
             FeminineTSingularSplitFixer(gate=self.morph_gate),
-            BaalLabourerKtu1Fixer(),
-            BaalVerbalSlashFixer(),
-            BaalPluralGodListFixer(),
             Ktu1FamilyHomonymPruner(dulat_db=self.config.dulat_db),
             SuffixCliticFixer(gate=self.morph_gate),
             ToponymDirectionalHFixer(gate=self.morph_gate),
-            DeicticFunctorEncliticMFixer(gate=self.morph_gate),
+            DeicticFunctorEncliticMFixer(
+                gate=self.morph_gate,
+                dulat_db=self.config.dulat_db,
+            ),
             SuffixParadigmNormalizer(),
             WeakVerbFixer(),
             WeakFinalSuffixConjugationFixer(),
@@ -115,37 +130,256 @@ class TabletParsingPipeline:
             ),
             AttestationSortFixer(index=self.attestation_index),
             KnownAmbiguityExpander(),
-            OnomasticGlossOverrideFixer(),
+            OnomasticGlossOverrideFixer(attestation_index=self.attestation_index),
             IIIAlephCaseFixer(gate=self.morph_gate),
             NominalCaseEndingYHFixer(gate=self.morph_gate),
             NominalFormMorphPosFixer(gate=self.morph_gate),
             SurfaceReconstructabilityFixer(),
+            FunctionWordCliticNotationFixer(),
             GenericParsingOverrideFixer(),
             SuffixPayloadCollapseFixer(),
             VariantRowUnwrapper(),
             RedirectReconstructionCommentFixer(),
             UnwrappedDuplicatePruner(),
+            FunctionWordCliticPruner(),
+            # Runs after the marker fixers so repairable rows are repaired
+            # first; what still cannot reconstruct next to a healthy sibling
+            # is a parser artifact (cross-token leakage like gh -> ytn[).
+            VariantReconstructionPruner(),
+            NominalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
             AttestationReferenceDisambiguator(index=self.attestation_index),
-            LNegationVerbContextPruner(),
-            LFunctorVocativeContextDisambiguator(),
-            LKbdCompoundPrepDisambiguator(),
-            LBodyCompoundPrepDisambiguator(),
-            LPrepositionBigramContextDisambiguator(),
-            KFunctorBigramContextDisambiguator(),
-            YdkContextDisambiguator(),
+            # Must precede the split-token merge: an annotated anticipation
+            # fragment no longer carries 'DULAT: NOT FOUND', which keeps the
+            # merge fixer from joining it with its neighbour.
+            ScribalAnticipationAnnotator(),
+            AttestedSplitTokenMergeFixer(
+                dulat_db=self.config.dulat_db,
+                udb_db=self.config.udb_db,
+            ),
+        ]
+        self._baal_context_steps: List[RefinementStep] = build_spacy_baal_context_steps(
+            attestation_index=self.attestation_index
+        )
+        self._post_baal_context_steps: List[RefinementStep] = []
+        self._pre_mlk_context_steps: List[RefinementStep] = []
+        self._mlk_context_steps: List[RefinementStep] = build_spacy_mlk_context_steps(
+            attestation_index=self.attestation_index
+        )
+        self._post_mlk_context_steps: List[RefinementStep] = []
+        self._pre_l_context_steps: List[RefinementStep] = []
+        self._l_context_steps: List[RefinementStep] = build_spacy_l_context_steps(
+            dulat_db=self.config.dulat_db
+        )
+        self._pre_k_context_steps: List[RefinementStep] = []
+        self._k_context_steps: List[RefinementStep] = build_spacy_k_context_steps(
+            dulat_db=self.config.dulat_db
+        )
+        self._post_k_context_steps: List[RefinementStep] = []
+        self._pre_ydk_context_steps: List[RefinementStep] = []
+        self._ydk_context_steps: List[RefinementStep] = build_spacy_ydk_context_steps()
+        self._post_ydk_context_steps: List[RefinementStep] = [
             PrefixedIIIAlephVerbFixer(),
             VerbPosStemFixer(dulat_db=self.config.dulat_db),
             VerbFormMorphPosFixer(dulat_db=self.config.dulat_db),
+            VerbMixedStemSplitFixer(dulat_db=self.config.dulat_db),
             VerbFormEncodingSplitFixer(),
+            DulatEncliticMFixer(dulat_db=self.config.dulat_db, gate=self.morph_gate),
             VerbLStemGeminationFixer(),
             VerbStemSuffixMarkerFixer(),
+            VerbPronominalSuffixTailFixer(dulat_db=self.config.dulat_db),
             VerbNStemAssimilationFixer(),
             PostVerbVariantRowUnwrapper(),
             PostVerbUnwrappedDuplicatePruner(),
+            VerbalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
+            *build_spacy_morph_context_steps(),
+            BaalGlossFixer(),
+            *build_spacy_quote_translation_steps(dulat_db=self.config.dulat_db),
+            # After every repair step has run, tokens that still cannot
+            # reconstruct fall back to '?' with a DULAT candidate hint.
+            UnresolvableTokenFallback(),
             # Keep schema pass last so any content-changing steps still end in
             # strict 7-column/quote-safe TSV for GitHub rendering.
             TsvSchemaFormatter(),
         ]
+        self._refinement_steps: List[RefinementStep] = [
+            *self._pre_formula_context_steps,
+            *self._formula_context_steps,
+            *self._post_formula_context_steps,
+            *self._pre_offering_context_steps,
+            *self._offering_context_steps,
+            *self._post_offering_context_steps,
+            *self._pre_baal_context_steps,
+            *self._baal_context_steps,
+            *self._post_baal_context_steps,
+            *self._pre_mlk_context_steps,
+            *self._mlk_context_steps,
+            *self._post_mlk_context_steps,
+            *self._pre_l_context_steps,
+            *self._l_context_steps,
+            *self._pre_k_context_steps,
+            *self._k_context_steps,
+            *self._post_k_context_steps,
+            *self._pre_ydk_context_steps,
+            *self._ydk_context_steps,
+            *self._post_ydk_context_steps,
+        ]
+
+    @property
+    def pre_formula_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._pre_formula_context_steps)
+
+    @property
+    def formula_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._formula_context_steps)
+
+    @property
+    def post_formula_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._post_formula_context_steps,
+                *self._pre_offering_context_steps,
+                *self._offering_context_steps,
+                *self._post_offering_context_steps,
+                *self._pre_baal_context_steps,
+                *self._baal_context_steps,
+                *self._post_baal_context_steps,
+                *self._pre_mlk_context_steps,
+                *self._mlk_context_steps,
+                *self._post_mlk_context_steps,
+                *self._pre_l_context_steps,
+                *self._l_context_steps,
+                *self._pre_k_context_steps,
+                *self._k_context_steps,
+                *self._post_k_context_steps,
+                *self._pre_ydk_context_steps,
+                *self._ydk_context_steps,
+                *self._post_ydk_context_steps,
+            ]
+        )
+
+    @property
+    def pre_offering_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._pre_formula_context_steps,
+                *self._formula_context_steps,
+                *self._post_formula_context_steps,
+            ]
+        )
+
+    @property
+    def offering_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._offering_context_steps)
+
+    @property
+    def pre_baal_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._pre_formula_context_steps,
+                *self._formula_context_steps,
+                *self._post_formula_context_steps,
+                *self._pre_offering_context_steps,
+                *self._offering_context_steps,
+                *self._post_offering_context_steps,
+                *self._pre_baal_context_steps,
+            ]
+        )
+
+    @property
+    def post_offering_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._post_offering_context_steps,
+                *self._pre_baal_context_steps,
+                *self._baal_context_steps,
+                *self._post_baal_context_steps,
+                *self._pre_l_context_steps,
+                *self._l_context_steps,
+                *self._pre_k_context_steps,
+                *self._k_context_steps,
+                *self._post_k_context_steps,
+                *self._pre_ydk_context_steps,
+                *self._ydk_context_steps,
+                *self._post_ydk_context_steps,
+            ]
+        )
+
+    @property
+    def pre_l_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._pre_formula_context_steps,
+                *self._formula_context_steps,
+                *self._post_formula_context_steps,
+                *self._pre_offering_context_steps,
+                *self._offering_context_steps,
+                *self._post_offering_context_steps,
+                *self._pre_baal_context_steps,
+                *self._baal_context_steps,
+                *self._post_baal_context_steps,
+            ]
+        )
+
+    @property
+    def baal_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._baal_context_steps)
+
+    @property
+    def post_baal_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._post_baal_context_steps,
+                *self._pre_l_context_steps,
+                *self._l_context_steps,
+                *self._pre_k_context_steps,
+                *self._k_context_steps,
+                *self._post_k_context_steps,
+            ]
+        )
+
+    @property
+    def l_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._l_context_steps)
+
+    @property
+    def post_l_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._pre_k_context_steps,
+                *self._k_context_steps,
+                *self._post_k_context_steps,
+                *self._pre_ydk_context_steps,
+                *self._ydk_context_steps,
+                *self._post_ydk_context_steps,
+            ]
+        )
+
+    @property
+    def pre_k_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._pre_k_context_steps)
+
+    @property
+    def k_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._k_context_steps)
+
+    @property
+    def post_k_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(
+            [
+                *self._post_k_context_steps,
+                *self._pre_ydk_context_steps,
+                *self._ydk_context_steps,
+                *self._post_ydk_context_steps,
+            ]
+        )
+
+    @property
+    def ydk_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._ydk_context_steps)
+
+    @property
+    def post_ydk_context_steps(self) -> Sequence[RefinementStep]:
+        return tuple(self._post_ydk_context_steps)
 
     def discover_source_files(self) -> List[Path]:
         return sorted(self.config.source_dir.glob(self.config.source_glob))
@@ -194,6 +428,7 @@ class TabletParsingPipeline:
         _entries_by_id, forms_map, lemma_map, suffix_map, forms_morph = refine.load_entries(
             self.config.dulat_db
         )
+        translation_index = DulatAttestationTranslationIndex.from_sqlite(self.config.dulat_db)
         reverse_mentions, entry_ref_count, entry_tablets, entry_family_count = (
             refine.load_reverse_mentions(
                 self.config.dulat_db,
@@ -216,6 +451,8 @@ class TabletParsingPipeline:
                 entry_ref_count,
                 entry_tablets,
                 entry_family_count,
+                direct_reference_index=self.attestation_index,
+                translation_index=translation_index,
             )
             rows_total += rows
             changed_total += changed

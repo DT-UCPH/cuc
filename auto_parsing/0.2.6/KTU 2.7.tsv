@@ -5,14 +5,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156480	xxxxxxmt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.7 3						
 156481	bkxxxt	?	?	?	?	DULAT: NOT FOUND
-156482	yqḥ	lqḥ[:pass	/l-q-ḥ/	vb G prefc. / vb Gpass	to get hold of	
+156482	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
+156482	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
 # KTU 2.7 4						
 156483	w	w	w	conj.	and	
 156484	ˤxxxx	?	?	?	?	DULAT: NOT FOUND
-156485	rkb	rkb[	/r-k-b/	vb G suffc. / vb G impv.	to mount (especially a chariot)	
-156485	rkb	rkb[/	/r-k-b/	vb G ptcpl.	to mount (especially a chariot)	
-156485	rkb	rkb(I)/	rkb (I)	n. m. sg.	Charioteer	
-156485	rkb	rkb(II)/	rkb (II)	n. m. sg. / n. m. pl. cstr.	?	
+156485	rkb	rkb[	/r-k-b/	vb G suffc. 3 m. sg.	to mount (especially a chariot)	
+156485	rkb	rkb[	/r-k-b/	vb G impv. 2	to mount (especially a chariot)	
+156485	rkb	rkb[/	/r-k-b/	vb G ptcpl. m. sg. abs. nom.	to mount (especially a chariot)	
+156485	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
+156485	rkb	rkb(II)/	rkb (II)	n. m. pl. cstr. nom.	?	
 # KTU 2.7 5						
 156486	xxxxxxx	?	?	?	?	
 156487	d	d	d	det. or rel. functor	the one(s) of	
@@ -20,23 +22,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 156488	bqlxxxxk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.7 7						
 156489	w	w	w	conj.	and	
-156490	tšt	!t!št[	/š-t/	vb G prefc.	to place	
+156490	tšt	!t!št[	/š-t/	vb G prefc.	to place, set, set up, leave	
 156491	qdnt	qdnt	qdnt	?	?	
-156492	š	š/	š	n. m. sg.	ram	
+156492	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 2.7 8						
 156493	hm	hm(II)	hm (II)	conj./interr. functor	if	
 156493	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 2.7 9						
 156494	w	w	w	conj.	and	
-156495	yḥ	!y!ḥ(w(I)[	/ḥ-w/y-y/ (I)	vb G prefc.	to live	
-156496	mlk	mlk[/	/m-l-k/	vb G act. ptcpl.	to reign	
-156496	mlk	mlk(II)/	mlk (II)	n. m. sg.	kingdom (power and territory)	
+156495	yḥ	!y!ḥ(w(I)[	/ḥ-w/y-y/ (I)	vb G prefc. 3 m. sg.	1) to live	
+156496	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
+156496	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
 # KTU 2.7 10						
 156497	w	w	w	conj.	and	
-156498	ikm	ik	ỉk	interr. functor	how?	
+156498	ikm	ik&m	ỉk	interr. functor	how?	
 156499	kn	kn(II)	kn (II)	adv.	thus	
 156500	w	w	w	conj.	and	
-156501	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. / n. m. pl. cstr.	servant	
-156502	ilm	il(I)/m	ỉl (I)	n. m. pl.	god	
+156501	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+156502	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.7 11						
-156503	tšknnnn	!t!škn[nnn:d	/š-k-n/	vb D	to be placed	
+156503	tšknnnn	!t!škn[n:d+nn	/š-k-n/	vb D	to assign	

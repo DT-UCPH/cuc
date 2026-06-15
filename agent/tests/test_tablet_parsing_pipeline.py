@@ -7,6 +7,142 @@ from pipeline.tablet_parsing import PipelineConfig, TabletParsingPipeline
 
 
 class TabletParsingPipelineTest(unittest.TestCase):
+    def test_pipeline_uses_integrated_spacy_formula_context_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual(
+                [step.name for step in pipeline.formula_context_steps],
+                ["spacy-formula-context"],
+            )
+            self.assertNotIn("formula-trigram", [step.name for step in pipeline._refinement_steps])
+            self.assertNotIn("formula-bigram", [step.name for step in pipeline._refinement_steps])
+
+    def test_pipeline_uses_integrated_spacy_offering_context_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual(
+                [step.name for step in pipeline.offering_context_steps],
+                ["spacy-offering-context"],
+            )
+            self.assertNotIn(
+                "offering-l-prep",
+                [step.name for step in pipeline._refinement_steps],
+            )
+
+    def test_pipeline_uses_integrated_spacy_l_context_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual([step.name for step in pipeline.l_context_steps], ["spacy-l-context"])
+            self.assertNotIn(
+                "l-negation-verb-context", [step.name for step in pipeline._refinement_steps]
+            )
+
+    def test_pipeline_uses_integrated_spacy_baal_and_ydk_context_steps(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual(
+                [step.name for step in pipeline.baal_context_steps],
+                ["spacy-baal-context"],
+            )
+            self.assertEqual(
+                [step.name for step in pipeline.ydk_context_steps],
+                ["spacy-ydk-context"],
+            )
+            self.assertIn("spacy-morph-context", [step.name for step in pipeline._refinement_steps])
+            self.assertNotIn(
+                "ydk-context-disambiguator", [step.name for step in pipeline._refinement_steps]
+            )
+            self.assertNotIn(
+                "baal-labourer-ktu1", [step.name for step in pipeline._refinement_steps]
+            )
+            self.assertIn(
+                "nominal-feature-completion",
+                [step.name for step in pipeline._refinement_steps],
+            )
+            self.assertIn(
+                "verbal-feature-completion",
+                [step.name for step in pipeline._refinement_steps],
+            )
+
+    def test_pipeline_uses_integrated_spacy_k_context_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            self.assertEqual([step.name for step in pipeline.k_context_steps], ["spacy-k-context"])
+            self.assertNotIn(
+                "k-functor-bigram-context",
+                [step.name for step in pipeline._refinement_steps],
+            )
+
     def test_default_glob_includes_ktu2_family(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
@@ -240,6 +376,57 @@ class TabletParsingPipelineTest(unittest.TestCase):
             self.assertEqual(result["refine_rows"], 1)
             self.assertEqual(result["refine_changed"], 1)
 
+    def test_refine_targets_passes_direct_attestation_index(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            target = src / "KTU 1.5.tsv"
+            target.write_text("", encoding="utf-8")
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "missing.sqlite",
+                udb_db=root / "missing.sqlite",
+                include_existing=True,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+
+            with (
+                patch(
+                    "pipeline.tablet_parsing.refine.load_entries",
+                    return_value=({}, {}, {}, {}, {}),
+                ),
+                patch(
+                    "pipeline.tablet_parsing.DulatAttestationTranslationIndex.from_sqlite",
+                    return_value=object(),
+                ) as mock_translation_index,
+                patch(
+                    "pipeline.tablet_parsing.refine.load_reverse_mentions",
+                    return_value=({}, {}, {}, {}),
+                ),
+                patch(
+                    "pipeline.tablet_parsing.refine.refine_file",
+                    return_value=(1, 1),
+                ) as mock_refine_file,
+            ):
+                result = pipeline.refine_targets([target])
+
+            self.assertEqual(result["refine_rows"], 1)
+            self.assertEqual(result["refine_changed"], 1)
+            self.assertIs(
+                mock_refine_file.call_args.kwargs["direct_reference_index"],
+                pipeline.attestation_index,
+            )
+            self.assertIs(
+                mock_refine_file.call_args.kwargs["translation_index"],
+                mock_translation_index.return_value,
+            )
+
     def test_suffix_payload_collapse_runs_after_known_ambiguities(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
@@ -259,6 +446,26 @@ class TabletParsingPipelineTest(unittest.TestCase):
             names = [step.name for step in pipeline._refinement_steps]
 
             self.assertLess(
+                names.index("tsv-schema"),
+                names.index("noun-pos-closure"),
+            )
+            self.assertLess(
+                names.index("noun-pos-closure"),
+                names.index("spacy-formula-context"),
+            )
+            self.assertLess(
+                names.index("spacy-formula-context"),
+                names.index("spacy-offering-context"),
+            )
+            self.assertLess(
+                names.index("spacy-offering-context"),
+                names.index("spacy-baal-context"),
+            )
+            self.assertLess(
+                names.index("spacy-baal-context"),
+                names.index("spacy-l-context"),
+            )
+            self.assertLess(
                 names.index("known-ambiguity-expander"),
                 names.index("suffix-payload-collapse"),
             )
@@ -268,34 +475,18 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("attestation-reference-disambiguator"),
-                names.index("l-negation-verb-context"),
+                names.index("spacy-l-context"),
             )
             self.assertLess(
-                names.index("l-negation-verb-context"),
-                names.index("l-functor-vocative-context"),
+                names.index("spacy-l-context"),
+                names.index("spacy-k-context"),
             )
             self.assertLess(
-                names.index("l-functor-vocative-context"),
-                names.index("l-kbd-compound-prep"),
+                names.index("spacy-k-context"),
+                names.index("spacy-ydk-context"),
             )
             self.assertLess(
-                names.index("l-kbd-compound-prep"),
-                names.index("l-body-compound-prep"),
-            )
-            self.assertLess(
-                names.index("l-body-compound-prep"),
-                names.index("l-preposition-bigram-context"),
-            )
-            self.assertLess(
-                names.index("l-preposition-bigram-context"),
-                names.index("k-functor-bigram-context"),
-            )
-            self.assertLess(
-                names.index("k-functor-bigram-context"),
-                names.index("ydk-context-disambiguator"),
-            )
-            self.assertLess(
-                names.index("ydk-context-disambiguator"),
+                names.index("spacy-ydk-context"),
                 names.index("prefixed-iii-aleph-verb"),
             )
             self.assertLess(
@@ -308,6 +499,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("verb-form-morph-pos"),
+                names.index("verb-mixed-stem-split"),
+            )
+            self.assertLess(
+                names.index("verb-mixed-stem-split"),
                 names.index("verb-form-encoding-split"),
             )
             self.assertLess(
@@ -320,6 +515,10 @@ class TabletParsingPipelineTest(unittest.TestCase):
             )
             self.assertLess(
                 names.index("verb-stem-suffix-marker"),
+                names.index("verb-pronominal-suffix-tail"),
+            )
+            self.assertLess(
+                names.index("verb-pronominal-suffix-tail"),
                 names.index("verb-n-stem-assimilation"),
             )
             self.assertLess(
@@ -334,6 +533,34 @@ class TabletParsingPipelineTest(unittest.TestCase):
             self.assertLess(
                 names.index("unwrapped-duplicate-pruner-post-verb"),
                 final_schema_index,
+            )
+
+    def test_pipeline_includes_attested_split_token_merge_step(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            src = root / "cuc_tablets_tsv"
+            out = root / "out"
+            src.mkdir(parents=True)
+            out.mkdir(parents=True)
+
+            config = PipelineConfig(
+                source_dir=src,
+                out_dir=out,
+                dulat_db=root / "dulat.sqlite",
+                udb_db=root / "udb.sqlite",
+                include_existing=False,
+            )
+            pipeline = TabletParsingPipeline(config=config)
+            names = [step.name for step in pipeline._refinement_steps]
+
+            self.assertIn("attested-split-token-merge", names)
+            self.assertLess(
+                names.index("attestation-reference-disambiguator"),
+                names.index("attested-split-token-merge"),
+            )
+            self.assertLess(
+                names.index("attested-split-token-merge"),
+                names.index("spacy-l-context"),
             )
 
 

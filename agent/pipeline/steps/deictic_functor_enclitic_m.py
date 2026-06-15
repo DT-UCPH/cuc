@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Optional
 
+from pipeline.config.dulat_form_note_index import DulatFormNoteIndex
 from pipeline.steps.analysis_utils import normalize_surface
 from pipeline.steps.base import RefinementStep, TabletRow
 from pipeline.steps.dulat_gate import DulatMorphGate
@@ -20,15 +22,23 @@ def _split_comma(value: str) -> list[str]:
 class DeicticFunctorEncliticMFixer(RefinementStep):
     """Convert deictic functor base forms to attested extended ~m forms."""
 
-    def __init__(self, gate: Optional[DulatMorphGate] = None) -> None:
+    def __init__(
+        self,
+        gate: Optional[DulatMorphGate] = None,
+        dulat_db: Optional[Path] = None,
+        note_index: Optional[DulatFormNoteIndex] = None,
+    ) -> None:
         self._gate = gate
+        self._note_index = note_index or (
+            DulatFormNoteIndex.from_sqlite(dulat_db) if dulat_db is not None else None
+        )
 
     @property
     def name(self) -> str:
         return "deictic-functor-enclitic-m"
 
     def refine_row(self, row: TabletRow) -> TabletRow:
-        if self._gate is None:
+        if self._gate is None and self._note_index is None:
             return row
 
         analysis_variants = _split_semicolon(row.analysis)
@@ -90,7 +100,11 @@ class DeicticFunctorEncliticMFixer(RefinementStep):
             return value
         if value_norm != surface_norm[:-1]:
             return value
-        if not self._gate.has_surface_form(dulat_head, surface=surface):
+        if self._gate is not None and self._gate.has_surface_form(dulat_head, surface=surface):
+            return f"{value}~m"
+        if self._note_index is None:
+            return value
+        if not self._note_index.has_extended_m_surface(surface=surface, dulat_token=dulat_head):
             return value
 
         return f"{value}~m"

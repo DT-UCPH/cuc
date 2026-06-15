@@ -30,6 +30,16 @@ class DulatEntryFormsFallbackTest(unittest.TestCase):
         self.assertNotIn("hm", forms)
         self.assertNotIn("nn", forms)
 
+    def test_ignores_suffix_note_clitic_fragments(self) -> None:
+        text = (
+            "<b>¶ Forms:</b> G suffc. <i>gr</i>; inf. suff. <i>grnn</i> "
+            "(suff. pn. - <i>nn</i>, UT §6.17. Cf. De Moor-Spronk UF 14 1982 166; "
+            "diff. Aartun PU/1 62 n. 4, 76: energ. mood with - <i>n</i> + "
+            "pn. suff. - <i>n</i> / emph. - <i>n</i> ); tD (?) suffc. <i>tgr</i>."
+        )
+        forms = extract_forms_from_entry_text(text)
+        self.assertEqual(forms, ("gr", "grnn", "tgr"))
+
     def test_truncates_before_examples_and_ignores_example_tokens(self) -> None:
         text = (
             "<b>¶ Forms:</b> sg. <i>ảrḫ</i>; pl. <i>ảrḫt</i>. "
@@ -59,6 +69,15 @@ class DulatEntryFormsFallbackTest(unittest.TestCase):
         self.assertIn("śśwm", forms)
         self.assertNotIn("wm", forms)
         self.assertNotIn("wt", forms)
+
+    def test_preserves_curly_brace_editorial_letters_inside_one_form(self) -> None:
+        text = (
+            "<b>¶ Forms:</b> G suffc. <i>šlm</i>; prefc. <i>yšlm</i>; "
+            "D prefc. <i>tš</i>{<i>š</i>}<i>lmn</i>; suff. <i>tšlmk</i>. <br><b>G</b>."
+        )
+        forms = extract_forms_from_entry_text(text)
+        self.assertIn("tššlmn", forms)
+        self.assertNotIn("lmn", forms)
 
 
 if __name__ == "__main__":

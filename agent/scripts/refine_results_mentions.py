@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: E402, I001
 """
 Refine structured morphology TSV files using:
 - DULAT forms/entries,
@@ -15,14 +16,25 @@ import html
 import math
 import re
 import sqlite3
+import sys
 from collections import Counter, defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
 
-from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
-from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
-from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
+REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from dulat_patches import load_dulat_entry_patches  # noqa: E402
+from project_paths import get_project_paths  # noqa: E402
+from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text  # noqa: E402
+from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology  # noqa: E402
+from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts  # noqa: E402
+from pipeline.dulat_attestation_index import DulatAttestationIndex  # noqa: E402
+from pipeline.dulat_attestation_translation_index import (  # noqa: E402
+    DulatAttestationTranslationIndex,
+)
 
 SEPARATOR_RE = re.compile(
     r"^\s*#\s*(?:-+\s*)?(?:KTU|CAT)\s+(\d+\.\d+)"
@@ -98,6 +110,7 @@ class Entry:
     pos: str
     gloss: str
     wiki_tr: str
+    stem_glosses: Dict[str, str] = field(default_factory=dict)
     redirect_targets: Tuple[str, ...] = ()
 
 
@@ -144,6 +157,42 @@ def compact_gloss(s: str) -> str:
     if len(g) > 110:
         g = g[:110].rsplit(" ", 1)[0].strip(" ,;")
     return g
+
+
+def normalize_reference_sense_gloss(s: str) -> str:
+    """Normalize sense-label casing for rendered TSV glosses.
+
+    DULAT sense definitions for non-verbal entries are often title-cased labels
+    like `Hero` or `Man, husband`. In TSV output we keep the usual lowercase
+    gloss style unless the sense begins with an all-caps token or explicit
+    markup-like punctuation.
+    """
+    value = strip_html(s)
+    if not value:
+        return ""
+    value = value.replace("\n", " ")
+    value = re.sub(r"\s+", " ", value)
+    value = value.replace(";", ",")
+    value = value.replace('"', "")
+    value = _split_first_top_level(value, sep=",")[0]
+    value = value.strip(" ,;")
+    if not value:
+        return ""
+    prefix_match = re.match(r"^(?P<prefix>\d+\)\s+)?(?P<rest>.*)$", value)
+    prefix = prefix_match.group("prefix") or "" if prefix_match else ""
+    rest = prefix_match.group("rest") or value if prefix_match else value
+    letter_match = re.match(r"^(?P<head>[^A-Za-z]*)(?P<word>[A-Za-z]+)(?P<tail>.*)$", rest)
+    if letter_match:
+        word = letter_match.group("word")
+        if not (len(word) > 1 and word.isupper()):
+            rest = (
+                letter_match.group("head")
+                + word[:1].lower()
+                + word[1:]
+                + letter_match.group("tail")
+            )
+        return f"{prefix}{rest}".strip()
+    return value
 
 
 def is_usable_sense_definition(definition: str) -> bool:
@@ -240,6 +289,49 @@ def tablet_id_from_ref(ref: str) -> str:
     return m.group(1) if m else ""
 
 
+_REF_LINE_RE = re.compile(r"^(?P<head>.+:)(?P<line>\d+)$")
+
+
+def mentions_for_ref(
+    reverse_mentions: Dict[str, Set[int]],
+    ref: str,
+    line_tolerance: int = 1,
+) -> Set[int]:
+    """Return reverse mentions for a line ref, tolerating small line shifts.
+
+    DULAT citations can be offset by one line from the CUC numbering (e.g.
+    DULAT '1.5 IV 2' = CUC IV:3 throughout KTU 1.5 col. IV). Exact-line
+    mentions always win; only when the exact lookup is empty are mentions of
+    the +-``line_tolerance`` neighbouring lines returned as a fallback.
+
+    Args:
+        reverse_mentions: canonical ref -> DULAT entry ids.
+        ref: canonical line ref (``CAT 1.5 IV:2``).
+        line_tolerance: maximum line distance for the fallback; 0 disables it.
+
+    Returns:
+        Entry ids cited for the line, or for its nearest neighbours when the
+        line itself has none.
+    """
+    exact = reverse_mentions.get(ref, set())
+    if exact or line_tolerance <= 0:
+        return set(exact)
+    m = _REF_LINE_RE.match(ref or "")
+    if not m:
+        return set()
+    head = m.group("head")
+    line_no = int(m.group("line"))
+    nearby: Set[int] = set()
+    for offset in range(1, line_tolerance + 1):
+        for neighbour in (line_no - offset, line_no + offset):
+            if neighbour < 1:
+                continue
+            nearby.update(reverse_mentions.get(f"{head}{neighbour}", set()))
+        if nearby:
+            break
+    return nearby
+
+
 def tablet_family(tablet_id: str) -> str:
     return (tablet_id or "").split(".", 1)[0]
 
@@ -256,13 +348,6 @@ def parse_optional_hom(lemma: str, hom: str) -> Tuple[str, str]:
 
 def entry_label(e: Entry) -> str:
     lemma = (e.lemma or "").strip()
-    if not (lemma.startswith("/") and lemma.endswith("/")) and "/" in lemma:
-        first = lemma.split("/", 1)[0].strip()
-        # Some DULAT headwords encode orthographic alternatives like
-        # ỉ/ủšḫry. Keeping only the first short fragment would destroy
-        # lexical identity (ỉ), so preserve the full slash lemma.
-        if len(extract_letters(first)) > 2:
-            lemma = first
     if e.hom:
         return f"{lemma} ({e.hom})"
     return lemma
@@ -292,6 +377,16 @@ def is_nominal_pos(pos: str) -> bool:
     return any(k in p for k in ("n.", "adj", "dn", "pn", "tn", "gn", "mn", "num", "element"))
 
 
+def takes_nominal_slash(pos: str) -> bool:
+    raw = pos or ""
+    p = raw.lower()
+    return bool(
+        re.search(r"\bn\.", p)
+        or re.search(r"\badj\.?", p)
+        or any(tag in raw for tag in ("DN", "PN", "RN", "TN", "GN", "MN"))
+    )
+
+
 def extract_letters(text: str) -> str:
     return "".join(ch for ch in (text or "") if LETTER_RE.match(ch))
 
@@ -302,11 +397,23 @@ def lemma_to_letters(lemma: str, fallback: str = "") -> str:
         return normalize_analysis(extract_letters(fallback))
 
     if lm.startswith("/") and lm.endswith("/"):
-        body = lm[1:-1]
-        body = body.split("/", 1)[0]
-        body = re.sub(r"\([^)]*\)", "", body)
-        body = body.replace("-", "")
-        letters = extract_letters(body)
+        body = re.sub(r"\([^)]*\)", "", lm[1:-1])
+        # A slash inside a root separates alternative radicals of one slot
+        # (/y/w-ḥ-l/ = y-ḥ-l or w-ḥ-l). Prefer the alternative whose letters
+        # occur in the observed surface; default to the first one.
+        fallback_letters = normalize_analysis(extract_letters(fallback))
+        radicals = []
+        for slot in body.split("-"):
+            alternatives = [alt for alt in slot.split("/") if alt] or [slot]
+            chosen = alternatives[0]
+            if len(alternatives) > 1 and fallback_letters:
+                for alt in alternatives:
+                    alt_letters = normalize_analysis(extract_letters(alt))
+                    if alt_letters and alt_letters in fallback_letters:
+                        chosen = alt
+                        break
+            radicals.append(chosen)
+        letters = extract_letters("".join(radicals))
         if letters:
             return normalize_analysis(letters)
 
@@ -544,7 +651,11 @@ def build_prefixed_n_weak_iii_aleph_analysis(
 
     inflection = body[m.start() :]
     normalized_stem = stem
-    if normalized_stem.startswith("n"):
+    if body.startswith("n"):
+        # The root-initial n is written on the tablet (tnšan): keep it
+        # visible instead of wrapping it as a hidden '(n'.
+        pass
+    elif normalized_stem.startswith("n"):
         normalized_stem = "(n" + normalized_stem[1:]
     elif not normalized_stem.startswith("(n"):
         normalized_stem = "(n" + normalized_stem
@@ -558,6 +669,284 @@ def build_prefixed_n_weak_iii_aleph_analysis(
 
     marker = format_preformative_marker(surface_plain[0])
     return f"{marker}{stem_marker}{normalized_stem}{hom}[&{inflection}"
+
+
+def build_prefixed_weak_fallback_analysis(
+    *,
+    surface_plain: str,
+    stem_plain: str,
+    stem_marker: str,
+    hom: str,
+) -> Optional[str]:
+    """Build reconstructable fallback for prefixed verbs when direct match fails.
+
+    Handles recurrent classes:
+    - weak-final y/w showing surface -n in prefc. forms
+    - weak-initial h elision after preformative
+    - I-aleph and II-aleph vowel realization in prefix forms
+    """
+    if not surface_plain or not stem_plain:
+        return None
+    preformative = surface_plain[0]
+    if preformative not in _PREFORMATIVE_LETTERS:
+        return None
+    body = surface_plain[1:]
+    if not body:
+        return None
+
+    marker = format_preformative_marker(preformative)
+
+    # Weak-final roots: surface keeps n where root has terminal y/w.
+    if stem_plain.endswith(("y", "w")) and body.startswith(stem_plain[:-1]):
+        tail = body[len(stem_plain) - 1 :]
+        host = f"{stem_plain[:-1]}({stem_plain[-1]}"
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+
+    # Weak-initial h can drop in prefixed forms (e.g. /h-l-k/ -> ylkn).
+    if stem_plain.startswith("h") and len(stem_plain) > 1 and body.startswith(stem_plain[1:]):
+        tail = body[len(stem_plain) - 1 :]
+        host = f"(h{stem_plain[1:]}"
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+
+    # I-aleph roots: aleph realized via vowel after preformative.
+    if (
+        stem_plain.startswith("ʔ")
+        and body[0] in {"a", "i", "u"}
+        and body[1:].startswith(stem_plain[1:])
+    ):
+        tail = body[len(stem_plain) :]
+        host = f"(ʔ&{body[0]}{stem_plain[1:]}"
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+
+    # II-aleph roots: middle aleph realized via vowel.
+    if (
+        len(stem_plain) >= 3
+        and stem_plain[1] == "ʔ"
+        and body.startswith(stem_plain[0])
+        and len(body) >= 3
+        and body[1] in {"a", "i", "u"}
+        and body[2:].startswith(stem_plain[2:])
+    ):
+        tail = body[len(stem_plain) :]
+        host = f"{stem_plain[0]}(ʔ&{body[1]}{stem_plain[2:]}"
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+
+    return None
+
+
+_VOWEL_LETTERS = {"a", "i", "u"}
+
+
+def analysis_reconstructs(surface: str, analysis: str) -> bool:
+    """Return True when the analysis decodes exactly to the surface letters."""
+    from linter.lint import (
+        ANALYSIS_SURFACE_LETTER_RE,
+        normalize_surface,
+        reconstruct_surface_from_analysis,
+    )
+
+    letters = "".join(ch for ch in (surface or "") if ANALYSIS_SURFACE_LETTER_RE.match(ch))
+    expected = normalize_surface(letters or (surface or "").strip())
+    reconstructed = normalize_surface(reconstruct_surface_from_analysis((analysis or "").strip()))
+    return bool(expected) and reconstructed == expected
+
+
+_WEAK_INITIAL_RADICALS = {"y", "n", "l", "w"}
+
+
+def build_hidden_initial_radical_analysis(
+    *,
+    surface_plain: str,
+    stem_plain: str,
+    stem_marker: str,
+    hom: str,
+) -> Optional[str]:
+    """Hide an unwritten weak/assimilating first radical with '('.
+
+    ttn -> !t!(ytn[, tdd -> !t!(ndd[, dˤ -> (ydˤ[ per Tagging conventions
+    (assimilated n and weak-initial y/w/l are added by means of '(').
+    """
+    if len(stem_plain) < 2 or stem_plain[0] not in _WEAK_INITIAL_RADICALS:
+        return None
+    rest = stem_plain[1:]
+    host = f"({stem_plain[0]}{rest}"
+    if surface_plain.startswith(rest):
+        tail = surface_plain[len(rest) :]
+        return f"{stem_marker}{host}{hom}[{tail}"
+    if surface_plain[:1] in _PREFORMATIVE_LETTERS and surface_plain[1:].startswith(rest):
+        marker = format_preformative_marker(surface_plain[0])
+        tail = surface_plain[len(rest) + 1 :]
+        return f"{marker}{stem_marker}{host}{hom}[{tail}"
+    return None
+
+
+def build_aligned_nominal_analysis(
+    *,
+    surface_plain: str,
+    lex_plain: str,
+    hom: str,
+) -> Optional[str]:
+    """Align a nominal surface against its lexeme letters with (/& marks.
+
+    Attested-form spellings that differ from the lexeme by at most two local
+    edits are encoded mechanically: lexeme-only letters get '(', surface-only
+    letters get '&' (adjacent pairs form substitutions), and surface material
+    after the last lexeme letter goes behind the '/' closure as ending:
+    bht -> b&ht/, mat -> m(i&at/, ˤqšr -> (a&ˤqšr/, rpum -> rpu/m.
+    """
+    if not lex_plain or not surface_plain or surface_plain == lex_plain:
+        return None
+    tail = ""
+    body = surface_plain
+    # Peel trailing nominal-ending material (plural m / feminine t) so it
+    # lands after the '/' closure; other surface-only tails stay before the
+    # closure as '&' letters (qdqdh -> qdqd&h/, per existing convention).
+    while (
+        body
+        and body[-1] in {"m", "t"}
+        and lex_plain
+        and not lex_plain.endswith(body[-1])
+        and body[:-1].startswith(lex_plain[: len(body) - 1])
+    ):
+        if lex_plain.startswith(body[:-1]) or body[:-1] == lex_plain:
+            tail = body[-1] + tail
+            body = body[:-1]
+        else:
+            break
+    if body == lex_plain:
+        return f"{lex_plain}{hom}/{tail}"
+    if body.startswith(lex_plain):
+        # Pure extensions of the lexeme are suffix/clitic material owned by
+        # the legacy tail logic and the suffix-split machinery.
+        return None
+
+    # Minimal-edit alignment between lexeme and (tail-less) surface body.
+    edits: List[Tuple[str, str]] = []  # (op, letter): keep|hide|extra
+    i = j = 0
+    ops = 0
+    while i < len(lex_plain) and j < len(body):
+        if lex_plain[i] == body[j]:
+            edits.append(("keep", lex_plain[i]))
+            i += 1
+            j += 1
+        elif (
+            lex_plain[i : i + 1]
+            and body[j : j + 1]
+            and lex_plain[i + 1 :].startswith(body[j + 1 :])
+        ):
+            edits.append(("hide", lex_plain[i]))
+            edits.append(("extra", body[j]))
+            i += 1
+            j += 1
+            ops += 1
+        elif lex_plain[i + 1 :].startswith(body[j:]):
+            edits.append(("hide", lex_plain[i]))
+            i += 1
+            ops += 1
+        elif body[j + 1 :].startswith(lex_plain[i:]):
+            edits.append(("extra", body[j]))
+            j += 1
+            ops += 1
+        else:
+            return None
+    for letter in lex_plain[i:]:
+        edits.append(("hide", letter))
+        ops += 1
+    for letter in body[j:]:
+        edits.append(("extra", letter))
+        ops += 1
+    kept = sum(1 for op, _letter in edits if op == "keep")
+    min_kept = 1 if len(lex_plain) <= 2 else 2
+    if ops > 2 or kept < min_kept or (kept <= ops and kept >= 2) or (kept == 1 and ops > 1):
+        return None
+    encoded = "".join(
+        letter if op == "keep" else ("(" + letter if op == "hide" else "&" + letter)
+        for op, letter in edits
+    )
+    return f"{encoded}{hom}/{tail}"
+
+
+def build_s_stem_assimilation_analysis(
+    *,
+    surface_plain: str,
+    stem: str,
+    stem_plain: str,
+    stem_marker_plain: str,
+    hom: str,
+) -> Optional[str]:
+    """Encode Š-augment assimilated to a following ṯ as ](š&ṯ].
+
+    DULAT /ṯ-b/ attests Š prefc. tṯṯb/yṯṯb/tṯṯbn, impv. ṯṯb, inf. ṯṯb: the
+    augment š is written ṯ before the ṯ-initial root.
+    """
+    if stem_marker_plain != "š" or not stem_plain.startswith("ṯ"):
+        return None
+    if surface_plain.startswith("ṯ" + stem_plain):
+        tail = surface_plain[len(stem_plain) + 1 :]
+        return f"](š&ṯ]{stem}{hom}[{tail}"
+    if surface_plain[:1] in _PREFORMATIVE_LETTERS and surface_plain[1:].startswith(
+        "ṯ" + stem_plain
+    ):
+        marker = format_preformative_marker(surface_plain[0])
+        tail = surface_plain[len(stem_plain) + 2 :]
+        return f"{marker}](š&ṯ]{stem}{hom}[{tail}"
+    return None
+
+
+def build_aleph_realization_analysis(
+    *,
+    surface_plain: str,
+    stem_plain: str,
+    stem_marker: str,
+    hom: str,
+) -> Optional[str]:
+    """Encode aleph radicals realized as vowel letters ((ʔ&V pattern).
+
+    Covers all three root positions, with or without a preformative:
+    likt -> l(ʔ&ik[t (II-ʔ), iḫdn -> (ʔ&iḫd[n (I-ʔ),
+    tnšan -> !t!nš(ʔ&a[n (III-ʔ).
+    """
+
+    def _attempt(body: str, marker: str) -> Optional[str]:
+        if not body:
+            return None
+        if (
+            stem_plain.startswith("ʔ")
+            and body[:1] in _VOWEL_LETTERS
+            and body[1:].startswith(stem_plain[1:])
+        ):
+            tail = body[len(stem_plain) :]
+            return f"{marker}{stem_marker}(ʔ&{body[0]}{stem_plain[1:]}{hom}[{tail}"
+        if (
+            len(stem_plain) >= 3
+            and stem_plain[1] == "ʔ"
+            and body[:1] == stem_plain[0]
+            and body[1:2] in _VOWEL_LETTERS
+            and body[2:].startswith(stem_plain[2:])
+        ):
+            tail = body[len(stem_plain) :]
+            return f"{marker}{stem_marker}{stem_plain[0]}(ʔ&{body[1]}{stem_plain[2:]}{hom}[{tail}"
+        # Unprefixed n-weak III-ʔ forms (impv. ša/šu of /n-š-ʔ/): hidden
+        # initial n and final ʔ, vocalization after '[' per the conventions.
+        if (
+            len(stem_plain) >= 3
+            and stem_plain.startswith("n")
+            and stem_plain.endswith("ʔ")
+            and body[:-1] == stem_plain[1:-1]
+            and body[-1:] in _VOWEL_LETTERS
+        ):
+            mid = stem_plain[1:-1]
+            return f"{marker}{stem_marker}(n{mid}(ʔ{hom}[&{body[-1]}"
+        # Other III-ʔ realization is owned by the prefixed III-aleph
+        # builders, which place the vocalization after '[' likewise.
+        return None
+
+    direct = _attempt(surface_plain, "")
+    if direct is not None:
+        return direct
+    if surface_plain[:1] in _PREFORMATIVE_LETTERS and len(surface_plain) > 1:
+        return _attempt(surface_plain[1:], format_preformative_marker(surface_plain[0]))
+    return None
 
 
 def analysis_for_entry(
@@ -640,13 +1029,49 @@ def analysis_for_entry(
         ):
             # Redirect target can be a weak-initial y-root while surface keeps w.
             return f"{stem_marker}(y&{surface_plain}{hom}["
+        if has_prefix_morphology(morph_values or []):
+            prefixed_fallback = build_prefixed_weak_fallback_analysis(
+                surface_plain=surface_plain,
+                stem_plain=stem_plain,
+                stem_marker=stem_marker,
+                hom=hom,
+            )
+            if prefixed_fallback is not None:
+                return prefixed_fallback
+        assimilated = build_s_stem_assimilation_analysis(
+            surface_plain=surface_plain,
+            stem=stem,
+            stem_plain=stem_plain,
+            stem_marker_plain=stem_marker_plain,
+            hom=hom,
+        )
+        if assimilated is not None:
+            return assimilated
+        realized = build_aleph_realization_analysis(
+            surface_plain=surface_plain,
+            stem_plain=stem_plain,
+            stem_marker=stem_marker,
+            hom=hom,
+        )
+        if realized is not None:
+            return realized
+        hidden_initial = build_hidden_initial_radical_analysis(
+            surface_plain=surface_plain,
+            stem_plain=stem_plain,
+            stem_marker=stem_marker,
+            hom=hom,
+        )
+        if hidden_initial is not None:
+            return hidden_initial
+        # A tail after '[' is only sound when the surface actually starts
+        # with the (marker+)stem letters; fabricating one from unmatched
+        # trailing surface letters created analyses that were wrong by
+        # construction (ṯṯb -> ]š]ṯb[b, tṯṯb -> ]š]ṯb[ṯb).
         tail = ""
         marker_plus_stem = f"{stem_marker_plain}{stem_plain}"
         if marker_plus_stem and surface_plain.startswith(marker_plus_stem):
             tail = surface_plain[len(marker_plus_stem) :]
         elif stem_plain and surface_plain.startswith(stem_plain):
-            tail = surface_plain[len(stem_plain) :]
-        elif len(surface_plain) > len(stem_plain):
             tail = surface_plain[len(stem_plain) :]
         return f"{stem_marker}{stem}{hom}[{tail}"
 
@@ -655,11 +1080,11 @@ def analysis_for_entry(
         "/" in (e.lemma or "")
         and not ((e.lemma or "").startswith("/") and (e.lemma or "").endswith("/"))
         and len(lex) <= 2
-        and len(s) >= 4
+        and len(s) >= 2
     ):
         # Slash-variant lemmas like ỉ/ủšḫry can collapse to a one-letter
-        # fragment if we keep only the first variant. For long surfaces,
-        # prefer the observed token shape.
+        # fragment if we keep only the first variant. Prefer the observed
+        # token shape in these short-fragment cases.
         lex = s
     if allow_prefix_restoration and is_nominal_pos(e.pos):
         lex_plain = extract_letters(lex)
@@ -673,8 +1098,39 @@ def analysis_for_entry(
             prefix_len = len(lex_plain) - len(surface_plain)
             if prefix_len <= 3:
                 lex = mark_reconstructed_prefix_letters(lex, prefix_len)
-    if is_nominal_pos(e.pos):
+    if takes_nominal_slash(e.pos):
+        lex_plain = extract_letters(lex)
+        surface_plain = extract_letters(s)
+        if (
+            lex_plain
+            and surface_plain
+            and lex_plain.endswith(("y", "w"))
+            and surface_plain == f"{lex_plain[:-1]}n"
+        ):
+            return f"{lex[:-1]}({lex[-1]}{hom}/n"
+        if lex_plain and surface_plain and lex_plain != surface_plain:
+            if surface_plain.startswith(lex_plain):
+                ending = surface_plain[len(lex_plain) :]
+                if ending and set(ending) <= {"m", "t"}:
+                    # Plural/feminine ending material goes after the closure
+                    # (limm -> lim/m, rpum -> rpu/m).
+                    return f"{lex}{hom}/{ending}"
+            aligned = build_aligned_nominal_analysis(
+                surface_plain=surface_plain,
+                lex_plain=lex_plain,
+                hom=hom,
+            )
+            if aligned is not None:
+                return aligned
         return f"{lex}{hom}/"
+    lex_plain = extract_letters(lex)
+    surface_plain = extract_letters(s)
+    if lex_plain != surface_plain:
+        if lex_plain and surface_plain.startswith(lex_plain):
+            tail = surface_plain[len(lex_plain) :]
+            if tail:
+                return f"{lex}{hom}&{tail}"
+        return f"{s}{hom}"
     return f"{lex}{hom}"
 
 
@@ -715,7 +1171,74 @@ def inject_surface_only_tail_before_nominal_closure(analysis: str, base_surface:
     return f"{lemma}{hom}&{tail}/"
 
 
-def gloss_for_entry(e: Entry, multi_slot: bool = False) -> str:
+def inferred_stem_from_analysis(analysis: str) -> str:
+    value = (analysis or "").strip()
+    if not value:
+        return ""
+    if ":pass" in value:
+        if "]š]" in value:
+            return "Špass."
+        if ":d" in value:
+            return "Dpass."
+        return "Gpass."
+    if ":d" in value:
+        return "D"
+    if ":l" in value:
+        return "L"
+    if ":r" in value:
+        return "R"
+    if "]š]" in value:
+        return "Š"
+    if "]n]" in value:
+        return "N"
+    if "]t]" in value:
+        return "Gt"
+    return "G"
+
+
+def inferred_stem_from_morph_values(morph_values: Sequence[str]) -> str:
+    merged = " | ".join(morph_values or [])
+    if not merged:
+        return ""
+    if "Špass." in merged:
+        return "Špass."
+    if "Dpass." in merged:
+        return "Dpass."
+    if "Gpass." in merged:
+        return "Gpass."
+    if re.search(r"\bŠt\b", merged):
+        return "Št"
+    if re.search(r"\bGt\b", merged):
+        return "Gt"
+    if re.search(r"\bDt\b", merged):
+        return "Dt"
+    if re.search(r"\bLt\b", merged):
+        return "Lt"
+    if re.search(r"\bRt\b", merged):
+        return "Rt"
+    if re.search(r"\bŠ\b", merged):
+        return "Š"
+    if re.search(r"\bD\b", merged):
+        return "D"
+    if re.search(r"\bL\b", merged):
+        return "L"
+    if re.search(r"\bR\b", merged):
+        return "R"
+    if re.search(r"\bN\b", merged):
+        return "N"
+    if re.search(r"\bG\b", merged):
+        return "G"
+    return ""
+
+
+def gloss_for_entry(
+    e: Entry,
+    analysis: str = "",
+    multi_slot: bool = False,
+    section_ref: str = "",
+    translation_index: DulatAttestationTranslationIndex | None = None,
+    stem_name: str = "",
+) -> str:
     if (e.pos or "").strip() == "→":
         return "?"
     pos_up = e.pos or ""
@@ -723,7 +1246,28 @@ def gloss_for_entry(e: Entry, multi_slot: bool = False) -> str:
         # Prefer canonical name rendering for proper names if available.
         base = compact_gloss(e.wiki_tr) or compact_gloss(e.gloss) or entry_label(e)
     else:
-        base = compact_gloss(e.gloss)
+        base = ""
+        preferred_stem = stem_name or inferred_stem_from_analysis(analysis)
+        if section_ref and translation_index is not None:
+            reference_glosses = translation_index.sense_definitions_for_entry(
+                e.entry_id,
+                section_ref,
+                stem_name=preferred_stem if is_verb_pos(pos_up) else "",
+            )
+            if reference_glosses:
+                base = normalize_reference_sense_gloss(reference_glosses[0])
+        if is_verb_pos(pos_up) and analysis and e.stem_glosses and not base:
+            base = compact_gloss(
+                e.stem_glosses.get(preferred_stem)
+                or (
+                    e.stem_glosses.get("D")
+                    if preferred_stem in {"Dpass.", "Dt", "tD"}
+                    else e.stem_glosses.get("G")
+                )
+                or ""
+            )
+        if not base:
+            base = compact_gloss(e.gloss)
     if not base:
         base = ""
     if multi_slot:
@@ -736,6 +1280,7 @@ def gloss_for_entry(e: Entry, multi_slot: bool = False) -> str:
 
 def load_entries(
     dulat_db: Path,
+    entry_patches: Optional[Dict[int, Dict[str, str]]] = None,
 ) -> Tuple[
     Dict[int, Entry],
     Dict[str, List[Entry]],
@@ -743,6 +1288,10 @@ def load_entries(
     Dict[str, List[Entry]],
     Dict[Tuple[str, int], Set[str]],
 ]:
+    if entry_patches is None:
+        entry_patches = load_dulat_entry_patches(
+            Path(__file__).resolve().parents[1] / "data_sources" / "dulat_entry_patches.tsv"
+        )
     conn = sqlite3.connect(str(dulat_db))
     cur = conn.cursor()
     cur.execute("PRAGMA table_info(entries)")
@@ -767,6 +1316,27 @@ def load_entries(
         if compact:
             sense_map[entry_id] = compact
 
+    stem_gloss_map: Dict[int, Dict[str, str]] = defaultdict(dict)
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='stems' LIMIT 1")
+    has_stems = cur.fetchone() is not None
+    if has_stems:
+        cur.execute(
+            "SELECT stems.entry_id, stems.name, senses.definition, stems.gloss "
+            "FROM stems "
+            "LEFT JOIN senses ON senses.stem_id = stems.id "
+            "ORDER BY stems.entry_id, stems.id, senses.id"
+        )
+        for entry_id, stem_name, definition, stem_gloss in cur.fetchall():
+            if not stem_name or stem_name in stem_gloss_map.get(entry_id, {}):
+                continue
+            compact = ""
+            if is_usable_sense_definition(definition or ""):
+                compact = compact_gloss(definition)
+            if not compact:
+                compact = compact_gloss(stem_gloss or "")
+            if compact:
+                stem_gloss_map[int(entry_id)][stem_name] = compact
+
     trans_map: Dict[int, str] = {}
     cur.execute(
         "SELECT entry_id, text "
@@ -790,6 +1360,10 @@ def load_entries(
     suffix_map: Dict[str, List[Entry]] = {}
     entry_text_by_id: Dict[int, str] = {}
     for entry_id, lemma, hom, pos, wiki_tr, summary, text in cur.fetchall():
+        patch = entry_patches.get(int(entry_id), {})
+        lemma = patch.get("lemma", lemma)
+        hom = patch.get("homonym", hom)
+        pos = patch.get("pos", pos)
         lm, hm = parse_optional_hom(lemma or "", hom or "")
         redirect_targets = ()
         if (pos or "").strip() == "→":
@@ -799,8 +1373,9 @@ def load_entries(
             lemma=lm,
             hom=hm,
             pos=pos or "",
-            gloss=sense_map.get(entry_id) or trans_map.get(entry_id, ""),
+            gloss=trans_map.get(entry_id) or sense_map.get(entry_id, ""),
             wiki_tr=wiki_tr or "",
+            stem_glosses=stem_gloss_map.get(int(entry_id), {}),
             redirect_targets=redirect_targets,
         )
         if text:
@@ -1082,6 +1657,78 @@ def dedupe_suffix_entries(entries: Iterable[Entry]) -> List[Entry]:
     return out
 
 
+def is_function_word_like(entry: Entry) -> bool:
+    """Return True for short function-word entries that should not outrank exact lexemes."""
+    pos = (entry.pos or "").lower()
+    if (entry.lemma or "").startswith("-"):
+        return True
+    return any(token in pos for token in ("functor", "adv.", "prep.", "conj.", "det."))
+
+
+def is_proper_name_pos(pos: str) -> bool:
+    """Return True for PN onomastic candidates, but not personal pronouns."""
+    raw = (pos or "").strip()
+    return "pers. pn." not in raw.lower() and bool(re.search(r"\bPN\b", raw))
+
+
+def variant_is_proper_name(variant: Variant) -> bool:
+    lexical_entries = [
+        entry for entry in variant.entries if not (entry.lemma or "").startswith("-")
+    ]
+    return any(is_proper_name_pos(entry.pos) for entry in lexical_entries)
+
+
+def variant_has_non_pn_lexical_reading(variant: Variant) -> bool:
+    lexical_entries = [
+        entry for entry in variant.entries if not (entry.lemma or "").startswith("-")
+    ]
+    if not lexical_entries:
+        return False
+    if all((entry.pos or "").strip() == "→" for entry in lexical_entries):
+        return False
+    return not variant_is_proper_name(variant)
+
+
+def variant_has_direct_dulat_attestation(
+    variant: Variant,
+    current_ref: str,
+    direct_reference_index: DulatAttestationIndex | None,
+) -> bool:
+    if direct_reference_index is None or not current_ref:
+        return False
+    for entry in variant.entries:
+        if not is_proper_name_pos(entry.pos):
+            continue
+        if direct_reference_index.has_reference_for_variant_token(entry_label(entry), current_ref):
+            return True
+    return False
+
+
+def prune_unattested_pn_variants(
+    variants: List[Variant],
+    current_ref: str,
+    direct_reference_index: DulatAttestationIndex | None,
+) -> List[Variant]:
+    """Keep PN variants only when directly attested for this line or alone."""
+    pn_variants = [variant for variant in variants if variant_is_proper_name(variant)]
+    other_variants = [
+        variant for variant in variants if variant_has_non_pn_lexical_reading(variant)
+    ]
+    if not pn_variants or not other_variants:
+        return variants
+
+    kept_pn_variants = [
+        variant
+        for variant in pn_variants
+        if variant_has_direct_dulat_attestation(
+            variant=variant,
+            current_ref=current_ref,
+            direct_reference_index=direct_reference_index,
+        )
+    ]
+    return other_variants + kept_pn_variants
+
+
 def build_variants(
     surface: str,
     current_ref: str,
@@ -1093,6 +1740,7 @@ def build_variants(
     entry_ref_count: Dict[int, int],
     entry_tablets: Dict[int, Set[str]],
     entry_family_count: Dict[int, Dict[str, int]],
+    direct_reference_index: DulatAttestationIndex | None = None,
     max_variants: int = 3,
 ) -> List[Variant]:
     s_norm = normalize_lookup(surface)
@@ -1100,6 +1748,15 @@ def build_variants(
     direct_pref = [e for e in direct_all if (e.pos or "").strip() and (e.pos or "").strip() != "→"]
     direct = direct_pref if direct_pref else direct_all
     direct_has_exact_form = any((s_norm, e.entry_id) in forms_morph for e in direct)
+    direct_exact_lexical = [
+        e
+        for e in direct
+        if not (e.lemma or "").startswith("-")
+        and (e.pos or "").strip()
+        and (e.pos or "").strip() != "→"
+        and normalize_lookup(e.lemma) == s_norm
+    ]
+    direct_exact_lexical_ids = {e.entry_id for e in direct_exact_lexical}
     direct_ids = {e.entry_id for e in direct}
 
     variants: List[Variant] = [Variant((e,), surface) for e in direct]
@@ -1143,6 +1800,19 @@ def build_variants(
                 e for e in base_all if (e.pos or "").strip() and (e.pos or "").strip() != "→"
             ]
             base_entries = base_pref if base_pref else base_all
+            if direct_exact_lexical_ids:
+                base_entries = [
+                    e for e in base_entries if e.entry_id not in direct_exact_lexical_ids
+                ]
+                if not base_entries:
+                    continue
+                base_has_exact_form = any(
+                    (base_norm, e.entry_id) in forms_morph for e in base_entries
+                )
+                if not base_has_exact_form:
+                    continue
+                if all(is_function_word_like(e) for e in base_entries):
+                    continue
             if not base_entries:
                 continue
             suffix_all = dedupe_entries(suffix_map.get(suf, []))
@@ -1171,6 +1841,11 @@ def build_variants(
         if sig not in uniq:
             uniq[sig] = v
     variants = list(uniq.values())
+    variants = prune_unattested_pn_variants(
+        variants=variants,
+        current_ref=current_ref,
+        direct_reference_index=direct_reference_index,
+    )
 
     for v in variants:
         v.score = score_variant(
@@ -1243,7 +1918,11 @@ def build_variants(
 
 
 def render_variant(
-    surface: str, v: Variant, forms_morph: Dict[Tuple[str, int], Set[str]]
+    surface: str,
+    v: Variant,
+    forms_morph: Dict[Tuple[str, int], Set[str]],
+    section_ref: str = "",
+    translation_index: DulatAttestationTranslationIndex | None = None,
 ) -> Tuple[str, str, str, str]:
     entries = list(v.entries)
     if len(entries) == 1:
@@ -1257,7 +1936,15 @@ def render_variant(
         )
         d = entry_label(e)
         p = pos_token(e)
-        g = gloss_for_entry(e, multi_slot=False)
+        stem_name = inferred_stem_from_morph_values(mv) or inferred_stem_from_analysis(a)
+        g = gloss_for_entry(
+            e,
+            analysis=a,
+            multi_slot=False,
+            section_ref=section_ref,
+            translation_index=translation_index,
+            stem_name=stem_name,
+        )
         return a, d, p, g
 
     base, suf = entries[0], entries[1]
@@ -1270,7 +1957,18 @@ def render_variant(
     a = f"{base_analysis}+{suffix_fragment(suf)}"
     d = f"{entry_label(base)},{entry_label(suf)}"
     p = f"{pos_token(base)},{pos_token(suf)}"
-    g = f"{gloss_for_entry(base, multi_slot=True)},{gloss_for_entry(suf, multi_slot=True)}"
+    base_stem_name = inferred_stem_from_morph_values(mv) or inferred_stem_from_analysis(
+        base_analysis
+    )
+    base_gloss = gloss_for_entry(
+        base,
+        analysis=base_analysis,
+        multi_slot=True,
+        section_ref=section_ref,
+        translation_index=translation_index,
+        stem_name=base_stem_name,
+    )
+    g = f"{base_gloss},{gloss_for_entry(suf, multi_slot=True)}"
     return a, d, p, g
 
 
@@ -1285,6 +1983,8 @@ def refine_file(
     entry_ref_count: Dict[int, int],
     entry_tablets: Dict[int, Set[str]],
     entry_family_count: Dict[int, Dict[str, int]],
+    direct_reference_index: DulatAttestationIndex | None = None,
+    translation_index: DulatAttestationTranslationIndex | None = None,
     only_not_found: bool = False,
 ) -> Tuple[int, int]:
     lines = path.read_text(encoding="utf-8").splitlines()
@@ -1336,7 +2036,14 @@ def refine_file(
             rows += 1
             continue
 
-        mention_ids = reverse_mentions.get(current_ref, set()) if current_ref else set()
+        # Exact-line mentions only: neighbour-line fallback proved unsafe for
+        # ranking (it boosted a leaked /y-t-n/ row for surface gh at KTU 1.16
+        # II:36 via the II:35 citation and pushed out the correct g+h row).
+        mention_ids = (
+            mentions_for_ref(reverse_mentions, current_ref, line_tolerance=0)
+            if current_ref
+            else set()
+        )
         variants = build_variants(
             surface,
             current_ref,
@@ -1348,6 +2055,7 @@ def refine_file(
             entry_ref_count,
             entry_tablets,
             entry_family_count,
+            direct_reference_index=direct_reference_index,
             max_variants=3,
         )
 
@@ -1358,24 +2066,29 @@ def refine_file(
                 continue
             new_parts = [line_id, surface, surface, "", "", "", "DULAT: NOT FOUND"]
         else:
-            analyses: List[str] = []
-            dulat_tokens: List[str] = []
-            pos_tokens: List[str] = []
-            gloss_tokens: List[str] = []
+            rendered: List[Tuple[str, str, str, str]] = []
             for v in variants:
-                a, d, p, g = render_variant(surface, v, forms_morph=forms_morph)
-                analyses.append(a)
-                dulat_tokens.append(d)
-                pos_tokens.append(p)
-                gloss_tokens.append(g)
-
+                rendered.append(
+                    render_variant(
+                        surface,
+                        v,
+                        forms_morph=forms_morph,
+                        section_ref=current_ref,
+                        translation_index=translation_index,
+                    )
+                )
+            # No reconstructability gating here: rendering is deliberately
+            # followed by repair steps (plural split, suffix clitics, weak
+            # preformatives), so baselines like il(I)/ for ilm only become
+            # reconstructable later. The end-of-pipeline fallback step turns
+            # what still cannot reconstruct after repair into '?' + hint.
             new_parts = [
                 line_id,
                 surface,
-                ";".join(analyses),
-                ";".join(dulat_tokens),
-                ";".join(pos_tokens),
-                ";".join(gloss_tokens),
+                ";".join(item[0] for item in rendered),
+                ";".join(item[1] for item in rendered),
+                ";".join(item[2] for item in rendered),
+                ";".join(item[3] for item in rendered),
                 "",
             ]
 
@@ -1394,12 +2107,13 @@ def refine_file(
 
 
 def main() -> None:
+    paths = get_project_paths(REPO_ROOT)
     ap = argparse.ArgumentParser(
         description="Refine morphology TSV using reverse mentions + clitic splitting"
     )
     ap.add_argument("files", nargs="+", help="TSV files to refine")
-    ap.add_argument("--dulat-db", default="sources/dulat_cache.sqlite")
-    ap.add_argument("--udb-db", default="sources/udb_cache.sqlite")
+    ap.add_argument("--dulat-db", default=str(paths.default_dulat_db()))
+    ap.add_argument("--udb-db", default=str(paths.default_udb_db()))
     ap.add_argument("--in-place", action="store_true", help="Rewrite files in place")
     ap.add_argument("--out-dir", default="results", help="Output dir if not --in-place")
     ap.add_argument(
@@ -1415,6 +2129,8 @@ def main() -> None:
     reverse_mentions, entry_ref_count, entry_tablets, entry_family_count = load_reverse_mentions(
         Path(args.dulat_db), Path(args.udb_db)
     )
+    direct_reference_index = DulatAttestationIndex.from_sqlite(Path(args.dulat_db))
+    translation_index = DulatAttestationTranslationIndex.from_sqlite(Path(args.dulat_db))
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -1433,6 +2149,8 @@ def main() -> None:
             entry_ref_count,
             entry_tablets,
             entry_family_count,
+            direct_reference_index=direct_reference_index,
+            translation_index=translation_index,
             only_not_found=args.only_not_found,
         )
         print(f"{src} -> {dst} | rows={rows} changed={changed}")

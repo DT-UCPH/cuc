@@ -81,7 +81,7 @@ class NominalFormMorphPosFixerTest(unittest.TestCase):
             "",
         )
         result = fixer.refine_row(row)
-        self.assertEqual(result.pos, "n. m. pl. / n. m. du.")
+        self.assertEqual(result.pos, "n. m. pl. cstr. / n. m. du. cstr.")
 
     def test_non_nominal_pos_unchanged(self) -> None:
         gate = _MorphGate({("hl", "hlm"): {"sg."}})
@@ -95,7 +95,7 @@ class NominalFormMorphPosFixerTest(unittest.TestCase):
         fixer = NominalFormMorphPosFixer(gate=gate)
         row = TabletRow("4", "abn", "ab/+n", "ảb", "n. m.", "father", "")
         result = fixer.refine_row(row)
-        self.assertEqual(result.pos, "n. m.")
+        self.assertEqual(result.pos, "n. m. cstr.")
 
     def test_demotes_false_feminine_pos_when_token_gender_is_masculine(self) -> None:
         gate = _MorphGate(
@@ -105,7 +105,14 @@ class NominalFormMorphPosFixerTest(unittest.TestCase):
         fixer = NominalFormMorphPosFixer(gate=gate)
         row = TabletRow("5", "abn", "ab/+n", "ảb", "n. f.", "father", "")
         result = fixer.refine_row(row)
-        self.assertEqual(result.pos, "n. m.")
+        self.assertEqual(result.pos, "n. m. cstr.")
+
+    def test_marks_adjective_with_pronominal_suffix_as_construct(self) -> None:
+        gate = _MorphGate({("mrủ (I)", "mruh"): {"m., sg., suff."}})
+        fixer = NominalFormMorphPosFixer(gate=gate)
+        row = TabletRow("5b", "mruh", "mru(I)/+h", "mrủ (I)", "adj. m. sg.", "fattened", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.pos, "adj. m. sg. cstr.")
 
     def test_adds_singular_marker_for_feminine_t_split(self) -> None:
         fixer = NominalFormMorphPosFixer(gate=_MorphGate())
@@ -125,6 +132,18 @@ class NominalFormMorphPosFixerTest(unittest.TestCase):
         result = fixer.refine_row(row)
         self.assertEqual(result.pos, "n. f. pl.")
 
+    def test_overrides_conflicting_plural_marker_for_feminine_singular_split(self) -> None:
+        fixer = NominalFormMorphPosFixer(gate=_MorphGate())
+        row = TabletRow("8b", "ġrt", "ġr(t(I)/t", "ġrt (I)", "n. f. pl.", "rock", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.pos, "n. f. sg.")
+
+    def test_overrides_conflicting_singular_marker_for_feminine_plural_split(self) -> None:
+        fixer = NominalFormMorphPosFixer(gate=_MorphGate())
+        row = TabletRow("8c", "ġrt", "ġr(t(I)/t=", "ġrt (I)", "n. f. sg.", "rock", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.pos, "n. f. pl.")
+
     def test_adds_number_marker_for_feminine_split_numeral_rows(self) -> None:
         fixer = NominalFormMorphPosFixer(gate=_MorphGate())
         singular_row = TabletRow("9", "rbt", "rb(t/t", "rb(b)t", "num.", "ten thousand", "")
@@ -134,6 +153,13 @@ class NominalFormMorphPosFixerTest(unittest.TestCase):
         plural_row = TabletRow("10", "rbt", "rb(t/t=", "rb(b)t", "num.", "ten thousand", "")
         plural_result = fixer.refine_row(plural_row)
         self.assertEqual(plural_result.pos, "num. pl.")
+
+    def test_keeps_num_head_when_feminine_marker_is_present(self) -> None:
+        gate = _MorphGate({("ṯn (I)", "ṯt"): {"f.", "sg."}})
+        fixer = NominalFormMorphPosFixer(gate=gate)
+        row = TabletRow("11", "ṯt", "ṯn(I)/", "ṯn (I)", "num.", "two", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.pos, "num. f.")
 
 
 if __name__ == "__main__":

@@ -44,7 +44,7 @@ class VerbFormMorphPosFixerTest(unittest.TestCase):
     def test_uses_existing_stem_when_multiple_stems_present(self) -> None:
         index = _FormIndex({("tṯbr", "/ṯ-b-r/"): {"G, prefc.", "N, prefc."}})
         fixer = VerbFormMorphPosFixer(dulat_db=Path("unused.sqlite"), form_index=index)
-        row = TabletRow("3", "tṯbr", "!t!](n]ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
+        row = TabletRow("3", "tṯbr", "!t!(]n]ṯbr[", "/ṯ-b-r/", "vb N", "to break", "")
         result = fixer.refine_row(row)
         self.assertEqual(result.pos, "vb N prefc.")
 
@@ -88,6 +88,35 @@ class VerbFormMorphPosFixerTest(unittest.TestCase):
         )
         result = fixer.refine_row(row)
         self.assertEqual(result.pos, "vb G prefc.")
+
+    def test_does_not_treat_with_suff_as_suffix_conjugation(self) -> None:
+        index = _FormIndex({("ynaṣn", "/n-ʔ-ṣ/"): {"G, prefc., with suff."}})
+        fixer = VerbFormMorphPosFixer(dulat_db=Path("unused.sqlite"), form_index=index)
+        row = TabletRow("8", "ynaṣn", "!y!n(ʔ&aṣ[n", "/n-ʔ-ṣ/", "vb G", "to despise", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.pos, "vb G prefc.")
+
+    def test_does_not_treat_prefixed_form_with_suffix_note_as_suffix_conjugation(self) -> None:
+        index = _FormIndex({("yknnh", "/k-n/"): {"L, prefc., suff."}})
+        fixer = VerbFormMorphPosFixer(dulat_db=Path("unused.sqlite"), form_index=index)
+        row = TabletRow(
+            "8b",
+            "yknnh",
+            "!y!knn[h",
+            "/k-n/",
+            "vb L",
+            "to establish, interpose, bring up",
+            "",
+        )
+        result = fixer.refine_row(row)
+        self.assertEqual(result.pos, "vb L prefc.")
+
+    def test_marks_participle_with_suffix_as_construct(self) -> None:
+        index = _FormIndex({("bˤl", "/b-ʕ-l/"): {"G, act., ptc., m., sg."}})
+        fixer = VerbFormMorphPosFixer(dulat_db=Path("unused.sqlite"), form_index=index)
+        row = TabletRow("7", "bˤlh", "bˤl[/+h", "/b-ʕ-l/", "vb G", "to make", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.pos, "vb G act. ptcpl. m. sg. cstr.")
 
 
 if __name__ == "__main__":

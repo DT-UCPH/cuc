@@ -19,6 +19,14 @@ _ITALIC_RESTORATION_JOIN_RE = re.compile(
     r"<i>\s*([^<]+?)\s*</i>\s*&lt;\s*<i>\s*([^<]+?)\s*</i>\s*&gt;\s*<i>\s*([^<]+?)\s*</i>",
     flags=re.IGNORECASE,
 )
+_ITALIC_BRACKET_JOIN_RE = re.compile(
+    r"<i>\s*([^<]+?)\s*</i>\s*\[\s*<i>\s*([^<]+?)\s*</i>\s*\]",
+    flags=re.IGNORECASE,
+)
+_ITALIC_CURLY_EDITORIAL_JOIN_RE = re.compile(
+    r"<i>\s*([^<]+?)\s*</i>\s*\{\s*<i>\s*([^<]+?)\s*</i>\s*\}\s*<i>\s*([^<]+?)\s*</i>",
+    flags=re.IGNORECASE,
+)
 _PREV_TOKEN_RE = re.compile(r"([A-Za-z0-9À-ÖØ-öø-ÿŠṮṯḫḥḏẓʿʕʔ/\\-]+\.?)\s*$")
 _ABBR_INDEX = frozenset(
     {
@@ -76,6 +84,7 @@ _ABBR_INDEX = frozenset(
         "allom.",
     }
 )
+_CLITIC_NOTE_KEYS = frozenset({"n", "nn", "y", "m", "h", "k", "km", "kn", "hm", "hn"})
 
 
 def _normalize_lookup(text: str) -> str:
@@ -103,7 +112,38 @@ def _merge_word_break_italic_tokens(html_text: str) -> str:
             body,
         )
         if n_subs == 0:
+            break
+    while True:
+        body, n_subs = _ITALIC_BRACKET_JOIN_RE.subn(
+            lambda m: f"<i>{m.group(1)}{m.group(2)}</i>",
+            body,
+        )
+        if n_subs == 0:
+            break
+    while True:
+        body, n_subs = _ITALIC_CURLY_EDITORIAL_JOIN_RE.subn(
+            lambda m: f"<i>{m.group(1)}{m.group(2)}{m.group(3)}</i>",
+            body,
+        )
+        if n_subs == 0:
             return body
+
+
+def _plain_snippet(text: str) -> str:
+    return re.sub(r"<[^>]+>", "", text or "")
+
+
+def _is_clitic_note_fragment(body: str, start: int, raw_token: str, cleaned: str) -> bool:
+    stripped = (raw_token or "").strip()
+    bare = cleaned.lstrip("-+")
+    if not bare:
+        return True
+    if stripped.startswith(("-", "+")):
+        return True
+    if bare not in _CLITIC_NOTE_KEYS:
+        return False
+    prefix = _plain_snippet(body[max(0, start - 48) : start])
+    return bool(re.search(r"[-+]\s*$", prefix))
 
 
 def _looks_like_forms_continuation(text_tail: str) -> bool:
@@ -198,14 +238,16 @@ def extract_forms_from_entry_text(entry_text: str) -> tuple[str, ...]:
     out: list[str] = []
     seen: set[str] = set()
     merged_body = _merge_word_break_italic_tokens(truncated_body)
-    for raw in _ITALIC_TOKEN_RE.findall(merged_body):
-        token = (raw or "").strip()
+    for match in _ITALIC_TOKEN_RE.finditer(merged_body):
+        token = (match.group(1) or "").strip()
         token = re.sub(r"\s+", " ", token)
         token = token.strip(".,;:!?")
         if not token or " " in token:
             continue
         cleaned = _clean_form_token(token)
         if not cleaned or len(cleaned) < 2:
+            continue
+        if _is_clitic_note_fragment(merged_body, match.start(), token, cleaned):
             continue
         key = _normalize_lookup(cleaned)
         if not key or key in seen:

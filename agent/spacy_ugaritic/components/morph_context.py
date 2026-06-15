@@ -1,0 +1,788 @@
+"""Rule-based spaCy component for morphology-context pruning."""
+
+from __future__ import annotations
+
+import re
+from dataclasses import dataclass
+
+from spacy.language import Language
+from spacy.tokens import Doc, Token
+
+from spacy_ugaritic.types import Candidate
+
+_CASE_RE = re.compile(r"(?<!\w)(nom\.|gen\.|acc\.|acc\.\?)(?!\w)")
+_NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
+_EPISTOLARY_RGM_OPENING_HINTS = frozenset({"tḥm", "yšlm", "ilm"})
+_KBD_OBJECT_PRONOUN_SURFACES = frozenset({"hmt", "hwt", "hyt"})
+_RGM_COMMAND_PRONOUN_SURFACES = frozenset({"hmt", "hyt"})
+_LETTER_BLESSING_SHLM_D_GLOSS = "to restore / preserve health"
+_LETTER_BLESSING_CLITICS = {
+    "tġrk": "+k",
+    "tšlmk": "+k",
+    "tġrkm": "+km",
+    "tšlmkm": "+km",
+}
+
+
+@dataclass(frozen=True)
+class MorphResolutionEvent:
+    token_index: int
+    rule: str
+    before: tuple[Candidate, ...]
+    after: tuple[Candidate, ...]
+
+
+class MorphContextResolver:
+    """Prune ambiguous morphology bundles using local agreement cues."""
+
+    def __call__(self, doc: Doc) -> Doc:
+        doc.user_data.setdefault("morph_context_events", [])
+        for token in doc:
+            token._.resolved_candidates = token._.candidates
+
+        self._apply_journey_formula_rules(doc)
+        self._apply_epistolary_rgm_rules(doc)
+        self._apply_non_epistolary_rgm_rules(doc)
+        self._apply_letter_blessing_rules(doc)
+        self._apply_epistolary_bare_shlm_rules(doc)
+        self._apply_kbd_object_rules(doc)
+        for index, token in enumerate(doc):
+            if not _has_multiple_verbal_png(token):
+                continue
+            if index == 0 or not _is_second_singular_pronoun(doc[index - 1]):
+                continue
+            filtered = tuple(
+                candidate
+                for candidate in token._.resolved_candidates
+                if _is_second_singular_verb_candidate(candidate)
+            )
+            if filtered:
+                self._maybe_replace(token, filtered, "second-singular-pronoun-agreement")
+
+        for index, token in enumerate(doc):
+            if not _has_multiple_verbal_png(token):
+                continue
+            agreement_token = _nearest_plural_dual_subject(doc, index)
+            if agreement_token is None:
+                agreement_token = _nearest_previous_plural_dual_subject(doc, index)
+            if agreement_token is None:
+                continue
+            keep_numbers = _subject_numbers(agreement_token)
+            filtered = tuple(
+                candidate
+                for candidate in token._.resolved_candidates
+                if _is_third_masculine_for_numbers(candidate, keep_numbers)
+            )
+            if filtered:
+                self._maybe_replace(token, filtered, "plural-dual-subject-agreement")
+        for index, token in enumerate(doc):
+            if not _is_preposition_token(token):
+                continue
+            self._apply_post_preposition_sequence(doc, index)
+        for start in range(len(doc) - 1):
+            if _is_preposition_token(doc[start]):
+                continue
+            if start > 0 and (
+                _is_construct_capable_token(doc[start - 1]) or _is_preposition_token(doc[start - 1])
+            ):
+                continue
+            chain = _construct_chain_tokens(doc, start)
+            if len(chain) < 2:
+                continue
+            self._apply_construct_chain(chain, governed_by_preposition=False)
+        return doc
+
+    def _maybe_replace(
+        self,
+        token: Token,
+        candidates: tuple[Candidate, ...],
+        rule: str,
+    ) -> None:
+        before = tuple(token._.resolved_candidates)
+        if candidates == before:
+            return
+        token._.resolved_candidates = candidates
+        token.doc.user_data["morph_context_events"].append(
+            MorphResolutionEvent(token.i, rule, before, candidates)
+        )
+
+    def _apply_post_preposition_sequence(self, doc: Doc, index: int) -> None:
+        if _preposition_has_bound_pronoun(doc[index]):
+            # Preposition+suffix governs the suffix pronoun, not the next token.
+            return
+        next_index = index + 1
+        if next_index >= len(doc):
+            return
+
+        modifiers: list[Token] = []
+        probe = next_index
+        while probe < len(doc) and _is_modifier_token(doc[probe]):
+            modifiers.append(doc[probe])
+            probe += 1
+
+        if probe >= len(doc):
+            for modifier in modifiers:
+                rewritten = _dedupe_candidates(
+                    tuple(
+                        _force_case(candidate, "gen.")
+                        for candidate in modifier._.resolved_candidates
+                    )
+                )
+                if rewritten != tuple(modifier._.resolved_candidates):
+                    self._maybe_replace(modifier, rewritten, "preposition-governs-genitive")
+            return
+        head = doc[probe]
+        if not _is_construct_capable_token(head):
+            return
+
+        for modifier in modifiers:
+            rewritten = _dedupe_candidates(
+                tuple(
+                    _force_case(candidate, "gen.") for candidate in modifier._.resolved_candidates
+                )
+            )
+            if rewritten != tuple(modifier._.resolved_candidates):
+                self._maybe_replace(modifier, rewritten, "preposition-governs-genitive")
+
+        chain = _construct_chain_tokens(doc, probe)
+        if len(chain) >= 2:
+            self._apply_construct_chain(chain, governed_by_preposition=True)
+            return
+
+        rewritten = _dedupe_candidates(
+            tuple(
+                _force_state_case(candidate, "abs.", "gen.")
+                for candidate in head._.resolved_candidates
+            )
+        )
+        if rewritten != tuple(head._.resolved_candidates):
+            self._maybe_replace(head, rewritten, "preposition-governs-genitive")
+
+    def _apply_construct_chain(
+        self,
+        chain: tuple[Token, ...],
+        *,
+        governed_by_preposition: bool,
+    ) -> None:
+        last_index = len(chain) - 1
+        for index, token in enumerate(chain):
+            if index == last_index:
+                state = "abs."
+                case = "gen."
+            elif index == 0:
+                state = "cstr."
+                case = "gen." if governed_by_preposition else "nom."
+            else:
+                state = "cstr."
+                case = "gen."
+            rewritten = _dedupe_candidates(
+                tuple(
+                    _force_state_case(candidate, state, case)
+                    for candidate in token._.resolved_candidates
+                    if _candidate_accepts_construct_chain(candidate)
+                )
+            )
+            if rewritten and rewritten != tuple(token._.resolved_candidates):
+                self._maybe_replace(token, rewritten, "construct-chain-case")
+
+    def _apply_journey_formula_rules(self, doc: Doc) -> None:
+        for index in range(1, len(doc) - 1):
+            if doc[index]._.surface.strip() != "ytn":
+                continue
+            if index < 2:
+                continue
+            if doc[index - 2]._.surface.strip() != "idk":
+                continue
+            if doc[index - 1]._.surface.strip() != "l":
+                continue
+            if doc[index + 1]._.surface.strip() != "pnm":
+                continue
+            if _nearest_previous_plural_dual_subject(doc, index) is None:
+                continue
+            self._apply_journey_formula_l(doc[index - 1])
+            self._apply_journey_formula_ytn(doc[index])
+            self._apply_journey_formula_pnm(doc[index + 1])
+
+    def _apply_journey_formula_l(self, token: Token) -> None:
+        resolved = tuple(token._.resolved_candidates)
+        functor = tuple(candidate for candidate in resolved if candidate.dulat.strip() == "l (III)")
+        if functor:
+            self._maybe_replace(token, functor, "journey-formula-l")
+
+    def _apply_journey_formula_ytn(self, token: Token) -> None:
+        resolved = tuple(token._.resolved_candidates)
+        rewritten = tuple(
+            _rewrite_journey_formula_ytn(candidate)
+            for candidate in resolved
+            if _is_journey_formula_ytn_candidate(candidate)
+        )
+        if rewritten:
+            self._maybe_replace(token, rewritten, "journey-formula-ytn-plural")
+
+    def _apply_journey_formula_pnm(self, token: Token) -> None:
+        resolved = tuple(token._.resolved_candidates)
+        rewritten = tuple(
+            _rewrite_journey_formula_pnm(candidate)
+            for candidate in resolved
+            if _is_journey_formula_pnm_candidate(candidate)
+        )
+        if rewritten:
+            self._maybe_replace(token, rewritten, "journey-formula-pnm-object")
+
+    def _apply_epistolary_rgm_rules(self, doc: Doc) -> None:
+        if not _looks_like_epistolary_doc(doc):
+            return
+        rgm_indices = [
+            index
+            for index, token in enumerate(doc)
+            if token._.surface.strip() == "rgm" and _has_rgm_candidates(token)
+        ]
+        if not rgm_indices:
+            return
+
+        opening_index = rgm_indices[0]
+        if _is_opening_epistolary_rgm(doc, opening_index):
+            opening_token = doc[opening_index]
+            self._maybe_replace(
+                opening_token,
+                (_prefer_or_build_rgm_imperative(opening_token),),
+                "epistolary-rgm-opening",
+            )
+
+        for index in rgm_indices[1:]:
+            token = doc[index]
+            noun = _prefer_rgm_noun(token)
+            if noun is not None:
+                self._maybe_replace(token, (noun,), "epistolary-rgm-noun")
+
+    def _apply_non_epistolary_rgm_rules(self, doc: Doc) -> None:
+        if _looks_like_epistolary_doc(doc):
+            return
+        for index, token in enumerate(doc):
+            if token._.surface.strip() != "rgm" or not _has_rgm_candidates(token):
+                continue
+            if _is_non_epistolary_rgm_imperative_context(doc, index):
+                self._maybe_replace(
+                    token,
+                    (_prefer_or_build_rgm_imperative(token),),
+                    "non-epistolary-rgm-imperative",
+                )
+                continue
+            if not _is_non_epistolary_rgm_noun_context(doc, index):
+                continue
+            noun = _prefer_rgm_noun(token)
+            if noun is not None:
+                self._maybe_replace(token, (noun,), "non-epistolary-rgm-noun")
+
+    def _apply_letter_blessing_rules(self, doc: Doc) -> None:
+        if not (doc._.source_name or "").startswith("KTU 2."):
+            return
+        for token in doc:
+            surface = token._.surface.strip()
+            clitic = _LETTER_BLESSING_CLITICS.get(surface)
+            if clitic is None:
+                continue
+            if surface.startswith("tġr"):
+                ngr_candidate = _prefer_letter_blessing_ngr(token, clitic)
+                if ngr_candidate is not None:
+                    self._maybe_replace(token, (ngr_candidate,), "letter-blessing-ngr")
+                continue
+            shlm_candidate = _prefer_letter_blessing_shlm(token, clitic)
+            if shlm_candidate is not None:
+                self._maybe_replace(token, (shlm_candidate,), "letter-blessing-shlm")
+
+    def _apply_epistolary_bare_shlm_rules(self, doc: Doc) -> None:
+        if not (doc._.source_name or "").startswith("KTU 2."):
+            return
+        for token in doc:
+            if token._.surface.strip() != "šlm" or not _has_bare_shlm_candidates(token):
+                continue
+            filtered = tuple(
+                candidate
+                for candidate in token._.resolved_candidates
+                if _is_primary_epistolary_shlm_candidate(candidate)
+            )
+            if filtered:
+                self._maybe_replace(token, filtered, "epistolary-bare-shlm")
+
+    def _apply_kbd_object_rules(self, doc: Doc) -> None:
+        for index, token in enumerate(doc):
+            if token._.surface.strip() != "kbd":
+                continue
+            if not _has_kbd_noun_candidate(token):
+                continue
+            if index + 1 >= len(doc) or not _is_personal_pronoun_token(doc[index + 1]):
+                continue
+            self._maybe_replace(
+                token,
+                (_build_kbd_d_imperative(token),),
+                "kbd-object-imperative",
+            )
+
+
+def _has_multiple_verbal_png(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    if len(candidates) < 2:
+        return False
+    verb_candidates = [candidate for candidate in candidates if "vb" in candidate.pos.lower()]
+    if len(verb_candidates) < 2:
+        return False
+    png_values = {(candidate.pos, candidate.analysis) for candidate in verb_candidates}
+    return len(png_values) > 1
+
+
+def _nearest_plural_dual_subject(doc: Doc, index: int) -> Token | None:
+    for lookahead in range(1, 3):
+        probe = index + lookahead
+        if probe >= len(doc):
+            break
+        token = doc[probe]
+        if _is_plural_dual_masculine_nominal(token):
+            return token
+        if not _is_transparent_context_token(token):
+            break
+    return None
+
+
+def _nearest_previous_plural_dual_subject(doc: Doc, index: int) -> Token | None:
+    for lookback in range(1, 4):
+        probe = index - lookback
+        if probe < 0:
+            break
+        token = doc[probe]
+        if _is_plural_dual_masculine_nominal(token):
+            return token
+        if not _is_transparent_context_token(token):
+            break
+    return None
+
+
+def _is_all_verbal(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    return bool(candidates) and all("vb" in candidate.pos.lower() for candidate in candidates)
+
+
+def _is_transparent_context_token(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    if not candidates:
+        return False
+    if _is_all_verbal(token):
+        return True
+    return all(_is_function_like(candidate) for candidate in candidates)
+
+
+def _is_plural_dual_masculine_nominal(token: Token) -> bool:
+    return bool(_subject_numbers(token))
+
+
+def _is_second_singular_pronoun(token: Token) -> bool:
+    for candidate in token._.resolved_candidates:
+        pos = (candidate.pos or "").lower()
+        analysis = candidate.analysis or ""
+        dulat = candidate.dulat or ""
+        if "pers. pn." not in pos:
+            continue
+        if analysis.startswith("at(I)") or dulat.startswith("ảt (I)"):
+            return True
+    return False
+
+
+def _is_personal_pronoun_token(token: Token) -> bool:
+    if token._.surface.strip() in _KBD_OBJECT_PRONOUN_SURFACES:
+        return True
+    return any(
+        "pers. pn." in (candidate.pos or "").lower() for candidate in token._.resolved_candidates
+    )
+
+
+def _subject_numbers(token: Token) -> set[str]:
+    keep_numbers: set[str] = set()
+    for candidate in token._.resolved_candidates:
+        pos = candidate.pos
+        if "n. m." not in pos and "adj. m." not in pos:
+            continue
+        if "pl." in pos or "tant." in pos:
+            keep_numbers.add("pl.")
+        if "du." in pos or "tant." in pos:
+            keep_numbers.add("du.")
+    return keep_numbers
+
+
+def _is_journey_formula_ytn_candidate(candidate: Candidate) -> bool:
+    pos = candidate.pos or ""
+    return (
+        candidate.dulat.strip() == "/y-t-n/"
+        and "vb" in pos.lower()
+        and ("prefc." in pos or "suffc." in pos)
+    )
+
+
+def _rewrite_journey_formula_ytn(candidate: Candidate) -> Candidate:
+    pos = (candidate.pos or "").strip()
+    if "3 m. sg." in pos:
+        pos = pos.replace("3 m. sg.", "3 m. pl.")
+    elif ("prefc." in pos or "suffc." in pos) and "3 m. pl." not in pos:
+        if "prefc." in pos:
+            pos = pos.replace("prefc.", "prefc. 3 m. pl.")
+        if "suffc." in pos:
+            pos = pos.replace("suffc.", "suffc. 3 m. pl.")
+    return Candidate(
+        analysis=candidate.analysis,
+        dulat=candidate.dulat,
+        pos=pos,
+        gloss=candidate.gloss,
+        comment=candidate.comment,
+    )
+
+
+def _is_journey_formula_pnm_candidate(candidate: Candidate) -> bool:
+    return candidate.dulat.strip() == "pnm" and candidate.pos.lower().startswith("n.")
+
+
+def _rewrite_journey_formula_pnm(candidate: Candidate) -> Candidate:
+    analysis = candidate.analysis.strip()
+    if analysis in {"pnm/", "p/+nm"}:
+        analysis = "pn(m/m"
+
+    pos = (candidate.pos or "").strip()
+    parts = [
+        part
+        for part in pos.split()
+        if part not in {"abs.", "cstr.", "nom.", "gen.", "acc.", "acc.?"}
+    ]
+    if "pl." not in parts and "pl./du." not in parts:
+        insert_at = 2 if len(parts) >= 2 else len(parts)
+        parts.insert(insert_at, "pl.")
+    if "tant." not in parts:
+        if "pl./du." in parts:
+            parts.insert(parts.index("pl./du.") + 1, "tant.")
+        elif "pl." in parts:
+            parts.insert(parts.index("pl.") + 1, "tant.")
+        else:
+            parts.append("tant.")
+    parts.extend(["abs.", "acc."])
+    return Candidate(
+        analysis=analysis,
+        dulat=candidate.dulat,
+        pos=" ".join(parts),
+        gloss=candidate.gloss,
+        comment=candidate.comment,
+    )
+
+
+def _looks_like_epistolary_doc(doc: Doc) -> bool:
+    source_name = (doc._.source_name or "").strip()
+    if not source_name.startswith("KTU 2."):
+        return False
+    surfaces = {token._.surface.strip() for token in doc}
+    return "rgm" in surfaces and bool(surfaces & _EPISTOLARY_RGM_OPENING_HINTS)
+
+
+def _is_opening_epistolary_rgm(doc: Doc, index: int) -> bool:
+    if index < 0 or index >= len(doc) or doc[index]._.surface.strip() != "rgm":
+        return False
+    for lookahead in range(1, 4):
+        probe = index + lookahead
+        if probe >= len(doc):
+            break
+        if doc[probe]._.surface.strip() in _EPISTOLARY_RGM_OPENING_HINTS:
+            return True
+    return False
+
+
+def _has_rgm_candidates(token: Token) -> bool:
+    return any(
+        candidate.dulat.strip() in {"/r-g-m/", "rgm"} for candidate in token._.resolved_candidates
+    )
+
+
+def _prefer_or_build_rgm_imperative(token: Token) -> Candidate:
+    for candidate in token._.resolved_candidates:
+        if _is_rgm_imperative(candidate):
+            if candidate.analysis.strip() == "!!rgm[":
+                return candidate
+            return Candidate(
+                "!!rgm[",
+                candidate.dulat,
+                candidate.pos,
+                candidate.gloss,
+                comment=candidate.comment,
+            )
+    comment = next(
+        (candidate.comment for candidate in token._.resolved_candidates if candidate.comment),
+        "",
+    )
+    return Candidate("!!rgm[", "/r-g-m/", "vb G impv. 2", "to say", comment=comment)
+
+
+def _prefer_rgm_noun(token: Token) -> Candidate | None:
+    for candidate in token._.resolved_candidates:
+        if _is_rgm_noun(candidate):
+            return candidate
+    return None
+
+
+def _is_rgm_imperative(candidate: Candidate) -> bool:
+    return candidate.dulat.strip() == "/r-g-m/" and "impv." in candidate.pos
+def _is_rgm_noun(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "rgm/" and candidate.dulat.strip() == "rgm"
+
+
+def _is_non_epistolary_rgm_imperative_context(doc: Doc, index: int) -> bool:
+    if index < 2 or index + 1 >= len(doc):
+        return False
+    if doc[index - 1]._.surface.strip() != "w":
+        return False
+    if doc[index + 1]._.surface.strip() != "l":
+        return False
+    return doc[index - 2]._.surface.strip() in _RGM_COMMAND_PRONOUN_SURFACES
+
+
+def _is_non_epistolary_rgm_noun_context(doc: Doc, index: int) -> bool:
+    previous_surface = doc[index - 1]._.surface.strip() if index > 0 else ""
+    next_surface = doc[index + 1]._.surface.strip() if index + 1 < len(doc) else ""
+    return (
+        (previous_surface == "dm" and next_surface == "iṯ")
+        or previous_surface in {"aṯnyk", "wṯaṯnyk"}
+        or next_surface in {"ˤṣ", "ltdˤ"}
+    )
+
+
+def _prefer_letter_blessing_ngr(token: Token, clitic: str) -> Candidate | None:
+    for candidate in token._.resolved_candidates:
+        if candidate.dulat.strip() != "/n-ġ-r/" or "prefc." not in candidate.pos:
+            continue
+        return Candidate(
+            analysis=f"!t!(nġr[{clitic}",
+            dulat=candidate.dulat,
+            pos=candidate.pos,
+            gloss=candidate.gloss,
+            comment=candidate.comment,
+        )
+    return None
+
+
+def _prefer_letter_blessing_shlm(token: Token, clitic: str) -> Candidate | None:
+    for candidate in token._.resolved_candidates:
+        if candidate.dulat.strip() != "/š-l-m/" or "prefc." not in candidate.pos:
+            continue
+        return Candidate(
+            analysis=f"!t!šlm[:d{clitic}",
+            dulat=candidate.dulat,
+            pos=candidate.pos,
+            gloss=_LETTER_BLESSING_SHLM_D_GLOSS,
+            comment=candidate.comment,
+        )
+    return None
+
+
+def _has_bare_shlm_candidates(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    has_primary = any(_is_primary_epistolary_shlm_candidate(candidate) for candidate in candidates)
+    has_noise = any(_is_epistolary_shlm_noise(candidate) for candidate in candidates)
+    return has_primary and has_noise
+
+
+def _is_primary_epistolary_shlm_candidate(candidate: Candidate) -> bool:
+    return _is_shlm_peace_noun(candidate) or _is_shlm_g_suffix(candidate)
+
+
+def _is_shlm_peace_noun(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "šlm(I)/" and candidate.dulat.strip() == "šlm (I)"
+
+
+def _is_shlm_g_suffix(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "šlm[" and candidate.dulat.strip() == "/š-l-m/"
+
+
+def _is_epistolary_shlm_noise(candidate: Candidate) -> bool:
+    return _is_shlm_d_suffix(candidate) or _is_shlm_adjective(candidate)
+
+
+def _is_shlm_d_suffix(candidate: Candidate) -> bool:
+    return candidate.dulat.strip() == "/š-l-m/" and "vb d suffc." in candidate.pos.lower()
+
+
+def _is_shlm_adjective(candidate: Candidate) -> bool:
+    return candidate.analysis.strip() == "šlm(III)/" and candidate.dulat.strip() == "šlm (III)"
+
+
+def _has_kbd_noun_candidate(token: Token) -> bool:
+    return any(
+        candidate.dulat.strip().startswith("kbd (") for candidate in token._.resolved_candidates
+    )
+
+
+def _build_kbd_d_imperative(token: Token) -> Candidate:
+    comment = next(
+        (candidate.comment for candidate in token._.resolved_candidates if candidate.comment),
+        "",
+    )
+    return Candidate("kbd[:d", "/k-b-d/", "vb D impv. 2", "to honour", comment=comment)
+
+
+def _is_function_like(candidate: Candidate) -> bool:
+    pos = candidate.pos.lower()
+    return any(
+        marker in pos
+        for marker in (
+            "prep.",
+            "conj.",
+            "functor",
+            "adv.",
+            "narrative adv.",
+            "interr. pn.",
+        )
+    )
+
+
+def _is_second_singular_verb_candidate(candidate: Candidate) -> bool:
+    pos = candidate.pos or ""
+    lowered = pos.lower()
+    return "vb" in lowered and "2" in pos and "sg." in pos
+
+
+def _is_preposition_token(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    return bool(candidates) and all("prep." in candidate.pos.lower() for candidate in candidates)
+
+
+def _preposition_has_bound_pronoun(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    if not candidates:
+        return False
+    if not all("prep." in candidate.pos.lower() for candidate in candidates):
+        return False
+    return any(
+        ("+" in (candidate.analysis or "")) or ("~" in (candidate.analysis or ""))
+        for candidate in candidates
+    )
+
+
+def _construct_chain_tokens(doc: Doc, start: int) -> tuple[Token, ...]:
+    if start >= len(doc) or not _is_construct_capable_token(doc[start]):
+        return ()
+    chain: list[Token] = [doc[start]]
+    probe = start
+    while probe + 1 < len(doc):
+        if not _token_supports_construct_head(doc[probe]):
+            break
+        next_token = doc[probe + 1]
+        if not _is_construct_capable_token(next_token):
+            break
+        chain.append(next_token)
+        probe += 1
+    return tuple(chain)
+
+
+def _is_construct_capable_token(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    return bool(candidates) and any(
+        _candidate_accepts_construct_chain(candidate) for candidate in candidates
+    )
+
+
+def _token_supports_construct_head(token: Token) -> bool:
+    return any(
+        _candidate_supports_construct_head(candidate)
+        for candidate in token._.resolved_candidates
+        if _candidate_accepts_construct_chain(candidate)
+    )
+
+
+def _is_modifier_token(token: Token) -> bool:
+    candidates = tuple(token._.resolved_candidates)
+    return bool(candidates) and all(_candidate_is_modifier(candidate) for candidate in candidates)
+
+
+def _candidate_accepts_construct_chain(candidate: Candidate) -> bool:
+    pos = candidate.pos
+    lowered = pos.lower()
+    if "ptcpl." in lowered:
+        return True
+    if pos.startswith("n."):
+        return True
+    return any(name_class in pos for name_class in _NAME_CLASSES)
+
+
+def _candidate_is_modifier(candidate: Candidate) -> bool:
+    lowered = candidate.pos.lower()
+    return lowered.startswith("adj.") or "ptcpl." in lowered
+
+
+def _candidate_supports_construct_head(candidate: Candidate) -> bool:
+    analysis = candidate.analysis.strip()
+    if "+" in analysis:
+        return False
+    return "/" in analysis
+
+
+def _force_case(candidate: Candidate, case: str) -> Candidate:
+    if not (_candidate_accepts_construct_chain(candidate) or _candidate_is_modifier(candidate)):
+        return candidate
+    pos = candidate.pos
+    if _CASE_RE.search(pos):
+        pos = _CASE_RE.sub(case, pos)
+    else:
+        pos = f"{pos} {case}".strip()
+    return Candidate(
+        analysis=candidate.analysis,
+        dulat=candidate.dulat,
+        pos=pos,
+        gloss=candidate.gloss,
+        comment=candidate.comment,
+    )
+
+
+def _force_state_case(candidate: Candidate, state: str, case: str) -> Candidate:
+    if not _candidate_accepts_construct_chain(candidate):
+        return candidate
+    analysis = candidate.analysis.strip()
+    effective_state = "cstr." if "+" in analysis else state
+    pos = candidate.pos
+    parts = [
+        part
+        for part in pos.split()
+        if part not in {"abs.", "cstr.", "nom.", "gen.", "acc.", "acc.?"}
+    ]
+    parts.extend([effective_state, case])
+    return Candidate(
+        analysis=candidate.analysis,
+        dulat=candidate.dulat,
+        pos=" ".join(parts),
+        gloss=candidate.gloss,
+        comment=candidate.comment,
+    )
+
+
+def _dedupe_candidates(candidates: tuple[Candidate, ...]) -> tuple[Candidate, ...]:
+    deduped: list[Candidate] = []
+    seen: set[tuple[str, str, str, str, str]] = set()
+    for candidate in candidates:
+        key = (
+            candidate.analysis,
+            candidate.dulat,
+            candidate.pos,
+            candidate.gloss,
+            candidate.comment,
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(candidate)
+    return tuple(deduped)
+
+
+def _is_third_masculine_for_numbers(candidate: Candidate, keep_numbers: set[str]) -> bool:
+    pos = candidate.pos
+    return (
+        "vb" in pos.lower()
+        and "3" in pos
+        and "m." in pos
+        and any(number in pos for number in keep_numbers)
+    )
+
+
+@Language.factory("ugaritic_morph_context_resolver")
+def make_morph_context_resolver(nlp, name):
+    return MorphContextResolver()

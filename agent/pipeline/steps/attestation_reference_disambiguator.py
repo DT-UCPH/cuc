@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from pipeline.config.l_negation_exception_refs import extract_separator_ref
-from pipeline.dulat_attestation_index import DulatAttestationIndex
+from pipeline.dulat_attestation_index import DulatAttestationIndex, parse_dulat_head_token
 from pipeline.steps.base import RefinementStep, StepResult, TabletRow, parse_tsv_line
 
 
@@ -16,6 +16,15 @@ class _TokenGroup:
     section_ref: str
     indexes: list[int]
     rows: list[TabletRow]
+
+
+def _append_comment(existing: str, note: str) -> str:
+    current = (existing or "").strip()
+    if not current:
+        return note
+    if note in current:
+        return current
+    return f"{current} | {note}"
 
 
 class AttestationReferenceDisambiguator(RefinementStep):
@@ -56,6 +65,7 @@ class AttestationReferenceDisambiguator(RefinementStep):
             section_refs=section_refs,
         )
         remove_indexes: set[int] = set()
+        updated_rows: dict[int, TabletRow] = {}
 
         for group in groups:
             if len(group.rows) <= 1:
@@ -63,24 +73,48 @@ class AttestationReferenceDisambiguator(RefinementStep):
             if not group.section_ref:
                 continue
 
-            matching_indexes = [
-                row_index
-                for row_index, row in zip(group.indexes, group.rows)
-                if self._index.has_reference_for_variant_token(row.dulat, group.section_ref)
-            ]
-            if len(matching_indexes) != 1:
+            matching_indexes_by_head: dict[tuple[str, str], list[int]] = {}
+            for row_index, row in zip(group.indexes, group.rows):
+                if not self._index.has_reference_for_variant_token(row.dulat, group.section_ref):
+                    continue
+                head_key = parse_dulat_head_token(row.dulat)
+                if not head_key[0]:
+                    continue
+                matching_indexes_by_head.setdefault(head_key, []).append(row_index)
+
+            if len(matching_indexes_by_head) != 1:
                 continue
-            keep_index = matching_indexes[0]
+            keep_indexes = next(iter(matching_indexes_by_head.values()))
+            note = "DULAT direct ref"
+            for row_index in keep_indexes:
+                row = parsed_rows[row_index]
+                updated_rows[row_index] = TabletRow(
+                    line_id=row.line_id,
+                    surface=row.surface,
+                    analysis=row.analysis,
+                    dulat=row.dulat,
+                    pos=row.pos,
+                    gloss=row.gloss,
+                    comment=_append_comment(row.comment, note),
+                )
             remove_indexes.update(
-                row_index for row_index in group.indexes if row_index != keep_index
+                row_index for row_index in group.indexes if row_index not in keep_indexes
             )
 
-        if not remove_indexes:
+        if not remove_indexes and not updated_rows:
             return StepResult(file=path.name, rows_processed=len(data_indexes), rows_changed=0)
 
         out_lines: list[str] = []
+        rows_changed = 0
         for index, raw in enumerate(lines):
             if index in remove_indexes:
+                rows_changed += 1
+                continue
+            if index in updated_rows:
+                new_line = updated_rows[index].to_tsv()
+                if new_line != raw:
+                    rows_changed += 1
+                out_lines.append(new_line)
                 continue
             out_lines.append(raw)
 
@@ -88,7 +122,7 @@ class AttestationReferenceDisambiguator(RefinementStep):
         return StepResult(
             file=path.name,
             rows_processed=len(data_indexes),
-            rows_changed=len(remove_indexes),
+            rows_changed=rows_changed,
         )
 
     def _group_rows(
