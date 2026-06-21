@@ -12,9 +12,9 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 156993,bˤly,bˤl(II)/+y,bʕl (II),n. m. sg./DN,Master,
 156994,u,u,ủ,conj.,and,
 # KTU 2.23 3,,,,,,
-156995,ˤṯt,ˤṯt/,ˤṯt,n. m. sg,"head of messengers, ref. RS 16.078 footnote 88",
-,rab,rb(I)/,rb (I),adj. m. sg,chief,
-156996,mlakt,mlak/t,mlảk,n. m. plural. ( t collective ending,messangers ,
+156995,ˤṯtrab,ˤṯtrab/ # one word, personal name
+
+156996,mlakt,mlak(t/t
 156997,ˤbdh,ˤbd(I)/+h,ʕbd (I),n. m.,servant,
 # KTU 2.23 4,,,,,,
 156998,ylak,!y!l(ʔ&ak[,/l-ʔ-k/,vb G prefc. jussive,to send (a message),
@@ -23,16 +23,16 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 157001,k,k(III),k (III),Subordinating or completive functor,when,
 157002,yḫpn,!y!ḫpn[:d,/ḫ-p-n/,vb D prefc.,to protect,
 # KTU 2.23 5,,,,,,
-157003,mlakty,mlak/t+y,mlảkt,n. f. pl.,messangers,
+157003,mlakty,mlak(t/t+y,mlảkt,n. f. pl.,messangers,
 157004,ˤmh,ˤm(I)+h,ʕm (I),prep.,to,
-157005,uky,uk+y,ủk,positive emph. functor,certainly,
+157005,uky,uk~y,ủk,positive emph. functor,certainly,
 # KTU 2.23 6,,,,,,
 157006,mlakt,mlak/t,mlảkt,n. m. pl.,messangers,
 157007,ˤbdk,ˤbd(I)/+k,ʕbd (I),n. m. sg.,servant,
 157008,k,k(III),k (III),Subordinating or completive functor,when,
 157009,tmġy,!t!mġy[,/m-ġ-y/,vb G suffc.,to come,
 # KTU 2.23 7,,,,,,
-157010,mlakt,mlak/t,mlảkt,n. f. pl.,messangers,
+157010,mlakt,mlak(t/t,mlảkt,n. f. pl.,messangers,
 157011,špš,špš/,špš,n. sg.,sun,
 157012,mlk,mlk(I)/,mlk (I),n. m. sg.,king,
 157013,rb,rb(I)/,rb (I),adj. m. sg.,great,
@@ -41,7 +41,7 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 157015,ˤmxxxxxx,ˤm,ˤm (I),,,DULAT: NOT FOUND
 # KTU 2.23 9,,,,,,
 157016,ydˤt,!y!(ydˤ(I)[t,/y-d-ʕ/ (I),vb G suffc.,to know,
-157016,ydˤt,(ydˤ(I)[/t,/y-d-ʕ/ (I),vb G pass. ptcpl.,to know,
+157016,ydˤt,ydˤ(I)[t,/y-d-ʕ/ (I)
 157017,šxx,?,?,?,?,DULAT: NOT FOUND
 157018,špš,špš/,špš,n. sg.,sun,
 157019,mlk,mlk(I)/,mlk (I),n. m. sg.,king,
@@ -59,32 +59,32 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 157026,mlk,mlk(I)/,mlk (I),n. m. sg.,king,mlk
 # KTU 2.23 14,,,,,,
 157027,rb,rb(I)/,rb (I),adj. m. sg.,great,
-157028,bˤly,bˤl(II)/y,bʕl (II),n. m. sg./DN,Master,
+157028,bˤly,bˤl(II)/+y,bʕl (II),n. m. sg./DN,Master,
 # KTU 2.23 15,,,,,,
 157029,w,w,w,conj.,and,
 157030,ank,ank,ảnk,pers. pn.,I,
 157031,xxxxxxxb,?,?,?,?,DULAT: NOT FOUND
 # KTU 2.23 16,,,,,,
-157032,arš,!(ʔ&a!rš[,/ʔ-r-š/,vb G prefc.,to request,
+157032,arš,(ʔ&arš[,/ʔ-r-š/,vb.,to request,
 157033,ḥy,ḥy(m/,ḥym,n. m. pl. tant. pl.,life,
 157034,l,l(I),l (I),prep.,to,
 157035,špš,špš/,špš,n. sg.,sun,
 # KTU 2.23 17,,,,,,
 157036,mlk,mlk(I)/,mlk (I),n. m. sg.,king,
 157037,rb,rb(I)/,rb (I),adj. m. sg.,great,
-157038,bˤly,bˤl(II)/y,bʕl (II),n. m. sg./DN,my master,
+157038,bˤly,bˤl(II)/+y,bʕl (II),n. m. sg./DN,my master,
 157039,p,p(I),p (I),conj. functor,and,
 157040,l,l(I),l (I),prep.,to,
 # KTU 2.23 18,,,,,,
 157041,ḥy,ḥy(m/,ḥym,n. m. pl. tant. pl.,life,
 157042,npš,npš(I)/,npš (I),n. f. sg.,life,
-157043,arš,!(ʔ&a!rš[,/ʔ-r-š/,vb G prefc.,to request,
+157043,arš,(ʔ&arš[,/ʔ-r-š/,vb G.,to request,
 # KTU 2.23 19,,,,,,
 157044,l,l(I),l (I),prep.,to,
 157045,pn,pn(m/,pnm,n. m. pl. tant.,in front,
 157046,bˤl,bˤl(II)/,bʕl (II),DN,Baʿlu/Baal,
 157047,ṣpn,ṣpn/,ṣpn,TN/DN,Ṣapānu/Zaphon/the mountain dwelling of bʕl deified,
-157048,bˤly,bˤl(II)/y,bʕl (II),n. m. sg./DN,my lord,
+157048,bˤly,bˤl(II)/+y,bʕl (II),n. m. sg./DN,my lord,
 # KTU 2.23 20,,,,,,
 157049,w,w,w,conj.,and,
 157050,urk,urk/,ủrk,n. m. sg.,lengthen or long,
@@ -100,7 +100,7 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 # KTU 2.23 22,,,,,,
 157059,il,il(I)/,ỉl (I),n. m.,god,
 157060,mṣrm,mṣrm/,mṣrm,TN,Egypt,
-157061,dt,d,d,rel. functor,they,
+157061,dt,d/t,d,rel. functor,they,
 157062,tġrn,!t!(nġr[n,/n-ġ-r/,vb G suffc. Jussive,to protect,
 # KTU 2.23 23,,,,,,
 157063,npš,npš(I)/,npš (I),n. f. sg.,life,
@@ -108,7 +108,7 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 157065,mlk,mlk(I)/,mlk (I),n. m. sg.,king,
 # KTU 2.23 24,,,,,,
 157066,rb,rb(I)/,rb (I),adj. m. sg.,great,
-157067,bˤly,bˤl(II)/y,bʕl (II),n. m. sg./DN,My lord,
+157067,bˤly,bˤl(II)/+y,bʕl (II),n. m. sg./DN,My lord,
 # KTU 2.23 25,,,,,,
 157068,b,b,b,prep.,in,
 157069,x,?,?,?,?,
@@ -121,20 +121,20 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 # KTU 2.23 29,,,,,,
 157073,xtm,?,?,?,?,DULAT: NOT FOUND
 # KTU 2.23 30,,,,,,
-157074,pm,p(I)+m(I),p (I),conj. functor,and,
+157074,pm,p(I)~m(I) # p (I),conj. functor,and, or
 157074,pm,p(III)/+m(I),p (III),n. m.,mouth,
 157074,pm,p(II)+m(I),p (II),adv.,here,
 # KTU 2.23 31,,,,,,
-157075,bˤlš,?,?,?,?,DULAT: NOT FOUND
+157075,bˤl/,?,?,?,?,DULAT: NOT FOUND # š belongs to another word
 # KTU 2.23 32,,,,,,
-157076,ap,ap(I),ảp (I),adv./conj.,also,
+157076,ap,ap(I),ảp (I) # adv./conj.,also, or
 157076,ap,ap(II)/,ảp (II),n. m.,nose,
-157077,xnpšn,?,?,?,?,DULAT: NOT FOUND
+157077,xnpšn,npš/~n,DULAT: NOT FOUND
 # KTU 2.23 33,,,,,,
-157078,mlk,mlk[/,/m-l-k/,vb G act. ptcpl.,to reign,
+157078,mlk,mlk/,/m-l-k/ # or mlk/
 157078,mlk,mlk(II)/,mlk (II),n. m. sg.,kingdom (power and territory),
 # KTU 2.23 34,,,,,,
-157079,yšlmxm,?,?,?,?,DULAT: NOT FOUND
+157079,yšlm xm,!y!šlm[,DULAT: NOT FOUND
 # KTU 2.23 35,,,,,,
 157080,ˤbx,?,?,?,?,DULAT: NOT FOUND
 # KTU 2.23 36,,,,,,
