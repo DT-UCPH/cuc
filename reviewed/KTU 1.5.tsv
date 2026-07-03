@@ -179,7 +179,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130243	p	p	p(I)	p (I)	conj. functor	and	
 130244	nšt	nšt	nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	
 130245	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu	
-130246	ṭˤn	ṭʿn	ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	
+130246	ṭˤn	ṭʿn	!!ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	
 130247	iṭˤnk	iṭʿnk	!(ʔ&i!ṭˤn[+k	/ṭ-ʕ-n/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to smite	
 # KTU 1.5 I:27							
 130248	xxxxxqa	xxxxxqa	?	?	?	?	
@@ -421,13 +421,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130427	l	l	l(I)	l (I)	prep.	to	Broken context; l(II)/l(III) not excluded.
 130428	ḥ	ḥ               	?	?	?	?	Beginning of a broken word ḥ[…].
 # KTU 1.5 III:13							
-130429	ṯmm	ṯmm	ṯmm[	/ṯ-m-m/	vb G impv. m. sg.	to be appalled	DULAT: ṯmm lk 'be appalled (?) and go'.
+130429	ṯmm	ṯmm	!!ṯmm[	/ṯ-m-m/	vb G impv. m. sg.	to be appalled	DULAT: ṯmm lk 'be appalled (?) and go'.
 130429	ṯmm	ṯmm	ṯm~m	ṯm	adv.	there	UNP: 'There and go'.
 130430	w	w	w	w	conj.	and	
-130431	lkx	lkx         	(hlk[	/h-l-k/	vb G impv.	to go	Final x broken; cf. w lk ilm III:14, 20.
+130431	lkx	lkx         	!!(hlk[	/h-l-k/	vb G impv.	to go	Final x broken; cf. w lk ilm III:14, 20.
 # KTU 1.5 III:14							
 130432	w	w	w	w	conj.	and	
-130433	lk	lk	(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	UNP: 'And go, O Gods'; not l(I)+k.
+130433	lk	lk	!!(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	UNP: 'And go, O Gods'; not l(I)+k.
 130434	ilm	ilm                  	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.5 III:15							
 130435	nˤm	nʿm	nˤm(I)/	nʕm (I)	adj. m. sg. cstr.	handsome	DULAT: nʕm ỉlm 'the (most) handsome of the gods'.
@@ -451,7 +451,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130448		          	?	?	?	?	
 # KTU 1.5 III:20							
 130449	w	w	w	w	conj.	and	
-130450	lk	lk	(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	Not l(I)+k; cf. III:14.
+130450	lk	lk	!!(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	Not l(I)+k; cf. III:14.
 130451	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 130452		                	?	?	?	?	
 # KTU 1.5 III:21							
@@ -480,14 +480,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130469	b	b	b	b	prep.	in	
 130470	qrb	qrb                	qrb/	qrb	n. m. sg. cstr. gen.	inside	
 # KTU 1.5 III:27							
-130471	ṯmm	ṯmm	ṯmm[	/ṯ-m-m/	vb G impv. m. sg.	to be appalled	DULAT: ṯmm lk 'be appalled (?) and go'.
+130471	ṯmm	ṯmm	!!ṯmm[	/ṯ-m-m/	vb G impv. m. sg.	to be appalled	DULAT: ṯmm lk 'be appalled (?) and go'.
 130471	ṯmm	ṯmm	ṯm~m	ṯm	adv.	there	UNP: 'There and go'.
 130472	w	w	w	w	conj.	and	
-130473	lk	lk	(hlk[	/h-l-k/	vb G impv.	to go	
+130473	lk	lk	!!(hlk[	/h-l-k/	vb G impv.	to go	
 130474		              	?	?	?	?	
 # KTU 1.5 III:28							
 130475	xxxṯ	xxxṯ	?	?	?	?	DULAT: NOT FOUND
-130476	lk	lk                 	(hlk[	/h-l-k/	vb G impv.	to go	UNP: '… go'.
+130476	lk	lk                 	!!(hlk[	/h-l-k/	vb G impv.	to go	UNP: '… go'.
 130476	lk	lk                 	l(I)+k	l (I)	prep. + 2 m. sg. suff.	to	Alternative: 'to you'.
 # KTU 1.5 III:29							
 130477	xxxkṯ	xxxkṯ	?	?	?	?	DULAT: NOT FOUND
@@ -536,7 +536,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130508	x	x                  	?	?	?	?	
 # KTU 1.5 IV:12							
 130509	lḥm	lḥm	lḥm/	lḥm	n. m. sg.	food, meat	DULAT cites this line s.v. lḥm n. and mṣd (I); UNP: 'Food[…]'.
-130509	lḥm	lḥm	lḥm(I)[	/l-ḥ-m/ (I)	vb G impv. m. sg.	to eat	Alternative: 'eat (of) my game!'.
+130509	lḥm	lḥm	!!lḥm(I)[	/l-ḥ-m/ (I)	vb G impv. m. sg.	to eat	Alternative: 'eat (of) my game!'.
 130510	mṣdy	mṣdy            	mṣd(I)/+y	mṣd (I)	n. m. sg. cstr.	(feast of) game	KTU: mṣ[dy].
 # KTU 1.5 IV:13							
 130511	ˤd	ʿd	ˤd(I)	ʕd (I)	conj.	while	Feast formula, cf. 1.4 VI 55; UNP: '[A]s [the gods] eat, [drink]'.
@@ -629,7 +629,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130574	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth, underworld	
 130575	w	w	w	w	conj.	and	
 130576	at	at	at(I)	ảt (I)	pers. pn. 2 m. sg.	you	
-130577	qḥ	qḥ	(lqḥ[	/l-q-ḥ/	vb G impv. m. sg.	to take	
+130577	qḥ	qḥ	!!(lqḥ[	/l-q-ḥ/	vb G impv. m. sg.	to take	
 # KTU 1.5 V:7							
 130578	ˤrptk	ʿrptk	ˤrp(t/t+k	ʕrpt	n. f. pl. tant. cstr. acc.	cloud(s)	'take your clouds, your winds, your bolts, your rains' (UNP).
 130579	rḥk	rḥk	rḥ(I)/+k	rḥ (I)	n. f. sg. cstr. acc.	wind	
@@ -672,7 +672,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130608	ẓr	ẓr	ẓr(I)/	ẓr (I)	n. m. sg. cstr. gen.	top, back	
 130609	rḥtm	rḥtm	rḥ(t/tm	rḥt	n. f. du. abs. gen.	palm of the hand	
 130610	w	w	w	w	conj.	and	
-130611	rd	rd	(yrd[	/y-r-d/	vb G impv. m. sg.	to go down	
+130611	rd	rd	!!(yrd[	/y-r-d/	vb G impv. m. sg.	to go down	
 # KTU 1.5 V:15							
 130612	bt	bt	bt(II)/	bt (II)	n. m. sg. cstr. acc.	house	bt ḫpṯt 'house of seclusion' = the underworld; UNP: 'Hell, the House of Freedom'.
 130613	ḫpṯt	ḫpṯt	ḫpṯ(t/t	ḫpṯt	n. f. sg. abs. gen.	? (freedom?, seclusion?)	DULAT: '?'.
