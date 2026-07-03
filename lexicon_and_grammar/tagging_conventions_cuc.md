@@ -23,9 +23,8 @@ E.g.: Suppose in a text you find the word "il", meaning "God". DULAT adds "(I)" 
 
 ## Suffixes and enclitics
 
-Pronominal suffixes are prefixed with "+": mlk/+h "his king"
-~ appears before the postclitic consonants: !y!rgm[~n "he says"
-If feminine ending -t  of nouns (both sing or plur) is part of the lexeme, we leave it unmarked  at this stage. A noun that appears without the feminine -t in singular, but with -t in plural, e.g. gg, is tagged: gg/t= “roofs”. 
+* Pronominal suffixes are prefixed with "+": mlk/+h "his king".
+* `~` appears before the postclitic consonants: !y!rgm[~n "he says".
 
 For pluralia tantum, keep plural ending explicit in analysis and mark POS with `pl. tant.`/`pl. tant.?` (e.g. hml(t/t=; nš(m/m). 
 
@@ -46,8 +45,9 @@ An active participle is encoded as qtl[/.
 
 Always check a word in DULAT for the lexeme. Are there homographs? DULAT adds roman numerals in parentheses to a lexeme for disambiguation. For now, we use this convention as well. Check also the part of speech. This rule applies also to the homographic particles, e.g. -h(I) pron "his/her" -h(II) adverb
 
-lexemes of nouns, adjectives, and numerals end on "/".
-lexemes of verbs end on "[".
+* lexemes of nouns, adjectives, and numerals end on "/".
+* lexemes of verbs end on "[".
+
 If a form is deverbal noun (as infinitive or participle), the order is [/.
 
 ## Disambiguation
@@ -63,11 +63,13 @@ The post-clitic particles are prefixed with "~".
 
 ## NOUNS
 
-Feminine nouns ending on -t.
+### Feminine nouns ending on -t.
+
 In feminine nouns of which the lexeme ends on -t, the t is a nominal ending, and therefore needs to appear after the /. However, it is also part of the lexeme, so before the / it appears as (t, like this:
-am(t/t (I) for the lexeme amt (I) "female slave". This is similar to >WL(T/T אִוֶּלֶת "foolishness" in Proverbs 12:23 in the ETCBC dataset of the MT. 
-The plural of feminine words ending on -t is am(t/t=. -t= is the feminine plural marker.
-A noun that appears without the feminine -t in singular, but has it in plural gg, gg/t= "roof". 
+
+* am(t/t (I) for the lexeme amt (I) "female slave". This is similar to >WL(T/T אִוֶּלֶת "foolishness" in Proverbs 12:23 in the ETCBC dataset of the MT. 
+* The plural of feminine words ending on -t is am(t/t=. -t= is the feminine plural marker.
+* A noun that appears without the feminine -t in singular, but has it in plural gg, gg/t= "roof". 
 
 In pluralia tantum, keep this split ending explicit and mark POS as `pl. tant.`/`pl. tant.?`.
 
