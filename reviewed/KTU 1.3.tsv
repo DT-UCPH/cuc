@@ -369,13 +369,13 @@
 127558	nskh	nskh	nsk[:w+h=	/n-s-k/	vb G suffc. 3 m. pl. + 3 f. sg. suff.	to pour (out)	Subject kbkbm.
 127559	kbkbm	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	heavenly body	
 # KTU 1.3 III:1							
-127560	ttpp	ttpp	!t!(n]t]pp[	/n-p(-p)/	vb Gt prefc.	to sprinkle oneself, anoint oneself	1.3 III
-127561	anhbm	anhbm 	anhb/m	ảnhb	n. m. pl. abs. nom.	ein Stein	
+127560	ttpp	ttpp	!t!(n]t]pp[	/n-p(-p)/	vb Gt prefc. 3 f. sg.	to sprinkle oneself, anoint oneself	DULAT: 'she anointed herself with (essence of) sea snails'.
+127561	anhbm	anhbm 	anhb/m	ảnhb	n. m. pl. abs. acc.	ein Stein	Instrumental object of ttpp; UNP 'murex'.
 127562	d	 d 	d	d	det. or rel. functor	the one(s) of	
-127563	alp	alp 	alp(II)/	ảlp (II)	n. m. sg. cstr. nom.	(one, a) thousand	
+127563	alp	alp 	alp(II)/	ảlp (II)	num. cstr. acc.	(one, a) thousand	d alp šd 'whose (exhalation reaches) a thousand fields'.
 127564	šd	 šd	šd(I)/	šd (I)	n. m. sg. cstr. gen.	open field	
 # KTU 1.3 III:2							
-127565	ẓuh	ẓuh	ẓu/+h=	ẓủ	n. m. sg. cstr. gen.	exhalation	
+127565	ẓuh	ẓuh	ẓu/+h=	ẓủ	n. m. sg. cstr. nom. + 3 f. sg. suff.	exhalation	Subject: 'whose exhalation is (noticeable) in the sea' (DULAT ẓủ).
 127566	b	b	b	b	prep.	in	
 127567	ymxxxxxx	ym xxxxxx	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.3 III:3							
@@ -383,17 +383,18 @@
 127569	lxxxxxx	lxxxxxx	lxxxxxx	?	?	?	
 # KTU 1.3 III:4							
 127570	xxxxxxxxxxn	xxxxxxxxxxn	xxxxxxxxxxn	?	?	?	
-127571	tšt	tšt	!t!št[	/š-t/	vb G prefc.	to place, set, set up, leave	
-127572	rimt	rimt	rim(t/t	rỉmt	n. f. sg. abs. nom.	zither	
+127571	tšt	tšt	!t!št[	/š-t/	vb G prefc. 3 f. sg.	to place, set, set up, leave	DULAT reads <t>št: 'may she place the zither to her breast'.
+127572	rimt	rimt	rim(t/t	rỉmt	n. f. sg. abs. acc.	zither	Object (DULAT rỉmt 'zither').
 # KTU 1.3 III:5							
 127573	l	l	l(I)	l (I)	prep.	to	
 127574	irth	irth	ir(t/t+h=	ỉrt	n. f. sg. cstr. gen.	1) breast a) breast	
-127575	tšr	tšr	!t!šr(I)[	/š-r/ (I)	vb G prefc.	1) to sing	
+127575	tšr	tšr	!t!šr(I)[	/š-r/ (I)	vb G prefc. 3 f. sg.	1) to sing	As written: 'she sings (of) the love of Mightiest Baal'.
+127575	tšr	tšr	(m&tšr(II)/	mšr (II)	n. m. sg. cstr. acc.	song	DULAT reads m(!)šr: 'a song about the love of DN'.
 127576	l	l	l(I)	l (I)	prep.	to	
 127577	dd	dd	dd(I)/	dd (I)	n. m. sg. abs. gen.	love	
-127578	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
+127578	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
 # KTU 1.3 III:6							
-127579	bˤl	bʿl	bˤl(III)	bʕl (II)	DN m. sg. cstr. nom.	Baʿlu/Baal	
+127579	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 127580	yd	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
 127581	pdry	pdry	pdry/	pdry	DN sg. cstr. gen.	Pidray	
 127582	bt	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	so we don't connect fem b(n(t/t with bn/?
@@ -409,60 +410,60 @@
 127590	bt	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	so we don't connect fem b(n(t/t with bn/?
 127591	yˤbdr	yʿbdr	yˤbdr/	yʕbdr	DN sg. abs. gen.	Yaʿibdarru/'(Daughter) of the Wide World'/attribute of ảrṣy, daughter of the god bʕl (etym. unc.)	
 127592	km	km	km	km	prep./conj./adv.	like	
-127593	ġlmm	ġlmm	ġlm/m=	ġlm	n. m. abs. gen.	1) boy	
+127593	ġlmm	ġlmm	ġlm/m	ġlm	n. m. pl. abs. gen.	1) boy	km ġlmm 'like servants' (DULAT).
 # KTU 1.3 III:9							
 127594	w	w	w	w	conj.	and	
-127595	ˤrbn	ʿrbn	!!ˤrb[~n(I)	/ʕ-r-b/ (I)	vb G impv. 2	1) to enter	lengthened imperative
+127595	ˤrbn	ʿrbn	!!ˤrb(I)[~n	/ʕ-r-b/ (I)	vb G impv. m. du.	1) to enter	lengthened imperative (Tania); DULAT: 'like servants you must enter'; addressed to the two messengers.
 127596	l	l	l(I)	l (I)	prep.	to	
 127597	pˤn	pʿn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 127598	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
-127599	hbr	hbr	!!hbr[	/h-b-r/	vb G impv. 2	to bow	
+127599	hbr	hbr	!!hbr[	/h-b-r/	vb G impv. m. du.	to bow	
 127600	w	w	w	w	conj.	and	DOUBLE REMOVE ONE w??
 # KTU 1.3 III:10							
 127601	w	w	w	w	conj.	and	
-127602	ql	ql	!!ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
-127603	tštḥwy	tštḥwy	!t!]š]]t]ḥwy(II)[	/ḥ-w-y/ (II)	vb Št prefc.	1) to prostrate oneself	Št stem; ]Š] and ]t] are marked as two different morphemes
-127604	kbd	kbd	!!kbd[:d	/k-b-d/	vb D impv. 2	to honour	
+127602	ql	ql	!!ql[	/q-l/	vb G impv. m. du.	to fall (down)	Impv. (// 1.1 III:3).
+127603	tštḥwy	tštḥwy	!t!]š]]t]ḥwy(II)[	/ḥ-w-y/ (II)	vb Št prefc. 2 m. du.	1) to prostrate oneself	Št stem; ]š] and ]t] are marked as two different morphemes (Tania).
+127604	kbd	kbd	!!kbd[:d	/k-b-d/	vb D impv. m. du.	to honour	
 127605	hyt	hyt	hy&t	hy	pers. pn.	1) she	hyt is an oblique form of the pronoun hy 'she'
 # KTU 1.3 III:11							
 127606	w	w	w	w	conj.	and	
-127607	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
+127607	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. m. du.	to say, tell, announce, communicate, inform	
 127608	l	l	l(I)	l (I)	prep.	to	
 127609	btlt	btlt	btlt/	btlt	n. f. sg. cstr. gen.	virgin	
 127610	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 # KTU 1.3 III:12							
-127611	ṯny	ṯny	!!ṯny[	/ṯ-n-y/	vb G suffc. 3 m. sg.	to repeat, reiterate	
+127611	ṯny	ṯny	!!ṯny[	/ṯ-n-y/	vb G impv. m. du.	to repeat, reiterate	
 127612	l	l	l(I)	l (I)	prep.	to	
-127613	ymmt	ymmt	ymm(t/t	ybmt	n. f. sg. cstr. gen.	widow sister-in-law	
+127613	ymmt	ymmt	y(b&mm(t/t	ybmt	n. f. sg. cstr. gen.	widow sister-in-law	DULAT: ymmt is a 'mistake for' ybmt.
 127614	limm	limm	lim(I)/m	lỉm (I)	n. m. pl. cstr. gen.	people	
 # KTU 1.3 III:13							
-127615	tḥm	tḥm	tḥm/	tḥm	n. m. sg. abs. gen.	message	
-127616	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
-127617	bˤl	bʿl	bˤl(III)/	bʕl (II)	DN m. sg. cstr. nom.	Baʿlu/Baal	
-127618	hwt	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
+127615	tḥm	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	Message-header: 'Message of Mightiest Baal'.
+127616	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
+127617	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
+127618	hwt	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
 127619	xx	xx	xx	?	?	?	
 # KTU 1.3 III:14							
-127620	aliy	aliy	aliy/	ảlỉy	adj. m. sg. cstr. nom.	The Most Powerful	
-127621	qrdm	qrdm	qrd(I)/m	qrd (I)	n. m. pl. abs. nom.	hero	
-127622	qryy	qryy	!!qry[~y	/q-r-y/	vb G impv. 2	to meet, encounter, go to meet	imp
+127620	aliy	aliy	aliy/	ảlỉy	adj. m. sg. cstr. gen.	The Most Powerful	
+127621	qrdm	qrdm	qrd(I)/m	qrd (I)	n. m. pl. abs. gen.	hero	hwt aliy qrdm 'the word of the Mightiest of heroes' (DULAT).
+127622	qryy	qryy	!!qry[~y	/q-r-y/	vb G impv. f. sg.	to meet, encounter, go to meet	Addressed to Anat; DULAT reads the final -y as encl. -y (II): 'go out to meet, yes, war'.
 127623	b	b	b	b	prep.	in	
 127624	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	2) the world	
 # KTU 1.3 III:15							
-127625	mlḥmt	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg. abs. gen.	war	
-127626	št	št	!!št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
+127625	mlḥmt	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg. abs. acc.	war	Object of qryy.
+127626	št	št	!!št[	/š-t/	vb G impv. f. sg.	to place, set, set up, leave	
 127627	b	b	b	b	prep.	in	
-127628	ˤprm	ʿprm	ˤpr(I)/m	ʕpr (I)	n. m. pl. cstr. gen.	3) steppe	
-127629	ddym	ddym	ddy/m	ddym	n. m. pl. abs. gen.	harmony	plur tantum; should we still mark plural ending?
+127628	ˤprm	ʿprm	ˤpr(I)/m	ʕpr (I)	n. m. pl. abs. gen.	3) steppe	
+127629	ddym	ddym	ddy/m	ddym	n. m. pl. tant. abs. acc.	harmony	plur tantum (Tania); object of št: 'put harmony in the steppe' (DULAT).
 # KTU 1.3 III:16							
-127630	sk	sk	!!(nsk[	/n-s-k/	vb G impv. m. sg.	to pour (out), spill	sk šlm 'pour peace!'.
-127631	šlm	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	1) peace a) sk šlm l kbd ảrṣ pour out peace into the bosom of the earth	
+127630	sk	sk	!!(nsk[	/n-s-k/	vb G impv. f. sg.	to pour (out), spill	sk šlm 'pour peace!' (DULAT: sk / ask parallel III:16 / IV:24).
+127631	šlm	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. acc.	1) peace a) sk šlm l kbd ảrṣ pour out peace into the bosom of the earth	
 127632	l	l	l(I)	l (I)	prep.	to	
-127633	kbd	kbd	kbd(I)/	kbd (I)	n. cstr. gen.	within	
+127633	kbd	kbd	kbd(I)/	kbd (I)	n. f. sg. cstr. gen.	within	
 127634	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	3) lower world	
 # KTU 1.3 III:17							
-127635	arbdd	arbdd	arbdd/	ảrbdd	n. m. sg. abs. gen.	rest	
+127635	arbdd	arbdd	arbdd/	ảrbdd	n. m. sg. abs. acc.	rest	
 127636	l	l	l(I)	l (I)	prep.	to	
-127637	kbd	kbd	kbd(I)/	kbd (I)	n. cstr. gen.	within	
+127637	kbd	kbd	kbd(I)/	kbd (I)	n. f. sg. cstr. gen.	within	
 127638	šdm	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	1) open field	
 # KTU 1.3 III:18							
 127639	ḥšk	ḥšk	!!ḥš(I)[/+k	/ḥ-š/ (I)	vb G inf. + 2 m. sg. suff.	to hurry, make haste	Smith-Pitard: three infinitives.
@@ -472,20 +473,20 @@
 127641	ˤbṣk	ʿbṣk	!!ˤbṣ[/+k	?	vb G inf. + 2 m. sg. suff.	?	Smith-Pitard: infinitive; no DULAT verbal root (cf. ʕbṣ (I) n. 'mace').
 127641	ˤbṣk	ʿbṣk	ˤbṣ(I)/+k	ʕbṣ (I)	n. m. sg. cstr. acc. + 2 m. sg. suff.	mace	DULAT: 'your mace'.
 # KTU 1.3 III:19							
-127642	ˤmy	ʿmy	ˤm+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
-127643	pˤnk	pʿnk	pˤn/+k	pʕn	n. f. cstr. nom.	1) foot a) tdʕṣ pʕnm she pressed (?) (her) feet (down)	
-127644	tlsmn	tlsmn	!t!lsm[n	/l-s-m/	vb G prefc.	to run, hurry	
-127645	ˤmy	ʿmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	IS LINE 19 FROM SMITH MISSING HERE?? Smith p202
+127642	ˤmy	ʿmy	ˤm(I)+y	ʕm (I)	prep. + 1 c. sg. suff.	1) relationship of direction (space and time)	
+127643	pˤnk	pʿnk	pˤn/+k	pʕn	n. f. du. cstr. nom. + 2 f. sg. suff.	1) foot a) tdʕṣ pʕnm she pressed (?) (her) feet (down)	
+127644	tlsmn	tlsmn	!t!lsm[n	/l-s-m/	vb G prefc. 3 f. du.	to run, hurry	
+127645	ˤmy	ʿmy	ˤm(I)+y	ʕm (I)	prep. + 1 c. sg. suff.	1) relationship of direction (space and time)	IS LINE 19 FROM SMITH MISSING HERE?? Smith p202
 # KTU 1.3 III:20							
 127646	twtḥ	twtḥ	!t!w]t]ḥ(y[	/w-ḥ-y/	vb Gt prefc. 3 m. du.	to hasten	lex: wḥy Gt, waw seems to be doubled
-127647	išdk	išdk	išd/+k	ỉšd	n. m. du. cstr. nom.	leg	
+127647	išdk	išdk	išd/+k	ỉšd	n. m. du. cstr. nom. + 2 f. sg. suff.	leg	
 127648	dm	dm	d~m(I)	dm (I)	functor	since	
-127649	rgm	rgm	rgm/	rgm	n. m. sg. cstr. nom.	2) matter	
+127649	rgm	rgm	rgm/	rgm	n. m. sg. abs. nom.	2) matter	dm rgm iṯ ly 'for I have a matter' (DULAT).
 # KTU 1.3 III:21							
 127650	iṯ	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. gen.	2) to have	
 127651	ly	ly	l(I)+y	l (I)	prep.	7) of belonging ((not) being of, (not) having) b) with vb functor	
 127652	w	w	w	w	conj.	and	
-127653	argmk	argmk	!a!rgm[+k	/r-g-m/	vb G prefc. 1 c. sg.	to say	
+127653	argmk	argmk	!(ʔ&a!rgm[+k	/r-g-m/	vb G prefc. 1 c. sg. + 2 f. sg. suff.	to say	
 127654	xx	xx	xx	?	?	?	
 # KTU 1.3 III:22							
 127655	hwt	hwt	hwt(I)/	hwt (I)	n. f. sg. abs. nom.	word	
@@ -499,7 +500,7 @@
 127662	abn	abn	abn/	ảbn	n. f. sg. abs. gen.	1) stone a) k ảbnm l tỉggn like stones which do /do not/ murmur	
 127663	ˤ	ʿ	ˤ	?	?	?	WHAT IS TIS? error to be erazed
 # KTU 1.3 III:24							
-127664	tant	tant	tan(t/t	?	?	?	there is a variant tunt
+127664	tant	tant	tan(t/t	tả/ủnt	n. f. sg. cstr. nom.	whispering, conversation, groaning	tant šmm ˤm arṣ 'the whispering of the heavens with the earth' (DULAT tả/ủnt — entry exists; earlier ? was wrong).
 127665	šmm	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	1) heavens	
 127666	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	to	
 127667	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	3) lower world	
@@ -508,7 +509,8 @@
 127669	ˤmn	ʿmn	ˤm~n(II)	ʕm (I)	prep.	to	actually ˤmn(II) is just ˤm(I)~n
 127670	kbkbm	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	1) heavenly body	
 # KTU 1.3 III:26							
-127671	abn	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	this is a noun although Gabrini: 'I undestand of lightening' !a!bn[
+127671	abn	abn	abn/	ảbn	n. m. sg. cstr. nom.	stone	DULAT (s.v. ảbn): abn brq 'the stone/head of the lightning'.
+127671	abn	abn	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	DULAT (s.v. /b-n/) discusses this form: 'I understand the lightning'.
 127672	brq	brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
 127673	d	d	d	d	det. or rel. functor	the one(s) of	
 127674	l	l	l(II)	l (II)	adv.	no	
@@ -756,7 +758,7 @@
 # KTU 1.3 IV:16							
 127877	hmlt	hmlt 	hml(t/t	hmlt	n. f. pl. cstr. nom.	multitude	
 127878	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
-127879	tunt	tunt 	tun(t/t	?	?	?	variant tan(t/t
+127879	tunt	tunt 	tun(t/t	tả/ủnt	n. f. sg. cstr. nom.	whispering, conversation, groaning	Variant tunt (// III:24 tant; DULAT tả/ủnt).
 127880	šmm	 šmm 	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	heavens	
 127881	ˤm	 ʿm 	ˤm(I)	ʕm (I)	prep.	to	
 127882	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
@@ -764,7 +766,8 @@
 127883	thmt	thmt	thm(t/t	thmt	n. f. sg. abs. gen.	Primordial Ocean	
 127884	ˤmn	ʿmn 	ˤm~n(II)	ʕm (I)	prep.	to	actually ˤmn(II) is just ˤm(I)~n
 127885	kbkbm	 kbkbm 	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body	
-127886	abn	 abn 	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	abn brq 'I understand the lightning'.
+127886	abn	 abn 	abn/	ảbn	n. m. sg. cstr. nom.	stone	DULAT (s.v. ảbn): abn brq 'the stone/head of the lightning' (// III:26).
+127886	abn	 abn 	!(ʔ&a!bn[	/b-n/	vb G prefc. 1 c. sg.	to understand	DULAT (s.v. /b-n/): 'I understand the lightning'.
 127887	brq	 brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
 # KTU 1.3 IV:18							
 127888	d	d	d	d	det. or rel. functor	the one(s) of	
