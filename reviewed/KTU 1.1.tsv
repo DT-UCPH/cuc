@@ -14,7 +14,8 @@
 125834	ḫršnr	 ḫršn       r	ḫršn&r/	ḫršn (I)	n. m. sg. abs. gen.	(divine) mountain	Cf. TCS n. on ḫršn/ġr.
 125835	tḥmk	tḥmk	tḥm/+k	tḥm	n. m. cstr. nom.	message	tḥmk perhaps object of št; syntax unclear.
 125836	w	w	w	w	conj.	and	
-125837	št	št	št[	/š-t/	vb G impv.	to place, set, set up, leave	DULAT cites [t]ḥmk w št here s.v. /š-t/; impv. or suffc. possible.
+125837	št	št	št[	/š-t/	vb G impv.	to place, set, set up, leave	DULAT cites [t]ḥmk w št here s.v. /š-t/.
+125837	št	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 # KTU 1.1 II:4							
 125838	l	             l	l(I)	l (I)	prep.	to	
 125839	ẓr	ẓr	ẓr(I)/	ẓr (I)	n. m. abs. gen.	upon	
@@ -27,9 +28,12 @@
 125844	qrb	qrb	qrb/	qrb	n. m. sg. abs. gen.	inside, middle	b qrb 'in the midst' (auto sense '2) vulva' wrong here).
 # KTU 1.1 II:7							
 125845	x	                   x	?	?	?	?	
-125846	asr	asr	(ʔ&asr[	/ʔ-s-r/	vb G	to tie	TCS: II:3b-13 untranslatable; suffc./impv. ambiguous.
+125846	asr	asr	(ʔ&asr[	/ʔ-s-r/	vb G suffc. 3 m. sg.	to tie	TCS: II:3b-13 untranslatable.
+125846	asr	asr	(ʔ&asr[	/ʔ-s-r/	vb G impv. m. sg.	to tie	
 # KTU 1.1 II:8							
-125847	tm	                   tm	tm	?	?	?	ṯm 'there' or tm 'complete' possible.
+125847	tm	                   tm	tm/	tm	adj. m. sg. abs.	complete, full	
+125847	tm	                   tm	(ṯ&tm	ṯm	adv.	there	
+125847	tm	                   tm	?	?	?	?	Or the tail of a longer lost word.
 125848	ymtm	ymtm	ym(I)/t~m	ym (I)	n. m. pl. abs. + encl. -m	day	DULAT cites ]tm ymtm here s.v. ym (I) (pl. ymt): 'days'.
 125848	ymtm	ymtm	!y!mt[~m	/m-t/	vb G prefc. 3 m. sg. + encl. -m	to die	TCS: 'to die' (ymtm), cf. dying-formulae (1.18 IV:25).
 # KTU 1.1 II:9							
@@ -38,13 +42,17 @@
 125851	iṯl	iṯl	iṯl/	ỉṯl	n. m. sg. cstr. nom.	saliva	w iṯl 'and the spittle'; TCS: k ỉṯl in dying-formulae (1.18 IV:25).
 # KTU 1.1 II:10							
 125852	ḥršm	          ḥršm	ḥrš(I)/m	ḥrš (I)	n. m. pl. abs. acc.	craftsman	Object of ʕdb (?); TCS: untranslatable.
-125853	ˤdb	ʿdb	ˤdb[/	/ʕ-d-b/	vb G	to leave > to put in > to place	Form ambiguous (suffc./ptcpl./impv.) in broken context.
+125853	ˤdb	ʿdb	ˤdb[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to leave > to put in > to place	
+125853	ˤdb	ʿdb	ˤdb[	/ʕ-d-b/	vb G impv. m. sg.	to leave > to put in > to place	
+125853	ˤdb	ʿdb	ˤdb[/	/ʕ-d-b/	vb G act. ptcpl.	to leave > to put in > to place	
 125854	l	l	l(I)	l (I)	prep.	to	
 125855	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.1 II:11							
 125856	x	            x	?	?	?	?	
 125857	špm	špm	šp/m	šp	n. m. pl. abs. acc.	dune	DULAT cites špm ʕdb here s.v. šp 'dune'; object of ʕdb (?).
-125858	ˤdb	ʿdb	ˤdb[/	/ʕ-d-b/	vb G	to leave > to put in > to place	Form ambiguous (suffc./ptcpl./impv.) in broken context.
+125858	ˤdb	ʿdb	ˤdb[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to leave > to put in > to place	
+125858	ˤdb	ʿdb	ˤdb[	/ʕ-d-b/	vb G impv. m. sg.	to leave > to put in > to place	
+125858	ˤdb	ʿdb	ˤdb[/	/ʕ-d-b/	vb G act. ptcpl.	to leave > to put in > to place	
 # KTU 1.1 II:12							
 125859		            	?	?	?	?	
 125860	tˤtqn	tʿtqn	!t!ˤtq[n	/ʕ-t-q/	vb G prefc.	to pass	DULAT cites tʕtqn here s.v. /ʕ-t-q/ 'to pass'.
@@ -119,7 +127,7 @@
 # KTU 1.1 II:24							
 125918	bdk	                         bdk	bd(IV)+k	bd (IV)	prep. + 2 m. sg. suff.	into the hands of	
 125919	spr	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register, list, inventory	bdk spr [y]mnk 'in your hand a tablet (?)'.
-125919	spr	spr	spr[	/s-p-r/	vb G	to count, number	Alternative: verb 'to count' (form ambiguous).
+125919	spr	spr	spr[	/s-p-r/	vb G	to count, number	
 # KTU 1.1 II:25							
 125920	ymnk	                            ymnk	ymn(I)/+k	ymn (I)	n. m. sg. cstr. + 2 m. sg. suff.	right (side)	
 # KTU 1.1 II:26							
@@ -177,7 +185,8 @@
 125964	kṯr	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs.	Koṯaru/Kothar	Case indeterminable.
 125965	bn	bn                                   	bn(I)/	bn (I)	n. m. sg. cstr.	son	
 # KTU 1.1 III:8							
-125966	št	št	št[	/š-t/	vb G	to place, set, set up, leave	DULAT cites št l skt here s.v. /š-t/; form ambiguous (suffc./impv.).
+125966	št	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	DULAT cites št l skt here s.v. /š-t/.
+125966	št	št	št[	/š-t/	vb G impv. m. sg.	to place, set, set up, leave	
 125967	l	l	l(I)	l (I)	prep.	to	
 125968	skt	skt	sk(II)/t	sk (II)	n. f. sg. abs. gen.	den, cove	DULAT cites skt here s.v. sk (II) 'den, cove'.
 125969	n	n                                   	n	?	?	?	Start of a lost word; not the enclitic -n.
@@ -236,7 +245,7 @@
 126015	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.1 III:16							
 126016	at	at	(ʔ&at(w[	/ʔ-t-w/	vb G impv. m. sg.	to come, go	DULAT cites ảt here s.v. /ʔ-t-w/ 'come!' (addressed to Kothar); at w ank ibġyh 'come, and I shall reveal it'.
-126016	at	at	at(I)	ảt (I)	pers. pn.	you	Alternative: independent pronoun 'you (m. sg.)'.
+126016	at	at	at(I)	ảt (I)	pers. pn.	you	
 126017	w	w	w	w	conj.	also	DULAT cites w 'also' here.
 126018	ank	ank	ank	ảnk	pers. pn.	I	
 126019	ibġyh	ibġyh            	!(ʔ&i!bġy[+h	/b-ġ-y/	vb G prefc. 1 c. sg.	to reveal	
@@ -335,7 +344,8 @@
 126097	ṣpn	ṣpn                                  	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.1 IV:2							
 126098	gm	gm	g/~m	g	n. m. sg. abs. + encl. -m	(loud) voice	gm 'aloud' (adverbial g+m).
-126099	ṣḥ	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G suffc. 3 m. sg.	to exclaim	gm ṣḥ l qr[bm] l rḥqm 'aloud he shouted to the near ones, to the distant ones' (Smith); or impv.
+126099	ṣḥ	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G suffc. 3 m. sg.	to exclaim	gm ṣḥ l qr[bm] l rḥqm 'aloud he shouted to the near ones, to the distant ones' (Smith).
+126099	ṣḥ	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G impv. m. sg.	to exclaim	
 126100	l	l	l(I)	l (I)	prep.	to	
 126101	qr	qr                                   	qr	?	?	?	l qr[bm] 'to the near ones' (?) // l rḥqm; DULAT qr (I) 'source' unlikely here.
 # KTU 1.1 IV:3							
@@ -343,7 +353,8 @@
 126103	rḥqm	rḥqm	rḥq/m	rḥq	adj. m. pl. abs. gen.	distant	
 126104	lp	lp                                      	?	?	?	?	l p[...] (?).
 # KTU 1.1 IV:4							
-126105	ṣḥ	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G suffc. 3 m. sg.	to exclaim, shout	DULAT cites ṣḥ ỉl yṯb b m[rzḥ here s.v. /ṣ-ḥ/; 'he shouted: El sits in his mrzḥ'; or impv.
+126105	ṣḥ	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G suffc. 3 m. sg.	to exclaim, shout	DULAT cites ṣḥ ỉl yṯb b m[rzḥ here s.v. /ṣ-ḥ/: 'he shouted: El sits in his mrzḥ'.
+126105	ṣḥ	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G impv. m. sg.	to exclaim, shout	
 126106	il	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 126107	yṯb	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	'El is seated' (predicate).
 126108	b	b	b	b	prep.	in	
@@ -351,7 +362,8 @@
 # KTU 1.1 IV:5							
 126110	bṯt	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. cstr.	shame	bṯt ʕllmn 'the shame of the Eternal' (DULAT cites bṯt (I) + ʕllmy/n here); sentence role unclear.
 126111	ˤllmn	ʿllmn	ˤllm(y/n	ʕllmy/n	adj. m. sg. abs. gen.	1) eternal b) subst	DULAT: 'the ignominy of the "Eternal"'.
-126112	k	k                                  	k	?	?	?	k 'like' or suffix -k (?); word lost after.
+126112	k	k                                  	k(I)	k (I)	prep.	like, as	Word lost after.
+126112	k	k                                  	?	?	?	?	Or the tail of a lost word.
 # KTU 1.1 IV:6							
 126113	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	Vocative 'O gods' (?) or subject.
 126114	bt	bt	bt(II)/	bt (II)	n. m. sg. cstr.	1) house	bt bˤlk 'the house of your lord' (DULAT cites bt (II) + bʕl (II) here).
@@ -391,7 +403,8 @@
 126143	ḥṣ	ḥṣ	ḥṣ/	ḥṣ	n. m. sg. abs. gen.	gravel	
 126144	tusp	tusp                            	!t!(ʔ&usp[:pass	/ʔ-s-p/	vb Gpass prefc. 3 f. sg.	to be gathered, collected	DULAT: 'like gravel it is collected'.
 # KTU 1.1 IV:12							
-126145	tgr	tgr	]t]gr[:d	/g-r(-y)/	vb tD suffc.	to oppose	tgr ỉl bnh 'El has opposed his son' (DULAT /g-r(-y)/) form tD/Gt suffc. 3 m. sg. (or G prefc. 3 f. sg.).
+126145	tgr	tgr	]t]gr[:d	/g-r(-y)/	vb tD suffc. 3 m. sg.	to oppose	tgr ỉl bnh 'El has opposed his son' (DULAT /g-r(-y)/).
+126145	tgr	tgr	!t!gr(y[	/g-r(-y)/	vb G prefc. 3 f. sg.	to oppose	
 126146	il	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	Subject.
 126147	bnh	bnh	bn(I)/+h	bn (I)	n. m. sg. cstr. acc. + 3 m. sg. suff.	2) son of DN a) in mythological texts	Object: 'his son'.
 126148	ṯr	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	2) bull b) title of honour	ṯr 'Bull' (El).
@@ -414,7 +427,8 @@
 126162	šm	šm	šm(I)/	šm (I)	n. m. sg. cstr. acc.	name	Object of pˤr: 'he proclaimed the name of Yamm' (DULAT).
 126163	ym	ym                               	ym(II)/	ym (II)	DN m. sg. abs. gen.	2) DN	
 # KTU 1.1 IV:16							
-126164	tˤnyn	tʿnyn	!t!ˤny(I)[n	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	1) to answer	'They answered'; or + suff. -n 'him'.
+126164	tˤnyn	tʿnyn	!t!ˤny(I)[n	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	1) to answer	'They answered.'
+126164	tˤnyn	tʿnyn	!t!ˤny(I)[+n	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg. + 3 m. sg. suff.	1) to answer	
 126165	l	l	l(I)	l (I)	prep.	to	
 126166	zntn	zntn	zn(t/t+n	znt	n. f. sg. cstr. gen. + 1 c. pl. suff.	sustenance	l zntn 'for our sustenance (?)' (DULAT cites znt + l (I) here).
 126167		                                 	?	?	?	?	
@@ -469,7 +483,8 @@
 126205	kx	kx                                       	?	?	?	?	
 # KTU 1.1 IV:28							
 126206	il	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-126207	dbḥ	dbḥ	dbḥ[/	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	il dbḥ 'El sacrificed / holds a sacrifice'; or n. dbḥ 'sacrifice'.
+126207	dbḥ	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	il dbḥ 'El sacrificed'.
+126207	dbḥ	dbḥ	dbḥ/	dbḥ	n. m. sg. abs.	sacrifice, (sacrificial) banquet	
 126208		                                          	?	?	?	?	
 # KTU 1.1 IV:29							
 126209	pˤr	pʿr	pˤr[	/p-ʕ-r/	vb G suffc. 3 m. sg.	to open one’s mouth > to shout	
@@ -503,7 +518,7 @@
 126231	npš	  npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	npš hd 'the throat/desire of Haddu' (?); DULAT cites npš (I) at V:3.
 # KTU 1.1 V:4							
 126232	hd	                                        hd	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
-126233	tngṯnh	tngṯnh	!t!ngṯ[+nh	/n-g-ṯ/	vb G prefc. + 3 m. sg. suff.	to make one’s way to	tngṯnh 'she/you seek(s) him' (?); person indeterminable.
+126233	tngṯnh	tngṯnh	!t!ngṯ[+nh	/n-g-ṯ/	vb G prefc. + 3 m. sg. suff.	to make one’s way to	tngṯnh 'she/you seek(s) him' (?).
 # KTU 1.1 V:5							
 126234		                                          	?	?	?	?	
 126235	b	b	b	b	prep.	in	
@@ -516,14 +531,17 @@
 # KTU 1.1 V:7							
 126241	xx	                                          xx	?	?	?	?	
 126242	km	km	km	km	prep./conj./adv.	like	
-126243	yˤn	yʿn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	Or /ʕ-n/ 'to see'.
+126243	yˤn	yʿn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	
+126243	yˤn	yʿn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see, look (at), watch, spy	
 # KTU 1.1 V:8							
 126244	ydˤ	                              ydʿ 	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
 126245	l	 l 	l(II)	l (II)	neg. adv.	no, not	ydˤ l ydˤt (// V:21; DULAT: 'you/she does not know').
-126246	ydˤt	ydʿt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	Or 2 m. sg. (DULAT: 'you/she does not know').
+126246	ydˤt	ydʿt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	DULAT: 'you/she does not know'.
+126246	ydˤt	ydʿt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
 # KTU 1.1 V:9							
 126247	k	                                          k	k(III)	k (III)	Subordinating / completive functor	when, if, because, since, as, that	k tasrn '(know) that you must bind'; not suffix -k.
-126248	tasrn	tasrn	!t=!(ʔ&asr[~n	/ʔ-s-r/	vb G prefc. 2 m. sg.	to tie	DULAT: 'you will have to make him prisoner (?)'; -n energic (or suff. 'him').
+126248	tasrn	tasrn	!t=!(ʔ&asr[~n	/ʔ-s-r/	vb G prefc. 2 m. sg.	to tie	DULAT: 'you will have to make him prisoner (?)'; -n energic.
+126248	tasrn	tasrn	!t=!(ʔ&asr[+n	/ʔ-s-r/	vb G prefc. 2 m. sg. + 3 m. sg. suff.	to tie	
 # KTU 1.1 V:10							
 126249	ṯr	ṯr 	ṯr(I)/	ṯr (I)	n. m. sg. cstr. acc.	bull	tasrn ṯr il 'you must bind Bull El' (object).
 126250	ilk	il                                    k	il(I)/ k(III)	ỉl (I); k (III)	DN m. sg. abs. gen.; Subordinating / completive functor	ʾIlu/Ilu/El; when, if, because, since, as, that	il + k (the k belongs to k trks).
@@ -557,7 +575,7 @@
 # KTU 1.1 V:17							
 126272	ġ	                                          ġ	?	?	?	?	End of a lost word (?).
 126273	hd	hd	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	(// V:4).
-126274	tngṯnh	tngṯnh	!t!ngṯ[+nh	/n-g-ṯ/	vb G prefc. + 3 m. sg. suff.	to make one’s way to	DULAT cites hd tngṯnh here s.v. hd(d); person indeterminable.
+126274	tngṯnh	tngṯnh	!t!ngṯ[+nh	/n-g-ṯ/	vb G prefc. + 3 m. sg. suff.	to make one’s way to	DULAT cites hd tngṯnh here s.v. hd(d).
 # KTU 1.1 V:18							
 126275	ḥmk	                                          ḥmk	ḥm/+k	ḥm	n. m. cstr. nom.	heat	ḥm 'heat' + -k (?); refrain // V:5; uncertain.
 126276	b	b	b	b	prep.	in	
@@ -574,9 +592,11 @@
 126284		                                          	?	?	?	?	
 126285	ydˤ	ydʿ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
 126286	l	l	l(II)	l (II)	adv.	no, not	
-126287	ydˤt	ydʿt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	Or 2 m. sg. (DULAT: 'you/she does not know').
+126287	ydˤt	ydʿt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	DULAT: 'you/she does not know'.
+126287	ydˤt	ydʿt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
 # KTU 1.1 V:22							
-126288	tasrn	                                          tasrn	!t=!(ʔ&asr[~n	/ʔ-s-r/	vb G prefc. 2 m. sg.	to tie	// V:9; -n energic (or suff. 'him').
+126288	tasrn	                                          tasrn	!t=!(ʔ&asr[~n	/ʔ-s-r/	vb G prefc. 2 m. sg.	to tie	// V:9; -n energic.
+126288	tasrn	                                          tasrn	!t=!(ʔ&asr[+n	/ʔ-s-r/	vb G prefc. 2 m. sg. + 3 m. sg. suff.	to tie	
 126289	ṯr	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. acc.	bull	Object: 'you must bind Bull El'.
 126290	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 # KTU 1.1 V:23							
@@ -585,13 +605,13 @@
 126293	abnm	abnm	abn/m	ảbn	n. m. pl. abs. gen.	1) stone b) types	bn abnm 'among the stones' (DULAT cites bn (II) here).
 # KTU 1.1 V:24							
 126294	upqt	                                          upqt	upq(t/t	ủpqt	n. f. sg. abs. gen.	bed of a torrent	
-126295	ˤrb	ʿrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to cause to enter	DULAT cites ]ủpqt ʕrb here s.v. /ʕ-r-b/ (I); form/subject unclear.
+126295	ˤrb	ʿrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to cause to enter	DULAT cites ]ủpqt ʕrb here s.v. /ʕ-r-b/ (I).
 # KTU 1.1 V:25							
 126296	w	                                      w 	w	w	conj.	and	
 126297	ġr	ġr	ġr(I)/	ġr (I)	n. m. sg. abs.	mountain	w ġr mtny at zd; // V:12-13.
 126298	mtny	mtny	mtn(II)/+y	mtn (II)	n. m. sg. cstr. + 1 c. sg. suff.	gift	mtny 'my gift (?)' as V:12; not GN.
 126299	at	at	at(I)	ảt (I)	pers. pn.	you	
-126300	zd	zd	zd[	/z-d/	vb G	to boil, become inflamed, yearn for	ảt zd 'you yearn (?)' (DULAT cites /z-d/ here); form unclear; not ṯd 'breast'.
+126300	zd	zd	zd[	/z-d/	vb G	to boil, become inflamed, yearn for	ảt zd 'you yearn (?)' (DULAT cites /z-d/ here); not ṯd 'breast'.
 # KTU 1.1 V:26							
 126301		                                          	?	?	?	?	
 126302	tˤrb	tʿrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	1) to cause to enter	DULAT cites ]tʕrb b šỉ here s.v. /ʕ-r-b/ (I).
