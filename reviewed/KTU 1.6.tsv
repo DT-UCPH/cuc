@@ -28,7 +28,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130827	k	k	k(I)	k (I)	prep.	like	
 130828	ˤmq	ʿmq	ˤmq(I)/	ʕmq (I)	n. m. sg. abs. gen.	valley	
 130829	tṯlṯ	tṯlṯ	!t!ṯlṯ[:d	/ṯ-l-ṯ/	vb D prefc. 3 f. sg.	to repeat for the third time	
-130830	bmt	bmt	bmt/	bmt	n. f. sg. abs. acc.	back	
+130830	bmt	bmt	bm(t/t	bmt	n. f. sg. abs. acc.	back	
 # KTU 1.6 I:6							
 130831	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 130832	mt	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	'Baal is dead!' = 1.5 VI:23-25.
@@ -47,7 +47,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130843	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 130844	ˤmh	ʿmh	ˤm(I)+h	ʕm (I)	prep. + 3 m. sg. suff.	with	'with him goes down the Lamp of the gods'.
 130845	trd	trd	!t!(yrd[	/y-r-d/	vb G prefc. 3 f. sg.	to go down	
-130846	nrt	nrt	nrt(I)/	nrt (I)	n. f. sg. cstr. nom.	lamp	
+130846	nrt	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. nom.	lamp	
 # KTU 1.6 I:9							
 130847	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	nrt ilm špš 'the Lamp of the gods, Šapšu'.
 130848	špš	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	DULAT lists only n. f. 'sun'; tagged DN as deity.
@@ -63,7 +63,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:11							
 130857	tṣḥ	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 f. sg.	to exclaim	
 130858	l	l	l(I)	l (I)	prep.	to	
-130859	nrt	nrt	nrt(I)/	nrt (I)	n. f. sg. cstr. gen.	lamp	
+130859	nrt	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. gen.	lamp	
 130860	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130861	špš	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh	
 # KTU 1.6 I:12							
@@ -74,7 +74,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130866	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. acc.	Baʿlu/Baal	
 # KTU 1.6 I:13							
 130867	tšmˤ	tšmʿ	!t!šmˤ[	/š-m-ʕ/	vb G prefc. 3 f. sg.	to hear	
-130868	nrt	nrt	nrt(I)/	nrt (I)	n. f. sg. cstr. nom.	lamp	
+130868	nrt	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. nom.	lamp	
 130869	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130870	špš	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
 # KTU 1.6 I:14							
@@ -84,13 +84,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130874	l	l	l(I)	l (I)	prep.	onto	
 130875	ktp	ktp	ktp(I)/	ktp (I)	n. f. sg. cstr. gen.	shoulder	
 # KTU 1.6 I:15							
-130876	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
+130876	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 130877	k	k	k(II)	k (II)	emph. functor	yes, indeed	DULAT cites k (II) here: l ktp ʕnt k tšth.
 130878	tšth	tšth	!t!št[+h	/š-t/	vb G prefc. 3 f. sg. + 3 m. sg. suff.	to place	'she places him (on the shoulder)'.
 130879	tšˤlynh	tšʿlynh	!t!]š]ˤly[~n+h	/ʕ-l-y/	vb Š prefc. 3 f. sg. + 3 m. sg. suff.	to bring up	'she brings him up to the heights of Ṣapānu'.
 # KTU 1.6 I:16							
 130880	b	b	b	b	prep.	in	
-130881	ṣrrt	ṣrrt	ṣrrt/	ṣrrt	n. f. sg. cstr. gen.	height(s), summit	
+130881	ṣrrt	ṣrrt	ṣrr(t/t	ṣrrt	n. f. sg. cstr. gen.	height(s), summit	
 130882	ṣpˤn	ṣpʿn	ṣp&ˤn/	ṣpn	TN/DN gen.	Ṣapānu/Zaphon	Scribal ṣpˤn for ṣpn (ˤ surface-only, marked &ˤ).
 130883	tbkynh	tbkynh	!t!bky[~n+h	/b-k-y/	vb G prefc. 3 f. sg. + 3 m. sg. suff.	to weep	'she bewails him'.
 # KTU 1.6 I:17							
@@ -98,7 +98,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130885	tqbrnh	tqbrnh	!t!qbr[~n+h	/q-b-r/	vb G prefc. 3 f. sg. + 3 m. sg. suff.	to bury	'and buries him'.
 130886	tštnn	tštnn	!t!št[+nn	/š-t/	vb G prefc. 3 f. sg. + 3 m. sg. suff.	to place	Suffix +nn (3 m. sg.).
 130887	b	b	b	b	prep.	in	
-130888	ḫrt	ḫrt	ḫrt/	ḫrt	n. f. sg. cstr. gen.	cave, grave	= 1.5 V:5-6 ḫrt ilm arṣ.
+130888	ḫrt	ḫrt	ḫr(t/t	ḫrt	n. f. sg. cstr. gen.	cave, grave	= 1.5 V:5-6 ḫrt ilm arṣ.
 # KTU 1.6 I:18							
 130889	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	ḫrt ilm arṣ 'grave of the gods of the underworld'.
 130890	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth, underworld	
@@ -160,7 +160,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130934	špḥh	špḥh	špḥ/+h	špḥ	n. m. sg. cstr.	family, offspring	'in his family' — broken context.
 130935	pšt	pšt	?	?	?	?	Crux: CUC pštbm; DULAT reads t!tbm (s.v. špḥ); p + št 'and (she) placed'? Cf. /y-b-m/ cited for this passage.
 130936	bm	bm	b~m	b	prep. + encl. -m	in	
-130937	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	KTU: ˤn[t].
+130937	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	KTU: ˤn[t].
 # KTU 1.6 I:31							
 130938	kd	kd 	kd(II)	kd (II)	conj.	as, since	KTU: [kd] restored; broken context.
 130939	ġzrh	 ġzrh	ġzr/+h	ġzr	n. m. sg. cstr.	lad, hero	
@@ -212,14 +212,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130976	tšmḫ	tšmḫ	!t!šmḫ[	/š-m-ḫ/	vb G prefc. 3 f. sg. juss.	to be glad, rejoice	'Now let Athirat and her sons rejoice'.
 130977	ht	ht	ht	ht	adv.	now, here	DULAT: 'here'.
 # KTU 1.6 I:40							
-130978	aṯrt	aṯrt	aṯrt(II)/	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
+130978	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
 130979	w	w	w	w	conj.	and	
 130980	bnh	bnh	bn(I)/+h	bn (I)	n. m. pl. cstr. nom.	son	'her sons'.
-130981	ilt	ilt	ilt(I)/	ỉlt (I)	n. f. sg. abs. nom.	goddess	= Athirat (Elat).
+130981	ilt	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	goddess	= Athirat (Elat).
 130982	w	w	w	w	conj.	and	
-130983	ṣb	ṣb	ṣbrt/	ṣbrt	n. f. sg. cstr. nom.	clan, community	MERGE WITH THE NEXT: ṣb+rt = ṣbrt, split across lines I:40/41.
+130983	ṣb	ṣb	ṣbr(t/t	ṣbrt	n. f. sg. cstr. nom.	clan, community	MERGE WITH THE NEXT: ṣb+rt = ṣbrt, split across lines I:40/41.
 # KTU 1.6 I:41							
-130984	rt	rt	ṣbrt/	ṣbrt	n. f. sg. cstr. nom.	clan, community	MERGE WITH THE PREVIOUS.
+130984	rt	rt	ṣbr(t/t	ṣbrt	n. f. sg. cstr. nom.	clan, community	MERGE WITH THE PREVIOUS.
 130985	aryh	aryh	ary(I)/+h	ảry (I)	n. m. pl. cstr. gen.	kin, fellow	'the clan of her kin'.
 130986	k	k	k(III)	k (III)	subordinating / completive functor	for, because	DULAT cites k (III) here: k mt … k ḫlq.
 130987	mt	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
@@ -237,14 +237,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130997	il	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/El	
 # KTU 1.6 I:44							
 130998	l	l	l(I)	l (I)	prep.	to	
-130999	rbt	rbt	rbt(I)/	rbt (I)	n. f. sg. cstr. gen.	Lady	rbt aṯrt ym 'Lady Athirat of the Sea'.
-131000	aṯrt	aṯrt	aṯrt(II)/	ảṯrt (II)	DN f. sg. abs. gen.	Athirat/Asherah	
+130999	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	rbt aṯrt ym 'Lady Athirat of the Sea'.
+131000	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. gen.	Athirat/Asherah	
 131001	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 131002	šmˤ	šmʿ	!!šmˤ[	/š-m-ʕ/	vb G impv. f. sg.	to hear	
 # KTU 1.6 I:45							
 131003	l	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here: 'Hear, O Lady Athirat…'.
-131004	rbt	rbt	rbt(I)/	rbt (I)	n. f. sg. abs. nom.	Lady	KTU: aṯr[t].
-131005	aṯrt	aṯrt	aṯrt(II)/	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
+131004	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	KTU: aṯr[t].
+131005	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
 131006	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 131007	tn	tn	!!(ytn[	/y-t-n/	vb G impv. f. sg.	to give	'Give one of your sons, I will make him king'.
 # KTU 1.6 I:46							
@@ -256,8 +256,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:47							
 131013	w	w	w	w	conj.	and	
 131014	tˤn	tʿn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
-131015	rbt	rbt	rbt(I)/	rbt (I)	n. f. sg. cstr. nom.	Lady	
-131016	aṯrt	aṯrt	aṯrt(II)/	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
+131015	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
+131016	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
 131017	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.6 I:48							
 131018	bl	bl	bl(I)	bl (I)	adv. / emph. functor	verily; not?	DULAT: bl/blt nmlk 'shall we not make king…?'.
@@ -293,8 +293,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:53							
 131042	w	w	w	w	conj.	and	
 131043	ˤn	ʿn	ˤn(y(I)[	/ʕ-n-y/ (I)	vb G suffc. 3 f. sg.	to answer	
-131044	rbt	rbt	rbt(I)/	rbt (I)	n. f. sg. cstr. nom.	Lady	
-131045	aṯrt	aṯrt	aṯrt(II)/	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
+131044	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
+131045	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
 131046	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.6 I:54							
 131047	blt	blt	bl(I)~t	bl (I)	adv. / emph. functor + encl. -t	verily; not?	DULAT: blt → bl; bl/blt nmlk.
@@ -312,7 +312,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:57							
 131057	yˤl	yʿl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up	
 131058	b	b	b	b	prep.	in, onto	
-131059	ṣrrt	ṣrrt	ṣrrt/	ṣrrt	n. f. sg. cstr. gen.	height(s), summit	
+131059	ṣrrt	ṣrrt	ṣrr(t/t	ṣrrt	n. f. sg. cstr. gen.	height(s), summit	
 131060	ṣpn	ṣpn	ṣpn/	ṣpn	TN/DN gen.	Ṣapānu/Zaphon	
 # KTU 1.6 I:58							
 131061	yṯb	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
@@ -339,7 +339,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131078	l	l	l(II)	l (II)	adv.	not	DULAT cites l (II): l amlk b ṣrrt ṣpn.
 131079	amlk	amlk	!(ʔ&a!mlk[	/m-l-k/	vb G prefc. 1 c. sg.	to reign	'I cannot reign on the summit of Ṣapānu'.
 131080	b	b	b	b	prep.	in, on	
-131081	ṣrrt	ṣrrt	ṣrrt/	ṣrrt	n. f. sg. cstr. gen.	height(s), summit	
+131081	ṣrrt	ṣrrt	ṣrr(t/t	ṣrrt	n. f. sg. cstr. gen.	height(s), summit	
 131082	ṣpn	ṣpn	ṣpn/	ṣpn	TN/DN gen.	Ṣapānu/Zaphon	
 # KTU 1.6 I:63							
 131083	yrd	yrd	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
@@ -362,12 +362,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131097	xxx	xxx 	?	?	?	?	
 131098	tšabn	 tšabn	!t!š(ʔ&ab[n	/š-ʔ-b/	vb G prefc. 3 f. pl.	to draw water	DULAT: (y/t)šảbn b rḥbt; KTU: [t]šabn.
 131099	b	b	b	b	prep.	in, from	
-131100	rḥbt	rḥbt 	rḥbt/	rḥbt	n. f. sg. abs. gen.	amphora, jar	Here the noun rḥbt (contrast 1.5 III:2 rḥb (I) adj.).
+131100	rḥbt	rḥbt 	rḥb(t/t	rḥbt	n. f. sg. abs. gen.	amphora, jar	Here the noun rḥbt (contrast 1.5 III:2 rḥb (I) adj.).
 # KTU 1.6 I:67							
 131101	xxxxx	xxxxx 	?	?	?	?	
 131102	tšabn	 tšabn	!t!š(ʔ&ab[n	/š-ʔ-b/	vb G prefc. 3 f. pl.	to draw water	KTU: [t]šabn.
 131103	b	b	b	b	prep.	in, from	
-131104	kknt	kknt	kknt/	kknt	n. f. sg. abs. gen.	pot, jar, pitcher	
+131104	kknt	kknt	kkn(t/t	kknt	n. f. sg. abs. gen.	pot, jar, pitcher	
 # KTU 1.6 II:1							
 131105	lxxxxxxxxxx	lxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.6 II:2							
@@ -387,7 +387,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131116	yˤtqn	yʿtqn	!y!ˤtq[~n	/ʕ-t-q/	vb G prefc. 3 m. du.	to pass	
 131117	w	w	w	w	conj.	and	
 131118	rḥm	rḥm 	rḥm/	rḥm	n. f. sg. abs. nom.	damsel, girl	rḥm ˤnt 'the Maiden Anat' (DULAT: 'womb; nubile girl'). KTU: r[ḥm ˤnt].
-131119	ˤnt	 ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	Restored in lacuna (KTU).
+131119	ˤnt	 ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	Restored in lacuna (KTU).
 # KTU 1.6 II:6							
 131120	tngṯh	tngṯh	!t!ngṯ[+h:d	/n-g-ṯ/	vb D prefc. 3 f. sg. + 3 m. sg. suff.	to make one's way to	'she approaches him'.
 131121	k	k	k(I)	k (I)	prep.	like	
@@ -397,13 +397,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131124	lxˤglh	lxʿglh	l(I) ˤgl(I)/+h	l (I); ʕgl (I)	prep.; n. m. sg. cstr. gen.	to; calf	Split
 131125	k	k	k(I)	k (I)	prep.	like	
 131126	lb	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
-131127	ṯat	ṯat	ṯat/	ṯảt	n. f. sg. abs. gen.	ewe	KTU: ṯa[t].
+131127	ṯat	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. gen.	ewe	KTU: ṯa[t].
 # KTU 1.6 II:8							
 131128	l	l	l(I)	l (I)	prep.	to	
 131129	imrh	imrh	imr(I)/+h	ỉmr (I)	n. m. sg. cstr. gen.	lamb	'for her lamb'.
 131130	km	km	km	km	prep.	like	
 131131	lb	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
-131132	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	KTU: ˤn[t].
+131132	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	KTU: ˤn[t].
 # KTU 1.6 II:9							
 131133	aṯr	aṯr	aṯr(I)	ảṯr (I)	prep.	after	km lb ˤnt aṯr bˤl 'so is the heart of Anat after Baal' (DULAT).
 131134	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
@@ -438,8 +438,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 II:14							
 131159	taršn	taršn	!t==!(ʔ&arš[~n	/ʔ-r-š/	vb G prefc. 2 f. sg.	to request, desire	Mot to Anat: 'What do you desire, O Virgin Anat?'.
 131160	l	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here.
-131161	btlt	btlt	btlt/	btlt	n. f. sg. abs. nom.	virgin	
-131162	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+131161	btlt	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
+131162	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.6 II:15							
 131163	an	an	an(I)	ản (I)	pers. pn. 1 c. sg.	I	DULAT cites ản (I): ản ỉtlk w ảṣd.
 131164	itlk	itlk	!(ʔ&i!]t](hlk[	/h-l-k/	vb Gt prefc. 1 c. sg.	to go, roam	Gt with elided h; cf. ttlk 1.5 VI:26.
@@ -472,7 +472,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131187	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth, land	
 # KTU 1.6 II:20							
 131188	dbr	dbr	dbr(II)/	dbr (II)	n. m. sg. abs. gen.	outback, pasture land	DULAT: 'Pestilence'; UNP 'outback', TCS 'pasture land'.
-131189	ysmt	ysmt	ysmt/	ysmt	n. f. sg. cstr. gen.	beauty	
+131189	ysmt	ysmt	ysm(t/t	ysmt	n. f. sg. cstr. gen.	beauty	
 131190	šd	šd	šd(I)/	šd (I)	n. m. sg. cstr. gen.	open field	
 131191	šḥlmmt	šḥlmmt	šḥlmmt/	šḥlmmt	TN gen.	Mortality-Shore	
 # KTU 1.6 II:21							
@@ -497,7 +497,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131206	nḫtu	nḫtu	]n]ḫt(ʔ[&u	/ḫ-t-ʔ/	vb N suffc. 3 m. sg.	to be crushed, annihilated	'he was crushed' (DULAT /ḫ-t-ʔ/).
 131207	hw	hw	hw	hw	pers. pn. 3 m. sg.	he	
 # KTU 1.6 II:24							
-131208	nrt	nrt	nrt(I)/	nrt (I)	n. f. sg. cstr. nom.	lamp	
+131208	nrt	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. nom.	lamp	
 131209	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	nrt ilm špš 'the Lamp of the gods, Šapšu'.
 131210	špš	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
 131211	ṣḥrrt	ṣḥrrt	ṣḥrr[t===	/ṣ-ḥ-r-r/	vb G suffc. 3 f. sg.	to glow, burn	'Šapšu glows (with) the power of the heavens'.
@@ -519,7 +519,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131224	l	l	l(III)	l (III)	functor	certainly	Or l (I) 'into months'.
 131225	yrḫm	yrḫm	yrḫ/m	yrḫ	n. m. pl. abs. gen.	month	Not a pronominal suffix: pl. -m.
 131226	rḥm	rḥm	rḥm/	rḥm	n. f. sg. abs. nom.	damsel, girl	rḥm ˤnt 'the Maiden Anat'.
-131227	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+131227	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 131228	tngṯh	tngṯh	!t!ngṯ[+h:d	/n-g-ṯ/	vb D prefc. 3 f. sg. + 3 m. sg. suff.	to make one's way to	
 # KTU 1.6 II:28							
 131229	k	k	k(I)	k (I)	prep.	like	
@@ -530,13 +530,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131234	k	k	k(I)	k (I)	prep.	like	
 131235	lb	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 # KTU 1.6 II:29							
-131236	ṯat	ṯat	ṯat/	ṯảt	n. f. sg. abs. gen.	ewe	
+131236	ṯat	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. gen.	ewe	
 131237	l	l	l(I)	l (I)	prep.	to, for	
 131238	imrh	imrh	imr(I)/+h	ỉmr (I)	n. m. sg. cstr. gen.	lamb	
 131239	km	km	km	km	prep.	like	
 131240	lb	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 # KTU 1.6 II:30							
-131241	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
+131241	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 131242	aṯr	aṯr	aṯr(I)	ảṯr (I)	prep.	after	
 131243	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 131244	tiḫd	tiḫd	!t!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 f. sg.	to seize, grasp	
@@ -554,7 +554,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 II:33							
 131254	nn	nn	!t!dry[+nn	/d-r-y/	vb G prefc. 3 f. sg. + 3 m. sg. suff.	to winnow	MERGE WITH THE PREVIOUS.
 131255	b	b	b	b	prep.	in	
-131256	išt	išt	išt/	ỉšt	n. f. sg. abs. gen.	fire	
+131256	išt	išt	iš(t/t	ỉšt	n. f. sg. abs. gen.	fire	
 131257	tšrpnn	tšrpnn	!t!šrp[+nn	/š-r-p/	vb G prefc. 3 f. sg. + 3 m. sg. suff.	to burn	
 # KTU 1.6 II:34							
 131258	b	b	b	b	prep.	with	
@@ -569,7 +569,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131266	tikl	tikl	!t!(ʔ&ikl[	/ʔ-k-l/	vb G prefc. 3 f. sg.	to eat, devour	Collective subject ˤṣrm.
 # KTU 1.6 II:36							
 131267	ˤṣrm	ʿṣrm	ˤṣr(I)/m	ʕṣr (I)	n. f. pl. abs. nom.	bird	
-131268	mnth	mnth	mnt(I)/+h	mnt (I)	n. f. sg. cstr. acc.	portion, ration	'his portions the fliers consume'.
+131268	mnth	mnth	mn(t(I)/t+h	mnt (I)	n. f. sg. cstr. acc.	portion, ration	'his portions the fliers consume'.
 131269	l	l	l(III)	l (III)	functor	certainly	
 131270	tklyy	tklyy	!t!kly[&y:d	/k-l-y/	vb D prefc. 3 f. sg.	to finish (off), consume	Final y superfluous (dittography?); Ksenia reads suffix +y.
 # KTU 1.6 II:37							
@@ -606,7 +606,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131297	pid	pid	pid/	pỉd	n. m. sg. abs. gen.	heart	il d pid 'El the kind-hearted'.
 # KTU 1.6 III:5							
 131298	b	b	b	b	prep.	in	
-131299	ḏrt	ḏrt	ḏrt/	ḏrt	n. f. sg. cstr. gen.	vision	
+131299	ḏrt	ḏrt	ḏr(t/t	ḏrt	n. f. sg. cstr. gen.	vision	
 131300	bny	bny	bny/	bny	n. m. sg. cstr. gen.	creator, builder	bny bnwt 'the Creator of Creatures' (UNP); DULAT cites bny here.
 131301	bnwt	bnwt	bn&w(t(II)/t=	bnt (II)	n. f. pl. abs. gen.	creatures, produce	DULAT: bnwt → bnt (II).
 # KTU 1.6 III:6							
@@ -616,7 +616,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:7							
 131305	nḫlm	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl. abs. nom.	torrent, wadi	
 131306	tlk	tlk	!t!(hlk[:w	/h-l-k/	vb G prefc. 3 m. pl.	to go, run, flow	'the wadis run with honey'.
-131307	nbtm	nbtm	nbt/~m	nbt	n. f. sg. abs. acc.	honey	DULAT cites -m (I) (encl.) here, not du./pl.
+131307	nbtm	nbtm	nb(t/t~m	nbt	n. f. sg. abs. acc.	honey	DULAT cites -m (I) (encl.) here, not du./pl.
 # KTU 1.6 III:8							
 131308	w	w	w	w	conj.	and	
 131309	idˤ	idʿ	!(ʔ&i!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc. 1 c. sg.	to know	'so that I may know that Mightiest Baal is alive'.
@@ -639,7 +639,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131324	pid	pid	pid/	pỉd	n. m. sg. abs. gen.	heart	
 # KTU 1.6 III:11							
 131325	b	b	b	b	prep.	in	
-131326	ḏrt	ḏrt	ḏrt/	ḏrt	n. f. sg. cstr. gen.	vision	
+131326	ḏrt	ḏrt	ḏr(t/t	ḏrt	n. f. sg. cstr. gen.	vision	
 131327	bny	bny	bny/	bny	n. m. sg. cstr. gen.	creator, builder	
 131328	bnwt	bnwt	bn&w(t(II)/t=	bnt (II)	n. f. pl. abs. gen.	creatures, produce	
 # KTU 1.6 III:12							
@@ -649,7 +649,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:13							
 131332	nḫlm	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl. abs. nom.	torrent, wadi	
 131333	tlk	tlk	!t!(hlk[:w	/h-l-k/	vb G prefc. 3 m. pl.	to go, run, flow	
-131334	nbtm	nbtm	nbt/~m	nbt	n. f. sg. abs. acc.	honey	
+131334	nbtm	nbtm	nb(t/t~m	nbt	n. f. sg. abs. acc.	honey	
 # KTU 1.6 III:14							
 131335	šmḫ	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad, rejoice	'the Benevolent El the Benign rejoices' (UNP); DULAT cites /š-m-ḫ/ here.
 131336	lṭpn	lṭpn	lṭpn/	lṭpn	adj. m. sg. abs. nom.	the Benevolent	
@@ -681,7 +681,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131357	w	w	w	w	conj.	and	
 131358	tnḫ	tnḫ	!t!nḫ[	/n-ḫ/	vb G prefc. 3 f. sg.	to rest	'and the soul in my breast rests'.
 131359	b	b	b	b	prep.	in	
-131360	irty	irty	irt/+y	ỉrt	n. f. sg. cstr. gen.	breast	'my breast'.
+131360	irty	irty	ir(t/t+y	ỉrt	n. f. sg. cstr. gen.	breast	'my breast'.
 131361	npš	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat, soul	
 # KTU 1.6 III:20							
 131362	k	k	k(III)	k (III)	subordinating / completive functor	for, because	
@@ -699,17 +699,17 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131372	yṣḥ	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 131373	il	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/El	
 131374	l	l	l(I)	l (I)	prep.	to	
-131375	btlt	btlt	btlt/	btlt	n. f. sg. abs. gen.	virgin	btlt ˤnt 'Virgin Anat'.
+131375	btlt	btlt	btl(t/t	btlt	n. f. sg. abs. gen.	virgin	btlt ˤnt 'Virgin Anat'.
 # KTU 1.6 III:23							
-131376	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
+131376	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 131377	šmˤ	šmʿ	!!šmˤ[	/š-m-ʕ/	vb G impv. f. sg.	to hear	
 131378	l	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here: 'Hear, O Virgin Anat'.
-131379	btlt	btlt	btlt/	btlt	n. f. sg. abs. nom.	virgin	
-131380	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+131379	btlt	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
+131380	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.6 III:24							
 131381	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. f. sg.	to say	'Say to the Lamp of the gods, Šapšu'.
 131382	l	l	l(I)	l (I)	prep.	to	
-131383	nrt	nrt	nrt(I)/	nrt (I)	n. f. sg. cstr. gen.	lamp	
+131383	nrt	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. gen.	lamp	
 131384	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 131385	špš	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh	
 # KTU 1.6 IV:1							
@@ -727,7 +727,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 IV:3							
 131396	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 131397	ˤnt	ʿnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. acc.	furrow	
-131398	mḥrṯt	mḥrṯt	mḥrṯt/	mḥrṯt	n. f. sg. abs. gen.	ploughed land	
+131398	mḥrṯt	mḥrṯt	mḥrṯ(t/t	mḥrṯt	n. f. sg. abs. gen.	ploughed land	
 # KTU 1.6 IV:4							
 131399	iy	iy	iy	ỉy	interr. adv.	where?	'Where is Mightiest Baal?'
 131400	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
@@ -739,8 +739,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131405	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.6 IV:6							
 131406	ttbˤ	ttbʿ	!t!tbˤ[	/t-b-ʕ/	vb G prefc. 3 f. sg.	to go, depart	DULAT cites /t-b-ʕ/: ttbʕ btlt ʕnt (auto-parser: NOT FOUND).
-131407	btlt	btlt	btlt/	btlt	n. f. sg. abs. nom.	virgin	
-131408	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+131407	btlt	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
+131408	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 131409	ix	ix	?	?	?	?	Broken: i[…].
 # KTU 1.6 IV:7							
 131410	idk	idk	idk	ỉdk	narrative adv. functor	then	
@@ -749,7 +749,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131413	pnm	pnm	pn(m/m	pnm	n. m. pl. tant. abs. acc.	face	
 # KTU 1.6 IV:8							
 131414	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	to, towards	
-131415	nrt	nrt	nrt(I)/	nrt (I)	n. f. sg. cstr. gen.	lamp	
+131415	nrt	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. gen.	lamp	
 131416	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 131417	špš	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh	
 # KTU 1.6 IV:9							
@@ -763,7 +763,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131424	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/El	
 131425	abk	abk	ab/+k	ảb	n. m. sg. cstr. gen.	father	'your father'.
 # KTU 1.6 IV:11							
-131426	hwt	hwt	hwt(I)/	hwt (I)	n. f. sg. cstr. nom.	word	
+131426	hwt	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
 131427	lṭpn	lṭpn	lṭpn/	lṭpn	adj. m. sg. abs. gen.	the Benevolent	
 131428	ḥtkk	ḥtkk	ḥtk(I)/+k	ḥtk (I)	n. m. sg. cstr. gen.	progenitor, ruler	'your progenitor' (DULAT: 'ruler > progenitor, father').
 # KTU 1.6 IV:12							
@@ -781,7 +781,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 IV:14							
 131439	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 131440	ˤnt	ʿnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. acc.	furrow	
-131441	mḥrṯth	mḥrṯth	mḥrṯt/+h	mḥrṯt	n. f. sg. cstr. gen.	ploughed land	'his ploughland'.
+131441	mḥrṯth	mḥrṯth	mḥrṯ(t/t+h	mḥrṯt	n. f. sg. cstr. gen.	ploughed land	'his ploughland'.
 # KTU 1.6 IV:15							
 131442	iy	iy	iy	ỉy	interr. adv.	where?	DULAT cites ỉy here.
 131443	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
@@ -794,7 +794,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 IV:17							
 131449	w	w	w	w	conj.	and	
 131450	tˤn	tʿn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
-131451	nrt	nrt	nrt(I)/	nrt (I)	n. f. sg. cstr. nom.	lamp	
+131451	nrt	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. nom.	lamp	
 131452	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 131453	špš	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
 # KTU 1.6 IV:18							
@@ -802,13 +802,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131455	yn	yn	yn/	yn	n. m. sg. cstr. acc.	wine	
 131456	ˤn	ʿn	ˤn(I)/	ʕn (I)	n. f. sg. abs. gen.	eye, spring	yn ˤn 'sparkling wine' (lit. 'wine of the eye'); DULAT cites ʕn (I) here.
 131457	b	b	b	b	prep.	in, from	
-131458	qbˤt	qbʿt	qbˤt/	qbʕt	n. f. sg. abs. gen.	goblet	
+131458	qbˤt	qbʿt	qbˤ(t/t	qbʕt	n. f. sg. abs. gen.	goblet	
 131459	t	t	!t!(ybl[	/y-b-l/	vb G prefc. 3 f. sg.	to carry, bring	MERGE WITH THE NEXT: t+bl = tbl, split across lines IV:18/19; DULAT: tbl lyt ʕl ủmtk.
 # KTU 1.6 IV:19							
 131460	bl	bl	!t!(ybl[	/y-b-l/	vb G prefc. 3 f. sg.	to carry, bring	MERGE WITH THE PREVIOUS.
-131461	lyt	lyt	lyt/	lyt	n. f. sg. abs. acc.	retinue, garland	DULAT: sg. lyt 'retinue'.
+131461	lyt	lyt	ly(t/t	lyt	n. f. sg. abs. acc.	retinue, garland	DULAT: sg. lyt 'retinue'.
 131462	ˤl	ʿl	ˤl(I)	ʕl (I)	prep.	upon	
-131463	umtk	umtk	umt/+k	ủmt	n. f. sg. cstr. gen.	family, clan	'your clan'.
+131463	umtk	umtk	um(t/t+k	ủmt	n. f. sg. cstr. gen.	family, clan	'your clan'.
 # KTU 1.6 IV:20							
 131464	w	w	w	w	conj.	and	
 131465	abqṯ	abqṯ	!(ʔ&a!bqṯ[	/b-q-ṯ/	vb G prefc. 1 c. sg.	to search for	'and I will search for Mightiest Baal'; Ksenia reads D (:d).
@@ -817,8 +817,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 IV:21							
 131468	w	w	w	w	conj.	and	
 131469	tˤn	tʿn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
-131470	btlt	btlt	btlt/	btlt	n. f. sg. abs. nom.	virgin	
-131471	ˤnt	ʿnt	ˤnt(I)/	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+131470	btlt	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
+131471	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.6 IV:22							
 131472	an	an	an(II)	ản (II)	adv.	wherever	DULAT: ản l ản y špš 'wherever (you go), O Šapšu'.
 131473	l	l	l(I)	l (I)	prep.	to	
@@ -851,7 +851,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131492	yiḫd	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to seize, grasp	'Baal seizes the sons of Athirat' (DULAT).
 131493	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 131494	bn	bn	bn(I)/	bn (I)	n. m. pl. cstr. acc.	son	
-131495	aṯrt	aṯrt	aṯrt(II)/	ảṯrt (II)	DN f. sg. abs. gen.	Athirat/Asherah	Ksenia chose ảṯrt (I) 'back part of the head' — here the goddess.
+131495	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. gen.	Athirat/Asherah	Ksenia chose ảṯrt (I) 'back part of the head' — here the goddess.
 # KTU 1.6 V:2							
 131496	rbm	rbm	rb(I)/m	rb (I)	adj. m. pl. abs. acc.	great	'the great ones he strikes with a scimitar'.
 131497	ymḫṣ	ymḫṣ	!y!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 m. sg.	to strike, smite	
@@ -878,7 +878,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131514	lnḫt	l nḫt	l(I) nḫ(t/t	l (I); nḫt	prep.; n. f. sg. cstr. gen.	to; divan, resting-place	Split; KTU: l[n]ḫ[t].
 131515	l	l	l(I)	l (I)	prep.	on	
 131516	kḥṯ	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
-131517	drkth	drkth	drkt/+h	drkt	n. f. sg. cstr. gen.	dominion, rule	'the throne of his dominion'.
+131517	drkth	drkth	drk(t/t+h	drkt	n. f. sg. cstr. gen.	dominion, rule	'the throne of his dominion'.
 # KTU 1.6 V:7							
 131518	lymm	lymm	l(III) ym(I)/m	l (III); ym (I)	functor; n. m. pl. abs. gen.	certainly; day	Split; KTU: l[y]mm. Formula 'for days, for months, for years'; DULAT cites l (III), but temporal l (I) also possible.
 131519	l	l	l(III)	l (III)	functor	certainly	
@@ -887,12 +887,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131522	yrḫm	yrḫm	yrḫ/m	yrḫ	n. m. pl. abs. gen.	month	
 # KTU 1.6 V:8							
 131523	l	l	l(III)	l (III)	functor	certainly	
-131524	šnt	šnt	šnt(I)/	šnt (I)	n. f. sg. abs. gen.	year	Or pl. (spelled alike).
+131524	šnt	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	Or pl. (spelled alike).
 131525	mk	mk	mk(II)	mk (II)	deictic functor	behold!	KTU: m[k].
 131526	b	b	b	b	prep.	in	
 131527	šbˤ	šbʿ	šbˤ(I)/	šbʕ (I)	n. num.	seven	'in the seventh year'.
 # KTU 1.6 V:9							
-131528	šnt	šnt	šnt(I)/	šnt (I)	n. f. sg. abs. gen.	year	
+131528	šnt	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
 131529	w	w	w	w	conj.	and	
 131530	kr	kr	kr[	/k-r/	vb G suffc. 3 m. sg.	to be furious, enraged	DULAT also cites /r-k(-k)/ 'to relent' here; broken sense.
 131531	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
@@ -911,7 +911,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131542	bˤlm	bʿlm	bˤl(II)/~m	bʕl (II)	DN m. sg. abs. nom. + encl. -m	Baʿlu/Baal	DULAT cites -m (II) here: ʕlk bʕlm.
 # KTU 1.6 V:12							
 131543	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	DULAT cites /p-h-y/: ʕlk pht qlt.
-131544	qlt	qlt	qlt(I)/	qlt (I)	n. f. sg. abs. acc.	vileness, shame	DULAT cites qlt (I) n. here; Ksenia reads vb /q-l/ 'fall'.
+131544	qlt	qlt	ql(t(I)/t	qlt (I)	n. f. sg. abs. acc.	vileness, shame	DULAT cites qlt (I) n. here; Ksenia reads vb /q-l/ 'fall'.
 131545	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 131546	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
 # KTU 1.6 V:13							
@@ -923,7 +923,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131551	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
 131552	šrp	šrp	!!šrp[/	/š-r-p/	vb G inf. abs. acc.	burning	DULAT cites /š-r-p/: pht šrp b išt.
 131553	b	b	b	b	prep.	in	
-131554	išt	išt	išt/	ỉšt	n. f. sg. abs. gen.	fire	
+131554	išt	išt	iš(t/t	ỉšt	n. f. sg. abs. gen.	fire	
 # KTU 1.6 V:15							
 131555	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 131556	pht	pht 	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	KTU: [pht ṭḥ]n restored.
@@ -936,7 +936,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131562	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
 131563	dry	 dry	!!dry[/	/d-r-y/	vb G inf. abs. acc.	winnowing	KTU: [dr]y.
 131564	b	b	b	b	prep.	with	
-131565	kbrt	kbrt	kbrt/	kbrt	n. f. sg. abs. gen.	sieve	
+131565	kbrt	kbrt	kbr(t/t	kbrt	n. f. sg. abs. gen.	sieve	
 # KTU 1.6 V:17							
 131566	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 131567	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
@@ -1049,7 +1049,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131649	yṯb	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return, turn back	DULAT cites /ṯ-b/ here: yṯb ˤm bˤl 'he returns to Baal' — not /y-ṯ-b/ 'sit'.
 131650	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	to, towards	
 131651	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
-131652	ṣrrt	ṣrrt	ṣrrt/	ṣrrt	n. f. sg. cstr. gen.	height(s), summit	
+131652	ṣrrt	ṣrrt	ṣrr(t/t	ṣrrt	n. f. sg. cstr. gen.	height(s), summit	
 # KTU 1.6 VI:13							
 131653	ṣpn	ṣpn	ṣpn/	ṣpn	TN/DN gen.	Ṣapānu/Zaphon	
 131654	yšl	yšl	!y!(nš(ʔ&l[	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	Scribal yšl for yšu (formula yšu gh w yṣḥ); l for u marked (ʔ&l.
@@ -1131,9 +1131,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131716	abk	abk	ab/+k	ảb	n. m. sg. cstr. nom.	father	'your father'.
 131717	l	l	l(III)	l (III)	functor	surely	DULAT cites l (III): l ysˤ … l yhpk … l yṯbr.
 131718	ysˤ	ysʿ	!y!(nsˤ(I)[	/n-s-ʕ/ (I)	vb G prefc. 3 m. sg.	to pull out	'surely he will pull out the support of your seat' (UNP).
-131719	alt	alt	alt(II)/	ảlt (II)	n. f. sg. cstr. acc.	support, pillar	
+131719	alt	alt	al(t(II)/t	ảlt (II)	n. f. sg. cstr. acc.	support, pillar	
 # KTU 1.6 VI:28							
-131720	ṯbtk	ṯbtk	ṯbt/+k	ṯbt	n. f. sg. cstr. gen.	seat	'your seat'.
+131720	ṯbtk	ṯbtk	ṯb(t/t+k	ṯbt	n. f. sg. cstr. gen.	seat	'your seat'.
 131721	l	l	l(III)	l (III)	functor	surely	
 131722	yhpk	yhpk	!y!hpk[	/h-p-k/	vb G prefc. 3 m. sg.	to overturn	
 131723	ksa	ksa	ks(u/&a	ks/śủ	n. m. sg. cstr. acc.	seat, throne	'the throne of your kingship' (acc. -a).
@@ -1172,21 +1172,21 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:34							
 131750	mlkh	mlkh	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen.	kingship	'his kingship'.
 131751	l	l	l(I)	l (I)	prep.	on	KTU: ln[ḫt] restored.
-131752	nḫt	nḫt 	nḫt/	nḫt	n. f. sg. cstr. gen.	divan, resting-place	Restored in lacuna (KTU).
+131752	nḫt	nḫt 	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan, resting-place	Restored in lacuna (KTU).
 131753	l	 l 	l(I)	l (I)	prep.	on	Restored in lacuna (KTU).
 131754	kḥṯ	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	Restored in lacuna (KTU).
 # KTU 1.6 VI:35							
-131755	drkth	drkth 	drkt/+h	drkt	n. f. sg. cstr. gen.	dominion, rule	'the throne of his dominion'.
+131755	drkth	drkth 	drk(t/t+h	drkt	n. f. sg. cstr. gen.	dominion, rule	'the throne of his dominion'.
 131756		                   	?	?	?	?	
 # KTU 1.6 VI:36							
 131757	xxxx	xxxx 	?	?	?	?	
-131758	drkt	 drkt          	drkt/	drkt	n. f. sg.	dominion, rule	KTU: dr[kt]; broken context.
+131758	drkt	 drkt          	drk(t/t	drkt	n. f. sg.	dominion, rule	KTU: dr[kt]; broken context.
 # KTU 1.6 VI:37							
 131759	drdr	drdr	drdr/	drdr	n. m.	eternity	dr dr 'generation of generations'; DULAT: drdr → dr. Broken context.
 131760	hn	hn              	hn	hn	deictic functor	behold!	
 # KTU 1.6 VI:38							
 131761	xxxx	xxxx 	?	?	?	?	
-131762	šnt	 šnt            	šnt(I)/	šnt (I)	n. f. sg.	year	Broken context.
+131762	šnt	 šnt            	šn(t(I)/t	šnt (I)	n. f. sg.	year	Broken context.
 # KTU 1.6 VI:39							
 131763	xxxxxxxx	xxxxxxxx 	?	?	?	?	
 131764	il	 il 	il(I)/	ỉl (I)	DN m. sg. abs.	ʾIlu/El	KTU: [il ]dpid restored.
@@ -1198,7 +1198,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:41							
 131769	xxxx	xxxx 	?	?	?	?	
 131770	bl	bl	?	?	?	?	Broken: […]bl; /y-b-l/?
-131771	inšt	inšt	inšt/	ỉnšt	n. f. sg.	relatives	DULAT cites ỉnšt here (broken context).
+131771	inšt	inšt	inš(t/t	ỉnšt	n. f. sg.	relatives	DULAT cites ỉnšt here (broken context).
 # KTU 1.6 VI:42							
 131772	xxšu	xxšu	?	?	?	?	= [tš/yš]u?
 131773	l	l	l(III)	l (III)	functor	indeed	
@@ -1211,12 +1211,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131779	tlḥm	tlḥm	!t=!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 2 m. sg.	to eat	
 # KTU 1.6 VI:44							
 131780	lḥm	lḥm	lḥm/	lḥm	n. m. sg. cstr. acc.	food, bread	lḥm trmmt 'the bread of offering'.
-131781	trmmt	trmmt	tr&mmt/	trmt	n. f. sg. abs. gen.	offering	DULAT: trmt; second m scribal (tr{m}mt).
+131781	trmmt	trmmt	tr&mm(t/t	trmt	n. f. sg. abs. gen.	offering	DULAT: trmt; second m scribal (tr{m}mt).
 131782	l	l	l(III)	l (III)	functor	indeed	
 131783	tšt	tšt	!t=!št(y[	/š-t-y/	vb G prefc. 2 m. sg.	to drink	'you may drink the offertory wine' (UNP).
 # KTU 1.6 VI:45							
 131784	yn	yn	yn/	yn	n. m. sg. cstr. acc.	wine	
-131785	tġzyt	tġzyt	tġzyt/	tġẓyt	n. f. sg. abs. gen.	offering, libation	Surface z for DULAT ẓ.
+131785	tġzyt	tġzyt	tġzy(t/t	tġẓyt	n. f. sg. abs. gen.	offering, libation	Surface z for DULAT ẓ.
 131786	špš	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	Hymnic close: špš rpim tḥtk.
 # KTU 1.6 VI:46							
 131787	rpim	rpim	rp(u&i/m	rpủ	n. m. pl. abs. acc.	Rephaim, healers	Encoding per Tagging conventions (rp(u&i/m).
@@ -1239,7 +1239,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:50							
 131799	w	w	w	w	conj.	and	
 131800	ḫss	ḫss	ḫss/	ḫss	DN m. sg. abs. nom.	Ḫasisu/Khasis	'and Khasis your familiar'.
-131801	dˤtk	dʿtk	dˤt(I)/+k=	dʕt (I)	n. f. sg. cstr. nom.	knowledge; familiar	DULAT dʕt (I) 'knowledge'.
+131801	dˤtk	dʿtk	dˤ(t(I)/t+k=	dʕt (I)	n. f. sg. cstr. nom.	knowledge; familiar	DULAT dʕt (I) 'knowledge'.
 # KTU 1.6 VI:51							
 131802	b	b	b	b	prep.	in	
 131803	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	'in the sea are Arsh and the dragon' (DULAT).
