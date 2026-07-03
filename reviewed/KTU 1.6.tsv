@@ -808,7 +808,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131460	bl	bl	!t!(ybl[	/y-b-l/	vb G prefc. 3 f. sg.	to carry, bring	MERGE WITH THE PREVIOUS.
 131461	lyt	lyt	ly(t/t	lyt	n. f. sg. abs. acc.	retinue, garland	DULAT: sg. lyt 'retinue'.
 131462	ˤl	ʿl	ˤl(I)	ʕl (I)	prep.	upon	
-131463	umtk	umtk	um(t/t+k	ủmt	n. f. sg. cstr. gen.	family, clan	'your clan'.
+131463	umtk	umtk	um(t/t+k	umt	n. f. sg. cstr. gen.	family, clan	DULAT cites umt here.
 # KTU 1.6 IV:20							
 131464	w	w	w	w	conj.	and	
 131465	abqṯ	abqṯ	!(ʔ&a!bqṯ[	/b-q-ṯ/	vb G prefc. 1 c. sg.	to search for	'and I will search for Mightiest Baal'; Ksenia reads D (:d).
@@ -1159,7 +1159,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131739	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 # KTU 1.6 VI:32							
 131740	b	b	b	b	prep.	at	
-131741	qlh	qlh	ql(I)/+h	ql (I)	n. m. sg. cstr. gen.	voice	'at her (Šapšu's) voice'.
+131741	qlh	qlh	ql(I)/+h	ql (I)	n. m. sg. cstr. gen. + 3 m. sg. suff.	voice	b qlh 'at his voice'.
+131741	qlh	qlh	ql[+h	/q-l/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to fall (down)	DULAT cites /q-l/ at this line.
 131742	yšu	yšu 	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	KTU: yš[u gh wyṣḥ] restored.
 131743	gh	 gh 	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	Restored in lacuna (KTU).
 131744	w	 w 	w	w	conj.	and	Restored in lacuna (KTU).
@@ -1257,7 +1258,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131813	w	w	w	w	conj.	and	
 131814	ḫss	ḫss	ḫss/	ḫss	DN m. sg. abs. nom.	Ḫasisu/Khasis	
 # KTU 1.6 VI:54							
-131815	spr	spr	spr/	spr	n. m. sg. cstr. nom.	scribe; document	Colophon: spr ilmlk šbny 'the scribe (was) Ilimilku the Shubanite'.
+131815	spr	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	Colophon (// 1.4 VIII:49).
+131815	spr	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count, number	DULAT files the colophon s.v. /s-p-r/.
 131816	ilmlk	ilmlk	ilmlk/	ỉlmlk	PN m. sg.	Ilimilku	
 131817	šbny	šbny	šbny/	šbny	GN m. sg.	Shubanite	DULAT: GN < šbn (TN).
 # KTU 1.6 VI:55							

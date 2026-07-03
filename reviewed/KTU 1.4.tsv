@@ -111,7 +111,7 @@
 128541	ksp	ksp	ksp/	ksp	n. m. sg. abs. acc.	silver	
 # KTU 1.4 I:27							
 128542	l	l	l(I)	l (I)	prep.	to	l alpm 'by the thousands'.
-128543	alpm	alpm	alp(I)/m	ảlp (I)	n. m. du./pl. abs. gen.	(head of) cattle	DULAT ảlp (I); 'a thousand (shekels)'.
+128543	alpm	alpm	alp(II)/m	ảlp (II)	num. pl. abs. gen.	(one, a) thousand	l alpm ḫrṣ 'for thousands (of shekels) of gold' (DULAT).
 128544	ḫrṣ	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. acc.	1) gold a) in general	
 128545	yṣq	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 # KTU 1.4 I:28							
@@ -180,9 +180,9 @@
 # KTU 1.4 I:41							
 128596	ṣˤ	ṣʿ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. cstr. acc.	plate / wide bowl / platter	ṣˤ il 'a bowl for El'.
 128597	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-128598	dqt	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs.	small	'of fine workmanship'.
+128598	dqt	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture, moulding	ṣˤ il dqt k amr 'a divine bowl, a moulding like (that of) Amurru' (DULAT dqt (II) + ảmr (III)).
 128599	k	k	k(I)	k (I)	prep.	like	
-128600	amr	amr	amr(II)/	ảmr (II)	n. m. sg. cstr. gen.	?	k amr; DULAT ảmr; sense uncertain in context.
+128600	amr	amr	amr(III)/	ảmr (III)	TN sg. abs. gen.	Amurru	k amr 'like (that of) Amurru' (// sknt k ḥwt yman).
 # KTU 1.4 I:42							
 128601	sknt	sknt	skn(t/t	sknt	n. f. sg. abs. acc.	form	TCS: 'fashioned (?) like ...'.
 128602	k	k	k(I)	k (I)	prep.	like	
@@ -258,7 +258,7 @@
 128658	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 128659	aṯtrt	aṯtrt	aṯ&tr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Asherah	DULAT: ảṯ{t}rt — scribal extra t; subject of the next clause.
 # KTU 1.4 II:14							
-128660	k	k	k(III)	k (III)	subordinating / completive functor	when, if, because, since, as, that	k tˤn 'when she sees'.
+128660	k	k	k(II)	k (II)	emph. functor	yes	DULAT cites k (II) here.
 128661	tˤn	tʿn	!t!ˤn[	/ʕ-n/	vb G prefc. 3 f. sg.	to see	DULAT /ʕ-n/ 'to see' (not /ʕ-n-y/ 'answer'); Athirat sees Baal's approach.
 128662	hlk	hlk	hlk(I)/	hlk (I)	n. m. sg. cstr. acc.	walk, course	
 128663	btlt	btlt	btl(t/t	btlt	n. f. sg. cstr. gen.	virgin	hlk btlt ˤnt 'the gait of Virgin Anat'.
@@ -363,7 +363,7 @@
 128741	il	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 128742	dn	d               n	dn(I)/	dn (I)	n. m. sg. cstr. gen.	judgment	
 # KTU 1.4 II:36							
-128743	hr	hr	hr(II)/	hr (II)	n. m. sg. cstr. gen.	conception	Broken context.
+128743	hr	hr	hr(I)/	hr (I)	n. m. sg. cstr. gen.	mountain	DULAT cites hr (I) 'mountain' here.
 128744	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 128745	y	y                      	y	y	voc. functor	oh!	
 # KTU 1.4 II:37							
@@ -407,7 +407,7 @@
 128769	mdd	             mdd	mdd(I)/	mdd (I)	n. m. sg. abs.	beloved	Broken context.
 # KTU 1.4 III:4							
 128770	xn	           xn	?	?	?	?	
-128771	kb	kb	kb(II)/	kb (II)	n. m. abs.	intestine(s)	
+128771	kb	kb	kb(I)/	kb (I)	adj. m. abs.	sewn, scalloped, stuffed	Broken context; DULAT cites kb (I) here.
 # KTU 1.4 III:5							
 128772	x	         x	?	?	?	?	
 128773	al	al	al(I)	ảl (I)	neg. functor	no	
@@ -431,7 +431,8 @@
 128787	xxxxy	xxxxy	?	?	?	?	
 128788	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 128789	d	d	d	d	det. or rel. functor	4) in compound conjunctions	
-128790	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+128790	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	Broken context.
+128790	mlk	mlk	mlk[	/m-l-k/	vb G suffc. 3 m. sg.	to reign, rule	DULAT cites /m-l-k/ + d here: 'the one who reigns'.
 # KTU 1.4 III:10							
 128791	yṯb	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	DULAT files yṯb here s.v. /ṯ-b/; 'Mightiest Baal makes reply'.
 128792	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
@@ -483,7 +484,7 @@
 128829	w	w	w	w	conj.	and	
 128830	dbḥ	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. acc.	sacrifice	
 # KTU 1.4 III:20							
-128831	dnt	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. gen.	plight	dbḥ dnt 'a sacrifice of strife'.
+128831	dnt	dnt	dn(t(I)/t	dnt (I)	n. f. sg. abs. gen.	lechery, fornication	dbḥ dnt 'a banquet of lechery' (Baal's hated feasts, DULAT dnt (I)).
 128832	w	w	w	w	conj.	and	
 128833	dbḥ	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. acc.	sacrifice	
 128834	tdmm	tdmm	tdmm/	tdmm	n. m. sg. cstr. gen.	lascivious	dbḥ tdmm amht 'a sacrifice of the debauchery of handmaids'.
@@ -701,7 +702,7 @@
 128996	bmt	bmt	bm(t/t	bmt	n. f. sg. cstr. gen.	back	
 128997	pḥl	pḥl	pḥl/	pḥl	n. m. sg. cstr. gen.	ass	
 # KTU 1.4 IV:16							
-128998	qdš	qdš	qdš(II)/	qdš (II)	DN m. sg. abs. nom.	sanctuary	
+128998	qdš	qdš	qdš(III)/	qdš (III)	DN m. sg. abs. nom.	the Holy One	qdš yuḫdm šbˤr 'Qudšu took a torch' (Athirat's servant; DULAT qdš (III)).
 128999	yuḫdm	yuḫdm	!y!(ʔ&uḫd[~m	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg. + encl. -m	to collect, to take (back), grasp, seize, hold	'Qudšu takes hold (and) lights the way'.
 129000	šbˤr	šbʿr	]š]bˤr(I)[	/b-ʕ-r/ (I)	vb Š suffc. 3 m. sg.	1) to illuminate	DULAT /b-ʕ-r/ (I) Š 'to illuminate/lead'.
 # KTU 1.4 IV:17							
@@ -1007,7 +1008,8 @@
 129247	b	b	b	b	prep.	1) spatial location d) origin of a quality or process	
 129248	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.4 V:9							
-129249	šrh	šrh	šr(IV)/+h	šr (IV)	n. m. sg. cstr. + 3 m. sg. suff.	navel	'flashing lightnings to the earth'; DULAT šr (IV).
+129249	šrh	šrh	šr(II)/+h	šr (II)	n. m. sg. cstr. acc. + 3 m. sg. suff.	musician, singer	DULAT cites šr (II) here (qlh b ˤrpt, šrh l arṣ brqm).
+129249	šrh	šrh	šr(IV)/+h	šr (IV)	n. m. sg. cstr. acc. + 3 m. sg. suff.	navel	Earlier reading.
 129250	l	l	l(I)	l (I)	prep.	to	
 129251	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	1) earth	
 129252	brqm	brqm	brq(I)/m	brq (I)	n. m. pl. abs. acc.	ray	
@@ -1455,7 +1457,7 @@
 129607	mk	mk	mk(II)	mk (II)	deictic functor	behold!	mk b šbˤ ymm 'lo, on the seventh day'.
 # KTU 1.4 VI:32							
 129608	b	b	b	b	prep.	in	
-129609	šbˤ	šbʿ	šbˤ(I)/	šbʕ (I)	n. num.	seven	
+129609	šbˤ	šbʿ	šbˤ(II)/	šbʕ (II)	num.	seventh	b šbˤ ymm 'on the seventh day' (DULAT šbʕ (II)).
 129610	ymm	ymm	ym(I)/m	ym (I)	n. m. pl. abs. gen.	1) day a) as a date	
 129611	td	td	!t!(nd(d[	/n-d-d/	vb G prefc. 3 f. sg.	to go, move	'the fire went out in the palace' (DULAT cites td ỉšt b bhtm s.v. /n-d-d/).
 129612	išt	išt	iš(t/t	ỉšt	n. f. sg. abs. nom.	1) fire	
@@ -1723,7 +1725,8 @@
 129819	w	w	w	w	conj.	and	
 129820	yṣḥ	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 # KTU 1.4 VII:23							
-129821	l	l	l(II)	l (II)	adv.	no	l rgmt lk 'did I not tell you, O Baal?'
+129821	l	l	l(II)	l (II)	neg. adv.	no, not	l rgmt lk 'did I not tell you?' (DULAT; // 1.2 IV:7).
+129821	l	l	l(III)	l (III)	functor	certainly, undoubtedly, yes	
 129822	rgmt	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say	
 129823	lk	lk	l(I)+k	l (I)	prep. + 2 m. sg. suff.	to	
 129824	l	l	l(IV)	l (IV)	interj.	oh!	
@@ -1860,9 +1863,9 @@
 129929	gngnh	gngnh	gngn/+h	gngn	n. m. sg. cstr. + 3 m. sg. suff.	insides	
 129930	aḥdy	aḥdy	aḥd/+y	ảḥd	adj. cstr. + 1 c. sg. suff.	2) adv	aḥdy d ymlk 'I alone am the one who rules over the gods'.
 129931	d	d	d	d	det. or rel. functor	2) which	
-129932	ym	ym	ym(I)/	ym (I)	n. m. sg. abs.	day	Broken; d ym(lk) 'who rules'.
+129932	ym	ym	!y!mlk[	/m-l-k/	vb G prefc. 3 m. sg.	to reign, rule	MERGE WITH THE NEXT: ym+lk = ymlk, split VII:49/50; aḥdy d ymlk ˤl ilm 'I alone am the one who reigns over the gods'.
 # KTU 1.4 VII:50							
-129933	lk	lk	l(I)+k	l (I)	prep. + 2 m. sg. suff.	to	
+129933	lk	lk	!y!mlk[	/m-l-k/	vb G prefc. 3 m. sg.	to reign, rule	MERGE WITH THE PREVIOUS.
 129934	ˤl	ʿl	ˤl(I)	ʕl (I)	prep.	1) spatial location or pre-eminence a) upon	
 129935	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	1) god c) object or purpose of an action	
 129936	l	l	l(III)	l (III)	functor	certainly	
@@ -1872,7 +1875,7 @@
 129939	w	w	w	w	conj.	1) copulative conj.	
 129940	nšm	nšm	nš(m/m	nšm	n. m. pl. tant. abs. acc.	people	
 129941	d	d	d	d	det. or rel. functor	2) which	
-129942	yšb	yšb	!y!šb(ʕ[	/š-b-ʕ/	vb G prefc. 3 m. sg.	to repeat for the seventh time	'who satisfies the multitudes of the earth'.
+129942	yšb	yšb	!y!šb(ʕ[	/š-b-ʕ/ (II)	vb G prefc. 3 m. sg.	to be sated, glutted	d yšb[ˤ] hmlt arṣ 'who satiates the multitudes of the earth' (DULAT).
 # KTU 1.4 VII:52							
 129943	ˤ	ʿ	?	?	?	?	Broken sign.
 129944	hmlt	hmlt	hml(t/t=	hmlt	n. f. pl. tant. cstr. acc.	multitude	
@@ -1883,7 +1886,7 @@
 # KTU 1.4 VII:53							
 129949	lmh	lmh	ġlm/+h	ġlm	n. m. du. cstr. + 3 m. sg. suff.	boy, youth	MERGE WITH THE PREVIOUS; 'to his lads Baal does cry'.
 129950	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
-129951	k	k	k(III)	k (III)	subordinating / completive functor	when	
+129951	k	k	k(IV)	k (IV)	adv.	thus, in this way	gm l ġlmh bˤl k yṣḥ 'aloud to his lads Baal thus shouted' (DULAT k (IV)).
 129952	yṣḥ	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	
 129953	ˤn	ʿn	!!ˤn[	/ʕ-n/	vb G impv. m. sg.	to see, look (at), watch, spy	
 # KTU 1.4 VII:54							
@@ -2104,7 +2107,8 @@
 # KTU 1.4 VIII:48							
 130115	t	         t	?	?	?	?	Broken single sign.
 # KTU 1.4 VIII:49							
-130116	spr	spr 	spr/	spr (I)	n. m. sg. abs. nom.	scribe	Colophon: spr ỉlmlk 'the scribe Ilimilku'.
+130116	spr	spr 	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	Colophon: spr ilmlk 'the scribe Ilimilku'.
+130116	spr	spr 	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count, number	DULAT files the colophon s.v. /s-p-r/: '(this was) written (by) Ilimilku'.
 130117	ilmlk	 ilmlk 	ilmlk/	ỉlmlk	PN sg. abs. nom.	ʾIlimalku/Ilimilku/Elimelek	Ilimilku (the scribe).
 130118	ṯˤy	 ṯʿy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. cstr. nom.	minister	
 130119	nqmd	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	Niqmaddu (king of Ugarit).
