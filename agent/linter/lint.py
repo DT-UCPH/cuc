@@ -233,6 +233,7 @@ OUT_TSV_HEADER_COLUMNS = [
     "gloss",
     "comments",
 ]
+SIGN_SPAN_HEADER = "sign span"
 
 
 PL_TANT_RE = re.compile(
@@ -1510,6 +1511,39 @@ def is_out_tsv_header_row(parts: List[str]) -> bool:
     return lowered == OUT_TSV_HEADER_COLUMNS
 
 
+def is_labeled_tsv_header_row(parts: List[str]) -> bool:
+    lowered = [part.strip().lower() for part in parts]
+    if lowered == OUT_TSV_HEADER_COLUMNS:
+        return True
+    return (
+        len(lowered) == len(OUT_TSV_HEADER_COLUMNS) + 1
+        and lowered[:2] == OUT_TSV_HEADER_COLUMNS[:2]
+        and lowered[2] == SIGN_SPAN_HEADER
+        and lowered[3:] == OUT_TSV_HEADER_COLUMNS[2:]
+    )
+
+
+def file_has_reviewed_sign_span_column(path: Path, lines: List[str]) -> bool:
+    if path.parent.name != "reviewed":
+        return False
+    for raw in lines:
+        if not raw.strip() or is_cuc_separator_line(raw):
+            continue
+        parts = raw.split("\t")
+        if is_labeled_tsv_header_row(parts):
+            return len(parts) >= 3 and parts[2].strip().lower() == SIGN_SPAN_HEADER
+        first = (parts[0] if parts else "").strip()
+        if first.isdigit():
+            return len(parts) >= 8
+    return False
+
+
+def drop_reviewed_sign_span_column(parts: List[str], has_sign_span_column: bool) -> List[str]:
+    if has_sign_span_column and len(parts) >= 3 and (parts[0] or "").strip().isdigit():
+        return parts[:2] + parts[3:]
+    return parts
+
+
 def is_cuc_placeholder_row(parts: List[str]) -> bool:
     """
     Raw cuc_tablets_tsv token rows are typically:
@@ -1802,6 +1836,7 @@ def lint_file(
 
     lines = path.read_text(encoding="utf-8").splitlines()
     is_out_tsv_file = path.parent.name == "out"
+    has_reviewed_sign_span_column = file_has_reviewed_sign_span_column(path, lines)
 
     # Baseline map for CUC comparison
     baseline_map = {}
@@ -1847,6 +1882,9 @@ def lint_file(
         parts = core.split("\t")
         if is_out_tsv_file and is_out_tsv_header_row(parts):
             continue
+        if (not is_out_tsv_file) and is_labeled_tsv_header_row(parts):
+            continue
+        parts = drop_reviewed_sign_span_column(parts, has_reviewed_sign_span_column)
         if len(parts) >= 3:
             data_parts_by_line[line_no] = parts
             data_line_numbers.append(line_no)
@@ -1936,6 +1974,9 @@ def lint_file(
         parts = core.split("\t")
         if is_out_tsv_file and is_out_tsv_header_row(parts):
             continue
+        if (not is_out_tsv_file) and is_labeled_tsv_header_row(parts):
+            continue
+        parts = drop_reviewed_sign_span_column(parts, has_reviewed_sign_span_column)
 
         if is_out_tsv_file and len(parts) != 7:
             issues.append(
