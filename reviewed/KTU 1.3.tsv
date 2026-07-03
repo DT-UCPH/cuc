@@ -5,16 +5,17 @@
 # KTU 1.3 I:2							
 127268	p	p	prdmn/	prdmn	DN m. sg. abs. nom.	unknown deity	MERGE WITH THE NEXT: p+rdmn = prdmn (DN); p is not 'mouth'.
 127269	rdmn	rdmn	prdmn/	prdmn	DN m. sg. abs. nom.	unknown deity	MERGE WITH THE PREVIOUS.
-127270	ˤbd	ʿbd	ˤbd[	/ʕ-b-d/	vb G suffc. 3 m. sg.	to work (a field), to cultivate	'serves Mightiest Baal' (Tania reads vb; cf. noun ʕbd 'servant').
-127271	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
+127270	ˤbd	ʿbd	ˤbd[	/ʕ-b-d/	vb G suffc. 3 m. sg.	to work (a field), to cultivate	Tania's reading; UNP/TCS: 'He serves Mightiest Baal'.
+127270	ˤbd	ʿbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant, slave	DULAT (s.v. ʕbd (I), prdmn): 'servant/slave of DN'.
+127271	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
 # KTU 1.3 I:3							
-127272	bˤl	bʿl	bˤl/	bʕl (II)	DN m. sg. cstr. nom.	Baʿlu/Baal	
-127273	sid	sid	s(ʔ&id[/	sỉd	n. m. sg. cstr. gen.	chief butler	the form is an active participle in nominal use
-127274	zbl	zbl	zbl/	zbl (I)	n. m. pl. cstr. gen.	prince	
-127275	bˤl	bʿl	bˤl(III)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+127272	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	prdmn ˤbd aliyn bˤl 'PRDMN, servant of Mightiest Baal' (DULAT).
+127273	sid	sid	s(ʔ&id[/	sỉd	n. m. sg. cstr. nom.	chief butler	DULAT sỉd: 'the chief butler of the Prince, Lord of the earth'; the form is an active participle in nominal use.
+127274	zbl	zbl	zbl/	zbl (I)	n. m. sg. cstr. gen.	prince	
+127275	bˤl	bʿl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	zbl bˤl arṣ 'Prince, Lord of the earth' (bʕl 'lord', common noun).
 # KTU 1.3 I:4							
 127276	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
-127277	qm	qm	qm[/	/q-m/	vb G act. ptcpl. m. sg. abs. gen.	to stand up	most probably active participle
+127277	qm	qm	qm[/	/q-m/	vb G act. ptcpl. m. sg. abs. nom.	to stand up	most probably active participle
 127278	yṯˤr	yṯʿr	!y!ṯˤr[	/ṯ-ʕ-r/	vb G prefc. 3 m. sg.	to prepare (the table)	
 # KTU 1.3 I:5							
 127279	w	w	w	w	conj.	and	
@@ -22,69 +23,71 @@
 # KTU 1.3 I:6							
 127281	ybr	ybr	!y!brd[	/b-r-d/	vb G prefc. 3 m. sg.	to divide, separate	MERGE WITH THE NEXT: ybr+d = ybrd 'he carves (a portion)'.
 127282	d	d	!y!brd[	/b-r-d/	vb G prefc. 3 m. sg.	to divide, separate	MERGE WITH THE PREVIOUS.
-127283	ṯd	ṯd	ṯd/	ṯd	n. m. pl. abs. nom.	2) breast (of meat)	
+127283	ṯd	ṯd	ṯd/	ṯd	n. m. sg. abs. acc.	2) breast (of meat)	Object: 'he divided a breast (of meat)' (DULAT ṯd).
 127284	l	l	l(I)	l (I)	prep.	to	
 127285	pnwh	pnwh	pn&w(m/+h	pnm	n. m. pl. tant. cstr. gen.	in front	the lexeme is pnm (plur tantu)
 # KTU 1.3 I:7							
 127286	b	b	b	b	prep.	in	
-127287	ḥrb	ḥrb	ḥrb/	ḥrb	n. f. sg. cstr. gen.	1) knife	
-127288	mlḥt	mlḥt	mlḥ[/t	mlḥt	n. f. sg. cstr. gen.	salt	this is passive participle
+127287	ḥrb	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	1) knife	
+127288	mlḥt	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. gen.	salt	DULAT: ḥrb mlḥt 'a knife with salt (salted)'.
+127288	mlḥt	mlḥt	mlḥ[/t	?	vb G pass. ptcpl. f. sg. abs. gen.	?	Tania: passive participle 'salted'; no /m-l-ḥ/ root in DULAT.
 # KTU 1.3 I:8							
-127289	qṣ	qṣ	qṣ/	qṣ	n. m. sg. abs. gen.	2) fillet (of meat)	
+127289	qṣ	qṣ	qṣ/	qṣ	n. m. sg. cstr. gen.	2) fillet (of meat)	qṣ mri 'fillets of fatling' (DULAT).
 127290	mri	mri	mr(u[/&i	mrủ (I)	n. m. sg. abs. gen.	2) fatling	likely passive participle
-127291	ndd	ndd	ndd[/	/n-d-d/	vb G suffc. 3 m. sg.	to go, move	active participle
+127291	ndd	ndd	ndd[/	/n-d-d/	vb G act. ptcpl. m. sg. abs. nom.	to go, move	active participle (Tania); DULAT: 'he rushed to invite him'.
 # KTU 1.3 I:9							
 127292	yˤšr	yʿšr	!y!ˤšr[:d	/ʕ-š-r/	vb D prefc. 3 m. sg.	to invite	likely D-stem
 127293	w	w	w	w	conj.	and	
 127294	yšqynh	yšqynh	!y!šqy[~n+h	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	energic particle and pronominal suffix
 # KTU 1.3 I:10							
 127295	ytn	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	probably prefix-conjugation as the forms before
-127296	ks	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
+127296	ks	ks	ks(I)/	ks (I)	n. m. sg. abs. acc.	cup	Object: 'he placed a cup in his hand' (DULAT).
 127297	bdh	bdh	bd(IV)+h	bd (IV)	prep.	1) into the hands of	
 # KTU 1.3 I:11							
-127298	krpmnm	krpmnm	krp&mn/~m	krpn	n. m. pl. abs. acc.	cup, goblet	Correct lexeme? krpn with -m encl
+127298	krpmnm	krpmnm	krp&mn/~m	krpn	n. m. sg. abs. acc. + encl. -m	cup, goblet	krpnm = krpn + -m (II) (DULAT); scribal krpmnm.
 127299	b	b	b	b	prep.	1) spatial location c) goal of movement or action	
-127300	klat	klat	kla(t/t	klảt(n)	n. f. sg. cstr. gen.	both	
-127301	ydh	ydh	yd/+h	yd (I)	n. f. cstr. gen.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
+127300	klat	klat	kla(t/t	klảt(n)	n. f. du. cstr. gen.	both	b klat ydh 'in both his hands' (DULAT klảt(n)).
+127301	ydh	ydh	yd/+h	yd (I)	n. f. sg. cstr. gen. + 3 m. sg. suff.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
 # KTU 1.3 I:12							
-127302	bk	bk	bk/	bk	n. m. sg. abs. nom.	beaker	
-127303	rb	rb	rb/	rb (I)	adj. m. sg. abs. nom.	great	
-127304	ˤẓm	ʿẓm	ˤẓm(II)/	ʕẓm (II)	adj. m. sg. abs. nom.	imposing	
-127305	ridn	ridn	ridn(I)/	rỉdn (I)	n. m. sg. cstr. nom.	a rython	
+127302	bk	bk	bk/	bk	n. m. sg. abs. acc.	beaker	Apposition chain to the goblet: 'a large imposing beaker' (DULAT bk + rb (I) + ʕẓm (II)).
+127303	rb	rb	rb/	rb (I)	adj. m. sg. abs. acc.	great	
+127304	ˤẓm	ʿẓm	ˤẓm(II)/	ʕẓm (II)	adj. m. sg. abs. acc.	imposing	
+127305	ridn	ridn	ridn(I)/	rỉdn (I)	n. m. sg. cstr. acc.	a rython	ridn mt šmm 'a ridn of the men of heaven' (DULAT rỉdn (I) + mt (III)).
 # KTU 1.3 I:13							
 127306	mt	mt	mt(III)/	mt (III)	n. m. pl. cstr. gen.	3) hero	
 127307	šmm	šmm	šm(m(I)/m	šmm (I)	n. m. pl. cstr. gen.	1) heavens	
-127308	ks	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
-127309	qdš	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	1) holy	
+127308	ks	ks	ks(I)/	ks (I)	n. m. sg. abs. acc.	cup	ks qdš l tpphnh 'a holy cup that women may not see' (fronted object).
+127309	qdš	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. acc.	1) holy	
 # KTU 1.3 I:14							
 127310	l	l	l(II)	l (II)	adv.	no	or (III) for precative
 127311	tpphnh	tpphnh	!t!p&ph(y[n+h	/p-h-y/	vb G prefc. 3 f. pl. + 3 m. sg. suff.	to see, espy	are there 2 p's? probably 3fem plur
-127312	aṯt	aṯt	aṯ(t/t=	ảṯt	n. f. sg. cstr. nom.	1) woman	looks like plur
-127313	krpn	krpn	krpn/	krpn	n. m. sg. abs. gen.	cup	
+127312	aṯt	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	1) woman	looks like plur
+127313	krpn	krpn	krpn/	krpn	n. m. sg. abs. acc.	cup	krpn l tˤn aṯrt 'a goblet Athirat may not eye' (fronted object).
 # KTU 1.3 I:15							
-127314	l	l	l(II)	l (I)	prep.	to	or (III) for precative
-127315	tˤn	tʿn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see, look (at), watch, spy	
+127314	l	l	l(II)	l (II)	neg. adv.	no, not	or (III) for precative
+127315	tˤn	tʿn	!t!ˤn[	/ʕ-n/	vb G prefc. 3 f. sg.	to see, look (at), watch, spy	
 127316	aṯrt	aṯrt	aṯrt(II)/	ảṯrt (II)	DN f. sg. abs. nom.	Asherah	krpn l tˤn aṯrt 'a goblet Athirat may not eye' (DN, not 'nape').
-127317	alp	alp	alp(II)/	ảlp (II)	num.	1) (one, a) thousand c) in appos	
+127317	alp	alp	alp(II)/	ảlp (II)	num. cstr. acc.	1) (one, a) thousand c) in appos	alp kd yqḥ 'a thousand jars it held' (DULAT).
 # KTU 1.3 I:16							
-127318	kd	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	2) “jar”	
+127318	kd	kd	kd(I)/	kd (I)	n. f. sg. abs. gen.	2) “jar”	
 127319	yqḥ	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
 127320	b	b	b	b	prep.	1) spatial location f) partitive use	
 127321	ḫmr	ḫmr	ḫmr/	ḫmr	n. m. sg. abs. gen.	(sparkling(?)) wine	
 # KTU 1.3 I:17							
-127322	rbt	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	this is a noun "ten thousand"
+127322	rbt	rbt	rb(b(t/t	rb(b)t	num. sg.	ten thousand	this is a noun 'ten thousand' (DULAT rb(b)t cited here).
 127323	ymsk	ymsk	!y!msk[	/m-s-k/	vb G prefc. 3 m. sg.	to mix, combine	
 127324	b	b	b	b	prep.	in	
 127325	mskh	mskh	msk/+h	msk	n. m. cstr. gen.	mixture	
 # KTU 1.3 I:18							
-127326	qm	qm	qm[/	/q-m/	vb G suffc. 3 m. sg.	to stand up	participle
+127326	qm	qm	qm[/	/q-m/	vb G act. ptcpl. m. sg. abs. nom.	to stand up	participle
 127327	ybd	ybd	!y!bd[	/b-d/	vb G prefc. 3 m. sg.	to intone a song	
 127328	w	w	w	w	conj.	and	
 127329	yšr	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	1) to sing	
 # KTU 1.3 I:19							
-127330	mṣltm	mṣltm	mṣl(t/tm	mṣlt (I)	n. f. pl. abs. nom.	cymbal	this is feminine dual form
-127331	bd	bd	bd(IV)	b	prep.	in	
-127332	nˤm	nʿm	nˤm	nʕm (I)	adj. m. sg. abs. gen.	1) handsome b) pleasant	
+127330	mṣltm	mṣltm	mṣl(t/tm	mṣlt (I)	n. f. du. abs. nom.	cymbal	this is feminine dual form
+127331	bd	bd	bd(IV)	bd (IV)	prep.	into the hands of, (intended) for	TCS: 'cymbals in the hands of the goodly one'.
+127331	bd	bd	bd(I)/	bd (I)	n. m. sg. abs. acc.	song, dirge	DULAT (s.v. nʕm (I)): 'he sang (with) the cymbals a pleasant song'.
+127332	nˤm	nʿm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. gen.	1) handsome b) pleasant	With bd (IV): 'in the hands of the goodly one' (TCS); with bd (I): 'a pleasant (song)'.
 # KTU 1.3 I:20							
 127333	yšr	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	1) to sing	
 127334	ġzr	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	1) lad	
@@ -92,33 +95,33 @@
 127336	ql	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	1) voice	
 # KTU 1.3 I:21							
 127337	ˤl	ʿl	ˤl	ʕl (I)	prep.	1) spatial location or pre-eminence c) in front	
-127338	bˤl	bʿl	bˤl(III)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+127338	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	ˤl bˤl 'before Baal' (DULAT ʕl (I)).
 127339	b	b	b	b	prep.	in	
-127340	ṣrrt	ṣrrt	ṣrr(t/t=	ṣrrt	n. f. sg. cstr. gen.	height(s)	the dictionary says it is plural
+127340	ṣrrt	ṣrrt	ṣrr(t/t=	ṣrrt	n. f. pl. cstr. gen.	height(s)	the dictionary says it is plural
 # KTU 1.3 I:22							
 127341	ṣpn	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-127342	ymtmr	ymtmr	!y!&m]t](ʔmr[	/ʔ-m-r/	vb Gt prefc. 3 m. sg.	to be seen, appear	Gt stem, is first m really there?
-127343	bˤl	bʿl	bˤl(III)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+127342	ymtmr	ymtmr	!y!&m]t](ʔmr[	/ʔ-m-r/	vb Gt prefc. 3 m. sg.	to be seen, appear	DULAT reads y[[m]]tmr (first m scribally erased): 'Baal looked at his daughters' — confirms the suspicion about the m.
+127343	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.3 I:23							
-127344	bnth	bnth	b&n(t/t=+h	bt (I)	n. f. pl. cstr. + 3 m. sg. suff.	daughter	this is plural form, n is part of the root actually, is & necessary?
+127344	bnth	bnth	b&n(t/t=+h	bt (I)	n. f. pl. cstr. acc. + 3 m. sg. suff.	daughter	Object of ytmr; n is part of the root (Tania).
 127345	yˤn	yʿn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see, look (at), watch, spy	
-127346	pdry	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
+127346	pdry	pdry	pdry/	pdry	DN f. sg. abs. acc.	Pidray	Object of yˤn: 'he looked at Pidray' (DULAT /ʕ-n/).
 # KTU 1.3 I:24							
-127347	bt	bt	bt/	bt (I)	n. f. sg. cstr. gen.	daughter	no reference to n assimilated to t?
+127347	bt	bt	bt/	bt (I)	n. f. sg. cstr. acc.	daughter	no reference to n assimilated to t?
 127348	ar	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	
 127349	apn	apn	apn(II)	ảpn (II)	adv. functor	and in addition	
-127350	ṭly	ṭly	ṭly/	ṭly	DN sg. cstr. nom.	Tallay	
+127350	ṭly	ṭly	ṭly/	ṭly	DN f. sg. abs. acc.	Tallay	
 # KTU 1.3 I:25							
-127351	bt	bt 	bt/	bt (I)	n. f. sg. cstr. gen.	daughter	
+127351	bt	bt 	bt/	bt (I)	n. f. sg. cstr. acc.	daughter	
 127352	rb	 rb	rb(b/	rb(b)	n. m. sg. cstr. gen.	drizzle	ṭly bt rb 'Tallay daughter of Drizzle' (rb(b), not rb 'chief').
-127353	pdry	pdry	pdry/	pdry	DN f. sg. abs. gen.	Pidray	pdry (Tania pdr<y>).
-127354	idˤ	idʿ	(y&idˤ[	/y-d-ʕ/ (I)	vb G prefc. 1 c. sg.	1) to know	adding y doesn't solve the problem
+127353	pdry	pdry	pdry/	pdry	DN f. sg. abs. nom.	Pidray	pdr<y> ydˤ 'did Pidray really know?' (DULAT); subject.
+127354	idˤ	idʿ	(y&idˤ[	/y-d-ʕ/ (I)	vb G prefc. 1 c. sg.	1) to know	DULAT reads pdr{y} ydˤ [yd]ˤt 'did DN really know?'; adding y doesn't solve the problem (Tania).
 # KTU 1.3 I:26							
 127355	x	x 	x	?	?	?	
 127356	x	x 	x	?	?	?	
 127357	xht	xht	xht	?	?	?	
 127358	im	im	im	ỉm	conj.	1) cond. conj. if	
-127359	klt	klt	kl(t/t=	klt (I)	n. f. sg. abs. nom.	bride	Broken context; Tania reads a noun (klt).
+127359	klt	klt	kl(t/t=	klt (I)	n. f. pl. abs. nom.	bride	im klt [kny]t 'if the perfect brides' (DULAT ỉm).
 # KTU 1.3 I:27							
 127360	knyt	knyt	kny(t/t=	knyt	adj. f. pl. abs. nom.	glorious	
 127361	w	w	w	w	conj.	and	
