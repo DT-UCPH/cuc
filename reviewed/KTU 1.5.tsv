@@ -381,15 +381,15 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:27							
 130391	xxxxxxxxxxxxtnṮnm	xxxxxxxxxxxxtnṮnm	?	?	?	?	
 # KTU 1.5 III:1							
-130392	xxxxm	xxxxm	?	?	?	?	DULAT: NOT FOUND
+130392	xxxxm	xxxxm	?	?	?	?	
 130393	x	x              	?	?	?	?	
 # KTU 1.5 III:2							
-130394	rḥbt	rḥbt	rḥb(I)/t	rḥb (I)	adj. f. sg. abs.	wide	
-130395	ṯbt	ṯbt	ṯb(t/t	ṯbt	n. f. sg. abs.	seat	
+130394	rḥbt	rḥbt	rḥb(I)/t	rḥb (I)	adj. f. sg. abs. nom.	wide	
+130395	ṯbt	ṯbt	ṯb(t/t	ṯbt	n. f. sg. abs. nom.	seat	
 130396	x	x            	?	?	?	?	
 # KTU 1.5 III:3							
-130397	rbt	rbt	rb(I)/t	rb (I)	adj. f. sg. abs.	great	
-130398	ṯbt	ṯbt	ṯb(t/t	ṯbt	n. f. sg. abs.	seat	
+130397	rbt	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	DULAT: 'great is the seat'.
+130398	ṯbt	ṯbt	ṯb(t/t	ṯbt	n. f. sg. abs. nom.	seat	
 130399	ḥšn	ḥšn             	ḥšn/	ḥšn	n. m. sg.	?	Meaning unknown; De Moor (ARTU 74 n. 345): 'bliss' (Arab. ḥasanat).
 # KTU 1.5 III:4							
 130400	y	y	y	y	voc. functor	oh!	
@@ -419,7 +419,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130419	aṣḥ	aṣḥ             	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim, call	
 # KTU 1.5 III:10							
 130420	ydd	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. acc.	loved	
-130420	ydd	ydd	ydd[/	ydd	vb G pass. ptcpl. m. sg. abs. acc.	loved	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
+130420	ydd	ydd	ydd[/	?	vb G pass. ptcpl. m. sg. abs. acc.	?	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
 130421	b	b	b	b	prep.	in	
 130422	qrb	qrb                	qrb/	qrb	n. m. sg. cstr. gen.	inside	UNP: 'The Beloved ami[d …]'.
 # KTU 1.5 III:11							
@@ -441,14 +441,16 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130433	lk	lk	!!(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	UNP: 'And go, O Gods'; not l(I)+k.
 130434	ilm	ilm                  	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.5 III:15							
-130435	nˤm	nʿm	nˤm(I)/	nʕm (I)	adj. m. sg. cstr.	handsome	DULAT: nʕm ỉlm 'the (most) handsome of the gods'.
+130435	nˤm	nʿm	nˤm(I)/	nʕm (I)	adj. m. sg. cstr.	handsome	DULAT: nʕm ỉlm 'the (most) handsome of the gods'; UNP: 'O gracious gods'.
 130436	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130437		                	?	?	?	?	
 # KTU 1.5 III:16							
 130438	šgr	šgr	šgr(I)/	šgr (I)	n. m. sg.	offspring of cattle	DULAT: šgr mủd 'offspring of cattle in great quantity'.
+130438	šgr	šgr	šgr(II)/	šgr (II)	DN m. sg.	?	UNP: SHGR; DULAT šgr (II): double-barrelled DN šgr w ỉṯm (deified cattle (?)).
 130439	mud	mud                  	mud/	mỉ/ủd	n. m. sg.	abundance	
 # KTU 1.5 III:17							
 130440	šgr	šgr	šgr(I)/	šgr (I)	n. m. sg.	offspring of cattle	
+130440	šgr	šgr	šgr(II)/	šgr (II)	DN m. sg.	?	UNP: SHGR; see III:16.
 130441	mud	mud                  	mud/	mỉ/ủd	n. m. sg.	abundance	
 # KTU 1.5 III:18							
 130442	dm	dm	dm(I)	dm (I)	functor	since	
@@ -456,7 +458,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130444	aṣḥ	aṣḥ             	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim, call	
 # KTU 1.5 III:19							
 130445	ydd	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. acc.	loved	
-130445	ydd	ydd	ydd[/	ydd	vb G pass. ptcpl. m. sg. abs. acc.	loved	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
+130445	ydd	ydd	ydd[/	?	vb G pass. ptcpl. m. sg. abs. acc.	?	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
 130446	b	b	b	b	prep.	in	
 130447	qrb	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
 130448		          	?	?	?	?	
@@ -469,17 +471,18 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130453	w	w	w	w	conj.	and	
 130454	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. m. du./pl.	to say	UNP: 'And say to [Mot]'.
 130455	l	l	l(I)	l (I)	prep.	to	
-130456	bn	bn              	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	UDB: b[n] partly reconstructed.
+130456	bn	bn              	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 # KTU 1.5 III:22							
 130457	b	b	b	b	prep.	in	
 130458	mud	mud	mud/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	DULAT: b mủd ṣỉn 'with a large quantity of ewes'.
 130459	ṣin	ṣin                	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. gen.	ewe(s), small cattle	
 # KTU 1.5 III:23							
-130460	mud	mud	mud/	mỉ/ủd	n. m. sg. cstr.	abundance	
+130460	mud	mud	mud/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	
 130461	ṣin	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. gen.	ewe(s), small cattle	
 130462	w	w               	w	w	conj.	and	
 # KTU 1.5 III:24							
 130463	iṯm	iṯm	iṯm(I)/	ỉṯm (I)	n. m. sg.	firm-fleshed cattle (?)	DULAT: ỉṯm mủỉd 'firm-fleshed cattle (?) in abundance'.
+130463	iṯm	iṯm	iṯm(II)/	ỉṯm (II)	DN m. sg.	?	DULAT ỉṯm (II): second element of the DN šgr w ỉṯm.
 130464	muid	muid                 	muid/	mủỉd	n. m. sg.	abundance	DULAT: mủỉd → cf. mỉ/ủd.
 # KTU 1.5 III:25							
 130465	dm	dm	dm(I)	dm (I)	functor	since	
@@ -487,7 +490,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130467	aṣḥ	aṣḥ             	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim, call	
 # KTU 1.5 III:26							
 130468	ydd	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. acc.	loved	
-130468	ydd	ydd	ydd[/	ydd	vb G pass. ptcpl. m. sg. abs. acc.	loved	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
+130468	ydd	ydd	ydd[/	?	vb G pass. ptcpl. m. sg. abs. acc.	?	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
 130469	b	b	b	b	prep.	in	
 130470	qrb	qrb                	qrb/	qrb	n. m. sg. cstr. gen.	inside	
 # KTU 1.5 III:27							
@@ -497,12 +500,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130473	lk	lk	!!(hlk[	/h-l-k/	vb G impv.	to go	
 130474		              	?	?	?	?	
 # KTU 1.5 III:28							
-130475	xxxṯ	xxxṯ	?	?	?	?	DULAT: NOT FOUND
+130475	xxxṯ	xxxṯ	?	?	?	?	
 130476	lk	lk                 	!!(hlk[	/h-l-k/	vb G impv.	to go	UNP: '… go'.
 130476	lk	lk                 	l(I)+k	l (I)	prep. + 2 m. sg. suff.	to	Alternative: 'to you'.
 # KTU 1.5 III:29							
-130477	xxxkṯ	xxxkṯ	?	?	?	?	DULAT: NOT FOUND
-130478	il	il                	il(I)/	ỉl (I)	n. m. sg.	god	Broken context; DN ʾIlu also possible.
+130477	xxxkṯ	xxxkṯ	?	?	?	?	
+130478	il	il                	il(I)/	ỉl (I)	n. m. sg.	god	
+130478	il	il                	il(I)/	ỉl (I)	DN m. sg.	ʾIlu/Ilu/El	
 # KTU 1.5 III:30							
 130479	km	     km                     	km	km	prep./conj./adv.	like	Broken context: only km preserved on the line.
 # KTU 1.5 IV:1							
