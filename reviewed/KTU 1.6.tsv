@@ -738,10 +738,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131404	bˤl	bʿl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	zbl bˤl arṣ 'the Prince, Lord of the Earth'.
 131405	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.6 IV:6							
-131406	ttbˤ	ttbʿ	!t!tbˤ[	/t-b-ʕ/	vb G prefc. 3 f. sg.	to go, depart	DULAT cites /t-b-ʕ/: ttbʕ btlt ʕnt (auto-parser: NOT FOUND).
+131406	ttbˤ	ttbʿ	!t!tbˤ[	/t-b-ʕ/	vb G prefc. 3 f. sg.	to go, depart	DULAT cites ttbˤ btlt ˤnt here s.v. /t-b-ʕ/.
 131407	btlt	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
 131408	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-131409	ix	ix	?	?	?	?	Broken: i[…].
+131409	ix	ix	?	?	?	?	
 # KTU 1.6 IV:7							
 131410	idk	idk	idk	ỉdk	narrative adv. functor	then	
 131411	l	l	l(III)	l (III)	functor	certainly	Journey formula: idk l ttn pnm.
@@ -754,18 +754,18 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131417	špš	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh	
 # KTU 1.6 IV:9							
 131418	tšu	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 f. sg.	to raise	
-131419	gh	gh	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	
+131419	gh	gh	g/+h=	g	n. m. sg. cstr. acc. + 3 f. sg. suff.	(loud) voice	'she raises her voice' (Anat).
 131420	w	w	w	w	conj.	and	
 131421	tṣḥ	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 f. sg.	to exclaim	
 # KTU 1.6 IV:10							
 131422	tḥm	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	'Message of Bull El, your father'.
 131423	ṯr	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. gen.	bull	Epithet of El.
 131424	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/El	
-131425	abk	abk	ab/+k	ảb	n. m. sg. cstr. gen.	father	'your father'.
+131425	abk	abk	ab/+k=	ảb	n. m. sg. cstr. gen. + 2 f. sg. suff.	father	'your father' (El, to Šapšu; cf. 2 f. sg. yġrk IV:23).
 # KTU 1.6 IV:11							
 131426	hwt	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
 131427	lṭpn	lṭpn	lṭpn/	lṭpn	adj. m. sg. abs. gen.	the Benevolent	
-131428	ḥtkk	ḥtkk	ḥtk(I)/+k	ḥtk (I)	n. m. sg. cstr. gen.	progenitor, ruler	'your progenitor' (DULAT: 'ruler > progenitor, father').
+131428	ḥtkk	ḥtkk	ḥtk(I)/+k=	ḥtk (I)	n. m. sg. cstr. gen. + 2 f. sg. suff.	progenitor, ruler	'your progenitor' (to Šapšu; DULAT ḥtk (I) 'ruler > progenitor').
 # KTU 1.6 IV:12							
 131429	pl	pl	pl(l[	/p-l(-l)/	vb G suffc. 3 f. pl.	to be cracked, parched	
 131430	ˤnt	ʿnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. nom.	furrow	
@@ -781,7 +781,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 IV:14							
 131439	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 131440	ˤnt	ʿnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. acc.	furrow	
-131441	mḥrṯth	mḥrṯth	mḥrṯ(t/t+h	mḥrṯt	n. f. sg. cstr. gen.	ploughed land	'his ploughland'.
+131441	mḥrṯth	mḥrṯth	mḥrṯ(t/t+h	mḥrṯt	n. f. sg. cstr. gen. + 3 m. sg. suff.	ploughed land	'his ploughland' (Baal).
 # KTU 1.6 IV:15							
 131442	iy	iy	iy	ỉy	interr. adv.	where?	DULAT cites ỉy here.
 131443	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
@@ -800,7 +800,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 IV:18							
 131454	šd	šd	!!šd(y[	/š-d-y/	vb G impv. f. sg.	to pour	DULAT cites /š-d-y/: šd yn ʕn b qbʕt 'pour sparkling wine from the goblet'.
 131455	yn	yn	yn/	yn	n. m. sg. cstr. acc.	wine	
-131456	ˤn	ʿn	ˤn(I)/	ʕn (I)	n. f. sg. abs. gen.	eye, spring	yn ˤn 'sparkling wine' (lit. 'wine of the eye'); DULAT cites ʕn (I) here.
+131456	ˤn	ʿn	ˤn(I)/	ʕn (I)	n. f. sg. abs. gen.	eye	yn ˤn 'sparkling wine' (lit. 'wine of the eye'); DULAT ʕn (I).
 131457	b	b	b	b	prep.	in, from	
 131458	qbˤt	qbʿt	qbˤ(t/t	qbʕt	n. f. sg. abs. gen.	goblet	
 131459	t	t	!t!(ybl[	/y-b-l/	vb G prefc. 3 f. sg.	to carry, bring	MERGE WITH THE NEXT: t+bl = tbl, split across lines IV:18/19; DULAT: tbl lyt ʕl ủmtk.
@@ -808,7 +808,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131460	bl	bl	!t!(ybl[	/y-b-l/	vb G prefc. 3 f. sg.	to carry, bring	MERGE WITH THE PREVIOUS.
 131461	lyt	lyt	ly(t/t	lyt	n. f. sg. abs. acc.	retinue, garland	DULAT: sg. lyt 'retinue'.
 131462	ˤl	ʿl	ˤl(I)	ʕl (I)	prep.	upon	
-131463	umtk	umtk	um(t/t+k	umt	n. f. sg. cstr. gen.	family, clan	
+131463	umtk	umtk	um(t/t+k=	umt	n. f. sg. cstr. gen. + 2 f. sg. suff.	clan, tribe	'your clan' (to Šapšu).
 # KTU 1.6 IV:20							
 131464	w	w	w	w	conj.	and	
 131465	abqṯ	abqṯ	!(ʔ&a!bqṯ[	/b-q-ṯ/	vb G prefc. 1 c. sg.	to search for	'and I will search for Mightiest Baal'; Ksenia reads D (:d).
@@ -825,21 +825,21 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131474	an	an	an(II)	ản (II)	adv.	wherever	
 131475	y	y	y	y	voc. functor	oh!	
 131476	špš	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
-131477	a	a	?	?	?	?	Broken: a[…] at line end.
+131477	a	a	?	?	?	?	
 # KTU 1.6 IV:23							
 131478	an	an	an(II)	ản (II)	adv.	wherever	
 131479	l	l	l(I)	l (I)	prep.	to	
 131480	an	an	an(II)	ản (II)	adv.	wherever	
 131481	il	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/El	'may El guard you'.
-131482	yġrk	yġrk	!y!(nġr[+k=	/n-ġ-r/	vb G prefc. 3 m. sg. + 2 f. sg. suff.	to protect, guard	KTU: yġr[k]; assimilated n marked (n.
+131482	yġrk	yġrk	!y!(nġr[+k=	/n-ġ-r/	vb G prefc. 3 m. sg. + 2 f. sg. suff.	to protect, guard	Assimilated n marked (n.
 # KTU 1.6 IV:24							
 131483	tġrk	tġrk	!t!(nġr[+k=	/n-ġ-r/	vb G prefc. + 2 f. sg. suff.	to protect, guard	Epistolary blessing 'may … guard you in peace'; subject lost.
 131484	šlm	šlm             	šlm(I)/	šlm (I)	n. m. sg. abs. acc.	peace, well-being	Adverbial: 'in peace'.
 # KTU 1.6 IV:25							
-131485	yštd	yštd	!y!š]t]d(y[	/š-d-y/	vb Gt prefc. 3 m. sg.	to pour	DULAT cites /š-d-y/ here (broken context).
+131485	yštd	yštd	!y!š]t]d(y[	/š-d-y/	vb Gt prefc. 3 m. sg.	to pour	DULAT cites /š-d-y/ here.
 131486	x	x                 	?	?	?	?	
 # KTU 1.6 IV:26							
-131487	dr	dr	dr/	dr	n. m. sg. cstr.	circle, assembly	Broken context; DULAT cites dr here.
+131487	dr	dr	dr/	dr	n. m. sg. cstr.	circle, assembly	DULAT cites dr here.
 131488	x	x                    	?	?	?	?	
 # KTU 1.6 IV:27							
 131489	r	r                           	?	?	?	?	
