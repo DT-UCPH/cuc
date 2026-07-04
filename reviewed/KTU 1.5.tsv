@@ -340,12 +340,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130360	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 130361	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130362	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
-130363	ˤbdk	ʿbdk	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+130363	ˤbdk	ʿbdk	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant	
 130364	an	an 	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 # KTU 1.5 II:20							
 130365	w	w	w	w	conj.	and	
 130366	d	d	d	d	det. or rel. functor	the one(s) of	0.2.7 splits dˤlmk into d + ˤlmk (was one token in legacy review).
-130367	ˤlmk	ʿlmk	ˤlm(I)/+k	ʕlm (I)	n. m. sg. cstr. nom.	eternity, perpetuity	'(servant) of your eternity'; UNP: wdˤlmk.
+130367	ˤlmk	ʿlmk	ˤlm(I)/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	'(servant) of your eternity'; UNP: wdˤlmk.
 130368	šmḫ	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad, rejoice	
 130369	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 130370	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
@@ -528,7 +528,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130491	arṣ	arṣ                 	arṣ/	ảrṣ	n. f. sg. abs.	earth	
 # KTU 1.5 IV:6							
 130492	yšu	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
-130493	gh	gh 	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	
+130493	gh	gh 	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	
 130494	w	 w 	w	w	conj.	and	
 130495	yṣḥ	yṣḥ     	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 # KTU 1.5 IV:7							
@@ -768,7 +768,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130670	šnm	 šnm	šn(t/m	šnt (I)	n. f. pl. abs. gen.	year	UNP: 'Father of Years'; so also Ksenia at 1.6 I:36 (šn/m).
 # KTU 1.5 VI:3							
 130671	tša	tša 	!t!(nš(ʔ[&a:w	/n-š-ʔ/	vb G prefc. 3 m. pl.	to raise	
-130672	ghm	 ghm 	g/+hm	g	n. m. sg. cstr. acc.	(loud) voice, shout	
+130672	ghm	 ghm 	g/+hm=	g	n. m. sg. cstr. acc. + 3 c. du. suff.	(loud) voice, shout	Dual: the two messengers' voice (// II:16).
 130673	w	 w 	w	w	conj.	and	
 130674	tṣḥ	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. pl.	to exclaim	
 130675	sbn	sbn	sb(b[ny	/s:ś-b-b/	vb G suffc. 1 c. du.	to go around	MERGE WITH THE NEXT: sbn+[y] = sbny, split across lines VI:3/4; TCS: 'We have done the rounds of…'.
@@ -836,12 +836,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 VI:15							
 130725	un	un	un/	ủn	n. m. sg. abs. gen.	grief, misfortune	
 130726	l	l	l(I)	l (I)	prep.	to, on	
-130727	rišh	rišh	riš(I)/+h	rỉš (I)	n. m. sg. cstr. gen.	head	
+130727	rišh	rišh	riš(I)/+h	rỉš (I)	n. m. sg. cstr. gen. + 3 m. sg. suff.	head	
 130728	ˤpr	ʿpr	ˤpr(I)/	ʕpr (I)	n. m. sg. cstr. acc.	dust	ˤpr plṯt 'dust of humiliation' (TCS).
 130729	plṯt	plṯt	plṯ(t/t	plṯt	n. f. sg. abs. gen.	fall	DULAT plṯt 'fall'; TCS: 'humiliation'.
 # KTU 1.5 VI:16							
 130730	l	l	l(I)	l (I)	prep.	to, on	
-130731	qdqdh	qdqdh	qdqd/+h	qdqd	n. m. sg. cstr. gen.	skull, crown	
+130731	qdqdh	qdqdh	qdqd/+h	qdqd	n. m. sg. cstr. gen. + 3 m. sg. suff.	skull, crown	
 130732	lpš	lpš	lpš/	lpš	n. m. sg. abs. acc.	cloak, outer garment	'for clothing he covers himself with sackcloth' (UNP).
 130733	yks	yks	!y!ks(y[	/k-s-y/	vb G prefc. 3 m. sg.	to cover oneself	
 # KTU 1.5 VI:17							
@@ -863,7 +863,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 VI:20							
 130746	yṯlṯ	yṯlṯ	!y!ṯlṯ[:d	/ṯ-l-ṯ/	vb D prefc. 3 m. sg.	to repeat for the third time	UNP: 'Furrows the length of his arm' (triple-furrows).
 130747	qn	qn	qn/	qn	n. m. sg. cstr. acc.	cane	qn ḏrˤh 'the cane of his arm' = upper arm (DULAT: 'his humerus').
-130748	ḏrˤh	ḏrʿh	ḏrˤ(I)/+h	ḏrʕ (I)	n. f. sg. cstr. gen.	arm	
+130748	ḏrˤh	ḏrʿh	ḏrˤ(I)/+h	ḏrʕ (I)	n. f. sg. cstr. gen. + 3 m. sg. suff.	arm	
 130749	yḥrṯ	yḥrṯ	!y!ḥrṯ[	/ḥ-r-ṯ/	vb G prefc. 3 m. sg.	to plough	
 # KTU 1.5 VI:21							
 130750	k	k	k(I)	k (I)	prep.	like	
@@ -876,7 +876,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 VI:22							
 130757	bmt	bmt	bm(t/t	bmt	n. f. sg. abs. acc.	back, rump, loin	
 130758	yšu	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
-130759	gh	gh	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	
+130759	gh	gh	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	
 130760	w	w	w	w	conj.	and	
 130761	yṣḥ	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 # KTU 1.5 VI:23							
