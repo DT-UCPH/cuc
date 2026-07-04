@@ -1636,11 +1636,11 @@
 129742		 	?	?	?	?	
 129743	l	l	l(I)	l (I)	prep.	to	
 129744	ẓr	ẓr	ẓr(I)/	ẓr (I)	n. m. sg. cstr. gen.	upon	
-129745	qdqdh	qdqdh	qdqd/+h	qdqd	n. m. sg. cstr. gen.	skull	l ẓr qdqdh 'on the top of his head'.
+129745	qdqdh	qdqdh	qdqd/+h	qdqd	n. m. sg. cstr. gen. + 3 m. sg. suff.	skull	l ẓr qdqdh 'on the top of his head'.
 # KTU 1.4 VII:5							
 129746	ilhd	il hd 	ilh/~d	ỉlh	DN m. sg. abs. nom.	the ‘Divine One’	Surface ilhd; broken/uncertain (DULAT ỉlh).
 129747	b	 b	b	b	prep.	in	
-129748	rḥq	rḥq	!!rḥq[	/r-ḥ-q/	vb G impv. m. sg.	to go away	
+129748	rḥq	rḥq	!(y!rḥq[	/r-ḥ-q/	vb G prefc. 3 m. sg.	to go away	DULAT: '[y]rḥq — he went away from the mountain (?)'.
 129749	b	b	b	b	prep.	in	
 129750	ġr	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
 # KTU 1.4 VII:6							
@@ -1651,14 +1651,14 @@
 129755	b	b	b	b	prep.	in	
 129756	ṣpn	ṣpn	ṣpn/	ṣpn	TN/DN gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	b ṣpn 'on Zaphon'.
 # KTU 1.4 VII:7							
-129757	ˤdr	ʿdr	?	?	?	?	Broken; no DULAT entry.
-129758	lˤr	l ʿr	l(I) ˤr(I)/	l (I); ʕr (I)	prep.; n. f. sg.	to, towards, up to; city	Split l + ˤr 'to the city'.
-129759	ˤrm	ʿrm	ˤr(I)/~m	ʕr (I)	n. f. sg. abs. acc. + encl. -m	city	
+129757	ˤdr	ʿdr	ˤ(b&dr[	/ʕ-b-r/	vb G suffc. 3 m. sg.	to go over, cross, pass	DULAT reads ˤb(!)r (d for b): 'he passed from [town] to town'.
+129758	lˤr	l ʿr	l(I) ˤr(I)/	l (I); ʕr (I)	prep.; n. f. sg. abs. gen.	to, towards, up to; city	Split l + ˤr 'to the city'.
+129759	ˤrm	ʿrm	ˤr(I)/~m	ʕr (I)	n. f. sg. abs. gen. + encl. -m	city	
 # KTU 1.4 VII:8							
 129760	ṯb	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	'he passes from town to town'.
 129761	l	l	l(I)	l (I)	prep.	to	
 129762	pdr	pdr 	pdr(I)/	pdr (I)	n. m. sg. cstr. gen.	town	
-129763	pdrm	 pdrm	pdr(I)/m	pdr (I)	n. m. pl. abs. acc.	town	
+129763	pdrm	 pdrm	pdr(I)/~m	pdr (I)	n. m. sg. abs. gen. + encl. -m	town	
 # KTU 1.4 VII:9							
 129764	ṯṯ	ṯṯ	ṯṯ/	ṯṯ	num.	2) composite numbers	
 129765	l	l	l(I)	l (I)	prep.	to	
@@ -1679,8 +1679,8 @@
 129777	mrr	mrr	mr[r	/m-r(-r)/ (I)	vb G suffc. 3 m. sg.	to go away, leave	DULAT cites mr[r at this line s.v. /m-r(-r)/ (I).
 # KTU 1.4 VII:13							
 129778	b	b	b	b	prep.	in	
-129779	bt	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	Broken context.
-129780	ˤrb	 ʿrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	1) to enter	
+129779	bt	bt	bt(II)/	bt (II)	n. m. sg. abs. gen.	1) house	
+129780	ˤrb	 ʿrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to enter	DULAT: '[ˤ]rb bˤl b qrb bt — Baal entered within (his) house'.
 129781	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 129782	b	b	b	b	prep.	in	
 129783	qrb	qrb	qrb/	qrb	n. m. sg. cstr. gen.	1) inside	
@@ -1700,17 +1700,18 @@
 129794	bnm	bnm	b~nm	b	prep. + encl.	in	
 129795	ˤdt	ʿdt	ˤd(t(II)/t	ʕdt (II)	n. f. sg. abs. gen.	date	bnm ˤdt 'at the appointed time'.
 # KTU 1.4 VII:17							
-129796	yptḥ	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb N prefc. 3 m. sg.	to be opened	'a window is opened in the house'; assimilated N-stem n encoded ](n].
-129797	ḥln	ḥln	ḥln/	ḥln	n. m. sg. abs. nom.	window	
+129796	yptḥ	yptḥ	!y!ptḥ[	/p-t-ḥ/	vb G prefc. 3 m. sg.	to open	DULAT: 'he opens a window in the palace'.
+129796	yptḥ	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb N prefc. 3 m. sg.	to open	N reading: 'a window is opened' (DULAT notes a possible N).
+129797	ḥln	ḥln	ḥln/	ḥln	n. m. sg. abs. acc.	window	
 129798	b	b	b	b	prep.	in	
 129799	bhtm	bhtm	bht(II)/m	bt (II)	n. m. pl. cstr. gen.	2) palace	
 # KTU 1.4 VII:18							
-129800	urbt	urbt	urb(t/t	ủrbt	n. f. sg. abs. nom.	window	
+129800	urbt	urbt	urb(t/t	ủrbt	n. f. sg. abs. acc.	window	
 129801	b	b	b	b	prep.	in	
 129802	qrb	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
-129803	hkl	hkl	hkl/	hkl	n. m. sg. abs. gen.	palace	
+129803	hkl	hkl	hkl/m	hkl	n. m. pl. abs. gen.	palace	MERGE WITH THE NEXT: hkl+m = hklm, split VII:18/19.
 # KTU 1.4 VII:19							
-129804	m	m	m(h)	m(h)	interr. pn.	what?	Broken; 'and Baal opens a rift in the clouds'.
+129804	m	m	hkl/m	hkl	n. m. pl. abs. gen.	palace	MERGE WITH THE PREVIOUS.
 129805	wyptḥ	wyptḥ	w !y!ptḥ[	w; /p-t-ḥ/	conj.; vb G prefc. 3 m. sg.	and; to open	Split w + yptḥ written together.
 129806	bdqt	bdqt	bdq(t/t	bdqt	n. f. sg. cstr. acc.	fissure	
 129807	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	bdqt ˤrpt 'a rift in the clouds'.
@@ -1745,22 +1746,23 @@
 # KTU 1.4 VII:25							
 129830	l	l	l(I)	l (I)	prep.	to	
 129831	hwty	hwty	hw(t(I)/t+y	hwt (I)	n. f. sg. cstr. + 1 c. sg. suff.	word	
-129832	yptḥ	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb N prefc. 3 m. sg.	to be opened	'a window is opened'.
-129833	ḥ	ḥ	ḥln/	ḥln	n. m. sg. abs. nom.	window, opening	MERGE WITH THE NEXT: ḥ+ln = ḥln, split across lines VII:25/26.
+129832	yptḥ	yptḥ	!y!ptḥ[	/p-t-ḥ/	vb G prefc. 3 m. sg.	to open	DULAT: 'he opened a window in the palace'.
+129832	yptḥ	yptḥ	!y!](n]ptḥ[	/p-t-ḥ/	vb N prefc. 3 m. sg.	to open	N reading: 'a window is opened'.
+129833	ḥ	ḥ	ḥln/	ḥln	n. m. sg. abs. acc.	window, opening	MERGE WITH THE NEXT: ḥ+ln = ḥln, split across lines VII:25/26.
 # KTU 1.4 VII:26							
-129834	ln	ln	ḥln/	ḥln	n. m. sg. abs. nom.	window, opening	MERGE WITH THE PREVIOUS.
+129834	ln	ln	ḥln/	ḥln	n. m. sg. abs. acc.	window, opening	MERGE WITH THE PREVIOUS.
 129835	b	b	b	b	prep.	in	
 129836	bhtm	bhtm	bht(II)/m	bt (II)	n. m. pl. cstr. gen.	house	
-129837	urbt	urbt	urb(t/t	ủrbt	n. f. sg. abs. nom.	window	
+129837	urbt	urbt	urb(t/t	ủrbt	n. f. sg. abs. acc.	window	
 # KTU 1.4 VII:27							
 129838	b	b	b	b	prep.	in	
 129839	qrb	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
 129840	hklm	hklm	hkl/m	hkl	n. m. pl. abs. gen.	palace	
 129841	yptḥ	yptḥ	!y!ptḥ[	/p-t-ḥ/	vb G prefc. 3 m. sg.	to open	'Baal opens a rift in the clouds'.
 # KTU 1.4 VII:28							
-129842	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. cstr. nom.	Baʿlu/Baal	
+129842	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 129843	bdqt	bdqt	bdq(t/t	bdqt	n. f. sg. cstr. acc.	fissure	
-129844	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. cstr. gen.	cloud(s)	
+129844	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.4 VII:29							
 129845	qlh	qlh	ql(I)/+h	ql (I)	n. m. sg. cstr. acc.	4) the thunderous “voice” (said of Baal’s voice)	qlh qdš 'his holy voice'.
 129846	qdš	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. acc.	1) holy	
@@ -1769,7 +1771,7 @@
 # KTU 1.4 VII:30							
 129849	yṯny	yṯny	!y!ṯny[	/ṯ-n-y/	vb G prefc. 3 m. sg.	to repeat, reiterate	
 129850	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
-129851	ṣat	ṣat 	!!ṣ(y&at[/	/y-ṣ-ʔ/	vb G inf. abs.	to go out	ṣat špth 'the issuing of his lips'.
+129851	ṣat	ṣat 	ṣ(ʔ&a(t/t	ṣảt	n. f. sg. cstr. nom.	issue	DULAT cites the noun ṣảt here: 'the expression of his lips'.
 129852		 	?	?	?	?	
 129853	špth	špth	šp(t/t+h	špt	n. f. du. cstr. + 3 m. sg. suff.	lip	
 # KTU 1.4 VII:31							
@@ -1778,10 +1780,11 @@
 129856	trr	 trr	trr[	/t-r-r/	vb G suffc. 3 m. sg.	to make tremble	qlh ... trr arṣ 'his voice convulses the earth'.
 129857	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. acc.	2) the world	
 # KTU 1.4 VII:32							
-129858	ṣat	ṣat	!!ṣ(y&at[/	/y-ṣ-ʔ/	vb G inf. abs.	to go out	
+129858	ṣat	ṣat	ṣ(ʔ&a(t/t	ṣảt	n. f. sg. cstr. nom.	issue	
 129859	špth	špth	šp(t/t+h	špt	n. f. du. cstr. + 3 m. sg. suff.	lip	
 129860	ġrm	ġrm	ġr(I)/m	ġr (I)	n. m. pl. abs. nom.	mountain	ṣat špth ... ġrm 'at the issuing of his lips the mountains (quake)'.
-129861	aḫšn	aḫšn	!(ʔ&a!ḫš[~n	/ḫ-š/	vb G prefc. 1 c. sg. + energic -n	to tremble, be alarmed	Or read tḫšn; the mountains are alarmed.
+129861	aḫšn	aḫšn	!(t&a!ḫš[~n	/ḫ-š/	vb G prefc. 3 m. pl.	to be afraid, be alarmed	DULAT reads t(!)ḫšn (a for t): 'the mountains were afraid'.
+129861	aḫšn	aḫšn	!(ʔ&a!ḫš[~n	/ḫ-š/	vb G prefc. 1 c. sg.	to be afraid, be alarmed	As written aḫšn.
 # KTU 1.4 VII:33							
 129862	rtq	rtq	rtq[/	/r-t-q/	vb G pass. ptcpl. m. sg. abs. nom.	to tie up / close	Broken context.
 129863	xxxxxxxx	xxxxxxxx	?	?	?	?	
@@ -1790,13 +1793,13 @@
 129865	bmt	bmt	bm(t/t	bmt	n. f. pl. cstr. nom.	2) height	bmt arṣ 'the high places of the earth'.
 129866	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	3) lower world	
 # KTU 1.4 VII:35							
-129867	tṭṭn	tṭṭn	!t!(nṭṭ[~n	/n-ṭ-ṭ/	vb G prefc. 3 m. pl. + energic -n	to shake	'the high places of the earth shake'.
+129867	tṭṭn	tṭṭn	!t!(nṭṭ[n	/n-ṭ-ṭ/	vb G prefc. 3 f. pl.	to shake	'the high places of the earth shake' (subject bmt pl.).
 129868	ib	ib	ib(I)/	ỉb (I)	n. m. pl. cstr. nom.	enemy	ib bˤl 'the enemies of Baal'.
 129869	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 129870	tiḫd	tiḫd	!t!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. pl.	to collect, to take (back), grasp, seize, hold	'the foes of Baal grasp the wooded slopes'.
 # KTU 1.4 VII:36							
 129871	yˤrm	yʿrm	yˤr(II)/m	yʕr (II)	n. m. pl. abs. acc.	wood	
-129872	šnu	šnu	šnu/	šnủ	n. m. pl. cstr. acc.	enemy	šnu hd 'the haters of Haddu'.
+129872	šnu	šnu	šnu/	šnủ	n. m. pl. cstr. nom.	enemy	Subject: 'the haters of Hadd seized the mountain flanks'.
 129873	hd	hd	hd/	hd(d)	DN m. sg. cstr. gen.	Haddu/Hadad	
 129874	gpt	gpt	gp(I)/t	gp (I)	n. f. sg. cstr. acc.	2) slope	
 # KTU 1.4 VII:37							
@@ -1806,23 +1809,23 @@
 129878	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 # KTU 1.4 VII:38							
 129879	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
-129880	ib	ib	ib(I)/	ỉb (I)	n. m. pl. abs. acc.	enemy	'O enemies of Hadd, why do you tremble?'
+129880	ib	ib	ib(I)/	ỉb (I)	n. m. pl. cstr. nom.	enemy	Vocative: 'O enemies of Hadd, why do you tremble?'.
 129881	hdxt	hdxt	hd/ t	hd(d)	DN m. sg. abs.	Haddu/Hadad	Surface hdxt; broken (hd + ?).
-129882	lm	lm	l(I)~m	l (I)	prep. + encl. -m	to	
-129883	tḫš	tḫš	!t!ḫš[	/ḫ-š/	vb G prefc. 2 m. pl.	to tremble, be alarmed	
+129882	lm	lm	lm(II)	lm (II)	interr. pn.	why?, what for?	DULAT: 'why are you frightened?' (// 1.2 I:24).
+129883	tḫš	tḫš	!t===!ḫš[	/ḫ-š/	vb G prefc. 2 m. pl.	to tremble, be alarmed	
 # KTU 1.4 VII:39							
-129884	lm	lm	l(I)~m	l (I)	prep. + encl. -m	to	
-129885	tḫš	tḫš	!t!ḫš[	/ḫ-š/	vb G prefc. 2 m. pl.	to tremble	
+129884	lm	lm	lm(II)	lm (II)	interr. pn.	why?, what for?	
+129885	tḫš	tḫš	!t===!ḫš[	/ḫ-š/	vb G prefc. 2 m. pl.	to tremble	
 129886	nṯq	nṯq	nṯq/	nṯq	n. m. sg. cstr. acc.	missiles	nṯq dmrn 'the weapon of the Valiant One'.
-129887	dmrn	dmrn	dmrn/	dmrn	DN gen.	the Powerful One/Valiant One/title of Baal	Title of Baal.
+129887	dmrn	dmrn	dmrn/	dmrn	DN sg. abs. gen.	the Powerful One/Valiant One/title of Baal	Title of Baal.
 # KTU 1.4 VII:40							
 129888	ˤn	ʿn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	1) eye a) ʕn bʕl qdm ydh the eye(/s) of DN precede(s) his hands	ˤn bˤl 'the eyes of Baal precede his hands'.
 129889	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
-129890	qdm	qdm	qdm[:d:w	/q-d-m/	vb D suffc. 3 m. pl.	to precede	
+129890	qdm	qdm	qdm[:d	/q-d-m/	vb D suffc. 3 f. du.	to precede	Subject ˤn (du.): 'the eyes of Baal precede his hands' (DULAT).
 129891	ydh	ydh	yd(I)/+h	yd (I)	n. f. du. cstr. + 3 m. sg. suff.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
 # KTU 1.4 VII:41							
 129892	k	k	k(III)	k (III)	subordinating / completive functor	when	
-129893	tġḏ	tġḏ	]t]ġḏ(y[	/ġ-ḏ-y/	vb tD suffc. 3 m. sg.	to shoot, leap	'when the cedar quivers in his right hand'.
+129893	tġḏ	tġḏ	!t!ġḏ(y[	/ġ-ḏ-y/	vb G prefc. 3 f. sg.	to shoot, leap	'when the cedar quivers in his right hand' (DULAT /ġ-ḏ-y/).
 129894	arz	arz	arz(I)/	ảrz (I)	n. m. sg. abs. nom.	2) staff	
 129895	b	b	b	b	prep.	in	
 129896	ymnh	ymnh	ymn(I)/+h	ymn (I)	n. m. sg. cstr. + 3 m. sg. suff.	1) right (side) a) right (hand)	
@@ -1837,19 +1840,19 @@
 129903	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king b) contrasted with “non-king”	u mlk u bl mlk 'whether king or no-king'.
 129904	u	u	u	ủ	conj.	1) or b) disj. use in a correlative	
 129905	bl	bl	bl(I)	bl (I)	emph. / neg. functor	no	
-129906	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	1) king b) contrasted with “non-king”	
+129906	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king b) contrasted with “non-king”	
 # KTU 1.4 VII:44							
 129907	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. acc.	2) the world	
-129908	drkt	drkt	drk(t/t	drkt	n. f. sg. abs. acc.	rule	arṣ drkt 'shall establish the land of (his) dominion'.
+129908	drkt	drkt	drk(t/t	drkt	n. f. sg. abs. gen.	rule	arṣ drkt 'a land of dominion' (DULAT).
 129909	yštkn	yštkn	!y!š]t]kn[	/š-k-n/	vb Št prefc. 3 m. sg.	to establish oneself	
 # KTU 1.4 VII:45							
 129910	dll	dll	dll(I)/	dll (I)	n. m. sg. abs. acc.	courier	
-129911	al	al	al(II)	ảl (II)	pos. functor	surely	'surely I will send a messenger'.
+129911	al	al	al(II)	ảl (II)	asseverative functor	surely	'surely I will send a messenger'.
 129912	ilak	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
 129913	l	l	l(I)	l (I)	prep.	to	
 129914	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	bn ilm mt 'the son of El, Môt'.
 # KTU 1.4 VII:46							
-129915	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+129915	ilm	ilm	il(I)/~m	ỉl (I)	DN m. sg. abs. gen. + encl. -m	god	bn ilm mt 'the son of El, Môt' (// 1.3 V:18).
 129916	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 129917	ˤdd	ʿdd	ˤdd(I)/	ʕdd (I)	n. m. sg. abs. acc.	herald	ˤdd l ydd il ġzr 'a herald to the Beloved of El, the Hero'.
 129918	l	l	l(I)	l (I)	prep.	to	
@@ -1858,7 +1861,8 @@
 129920	il	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 129921	ġzr	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 129922	yqra	yqra	!y!qr(ʔ[&a	/q-r-ʔ/	vb G prefc. 3 m. sg.	to call, shout, invite	'Mot calls in his throat'.
-129923	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+129923	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. acc.	Mot/Death	DULAT: 'may he call to Mot in his soul' (object of yqra).
+129923	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	Subject reading: 'Mot calls in his throat'.
 # KTU 1.4 VII:48							
 129924	b	b	b	b	prep.	in	
 129925	npšh	npšh	npš(I)/+h	npš (I)	n. f. sg. cstr. + 3 m. sg. suff.	4) soul	b npšh 'in his throat'.
@@ -1866,8 +1870,8 @@
 129927	ydd	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
 # KTU 1.4 VII:49							
 129928	b	b	b	b	prep.	in	
-129929	gngnh	gngnh	gngn/+h	gngn	n. m. sg. cstr. + 3 m. sg. suff.	insides	
-129930	aḥdy	aḥdy	aḥd/+y	ảḥd	adj. cstr. + 1 c. sg. suff.	2) adv	aḥdy d ymlk 'I alone am the one who rules over the gods'.
+129929	gngnh	gngnh	gngn/+h	gngn	n. m. sg. cstr. gen. + 3 m. sg. suff.	insides	
+129930	aḥdy	aḥdy	aḥd/+y	ảḥd	adj. m. sg. abs. nom. + 1 c. sg. suff.	2) adv	aḥdy d ymlk 'I alone am the one who rules over the gods' (DULAT ảḥd + -y).
 129931	d	d	d	d	det. or rel. functor	2) which	
 129932	ym	ym	!y!mlk[	/m-l-k/	vb G prefc. 3 m. sg.	to reign, rule	MERGE WITH THE NEXT: ym+lk = ymlk, split VII:49/50; aḥdy d ymlk ˤl ilm 'I alone am the one who reigns over the gods'.
 # KTU 1.4 VII:50							
@@ -1888,27 +1892,27 @@
 129945	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
 129946	gm	gm	g/~m	g	n. m. sg. + encl. -m	(loud) voice	gm l ġlmh 'aloud (Baal calls) to his lads'.
 129947	l	l	l(I)	l (I)	prep.	to	
-129948	ġ	ġ	ġlm/+h	ġlm	n. m. du. cstr.	boy, youth	MERGE WITH THE NEXT: ġ+lmh = ġlmh, split across lines VII:52/53.
+129948	ġ	ġ	ġlm/+h	ġlm	n. m. du. cstr. gen. + 3 m. sg. suff.	boy, youth	MERGE WITH THE NEXT: ġ+lmh = ġlmh, split across lines VII:52/53.
 # KTU 1.4 VII:53							
-129949	lmh	lmh	ġlm/+h	ġlm	n. m. du. cstr. + 3 m. sg. suff.	boy, youth	MERGE WITH THE PREVIOUS; 'to his lads Baal does cry'.
+129949	lmh	lmh	ġlm/+h	ġlm	n. m. du. cstr. gen. + 3 m. sg. suff.	boy, youth	MERGE WITH THE PREVIOUS; 'to his lads Baal does cry'.
 129950	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 129951	k	k	k(IV)	k (IV)	adv.	thus, in this way	
 129952	yṣḥ	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	
-129953	ˤn	ʿn	!!ˤn[	/ʕ-n/	vb G impv. m. sg.	to see, look (at), watch, spy	
+129953	ˤn	ʿn	!!ˤn[	/ʕ-n/	vb G impv. m. du.	to see, look (at), watch, spy	ʕn gpn w ugr 'look, Gapnu-and-Ugaru!' (// 1.3 VI:6).
 # KTU 1.4 VII:54							
 129954	gpn	gpn	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	?	gpn w ugr 'Gapnu-and-Ugaru' (Baal's two messengers).
 129955	w	w	w	w	conj.	and	
 129956	ugr	ugr	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
-129957	bnġlmt	bnġlmt	b~n ġlmt(II)/	b; ġlmt (II)	prep. + encl. -n; n. f. sg. abs.	in; through, on; by, at; within, inside, in, to, against, between, upon; from; with, in; of, from among; concealment, darkness	bn ġlmt 'in the gloom' (// bn ẓlmt).
+129957	bnġlmt	bnġlmt	b~n ġlmt(II)/	b; ġlmt (II)	prep. + encl. -n; n. f. sg. abs. gen.	in; through, on; by, at; within, inside, in, to, against, between, upon; from; with, in; of, from among; concealment, darkness	bn ġlmt 'in the gloom' (// bn ẓlmt).
 # KTU 1.4 VII:55							
-129958	ˤmm	ʿmm 	ˤm(I)~m	ʕm (I)	prep. + encl. -m	to	Broken context.
-129959	ym	 ym	ym(I)/	ym (I)	n. m. sg. abs.	day	Broken.
+129958	ˤmm	ʿmm 	ˤm(II)/~m	ʕm (II)	n. m. sg. cstr. nom. + encl. -m	lineage, ancestors	// 1.3 VI:8 ˤmm ym.
+129959	ym	 ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	Broken.
 129960	bn	bn	b~n	b	prep. + encl. -n	1) spatial location a) place in which something occurs	
 129961	ẓlmt	ẓlmt	ẓlm(t/t	ẓlmt	n. f. sg. abs. gen.	darkness	bn ẓlmt 'in the darkness'.
 129962	r	r	?	?	?	?	Broken: r[…].
 # KTU 1.4 VII:56							
-129963	mt	mt 	mt(II)/	mt (II)	DN m. sg. cstr.	Mot/Death	Broken; the message to Mot continues.
-129964	prˤt	 prʿt	prˤt/	prʕt	n. f. pl. cstr. gen.	height	
+129963	mt	mt 	mt(II)/	mt (II)	DN m. sg. abs.	Mot/Death	Broken; the message to Mot continues.
+129964	prˤt	 prʿt	prˤ(t/t=	prʕt	n. f. pl. cstr. gen.	height	
 129965	ibr	ibr	ibr(II)/	ỉbr (II)	n. m. pl. cstr. gen.	wing	
 129966	mnt	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	1) portion	
 # KTU 1.4 VII:57							
