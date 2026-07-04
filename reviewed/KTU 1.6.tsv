@@ -856,31 +856,31 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131496	rbm	rbm	rb(I)/m	rb (I)	adj. m. pl. abs. acc.	great	'the great ones he strikes with a scimitar'.
 131497	ymḫṣ	ymḫṣ	!y!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 m. sg.	to strike, smite	
 131498	b	b	b	b	prep.	with	
-131499	ktp	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. gen.	shoulder; scimitar	DULAT translates 'with a scimitar' here.
+131499	ktp	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. gen.	shoulder	b ktp 'with a scimitar' (DULAT's rendering here).
 # KTU 1.6 V:3							
 131500	dkym	dkym	d k(I) ym(II)/	d; k (I); ym (II)	det. or rel. functor; prep.; n. m. sg. abs. gen.	the ones of; like; sea	DULAT segments d-k-ym 'those who are like Yam'; others read dkym 'waves/pounders'.
 131501	ymḫṣ	ymḫṣ	!y!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 m. sg.	to strike, smite	
 131502	b	b	b	b	prep.	with	
-131503	ṣmd	ṣmd	ṣmd/	ṣmd	n. m. sg. abs. gen.	pair; mace	b ṣmd 'with a mace' (the weapon ṣmd).
+131503	ṣmd	ṣmd	ṣmd/	ṣmd	n. m. sg. abs. gen.	pair	b ṣmd 'with a mace' (the twin-mace weapon).
 # KTU 1.6 V:4							
 131504	ṣġrm	ṣġrm	ṣġr(I)/m	ṣġr (I)	adj. m. pl. abs. acc.	small, young	'the small ones he drags to the ground'.
-131505	ymṣḫ	ymṣḫ	!y!mṣḫ[	/m-ṣ-ḥ/	vb G prefc. 3 m. sg.	to pull, drag	DULAT s.v. /m-ṣ-ḥ/: ṣġrm ymṣḫ l ảrṣ (auto-parser: NOT FOUND).
+131505	ymṣḫ	ymṣḫ	!y!mṣḫ[	/m-ṣ-ḥ/	vb G prefc. 3 m. sg.	to pull, drag	DULAT s.v. /m-ṣ-ḥ/: ṣġrm ymṣḫ l ảrṣ.
 131506	l	l	l(I)	l (I)	prep.	to	
 131507	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.6 V:5							
 131508	p	p	p(I)	p (I)	conj. functor	and	
-131509	yṯb	yṯb 	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	KTU: y[ṯb] restored; 'and Baal sits on the throne of his kingship'.
+131509	yṯb	yṯb 	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	'Baal sits on the throne of his kingship'.
 131510	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 131511	l	l	l(I)	l (I)	prep.	on	
 131512	ksi	ksi	ks(u/&i	ks/śủ	n. m. sg. cstr. gen.	seat, throne	
-131513	mlkh	mlkh	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen.	kingship	'his kingship'.
+131513	mlkh	mlkh	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	kingdom	'his kingdom'.
 # KTU 1.6 V:6							
-131514	lnḫt	l nḫt	l(I) nḫ(t/t	l (I); nḫt	prep.; n. f. sg. cstr. gen.	to; divan, resting-place	Split; KTU: l[n]ḫ[t].
+131514	lnḫt	l nḫt	l(I) nḫ(t/t	l (I); nḫt	prep.; n. f. sg. cstr. gen.	to; divan	Split; KTU: l[n]ḫ[t].
 131515	l	l	l(I)	l (I)	prep.	on	
 131516	kḥṯ	kḥṯ	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
-131517	drkth	drkth	drk(t/t+h	drkt	n. f. sg. cstr. gen.	dominion, rule	'the throne of his dominion'.
+131517	drkth	drkth	drk(t/t+h	drkt	n. f. sg. cstr. gen. + 3 m. sg. suff.	rule, power	'the throne of his dominion'.
 # KTU 1.6 V:7							
-131518	lymm	lymm	l(III) ym(I)/m	l (III); ym (I)	functor; n. m. pl. abs. gen.	certainly; day	Split; KTU: l[y]mm. Formula 'for days, for months, for years'; DULAT cites l (III), but temporal l (I) also possible.
+131518	lymm	lymm	l(III) ym(I)/m	l (III); ym (I)	functor; n. m. pl. abs. gen.	certainly; day	Split; formula 'for days, for months, for years' (DULAT cites l (III); temporal l (I) also possible).
 131519	l	l	l(III)	l (III)	functor	certainly	
 131520	yrḫm	yrḫm	yrḫ/m	yrḫ	n. m. pl. abs. gen.	month	
 131521	l	 l	l(III)	l (III)	functor	certainly	
@@ -888,7 +888,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 V:8							
 131523	l	l	l(III)	l (III)	functor	certainly	
 131524	šnt	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	Or pl. (spelled alike).
-131525	mk	mk	mk(II)	mk (II)	deictic functor	behold!	KTU: m[k].
+131525	mk	mk	mk(II)	mk (II)	deictic functor	behold!	
 131526	b	b	b	b	prep.	in	
 131527	šbˤ	šbʿ	šbˤ(I)/	šbʕ (I)	n. num.	seven	'in the seventh year'.
 # KTU 1.6 V:9							
@@ -904,14 +904,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131536	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 131537	yšu	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
 # KTU 1.6 V:11							
-131538	gh	gh	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	
+131538	gh	gh	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	'he raises his voice' (Mot).
 131539	w	w	w	w	conj.	and	
 131540	yṣḥ	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 131541	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	'because of you, O Baal, I experienced…' (Mot's complaint).
 131542	bˤlm	bʿlm	bˤl(II)/~m	bʕl (II)	DN m. sg. abs. nom. + encl. -m	Baʿlu/Baal	DULAT cites -m (II) here: ʕlk bʕlm.
 # KTU 1.6 V:12							
 131543	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	DULAT cites /p-h-y/: ʕlk pht qlt.
-131544	qlt	qlt	ql(t(I)/t	qlt (I)	n. f. sg. abs. acc.	vileness, shame	DULAT cites qlt (I) n. here; Ksenia reads vb /q-l/ 'fall'.
+131544	qlt	qlt	ql(t(I)/t	qlt (I)	n. f. sg. abs. acc.	vileness	DULAT qlt (I) n.; Ksenia reads vb /q-l/ 'fall'.
 131545	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 131546	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
 # KTU 1.6 V:13							
@@ -927,14 +927,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 V:15							
 131555	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 131556	pht	pht 	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	KTU: [pht ṭḥ]n restored.
-131557	ṭḥn	 ṭḥn	!!ṭḥn[/	/ṭ-ḥ-n/	vb G inf. abs. acc.	grinding	Restored in lacuna (KTU).
+131557	ṭḥn	 ṭḥn	!!ṭḥn[/	/ṭ-ḥ-n/	vb G inf. abs. acc.	grinding	
 131558	b	b	b	b	prep.	with	
 131559	rḥ	rḥ	rḥ(III)/m	rḥ (III)	n. m. du. abs. gen.	millstone	MERGE WITH THE NEXT: rḥ+m = rḥm, split across lines V:15/16; DULAT cites rḥ (III) here.
 # KTU 1.6 V:16							
 131560	m	m	rḥ(III)/m	rḥ (III)	n. m. du. abs. gen.	millstone	MERGE WITH THE PREVIOUS.
-131561	ˤlk	ʿlk 	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	KTU: ˤ[lk].
+131561	ˤlk	ʿlk 	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 131562	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
-131563	dry	 dry	!!dry[/	/d-r-y/	vb G inf. abs. acc.	winnowing	KTU: [dr]y.
+131563	dry	 dry	!!dry[/	/d-r-y/	vb G inf. abs. acc.	winnowing	
 131564	b	b	b	b	prep.	with	
 131565	kbrt	kbrt	kbr(t/t	kbrt	n. f. sg. abs. gen.	sieve	
 # KTU 1.6 V:17							
@@ -946,7 +946,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 V:18							
 131571	b	b	b	b	prep.	in	
 131572	šdm	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
-131573	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	KTU: ˤlk[ ]pht.
+131573	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 131574	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
 # KTU 1.6 V:19							
 131575	drˤ	drʿ	!!drˤ[/	/d-r-ʕ/	vb G inf. abs. acc.	sowing	'I experienced sowing in the sea' (DULAT).
@@ -956,7 +956,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131579	aḥd	aḥd	aḥd/	ảḥd	num. m. sg. abs. acc.	one	
 # KTU 1.6 V:20							
 131580	b	b	b	b	prep.	among	
-131581	aḫk	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	'your brothers'.
+131581	aḫk	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. pl. cstr. gen. + 2 m. sg. suff.	brother (by blood)	'your brothers'.
 131582	ispa	ispa	!(ʔ&i!sp(ʔ[&a	/s-p-ʔ/	vb G prefc. 1 c. sg.	to devour	
 131583	w	w	w	w	conj.	and	
 131584	yṯb	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to turn back, subside	w yṯb ap d anšt 'and the anger I feel will subside' (DULAT).
@@ -968,7 +968,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 V:22							
 131589	aḥd	aḥd	aḥd/	ảḥd	num. m. sg. abs. acc.	one	
 131590	b	b	b	b	prep.	among	
-131591	aḫk	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	
+131591	aḫk	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. pl. cstr. gen. + 2 m. sg. suff.	brother (by blood)	
 131592	l	l	l(II)	l (II)	adv.	not	'if you do not give one of your brothers'.
 131593	ttn	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give	
 # KTU 1.6 V:23							
@@ -976,20 +976,20 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131595	hn	hn	hn	hn	deictic functor	behold!	DULAT cites hn here (broken context).
 131596	aḥẓxxxxl	aḥẓxxxxl	?	?	?	?	DULAT: ảḥẓx[ in broken context (1.6 V 23).
 # KTU 1.6 V:24							
-131597	xdxx	xdxx	?	?	?	?	DULAT: NOT FOUND
+131597	xdxx	xdxx	?	?	?	?	
 131598	akly	akly 	!(ʔ&a!kly[:d	/k-l-y/	vb D prefc. 1 c. sg.	to finish (off), consume	'I will consume humans, consume the multitudes of the earth' (Mot); or ảkl + -y 'my food'.
-131599	bn	 bn 	bn(I)/	bn (I)	n. m. pl. cstr. acc.	son	KTU: [bn nšm] restored.
-131600	nšm	nšm	nš(m/m	nšm	n. m. pl. tant. abs. gen.	people, men	Restored in lacuna (KTU).
+131599	bn	 bn 	bn(I)/	bn (I)	n. m. pl. cstr. acc.	son	
+131600	nšm	nšm	nš(m/m	nšm	n. m. pl. tant. abs. gen.	people, men	
 # KTU 1.6 V:25							
 131601	akly	akly	!(ʔ&a!kly[:d	/k-l-y/	vb D prefc. 1 c. sg.	to finish (off), consume	
-131602	hmlt	hmlt 	hml(t/t=	hmlt	n. f. pl. tant. cstr. acc.	multitude	KTU: hml[t arṣ].
-131603	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	Restored in lacuna (KTU).
+131602	hmlt	hmlt 	hml(t/t=	hmlt	n. f. pl. tant. cstr. acc.	multitude	
+131603	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.6 V:26							
 131604	w	w	w	w	conj.	and	
 131605	yql	yql	!y!ql[	/q-l/	vb G prefc. 3 m. sg.	to fall (down)	DULAT cites /q-l/: w yql ảḥ[d].
-131606	aḥd	aḥd          	aḥd/	ảḥd	num. m. sg. abs. nom.	one	KTU: aḥ[d].
+131606	aḥd	aḥd          	aḥd/	ảḥd	num. m. sg. abs. nom.	one	
 # KTU 1.6 V:27							
-131607	štxx	štxx                       	?	?	?	?	DULAT: NOT FOUND
+131607	štxx	štxx                       	?	?	?	?	
 # KTU 1.6 V:28							
 131608	dl	dl                           	?	?	?	?	Broken context; dl 'poor'?
 # KTU 1.6 V:29							
