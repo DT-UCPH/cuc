@@ -9,33 +9,33 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130127	tkly	tkly	!t=!kly[:d	/k-l-y/	vb D prefc. 2 m. sg.	to finish (off), destroy, drain	
 130128	bṯn	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 130129	ˤqltn	ʿqltn	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
-130130	š	š	&š	?	?	?	Scribal mistake?
+130130	š	š	š	?	?	?	Incomplete šlyṭ rewritten in full at the start of the next line (scribal anticipation); Scribal mistake? (Alexander).
 # KTU 1.5 I:3							
-130131	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. cstr.	tyrant	šlyṭ d šbʕt rảšm 'the tyrant of seven heads' (DULAT n. šlyṭ).
+130131	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm 'the tyrant of seven heads' (// 1.3 III:42).
 130132	d	d	d	d	det. or rel. functor	the one(s) of	
-130133	šbˤt	šbʿt	šbˤ(I)/t	šbʕ (I)	n. num. f. sg.	seven	
-130134	rašm	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. acc.?	head	
+130133	šbˤt	šbʿt	šbˤ(I)/t	šbʕ (I)	num. f.	seven	
+130134	rašm	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. gen.	head	
 # KTU 1.5 I:4							
 130135	tṯkḥ	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
 130135	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
 130136	ttrp	ttrp	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
 130136	ttrp	ttrp	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
-130137	šmm	šmm	šm(m(I)/m	šmm (I)	n. m. pl. / du. tant. abs. nom.	heavens, sky	
+130137	šmm	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens, sky	
 130138	krs	krs	krs/	krs	?	?	krs: DULAT lemma but unglossed; UNP 'tear to pieces', TCS 'folds (?)'.
 # KTU 1.5 I:5							
-130139	ipdk	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc.?	tunic	
-130139	ipdk	ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'	
+130139	ipdk	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
+130139	ipdk	ipdk	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
 130140	ank	ank	ank	ảnk	pers. pn.	I	
-130141	ispi	ispi	!(ʔ&i!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 1 m. sg.    to devour		
-130141	ispi	ispi	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc. 1 m. sg.    to be consumed	DULAT: 'I was consumed piece by piece (?)'	
+130141	ispi	ispi	!(ʔ&i!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 1 c. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
+130141	ispi	ispi	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc. 1 c. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	DULAT: 'I was consumed piece by piece (?)'.
 130142	uṭm	uṭm	uṭ/m	ủṭ	n. m. pl. abs. acc.	span	UNP
-130142	uṭm	uṭm	uṭ/(m~m	ủṭ	n. m. pl. abs. acc.	span	DULAT
+130142	uṭm	uṭm	uṭ/~m	ủṭ	n. m. sg. abs. acc. + encl. -m	span	DULAT: -m (I) adverbial, '(I shall eat you) by the span'.
 # KTU 1.5 I:6							
 130143	ḏrqm	ḏrqm	ḏrq/m	ḏrq	n. m. pl. abs. acc.	fragment	< /ḏ-r-q/ 
 130144	amtm	amtm	amt(II)/m	ảmt (II)	n. f. pl./du. abs. acc.	elbow	
-130144	amtm	amtm	amt(II)/~m	ảmt (II)	n. f. acc.?	elbow	DULAT: 'ell by ell'
+130144	amtm	amtm	amt(II)/~m	ảmt (II)	n. f. sg. abs. acc. + encl. -m	elbow	DULAT: 'ell by ell'.
 130145	l	l	l(III)	l (III)	functor	certainly	
-130146	yrt	yrt	!y!(yr(d&t[	/y-r-d/	vb G prefc. 2 m. sg.	to go down	
+130146	yrt	yrt	!y!(yr(d&t[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	Jussive reading.
 130146	yrt	yrt	yr(d&t[	/y-r-d/	vb G suffc. 2 m. sg.	to go down	DULAT
 # KTU 1.5 I:7							
 130147	b	b	b	b	prep.	in	
@@ -44,9 +44,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130150	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130151	mt	mt	mt(II)/	mt (II)	n. m. sg. abs. gen.	death	
 130152	b	b	b	b	prep.	in	
-130153	mh	mh	&m&h				UDB: 'R1 assumes the Broken String: mhmrt.'
+130153	mh	mh	mhmrt/	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE NEXT: mh+mrt = mhmrt (UDB: 'R1 assumes the Broken String: mhmrt.'); DULAT mhmrt (cf. hmrt 'drain, sink').
 # KTU 1.5 I:8							
-130154	mrt	mrt	(hmrt/	hmrt	n. f. sg. cstr. gen.	drain, sink	
+130154	mrt	mrt	mhmrt/	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE PREVIOUS.
 130155	ydd	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
 130155	ydd	ydd	ydd[/	ydd	vb G pass. ptcpl. m. sg. cstr. gen.	loved	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
 130156	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
@@ -71,7 +71,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130169	mrym	mrym	mrym/	mrym	n. m. sg. cstr. gen.	height	
 130170	ṣpn	ṣpn	ṣpn/	ṣpn	TN/DN m. sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 130171	w	w	w	w	conj.	and	
-130172	yˤn	yʿn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
+130172	yˤn	yʿn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	Subjects Gapn-and-Ugar.
 # KTU 1.5 I:12							
 130173	gmpn	gmpn	gmpn(III)/	gpn (III)	DN m. sg. abs. nom.	Gapnu	KTU3 reads g{m}pn (scribal m); one of the two messengers of Baal (gpn w ugr).
 130174	w	w	w	w	conj.	and	
@@ -104,13 +104,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130194	b	b	b	b	prep.	in	
 130195	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 130196	hm	hm	hm(II)	hm (II)	conj./interr. functor	if	
-130197	brky	brky	brk(t/y	brkt/y	n. f. sg. abs. acc.?/gen?	pool	
+130197	brky	brky	brk(t/y	brkt/y	n. f. sg. abs. acc.	pool	Fronted object: 'or the pool the wild bulls seek' (DULAT brkt/y).
 130198	tkšd	tkšd	!t!kšd[:w	/k-š-d/	vb G prefc. 3 m. pl.	to search for	
 # KTU 1.5 I:17							
 130199	rumm	rumm	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
-130200	ˤn	ʿn	ˤn(I)/	ʕn (I)	n. f. sg. abs. acc.?/gen?	spring	
+130200	ˤn	ʿn	ˤn(I)/	ʕn (I)	n. f. sg. abs. acc.	spring	
 130201	kḏd	kḏd	kḏd	kḏd	→	?	
-130201	kḏd	kḏd	k(II) ḏd(II)	ḏd (III)	n. m. sg. cstr. nom.	flock, herd	
+130201	kḏd	kḏd	k(II) ḏd(III)/	k (II); ḏd (III)	emph. functor; n. m. sg. cstr. nom.	yes; flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'.
 130202	aylt	aylt	ayl(I)/t	ảyl (I)	n. f. sg. abs. gen.	hind	
 130202	aylt	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
 # KTU 1.5 I:18							
@@ -130,21 +130,21 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130210	imt	imt	im(t/t	ỉmt	adv.	truly	
 130210	imt	imt	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt
 130211	b	b	b	b	prep.	in	
-130212	klat	klat	kla(t/t	klảt(n)	n. f. sg. cstr. gen.	both	
+130212	klat	klat	kla(t/t	klảt(n)	n. f. du. cstr. gen.	both	
 # KTU 1.5 I:20							
-130213	ydy	ydy	yd(I)/+y	yd (I)	n. f. du. cstr. gen.	hand	
+130213	ydy	ydy	yd(I)/+y	yd (I)	n. f. du. cstr. gen. + 1 c. sg. suff.	hand	
 130214	ilḥm	ilḥm	!(ʔ&i!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 1 c. sg.	to eat	
 130215	hm	hm	hm(II)	hm (II)	conj./interr. functor	if	
 130215	hm	hm	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt
 130215	hm	hm	h(n/~m	hn	deictic functor/adv.	behold!; look!; thus / here	Tropper
-130216	šbˤ	šbʿ	šbˤ(I)/	šbʕ (I)	n. sg. num.	seven	
+130216	šbˤ	šbʿ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.5 I:21							
-130217	ydty	ydty	yd(I)/t=+y	yd (I)	n. f. pl. cstr. gen.	part, ration, portion	
+130217	ydty	ydty	yd(I)/t=+y	yd (I)	n. f. pl. cstr. gen. + 1 c. sg. suff.	part, ration, portion	
 130218	b	b	b	b	prep.	in	
 130219	ṣˤ	ṣʿ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
 130220	hm	hm	hm(II)	hm (II)	conj./interr. functor	if	
 130220	hm	hm	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt ???
-130221	ks	ks	ks(I)/	ks (I)	n. m. sg. abs. nom./acc.	cup	
+130221	ks	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	Subject: 'my cup mixes a river'.
 130222	ymsk	ymsk	!y!msk[	/m-s-k/	vb G prefc. 3 m. sg.	to mix	
 # KTU 1.5 I:22							
 130223	nhr	nhr	nhr/	nhr	n. m. sg. abs. acc.	river	UNP
@@ -152,21 +152,21 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130224	kl	kl	k&l/~(n	k (II)	emph. functor	truly	UNP: 's[o] invite me'
 130224	kl	kl	k l	k (II); l (II)	emph. functor; neg. functor	truly; not	Wyatt
 130224	kl	kl	k l	k (II); l (III)	emph. functor; aff. functor	truly; certainly, undoubtedly, yes	DULAT: 'yes, surely invite me'
-130225	ṣḥn	ṣḥn	!!ṣḥ[+n=	/ṣ-ḥ/	vb G impv. m. sg.	to invite, call, say	
-130226	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN	Baʿlu/Baal	
+130225	ṣḥn	ṣḥn	!!ṣḥ[+n=	/ṣ-ḥ/	vb G impv. m. sg. + 1 c. sg. suff.	to invite, call, say	'invite ME, Baal, with my brothers'.
+130226	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	Vocative.
 130227	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
 # KTU 1.5 I:23							
-130228	aḫy	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	
-130229	qran	qran	!!qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg.	to call	
+130228	aḫy	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	brother (by blood)	
+130229	qran	qran	!!qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg. + 1 c. sg. suff.	to call	
 130230	hd	hd	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
 130231	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
-130232	aryy	aryy	ary(I)/+y	ảry (I)	n. m. pl. cstr. gen.	fellow	
+130232	aryy	aryy	ary(I)/+y	ảry (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	fellow	
 # KTU 1.5 I:24							
 130233	w	w	w	w	conj.	and	
 130234	lḥmm	lḥmm	!!lḥm(I)[/~m	/l-ḥ-m/ (I)	vb G inf. abs. + encl. -m	1) to eat	w lḥmm ˤm aḫy 'and eat with my brothers' (inf. abs.).
 130234	lḥmm	lḥmm	lḥm/~m	lḥm	n. m. sg. abs. acc. + encl. -m	grain	DULAT cites the noun lḥm here: 'and bread with my brothers'.
 130235	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
-130236	aḫy	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	
+130236	aḫy	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	brother (by blood)	
 130237	lḥm	lḥm	lḥm/	lḥm	n. m. sg. abs. acc.	food, meat	
 # KTU 1.5 I:25							
 130238	w	w	w	w	conj.	and	
@@ -174,11 +174,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130239	štp	štp	!!št(y&p[~(m	/š-t-y/	G impv. m. sg.	to drink	UNP: štm DULAT: impv. suff. encl.
 130239	štp	štp	!!št(y&p[/~(m	/š-t-y/	G inf. abs.	to drink	UNP: štm
 130240	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
-130241	aḫy	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen.	brother (by blood)	UNP: a[r]y<y>
+130241	aḫy	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	brother (by blood)	UNP: a[r]y<y>
 130242	yn	yn	yn/	yn	n. m. sg. abs. acc.	wine	
 # KTU 1.5 I:26							
 130243	p	p	p(I)	p (I)	conj. functor	and	
-130244	nšt	nšt	nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	
+130244	nšt	nšt	nš(y[t	/n-š-y/	vb G suffc. 1 c. sg.	to be forgotten	DULAT: 'and I was forgotten, Baal' (passive sense).
 130245	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu	
 130246	ṭˤn	ṭʿn	!!ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	
 130247	iṭˤnk	iṭʿnk	!(ʔ&i!ṭˤn[+k	/ṭ-ʕ-n/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to smite	
@@ -195,20 +195,20 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:29							
 130256	bṯn	bṯn 	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 130257	ˤqltn	 ʿqltn 	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
-130258	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. cstr.	tyrant	šlyṭ d šbʕt rảšm 'the tyrant of seven heads' (DULAT n. šlyṭ).
+130258	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm (// 1.3 III:42).
 # KTU 1.5 I:30							
 130259	d	d 	d	d	det. or rel. functor	the one(s) of	
-130260	šbˤt	šbʿt 	šbˤ(I)/t	šbʕ (I)	n. num. f. sg.	seven	
-130261	rašm	 rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. acc.?	head	
+130260	šbˤt	šbʿt 	šbˤ(I)/t	šbʕ (I)	num. f.	seven	
+130261	rašm	 rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. gen.	head	
 130262	tṯkḥ	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
 130262	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
 # KTU 1.5 I:31							
 130263	ttrp	ttrp 	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
 130263	ttrp	ttrp 	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
-130264	šmm	 šmm 	šm(m(I)/m	šmm (I)	n. m. pl. tant. / n. m. du. tant. abs. nom.	heavens	
+130264	šmm	 šmm 	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens	
 130265	krs	 krs 	krs/	krs	?	?	krs: DULAT lemma but unglossed; UNP 'tear to pieces', TCS 'folds (?)'.
-130266	ipdk	 ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc.?	tunic	
-130266	ipdk	 ipdk	!(ʔ&i!pdk[	?	vb pref. juss.? imp.? 1 m. sg.  to tear	UNP: 'let me tear you to pieces'	
+130266	ipdk	 ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
+130266	ipdk	 ipdk	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
 # KTU 1.5 II:1							
 130267	xxxxxxxyxḫm	xxxxxxxyxḫm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.5 II:2							
