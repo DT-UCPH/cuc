@@ -196,36 +196,36 @@
 128608	l	l	l(I)	l (I)	prep.	to	
 128609	rbbt	rbbt	rbb(t/t	rb(b)t	num.	ten thousand	
 # KTU 1.4 II:1							
-128610	xb	xb	?	?	?	?	Broken line top of column.
+128610	xb	xb	?	?	?	?	
 128611	xxx	xxx 	?	?	?	?	
 128612	xxx	xxx 	?	?	?	?	
 128613	xxx	xxx	?	?	?	?	
 # KTU 1.4 II:2							
-128614	l	l	l(I)	l (I)	prep.	to	Broken context.
-128615	abn	abn	abn/	ảbn	n. f. sg. abs. gen.	3) weight	
+128614	l	l	l(I)	l (I)	prep.	to	
+128615	abn	abn	abn/	ảbn	n. m. sg. abs. gen.	3) weight	
 128616		       	?	?	?	?	
 # KTU 1.4 II:3							
-128617	aḫdt	aḫdt	(ʔ&aḫd[t	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 f. sg.	to collect, to take (back), grasp, seize, hold	Athirat: 'she grasps her spindle in her hand'. DULAT cites ảḫdt plkh here.
-128618	plkh	plkh	plk/+h	plk	n. m. sg. cstr. acc.	spindle	
+128617	aḫdt	aḫdt	(ʔ&aḫd[t===	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 f. sg.	to collect, to take (back), grasp, seize, hold	Athirat: 'she grasps her spindle in her hand' (DULAT).
+128618	plkh	plkh	plk/+h	plk	n. m. sg. cstr. acc. + 3 f. sg. suff.	spindle	
 128619	b	 b 	b	b	prep.	in	
-128620	ydh	ydh	yd(I)/+h	yd (I)	n. f. sg. cstr. gen.	hand	KTU: plkh[ bydh] restored.
+128620	ydh	ydh	yd(I)/+h	yd (I)	n. f. sg. cstr. gen. + 3 f. sg. suff.	hand	
 # KTU 1.4 II:4							
 128621	plk	plk	plk/	plk	n. m. sg. cstr. acc.	spindle	
-128622	tˤlt	tʿlt	tˤl(t/t	tʕlt	n. f. sg. abs. acc.	superior power	plk tˤlt b ymnh 'the whorl-spindle in her right hand'.
+128622	tˤlt	tʿlt	tˤl(t/t	tʕlt	n. f. sg. abs. gen.	superior power	plk tˤlt 'the spindle of majesty (?)' (DULAT).
 128623	b	b	b	b	prep.	in	
-128624	ymnh	ymnh	ymn(I)/+h	ymn (I)	n. m. sg. cstr. gen.	1) right (side) a) right (hand)	
+128624	ymnh	ymnh	ymn(I)/+h	ymn (I)	n. m. sg. cstr. gen. + 3 f. sg. suff.	1) right (side) a) right (hand)	
 # KTU 1.4 II:5							
-128625	npynh	npynh	npyn/+h	npyn	n. m. sg. cstr. acc.	tunic	
+128625	npynh	npynh	npyn/+h	npyn	n. m. sg. cstr. acc. + 3 f. sg. suff.	tunic	
 128626	mks	mks	mks/	mks	n. m. sg. cstr. acc.	blanket	
-128627	bšrh	bšrh	bšr/+h	bšr	n. m. sg. cstr. gen.	1) flesh	mks bšrh 'the covering of her flesh'.
+128627	bšrh	bšrh	bšr/+h	bšr	n. m. sg. cstr. gen. + 3 f. sg. suff.	1) flesh	mks bšrh 'the covering of her flesh'.
 # KTU 1.4 II:6							
 128628	tmtˤ	tmtʿ	!t!mtˤ[	/m-t-ʕ/	vb G prefc. 3 f. sg.	to remove, shed	'she dips her garment in the sea'.
-128629	mdh	mdh	md(I)/+h	md (I)	n. f. sg. cstr. acc.	cape	
+128629	mdh	mdh	md(I)/+h	md (I)	n. f. sg. cstr. acc. + 3 f. sg. suff.	cape	
 128630	b	b	b	b	prep.	in	
 128631	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	1) sea	
-128632	ṯn	ṯn	ṯn(I)/	ṯn (I)	num.	2) double	ṯn npynh 'a second time her tunic'.
+128632	ṯn	ṯn	ṯn(I)/	ṯn (I)	num. cstr. acc.	2) double	ṯn npynh 'her double tunic / a second time' (DULAT ṯn (I)).
 # KTU 1.4 II:7							
-128633	npynh	npynh	npyn/+h	npyn	n. m. sg. cstr. acc.	tunic	
+128633	npynh	npynh	npyn/+h	npyn	n. m. sg. cstr. gen. + 3 f. sg. suff.	tunic	
 128634	b	b	b	b	prep.	in	
 128635	nhrm	nhrm	nhr/m	nhr	n. m. du. abs. gen.	1) river	'in the two rivers'.
 # KTU 1.4 II:8							
@@ -251,7 +251,7 @@
 # KTU 1.4 II:12							
 128652	b	b	b	b	prep.	in	
 128653	nši	nši	!!nš(ʔ[/&i	/n-š-ʔ/	vb G inf. cstr. gen.	to raise	b nši ˤnh 'as she lifts her eyes' (inf. cstr.).
-128654	ˤnh	ʿnh	ˤn(I)/+h	ʕn (I)	n. f. du. cstr. gen.	1) eye a) ʕn bʕl qdm ydh the eye(/s) of DN precede(s) his hands	
+128654	ˤnh	ʿnh	ˤn(I)/+h	ʕn (I)	n. f. du. cstr. gen. + 3 f. sg. suff.	1) eye a) ʕn bʕl qdm ydh the eye(/s) of DN precede(s) his hands	
 128655	w	w	w	w	conj.	3) in the correlation protasis-apodosis	
 128656	tphn	tphn	!t!ph(y[~n	/p-h-y/	vb G prefc. 3 f. sg.	to see	'and she beholds'.
 # KTU 1.4 II:13							
@@ -278,19 +278,20 @@
 # KTU 1.4 II:18							
 128673	tṯbr	tṯbr 	!t!](n]ṯbr[	/ṯ-b-r/	vb N prefc. 3 f. sg.	to break	'her loins are broken'.
 128674	ˤln	 ʿln 	ˤl(I)~n	ʕl (I)	prep. + encl. -n	upon	
-128675	pnh	 pnh	pn(m/+h	pnm	n. m. pl. tant. cstr. nom.	face	'above, her face (sweats)'.
-128676	tdˤ	tdʿ	!t!(ydˤ(II)[	/y-d-ʕ/ (II)	vb G prefc. 3 m. pl.	to sweat	DULAT /y-d-ʕ/ (II) 'to sweat'; subject pnh (du./pl.).
+128675	pnh	 pnh	pn(m/+h	pnm	n. m. pl. tant. cstr. nom. + 3 f. sg. suff.	face	'above, her face (sweats)'.
+128676	tdˤ	tdʿ	!t!(ydˤ(II)[:w	/y-d-ʕ/ (II)	vb G prefc. 3 m. pl.	to sweat	DULAT /y-d-ʕ/ (II) 'to sweat'; subject pnh (pl. tant.).
 # KTU 1.4 II:19							
 128677	tġṣ	tġṣ	!t!(nġṣ[	/n-ġ-ṣ/	vb G prefc. 3 f. pl.	to contract	'the joints of her loins contract'.
-128678	pnt	pnt 	pnt/	pnt	n. f. pl. cstr. nom.	knuckle	
-128679	kslh	 kslh	ksl/+h	ksl	n. f. sg. cstr. gen.	back	
+128678	pnt	pnt 	pn(t/t=	pnt	n. f. pl. cstr. nom.	knuckle	
+128679	kslh	 kslh	ksl/+h	ksl	n. f. sg. cstr. gen. + 3 f. sg. suff.	back	
 # KTU 1.4 II:20							
-128680	anš	anš	(ʔ&anš[	/ʔ-n-š/	vb G suffc. 3 m. sg.	to languish	'the muscles of her back slacken'.
+128680	anš	anš	anš/	ảnš	n. m. pl. abs. nom.	muscle, tendon	DULAT: anš dt ẓrh 'the muscles of her back' (// 1.3 III:35).
+128680	anš	anš	(ʔ&anš[	/ʔ-n-š/	vb G suffc. 3 m. sg.	to languish, fall ill	Verb reading: '(her back) went weak'.
 128681	dt	dt	d~t	d	det. / rel. functor + encl. -t	the one(s) of	
-128682	ẓrh	ẓrh	ẓr(I)/+h	ẓr (I)	n. m. sg. cstr. gen.	back	
+128682	ẓrh	ẓrh	ẓr(I)/+h	ẓr (I)	n. m. sg. cstr. gen. + 3 f. sg. suff.	back	
 # KTU 1.4 II:21							
 128683	tšu	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 f. sg.	to raise	'she raises her voice and cries'.
-128684	gh	gh	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	
+128684	gh	gh	g/+h	g	n. m. sg. cstr. acc. + 3 f. sg. suff.	(loud) voice	
 128685	w	w	w	w	conj.	and	
 128686	tṣḥ	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 f. sg.	to exclaim	
 128687	ik	ik	ik	ỉk	interr. functor	how?	
@@ -304,16 +305,16 @@
 128693	btlt	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
 # KTU 1.4 II:24							
 128694	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-128695	mḫṣy	mḫṣy	mḫṣ[/+y	/m-ḫ-ṣ/	vb G act. ptcpl. m. pl. cstr. + 1 c. sg. suff.	to wound, beat, crush, kill	'(are they) my smiters?' (Athirat fears).
+128695	mḫṣy	mḫṣy	mḫṣ[/+y	/m-ḫ-ṣ/	vb G act. ptcpl. m. pl. cstr. nom. + 1 c. sg. suff.	to wound, beat, crush, kill	'(are they) my smiters?' (Athirat fears).
 128696	hm	hm 	hm(I)	hm (I)	pers. pn. 3 m. pl.	1) they	
-128697	mḫṣ	 mḫṣ	mḫṣ[/	/m-ḫ-ṣ/	vb G act. ptcpl. m. pl. cstr.	to wound, beat, crush, kill	mḫṣ bny 'the smiters of my sons'.
+128697	mḫṣ	 mḫṣ	mḫṣ[/	/m-ḫ-ṣ/	vb G act. ptcpl. m. pl. cstr. nom.	to wound, beat, crush, kill	mḫṣ bny 'the smiters of my sons'.
 # KTU 1.4 II:25							
-128698	bny	bny	bn(I)/+y	bn (I)	n. m. pl. cstr. + 1 c. sg. suff.	4) special uses b) pl. cstr./suff. bn “sons of” > family	
+128698	bny	bny	bn(I)/+y	bn (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	4) special uses b) pl. cstr./suff. bn “sons of” > family	
 128699	hm	hm	hm(II)	hm (II)	conj./interr. functor	if	
-128700	mkly	 mkly 	mkly[/	/k-l-y/	vb D act. ptcpl. m. pl. cstr.	to finish (off), destroy, drain	mkly ṣbrt 'the destroyers of the band'.
+128700	mkly	 mkly 	mkly[/	/k-l-y/	vb D act. ptcpl. m. pl. cstr. nom.	to finish (off), destroy, drain	mkly ṣbrt 'the destroyers of the band'.
 128701	ṣbrt	 ṣbrt	ṣbr(t/t	ṣbrt	n. f. sg. cstr. gen.	clan	
 # KTU 1.4 II:26							
-128702	aryy	aryy	ary(I)/+y	ảry (I)	n. m. pl. cstr. + 1 c. sg. suff.	fellow	ṣbrt aryy 'the band of my kin'.
+128702	aryy	aryy	ary(I)/+y	ảry (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	fellow	ṣbrt aryy 'the band of my kin'.
 128703	ẓl	 ẓl	ẓl(I)/	ẓl (I)	n. m. sg. cstr. acc.	2) reflection	ẓl ksp 'the gleam of silver' (anticipating the gifts she spies).
 128704	ksp	ksp	ksp/	ksp	n. m. sg. abs. gen.	1) silver a) 4.738	
 128705	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Asherah	DULAT lists ảṯrt (I) 'nape' for the form; here the DN.
@@ -328,17 +329,17 @@
 128712	ḫrṣ	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold a) in general	
 128713	šmḫ	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 f. sg.	to be glad	'Lady Athirat of the Sea rejoices'.
 128714	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
-128715	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. nom.	ʾAṯiratu/Athirat/Asherah/El’s wife	
+128715	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
 # KTU 1.4 II:29							
 128716	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 128717	gm	gm	g/~m	g	n. m. sg. + encl. -m	(loud) voice	gm l ġlmh 'aloud to her lad'.
 128718	l	l	l(I)	l (I)	prep.	to	
-128719	ġlmh	ġlmh	ġlm/+h	ġlm	n. m. sg. cstr. gen.	1) boy	
+128719	ġlmh	ġlmh	ġlm/+h	ġlm	n. m. sg. cstr. gen. + 3 f. sg. suff.	1) boy	
 128720	ktṣḥ	ktṣḥ	k(II) !t!ṣḥ[	k (II); /ṣ-ḥ/	emph. functor; vb G prefc. 3 f. sg.	yes; to exclaim, shout	Split k + tṣḥ written together: 'does she cry'.
 # KTU 1.4 II:30							
 128721	ˤn	ʿn	!!ˤn[	/ʕ-n/	vb G impv. m. sg.	to see, look (at), watch, spy	'Look, O skilled fisherman!'
-128722	mkṯr	mkṯr	mkṯr/	mkṯr	n. m. sg. abs. nom.	expert	
-128723	apqym	apq ym	?	?	?	?	DULAT: NOT FOUND; perhaps an epithet/title of the fisherman.
+128722	mkṯr	mkṯr	mkṯr/	mkṯr	n. m. sg. cstr. nom.	expert	Vocative: 'O expert of the source of the sea' (DULAT II:30).
+128723	apqym	apq ym	apq/ ym(II)/	ảpq; ym (II)	n. m. sg. cstr. gen.; n. m. sg. abs. gen.	spring; sea	DULAT (II:30): mkṯr apq[ym] 'expert of the source of the sea'.
 # KTU 1.4 II:31							
 128724	dgy	dgy	dgy/	dgy	n. m. sg. abs. nom.	triton	dgy rbt aṯrt ym 'O fisherman of Lady Athirat of the Sea'.
 128725	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	
@@ -357,7 +358,7 @@
 128735	b	b	b	b	prep.	in	
 128736	mdd	mdd	mdd(I)/	mdd (I)	n. m. sg. cstr. gen.	beloved	mdd il ym 'the Beloved of El, Yammu'.
 128737	il	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-128738	ym	ym             	ym(I)/	ym (I)	DN m. sg. abs. gen.	day	Here the deified Sea (Yam), Beloved of El.
+128738	ym	ym             	ym(II)/	ym (II)	DN m. sg. abs. gen.	day	mdd il ym 'the Beloved of El, Yammu' (// 1.3 III:38).
 # KTU 1.4 II:35							
 128739	b	b	b	b	prep.	in	
 128740	ym	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	Broken context (b ym il dn).
@@ -374,8 +375,8 @@
 128748	btlt	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
 128749	ˤnt	ʿnt                       	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.4 II:39							
-128750	mh	mh	m&h	m(h)	interr. / indef. pn.	2) anything	Broken context.
-128751	kx	kx                        	?	?	?	?	Broken: k[…].
+128750	mh	mh	m&h	m(h)	interr. / indef. pn.	2) anything	
+128751	kx	kx                        	?	?	?	?	
 # KTU 1.4 II:40							
 128752	w	w	w	w	conj.	and	
 128753	at	at                             	at(I)	ảt (I)	pers. pn. 2 m. sg.	you	
@@ -385,21 +386,21 @@
 128755	b	b	b	b	prep.	in	
 128756	im	im                             	im	ỉm	conj.	if	
 # KTU 1.4 II:43							
-128757	bl	bl	bl(I)	bl (I)	adv. / emph. functor	no	Broken context.
-128758	lx	lx                           	?	?	?	?	Broken: l[…].
+128757	bl	bl	bl(I)	bl (I)	adv. / emph. functor	no	
+128758	lx	lx                           	?	?	?	?	
 # KTU 1.4 II:44							
-128759	mlk	mlk                              	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	Broken context.
+128759	mlk	mlk                              	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.4 II:45							
 128760	dt	dt	d~t	d	det. / rel. functor + encl. -t	the one(s) of	
 128761		                               	?	?	?	?	
 # KTU 1.4 II:46							
 128762	b	b	b	b	prep.	in	
-128763	ṭ	ṭ                                	?	?	?	?	Broken: ṭ[…].
+128763	ṭ	ṭ                                	?	?	?	?	
 # KTU 1.4 II:47							
-128764	gt	gt	g(t/t	gt	n. f. sg. abs.	gittu	Broken context.
+128764	gt	gt	g(t/t	gt	n. f. sg. abs.	gittu	
 128765		                               	?	?	?	?	
 # KTU 1.4 II:48							
-128766	yx	yx                                	?	?	?	?	Broken: y[…].
+128766	yx	yx                                	?	?	?	?	
 # KTU 1.4 III:1							
 128767	xh	           xh	?	?	?	?	Broken top of column.
 # KTU 1.4 III:2							
