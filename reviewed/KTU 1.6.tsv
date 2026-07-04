@@ -581,22 +581,22 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:1							
 131276	k	k	k(III)	k (III)	subordinating / completive functor	that	'(in a dream let me see) that the Prince has perished/lives' — El's dream test.
 131277	ḫlq	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish	
-131278	zbl	zbl 	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	KTU: zb[l bˤl arṣ] restored.
-131279	bˤl	 bʿl 	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	Restored in lacuna (KTU).
-131280	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	Restored in lacuna (KTU).
+131278	zbl	zbl 	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	
+131279	bˤl	 bʿl 	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	
+131280	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.6 III:2							
 131281	w	w	w	w	conj.	and	
 131282	hm	hm	hm(II)	hm (II)	conj./interr. functor	if	DULAT cites hm (II): w hm ḥy … w hm iṯ.
 131283	ḥy	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	'if Mightiest Baal is alive'.
-131284	aliyn	aliyn 	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	KTU: a[liyn bˤl] restored.
-131285	bˤl	 bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	Restored in lacuna (KTU).
+131284	aliyn	aliyn 	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
+131285	bˤl	 bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 III:3							
 131286	w	w	w	w	conj.	and	
 131287	hm	hm	hm(II)	hm (II)	conj./interr. functor	if	
 131288	iṯ	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence, existence	'if the Prince, Lord of the Earth, exists'.
 131289	zbl	zbl	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	
-131290	bˤl	bʿl 	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	KTU: bˤl[ arṣ].
-131291	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	Restored in lacuna (KTU).
+131290	bˤl	bʿl 	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	
+131291	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.6 III:4							
 131292	b	b	b	b	prep.	in	
 131293	ḥlm	ḥlm	ḥlm(I)/	ḥlm (I)	n. m. sg. cstr. gen.	dream	b ḥlm lṭpn 'in a dream of the Benevolent…'.
@@ -625,7 +625,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131312	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 131313	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 III:9							
-131314	xk	xk	?	?	?	?	Broken; = [w] k(III) 'that'?
+131314	xk	xk	?	?	?	?	= [w] k (III) 'that'? (broken).
 131315	iṯ	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence, existence	
 131316	zbl	zbl	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	
 131317	bˤl	bʿl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	
@@ -635,7 +635,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131320	ḥlm	ḥlm	ḥlm(I)/	ḥlm (I)	n. m. sg. cstr. gen.	dream	DULAT cites ḥlm (I) here.
 131321	lṭpn	lṭpn	lṭpn/	lṭpn	adj. m. sg. abs. gen.	the Benevolent	
 131322	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/El	
-131323	d	d	d	d	det. or rel. functor	the one of	CUC writes ildpid together; Ksenia merged d+pid as one token dpid.
+131323	d	d	d	d	det. or rel. functor	the one of	
 131324	pid	pid	pid/	pỉd	n. m. sg. abs. gen.	heart	
 # KTU 1.6 III:11							
 131325	b	b	b	b	prep.	in	
@@ -657,7 +657,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131338	d	d	d	d	det. or rel. functor	the one of	
 131339	pid	pid	pid/	pỉd	n. m. sg. abs. gen.	heart	
 # KTU 1.6 III:15							
-131340	pˤnh	pʿnh	pˤn/+h	pʕn	n. f. du. cstr. acc.	foot	'his feet on the footstool he stamps' (UNP).
+131340	pˤnh	pʿnh	pˤn/+h	pʕn	n. f. du. cstr. acc. + 3 m. sg. suff.	foot	'his feet on the footstool he stamps' (El).
 131341	l	l	l(I)	l (I)	prep.	on	
 131342	hdm	hdm	hdm/	hdm	n. m. sg. abs. gen.	footstool	
 131343	yṯpd	yṯpd	!y!ṯpd[	/ṯ-p-d/	vb G prefc. 3 m. sg.	to place, set	
@@ -669,7 +669,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131348	yṣḥq	yṣḥq	!y!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 3 m. sg.	to laugh	
 # KTU 1.6 III:17							
 131349	yšu	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
-131350	gh	gh	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	
+131350	gh	gh	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	
 131351	w	w	w	w	conj.	and	
 131352	yṣḥ	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 # KTU 1.6 III:18							
@@ -681,7 +681,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131357	w	w	w	w	conj.	and	
 131358	tnḫ	tnḫ	!t!nḫ[	/n-ḫ/	vb G prefc. 3 f. sg.	to rest	'and the soul in my breast rests'.
 131359	b	b	b	b	prep.	in	
-131360	irty	irty	ir(t/t+y	ỉrt	n. f. sg. cstr. gen.	breast	'my breast'.
+131360	irty	irty	ir(t/t+y	ỉrt	n. f. sg. cstr. gen. + 1 c. sg. suff.	breast	'my breast'.
 131361	npš	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat, soul	
 # KTU 1.6 III:20							
 131362	k	k	k(III)	k (III)	subordinating / completive functor	for, because	
