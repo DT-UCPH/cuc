@@ -210,10 +210,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130266	ipdk	 ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
 130266	ipdk	 ipdk	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
 # KTU 1.5 II:1							
-130267	xxxxxxxyxḫm	xxxxxxxyxḫm	?	?	?	?	DULAT: NOT FOUND
+130267	xxxxxxxyxḫm	xxxxxxxyxḫm	?	?	?	?	
 # KTU 1.5 II:2							
+130268	špt	špt 	šp(t/t	špt	n. f. sg. abs. acc.	lip	
 130268	špt	špt 	šp(t/t	špt	n. f. sg. abs. nom.	lip	
-130269	larṣ	 l  arṣ	l(I) arṣ/	l (I); ảrṣ	prep.; n. f. sg. abs. gen.	to; earth	Split
+130269	larṣ	 l  arṣ	l(I) arṣ/	l (I); ảrṣ	prep.; n. f. sg. abs. gen.	to; earth	
+130270	špt	špt	šp(t/t	špt	n. f. sg. abs. acc.	lip	
 130270	špt	špt	šp(t/t	špt	n. f. sg. abs. nom.	lip	
 130271	l	l	l(I)	l (I)	prep.	to	
 130272	šmm	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. gen.	heavens	
@@ -221,107 +223,114 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130273	yšt	yšt 	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 130273	yšt	yšt 	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
 130274	lšn	 lšn	lšn/	lšn	n. f. sg. abs. acc.	tongue	
+130274	lšn	 lšn	lšn/	lšn	n. f. sg. abs. nom.	tongue	
 130275	l	l	l(I)	l (I)	prep.	to	
 130276	kbkbm	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body, star	
 130277	yˤrb	yʿrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	to enter	
 # KTU 1.5 II:4							
 130278	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 130279	b	b	b	b	prep.	in	
-130280	kbdh	kbdh	kbd(I)/+h	kbd (I)	n. m. sg. abs. gen.	innards, entrails, bosom	
+130280	kbdh	kbdh	kbd(I)/+h	kbd (I)	n. m. sg. cstr. gen. + 3 m. sg. suff.	innards, entrails, bosom	
 130281	b	b	b	b	prep.	in	
-130282	ph	ph	p(III)/+h	p (III)	n. m. sg. abs. gen.	mouth, snout	
-130283	yrd	yrd	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg. juss.?	to go down	
+130282	ph	ph	p(III)/+h	p (III)	n. m. sg. cstr. gen. + 3 m. sg. suff.	mouth, snout	
+130283	yrd	yrd	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
 130284	k	 k	k(I)	k (I)	prep.	like	
+130284	k	 k	k	?	?	?	Scribal anticipation of k(ḥrr) rewritten in full at the start of the next line (cf. I:2 š).
 # KTU 1.5 II:5							
 130285	k	k	k(III)	k (III)	subordinating / completive functor	when	
 130286	ḥrr	ḥrr	ḥrr[	/ḥ-r-r/	vb G suffc. 3 m. sg.	to dry up	
 130286	ḥrr	ḥrr	ḥrr[/	/ḥ-r-r/	vb G pass. ptcpl. m. sg. abs. gen.	to dry up	
-130287	zt	zt	zt/	zt	n. m. sg. / pl. abs. gen.	olive	
+130287	zt	zt	zt/	zt	n. m. sg. abs. gen.	olive	
+130287	zt	zt	zt/	zt	n. m. sg. abs. nom.	olive	
 130288	ybl	ybl	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.	produce	
-130289	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	1) earth	
+130288	ybl	ybl	ybl(I)/	ybl (I)	n. m. sg. cstr. nom.	produce	
+130289	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 130290	w	w	w	w	conj.	and	
 130291	pr	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
+130291	pr	pr	pr(I)/	pr (I)	n. m. sg. cstr. nom.	fruit	
 # KTU 1.5 II:6							
-130292	ˤṣm	ʿṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	1) tree	
-130293	yraun	yraun	!y!(yr(ʔ&a[u~n	/y-r-ʔ/	vb G prefc. 3 m. sg.	to be afraid	
+130292	ˤṣm	ʿṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
+130293	yraun	yraun	!y!(yr(ʔ&a[&u~n	/y-r-ʔ/	vb G prefc. 3 m. sg. + energic -n	to be afraid	TCS: 'will fear him' (obj. suffix reading of -n).
 130294	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 130295	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.5 II:7							
-130296	ṯtˤ	ṯtʿ	ṯtˤ[	/ṯ-t-ʕ/	vb G suffc. 3 m. sg.	to be frightened	
-130297	nn	nn	~nn	-nn	?	?	
+130296	ṯtˤ	ṯtʿ	ṯtˤ[~nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + energic -nn	to be frightened	MERGE WITH THE NEXT. DULAT -nn → -n (I) 3 (energic).
+130296	ṯtˤ	ṯtʿ	ṯtˤ[+nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to be frightened	MERGE WITH THE NEXT. TCS: 'will be frightened of him' (-n (IV)).
+130297	nn	nn	ṯtˤ[~nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + energic -nn	to be frightened	MERGE WITH THE PREVIOUS.
+130297	nn	nn	ṯtˤ[+nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to be frightened	MERGE WITH THE PREVIOUS.
 130298	rkb	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
 130299	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.5 II:8							
-130300	tbˤ	tbʿ	!!tbˤ[/	/t-b-ʕ/	vb G inf.	to go	
-130301	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
+130300	tbˤ	tbʿ	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!').
+130301	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. m. du.	to say, tell, announce, communicate, inform	
 130302	l	l	l(I)	l (I)	prep.	to	
 130303	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 130304	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130305	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:9							
-130306	ṯny	ṯny	!!ṯny[	/ṯ-n-y/	vb G impv. 2	to repeat	
+130306	ṯny	ṯny	!!ṯny[	/ṯ-n-y/	vb G impv. m. du.	to repeat, reiterate	
 130307	l	l	l(I)	l (I)	prep.	to	
 130308	ydd	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
-130309	il	il	il(I)/	ỉl (I)	DN m. abs. gen.	ʾIlu/Ilu/El	
+130309	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 130310	ġzr	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.5 II:10							
 130311	tḥm	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
 130312	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
 130313	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 130314	hwt	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
-130315	aliy	aliy	aliy/	ảlỉy	adj. m. sg. cstr.? gen.	The Most Powerful	
+130315	aliy	aliy	aliy/	ảlỉy	adj. m. sg. cstr. gen.	The Most Powerful	
 # KTU 1.5 II:11							
 130316	qrdm	qrdm	qrd(I)/m	qrd (I)	n. m. pl. abs. gen.	hero	
-130317	bhṯ	bhṯ	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame, greetings	
+130317	bhṯ	bhṯ	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame	DULAT: 'for shame, oh divine DN!'; UNP/TCS render 'Greetings/Salutations'.
 130318	l	l	l(IV)	l (IV)	interj.	oh!	
-130319	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.?	son	
+130319	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 130320	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130321	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.?	Môt	
+130321	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 # KTU 1.5 II:12							
-130322	ˤbdk	ʿbdk	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+130322	ˤbdk	ʿbdk	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant	
 130323	an	an	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 130324	w	w	w	w	conj.	and	
-130325	dšˤlmk	dšʿlmk	d; &šˤlm/+k	ʕlm (I)	det. / rel. functor; n. m. sg. cstr. nom. 	1) The one(s) of a) det. of quality, type.; eternity, perpetuity	UNP: wdˤlmk
+130325	dšˤlmk	dšʿlmk	d; &šˤlm/+k	d; ʕlm (I)	det. or rel. functor; n. m. sg. cstr. nom. + 2 m. sg. suff.	the one(s) of; eternity, perpetuity	UNP: wdˤlmk
 # KTU 1.5 II:13							
-130326	tbˤ	tbʿ	tbˤ[:w	/t-b-ʕ/	vb G suffc. 3 m. pl.	to go	
+130326	tbˤ	tbʿ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. du.	to go	// 1.2 I:19 (DULAT: 'the lads left without staying').
+130326	tbˤ	tbʿ	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	TCS: 'Be off and do not tarry, O gods' (// 1.2 I:13).
 130327	w	w	w	w	conj.	and	
 130328	l	l	l(II)	l (II)	adv.	not	
-130329	yṯb	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
-130329	yṯb	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
+130329	yṯb	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
+130329	yṯb	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	Sg. form with pl. subject (cf. 1.2 I:21).
 130329	yṯb	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	
-130330	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+130330	ilm	ilm	il(I)/m	ỉl (I)	n. m. du. abs. nom.	god	The two messengers (// 1.2 I:19 ġlmm); TCS: vocative 'Be off…, O gods'.
 130331	idk	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 II:14							
 130332	l	l	l(III)	l (III)	functor	certainly	
-130333	ytn	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-130333	ytn	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. pl.	to give	
-130334	pnm	pnm	pn(m/m	pnm	n. m. pl./du. tant. abs. acc.	face	
-130335	ṯˤm	ṯʿm	&ṯˤm(I)	ʕm (I)	prep.	to	
+130333	ytn	ytn	!y=!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give	
+130333	ytn	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. du.	to give	
+130334	pnm	pnm	pn(m/m	pnm	n. m. pl. tant. abs. acc.	face	
+130335	ṯˤm	ṯʿm	&ṯˤm(I)	ʕm (I)	prep.	to	Scribal ṯ (UNP: ˤm).
 130336	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 130337	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130338	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:15							
-130339	tk	tk	tk/	tk	n. m. sg. cstr. nom.	centre	
-130339	tk	tk	tk	tk	prep.	2) “to, towards”	
-130340	qrth	qrth	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. gen.	city	
-130341	hmry	hmry	hmry/	hmry	TN f. sg. abs. gen.	name of the mythical city / residence of the god Mot	
+130339	tk	tk	tk/	tk	n. m. sg. cstr. acc.	2) to	tk qrth 'into the midst of his city' (// 1.4 VIII:11, 1.2 I:20).
+130340	qrth	qrth	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. gen. + 3 m. sg. suff.	city	
+130341	hmry	hmry	hmry/	hmry	TN sg. abs. gen.	Fangosa	Mot's city ('Muddy'); // 1.4 VIII:12.
 130342	mk	mk	mk(II)	mk (II)	deictic functor	behold!	
-130342	mk	mk	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	
-130343	ksu	ksu	ks(u/&u	ks/śủ	n. m. sg. abs. nom.	seat, throne, chair	
+130342	mk	mk	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	DULAT: 'a pit is the throne of his seat'; TCS: TN Mukku.
+130343	ksu	ksu	ks(u/&u	ks/śủ	n. m. sg. cstr. nom.	seat, throne, chair	
 # KTU 1.5 II:16							
-130344	ṯbth	ṯbth	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen.	seat	
-130345	ḫḫ	ḫḫ	ḫḫ/	ḫḫ	n. m. sg. abs. nom.	mire	
+130344	ṯbth	ṯbth	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen. + 3 m. sg. suff.	seat	
+130345	ḫḫ	ḫḫ	ḫḫ/	ḫḫ	n. m. sg. abs. nom.	mire	TCS: TN Ḫôḫu.
 130346	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	
-130347	nḥlth	nḥlth	nḥl(t/t+h	nḥlt	n. f. sg. cstr. gen.	property	
-130348	tša	tša	!t!(nš(ʔ[&a:w	/n-š-ʔ/	vb G prefc. 3 m. pl.	to raise	
+130347	nḥlth	nḥlth	nḥl(t/t+h	nḥlt	n. f. sg. cstr. gen. + 3 m. sg. suff.	property	
+130348	tša	tša	!t!(nš(ʔ[&a	/n-š-ʔ/	vb G prefc. 3 m. du.	to raise	Dual ending -ā written with ả.
 # KTU 1.5 II:17							
-130349	ghm	ghm	g/+hm	g	n. m. sg. cstr. acc.	(loud) voice, shout	
+130349	ghm	ghm	g/+hm=	g	n. m. sg. cstr. acc. + 3 c. du. suff.	(loud) voice	
 130350	w	w	w	w	conj.	and	
-130351	tṣḥ	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
+130351	tṣḥ	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. du.	to exclaim, shout	
 130352	tḥm	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
 130353	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
 # KTU 1.5 II:18							
-130354	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	Scribal mistake.
+130354	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	Scribal insertion (UNP {bn.}); not in the formula (// II:10).
 130355	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 130356	hwt	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
 130357	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. cstr. gen.	The Very / Most Powerful	It is aliy in II:11
@@ -344,32 +353,33 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:21							
 130372	ytn	ytn 	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	UNP: [yšu]gh
 130372	ytn	ytn 	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-130373	gh	 gh	g/+h	g	n. m. sg. cstr. acc.	(loud) voice	
+130373	gh	 gh	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	
 130374	w	w	w	w	conj.	and	
-130375	aṣḥ	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	3) to claim	Surface aṣḥ (1 c. sg.); UNP reads wyṣḥ (3 m. sg.).
+130375	aṣḥ	aṣḥ	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim, shout	Surface aṣḥ (1 c. sg.); UNP reads wyṣḥ (3 m. sg.).
 130376	ik	ik	ik	ỉk	interr. functor	how?, why?	
-130377	yṣḥn	yṣḥn	!y!ṣḥ[+n	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	UNP: y{.}ṣḥn
+130377	yṣḥn	yṣḥn	!y!ṣḥ[+n=	/ṣ-ḥ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to exclaim, shout	UNP: y{.}ṣḥn 'invite me'; DULAT reads ylḥn 'how could he provide moisture?' (/l-ḥ(-ḥ)/).
 # KTU 1.5 II:22							
 130378	bˤl	bʿl 	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 130379	xxxxxx	 xxxxxx	?	?	?	?	
-130380	yqr	yqr	!y!qr(ʔ&u[+n	/q-r-ʔ/	vb G prefc. 3 m. sg.	to call, shout, invite	# MERGE WITH THE NEXT. UNP: yqrun "[he] calls me"
-130381	un	un	!y!qr(ʔ&u[+n	/q-r-ʔ/	vb G prefc. 3 m. sg.	to call, shout, invite	# MERGE WITH THE PREVIOUS. UNP: yqrun "[he] calls me"
-130382	hd	hd	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
+130380	yqr	yqr	!y!qr(ʔ&u[+n=	/q-r-ʔ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to call, shout, invite	MERGE WITH THE NEXT. UNP: yqrun '[he] calls me'; DULAT: -n (II).
+130381	un	un	!y!qr(ʔ&u[+n=	/q-r-ʔ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to call, shout, invite	MERGE WITH THE PREVIOUS.
+130382	hd	hd	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
 # KTU 1.5 II:23							
 130383	xxxxxxxxxp	xxxxxxxxxp	?	?	?	?	UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
-130384	mlḥmy	mlḥmy	mlḥmy	mlḥmy	?	?	DULAT direct ref
+130384	mlḥmy	mlḥmy	mlḥmy	mlḥmy	?	?	UNP: 'my food' (restoring [lḥm ˤm aḫy a]p mlḥmy).
 # KTU 1.5 II:24							
-130385	xxxxxxxxlt	xxxxxxxxlt	?	?	?	?	DULAT: NOT FOUND
+130385	xxxxxxxxlt	xxxxxxxxlt	?	?	?	?	
 130386	qẓb	qẓb	qẓb/	qẓb	DN	name of a demon (?)	
 # KTU 1.5 II:25							
 130387	xxxxxxxxxx	xxxxxxxxxx	?	?	?	?	
 130388	šmḥy	šmḥy	!!]š]mḥy[	/m-ḥ(-w:y)/	vb Š impv.	to clean, wipe, erase	Very uncertain; surface šmḥy. ḥ for ḫ (sign confusion).
+130388	šmḥy	šmḥy	!!]š]mḥ[+y	/m-ḥ(-w:y)/	vb Š impv. + 1 c. sg. suff.	to clean, wipe, erase	DULAT tags -y (I) here (suffix reading).
 # KTU 1.5 II:26							
-130389	xxxxxxxxxxxtbˤ	xxxxxxxxxxxtbʿ	tbˤ[	/t-b-ʕ/	vb G suffc.	1) to go 2) to die	
-130389	xxxxxxxxxxxtbˤ	xxxxxxxxxxxtbʿ	!!tbˤ[/	/t-b-ʕ/	vb G inf.	1) to go 2) to die	
-130390	ṯ	ṯ	ṯ	ṯ	→	?	
+130389	xxxxxxxxxxxtbˤ	xxxxxxxxxxxtbʿ	tbˤ[	/t-b-ʕ/	vb G suffc.	to go	
+130389	xxxxxxxxxxxtbˤ	xxxxxxxxxxxtbʿ	!!tbˤ[/	/t-b-ʕ/	vb G inf.	to go	
+130390	ṯ	ṯ	ṯ	?	→	?	KTU3: written above a sign probably representing a Hurrian phoneme (ṯ?) of ln. 27.
 # KTU 1.5 II:27							
-130391	xxxxxxxxxxxxtnṮnm	xxxxxxxxxxxxtnṮnm	?	?	?	?	# KTU3: ṯ is written above a sign probably representing a Hurrian phoneme (ṯ?) of ln. 27.
+130391	xxxxxxxxxxxxtnṮnm	xxxxxxxxxxxxtnṮnm	?	?	?	?	
 # KTU 1.5 III:1							
 130392	xxxxm	xxxxm	?	?	?	?	DULAT: NOT FOUND
 130393	x	x              	?	?	?	?	
