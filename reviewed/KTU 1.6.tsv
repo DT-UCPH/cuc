@@ -69,6 +69,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130861	špš	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh	
 # KTU 1.6 I:12							
 130862	ˤms	ʿms	!!ˤms[	/ʕ-m-s/	vb G impv. f. sg.	to load	'Load on me Mightiest Baal' (Anat to Šapšu).
+130862	ˤms	ʿms	!!ˤms[:d	/ʕ-m-s/	vb D impv. f. sg.	to load	EUPT: D-stem (unwritten gemination; both viable).
 130863	mˤ	mʿ	mˤ(I)	mʕ (I)	postpositional emph. adv.	please!	DULAT cites mʕ (I) here.
 130864	ly	ly	l(I)+y	l (I)	prep. + 1 c. sg. suff.	to, for	
 130865	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. acc.	The Very / Most Powerful	
@@ -264,6 +265,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:48							
 131018	bl	bl	bl(I)	bl (I)	adv. / emph. functor	verily; not?	DULAT: bl/blt nmlk 'shall we not make king…?'.
 131019	nmlk	nmlk	!n!mlk[	/m-l-k/	vb G prefc. 1 c. pl.	to make king	
+131019	nmlk	nmlk	!n!mlk[:d	/m-l-k/	vb D prefc. 1 c. pl.	to make king	EUPT: D-stem (unwritten gemination; both viable).
 131020	ydˤ	ydʿ	ydˤ/	ydʕ	PN m. sg.	the Savant	DULAT: ydʕ ylḥn PN pair 'the Savant Shrewd'.
 131020	ydˤ	ydʿ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg.	one who knows	Alternative reading.
 131021	ylḥn	ylḥn	ylḥn/	ylḥn	PN m. sg.	Shrewd	DULAT PN; no root /l-ḥ-n/ in DULAT. Token deleted in Ksenia's file.
@@ -440,6 +442,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131158	mh	mh	mh	m(h)	pers. pn. interr.	what?	DULAT: mh tảršn 'what do you desire?'.
 # KTU 1.6 II:14							
 131159	taršn	taršn	!t==!(ʔ&arš[~n	/ʔ-r-š/	vb G prefc. 2 f. sg.	to request, desire	Mot to Anat: 'What do you desire, O Virgin Anat?'.
+131159	taršn	taršn	!t==!(ʔ&arš[~n:d	/ʔ-r-š/	vb D prefc. 2 f. sg.	to request, desire	EUPT: D-stem (unwritten gemination; both viable).
 131160	l	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here.
 131161	btlt	btlt	btl(t/t	btlt	n. f. sg. abs. nom.	virgin	
 131162	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
@@ -874,6 +877,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 V:4							
 131504	ṣġrm	ṣġrm	ṣġr(I)/m	ṣġr (I)	adj. m. pl. abs. acc.	small, young	'the small ones he drags to the ground'.
 131505	ymṣḫ	ymṣḫ	!y!mṣḫ[	/m-ṣ-ḥ/	vb G prefc. 3 m. sg.	to pull, drag	DULAT s.v. /m-ṣ-ḥ/: ṣġrm ymṣḫ l ảrṣ.
+131505	ymṣḫ	ymṣḫ	!y!mṣḫ[:d	/m-ṣ-ḥ/	vb D prefc. 3 m. sg.	to pull, drag	EUPT: D-stem (unwritten gemination; both viable).
 131506	l	l	l(I)	l (I)	prep.	to	
 131507	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.6 V:5							
@@ -1235,6 +1239,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:46							
 131787	rpim	rpim	rp(u&i/m	rpủ	n. m. pl. abs. acc.	Rephaim, healers	Encoding per Tagging conventions (rp(u&i/m).
 131788	tḥtk	tḥtk	!t==!ḥtk[	/ḥ-t-k/	vb G prefc. 2 f. sg.	to rule	'Šapšu, you rule the Rephaim' (DULAT /ḥ-t-k/).
+131788	tḥtk	tḥtk	!t==!ḥtk[:d	/ḥ-t-k/	vb D prefc. 2 f. sg.	to rule	EUPT: D-stem (unwritten gemination; both viable).
 131788	tḥtk	tḥtk	tḥt(I)+k=	tḥt (I)	prep. + 2 f. sg. suff.	under	Alternative (DULAT tḥt (I)): 'the Rephaim are under you'.
 # KTU 1.6 VI:47							
 131789	špš	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
