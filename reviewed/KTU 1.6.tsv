@@ -19,6 +19,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:4							
 130820	qn	qn	qn/	qn	n. m. sg. cstr. acc.	cane	qn ḏrˤh 'the cane of her arm' = upper arm (DULAT: 'humerus').
 130821	ḏrˤh	ḏrʿh	ḏrˤ(I)/+h=	ḏrʕ (I)	n. f. sg. cstr. gen. + 3 f. sg. suff.	arm	
+130821	ḏrˤh	ḏrʿh	ḏrˤ(I)/+h=	ḏrʕ (I)	n. f. du. cstr. gen. + 3 f. sg. suff.	arm	EUPT: du. (natural pair).
 130822	tḥrṯ	tḥrṯ	!t!ḥrṯ[	/ḥ-r-ṯ/	vb G prefc. 3 f. sg.	to plough	
 130823	km	km	km	km	prep.	like	1.5 VI:21 has k gn.
 130824	gn	gn	gn(I)/	gn (I)	n. m. sg. abs. gen.	garden, orchard	1.5 VI:21 has k gn.
@@ -83,6 +84,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130873	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. acc.	Baʿlu/Baal	
 130874	l	l	l(I)	l (I)	prep.	onto	
 130875	ktp	ktp	ktp(I)/	ktp (I)	n. f. sg. cstr. gen.	shoulder	
+130875	ktp	ktp	ktp(I)/	ktp (I)	n. f. du. cstr. gen.	shoulder	EUPT: du. (natural pair).
 # KTU 1.6 I:15							
 130876	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 130877	k	k	k(II)	k (II)	emph. functor	yes, indeed	DULAT cites k (II) here: l ktp ʕnt k tšth.
@@ -507,6 +509,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131213	šmm	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. gen.	heavens	
 131214	b	b	b	b	prep.	in	
 131215	yd	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	'in the hand of divine Mot'.
+131215	yd	yd	yd(I)/	yd (I)	n. f. du. cstr. gen.	hand	EUPT: du. (natural pair).
 131216	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 131217	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	Or il + encl. -m: 'son of El'.
 131218	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Môt	
