@@ -596,6 +596,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131281	w	w	w	w	conj.	and	
 131282	hm	hm	hm(II)	hm (II)	conj./interr. functor	if	DULAT cites hm (II): w hm ḥy … w hm iṯ.
 131283	ḥy	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	'if Mightiest Baal is alive'.
+131283	ḥy	ḥy	ḥy[	/ḥ-y-y/	vb G suffc. 3 m. sg.	alive	EUPT: G suffc. 'he lives/revived' (ḥyy).
 131284	aliyn	aliyn 	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 131285	bˤl	 bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 III:3							
@@ -631,6 +632,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131309	idˤ	idʿ	!(ʔ&i!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc. 1 c. sg.	to know	'so that I may know that Mightiest Baal is alive'.
 131310	k	k	k(III)	k (III)	subordinating / completive functor	that	
 131311	ḥy	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	
+131311	ḥy	ḥy	ḥy[	/ḥ-y-y/	vb G suffc. 3 m. sg.	alive	EUPT: G suffc. 'he lives/revived' (ḥyy).
 131312	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 131313	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 III:9							
@@ -697,6 +699,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:20							
 131362	k	k	k(III)	k (III)	subordinating / completive functor	for, because	
 131363	ḥy	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	'for Mightiest Baal lives' (UNP).
+131363	ḥy	ḥy	ḥy[	/ḥ-y-y/	vb G suffc. 3 m. sg.	alive	EUPT: G suffc. 'he lives/revived' (ḥyy).
 131364	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 131365	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 III:21							
@@ -968,6 +971,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131577	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	DULAT cites ym (II) here.
 131578	tn	tn	!!(ytn[	/y-t-n/	vb G impv. m. sg.	to give	'Give up one of your brothers, that I may devour (him)' (Mot to Baal).
 131579	aḥd	aḥd	aḥd/	ảḥd	num. m. sg. abs. acc.	one	
+131579	aḥd	aḥd	aḥd/	ảḥd	adj. m. sg. abs. acc.	one	EUPT: adj. 'single, alone'.
 # KTU 1.6 V:20							
 131580	b	b	b	b	prep.	among	
 131581	aḫk	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. pl. cstr. gen. + 2 m. sg. suff.	brother (by blood)	'your brothers'.
@@ -981,6 +985,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131588	im	im	im	ỉm	conj.	if	DULAT cites ỉm: ỉm ảḥd b ảḫk (l ttn).
 # KTU 1.6 V:22							
 131589	aḥd	aḥd	aḥd/	ảḥd	num. m. sg. abs. acc.	one	
+131589	aḥd	aḥd	aḥd/	ảḥd	adj. m. sg. abs. acc.	one	EUPT: adj. 'single, alone'.
 131590	b	b	b	b	prep.	among	
 131591	aḫk	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. pl. cstr. gen. + 2 m. sg. suff.	brother (by blood)	
 131592	l	l	l(II)	l (II)	adv.	not	'if you do not give one of your brothers'.
