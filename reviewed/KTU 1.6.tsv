@@ -1092,6 +1092,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131671	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 131672	ˤz	ʿz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 131673	yngḥn	yngḥn	!y!ngḥ[~n	/n-g-ḥ/	vb G prefc. 3 m. du.	to butt each other	'they gore each other like wild bulls' (DULAT).
+131673	yngḥn	yngḥn	!y!](n]ngḥ[~n	/n-g-ḥ/	vb N prefc. 3 m. du.	to butt each other	EUPT: N-stem reciprocal, 'they gore each other'.
 # KTU 1.6 VI:18							
 131674	k	k	k(I)	k (I)	prep.	like	
 131675	rumm	rumm	rum/m	rủm	n. m. du. abs. gen.	wild bull	
@@ -1101,6 +1102,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:19							
 131679	ˤz	ʿz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 131680	ynṯkn	ynṯkn	!y!nṯk[~n	/n-ṯ-k/	vb G prefc. 3 m. du.	to bite each other	'they bite each other like serpents' (DULAT).
+131680	ynṯkn	ynṯkn	!y!](n]nṯk[~n	/n-ṯ-k/	vb N prefc. 3 m. du.	to bite each other	EUPT: N-stem reciprocal, 'they bite each other'.
 131681	k	k	k(I)	k (I)	prep.	like	
 131682	bṯnm	bṯnm	bṯn/m	bṯn	n. m. du. abs. gen.	serpent	
 # KTU 1.6 VI:20							
@@ -1109,6 +1111,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131685	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 131686	ˤz	ʿz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 131687	ymṣḫn	ymṣḫn	!y!mṣḫ[~n	/m-ṣ-ḥ/	vb G prefc. 3 m. du.	to drag each other	'they drag each other like coursers'.
+131687	ymṣḫn	ymṣḫn	!y!](n]mṣḫ[~n	/m-ṣ-ḥ/	vb N prefc. 3 m. du.	to drag each other	EUPT: N-stem reciprocal, 'they drag each other'.
 # KTU 1.6 VI:21							
 131688	k	k	k(I)	k (I)	prep.	like	
 131689	lsmm	lsmm	lsm/m	lsm	n. m. du. abs. gen.	swift (courser)	DULAT: lsm 'swift', pl./du. lsmm.
@@ -1166,6 +1169,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131731	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/El	
 131732	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 131733	ṯtˤ	ṯtʿ	ṯtˤ[	/ṯ-t-ʕ/	vb G suffc. 3 m. sg.	to be frightened	'the Beloved of El, the Hero, is scared'.
+131733	ṯtˤ	ṯtʿ	!!ṯtˤ[/	/ṯ-t-ʕ/	vb G inf.	to be frightened	EUPT: G inf. (parallel yru, 'in fear').
 131734	y	y	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	MERGE WITH THE NEXT: y+dd = ydd, split across lines VI:30/31.
 # KTU 1.6 VI:31							
 131735	dd	dd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	MERGE WITH THE PREVIOUS.

@@ -136,6 +136,7 @@
 128560	kt	kt	kt(II)/	kt (II)	n. f. sg. cstr. acc.	stage	
 128561	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 128562	nbt	nbt	nb[t===	/n-b/	vb G suffc. 3 f. sg.	to be smelted, coated with	DULAT (I:31): kt il nbt b ksp 'a divine platform coated in silver'.
+128562	nbt	nbt	nb[t===:pass	/n-b/	vb Gpass suffc. 3 f. sg.	to be smelted, coated with	EUPT: Gp (passive), 'was named/set'.
 128562	nbt	nbt	nbt/	nbt	n. f. sg. abs. acc.	honey	Noun reading: 'a casting (?) in silver'.
 128563	b	b	b	b	prep.	1) spatial location e) material	
 128564	ksp	ksp	ksp/	ksp	n. m. sg. abs. gen.	1) silver c) treatment	
@@ -467,6 +468,7 @@
 128808	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 128808	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 128809	štt	štt	št[t===:pass	/š-t/	vb Gpass suffc. 3 f. sg.	to place, set, set up, leave	DULAT: 'an unclean offering was placed on my table' (subject pglt).
+128809	štt	štt	št[t===	/š-t/	vb G suffc. 3 f. sg.	to place, set, set up, leave	EUPT: G active, 'she set/placed'.
 # KTU 1.4 III:15							
 128810	pglt	pglt	pgl(t/t	pglt	n. f. sg. abs. nom.	unclean offering	
 128811	b	b	b	b	prep.	in	
@@ -1106,6 +1108,7 @@
 129312	kmn	kmn	kmn(I)/	kmn (I)	n. m. sg. abs. gen.	acre	rbt kmn 'ten thousand acres'.
 # KTU 1.4 V:25							
 129313	ṣḥq	ṣḥq	ṣḥq[	/ṣ-ḥ-q/	vb G suffc. 3 f. sg.	to laugh	'Virgin Anat laughs'.
+129313	ṣḥq	ṣḥq	!!ṣḥq[/	/ṣ-ḥ-q/	vb G inf.	to laugh	EUPT: G inf., 'laughing'.
 129314	btlt	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
 129315	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 129316	tšu	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 f. sg.	to raise, lift, help up	
@@ -1119,6 +1122,7 @@
 129322	bšrtk	bšrtk	bšr(t/t+k	bšrt	n. f. sg. cstr. acc. + 2 m. sg. suff.	news	'I bring you good news'.
 129323	yblt	yblt	ybl[t	/y-b-l/	vb G suffc. 1 c. sg.	to carry, bring, take	1 c. sg. (Anat speaking).
 129324	ytn	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	'A house will be given you'.
+129324	ytn	ytn	!y!(ytn[:pass	/y-t-n/	vb Gpass prefc. 3 m. sg.	to give, hand over, grant, bestow	EUPT: Gp (passive), 'is given'.
 # KTU 1.4 V:28							
 129325	bt	bt	bt(II)/	bt (II)	n. m. sg. abs. acc.	1) house	Object of ytn ('he will grant you a house'); DULAT renders as passive.
 129326	lk	lk	l(I)+k	l (I)	prep. + 2 m. sg. suff.	to	
@@ -1199,6 +1203,7 @@
 129386	mspr	mspr	mspr/	mspr	n. m. sg. abs. gen.	recitation	l mspr 'to the recitation'.
 129387	k	k	k(III)	k (III)	subordinating / completive functor	when	
 129388	tlakn	tlakn	!t!l(ʔ&ak[~n:pass	/l-ʔ-k/	vb Gpass prefc. 3 m. du.	to send (a message)	DULAT: 'when the messenger-boys were sent'; subject ġlmm (du.).
+129388	tlakn	tlakn	!t!l(ʔ&ak[~n	/l-ʔ-k/	vb G prefc. 3 m. du.	to send (a message)	EUPT: G active, 'the two of them send'.
 # KTU 1.4 V:43							
 129389	ġlmm	ġlmm	ġlm/m	ġlm	n. m. du. abs. nom.	1) boy	ġlmm 'the two lads/messengers'.
 # KTU 1.4 V:44							
@@ -1218,10 +1223,12 @@
 129400	tk	tk	tk	tk	prep.	in the midst of	DULAT: tk n. 'centre', also used as prep. (EUPT: Präp.).
 129401	pnh	pnh	pn(m/+h	pnm	n. m. pl. tant. cstr. gen. + 3 m. sg. suff.	face	tk pnh 'right before him'.
 129402	tˤdb	tʿdb	!t!ˤdb[	/ʕ-d-b/	vb G prefc. 3 f. sg.	to leave	'a seat is prepared'.
+129402	tˤdb	tʿdb	!t!ˤdb[:pass	/ʕ-d-b/	vb Gpass prefc. 3 f. sg.	to leave	EUPT: Gp (passive), 'is prepared'.
 129403	ksu	ksu	ks(u/&u	ks/śủ	n. m. sg. abs. nom.	seat, throne, chair	
 # KTU 1.4 V:47							
 129404	w	w	w	w	conj.	and	
 129405	yṯṯb	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	'and he is seated at the right hand of Mightiest Baal'.
+129405	yṯṯb	yṯṯb	!y!](š&ṯ]ṯb[:pass	/ṯ-b/	vb Špass prefc. 3 m. sg.	to send (word)	EUPT: Šp (passive), 'is brought back'.
 129406	l	l	l(I)	l (I)	prep.	to	
 129407	ymn	ymn	ymn(I)/	ymn (I)	n. m. sg. cstr. gen.	1) right (side)	
 129408	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
@@ -1523,6 +1530,7 @@
 129639	yˤdb	yʿdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 129640	hd	hd	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
 129641	ˤdb	ʿdb	!!ˤdb[/	/ʕ-d-b/	vb G inf. abs.	to leave > to put in > to place	ˤdb ˤdbt 'he prepares a banquet'.
+129641	ˤdb	ʿdb	ˤdb[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to leave > to put in > to place	EUPT: G suffc., 'he prepared'.
 129642	ˤdbt	 ʿdbt	ˤdb(t/t	ʕdbt	n. f. sg. cstr. acc.	squad, caravan	ˤdb ˤdbt hklh 'he arranged the arrangement of his palace'.
 # KTU 1.4 VI:40							
 129643	hklh	hklh	hkl/+h	hkl	n. m. sg. cstr. + 3 m. sg. suff.	palace	
@@ -1986,6 +1994,7 @@
 # KTU 1.4 VIII:8							
 130002	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	4) the underworld	EUPT genders m.
 130003	tspr	tspr	!t!spr[	/s-p-r/	vb G prefc. 2 m. du.	to count	tspr b yrdm arṣ 'be numbered among those who go down'.
+130003	tspr	tspr	!t!](n]spr[	/s-p-r/	vb N prefc. 2 m. du.	to count	EUPT: N-stem (passive), 'be counted'.
 130004	b	b	b	b	prep.	4) relation of accompaniment and instrumental a) company	among
 130005	y	y	yrd[m	/y-r-d/	vb G act. ptcpl. m. pl. cstr. gen.	to go down, descend	MERGE WITH THE NEXT: y+rdm = yrdm 'those who go down', split VIII:8/9.
 # KTU 1.4 VIII:9							
