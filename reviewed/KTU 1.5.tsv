@@ -263,12 +263,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:8							
 130300	tbˤ	tbʿ	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!').
 130301	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. m. du.	to say, tell, announce, communicate, inform	
+130301	rgm	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. du.	to say	EUPT: G-SK 3 m. du.
 130302	l	l	l(I)	l (I)	prep.	to	
 130303	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 130304	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130305	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:9							
 130306	ṯny	ṯny	!!ṯny[	/ṯ-n-y/	vb G impv. m. du.	to repeat, reiterate	
+130306	ṯny	ṯny	ṯny[	/ṯ-n-y/	vb G suffc. 3 m. du.	to repeat	EUPT: G-SK 3 m. du.
 130307	l	l	l(I)	l (I)	prep.	to	
 130308	ydd	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
 130309	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
@@ -348,6 +350,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130366	d	d	d	d	det. or rel. functor	the one(s) of	0.2.7 splits dˤlmk into d + ˤlmk (was one token in legacy review).
 130367	ˤlmk	ʿlmk	ˤlm(I)/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	'(servant) of your eternity'; UNP: wdˤlmk.
 130368	šmḫ	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad, rejoice	
+130368	šmḫ	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad, rejoice	EUPT: G-Inf.
 130369	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 130370	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 130371	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
@@ -471,6 +474,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 III:21							
 130453	w	w	w	w	conj.	and	
 130454	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. m. du./pl.	to say	UNP: 'And say to [Mot]'.
+130454	rgm	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. du.	to say	EUPT: G-SK 3 m. du.
 130455	l	l	l(I)	l (I)	prep.	to	
 130456	bn	bn              	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 # KTU 1.5 III:22							
