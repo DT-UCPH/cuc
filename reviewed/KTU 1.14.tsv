@@ -21,7 +21,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 132073	umt	umt	um(t/t	umt	n. f. sg. cstr. gen.	family, clan	umt krt 'the family of Kirta' (DULAT).
 # KTU 1.14 I:7							
 132074	krt	krt 	krt/	krt	PN sg. abs. gen.	Kirta	
-132075	ˤrwt	 ʿrwt	ˤrw[t	/ʕ-r-w/	vb Gpass suffc. 3 f. sg.	to be consumed	umt krt ˤrwt 'the family of Kirta was consumed' (DULAT).
+132075	ˤrwt	 ʿrwt	ˤrw[t	/ʕ-r-w/	vb G suffc. 3 f. sg.	to be consumed	umt krt ˤrwt 'the family of Kirta was consumed' (DULAT; EUPT: G-SK 3 f. sg.).
 132076	bt	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	immediate social circle	bt mlk 'the house of the king' (DULAT bt (II)).
 # KTU 1.14 I:8							
 132077	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
@@ -36,18 +36,19 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 132085	um	um	um/	ủm	n. f. sg. cstr. gen.	mother	bn um 'sons of one mother'.
 # KTU 1.14 I:10							
 132086	krt	krt	krt/	krt	PN sg. abs. nom.	Kirta	
-132087	ḥtkn	ḥtkn	ḥtk(II)/~n	ḥtk (II)	n. m. sg. cstr. gen. + encl. -n	lineage	krt ḥtkn rš 'Kirta, his lineage was ruined' (DULAT).
+132087	ḥtkn	ḥtkn	ḥtk(II)/~n	ḥtk (II)	n. m. sg. cstr. gen. + encl. -n	lineage	krt ḥtkn rš 'his lineage was ruined' (DULAT ḥtk II).
+132087	ḥtkn	ḥtkn	ḥtk(III)/~n	ḥtk (III)	n. m. sg. cstr. acc. + encl. -n	sovereignty, power	EUPT: ḥtkn 'in (his) supremacy' (ḥtk III, acc.).
 132088	rš	rš	rš[	/r-š(-š)/	vb G suffc. 3 m. sg.	to be ruined	
 # KTU 1.14 I:11							
 132089	krt	krt	krt/	krt	PN sg. abs. nom.	Kirta	
 132090	grdš	grdš	grdš[	/g-r-d-š/	vb G suffc. 3 m. sg.	to be undermined, ruined	
 132091	mknt	mknt	mkn(t/t	mknt	n. f. sg. cstr. nom.	family seat	krt grdš mknt 'ruined of his family seat'.
 # KTU 1.14 I:12							
-132092	aṯt	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. acc.	woman	aṯt ṣdqh 'his lawful wife'.
+132092	aṯt	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. acc.	woman	aṯt ṣdqh 'the wife of his legitimacy' (EUPT: St.cs.).
 132093	ṣdqh	ṣdqh	ṣdq(I)/+h	ṣdq (I)	n. m. sg. cstr. gen. + 3 m. sg. suff.	legitimacy	aṯt ṣdqh 'the wife of his legitimacy' = his lawful wife.
 132094	l	l	l(II)	l (II)	adv.	not	aṯt ṣdqh l ypq 'a lawful wife he did not obtain' (DULAT).
-132095	ypq	ypq	ypq[	/y-p-q/	vb G suffc. 3 m. sg.	to get, obtain	
-132095	ypq	ypq	!y!(ypq[	/y-p-q/	vb G prefc. 3 m. sg.	to get, obtain	wg: root y-p-q, prefc. reading.
+132095	ypq	ypq	!y!(ypq[	/y-p-q/	vb G prefc. 3 m. sg.	to get, obtain	aṯt ṣdqh l ypq 'a lawful wife he did not obtain' (EUPT G-PKK; wg prefc.).
+132095	ypq	ypq	ypq[	/y-p-q/	vb G suffc. 3 m. sg.	to get, obtain	Alt.: suffc.
 # KTU 1.14 I:13							
 132096	mtrḫt	mtrḫt	mtrḫ(t/t	mtrḫt	n. f. sg. abs. acc.	consort, wife	
 132097	yšrh	yšrh	yšr(I)/+h	yšr (I)	n. m. sg. cstr. gen. + 3 m. sg. suff.	uprightness, lawfulness	mtrḫt yšrh 'his rightful consort'.
