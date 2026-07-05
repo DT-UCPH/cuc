@@ -5,7 +5,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:2							
 130808	ġr	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. acc.	skin	Mourning rites of Anat = 1.5 VI:17-22 (El), with 3 f. sg. verbs.
 130809	b	b	b	b	prep.	with	
-130810	abn	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	
+130810	abn	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	EUPT genders m.
 130811	td	td	!t!(yd(y(II)[	/y-d-y/ (II)	vb G prefc. 3 f. sg.	to rip, scratch	= tdy with final y elided; cf. ydy 1.5 VI:18.
 130812	psltm	psltm	pslt(I)/m	pslt (I)	n. f. du. abs. acc.	braid, plait	UNP: 'double-slits'; TCS: 'incisions'.
 130813	b	 b 	b	b	prep.	with	
@@ -180,7 +180,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130951	qrb	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside, midst	
 # KTU 1.6 I:34							
 130952	apq	apq	apq/	ảpq	n. m. sg./pl. cstr. gen.	spring, source	
-130953	thmtm	thmtm	thm(t/tm	thmt	n. f. du. abs. gen.	Primordial Ocean	'amid the streams of the two deeps'.
+130953	thmtm	thmtm	thm(t/tm	thmt	n. f. du. abs. gen.	Primordial Ocean	'amid the streams of the two deeps'.; EUPT genders m.
 130954	tgly	tgly	!t!gly[	/g-l-y/	vb G prefc. 3 f. sg.	to present oneself, arrive	DULAT: tgly G or N; formula = 1.5 VI:1.
 130955	ḏd	ḏd	ḏd(II)/	ḏd (II)	n. m. sg. cstr. acc.	grotto, cave	ḏd il 'the grotto of El'.
 # KTU 1.6 I:35							
@@ -238,13 +238,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:44							
 130998	l	l	l(I)	l (I)	prep.	to	
 130999	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	rbt aṯrt ym 'Lady Athirat of the Sea'.
-131000	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. gen.	Athirat/Asherah	
+131000	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	Athirat/Asherah	EUPT/construct: bound to the following genitive.
 131001	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 131002	šmˤ	šmʿ	!!šmˤ[	/š-m-ʕ/	vb G impv. f. sg.	to hear	
 # KTU 1.6 I:45							
 131003	l	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here: 'Hear, O Lady Athirat…'.
 131004	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	
-131005	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
+131005	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. nom.	Athirat/Asherah	EUPT/construct: bound to the following genitive.
 131006	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 131007	tn	tn	!!(ytn[	/y-t-n/	vb G impv. f. sg.	to give	'Give one of your sons, I will make him king'.
 # KTU 1.6 I:46							
@@ -257,7 +257,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131013	w	w	w	w	conj.	and	
 131014	tˤn	tʿn	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
 131015	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
-131016	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
+131016	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. nom.	Athirat/Asherah	EUPT/construct: bound to the following genitive.
 131017	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.6 I:48							
 131018	bl	bl	bl(I)	bl (I)	adv. / emph. functor	verily; not?	DULAT: bl/blt nmlk 'shall we not make king…?'.
@@ -283,7 +283,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131034	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 131035	l	l	l(II)	l (II)	adv.	not	
 131036	yˤdb	yʿdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to handle, wield	DULAT s.v. /ʕ-d-b/: '(he cannot) handle the lance'.
-131037	mrḥ	mrḥ	mrḥ/	mrḥ	n. f. sg. abs. acc.	lance, spear	
+131037	mrḥ	mrḥ	mrḥ/	mrḥ	n. f. sg. abs. acc.	lance, spear	EUPT genders m.
 # KTU 1.6 I:52							
 131038	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with	
 131039	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
@@ -294,7 +294,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131042	w	w	w	w	conj.	and	
 131043	ˤn	ʿn	ˤn(y(I)[	/ʕ-n-y/ (I)	vb G suffc. 3 f. sg.	to answer	
 131044	rbt	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
-131045	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Athirat/Asherah	
+131045	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. nom.	Athirat/Asherah	EUPT/construct: bound to the following genitive.
 131046	ym	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.6 I:54							
 131047	blt	blt	bl(I)~t	bl (I)	adv. / emph. functor + encl. -t	verily; not?	DULAT: blt → bl; bl/blt nmlk.
@@ -547,7 +547,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131246	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 131247	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. acc.	Môt	
 131248	b	b	b	b	prep.	with	
-131249	ḥrb	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	knife, sword	'with a sword she splits him' (DULAT).
+131249	ḥrb	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	knife, sword	'with a sword she splits him' (DULAT).; EUPT genders m.
 # KTU 1.6 II:32							
 131250	tbqˤnn	tbqʿnn	!t!bqˤ[+nn	/b-q-ʕ/	vb G prefc. 3 f. sg. + 3 m. sg. suff.	to split, cleave	
 131251	b	b	b	b	prep.	with	
@@ -570,7 +570,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131265	l	l	l(III)	l (III)	functor	certainly	DULAT cites l (III) here.
 131266	tikl	tikl	!t!(ʔ&ikl[	/ʔ-k-l/	vb G prefc. 3 f. sg.	to eat, devour	Collective subject ˤṣrm.
 # KTU 1.6 II:36							
-131267	ˤṣrm	ʿṣrm	ˤṣr(I)/m	ʕṣr (I)	n. f. pl. abs. nom.	bird	
+131267	ˤṣrm	ʿṣrm	ˤṣr(I)/m	ʕṣr (I)	n. f. pl. abs. nom.	bird	EUPT genders m.
 131268	mnth	mnth	mn(t(I)/t+h	mnt (I)	n. f. sg. cstr. acc. + 3 m. sg. suff.	portion, ration	'his portions the fliers consume'.
 131269	l	l	l(III)	l (III)	functor	certainly	
 131270	tklyy	tklyy	!t!kly[&y:d	/k-l-y/	vb D prefc. 3 f. sg.	to finish (off), consume	Final y superfluous (dittography?); Ksenia reads suffix +y.
@@ -619,7 +619,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:7							
 131305	nḫlm	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl. abs. nom.	torrent, wadi	
 131306	tlk	tlk	!t!(hlk[:w	/h-l-k/	vb G prefc. 3 m. pl.	to go, run, flow	'the wadis run with honey'.
-131307	nbtm	nbtm	nb(t/t~m	nbt	n. f. sg. abs. acc.	honey	DULAT cites -m (I) (encl.) here, not du./pl.
+131307	nbtm	nbtm	nb(t/t~m	nbt	n. f. sg. abs. acc.	honey	DULAT cites -m (I) (encl.) here, not du./pl.; EUPT genders m.
 # KTU 1.6 III:8							
 131308	w	w	w	w	conj.	and	
 131309	idˤ	idʿ	!(ʔ&i!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc. 1 c. sg.	to know	'so that I may know that Mightiest Baal is alive'.
@@ -653,7 +653,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:13							
 131332	nḫlm	nḫlm	nḫl(I)/m	nḫl (I)	n. m. pl. abs. nom.	torrent, wadi	
 131333	tlk	tlk	!t!(hlk[:w	/h-l-k/	vb G prefc. 3 m. pl.	to go, run, flow	
-131334	nbtm	nbtm	nb(t/t~m	nbt	n. f. sg. abs. acc.	honey	
+131334	nbtm	nbtm	nb(t/t~m	nbt	n. f. sg. abs. acc.	honey	EUPT genders m.
 # KTU 1.6 III:14							
 131335	šmḫ	šmḫ	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad, rejoice	'the Benevolent El the Benign rejoices' (UNP); DULAT cites /š-m-ḫ/ here.
 131335	šmḫ	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad, rejoice	EUPT: G-Inf.
@@ -727,7 +727,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 IV:2							
 131391	pl	pl	pl(l[	/p-l(-l)/	vb G suffc. 3 f. pl.	to be cracked, parched	
 131392	ˤnt	ʿnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. nom.	furrow	
-131393	šdm	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
+131393	šdm	šdm	šd(I)/m	šd (I)	n. m. pl. cstr. gen.	open field	EUPT/construct: bound to the following genitive.
 131394	il	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	šdm il 'the fields of El' (superlative 'vast'?); UNP: 'the grand fields'.
 131395	yštk	yštk	!y!št[+k	/š-t/	vb G prefc. 3 m. sg. + 2 m. sg. suff.	to place, set	DULAT: yštk bʕl ʕnt mḥrṯt; UNP: 'May Baal restore the furrows of the ploughed land'.
 # KTU 1.6 IV:3							
@@ -862,7 +862,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131496	rbm	rbm	rb(I)/m	rb (I)	adj. m. pl. abs. acc.	great	'the great ones he strikes with a scimitar'.
 131497	ymḫṣ	ymḫṣ	!y!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 m. sg.	to strike, smite	
 131498	b	b	b	b	prep.	with	
-131499	ktp	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. gen.	shoulder	b ktp 'with a scimitar' (DULAT's rendering here).
+131499	ktp	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. gen.	shoulder	b ktp 'with a scimitar' (DULAT's rendering here).; EUPT genders m.
 # KTU 1.6 V:3							
 131500	dkym	dkym	d k(I) ym(II)/	d; k (I); ym (II)	det. or rel. functor; prep.; n. m. sg. abs. gen.	the ones of; like; sea	DULAT segments d-k-ym 'those who are like Yam'; others read dkym 'waves/pounders'.
 131501	ymḫṣ	ymḫṣ	!y!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 m. sg.	to strike, smite	
@@ -924,7 +924,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 V:13							
 131547	dry	dry	!!dry[/	/d-r-y/	vb G inf. abs. acc.	winnowing	'I experienced winnowing with a sword' (DULAT: ʕlk pht dry).
 131548	b	b	b	b	prep.	with	
-131549	ḥrb	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	knife, sword	
+131549	ḥrb	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	knife, sword	EUPT genders m.
 131550	ˤlk	ʿlk	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 # KTU 1.6 V:14							
 131551	pht	pht	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	

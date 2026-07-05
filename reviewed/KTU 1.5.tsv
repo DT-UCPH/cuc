@@ -224,7 +224,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:3							
 130273	yšt	yšt 	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 130273	yšt	yšt 	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
-130274	lšn	 lšn	lšn/	lšn	n. f. sg. abs. acc.	tongue	
+130274	lšn	 lšn	lšn/	lšn	n. f. sg. abs. acc.	tongue	EUPT genders m.
 130274	lšn	 lšn	lšn/	lšn	n. f. sg. abs. nom.	tongue	
 130275	l	l	l(I)	l (I)	prep.	to	
 130276	kbkbm	kbkbm	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body, star	
@@ -328,7 +328,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:16							
 130344	ṯbth	ṯbth	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen. + 3 m. sg. suff.	seat	
 130345	ḫḫ	ḫḫ	ḫḫ/	ḫḫ	n. m. sg. abs. nom.	mire	TCS: TN Ḫôḫu.
-130346	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	
+130346	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	EUPT genders m.
 130347	nḥlth	nḥlth	nḥl(t/t+h	nḥlt	n. f. sg. cstr. gen. + 3 m. sg. suff.	property	
 130348	tša	tša	!t!(nš(ʔ[&a	/n-š-ʔ/	vb G prefc. 3 m. du.	to raise	Dual ending -ā written with ả.
 # KTU 1.5 II:17							
@@ -490,10 +490,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 III:22							
 130457	b	b	b	b	prep.	in	
 130458	mud	mud	mud/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	DULAT: b mủd ṣỉn 'with a large quantity of ewes'.
-130459	ṣin	ṣin                	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. gen.	ewe(s), small cattle	
+130459	ṣin	ṣin                	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. gen.	ewe(s), small cattle	EUPT genders m.
 # KTU 1.5 III:23							
 130460	mud	mud	mud/	mỉ/ủd	n. m. sg. cstr. gen.	abundance	
-130461	ṣin	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. gen.	ewe(s), small cattle	
+130461	ṣin	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. gen.	ewe(s), small cattle	EUPT genders m.
 130462	w	w               	w	w	conj.	and	
 # KTU 1.5 III:24							
 130463	iṯm	iṯm	iṯm(I)/	ỉṯm (I)	n. m. sg.	firm-fleshed cattle (?)	DULAT: ỉṯm mủỉd 'firm-fleshed cattle (?) in abundance'.
@@ -705,7 +705,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130611	rd	rd	!!(yrd[	/y-r-d/	vb G impv. m. sg.	to go down	
 # KTU 1.5 V:15							
 130612	bt	bt	bt(II)/	bt (II)	n. m. sg. cstr. acc.	house	bt ḫpṯt 'house of seclusion' = the underworld; UNP: 'Hell, the House of Freedom'.
-130613	ḫpṯt	ḫpṯt	ḫpṯ(t/t	ḫpṯt	n. f. sg. abs. gen.	?	bt ḫpṯt 'house of ḫpṯt' = the underworld; UNP 'House of Freedom'; DULAT '?'.
+130613	ḫpṯt	ḫpṯt	ḫpṯ(t/t	ḫpṯt	n. f. sg. cstr. gen.	?	bt ḫpṯt 'house of ḫpṯt' = the underworld; UNP 'House of Freedom'; DULAT '?'.; EUPT/construct: bound to the following genitive.
 130614	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs.	earth, underworld	
 130615	tspr	tspr	!t=!spr[	/s-p-r/	vb G prefc. 2 m. sg.	to count, be counted	UNP/TCS: 'be counted among those who descend to the earth'.
 130615	tspr	tspr	!t=!spr[:pass	/s-p-r/	vb Gpass prefc. 2 m. sg.	to count, number	TCS: 'you must be counted among those who go down into the earth'.
@@ -864,7 +864,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130734	mizrtm	mizrtm	mizr(t/tm	mỉzrt	n. f. du. abs. acc.	garment, ritual tunic	If du.: 'a double garment'.
 130735	ġr	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. acc.	skin	ġr b abn ydy 'his skin he scratches with a stone' (DULAT).
 130736	b	b	b	b	prep.	with	
-130737	abn	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	
+130737	abn	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	EUPT genders m.
 # KTU 1.5 VI:18							
 130738	ydy	ydy	!y!(ydy(II)[	/y-d-y/ (II)	vb G prefc. 3 m. sg.	to rip, scratch	
 130739	psltm	psltm	pslt(I)/m	pslt (I)	n. f. du. abs. acc.	braid, plait	UNP: 'double-slits with a blade'; TCS: 'incisions'.
