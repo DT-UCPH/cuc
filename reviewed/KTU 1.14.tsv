@@ -21,7 +21,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 132073	umt	umt	um(t/t	umt	n. f. sg. cstr. gen.	family, clan	umt krt 'the family of Kirta' (DULAT).
 # KTU 1.14 I:7							
 132074	krt	krt 	krt/	krt	PN sg. abs. gen.	Kirta	
-132075	ˤrwt	 ʿrwt	ˤrw[t	/ʕ-r-w/	vb G suffc. 3 f. sg.	to be consumed	umt krt ˤrwt 'the family of Kirta was consumed' (DULAT; EUPT: G-SK 3 f. sg.).
+132075	ˤrwt	 ʿrwt	ˤrw[t===:pass	/ʕ-r-w/	vb Gpass suffc. 3 f. sg.	to be consumed	umt krt ˤrwt 'the family of Kirta was consumed' (DULAT; auto: Gpass).
+132075	ˤrwt	 ʿrwt	ˤrw[t===	/ʕ-r-w/	vb G suffc. 3 f. sg.	to be consumed	EUPT: G-SK 3 f. sg. (ˁaruwat).
 132076	bt	bt	bt(II)/	bt (II)	n. m. sg. cstr. nom.	immediate social circle	bt mlk 'the house of the king' (DULAT bt (II)).
 # KTU 1.14 I:8							
 132077	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
