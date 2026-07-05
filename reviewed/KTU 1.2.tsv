@@ -121,7 +121,7 @@
 # KTU 1.2 I:18							
 126407	tn	tn	!!(ytn[	/y-t-n/	vb G impv. m. pl.	give	tn ilm 'deliver, O gods!' (DULAT).
 126408	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god b) activities of the gods	
-126408	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. nom + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+126408	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. nom + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 126409	d	d	d	d	det. or rel. functor	2) which	
 126410	tqh	tqh	!t===!(yq(y[+h	/y-q-y/	vb G prefc. 2 m. pl. + 3 m. sg. suff.	to protect	d tqh 'the one you protect/pay homage to' (DULAT).
 126411	d	d	d	d	det. or rel. functor	2) which	
@@ -299,7 +299,7 @@
 126559	nhr	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
 126560	tn	tn	!!(ytn[	/y-t-n/	vb G impv. m. pl.	give	
 126561	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-126561	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. nom + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+126561	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. nom + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 126562	d	d	d	d	det. or rel. functor	the one(s) of	
 126563	tqh	tqh	!t===!(yq(y[+h	/y-q-y/	vb G prefc. 2 m. pl. + 3 m. sg. suff.	to protect	
 126564	d	d	d	d	det. or rel. functor	the one(s) of	
@@ -613,6 +613,7 @@
 126823	yrdxxx	yrd xxx	?	?	?	?	
 126824	ixxxx	ixxxx 	?	?	?	?	
 126825	in	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
+126825	in	in	in	ỉn	neg. existential functor	there is not	DULAT ỉn n., functions as neg. existential particle (EUPT: Existenzpart. neg.).
 126826	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 # KTU 1.2 III:15							
 126827	nn	     nn	nn/	nn	PN sg. abs.	nn	Broken context (i]n bn | nn).
@@ -673,6 +674,7 @@
 126878	aby	aby	ab/+y	ảb	n. m. sg. cstr. nom. + 1 c. sg. suff.	father	
 126879	ank	ank	ank	ảnk	pers. pn.	1) i e) emphatic of suff. pn	
 126880	in	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
+126880	in	in	in	ỉn	neg. existential functor	there is not	DULAT ỉn n., functions as neg. existential particle (EUPT: Existenzpart. neg.).
 126881	bt	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	1) house	ank in bt ly km ilm 'as for me, I have no house like the gods' (DULAT).
 126882	ly	 ly	l(I)+y	l (I)	prep. + 1 c. sg. suff.	7) of belonging ((not) being of, (not) having) b) with vb functor	
 126883	km	 km 	km	km	prep./conj./adv.	like	
@@ -716,6 +718,7 @@
 126918	mlkt	mlkt	mlk[t=	/m-l-k/	vb G suffc. 2 m. sg.	to reign, rule	
 126919	wn	wn	w+n	w	conj.	4) declarative and emphatic functor	
 126920	in	in	in/	ỉn	n. m. sg. cstr. nom.	2) he / she / it does not have	
+126920	in	in	in	ỉn	neg. existential functor	there is not	DULAT ỉn n., functions as neg. existential particle (EUPT: Existenzpart. neg.).
 126921	aṯt	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	2) married woman	wn in aṯt lk 'for you have no wife (like the gods)' (DULAT).
 126922	lk	 lk	l(I)+k	l (I)	prep. + 2 m. sg. suff.	7) of belonging ((not) being of, (not) having) b) with vb functor	
 126923	km	km  	km	km	prep./conj./adv.	like	

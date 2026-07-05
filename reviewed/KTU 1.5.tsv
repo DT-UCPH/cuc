@@ -42,7 +42,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130148	npš	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
 130149	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 130150	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130150	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130150	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130151	mt	mt	mt(II)/	mt (II)	n. m. sg. abs. gen.	death	
 130152	b	b	b	b	prep.	in	
 130153	mh	mh	mhmrt/	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE NEXT: mh+mrt = mhmrt (UDB: 'R1 assumes the Broken String: mhmrt.'); DULAT mhmrt (cf. hmrt 'drain, sink').
@@ -80,7 +80,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130176	tḥm	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
 130177	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 130178	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130178	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130178	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 # KTU 1.5 I:13							
 130179	mt	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
 130180	hwt	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
@@ -269,7 +269,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130302	l	l	l(I)	l (I)	prep.	to	
 130303	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 130304	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130304	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130304	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130305	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:9							
 130306	ṯny	ṯny	!!ṯny[	/ṯ-n-y/	vb G impv. m. du.	to repeat, reiterate	
@@ -290,7 +290,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130318	l	l	l(IV)	l (IV)	interj.	oh!	
 130319	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 130320	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130320	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130320	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130321	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 # KTU 1.5 II:12							
 130322	ˤbdk	ʿbdk	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant	
@@ -315,7 +315,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130335	ṯˤm	ṯʿm	&ṯˤm(I)	ʕm (I)	prep.	to	Scribal ṯ (UNP: ˤm).
 130336	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
 130337	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130337	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130337	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130338	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:15							
 130339	tk	tk	tk/	tk	n. m. sg. cstr. acc.	2) to	tk qrth 'into the midst of his city' (// 1.4 VIII:11, 1.2 I:20).
@@ -347,7 +347,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130359	bhṯ	bhṯ	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame, greetings	
 130360	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 130361	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130361	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130361	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130362	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 130363	ˤbdk	ʿbdk	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant	
 130364	an	an 	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
@@ -359,7 +359,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130368	šmḫ	šmḫ	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad, rejoice	EUPT: G-Inf.
 130369	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 130370	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130370	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130370	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130371	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 # KTU 1.5 II:21							
 130372	ytn	ytn 	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	UNP: [yšu]gh
@@ -451,11 +451,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130432	w	w	w	w	conj.	and	
 130433	lk	lk	!!(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	UNP: 'And go, O Gods'; not l(I)+k.
 130434	ilm	ilm                  	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-130434	ilm	ilm                  	il(I)/~m	il (I)	n. m. sg. abs. nom + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130434	ilm	ilm                  	il(I)/~m	ỉl (I)	n. m. sg. abs. nom + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 # KTU 1.5 III:15							
 130435	nˤm	nʿm	nˤm(I)/	nʕm (I)	adj. m. sg. cstr.	handsome	DULAT: nʕm ỉlm 'the (most) handsome of the gods'; UNP: 'O gracious gods'.
 130436	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-130436	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130436	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130437		                	?	?	?	?	
 # KTU 1.5 III:16							
 130438	šgr	šgr	šgr(I)/	šgr (I)	n. m. sg.	offspring of cattle	DULAT: šgr mủd 'offspring of cattle in great quantity'.
@@ -479,7 +479,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130449	w	w	w	w	conj.	and	
 130450	lk	lk	!!(hlk[	/h-l-k/	vb G impv. m. du./pl.	to go	Not l(I)+k; cf. III:14.
 130451	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-130451	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. nom + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+130451	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. nom + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130452		                	?	?	?	?	
 # KTU 1.5 III:21							
 130453	w	w	w	w	conj.	and	

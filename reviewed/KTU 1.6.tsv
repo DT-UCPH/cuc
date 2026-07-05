@@ -433,7 +433,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131154	ˤn	ʿn	ˤn(y(I)[	/ʕ-n-y/ (I)	vb G suffc. 3 m. sg.	to answer	
 131155	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 131156	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	bn ilm mt 'the son of El/the gods, Môt'; or il + encl. -m.
-131156	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+131156	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 131157	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 131158	mh	mh	mh	m(h)	pers. pn. interr.	what?	DULAT: mh tảršn 'what do you desire?'.
 # KTU 1.6 II:14							
@@ -544,7 +544,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 II:31							
 131245	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. acc.	son	
 131246	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	Or il + encl. -m.
-131246	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+131246	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 131247	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. acc.	Môt	
 131248	b	b	b	b	prep.	with	
 131249	ḥrb	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	knife, sword	'with a sword she splits him' (DULAT).
@@ -596,6 +596,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131286	w	w	w	w	conj.	and	
 131287	hm	hm	hm(II)	hm (II)	conj./interr. functor	if	
 131288	iṯ	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence, existence	'if the Prince, Lord of the Earth, exists'.
+131288	iṯ	iṯ	iṯ(I)	ỉṯ (I)	existential functor	there is	DULAT ỉṯ (I) n. 'existence', functions as existential particle (EUPT: Existenzpart.).
 131289	zbl	zbl	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	
 131290	bˤl	bʿl 	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	
 131291	arṣ	 arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
@@ -629,6 +630,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:9							
 131314	xk	xk	?	?	?	?	= [w] k (III) 'that'? (broken).
 131315	iṯ	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence, existence	
+131315	iṯ	iṯ	iṯ(I)	ỉṯ (I)	existential functor	there is	DULAT ỉṯ (I) n. 'existence', functions as existential particle (EUPT: Existenzpart.).
 131316	zbl	zbl	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	
 131317	bˤl	bʿl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	
 131318	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
@@ -694,6 +696,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:21							
 131366	k	k	k(III)	k (III)	subordinating / completive functor	for, because	
 131367	iṯ	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence, existence	
+131367	iṯ	iṯ	iṯ(I)	ỉṯ (I)	existential functor	there is	DULAT ỉṯ (I) n. 'existence', functions as existential particle (EUPT: Existenzpart.).
 131368	zbl	zbl	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	
 131369	bˤl	bʿl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	lord	
 131370	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
@@ -900,7 +903,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131530	kr	kr	kr[	/k-r/	vb G suffc. 3 m. sg.	to be furious, enraged	DULAT also cites /r-k(-k)/ 'to relent' here; broken sense.
 131531	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 131532	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	bn ilm mt 'the son of El/the gods, Môt'; or il + encl. -m.
-131532	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+131532	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 131533	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 # KTU 1.6 V:10							
 131534	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	to, towards	
@@ -1026,7 +1029,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131627	xxxxxx	xxxxxx	?	?	?	?	
 131628	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr.	son	
 131629	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	Or il + encl. -m: 'son of El'.
-131629	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+131629	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 131630	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	
 # KTU 1.6 VI:8							
 131631	xxu	xxu	?	?	?	?	= [yš/tš]u?
@@ -1037,7 +1040,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131635	ˤn	ʿn	ˤn(y(I)[	/ʕ-n-y/ (I)	vb G suffc. 3 m. sg.	to answer	Answer formula (cf. II:13); DULAT cites /ʕ-n/ 'to see' here.
 131636	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 131637	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
-131637	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+131637	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 131638	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 # KTU 1.6 VI:10							
 131639	p	p	p(I)	p (I)	conj. functor	and	DULAT: p hn aḫym ytn bˤl spuy 'Behold, Baal has given my own brothers as my food' (Mot).
@@ -1119,7 +1122,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 131701	l	l	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here.
 131702	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 131703	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	Or il + encl. -m: 'son of El'.
-131703	ilm	ilm	il(I)/~m	il (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
+131703	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 131704	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 131705	ik	ik	ik	ỉk	interr. functor	how?, why?	'How can you fight with Mightiest Baal?'
 131706	tmtḫ	tmtḫ	!t=!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 m. sg.	to fight	MERGE WITH THE NEXT: tmtḫ+ṣ = tmtḫṣ, split across lines VI:24/25; DULAT: ik tmtḫṣ ˤm aliyn bˤl.
