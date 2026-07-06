@@ -9,12 +9,34 @@ from linter.lint import lint_file
 
 class LinterSchemaEnforcementTest(unittest.TestCase):
     HEADER = "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+    HEADER_WITH_SIGN_SPAN = (
+        "id\tsurface form\tsign span\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+    )
 
     def _lint_text(self, text: str) -> list:
         with tempfile.TemporaryDirectory() as tmp_dir:
             out_dir = Path(tmp_dir) / "out"
             out_dir.mkdir(parents=True, exist_ok=True)
             file_path = out_dir / "KTU 1.test.tsv"
+            file_path.write_text(text, encoding="utf-8")
+            return lint_file(
+                path=file_path,
+                dulat_forms={},
+                entry_meta={},
+                lemma_map={},
+                entry_stems={},
+                entry_gender={},
+                udb_words=set(),
+                baseline=None,
+                input_format="auto",
+                db_checks=False,
+            )
+
+    def _lint_reviewed_text(self, text: str) -> list:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            reviewed_dir = Path(tmp_dir) / "reviewed"
+            reviewed_dir.mkdir(parents=True, exist_ok=True)
+            file_path = reviewed_dir / "KTU 1.test.tsv"
             file_path.write_text(text, encoding="utf-8")
             return lint_file(
                 path=file_path,
@@ -45,6 +67,16 @@ class LinterSchemaEnforcementTest(unittest.TestCase):
         issues = self._lint_text("# KTU 1.test 1\n1\ta\ta/\ta\tn.\tgloss\t\n")
         self.assertTrue(
             any("Missing or invalid TSV header row" in issue.message for issue in issues)
+        )
+
+    def test_reviewed_sign_span_column_is_ignored_for_linting(self) -> None:
+        issues = self._lint_reviewed_text(
+            self.HEADER_WITH_SIGN_SPAN
+            + "# KTU 1.test 1\t\t\t\t\t\t\t\n"
+            + "1\tbˤl\tbʿl\tbˤl/\tbʕl (II)\tDN\tBaʿlu\t\n"
+        )
+        self.assertFalse(
+            any("Disallowed character in columns 2-3: ʿ" in issue.message for issue in issues)
         )
 
 
