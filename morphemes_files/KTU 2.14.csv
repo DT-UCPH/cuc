@@ -12,11 +12,11 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 156704,rgm,!!rgm[,/r-g-m/,vb G suffc. / vb G impv.,to say,
 # KTU 2.14 4,,,,,,
 156705,ilm,il(I)/m,ỉl (I),n. m. pl.,god,
-156706,tġrk,!t!(nġr[k,/n-ġ-r/,vb G suffc.,to protect,
+156706,tġrk,!t!(nġr[+k,/n-ġ-r/,vb G suffc.,to protect,
 # KTU 2.14 5,,,,,,
-156707,tšlmk,!t!šlm[k:d,/š-l-m/,vb D suffc.,to be well,
+156707,tšlmk,!t!šlm[+k:d,/š-l-m/,vb D suffc.,to be well,
 # KTU 2.14 6,,,,,,
-156708,iky,iky,ỉky,interr. functor,How,
+156708,iky,ik~y,ỉky,interr. functor,How,
 156709,lḥt,lḥ(II)(t/t,lḥ (II),f. m. s.,missive,
 # KTU 2.14 7,,,,,,
 156710,spr,spr(II)/,spr (II),n. m. sg.,tablet / register,
@@ -24,9 +24,9 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 156712,likt,l(ʔ&ik[t,/l-ʔ-k/,vb G suffc.,to send (a message),
 # KTU 2.14 8,,,,,,
 156713,ˤm,ˤm(I),ʕm (I),prep.,to,
-156714,tryl,ṯryl/,,PN,?,DULAT: NOT FOUND
+156714,ṯryl,ṯryl/,,PN,?,DULAT: NOT FOUND
 # KTU 2.14 9,,,,,,
-156715,mhy,mh/y,m(h),pers. pn.,what?,Based on DULAT reconstruction.
+156715,mhy,mh~y,m(h),pers. pn.,what?,Based on DULAT reconstruction.
 156716,rgmt,rgm[t===,/r-g-m/,vb G suffc.,to say,
 # KTU 2.14 10,,,,,,
 156717,w,w,w,conj.,and,
@@ -42,7 +42,7 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 # KTU 2.14 13,,,,,,
 156725,l,l(I),l (I),prep.,to,
 156726,mlk,mlk(I)/,mlk (I),n. m. sg.,king,
-156727,šmy,šm(I)/y,šm (I),n. m. sg.,name,
+156727,šmy,šm(I)/+y,šm (I),n. m. sg.,name,
 # KTU 2.14 14,,,,,,
 156728,w,w,w,conj.,and,
 156729,l,l (I),l (I),?,to,DULAT: NOT FOUND
@@ -59,7 +59,7 @@ id,surface form,morphological parsing,DULAT,POS,gloss,comments
 156736,w,w,w,conj.,and,
 156737,rgm,rgm/,rgm,n. m. sg.,word,
 # KTU 2.14 18,,,,,,
-156738,ṯṯb,!!]š]ṯb[,/ṯ-b/,vb Š impv.,to return,
+156738,ṯṯb,!!](š&ṯ]ṯb[,/ṯ-b/,vb Š impv.,to return,
 156739,l,l(I),l (I),prep.,to,
 156740,aḫk,aḫ(I)/+k,ảḫ (I),n. m.,brother (by blood),
 # KTU 2.14 19,,,,,,
