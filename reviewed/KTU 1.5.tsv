@@ -5,23 +5,26 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130124	ltn	ltn	ltn(I)/	ltn (I)	DN m. sg. abs. acc.	Lôtan	
 130125	bṯn	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 130126	brḥ	brḥ	brḥ/	brḥ	adj. m. sg. abs. acc.	1) fleeing	
+130126	brḥ	brḥ	brḥ/	brḥ[/	vb G participle act or pass. m. sg. abs. acc.	1) fleeing
 # KTU 1.5 I:2							
 130127	tkly	tkly	!t=!kly[:d	/k-l-y/	vb D prefc. 2 m. sg.	to finish (off), destroy, drain	
 130128	bṯn	bṯn	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 130129	ˤqltn	ʿqltn	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
-130130	š	š	š	?	?	?	Incomplete šlyṭ rewritten in full at the start of the next line (scribal anticipation); Scribal mistake? (Alexander).
+130130	š	(š	š	?	?	?	Incomplete šlyṭ rewritten in full at the start of the next line (scribal anticipation); Scribal mistake? (Alexander).
 # KTU 1.5 I:3							
 130131	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm 'the tyrant of seven heads' (// 1.3 III:42).
 130132	d	d	d	d	det. or rel. functor	the one(s) of	
 130133	šbˤt	šbʿt	šbˤ(I)/t	šbʕ (I)	num. f.	seven	
 130134	rašm	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. gen.	head	
 # KTU 1.5 I:4							
-130135	tṯkḥ	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
+130135	tṯkḥ	tṯkḥ	!t!ṯkḥ[:d	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
 130135	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
 130136	ttrp	ttrp	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
 130136	ttrp	ttrp	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
 130137	šmm	šmm	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens, sky	
 130138	krs	krs	krs/	krs	?	?	krs: DULAT lemma but unglossed; UNP 'tear to pieces', TCS 'folds (?)'.
+130138	krs	krs	k (I) r(ks/	"like the belt" DULAT p, 735
+130138	krs	krs	k (I) rs/	"like fragments' cf. hebrew רסיסים Amos 6:11 not in HALOT
 # KTU 1.5 I:5							
 130139	ipdk	ipdk	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
 130139	ipdk	ipdk	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
@@ -34,6 +37,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130143	ḏrqm	ḏrqm	ḏrq/m	ḏrq	n. m. pl. abs. acc.	fragment	< /ḏ-r-q/ 
 130144	amtm	amtm	amt(II)/m	ảmt (II)	n. f. pl./du. abs. acc.	elbow	
 130144	amtm	amtm	amt(II)/~m	ảmt (II)	n. f. sg. abs. acc. + encl. -m	elbow	DULAT: 'ell by ell'.
+130144	amtm	amtm	!(ʔ&a!mt[~m	  m-t 
 130145	l	l	l(III)	l (III)	functor	certainly	
 130146	yrt	yrt	!y!(yr(d&t[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	Jussive reading.
 130146	yrt	yrt	yr(d&t[	/y-r-d/	vb G suffc. 2 m. sg.	to go down	DULAT
@@ -45,7 +49,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 130150	ilm	ilm	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 130151	mt	mt	mt(II)/	mt (II)	n. m. sg. abs. gen.	death	
 130152	b	b	b	b	prep.	in	
-130153	mh	mh	mhmrt/	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE NEXT: mh+mrt = mhmrt (UDB: 'R1 assumes the Broken String: mhmrt.'); DULAT mhmrt (cf. hmrt 'drain, sink').
+130153	mh	mh	mhmr(t/t	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE NEXT: mh+mrt = mhmrt (UDB: 'R1 assumes the Broken String: mhmrt.'); DULAT mhmrt (cf. hmrt 'drain, sink').
 # KTU 1.5 I:8							
 130154	mrt	mrt	mhmrt/	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE PREVIOUS.
 130155	ydd	ydd	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
