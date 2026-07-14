@@ -1,0 +1,91 @@
+id	surface form	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.16 1						
+147598	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+147599	tlmyn	tlmyn/	tlmyn	PN sg. abs. gen.	2.11	
+# KTU 2.16 2						
+147600	l	l(I)	l (I)	prep.	to	
+147601	ṯryl	ṯryl/	ṯryl	PN sg. cstr. gen.	ṯryl	
+147602	umy	um/+y	ủm	n. f. cstr. gen.	1) mother a) of men and gods	
+# KTU 2.16 3						
+147603	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
+# KTU 2.16 4						
+147604	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
+147604	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to re-establish > to pay	
+147605	lk	l(I)+k	l (I)	prep.	to	
+147606	ily	il(I)/y	ỉl (I)	n. m. cstr. nom.	1) god d) gods of a place or region	
+# KTU 2.16 5						
+147607	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+147608	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+# KTU 2.16 6						
+147609	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
+147610	umy	um/+y	ủm	n. f. cstr. nom.	1) mother a) of men and gods	
+# KTU 2.16 7						
+147611	tdˤ	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 f. sg.	to know	
+147611	tdˤ	!t=!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. sg.	to know	
+147611	tdˤ	!t==!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 f. sg.	to know	
+147611	tdˤ	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 m. du.	to know	
+147611	tdˤ	!t!(ydˤ[:w	/y-d-ʕ/ (I)	vb G prefc. 3 m. pl.	to know	
+147611	tdˤ	!t===!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. pl.	to know	
+147612	ky	k(III)+y	k (III)	Subordinating or completive functor	1) when	
+147612	ky	k(II)+y	k (II)	emph. functor	yes	
+147612	ky	k(IV)+y	k (IV)	adv.	thus	
+147613	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	1) to enter	
+# KTU 2.16 8						
+147614	l	l(I)	l (I)	prep.	to	
+147615	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
+147616	špš	špš/	špš	n. f. sg. abs. gen.	3) “sun”	DULAT quote in špš (cue: sun)
+# KTU 2.16 9						
+147617	w	w	w	conj.	and	
+147618	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
+147619	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in /n-r/ (cue: sun)
+147620	nr	nr/	nr	n. m. sg. abs. gen.	sheen	
+# KTU 2.16 10						
+147621	by	b+y	b	prep.	1) spatial location c) goal of movement or action	
+147622	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	2) abundantly	
+147623	w	w	w	conj.	and	
+147624	um	um/	ủm	n. f. sg. abs. nom.	1) mother a) of men and gods	
+# KTU 2.16 11						
+147625	tšmḫ	!t!šmḫ[	/š-m-ḫ/	vb G prefc. 3 f. sg.	to be glad, rejoice	
+147625	tšmḫ	!t=!šmḫ[	/š-m-ḫ/	vb G prefc. 2 m. sg.	to be glad, rejoice	
+147625	tšmḫ	!t==!šmḫ[	/š-m-ḫ/	vb G prefc. 2 f. sg.	to be glad, rejoice	
+147625	tšmḫ	!t!šmḫ[	/š-m-ḫ/	vb G prefc. 3 m. du.	to be glad, rejoice	
+147625	tšmḫ	!t!šmḫ[:w	/š-m-ḫ/	vb G prefc. 3 m. pl.	to be glad, rejoice	
+147625	tšmḫ	!t===!šmḫ[	/š-m-ḫ/	vb G prefc. 2 m. pl.	to be glad, rejoice	
+147625	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc. 3 f. sg.	to please, make happy	
+147625	tšmḫ	!t=!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 m. sg.	to please, make happy	
+147625	tšmḫ	!t==!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 f. sg.	to please, make happy	
+147625	tšmḫ	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc. 3 m. du.	to please, make happy	
+147625	tšmḫ	!t!šmḫ[:d:w	/š-m-ḫ/	vb D prefc. 3 m. pl.	to please, make happy	
+147625	tšmḫ	!t===!šmḫ[:d	/š-m-ḫ/	vb D prefc. 2 m. pl.	to please, make happy	
+147626	mab	&mab/	ảb	n. m. abs. nom.	1) father a) ảp ảb ỉ k mtm tmtn father	Based on DULAT reconstruction.
+147626	mab	mab	mảb	→	?	
+# KTU 2.16 12						
+147627	w	w	w	conj.	and	
+147628	al	al(I)	ảl (I)	neg. functor	no	
+147628	al	al(II)	ảl (II)	pos. functor	surely	
+147629	twḥln	!t!wḥl[n	/y/w-ḥ-l/	vb G prefc.	to be worried	
+# KTU 2.16 13						
+147630	ˤtn	ˤtn(II)	ʕnt (II)	adv.	now	DULAT quote in ʕnt (II) (cue: now)
+147631	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	2) soldier of the guard	
+147631	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	2) soldier of the guard	
+147632	ank	ank	ảnk	pers. pn.	1) i a) subj. in NC	
+# KTU 2.16 14						
+147633	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	to	
+147634	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+147634	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+# KTU 2.16 15						
+147635	kll	kll/	kll	n. m. sg. abs. nom.	totality	
+# KTU 2.16 16						
+147636	w	w	w	conj.	and	
+147637	mnm	mnm	mnm	indef. pn.	any(thing)	
+# KTU 2.16 17						
+147638	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+147638	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+147639	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+# KTU 2.16 18						
+147640	umy	um/+y	ủm	n. f. cstr. gen.	mother	
+# KTU 2.16 19						
+147641	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
+147642	tṯṯb	!t!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc.	to send (word)	
+# KTU 2.16 20						
+147643	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	

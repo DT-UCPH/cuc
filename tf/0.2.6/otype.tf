@@ -8,12 +8,12 @@
 @manuscripts=
 @source=
 @valueType=str
-@version=0.2.6
+@version=0.2.7
 @writtenBy=Text-Fabric
-@dateWritten=2026-01-08T12:19:48+00:00Z
+@dateWritten=2026-04-28T14:05:47+00:00Z
 
-1-127355	sign
-127356-127688	column
-127689-135265	line
-135266-135543	tablet
-135544-162226	word
+1-147104	sign
+147105-147438	column
+147439-155054	line
+155055-155333	tablet
+155334-183413	word

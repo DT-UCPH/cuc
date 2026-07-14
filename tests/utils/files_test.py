@@ -72,7 +72,10 @@ class TextTranscriber:
             elif re.match('^…', para.text):
                 continue
 
-            elif re.match('^-', para.text):
+            elif re.match(r'^-', para.text):
+                continue
+
+            elif re.match(r'^\[-', para.text):
                 continue
 
             elif not para.text:

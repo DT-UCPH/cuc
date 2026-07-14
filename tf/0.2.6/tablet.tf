@@ -9,11 +9,11 @@
 @manuscripts=
 @source=
 @valueType=str
-@version=0.2.6
+@version=0.2.7
 @writtenBy=Text-Fabric
-@dateWritten=2026-01-08T12:19:48+00:00Z
+@dateWritten=2026-04-28T14:05:48+00:00Z
 
-135266	KTU 1.1
+155055	KTU 1.1
 KTU 1.2
 KTU 1.3
 KTU 1.4
@@ -180,6 +180,7 @@ KTU 2.27
 KTU 2.30
 KTU 2.31
 KTU 2.32
+KTU 2.33
 KTU 2.34
 KTU 2.35
 KTU 2.36
