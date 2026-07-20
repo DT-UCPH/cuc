@@ -10,6 +10,7 @@ from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface
 from pipeline.steps.base import RefinementStep, TabletRow
 from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.onomastic_overrides import OnomasticOverrideStore
+from project_paths import get_project_paths
 
 _ONOMASTIC_POS_TAGS: Sequence[str] = ("DN", "PN", "TN", "GN", "MN")
 _UNSPLIT_FEM_T_RE = re.compile(r"^(?P<stem>.+?)t(?P<hom>\([IVX]+\))?/$")
@@ -56,7 +57,10 @@ class FeminineTSingularSplitFixer(RefinementStep):
         feminine_onomastic_tokens: set[str] | None = None,
         gate: Optional[DulatMorphGate] = None,
     ) -> None:
-        self._overrides_path = overrides_path or Path("data/onomastic_gloss_overrides.tsv")
+        self._overrides_path = overrides_path or (
+            get_project_paths(Path(__file__).resolve()).data_sources_dir
+            / "onomastic_gloss_overrides.tsv"
+        )
         self._gate = gate
         if feminine_onomastic_tokens is None:
             store = OnomasticOverrideStore.from_tsv(self._overrides_path)
@@ -92,6 +96,7 @@ class FeminineTSingularSplitFixer(RefinementStep):
                 pos_slot=pos_head,
                 dulat_slot=dulat_head,
                 surface=row.surface,
+                allow_sg_pl_pair=(len(analysis_variants) == 1),
             )
             out_variants.append(transformed)
             if transformed != analysis_variant:
@@ -110,7 +115,14 @@ class FeminineTSingularSplitFixer(RefinementStep):
             comment=row.comment,
         )
 
-    def _fix_variant(self, variant: str, pos_slot: str, dulat_slot: str, surface: str) -> str:
+    def _fix_variant(
+        self,
+        variant: str,
+        pos_slot: str,
+        dulat_slot: str,
+        surface: str,
+        allow_sg_pl_pair: bool,
+    ) -> str:
         value = (variant or "").strip()
         if not value or value == "?":
             return value
@@ -171,7 +183,11 @@ class FeminineTSingularSplitFixer(RefinementStep):
 
         unsplit_match = _UNSPLIT_FEM_T_RE.match(value)
         if unsplit_match:
-            if has_sg_pl_ambiguous_surface:
+            if (
+                has_sg_pl_ambiguous_surface
+                and not _has_explicit_number_marker(pos_slot)
+                and allow_sg_pl_pair
+            ):
                 stem = unsplit_match.group("stem")
                 homonym = unsplit_match.group("hom") or declared_homonym
                 singular = _render_feminine_t_split(
@@ -343,6 +359,11 @@ def _is_generic_numeral_without_gender(pos_slot: str) -> bool:
 
 def _is_numeral_pos(pos_slot: str) -> bool:
     return (pos_slot or "").strip().upper().startswith("NUM.")
+
+
+def _has_explicit_number_marker(pos_slot: str) -> bool:
+    upper = (pos_slot or "").upper()
+    return any(marker in upper for marker in (" SG.", " PL.", " DU."))
 
 
 def _is_forced_plural_t_token(dulat_slot: str) -> bool:

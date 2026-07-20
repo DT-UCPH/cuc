@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.80 1						
-159320	pn	pn(m/	pnm	n. m. pl. tant.	face	
+159320	pn	pn(m/	pnm	n. m. pl. cstr. nom.	face	
 159320	pn	pn	pn	functor	lest	
 # KTU 2.80 2						
 159321	ṯm	ṯm	ṯm	adv.	there	
@@ -9,11 +9,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159323	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 159324		?	?	?	?	
 # KTU 2.80 4						
-159325	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
-159326	mat	mit/	mỉt	n. f. pl.	a hundred	
+159325	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
+159326	mat	mit/	mỉt	n. f. pl. abs. nom.	1) a hundred	
 # KTU 2.80 5						
 159327	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-159328	ḫm	ḫm/	ḫm	n. m. sg.	pavilion	
+159328	ḫm	ḫm/	ḫm	n. m. sg. abs. nom.	pavilion	
 # KTU 2.80 6						
 159329	w	w	w	conj.	and	
 159330	x	?	?	?	?	
@@ -22,20 +22,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159332	x	?	?	?	?	
 # KTU 2.80 8						
 159333	w	w	w	conj.	and	
-159334	ḫmš	ḫmš(I)/	ḫmš (I)	n. sg. num.	five	
+159334	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 2.80 9						
-159335	at	at(I)	ảt (I)	pers. pn.	you	
+159335	at	at(I)	ảt (I)	pers. pn.	1) you d) emphatic of suff. pn	
 159336	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.80 10						
-159337	mġy	mġy[	/m-ġ-y/	vb G suffc.	to come	
+159337	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 159337	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 159338		?	?	?	?	
 # KTU 2.80 11						
 159339	w	w	w	conj.	and	
-159340	šl	šl[	/š-l(-l)/	vb G suffc.	to plunder	
-159340	šl	!!šl[/	/š-l(-l)/	vb G inf.	to plunder	
+159340	šl	šl[	/š-l(-l)/	vb G suffc. 3 m. sg.	to plunder, rob	
+159340	šl	!!šl[/	/š-l(-l)/	vb G inf.	to plunder, rob	
 # KTU 2.80 12						
-159341	nn	grš[	/g-r-š/	vb G impv.	to eject	
-159341	nn	gr[	/g-r(-y)/	vb G suffc.	to attack	
-159341	nn	!!gr[/	/g-r(-y)/	vb G inf.	to attack	
+159341	nn	nn/	nn	PN sg. abs. nom.	nn	
 159342	x	?	?	?	?	

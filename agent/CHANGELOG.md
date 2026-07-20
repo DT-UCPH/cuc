@@ -1,4 +1,793 @@
+## 2026-03-11
+
+- Reference-specific DULAT sense definitions are now used for non-verbal entries during TSV rendering, not only for verbs.
+- This means rows resolved by direct DULAT citations now take the attested sense gloss when available, e.g. `mt (III)` at `KTU 1.17 I:18` renders `hero` instead of the entry-default `man`.
+- Fixed a pipeline wiring bug in `pipeline/tablet_parsing.py`: the main refinement stage now passes `DulatAttestationTranslationIndex` into `refine.refine_file(...)`, so the reference-specific sense logic is actually active in normal tablet runs.
+- Added regressions in:
+  - `tests/test_refine_results_mentions.py`
+  - `tests/test_tablet_parsing_pipeline.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_refine_results_mentions tests.test_tablet_parsing_pipeline`
+  - `uv run ruff check pipeline/tablet_parsing.py scripts/refine_results_mentions.py tests/test_refine_results_mentions.py tests/test_tablet_parsing_pipeline.py`
+  - focused rerun for `KTU 1.17.tsv`
+
+- Stopped `l` and `k` quote-translation tie-breakers from appending indirect `DULAT quote ...` notes after an earlier step had already collapsed the token to a single candidate via a direct DULAT reference.
+- `l` and `k` now use quote evidence only while real ambiguity remains, so rows like `l(II)` resolved by exact citation carry just `DULAT direct ref`.
+- Added regressions in:
+  - `tests/test_spacy_l_context.py`
+  - `tests/test_spacy_l_context_step.py`
+  - `tests/test_spacy_k_context.py`
+  - `tests/test_spacy_k_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_l_context tests.test_spacy_l_context_step tests.test_spacy_k_context tests.test_spacy_k_context_step`
+  - `uv run ruff check spacy_ugaritic/components/l_context.py spacy_ugaritic/components/k_context.py tests/test_spacy_l_context.py tests/test_spacy_l_context_step.py tests/test_spacy_k_context.py tests/test_spacy_k_context_step.py`
+  - focused rerun for `KTU 1.19.tsv`
+
+- Added direct-reference audit comments for exact DULAT attestation collapses in:
+  - `pipeline/steps/attestation_reference_disambiguator.py`
+  - `spacy_ugaritic/components/lexical_context.py`
+- Rows resolved by a direct DULAT citation now carry the compact comment `DULAT direct ref`.
+- This applies both to the generic exact-reference disambiguator and to direct-attestation lexical-context decisions such as `bt`, `ˤnt`, and `mlk`.
+- Added regressions in:
+  - `tests/test_attestation_reference_disambiguator.py`
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_spacy_lexical_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_attestation_reference_disambiguator tests.test_spacy_lexical_context tests.test_spacy_lexical_context_step`
+  - `uv run ruff check agent/pipeline/steps/attestation_reference_disambiguator.py agent/spacy_ugaritic/components/lexical_context.py agent/tests/test_attestation_reference_disambiguator.py agent/tests/test_spacy_lexical_context.py agent/tests/test_spacy_lexical_context_step.py`
+  - focused rerun for `KTU 1.14.tsv` and `KTU 2.10.tsv`
+
+- Added a generic late quote-translation tie-breaker in:
+  - `pipeline/quote_translation_step_factory.py`
+  - `pipeline/steps/spacy_quote_translation_context.py`
+  - `spacy_ugaritic/components/quote_translation_context.py`
+- The parser can now use exact-citation DULAT quote translations as a final fallback for any still-ambiguous surface after stronger context and attestation rules have already run.
+- Indirect quote-based notes now cite the DULAT article head instead of the KTU line, e.g. `DULAT quote in /š-l-m/ (cue: well)`.
+- This resolver only fires when:
+  - the same cited line exists in DULAT
+  - the quoted Ugaritic string contains the same surface
+  - exactly one remaining candidate wins uniquely on explicit gloss/translation cue overlap
+- Resolution notes are now written into TSV comments as audit trails like `DULAT quote KTU 1.14 III:10 (cue: day)`.
+- Moved the quote-translation fallback to the very end of the refinement pipeline so comments attach only to final surviving rows instead of being copied onto later-expanded variants.
+- Added regressions in:
+  - `tests/test_spacy_quote_translation_context.py`
+  - `tests/test_spacy_quote_translation_context_step.py`
+  - `tests/test_spacy_l_context.py`
+  - `tests/test_spacy_l_context_step.py`
+  - `tests/test_spacy_k_context.py`
+  - `tests/test_spacy_k_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_dulat_attestation_translation_index tests.test_spacy_l_context tests.test_spacy_l_context_step tests.test_spacy_k_context tests.test_spacy_k_context_step tests.test_spacy_quote_translation_context tests.test_spacy_quote_translation_context_step`
+  - `uv run ruff check agent/pipeline/dulat_attestation_translation_index.py agent/pipeline/tablet_parsing.py agent/spacy_ugaritic/components/k_context.py agent/spacy_ugaritic/components/l_context.py agent/spacy_ugaritic/language.py agent/pipeline/quote_translation_step_factory.py agent/pipeline/steps/spacy_quote_translation_context.py agent/spacy_ugaritic/components/quote_translation_context.py agent/tests/test_dulat_attestation_translation_index.py agent/tests/test_spacy_l_context.py agent/tests/test_spacy_l_context_step.py agent/tests/test_spacy_k_context.py agent/tests/test_spacy_k_context_step.py agent/tests/test_spacy_quote_translation_context.py agent/tests/test_spacy_quote_translation_context_step.py`
+
+- Added citation-level DULAT quote-translation lookup for small-word tie-breaking in:
+  - `pipeline/dulat_attestation_translation_index.py`
+  - `spacy_ugaritic/components/k_context.py`
+- The translation index now also maps cited quote surfaces to their DULAT translations, so rules can use same-line quote evidence even when the current homonym's own article is not cited directly.
+- `k` now uses that quote evidence as a final fallback after existing local context rules, and only collapses when one homonym wins uniquely on explicit translation cues (`like/as`, `if/when/because/since/that`, `yes/truly/already`, `thus/here`).
+- Added regressions in:
+  - `tests/test_dulat_attestation_translation_index.py`
+  - `tests/test_spacy_k_context.py`
+  - `tests/test_spacy_k_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_dulat_attestation_translation_index tests.test_spacy_k_context tests.test_spacy_k_context_step`
+  - `uv run ruff check pipeline/dulat_attestation_translation_index.py pipeline/config/k_attestation_translation_cues.py spacy_ugaritic/components/k_context.py spacy_ugaritic/language.py pipeline/steps/spacy_k_context.py pipeline/k_context_step_factory.py pipeline/tablet_parsing.py tests/test_dulat_attestation_translation_index.py tests/test_spacy_k_context.py tests/test_spacy_k_context_step.py`
+
+- Fixed `suffix_payload_collapse` so gloss cleanup now reliably drops the grammatical suffix gloss tail after DULAT/POS payload collapse, instead of keeping stray values like `in gen`.
+- This corrects widespread rows where split `+m(I)` analyses were showing host glosses polluted by the morpheme gloss, e.g. `mrġṯm -> suckling, in gen` now collapses back to `suckling`.
+- Added regression coverage in:
+  - `tests/test_suffix_payload_collapse.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_suffix_payload_collapse`
+  - `uv run ruff check pipeline/steps/suffix_payload_collapse.py tests/test_suffix_payload_collapse.py`
+
+- Fixed verbal surface matching so implicit plural `:w` is no longer deleted just because the written Ugaritic surface omits the final plural vowel marker.
+- Added `analysis_matches_surface()` in `pipeline/steps/analysis_utils.py` and switched verbal candidate generation and related verbal normalization steps to use it in:
+  - `morph_features/paradigm_matcher.py`
+  - `pipeline/steps/verb_form_encoding_split.py`
+  - `pipeline/steps/verb_pronominal_suffix_tail.py`
+  - `pipeline/steps/weak_verb.py`
+- This restores systematically missing `3 m. pl.` candidates such as:
+  - `tˤn -> !t!ˤn(y[:w`
+  - `tṯbr -> !t!(]n]ṯbr[:w`
+  - `šn -> šn(w[:w`
+- Added regressions in:
+  - `tests/test_analysis_utils.py`
+  - `tests/test_paradigm_matcher.py`
+  - `tests/test_verbal_feature_completion.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_analysis_utils tests.test_paradigm_matcher tests.test_verbal_feature_completion tests.test_verb_form_encoding_split`
+  - focused rerun for `KTU 1.4.tsv` and `KTU 1.40.tsv`
+
+- Fixed exact-reference ambiguity collapse in `pipeline/steps/attestation_reference_disambiguator.py` so it now keeps all rows for the single attested DULAT head token, instead of requiring exactly one matching row index.
+- This fixes cases like `ym` in `KTU 1.14 III:2`, where two valid `ym (I)` case rows and one unattested `ym (II)` row previously survived together because the disambiguator treated the two attested `ym (I)` rows as a conflict.
+- Added regression coverage in:
+  - `tests/test_attestation_reference_disambiguator.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_attestation_reference_disambiguator tests.test_tablet_parsing_pipeline`
+  - `uv run ruff check agent/pipeline/steps/attestation_reference_disambiguator.py agent/tests/test_attestation_reference_disambiguator.py`
+  - targeted rerun for `KTU 1.14.tsv`
+
+- Added exact-reference DULAT verb sense lookup in:
+  - `pipeline/dulat_attestation_translation_index.py`
+  - `scripts/refine_results_mentions.py`
+- The attestation translation index now loads structured `sense_definition` and `stem_name` fields from the DULAT sqlite cache and exposes exact-reference sense lookup by `entry_id`, citation, and stem.
+- `refine_results_mentions.py` now prefers the DULAT attested sense definition for verb glosses when the current tablet reference is mentioned in DULAT, falling back to stem glosses and then the flat entry gloss only when no exact-reference sense is available.
+- This lets verb rows pick the right sense for the cited line, e.g.:
+  - `/š-l-m/` D at `CAT 1.103:54` -> `to re-establish > to pay`
+  - `/š-l-m/` D at `CAT 2.11:9` -> `to restore / preserve health`
+- Added regressions in:
+  - `tests/test_dulat_attestation_translation_index.py`
+  - `tests/test_refine_results_mentions.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_dulat_attestation_translation_index tests.test_refine_results_mentions`
+  - `uv run ruff format agent/pipeline/dulat_attestation_translation_index.py agent/scripts/refine_results_mentions.py agent/tests/test_dulat_attestation_translation_index.py agent/tests/test_refine_results_mentions.py`
+  - `uv run ruff check agent/pipeline/dulat_attestation_translation_index.py agent/scripts/refine_results_mentions.py agent/tests/test_dulat_attestation_translation_index.py agent/tests/test_refine_results_mentions.py`
+  - targeted rerun for `KTU 1.103.tsv`, `KTU 2.11.tsv`, and `KTU 2.38.tsv`
+
+- Fixed rare two-radical `/k-n/` L-stem prefixed forms with bound pronoun suffixes so `yknnh` no longer overgenerates a false `vb L suffc.` row and now encodes consistently as `!y!knn[:l+h`.
+- Tightened verb form-label extraction in `morph_features/dulat_feature_reader.py` and `pipeline/steps/verb_form_morph_pos.py`: bare DULAT `suff.` no longer creates a second `suffc.` form class when the same exact form is already labeled `prefc.`, `impv.`, `inf.`, or `ptcpl.`.
+- Added `pipeline/steps/verb_pronominal_suffix_tail.py`, a late verb-only normalizer that rewrites raw suffix-pronoun tails like `[h:l` and `[k:d` to canonical `[:l+h` and `[:d+k` when exact DULAT verb-form morphology marks the surface as a non-suffix-conjugation form with suffix pronoun.
+- Added regressions in:
+  - `tests/test_dulat_feature_reader_forms.py`
+  - `tests/test_verb_form_morph_pos.py`
+  - `tests/test_verb_pronominal_suffix_tail.py`
+  - `tests/test_tablet_parsing_pipeline.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_dulat_feature_reader_forms tests.test_verb_form_morph_pos tests.test_verb_pronominal_suffix_tail tests.test_tablet_parsing_pipeline`
+  - `uv run ruff check morph_features/dulat_feature_reader.py pipeline/steps/verb_form_morph_pos.py pipeline/steps/verb_pronominal_suffix_tail.py pipeline/tablet_parsing.py tests/test_dulat_feature_reader_forms.py tests/test_verb_form_morph_pos.py tests/test_verb_pronominal_suffix_tail.py tests/test_tablet_parsing_pipeline.py`
+  - targeted rerun for `KTU 1.3.tsv` and `KTU 1.4.tsv`
+
+- Fixed `/š-l-m/` stem gloss propagation so mixed verb rows no longer duplicate the G-stem gloss onto D-stem variants.
+- Added DULAT-backed verb stem gloss lookup in `pipeline/steps/verb_mixed_stem_split.py` and wired `TabletParsingPipeline` to pass `dulat_db` into that step.
+- The splitter now keeps the existing gloss when it already fits the chosen stem, but replaces it with the stem-specific DULAT gloss when the row was previously sharing one gloss across different stems.
+- This fixes rows like `yšlm -> !y!šlm[ / !y!šlm[:d`, which now render `to be well` for G and `to re-establish > to pay` for D.
+- Fixed the epistolary `šlm` letter-blessing rewrite in `spacy_ugaritic/components/morph_context.py` so synthetic D forms such as `!t!šlm[:d+k` use the letter sense `to restore / preserve health` instead of inheriting the G gloss.
+- Extended regression coverage in:
+  - `tests/test_verb_mixed_stem_split.py`
+  - `tests/test_spacy_morph_context.py`
+  - `tests/test_refine_results_mentions.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_verb_mixed_stem_split tests.test_spacy_morph_context`
+  - `uv run ruff check agent/pipeline/steps/verb_mixed_stem_split.py agent/pipeline/tablet_parsing.py agent/spacy_ugaritic/components/morph_context.py agent/tests/test_verb_mixed_stem_split.py agent/tests/test_spacy_morph_context.py`
+  - targeted rerun for `KTU 1.103.tsv` and `KTU 2.38.tsv`
+
+## 2026-03-10
+
+- Fixed analysis/surface reconstruction for stem-marker payloads in:
+  - `pipeline/steps/analysis_utils.py`
+  - `linter/lint.py`
+- The reconstructor now skips only the stem markers themselves (`:d`, `:l`, `:r`, `:pass`) instead of dropping all following letters.
+- This prevents impossible verbal analyses such as `šlm[:dt===`, `šlm[:dt=`, `šlm[:dt==`, `šlm[:dt`, and `šlm[:d:w` from falsely reconstructing as bare `šlm`; they now reconstruct as `šlmt` or `šlmw` and are rejected upstream.
+- This is a general fix for any verb carrying visible post-stem-marker payload letters, not just `šlm`.
+- Updated regression coverage in:
+  - `tests/test_analysis_utils.py`
+  - `tests/test_linter_schema_enforcement.py`
+  - `tests/test_paradigm_matcher.py`
+  - `tests/test_verbal_feature_completion.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_analysis_utils tests.test_linter_schema_enforcement tests.test_verbal_feature_completion tests.test_paradigm_matcher`
+  - `uv run ruff check agent/pipeline/steps/analysis_utils.py agent/linter/lint.py agent/tests/test_analysis_utils.py agent/tests/test_linter_schema_enforcement.py agent/tests/test_paradigm_matcher.py agent/tests/test_verbal_feature_completion.py`
+  - targeted reruns for `KTU 2.34.tsv`, `KTU 1.39.tsv`, and `KTU 1.161.tsv`
+
+- Added a conservative attestation-translation tie-breaker for `l` in:
+  - `pipeline/dulat_attestation_translation_index.py`
+  - `spacy_ugaritic/components/l_context.py`
+  - `pipeline/steps/spacy_l_context.py`
+- The `l` resolver now looks at exact-reference DULAT attestation translations and only collapses a homonym when one non-prepositional `l` reading wins uniquely on explicit cue words:
+  - `l(II)`: `not/no/without/...`
+  - `l(III)`: `certainly/truly/yes/really/...`
+  - `l(IV)`: `oh`
+- This is intentionally narrow and currently experimental for `l` only; it does not use phrase-level English translation as a general parser oracle.
+- Added regression coverage in:
+  - `tests/test_spacy_l_context.py`
+  - `tests/test_spacy_l_context_step.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_l_context tests.test_spacy_l_context_step tests.test_tablet_parsing_pipeline`
+  - `uv run ruff check pipeline/config/l_attestation_translation_cues.py pipeline/dulat_attestation_translation_index.py spacy_ugaritic/components/l_context.py spacy_ugaritic/language.py pipeline/steps/spacy_l_context.py pipeline/l_context_step_factory.py pipeline/tablet_parsing.py tests/test_spacy_l_context.py tests/test_spacy_l_context_step.py`
+  - targeted `regenerate_tablets_and_reports.py --skip-source-refresh` on the reviewed tablet set
+- Targeted reviewed-score delta for this experiment:
+  - exact-set accuracy `0.5528 -> 0.5554`
+  - macro F1 `0.6089 -> 0.6115`
+  - micro F1 `0.5700 -> 0.5722`
+  - gold coverage `0.6318 -> 0.6344`
+  - no lint delta
+
+- Corrected the mistaken epistolary `rgm` opening rule in `spacy_ugaritic/components/morph_context.py`.
+- The opening `rgm` in KTU 2 letter formulas now resolves as imperative `!!rgm[` again instead of the previously forced infinitive `!!rgm[/`.
+- This aligns the parser with the restored canonical reviewed files under `reviewed/orig/` and removes the normalization-driven regression introduced in the earlier `rgm` pass.
+- Updated regression coverage in `tests/test_spacy_morph_context.py`.
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_morph_context tests.test_reviewed_morphology_evaluation tests.test_reviewed_tablet_migrator`
+  - `uv run ruff check spacy_ugaritic/components/morph_context.py tests/test_spacy_morph_context.py tests/test_reviewed_morphology_evaluation.py tests/test_reviewed_tablet_migrator.py`
+  - targeted reruns for `KTU 2.10.tsv`, `KTU 2.11.tsv`, `KTU 2.12.tsv`, `KTU 2.13.tsv`, `KTU 2.14.tsv`, `KTU 2.16.tsv`, and `KTU 2.38.tsv`
+- Targeted score impact after the fix:
+  - exact-set accuracy `0.5528 -> 0.5554`
+  - macro F1 `0.6089 -> 0.6115`
+  - micro F1 `0.5700 -> 0.5722`
+  - gold coverage `0.6318 -> 0.6344`
+
+- Restored migrated reviewed parses from the canonical source files under `reviewed/orig/` for:
+  - `reviewed/KTU 1.14.txt`
+  - `reviewed/KTU 2.10.txt`
+  - `reviewed/KTU 2.11.txt`
+  - `reviewed/KTU 2.12.txt`
+  - `reviewed/KTU 2.13.txt`
+  - `reviewed/KTU 2.14.txt`
+  - `reviewed/KTU 2.15.txt`
+  - `reviewed/KTU 2.16.txt`
+  - `reviewed/KTU 2.38.txt`
+- Used the existing `ReviewedTabletMigrator` to reapply the parsing and reviewer comments recorded in `reviewed/orig/` onto current ids and refs, instead of keeping the later scorer-side normalization artifacts in the live reviewed files.
+- This restores distinctions such as imperative `!!(lqḥ[` versus infinitive `!!(lqḥ[/`, noun `rgm/` versus imperative `!!rgm[`, and legacy reviewer comments into the dedicated comment column.
+- Recomputed the reviewed morphology score reports after the restoration with:
+  - `./agent/.venv/bin/python agent/scripts/score_reviewed_morphology.py`
+  - `./agent/.venv/bin/python agent/scripts/score_reviewed_morphology.py --json`
+
+## 2026-03-09
+
+- Normalized dropped-initial `/l-q-ḥ/` imperative and infinitive encoding in:
+  - `pipeline/steps/weak_verb.py`
+  - `pipeline/steps/verb_form_encoding_split.py`
+  - `pipeline/steps/dulat_enclitic_m.py`
+- Nonprefixed weak-`l` verb rows such as `qḥ` now keep the project’s canonical reconstructed imperative notation `!!(lqḥ[`, and mixed-form splitting preserves that marker instead of flattening it back to `(lqḥ[`.
+- Added regression coverage in:
+  - `tests/test_weak_verb.py`
+  - `tests/test_verb_form_encoding_split.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_weak_verb tests.test_verb_form_encoding_split`
+  - `uv run ruff format ...`
+  - `uv run ruff check ...`
+  - direct source-phase replay of `KTU 1.14.tsv` through `bootstrap -> refine -> instruction -> refinement`
+  - targeted tablet reruns for `KTU 1.14.tsv` and `KTU 1.16.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- Reviewed-score improvement with no lint regression:
+  - exact-set accuracy `0.5524 -> 0.5554`
+  - macro F1 `0.6090 -> 0.6119`
+  - micro F1 `0.5703 -> 0.5728`
+  - gold coverage `0.6322 -> 0.6351`
+  - lint totals unchanged at `9539` issues with `ERROR 1242`, `WARNING 1812`, `INFO 3478`
+- Main reviewed gain in this pass:
+  - `KTU 1.14.txt`: exact `+0.0076`, macro F1 `+0.0076`, micro F1 `+0.0067`, coverage `+0.0076`
+
+- Pruned noisy bare `šlm` bundles in `spacy_ugaritic/components/morph_context.py` for KTU 2 letter texts.
+- Bare `šlm` rows that carried the full noun/G/D/adjective bundle now keep only the real primary readings `šlm(I)/` and `šlm[`, dropping the noisy D-suffix and adjective overgeneration without forcing noun-versus-verb where the context remains ambiguous.
+- Added regression coverage in `tests/test_spacy_morph_context.py`.
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_morph_context`
+  - `uv run ruff format agent/spacy_ugaritic/components/morph_context.py agent/tests/test_spacy_morph_context.py`
+  - `uv run ruff check agent/spacy_ugaritic/components/morph_context.py agent/tests/test_spacy_morph_context.py`
+  - targeted tablet reruns for `KTU 2.11.tsv`, `KTU 2.13.tsv`, `KTU 2.16.tsv`, and `KTU 2.38.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- Focused reviewed-letter wins include:
+  - `KTU 2.11.txt`: `156617 šlm` now drops the D/adjective noise and keeps only noun + G
+  - `KTU 2.13.txt`: `156674 šlm` and `156679 šlm` now drop the D/adjective noise and keep only noun + G
+  - `KTU 2.16.txt`: `156804 šlm` and `156808 šlm` now drop the D/adjective noise and keep only noun + G
+  - `KTU 2.38.txt`: `157866 šlm` now drops the D/adjective noise and keeps only noun + G
+- Refreshed full-corpus reports now stand at:
+  - exact-set accuracy `0.5524`
+  - macro F1 `0.6090`
+  - micro F1 `0.5703`
+  - gold coverage `0.6322`
+  - lint totals unchanged at `9539` issues with `ERROR 1242`, `WARNING 1812`, `INFO 3478`
+
+- Extended legacy reviewed-homonym normalization in `reviewed_normalization.py`.
+- Bare legacy `il/` and `bn/` now normalize to `il(I)/` and `bn(I)/`, matching the already-established `mlk/ -> mlk(I)/` scorer convention for migrated reviewed files.
+- Updated regression coverage in:
+  - `tests/test_reviewed_morphology_evaluation.py`
+  - `tests/test_reviewed_tablet_migrator.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_reviewed_morphology_evaluation tests.test_reviewed_tablet_migrator`
+  - `uv run ruff check ...`
+- Recomputed the scorer in memory against the current full corpus output. This review-normalization pass improved scoring without changing parser output:
+  - exact-set accuracy `0.5448 -> 0.5524`
+  - macro F1 `0.6005 -> 0.6083`
+  - micro F1 `0.5598 -> 0.5666`
+  - gold coverage `0.6242 -> 0.6322`
+- Biggest gain was in `KTU 1.14.txt`:
+  - exact `+0.0190`
+  - macro F1 `+0.0194`
+  - micro F1 `+0.0175`
+  - coverage `+0.0199`
+
+- Tightened `rgm` handling in `spacy_ugaritic/components/morph_context.py`.
+- Added a narrow non-epistolary imperative builder for the reviewed `hyt / hmt + w + rgm + l ...` command pattern, producing canonical `!!rgm[` instead of leaving the mixed finite/non-finite bundle.
+- Added noun-side pruning for the attested `dm rgm iṯ ...` and adjacent message-formula contexts, so `rgm/` survives without the noisy passive-participle fallback in those reviewed rows.
+- Hardened reviewed-file comment handling in:
+  - `reviewed_evaluation/loader.py`
+  - `reviewed_migration/migrator.py`
+  - `reviewed_normalization.py`
+- The scorer/migrator now strip inline morphology notes written as both `analysis # note` and `analysis #note`, and normalize the legacy noun shorthand `!!rgm/` back to `rgm/`.
+- Added regression coverage in:
+  - `tests/test_spacy_morph_context.py`
+  - `tests/test_reviewed_morphology_evaluation.py`
+  - `tests/test_reviewed_tablet_migrator.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_morph_context tests.test_reviewed_morphology_evaluation tests.test_reviewed_tablet_migrator`
+  - `uv run ruff format ...`
+  - `uv run ruff check ...`
+  - targeted tablet reruns for `KTU 1.3.tsv`, `KTU 1.14.tsv`, and `KTU 2.14.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- Full-run scoring improved with no lint regression:
+  - exact-set accuracy `0.5342 -> 0.5448`
+  - macro F1 `0.5886 -> 0.6005`
+  - micro F1 `0.5481 -> 0.5598`
+  - gold coverage `0.6114 -> 0.6242`
+  - lint totals unchanged at `9539` issues with `ERROR 1242`, `WARNING 1812`, `INFO 3478`
+- Biggest reviewed gains in this pass:
+  - `KTU 1.14.txt`: exact `+0.0199`, macro F1 `+0.0269`, micro F1 `+0.0275`
+  - `KTU 1.3.tsv`: exact `+0.0042`, macro F1 `+0.0011`, micro F1 `+0.0013`
+  - `KTU 2.11.txt`: exact `+0.0286`
+  - `KTU 2.14.txt`: exact `+0.0222`
+  - `KTU 2.15.txt`: exact `+0.0400`
+
+- Corrected reviewed-notation handling in `reviewed_normalization.py` so `!!...[` is no longer automatically rewritten to `!!...[/`.
+- This preserves the distinction between imperative-style reviewed notation such as `!!(lqḥ[` and infinitive notation `!!(lqḥ[/`, instead of silently collapsing them into one scorer bucket.
+- Updated regression coverage in:
+  - `tests/test_reviewed_morphology_evaluation.py`
+  - `tests/test_reviewed_tablet_migrator.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_reviewed_morphology_evaluation tests.test_reviewed_tablet_migrator`
+  - `uv run ruff check ...`
+- Recomputed the reviewed-score summary in memory against the current corpus output. As expected for a correctness fix, this removes a small amount of false agreement:
+  - exact-set accuracy unchanged at `0.5342`
+  - macro F1 `0.5886 -> 0.5880`
+  - micro F1 `0.5481 -> 0.5472`
+  - gold coverage `0.6114 -> 0.6103`
+
+- Extended the early lexical-context resolver in `spacy_ugaritic/components/lexical_context.py` to handle ambiguous `ˤnt` rows alongside the existing `bʕl` disambiguation family.
+- The new rule keeps `ˤnt` as the DN `ʕnt (I)` in recurring Anat contexts such as `hln ˤnt`, `pˤn ˤnt`, `kbd ˤnt`, and parallel mythic-name sequences, while preserving the attested `eye` reading when DULAT directly supports `ʕn (I)` at the current reference.
+- Wired the `ˤnt` rule into the existing lexical-context stage by extending `create_ugaritic_baal_context_nlp()` to load both `baal` and `anat` rule groups.
+- Normalized legacy reviewed `ˤn/t` to canonical `ˤn(I)/t=` in `reviewed_normalization.py` so the scorer treats the legacy shorthand as the same `eye` reading.
+- Added regression coverage in:
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_reviewed_morphology_evaluation.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_lexical_context tests.test_reviewed_morphology_evaluation`
+  - `uv run ruff check ...`
+  - targeted reruns of the main `ˤnt` families in `KTU 1.1.tsv`, `KTU 1.2.tsv`, `KTU 1.3.tsv`, `KTU 1.6.tsv`, `KTU 1.7.tsv`, `KTU 1.19.tsv`, `KTU 1.47.tsv`, `KTU 1.109.tsv`, `KTU 1.118.tsv`, `KTU 1.130.tsv`, `KTU 1.162.tsv`, and `KTU 2.42.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- On the expanded reviewed set, this iteration improved scoring from:
+  - exact-set accuracy `0.5310 -> 0.5342`
+  - macro F1 `0.5870 -> 0.5886`
+  - micro F1 `0.5468 -> 0.5481`
+  - gold coverage `0.6111 -> 0.6114`
+- Biggest reviewed gain was in `KTU 1.3.tsv`, where the `ˤnt` cleanup plus legacy `ˤn/t` normalization raised:
+  - exact-set accuracy by `+0.0076`
+  - macro F1 by `+0.0037`
+  - micro F1 by `+0.0033`
+- Lint severity totals stayed flat in the full rerun:
+  - `ERROR 1242`
+  - `WARNING 1824`
+  - `INFO 3478`
+
+- Added a new `aṯrt + ym` epithet rule in `pipeline/config/formula_bigram_rules.py` and extended `spacy_ugaritic/components/formula_context.py` coverage.
+- The formula resolver now treats `aṯrt ym` as the Asherah-of-the-Sea epithet, rebuilding `aṯrt(II)/` when only the body-part noun survived upstream and pruning `ym(I)/` "day" in favor of `ym(II)/` "sea".
+- Added a narrow `kbd` object-context rule in `spacy_ugaritic/components/morph_context.py` for the attested imperative pattern `kbd + pronoun`.
+- The morph resolver now rebuilds `kbd[:d` `/k-b-d/ vb D impv. 2` before following object-pronoun surfaces such as `hyt`, `hwt`, and `hmt`, fixing rows that were previously stranded as `kbd(II)/`.
+- Normalized legacy reviewed `!!kbd[:d` to canonical `kbd[:d` in `reviewed_normalization.py` so the scorer does not treat the same imperative reading as a mismatch.
+- Added regression coverage in:
+  - `tests/test_spacy_formula_context.py`
+  - `tests/test_spacy_morph_context.py`
+  - `tests/test_reviewed_morphology_evaluation.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_spacy_formula_context tests.test_spacy_morph_context tests.test_reviewed_morphology_evaluation`
+  - `uv run ruff format ...`
+  - `uv run ruff check ...`
+  - targeted reruns of `KTU 1.1.tsv`, `KTU 1.3.tsv`, `KTU 1.4.tsv`, `KTU 1.6.tsv`, and `KTU 1.17.tsv`
+  - a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass
+- On the expanded reviewed set, this iteration improved scoring from:
+  - exact-set accuracy `0.5291 -> 0.5310`
+  - macro F1 `0.5859 -> 0.5870`
+  - micro F1 `0.5459 -> 0.5468`
+  - gold coverage `0.6103 -> 0.6111`
+- Lint severity totals stayed flat in the full rerun:
+  - `ERROR 1242`
+  - `WARNING 1824`
+  - `INFO 3478`
+
+- Added a late `BaalGlossFixer` in `pipeline/steps/baal_gloss.py` and wired it into `pipeline/tablet_parsing.py` after morph disambiguation.
+- The step resolves the recurring `bʕl (II)` gloss leak where suffixed rows already disambiguated to common-noun `n. ...` were still carrying the onomastic gloss `Baʿlu/Baal`.
+- It now keeps:
+  - suffixed noun `bʕl (II)` rows at gloss `lord`
+  - unsuffixed `bʕl (II)` rows untouched, since many reviewed contexts still require the DN/noun ambiguity to remain visible through `Baʿlu/Baal`
+  - pure `DN` `bʕl (II)` rows at gloss `Baʿlu/Baal`
+  - unresolved mixed `n./DN` rows untouched until later disambiguation
+- Added focused regression coverage in `tests/test_baal_gloss.py`.
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_baal_gloss tests.test_spacy_lexical_context tests.test_spacy_lexical_context_step`
+  - `uv run ruff format ...`
+  - `uv run ruff check ...`
+  - targeted rerun of `KTU 2.55.tsv`, which now keeps `158552 bˤly` as `n. m. sg. cstr. gen.` with gloss `lord`
+  - targeted rerun of `KTU 1.3.tsv`, which restores unsuffixed `138003 bˤl` to gloss `Baʿlu/Baal`
+
+- Added a dedicated `mlk` lexical-context resolver in `spacy_ugaritic/components/lexical_context.py` and threaded it through the runtime pipeline via:
+  - `spacy_ugaritic/language.py`
+  - `pipeline/steps/spacy_lexical_context.py`
+  - `pipeline/lexical_context_step_factory.py`
+  - `pipeline/tablet_parsing.py`
+- The new rule upgrades the recurrent bare `mlk` ambiguity from `mlk(II)/` "kingdom" vs `/m-l-k/` "to reign" to the attested title noun `mlk(I)/` "king" in high-confidence title contexts already visible at the early lexical stage:
+  - `PN + mlk`
+  - `mlk + TN`
+  - epistolary/title formulas like `tḥm mlk bnk`
+  - legacy nominal chains like `l/lpn + mlk + noun`
+- Normalized legacy reviewed bare `mlk/` notation to `mlk(I)/` in `reviewed_normalization.py` so mixed old/new reviewed files score the same `king` reading consistently.
+- Added focused regression coverage in:
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_spacy_lexical_context_step.py`
+  - `tests/test_reviewed_morphology_evaluation.py`
+- Verified with focused unit tests, `ruff format`, `ruff check`, targeted tablet reruns, and a full `regenerate_tablets_and_reports.py --skip-source-refresh` pass.
+- On the expanded reviewed set, this iteration improved scoring from:
+  - exact-set accuracy `0.5171 -> 0.5237`
+  - macro F1 `0.5743 -> 0.5805`
+  - micro F1 `0.5348 -> 0.5413`
+  - gold coverage `0.5991 -> 0.6049`
+- Biggest per-file score gains were in:
+  - `KTU 2.13.txt` micro F1 `+0.0472`
+  - `KTU 2.15.txt` micro F1 `+0.0429`
+  - `KTU 2.38.txt` micro F1 `+0.0415`
+  - `KTU 2.14.txt` micro F1 `+0.0322`
+- Full-corpus lint also improved against the previous full baseline:
+  - total issues `9630 -> 9547`
+  - `ERROR` unchanged at `1242`
+  - `WARNING 1871 -> 1810`
+  - `INFO` unchanged at `3478`
+  - the largest meaningful lint drop was `Deverbal form matches both verb and noun entries in DULAT` `1057 -> 996`
+
+- Broadened `pipeline/steps/weak_verb.py` from weak-initial `/y-/` handling to weak-initial dropped-radical verb handling for attested `/l-/` forms too.
+- The step now rewrites `/l-q-ḥ/` surfaces with hidden initial `l` to reconstructable canonical analyses, including:
+  - `yqḥ -> !y!(lqḥ[`
+  - `iqḥ -> !(ʔ&i!(lqḥ[`
+  - `qḥ -> (lqḥ[`
+- Added focused regression coverage in `tests/test_weak_verb.py`, including a guard that leaves unrelated `/l-ʔ-y/w/` forms like `tlu` untouched until their own encoding family is fixed.
+- Verified with:
+  - `./.venv/bin/python -m unittest tests.test_weak_verb`
+  - `./.venv/bin/python -m unittest tests.test_refinement_steps`
+  - `uv run ruff check agent/pipeline/steps/weak_verb.py agent/tests/test_weak_verb.py`
+  - targeted reruns confirming updated rows in `KTU 1.3`, `KTU 1.14`, `KTU 1.5`, `KTU 2.62`, and `KTU 3.2`
+
+- Added a late `function-word-clitic-notation` cleanup step in `pipeline/steps/function_word_clitic_notation.py` to convert reconstructability-only `&...` tails on function words back into canonical clitic notation when the row is already a function-word analysis.
+- The new step fixes recurring prepositional rows such as `lm`, `ˤlm`, `ˤmm`, and `ˤlt`, rewriting malformed forms like `l(I)&m`, `ˤl(I)&~m`, and `ˤl(I)&t` to canonical clitic analyses.
+- Tightened `pipeline/steps/dulat_enclitic_m.py` so rows that already carry an explicit pronominal `+m...` suffix are not rewritten a second time into malformed mixed encodings like `+m(I)~m`.
+- Threaded the new cleanup step into the runtime pipeline immediately after `surface-reconstructability` in `pipeline/tablet_parsing.py`.
+- Added focused regression coverage in:
+  - `tests/test_function_word_clitic_notation.py`
+  - `tests/test_dulat_enclitic_m.py`
+- Verified with targeted tests, `ruff format`, `ruff check`, a full parser rerun, and refreshed lint/scoring artifacts:
+  - lint total issues `9796 -> 9682`
+  - `ERROR 1438 -> 1305`
+  - `WARNING 1869 -> 1860`
+  - reviewed exact-set accuracy unchanged at `0.5171`
+  - reviewed micro F1 effectively flat at `0.5344 -> 0.5345`
+
+- Normalized legacy reviewed-analysis notation so the expanded `reviewed/` set scores against current CUC morphology conventions instead of old notation quirks.
+- Added `reviewed_normalization.py` and threaded it through:
+  - `reviewed_migration/migrator.py`
+  - `reviewed_evaluation/loader.py`
+- The normalization currently handles the high-confidence legacy patterns found in the new reviewed tablets:
+  - `/(I)`-style homonym markers are reordered to current `(...)/` notation,
+  - legacy infinitives like `!!rgm[` are normalized to `!!rgm[/`,
+  - legacy `ʿ` analysis letters are normalized to current `ˤ`,
+  - bare default-preposition forms `l` / `l+suffix` are normalized to `l(I)` / `l(I)+suffix`.
+- Added focused regression coverage in:
+  - `tests/test_reviewed_morphology_evaluation.py`
+  - `tests/test_reviewed_tablet_migrator.py`
+- Verified with targeted tests and a rescoring pass on the expanded local reviewed set that the normalized notation materially improves evaluation fidelity:
+  - exact-set accuracy `0.4741 -> 0.5102`
+  - macro F1 `0.5283 -> 0.5693`
+  - micro F1 `0.4903 -> 0.5290`
+  - gold coverage `0.5503 -> 0.5961`
+- Tightened `spacy_ugaritic/components/morph_context.py` so epistolary `rgm` in KTU 2.* letters collapses to the infinitive opening formula when it introduces the greeting and to the noun `rgm/` in later message-content positions.
+- Added focused regression coverage in `tests/test_spacy_morph_context.py`.
+- Verified with a full regeneration, lint refresh, and rescoring pass that the new `rgm` rule improves agreement on the expanded reviewed set without introducing lint-severity regressions:
+  - exact-set accuracy `0.5102 -> 0.5149`
+  - macro F1 `0.5693 -> 0.5721`
+  - micro F1 `0.5290 -> 0.5322`
+  - gold coverage `0.5961 -> 0.5969`
+  - lint severity totals unchanged on the refreshed corpus output
+- Tightened `spacy_ugaritic/components/morph_context.py` again for the recurring letter-blessing pair `tġrk tšlmk` (and plural `tġrkm tšlmkm`), collapsing the malformed mixed candidates to single attested prefixed forms with bound pronominal suffixes.
+- Added focused regression coverage in `tests/test_spacy_morph_context.py` for both the singular and plural blessing pair.
+- Verified with targeted tablet reruns plus refreshed lint and reviewed scoring that the blessing-formula rule improves the expanded reviewed set again without lint-severity regression:
+  - exact-set accuracy `0.5149 -> 0.5171`
+  - macro F1 `0.5721 -> 0.5743`
+  - micro F1 `0.5322 -> 0.5344`
+  - gold coverage `0.5969 -> 0.5991`
+  - lint severity totals unchanged on the refreshed corpus output
+
+## 2026-03-07
+
+- Tightened `spacy_ugaritic/components/lexical_context.py` so `bt` no longer carries an extra `bt(II)/` "house" reading next to `b(t(I)/t` "daughter" by default.
+- The lexical-context resolver now keeps `bt(II)` only when the current reference has direct DULAT attestation for `bt (II)` or when the token participates in the recurring `bt l bˤl` / `bt lbˤl` phrase.
+- Added focused regression coverage in:
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_spacy_lexical_context_step.py`
+- Verified with targeted and full reruns that the change improves reviewed morphology agreement again without lint-severity regression:
+  - exact-set accuracy `0.5629 -> 0.5732`
+  - macro F1 `0.6484 -> 0.6519`
+  - micro F1 `0.6059 -> 0.6087`
+  - lint severity totals unchanged on the refreshed corpus output
+
+- Tightened `spacy_ugaritic/components/lexical_context.py` so `bˤl` no longer keeps an unattested verbal `/b-ʕ-l/` candidate beside the nominal `bʕl (II)` reading when the current tablet reference has no direct DULAT attestation for the verb.
+- Threaded the DULAT attestation index through the spaCy lexical-context step in:
+  - `pipeline/steps/spacy_lexical_context.py`
+  - `pipeline/lexical_context_step_factory.py`
+  - `pipeline/tablet_parsing.py`
+- Added focused regression coverage in:
+  - `tests/test_spacy_lexical_context.py`
+  - `tests/test_spacy_lexical_context_step.py`
+- Verified with targeted and full reruns that the change removes the noisy `bˤl[/` overgeneration in reviewed contexts without lint-severity regression:
+  - exact-set accuracy `0.5548 -> 0.5629`
+  - macro F1 `0.6457 -> 0.6484`
+  - micro F1 `0.6037 -> 0.6059`
+  - lint severity totals unchanged on the refreshed corpus output
+
+- Tightened `pipeline/steps/dulat_enclitic_m.py` so noun/adjective/number rows no longer synthesize an extra `~m` enclitic variant when DULAT only gives a generic `suff.` note and the same exact surface is already attested as a plain plural/dual nominal form.
+- This removes broad false overgeneration for forms like `ilm` while still preserving explicit `~m` rows and note-backed cases with more specific morphology such as `sg., suff.`.
+- Added focused regression coverage in `tests/test_dulat_enclitic_m.py`.
+- Verified with targeted and full reruns that the change improves reviewed morphology agreement again without lint-severity regression:
+  - exact-set accuracy `0.5430 -> 0.5548`
+  - macro F1 `0.6418 -> 0.6457`
+  - micro F1 `0.6007 -> 0.6037`
+  - lint severity totals unchanged on the refreshed corpus output
+
+- Tightened `spacy_ugaritic/components/l_context.py` so non-verbal `l` tokens now prefer the preposition reading `l(I)` by default instead of carrying a stray `l(III)` "certainly" variant unless a forced reference, compound rule, or verb-following context keeps another homonym alive.
+- Added focused regression coverage in:
+  - `tests/test_spacy_l_context.py`
+  - `tests/test_spacy_l_context_step.py`
+- Verified with targeted and full reruns that the change improves reviewed morphology agreement without introducing new lint issues:
+  - exact-set accuracy `0.5261 -> 0.5430`
+  - macro F1 `0.6370 -> 0.6418`
+  - micro F1 `0.5982 -> 0.6007`
+  - lint severity totals unchanged on the refreshed corpus output
+
+- Added `scripts/regenerate_tablets_and_reports.py` as a single entrypoint for the full refresh loop:
+  - regenerates parsed tablets,
+  - reruns lint report generation,
+  - reruns reviewed morphology scoring,
+  - writes before/after scoring snapshots plus combined lint/scoring delta summaries.
+- Added `full_regeneration/` orchestration helpers and focused regression coverage in:
+  - `tests/test_full_regeneration_reports.py`
+  - `tests/test_full_regeneration_runner.py`
+- The wrapper now keeps `--dry-run` side-effect free, honors the requested `reports_dir`, and defaults to the full-rerun behavior of allowing large per-step parser changes unless `--enforce-step-change-limit` is passed.
+
+- Fixed DULAT plurale-tantum detection for live `-m` nouns with bare construct forms:
+  - `pipeline/steps/dulat_gate.py` now treats construct-only non-suffix morphologies such as bare `cstr.` as compatible supporting evidence instead of rejecting the entire lemma.
+  - This restores real plurale-tantum handling for `pnm`, so rows like `pnm/` can normalize to `pn(m/m` instead of staying unsplit or being re-split as `p/+nm`.
+- Added a late journey-formula morphology rule in `spacy_ugaritic/components/morph_context.py` for plural-subject `... idk l ytn pnm ...` sequences:
+  - forces `l` to `l(III)` in that formula window,
+  - rewrites `ytn` verb rows to the reviewed plural reading there,
+  - rewrites `pnm` to the project plurale-tantum object analysis/accusative POS in that window.
+- Narrowed `linter/feature_validation.py` so the reviewed plural journey-formula notation for `ytn` (`!y!(ytn[` / `ytn[`) is accepted without weakening generic explicit-feature validation for other verb analyses.
+- Added focused regression coverage in:
+  - `tests/test_dulat_gate_plurale_tantum.py`
+  - `tests/test_spacy_morph_context.py`
+  - `tests/test_linter_feature_validation.py`
+- Verified on `KTU 1.5.tsv` that:
+  - `139811 l` now resolves to `l(III)`,
+  - `139812 ytn` now matches the reviewed `prefc./suffc. 3 m. pl.` pair,
+  - `139813 pnm` now matches the reviewed `pn(m/m` analysis and accusative noun reading.
+
+- Tightened `pipeline/steps/suffix_fixer.py` so exact DULAT surface forms are no longer forced into `+suffix` analyses when the same written form is lexically attested without a suffix or when DULAT marks the exact form as suffix-vs-other ambiguous (`or`, `allog.`, or mixed exact morph labels).
+- This removes the false `suffix-clitic` rewrites behind rows like `pnm -> p/+nm` and `mh -> m/+h`, while still allowing genuinely suffix-only exact forms such as `npšh` to keep `+h`.
+- Added focused regression coverage in `tests/test_refinement_steps.py` for:
+  - exact-surface mixed `pl.` / `suff.` forms staying unsplit,
+  - exact-surface `suff., or, allog.` forms staying unsplit,
+  - legitimate suffix-only forms still splitting.
+
+- Tightened proper-name candidate generation so rare `PN` readings are only kept when they are directly attested for the current tablet line in DULAT or when no competing non-onomastic lexical reading survives:
+  - `scripts/refine_results_mentions.py` now prunes unattested `PN` variants during initial DULAT-backed candidate building while preserving `pers. pn.` pronouns.
+  - `pipeline/tablet_parsing.py` now passes the direct DULAT attestation index into the main refine pass, so full-tablet runs use the same gate as the standalone refine script.
+  - `pipeline/steps/attested_split_token_merge.py` now also passes the direct attestation index into merged-token candidate generation.
+- Made `pipeline/steps/onomastic_gloss.py` reference-aware so it no longer blindly appends onomastic override variants to non-onomastic rows:
+  - unattested `PN` override rows are now suppressed when the same token already has a viable non-onomastic reading for that line,
+  - directly attested `PN` rows are still appended when DULAT cites that exact section reference.
+- Corrected `agent/data_sources/onomastic_gloss_overrides.tsv` so `šlyṭ` is treated as `DN m.` rather than `PN m.` in the override source.
+- Added focused regression coverage in:
+  - `tests/test_refine_results_mentions.py`
+  - `tests/test_tablet_parsing_pipeline.py`
+  - `tests/test_attested_split_token_merge.py`
+  - `tests/test_onomastic_gloss_overrides_format.py`
+
+## 2026-03-06
+
+- Added a reviewed-vs-auto morphology agreement scorer under `reviewed_evaluation/` plus `scripts/score_reviewed_morphology.py`.
+- The scorer uses `reviewed/` as the gold source, compares unordered unique morphology-option sets per token id, and reports exact-set accuracy, macro/micro precision/recall/F1, Jaccard, coverage, and over/under-generation counts with ambiguous/unambiguous splits.
+- Added focused regression tests in `tests/test_reviewed_morphology_evaluation.py` for TSV loading, reviewed `.txt` to auto `.tsv` matching, collapsed `surface + analysis` recovery, set-based scoring, and JSON serialization.
+- Extended the reviewed morphology loader to include reviewed `.txt` files and recover malformed rows where the surface form and morphology analysis were collapsed into the same field, without modifying the reviewed source files.
+- Documented the reviewed morphology agreement metrics and usage in `docs/reviewed_morphology_metrics.md` and linked the evaluator from `README.md`.
+
+- Fixed DULAT forms-block fallback extraction in `pipeline/config/dulat_entry_forms_fallback.py` so suffix-note clitic fragments like `-nn` / `-n` are no longer harvested as standalone fallback forms from raw `¶ Forms:` HTML.
+- Tightened suffix splitting in `scripts/refine_results_mentions.py`:
+  - exact non-clitic lexical hits now block fallback-only split generation,
+  - direct lexical hits are no longer split into themselves,
+  - direct lexical hits also suppress competing function-word splits such as `hn + ny` / `hnn + y` when the surface already matches a lexical `hnny`.
+- Added/updated regression coverage in:
+  - `tests/test_dulat_entry_forms_fallback.py`
+  - `tests/test_refine_results_mentions.py`
+- Re-ran the focused parsing pipeline for `KTU 1.114`, `KTU 1.16`, and `KTU 2.38` against a clean DULAT cache rebuilt from the fixed parser output without the reviewed-lexicon overlay.
+- Verified that the parser-side `/g-r-š/` pollution is gone and that `157864 hnny` no longer produces the malformed `hn+ny` / DULAT-comment-mismatch row.
+- Verified that the clean cache restores the reported DULAT regressions in focused outputs:
+  - `153804 šbˤ -> num.`
+  - `153827 ḫṭm -> n. m. abs. nom. sg.`
+  - `143342 špš -> n. f. sg. abs. gen.` (alongside the DN row)
+- Fixed Text-Fabric raw-source reference formatting for single-column tablets: when a tablet's only exported column is `I`, generated separator comments now use `KTU X.Y line` instead of `KTU X.Y I:line` (for example `KTU 2.38 27`).
+- Added exporter regression coverage in `tests/test_text_fabric_tablet_source_exporter.py` for both true multi-column tablets and single-column `I` tablets.
+- Noted two remaining non-parser follow-ups from the focused rerun:
+  - `153883/143929 nn` and `143578 nny` still admit separate `ks/+n` / `ks/+ny` false-positive split candidates.
+  - `143217 ġr (III)` is still pruned downstream by attestation disambiguation because only `ġr (I)` is attested at `CAT 1.16 I:6` in the clean DULAT cache.
+
+## 2026-03-05
+
+- Fixed `tD` stem handling for suffixed fallback rewrites and validation:
+  - `morph_features/verbal_completion.py` now rewrites fallback `tD` analyses with the required `]t]` stem marker (e.g. `tgr` -> `]t]gr[:d`) instead of `&...` host prefixing.
+  - `linter/lint.py` now treats `]t]` as required when POS includes `vb tD`, and accepts `]t]` compatibility for DULAT `tD`/`tL` stems in the legacy `Xt` marker check.
+  - updated regression coverage in `tests/test_verbal_feature_completion.py` and `tests/test_linter_verb_pos_stem.py`.
+- Fixed drift in `tests/test_linter_generic_override_demotions.py` for clitic-missing message matching after recent lint message normalization.
+
+- Refined generic-override lint demotions to apply only to stand-alone clitic/suffix analyses (`+...`, `~...`, `/...`, `[...]`) for three high-noise classes: `DULAT comment ... not in candidates`, `Missing DULAT entry token(s) in column 4`, and duplicate semantic bundle errors.
+- Improved DULAT comment mismatch diagnostics to include declared token and candidate list, e.g. `DULAT comment 'X' not in candidates: ...`.
+- Added regression coverage in `tests/test_linter_generic_override_demotions.py` for scoped demotion and non-standalone guard behavior.
+
+- Fixed N-stem marker policy and suffixed short-root fallback in parser/linter:
+  - `morph_features/verbal_completion.py` now rewrites suffc fallback analyses for short roots using stem-aware encoding, producing `&...[` for visible non-lexeme prefixes in G (for example `nˤr -> &nˤr[`) and `]n]...[`/`(]n]...[` for N depending on visibility.
+  - `pipeline/steps/verb_n_stem_assimilation.py` now uses canonical `(]n]` insertion for prefixed N forms, normalizes legacy `](n]`, and applies variant-by-variant so non-N POS variants do not keep N markers.
+  - `morph_features/paradigm_matcher.py` switched prefixed N candidate construction to canonical `(]n]`.
+  - `pipeline/steps/verb_mixed_stem_split.py` and `pipeline/steps/weak_verb.py` were updated to recognize and normalize `(]n]`/`]n]` markers consistently.
+- Tightened linter N-marker validation:
+  - `linter/lint.py` now flags deprecated `](n]` ordering as error, enforces `(]n]`/`]n]` usage only in N-stem verb analyses, and updates required-marker checks/messages for prefixed N forms.
+  - reconstruction helpers were aligned so `(]n]` behaves as reconstructed-hidden `n` for surface reconstruction checks.
+- Added/updated regression coverage in:
+  - `tests/test_verbal_feature_completion.py`
+  - `tests/test_linter_warning_predicates.py`
+  - `tests/test_linter_verb_pos_stem.py`
+  - `tests/test_verb_mixed_stem_split.py`
+  - `tests/test_verb_form_morph_pos.py`
+  - `tests/test_refinement_steps.py`
+
+- Fixed preposition-suffix handling in spaCy morphology context:
+  - `spacy_ugaritic/components/morph_context.py` now skips post-preposition genitive forcing when the preposition itself carries a bound pronoun (`+...` or `~...`), so sequences like `ˤm(I)+y pˤn/+k` no longer force the following nominal into genitive.
+  - added regression coverage in `tests/test_spacy_morph_context.py`.
+- Hardened suffix/clitic normalization and DULAT host lookup:
+  - `pipeline/steps/suffix_paradigm_normalizer.py` now normalizes invalid `&+` / `&~` sequences to `+` / `~` (for example `ˤm(I)&+y -> ˤm(I)+y`).
+  - `linter/lint.py` now strips both `+` and `~` tails when deriving the host analysis for lexeme-level DULAT checks, and only treats explicit `+...`/`~...` segments as clitic parts.
+  - added regression coverage in `tests/test_suffix_paradigm_normalizer.py` and `tests/test_linter_warning_predicates.py`.
+- Re-ran full parsing pipeline (`--include-existing --allow-large-step-changes`) in `cuc-origin` and regenerated `auto_parsing/0.2.6`.
+
+- Fixed parser-side reconstruction regressions in `scripts/refine_results_mentions.py` for recurring weak/prefixed and slash-variant forms:
+  - added prefixed fallback encoding for weak-final, weak-initial `h`, I-aleph, and II-aleph verbs (e.g. `tbnn`, `ylkn`, `tusp`, `ynaṣn`) so col3 stays reconstructable and prefix markers are preserved.
+  - preserved full non-root slash lemmas in DULAT labels (e.g. `ʕllmy/n`) and added nominal `-y` to surface `-n` encoding support (`ˤllm(y/n`).
+  - changed non-nominal variant fallback to append visible tail as surface-only markers (`&...`) instead of collapsing to raw surface (`d&t`, `b&d`), keeping lexeme identity aligned with DULAT.
+- Tightened verbal completion form selection in `morph_features/verbal_completion.py`: when explicit POS form labels conflict with DULAT exact-form metadata, completion now trusts DULAT forms.
+- Added regression coverage for the above in:
+  - `tests/test_refine_results_mentions.py`
+  - `tests/test_verbal_feature_completion.py`
+- Re-ran full parser pipeline and full linter report regeneration in `cuc-origin` (`auto_parsing/0.2.6`, `agent/reports/lint_report.{txt,html}`).
+
+- Rolled back two linter-side compatibility workarounds so parser/data issues are surfaced again:
+  - removed malformed onomastic POS payload coercion from `load_onomastic_override_pos(...)`,
+  - removed `nuf.`/`nuf` POS alias normalization to `num.`.
+- Fixed the parser-side `nuf.` regression in `pipeline/steps/nominal_form_morph_pos.py` by tightening `m.`/`f.` token replacement to standalone gender markers only (so `num.` is no longer mutated to `nuf.`).
+- Added/updated regression coverage:
+  - `tests/test_nominal_form_morph_pos.py` now asserts numeral POS remains `num. ...` under feminine morphology enrichment,
+  - `tests/test_linter_onomastic_pos_allowlist.py` now verifies malformed onomastic override POS payloads are rejected instead of silently normalized.
+- Extended generic-override-scoped demotions to cover `No DULAT entry found for lexeme/surface` in addition to the previously demoted generic-override message classes.
+- Improved POS validation compatibility:
+  - composed POS labels like `adv. or prep.` now validate when each component POS is allowed,
+  - legacy typo alias `nuf.` now normalizes to `num.` for validation.
+- Hardened onomastic POS allowlist normalization so malformed override payloads like `DN m. the Ocean/Primordial Ocean` still contribute a valid onomastic POS head (`DN m.`) during validation.
+- Extended linter POS compatibility checks with an onomastic allowlist loaded from `data_sources/onomastic_gloss_overrides.tsv`; onomastic readings (for example `DN m. ...`) now validate against DULAT noun entries when the lexeme is explicitly listed in the overrides table.
+- Added CLI wiring in `linter/lint.py` via `--onomastic-overrides` (defaulting to the migrated data-source path) and regression coverage in `tests/test_linter_onomastic_pos_allowlist.py`.
+- Added scoped lint demotions for lexemes listed in `data_sources/generic_parsing_overrides.tsv`: only those override-mapped lexemes now downgrade three high-noise classes to `info` (`POS token ... not allowed`, `Analysis does not reconstruct to surface`, and `No DULAT entry found for clitic part ...`).
+- Added helper loading/matching in `linter/lint.py` (`load_generic_override_lexemes`, `variant_uses_generic_override_lexeme`) plus CLI wiring via `--generic-overrides`.
+- Added regression coverage in `tests/test_linter_generic_override_demotions.py`.
+- Linter POS validation now strips `functor` role qualifiers during DULAT-token compatibility checks, so enriched tags like `prep. functor` validate against DULAT coarse POS heads such as `prep.`.
+- Demoted `Deverbal form matches both verb and noun entries in DULAT` from `error` to `warning` so ambiguous deverbal matches are review signals instead of hard failures.
+- Added regression coverage in `tests/test_linter_pos_normalization.py` and `tests/test_linter_deverbal_warning.py`.
+- Fixed parser-side reconstructability regressions in `cuc-origin` for recurring clitic/enclitic forms:
+  - `pipeline/steps/suffix_fixer.py`: expanded suffix candidate inventory (`+nh` etc.), made suffix injection reconstructability-safe, and prevented host-letter truncation in forms like `ḥtk(I)/+k`.
+  - `pipeline/steps/dulat_gate.py`: added conservative surface-tail suffix inference (`...h`, `...nh`, `...k`, etc.) when exact-form morphology labels omit `suff.`.
+  - `pipeline/steps/surface_reconstructability_fixer.py`: restores missing single-tail letters in nominal/pronoun variants where col3 is one visible letter short (e.g. `ˤn(I)&n/`, `at(I)&m`).
+  - `pipeline/steps/dulat_enclitic_m.py`: normalized `/ʔ-t-w/` imperative `atm` with enclitic `-m` to `!!(ʔ&at(w[~m`.
+  - `pipeline/steps/suffix_payload_collapse.py`: added late-stage repair from `+h` to `+nh` when surface explicitly requires `nh`.
+  - added/updated regressions in:
+    - `tests/test_refinement_steps.py`
+    - `tests/test_dulat_gate_plurale_tantum.py`
+    - `tests/test_surface_reconstructability_fixer.py`
+    - `tests/test_dulat_enclitic_m.py`
+    - `tests/test_suffix_payload_collapse.py`
+  - re-ran parsing for `KTU 1.1.tsv` in `cuc-origin`; target errors for `135597`, `135608`, `135644`, `135745`, `135747` are resolved.
+
+## 2026-03-04 Morphology Feature Groundwork
+
+- Added a new `morph_features/` package with typed feature payloads, analysis decoding, vocalized-to-non-vocalized normalization, sqlite-backed DULAT exact-form lookup, and a first deterministic verbal completion helper.
+- Added a reviewed gold-case fixture for `KTU 1.5` under `tests/fixtures/reviewed_ktu_1_5_cases.tsv` plus focused tests for analysis decoding and deterministic verbal completion.
+- Added `pipeline/steps/verbal_feature_completion.py` as the first parser integration step for the new morphology layer, but left it inactive in the runtime pipeline after smoke validation exposed a late semicolon-unwrapper regression on `KTU 1.5` that still needs a second iteration to resolve safely.
+- Added conservative nominal completion scaffolding in `morph_features/nominal_completion.py`, extended the POS renderer to emit nominal feature strings from structured bundles, and added focused tests for exact-surface DULAT-driven number/state splitting (`bn`), suffix-driven construct state (`ipdk`), and feminine singular preservation (`brlt`).
+- Integrated both morphology completion steps into the runtime parser as file-level expanders on already-unwrapped rows: nominal completion now runs after the main variant-unwrapper stage, and verbal completion now runs after the post-verb unwrapper stage. This avoided the earlier semicolon-compounding corruption on `KTU 1.5` while keeping the completion logic active in the real pipeline.
+- Added `linter/feature_validation.py` and the first direct morphology-consistency checks in `linter/lint.py`. The linter now errors when POS omits verb person/gender/number that is explicitly encoded in the analysis, or when noun/adjective/name POS omits directly visible feminine/plural/dual/construct information from the analysis string.
+- Replaced the old concrete-paradigm matcher stub with a `morphology.py`-backed verbal candidate generator in `morph_features/paradigm_matcher.py`. The verbal completer now uses pattern-table-backed candidate generation when a verb row lacks explicit PNG in its analysis, which allows rows like `tmḫṣ` and `tṯkḥ` to split into multiple valid person/gender/number readings before later context pruning.
+- Added the first spaCy-based `morph_context` component and pipeline step. The initial rule prunes ambiguous verbal PNG bundles when a local masculine plural/dual nominal subject provides a clear agreement target, which already improves `KTU 1.5 I:4` by keeping the `3 m. pl.` reading of `tṯkḥ` before `šmm`.
+
+- Added an attested adjacent split-token merge step so cases like `la` + unresolved `nk` can yield an extra `lảnk`-based variant without rewriting unrelated rows such as `anh`.
 # Changelog
+
+## 2026-03-04
+- Consolidated the remaining lexical-context rules (`bʕl` heuristics and `ydk`) into the shared spaCy context layer with stage-correct placement (`spacy-baal-context` before `l`, `spacy-ydk-context` after `k`), then removed the deleted legacy context step implementations, comparison scripts, and direct legacy-step tests that were no longer part of the active parser.
+- Simplified the context-step factories so they expose only the active spaCy strategies, rewrote the remaining spaCy step tests to assert expected output directly instead of diffing against deleted legacy steps, and removed obsolete step-specific docs for the old context chain.
+- Replaced the legacy `formula-trigram` + `formula-bigram` chain with a row-level spaCy `pipeline/steps/spacy_formula_context.py` pass, added `pipeline/formula_context_step_factory.py`, and introduced `scripts/compare_formula_context_strategies.py` for exact-output comparison against the historical formula steps.
+- Added row-level spaCy helpers in `spacy_ugaritic/row_builder.py` and `spacy_ugaritic/row_rewriter.py`, plus focused coverage in `tests/test_spacy_formula_context.py`, exact-output equivalence coverage in `tests/test_spacy_formula_context_step.py`, and updated `tests/test_tablet_parsing_pipeline.py` for the new `spacy-formula-context` slot.
+- Ran the corpus comparison across all `278` target tablets after the swap: `0` output diffs versus the legacy formula chain.
+- Replaced the legacy `k-functor-bigram-context` step with a spaCy-backed `pipeline/steps/spacy_k_context.py` pass, added `pipeline/k_context_step_factory.py`, and introduced `scripts/compare_k_context_strategies.py` for exact-output comparison against the historical `k` step.
+- Added focused coverage in `tests/test_spacy_k_context.py`, exact-output equivalence coverage in `tests/test_spacy_k_context_step.py`, and updated `tests/test_tablet_parsing_pipeline.py` for the new `spacy-k-context` slot.
+- Ran the corpus comparison across all `278` target tablets after the swap: `0` output diffs versus the legacy `k` step.
+- Moved the spaCy-based parser support code out of the `agent/` root into the dedicated `agent/spacy_ugaritic/` package so parser-related modules no longer live as top-level files.
+- Replaced the five-step legacy `l`-context chain (`l-negation-verb-context`, `l-functor-vocative-context`, `l-kbd-compound-prep`, `l-body-compound-prep`, `l-preposition-bigram-context`) with a single document-level `pipeline/steps/spacy_l_context.py` pass backed by the isolated spaCy spike.
+- Split `TabletParsingPipeline` into explicit pre-`l`, `l`, and post-`l` sections so the `l` strategy can be compared and swapped independently.
+- Added `pipeline/l_context_step_factory.py`, `spacy_ugaritic_rewriter.py`, and `scripts/compare_l_context_strategies.py` to compare the integrated spaCy step against the legacy chain on the same pre-`l` parser state.
+- Added exact-output equivalence coverage in `tests/test_spacy_l_context_step.py` and pipeline wiring coverage in `tests/test_tablet_parsing_pipeline.py`.
+- Ran the corpus comparison across all `278` target tablets after the swap: `0` output diffs versus the legacy `l` chain.
+- Added an isolated spaCy-based `l`-context spike that groups TSV candidate rows into token-level documents and applies current `l` disambiguation heuristics in one rule component without changing the main parsing pipeline.
+- Added `spacy_ugaritic_*` helper modules, a `scripts/spacy_l_context_spike.py` debug runner, and focused regressions in `tests/test_spacy_l_context.py` covering token grouping, forced `l(IV)` references, `l + kbd`, high-confidence `l` bigrams, and `l(II)` pruning/retention by verbal context.
+- Narrowed `scripts/refine_results_mentions.py` host slash rendering to nouns and adjectives only, so non-nominal suffix variants such as pronouns and adverbs no longer inherit nominal `/` in col3 (for example `anh -> an(I)+h; an(II)+h` instead of `an(I)/+h; an(II)+h`).
+- Added `pipeline/steps/verb_mixed_stem_split.py` so rows whose verb POS carries multiple stem signatures are split into aligned semicolon variants before stem-marker normalization; this prevents collapsed rows like `yšlm -> vb G prefc. / vb D prefc.` from forcing `:d` onto the shared analysis and lets the post-verb unwrapper emit separate `G` and `D` rows.
+- Fixed bracketed-form fallback extraction in `pipeline/config/dulat_entry_forms_fallback.py` so forms like `yq[bh]` no longer get indexed as standalone tails such as `bh`, and added `pipeline/steps/function_word_clitic_pruner.py` to drop unreconstructable host-only function-word rows when the same lexeme already has a clitic-bearing sibling (for example `bh: b+h` now survives, bare `b` does not).
+- Refreshed `auto_parsing/0.2.6` against a rebuilt DULAT cache that preserves curly-brace uncertainty inside single forms (for example `ḥ{q}kpt`).
+- This removes the one-letter false TN match class caused by fragmented DULAT forms, so rows like `155086 ḥ -> ḥkpt/` and `155820 qd -> ḥkpt/+d` no longer appear after regeneration.
+
+## 2026-03-03
+- Made DULAT note-backed `-m` handling ambiguity-aware across the corpus:
+  - `pipeline/config/dulat_form_note_index.py` now indexes both exact `encl. -m` form notes and note-listed extended `...m` surfaces.
+  - `pipeline/steps/dulat_enclitic_m.py` now preserves plain surface matches when DULAT attests both a regular form and an `encl. -m` form for the same surface (for example `ilm -> il(I)/m` and `il(I)/~m`) instead of overwriting the plain row with `...m~m`.
+  - the enclitic step now preserves hidden radicals and finite prefixes when building `~m` analyses (for example `ymtm -> !y!mt[~m`, `atm -> ʔtw[~m`, `bkm -> !!bk(y[/~m`).
+  - the step is now file-group aware, so late unwrapped sibling rows do not generate duplicate `~m` rows for already-attested ambiguities like `šlmm`.
+  - `pipeline/steps/deictic_functor_enclitic_m.py` now accepts DULAT note-listed extended forms such as `hlm`, not just exact form-table matches, and restores `hl~m`.
+  - `pipeline/steps/onomastic_gloss.py` now appends missing onomastic variants from `onomastic_gloss_overrides.tsv` only when the tablet surface exactly matches the declared DULAT token (for example `špš` now yields both the DN and common-noun rows, while inflected forms like `ilm` do not spuriously gain DN rows).
+  - added/updated regressions in:
+    - `tests/test_dulat_enclitic_m.py`
+    - `tests/test_deictic_functor_enclitic_m.py`
+    - `tests/test_onomastic_gloss_overrides_format.py`
+  - re-ran the full `auto_parsing/0.2.6` pipeline after the fix.
+
+- Added DULAT-note-backed enclitic `-m` handling so forms like `/b-k-y/` `bkm` rewrite to `!!bk(y[/~m` and nominal note-backed forms rewrite to `.../~m` instead of absorbing `m` into the host lexeme.
+
+## 2026-03-03
+
+- Restored global I-aleph non-finite verb reconstruction after the non-finite split rollout:
+  - `pipeline/steps/verb_form_encoding_split.py` now preserves and reconstructs `(ʔ&...` for I-aleph infinitives and participles instead of flattening them to bare surface forms.
+  - the fixer now handles three attested failure modes: reduced cores like `ny[ -> (ʔ&any[`, full-surface cores like `ikl[ -> (ʔ&ikl[`, and malformed retained finite tails like `ʔḫr[r -> (ʔ&aḫr[`.
+  - leading reconstructed aleph is no longer promoted away during non-finite canonicalization.
+  - added regressions in `tests/test_verb_form_encoding_split.py` for `any`, `aṯr`, `aklt`, and `maḫr`.
+  - re-ran the affected `auto_parsing/0.2.6` tablets and verified that no `/ʔ-/` non-finite verb rows remain without `(ʔ`.
+
+- Fixed global non-finite verb encoding cleanup for exact-surface ambiguities:
+  - `pipeline/steps/verb_form_encoding_split.py` now canonicalizes infinitive and participle analyses from inherited finite variants instead of mechanically reusing finite preformative layers.
+  - prefixed finite analyses such as `!y!(ydy(I)[` now split to canonical non-finite rows like `!!ydy(I)[/` and `ydy(I)[/`, instead of invalid encodings like `!!!y!(ydy(I)[/` and `!y!(ydy(I)[/`.
+  - the converter now validates candidate non-finite analyses against surface reconstructability and falls back to a surface-preserving host rewrite only when needed.
+  - `linter/lint.py` now warns when infinitive or participle rows retain finite preformative markers.
+  - added regressions in:
+    - `tests/test_verb_form_encoding_split.py`
+    - `tests/test_linter_infinitive_encoding.py`
+  - re-ran the full parsing pipeline to apply the fix across `auto_parsing/0.2.6`.
+
+- Fixed Baal genre pruning to match the DULAT attestation restriction:
+  - `pipeline/steps/baal_labourer_ktu1.py` now removes `bʕl (I) "labourer"` outside `KTU 4.*`, not just in `KTU 1.*`.
+  - the Baal pruner now handles both packed semicolon rows and already-unwrapped row format.
+  - packed-row matching now normalizes instruction-refined spacing around semicolon-separated variants, so the rule still fires after `InstructionRefiner`.
+  - `linter/lint.py` now warns on `bʕl (I) "labourer"` outside `KTU 4.*`.
+  - added regressions in:
+    - `tests/test_refinement_steps.py`
+    - `tests/test_linter_warning_predicates.py`
+  - re-ran the affected `auto_parsing/0.2.6` tablets and verified that no non-`KTU 4.*` labourer rows remain.
+
+- Replaced the migrated static raw source fallback with reproducible Text-Fabric export:
+  - added `reviewed_migration/migrator.py` and `scripts/migrate_reviewed_tablet.py` to remap reviewed tablets onto the latest TF token ids and current auto-parsing POS/gloss conventions where alignment is reliable, with auto-row fallback for TF tokenization mismatches.
+  - refined reviewed-tablet migration preservation rules so simple token concatenations and splits keep the original reviewed rows under the remapped TF ids/surfaces, and x/`<>`-only surface edits keep the original reviewed analysis with a `Token changed from previous version.` comment.
+  - migrated `reviewed/KTU 1.3.tsv` to latest TF ids and current row schema, preserving reviewed comments where possible and marking fallback rows as migrated from legacy tokenization.
+  - `scripts/bootstrap_tablet_labeling.py` now supports default TF-backed source discovery (`--source-dir`, `--source-glob`, and automatic refresh) instead of requiring manually enumerated prebuilt raw TSV inputs.
+  - removed the obsolete copied fallback directory under `agent/local_sources/cuc_tablets_tsv/`.
+  - added `text_fabric/tablet_source_exporter.py` and `scripts/export_text_fabric_tablet_sources.py` to build canonical `cuc_tablets_tsv` files from the latest in-repo `tf/<version>/` dataset.
+  - `project_paths.py` now resolves the default raw source directory to `agent/generated_sources/cuc_tablets_tsv/<latest-tf-version>` instead of `agent/local_sources/cuc_tablets_tsv`.
+  - `scripts/run_tablet_parsing_pipeline.py` and `scripts/notarius_refinement_pass.py` now refresh generated raw sources automatically when they target that generated directory (with `--skip-source-refresh` available for manual control).
+  - added regression coverage in `tests/test_project_paths.py` and `tests/test_text_fabric_tablet_source_exporter.py`.
 
 ## 2026-02-25
 
@@ -878,3 +1667,66 @@
 - Refined `VerbFormEncodingSplitFixer` to encode infinitives as `!!...[/` and participles as `...[/`, and to split mixed finite/infinitive/participle POS bundles into distinct aligned variants before unwrapping.
 - Added linter guardrails for verbal non-finite encoding: `vb ... inf.` now warns unless analysis is `!!...[/`, and participles warn when they incorrectly use the infinitive `!!` marker.
 - Added regression tests in `tests/test_verb_form_encoding_split.py` and `tests/test_linter_infinitive_encoding.py`, and applied a targeted global post-refinement pass (`verb-form-encoding-split` + post-verb unwrap/dedupe) across all `out/KTU *.tsv`.
+- Added `agent/project_paths.py` to centralize migrated path resolution for local databases, reports, raw sources, and generated TSV outputs in the new `cuc-origin` layout.
+- Updated migrated entrypoints (`scripts/run_tablet_parsing_pipeline.py`, `scripts/generate_lint_reports.py`, `scripts/build_dulat_attestation_index.py`, `scripts/token_ref_index.py`, `scripts/bootstrap_tablet_labeling.py`, `scripts/refine_results_mentions.py`, `scripts/extract_notarius_evidence.py`, `scripts/notarius_refinement_pass.py`, `linter/lint.py`, and `pipeline/steps/ktu1_family_homonym_pruner.py`) to use agent-local path defaults instead of the old `sources/`, `out/`, and `reports/` layout.
+- Added regression tests for migrated path resolution (`tests/test_project_paths.py`) and copied required local-only runtime assets into ignored `agent/local_sources/`.
+
+- Replaced the legacy `OfferingListLPrepFixer` pipeline step with a row-level spaCy `spacy-offering-context` component, added an offering strategy comparison harness, and kept exact-output equivalence against the legacy offering-list normalization before activating the new step.
+
+- Consolidated the spaCy support layer onto one token/candidate document model, removed the separate row-builder/row-rewriter path, and moved formula/offering context onto the same `resolved_candidates` flow used by `l` and `k`.
+
+- Added shared spaCy lexical-context components for `bʕl` and `ydk` disambiguation, keeping the historical pre-`l` and post-`k` stage placements while validating exact corpus equivalence against the legacy lexical heuristics.
+- Extended `morph_features/paradigm_matcher.py` with sparse-table fallback form inventories plus weak-initial/weak-final body variants, so under-specified `morphology.py` stems can still generate valid parser analyses for cases like `tkly`, `ttrp`, and weak-initial `ytn`.
+- Extended `spacy_ugaritic/components/morph_context.py` with backward plural/dual agreement across transparent function-word context, so later verbs can prune against an earlier plural nominal subject as well as a following one.
+- Refined `NominalFeatureCompleter` to default unresolved name-class rows (`DN/PN/TN/GN/MN/RN`) to singular when no other number evidence is available, improving rows like `ṣpn/ -> TN/DN sg.` without inventing gender.
+- Refined nominal and adjectival morphology completion to default eligible rows to `abs. nom.` when no stronger state/case evidence is available; participial verbal rows now render the same default state/case payload.
+- Switched the Baal lexical spaCy step to grouped-token mode and added a dedicated `aliyn bˤl` rule that collapses the cluster to the divine-name reading `bˤl(II)/ -> DN m. sg. abs. nom.` in all immediate `aliyn bˤl` contexts.
+- Moved the Baal lexical spaCy stage after nominal/attestation expansion so the grouped-token `aliyn bˤl` collapse survives later morphology completion and remains the final lexical choice before `l`-context.
+- Extended the grouped-token lexical spaCy stage with a `ṯr il` rule that collapses immediate `ṯr il` bigrams to `ṯr (I) -> n. m. sg. abs. nom. bull` and `ỉl (I) -> DN m. sg. abs. nom. El`, removing plural, construct, and common-noun alternatives in that fixed context.
+- Extended `spacy_morph_context` so a preposition governs `gen.` on the following contiguous nominal/adjectival/name/participial phrase, preserving existing state ambiguity while replacing default `nom.` with `gen.` where the context makes case deterministic.
+- Added explicit Asherah formula builds in `spacy_formula_context`: `rbt aṯrt` and `bn aṯrt` now rebuild the DN reading `aṯrt(II)` even when upstream candidates have collapsed to the common-noun `aṯrt(I)` reading.
+- Added regression coverage in `tests/test_spacy_formula_context.py` for rebuilding Asherah from both `rbt aṯrt` and `bn aṯrt` contexts.
+
+- Relaxed lexicalized `l + X` compound-preposition resolution in `spacy_l_context`: `l + kbd`, `l + pˤn`, and `l + ẓr` now build the canonical compound payload even when the upstream candidate set has already lost the canonical second-token reading.
+- Added regression coverage in `tests/test_spacy_l_context.py` and `tests/test_spacy_l_context_step.py` for rebuilding `kbd(I)/` and `ẓr(I)/` compound readings from noncanonical surviving candidates.
+
+- Refined `spacy_morph_context` to model construct chains explicitly: after a preposition, only the first nominal is normally `gen.`, while adjacent construct-chain nominals become `cstr. gen.` until the final `abs. gen.`; without a preposition, construct chains now resolve to first `cstr. nom.`, interior `cstr. gen.`, and final `abs. gen.`.
+- Extended suffix-conjugation candidate generation to include explicit `3fs` (`[t===`) and N-stem suffix analyses with assimilated nun encoded as `(]n]...`, including sparse-form fallback generation for `ypˤt`-type rows.
+- Normalized verbal-candidate surface matching to allographic equivalence (`ʕ`/`ˤ`) so DULAT-root-derived candidates can match non-vocalized corpus orthography without dropping valid analyses.
+- Updated `analysis_utils.reconstruct_surface_from_analysis` to treat `(]n]` as a non-surface reconstructed marker, preventing false surface `n` leakage in N-stem suffix encodings.
+- Refined `VerbalFeatureCompleter` to expand under-specified suffix-conjugation rows (`...[` with no visible suffix marker) via pattern candidates when the generated analyses do not include the current bare analysis.
+- Extended `spacy_morph_context` with a second-singular agreement rule: after `ảt (I)` personal pronoun context, mixed suffix-conjugation bundles are pruned to `2 sg.` verbal candidates.
+- Re-ran `KTU 1.2` parsing and confirmed `136034 ypˤt` resolves to the four second-singular candidates (`G/N 2 m. sg.` and `G/N 2 f. sg.`), with non-`2 sg.` variants removed by context.
+- Added strict linter sanity checks for feminine ending consistency: `'/t'` now errors when paired with plural-only POS, and `'/t='` now errors when paired with singular-only POS.
+- Added strict linter sanity checks for semantic duplicate variants: rows with identical `id + surface + col4-col6` but different col3 analyses now error, preventing duplicate feature bundles from entering `auto_parsing`.
+- Added regression tests for both sanity classes (`tests/test_linter_feature_validation.py`, `tests/test_linter_unwrapped_rows.py`) and verified all linter tests pass (`111` tests).
+- Fixed POS normalization in DULAT compatibility lint: state/case tokens (`abs./cstr./nom./gen./acc.`) and standalone gender markers are now stripped during validation, so enriched parser POS like `n. m. sg. cstr. nom.` correctly matches DULAT base POS `n`.
+- Added regression coverage in `tests/test_linter_pos_normalization.py` for noun and DN rows carrying extended morphology in POS.
+- Refined `NominalFeatureCompleter` so analysis-level feminine singular split (`/t`) forces `sg.` and no longer expands to `pl.` when DULAT lists both `sg./pl.` for the same surface (fixes duplicate-bundle rows like `135691 ġrt` and `135995 aylt`).
+- Refined nominal gender completion precedence to trust explicit DULAT form gender before `/t` heuristics, so masculine lexical-`t` nouns like `ʕšr(t) (I)` retain `n. m.` POS (`152759`, `152764`).
+- Extended `DulatEncliticMFixer` weak-verb normalization for imperative + enclitic `-m`: forms like `ṯny[~m` are canonicalized to `ṯn(y[~m` when the surface lacks visible `y` (`152672`).
+- Relaxed inferable nominal linting for singular `/t`: linter no longer requires auto-injected `f.` solely from `/t` in column 3, avoiding false positives on masculine lexical-`t` entries while keeping `/t=` plural checks strict.
+- Added regression tests in `tests/test_nominal_feature_completion.py`, `tests/test_dulat_enclitic_m.py`, and `tests/test_linter_feature_validation.py` for the above fixes.
+
+- Fixed verbal form-label extraction so `with suff.` in DULAT morphology is no longer misread as suffix-conjugation (`suffc.`); this removes false `prefc./suffc.` ambiguity for rows like `135906 ynaṣn` and preserves true bare `suff.` conjugation labels.
+- Fixed `verb-form-morph-pos` morphology parsing to ignore `with suff.` as a conjugation label while still mapping true `suff.`/`suffc.` verb forms to `suffc.`.
+- Refined linter semantic-duplicate detection: rows with identical `id+surface+col4-col6` are now allowed when col3 differs only by explicit clitic payload (`+...`/`~...`), matching the project rule that clitic distinctions may share identical POS morphology.
+- Added regression tests: `tests/test_dulat_feature_reader_forms.py`, `test_verb_form_morph_pos.py` (`with suff.` case), and `test_linter_unwrapped_rows.py` (clitic-payload duplicate allowance).
+
+- Committed the parser-side implementation for bound-pronoun preposition handling and clitic ampersand normalization, with matching regression tests (`suffix_paradigm_normalizer`, `spacy_morph_context`, and related test suites).
+- Tightened slash-variant nominal reconstruction in `scripts/refine_results_mentions.py`: short non-root slash lemmas now prefer the observed surface shape from length >=2 (not >=4), fixing fallback analyses like `a/r` -> `ar/` and `m/` -> `bqr/`.
+- Extended `SurfaceReconstructabilityFixer` to restore visible case-vowel tails (`a/i/u`) for nominal/pronominal hosts and added a targeted rewrite for `tmtḫṣn` (`/m-ḫ-ṣ/`) to `!t!m]t]ḫṣ[~n` with forced `vb Gt prefc.` POS.
+- Hardened `FeminineTSingularSplitFixer` against cross-variant drift: sg/pl pair expansion now runs only on single-variant rows and no longer injects extra semicolon variants into already-packed rows, preventing downstream column misalignment.
+- Added parser regressions:
+  - `tests/test_refine_results_mentions.py` for short slash-lemma surface preference (`ả/ỉr`, `m/bqr`).
+  - `tests/test_surface_reconstructability_fixer.py` for `ksi` tail restoration and `tmtḫṣn` Gt+`~n` rewrite.
+  - `tests/test_feminine_t_singular_split.py` for explicit-number and multi-variant non-expansion behavior.
+- Updated HTML linter report rendering (`linter/lint.py`) to include a top-of-page statistical summary block (`total/errors/warnings/info`) and a top problem-type table before detailed issues.
+- Re-ran full parser pipeline on all tablets, full unit test suite, and full lint report generation (text + HTML + JSON stats/history/trends) in `agent/reports/`.
+- Added parser-side reconstructability normalization for weak-final-y verb analyses ending with `y[t...`: rows now rewrite to `(y[t...` when needed to reconstruct the attested surface (fixes `klt` class regressions such as `137030`).
+- Added deterministic verbal gating for `tmtḫṣn` (`/m-ḫ-ṣ/`): analysis is forced to `!t!m]t]ḫṣ[~n` and POS to `vb Gt prefc. 3 f. sg.`.
+- Added regressions for both fixes in `tests/test_surface_reconstructability_fixer.py` and `tests/test_verbal_feature_completion.py`.
+- Re-ran targeted parse/lint for `KTU 1.1`, `KTU 1.106`, `KTU 1.14`, `KTU 1.149`, and `KTU 1.3`; verified `137140` now resolves as `vb Gt prefc. 3 f. sg.` and `137030` no longer triggers reconstructability errors.
+- Re-ran full unit tests (`622`), full parse (`278` tablets), full lint, and regenerated HTML/text/stats reports with top-of-page statistical summary.
+- Updated `linter/lint.py` HTML renderer so “Top Problem Types” is now split into three severity-specific sections (`ERROR`, `WARNING`, `INFO`) instead of a single combined table.
+- Added regression test `tests/test_linter_html_report.py` to enforce severity-separated top-problem reporting in HTML output.

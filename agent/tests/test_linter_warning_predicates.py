@@ -5,19 +5,23 @@ import unittest
 from linter.lint import (
     analysis_has_homonym_marked_n_clitic,
     analysis_has_invalid_enclitic_plus,
+    analysis_has_invalid_n_assimilation_order,
     analysis_has_lexeme_t_split_without_reconstructed_t,
     analysis_has_missing_feminine_singular_split,
     analysis_has_missing_lexeme_m_before_plural_split,
     analysis_has_missing_plural_split,
     analysis_has_missing_suffix_plus,
+    analysis_has_n_assimilation_marker_without_n_stem,
     choose_lookup_candidates,
+    has_unprefixed_reconstructed_sequence,
     missing_required_n_assimilation_marker,
     missing_required_verb_stem_markers,
     required_verb_stem_markers_from_pos,
     row_has_ambiguous_l_in_offering_sequence,
-    row_has_baal_labourer_in_ktu1,
+    row_has_baal_labourer_outside_ktu4,
     row_has_baal_verbal_missing_slash,
     row_has_mixed_baal_dn_labourer_reading,
+    split_analysis_for_lexeme_and_clitics,
     variant_has_baad_plus_n,
     variant_has_lexeme_terminal_single_suffix_split,
     variant_has_suffix_payload_linked_dulat,
@@ -132,9 +136,17 @@ class LinterWarningPredicateTest(unittest.TestCase):
 
     def test_missing_required_n_assimilation_marker_detected(self) -> None:
         self.assertTrue(missing_required_n_assimilation_marker("!t!ṯbr[", "vb N"))
-        self.assertFalse(missing_required_n_assimilation_marker("!t!](n]ṯbr[", "vb N"))
+        self.assertFalse(missing_required_n_assimilation_marker("!t!(]n]ṯbr[", "vb N"))
         self.assertFalse(missing_required_n_assimilation_marker("!t!nṯbr[", "vb N"))
         self.assertFalse(missing_required_n_assimilation_marker("!t!ṯbr[", "vb G"))
+
+    def test_invalid_n_marker_order_detected(self) -> None:
+        self.assertTrue(analysis_has_invalid_n_assimilation_order("!t!](n]ṯbr["))
+        self.assertFalse(analysis_has_invalid_n_assimilation_order("!t!(]n]ṯbr["))
+
+    def test_n_marker_outside_n_stem_detected(self) -> None:
+        self.assertTrue(analysis_has_n_assimilation_marker_without_n_stem("!t!(]n]ṯbr[", "vb G"))
+        self.assertFalse(analysis_has_n_assimilation_marker_without_n_stem("!t!(]n]ṯbr[", "vb N"))
 
     def test_verb_root_lookup_keys_include_non_slash_variant(self) -> None:
         keys = verb_root_lookup_keys("dk")
@@ -218,6 +230,12 @@ class LinterWarningPredicateTest(unittest.TestCase):
             )
         )
 
+    def test_reconstruction_marker_applies_to_single_letter_only(self) -> None:
+        self.assertFalse(has_unprefixed_reconstructed_sequence("!y!(nš(ʔ[&u"))
+
+    def test_bracket_wrapped_single_letter_reconstruction_is_valid(self) -> None:
+        self.assertFalse(has_unprefixed_reconstructed_sequence("([n["))
+
     def test_offering_sequence_l_ambiguity_detected(self) -> None:
         self.assertTrue(
             row_has_ambiguous_l_in_offering_sequence(
@@ -244,7 +262,7 @@ class LinterWarningPredicateTest(unittest.TestCase):
 
     def test_baal_labourer_forbidden_in_ktu1(self) -> None:
         self.assertTrue(
-            row_has_baal_labourer_in_ktu1(
+            row_has_baal_labourer_outside_ktu4(
                 file_path="out/KTU 1.105.tsv",
                 surface="bˤl",
                 analysis_field="bˤl(II)/;bˤl(I)/;bˤl[/",
@@ -254,9 +272,21 @@ class LinterWarningPredicateTest(unittest.TestCase):
             )
         )
 
-    def test_baal_labourer_allowed_outside_ktu1(self) -> None:
+    def test_baal_labourer_forbidden_in_ktu2(self) -> None:
+        self.assertTrue(
+            row_has_baal_labourer_outside_ktu4(
+                file_path="out/KTU 2.1.tsv",
+                surface="bˤl",
+                analysis_field="bˤl(II)/;bˤl(I)/;bˤl[/",
+                dulat_field="bʕl (II);bʕl (I);/b-ʕ-l/",
+                pos_field="n. m./DN;n. m.;vb",
+                gloss_field="Baʿlu;labourer;to make",
+            )
+        )
+
+    def test_baal_labourer_allowed_in_ktu4(self) -> None:
         self.assertFalse(
-            row_has_baal_labourer_in_ktu1(
+            row_has_baal_labourer_outside_ktu4(
                 file_path="out/KTU 4.1.tsv",
                 surface="bˤl",
                 analysis_field="bˤl(II)/;bˤl(I)/;bˤl[/",
@@ -281,6 +311,20 @@ class LinterWarningPredicateTest(unittest.TestCase):
                 dulat_field="bʕl (II);/b-ʕ-l/",
             )
         )
+
+    def test_split_analysis_for_lexeme_and_clitics_handles_plus_and_tilde(self) -> None:
+        host, clitics = split_analysis_for_lexeme_and_clitics("ˤm(I)+y")
+        self.assertEqual(host, "ˤm(I)")
+        self.assertEqual(clitics, ["y"])
+
+        host, clitics = split_analysis_for_lexeme_and_clitics("hl~m")
+        self.assertEqual(host, "hl")
+        self.assertEqual(clitics, ["m"])
+
+    def test_split_analysis_for_lexeme_and_clitics_ignores_unmarked_bracket_tail(self) -> None:
+        host, clitics = split_analysis_for_lexeme_and_clitics("!y!ṣḥ[n")
+        self.assertEqual(host, "!y!ṣḥ")
+        self.assertEqual(clitics, [])
 
 
 if __name__ == "__main__":

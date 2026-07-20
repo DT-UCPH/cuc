@@ -13,9 +13,9 @@ class LinterSchemaEnforcementTest(unittest.TestCase):
         "id\tsurface form\tsign span\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
     )
 
-    def _lint_text(self, text: str) -> list:
+    def _lint_text(self, text: str, *, subdir: str = "out") -> list:
         with tempfile.TemporaryDirectory() as tmp_dir:
-            out_dir = Path(tmp_dir) / "out"
+            out_dir = Path(tmp_dir) / subdir
             out_dir.mkdir(parents=True, exist_ok=True)
             file_path = out_dir / "KTU 1.test.tsv"
             file_path.write_text(text, encoding="utf-8")
@@ -63,6 +63,18 @@ class LinterSchemaEnforcementTest(unittest.TestCase):
         self.assertFalse(any("Expected exactly 7 columns" in issue.message for issue in issues))
         self.assertFalse(any("Non-numeric line id" in issue.message for issue in issues))
 
+    def test_header_row_is_skipped_outside_out_directory(self) -> None:
+        issues = self._lint_text(
+            self.HEADER + "1\ta\ta/\ta\tn.\tgloss\t\n",
+            subdir="reviewed",
+        )
+        self.assertFalse(
+            any("Unknown DULAT token in column 4: DULAT" in issue.message for issue in issues)
+        )
+        self.assertFalse(
+            any("Analysis does not reconstruct to surface" in issue.message for issue in issues)
+        )
+
     def test_out_file_requires_header_row(self) -> None:
         issues = self._lint_text("# KTU 1.test 1\n1\ta\ta/\ta\tn.\tgloss\t\n")
         self.assertTrue(
@@ -77,6 +89,20 @@ class LinterSchemaEnforcementTest(unittest.TestCase):
         )
         self.assertFalse(
             any("Disallowed character in columns 2-3: ʿ" in issue.message for issue in issues)
+        )
+
+    def test_linter_flags_suffix_t_variant_that_does_not_match_surface(self) -> None:
+        issues = self._lint_text(
+            self.HEADER
+            + "# KTU 1.test 1\n"
+            + "1\tšlm\tšlm[:dt===\t/š-l-m/\tvb D suffc. 3 f. sg.\tto be well\t\n"
+        )
+        self.assertTrue(
+            any(
+                "Analysis does not reconstruct to surface" in issue.message
+                and "šlmt" in issue.message
+                for issue in issues
+            )
         )
 
 

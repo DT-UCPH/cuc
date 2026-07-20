@@ -1,0 +1,219 @@
+import sqlite3
+import tempfile
+import unittest
+from pathlib import Path
+
+from spacy_ugaritic.doc_builder import build_doc, group_tablet_lines
+from spacy_ugaritic.language import create_ugaritic_nlp
+
+
+class SpacyLContextTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.nlp = create_ugaritic_nlp()
+
+    def _doc_from_lines(self, *lines: str, source_name: str = "KTU 1.3.tsv"):
+        grouped = group_tablet_lines(lines)
+        doc = build_doc(self.nlp, grouped, source_name=source_name)
+        return self.nlp(doc)
+
+    def _build_translation_db(
+        self,
+        *,
+        citation: str,
+        homonym: str,
+        translation: str,
+    ) -> Path:
+        tmp_dir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp_dir.cleanup)
+        db_path = Path(tmp_dir.name) / "dulat.sqlite"
+        conn = sqlite3.connect(db_path)
+        cur = conn.cursor()
+        cur.execute("CREATE TABLE entries (entry_id INTEGER PRIMARY KEY, lemma TEXT, homonym TEXT)")
+        cur.execute(
+            "CREATE TABLE attestations (entry_id INTEGER, translation TEXT, citation TEXT)"
+        )
+        cur.execute("INSERT INTO entries(entry_id, lemma, homonym) VALUES (1, 'l', ?)", (homonym,))
+        cur.execute(
+            "INSERT INTO attestations(entry_id, translation, citation) VALUES (1, ?, ?)",
+            (translation, citation),
+        )
+        conn.commit()
+        conn.close()
+        return db_path
+
+    def test_groups_candidate_rows_into_one_token(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 1.3 IV:5\t\t\t\t\t\t",
+            "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "1\tl\tl(II)\tl (II)\tadv.\tno\t",
+            "2\tbt\tb(t(I)/t\tbt (I)\tn. f. sg.\tdaughter\t",
+        )
+        self.assertEqual(len(doc), 2)
+        self.assertEqual(len(doc[0]._.candidates), 2)
+
+    def test_ignores_empty_surface_rows(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 1.3 V:44\t\t\t\t\t\t",
+            "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "2\t\t?\t?\t?\t?\t",
+            "3\tkbd\tkbd(I)/\tkbd (I)\tn. m. sg.\tliver\t",
+        )
+        self.assertEqual([token.text for token in doc], ["l", "kbd"])
+
+    def test_prefers_l_i_when_next_token_is_not_verbal(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 9.9 1\t\t\t\t\t\t",
+            "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "1\tl\tl(II)\tl (II)\tadv.\tno\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tbt\tb(t(I)/t\tbt (I)\tn. f. sg.\tdaughter\t",
+        )
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
+
+    def test_keeps_l_ii_when_next_token_is_verbal(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 9.9 1\t\t\t\t\t\t",
+            "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "1\tl\tl(II)\tl (II)\tadv.\tno\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tyqm\t!y!qm[\t/q-w-m/\tvb G prefc.\tto rise\t",
+        )
+        self.assertIn("l(II)", [c.analysis for c in doc[0]._.resolved_candidates])
+
+    def test_forces_l_iv_in_known_reference(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 1.24:15\t\t\t\t\t\t",
+            "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tkṯrt\tkṯrt/\tkṯrt\tDN\tKotharat\t",
+        )
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(IV)"])
+
+    def test_forces_l_i_for_kbd_compound(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 9.9 2\t\t\t\t\t\t",
+            "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tkbd\tkbd(I)/\tkbd (I)\tn. m. sg.\tliver\t",
+            "2\tkbd\tkbd(II)/\tkbd (II)\tn. m. sg.\ttotal\t",
+        )
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
+        self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "within")
+
+    def test_builds_kbd_compound_when_canonical_candidate_is_missing(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 9.9 2\t\t\t\t\t\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tkbd\tkbd(II)/\tkbd (II)\tn. m. sg.\ttotal\t",
+            "3\tarṣ\tarṣ/\tảrṣ\tn. f. sg.\tearth\t",
+        )
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
+        self.assertEqual([c.analysis for c in doc[1]._.resolved_candidates], ["kbd(I)/"])
+        self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "within")
+
+    def test_forces_l_i_for_high_confidence_bigram(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 9.9 3\t\t\t\t\t\t",
+            "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tšpš\tšpš/\tšpš\tDN f.\tŠapšu/Shapsh/Shapshu\t",
+        )
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
+
+    def test_builds_body_compound_when_canonical_candidate_is_missing(self) -> None:
+        doc = self._doc_from_lines(
+            "# KTU 9.9 4\t\t\t\t\t\t",
+            "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+            "2\tẓr\tẓr(II)/\tẓr (II)\tn. m. sg.\tadversary\t",
+            "3\tmgdl\tmgdl/\tmgdl\tn. m. sg.\ttower\t",
+        )
+        self.assertEqual([c.analysis for c in doc[0]._.resolved_candidates], ["l(I)"])
+        self.assertEqual([c.analysis for c in doc[1]._.resolved_candidates], ["ẓr(I)/"])
+        self.assertEqual(doc[1]._.resolved_candidates[0].gloss, "upon")
+
+    def test_translation_hint_prefers_l_ii_in_negative_context(self) -> None:
+        db_path = self._build_translation_db(
+            citation="CAT 1.14 I:12",
+            homonym="II",
+            translation="a lawful wife he did not get (keep)",
+        )
+        nlp = create_ugaritic_nlp(
+            "ugaritic_l_context_resolver",
+            component_configs={
+                "ugaritic_l_context_resolver": {
+                    "dulat_db_path": str(db_path),
+                }
+            },
+        )
+        grouped = group_tablet_lines(
+            (
+                "# KTU 1.14 I:12\t\t\t\t\t\t",
+                "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+                "1\tl\tl(II)\tl (II)\tadv.\tno\t",
+                "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+                "2\typq\t!y!pq[\t/p-q-y/\tvb G prefc.\tto get\t",
+            )
+        )
+        doc = build_doc(nlp, grouped, source_name="KTU 1.14.tsv")
+        resolved = nlp(doc)
+        self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["l(II)"])
+        self.assertIn("DULAT quote in l (II)", resolved[0]._.resolved_candidates[0].comment)
+        self.assertIn("cue:", resolved[0]._.resolved_candidates[0].comment)
+
+    def test_translation_hint_prefers_l_iii_in_certainty_context(self) -> None:
+        db_path = self._build_translation_db(
+            citation="CAT 1.4 V:3",
+            homonym="III",
+            translation="you are great, DN, truly you are wise",
+        )
+        nlp = create_ugaritic_nlp(
+            "ugaritic_l_context_resolver",
+            component_configs={
+                "ugaritic_l_context_resolver": {
+                    "dulat_db_path": str(db_path),
+                }
+            },
+        )
+        grouped = group_tablet_lines(
+            (
+                "# KTU 1.4 V:3\t\t\t\t\t\t",
+                "1\tl\tl(I)\tl (I)\tprep.\tto\t",
+                "1\tl\tl(II)\tl (II)\tadv.\tno\t",
+                "1\tl\tl(III)\tl (III)\tfunctor\tcertainly\t",
+                "2\tḥkmt\tḥkm(t/t\tḥkmt\tn. f. sg.\twisdom\t",
+                "2\tḥkmt\t!ḥ!km[t\t/ḥ-k-m/\tvb G prefc.\tto be wise\t",
+            )
+        )
+        doc = build_doc(nlp, grouped, source_name="KTU 1.4.tsv")
+        resolved = nlp(doc)
+        self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["l(III)"])
+
+    def test_skips_translation_hint_when_l_is_already_resolved(self) -> None:
+        db_path = self._build_translation_db(
+            citation="CAT 1.14 I:12",
+            homonym="II",
+            translation="a lawful wife he did not get (keep)",
+        )
+        nlp = create_ugaritic_nlp(
+            "ugaritic_l_context_resolver",
+            component_configs={
+                "ugaritic_l_context_resolver": {
+                    "dulat_db_path": str(db_path),
+                }
+            },
+        )
+        grouped = group_tablet_lines(
+            (
+                "# KTU 1.14 I:12\t\t\t\t\t\t",
+                "1\tl\tl(II)\tl (II)\tadv.\tno\tDULAT direct ref",
+                "2\typq\t!y!pq[\t/p-q-y/\tvb G prefc.\tto get\t",
+            )
+        )
+        doc = build_doc(nlp, grouped, source_name="KTU 1.14.tsv")
+        resolved = nlp(doc)
+        self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["l(II)"])
+        self.assertEqual(resolved[0]._.resolved_candidates[0].comment, "DULAT direct ref")
+
+
+if __name__ == "__main__":
+    unittest.main()

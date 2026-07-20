@@ -14,6 +14,7 @@ from pipeline.steps.base import (
     normalize_separator_row,
     parse_tsv_line,
 )
+from project_paths import get_project_paths
 
 
 @dataclass(frozen=True)
@@ -33,7 +34,10 @@ class GenericParsingOverrideFixer(RefinementStep):
         overrides_path: Path | None = None,
         overrides: Mapping[str, GenericOverride] | None = None,
     ) -> None:
-        self._overrides_path = overrides_path or Path("data/generic_parsing_overrides.tsv")
+        self._overrides_path = overrides_path or (
+            get_project_paths(Path(__file__).resolve()).data_sources_dir
+            / "generic_parsing_overrides.tsv"
+        )
         if overrides is not None:
             self._overrides = {
                 key.strip(): value for key, value in overrides.items() if key.strip()

@@ -2,6 +2,7 @@
 
 import unittest
 
+from linter.lint import normalize_surface, reconstruct_surface_from_analysis
 from pipeline.steps.base import TabletRow
 from pipeline.steps.iii_aleph_case_fixer import IIIAlephCaseFixer
 
@@ -68,11 +69,28 @@ class IIIAlephCaseFixerTest(unittest.TestCase):
         result = fixer.refine_row(row)
         self.assertEqual(result.analysis, "iqn(u&i/m")
 
-    def test_rewrites_plural_m_same_vowel_to_ampersand_only(self) -> None:
+    def test_rewrites_plural_m_same_vowel_keeps_realized_vowel(self) -> None:
+        # The realized vowel must stay visible so the analysis reconstructs:
+        # rp(u&/m decodes to 'rpm', losing the u (regression reported in review).
         fixer = IIIAlephCaseFixer(gate=_StaticGate({("rpủ", "rpum"): {"pl."}}))
         row = TabletRow("9", "rpum", "rpu/m", "rpủ", "n. m.", "healer", "")
         result = fixer.refine_row(row)
-        self.assertEqual(result.analysis, "rp(u&/m")
+        self.assertEqual(result.analysis, "rp(u&u/m")
+        self.assertEqual(
+            normalize_surface(reconstruct_surface_from_analysis(result.analysis)).lower(),
+            "rpum",
+        )
+
+    def test_never_returns_non_reconstructable_rewrite(self) -> None:
+        # Guard: a rewrite that would not decode back to the surface must be
+        # discarded in favour of the original analysis.
+        fixer = IIIAlephCaseFixer(gate=_StaticGate({("rpủ", "rpum"): {"pl."}}))
+        row = TabletRow("9", "rpum", "rpu/m", "rpủ", "n. m.", "healer", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(
+            normalize_surface(reconstruct_surface_from_analysis(result.analysis)).lower(),
+            "rpum",
+        )
 
 
 if __name__ == "__main__":

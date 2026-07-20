@@ -34,7 +34,7 @@ class LintReportGenerator:
     def run(self) -> int:
         files = sorted(self.out_dir.glob("*.tsv"))
         if not files:
-            raise RuntimeError("No TSV files found under out/.")
+            raise RuntimeError(f"No TSV files found under {self.out_dir}.")
         if not self.dulat_db.exists():
             raise RuntimeError("Missing DULAT sqlite: %s" % self.dulat_db)
         if not self.udb_db.exists():
@@ -71,7 +71,9 @@ class LintReportGenerator:
 
         issue_type_counts = self._collapse_issue_types(stats_payload)
         history = self._load_history()
-        history = self._upsert_history(history=history, stats=stats_payload, issue_type_counts=issue_type_counts)
+        history = self._upsert_history(
+            history=history, stats=stats_payload, issue_type_counts=issue_type_counts
+        )
         self._write_json(self.reports_dir / "lint_history.json", history)
 
         self._render_trends(history)
@@ -116,7 +118,9 @@ class LintReportGenerator:
             "issue_types": issue_type_counts,
             "files_checked": stats.get("files_checked"),
         }
-        signature = hashlib.sha1(json.dumps(signature_source, sort_keys=True).encode("utf-8")).hexdigest()
+        signature = hashlib.sha1(
+            json.dumps(signature_source, sort_keys=True).encode("utf-8")
+        ).hexdigest()
 
         entry = {
             "timestamp_utc": datetime.now(timezone.utc).isoformat(),
@@ -135,10 +139,7 @@ class LintReportGenerator:
 
         if history:
             latest = history[-1]
-            if (
-                latest.get("report_signature") == signature
-                and latest.get("git_head") == head_sha
-            ):
+            if latest.get("report_signature") == signature and latest.get("git_head") == head_sha:
                 history[-1] = entry
                 return history[-300:]
 
@@ -167,8 +168,7 @@ class LintReportGenerator:
             for issue_type, count in (run.get("issue_types") or {}).items():
                 totals[issue_type] = totals.get(issue_type, 0) + int(count or 0)
         top_issue_types = [
-            item
-            for item, _ in sorted(totals.items(), key=lambda kv: (-kv[1], kv[0]))[:8]
+            item for item, _ in sorted(totals.items(), key=lambda kv: (-kv[1], kv[0]))[:8]
         ]
         issue_type_series = []
         for issue_type in top_issue_types:
@@ -202,9 +202,11 @@ class LintReportGenerator:
         trend_lines.append("")
         trend_lines.append("### Plot Files")
         trend_lines.append("")
-        trend_lines.append("- `reports/lint_severity_trend.svg`")
-        trend_lines.append("- `reports/lint_issue_types_trend.svg`")
-        (self.reports_dir / "lint_trends.md").write_text("\n".join(trend_lines) + "\n", encoding="utf-8")
+        trend_lines.append("- `lint_severity_trend.svg`")
+        trend_lines.append("- `lint_issue_types_trend.svg`")
+        (self.reports_dir / "lint_trends.md").write_text(
+            "\n".join(trend_lines) + "\n", encoding="utf-8"
+        )
 
     def _git_output(self, args: List[str]) -> str:
         try:

@@ -11,7 +11,10 @@ class LinterVerbPosStemTest(unittest.TestCase):
     WARNING = "Verb POS should include stem label(s):"
     POS_ERROR = "POS token '"
     MISSING_STEM_MARKER = "Verb stem marker(s) required by POS but missing in analysis:"
-    MISSING_N_ASSIMILATION = "Prefixed N-stem forms should encode assimilated nun as '](n]'"
+    XT_STEM_MISMATCH = "Xt stem marker present but DULAT lacks *t stem"
+    MISSING_N_ASSIMILATION = (
+        "Prefixed N-stem forms should encode assimilated nun as '(]n]' (or ']n]' when visible)"
+    )
 
     def _lint_messages(
         self,
@@ -108,6 +111,33 @@ class LinterVerbPosStemTest(unittest.TestCase):
         )
         self.assertFalse(any(message.startswith(self.MISSING_STEM_MARKER) for message in messages))
 
+    def test_errors_when_pos_requires_t_marker_for_td_stem(self) -> None:
+        messages = self._lint_messages(
+            "vb tD",
+            surface="tgr",
+            analysis="tgr[:d",
+            dulat_token="/g-r(-y)/",
+            gloss="to attack",
+            entry_morph="tD, suffc.",
+            entry_stems_value={"tD"},
+        )
+        stem_errors = [m for m in messages if m.startswith(self.MISSING_STEM_MARKER)]
+        self.assertTrue(stem_errors)
+        self.assertTrue(any("]t]" in m for m in stem_errors))
+
+    def test_no_error_when_td_has_required_t_marker(self) -> None:
+        messages = self._lint_messages(
+            "vb tD",
+            surface="tgr",
+            analysis="]t]gr[:d",
+            dulat_token="/g-r(-y)/",
+            gloss="to attack",
+            entry_morph="tD, suffc.",
+            entry_stems_value={"tD"},
+        )
+        self.assertFalse(any(message.startswith(self.MISSING_STEM_MARKER) for message in messages))
+        self.assertFalse(any(message == self.XT_STEM_MISMATCH for message in messages))
+
     def test_errors_when_prefixed_n_stem_lacks_assimilated_n_marker(self) -> None:
         messages = self._lint_messages(
             "vb N",
@@ -126,7 +156,7 @@ class LinterVerbPosStemTest(unittest.TestCase):
         messages = self._lint_messages(
             "vb N",
             surface="tṯbr",
-            analysis="!t!](n]ṯbr[",
+            analysis="!t!(]n]ṯbr[",
             dulat_token="/ṯ-b-r/",
             gloss="to break",
             entry_morph="N, prefc.",
@@ -154,7 +184,7 @@ class LinterVerbPosStemTest(unittest.TestCase):
         messages = self._lint_messages(
             "vb N",
             surface="aṯbr",
-            analysis="!(ʔ&a!](n]ṯbr[",
+            analysis="!(ʔ&a!(]n]ṯbr[",
             dulat_token="/ṯ-b-r/",
             gloss="to break",
             entry_morph="N, prefc.",

@@ -4,8 +4,10 @@ import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
-from scripts.bootstrap_tablet_labeling import load_dulat_forms, process_file
+from project_paths import ProjectPaths
+from scripts.bootstrap_tablet_labeling import discover_input_files, load_dulat_forms, process_file
 
 
 def _init_bootstrap_schema(conn: sqlite3.Connection) -> None:
@@ -259,6 +261,29 @@ class BootstrapTabletLabelingTest(unittest.TestCase):
             self.assertNotIn("hm", forms_map)
             self.assertNotIn("nn", forms_map)
 
+    def test_load_dulat_forms_does_not_index_bracketed_tail_as_standalone_form(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            conn = sqlite3.connect(db_path)
+            _init_bootstrap_schema(conn)
+            cur = conn.cursor()
+            entry_text = (
+                "<b>¶ Forms:</b> G prefc. <i>yqb</i>, suff. <i>yq</i>[<i>bh</i>]. <br><b>G</b>."
+            )
+            cur.execute(
+                "INSERT INTO entries(entry_id, lemma, homonym, pos, text) "
+                "VALUES (1, '/n-q-b/', '', 'vb', ?)",
+                (entry_text,),
+            )
+            cur.execute("INSERT INTO forms(entry_id, text) VALUES (1, 'yqb')")
+            cur.execute("INSERT INTO translations(entry_id, text) VALUES (1, 'to pierce')")
+            conn.commit()
+            conn.close()
+
+            forms_map = load_dulat_forms(db_path)
+            self.assertIn("yqbh", forms_map)
+            self.assertNotIn("bh", forms_map)
+
     def test_load_dulat_forms_does_not_collapse_non_ascii_form_letters(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "dulat.sqlite"
@@ -281,6 +306,61 @@ class BootstrapTabletLabelingTest(unittest.TestCase):
             forms_map = load_dulat_forms(db_path)
             self.assertIn("sswm", forms_map)
             self.assertNotIn("wm", forms_map)
+
+    def test_discover_input_files_uses_source_glob_when_no_inputs(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            agent_root = root / "agent"
+            (agent_root / "pipeline").mkdir(parents=True)
+            (agent_root / "pyproject.toml").write_text("[project]\nname='test'\n", encoding="utf-8")
+            source_dir = agent_root / "generated_sources" / "cuc_tablets_tsv" / "0.2.6"
+            source_dir.mkdir(parents=True)
+            first = source_dir / "KTU 1.1.tsv"
+            second = source_dir / "KTU 1.2.tsv"
+            first.write_text("", encoding="utf-8")
+            second.write_text("", encoding="utf-8")
+            paths = ProjectPaths(anchor=agent_root)
+
+            with patch(
+                "scripts.bootstrap_tablet_labeling.ensure_generated_cuc_tablet_sources",
+                return_value=None,
+            ) as refresh:
+                files = discover_input_files(
+                    paths=paths,
+                    inputs=[],
+                    source_dir=source_dir,
+                    source_glob="KTU 1.*.tsv",
+                    skip_source_refresh=False,
+                )
+
+            refresh.assert_called_once()
+            self.assertEqual(files, [first.resolve(), second.resolve()])
+
+    def test_discover_input_files_resolves_basenames_against_source_dir(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            agent_root = root / "agent"
+            (agent_root / "pipeline").mkdir(parents=True)
+            (agent_root / "pyproject.toml").write_text("[project]\nname='test'\n", encoding="utf-8")
+            source_dir = agent_root / "generated_sources" / "cuc_tablets_tsv" / "0.2.6"
+            source_dir.mkdir(parents=True)
+            target = source_dir / "KTU 1.3.tsv"
+            target.write_text("", encoding="utf-8")
+            paths = ProjectPaths(anchor=agent_root)
+
+            with patch(
+                "scripts.bootstrap_tablet_labeling.ensure_generated_cuc_tablet_sources",
+                return_value=None,
+            ):
+                files = discover_input_files(
+                    paths=paths,
+                    inputs=["KTU 1.3.tsv"],
+                    source_dir=source_dir,
+                    source_glob="KTU *.tsv",
+                    skip_source_refresh=False,
+                )
+
+            self.assertEqual(files, [target.resolve()])
 
 
 if __name__ == "__main__":

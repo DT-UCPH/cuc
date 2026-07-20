@@ -5,6 +5,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from pipeline.dulat_attestation_index import DulatAttestationIndex, normalize_reference_label
+from pipeline.dulat_attestation_translation_index import DulatAttestationTranslationIndex
 from scripts.refine_results_mentions import (
     Entry,
     Variant,
@@ -12,8 +14,10 @@ from scripts.refine_results_mentions import (
     build_variants,
     compact_gloss,
     entry_label,
+    gloss_for_entry,
     is_usable_sense_definition,
     load_entries,
+    normalize_reference_sense_gloss,
     parse_separator_ref,
     refine_file,
     render_variant,
@@ -37,7 +41,17 @@ class RefineResultsMentionsTest(unittest.TestCase):
             "summary TEXT, text TEXT)"
         )
         cur.execute(
-            "CREATE TABLE senses (id INTEGER PRIMARY KEY, entry_id INTEGER, definition TEXT)"
+            "CREATE TABLE stems ("
+            "id INTEGER PRIMARY KEY, entry_id INTEGER, name TEXT, gloss TEXT, cert TEXT)"
+        )
+        cur.execute(
+            "CREATE TABLE senses ("
+            "id INTEGER PRIMARY KEY, entry_id INTEGER, stem_id INTEGER, definition TEXT)"
+        )
+        cur.execute(
+            "CREATE TABLE attestations ("
+            "entry_id INTEGER, stem_name TEXT, sense_definition TEXT, "
+            "translation TEXT, citation TEXT)"
         )
         cur.execute("CREATE TABLE translations (entry_id INTEGER, text TEXT)")
         cur.execute("CREATE TABLE forms (text TEXT, entry_id INTEGER, morphology TEXT)")
@@ -54,6 +68,17 @@ class RefineResultsMentionsTest(unittest.TestCase):
             wiki_tr="",
         )
         self.assertEqual(entry_label(entry), "ỉ/ủšḫry")
+
+    def test_entry_label_preserves_non_root_slash_lemma(self) -> None:
+        entry = Entry(
+            entry_id=915,
+            lemma="ʕllmy/n",
+            hom="",
+            pos="adj. /n.",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(entry_label(entry), "ʕllmy/n")
 
     def test_compact_gloss_keeps_parenthetical_comma(self) -> None:
         self.assertEqual(compact_gloss("(one, a) thousand"), "(one, a) thousand")
@@ -82,6 +107,105 @@ class RefineResultsMentionsTest(unittest.TestCase):
         self.assertEqual(analysis_for_entry("ušḫry", entry), "ušḫry/")
         self.assertEqual(analysis_for_entry("išḫry", entry), "išḫry/")
 
+    def test_analysis_prefers_surface_for_short_nominal_slash_lemma(self) -> None:
+        entry = Entry(
+            entry_id=525,
+            lemma="ả/ỉr",
+            hom="",
+            pos="n.",
+            gloss="light",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("ar", entry), "ar/")
+
+    def test_analysis_prefers_surface_for_slash_variant_long_nominal(self) -> None:
+        entry = Entry(
+            entry_id=2801,
+            lemma="m/bqr",
+            hom="",
+            pos="n.",
+            gloss="spring",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("bqr", entry), "bqr/")
+
+    def test_analysis_for_pronoun_does_not_add_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=431,
+            lemma="ản",
+            hom="I",
+            pos="pers. pn.",
+            gloss="I",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("an", entry), "an(I)")
+
+    def test_analysis_for_adverb_does_not_add_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=432,
+            lemma="ản",
+            hom="II",
+            pos="adv.",
+            gloss="wherever",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("an", entry), "an(II)")
+
+    def test_analysis_uses_surface_for_non_nominal_form_variant(self) -> None:
+        entry = Entry(
+            entry_id=1334,
+            lemma="d",
+            hom="",
+            pos="det. / rel. functor",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("dt", entry), "d&t")
+
+    def test_analysis_encodes_nominal_y_to_surface_n_variant(self) -> None:
+        entry = Entry(
+            entry_id=915,
+            lemma="ʕllmy/n",
+            hom="",
+            pos="adj. /n.",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("ˤllmn", entry), "ˤllm(y/n")
+
+    def test_analysis_for_mn_keeps_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=434,
+            lemma="ḫyr",
+            hom="",
+            pos="MN",
+            gloss="aller de ci de là",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("ḫyr", entry), "ḫyr/")
+
+    def test_analysis_for_rn_keeps_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=435,
+            lemma="nql",
+            hom="",
+            pos="RN",
+            gloss="river-name",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("nql", entry), "nql/")
+
+    def test_analysis_for_dn_keeps_nominal_slash(self) -> None:
+        entry = Entry(
+            entry_id=433,
+            lemma="špš",
+            hom="",
+            pos="DN f.",
+            gloss="Šapšu/Shapsh/Shapshu",
+            wiki_tr="",
+        )
+        self.assertEqual(analysis_for_entry("špš", entry), "špš/")
+
     def test_analysis_keeps_trailing_prefixed_verb_tail(self) -> None:
         entry = Entry(
             entry_id=2520,
@@ -92,6 +216,62 @@ class RefineResultsMentionsTest(unittest.TestCase):
             wiki_tr="",
         )
         self.assertEqual(analysis_for_entry("tlsmn", entry), "!t!lsm[n")
+
+    def test_analysis_rewrites_prefixed_weak_final_tbnn(self) -> None:
+        entry = Entry(
+            entry_id=1245,
+            lemma="/b-n-y/",
+            hom="",
+            pos="vb",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(
+            analysis_for_entry("tbnn", entry, morph_values=["G, prefc."]),
+            "!t!bn(y[n",
+        )
+
+    def test_analysis_rewrites_prefixed_weak_initial_h_ylkn(self) -> None:
+        entry = Entry(
+            entry_id=1747,
+            lemma="/h-l-k/",
+            hom="",
+            pos="vb",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(
+            analysis_for_entry("ylkn", entry, morph_values=["G, prefc."]),
+            "!y!(hlk[n",
+        )
+
+    def test_analysis_rewrites_prefixed_i_aleph(self) -> None:
+        entry = Entry(
+            entry_id=642,
+            lemma="/ʔ-s-p/",
+            hom="",
+            pos="vb",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(
+            analysis_for_entry("tusp", entry, morph_values=["Gpass., prefc."]),
+            "!t!(ʔ&usp[",
+        )
+
+    def test_analysis_rewrites_prefixed_ii_aleph(self) -> None:
+        entry = Entry(
+            entry_id=3012,
+            lemma="/n-ʔ-ṣ/",
+            hom="",
+            pos="vb",
+            gloss="",
+            wiki_tr="",
+        )
+        self.assertEqual(
+            analysis_for_entry("ynaṣn", entry, morph_values=["G, prefc., with suff."]),
+            "!y!n(ʔ&aṣ[n",
+        )
 
     def test_analysis_keeps_preformative_for_contracted_prefixed_verb(self) -> None:
         entry = Entry(
@@ -105,6 +285,207 @@ class RefineResultsMentionsTest(unittest.TestCase):
         self.assertEqual(
             analysis_for_entry("twtḥ", entry, morph_values=["Gt, prefc."]),
             "!t!w]t]ḥ(y[",
+        )
+
+    def test_render_variant_keeps_non_nominal_suffix_host_without_slash(self) -> None:
+        base = Entry(
+            entry_id=431,
+            lemma="ản",
+            hom="I",
+            pos="pers. pn.",
+            gloss="I",
+            wiki_tr="",
+        )
+        suffix = Entry(
+            entry_id=9000,
+            lemma="-h",
+            hom="",
+            pos="pers. pn.",
+            gloss="his / her",
+            wiki_tr="",
+        )
+        variant = Variant(entries=(base, suffix), base_surface="an")
+        self.assertEqual(
+            render_variant("anh", variant, forms_morph={}),
+            ("an(I)+h", "ản (I),-h", "pers. pn.,pers. pn.", "I,his / her"),
+        )
+
+    def test_gloss_for_entry_prefers_stem_specific_gloss_for_verbs(self) -> None:
+        entry = Entry(
+            entry_id=4039,
+            lemma="/š-l-m/",
+            hom="",
+            pos="vb",
+            gloss="to be well, do well, be in peace",
+            wiki_tr="",
+            stem_glosses={
+                "G": "to be well, do well, be in peace",
+                "D": "to re-establish > to pay",
+            },
+        )
+        self.assertEqual(
+            gloss_for_entry(
+                entry,
+                analysis="!y!šlm[",
+                multi_slot=False,
+            ),
+            "to be well",
+        )
+        self.assertEqual(
+            gloss_for_entry(
+                entry,
+                analysis="!y!šlm[:d",
+                multi_slot=False,
+            ),
+            "to re-establish > to pay",
+        )
+
+    def test_gloss_for_entry_prefers_reference_specific_sense_definition(self) -> None:
+        entry = Entry(
+            entry_id=4039,
+            lemma="/š-l-m/",
+            hom="",
+            pos="vb",
+            gloss="to be well, do well, be in peace",
+            wiki_tr="",
+            stem_glosses={
+                "G": "to be well, do well, be in peace",
+                "D": "to re-establish > to pay",
+            },
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref_stem={
+                (4039, normalize_reference_label("CAT 2.11:9"), "D"): (
+                    "to restore / preserve health",
+                ),
+            }
+        )
+        self.assertEqual(
+            gloss_for_entry(
+                entry,
+                analysis="!t!šlm[:d+k",
+                section_ref="CAT 2.11:9",
+                translation_index=translation_index,
+            ),
+            "to restore / preserve health",
+        )
+
+    def test_gloss_for_entry_prefers_reference_specific_sense_for_noun(self) -> None:
+        entry = Entry(
+            entry_id=2941,
+            lemma="mt",
+            hom="III",
+            pos="n.",
+            gloss="man",
+            wiki_tr="",
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref={
+                (2941, normalize_reference_label("CAT 1.22 I:6")): ("Hero",),
+            }
+        )
+        self.assertEqual(
+            gloss_for_entry(
+                entry,
+                section_ref="CAT 1.22 I:6",
+                translation_index=translation_index,
+            ),
+            "hero",
+        )
+
+    def test_render_variant_uses_reference_specific_sense_for_noun(self) -> None:
+        entry = Entry(
+            entry_id=2941,
+            lemma="mt",
+            hom="III",
+            pos="n.",
+            gloss="man",
+            wiki_tr="",
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref={
+                (2941, normalize_reference_label("CAT 1.22 I:6")): ("Hero",),
+            }
+        )
+        variant = Variant(entries=(entry,), base_surface="mtm")
+        self.assertEqual(
+            render_variant(
+                "mtm",
+                variant,
+                forms_morph={},
+                section_ref="CAT 1.22 I:6",
+                translation_index=translation_index,
+            )[3],
+            "hero",
+        )
+
+    def test_render_variant_preserves_hierarchical_reference_sense_for_noun(self) -> None:
+        entry = Entry(
+            entry_id=264,
+            lemma="ỉl",
+            hom="I",
+            pos="n.",
+            gloss="god",
+            wiki_tr="",
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref={
+                (264, normalize_reference_label("CAT 1.17 I:2")): (
+                    "1) God c) object or purpose of an action",
+                ),
+            }
+        )
+        variant = Variant(entries=(entry,), base_surface="ỉlm")
+        self.assertEqual(
+            render_variant(
+                "ỉlm",
+                variant,
+                forms_morph={},
+                section_ref="CAT 1.17 I:2",
+                translation_index=translation_index,
+            )[3],
+            "1) god c) object or purpose of an action",
+        )
+
+    def test_normalize_reference_sense_gloss_decapitalizes_common_labels(self) -> None:
+        self.assertEqual(normalize_reference_sense_gloss("Hero"), "hero")
+        self.assertEqual(normalize_reference_sense_gloss("Man, husband"), "man")
+        self.assertEqual(normalize_reference_sense_gloss("DN"), "DN")
+        self.assertEqual(
+            normalize_reference_sense_gloss("1) God c) object or purpose of an action"),
+            "1) god c) object or purpose of an action",
+        )
+
+    def test_render_variant_uses_reference_specific_sense_definition(self) -> None:
+        entry = Entry(
+            entry_id=4039,
+            lemma="/š-l-m/",
+            hom="",
+            pos="vb",
+            gloss="to be well, do well, be in peace",
+            wiki_tr="",
+            stem_glosses={
+                "G": "to be well, do well, be in peace",
+                "D": "to re-establish > to pay",
+            },
+        )
+        translation_index = DulatAttestationTranslationIndex(
+            sense_definitions_by_entry_ref_stem={
+                (4039, normalize_reference_label("CAT 1.103:54"), "D"): (
+                    "to restore / preserve health",
+                ),
+            }
+        )
+        variant = Variant(entries=(entry,), base_surface="yšlm")
+        self.assertEqual(
+            render_variant(
+                "yšlm",
+                variant,
+                forms_morph={("yšlm", 4039): {"D, prefc."}},
+                section_ref="CAT 1.103:54",
+                translation_index=translation_index,
+            )[3],
+            "to restore / preserve health",
         )
 
     def test_analysis_normalizes_aleph_prefix_preformative_marker(self) -> None:
@@ -300,6 +681,52 @@ class RefineResultsMentionsTest(unittest.TestCase):
             self.assertTrue(variants)
             self.assertEqual(variants[0].entries[0].entry_id, 170)
 
+    def test_load_entries_reads_stem_specific_glosses(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._init_dulat_schema(db_path)
+            conn = sqlite3.connect(str(db_path))
+            cur = conn.cursor()
+            cur.execute(
+                _INSERT_ENTRY_SQL,
+                (
+                    4039,
+                    "/š-l-m/",
+                    "",
+                    "vb",
+                    "",
+                    "to be well, do well, be in peace",
+                    "",
+                ),
+            )
+            cur.execute(
+                "INSERT INTO stems(id, entry_id, name, gloss, cert) VALUES (?, ?, ?, ?, ?)",
+                (706, 4039, "G", "to be well, do well, be in peace", ""),
+            )
+            cur.execute(
+                "INSERT INTO stems(id, entry_id, name, gloss, cert) VALUES (?, ?, ?, ?, ?)",
+                (707, 4039, "D", "to re-establish > to pay; to restore / preserve health", ""),
+            )
+            cur.execute(
+                "INSERT INTO senses(id, entry_id, stem_id, definition) VALUES (?, ?, ?, ?)",
+                (791, 4039, 706, "to be well, do well, be in peace"),
+            )
+            cur.execute(
+                "INSERT INTO senses(id, entry_id, stem_id, definition) VALUES (?, ?, ?, ?)",
+                (792, 4039, 707, "to re-establish > to pay"),
+            )
+            conn.commit()
+            conn.close()
+
+            entries_by_id, _forms_map, _lemma_map, _suffix_map, _forms_morph = load_entries(db_path)
+            self.assertEqual(
+                entries_by_id[4039].stem_glosses,
+                {
+                    "G": "to be well",
+                    "D": "to re-establish > to pay",
+                },
+            )
+
     def test_load_entries_prefers_translation_when_first_sense_is_attestation_example(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "dulat.sqlite"
@@ -336,6 +763,40 @@ class RefineResultsMentionsTest(unittest.TestCase):
             entries_by_id, forms_map, _lemma_map, _suffix_map, _forms_morph = load_entries(db_path)
             self.assertIn("yʕšr", forms_map)
             self.assertEqual(entries_by_id[1057].gloss, "to invite")
+
+    def test_load_entries_prefers_translation_over_nonverbal_sense_label(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._init_dulat_schema(db_path)
+            conn = sqlite3.connect(str(db_path))
+            cur = conn.cursor()
+            cur.executemany(
+                _INSERT_ENTRY_SQL,
+                [
+                    (1211, "bn", "I", "n. m.", "", "son", ""),
+                    (4692, "-y", "I", "prep.", "", "my", ""),
+                ],
+            )
+            cur.executemany(
+                "INSERT INTO senses(id, entry_id, definition) VALUES (?, ?, ?)",
+                [
+                    (1, 1211, "Son"),
+                    (2, 4692, "As a genitive, “my”"),
+                ],
+            )
+            cur.executemany(
+                "INSERT INTO translations(entry_id, text) VALUES (?, ?)",
+                [
+                    (1211, "son"),
+                    (4692, "my"),
+                ],
+            )
+            conn.commit()
+            conn.close()
+
+            entries_by_id, _forms_map, _lemma_map, _suffix_map, _forms_morph = load_entries(db_path)
+            self.assertEqual(entries_by_id[1211].gloss, "son")
+            self.assertEqual(entries_by_id[4692].gloss, "my")
 
     def test_fallback_direct_hit_does_not_suppress_suffix_split_variants(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
@@ -387,9 +848,269 @@ class RefineResultsMentionsTest(unittest.TestCase):
             )
 
             rendered = [render_variant("yry", variant, forms_morph) for variant in variants]
-            self.assertIn(("yry/", "yry", "PN", "yry"), rendered)
+            self.assertNotIn(("yry/", "yry", "PN", "yry"), rendered)
             self.assertTrue(any("+y(I)" in row[0] for row in rendered))
             self.assertTrue(any(row[0].startswith("yr/+y") for row in rendered))
+
+    def test_exact_direct_lexical_candidate_blocks_suffix_split_variants(self) -> None:
+        direct = Entry(
+            entry_id=20,
+            lemma="nny",
+            hom="",
+            pos="TN",
+            gloss="nny",
+            wiki_tr="",
+        )
+        base_one = Entry(
+            entry_id=21,
+            lemma="/g-r-š/",
+            hom="",
+            pos="vb",
+            gloss="to eject",
+            wiki_tr="",
+        )
+        base_two = Entry(
+            entry_id=22,
+            lemma="/g-r(-y)/",
+            hom="",
+            pos="vb",
+            gloss="to attack",
+            wiki_tr="",
+        )
+        suffix = Entry(
+            entry_id=23,
+            lemma="-y",
+            hom="I",
+            pos="prep.",
+            gloss="my",
+            wiki_tr="",
+        )
+        variants = build_variants(
+            surface="nny",
+            current_ref="CAT 1.16 I:1",
+            forms_map={"nny": [direct], "nn": [base_one, base_two]},
+            lemma_map={"nny": [direct]},
+            suffix_map={"y": [suffix]},
+            forms_morph={},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            max_variants=5,
+        )
+
+        rendered = [render_variant("nny", variant, forms_morph={}) for variant in variants]
+        self.assertEqual(rendered[0], ("nny/", "nny", "TN", "nny"))
+        self.assertFalse(any("+y(I)" in row[0] for row in rendered))
+
+    def test_prunes_pn_variant_without_direct_dulat_attestation_when_non_pn_exists(self) -> None:
+        dn_entry = Entry(
+            entry_id=50,
+            lemma="ltn",
+            hom="I",
+            pos="DN",
+            gloss="Lotan",
+            wiki_tr="",
+        )
+        pn_entry = Entry(
+            entry_id=51,
+            lemma="ltn",
+            hom="II",
+            pos="PN",
+            gloss="ltn (II)",
+            wiki_tr="",
+        )
+
+        variants = build_variants(
+            surface="ltn",
+            current_ref="CAT 1.5 I:1",
+            forms_map={"ltn": [dn_entry, pn_entry]},
+            lemma_map={"ltn": [dn_entry, pn_entry]},
+            suffix_map={},
+            forms_morph={("ltn", 50): {"abs."}, ("ltn", 51): {"cstr."}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            direct_reference_index=DulatAttestationIndex.empty(),
+            max_variants=5,
+        )
+
+        rendered = [render_variant("ltn", variant, forms_morph={}) for variant in variants]
+        self.assertEqual(rendered, [("ltn(I)/", "ltn (I)", "DN", "Lotan")])
+
+    def test_keeps_pn_variant_with_direct_dulat_attestation_when_non_pn_exists(self) -> None:
+        dn_entry = Entry(
+            entry_id=60,
+            lemma="ltn",
+            hom="I",
+            pos="DN",
+            gloss="Lotan",
+            wiki_tr="",
+        )
+        pn_entry = Entry(
+            entry_id=61,
+            lemma="ltn",
+            hom="II",
+            pos="PN",
+            gloss="ltn (II)",
+            wiki_tr="",
+        )
+        attestation_index = DulatAttestationIndex(
+            counts_by_key={},
+            max_count_by_lemma={},
+            refs_by_key={
+                ("ltn", "II"): {normalize_reference_label("CAT 1.5 I:1")},
+            },
+        )
+
+        variants = build_variants(
+            surface="ltn",
+            current_ref="CAT 1.5 I:1",
+            forms_map={"ltn": [dn_entry, pn_entry]},
+            lemma_map={"ltn": [dn_entry, pn_entry]},
+            suffix_map={},
+            forms_morph={("ltn", 60): {"abs."}, ("ltn", 61): {"cstr."}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            direct_reference_index=attestation_index,
+            max_variants=5,
+        )
+
+        rendered = [render_variant("ltn", variant, forms_morph={}) for variant in variants]
+        self.assertIn(("ltn(I)/", "ltn (I)", "DN", "Lotan"), rendered)
+        self.assertIn(("ltn(II)/", "ltn (II)", "PN", "ltn (II)"), rendered)
+
+    def test_does_not_treat_personal_pronoun_as_prunable_pn_variant(self) -> None:
+        pronoun_entry = Entry(
+            entry_id=70,
+            lemma="hm",
+            hom="I",
+            pos="pers. pn.",
+            gloss="they",
+            wiki_tr="",
+        )
+        conjunction_entry = Entry(
+            entry_id=71,
+            lemma="hm",
+            hom="II",
+            pos="conj./interr. functor",
+            gloss="if",
+            wiki_tr="",
+        )
+
+        variants = build_variants(
+            surface="hm",
+            current_ref="CAT 1.5 I:16",
+            forms_map={"hm": [pronoun_entry, conjunction_entry]},
+            lemma_map={"hm": [pronoun_entry, conjunction_entry]},
+            suffix_map={},
+            forms_morph={("hm", 70): {"sg."}, ("hm", 71): {"functor"}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            direct_reference_index=DulatAttestationIndex.empty(),
+            max_variants=5,
+        )
+
+        rendered = [render_variant("hm", variant, forms_morph={}) for variant in variants]
+        self.assertIn(("hm(I)", "hm (I)", "pers. pn.", "they"), rendered)
+        self.assertIn(("hm(II)", "hm (II)", "conj./interr. functor", "if"), rendered)
+
+    def test_direct_exact_lexical_candidate_is_not_split_into_itself(self) -> None:
+        direct = Entry(
+            entry_id=30,
+            lemma="hnny",
+            hom="",
+            pos="adv.",
+            gloss="here",
+            wiki_tr="",
+        )
+        suffix = Entry(
+            entry_id=31,
+            lemma="-ny",
+            hom="",
+            pos="deictic functor/adv.",
+            gloss="behold!",
+            wiki_tr="",
+        )
+        variants = build_variants(
+            surface="hnny",
+            current_ref="CAT 2.38:1",
+            forms_map={"hnny": [direct], "hn": [direct]},
+            lemma_map={"hnny": [direct]},
+            suffix_map={"ny": [suffix]},
+            forms_morph={("hn", 30): {"adv."}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            max_variants=5,
+        )
+
+        rendered = [render_variant("hnny", variant, forms_morph={}) for variant in variants]
+        self.assertEqual(rendered, [("hnny", "hnny", "adv.", "here")])
+
+    def test_direct_exact_lexical_candidate_blocks_function_word_splits(self) -> None:
+        direct = Entry(
+            entry_id=40,
+            lemma="hnny",
+            hom="",
+            pos="adv.",
+            gloss="here",
+            wiki_tr="",
+        )
+        base_hn = Entry(
+            entry_id=41,
+            lemma="hn",
+            hom="",
+            pos="deictic functor/adv.",
+            gloss="behold!",
+            wiki_tr="",
+        )
+        base_hnn = Entry(
+            entry_id=42,
+            lemma="hnn",
+            hom="",
+            pos="adv. functor",
+            gloss="here",
+            wiki_tr="",
+        )
+        suffix_ny = Entry(
+            entry_id=43,
+            lemma="-ny",
+            hom="",
+            pos="deictic functor/adv.",
+            gloss="behold!",
+            wiki_tr="",
+        )
+        suffix_y = Entry(
+            entry_id=44,
+            lemma="-y",
+            hom="I",
+            pos="postp.",
+            gloss="my",
+            wiki_tr="",
+        )
+        variants = build_variants(
+            surface="hnny",
+            current_ref="CAT 2.38:1",
+            forms_map={"hnny": [direct], "hn": [base_hn], "hnn": [base_hnn]},
+            lemma_map={"hnny": [direct]},
+            suffix_map={"ny": [suffix_ny], "y": [suffix_y]},
+            forms_morph={("hn", 41): {"deictic functor/adv."}, ("hnn", 42): {"adv. functor"}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+            max_variants=5,
+        )
+
+        rendered = [render_variant("hnny", variant, forms_morph={}) for variant in variants]
+        self.assertEqual(rendered, [("hnny", "hnny", "adv.", "here")])
 
     def test_parse_separator_ref_supports_no_column_format(self) -> None:
         self.assertEqual(
@@ -440,7 +1161,7 @@ class RefineResultsMentionsTest(unittest.TestCase):
             self.assertEqual(rows, 1)
             self.assertEqual(changed, 1)
             lines = out_path.read_text(encoding="utf-8").splitlines()
-            self.assertIn("\tṭly/\tṭly\tDN\tTallay\t", lines[1])
+            self.assertIn("\tṭly\tṭly/\tṭly\tDN\tTallay\t", lines[1])
 
     def test_load_entries_applies_form_text_alias_override(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

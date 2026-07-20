@@ -111,6 +111,62 @@ class SurfaceReconstructabilityFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "!y!]š]lḥm(I)[")
 
+    def test_restores_single_missing_tail_letter_for_nominal_variant(self) -> None:
+        row = TabletRow("14", "ˤnn", "ˤn(I)/", "ʕn (I)", "n. f. du.", "eye", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ˤn(I)&n/")
+
+    def test_restores_single_missing_tail_letter_for_pronoun_variant(self) -> None:
+        row = TabletRow("15", "atm", "at(I)", "ảt (I)", "pers. pn.", "you", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "at(I)&m")
+
+    def test_restores_nominal_t_suffix_from_surface(self) -> None:
+        row = TabletRow("16", "arbˤt", "arbˤ/", "ảrbʕ", "num.", "four", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "arbˤ/t")
+
+    def test_restores_assimilated_n_to_t_nominal_suffix(self) -> None:
+        row = TabletRow("17", "ṯt", "ṯn(I)/", "ṯn (I)", "num. f.", "two", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ṯ(n(I)/t")
+
+    def test_restores_plain_nominal_m_suffix(self) -> None:
+        row = TabletRow("18", "ṯnm", "ṯn(I)", "ṯn (I)", "num.", "two", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ṯn(I)/m")
+
+    def test_restores_surface_host_before_m_suffix(self) -> None:
+        row = TabletRow("19", "bhtm", "bt(II)/", "bt (II)", "n. m. pl.", "house", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "bht(II)/m")
+
+    def test_restores_hidden_weak_y_before_enclitic_m(self) -> None:
+        row = TabletRow("20", "ṯnm", "ṯny[~m", "/ṯ-n-y/", "vb G impv. 2", "to repeat", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ṯn(y[~m")
+
+    def test_restores_missing_y_before_plus_m(self) -> None:
+        row = TabletRow("21", "bym", "b+m(I)", "b", "prep.", "in", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "b&y+m(I)")
+
+    def test_restores_case_vowel_tail_for_ksi(self) -> None:
+        row = TabletRow("22", "ksi", "ks/", "ks/śủ", "n. f.", "seat", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ks&i/")
+
+    def test_rewrites_tmthetn_to_gt_prefixed_with_energic_n(self) -> None:
+        row = TabletRow("23", "tmtḫṣn", "mḫṣ[ḫṣn", "/m-ḫ-ṣ/", "vb G prefc.", "to wound", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!t!m]t]ḫṣ[~n")
+        self.assertEqual(result.pos, "vb Gt prefc. 3 f. sg.")
+
+    def test_restores_hidden_weak_y_before_suffix_t(self) -> None:
+        row = TabletRow("24", "klt", "kly[t", "/k-l-y/", "vb G suffc. 1 c. sg.", "to finish", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "kl(y[t")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -25,6 +25,8 @@ class FormulaBigramRule:
     second_surface: str
     first_target: TokenParse | None = None
     second_target: TokenParse | None = None
+    allow_first_build: bool = False
+    allow_second_build: bool = False
     min_count: int = 1
     note: str = ""
 
@@ -33,6 +35,12 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
     FormulaBigramRule(
         first_surface="aliyn",
         second_surface="bˤl",
+        first_target=TokenParse(
+            analysis="aliyn/",
+            dulat="ảlỉyn",
+            pos="adj. m.",
+            gloss="The Very / Most Powerful",
+        ),
         second_target=TokenParse(
             analysis="bˤl(II)/",
             dulat="bʕl (II)",
@@ -45,6 +53,12 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
     FormulaBigramRule(
         first_surface="zbl",
         second_surface="bˤl",
+        first_target=TokenParse(
+            analysis="zbl(I)/",
+            dulat="zbl (I)",
+            pos="n. m.",
+            gloss="prince",
+        ),
         second_target=TokenParse(
             analysis="bˤl(II)/",
             dulat="bʕl (II)",
@@ -79,6 +93,18 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
         note="Epithets formula: Virgin ʿAnatu.",
     ),
     FormulaBigramRule(
+        first_surface="rkb",
+        second_surface="ˤrpt",
+        first_target=TokenParse(
+            analysis="rkb(I)/",
+            dulat="rkb (I)",
+            pos="n. m.",
+            gloss="Charioteer",
+        ),
+        min_count=8,
+        note="Epithets formula: Charioteer of the clouds.",
+    ),
+    FormulaBigramRule(
         first_surface="bn",
         second_surface="il",
         first_target=TokenParse(
@@ -101,6 +127,19 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
         ),
         min_count=21,
         note="Formula sequence: bn ilm.",
+    ),
+    FormulaBigramRule(
+        first_surface="bn",
+        second_surface="aṯrt",
+        second_target=TokenParse(
+            analysis="aṯrt(II)/",
+            dulat="ảṯrt (II)",
+            pos="DN",
+            gloss="Asherah",
+        ),
+        allow_second_build=True,
+        min_count=8,
+        note="Formula sequence: bn aṯrt.",
     ),
     FormulaBigramRule(
         first_surface="bt",
@@ -141,7 +180,27 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
             pos="DN",
             gloss="Asherah",
         ),
+        allow_second_build=True,
         min_count=20,
         note="Epithets formula: Lady Asherah.",
+    ),
+    FormulaBigramRule(
+        first_surface="aṯrt",
+        second_surface="ym",
+        first_target=TokenParse(
+            analysis="aṯrt(II)/",
+            dulat="ảṯrt (II)",
+            pos="DN",
+            gloss="Asherah",
+        ),
+        second_target=TokenParse(
+            analysis="ym(II)/",
+            dulat="ym (II)",
+            pos="n. m.",
+            gloss="sea",
+        ),
+        allow_first_build=True,
+        min_count=20,
+        note="Epithet formula: Asherah of the Sea.",
     ),
 )

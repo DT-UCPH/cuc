@@ -73,6 +73,8 @@ class SuffixParadigmNormalizer(RefinementStep):
         text = (variant or "").strip()
         if not text or text == "?":
             return text
+        # Surface-only `&` must not precede clitic markers.
+        text = text.replace("&+", "+").replace("&~", "~")
 
         def repl(match: re.Match[str]) -> str:
             marker = match.group("marker")

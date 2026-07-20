@@ -3,8 +3,15 @@
 
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Dict, List
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from project_paths import get_project_paths  # noqa: E402
 
 REQUIRED_REPORTS = [
     "lint_stats.json",
@@ -28,8 +35,7 @@ def _top_problem_types(stats_payload: Dict[str, object], limit: int = 8) -> List
 
 
 def main() -> int:
-    repo_root = Path(__file__).resolve().parent.parent
-    reports_dir = repo_root / "reports"
+    reports_dir = get_project_paths(REPO_ROOT).default_reports_dir()
 
     missing = [name for name in REQUIRED_REPORTS if not (reports_dir / name).exists()]
     if missing:
@@ -53,7 +59,9 @@ def main() -> int:
     summary_lines.append("")
     summary_lines.append("- Files checked: `%s`" % int(stats_payload.get("files_checked", 0) or 0))
     summary_lines.append("- Total issues: `%d`" % total)
-    summary_lines.append("- Report timestamp (UTC): `%s`" % (stats_payload.get("generated_at_utc") or ""))
+    summary_lines.append(
+        "- Report timestamp (UTC): `%s`" % (stats_payload.get("generated_at_utc") or "")
+    )
     summary_lines.append("- History points: `%d`" % len(history))
     summary_lines.append("- Latest history git head: `%s`" % (latest.get("git_head") or ""))
     summary_lines.append("")
@@ -89,12 +97,12 @@ def main() -> int:
     for row in _top_problem_types(stats_payload):
         problem = str(row.get("problem_type", "")).replace("|", "\\|")
         summary_lines.append(
-            "| %s | %s | %d |"
-            % (row.get("severity", ""), problem, int(row.get("count", 0) or 0))
+            "| %s | %s | %d |" % (row.get("severity", ""), problem, int(row.get("count", 0) or 0))
         )
     summary_lines.append("")
     summary_lines.append(
-        "Plots are committed under `reports/lint_severity_trend.svg` and `reports/lint_issue_types_trend.svg`."
+        "Plots are committed under `lint_severity_trend.svg` and "
+        "`lint_issue_types_trend.svg` in the reports directory."
     )
 
     summary = "\n".join(summary_lines) + "\n"
