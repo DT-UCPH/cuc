@@ -32,11 +32,21 @@ class _FakeF:
 
 
 class _FakeT:
-    def __init__(self, sections: dict[int, tuple[str, str, int]]) -> None:
+    def __init__(
+        self,
+        sections: dict[int, tuple[str, str, int]],
+        sign_spans: dict[int, str],
+    ) -> None:
         self._sections = sections
+        self._sign_spans = sign_spans
 
     def sectionFromNode(self, node: int) -> tuple[str, str, int]:
         return self._sections[node]
+
+    def text(self, node: int, *, fmt: str) -> str:
+        if fmt != "text-orig-full":
+            raise AssertionError(f"Unexpected format: {fmt}")
+        return self._sign_spans[node]
 
 
 class _FakeApi:
@@ -44,7 +54,7 @@ class _FakeApi:
         self, words: list[int], g_cons: dict[int, str], sections: dict[int, tuple[str, str, int]]
     ) -> None:
         self.F = _FakeF(words, g_cons)
-        self.T = _FakeT(sections)
+        self.T = _FakeT(sections, g_cons)
 
 
 class TextFabricTabletSourceExporterTest(unittest.TestCase):
@@ -103,16 +113,16 @@ class TextFabricTabletSourceExporterTest(unittest.TestCase):
             self.assertEqual(
                 (summary.output_dir / "KTU 1.3.tsv").read_text(encoding="utf-8"),
                 "#---------------------------- KTU 1.3 I:1\n"
-                "136937\tal\tal\n"
-                "136938\ttġl\ttġl\n"
+                "136937\tal\tal\tal\n"
+                "136938\ttġl\ttġl\ttġl\n"
                 "#---------------------------- KTU 1.3 I:2\n"
-                "136940\tp\tp\n"
+                "136940\tp\tp\tp\n"
                 "#---------------------------- KTU 1.3 II:1\n"
-                "136941\tbn\tbn\n",
+                "136941\tbn\tbn\tbn\n",
             )
             self.assertEqual(
                 (summary.output_dir / "KTU 1.4.tsv").read_text(encoding="utf-8"),
-                "#---------------------------- KTU 1.4 II:3\n200001\tilm\tilm\n",
+                "#---------------------------- KTU 1.4 II:3\n200001\tilm\tilm\tilm\n",
             )
 
     def test_export_omits_column_i_for_single_column_tablet(self) -> None:
@@ -144,7 +154,9 @@ class TextFabricTabletSourceExporterTest(unittest.TestCase):
 
             self.assertEqual(
                 (summary.output_dir / "KTU 2.38.tsv").read_text(encoding="utf-8"),
-                "#---------------------------- KTU 2.38 27\n157900\trb\trb\n157901\trb\trb\n",
+                "#---------------------------- KTU 2.38 27\n"
+                "157900\trb\trb\trb\n"
+                "157901\trb\trb\trb\n",
             )
 
 

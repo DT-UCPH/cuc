@@ -19,8 +19,10 @@ class MorphologyTsvLoader:
         analyses_by_id: dict[str, set[str]] = defaultdict(set)
         surface_by_id: dict[str, str] = {}
         ref_by_id: dict[str, str] = {}
+        lines = path.read_text(encoding="utf-8").splitlines()
+        has_sign_span = self._has_sign_span_column(lines)
 
-        for raw_line in path.read_text(encoding="utf-8").splitlines():
+        for raw_line in lines:
             line = raw_line.rstrip("\n")
             if line.startswith("# KTU "):
                 current_ref = line[2:].split("\t")[0]
@@ -28,7 +30,7 @@ class MorphologyTsvLoader:
             if not line.strip() or line.startswith("id\t"):
                 continue
 
-            parts = self._normalize_parts(line)
+            parts = self._normalize_parts(line, has_sign_span=has_sign_span)
 
             token_id = parts[0].strip()
             surface = parts[1].strip()
@@ -66,12 +68,18 @@ class MorphologyTsvLoader:
         return MorphologyDataset(label=label, source_path=None, tokens_by_id={})
 
     @staticmethod
-    def _normalize_parts(line: str) -> list[str]:
+    def _normalize_parts(line: str, *, has_sign_span: bool = False) -> list[str]:
         parts = line.split("\t")
-        if len(parts) < 7:
-            parts += [""] * (7 - len(parts))
-        elif len(parts) > 7:
-            parts = parts[:6] + ["\t".join(parts[6:])]
+        expected_columns = 8 if has_sign_span else 7
+        if len(parts) < expected_columns:
+            parts += [""] * (expected_columns - len(parts))
+        elif len(parts) > expected_columns:
+            parts = parts[: expected_columns - 1] + [
+                "\t".join(parts[expected_columns - 1 :])
+            ]
+
+        if has_sign_span:
+            parts = parts[:2] + parts[3:]
 
         if _looks_like_collapsed_surface_analysis(parts):
             surface, analysis = parts[1].rsplit(" ", 1)
@@ -86,6 +94,19 @@ class MorphologyTsvLoader:
             ]
         parts = _split_inline_analysis_comment(parts)
         return parts
+
+    @staticmethod
+    def _has_sign_span_column(lines: list[str]) -> bool:
+        for line in lines:
+            if not line.strip() or line.startswith("#"):
+                continue
+            parts = line.split("\t")
+            lowered = [part.strip().lower() for part in parts]
+            if lowered[:3] == ["id", "surface form", "sign span"]:
+                return True
+            if parts[0].strip().isdigit():
+                return len(parts) >= 8
+        return False
 
     @staticmethod
     def _validate_group_identity(

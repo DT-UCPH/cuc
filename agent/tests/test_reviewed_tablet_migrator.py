@@ -8,7 +8,7 @@ from reviewed_migration import ReviewedTabletMigrator
 
 
 class ReviewedTabletMigratorTest(unittest.TestCase):
-    def test_migrates_aligned_token_and_refreshes_pos_gloss_from_auto(self) -> None:
+    def test_migrates_aligned_token_and_preserves_reviewed_pos_gloss(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
             reviewed = root / "reviewed.tsv"
@@ -35,12 +35,12 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             output = migrator.migrate(reviewed, raw, auto)
 
             self.assertIn(
-                "136943\taliyn\taliyn/\tảlỉyn\tadj. m. sg.\tThe Very / Most Powerful\treview note",
+                "136943\taliyn\taliyn/\tảlỉyn\tadj. m.\tThe Very / Most Powerful\treview note",
                 output,
             )
             self.assertNotIn("\n1\taliyn\t", output)
 
-    def test_preserves_reviewed_rows_for_simple_concatenation(self) -> None:
+    def test_uses_marked_auto_fallback_for_simple_concatenation(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
             reviewed = root / "reviewed.tsv"
@@ -69,11 +69,11 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             output = migrator.migrate(reviewed, raw, auto)
 
             self.assertIn(
-                "137061\tbnx\tbn(I)/\tbn (I)\tn. m.\tson\tlegacy split",
+                "137061\tbnx\t?\t?\t?\t?\tlegacy split | DULAT: NOT FOUND | "
+                "Migrated from legacy reviewed tokenization.",
                 output,
             )
-            self.assertIn("137061\tbnx\t?\t?\t?\t?\tlegacy split", output)
-            self.assertNotIn("Migrated from legacy reviewed tokenization.", output)
+            self.assertNotIn("\tbn(I)/\tbn (I)\t", output)
 
     def test_preserves_reviewed_rows_for_editorial_surface_change(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
@@ -108,7 +108,7 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             )
             self.assertNotIn("\tpdr(I)/+y\tpdr (I)\tn. m.\ttown\t", output)
 
-    def test_preserves_reviewed_rows_for_simple_split(self) -> None:
+    def test_uses_marked_auto_fallback_for_simple_split(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
             reviewed = root / "reviewed.tsv"
@@ -136,14 +136,121 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             output = migrator.migrate(reviewed, raw, auto)
 
             self.assertIn(
-                "137849\tw\twtˤn/\twtˤn\tn. m.\tmock\tlegacy split source",
+                "137849\tw\t?\t?\t?\t?\tlegacy split source | DULAT: NOT FOUND | Migrated",
                 output,
             )
             self.assertIn(
-                "137850\ttˤn\twtˤn/\twtˤn\tn. m.\tmock\tlegacy split source",
+                "137850\ttˤn\t?\t?\t?\t?\tlegacy split source | DULAT: NOT FOUND | Migrated",
                 output,
             )
-            self.assertNotIn("Migrated from legacy reviewed tokenization.", output)
+            self.assertNotIn("\twtˤn/\twtˤn\t", output)
+            self.assertEqual(output.count("legacy split source"), 2)
+
+    def test_migrates_sign_span_schema_and_refreshes_split_token_spans(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            reviewed = root / "reviewed.tsv"
+            raw = root / "raw.tsv"
+            auto = root / "auto.tsv"
+            reviewed.write_text(
+                "id\tsurface form\tsign span\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.1 II:3\t\t\t\t\t\t\t\n"
+                "125834\tḫršnr\t ḫršn       r\tḫršn&r/\tḫršn (I)\tn. m.\tmountain\treviewed\n",
+                encoding="utf-8",
+            )
+            raw.write_text(
+                "#---------------------------- KTU 1.1 II:3\n"
+                "154257\tḫršn\tḫršn\tḫršn       \n"
+                "154258\tr\tr\tr  \n",
+                encoding="utf-8",
+            )
+            auto.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.1 II:3\t\t\t\t\t\t\n"
+                "154257\tḫršn\tḫršn(I)/\tḫršn (I)\tn. m.\tmountain\t\n"
+                "154258\tr\t?\t?\t?\t?\t\n",
+                encoding="utf-8",
+            )
+
+            output = ReviewedTabletMigrator().migrate(reviewed, raw, auto)
+
+            self.assertTrue(output.startswith("id\tsurface form\tsign span\t"))
+            self.assertIn(
+                "154257\tḫršn\tḫršn       \tḫršn(I)/\tḫršn (I)\tn. m.\tmountain\t"
+                "reviewed | Migrated",
+                output,
+            )
+            self.assertIn(
+                "154258\tr\tr  \t&gr(I)/\tġr (I)\tn. m.\tmountain\t"
+                "reviewed | Migrated",
+                output,
+            )
+
+    def test_maps_positionally_reviewed_fields_across_split_tokens(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            reviewed = root / "reviewed.tsv"
+            raw = root / "raw.tsv"
+            auto = root / "auto.tsv"
+            reviewed.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.2 III:3\t\t\t\t\t\t\n"
+                "1\twḫss\tw ḫss/\tw; ḫss\tconj.; DN\tand; Khasis\treview note\n",
+                encoding="utf-8",
+            )
+            raw.write_text(
+                "#---------------------------- KTU 1.2 III:3\n"
+                "10\tw\tw\n"
+                "11\tḫss\tḫss\n",
+                encoding="utf-8",
+            )
+            auto.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.2 III:3\t\t\t\t\t\t\n"
+                "10\tw\tw\tw\tconj.\tand\t\n"
+                "11\tḫss\tḫss/\tḫss\tDN\tKhasis\t\n",
+                encoding="utf-8",
+            )
+
+            output = ReviewedTabletMigrator().migrate(reviewed, raw, auto)
+
+            self.assertIn("10\tw\tw\tw\tconj.\tand\treview note | Migrated", output)
+            self.assertIn(
+                "11\tḫss\tḫss/\tḫss\tDN\tKhasis\treview note | Migrated",
+                output,
+            )
+
+    def test_does_not_append_unreviewed_trailing_references(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            reviewed = root / "reviewed.tsv"
+            raw = root / "raw.tsv"
+            auto = root / "auto.tsv"
+            reviewed.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.14 II:51\t\t\t\t\t\t\n"
+                "1\tšd\tšd(I)/\tšd (I)\tn. m.\tfield\treviewed\n",
+                encoding="utf-8",
+            )
+            raw.write_text(
+                "#---------------------------- KTU 1.14 II:51\n10\tšd\tšd\n"
+                "#---------------------------- KTU 1.14 III:1\n11\tkm\tkm\n",
+                encoding="utf-8",
+            )
+            auto.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.14 II:51\t\t\t\t\t\t\n"
+                "10\tšd\tšd(I)/\tšd (I)\tn. m.\tfield\t\n"
+                "# KTU 1.14 III:1\t\t\t\t\t\t\n"
+                "11\tkm\tkm\tkm\tadv.\tas\t\n",
+                encoding="utf-8",
+            )
+
+            output = ReviewedTabletMigrator().migrate(reviewed, raw, auto)
+
+            self.assertIn("10\tšd\t", output)
+            self.assertNotIn("11\tkm\t", output)
+            self.assertNotIn("KTU 1.14 III:1", output)
 
     def test_uses_auto_rows_for_non_editorial_surface_change(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

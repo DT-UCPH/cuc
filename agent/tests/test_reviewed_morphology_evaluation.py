@@ -65,6 +65,21 @@ class MorphologyTsvLoaderTest(unittest.TestCase):
         token = dataset.tokens_by_id["1"]
         self.assertEqual(token.analyses, frozenset({"rgm/"}))
 
+    def test_loads_reviewed_sign_span_column_without_treating_it_as_analysis(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "reviewed.tsv"
+            path.write_text(
+                "id\tsurface form\tsign span\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "154247\tbˤl\tbʿl\tbˤl/\t/b-ʿ-l/\tn m.\tlord\treviewed\n",
+                encoding="utf-8",
+            )
+
+            dataset = MorphologyTsvLoader().load(path)
+
+        token = dataset.tokens_by_id["154247"]
+        self.assertEqual(token.surface, "bˤl")
+        self.assertEqual(token.analyses, frozenset({"bˤl/"}))
+
     def test_normalizes_legacy_reviewed_analysis_notation(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             path = Path(tmp_dir) / "reviewed.txt"

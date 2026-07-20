@@ -89,7 +89,7 @@ class TextFabricTabletSourceExporter:
         from tf.fabric import Fabric
 
         tf = Fabric(locations=str(repo_root), modules=f"tf/{version}")
-        return tf.load("g_cons tablet column line")
+        return tf.load("g_cons tablet column line sign")
 
     def _collect_tablet_rows(self, api: object) -> dict[str, list[str]]:
         F = api.F
@@ -103,11 +103,12 @@ class TextFabricTabletSourceExporter:
                 continue
             tablet_name, column, line = section[:3]
             surface = str(F.g_cons.v(word) or "")
+            sign_span = str(T.text(word, fmt="text-orig-full") or surface)
             column_text = str(column).strip() if column is not None else ""
             line_text = str(line).strip() if line is not None else ""
 
             token_records_by_tablet.setdefault(tablet_name, []).append(
-                (column_text, line_text, f"{word}\t{surface}\t{surface}\n")
+                (column_text, line_text, f"{word}\t{surface}\t{surface}\t{sign_span}\n")
             )
             if column_text:
                 tablet_columns.setdefault(tablet_name, set()).add(column_text)
