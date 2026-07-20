@@ -1,170 +1,218 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.71 1						
-149555	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
-149555	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
-149556	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
-149557	śśwm	śśwm/	s:śs/św	n. f. du. abs. gen.	horse	
-149557	śśwm	śśwm/	s:śs/św	n. f. pl. abs. gen.	horse	
+169967	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
+169967	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
+169968	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
+169969	śśwm	śśwm/	s:śs/św	n. f. du. abs. gen.	horse	
+169969	śśwm	śśwm/	s:śs/św	n. f. pl. abs. gen.	horse	
 # KTU 1.71 2						
-149558	xxxxxxxwxxxxxxx	?	?	?	?	DULAT: NOT FOUND
+169970	xxxxxxxw	?	?	?	?	DULAT: NOT FOUND
+169971	xxxxxxx	?	?	?	?	
 # KTU 1.71 3						
-149559	xxxxxxśśxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
+169972	xxxxxxśś	?	?	?	?	DULAT: NOT FOUND
+169973	xxxxxxxxx	?	?	?	?	
 # KTU 1.71 4						
-149560	xxxxxxxw	?	?	?	?	DULAT: NOT FOUND
-149561	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
-149561	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
-149562	baph	?	?	?	?	DULAT: NOT FOUND
+169974	xxxxxxx	?	?	?	?	
+169975	w	w	w	conj.	and	
+169976	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
+169976	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
+169977	b	b	b	prep.	in	
+169978	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+169978	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.71 5						
-149563	k	+k	-k (I)			
-149563	k	~k	-k (II)			
-149563	k	k(III)	k (III)	Subordinating or completive functor	when	
-149563	k	k(I)	k (I)	prep.	like	
-149563	k	k(II)	k (II)	emph. functor	yes	
-149564	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
-149565	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
-149566	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
-149567	wbṣqlˤrgz	?	?	?	?	DULAT: NOT FOUND
+169979	k	+k	-k (I)			
+169979	k	~k	-k (II)			
+169979	k	k(III)	k (III)	Subordinating or completive functor	when	
+169979	k	k(I)	k (I)	prep.	like	
+169979	k	k(II)	k (II)	emph. functor	yes	
+169980	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
+169981	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
+169982	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
+169983	w	w	w	conj.	and	
+169984	bṣql	bṣql/	bṣql	n. m. sg. cstr. nom.	sprout	
+169985	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m. sg. cstr. gen.	juniper berries (?)	
 # KTU 1.71 6						
-149568	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-149568	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
-149568	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-149568	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
-149568	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-149568	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
-149569	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
-149570	wyṣq	?	?	?	?	DULAT: NOT FOUND
-149571	baph	?	?	?	?	DULAT: NOT FOUND
+169986	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
+169986	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
+169986	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
+169986	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+169987	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
+169988	w	w	w	conj.	and	
+169989	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out), serve	
+169989	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out), serve	
+169990	b	b	b	prep.	in	
+169991	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+169991	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.71 7						
-149572	k	+k	-k (I)			
-149572	k	~k	-k (II)			
-149572	k	k(III)	k (III)	Subordinating or completive functor	when	
-149572	k	k(I)	k (I)	prep.	like	
-149572	k	k(II)	k (II)	emph. functor	yes	
-149573	ḫrššw	?	?	?	?	DULAT: NOT FOUND
-149574	ḫndrṯ	ḫndrṯ/	ḫndrṯ	n. m. sg. abs. nom.	apricot tree	
-149575	wṯqd	?	?	?	?	DULAT: NOT FOUND
-149576	mr	mr(I)/	mr (I)	n. m. sg. cstr. nom.	myrrh	
+169992	k	+k	-k (I)			
+169992	k	~k	-k (II)			
+169992	k	k(III)	k (III)	Subordinating or completive functor	when	
+169992	k	k(I)	k (I)	prep.	like	
+169992	k	k(II)	k (II)	emph. functor	yes	
+169993	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
+169994	ššw	?	?	?	?	DULAT: NOT FOUND
+169995	ḫndrṯ	ḫndrṯ/	ḫndrṯ	n. m. sg. abs. nom.	apricot tree	
+169996	w	w	w	conj.	and	
+169997	ṯqd	ṯqd/	ṯqd	n. m. sg. cstr. nom.	almond	
+169998	mr	mr(I)/	mr (I)	n. m. sg. cstr. gen.	myrrh	
 # KTU 1.71 8						
-149577	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-149577	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-149577	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-149577	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
-149578	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
-149579	wyṣq	?	?	?	?	DULAT: NOT FOUND
-149580	baph	?	?	?	?	DULAT: NOT FOUND
+169999	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
+169999	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
+169999	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
+169999	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+170000	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
+170001	w	w	w	conj.	and	
+170002	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
+170002	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
+170003	b	b	b	prep.	in	
+170004	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+170004	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.71 9						
-149581	k	+k	-k (I)			
-149581	k	~k	-k (II)			
-149581	k	k(III)	k (III)	Subordinating or completive functor	when	
-149581	k	k(I)	k (I)	prep.	like	
-149581	k	k(II)	k (II)	emph. functor	yes	
-149582	lḫra	?	?	?	?	DULAT: NOT FOUND
-149583	wl	?	?	?	?	DULAT: NOT FOUND
-149584	yṯtn	!y!ṯ]t]n[	/ṯ-n/	vb Gt prefc. 3 m. sg.	to urinate	
-149585	mss	mss/	mss	n. m. sg. cstr. nom.	sap	
-149586	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
-149586	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
-149587	qlql	qlql/	qlql	n. m. sg. abs. gen.	cardamome	
+170005	k	+k	-k (I)			
+170005	k	~k	-k (II)			
+170005	k	k(III)	k (III)	Subordinating or completive functor	when	
+170005	k	k(I)	k (I)	prep.	like	
+170005	k	k(II)	k (II)	emph. functor	yes	
+170006	l	l(I)	l (I)	prep.	to	
+170007	ḫra	?	?	?	?	DULAT: NOT FOUND
+170008	w	w	w	conj.	and	
+170009	l	l(I)	l (I)	prep.	to	
+170009	l	l(II)	l (II)	adv.	no	
+170009	l	l(III)	l (III)	functor	certainly	
+170010	yṯtn	!y!ṯ]t]n[	/ṯ-n/	vb Gt prefc. 3 m. sg.	to urinate	
+170011	mss	mss/	mss	n. m. sg. cstr. nom.	sap	
+170012	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
+170012	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
+170013	qlql	qlql/	qlql	n. m. sg. abs. gen.	cardamome	
 # KTU 1.71 10						
-149588	w	w	w	conj.	and	
-149589	štˤrgzydk	?	?	?	?	DULAT: NOT FOUND
-149590	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	2) adv	
-149591	wyṣq	?	?	?	?	DULAT: NOT FOUND
-149592	baph	?	?	?	?	DULAT: NOT FOUND
+170014	w	w	w	conj.	and	
+170015	štˤrgz	?	?	?	?	DULAT: NOT FOUND
+170016	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+170016	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+170016	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+170016	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+170016	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+170016	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
+170017	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	2) adv	
+170018	w	w	w	conj.	and	
+170019	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
+170019	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
+170020	b	b	b	prep.	in	
+170021	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+170021	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.71 11						
-149593	k	k(III)	k (III)	Subordinating or completive functor	when	
-149594	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
-149594	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to be seized, captured, collected, re- cruited, bloated	
-149595	aklśśw	?	?	?	?	DULAT: NOT FOUND
-149596	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-149596	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-149597	mkšr	mkšr/	mkšr	n. m. sg. cstr. gen.	semolina	
-149598	grn	grn(I)/	grn (I)	n. m. sg. abs. gen.	threshing-floor	
+170022	k	k(III)	k (III)	Subordinating or completive functor	when	
+170023	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
+170023	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to be seized, captured, collected, re- cruited, bloated	
+170024	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. nom.	grain	
+170025	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
+170026	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
+170026	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
+170027	mkšr	mkšr/	mkšr	n. m. sg. cstr. gen.	semolina	
+170028	grn	grn(I)/	grn (I)	n. m. sg. abs. gen.	threshing-floor	
 # KTU 1.71 12						
-149599	w	w	w	conj.	and	
-149600	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-149600	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-149601	aškrr	aškrr/	ảškrr	n. m. sg. abs. gen.	wax	
-149602	wpr	?	?	?	?	DULAT: NOT FOUND
-149603	ḥḏrt	?	?	?	?	DULAT: NOT FOUND
+170029	w	w	w	conj.	and	
+170030	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+170030	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
+170031	aškrr	aškrr/	ảškrr	n. m. sg. abs. gen.	wax	
+170032	w	w	w	conj.	and	
+170033	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+170033	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
+170034	ḥḏrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 13						
-149604	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-149604	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
-149604	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-149604	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
-149604	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-149604	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
-149605	wyṣq	?	?	?	?	DULAT: NOT FOUND
-149606	baph	?	?	?	?	DULAT: NOT FOUND
+170035	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+170035	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+170035	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+170035	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+170035	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+170035	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
+170036	w	w	w	conj.	and	
+170037	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
+170037	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
+170038	b	b	b	prep.	in	
+170039	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+170039	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.71 14						
-149607	xxxxxxxx	?	?	?	?	
-149608	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
-149609	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
-149609	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
-149610	xxx	?	?	?	?	
+170040	xxxxxxxx	?	?	?	?	
+170041	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
+170042	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
+170042	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
+170043	xxx	?	?	?	?	
 # KTU 1.71 15						
-149611	xxxxxxxxxxxxx	?	?	?	?	
-149612	irġn	?	?	?	?	DULAT: NOT FOUND
-149613	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. nom.	donkey	
+170044	xxxxxxxxxxxxx	?	?	?	?	
+170045	irġn	?	?	?	?	DULAT: NOT FOUND
+170046	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. nom.	donkey	
 # KTU 1.71 16						
-149614	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-149614	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-149614	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-149614	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
-149615	wyṣq	?	?	?	?	DULAT: NOT FOUND
-149616	baph	?	?	?	?	DULAT: NOT FOUND
+170047	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
+170047	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
+170047	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
+170047	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+170048	w	w	w	conj.	and	
+170049	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
+170049	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
+170050	b	b	b	prep.	in	
+170051	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+170051	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.71 17						
-149617	k	k(III)	k (III)	Subordinating or completive functor	when	
-149618	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
-149619	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
-149620	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
-149620	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
-149621	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
-149622	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. cstr. gen.	flax	
-149623	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-149623	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-149623	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-149623	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+170052	k	k(III)	k (III)	Subordinating or completive functor	when	
+170053	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
+170054	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
+170055	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
+170055	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
+170056	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
+170057	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. cstr. gen.	flax	
+170058	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
+170058	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
+170058	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
+170058	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
 # KTU 1.71 18						
-149624	w	w	w	conj.	and	
-149625	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
-149625	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
-149626	baph	?	?	?	?	DULAT: NOT FOUND
+170059	w	w	w	conj.	and	
+170060	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
+170060	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
+170061	b	b	b	prep.	in	
+170062	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+170062	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.71 19						
-149627		?	?	?	?	
+170063		?	?	?	?	
 # KTU 1.71 20						
-149628		?	?	?	?	
+170064		?	?	?	?	
 # KTU 1.71 21						
-149629		?	?	?	?	
+170065		?	?	?	?	
 # KTU 1.71 22						
-149630	ˤqrb	ˤqrb/	ʕqrb	n. f. sg. cstr. nom.	scorpion	
+170066	ˤqrb	ˤqrb/	ʕqrb	n. f. sg. abs. nom.	scorpion	
 # KTU 1.71 23						
-149631	tmṯl	tmṯl/	tmṯl	n. m. sg. abs. gen.	equal amount	
+170067	tmṯl	tmṯl/	tmṯl	n. m. sg. abs. nom.	equal amount	
 # KTU 1.71 24						
-149632		?	?	?	?	
+170068		?	?	?	?	
 # KTU 1.71 25						
-149633	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	2) adv	
-149634	wyṣq	?	?	?	?	DULAT: NOT FOUND
-149635	baph	?	?	?	?	DULAT: NOT FOUND
+170069	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	2) adv	
+170070	w	w	w	conj.	and	
+170071	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
+170071	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
+170072	b	b	b	prep.	in	
+170073	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+170073	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
 # KTU 1.71 26						
-149636	k	k(III)	k (III)	Subordinating or completive functor	when	
-149637	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
-149638	wykhp	?	?	?	?	DULAT: NOT FOUND
-149639	mid	mid/	mỉ/ủd	n. m. sg. cstr. nom.	abundance	
+170074	k	k(III)	k (III)	Subordinating or completive functor	when	
+170075	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
+170076	w	w	w	conj.	and	
+170077	ykhp	!y!khp[	/k-h-p/	vb G prefc. 3 m. sg.	to droop	
+170078	mid	mid/	mỉ/ủd	n. m. sg. cstr. nom.	abundance	
 # KTU 1.71 27						
-149640	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	1) dried fig a) ltḥ dblt ltḥ ṣmqm a l . of dried figs (and) a l . of raisins	
-149640	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	1) dried fig a) ltḥ dblt ltḥ ṣmqm a l . of dried figs (and) a l . of raisins	
-149641	yṯnt	yṯn/t=	yṯn	adj. f. pl. abs. nom.	old	
-149642	wṣmqm	?	?	?	?	DULAT: NOT FOUND
-149643	yṯnm	yṯn/m	yṯn	adj. m. pl. abs. nom.	old	
+170079	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	1) dried fig a) ltḥ dblt ltḥ ṣmqm a l . of dried figs (and) a l . of raisins	
+170079	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	1) dried fig a) ltḥ dblt ltḥ ṣmqm a l . of dried figs (and) a l . of raisins	
+170080	yṯnt	yṯn/t	yṯn	adj. f. sg. abs. nom.	old	
+170081	w	w	w	conj.	and	
+170082	ṣmqm	ṣmq/m	ṣmq	n. m. pl. abs. nom.	raisin	
+170083	yṯnm	yṯn/m	yṯn	adj. m. pl. abs. nom.	old	
 # KTU 1.71 28						
-149644	w	w	w	conj.	and	
-149645	qmḥ	qmḥ/	qmḥ	n. m. sg. cstr. nom.	flour	
-149646	bql	bql/	bql	n. m. sg. abs. gen.	malt	
-149647	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out), serve	
-149647	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out), serve	
-149648	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
+170084	w	w	w	conj.	and	
+170085	qmḥ	qmḥ/	qmḥ	n. m. sg. cstr. nom.	flour	
+170086	bql	bql/	bql	n. m. sg. abs. gen.	malt	
+170087	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out), serve	
+170087	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out), serve	
+170088	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 # KTU 1.71 29						
-149649	b	b	b	prep.	in	
-149650	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-149650	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+170089	b	b	b	prep.	in	
+170090	aph	ap(I)+h	ảp (I)	adv./conj.	also	
+170090	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	

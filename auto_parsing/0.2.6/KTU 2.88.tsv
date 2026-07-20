@@ -1,240 +1,241 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 1						
-159762	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-159763	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
+180869	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+180870	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	queen	
 # KTU 2.88 2						
-159764	l	l(I)	l (I)	prep.	to	
-159765	urtn	?	?	?	?	DULAT: NOT FOUND
-159766	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
-159766	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
-159766	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
-159766	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
-159766	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+180871	l	l(I)	l (I)	prep.	to	
+180872	urtn	?	?	?	?	DULAT: NOT FOUND
+180873	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
+180873	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
+180873	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
+180873	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
+180873	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.88 3						
-159767	hlny	hlny	hlny	deictic adv. functor	behold	
-159768	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
-159769	b	b	b	prep.	1) spatial location a) place in which something occurs	
-159770	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
-159770	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+180874	hlny	hlny	hlny	deictic adv. functor	behold	
+180875	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
+180876	b	b	b	prep.	1) spatial location a) place in which something occurs	
+180877	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
+180877	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 2.88 4						
-159771	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: when)
-159772	ytnt	ytn[t===	/y-t-n/	vb G suffc. 3 f. sg.	to give, hand over, grant, bestow	
-159772	ytnt	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give, hand over, grant, bestow	
-159772	ytnt	ytn[t==	/y-t-n/	vb G suffc. 2 f. sg.	to give, hand over, grant, bestow	
-159772	ytnt	ytn[t	/y-t-n/	vb G suffc. 1 c. sg.	to give, hand over, grant, bestow	
-159773	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-159773	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
-159773	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-159773	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-159773	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
-159773	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-159773	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+180878	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: when)
+180879	ytnt	ytn[t===	/y-t-n/	vb G suffc. 3 f. sg.	to give, hand over, grant, bestow	
+180879	ytnt	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give, hand over, grant, bestow	
+180879	ytnt	ytn[t==	/y-t-n/	vb G suffc. 2 f. sg.	to give, hand over, grant, bestow	
+180879	ytnt	ytn[t	/y-t-n/	vb G suffc. 1 c. sg.	to give, hand over, grant, bestow	
+180880	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+180880	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
+180880	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+180880	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+180880	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+180880	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
+180880	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
 # KTU 2.88 5						
-159774	hnd	hnd	hnd	dem.	1) adj. this	
-159775	ˤmk	ˤm(I)+k	ʕm (I)	prep.	1) relationship of direction (space and time)	
-159775	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
-159776	w	w	w	conj.	and	
-159777	bym	b&y+m(I)	b	prep.	in	
+180881	hnd	hnd	hnd	dem.	1) adj. this	
+180882	ˤmk	ˤm(I)+k	ʕm (I)	prep.	1) relationship of direction (space and time)	
+180882	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
+180883	w	w	w	conj.	and	
+180884	b	b	b	prep.	in	
+180885	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+180885	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 # KTU 2.88 6						
-159778	hwt	hw&t	hw	pers. pn.	he	
-159778	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
-159779	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
-159780	b	b	b	prep.	1) spatial location a) place in which something occurs	
-159781	mlwm	?	?	?	?	DULAT: NOT FOUND
+180886	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
+180887	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
+180888	b	b	b	prep.	1) spatial location a) place in which something occurs	
+180889	mlwm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.88 7						
-159782	btt	?	?	?	?	DULAT: NOT FOUND
-159783	w	w	w	conj.	and	
-159784	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-159785	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. nom.	to sweep	
+180890	btt	?	?	?	?	DULAT: NOT FOUND
+180891	w	w	w	conj.	and	
+180892	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+180893	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. nom.	to sweep	
 # KTU 2.88 8						
-159786	adnyh	adn(I)&y/+h	ảdn (I)	n. m. cstr. nom.	lord	
-159786	adnyh	adny&h/	ảdny	TN sg. abs. nom.	ảdny	
-159787	b	b	b	prep.	1) spatial location a) place in which something occurs	
-159788	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+180894	adnyh	adn(I)&y/+h	ảdn (I)	n. m. cstr. nom.	lord	
+180894	adnyh	adny&h/	ảdny	TN sg. abs. nom.	ảdny	
+180895	b	b	b	prep.	2) temporal situation a) time when something happens	
+180896	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
 # KTU 2.88 9						
-159789	snġr	snġr/	snġr	TN sg. abs. gen.	snġr	
-159790	b	b	b	prep.	in	
-159791	rbˤ	rbˤ/	rbʕ	num.	fourth	
+180897	snġr	snġr/	snġr	TN sg. abs. gen.	snġr	
+180898	b	b	b	prep.	in	
+180899	rbˤ	rbˤ/	rbʕ	num.	fourth	
 # KTU 2.88 10						
-159792	unġ	unġ/	ủnġ	TN sg. abs. nom.	ủnġ	
-159793	w	w	w	conj.	3) in the correlation protasis-apodosis	
-159794	dˤt	dˤ(t(II)/t	dʕt (II)	n. f. sg. abs. nom.	sweat	
+180900	unġ	unġ/	ủnġ	TN sg. abs. nom.	ủnġ	
+180901	w	w	w	conj.	3) in the correlation protasis-apodosis	
+180902	dˤt	dˤ(t(II)/t	dʕt (II)	n. f. sg. abs. nom.	sweat	
 # KTU 2.88 11						
-159795	w	w	w	conj.	1) copulative conj.	
-159796	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
-159797	klklk	klkl/+k	klkl	n. m. cstr. nom.	anybody	
+180903	w	w	w	conj.	1) copulative conj.	
+180904	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+180905	klklk	klkl/+k	klkl	n. m. cstr. nom.	anybody	
 # KTU 2.88 12						
-159798	škn	škn[:d	/š-k-n/	vb D impv. 2	to assign	
-159799	l	l(I)	l (I)	prep.	to	
-159800	šmk	šm(I)/+k	šm (I)	n. m. cstr. gen.	name	DULAT quote in /š-k-n/ (cue: name)
+180906	škn	škn[:d	/š-k-n/	vb D impv. 2	to assign	
+180907	l	l(I)	l (I)	prep.	to	
+180908	šmk	šm(I)/+k	šm (I)	n. m. cstr. gen.	name	
 # KTU 2.88 13						
-159801	w	w	w	conj.	4) declarative and emphatic functor	
-159802	kly	kly[	/k-l-y/	vb G suffc. 3 m. sg.	to finish	
-159803	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	3) faithful	
-159803	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	3) faithful	
-159804	ly	l(I)+y	l (I)	prep.	to	
+180909	w	w	w	conj.	4) declarative and emphatic functor	
+180910	kly	kly[	/k-l-y/	vb G suffc. 3 m. sg.	to finish	
+180911	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	3) faithful	
+180911	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	3) faithful	
+180912	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.88 14						
-159805	p	p(I)	p (I)	conj. functor	and	
-159805	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-159805	p	p(II)	p (II)	adv.	here	
-159806	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
-159806	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
-159807	ṯh	ṯh/	ṯh	n. m. sg. abs. nom.	neighbour	
-159808	w	w	w	conj.	4) declarative and emphatic functor	
-159809	arš	arš/	ảrš	DN sg. cstr. nom.	a monster (“many-headed”, “whale”)	
+180913	p	p(I)	p (I)	conj. functor	and	
+180913	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+180913	p	p(II)	p (II)	adv.	here	
+180914	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
+180914	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
+180915	ṯh	ṯh/	ṯh	n. m. sg. abs. nom.	neighbour	
+180916	w	w	w	conj.	4) declarative and emphatic functor	
+180917	arš	arš/	ảrš	DN sg. cstr. nom.	a monster (“many-headed”, “whale”)	
 # KTU 2.88 15						
-159810	iršth	iršt/+h	ỉršt	n. f. cstr. gen.	1) request	
-159811	tḥd	!t!ḥd(y[	/ḥ-d-y/	vb G prefc. 3 f. sg.	to see	
-159811	tḥd	!t=!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 m. sg.	to see	
-159811	tḥd	!t==!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 f. sg.	to see	
-159811	tḥd	!t!ḥd(y[	/ḥ-d-y/	vb G prefc. 3 m. du.	to see	
-159811	tḥd	!t!ḥd(y[:w	/ḥ-d-y/	vb G prefc. 3 m. pl.	to see	
-159811	tḥd	!t===!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 m. pl.	to see	
+180918	iršth	iršt/+h	ỉršt	n. f. cstr. gen.	1) request	
+180919	tḥd	!t!ḥd(y[	/ḥ-d-y/	vb G prefc. 3 f. sg.	to see	
+180919	tḥd	!t=!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 m. sg.	to see	
+180919	tḥd	!t==!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 f. sg.	to see	
+180919	tḥd	!t!ḥd(y[	/ḥ-d-y/	vb G prefc. 3 m. du.	to see	
+180919	tḥd	!t!ḥd(y[:w	/ḥ-d-y/	vb G prefc. 3 m. pl.	to see	
+180919	tḥd	!t===!ḥd(y[	/ḥ-d-y/	vb G prefc. 2 m. pl.	to see	
 # KTU 2.88 16						
-159812	w	w	w	conj.	and	
-159813	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	1) house	
-159814	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	1) number one e) special uses	
-159814	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
-159814	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
+180920	w	w	w	conj.	and	
+180921	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	1) house	
+180922	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	1) number one e) special uses	
+180922	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
+180922	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
 # KTU 2.88 17						
-159815	d	d	d	det. or rel. functor	4) in compound conjunctions	
-159816	ḥadrt	?	?	?	?	DULAT: NOT FOUND
+180923	d	d	d	det. or rel. functor	4) in compound conjunctions	
+180924	ḥadrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.88 18						
-159817	d	d	d	det. or rel. functor	4) in compound conjunctions	
-159818	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. cstr. nom.	2) to have	
-159819	ḥdrm	ḥdr/m	ḥdr	n. m. pl. abs. gen.	1) room	
+180925	d	d	d	det. or rel. functor	4) in compound conjunctions	
+180926	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. cstr. nom.	2) to have	
+180927	ḥdrm	ḥdr/m	ḥdr	n. m. pl. abs. gen.	1) room	
 # KTU 2.88 19						
-159820	w	w	w	conj.	4) declarative and emphatic functor	
-159821	mḥ	mḥ/	mḥ	n. m. sg. abs. nom.	day room	
-159822	w	w	w	conj.	4) declarative and emphatic functor	
-159823	šqt	?	?	?	?	DULAT: NOT FOUND
+180928	w	w	w	conj.	4) declarative and emphatic functor	
+180929	mḥ	mḥ/	mḥ	n. m. sg. abs. nom.	day room	
+180930	w	w	w	conj.	4) declarative and emphatic functor	
+180931	šqt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.88 20						
-159824	mrḥṣm	rḥṣ[/ṣm	/r-ḥ-ṣ/	vb D act. ptcpl. m. sg. abs. nom.	to clean, cleanse	
-159825	bh	b+h	b	prep.	in	
+180932	mrḥṣm	mrḥṣm[/	/r-ḥ-ṣ/	vb D act. ptcpl. m. sg. abs. nom.	to clean, cleanse	
+180933	bh	b+h	b	prep.	in	
 # KTU 2.88 21						
-159826	w	w	w	conj.	and	
-159827	at	at(I)	ảt (I)	pers. pn.	1) you d) emphatic of suff. pn	
-159828	b	b	b	prep.	1) spatial location d) origin of a quality or process	
-159829	pk	p(III)/+k	p (III)	n. m. cstr. gen.	mouth	
-159830	al	al(I)	ảl (I)	neg. functor	no	
-159830	al	al(II)	ảl (II)	pos. functor	surely	
+180934	w	w	w	conj.	and	
+180935	at	at(I)	ảt (I)	pers. pn.	1) you d) emphatic of suff. pn	
+180936	b	b	b	prep.	1) spatial location d) origin of a quality or process	
+180937	pk	p(III)/+k	p (III)	n. m. cstr. gen.	mouth	
+180938	al	al(I)	ảl (I)	neg. functor	no	
+180938	al	al(II)	ảl (II)	pos. functor	surely	
 # KTU 2.88 22						
-159831	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out	
-159832	mnk	mnk	mnk	indef. pn.	whoever	
-159833	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
-159833	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-159834	mġyy	!!mġy[/y	/m-ġ-y/	vb G inf.	to come, arrive	
+180939	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out	
+180940	mnk	mnk	mnk	indef. pn.	whoever	
+180941	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+180941	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+180942	mġyy	!!mġy[/y	/m-ġ-y/	vb G inf.	to come, arrive	
 # KTU 2.88 23						
-159835	w	w	w	conj.	1) copulative conj.	
-159836	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
-159837	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
+180943	w	w	w	conj.	1) copulative conj.	
+180944	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+180945	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
 # KTU 2.88 24						
-159838	w	w	w	conj.	and	
-159839	išmˤ	!(ʔ&i!šmˤ[	/š-m-ʕ/	vb G prefc. 1 c. sg.	to hear, listen (to), notice	
-159840	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: if)
-159841	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
-159842	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
+180946	w	w	w	conj.	and	
+180947	išmˤ	!(ʔ&i!šmˤ[	/š-m-ʕ/	vb G prefc. 1 c. sg.	to hear, listen (to), notice	
+180948	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: if)
+180949	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+180950	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	
 # KTU 2.88 25						
-159843	bk	b+k	b	prep.	1) spatial location d) origin of a quality or process	
-159844	ankm	ank&m	ảnk	pers. pn.	1) i b) emph. subj. in VC	
-159845	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
+180951	bk	b+k	b	prep.	3) relationship of cause or reason	
+180952	ankm	ank&m	ảnk	pers. pn.	1) i b) emph. subj. in VC	
+180953	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
 # KTU 2.88 26						
-159846	w	w	w	conj.	and	
-159847	spm	sp/m	sp	n. m. pl. abs. nom.	1) bowl b) as a gift	
-159848	lh	l(I)+h	l (I)	prep.	to	
-159849	w	w	w	conj.	and	
-159850	išprm	išpr&m	ỉšpr	morph.	date cake	
-159850	išprm	išpr+m(I)	ỉšpr	morph.	date cake	
+180954	w	w	w	conj.	and	
+180955	spm	sp/m	sp	n. m. pl. abs. nom.	1) bowl b) as a gift	
+180956	lh	l(I)+h	l (I)	prep.	to	
+180957	w	w	w	conj.	and	
+180958	išprm	išpr&m	ỉšpr	morph.	date cake	
+180958	išprm	išpr+m(I)	ỉšpr	morph.	date cake	
 # KTU 2.88 27						
-159851	w	w	w	conj.	and	
-159852	spm	sp/m	sp	n. m. pl. cstr. nom.	1) bowl b) as a gift	
-159853	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G act. ptcpl. m. sg. cstr. gen.	to leave > to put in > to place	
-159853	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G pass. ptcpl. m. sg. cstr. gen.	to leave > to put in > to place	
+180959	w	w	w	conj.	and	
+180960	spm	sp/m	sp	n. m. pl. cstr. nom.	1) bowl b) as a gift	
+180961		?	?	?	?	
+180962	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G act. ptcpl. m. sg. cstr. gen.	to leave > to put in > to place	
+180962	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G pass. ptcpl. m. sg. cstr. gen.	to leave > to put in > to place	
 # KTU 2.88 28						
-159854	k	+k	-k (I)			
-159854	k	~k	-k (II)			
-159854	k	k(III)	k (III)	Subordinating or completive functor	when	
-159854	k	k(I)	k (I)	prep.	like	
-159854	k	k(II)	k (II)	emph. functor	yes	
-159855	l	l(I)	l (I)	prep.	to	
-159855	l	l(II)	l (II)	adv.	no	
-159855	l	l(III)	l (III)	functor	certainly	
-159856	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	1) to enter	
-159857	bk	b+k	b	prep.	in	
-159857	bk	!!bk[/	/b-k-y/	vb G inf.	to weep	
-159857	bk	bk/	bk	n. m. sg. abs. nom.	beaker	
-159858	l	l(I)	l (I)	prep.	to	
-159858	l	l(II)	l (II)	adv.	no	
-159858	l	l(III)	l (III)	functor	certainly	
-159859	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	1) to enter	
+180963	k	+k	-k (I)			
+180963	k	~k	-k (II)			
+180963	k	k(III)	k (III)	Subordinating or completive functor	when	
+180963	k	k(I)	k (I)	prep.	like	
+180963	k	k(II)	k (II)	emph. functor	yes	
+180964	l	l(I)	l (I)	prep.	to	
+180964	l	l(II)	l (II)	adv.	no	
+180964	l	l(III)	l (III)	functor	certainly	
+180965	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	1) to enter	
+180966	bk	b+k	b	prep.	in	
+180966	bk	bk/	bk	n. m. sg. abs. nom.	beaker	
+180967	l	l(I)	l (I)	prep.	to	
+180967	l	l(II)	l (II)	adv.	no	
+180967	l	l(III)	l (III)	functor	certainly	
+180968	ˤrbt	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	1) to enter	
 # KTU 2.88 29						
-159860	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
-159861	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-159861	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-159862	tlak	!t!l(ʔ&ak[	/l-ʔ-k/	vb G prefc.	to send (a message)	
+180969	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
+180970	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
+180971	tlak	!t!l(ʔ&ak[	/l-ʔ-k/	vb G prefc.	to send (a message)	
 # KTU 2.88 30						
-159863	w	w	w	conj.	3) in the correlation protasis-apodosis	
-159864	rišk	riš(I)/+k	rỉš (I)	n. m. cstr. nom.	1) head	
-159865	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish, to be lost	DULAT quote in /ḫ-l-q/ (cue: lost)
+180972	w	w	w	conj.	3) in the correlation protasis-apodosis	
+180973	rišk	riš(I)/+k	rỉš (I)	n. m. cstr. nom.	1) head	
+180974	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish, to be lost	DULAT quote in /ḫ-l-q/ (cue: lost)
 # KTU 2.88 31						
-159866	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-159867	ilmlk	ilmlk/	ỉlmlk	PN sg. abs. gen.	ʾIlimalku/Ilimilku/Elimelek	
-159868	x	?	?	?	?	
-159869	xx	?	?	?	?	
+180975	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+180976	ilmlk	ilmlk/	ỉlmlk	PN sg. abs. gen.	ʾIlimalku/Ilimilku/Elimelek	
+180977	x	?	?	?	?	
+180978	x	?	?	?	?	
+180979	x	?	?	?	?	
 # KTU 2.88 32						
-159870	l	l(I)	l (I)	prep.	to	
-159871	urtn	?	?	?	?	DULAT: NOT FOUND
-159872	iḫy	aḫ(I)/	ảḫ (I)	n. m. sg. cstr. nom.	brother (by blood)	
-159873	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+180980	l	l(I)	l (I)	prep.	to	
+180981	urtn	?	?	?	?	DULAT: NOT FOUND
+180982	iḫy	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - brother (by blood)
+180983	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.88 33						
-159874	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in l (I) (cue: peace)
-159875	lk	l(I)+k	l (I)	prep.	1) prep. of direction a) allative	
-159876	k	+k	-k (I)			
-159876	k	~k	-k (II)			
-159876	k	k(III)	k (III)	Subordinating or completive functor	when	
-159876	k	k(I)	k (I)	prep.	like	
-159876	k	k(II)	k (II)	emph. functor	yes	
-159877	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
+180984	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in l (I) (cue: peace)
+180985	lk	l(I)+k	l (I)	prep.	1) prep. of direction a) allative	
+180986	k	+k	-k (I)			
+180986	k	~k	-k (II)			
+180986	k	k(III)	k (III)	Subordinating or completive functor	when	
+180986	k	k(I)	k (I)	prep.	like	
+180986	k	k(II)	k (II)	emph. functor	yes	
+180987	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.88 34						
-159878	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
-159879	ky	k(II)&y	k (II)	emph. functor	yes	DULAT quote in /ḥ-š/ (I) (cue: yes)
-159880	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb G impv. 2	1) to hurry	
-159880	ḥš	!!ḥš(I)[/	/ḥ-š/ (I)	vb G inf.	1) to hurry	
-159881	k	k(II)	k (II)	emph. functor	yes	DULAT quote in k (II) (cue: yes)
-159882	lak	l(ʔ&ak[	/l-ʔ-k/	vb G impv. 2	to send (a message)	
-159882	lak	!!l(ʔ&ak[/	/l-ʔ-k/	vb G inf.	to send (a message)	
+180988	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
+180989	ky	k(II)+y	k (II)	emph. functor	yes	DULAT quote in /ḥ-š/ (I) (cue: yes)
+180990	ḥš	ḥš(I)[	/ḥ-š/ (I)	vb G impv. 2	1) to hurry	
+180990	ḥš	!!ḥš(I)[/	/ḥ-š/ (I)	vb G inf.	1) to hurry	
+180991	k	k(II)	k (II)	emph. functor	yes	DULAT quote in k (II) (cue: yes)
+180992	lak	l(ʔ&ak[	/l-ʔ-k/	vb G impv. 2	to send (a message)	
+180992	lak	!!l(ʔ&ak[/	/l-ʔ-k/	vb G inf.	to send (a message)	
 # KTU 2.88 35						
-159883	w	w	w	conj.	and	
-159884	ht	ht	ht	adv.	1) adv b) of time	
-159885	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
-159886	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say, tell, announce, communicate, inform	
+180993	w	w	w	conj.	and	
+180994	ht	ht	ht	adv.	1) adv b) of time	
+180995	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
+180996	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say, tell, announce, communicate, inform	
 # KTU 2.88 36						
-159887	l	l(I)	l (I)	prep.	to	
-159888	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
-159889	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	1) queen b) genitive	
-159890	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
+180997	l	l(I)	l (I)	prep.	to	
+180998	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
+180999	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	1) queen b) genitive	
+181000	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.88 37						
-159891	w	w	w	conj.	and	
-159892	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
-159893	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-159893	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-159894	uḫd	(ʔ&uḫd[/	/ʔ-ḫ-d(/ḏ)/	vb Gpass ptcpl. m. sg. abs. gen.	to occupy space, cover	
-159895	ly	l(I)+y	l (I)	prep.	1) prep. of direction b) ventive	
+181001	w	w	w	conj.	and	
+181002	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+181003	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
+181003	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
+181004	uḫd	(ʔ&uḫd[/	/ʔ-ḫ-d(/ḏ)/	vb Gpass ptcpl. m. sg. abs. gen.	to occupy space, cover	
+181005	ly	l(I)+y	l (I)	prep.	7) of belonging ((not) being of, (not) having) b) with vb functor	
 # KTU 2.88 38						
-159896	w	w	w	conj.	and	
-159897	dˤ	ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	to know	
-159898	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: that)
-159899	yṣa	yṣ(ʔ&a[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
-159900	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
-159901	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	1) queen a) in gen	
+181006	w	w	w	conj.	and	
+181007	dˤ	(ydˤ(I)[	/y-d-ʕ/ (I)	vb G impv. 2	to know	
+181008	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: that)
+181009	yṣa	yṣ(ʔ&a[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
+181010	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
+181011	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	1) queen a) in gen	
 # KTU 2.88 39						
-159902	w	w	w	conj.	and	
-159903	at	at(I)	ảt (I)	pers. pn.	1) you c) with ellipsis of the vb	
-159904	b	b	b	prep.	in	
-159905	pk	p(III)/+k	p (III)	n. m. cstr. gen.	1) mouth	
-159906	al	al(I)	ảl (I)	neg. functor	no	
-159906	al	al(II)	ảl (II)	pos. functor	surely	
-159907	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
+181012	w	w	w	conj.	and	
+181013	at	at(I)	ảt (I)	pers. pn.	1) you c) with ellipsis of the vb	
+181014	b	b	b	prep.	in	
+181015	pk	p(III)/+k	p (III)	n. m. cstr. gen.	1) mouth	
+181016	al	al(I)	ảl (I)	neg. functor	no	
+181016	al	al(II)	ảl (II)	pos. functor	surely	
+181017	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
 # KTU 2.88 40						
-159908	mhk	mhk	mhk(m)	indef. pn.	anything	
-159909	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+181018	mhk	mhk	mhk(m)	indef. pn.	anything	
+181019	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	

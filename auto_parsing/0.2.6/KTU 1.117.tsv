@@ -1,70 +1,87 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.117 1						
-154064	x	?	?	?	?	
+174757	x	?	?	?	?	
 # KTU 1.117 2						
-154065		?	?	?	?	
-154066	nbl	ybl[	/y-b-l/	vb G prefc.	to carry, bring, take	
-154067	kl	kl/	kl	n. m. sg. abs. nom.	1) totality (of) c) with suff. pn	
+174758		?	?	?	?	
+174759	nbl	!n!(ybl[	/y-b-l/	vb G prefc. 1 c. pl.	to carry, bring, take	
+174760	kl	kl/	kl	n. m. sg. abs. nom.	1) totality (of) c) with suff. pn	
 # KTU 1.117 3						
-154068	nynil	?	?	?	?	DULAT: NOT FOUND
-154069	abh	ab/+h	ảb	n. m. cstr. nom.	1) father b) espec. of El (Rahmouni DEUAT 3ff.)	
-154070	ilmšr	?	?	?	?	DULAT: NOT FOUND
+174761	nynil	?	?	?	?	DULAT: NOT FOUND
+174762	abh	ab/+h	ảb	n. m. cstr. nom.	1) father b) espec. of El (Rahmouni DEUAT 3ff.)	
+174763	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+174763	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+174763	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+174763	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+174764	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. nom.	justice	
+174764	mšr	mšr(II)/	mšr (II)	n. sg. abs. nom.	song	
 # KTU 1.117 4						
-154071	lkw	?	?	?	?	DULAT: NOT FOUND
-154072	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-154072	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-154072	bn	bn(II)	bn (II)	prep.	between	
-154072	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-154072	bn	bn[	/b-n/	vb G impv. 2	to understand	
-154073	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
-154073	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
-154074	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	2) “the Goddess”	
+174765	lkw	?	?	?	?	DULAT: NOT FOUND
+174766	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+174766	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+174766	bn	bn(II)	bn (II)	prep.	between	
+174766	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+174766	bn	bn[	/b-n/	vb G impv. 2	to understand	
+174767	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
+174768	ilt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	2) “the Goddess”	
 # KTU 1.117 5						
-154075	dt	d+t	d	det. or rel. functor	the one(s) of	
-154076	l	l(I)	l (I)	prep.	to	
-154077	y	+y, [y	-y (I)	prep. functor	my	
-154077	y	~y	-y (II)	prep. functor	indeed	
-154077	y	y	y	prep. functor	oh!	
-154078	k	+k	-k (I)			
-154078	k	~k	-k (II)			
-154078	k	k(III)	k (III)	Subordinating or completive functor	when	
-154078	k	k(I)	k (I)	prep.	like	
-154078	k	k(II)	k (II)	emph. functor	yes	
-154079	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
+174769	dt	d+t	d	det. or rel. functor	the one(s) of	
+174770	l	l(I)	l (I)	prep.	to	
+174771	y	~y	-y (II)	prep. functor	indeed	
+174771	y	y	y	prep. functor	oh!	
+174772	k	+k	-k (I)			
+174772	k	~k	-k (II)			
+174772	k	k(III)	k (III)	Subordinating or completive functor	when	
+174772	k	k(I)	k (I)	prep.	like	
+174772	k	k(II)	k (II)	emph. functor	yes	
+174773	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
 # KTU 1.117 6						
-154080	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-154080	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-154081	mẓll	mẓll/	mẓll	n. m. sg. cstr. gen.	shelter	
-154082	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
+174774	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+174774	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+174775	mẓll	mẓll/	mẓll	n. m. sg. cstr. gen.	shelter	
+174776	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 # KTU 1.117 7						
-154083	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
-154083	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
-154084	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-154085	ar	ar/	ả/ỉr	n. m. sg. abs. nom.	light	
+174777	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
+174777	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
+174778	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+174779	ar	ar/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 1.117 8						
-154086	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
-154086	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-154087	mtm	mt(II)/~m	mt (II)	n. m. abs. nom. sg.	death	
-154087	mtm	!!mt[/~m	/m-t/	vb G inf.	to die	
-154087	mtm	mt(I)/m	mt (I)	n. m. pl. abs. nom.	dead person	
-154088	šknt	škn[t	/š-k-n/	vb G suffc. 1 c. sg.	to be placed, settle, stay	
+174780	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+174780	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+174781	mtm	mt(II)/~m	mt (II)	n. m. abs. nom. sg.	death	
+174781	mtm	!!mt[/~m	/m-t/	vb G inf.	to die	
+174781	mtm	mt(I)/m	mt (I)	n. m. pl. abs. nom.	dead person	
+174782	šknt	škn[t	/š-k-n/	vb G suffc. 1 c. sg.	to be placed, settle, stay	
 # KTU 1.117 9						
-154089	x	?	?	?	?	
-154090	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	2) DN “Mountain(s)”	
-154091	ṭlm	ṭl/+m(I)	ṭl	n. m. cstr. gen.	dew	
+174783	x	?	?	?	?	
+174784	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	2) DN “Mountain(s)”	
+174785	ṭlm	ṭl/+m(I)	ṭl	n. m. cstr. gen.	dew	
 # KTU 1.117 10						
-154092	ryt	?	?	?	?	DULAT: NOT FOUND
-154093	aṣṣ	nṣṣ[	/n-ṣ-ṣ/	vb G prefc.	to take flight, fly	
-154094	k	k(I)	k (I)	prep.	like	DULAT quote in /n-ṣ-ṣ/ (cue: like)
-154095	nṣ	nṣ(I)/	nṣ (I)	n. m. sg. abs. gen.	bird	
+174786	ryt	?	?	?	?	DULAT: NOT FOUND
+174787	aṣṣ	!(ʔ&a!(nṣṣ[	/n-ṣ-ṣ/	vb G prefc. 1 c. sg.	to take flight, fly	
+174788	k	k(I)	k (I)	prep.	like	DULAT quote in /n-ṣ-ṣ/ (cue: like)
+174789	nṣ	nṣ(I)/	nṣ (I)	n. m. sg. abs. gen.	bird	
 # KTU 1.117 11						
-154096	m	m	m(h)	pers. pn.	what?	
-154097	wtˤn	?	?	?	?	DULAT: NOT FOUND
-154098	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
-154098	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
+174790	m	m	m(h)	pers. pn.	what?	
+174791	w	w	w	conj.	and	
+174792	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
+174792	tˤn	!t=!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. sg.	to answer	
+174792	tˤn	!t==!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 f. sg.	to answer	
+174792	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	
+174792	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
+174792	tˤn	!t===!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	to answer	
+174792	tˤn	!t!ˤn[	/ʕ-n/	vb G prefc.	to see	
+174792	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 f. sg.	to be / remain depressed	
+174792	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
+174792	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
+174792	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+174792	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
+174792	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
+174792	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
+174793	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
+174793	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 # KTU 1.117 12						
-154099	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
-154100	arx	?	?	?	?	DULAT: NOT FOUND
-154101	ṯbtk	ṯb(t/t+k	ṯbt	n. f. sg. cstr. nom.	seat	
+174794	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+174795	arx	?	?	?	?	DULAT: NOT FOUND
+174796	ṯbtk	ṯb(t/t+k	ṯbt	n. f. sg. cstr. nom.	seat	
 # KTU 1.117 13						
-154102	l	l(I)	l (I)	prep.	to	
+174797	l	l(I)	l (I)	prep.	to	

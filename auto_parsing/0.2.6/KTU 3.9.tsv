@@ -1,82 +1,85 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.9 1						
-161189	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. nom.	1) cult association	
+182352	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. nom.	1) cult association	
 # KTU 3.9 2						
-161190	d	d	d	det. or rel. functor	1) the one(s) of b) det. of property	
-161191	qny	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
+182353	d	d	d	det. or rel. functor	2) which	
+182354	qny	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
 # KTU 3.9 3						
-161192	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
+182355	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
 # KTU 3.9 4						
-161193	b	b	b	prep.	in	
-161194	btw	bt(II)&w/	bt (II)	n. m. sg. abs. gen.	1) house	
+182356	b	b	b	prep.	in	
+182357	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+182357	bt	bt(III)/	bt (III)	n. m. pl. abs. gen.	length	
+182358	w	w	w	conj.	and	
 # KTU 3.9 5						
-161195	w	w	w	conj.	and	
-161196	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
-161196	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
-161196	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
-161197	ibsn	ibsn/	ỉbsn	n. m. sg. abs. nom.	warehouse	
+182359	w	w	w	conj.	and	
+182360	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
+182360	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
+182360	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
+182361	ibsn	ibsn/	ỉbsn	n. m. sg. abs. nom.	warehouse	
 # KTU 3.9 6						
-161198	lwkm	?	?	?	?	DULAT: NOT FOUND
-161199	wkm	w+km	w	conj.	and	
-161200	ag	?	?	?	?	DULAT: NOT FOUND
+182362	lwkm	?	?	?	?	DULAT: NOT FOUND
+182363	wkm	w+km	w	conj.	and	
+182364	ag	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 7						
-161201	rškm	rš[+km	/r-š(-š)/	vb G suffc.	to be ruined	
+182365	rškm	rš[+km	/r-š(-š)/	vb G suffc.	to be ruined	
 # KTU 3.9 8						
-161202	b	b	b	prep.	1) spatial location d) origin of a quality or process	
-161203	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
-161203	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
+182366	b	b	b	prep.	1) spatial location d) origin of a quality or process	
+182367	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
+182367	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 3.9 9						
-161204	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
-161205	ḫmšm	ḫmš(I)&m/	ḫmš (I)	num. f.	five	
-161205	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	
+182368	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+182369	ḫmšm	ḫmš(I)&m/	ḫmš (I)	num. f.	five	
+182369	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	
 # KTU 3.9 10						
-161206	isˤ	?	?	?	?	DULAT: NOT FOUND
+182370	isˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 11						
-161207	w	w	w	conj.	and	
-161208	šm	š/m	š	n. m. pl. cstr. nom.	ram	
-161208	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
-161209	mn	mn(III)/	mn (III)	n. m. sg. cstr. gen.	mina	
+182371	w	w	w	conj.	and	
+182372	šm	š/m	š	n. m. pl. cstr. nom.	ram	
+182372	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
+182373	mn	mn(III)/	mn (III)	n. m. sg. cstr. gen.	mina	
 # KTU 3.9 12						
-161210	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	DULAT quote in rb (II) (cue: chief)
-161211	al	al(I)	ảl (I)	neg. functor	no	
-161211	al	al(II)	ảl (II)	pos. functor	surely	
-161212	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
+182374	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	DULAT quote in rb (II) (cue: chief)
+182375	al	al(I)	ảl (I)	neg. functor	no	
+182375	al	al(II)	ảl (II)	pos. functor	surely	
+182376	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
 # KTU 3.9 13						
-161213	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
-161213	mt	mt(II)/	mt (II)	n. m. sg. cstr. nom.	death	
-161213	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-161213	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	1) man	
-161213	mt	mt(III)/	mt (III)	n. m. sg. cstr. nom.	1) man	
-161214	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. gen.	1) cult association	
+182377	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
+182377	mt	mt(II)/	mt (II)	n. m. sg. cstr. nom.	death	
+182377	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+182377	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	1) man	
+182377	mt	mt(III)/	mt (III)	n. m. sg. cstr. nom.	1) man	
+182378	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. gen.	1) cult association	
 # KTU 3.9 14						
-161215	w	w	w	conj.	and	
-161216	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say	
-161216	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to said, recited	
-161217	l	l(I)	l (I)	prep.	to	
+182379	w	w	w	conj.	and	
+182380	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say	
+182380	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to said, recited	
+182381	l	l(I)	l (I)	prep.	to	
 # KTU 3.9 15						
-161218	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
-161219	tn	(ytn[	/y-t-n/	vb	give	
-161219	tn	(ytn[/	/y-t-n/	vb	give	
+182382	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
+182383	tn	(ytn[	/y-t-n/	vb	give	
+182383	tn	(ytn[/	/y-t-n/	vb	give	
 # KTU 3.9 16						
-161220	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-161221	ṯql	ṯql/	ṯql	n. m. sg. abs. gen.	1) unit of weight b) esp. shekel of silver	
-161222	dˤmnk	?	?	?	?	DULAT: NOT FOUND
+182384	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+182385	ṯql	ṯql/	ṯql	n. m. sg. abs. gen.	1) unit of weight b) esp. shekel of silver	
+182386	d	d	d	det. or rel. functor	2) which	
+182387	ˤmnk	ˤm(I)+nk	ʕm (I)	prep.	3) commercial meaning	
 # KTU 3.9 17						
-161223	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	1) unit of weight b) esp. shekel of silver	
-161224	ysˤ	nsˤ(I)[	/n-s-ʕ/ (I)	vb G prefc.	to pull out	
+182388	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	1) unit of weight b) esp. shekel of silver	
+182389	ysˤ	!y!(nsˤ(I)[	/n-s-ʕ/ (I)	vb G prefc. 3 m. sg.	to pull out	
 # KTU 3.9 18						
-161225	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
-161226	iḫršp	?	?	?	?	DULAT: NOT FOUND
+182390	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
+182391	iḫršp	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 19						
-161227	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-161228	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. cstr. gen.	express messenger	
+182392	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+182393	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. cstr. gen.	express messenger	
 # KTU 3.9 20						
-161229	w	w	w	conj.	and	
-161230	ˤbdn	ˤbd(I)/+n	ʕbd (I)	n. m. pl. cstr. nom.	servant	
+182394	w	w	w	conj.	and	
+182395	ˤbdn	ˤbd(I)/+n	ʕbd (I)	n. m. pl. cstr. nom.	servant	
 # KTU 3.9 21						
-161231	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-161231	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-161231	bn	bn(II)	bn (II)	prep.	between	
-161231	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-161231	bn	bn[	/b-n/	vb G impv. 2	to understand	
-161232	sgld	sgld/	sgld	PN sg. abs. nom.	sgld	
+182396	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+182396	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+182396	bn	bn(II)	bn (II)	prep.	between	
+182396	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+182396	bn	bn[	/b-n/	vb G impv. 2	to understand	
+182397	sgld	sgld/	sgld	PN sg. abs. nom.	sgld	

@@ -1,21 +1,20 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.102 1						
-160439	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-160440	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-160440	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+181571	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+181572	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 2.102 2						
-160441	l	l(I)	l (I)	prep.	to	
-160442	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
-160443	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say, tell, announce, communicate, inform	
-160443	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+181573	l	l(I)	l (I)	prep.	to	
+181574	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
+181575	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say, tell, announce, communicate, inform	
+181575	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
 # KTU 2.102 3						
-160444	ky	k(III)&y	k (III)	Subordinating or completive functor	3) in compounds	
-160444	ky	k(II)&y	k (II)	emph. functor	yes	
-160444	ky	k(IV)+y	k (IV)	adv.	thus	
-160445	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
+181576	ky	k(III)+y	k (III)	Subordinating or completive functor	3) in compounds	
+181576	ky	k(II)+y	k (II)	emph. functor	yes	
+181576	ky	k(IV)+y	k (IV)	adv.	thus	
+181577	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
 # KTU 2.102 4						
-160446	w	w	w	conj.	4) declarative and emphatic functor	
-160447	rg	?	?	?	?	DULAT: NOT FOUND
+181578	w	w	w	conj.	4) declarative and emphatic functor	
+181579	rg	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.102 5						
-160448	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
-160448	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	
+181580	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+181580	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. abs. nom.	servant	

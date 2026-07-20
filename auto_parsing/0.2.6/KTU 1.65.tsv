@@ -1,92 +1,95 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.65 1						
-149403	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149403	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	1) god d) gods of a place or region	
-149404	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
-149404	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-149405	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149405	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	
+169805	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+169805	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
+169806	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
+169806	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+169807	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+169807	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 # KTU 1.65 2						
-149406	dr	dr/	dr	n. m. pl. cstr. gen.	1) circle of relatives and friends	
-149406	dr	dr/	dr	n. m. sg. cstr. gen.	1) circle of relatives and friends	
-149407	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
-149407	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-149408	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149408	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+169808	dr	dr/	dr	n. m. pl. cstr. gen.	1) circle of relatives and friends	
+169808	dr	dr/	dr	n. m. sg. cstr. gen.	1) circle of relatives and friends	
+169809	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
+169809	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+169810	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+169810	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 3						
-149409	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. cstr. gen.	assembly	
-149410	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
-149410	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-149411	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149411	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+169811	mpḫrt	mpḫr(t/t	mpḫrt	n. f. sg. cstr. gen.	assembly	
+169812	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	
+169812	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+169813	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+169813	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 4						
-149412	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. gen.	term for the kings of Ugarit	
-149413	wšnm	?	?	?	?	DULAT: NOT FOUND
+169814	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. gen.	term for the kings of Ugarit	
+169815	w	w	w	conj.	and	
+169816	šnm	šnm/	šnm	DN sg. cstr. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 # KTU 1.65 5						
-149414	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-149414	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-149414	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-149414	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-149415	waṯrt	?	?	?	?	DULAT: NOT FOUND
+169817	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169817	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+169818	w	w	w	conj.	and	
+169819	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. nom.	back part (of the head)	
 # KTU 1.65 6						
-149416	ḥnn	ḥn/+n	ḥn	n. m. cstr. nom.	grace	
-149416	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. cstr. nom.	kindness	
-149417	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	DULAT quote in ḥn (cue: god)
+169820	ḥnn	ḥn/+n	ḥn	n. m. cstr. gen.	grace	
+169820	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. cstr. gen.	kindness	
+169821	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+169821	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 # KTU 1.65 7						
-149418	nṣbt	nṣb(t/t	nṣbt	n. f. sg. cstr. gen.	predilection	
-149419	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149419	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+169822	nṣbt	nṣb(t/t	nṣbt	n. f. sg. cstr. gen.	predilection	
+169823	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+169823	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 8						
-149420	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	1) peace a) sk šlm l kbd ảrṣ pour out peace into the bosom of the earth	
-149421	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-149421	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+169824	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	1) peace a) sk šlm l kbd ảrṣ pour out peace into the bosom of the earth	
+169825	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+169825	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 # KTU 1.65 9						
-149422	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
-149423	ḫš	ḫš/	ḫš	DN sg. cstr. gen.	ḫš	
-149424	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
-149425	add	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
+169826	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
+169827	ḫš	ḫš/	ḫš	DN sg. cstr. gen.	ḫš	
+169828	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
+169829	add	?	?	?	?	DULAT candidates (no reconstructable encoding): hd(d) - Haddu/Hadad
 # KTU 1.65 10						
-149426	bˤd	bˤd	bʕd	adv. or prep.	behind	
-149427	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-149428	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-149428	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+169830	bˤd	bˤd	bʕd	adv. or prep.	behind	
+169831	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+169832	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+169832	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.65 11						
-149429	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+169833	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.65 12						
-149430	b	b	b	prep.	in	
-149431	mrḥ	mrḥ/	mrḥ	n. f. sg. cstr. gen.	lance	
-149432	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-149432	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+169834	b	b	b	prep.	in	
+169835	mrḥ	mrḥ/	mrḥ	n. f. sg. cstr. gen.	lance	
+169836	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169836	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 13						
-149433	b	b	b	prep.	in	
-149434	nit	ni(t/t	nỉt	n. f. sg. cstr. gen.	1) axe b) as a (divine) weapon	
-149435	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-149435	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+169837	b	b	b	prep.	in	
+169838	nit	ni(t/t	nỉt	n. f. sg. cstr. gen.	1) axe b) as a (divine) weapon	
+169839	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169839	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 14						
-149436	b	b	b	prep.	in	
-149437	ṣmd	ṣmd/	ṣmd	n. m. sg. cstr. gen.	4) mace or double axe (De Moor SP 135)	
-149438	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-149438	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+169840	b	b	b	prep.	in	
+169841	ṣmd	ṣmd/	ṣmd	n. m. sg. cstr. gen.	4) mace or double axe (De Moor SP 135)	
+169842	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169842	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 15						
-149439	b	b	b	prep.	in	
-149440	dṯn	dṯn/	dṯn	n. m. sg. cstr. gen.	fat offering	
-149441	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-149441	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+169843	b	b	b	prep.	in	
+169844	dṯn	dṯn/	dṯn	n. m. sg. cstr. gen.	fat offering	
+169845	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169845	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 16						
-149442	b	b	b	prep.	in	
-149443	šrp	šrp/	šrp	n. m. sg. cstr. gen.	1) burnt sacrifice	
-149444	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-149444	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+169846	b	b	b	prep.	in	
+169847	šrp	šrp/	šrp	n. m. sg. cstr. gen.	1) burnt sacrifice	
+169848	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169848	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 17						
-149445	b	b	b	prep.	in	
-149446	knt	kn(t/t	knt	n. f. sg. cstr. gen.	continuity	
-149447	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-149447	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+169849	b	b	b	prep.	in	
+169850	knt	kn(t/t	knt	n. f. sg. cstr. gen.	continuity	
+169851	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169851	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 18						
-149448	b	b	b	prep.	in	
-149449	ġdyn	ġdyn(I)/	ġdyn (I)	n. m. sg. cstr. gen.	entretien	
-149450	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-149450	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+169852	b	b	b	prep.	in	
+169853	ġdyn	ġdyn(I)/	ġdyn (I)	n. m. sg. cstr. gen.	entretien	
+169854	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169854	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 19						
-149451	b	b	b	prep.	in	
-149452	ṣdil	?	?	?	?	DULAT: NOT FOUND
+169855	b	b	b	prep.	in	
+169856	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. cstr. gen.	hunt	
+169857	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+169857	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	

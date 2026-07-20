@@ -1,161 +1,142 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.32 1						
-162054	l	l(I)	l (I)	prep.	to	
-162055	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	DULAT quote in l (I) (cue: day)
-162056	hnd	hnd	hnd	dem.	this	
+183241	l	l(I)	l (I)	prep.	to	
+183242	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	DULAT quote in l (I) (cue: day)
+183243	hnd	hnd	hnd	dem.	this	
 # KTU 3.32 2						
-162057	l	l(I)	l (I)	prep.	to	
-162058	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
-162059	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
+183244	l	l(I)	l (I)	prep.	to	
+183245	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
+183246	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
 # KTU 3.32 3						
-162060	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-162061	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
+183247	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+183248	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
 # KTU 3.32 4						
-162062	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-162063	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
+183249	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+183250	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 # KTU 3.32 5						
-162064	bhtm	bht(II)/m	bt (II)	n. m. pl. cstr. gen.	1) house	
-162065	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	2) stretch of cultivated land	
-162066	d	d	d	det. or rel. functor	the one(s) of	
-162067	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
-162067	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
+183251	bhtm	bht(II)/m	bt (II)	n. m. pl. cstr. gen.	1) house	
+183252	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	2) stretch of cultivated land	
+183253	d	d	d	det. or rel. functor	the one(s) of	
+183254	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
+183254	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
 # KTU 3.32 6						
-162068	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-162068	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-162069	l	l(I)	l (I)	prep.	to	
-162070	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
+183255	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+183256	l	l(I)	l (I)	prep.	to	
+183257	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 3.32 7						
-162071	w	w	w	conj.	1) copulative conj.	
-162072	l	l(I)	l (I)	prep.	to	
-162073	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	1) son a) of men and gods	
-162074	u	u	ủ	conj.	1) or a) simple disj. use	
-162075	l	l(I)	l (I)	prep.	to	
-162075	l	l(II)	l (II)	adv.	no	
-162075	l	l(III)	l (III)	functor	certainly	
+183258	w	w	w	conj.	1) copulative conj.	
+183259	l	l(I)	l (I)	prep.	to	
+183260	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	1) son a) of men and gods	
+183261	u	u	ủ	conj.	1) or a) simple disj. use	
+183262	l	l(I)	l (I)	prep.	to	
+183262	l	l(II)	l (II)	adv.	no	
+183262	l	l(III)	l (III)	functor	certainly	
 # KTU 3.32 8						
-162076	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
-162077	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter a) of men and gods	DULAT quote in bt (I) (cue: daughter)
-162078	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-162078	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+183263	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
+183264	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter a) of men and gods	DULAT quote in bt (I) (cue: daughter)
+183265	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 3.32 9						
-162079	u	u	ủ	conj.	or	
-162080	l	l(I)	l (I)	prep.	to	
-162080	l	l(II)	l (II)	adv.	no	
-162080	l	l(III)	l (III)	functor	certainly	
-162081	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-162082	ṣrdth	ṣrd(t/t+h	ṣrdt	n. f. sg. cstr. gen.	?	
+183266	u	u	ủ	conj.	or	
+183267	l	l(I)	l (I)	prep.	to	
+183267	l	l(II)	l (II)	adv.	no	
+183267	l	l(III)	l (III)	functor	certainly	
+183268	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+183269	ṣrdth	ṣrd(t/t+h	ṣrdt	n. f. sg. cstr. gen.	?	
 # KTU 3.32 10						
-162083	u	u	ủ	conj.	or	
-162084	l	l(I)	l (I)	prep.	to	
-162084	l	l(II)	l (II)	adv.	no	
-162084	l	l(III)	l (III)	functor	certainly	
-162085	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-162086	amhth	amt(I)/+h	ảmt (I)	n. f. cstr. gen.	1) female slave	
+183270	u	u	ủ	conj.	or	
+183271	l	l(I)	l (I)	prep.	to	
+183271	l	l(II)	l (II)	adv.	no	
+183271	l	l(III)	l (III)	functor	certainly	
+183272	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+183273	amhth	am&ht(I)/+h	ảmt (I)	n. f. cstr. gen.	1) female slave	
 # KTU 3.32 11						
-162087	d	d	d	det. or rel. functor	1) the one(s) of b) det. of property	
-162088	ihb	(ʔ&ihb[	/ʔ-h-b/	vb G suffc. 3 m. sg.	to love	
-162088	ihb	(ʔ&ihb[:d	/ʔ-h-b/	vb D suffc.	to love	
-162089	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
+183274	d	d	d	det. or rel. functor	2) which	
+183275	ihb	(ʔ&ihb[	/ʔ-h-b/	vb G suffc. 3 m. sg.	to love	
+183275	ihb	(ʔ&ihb[:d	/ʔ-h-b/	vb D suffc.	to love	
+183276	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
 # KTU 3.32 12						
-162090	b	b	b	prep.	1) spatial location a) place in which something occurs	
-162091	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
-162092	l	l(I)	l (I)	prep.	to	
-162093	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
-162094	hwt	hw&t	hw	pers. pn.	2) this	
-162094	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
+183277	b	b	b	prep.	4) relation of accompaniment and instrumental a) company	
+183278	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
+183279	l	l(I)	l (I)	prep.	to	
+183280	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
+183281	hwt	hw&t	hw	pers. pn.	2) this	
+183281	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 3.32 13						
-162095	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-162095	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-162096	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. nom.	ʿbdmlk	
+183282	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
+183282	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+183283	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. nom.	ʿbdmlk	
 # KTU 3.32 14						
-162097	bhth	bt(II)/+h	bt (II)	n. m. cstr. gen.	house	
-162098	šdh	šd(I)/+h	šd (I)	n. m. cstr. nom.	open field	
+183284	bhth	b&ht(II)/+h	bt (II)	n. m. cstr. gen.	house	
+183285	šdh	šd(I)/+h	šd (I)	n. m. cstr. nom.	open field	
 # KTU 3.32 15						
-162099	mrˤh	mrˤ/+h	mrʕ	n. pl. cstr. nom.	pasture land	
+183286	mrˤh	mrˤ/+h	mrʕ	n. pl. cstr. nom.	pasture land	
 # KTU 3.32 16						
-162100	w	w	w	conj.	and	
-162101	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. nom.	ʿbdmlk	
+183287	w	w	w	conj.	and	
+183288	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. nom.	ʿbdmlk	
 # KTU 3.32 17						
-162102	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
-162103	km	k(III)	k (III)	functor	when	
-162103	km	k(I)	k (I)	prep.	like	
-162103	km	k(IV)	k (IV)	adv.	thus	
-162103	km	km	km	prep./conj./adv.		
-162103	km	+km, +km=	-km			
+183289	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
+183290	km	km	km	prep./conj./adv.		
 # KTU 3.32 18						
-162104	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
-162105	yškn	!y!škn[:d	/š-k-n/	vb D	to assign	
-162106	lhm	l(I)+hm	l (I)	prep.	1) prep. of direction b) ventive	
+183291	lbh	lb/+h	lb	n. m. cstr. gen.	heart	
+183292	yškn	!y!škn[:d	/š-k-n/	vb D	to assign	
+183293	lhm	l(I)+hm	l (I)	prep.	4) introducing a complement of the addressee	
 # KTU 3.32 19						
-162107	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
-162108	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
-162109	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
+183294	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
+183295	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
+183296	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 3.32 20						
-162110	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
-162110	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
-162111	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
-162112	w	w	w	conj.	and	
-162113	km	k(III)	k (III)	functor	when	
-162113	km	k(I)	k (I)	prep.	like	
-162113	km	k(IV)	k (IV)	adv.	thus	
-162113	km	km	km	prep./conj./adv.		
-162113	km	+km, +km=	-km			
+183297	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
+183297	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
+183298	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+183299	w	w	w	conj.	and	
+183300	km	km	km	prep./conj./adv.		
 # KTU 3.32 21						
-162114	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
-162115	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
-162116	hm	hm(II)	hm (II)	conj./interr. functor	if	
-162116	hm	hm(I)	hm (I)	pers. pn.	they	
+183301	lbh	lb/+h	lb	n. m. cstr. gen.	heart	
+183302	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
+183303	hm	hm(II)	hm (II)	conj./interr. functor	if	
+183303	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 3.32 22						
-162117	hm	hm(II)	hm (II)	conj./interr. functor	if	
-162117	hm	hm(I)	hm (I)	pers. pn.	they	
-162118	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
-162119	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
-162119	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
+183304	hm	hm(II)	hm (II)	conj./interr. functor	if	
+183304	hm	hm(I)	hm (I)	pers. pn.	they	
+183305	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
+183306	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
+183306	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
 # KTU 3.32 23						
-162120	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
-162121	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-162121	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-162121	bn	bn(II)	bn (II)	prep.	between	
-162121	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-162121	bn	bn[	/b-n/	vb G impv. 2	to understand	
-162122	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-162122	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-162123	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-162123	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+183307	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+183308	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+183308	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+183308	bn	bn(II)	bn (II)	prep.	between	
+183308	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+183308	bn	bn[	/b-n/	vb G impv. 2	to understand	
+183309	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+183309	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
+183310	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 3.32 24						
-162124	w	w	w	conj.	and	
-162125	km	k(III)	k (III)	functor	when	
-162125	km	k(I)	k (I)	prep.	like	
-162125	km	k(IV)	k (IV)	adv.	thus	
-162125	km	km	km	prep./conj./adv.		
-162125	km	+km, +km=	-km			
-162126	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
+183311	w	w	w	conj.	and	
+183312	km	km	km	prep./conj./adv.		
+183313	lbh	lb/+h	lb	n. m. cstr. gen.	heart	
 # KTU 3.32 25						
-162127	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
-162128	hm	hm(II)	hm (II)	conj./interr. functor	if	
-162128	hm	hm(I)	hm (I)	pers. pn.	they	
-162129	w	w	w	conj.	and	
-162130	hm	hm(II)	hm (II)	conj./interr. functor	if	
-162130	hm	hm(I)	hm (I)	pers. pn.	they	
+183314	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
+183315	hm	hm(II)	hm (II)	conj./interr. functor	if	
+183315	hm	hm(I)	hm (I)	pers. pn.	they	
+183316	w	w	w	conj.	and	
+183317	hm	hm(II)	hm (II)	conj./interr. functor	if	
+183317	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 3.32 26						
-162131	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
-162132	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
-162132	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
-162133	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-162134	ṣrdth	ṣrd(t/t+h	ṣrdt	n. f. sg. cstr. gen.	?	
+183318	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
+183319	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
+183319	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
+183320	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+183321	ṣrdth	ṣrd(t/t+h	ṣrdt	n. f. sg. cstr. gen.	?	
 # KTU 3.32 27						
-162135	u	u	ủ	conj.	or	
-162136	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-162137	amhth	amt(I)/+h	ảmt (I)	n. f. cstr. gen.	(female) slave	
+183322	u	u	ủ	conj.	or	
+183323	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+183324	amhth	am&ht(I)/+h	ảmt (I)	n. f. cstr. gen.	(female) slave	
 # KTU 3.32 28						
-162138	w	w	w	conj.	and	
-162139	km	k(III)	k (III)	functor	when	
-162139	km	k(I)	k (I)	prep.	like	
-162139	km	k(IV)	k (IV)	adv.	thus	
-162139	km	km	km	prep./conj./adv.		
-162139	km	+km, +km=	-km			
-162140	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
+183325	w	w	w	conj.	and	
+183326	km	km	km	prep./conj./adv.		
+183327	lbh	lb/+h	lb	n. m. cstr. gen.	heart	
 # KTU 3.32 29						
-162141	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
-162142	hm	hm(II)	hm (II)	conj./interr. functor	if	
-162142	hm	hm(I)	hm (I)	pers. pn.	they	
+183328	ybhl	!y!bhl[:d	/b-h-l/	vb D prefc. 3 m. sg.	to dismiss	
+183329	hm	hm(II)	hm (II)	conj./interr. functor	if	
+183329	hm	hm(I)	hm (I)	pers. pn.	they	

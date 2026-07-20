@@ -1,1562 +1,1580 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 I:1						
-144140	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
-144141	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144141	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144141	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144141	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144142	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
-144143	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
-144143	apnk	apnk	ảpnk	adv. functor of illation	then	
-144144	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164265	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
+164266	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164266	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164266	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164266	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164267	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
+164268	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
+164268	apnk	apnk	ảpnk	adv. functor of illation	then	
+164269	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 # KTU 1.17 I:2						
-144145	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	1) god c) object or purpose of an action	
-144146	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
-144147	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
-144148	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god c) object or purpose of an action	
-144149	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	1) to feed	
+164270	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	1) god c) object or purpose of an action	
+164271	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+164272	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164273	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god c) object or purpose of an action	
+164274	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	1) to feed	
 # KTU 1.17 I:3						
-144150	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
-144151	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
-144152	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-144153	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
-144154	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
+164275	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164276	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
+164277	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+164278	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+164279	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
 # KTU 1.17 I:4						
-144155	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. gen.	garment	
-144156	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up	
-144157	w	w	w	conj.	and	
-144158	yškb	!y!škb[	/š-k-b/	vb G prefc. 3 m. sg.	to lie down	
-144159	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+164280	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. gen.	garment	
+164281	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up	
+164282	w	w	w	conj.	and	
+164283	yškb	!y!škb[	/š-k-b/	vb G prefc. 3 m. sg.	to lie down	
+164284	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 # KTU 1.17 I:5						
-144160	mizrth	mizr(t/t+h	mỉzrt	n. f. sg. cstr. gen.	garment	
-144161	p	p(I)	p (I)	conj. functor	and	DULAT direct ref
-144162	ynlln	?	?	?	?	DULAT: NOT FOUND
-144163	hn	hn	hn	functor	behold!	
-144164	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day b) as a period in time	DULAT direct ref
-144164	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day b) as a period in time	DULAT direct ref
+164285	mizrth	mizr(t/t+h	mỉzrt	n. f. sg. cstr. gen.	garment	
+164286	p	p(I)	p (I)	conj. functor	and	DULAT direct ref
+164287	ynlln	?	?	?	?	DULAT: NOT FOUND
+164288	hn	hn	hn	functor	behold!	
+164289	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day b) as a period in time	DULAT direct ref
+164289	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day b) as a period in time	DULAT direct ref
 # KTU 1.17 I:6						
-144165	w	w	w	conj.	and	
-144166	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-144166	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-144166	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-144167	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
-144168	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
-144169	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+164290	w	w	w	conj.	and	
+164291	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+164291	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+164291	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+164292	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164293	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
+164294	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
 # KTU 1.17 I:7						
-144170	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
-144171	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-144172	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
-144173	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164295	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164296	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+164297	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
+164298	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 # KTU 1.17 I:8						
-144174	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
-144175	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-144176	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
-144177	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
-144178	rbˤ	rbˤ/	rbʕ	num.	fourth	
-144179	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-144179	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-144179	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+164299	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
+164300	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+164301	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+164302	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
+164303	rbˤ	rbˤ/	rbʕ	num.	fourth	
+164304	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+164304	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+164304	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 # KTU 1.17 I:9						
-144180	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
-144181	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
-144182	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
-144183	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164305	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164306	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
+164307	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+164308	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 # KTU 1.17 I:10						
-144184	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-144185	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
-144186	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
-144187	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
-144188	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+164309	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+164310	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
+164311	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164312	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
+164313	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 # KTU 1.17 I:11						
-144189	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. gen.	sanctuary	
-144190	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
-144191	ymṯdṯ	?	?	?	?	DULAT: NOT FOUND
-144192	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-144192	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
-144193	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
-144193	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-144194	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164314	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. gen.	sanctuary	
+164315	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
+164316	ymṯdṯ	?	?	?	?	DULAT: NOT FOUND
+164317	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+164317	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
+164318		?	?	?	?	
+164319	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+164319	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+164320	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 # KTU 1.17 I:12						
-144195	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
-144196	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
-144197	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
-144198	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-144199	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
+164321	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
+164322	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+164323	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164324	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+164325	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
 # KTU 1.17 I:13						
-144200	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
-144201	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
-144202	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-144203	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
-144204	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
-144205	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. gen.	garment	
+164326	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
+164327	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
+164328	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+164329	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+164330	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
+164331	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. gen.	garment	
 # KTU 1.17 I:14						
-144206	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
-144207	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
-144207	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-144208	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. nom.	garment	
-144209	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up, rise	
-144210	w	w	w	conj.	and	
-144211	yškb	!y!škb[	/š-k-b/	vb G prefc. 3 m. sg.	to lie down	
+164332	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+164333	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+164333	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
+164334	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. nom.	garment	
+164335	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up, rise	
+164336	w	w	w	conj.	and	
+164337	yškb	!y!škb[	/š-k-b/	vb G prefc. 3 m. sg.	to lie down	
 # KTU 1.17 I:15						
-144212	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
-144213	mizrth	mizr(t/t+h	mỉzrt	n. f. sg. cstr. gen.	garment	
-144214	p	p(I)	p (I)	conj. functor	and	
-144214	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-144214	p	p(II)	p (II)	adv.	here	
-144215	yln	!y!ln[	/l-n/	vb G prefc. 3 m. sg.	to sleep, stay the night	
-144216	mk	mk(II)	mk (II)	deictic functor	behold!	
-144217	b	b	b	prep.	1) spatial location a) place in which something occurs	
-144218	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
-144219	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	DULAT quote in b (cue: day)
+164338	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+164339		?	?	?	?	
+164340	mizrth	mizr(t/t+h	mỉzrt	n. f. sg. cstr. gen.	garment	
+164341	p	p(I)	p (I)	conj. functor	and	
+164341	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+164341	p	p(II)	p (II)	adv.	here	
+164342	yln	!y!ln[	/l-n/	vb G prefc. 3 m. sg.	to sleep, stay the night	
+164343	mk	mk(II)	mk (II)	deictic functor	behold!	
+164344	b	b	b	prep.	2) temporal situation a) time when something happens	
+164345	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
+164346	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	DULAT quote in b (cue: day)
 # KTU 1.17 I:16						
-144220	w	w	w	conj.	and	
-144221	yqrb	!y!qrb[	/q-r-b/	vb G prefc. 3 m. sg.	to approach	
-144222	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-144222	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-144223	b	b	b	prep.	in	
-144224	ḥnth	ḥn(t/t+h	ḥnt	n. f. sg. cstr. gen.	kindness	
-144225	abyxn	?	?	?	?	DULAT: NOT FOUND
-144226	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
+164347	w	w	w	conj.	and	
+164348	yqrb	!y!qrb[	/q-r-b/	vb G prefc. 3 m. sg.	to approach	
+164349	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+164349	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+164350	b	b	b	prep.	in	
+164351	ḥnth	ḥn(t/t+h	ḥnt	n. f. sg. cstr. gen.	kindness	
+164352	abyxn	?	?	?	?	DULAT: NOT FOUND
+164353	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
 # KTU 1.17 I:17						
-144227	dnil	dnil/	dnỉl	PN sg. cstr. gen.	Raphaite	
-144228	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144228	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144228	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144228	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144229	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
-144230	anḫ	anḫ/	ảnḫ	adj. m. sg. abs. nom.	complaining	
-144231	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
+164354	dnil	dnil/	dnỉl	PN sg. cstr. gen.	Raphaite	
+164355	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164355	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164355	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164355	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164356	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
+164357	anḫ	anḫ/	ảnḫ	adj. m. sg. abs. nom.	complaining	
+164358	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
 # KTU 1.17 I:18						
-144232	mt	mt(III)/	mt (III)	n. m. pl. cstr. gen.	3) hero	DULAT direct ref
-144232	mt	mt(III)/	mt (III)	n. m. sg. cstr. gen.	3) hero	DULAT direct ref
-144233	hrnmy	hrnmy/	hrnmy	GN sg. abs. gen.	native of the TN *hrnm	
-144234	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
-144235	in	in/	ỉn	n. m. sg. cstr. nom.	2) he / she / it does not have	
-144236	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	1) son b) esp. in the royal legends	DULAT direct ref
-144237	lh	l(I)+h	l (I)	prep.	to	
+164359	mt	mt(III)/	mt (III)	n. m. pl. cstr. gen.	3) hero	DULAT direct ref
+164359	mt	mt(III)/	mt (III)	n. m. sg. cstr. gen.	3) hero	DULAT direct ref
+164360	hrnmy	hrnmy/	hrnmy	GN sg. abs. gen.	native of the TN *hrnm	
+164361	d	d	d	det. or rel. functor	2) which	
+164362	in	in/	ỉn	n. m. sg. cstr. nom.	2) he / she / it does not have	
+164363	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	1) son b) esp. in the royal legends	DULAT direct ref
+164364	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.17 I:19						
-144238	km	km	km	prep./conj./adv.		DULAT direct ref
-144239	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. gen.	2) in a figurative sense b) neighbour	
-144240	w	w	w	conj.	and	
-144241	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. nom.	root	
-144242	km	km	km	prep./conj./adv.		DULAT direct ref
-144243	aryh	ary(I)/+h	ảry (I)	n. m. sg. cstr. gen.	fellow	
+164365	km	km	km	prep./conj./adv.		
+164366	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. gen.	2) in a figurative sense b) neighbour	
+164367	w	w	w	conj.	and	
+164368	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. nom.	root	
+164369	km	km	km	prep./conj./adv.		
+164370	aryh	ary(I)/+h	ảry (I)	n. m. sg. cstr. gen.	fellow	
 # KTU 1.17 I:20						
-144244	bl	bl(I)	bl (I)	adv. or emph. functor	no	DULAT direct ref
-144245	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. cstr. nom.	2) to have	
-144246	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
-144247	lh	l(I)+h	l (I)	prep.	to	
-144248	wmaḫh	?	?	?	?	DULAT: NOT FOUND
-144249	w	w	w	conj.	and	
-144250	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. nom.	2) offspring	
+164371	bl	bl(I)	bl (I)	adv. or emph. functor	no	DULAT direct ref
+164372	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. cstr. nom.	2) to have	
+164373	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+164374	lh	l(I)+h	l (I)	prep.	to	
+164375	wmaḫh	?	?	?	?	DULAT: NOT FOUND
+164376	w	w	w	conj.	and	
+164377	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. nom.	2) offspring	
 # KTU 1.17 I:21						
-144251	km	k(III)	k (III)	functor	when	
-144251	km	k(I)	k (I)	prep.	like	
-144251	km	k(IV)	k (IV)	adv.	thus	
-144251	km	km	km	prep./conj./adv.		
-144251	km	+km, +km=	-km			
-144252	aryh	ary(I)/+h	ảry (I)	n. m. sg. cstr. nom.	fellow	
-144253	uzrm	uzr/~m	ủzr	adj. m. abs. nom. sg.	clothed	
-144254	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-144255	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
+164378	km	km	km	prep./conj./adv.		
+164379	aryh	ary(I)/+h	ảry (I)	n. m. sg. cstr. gen.	fellow	
+164380	uzrm	uzr/~m	ủzr	adj. m. abs. nom. sg.	clothed	
+164381	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+164382	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
 # KTU 1.17 I:22						
-144256	uzrm	uzr/~m	ủzr	adj. m. abs. nom. sg.	clothed	
-144257	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
-144258	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-144259	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. gen.	sanctuary	
+164383	uzrm	uzr/~m	ủzr	adj. m. abs. nom. sg.	clothed	
+164384	yšqy	!y!šqy[	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
+164385	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+164386	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. gen.	sanctuary	
 # KTU 1.17 I:23						
-144260	l	l(III)	l (III)	functor	certainly	DULAT direct ref
-144261	tbrknn	!t!brk(II)[:d+nn	/b-r-k/ (II)	vb D prefc.	to be blessed	
-144262	l	l(IV)	l (IV)	interj.	oh!	DULAT direct ref
-144263	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	
-144264	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-144265	aby	ab/+y	ảb	n. m. cstr. gen.	father	
+164387	l	l(III)	l (III)	functor	certainly	DULAT direct ref
+164388	tbrknn	!t!brk(II)[:d+nn	/b-r-k/ (II)	vb D prefc.	to be blessed	
+164389	l	l(IV)	l (IV)	interj.	oh!	DULAT direct ref
+164390	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	
+164391	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+164392	aby	ab/+y	ảb	n. m. cstr. gen.	father	
 # KTU 1.17 I:24						
-144266	tmrnn	tmr/+nn	tmr	PN sg. cstr. nom.	tmr	
-144267	l	l(I)	l (I)	prep.	to	
-144267	l	l(II)	l (II)	adv.	no	
-144267	l	l(III)	l (III)	functor	certainly	
-144268	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
-144268	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to build	
-144268	bny	bny/	bny	n. m. sg. cstr. nom.	architect	
-144269	bnwt	bn&w(t(II)/t=	bnt (II)	n. f. pl. abs. gen.	produce	
+164393	tmrnn	tmr/+nn	tmr	PN sg. cstr. nom.	tmr	
+164394	l	l(I)	l (I)	prep.	to	
+164394	l	l(II)	l (II)	adv.	no	
+164394	l	l(III)	l (III)	functor	certainly	
+164395	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
+164395	bny	bny[/	/b-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to build	
+164395	bny	bny/	bny	n. m. sg. cstr. nom.	architect	
+164396	bnwt	bn&w(t(II)/t=	bnt (II)	n. f. pl. abs. gen.	produce	
 # KTU 1.17 I:25						
-144270	w	w	w	conj.	and	
-144271	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable), have	
-144272	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	1) son b) esp. in the royal legends	
-144273	b	b	b	prep.	1) spatial location a) place in which something occurs	
-144274	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	1) house	DULAT direct ref
-144275	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. gen.	2) offspring	
-144276	b	b	b	prep.	1) spatial location a) place in which something occurs	
-144277	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
+164397	w	w	w	conj.	and	
+164398	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable), have	
+164399	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	1) son b) esp. in the royal legends	
+164400	b	b	b	prep.	1) spatial location a) place in which something occurs	
+164401	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	2) palace	DULAT direct ref
+164402	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. gen.	2) offspring	
+164403	b	b	b	prep.	1) spatial location a) place in which something occurs	
+164404	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
 # KTU 1.17 I:26						
-144278	hklh	hkl/+h	hkl	n. m. cstr. gen.	palace	
-144279	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. abs. nom.	to erect	
-144280	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
-144280	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
-144281	ilibh	ilib(I)&h/	ỉlỉb (I)	DN sg. abs. nom.	father god	
-144282	b	b	b	prep.	in	
-144283	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	DULAT direct ref
+164405	hklh	hkl/+h	hkl	n. m. cstr. gen.	palace	
+164406	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. abs. nom.	to erect	
+164407	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
+164407	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
+164408	ilibh	ilib(I)&h/	ỉlỉb (I)	DN sg. abs. nom.	father god	
+164409	b	b	b	prep.	in	
+164410	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	DULAT direct ref
 # KTU 1.17 I:27						
-144284	ztr	ztr/	ztr	n. m. sg. abs. gen.	cippus	
-144285	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
-144286	l	l(I)	l (I)	prep.	to	DULAT direct ref
-144287	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	4) the underworld	
-144288	mšṣu	mšṣu/	mšṣủ	n. m. sg. cstr. gen.	one who leads out	DULAT quote in mšṣủ (cue: leads)
-144289	qṭrh	qṭr/+h	qṭr	n. m. cstr. gen.	smoke	
+164411	ztr	ztr/	ztr	n. m. sg. abs. gen.	cippus	
+164412	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
+164413	l	l(I)	l (I)	prep.	to	DULAT direct ref
+164414	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	4) the underworld	
+164415	mšṣu	mšṣu/	mšṣủ	n. m. sg. cstr. gen.	one who leads out	
+164416	qṭrh	qṭr/+h	qṭr	n. m. cstr. gen.	smoke	
 # KTU 1.17 I:28						
-144290	l	l(I)	l (I)	prep.	to	
-144291	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. gen.	1) dust b) meton	
-144292	dmr	dmr	dmr	→	?	
-144293	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
-144294	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
-144295	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	2) jaw	DULAT direct ref
+164417	l	l(I)	l (I)	prep.	to	
+164418	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. gen.	1) dust b) meton	
+164419	dmr	dmr	dmr	→	?	
+164420	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
+164421	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
+164422	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	2) jaw	DULAT direct ref
 # KTU 1.17 I:29						
-144296	niṣh	n(ʔ&iṣ[/h	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise, insult	
-144297	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject, drive out, evict, cast out	
-144297	grš	grš[	/g-r-š/	vb G impv. 2	to eject, drive out, evict, cast out	
-144297	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject, drive out, evict, cast out	
-144298	d	d	d	det. or rel. functor	3) the one (who / that)	
-144299	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. abs. nom.	to make, process, work	
-144299	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. nom.	to make, process, work	
-144300	lnh	l(I)+nh	l (I)	prep.	5) introducing an object complement or cause	
+164423	niṣh	n(ʔ&iṣ[/h	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise, insult	
+164424	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject, drive out, evict, cast out	
+164424	grš	grš[	/g-r-š/	vb G impv. 2	to eject, drive out, evict, cast out	
+164424	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject, drive out, evict, cast out	
+164425	d	d	d	det. or rel. functor	3) the one (who / that)	
+164426	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. abs. nom.	to make, process, work	
+164426	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. nom.	to make, process, work	
+164427	lnh	l(I)+nh	l (I)	prep.	5) introducing an object complement or cause	
 # KTU 1.17 I:30						
-144301	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
-144302	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
-144303	b	b	b	prep.	1) spatial location a) place in which something occurs	
-144304	škrn	škrn/	škrn	n. m. sg. abs. gen.	intoxication	
-144305	mˤmsh	ˤms[s+h	/ʕ-m-s/	vb	to load	
+164428	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
+164429	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
+164430	b	b	b	prep.	2) temporal situation a) time when something happens	
+164431	škrn	škrn/	škrn	n. m. sg. abs. gen.	intoxication	
+164432	mˤmsh	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-m-s/ - to load
 # KTU 1.17 I:31						
-144306	kšbˤ	?	?	?	?	DULAT: NOT FOUND
-144307	yn	yn/	yn	n. m. sg. cstr. nom.	1) wine a) yn	
-144308	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. cstr. gen.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
-144309	ksmh	ksm/+h	ksm	n. m. cstr. gen.	part	
-144310	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	3) temple	DULAT direct ref
-144311	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-144311	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
+164433	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in yn (cue: when)
+164434	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+164435	yn	yn/	yn	n. m. sg. cstr. nom.	1) wine a) yn	
+164436	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. cstr. gen.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
+164437	ksmh	ksm/+h	ksm	n. m. cstr. gen.	part	
+164438	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	3) temple	DULAT direct ref
+164439	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
+164439	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.17 I:32						
-144312	wmnth	?	?	?	?	DULAT: NOT FOUND
-144313	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-144314	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-144314	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-144315	ṭḫ	ṭḫ[/	/ṭ-ḫ/	vb G act. ptcpl. m. sg. cstr. gen.	to plaster	
-144316	ggh	gg(I)/+h	gg (I)	n. m. cstr. gen.	roof	
-144317	b	b	b	prep.	in	
-144318	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day c) in prepositional (nominal) expressions	DULAT direct ref
+164440	w	w	w	conj.	and	
+164441	mnth	mn(t(I)/t+h	mnt (I)	n. f. sg. cstr. nom.	1) portion	
+164442	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+164443	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+164443	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+164443	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+164443	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+164444	ṭḫ	ṭḫ[/	/ṭ-ḫ/	vb G act. ptcpl. m. sg. abs. nom.	to plaster	
+164445	ggh	gg(I)/+h	gg (I)	n. m. cstr. nom.	roof	
+164446	b	b	b	prep.	in	
+164447	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day c) in prepositional (nominal) expressions	DULAT direct ref
 # KTU 1.17 I:33						
-144319	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. pl. cstr. gen.	mud	
-144319	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. sg. cstr. gen.	mud	
-144320	rḥṣ	rḥṣ[/	/r-ḥ-ṣ/	vb G ptcpl. m. sg. cstr. gen.	to wash	
-144321	npṣh	npṣ/+h	npṣ	n. m. cstr. gen.	2) clothes	
-144322	b	b	b	prep.	in	
-144323	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day c) in prepositional (nominal) expressions	DULAT direct ref
-144324	rṯ	rṯ/	rṯ	n. m. sg. cstr. gen.	dirt	
+164448	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. pl. cstr. gen.	mud	
+164448	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. sg. cstr. gen.	mud	
+164449	rḥṣ	rḥṣ[/	/r-ḥ-ṣ/	vb G ptcpl. m. sg. cstr. gen.	to wash	
+164450	npṣh	npṣ/+h	npṣ	n. m. cstr. gen.	2) clothes	
+164451	b	b	b	prep.	in	
+164452	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day c) in prepositional (nominal) expressions	DULAT direct ref
+164453	rṯ	rṯ/	rṯ	n. m. sg. cstr. gen.	dirt	
 # KTU 1.17 I:34						
-144325	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
-144325	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
-144326	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	DULAT quote in /ʔ-ḫ-d(/ḏ)/ (cue: take)
-144327	it	?	?	?	?	DULAT: NOT FOUND
-144328	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	3) faithful	
-144329	ybrk	!y!brk(II)[:d	/b-r-k/ (II)	vb D prefc. 3 m. sg.	to be blessed	
+164454	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
+164454	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
+164455	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	DULAT quote in /ʔ-ḫ-d(/ḏ)/ (cue: take)
+164456	it	?	?	?	?	DULAT: NOT FOUND
+164457	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	3) faithful	
+164458	ybrk	!y!brk(II)[:d	/b-r-k/ (II)	vb D prefc. 3 m. sg.	to be blessed	
 # KTU 1.17 I:35						
-144330	dn	dn(I)/	dn (I)	n. m. sg. cstr. nom.	judgment	
-144331	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-144331	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-144332	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144332	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144332	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144332	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144333	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
-144334	ymr	?	?	?	?	DULAT: NOT FOUND
-144335	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
+164459	dn	dn(I)/	dn (I)	n. m. sg. cstr. nom.	judgment	
+164460	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+164460	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+164461	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164461	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164461	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164461	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164462	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
+164463	ymr	?	?	?	?	DULAT: NOT FOUND
+164464	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
 # KTU 1.17 I:36						
-144336	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144336	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144336	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144336	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144337	hrnmy	hrnmy/	hrnmy	GN sg. cstr. gen.	native of the TN *hrnm	
-144338	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	3) breath	
-144339	yḥ	!y!ḥ(w(I)[	/ḥ-w/y-y/ (I)	vb G prefc. 3 m. sg.	1) to live	
-144340	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
+164465	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164465	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164465	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164465	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164466	hrnmy	hrnmy/	hrnmy	GN sg. cstr. gen.	native of the TN *hrnm	
+164467	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	3) breath	
+164468	yḥ	!y!ḥ(y(y(I)[	/ḥ-w/y-y/ (I)	vb G prefc. 3 m. sg.	1) to live	
+164469	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
 # KTU 1.17 I:37						
-144341	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144341	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144341	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144341	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144342	rpi	rp(u/&i	rpủ	n. m. sg. cstr. gen.	healer	
-144343	brlt	brl(t/t	brlt	n. f. sg. cstr. gen.	1) hunger	
-144344	ġzr	ġzr/	ġzr	n. m. sg. cstr. gen.	1) lad	
-144345	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144345	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144345	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144345	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144346	hrnmy	hrnmy/	hrnmy	GN sg. abs. gen.	native of the TN *hrnm	
+164470	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164470	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164470	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164470	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164471	rpi	rp(u&i/	rpủ	n. m. sg. cstr. gen.	healer	
+164472	brlt	brl(t/t	brlt	n. f. sg. cstr. gen.	1) hunger	
+164473	ġzr	ġzr/	ġzr	n. m. sg. cstr. gen.	2) noble	
+164474	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164474	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164474	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164474	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164475	hrnmy	hrnmy/	hrnmy	GN sg. abs. gen.	native of the TN *hrnm	
 # KTU 1.17 I:38						
-144347	xxxxḥ	?	?	?	?	DULAT: NOT FOUND
-144348	hw	hw	hw	pers. pn.	1) he	
-144349	mḫ	mḫ[	/m-ḫ/	vb G suffc. 3 m. sg.	to feel exuberant	DULAT direct ref
-144349	mḫ	mḫ[	/m-ḫ/	vb G impv. 2	to feel exuberant	DULAT direct ref
-144349	mḫ	!!mḫ[/	/m-ḫ/	vb G inf.	to feel exuberant	DULAT direct ref
-144350	l	l(I)	l (I)	prep.	to	
-144351	ˤršh	ˤrš/+h	ʕrš	n. f. cstr. gen.	bed	
-144352	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up, rise	
+164476	xxxxḥ	?	?	?	?	DULAT: NOT FOUND
+164477	hw	hw	hw	pers. pn.	1) he	
+164478	mḫ	mḫ[	/m-ḫ/	vb G suffc. 3 m. sg.	to feel exuberant	DULAT direct ref
+164478	mḫ	mḫ[	/m-ḫ/	vb G impv. 2	to feel exuberant	DULAT direct ref
+164478	mḫ	!!mḫ[/	/m-ḫ/	vb G inf.	to feel exuberant	DULAT direct ref
+164479	l	l(I)	l (I)	prep.	to	
+164480	ˤršh	ˤrš/+h	ʕrš	n. f. cstr. gen.	bed	
+164481	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up, rise	
 # KTU 1.17 I:39						
-144353	w	w	w	conj.	and	
-144354	yškb	!y!škb[	/š-k-b/	vb G prefc. 3 m. sg.	to lie down	
-144355	bm	b+m(I)	b	prep.	in	
-144356	nšq	!!nšq[/	/n-š-q/	vb G inf.	to kiss	
-144357	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	2) married woman	
+164482	w	w	w	conj.	and	
+164483	yškb	!y!škb[	/š-k-b/	vb G prefc. 3 m. sg.	to lie down	
+164484	bm	b+m(I)	b	prep.	in	
+164485	nšq	!!nšq[/	/n-š-q/	vb G inf.	to kiss	
+164486	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	2) married woman	
 # KTU 1.17 I:40						
-144358	xxxxx	?	?	?	?	
-144359	b	b	b	prep.	in	
-144360	ḥbqh	!!ḥbq[/h	/ḥ-b-q/	vb G inf.	to embrace, take in one’s arms, cover	
-144361	ḥmḥmt	ḥmḥm(t/t	ḥmḥmt	n. f. sg. abs. nom.	pregnancy	
+164487	xxxxx	?	?	?	?	
+164488	b	b	b	prep.	in	
+164489	ḥbqh	!!ḥbq[/h	/ḥ-b-q/	vb G inf.	to embrace, take in one’s arms, cover	
+164490	ḥmḥmt	ḥmḥm(t/t	ḥmḥmt	n. f. sg. abs. nom.	pregnancy	
 # KTU 1.17 I:41						
-144362	xxxxxtn	?	?	?	?	DULAT: NOT FOUND
-144363	ylt	yld[	/y-l-d/	vb G suffc. 3 m. sg.	to give birth (to), bear	
-144364	ḥmḥmt	ḥmḥm(t/t	ḥmḥmt	n. f. sg. abs. nom.	pregnancy	
+164491	xxxxxtn	?	?	?	?	DULAT: NOT FOUND
+164492	ylt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-l-d/ - to give birth (to), bear
+164493	ḥmḥmt	ḥmḥm(t/t	ḥmḥmt	n. f. sg. abs. nom.	pregnancy	
 # KTU 1.17 I:42						
-144365	l	l(I)	l (I)	prep.	to	
-144365	l	l(II)	l (II)	adv.	no	
-144365	l	l(III)	l (III)	functor	certainly	
-144366	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
-144366	mt	mt(II)/	mt (II)	n. m. sg. cstr. nom.	death	
-144366	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-144366	mt	mt(I)/	mt (I)	n. m. sg. cstr. nom.	dead person	
-144367	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
-144368	w	w	w	conj.	and	
-144369	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable)	
-144370	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+164494	l	l(I)	l (I)	prep.	to	
+164494	l	l(II)	l (II)	adv.	no	
+164494	l	l(III)	l (III)	functor	certainly	
+164495	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
+164495	mt	mt(II)/	mt (II)	n. m. sg. cstr. nom.	death	
+164495	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+164495	mt	mt(I)/	mt (I)	n. m. sg. cstr. nom.	dead person	
+164496	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
+164497	w	w	w	conj.	and	
+164498	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable)	
+164499	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
 # KTU 1.17 I:43						
-144371	b	b	b	prep.	in	
-144372	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-144373	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. gen.	root	
-144374	b	b	b	prep.	in	
-144375	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
-144376	hklh	hkl/+h	hkl	n. m. cstr. gen.	palace	
+164500	b	b	b	prep.	in	
+164501	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+164502	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. gen.	root	
+164503	b	b	b	prep.	in	
+164504	qrb	qrb/	qrb	n. m. sg. cstr. gen.	inside	
+164505	hklh	hkl/+h	hkl	n. m. cstr. gen.	palace	
 # KTU 1.17 I:44						
-144377	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. abs. nom.	to erect	
-144378	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
-144378	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
-144379	ilibh	ilib(I)&h/	ỉlỉb (I)	DN sg. abs. nom.	father god	
-144380	b	b	b	prep.	in	
-144381	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+164506	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. abs. nom.	to erect	
+164507	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
+164507	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
+164508	ilibh	ilib(I)&h/	ỉlỉb (I)	DN sg. abs. nom.	father god	
+164509	b	b	b	prep.	in	
+164510	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
 # KTU 1.17 I:45						
-144382	ztr	ztr/	ztr	n. m. sg. abs. gen.	cippus	
-144383	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
-144384	l	l(I)	l (I)	prep.	to	
-144385	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
-144386	mšṣu	]š]yṣʔ[/u	/y-ṣ-ʔ/	vb Š act. ptcpl. m. sg. cstr. gen.	to make (someone) leave	
-144386	mšṣu	mšṣu/	mšṣủ	n. m. sg. cstr. gen.	one who leads out	
+164511	ztr	ztr/	ztr	n. m. sg. abs. gen.	cippus	
+164512	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
+164513	l	l(I)	l (I)	prep.	to	
+164514	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
+164515	mšṣu	mšṣu/	mšṣủ	n. m. sg. cstr. gen.	one who leads out	
 # KTU 1.17 I:46						
-144387	qṭrh	qṭr/+h	qṭr	n. m. cstr. gen.	smoke	
-144388	l	l(I)	l (I)	prep.	to	
-144389	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. cstr. gen.	dust	
-144390	ḏmr	ḏmr(I)[/	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to protect	
-144390	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg. abs. gen.	guardian	
-144391	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
+164516	qṭrh	qṭr/+h	qṭr	n. m. cstr. gen.	smoke	
+164517	l	l(I)	l (I)	prep.	to	
+164518	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. cstr. gen.	dust	
+164519	ḏmr	ḏmr(I)[/	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to protect	
+164519	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg. abs. gen.	guardian	
+164520	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 # KTU 1.17 I:47						
-144392	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
-144393	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
-144393	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
-144394	niṣh	n(ʔ&iṣ[/h	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
-144395	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
-144395	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
-144395	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject	
-144396	d	d	d	det. or rel. functor	the one(s) of	
-144397	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
-144397	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. cstr. nom.	to make	
+164521	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
+164522	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
+164522	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+164523	niṣh	n(ʔ&iṣ[/h	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
+164524	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
+164524	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
+164524	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject	
+164525	d	d	d	det. or rel. functor	the one(s) of	
+164526	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. cstr. nom.	to make	
+164526	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. cstr. nom.	to make	
 # KTU 1.17 II:1						
-144398	ztr	ztr/	ztr	n. m. sg. cstr. gen.	cippus	
-144399	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. gen.	lineage	
-144400	l	l(I)	l (I)	prep.	to	
-144401	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
-144402	mšṣu	]š]yṣʔ[/u	/y-ṣ-ʔ/	vb Š act. ptcpl. m. sg. cstr. gen.	to make (someone) leave	
-144402	mšṣu	mšṣu/	mšṣủ	n. m. sg. cstr. gen.	one who leads out	
-144403	qṭrk	qṭr/+k	qṭr	n. m. cstr. gen.	smoke	
+164527	ztr	ztr/	ztr	n. m. sg. cstr. gen.	cippus	
+164528	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. gen.	lineage	
+164529	l	l(I)	l (I)	prep.	to	
+164530	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
+164531	mšṣu	mšṣu/	mšṣủ	n. m. sg. cstr. gen.	one who leads out	
+164532	qṭrk	qṭr/+k	qṭr	n. m. cstr. gen.	smoke	
 # KTU 1.17 II:2						
-144404	l	l(I)	l (I)	prep.	to	
-144405	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. cstr. gen.	dust	
-144406	ḏmr	ḏmr(I)[/	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to protect	
-144406	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg. abs. gen.	guardian	
-144407	aṯrk	aṯr(I)+k	ảṯr (I)	adv. or prep.	then	
-144408	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
+164533	l	l(I)	l (I)	prep.	to	
+164534	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. cstr. gen.	dust	
+164535	ḏmr	ḏmr(I)[/	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. abs. gen.	to protect	
+164535	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg. abs. gen.	guardian	
+164536	aṯrk	aṯr(I)+k	ảṯr (I)	adv. or prep.	then	
+164537	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
 # KTU 1.17 II:3						
-144409	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
-144409	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
-144410	niṣk	n(ʔ&iṣ[/k	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
-144411	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
-144411	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
-144411	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject	
-144412	d	d	d	det. or rel. functor	the one(s) of	
-144413	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-144413	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. nom.	to make	
-144414	lnk	l(I)+nk	l (I)	prep.	to	
+164538	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
+164538	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+164539	niṣk	n(ʔ&iṣ[/k	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
+164540	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
+164540	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
+164540	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject	
+164541	d	d	d	det. or rel. functor	the one(s) of	
+164542	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+164542	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. nom.	to make	
+164543	lnk	l(I)+nk	l (I)	prep.	to	
 # KTU 1.17 II:4						
-144415	spu	!!sp(ʔ&u[/	/s-p-ʔ/	vb G inf.	to devour	
-144415	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour	
-144416	ksmk	ksm/+k	ksm	n. m. cstr. nom.	part	
-144417	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-144418	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-144418	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-144419	w	w	w	conj.	and	
-144420	mntk	mn(t(I)/t&k	mnt (I)	n. f. sg. cstr. nom.	portion	
-144420	mntk	mnt(I)/+k	mnt (I)	n. f. cstr. nom.	portion	
+164544	spu	!!sp(ʔ&u[/	/s-p-ʔ/	vb G inf.	to devour	
+164544	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour	
+164545	ksmk	ksm/+k	ksm	n. m. cstr. nom.	part	
+164546	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+164547	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
+164547	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
+164548	w	w	w	conj.	and	
+164549	mntk	mn(t(I)/t&k	mnt (I)	n. f. sg. cstr. nom.	portion	
+164549	mntk	mnt(I)/+k	mnt (I)	n. f. cstr. nom.	portion	
 # KTU 1.17 II:5						
-144421	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	3) temple	DULAT direct ref
-144422	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	DULAT direct ref
-144422	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	1) god d) gods of a place or region	DULAT direct ref
-144423	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
-144424	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-144424	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
-144424	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-144424	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
-144424	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-144424	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
-144425	b	b	b	prep.	in	
-144426	škrn	škrn/	škrn	n. m. sg. abs. gen.	intoxication	
+164550	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	3) temple	DULAT direct ref
+164551	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	DULAT direct ref
+164551	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	DULAT direct ref
+164552	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
+164553	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+164553	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+164553	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+164553	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+164553	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+164553	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
+164554		?	?	?	?	
+164555	b	b	b	prep.	in	
+164556	škrn	škrn/	škrn	n. m. sg. abs. gen.	intoxication	
 # KTU 1.17 II:6						
-144427	mˤmsk	ˤms[s+k	/ʕ-m-s/	vb	to load	
-144428	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT direct ref
-144429	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	seven	
-144430	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
-144431	ṭḫ	ṭḫ[/	/ṭ-ḫ/	vb G act. ptcpl. m. sg. cstr. gen.	to plaster	
+164557	mˤmsk	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-m-s/ - to load
+164558	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT direct ref
+164559	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	seven	
+164560	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
+164561	ṭḫ	ṭḫ[/	/ṭ-ḫ/	vb G act. ptcpl. m. sg. cstr. gen.	to plaster	
 # KTU 1.17 II:7						
-144432	ggk	gg(I)/+k	gg (I)	n. m. cstr. gen.	roof	
-144433	b	b	b	prep.	in	
-144434	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
-144434	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-144435	ṯit	?	?	?	?	DULAT: NOT FOUND
-144436	rḥṣ	rḥṣ[/	/r-ḥ-ṣ/	vb G ptcpl. m. sg. cstr. nom.	to wash	
+164562	ggk	gg(I)/+k	gg (I)	n. m. cstr. gen.	roof	
+164563	b	b	b	prep.	in	
+164564	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+164564	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+164565	ṯit	?	?	?	?	DULAT: NOT FOUND
+164566	rḥṣ	rḥṣ[/	/r-ḥ-ṣ/	vb G ptcpl. m. sg. cstr. nom.	to wash	
 # KTU 1.17 II:8						
-144437	npṣk	npṣ/+k	npṣ	n. m. cstr. gen.	personal belongings	
-144438	b	b	b	prep.	in	
-144439	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-144439	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
-144440	rṯ	rṯ/	rṯ	n. m. sg. abs. gen.	dirt	
-144441	b	b	b	prep.	in	
-144442	unil	?	?	?	?	DULAT: NOT FOUND
+164567	npṣk	npṣ/+k	npṣ	n. m. cstr. gen.	personal belongings	
+164568	b	b	b	prep.	in	
+164569	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+164569	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+164570	rṯ	rṯ/	rṯ	n. m. sg. abs. gen.	dirt	
+164571	b	b	b	prep.	in	
+164572	unil	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 II:9						
-144443	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	1) face	
-144444	tšmḫ	!t!šmḫ[:w	/š-m-ḫ/	vb G prefc. 3 m. pl.	to be glad, rejoice	
-144444	tšmḫ	!t!šmḫ[:d:w	/š-m-ḫ/	vb D prefc. 3 m. pl.	to please, make happy	
-144445	w	w	w	conj.	and	
-144446	ˤl	ˤl(II)	ʕl (II)	adv.	1) above	DULAT direct ref
-144447	yṣhl	!y!ṣhl[	/ṣ-h-l/	vb G prefc. 3 m. sg.	to (make) shine, gleam	
-144447	yṣhl	!y!ṣhl[:d	/ṣ-h-l/	vb D prefc. 3 m. sg.	to (make) shine, gleam	
-144448	pit	pit/	pỉt	n. m. abs. nom.	1) temple	
+164573	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	1) face	
+164574	tšmḫ	!t!šmḫ[:w	/š-m-ḫ/	vb G prefc. 3 m. pl.	to be glad, rejoice	
+164574	tšmḫ	!t!šmḫ[:d:w	/š-m-ḫ/	vb D prefc. 3 m. pl.	to please, make happy	
+164575	w	w	w	conj.	and	
+164576	ˤl	ˤl(II)	ʕl (II)	adv.	1) above	DULAT direct ref
+164577	yṣhl	!y!ṣhl[	/ṣ-h-l/	vb G prefc. 3 m. sg.	to (make) shine, gleam	
+164577	yṣhl	!y!ṣhl[:d	/ṣ-h-l/	vb D prefc. 3 m. sg.	to (make) shine, gleam	
+164578	pit	pit/	pỉt	n. m. abs. nom.	1) temple	
 # KTU 1.17 II:10						
-144449	yprq	!y!prq[	/p-r-q/	vb G prefc. 3 m. sg.	to release	
-144450	lṣb	lṣb/	lṣb	n. m. sg. abs. nom.	brow	
-144451	w	w	w	conj.	and	
-144452	yṣḥq	!y!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 3 m. sg.	to laugh	
+164579	yprq	!y!prq[	/p-r-q/	vb G prefc. 3 m. sg.	to release	
+164580	lṣb	lṣb/	lṣb	n. m. sg. abs. nom.	brow	
+164581	w	w	w	conj.	and	
+164582	yṣḥq	!y!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 3 m. sg.	to laugh	
 # KTU 1.17 II:11						
-144453	pˤn	pˤn/	pʕn	n. f. cstr. nom.	foot	
-144454	l	l(I)	l (I)	prep.	to	
-144455	hdm	hdm/	hdm	n. m. sg. abs. gen.	footstool	
-144456	yṯpd	!y!ṯpd[	/ṯ-p-d/	vb G prefc. 3 m. sg.	to place	
-144457	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
+164583	pˤn	pˤn/	pʕn	n. f. cstr. nom.	foot	
+164584	l	l(I)	l (I)	prep.	to	
+164585	hdm	hdm/	hdm	n. m. sg. abs. gen.	footstool	
+164586	yṯpd	!y!ṯpd[	/ṯ-p-d/	vb G prefc. 3 m. sg.	to place	
+164587	yšu	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
 # KTU 1.17 II:12						
-144458	gh	ytn[	/y-t-n/	vb	to give	
-144458	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
-144459	wyṣḥ	?	?	?	?	DULAT: NOT FOUND
-144460	aṯbn	yṯb[n	/y-ṯ-b/	vb G prefc.	to sit down	
-144461	ank	ank	ảnk	pers. pn.	I	
+164588	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
+164589	wyṣḥ	?	?	?	?	DULAT: NOT FOUND
+164590	aṯbn	!(ʔ&a!(yṯb[+n	/y-ṯ-b/	vb G prefc. 1 c. sg.	to sit down	
+164591	ank	ank	ảnk	pers. pn.	I	
 # KTU 1.17 II:13						
-144462	w	w	w	conj.	and	
-144463	anḫn	!(ʔ&a!nḫ[+n	/n-ḫ/	vb G prefc. 1 c. sg.	to rest	
-144464	w	w	w	conj.	and	
-144465	tnḫ	!t!nḫ[	/n-ḫ/	vb G prefc.	to rest	
-144466	b	b	b	prep.	in	
-144467	irty	ir(t/t+y	ỉrt	n. f. sg. cstr. gen.	breast	
+164592	w	w	w	conj.	and	
+164593	anḫn	!(ʔ&a!nḫ[+n	/n-ḫ/	vb G prefc. 1 c. sg.	to rest	
+164594	w	w	w	conj.	and	
+164595	tnḫ	!t!nḫ[	/n-ḫ/	vb G prefc.	to rest	
+164596	b	b	b	prep.	in	
+164597	irty	ir(t/t+y	ỉrt	n. f. sg. cstr. gen.	breast	
 # KTU 1.17 II:14						
-144468	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-144469	k	+k	-k (I)			
-144469	k	~k	-k (II)			
-144469	k	k(III)	k (III)	Subordinating or completive functor	when	
-144469	k	k(I)	k (I)	prep.	like	
-144469	k	k(II)	k (II)	emph. functor	yes	
-144470	yld	(]n]yld[	/y-l-d/	vb N suffc. 3 m. sg.	1) to be born	DULAT quote in bn (I) (cue: born)
-144471	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son b) esp. in the royal legends	DULAT direct ref
-144471	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	1) son b) esp. in the royal legends	DULAT direct ref
-144472	ly	l(I)+y	l (I)	prep.	to	
-144473	km	k(I)	k (I)	prep.	like	DULAT quote in bn (I) (cue: like)
+164598	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+164599	k	+k	-k (I)			
+164599	k	~k	-k (II)			
+164599	k	k(III)	k (III)	Subordinating or completive functor	when	
+164599	k	k(I)	k (I)	prep.	like	
+164599	k	k(II)	k (II)	emph. functor	yes	
+164600	yld	(]n]yld[	/y-l-d/	vb N suffc. 3 m. sg.	1) to be born	DULAT quote in bn (I) (cue: born)
+164601	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son b) esp. in the royal legends	DULAT direct ref
+164601	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	1) son b) esp. in the royal legends	DULAT direct ref
+164602	ly	l(I)+y	l (I)	prep.	to	
+164603	km	km	km	prep./conj./adv.		
 # KTU 1.17 II:15						
-144474	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. nom.	2) in a figurative sense b) neighbour	
-144475	w	w	w	conj.	1) copulative conj.	
-144476	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. nom.	root	
-144477	km	k(I)	k (I)	prep.	like	DULAT quote in ảḫ (I) (cue: like)
-144478	aryy	ary(I)&y/	ảry (I)	n. m. sg. cstr. nom.	fellow	
+164604	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. gen.	2) in a figurative sense b) neighbour	
+164605	w	w	w	conj.	1) copulative conj.	
+164606	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. nom.	root	
+164607	km	km	km	prep./conj./adv.		
+164608	aryy	ary(I)&y/	ảry (I)	n. m. sg. cstr. gen.	fellow	
 # KTU 1.17 II:16						
-144479	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. cstr. gen.	to erect	
-144480	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
-144481	iliby	ilib(I)&y/	ỉlỉb (I)	DN sg. abs. gen.	father god	
-144482	b	b	b	prep.	in	
-144483	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+164609	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. cstr. gen.	to erect	
+164610	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
+164611	iliby	ilib(I)&y/	ỉlỉb (I)	DN sg. abs. gen.	father god	
+164612	b	b	b	prep.	in	
+164613	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
 # KTU 1.17 II:17						
-144484	ztr	ztr/	ztr	n. m. sg. abs. gen.	cippus	
-144485	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
-144486	l	l(I)	l (I)	prep.	to	
-144487	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. cstr. gen.	dust	
-144488	ḏmr	ḏmr(I)[/	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. cstr. gen.	to protect	
-144488	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg. cstr. gen.	guardian	
-144489	aṯry	aṯr(II)/+y	ảṯr (II)	n. m. pl. cstr. gen.	remain(s)	
-144489	aṯry	aṯr(II)/+y	ảṯr (II)	n. m. sg. cstr. gen.	remain(s)	
+164614	ztr	ztr/	ztr	n. m. sg. abs. gen.	cippus	
+164615	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
+164616	l	l(I)	l (I)	prep.	to	
+164617	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. cstr. gen.	dust	
+164618		?	?	?	?	
+164619	ḏmr	ḏmr(I)[/	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. cstr. gen.	to protect	
+164619	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg. cstr. gen.	guardian	
+164620	aṯry	aṯr(II)/+y	ảṯr (II)	n. m. pl. cstr. gen.	remain(s)	
+164620	aṯry	aṯr(II)/+y	ảṯr (II)	n. m. sg. cstr. gen.	remain(s)	
 # KTU 1.17 II:18						
-144490	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
-144491	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
-144491	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
-144492	niṣy	n(ʔ&iṣ[/y	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
-144493	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
-144493	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
-144493	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject	
+164621	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
+164622	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
+164622	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+164623	niṣy	n(ʔ&iṣ[/y	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
+164624	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
+164624	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
+164624	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject	
 # KTU 1.17 II:19						
-144494	d	d	d	det. or rel. functor	the one(s) of	
-144495	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. abs. nom.	to make	
-144495	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. nom.	to make	
-144496	ln	l(I)+n	l (I)	prep.	to	
-144497	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
-144498	ydy	yd(I)/+y	yd (I)	n. f. cstr. nom.	hand	
-144498	ydy	!y!(ydy(I)[	/y-d-y/ (I)	vb G prefc. 3 m. sg.	to throw	
-144498	ydy	!y!(ydy(I)[	/y-d-y/ (I)	vb G impv. 3 m. sg.	to throw	
-144498	ydy	!!ydy(I)[/	/y-d-y/ (I)	vb G inf.	to throw	
-144498	ydy	ydy(I)[/	/y-d-y/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to throw	
-144498	ydy	!y!(ydy(II)[	/y-d-y/ (II)	vb G	to rip	
-144499	b	b	b	prep.	in	
-144500	š	š/	š	n. m. sg. abs. gen.	ram	
+164625	d	d	d	det. or rel. functor	the one(s) of	
+164626	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. abs. nom.	to make	
+164626	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. nom.	to make	
+164627	ln	l(I)+n	l (I)	prep.	to	
+164628	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
+164629	ydy	yd(I)/+y	yd (I)	n. f. cstr. nom.	hand	
+164629	ydy	!y!(ydy(I)[	/y-d-y/ (I)	vb G prefc. 3 m. sg.	to throw	
+164629	ydy	!y!(ydy(I)[	/y-d-y/ (I)	vb G impv. 3 m. sg.	to throw	
+164629	ydy	!!ydy(I)[/	/y-d-y/ (I)	vb G inf.	to throw	
+164629	ydy	ydy(I)[/	/y-d-y/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to throw	
+164629	ydy	!y!(ydy(II)[	/y-d-y/ (II)	vb G	to rip	
+164630	b	b	b	prep.	in	
+164631	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.17 II:20						
-144501	krn	kr[+n	/k-r/	vb	to be hot	
-144502	mˤmsy	ˤms[s+y	/ʕ-m-s/	vb	1) to load	
-144503	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /ʕ-m-s/ (cue: when)
-144504	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	seven	
-144505	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
+164632	krn	kr[+n	/k-r/	vb	to be hot	
+164633	mˤmsy	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-m-s/ - 1) to load
+164634	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /ʕ-m-s/ (cue: when)
+164635	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	seven	
+164636	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
 # KTU 1.17 II:21						
-144506	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. cstr. gen.	to devour	
-144507	ksmy	ksm/+y	ksm	n. m. cstr. gen.	part	
-144508	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-144509	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
-144509	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
-144510	w	w	w	conj.	and	
-144511	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
+164637	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. cstr. gen.	to devour	
+164638	ksmy	ksm/+y	ksm	n. m. cstr. gen.	part	
+164639	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+164640	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
+164640	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
+164641	w	w	w	conj.	and	
+164642	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
 # KTU 1.17 II:22						
-144512	y	+y, [y	-y (I)	prep. functor	my	
-144512	y	~y	-y (II)	prep. functor	indeed	
-144512	y	y	y	prep. functor	oh!	
-144513	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-144514	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-144514	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-144514	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-144514	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-144515	ṭḫ	ṭḫ[/	/ṭ-ḫ/	vb G act. ptcpl. m. sg. abs. nom.	to plaster	
-144516	ggy	gg(I)/+y	gg (I)	n. m. cstr. nom.	roof	
-144517	b	b	b	prep.	in	
-144518	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-144518	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
-144519	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. pl. cstr. gen.	mud	
-144519	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. sg. cstr. gen.	mud	
+164643	y	~y	-y (II)	prep. functor	indeed	
+164643	y	y	y	prep. functor	oh!	
+164644	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+164645	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+164645	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+164645	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+164645	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+164646	ṭḫ	ṭḫ[/	/ṭ-ḫ/	vb G act. ptcpl. m. sg. abs. nom.	to plaster	
+164647	ggy	gg(I)/+y	gg (I)	n. m. cstr. nom.	roof	
+164648	b	b	b	prep.	in	
+164649	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+164649	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+164650	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. pl. cstr. gen.	mud	
+164650	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. sg. cstr. gen.	mud	
 # KTU 1.17 II:23						
-144520	rḥṣ	rḥṣ[/	/r-ḥ-ṣ/	vb G ptcpl. m. sg. abs. gen.	to wash	
-144521	npsy	?	?	?	?	DULAT: NOT FOUND
-144522	b	b	b	prep.	in	
-144523	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-144523	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
-144524	rṯ	rṯ/	rṯ	n. m. sg. cstr. gen.	dirt	
+164651	rḥṣ	rḥṣ[/	/r-ḥ-ṣ/	vb G ptcpl. m. sg. abs. gen.	to wash	
+164652	npsy	?	?	?	?	DULAT: NOT FOUND
+164653	b	b	b	prep.	in	
+164654	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+164654	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+164655	rṯ	rṯ/	rṯ	n. m. sg. cstr. gen.	dirt	
 # KTU 1.17 II:24						
-144525	dn	dn(I)/	dn (I)	n. m. sg. cstr. gen.	judgment	
-144526	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-144526	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-144527	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	1) house	DULAT direct ref
-144528	ymġyn	!y!mġy[+n	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
+164656	dn	dn(I)/	dn (I)	n. m. sg. cstr. gen.	judgment	
+164657	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+164657	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+164658	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	2) palace	DULAT direct ref
+164659	ymġyn	!y!mġy[+n	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
 # KTU 1.17 II:25						
-144529	yštql	?	?	?	?	DULAT: NOT FOUND
-144530	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
-144531	l	l(I)	l (I)	prep.	to	
-144532	hklh	hkl/+h	hkl	n. m. cstr. gen.	palace	
+164660	yštql	?	?	?	?	DULAT: NOT FOUND
+164661	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+164662	l	l(I)	l (I)	prep.	to	
+164663	hklh	hkl/+h	hkl	n. m. cstr. gen.	palace	
 # KTU 1.17 II:26						
-144533	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to enter	DULAT direct ref
-144533	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	1) to enter	DULAT direct ref
-144534	b	b	b	prep.	in	
-144535	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	1) house	DULAT quote in /ʕ-r-b/ (I) (cue: house)
-144536	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
-144537	bnt	bt(I)/	bt (I)	n. f. pl. abs. nom.	1) daughter b) esp.	DULAT direct ref
-144537	bnt	bt(I)/	bt (I)	n. f. pl. cstr. nom.	1) daughter b) esp.	DULAT direct ref
+164664	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to enter	DULAT direct ref
+164664	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	1) to enter	DULAT direct ref
+164665	b	b	b	prep.	in	
+164666	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	2) palace	
+164666	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	1) daughter b) esp.	
+164667	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+164668	bnt	b&nt(I)/	bt (I)	n. f. pl. abs. nom.	1) daughter b) esp.	DULAT direct ref
+164668	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	1) daughter b) esp.	DULAT direct ref
 # KTU 1.17 II:27						
-144538	hll	hll/	hll	DN sg. abs. nom.	New Moon	
-144539	snnt	snnt/	snnt	n. f. pl. abs. nom.	swallow	
-144540	apnk	apnk	ảpnk	adv. functor of illation	1) then b) introducing the correlation in narrative	DULAT direct ref
-144541	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
+164669	hll	hll/	hll	DN sg. abs. nom.	New Moon	
+164670	snnt	snnt/	snnt	n. f. pl. abs. nom.	swallow	
+164671	apnk	apnk	ảpnk	adv. functor of illation	1) then b) introducing the correlation in narrative	DULAT direct ref
+164672	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
 # KTU 1.17 II:28						
-144542	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144542	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144542	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144542	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144543	rpi	rp(u/&i	rpủ	n. m. sg. cstr. gen.	healer	
-144544	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
-144545	hn	hn	hn	functor	behold!	
-144546	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	1) lad	
-144547	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144547	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144547	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144547	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164673	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164673	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164673	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164673	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164674	rpi	rp(u&i/	rpủ	n. m. sg. cstr. gen.	healer	
+164675	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
+164676	hn	hn	hn	functor	behold!	
+164677	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	2) noble	
+164678	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164678	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164678	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164678	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
 # KTU 1.17 II:29						
-144548	hrnmy	hrnmy/	hrnmy	GN sg. cstr. gen.	native of the TN *hrnm	
-144549	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle c) for slaughter ( ṭbḫ )	DULAT direct ref
-144550	yṭbḫ	!y!ṭbḫ[	/ṭ-b-ḫ/	vb G prefc. 3 m. sg.	to sacrifice, butcher, slaughter	
-144551	l	l(I)	l (I)	prep.	to	
-144552	kṯ	kṯ(I)/	kṯ (I)	n. f. sg. cstr. gen.	flask	
+164679	hrnmy	hrnmy/	hrnmy	GN sg. cstr. gen.	native of the TN *hrnm	
+164680	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle c) for slaughter ( ṭbḫ )	DULAT direct ref
+164681	yṭbḫ	!y!ṭbḫ[	/ṭ-b-ḫ/	vb G prefc. 3 m. sg.	to sacrifice, butcher, slaughter	
+164682	l	l(I)	l (I)	prep.	to	
+164683	kṯ	kṯ(I)/	kṯ (I)	n. f. sg. cstr. gen.	flask	
 # KTU 1.17 II:30						
-144553	rt	rt/	rt	PN sg. abs. gen.	rt	
-144554	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	1) to give to eat	
-144555	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
-144556	w	w	w	conj.	and	
-144557	y	+y, [y	-y (I)	prep. functor	my	
-144557	y	~y	-y (II)	prep. functor	indeed	
-144557	y	y	y	prep. functor	oh!	
+164684	rt	rt/	rt	PN sg. abs. gen.	rt	
+164685	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	1) to give to eat	
+164686	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+164687	w	w	w	conj.	and	
+164688	y	~y	-y (II)	prep. functor	indeed	
+164688	y	y	y	prep. functor	oh!	
 # KTU 1.17 II:31						
-144558	ššq	?	?	?	?	DULAT: NOT FOUND
-144559	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
-144559	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
-144559	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-144560	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
-144561	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
+164689	ššq	?	?	?	?	DULAT: NOT FOUND
+164690	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
+164690	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
+164690	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
+164691	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+164692	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
 # KTU 1.17 II:32						
-144562	hn	hn	hn	functor	behold!	
-144563	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-144563	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-144563	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-144564	w	w	w	conj.	and	
-144565	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-144565	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-144565	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-144566	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
+164693	hn	hn	hn	functor	behold!	
+164694	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+164694	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+164694	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+164695	w	w	w	conj.	and	
+164696	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+164696	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+164696	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+164697	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 # KTU 1.17 II:33						
-144567	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
-144568	w	w	w	conj.	and	
-144569	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
-144570	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
-144570	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
-144570	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-144571	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+164698	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+164699	w	w	w	conj.	and	
+164700	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
+164701	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
+164701	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
+164701	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
+164702	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
 # KTU 1.17 II:34						
-144572	snnt	snnt/	snnt	n. f. pl. cstr. gen.	swallow	
-144573	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
-144574	rbˤym	?	?	?	?	DULAT: NOT FOUND
-144575	yšl	?	?	?	?	DULAT: NOT FOUND
+164703	snnt	snnt/	snnt	n. f. pl. cstr. gen.	swallow	
+164704	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
+164705	rbˤym	?	?	?	?	DULAT: NOT FOUND
+164706	yšl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 II:35						
-144576	ḥm	ḥm/	ḥm	n. m. sg. cstr. nom.	heat	
-144577	kṯrt	kṯrt/	kṯrt	DN pl. abs. gen.	ḥbl kṯrt the band / flock of the DNN	
-144578	w	w	w	conj.	and	
-144579	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
+164707	ḥm	ḥm/	ḥm	n. m. sg. cstr. nom.	heat	
+164708	kṯrt	kṯrt/	kṯrt	DN pl. abs. gen.	ḥbl kṯrt the band / flock of the DNN	
+164709	w	w	w	conj.	and	
+164710	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
 # KTU 1.17 II:36						
-144580	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
-144580	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
-144580	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-144581	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
-144582	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
-144583	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
+164711	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
+164711	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
+164711	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
+164712	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+164713	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
+164714	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.17 II:37						
-144584	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
-144585	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-144585	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-144585	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-144586	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
-144587	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+164715	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
+164716	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+164716	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+164716	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+164717	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
+164718	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
 # KTU 1.17 II:38						
-144588	w	w	w	conj.	and	
-144589	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
-144590	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
-144590	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
-144590	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-144591	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
-144592	snnt	snnt/	snnt	n. f. pl. cstr. gen.	swallow	
+164719	w	w	w	conj.	and	
+164720	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
+164721	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
+164721	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
+164721	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
+164722	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+164723	snnt	snnt/	snnt	n. f. pl. cstr. gen.	swallow	
 # KTU 1.17 II:39						
-144593	mk	mk(I)/	mk (I)	n. m. sg. abs. gen.	large puddle	
-144594	b	b	b	prep.	1) spatial location d) origin of a quality or process	
-144595	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-144596	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
-144596	ymm	y(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
-144597	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go, leave, depart	
-144598	b	b	b	prep.	1) spatial location d) origin of a quality or process	
-144599	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	DULAT quote in b (cue: house)
+164724	mk	mk(I)/	mk (I)	n. m. sg. abs. gen.	large puddle	
+164725	b	b	b	prep.	1) spatial location d) origin of a quality or process	
+164726	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+164727	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
+164727	ymm	ym(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
+164728	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go, leave, depart	
+164729	b	b	b	prep.	1) spatial location d) origin of a quality or process	
+164730	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	DULAT quote in b (cue: house)
 # KTU 1.17 II:40						
-144600	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
-144601	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
-144601	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. nom.	masonry	
-144601	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. nom.	tamarisk	
-144602	hll	hll/	hll	DN sg. abs. nom.	New Moon	
-144603	snnt	snnt/	snnt	n. f. pl. abs. nom.	swallow	
+164731	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+164732	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
+164732	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. nom.	masonry	
+164732	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. nom.	tamarisk	
+164733	hll	hll/	hll	DN sg. abs. nom.	New Moon	
+164734	snnt	snnt/	snnt	n. f. pl. abs. nom.	swallow	
 # KTU 1.17 II:41						
-144604	mddt	mddt(II)/	mddt (II)	n. f. pl. abs. nom.	dispenser	
-144605	nˤmy	nˤmy(I)/	nʕmy (I)	n. f. sg. abs. nom.	delight	
-144606	ˤrš	ˤrš/	ʕrš	n. f. sg. abs. nom.	bed	
-144607	hrt	hr(t(I)/t	hrt (I)	n. f. sg. abs. nom.	conception	
+164735	mddt	mddt(II)/	mddt (II)	n. f. pl. abs. nom.	dispenser	
+164736	nˤmy	nˤmy(I)/	nʕmy (I)	n. f. sg. abs. nom.	delight	
+164737	ˤrš	ˤrš/	ʕrš	n. f. sg. abs. nom.	bed	
+164738	hrt	hr(t(I)/t	hrt (I)	n. f. sg. abs. nom.	conception	
 # KTU 1.17 II:42						
-144608	ysmsmt	ysmsm(t/t	ysmsmt	n. f. sg. cstr. nom.	handsomeness	
-144609	ˤrš	ˤrš/	ʕrš	n. f. sg. abs. nom.	bed	
-144610	ḫllt	ḫllt/	ḫllt	n. m. sg. abs. nom.	childbirth	
+164739	ysmsmt	ysmsm(t/t	ysmsmt	n. f. sg. cstr. nom.	handsomeness	
+164740	ˤrš	ˤrš/	ʕrš	n. f. sg. abs. nom.	bed	
+164741	ḫllt	ḫllt/	ḫllt	n. m. sg. abs. nom.	childbirth	
 # KTU 1.17 II:43						
-144611	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
-144611	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
-144611	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down, take a seat on the throne, install oneself, reside	
-144612	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
-144613	yspr	!y!spr[	/s-p-r/	vb G prefc. 3 m. sg.	to count, number	
-144613	yspr	!y!spr[:d	/s-p-r/	vb D prefc. 3 m. sg.	to recite	
-144614	yrḫh	yrḫ/+h	yrḫ	n. m. cstr. nom.	2) DN	
+164742	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+164742	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+164742	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down, take a seat on the throne, install oneself, reside	
+164743	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+164744	yspr	!y!spr[	/s-p-r/	vb G prefc. 3 m. sg.	to count, number	
+164744	yspr	!y!spr[:d	/s-p-r/	vb D prefc. 3 m. sg.	to recite	
+164745	yrḫh	yrḫ/+h	yrḫ	n. m. cstr. nom.	3) month b) as a measure of time	
 # KTU 1.17 II:44						
-144615	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-144615	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
-144616	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-144616	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
-144617	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	1) second	DULAT direct ref
-144618	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
+164746	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+164746	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+164747	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+164747	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+164748	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	1) second	DULAT direct ref
+164749		?	?	?	?	
+164750	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
 # KTU 1.17 II:45						
-144619	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	DULAT direct ref
-144620	rbˤ	rbˤ/	rbʕ	num.	fourth	
-144621	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
-144621	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
-144622	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. gen.	banquet	
+164751	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	DULAT direct ref
+164752	rbˤ	rbˤ/	rbʕ	num.	fourth	
+164753	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+164753	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+164754	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. gen.	banquet	
 # KTU 1.17 II:46						
-144623	yrḫm	yrḫ/+m(I)	yrḫ	n. m. cstr. gen.	2) DN	
-144624	ymġyxxxx	?	?	?	?	DULAT: NOT FOUND
+164755	yrḫm	yrḫ/+m(I)	yrḫ	n. m. cstr. gen.	3) month b) as a measure of time	
+164756	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
+164757	xxxx	?	?	?	?	
 # KTU 1.17 II:47						
-144625	rhm	rh(I)/m	tr (I)	n. m. pl. abs. nom.	pole	
-144626	xxxxxxx	?	?	?	?	
+164758	rhm	rh(I)/m	tr (I)	n. m. pl. abs. nom.	pole	
+164759	xxxxxxx	?	?	?	?	
 # KTU 1.17 V:1						
-144627	xxxxxxxšt	?	?	?	?	DULAT: NOT FOUND
-144628	xxxxx	?	?	?	?	
+164760	xxxxxxxšt	?	?	?	?	DULAT: NOT FOUND
+164761	xxxxx	?	?	?	?	
 # KTU 1.17 V:2						
-144629	xxxxx	?	?	?	?	
-144630	abl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
-144631	qšt	qšt/	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144631	qšt	qšt/	qšt	n. m. sg. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144632	b	b	b	prep.	in	
-144633	ṯmnxxx	?	?	?	?	DULAT: NOT FOUND
+164762	xxxxx	?	?	?	?	
+164763	abl	abl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
+164764	qšt	qšt/	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+164764	qšt	qšt/	qšt	n. m. sg. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+164765		?	?	?	?	
+164766	b	b	b	prep.	in	
+164767	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+164768	xxx	?	?	?	?	
 # KTU 1.17 V:3						
-144634	ašrbˤ	!(ʔ&a!]š]rbˤ[	/r-b-ʕ/	vb Š prefc. 1 c. sg.	to quadruplicate	
-144635	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. nom.	arrow(s)	
-144636	w	w	w	conj.	and	
-144637	hn	hn	hn	functor	1) as a deictic functor	
-144638	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+164769	ašrbˤ	!(ʔ&a!]š]rbˤ[	/r-b-ʕ/	vb Š prefc. 1 c. sg.	to quadruplicate	
+164770	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. nom.	arrow(s)	
+164771	w	w	w	conj.	and	
+164772	hn	hn	hn	functor	1) as a deictic functor	
+164773	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.17 V:4						
-144639	b	b	b	prep.	in	
-144640	ymm	ym(I)/m	ym (I)	n. m. pl. abs. gen.	day	
-144640	ymm	y(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
-144641	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
-144641	apnk	apnk	ảpnk	adv. functor of illation	then	
-144642	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
-144643	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144643	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144643	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144643	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164774	b	b	b	prep.	in	
+164775	ymm	ym(I)/m	ym (I)	n. m. pl. abs. gen.	day	
+164775	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
+164776	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
+164776	apnk	apnk	ảpnk	adv. functor of illation	then	
+164777	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
+164778	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164778	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164778	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164778	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
 # KTU 1.17 V:5						
-144644	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
-144645	aphn	aphn	ảphn	illative functor	immediately afterwards	DULAT direct ref
-144646	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
-144647	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144647	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144647	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144647	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144648	hrnmy	hrnmy/	hrnmy	GN sg. abs. gen.	native of the TN *hrnm	
+164779	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
+164780	aphn	aphn	ảphn	illative functor	immediately afterwards	DULAT direct ref
+164781	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
+164782	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164782	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164782	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164782	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164783	hrnmy	hrnmy/	hrnmy	GN sg. abs. gen.	native of the TN *hrnm	
 # KTU 1.17 V:6						
-144649	ytšu	!y!(n]t]š(ʔ[&u	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to go up, rise	
-144650	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
-144650	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
-144650	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down, take a seat on the throne, install oneself, reside	
-144651	b	b	b	prep.	1) spatial location a) place in which something occurs	
-144652	ap	ap(II)/	ảp (II)	n. m. sg. cstr. gen.	nose	DULAT direct ref
-144653	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. gen.	gate	DULAT direct ref
-144654	tḥt	tḥt(I)	tḥt (I)	prep.	4) among	
+164784	ytšu	!y!(n]t]š(ʔ[&u	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to go up, rise	
+164785	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+164785	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+164785	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down, take a seat on the throne, install oneself, reside	
+164786	b	b	b	prep.	1) spatial location a) place in which something occurs	
+164787	ap	ap(II)/	ảp (II)	n. m. sg. cstr. gen.	nose	DULAT direct ref
+164788	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. gen.	gate	DULAT direct ref
+164789	tḥt	tḥt(I)	tḥt (I)	prep.	4) among	
 # KTU 1.17 V:7						
-144655	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. gen.	poplar	
-144655	adrm	adr(IV)/m	ảdr (IV)	n. m. pl. abs. gen.	fibula	
-144656	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
-144657	bgrn	?	?	?	?	DULAT: NOT FOUND
-144658	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	DULAT direct ref
+164790	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. gen.	poplar	
+164790	adrm	adr(IV)/m	ảdr (IV)	n. m. pl. abs. gen.	fibula	
+164791	d	d	d	det. or rel. functor	2) which	
+164792	b	b	b	prep.	in	
+164793	grn	grn(I)/	grn (I)	n. m. sg. abs. gen.	1) threshing-floor b) place for social activities	DULAT direct ref
+164794	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	DULAT direct ref
 # KTU 1.17 V:8						
-144659	dn	dn(I)/	dn (I)	n. m. sg. cstr. nom.	judgment	
-144660	almnt	almn(t/t	ảlmnt	n. f. sg. abs. gen.	widow	
-144661	yṯpṯ	?	?	?	?	DULAT: NOT FOUND
-144662	tpṭ	?	?	?	?	DULAT: NOT FOUND
-144663	ytm	ytm/	ytm	n. m. sg. abs. nom.	orphan	
+164795	dn	dn(I)/	dn (I)	n. m. sg. cstr. nom.	judgment	
+164796	almnt	almn(t/t	ảlmnt	n. f. sg. abs. gen.	widow	
+164797	yṯpṯ	?	?	?	?	DULAT: NOT FOUND
+164798	tpṭ	?	?	?	?	DULAT: NOT FOUND
+164799	ytm	ytm/	ytm	n. m. sg. abs. nom.	orphan	
 # KTU 1.17 V:9						
-144664	b	b	b	prep.	in	
-144665	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl. m. sg. cstr. gen.	to raise, lift, help up	
-144666	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	eye	
-144667	w	w	w	conj.	and	
-144668	yphn	!y!ph(y[+n	/p-h-y/	vb G prefc. 3 m. sg.	to see, espy	
-144669	b	b	b	prep.	in	
-144670	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
+164800	b	b	b	prep.	in	
+164801	nši	nš(ʔ[/&i	/n-š-ʔ/	vb G act. ptcpl. m. sg. cstr. gen.	to raise, lift, help up	
+164802	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	eye	
+164803	w	w	w	conj.	and	
+164804	yphn	!y!ph(y[+n	/p-h-y/	vb G prefc. 3 m. sg.	to see, espy	
+164805	b	b	b	prep.	in	
+164806	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
 # KTU 1.17 V:10						
-144671	šd	šd(I)/	šd (I)	n. m. sg. cstr. gen.	open field	
-144671	šd	šd(II)/	šd (II)	n. m. sg. cstr. gen.	a strip	
-144672	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	
-144673	kmn	kmn(I)/	kmn (I)	n. m. sg. cstr. gen.	acre	
-144674	hlk	hlk(I)/	hlk (I)	n. m. sg. cstr. gen.	walk	DULAT direct ref
-144675	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
+164807	šd	šd(I)/	šd (I)	n. m. sg. cstr. gen.	open field	
+164807	šd	šd(II)/	šd (II)	n. m. sg. cstr. gen.	a strip	
+164808	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	
+164809	kmn	kmn(I)/	kmn (I)	n. m. sg. cstr. gen.	acre	
+164810	hlk	hlk(I)/	hlk (I)	n. m. sg. cstr. gen.	walk	DULAT direct ref
+164811	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 # KTU 1.17 V:11						
-144676	k	+k	-k (I)			
-144676	k	~k	-k (II)			
-144676	k	k(III)	k (III)	Subordinating or completive functor	when	
-144676	k	k(I)	k (I)	prep.	like	
-144676	k	k(II)	k (II)	emph. functor	yes	
-144677	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-144677	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
-144677	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
-144677	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
-144677	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
-144678	w	w	w	conj.	and	
-144679	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-144679	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
-144679	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
-144679	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
-144679	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
-144680	tdrq	tdrq/	tdrq	n. m. sg. cstr. nom.	nimble step	
-144681	ḫss	ḫss/	ḫss	DN/element sg. cstr. gen.	Ḫasisu/Khasis	
+164812	k	+k	-k (I)			
+164812	k	~k	-k (II)			
+164812	k	k(III)	k (III)	Subordinating or completive functor	when	
+164812	k	k(I)	k (I)	prep.	like	
+164812	k	k(II)	k (II)	emph. functor	yes	
+164813	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
+164813	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
+164813	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
+164813	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
+164813	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
+164814	w	w	w	conj.	and	
+164815	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
+164815	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
+164815	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
+164815	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
+164815	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
+164816	tdrq	tdrq/	tdrq	n. m. sg. cstr. nom.	nimble step	
+164817	ḫss	ḫss/	ḫss	DN/element sg. cstr. gen.	Ḫasisu/Khasis	
 # KTU 1.17 V:12						
-144682	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to go	
-144683	qšt	qšt/	qšt	n. m. pl. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144683	qšt	qšt/	qšt	n. m. sg. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144684	ybln	!y!(ybl[n	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
-144685	hl	hl	hl	deictic adv. functor	behold	
-144686	yš	?	?	?	?	DULAT: NOT FOUND
+164818	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to go	
+164819	qšt	qšt/	qšt	n. m. pl. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+164819	qšt	qšt/	qšt	n. m. sg. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+164820	ybln	!y!(ybl[n	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
+164821	hl	hl	hl	deictic adv. functor	behold	
+164822	yš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 V:13						
-144687	rbˤ	rbˤ/	rbʕ	num.	fourth	
-144688	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. nom.	arrow(s)	
-144689	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
-144689	apnk	apnk	ảpnk	adv. functor of illation	then	
-144690	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
+164823	rbˤ	rbˤ/	rbʕ	num.	fourth	
+164824	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. nom.	arrow(s)	
+164825	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
+164825	apnk	apnk	ảpnk	adv. functor of illation	then	
+164826	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
 # KTU 1.17 V:14						
-144691	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144691	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144691	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144691	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-144692	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
-144693	aphn	aphn	ảphn	illative functor	immediately afterwards	DULAT direct ref
-144694	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
-144695	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144695	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144695	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144695	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164827	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164827	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164827	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164827	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164828	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
+164829	aphn	aphn	ảphn	illative functor	immediately afterwards	DULAT direct ref
+164830	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
+164831	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164831	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164831	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164831	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
 # KTU 1.17 V:15						
-144696	hrnmy	hrnmy/	hrnmy	GN sg. cstr. gen.	native of the TN *hrnm	
-144697	gm	g/~m	g	n. m. sg. abs. gen.	(loud) voice	DULAT direct ref
-144698	l	l(I)	l (I)	prep.	to	
-144699	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. gen.	2) married woman	
-144700	k	k(III)	k (III)	Subordinating or completive functor	when	
-144701	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	
+164832	hrnmy	hrnmy/	hrnmy	GN sg. cstr. gen.	native of the TN *hrnm	
+164833	gm	g/~m	g	n. m. sg. abs. gen.	(loud) voice	DULAT direct ref
+164834	l	l(I)	l (I)	prep.	to	
+164835	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. gen.	2) married woman	
+164836	k	k(III)	k (III)	Subordinating or completive functor	when	
+164837	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	
 # KTU 1.17 V:16						
-144702	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
-144703	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. gen.	damsel	
-144704	dnty	dnty/	dnty	PN sg. cstr. gen.	Lady PN	DULAT direct ref
-144705	ˤdb	ˤdb[/	/ʕ-d-b/	vb G act. ptcpl. m. sg. cstr. gen.	to leave > to put in > to place	
-144705	ˤdb	ˤdb[/	/ʕ-d-b/	vb G pass. ptcpl. m. sg. cstr. gen.	to leave > to put in > to place	
+164838	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
+164839	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. gen.	damsel	
+164840	dnty	dnty/	dnty	PN sg. cstr. gen.	Lady PN	DULAT direct ref
+164841	ˤdb	ˤdb[/	/ʕ-d-b/	vb G act. ptcpl. m. sg. cstr. gen.	to leave > to put in > to place	
+164841	ˤdb	ˤdb[/	/ʕ-d-b/	vb G pass. ptcpl. m. sg. cstr. gen.	to leave > to put in > to place	
 # KTU 1.17 V:17						
-144706	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. gen.	lamb	
-144707	b	b	b	prep.	1) spatial location f) partitive use	
-144708	pḫd	pḫd/	pḫd	n. m. sg. abs. gen.	a yearling lamb	
-144709	l	l(I)	l (I)	prep.	to	DULAT direct ref
-144710	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	2) appetite	
-144711	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
+164842	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. gen.	lamb	
+164843	b	b	b	prep.	1) spatial location f) partitive use	
+164844	pḫd	pḫd/	pḫd	n. m. sg. abs. gen.	a yearling lamb	
+164845	l	l(I)	l (I)	prep.	to	DULAT direct ref
+164846	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	2) appetite	
+164847	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 # KTU 1.17 V:18						
-144712	w	w	w	conj.	and	
-144713	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
-144714	l	l(I)	l (I)	prep.	to	
-144715	brlt	brl(t/t	brlt	n. f. sg. cstr. gen.	1) hunger	
-144716	hyn	hyn/	hyn	DN sg. abs. gen.	Hayyānu/alt. name of the god kṯr (Kothar)	
-144717	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
+164848	w	w	w	conj.	and	
+164849	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
+164850	l	l(I)	l (I)	prep.	to	
+164851	brlt	brl(t/t	brlt	n. f. sg. cstr. gen.	1) hunger	
+164852	hyn	hyn/	hyn	DN sg. abs. gen.	Hayyānu/alt. name of the god kṯr (Kothar)	
+164853	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
 # KTU 1.17 V:19						
-144718	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. cstr. nom.	craftsman	
-144719	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
-144720	šlḥm	]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š impv. 2	1) to give to eat	
-144720	šlḥm	šqy[m	/š-q-y/	vb Š impv. 2	to give drink	
-144721	ššqy	]š]šqy[	/š-q-y/	vb Š suffc. 3 m. sg.	to give drink	
+164854	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. cstr. nom.	craftsman	
+164855	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
+164856	šlḥm	]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š impv. 2	1) to give to eat	
+164857	ššqy	]š]šqy[	/š-q-y/	vb Š suffc. 3 m. sg.	to give drink	
 # KTU 1.17 V:20						
-144722	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
-144723	sad	s(ʔ&ad[	/s-ʔ-d/	vb G impv. 2	to support	
-144724	kbd	kbd[:d	/k-b-d/	vb D impv. 2	to honour	
-144725	hmt	hmt	hmt	pers. pn.		
-144726	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	DULAT direct ref
-144726	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	DULAT direct ref
+164858	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+164859	sad	s(ʔ&ad[	/s-ʔ-d/	vb G impv. 2	to support	
+164860	kbd	kbd[:d	/k-b-d/	vb D impv. 2	to honour	
+164861	hmt	hmt	hmt	pers. pn.		
+164862	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	DULAT direct ref
+164862	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	DULAT direct ref
 # KTU 1.17 V:21						
-144727	ḥkpt	ḥkpt/	ḥkpt	TN sg. cstr. gen.	mythical	
-144728	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-144728	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-144729	klh	kl/+h	kl	n. m. cstr. gen.	totality (of)	
-144730	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc. 3 f. sg.	to hear	
-144730	tšmˤ	!t=!šmˤ[	/š-m-ʕ/	vb G prefc. 2 m. sg.	to hear	
-144730	tšmˤ	!t==!šmˤ[	/š-m-ʕ/	vb G prefc. 2 f. sg.	to hear	
-144730	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc. 3 m. du.	to hear	
-144730	tšmˤ	!t!šmˤ[:w	/š-m-ʕ/	vb G prefc. 3 m. pl.	to hear	
-144730	tšmˤ	!t===!šmˤ[	/š-m-ʕ/	vb G prefc. 2 m. pl.	to hear	
+164863	ḥkpt	ḥkpt/	ḥkpt	TN sg. cstr. gen.	mythical	
+164864	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+164864	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+164865	klh	kl/+h	kl	n. m. cstr. gen.	totality (of)	
+164866	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc. 3 f. sg.	to hear	
+164866	tšmˤ	!t=!šmˤ[	/š-m-ʕ/	vb G prefc. 2 m. sg.	to hear	
+164866	tšmˤ	!t==!šmˤ[	/š-m-ʕ/	vb G prefc. 2 f. sg.	to hear	
+164866	tšmˤ	!t!šmˤ[	/š-m-ʕ/	vb G prefc. 3 m. du.	to hear	
+164866	tšmˤ	!t!šmˤ[:w	/š-m-ʕ/	vb G prefc. 3 m. pl.	to hear	
+164866	tšmˤ	!t===!šmˤ[	/š-m-ʕ/	vb G prefc. 2 m. pl.	to hear	
 # KTU 1.17 V:22						
-144731	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	
-144732	dnty	dnt(II)/+y	dnt (II)	n. f. cstr. gen.	plight	
-144733	tˤdb	?	?	?	?	DULAT: NOT FOUND
-144734	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. nom.	lamb	
+164867	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	
+164868	dnty	dnt(II)/+y	dnt (II)	n. f. cstr. gen.	plight	
+164869	tˤdb	?	?	?	?	DULAT: NOT FOUND
+164870	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. nom.	lamb	
 # KTU 1.17 V:23						
-144735	b	b	b	prep.	in	
-144736	pḫd	pḫd/	pḫd	n. m. sg. abs. gen.	a yearling lamb	
-144737	l	l(I)	l (I)	prep.	to	
-144738	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
-144739	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
-144740	w	w	w	conj.	and	
-144741	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
+164871	b	b	b	prep.	in	
+164872	pḫd	pḫd/	pḫd	n. m. sg. abs. gen.	a yearling lamb	
+164873	l	l(I)	l (I)	prep.	to	
+164874	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
+164875	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
+164876	w	w	w	conj.	and	
+164877	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
 # KTU 1.17 V:24						
-144742	l	l(I)	l (I)	prep.	to	
-144743	brlt	brl(t/t	brlt	n. f. sg. cstr. gen.	hunger	
-144744	hyn	hyn/	hyn	DN sg. abs. gen.	Hayyānu/alt. name of the god kṯr (Kothar)	
-144745	d	d	d	det. or rel. functor	the one(s) of	
-144746	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. cstr. nom.	craftsman	
+164878	l	l(I)	l (I)	prep.	to	
+164879	brlt	brl(t/t	brlt	n. f. sg. cstr. gen.	hunger	
+164880	hyn	hyn/	hyn	DN sg. abs. gen.	Hayyānu/alt. name of the god kṯr (Kothar)	
+164881	d	d	d	det. or rel. functor	the one(s) of	
+164882	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. cstr. nom.	craftsman	
 # KTU 1.17 V:25						
-144747	ydm	yd(I)/m	yd (I)	n. f. pl. abs. gen.	hand	
-144748	aḫr	aḫr	ảḫr	adv./prep./conj.	3) after	
-144749	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
-144750	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+164883	ydm	yd(I)/m	yd (I)	n. f. pl. abs. gen.	hand	
+164884	aḫr	aḫr	ảḫr	adv./prep./conj.	3) after	
+164885	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
+164886	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
 # KTU 1.17 V:26						
-144751	w	w	w	conj.	and	
-144752	hss	?	?	?	?	DULAT: NOT FOUND
-144753	bd	b&d	b	prep.	in	
-144754	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
-144755	ytnn	!y!(ytn[n	/y-t-n/	vb	1) to give	DULAT direct ref
-144755	ytnn	!y!(ytn[+n	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	DULAT direct ref
-144755	ytnn	ytnn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	DULAT direct ref
+164887	w	w	w	conj.	and	
+164888	hss	?	?	?	?	DULAT: NOT FOUND
+164889	bd	b&d	b	prep.	in	
+164890	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+164891	ytnn	!y!(ytn[n	/y-t-n/	vb	1) to give	DULAT direct ref
+164891	ytnn	!y!(ytn[+n	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	DULAT direct ref
+164891	ytnn	ytnn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	DULAT direct ref
 # KTU 1.17 V:27						
-144756	qšt	qšt/	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144756	qšt	qšt/	qšt	n. m. sg. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144757	l	l(I)	l (I)	prep.	to	DULAT direct ref
-144758	brkh	brk/+h	brk	n. f. cstr. gen.	knee	
-144759	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
+164892	qšt	qšt/	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+164892	qšt	qšt/	qšt	n. m. sg. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+164893	l	l(I)	l (I)	prep.	to	DULAT direct ref
+164894	brkh	brk/+h	brk	n. f. cstr. gen.	knee	
+164895	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 # KTU 1.17 V:28						
-144760	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. nom.	arrow(s)	
-144761	apnk	apnk	ảpnk	adv. functor of illation	1) then a) then	DULAT direct ref
-144762	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	
-144763	dnty	dnt(II)/+y	dnt (II)	n. f. cstr. gen.	plight	
+164896	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. nom.	arrow(s)	
+164897	apnk	apnk	ảpnk	adv. functor of illation	1) then a) then	DULAT direct ref
+164898	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	
+164899	dnty	dnt(II)/+y	dnt (II)	n. f. cstr. gen.	plight	
 # KTU 1.17 V:29						
-144764	tšlḥm	!t!]š]lḥm[:w	/l-ḥ-m/ (I)	vb Š prefc. 3 m. pl.	to give to eat	
-144765	tššqy	!t!]š]šqy[:w	/š-q-y/	vb Š prefc. 3 m. pl.	to give drink	
-144766	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god c) object or purpose of an action	
+164900	tšlḥm	!t!]š]lḥm[:w	/l-ḥ-m/ (I)	vb Š prefc. 3 m. pl.	to give to eat	
+164901	tššqy	!t!]š]šqy[:w	/š-q-y/	vb Š prefc. 3 m. pl.	to give drink	
+164902	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god c) object or purpose of an action	
 # KTU 1.17 V:30						
-144767	tsad	?	?	?	?	DULAT: NOT FOUND
-144768	tkbd	!t!kbd[:d	/k-b-d/	vb D prefc. 3 f. sg.	to honour	
-144768	tkbd	!t=!kbd[:d	/k-b-d/	vb D prefc. 2 m. sg.	to honour	
-144768	tkbd	!t==!kbd[:d	/k-b-d/	vb D prefc. 2 f. sg.	to honour	
-144768	tkbd	!t!kbd[:d	/k-b-d/	vb D prefc. 3 m. du.	to honour	
-144768	tkbd	!t!kbd[:d:w	/k-b-d/	vb D prefc. 3 m. pl.	to honour	
-144768	tkbd	!t===!kbd[:d	/k-b-d/	vb D prefc. 2 m. pl.	to honour	
-144769	hmt	hmt	hmt	pers. pn.		
-144770	bˤlḥ	?	?	?	?	DULAT: NOT FOUND
+164903	tsad	?	?	?	?	DULAT: NOT FOUND
+164904	tkbd	!t!kbd[:d	/k-b-d/	vb D prefc. 3 f. sg.	to honour	
+164904	tkbd	!t=!kbd[:d	/k-b-d/	vb D prefc. 2 m. sg.	to honour	
+164904	tkbd	!t==!kbd[:d	/k-b-d/	vb D prefc. 2 f. sg.	to honour	
+164904	tkbd	!t!kbd[:d	/k-b-d/	vb D prefc. 3 m. du.	to honour	
+164904	tkbd	!t!kbd[:d:w	/k-b-d/	vb D prefc. 3 m. pl.	to honour	
+164904	tkbd	!t===!kbd[:d	/k-b-d/	vb D prefc. 2 m. pl.	to honour	
+164905	hmt	hmt	hmt	pers. pn.		
+164906	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+164906	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+164907	ḥ	ḥ/	ḥ	n. m. cstr. gen.	life	
 # KTU 1.17 V:31						
-144771	ḥkpt	ḥkpt/	ḥkpt	TN sg. cstr. nom.	mythical	
-144772	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-144772	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-144773	klh	kl/+h	kl	n. m. cstr. gen.	totality (of)	
-144774	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go	
-144775	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
+164908	ḥkpt	ḥkpt/	ḥkpt	TN sg. cstr. gen.	mythical	
+164909	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+164909	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+164910	klh	kl/+h	kl	n. m. cstr. gen.	totality (of)	
+164911	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go	
+164912	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
 # KTU 1.17 V:32						
-144776	l	l(I)	l (I)	prep.	to	DULAT direct ref
-144777	ahlh	ahl/+h	ảhl	n. m. sg. cstr. gen.	tent	
-144778	hyn	hy+n	hy	pers. pn.	she	
-144778	hyn	hyn/	hyn	DN sg. abs. nom.	Hayyānu/alt. name of the god kṯr (Kothar)	
-144779	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go, leave, depart	
-144780	l	l(I)	l (I)	prep.	to	DULAT direct ref
-144781	mš	?	?	?	?	DULAT: NOT FOUND
+164913	l	l(I)	l (I)	prep.	to	DULAT direct ref
+164914	ahlh	ahl/+h	ảhl	n. m. sg. cstr. gen.	tent	
+164915	hyn	hy+n	hy	pers. pn.	she	
+164915	hyn	hyn/	hyn	DN sg. abs. nom.	Hayyānu/alt. name of the god kṯr (Kothar)	
+164916	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go, leave, depart	
+164917	l	l(I)	l (I)	prep.	to	DULAT direct ref
+164918	mš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 V:33						
-144782	knth	knt/+h	knt	n. f. cstr. nom.	continuity	
-144783	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
-144783	apnk	apnk	ảpnk	adv. functor of illation	then	
-144784	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
-144785	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144785	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144785	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144785	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164919	knth	knt/+h	knt	n. f. cstr. nom.	continuity	
+164920	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
+164920	apnk	apnk	ảpnk	adv. functor of illation	then	
+164921	dnil	dnil/	dnỉl	PN sg. cstr. nom.	Raphaite	
+164922	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164922	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164922	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164922	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
 # KTU 1.17 V:34						
-144786	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
-144787	aphn	ap(I)+hn	ảp (I)	adv./conj.	also	
-144787	aphn	aphn	ảphn	illative functor	immediately afterwards	
-144788	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
-144789	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-144789	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-144789	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-144789	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+164923	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
+164924	aphn	ap(I)+hn	ảp (I)	adv./conj.	also	
+164924	aphn	aphn	ảphn	illative functor	immediately afterwards	
+164925	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
+164926	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+164926	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+164926	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+164926	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
 # KTU 1.17 V:35						
-144790	hrnmy	hrnmy/	hrnmy	GN sg. cstr. gen.	native of the TN *hrnm	
-144791	qšt	qšt/	qšt	n. m. pl. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144791	qšt	qšt/	qšt	n. m. sg. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144792	yqb	nqb[	/n-q-b/	vb G prefc.	to pierce > to mark > to name > to bore through > be marked > to bore, pierce	
-144793	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
-144793	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
+164927	hrnmy	hrnmy/	hrnmy	GN sg. cstr. gen.	native of the TN *hrnm	
+164928	qšt	qšt/	qšt	n. m. pl. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+164928	qšt	qšt/	qšt	n. m. sg. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+164929	yqb	!y!(nqb[	/n-q-b/	vb G prefc. 3 m. sg.	to pierce > to mark > to name > to bore through > be marked > to bore, pierce	
+164930		?	?	?	?	
+164931	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+164931	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 # KTU 1.17 V:36						
-144794	rk	rk[	/r-k(-k)/	vb suffc. 3 m. sg.	to relent	
-144795	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-144796	aqht	aqht/	ảqht	PN sg. abs. gen.	Most Obedient	
-144797	k	+k	-k (I)			
-144797	k	~k	-k (II)			
-144797	k	k(III)	k (III)	Subordinating or completive functor	when	
-144797	k	k(I)	k (I)	prep.	like	
-144797	k	k(II)	k (II)	emph. functor	yes	
-144798	yqbh	nqb[h	/n-q-b/	vb G prefc.	to pierce > to mark > to name > to bore through > be marked > to bore	
-144798	yqbh	nqb[+h	/n-q-b/	vb G prefc.	to pierce > to mark > to name > to bore through > be marked > to bore	
+164932	rk	rk[	/r-k(-k)/	vb suffc. 3 m. sg.	to relent	
+164933	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+164934	aqht	aqht/	ảqht	PN sg. abs. gen.	Most Obedient	
+164935	k	+k	-k (I)			
+164935	k	~k	-k (II)			
+164935	k	k(III)	k (III)	Subordinating or completive functor	when	
+164935	k	k(I)	k (I)	prep.	like	
+164935	k	k(II)	k (II)	emph. functor	yes	
+164936	yq	?	?	?	?	DULAT: NOT FOUND
+164937	bh	b+h	b	prep.	in	
 # KTU 1.17 V:37						
-144799	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	DULAT direct ref
-144800	ṣdk	ṣd(I)/+k	ṣd (I)	n. m. cstr. nom.	hunt	
-144801	y	y	y	prep. functor	oh!	DULAT direct ref
-144802	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-144803	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
+164938	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	DULAT direct ref
+164939	ṣdk	ṣd(I)/+k	ṣd (I)	n. m. cstr. nom.	hunt	
+164940	y	y	y	prep. functor	oh!	DULAT direct ref
+164941	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+164942	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
 # KTU 1.17 V:38						
-144804	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. gen.	first fruit	
-144805	ṣdk	ṣd(I)/+k	ṣd (I)	n. m. cstr. nom.	hunt	
-144806	hn	hn	hn	functor	behold!	
-144807	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	
-144807	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb G suffc.	to wash > to cause to disappear	
-144807	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
-144807	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
-144807	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
+164943	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. gen.	first fruit	
+164944	ṣdk	ṣd(I)/+k	ṣd (I)	n. m. cstr. nom.	hunt	
+164945	hn	hn	hn	functor	behold!	
+164946	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	
+164946	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb G suffc.	to wash > to cause to disappear	
+164946	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
+164946	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
+164946	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
 # KTU 1.17 V:39						
-144808	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	
-144808	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. abs. nom.	hunt	
-144809	b	b	b	prep.	in	
-144810	hklyxxxxxx	?	?	?	?	DULAT: NOT FOUND
+164947	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	
+164947	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. abs. nom.	hunt	
+164948	b	b	b	prep.	in	
+164949	hklyxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:1						
-144811	xxxxxxxxxxxxxxxx	?	?	?	?	
+164950	xxxxxxxxxxxxxxxx	?	?	?	?	
 # KTU 1.17 VI:2						
-144812	xxxxxxxxx	?	?	?	?	
-144813	lḥmxxxxx	?	?	?	?	DULAT: NOT FOUND
+164951	xxxxxxxxx	?	?	?	?	
+164952	lḥmxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:3						
-144814	xxxxxxxx	?	?	?	?	
-144815	yn	yn/	yn	n. m. sg. abs. nom.	wine	
-144816	ay	ay/	ảy	adj. m. sg. abs. nom.	anyone	
-144817	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
-144817	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-144818	xxx	?	?	?	?	
+164953	xxxxxxxx	?	?	?	?	
+164954	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+164955	ay	ay/	ảy	adj. m. sg. abs. nom.	anyone	
+164956	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
+164956	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+164957	xxx	?	?	?	?	
 # KTU 1.17 VI:4						
-144819	xxxxxx	?	?	?	?	
-144820	bḥrb	?	?	?	?	DULAT: NOT FOUND
-144821	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. cstr. nom.	salt	
-144822	qṣ	qṣ/	qṣ	n. m. sg. abs. gen.	end	
+164958	xxxxxx	?	?	?	?	
+164959	b	b	b	prep.	in	
+164960	ḥrb	ḥrb/	ḥrb	n. f. sg. cstr. gen.	knife	
+164961	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. cstr. gen.	salt	
+164962	qṣ	qṣ/	qṣ	n. m. sg. abs. gen.	end	
 # KTU 1.17 VI:5						
-144823	mri	mr(u(I)/&i	mrủ (I)	adj. f. pl. cstr. nom.	fattened	
-144823	mri	mr(u(I)/&i	mrủ (I)	adj. f. sg. abs. nom.	fattened	
-144824	tšty	!t!šty[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
-144825	b	b	b	prep.	in	
-144826	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
-144826	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
-144827	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
-144828	yn	yn/	yn	n. m. sg. abs. gen.	1) wine e) imagery in poetry	
-144829	b	b	b	prep.	in	
-144830	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
-144830	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
-144831	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. gen.	gold	
+164963	mri	mr(u&i(I)/	mrủ (I)	adj. f. pl. cstr. nom.	fattened	
+164963	mri	mr(u&i(I)/	mrủ (I)	adj. f. sg. abs. nom.	fattened	
+164964	tšty	!t!šty[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
+164965	b	b	b	prep.	in	
+164966	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
+164966	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
+164967	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
+164968	yn	yn/	yn	n. m. sg. abs. gen.	2) measures and containers (of wine) e) other containers	
+164969	b	b	b	prep.	in	
+164970	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
+164970	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
+164971	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. gen.	gold	
 # KTU 1.17 VI:6						
-144832	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
-144833	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
-144834	ymlun	!y!ml(ʔ[&u:d+n	/m-l-ʔ/	vb G prefc. 3 m. sg.	to be full	
-144834	ymlun	!y!ml(ʔ[&u+n	/m-l-ʔ/	vb D prefc. 3 m. sg.	to fill (up)	
-144835	krpn	krpn/	krpn	n. m. sg. abs. nom.	cup	
-144836	ˤl	ˤl(I)	ʕl (I)	prep.	4) relationship of sequence	DULAT direct ref
-144837	krpn	krpn/	krpn	n. m. sg. abs. gen.	cup	
+164972	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
+164973	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
+164974	ymlun	!y!ml(ʔ[&u:d+n	/m-l-ʔ/	vb G prefc. 3 m. sg.	to be full	
+164974	ymlun	!y!ml(ʔ[&u+n	/m-l-ʔ/	vb D prefc. 3 m. sg.	to fill (up)	
+164975	krpn	krpn/	krpn	n. m. sg. abs. nom.	cup	
+164976	ˤl	ˤl(I)	ʕl (I)	prep.	4) relationship of sequence	DULAT direct ref
+164977	krpn	krpn/	krpn	n. m. sg. abs. gen.	cup	
 # KTU 1.17 VI:7						
-144838	xxxxxxxxxqym	?	?	?	?	DULAT: NOT FOUND
-144839	w	w	w	conj.	and	
-144840	tˤl	!t!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 f. sg.	to go up, rise	
-144840	tˤl	!t=!ˤl(y[	/ʕ-l-y/	vb G prefc. 2 m. sg.	to go up, rise	
-144840	tˤl	!t==!ˤl(y[	/ʕ-l-y/	vb G prefc. 2 f. sg.	to go up, rise	
-144840	tˤl	!t!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. du.	to go up, rise	
-144840	tˤl	!t!ˤl(y[:w	/ʕ-l-y/	vb G prefc. 3 m. pl.	to go up, rise	
-144840	tˤl	!t===!ˤl(y[	/ʕ-l-y/	vb G prefc. 2 m. pl.	to go up, rise	
-144841	ṯtrṯ	?	?	?	?	DULAT: NOT FOUND
+164978	xxxxxxxxxqym	?	?	?	?	DULAT: NOT FOUND
+164979	w	w	w	conj.	and	
+164980	tˤl	!t!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 f. sg.	to go up, rise	
+164980	tˤl	!t=!ˤl(y[	/ʕ-l-y/	vb G prefc. 2 m. sg.	to go up, rise	
+164980	tˤl	!t==!ˤl(y[	/ʕ-l-y/	vb G prefc. 2 f. sg.	to go up, rise	
+164980	tˤl	!t!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. du.	to go up, rise	
+164980	tˤl	!t!ˤl(y[:w	/ʕ-l-y/	vb G prefc. 3 m. pl.	to go up, rise	
+164980	tˤl	!t===!ˤl(y[	/ʕ-l-y/	vb G prefc. 2 m. pl.	to go up, rise	
+164981	ṯtrṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:8						
-144842	xxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
-144843	yn	yn/	yn	n. m. sg. cstr. nom.	1) wine d) cf. in poetry	
-144844	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. abs. gen.	to make, process, work	
-144844	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. gen.	to make, process, work	
-144845	l	l(I)	l (I)	prep.	to	
-144846	ḥbš	ḥbš(I)/	ḥbš (I)	n. m. sg. abs. gen.	2) waist	
+164982	xxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
+164983	yn	yn/	yn	n. m. sg. cstr. nom.	1) wine d) cf. in poetry	
+164984	ˤšy	ˤšy[/	/ʕ-š-y/	vb G act. ptcpl. m. sg. abs. gen.	to make, process, work	
+164984	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. gen.	to make, process, work	
+164985	l	l(I)	l (I)	prep.	to	
+164986	ḥbš	ḥbš(I)/	ḥbš (I)	n. m. sg. abs. gen.	2) waist	
 # KTU 1.17 VI:9						
-144847	w	w	w	conj.	and	
-144848	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
-144849	ynḥtn	!y!nḥt[:d+n	/n-ḥ-t/	vb D prefc. 3 m. sg.	to take down (for oneself) > to reach for	
-144850	qn	qn/	qn	n. m. sg. abs. nom.	3) arrow	
-144851	ysbt	?	?	?	?	DULAT: NOT FOUND
+164987	w	w	w	conj.	and	
+164988	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
+164989	ynḥtn	!y!nḥt[:d+n	/n-ḥ-t/	vb D prefc. 3 m. sg.	to take down (for oneself) > to reach for	
+164990	qn	qn/	qn	n. m. sg. abs. nom.	3) arrow	
+164991	ysbt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:10						
-144852	qšt	qšt/	qšt	n. m. pl. cstr. nom.	bow	
-144852	qšt	qšt/	qšt	n. m. sg. cstr. nom.	bow	
-144853	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. gen.	produce	
-144853	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. gen.	masonry	
-144853	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. gen.	tamarisk	
-144854	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
-144855	b	b	b	prep.	in	
-144856	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl. m. sg. cstr. gen.	to raise	
-144857	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	eye	
-144858	w	w	w	conj.	and	
-144859	tphn	!t!ph(y[+n	/p-h-y/	vb G prefc.	to see	
+164992	qšt	qšt/	qšt	n. m. pl. cstr. nom.	bow	
+164992	qšt	qšt/	qšt	n. m. sg. cstr. nom.	bow	
+164993	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. gen.	produce	
+164993	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. gen.	masonry	
+164993	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. gen.	tamarisk	
+164994	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
+164995	b	b	b	prep.	in	
+164996	nši	nš(ʔ[/&i	/n-š-ʔ/	vb G act. ptcpl. m. sg. cstr. gen.	to raise	
+164997	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	eye	
+164998		?	?	?	?	
+164999	w	w	w	conj.	and	
+165000	tphn	!t!ph(y[+n	/p-h-y/	vb G prefc.	to see	
 # KTU 1.17 VI:11						
-144860	xxxxxxxxxxḥl	?	?	?	?	DULAT: NOT FOUND
-144861	kslh	ksl/+h	ksl	n. f. cstr. nom.	3) side	
-144862	k	+k	-k (I)			
-144862	k	~k	-k (II)			
-144862	k	k(III)	k (III)	Subordinating or completive functor	when	
-144862	k	k(I)	k (I)	prep.	like	
-144862	k	k(II)	k (II)	emph. functor	yes	
-144863	brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
+165001	xxxxxxxxxxḥl	?	?	?	?	DULAT: NOT FOUND
+165002	kslh	ksl/+h	ksl	n. f. cstr. nom.	3) side	
+165003	k	+k	-k (I)			
+165003	k	~k	-k (II)			
+165003	k	k(III)	k (III)	Subordinating or completive functor	when	
+165003	k	k(I)	k (I)	prep.	like	
+165003	k	k(II)	k (II)	emph. functor	yes	
+165004	brq	brq(I)/	brq (I)	n. m. sg. abs. nom.	ray	
 # KTU 1.17 VI:12						
-144864	xxxxxxxxxxk	?	?	?	?	DULAT: NOT FOUND
-144865	yġḏ	!y!ġḏ(y[	/ġ-ḏ-y/	vb G prefc. 3 m. sg.	to move	
-144866	thmt	thm(t/t	thmt	n. f. sg. cstr. nom.	Primordial Ocean	DULAT direct ref
-144867	brq	brq(I)/	brq (I)	n. m. sg. abs. gen.	ray	
+165005	xxxxxxxxxxk	?	?	?	?	DULAT: NOT FOUND
+165006	yġḏ	!y!ġḏ(y[	/ġ-ḏ-y/	vb G prefc. 3 m. sg.	to move	
+165007	thmt	thm(t/t	thmt	n. f. sg. cstr. nom.	Primordial Ocean	DULAT direct ref
+165008	brq	brq(I)/	brq (I)	n. m. sg. abs. gen.	ray	
 # KTU 1.17 VI:13						
-144868	xxxxxxx	?	?	?	?	
-144869	qnh	qn/+h	qn	n. m. cstr. nom.	cane	
-144870	tṣb	yṣb[	/y-ṣ-b/	vb N	to be, remain loaded	
-144871	qšt	qšt/	qšt	n. m. pl. cstr. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144871	qšt	qšt/	qšt	n. m. sg. cstr. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144872	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. gen.	masonry	DULAT direct ref
-144873	k	+k	-k (I)			
-144873	k	~k	-k (II)			
-144873	k	k(III)	k (III)	Subordinating or completive functor	when	
-144873	k	k(I)	k (I)	prep.	like	
-144873	k	k(II)	k (II)	emph. functor	yes	
+165009	xxxxxxx	?	?	?	?	
+165010	qnh	qn/+h	qn	n. m. cstr. nom.	cane	
+165011	tṣb	!t!(]n](yṣb[	/y-ṣ-b/	vb N	to be, remain loaded	
+165012	qšt	qšt/	qšt	n. m. pl. cstr. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+165012	qšt	qšt/	qšt	n. m. sg. cstr. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+165013	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. gen.	masonry	DULAT direct ref
+165014	k	+k	-k (I)			
+165014	k	~k	-k (II)			
+165014	k	k(III)	k (III)	Subordinating or completive functor	when	
+165014	k	k(I)	k (I)	prep.	like	
+165014	k	k(II)	k (II)	emph. functor	yes	
 # KTU 1.17 VI:14						
-144874	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
-144874	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
-144875	w	w	w	conj.	and	
-144876	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
-144877	d	d	d	det. or rel. functor	the one(s) of	
-144878	qrnh	qrn/+h	qrn	n. f. cstr. nom.	horn	
-144879	km	km	km	prep./conj./adv.		DULAT direct ref
-144880	bṯn	bṯn/	bṯn	n. m. sg. abs. gen.	serpent	
-144881	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to present, offer	
+165015	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
+165015	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
+165016	w	w	w	conj.	and	
+165017	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
+165018	d	d	d	det. or rel. functor	the one(s) of	
+165019	qrnh	qrn/+h	qrn	n. f. cstr. nom.	horn	
+165020	km	km	km	prep./conj./adv.		
+165021	bṯn	bṯn/	bṯn	n. m. sg. abs. gen.	serpent	
+165022	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to present, offer	
 # KTU 1.17 VI:15						
-144882	krpnh	krpn/+h	krpn	n. m. cstr. nom.	cup	
-144883	tdy	!t!(ydy[	/y-d-y/ (I)	vb G prefc. 3 f. sg.	to throw	
-144883	tdy	!t=!(ydy[	/y-d-y/ (I)	vb G prefc. 2 m. sg.	to throw	
-144883	tdy	!t==!(ydy[	/y-d-y/ (I)	vb G prefc. 2 f. sg.	to throw	
-144883	tdy	!t!(ydy[	/y-d-y/ (I)	vb G prefc. 3 m. du.	to throw	
-144883	tdy	!t!(ydy[:w	/y-d-y/ (I)	vb G prefc. 3 m. pl.	to throw	
-144883	tdy	!t===!(ydy[	/y-d-y/ (I)	vb G prefc. 2 m. pl.	to throw	
-144884	l	l(I)	l (I)	prep.	to	
-144885	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
-144886	ksh	ks(I)/+h	ks (I)	n. m. cstr. gen.	cup	DULAT direct ref
-144887	tšpkm	!t!špk[m	/š-p-k/	vb G prefc.	to spill, shed	
+165023	krpnh	krpn/+h	krpn	n. m. cstr. nom.	cup	
+165024	tdy	!t!(ydy[	/y-d-y/ (I)	vb G prefc. 3 f. sg.	to throw	
+165024	tdy	!t=!(ydy[	/y-d-y/ (I)	vb G prefc. 2 m. sg.	to throw	
+165024	tdy	!t==!(ydy[	/y-d-y/ (I)	vb G prefc. 2 f. sg.	to throw	
+165024	tdy	!t!(ydy[	/y-d-y/ (I)	vb G prefc. 3 m. du.	to throw	
+165024	tdy	!t!(ydy[:w	/y-d-y/ (I)	vb G prefc. 3 m. pl.	to throw	
+165024	tdy	!t===!(ydy[	/y-d-y/ (I)	vb G prefc. 2 m. pl.	to throw	
+165025	l	l(I)	l (I)	prep.	to	
+165026	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
+165027	ksh	ks(I)/+h	ks (I)	n. m. cstr. gen.	cup	DULAT direct ref
+165028	tšpkm	!t!špk[m	/š-p-k/	vb G prefc.	to spill, shed	
 # KTU 1.17 VI:16						
-144888	l	l(I)	l (I)	prep.	to	
-144889	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. gen.	dust	
-144890	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
-144891	gh	ytn[	/y-t-n/	vb	to give	
-144891	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
-144892	w	w	w	conj.	and	
-144893	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
-144894	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	
-144894	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
-144894	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
-144895	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
+165029	l	l(I)	l (I)	prep.	to	
+165030	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. gen.	dust	
+165031	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
+165032	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
+165033	w	w	w	conj.	and	
+165034	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
+165035	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	
+165035	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
+165035	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
+165036	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 # KTU 1.17 VI:17						
-144896	l	l(I)	l (I)	prep.	to	
-144897	aqht	aqht/	ảqht	PN sg. cstr. gen.	Most Obedient	
-144898	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
-144899	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request, wish, demand, claim	
-144899	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request, wish, demand, claim	
-144900	ksp	ksp/	ksp	n. m. sg. abs. nom.	1) silver a) 4.738	
-144901	w	w	w	conj.	and	
-144902	atnk	ytn[k	/y-t-n/	vb G prefc.	to give, hand over, grant, bestow	
+165037	l	l(I)	l (I)	prep.	to	
+165038	aqht	aqht/	ảqht	PN sg. cstr. gen.	Most Obedient	
+165039	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
+165040	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request, wish, demand, claim	
+165040	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request, wish, demand, claim	
+165041	ksp	ksp/	ksp	n. m. sg. abs. nom.	1) silver a) 4.738	
+165042	w	w	w	conj.	and	
+165043	atnk	!(ʔ&a!(ytn[+k	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
 # KTU 1.17 VI:18						
-144903	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold a) in general	
-144904	w	w	w	conj.	and	
-144905	ašlḥk	!(ʔ&a!šlḥ(I)[+k	/š-l-ḥ/ (I)	vb G prefc. 1 c. sg.	to stretch	
-144906	w	w	w	conj.	and	
-144907	tn	(ytn[	/y-t-n/	vb	give	DULAT direct ref
-144907	tn	(ytn[/	/y-t-n/	vb	give	DULAT direct ref
-144908	qštk	qšt/+k	qšt	n. m. cstr. nom.	1) bow d) esp. in the Epic of Aqht	
-144909	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+165044	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold a) in general	
+165045	w	w	w	conj.	and	
+165046	ašlḥk	!(ʔ&a!šlḥ(I)[+k	/š-l-ḥ/ (I)	vb G prefc. 1 c. sg.	to stretch	
+165047	w	w	w	conj.	and	
+165048	tn	(ytn[	/y-t-n/	vb	give	DULAT direct ref
+165048	tn	(ytn[/	/y-t-n/	vb	give	DULAT direct ref
+165049	qštk	qšt/+k	qšt	n. m. cstr. nom.	1) bow d) esp. in the Epic of Aqht	
+165050	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.17 VI:19						
-144910	btlt	btl(t/t	btlt	n. f. sg. cstr. gen.	virgin	
-144911	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
-144912	qṣˤtk	qṣˤ(t/t+k	qṣʕt	n. f. sg. cstr. gen.	arrow(s)	
-144913	ybmt	ybm(t/t	ybmt	n. f. sg. cstr. nom.	widow sister-in-law	
-144914	limm	lim(I)/	lỉm (I)	n. m. pl. abs. nom.	people	
+165051	btlt	btl(t/t	btlt	n. f. sg. cstr. gen.	virgin	
+165052		?	?	?	?	
+165053	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
+165054		?	?	?	?	
+165055	qṣˤtk	qṣˤ(t/t+k	qṣʕt	n. f. sg. cstr. gen.	arrow(s)	
+165056	ybmt	ybm(t/t	ybmt	n. f. sg. cstr. nom.	widow sister-in-law	
+165057	limm	lim(I)/m	lỉm (I)	n. m. pl. abs. nom.	people	
 # KTU 1.17 VI:20						
-144915	w	w	w	conj.	and	
-144916	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-144916	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
-144916	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
-144916	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
-144916	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
-144917	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
-144918	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	1) lad	
-144919	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	1) wonderful	
-144920	ṯqbm	ṯqb/m	ṯqb	n. m. pl. abs. nom.	the punctured	
+165058	w	w	w	conj.	and	
+165059	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
+165059	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
+165059	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
+165059	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
+165059	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
+165060	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+165061	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	2) noble	
+165062	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	1) wonderful	
+165063	ṯqbm	ṯqb/m	ṯqb	n. m. pl. abs. nom.	the punctured	
 # KTU 1.17 VI:21						
-144921	b	b	b	prep.	in	
-144922	lbnn	lb/+nn	lb	n. m. cstr. gen.	heart	
-144922	lbnn	lbnn(I)/	lbnn (I)	TN sg. abs. gen.	Lebanon	
-144922	lbnn	lbnn(II)	lbnn (II)	element		
-144923	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	wonderful	
-144924	gdm	gd(II)/m	gd (II)	n. m. pl. abs. nom.	sinew	DULAT direct ref
-144925	b	b	b	prep.	in	
-144926	rumm	rum/	rủm	n. m. pl. abs. gen.	wild bull	
+165064	b	b	b	prep.	in	
+165065	lbnn	lb/+nn	lb	n. m. cstr. gen.	heart	
+165065	lbnn	lbnn(I)/	lbnn (I)	TN sg. abs. gen.	Lebanon	
+165065	lbnn	lbnn(II)	lbnn (II)	element		
+165066	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	wonderful	
+165067	gdm	gd(II)/m	gd (II)	n. m. pl. abs. nom.	sinew	DULAT direct ref
+165068	b	b	b	prep.	in	
+165069	rumm	rum/m	rủm	n. m. pl. abs. gen.	wild bull	
 # KTU 1.17 VI:22						
-144927	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	wonderful	
-144928	qrnt	qrn/t=	qrn	n. f. pl. abs. nom.	1) horn a) as part of an animal’s body	
-144929	b	b	b	prep.	in	
-144930	yˤlm	yˤl(I)/m	yʕl (I)	n. m. pl. abs. gen.	mountain goat	
-144931	mtxxnm	?	?	?	?	DULAT: NOT FOUND
+165070	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	wonderful	
+165071	qrnt	qrn/t	qrn	n. f. sg. abs. nom.	1) horn a) as part of an animal’s body	
+165072	b	b	b	prep.	in	
+165073	yˤlm	yˤl(I)/m	yʕl (I)	n. m. pl. abs. gen.	mountain goat	
+165074	mtxxnm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:23						
-144932	b	b	b	prep.	in	
-144933	ˤqbt	ˤqb/t=	ʕqb	n. f. pl. cstr. gen.	hock	
-144934	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	1) bull	DULAT direct ref
-144934	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	1) bull	DULAT direct ref
-144935	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	1) wonderful	
-144936	b	b	b	prep.	in	
-144937	ġl	ġl(I)/	ġl (I)	n. m. pl. cstr. gen.	far extent of desert	
-144938	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-144938	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-144939	qnm	qn/m	qn	n. m. pl. abs. gen.	1) cane	
+165075	b	b	b	prep.	in	
+165076	ˤqbt	ˤqb/t	ʕqb	n. f. sg. cstr. gen.	hock	
+165077	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	1) bull	DULAT direct ref
+165077	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	1) bull	DULAT direct ref
+165078	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	1) wonderful	
+165079	b	b	b	prep.	in	
+165080	ġl	ġl(I)/	ġl (I)	n. m. pl. cstr. gen.	far extent of desert	
+165081	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+165081	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+165082	qnm	qn/m	qn	n. m. pl. abs. gen.	1) cane	
 # KTU 1.17 VI:24						
-144940	tn	(ytn[	/y-t-n/	vb	give	DULAT direct ref
-144940	tn	(ytn[/	/y-t-n/	vb	give	DULAT direct ref
-144941	l	l(I)	l (I)	prep.	to	
-144942	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
-144943	w	w	w	conj.	and	
-144944	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
-144945	ybˤl	!y!bˤl[	/b-ʕ-l/	vb G prefc. 3 m. sg.	to make, manufacture	
-144946	qšt	qšt/	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144946	qšt	qšt/	qšt	n. m. sg. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
-144947	l	l(I)	l (I)	prep.	to	
-144948	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
+165083	tn	(ytn[	/y-t-n/	vb	give	DULAT direct ref
+165083	tn	(ytn[/	/y-t-n/	vb	give	DULAT direct ref
+165084	l	l(I)	l (I)	prep.	to	
+165085	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
+165086	w	w	w	conj.	and	
+165087	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
+165088	ybˤl	!y!bˤl[	/b-ʕ-l/	vb G prefc. 3 m. sg.	to make, manufacture	
+165089	qšt	qšt/	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+165089	qšt	qšt/	qšt	n. m. sg. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
+165090	l	l(I)	l (I)	prep.	to	
+165091	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.17 VI:25						
-144949	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. gen.	arrow(s)	
-144950	l	l(I)	l (I)	prep.	to	
-144951	ydbmt	?	?	?	?	DULAT: NOT FOUND
-144952	limm	lim(I)/	lỉm (I)	n. m. pl. abs. nom.	people	
-144953	w	w	w	conj.	and	
-144954	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
-144954	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
-144955	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
+165092	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. gen.	arrow(s)	
+165093	l	l(I)	l (I)	prep.	to	
+165094	ydbmt	?	?	?	?	DULAT: NOT FOUND
+165095	limm	lim(I)/m	lỉm (I)	n. m. pl. abs. nom.	people	
+165096	w	w	w	conj.	and	
+165097	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
+165097	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
+165097	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
+165098	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
 # KTU 1.17 VI:26						
-144956	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
-144957	yirš	!y!(ʔ&irš[	/ʔ-r-š/	vb G prefc. 3 m. sg.	to request	
-144957	yirš	!y!(ʔ&irš[:d	/ʔ-r-š/	vb D prefc. 3 m. sg.	to request	
-144958	ḥym	ḥy(m/m	ḥym	n. m. pl. abs. nom.	life	
-144959	l	l(IV)	l (IV)	interj.	oh!	
-144960	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
-144961	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
+165099	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
+165100	yirš	!y!(ʔ&irš[	/ʔ-r-š/	vb G prefc. 3 m. sg.	to request	
+165100	yirš	!y!(ʔ&irš[:d	/ʔ-r-š/	vb D prefc. 3 m. sg.	to request	
+165101	ḥym	ḥy(m/m	ḥym	n. m. pl. abs. nom.	life	
+165102	l	l(IV)	l (IV)	interj.	oh!	
+165103	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+165104	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.17 VI:27						
-144962	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request	
-144962	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request	
-144963	ḥym	ḥy(m/m	ḥym	n. m. pl. abs. nom.	life	
-144964	w	w	w	conj.	and	
-144965	atnk	ytn[k	/y-t-n/	vb G prefc.	to give	
-144966	bl	bl(III)/	bl (III)	n. m. sg. cstr. nom.	blended beer	
-144967	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
-144967	mt	mt(II)/	mt (II)	n. m. sg. abs. gen.	death	
-144967	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. gen.	to die	
-144967	mt	mt(I)/	mt (I)	n. m. sg. abs. gen.	dead person	
+165105	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request	
+165105	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request	
+165106	ḥym	ḥy(m/m	ḥym	n. m. pl. abs. nom.	life	
+165107	w	w	w	conj.	and	
+165108	atnk	!(ʔ&a!(ytn[+k	/y-t-n/	vb G prefc. 1 c. sg.	to give	
+165109	bl	bl(III)/	bl (III)	n. m. sg. cstr. nom.	blended beer	
+165110	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
+165110	mt	mt(II)/	mt (II)	n. m. sg. abs. gen.	death	
+165110	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. gen.	to die	
+165110	mt	mt(I)/	mt (I)	n. m. sg. abs. gen.	dead person	
 # KTU 1.17 VI:28						
-144968	w	w	w	conj.	and	
-144969	ašlḥk	!(ʔ&a!šlḥ(I)[+k	/š-l-ḥ/ (I)	vb G prefc. 1 c. sg.	2) to grant	
-144970	ašsprk	!(ʔ&a!]š]spr[+k	/s-p-r/	vb Š prefc. 1 c. sg.	to make (someone) count	
-144971	ˤm	ˤm(I)	ʕm (I)	prep.	2) relationship of accompaniment	
-144972	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-144972	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+165111	w	w	w	conj.	and	
+165112	ašlḥk	!(ʔ&a!šlḥ(I)[+k	/š-l-ḥ/ (I)	vb G prefc. 1 c. sg.	2) to grant	
+165113	ašsprk	!(ʔ&a!]š]spr[+k	/s-p-r/	vb Š prefc. 1 c. sg.	to make (someone) count	
+165114	ˤm	ˤm(I)	ʕm (I)	prep.	2) relationship of accompaniment	
+165115	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+165115	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.17 VI:29						
-144973	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
-144974	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-144975	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	DULAT direct ref
-144975	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	DULAT direct ref
-144976	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-144976	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
-144977	tspr	!t!spr[	/s-p-r/	vb G prefc. 3 f. sg.	to count, number	
-144977	tspr	!t=!spr[	/s-p-r/	vb G prefc. 2 m. sg.	to count, number	
-144977	tspr	!t==!spr[	/s-p-r/	vb G prefc. 2 f. sg.	to count, number	
-144977	tspr	!t!spr[	/s-p-r/	vb G prefc. 3 m. du.	to count, number	
-144977	tspr	!t!spr[:w	/s-p-r/	vb G prefc. 3 m. pl.	to count, number	
-144977	tspr	!t===!spr[	/s-p-r/	vb G prefc. 2 m. pl.	to count, number	
-144977	tspr	!t!spr[:d	/s-p-r/	vb D prefc. 3 f. sg.	to recite	
-144977	tspr	!t=!spr[:d	/s-p-r/	vb D prefc. 2 m. sg.	to recite	
-144977	tspr	!t==!spr[:d	/s-p-r/	vb D prefc. 2 f. sg.	to recite	
-144977	tspr	!t!spr[:d	/s-p-r/	vb D prefc. 3 m. du.	to recite	
-144977	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to recite	
-144977	tspr	!t===!spr[:d	/s-p-r/	vb D prefc. 2 m. pl.	to recite	
-144978	yrḫm	yrḫ/+m(I)	yrḫ	n. m. cstr. nom.	2) DN	
+165116	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
+165117	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+165118	bn	bn(I)/	bn (I)	n. m. cstr. gen.	son	DULAT direct ref
+165118	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	DULAT direct ref
+165119	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+165119	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+165120	tspr	!t!spr[	/s-p-r/	vb G prefc. 3 f. sg.	to count, number	
+165120	tspr	!t=!spr[	/s-p-r/	vb G prefc. 2 m. sg.	to count, number	
+165120	tspr	!t==!spr[	/s-p-r/	vb G prefc. 2 f. sg.	to count, number	
+165120	tspr	!t!spr[	/s-p-r/	vb G prefc. 3 m. du.	to count, number	
+165120	tspr	!t!spr[:w	/s-p-r/	vb G prefc. 3 m. pl.	to count, number	
+165120	tspr	!t===!spr[	/s-p-r/	vb G prefc. 2 m. pl.	to count, number	
+165120	tspr	!t!spr[:d	/s-p-r/	vb D prefc. 3 f. sg.	to recite	
+165120	tspr	!t=!spr[:d	/s-p-r/	vb D prefc. 2 m. sg.	to recite	
+165120	tspr	!t==!spr[:d	/s-p-r/	vb D prefc. 2 f. sg.	to recite	
+165120	tspr	!t!spr[:d	/s-p-r/	vb D prefc. 3 m. du.	to recite	
+165120	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to recite	
+165120	tspr	!t===!spr[:d	/s-p-r/	vb D prefc. 2 m. pl.	to recite	
+165121	yrḫm	yrḫ/+m(I)	yrḫ	n. m. cstr. nom.	3) month b) as a measure of time	
 # KTU 1.17 VI:30						
-144979	k	+k	-k (I)			
-144979	k	~k	-k (II)			
-144979	k	k(III)	k (III)	Subordinating or completive functor	when	
-144979	k	k(I)	k (I)	prep.	like	
-144979	k	k(II)	k (II)	emph. functor	yes	
-144980	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-144980	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-144981	k	+k	-k (I)			
-144981	k	~k	-k (II)			
-144981	k	k(III)	k (III)	Subordinating or completive functor	when	
-144981	k	k(I)	k (I)	prep.	like	
-144981	k	k(II)	k (II)	emph. functor	yes	
-144982	yḥwy	!y!ḥw(I)[y:d	/ḥ-w/y-y/ (I)	vb D prefc. 3 m. sg.	1) to give (back) life / revive	
-144983	yˤšr	!y!ˤšr[:d	/ʕ-š-r/	vb D prefc. 3 m. sg.	to invite	
-144984	ḥwy	ḥw(I)[:d+y	/ḥ-w/y-y/ (I)	vb D impv. 2	1) to give (back) life / revive	DULAT direct ref
-144985	yˤš	?	?	?	?	DULAT: NOT FOUND
+165122	k	+k	-k (I)			
+165122	k	~k	-k (II)			
+165122	k	k(III)	k (III)	Subordinating or completive functor	when	
+165122	k	k(I)	k (I)	prep.	like	
+165122	k	k(II)	k (II)	emph. functor	yes	
+165123	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+165123	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+165124	k	+k	-k (I)			
+165124	k	~k	-k (II)			
+165124	k	k(III)	k (III)	Subordinating or completive functor	when	
+165124	k	k(I)	k (I)	prep.	like	
+165124	k	k(II)	k (II)	emph. functor	yes	
+165125	yḥwy	!y!ḥwy(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc. 3 m. sg.	1) to give (back) life / revive	
+165126	yˤšr	!y!ˤšr[:d	/ʕ-š-r/	vb D prefc. 3 m. sg.	to invite	
+165127	ḥwy	ḥwy/	ḥwy	n. m. abs. nom.	storehouse	
+165128	yˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:31						
-144986	r	?	?	?	?	DULAT: NOT FOUND
-144987	w	w	w	conj.	and	
-144988	yšqynh	!y!šqy[n+h	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	DULAT direct ref
-144988	yšqynh	!y!šqy[+nh	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	DULAT direct ref
-144989	ybd	!y!bd[	/b-d/	vb G prefc. 3 m. sg.	to intone a song	
-144990	w	w	w	conj.	and	
-144991	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	1) to sing	
-144992	ˤlh	ˤl(I)+h	ʕl (I)	prep.	1) spatial location or pre-eminence d) next to	
+165129	r	?	?	?	?	DULAT: NOT FOUND
+165130	w	w	w	conj.	and	
+165131	yšqynh	!y!šqy[n+h	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	DULAT direct ref
+165131	yšqynh	!y!šqy[+nh	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	DULAT direct ref
+165132	ybd	!y!bd[	/b-d/	vb G prefc. 3 m. sg.	to intone a song	
+165133	w	w	w	conj.	and	
+165134	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	1) to sing	
+165135	ˤlh	ˤl(I)+h	ʕl (I)	prep.	1) spatial location or pre-eminence c) in front	
 # KTU 1.17 VI:32						
-144993	nˤmt	nˤm(I)/t	nʕm (I)	adj. f. sg. abs. nom.	handsome	
-144993	nˤmt	nˤm(t(I)/t	nʕmt (I)	adj. f. sg. abs. nom.	graceful	
-144993	nˤmt	nˤm(t(II)/t	nʕmt (II)	n. f. sg. abs. nom.	delight	
-144994	yˤnynn	!y!ˤny(I)[+nn	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-144995	ap	ap(I)	ảp (I)	adv./conj.	also	DULAT direct ref
-144996	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
-144997	aḥwy	!(ʔ&a!ḥw(I)[y:d	/ḥ-w/y-y/ (I)	vb D prefc. 1 c. sg.	1) to give (back) life / revive	
+165136	nˤmt	nˤm(I)/t	nʕm (I)	adj. f. sg. abs. nom.	handsome	
+165136	nˤmt	nˤm(t(I)/t	nʕmt (I)	adj. f. sg. abs. nom.	graceful	
+165136	nˤmt	nˤm(t(II)/t	nʕmt (II)	n. f. sg. abs. nom.	delight	
+165137	yˤnynn	!y!ˤny(I)[+nn	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
+165138	ap	ap(I)	ảp (I)	adv./conj.	also	DULAT direct ref
+165139	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
+165140	aḥwy	!(ʔ&a!ḥwy(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc. 1 c. sg.	1) to give (back) life / revive	
 # KTU 1.17 VI:33						
-144998	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
-144999	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
-145000	w	w	w	conj.	and	
-145001	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-145001	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
-145001	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
-145001	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
-145001	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
-145002	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
-145003	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
+165141	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+165142	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
+165143	w	w	w	conj.	and	
+165144	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
+165144	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	
+165144	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
+165144	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
+165144	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
+165145	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+165146	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.17 VI:34						
-145004	al	al(I)	ảl (I)	neg. functor	no	DULAT direct ref
-145005	tšrgn	!t!šrg[+n	/š-r-g/	vb G prefc.	to twist, tangle up > to deceive, delude, entangle > to be interwoven > to plait, weave, entwine > to weave, mix > to lie > intertwine	
-145006	y	y	y	prep. functor	oh!	DULAT direct ref
-145007	btltm	btl(t/t~m	btlt	n. f. sg. abs. gen.	virgin	
-145008	dm	dm(I)	dm (I)	functor	since	DULAT direct ref
-145009	l	l(I)	l (I)	prep.	to	DULAT direct ref
-145010	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	1) lad	
+165147	al	al(I)	ảl (I)	neg. functor	no	DULAT direct ref
+165148	tšrgn	!t!šrg[+n	/š-r-g/	vb G prefc.	to twist, tangle up > to deceive, delude, entangle > to be interwoven > to plait, weave, entwine > to weave, mix > to lie > intertwine	
+165149	y	y	y	prep. functor	oh!	DULAT direct ref
+165150	btltm	btlt/~m	btlt	n. f. sg. abs. gen.	virgin	
+165151	dm	dm(I)	dm (I)	functor	since	DULAT direct ref
+165152	l	l(I)	l (I)	prep.	to	DULAT direct ref
+165153	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	2) noble	
 # KTU 1.17 VI:35						
-145011	šrgk	šrg[+k	/š-r-g/	vb G prefc.	to twist	
-145011	šrgk	!!šrg[/k	/š-r-g/	vb G inf.	to twist	
-145012	ḫḫm	ḫḫ/~m	ḫḫ	n. m. sg. cstr. nom.	mire	
-145013	mt	mt(III)/	mt (III)	n. m. pl. abs. gen.	1) man	DULAT direct ref
-145013	mt	mt(III)/	mt (III)	n. m. sg. abs. gen.	1) man	DULAT direct ref
-145014	uḫryt	uḫry/t	ủḫry	adj. f. sg. abs. nom.	last	
-145015	mh	m&h	m(h)	pers. pn.	1) what?	DULAT direct ref
-145016	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
-145016	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
+165154	šrgk	šrg[+k	/š-r-g/	vb G prefc.	to twist	
+165154	šrgk	!!šrg[/k	/š-r-g/	vb G inf.	to twist	
+165155	ḫḫm	ḫḫ/~m	ḫḫ	n. m. sg. cstr. nom.	mire	
+165156	mt	mt(III)/	mt (III)	n. m. pl. abs. gen.	1) man	DULAT direct ref
+165156	mt	mt(III)/	mt (III)	n. m. sg. abs. gen.	1) man	DULAT direct ref
+165157	uḫryt	uḫry/t	ủḫry	adj. f. sg. abs. nom.	last	
+165158	mh	m&h	m(h)	pers. pn.	1) what?	DULAT direct ref
+165159	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
+165159	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
 # KTU 1.17 VI:36						
-145017	mh	mh/	mh/y	n. m. sg. abs. nom.	water	
-145018	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
-145018	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
-145019	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
-145019	mt	mt(II)/	mt (II)	n. m. sg. cstr. nom.	death	
-145019	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-145019	mt	mt(I)/	mt (I)	n. m. sg. cstr. nom.	dead person	
-145020	aṯryt	aṯry(t/t	ảṯryt	n. f. sg. cstr. gen.	final outcome	
-145021	spsg	spsg/	ś:sp/bś:sg	n. m. sg. abs. gen.	glaze	
-145022	ysk	nsk[	/n-s-k/	vb G prefc.	to pour (out), spill	
-145022	ysk	nsk[:pass	/n-s-k/	vb Gpass prefc.	to pour (out), spill	
+165160	mh	mh/	mh/y	n. m. sg. abs. nom.	water	
+165161	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
+165161	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
+165162	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
+165162	mt	mt(II)/	mt (II)	n. m. sg. cstr. nom.	death	
+165162	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+165162	mt	mt(I)/	mt (I)	n. m. sg. cstr. nom.	dead person	
+165163	aṯryt	aṯry(t/t	ảṯryt	n. f. sg. cstr. gen.	final outcome	
+165164	spsg	spsg/	ś:sp/bś:sg	n. m. sg. abs. gen.	glaze	
+165165	ysk	!y!(nsk[	/n-s-k/	vb G prefc. 3 m. sg.	to pour (out), spill	
+165165	ysk	!y!(nsk[:pass	/n-s-k/	vb Gpass prefc. 3 m. sg.	to pour (out), spill	
 # KTU 1.17 VI:37						
-145023	lriš	?	?	?	?	DULAT: NOT FOUND
-145024	ḥrṣ	ḥrṣ(II)/	ḥrṣ (II)	n. m. sg. abs. nom.	quicklime	DULAT direct ref
-145025	l	l(I)	l (I)	prep.	to	DULAT direct ref
-145026	ẓr	ẓr(I)/	ẓr (I)	n. m. cstr. gen.	upon	
-145027	qdqdy	qdqd/+y	qdqd	n. m. cstr. gen.	skull	
+165166	l	l(I)	l (I)	prep.	to	DULAT direct ref
+165167	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. gen.	1) head	
+165168	ḥrṣ	ḥrṣ(II)/	ḥrṣ (II)	n. m. sg. abs. gen.	quicklime	DULAT direct ref
+165169	l	l(I)	l (I)	prep.	to	DULAT direct ref
+165170	ẓr	ẓr(I)/	ẓr (I)	n. m. cstr. gen.	upon	
+165171	qdqdy	qdqd/+y	qdqd	n. m. cstr. gen.	skull	
 # KTU 1.17 VI:38						
-145028	apmt	?	?	?	?	DULAT: NOT FOUND
-145029	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
-145030	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	DULAT direct ref
-145031	w	w	w	conj.	and	
-145032	an	an(I)	ản (I)	pers. pn.	1) i b) emph. subj. in VC	DULAT direct ref
-145033	mtm	mt(II)/~m	mt (II)	n. m. abs. nom. sg.	1) death	DULAT quote in /m-t/ (cue: death)
-145034	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	DULAT direct ref
+165172	ap	ap(I)	ảp (I)	adv./conj.	also	
+165172	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
+165173	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+165173	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	1) death	
+165173	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
+165173	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+165173	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+165174	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
+165175	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	DULAT direct ref
+165176	w	w	w	conj.	and	
+165177	an	an(I)	ản (I)	pers. pn.	1) i b) emph. subj. in VC	DULAT direct ref
+165178	mtm	mt(II)/~m	mt (II)	n. m. abs. nom. sg.	1) death	DULAT quote in /m-t/ (cue: death)
+165179	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	DULAT direct ref
 # KTU 1.17 VI:39						
-145035	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
-145036	mṯn	mṯn/	mṯn	n. m. sg. cstr. gen.	repetition	
-145037	rgmm	rgm/	rgm	n. m. pl. abs. gen.	word	
-145038	argm	!(ʔ&a!rgm[	/r-g-m/	vb G prefc. 1 c. sg.	to say	
-145039	qštm	qšt/m	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	
+165180	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
+165181	mṯn	mṯn/	mṯn	n. m. sg. cstr. gen.	repetition	
+165182	rgmm	rgm/m	rgm	n. m. pl. abs. gen.	word	
+165183	argm	!(ʔ&a!rgm[	/r-g-m/	vb G prefc. 1 c. sg.	to say	
+165184	qštm	qšt/m	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	
 # KTU 1.17 VI:40						
-145040	k	+k	-k (I)			
-145040	k	~k	-k (II)			
-145040	k	k(III)	k (III)	Subordinating or completive functor	when	
-145040	k	k(I)	k (I)	prep.	like	
-145040	k	k(II)	k (II)	emph. functor	yes	
-145041	l	l(I)	l (I)	prep.	to	
-145042	mhrm	mhr(I)/m	mhr (I)	n. m. pl. abs. gen.	1) warrior (trained, expert)	
-145043	ht	ht	ht	adv.	1) adv b) of time	
-145044	tṣdn	!t!ṣd[n	/ṣ-d/	vb G prefc.	to hunt	
-145045	tinṯt	tinṯ(t/t	tỉnṯt	n. f. sg. abs. nom.	the female sex	
+165185	k	+k	-k (I)			
+165185	k	~k	-k (II)			
+165185	k	k(III)	k (III)	Subordinating or completive functor	when	
+165185	k	k(I)	k (I)	prep.	like	
+165185	k	k(II)	k (II)	emph. functor	yes	
+165186	l	l(I)	l (I)	prep.	to	
+165187	mhrm	mhr(I)/m	mhr (I)	n. m. pl. abs. gen.	1) warrior (trained, expert)	
+165188	ht	ht	ht	adv.	1) adv b) of time	
+165189	tṣdn	!t!ṣd[n	/ṣ-d/	vb G prefc.	to hunt	
+165190	tinṯt	tinṯ(t/t	tỉnṯt	n. f. sg. abs. nom.	the female sex	
 # KTU 1.17 VI:41						
-145046	b	b	b	prep.	in	
-145047	hm	hm(II)	hm (II)	conj./interr. functor	if	
-145047	hm	hm(I)	hm (I)	pers. pn.	they	
-145048	gmm	g&m/+m(I)	g	n. m. cstr. nom.	(loud) voice	
-145048	gmm	gm(II)+m(I)	gm (II)	adv.	also	
-145049	tṣḥq	!t!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 3 f. sg.	to laugh	
-145049	tṣḥq	!t=!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 2 m. sg.	to laugh	
-145049	tṣḥq	!t==!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 2 f. sg.	to laugh	
-145049	tṣḥq	!t!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 3 m. du.	to laugh	
-145049	tṣḥq	!t!ṣḥq[:w	/ṣ-ḥ-q/	vb G prefc. 3 m. pl.	to laugh	
-145049	tṣḥq	!t===!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 2 m. pl.	to laugh	
-145050	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
-145050	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-145050	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
-145051	w	w	w	conj.	and	
-145052	blb	?	?	?	?	DULAT: NOT FOUND
-145053	tqny	!t!qny[	/q-n-y/	vb G prefc. 3 f. sg.	to acquire	
-145053	tqny	!t=!qny[	/q-n-y/	vb G prefc. 2 m. sg.	to acquire	
-145053	tqny	!t==!qny[	/q-n-y/	vb G prefc. 2 f. sg.	to acquire	
-145053	tqny	!t!qny[	/q-n-y/	vb G prefc. 3 m. du.	to acquire	
-145053	tqny	!t!qny[:w	/q-n-y/	vb G prefc. 3 m. pl.	to acquire	
-145053	tqny	!t===!qny[	/q-n-y/	vb G prefc. 2 m. pl.	to acquire	
+165191	b	b	b	prep.	in	
+165192	hm	hm(II)	hm (II)	conj./interr. functor	if	
+165192	hm	hm(I)	hm (I)	pers. pn.	they	
+165193	gmm	g/m+m(I)	g	n. m. cstr. nom.	(loud) voice	
+165193	gmm	gm(II)+m(I)	gm (II)	adv.	also	
+165194	tṣḥq	!t!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 3 f. sg.	to laugh	
+165194	tṣḥq	!t=!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 2 m. sg.	to laugh	
+165194	tṣḥq	!t==!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 2 f. sg.	to laugh	
+165194	tṣḥq	!t!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 3 m. du.	to laugh	
+165194	tṣḥq	!t!ṣḥq[:w	/ṣ-ḥ-q/	vb G prefc. 3 m. pl.	to laugh	
+165194	tṣḥq	!t===!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 2 m. pl.	to laugh	
+165195	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. nom.	eye	
+165195	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+165195	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+165196	w	w	w	conj.	and	
+165197	b	b	b	prep.	in	
+165198	lb	lb/	lb	n. m. sg. abs. gen.	heart	
+165199	tqny	!t!qny[	/q-n-y/	vb G prefc. 3 f. sg.	to acquire	
+165199	tqny	!t=!qny[	/q-n-y/	vb G prefc. 2 m. sg.	to acquire	
+165199	tqny	!t==!qny[	/q-n-y/	vb G prefc. 2 f. sg.	to acquire	
+165199	tqny	!t!qny[	/q-n-y/	vb G prefc. 3 m. du.	to acquire	
+165199	tqny	!t!qny[:w	/q-n-y/	vb G prefc. 3 m. pl.	to acquire	
+165199	tqny	!t===!qny[	/q-n-y/	vb G prefc. 2 m. pl.	to acquire	
 # KTU 1.17 VI:42						
-145054	xxx	?	?	?	?	
-145055	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
-145055	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
-145056	ly	l(I)+y	l (I)	prep.	to	
-145057	l	l(I)	l (I)	prep.	to	
-145058	aqht	aqht/	ảqht	PN sg. cstr. gen.	Most Obedient	
-145059	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
-145060	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
-145060	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
-145061	ly	l(I)+y	l (I)	prep.	to	
-145062	wlk	?	?	?	?	DULAT: NOT FOUND
+165200	xxx	?	?	?	?	
+165201	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
+165201	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
+165202	ly	l(I)+y	l (I)	prep.	to	
+165203	l	l(I)	l (I)	prep.	to	
+165204	aqht	aqht/	ảqht	PN sg. cstr. gen.	Most Obedient	
+165205	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
+165206	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
+165206	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
+165207	ly	l(I)+y	l (I)	prep.	to	
+165208	w	w	w	conj.	and	
+165209	lk	l(I)+k	l (I)	prep.	to	
 # KTU 1.17 VI:43						
-145063	aṯb	!(ʔ&a!(yṯb[	/y-ṯ-b/	vb G prefc. 1 c. sg.	to sit down	
-145064	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT direct ref
-145065	l	l(III)	l (III)	functor	certainly	DULAT direct ref
-145066	aqryk	!(ʔ&a!qry[+k	/q-r-y/	vb G prefc. 1 c. sg.	to meet, encounter, go to meet	
-145067	b	b	b	prep.	in	
-145068	ntb	ntb/	ntb	n. m. sg. cstr. gen.	path	
-145069	pšˤ	pšˤ/	pšʕ	n. m. sg. abs. gen.	rebellion	
+165210	aṯb	!(ʔ&a!(yṯb[	/y-ṯ-b/	vb G prefc. 1 c. sg.	to sit down	
+165211	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT direct ref
+165212	l	l(III)	l (III)	functor	certainly	DULAT direct ref
+165213	aqryk	!(ʔ&a!qry[+k	/q-r-y/	vb G prefc. 1 c. sg.	to meet, encounter, go to meet	
+165214	b	b	b	prep.	in	
+165215	ntb	ntb/	ntb	n. m. sg. cstr. gen.	path	
+165216	pšˤ	pšˤ/	pšʕ	n. m. sg. abs. gen.	rebellion	
 # KTU 1.17 VI:44						
-145070	xxxxxn	?	?	?	?	DULAT: NOT FOUND
-145071	b	b	b	prep.	in	
-145072	ntb	ntb/	ntb	n. m. sg. cstr. gen.	path	
-145073	gan	gan/	gản	n. m. sg. abs. gen.	arrogance	
-145074	ašmqlxk	?	?	?	?	DULAT: NOT FOUND
-145075	tḥt	tḥt(I)	tḥt (I)	prep.	2) at the feet of	
+165217	xxxxxn	?	?	?	?	DULAT: NOT FOUND
+165218	b	b	b	prep.	in	
+165219	ntb	ntb/	ntb	n. m. sg. cstr. gen.	path	
+165220	gan	gan/	gản	n. m. sg. abs. gen.	arrogance	
+165221	ašmqlxk	?	?	?	?	DULAT: NOT FOUND
+165222	tḥt	tḥt(I)	tḥt (I)	prep.	2) at the feet of	
 # KTU 1.17 VI:45						
-145076	pˤny	pˤn/+y	pʕn	n. f. cstr. gen.	foot	
-145077	atk	at(I)+k	ảt (I)	pers. pn.	you	
-145077	atk	ʔtw[+k	/ʔ-t-w/	vb	to come	
-145077	atk	ṯat/+k	ṯảt	n. f. cstr. nom.	ewe	
-145078	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
-145079	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m. sg. abs. nom.	tough	DULAT direct ref
-145080	nšm	nš(m/m	nšm	n. m. pl. abs. nom.	people	
+165223	pˤny	pˤn/+y	pʕn	n. f. cstr. gen.	foot	
+165224	atk	at(I)+k	ảt (I)	pers. pn.	you	
+165224	atk	(ṯat/+k	ṯảt	n. f. cstr. nom.	ewe	
+165225	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
+165226	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m. sg. abs. nom.	tough	DULAT direct ref
+165227	nšm	nš(m/m	nšm	n. m. pl. abs. nom.	people	
 # KTU 1.17 VI:46						
-145081	tdˤṣ	!t!dˤṣ[:w	/d-ʕ-ṣ/	vb G prefc. 3 m. pl.	to fix	
-145082	pˤnm	pˤn/m	pʕn	n. f. pl. abs. nom.	foot	
-145083	w	w	w	conj.	and	
-145084	tr	tr(II)/	tr (II)	n. m. sg. cstr. nom.	turtledove	
-145085	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
-145086	idk	idk	ỉdk	narrative adv. functor	then	
+165228	tdˤṣ	!t!dˤṣ[:w	/d-ʕ-ṣ/	vb G prefc. 3 m. pl.	to fix	
+165229	pˤnm	pˤn/m	pʕn	n. f. pl. abs. nom.	foot	
+165230	w	w	w	conj.	and	
+165231	tr	tr(II)/	tr (II)	n. m. sg. cstr. nom.	turtledove	
+165232	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
+165233	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.17 VI:47						
-145087	l	l(I)	l (I)	prep.	to	
-145087	l	l(II)	l (II)	adv.	no	
-145087	l	l(III)	l (III)	functor	certainly	
-145088	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
-145089	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
-145090	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-145091	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-145091	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
-145092	mbr	?	?	?	?	DULAT: NOT FOUND
-145093	nhrm	nhr/+m(I)	nhr	n. m. cstr. nom.	river	
+165234	l	l(I)	l (I)	prep.	to	
+165234	l	l(II)	l (II)	adv.	no	
+165234	l	l(III)	l (III)	functor	certainly	
+165235	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give	
+165236	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	face	
+165237	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+165238	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+165238	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+165239	mbr	?	?	?	?	DULAT: NOT FOUND
+165240	nhrm	nhr/+m(I)	nhr	n. m. cstr. nom.	river	
 # KTU 1.17 VI:48						
-145094	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
-145094	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
-145095	apq	apq/	ảpq	n. m. sg. abs. nom.	spring	
-145096	thmtm	thm(t/tm	thmt	n. f. du. abs. nom.	Primordial Ocean	
-145097	tgly	!t!gly[	/g-l-y/	vb G prefc. 3 f. sg.	to present oneself	
-145097	tgly	!t=!gly[	/g-l-y/	vb G prefc. 2 m. sg.	to present oneself	
-145097	tgly	!t==!gly[	/g-l-y/	vb G prefc. 2 f. sg.	to present oneself	
-145097	tgly	!t!gly[	/g-l-y/	vb G prefc. 3 m. du.	to present oneself	
-145097	tgly	!t!gly[:w	/g-l-y/	vb G prefc. 3 m. pl.	to present oneself	
-145097	tgly	!t===!gly[	/g-l-y/	vb G prefc. 2 m. pl.	to present oneself	
-145097	tgly	!t!(]n]gly[	/g-l-y/	vb N prefc. 3 f. sg.	to present oneself	
-145097	tgly	!t=!(]n]gly[	/g-l-y/	vb N prefc. 2 m. sg.	to present oneself	
-145097	tgly	!t==!(]n]gly[	/g-l-y/	vb N prefc. 2 f. sg.	to present oneself	
-145097	tgly	!t!(]n]gly[	/g-l-y/	vb N prefc. 3 m. du.	to present oneself	
-145097	tgly	!t!(]n]gly[:w	/g-l-y/	vb N prefc. 3 m. pl.	to present oneself	
-145097	tgly	!t===!(]n]gly[	/g-l-y/	vb N prefc. 2 m. pl.	to present oneself	
-145098	ḏd	ḏd(I)/	ḏd (I)	n. m. sg. cstr. nom.	breast	
-145098	ḏd	ḏd(III)/	ḏd (III)	n. m. sg. cstr. nom.	flock	
-145099	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-145099	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+165241	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
+165241	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
+165242	apq	apq/	ảpq	n. m. sg. abs. nom.	spring	
+165243	thmtm	thm(t/tm	thmt	n. f. du. abs. nom.	Primordial Ocean	
+165244	tgly	!t!gly[	/g-l-y/	vb G prefc. 3 f. sg.	to present oneself	
+165244	tgly	!t=!gly[	/g-l-y/	vb G prefc. 2 m. sg.	to present oneself	
+165244	tgly	!t==!gly[	/g-l-y/	vb G prefc. 2 f. sg.	to present oneself	
+165244	tgly	!t!gly[	/g-l-y/	vb G prefc. 3 m. du.	to present oneself	
+165244	tgly	!t!gly[:w	/g-l-y/	vb G prefc. 3 m. pl.	to present oneself	
+165244	tgly	!t===!gly[	/g-l-y/	vb G prefc. 2 m. pl.	to present oneself	
+165244	tgly	!t!(]n]gly[	/g-l-y/	vb N prefc. 3 f. sg.	to present oneself	
+165244	tgly	!t=!(]n]gly[	/g-l-y/	vb N prefc. 2 m. sg.	to present oneself	
+165244	tgly	!t==!(]n]gly[	/g-l-y/	vb N prefc. 2 f. sg.	to present oneself	
+165244	tgly	!t!(]n]gly[	/g-l-y/	vb N prefc. 3 m. du.	to present oneself	
+165244	tgly	!t!(]n]gly[:w	/g-l-y/	vb N prefc. 3 m. pl.	to present oneself	
+165244	tgly	!t===!(]n]gly[	/g-l-y/	vb N prefc. 2 m. pl.	to present oneself	
+165245	ḏd	ḏd(I)/	ḏd (I)	n. m. sg. cstr. nom.	breast	
+165245	ḏd	ḏd(III)/	ḏd (III)	n. m. sg. cstr. nom.	flock	
+165246	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+165246	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.17 VI:49						
-145100	w	w	w	conj.	and	
-145101	tbu	!t!b(ʔ[&u	/b-ʔ/	vb G prefc.	to enter	
-145102	qrš	qrš/	qrš	n. m. sg. cstr. nom.	private room	
-145103	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-145104	ab	ab/	ảb	n. m. sg. cstr. gen.	father	
-145105	šnm	šnm/	šnm	DN sg. abs. gen.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
+165247	w	w	w	conj.	and	
+165248	tbu	!t!b(ʔ[&u	/b-ʔ/	vb G prefc.	to enter	
+165249	qrš	qrš/	qrš	n. m. sg. cstr. nom.	private room	
+165250	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+165251	ab	ab/	ảb	n. m. sg. cstr. gen.	father	
+165252	šnm	šnm/	šnm	DN sg. abs. gen.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 # KTU 1.17 VI:50						
-145106	l	l(I)	l (I)	prep.	to	
-145107	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
-145108	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-145108	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
-145109	thbr	!t!hbr[	/h-b-r/	vb G prefc. 3 f. sg.	to bow	
-145109	thbr	!t=!hbr[	/h-b-r/	vb G prefc. 2 m. sg.	to bow	
-145109	thbr	!t==!hbr[	/h-b-r/	vb G prefc. 2 f. sg.	to bow	
-145109	thbr	!t!hbr[	/h-b-r/	vb G prefc. 3 m. du.	to bow	
-145109	thbr	!t!hbr[:w	/h-b-r/	vb G prefc. 3 m. pl.	to bow	
-145109	thbr	!t===!hbr[	/h-b-r/	vb G prefc. 2 m. pl.	to bow	
-145110	w	w	w	conj.	and	
-145111	tql	!t!ql[	/q-l/	vb G prefc.	to fall (down)	
-145112	tštḥ	?	?	?	?	DULAT: NOT FOUND
+165253	l	l(I)	l (I)	prep.	to	
+165254	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
+165255	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+165255	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+165256	thbr	!t!hbr[	/h-b-r/	vb G prefc. 3 f. sg.	to bow	
+165256	thbr	!t=!hbr[	/h-b-r/	vb G prefc. 2 m. sg.	to bow	
+165256	thbr	!t==!hbr[	/h-b-r/	vb G prefc. 2 f. sg.	to bow	
+165256	thbr	!t!hbr[	/h-b-r/	vb G prefc. 3 m. du.	to bow	
+165256	thbr	!t!hbr[:w	/h-b-r/	vb G prefc. 3 m. pl.	to bow	
+165256	thbr	!t===!hbr[	/h-b-r/	vb G prefc. 2 m. pl.	to bow	
+165257	w	w	w	conj.	and	
+165258	tql	!t!ql[	/q-l/	vb G prefc.	to fall (down)	
+165259	tštḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:51						
-145113	wy	w+y	w	conj.	and	
-145114	w	w	w	conj.	and	
-145115	tkbdnh	!t!kbd[:d+nh	/k-b-d/	vb D prefc.	to honour	
-145116	tlšn	!t!lšn[	/l-š-n/	vb G prefc. 3 f. sg.	to slander	
-145116	tlšn	!t=!lšn[	/l-š-n/	vb G prefc. 2 m. sg.	to slander	
-145116	tlšn	!t==!lšn[	/l-š-n/	vb G prefc. 2 f. sg.	to slander	
-145116	tlšn	!t!lšn[	/l-š-n/	vb G prefc. 3 m. du.	to slander	
-145116	tlšn	!t!lšn[:w	/l-š-n/	vb G prefc. 3 m. pl.	to slander	
-145116	tlšn	!t===!lšn[	/l-š-n/	vb G prefc. 2 m. pl.	to slander	
-145116	tlšn	!t!lšn[:d	/l-š-n/	vb D prefc. 3 f. sg.	to slander	
-145116	tlšn	!t=!lšn[:d	/l-š-n/	vb D prefc. 2 m. sg.	to slander	
-145116	tlšn	!t==!lšn[:d	/l-š-n/	vb D prefc. 2 f. sg.	to slander	
-145116	tlšn	!t!lšn[:d	/l-š-n/	vb D prefc. 3 m. du.	to slander	
-145116	tlšn	!t!lšn[:d:w	/l-š-n/	vb D prefc. 3 m. pl.	to slander	
-145116	tlšn	!t===!lšn[:d	/l-š-n/	vb D prefc. 2 m. pl.	to slander	
-145117	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
-145118	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
+165260	wy	w+y	w	conj.	and	
+165261	w	w	w	conj.	and	
+165262	tkbdnh	!t!kbd[:d+nh	/k-b-d/	vb D prefc.	to honour	
+165263	tlšn	!t!lšn[	/l-š-n/	vb G prefc. 3 f. sg.	to slander	
+165263	tlšn	!t=!lšn[	/l-š-n/	vb G prefc. 2 m. sg.	to slander	
+165263	tlšn	!t==!lšn[	/l-š-n/	vb G prefc. 2 f. sg.	to slander	
+165263	tlšn	!t!lšn[	/l-š-n/	vb G prefc. 3 m. du.	to slander	
+165263	tlšn	!t!lšn[:w	/l-š-n/	vb G prefc. 3 m. pl.	to slander	
+165263	tlšn	!t===!lšn[	/l-š-n/	vb G prefc. 2 m. pl.	to slander	
+165263	tlšn	!t!lšn[:d	/l-š-n/	vb D prefc. 3 f. sg.	to slander	
+165263	tlšn	!t=!lšn[:d	/l-š-n/	vb D prefc. 2 m. sg.	to slander	
+165263	tlšn	!t==!lšn[:d	/l-š-n/	vb D prefc. 2 f. sg.	to slander	
+165263	tlšn	!t!lšn[:d	/l-š-n/	vb D prefc. 3 m. du.	to slander	
+165263	tlšn	!t!lšn[:d:w	/l-š-n/	vb D prefc. 3 m. pl.	to slander	
+165263	tlšn	!t===!lšn[:d	/l-š-n/	vb D prefc. 2 m. pl.	to slander	
+165264	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+165265	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.17 VI:52						
-145119	tqll	?	?	?	?	DULAT: NOT FOUND
-145120	kdd	kdd/	kdd	n. m. sg. cstr. nom.	child	
-145121	dnil	dnil/	dnỉl	PN sg. cstr. gen.	Raphaite	
-145122	mt	mt(III)/	mt (III)	n. m. pl. cstr. gen.	3) hero	DULAT direct ref
-145122	mt	mt(III)/	mt (III)	n. m. sg. cstr. gen.	3) hero	DULAT direct ref
-145123	rpi	rp(u/&i	rpủ	n. m. sg. abs. gen.	healer	
-145124	w	w	w	conj.	and	
-145125	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	1) to answer	DULAT direct ref
-145125	tˤn	!t=!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. sg.	1) to answer	DULAT direct ref
-145125	tˤn	!t==!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 f. sg.	1) to answer	DULAT direct ref
-145125	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	1) to answer	DULAT direct ref
-145125	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	1) to answer	DULAT direct ref
-145125	tˤn	!t===!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	1) to answer	DULAT direct ref
+165266	tqll	?	?	?	?	DULAT: NOT FOUND
+165267	kdd	kdd/	kdd	n. m. sg. cstr. nom.	child	
+165268	dnil	dnil/	dnỉl	PN sg. cstr. gen.	Raphaite	
+165269	mt	mt(III)/	mt (III)	n. m. pl. cstr. gen.	3) hero	DULAT direct ref
+165269	mt	mt(III)/	mt (III)	n. m. sg. cstr. gen.	3) hero	DULAT direct ref
+165270	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
+165271	w	w	w	conj.	and	
+165272	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	1) to answer	DULAT direct ref
+165272	tˤn	!t=!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. sg.	1) to answer	DULAT direct ref
+165272	tˤn	!t==!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 f. sg.	1) to answer	DULAT direct ref
+165272	tˤn	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	1) to answer	DULAT direct ref
+165272	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	1) to answer	DULAT direct ref
+165272	tˤn	!t===!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	1) to answer	DULAT direct ref
 # KTU 1.17 VI:53						
-145126	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
-145127	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
-145128	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
-145129	gh	ytn[	/y-t-n/	vb	to give	
-145129	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
-145130	w	w	w	conj.	and	
-145131	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
-145132	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
+165273	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
+165274	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
+165275	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
+165276	gh	g/+h	g	n. m. sg. cstr. nom.	(loud) voice	
+165277	w	w	w	conj.	and	
+165278	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim	
+165279	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 1.17 VI:54						
-145133	xxxxxxxxxxxx	?	?	?	?	
-145134	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
-145135	yšmḫ	!y!šmḫ[	/š-m-ḫ/	vb G prefc. 3 m. sg.	to be glad, rejoice	
+165280	xxxxxxxxxxxx	?	?	?	?	
+165281	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
+165282	yšmḫ	!y!šmḫ[	/š-m-ḫ/	vb G prefc. 3 m. sg.	to be glad, rejoice	
 # KTU 1.17 VI:55						
-145136	xxxxxxxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
-145137	bxxxx	?	?	?	?	DULAT: NOT FOUND
+165283	xxxxxxxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND
+165284	bxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:56						
-145138	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
-145138	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
-145139	ilmlk	ilmlk/	ỉlmlk	PN sg. cstr. gen.	ʾIlimalku/Ilimilku/Elimelek	
-145140	šbny	šbny/	šbny	GN m. sg. abs. gen.	Shubanite	
-145141	lmd	lmd/	lmd	adj. m. sg. cstr. nom.	trained	
-145141	lmd	lmd/	lmd	adj. m. sg. abs. nom.	trained	
-145141	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
-145141	lmd	lmd[:d:w	/l-m-d/	vb D suffc. 3 m. pl.	to teach	
-145142	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
-145143	prln	prln/	prln	n. m. sg. abs. nom.	diviner	
+165285	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
+165285	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
+165286	ilmlk	ilmlk/	ỉlmlk	PN sg. cstr. gen.	ʾIlimalku/Ilimilku/Elimelek	
+165287	šbny	šbny/	šbny	GN m. sg. abs. gen.	Shubanite	
+165288	lmd	lmd/	lmd	adj. m. sg. cstr. nom.	trained	
+165288	lmd	lmd/	lmd	adj. m. sg. abs. nom.	trained	
+165288	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
+165288	lmd	lmd[:d:w	/l-m-d/	vb D suffc. 3 m. pl.	to teach	
+165289	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
+165290	prln	prln/	prln	n. m. sg. abs. nom.	diviner	

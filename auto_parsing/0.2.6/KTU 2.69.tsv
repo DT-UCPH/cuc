@@ -1,25 +1,28 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.69 1						
-158822	xxˤšr	?	?	?	?	DULAT: NOT FOUND
+179900	xx	?	?	?	?	
+179901	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
+179901	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+179901	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+179901	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+179901	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 # KTU 2.69 2						
-158823	xx	?	?	?	?	
-158824	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158824	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+179902	xx	?	?	?	?	
+179903	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.69 3						
-158825	w	w	w	conj.	and	
-158826	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-158826	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-158827	x	?	?	?	?	
+179904	w	w	w	conj.	and	
+179905	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
+179905	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+179906	x	?	?	?	?	
 # KTU 2.69 4						
-158828	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158828	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158829	x	?	?	?	?	
+179907	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+179908	x	?	?	?	?	
 # KTU 2.69 5						
-158830	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
-158830	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
-158830	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
-158830	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
+179909	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
+179909	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+179909	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+179909	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
 # KTU 2.69 6						
-158831	mrḥqt	mrḥq(t/t	mrḥqt	n. f. sg. abs. nom.	distance	
+179910	mrḥqt	mrḥq(t/t	mrḥqt	n. f. sg. abs. nom.	distance	
 # KTU 2.69 7						
-158832	lhm	l(I)+hm	l (I)	prep.	to	
+179911	lhm	l(I)+hm	l (I)	prep.	to	

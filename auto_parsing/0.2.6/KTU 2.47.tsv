@@ -1,128 +1,129 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.47 I:1						
-158320	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-158321	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
-158321	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
-158322	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
-158323	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-158323	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+179377	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+179378	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
+179378	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
+179379	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
+179380	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 # KTU 2.47 I:2						
-158324	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. gen.	lord	
-158325	nġr	nġr[	/n-ġ-r/	vb G impv. 2	to protect, guard	
-158325	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect, guard	
-158326	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. nom.	1) country	
+179381	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. gen.	lord	
+179382	nġr	!n!(nġr[	/n-ġ-r/	vb G impv. 1 c. pl.	to protect, guard	
+179382	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect, guard	
+179383	ḥwtk	ḥw(t/t+k	ḥwt	n. f. sg. cstr. nom.	1) country	
 # KTU 2.47 I:3						
-158327	w	w	w	conj.	and	
-158328	l	l(I)	l (I)	prep.	to	
-158329	anyt	any(t/t	ảny(t)	n. f. sg. abs. gen.	1) ship a) ảnyt TN ship(s) of TN	
-158330	tšknn	!t!škn[n:d	/š-k-n/	vb D	to assign	
+179384	w	w	w	conj.	and	
+179385	l	l(I)	l (I)	prep.	to	
+179386	anyt	any(t/t	ảny(t)	n. f. sg. abs. gen.	1) ship a) ảnyt TN ship(s) of TN	
+179387	tšknn	!t!škn[n:d	/š-k-n/	vb D	to assign	
 # KTU 2.47 I:4						
-158331	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	DULAT quote in mỉt (cue: fifty)
-158332	l	l(I)	l (I)	prep.	to	
-158333	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	1) a hundred	
-158334	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl. m. sg. abs. gen.	to sigh	
+179388	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	DULAT quote in mỉt (cue: fifty)
+179389	l	l(I)	l (I)	prep.	to	
+179390	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	1) a hundred	
+179391	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl. m. sg. abs. gen.	to sigh	
 # KTU 2.47 I:5						
-158335	tšknn	!t!škn[n:d	/š-k-n/	vb D	to assign	
-158336	xyh	?	?	?	?	DULAT: NOT FOUND
-158337	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
-158337	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
+179392	tšknn	!t!škn[n:d	/š-k-n/	vb D	to assign	
+179393	xyh	?	?	?	?	DULAT: NOT FOUND
+179394	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
+179394	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
 # KTU 2.47 I:6						
-158338	w	w	w	conj.	and	
-158339	šnmyk	šnmyk	šnmyk	?		
-158340	w	w	w	conj.	and	
-158341	t	/t, /t=				DULAT: NOT FOUND
-158341	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
+179395	w	w	w	conj.	and	
+179396	šnmyk	šnmyk	šnmyk	?		
+179397	w	w	w	conj.	and	
+179398	t	/t, /t=				DULAT: NOT FOUND
+179398	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 2.47 I:7						
-158342	w	w	w	conj.	and	
-158343	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl. abs. nom.	dust	
-158344	arbˤ	arbˤ/	ảrbʕ	num.	four	
-158345	mat	mit/	mỉt	n. f. pl. abs. nom.	a hundred	
+179399	w	w	w	conj.	and	
+179400	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl. abs. nom.	dust	
+179401	arbˤ	arbˤ/	ảrbʕ	num.	four	
+179402	mat	m(i&at/	mỉt	n. f. pl. abs. nom.	a hundred	
 # KTU 2.47 I:8						
-158346	w	w	w	conj.	and	
-158347	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158347	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158348	ḥxxdxxt	?	?	?	?	DULAT: NOT FOUND
+179403	w	w	w	conj.	and	
+179404	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+179405	ḥxx	?	?	?	?	DULAT: NOT FOUND
+179406	d	d	d	det. or rel. functor	the one(s) of	
+179407	xxt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 I:9						
-158349	xxxb	?	?	?	?	DULAT: NOT FOUND
-158350	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	1) country	
-158351	xx	?	?	?	?	
+179408	xxx	?	?	?	?	
+179409	b	b	b	prep.	in	
+179410	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	1) country	
+179411		?	?	?	?	
+179412	xx	?	?	?	?	
 # KTU 2.47 I:10						
-158352	xxx	?	?	?	?	
-158353	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-158353	špš	špš/	špš	n. f. sg. abs. nom.	sun	
+179413	xxx	?	?	?	?	
+179414	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+179414	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 2.47 I:11						
-158354	xx	?	?	?	?	
+179415	xx	?	?	?	?	
 # KTU 2.47 I:12						
-158355		?	?	?	?	
+179416		?	?	?	?	
 # KTU 2.47 I:13						
-158356		?	?	?	?	
+179417		?	?	?	?	
 # KTU 2.47 II:1						
-158357	w	w	w	conj.	and	
-158358	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158358	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-158359	d	d	d	det. or rel. functor	the one(s) of	
-158360	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-158360	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+179418	w	w	w	conj.	and	
+179419	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+179420	d	d	d	det. or rel. functor	the one(s) of	
+179421	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.47 II:2						
-158361	b	b	b	prep.	in	
-158362	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
-158363	špḥ	špḥ/	špḥ	n. m. abs. gen.	family	
+179422	b	b	b	prep.	in	
+179423	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
+179424	špḥ	špḥ/	špḥ	n. m. abs. gen.	family	
 # KTU 2.47 II:3						
-158364	l	l(I)	l (I)	prep.	to	
-158364	l	l(II)	l (II)	adv.	no	
-158364	l	l(III)	l (III)	functor	certainly	
-158365	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
-158365	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
-158366	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
-158367	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-158367	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+179425	l	l(I)	l (I)	prep.	to	
+179425	l	l(II)	l (II)	adv.	no	
+179425	l	l(III)	l (III)	functor	certainly	
+179426	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
+179426	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
+179427	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
+179428	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.47 II:4						
-158368	d	d	d	det. or rel. functor	the one(s) of	
-158369	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-158369	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-158370	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-158371	ḫrdh	ḫrd/+h	ḫrd	n. m. cstr. gen.	(royal) guard	
+179429	d	d	d	det. or rel. functor	the one(s) of	
+179430	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+179430	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
+179431	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+179432	ḫrdh	ḫrd/+h	ḫrd	n. m. cstr. gen.	(royal) guard	
 # KTU 2.47 II:5						
-158372	špḥ	špḥ/	špḥ	n. m. abs. nom.	family	
-158373	al	al(I)	ảl (I)	neg. functor	no	
-158373	al	al(II)	ảl (II)	pos. functor	surely	
-158374	thbṭ	!t!hbṭ[:d:w	/h-b-ṭ/ẓ/	vb D prefc. 3 m. pl.	to knock down	
+179433	špḥ	špḥ/	špḥ	n. m. abs. nom.	family	
+179434	al	al(I)	ảl (I)	neg. functor	no	
+179434	al	al(II)	ảl (II)	pos. functor	surely	
+179435	thbṭ	!t!hbṭ[:d:w	/h-b-ṭ/ẓ/	vb D prefc. 3 m. pl.	to knock down	
 # KTU 2.47 II:6						
-158375	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
-158375	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
-158376	ˤps	?	?	?	?	DULAT: NOT FOUND
-158377	tḫd	?	?	?	?	DULAT: NOT FOUND
-158378	k	+k	-k (I)			
-158378	k	~k	-k (II)			
-158378	k	k(III)	k (III)	Subordinating or completive functor	when	
-158378	k	k(I)	k (I)	prep.	like	
-158378	k	k(II)	k (II)	emph. functor	yes	
-158379	w	w	w	conj.	and	
+179436	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
+179436	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
+179437	ˤps	?	?	?	?	DULAT: NOT FOUND
+179438	tḫd	?	?	?	?	DULAT: NOT FOUND
+179439	k	+k	-k (I)			
+179439	k	~k	-k (II)			
+179439	k	k(III)	k (III)	Subordinating or completive functor	when	
+179439	k	k(I)	k (I)	prep.	like	
+179439	k	k(II)	k (II)	emph. functor	yes	
+179440	w	w	w	conj.	and	
 # KTU 2.47 II:7						
-158380	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. cstr. nom.	to sweep	
+179441	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. cstr. nom.	to sweep	
 # KTU 2.47 II:8						
-158381	ḫrdk	ḫrd/+k	ḫrd	n. m. cstr. gen.	(royal) guard	
-158382	ˤps	?	?	?	?	DULAT: NOT FOUND
-158383	xxr	?	?	?	?	DULAT: NOT FOUND
+179442	ḫrdk	ḫrd/+k	ḫrd	n. m. cstr. gen.	(royal) guard	
+179443	ˤps	?	?	?	?	DULAT: NOT FOUND
+179444		?	?	?	?	
+179445	xxr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:9						
-158384	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
-158384	ymm	y(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
-158385	w	w	w	conj.	and	
-158386	xxp	?	?	?	?	DULAT: NOT FOUND
+179446	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
+179446	ymm	ym(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
+179447	w	w	w	conj.	and	
+179448	xxp	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:10						
-158387	pgnxxxxxx	?	?	?	?	DULAT: NOT FOUND
+179449	pgn	pgn/	pgn	PN sg. abs. nom.	pgn	
+179450	xxxxxx	?	?	?	?	
 # KTU 2.47 II:11						
-158388	w	w	w	conj.	and	
-158389		?	?	?	?	
+179451	w	w	w	conj.	and	
+179452		?	?	?	?	
 # KTU 2.47 II:12						
-158390	x	?	?	?	?	
+179453	x	?	?	?	?	
 # KTU 2.47 II:13						
-158391	w	w	w	conj.	and	
-158392	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-158392	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
-158393	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
-158393	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-158394	yš	?	?	?	?	DULAT: NOT FOUND
+179454	w	w	w	conj.	and	
+179455	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+179455	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
+179456	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+179456	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+179457	yš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:14						
-158395	al	al(I)	ảl (I)	neg. functor	no	
-158395	al	al(II)	ảl (II)	pos. functor	surely	
+179458	al	al(I)	ảl (I)	neg. functor	no	
+179458	al	al(II)	ảl (II)	pos. functor	surely	

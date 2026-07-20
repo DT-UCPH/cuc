@@ -1,228 +1,225 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 1						
-155115	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	1) tablet c) of instructions	DULAT quote in spr (II) (cue: instructions)
-155116	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
-155116	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
-155117	ẓlm	ẓl(I)/m	ẓl (I)	n. m. pl. abs. gen.	3) spirit (of ancestors)	
+175878	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	1) tablet b) of accounting	
+175878	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
+175879	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
+175879	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
+175880	ẓlm	ẓl(I)/m	ẓl (I)	n. m. pl. abs. gen.	3) spirit (of ancestors)	
 # KTU 1.161 2						
-155118	qritm	qr(ʔ&i[tm	/q-r-ʔ/	vb G suffc. 2 c. pl.	to call, shout, invite	
-155119	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	1) healer	
-155120	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
+175881	qritm	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-r-ʔ/ - to call, shout, invite
+175882	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	1) healer	
+175883	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.161 3						
-155121	qbitm	qb(ʔ&i[tm	/q-b-ʔ/	vb G suffc. 2 c. pl.	to send (someone) to say	
-155122	qbṣ	qbṣ/	qbṣ	n. m. sg. cstr. nom.	clan	
-155123	ddn	dd(II)/+n	dd (II)	n. m. cstr. gen.	cauldronful	
+175884	qbitm	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-b-ʔ/ - to send (someone) to say
+175885	qbṣ	qbṣ/	qbṣ	n. m. sg. cstr. nom.	clan	
+175886	ddn	dd(II)/+n	dd (II)	n. m. cstr. gen.	cauldronful	
 # KTU 1.161 4						
-155124	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call, shout, invite	
-155124	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call, shout, invite	
-155125	ulkn	ul/+kn	ủl	n. m. cstr. nom.	(military) force	
-155125	ulkn	ulkn/	ủlkn	PN sg. cstr. nom.	ủlkn	
-155126	rpu	rpu/	rpủ	n. m. sg. abs. gen.	healer	
+175887	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call, shout, invite	
+175887	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call, shout, invite	
+175888	ulkn	ul/+kn	ủl	n. m. cstr. nom.	(military) force	
+175888	ulkn	ulkn/	ủlkn	PN sg. cstr. nom.	ủlkn	
+175889	rpu	rpu/	rpủ	n. m. sg. abs. gen.	healer	
 # KTU 1.161 5						
-155127	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
-155127	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
-155128	trmn	tr(I)&m/+n	tr (I)	n. m. cstr. nom.	pole	
-155128	trmn	trmn/	trmn	PN sg. cstr. nom.	trmn	
-155129	rpu	rpu/	rpủ	n. m. sg. abs. gen.	healer	
+175890	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
+175890	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
+175891	trmn	tr(I)/m+n	tr (I)	n. m. cstr. nom.	pole	
+175891	trmn	trmn/	trmn	PN sg. cstr. nom.	trmn	
+175892	rpu	rpu/	rpủ	n. m. sg. abs. gen.	healer	
 # KTU 1.161 6						
-155130	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
-155130	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
-155131	sdn	sdn/	sdn	n. f. abs. nom.	?	
-155131	sdn	sd/+n	sd	n. m. cstr. nom.	council	
-155132	w	w	w	conj.	and	
-155133	rdn	yrd[+n	/y-r-d/	vb G prefc.	to go down	
-155133	rdn	yrd[+n	/y-r-d/	vb G suffc.	to go down	
-155133	rdn	rdn/	rdn	PN sg. abs. nom.	to rule	
+175893	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
+175893	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
+175894	sdn	sdn/	sdn	n. f. abs. nom.	?	
+175894	sdn	sd/+n	sd	n. m. cstr. nom.	council	
+175895	w	w	w	conj.	and	
+175896	rdn	(yrd[+n	/y-r-d/	vb G impv. 2	to go down	
+175896	rdn	rdn/	rdn	PN sg. abs. nom.	to rule	
 # KTU 1.161 7						
-155134	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
-155134	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
-155135	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
-155135	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
-155136	ˤllmn	ˤllm(y/n	ʕllmy/n	adj. m. sg. abs. nom.	1) eternal a) adjective	
+175897	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
+175897	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
+175898	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
+175898	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
+175899	ˤllmn	ˤllm(y/n	ʕllmy/n	adj. m. sg. abs. nom.	1) eternal a) adjective	
 # KTU 1.161 8						
-155137	qru	qr(ʔ&u[	/q-r-ʔ/	vb G impv. 2	to call	
-155138	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	1) healer	
-155138	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	1) healer	
-155139	qdmym	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
+175900	qru	qr(ʔ&u[	/q-r-ʔ/	vb G impv. 2	to call	
+175901	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	1) healer	
+175901	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	1) healer	
+175902	qdmym	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
 # KTU 1.161 9						
-155140	qritm	qr(ʔ&i[tm	/q-r-ʔ/	vb G suffc. 2 c. pl.	to call	
-155141	rpi	rp(u/&i	rpủ	n. m. sg. cstr. nom.	healer	
-155142	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
+175903	qritm	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-r-ʔ/ - to call
+175904	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
+175905	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.161 10						
-155143	qbitm	qb(ʔ&i[tm	/q-b-ʔ/	vb G suffc. 2 c. pl.	to send (someone) to say	
-155144	qbṣ	qbṣ/	qbṣ	n. m. sg. cstr. nom.	clan	
-155145	ddn	dd(II)/+n	dd (II)	n. m. cstr. gen.	cauldronful	
+175906	qbitm	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-b-ʔ/ - to send (someone) to say
+175907	qbṣ	qbṣ/	qbṣ	n. m. sg. cstr. nom.	clan	
+175908	ddn	dd(II)/+n	dd (II)	n. m. cstr. gen.	cauldronful	
 # KTU 1.161 11						
-155146	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
-155146	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
-155147	ṯˤmṯtmr	?	?	?	?	DULAT: NOT FOUND
-155148	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155148	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+175909	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
+175909	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
+175910	ṯˤmṯtmr	?	?	?	?	DULAT: NOT FOUND
+175911	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	3) said particularly of “Dead Kings” (Xella UF 15 1983 299, WGE 357, Del Olmo AuOr 5 1987 60ff., cf. rpủ ) a) coll. pl. mlkm “Kings”	
 # KTU 1.161 12						
-155149	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
-155149	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
-155150	u	u	ủ	conj.	2) and / also	
-155151	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
-155152	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+175912	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
+175912	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
+175913	u	u	ủ	conj.	2) and / also	
+175914	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
+175915	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.161 13						
-155153	ksi	ksi/	ks/śủ	n. f. cstr. gen.	seat	
-155154	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu	
-155155	tbky	!t!bky[	/b-k-y/	vb G prefc. 3 f. sg.	to weep	
-155155	tbky	!t=!bky[	/b-k-y/	vb G prefc. 2 m. sg.	to weep	
-155155	tbky	!t==!bky[	/b-k-y/	vb G prefc. 2 f. sg.	to weep	
-155155	tbky	!t!bky[	/b-k-y/	vb G prefc. 3 m. du.	to weep	
-155155	tbky	!t!bky[:w	/b-k-y/	vb G prefc. 3 m. pl.	to weep	
-155155	tbky	!t===!bky[	/b-k-y/	vb G prefc. 2 m. pl.	to weep	
+175916	ksi	ksi/	ks/śủ	n. f. cstr. gen.	seat	
+175917	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu	
+175918	tbky	!t!bky[	/b-k-y/	vb G prefc. 3 f. sg.	to weep	
+175918	tbky	!t=!bky[	/b-k-y/	vb G prefc. 2 m. sg.	to weep	
+175918	tbky	!t==!bky[	/b-k-y/	vb G prefc. 2 f. sg.	to weep	
+175918	tbky	!t!bky[	/b-k-y/	vb G prefc. 3 m. du.	to weep	
+175918	tbky	!t!bky[:w	/b-k-y/	vb G prefc. 3 m. pl.	to weep	
+175918	tbky	!t===!bky[	/b-k-y/	vb G prefc. 2 m. pl.	to weep	
 # KTU 1.161 14						
-155156	w	w	w	conj.	and	
-155157	ydmˤ	!y!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. sg.	to shed tears, weep, sob	
-155158	hdm	hdm/	hdm	n. m. sg. cstr. nom.	footstool	
-155159	pˤnh	pˤn/+h	pʕn	n. f. cstr. gen.	1) foot a) tdʕṣ pʕnm she pressed (?) (her) feet (down)	
+175919	w	w	w	conj.	and	
+175920	ydmˤ	!y!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. sg.	to shed tears, weep, sob	
+175921	hdm	hdm/	hdm	n. m. sg. cstr. nom.	footstool	
+175922	pˤnh	pˤn/+h	pʕn	n. f. cstr. gen.	1) foot a) tdʕṣ pʕnm she pressed (?) (her) feet (down)	
 # KTU 1.161 15						
-155160	l	l(I)	l (I)	prep.	to	
-155161	pnh	pn(m/+h	pnm	n. m. pl. tant. cstr. gen.	in front	
-155162	ybky	!y!bky[	/b-k-y/	vb G prefc. 3 m. sg.	to weep	
-155163	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. cstr. nom.	table	
-155164	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-155164	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+175923	l	l(I)	l (I)	prep.	to	
+175924	pnh	pn(m/+h	pnm	n. m. pl. tant. cstr. gen.	in front	
+175925	ybky	!y!bky[	/b-k-y/	vb G prefc. 3 m. sg.	to weep	
+175926	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. cstr. nom.	table	
+175927	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 # KTU 1.161 16						
-155165	w	w	w	conj.	and	
-155166	yblˤ	!y!blˤ[	/b-l-ʕ/	vb G prefc. 3 m. sg.	to swallow	
-155167	udmˤth	dmˤ(t/t	dmʕt	n. f. sg. cstr. nom.	tear	
+175928	w	w	w	conj.	and	
+175929	yblˤ	!y!blˤ[	/b-l-ʕ/	vb G prefc. 3 m. sg.	to swallow	
+175930	udmˤth	&udmˤt&/+h	dmʕt	n. f. cstr. nom.	tear	
 # KTU 1.161 17						
-155168	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. gen.	desolation	
-155169	w	w	w	conj.	and	
-155170	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. cstr. nom.	desolation	
-155171	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. gen.	desolation	
+175931	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. nom.	desolation	
+175932	w	w	w	conj.	and	
+175933	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. cstr. nom.	desolation	
+175934	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. gen.	desolation	
 # KTU 1.161 18						
-155172	išḫn	!(ʔ&i!šḫn[	/š-ḫ-n/	vb G impv. 1 c. sg.	to have a fever, be hot	
-155173	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	DULAT quote in špš (cue: sun)
-155174	w	w	w	conj.	and	
-155175	išḫn	!(ʔ&i!šḫn[	/š-ḫ-n/	vb G impv. 1 c. sg.	to have a fever, be hot	
+175935	išḫn	!(ʔ&i!šḫn[	/š-ḫ-n/	vb G impv. 1 c. sg.	to have a fever, be hot	
+175936	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	DULAT quote in špš (cue: sun)
+175937	w	w	w	conj.	and	
+175938	išḫn	!(ʔ&i!šḫn[	/š-ḫ-n/	vb G impv. 1 c. sg.	to have a fever, be hot	
 # KTU 1.161 19						
-155176	nyr	nyr/	nyr	n. f. sg. cstr. nom.	luminary	
-155177	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. gen.	Lady	
-155178	ˤln	ˤl(I)+n	ʕl (I)	prep.	1) spatial location or pre-eminence a) upon	
-155179	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
-155179	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	
-155180	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim, shout	
+175939	nyr	nyr/	nyr	n. f. sg. cstr. nom.	luminary	
+175940	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. gen.	Lady	
+175941	ˤln	ˤl(I)+n	ʕl (I)	prep.	1) spatial location or pre-eminence a) upon	
+175942	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+175942	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	
+175943	tṣḥ	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc.	to exclaim, shout	
 # KTU 1.161 20						
-155181	xaṯr	?	?	?	?	DULAT: NOT FOUND
-155182	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. cstr. nom.	lord	
-155183	l	l(I)	l (I)	prep.	to	
-155184	kisih	?	?	?	?	DULAT: NOT FOUND
-155185	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	1) adv a) (of time) then	
+175944	xaṯr	?	?	?	?	DULAT: NOT FOUND
+175945	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. cstr. nom.	lord	
+175946	l	l(I)	l (I)	prep.	to	
+175947	kisih	?	?	?	?	DULAT: NOT FOUND
+175948	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	2) prep a) (local) behind	
 # KTU 1.161 21						
-155186	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. cstr. gen.	lord	
-155187	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	4) the underworld	
-155188	rd	yrd[	/y-r-d/	vb G impv. 2	to go down, descend	
-155189	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	4) the underworld	
+175949	bˤlk	bˤl(II)/+k	bʕl (II)	n. m. cstr. gen.	lord	
+175950	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	4) the underworld	
+175951	rd	(yrd[	/y-r-d/	vb G impv. 2	to go down, descend	
+175952	arṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	4) the underworld	
 # KTU 1.161 22						
-155190	rd	yrd[	/y-r-d/	vb G impv. 2	to go down	
-155191	w	w	w	conj.	and	
-155192	špl	špl[	/š-p-l/	vb G impv. 2	to bend down, stoop	
-155192	špl	špl[:d	/š-p-l/	vb D impv. 2	to knock down	
-155193	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. nom.	1) dust b) meton	
-155194	tḥt	tḥt(I)	tḥt (I)	prep.	2) at the feet of	
+175953	rd	(yrd[	/y-r-d/	vb G impv. 2	to go down	
+175954	w	w	w	conj.	and	
+175955	špl	špl[	/š-p-l/	vb G impv. 2	to bend down, stoop	
+175955	špl	špl[:d	/š-p-l/	vb D impv. 2	to knock down	
+175956	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. nom.	1) dust b) meton	
+175957	tḥt	tḥt(I)	tḥt (I)	prep.	2) at the feet of	
 # KTU 1.161 23						
-155195	sdn	sdn/	sdn	n. f. abs. gen.	?	
-155195	sdn	sd/+n	sd	n. m. cstr. gen.	council	
-155196	w	w	w	conj.	and	
-155197	rdn	yrd[+n	/y-r-d/	vb G prefc.	to go down	
-155197	rdn	yrd[+n	/y-r-d/	vb G suffc.	to go down	
-155198	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155199	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. cstr. gen.	bull	
-155199	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. gen.	bull	
+175958	sdn	sdn/	sdn	n. f. abs. gen.	?	
+175958	sdn	sd/+n	sd	n. m. cstr. gen.	council	
+175959	w	w	w	conj.	and	
+175960	rdn	(yrd[+n	/y-r-d/	vb G impv. 2	to go down	
+175961	tḥt	tḥt(I)	tḥt (I)	prep.	under	
+175962	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. cstr. gen.	bull	
+175962	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. gen.	bull	
 # KTU 1.161 24						
-155200	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
-155201	lmn	l(I)&m+n	l (I)	prep.	to	
-155201	lmn	lm(II)+n	lm (II)	interr. pn.	why?	
-155202	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155203	rpim	rp(u&i/m	rpủ	n. m. pl. abs. gen.	healer	
-155204	qdmym	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
+175963	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+175964	lmn	l(I)&m+n	l (I)	prep.	to	
+175964	lmn	lm(II)+n	lm (II)	interr. pn.	why?	
+175965	tḥt	tḥt(I)	tḥt (I)	prep.	under	
+175966	rpim	rp(u&i/m	rpủ	n. m. pl. abs. gen.	healer	
+175967	qdmym	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
 # KTU 1.161 25						
-155205	tḥt	tḥt(I)	tḥt (I)	prep.	under	
-155206	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
-155207	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+175968	tḥt	tḥt(I)	tḥt (I)	prep.	under	
+175969	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
+175970	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.161 26						
-155208	tḥm	tḥm/	tḥm	n. m. sg. abs. gen.	message	
-155209	u	u	ủ	conj.	or	
-155210	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
-155211	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+175971	tḥm	tḥm/	tḥm	n. m. sg. abs. gen.	message	
+175972	u	u	ủ	conj.	or	
+175973	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
+175974	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 1.161 27						
-155212	ˤšty	ˤšt&y/	ʕšt(y)	num.	1) one a) first number in a numerical scale	
-155213	w	w	w	conj.	and	
-155214	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. cstr. nom.	minister	
-155214	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. cstr. nom.	to offer	
-155215	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. gen.	crimson (cloth, wool, purple)	
-155216	w	w	w	conj.	and	
-155217	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. cstr. nom.	minister	
-155217	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. cstr. nom.	to offer	
+175975	ˤšty	ˤšt&y/	ʕšt(y)	num.	1) one a) first number in a numerical scale	
+175976	w	w	w	conj.	and	
+175977	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. cstr. nom.	minister	
+175977	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. cstr. nom.	to offer	
+175978	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. gen.	crimson (cloth, wool, purple)	
+175979	w	w	w	conj.	and	
+175980	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. cstr. nom.	minister	
+175980	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. cstr. nom.	to offer	
 # KTU 1.161 28						
-155218	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
-155219	w	w	w	conj.	and	
-155220	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
-155220	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
-155221	arbˤ	arbˤ/	ảrbʕ	num.	1) four a) elliptical syntagms	
-155222	w	w	w	conj.	and	
-155223	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
-155223	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
+175981	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
+175982	w	w	w	conj.	and	
+175983	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
+175983	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
+175984	arbˤ	arbˤ/	ảrbʕ	num.	1) four a) elliptical syntagms	
+175985	w	w	w	conj.	and	
+175986	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
+175986	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
 # KTU 1.161 29						
-155224	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
-155225	w	w	w	conj.	and	
-155226	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
-155226	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
-155227	ṯṯ	ṯṯ/	ṯṯ	num.	1) the numeral six a) elliptical syntagms	
-155228	w	w	w	conj.	and	
-155229	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
-155229	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
+175987	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
+175988	w	w	w	conj.	and	
+175989	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
+175989	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
+175990	ṯṯ	ṯṯ/	ṯṯ	num.	1) the numeral six a) elliptical syntagms	
+175991	w	w	w	conj.	and	
+175992	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
+175992	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
 # KTU 1.161 30						
-155230	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-155231	w	w	w	conj.	and	
-155232	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
-155232	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
-155233	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 f. sg.	to proceed	
-155233	tqdm	!t=!qdm[	/q-d-m/	vb G prefc. 2 m. sg.	to proceed	
-155233	tqdm	!t==!qdm[	/q-d-m/	vb G prefc. 2 f. sg.	to proceed	
-155233	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 m. du.	to proceed	
-155233	tqdm	!t!qdm[:w	/q-d-m/	vb G prefc. 3 m. pl.	to proceed	
-155233	tqdm	!t===!qdm[	/q-d-m/	vb G prefc. 2 m. pl.	to proceed	
-155233	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc. 3 f. sg.	to precede	
-155233	tqdm	!t=!qdm[:d	/q-d-m/	vb D prefc. 2 m. sg.	to precede	
-155233	tqdm	!t==!qdm[:d	/q-d-m/	vb D prefc. 2 f. sg.	to precede	
-155233	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc. 3 m. du.	to precede	
-155233	tqdm	!t!qdm[:d:w	/q-d-m/	vb D prefc. 3 m. pl.	to precede	
-155233	tqdm	!t===!qdm[:d	/q-d-m/	vb D prefc. 2 m. pl.	to precede	
-155234	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. cstr. nom.	2) espec. domestic fowl	
+175993	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+175994	w	w	w	conj.	and	
+175995	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
+175995	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
+175996	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 f. sg.	to proceed	
+175996	tqdm	!t=!qdm[	/q-d-m/	vb G prefc. 2 m. sg.	to proceed	
+175996	tqdm	!t==!qdm[	/q-d-m/	vb G prefc. 2 f. sg.	to proceed	
+175996	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 m. du.	to proceed	
+175996	tqdm	!t!qdm[:w	/q-d-m/	vb G prefc. 3 m. pl.	to proceed	
+175996	tqdm	!t===!qdm[	/q-d-m/	vb G prefc. 2 m. pl.	to proceed	
+175996	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc. 3 f. sg.	to precede	
+175996	tqdm	!t=!qdm[:d	/q-d-m/	vb D prefc. 2 m. sg.	to precede	
+175996	tqdm	!t==!qdm[:d	/q-d-m/	vb D prefc. 2 f. sg.	to precede	
+175996	tqdm	!t!qdm[:d	/q-d-m/	vb D prefc. 3 m. du.	to precede	
+175996	tqdm	!t!qdm[:d:w	/q-d-m/	vb D prefc. 3 m. pl.	to precede	
+175996	tqdm	!t===!qdm[:d	/q-d-m/	vb D prefc. 2 m. pl.	to precede	
+175997	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. cstr. nom.	2) espec. domestic fowl	
 # KTU 1.161 31						
-155235	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	1) peace b) in greeting formulae	
-155236	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	1) peace b) in greeting formulae	
-155237	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. abs. gen.	ʿAmmurāpʾi	
+175998	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	1) peace b) in greeting formulae	
+175999	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	1) peace b) in greeting formulae	
+176000	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. abs. gen.	ʿAmmurāpʾi	
 # KTU 1.161 32						
-155238	w	w	w	conj.	and	
-155239	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
-155239	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
-155239	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
-155239	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-155239	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
-155240	bah	?	?	?	?	DULAT: NOT FOUND
-155241	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
-155242	ṯryl	ṯryl/	ṯryl	PN sg. cstr. gen.	ṯryl	
+176001	w	w	w	conj.	and	
+176002	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+176002	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+176002	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
+176002	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+176002	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+176003	bah	?	?	?	?	DULAT: NOT FOUND
+176004	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+176005	ṯryl	ṯryl/	ṯryl	PN sg. cstr. gen.	ṯryl	
 # KTU 1.161 33						
-155243	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	peace	
-155244	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	5) immediate social circle	
-155244	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
-155245	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
-155245	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
-155245	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
-155245	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-155245	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
-155246	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+176006	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	peace	
+176007	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	5) immediate social circle	
+176007	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
+176008	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+176008	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+176008	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
+176008	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+176008	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+176009	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 1.161 34						
-155247	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
-155247	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
-155247	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
-155247	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-155247	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
-155248	ṯġrh	ṯġr(II)/+h	ṯġr (II)	n. m. cstr. nom.	gatekeeper	
-155248	ṯġrh	ṯġr(I)/+h	ṯġr (I)	n. m. cstr. nom.	gate	
+176010	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+176010	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+176010	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
+176010	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+176010	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
+176011	ṯġrh	ṯġr(II)/+h	ṯġr (II)	n. m. cstr. nom.	gatekeeper	
+176011	ṯġrh	ṯġr(I)/+h	ṯġr (I)	n. m. cstr. nom.	gate	

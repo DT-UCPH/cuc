@@ -1,152 +1,163 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 1						
-152697	bġb	?	?	?	?	DULAT: NOT FOUND
-152698	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
-152699	mhbn	mhbn/	mhbn	TN sg. cstr. gen.	Gedanke	
-152700	š	š/	š	n. m. sg. cstr. gen.	ram	
+173303	b	b	b	prep.	in	
+173304	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
+173305	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
+173306	mhbn	mhbn/	mhbn	TN sg. cstr. gen.	Gedanke	
+173307	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.105 2						
-152701	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
-152702	w	w	w	conj.	and	
-152703	ṣp	ṣp(III)/	ṣp (III)	n. m. sg. cstr. nom.	white ewe	DULAT quote in ṣp (III) (cue: white)
-152704	ḫršḫ	ḫršḫ/	ḫršḫ	n. m. sg. abs. gen.	2) large brazier	
+173308	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
+173309	w	w	w	conj.	and	
+173310	ṣp	ṣp(III)/	ṣp (III)	n. m. sg. cstr. nom.	white ewe	DULAT quote in ṣp (III) (cue: white)
+173311	ḫršḫ	ḫršḫ/	ḫršḫ	n. m. sg. abs. gen.	2) large brazier	
 # KTU 1.105 3						
-152705	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-152706	b	b	b	prep.	in	
-152707	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
-152708	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
+173312	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+173313	b	b	b	prep.	in	
+173314	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
+173315	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
 # KTU 1.105 4						
-152709	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	1) eight d) composite numbers	
-152710	lṯlṯm	?	?	?	?	DULAT: NOT FOUND
-152711	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
+173316	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	1) eight d) composite numbers	
+173317	l	l(I)	l (I)	prep.	to	
+173318	ṯlṯm	ṯlṯm/	ṯlṯm	num.	2) composite numbers	
+173319	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
 # KTU 1.105 5						
-152712	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
-152713	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	1) (head of) cattle d) sacrificial material	
+173320	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
+173321	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	1) (head of) cattle d) sacrificial material	
 # KTU 1.105 6						
-152714	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-152715	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
-152715	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
-152716	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
-152717	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-152718	šm	š/m	š	n. m. pl. abs. gen.	1) ram b) as a sacrificial victim	
-152718	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
+173322	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+173323	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+173323	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
+173324	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
+173325	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+173326	šm	š/m	š	n. m. pl. abs. gen.	1) ram b) as a sacrificial victim	
+173326	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 # KTU 1.105 7						
-152719	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-152720	l	l(I)	l (I)	prep.	to	
-152721	ršp	ršp/	ršp	DN sg. abs. gen.	Rašap	
-152722	mlkx	?	?	?	?	DULAT: NOT FOUND
+173327	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+173328	l	l(I)	l (I)	prep.	to	
+173329	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
+173330	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+173331	x	?	?	?	?	
 # KTU 1.105 8						
-152723	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-152723	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-152723	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-152724	wš	?	?	?	?	DULAT: NOT FOUND
-152725	l	l(I)	l (I)	prep.	to	
-152726	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
+173332	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+173332	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+173332	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+173333	w	w	w	conj.	and	
+173334	š	š/	š	n. m. sg. abs. nom.	ram	
+173335	l	l(I)	l (I)	prep.	to	
+173336	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 # KTU 1.105 9						
-152727	bwtm	bwt(II)/m	bt (II)	n. m. pl. cstr. gen.	house	
-152728	š	š/	š	n. m. sg. cstr. gen.	1) ram b) as a sacrificial victim	
-152729	iṯtqb	iṯtqb/	ỉṯtqb	TN sg. abs. gen.	ỉṯtqb	
+173337	bwtm	bwt(II)/m	bt (II)	n. m. pl. cstr. gen.	house	
+173338	š	š/	š	n. m. sg. cstr. gen.	1) ram b) as a sacrificial victim	
+173339	iṯtqb	iṯtqb/	ỉṯtqb	TN sg. abs. gen.	ỉṯtqb	
 # KTU 1.105 10						
-152730	w	w	w	conj.	and	
-152731	š	š/	š	n. m. sg. cstr. nom.	ram	
-152732	nbkm	nbk(I)/+m(I)	nb/pk (I)	n. m. cstr. gen.	fountain	
-152732	nbkm	nbkm/	nbkm	TN sg. abs. gen.	nbkm	
-152733	w	w	w	conj.	and	
-152734	š	š/	š	n. m. sg. cstr. nom.	ram	
+173340	w	w	w	conj.	and	
+173341	š	š/	š	n. m. sg. cstr. nom.	ram	
+173342	nbkm	nbk(I)/+m(I)	nb/pk (I)	n. m. cstr. gen.	fountain	
+173342	nbkm	nbkm/	nbkm	TN sg. abs. gen.	nbkm	
+173343	w	w	w	conj.	and	
+173344	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.105 11						
-152735	gt	g(t/t	gt	n. f. sg. abs. gen.	gittu	
-152736	mlkš	?	?	?	?	DULAT: NOT FOUND
-152737	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+173345	gt	g(t/t	gt	n. f. sg. cstr. gen.	gittu	
+173346	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
+173347	š	š/	š	n. m. sg. abs. gen.	ram	
+173348	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 # KTU 1.105 12						
-152738	l	l(I)	l (I)	prep.	to	
-152739	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
-152740	ṯnšmˤlm	?	?	?	?	DULAT: NOT FOUND
+173349	l	l(I)	l (I)	prep.	to	
+173350	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. cstr. gen.	Koṯaru/Kothar	
+173351	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+173352	šm	š/m	š	n. m. pl. abs. gen.	ram	
+173352	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
+173353	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
 # KTU 1.105 13						
-152741	tzġm	tzġ/m	tzġ	n. m. pl. cstr. nom.	kind of sacrificial meat	
-152742	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-152743	šm	š/m	š	n. m. pl. cstr. gen.	ram	
-152743	šm	šm(I)/	šm (I)	n. m. sg. cstr. gen.	name	
-152744	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	DULAT quote in pr (II) (cue: bull)
+173354	tzġm	tzġ/m	tzġ	n. m. pl. abs. nom.	kind of sacrificial meat	
+173355	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+173355	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+173355	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+173356	šm	š/m	š	n. m. pl. abs. nom.	ram	
+173356	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
+173357	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	DULAT quote in pr (II) (cue: young)
 # KTU 1.105 14						
-152745	hzp	hzp/	hzp	TN sg. cstr. gen.	hzp	
+173358	hzp	hzp/	hzp	TN sg. abs. nom.	hzp	
 # KTU 1.105 15						
-152746	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
-152746	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
-152747	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
-152748	b	b	b	prep.	in	
-152749	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-152749	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
-152750	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. cstr. gen.	new moon	
+173359	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
+173359	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
+173360	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.	aller de ci de là	
+173361	b	b	b	prep.	in	
+173362	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+173362	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+173363	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. cstr. gen.	new moon	
 # KTU 1.105 16						
-152751	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
-152752	w	w	w	conj.	and	
-152753	š	š/	š	n. m. sg. abs. nom.	ram	
-152754	l	l(I)	l (I)	prep.	to	
-152755	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	1) lady a) bʕlt bhtm “Lady of the Palace”	
-152756	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	1) house	
+173364	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+173365	w	w	w	conj.	and	
+173366	š	š/	š	n. m. sg. abs. nom.	ram	
+173367	l	l(I)	l (I)	prep.	to	
+173368	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	1) lady a) bʕlt bhtm “Lady of the Palace”	
+173369	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	2) palace	
 # KTU 1.105 17						
-152757	b	b	b	prep.	in	
-152758	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
-152759	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
-152759	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
-152760	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-152760	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+173370	b	b	b	prep.	in	
+173371	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
+173372	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
+173372	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
+173373	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+173373	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.105 18						
-152761	ˤrkm	ˤrk(II)/m	ʕrk (II)	n. m. pl. abs. gen.	loaves of bread	
+173374	ˤrkm	ˤrk(II)/m	ʕrk (II)	n. m. pl. abs. gen.	loaves of bread	
 # KTU 1.105 19						
-152762	b	b	b	prep.	in	
-152763	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	1) eight d) composite numbers	
-152764	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
-152764	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
-152765	yr	yr/	yr	n. m. sg. abs. gen.	early rain	
+173375	b	b	b	prep.	in	
+173376	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	1) eight d) composite numbers	
+173377	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
+173377	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
+173378	yr	yr/	yr	n. m. sg. abs. gen.	early rain	
 # KTU 1.105 20						
-152766	tḥṣ	?	?	?	?	DULAT: NOT FOUND
-152767	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-152767	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-152768	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
+173379	tḥṣ	?	?	?	?	DULAT: NOT FOUND
+173380	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
+173381	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
 # KTU 1.105 21						
-152769	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-152770	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
-152771	b	b	b	prep.	in	
-152772	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
-152773	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+173382	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+173383	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
+173384	b	b	b	prep.	in	
+173385	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
+173386	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.105 22						
-152774	nskt	nsk(t/t	nskt	n. f. sg. cstr. gen.	casting	
-152775	ksp	ksp/	ksp	n. m. sg. abs. gen.	1) silver b) items made of silver	
-152776	w	w	w	conj.	and	
-152777	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold d) cultic offering	
-152778	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
-152779	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
-152780	šm	š/m	š	n. m. pl. abs. gen.	ram	
-152780	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
-152781	lbtbt	?	?	?	?	DULAT: NOT FOUND
+173387	nskt	nsk(t/t	nskt	n. f. sg. cstr. gen.	casting	
+173388	ksp	ksp/	ksp	n. m. sg. abs. gen.	1) silver b) items made of silver	
+173389	w	w	w	conj.	and	
+173390	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold d) cultic offering	
+173391	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
+173392	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
+173393	šm	š/m	š	n. m. pl. abs. gen.	ram	
+173393	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
+173394	l	l(I)	l (I)	prep.	to	
+173395	btbt	btbt/	btbt	DN sg. cstr. gen.	btbt	
 # KTU 1.105 23						
-152782	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle d) sacrificial material	
-152782	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle d) sacrificial material	
-152782	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-152783	w	w	w	conj.	and	
-152784	š	š/	š	n. m. sg. cstr. nom.	ram	
-152785	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
-152786	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	1) (head of) cattle d) sacrificial material	
-152787	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
-152787	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
-152787	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
+173396	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle d) sacrificial material	
+173397	w	w	w	conj.	and	
+173398	š	š/	š	n. m. sg. cstr. nom.	ram	
+173399	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
+173400	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	1) (head of) cattle d) sacrificial material	
+173401	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
+173401	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
+173401	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.105 24						
-152788	l	l(I)	l (I)	prep.	to	
-152789	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-152790	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	2) espec. domestic fowl	
-152791	lṣpn	?	?	?	?	DULAT: NOT FOUND
+173402	l	l(I)	l (I)	prep.	to	
+173403	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+173404	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	2) espec. domestic fowl	
+173405	l	l(I)	l (I)	prep.	to	
+173406	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.105 25						
-152792	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	6) (piece of) offal	
-152793	wš	?	?	?	?	DULAT: NOT FOUND
-152794	l	l(I)	l (I)	prep.	to	
-152795	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
-152796	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	superintendent	
-152796	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
+173407	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	6) (piece of) offal	
+173408	w	w	w	conj.	and	
+173409	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
+173410	l	l(I)	l (I)	prep.	to	
+173411	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
+173412	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	superintendent	
+173412	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
 # KTU 1.105 26						
-152797	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
-152798	linš	?	?	?	?	DULAT: NOT FOUND
-152799	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+173413	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
+173414	l	l(I)	l (I)	prep.	to	
+173415	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
+173416	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.105 27						
-152800	xxxxxxxxxxx	?	?	?	?	
-152801	dqth	dqt(I)/+h	dqt (I)	adj. f. cstr. nom.	small	
-152801	dqth	dqt(II)/+h	dqt (II)	n. f. cstr. nom.	manufacture	
+173417	xxxxxxxxxxx	?	?	?	?	
+173418	dqth	dqt(I)/+h	dqt (I)	adj. f. cstr. nom.	small	
+173418	dqth	dqt(II)/+h	dqt (II)	n. f. cstr. nom.	manufacture	

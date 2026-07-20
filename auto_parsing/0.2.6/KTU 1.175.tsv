@@ -1,100 +1,103 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 1						
-155930	np	np/	np	n. m. pl. cstr. nom.	peak	
-155931	mru	mru(III)/	mrủ (III)	n. m. sg. cstr. gen.	chief groom	
+176728	np	np/	np	n. m. pl. cstr. nom.	peak	
+176729	mru	mru(III)/	mrủ (III)	n. m. sg. cstr. gen.	chief groom	
 # KTU 1.175 2						
-155932	mrrt	mrr(t(I)/t	mrrt (I)	n. f. sg. cstr. gen.	bile	
-155933	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle a) in general	
-155934	ti	?	?	?	?	DULAT: NOT FOUND
+176730		?	?	?	?	
+176731	mrrt	mrr(t(I)/t	mrrt (I)	n. f. sg. cstr. gen.	bile	
+176732	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle a) in general	
+176733	ti	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.175 3						
-155935	b	b	b	prep.	in	
-155936	d	d	d	det. or rel. functor	the one(s) of	
-155937	kr	kr[	/k-r/	vb suffc. 3 m. sg.	to be hot	
-155938	w	w	w	conj.	and	
-155939	tasp	!t!(ʔ&asp[	/ʔ-s-p/	vb G prefc.	to gather	
-155939	tasp	!t!(ʔ&asp[:d	/ʔ-s-p/	vb D prefc.	to gather	
-155940	naṯt	naṯt	nảṯt	?		
+176734	b	b	b	prep.	in	
+176735	d	d	d	det. or rel. functor	the one(s) of	
+176736	kr	kr[	/k-r/	vb suffc. 3 m. sg.	to be hot	
+176737	w	w	w	conj.	and	
+176738	tasp	!t!(ʔ&asp[	/ʔ-s-p/	vb G prefc.	to gather	
+176738	tasp	!t!(ʔ&asp[:d	/ʔ-s-p/	vb D prefc.	to gather	
+176739	naṯt	naṯt	nảṯt	?		
 # KTU 1.175 4						
-155941	ṯrn	ṯrn(I)	ṯrn (I)			
-155942	dk	d+k	d	det. or rel. functor	the one(s) of	
+176740		?	?	?	?	
+176741	ṯrn	ṯrn(I)	ṯrn (I)			
+176742	dk	d+k	d	det. or rel. functor	the one(s) of	
 # KTU 1.175 5						
-155943		?	?	?	?	
-155944	w	w	w	conj.	and	
-155945	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-155945	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-155946	lšn	lšn/	lšn	n. f. sg. abs. gen.	2) a herb	
+176743		?	?	?	?	
+176744	w	w	w	conj.	and	
+176745	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+176745	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
+176746	lšn	lšn/	lšn	n. f. sg. abs. gen.	2) a herb	
 # KTU 1.175 6						
-155947	w	w	w	conj.	and	
-155948	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	DULAT quote in ḥmṣ (cue: vinegar)
-155949	w	w	w	conj.	and	
-155950	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. nom.	salt	
+176747		?	?	?	?	
+176748	w	w	w	conj.	and	
+176749	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	DULAT quote in ḥmṣ (cue: vinegar)
+176750	w	w	w	conj.	and	
+176751	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. nom.	salt	
 # KTU 1.175 7						
-155951	yḥrkn	!y!ḥrk[+n	/ḥ-r-k/	vb G prefc. 3 m. sg.	to burn, grill	
-155952	w	w	w	conj.	and	
-155953	yšḥmm	!y!]š]ḥmm[	/ḥ-m-m/	vb Š prefc. 3 m. sg.	to heat up, roast	
+176752	yḥrkn	!y!ḥrk[+n	/ḥ-r-k/	vb G prefc. 3 m. sg.	to burn, grill	
+176753	w	w	w	conj.	and	
+176754	yšḥmm	!y!]š]ḥmm[	/ḥ-m-m/	vb Š prefc. 3 m. sg.	to heat up, roast	
 # KTU 1.175 8						
-155954	t	/t, /t=				DULAT: NOT FOUND
-155954	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-155955	w	w	w	conj.	and	
-155956	byn	byn/	byn	PN sg. abs. nom.	byn	
-155957	tṯibṯn	]š]ʔbṯ[bṯn	/ʔ-b-ṯ/	vb Š	?	
-155958	k	+k	-k (I)			
-155958	k	~k	-k (II)			
-155958	k	k(III)	k (III)	Subordinating or completive functor	when	
-155958	k	k(I)	k (I)	prep.	like	
-155958	k	k(II)	k (II)	emph. functor	yes	
-155959	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
-155959	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to be placed, set	
-155959	yšt	!y!št(y[	/š-t-y/	vb G prefc. 3 m. sg.	to drink	
+176755	t	/t, /t=				DULAT: NOT FOUND
+176755	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
+176756	w	w	w	conj.	and	
+176757	byn	byn/	byn	PN sg. abs. nom.	byn	
+176758	tṯibṯn	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-b-ṯ/ - ?
+176759	k	+k	-k (I)			
+176759	k	~k	-k (II)			
+176759	k	k(III)	k (III)	Subordinating or completive functor	when	
+176759	k	k(I)	k (I)	prep.	like	
+176759	k	k(II)	k (II)	emph. functor	yes	
+176760	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
+176760	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to be placed, set	
+176760	yšt	!y!št(y[	/š-t-y/	vb G prefc. 3 m. sg.	to drink	
 # KTU 1.175 9						
-155960		?	?	?	?	
-155961	w	w	w	conj.	and	
-155962	šty	šty[	/š-t-y/	vb G suffc. 3 m. sg.	to drink	
-155962	šty	šty[	/š-t-y/	vb G impv. 2	to drink	
-155962	šty	!!šty[/	/š-t-y/	vb G inf.	to drink	
-155963		?	?	?	?	
+176761		?	?	?	?	
+176762	w	w	w	conj.	and	
+176763	šty	šty[	/š-t-y/	vb G suffc. 3 m. sg.	to drink	
+176763	šty	šty[	/š-t-y/	vb G impv. 2	to drink	
+176763	šty	!!šty[/	/š-t-y/	vb G inf.	to drink	
+176764		?	?	?	?	
 # KTU 1.175 10						
-155964	rt	rt/	rt	PN sg. abs. nom.	rt	
+176765	rt	rt/	rt	PN sg. abs. nom.	rt	
 # KTU 1.175 11						
-155965	l	l(I)	l (I)	prep.	to	
-155966	ḫrt	ḫr(t/t	ḫrt	n. f. sg. abs. gen.	cave	
-155967	w	w	w	conj.	and	
-155968	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. nom.	1) head	
-155969	bṯn	bṯn/	bṯn	n. m. sg. abs. gen.	serpent	
+176766	l	l(I)	l (I)	prep.	to	
+176767	ḫrt	ḫr(t/t	ḫrt	n. f. sg. abs. gen.	cave	
+176768	w	w	w	conj.	and	
+176769	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. nom.	1) head	
+176770	bṯn	bṯn/	bṯn	n. m. sg. abs. gen.	serpent	
 # KTU 1.175 12						
-155970	dk	d+k	d	det. or rel. functor	the one(s) of	
-155971	yḥdh	yḥd+h	yḥdh	adv.	together	
-155972	w	w	w	conj.	and	
-155973	šgbˤll	?	?	?	?	DULAT: NOT FOUND
+176771	dk	d+k	d	det. or rel. functor	the one(s) of	
+176772	yḥdh	yḥd+h	yḥdh	adv.	together	
+176773	w	w	w	conj.	and	
+176774	šgbˤll	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.175 13						
-155974		?	?	?	?	
-155975	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-155975	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-155975	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-155976	w	w	w	conj.	and	
-155977	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place, set, set up, leave	
-155977	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to cause, leave (in a condition)	
-155978	b	b	b	prep.	in	
-155979	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	1) spine	
+176775		?	?	?	?	
+176776	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+176776	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+176776	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+176777	w	w	w	conj.	and	
+176778	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place, set, set up, leave	
+176778	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to cause, leave (in a condition)	
+176779	b	b	b	prep.	in	
+176780	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	1) spine	
 # KTU 1.175 14						
-155980		?	?	?	?	
-155981	w	w	w	conj.	and	
-155982	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-155983	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go, go away	
-155984	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	1) lad	
+176781		?	?	?	?	
+176782	w	w	w	conj.	and	
+176783	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+176784	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go, go away	
+176785	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	1) lad	
 # KTU 1.175 15						
-155985	ṣ	mḫṣ[	/m-ḫ-ṣ/	vb G prefc.	to wound	
+176786	ṣ	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḫ-ṣ/ - to wound
 # KTU 1.175 16						
-155986	mṭt	mṭ(t/t	mṭt	n. f. sg. abs. nom.	bed	
-155987	w	w	w	conj.	and	
-155988	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg. cstr. nom.	a kind of leather or leather object	
-155989	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. gen.	2) lad	
+176787	mṭt	mṭ(t/t	mṭt	n. f. sg. abs. nom.	bed	
+176788	w	w	w	conj.	and	
+176789	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg. cstr. nom.	a kind of leather or leather object	
+176790	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. gen.	2) lad	
 # KTU 1.175 17						
-155990	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
-155990	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
-155991	b	b	b	prep.	in	
-155992	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	spine	
-155993	b	b	b	prep.	in	
-155994	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	2) set of three	
-155994	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
-155994	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+176791	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
+176791	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
+176792	b	b	b	prep.	in	
+176793	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	spine	
+176794	b	b	b	prep.	in	
+176795	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	2) set of three	
+176795	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
+176795	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	

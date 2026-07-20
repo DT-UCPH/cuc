@@ -1,93 +1,95 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.46 1						
-158262	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-158263	pgn	pgn/	pgn	PN sg. abs. gen.	pgn	
+179317	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+179318	pgn	pgn/	pgn	PN sg. abs. gen.	pgn	
 # KTU 2.46 2						
-158264	l	l(I)	l (I)	prep.	to	
-158265	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-158266	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+179319	l	l(I)	l (I)	prep.	to	
+179320	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+179321	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 2.46 3						
-158267	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
+179322	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
 # KTU 2.46 4						
-158268	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
-158268	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to re-establish > to pay	
-158269	lk	l(I)+k	l (I)	prep.	to	
-158270	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+179323	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
+179323	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to re-establish > to pay	
+179324	lk	l(I)+k	l (I)	prep.	to	
+179325	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 2.46 5						
-158271	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
-158272	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
+179326	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
+179327	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
 # KTU 2.46 6						
-158273	hnny	hn+ny	hn	functor	behold!	
-158274	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-158275	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
-158275	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+179328	hnny	hn+ny	hn	functor	behold!	
+179329	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
+179330	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+179330	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.46 7						
-158276	ṯmny	ṯm+ny	ṯm	adv.	there	
-158277	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-158278	bny	bn(I)/+y	bn (I)	n. m. cstr. gen.	1) son a) of men and gods	DULAT quote in bn (I) (cue: son)
+179331	ṯmny	ṯm+ny	ṯm	adv.	there	
+179332	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+179333	bny	bn(I)/+y	bn (I)	n. m. cstr. gen.	4) special uses a) bn(y) “my son” > a person of lower rank	DULAT quote in bn (I) (cue: son)
 # KTU 2.46 8						
-158279	mnm	mnm	mnm	indef. pn.	any(thing)	
-158280	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
-158281	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
-158282	ṯṯb	]š]ṯb[b	/ṯ-b/	vb Š impv. 2	to send (word)	
-158282	ṯṯb	!!]š]ṯb[/b	/ṯ-b/	vb Š inf.	to send (word)	
+179334	mnm	mnm	mnm	indef. pn.	any(thing)	
+179335	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+179336		?	?	?	?	
+179337	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+179338	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
+179338	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 # KTU 2.46 9						
-158283	ky	k(III)&y	k (III)	Subordinating or completive functor	when	
-158283	ky	k(II)&y	k (II)	emph. functor	yes	
-158283	ky	k(IV)+y	k (IV)	adv.	thus	
-158284	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
-158285	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	DULAT quote in /l-ʔ-k/ (cue: son)
+179339	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
+179339	ky	k(II)+y	k (II)	emph. functor	yes	
+179339	ky	k(IV)+y	k (IV)	adv.	thus	
+179340	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
+179341	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	DULAT quote in /l-ʔ-k/ (cue: son)
 # KTU 2.46 10						
-158286	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. cstr. gen.	missive	
-158287	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	grain	
-158288	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
+179342	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. gen.	missive	
+179343	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	grain	
+179344	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.46 11						
-158289	midy	mid/+y	mỉ/ủd	n. m. cstr. nom.	1) abundance	
-158290	w	w	w	conj.	and	
-158291	ġbny	ġbn/+y	ġbn	n. m. sg. cstr. nom.	well-being	
+179345	midy	mid/+y	mỉ/ủd	n. m. cstr. nom.	1) abundance	
+179346	w	w	w	conj.	and	
+179347	ġbny	ġbn/+y	ġbn	n. m. sg. cstr. nom.	well-being	
 # KTU 2.46 12						
-158292	w	w	w	conj.	and	
-158293	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	DULAT quote in hnk(t) (cue: son)
-158294	hnkt	hnk&t	hnk(t)	dem./pers. pn.	that	
+179348	w	w	w	conj.	and	
+179349	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	DULAT quote in hnk(t) (cue: son)
+179350	hnkt	hnk&t	hnk(t)	dem./pers. pn.	that	
 # KTU 2.46 13						
-158295	yškn	!y!škn[:d	/š-k-n/	vb D	to assign	
-158296	anyt	any(t/t	ảny(t)	n. f. sg. cstr. nom.	1) ship b) ảnyt ym seagoing ship(s)	
+179351	yškn	!y!škn[:d	/š-k-n/	vb D	to assign	
+179352		?	?	?	?	
+179353	anyt	any(t/t	ảny(t)	n. f. sg. cstr. nom.	1) ship b) ảnyt ym seagoing ship(s)	
 # KTU 2.46 14						
-158297	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
-158297	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	1) sea	
-158298	yšrn	!y!šr(I)[+n	/š-r/ (I)	vb G prefc. 3 m. sg.	to sing	
+179354	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+179354	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	1) sea	
+179355	yšrn	!y!šr(I)[+n	/š-r/ (I)	vb G prefc. 3 m. sg.	to sing	
 # KTU 2.46 15						
-158299	w	w	w	conj.	and	
-158300	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
+179356	w	w	w	conj.	and	
+179357	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
 # KTU 2.46 16						
-158301	xx	?	?	?	?	
-158302	š	š/	š	n. m. sg. abs. nom.	ram	
+179358	xx	?	?	?	?	
+179359	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 2.46 17						
-158303	xxxx	?	?	?	?	
+179360	xxxx	?	?	?	?	
 # KTU 2.46 18						
-158304	xxxx	?	?	?	?	
+179361	xxxx	?	?	?	?	
 # KTU 2.46 19						
-158305	xxxxx	?	?	?	?	
-158306	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
-158306	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
-158306	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+179362	xxxxx	?	?	?	?	
+179363	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+179363	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+179363	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 # KTU 2.46 20						
-158307	xxxxn	?	?	?	?	DULAT: NOT FOUND
-158308	bd	b&d	b	prep.	in	
-158309	xx	?	?	?	?	
+179364	xxxxn	?	?	?	?	DULAT: NOT FOUND
+179365	bd	b&d	b	prep.	in	
+179366	xx	?	?	?	?	
 # KTU 2.46 21						
-158310	xxxn	?	?	?	?	DULAT: NOT FOUND
-158311	kxxx	?	?	?	?	DULAT: NOT FOUND
+179367	xxxn	?	?	?	?	DULAT: NOT FOUND
+179368	kxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.46 22						
-158312	xxxn	?	?	?	?	DULAT: NOT FOUND
-158313	rxxxd	?	?	?	?	DULAT: NOT FOUND
+179369	xxxn	?	?	?	?	DULAT: NOT FOUND
+179370	rxxxd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.46 23						
-158314	w	w	w	conj.	and	
-158315	tn	(ytn[	/y-t-n/	vb	give	
-158315	tn	(ytn[/	/y-t-n/	vb	give	
-158316	mxxxx	?	?	?	?	DULAT: NOT FOUND
+179371	w	w	w	conj.	and	
+179372	tn	(ytn[	/y-t-n/	vb	give	
+179372	tn	(ytn[/	/y-t-n/	vb	give	
+179373	mxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.46 24						
-158317	xxxrt	?	?	?	?	DULAT: NOT FOUND
-158318		?	?	?	?	
+179374	xxxrt	?	?	?	?	DULAT: NOT FOUND
+179375		?	?	?	?	
 # KTU 2.46 25						
-158319	xxxxxx	?	?	?	?	
+179376	xxxxxx	?	?	?	?	

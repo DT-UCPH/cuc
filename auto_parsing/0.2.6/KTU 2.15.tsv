@@ -1,42 +1,43 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.15 1						
-156743	gnryn	?	?	?	?	DULAT: NOT FOUND
+177573	gnryn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.15 2						
-156744	l	l(I)	l (I)	prep.	to	
-156745	mlkytn	mlkytn/	mlkytn	PN sg. abs. gen.	mlkytn	
+177574	l	l(I)	l (I)	prep.	to	
+177575	mlkytn	mlkytn/	mlkytn	PN sg. abs. gen.	mlkytn	
 # KTU 2.15 3						
-156746	ḥnny	ḥnn[+y	/ḥ-n-n/	vb G prefc.	to be / appear kind	
-156746	ḥnny	ḥnn[:d+y	/ḥ-n-n/	vb D prefc.	1) to be / appear kind	
-156747	lpn	?	?	?	?	DULAT: NOT FOUND
-156748	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
+177576	ḥnny	ḥnn[+y	/ḥ-n-n/	vb G prefc.	to be / appear kind	
+177576	ḥnny	ḥnn[:d+y	/ḥ-n-n/	vb D prefc.	1) to be / appear kind	
+177577	l	l(I)	l (I)	prep.	to	
+177578	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
+177579	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 # KTU 2.15 4						
-156749	šink	šin/+k	šỉn	n. m. cstr. gen.	2) rim (?)	
-156750	itn	ytn[	/y-t-n/	vb	1) to give	
+177580	šink	šin/+k	šỉn	n. m. cstr. gen.	2) rim (?)	
+177581	itn	!(ʔ&i!(ytn[	/y-t-n/	vb	1) to give	
 # KTU 2.15 5						
-156751	rˤy	rˤy(I)/	rʕy (I)	n. m. du. cstr. nom.	shepherd	
-156751	rˤy	rˤy(I)/	rʕy (I)	n. m. sg. abs. nom.	shepherd	
-156751	rˤy	rˤ/+y	rʕ	n. m. sg. cstr. nom.	companion	
-156752	šṣa	]š]yṣʔ[	/y-ṣ-ʔ/	vb Š prefc.	to make (someone) leave, take out	
-156753	idn	idn/	ỉdn	n. m. sg. abs. nom.	authorisation	
-156754	ly	l(I)+y	l (I)	prep.	1) prep. of direction b) ventive	
+177582	rˤy	rˤy(I)/	rʕy (I)	n. m. du. cstr. nom.	shepherd	
+177582	rˤy	rˤy(I)/	rʕy (I)	n. m. sg. abs. nom.	shepherd	
+177582	rˤy	rˤ/+y	rʕ	n. m. sg. cstr. nom.	companion	
+177583	šṣa	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to make (someone) leave, take out
+177584	idn	idn/	ỉdn	n. m. sg. abs. nom.	authorisation	
+177585	ly	l(I)+y	l (I)	prep.	4) introducing a complement of the addressee	
 # KTU 2.15 6						
-156755	l	l(I)	l (I)	prep.	to	
-156756	šmin	?	?	?	?	DULAT: NOT FOUND
-156757	iṯr	(ʔ&iṯr[	/ʔ-ṯ-r/	vb G impv. 2	to go, follow	
-156758	hw	hw	hw	pers. pn.	he	
+177586	l	l(I)	l (I)	prep.	to	
+177587	šmin	?	?	?	?	DULAT: NOT FOUND
+177588	iṯr	(ʔ&iṯr[	/ʔ-ṯ-r/	vb G impv. 2	to go, follow	
+177589	hw	hw	hw	pers. pn.	he	
 # KTU 2.15 7						
-156759	p	p(I)	p (I)	conj. functor	and	
-156759	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
-156759	p	p(II)	p (II)	adv.	here	
-156760	iḫdn	(ʔ&iḫd[+n	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect, to take (back), grasp, seize, hold	
-156761	gnryn	?	?	?	?	DULAT: NOT FOUND
+177590	p	p(I)	p (I)	conj. functor	and	
+177590	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+177590	p	p(II)	p (II)	adv.	here	
+177591	iḫdn	(ʔ&iḫd[+n	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect, to take (back), grasp, seize, hold	
+177592	gnryn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.15 8						
-156762	im	im	ỉm	conj.	1) cond. conj. if	
-156763	mlkytn	mlkytn/	mlkytn	PN sg. abs. nom.	mlkytn	
-156764	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say, tell, announce, communicate, inform	
-156764	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to answer	
+177593	im	im	ỉm	conj.	1) cond. conj. if	
+177594	mlkytn	mlkytn/	mlkytn	PN sg. abs. nom.	mlkytn	
+177595	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say, tell, announce, communicate, inform	
+177595	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to answer	
 # KTU 2.15 9						
-156765	aḫnnn	!(ʔ&a!ḫnn[:d+n	/ḫ-n-n/	vb D prefc. 1 c. sg.	to denature, make rancid, unsuitable for use	
+177596	aḫnnn	!(ʔ&a!ḫnn[:d+n	/ḫ-n-n/	vb D prefc. 1 c. sg.	to denature, make rancid, unsuitable for use	
 # KTU 2.15 10						
-156766	w	w	w	conj.	and	
-156767	iḫd	(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	
+177597	w	w	w	conj.	and	
+177598	iḫd	(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect	

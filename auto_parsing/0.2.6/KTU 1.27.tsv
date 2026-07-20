@@ -1,50 +1,51 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.27 1						
-147871	ugrt	ugrt/	ủgrt	TN sg. cstr. nom.	Ugarit	
+168119	ugrt	ugrt/	ủgrt	TN sg. cstr. nom.	Ugarit	
 # KTU 1.27 2						
-147872	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
+168120	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 # KTU 1.27 3						
-147873	kmm	kmm	kmm	adv.	ditto	
-147874	lbt	lbt/	lbt	n. f. pl. cstr. nom.	hoop / plate	
+168121	kmm	kmm	kmm	adv.	ditto	
+168122	l	l(I)	l (I)	prep.	to	
+168123	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 1.27 4						
-147875	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-147875	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-147876	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+168124	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
+168124	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
+168125	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.27 5						
-147877	w	w	w	conj.	and	
-147878	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+168126	w	w	w	conj.	and	
+168127	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
 # KTU 1.27 6						
-147879	ṣlyh	?	?	?	?	DULAT: NOT FOUND
-147880	šrp	šrp/	šrp	n. m. sg. abs. nom.	1) burnt sacrifice	
+168128	ṣlyh	?	?	?	?	DULAT: NOT FOUND
+168129	šrp	šrp/	šrp	n. m. sg. abs. nom.	1) burnt sacrifice	
 # KTU 1.27 7						
-147881	ṯlṯm	ṯlṯm/	ṯlṯm	num.	2) composite numbers	
-147882	w	w	w	conj.	and	
-147883	b	b	b	prep.	in	
+168130	ṯlṯm	ṯlṯm/	ṯlṯm	num.	2) composite numbers	
+168131	w	w	w	conj.	and	
+168132	b	b	b	prep.	in	
 # KTU 1.27 8						
-147884	l	l(I)	l (I)	prep.	to	
-147885	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	DULAT quote in ỉl (I) (cue: god)
-147886	limm	lim(I)/	lỉm (I)	n. m. pl. abs. gen.	people	
-147886	limm	lim(II)/	lỉm (II)	DN sg. abs. gen.	the Potent	
+168133	l	l(I)	l (I)	prep.	to	
+168134	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	DULAT quote in ỉl (I) (cue: god)
+168135	limm	lim(I)/m	lỉm (I)	n. m. pl. abs. gen.	people	
+168135	limm	lim(II)/m	lỉm (II)	DN pl. abs. gen.	the Potent	
 # KTU 1.27 9						
-147887	w	w	w	conj.	and	
-147888	ṯt	ṯt(I)/	ṯn (I)	num. f.	1) the numeral two b) ge	
-147889	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	6) (piece of) offal	
-147890	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
+168136	w	w	w	conj.	and	
+168137	ṯt	ṯt(I)/	ṯn (I)	num. f.	1) the numeral two b) ge	
+168138	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	6) (piece of) offal	
+168139	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
 # KTU 1.27 10						
-147891	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. gen.	total (quantity or price)	
-147892	ṯ	ṯ	ṯ	→	?	
+168140	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. gen.	total (quantity or price)	
+168141	ṯ	ṯ	ṯ	→	?	
 # KTU 1.27 11						
-147893	l	l(I)	l (I)	prep.	to	
-147894	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+168142	l	l(I)	l (I)	prep.	to	
+168143	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.27 12						
-147895	š	š/	š	n. m. sg. abs. gen.	ram	
-147896	l	l(I)	l (I)	prep.	to	
+168144	š	š/	š	n. m. sg. abs. gen.	ram	
+168145	l	l(I)	l (I)	prep.	to	
 # KTU 1.27 13						
-147897	w	w	w	conj.	and	
-147898	x	?	?	?	?	
+168146	w	w	w	conj.	and	
+168147	x	?	?	?	?	
 # KTU 1.27 14						
-147899	kx	?	?	?	?	DULAT: NOT FOUND
+168148	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.27 15						
-147900	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
-147900	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
-147900	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+168149	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
+168149	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+168149	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	

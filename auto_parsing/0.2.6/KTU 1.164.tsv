@@ -1,116 +1,118 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 1						
-155393	id	id	ỉd	conj.	when	
-155394	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
-155395	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155395	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-155396	bḫmn	?	?	?	?	DULAT: NOT FOUND
+176165	id	id	ỉd	conj.	when	
+176166	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
+176167	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
+176168	b	b	b	prep.	in	
+176169	ḫmn	ḫmn(I)/	ḫmn (I)	n. m. sg. abs. gen.	chapel	
 # KTU 1.164 2						
-155397	xxśx	?	?	?	?	DULAT: NOT FOUND
-155398	w	w	w	conj.	and	
-155399	šinm	šin/m	šỉn	n. m. pl. abs. nom.	1) shoe	
-155400	l	l(I)	l (I)	prep.	to	
-155400	l	l(II)	l (II)	adv.	no	
-155400	l	l(III)	l (III)	functor	certainly	
-155401	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place, set, set up, leave	
-155401	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to cause, leave (in a condition)	
+176170	xxśx	?	?	?	?	DULAT: NOT FOUND
+176171	w	w	w	conj.	and	
+176172	šinm	šin/m	šỉn	n. m. pl. abs. nom.	1) shoe	
+176173	l	l(I)	l (I)	prep.	to	
+176173	l	l(II)	l (II)	adv.	no	
+176173	l	l(III)	l (III)	functor	certainly	
+176174	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place, set, set up, leave	
+176174	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to cause, leave (in a condition)	
 # KTU 1.164 3						
-155402	id	id	ỉd	conj.	when	
-155403	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
-155404	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155404	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-155405	l	l(I)	l (I)	prep.	to	
-155406	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
+176175	id	id	ỉd	conj.	when	
+176176	ydbḥ	!y!dbḥ[	/d-b-ḥ/	vb G prefc. 3 m. sg.	to sacrifice	
+176177	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
+176178	l	l(I)	l (I)	prep.	to	
+176179	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
 # KTU 1.164 4						
-155407	b	b	b	prep.	in	
-155408	db	db/	db	n. m. sg. cstr. gen.	threshold	
-155409	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
-155410	w	w	w	conj.	and	
-155411	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
-155412	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+176180	b	b	b	prep.	in	
+176181	db	db/	db	n. m. sg. cstr. gen.	threshold	
+176182	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
+176183	w	w	w	conj.	and	
+176184	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
+176185	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 1.164 5						
-155413	w	w	w	conj.	and	
-155414	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
-155415	kmm	kmm	kmm	adv.	ditto	
-155416	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle d) sacrificial material	
-155416	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle d) sacrificial material	
-155416	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-155417	w	w	w	conj.	and	
-155418	š	š/	š	n. m. sg. cstr. nom.	ram	
+176186	w	w	w	conj.	and	
+176187	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	gold	
+176188	kmm	kmm	kmm	adv.	ditto	
+176189	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle d) sacrificial material	
+176189	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle d) sacrificial material	
+176189	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+176190	w	w	w	conj.	and	
+176191	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.164 6						
-155419	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
-155420	l	l(I)	l (I)	prep.	to	
-155421	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
-155422	w	w	w	conj.	and	
-155423	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
-155423	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-155423	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+176192	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
+176193	l	l(I)	l (I)	prep.	to	
+176194	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
+176195	w	w	w	conj.	and	
+176196	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+176196	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+176196	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.164 7						
-155424	kmm	kmm	kmm	adv.	ditto	
-155425	š	š/	š	n. m. sg. abs. nom.	ram	
-155426	l	l(I)	l (I)	prep.	to	
-155427	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-155427	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN	
-155428	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
+176197	kmm	kmm	kmm	adv.	ditto	
+176198	š	š/	š	n. m. sg. abs. nom.	ram	
+176199	l	l(I)	l (I)	prep.	to	
+176200	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+176200	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN	
+176201	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 # KTU 1.164 8						
-155429	w	w	w	conj.	and	
-155430	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
-155430	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-155430	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-155431	kmm	kmm	kmm	adv.	ditto	
-155432	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	2) espec. domestic fowl	
+176202	w	w	w	conj.	and	
+176203	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
+176203	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+176203	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
+176204	kmm	kmm	kmm	adv.	ditto	
+176205	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	2) espec. domestic fowl	
 # KTU 1.164 9						
-155433	l	l(I)	l (I)	prep.	to	
-155434	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. gen.	oil	
+176206	l	l(I)	l (I)	prep.	to	
+176207	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. gen.	oil	
 # KTU 1.164 10						
-155435	w	w	w	conj.	and	
-155436	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-155437	b	b	b	prep.	in	
-155438	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	2) TN	
-155438	qr	qr(II)/	qr (II)	n. m. sg. abs. gen.	noise	
-155438	qr	qr(III)/	qr (III)	n. m. pl. abs. gen.	wall	
+176208	w	w	w	conj.	and	
+176209	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+176210	b	b	b	prep.	in	
+176211	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	2) TN	
+176211	qr	qr(II)/	qr (II)	n. m. sg. abs. gen.	noise	
+176211	qr	qr(III)/	qr (III)	n. m. pl. abs. gen.	wall	
 # KTU 1.164 11						
-155439	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-155440	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-155440	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+176212	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
+176213	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 # KTU 1.164 12						
-155441	xxt	?	?	?	?	DULAT: NOT FOUND
-155442	w	w	w	conj.	and	
+176214	xxt	?	?	?	?	DULAT: NOT FOUND
+176215	w	w	w	conj.	and	
 # KTU 1.164 13						
-155443	xxtql	?	?	?	?	DULAT: NOT FOUND
-155444	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
+176216	xx	?	?	?	?	
+176217		?	?	?	?	
+176218	tql	!t!ql[	/q-l/	vb G prefc.	to fall (down)	
+176219	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 14						
-155445	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
-155445	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
-155445	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
-155445	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-155446	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-155447	w	w	w	conj.	and	
-155448	str	?	?	?	?	DULAT: NOT FOUND
+176220	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
+176220	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+176220	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+176220	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
+176221	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
+176222	w	w	w	conj.	and	
+176223	str	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 15						
-155449	xnxxxšbˤ	?	?	?	?	DULAT: NOT FOUND
-155450	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	1) heavenly body	
+176224	xnxxx	?	?	?	?	DULAT: NOT FOUND
+176225	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
+176226	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	1) heavenly body	
 # KTU 1.164 16						
-155451	w	w	w	conj.	and	
-155452	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-155453	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. nom.	1) gold f) elliptical use	
+176227	w	w	w	conj.	and	
+176228	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
+176229		?	?	?	?	
+176230	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. nom.	1) gold f) elliptical use	
 # KTU 1.164 17						
-155454	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	5) used as a prep	
-155455	axxm	?	?	?	?	DULAT: NOT FOUND
-155456	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
+176231	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	5) used as a prep	
+176232	axxm	?	?	?	?	DULAT: NOT FOUND
+176233	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.164 18						
-155457	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
-155457	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
-155457	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
-155457	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-155458	sxx	?	?	?	?	DULAT: NOT FOUND
+176234	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
+176234	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
+176234	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+176234	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
+176235	sxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 19						
-155459	w	w	w	conj.	and	
-155460	al	al(I)	ảl (I)	neg. functor	no	
-155460	al	al(II)	ảl (II)	pos. functor	surely	
-155461	tṣu	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
-155462	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
-155462	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
+176236	w	w	w	conj.	and	
+176237	al	al(I)	ảl (I)	neg. functor	no	
+176237	al	al(II)	ảl (II)	pos. functor	surely	
+176238	tṣu	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
+176239	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
+176239	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 # KTU 1.164 20						
-155463	w	w	w	conj.	and	
-155464	ḥlt	ḥl(t(II)/t	ḥlt (II)	n. f. sg. abs. nom.	desacralisation	DULAT quote in ḥlt (II) (cue: desacralisation)
+176240	w	w	w	conj.	and	
+176241	ḥlt	ḥl(t(II)/t	ḥlt (II)	n. f. sg. abs. nom.	desacralisation	DULAT quote in ḥlt (II) (cue: desacralisation)

@@ -1,44 +1,44 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.25 1						
-147842	ixxš	?	?	?	?	DULAT: NOT FOUND
-147843	xx	?	?	?	?	
+168090	ixxš	?	?	?	?	DULAT: NOT FOUND
+168091	xx	?	?	?	?	
 # KTU 1.25 2						
-147844	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god a) as a class	
-147845	w	w	w	conj.	and	
-147846	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. abs. nom.	1) goddess a) as a category/class	
-147847	dt	d+t	d	det. or rel. functor	the one(s) of	
+168092	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god a) as a class	
+168093	w	w	w	conj.	and	
+168094	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. abs. nom.	1) goddess a) as a category/class	
+168095	dt	d+t	d	det. or rel. functor	the one(s) of	
 # KTU 1.25 3						
-147848	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven b) in apposition	
-147849	l	l(I)	l (I)	prep.	to	
-147850	šbˤm	šbˤ(I)&m/	šbʕ (I)	num. f.	1) numeral seven b) in apposition	DULAT quote in šbʕm (cue: seven)
-147851	abx	?	?	?	?	DULAT: NOT FOUND
+168096	šbˤ	šbˤ(I)/	šbʕ (I)	num.	2) composite numbers b) tens	
+168097	l	l(I)	l (I)	prep.	to	
+168098	šbˤm	šbˤ(I)&m/	šbʕ (I)	num. f.	2) composite numbers b) tens	
+168098	šbˤm	šbˤm/	šbʕm	num.	1) seventy c) in composite numbers	
+168099	abx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 4						
-147852	w	w	w	conj.	and	
-147853	ldm	!!yld[/+m(I)	/y-l-d/	vb G inf.	to give birth (to)	
-147853	ldm	yld[+m(I)	/y-l-d/	vb N suffc.	to give birth (to)	
-147854	dt	d+t	d	det. or rel. functor	4) in compound conjunctions	
-147855	ymtm	!y!mt[~m	/m-t/	vb G prefc. 3 m. sg.	to die	
+168100	w	w	w	conj.	and	
+168101	ldm	(yld[+m(I)	/y-l-d/	vb G impv. 2	to give birth (to)	
+168102	dt	d+t	d	det. or rel. functor	4) in compound conjunctions	
+168103	ymtm	!y!mt[~m	/m-t/	vb G prefc. 3 m. sg.	to die	
 # KTU 1.25 5						
-147856	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
-147856	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
-147857	lẓpn	lṭpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
+168104	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
+168104	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
+168105	lẓpn	l(ṭ&ẓpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 # KTU 1.25 6						
-147858	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
-147859	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	
-147859	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-147860	ymgn	?	?	?	?	DULAT: NOT FOUND
+168106	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
+168107	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	
+168107	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+168108	ymgn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 7						
-147861	i	i(I)	ỉ (I)	interj.	woe	
-147862	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-147863	l	l(I)	l (I)	prep.	to	
-147864	hdd	hd/	hd(d)	DN sg. cstr. gen.	Haddu/Hadad	
+168109	i	i(I)	ỉ (I)	interj.	woe	
+168110	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+168111	l	l(I)	l (I)	prep.	to	
+168112	hdd	?	?	?	?	DULAT candidates (no reconstructable encoding): hd(d) - Haddu/Hadad
 # KTU 1.25 8						
-147865	hkl	hkl/	hkl	n. m. sg. abs. gen.	palace	
-147866	xxx	?	?	?	?	
+168113	hkl	hkl/	hkl	n. m. sg. abs. gen.	palace	
+168114	xxx	?	?	?	?	
 # KTU 1.25 9						
-147867	x	?	?	?	?	
+168115	x	?	?	?	?	
 # KTU 1.25 10						
-147868	x	?	?	?	?	
-147869	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	5) used as a preposition	
+168116	x	?	?	?	?	
+168117	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	5) used as a preposition	
 # KTU 1.25 11						
-147870	tmt	tm/t=	tm	adj. f. pl. abs. nom.	complete	
+168118	tmt	tm/t	tm	adj. f. sg. abs. nom.	complete	

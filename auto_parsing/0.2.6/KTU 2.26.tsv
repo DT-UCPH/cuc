@@ -1,79 +1,77 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.26 1						
-157136	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-157137	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say, tell, announce, communicate, inform	
-157137	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+177986	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+177987	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say, tell, announce, communicate, inform	
+177987	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 2.26 2						
-157138	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-157138	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+177988	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.26 3						
-157139	l	l(I)	l (I)	prep.	to	
-157140	ḥyil	?	?	?	?	DULAT: NOT FOUND
+177989	l	l(I)	l (I)	prep.	to	
+177990	ḥyil	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.26 4						
-157141	lm	l(I)+m(I)	l (I)	prep.	to	
-157142	tlik	!t!l(ʔ&ik[:d	/l-ʔ-k/	vb D prefc.	to send constantly messages	
-157143	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
+177991	lm	l(I)+m(I)	l (I)	prep.	to	
+177992	tlik	!t!l(ʔ&ik[:d	/l-ʔ-k/	vb D prefc.	to send constantly messages	
+177993	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
 # KTU 2.26 5						
-157144	iky	iky	ỉky	interr. functor	what of?	
-157145	aškn	!(ʔ&a!škn[:d	/š-k-n/	vb D	to assign	DULAT quote in /š-k-n/ (cue: assign)
+177994	iky	iky	ỉky	interr. functor	what of?	
+177995	aškn	!(ʔ&a!škn[:d	/š-k-n/	vb D	to assign	
 # KTU 2.26 6						
-157146	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	1) tree	
-157147	l	l(I)	l (I)	prep.	to	
-157148	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-157148	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
-157149	dml	dml/	dml	DN sg. cstr. gen.	dml	
+177996	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	2) beam	
+177997	l	l(I)	l (I)	prep.	to	
+177998	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+177998	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
+177999	dml	dml/	dml	DN sg. cstr. gen.	dml	
 # KTU 2.26 7						
-157150	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
-157151	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
-157152	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
+178000	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
+178001	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
+178002	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
 # KTU 2.26 8						
-157153	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
-157154	lk	l(I)+k	l (I)	prep.	to	
+178003	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
+178004	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.26 9						
-157155	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
-157156	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. cstr. nom.	tree	
+178005	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
+178006	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. cstr. nom.	tree	
 # KTU 2.26 10						
-157157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-157158	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	
+178007	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+178008	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	
 # KTU 2.26 11						
-157159	w	w	w	conj.	and	
-157160	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
+178009	w	w	w	conj.	and	
+178010	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
 # KTU 2.26 12						
-157161	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-157162	ubrˤy	ubrˤ&y/	ủbrʕ(y)	TN sg. abs. gen.	ủbrʿy	
-157162	ubrˤy	ubrˤy/	ủbrʕy	GN sg. abs. gen.	ủbrʿy	
+178011	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+178012	ubrˤy	ubrˤ&y/	ủbrʕ(y)	TN sg. abs. gen.	ủbrʿy	
+178012	ubrˤy	ubrˤy/	ủbrʕy	GN sg. abs. gen.	ủbrʿy	
 # KTU 2.26 13						
-157163	w	w	w	conj.	and	
-157164	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two a) elliptical syntagms	
-157165	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+178013	w	w	w	conj.	and	
+178014	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two a) elliptical syntagms	
+178015	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 2.26 14						
-157166	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-157166	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+178016	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.26 15						
-157167	w	w	w	conj.	and	
-157168	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	1) number one a) elliptical syntagms	
-157168	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
-157168	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
+178017	w	w	w	conj.	and	
+178018	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	1) number one a) elliptical syntagms	
+178018	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
+178018	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
 # KTU 2.26 16						
-157169	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-157170	atlg	atlg/	ảtlg	TN sg. abs. gen.	ảtlg	
+178019	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+178020	atlg	atlg/	ảtlg	TN sg. abs. gen.	ảtlg	
 # KTU 2.26 17						
-157171	w	w	w	conj.	and	
-157172	l	l(I)	l (I)	prep.	to	
-157173	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
+178021	w	w	w	conj.	and	
+178022	l	l(I)	l (I)	prep.	to	
+178023	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
 # KTU 2.26 18						
-157174	tspr	!t!spr[:w	/s-p-r/	vb G prefc. 3 m. pl.	to count, number	
-157174	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to recite	
+178024	tspr	!t!spr[:w	/s-p-r/	vb G prefc. 3 m. pl.	to count, number	
+178024	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to recite	
 # KTU 2.26 19						
-157175	nrn	nr/+n	nr	n. m. cstr. nom.	sheen	
-157175	nrn	nr[+n	/n-r/	vb G suffc.	to shine	
-157176	al	al(I)	ảl (I)	neg. functor	no	
-157176	al	al(II)	ảl (II)	pos. functor	surely	
-157177	tud	!t!(ʔ&ud[	/ʔ-d/	vb G prefc.	to overcharge, levy	
+178025	nrn	nr/+n	nr	n. m. cstr. nom.	sheen	
+178025	nrn	nrn[	/n-r/	vb G suffc. 3 m. sg.	to shine	
+178026	al	al(I)	ảl (I)	neg. functor	no	
+178026	al	al(II)	ảl (II)	pos. functor	surely	
+178027	tud	!t!(ʔ&ud[	/ʔ-d/	vb G prefc.	to overcharge, levy	
 # KTU 2.26 20						
-157178	ad	ad/	ảd	n. m. sg. abs. nom.	father	
-157179	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
-157180	lhm	l(I)+hm	l (I)	prep.	5) introducing an object complement or cause	
+178028	ad	ad/	ảd	n. m. sg. abs. nom.	father	
+178029	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+178030	lhm	l(I)+hm	l (I)	prep.	5) introducing an object complement or cause	
 # KTU 2.26 21						
-157181	ṯṯm	ṯṯm/	ṯṯm	num.	1) the numeral sixty b) genitive syntagms	
-157182	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+178031	ṯṯm	ṯṯm/	ṯṯm	num.	1) the numeral sixty a) elliptical syntagms	
+178032	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	

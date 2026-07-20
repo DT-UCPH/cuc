@@ -1,174 +1,173 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.91 1						
-151218	yn	yn/	yn	n. m. sg. abs. nom.	1) wine c) with ellipsis of yn	
-151219	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
-151220	ykl	!y!kl(y[	/k-l-y/	vb G prefc. 3 m. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	DULAT quote in bd (IV) (cue: consumed)
-151221	bd	b&d	b	prep.	in	
-151222	r	?	?	?	?	DULAT: NOT FOUND
+171746	yn	yn/	yn	n. m. sg. abs. nom.	3) production and consumption c) used in the cult	
+171747	d	d	d	det. or rel. functor	2) which	
+171748	ykl	!y!kl(y[	/k-l-y/	vb G prefc. 3 m. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	DULAT quote in bd (IV) (cue: consumed)
+171749	bd	b&d	b	prep.	in	
+171750	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 2						
-151223	b	b	b	prep.	in	
-151224	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
-151224	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
-151225	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-151225	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+171751	b	b	b	prep.	in	
+171752	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
+171752	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
+171753	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 # KTU 1.91 3						
-151226	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
-151226	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
-151227	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+171754	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
+171754	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
+171755	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.91 4						
-151228	tzġm	tzġ/m	tzġ	n. m. pl. cstr. gen.	kind of sacrificial meat	
+171756	tzġm	tzġ/m	tzġ	n. m. pl. cstr. gen.	kind of sacrificial meat	
 # KTU 1.91 5						
-151229	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
+171757	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
 # KTU 1.91 6						
-151230	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-151230	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-151231	bldn	bld/+n	bld	n. m. cstr. gen.	land	
+171758	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+171758	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+171759	bldn	bld/+n	bld	n. m. cstr. gen.	land	
 # KTU 1.91 7						
-151232	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
-151232	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
-151233	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-151234	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-151234	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
+171760	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
+171760	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
+171761	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+171762	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.91 8						
-151235	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-151235	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
-151235	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-151236	izr	izr/	ỉzr	n. m. sg. abs. nom.	investiture	
+171763	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+171763	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+171763	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+171764	izr	izr/	ỉzr	n. m. sg. abs. nom.	investiture	
 # KTU 1.91 9						
-151237	xrz	?	?	?	?	DULAT: NOT FOUND
+171765	xrz	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 10						
-151238	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: when)
-151239	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	1) to enter	
-151239	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	1) to enter	
-151239	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	1) to enter	
-151239	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 m. du.	1) to enter	
-151239	tˤrb	!t!ˤrb[:w	/ʕ-r-b/ (I)	vb G prefc. 3 m. pl.	1) to enter	
-151239	tˤrb	!t===!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. pl.	1) to enter	
-151240	ṯˤṯtrt	?	?	?	?	DULAT: NOT FOUND
-151241	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
-151241	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
-151242	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-151243	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-151243	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
+171766	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: when)
+171767	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	1) to enter	
+171767	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	1) to enter	
+171767	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	1) to enter	
+171767	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 m. du.	1) to enter	
+171767	tˤrb	!t!ˤrb[:w	/ʕ-r-b/ (I)	vb G prefc. 3 m. pl.	1) to enter	
+171767	tˤrb	!t===!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. pl.	1) to enter	
+171768	ṯˤṯtrt	?	?	?	?	DULAT: NOT FOUND
+171769	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
+171769	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
+171770	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+171771	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 1.91 11						
-151244	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in ršp (cue: when)
-151245	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
-151246	ršpm	ršp/	ršp	DN du. cstr. nom.	Rašap	
-151246	ršpm	ršp/	ršp	DN pl. cstr. nom.	Rašap	
-151247	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-151248	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. gen.	to reign	
-151248	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. gen.	kingdom (power and territory)	
+171772	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in ršp (cue: when)
+171773	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
+171774	ršpm	ršp/m	ršp	DN pl. cstr. nom.	Rašap	
+171775	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+171776	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.91 12						
-151249	ḫlu	ḫlu/	ḫlủ	n. m. sg. cstr. gen.	cake	
-151250	dg	dg(I)/	dg (I)	n. m. sg. cstr. gen.	fish	
+171777	ḫlu	ḫlu/	ḫlủ	n. m. sg. cstr. gen.	cake	
+171778	dg	dg(I)/	dg (I)	n. m. sg. cstr. gen.	fish	
 # KTU 1.91 13						
-151251	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. gen.	new moon	
+171779	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. gen.	new moon	
 # KTU 1.91 14						
-151252	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	1) sacrifice	
-151252	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	1) sacrifice	
-151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
-151252	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
-151252	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
-151253	bˤlxxxxx	?	?	?	?	DULAT: NOT FOUND
-151254	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /n-d-d/ (cue: when)
-151255	tdd	ndd[	/n-d-d/	vb G prefc.	to go, move	
-151256	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. nom.	lady	
-151257	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
+171780	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	1) sacrifice	
+171780	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	1) sacrifice	
+171780	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
+171780	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
+171780	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
+171781	bˤlxxxxx	?	?	?	?	DULAT: NOT FOUND
+171782	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /n-d-d/ (cue: when)
+171783	tdd	!t!(ndd[	/n-d-d/	vb G prefc.	to go, move	
+171784	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. nom.	lady	
+171785	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 # KTU 1.91 15						
-151258	b	b	b	prep.	in	
-151259	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
-151260	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
-151261	ṣbi	ṣb(u(I)/&i	ṣbủ (I)	n. m. sg. abs. gen.	1) army	DULAT quote in ṣbủ (I) (cue: army)
+171786	b	b	b	prep.	in	
+171787	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. gen.	(sacrificial) pit	
+171788	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
+171789	ṣbi	ṣb(u&i(I)/	ṣbủ (I)	n. m. sg. abs. gen.	1) army	DULAT quote in ṣbủ (I) (cue: army)
 # KTU 1.91 16						
-151262	xxxxxkm	?	?	?	?	DULAT: NOT FOUND
+171790	xxxxxkm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.91 17						
-151263	xxxxxxh	?	?	?	?	DULAT: NOT FOUND
-151264	iln	il(I)&n/	ỉl (I)	n. m. sg. abs. nom.	god	
-151264	iln	iln(I)/	ỉln (I)	n. m. sg. abs. nom.	1) deity	
+171791	xxxxxxh	?	?	?	?	DULAT: NOT FOUND
+171792	iln	il(I)&n/	ỉl (I)	n. m. sg. abs. nom.	god	
+171792	iln	iln(I)/	ỉln (I)	n. m. sg. abs. nom.	1) deity	
 # KTU 1.91 18						
-151265	xxxxx	?	?	?	?	
-151266	ṣmdt	?	?	?	?	DULAT: NOT FOUND
-151267	rxš	?	?	?	?	DULAT: NOT FOUND
-151268	pdġy	pdġy/	pdġy	PN sg. abs. nom.	pdġy	
+171793	xxxxx	?	?	?	?	
+171794	ṣmdt	?	?	?	?	DULAT: NOT FOUND
+171795	rxš	?	?	?	?	DULAT: NOT FOUND
+171796	pdġy	pdġy/	pdġy	PN sg. abs. nom.	pdġy	
 # KTU 1.91 19						
-151269	xxxxx	?	?	?	?	
+171797	xxxxx	?	?	?	?	
 # KTU 1.91 20						
-151270	xxxxbˤlt	?	?	?	?	DULAT: NOT FOUND
+171798	xxxx	?	?	?	?	
+171799	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. nom.	lady	
 # KTU 1.91 21						
-151271	lbnm	lbn(I)/m	lbn (I)	adj. m. pl. abs. nom.	white	
-151272	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
-151273	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
+171800	lbnm	lbn(I)/m	lbn (I)	adj. m. pl. abs. nom.	white	
+171801	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+171802	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
 # KTU 1.91 22						
-151274	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. cstr. gen.	massif	
-151275	gngnt	gngnt/	gngnt	TN sg. cstr. gen.	gngnt	
-151276	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-151277	yn	yn/	yn	n. m. sg. abs. gen.	wine	
+171803	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. cstr. gen.	massif	
+171804	gngnt	gngnt/	gngnt	TN sg. cstr. gen.	gngnt	
+171805	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+171806	yn	yn/	yn	n. m. sg. abs. gen.	wine	
 # KTU 1.91 23						
-151278	bṣr	bṣr(II)[	/b-ṣ-r/ (II)	vb G impv. 2	to sever	
-151279	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
-151280	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
+171807	bṣr	bṣr(II)[	/b-ṣ-r/ (II)	vb G impv. 2	to sever	
+171808	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+171809	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
 # KTU 1.91 24						
-151281	nnu	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
-151282	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
-151283	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
+171810	nnu	nnu(II)/	nnủ (II)	TN sg. abs. gen.	nnủ (II)	
+171811	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
+171812	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
 # KTU 1.91 25						
-151284	šql	šql/	šql	TN sg. cstr. gen.	šql	
-151285	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-151286	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
+171813	šql	šql/	šql	TN sg. cstr. gen.	šql	
+171814		?	?	?	?	
+171815	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+171816	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
 # KTU 1.91 26						
-151287	šmny	šmn(I)/+y	šmn (I)	n. m. cstr. gen.	oil	
-151287	šmny	š&m/+ny	š	n. m. cstr. gen.	ram	
-151287	šmny	šm(I)/+ny	šm (I)	n. m. cstr. gen.	name	
-151288	kdm	kd(I)/m	kd (I)	n. f. pl. abs. nom.	jar	
-151289	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+171817	šmny	šmn(I)/+y	šmn (I)	n. m. cstr. gen.	oil	
+171817	šmny	š/m+ny	š	n. m. cstr. gen.	ram	
+171817	šmny	šm(I)/+ny	šm (I)	n. m. cstr. gen.	name	
+171818	kdm	kd(I)/m	kd (I)	n. f. pl. abs. nom.	jar	
+171819	yn	yn/	yn	n. m. sg. abs. nom.	wine	
 # KTU 1.91 27						
-151290	šmgy	šmgy/	šmgy	TN sg. abs. nom.	šmgy	
-151291	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	2) “jar”	
-151292	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+171820	šmgy	šmgy/	šmgy	TN sg. abs. nom.	šmgy	
+171821	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	2) “jar”	
+171822	yn	yn/	yn	n. m. sg. abs. nom.	wine	
 # KTU 1.91 28						
-151293	hzp	hzp/	hzp	TN sg. abs. nom.	hzp	
-151294	tšˤ	tšˤ/	tšʕ	num.	1) nine b) ge. syntagms	
-151295	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
+171823	hzp	hzp/	hzp	TN sg. abs. nom.	hzp	
+171824	tšˤ	tšˤ/	tšʕ	num.	1) nine b) ge. syntagms	
+171825	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
 # KTU 1.91 29						
-151296	bir	bir/	bỉr	TN/n. f. sg. cstr. gen.	biʾiru	
-151297	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. gen.	banquet	
-151298	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
-151299	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
-151300	ḥsp	ḥsp/	ḥsp	adj. m. sg. abs. nom.	decanted	
+171826	bir	bir/	bỉr	TN/n. f. sg. cstr. gen.	biʾiru	
+171827	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. gen.	banquet	
+171828	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
+171829	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
+171830	ḥsp	ḥsp/	ḥsp	adj. m. sg. abs. nom.	decanted	
 # KTU 1.91 30						
-151301	ḫpty	ḫpty/	ḫb/pt(y)	TN sg. cstr. nom.	ḫb/pt(y)	Based on DULAT reconstruction.
-151301	ḫpty	ḫpt/+y	ḫpt	TN sg. cstr. nom.	ḫpt	Based on DULAT reconstruction.
-151302	kdm	kd(I)/m	kd (I)	n. f. pl. cstr. gen.	jar	
-151303	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
-151303	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. gen.	beam	
+171831	ḫpty	ḫpty/	ḫb/pt(y)	TN sg. cstr. nom.	ḫb/pt(y)	Based on DULAT reconstruction.
+171831	ḫpty	ḫpt/+y	ḫpt	TN sg. cstr. nom.	ḫpt	Based on DULAT reconstruction.
+171832	kdm	kd(I)/m	kd (I)	n. f. pl. cstr. gen.	jar	
+171833	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
+171833	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. gen.	beam	
 # KTU 1.91 31						
-151304	agm	agm	ảgm	→	?	
-151305	arbˤ	arbˤ/	ảrbʕ	num.	four	
-151306	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
-151306	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
+171834	agm	agm	ảgm	→	?	
+171835	arbˤ	arbˤ/	ảrbʕ	num.	four	
+171836	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
+171836	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
 # KTU 1.91 32						
-151307	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. gen.	root	
-151308	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven c) elliptical syntagms	
-151309	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
-151309	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
+171837	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. gen.	root	
+171838	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven c) elliptical syntagms	
+171839	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
+171839	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
 # KTU 1.91 33						
-151310	rqd	rqd/	rqd	TN sg. cstr. gen.	rqd	
-151311	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-151312	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
-151312	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. gen.	beam	
-151313	w	w	w	conj.	and	
-151314	x	?	?	?	?	
+171840	rqd	rqd/	rqd	TN sg. cstr. gen.	rqd	
+171841	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
+171842	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
+171842	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. abs. gen.	beam	
+171843	w	w	w	conj.	and	
+171844	x	?	?	?	?	
 # KTU 1.91 34						
-151315	uḫnp	uḫnp/	ủḫnp	TN sg. abs. nom.	ủḫnp	
-151316	ṯṯ	ṯṯ/	ṯṯ	num.	1) the numeral six a) elliptical syntagms	
-151317	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
-151317	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
+171845	uḫnp	uḫnp/	ủḫnp	TN sg. abs. nom.	ủḫnp	
+171846	ṯṯ	ṯṯ/	ṯṯ	num.	1) the numeral six a) elliptical syntagms	
+171847	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. cstr. nom.	place in which something is put	
+171847	mṣb	mṣb(I)/	mṣb (I)	n. m. sg. cstr. nom.	beam	
+171848		?	?	?	?	
 # KTU 1.91 35						
-151318	tgmr	tgmr/	tgmr	n. m. sg. cstr. gen.	1) totality	
-151319	yn	yn/	yn	n. m. sg. cstr. gen.	1) wine b) classes	
-151320	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
-151321	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+171849	tgmr	tgmr/	tgmr	n. m. sg. cstr. gen.	1) totality	
+171850	yn	yn/	yn	n. m. sg. cstr. gen.	1) wine b) classes	
+171851	mṣb	mṣb(II)/	mṣb (II)	n. m. sg. abs. gen.	place in which something is put	
+171852	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.91 36						
-151322	w	w	w	conj.	and	
-151323	ḥspṯn	?	?	?	?	DULAT: NOT FOUND
-151324	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	1) total quantity or price	
+171853	w	w	w	conj.	and	
+171854	ḥsp	ḥsp/	ḥsp	adj. m. sg. abs. nom.	decanted	
+171855	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
+171856	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	1) total quantity or price	

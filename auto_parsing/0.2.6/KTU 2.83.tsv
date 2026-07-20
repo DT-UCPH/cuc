@@ -1,62 +1,59 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.83 1						
-159390	at	at(I)	ảt (I)	pers. pn.	you	
-159391	d	d	d	det. or rel. functor	the one(s) of	
+180481	at	at(I)	ảt (I)	pers. pn.	you	
+180482	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.83 2						
-159392	m	m	m(h)	pers. pn.	what?	
-159393	hlny	hlny	hlny	deictic adv. functor	behold	
-159394		?	?	?	?	
+180483	m	m	m(h)	pers. pn.	what?	
+180484	hlny	hlny	hlny	deictic adv. functor	behold	
+180485		?	?	?	?	
 # KTU 2.83 3						
-159395	xt	?	?	?	?	DULAT: NOT FOUND
-159396	bd	b&d	b	prep.	in	
-159397	ymz	ymz/	ymz	PN sg. abs. gen.	ymz	
-159398	mx	?	?	?	?	DULAT: NOT FOUND
+180486	xt	?	?	?	?	DULAT: NOT FOUND
+180487	bd	b&d	b	prep.	in	
+180488	ymz	ymz/	ymz	PN sg. abs. gen.	ymz	
+180489	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.83 4						
-159399	x	?	?	?	?	
-159400	tḥmk	tḥm/+k	tḥm	n. m. cstr. nom.	message	
-159401	ḥdy	ḥdy[+y	/ḥ-d-y/	vb	1) to see	
-159402	r	?	?	?	?	DULAT: NOT FOUND
+180490	x	?	?	?	?	
+180491	tḥmk	tḥm/+k	tḥm	n. m. cstr. nom.	message	
+180492	ḥdy	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - 1) to see
+180493	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.83 5						
-159403	y	+y, [y	-y (I)	prep. functor	my	
-159403	y	~y	-y (II)	prep. functor	indeed	
-159403	y	y	y	prep. functor	oh!	
-159404	adnty	?	?	?	?	DULAT: NOT FOUND
-159405	a	?	?	?	?	DULAT: NOT FOUND
+180494	y	~y	-y (II)	prep. functor	indeed	
+180494	y	y	y	prep. functor	oh!	
+180495	adnty	?	?	?	?	DULAT: NOT FOUND
+180496	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.83 6						
-159406	xm	?	?	?	?	DULAT: NOT FOUND
-159407	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-159407	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-159408	hm	hm(II)	hm (II)	conj./interr. functor	if	
-159408	hm	hm(I)	hm (I)	pers. pn.	they	
-159409		?	?	?	?	
+180497	xm	?	?	?	?	DULAT: NOT FOUND
+180498	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
+180498	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+180499	hm	hm(II)	hm (II)	conj./interr. functor	if	
+180499	hm	hm(I)	hm (I)	pers. pn.	they	
+180500		?	?	?	?	
 # KTU 2.83 7						
-159410		?	?	?	?	
-159411	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-159411	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-159411	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-159411	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-159411	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+180501		?	?	?	?	
+180502	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+180502	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+180502	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+180502	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+180502	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.83 8						
-159412	m	m	m(h)	pers. pn.	what?	
-159413	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
-159414	x	?	?	?	?	
+180503	m	m	m(h)	pers. pn.	what?	
+180504	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
+180505	x	?	?	?	?	
 # KTU 2.83 9						
-159415	xṣpy	?	?	?	?	DULAT: NOT FOUND
-159416	b	b	b	prep.	in	
-159417	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
+180506	xṣpy	?	?	?	?	DULAT: NOT FOUND
+180507	b	b	b	prep.	in	
+180508	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
 # KTU 2.83 10						
-159418	su	?	?	?	?	DULAT: NOT FOUND
-159419	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	2) noble	
+180509	su	?	?	?	?	DULAT: NOT FOUND
+180510	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	2) noble	
 # KTU 2.83 11						
-159420	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-159420	n	[n, [n=	-n (II)	vb	me/to me	DULAT: NOT FOUND
-159420	n	+n, +n=	-n (III)	suff. pn. morph. 1.p.pl.	our/us	DULAT: NOT FOUND
-159420	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
-159421	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
-159421	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
-159422	i	i(I)	ỉ (I)	interj.	woe	
+180511	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
+180511	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+180512	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+180512	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
+180513	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 2.83 12						
-159423	mš	?	?	?	?	DULAT: NOT FOUND
-159424	x	?	?	?	?	
+180514	mš	?	?	?	?	DULAT: NOT FOUND
+180515	x	?	?	?	?	
 # KTU 2.83 13						
-159425	x	?	?	?	?	
+180516	x	?	?	?	?	

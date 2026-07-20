@@ -1,68 +1,72 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.83 1						
-150271	xxx	?	?	?	?	
-150272	xxr	?	?	?	?	DULAT: NOT FOUND
-150273	xxx	?	?	?	?	
+170733	xxx	?	?	?	?	
+170734	xxr	?	?	?	?	DULAT: NOT FOUND
+170735	xxx	?	?	?	?	
 # KTU 1.83 2						
-150274	xxxxil	?	?	?	?	DULAT: NOT FOUND
+170736	xxxx	?	?	?	?	
+170737	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+170737	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+170737	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+170737	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.83 3						
-150275	tṣun	yṣʔ[+n	/y-ṣ-ʔ/	vb	to go out	
-150276	b	b	b	prep.	in	
-150277	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	1) earth	
+170738	tṣun	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out
+170739	b	b	b	prep.	in	
+170740	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	1) earth	
 # KTU 1.83 4						
-150278	mḫnm	mḫn/~m	mḫn	n. m. pl. abs. gen.	?	
-150279	ṯrp	ṯrp[	/ṯ-r-p/	vb inf.	1) to spur on (an animal)	
-150280	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	1) sea	DULAT quote in ym (II) (cue: sea)
+170741	mḫnm	mḫn/~m	mḫn	n. m. pl. abs. gen.	?	
+170742	ṯrp	ṯrp[	/ṯ-r-p/	vb inf.	1) to spur on (an animal)	
+170743	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	1) sea	DULAT quote in ym (II) (cue: sea)
 # KTU 1.83 5						
-150281	lšnm	lšn/m	lšn	n. f. pl. abs. gen.	1) tongue	
-150282	tlhk	?	?	?	?	DULAT: NOT FOUND
+170744	lšnm	lšn/m	lšn	n. f. pl. abs. gen.	1) tongue	
+170745	tlhk	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.83 6						
-150283	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	1) heavens	
-150284	tṯrp	!t!ṯrp[	/ṯ-r-p/	vb prefc.	to spur on (an animal)	
+170746	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	1) heavens	
+170747	tṯrp	!t!ṯrp[	/ṯ-r-p/	vb prefc.	to spur on (an animal)	
 # KTU 1.83 7						
-150285	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	1) sea	DULAT quote in ym (II) (cue: sea)
-150286	ḏnbtm	ḏnbt/m	ḏnb(t)	n. f. pl. cstr. gen.	tail	
+170748	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	1) sea	DULAT quote in ym (II) (cue: sea)
+170749	ḏnbtm	ḏnb/tm	ḏnb(t)	n. f. du. cstr. gen.	tail	
 # KTU 1.83 8						
-150287	tan	tan/	tản	PN sg. abs. gen.	tản	
-150288	l	l(I)	l (I)	prep.	to	
-150289	šbm	šbm/	šbm	n. m. sg. abs. gen.	muzzle	DULAT quote in šbm (cue: muzzle)
+170750	tan	tan/	tản	PN sg. abs. gen.	tản	
+170751	l	l(I)	l (I)	prep.	to	
+170752	šbm	šbm/	šbm	n. m. sg. abs. gen.	muzzle	DULAT quote in šbm (cue: muzzle)
 # KTU 1.83 9						
-150290	tšt	!t!št[	/š-t/	vb G prefc.	to place, set, set up, leave	
-150291	trks	!t!rks[:w	/r-k-s/	vb G prefc. 3 m. pl.	to gird, tie	
+170753	tšt	!t!št[	/š-t/	vb G prefc.	to place, set, set up, leave	
+170754	trks	!t!rks[:w	/r-k-s/	vb G prefc. 3 m. pl.	to gird, tie	
 # KTU 1.83 10						
-150292	l	l(I)	l (I)	prep.	to	
-150293	mrym	mrym/	mrym	n. m. sg. cstr. gen.	height	
-150294	lbnt	lbn(t/t	lbnt	n. f. sg. abs. gen.	brick	
-150294	lbnt	lbn(t/t=	lbnt	n. f. pl. abs. gen.	brick	
+170755	l	l(I)	l (I)	prep.	to	
+170756	mrym	mrym/	mrym	n. m. sg. cstr. gen.	height	
+170757	lbnt	lbn(t/t	lbnt	n. f. sg. abs. gen.	brick	
+170757	lbnt	lbn(t/t=	lbnt	n. f. pl. abs. gen.	brick	
 # KTU 1.83 11						
-150295	pl	pl[	/p-l(-l)/	vb G suffc. 3 m. sg.	to be cracked	
-150296	tbˤn	tbˤ[+n	/t-b-ʕ/	vb G suffc.	to go, leave, depart	
-150297	yymm	?	?	?	?	DULAT: NOT FOUND
+170758	pl	pl[	/p-l(-l)/	vb G suffc. 3 m. sg.	to be cracked	
+170759	tbˤn	tbˤ[+n	/t-b-ʕ/	vb G suffc.	to go, leave, depart	
+170760	yymm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.83 12						
-150298	hmlt	hml(t/t=	hmlt	n. f. pl. abs. nom.	multitude	
-150299	ḫt	ḫt[	/ḫ-t(-t)/	vb G suffc. 3 m. sg.	to break	
-150300	ynhr	?	?	?	?	DULAT: NOT FOUND
+170761	hmlt	hml(t/t=	hmlt	n. f. pl. abs. nom.	multitude	
+170762	ḫt	ḫt[	/ḫ-t(-t)/	vb G suffc. 3 m. sg.	to break	
+170763	ynhr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.83 13						
-150301	l	l(I)	l (I)	prep.	to	
-150301	l	l(II)	l (II)	adv.	no	
-150301	l	l(III)	l (III)	functor	certainly	
-150302	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 f. sg.	to see	
-150302	tph	!t=!ph(y[	/p-h-y/	vb G prefc. 2 m. sg.	to see	
-150302	tph	!t==!ph(y[	/p-h-y/	vb G prefc. 2 f. sg.	to see	
-150302	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 m. du.	to see	
-150302	tph	!t!ph(y[:w	/p-h-y/	vb G prefc. 3 m. pl.	to see	
-150302	tph	!t===!ph(y[	/p-h-y/	vb G prefc. 2 m. pl.	to see	
-150303	mk	mk(I)/	mk (I)	n. m. sg. cstr. nom.	large puddle	
+170764	l	l(I)	l (I)	prep.	to	
+170764	l	l(II)	l (II)	adv.	no	
+170764	l	l(III)	l (III)	functor	certainly	
+170765	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 f. sg.	to see	
+170765	tph	!t=!ph(y[	/p-h-y/	vb G prefc. 2 m. sg.	to see	
+170765	tph	!t==!ph(y[	/p-h-y/	vb G prefc. 2 f. sg.	to see	
+170765	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 m. du.	to see	
+170765	tph	!t!ph(y[:w	/p-h-y/	vb G prefc. 3 m. pl.	to see	
+170765	tph	!t===!ph(y[	/p-h-y/	vb G prefc. 2 m. pl.	to see	
+170766	mk	mk(I)/	mk (I)	n. m. sg. cstr. nom.	large puddle	
 # KTU 1.83 14						
-150304	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
-150305	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-150305	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+170767	tḥm	tḥm/	tḥm	n. m. sg. cstr. gen.	message	
+170768	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
+170768	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
 # KTU 1.83 15						
-150306	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-150306	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
-150306	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-150306	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
+170769	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
+170769	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	death	
+170769	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+170769	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
 # KTU 1.83 16						
-150307		?	?	?	?	
+170770		?	?	?	?	
 # KTU 1.83 17						
-150308	š	š/	š	n. m. sg. abs. gen.	ram	
+170771	š	š/	š	n. m. sg. abs. gen.	ram	

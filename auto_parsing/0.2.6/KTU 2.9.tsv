@@ -1,48 +1,43 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.9 1						
-156534	x	?	?	?	?	
-156535	km	k(III)	k (III)	functor	when	
-156535	km	k(I)	k (I)	prep.	like	
-156535	km	k(IV)	k (IV)	adv.	thus	
-156535	km	km	km	prep./conj./adv.		
-156535	km	+km, +km=	-km			
-156536	tr	tr(II)/	tr (II)	n. m. sg. cstr. nom.	turtledove	
+177363	x	?	?	?	?	
+177364	km	km	km	prep./conj./adv.		
+177365	tr	tr(II)/	tr (II)	n. m. sg. cstr. gen.	turtledove	
 # KTU 2.9 2						
-156537	špš	špš/	špš	n. f. sg. abs. gen.	1) sun	DULAT quote in špš (cue: sun)
-156538	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give, hand over, grant, bestow	
-156538	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give, hand over, grant, bestow	
-156538	ttn	!t==!(ytn[	/y-t-n/	vb G prefc. 2 f. sg.	to give, hand over, grant, bestow	
-156538	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give, hand over, grant, bestow	
-156538	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give, hand over, grant, bestow	
-156538	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give, hand over, grant, bestow	
-156539		?	?	?	?	
+177366	špš	špš/	špš	n. f. sg. abs. gen.	1) sun	DULAT quote in špš (cue: sun)
+177367	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give, hand over, grant, bestow	
+177367	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give, hand over, grant, bestow	
+177367	ttn	!t==!(ytn[	/y-t-n/	vb G prefc. 2 f. sg.	to give, hand over, grant, bestow	
+177367	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give, hand over, grant, bestow	
+177367	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give, hand over, grant, bestow	
+177367	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give, hand over, grant, bestow	
+177368		?	?	?	?	
 # KTU 2.9 3						
-156540	x	?	?	?	?	
-156541	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
-156541	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
-156541	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
-156541	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
-156541	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
-156542	k	+k	-k (I)			
-156542	k	~k	-k (II)			
-156542	k	k(III)	k (III)	Subordinating or completive functor	when	
-156542	k	k(I)	k (I)	prep.	like	
-156542	k	k(II)	k (II)	emph. functor	yes	
-156543	i	i(I)	ỉ (I)	interj.	woe	
+177369	x	?	?	?	?	
+177370	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	
+177370	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know	
+177370	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	to know	
+177370	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know	
+177370	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	to know	
+177371	k	+k	-k (I)			
+177371	k	~k	-k (II)			
+177371	k	k(III)	k (III)	Subordinating or completive functor	when	
+177371	k	k(I)	k (I)	prep.	like	
+177371	k	k(II)	k (II)	emph. functor	yes	
+177372	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 2.9 4						
-156544	x	?	?	?	?	
-156545	w	w	w	conj.	and	
-156546	hm	hm(II)	hm (II)	conj./interr. functor	if	
-156546	hm	hm(I)	hm (I)	pers. pn.	they	
+177373	x	?	?	?	?	
+177374	w	w	w	conj.	and	
+177375	hm	hm(II)	hm (II)	conj./interr. functor	if	
+177375	hm	hm(I)	hm (I)	pers. pn.	they	
 # KTU 2.9 5						
-156547	y	+y, [y	-y (I)	prep. functor	my	
-156547	y	~y	-y (II)	prep. functor	indeed	
-156547	y	y	y	prep. functor	oh!	
-156548	ṯby	ṯb[y	/ṯ-b/	vb G suffc.	to return	
-156548	ṯby	!!ṯb[/y	/ṯ-b/	vb G inf.	to return	
-156549	w	w	w	conj.	and	
+177376	y	~y	-y (II)	prep. functor	indeed	
+177376	y	y	y	prep. functor	oh!	
+177377	ṯby	ṯb[y	/ṯ-b/	vb G suffc.	to return	
+177377	ṯby	!!ṯb[/y	/ṯ-b/	vb G inf.	to return	
+177378	w	w	w	conj.	and	
 # KTU 2.9 6						
-156550		?	?	?	?	
-156551	bnš	bnš/	bnš	n. m. sg. cstr. nom.	3) farmhand	
-156551	bnš	bnš/	bnš	n. m. sg. abs. nom.	3) farmhand	
-156552	x	?	?	?	?	
+177379		?	?	?	?	
+177380	bnš	bnš/	bnš	n. m. sg. cstr. nom.	3) farmhand	
+177380	bnš	bnš/	bnš	n. m. sg. abs. nom.	3) farmhand	
+177381	x	?	?	?	?	

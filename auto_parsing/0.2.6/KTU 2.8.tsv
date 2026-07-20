@@ -1,58 +1,61 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.8 1						
-156504	xxxx	?	?	?	?	
-156505	xxxx	?	?	?	?	
-156506	xxnsk	?	?	?	?	DULAT: NOT FOUND
+177332	xxxx	?	?	?	?	
+177333	xxxx	?	?	?	?	
+177334	xx	?	?	?	?	
+177335	nsk	nsk/	nsk	n. m. sg. cstr. nom.	caster	
+177335	nsk	nsk/	nsk	n. m. sg. abs. nom.	caster	
 # KTU 2.8 2						
-156507	l	l(I)	l (I)	prep.	to	
-156507	l	l(II)	l (II)	adv.	no	
-156507	l	l(III)	l (III)	functor	certainly	
-156508	tṣi	yṣʔ[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
-156509	b	b	b	prep.	in	
-156510	bxx	?	?	?	?	DULAT: NOT FOUND
-156511	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
-156511	dm	dm(I)	dm (I)	functor	since	
-156512	k	+k	-k (I)			
-156512	k	~k	-k (II)			
-156512	k	k(III)	k (III)	Subordinating or completive functor	when	
-156512	k	k(I)	k (I)	prep.	like	
-156512	k	k(II)	k (II)	emph. functor	yes	
+177336	l	l(I)	l (I)	prep.	to	
+177336	l	l(II)	l (II)	adv.	no	
+177336	l	l(III)	l (III)	functor	certainly	
+177337	tṣi	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
+177338	b	b	b	prep.	in	
+177339	bxx	?	?	?	?	DULAT: NOT FOUND
+177340	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
+177340	dm	dm(I)	dm (I)	functor	since	
+177341	k	+k	-k (I)			
+177341	k	~k	-k (II)			
+177341	k	k(III)	k (III)	Subordinating or completive functor	when	
+177341	k	k(I)	k (I)	prep.	like	
+177341	k	k(II)	k (II)	emph. functor	yes	
 # KTU 2.8 3						
-156513	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
-156513	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
-156514	ˤrym	ˤry/+m(I)	ʕry	TN sg. cstr. nom.	ʿry	
-156515	w	w	w	conj.	and	
-156516	k	+k	-k (I)			
-156516	k	~k	-k (II)			
-156516	k	k(III)	k (III)	Subordinating or completive functor	when	
-156516	k	k(I)	k (I)	prep.	like	
-156516	k	k(II)	k (II)	emph. functor	yes	
-156517	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
-156518	x	?	?	?	?	
+177342	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
+177342	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
+177343	ˤrym	ˤry/+m(I)	ʕry	TN sg. cstr. nom.	ʿry	
+177344	w	w	w	conj.	and	
+177345	k	+k	-k (I)			
+177345	k	~k	-k (II)			
+177345	k	k(III)	k (III)	Subordinating or completive functor	when	
+177345	k	k(I)	k (I)	prep.	like	
+177345	k	k(II)	k (II)	emph. functor	yes	
+177346	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
+177347	x	?	?	?	?	
 # KTU 2.8 4						
-156519	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
-156520	brt	br(t/t	brt	n. f. sg. cstr. nom.	forecast	
-156521	lbk	lb/+k	lb	n. m. cstr. gen.	heart	
-156522	ˤnn	ˤn(I)&n/	ʕn (I)	n. f. abs. nom.	eye	
-156522	ˤnn	ˤnn/	ʕnn	n. m. sg. cstr. nom.	1) manservant	
-156522	ˤnn	ˤnn/	ʕnn	n. m. sg. abs. nom.	1) manservant	
-156523	x	?	?	?	?	
+177348	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+177349	brt	br(t/t	brt	n. f. sg. cstr. nom.	forecast	
+177350	lbk	lb/+k	lb	n. m. cstr. gen.	heart	
+177351	ˤnn	ˤn(I)&n/	ʕn (I)	n. f. abs. nom.	eye	
+177351	ˤnn	ˤnn/	ʕnn	n. m. sg. cstr. nom.	1) manservant	
+177351	ˤnn	ˤnn/	ʕnn	n. m. sg. abs. nom.	1) manservant	
+177352	x	?	?	?	?	
 # KTU 2.8 5						
-156524	ṣdq	ṣdq(I)/	ṣdq (I)	adj. sg. abs. nom.	justice	
-156525	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /y-t-n/ (cue: when)
-156526	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give, hand over, grant, bestow	
-156526	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give, hand over, grant, bestow	
-156526	ttn	!t==!(ytn[	/y-t-n/	vb G prefc. 2 f. sg.	to give, hand over, grant, bestow	
-156526	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give, hand over, grant, bestow	
-156526	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give, hand over, grant, bestow	
-156526	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give, hand over, grant, bestow	
-156527	ly	l(I)+y	l (I)	prep.	to	
-156528	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-156528	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
+177353	ṣdq	ṣdq(I)/	ṣdq (I)	adj. sg. abs. nom.	justice	
+177354	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /y-t-n/ (cue: when)
+177355	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give, hand over, grant, bestow	
+177355	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give, hand over, grant, bestow	
+177355	ttn	!t==!(ytn[	/y-t-n/	vb G prefc. 2 f. sg.	to give, hand over, grant, bestow	
+177355	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give, hand over, grant, bestow	
+177355	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give, hand over, grant, bestow	
+177355	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give, hand over, grant, bestow	
+177356	ly	l(I)+y	l (I)	prep.	to	
+177357	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+177357	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
+177357	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 # KTU 2.8 6						
-156529		?	?	?	?	
-156530	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-156531	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-156531	rgm	rgm/	rgm	n. m. sg. abs. gen.	3) voice	
-156532	w	w	w	conj.	and	
-156533	ydˤx	?	?	?	?	DULAT: NOT FOUND
+177358		?	?	?	?	
+177359	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+177360	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
+177360	rgm	rgm/	rgm	n. m. sg. abs. gen.	3) voice	
+177361	w	w	w	conj.	and	
+177362	ydˤx	?	?	?	?	DULAT: NOT FOUND

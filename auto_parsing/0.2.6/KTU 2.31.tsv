@@ -1,425 +1,455 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 1						
-157255	xx	?	?	?	?	
-157256	xxxx	?	?	?	?	
+178106	xx	?	?	?	?	
+178107	xxxx	?	?	?	?	
 # KTU 2.31 2						
-157257	xxx	?	?	?	?	
-157258	nky	?	?	?	?	DULAT: NOT FOUND
+178108	xxx	?	?	?	?	
+178109	nky	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 3						
-157259	xxqḥ	?	?	?	?	DULAT: NOT FOUND
-157260	ank	ank	ảnk	pers. pn.	I	
+178110	xxqḥ	?	?	?	?	DULAT: NOT FOUND
+178111	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 4						
-157261	xxxˤly	?	?	?	?	DULAT: NOT FOUND
-157262	k	+k	-k (I)			
-157262	k	~k	-k (II)			
-157262	k	k(III)	k (III)	Subordinating or completive functor	when	
-157262	k	k(I)	k (I)	prep.	like	
-157262	k	k(II)	k (II)	emph. functor	yes	
+178112	xxx	?	?	?	?	
+178113	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
+178114	k	+k	-k (I)			
+178114	k	~k	-k (II)			
+178114	k	k(III)	k (III)	Subordinating or completive functor	when	
+178114	k	k(I)	k (I)	prep.	like	
+178114	k	k(II)	k (II)	emph. functor	yes	
 # KTU 2.31 5						
-157263	xxxrt	?	?	?	?	DULAT: NOT FOUND
-157264	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-157264	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-157265	t	/t, /t=				DULAT: NOT FOUND
-157265	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
+178115	xxx	?	?	?	?	
+178116	rt	rt/	rt	PN sg. cstr. nom.	rt	
+178117	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+178117	bt	bt(III)/	bt (III)	n. m. pl. abs. gen.	length	
+178118	t	/t, /t=				DULAT: NOT FOUND
+178118	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 2.31 6						
-157266	xxx	?	?	?	?	
-157267	xxank	?	?	?	?	DULAT: NOT FOUND
+178119	xxx	?	?	?	?	
+178120	xx	?	?	?	?	
+178121	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 7						
-157268	xxx	?	?	?	?	
-157269	xxhn	?	?	?	?	DULAT: NOT FOUND
-157270	xx	?	?	?	?	
+178122	xxx	?	?	?	?	
+178123	xxhn	?	?	?	?	DULAT: NOT FOUND
+178124	xx	?	?	?	?	
 # KTU 2.31 8						
-157271	xxxiph	?	?	?	?	DULAT: NOT FOUND
-157272	w	w	w	conj.	and	
+178125	xxx	?	?	?	?	
+178126	iph	!(ʔ&i!ph(y[	/p-h-y/	vb G prefc. 1 c. sg.	to see	
+178127	w	w	w	conj.	and	
 # KTU 2.31 9						
-157273	xxx	?	?	?	?	
-157274	xxlr	?	?	?	?	DULAT: NOT FOUND
+178128	xxx	?	?	?	?	
+178129	xxlr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 10						
-157275	xxx	?	?	?	?	
-157276	xxxx	?	?	?	?	
+178130	xxx	?	?	?	?	
+178131	xxxx	?	?	?	?	
 # KTU 2.31 11						
-157277		?	?	?	?	
+178132		?	?	?	?	
 # KTU 2.31 12						
-157278		?	?	?	?	
+178133		?	?	?	?	
 # KTU 2.31 13						
-157279	xxx	?	?	?	?	
-157280	xxx	?	?	?	?	
-157281	xxx	?	?	?	?	
+178134	xxx	?	?	?	?	
+178135	xxx	?	?	?	?	
+178136	xxx	?	?	?	?	
 # KTU 2.31 14						
-157282	xxx	?	?	?	?	
-157283	xxx	?	?	?	?	
-157284	xx	?	?	?	?	
-157285	al	al(I)	ảl (I)	neg. functor	no	
-157285	al	al(II)	ảl (II)	pos. functor	surely	
-157286	tšt	!t!št[	/š-t/	vb G prefc.	to place, set, set up, leave	
+178137	xxx	?	?	?	?	
+178138	xxx	?	?	?	?	
+178139	xx	?	?	?	?	
+178140	al	al(I)	ảl (I)	neg. functor	no	
+178140	al	al(II)	ảl (II)	pos. functor	surely	
+178141	tšt	!t!št[	/š-t/	vb G prefc.	to place, set, set up, leave	
 # KTU 2.31 15						
-157287	xxxx	?	?	?	?	
-157288	xxxl	?	?	?	?	DULAT: NOT FOUND
-157289	ksiy	ksi/+y	ks/śủ	n. f. cstr. nom.	seat	
-157290	w	w	w	conj.	and	
-157291	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. nom.	first fruit	
-157291	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. 3 m. sg.	to wash > to cause to disappear	
-157291	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
-157291	prˤ	prˤ[:d	/p-r-ʕ/	vb D suffc. 3 m. sg.	to wash > to cause to disappear	
-157291	prˤ	prˤ[:d:w	/p-r-ʕ/	vb D suffc. 3 m. pl.	to wash > to cause to disappear	
-157291	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
-157291	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg. abs. nom.	first	
+178142	xxxx	?	?	?	?	
+178143	xxx	?	?	?	?	
+178144	l	l(I)	l (I)	prep.	to	
+178145	ksiy	ksi/+y	ks/śủ	n. f. cstr. gen.	seat	
+178146	w	w	w	conj.	and	
+178147	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. nom.	first fruit	
+178147	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. 3 m. sg.	to wash > to cause to disappear	
+178147	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
+178147	prˤ	prˤ[:d	/p-r-ʕ/	vb D suffc. 3 m. sg.	to wash > to cause to disappear	
+178147	prˤ	prˤ[:d:w	/p-r-ʕ/	vb D suffc. 3 m. pl.	to wash > to cause to disappear	
+178147	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
+178147	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg. abs. nom.	first	
 # KTU 2.31 16						
-157292	xxx	?	?	?	?	
-157293	xxx	?	?	?	?	
-157294	xxx	?	?	?	?	
-157295	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. nom.	first fruit	
-157295	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. 3 m. sg.	to wash > to cause to disappear	
-157295	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
-157295	prˤ	prˤ[:d	/p-r-ʕ/	vb D suffc. 3 m. sg.	to wash > to cause to disappear	
-157295	prˤ	prˤ[:d:w	/p-r-ʕ/	vb D suffc. 3 m. pl.	to wash > to cause to disappear	
-157295	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
-157295	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg. abs. nom.	first	
-157296	ank	ank	ảnk	pers. pn.	I	
-157297	š	š/	š	n. m. sg. abs. nom.	ram	
+178148	xxx	?	?	?	?	
+178149	xxx	?	?	?	?	
+178150	xxx	?	?	?	?	
+178151	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. nom.	first fruit	
+178151	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. 3 m. sg.	to wash > to cause to disappear	
+178151	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
+178151	prˤ	prˤ[:d	/p-r-ʕ/	vb D suffc. 3 m. sg.	to wash > to cause to disappear	
+178151	prˤ	prˤ[:d:w	/p-r-ʕ/	vb D suffc. 3 m. pl.	to wash > to cause to disappear	
+178151	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
+178151	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg. abs. nom.	first	
+178152	ank	ank	ảnk	pers. pn.	I	
+178153	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 2.31 17						
-157298	xxx	?	?	?	?	
-157299	xxx	?	?	?	?	
-157300	xxank	?	?	?	?	DULAT: NOT FOUND
-157301	nši	!!nš(ʔ&i[/	/n-š-ʔ/	vb G inf.	to raise, lift, help up	
-157301	nši	nš(ʔ&i[/	/n-š-ʔ/	vb G act. ptcpl. m. sg. abs. nom.	to raise, lift, help up	
-157302		?	?	?	?	
+178154	xxx	?	?	?	?	
+178155	xxx	?	?	?	?	
+178156	xx	?	?	?	?	
+178157	ank	ank	ảnk	pers. pn.	1) i e) emphatic of suff. pn	
+178158	nši	!!nš(ʔ[/&i	/n-š-ʔ/	vb G inf.	to raise, lift, help up	
+178158	nši	nš(ʔ[/&i	/n-š-ʔ/	vb G act. ptcpl. m. sg. abs. nom.	to raise, lift, help up	
+178159		?	?	?	?	
 # KTU 2.31 18						
-157303	xxx	?	?	?	?	
-157304	xxx	?	?	?	?	
-157305	xxxṯbr	?	?	?	?	DULAT: NOT FOUND
-157306	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
-157307	r	?	?	?	?	DULAT: NOT FOUND
+178160	xxx	?	?	?	?	
+178161	xxx	?	?	?	?	
+178162	xxx	?	?	?	?	
+178163	ṯbr	ṯbr[	/ṯ-b-r/	vb G suffc. 3 m. sg.	to break, shatter	
+178164	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
+178165	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 19						
-157308	xxx	?	?	?	?	
-157309	xxx	?	?	?	?	
-157310	xxxxyšt	?	?	?	?	DULAT: NOT FOUND
-157311	bxxx	?	?	?	?	DULAT: NOT FOUND
+178166	xxx	?	?	?	?	
+178167	xxx	?	?	?	?	
+178168	xxxx	?	?	?	?	
+178169	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place, set, set up, leave	
+178169	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to cause, leave (in a condition)	
+178170	bxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 20						
-157312	xxx	?	?	?	?	
-157313	xxx	?	?	?	?	
-157314	xxx	?	?	?	?	
-157315	xxxxxxx	?	?	?	?	
-157316	xxx	?	?	?	?	
-157317	xxx	?	?	?	?	
-157318	xxxḥd	?	?	?	?	DULAT: NOT FOUND
+178171	xxx	?	?	?	?	
+178172	xxx	?	?	?	?	
+178173	xxx	?	?	?	?	
+178174	xxxx	?	?	?	?	
+178175	xxx	?	?	?	?	
+178176	xxx	?	?	?	?	
+178177	xxx	?	?	?	?	
+178178	xxxḥd	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 21						
-157319	pkn	p(I)+kn	p (I)	conj. functor	and	
-157319	pkn	p(III)/+kn	p (III)	n. m. cstr. nom.	mouth	
-157319	pkn	p(III)&k/+n	p (III)	n. m. cstr. nom.	mouth	
+178179	pkn	p(I)+kn	p (I)	conj. functor	and	
+178179	pkn	p(III)/+kn	p (III)	n. m. cstr. nom.	mouth	
+178179	pkn	p(III)&k/+n	p (III)	n. m. cstr. nom.	mouth	
 # KTU 2.31 22						
-157320	š	š/	š	n. m. sg. abs. nom.	ram	
-157321	an	an(I)	ản (I)	pers. pn.	1) i b) emph. subj. in VC	
-157321	an	an(II)	ản (II)	adv.	wherever	
+178180	š	š/	š	n. m. sg. abs. nom.	ram	
+178181	an	an(I)	ản (I)	pers. pn.	1) i b) emph. subj. in VC	
+178181	an	an(II)	ản (II)	adv.	wherever	
 # KTU 2.31 23						
-157322	xlm	?	?	?	?	DULAT: NOT FOUND
-157323	ank	ank	ảnk	pers. pn.	I	
+178182	xlm	?	?	?	?	DULAT: NOT FOUND
+178183	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 24						
-157324	ḥ	ḥ/	ḥ	n. m. cstr. nom.	life	
-157325	asrm	asr/m	ảsr	n. m. pl. cstr. gen.	prisoner	
+178184	ḥ	ḥ/	ḥ	n. m. cstr. nom.	life	
+178185	asrm	asr/m	ảsr	n. m. pl. cstr. gen.	prisoner	
 # KTU 2.31 25						
-157326	dbḥn	dbḥ/+n	dbḥ	n. m. cstr. gen.	3) month name	
+178186	dbḥn	dbḥ/+n	dbḥ	n. m. cstr. gen.	3) month name	
 # KTU 2.31 26						
-157327	rḫ	?	?	?	?	DULAT: NOT FOUND
-157328	w	w	w	conj.	and	
-157329	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to offer	
+178187	rḫ	?	?	?	?	DULAT: NOT FOUND
+178188	w	w	w	conj.	and	
+178189	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to offer	
 # KTU 2.31 27						
-157330	b	b	b	prep.	in	
-157331	bb	bb/	bb	PN sg. abs. gen.	bb	
-157332	xxx	?	?	?	?	
+178190	b	b	b	prep.	in	
+178191	bb	bb/	bb	PN sg. abs. gen.	bb	
+178192	xxx	?	?	?	?	
 # KTU 2.31 28						
-157333		?	?	?	?	
+178193		?	?	?	?	
 # KTU 2.31 29						
-157334		?	?	?	?	
+178194		?	?	?	?	
 # KTU 2.31 30						
-157335	m	m	m(h)	pers. pn.	what?	
+178195	m	m	m(h)	pers. pn.	what?	
 # KTU 2.31 31						
-157336	q	?	?	?	?	DULAT: NOT FOUND
-157337	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. nom.	1) (light war) chariot a) PN mrkbt (one) chariot	
-157337	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. nom.	1) (light war) chariot a) PN mrkbt (one) chariot	
+178196	q	?	?	?	?	DULAT: NOT FOUND
+178197	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. nom.	1) (light war) chariot a) PN mrkbt (one) chariot	
+178197	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. nom.	1) (light war) chariot a) PN mrkbt (one) chariot	
 # KTU 2.31 32						
-157338		?	?	?	?	
+178198		?	?	?	?	
 # KTU 2.31 33						
-157339	w	w	w	conj.	and	
-157340	nrm	nr/+m(I)	nr	n. m. cstr. nom.	sheen	
-157340	nrm	nr[+m(I)	/n-r/	vb G suffc.	to shine	
+178199	w	w	w	conj.	and	
+178200	nrm	nr/+m(I)	nr	n. m. cstr. nom.	sheen	
+178200	nrm	nrm[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.31 34						
-157341	x	?	?	?	?	
+178201	x	?	?	?	?	
 # KTU 2.31 35						
-157342	iy	iy	ỉy	interr. adv.	where?	
-157343	lmx	?	?	?	?	DULAT: NOT FOUND
-157344	b	b	b	prep.	in	
-157345	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
-157345	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
+178202	iy	iy	ỉy	interr. adv.	where?	
+178203	lmx	?	?	?	?	DULAT: NOT FOUND
+178204		?	?	?	?	
+178205	b	b	b	prep.	in	
+178206	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
+178206	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
 # KTU 2.31 36						
-157346	x	?	?	?	?	
-157347	trxx	?	?	?	?	DULAT: NOT FOUND
-157348	gpn	gpn(I)/	gpn (I)	n. m. sg. abs. nom.	(vine-)stock	
-157348	gpn	gpn(II)/	gpn (II)	n. m. sg. abs. nom.	harness	
-157349	lk	l(I)+k	l (I)	prep.	to	
+178207	x	?	?	?	?	
+178208	trxx	?	?	?	?	DULAT: NOT FOUND
+178209	gpn	gpn(I)/	gpn (I)	n. m. sg. abs. nom.	(vine-)stock	
+178209	gpn	gpn(II)/	gpn (II)	n. m. sg. abs. nom.	harness	
+178210	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.31 37						
-157350	d	d	d	det. or rel. functor	the one(s) of	
-157351	kmynxxx	?	?	?	?	DULAT: NOT FOUND
+178211	d	d	d	det. or rel. functor	the one(s) of	
+178212	kmyn	kmy/+n	kmy	PN sg. cstr. nom.	kmy	
+178213	xxx	?	?	?	?	
 # KTU 2.31 38						
-157352	w	w	w	conj.	and	
-157353	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out	
-157353	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
-157354	ank	ank	ảnk	pers. pn.	I	
-157355	x	?	?	?	?	
+178214	w	w	w	conj.	and	
+178215		?	?	?	?	
+178216	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out	
+178216	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
+178217	ank	ank	ảnk	pers. pn.	I	
+178218	x	?	?	?	?	
+178219		?	?	?	?	
 # KTU 2.31 39						
-157356	dy	d+y	d	det. or rel. functor	the one(s) of	
-157357	w	w	w	conj.	and	
-157358	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. nom.	first fruit	
-157358	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. 3 m. sg.	to wash > to cause to disappear	
-157358	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
-157358	prˤ	prˤ[:d	/p-r-ʕ/	vb D suffc. 3 m. sg.	to wash > to cause to disappear	
-157358	prˤ	prˤ[:d:w	/p-r-ʕ/	vb D suffc. 3 m. pl.	to wash > to cause to disappear	
-157358	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
-157358	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg. abs. nom.	first	
-157359	bxxx	?	?	?	?	DULAT: NOT FOUND
+178220	dy	d+y	d	det. or rel. functor	the one(s) of	
+178221	w	w	w	conj.	and	
+178222	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. nom.	first fruit	
+178222	prˤ	prˤ[	/p-r-ʕ/	vb G suffc. 3 m. sg.	to wash > to cause to disappear	
+178222	prˤ	!!prˤ[/	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
+178222	prˤ	prˤ[:d	/p-r-ʕ/	vb D suffc. 3 m. sg.	to wash > to cause to disappear	
+178222	prˤ	prˤ[:d:w	/p-r-ʕ/	vb D suffc. 3 m. pl.	to wash > to cause to disappear	
+178222	prˤ	!!prˤ[/	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
+178222	prˤ	prˤ(II)/	prʕ (II)	adj. m. sg. abs. nom.	first	
+178223	bxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 40						
-157360	x	?	?	?	?	
+178224	x	?	?	?	?	
 # KTU 2.31 41						
-157361	xxx	?	?	?	?	
-157362	xxx	?	?	?	?	
-157363	xxxytn	?	?	?	?	DULAT: NOT FOUND
-157364	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157364	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-157365	ank	ank	ảnk	pers. pn.	1) i c) + inf. abs	
-157366	iphn	!(ʔ&i!ph(y[+n	/p-h-y/	vb G prefc. 1 c. sg.	to see	
+178225	xxx	?	?	?	?	
+178226	xxx	?	?	?	?	
+178227	xxx	?	?	?	?	
+178228	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
+178228	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+178229	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+178230	ank	ank	ảnk	pers. pn.	1) i c) + inf. abs	
+178231	iphn	!(ʔ&i!ph(y[+n	/p-h-y/	vb G prefc. 1 c. sg.	to see	
 # KTU 2.31 42						
-157367	xxx	?	?	?	?	
-157368	xxx	?	?	?	?	
-157369	xxx	?	?	?	?	
-157370	ank	ank	ảnk	pers. pn.	I	
-157371	ixxxslm	?	?	?	?	DULAT: NOT FOUND
-157372	w	w	w	conj.	and	
-157373	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
-157373	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
-157373	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
+178232	xxx	?	?	?	?	
+178233	xxx	?	?	?	?	
+178234	xxx	?	?	?	?	
+178235	ank	ank	ảnk	pers. pn.	I	
+178236	ixxxslm	?	?	?	?	DULAT: NOT FOUND
+178237	w	w	w	conj.	and	
+178238	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
+178238	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
+178238	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
 # KTU 2.31 43						
-157374	xxx	?	?	?	?	
-157375	xxx	?	?	?	?	
-157376	xxxx	?	?	?	?	
-157377	hw	hw	hw	pers. pn.	he	
-157378	xy	?	?	?	?	DULAT: NOT FOUND
-157379	hxxr	?	?	?	?	DULAT: NOT FOUND
-157380	w	w	w	conj.	and	
-157381	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
-157381	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
-157381	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
-157381	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
-157381	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-157382	ank	ank	ảnk	pers. pn.	I	
+178239	xxx	?	?	?	?	
+178240	xxx	?	?	?	?	
+178241	xxxx	?	?	?	?	
+178242	hw	hw	hw	pers. pn.	he	
+178243	xy	?	?	?	?	DULAT: NOT FOUND
+178244	hxxr	?	?	?	?	DULAT: NOT FOUND
+178245	w	w	w	conj.	and	
+178246	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+178246	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+178246	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+178246	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+178246	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+178247	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 44						
-157383	xxx	?	?	?	?	
-157384	xxx	?	?	?	?	
-157385	xxidd	?	?	?	?	DULAT: NOT FOUND
-157386	xxxxxl	?	?	?	?	DULAT: NOT FOUND
-157387	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. nom.	ʾAṯiratu/Athirat/Asherah/El’s wife	
-157388	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+178248	xxx	?	?	?	?	
+178249	xxx	?	?	?	?	
+178250	xx	?	?	?	?	
+178251	idd	id+d	ỉd	conj.	when	
+178252	xxxxx	?	?	?	?	
+178253	l	l(I)	l (I)	prep.	to	
+178254	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
+178255	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 2.31 45						
-157389	xxx	?	?	?	?	
-157390	xxx	?	?	?	?	
-157391	xxptm	?	?	?	?	DULAT: NOT FOUND
-157392	lḥt	lḥ(II)/t=	lḥ (II)	n. f. pl. abs. nom.	missive	
-157392	lḥt	lḥ(I)/t=	lḥ (I)	n. f. pl. abs. nom.	cheek	
-157393		?	?	?	?	
+178256	xxx	?	?	?	?	
+178257	xxx	?	?	?	?	
+178258	xxptm	?	?	?	?	DULAT: NOT FOUND
+178259	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
+178259	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+178260		?	?	?	?	
 # KTU 2.31 46						
-157394	xxx	?	?	?	?	
-157395	xxx	?	?	?	?	
-157396	xxrgm	?	?	?	?	DULAT: NOT FOUND
-157397	hy	hy	hy	pers. pn.	she	
-157398	lyxxy	?	?	?	?	DULAT: NOT FOUND
-157399	ilakk	!(ʔ&i!l(ʔ&ak[+k	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
+178261	xxx	?	?	?	?	
+178262	xxx	?	?	?	?	
+178263	xx	?	?	?	?	
+178264	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+178265	hy	hy	hy	pers. pn.	she	
+178266	lyxxy	?	?	?	?	DULAT: NOT FOUND
+178267	ilakk	!(ʔ&i!l(ʔ&ak[+k	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
 # KTU 2.31 47						
-157400	xxx	?	?	?	?	
-157401	xxx	?	?	?	?	
-157402	xxlk	?	?	?	?	DULAT: NOT FOUND
-157403	yritn	yr(ʔ&i[tn	/y-r-ʔ/	vb G suffc. 2 f. pl.	to be afraid	
-157404	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
-157404	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
-157405	hy	hy	hy	pers. pn.	she	
-157406	w	w	w	conj.	and	
-157407	kn	k(I)&n	-k (I)	pers. pn./morph.	your(s)	
-157407	kn	kn(II)	kn (II)	adv.	thus	
-157407	kn	kn(I)/	kn (I)	adj. m. sg. abs. nom.	fixed	
+178268	xxx	?	?	?	?	
+178269	xxx	?	?	?	?	
+178270	xx	?	?	?	?	
+178271	lk	l(I)+k	l (I)	prep.	to	
+178272	yritn	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-r-ʔ/ - to be afraid
+178273	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
+178273	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
+178274	hy	hy	hy	pers. pn.	she	
+178275	w	w	w	conj.	and	
+178276	kn	k(I)&n	-k (I)	pers. pn./morph.	your(s)	
+178276	kn	kn(II)	kn (II)	adv.	thus	
+178276	kn	kn(I)/	kn (I)	adj. m. sg. abs. nom.	fixed	
 # KTU 2.31 48						
-157408	xxx	?	?	?	?	
-157409	xxx	?	?	?	?	
-157410	xx	?	?	?	?	
-157411	ḥln	ḥln/	ḥln	n. m. sg. abs. nom.	window	
-157412	d	d	d	det. or rel. functor	the one(s) of	
-157413	b	b	b	prep.	in	
-157414	dmt	dm(t(I)/t	dmt (I)	n. f. sg. cstr. gen.	tower	
-157415	um	um/	ủm	n. f. sg. cstr. gen.	mother	
-157416	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+178277	xxx	?	?	?	?	
+178278	xxx	?	?	?	?	
+178279	xx	?	?	?	?	
+178280	ḥln	ḥln/	ḥln	n. m. sg. abs. nom.	window	
+178281	d	d	d	det. or rel. functor	the one(s) of	
+178282	b	b	b	prep.	in	
+178283	dmt	dm(t(I)/t	dmt (I)	n. f. sg. cstr. gen.	tower	
+178284	um	um/	ủm	n. f. sg. cstr. gen.	mother	
+178285	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 2.31 49						
-157417	xxx	?	?	?	?	
-157418	xxxxḏḏyn	?	?	?	?	DULAT: NOT FOUND
-157419	bˤd	bˤd	bʕd	adv. or prep.	behind	
-157420	ḏḏyn	ḏḏyn/	ḏḏyn	PN sg. abs. gen.	ḏḏyn	
-157421	w	w	w	conj.	and	
-157422	l	l(I)	l (I)	prep.	to	
+178286	xxx	?	?	?	?	
+178287	xxxx	?	?	?	?	
+178288	ḏḏyn	ḏḏyn/	ḏḏyn	PN sg. abs. nom.	ḏḏyn	
+178289	bˤd	bˤd	bʕd	adv. or prep.	behind	
+178290	ḏḏyn	ḏḏyn/	ḏḏyn	PN sg. abs. gen.	ḏḏyn	
+178291	w	w	w	conj.	and	
+178292	l	l(I)	l (I)	prep.	to	
 # KTU 2.31 50						
-157423	xxx	?	?	?	?	
-157424	xxxxk	?	?	?	?	DULAT: NOT FOUND
-157425	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. nom.	lady	
-157426	bhtt	?	?	?	?	DULAT: NOT FOUND
-157427	ank	ank	ảnk	pers. pn.	I	
+178293	xxx	?	?	?	?	
+178294	xxxx	?	?	?	?	
+178295	k	+k	-k (I)			
+178295	k	~k	-k (II)			
+178295	k	k(III)	k (III)	Subordinating or completive functor	when	
+178295	k	k(I)	k (I)	prep.	like	
+178295	k	k(II)	k (II)	emph. functor	yes	
+178296	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. nom.	lady	
+178297	bhtt	?	?	?	?	DULAT: NOT FOUND
+178298	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 51						
-157428	xxx	?	?	?	?	
-157429	xxx	?	?	?	?	
-157430	xy	?	?	?	?	DULAT: NOT FOUND
-157431	l	l(I)	l (I)	prep.	to	
-157431	l	l(II)	l (II)	adv.	no	
-157431	l	l(III)	l (III)	functor	certainly	
-157432	ihbt	(ʔ&ihb[t	/ʔ-h-b/	vb G suffc. 1 c. sg.	to love	
-157432	ihbt	(ʔ&ihb[t:d	/ʔ-h-b/	vb D suffc. 1 c. sg.	to love	
-157432	ihbt	ahb(t/t	ảhbt	n. f. sg. abs. nom.	love	
-157433	ybn	!y!bn(y[	/b-n-y/	vb G prefc. 3 m. sg.	to build	
-157433	ybn	!y!(]n]bn(y[	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
-157433	ybn	!y!bn(y[:pass	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
-157434	rgmy	rgm/+y	rgm	n. m. cstr. nom.	word	
+178299	xxx	?	?	?	?	
+178300	xxx	?	?	?	?	
+178301	xy	?	?	?	?	DULAT: NOT FOUND
+178302	l	l(I)	l (I)	prep.	to	
+178302	l	l(II)	l (II)	adv.	no	
+178302	l	l(III)	l (III)	functor	certainly	
+178303	ihbt	(ʔ&ihb[t	/ʔ-h-b/	vb G suffc. 1 c. sg.	to love	
+178303	ihbt	(ʔ&ihb[t:d	/ʔ-h-b/	vb D suffc. 1 c. sg.	to love	
+178303	ihbt	(a&ihb(t/t	ảhbt	n. f. sg. abs. nom.	love	
+178304	ybn	!y!bn(y[	/b-n-y/	vb G prefc. 3 m. sg.	to build	
+178304	ybn	!y!(]n]bn(y[	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
+178304	ybn	!y!bn(y[:pass	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
+178305	rgmy	rgm/+y	rgm	n. m. cstr. nom.	word	
 # KTU 2.31 52						
-157435	xxx	?	?	?	?	
-157436	xxxxxxškb	?	?	?	?	DULAT: NOT FOUND
-157437	w	w	w	conj.	and	
-157438	my	my(I)	my (I)	pn. interr.	who?	
-157439	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. nom.	message	
+178306	xxx	?	?	?	?	
+178307	xxxxxxškb	?	?	?	?	DULAT: NOT FOUND
+178308	w	w	w	conj.	and	
+178309	my	my(I)	my (I)	pn. interr.	who?	
+178310	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. nom.	message	
 # KTU 2.31 53						
-157440	xxx	?	?	?	?	
-157441	xxx	?	?	?	?	
-157442	xxxḥl	?	?	?	?	DULAT: NOT FOUND
-157443	w	w	w	conj.	and	
-157444	tšˤdn	?	?	?	?	DULAT: NOT FOUND
-157445	npṣh	npṣ/+h	npṣ	n. m. cstr. nom.	personal belongings	
+178311	xxx	?	?	?	?	
+178312	xxx	?	?	?	?	
+178313	xxxḥl	?	?	?	?	DULAT: NOT FOUND
+178314	w	w	w	conj.	and	
+178315	tšˤdn	?	?	?	?	DULAT: NOT FOUND
+178316	npṣh	npṣ/+h	npṣ	n. m. cstr. nom.	personal belongings	
 # KTU 2.31 54						
-157446	xxx	?	?	?	?	
-157447	xxx	?	?	?	?	
-157448	xxxx	?	?	?	?	
-157449	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-157450	hw	hw	hw	pers. pn.	he	
-157451	xxn	?	?	?	?	DULAT: NOT FOUND
-157452	w	w	w	conj.	and	
-157453	aspt	(ʔ&asp[t	/ʔ-s-p/	vb G suffc. 1 c. sg.	to gather	
-157453	aspt	(ʔ&asp[t:d	/ʔ-s-p/	vb D suffc. 1 c. sg.	to gather	
-157454	klh	kl/+h	kl	n. m. cstr. nom.	totality (of)	
+178317	xxx	?	?	?	?	
+178318	xxx	?	?	?	?	
+178319	xxxx	?	?	?	?	
+178320	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+178321	hw	hw	hw	pers. pn.	he	
+178322	xxn	?	?	?	?	DULAT: NOT FOUND
+178323	w	w	w	conj.	and	
+178324	aspt	(ʔ&asp[t	/ʔ-s-p/	vb G suffc. 1 c. sg.	to gather	
+178324	aspt	(ʔ&asp[t:d	/ʔ-s-p/	vb D suffc. 1 c. sg.	to gather	
+178325	klh	kl/+h	kl	n. m. cstr. nom.	totality (of)	
 # KTU 2.31 55						
-157455	xxx	?	?	?	?	
-157456	xxx	?	?	?	?	
-157457	xxx	?	?	?	?	
-157458	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-157459	ank	ank	ảnk	pers. pn.	I	
-157460	lxxdrny	?	?	?	?	DULAT: NOT FOUND
+178326	xxx	?	?	?	?	
+178327	xxx	?	?	?	?	
+178328	xxx	?	?	?	?	
+178329	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+178330	ank	ank	ảnk	pers. pn.	I	
+178331	lxxdrny	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 56						
-157461	xxx	?	?	?	?	
-157462	xxx	?	?	?	?	
-157463	xxx	?	?	?	?	
-157464	xṯm	?	?	?	?	DULAT: NOT FOUND
-157465	hw	hw	hw	pers. pn.	he	
-157466	ixxxxty	?	?	?	?	DULAT: NOT FOUND
+178332	xxx	?	?	?	?	
+178333	xxx	?	?	?	?	
+178334	xxx	?	?	?	?	
+178335	xṯm	?	?	?	?	DULAT: NOT FOUND
+178336	hw	hw	hw	pers. pn.	he	
+178337	ixxxxty	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 57						
-157467	xxx	?	?	?	?	
-157468	xxx	?	?	?	?	
-157469	xxx	?	?	?	?	
-157470	ibˤr	?	?	?	?	DULAT: NOT FOUND
-157471	ank	ank	ảnk	pers. pn.	I	
-157472	aḏmr	?	?	?	?	DULAT: NOT FOUND
+178338	xxx	?	?	?	?	
+178339	xxx	?	?	?	?	
+178340	xxx	?	?	?	?	
+178341	ibˤr	?	?	?	?	DULAT: NOT FOUND
+178342	ank	ank	ảnk	pers. pn.	I	
+178343	aḏmr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 58						
-157473	xxx	?	?	?	?	
-157474	xxx	?	?	?	?	
-157475	xx	?	?	?	?	
-157476	w	w	w	conj.	and	
-157477	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to reign	
-157477	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. nom.	kingdom (power and territory)	
-157478	w	w	w	conj.	and	
-157479	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-157480	xxxṯ	?	?	?	?	DULAT: NOT FOUND
+178344	xxx	?	?	?	?	
+178345	xxx	?	?	?	?	
+178346	xx	?	?	?	?	
+178347	w	w	w	conj.	and	
+178348	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+178349	w	w	w	conj.	and	
+178350	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+178351	xxxṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 59						
-157481	xxx	?	?	?	?	
-157482	xxx	?	?	?	?	
-157483	xxm	?	?	?	?	DULAT: NOT FOUND
-157484	ank	ank	ảnk	pers. pn.	I	
-157485	bˤr	bˤr/	bʕr	adj. m. abs. nom.	burnt	
-157486	xxxxny	?	?	?	?	DULAT: NOT FOUND
+178352	xxx	?	?	?	?	
+178353	xxx	?	?	?	?	
+178354	xxm	?	?	?	?	DULAT: NOT FOUND
+178355	ank	ank	ảnk	pers. pn.	I	
+178356		?	?	?	?	
+178357	bˤr	bˤr/	bʕr	adj. m. abs. nom.	burnt	
+178358	xxxxny	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 60						
-157487	xxx	?	?	?	?	
-157488	xxx	?	?	?	?	
-157489	xxxn	?	?	?	?	DULAT: NOT FOUND
-157490	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	house	
-157491	xxxx	?	?	?	?	
-157492	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-157492	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+178359	xxx	?	?	?	?	
+178360	xxx	?	?	?	?	
+178361	xxxn	?	?	?	?	DULAT: NOT FOUND
+178362	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	house	
+178363	xxxx	?	?	?	?	
+178364	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+178364	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 2.31 61						
-157493	xxx	?	?	?	?	
-157494	xxx	?	?	?	?	
-157495	xmy	?	?	?	?	DULAT: NOT FOUND
-157496	bdxxxy	?	?	?	?	DULAT: NOT FOUND
-157497		?	?	?	?	
+178365	xxx	?	?	?	?	
+178366	xxx	?	?	?	?	
+178367	xmy	?	?	?	?	DULAT: NOT FOUND
+178368	bdxxxy	?	?	?	?	DULAT: NOT FOUND
+178369		?	?	?	?	
 # KTU 2.31 62						
-157498	xxx	?	?	?	?	
-157499	xxx	?	?	?	?	
-157500	xxˤm	?	?	?	?	DULAT: NOT FOUND
-157501	w	w	w	conj.	and	
-157502	hxxxxyt	?	?	?	?	DULAT: NOT FOUND
-157503	w	w	w	conj.	and	
-157504	x	?	?	?	?	
+178370	xxx	?	?	?	?	
+178371	xxx	?	?	?	?	
+178372	xxˤm	?	?	?	?	DULAT: NOT FOUND
+178373	w	w	w	conj.	and	
+178374	hxxxxyt	?	?	?	?	DULAT: NOT FOUND
+178375	w	w	w	conj.	and	
+178376	x	?	?	?	?	
 # KTU 2.31 63						
-157505	xxx	?	?	?	?	
-157506	xxx	?	?	?	?	
-157507	xxy	?	?	?	?	DULAT: NOT FOUND
-157508	al	al(I)	ảl (I)	neg. functor	no	
-157508	al	al(II)	ảl (II)	pos. functor	surely	
-157509	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
-157510	xxw	?	?	?	?	DULAT: NOT FOUND
-157511	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-157511	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-157511	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-157511	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-157512	ḥxky	?	?	?	?	DULAT: NOT FOUND
+178377	xxx	?	?	?	?	
+178378	xxx	?	?	?	?	
+178379	xxy	?	?	?	?	DULAT: NOT FOUND
+178380	al	al(I)	ảl (I)	neg. functor	no	
+178380	al	al(II)	ảl (II)	pos. functor	surely	
+178381	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
+178382	xx	?	?	?	?	
+178383	w	w	w	conj.	and	
+178384	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+178384	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+178384	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+178384	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
+178385	ḥxky	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 64						
-157513	xxx	?	?	?	?	
-157514	xxxxṣlm	?	?	?	?	DULAT: NOT FOUND
-157515	pny	pn(m/+y	pnm	n. m. pl. cstr. nom.	face	
-157516	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
+178386	xxx	?	?	?	?	
+178387	xxxx	?	?	?	?	
+178388	ṣlm	ṣlm/	ṣlm	n. m. sg. cstr. nom.	image	
+178389	pny	pn(m&/+y	pnm	n. m. pl. cstr. gen.	face	
+178390		?	?	?	?	
+178391	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go	
 # KTU 2.31 65						
-157517	xxx	?	?	?	?	
-157518	xxxxrḥbn	?	?	?	?	DULAT: NOT FOUND
-157519	hm	hm(II)	hm (II)	conj./interr. functor	if	
-157519	hm	hm(I)	hm (I)	pers. pn.	they	
-157520	l	l(I)	l (I)	prep.	to	
-157521	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. gen.	back part (of the head)	
-157522	xt	?	?	?	?	DULAT: NOT FOUND
+178392	xxx	?	?	?	?	
+178393	xxxx	?	?	?	?	
+178394	rḥbn	rḥbn/	rḥbn	TN sg. abs. nom.	rḥbn	
+178394	rḥbn	rḥb(I)/+n	rḥb (I)	adj. m. cstr. nom.	wide	
+178395	hm	hm(II)	hm (II)	conj./interr. functor	if	
+178395	hm	hm(I)	hm (I)	pers. pn.	they	
+178396	l	l(I)	l (I)	prep.	to	
+178397	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. gen.	back part (of the head)	
+178398	xt	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 66						
-157523	xxx	?	?	?	?	
-157524	xxxx	?	?	?	?	
+178399	xxx	?	?	?	?	
+178400	xxxx	?	?	?	?	
 # KTU 2.31 67						
-157525	xxx	?	?	?	?	
-157526	xxx	?	?	?	?	
-157527	npšy	npš(I)/+y	npš (I)	n. f. cstr. nom.	throat	
-157528	w	w	w	conj.	and	
-157529	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
-157529	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
-157530	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-157530	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-157531	xxxn	?	?	?	?	DULAT: NOT FOUND
+178401	xxx	?	?	?	?	
+178402	xxx	?	?	?	?	
+178403	npšy	npš(I)/+y	npš (I)	n. f. cstr. nom.	throat	
+178404	w	w	w	conj.	and	
+178405	ydn	!y!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
+178405	ydn	!y!(ydn[	/y-d-n/	vb G prefc. 3 m. sg.	?	
+178406	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+178406	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+178407	xxxn	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.31 68						
-157532	xxx	?	?	?	?	
-157533	xxx	?	?	?	?	
-157534	xm	?	?	?	?	DULAT: NOT FOUND
-157535	k	+k	-k (I)			
-157535	k	~k	-k (II)			
-157535	k	k(III)	k (III)	Subordinating or completive functor	when	
-157535	k	k(I)	k (I)	prep.	like	
-157535	k	k(II)	k (II)	emph. functor	yes	
-157536	yn	yn/	yn	n. m. sg. abs. nom.	wine	
-157537	hm	hm(II)	hm (II)	conj./interr. functor	if	
-157537	hm	hm(I)	hm (I)	pers. pn.	they	
-157538	l	l(I)	l (I)	prep.	to	
-157538	l	l(II)	l (II)	adv.	no	
-157538	l	l(III)	l (III)	functor	certainly	
-157539	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
-157540	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
-157540	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
-157541	lh	l(I)+h	l (I)	prep.	to	
+178408	xxx	?	?	?	?	
+178409	xxx	?	?	?	?	
+178410	xm	?	?	?	?	DULAT: NOT FOUND
+178411	k	+k	-k (I)			
+178411	k	~k	-k (II)			
+178411	k	k(III)	k (III)	Subordinating or completive functor	when	
+178411	k	k(I)	k (I)	prep.	like	
+178411	k	k(II)	k (II)	emph. functor	yes	
+178412	yn	yn/	yn	n. m. sg. abs. nom.	wine	
+178413	hm	hm(II)	hm (II)	conj./interr. functor	if	
+178413	hm	hm(I)	hm (I)	pers. pn.	they	
+178414	l	l(I)	l (I)	prep.	to	
+178414	l	l(II)	l (II)	adv.	no	
+178414	l	l(III)	l (III)	functor	certainly	
+178415	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	
+178416	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+178416	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
+178417	lh	l(I)+h	l (I)	prep.	to	

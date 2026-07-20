@@ -1,45 +1,44 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.75 1						
-149845	k	+k	-k (I)			
-149845	k	~k	-k (II)			
-149845	k	k(III)	k (III)	Subordinating or completive functor	when	
-149845	k	k(I)	k (I)	prep.	like	
-149845	k	k(II)	k (II)	emph. functor	yes	
-149846	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. nom.	5) used as a preposition	
-149847	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-149847	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	1) sea	
+170295	k	+k	-k (I)			
+170295	k	~k	-k (II)			
+170295	k	k(III)	k (III)	Subordinating or completive functor	when	
+170295	k	k(I)	k (I)	prep.	like	
+170295	k	k(II)	k (II)	emph. functor	yes	
+170296	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. nom.	5) used as a preposition	
+170297	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+170297	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	1) sea	
 # KTU 1.75 2						
-149848	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. gen.	hand	
-149849	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
-149849	nhr	nhr/	nhr	n. m. sg. abs. gen.	2) alternative DN of the god ym	
+170298	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. gen.	hand	
+170299	nhr	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
+170299	nhr	nhr/	nhr	n. m. sg. abs. gen.	2) alternative DN of the god ym	
 # KTU 1.75 3						
-149850	trġt	trġt	trġt	?		
+170300	trġt	trġt	trġt	?		
 # KTU 1.75 4						
-149851	h	+h, +h=	-h (I)	suff. pn. morph.	his /her (hers) / its	DULAT: NOT FOUND
-149851	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
-149852	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
+170301	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
+170302	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
 # KTU 1.75 5						
-149853	ilnx	?	?	?	?	DULAT: NOT FOUND
+170303	ilnx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.75 6						
-149854	xḫ	?	?	?	?	DULAT: NOT FOUND
+170304	xḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.75 7						
-149855	dt	d+t	d	det. or rel. functor	the one(s) of	
+170305	dt	d+t	d	det. or rel. functor	the one(s) of	
 # KTU 1.75 8						
-149856	ksḥṯ	?	?	?	?	DULAT: NOT FOUND
+170306	ksḥṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.75 9						
-149857	mnty	mn(t(I)/t+y	mnt (I)	n. f. sg. cstr. nom.	portion	
+170307	mnty	mn(t(I)/t+y	mnt (I)	n. f. sg. cstr. nom.	portion	
 # KTU 1.75 10						
-149858	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
-149858	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-149858	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
-149858	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
-149859	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	DULAT quote in spr (I) (cue: scribe)
-149860	ḫbb	ḫbb/	ḫbb	PN sg. abs. nom.	ḫbb	
+170308	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+170308	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+170308	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+170308	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+170309	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	DULAT quote in spr (I) (cue: scribe)
+170310	ḫbb	ḫbb/	ḫbb	PN sg. abs. nom.	ḫbb	
 # KTU 1.75 11						
-149861	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-149861	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-149861	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-149862	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	3) month name	
+170311	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+170311	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+170311	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+170312	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	3) month name	
 # KTU 1.75 12						
-149863	x	?	?	?	?	
-149864	ˤbdssm	ˤbdssm/	ʕbdssm	PN sg. abs. nom.	ʿbdssm	
+170313	x	?	?	?	?	
+170314	ˤbdssm	ˤbdssm/	ʕbdssm	PN sg. abs. nom.	ʿbdssm	

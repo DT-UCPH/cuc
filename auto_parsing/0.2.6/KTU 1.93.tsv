@@ -1,55 +1,51 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.93 1						
-151462	arḫ	arḫ/	ảrḫ	n. f. sg. abs. nom.	cow	
-151463	td	ndd[	/n-d-d/	vb G prefc.	to go	
-151463	td	!t!(yd(y[	/y-d-y/ (I)	vb G prefc. 3 f. sg.	to throw	
-151463	td	!t=!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 m. sg.	to throw	
-151463	td	!t==!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 f. sg.	to throw	
-151463	td	!t!(yd(y[	/y-d-y/ (I)	vb G prefc. 3 m. du.	to throw	
-151463	td	!t!(yd(y[:w	/y-d-y/ (I)	vb G prefc. 3 m. pl.	to throw	
-151463	td	!t===!(yd(y[	/y-d-y/ (I)	vb G prefc. 2 m. pl.	to throw	
-151463	td	nd[	/n-d(-y)/	vb G prefc.	to throw, emit	
-151464	rgm	rgm/	rgm	n. m. sg. abs. nom.	3) voice	DULAT quote in rgm (cue: voice)
-151465	b	b	b	prep.	in	
-151466	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
-151466	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
+172009	arḫ	arḫ/	ảrḫ	n. f. sg. abs. nom.	cow	
+172010	td	!t!(nd[	/n-d(-y)/	vb G prefc.	to throw, emit	
+172011	rgm	rgm/	rgm	n. m. sg. abs. nom.	3) voice	DULAT quote in rgm (cue: voice)
+172012	b	b	b	prep.	in	
+172013	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
+172013	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
 # KTU 1.93 2						
-151467	b	b	b	prep.	in	
-151468	py	p(III)/+y	p (III)	n. m. cstr. gen.	1) mouth	
-151469	tˤlgt	tˤlg(t/t	tʕlgt	n. f. sg. abs. nom.	bleat(ing)	
-151470	b	b	b	prep.	in	
-151471	lšn	lšn/	lšn	n. f. sg. cstr. gen.	1) tongue	
+172014	b	b	b	prep.	in	
+172015	py	p(III)/+y	p (III)	n. m. cstr. gen.	1) mouth	
+172016	tˤlgt	tˤlg(t/t	tʕlgt	n. f. sg. abs. nom.	bleat(ing)	
+172017	b	b	b	prep.	in	
+172018	lšn	lšn/	lšn	n. f. sg. cstr. gen.	1) tongue	
 # KTU 1.93 3						
-151472	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
-151473	tyb	?	?	?	?	DULAT: NOT FOUND
-151474	b	b	b	prep.	in	
-151475	npšy	npš(I)/+y	npš (I)	n. f. cstr. gen.	4) soul	
-151476	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
-151476	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
-151476	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
-151476	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
-151476	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+172019	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
+172020	tyb	?	?	?	?	DULAT: NOT FOUND
+172021	b	b	b	prep.	in	
+172022	npšy	npš(I)/+y	npš (I)	n. f. cstr. gen.	4) soul	
+172023	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
+172023	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
+172023	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
+172023	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
+172023	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 1.93 4						
-151477	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
-151478	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-151478	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-151479	ištmˤ	!(ʔ&i!š]t]mˤ[	/š-m-ʕ/	vb Gt impv. 1 c. sg.	pay attention, take note	
+172024	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
+172025	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+172025	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+172026	ištmˤ	!(ʔ&i!š]t]mˤ[	/š-m-ʕ/	vb Gt impv. 1 c. sg.	pay attention, take note	
 # KTU 1.93 5						
-151480	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	
-151480	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
-151480	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
-151481	ly	l(I)+y	l (I)	prep.	to	
-151482	ypš	!y!pš[	/p-š/	vb G prefc. 3 m. sg.	?	
-151483	i	i(I)	ỉ (I)	interj.	woe	
+172027	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	
+172027	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
+172027	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
+172028	ly	l(I)+y	l (I)	prep.	to	
+172029	ypš	!y!pš[	/p-š/	vb G prefc. 3 m. sg.	?	
+172030	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.93 6						
-151484	ḥkr	ḥkr[	/ḥ-k-r/	vb G	to knock down	
-151485	xxšry	?	?	?	?	DULAT: NOT FOUND
+172031	ḥkr	ḥkr[	/ḥ-k-r/	vb G	to knock down	
+172032	xxšry	?	?	?	?	DULAT: NOT FOUND
+172033		?	?	?	?	
 # KTU 1.93 7						
-151486	ˤṣp	ˤṣp	ʕṣp	?	?	
-151487	ˤxxġb	?	?	?	?	DULAT: NOT FOUND
+172034	ˤṣp	ˤṣp	ʕṣp	?	?	
+172035	ˤxxġb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.93 8						
-151488	ṯatxmdp	?	?	?	?	DULAT: NOT FOUND
+172036	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. nom.	ewe	
+172036	ṯat	ṯa(t/t=	ṯảt	n. f. pl. abs. nom.	ewe	
+172037	xmdp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.93 9						
-151489	ynxxxṯṯt	?	?	?	?	DULAT: NOT FOUND
+172038	ynxxxṯṯt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.93 10						
-151490	i	i(I)	ỉ (I)	interj.	woe	
+172039	i	i(I)	ỉ (I)	interj.	woe	

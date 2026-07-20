@@ -1,67 +1,67 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.3 1						
-160946	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
-160947	ˤrbnm	ˤrbn/m	ʕrbn	n. m. pl. abs. nom.	guarantor	
+182106	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+182107	ˤrbnm	ˤrbn/m	ʕrbn	n. m. pl. abs. nom.	guarantor	
 # KTU 3.3 2						
-160948	dt	d+t	d	det. or rel. functor	1) the one(s) of a) det. of quality	
-160949	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	1) to give a guarantee or pledge	DULAT quote in /ʕ-r-b/ (II) (cue: guarantee)
+182108	dt	d+t	d	det. or rel. functor	2) which	
+182109	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	1) to give a guarantee or pledge	DULAT quote in /ʕ-r-b/ (II) (cue: guarantee)
 # KTU 3.3 3						
-160950	b	b	b	prep.	1) spatial location c) goal of movement or action	
-160951	mtn	mt(II)/+n	mt (II)	n. m. cstr. gen.	death	
-160951	mtn	mt[n	/m-t/	vb	to die	
-160951	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-160951	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-160952	bn	b+n	b	prep.	1) spatial location c) goal of movement or action	
-160952	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-160952	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-160952	bn	bn(II)	bn (II)	prep.	between	
-160953	ayaḫ	?	?	?	?	DULAT: NOT FOUND
+182110	b	b	b	prep.	3) relationship of cause or reason	
+182111	mtn	mt(II)/+n	mt (II)	n. m. cstr. gen.	death	
+182111	mtn	mt[n	/m-t/	vb	to die	
+182111	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+182111	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+182112	bn	b+n	b	prep.	3) relationship of cause or reason	
+182112	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+182112	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+182112	bn	bn(II)	bn (II)	prep.	between	
+182113	ayaḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.3 4						
-160954	b	b	b	prep.	1) spatial location a) place in which something occurs	
-160955	ḫbṯh	!!ḫbṯ[/h	/ḫ-b-ṯ/	vb G inf.	to flee	
-160956	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	1) country	
-160957	ṯth	ṯth(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
+182114	b	b	b	prep.	1) spatial location a) place in which something occurs	
+182115	ḫbṯh	!!ḫbṯ[/h	/ḫ-b-ṯ/	vb G inf.	to flee	
+182116	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	1) country	
+182117	ṯth	ṯth(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
 # KTU 3.3 5						
-160958	w	w	w	conj.	and	
-160959	mnm	mnm	mnm	indef. pn.	any(thing)	
-160960	šalm	šal/m	šảl	n. m. pl. abs. nom.	claim	
+182118	w	w	w	conj.	and	
+182119	mnm	mnm	mnm	indef. pn.	any(thing)	
+182120	šalm	šal/m	šảl	n. m. pl. abs. nom.	claim	
 # KTU 3.3 6						
-160961	dt	d+t	d	det. or rel. functor	1) the one(s) of a) det. of quality	
-160962	tknn	!t!knn[:l	/k-n/	vb L prefc.	to establish	
+182121	dt	d+t	d	det. or rel. functor	2) which	
+182122	tknn	!t!knn[:l	/k-n/	vb L prefc.	to establish	
 # KTU 3.3 7						
-160963	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-160964	ˤrbnm	ˤrbn/m	ʕrbn	n. m. pl. abs. gen.	guarantor	
+182123	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+182124	ˤrbnm	ˤrbn/m	ʕrbn	n. m. pl. abs. gen.	guarantor	
 # KTU 3.3 8						
-160965	hnhmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
+182125	hnhmt	hn&hmt/	hn(h)mt	dem./adj. pl.	these	
 # KTU 3.3 9						
-160966	tknn	!t!knn[:l	/k-n/	vb L prefc.	to establish	
+182126	tknn	!t!knn[:l	/k-n/	vb L prefc.	to establish	
 # KTU 3.3 10						
-160967	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
-160967	mtn	mt[n	/m-t/	vb	to die	
-160967	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-160967	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-160968	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-160968	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-160968	bn	bn(II)	bn (II)	prep.	between	
-160968	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-160968	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160969	ˤbdym	ˤbdym/	ʕbdym	PN sg. abs. nom.	ʿbdym	
+182127	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
+182127	mtn	mt[n	/m-t/	vb	to die	
+182127	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+182127	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+182128	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+182128	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+182128	bn	bn(II)	bn (II)	prep.	between	
+182128	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+182128	bn	bn[	/b-n/	vb G impv. 2	to understand	
+182129	ˤbdym	ˤbdym/	ʕbdym	PN sg. abs. nom.	ʿbdym	
 # KTU 3.3 11						
-160970	ilrb	ilrb/	ỉlrb	PN sg. abs. nom.	ỉlrb	
-160971	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-160971	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-160971	bn	bn(II)	bn (II)	prep.	between	
-160971	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-160971	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160972	ilyn	il(I)&y/+n	ỉl (I)	n. m. cstr. nom.	god	
-160972	ilyn	ilyn/	ỉlyn	PN sg. abs. nom.	ỉlyn	
+182130	ilrb	ilrb/	ỉlrb	PN sg. abs. nom.	ỉlrb	
+182131	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+182131	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+182131	bn	bn(II)	bn (II)	prep.	between	
+182131	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+182131	bn	bn[	/b-n/	vb G impv. 2	to understand	
+182132	ilyn	il(I)&y/+n	ỉl (I)	n. m. cstr. nom.	god	
+182132	ilyn	ilyn/	ỉlyn	PN sg. abs. nom.	ỉlyn	
 # KTU 3.3 12						
-160973	ˤbdadt	ˤbdadt/	ʕbdảdt	PN sg. abs. nom.	ʿbdảdt	
-160974	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-160974	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
-160974	bn	bn(II)	bn (II)	prep.	between	
-160974	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
-160974	bn	bn[	/b-n/	vb G impv. 2	to understand	
-160975	ˤbdkb	ˤbdkb/	ʕbdkb	PN sg. abs. nom.	Kubaba	
+182133	ˤbdadt	ˤbdadt/	ʕbdảdt	PN sg. abs. nom.	ʿbdảdt	
+182134	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+182134	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+182134	bn	bn(II)	bn (II)	prep.	between	
+182134	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+182134	bn	bn[	/b-n/	vb G impv. 2	to understand	
+182135	ˤbdkb	ˤbdkb/	ʕbdkb	PN sg. abs. nom.	Kubaba	
 # KTU 3.3 13						
-160976	gnˤym	gnˤy/	gnʕy	GN pl. abs. nom.	gnʿy	
+182136	gnˤym	gnˤy/m	gnʕy	GN pl. abs. nom.	gnʿy	

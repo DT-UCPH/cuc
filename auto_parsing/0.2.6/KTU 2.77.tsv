@@ -1,76 +1,74 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.77 1						
-159221	xxxx	?	?	?	?	
-159222	x	?	?	?	?	
+180311	xxxx	?	?	?	?	
+180312	x	?	?	?	?	
 # KTU 2.77 2						
-159223	xxxh	?	?	?	?	DULAT: NOT FOUND
-159224	ax	?	?	?	?	DULAT: NOT FOUND
+180313	xxxh	?	?	?	?	DULAT: NOT FOUND
+180314	ax	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 3						
-159225	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-159226	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to reign	
-159226	mlk	mlk(II)/	mlk (II)	n. m. sg. abs. gen.	kingdom (power and territory)	
-159227	x	?	?	?	?	
+180315	ˤm	ˤm(I)	ʕm (I)	prep.	to	
+180316	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+180317	x	?	?	?	?	
 # KTU 2.77 4						
-159228	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	1) a hundred	
-159229	ṯql	ṯql/	ṯql	n. m. sg. cstr. gen.	shekel	
+180318	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	1) a hundred	
+180319	ṯql	ṯql/	ṯql	n. m. sg. cstr. gen.	shekel	
 # KTU 2.77 5						
-159230	tḥmk	tḥm/+k	tḥm	n. m. cstr. gen.	message	
-159231	px	?	?	?	?	DULAT: NOT FOUND
+180320	tḥmk	tḥm/+k	tḥm	n. m. cstr. gen.	message	
+180321	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 6						
-159232	w	w	w	conj.	and	
-159233	mlk	mlk[/	/m-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to reign	
-159233	mlk	mlk(II)/	mlk (II)	n. m. sg. cstr. nom.	kingdom (power and territory)	
-159234	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+180322	w	w	w	conj.	and	
+180323	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
+180324	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 # KTU 2.77 7						
-159235	d	d	d	det. or rel. functor	the one(s) of	
-159236	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
-159236	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
-159236	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
-159236	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
-159236	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
-159237	ly	l(I)+y	l (I)	prep.	to	
-159238		?	?	?	?	
+180325	d	d	d	det. or rel. functor	the one(s) of	
+180326	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
+180326	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
+180326	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
+180326	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
+180326	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
+180327	ly	l(I)+y	l (I)	prep.	to	
+180328		?	?	?	?	
 # KTU 2.77 8						
-159239	ḥd	ḥdy[	/ḥ-d-y/	vb G impv. 2	to see, look, observe	
-159240	hlny	hlny	hlny	deictic adv. functor	behold	
-159241	px	?	?	?	?	DULAT: NOT FOUND
+180329	ḥd	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - to see, look, observe
+180330	hlny	hlny	hlny	deictic adv. functor	behold	
+180331	px	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 9						
-159242	bnš	bnš/	bnš	n. m. sg. cstr. nom.	3) farmhand	
-159243	bir	bir/	bỉr	TN/n. f. sg. abs. gen.	biʾiru	
+180332	bnš	bnš/	bnš	n. m. sg. cstr. nom.	3) farmhand	
+180333	bir	bir/	bỉr	TN/n. f. sg. abs. gen.	biʾiru	
 # KTU 2.77 10						
-159244	xxxxk	?	?	?	?	DULAT: NOT FOUND
-159245	d	d	d	det. or rel. functor	the one(s) of	
-159246	x	?	?	?	?	
+180334	xxxxk	?	?	?	?	DULAT: NOT FOUND
+180335	d	d	d	det. or rel. functor	the one(s) of	
+180336	x	?	?	?	?	
 # KTU 2.77 11						
-159247		?	?	?	?	
-159248	x	?	?	?	?	
+180337		?	?	?	?	
+180338	x	?	?	?	?	
 # KTU 2.77 12						
-159249	xxxkn	?	?	?	?	DULAT: NOT FOUND
-159250	w	w	w	conj.	and	
+180339	xxxkn	?	?	?	?	DULAT: NOT FOUND
+180340	w	w	w	conj.	and	
 # KTU 2.77 13						
-159251	w	w	w	conj.	and	
-159252	ypn	yp/+n	yp	n. m. cstr. nom.	dignity	
-159252	ypn	ypn	ypn	?	dignity	
-159253	l	l(I)	l (I)	prep.	to	
+180341	w	w	w	conj.	and	
+180342	ypn	yp/+n	yp	n. m. cstr. nom.	dignity	
+180342	ypn	ypn	ypn	?	dignity	
+180343	l	l(I)	l (I)	prep.	to	
 # KTU 2.77 14						
-159254	w	w	w	conj.	and	
-159255	l	l(I)	l (I)	prep.	to	
-159256	tˤw	?	?	?	?	DULAT: NOT FOUND
+180344	w	w	w	conj.	and	
+180345	l	l(I)	l (I)	prep.	to	
+180346	tˤw	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 15						
-159257	w	w	w	conj.	and	
-159258	ḥd	ḥdy[	/ḥ-d-y/	vb G impv. 2	to see	
-159259	ax	?	?	?	?	DULAT: NOT FOUND
+180347	w	w	w	conj.	and	
+180348	ḥd	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - to see
+180349	ax	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 16						
-159260	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	2) adv. acc.	
-159261	kx	?	?	?	?	DULAT: NOT FOUND
+180350	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	2) adv. acc.	
+180351	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 17						
-159262	ˤmn	ˤm(I)+n	ʕm (I)	prep.	3) commercial meaning	
-159263	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
-159263	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
+180352	ˤmn	ˤm(I)+n	ʕm (I)	prep.	3) commercial meaning	
+180353	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
+180353	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 # KTU 2.77 18						
-159264	ḥd	ḥdy[	/ḥ-d-y/	vb G impv. 2	to see	
-159265	mlx	?	?	?	?	DULAT: NOT FOUND
+180354	ḥd	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - to see
+180355	mlx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.77 19						
-159266	prḫn	prḫn/	prḫn	PN sg. abs. nom.	flower-like	
+180356	prḫn	prḫn/	prḫn	PN sg. abs. nom.	flower-like	
 # KTU 2.77 20						
-159267	xxxx	?	?	?	?	
+180357	xxxx	?	?	?	?	
