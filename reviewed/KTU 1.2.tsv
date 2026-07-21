@@ -27,7 +27,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154771	yṯbr	yṯbr                          	!y!ṯbr[	/ṯ-b-r/	vb G prefc. 3 m. sg.	to break	yṯb[r] rišk 'may he break your head'.
 # KTU 1.2 I:8							
 154772	rišk	rišk  	riš(I)/+k	rỉš (I)	n. m. sg. cstr. acc. + 2 m. sg. suff.	1) head	Object of yṯbr.
-154773	ˤṯtrt	ʿṯtrt  	ˤṯtrt(I)/	ʕṯtrt (I)	DN f. sg. abs. nom.	ʕAṯtartu/Athtart	ˤṯtrt šm bˤl 'Athtart-Name-of-Baal' (// 1.16 VI:56).
+154773	ˤṯtrt	ʿṯtrt  	ˤṯtr(t(I)/t	ʕṯtrt (I)	DN f. sg. abs. nom.	ʕAṯtartu/Athtart	ˤṯtrt šm bˤl 'Athtart-Name-of-Baal' (// 1.16 VI:56).
 154774	šm	šm  	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	ʕṯtrt šm bˤl 'Athtart-the-Name-of-Baal' (šm 'name', not 'ram').
 154775	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 154776	qdqd	qdqd .     	qdqd/	qdqd	n. m. sg. cstr. acc.	skull	Object: 'may she strike your skull'.
@@ -367,7 +367,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155053	tuḫd	tuḫd  	!t!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 f. sg.	to collect, to take (back), grasp, seize, hold	
 155054	šmalh	šmalh  	šmal/+h	šmảl	n. m. sg. cstr. acc. + 3 m. sg. suff.	2) left hand	DULAT: 'his left (hand) DN grasped'.
 155055	tuḫd	tuḫd  	!t!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 f. sg.	to collect, to take (back), grasp, seize, hold	
-155056	ˤṯtrt	ʿṯtrt  	ˤṯtrt(I)/	ʕṯtrt (I)	DN f. sg. abs. nom.	ʕAṯtartu/Athtart	
+155056	ˤṯtrt	ʿṯtrt  	ˤṯtr(t(I)/t	ʕṯtrt (I)	DN f. sg. abs. nom.	ʕAṯtartu/Athtart	
 155057	ik	ik  	ik	ỉk	interr. functor	how?	
 155058	mḫṣt	mḫṣt	mḫṣ[t==	/m-ḫ-ṣ/	vb G suffc. 2 f. sg.	to wound, beat, crush, kill	ik mḫ[ṣt 'how can you strike?' (DULAT); addressed to the goddess.
 # KTU 1.2 I:41							
@@ -608,7 +608,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155250	d	d 	d+t	d	det. or rel. functor	the one(s) of	MERGE WITH THE NEXT: d+t = dt (rel. f.), split III:12/13.
 155251	t	t          	d+t	d	det. or rel. functor	the one(s) of	MERGE WITH THE PREVIOUS.
 # KTU 1.2 III:13							
-155252	ḥrḥrtm	     ḥrḥrtm  	ḥrḥrt/~m	ḥrḥrt	n. f. abs. nom. sg. / du.	crimson red	
+155252	ḥrḥrtm	     ḥrḥrtm  	ḥrḥr(t/t~m	ḥrḥrt	n. f. abs. nom. sg. / du.	crimson red	
 155253	w	w 	w	w	conj.	and	
 155254	dšxn	dšxn 	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
 155255	xxx	xxx 	?	?	?	?	Migrated from legacy reviewed tokenization.
@@ -663,7 +663,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155298	abk	abk  	ab/+k	ảb	n. m. sg. cstr. gen. + 2 m. sg. suff.	father	
 155299	l	l 	l(III)	l (III)	functor	certainly, undoubtedly, yes	l ysˤ 'surely he will pull out' (// DULAT at III:18: 'no doubt he will break').
 155300	ysˤ	ysʿ  	!y!(nsˤ(I)[	/n-s-ʕ/ (I)	vb G prefc. 3 m. sg.	to pull out	
-155301	alt	alt . 	al(t(II)/t	ảlt (II)	n. f. sg. cstr. acc.	support, pillar	alt ṯbtk 'the support of your seat' (ảlt (II); not 'curse').
+155301	alt	alt . 	al(t(II)/t=	ảlt (II)	n. f. pl. cstr. acc.	support, pillar	alt ṯbtk 'the support of your seat' (ảlt (II); not 'curse').
 155302	ṯbtk	ṯbtk . 	ṯb(t/t+k	ṯbt	n. f. sg. cstr. gen. + 2 m. sg. suff.	seat	
 155303	l	l 	l(III)	l (III)	functor	certainly, undoubtedly, yes	
 155304	yhpk	yhpk	!y!hpk[	/h-p-k/	vb G prefc. 3 m. sg.	to overturn, alter	l yhpk [ksa] mlkk 'surely he will overturn the throne of your kingship'.
@@ -877,7 +877,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155487	ṯnt	ṯnt  	ṯn(y[t	/ṯ-n-y/	vb G suffc. 1 c. sg.	to repeat, reiterate	DULAT: 'did (I not) repeat to the Charioteer of the clouds?'.
 155488	l	l 	l(IV)	l (IV)	interj.	oh!	
 155489	rkb	rkb  	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
-155490	ˤrpt	ʿrpt  	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+155490	ˤrpt	ʿrpt  	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 155491	ht	ht  	ht	ht	adv.	1) adv b) of time	
 155492	ibk	ibk	ib(I)/+k	ỉb (I)	n. m. sg. cstr. acc. + 2 m. sg. suff.	enemy	ht ibk tmḫṣ 'now your enemy you must crush' (DULAT).
 # KTU 1.2 IV:9							
@@ -1066,7 +1066,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155651	b	b  	b	b	prep.	in	
 155652	šm	šm  	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
 155653	tgˤrm	tgʿrm  	!t!gˤr[~m	/g-ʕ-r/	vb G prefc. 3 f. sg. + encl. -m	to reproach, rebuke	b šm tgˤrm ˤṯtrt 'by name Athtart rebuked (him)' (DULAT; -m (II)).
-155654	ˤṯtrt	ʿṯtrt  	ˤṯtrt(I)/	ʕṯtrt (I)	DN f. sg. abs. nom.	ʕAṯtartu/Athtart	
+155654	ˤṯtrt	ʿṯtrt  	ˤṯtr(t(I)/t	ʕṯtrt (I)	DN f. sg. abs. nom.	ʕAṯtartu/Athtart	
 155655	bṯ	bṯ  	!!bṯ[	/b-ṯ/	vb G impv. m. sg.	1) to be ashamed	bṯ l aliyn bˤl 'Be ashamed, oh Mightiest Baal!' (DULAT).
 155656	l	l 	l(IV)	l (IV)	interj.	oh!	
 155657	aliyn	aliyn  	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
@@ -1075,7 +1075,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155659	bṯ	bṯ  	!!bṯ[	/b-ṯ/	vb G impv. m. sg.	to be ashamed	
 155660	l	l 	l(IV)	l (IV)	interj.	oh!	bṯ l rkb ˤrpt 'be ashamed, oh Charioteer of the clouds!' (DULAT l (IV)).
 155661	rkb	rkb  	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
-155662	ˤrpt	ʿrpt  	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+155662	ˤrpt	ʿrpt  	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 155663	k	k 	k(III)	k (III)	Subordinating or completive functor	when	
 155664	šbyn	šbyn  	šby/+n	šby	n. m. sg. cstr. nom. + 1 c. pl. suff.	captive	k šbyn 'since OUR captive (was the prince)' (DULAT k (III) + -n (III)).
 155665	zbl	zbl  	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	

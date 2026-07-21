@@ -25,7 +25,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156920	w	w 	w	w	conj.	and	
 156921	bnh	bnh  	bn(I)/+h	bn (I)	n. m. pl. cstr. acc. + 3 f. sg. suff.	son	'and her sons'.
 156922		 	?	?	?	?	
-156923	ilt	i.lt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	goddess	MERGE WITH THE NEXT: i+lt = ilt 'the goddess' (Elat = Athirat). | MERGE WITH THE PREVIOUS. | Migrated from legacy reviewed tokenization.
+156923	ilt	i.lt	il(t(I)/t	ỉlt (I)	n. f. sg. abs. nom.	goddess	
 # KTU 1.4 I:8							
 156924	w	w 	w	w	conj.	and	
 156925	ṣbrt	ṣbrt  	ṣbr(t/t	ṣbrt	n. f. sg. cstr. acc.	clan	ṣbrt aryh 'the assembly of her kin'.
@@ -129,16 +129,16 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157000	w	w 	w	w	conj.	and	
 157001	tbṯḫ	tbṯḫ	tbṯḫ/	tbṯḫ	n. m. sg. abs. acc.	bed	
 # KTU 1.4 I:30							
-157002	kt	kt  	kt(II)/	kt (II)	n. f. sg. cstr. acc.	stage	kt il 'a throne-stand for El'.
+157002	kt	kt  	k(t(II)/t	kt (II)	n. f. sg. cstr. acc.	stage	kt il 'a throne-stand for El'.
 157003	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 157004	dt	dt  	d+t	d	det./rel. functor + encl. -t	1) the one(s) of c) specifying value	'(a stand) of twenty thousand (shekels)'.
 157005	rbtm	rbtm	rb(b(t/t~m	rb(b)t	n. num. f. du. + encl. -m	ten thousand	rbtm 'two myriads = twenty thousand'.
 # KTU 1.4 I:31							
-157006	kt	kt  	kt(II)/	kt (II)	n. f. sg. cstr. acc.	stage	
+157006	kt	kt  	k(t(II)/t	kt (II)	n. f. sg. cstr. acc.	stage	
 157007	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 157008	nbt	nbt  	nb[t===	/n-b/	vb G suffc. 3 f. sg.	to be smelted, coated with	DULAT (I:31): kt il nbt b ksp 'a divine platform coated in silver'.
 157008	nbt	nbt  	nb[t===:pass	/n-b/	vb Gpass suffc. 3 f. sg.	to be smelted, coated with	EUPT: Gp (passive), 'was named/set'.
-157008	nbt	nbt  	nbt/	nbt	n. f. sg. abs. acc.	honey	Noun reading: 'a casting (?) in silver'.
+157008	nbt	nbt  	nb(t/t	nbt	n. f. sg. abs. acc.	honey	Noun reading: 'a casting (?) in silver'.
 157009	b	b 	b	b	prep.	1) spatial location e) material	
 157010	ksp	ksp	ksp/	ksp	n. m. sg. abs. gen.	1) silver c) treatment	
 # KTU 1.4 I:32							
@@ -178,7 +178,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157037	dbbm	dbbm  	dbb(I)/m	dbb (I)	n. m. pl. abs. nom.	beast	
 157038	d	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.4 I:40							
-157039	msdt	m.sdt  	msdt/	msdt	n. f. pl. cstr. nom.	foundation(s)	MERGE WITH THE NEXT: m+sdt = msdt, split I:39/40; DULAT: dbbm d msdt arṣ 'beasts of the foundations of the earth'. | MERGE WITH THE PREVIOUS. | Migrated from legacy reviewed tokenization.
+157039	msdt	m.sdt  	msd(t/t=	msdt	n. f. pl. cstr. nom.	foundation(s)	DULAT: dbbm d msdt arṣ 'beasts of the foundations of the earth'.
 157040	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	3) lower world	
 # KTU 1.4 I:41							
 157041	ṣˤ	ṣʿ  	ṣˤ(I)/	ṣʕ (I)	n. m. sg. cstr. acc.	plate / wide bowl / platter	ṣˤ il 'a bowl for El'.
@@ -197,7 +197,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157052	rumm	rumm  	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
 157053	l	l 	l(I)	l (I)	prep.	to	
 157054	rbbt	rbbt	rbb(t/t	rb(b)t	num.	ten thousand	
-157054	rbbt	rbbt	rbb(t/t	rb(b)t	n. f. pl. abs. gen.	ten thousand	EUPT: noun 'myriads'.
+157054	rbbt	rbbt	rbb(t/t=	rb(b)t	n. f. pl. abs. gen.	ten thousand	EUPT: noun 'myriads'.
 # KTU 1.4 II:1							
 157055	xb	xb 	?	?	?	?	
 157056	xxx	xxx 	?	?	?	?	
@@ -449,7 +449,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 III:11							
 157240	ytˤdd	ytʿdd  	!y!]t]ˤdd[	/ʕ-d(-d)/	vb tD prefc. 3 m. sg.	to declare, communicate	DULAT /ʕ-d(-d)/ tD; 'the Rider of Clouds takes his stand'.
 157241	rkb	rkb  	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	rkb ˤrpt 'Rider of the Clouds' (epithet of Baal).
-157242	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+157242	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.4 III:12							
 157243	qm	qm  	qm[/	/q-m/	vb G act. ptcpl. m. sg. abs. nom.	to stand up	'a foe rises and reviles him'.
 157244	ydd	ydd  	!y!(ndd[	/n-d-d/	vb G prefc. 3 m. sg.	to go, move	DULAT (III:12): ydd w yqlṣn 'he prepared to resist me'.
@@ -490,7 +490,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157268	ṯlṯ	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num. cstr. acc.	1) the numeral three a) elliptical syntagms	'three the Rider of Clouds (hates)'.
 # KTU 1.4 III:18							
 157269	rkb	rkb  	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
-157270	ˤrpt	ʿrpt  	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+157270	ˤrpt	ʿrpt  	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 157271	dbḥ	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. acc.	1) sacrifice	dbḥ bṯt 'a sacrifice of shame'.
 # KTU 1.4 III:19							
 157272	bṯt	bṯt  	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. gen.	shame	
@@ -504,7 +504,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157279	dbḥ	dbḥ  	dbḥ/	dbḥ	n. m. sg. cstr. acc.	sacrifice	
 157280	tdmm	tdmm	tdmm/	tdmm	n. m. sg. cstr. gen.	lascivious	dbḥ tdmm amht 'a sacrifice of the debauchery of handmaids'.
 # KTU 1.4 III:21							
-157281	amht	amht  	am&h(t/t	ảmt (I)	n. f. pl. abs. gen.	1) female slave	'the lewdness of handmaids'.
+157281	amht	amht  	am&h(t/t=	ảmt (I)	n. f. pl. abs. gen.	1) female slave	'the lewdness of handmaids'.
 157282	k	k 	k(III)	k (III)	subordinating / completive functor	when, if, because, since, as, that	'for therein is shame'.
 157283	bh	bh  	b+h	b	prep. + 3 m. sg. suff.	in	'in it'.
 157284	bṯt	bṯt  	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
@@ -514,7 +514,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157287	w	w 	w	w	conj.	and	
 157288	bh	bh  	b+h	b	prep. + 3 m. sg. suff.	in	
 157289	tdmmt	tdmmt  	tdmm(t/t	tdmmt	n. f. sg. abs. nom.	lasciviousness	
-157290	amht	amht	am&h(t/t	ảmt (I)	n. f. pl. abs. nom.	(female) slave	'and in it the lewdness of handmaids'.
+157290	amht	amht	am&h(t/t=	ảmt (I)	n. f. pl. abs. nom.	(female) slave	'and in it the lewdness of handmaids'.
 # KTU 1.4 III:23							
 157291	aḫr	aḫr  	aḫr	ảḫr	adv./conj.	3) after	'after Mightiest Baal arrives'.
 157292	mġy	mġy  	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
@@ -1028,7 +1028,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157693	tn	tn  	!(y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	give	DULAT reads w <y>tn qlh 'and may he give his voice' (y omitted by the scribe).
 157694	qlh	qlh  	ql(I)/+h	ql (I)	n. m. sg. cstr. + 3 m. sg. suff.	4) the thunderous “voice” (said of Baal’s voice)	
 157695	b	b 	b	b	prep.	1) spatial location d) origin of a quality or process	
-157696	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+157696	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.4 V:9							
 157697	šrh	šrh  	šr(II)/+h	šr (II)	n. m. sg. cstr. acc. + 3 m. sg. suff.	musician, singer	DULAT cites šr (II) here (qlh b ˤrpt, šrh l arṣ brqm).
 157697	šrh	šrh  	šr(y[+h	/š-r-y/w/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to release	DULAT (s.v. /š-r-y/w/): 'he releases his lightnings to the earth'.
@@ -1307,7 +1307,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157903	bn	bn  	!!bn[	/b-n/	vb G impv. m. sg.	to understand	bn l rkb ˤrpt 'understand, O Rider of the Clouds'.
 157904	l	l 	l(IV)	l (IV)	interj.	oh!	bn l rkb ˤrpt 'understand, O Rider of the Clouds!' (DULAT cites l (IV) at V:59).
 157905	rkb	rkb  	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
-157906	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+157906	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.4 V:61							
 157907	bl	bl  	bl(I)	bl (I)	emph. functor	no	bl ašt urbt 'shall I not set a window?'
 157908	ašt	ašt  	!(ʔ&a!št[	/š-t/	vb G prefc. 1 c. sg.	to place, set, set up, leave	Kothar; 1 c. sg.
@@ -1760,7 +1760,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158257	w	w 	w	w	conj.	and	Split w + yptḥ written together. | Migrated from legacy reviewed tokenization.
 158258	yptḥ	yptḥ  	!y!ptḥ[	/p-t-ḥ/	vb G prefc. 3 m. sg.	to open	Split w + yptḥ written together. | Migrated from legacy reviewed tokenization.
 158259	bdqt	bdqt  	bdq(t/t	bdqt	n. f. sg. cstr. acc.	fissure	
-158260	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	bdqt ˤrpt 'a rift in the clouds'.
+158260	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	bdqt ˤrpt 'a rift in the clouds'.
 # KTU 1.4 VII:20							
 158261	ˤl	ʿl 	ˤl(I)	ʕl (I)	prep.	2) relationship of cause a) according to	
 158262	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. cstr. gen.	word	ˤl hwt kṯr 'at the word of Kothar'.
@@ -1808,7 +1808,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VII:28							
 158295	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 158296	bdqt	bdqt . 	bdq(t/t	bdqt	n. f. sg. cstr. acc.	fissure	
-158297	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+158297	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.4 VII:29							
 158298	qlh	qlh  	ql(I)/+h	ql (I)	n. m. sg. cstr. acc.	4) the thunderous “voice” (said of Baal’s voice)	qlh qdš 'his holy voice'.
 158299	qdš	qdš . 	qdš(I)/	qdš (I)	adj. m. sg. abs. acc.	1) holy	
@@ -1836,7 +1836,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158316	xxxxxxxx	xxxxxxxx	?	?	?	?	
 # KTU 1.4 VII:34							
 158317	qdmym	qdmym  	qdmy/m	qdmy	adj. m. pl. abs. nom.	ancient	
-158318	bmt	bmt  	bm(t/t	bmt	n. f. pl. cstr. nom.	2) height	bmt arṣ 'the high places of the earth'.
+158318	bmt	bmt  	bm(t/t=	bmt	n. f. pl. cstr. nom.	2) height	bmt arṣ 'the high places of the earth'.
 158319	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	3) lower world	
 # KTU 1.4 VII:35							
 158320	tṭṭn	tṭṭn  	!t!(nṭṭ[n	/n-ṭ-ṭ/	vb G prefc. 3 f. pl.	to shake	'the high places of the earth shake' (subject bmt pl.).
@@ -1952,7 +1952,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158408	w	w 	w	w	conj.	and	
 158409	ugr	ugr  	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
 158410	bn	bn 	b~n	b	prep. + encl. -n	son	bn ġlmt 'in the gloom' (// bn ẓlmt). | Migrated from legacy reviewed tokenization.
-158411	ġlmt	ġlmt	ġlmt(II)/	ġlmt (II)	n. f. sg. abs. gen.	damsel	bn ġlmt 'in the gloom' (// bn ẓlmt). | Migrated from legacy reviewed tokenization.
+158411	ġlmt	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. gen.	damsel	bn ġlmt 'in the gloom' (// bn ẓlmt). | Migrated from legacy reviewed tokenization.
 # KTU 1.4 VII:55							
 158412	ˤmm	ʿmm  	ˤm(II)/~m	ʕm (II)	n. m. sg. cstr. nom. + encl. -m	lineage, ancestors	// 1.3 VI:8 ˤmm ym.
 158413	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	Broken.
@@ -1968,7 +1968,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158421	ṣḥrrm	ṣḥrrm  	ṣḥrr[~m	/ṣ-ḥ-r-r/	vb G suffc. 3 m. pl. + encl. -m	to roast	
 158422	ḥblm	ḥblm  	ḥbl(I)/m	ḥbl (I)	n. m. pl. abs. nom.	2) band	
 158423	b	b 	b	b	prep.	in	
-158424	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+158424	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.4 VII:58							
 158425	xxxxxxxxxx	xxxxxxxxxx 	?	?	?	?	Lower column broken.
 158426		 	?	?	?	?	
@@ -2004,7 +2004,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158448	ḫlb	ḫlb  	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. acc.	massif	
 158449	l	l 	l(I)	l (I)	prep.	to	
 158450	ẓr	ẓr  	ẓr(I)/	ẓr (I)	n. m. sg. cstr. gen.	upon	l ẓr rḥtm 'upon the back of the palms'.
-158451	rḥtm	rḥtm	rḥt/m	rḥt	n. f. du. abs. gen.	palm of the hand	EUPT genders m.
+158451	rḥtm	rḥtm	rḥ(t/tm	rḥt	n. f. du. abs. gen.	palm of the hand	EUPT genders m.
 # KTU 1.4 VIII:7							
 158452	w	w 	w	w	conj.	and	
 158453	rd	rd  	!!(yrd[	/y-r-d/	vb G impv. m. du.	to go down, descend	rd 'go down!' (hidden y).

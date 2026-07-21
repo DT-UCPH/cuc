@@ -20,13 +20,11 @@ This repository now generates morphology lint reports locally and commits them u
 
 ### Pre-commit behavior
 
-On every commit attempt, the pre-commit hook:
-
-1. Runs `ruff format` and `ruff check --fix` on staged Python files
-2. Runs `ruff check` on staged Python files and fails commit on any warning/error
-3. Runs the full test suite (`python -m unittest discover -s tests -v`) and fails commit if tests fail
-4. For lint-relevant staged changes (`out/*.tsv`, `linter/**`, report tooling), runs `scripts/generate_lint_reports.py` with local DB access (`local_sources/dulat_cache.sqlite`, `local_sources/udb_cache.sqlite`)
-5. Regenerates `reports/*` and stages updated Python/report files automatically
+For staged `auto_parsing/**/*.tsv` files, the pre-commit hook lints both the
+staged file and its `HEAD` version. It blocks only newly introduced `ERROR`
+occurrences. The comparison deliberately ignores Text-Fabric token IDs and TSV
+row numbers, while retaining the surface, full diagnostic message, and number
+of occurrences.
 
 Generated files include:
 

@@ -32,8 +32,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158603	uṭm	uṭm	uṭ/~m	ủṭ	n. m. sg. abs. acc. + encl. -m	span	DULAT: -m (I) adverbial, '(I shall eat you) by the span'.
 # KTU 1.5 I:6							
 158604	ḏrqm	ḏrqm  	ḏrq/m	ḏrq	n. m. pl. abs. acc.	fragment	< /ḏ-r-q/ 
-158605	amtm	amtm  	amt(II)/m	ảmt (II)	n. f. pl./du. abs. acc.	elbow	
-158605	amtm	amtm  	amt(II)/~m	ảmt (II)	n. f. sg. abs. acc. + encl. -m	elbow	DULAT: 'ell by ell'.
+158605	amtm	amtm  	am(t(II)/tm	ảmt (II)	n. f. pl./du. abs. acc.	elbow	
+158605	amtm	amtm  	am(t(II)/t~m	ảmt (II)	n. f. sg. abs. acc. + encl. -m	elbow	DULAT: 'ell by ell'.
 158606	l	l 	l(III)	l (III)	functor	certainly	
 158607	yrt	yrt	!y!(yr(d&t[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	Jussive reading.
 158607	yrt	yrt	yr(d&t[	/y-r-d/	vb G suffc. 2 m. sg.	to go down	DULAT
@@ -45,9 +45,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158611	ilm	ilm  	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 158612	mt	mt  	mt(II)/	mt (II)	n. m. sg. abs. gen.	death	
 158613	b	b 	b	b	prep.	in	
-158614	mh	mh	mhmrt/	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE NEXT: mh+mrt = mhmrt (UDB: 'R1 assumes the Broken String: mhmrt.'); DULAT mhmrt (cf. hmrt 'drain, sink').
+158614	mh	mh	mhmr(t/t	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE NEXT: mh+mrt = mhmrt (UDB: 'R1 assumes the Broken String: mhmrt.'); DULAT mhmrt (cf. hmrt 'drain, sink').
 # KTU 1.5 I:8							
-158615	mrt	mrt  	mhmrt/	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE PREVIOUS.
+158615	mrt	mrt  	mhmr(t/t	mhmrt	n. f. sg. cstr. gen.	?	MERGE WITH THE PREVIOUS.
 158616	ydd	ydd  	ydd(I)/	ydd (I)	adj. m. sg. cstr. gen.	loved	
 158616	ydd	ydd  	ydd[/	ydd	vb G pass. ptcpl. m. sg. cstr. gen.	loved	Not in DULAT. Huehnergard: verbal adj. of √ydd 'to love'
 158617	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
@@ -256,9 +256,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158755	aliyn	aliyn  	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 158756	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.5 II:7							
-158757	ṯtˤnn	ṯtʿ.nn  	ṯtˤ[nn	/ṯ-t-ʕ/	vb G suffc.	to be frightened, scared	MERGE WITH THE NEXT. DULAT -nn → -n (I) 3 (energic). | MERGE WITH THE NEXT. TCS: 'will be frightened of him' (-n (IV)). | MERGE WITH THE PREVIOUS. | Migrated from legacy reviewed tokenization.
+158757	ṯtˤnn	ṯtʿ.nn  	ṯtˤ[~nn	/ṯ-t-ʕ/	vb G suffc.	to be frightened, scared	DULAT -nn → -n (I) 3 (energic).
+158757	ṯtˤnn	ṯtʿ.nn  	ṯtˤ[~+nn	/ṯ-t-ʕ/	vb G suffc.	to be frightened, scared	DULAT -nn → -n (I) 3 (energic). TCS: 'will be frightened of him' (-n (IV)).
 158758	rkb	rkb  	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
-158759	ˤrpt	ʿrpt	ˤrp(t/t	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+158759	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.5 II:8							
 158760	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!').
 158761	rgm	rgm  	!!rgm[	/r-g-m/	vb G impv. m. du.	to say, tell, announce, communicate, inform	
@@ -653,7 +654,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159032	at	at  	at(I)	ảt (I)	pers. pn. 2 m. sg.	you	
 159033	qḥ	qḥ	!!(lqḥ[	/l-q-ḥ/	vb G impv. m. sg.	to take	
 # KTU 1.5 V:7							
-159034	ˤrptk	ʿrptk  	ˤrp(t/t+k	ʕrpt	n. f. pl. tant. cstr. acc. + 2 m. sg. suff.	cloud(s)	'take your clouds, your winds, your bolts, your rains' (UNP).
+159034	ˤrptk	ʿrptk  	ˤrp(t/t=+k	ʕrpt	n. f. pl. tant. cstr. acc. + 2 m. sg. suff.	cloud(s)	'take your clouds, your winds, your bolts, your rains' (UNP).
 159035	rḥk	rḥk  	rḥ(I)/+k	rḥ (I)	n. f. sg. cstr. acc. + 2 m. sg. suff.	wind	
 159036	mdlk	mdlk	mdl(II)/+k	mdl (II)	n. m. sg. cstr. acc. + 2 m. sg. suff.	lightning (?)	DULAT mdl (II) 'lightning (?)'; TCS: 'your watering devices'.
 # KTU 1.5 V:8							
@@ -860,7 +861,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159193	abn	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	EUPT genders m.
 # KTU 1.5 VI:18							
 159194	ydy	ydy  	!y!(ydy(II)[	/y-d-y/ (II)	vb G prefc. 3 m. sg.	to rip, scratch	
-159195	psltm	psltm  	pslt(I)/m	pslt (I)	n. f. du. abs. acc.	braid, plait	UNP: 'double-slits with a blade'; TCS: 'incisions'.
+159195	psltm	psltm  	psl(t(I)/tm	pslt (I)	n. f. du. abs. acc.	braid, plait	UNP: 'double-slits with a blade'; TCS: 'incisions'.
 159196	b	b 	b	b	prep.	with	
 159197	yˤr	yʿr	yˤr(I)/	yʕr (I)	n. m. sg. abs. gen.	razor	
 # KTU 1.5 VI:19							
