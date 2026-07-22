@@ -24,6 +24,8 @@ class VerbFormMorphPosFixerTest(unittest.TestCase):
         self.assertEqual(result.pos, "vb G prefc.")
 
     def test_expands_ambiguous_form_options(self) -> None:
+        # The strong root q-t-l drops the DULAT-enumerated G passive participle
+        # (Notarius §2.2.1); the finite forms still expand.
         index = _FormIndex(
             {
                 ("qtl", "/q-t-l/"): {
@@ -38,7 +40,7 @@ class VerbFormMorphPosFixerTest(unittest.TestCase):
         result = fixer.refine_row(row)
         self.assertEqual(
             result.pos,
-            "vb G prefc. / vb G impv. / vb G pass. ptcpl. m. sg.",
+            "vb G prefc. / vb G impv.",
         )
 
     def test_uses_existing_stem_when_multiple_stems_present(self) -> None:

@@ -93,6 +93,29 @@ _PRONOMINAL_SUFFIX_RE = re.compile(
 
 FORM_ORDER = ("prefc.", "suffc.", "impv.", "inf.", "act. ptcpl.", "pass. ptcpl.", "ptcpl.")
 _FORM_RANK = {label: idx for idx, label in enumerate(FORM_ORDER)}
+
+_VERB_ROOT_RE = re.compile(r"^/([^/]+)/")
+_WEAK_RADICALS = {"ʔ", "w", "y"}
+
+
+def _is_strong_triradical_root(dulat_head: str) -> bool:
+    """True for a triradical root with no weak (ʔ/w/y) or geminate radical.
+
+    On such a root the G passive participle is spelled identically to the
+    finite forms and the noun, so alphabetic writing cannot mark it (Notarius,
+    *The Ugaritic passive participle*, §2.2.1). Weak-root, geminate, and
+    II-ʔ/III-ʔ/III-y participles keep an orthographic diagnostic.
+    """
+    match = _VERB_ROOT_RE.match((dulat_head or "").strip())
+    if match is None:
+        return False
+    body = re.sub(r"\([^)]*\)", "", match.group(1))
+    radicals = [radical for radical in body.split("-") if radical]
+    if len(radicals) != 3:
+        return False
+    if any(radical in _WEAK_RADICALS for radical in radicals):
+        return False
+    return radicals[1] != radicals[2]
 _GENDER_RANK = {"": 0, "m.": 1, "f.": 2}
 _NUMBER_RANK = {"": 0, "sg.": 1, "pl.": 2, "du.": 3}
 
@@ -437,6 +460,7 @@ class VerbFormMorphPosFixer(RefinementStep):
                 current_pos=current_pos,
                 morphologies=morphologies,
                 analysis_variant=analysis_variant,
+                dulat_head=dulat_head,
             )
             out_pos.append(rewritten)
             if rewritten != current_pos:
@@ -456,7 +480,11 @@ class VerbFormMorphPosFixer(RefinementStep):
         )
 
     def _rewrite_variant(
-        self, current_pos: str, morphologies: set[str], analysis_variant: str
+        self,
+        current_pos: str,
+        morphologies: set[str],
+        analysis_variant: str,
+        dulat_head: str = "",
     ) -> str:
         if not morphologies:
             return current_pos
@@ -472,6 +500,17 @@ class VerbFormMorphPosFixer(RefinementStep):
                     has_pronominal_suffix=has_pronominal_suffix,
                 )
             )
+        # Do not enumerate a G passive participle on a strong triradical root:
+        # it is orthographically indistinguishable from the finite forms and
+        # the noun (Notarius §2.2.1) and is licensed syntactically, not by the
+        # bare skeleton. An explicit pass. ptcpl. already in current_pos is
+        # respected. Weak-root and geminate participles keep their diagnostic.
+        if "pass. ptcpl." not in (current_pos or "") and _is_strong_triradical_root(dulat_head):
+            options = [
+                option
+                for option in options
+                if not (option.stem == "G" and option.form == "pass. ptcpl.")
+            ]
         if not options:
             return current_pos
 
