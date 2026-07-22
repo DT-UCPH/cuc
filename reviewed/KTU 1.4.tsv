@@ -61,6 +61,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:15							
 156948	klt	klt  	kl(t(I)/t=	klt (I)	n. f. pl. cstr. gen.	1) bride	klt knyt 'the honoured brides' (the daughters).
 156949	knyt	knyt	kny(t/t=	knyt	adj. f. pl. abs. gen.	glorious	
+156949	knyt	knyt	kny[/t=	?	vb G pass. ptcpl. f. pl. abs. gen.	?	Tania: G passive participle 'honored/purchased'; DULAT reads adj. knyt 'glorious'.
 # KTU 1.4 I:16							
 156950	mṯb	mṯb  	mṯb/	mṯb	n. m. sg. cstr. nom.	residence	
 156951	pdry	pdry  	pdry/	pdry	DN f. sg. abs. gen.	Pidray	
@@ -935,6 +936,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157618	mṯb	mṯb  	mṯb/	mṯb	n. m. sg. cstr. nom.	residence	
 157619	klt	klt   	kl(t(I)/t=	klt (I)	n. f. pl. cstr. gen.	bride	mṯb klt knyt 'the dwelling of the honoured brides'.
 157620	knyt	knyt	kny(t/t=	knyt	adj. f. pl. abs. gen.	glorious	
+157620	knyt	knyt	kny[/t=	?	vb G pass. ptcpl. f. pl. abs. gen.	?	Tania: G passive participle 'honored/purchased'; DULAT reads adj. knyt 'glorious'.
 # KTU 1.4 IV:55							
 157621	mṯb	mṯb  	mṯb/	mṯb	n. m. sg. cstr. nom.	residence	
 157622	pdry	pdry  	pdry/	pdry	DN f. sg. abs. gen.	Pidray	

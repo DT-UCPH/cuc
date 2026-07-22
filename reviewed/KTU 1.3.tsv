@@ -35,7 +35,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155734	mlḥt	mlḥt	mlḥ[/t	?	vb G pass. ptcpl. f. sg. abs. gen.	?	Tania: passive participle 'salted'; no /m-l-ḥ/ root in DULAT.
 # KTU 1.3 I:8							
 155735	qṣ	qṣ  	qṣ/	qṣ	n. m. sg. cstr. gen.	2) fillet (of meat)	qṣ mri 'fillets of fatling' (DULAT).
-155736	mri	mri  	mr(u[/&i	mrủ (I)	n. m. sg. abs. gen.	2) fatling	likely passive participle
+155736	mri	mri  	mr(u(I)/&i	mrủ (I)	n. m. sg. abs. gen.	2) fatling	Tania: lexicalized patient-noun of √mrʔ (passive-participle origin).
 155737	ndd	ndd	ndd[/	/n-d-d/	vb G act. ptcpl. m. sg. abs. nom.	to go, move	active participle (Tania); DULAT: 'he rushed to invite him'.
 # KTU 1.3 I:9							
 155738	yˤšr	yʿšr  	!y!ˤšr[:d	/ʕ-š-r/	vb D prefc. 3 m. sg.	to invite	likely D-stem
@@ -128,6 +128,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155805	klt	klt	kl(t/t=	klt (I)	n. f. pl. abs. nom.	bride	im klt [kny]t 'if the perfect brides' (DULAT ỉm).
 # KTU 1.3 I:27							
 155806	knyt	[kny]t    	kny(t/t=	knyt	adj. f. pl. abs. nom.	glorious	
+155806	knyt	[kny]t    	kny[/t=	?	vb G pass. ptcpl. f. pl. abs. nom.	?	Tania: G passive participle 'honored/purchased'; DULAT reads adj. knyt 'glorious'.
 155807	w	w 	w	w	conj.	and	
 155808	xxxxxx	xx[xx]xx	xxxxxx	?	?	?	
 # KTU 1.3 I:28							
@@ -1023,6 +1024,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156518	klt	[klt]	kl(t(I)/t=	klt (I)	n. f. pl. cstr. gen.	bride	mṯb klt knyt 'the dwelling of the perfect brides'.
 # KTU 1.3 IV:53							
 156519	knyt	knyt  	kny(t/t=	knyt	adj. f. pl. abs. gen.	glorious	
+156519	knyt	knyt  	kny[/t=	?	vb G pass. ptcpl. f. pl. abs. gen.	?	Tania: G passive participle 'honored/purchased'; DULAT reads adj. knyt 'glorious'.
 156520	w	w 	w	w	conj.	and	
 156521	tˤn	tʿn[  ]  	!t!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
 156522	btlt	[btlt  ]  	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
