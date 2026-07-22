@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Linguistic Rule Change"
+  short_description: "Turn expert feedback into tested corpus rules"
+  default_prompt: "Use $review-linguistic-rule-change to verify this expert parsing comment, measure its corpus impact, and implement the justified rule."

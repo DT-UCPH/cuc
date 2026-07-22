@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage Morphology Lint"
+  short_description: "Separate new morphology errors from the baseline"
+  default_prompt: "Use $triage-morphology-lint-regressions to identify and explain only the newly introduced morphology lint errors."

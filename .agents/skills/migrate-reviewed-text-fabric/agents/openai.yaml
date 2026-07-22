@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migrate Reviewed Text-Fabric"
+  short_description: "Safely migrate reviewed TSVs between TF versions"
+  default_prompt: "Use $migrate-reviewed-text-fabric to migrate reviewed TSVs to the current Text-Fabric tokenization without losing editorial work."

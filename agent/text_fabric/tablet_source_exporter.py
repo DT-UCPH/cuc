@@ -6,6 +6,14 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
 
+EMENDATION_MARKERS = {
+    "restored": ("[", "]"),
+    "remark": ("(", ")"),
+    "redundant": ("{", "}"),
+    "missing": ("<", ">"),
+    "excised": ("[[", "]]"),
+}
+
 
 @dataclass(frozen=True)
 class ExportSummary:
@@ -89,7 +97,59 @@ class TextFabricTabletSourceExporter:
         from tf.fabric import Fabric
 
         tf = Fabric(locations=str(repo_root), modules=f"tf/{version}")
-        return tf.load("g_cons tablet column line sign")
+        return tf.load("g_cons tablet column line sign emen")
+
+    @staticmethod
+    def _sign_span(api: object, word: int, surface: str) -> str:
+        """Render safely recoverable KTU markup from CUC sign features."""
+        F = api.F
+        T = api.T
+        L = getattr(api, "L", None)
+        emen = getattr(F, "emen", None)
+        sign = getattr(F, "sign", None)
+        fallback = str(T.text(word, fmt="text-orig-full") or surface)
+        if L is None or emen is None or sign is None:
+            return fallback
+
+        slot_values = [(slot, str(sign.v(slot) or "")) for slot in L.d(word, "sign")]
+        original_slot_count = len(slot_values)
+        substantive_positions = [
+            index
+            for index, (_, value) in enumerate(slot_values)
+            if value.strip() and value.strip() != "."
+        ]
+        if substantive_positions:
+            first_substantive = substantive_positions[0]
+            last_substantive = substantive_positions[-1]
+            slot_values = [
+                (slot, value)
+                for index, (slot, value) in enumerate(slot_values)
+                if value.strip() != "." or first_substantive < index < last_substantive
+            ]
+        else:
+            slot_values = [(slot, value) for slot, value in slot_values if value.strip() != "."]
+        removed_boundary_divider = len(slot_values) != original_slot_count
+        has_markup = any(emen.v(slot) in EMENDATION_MARKERS for slot, _ in slot_values)
+        if not has_markup and not removed_boundary_divider:
+            return fallback
+
+        rendered: list[str] = []
+        open_emendation = ""
+        for slot, value in slot_values:
+            slot_emendation = str(emen.v(slot) or "")
+            if slot_emendation not in EMENDATION_MARKERS:
+                slot_emendation = ""
+            if slot_emendation != open_emendation:
+                if open_emendation:
+                    rendered.append(EMENDATION_MARKERS[open_emendation][1])
+                if slot_emendation:
+                    rendered.append(EMENDATION_MARKERS[slot_emendation][0])
+                open_emendation = slot_emendation
+            rendered.append(value)
+        if open_emendation:
+            rendered.append(EMENDATION_MARKERS[open_emendation][1])
+        trailing_whitespace = fallback[len(fallback.rstrip()) :]
+        return "".join(rendered) + trailing_whitespace
 
     def _collect_tablet_rows(self, api: object) -> dict[str, list[str]]:
         F = api.F
@@ -103,7 +163,7 @@ class TextFabricTabletSourceExporter:
                 continue
             tablet_name, column, line = section[:3]
             surface = str(F.g_cons.v(word) or "")
-            sign_span = str(T.text(word, fmt="text-orig-full") or surface)
+            sign_span = self._sign_span(api, word, surface)
             column_text = str(column).strip() if column is not None else ""
             line_text = str(line).strip() if line is not None else ""
 

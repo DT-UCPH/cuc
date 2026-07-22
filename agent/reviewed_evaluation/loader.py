@@ -195,7 +195,10 @@ class EvaluationTargetResolver:
         supported_files: list[Path] = []
         for extension in (".tsv", ".txt"):
             supported_files.extend(reviewed_dir.glob(f"*{extension}"))
-        return sorted(supported_files, key=lambda item: item.name)
+        return sorted(
+            (path for path in supported_files if not path.stem.endswith("_original")),
+            key=lambda item: item.name,
+        )
 
     @staticmethod
     def _resolve_auto_match(reviewed_path: Path, auto_path: Path | None) -> Path | None:

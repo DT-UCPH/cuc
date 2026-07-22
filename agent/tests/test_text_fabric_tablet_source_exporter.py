@@ -38,7 +38,7 @@ class _FakeT:
         sign_spans: dict[int, str],
     ) -> None:
         self._sections = sections
-        self._sign_spans = sign_spans
+        self._sign_spans = dict(sign_spans)
 
     def sectionFromNode(self, node: int) -> tuple[str, str, int]:
         return self._sections[node]
@@ -47,6 +47,16 @@ class _FakeT:
         if fmt != "text-orig-full":
             raise AssertionError(f"Unexpected format: {fmt}")
         return self._sign_spans[node]
+
+
+class _FakeL:
+    def __init__(self, word_slots: dict[int, list[int]]) -> None:
+        self._word_slots = word_slots
+
+    def d(self, node: int, node_type: str) -> list[int]:
+        if node_type != "sign":
+            raise AssertionError(f"Unexpected node type: {node_type}")
+        return self._word_slots[node]
 
 
 class _FakeApi:
@@ -157,6 +167,103 @@ class TextFabricTabletSourceExporterTest(unittest.TestCase):
                 "#---------------------------- KTU 2.38 27\n"
                 "157900\trb\trb\trb\n"
                 "157901\trb\trb\trb\n",
+            )
+
+    def test_export_marks_safe_ktu_editorial_features_in_sign_span(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            tf_root = root / "tf"
+            (tf_root / "0.2.8").mkdir(parents=True)
+            generated_root = root / "agent" / "generated_sources"
+            api = _FakeApi(
+                words=[158591, 158592, 158593],
+                g_cons={158591: "š", 158592: "xy", 158593: ""},
+                sections={
+                    158591: ("KTU 1.5", "I", 2),
+                    158592: ("KTU 1.5", "I", 2),
+                    158593: ("KTU 1.5", "I", 2),
+                },
+            )
+            api.F.sign = _FakeValueFeature(
+                {
+                    23080: "a",
+                    23081: "b",
+                    23082: "c",
+                    23083: "d",
+                    23084: "e",
+                    23085: "f",
+                    23086: "g",
+                    23087: "h",
+                    23088: ".",
+                    23089: "i",
+                    23090: ".",
+                    23091: "x",
+                    23092: "y",
+                    23093: " ",
+                    23094: ".",
+                    23095: ".",
+                }
+            )
+            api.F.emen = _FakeValueFeature(
+                {
+                    23080: "restored",
+                    23081: "restored",
+                    23082: "remark",
+                    23083: "redundant",
+                    23084: "missing",
+                    23085: "excised",
+                    23086: "excised",
+                    23087: "",
+                    23088: "redundant",
+                    23089: "",
+                    23090: "restored",
+                    23091: "",
+                    23092: "",
+                    23093: "",
+                    23094: "",
+                    23095: "",
+                }
+            )
+            api.F.trailer = _FakeValueFeature({158591: "."})
+            api.F.trailer_emen = _FakeValueFeature({158591: "redundant"})
+            api.L = _FakeL(
+                {
+                    158591: [
+                        23080,
+                        23081,
+                        23082,
+                        23083,
+                        23084,
+                        23085,
+                        23086,
+                        23087,
+                        23088,
+                        23089,
+                        23090,
+                    ],
+                    158592: [23091, 23092, 23093, 23094],
+                    158593: [23095],
+                }
+            )
+            api.T._sign_spans[158591] = "š  "
+            api.T._sign_spans[158592] = "xy . "
+            api.T._sign_spans[158593] = ".  "
+
+            exporter = TextFabricTabletSourceExporter(
+                repo_root=root,
+                tf_root=tf_root,
+                generated_root=generated_root,
+                loader=lambda _repo_root, _version: api,
+            )
+
+            summary = exporter.export_latest()
+
+            self.assertEqual(
+                (summary.output_dir / "KTU 1.5.tsv").read_text(encoding="utf-8"),
+                "#---------------------------- KTU 1.5 2\n"
+                "158591\tš\tš\t[ab](c){d}<e>[[fg]]h{.}i  \n"
+                "158592\txy\txy\txy  \n"
+                "158593\t\t\t  \n",
             )
 
 

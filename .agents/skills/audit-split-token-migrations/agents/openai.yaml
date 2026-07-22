@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Split-Token Migrations"
+  short_description: "Validate migrated split-token pairs and comments"
+  default_prompt: "Use $audit-split-token-migrations to audit reviewed TSVs for broken split-token pairs, lost comments, and incorrect merged analyses."

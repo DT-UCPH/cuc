@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+staged_tsvs=()
+while IFS= read -r path; do
+  [[ -n "$path" ]] && staged_tsvs+=("$path")
+done < <(
+  git diff --cached --name-only --diff-filter=ACMR -- \
+    | rg '^auto_parsing/.+\.tsv$' || true
+)
+
+if [[ ${#staged_tsvs[@]} -eq 0 ]]; then
+  exit 0
+fi
+
+python="$repo_root/agent/.venv/bin/python"
+if [[ ! -x "$python" ]]; then
+  echo "pre-commit: missing agent/.venv/bin/python" >&2
+  exit 1
+fi
+
+tmpdir="$(mktemp -d)"
+trap 'rm -rf "$tmpdir"' EXIT
+
+lint_variant() {
+  local input_file="$1"
+  local output_file="$2"
+  (
+    cd "$repo_root/agent"
+    .venv/bin/python linter/lint.py \
+      --input-format auto \
+      --dulat local_sources/dulat_cache.sqlite \
+      --udb "$tmpdir/no-udb.sqlite" \
+      "$input_file"
+  ) >"$output_file" 2>&1
+}
+
+failed=0
+stage_root="$tmpdir/stage"
+head_root="$tmpdir/head"
+
+for rel_path in "${staged_tsvs[@]}"; do
+  stage_file="$stage_root/$rel_path"
+  head_file="$head_root/$rel_path"
+  stage_lint="$tmpdir/stage-$RANDOM.lint"
+  head_lint="$tmpdir/head-$RANDOM.lint"
+  new_errors="$tmpdir/new-$RANDOM.lint"
+
+  mkdir -p "$(dirname "$stage_file")" "$(dirname "$head_file")"
+  git show ":$rel_path" >"$stage_file"
+
+  if ! lint_variant "$stage_file" "$stage_lint"; then
+    echo "pre-commit: failed to lint staged file $rel_path" >&2
+    sed -n '1,120p' "$stage_lint" >&2 || true
+    failed=1
+    continue
+  fi
+
+  if git cat-file -e "HEAD:$rel_path" 2>/dev/null; then
+    git show "HEAD:$rel_path" >"$head_file"
+    if ! lint_variant "$head_file" "$head_lint"; then
+      echo "pre-commit: failed to lint baseline HEAD file $rel_path" >&2
+      sed -n '1,120p' "$head_lint" >&2 || true
+      failed=1
+      continue
+    fi
+  else
+    : >"$head_lint"
+  fi
+
+  if ! "$python" "$repo_root/agent/scripts/compare_lint_errors.py" \
+    "$head_lint" "$stage_lint" >"$new_errors"; then
+    echo "pre-commit: new critical parsing errors in $rel_path" >&2
+    sed -n '1,120p' "$new_errors" >&2
+    failed=1
+  fi
+done
+
+if [[ $failed -ne 0 ]]; then
+  echo "pre-commit: blocked commit due to newly introduced lint ERRORs in staged parsing files." >&2
+  exit 1
+fi
+
+exit 0

@@ -161,12 +161,13 @@ class BootstrapTabletLabelingTest(unittest.TestCase):
             conn.commit()
             conn.close()
 
-            in_path.write_text("1\ttnn\n", encoding="utf-8")
+            in_path.write_text("1\ttnn\ttnn\t[[t]]nn\n", encoding="utf-8")
             forms_map = load_dulat_forms(db_path)
             process_file(in_path, out_path, forms_map)
             line = out_path.read_text(encoding="utf-8").splitlines()[0]
 
             self.assertNotIn("DULAT: NOT FOUND", line)
+            self.assertNotIn("[[", line)
             self.assertIn("\ttnn(I)/\ttnn (I)\tDN\tdragon\t", line)
 
     def test_load_dulat_forms_applies_form_text_alias_override(self) -> None:

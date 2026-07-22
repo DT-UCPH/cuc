@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ugaritic Feminine Endings"
+  short_description: "Audit and repair Ugaritic feminine endings"
+  default_prompt: "Use $parse-ugaritic-feminine-endings to audit and correct feminine noun ending encodings in reviewed TSV files."

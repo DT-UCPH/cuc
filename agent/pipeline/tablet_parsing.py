@@ -31,6 +31,7 @@ from pipeline.steps.base import RefinementStep
 from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFixer
 from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
 from pipeline.steps.dulat_gate import DulatMorphGate
+from pipeline.steps.dulat_source_provenance import DulatSourceProvenanceAnnotator
 from pipeline.steps.feminine_t_singular_split import FeminineTSingularSplitFixer
 from pipeline.steps.function_word_clitic_notation import FunctionWordCliticNotationFixer
 from pipeline.steps.function_word_clitic_pruner import FunctionWordCliticPruner
@@ -197,6 +198,7 @@ class TabletParsingPipeline:
             # After every repair step has run, tokens that still cannot
             # reconstruct fall back to '?' with a DULAT candidate hint.
             UnresolvableTokenFallback(),
+            DulatSourceProvenanceAnnotator(dulat_db=self.config.dulat_db),
             # Keep schema pass last so any content-changing steps still end in
             # strict 7-column/quote-safe TSV for GitHub rendering.
             TsvSchemaFormatter(),

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regenerate Automatic Parsing"
+  short_description: "Regenerate parser outputs with guarded validation"
+  default_prompt: "Use $regenerate-automatic-parsing to regenerate the requested automatic parsing versions with the current parser and validate the results."

@@ -141,6 +141,7 @@ class EvaluationTargetResolverTest(unittest.TestCase):
             auto_dir.mkdir()
             (reviewed_dir / "KTU 1.3.tsv").write_text("", encoding="utf-8")
             (reviewed_dir / "KTU 1.5.txt").write_text("", encoding="utf-8")
+            (reviewed_dir / "KTU_1.3_original.txt").write_text("", encoding="utf-8")
             (auto_dir / "KTU 1.3.tsv").write_text("", encoding="utf-8")
             (auto_dir / "KTU 1.5.tsv").write_text("", encoding="utf-8")
 

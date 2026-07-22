@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-repo_root="$(cd "$(dirname "$0")/.." && pwd)"
-cd "$repo_root"
+script_dir="$(cd "$(dirname "$0")" && pwd)"
+repo_root="$(git -C "$script_dir" rev-parse --show-toplevel)"
 
-git config core.hooksPath .githooks
+git -C "$repo_root" config core.hooksPath .githooks
 echo "Configured core.hooksPath=.githooks"
