@@ -1316,6 +1316,38 @@ def analysis_has_n_assimilation_marker_without_n_stem(analysis: str, pos_field: 
     return "N" not in stems
 
 
+# In a III-ʔ (III-aleph) noun, adjective, participle, or bound infinitive the
+# word-final aleph grapheme spells the case vowel: u→nominative, i→genitive,
+# a→accusative.  See lexicon_and_grammar/tagging_conventions_cuc.md ("In III-ˀ
+# nouns aleph letters show case endings … ks(u/&u nominative, ks(u/&i genitive,
+# ks(u/&a accusative") and Notarius, *The Ugaritic passive participle*, §2.2.2
+# criterion (4), which uses the same contrast (ptcpl. nom. mrủ vs. G-passive SC
+# pršả) as a diagnostic.  The realized case aleph is encoded right after the
+# nominal/participial boundary as `/&u`, `/&i`, or `/&a` (optionally after `[`
+# for a deverbal `[/`), so the labelled case must agree with that vowel.
+_III_ALEPH_CASE = {"u": "nom.", "i": "gen.", "a": "acc."}
+_III_ALEPH_CASE_ENDING_RE = re.compile(r"\[?/&([uia])(?=$|[+~=(;#\s])")
+
+
+def iii_aleph_case_mismatch(analysis: str, pos_field: str):
+    """Return (expected_case, stated_cases) when a III-ʔ realized case-ending
+    aleph contradicts the labelled case; otherwise None.
+
+    A `nom.` label on a `/&i` encoding is an internal inconsistency: either the
+    case or the realized vowel is wrong.  Oblique `gen., acc.` accepts both `i`
+    and `a`.  Fires only when the boundary aleph is present and the POS states
+    an explicit case, so it never guesses a case that is not written.
+    """
+    match = _III_ALEPH_CASE_ENDING_RE.search(analysis or "")
+    if not match:
+        return None
+    expected = _III_ALEPH_CASE[match.group(1)]
+    stated = {c + "." for c in re.findall(r"\b(nom|gen|acc)\.", pos_field or "")}
+    if not stated or expected in stated:
+        return None
+    return expected, ", ".join(sorted(stated))
+
+
 @dataclass
 class DulatEntry:
     entry_id: int
@@ -3465,6 +3497,25 @@ def lint_file(
                         surface,
                         a_txt,
                         "Markers `(]n]`/`]n]` are only valid in N-stem verb analyses",
+                    )
+                )
+            iii_case = iii_aleph_case_mismatch(a_txt, p_field)
+            if iii_case is not None:
+                expected_case, stated_cases = iii_case
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        (
+                            "III-ʔ case-ending aleph encodes {exp} but analysis states "
+                            "{got}; align the case or the realized vowel".format(
+                                exp=expected_case, got=stated_cases
+                            )
+                        ),
                     )
                 )
             if analysis_has_homonym_marked_n_clitic(a_txt):
