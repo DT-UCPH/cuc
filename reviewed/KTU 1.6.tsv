@@ -163,9 +163,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159391	špḥh	[š]pḥh    	špḥ/+h=	špḥ	n. m. sg. cstr. gen. + 3 f. sg. suff.	family, offspring	DULAT: [b š]pḥh '[before] her clan' (Anat).
 159392	pšt	pšt 	?	?	?	?	Crux: CUC pštbm; DULAT reads t!tbm (s.v. špḥ); p + št 'and (she) placed'? Cf. /y-b-m/ cited for this passage.
 159393	bm	bm  	b~m	b	prep. + encl. -m	in	
-159394	ˤnt	ʿn[t]	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	KTU: ˤn[t].
+159394	ˤnt	ʿn[t]	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.6 I:31							
-159395	kd	[kd  ]  	kd(II)	kd (II)	conj.	as, since	KTU: [kd] restored; broken context.
+159395	kd	[kd  ]  	kd(II)	kd (II)	conj.	as, since	
 159396	ġzrh	ġzrh  	ġzr/+h	ġzr	n. m. sg. cstr. + 3 m. sg. suff.	lad, hero	
 159397	ybm	ybm  	ybm/	ybm	n. m. sg. abs.	brother-in-law	DULAT: ybm l ilm 'brother-in-law of the gods'.
 159398	l	l 	l(I)	l (I)	prep.	to, of	
@@ -281,7 +281,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159486	dq	dq  	dq(I)/	dq (I)	adj. m. sg. abs. nom.	tiny, weak	'one weak of strength cannot run' (El of Athirat's candidate).
 159487	anm	anm  	an(III)/m	ản (III)	n. m. pl. abs. gen.	strength	
 159488	l	l 	l(II)	l (II)	adv.	not	DULAT cites l (II) here: dq ảnm l yrẓ.
-159489	yrq	yrq	!y!r(ẓ&q[	/r-ẓ/	vb G prefc. 3 m. sg.	to run, compete	DULAT/KTU: yrẓ; tablet q for ẓ (sign confusion), marked (ẓ&q.
+159489	yrq	yrq	!y!r(ẓ&q[	/r-ẓ/	vb G prefc. 3 m. sg.	to run, compete	DULAT: yrẓ; written q for ẓ (sign confusion), marked (ẓ&q.
 # KTU 1.6 I:51							
 159490	ˤm	ʿm  	ˤm(I)	ʕm (I)	prep.	with	
 159491	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
@@ -364,12 +364,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159553	klh	klh	kl/+h	kl	n. m. sg. cstr. gen. + 3 m. sg. suff.	totality	'all of it'.
 # KTU 1.6 I:66							
 159554	xxx	[xxx  ]  	?	?	?	?	
-159555	tšabn	tšabn  	!t!š(ʔ&ab[n	/š-ʔ-b/	vb G prefc. 3 f. pl.	to draw water	DULAT: (y/t)šảbn b rḥbt; KTU: [t]šabn.
+159555	tšabn	tšabn  	!t!š(ʔ&ab[n	/š-ʔ-b/	vb G prefc. 3 f. pl.	to draw water	DULAT: (y/t)šảbn b rḥbt.
 159556	b	b 	b	b	prep.	in, from	
 159557	rḥbt	rḥbt 	rḥb(t/t	rḥbt	n. f. sg. abs. gen.	amphora, jar	Here the noun rḥbt (contrast 1.5 III:2 rḥb (I) adj.).
 # KTU 1.6 I:67							
 159558	xxxxx	[xxxxx  ]  	?	?	?	?	
-159559	tšabn	[t]šabn    	!t!š(ʔ&ab[n	/š-ʔ-b/	vb G prefc. 3 f. pl.	to draw water	KTU: [t]šabn.
+159559	tšabn	[t]šabn    	!t!š(ʔ&ab[n	/š-ʔ-b/	vb G prefc. 3 f. pl.	to draw water	
 159560	b	b 	b	b	prep.	in, from	
 159561	kknt	kknt	kkn(t/t	kknt	n. f. sg. abs. gen.	pot, jar, pitcher	
 # KTU 1.6 II:1							
@@ -892,8 +892,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159970	ksi	ksi  	ks(u/&i	ks/śủ	n. m. sg. cstr. gen.	seat, throne	
 159971	mlkh	mlkh	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	kingdom	'his kingdom'.
 # KTU 1.6 V:6							
-159972	l	l[ ] 	l(I)	l (I)	prep.	to	Split; KTU: l[n]ḫ[t]. | Migrated from legacy reviewed tokenization.
-159973	nḫt	[n]ḫ[t]    	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan	Split; KTU: l[n]ḫ[t]. | Migrated from legacy reviewed tokenization.
+159972	l	l[ ] 	l(I)	l (I)	prep.	to	Migrated from legacy reviewed tokenization.
+159973	nḫt	[n]ḫ[t]    	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan	Migrated from legacy reviewed tokenization.
 159974	l	l 	l(I)	l (I)	prep.	on	
 159975	kḥṯ	kḥṯ  	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
 159976	drkth	drkth	drk(t/t+h	drkt	n. f. sg. cstr. gen. + 3 m. sg. suff.	rule, power	'the throne of his dominion'.
@@ -946,7 +946,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160013	išt	išt	iš(t/t	ỉšt	n. f. sg. abs. gen.	fire	
 # KTU 1.6 V:15							
 160014	ˤlk	ʿlk  	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
-160015	pht	[pht  ]  	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	KTU: [pht ṭḥ]n restored.
+160015	pht	[pht  ]  	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
 160016	ṭḥn	[ṭḥ]n    	!!ṭḥn[/	/ṭ-ḥ-n/	vb G inf. abs. acc.	grinding	
 160017	b	b 	b	b	prep.	with	
 160018	rḥ	rḥ	rḥ(III)/m	rḥ (III)	n. m. du. abs. gen.	millstone	MERGE WITH THE NEXT: rḥ+m = rḥm, split across lines V:15/16; DULAT cites rḥ (III) here.
@@ -1013,29 +1013,29 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 V:27							
 160066	štxx	štxx[                      ]                      	?	?	?	?	
 # KTU 1.6 V:28							
-160067	dl	dl[                           ]                           	?	?	?	?	Broken context; dl 'poor'?
+160067	dl	dl[                           ]                           	?	?	?	?	dl 'poor'?
 # KTU 1.6 V:29							
 160068	š	š[                           ]                           	?	?	?	?	
 # KTU 1.6 V:30							
 160069		…	?	?	?	?	
 # KTU 1.6 VI:1							
 160070	xxxxxxx	[xxxxxxx  ]  	?	?	?	?	
-160071	ṭrdh	[ṭ]rdh	ṭrd[+h	/ṭ-r-d/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to expel, throw out	KTU: [yṭ]rdh (then prefc.); DULAT cites /ṭ-r-d/ here.
+160071	ṭrdh	[ṭ]rdh	ṭrd[+h	/ṭ-r-d/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to expel, throw out	DULAT cites /ṭ-r-d/ here.
 # KTU 1.6 VI:2							
 160072	xxxxxxx	[xxxxxxx  ]  	?	?	?	?	
 160073	gršh	[g]ršh	grš[+h	/g-r-š/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to drive out, evict	DULAT cites /g-r-š/ here (broken context).
 # KTU 1.6 VI:3							
 160074	xxxxx	[xxxxx ] 	?	?	?	?	
-160075	k	[k ] 	k(I)	k (I)	prep.	like	Restored in lacuna (KTU).
-160076	ˤṣr	[ʿṣ]r  	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	k ˤṣr 'like a bird'; largely restored (KTU).
-160077	u	u	?	?	?	?	Broken.
+160075	k	[k ] 	k(I)	k (I)	prep.	like	
+160076	ˤṣr	[ʿṣ]r  	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	k ˤṣr 'like a bird'.
+160077	u	u	?	?	?	?	
 # KTU 1.6 VI:4							
-160078	dnh	[dnh  ]  	?	?	?	?	Restored in lacuna (KTU): [dnh ytn aḫ]h.
-160079	ytn	[ytn  ]  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	Restored in lacuna (KTU).
-160080	aḫh	[aḫ]h	aḫ(I)/+h	ảḫ (I)	n. m. sg. cstr. acc. + 3 m. sg. suff.	brother (by blood)	KTU: aḫ]h.
+160078	dnh	[dnh  ]  	?	?	?	?	
+160079	ytn	[ytn  ]  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+160080	aḫh	[aḫ]h	aḫ(I)/+h	ảḫ (I)	n. m. sg. cstr. acc. + 3 m. sg. suff.	brother (by blood)	
 # KTU 1.6 VI:5							
 160081	xxxxxxxxx	[xxxxxxxxx]  	?	?	?	?	
-160082	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	Broken context.
+160082	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	
 # KTU 1.6 VI:6							
 160083	xxxxxx	[xxxxx]x    	?	?	?	?	
 160084	gmr	gmr  	gmr/	gmr	n. m. sg. cstr.	champion, fighter	gmr limm 'champion of the peoples' (DULAT, broken context).
@@ -1051,7 +1051,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160091	šbˤt	šbʿt  	šbˤ(I)/t	šbʕ (I)	n. num. f. sg.	seven	
 160092	ġlmh	ġlmh	ġlm/+h	ġlm	n. m. pl. cstr. + 3 m. sg. suff.	boy, lad	'his seven lads' (Mot's; DULAT: šbˤt ġlmh).
 # KTU 1.6 VI:9							
-160093	w	[w ] 	w	w	conj.	and	KTU: [w]ˤn.
+160093	w	[w ] 	w	w	conj.	and	
 160094	ˤn	ʿn  	ˤn(y(I)[	/ʕ-n-y/ (I)	vb G suffc. 3 m. sg.	to answer	Answer formula (cf. II:13); DULAT cites /ʕ-n/ 'to see' here.
 160095	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160096	ilm	ilm 	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
@@ -1190,35 +1190,35 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160199	b	b 	b	b	prep.	at	
 160200	qlh	qlh  	ql(I)/+h=	ql (I)	n. m. sg. cstr. gen. + 3 f. sg. suff.	voice	b qlh 'at her voice' (Šapšu; DULAT: yˤr mt b qlh 'Mot trembles at her voice').
 160200	qlh	qlh  	ql[+h	/q-l/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to fall (down)	DULAT cites /q-l/ at this line.
-160201	yšu	yš[u  ]  	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	KTU: yš[u gh wyṣḥ] restored.
-160202	gh	[gh  ]  	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	Restored in lacuna (KTU).
-160203	w	[w ] 	w	w	conj.	and	Restored in lacuna (KTU).
-160204	yṣḥ	[yṣḥ]	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	Restored in lacuna (KTU).
+160201	yšu	yš[u  ]  	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
+160202	gh	[gh  ]  	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	
+160203	w	[w ] 	w	w	conj.	and	
+160204	yṣḥ	[yṣḥ]	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 # KTU 1.6 VI:33							
 160205	bˤl	bʿl   	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 160206	yṯṯbn	yṯṯbn [ ]  	!y!]ṯ](yṯb[~n	/y-ṯ-b/	vb Gt? prefc. 3 m. sg. + energic -n	to be seated, enthroned	UNP: 'Let Baal be enthroned on his royal throne'; t-infix assimilated to ṯ; stem uncertain.
-160207	l	[l ] 	l(I)	l (I)	prep.	on	KTU: [lksi] restored.
-160208	ksi	[ksi]	ks(u/&i	ks/śủ	n. m. sg. cstr. gen.	seat, throne	Restored in lacuna (KTU).
+160207	l	[l ] 	l(I)	l (I)	prep.	on	
+160208	ksi	[ksi]	ks(u/&i	ks/śủ	n. m. sg. cstr. gen.	seat, throne	
 # KTU 1.6 VI:34							
 160209	mlkh	mlkh  	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	kingdom	'his kingdom'.
-160210	l	l 	l(I)	l (I)	prep.	on	KTU: ln[ḫt] restored.
-160211	nḫt	n[ḫt  ]  	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan, resting-place	Restored in lacuna (KTU).
-160212	l	[l ] 	l(I)	l (I)	prep.	on	Restored in lacuna (KTU).
-160213	kḥṯ	[kḥṯ]	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	Restored in lacuna (KTU).
+160210	l	l 	l(I)	l (I)	prep.	on	
+160211	nḫt	n[ḫt  ]  	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan, resting-place	
+160212	l	[l ] 	l(I)	l (I)	prep.	on	
+160213	kḥṯ	[kḥṯ]	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
 # KTU 1.6 VI:35							
 160214	drkth	drkth[                   ]                  	drk(t/t+h	drkt	n. f. sg. cstr. gen. + 3 m. sg. suff.	rule, power	'the throne of his dominion'.
 # KTU 1.6 VI:36							
 160215	xxxx	[xxxx  ]  	?	?	?	?	
-160216	drkt	dr[kt         ]         	drk(t/t	drkt	n. f. sg.	rule, power	KTU: dr[kt]; broken context.
+160216	drkt	dr[kt         ]         	drk(t/t	drkt	n. f. sg.	rule, power	
 # KTU 1.6 VI:37							
-160217	drdr	dr[d]r    	drdr/	drdr	n. m.	eternity	dr dr 'generation of generations'; DULAT: drdr → dr. Broken context.
+160217	drdr	dr[d]r    	drdr/	drdr	n. m.	eternity	dr dr 'generation of generations'; DULAT: drdr → dr.
 160218	hn	hn[             ]             	hn	hn	deictic functor	behold!	
 # KTU 1.6 VI:38							
 160219	xxxx	[xxxx  ]  	?	?	?	?	
-160220	šnt	šnt[            ]            	šn(t(I)/t	šnt (I)	n. f. sg.	year	Broken context.
+160220	šnt	šnt[            ]            	šn(t(I)/t	šnt (I)	n. f. sg.	year	
 # KTU 1.6 VI:39							
 160221	xxxxxxxx	[xxxxx]xx[x  ]  	?	?	?	?	
-160222	il	[il  ]  	il(I)/	ỉl (I)	DN m. sg. abs.	ʾIlu/El	KTU: [il ]dpid restored.
+160222	il	[il  ]  	il(I)/	ỉl (I)	DN m. sg. abs.	ʾIlu/El	
 160223	d	d 	d	d	det. or rel. functor	the one of	
 160224	pid	pid	pid/	pỉd	n. m. sg. abs. gen.	heart	
 # KTU 1.6 VI:40							
@@ -1233,7 +1233,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160231	l	l 	l(III)	l (III)	functor	indeed	
 160232	tštql	tštql	!t=!]š]]t]ql[	/q-l/	vb Št prefc. 2 m. sg.	to betake oneself, descend	DULAT cites /q-l/: l tštql; UNP: 'So get yourself to…'.
 # KTU 1.6 VI:43							
-160233	šir	[ši]r    	šir(I)/	šỉr (I)	n. m. sg. abs. acc.	flesh, meat	KTU: [ši]r ṭry 'fresh meat'.
+160233	šir	[ši]r    	šir(I)/	šỉr (I)	n. m. sg. abs. acc.	flesh, meat	
 160234	ṭry	ṭry  	ṭry(I)/	ṭry (I)	adj. m. sg. abs. acc.	fresh	
 160235	ap	ap  	ap(I)	ảp (I)	adv./conj.	also	DULAT: ap l tlḥm lḥm trmmt 'so you may eat the sacrificial meal' (UNP).
 160236	l	l 	l(III)	l (III)	functor	indeed	

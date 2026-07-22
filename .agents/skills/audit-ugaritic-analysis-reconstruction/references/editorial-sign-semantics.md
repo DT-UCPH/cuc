@@ -45,3 +45,13 @@ Examples:
 
 Validate the final analysis against the normalized physical surface, not the corrected lookup
 and not the raw sign-span punctuation. Preserve the full sign span in reviewed TSVs.
+
+## Comment and Source Discipline
+
+- Do not add a comment that merely restates editorial notation already visible in the sign
+  span, such as “restored in lacuna,” “erased,” “redundant,” or “broken context.”
+- Do not label a reading as `KTU` unless it was checked directly against a verified KTU
+  edition. CUC, older CUC exports, TF features, UDB, and database fields named `KTU` are not
+  the original KTU edition and must be identified by their actual provenance when cited.
+- Add a comment only when it preserves non-obvious linguistic or textual evidence, a verified
+  source attribution, or an explicit reviewer decision not already encoded by the sign span.
