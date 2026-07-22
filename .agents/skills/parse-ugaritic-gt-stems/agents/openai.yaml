@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parse Ugaritic Gt-Stems"
+  short_description: "Audit Ugaritic Gt-stem verb encodings"
+  default_prompt: "Use $parse-ugaritic-gt-stems to audit and correct Gt-stem analyses in the selected Ugaritic TSV files."

@@ -138,6 +138,55 @@ class LinterVerbPosStemTest(unittest.TestCase):
         self.assertFalse(any(message.startswith(self.MISSING_STEM_MARKER) for message in messages))
         self.assertFalse(any(message == self.XT_STEM_MISMATCH for message in messages))
 
+    def test_errors_when_firm_gt_pos_lacks_t_marker(self) -> None:
+        messages = self._lint_messages(
+            "vb Gt prefc. 3 m. sg.",
+            surface="ytmr",
+            analysis="!y!tmr[",
+            dulat_token="/ʔ-m-r/",
+            gloss="to look",
+            entry_morph="Gt, prefc.",
+            entry_stems_value={"Gt"},
+        )
+        stem_errors = [m for m in messages if m.startswith(self.MISSING_STEM_MARKER)]
+        self.assertTrue(any("]t]" in message for message in stem_errors))
+
+    def test_no_error_when_firm_gt_pos_has_t_marker(self) -> None:
+        messages = self._lint_messages(
+            "vb Gt prefc. 3 m. sg.",
+            surface="ytmr",
+            analysis="!y!(ʔ]t]mr[",
+            dulat_token="/ʔ-m-r/",
+            gloss="to look",
+            entry_morph="Gt, prefc.",
+            entry_stems_value={"Gt"},
+        )
+        self.assertFalse(any(message.startswith(self.MISSING_STEM_MARKER) for message in messages))
+
+    def test_uncertain_gt_pos_does_not_require_t_marker(self) -> None:
+        messages = self._lint_messages(
+            "vb Gt? prefc. 3 m. sg.",
+            surface="yṯṯb",
+            analysis="!y!]ṯ](yṯb[",
+            dulat_token="/y-ṯ-b/",
+            gloss="to sit",
+            entry_morph="Gt, prefc.",
+            entry_stems_value={"Gt"},
+        )
+        self.assertFalse(any(message.startswith(self.MISSING_STEM_MARKER) for message in messages))
+
+    def test_gt_slash_alternative_does_not_require_t_marker(self) -> None:
+        messages = self._lint_messages(
+            "vb Gt/G prefc. 3 m. sg.",
+            surface="ytmr",
+            analysis="!y!tmr[",
+            dulat_token="/ʔ-m-r/",
+            gloss="to look",
+            entry_morph="Gt, prefc.",
+            entry_stems_value={"G", "Gt"},
+        )
+        self.assertFalse(any(message.startswith(self.MISSING_STEM_MARKER) for message in messages))
+
     def test_errors_when_prefixed_n_stem_lacks_assimilated_n_marker(self) -> None:
         messages = self._lint_messages(
             "vb N",

@@ -192,6 +192,80 @@ class VerbalFeatureCompletionTest(unittest.TestCase):
         self.assertEqual(rewritten.analysis, "!t!m]t]ḫṣ[~n")
         self.assertEqual(rewritten.pos, "vb Gt prefc. 3 f. sg.")
 
+    def test_repairs_i_aleph_gt_infix_despite_existing_person_features(self) -> None:
+        completer = VerbalFeatureCompleter(_FakeReader())
+        row = TabletRow(
+            "154981",
+            "yitmr",
+            "!y!(ʔ&itmr[",
+            "/ʔ-m-r/",
+            "vb Gt prefc. 3 m. sg.",
+            "to be seen",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "!y!(ʔ&i]t]mr[")
+        self.assertEqual(rewritten.pos, "vb Gt prefc. 3 m. sg.")
+
+    def test_repairs_weak_initial_gt_and_preserves_homonym(self) -> None:
+        completer = VerbalFeatureCompleter(_FakeReader())
+        row = TabletRow(
+            "155449",
+            "its",
+            "!(ʔ&i!(nts(I)[",
+            "/n-s(-y)/ (I)",
+            "vb Gt prefc. 1 c. sg.",
+            "to try",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "!(ʔ&i!(n]t]s(y(I)[")
+        self.assertEqual(rewritten.pos, "vb Gt prefc. 1 c. sg.")
+
+    def test_repairs_gt_infix_and_preserves_existing_suffix_tail(self) -> None:
+        completer = VerbalFeatureCompleter(_FakeReader())
+        row = TabletRow(
+            "166520",
+            "ttlkn",
+            "!t!(htlk[+n",
+            "/h-l-k/",
+            "vb Gt prefc.",
+            "to scour",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "!t!(h]t]lk[+n")
+
+    def test_repairs_assimilated_gt_without_expanding_ambiguous_png(self) -> None:
+        completer = VerbalFeatureCompleter(_FakeReader())
+        row = TabletRow(
+            "160585",
+            "ttpl",
+            "!t!(ntpl[",
+            "/n-p-l/",
+            "vb Gt prefc.",
+            "to be felled",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "!t!(n]t]pl[")
+        self.assertEqual(rewritten.pos, "vb Gt prefc.")
+
+    def test_infers_prefix_conjugation_for_firm_gt_marker_repair(self) -> None:
+        completer = VerbalFeatureCompleter(_FakeReader())
+        row = TabletRow(
+            "156229",
+            "itrṯ",
+            "!(ʔ&i!(ytrṯ[",
+            "/y-r-ṯ/",
+            "vb Gt",
+            "to take possession",
+            "",
+        )
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.analysis, "!(ʔ&i!(y]t]rṯ[")
+        self.assertEqual(rewritten.pos, "vb Gt prefc. 1 c. sg.")
+
 
 if __name__ == "__main__":
     unittest.main()

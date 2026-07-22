@@ -67,6 +67,7 @@ from pipeline.steps.variant_reconstruction_pruner import VariantReconstructionPr
 from pipeline.steps.variant_row_unwrapper import VariantRowUnwrapper
 from pipeline.steps.verb_form_encoding_split import VerbFormEncodingSplitFixer
 from pipeline.steps.verb_form_morph_pos import VerbFormMorphPosFixer
+from pipeline.steps.verb_gt_infix import VerbGtInfixFixer
 from pipeline.steps.verb_l_stem_gemination import VerbLStemGeminationFixer
 from pipeline.steps.verb_mixed_stem_split import VerbMixedStemSplitFixer
 from pipeline.steps.verb_n_stem_assimilation import VerbNStemAssimilationFixer
@@ -192,6 +193,7 @@ class TabletParsingPipeline:
             VerbNStemAssimilationFixer(),
             PostVerbVariantRowUnwrapper(),
             PostVerbUnwrappedDuplicatePruner(),
+            VerbGtInfixFixer(dulat_db=self.config.dulat_db),
             VerbalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
             # Exact-form completion can distinguish suffix conjugations only
             # after the first generic marker pass. Re-run the idempotent stem

@@ -3,7 +3,11 @@ import enum
 
 stems = {
     "G": "basic (ground) verbal stem; corresponds to BH Qal",
-    "Gt": "verbal G stem with -t infixed; generally reflexive; appears in Moabite, Phoenician, and Aramaic",
+    "Gt": (
+        "verbal G stem with -t- infixed; principally an agent-oriented middle "
+        "(direct or indirect reflexive, reciprocal, and autobenefactive), with rare "
+        "non-agentive uses"
+    ),
     "Gpass.": "G passive; appears in Arabic and the Amarna letters from Canaan",
     "N": "verbal stem with n-prefix; reflexive-passive; corresponds to BH Niphʿal and Akkadian Niprusu",
     "D": "triconsonantal verbal stem with long (geminated) second radical; factitive, causative, intensive; corresponds to BH Piʿʿēl",

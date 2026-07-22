@@ -1,5 +1,17 @@
 ## 2026-07-22
 
+- Operationalized Notarius, Chapter 6 on the Gt-stem as the project skill
+  `parse-ugaritic-gt-stems`, including a conservative TSV audit and an
+  evidence guide that separates explicit morphology from semantic typology.
+- Extended verbal candidate generation for secure Gt patterns with elided
+  root-initial `/n/` or `/h/`, I-aleph vowel spellings, and the Gt 1cs `i-`
+  preformative; firm `vb Gt` POS labels now require the written `]t]` marker,
+  while `Gt?` remains exempt.
+- Corrected six reviewed Gt analyses (`yitmr`, `its`, `ttpl`, and three
+  `/h-l-k/` forms) without promoting the debated assimilated `yṯṯbn` reading.
+- Regenerated the 12 firm Gt rows missing `]t]` in automatic parsing 0.2.8;
+  the scoped pass removes 12 lint errors without changing unrelated rows.
+
 - Added sign-span-aware lexical lookup for safely interpreted KTU editorial
   notation. Content inside `[[...]]` and `{...}` can now be removed for DULAT
   candidate lookup after the full sign span is validated against the normalized

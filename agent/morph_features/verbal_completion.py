@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+from dataclasses import replace
 from typing import Sequence
 
 from morph_features.analysis_decoder import (
@@ -12,10 +13,14 @@ from morph_features.analysis_decoder import (
 )
 from morph_features.dulat_feature_reader import DulatFeatureReader
 from morph_features.feature_bundle_builder import build_verbal_bundle
-from morph_features.paradigm_matcher import generate_verbal_candidates
+from morph_features.paradigm_matcher import VerbalCandidate, generate_verbal_candidates
 from morph_features.pos_renderer import render_pos
 from morph_features.types import CompletedVariant
-from pipeline.steps.analysis_utils import normalize_surface, reconstruct_surface_from_analysis
+from pipeline.steps.analysis_utils import (
+    analysis_matches_surface,
+    normalize_surface,
+    reconstruct_surface_from_analysis,
+)
 from pipeline.steps.base import TabletRow
 
 _STEM_POS_RE = re.compile(r"\b(Gt|Dt|Lt|Nt|tD|tL|Št|Gpass|Dpass|Špass|G|D|L|N|R|Š)\b")
@@ -65,6 +70,12 @@ class VerbalFeatureCompleter:
         features = self._reader.read_surface_features(row.surface, row.dulat, row.pos)
         stems = self._extract_stems(row.pos)
         forms = self._extract_forms(row.pos, features.forms)
+        if not forms and self.needs_firm_gt_infix_repair(row):
+            # Some DULAT attestations identify the Gt stem without repeating
+            # the conjugation.  A written preformative in the existing
+            # analysis is sufficient to constrain these rows to prefc.; the
+            # paradigm candidate still has to reconstruct the full surface.
+            forms = ["prefc."]
         if not stems:
             stems = [""]
         if not forms:
@@ -283,13 +294,25 @@ class VerbalFeatureCompleter:
             stem=stem,
             conjugation=form,
         )
+        repairing_gt = stem == "Gt" and self.needs_firm_gt_infix_repair(row)
+        if repairing_gt:
+            candidates = self._preserve_gt_analysis_payload(row, candidates, stem, form)
         if any(explicit) and not self._should_expand_under_specified_suffix_row(
             form=form,
             decoded=decoded,
             analysis=analysis_variant,
             candidates=candidates,
-        ):
+        ) and not repairing_gt:
             return []
+        ambiguous_same_encoding = (
+            repairing_gt
+            and len(candidates) > 1
+            and len({candidate.analysis for candidate in candidates}) == 1
+        )
+        if ambiguous_same_encoding:
+            # A bare t-preformative can represent several paradigm cells.
+            # Repair their shared encoding without inventing person/number.
+            candidates = candidates[:1]
         variants: list[CompletedVariant] = []
         for candidate in candidates:
             variants.append(
@@ -301,9 +324,9 @@ class VerbalFeatureCompleter:
                     features=build_verbal_bundle(
                         stem=stem,
                         form=form,
-                        person=candidate.person,
-                        gender=candidate.gender,
-                        number=candidate.number,
+                        person="" if ambiguous_same_encoding else candidate.person,
+                        gender="" if ambiguous_same_encoding else candidate.gender,
+                        number="" if ambiguous_same_encoding else candidate.number,
                         state=state,
                         case=case,
                         source="morphology-pattern",
@@ -312,6 +335,80 @@ class VerbalFeatureCompleter:
                 )
             )
         return variants
+
+    def needs_firm_gt_infix_repair(self, row: TabletRow) -> bool:
+        """Return whether a secure Gt row lacks its infixed ``]t]`` marker."""
+        stems = self._extract_stems(row.pos)
+        return (
+            stems == ["Gt"]
+            and "]t]" not in (row.analysis or "")
+            and not re.search(r"\bGt\?", row.pos or "")
+            and not re.search(r"\bGt\s*/", row.pos or "")
+        )
+
+    @staticmethod
+    def _preserve_gt_analysis_payload(
+        row: TabletRow,
+        candidates: Sequence[VerbalCandidate],
+        stem: str,
+        form: str,
+    ) -> list[VerbalCandidate]:
+        """Carry homonym/clitic payloads into generated Gt candidates.
+
+        Paradigm matching owns the root and infix encoding.  Homonym labels
+        and already parsed material after ``[`` belong to the lexical row and
+        must survive that replacement (``its`` -> ``...(y(I)[`` and
+        ``ttlkn`` -> ``...lk[+n``).
+        """
+        analysis = (row.analysis or "").strip()
+        homonym_match = re.search(r"\(([IVX]+)\)(?=\[)", analysis)
+        homonym = homonym_match.group(0) if homonym_match else ""
+        tail = analysis.split("[", 1)[1] if "[" in analysis else ""
+
+        generated = list(candidates)
+        generated_from_base = not generated and bool(tail)
+        if generated_from_base:
+            base_analysis = analysis.split("[", 1)[0] + "["
+            base_surface = reconstruct_surface_from_analysis(base_analysis)
+            generated = generate_verbal_candidates(
+                surface=base_surface,
+                dulat=row.dulat,
+                stem=stem,
+                conjugation=form,
+            )
+
+        existing_preformative = VerbalFeatureCompleter._preformative_marker(analysis)
+        if existing_preformative:
+            constrained = [
+                candidate
+                for candidate in generated
+                if VerbalFeatureCompleter._preformative_marker(candidate.analysis)
+                == existing_preformative
+            ]
+            if constrained:
+                generated = constrained
+        if ":w" not in tail:
+            generated = [candidate for candidate in generated if "[:w" not in candidate.analysis]
+
+        out = []
+        for candidate in generated:
+            candidate_analysis = candidate.analysis
+            if homonym and homonym not in candidate_analysis and "[" in candidate_analysis:
+                candidate_analysis = candidate_analysis.replace("[", f"{homonym}[", 1)
+            if generated_from_base and tail and candidate_analysis.endswith("["):
+                candidate_analysis += tail
+            if not analysis_matches_surface(row.surface, candidate_analysis):
+                continue
+            out.append(replace(candidate, analysis=candidate_analysis))
+        return out
+
+    @staticmethod
+    def _preformative_marker(analysis: str) -> str:
+        text = (analysis or "").strip()
+        if not text.startswith("!"):
+            return ""
+        closing = text.find("!", 1)
+        return text[: closing + 1] if closing >= 1 else ""
 
     @staticmethod
     def _should_expand_under_specified_suffix_row(

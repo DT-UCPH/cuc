@@ -96,6 +96,46 @@ class ParadigmMatcherTest(unittest.TestCase):
         self.assertIn(("!t!]t]rp(y[:d", "3", "m.", "du."), rendered)
         self.assertIn(("!t!]t]rp(y[:d:w", "3", "m.", "pl."), rendered)
 
+    def test_gt_prefix_reconstructs_elided_initial_n_before_infix(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="ttpl",
+            dulat="/n-p-l/",
+            stem="Gt",
+            conjugation="prefc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("!t!(n]t]pl[", "3", "f.", "sg."), rendered)
+
+    def test_gt_prefix_reconstructs_elided_initial_h_before_infix(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="ytlk",
+            dulat="/h-l-k/",
+            stem="Gt",
+            conjugation="prefc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("!y!(h]t]lk[", "3", "m.", "sg."), rendered)
+
+    def test_gt_prefix_preserves_aleph_vowel_before_infix(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="yitmr",
+            dulat="/ʔ-m-r/",
+            stem="Gt",
+            conjugation="prefc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("!y!(ʔ&i]t]mr[", "3", "m.", "sg."), rendered)
+
+    def test_gt_first_common_prefix_uses_i_and_marks_infix(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="its",
+            dulat="/n-s(-y)/ (I)",
+            stem="Gt",
+            conjugation="prefc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("!(ʔ&i!(n]t]s(y[", "1", "c.", "sg."), rendered)
+
     def test_generates_weak_initial_prefix_candidates(self) -> None:
         candidates = generate_verbal_candidates(
             surface="ytn",

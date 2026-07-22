@@ -8,7 +8,7 @@ This file is a compact, agent-oriented reference for feature names and stem inve
 From `stems` in `linter/morphology.py`:
 
 - `G`: basic/ground stem.
-- `Gt`: G with infixed `-t-` (often reflexive-like).
+- `Gt`: G with infixed `-t-`; principally agent-oriented middle (reflexive, reciprocal, or autobenefactive), with rare non-agentive uses.
 - `Gpass.`: passive of G.
 - `N`: n-prefixed reflexive/passive-like stem.
 - `D`: factitive/causative/intensive (geminated second radical).

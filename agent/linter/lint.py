@@ -1253,12 +1253,12 @@ def required_verb_stem_markers_from_pos(pos_field: str) -> set[str]:
         required.add(":pass")
     if "tD" in stems:
         required.add("]t]")
-    # A firm Gt label entails the normally explicit infixed formative.
+    # A firm Gt label in the current secure inventory entails the normally
+    # explicit infixed formative.
     # Keep uncertain `Gt?` and slash alternatives out of this hard check.
     if any(
-        re.search(r"^\s*vb\.?\s+Gt\b(?!\?)", opt or "", flags=re.IGNORECASE)
+        re.search(r"^\s*vb\.?\s+Gt(?![?/\w])", token or "", flags=re.IGNORECASE)
         for token in split_csv_field(pos_field or "")
-        for opt in split_pos_options(token)
     ):
         required.add("]t]")
     return required

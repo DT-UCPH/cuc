@@ -250,7 +250,12 @@ def _build_analyses(
     for body in _build_body_variants(root=root, stem=stem, conjugation=conjugation):
         if not body:
             continue
-        analysis = _build_analysis_from_body(body=body, conjugation=conjugation, form=form)
+        analysis = _build_analysis_from_body(
+            body=body,
+            stem=stem,
+            conjugation=conjugation,
+            form=form,
+        )
         if analysis and analysis not in analyses:
             analyses.append(analysis)
     return tuple(analyses)
@@ -259,11 +264,12 @@ def _build_analyses(
 def _build_analysis_from_body(
     *,
     body: str,
+    stem: str,
     conjugation: str,
     form: str,
 ) -> str:
     if conjugation == "prefc.":
-        return _build_prefixed_analysis(body=body, form=form)
+        return _build_prefixed_analysis(body=body, form=form, stem=stem)
     if conjugation == "suffc.":
         return _build_suffix_analysis(body=body, form=form)
     if conjugation == "impv.":
@@ -283,7 +289,7 @@ def _build_body_variants(
 ) -> tuple[str, ...]:
     r2 = root[1]
     out: list[str] = []
-    for r1 in _first_radical_variants(root[0], conjugation):
+    for r1 in _first_radical_variants(root[0], conjugation, stem=stem):
         for r3 in _third_radical_variants(root[2]):
             if stem == "G":
                 body = f"{r1}{r2}{r3}["
@@ -310,10 +316,23 @@ def _build_body_variants(
     return tuple(out)
 
 
-def _first_radical_variants(first: str, conjugation: str) -> tuple[str, ...]:
-    if first not in {"y", "w"} or conjugation != "prefc.":
-        return (first,)
-    return (first, f"({first}")
+def _first_radical_variants(
+    first: str,
+    conjugation: str,
+    *,
+    stem: str,
+) -> tuple[str, ...]:
+    out = [first]
+    if conjugation == "prefc." and first in {"y", "w"}:
+        out.append(f"({first}")
+    if stem == "Gt" and first in {"n", "h"}:
+        # Secure I-n Gt forms and h-l-k place the written infix after an
+        # unexpressed first radical: tt-pl < /n-p-l/, yt-lk < /h-l-k/.
+        out.append(f"({first}")
+    if stem == "Gt" and first == "ʔ":
+        # Aleph spelling exposes the vowel before the Gt infix (y-i-t-mr).
+        out.append("(ʔ&i")
+    return tuple(out)
 
 
 def _third_radical_variants(third: str) -> tuple[str, ...]:
@@ -322,7 +341,7 @@ def _third_radical_variants(third: str) -> tuple[str, ...]:
     return (third, f"({third}")
 
 
-def _build_prefixed_analysis(*, body: str, form: str) -> str:
+def _build_prefixed_analysis(*, body: str, form: str, stem: str) -> str:
     if form == "3ms":
         return f"!y!{body}"
     if form == "3fs":
@@ -332,7 +351,8 @@ def _build_prefixed_analysis(*, body: str, form: str) -> str:
     if form == "2fs":
         return f"!t==!{body}"
     if form == "1cs":
-        return f"!(ʔ&a!{body}"
+        vowel = "i" if stem == "Gt" else "a"
+        return f"!(ʔ&{vowel}!{body}"
     if form == "3md":
         return f"!t!{body}"
     if form == "3mp":
