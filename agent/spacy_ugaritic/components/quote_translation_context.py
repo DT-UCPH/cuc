@@ -71,8 +71,13 @@ def _translation_words(text: str) -> frozenset[str]:
 
 
 def _candidate_cues(candidate: Candidate) -> tuple[str, ...]:
+    # Iterate in a stable (sorted) order: `_translation_words` returns a
+    # frozenset whose iteration order is hash-seed-dependent, and the chosen
+    # cue (`cues[0]`) surfaces in the DULAT-quote comment. Sorting keeps the
+    # note reproducible across runs. The sibling k-/l-context resolvers sort
+    # too. Order does not affect which candidate wins.
     cues: list[str] = []
-    for word in _translation_words(candidate.gloss):
+    for word in sorted(_translation_words(candidate.gloss)):
         if word in _GENERIC_STOPWORDS:
             continue
         if len(word) >= 4 or word in _ALLOWED_SHORT_CUES:
