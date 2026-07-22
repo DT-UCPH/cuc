@@ -11,7 +11,7 @@ The G passive participle is morphologically under-marked: on a strong root it is
 
 1. Read `references/passive-participle-encoding.md` completely.
 2. Inspect the full TSV row, the surrounding clause, comments, parallels, and the DULAT form/POS.
-3. Do **not** assign a firm `pass. ptcpl.` on the strength of a bare skeleton. On a strong triradical root, require a syntactic diagnostic (§2.3: attributive to a non-prominent antecedent, converb, predicative with `-u`/`d`/`l`/`ˁm`). Otherwise keep `pass. ptcpl.?` or a competing noun/finite reading.
+3. Do **not** assign a firm `pass. ptcpl.` on the strength of a bare skeleton. On a strong triradical root, require a syntactic diagnostic (§2.3: attributive to a non-prominent antecedent, converb, predicative with `-u`/`d`/`l`/`ˁm`). Otherwise keep the competing noun/finite reading (there is no form-level `?` marker — do not write `pass. ptcpl.?`).
 4. Where orthography helps, apply the §2.2.2 grapheme diagnostics: II-ʔ middle vowel, III-ʔ case aleph (u=nom, i=gen, a=acc), retained III-y/w glide, plene geminate, `-t`/`-m` ending.
 5. Record voice/aspect semantics (present passive, resultative, optative) in the gloss/comment only, never in the morphological string.
 
@@ -34,7 +34,8 @@ Neither finding decides a reading; each marks a row to confirm. The same III-ʔ 
 
 ## Correct Conservatively
 
-- Demote skeleton-only strong-root participles to `pass. ptcpl.?` or the noun/finite reading unless syntax establishes the passive.
+- Drop skeleton-only strong-root participles in favour of the noun/finite reading unless syntax establishes the passive; do not invent a `pass. ptcpl.?` marker.
+- Passive-stem forms (`Gpass`/`Dpass`/…) must carry `:pass`; nouns (incl. lexicalized patient-nouns) use `/` on a noun lemma, never `[/`.
 - Keep the II-ʔ / III-ʔ aleph distinct from the radical; align a III-ʔ case aleph with the labelled case.
 - Retain the III-y/w glide and write geminates plene for a firm passive participle.
 - For lexicalized patient-nouns (`mrủ`, `šbyn`), keep the DULAT noun reading and note participial origin in the comment only.

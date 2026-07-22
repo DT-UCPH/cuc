@@ -24,8 +24,9 @@ import re
 import sys
 from pathlib import Path
 
-# Firm passive participle: `pass. ptcpl.` in any stem, not the uncertain
-# `pass. ptcpl.?` and not an active participle.
+# Firm passive participle: `pass. ptcpl.` in any stem, and not an active
+# participle. The `(?!\?)` guard is defensive; there is no `pass. ptcpl.?`
+# convention (form-level uncertainty is not marked).
 FIRM_PASS_PTCPL_RE = re.compile(r"\bpass\.\s*ptcpl\.(?!\?)", re.IGNORECASE)
 
 # Realized case-ending aleph right after the nominal/participial boundary.

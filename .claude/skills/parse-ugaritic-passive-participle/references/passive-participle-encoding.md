@@ -6,7 +6,7 @@ This reference operationalizes Chapter 2, "The Ugaritic passive participle", of 
 
 The passive participle is **morphologically under-marked**. Ugaritic alphabetic writing does not distinguish the G passive participle from many homographic forms — the G-passive suffix conjugation, the stative suffix conjugation, stative adjectives, and (on strong roots) even the active reading (§2.2.1). The passive reading is therefore established **syntactically and semantically**, on the basis of diathesis, and only *sometimes* confirmed orthographically.
 
-Consequence for tooling: **never assert a firm `pass. ptcpl.` from a bare consonantal skeleton.** A strong triradical root spells the *qatūl/qatīl* pattern identically to several other forms, so a strong-root passive participle rests entirely on the clause. The automatic parser over-generates exactly here (e.g. `rgm[/` "word", `ˤdb[/`, `ptḥ[/`); prefer `pass. ptcpl.?` or a competing reading unless syntax decides.
+Consequence for tooling: **never assert a firm `pass. ptcpl.` from a bare consonantal skeleton.** A strong triradical root spells the *qatūl/qatīl* pattern identically to several other forms, so a strong-root passive participle rests entirely on the clause. The automatic parser over-generates exactly here (e.g. `rgm[/` "word", `ˤdb[/`, `ptḥ[/`); prefer the competing noun/finite reading unless syntax decides.
 
 ## Evidence Boundary
 
@@ -19,12 +19,20 @@ Treat as deterministic enough for tooling:
 Do **not** turn these into hard parser rules:
 
 - The choice between *qatūl* and *qatīl* (both long) is not recoverable from the consonantal text; the project notation does not encode it, so do not invent a marker for it.
-- Whether a given patient-noun (e.g. `mrủ` "fatling", `šbyn` "captive") is a synchronic participle or a lexicalized noun is a lexical judgement (§2.3.2). Tania classes these as "highly lexicalized nominals"; keep the DULAT noun reading and record the participial origin in a comment only.
+- Whether a given patient-noun (e.g. `mrủ` "fatling", `šbyn` "captive") is a synchronic participle or a lexicalized noun is a lexical judgement (§2.3.2). Tania classes these as "highly lexicalized nominals". When the reading is the noun, encode it as a noun: attach it to its DULAT **noun** lemma and close it with `/` (e.g. `mr(u(I)/&i`), **never** with the deverbal `[/`. Record the participial origin in a comment only.
 - Semantic labels (present passive, resultative, optative; §2.4) belong in the gloss/comment, never in the morphological string.
+
+## Stem, Voice, and Lemma Attachment
+
+Two encoding facts frame everything below; keep them straight before parsing.
+
+- **The passive *stem* carries `:pass`.** An internal-passive stem — `Gpass`, `Dpass`, `Lpass`, `Špass` — is marked by `:pass` after the root and any endings: `!t!(ʔ&usp[:pass` (Gpass prefc.), `prš[&a:pass` (Gpass suffc.), `nb[t===:pass`. Every passive-stem row must carry `:pass`; a `Gpass`/`Dpass`/… label without it is an error. `:pass` is a sibling of the other stem markers `:d` (D), `:l` (L), `:r` (R).
+- **The passive *participle* is a G-stem form and takes no `:pass`.** `vb G pass. ptcpl.` is the qatūl participle of the **G** stem; its voice is in the participial pattern, not the stem, so it is *not* the `Gpass` stem and does *not* take `:pass` (reviewed practice: every `pass. ptcpl.` row is `:pass`-free; every `Gpass` stem row carries `:pass`). A row labelled `Gpass ptcpl.` is a contradiction — decide whether it is the G passive participle (`G pass. ptcpl.`, no `:pass`) or a Gpass-stem form (add `:pass`, drop the participle framing).
+- **Nouns and verbs stay separate, on their own lemmata.** A verb or verbal form (participle, infinitive) attaches to a verb root `/x-y-z/` and closes with `[` or `[/`. A noun, adjective, or lexicalized patient-noun attaches to its own DULAT **noun** lemma and closes with `/` — **never** `[/`. `[/` on a noun POS, or on a noun lemma, is an error, regardless of the form's deverbal origin.
 
 ## Orthographic Diagnostics (§2.2.2)
 
-Each row is a place where the consonantal text *does* carry information. Marker key: `[` verbal-root boundary, `[/` deverbal (participle/infinitive) boundary, `(x` reconstructed lexical radical absent from the surface, `&x` written sign absent from the lexeme.
+Each row is a place where the consonantal text *does* carry information. Marker key: `[` verbal-root boundary, `[/` deverbal (participle/infinitive) boundary on a **verb root**, `:pass` passive-stem marker, `(x` reconstructed lexical radical absent from the surface, `&x` written sign absent from the lexeme.
 
 | # | Root class | Diagnostic | Example | Encoding note |
 |---|---|---|---|---|
@@ -39,7 +47,9 @@ The III-ʔ case rule (#4) is checked mechanically by the linter (`iii_aleph_case
 
 ## Reject These
 
-- A firm `pass. ptcpl.` whose only support is the bare skeleton on a strong root — demote to `pass. ptcpl.?` or the noun/finite reading until the clause decides (§2.2.1).
+- A firm `pass. ptcpl.` whose only support is the bare skeleton on a strong root — prefer the noun/finite reading until the clause decides (§2.2.1). There is no form-level `?` marker (uncertainty is marked on the stem, e.g. `Gt?`), so do not write `pass. ptcpl.?`.
+- A `Gpass`/`Dpass`/`Lpass`/`Špass` (passive-stem) row whose encoding lacks `:pass`.
+- A `[/` deverbal boundary on a noun/adjective POS, or attached to a noun lemma — encode the noun with `/` on its noun lemma instead.
 - A III-ʔ participle whose realized case aleph disagrees with the labelled case (e.g. `…/&i` labelled `nom.`).
 - A III-y participle written without its glide, or a geminate participle written defectively (would point to a short-vowel stative reading instead).
 - Semantic voice terms (`passive`, `resultative`, `optative`) placed in the morphological string.
