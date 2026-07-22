@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parse Ugaritic Passive Participles"
+  short_description: "Audit Ugaritic G-stem passive-participle encodings"
+  default_prompt: "Use $parse-ugaritic-passive-participle to audit and correct passive-participle analyses in the selected Ugaritic TSV files."
