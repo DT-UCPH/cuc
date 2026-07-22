@@ -30,11 +30,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168658	km	km	km	prep./conj./adv.		
 168659	ṯ	ṯ	ṯ	→	?	
 168660	tmr	tmr/	tmr	PN sg. cstr. nom.	tmr	
-168661	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. gen.	damsel	
-168662	klt	kl(t(I)/t	klt (I)	n. f. sg. cstr. gen.	bride	
-168662	klt	kl(t(II)/t	klt (II)	n. f. sg. cstr. gen.	measure	
+168661	mṯt	mṯ(t/t	mṯt	n. f. sg. abs. gen.	damsel	
+168662	klt	kl(y[t	/k-l-y/	vb G suffc. 1 c. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
+168662	klt	kl(y[t:d	/k-l-y/	vb D suffc. 1 c. sg.	to finish (off)	
+168662	klt	kl(t(I)/t	klt (I)	n. f. sg. abs. nom.	bride	
+168662	klt	kl(t(II)/t	klt (II)	n. f. sg. abs. nom.	measure	
 # KTU 1.69 6						
-168663	mṯty	mṯt/+y	mṯt	n. f. cstr. gen.	damsel	
+168663	mṯty	mṯt/+y	mṯt	n. f. cstr. nom.	damsel	
 168664	klt	kl(y[t	/k-l-y/	vb G suffc. 1 c. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
 168664	klt	kl(y[t:d	/k-l-y/	vb D suffc. 1 c. sg.	to finish (off)	
 168664	klt	kl(t(I)/t	klt (I)	n. f. sg. abs. nom.	bride	
@@ -54,6 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168674	umam	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 10						
 168675	l	l(I)	l (I)	prep.	to	
+168676	im	im(II)	hm (II)	conj./interr. functor	if	
 168676	im	im	ỉm	conj.	if	
 168677	l	l(I)	l (I)	prep.	to	
 168678	mṯ	mṯ(I)/	mṯ (I)	n. m. sg. abs. gen.	infant	
@@ -62,6 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168680	bly	(ybl[+y	/y-b-l/	vb G impv. 2	to carry	
 168680	bly	bl(I)+y	bl (I)	adv. /emph. functor	no	
 168680	bly	bl(II)+y	bl (II)	prep.	without	
+168680	bly	bl(III)/+y	bl (III)	n. m. cstr. nom.	blended beer	
 # KTU 1.69 12						
 168681	x	?	?	?	?	
 168682	nmq	?	?	?	?	DULAT: NOT FOUND

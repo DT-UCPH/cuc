@@ -15,9 +15,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.104 5						
 180294	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.104 6						
-180295	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
-180296	ymm	ym(I)/m	ym (I)	n. m. pl. abs. gen.	1) day b) as a period in time	
-180296	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
+180295	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	1) the numeral three b) genitive syntagms	DULAT quote in ṯlṯ (I) (cue: three)
+180296	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	1) day b) as a period in time	
+180296	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. nom.	sea	
 180297	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: since)
 180298	inn	in&n/	ỉn	n. m. cstr. nom.	1) there is/are not	
 180299	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	1) grain	
@@ -37,11 +37,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180307	xbl	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.104 9						
 180308	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-180308	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 180309	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 180310	w	w	w	conj.	1) copulative conj.	
 180311	ht	ht	ht	adv.	1) adv b) of time	
-180312	ṯnidm	ṯnid+m(I)	ṯnỉd	adv.	twice	
+180312	ṯnidm	ṯnid~m	ṯnỉd	adv.	twice	
 # KTU 2.104 10						
 180313	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
 180313	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry, bring, take	
@@ -52,6 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180317	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 180317	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
 180318	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	1) missive	
+180318	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
 180319	hn	hn	hn	functor	2) as an adv.	
 180320	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	1) oil a) oil (prob. olive oil)	
 # KTU 2.104 12						

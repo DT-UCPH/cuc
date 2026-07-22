@@ -11,17 +11,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172127	šrp	šrp/	šrp	n. m. sg. cstr. gen.	burnt sacrifice	
 # KTU 1.106 3						
 172128	ydbil	ydbil/	ydbỉl	PN sg. cstr. gen.	to be generous	
-172129	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-172129	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+172129	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+172129	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+172129	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 172130	ya	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.106 4						
 172131	ršil	?	?	?	?	DULAT: NOT FOUND
-172132	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
-172132	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
+172132	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
+172132	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
+172132	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. nom.	power	
 # KTU 1.106 5						
 172133	ˤmtr	ˤmtr/	ʕmtr	PN sg. cstr. gen.	ʿmtr	
-172134	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
-172134	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+172134	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+172134	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+172134	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
 172135	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	6) (piece of) offal	
 # KTU 1.106 6						
 172136	w	w	w	conj.	and	
@@ -35,10 +38,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172143	l	l(I)	l (I)	prep.	to	
 172144	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
 # KTU 1.106 8						
-172145	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
+172145	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.106 9						
-172146	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-172147	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
+172146	bn	b+n	b	prep.	in	
+172146	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+172146	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+172146	bn	bn(II)	bn (II)	prep.	between	
+172146	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+172146	bn	bn[	/b-n/	vb G impv. 2	to understand	
+172147	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 # KTU 1.106 10						
 172148	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 172149	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter a) of men and gods	
@@ -64,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172163	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. cstr. nom.	place of sacrifice	
 172164	š	š/	š	n. m. sg. abs. nom.	ram	
 172165	ḫmnh	ḫmn(I)/+h	ḫmn (I)	n. m. cstr. nom.	chapel	
-172166	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
+172166	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
 # KTU 1.106 15						
 172167	š	š/	š	n. m. sg. cstr. nom.	ram	
 172168	kbmh	kbm/+h	kbm	n. m. sg. cstr. gen.	ein Gebäude	
@@ -72,21 +80,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172170	šr	šr(II)/	šr (II)	n. m. sg. abs. nom.	1) singer	
 172170	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	1) to sing	
 172170	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	Prince	
+172170	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
 172171	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	1) to sing	
 # KTU 1.106 16						
-172172	šr	šr(II)/	šr (II)	n. m. sg. cstr. nom.	musician	
-172172	šr	šr(III)/	šr (III)	n. m. sg. cstr. nom.	Prince	
-172173	tar	tar/	tảr	n. m. sg. abs. gen.	glory	
+172172	šr	šr(II)/	šr (II)	n. m. sg. abs. nom.	musician	
+172172	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
+172172	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	Prince	
+172172	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
+172172	šr	šr(I)/	šr (I)	n. m. sg. cstr. nom.	song	
+172173	tar	tar/	tảr	n. m. sg. abs. nom.	glory	
 172174	l	l(I)	l (I)	prep.	to	
 172175	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 # KTU 1.106 17						
-172176	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
-172177	ptḥ	ptḥ/	ptḥ	n. m. sg. cstr. gen.	entrance	DULAT quote in ptḥ (cue: entrance)
-172178	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	4) monument	
+172176	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
+172177	ptḥ	ptḥ/	ptḥ	n. m. sg. abs. nom.	entrance	DULAT quote in ptḥ (cue: entrance)
+172178	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	4) monument	
 172179	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 # KTU 1.106 18						
-172180	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-172180	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+172180	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+172180	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+172180	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 172181	b	b	b	prep.	in	
 172182	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 172183	gn	gn(I)/	gn (I)	n. m. sg. cstr. nom.	3) MN	
@@ -97,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.106 20						
 172187	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
 172187	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
-172187	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+172187	ˤšrh	ˤšr[:pass+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
 172187	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
 172188	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	2) sheep	
 172188	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	2) sheep	
@@ -128,11 +141,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172200	b	b	b	prep.	in	
 172201	gn	gn(I)/	gn (I)	n. m. sg. abs. gen.	garden	
 172202	w	w	w	conj.	and	
-172203	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
+172203	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	DULAT quote in ḥl (II) (cue: desacralised)
 # KTU 1.106 24						
-172204	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+172204	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 172205	b	b	b	prep.	in	
 172206	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
+172206	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 172207	l	l(I)	l (I)	prep.	to	
 172208	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 1.106 25						
@@ -145,16 +159,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172213	l	l(I)	l (I)	prep.	to	
 172214	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 172215	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
-172216	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
+172216	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.106 27						
-172217	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
+172217	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
+172217	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 172218	w	w	w	conj.	and	
 172219	l	l(I)	l (I)	prep.	to	
 172220	ll	ll(I)/	ll (I)	n. m. sg. abs. gen.	night	
-172221	ltˤrk	?	?	?	?	DULAT: NOT FOUND
+172221	ltˤrk	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-r-k/ - 1) to prepare
 # KTU 1.106 28						
 172222	ksu	?	?	?	?	DULAT: NOT FOUND
-172223	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+172223	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 172224	tṣu	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
 172225	šlḥmt	šlḥm(t/t	šlḥmt	n. f. sg. abs. nom.	provisions	
 # KTU 1.106 29						
@@ -168,14 +183,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172230	w	w	w	conj.	and	
 172231	uz	uz/	ủz	n. f. sg. cstr. nom.	1) goose	
 172231	uz	uz/	ủz	n. f. sg. abs. nom.	1) goose	
-172232	išm	išm	ỉšm	morph.	catégorie grammaticale et sens inconnus	
-172232	išm	iš+m(I)	ỉš	morph.	Getier/Taube	
+172232	išm	išm	ỉšm		catégorie grammaticale et sens inconnus	
 172233	ar	ar/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 1.106 31						
 172234	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
 172235	w	w	w	conj.	and	
-172236	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-172236	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+172236	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+172236	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+172236	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 172237	xxx	?	?	?	?	
 # KTU 1.106 32						
 172238	l	l(I)	l (I)	prep.	to	
@@ -190,5 +205,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172241	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	
 # KTU 1.106 33						
 172242	w	w	w	conj.	and	
-172243	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-172244	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+172243	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
+172243	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+172244	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	

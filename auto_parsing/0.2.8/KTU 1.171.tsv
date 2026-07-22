@@ -1,13 +1,20 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.171 1						
+175241	bn	b+n	b	prep.	in	
 175241	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-175242	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+175241	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+175241	bn	bn(II)	bn (II)	prep.	between	
+175241	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+175241	bn	bn[	/b-n/	vb G impv. 2	to understand	
+175242	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 175243	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 1.171 2						
 175244		?	?	?	?	
 175245	š	š/	š	n. m. sg. cstr. gen.	ram	
-175246	šrp	šrp/	šrp	n. m. sg. cstr. gen.	1) burnt sacrifice	
-175247	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+175246	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
+175247	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+175247	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+175247	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 175248	w	w	w	conj.	and	
 175249	š	š/	š	n. m. sg. cstr. nom.	ram	
 175250	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
@@ -39,14 +46,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.171 6						
 175268		?	?	?	?	
 175269	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
-175270	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. cstr. nom.	to sit down, take a seat on the throne, install oneself, reside	
-175271	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
+175270	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+175270	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+175270	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down, take a seat on the throne, install oneself, reside	
+175271	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 175272	b	b	b	prep.	in	
 175273	urbt	urb(t/t	ủrbt	n. f. sg. abs. gen.	2) a cult installation	
 # KTU 1.171 7						
 175274	śd	?	?	?	?	DULAT: NOT FOUND
 175275	b	b	b	prep.	in	
-175276	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+175276	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	DULAT quote in šbʕ (II) (cue: seventh)
 175277	ḫdś	ḫd	ḫdś	→	?	
 175278	ṯrx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.171 8						

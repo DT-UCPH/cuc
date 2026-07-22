@@ -33,11 +33,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174971	m	m	m(h)	pers. pn.	what?	
 # KTU 1.166 12						
 174972	l	l(I)	l (I)	prep.	to	
-174973	šd	šd(I)/	šd (I)	n. m. sg. cstr. gen.	open field	
-174973	šd	šd(II)/	šd (II)	n. m. sg. cstr. gen.	a strip	
-174974	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+174973	šd	šd(I)/	šd (I)	n. m. sg. abs. gen.	open field	
+174973	šd	šd(II)/	šd (II)	n. m. sg. abs. gen.	a strip	
+174974	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+174974	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 # KTU 1.166 13						
-174975	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	3) in the expression mt rpỉ	
+174975	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	3) in the expression mt rpỉ	
+174975	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	3) in the expression mt rpỉ	
 174976	yqr	!y!qr(y[:d	/q-r-y/	vb D prefc. 3 m. sg.	to present, offer	
 # KTU 1.166 14						
 174977	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	1) handsome d) (of) good (quality)	
@@ -65,8 +67,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174990	rḥ	rḥ(I)/	rḥ (I)	n. f. sg. cstr. nom.	2) gust	
 174991	arr	arr/	ảrr	TN sg. cstr. gen.	district	
 # KTU 1.166 23						
-174992	ydnm	ydnm/	ydnm	PN sg. cstr. gen.	ydnm	
-174993	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
+174992	ydnm	ydnm/	ydnm	PN sg. abs. gen.	ydnm	
+174993	ap	ap(I)	ảp (I)	adv./conj.	also	
+174993	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 # KTU 1.166 24						
 174994	l	l(I)	l (I)	prep.	to	
 174995	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	5) used as a preposition	

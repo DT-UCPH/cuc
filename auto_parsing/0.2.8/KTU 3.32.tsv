@@ -6,10 +6,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.32 2						
 181848	l	l(I)	l (I)	prep.	to	
 181849	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
-181850	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
+181850	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. gen.	ʿmṯtmr	
 # KTU 3.32 3						
-181851	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181852	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
+181851	bn	b+n	b	prep.	in	
+181851	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181851	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181851	bn	bn(II)	bn (II)	prep.	between	
+181851	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181851	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181852	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
 # KTU 3.32 4						
 181853	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 181854	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
@@ -33,22 +38,36 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181866	l	l(III)	l (III)	functor	certainly	
 # KTU 3.32 8						
 181867	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
-181868	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter a) of men and gods	DULAT quote in bt (I) (cue: daughter)
+181867	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	1) son a) of men and gods	
+181867	bn	bn(II)	bn (II)	prep.	between	
+181867	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181867	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181868	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	1) daughter a) of men and gods	
 181869	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 3.32 9						
 181870	u	u	ủ	conj.	or	
 181871	l	l(I)	l (I)	prep.	to	
 181871	l	l(II)	l (II)	adv.	no	
 181871	l	l(III)	l (III)	functor	certainly	
+181872	bn	b+n	b	prep.	in	
 181872	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-181873	ṣrdth	ṣrd(t/t+h	ṣrdt	n. f. sg. cstr. gen.	?	
+181872	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181872	bn	bn(II)	bn (II)	prep.	between	
+181872	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181872	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181873	ṣrdth	ṣrd(t/t+h	ṣrdt	n. f. sg. cstr. nom.	?	
 # KTU 3.32 10						
 181874	u	u	ủ	conj.	or	
 181875	l	l(I)	l (I)	prep.	to	
 181875	l	l(II)	l (II)	adv.	no	
 181875	l	l(III)	l (III)	functor	certainly	
+181876	bn	b+n	b	prep.	in	
 181876	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-181877	amhth	am&ht(I)/+h	ảmt (I)	n. f. cstr. gen.	1) female slave	
+181876	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181876	bn	bn(II)	bn (II)	prep.	between	
+181876	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181876	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181877	amhth	am&ht(I)/+h	ảmt (I)	n. f. cstr. nom.	1) female slave	
 # KTU 3.32 11						
 181878	d	d	d	det. or rel. functor	2) which	
 181879	ihb	(ʔ&ihb[	/ʔ-h-b/	vb G suffc. 3 m. sg.	to love	
@@ -103,14 +122,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181910	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
 # KTU 3.32 23						
 181911	bnh	bn(I)/+h	bn (I)	n. m. cstr. nom.	son	
+181912	bn	b+n	b	prep.	in	
 181912	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181912	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181912	bn	bn(II)	bn (II)	prep.	between	
 181912	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 181912	bn	bn[	/b-n/	vb G impv. 2	to understand	
-181913	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-181913	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-181914	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+181913	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
+181914	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 3.32 24						
 181915	w	w	w	conj.	and	
 181916	km	km	km	prep./conj./adv.		
@@ -126,12 +145,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181922	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
 181923	bhl	bhl[:d	/b-h-l/	vb D suffc. 3 m. sg.	to dismiss	
 181923	bhl	bhl[:d:w	/b-h-l/	vb D suffc. 3 m. pl.	to dismiss	
+181924	bn	b+n	b	prep.	in	
 181924	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-181925	ṣrdth	ṣrd(t/t+h	ṣrdt	n. f. sg. cstr. gen.	?	
+181924	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181924	bn	bn(II)	bn (II)	prep.	between	
+181924	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181924	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181925	ṣrdth	ṣrd(t/t+h	ṣrdt	n. f. sg. cstr. nom.	?	
 # KTU 3.32 27						
 181926	u	u	ủ	conj.	or	
+181927	bn	b+n	b	prep.	in	
 181927	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-181928	amhth	am&ht(I)/+h	ảmt (I)	n. f. cstr. gen.	(female) slave	
+181927	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181927	bn	bn(II)	bn (II)	prep.	between	
+181927	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181927	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181928	amhth	am&ht(I)/+h	ảmt (I)	n. f. cstr. nom.	(female) slave	
 # KTU 3.32 28						
 181929	w	w	w	conj.	and	
 181930	km	km	km	prep./conj./adv.		

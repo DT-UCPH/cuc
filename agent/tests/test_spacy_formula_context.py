@@ -23,6 +23,20 @@ class SpacyFormulaContextTest(unittest.TestCase):
         self.assertEqual(doc[1]._.resolved_candidates[0].analysis, "bˤl(II)/")
         self.assertEqual(doc[1]._.resolved_candidates[0].pos, "DN")
 
+    def test_resolves_rbt_as_numeral_before_kmn(self) -> None:
+        doc = self._doc_from_lines(
+            (
+                "1\trbt\trb(I)/t;rb(t/t;rb(t(I)/t\trb (I);rb(b)t;rbt (I)\t"
+                "adj. f.;num.;n. f.\tgreat;ten thousand;Lady\t"
+            ),
+            "2\tkmn\tkmn(I)/\tkmn (I)\tn. m.\tacre\t",
+        )
+
+        self.assertEqual(len(doc[0]._.resolved_candidates), 1)
+        self.assertEqual(doc[0]._.resolved_candidates[0].analysis, "rb(t/t")
+        self.assertEqual(doc[0]._.resolved_candidates[0].dulat, "rb(b)t")
+        self.assertEqual(doc[0]._.resolved_candidates[0].pos, "num.")
+
     def test_builds_asherah_in_rbt_athrt_formula_when_canonical_candidate_is_missing(self) -> None:
         doc = self._doc_from_lines(
             "1	rbt	rb(t(I)/t	rbt (I)	n. f.	Lady	",

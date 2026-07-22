@@ -1,9 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.92 1						
-179809	klt	kl(t(I)/t	klt (I)	n. f. sg. cstr. nom.	bride	
-179809	klt	kl(t(II)/t	klt (II)	n. f. sg. cstr. nom.	measure	
-179810	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say, tell, announce, communicate, inform	
-179810	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+179809	klt	kl(y[t	/k-l-y/	vb G suffc. 1 c. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
+179809	klt	kl(y[t:d	/k-l-y/	vb D suffc. 1 c. sg.	to finish (off)	
+179809	klt	kl(t(I)/t	klt (I)	n. f. sg. abs. nom.	bride	
+179809	klt	kl(t(II)/t	klt (II)	n. f. sg. abs. nom.	measure	
+179810	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
+179810	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
+179810	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
+179810	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
+179810	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.92 2						
 179811		?	?	?	?	
 179812	w	w	w	conj.	and	

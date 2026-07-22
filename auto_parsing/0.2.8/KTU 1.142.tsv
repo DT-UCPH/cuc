@@ -1,8 +1,13 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.142 1						
 174409	dbḥt	dbḥ(t/t	dbḥt	n. f. sg. cstr. nom.	A mode or manner of slaughter	
-174410	byy	byy/	byy	PN sg. cstr. gen.	byy	
-174411	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+174410	byy	byy/	byy	PN sg. abs. gen.	byy	
+174411	bn	b+n	b	prep.	in	
+174411	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+174411	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+174411	bn	bn(II)	bn (II)	prep.	between	
+174411	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+174411	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 1.142 2						
 174412	ṭry	ṭry(I)/	ṭry (I)	adj. m. sg. abs. nom.	fresh food	
 174413	l	l(I)	l (I)	prep.	to	

@@ -1,27 +1,45 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.21 1						
+181454	ṯlṯm	ṯlṯ(I)&m/	ṯlṯ (I)	num. f.	three	
 181454	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
-181455	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181456	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+181455	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181456	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181456	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181456	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181456	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 3.21 2						
-181457	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181458	bly	bly/	bly	PN sg. cstr. gen.	bly	
+181457	bn	b+n	b	prep.	in	
+181457	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181457	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181457	bn	bn(II)	bn (II)	prep.	between	
+181457	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181457	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181458	bly	bly/	bly	PN sg. cstr. nom.	bly	
 181459	gbˤly	gbˤly(I)/	gbʕly (I)	GN sg. cstr. gen.	gbʿly (I)	
 # KTU 3.21 3						
 181460	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
-181461	annṯb	annṯb/	ảnnṯb	PN sg. cstr. gen.	ảnnṯb	
+181461	annṯb	annṯb/	ảnnṯb	PN sg. abs. gen.	ảnnṯb	
 # KTU 3.21 4						
-181462	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+181462	bn	b+n	b	prep.	in	
+181462	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181462	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181462	bn	bn(II)	bn (II)	prep.	between	
+181462	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181462	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181463	madl	?	?	?	?	DULAT: NOT FOUND
 181464	uškny	uškny(I)/	ủškny (I)	GN sg. abs. nom.	ủškny (I)	
 # KTU 3.21 5						
 181465	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 181466	l	l(I)	l (I)	prep.	to	
 181467	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
-181468	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
+181468	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.21 6						
-181469	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+181469	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181469	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181469	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181469	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181470	xxxb	?	?	?	?	DULAT: NOT FOUND
+181471	bn	b+n	b	prep.	in	
 181471	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181471	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181471	bn	bn(II)	bn (II)	prep.	between	
@@ -35,12 +53,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181474	xḥxxxxxxdn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 10						
 181475	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
-181476	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181477	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+181476	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181477	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181477	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181477	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181477	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 3.21 11						
-181478	ilmlk	ilmlk/	ỉlmlk	PN sg. cstr. gen.	ʾIlimalku/Ilimilku/Elimelek	
-181479	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181480	argnd	argnd/	ảrgnd	PN sg. cstr. gen.	ảrgnd	
+181478	ilmlk	ilmlk/	ỉlmlk	PN sg. abs. nom.	ʾIlimalku/Ilimilku/Elimelek	
+181479	bn	b+n	b	prep.	in	
+181479	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181479	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181479	bn	bn(II)	bn (II)	prep.	between	
+181479	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181479	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181480	argnd	argnd/	ảrgnd	PN sg. cstr. nom.	ảrgnd	
 # KTU 3.21 12						
 181481	uškny	uškny(I)/	ủškny (I)	GN sg. abs. gen.	ủškny (I)	
 181482	w	w	w	conj.	and	
@@ -54,13 +80,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181488	xxx	?	?	?	?	
 # KTU 3.21 15						
 181489	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
-181490	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+181490	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.21 16						
-181491	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+181491	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181491	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181491	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181491	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181492	xšyxxh	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 17						
 181493	xxxktxxxxnrn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 18						
+181494	bn	b+n	b	prep.	in	
 181494	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181494	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181494	bn	bn(II)	bn (II)	prep.	between	
@@ -69,13 +99,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181495	nmqn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.21 19						
 181496	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
-181497	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181498	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181499	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. gen.	2) married woman	
-181499	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. gen.	2) married woman	
+181496	ḫmšt	ḫmšt/	ḫmšt	n. f. pl. abs. nom.	five-shekel (?) weight	
+181497	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181498	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181498	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181498	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181498	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181499	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	2) married woman	
+181499	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	2) married woman	
 # KTU 3.21 20						
 181500	mrṯd	mrṯ(I)/+d	mrṯ (I)	n. m. cstr. gen.	must	
 181500	mrṯd	mrṯ(II)/+d	mrṯ (II)	n. m. cstr. gen.	estate	
+181501	bn	b+n	b	prep.	in	
 181501	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181501	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181501	bn	bn(II)	bn (II)	prep.	between	

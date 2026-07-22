@@ -19,13 +19,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.63 6						
 178427	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
 # KTU 2.63 7						
-178428	lm	l(I)+m(I)	l (I)	prep.	to	
+178428	lm	l(I)~m	l (I)	prep.	to	
 178429	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
 178430	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.63 8						
-178431	šil	šil(I)/	šỉl (I)	n. m. sg. cstr. nom.	interrogator	
-178432	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. gen.	1) peace b) in greeting formulae	
-178432	šlmy	šlmy(II)/	šlmy (II)	GN sg. cstr. gen.	šlmy (II)	
+178431	šil	šil(I)/	šỉl (I)	n. m. sg. abs. nom.	interrogator	DULAT quote in šỉl (I) (cue: interrogator)
+178432	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	1) peace b) in greeting formulae	
+178432	šlmy	šlmy(II)/	šlmy (II)	GN sg. cstr. nom.	šlmy (II)	
 # KTU 2.63 9						
 178433	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. cstr. gen.	throne	
 178433	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. cstr. gen.	time	
@@ -38,10 +38,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178438	ank	ank	ảnk	pers. pn.	I	
 178439	ˤxxxnxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.63 12						
-178440	šil	šil(I)/	šỉl (I)	n. m. sg. cstr. nom.	interrogator	
-178441	š	š/	š	n. m. sg. abs. gen.	ram	
+178440	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
+178440	šil	šil(I)/	šỉl (I)	n. m. sg. abs. nom.	interrogator	
+178441	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 2.63 13						
-178442	lm	l(I)+m(I)	l (I)	prep.	to	
+178442	lm	l(I)~m	l (I)	prep.	to	
 178443	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.63 14						
 178444	at	at(I)	ảt (I)	pers. pn.	1) you d) emphatic of suff. pn	

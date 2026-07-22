@@ -28,6 +28,9 @@ from pipeline.steps.verb_form_encoding_split import (
 )
 
 _NUMBER_TOKEN_RE = re.compile(r"(?:sg\.|pl\.|du\.)", flags=re.IGNORECASE)
+_STATE_CASE_TOKEN_RE = re.compile(
+    r"(?:abs\.|cstr\.|nom\.|gen\.|acc\.)", flags=re.IGNORECASE
+)
 _NOUNISH_HEAD_RE = re.compile(r"^\s*(?:n\.|adj\.|num\.)", flags=re.IGNORECASE)
 
 
@@ -229,7 +232,7 @@ def _append_group_row(
 def _to_enclitic_m_analysis(*, surface: str, analysis: str, dulat: str, pos: str) -> str:
     text = _normalize_variant_encoding(surface=surface, analysis=analysis, dulat=dulat, pos=pos)
     if "+m" in text:
-        return text
+        return re.sub(r"\+m(?:\(I\))?", "~m", text, count=1)
     if not text or "~m" in text:
         return _normalize_known_weak_imperative_with_enclitic(
             surface=surface,
@@ -346,10 +349,13 @@ def _rewrite_pos_for_enclitic_variant(pos: str, note_morphologies: set[str]) -> 
         return value
 
     head, sep, rest = value.partition(",")
-    base_option = head.split("/", 1)[0].strip()
-    base_head = _NUMBER_TOKEN_RE.sub("", base_option)
+    state_case = _STATE_CASE_TOKEN_RE.findall(head)
+    base_head = _NUMBER_TOKEN_RE.sub("", head)
+    base_head = _STATE_CASE_TOKEN_RE.sub("", base_head)
+    base_head = re.sub(r"(?:\s*/\s*|\s+or\s+)", " ", base_head, flags=re.IGNORECASE)
     base_head = re.sub(r"\s{2,}", " ", base_head).strip()
-    new_head = f"{base_head} {' / '.join(numbers)}".strip()
+    number_text = " or ".join(numbers)
+    new_head = " ".join([base_head, number_text, *state_case]).strip()
     if not sep:
         return new_head
     return f"{new_head}, {rest.strip()}"

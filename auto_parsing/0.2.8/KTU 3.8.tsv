@@ -4,7 +4,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.8 2						
 180923	ṯrkn	ṯr(I)/+kn	ṯr (I)	n. m. cstr. gen.	bull	
 180923	ṯrkn	ṯrkn/	ṯrkn	PN sg. cstr. gen.	ṯrkn	
-180923	ṯrkn	ṯr(III)/+kn	ṯr (III)	n. m. cstr. gen.		
 # KTU 3.8 3						
 180924	kli	kli/	klỉ	PN sg. cstr. gen.	klỉ	
 # KTU 3.8 4						
@@ -34,7 +33,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180937	ṯth	ṯth(I)/	ṯn (I)	num.	two	
 # KTU 3.8 11						
 180938	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-180939	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+180938	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+180938	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+180939	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.8 12						
 180940	tśˤn	?	?	?	?	DULAT candidates (no reconstructable encoding): /n-s:ś-ʕ/ (II) - 1) to pay
 # KTU 3.8 13						
@@ -46,34 +47,43 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180944	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
 180945	tśˤn	?	?	?	?	DULAT candidates (no reconstructable encoding): /n-s:ś-ʕ/ (II) - to pay
 # KTU 3.8 15						
-180946	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	DULAT quote in mṣrm (cue: egypt)
+180946	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
 # KTU 3.8 16						
 180947	tmkrn	!t!(]n]mkr[n	/m-k-r/	vb N prefc.	to be sold	
 # KTU 3.8 17						
 180948	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. nom.	witness	
-180949	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg. cstr. gen.	ʿbdỉlt	
+180949	ˤbdilt	ˤbdilt/	ʕbdỉlt	PN sg. abs. gen.	ʿbdỉlt	
 # KTU 3.8 18						
-180950	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+180950	bn	b+n	b	prep.	in	
+180950	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+180950	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+180950	bn	bn(II)	bn (II)	prep.	between	
+180950	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180950	bn	bn[	/b-n/	vb G impv. 2	to understand	
 180951	m	m	m(h)	pers. pn.	what?	
 # KTU 3.8 19						
 180952	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. nom.	witness	
-180953	ilšlm	ilšlm/	ỉlšlm	PN sg. cstr. gen.	ỉlšlm	
+180953	ilšlm	ilšlm/	ỉlšlm	PN sg. abs. gen.	ỉlšlm	
 # KTU 3.8 20						
-180954	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-180955	prqdš	prqdš/	prqdš	PN sg. cstr. gen.	prqdš	
+180954	bn	b+n	b	prep.	in	
+180954	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+180954	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+180954	bn	bn(II)	bn (II)	prep.	between	
+180954	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180954	bn	bn[	/b-n/	vb G impv. 2	to understand	
+180955	prqdš	prqdš/	prqdš	PN sg. cstr. nom.	prqdš	
 # KTU 3.8 21						
 180956	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
-180957	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr. gen.	delivery	
-180957	mnḥm	mn(ḫ&ḥ/+m(I)	mnḫ	n. m. cstr. gen.	calm	
+180957	mnḥm	mnḥm/	mnḥm	PN sg. abs. gen.	mnḥm	
 # KTU 3.8 22						
+180958	bn	b+n	b	prep.	in	
 180958	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 180958	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 180958	bn	bn(II)	bn (II)	prep.	between	
 180958	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180958	bn	bn[	/b-n/	vb G impv. 2	to understand	
-180959	ḥnn	ḥn/+n	ḥn	n. m. cstr. nom.	grace	
-180959	ḥnn	ḥnn(II)/	ḥnn (II)	PN sg. abs. nom.	ḥnn (II)	
-180959	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. abs. nom.	kindness	
+180959	ḥnn	ḥnn(II)/	ḥnn (II)	PN sg. cstr. nom.	ḥnn (II)	
+180959	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. cstr. nom.	kindness	
 # KTU 3.8 23						
-180960	brqn	brq(I)/+n	brq (I)	n. m. cstr. nom.	ray	
+180960	brqn	brqn/	brqn	PN sg. abs. gen.	brqn	
 180961	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	DULAT quote in spr (I) (cue: scribe)

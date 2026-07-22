@@ -1,9 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.13 1						
 176180	l	l(I)	l (I)	prep.	to	
-176181	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	1) queen a) in gen	
+176181	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	1) queen a) in gen	
 # KTU 2.13 2						
-176182	adtumy	?	?	?	?	DULAT: NOT FOUND
+176182	adtumy	?	?	?	?	DULAT candidates (no reconstructable encoding): ủm - 1) mother a) of men and gods
 176183	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
 # KTU 2.13 3						
 176184	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
@@ -25,7 +25,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176195	tġrk	!t!(nġr[+k	/n-ġ-r/	vb G prefc.	to protect	
 176196	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
 # KTU 2.13 9						
-176197	hlnky	?	?	?	?	DULAT: NOT FOUND
+176197	hlnky	hlnky	hlny	deictic adv. functor	behold	KTU corrected: hlny
+176197	hlnky	hl&nky	hl	deictic adv. functor	behold	KTU corrected: hlny
 176198	ˤmny	ˤm(I)+ny	ʕm (I)	prep.	2) relationship of accompaniment	
 # KTU 2.13 10						
 176199	kll	kll/	kll	n. m. sg. abs. nom.	totality	
@@ -46,7 +47,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176208	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word), an answer, to answer	
 176209	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.13 14						
-176210	bm	b+m(I)	b	prep.	1) spatial location a) place in which something occurs	
+176210	bm	b~m	b	prep.	1) spatial location a) place in which something occurs	
 176211	tyndr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.13 15						
 176212	iṯt	iṯ(I)/t	ỉṯ (I)	n. m. sg. abs. nom.	1) to be	
@@ -56,11 +57,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176215	w	w	w	conj.	1) copulative conj.	
 176216	rgmy	rgm/+y	rgm	n. m. cstr. nom.	1) word	
 176217	l	l(I)	l (I)	prep.	to	
+176217	l	l(II)	l (II)	adv.	no	
+176217	l	l(III)	l (III)	functor	certainly	
 # KTU 2.13 17						
-176218	qḥlqt	?	?	?	?	DULAT: NOT FOUND
+176218	qḥlqt	!!(lqḥ[lqt	/l-q-ḥ/	vb	1) to get hold of	KTU corrected: lqt
 176219	w	w	w	conj.	and	
 176220	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
+176220	pn	pn	pn	functor	lest	
 # KTU 2.13 18						
-176221	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
-176222	nr	nr/	nr	n. m. sg. cstr. gen.	sheen	
-176223	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+176221	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
+176222	nr	nr/	nr	n. m. sg. cstr. nom.	sheen	
+176222	nr	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	
+176223	bn	b+n	b	prep.	in	
+176223	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+176223	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+176223	bn	bn(II)	bn (II)	prep.	between	
+176223	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+176223	bn	bn[	/b-n/	vb G impv. 2	to understand	

@@ -5,6 +5,11 @@ from __future__ import annotations
 from morph_features.types import FeatureBundle
 
 
+def _render_number(number: str) -> str:
+    """Use prose alternatives so `/` remains reserved for POS alternatives."""
+    return (number or "").replace(" / ", " or ")
+
+
 def render_pos(bundle: FeatureBundle, *, fallback: str = "") -> str:
     if bundle.part_of_speech == "vb":
         parts = ["vb"]
@@ -17,7 +22,7 @@ def render_pos(bundle: FeatureBundle, *, fallback: str = "") -> str:
         if bundle.gender:
             parts.append(bundle.gender)
         if bundle.number:
-            parts.append(bundle.number)
+            parts.append(_render_number(bundle.number))
         if bundle.state:
             parts.append(bundle.state)
         if bundle.case:
@@ -28,7 +33,7 @@ def render_pos(bundle: FeatureBundle, *, fallback: str = "") -> str:
     if bundle.gender:
         parts.append(bundle.gender)
     if bundle.number:
-        parts.append(bundle.number)
+        parts.append(_render_number(bundle.number))
     if bundle.state:
         parts.append(bundle.state)
     if bundle.case:

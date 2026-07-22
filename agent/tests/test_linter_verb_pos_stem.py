@@ -194,6 +194,18 @@ class LinterVerbPosStemTest(unittest.TestCase):
             any(message.startswith(self.MISSING_N_ASSIMILATION) for message in messages)
         )
 
+    def test_suffix_n_stem_marker_satisfies_non_g_stem_requirement(self) -> None:
+        messages = self._lint_messages(
+            "vb N suffc. 1 c. sg.",
+            surface="nšt",
+            analysis="]n](nš(y[t",
+            dulat_token="/n-š-y/",
+            gloss="to be forgotten",
+            entry_morph="N, suffc.",
+            entry_stems_value={"N"},
+        )
+        self.assertNotIn("Non-G stem in DULAT requires stem marker", messages)
+
 
 if __name__ == "__main__":
     unittest.main()

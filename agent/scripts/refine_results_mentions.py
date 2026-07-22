@@ -93,6 +93,14 @@ _BASE_NOMINAL_ANALYSIS_RE = re.compile(
     r"^(?P<lemma>[A-Za-zʔʕʿˤḫḥṭṣṯẓġḏšảỉủ]+)(?P<hom>\([IVX]+\))?/$"
 )
 
+# Automatic parsing is a ranked review aid, not a single-best-answer tagger.
+# Keep a small bundle of linguistically viable alternatives while excluding
+# low-scoring derived hypotheses that would make every token needlessly noisy.
+AUTOMATIC_MAX_VARIANTS = 5
+VIABLE_DERIVED_SCORE_WINDOW = 6
+VIABLE_EXACT_SCORE_WINDOW = 7
+VIABLE_SPLIT_SCORE_WINDOW = 8
+
 
 def format_preformative_marker(letter: str) -> str:
     """Render canonical prefix-conjugation marker for one preformative letter."""
@@ -532,6 +540,14 @@ def has_prefix_morphology(morph_values: Sequence[str]) -> bool:
     return "prefc." in merged
 
 
+def has_n_suffix_morphology(morph_values: Sequence[str]) -> bool:
+    """Return whether DULAT identifies an N-stem suffix-conjugation form."""
+    merged = " | ".join(morph_values or [])
+    return bool(re.search(r"(?:^|[,|;]\s*)N(?:\s*[,|;]|\s+)", merged)) and (
+        "suffc." in merged.lower()
+    )
+
+
 def has_l_stem_morphology(morph_values: Sequence[str]) -> bool:
     merged = " | ".join(morph_values or [])
     return bool(_L_STEM_MORPH_RE.search(merged))
@@ -863,6 +879,16 @@ def build_aligned_nominal_analysis(
         letter if op == "keep" else ("(" + letter if op == "hide" else "&" + letter)
         for op, letter in edits
     )
+    # Homonym labels belong to the lexical host, before any trailing
+    # surface-only editorial signs (sp[[x]]r[[n]] -> sp&xr(II)&n/).
+    trailing_extra = re.search(r"(?:&[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ])+$", encoded)
+    if hom and trailing_extra:
+        encoded = (
+            encoded[: trailing_extra.start()]
+            + hom
+            + encoded[trailing_extra.start() :]
+        )
+        hom = ""
     return f"{encoded}{hom}/{tail}"
 
 
@@ -946,6 +972,33 @@ def build_aleph_realization_analysis(
         return direct
     if surface_plain[:1] in _PREFORMATIVE_LETTERS and len(surface_plain) > 1:
         return _attempt(surface_plain[1:], format_preformative_marker(surface_plain[0]))
+    return None
+
+
+def build_n_suffix_analysis(
+    *,
+    surface_plain: str,
+    stem_plain: str,
+    hom: str,
+) -> Optional[str]:
+    """Encode a written N-stem formative in a suffix-conjugation form.
+
+    DULAT morphology, rather than the presence of surface ``n``, gates this
+    builder.  The initial written formative is therefore ``]n]``.  A final
+    aleph realized by a vowel letter keeps the radical reconstructed and the
+    written vowel after the verbal ``[`` closure: nḫtu -> ]n]ḫt(ʔ[&u.
+    """
+    if not surface_plain.startswith("n") or not stem_plain:
+        return None
+    body = surface_plain[1:]
+    if (
+        stem_plain.endswith("ʔ")
+        and body[-1:] in _VOWEL_LETTERS
+        and body[:-1] == stem_plain[:-1]
+    ):
+        return f"]n]{stem_plain[:-1]}(ʔ{hom}[&{body[-1]}"
+    if body.startswith(stem_plain):
+        return f"]n]{stem_plain}{hom}[{body[len(stem_plain):]}"
     return None
 
 
@@ -1047,6 +1100,14 @@ def analysis_for_entry(
         )
         if assimilated is not None:
             return assimilated
+        if has_n_suffix_morphology(morph_values or []):
+            n_suffix = build_n_suffix_analysis(
+                surface_plain=surface_plain,
+                stem_plain=stem_plain,
+                hom=hom,
+            )
+            if n_suffix is not None:
+                return n_suffix
         realized = build_aleph_realization_analysis(
             surface_plain=surface_plain,
             stem_plain=stem_plain,
@@ -1073,6 +1134,9 @@ def analysis_for_entry(
             tail = surface_plain[len(marker_plus_stem) :]
         elif stem_plain and surface_plain.startswith(stem_plain):
             tail = surface_plain[len(stem_plain) :]
+        # Aleph is reconstructed rather than a written alphabetic sign in
+        # the analysis notation, including unmatched fallback forms.
+        stem = re.sub(r"(?<!\()ʔ", "(ʔ", stem)
         return f"{stem_marker}{stem}{hom}[{tail}"
 
     lex = lemma_to_letters(e.lemma, fallback=s)
@@ -1578,9 +1642,12 @@ def score_variant(
             s -= 1
 
         # Use DULAT form morphology (for this exact surface) as generic tie-breaker.
-        fm = " | ".join(
-            sorted(forms_morph.get((normalize_lookup(surface), pe.entry_id), set()))
-        ).lower()
+        form_morph_values = set(forms_morph.get((normalize_lookup(surface), pe.entry_id), set()))
+        if len(v.entries) == 1 and normalize_lookup(v.base_surface) != normalize_lookup(surface):
+            form_morph_values.update(
+                forms_morph.get((normalize_lookup(v.base_surface), pe.entry_id), set())
+            )
+        fm = " | ".join(sorted(form_morph_values)).lower()
         if fm:
             ends_pron_suffix = bool(re.search(r"(y|k|h|hm|hn|km|kn|n)$", normalize_lookup(surface)))
             if "pn." in fm:
@@ -1655,6 +1722,60 @@ def dedupe_suffix_entries(entries: Iterable[Entry]) -> List[Entry]:
         seen.add(key)
         out.append(e)
     return out
+
+
+def _variant_has_exact_lexical_head(variant: Variant, surface: str) -> bool:
+    """Return whether a one-entry candidate is an exact lexical headword hit.
+
+    Exact homonyms receive a slightly wider viability window than derived or
+    reconstructed hypotheses. Contextual stages may still disambiguate them
+    from direct attestations, formulas, or local syntax later in the pipeline.
+    """
+    if len(variant.entries) != 1:
+        return False
+    entry = variant.entries[0]
+    if (entry.lemma or "").startswith("-"):
+        return False
+    lemma = normalize_lookup(entry.lemma)
+    return lemma in {normalize_lookup(surface), normalize_lookup(variant.base_surface)}
+
+
+def _variant_has_redirect_evidence(variant: Variant) -> bool:
+    if variant.from_redirect:
+        return True
+    return any((entry.pos or "").strip() == "→" for entry in variant.entries)
+
+
+def select_viable_ranked_variants(
+    variants: Sequence[Variant],
+    *,
+    surface: str,
+    max_variants: int,
+) -> List[Variant]:
+    """Select a compact candidate bundle without frequency-only collapse.
+
+    Scores remain useful for ranking and for discarding weak reconstructions,
+    but exact lexical homonyms are protected inside the hard review ceiling.
+    This leaves genuine disambiguation to evidence-bearing downstream stages.
+    """
+    if not variants or max_variants <= 0:
+        return []
+
+    best_score = variants[0].score
+    viable: List[Variant] = []
+    for variant in variants:
+        if len(variant.entries) > 1:
+            score_window = VIABLE_SPLIT_SCORE_WINDOW
+        elif _variant_has_exact_lexical_head(variant, surface):
+            score_window = VIABLE_EXACT_SCORE_WINDOW
+        else:
+            score_window = VIABLE_DERIVED_SCORE_WINDOW
+        if (
+            _variant_has_redirect_evidence(variant)
+            or (best_score - variant.score) <= score_window
+        ):
+            viable.append(variant)
+    return viable[:max_variants]
 
 
 def is_function_word_like(entry: Entry) -> bool:
@@ -1742,24 +1863,55 @@ def build_variants(
     entry_family_count: Dict[int, Dict[str, int]],
     direct_reference_index: DulatAttestationIndex | None = None,
     max_variants: int = 3,
+    editorial_lookup_surface: str = "",
 ) -> List[Variant]:
     s_norm = normalize_lookup(surface)
-    direct_all = dedupe_entries(forms_map.get(s_norm, []))
+    lookup_surfaces = [surface]
+    editorial_norm = normalize_lookup(editorial_lookup_surface)
+    if editorial_norm and editorial_norm != s_norm:
+        lookup_surfaces.append(editorial_lookup_surface)
+
+    direct_source_by_id: Dict[int, str] = {}
+    direct_candidates: List[Entry] = []
+    editorial_direct_ids: Set[int] = set()
+    for lookup_surface in lookup_surfaces:
+        lookup_norm = normalize_lookup(lookup_surface)
+        lookup_entries = list(forms_map.get(lookup_norm, []))
+        if lookup_norm == editorial_norm and lookup_norm != s_norm:
+            # A corrected editorial reading is lexical evidence, not merely an
+            # inflected-form hit. Include exact lemma homonyms that the forms
+            # index can omit when another homonym owns the explicit form row.
+            lookup_entries.extend(lemma_map.get(lookup_norm, []))
+        for entry in dedupe_entries(lookup_entries):
+            if entry.entry_id not in direct_source_by_id:
+                direct_source_by_id[entry.entry_id] = lookup_surface
+                direct_candidates.append(entry)
+            if lookup_norm == editorial_norm and lookup_norm != s_norm:
+                editorial_direct_ids.add(entry.entry_id)
+
+    direct_all = dedupe_entries(direct_candidates)
     direct_pref = [e for e in direct_all if (e.pos or "").strip() and (e.pos or "").strip() != "→"]
     direct = direct_pref if direct_pref else direct_all
-    direct_has_exact_form = any((s_norm, e.entry_id) in forms_morph for e in direct)
+    lookup_norms = {normalize_lookup(value) for value in lookup_surfaces}
+    direct_has_exact_form = any(
+        (lookup_norm, entry.entry_id) in forms_morph
+        for lookup_norm in lookup_norms
+        for entry in direct
+    )
     direct_exact_lexical = [
         e
         for e in direct
         if not (e.lemma or "").startswith("-")
         and (e.pos or "").strip()
         and (e.pos or "").strip() != "→"
-        and normalize_lookup(e.lemma) == s_norm
+        and normalize_lookup(e.lemma) in lookup_norms
     ]
     direct_exact_lexical_ids = {e.entry_id for e in direct_exact_lexical}
     direct_ids = {e.entry_id for e in direct}
 
-    variants: List[Variant] = [Variant((e,), surface) for e in direct]
+    variants: List[Variant] = [
+        Variant((entry,), direct_source_by_id.get(entry.entry_id, surface)) for entry in direct
+    ]
 
     # Expand lexical variants from redirect-only entries (pos = "→") using
     # explicit cf.-targets from DULAT entry notes.
@@ -1784,12 +1936,18 @@ def build_variants(
                 )
             ]
             for target_entry in filtered_targets[:2]:
-                variants.append(Variant((target_entry,), surface, from_redirect=True))
+                variants.append(
+                    Variant(
+                        (target_entry,),
+                        direct_source_by_id.get(redirect_entry.entry_id, surface),
+                        from_redirect=True,
+                    )
+                )
 
     # Conservative suffix splitting:
     # - when direct form mapping failed, or
     # - when direct candidates come only from lemma fallback (no exact form hit).
-    if (not direct) or (direct and not direct_has_exact_form):
+    if ((not direct) or (direct and not direct_has_exact_form)) and not editorial_direct_ids:
         suffixes = sorted(suffix_map.keys(), key=len, reverse=True)
         for suf in suffixes:
             if not s_norm.endswith(suf) or len(s_norm) <= len(suf):
@@ -1886,19 +2044,19 @@ def build_variants(
             tuple(entry_label(e) for e in v.entries),
         )
     )
-    # Collapse to one variant when evidence is strongly skewed.
+    # Exact-line reverse mentions are strong ranking evidence, but they are not
+    # an exhaustive annotation of every viable reading.  In particular, a
+    # dictionary citation may discuss only one of several homonyms on the line.
+    # Keep the score boost above and leave elimination to the viability window
+    # plus evidence-bearing contextual stages.
     has_redirect_pair = any(v.from_redirect for v in variants) and any(
         len(v.entries) == 1 and (v.entries[0].pos or "").strip() == "→" for v in variants
     )
-    has_split_variant = any(len(v.entries) > 1 for v in variants)
-    if (
-        not has_redirect_pair
-        and not has_split_variant
-        and len(variants) > 1
-        and (variants[0].score - variants[1].score) >= 6
-    ):
-        return [variants[0]]
-    top = variants[:max_variants]
+    top = select_viable_ranked_variants(
+        variants,
+        surface=surface,
+        max_variants=max_variants,
+    )
     if has_redirect_pair and not any(
         len(v.entries) == 1 and (v.entries[0].pos or "").strip() == "→" for v in top
     ):
@@ -1927,7 +2085,11 @@ def render_variant(
     entries = list(v.entries)
     if len(entries) == 1:
         e = entries[0]
-        mv = sorted(forms_morph.get((normalize_lookup(surface), e.entry_id), set()))
+        morph_values = set(forms_morph.get((normalize_lookup(surface), e.entry_id), set()))
+        morph_values.update(
+            forms_morph.get((normalize_lookup(v.base_surface), e.entry_id), set())
+        )
+        mv = sorted(morph_values)
         a = analysis_for_entry(
             surface,
             e,
@@ -1986,6 +2148,7 @@ def refine_file(
     direct_reference_index: DulatAttestationIndex | None = None,
     translation_index: DulatAttestationTranslationIndex | None = None,
     only_not_found: bool = False,
+    editorial_lookup_overrides: Optional[Dict[str, str]] = None,
 ) -> Tuple[int, int]:
     lines = path.read_text(encoding="utf-8").splitlines()
     out_lines: List[str] = []
@@ -2023,6 +2186,7 @@ def refine_file(
 
         line_id = parts[0].strip()
         surface = normalize_analysis(parts[1].strip())
+        editorial_lookup_surface = (editorial_lookup_overrides or {}).get(line_id, "")
 
         # preserve empty and fully broken rows
         if not surface:
@@ -2056,7 +2220,8 @@ def refine_file(
             entry_tablets,
             entry_family_count,
             direct_reference_index=direct_reference_index,
-            max_variants=3,
+            max_variants=AUTOMATIC_MAX_VARIANTS,
+            editorial_lookup_surface=editorial_lookup_surface,
         )
 
         if not variants:
@@ -2082,6 +2247,14 @@ def refine_file(
             # preformatives), so baselines like il(I)/ for ilm only become
             # reconstructable later. The end-of-pipeline fallback step turns
             # what still cannot reconstruct after repair into '?' + hint.
+            used_editorial_lookup = bool(
+                editorial_lookup_surface
+                and any(
+                    normalize_lookup(candidate.base_surface)
+                    == normalize_lookup(editorial_lookup_surface)
+                    for candidate in variants
+                )
+            )
             new_parts = [
                 line_id,
                 surface,
@@ -2089,7 +2262,7 @@ def refine_file(
                 ";".join(item[1] for item in rendered),
                 ";".join(item[2] for item in rendered),
                 ";".join(item[3] for item in rendered),
-                "",
+                f"KTU corrected: {editorial_lookup_surface}" if used_editorial_lookup else "",
             ]
 
         new_line = "\t".join(new_parts)

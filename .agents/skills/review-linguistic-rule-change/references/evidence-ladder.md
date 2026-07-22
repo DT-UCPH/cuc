@@ -13,6 +13,8 @@ Use higher evidence to constrain lower evidence; do not treat the list as a voti
 
 Automatic output is a hypothesis, not authority. Surface analogy can discover candidates but cannot establish lexeme identity, number, suffix, enclitic, or homonym by itself.
 
+Surface reconstruction is a validation invariant, not lexical evidence. An analysis can reconstruct perfectly while assigning a written consonant to the wrong root, stem formative, or ending.
+
 ## Turn Feedback Into a Rule
 
 Record:
@@ -57,4 +59,3 @@ End with one of:
 - already encoded correctly;
 - unresolved pending stronger evidence;
 - rejected because a documented exception applies.
-

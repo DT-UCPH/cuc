@@ -36,6 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175302	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 175302	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 175302	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
+175302	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 # KTU 1.172 14						
 175303	rn	?	?	?	?	DULAT: NOT FOUND
 175304	lp	?	?	?	?	DULAT: NOT FOUND
@@ -62,11 +63,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.172 20						
 175315	xšy	?	?	?	?	DULAT: NOT FOUND
 175316	ybġ	?	?	?	?	DULAT: NOT FOUND
-175317	dd	dd(II)/	dd (II)	n. m. sg. cstr. nom.	cauldronful	
+175317	dd	dd(II)/	dd (II)	n. m. sg. abs. nom.	cauldronful	
 # KTU 1.172 21						
 175318		?	?	?	?	
-175319	ḫẓ	(ḥ&ḫẓ/	ḥẓ	n. m. sg. cstr. gen.	1) arrow c) fletch- ers	
-175320	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+175319	ḫẓ	(ḥ&ḫẓ/	ḥẓ	n. m. sg. cstr. nom.	1) arrow c) fletch- ers	
+175319	ḫẓ	ḫẓ	ḫẓ	?	?	
+175320	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 175321	b	b	b	prep.	in	
 175322	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	5) used as a preposition	
 # KTU 1.172 22						
@@ -97,7 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175339		?	?	?	?	
 175340	ḥmṯ	ḥmṯ/	ḥmṯ	n. m. sg. abs. nom.	belly	
 # KTU 1.172 29						
-175341	bm	b+m(I)	b	prep.	in	
+175341	bm	b~m	b	prep.	in	
 # KTU 1.172 30						
 175342		?	?	?	?	
 175343	yldhnaxx	?	?	?	?	DULAT: NOT FOUND

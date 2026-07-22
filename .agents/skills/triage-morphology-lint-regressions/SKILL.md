@@ -13,8 +13,14 @@ Compare like with like: same logical file and version, same linter code, same da
 2. Determine whether the candidate is staged, unstaged, regenerated, or a temporary migration preview.
 3. Select the matching baseline: normally `HEAD` for the same logical path and TF version.
 4. Record the exact linter, DULAT database, UDB database, input format, and override tables.
+5. For regeneration, save baseline output and lint before invoking the pipeline or report wrapper.
 
 If setup or database loading fails, report an environmental failure rather than treating missing output as a clean lint run.
+
+Do not assume a generated `before_latest` file is genuinely pre-run. The current full
+regeneration workflow can refresh lint before its delta writer snapshots that file. Verify
+timestamps, content hashes, and provenance; if baseline and candidate are identical after a
+known rewrite, rebuild the baseline from the saved pre-run output or `HEAD`.
 
 ## Use the Existing Stable Comparator
 
@@ -49,4 +55,3 @@ For every reported regression:
 For diagnosis-only requests, report new errors, causes, affected files, and the smallest plausible fix without editing.
 
 When fixes are requested, change the authoritative source: reviewed row, parser rule, override, or linter predicate. Add a regression test, re-lint baseline and candidate with identical settings, and require zero new ERROR occurrences. Do not suppress a valid diagnostic merely to make the comparator pass.
-

@@ -55,6 +55,26 @@ class ParadigmMatcherTest(unittest.TestCase):
         self.assertIn(("(]n]ypˤ[t==", "2", "f.", "sg."), rendered)
         self.assertIn(("(]n]ypˤ[t", "1", "c.", "sg."), rendered)
 
+    def test_n_stem_suffix_with_root_initial_n_marks_both_nuns(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="nšt",
+            dulat="/n-š-y/",
+            stem="N",
+            conjugation="suffc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("]n](nš(y[t", "1", "c.", "sg."), rendered)
+
+    def test_n_stem_suffix_realizes_final_aleph_as_written_vowel(self) -> None:
+        candidates = generate_verbal_candidates(
+            surface="nḫtu",
+            dulat="/ḫ-t-ʔ/",
+            stem="N",
+            conjugation="suffc.",
+        )
+        rendered = {(item.analysis, item.person, item.gender, item.number) for item in candidates}
+        self.assertIn(("]n]ḫt(ʔ[&u", "3", "m.", "sg."), rendered)
+
     def test_generates_weak_final_d_prefix_candidates_when_pattern_table_is_sparse(self) -> None:
         candidates = generate_verbal_candidates(
             surface="tkly",

@@ -59,6 +59,14 @@ class AlephRealizationTest(unittest.TestCase):
         analysis = analysis_for_entry("tša", _verb("/n-š-ʔ/"), morph_values=["G, prefc."])
         self.assertEqual(analysis, "!t!(nš(ʔ[&a")
 
+    def test_n_suffix_iii_aleph_with_visible_formative(self) -> None:
+        analysis = analysis_for_entry("nḫtu", _verb("/ḫ-t-ʔ/"), morph_values=["N, suffc."])
+        self.assertEqual(analysis, "]n]ḫt(ʔ[&u")
+
+    def test_unmatched_aleph_root_fallback_marks_reconstructed_aleph(self) -> None:
+        analysis = analysis_for_entry("mmlat", _verb("/m-l-ʔ/"))
+        self.assertEqual(analysis, "ml(ʔ[")
+
 
 if __name__ == "__main__":
     unittest.main()

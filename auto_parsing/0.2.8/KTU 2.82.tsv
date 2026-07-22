@@ -13,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179083	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.82 4						
 179084	ˤky	ˤky(I)/	ʕky (I)	TN sg. abs. nom.	ʿky (I)	
-179085	nplṭ	]n]plṭ[	/p-l-ṭ/	vb N suffc. 3 m. sg.	to be safe	
+179085	nplṭ	?	?	?	?	DULAT candidates (no reconstructable encoding): /p-l-ṭ/ - to be safe
 # KTU 2.82 5						
 179086	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
 179087	šˤtq	šˤtq/	šʕtq	adj. m. sg. abs. nom.	noble	
@@ -43,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.82 11						
 179104	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 2.82 12						
-179105	nplṭ	]n]plṭ[	/p-l-ṭ/	vb N suffc. 3 m. sg.	to be safe	
+179105	nplṭ	?	?	?	?	DULAT candidates (no reconstructable encoding): /p-l-ṭ/ - to be safe
 179106	ḥxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.82 13						
 179107	w	w	w	conj.	and	
@@ -59,9 +59,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179113	nši	nš(ʔ[/&i	/n-š-ʔ/	vb G act. ptcpl. m. sg. abs. nom.	to raise, lift, help up	
 # KTU 2.82 17						
 179114	ikmy	ikmy	ỉkmy	conj.	however that may be	
-179115	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
+179115	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	DULAT quote in ḥy (I) (cue: alive)
 # KTU 2.82 18						
-179116	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
+179116	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. nom.	ʿbdmlk	
 179117	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
 # KTU 2.82 19						
 179118	ymt	ym(I)/t=	ym (I)	n. f. pl. abs. nom.	day	

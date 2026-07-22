@@ -6,8 +6,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.27 3						
 181632		?	?	?	?	
 181633	bd	b&d	b	prep.	in	
-181634	br	br/	br(r)	n. m. sg. abs. gen.	tin	
-181634	br	br(I)/	br (I)	n. m. sg. abs. gen.	Art Seeschiff	
+181634	br	br/	br(r)	n. m. sg. abs. nom.	tin	
+181634	br	br(I)/	br (I)	n. m. sg. abs. nom.	Art Seeschiff	
 181634	br	br[	/b-r(-r)/	vb G suffc. 3 m. sg.	to be or remain pure	
 # KTU 3.27 4						
 181635	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
@@ -15,11 +15,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181635	ky	k(IV)+y	k (IV)	adv.	thus	
 181636	bd	b&d	b	prep.	in	
 # KTU 3.27 5						
-181637	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+181637	bn	b+n	b	prep.	in	
+181637	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181637	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181637	bn	bn(II)	bn (II)	prep.	between	
+181637	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181637	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181638		?	?	?	?	
 # KTU 3.27 6						
 181639		?	?	?	?	
-181640	ubdy	ubdy/	ủbdy	n. m. sg. abs. gen.	land	
+181640	ubdy	ubdy/	ủbdy	n. m. sg. cstr. nom.	land	
+181640	ubdy	ubdy/	ủbdy	n. m. sg. abs. nom.	land	
 # KTU 3.27 7						
 181641		?	?	?	?	
 181642	mxx	?	?	?	?	DULAT: NOT FOUND

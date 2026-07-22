@@ -29,8 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173350	ydm	yd(I)/m	yd (I)	n. f. pl. abs. gen.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
 # KTU 1.115 7						
 173351	b	b	b	prep.	in	
-173352	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
-173353	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	DULAT quote in qdš (II) (cue: god)
+173352	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	DULAT quote in qdš (II) (cue: sanctuary)
+173353	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	DULAT quote in qdš (II) (cue: god)
 173354	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 # KTU 1.115 8						
 173355	w	w	w	conj.	and	
@@ -57,12 +57,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.115 11						
 173366	w	w	w	conj.	and	
 173367	l	l(I)	l (I)	prep.	to	
-173368	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	superintendent	
-173368	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
-173369	šqym	šqy/m	šqy	n. m. pl. cstr. gen.	cupbearer	
-173369	šqym	šqy/m	šq	n. m. pl. cstr. gen.	thigh	
+173368	bbt	bbt(II)/	bbt (II)	DN sg. abs. gen.	superintendent	
+173368	bbt	bbt(I)/	bbt (I)	TN sg. abs. gen.	bbt (I)	
+173369	šqym	šqy/m	šqy	n. m. pl. abs. nom.	cupbearer	
+173369	šqym	šqy/m	šq	n. m. pl. abs. nom.	thigh	
 # KTU 1.115 12						
-173370	š	š/	š	n. m. sg. abs. gen.	ram	
+173370	š	š/	š	n. m. sg. abs. nom.	ram	
 173371	l	l(I)	l (I)	prep.	to	
 173372	ušḫr	ušḫr/	ủšḫr	DN sg. cstr. gen.	Snake	
 173373	ḫlmẓ	ḫlmẓ/	ḫlmẓ	n. m. sg. abs. gen.	Snake	
@@ -76,4 +76,3 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173378	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day b) as a period in time	DULAT quote in ym (I) (cue: day)
 173379	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	1) number one c) appositional syntagms	
 173379	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
-173379	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	

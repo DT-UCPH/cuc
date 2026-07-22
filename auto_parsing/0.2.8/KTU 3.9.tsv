@@ -5,17 +5,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180963	d	d	d	det. or rel. functor	2) which	
 180964	qny	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. cstr. nom.	to acquire	
 # KTU 3.9 3						
-180965	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
+180965	šmmn	šmmn/	šmmn	PN sg. abs. gen.	šmmn	
 # KTU 3.9 4						
 180966	b	b	b	prep.	in	
 180967	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
-180967	bt	bt(III)/	bt (III)	n. m. pl. abs. gen.	length	
 180968	w	w	w	conj.	and	
 # KTU 3.9 5						
 180969	w	w	w	conj.	and	
 180970	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 180970	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 180970	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
+180970	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 180971	ibsn	ibsn/	ỉbsn	n. m. sg. abs. nom.	warehouse	
 # KTU 3.9 6						
 180972	lwkmwkm	?	?	?	?	DULAT: NOT FOUND
@@ -42,14 +42,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180982	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 180983	al	al(I)	ảl (I)	neg. functor	no	
 180983	al	al(II)	ảl (II)	pos. functor	surely	
+180984	ydd	!y!(ndd[	/n-d-d/	vb G prefc. 3 m. sg.	to go, move	
 180984	ydd	ydd(I)/	ydd (I)	adj. m. sg. abs. nom.	loved	
 # KTU 3.9 13						
-180985	mt	mt(II)/	mt (II)	DN m. sg. cstr. nom.	Mot/Death	
-180985	mt	mt(II)/	mt (II)	n. m. sg. cstr. nom.	death	
-180985	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+180985	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+180985	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
+180985	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
+180985	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
 180985	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	1) man	
-180985	mt	mt(III)/	mt (III)	n. m. sg. cstr. nom.	1) man	
-180986	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. gen.	1) cult association	
+180985	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	1) man	
+180985	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+180985	mt	mt(IV)	mt (IV)	adv.	certainly	
+180986	mrzḥ	mrzḥ/	mrzḥ	n. m. abs. nom.	1) cult association	
 # KTU 3.9 14						
 180987	w	w	w	conj.	and	
 180988	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say	
@@ -71,12 +75,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180998	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
 180999	iḫršp	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 19						
+181000	bn	b+n	b	prep.	in	
 181000	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-181001	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. cstr. gen.	express messenger	
+181000	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181000	bn	bn(II)	bn (II)	prep.	between	
+181000	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181000	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181001	uḏrnn	uḏr(I)/+nn	ủḏr (I)	n. m. cstr. nom.	express messenger	
 # KTU 3.9 20						
 181002	w	w	w	conj.	and	
 181003	ˤbdn	ˤbd(I)/+n	ʕbd (I)	n. m. pl. cstr. nom.	servant	
 # KTU 3.9 21						
+181004	bn	b+n	b	prep.	in	
 181004	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181004	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181004	bn	bn(II)	bn (II)	prep.	between	

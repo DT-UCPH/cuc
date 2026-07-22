@@ -33,6 +33,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168003	txx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.45 7						
 168004	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
+168004	aṯr	(ʔ&aṯr[	/ʔ-ṯ-r/	vb G suffc. 3 m. sg.	to go, follow	
+168004	aṯr	!!(ʔ&aṯr[/	/ʔ-ṯ-r/	vb G inf.	to go, follow	
+168004	aṯr	(ʔ&aṯr[:d	/ʔ-ṯ-r/	vb D suffc. 3 m. sg.	force to follow, to transmit	
 168005	aṯrm	(ʔ&aṯr[/m	/ʔ-ṯ-r/	vb G ptcpl. m. sg. abs. nom.	to go, follow	
 168006	xxx	?	?	?	?	
 # KTU 1.45 8						
@@ -56,6 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168019	klm	kl/m	kl	n. m. pl. abs. nom.	totality (of)	
 # KTU 1.45 12						
 168020	xxx	?	?	?	?	
+168021	bn	b+n	b	prep.	in	
 168021	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 168021	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 168021	bn	bn(II)	bn (II)	prep.	between	

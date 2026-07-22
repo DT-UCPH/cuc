@@ -32,11 +32,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177951	w	w	w	conj.	and	
 177952	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 177952	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-177953	gbl	gbl(I)/	gbl (I)	n. m. sg. cstr. gen.	summit	
-177953	gbl	gbl(II)/	gbl (II)	n. m. sg. cstr. gen.	limit	
+177953	gbl	gbl(I)/	gbl (I)	n. m. sg. abs. gen.	summit	
+177953	gbl	gbl(II)/	gbl (II)	n. m. sg. abs. gen.	limit	
 # KTU 2.44 9						
-177954	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
-177955	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
+177954	p	p(I)	p (I)	conj. functor	and	
+177954	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+177954	p	p(II)	p (II)	adv.	here	
+177955	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
 177956	w	w	w	conj.	and	
 177957	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 177957	špš	špš/	špš	n. f. sg. abs. nom.	sun	

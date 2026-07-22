@@ -5,75 +5,130 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181151	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 181152	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 181153	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
+181153	ḫmšt	ḫmšt/	ḫmšt	n. f. pl. abs. nom.	five-shekel (?) weight	
 # KTU 3.13 2						
 181154	w	w	w	conj.	and	
 181155	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
-181156	kkr	kkr/	kkr	n. m. sg. cstr. nom.	2) relative values	
-181157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181158	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+181156	kkr	kkr/	kkr	n. m. sg. abs. nom.	2) relative values	
+181157	ˤl	ˤl(I)	ʕl (I)	prep.	3) relationship of exchange or profit	
+181157	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181157	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181158	bn	b+n	b	prep.	in	
+181158	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181158	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181158	bn	bn(II)	bn (II)	prep.	between	
+181158	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181158	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181159	xx	?	?	?	?	
 # KTU 3.13 3						
 181160	w	w	w	conj.	and	
-181161	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
-181162	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. gen.	oil	
+181161	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	1) the numeral three b) genitive syntagms	DULAT quote in ṯlṯ (I) (cue: three)
+181162	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 # KTU 3.13 4						
 181163	w	w	w	conj.	and	
+181164	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181164	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181164	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181164	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181165	rny	rny/	rny	PN sg. cstr. gen.	rny	
-181166	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
-181167	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181168	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181169	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. gen.	right (side)	
+181165	rny	rny/	rny	PN sg. cstr. nom.	rny	
+181166	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+181167	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181167	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181167	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181167	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181168	bn	b+n	b	prep.	in	
+181168	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181168	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181168	bn	bn(II)	bn (II)	prep.	between	
+181168	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181168	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181169	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. nom.	right (side)	
 # KTU 3.13 5						
 181170	šbˤ	šbˤ(I)/	šbʕ (I)	num.	2) composite numbers b) tens	
-181171	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
-181172	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	1) oil a) oil (prob. olive oil)	
-181173	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181174	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. pl. abs. gen.	(suit of) armour	
-181174	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. sg. abs. gen.	(suit of) armour	
+181171	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
+181171	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+181171	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+181171	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+181171	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+181172	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	1) oil a) oil (prob. olive oil)	
+181173	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181173	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181173	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181173	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181174	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. pl. cstr. nom.	(suit of) armour	
+181174	ṯryn	ṯryn(I)/	ṯryn (I)	n. m. sg. abs. nom.	(suit of) armour	
 # KTU 3.13 6						
 181175	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
+181175	ḫmšt	ḫmšt/	ḫmšt	n. f. pl. abs. nom.	five-shekel (?) weight	
 181176	l	l(I)	l (I)	prep.	to	
 181177	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
-181178	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181179	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181180	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181181	llit	llit/	llỉt	PN sg. abs. gen.	llỉt	
+181178	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181179	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181179	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181179	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181179	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181180	bn	b+n	b	prep.	in	
+181180	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181180	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181180	bn	bn(II)	bn (II)	prep.	between	
+181180	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181180	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181181	llit	llit/	llỉt	PN sg. abs. nom.	llỉt	
 # KTU 3.13 7						
 181182	w	w	w	conj.	and	
 181183	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
-181184	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181185	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181186	yrbˤm	yrbˤm/	yrbʕm	PN sg. cstr. gen.	yrbʿm	
+181183	ḫmšt	ḫmšt/	ḫmšt	n. f. pl. abs. nom.	five-shekel (?) weight	
+181184	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181185	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181185	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181185	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181185	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181186	yrbˤm	yrbˤm/	yrbʕm	PN sg. cstr. nom.	yrbʿm	
 181187	arny	arny(II)/	ảrny (II)	GN sg. abs. gen.	ảrny (II)	
 # KTU 3.13 8						
 181188	w	w	w	conj.	and	
+181189	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181189	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181189	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181189	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181190	is	is/	ỉs	PN sg. abs. gen.	ỉs	
+181190	is	is/	ỉs	PN sg. abs. nom.	ỉs	
 181191	arbˤm	arbˤ&m/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
-181191	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
 181192	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
 181193	w	w	w	conj.	and	
 181194	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
 181195	yn	yn/	yn	n. m. sg. abs. nom.	3) production and consumption b) in commerce	
 # KTU 3.13 9						
 181196	w	w	w	conj.	and	
+181197	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181197	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181197	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181197	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181198	mnḥm	mnḥ/+m(I)	mnḥ	n. m. cstr. gen.	delivery	
-181198	mnḥm	mn(ḫ&ḥ/+m(I)	mnḫ	n. m. cstr. gen.	calm	
+181198	mnḥm	mnḥm/	mnḥm	PN sg. abs. nom.	mnḥm	
 181199	arbˤ	arbˤ/	ảrbʕ	num.	four	
 181200	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 # KTU 3.13 10						
 181201	w	w	w	conj.	and	
+181202	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181202	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181202	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181202	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181203	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+181203	bn	b+n	b	prep.	in	
+181203	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181203	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181203	bn	bn(II)	bn (II)	prep.	between	
+181203	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181203	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181204	agyn	?	?	?	?	DULAT: NOT FOUND
 181205	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
 # KTU 3.13 11						
 181206	ṯṯ	ṯṯ/	ṯṯ	num.	six	
-181207	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181208	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181209	kdrn	kdr/+n	kdr	n. m. cstr. gen.	trough	
+181207	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181208	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181208	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181208	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181208	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181209	kdrn	kdr/+n	kdr	n. m. cstr. nom.	trough	
 # KTU 3.13 12						
 181210	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
 181210	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
@@ -88,30 +143,38 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181213	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
 181213	ġr	ġr(V)/	ġr (V)	n. m. sg. abs. nom.	total	
 181213	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
+181213	ġr	ġr(II)/	ġr (II)	n. m. sg. abs. nom.		
 # KTU 3.13 13						
 181214	w	w	w	conj.	and	
 181215	dšn	dšn	dšn			
 181216	krsnm	krsn/m	krs/śn	n. m. pl. abs. nom.	wineskin	
 # KTU 3.13 14						
 181217	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
-181218	mat	m(i&at/	mỉt	n. f. pl. cstr. nom.	1) a hundred	
-181219	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-181220	tyt	ty(t/t	tyt	n. f. sg. cstr. gen.	ranunculus	
+181218	mat	m(i&at/	mỉt	n. f. pl. abs. nom.	1) a hundred	
+181219	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
+181219	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+181219	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+181220	tyt	ty(t/t	tyt	n. f. sg. abs. nom.	ranunculus	
 # KTU 3.13 15						
-181221	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+181221	bn	b+n	b	prep.	in	
+181221	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181221	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181221	bn	bn(II)	bn (II)	prep.	between	
+181221	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181221	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181222	grgš	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.13 16						
 181223	w	w	w	conj.	and	
 181224	npṣ	npṣ/	npṣ	n. m. sg. cstr. nom.	3) trousseau	
-181225	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	DULAT quote in bt (III) (cue: length)
-181226	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-181227	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-181228	mat	m(i&at/	mỉt	n. f. pl. abs. gen.	1) a hundred	
+181225	bt	bt(III)/	bt (III)	n. m. pl. abs. gen.	length	DULAT quote in bt (III) (cue: length)
+181226	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	DULAT quote in ṯn (III) (cue: crimson)
+181227	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	DULAT quote in mỉt (cue: three)
+181228	mat	m(i&at/	mỉt	n. f. pl. abs. nom.	1) a hundred	
 # KTU 3.13 17						
 181229	w	w	w	conj.	and	
-181230	spl	spl/	spl	n. m. sg. cstr. nom.	platter	
-181231	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-181232	mat	m(i&at/	mỉt	n. f. pl. abs. gen.	a hundred	
+181230	spl	spl/	spl	n. m. sg. abs. nom.	platter	
+181231	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	DULAT quote in spl (cue: three)
+181232	mat	m(i&at/	mỉt	n. f. pl. abs. nom.	a hundred	
 # KTU 3.13 18						
 181233	w	w	w	conj.	and	
 181234	mmskn	mmskn/	mmskn	n. m. abs. nom.	earthenware bowl	

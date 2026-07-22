@@ -11,6 +11,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 4						
 176802	xxx	?	?	?	?	
 176803	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
+176803	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
+176803	ˤly	ˤly(I)/	ʕly (I)	adj. m. pl. abs. nom.	most high	
+176803	ˤly	ˤly(I)/	ʕly (I)	adj. m. sg. abs. nom.	most high	
 176804	k	+k	-k (I)			
 176804	k	~k	-k (II)			
 176804	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -20,7 +23,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176805	xxx	?	?	?	?	
 176806	rt	rt/	rt	PN sg. cstr. nom.	rt	
 176807	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
-176807	bt	bt(III)/	bt (III)	n. m. pl. abs. gen.	length	
 176808	t	/t, /t=				DULAT: NOT FOUND
 176808	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 2.31 6						
@@ -117,6 +119,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176869	pkn	p(I)+kn	p (I)	conj. functor	and	
 176869	pkn	p(III)/+kn	p (III)	n. m. cstr. nom.	mouth	
 176869	pkn	p(III)&k/+n	p (III)	n. m. cstr. nom.	mouth	
+176869	pkn	p(II)+kn	p (II)	adv.	here	
 # KTU 2.31 22						
 176870	š	š/	š	n. m. sg. abs. nom.	ram	
 176871	an	an(I)	ản (I)	pers. pn.	1) i b) emph. subj. in VC	
@@ -151,7 +154,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176888		?	?	?	?	
 # KTU 2.31 33						
 176889	w	w	w	conj.	and	
-176890	nrm	nr/+m(I)	nr	n. m. cstr. nom.	sheen	
 176890	nrm	nrm[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.31 34						
 176891	x	?	?	?	?	
@@ -257,7 +259,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176960	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 176961	hy	hy	hy	pers. pn.	she	
 176962	w	w	w	conj.	and	
-176963	kn	k(I)&n	-k (I)	pers. pn./morph.	your(s)	
 176963	kn	kn(II)	kn (II)	adv.	thus	
 176963	kn	kn(I)/	kn (I)	adj. m. sg. abs. nom.	fixed	
 # KTU 2.31 48						
@@ -408,7 +409,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177075	xxx	?	?	?	?	
 177076	xxxx	?	?	?	?	
 177077	rḥbn	rḥbn/	rḥbn	TN sg. abs. nom.	rḥbn	
-177077	rḥbn	rḥb(I)/+n	rḥb (I)	adj. m. cstr. nom.	wide	
 177078	hm	hm(II)	hm (II)	conj./interr. functor	if	
 177078	hm	hm(I)	hm (I)	pers. pn.	they	
 177079	l	l(I)	l (I)	prep.	to	

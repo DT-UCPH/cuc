@@ -6,16 +6,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.42 2						
 177827	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say	
 # KTU 2.42 3						
-177828	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-177829	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-177829	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-177830	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
+177828	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+177829	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+177829	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+177829	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+177829	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+177830	mit	mi(t/t	mỉt	n. f. sg. cstr. nom.	a hundred	
 177831	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.42 4						
 177832	l	l(I)	l (I)	prep.	to	
 177833	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 177834	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
-177835	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. abs. nom. sg.	distance	
+177835	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. sg. abs. nom.	distance	
 # KTU 2.42 5						
 177836	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 177837	w	w	w	conj.	and	
@@ -30,7 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.42 7						
 177845	l	l(I)	l (I)	prep.	to	
 177846	špš	špš/	špš	n. f. sg. abs. gen.	3) “sun”	DULAT quote in špš (cue: sun)
-177847	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+177847	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 177848	l	l(I)	l (I)	prep.	to	
 177849	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 # KTU 2.42 8						
@@ -39,14 +41,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177852	l	l(I)	l (I)	prep.	to	
 177853	kl	kl/	kl	n. m. sg. cstr. gen.	1) totality (of) b) cstr. with n	
 177854	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	DULAT quote in ỉl (I) (cue: gods)
-177855	alṯy	alṯy/	ảlṯy(y)	GN sg. cstr. gen.	ảlṯy(y)	
-177856	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
+177855	alṯy	alṯy/	ảlṯy(y)	GN sg. abs. gen.	ảlṯy(y)	
+177856	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+177856	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.42 9						
 177857	nmry	nmry	nmry		Nimmureya	
-177858	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	1) king c) legendary heroes	
-177859	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. cstr. gen.	eternity	
+177858	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king c) legendary heroes	
+177859	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 2.42 10						
-177860	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
+177860	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. cstr. nom.	1) king a) human sovereign in gen	
 177861	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 177862	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	1) country	
 # KTU 2.42 11						

@@ -12,9 +12,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.139 4						
 174321	x	?	?	?	?	
 174322	w	w	w	conj.	and	
-174323	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
-174324	šm	š/m	š	n. m. pl. abs. gen.	ram	
-174324	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
+174323	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+174323	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+174323	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+174324	šm	š/m	š	n. m. pl. abs. nom.	ram	
+174324	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.139 5						
 174325	w	w	w	conj.	and	
 174326	š	š/	š	n. m. sg. cstr. nom.	ram	
@@ -33,13 +35,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174334	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 174335	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.139 9						
-174336	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
-174336	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+174336	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+174336	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+174336	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
 # KTU 1.139 10						
 174337		?	?	?	?	
 174338	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. gen.	2) “the Damsel” b) of unc. attribution	
 174338	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	
 174339	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+174339	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 # KTU 1.139 11						
 174340	mm	m/m	mh/y	n. m. pl. abs. nom.	water	
 174340	mm	mm(I)/	mm (I)	n. m. sg. abs. nom.	winter	
@@ -50,6 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174343	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 174344	w	w	w	conj.	and	
 174345	prs	prs/	prś/s	n. m. sg. abs. nom.	misura di capacità per aridi	
+174345	prs	prs(I)/	prs (I)	n. m. sg. abs. nom.	pole	
 # KTU 1.139 13						
 174346	k	+k	-k (I)			
 174346	k	~k	-k (II)			
@@ -61,18 +66,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.139 14						
 174348		?	?	?	?	
 174349	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
-174349	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 174350	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-174351	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+174351	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 1.139 15						
 174352		?	?	?	?	
-174353	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
-174353	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
-174354	pdry	pdry/	pdry	DN sg. cstr. gen.	Pidray	
-174354	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
+174353	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
+174353	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
+174353	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
+174353	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
+174353	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
+174354	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
 # KTU 1.139 16						
 174355		?	?	?	?	
-174356	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+174356	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+174356	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+174356	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 174357	w	w	w	conj.	and	
 174358	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.139 17						

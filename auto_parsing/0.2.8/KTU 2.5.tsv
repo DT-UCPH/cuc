@@ -1,10 +1,12 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.5 1						
 175969	l	l(I)	l (I)	prep.	to	
-175970	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. gen.	5) used as a prep	
+175970	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	5) used as a prep	
 # KTU 2.5 2						
-175971	ypt	yp(t(I)/t	ypt (I)	n. f. sg. cstr. gen.	cow	
-175972	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs. gen.	tree	
+175971	ypt	yp(t(I)/t	ypt (I)	n. f. sg. abs. nom.	cow	
+175971	ypt	!y!pt[	/p-t(-y)/	vb G prefc. 3 m. sg.	to seduce	
+175972	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. cstr. nom.	tree	
+175972	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs. nom.	tree	
 # KTU 2.5 3						
 175973	hp	?	?	?	?	DULAT: NOT FOUND
 175974	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	

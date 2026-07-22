@@ -116,6 +116,28 @@ class DulatAttestationIndex:
                     continue
                 hom = (hom_raw or "").strip()
                 refs_by_key.setdefault((lemma, hom), set()).add(citation)
+
+            cur.execute(
+                "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'dulat_reverse_refs'"
+            )
+            if cur.fetchone() is not None:
+                cur.execute(
+                    """
+                    SELECT
+                      e.lemma,
+                      COALESCE(e.homonym, ''),
+                      r.norm_ref
+                    FROM entries e
+                    JOIN dulat_reverse_refs r ON r.entry_id = e.entry_id
+                    """
+                )
+                for lemma_raw, hom_raw, citation_raw in cur.fetchall():
+                    lemma = normalize_lemma(lemma_raw or "")
+                    citation = normalize_reference_label(citation_raw or "")
+                    if not lemma or not citation:
+                        continue
+                    hom = (hom_raw or "").strip()
+                    refs_by_key.setdefault((lemma, hom), set()).add(citation)
         except sqlite3.Error:
             return cls.empty()
         finally:

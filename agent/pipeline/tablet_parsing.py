@@ -76,6 +76,7 @@ from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
 from pipeline.steps.verbal_feature_completion import VerbalFeatureCompletionFixer
 from pipeline.steps.weak_final_sc import WeakFinalSuffixConjugationFixer
 from pipeline.steps.weak_verb import WeakVerbFixer
+from text_fabric.editorial_lookup import load_editorial_lookup_overrides
 
 
 @dataclass(frozen=True)
@@ -192,6 +193,11 @@ class TabletParsingPipeline:
             PostVerbVariantRowUnwrapper(),
             PostVerbUnwrappedDuplicatePruner(),
             VerbalFeatureCompletionFixer(dulat_db=self.config.dulat_db),
+            # Exact-form completion can distinguish suffix conjugations only
+            # after the first generic marker pass. Re-run the idempotent stem
+            # renderers against the completed POS payload.
+            VerbStemSuffixMarkerFixer(),
+            VerbNStemAssimilationFixer(),
             *build_spacy_morph_context_steps(),
             BaalGlossFixer(),
             *build_spacy_quote_translation_steps(dulat_db=self.config.dulat_db),
@@ -442,6 +448,7 @@ class TabletParsingPipeline:
         changed_total = 0
         for src in targets:
             out_file = self.config.out_dir / src.name
+            editorial_lookup_overrides = load_editorial_lookup_overrides(src)
             rows, changed = refine.refine_file(
                 out_file,
                 out_file,
@@ -455,6 +462,7 @@ class TabletParsingPipeline:
                 entry_family_count,
                 direct_reference_index=self.attestation_index,
                 translation_index=translation_index,
+                editorial_lookup_overrides=editorial_lookup_overrides,
             )
             rows_total += rows
             changed_total += changed

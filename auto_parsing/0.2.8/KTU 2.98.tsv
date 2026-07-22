@@ -35,8 +35,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179912	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 179912	p	p(II)	p (II)	adv.	here	
 179913	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	DULAT quote in rgm (cue: word)
-179914	špš	špš/	špš	n. f. sg. abs. nom.	sun	DULAT quote in rgm (cue: sun)
-179915	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+179914	špš	špš/	špš	n. f. sg. cstr. nom.	sun	DULAT quote in rgm (cue: sun)
+179915	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 179916	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 179916	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
 179916	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
@@ -61,13 +61,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179929	w	w	w	conj.	and	
 179930	atnn	!(ʔ&a!(ytn[+n	/y-t-n/	vb G prefc. 1 c. sg.	to give	DULAT quote in ʕm (I) (cue: give)
 179931	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
-179931	ḫrd	ḫrd/	ḫrd	n. m. sg. cstr. nom.	(royal) guard	
-179932	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
-179933	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. gen.	2) to have	
+179931	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
+179932	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
+179932	dm	dm(I)	dm (I)	functor	since	
+179933	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	2) to have	
 179934	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	2) relationship of accompaniment	
 # KTU 2.98 13						
 179935	w	w	w	conj.	and	
-179936	ˤmm	ˤm(I)+m(I)	ʕm (I)	prep.	3) commercial meaning	
+179936	ˤmm	ˤm(I)~m	ʕm (I)	prep.	3) commercial meaning	
 179937	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 179937	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 179938	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
@@ -87,11 +88,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179945	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
 179946	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 179947	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
-179948	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
-179948	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. cstr. nom.	to have spasms (of diarrhoea)	
+179948	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
+179948	ḫr	ḫr[	/ḫ-r(-r)/	vb G suffc. 3 m. sg.	to have spasms (of diarrhoea)	
+179948	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. abs. nom.	to have spasms (of diarrhoea)	
 # KTU 2.98 16						
-179949	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. cstr. gen.	to protect	
-179950	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	
+179949	nġr	!n!(nġr[	/n-ġ-r/	vb G impv. 1 c. pl.	to protect	
+179949	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect	
+179950	ar	ar/	ả/ỉr	n. m. sg. abs. nom.	light	
 179951	w	w	w	conj.	4) declarative and emphatic functor	
 179952	x	?	?	?	?	
 # KTU 2.98 17						
@@ -108,19 +111,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179960	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	1) (royal) guard	
 179960	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	1) (royal) guard	
 179961	w	w	w	conj.	1) copulative conj.	
-179962	ḥmrm	ḥmr(I)/m	ḥmr (I)	n. m. pl. cstr. nom.	2) load	
+179962	ḥmrm	ḥmr(I)/m	ḥmr (I)	n. m. pl. abs. nom.	2) load	
 # KTU 2.98 21						
-179963	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to go, go away	
+179963	hlk	hlk[	/h-l-k/	vb G suffc. 3 m. sg.	to go, go away	
+179963	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go, go away	
 179964	l	l(I)	l (I)	prep.	to	
 179965	anzḫ	anzḫ/	ảnzḫ	TN sg. abs. gen.	ảnzḫ	
 # KTU 2.98 22						
 179966	w	w	w	conj.	and	
 179967	špšm	špš/~m	špš	n. f. sg. cstr. nom.	sun	
-179968	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-179969	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-179969	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+179968	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+179969	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+179969	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+179969	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+179969	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 # KTU 2.98 23						
-179970	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+179970	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 179971	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	1) to know	
 179971	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	1) to know	
 179971	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	1) to know	
@@ -144,7 +150,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 28						
 179983	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	2) servant (said of a special class of mercenaries or subordinate employees)	
 179984	klm	kl/m	kl	n. m. pl. abs. nom.	1) totality (of) b) cstr. with n	
-179985	bnšm	bnš/~m	bnš	n. m. abs. nom. pl.	1) man	
+179985	bnšm	bnš/~m	bnš	n. m. pl. abs. nom.	1) man	
 # KTU 2.98 29						
 179986	ap	ap(I)	ảp (I)	adv./conj.	also	
 179986	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
@@ -156,12 +162,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179991	l	l(I)	l (I)	prep.	to	
 179992	xxk	?	?	?	?	DULAT: NOT FOUND
 179993	štthm	št[t:pass+hm	/š-t/	vb G suffc. 1 c. sg.	to place, set, set up, leave	
-179993	štthm	št[t+hm	/š-t/	vb Gpass suffc. 1 c. sg.	to cause, leave (in a condition)	
-179993	štthm	štt/+hm	štt	adj. f. cstr. nom.	spun	
+179993	štthm	št[t:pass+hm	/š-t/	vb Gpass suffc. 1 c. sg.	to cause, leave (in a condition)	
 # KTU 2.98 31						
 179994	xxxx	?	?	?	?	
 179995	w	w	w	conj.	4) declarative and emphatic functor	
 179996	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	1) missive	
+179996	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
 # KTU 2.98 32						
 179997	xxxx	?	?	?	?	
 179998	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	1) (royal) guard	
@@ -174,10 +180,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180003	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
 180003	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
 # KTU 2.98 34						
-180004	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-180005	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-180005	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-180006	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+180004	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+180005	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+180005	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+180005	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+180005	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+180006	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 180007	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
 180007	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	to know	
 180007	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to know	
@@ -185,7 +193,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180008	x	?	?	?	?	
 180009	ẓr	ẓr(I)/	ẓr (I)	n. m. sg. cstr. nom.	back	
 180010	w	w	w	conj.	4) declarative and emphatic functor	
-180011	tḥtm	tḥt(II)+m(I)	tḥt (II)	adv.	underneath	
+180011	tḥtm	tḥt(II)~m	tḥt (II)	adv.	underneath	
 180012	k	+k	-k (I)			
 180012	k	~k	-k (II)			
 180012	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -201,7 +209,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180019	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.98 37						
 180020	xxx	?	?	?	?	
-180021	amr	amr(I)/	ảmr (I)	n. m. sg. cstr. nom.	order	
-180022	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. cstr. gen.	to protect	
-180023	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	1) country	
+180021	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
+180022	nġr	!n!(nġr[	/n-ġ-r/	vb G impv. 1 c. pl.	to protect	
+180022	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect	
+180023	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	1) country	
 180024		?	?	?	?	

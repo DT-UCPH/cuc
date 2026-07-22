@@ -14,6 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170729	lšn	lšn/	lšn	n. f. sg. cstr. gen.	1) tongue	
 # KTU 1.93 3						
 170730	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
+170730	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
 170731	tyb	?	?	?	?	DULAT: NOT FOUND
 170732	b	b	b	prep.	in	
 170733	npšy	npš(I)/+y	npš (I)	n. f. cstr. gen.	4) soul	
@@ -23,9 +24,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170734	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
 170734	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 1.93 4						
-170735	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
-170736	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-170736	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+170735	hwt	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
+170736	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+170736	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 170737	ištmˤ	!(ʔ&i!š]t]mˤ[	/š-m-ʕ/	vb Gt impv. 1 c. sg.	pay attention, take note	
 # KTU 1.93 5						
 170738	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	

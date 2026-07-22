@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177104	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
 177104	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
 177104	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
-177105	lm	l(I)+m(I)	l (I)	prep.	to	
+177105	lm	l(I)~m	l (I)	prep.	to	
 177106	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.32 4						
 177107	ny	n(I)&y	-n (I)	morph.	with c. n	
@@ -25,12 +25,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.32 5						
 177110		?	?	?	?	
 177111	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
-177112	kkr	kkr/	kkr	n. m. sg. cstr. nom.	1) talent	
-177113	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
+177112	kkr	kkr/	kkr	n. m. sg. abs. nom.	1) talent	
+177113	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
+177113	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+177113	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 # KTU 2.32 6						
 177114	ṯlṯm	ṯlṯm/	ṯlṯm	num.	1) the numeral thirty b) ge. syntagms	
-177115	kkr	kkr/	kkr	n. m. sg. cstr. nom.	talent	
-177116	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
+177115	kkr	kkr/	kkr	n. m. sg. abs. nom.	talent	
+177116	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
+177116	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+177116	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 # KTU 2.32 7						
 177117	d	d	d	det. or rel. functor	the one(s) of	
 177118	aštn	!(ʔ&a!št[+n	/š-t/	vb G prefc. 1 c. sg.	to place, set, set up, leave	
@@ -46,13 +50,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177125	w	w	w	conj.	and	
 177126	kl	kl/	kl	n. m. sg. cstr. nom.	1) totality (of) b) cstr. with n	
 177127	mḫrk	mḫr(I)/+k	mḫr (I)	n. m. sg. cstr. gen.	price	
-177127	mḫrk	mḫr(II)/+k	mḫr (II)	n. m. cstr. gen.	tax collector	
 # KTU 2.32 10						
 177128		?	?	?	?	
 177129	ištir	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-ʔ-r/ - to remain, stay
 177130	aštn	!(ʔ&a!št[+n	/š-t/	vb G prefc. 1 c. sg.	to place	
 177131	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.32 11						
+177132	ṯlṯm	ṯlṯ(I)&m/	ṯlṯ (I)	num. f.	three	
 177132	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 177133	kkr	kkr/	kkr	n. m. sg. abs. nom.	talent	
 177134	ṯlt	?	?	?	?	DULAT: NOT FOUND

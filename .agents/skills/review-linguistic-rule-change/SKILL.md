@@ -13,6 +13,7 @@ Convert expert feedback into a testable claim before editing data or parser code
 2. Inspect the exact upstream commit, inline comment, surrounding rows, and relevant history. Separate what the reviewer asserted from what the patch actually changed.
 3. Restate the claim as a rule with explicit positive cases, negative cases, and ambiguity boundaries.
 4. Check the repository’s current tagging conventions, DULAT lexeme and forms, homonym, KTU attestation, POS, comments, and parallel reviewed examples.
+5. For a changed marker encoding, use `$audit-ugaritic-analysis-reconstruction` to verify the surface invariant. Treat reconstruction as necessary but not as linguistic proof. For N-stem disputes, also use `$parse-ugaritic-n-stems`.
 
 Do not erase the original comment when it contains evidence or migration provenance. Correct factual wording by appending or narrowly editing with justification.
 
@@ -49,4 +50,3 @@ For parser or linter changes, add at least one positive, one negative, and one a
 6. Inspect the scoped diff for lost comments, over-normalized alternatives, and unrelated cleanup.
 
 Report the accepted rule, evidence, affected-row count, exceptions, automatic-parser status, reviewed-data status, and remaining ambiguities. Do not commit unless requested.
-

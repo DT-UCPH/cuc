@@ -129,6 +129,18 @@ FORMULA_BIGRAM_RULES: tuple[FormulaBigramRule, ...] = (
         note="Formula sequence: bn ilm.",
     ),
     FormulaBigramRule(
+        first_surface="rbt",
+        second_surface="kmn",
+        first_target=TokenParse(
+            analysis="rb(t/t",
+            dulat="rb(b)t",
+            pos="num.",
+            gloss="ten thousand",
+        ),
+        min_count=1,
+        note="Measure formula: rbt kmn (ten thousand acres).",
+    ),
+    FormulaBigramRule(
         first_surface="bn",
         second_surface="aṯrt",
         second_target=TokenParse(

@@ -4,18 +4,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 2						
 175496		?	?	?	?	
 # KTU 1.176 3						
-175497	plg	plg/	plg	n. m. sg. cstr. nom.	stream	
-175498	yt	yt/	yt	n. m. sg. cstr. gen.	?	
+175497	plg	plg[	/p-l-g/	vb G suffc. 3 m. sg.	1) to be split > to disintegrate	
+175497	plg	(]n]plg[	/p-l-g/	vb N suffc. 3 m. sg.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
+175497	plg	plg/	plg	n. m. sg. abs. nom.	stream	
+175498	yt	yt/	yt	n. m. sg. abs. nom.	?	
 175499		?	?	?	?	
 # KTU 1.176 4						
-175500	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
-175501	lšn	lšn/	lšn	n. f. sg. abs. gen.	2) a herb	
+175500	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
+175500	dm	dm(I)	dm (I)	functor	since	
+175501	lšn	lšn/	lšn	n. f. sg. abs. nom.	2) a herb	
 175502	x	?	?	?	?	
 # KTU 1.176 5						
 175503	th	?	?	?	?	DULAT: NOT FOUND
 175504	plg	plg[	/p-l-g/	vb G suffc. 3 m. sg.	to be split > to disintegrate	
 175504	plg	(]n]plg[	/p-l-g/	vb N suffc. 3 m. sg.	to be split > to disintegrate	
-175504	plg	(]n]plg[:w	/p-l-g/	vb N suffc. 3 m. pl.	to be split > to disintegrate	
 175504	plg	plg/	plg	n. m. sg. abs. nom.	stream	
 175505		?	?	?	?	
 # KTU 1.176 6						
@@ -74,7 +76,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 20						
 175539	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 175540	ḥrn	ḥrn/	ḥrn	DN sg. abs. gen.	Ḥôrānu	
-175540	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. gen.	intestine(s)	
 175541		?	?	?	?	
 # KTU 1.176 21						
 175542	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	1) to give to eat	
@@ -83,13 +84,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 22						
 175545	ik	ik	ỉk	interr. functor	how?	
 175546	l	l(I)	l (I)	prep.	to	
-175547	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
+175547	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 175548		?	?	?	?	
 # KTU 1.176 23						
-175549	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-175549	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-175549	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-175549	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+175549	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+175549	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+175549	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+175549	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+175549	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+175549	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 175550	l	l(I)	l (I)	prep.	to	
 175551	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. gen.	intestine(s)	
 # KTU 1.176 24						
@@ -106,9 +109,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 26						
 175559	al	al(I)	ảl (I)	neg. functor	no	
 175559	al	al(II)	ảl (II)	pos. functor	surely	
-175560	ḫtt	ḫtt/	ḫtt	n. m. sg. cstr. nom.	?	
+175560	ḫtt	ḫt[t	/ḫ-t(-t)/	vb G suffc. 1 c. sg.	to break, yield	
+175560	ḫtt	ḫtt/	ḫtt	n. m. sg. abs. nom.	?	
 # KTU 1.176 27						
-175561	ḫttk	ḫtt/+k	ḫtt	n. m. cstr. gen.	?	
+175561	ḫttk	ḫtt/+k	ḫtt	n. m. cstr. nom.	?	
 175562		?	?	?	?	
 # KTU 1.176 28						
 175563	l	l(I)	l (I)	prep.	to	

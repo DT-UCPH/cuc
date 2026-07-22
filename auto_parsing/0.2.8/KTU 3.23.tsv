@@ -1,10 +1,15 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.23 1						
 181517	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
+181517	ḫmšt	ḫmšt/	ḫmšt	n. f. pl. abs. nom.	five-shekel (?) weight	
+181518	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 181518	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 # KTU 3.23 2						
-181519	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
-181520	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+181519	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+181520	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181520	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181520	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181520	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181521	agdṯb	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.23 3						
 181522	w	w	w	conj.	and	
@@ -15,11 +20,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181526	w	w	w	conj.	and	
 181527	ḫrmṯt	ḫrmṯ(t/t	ḫrmṯt	n. f. sg. cstr. nom.	sickle	
 # KTU 3.23 5						
+181528	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. gen.	banquet	
 181528	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. gen.	group of ten	
-181529	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
+181529	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.23 6						
-181530	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181531	ḫzrn	ḫzr/+n	ḫzr	n. m. cstr. gen.	assistant	
+181530	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181530	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181530	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181530	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181531	ḫzrn	ḫzrn/	ḫzrn	PN sg. abs. nom.	ḫzrn	
 # KTU 3.23 7						
 181532	w	w	w	conj.	and	
 181533	nit	ni(t/t	nỉt	n. f. sg. abs. nom.	axe	
@@ -29,11 +38,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181536	w	w	w	conj.	and	
 181537	ḫrmṯt	ḫrmṯ(t/t	ḫrmṯt	n. f. sg. cstr. nom.	sickle	
 # KTU 3.23 9						
+181538	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. gen.	banquet	
 181538	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. gen.	group of ten	
-181539	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
+181539	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.23 10						
-181540	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181541	rṣn	rṣn/	rṣn	PN sg. abs. gen.	rṣn	
+181540	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181540	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181540	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181540	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181541	rṣn	rṣn/	rṣn	PN sg. abs. nom.	rṣn	
 # KTU 3.23 11						
 181542	w	w	w	conj.	and	
 181543	nit	ni(t/t	nỉt	n. f. sg. abs. nom.	axe	
@@ -44,10 +57,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181546	w	w	w	conj.	and	
 181547	ḫrmṯt	ḫrmṯ(t/t	ḫrmṯt	n. f. sg. cstr. nom.	sickle	
 # KTU 3.23 14						
+181548	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. gen.	banquet	
 181548	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. gen.	group of ten	
-181549	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
+181549	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.23 15						
-181550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+181550	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181550	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181550	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181551	ˤgx	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.23 16						
 181552	w	w	w	conj.	and	
@@ -62,23 +79,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181559	arbˤ	arbˤ/	ảrbʕ	num.	1) four f) composite numbers	
 # KTU 3.23 19						
 181560	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. nom.	total (quantity or price)	
-181561	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
+181561	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.23 20						
-181562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181563	tgyn	tgyn/	tgyn	PN sg. abs. gen.	tgyn	
+181562	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181562	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181562	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181563	tgyn	tgyn/	tgyn	PN sg. abs. nom.	tgyn	
 # KTU 3.23 21						
 181564	w	w	w	conj.	and	
+181565	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181565	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181565	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181565	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181566	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. gen.	woman	
+181566	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	woman	
 # KTU 3.23 22						
 181567	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
 181568	mˤnt	mˤn(t(I)/t	mʕnt (I)	n. f. sg. abs. nom.	?	
 # KTU 3.23 23						
+181569	bn	b+n	b	prep.	in	
 181569	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181569	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181569	bn	bn(II)	bn (II)	prep.	between	
 181569	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 181569	bn	bn[	/b-n/	vb G impv. 2	to understand	
-181570	lbn	lb/+n	lb	n. m. cstr. nom.	heart	
 181570	lbn	lbn(I)/	lbn (I)	adj. m. abs. nom.	white	
 181570	lbn	lbn(II)/	lbn (II)	PN sg. abs. nom.	lbn (II)	

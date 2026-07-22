@@ -4,24 +4,29 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177641	špš	špš/	špš	n. f. sg. abs. gen.	3) “sun”	DULAT quote in špš (cue: sun)
 # KTU 2.39 2						
 177642	l	l(I)	l (I)	prep.	to	
-177643	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. cstr. gen.	ʿAmmurāpʾi	
-177644	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-177644	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+177643	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. abs. gen.	ʿAmmurāpʾi	
+177644	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+177644	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+177644	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+177644	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+177644	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.39 3						
 177645	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 177646	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in mỉ/ủd (cue: sun)
 177647	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
-177648	midm	mid/~m	mỉ/ủd	n. m. sg. cstr. gen.	2) abundantly	
+177648	midm	mid/~m	mỉ/ủd	n. m. sg. abs. gen.	2) abundantly	
 # KTU 2.39 4						
-177649	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
+177649	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+177649	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.39 5						
 177650	l	l(I)	l (I)	prep.	to	
 177651	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 177652	adn	adn(I)/	ảdn (I)	n. m. sg. cstr. gen.	lord	
-177653	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	DULAT quote in špš (cue: sun)
+177653	špš	špš/	špš	n. f. sg. abs. gen.	3) “sun”	DULAT quote in špš (cue: sun)
 # KTU 2.39 6						
-177654	adnh	adn(I)/+h	ảdn (I)	n. m. cstr. gen.	lord	
-177654	adnh	ad/+nh	ảd	n. m. cstr. gen.	father	
+177654	adnh	adn(I)/+h	ảdn (I)	n. m. cstr. nom.	lord	
+177654	adnh	ad/+nh	ảd	n. m. cstr. nom.	father	
+177654	adnh	!!(ʔ&ad[/+nh	/ʔ-d/	vb G inf.	to overcharge	
 177655	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	servant	
 177656	uk	uk	ủk	positive emph. functor	yes	
 177657	škn	škn[:d	/š-k-n/	vb D impv. 2	to assign	
@@ -90,12 +95,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.39 16						
 177695	šnt	šn(t(I)/t	šnt (I)	n. f. sg. abs. nom.	year	
 177696	šntm	šnt(I)/m	šnt (I)	n. f. pl. abs. nom.	year	
-177697	lm	l(I)+m(I)	l (I)	prep.	to	
+177697	lm	l(I)~m	l (I)	prep.	to	
 177698	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
 177699	tlk	!t!(hlk[	/h-l-k/	vb G prefc.	to go, go away	
 # KTU 2.39 17						
 177700	w	w	w	conj.	and	
 177701	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
+177701	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
 177702	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	1) grain	
 177703	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
 177703	ky	k(II)+y	k (II)	emph. functor	yes	
@@ -151,13 +157,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177731	xk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 32						
 177732	w	w	w	conj.	and	
-177733	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
-177733	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
-177733	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
-177733	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
-177733	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
-177733	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-177733	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+177733	spr	spr(IV)/	spr (IV)	n. m. sg. abs. nom.	bronze	DULAT quote in spr (IV) (cue: bronze)
 177734	inx	?	?	?	?	DULAT: NOT FOUND
 177735	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.39 33						

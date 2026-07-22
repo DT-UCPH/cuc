@@ -31,6 +31,12 @@ Do not compare `auto_parsing/0.2.6/FILE` against `auto_parsing/0.2.7/FILE` as if
 - new file: empty baseline, making every ERROR new;
 - migration preview: original target-version reviewed state if it exists, otherwise document that no equivalent baseline exists.
 
+Capture the regeneration baseline outside any report directory that the pipeline can rewrite.
+The repository's full-regeneration wrapper currently runs report generation inside the
+pipeline before creating its `before_latest` snapshot, so a zero reported delta may compare
+the candidate report with itself. Treat matching hashes or timestamps after a known rewrite
+as an invalid baseline, not as proof of zero regressions.
+
 ## Failure Classes
 
 ### Environmental
@@ -52,4 +58,3 @@ A linter change newly flags valid established data or changes issue identity acc
 ### Tokenization-dependent change
 
 The TF split/join changes the correct unit of reconstruction or comparison. Use merged-token validation or version-specific expectations rather than matching IDs.
-

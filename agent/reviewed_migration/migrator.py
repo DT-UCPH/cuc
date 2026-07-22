@@ -489,7 +489,14 @@ class ReviewedTabletMigrator:
     @staticmethod
     def _strip_editorial_marks(surface: str) -> str:
         normalized = surface.replace("ˤ", "ʿ").replace("bˤl", "bʿl")
-        return normalized.replace("<", "").replace(">", "").replace("x", "").replace(" ", "")
+        return (
+            normalized.replace("<", "")
+            .replace(">", "")
+            .replace("[", "")
+            .replace("]", "")
+            .replace("x", "")
+            .replace(" ", "")
+        )
 
     @staticmethod
     def _normalize_surface(surface: str) -> str:
@@ -502,7 +509,8 @@ class ReviewedTabletMigrator:
             "hkm": "ḥkm",
             "ṯlḥ<t>": "ṯlḥnt",
         }
-        return replacements.get(normalized, normalized)
+        normalized = replacements.get(normalized, normalized)
+        return normalized.replace("[", "").replace("]", "")
 
     @staticmethod
     def _parse_reviewed_groups(path: Path) -> list[TokenGroup]:

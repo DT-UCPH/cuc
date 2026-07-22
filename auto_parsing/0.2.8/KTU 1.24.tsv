@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 1						
 166592	ašr	!(ʔ&a!šr(I)[	/š-r/ (I)	vb G prefc. 1 c. sg.	1) to sing	
-166593	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
+166593	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
 166594	w	w	w	conj.	1) copulative conj.	
 166595	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
 166595	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
@@ -37,6 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 6						
 166614	ṯrt	ṯr(t/t	ṯrt	n. f. sg. abs. nom.	abundance	
 166615	l	l(IV)	l (IV)	interj.	oh!	
+166616	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	daughter	
 166616	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 166616	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 166616	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
@@ -85,9 +86,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166640	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear	
 166640	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
 166640	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
-166641	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. abs. nom.	1) goddess c) qualifying a deity or place	
-166642	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
-166643	tḥmm	tḥm/+m(I)	tḥm	n. m. cstr. nom.	message	
+166641	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. cstr. nom.	1) goddess c) qualifying a deity or place	
+166642	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	ḥbl kṯrt the band / flock of the DNN	
+166643	tḥmm	tḥm/+m(I)	tḥm	n. m. cstr. gen.	message	
 # KTU 1.24 12						
 166644	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	eye	
 166645	l	l(I)	l (I)	prep.	to	
@@ -113,6 +114,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166658	l	l(IV)	l (IV)	interj.	oh!	
 166659	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
 166660	l	l(IV)	l (IV)	interj.	oh!	
+166661	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	daughter	
 166661	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 166661	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 166661	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
@@ -131,7 +133,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166671	qẓ	qẓ/	qẓ	n. m. sg. abs. gen.	summer	
 166672	tn	(ytn[	/y-t-n/	vb	give	
 166672	tn	(ytn[/	/y-t-n/	vb	give	
-166673	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
+166673	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
 166674	y	~y	-y (II)	prep. functor	indeed	
 166674	y	y	y	prep. functor	oh!	
 # KTU 1.24 18						
@@ -149,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166681	th	?	?	?	?	DULAT: NOT FOUND
 166682	w	w	w	conj.	and	
 166683	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
-166684	mhrh	mhr(I)/+h	mhr (I)	n. m. cstr. nom.	warrior (trained, expert)	
+166684	mhrh	mhr(III)/+h	mhr (III)	n. m. sg. cstr. nom.	dowry	DULAT quote in /y-t-n/ (cue: dowry)
 166685	l	l(I)	l (I)	prep.	to	
 166686	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 20						
@@ -163,7 +165,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166693	rṣ	?	?	?	?	DULAT: NOT FOUND
 166694	išlḥ	!(ʔ&i!šlḥ(I)[	/š-l-ḥ/ (I)	vb G prefc. 1 c. sg.	2) to grant	
 166695	ẓhrm	ẓhr/m	ṭhr	adj. m. pl. abs. nom.	pure	Based on DULAT reconstruction.
-166695	ẓhrm	ẓhr+m(I)	ẓhr	→	?	
 166696	iq	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 22						
 166697	nim	?	?	?	?	DULAT: NOT FOUND
@@ -193,7 +194,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166712	l	l(I)	l (I)	prep.	to	
 166712	l	l(II)	l (II)	adv.	no	
 166712	l	l(III)	l (III)	functor	certainly	
-166713	ḫtn	ḫt[+n	/ḫ-t(-t)/	vb G suffc.	to break	
 166713	ḫtn	ḫtn[	/ḫ-t-n/	vb	1) to become a son-in-law	
 # KTU 1.24 26						
 166714	m	m	m(h)	pers. pn.	what?	
@@ -201,7 +201,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166715	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 166716	trḫ	trḫ[:d:w	/t-r-ḫ/	vb D suffc. 3 m. pl.	to marry	
 166717	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
-166717	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 166718	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
 166718	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 1.24 27						
@@ -243,13 +242,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166739	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 # KTU 1.24 32						
 166740	ˤmn	ˤm(I)+n	ʕm (I)	prep.	2) relationship of accompaniment	
-166741	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
-166742	ḫtny	ḫtn[+y	/ḫ-t-n/	vb D impv. 2	to become a son-in-law	
+166741	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+166742	ḫtny	ḫtn[:d+y	/ḫ-t-n/	vb D impv. 2	to become a son-in-law	
 166742	ḫtny	!!ḫtn[/y	/ḫ-t-n/	vb D inf.	to become a son-in-law	
 166742	ḫtny	ḫtn(I)/+y	ḫtn (I)	n. m. sg. cstr. nom.	relationship by marriage	
 166743	aḫr	aḫr	ảḫr	adv./prep./conj.	2) with (prep.)	
 # KTU 1.24 33						
-166744	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
+166744	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
 166745	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 166745	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	2) DN	
 166746	ytrḫ	!y!trḫ[	/t-r-ḫ/	vb G prefc. 3 m. sg.	to marry	
@@ -273,9 +272,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166757	l	l(III)	l (III)	functor	certainly	
 166758	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 37						
+166759	bn	b+n	b	prep.	in	
 166759	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-166760	mznm	mzn/m	mzn	n. m. pl. abs. gen.	weight	
-166761	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
+166759	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+166759	bn	bn(II)	bn (II)	prep.	between	
+166759	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+166759	bn	bn[	/b-n/	vb G impv. 2	to understand	
+166760	mznm	mzn/m	mzn	n. m. pl. abs. nom.	weight	
+166761	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
 166762	w	w	w	conj.	and	
 166763	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
 166763	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
@@ -296,13 +300,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 40						
 166772	ašr	!(ʔ&a!šr(I)[	/š-r/ (I)	vb G prefc. 1 c. sg.	1) to sing	
 166773	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. cstr. nom.	goddess	
-166774	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	ḥbl kṯrt the band / flock of the DNN	
-166775	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+166774	kṯrt	kṯrt/	kṯrt	DN pl. abs. gen.	ḥbl kṯrt the band / flock of the DNN	
+166775	bn	b+n	b	prep.	in	
+166775	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+166775	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+166775	bn	bn(II)	bn (II)	prep.	between	
+166775	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+166775	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 1.24 41						
 166776	t	/t, /t=				DULAT: NOT FOUND
 166776	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 166777	hll	hll/	hll	DN sg. cstr. nom.	New Moon	
 166778	snnt	snnt/	snnt	n. f. pl. cstr. gen.	swallow	
+166779	bnt	b&nt(I)/	bt (I)	n. f. pl. abs. gen.	daughter	
 166779	bnt	bn(t(II)/t	bnt (II)	n. f. sg. abs. gen.	produce	
 166779	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. gen.	masonry	
 166779	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. gen.	tamarisk	
@@ -317,11 +327,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166785	b	b	b	prep.	in	
 166786	ˤrgzm	ˤrgz(I)/m	ʕrgz (I)	n. m. pl. abs. gen.	juniper berries (?)	
 166787	b	b	b	prep.	in	
-166788	zgb	?	?	?	?	DULAT: NOT FOUND
-166789	zt	zt/	zt	n. m. sg. cstr. nom.	1) olive c) types	
-166790	dm	dm(II)/	dm (II)	n. m. sg. cstr. gen.	blood	
+166788	zgb	&zgb(II)/	gb (II)	n. m. cstr. gen.	1) spine	KTU corrected: gb
+166788	zgb	&zgb(I)/	gb (I)	n. m. cstr. gen.	pit	KTU corrected: gb
+166789	zt	zt/	zt	n. m. sg. abs. gen.	1) olive c) types	
+166790	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
+166790	dm	dm(I)	dm (I)	functor	since	
 # KTU 1.24 44						
-166791	llay	ll(u&a/+y	llủ	n. m. cstr. gen.	suckling (lamb or kid)	
+166791	llay	ll(u&a/+y	llủ	n. m. cstr. nom.	suckling (lamb or kid)	
 166792	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
 166793	lẓpn	l(ṭ&ẓpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 166794	i	i(I)	ỉ (I)	interj.	woe	

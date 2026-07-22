@@ -7,11 +7,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180515	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come	
 180515	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come	
 # KTU 3.1 4						
-180516	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
-180516	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
+180516	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+180516	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 3.1 5						
-180517	ql	ql(I)/	ql (I)	n. m. sg. abs. gen.	voice	
-180517	ql	ql(II)/	ql (II)	n. m. sg. abs. gen.	swift (courier, messenger)	
+180517	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
+180517	ql	ql[	/q-l/	vb G impv. 2	to fall (down)	
+180517	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	voice	
+180517	ql	ql(II)/	ql (II)	n. m. sg. abs. nom.	swift (courier, messenger)	
 # KTU 3.1 6						
 180518	w	w	w	conj.	and	
 180519	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
@@ -47,10 +49,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180539	w	w	w	conj.	and	
 180540	špš	špš/	špš	n. f. sg. cstr. nom.	sun	DULAT quote in /š-l-m/ (cue: sun)
 # KTU 3.1 13						
-180541	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-180542	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-180542	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-180543	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. gen.	lord	
+180541	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+180542	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+180542	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+180542	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+180542	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+180543	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. nom.	lord	
 180544		?	?	?	?	
 # KTU 3.1 14						
 180545	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
@@ -61,10 +65,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.1 16						
 180549	w	w	w	conj.	and	
 180550	ṯpllm	ṯpllm/	ṯpllm	PN sg. cstr. nom.	ṯpllm	
-180551	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-180552	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-180552	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-180553	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+180551	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+180552	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+180552	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+180552	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+180552	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+180553	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 180554	ḫt	ḫt[	/ḫ-t(-t)/	vb G suffc. 3 m. sg.	to break	
 # KTU 3.1 17						
 180555	mṣmt	mṣm(t/t	mṣmt	n. f. sg. abs. nom.	treaty	
@@ -75,6 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180560	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 180560	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 180560	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
+180560	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 # KTU 3.1 18						
 180561	hlny	hlny	hlny	deictic adv. functor	behold	
 180562	argmn	!(ʔ&a!rgm[+n	/r-g-m/	vb G prefc. 1 c. sg.	to say	
@@ -89,23 +96,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180567	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	DULAT quote in špš (cue: sun)
 180568	arn	arn(I)/	ảrn (I)	n. m. sg. abs. gen.	chest	
 180569	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
-180570	ˤšrmn	ˤšrm+n/	ʕšrm	num.	twenty	
 180570	ˤšrmn	ˤšr(II)/m+n	ʕšr (II)	n. m. cstr. nom.	marshal	
 # KTU 3.1 20						
 180571	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 180572	ṯql	ṯql/	ṯql	n. m. sg. cstr. nom.	2) elliptical use is very common	
 180573	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	2) adv. acc.	
-180574	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
-180574	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
-180575	mn	mn(III)/	mn (III)	n. m. sg. cstr. gen.	mina	
-180576	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold c) as tribute	
+180574	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
+180574	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
+180575	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	DULAT quote in ḫrṣ (cue: mina)
+180576	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold c) as tribute	
 # KTU 3.1 21						
 180577	w	w	w	conj.	and	
 180578	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
 180579	ktnt	ktn(I)/t	ktn (I)	n. f. sg. cstr. nom.	shirt-like tunic	
-180580	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
-180581	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
-180581	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
+180580	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. gen.	shirt-like tunic	
+180581	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+180581	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+180581	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+180581	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 # KTU 3.1 22						
 180582	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 180583	mat	m(i&at/	mỉt	n. f. pl. cstr. nom.	a hundred	
@@ -113,10 +121,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.1 23						
 180585	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 180586	mat	m(i&at/	mỉt	n. f. pl. cstr. nom.	1) a hundred	
-180587	iqnu	iqnu/	ỉqnủ	n. m. sg. cstr. gen.	3) espec. violet purple	
+180587	iqnu	iqnu/	ỉqnủ	n. m. sg. abs. gen.	3) espec. violet purple	
 # KTU 3.1 24						
-180588	argmn	argmn/	ả/ỉrgmn	n. m. sg. cstr. gen.	payment of tribute to the Hittite court	
-180589	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	
+180588	argmn	!(ʔ&a!rgm[+n	/r-g-m/	vb G prefc. 1 c. sg.	to say	
+180588	argmn	argmn/	ả/ỉrgmn	n. m. sg. cstr. nom.	payment of tribute to the Hittite court	
+180588	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. nom.	payment of tribute to the Hittite court	
+180589	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
 180590	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.1 25						
 180591	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -126,10 +136,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180594	l	l(I)	l (I)	prep.	to	
 180595	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in l (I) (cue: sun)
 # KTU 3.1 26						
-180596	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king c) legendary heroes	
-180597	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-180597	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-180598	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. gen.	lord	
+180596	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king c) legendary heroes	
+180597	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	DULAT quote in mlk (I) (cue: great)
+180598	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 3.1 27						
 180599	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
 180599	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
@@ -189,11 +198,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180640	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 180641	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 180642	l	l(I)	l (I)	prep.	to	
-180643	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. cstr. gen.	chief steward	
-180644	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
+180643	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. abs. gen.	chief steward	
+180644	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+180644	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+180644	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 # KTU 3.1 37						
-180645	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
-180645	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
+180645	ks	ks(I)/	ks (I)	n. m. sg. cstr. nom.	cup	
+180645	ks	ks/	ks/śm(n)	n. m. pl. cstr. nom.	emmer-corn	
 180646	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 180647	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
 180648	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
@@ -204,7 +215,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180652	l	l(I)	l (I)	prep.	to	
 180653	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	1) prefect	
 180654	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-180654	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 180655	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.1 39						
 180656	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	

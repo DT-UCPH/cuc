@@ -27,8 +27,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170837	širh	šir(I)/+h	šỉr (I)	n. m. cstr. nom.	flesh	
 # KTU 1.96 4						
 170838	l	l(I)	l (I)	prep.	to	
-170839	bl	bl(III)/	bl (III)	n. m. sg. cstr. gen.	blended beer	
-170840	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. gen.	1) knife	
+170839	bl	bl(II)	bl (II)	prep.	without	DULAT quote in bl (II) (cue: without)
+170840	ḥrb	ḥrb/	ḥrb	n. f. sg. abs. nom.	1) knife	
 170841	tšt	!t!št[	/š-t/	vb G prefc.	to place	
 170841	tšt	!t!št(y[	/š-t-y/	vb G prefc. 3 f. sg.	to drink	
 170841	tšt	!t=!št(y[	/š-t-y/	vb G prefc. 2 m. sg.	to drink	
@@ -36,19 +36,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170841	tšt	!t!št(y[	/š-t-y/	vb G prefc. 3 m. du.	to drink	
 170841	tšt	!t!št(y[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
 170841	tšt	!t===!št(y[	/š-t-y/	vb G prefc. 2 m. pl.	to drink	
-170842	dmhx	?	?	?	?	DULAT: NOT FOUND
+170842	dmhx	dm(II)/	dm (II)	n. m. abs. nom.	1) blood	KTU corrected: dmh
 # KTU 1.96 5						
 170843	l	l(I)	l (I)	prep.	to	
-170844	bl	bl(III)/	bl (III)	n. m. sg. cstr. gen.	blended beer	
-170845	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
-170845	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
+170844	bl	bl(II)	bl (II)	prep.	without	DULAT quote in ks (I) (cue: without)
+170845	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
+170845	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
 170846	tpnn	!t!pnn[:w	/p-n-n/	vb G prefc. 3 m. pl.	to distort	
 170847	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	1) eye b) in incantations	
 170847	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	1) eye b) in incantations	
-170847	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. nom.	furrow	
+170847	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	1) eye b) in incantations	
+170847	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170847	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 # KTU 1.96 6						
-170848	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
-170848	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
+170848	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+170848	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
 170849	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 170849	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
 170849	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
@@ -64,61 +66,88 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.96 7						
 170852	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 170852	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
-170852	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. nom.	furrow	
-170853	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. cstr. gen.	tax collector	
-170854	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
-170854	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
-170854	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-170855	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. cstr. gen.	potter	DULAT quote in pḫr (II) (cue: potter)
+170852	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170852	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170852	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170853	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. abs. nom.	tax collector	
+170854	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+170854	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+170854	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170854	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170854	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170855	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. abs. nom.	potter	DULAT quote in pḫr (II) (cue: potter)
 # KTU 1.96 8						
-170856	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
-170856	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
-170856	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-170857	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. cstr. gen.	gatekeeper	
-170857	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. cstr. gen.	gate	
-170858	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
-170858	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
-170858	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-170859	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. abs. gen.	gatekeeper	
-170859	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. gen.	gate	
+170856	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+170856	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+170856	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170856	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170856	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170857	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. abs. nom.	gatekeeper	
+170857	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. nom.	gate	
+170858	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+170858	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+170858	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170858	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170858	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170859	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. abs. nom.	gatekeeper	
+170859	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. nom.	gate	
 # KTU 1.96 9						
 170860	l	l(I)	l (I)	prep.	to	
-170861	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. cstr. gen.	gatekeeper	DULAT quote in /ṯ-b/ (cue: gatekeeper)
-170862	tṯb	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
-170863	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
-170863	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
-170863	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-170864	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. abs. gen.	potter	DULAT quote in pḫr (II) (cue: potter)
+170861	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. abs. gen.	gatekeeper	DULAT quote in /ṯ-b/ (cue: gatekeeper)
+170862	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return, turn round, go back, make one’s way, go through	
+170862	tṯb	&tṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
+170862	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+170863	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+170863	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+170863	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170863	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170863	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170864	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. abs. nom.	potter	DULAT quote in pḫr (II) (cue: potter)
 # KTU 1.96 10						
 170865	l	l(I)	l (I)	prep.	to	
-170866	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. gen.	assembly	
-170867	tṯb	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
-170868	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
-170868	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
-170868	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-170869	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. abs. gen.	tax collector	
+170866	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. abs. gen.	assembly	
+170866	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. abs. gen.	potter	
+170867	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
+170867	tṯb	&tṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
+170867	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+170868	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+170868	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+170868	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170868	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170868	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170869	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. abs. nom.	tax collector	
 # KTU 1.96 11						
 170870	l	l(I)	l (I)	prep.	to	
-170871	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. cstr. gen.	tax collector	
-170872	tṯb	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
-170873	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
-170873	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
-170873	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-170874	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
-170874	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. gen.	daughter	
+170871	mḫr	mḫr(II)/	mḫr (II)	n. m. sg. abs. gen.	tax collector	
+170872	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
+170872	tṯb	&tṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
+170872	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+170873	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+170873	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+170873	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170873	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170873	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170874	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
+170874	bty	b(t(I)/t+y	bt (I)	n. f. sg. cstr. nom.	daughter	
 # KTU 1.96 12						
 170875	l	l(I)	l (I)	prep.	to	
-170876	bṯy	bṯy/	bṯy	n. m. sg. cstr. gen.	evildoer	
-170877	tṯb	tṯb/	tṯb	DN sg. cstr. gen.	Teṯo/Hurrian storm god	
-170878	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	eye	
-170878	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	eye	
-170878	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-170879	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. gen.	shame	
-170879	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. gen.	evildoing woman	
+170876	bṯy	bṯy/	bṯy	n. m. sg. abs. gen.	evildoer	
+170877	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
+170877	tṯb	&tṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
+170877	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+170878	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
+170878	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
+170878	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170878	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170878	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170879	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. nom.	shame	
+170879	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. nom.	evildoing woman	
 # KTU 1.96 13						
 170880	l	l(I)	l (I)	prep.	to	
-170881	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. cstr. gen.	shame	
-170881	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. cstr. gen.	evildoing woman	
-170882	tṯb	tṯb/	tṯb	DN sg. abs. gen.	Teṯo/Hurrian storm god	
+170881	bṯt	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. gen.	shame	
+170881	bṯt	bṯ(t(II)/t	bṯt (II)	n. f. sg. abs. gen.	evildoing woman	
+170882	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
+170882	tṯb	&tṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
+170882	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
 # KTU 1.96 14						
 170883	xx	?	?	?	?	

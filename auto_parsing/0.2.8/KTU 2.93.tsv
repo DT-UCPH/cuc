@@ -6,8 +6,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.93 2						
 179815	iḫn	iḫ+n	ỉḫ	→	?	
 # KTU 2.93 3						
-179816	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
-179817	adt	ad(t/t	ảdt	n. f. sg. abs. gen.	lady	
+179816	p	p(I)	p (I)	conj. functor	and	
+179816	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+179816	p	p(II)	p (II)	adv.	here	
+179817	adt	ad(t/t	ảdt	n. f. sg. abs. nom.	lady	
 # KTU 2.93 4						
 179818	wn	w+n	w	conj.	and	
 179819	bṯ	bṯ[	/b-ṯ/	vb	to be ashamed	
@@ -16,3 +18,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179821	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
 179821	ġr	ġr(V)/	ġr (V)	n. m. sg. abs. gen.	total	
 179821	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
+179821	ġr	ġr(II)/	ġr (II)	n. m. sg. abs. gen.		

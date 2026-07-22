@@ -6,13 +6,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179160	l	l(I)	l (I)	prep.	to	
 179160	l	l(II)	l (II)	adv.	no	
 179160	l	l(III)	l (III)	functor	certainly	
+179161	gr	gr(y[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
+179161	gr	gr(y[:w	/g-r(-y)/	vb G suffc. 3 m. pl.	to attack	
 179161	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
-179161	gr	gr(I)/	gr (I)	n. m. sg. cstr. nom.	protected	
+179161	gr	gr(I)/	gr (I)	n. m. sg. abs. nom.	protected	
 # KTU 2.84 3						
-179162	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-179162	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+179162	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+179162	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+179162	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+179162	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+179162	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.84 4						
-179163	lm	l(I)+m(I)	l (I)	prep.	to	
+179163	lm	l(I)~m	l (I)	prep.	to	
 179164	aḫt	aḫt(I)/	ảḫt (I)	n. f. pl. abs. nom.	sister (related by blood)	
 179164	aḫt	aḫt(I)/	ảḫt (I)	n. f. sg. abs. nom.	sister (related by blood)	
 # KTU 2.84 5						
@@ -56,7 +61,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179188	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
 179188	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.84 17						
-179189	lm	l(I)+m(I)	l (I)	prep.	to	
+179189	lm	l(I)~m	l (I)	prep.	to	
 179190	l	l(I)	l (I)	prep.	to	
 179191	hbṭx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 18						
@@ -84,8 +89,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179205	ux	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.84 23						
 179206	d	d	d	det. or rel. functor	4) in compound conjunctions	
-179207	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. sg. abs. nom.	sister (related by blood)	
-179207	aḫt	aḫ(t(I)/t=	ảḫt (I)	n. f. pl. abs. nom.	sister (related by blood)	
+179207	aḫt	aḫt(I)/	ảḫt (I)	n. f. pl. abs. nom.	sister (related by blood)	
+179207	aḫt	aḫt(I)/	ảḫt (I)	n. f. sg. abs. nom.	sister (related by blood)	
 179208	d	d	d	det. or rel. functor	4) in compound conjunctions	
 # KTU 2.84 24						
 179209	hbṭ	hbṭ[:d	/h-b-ṭ/ẓ/	vb D suffc. 3 m. sg.	to knock down	

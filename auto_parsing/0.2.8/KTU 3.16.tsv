@@ -18,10 +18,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181304	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.16 4						
 181305	hmšm	?	?	?	?	DULAT: NOT FOUND
-181306	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181307	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181308	gd	gd(I)/	gd (I)	n. m. abs. gen.	coriander	
-181308	gd	gd(II)/	gd (II)	n. m. abs. gen.	sinew	
+181306	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181307	ˤl	ˤl(I)	ʕl (I)	prep.	3) relationship of exchange or profit	
+181307	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181307	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181307	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181308	gd	gd(I)/	gd (I)	n. m. abs. nom.	coriander	
+181308	gd	gd(II)/	gd (II)	n. m. abs. nom.	sinew	
 # KTU 3.16 5						
 181309	y	~y	-y (II)	prep. functor	indeed	
 181309	y	y	y	prep. functor	oh!	
@@ -30,6 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181312	b	b	b	prep.	in	
 # KTU 3.16 6						
 181313	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
+181314	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 181314	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 181315	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	total (quantity or price)	
 # KTU 3.16 7						
@@ -40,9 +44,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181318	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 # KTU 3.16 8						
 181319	m	m	m(h)	pers. pn.	what?	
-181320	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181321	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181322	kš	kš/	kš	n. m. sg. abs. gen.	date	
+181320	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181321	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181321	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181321	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181321	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181322	kš	kš/	kš	n. m. sg. abs. nom.	date	
 # KTU 3.16 9						
 181323	k	+k	-k (I)			
 181323	k	~k	-k (II)			
@@ -51,9 +58,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181323	k	k(II)	k (II)	emph. functor	yes	
 181324		?	?	?	?	
 # KTU 3.16 10						
-181325	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181326	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181327	bnn	bnn(I)/	bnn (I)	n. m. sg. abs. gen.	carp	
+181325	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181326	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181326	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181326	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181326	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181327	bnn	bnn(I)/	bnn (I)	n. m. sg. abs. nom.	carp	
 # KTU 3.16 11						
 181328	x	?	?	?	?	
 181329	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
@@ -61,17 +71,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181330	mhr	mhr(I)/	mhr (I)	n. m. sg. abs. gen.	warrior (trained, expert)	
 # KTU 3.16 13						
 181331	x	?	?	?	?	
+181332	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181332	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181332	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181332	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181333	ynḥm	ynḥm/	ynḥm	PN sg. abs. gen.	ynḥm	
+181333	ynḥm	ynḥm/	ynḥm	PN sg. abs. nom.	ynḥm	
 # KTU 3.16 14						
 181334	x	?	?	?	?	
+181335	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181335	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181335	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181335	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181336	ab	ab/	ảb	n. m. sg. abs. gen.	2) ancestor	
+181336	ab	ab/	ảb	n. m. sg. cstr. nom.	2) ancestor	
+181336	ab	ab/	ảb	n. m. sg. abs. nom.	2) ancestor	
 181337	b	b	b	prep.	in	
 # KTU 3.16 15						
 181338	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 181338	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-181338	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+181338	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181338	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181339	ˤb	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.16 16						
 181340	ṣ	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḫ-ṣ/ - to wound

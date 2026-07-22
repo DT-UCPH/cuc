@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.14 1						
-176224	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-176225	ixwrḏn	?	?	?	?	DULAT: NOT FOUND
+176224	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+176225	ixwrḏn	i&xwrḏn/	ỉwrḏn	PN sg. abs. gen.	ỉwrḏn	KTU corrected: iwrḏn
 # KTU 2.14 2						
 176226	l	l(I)	l (I)	prep.	to	
 176227	iwrpḫn	?	?	?	?	DULAT: NOT FOUND
@@ -18,9 +18,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176233	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
 # KTU 2.14 6						
 176234	iky	iky	ỉky	interr. functor	what of?	
-176235	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
+176235	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	1) missive	
+176235	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
 # KTU 2.14 7						
-176236	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	3) letter	DULAT quote in /l-ʔ-k/ (cue: letter)
+176236	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	3) letter	DULAT quote in /l-ʔ-k/ (cue: letter)
 176237	d	d	d	det. or rel. functor	2) which	
 176238	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.14 8						
@@ -38,8 +39,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176245	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	DULAT quote in /š-ʔ-l/ (cue: son)
 176246	yšal	!y!š(ʔ&al[	/š-ʔ-l/	vb G prefc. 3 m. sg.	to ask, request in general	
 # KTU 2.14 12						
-176247	ṯryl	ṯryl/	ṯryl	PN sg. cstr. nom.	ṯryl	
-176248	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
+176247	ṯryl	ṯryl/	ṯryl	PN sg. abs. nom.	ṯryl	
+176248	p	p(I)	p (I)	conj. functor	and	
+176248	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+176248	p	p(II)	p (II)	adv.	here	
 176249	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say, tell, announce, communicate, inform	
 # KTU 2.14 13						
 176250	l	l(I)	l (I)	prep.	to	
@@ -48,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.14 14						
 176253	w	w	w	conj.	and	
 176254	l	l(I)	l (I)	prep.	to	
-176255	ixytlm	?	?	?	?	DULAT: NOT FOUND
+176255	ixytlm	i&xytlm/	ỉytlm	PN sg. abs. gen.	ỉytlm	KTU corrected: iytlm
 # KTU 2.14 15						
 176256	w	w	w	conj.	and	
 176257	ht	ht	ht	adv.	here	

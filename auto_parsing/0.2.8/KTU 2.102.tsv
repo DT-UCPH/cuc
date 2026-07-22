@@ -4,9 +4,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180195	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 2.102 2						
 180196	l	l(I)	l (I)	prep.	to	
-180197	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
-180198	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say, tell, announce, communicate, inform	
-180198	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+180197	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. gen.	prefect	
+180198	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
+180198	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
+180198	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
+180198	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
+180198	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.102 3						
 180199	ky	k(III)+y	k (III)	Subordinating or completive functor	3) in compounds	
 180199	ky	k(II)+y	k (II)	emph. functor	yes	

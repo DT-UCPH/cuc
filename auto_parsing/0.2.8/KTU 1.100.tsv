@@ -3,11 +3,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170964	um	um/	ủm	n. f. sg. cstr. nom.	1) mother b) of animals	
 170965	pḥl	pḥl/	pḥl	n. m. sg. cstr. gen.	ass	
 170966	pḥlt	pḥl(t/t	pḥlt	n. f. sg. cstr. gen.	mare	DULAT quote in pḥlt (cue: mare)
-170967	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter b) esp.	
-170968	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. gen.	2) spring	
-170968	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. gen.	2) spring	
-170968	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. gen.	furrow	
-170969	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter b) esp.	
+170967	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	1) daughter b) esp.	
+170968	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	2) spring	
+170968	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	2) spring	
+170968	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	2) spring	
+170968	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
+170968	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170969	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	1) daughter b) esp.	
 170970	abn	abn/	ảbn	n. f. sg. cstr. gen.	1) stone a) k ảbnm l tỉggn like stones which do /do not/ murmur	DULAT quote in ảbn (cue: stone)
 170971	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter b) esp.	
 170972	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	2) DN “Heavens”	
@@ -46,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170993	šmrr	šmrr/	šmrr	n. m. sg. cstr. gen.	poisoning	
 170994	nḥš	nḥš/	nḥš	n. m. sg. abs. gen.	serpent	
 # KTU 1.100 5						
-170995	ˤxqšr	?	?	?	?	DULAT: NOT FOUND
+170995	ˤxqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	KTU corrected: ʿqšr
 170996	lnh	l(I)+nh	l (I)	prep.	1) prep. of direction b) ventive	
 170997	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
 170998	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	DULAT quote in ảbd (I) (cue: ruin)
@@ -62,7 +64,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171002	hlm	hlm	hlm	conj. functor	1) and so	
 171002	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171002	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171002	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171003	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 171004	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 171005	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
@@ -124,7 +125,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171036	hlm	hlm	hlm	conj. functor	and so	
 171036	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171036	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171036	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171037	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 12						
 171038	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -184,7 +184,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171069	hlm	hlm	hlm	conj. functor	and so	
 171069	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171069	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171069	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171070	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 171071	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 171072	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
@@ -212,12 +211,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171086	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 171086	bl	bl(II)	bl (II)	prep.	without	
 171086	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
-171087	ˤt	ˤt/	ʕt	TN sg. abs. nom.	ʿt	
+171087	ˤt	ˤt/	ʕt	TN sg. cstr. nom.	ʿt	
 # KTU 1.100 20						
-171088	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+171088	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 171089	w	w	w	conj.	and	
-171090	ˤrṯtrt	?	?	?	?	DULAT: NOT FOUND
-171091	inbbh	inbb/~h	ỉnbb	TN sg. cstr. nom.	god (of the) mountain	
+171090	ˤrṯtrt	ˤ&rṯtr(t(I)/t	ʕṯtrt (I)	DN f. sg. cstr. nom.	ʿAṯtartu/Astarte/Ishtar	KTU corrected: ʿṯtrt
+171090	ˤrṯtrt	ˤ&rṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. nom.	ʿṯtrt (II)	KTU corrected: ʿṯtrt
+171091	inbbh	inbb/~h	ỉnbb	TN sg. cstr. gen.	god (of the) mountain	
 171092	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 171093	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 171093	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
@@ -231,8 +231,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171098	lnh	l(I)+nh	l (I)	prep.	to	
 171099	ml	ml	ml	?	?	
 # KTU 1.100 22						
-171100	ḫš	ḫš/	ḫš	DN sg. cstr. nom.	ḫš	
-171101	abd	abd(I)/	ảbd (I)	n. m. sg. abs. gen.	ruin	
+171100	ḫš	ḫš/	ḫš	DN sg. abs. nom.	ḫš	
+171101	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
+171101	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 171102	lnh	l(I)+nh	l (I)	prep.	to	
 171103	ydy	yd(I)/+y	yd (I)	n. f. cstr. nom.	hand	
 171103	ydy	!y!(ydy(I)[	/y-d-y/ (I)	vb G prefc. 3 m. sg.	to throw	
@@ -245,7 +246,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171105	hlm	hlm	hlm	conj. functor	and so	
 171105	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171105	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171105	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171106	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 23						
 171107	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -307,7 +307,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171138	hlm	hlm	hlm	conj. functor	and so	
 171138	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171138	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171138	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171139	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 171140	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 171141	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
@@ -366,15 +365,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171171	hlm	hlm	hlm	conj. functor	and so	
 171171	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171171	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171171	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171172	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 171173	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 171174	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 171175	nḥš	nḥš/	nḥš	n. m. sg. cstr. nom.	serpent	
-171176	ˤq	ˤq/	ʕq	n. m. sg. cstr. gen.	pupil	
+171176	ˤq	ˤq/	ʕq	n. m. sg. abs. gen.	pupil	
 # KTU 1.100 34						
-171177	šr	šr(II)/	šr (II)	n. m. sg. abs. gen.	musician	
-171177	šr	šr(III)/	šr (III)	n. m. sg. abs. gen.	Prince	
+171177	šr	šr(II)/	šr (II)	n. m. sg. abs. nom.	musician	
+171177	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
+171177	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	Prince	
+171177	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
+171177	šr	šr(I)/	šr (I)	n. m. sg. cstr. nom.	song	
 171178	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 171179	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 171180	w	w	w	conj.	and	
@@ -430,15 +431,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171207	hlm	hlm	hlm	conj. functor	and so	
 171207	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171207	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171207	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171208	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 171209	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 171210	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 171211	nḥš	nḥš/	nḥš	n. m. sg. cstr. nom.	serpent	
 # KTU 1.100 39						
-171212	ˤq	ˤq/	ʕq	n. m. sg. cstr. gen.	pupil	
-171213	šr	šr(II)/	šr (II)	n. m. sg. abs. gen.	musician	
-171213	šr	šr(III)/	šr (III)	n. m. sg. abs. gen.	Prince	
+171212	ˤq	ˤq/	ʕq	n. m. sg. abs. gen.	pupil	
+171213	šr	šr(II)/	šr (II)	n. m. sg. abs. nom.	musician	
+171213	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
+171213	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	Prince	
+171213	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
+171213	šr	šr(I)/	šr (I)	n. m. sg. cstr. nom.	song	
 171214	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 171215	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 171216	w	w	w	conj.	and	
@@ -491,7 +494,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171241	hlm	hlm	hlm	conj. functor	and so	
 171241	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171241	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171241	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171242	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 171243	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 171244	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
@@ -552,7 +554,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171276	hlm	hlm	hlm	conj. functor	and so	
 171276	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171276	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171276	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171277	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 171278	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.100 49						
@@ -615,7 +616,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171311	hlm	hlm	hlm	conj. functor	and so	
 171311	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171311	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
-171311	hlm	hl+m(I)	hl	deictic adv. functor	behold	
 171312	yṯq	!y!ṯq(y[:d	/ṯ-q-y/	vb D prefc. 3 m. sg.	to elevate	
 # KTU 1.100 55						
 171313	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
@@ -647,7 +647,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 58						
 171329	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 171330	ḥrn	ḥrn/	ḥrn	DN sg. cstr. gen.	Ḥôrānu	
-171330	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. gen.	intestine(s)	
 171331	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr. gen.	(feast / banquet of) game	
 171331	mṣdh	mṣd(III)/~h	mṣd (III)	TN sg. cstr. gen.	mṣd (III)	
 171331	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. gen.	large fortified tower	
@@ -678,7 +677,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 61						
 171344	b	b	b	prep.	in	
 171345	ḥrn	ḥrn/	ḥrn	DN sg. cstr. gen.	Ḥôrānu	
-171345	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. gen.	intestine(s)	
 171346	pnm	pn(m/m	pnm	n. m. pl. abs. gen.	1) face	
 171347	trġn	!t!rġ[n	/r-ġ/	vb G prefc.	to get excited, blaze, to be full of rage > to foam, froth > to fume with rage	
 171348	w	w	w	conj.	3) in the correlation protasis-apodosis	
@@ -710,8 +708,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171359	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 171359	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 171360	tk	tk/	tk	n. m. cstr. nom.	centre	
-171361	aršḫ	aršḫ/	ảršḫ	TN sg. cstr. gen.	ảršḫ	
-171362	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. gen.	Lady	
+171361	aršḫ	aršḫ/	ảršḫ	TN sg. abs. gen.	ảršḫ	
+171362	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	DULAT quote in ảršḫ (cue: great)
 # KTU 1.100 64						
 171363	w	w	w	conj.	and	
 171364	aršḫ	aršḫ/	ảršḫ	TN sg. abs. nom.	ảršḫ	
@@ -730,16 +728,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171371	b	b	b	prep.	in	
 171372	šḫt	?	?	?	?	DULAT: NOT FOUND
 171373	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. cstr. nom.	1) tree	
-171374	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
-171374	mt	mt(II)/	mt (II)	n. m. sg. cstr. gen.	1) death	
-171374	mt	mt[/	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
-171374	mt	mt(I)/	mt (I)	n. m. sg. cstr. gen.	dead person	
-171375	ˤrˤrm	ˤrˤr/~m	ʕrʕr	n. m. sg. abs. gen.	tamarisk	
+171373	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. abs. nom.	1) tree	
+171374	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
+171374	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	1) death	
+171374	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
+171374	mt	mt[/	/m-t/	vb G ptcpl. m. sg. abs. nom.	to die	
+171374	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
+171374	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
+171374	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+171375	ˤrˤrm	ˤrˤr/~m	ʕrʕr	n. m. sg. abs. nom.	tamarisk	
 171376	ynˤrah	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 66						
-171377	ssnm	ssn(I)/~m	ssn (I)	n. m. abs. nom. sg.	date-palm branch	
+171377	ssnm	ssn(I)/~m	ssn (I)	n. m. sg. abs. nom.	date-palm branch	
 171378	ysynh	!y!(nsy(II)[+nh	/n-s-y/ (II)	vb G prefc. 3 m. sg.	1) to remove	
-171379	ˤdtm	ˤdt(I)/~m	ʕdt (I)	n. f. abs. nom. sg.	3) overflowing	
+171379	ˤdtm	ˤdt(I)/~m	ʕdt (I)	n. f. sg. abs. nom.	3) overflowing	
 171380	yˤdynh	!y!ˤdy[:d+nh	/ʕ-d-y/	vb D prefc. 3 m. sg.	to make disappear / remove	
 171381	yb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 67						
@@ -748,7 +750,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171384	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
 171384	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
 171385	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
-171385	ḥrn	ḥr(I)/+n	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 171386	l	l(I)	l (I)	prep.	to	
 171387	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	1) house	DULAT quote in /m-ġ-y/ (cue: house)
 171388	w	w	w	conj.	1) copulative conj.	
@@ -774,7 +775,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171396	tplg	!t!(]n]plg[:w	/p-l-g/	vb N prefc. 3 m. pl.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
 171396	tplg	!t===!(]n]plg[	/p-l-g/	vb N prefc. 2 m. pl.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
 171397	km	km	km	prep./conj./adv.		
-171398	plg	(]n]plg[:w	/p-l-g/	vb N suffc. 3 m. pl.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
+171398	plg	plg/	plg	n. m. sg. abs. nom.	stream	DULAT quote in plg (cue: stream)
 # KTU 1.100 70						
 171399	bˤdh	bˤd+h	bʕd	adv. or prep.	2) prep a) behind	
 171400	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. nom.	2) palace	
@@ -785,13 +786,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 71						
 171405	bˤdh	bˤd+h	bʕd	adv. or prep.	behind	
 171406	ˤdbt	ˤdb[t	/ʕ-d-b/	vb G suffc. 1 c. sg.	to leave > to put in > to place	
-171407	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	2) bolt	
-171408	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. cstr. gen.	to open	
-171409	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-171410	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	1) portion	
+171407	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	2) bolt	DULAT quote in ṯlṯ (V) (cue: bolt)
+171408	ptḥ	ptḥ[	/p-t-ḥ/	vb G suffc. 3 m. sg.	to open	
+171408	ptḥ	ptḥ[	/p-t-ḥ/	vb G impv. 2	to open	
+171408	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. abs. nom.	to open	
+171408	ptḥ	ptḥ/	ptḥ	n. m. sg. abs. nom.	entrance	
+171409	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
+171410	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	1) portion	
 # KTU 1.100 72						
-171411	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. cstr. gen.	to open	DULAT quote in /b-ʔ/ (cue: open)
-171412	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+171411	ptḥ	ptḥ[	/p-t-ḥ/	vb G suffc. 3 m. sg.	to open	
+171411	ptḥ	ptḥ[	/p-t-ḥ/	vb G impv. 2	to open	
+171411	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. abs. nom.	to open	
+171411	ptḥ	ptḥ/	ptḥ	n. m. sg. abs. nom.	entrance	
+171412	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 171413	w	w	w	conj.	and	
 171414	uba	!(ʔ&u!b(ʔ[&a	/b-ʔ/	vb G prefc. 1 c. sg.	to enter, come, reach	
 171415	hkl	hkl/	hkl	n. m. sg. abs. nom.	palace	
@@ -810,20 +817,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171424	mhry	mhr(III)/+y	mhr (III)	n. m. sg. cstr. gen.	dowry	
 171425	w	w	w	conj.	and	
 171426	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	3) young of an animal	
-171427	bṯn	bṯn/	bṯn	n. m. sg. cstr. gen.	serpent	
+171426	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	3) young of an animal	
+171426	bn	bn(II)	bn (II)	prep.	between	
+171426	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+171426	bn	bn[	/b-n/	vb G impv. 2	to understand	
+171427	bṯn	bṯn/	bṯn	n. m. sg. cstr. nom.	serpent	
 171428	itnny	itnn/+y	ỉtnn	n. m. sg. cstr. gen.	present	
 # KTU 1.100 75						
 171429	ytt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - to give
 171430	nḥšm	nḥš/m	nḥš	n. m. pl. cstr. nom.	serpent	
 171431	mhrk	mhr(I)/+k	mhr (I)	n. m. cstr. gen.	warrior (trained, expert)	
+171432	bn	b+n	b	prep.	in	
 171432	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 171432	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 171432	bn	bn(II)	bn (II)	prep.	between	
 171432	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 171432	bn	bn[	/b-n/	vb G impv. 2	to understand	
-171433	bṯn	bṯn/	bṯn	n. m. sg. abs. nom.	serpent	
+171433	bṯn	bṯn/	bṯn	n. m. sg. cstr. nom.	serpent	
 # KTU 1.100 76						
-171434	itnnk	itnn/+k	ỉtnn	n. m. sg. cstr. nom.	present	
+171434	itnnk	itnn/+k	ỉtnn	n. m. sg. cstr. gen.	present	
 # KTU 1.100 77						
 171435	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	2) prep c) (temporal) after	
 171436	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	

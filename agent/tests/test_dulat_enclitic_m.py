@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 
 from pipeline.steps.base import TabletRow
-from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
+from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer, _rewrite_pos_for_enclitic_variant
 
 
 def _init_schema(conn: sqlite3.Connection) -> None:
@@ -21,6 +21,15 @@ def _init_schema(conn: sqlite3.Connection) -> None:
 
 
 class DulatEncliticMFixerTest(unittest.TestCase):
+    def test_number_ambiguity_keeps_state_and_case_in_canonical_order(self) -> None:
+        self.assertEqual(
+            _rewrite_pos_for_enclitic_variant(
+                "n. m. pl. or du. abs. gen.",
+                {"cstr., suff., du.", "cstr., suff., pl."},
+            ),
+            "n. m. pl. or du. abs. gen.",
+        )
+
     def test_rewrites_weak_final_infinitive_to_hidden_radical_plus_enclitic(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "dulat.sqlite"
@@ -213,7 +222,7 @@ class DulatEncliticMFixerTest(unittest.TestCase):
             result = fixer.refine_row(row)
             self.assertEqual(result.analysis, row.analysis)
 
-    def test_keeps_explicit_pronominal_plus_m_variant_unchanged(self) -> None:
+    def test_repairs_legacy_plus_m_when_enclitic_note_is_explicit(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "dulat.sqlite"
             conn = sqlite3.connect(db_path)
@@ -232,7 +241,7 @@ class DulatEncliticMFixerTest(unittest.TestCase):
             fixer = DulatEncliticMFixer(db_path)
             row = TabletRow("2f", "lm", "l(I)+m(I)", "l (I)", "prep.", "to", "")
             result = fixer.refine_row(row)
-            self.assertEqual(result.analysis, "l(I)+m(I)")
+            self.assertEqual(result.analysis, "l(I)~m")
 
     def test_leaves_row_unchanged_without_note_backing(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

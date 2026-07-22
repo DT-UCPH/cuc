@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173545	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. abs. gen.	where-is-the- Mistress?	
 173546	b	b	b	prep.	in	
 173547	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
-173548	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+173548	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	DULAT quote in šbʕ (II) (cue: seventh)
 # KTU 1.119 2						
 173549	š	š/	š	n. m. sg. abs. nom.	ram	
 173550	l	l(I)	l (I)	prep.	to	
@@ -25,12 +25,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173561	xx	?	?	?	?	
 173562	šxxy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.119 4						
-173563	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. cstr. nom.	entry	
-173564	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
-173564	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+173563	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
+173563	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
+173563	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
+173564	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+173564	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 173565	w	w	w	conj.	and	
-173566	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-173567	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+173566	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
+173566	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+173567	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 173568	b	b	b	prep.	in	
 173569	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	2) composite numbers b) tens	
 # KTU 1.119 5						
@@ -40,24 +43,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173572	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 173573	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.119 6						
-173574	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
-173574	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
-173575	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
-173576	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-173576	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
+173574	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+173574	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+173575	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	DULAT quote in qdš (II) (cue: sanctuary)
+173576	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+173576	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 173577	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 173577	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 173578	l	l(I)	l (I)	prep.	to	
 173579	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.119 7						
-173580	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-173580	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+173580	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+173580	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+173580	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 173581	l	l(I)	l (I)	prep.	to	
 173582	ġlm	ġlm/	ġlm	n. m. sg. abs. gen.	3) noble	
 173583	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
 173584	w	w	w	conj.	and	
-173585	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-173585	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+173585	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+173585	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+173585	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 # KTU 1.119 8						
 173586	l	l(I)	l (I)	prep.	to	
 173587	ġlmtm	ġlmt(I)/m	ġlmt (I)	n. f. pl. cstr. gen.	2) “the Damsel” b) of unc. attribution	
@@ -81,12 +86,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 11						
 173601	l	l(I)	l (I)	prep.	to	
 173602	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	2) title of the dead and deified kings of Ugarit	
+173602	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 173603	b	b	b	prep.	in	
 173604	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	eight	
-173605	ṯˤšrt	?	?	?	?	DULAT: NOT FOUND
-173606	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. cstr. nom.	where-is-the- Mistress?	
+173605	ṯˤšrt	&ṯˤšr&t(I)/	ʕšr(t) (I)	n. m. cstr. nom.	banquet	KTU corrected: ʿšrt
+173605	ṯˤšrt	&ṯˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	KTU corrected: ʿšrt
+173606	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. abs. gen.	where-is-the- Mistress?	
 # KTU 1.119 12						
-173607	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle d) sacrificial material	
+173607	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle d) sacrificial material	
+173607	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle d) sacrificial material	
+173607	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 173608	l	l(I)	l (I)	prep.	to	
 173609	mdgl	?	?	?	?	DULAT candidates (no reconstructable encoding): mgdl - 1) tower
 173610	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
@@ -124,6 +133,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 18						
 173633	xl	?	?	?	?	DULAT: NOT FOUND
 173634	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+173634	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 173635	xxx	?	?	?	?	
 173636	xxx	?	?	?	?	
 173637	xxxx	?	?	?	?	
@@ -153,7 +163,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173656	b	b	b	prep.	in	
 173657	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 173658	b	b	b	prep.	in	
-173659	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+173659	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	DULAT quote in šbʕ (II) (cue: seventh)
 173660	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
 # KTU 1.119 23						
 173661	mḥllm	mḥll/m	mḥll	n. m. pl. abs. nom.	desacraliser	
@@ -163,8 +173,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173664	x	?	?	?	?	
 # KTU 1.119 24						
 173665	w	w	w	conj.	and	
-173666	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-173667	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+173666	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
+173666	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+173667	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 173668	hn	hn	hn	functor	1) as a deictic functor	
 173669	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	1) oil a) oil (prob. olive oil)	
 173670	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
@@ -176,10 +187,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173674	rišyt	rišy(t/t	rỉšyt	n. f. sg. abs. nom.	beginning	
 # KTU 1.119 26						
 173675	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in ʕz (III) (cue: when)
+173676	gr	gr(y[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
+173676	gr	gr(y[:w	/g-r(-y)/	vb G suffc. 3 m. pl.	to attack	
 173676	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
-173676	gr	gr(I)/	gr (I)	n. m. sg. cstr. nom.	protected	
-173677	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. cstr. gen.	caprine animal	
-173678	ṯġrkm	ṯġr(I)/+km	ṯġr (I)	n. m. cstr. gen.	gate	
+173676	gr	gr(I)/	gr (I)	n. m. sg. abs. nom.	protected	
+173677	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
+173677	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
+173677	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	2) the strong one (used as a noun)	
+173677	ˤz	ˤz(I)/	ʕz (I)	n. m. sg. abs. nom.	strength	
+173678	ṯġrkm	ṯġr(I)/+km	ṯġr (I)	n. m. cstr. nom.	gate	
 173679	qrd	qrd(I)/	qrd (I)	n. m. sg. abs. nom.	hero	
 # KTU 1.119 27						
 173680	ḥmytkm	ḥm&yt(I)/+km	ḥmt (I)	n. f. cstr. nom.	wall	
@@ -189,7 +205,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173684	tšun	!t!(nš(ʔ[&un	/n-š-ʔ/	vb G prefc.	to raise, lift, help up	
 # KTU 1.119 28						
 173685	y	y	y	prep. functor	oh!	DULAT quote in y (cue: oh)
-173686	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. abs. nom. sg.	Baʿlu/Baal	
+173686	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 173687	al	al(I)	ảl (I)	neg. functor	no	
 173687	al	al(II)	ảl (II)	pos. functor	surely	
 173688	tdy	!t!(ydy[	/y-d-y/ (I)	vb G prefc. 3 f. sg.	to throw	
@@ -201,6 +217,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173689	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 173689	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 173689	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
+173689	ˤz	ˤz(I)/	ʕz (I)	n. m. sg. abs. nom.	strength	
 173690	l	l(I)	l (I)	prep.	to	
 173691	ṯġrn	ṯġr(I)/+n	ṯġr (I)	n. m. cstr. gen.	gate	DULAT quote in ảl (II) (cue: gate)
 # KTU 1.119 29						
@@ -233,12 +250,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173710	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 173711	nˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.119 33						
-173712	šr	šr(II)/	šr (II)	n. m. sg. cstr. nom.	musician	
-173712	šr	šr(III)/	šr (III)	n. m. sg. cstr. nom.	Prince	
-173713	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
-173714	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
-173714	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+173712	šr	šr(II)/	šr (II)	n. m. sg. abs. nom.	musician	
+173712	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
+173712	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	Prince	
+173712	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
+173712	šr	šr(I)/	šr (I)	n. m. sg. cstr. nom.	song	
+173713	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	DULAT quote in qdš (II) (cue: sanctuary)
+173714	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+173714	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 173715	nˤl	!n!ˤl(y[	/ʕ-l-y/	vb G prefc. 1 c. pl.	to go up, rise	
+173715	nˤl	nˤl/	nʕl	n. m. pl. cstr. nom.	portable platform	
 173716	ntbt	ntbt/	ntbt	n. m. sg. cstr. nom.	1) path	
 173717	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 173718	bˤl	bˤl(II)/	bʕl (II)	DN pl. abs. gen.	Baʿlu/Baal	
@@ -246,9 +267,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 34						
 173719	ntlk	?	?	?	?	DULAT: NOT FOUND
 173720	w	w	w	conj.	and	
+173721	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear, listen (to), notice	
+173721	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear, listen (to), notice	
 173721	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
-173722	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
-173722	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+173722	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+173722	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 173723	l	l(I)	l (I)	prep.	to	
 173724	ṣltkm	ṣl(t/t+km	ṣlt	n. f. sg. cstr. gen.	prayer	
 # KTU 1.119 35						
@@ -261,6 +284,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173726	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 173726	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 173726	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	2) the strong one (used as a noun)	
+173726	ˤz	ˤz(I)/	ʕz (I)	n. m. sg. abs. nom.	strength	
 173727	l	l(I)	l (I)	prep.	to	
 173728	ṯġrkm	ṯġr(I)/+km	ṯġr (I)	n. m. cstr. gen.	gate	
 173729	qrd	qrd(I)/	qrd (I)	n. m. sg. abs. nom.	hero	

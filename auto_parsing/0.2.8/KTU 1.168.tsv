@@ -5,8 +5,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175035	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 175036	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
 # KTU 1.168 2						
-175037	ḥgb	ḥgb/	ḥgb	n. m. sg. cstr. gen.	locust	
-175038	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
+175037	ḥgb	ḥgb/	ḥgb	n. m. sg. abs. gen.	locust	
+175038	ap	ap(I)	ảp (I)	adv./conj.	also	
+175038	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 175039	w	w	w	conj.	and	
 175040	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 # KTU 1.168 3						
@@ -30,12 +31,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.168 8						
 175053	id	id	ỉd	conj.	when	
 175054	yph	!y!ph(y[	/p-h-y/	vb G prefc. 3 m. sg.	to see	
-175055	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
-175056	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. cstr. gen.	eye	
-175056	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
+175055	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+175056	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
+175056	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 # KTU 1.168 9						
-175057	slḫ	slḫ(I)/	slḫ (I)	n. m. sg. cstr. gen.	befeuchtet	
-175058	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
+175057	slḫ	slḫ(I)/	slḫ (I)	n. m. sg. abs. nom.	befeuchtet	
+175058	ap	ap(I)	ảp (I)	adv./conj.	also	
+175058	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 175059	w	w	w	conj.	and	
 175060	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 175061	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
@@ -69,9 +71,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175079	alit	alit/	ảlỉt	DN sg. cstr. nom.	the most powerful	
 175080	š	š/	š	n. m. sg. cstr. gen.	1) ram b) as a sacrificial victim	
 # KTU 1.168 16						
-175081	šp	šp/	šp	n. m. cstr. gen.	dune	
+175081	šp	šp/	šp	n. m. abs. gen.	dune	
 # KTU 1.168 17						
-175082	dm	dm(II)/	dm (II)	n. m. sg. abs. gen.	blood	
+175082	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
+175082	dm	dm(I)	dm (I)	functor	since	
 # KTU 1.168 18						
 175083		?	?	?	?	
 175084	k	+k	-k (I)			

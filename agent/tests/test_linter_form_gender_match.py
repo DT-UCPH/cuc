@@ -106,6 +106,90 @@ class LinterFormGenderMatchTest(unittest.TestCase):
                 messages,
             )
 
+    def test_allows_feminine_adjective_when_exact_form_is_feminine(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            out_dir = root / "out"
+            out_dir.mkdir(parents=True, exist_ok=True)
+            path = out_dir / "KTU 1.test.tsv"
+            path.write_text(
+                (
+                    "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                    "1\trbt\trb(I)/t\trb (I)\tadj. f. sg. abs. nom.\tgreat\t\n"
+                ),
+                encoding="utf-8",
+            )
+
+            rb = DulatEntry(
+                entry_id=1,
+                lemma="rb",
+                homonym="I",
+                pos="adj.",
+                gloss="great",
+                morph="sg., f.",
+                form_text="rbt",
+            )
+            issues = lint_file(
+                path=path,
+                dulat_forms={normalize_surface("rbt"): [rb]},
+                entry_meta={1: ("rb", "I", "adj.", "great")},
+                lemma_map={normalize_surface("rb"): [rb]},
+                entry_stems={},
+                entry_gender={1: "m."},
+                udb_words={normalize_udb("rbt")},
+                baseline=None,
+                input_format="auto",
+                db_checks=True,
+            )
+
+            messages = [issue.message for issue in issues]
+            self.assertNotIn(
+                "Adjective POS gender mismatch for rb (I): expected adj. m., got adj. f.",
+                messages,
+            )
+
+    def test_rejects_feminine_adjective_without_feminine_form_evidence(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            out_dir = root / "out"
+            out_dir.mkdir(parents=True, exist_ok=True)
+            path = out_dir / "KTU 1.test.tsv"
+            path.write_text(
+                (
+                    "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                    "1\trb\trb(I)/\trb (I)\tadj. f. sg. abs. nom.\tgreat\t\n"
+                ),
+                encoding="utf-8",
+            )
+
+            rb = DulatEntry(
+                entry_id=1,
+                lemma="rb",
+                homonym="I",
+                pos="adj.",
+                gloss="great",
+                morph="sg.",
+                form_text="rb",
+            )
+            issues = lint_file(
+                path=path,
+                dulat_forms={normalize_surface("rb"): [rb]},
+                entry_meta={1: ("rb", "I", "adj.", "great")},
+                lemma_map={normalize_surface("rb"): [rb]},
+                entry_stems={},
+                entry_gender={1: "m."},
+                udb_words={normalize_udb("rb")},
+                baseline=None,
+                input_format="auto",
+                db_checks=True,
+            )
+
+            messages = [issue.message for issue in issues]
+            self.assertIn(
+                "Adjective POS gender mismatch for rb (I): expected adj. m., got adj. f.",
+                messages,
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

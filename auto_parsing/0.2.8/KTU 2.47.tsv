@@ -18,8 +18,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.47 I:4						
 178050	ḫmšm	ḫmšm/	ḫmšm	num.	fifty	DULAT quote in mỉt (cue: fifty)
 178051	l	l(I)	l (I)	prep.	to	
-178052	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	1) a hundred	
-178053	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl. m. sg. abs. gen.	to sigh	
+178052	mit	mi(t/t	mỉt	n. f. sg. abs. gen.	1) a hundred	
+178053	any	!!(ʔ&any[/	/ʔ-n-y/	vb G inf.	to sigh	
+178053	any	(ʔ&any[/	/ʔ-n-y/	vb G ptcpl. m. sg. abs. nom.	to sigh	
 # KTU 2.47 I:5						
 178054	tšknn	!t!škn[n:d	/š-k-n/	vb D	to assign	
 178055	xyh	?	?	?	?	DULAT: NOT FOUND
@@ -76,10 +77,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178089	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.47 II:4						
 178090	d	d	d	det. or rel. functor	the one(s) of	
+178091	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+178091	št	št[	/š-t/	vb G impv. 2	to place	
+178091	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
+178091	št	št(III)/	št (III)	n. m. sg. abs. nom.	tearing apart	
 178091	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 178091	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-178092	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-178093	ḫrdh	ḫrd/+h	ḫrd	n. m. cstr. gen.	(royal) guard	
+178092	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+178092	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+178092	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+178092	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+178093	ḫrdh	ḫrd/+h	ḫrd	n. m. cstr. nom.	(royal) guard	
 # KTU 2.47 II:5						
 178094	špḥ	špḥ/	špḥ	n. m. abs. nom.	family	
 178095	al	al(I)	ảl (I)	neg. functor	no	
@@ -100,7 +108,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178104	xxr	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:9						
 178105	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
-178105	ymm	ym(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
+178105	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. nom.	sea	
 178106	w	w	w	conj.	and	
 178107	xxp	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:10						

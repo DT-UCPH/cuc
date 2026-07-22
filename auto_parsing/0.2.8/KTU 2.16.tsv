@@ -36,9 +36,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176313	špš	špš/	špš	n. f. sg. abs. gen.	3) “sun”	DULAT quote in špš (cue: sun)
 # KTU 2.16 9						
 176314	w	w	w	conj.	and	
-176315	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
-176316	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in /n-r/ (cue: sun)
-176317	nr	nr/	nr	n. m. sg. abs. gen.	sheen	
+176315	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	DULAT quote in /n-r/ (cue: face)
+176316	špš	špš/	špš	n. f. sg. abs. nom.	sun	DULAT quote in /n-r/ (cue: sun)
+176317	nr	nr/	nr	n. m. sg. cstr. nom.	sheen	
+176317	nr	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.16 10						
 176318	by	b+y	b	prep.	1) spatial location c) goal of movement or action	
 176319	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	2) abundantly	
@@ -65,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176325	al	al(II)	ảl (II)	pos. functor	surely	
 176326	twḥln	!t!wḥl[n	/y/w-ḥ-l/	vb G prefc.	to be worried	
 # KTU 2.16 13						
-176327	ˤtn	ˤtn(II)	ʕnt (II)	adv.	now	DULAT quote in ʕnt (II) (cue: now)
+176327	ˤtn	ˤtn(II)	ʕnt (II)	adv.	now	
 176328	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	2) soldier of the guard	
 176328	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	2) soldier of the guard	
 176329	ank	ank	ảnk	pers. pn.	1) i a) subj. in NC	

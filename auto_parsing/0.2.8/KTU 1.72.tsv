@@ -1,10 +1,16 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.72 1						
-168814	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
-168814	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
-168815	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	
-168816	śśwm	śśwm/	s:śs/św	n. f. du. abs. gen.	horse	
-168816	śśwm	śśwm/	s:śs/św	n. f. pl. abs. gen.	horse	
+168814	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+168814	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
+168814	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+168814	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+168814	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+168814	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
+168814	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+168815	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	handsome	
+168815	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
+168816	śśwm	śśwm/	s:śs/św	n. f. du. abs. nom.	horse	
+168816	śśwm	śśwm/	s:śs/św	n. f. pl. abs. nom.	horse	
 # KTU 1.72 2						
 168817	k	+k	-k (I)			
 168817	k	~k	-k (II)			
@@ -23,17 +29,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168821	k	k(III)	k (III)	Subordinating or completive functor	when	
 168821	k	k(I)	k (I)	prep.	like	
 168821	k	k(II)	k (II)	emph. functor	yes	
-168822	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
-168823	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
+168822	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
+168822	ḫr	ḫr[	/ḫ-r(-r)/	vb G suffc. 3 m. sg.	to have spasms (of diarrhoea)	
+168822	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. abs. nom.	to have spasms (of diarrhoea)	
+168823	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 168824	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
 # KTU 1.72 7						
 168825	w	w	w	conj.	and	
 168826	bṣql	bṣql/	bṣql	n. m. sg. cstr. nom.	sprout	
-168827	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m. sg. cstr. gen.	juniper berries (?)	
-168828	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-168828	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-168828	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-168828	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+168827	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m. sg. abs. gen.	juniper berries (?)	
+168828	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+168828	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+168828	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+168828	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+168828	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+168828	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 # KTU 1.72 8						
 168829	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 168830	w	w	w	conj.	and	
@@ -41,24 +51,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168831	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 168832	b	b	b	prep.	in	
 168833	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-168833	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+168833	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.72 9						
 168834	k	+k	-k (I)			
 168834	k	~k	-k (II)			
 168834	k	k(III)	k (III)	Subordinating or completive functor	when	
 168834	k	k(I)	k (I)	prep.	like	
 168834	k	k(II)	k (II)	emph. functor	yes	
-168835	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
-168836	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	horse	
+168835	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
+168835	ḫr	ḫr[	/ḫ-r(-r)/	vb G suffc. 3 m. sg.	to have spasms (of diarrhoea)	
+168835	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. abs. nom.	to have spasms (of diarrhoea)	
+168836	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 168837	ḫndrṯ	ḫndrṯ/	ḫndrṯ	n. m. sg. abs. gen.	apricot tree	
 # KTU 1.72 10						
 168838	w	w	w	conj.	and	
-168839	ṯqd	ṯqd/	ṯqd	n. m. sg. cstr. nom.	almond	
-168840	mr	mr(I)/	mr (I)	n. m. sg. cstr. gen.	myrrh	
-168841	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-168841	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-168841	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-168841	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+168839	ṯqd	ṯqd/	ṯqd	n. m. sg. abs. nom.	almond	
+168840	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
+168840	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
+168840	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+168840	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
+168841	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+168841	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+168841	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+168841	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+168841	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+168841	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 168842	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 # KTU 1.72 11						
 168843	w	w	w	conj.	and	
@@ -66,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168844	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 168845	b	b	b	prep.	in	
 168846	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-168846	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+168846	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.72 12						
 168847	k	+k	-k (I)			
 168847	k	~k	-k (II)			
@@ -82,19 +99,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168852	yṯtn	!y!ṯ]t]n[	/ṯ-n/	vb Gt prefc. 3 m. sg.	to urinate	
 168853	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 # KTU 1.72 13						
-168854	mss	mss/	mss	n. m. sg. cstr. gen.	sap	
-168855	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
-168855	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
-168856	qlql	qlql/	qlql	n. m. sg. abs. gen.	cardamome	
+168854	mss	mss/	mss	n. m. sg. abs. gen.	sap	
+168855	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+168855	št	št[	/š-t/	vb G impv. 2	to place	
+168855	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
+168855	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+168856	qlql	qlql/	qlql	n. m. sg. abs. nom.	cardamome	
 168857	w	w	w	conj.	and	
+168858	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+168858	št	št[	/š-t/	vb G impv. 2	to place	
+168858	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 168858	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-168858	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 # KTU 1.72 14						
-168859	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m. sg. cstr. gen.	juniper berries (?)	
-168860	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-168860	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-168860	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-168860	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+168859	ˤrgz	ˤrgz(I)/	ʕrgz (I)	n. m. sg. abs. nom.	juniper berries (?)	
+168860	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+168860	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+168860	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+168860	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+168860	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+168860	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 168861	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 # KTU 1.72 15						
 168862	w	w	w	conj.	and	
@@ -102,23 +125,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168863	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 168864	b	b	b	prep.	in	
 168865	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-168865	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+168865	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.72 16						
 168866	k	k(III)	k (III)	Subordinating or completive functor	when	
 168867	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
 168867	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to occupy space, cover	
 168868	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. nom.	grain	
-168869	śśw	śśw/	s:śs/św	n. m. sg. cstr. gen.	1) horse a) ảsr sswm they harnessed the horses	
+168869	śśw	śśw/	s:śs/św	n. m. sg. abs. gen.	1) horse a) ảsr sswm they harnessed the horses	
 # KTU 1.72 17						
-168870	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
-168870	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
-168871	mkšr	mkšr/	mkšr	n. m. sg. cstr. gen.	semolina	
-168872	grn	grn(I)/	grn (I)	n. m. sg. abs. gen.	threshing-floor	
+168870	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+168870	št	št[	/š-t/	vb G impv. 2	to place	
+168870	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
+168870	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+168871	mkšr	mkšr/	mkšr	n. m. sg. abs. nom.	semolina	
+168872	grn	grn(I)/	grn (I)	n. m. sg. abs. nom.	threshing-floor	
+168872	grn	grn(II)/	grn (II)	adj. m. sg. abs. nom.	current	
 # KTU 1.72 18						
 168873	w	w	w	conj.	and	
+168874	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+168874	št	št[	/š-t/	vb G impv. 2	to place	
+168874	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 168874	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-168874	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-168875	aškrr	aškrr/	ảškrr	n. m. sg. abs. gen.	wax	
+168875	aškrr	aškrr/	ảškrr	n. m. sg. abs. nom.	wax	
 # KTU 1.72 19						
 168876	w	w	w	conj.	and	
 168877	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
@@ -137,35 +165,43 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168882	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 168883	b	b	b	prep.	in	
 168884	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-168884	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+168884	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.72 21						
 168885	k	k(III)	k (III)	Subordinating or completive functor	when	
 168886	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
 168886	yiḫd	!y!(ʔ&iḫd[:pass	/ʔ-ḫ-d(/ḏ)/	vb Gpass prefc. 3 m. sg.	to be seized, captured, collected, re- cruited, bloated	
 168887	arl	?	?	?	?	DULAT: NOT FOUND
 168888	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
+168888	śśw	śśw/	s:śs/św	n. m. sg. abs. nom.	horse	
 # KTU 1.72 22						
-168889	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
-168889	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
-168890	nni	nn(u&i(II)/	nnủ (II)	TN sg. cstr. gen.	nnủ (II)	
-168890	nni	nn(u&i(I)/	nnủ (I)	n. m. sg. cstr. gen.	Ammi	
-168891	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
-168891	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
-168892	mkšr	mkšr/	mkšr	n. m. sg. cstr. gen.	semolina	
-168893	grn	grn(I)/	grn (I)	n. m. sg. abs. gen.	threshing-floor	
+168889	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+168889	št	št[	/š-t/	vb G impv. 2	to place	
+168889	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
+168889	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+168890	nni	nn(u&i(II)/	nnủ (II)	TN sg. abs. nom.	nnủ (II)	
+168890	nni	nn(u&i(I)/	nnủ (I)	n. m. sg. abs. nom.	Ammi	
+168891	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+168891	št	št[	/š-t/	vb G impv. 2	to place	
+168891	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
+168891	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+168892	mkšr	mkšr/	mkšr	n. m. sg. abs. nom.	semolina	
+168893	grn	grn(I)/	grn (I)	n. m. sg. abs. nom.	threshing-floor	
+168893	grn	grn(II)/	grn (II)	adj. m. sg. abs. nom.	current	
 168894	w	w	w	conj.	and	
 # KTU 1.72 23						
 168895	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 168895	št	št[	/š-t/	vb G impv. 2	to place	
 168895	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 168895	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-168895	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 168896	irġn	?	?	?	?	DULAT: NOT FOUND
-168897	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. nom.	donkey	
-168898	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-168898	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-168898	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-168898	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+168897	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
+168897	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
+168898	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+168898	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+168898	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+168898	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+168898	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+168898	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 # KTU 1.72 24						
 168899	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 168900	w	w	w	conj.	and	
@@ -173,31 +209,35 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168901	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 168902	b	b	b	prep.	in	
 168903	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-168903	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+168903	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.72 25						
 168904	k	k(III)	k (III)	Subordinating or completive functor	when	
 168905	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
 168906	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
-168907	št	š(t(II)/t	št (II)	n. f. sg. cstr. gen.	raíz	
-168907	št	št(I)/	št (I)	n. m. sg. cstr. gen.	base	
+168906	śśw	śśw/	s:śs/św	n. m. sg. abs. nom.	horse	
+168907	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+168907	št	št[	/š-t/	vb G impv. 2	to place	
+168907	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
+168907	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 # KTU 1.72 26						
-168908	bln	bln/	bln	n. m. sg. cstr. gen.	mixed fodder	
+168908	bln	bln/	bln	n. m. sg. cstr. nom.	mixed fodder	
 168909	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. abs. gen.	flax	
 168910	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 168910	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 168911	b	b	b	prep.	in	
 168912	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-168912	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+168912	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.72 27						
 168913	k	k(III)	k (III)	Subordinating or completive functor	when	
 168914	ygˤr	!y!gˤr[	/g-ʕ-r/	vb G prefc. 3 m. sg.	to reproach, rebuke	
 168915	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 # KTU 1.72 28						
-168916	dprn	dprn/	dprn	n. m. sg. cstr. gen.	1) juniper a) commodity	
+168916	dprn	dprn/	dprn	n. m. sg. abs. gen.	1) juniper a) commodity	
 # KTU 1.72 29						
-168917	drˤ	drˤ/	d/ḏrʕ	n. m. sg. cstr. gen.	2) (grain of) seed	
+168917	drˤ	drˤ/	d/ḏrʕ	n. m. sg. abs. nom.	2) (grain of) seed	
+168917	drˤ	!!drˤ[/	/d-r-ʕ/	vb G inf.	to sow	
 # KTU 1.72 30						
-168918	tmṯl	tmṯl/	tmṯl	n. m. sg. cstr. gen.	equal amount	
+168918	tmṯl	tmṯl/	tmṯl	n. m. sg. cstr. nom.	equal amount	
 # KTU 1.72 31						
 168919	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
 # KTU 1.72 32						
@@ -206,18 +246,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168921	št	št[	/š-t/	vb G impv. 2	to place	
 168921	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 168921	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-168921	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 # KTU 1.72 33						
 168922	w	w	w	conj.	and	
 168923	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
 168923	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 # KTU 1.72 34						
 168924	irġn	?	?	?	?	DULAT: NOT FOUND
-168925	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. cstr. nom.	donkey	
-168926	ydk	yd(I)/+k	yd (I)	n. f. cstr. gen.	hand	
-168926	ydk	yd(I)/+k=	yd (I)	n. f. cstr. gen.	hand	
-168926	ydk	yd(II)/+k	yd (II)	n. m. cstr. gen.	love	
-168926	ydk	yd(II)/+k=	yd (II)	n. m. cstr. gen.	love	
+168925	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
+168925	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
+168926	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
+168926	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
+168926	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
+168926	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
+168926	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
+168926	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 # KTU 1.72 35						
 168927	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 168928	w	w	w	conj.	and	
@@ -225,7 +267,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168929	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 168930	b	b	b	prep.	in	
 168931	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-168931	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+168931	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.72 36						
 168932	k	k(III)	k (III)	Subordinating or completive functor	when	
 168933	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
@@ -254,4 +296,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.72 40						
 168950	b	b	b	prep.	in	
 168951	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-168951	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+168951	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	

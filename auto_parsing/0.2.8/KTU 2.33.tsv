@@ -12,7 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177142	l	l(I)	l (I)	prep.	to	
 177143	pˤn	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 177144	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
-177145	mrḥqm	mrḥq/~m	mrḥq	n. m. abs. nom. sg.	distance	
+177145	mrḥqm	mrḥq/~m	mrḥq	n. m. sg. abs. nom.	distance	
 # KTU 2.33 4						
 177146	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 177147	ly	l(I)+y	l (I)	prep.	4) introducing a complement of the addressee	
@@ -38,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.33 9						
 177163	xxx	?	?	?	?	
 177164	yqḥhn	!y!(lqḥ[:pass+hn	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
-177164	yqḥhn	!y!(lqḥ[+hn	/l-q-ḥ/	vb Gpass	to receive, accept, take (away)	
+177164	yqḥhn	!y!(lqḥ[:pass+hn	/l-q-ḥ/	vb Gpass	to receive, accept, take (away)	
 177165	l	l(I)	l (I)	prep.	to	
 177166	ḥwth	ḥwt/+h	ḥwt	n. f. cstr. gen.	1) country	
 # KTU 2.33 10						
@@ -56,6 +56,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177174	w	w	w	conj.	and	
 177175	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
 177175	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
+177175	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
+177175	ib	ib(II)/	ỉb (II)	n. m. sg. abs. nom.	fruit	
 177176	hnk	hnk	hnk(t)	dem./pers. pn.	that	
 177177		?	?	?	?	
 177178	w	w	w	conj.	and	
@@ -89,6 +91,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177199	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
 177200	l	l(I)	l (I)	prep.	to	
 177201	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
+177201	ġr	ġr(V)/	ġr (V)	n. m. sg. abs. gen.	total	
+177201	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
 177202	amn	amn(III)/	ảmn (III)	adj. m. sg. abs. nom.	faithful	
 # KTU 2.33 17						
 177203	xx	?	?	?	?	
@@ -96,6 +100,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177205	hn	hn	hn	functor	behold!	
 177206	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
 177206	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
+177206	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
+177206	ib	ib(II)/	ỉb (II)	n. m. sg. abs. nom.	fruit	
 # KTU 2.33 18						
 177207	yrḥq	?	?	?	?	DULAT: NOT FOUND
 177208	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
@@ -110,11 +116,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177211	tdˤ	!t===!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 m. pl.	1) to know	
 # KTU 2.33 20						
 177212	w	w	w	conj.	1) copulative conj.	
-177213	ap	ap(II)/	ảp (II)	n. m. sg. cstr. nom.	nose	
-177214	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
-177215	uḏr	uḏr(I)/	ủḏr (I)	n. m. sg. cstr. gen.	express messenger	
+177213	ap	ap(I)	ảp (I)	adv./conj.	also	DULAT quote in ảp (I) (cue: also)
+177214	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	1) king a) human sovereign in gen	
+177215	uḏr	uḏr(I)/	ủḏr (I)	n. m. sg. abs. gen.	express messenger	
 # KTU 2.33 21						
-177216	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. gen.	1) to know	
+177216	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	1) to know	
+177216	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	1) to know	
+177216	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	1) to know	
 177217	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: that)
 177218	iḫd	(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect, to take (back), grasp, seize, hold	
 177219	hnd	hnd	hnd	dem.	2) pn. this	
@@ -123,9 +131,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177221	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
 177222	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 177223		?	?	?	?	
-177224	lm	l(I)+m(I)	l (I)	prep.	to	
+177224	lm	l(I)~m	l (I)	prep.	to	
 # KTU 2.33 23						
-177225	lm	l(I)+m(I)	l (I)	prep.	to	
+177225	lm	l(I)~m	l (I)	prep.	to	
 177226	škn	škn[:d	/š-k-n/	vb D impv. 2	to assign	
 177227	hnk	hnk	hnk(t)	dem./pers. pn.	that	
 # KTU 2.33 24						
@@ -137,8 +145,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.33 25						
 177232	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say, tell, announce, communicate, inform	
 177233	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
+177233	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
+177233	ˤly	ˤly(I)/	ʕly (I)	adj. m. pl. abs. nom.	most high	
+177233	ˤly	ˤly(I)/	ʕly (I)	adj. m. sg. abs. nom.	most high	
 177234	ṯh	ṯh/	ṯh	n. m. sg. abs. nom.	neighbour	
-177235	lm	l(I)+m(I)	l (I)	prep.	to	
+177235	lm	l(I)~m	l (I)	prep.	to	
 # KTU 2.33 26						
 177236	l	l(I)	l (I)	prep.	to	
 177236	l	l(II)	l (II)	adv.	no	
@@ -149,6 +160,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177238	hm	hm(I)	hm (I)	pers. pn.	they	
 177239	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 177240	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
+177240	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
+177240	ˤly	ˤly(I)/	ʕly (I)	adj. m. pl. abs. nom.	most high	
+177240	ˤly	ˤly(I)/	ʕly (I)	adj. m. sg. abs. nom.	most high	
 # KTU 2.33 27						
 177241	w	w	w	conj.	4) declarative and emphatic functor	
 177242	hn	hn	hn	functor	1) as a deictic functor	
@@ -177,11 +191,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.33 31						
 177259	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 177260	tmġyy	!t!mġy[+y	/m-ġ-y/	vb G prefc.	to come, arrive	
-177261	hnx	?	?	?	?	DULAT: NOT FOUND
+177261	hnx	hn&x	hn	functor	2) as an adv.	KTU corrected: hn
+177261	hnx	hnx	hnny	adv.	here	KTU corrected: hn
 # KTU 2.33 32						
-177262	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
-177263	śśwm	śśwm/	s:śs/św	n. f. du. abs. gen.	1) horse a) ảsr sswm they harnessed the horses	
-177263	śśwm	śśwm/	s:śs/św	n. f. pl. abs. gen.	1) horse a) ảsr sswm they harnessed the horses	
+177262	alpm	alp(II)&m/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	DULAT quote in hnd (cue: thousand)
+177263	śśwm	śśwm/	s:śs/św	n. f. du. abs. nom.	1) horse a) ảsr sswm they harnessed the horses	
+177263	śśwm	śśwm/	s:śs/św	n. f. pl. abs. nom.	1) horse a) ảsr sswm they harnessed the horses	
 177264	hnd	hnd	hnd	dem.	1) adj. this	
 # KTU 2.33 33						
 177265	w	w	w	conj.	and	
@@ -212,9 +227,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177280	ṯh	ṯh/	ṯh	n. m. sg. abs. nom.	neighbour	
 177281	hn	hn	hn	functor	behold!	
 # KTU 2.33 38						
-177282	alpm	alp(I)/m	ảlp (I)	n. m. pl. cstr. nom.	(head of) cattle	
-177283	śśwm	śśwm/	s:śs/św	n. f. du. abs. gen.	horse	
-177283	śśwm	śśwm/	s:śs/św	n. f. pl. abs. gen.	horse	
+177282	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
+177282	alpm	alp(II)&m/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
+177283	śśwm	śśwm/	s:śs/św	n. f. du. abs. nom.	horse	
+177283	śśwm	śśwm/	s:śs/św	n. f. pl. abs. nom.	horse	
 # KTU 2.33 39						
 177284	hnd	hnd	hnd	dem.	this	
 177285	ˤlṣ	ˤlṣ/	ʕlṣ	n. m. sg. cstr. nom.	rejoicing	

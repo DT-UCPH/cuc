@@ -5,10 +5,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180800	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 180801	hnd	hnd	hnd	dem.	this	
 # KTU 3.5 2						
-180802	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. nom.	ʿmṯtmr	
-180803	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+180802	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
+180803	bn	b+n	b	prep.	in	
+180803	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+180803	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+180803	bn	bn(II)	bn (II)	prep.	between	
+180803	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180803	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 3						
-180804	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
+180804	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
 180805	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.5 4						
 180806	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -22,28 +27,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180810	uškn	uškn/	ủškn	TN sg. abs. gen.	ủškn	
 180811	d	d	d	det. or rel. functor	the one(s) of	
 180812	b	b	b	prep.	in	
-180813	šdy	šd(I)/+y	šd (I)	n. m. cstr. gen.	3) steppe	
-180813	šdy	šdy(II)/	šdy (II)	PN sg. cstr. gen.	šdy (II)	
+180813	šdy	šd(I)/+y	šd (I)	n. m. cstr. nom.	3) steppe	
+180813	šdy	šdy(II)/	šdy (II)	PN sg. abs. nom.	šdy (II)	
+180813	šdy	šdy(I)/	šdy (I)	adj. abs. nom.	land labourer	
 # KTU 3.5 7						
-180814	bmt	bm(t/t	bmt	n. f. sg. cstr. gen.	back	
-180814	bmt	bm(t/t=	bmt	n. f. pl. cstr. gen.	back	
+180814	bmt	bm(t/t	bmt	n. f. sg. cstr. nom.	back	
+180814	bmt	bm(t/t=	bmt	n. f. pl. cstr. nom.	back	
 180815	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	5) used as a preposition	
+180815	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
 180816	gth	g(t/t+h	gt	n. f. sg. cstr. gen.	gittu	
 # KTU 3.5 8						
 180817	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 180817	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-180817	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 180817	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 180818	zth	zt/+h	zt	n. m. cstr. nom.	3) olive grove	
 180819	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 180819	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-180819	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 180819	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 # KTU 3.5 9						
 180820	krmh	krm/+h	krm	n. m. cstr. nom.	1) vineyard a) krm ảḥd one vineyard	DULAT quote in krm (cue: vineyard)
 180821	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 180821	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-180821	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 180821	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 # KTU 3.5 10						
 180822	klklh	klkl/+h	klkl	n. m. cstr. nom.	anybody	
@@ -53,13 +57,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180824	ytnnn	!y!(ytn[n+n	/y-t-n/	vb	to give	
 180824	ytnnn	!y!(ytn[+nn	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 180824	ytnnn	ytnnn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+180824	ytnnn	yt&n/+nn	yt	n. m. cstr. nom.	?	
+180824	ytnnn	ytn(I)n/n	ytn (I), -nn	n. m. abs. nom.	temple slaves, ?	
 # KTU 3.5 12						
 180825	l	l(I)	l (I)	prep.	to	
-180826	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. cstr. gen.	lord	
-180827	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+180826	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. abs. gen.	lord	
+180827	bn	b+n	b	prep.	in	
+180827	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+180827	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+180827	bn	bn(II)	bn (II)	prep.	between	
+180827	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180827	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 13						
-180828	kltn	klt(I)/+n	klt (I)	n. f. cstr. gen.	bride	
-180828	kltn	kltn/	kltn	PN sg. abs. gen.	kltn	
+180828	kltn	kltn/	kltn	PN sg. abs. nom.	kltn	
 180829	w	w	w	conj.	and	
 180830	l	l(I)	l (I)	prep.	to	
 # KTU 3.5 14						
@@ -81,10 +91,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180841	yqḥnn	!y!(lqḥ[nn	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
 180842	bd	b&d	b	prep.	in	
 # KTU 3.5 18						
-180843	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. cstr. gen.	lord	
-180844	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-180845	kltn	klt(I)/+n	klt (I)	n. f. cstr. gen.	bride	
-180845	kltn	klt(II)/+n	klt (II)	n. f. cstr. gen.	measure	
+180843	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. abs. gen.	lord	
+180844	bn	b+n	b	prep.	in	
+180844	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+180844	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+180844	bn	bn(II)	bn (II)	prep.	between	
+180844	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180844	bn	bn[	/b-n/	vb G impv. 2	to understand	
+180845	kltn	klt(I)/+n	klt (I)	n. f. cstr. nom.	bride	
+180845	kltn	klt(II)/+n	klt (II)	n. f. cstr. nom.	measure	
 # KTU 3.5 19						
 180846	w	w	w	conj.	and	
 180847	bd	b&d	b	prep.	in	
@@ -92,8 +107,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180849	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 180849	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 # KTU 3.5 20						
-180850	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-180850	ˤlm	ˤl(II)+m(I)	ʕl (II)	adv.	above	
 180850	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 180851	w	w	w	conj.	and	
 180852	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	1) obligation	
@@ -105,13 +118,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180855	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. abs. nom.	seal	
 # KTU 3.5 23						
 180856	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
+180857	bn	b+n	b	prep.	in	
 180857	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 180857	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 180857	bn	bn(II)	bn (II)	prep.	between	
 180857	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180857	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 24						
-180858	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. abs. nom.	nqmpʿ	
-180859	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+180858	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
+180859	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.5 25						
-180860	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
+180860	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	

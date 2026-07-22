@@ -21,7 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176633	w	w	w	conj.	and	
 176634	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.24 7						
-176635	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. abs. nom. sg.	distance	
+176635	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. sg. abs. nom.	distance	
 176636	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.24 8						
 176637	hlny	hlny	hlny	deictic adv. functor	behold	
@@ -36,9 +36,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176643	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.24 11						
 176644	mnm	mnm	mnm	indef. pn.	any(thing)	
-176645	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+176645	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+176645	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.24 12						
-176646	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+176646	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 176647	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
 176647	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 176648	ly	l(I)+y	l (I)	prep.	to	

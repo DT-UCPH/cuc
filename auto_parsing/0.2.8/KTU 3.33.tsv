@@ -9,12 +9,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181937	ptḥ	ptḥ[	/p-t-ḥ/	vb G impv. 2	to open	
 181937	ptḥ	ptḥ[/	/p-t-ḥ/	vb G pass. ptcpl. m. sg. abs. nom.	to open	
 181937	ptḥ	ptḥ/	ptḥ	n. m. sg. abs. nom.	entrance	
-181938	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
-181938	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
-181938	ybnn	!y!bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
+181938	ybnn	ybnn/	ybnn	PN sg. cstr. nom.	ybnn	
 # KTU 3.33 3						
-181939	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	5) used as a preposition	
-181939	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	5) used as a preposition	
+181939	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	5) used as a preposition	
+181939	yd	yd(II)/	yd (II)	n. m. sg. abs. gen.	love	
 181940	ˤpsh	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.33 4						
 181941	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
@@ -23,7 +21,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.33 5						
 181943	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 181943	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-181943	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 181943	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 181944	ġrh	ġr(I)/+h	ġr (I)	n. m. cstr. nom.	mountain	
 # KTU 3.33 6						
@@ -57,11 +54,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181962	bd	b&d	b	prep.	in	
 181963	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
 181963	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
-181963	ybnn	!y!bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
+181963	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
 # KTU 3.33 14						
 181964	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 181964	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-181965	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+181965	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	DULAT quote in ʕd (I) (cue: eternity)
 # KTU 3.33 15						
 181966	w	w	w	conj.	1) copulative conj.	
 181967	gt	g(t/t	gt	n. f. sg. cstr. nom.	gittu	
@@ -73,20 +70,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.33 17						
 181971	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 181971	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-181971	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 181971	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 181972	krmh	krm/+h	krm	n. m. cstr. nom.	1) vineyard a) krm ảḥd one vineyard	DULAT quote in krm (cue: vineyard)
 # KTU 3.33 18						
 181973	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 181973	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-181973	yd	yd(IV)	bd (IV)	prep.	into the hands of	
 181973	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 181974	klklh	klkl/+h	klkl	n. m. cstr. nom.	anybody	
 # KTU 3.33 19						
 181975	w	w	w	conj.	and	
 181976	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
 181976	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
-181976	ybnn	!y!bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
+181976	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
 # KTU 3.33 20						
 181977	b	b	b	prep.	3) relationship of cause or reason	
 181978	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	2) stretch of cultivated land	

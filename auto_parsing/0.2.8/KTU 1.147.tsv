@@ -21,6 +21,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174462	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 174462	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 174462	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
+174462	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 # KTU 1.147 9						
 174463	dk	d+k	d	det. or rel. functor	the one(s) of	
 174464	km	km	km	prep./conj./adv.		
@@ -29,17 +30,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174466	srnm	srn/m	srn	n. m. pl. abs. nom.	prince	
 # KTU 1.147 11						
 174467	b	b	b	prep.	in	
-174468	šr	šr(II)/	šr (II)	n. m. sg. abs. gen.	musician	
+174468	šr	šr(II)/	šr (II)	n. m. sg. abs. nom.	musician	
 174468	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
-174468	šr	šr(III)/	šr (III)	n. m. sg. abs. gen.	1) prince	
+174468	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	1) prince	
+174468	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
+174468	šr	šr(I)/	šr (I)	n. m. sg. cstr. nom.	song	
 # KTU 1.147 12						
 174469	l	l(I)	l (I)	prep.	to	
 174469	l	l(II)	l (II)	adv.	no	
 174469	l	l(III)	l (III)	functor	certainly	
+174470	qṣ	qṣ[	/q-ṣ(-ṣ)/	vb G suffc. 3 m. sg.	to carve	
+174470	qṣ	!!qṣ[/	/q-ṣ(-ṣ)/	vb G inf.	to carve	
 174470	qṣ	qṣ/	qṣ	n. m. sg. cstr. nom.	end	
-174471	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+174471	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.147 13						
-174472	lm	l(I)+m(I)	l (I)	prep.	to	
+174472	lm	l(I)~m	l (I)	prep.	to	
 174473	tbṣˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.147 14						
 174474	xm	?	?	?	?	DULAT: NOT FOUND

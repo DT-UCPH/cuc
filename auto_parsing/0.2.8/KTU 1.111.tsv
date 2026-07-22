@@ -8,14 +8,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172858	lmd	lmd[:d	/l-m-d/	vb D suffc. 3 m. sg.	to teach	
 172858	lmd	lmd[:d:w	/l-m-d/	vb D suffc. 3 m. pl.	to teach	
 # KTU 1.111 2						
-172859	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
-172860	ymm	ym(I)/m	ym (I)	n. m. pl. abs. gen.	1) day b) as a period in time	
-172860	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
-172861	llxm	?	?	?	?	DULAT: NOT FOUND
+172859	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	1) the numeral three b) genitive syntagms	DULAT quote in ṯlṯ (I) (cue: three)
+172860	ymm	ym(I)/m	ym (I)	n. m. pl. cstr. nom.	1) day b) as a period in time	
+172860	ymm	ym(II)/~m	ym (II)	n. m. sg. cstr. nom.	sea	
+172861	llxm	llx(I)/m	ll (I)	n. m. pl. abs. gen.	night	KTU corrected: llm
 172862	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	4) to enter	
 # KTU 1.111 3						
 172863	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
-172864	aṯḫḫlm	?	?	?	?	DULAT: NOT FOUND
+172864	aṯḫḫlm	aṯḫḫlm	ảṯḫlm		sacrifice	KTU corrected: aṯḫlm
 172865	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 172866	atnd	!(ʔ&a!(ytn[+d	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 # KTU 1.111 4						
@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172871	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 172872	prznd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 6						
-172873	nkld	]n]kld[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
+172873	nkld	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
 172874	šrpm	šrp/~m	šrp	n. m. sg. cstr. nom.	1) burnt sacrifice	
 172875	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	2) espec. domestic fowl	
 # KTU 1.111 7						
@@ -62,17 +62,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 13						
 172897	xxxx	?	?	?	?	
 # KTU 1.111 14						
-172898	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+172898	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 172899	x	?	?	?	?	
 # KTU 1.111 15						
 172900	wb	?	?	?	?	DULAT: NOT FOUND
-172901	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
-172902	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. gen.	1) (head of) cattle d) sacrificial material	
+172901	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+172901	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+172901	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+172902	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT quote in ảlp (I) (cue: cattle)
 # KTU 1.111 16						
 172903	b	b	b	prep.	in	
-172904	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-172905	dqr	dqr/	dqr	n. m. sg. cstr. gen.	Topf	
-172906	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. gen.	donkey	
+172904	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	DULAT quote in ṯlṯ (II) (cue: third)
+172905	dqr	dqr/	dqr	n. m. sg. abs. nom.	Topf	
+172906	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
+172906	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
 # KTU 1.111 17						
 172907	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 172908	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT quote in ảlp (I) (cue: cattle)
@@ -80,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 18						
 172910	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
 172911	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	4) DN (< “The King”, /Ma/āl(i)ku/, Milku . AHw 596	
-172912	ššbˤ	?	?	?	?	DULAT: NOT FOUND
+172912	ššbˤ	ššbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	KTU corrected: šbʿ
 172913	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. nom.	ewe	
 172913	ṯat	ṯa(t/t=	ṯảt	n. f. pl. abs. nom.	ewe	
 172914	l	l(I)	l (I)	prep.	to	

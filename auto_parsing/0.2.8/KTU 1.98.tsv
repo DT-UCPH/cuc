@@ -5,9 +5,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.98 2						
 170945	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	eye	
 170945	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	eye	
-170945	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. cstr. nom.	furrow	
-170946	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-170946	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+170945	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. abs. nom.	eye	
+170945	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see, look (at), watch, spy	
+170945	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
+170946	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+170946	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 170947		?	?	?	?	
 # KTU 1.98 3						
 170948	mṯlṯt	mṯlṯ(t/t	mṯlṯt	n. f. sg. abs. gen.	the third (one)	
@@ -24,10 +26,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170956	bhty	b&ht(II)/+y	bt (II)	n. m. cstr. gen.	house	
 # KTU 1.98 7						
 170957	gˤl	gˤl	gʕl	?	?	
-170958	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
+170958	p	p(I)	p (I)	conj. functor	and	
+170958	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+170958	p	p(II)	p (II)	adv.	here	
 # KTU 1.98 8						
-170959	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
-170959	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+170959	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
+170959	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 170960	x	?	?	?	?	
 # KTU 1.98 9						
 170961	x	?	?	?	?	

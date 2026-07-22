@@ -5,18 +5,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.48 2						
 168227	xx	?	?	?	?	
 168228	ṯpḥ	ṯpḥ/	ṯpḥ	n. m. sg. cstr. nom.	stock	DULAT quote in ṯpḥ (cue: stock)
-168229	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-168229	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+168229	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
+168229	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 1.48 3						
-168230	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. gen.	copper	
-168231	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	2) espec. domestic fowl	
+168230	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
+168230	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+168230	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
+168231	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	2) espec. domestic fowl	
 # KTU 1.48 4						
 168232	l	l(I)	l (I)	prep.	to	
 168233	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	1) lady a) bʕlt bhtm “Lady of the Palace”	
-168234	btm	bt(II)/m	bt (II)	n. m. pl. cstr. gen.	house	
-168234	btm	bt(I)/m	bt (I)	n. f. pl. cstr. gen.	daughter	
+168234	btm	bt(II)/m	bt (II)	n. m. pl. abs. gen.	house	
+168234	btm	bt(I)/m	bt (I)	n. f. pl. abs. gen.	daughter	
 # KTU 1.48 5						
-168235	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
+168235	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	2) set of three	
+168235	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
+168235	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
 168236	šxn	?	?	?	?	DULAT: NOT FOUND
 168237	l	l(I)	l (I)	prep.	to	
 168238	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. gen.	grain	
@@ -40,25 +44,35 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168250	pxxxrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 11						
 168251	ṯn	ṯn(I)/	ṯn (I)	num.	4) adv. use	
+168251	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 168252	xxxxxl	?	?	?	?	DULAT: NOT FOUND
 168253	rdx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 12						
 168254	aḥt	aḥ(d/t	ảḥd	adj. f. sg. abs. nom.	one	
 168255	ḫmxxx	?	?	?	?	DULAT: NOT FOUND
 168256	ṯn	ṯn(I)/	ṯn (I)	num.	4) adv. use	
+168256	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 # KTU 1.48 13						
 168257	b	b	b	prep.	in	
-168258	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
-168259	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	1) sacrifice	
-168259	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
-168260	ṯpḥ	ṯpḥ/	ṯpḥ	n. m. sg. cstr. gen.	stock	DULAT quote in dbḥ (cue: stock)
+168258	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
+168259	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	1) sacrifice	
+168259	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	1) sacrifice	
+168259	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
+168259	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
+168259	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
+168260	ṯpḥ	ṯpḥ/	ṯpḥ	n. m. sg. cstr. nom.	stock	DULAT quote in dbḥ (cue: stock)
 168261	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 168261	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 # KTU 1.48 14						
 168262	aḥt	aḥ(d/t	ảḥd	adj. f. sg. abs. nom.	one	
 168263	l	l(I)	l (I)	prep.	to	
-168264	mzy	mzy/	mzy	PN sg. cstr. gen.	mzy	
-168265	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+168264	mzy	mzy/	mzy	PN sg. abs. gen.	mzy	
+168265	bn	b+n	b	prep.	in	
+168265	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+168265	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+168265	bn	bn(II)	bn (II)	prep.	between	
+168265	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+168265	bn	bn[	/b-n/	vb G impv. 2	to understand	
 168266	x	?	?	?	?	
 # KTU 1.48 15						
 168267	aḥt	aḥ(d/t	ảḥd	adj. f. sg. abs. nom.	one	
@@ -80,10 +94,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168278	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. nom.	term for the kings of Ugarit	
 # KTU 1.48 19						
 168279	aḥt	aḥ(d/t	ảḥd	adj. f. sg. abs. nom.	one	
-168280	slḫu	slḫu/	slḫủ	TN sg. cstr. nom.	slḫủ	
+168280	slḫu	slḫu/	slḫủ	TN sg. abs. nom.	slḫủ	
 # KTU 1.48 20						
 168281		?	?	?	?	
-168282	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
+168282	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
+168282	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.48 21						
 168283		?	?	?	?	
 # KTU 1.48 22						

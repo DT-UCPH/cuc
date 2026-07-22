@@ -16,18 +16,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181115	kmt	k(I)&mt	k (I)	prep.	like	
 181115	kmt	kmt	kmt	adv.	like(wise)	
 # KTU 3.12 4						
-181116	br	br/	br(r)	n. m. sg. cstr. nom.	tin	
-181116	br	br(I)/	br (I)	n. m. sg. cstr. nom.	Art Seeschiff	
-181117	ṣṭqšlm	ṣ(d&ṭqšlm/	ṣdqšlm	PN sg. abs. gen.	ṣdqšlm	
+181116	br	br/	br(r)	n. m. sg. abs. nom.	tin	
+181116	br	br(I)/	br (I)	n. m. sg. abs. nom.	Art Seeschiff	
+181116	br	br[	/b-r(-r)/	vb G suffc. 3 m. sg.	to be or remain pure	
+181117	ṣṭqšlm	ṣ(d&ṭqšlm/	ṣdqšlm	PN sg. abs. nom.	ṣdqšlm	
 # KTU 3.12 5						
 181118	b	b	b	prep.	1) spatial location d) origin of a quality or process	
 181119	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. gen.	obligation	
 181119	unṯ	unṯ/	ủnṯ	n. m. sg. cstr. gen.	obligation	
-181120	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. cstr. gen.	throne	
-181120	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. cstr. gen.	time	
-181121	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. cstr. gen.	eternity	
+181120	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
+181120	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
+181121	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 3.12 6						
-181122	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. cstr. gen.	seal	
+181122	mišmn	mišmn/	m(ả/ỉ)šmn	n. m. sg. cstr. nom.	seal	
 181123	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	
 # KTU 3.12 7						
 181124	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
@@ -60,15 +61,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181140	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
 181140	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
 # KTU 3.12 13						
-181141	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	tablet / register	
-181141	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
-181142	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
+181141	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
+181141	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
+181141	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+181141	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+181141	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+181141	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
+181141	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+181142	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 181143	hnd	hnd	hnd	dem.	this	
 # KTU 3.12 14						
 181144	b	b	b	prep.	in	
-181145	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
+181145	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	DULAT quote in yd (I) (cue: hands)
 181146	ṣṭqšlm	ṣ(d&ṭqšlm/	ṣdqšlm	PN sg. cstr. gen.	ṣdqšlm	
 # KTU 3.12 15						
 181147	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. gen.	throne	
 181147	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. gen.	time	
-181148	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+181148	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	

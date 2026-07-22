@@ -23,10 +23,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179326	w	w	w	conj.	and	
 179327	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.86 8						
-179328	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. sg. cstr. nom.	distance	
+179328	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. sg. abs. nom.	distance	
 # KTU 2.86 9						
-179329	qlty	qlt(I)/+y	qlt (I)	n. f. cstr. gen.	vileness	
-179329	qlty	qlt(II)/+y	qlt (II)	n. f. cstr. gen.	(Messenger-)service	
+179329	qlty	ql[ty	/q-l/	vb	to fall (down)	KTU corrected: qlt
 179330	w	w	w	conj.	and	
 179331	hnny	hn+ny	hn	functor	behold!	
 # KTU 2.86 10						
@@ -40,29 +39,31 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179337	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 2.86 13						
 179338	šlmh	šlm[:d+h	/š-l-m/	vb G suffc.	to be well, do well, be in peace	
-179338	šlmh	šlm[+h	/š-l-m/	vb D suffc.	to re-establish > to pay	
+179338	šlmh	šlm[:d+h	/š-l-m/	vb D suffc.	to re-establish > to pay	
 179338	šlmh	šlm(I)/+h	šlm (I)	n. m. cstr. nom.	peace	
-179338	šlmh	šlm(III)/+h	šlm (III)	adj. m. cstr. nom.	pure	
 # KTU 2.86 14						
 179339	w	w	w	conj.	and	
 179340	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
 179340	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.86 15						
-179341	nkly	]n]kly[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
+179341	nkly	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
 # KTU 2.86 16						
 179342	w	w	w	conj.	and	
-179343	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+179343	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+179343	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.86 17						
-179344	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	1) house	DULAT quote in bt (II) (cue: house)
+179344	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	1) house	DULAT quote in bt (II) (cue: house)
 179345	w	w	w	conj.	and	
-179346	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	1) peace b) in greeting formulae	
+179346	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in šlm (I) (cue: well)
 # KTU 2.86 18						
-179347	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. gen.	auditor	
-179348	rgmk	rgm/+k	rgm	n. m. cstr. gen.	word	DULAT quote in /š-m-ʕ/ (cue: word)
+179347	šmˤ	šmˤ[	/š-m-ʕ/	vb G impv. 2	to hear, listen (to), notice	
+179347	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear, listen (to), notice	
+179347	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
+179348	rgmk	rgm/+k	rgm	n. m. cstr. nom.	word	DULAT quote in /š-m-ʕ/ (cue: word)
 # KTU 2.86 19						
 179349	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	1) handsome b) pleasant	DULAT quote in nʕm (I) (cue: pleasant)
 179350	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
-179351	ṯtṯb	?	?	?	?	DULAT: NOT FOUND
+179351	ṯtṯb	?	?	?	?	DULAT candidates (no reconstructable encoding): /ṯ-b/ - to send (word), an answer, to answer
 # KTU 2.86 20						
 179352	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
 179353	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
@@ -70,7 +71,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179354	w	w	w	conj.	and	
 179355	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 179356	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-179356	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 # KTU 2.86 22						
 179357	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	2) servant (said of a special class of mercenaries or subordinate employees)	
 179358	al	al(I)	ảl (I)	neg. functor	no	

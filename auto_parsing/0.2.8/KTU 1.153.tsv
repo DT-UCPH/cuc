@@ -6,20 +6,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.153 3						
 174537		?	?	?	?	
 174538	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
-174538	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. nom.	to sacrifice	
+174538	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
+174538	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
+174538	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
+174538	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 # KTU 1.153 4						
-174539	kt	k(t(I)/t	kt (I)	n. f. sg. abs. gen.	pitcher	
-174539	kt	k(t(II)/t	kt (II)	n. f. sg. abs. gen.	stage	
+174539	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
+174539	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
 # KTU 1.153 5						
 174540	ba	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.153 6						
 174541	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 174541	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
 174542	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+174542	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 174542	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+174542	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.153 7						
 174543		?	?	?	?	
-174544	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+174544	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+174544	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+174544	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.153 8						
 174545	y	~y	-y (II)	prep. functor	indeed	
 174545	y	y	y	prep. functor	oh!	

@@ -7,9 +7,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177413	kxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 2						
 177414	l	l(I)	l (I)	prep.	to	
-177415	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	
-177416	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-177416	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+177415	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu	
+177416	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+177416	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+177416	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+177416	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+177416	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 177417	hlny	hlny	hlny	deictic adv. functor	behold	
 177418	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 177419	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
@@ -18,8 +21,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177420	w	w	w	conj.	and	
 177421	ˤm	ˤm(I)	ʕm (I)	prep.	2) relationship of accompaniment	
 177422	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	1) queen a) in gen	
-177423	kll	kll/	kll	n. m. sg. cstr. gen.	totality	
-177424	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
+177423	kll	kll/	kll	n. m. sg. abs. gen.	totality	
+177424	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+177424	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.36 4						
 177425	w	w	w	conj.	and	
 177426	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
@@ -36,7 +40,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177432	ky	k(IV)+y	k (IV)	adv.	1) thus	
 177433	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 177434	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-177434	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 177435	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 177436	tḥmk	tḥm/+k	tḥm	n. m. cstr. gen.	message	
 177437	hlny	hlny	hlny	deictic adv. functor	behold	
@@ -50,8 +53,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 7						
 177444	w	w	w	conj.	and	
 177445	at	at(I)	ảt (I)	pers. pn.	you	
-177446	kdwṯ	kdwṯ/	kdwṯ	n. m. sg. cstr. nom.		
-177447	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. gen.	new moon	
+177446	kdwṯ	kdwṯ/	kdwṯ	n. m. sg. abs. nom.		
+177447	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
+177447	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
 177448	d	d	d	det. or rel. functor	4) in compound conjunctions	
 177449	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to place, set, set up, leave	
 177449	štt	št[t:pass	/š-t/	vb Gpass suffc. 1 c. sg.	to cause, leave (in a condition)	
@@ -79,15 +83,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 9						
 177459	ṣḥrtxnṯb	?	?	?	?	DULAT: NOT FOUND
 177460	ˤmnkm	ˤm(I)&n+km	ʕm (I)	prep.	to	
-177460	ˤmnkm	ˤm(I)&nk+m(I)	ʕm (I)	prep.	to	
 177461	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 177461	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 177462	xx	?	?	?	?	
 # KTU 2.36 10						
 177463	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	then	
-177463	aṯr	(ʔ&aṯr[	/ʔ-ṯ-r/	vb G suffc. 3 m. sg.	to go, follow	
-177463	aṯr	!!(ʔ&aṯr[/	/ʔ-ṯ-r/	vb G inf.	to go, follow	
-177463	aṯr	(ʔ&aṯr[	/ʔ-ṯ-r/	vb D suffc. 3 m. sg.	force to follow	
 177463	aṯr	aṯr(III)	ảṯr (III)	interr. adv.	where	
 177464	iṯt	iṯ(I)/t	ỉṯ (I)	n. m. sg. abs. nom.	presence	
 177465	w	w	w	conj.	and	
@@ -129,17 +129,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177493	ky	k(IV)+y	k (IV)	adv.	thus	
 177494	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 177495	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-177495	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 177496	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 2.36 15						
 177497	šbt	šb(t/t	šbt	n. f. sg. cstr. gen.	greyness > old age	
 177498	ntbt	ntbt/	ntbt	n. m. sg. cstr. gen.	path	
-177499	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	DULAT quote in /š-b-t/ (cue: egypt)
+177499	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
 177500	ušbtm	ušbtm(II)	-m (II)	morph.		
 # KTU 2.36 16						
 177501	ntbt	ntbt/	ntbt	n. m. sg. cstr. nom.	2) toll	
 177502	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
-177502	mṣrm	mṣr/+m(I)	mṣr	n. m. cstr. gen.	sob	
 177503	b	b	b	prep.	1) spatial location a) place in which something occurs	
 177504	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
 177505	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
@@ -159,6 +157,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177516	nxxx	?	?	?	?	DULAT: NOT FOUND
 177517	ysb	!y!sb(b[	/s:ś-b-b/	vb G prefc. 3 m. sg.	to turn round	
 177518	ˤmq	ˤmq(I)/	ʕmq (I)	n. m. sg. abs. nom.	valley	
+177518	ˤmq	ˤmq(II)/	ʕmq (II)	adj. m. sg. abs. nom.	tough	
 # KTU 2.36 19						
 177519	w	w	w	conj.	and	
 177520	ḥwtm	ḥwt/m	ḥwt	n. f. pl. cstr. nom.	country	

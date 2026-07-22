@@ -22,8 +22,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174886	ilib	ilib(I)/	ỉlỉb (I)	DN sg. abs. gen.	father god	
 # KTU 1.164 4						
 174887	b	b	b	prep.	in	
-174888	db	db/	db	n. m. sg. cstr. gen.	threshold	
-174889	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
+174888	db	db/	db	n. m. sg. abs. gen.	threshold	
+174889	ap	ap(I)	ảp (I)	adv./conj.	also	
+174889	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 174890	w	w	w	conj.	and	
 174891	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 174892	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
@@ -63,7 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174914	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. gen.	oil	
 # KTU 1.164 10						
 174915	w	w	w	conj.	and	
-174916	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+174916	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 174917	b	b	b	prep.	in	
 174918	qr	qr(I)/	qr (I)	n. m. sg. abs. gen.	2) TN	
 174918	qr	qr(II)/	qr (II)	n. m. sg. abs. gen.	noise	
@@ -82,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 14						
 174927	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
 174927	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
-174927	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+174927	ˤšrh	ˤšr[:pass+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
 174927	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
 174928	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 174929	w	w	w	conj.	and	
@@ -93,6 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174933	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	1) heavenly body	
 # KTU 1.164 16						
 174934	w	w	w	conj.	and	
+174935	ṯlṯm	ṯlṯ(I)&m/	ṯlṯ (I)	num. f.	three	
 174935	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 174936	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. nom.	1) gold f) elliptical use	
 # KTU 1.164 17						
@@ -102,7 +104,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.164 18						
 174940	ˤšrh	ˤšr(I)+h	ʕšr (I)	num. cstr.	ten	
 174940	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
-174940	ˤšrh	ˤšr[+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+174940	ˤšrh	ˤšr[:pass+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
 174940	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
 174941	sxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 19						
@@ -112,4 +114,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174944	tṣuyṣu	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.164 20						
 174945	w	w	w	conj.	and	
-174946	ḥlt	ḥl(t(II)/t	ḥlt (II)	n. f. sg. abs. nom.	desacralisation	DULAT quote in ḥlt (II) (cue: desacralisation)
+174946	ḥlt	ḥl(t(II)/t	ḥlt (II)	n. f. sg. abs. nom.	desacralisation	

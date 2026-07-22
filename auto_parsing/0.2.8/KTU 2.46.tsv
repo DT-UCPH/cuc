@@ -27,8 +27,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177997	bny	bn(I)/+y	bn (I)	n. m. cstr. gen.	4) special uses a) bn(y) “my son” > a person of lower rank	DULAT quote in bn (I) (cue: son)
 # KTU 2.46 8						
 177998	mnm	mnm	mnm	indef. pn.	any(thing)	
-177999	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
-178000	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+177999	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+177999	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+178000	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 178001	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
 178001	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 # KTU 2.46 9						
@@ -39,6 +40,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178004	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	DULAT quote in /l-ʔ-k/ (cue: son)
 # KTU 2.46 10						
 178005	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. gen.	missive	
+178005	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. gen.	cheek	
 178006	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	grain	
 178007	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.46 11						

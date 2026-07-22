@@ -26,26 +26,30 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 7						
 178714	hnny	hn+ny	hn	functor	behold!	
 178715	ˤmn	ˤm(I)+n	ʕm (I)	prep.	to	
-178716	ṯmšlm	?	?	?	?	DULAT: NOT FOUND
+178716	ṯmšlm	ṯmšl(I)/m	šlm (I)	n. m. pl. abs. nom.	peace	KTU corrected: šlm
+178716	ṯmšlm	ṯmšl(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	KTU corrected: šlm
 178717	kll	kll/	kll	n. m. sg. abs. nom.	totality	
 # KTU 2.72 8						
 178718	ṯmny	ṯm+ny	ṯm	adv.	there	
-178719	ˤmkk	ˤm(II)&k/+k	ʕm (II)	n. m. cstr. nom.	lineage	
-178720	mxnm	?	?	?	?	DULAT: NOT FOUND
+178719	ˤmkk	?	?	?	?	DULAT candidates (no reconstructable encoding): ʕm (II) - lineage
+178720	mxnm	mxnm	mnm	indef. pn.	any(thing)	KTU corrected: mnm
 # KTU 2.72 9						
-178721	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
-178722	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+178721	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+178721	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+178722	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 178723	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
 178723	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 178724	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.72 10						
-178725	lm	l(I)+m(I)	l (I)	prep.	to	
+178725	lm	l(I)~m	l (I)	prep.	to	
 178726	tlikn	!t!l(ʔ&ik[:d+n	/l-ʔ-k/	vb D prefc.	to send constantly messages	
 178727	ḫpṯ	ḫpṯ/	ḫpṯ	n. m. sg. abs. nom.	2) a “legionary” or “mercenary of some kind” recruited from the “fugitives”	
 178728	hndn	hndn/	hndn	dem./adj. sg.	this	
 # KTU 2.72 11						
-178729	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
-178730	mšmˤt	mšmˤ(t/t	mšmʕt	n. f. sg. cstr. gen.	(body)guard	
+178729	p	p(I)	p (I)	conj. functor	and	
+178729	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+178729	p	p(II)	p (II)	adv.	here	
+178730	mšmˤt	mšmˤ(t/t	mšmʕt	n. f. sg. cstr. nom.	(body)guard	
 178731	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 # KTU 2.72 12						
 178732	inn	in&n/	ỉn	n. m. abs. gen.	lack of	
@@ -55,11 +59,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178734	bn	bn(II)	bn (II)	prep.	between	
 178734	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 178734	bn	bn[	/b-n/	vb G impv. 2	to understand	
-178735	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
+178735	qlt	ql(t(II)/t	qlt (II)	n. f. sg. abs. nom.	(Messenger-)service	DULAT quote in qlt (II) (cue: service)
 # KTU 2.72 13						
 178736	im	im	ỉm	conj.	if	
+178737	bn	b+n	b	prep.	in	
 178737	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-178738	alyy	alyy/	ảlyy	PN sg. abs. gen.	ảlyy	
+178737	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+178737	bn	bn(II)	bn (II)	prep.	between	
+178737	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+178737	bn	bn[	/b-n/	vb G impv. 2	to understand	
+178738	alyy	alyy/	ảlyy	PN sg. abs. nom.	ảlyy	
 178739	im	im	ỉm	conj.	if	
 # KTU 2.72 14						
 178740	mšmˤt	mšmˤ(t/t	mšmʕt	n. f. sg. cstr. nom.	(body)guard	
@@ -68,6 +77,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178742	w	w	w	conj.	and	
 178743	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go, go away	
 178744	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+178744	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+178744	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 178745	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
 # KTU 2.72 16						
 178746	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
@@ -77,7 +88,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 17						
 178750	w	w	w	conj.	and	
 178751	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
-178752	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	DULAT quote in ảmr (III) (cue: daughter)
+178751	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
+178752	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 178753	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 178754	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 2.72 18						
@@ -117,9 +129,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178766	yṯbt	yṯb[t==	/y-ṯ-b/	vb G suffc. 2 f. sg.	to sit down	
 178766	yṯbt	yṯb[t	/y-ṯ-b/	vb G suffc. 1 c. sg.	to sit down	
 # KTU 2.72 22						
-178767	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. nom.	1) city	
-178768	p	p(III)/	p (III)	n. m. sg. cstr. gen.	mouth	
-178769	mn	mn(III)/	mn (III)	n. m. sg. abs. gen.	mina	
+178767	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	1) city	
+178768	p	p(I)	p (I)	conj. functor	and	
+178768	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+178768	p	p(II)	p (II)	adv.	here	
+178769	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	
+178769	mn	mn(IV)	mn (IV)	?	?	
 # KTU 2.72 23						
 178770	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 178771	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
@@ -127,15 +142,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178772	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
 # KTU 2.72 24						
 178773	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-178773	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 178774	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-178775	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
+178775	amr	amr(I)/	ảmr (I)	n. m. sg. cstr. gen.	order	
 # KTU 2.72 25						
-178776	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
-178776	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
-178776	ybnn	!y!bn(y[+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
+178776	ybnn	ybnn/	ybnn	PN sg. abs. gen.	ybnn	
 178777	hlk	hlk[	/h-l-k/	vb G suffc. 3 m. sg.	to go	
 178777	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
+178777	hlk	hlk(I)/	hlk (I)	n. m. sg. abs. nom.	walk	
 # KTU 2.72 26						
 178778	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
 178779	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
@@ -172,7 +185,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178801	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. gen.	head	
 # KTU 2.72 32						
 178802	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-178802	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
 178803	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 178804	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
 # KTU 2.72 33						

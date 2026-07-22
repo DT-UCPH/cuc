@@ -15,6 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176011	rkb	rkb[/	/r-k-b/	vb G ptcpl. m. sg. abs. nom.	to mount (especially a chariot)	
 176011	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
 176011	rkb	rkb(II)/	rkb (II)	n. m. pl. cstr. nom.	?	
+176011	rkb	rkb(III)/	rkb (III)	n. m. sg. abs. nom.	?	
 # KTU 2.7 5						
 176012	xxxxxxx	?	?	?	?	
 176013	d	d	d	det. or rel. functor	the one(s) of	
@@ -34,8 +35,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176022	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 # KTU 2.7 10						
 176023	w	w	w	conj.	and	
-176024	ikm	ik+m(I)	ỉk	interr. functor	how?	
+176024	ikm	ik~m	ỉk	interr. functor	how?	
 176025	kn	kn(II)	kn (II)	adv.	thus	
+176025	kn	kn(I)/	kn (I)	adj. m. sg. abs. nom.	fixed	
 176026	w	w	w	conj.	and	
 176027	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	
 176028	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	

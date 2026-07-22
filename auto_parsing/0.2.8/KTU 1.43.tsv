@@ -12,9 +12,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167866	gb	gb(I)/	gb (I)	n. m. sg. cstr. gen.	pit	
 # KTU 1.43 2						
 167867	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-167868	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-167869	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. gen.	1) banquet	
-167870	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. gen.	1) banquet	
+167868	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+167869	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
+167869	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+167869	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+167869	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to give a banquet	
+167869	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	1) banquet	
+167870	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
+167870	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+167870	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+167870	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to give a banquet	
+167870	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	1) banquet	
 167871	b	b	b	prep.	in	
 167872	gb	gb(I)/	gb (I)	n. m. sg. abs. gen.	pit	
 167873	btilm	?	?	?	?	DULAT: NOT FOUND
@@ -55,7 +63,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167896	l	l(I)	l (I)	prep.	to	
 167897	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 # KTU 1.43 9						
-167898	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+167898	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 167899	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 167900	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 10						
@@ -108,8 +116,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.43 16						
 167935	l	l(I)	l (I)	prep.	to	
 167936	ˤnth	ˤn(t(I)/t&h	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
-167937	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-167938	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+167937	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+167938	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+167938	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+167938	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 167939	w	w	w	conj.	and	
 167940	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.43 17						
@@ -126,8 +136,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167949	l	l(I)	l (I)	prep.	to	
 167950	ˤntm	ˤnt(I)/m	ʕnt (I)	DN pl. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.43 19						
-167951	š	š/	š	n. m. sg. cstr. gen.	ram	
-167952	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+167951	š	š/	š	n. m. sg. abs. gen.	ram	
+167952	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+167952	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+167952	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 167953	l	l(I)	l (I)	prep.	to	
 167954	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 167955	dkrm	dkr/m	dkr	n. m. pl. abs. nom.	1) male animal a) unspecified	

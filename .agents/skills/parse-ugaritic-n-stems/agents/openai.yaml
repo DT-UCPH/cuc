@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ugaritic N-Stems"
+  short_description: "Encode and audit Ugaritic N-stem verbs"
+  default_prompt: "Use $parse-ugaritic-n-stems to audit and correct N-stem verb encodings in Ugaritic TSV files."

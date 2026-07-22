@@ -5,9 +5,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179844	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
 # KTU 2.97 2						
 179845	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
-179846	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+179846	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 # KTU 2.97 3						
-179847	ˤzn	ˤz(II)/+n	ʕz (II)	n. m. cstr. gen.	caprine animal	
+179847	ˤzn	ˤz[+n	/ʕ-z(-z)/	vb G suffc.	to be strong	
+179847	ˤzn	ˤz(II)/+n	ʕz (II)	n. m. cstr. nom.	caprine animal	
+179847	ˤzn	ˤz(III)/+n	ʕz (III)	adj. m. cstr. nom.	strong	
+179847	ˤzn	ˤz(I)/+n	ʕz (I)	n. m. cstr. nom.	strength	
 179848	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. nom.	servant	
 # KTU 2.97 4						
 179849	l	l(I)	l (I)	prep.	to	
@@ -17,12 +20,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179852	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 179853	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.97 6						
-179854	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. abs. nom. sg.	distance	
+179854	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. sg. abs. nom.	distance	
 179855	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 # KTU 2.97 7						
 179856	ly	l(I)+y	l (I)	prep.	1) prep. of direction a) allative	
 179857	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
-179858	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in /š-l-m/ (cue: well)
+179858	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in /š-l-m/ (cue: peace)
 # KTU 2.97 8						
 179859	x	?	?	?	?	
 # KTU 2.97 9						

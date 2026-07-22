@@ -80,7 +80,7 @@ class SecondPassClustersTest(unittest.TestCase):
         from scripts.refine_results_mentions import analysis_reconstructs
 
         self.assertTrue(analysis_reconstructs("ttn", "!t!(ytn[:w"))
-        self.assertTrue(analysis_reconstructs("nšt", "nš(y[t:n"))
+        self.assertTrue(analysis_reconstructs("nšt", "]n](nš(y[t"))
 
     def test_plural_tail_after_nominal_closure(self) -> None:
         self.assertEqual(analysis_for_entry("limm", _entry("lỉm (I)", "n.")), "lim/m")

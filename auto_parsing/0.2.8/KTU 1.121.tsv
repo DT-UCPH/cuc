@@ -7,7 +7,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.121 2						
 173736	u	u	ủ	conj.	or	
 173737	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-173737	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 173737	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 173738	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 173739	l	l(I)	l (I)	prep.	to	
@@ -28,14 +27,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173749	y	~y	-y (II)	prep. functor	indeed	
 173749	y	y	y	prep. functor	oh!	
 173750	hw	hw	hw	pers. pn.	he	
-173751	nkt	nkt/	nkt	n. m. sg. cstr. nom.	immolation	
-173752	nkt	nkt/	nkt	n. m. sg. abs. gen.	immolation	
+173751	nkt	!n!(nkt[	/n-k-t/	vb G prefc. 1 c. pl.	to immolate	
+173751	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
+173752	nkt	!n!(nkt[	/n-k-t/	vb G prefc. 1 c. pl.	to immolate	
+173752	nkt	nkt/	nkt	n. m. sg. abs. nom.	immolation	
 # KTU 1.121 6						
 173753	w	w	w	conj.	and	
-173754	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
-173755	gr	gr(I)/	gr (I)	n. m. pl. cstr. gen.	protected	
-173755	gr	gr(I)/	gr (I)	n. m. sg. cstr. gen.	protected	
-173756	ḥmyt	ḥm&yt(I)/	ḥmt (I)	n. f. pl. cstr. gen.	wall	
+173754	npy	npy/	npy	n. m. sg. abs. nom.	purification	
+173755	gr	gr(y[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
+173755	gr	gr(y[:w	/g-r(-y)/	vb G suffc. 3 m. pl.	to attack	
+173755	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
+173755	gr	gr(I)/	gr (I)	n. m. sg. abs. nom.	protected	
+173756	ḥmyt	ḥm&yt(I)/	ḥmt (I)	n. f. pl. cstr. nom.	wall	
 173757		?	?	?	?	
 # KTU 1.121 7						
 173758	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -47,7 +50,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.121 10						
 173762	u	u	ủ	conj.	or	
 173763	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-173763	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 173763	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 173764	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 # KTU 1.121 11						

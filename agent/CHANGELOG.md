@@ -1,3 +1,29 @@
+## 2026-07-22
+
+- Added sign-span-aware lexical lookup for safely interpreted KTU editorial
+  notation. Content inside `[[...]]` and `{...}` can now be removed for DULAT
+  candidate lookup after the full sign span is validated against the normalized
+  physical surface; rendering still uses that physical surface and therefore
+  marks excluded signs with `&` (for example `g[[m]]pn` -> `g&mpn(III)/`).
+- Missing `<...>` and restored `[...]` signs remain part of the normalized
+  reading. Parenthetical remarks, internal dividers, mismatching sign spans,
+  and empty or one-letter corrected forms do not create automatic aliases.
+- Added DULAT-gated suffix N-stem realization for restored initial nun and
+  final aleph vocalization: `<n>ḫtu` now parses end to end as
+  `]n]ḫt(ʔ[&u`, `vb N suffc. 3 m. sg.`.
+- The direct-attestation index now unions exact references from
+  `dulat_reverse_refs` with the narrower `attestations` table, allowing a
+  corrected editorial lookup to retain all homonyms and then prune by exact
+  textual evidence (for example `KTU 1.5 I:12` selects `gpn (III)`).
+
+- Corrected suffix-conjugation N-stem encoding when the formative nun coincides
+  with root-initial `/n/`: the written nun is now marked as `]n]` and the
+  lexical radical as reconstructed `(n` (for example `/n-š-y/` `nšt` is
+  `]n](nš(y[t`).
+- Extended verbal candidate generation and the N-stem normalization step to
+  emit this encoding, and taught the linter that `]n]` satisfies the explicit
+  non-G stem-marker requirement.
+
 ## 2026-03-11
 
 - Reference-specific DULAT sense definitions are now used for non-verbal entries during TSV rendering, not only for verbs.

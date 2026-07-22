@@ -87,6 +87,25 @@ class DulatAttestationIndexTest(unittest.TestCase):
             self.assertFalse(index.has_reference_for_variant_token("bʕl (II)", "KTU 1.3 I:1"))
             self.assertTrue(index.has_reference_for_variant_token("bʕl", "KTU 1.3 V:22"))
 
+    def test_reference_lookup_includes_reverse_reference_index(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_db(db_path)
+            conn = sqlite3.connect(db_path)
+            cur = conn.cursor()
+            cur.execute("CREATE TABLE dulat_reverse_refs(norm_ref TEXT, entry_id INTEGER)")
+            cur.execute(
+                "INSERT INTO dulat_reverse_refs(norm_ref, entry_id) VALUES (?, ?)",
+                ("KTU 1.5 I:12", 2),
+            )
+            conn.commit()
+            conn.close()
+
+            index = DulatAttestationIndex.from_sqlite(db_path)
+
+            self.assertTrue(index.has_reference_for_variant_token("bʕl (II)", "CAT 1.5 I:12"))
+            self.assertFalse(index.has_reference_for_variant_token("bʕl (I)", "CAT 1.5 I:12"))
+
     def test_normalize_reference_label(self) -> None:
         self.assertEqual(normalize_reference_label("CAT 1.3 I:1"), "1.3 I:1")
         self.assertEqual(normalize_reference_label(" KTU   1.3  I : 1 "), "1.3 I:1")

@@ -3,6 +3,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177537	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 2						
 177538	argmn	!(ʔ&a!rgm[+n	/r-g-m/	vb G prefc. 1 c. sg.	to say	
+177538	argmn	argmn/	ả/ỉrgmn	n. m. sg. cstr. nom.	payment of tribute to the Hittite court	
+177538	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. nom.	payment of tribute to the Hittite court	
 # KTU 2.37 3						
 177539	šixxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.37 4						
@@ -17,8 +19,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177544	štt	št[t	/š-t/	vb G suffc. 1 c. sg.	to place, set, set up, leave	
 177544	štt	št[t:pass	/š-t/	vb Gpass suffc. 1 c. sg.	to cause, leave (in a condition)	
 # KTU 2.37 6						
-177545	mn	mn(III)/	mn (III)	n. m. sg. cstr. nom.	mina	
-177546	ṭbt	ṭb(t/t	ṭbt	n. f. sg. abs. gen.	well-being	
+177545	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	
+177545	mn	mn(IV)	mn (IV)	?	?	
+177546	ṭbt	ṭb(t/t	ṭbt	n. f. sg. abs. nom.	well-being	
 177547	w	w	w	conj.	and	
 177548		?	?	?	?	
 # KTU 2.37 7						
@@ -36,6 +39,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.37 10						
 177558		?	?	?	?	
 177559	argmn	!(ʔ&a!rgm[+n	/r-g-m/	vb G prefc. 1 c. sg.	to say	
+177559	argmn	argmn/	ả/ỉrgmn	n. m. sg. cstr. nom.	payment of tribute to the Hittite court	
+177559	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. nom.	payment of tribute to the Hittite court	
 177560	d	d	d	det. or rel. functor	the one(s) of	
 177561	riš	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	head	
 # KTU 2.37 11						

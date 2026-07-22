@@ -7,10 +7,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179718	yrmhd	yrmhd/	yrmhd	PN sg. cstr. gen.	yrmhd	
 # KTU 2.90 3						
 179719	iḫy	?	?	?	?	DULAT candidates (no reconstructable encoding): ảḫ (I) - brother (by blood)
-179720	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say	
-179720	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+179720	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+179720	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+179720	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+179720	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+179720	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.90 4						
-179721	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. gen.	1) missive	
+179721	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	1) missive	
+179721	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
 179722	hn	hn	hn	functor	2) as an adv.	
 179723	bnšk	bnš/+k	bnš	n. m. cstr. nom.	2) personnel in service	
 # KTU 2.90 5						
@@ -48,7 +52,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179743	bnš	bnš/	bnš	n. m. sg. abs. nom.	2) personnel in service	
 179744	hw	hw	hw	pers. pn.	2) this	
 # KTU 2.90 11						
-179745	ˤmm	ˤm(I)+m(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
+179745	ˤmm	ˤm(I)~m	ʕm (I)	prep.	1) relationship of direction (space and time)	
 179746	aṯth	aṯ(t/t+h	ảṯt	n. f. sg. cstr. nom.	2) married woman	
 # KTU 2.90 12						
 179747	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	1) house	
@@ -77,9 +81,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.90 18						
 179761	w	w	w	conj.	3) in the correlation protasis-apodosis	
 179762	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: if)
-179763	in	in/	ỉn	n. m. sg. cstr. nom.	1) there is/are not	
-179764	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. gen.	to go	
-179764	hlk	hlk(I)/	hlk (I)	n. m. sg. abs. gen.	walk	
+179763	in	in/	ỉn	n. m. sg. abs. nom.	1) there is/are not	
+179764	hlk	hlk[	/h-l-k/	vb G suffc. 3 m. sg.	to go	
+179764	hlk	hlk[/	/h-l-k/	vb G act. ptcpl. m. sg. abs. nom.	to go	
+179764	hlk	hlk(I)/	hlk (I)	n. m. sg. abs. nom.	walk	
 # KTU 2.90 19						
 179765	w	w	w	conj.	and	
 179766	l	l(I)	l (I)	prep.	to	
@@ -104,5 +109,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179778	štnn	št[n+n	/š-t/	vb G impv. 2	to place	
 179778	štnn	št[:pass+nn	/š-t/	vb G suffc.	to place	
 179778	štnn	št[:pass+nn	/š-t/	vb G impv. 2	to place	
-179778	štnn	št[+nn	/š-t/	vb Gpass suffc.	to be placed, set	
+179778	štnn	št[:pass+nn	/š-t/	vb Gpass suffc.	to be placed, set	
+179778	štnn	št(III)/+nn	št (III)	n. m. cstr. nom.	tearing apart	
 179778	štnn	št(II)/+nn	št (II)	n. f. cstr. nom.	raíz	
+179778	štnn	št(I)/+nn	št (I)	n. m. cstr. nom.	base	

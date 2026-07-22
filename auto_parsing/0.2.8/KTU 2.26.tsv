@@ -1,15 +1,18 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.26 1						
-176677	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-176678	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. cstr. gen.	to say, tell, announce, communicate, inform	
-176678	rgm	rgm/	rgm	n. m. sg. cstr. gen.	word	
+176677	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
+176678	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
+176678	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
+176678	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
+176678	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
+176678	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.26 2						
-176679	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+176679	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.26 3						
 176680	l	l(I)	l (I)	prep.	to	
 176681	ḥyil	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.26 4						
-176682	lm	l(I)+m(I)	l (I)	prep.	to	
+176682	lm	l(I)~m	l (I)	prep.	to	
 176683	tlik	!t!l(ʔ&ik[:d	/l-ʔ-k/	vb D prefc.	to send constantly messages	
 176684	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
 # KTU 2.26 5						
@@ -19,10 +22,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176687	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	2) beam	
 176688	l	l(I)	l (I)	prep.	to	
 176689	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
-176689	bt	bt(III)/	bt (III)	n. m. pl. cstr. gen.	length	
-176690	dml	dml/	dml	DN sg. cstr. gen.	dml	
+176690	dml	dml/	dml	DN sg. abs. gen.	dml	
 # KTU 2.26 7						
-176691	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
+176691	p	p(I)	p (I)	conj. functor	and	
+176691	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+176691	p	p(II)	p (II)	adv.	here	
 176692	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
 176693	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
 # KTU 2.26 8						
@@ -30,31 +34,42 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176695	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.26 9						
 176696	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
-176697	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. cstr. nom.	tree	
+176697	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
 # KTU 2.26 10						
-176698	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-176699	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	
+176698	ˤl	ˤl(I)	ʕl (I)	prep.	3) relationship of exchange or profit	
+176698	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+176698	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+176698	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+176699	ar	ar/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 2.26 11						
 176700	w	w	w	conj.	and	
-176701	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. cstr. nom.	copper	
+176701	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	1) the numeral three a) elliptical syntagms	DULAT quote in ṯlṯ (I) (cue: three)
 # KTU 2.26 12						
-176702	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-176703	ubrˤy	ubrˤ&y/	ủbrʕ(y)	TN sg. abs. gen.	ủbrʿy	
-176703	ubrˤy	ubrˤy/	ủbrʕy	GN sg. abs. gen.	ủbrʿy	
+176702	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+176702	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+176702	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+176702	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+176703	ubrˤy	ubrˤ&y/	ủbrʕ(y)	TN sg. abs. nom.	ủbrʿy	
+176703	ubrˤy	ubrˤy/	ủbrʕy	GN sg. abs. nom.	ủbrʿy	
 # KTU 2.26 13						
 176704	w	w	w	conj.	and	
 176705	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two a) elliptical syntagms	
+176706	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+176706	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+176706	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 176706	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 2.26 14						
-176707	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+176707	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.26 15						
 176708	w	w	w	conj.	and	
 176709	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	1) number one a) elliptical syntagms	
 176709	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
-176709	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
 # KTU 2.26 16						
+176710	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+176710	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+176710	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 176710	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-176711	atlg	atlg/	ảtlg	TN sg. abs. gen.	ảtlg	
+176711	atlg	atlg/	ảtlg	TN sg. abs. nom.	ảtlg	
 # KTU 2.26 17						
 176712	w	w	w	conj.	and	
 176713	l	l(I)	l (I)	prep.	to	
@@ -63,8 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176715	tspr	!t!spr[:w	/s-p-r/	vb G prefc. 3 m. pl.	to count, number	
 176715	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to recite	
 # KTU 2.26 19						
-176716	nrn	nr/+n	nr	n. m. cstr. nom.	sheen	
-176716	nrn	nrn[	/n-r/	vb G suffc. 3 m. sg.	to shine	
+176716	nrn	nrn/	nrn	PN sg. abs. nom.	nrn	
 176717	al	al(I)	ảl (I)	neg. functor	no	
 176717	al	al(II)	ảl (II)	pos. functor	surely	
 176718	tud	!t!(ʔ&ud[	/ʔ-d/	vb G prefc.	to overcharge, levy	

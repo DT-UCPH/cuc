@@ -4,9 +4,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181824	ksp	ksp/	ksp	n. m. sg. abs. gen.	2) shekel(s or other quantities) of silver	
 181825	ˤm	ˤm(I)	ʕm (I)	prep.	3) commercial meaning	
 # KTU 3.31 2						
-181826	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181827	rqdn	rqdn/	rqdn	PN sg. cstr. gen.	rqdn	
+181826	bn	b+n	b	prep.	in	
+181826	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181826	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181826	bn	bn(II)	bn (II)	prep.	between	
+181826	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181826	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181827	rqdn	rqdn/	rqdn	PN sg. cstr. nom.	rqdn	
 # KTU 3.31 3						
+181828	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. gen.	banquet	
 181828	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. gen.	group of ten	
 181829	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 181830	ˤm	ˤm(I)	ʕm (I)	prep.	to	
@@ -21,12 +27,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181836	špšn	špš/+n	špš	n. f. cstr. gen.	sun	
 181837	uškny	uškny(I)/	ủškny (I)	GN sg. abs. nom.	ủškny (I)	
 # KTU 3.31 7						
+181838	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 181838	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 181839	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 181840	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 3.31 8						
 181841	xxxn	?	?	?	?	DULAT: NOT FOUND
+181842	bn	b+n	b	prep.	in	
 181842	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-181843	drt	dr(t(I)/t	drt (I)	n. f. sg. cstr. gen.	bran	
+181842	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181842	bn	bn(II)	bn (II)	prep.	between	
+181842	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181842	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181843	drt	dr(t(I)/t	drt (I)	n. f. sg. cstr. nom.	bran	
+181843	drt	drt(II)/	drt (II)	PN sg. cstr. nom.	drt (II)	
 # KTU 3.31 9						
 181844	uškny	uškny(I)/	ủškny (I)	GN sg. abs. gen.	ủškny (I)	

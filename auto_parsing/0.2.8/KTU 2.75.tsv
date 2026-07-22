@@ -34,9 +34,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178947	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg.	to send (a message)	
 # KTU 2.75 10						
 178948	b	b	b	prep.	in	
-178949	mlakt	mlak(t/t	mlảkt	n. f. sg. cstr. gen.	message	
+178949	mlakt	mlak(t/t	mlảkt	n. f. sg. abs. gen.	message	
 # KTU 2.75 11						
-178950	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. gen.	lineage	
+178950	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+178950	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.75 12						
 178951	w	w	w	conj.	and	
 178952	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	

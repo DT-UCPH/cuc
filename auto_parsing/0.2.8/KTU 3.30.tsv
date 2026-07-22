@@ -1,17 +1,27 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.30 1						
-181762	spr	spr(II)/	spr (II)	n. m. sg. cstr. nom.	1) tablet b) of accounting	
-181762	spr	spr(I)/	spr (I)	n. m. sg. cstr. nom.	scribe	
-181763	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
+181762	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	1) tablet b) of accounting	
+181762	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
+181762	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
+181762	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
+181762	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
+181762	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
+181762	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
+181763	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 # KTU 3.30 2						
-181764	mnny	mn(III)/+ny	mn (III)	n. m. cstr. gen.	mina	
+181764	mnny	mnny/	mnny	PN sg. abs. gen.	mnny	
 # KTU 3.30 3						
+181765	ṯṯm	ṯṯ&m/	ṯṯ	num. f.	six	
 181765	ṯṯm	ṯṯm/	ṯṯm	num.	sixty	
-181766	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+181766	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.30 4						
-181767	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+181767	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181767	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181767	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181767	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181768	yrmn	!y!rm(y[+n	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
 # KTU 3.30 5						
+181769	šbˤm	šbˤ(I)&m/	šbʕ (I)	num. f.	seven	
 181769	šbˤm	šbˤm/	šbʕm	num.	seventy	
 181770	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
 # KTU 3.30 6						
@@ -24,6 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181773	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181774	anntn	anntn/	ảnntn	PN sg. abs. nom.	ảnntn	
 # KTU 3.30 8						
+181775	bn	b+n	b	prep.	in	
 181775	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181775	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181775	bn	bn(II)	bn (II)	prep.	between	
@@ -32,79 +43,124 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181776	yrm	!y!rm(y[	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
 # KTU 3.30 9						
 181777	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
-181777	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
-181778	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+181778	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.30 10						
-181779	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181780	tmrtn	tmrtn/	tmrtn	PN sg. cstr. gen.	tmrtn	
+181779	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181779	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181779	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181779	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181780	tmrtn	tmrtn/	tmrtn	PN sg. abs. nom.	tmrtn	
 # KTU 3.30 11						
-181781	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181782	urmy	urmy/	ủrmy	PN sg. abs. gen.	ủrmy	
+181781	bn	b+n	b	prep.	in	
+181781	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181781	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181781	bn	bn(II)	bn (II)	prep.	between	
+181781	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181781	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181782	urmy	urmy/	ủrmy	PN sg. abs. nom.	ủrmy	
 # KTU 3.30 12						
 181783	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
-181783	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
-181784	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+181784	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.30 13						
-181785	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181786	bnil	bnil/	bnỉl	PN sg. cstr. gen.	bnỉl	
+181785	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181785	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181785	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181785	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181786	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
 # KTU 3.30 14						
-181787	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181788	krwn	krwn/	krwn	PN sg. abs. gen.	krwn	
+181787	bn	b+n	b	prep.	in	
+181787	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181787	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181787	bn	bn(II)	bn (II)	prep.	between	
+181787	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181787	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181788	krwn	krwn/	krwn	PN sg. abs. nom.	krwn	
 # KTU 3.30 15						
 181789	ṯṯm	ṯṯm/	ṯṯm	num.	1) the numeral sixty a) elliptical syntagms	
-181790	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+181790	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.30 16						
-181791	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181792	abġl	abġl/	ảbġl	PN sg. cstr. gen.	ảbġl	
-181793	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181794	ṯdny	ṯd/+ny	ṯd	n. m. cstr. gen.	breast	
-181794	ṯdny	ṯd&n/+y	ṯd	n. m. cstr. gen.	breast	
+181791	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181791	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181791	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181791	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181792	abġl	abġl/	ảbġl	PN sg. abs. nom.	ảbġl	
+181793	bn	b+n	b	prep.	in	
+181793	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181793	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181793	bn	bn(II)	bn (II)	prep.	between	
+181793	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181793	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181794	ṯdny	ṯdny/	ṯdny	PN sg. abs. nom.	ṯdny	
 # KTU 3.30 17						
 181795	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
-181795	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
-181796	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+181796	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.30 18						
-181797	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181798	tlmyn	tlmyn/	tlmyn	PN sg. cstr. gen.	2.11	
-181799	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181800	ilyy	il(I)&y/+y	ỉl (I)	n. m. cstr. gen.	god	
-181800	ilyy	ilyy/	ỉlyy	PN sg. abs. gen.	ỉlyy	
+181797	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181797	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181797	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181797	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181798	tlmyn	tlmyn/	tlmyn	PN sg. abs. nom.	2.11	
+181799	bn	b+n	b	prep.	in	
+181799	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181799	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181799	bn	bn(II)	bn (II)	prep.	between	
+181799	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181799	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181800	ilyy	il(I)&y/+y	ỉl (I)	n. m. cstr. nom.	god	
+181800	ilyy	ilyy/	ỉlyy	PN sg. abs. nom.	ỉlyy	
 # KTU 3.30 19						
 181801	ṯṯt	ṯṯ&t/	ṯṯ	num. f.	six	
 181802	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
+181803	ṯlṯm	ṯlṯ(I)&m/	ṯlṯ (I)	num. f.	three	
 181803	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 # KTU 3.30 20						
-181804	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181805	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181806	yˤḏrn	yˤḏrn/	yʕḏrn	PN sg. cstr. gen.	yʿḏrn	
+181804	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181805	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181805	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181805	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181805	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181806	yˤḏrn	yˤḏrn/	yʕḏrn	PN sg. abs. nom.	yʿḏrn	
 # KTU 3.30 21						
-181807	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+181807	bn	b+n	b	prep.	in	
+181807	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181807	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181807	bn	bn(II)	bn (II)	prep.	between	
+181807	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181807	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181808	ytrm	!y!tr[+m(I)	/t-r/	vb	to scour	
 181808	ytrm	!y!(ntr[+m(I)	/n-t-r/	vb	to banish	
 181809	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
 181809	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	
 # KTU 3.30 22						
 181810	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
-181811	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+181811	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.30 23						
-181812	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+181812	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181812	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181812	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181812	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181813	ršpmlk	?	?	?	?	DULAT: NOT FOUND
 181814	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
 181814	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	
 # KTU 3.30 24						
 181815	arbˤt	arbˤ&t/	ảrbʕ	num. f.	four	
+181816	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 181816	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
 # KTU 3.30 25						
-181817	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
-181818	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181819	gln	gl(II)/+n	gl (II)	n. m. cstr. gen.	cup	
-181819	gln	gl(III)/+n	gl (III)	n. m. cstr. gen.	cup	
+181817	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
+181818	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181818	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181818	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181818	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181819	gln	gl(II)/+n	gl (II)	n. m. cstr. nom.	cup	
+181819	gln	gl(III)/+n	gl (III)	n. m. cstr. nom.	cup	
 # KTU 3.30 26						
+181820	bn	b+n	b	prep.	in	
 181820	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181820	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181820	bn	bn(II)	bn (II)	prep.	between	
 181820	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 181820	bn	bn[	/b-n/	vb G impv. 2	to understand	
-181821	amdn	amdn/	ảmdn	PN sg. abs. nom.	ảmdn	
-181822	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
-181822	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	
+181821	amdn	amdn/	ảmdn	PN sg. cstr. nom.	ảmdn	
+181822	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. gen.	peace	
+181822	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. gen.	šlmy (II)	

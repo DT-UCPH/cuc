@@ -5,12 +5,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173380	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
 173380	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
 173380	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
-173381	ˤṯtrlt	?	?	?	?	DULAT: NOT FOUND
-173382	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. nom.	cave	
+173381	ˤṯtrlt	ˤṯtr&l(t(I)/t	ʕṯtrt (I)	DN f. sg. abs. nom.	ʿAṯtartu/Astarte/Ishtar	KTU corrected: ʿṯtrt
+173381	ˤṯtrlt	ˤṯtr&lt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	KTU corrected: ʿṯtrt
+173382	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
+173382	ḫr	ḫr[	/ḫ-r(-r)/	vb G suffc. 3 m. sg.	to have spasms (of diarrhoea)	
+173382	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. abs. nom.	to have spasms (of diarrhoea)	
 # KTU 1.116 2						
-173383	qrat	qra(t/t	qrảt	n. f. sg. abs. gen.	banquet	
+173383	qrat	qra(t/t	qrảt	n. f. sg. abs. nom.	banquet	
 173384	b	b	b	prep.	in	
-173385	grn	grn(I)/	grn (I)	n. m. sg. abs. gen.	threshing-floor	
+173385	grn	grn(I)/	grn (I)	n. m. sg. abs. nom.	threshing-floor	
 173385	grn	grn(II)/	grn (II)	adj. m. sg. abs. nom.	current	
 # KTU 1.116 3						
 173386	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
@@ -84,7 +87,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173433	išḫrd	?	?	?	?	DULAT: NOT FOUND
 173434	alnb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 22						
-173435	nkld	]n]kld[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
+173435	nkld	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
 173436	nntdm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 23						
 173437	kltd	klt(I)/+d	klt (I)	n. f. cstr. nom.	bride	

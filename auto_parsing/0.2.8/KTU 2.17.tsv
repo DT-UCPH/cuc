@@ -5,10 +5,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176342	yblt	ybl[t=	/y-b-l/	vb G suffc. 2 m. sg.	to carry, bring, take	
 176342	yblt	ybl[t==	/y-b-l/	vb G suffc. 2 f. sg.	to carry, bring, take	
 176342	yblt	ybl[t	/y-b-l/	vb G suffc. 1 c. sg.	to carry, bring, take	
-176343	ḫbṯm	ḫbṯ[/m	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. cstr. nom.	to flee	
+176343	ḫbṯm	ḫbṯ/m	ḫbṯ	adj. m. pl. abs. nom.	emancipated	DULAT quote in ḫbṯ (cue: emancipated)
 # KTU 2.17 2						
-176344	ap	ap(II)/	ảp (II)	n. m. sg. cstr. gen.	nose	
-176345	ksphm	ksp/+hm	ksp	n. m. cstr. gen.	3) money	
+176344	ap	ap(I)	ảp (I)	adv./conj.	also	
+176344	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
+176345	ksphm	ksp/+hm	ksp	n. m. cstr. nom.	3) money	
 # KTU 2.17 3						
 176346	l	l(I)	l (I)	prep.	to	
 176346	l	l(II)	l (II)	adv.	no	
@@ -27,7 +28,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176353	pġsdb	pġsdb/	pġsdb	PN sg. cstr. gen.	pġsdb	
 176354	šml	šml(I)/	šml (I)	n. m. sg. abs. gen.	commercial agent	
 176355	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-176355	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 176355	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 # KTU 2.17 6						
 176356	w	w	w	conj.	3) in the correlation protasis-apodosis	

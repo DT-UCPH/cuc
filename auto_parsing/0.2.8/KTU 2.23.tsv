@@ -6,13 +6,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176521	k	k(III)	k (III)	Subordinating or completive functor	when	
 176521	k	k(I)	k (I)	prep.	like	
 176521	k	k(II)	k (II)	emph. functor	yes	
-176522	rgm	rgm/	rgm	n. m. sg. cstr. nom.	1) word	DULAT quote in rgm (cue: word)
-176523	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	DULAT quote in špš (cue: sun)
+176522	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	DULAT quote in rgm (cue: word)
+176523	špš	špš/	špš	n. f. sg. cstr. nom.	3) “sun”	DULAT quote in špš (cue: sun)
 # KTU 2.23 2						
-176524	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-176525	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-176525	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-176526	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+176524	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+176525	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	DULAT quote in bʕl (II) (cue: great)
+176526	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 176527	u	u	ủ	conj.	3) or (is that)?	
 # KTU 2.23 3						
 176528	ˤṯtrab	ˤṯtrab/	ʕṯtrab	PN sg. cstr. nom.	ʿṯtrab	
@@ -41,11 +40,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 7						
 176543	mlakt	mlak(t/t	mlảkt	n. f. sg. cstr. nom.	message	
 176544	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	DULAT quote in špš (cue: sun)
-176545	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-176546	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-176546	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
+176545	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+176546	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	DULAT quote in špš (cue: great)
 # KTU 2.23 8						
-176547	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+176547	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 176548	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 176549	xxxxxx	?	?	?	?	
 # KTU 2.23 9						
@@ -57,11 +55,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176551	šxx	?	?	?	?	DULAT: NOT FOUND
 176552	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
 176552	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
-176553	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+176553	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.23 10						
-176554	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-176554	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-176555	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+176554	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+176554	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+176554	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+176554	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+176555	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 2.23 11						
 176556	x	?	?	?	?	
 # KTU 2.23 12						
@@ -71,33 +71,38 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176559	x	?	?	?	?	
 176560	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
 176560	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
-176561	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+176561	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.23 14						
-176562	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-176562	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-176563	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+176562	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+176562	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+176562	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+176562	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+176563	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 2.23 15						
 176564	w	w	w	conj.	and	
 176565	ank	ank	ảnk	pers. pn.	I	
 176566	xxxxxxxb	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 16						
-176567	arš	arš/	ảrš	DN sg. cstr. nom.	a monster (“many-headed”, “whale”)	
-176568	ḥy	ḥy(m/	ḥym	n. m. pl. abs. gen.	life	
+176567	arš	arš/	ảrš	DN sg. abs. nom.	a monster (“many-headed”, “whale”)	
+176568	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	
+176568	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	
 176569	l	l(I)	l (I)	prep.	to	
 176570	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 176570	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
 # KTU 2.23 17						
-176571	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-176572	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-176572	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-176573	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+176571	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+176572	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+176572	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+176572	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+176572	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+176573	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 176574	p	p(I)	p (I)	conj. functor	and	
 176574	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 176574	p	p(II)	p (II)	adv.	here	
 176575	l	l(I)	l (I)	prep.	to	
 # KTU 2.23 18						
-176576	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. gen.	life	
-176577	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	4) soul	
+176576	ḥy	ḥy(m/	ḥym	n. m. pl. cstr. nom.	life	DULAT quote in npš (I) (cue: life)
+176577	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	4) soul	
 176578	arš	arš/	ảrš	DN sg. abs. gen.	a monster (“many-headed”, “whale”)	
 # KTU 2.23 19						
 176579	l	l(I)	l (I)	prep.	to	
@@ -120,18 +125,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176593	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 # KTU 2.23 22						
 176594	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	DULAT quote in ỉl (I) (cue: gods)
-176595	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	DULAT quote in mṣrm (cue: egypt)
+176595	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
 176596	dt	d+t	d	det. or rel. functor	2) which	
 176597	tġrn	!t!(nġr[+n	/n-ġ-r/	vb G prefc.	to protect, guard	
 # KTU 2.23 23						
 176598	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	4) soul	
 176599	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in npš (I) (cue: sun)
 176600		?	?	?	?	
-176601	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+176601	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 2.23 24						
-176602	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-176602	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-176603	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+176602	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+176602	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+176602	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+176602	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+176603	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 2.23 25						
 176604	b	b	b	prep.	in	
 176605	x	?	?	?	?	
@@ -144,9 +151,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.23 29						
 176609	xtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 30						
-176610	pm	p(I)+m(I)	p (I)	conj. functor	and	
+176610	pm	p(I)~m	p (I)	conj. functor	and	
 176610	pm	p(III)/+m(I)	p (III)	n. m. cstr. nom.	mouth	
-176610	pm	p(II)+m(I)	p (II)	adv.	here	
+176610	pm	p(II)~m	p (II)	adv.	here	
 # KTU 2.23 31						
 176611	bˤlš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.23 32						

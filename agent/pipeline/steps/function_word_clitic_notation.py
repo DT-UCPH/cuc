@@ -7,8 +7,8 @@ import re
 from pipeline.steps.base import RefinementStep, TabletRow
 
 _END_REPLACEMENTS: tuple[tuple[re.Pattern[str], str], ...] = (
-    (re.compile(r"&h\+m(?:\(I\))?$"), "+hm"),
-    (re.compile(r"&k\+m(?:\(I\))?$"), "+km"),
+    (re.compile(r"&h(?:\+m(?:\(I\))?|~m)$"), "+hm"),
+    (re.compile(r"&k(?:\+m(?:\(I\))?|~m)$"), "+km"),
     (re.compile(r"&n\+h$"), "+nh"),
     (re.compile(r"&n\+y$"), "+ny"),
     (re.compile(r"&n\+k$"), "+nk"),
@@ -19,8 +19,8 @@ _END_REPLACEMENTS: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"&ny$"), "+ny"),
     (re.compile(r"&nk$"), "+nk"),
     (re.compile(r"&nn$"), "+nn"),
-    (re.compile(r"&~m$"), "+m(I)"),
-    (re.compile(r"&m$"), "+m(I)"),
+    (re.compile(r"&~m$"), "~m"),
+    (re.compile(r"&m$"), "~m"),
     (re.compile(r"&h$"), "+h"),
     (re.compile(r"&k$"), "+k"),
     (re.compile(r"&n$"), "+n"),
@@ -44,14 +44,19 @@ def _is_function_word_pos(pos_variant: str) -> bool:
 
 def _rewrite_variant(analysis_variant: str, pos_variant: str) -> str:
     text = (analysis_variant or "").strip()
-    if not text or "&" not in text or not _is_function_word_pos(pos_variant):
+    if not text or not _is_function_word_pos(pos_variant):
         return analysis_variant
-    if "&y+" in text:
-        # Keep hidden weak-y reconstructions like `b&y+m(I)` intact.
-        return analysis_variant
-    for pattern, replacement in _END_REPLACEMENTS:
-        if pattern.search(text):
-            return pattern.sub(replacement, text)
+    if "&" in text:
+        if "&y+" in text:
+            # Keep hidden weak-y reconstructions like `b&y+hm` intact.
+            return analysis_variant
+        for pattern, replacement in _END_REPLACEMENTS:
+            if pattern.search(text):
+                return pattern.sub(replacement, text)
+    # Bare -m on function words is the emphatic/deictic enclitic, never a
+    # pronominal suffix (whose inventory deliberately has no +m slot).
+    if re.search(r"\+m(?:\(I\))?$", text):
+        return re.sub(r"\+m(?:\(I\))?$", "~m", text)
     return analysis_variant
 
 

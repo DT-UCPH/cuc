@@ -13,13 +13,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181405	dt	d+t	d	det. or rel. functor	the one(s) of	
 181406	tša	!t!(nš(ʔ[&a	/n-š-ʔ/	vb G prefc.	to raise	
 # KTU 3.19 5						
-181407	ˤbdḥr	ˤbdḥr/	ʕbdḥr	PN sg. cstr. nom.	ʿbdḥr	
-181408	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181409	bddn	bddn/	bddn	PN sg. abs. gen.	bddn	
+181407	ˤbdḥr	ˤbdḥr/	ʕbdḥr	PN sg. abs. nom.	ʿbdḥr	
+181408	bn	b+n	b	prep.	in	
+181408	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181408	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181408	bn	bn(II)	bn (II)	prep.	between	
+181408	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181408	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181409	bddn	bddn/	bddn	PN sg. abs. nom.	bddn	
 # KTU 3.19 6						
 181410	xmxx	?	?	?	?	DULAT: NOT FOUND
 181411	nṣk	nṣ(I)/+k	nṣ (I)	n. m. cstr. nom.	bird	
 # KTU 3.19 7						
+181412	bn	b+n	b	prep.	in	
 181412	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181412	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181412	bn	bn(II)	bn (II)	prep.	between	
@@ -27,6 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181412	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181413	smyy	smyy/	smyy	PN sg. abs. nom.	smyy	
 # KTU 3.19 8						
+181414	bn	b+n	b	prep.	in	
 181414	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181414	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181414	bn	bn(II)	bn (II)	prep.	between	

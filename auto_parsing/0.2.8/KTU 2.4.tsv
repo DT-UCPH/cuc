@@ -1,8 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 1						
 175914	l	l(I)	l (I)	prep.	to	
-175915	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	DULAT quote in rb (II) (cue: chief)
-175916	khnm	khn(I)/m	khn (I)	n. m. pl. abs. gen.	1) priest b) rb khnm high priest	
+175915	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+175915	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+175915	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+175915	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+175916	khnm	khn(I)/m	khn (I)	n. m. pl. abs. nom.	1) priest b) rb khnm high priest	
 # KTU 2.4 2						
 175917	rgm	!!rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
 # KTU 2.4 3						
@@ -26,9 +29,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175929	tṯṯb	!t!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc.	to send (word), an answer, to answer	
 175930	ly	l(I)+y	l (I)	prep.	to	
 175931	šlmk	šlm[:d+k	/š-l-m/	vb G suffc.	to be well, do well, be in peace	
-175931	šlmk	šlm[+k	/š-l-m/	vb D suffc.	to re-establish > to pay	
+175931	šlmk	šlm[:d+k	/š-l-m/	vb D suffc.	to re-establish > to pay	
 175931	šlmk	šlm(I)/+k	šlm (I)	n. m. cstr. nom.	1) peace b) in greeting formulae	
-175931	šlmk	šlm(III)/+k	šlm (III)	adj. m. cstr. nom.	pure	
 # KTU 2.4 8						
 175932	xxxxxšil	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.4 9						
@@ -44,7 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175938	šilt	š(ʔ&il[t	/š-ʔ-l/	vb G suffc. 1 c. sg.	to ask	
 # KTU 2.4 14						
 175939	xxxxkm	?	?	?	?	DULAT: NOT FOUND
-175940	lm	l(I)+m(I)	l (I)	prep.	to	
+175940	lm	l(I)~m	l (I)	prep.	to	
 # KTU 2.4 15						
 175941	xxxx	?	?	?	?	
 175942	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	DULAT quote in gṯr (cue: field)
@@ -52,8 +54,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.4 16						
 175944	xmġy	?	?	?	?	DULAT: NOT FOUND
 175945	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	2) stretch of cultivated land	
-175945	šd	šd(II)/	šd (II)	n. m. sg. cstr. nom.	a strip	
-175946	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
+175945	šd	šd(I)/	šd (I)	n. m. sg. abs. nom.	2) stretch of cultivated land	
+175945	šd	šd(II)/	šd (II)	n. m. sg. abs. nom.	a strip	
+175946	hwt	hw&t	hw	pers. pn.	1) he	
+175946	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 2.4 17						
 175947	xkḥd	?	?	?	?	DULAT: NOT FOUND
 175948	šd	šd(I)/	šd (I)	n. m. sg. cstr. nom.	open field	
@@ -67,8 +71,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175953	l	l(I)	l (I)	prep.	to	
 175954	gy	g/+y	g	n. m. sg. cstr. gen.	(loud) voice	
 175955	w	w	w	conj.	and	
-175956	yhbṭ	!y!hbṭ[	/h-b-ṭ/ẓ/	vb D prefc. 3 m. sg.	to knock down	
-175956	yhbṭ	&yhbṭ[	/h-b-ṭ/ẓ/	vb D suffc. 3 m. sg.	to knock down	
+175956	yhbṭ	!y!hbṭ[:d	/h-b-ṭ/ẓ/	vb D prefc. 3 m. sg.	to knock down	
+175956	yhbṭ	&yhbṭ[:d	/h-b-ṭ/ẓ/	vb D suffc. 3 m. sg.	to knock down	
 175956	yhbṭ	!!yhbṭ[/	/h-b-ṭ/ẓ/	vb D inf.	to knock down	
 175957	bnš	bnš/	bnš	n. m. sg. cstr. nom.	1) man	
 175957	bnš	bnš/	bnš	n. m. sg. abs. nom.	1) man	

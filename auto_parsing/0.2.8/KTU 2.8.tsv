@@ -33,8 +33,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176045	x	?	?	?	?	
 # KTU 2.8 4						
 176046	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
-176047	brt	br(t/t	brt	n. f. sg. cstr. nom.	forecast	
-176048	lbk	lb/+k	lb	n. m. cstr. gen.	heart	
+176047	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure, clean, free	DULAT quote in ảt (I) (cue: pure)
+176048	lbk	lb/+k	lb	n. m. cstr. nom.	heart	
 176049	ˤnn	ˤn(I)&n/	ʕn (I)	n. f. abs. nom.	eye	
 176049	ˤnn	ˤnn/	ʕnn	n. m. sg. cstr. nom.	1) manservant	
 176049	ˤnn	ˤnn/	ʕnn	n. m. sg. abs. nom.	1) manservant	
@@ -50,12 +50,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176053	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give, hand over, grant, bestow	
 176054	ly	l(I)+y	l (I)	prep.	to	
 176055	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
-176055	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 176055	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 # KTU 2.8 6						
 176056		?	?	?	?	
+176057	bn	b+n	b	prep.	in	
 176057	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-176058	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-176058	rgm	rgm/	rgm	n. m. sg. abs. gen.	3) voice	
+176057	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+176057	bn	bn(II)	bn (II)	prep.	between	
+176057	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+176057	bn	bn[	/b-n/	vb G impv. 2	to understand	
+176058	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+176058	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+176058	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+176058	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+176058	rgm	rgm/	rgm	n. m. sg. abs. nom.	3) voice	
 176059	w	w	w	conj.	and	
 176060	ydˤx	?	?	?	?	DULAT: NOT FOUND

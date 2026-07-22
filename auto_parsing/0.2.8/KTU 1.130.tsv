@@ -16,15 +16,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 5						
 173998	l	l(I)	l (I)	prep.	to	
 173999	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
-174000	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+174000	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 6						
-174001	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+174001	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+174001	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+174001	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 174002	w	w	w	conj.	and	
 174003	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.130 7						
 174004	l	l(I)	l (I)	prep.	to	
 174005	pdry	pdry/	pdry	DN sg. abs. gen.	Pidray	
-174005	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
 # KTU 1.130 8						
 174006	w	w	w	conj.	and	
 174007	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
@@ -52,25 +53,26 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 13						
 174022	l	l(I)	l (I)	prep.	to	
 174023	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
-174024	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+174024	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.130 14						
-174025	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+174025	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+174025	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+174025	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 174026	w	w	w	conj.	and	
 174027	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.130 15						
 174028	l	l(I)	l (I)	prep.	to	
 174029	pdry	pdry/	pdry	DN sg. cstr. gen.	Pidray	
-174029	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
 174030	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.130 16						
 174031	b	b	b	prep.	in	
 174032	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
-174033	mlat	mla(t/t	mlảt	n. f. sg. cstr. gen.	fullness	
-174034	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. gen.	1) (head of) cattle d) sacrificial material	
-174035	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+174033	mlat	mla(t/t	mlảt	n. f. sg. abs. gen.	fullness	
+174034	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT quote in ảlp (I) (cue: cattle)
+174035	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 1.130 17						
-174036	nbšt	nbš(t/t	nbšt	n. f. sg. abs. nom.	living being(s)	
-174037	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	3) month b) as a measure of time	DULAT quote in yrḫ (cue: month)
+174036	nbšt	nbš(t/t	nbšt	n. f. sg. cstr. nom.	living being(s)	
+174037	yrḫ	yrḫ/	yrḫ	n. m. sg. abs. gen.	3) month b) as a measure of time	DULAT quote in yrḫ (cue: month)
 174038	l	l(I)	l (I)	prep.	to	
 174039	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 # KTU 1.130 18						
@@ -82,9 +84,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 19						
 174045	l	l(I)	l (I)	prep.	to	
 174046	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. cstr. gen.	2) title of the dead and deified kings of Ugarit	
+174046	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. cstr. gen.	offering	
 174047	mtntm	mtnt/m	mtnt	n. f. pl. abs. gen.	loin	
 174048	l	l(I)	l (I)	prep.	to	
 174049	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	2) title of the dead and deified kings of Ugarit	
+174049	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 # KTU 1.130 20						
 174050	w	w	w	conj.	and	
 174051	kbdm	kbd(I)&m	kbd (I)		1) liver a) as material for sacrifice	
@@ -94,13 +98,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174054	rmš	rmš/	rmš	DN sg. cstr. gen.	rmš	
 174055	š	š/	š	n. m. sg. abs. gen.	ram	
 174056	w	w	w	conj.	and	
-174057	š	š/	š	n. m. sg. cstr. nom.	ram	
-174058	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
+174057	š	š/	š	n. m. sg. abs. nom.	ram	
+174058	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+174058	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+174058	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
+174058	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 1.130 22						
 174059	l	l(I)	l (I)	prep.	to	
 174060	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
-174061	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-174062	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+174061	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
+174062	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+174062	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+174062	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 174063	w	w	w	conj.	and	
 174064	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.130 23						
@@ -115,9 +124,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174070	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 174071	l	l(I)	l (I)	prep.	to	
 174072	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
-174073	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
+174073	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.130 25						
-174074	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+174074	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+174074	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+174074	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 174075	w	w	w	conj.	and	
 174076	š	š/	š	n. m. sg. abs. nom.	ram	
 174077	l	l(I)	l (I)	prep.	to	
@@ -132,8 +143,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.130 27						
 174084	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 174085	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
-174086	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-174086	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+174086	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+174086	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+174086	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 # KTU 1.130 28						
 174087	t	/t, /t=				DULAT: NOT FOUND
 174087	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND

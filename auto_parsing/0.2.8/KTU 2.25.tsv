@@ -34,13 +34,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176666	nṣp	nṣp/	nṣp	n. m. sg. cstr. nom.	half (a shekel)	
 176667	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
 # KTU 2.25 7						
-176668	ḫtm	ḫtm/	ḫtm	PN sg. cstr. gen.	ḫtm	
-176669	rb	rb(II)/	rb (II)	n. m. sg. abs. gen.	chief	
-176669	rb	rb/	rb(b)	n. m. sg. abs. gen.	drizzle	
+176668	ḫtm	ḫtm/	ḫtm	PN sg. abs. gen.	ḫtm	
+176669	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+176669	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+176669	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+176669	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 176670	xxx	?	?	?	?	
 176671	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	one	
 176671	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
-176671	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
 # KTU 2.25 8						
 176672	mġt	mġ(y[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come	
 176673	xxxxt	?	?	?	?	DULAT: NOT FOUND

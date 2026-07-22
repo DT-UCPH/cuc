@@ -45,6 +45,16 @@ class VariantReconstructionPrunerTest(unittest.TestCase):
         self.assertIn("]š]ṯb[b", result)
         self.assertIn("!!]š]ṯb[/b", result)
 
+    def test_invalid_affix_variant_is_dropped_when_sibling_is_viable(self) -> None:
+        result = _run(
+            [
+                "1\tˤlm\tˤl(I)+m(I)\tʕl (I)\tprep.\tupon\t",
+                "1\tˤlm\tˤlm(I)/\tʕlm (I)\tn. m. sg. abs. nom.\teternity\t",
+            ]
+        )
+        self.assertNotIn("+m(I)", result)
+        self.assertIn("ˤlm(I)/", result)
+
     def test_single_row_token_is_never_dropped(self) -> None:
         result = _run(["1\tgh\tytn[\t/y-t-n/\tvb\tto give\t"])
         self.assertIn("ytn[", result)

@@ -147,6 +147,39 @@ class SpacyMorphContextTest(unittest.TestCase):
             ["n. m. pl. abs. gen."],
         )
 
+    def test_does_not_infer_construct_chain_from_number_noun_ambiguity(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tṯlṯ\tṯlṯ(I)/\tṯlṯ (I)\tnum.\tthree\t",
+            "1\tṯlṯ\tṯlṯ(II)/\tṯlṯ (II)\tnum./adj.\tthird\t",
+            "1\tṯlṯ\tṯlṯ(V)/\tṯlṯ (V)\tn. m. sg. abs. nom.\tcopper\t",
+            "2\tymm\tym(I)/m\tym (I)\tn. m. pl. abs. nom.\tdays\t",
+        )
+
+        self.assertEqual(
+            [candidate.dulat for candidate in doc[0]._.resolved_candidates],
+            ["ṯlṯ (I)", "ṯlṯ (II)", "ṯlṯ (V)"],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[0]._.resolved_candidates],
+            ["num.", "num./adj.", "n. m. sg. abs. nom."],
+        )
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["n. m. pl. abs. nom."],
+        )
+
+    def test_preposition_does_not_force_mixed_noun_verb_bundle(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tb\tb\tb\tprep.\tin\t",
+            "2\tspr\tspr(I)/\tspr (I)\tn. m. sg. abs. nom.\tscribe\t",
+            "2\tspr\tspr[/\t/s-p-r/\tvb G impv. 2\tto count\t",
+        )
+
+        self.assertEqual(
+            [candidate.pos for candidate in doc[1]._.resolved_candidates],
+            ["n. m. sg. abs. nom.", "vb G impv. 2"],
+        )
+
     def test_suffix_bearing_nominals_do_not_form_construct_chain_heads(self) -> None:
         doc = self._doc_from_lines(
             "1\tˤṣk\tˤṣ/+k\tʕṣ\tn. m. sg. cstr. nom.\ttree\t",

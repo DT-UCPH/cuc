@@ -4,10 +4,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176081	iwrḏr	iwrḏr/	ỉwrḏr	PN sg. abs. gen.	ỉwrḏr	
 # KTU 2.10 2						
 176082	l	l(I)	l (I)	prep.	to	
-176083	plsy	plsy/	plsy	PN sg. cstr. gen.	plsy	
+176083	plsy	plsy/	plsy	PN sg. abs. gen.	plsy	
 # KTU 2.10 3						
-176084	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say, tell, announce, communicate, inform	
-176084	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+176084	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, tell, announce, communicate, inform	
+176084	rgm	rgm[	/r-g-m/	vb G impv. 2	to say, tell, announce, communicate, inform	
+176084	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	
+176084	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say, tell, announce, communicate, inform	
+176084	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.10 4						
 176085	yšlmlk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.10 5						
@@ -16,21 +19,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.10 6						
 176088	w	w	w	conj.	and	
 176089	l	l(I)	l (I)	prep.	to	
-176090	klby	klb(I)/+y	klb (I)	n. m. cstr. gen.	dog	
+176090	klby	klby/	klby	PN sg. abs. gen.	klby	
 # KTU 2.10 7						
 176091	šmˤt	šmˤ[t	/š-m-ʕ/	vb G suffc. 1 c. sg.	to hear, listen (to), notice	
 176092	ḫti	!!ḫt(ʔ&i[/	/ḫ-t-ʔ/	vb G inf.	1) to be ground up	
 # KTU 2.10 8						
-176093	nḫtu	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḫ-t-ʔ/ - to be ground up
+176093	nḫtu	]n]ḫt(ʔ[&u	/ḫ-t-ʔ/	vb N suffc. 3 m. sg.	to be ground up	
 176094	ht	ht	ht	adv.	2) conj.	
 # KTU 2.10 9						
 176095	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
 176095	hm	hm(I)	hm (I)	pers. pn.	they	
 176096	inmm	in/mm	ỉn	n. m. abs. nom.	1) there is/are not	Based on DULAT reconstruction.
-176096	inmm	in/m+m(I)	ỉn	n. m. cstr. nom.	1) there is/are not	Based on DULAT reconstruction.
 176096	inmm	inmm	ỉnmm	→	?	
 # KTU 2.10 10						
-176097	nḫtu	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḫ-t-ʔ/ - to be ground up
+176097	nḫtu	]n]ḫt(ʔ[&u	/ḫ-t-ʔ/	vb N suffc. 3 m. sg.	to be ground up	
 176098	w	w	w	conj.	3) in the correlation protasis-apodosis	
 176099	lak	l(ʔ&ak[	/l-ʔ-k/	vb G impv. 2	to send (a message)	
 176099	lak	!!l(ʔ&ak[/	/l-ʔ-k/	vb G inf.	to send (a message)	
@@ -38,14 +40,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176100	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 176101	w	w	w	conj.	4) declarative and emphatic functor	
 176102	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
+176102	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 # KTU 2.10 12						
-176103	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
-176104	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
-176105	kmtm	k(I)&mt+m(I)	k (I)	prep.	like	
-176105	kmtm	kmt+m(I)	kmt	adv.	like(wise)	
+176103	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
+176104	p	p(II)	p (II)	adv.	here	DULAT quote in p (II) (cue: here)
+176105	kmtm	k(I)&mt~m	k (I)	prep.	like	
+176105	kmtm	kmt~m	kmt	adv.	like(wise)	
 # KTU 2.10 13						
-176106	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. cstr. nom.	caprine animal	
-176107	mid	mid/	mỉ/ủd	n. m. sg. abs. gen.	2) abundantly	
+176106	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
+176106	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
+176106	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
+176106	ˤz	ˤz(I)/	ʕz (I)	n. m. sg. abs. nom.	strength	
+176107	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	2) abundantly	
 # KTU 2.10 14						
 176108	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
 176108	hm	hm(I)	hm (I)	pers. pn.	they	
@@ -70,13 +76,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176118	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 176118	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 176118	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
+176118	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 # KTU 2.10 19						
 176119	b	b	b	prep.	in	
-176120	spr	spr(II)/	spr (II)	n. m. sg. abs. gen.	3) letter	
+176120	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	3) letter	
 176120	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	
 176120	spr	!!spr[/	/s-p-r/	vb G inf.	to count	
 176120	spr	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to count	
 176120	spr	spr[:d:w	/s-p-r/	vb D suffc. 3 m. pl.	to count	
 176120	spr	!!spr[/	/s-p-r/	vb D inf.	to count	
-176120	spr	spr(I)/	spr (I)	n. m. sg. abs. gen.	scribe	
+176120	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
 176121	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	

@@ -5,11 +5,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170016	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
 170017	rišyn	rišy/+n	rỉšy	GN sg. cstr. gen.	rỉšy	
 170018	b	b	b	prep.	in	
-170019	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
-170020	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. cstr. gen.	new moon	
+170019	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
+170020	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	DULAT quote in ym (I) (cue: moon)
 # KTU 1.87 2						
-170021	šmtr	šmtr(I)/	šmtr (I)	n. m. abs. gen.	cutting	
-170022	uṯlkl	?	?	?	?	DULAT: NOT FOUND
+170021	šmtr	šmtr(I)/	šmtr (I)	n. m. cstr. nom.	cutting	
+170022	uṯlkl	uṯ&lkl/	ủṯkl	n. m. abs. gen.	bunch	KTU corrected: uṯkl
 170023	l	l(I)	l (I)	prep.	to	
 170024	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 170024	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN b) object or purpose of an action	
@@ -22,20 +22,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170028	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 170028	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
 170029	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
-170030	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
+170030	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.87 4						
-170031	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
+170031	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
+170031	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 170032	b	b	b	prep.	in	
 170033	arbˤt	arbˤ&t/	ảrbʕ	num. f.	1) four f) composite numbers	
 170034	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 170034	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
-170035	riš	riš(I)/	rỉš (I)	n. m. sg. cstr. gen.	3) firstfruit(s)	
+170035	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	3) firstfruit(s)	
 # KTU 1.87 5						
-170036	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. gen.	payment of tribute to the Hittite court	
+170036	argmn	!(ʔ&a!rgm[+n	/r-g-m/	vb G prefc. 1 c. sg.	to say	
+170036	argmn	argmn/	ả/ỉrgmn	n. m. sg. cstr. nom.	payment of tribute to the Hittite court	
+170036	argmn	argmn/	ả/ỉrgmn	n. m. sg. abs. nom.	payment of tribute to the Hittite court	
 170037	w	w	w	conj.	and	
-170038	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
-170039	šm	š/m	š	n. m. pl. abs. gen.	ram	
-170039	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
+170038	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+170038	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+170038	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+170039	šm	š/m	š	n. m. pl. abs. nom.	ram	
+170039	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 170040	l	l(I)	l (I)	prep.	to	
 170041	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 # KTU 1.87 6						
@@ -51,8 +56,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170050	ilš	ilš(I)/	ỉlš (I)	DN sg. cstr. gen.	ỉlš (I)	
 170051	š	š/	š	n. m. sg. cstr. gen.	ram	
 170052	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-170052	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
-170052	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 170053	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 170054	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 170054	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
@@ -72,7 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170062	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day a) as a date	
 170062	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day a) as a date	
 170062	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
-170063	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+170063	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 170064	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	to enter	
 # KTU 1.87 10						
 170065	t	/t, /t=				DULAT: NOT FOUND
@@ -96,7 +99,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170076	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 170077	w	w	w	conj.	and	
 170078	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-170079	š	š/	š	n. m. sg. abs. gen.	ram	
+170078	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+170078	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+170079	š	š/	š	n. m. sg. abs. nom.	ram	
 170080	l	l(I)	l (I)	prep.	to	
 170081	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 170081	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
@@ -105,14 +110,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 13						
 170084	urbt	urb(t/t	ủrbt	n. f. sg. abs. gen.	window	
 170085	ytk	!y!(ntk[	/n-t-k/	vb G prefc. 3 m. sg.	to spill	
-170086	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
-170086	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
+170086	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
+170086	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
+170086	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. nom.	power	
 170087	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-170087	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
-170087	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 # KTU 1.87 14						
 170088	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
-170088	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. nom.	shoulder	
 170089	w	w	w	conj.	and	
 170090	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 170091	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
@@ -127,20 +130,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170096	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 170096	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 170097	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
-170098	ilh	il(t(I)/&h	ỉlt (I)	n. f. cstr. nom.	goddess	
-170098	ilh	ilh/	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
-170099	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+170098	ilh	il(t(I)/&h	ỉlt (I)	n. f. abs. nom.	goddess	
+170098	ilh	ilh/	ỉlh	DN sg. abs. nom.	the ‘Divine One’	
+170099	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+170099	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+170099	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 170100	w	w	w	conj.	and	
 170101	š	š/	š	n. m. sg. cstr. nom.	ram	
 # KTU 1.87 16						
 170102	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-170102	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
-170102	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
-170103	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-170103	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170103	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170103	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+170103	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 170104	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
-170104	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
-170104	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 170105	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 170105	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 170106	š	š/	š	n. m. sg. abs. nom.	ram	
@@ -148,7 +150,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170108	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.87 17						
 170109	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
-170109	ṯkmn	ṯkm/+n	ṯkm	n. m. cstr. nom.	shoulder	
 170110	w	w	w	conj.	and	
 170111	šnm	šnm/	šnm	DN sg. cstr. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 170112	š	š/	š	n. m. sg. cstr. gen.	ram	
@@ -163,13 +164,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170118	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 170119	w	w	w	conj.	and	
 170120	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. nom.	assembly	
+170120	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. cstr. nom.	potter	
 170121	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 170121	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-170122	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
-170122	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
-170123	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	peace	
-170124	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-170124	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170122	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170122	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+170122	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
+170123	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+170123	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+170123	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
+170123	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+170124	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170124	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+170124	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 # KTU 1.87 19						
 170125	w	w	w	conj.	and	
 170126	b	b	b	prep.	in	
@@ -177,10 +184,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170128	lb	lb/	lb	n. m. sg. abs. nom.	heart	
 170129	rmṣt	rmṣ/t	rmṣ	n. f. sg. abs. nom.	embers	
 170130	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
-170130	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
-170130	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 # KTU 1.87 20						
-170131	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. abs. nom. sg.	Baʿlu/Baal	
+170131	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 170132	w	w	w	conj.	and	
 170133	mlu	mlu/	mlủ	n. m. sg. cstr. nom.	fill	
 170134	dṯt	dṯ(t/t	dṯt	n. f. sg. abs. gen.	fodder or spring grass	
@@ -188,6 +193,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170136	ksm	ksm/	ks/śm(n)	n. m. sg. abs. nom.	emmer-corn	
 170136	ksm	ksm/	ksm	n. m. sg. abs. nom.	part	
 # KTU 1.87 21						
+170137	ṯlṯm	ṯlṯ(I)&m/	ṯlṯ (I)	num. f.	three	
 170137	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 170138	w	w	w	conj.	and	
 170139	mˤrb	mˤrb/	mʕrb(y)	TN sg. abs. nom.	gt mʿrb(y)	
@@ -197,12 +203,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170141	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
 170141	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 170142	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-170143	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+170143	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 1.87 22						
-170144	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	2) offering	DULAT quote in dbḥ (cue: offering)
-170145	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
-170146	mr	mr(I)/	mr (I)	n. m. sg. cstr. gen.	myrrh	
-170147	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
+170144	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	2) offering	
+170144	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	2) offering	
+170144	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
+170144	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
+170144	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
+170145	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+170146	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	DULAT quote in dbḥ (cue: myrrh)
+170147	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
 170148	rqḥ	rqḥ(I)/	rqḥ (I)	n. m. sg. cstr. gen.	perfumer	
 170149	nbt	nb(t/t	nbt	n. f. sg. cstr. gen.	honey	
 # KTU 1.87 23						
@@ -211,19 +221,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170152	ynt	yn(t/t	ynt	n. f. sg. cstr. nom.	dove	
 170153	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. gen.	city	
 170154	w	w	w	conj.	and	
-170155	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. nom.	crimson (cloth, wool, purple)	
-170156	ḥṯm	ḥṯ/+m(I)	ḥṯ	n. m. cstr. gen.	unleavened bread	
+170155	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+170155	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+170155	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+170156	ḥṯm	ḥṯ/+m(I)	ḥṯ	n. m. cstr. nom.	unleavened bread	
 # KTU 1.87 24						
 170157	w	w	w	conj.	and	
 170158	b	b	b	prep.	in	
 170159	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
+170159	ġr	ġr(V)/	ġr (V)	n. m. sg. abs. gen.	total	
 170159	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
+170159	ġr	ġr(II)/	ġr (II)	n. m. sg. abs. gen.		
 170160	arbˤ	arbˤ/	ảrbʕ	num.	1) four f) composite numbers	
-170161	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
-170162	kdm	kd(I)/m	kd (I)	n. f. pl. cstr. gen.	jar	
+170161	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
+170161	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+170161	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+170161	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+170161	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
+170162	kdm	kd(I)/m	kd (I)	n. f. pl. cstr. nom.	jar	
 170163	yn	yn/	yn	n. m. sg. cstr. gen.	wine	
 # KTU 1.87 25						
 170164	prs	prs/	prś/s	n. m. sg. cstr. gen.	misura di capacità per aridi	
+170164	prs	prs(I)/	prs (I)	n. m. sg. cstr. gen.	pole	
 170165	qmḥ	qmḥ/	qmḥ	n. m. sg. cstr. gen.	flour	
 170166	mˤlt	mˤl(t/t	mʕlt	n. f. sg. cstr. gen.	step	
 170166	mˤlt	mˤl(t/t=	mʕlt	n. f. pl. cstr. gen.	step	
@@ -245,14 +264,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170179	l	l(I)	l (I)	prep.	to	
 170180	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 170180	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	2) DN	
-170181	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-170181	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170181	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170181	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+170181	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 170182	l	l(I)	l (I)	prep.	to	
 170182	l	l(II)	l (II)	adv.	no	
 170182	l	l(III)	l (III)	functor	certainly	
-170183	nkl	]n]kl[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
-170184	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-170184	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170183	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+170184	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170184	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+170184	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 170185	l	l(I)	l (I)	prep.	to	
 170186	bˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 29						
@@ -263,18 +284,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170191	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
 # KTU 1.87 30						
 170192	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
-170193	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
-170193	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+170193	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+170193	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+170193	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
 170194	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-170194	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
-170194	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
 170195	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 170195	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.87 31						
 170196	špš	špš/	špš	DN f. sg. cstr. nom.	Šapšu/Shapsh/Shapshu	
 170196	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
-170197	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
-170197	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+170197	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+170197	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+170197	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
 170198	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
 170199	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 # KTU 1.87 32						
@@ -286,17 +307,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170203	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
 170204	ilh	il(t(I)/&h	ỉlt (I)	n. f. cstr. nom.	goddess	
 170204	ilh	ilh/	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
-170205	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
-170205	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+170205	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+170205	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+170205	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
 # KTU 1.87 33						
 170206	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-170206	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. gen.	goddess	
-170206	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
-170207	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-170207	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170207	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170207	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+170207	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 170208	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
-170208	ilhm	il(t&h(I)/+m(I)	ỉlt (I)	n. f. cstr. nom.	goddess	
-170208	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	
 170209	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
 170209	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
 170210	ṯkm	ṯkm/	ṯkm	n. m. sg. cstr. nom.	shoulder	
@@ -321,8 +340,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170222	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.87 36						
 170223	kmm	kmm	kmm	adv.	ditto	
-170224	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-170224	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170224	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170224	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+170224	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 170225	l	l(I)	l (I)	prep.	to	
 170226	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 170227	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -331,8 +351,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 37						
 170229	l	l(I)	l (I)	prep.	to	
 170230	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-170231	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-170231	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170231	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170231	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+170231	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 170232	l	l(I)	l (I)	prep.	to	
 170233	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 # KTU 1.87 38						
@@ -350,6 +371,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170244	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
 170245	l	l(I)	l (I)	prep.	to	
 170246	ri	?	?	?	?	DULAT: NOT FOUND
+170247	ṯlṯm	ṯlṯ(I)&m/	ṯlṯ (I)	num. f.	three	
 170247	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 # KTU 1.87 40						
 170248	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
@@ -362,8 +384,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170253	rmm	rm(I)/m	rm (I)	adj. m. pl. abs. nom.	high	
 170253	rmm	rmm[:l	/r-m/	vb L impv. 2	to erect	
 170254	w	w	w	conj.	and	
-170255	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. cstr. nom.	place of sacrifice	
-170256	mdbḥt	mdbḥ/t	mdbḥ	n. f. sg. abs. gen.	altar	
+170255	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	DULAT quote in ʕly (II) (cue: place)
+170256	mdbḥt	mdbḥ/t	mdbḥ	n. f. sg. abs. nom.	altar	
 170257	b	b	b	prep.	in	
 170258	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.87 42						
@@ -399,8 +421,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170275	bḥ	?	?	?	?	DULAT: NOT FOUND
 170276	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 170276	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-170277	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-170277	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170277	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170277	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+170277	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 170278	l	l(I)	l (I)	prep.	to	
 170279	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 170280	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -415,19 +438,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170286	l	l(I)	l (I)	prep.	to	
 170287	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 170287	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-170287	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. gen.	crimson (cloth, wool, purple)	
+170287	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 170288	l	l(I)	l (I)	prep.	to	
 170289	ˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 47						
+170290	rm	rm(I)/	rm (I)	adj. m. sg. abs. nom.	high	
+170290	rm	rm[	/r-m/	vb G suffc. 3 m. sg.	to go up	
 170290	rm	rm(II)/	rm (II)	n. m. sg. cstr. nom.	erection	
-170291	pamt	pam(t/t	pảm(t)	n. f. sg. abs. gen.	time	
+170291	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
 170292	l	l(I)	l (I)	prep.	to	
 # KTU 1.87 48						
 170293	š	š/	š	n. m. sg. cstr. gen.	ram	
 170294	dd	dd(II)/	dd (II)	n. m. sg. cstr. gen.	cauldronful	
 170295	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
-170296	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-170296	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170296	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+170296	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+170296	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 170297	w	w	w	conj.	and	
 170298	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 # KTU 1.87 49						
@@ -439,51 +465,61 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170300	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 170301	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	
 170302	b	b	b	prep.	in	
-170303	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. gen.	sixth	
+170303	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
 170304	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 170304	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
-170304	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. gen.	crimson (cloth, wool, purple)	
+170304	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 # KTU 1.87 50						
 170305	l	l(I)	l (I)	prep.	to	
 170306	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
 170307	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. cstr. gen.	place of sacrifice	
-170308	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-170308	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170308	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+170308	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+170308	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 170309	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 170309	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 170309	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 170309	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 170309	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 170310	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	
-170311	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
+170311	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.87 51						
-170312	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
+170312	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
+170312	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 170313	b	b	b	prep.	in	
 170314	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
+170314	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	
 170315	ṣbu	ṣbu(I)/	ṣbủ (I)	n. m. sg. cstr. nom.	army	
 170315	ṣbu	ṣbu(II)/	ṣbủ (II)	n. m. sg. cstr. nom.	setting	
 170316	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 170316	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 170317	w	w	w	conj.	and	
-170318	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
+170318	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
+170318	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
 # KTU 1.87 52						
-170319	yt	yt/	yt	n. m. sg. cstr. gen.	?	
-170320	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. cstr. gen.	entry	
-170321	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
-170321	špš	špš/	špš	n. f. sg. abs. gen.	sun	
+170319	yt	yt/	yt	n. m. sg. abs. nom.	?	
+170320	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
+170320	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
+170320	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
+170321	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
+170321	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 170322	w	w	w	conj.	and	
-170323	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-170324	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+170323	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
+170323	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+170324	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 170325	w	w	w	conj.	and	
 170326	b	b	b	prep.	in	
 170327	y	~y	-y (II)	prep. functor	indeed	
 170327	y	y	y	prep. functor	oh!	
 # KTU 1.87 53						
 170328	m	m	m(h)	pers. pn.	what?	
-170329	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. cstr. nom.	new moon	
-170330	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. cstr. gen.	crimson (cloth, wool, purple)	
-170331	šm	š/m	š	n. m. pl. abs. gen.	ram	
-170331	šm	šm(I)/	šm (I)	n. m. sg. abs. gen.	name	
+170329	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
+170329	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
+170330	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+170330	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+170330	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+170331	šm	š/m	š	n. m. pl. abs. nom.	ram	
+170331	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 170332	l	l(I)	l (I)	prep.	to	
 170333	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 170334	xxxtx	?	?	?	?	DULAT: NOT FOUND
@@ -497,37 +533,63 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.87 55						
 170340	rt	rt/	rt	PN sg. abs. nom.	rt	
 170341	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
-170342	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	
-170343	brr	br/r	br(r)	n. m. sg. abs. gen.	tin	
+170342	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
+170343	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
+170343	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.87 56						
-170344	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-170345	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
-170346	šrp	šrp/	šrp	n. m. sg. abs. nom.	1) burnt sacrifice	
+170344	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
+170345	š	š/	š	n. m. sg. cstr. nom.	1) ram b) as a sacrificial victim	
+170346	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
 170347	l	l(I)	l (I)	prep.	to	
 170348	xx	?	?	?	?	
-170349	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. cstr. nom.	entry	
-170350	šp	šp/	šp	n. m. cstr. gen.	dune	
+170349	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
+170349	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
+170349	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
+170350	šp	šp/	šp	n. m. cstr. nom.	dune	
 # KTU 1.87 57						
 170351	š	š/	š	n. m. sg. abs. gen.	ram	
 170352	w	w	w	conj.	and	
-170353	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. cstr. nom.	strength	
-170354	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+170353	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
+170353	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+170354	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.87 58						
-170355	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+170355	bn	b+n	b	prep.	in	
+170355	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+170355	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+170355	bn	bn(II)	bn (II)	prep.	between	
+170355	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+170355	bn	bn[	/b-n/	vb G impv. 2	to understand	
 170356	aupš	?	?	?	?	DULAT: NOT FOUND
 170357	w	w	w	conj.	and	
-170358	bs	bs/	bs	PN sg. cstr. nom.	bs	
-170359	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-170360	hzpḫ	hzp(y&ḫ(I)/	hzpy (I)	GN sg. abs. gen.	hzpy (I)	
+170358	bs	bs/	bs	PN sg. abs. nom.	bs	
+170359	bn	b+n	b	prep.	in	
+170359	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+170359	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+170359	bn	bn(II)	bn (II)	prep.	between	
+170359	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+170359	bn	bn[	/b-n/	vb G impv. 2	to understand	
+170360	hzpḫ	hzp(y&ḫ(I)/	hzpy (I)	GN sg. abs. nom.	hzpy (I)	
+170360	hzpḫ	hzp(y&ḫ(II)/	hzpy (II)	PN sg. abs. nom.	hzpy (II)	
 170361	ṯlṯṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 59						
 170362	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. cstr. nom.	Koṯaru/Kothar	
-170363	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
-170364	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-170365	ytrt	ytrt/	ytrt	PN sg. abs. gen.	ytrt	
+170363	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+170364	bn	b+n	b	prep.	in	
+170364	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+170364	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+170364	bn	bn(II)	bn (II)	prep.	between	
+170364	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+170364	bn	bn[	/b-n/	vb G impv. 2	to understand	
+170365	ytrt	ytrt/	ytrt	PN sg. abs. nom.	ytrt	
 170366	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
+170366	ḫmšt	ḫmšt/	ḫmšt	n. f. pl. abs. nom.	five-shekel (?) weight	
+170367	bn	b+n	b	prep.	in	
 170367	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-170368	gdaḫ	gdaḫ/	gdaḫ	PN sg. abs. gen.	gdaḫ	
+170367	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+170367	bn	bn(II)	bn (II)	prep.	between	
+170367	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+170367	bn	bn[	/b-n/	vb G impv. 2	to understand	
+170368	gdaḫ	gdaḫ/	gdaḫ	PN sg. abs. nom.	gdaḫ	
 170369	tšˤ	tšˤ/	tšʕ	num.	1) nine a) elliptical syntagms	
 # KTU 1.87 60						
 170370	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
@@ -536,6 +598,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170373	krwn	krwn/	krwn	PN sg. abs. nom.	krwn	
 # KTU 1.87 61						
 170374	xmxxxxṣp	?	?	?	?	DULAT: NOT FOUND
-170375	iry	ir/+y	ả/ỉr	n. m. cstr. nom.	light	
 170375	iry	iry/	ỉry	PN sg. abs. nom.	ỉry	
 170376	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	

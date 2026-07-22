@@ -1,27 +1,29 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.29 1						
 181702	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
-181702	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
 181703	ksp	ksp/	ksp	n. m. sg. abs. nom.	2) shekel(s or other quantities) of silver	
 # KTU 3.29 2						
 181704	w	w	w	conj.	and	
-181705	ḫlpn	ḫlpn(I)/	ḫlpn (I)	n. m. sg. cstr. nom.	1) gewand	
+181705	ḫlpn	ḫlpn(I)/	ḫlpn (I)	n. m. sg. abs. nom.	1) gewand	
 # KTU 3.29 3						
-181706	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181707	uln	ul/+n	ủl	n. m. cstr. gen.	(military) force	
+181706	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181706	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181706	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181706	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181707	uln	uln(II)/	ủln (II)	PN sg. cstr. nom.	ủln (II)	
 # KTU 3.29 4						
-181708	maḫdy	maḫdy/	m(ả/ỉ)ḫdy	GN sg. abs. nom.	one indigenous to or dwelling in ‘The Port’	
+181708	maḫdy	maḫdy/	m(ả/ỉ)ḫdy	GN sg. cstr. gen.	one indigenous to or dwelling in ‘The Port’	
 # KTU 3.29 5						
-181709	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
-181710	bˤlmšlm	bˤlmšlm/	bʕlmšlm	PN sg. abs. nom.	bʿlmšlm	
+181709	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
+181710	bˤlmšlm	bˤlmšlm/	bʕlmšlm	PN sg. cstr. gen.	bʿlmšlm	
 # KTU 3.29 6						
-181711	ṣry	ṣr/+y	ṣr	TN sg. cstr. nom.	Tyre	
-181711	ṣry	ṣry(I)/	ṣry (I)	GN sg. abs. nom.	ṣry (I)	
+181711	ṣry	ṣry(II)/	ṣry (II)	PN sg. cstr. gen.	ṣry (II)	
+181711	ṣry	ṣry(I)/	ṣry (I)	GN sg. cstr. gen.	ṣry (I)	
 # KTU 3.29 7						
-181712	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	jar	
-181713	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+181712	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	jar	
+181713	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
 # KTU 3.29 8						
-181714	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg. abs. nom.	residue	
+181714	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg. abs. gen.	residue	
 181715	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc. 3 m. sg.	to fail	
 181715	ḫsr	ḫsr/	ḫsr	n. m. sg. abs. nom.	deficit	
 # KTU 3.29 9						
@@ -30,18 +32,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181716	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181716	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181717	mzt	mzt/	mzt	PN sg. abs. nom.	mzt	
+181718	bn	b+n	b	prep.	in	
 181718	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181718	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181718	bn	bn(II)	bn (II)	prep.	between	
 181718	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 181718	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.29 10						
-181719	ˤṯtry	ˤṯtry/	ʕṯtry	PN sg. abs. nom.	ʿṯtry	
+181719	ˤṯtry	ˤṯtry/	ʕṯtry	PN sg. cstr. nom.	ʿṯtry	
 # KTU 3.29 11						
-181720	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	jar	
-181721	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+181720	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	jar	
+181721	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
 # KTU 3.29 12						
-181722	mltḥm	mltḥ/m	mltḥ	n. m. pl. abs. nom.	Hälfte	
+181722	mltḥm	mltḥ/m	mltḥ	n. m. pl. abs. gen.	Hälfte	
 181723	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc. 3 m. sg.	to fail	
 181723	ḫsr	ḫsr/	ḫsr	n. m. sg. abs. nom.	deficit	
 # KTU 3.29 13						
@@ -51,6 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181724	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181725	abmn	abmn/	ảbmn	PN sg. abs. nom.	ảbmn	
 # KTU 3.29 14						
+181726	bn	b+n	b	prep.	in	
 181726	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181726	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181726	bn	bn(II)	bn (II)	prep.	between	
@@ -59,39 +63,67 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181727	śwn	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.29 15						
 181728	arbˤm	arbˤ&m/	ảrbʕ	num.	four	
-181728	arbˤm	arbˤ+m(I)/	ảrbʕ	num.	four	
 # KTU 3.29 16						
 181729	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
-181730	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. nom.	2) adv. acc.	
+181729	ḫmšt	ḫmšt/	ḫmšt	n. f. pl. abs. nom.	five-shekel (?) weight	
+181730	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	2) adv. acc.	
 # KTU 3.29 17						
-181731	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181732	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181733	kmnt	kmnt/	kmnt	PN sg. cstr. gen.	kmnt	
+181731	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181731	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181731	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181731	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181732	bn	b+n	b	prep.	in	
+181732	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181732	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181732	bn	bn(II)	bn (II)	prep.	between	
+181732	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181732	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181733	kmnt	kmnt/	kmnt	PN sg. cstr. nom.	kmnt	
 # KTU 3.29 18						
-181734	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
-181735	mtn	mt(II)/+n	mt (II)	n. m. cstr. gen.	death	
-181735	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+181734	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. gen.	witness	
+181735	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
+181735	mtn	mt[n	/m-t/	vb	to die	
+181735	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+181735	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+181735	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
+181735	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
 # KTU 3.29 19						
 181736	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 181737	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.29 20						
 181738	w	w	w	conj.	and	
 181739	mit	mi(t/t	mỉt	n. f. sg. cstr. nom.	a hundred	
-181740	iqni	iqn(u&i/	ỉqnủ	n. m. cstr. gen.	gem of lapis lazuli	
+181740	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 # KTU 3.29 21						
-181741	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181742	stry	stry/	stry	PN sg. cstr. gen.	stry	
+181741	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181741	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181741	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181741	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181742	stry	stry/	stry	PN sg. abs. nom.	stry	
 # KTU 3.29 22						
-181743	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-181744	ktš	ktš/	ktš	PN sg. abs. gen.	ktš	
+181743	bn	b+n	b	prep.	in	
+181743	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181743	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181743	bn	bn(II)	bn (II)	prep.	between	
+181743	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181743	bn	bn[	/b-n/	vb G impv. 2	to understand	
+181744	ktš	ktš/	ktš	PN sg. abs. nom.	ktš	
 # KTU 3.29 23						
 181745	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
-181746	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
+181746	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 # KTU 3.29 24						
-181747	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
-181748	abbt	abbt/	ảbbt	PN sg. cstr. gen.	ảbbt	
+181747	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181747	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181747	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181747	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
+181748	abbt	abbt/	ảbbt	PN sg. abs. nom.	ảbbt	
 # KTU 3.29 25						
-181749	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+181749	bn	b+n	b	prep.	in	
+181749	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181749	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181749	bn	bn(II)	bn (II)	prep.	between	
+181749	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181749	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181750	ġly	ġly[	/ġ-l-y/	vb G suffc. 3 m. sg.	to lose the proper aspect	
 181750	ġly	!!ġly[/	/ġ-l-y/	vb G inf.	to lose the proper aspect	
 # KTU 3.29 26						
@@ -99,16 +131,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181752	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	1) a hundred	
 181753	iqnu	iqnu/	ỉqnủ	n. m. sg. cstr. gen.	gem of lapis lazuli	
 # KTU 3.29 27						
-181754	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
-181755	mtn	mt(II)/+n	mt (II)	n. m. cstr. gen.	death	
-181755	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+181754	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. gen.	witness	
+181755	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
+181755	mtn	mt[n	/m-t/	vb	to die	
+181755	mtn	mt[+n	/m-t/	vb G suffc.	to die	
+181755	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+181755	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
+181755	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
 # KTU 3.29 28						
 181756	ḫmšm	ḫmšm/	ḫmšm	num.	1) fifty a) elliptical syntagms	
-181757	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
-181758	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. gen.	offspring	
+181757	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181758	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+181758	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+181758	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+181758	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 3.29 29						
-181759	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
+181759	šmmn	šmmn/	šmmn	PN sg. abs. nom.	šmmn	
 # KTU 3.29 30						
+181760	bn	b+n	b	prep.	in	
 181760	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181760	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181760	bn	bn(II)	bn (II)	prep.	between	

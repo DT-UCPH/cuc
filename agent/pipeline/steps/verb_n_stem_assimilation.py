@@ -1,8 +1,11 @@
-"""Enforce assimilated nun encoding for prefixed N-stem verb analyses.
+"""Enforce nun encoding for N-stem verb analyses.
 
 Conventions:
 - Prefixed N-stem forms encode assimilated nun as `(]n]` after the
   preformative marker (e.g. `!t!(]n]ṯbr[`).
+- Suffix-conjugation forms explicitly mark the N-stem formative. When it
+  coincides with root-initial /n/, the written nun is `]n]` and the lexical
+  radical is reconstructed as `(n` (e.g. `]n](nš(y[t`).
 """
 
 from __future__ import annotations
@@ -18,6 +21,8 @@ _PREFORMATIVE_RE = re.compile(
     r"^(?:![ytan](?:=+)?!|!\(ʔ&[aiu]!)",
     flags=re.IGNORECASE,
 )
+_SUFFC_RE = re.compile(r"\bsuffc\.", flags=re.IGNORECASE)
+_ROOT_RE = re.compile(r"^/([^/]+)/")
 _CANONICAL_MARKER = "(]n]"
 _LEGACY_MARKER = "](n]"
 _REPEATED_N_WEAK_Y_RE = re.compile(r"^(?:(?:\(\]n\]|\]\(n\])\(y){2,}")
@@ -72,6 +77,41 @@ def _insert_assimilated_n_marker(analysis: str) -> str:
     return f"{analysis[:prefix_end]}{_CANONICAL_MARKER}{tail}"
 
 
+def _insert_suffix_n_marker(analysis: str, dulat: str, surface: str) -> str:
+    """Insert the N formative in an unprefixed suffix-conjugation analysis."""
+    if not analysis or "[" not in analysis or "[/" in analysis:
+        return analysis
+    if analysis.startswith(_CANONICAL_MARKER):
+        return analysis
+
+    value = analysis
+    # A generic N-stem pass may have encoded the written initial n as a
+    # preformative before exact-form morphology later identifies a suffix
+    # conjugation. Remove that transient prefix shape before rendering the
+    # visible N formative.
+    if value.startswith("]n]!"):
+        value = value[len("]n]") :]
+    prefix_match = _PREFORMATIVE_RE.match(value)
+    if prefix_match is not None:
+        value = value[prefix_match.end() :]
+        for marker in (_CANONICAL_MARKER, "]n]", _LEGACY_MARKER):
+            if value.startswith(marker):
+                value = value[len(marker) :]
+                break
+    elif value.startswith("]n]"):
+        return analysis
+
+    root_match = _ROOT_RE.match((dulat or "").strip())
+    root = root_match.group(1) if root_match else ""
+    if root.startswith("n-") and value.startswith("n"):
+        return f"]n](n{value[1:]}"
+    if value.startswith("n"):
+        return f"]n]{value[1:]}"
+    if (surface or "").startswith("n"):
+        return f"]n]{value}"
+    return f"{_CANONICAL_MARKER}{value}"
+
+
 def _normalize_assimilated_n_tail(tail: str) -> str:
     """Collapse legacy repeated N-markers to one canonical `(]n]` marker."""
     value = tail or ""
@@ -99,7 +139,7 @@ def _strip_assimilated_n_marker(analysis: str) -> str:
 
 
 class VerbNStemAssimilationFixer(RefinementStep):
-    """Insert missing `(]n]` marker in prefixed N-stem analyses."""
+    """Insert missing nun markers in prefixed and suffixed N-stem analyses."""
 
     @property
     def name(self) -> str:
@@ -113,13 +153,21 @@ class VerbNStemAssimilationFixer(RefinementStep):
         if not variants:
             return row
         pos_variants = _split_semicolon(row.pos)
+        dulat_variants = _split_semicolon(row.dulat)
 
         changed = False
         out_variants: list[str] = []
         for idx, variant in enumerate(variants):
             pos_variant = _variant_value(pos_variants, idx)
             if _pos_requires_n_assimilation(pos_variant):
-                updated = _insert_assimilated_n_marker(variant)
+                if _SUFFC_RE.search(pos_variant):
+                    updated = _insert_suffix_n_marker(
+                        variant,
+                        _variant_value(dulat_variants, idx),
+                        row.surface,
+                    )
+                else:
+                    updated = _insert_assimilated_n_marker(variant)
             else:
                 updated = _strip_assimilated_n_marker(variant)
             if updated != variant:

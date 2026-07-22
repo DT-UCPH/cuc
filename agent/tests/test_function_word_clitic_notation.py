@@ -23,15 +23,20 @@ class FunctionWordCliticNotationFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "k(II)+y")
 
-    def test_rewrites_prep_m_suffix_to_plus_marker(self) -> None:
+    def test_rewrites_prep_m_tail_to_enclitic_marker(self) -> None:
         row = TabletRow("1", "lm", "l(I)&m", "l (I)", "prep.", "to", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "l(I)+m(I)")
+        self.assertEqual(result.analysis, "l(I)~m")
 
-    def test_rewrites_prep_enclitic_m_tail_to_pronominal_plus(self) -> None:
+    def test_preserves_prep_enclitic_m_semantics(self) -> None:
         row = TabletRow("2", "ˤlm", "ˤl(I)&~m", "ʕl (I)", "prep.", "upon", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "ˤl(I)+m(I)")
+        self.assertEqual(result.analysis, "ˤl(I)~m")
+
+    def test_repairs_legacy_plus_m_on_function_word(self) -> None:
+        row = TabletRow("2b", "apm", "ap(I)+m(I)", "ảp (I)", "adv./conj.", "also", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "ap(I)~m")
 
     def test_rewrites_prep_t_suffix_to_plus_marker(self) -> None:
         row = TabletRow("3", "ˤlt", "ˤl(I)&t", "ʕl (I)", "prep.", "upon", "")
@@ -44,9 +49,9 @@ class FunctionWordCliticNotationFixerTest(unittest.TestCase):
         self.assertEqual(result.analysis, "b+hm")
 
     def test_preserves_hidden_weak_y_before_suffix(self) -> None:
-        row = TabletRow("5", "bym", "b&y+m(I)", "b", "prep.", "in", "")
+        row = TabletRow("5", "bym", "b&y+hm", "b", "prep.", "in", "")
         result = self.fixer.refine_row(row)
-        self.assertEqual(result.analysis, "b&y+m(I)")
+        self.assertEqual(result.analysis, "b&y+hm")
 
     def test_skips_non_function_word_rows(self) -> None:
         row = TabletRow("6", "atm", "at(I)&m", "ảt (I)", "pers. pn.", "you", "")

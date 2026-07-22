@@ -1,9 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.118 1						
-173502	ilidb	?	?	?	?	DULAT: NOT FOUND
+173502	ilidb	ili&db(I)/	ỉlỉb (I)	DN sg. cstr. nom.	father god	KTU corrected: ilib
 # KTU 1.118 2						
-173503	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173503	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN	
+173503	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173503	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN	
 # KTU 1.118 3						
 173504	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
 # KTU 1.118 4						
@@ -13,11 +13,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.118 5						
 173507	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.118 6						
-173508	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
+173508	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.118 7						
-173509	bˤlmx	?	?	?	?	DULAT: NOT FOUND
+173509	bˤlmx	bˤl(II)/	bʕl (II)	n. m. cstr. gen.	Baʿlu/Baal	KTU corrected: bʿlm
 # KTU 1.118 8						
-173510	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
+173510	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.118 9						
 173511	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.118 10						
@@ -37,7 +37,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173519	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. cstr. gen.	Koṯaru/Kothar	
 # KTU 1.118 16						
 173520	pdry	pdry/	pdry	DN sg. cstr. gen.	Pidray	
-173520	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
 # KTU 1.118 17						
 173521	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. cstr. gen.	ʿAṯtar	
 # KTU 1.118 18						

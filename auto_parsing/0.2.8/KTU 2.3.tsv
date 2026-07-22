@@ -44,8 +44,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 9						
 175853	w	w	w	conj.	and	
 175854	sip	sip	sỉp	?	?	
-175855	db	db/	db	n. m. sg. cstr. nom.	threshold	
-175856	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
+175855	db	db/	db	n. m. sg. abs. nom.	threshold	
+175856	hwt	hw&t	hw	pers. pn.	he	
+175856	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 2.3 10						
 175857	w	w	w	conj.	and	
 175858	ank	ank	ảnk	pers. pn.	I	
@@ -100,9 +101,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175885	trgm	!t=!rgm[	/r-g-m/	vb G prefc. 2 m. sg.	to say	
 175885	trgm	!t==!rgm[	/r-g-m/	vb G prefc. 2 f. sg.	to say	
 # KTU 2.3 19						
-175886	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
-175887	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. gen.	poplar	
-175887	adrm	adr(IV)/m	ảdr (IV)	n. m. pl. abs. gen.	fibula	
+175886	p	p(I)	p (I)	conj. functor	and	
+175886	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+175886	p	p(II)	p (II)	adv.	here	
+175887	adrm	adr(III)/m	ảdr (III)	n. m. pl. abs. nom.	poplar	
+175887	adrm	adr(IV)/m	ảdr (IV)	n. m. pl. abs. nom.	fibula	
 175888	ḏrm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.3 20						
 175889	w	w	w	conj.	and	
@@ -123,8 +126,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 22						
 175898	ištš	ištš	ỉštš	?	?	
 175899		?	?	?	?	
-175900	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
-175901	rgmy	rgm/+y	rgm	n. m. cstr. gen.	word	
+175900	p	p(I)	p (I)	conj. functor	and	
+175900	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+175900	p	p(II)	p (II)	adv.	here	
+175901	rgmy	rgm/+y	rgm	n. m. cstr. nom.	word	
 # KTU 2.3 23						
 175902	mad	m(ʔ&ad[	/m-ʔ-d/	vb G suffc. 3 m. sg.	to be immense, numerous	
 175903	rxpġt	?	?	?	?	DULAT: NOT FOUND

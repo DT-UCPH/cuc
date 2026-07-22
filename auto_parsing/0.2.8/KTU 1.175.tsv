@@ -4,8 +4,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175428	mru	mru(III)/	mrủ (III)	n. m. sg. cstr. gen.	chief groom	
 # KTU 1.175 2						
 175429		?	?	?	?	
-175430	mrrt	mrr(t(I)/t	mrrt (I)	n. f. sg. cstr. gen.	bile	
-175431	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle a) in general	
+175430	mrrt	mrr(t(I)/t	mrrt (I)	n. f. sg. abs. gen.	bile	
+175431	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle a) in general	
+175431	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle a) in general	
+175431	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 175432	ti	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.175 3						
 175433	b	b	b	prep.	in	
@@ -22,9 +24,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 5						
 175442		?	?	?	?	
 175443	w	w	w	conj.	and	
+175444	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+175444	št	št[	/š-t/	vb G impv. 2	to place	
+175444	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 175444	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-175444	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-175445	lšn	lšn/	lšn	n. f. sg. abs. gen.	2) a herb	
+175445	lšn	lšn/	lšn	n. f. sg. abs. nom.	2) a herb	
 # KTU 1.175 6						
 175446		?	?	?	?	
 175447	w	w	w	conj.	and	
@@ -82,7 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 14						
 175480		?	?	?	?	
 175481	w	w	w	conj.	and	
-175482	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+175482	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 175483	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go, go away	
 175484	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	1) lad	
 # KTU 1.175 15						
@@ -90,14 +94,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 16						
 175486	mṭt	mṭ(t/t	mṭt	n. f. sg. abs. nom.	bed	
 175487	w	w	w	conj.	and	
-175488	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg. cstr. nom.	a kind of leather or leather object	
-175489	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. gen.	2) lad	
+175488	ṯnt	ṯn(y[t	/ṯ-n-y/	vb G suffc. 1 c. sg.	to repeat	
+175488	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg. abs. nom.	a kind of leather or leather object	
+175488	ṯnt	ṯn(t(II)/t=	ṯnt (II)	n. f. pl. abs. nom.	urine	
+175489	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	2) lad	
+175489	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	2) lad	
 # KTU 1.175 17						
-175490	št	š(t(II)/t	št (II)	n. f. sg. abs. gen.	raíz	
-175490	št	št(I)/	št (I)	n. m. sg. abs. gen.	base	
+175490	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+175490	št	št[	/š-t/	vb G impv. 2	to place	
+175490	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
+175490	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 175491	b	b	b	prep.	in	
 175492	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	spine	
 175493	b	b	b	prep.	in	
 175494	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	2) set of three	
-175494	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. gen.	copper	
+175494	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
 175494	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	

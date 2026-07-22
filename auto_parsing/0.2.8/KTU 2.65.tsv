@@ -8,15 +8,19 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178486	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
 178486	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.65 3						
-178487	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	1) eight d) composite numbers	
+178487	ṯmn	ṯmn(I)	ṯmn(y) (I)	num.	1) eight d) composite numbers	
+178487	ṯmn	ṯm+n	ṯm	adv.	there	
 178488	ˤmk	ˤm(I)+k	ʕm (I)	prep.	2) relationship of accompaniment	
-178488	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.65 4						
 178489	mnm	mnm	mnm	indef. pn.	any(thing)	
-178490	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+178490	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+178490	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.65 5						
-178491	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-178491	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+178491	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+178491	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+178491	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+178491	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+178491	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 178492	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
 178492	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 178493	ly	l(I)+y	l (I)	prep.	to	

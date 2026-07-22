@@ -5,7 +5,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170885	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 170886	b	b	b	prep.	in	
 170887	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-170887	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+170887	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.97 2						
 170888	k	k(III)	k (III)	Subordinating or completive functor	when	
 170889	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect	
@@ -15,10 +15,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170892	xxxxx	?	?	?	?	
 # KTU 1.97 3						
 170893	w	w	w	conj.	and	
+170894	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
+170894	št	št[	/š-t/	vb G impv. 2	to place	
+170894	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 170894	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-170894	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
-170895	mkšr	mkšr/	mkšr	n. m. sg. cstr. gen.	semolina	
-170896	grn	grn(I)/	grn (I)	n. m. sg. abs. gen.	threshing-floor	
+170895	mkšr	mkšr/	mkšr	n. m. sg. abs. nom.	semolina	
+170896	grn	grn(I)/	grn (I)	n. m. sg. abs. nom.	threshing-floor	
+170896	grn	grn(II)/	grn (II)	adj. m. sg. abs. nom.	current	
 170897	xxx	?	?	?	?	
 # KTU 1.97 4						
 170898	arġn	?	?	?	?	DULAT: NOT FOUND
@@ -32,7 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170903	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 170904	b	b	b	prep.	in	
 170905	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-170905	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+170905	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.97 6						
 170906	k	k(III)	k (III)	Subordinating or completive functor	when	
 170907	yraš	!y!r(ʔ&aš[	/r-ʔ-š/	vb G prefc. 3 m. sg.	to toss the head	
@@ -50,7 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170911	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 170912	b	b	b	prep.	in	
 170913	aph	ap(I)+h	ảp (I)	adv./conj.	also	
-170913	aph	ap(II)/+h	ảp (II)	n. m. cstr. gen.	nose	
+170913	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	nose	
 # KTU 1.97 8						
 170914	xxxkṣ	?	?	?	?	DULAT: NOT FOUND
 170915	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
@@ -67,8 +70,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170922	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 # KTU 1.97 12						
 170923	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	DULAT quote in pr (I) (cue: fruit)
-170924	ˤṯrb	ˤṯrb/	ʕṯrb	n. m. sg. cstr. gen.	arbrisseau semblable au grenadier	
-170925	drˤ	drˤ/	d/ḏrʕ	n. m. sg. abs. gen.	seed	
+170924	ˤṯrb	ˤṯrb/	ʕṯrb	n. m. sg. abs. gen.	arbrisseau semblable au grenadier	
+170925	drˤ	drˤ/	d/ḏrʕ	n. m. sg. abs. nom.	seed	
+170925	drˤ	!!drˤ[/	/d-r-ʕ/	vb G inf.	to sow	
 170926	xxxxxx	?	?	?	?	
 # KTU 1.97 13						
 170927	w	w	w	conj.	and	
@@ -82,7 +86,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170933	št	št[	/š-t/	vb G impv. 2	to place	
 170933	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
 170933	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-170933	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 170934	nnixxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.97 15						
 170935	ˤqrb	ˤqrb/	ʕqrb	n. f. sg. abs. nom.	scorpion	

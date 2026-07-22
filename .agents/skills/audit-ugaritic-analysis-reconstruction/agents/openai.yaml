@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ugaritic Analysis Reconstruction"
+  short_description: "Verify reconstruction and KTU editorial signs"
+  default_prompt: "Use $audit-ugaritic-analysis-reconstruction to verify Ugaritic analyses against written surfaces and interpret any KTU editorial signs safely."

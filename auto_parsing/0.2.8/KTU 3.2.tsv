@@ -4,10 +4,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180665	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
 180666	hnd	hnd	hnd	dem.	1) adj. this	
 # KTU 3.2 2						
-180667	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. nom.	ʿmṯtmr	
+180667	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
 # KTU 3.2 3						
-180668	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	1) son a) of men and gods	
-180669	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
+180668	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
+180668	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	1) son a) of men and gods	
+180668	bn	bn(II)	bn (II)	prep.	between	
+180668	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180668	bn	bn[	/b-n/	vb G impv. 2	to understand	
+180669	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
 # KTU 3.2 4						
 180670	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 180671	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -15,11 +19,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180672	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
 180672	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
 180673	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-180673	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
-180674	annḏr	annḏr/	ảnnḏr	PN sg. cstr. gen.	ảnnḏr	
+180674	annḏr	annḏr/	ảnnḏr	PN sg. abs. gen.	ảnnḏr	
 # KTU 3.2 6						
-180675	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-180676	agytn	agytn/	ảgytn	PN sg. cstr. gen.	ảgytn	
+180675	bn	b+n	b	prep.	in	
+180675	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+180675	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+180675	bn	bn(II)	bn (II)	prep.	between	
+180675	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180675	bn	bn[	/b-n/	vb G impv. 2	to understand	
+180676	agytn	agytn/	ảgytn	PN sg. cstr. nom.	ảgytn	
 180677	bnš	bnš/	bnš	n. m. sg. cstr. gen.	2) personnel in service	
 # KTU 3.2 7						
 180678	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
@@ -31,13 +39,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180683	ytnn	!y!(ytn[n	/y-t-n/	vb	to give	
 180683	ytnn	!y!(ytn[+n	/y-t-n/	vb G prefc. 3 m. sg.	to give	
 180683	ytnn	ytnn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
-180683	ytnn	yt&n/+n	yt	n. m. cstr. nom.	?	
+180683	ytnn	yt/+nn	yt	n. m. cstr. nom.	?	
 # KTU 3.2 9						
 180684	l	l(I)	l (I)	prep.	to	
-180685	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. gen.	ʿbdmlk	
+180685	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 3.2 10						
-180686	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-180687	amtrn	amtrn/	ảmtrn	PN sg. abs. gen.	ảmtrn	
+180686	bn	b+n	b	prep.	in	
+180686	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+180686	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+180686	bn	bn(II)	bn (II)	prep.	between	
+180686	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180686	bn	bn[	/b-n/	vb G impv. 2	to understand	
+180687	amtrn	amtrn/	ảmtrn	PN sg. abs. nom.	ảmtrn	
 # KTU 3.2 11						
 180688	w	w	w	conj.	and	
 180689	l	l(I)	l (I)	prep.	to	
@@ -45,8 +58,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180691	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 180691	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 # KTU 3.2 12						
-180692	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
-180692	ˤlm	ˤl(II)+m(I)	ʕl (II)	adv.	above	
 180692	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 180693	mnk	mnk	mnk	indef. pn.	whoever	
 # KTU 3.2 13						
@@ -58,21 +69,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180696	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
 # KTU 3.2 14						
 180697	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-180697	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 180698	hnd	hnd	hnd	dem.	1) adj. this	
 180699	bd	b&d	b	prep.	in	
 # KTU 3.2 15						
-180700	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. cstr. gen.	ʿbdmlk	
+180700	ˤbdmlk	ˤbdmlk/	ʕbdmlk	PN sg. abs. gen.	ʿbdmlk	
 # KTU 3.2 16						
-180701	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-180702	amtrn	amtrn/	ảmtrn	PN sg. abs. gen.	ảmtrn	
+180701	bn	b+n	b	prep.	in	
+180701	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+180701	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+180701	bn	bn(II)	bn (II)	prep.	between	
+180701	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180701	bn	bn[	/b-n/	vb G impv. 2	to understand	
+180702	amtrn	amtrn/	ảmtrn	PN sg. abs. nom.	ảmtrn	
 # KTU 3.2 17						
 180703	w	w	w	conj.	and	
 180704	bd	b&d	b	prep.	in	
 180705	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 180706	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 180706	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-180707	ˤlm	ˤl(I)+m(I)	ʕl (I)	prep.	upon	
+180707	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 3.2 18						
 180708	w	w	w	conj.	and	
 180709	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	1) obligation	

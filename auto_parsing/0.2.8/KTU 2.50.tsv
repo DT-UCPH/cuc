@@ -10,16 +10,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.50 3						
 178177	w	w	w	conj.	and	
 178178	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
-178179	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. abs. nom. sg.	distance	
+178179	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. sg. abs. nom.	distance	
 # KTU 2.50 4						
 178180	qlt	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall (down)	
 178181	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
 178181	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 178182	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.50 5						
-178183	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
-178184	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-178184	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+178183	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+178183	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
+178184	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+178184	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+178184	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+178184	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+178184	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 178185	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
 178185	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 # KTU 2.50 6						
@@ -31,11 +35,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178190	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 2.50 8						
 178191	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	1) handsome d) (of) good (quality)	
-178191	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	
+178191	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
 # KTU 2.50 9						
 178192	xy	?	?	?	?	DULAT: NOT FOUND
 178193	w	w	w	conj.	and	
-178194	lm	l(I)+m(I)	l (I)	prep.	to	
+178194	lm	l(I)~m	l (I)	prep.	to	
 # KTU 2.50 10						
 178195	šil	š(ʔ&il[	/š-ʔ-l/	vb G prefc.	to ask	
 178195	šil	šil(I)/	šỉl (I)	n. m. sg. abs. nom.	interrogator	
@@ -65,10 +69,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178209	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
 # KTU 2.50 17						
 178210	d	d	d	det. or rel. functor	the one(s) of	
-178211	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. cstr. nom.	grace	
-178212	lbšk	lbš/+k	lbš	n. m. cstr. gen.	1) clothing	
-178212	lbšk	lbš[/+k	/l-b-š/	vb G act. ptcpl. m. sg. cstr. gen.	to dress	
-178212	lbšk	lbš[/+k	/l-b-š/	vb G pass. ptcpl. m. sg. cstr. gen.	to dress	
+178211	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	1) handsome d) (of) good (quality)	
+178211	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
+178212	lbšk	lbš/+k	lbš	n. m. cstr. nom.	1) clothing	
+178212	lbšk	lbš[/+k	/l-b-š/	vb G act. ptcpl. m. sg. cstr. nom.	to dress	
+178212	lbšk	lbš[/+k	/l-b-š/	vb G pass. ptcpl. m. sg. cstr. nom.	to dress	
 # KTU 2.50 18						
 178213	x	?	?	?	?	
 178214	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
@@ -80,7 +85,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178218	d	d	d	det. or rel. functor	4) in compound conjunctions	
 178219	l	l(I)	l (I)	prep.	to	
 178220	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	1) handsome d) (of) good (quality)	
-178220	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	grace	
+178220	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
 # KTU 2.50 20						
 178221	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
 178222	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	

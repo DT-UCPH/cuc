@@ -10,23 +10,36 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.15 3						
 181278	w	w	w	conj.	and	
 181279	bd	b&d	b	prep.	in	
-181280	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+181280	bn	b+n	b	prep.	in	
+181280	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181280	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181280	bn	bn(II)	bn (II)	prep.	between	
+181280	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181280	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.15 4						
-181281	udbr	udbr/	ủdbr	n. m. cstr. gen.	leaseholder	
+181281	udbr	udbr/	ủdbr	n. m. cstr. nom.	leaseholder	
 # KTU 3.15 5						
 181282	ˤrš	ˤrš/	ʕrš	n. f. sg. cstr. gen.	bed	
 # KTU 3.15 6						
-181283	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. cstr. gen.	table	
+181283	ṯlḥn	ṯlḥn/	ṯlḥn	n. m. sg. abs. gen.	table	
 # KTU 3.15 7						
-181284	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
+181284	ap	ap(I)	ảp (I)	adv./conj.	also	
+181284	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 # KTU 3.15 8						
 181285	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+181285	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
+181285	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 # KTU 3.15 9						
 181286	ptr	ptr/	ptr	n. m. cstr. nom.	sack	
 # KTU 3.15 10						
-181287	ypḥ	ypḥ/	ypḥ	n. m. sg. cstr. gen.	witness	
+181287	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. gen.	witness	
 # KTU 3.15 11						
-181288	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+181288	bn	b+n	b	prep.	in	
+181288	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+181288	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+181288	bn	bn(II)	bn (II)	prep.	between	
+181288	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+181288	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.15 12						
 181289	x	?	?	?	?	
 # KTU 3.15 13						

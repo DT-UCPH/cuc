@@ -9,8 +9,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 3						
 173861	xxx	?	?	?	?	
 173862	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
-173863	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-173863	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+173863	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+173863	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+173863	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 # KTU 1.126 4						
 173864	xxx	?	?	?	?	
 173865	by	b+y	b	prep.	in	
@@ -18,8 +19,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173867	šˤx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.126 5						
 173868	xxxx	?	?	?	?	
-173869	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
-173870	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+173869	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
+173870	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+173870	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+173870	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.126 6						
 173871	xxxxmt	?	?	?	?	DULAT: NOT FOUND
 173872	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out	
@@ -79,7 +82,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173900	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
 173901	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to cause to enter	
 173901	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	1) to cause to enter	
-173901	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
 # KTU 1.126 24						
 173902	xtštn	?	?	?	?	DULAT: NOT FOUND
 173903	ḫx	?	?	?	?	DULAT: NOT FOUND

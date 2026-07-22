@@ -5,8 +5,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170409	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	1) king a) human sovereign in gen	
 # KTU 1.90 2						
 170410	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
-170411	ḥgb	ḥgb/	ḥgb	n. m. sg. cstr. gen.	locust	
-170412	ap	ap(II)/	ảp (II)	n. m. sg. abs. gen.	nose	
+170411	ḥgb	ḥgb/	ḥgb	n. m. sg. abs. gen.	locust	
+170412	ap	ap(I)	ảp (I)	adv./conj.	also	
+170412	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 # KTU 1.90 3						
 170413	w	w	w	conj.	and	
 170414	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	6) (piece of) offal	
@@ -17,14 +18,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170418	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.90 5						
 170419	w	w	w	conj.	and	
-170420	ḥẓ	ḥẓ/	ḥẓ	n. m. sg. cstr. nom.	1) arrow c) fletch- ers	
-170421	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+170420	ḥẓ	ḥẓ/	ḥẓ	n. m. sg. abs. nom.	1) arrow c) fletch- ers	
+170421	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+170421	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+170421	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.90 6						
 170422	w	w	w	conj.	and	
 170423	š	š/	š	n. m. sg. abs. nom.	ram	
 170424	l	l(I)	l (I)	prep.	to	
-170425	ll	ll(I)/	ll (I)	n. m. sg. cstr. gen.	night	
-170426	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	2) “bullock”	
+170425	ll	ll(I)/	ll (I)	n. m. sg. abs. gen.	night	
+170426	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	2) “bullock”	
+170426	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	2) “bullock”	
+170426	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.90 7						
 170427	w	w	w	conj.	and	
 170428	xxxxl	?	?	?	?	DULAT: NOT FOUND
@@ -61,7 +66,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170441	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
 170441	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
 170441	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-170441	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 # KTU 1.90 19						
 170442	xxx	?	?	?	?	
 170443	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
@@ -79,7 +83,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170450	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
 170450	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
 170450	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-170450	šlm	šlm(III)/	šlm (III)	adj. m. sg. abs. nom.	pure	
 170451	w	w	w	conj.	and	
 170452	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 # KTU 1.90 22						

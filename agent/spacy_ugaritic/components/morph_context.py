@@ -177,9 +177,12 @@ class MorphContextResolver:
                 case = "gen."
             rewritten = _dedupe_candidates(
                 tuple(
-                    _force_state_case(candidate, state, case)
+                    (
+                        _force_state_case(candidate, state, case)
+                        if _candidate_accepts_construct_chain(candidate)
+                        else candidate
+                    )
                     for candidate in token._.resolved_candidates
-                    if _candidate_accepts_construct_chain(candidate)
                 )
             )
             if rewritten and rewritten != tuple(token._.resolved_candidates):
@@ -677,7 +680,11 @@ def _construct_chain_tokens(doc: Doc, start: int) -> tuple[Token, ...]:
 
 def _is_construct_capable_token(token: Token) -> bool:
     candidates = tuple(token._.resolved_candidates)
-    return bool(candidates) and any(
+    # A mixed bundle (for example ṯlṯ "three" / "copper") is not positive
+    # evidence for a construct chain.  Requiring every surviving candidate to
+    # be nominal prevents the chain heuristic from silently deleting numbers,
+    # verbs, and function words before stronger contextual evidence is applied.
+    return bool(candidates) and all(
         _candidate_accepts_construct_chain(candidate) for candidate in candidates
     )
 

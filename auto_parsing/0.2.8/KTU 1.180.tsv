@@ -2,8 +2,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.180 1						
 175784	šm	š/m	š	n. m. pl. cstr. nom.	ram	
 175784	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
-175785	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. gen.	ʿṯtrt (II)	
-175786	ql	ql(I)/	ql (I)	n. m. sg. abs. gen.	voice	
+175785	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
+175786	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
+175786	ql	ql[	/q-l/	vb G impv. 2	to fall (down)	
+175786	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	voice	
 175787	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	to sing	
 # KTU 1.180 2						
 175788	iḏmr	?	?	?	?	DULAT: NOT FOUND
@@ -19,10 +21,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175795	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
 175795	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
 175796	d	d	d	det. or rel. functor	the one(s) of	
+175797	gr	gr(y[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
+175797	gr	gr(y[:w	/g-r(-y)/	vb G suffc. 3 m. pl.	to attack	
 175797	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
-175797	gr	gr(I)/	gr (I)	n. m. sg. cstr. nom.	protected	
-175798	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-175798	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+175797	gr	gr(I)/	gr (I)	n. m. sg. abs. nom.	protected	
+175798	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+175798	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+175798	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+175798	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.180 4						
 175799	nmr	?	?	?	?	DULAT: NOT FOUND
 175800	ḥṯrt	ḥṯr(t/t	ḥṯrt	adj. f. sg. abs. nom.	fierce	

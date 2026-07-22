@@ -26,9 +26,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171942	yxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.104 7						
 171943	b	b	b	prep.	in	
-171944	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day d) in conj. with (vb) expressions (when)	
-171944	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
-171945	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. gen.	banquet	
+171944	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	
+171944	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+171945	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
+171945	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+171945	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+171945	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+171945	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 # KTU 1.104 8						
 171946	w	w	w	conj.	and	
 171947	spl	spl/	spl	n. m. sg. abs. nom.	platter	
@@ -51,19 +55,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 12						
 171957	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
 171957	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
-171958	š	š/	š	n. m. sg. cstr. nom.	1) ram b) as a sacrificial victim	
-171959	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
+171958	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
+171959	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	DULAT quote in /y-t-n/ (cue: sanctuary)
 # KTU 1.104 13						
-171960	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+171960	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 171961	dxtt	?	?	?	?	DULAT: NOT FOUND
 171962	w	w	w	conj.	and	
 171963	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 171964	bx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.104 14						
 171965	w	w	w	conj.	and	
-171966	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-171967	šr	šr(II)/	šr (II)	n. m. sg. abs. gen.	musician	
-171967	šr	šr(III)/	šr (III)	n. m. sg. abs. gen.	1) prince	
+171966	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+171967	šr	šr(II)/	šr (II)	n. m. sg. abs. nom.	musician	
+171967	šr	šr(I)[	/š-r/ (I)	vb G impv. 2	to sing	
+171967	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	1) prince	
+171967	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
+171967	šr	šr(I)/	šr (I)	n. m. sg. cstr. nom.	song	
 # KTU 1.104 15						
 171968	w	w	w	conj.	and	
 171969	b	b	b	prep.	in	
@@ -91,7 +98,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171985	ṯnm	ṯn(I)&m	ṯn (I)	num.	4) adv. use	
 # KTU 1.104 21						
 171986	wm	wm	wm	conj., morph.		
-171986	wm	w+m(I)	w	conj., morph.	and	
 171987	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 171988	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 171989	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	1) eight c) in apposition	
@@ -107,7 +113,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171995	w	w	w	conj.	and	
 171996	l	l(I)	l (I)	prep.	to	
 171997	p	p(I)	p (I)	conj. functor	and	
-171997	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
+171997	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 171997	p	p(II)	p (II)	adv.	here	
 # KTU 1.104 25						
 171998	w	w	w	conj.	and	

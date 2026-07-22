@@ -1,9 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.70 1						
 178565	l	l(I)	l (I)	prep.	to	
-178565	l	l(II)	l (II)	adv.	no	
-178565	l	l(III)	l (III)	functor	certainly	
-178566	ydrm	ydrm/	ydrm	PN sg. cstr. nom.	ydrm	
+178566	ydrm	ydrm/	ydrm	PN sg. cstr. gen.	ydrm	
 178567	bˤlny	bˤl(II)/+ny	bʕl (II)	n. m. cstr. gen.	lord	
 # KTU 2.70 2						
 178568	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
@@ -12,8 +10,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178568	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
 178568	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.70 3						
-178569	atḥm	?	?	?	?	DULAT: NOT FOUND
-178570	pnḥṯ	pnḥṯ/	pnḥṯ	PN sg. abs. nom.	pnḥṯ	
+178569	atḥm	&atḥm/	tḥm	n. m. cstr. nom.	message	KTU corrected: tḥm
+178570	pnḥṯ	pnḥṯ/	pnḥṯ	PN sg. abs. gen.	pnḥṯ	
 # KTU 2.70 4						
 178571	w	w	w	conj.	and	
 178572	yrmhd	yrmhd/	yrmhd	PN sg. cstr. nom.	yrmhd	
@@ -39,12 +37,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178584	ṯnid	ṯnid	ṯnỉd	adv.	twice	
 178585	šbˤd	šbˤd	šbʕ(ỉ)d	adv.	seven times	
 # KTU 2.70 10						
-178586	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. abs. nom. sg.	distance	
+178586	mrḥqtm	mrḥqt/~m	mrḥqt	n. f. sg. abs. nom.	distance	
 178587	qlny	ql[ny	/q-l/	vb G suffc.	to fall (down)	
 # KTU 2.70 11						
 178588	hlny	hlny	hlny	deictic adv. functor	behold	
+178589	bn	b+n	b	prep.	in	
 178589	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-178590	ˤyn	ˤyn/	ʕyn	PN sg. abs. gen.	ʿyn	
+178589	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+178589	bn	bn(II)	bn (II)	prep.	between	
+178589	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+178589	bn	bn[	/b-n/	vb G impv. 2	to understand	
+178590	ˤyn	ˤyn/	ʕyn	PN sg. abs. nom.	ʿyn	
 # KTU 2.70 12						
 178591	yštal	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-ʔ-l/ - to require a cultic reply
 178592	ˤm	ˤm(I)	ʕm (I)	prep.	to	
@@ -67,12 +70,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.70 16						
 178605	hbt	h(w&b(t(I)/t	hwt (I)	n. f. sg. abs. gen.	word	
 178606	w	w	w	conj.	and	
-178607	lm	l(I)+m(I)	l (I)	prep.	to	
+178607	lm	l(I)~m	l (I)	prep.	to	
 178608	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
 178608	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
 # KTU 2.70 17						
+178609	bn	b+n	b	prep.	in	
 178609	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
-178610	ˤyn	ˤyn/	ʕyn	PN sg. abs. gen.	ʿyn	
+178609	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+178609	bn	bn(II)	bn (II)	prep.	between	
+178609	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+178609	bn	bn[	/b-n/	vb G impv. 2	to understand	
+178610	ˤyn	ˤyn/	ʕyn	PN sg. abs. nom.	ʿyn	
 # KTU 2.70 18						
 178611	w	w	w	conj.	and	
 178612	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of, take, grasp	
@@ -106,7 +114,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178629	tšal	!t!š(ʔ&al[	/š-ʔ-l/	vb G prefc.	to ask, request in general	
 # KTU 2.70 24						
 178630	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-178630	bt	bt(III)/	bt (III)	n. m. pl. cstr. nom.	length	
 178631	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	servant	
 # KTU 2.70 25						
 178632	w	w	w	conj.	and	
@@ -117,10 +124,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178636	l	l(I)	l (I)	prep.	to	
 178636	l	l(II)	l (II)	adv.	no	
 178636	l	l(III)	l (III)	functor	certainly	
-178637	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+178637	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+178637	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.70 27						
-178638	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. cstr. gen.	lineage	
-178639	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
+178638	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
+178638	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
+178639	p	p(I)	p (I)	conj. functor	and	
+178639	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+178639	p	p(II)	p (II)	adv.	here	
 178640	l	l(I)	l (I)	prep.	to	
 178641	yšbˤl	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.70 28						

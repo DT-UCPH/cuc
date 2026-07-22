@@ -108,6 +108,39 @@ class ReviewedTabletMigratorTest(unittest.TestCase):
             )
             self.assertNotIn("\tpdr(I)/+y\tpdr (I)\tn. m.\ttown\t", output)
 
+    def test_preserves_erased_sign_analysis_when_target_surface_keeps_sign(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            reviewed = root / "reviewed.tsv"
+            raw = root / "raw.tsv"
+            auto = root / "auto.tsv"
+            reviewed.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.5 I:12\t\t\t\t\t\t\n"
+                "139820\tg[[m]]pn\tg&mpn(III)/\tgpn (III)\tDN m. sg. abs. nom.\t\t\n",
+                encoding="utf-8",
+            )
+            raw.write_text(
+                "#---------------------------- KTU 1.5 I:12\n"
+                "158634\tgmpn\tgmpn\tg[[m]]pn    \n",
+                encoding="utf-8",
+            )
+            auto.write_text(
+                "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                "# KTU 1.5 I:12\t\t\t\t\t\t\n"
+                "158634\tgmpn\t?\t?\t?\t?\tDULAT: NOT FOUND\n",
+                encoding="utf-8",
+            )
+
+            output = ReviewedTabletMigrator().migrate(reviewed, raw, auto)
+
+            self.assertIn(
+                "158634\tgmpn\tg&mpn(III)/\tgpn (III)\tDN m. sg. abs. nom.",
+                output,
+            )
+            self.assertIn("Token changed from previous version.", output)
+            self.assertNotIn("158634\tgmpn\t?\t?\t?\t?", output)
+
     def test_uses_marked_auto_fallback_for_simple_split(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)

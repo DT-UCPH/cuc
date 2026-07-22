@@ -19,12 +19,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.173 4						
 175357	x	?	?	?	?	
 175358	š	š/	š	n. m. sg. cstr. nom.	ram	
-175359	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
-175360	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	(head of) cattle	
+175359	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. gen.	grain	
+175360	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+175360	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+175360	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 175361	w	w	w	conj.	and	
-175362	š	š/	š	n. m. sg. cstr. nom.	ram	
+175362	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.173 5						
-175363	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
+175363	p	p(I)	p (I)	conj. functor	and	
+175363	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+175363	p	p(II)	p (II)	adv.	here	
 175364	w	w	w	conj.	and	
 175365	š	š/	š	n. m. sg. cstr. nom.	ram	
 175366	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
@@ -35,7 +39,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175369	xx	?	?	?	?	
 175370	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 175371	pdry	pdry/	pdry	DN sg. cstr. gen.	Pidray	
-175371	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. gen.	town	
 # KTU 1.173 7						
 175372		?	?	?	?	
 175373	inš	inš/	ỉnš	n. m. sg. abs. gen.	people	

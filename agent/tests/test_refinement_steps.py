@@ -1073,6 +1073,58 @@ class VerbNStemAssimilationFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "nṯbr[")
 
+    def test_marks_suffix_n_stem_with_root_initial_n(self) -> None:
+        row = TabletRow(
+            "158704",
+            "nšt",
+            "nš(y[t",
+            "/n-š-y/",
+            "vb N suffc. 1 c. sg.",
+            "to be forgotten",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "]n](nš(y[t")
+
+    def test_marks_written_suffix_n_formative_as_visible(self) -> None:
+        row = TabletRow(
+            "159664",
+            "nḫtu",
+            "ḫt(ʔ[&u",
+            "/ḫ-t-ʔ/",
+            "vb N suffc. 3 m. sg.",
+            "to be crushed",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "]n]ḫt(ʔ[&u")
+
+    def test_rewrites_transient_prefixed_shape_after_suffix_completion(self) -> None:
+        row = TabletRow(
+            "172310",
+            "nˤr",
+            "]n]!n!ˤr[",
+            "/ʕ-r/",
+            "vb N suffc. 3 m. sg.",
+            "to become agitated",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "]n]ˤr[")
+
+    def test_rewrites_prefixed_assimilation_after_suffix_completion(self) -> None:
+        row = TabletRow(
+            "172310",
+            "nˤr",
+            "!n!(]n]ˤr[",
+            "/ʕ-r/",
+            "vb N suffc. 3 m. sg.",
+            "to become agitated",
+            "",
+        )
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "]n]ˤr[")
+
     def test_collapses_repeated_assimilated_n_insertions(self) -> None:
         row = TabletRow(
             "1",

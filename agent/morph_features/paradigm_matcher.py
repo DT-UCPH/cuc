@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from functools import lru_cache
 
 from linter import morphology as ug_morphology
-from pipeline.steps.analysis_utils import analysis_matches_surface
+from pipeline.steps.analysis_utils import analysis_matches_surface, normalize_surface
 
 
 @dataclass(frozen=True)
@@ -116,6 +116,14 @@ def generate_verbal_candidates(
         return []
     root = _prefer_surface_allographs(root, surface=surface)
     candidates: list[VerbalCandidate] = []
+    candidates.extend(
+        _n_suffix_iii_aleph_candidates(
+            surface=surface,
+            root=root,
+            stem=stem,
+            conjugation=conjugation,
+        )
+    )
     for form in _candidate_forms(stem=stem, conjugation=conjugation):
         features = _decode_form(form)
         if features is None:
@@ -150,6 +158,39 @@ def generate_verbal_candidates(
         seen.add(key)
         deduped.append(candidate)
     return deduped
+
+
+def _n_suffix_iii_aleph_candidates(
+    *,
+    surface: str,
+    root: tuple[str, ...],
+    stem: str,
+    conjugation: str,
+) -> list[VerbalCandidate]:
+    """Realize written N + III-aleph vowel as a 3 m. sg. suffix form."""
+    if stem != "N" or conjugation != "suffc." or len(root) != 3 or root[2] != "ʔ":
+        return []
+    normalized_surface = normalize_surface(surface)
+    if (
+        len(normalized_surface) != 4
+        or normalized_surface[0] != "n"
+        or tuple(normalized_surface[1:3]) != root[:2]
+        or normalized_surface[3] not in {"a", "i", "u"}
+    ):
+        return []
+    analysis = f"]n]{root[0]}{root[1]}(ʔ[&{normalized_surface[3]}"
+    if not analysis_matches_surface(surface, analysis):
+        return []
+    return [
+        VerbalCandidate(
+            analysis=analysis,
+            person="3",
+            gender="m.",
+            number="sg.",
+            stem=stem,
+            conjugation=conjugation,
+        )
+    ]
 
 
 def _candidate_forms(*, stem: str, conjugation: str) -> tuple[str, ...]:
@@ -255,8 +296,13 @@ def _build_body_variants(
             elif stem == "Š":
                 body = f"]š]{r1}{r2}{r3}["
             elif stem == "N":
-                marker = "(]n]"
-                body = f"{marker}{r1}{r2}{r3}["
+                if conjugation == "suffc." and r1 == "n":
+                    # When the N-stem formative and a root-initial /n/
+                    # coincide, attribute the written nun to the formative
+                    # and reconstruct the lexical radical separately.
+                    body = f"]n](n{r2}{r3}["
+                else:
+                    body = f"(]n]{r1}{r2}{r3}["
             else:
                 body = ""
             if body and body not in out:

@@ -318,6 +318,11 @@ def strip_missing(s: str) -> str:
     return re.sub(r"[xX]", "", s)
 
 
+def strip_unmarked_missing(s: str) -> str:
+    """Remove broken-sign x placeholders but preserve explicit ``&x`` signs."""
+    return re.sub(r"(?<!&)[xX]", "", s or "")
+
+
 def strip_markers_simple(s: str) -> str:
     # Remove prefix/stem markers and common morphology markers
     s = re.sub(r"!.*?!", "", s)
@@ -612,6 +617,24 @@ def reconstruct_surface_from_analysis(analysis: str) -> str:
         i += 1
 
     return "".join(out)
+
+
+_KTU_CORRECTED_SURFACE_RE = re.compile(r"(?:^|\|)\s*KTU corrected:\s*([^|;\t]+)")
+
+
+def ktu_corrected_surface_from_annotation(annotation: str) -> str | None:
+    """Extract the safe lexical lookup surface recorded by the parser.
+
+    Reconstruction must still target the physical surface in column 2.  This
+    alias is used only for DULAT form lookup when erased/redundant signs make
+    the corrected reading lexically different.
+    """
+    match = _KTU_CORRECTED_SURFACE_RE.search(annotation or "")
+    if not match:
+        return None
+    value = strip_missing(match.group(1)).strip()
+    letters = "".join(ch for ch in value if ANALYSIS_SURFACE_LETTER_RE.match(ch))
+    return letters or None
 
 
 def detect_suffix_segment(surface: str) -> Optional[str]:
@@ -1230,6 +1253,14 @@ def required_verb_stem_markers_from_pos(pos_field: str) -> set[str]:
         required.add(":pass")
     if "tD" in stems:
         required.add("]t]")
+    # A firm Gt label entails the normally explicit infixed formative.
+    # Keep uncertain `Gt?` and slash alternatives out of this hard check.
+    if any(
+        re.search(r"^\s*vb\.?\s+Gt\b(?!\?)", opt or "", flags=re.IGNORECASE)
+        for token in split_csv_field(pos_field or "")
+        for opt in split_pos_options(token)
+    ):
+        required.add("]t]")
     return required
 
 
@@ -1799,6 +1830,15 @@ def normalize_pos_option_for_validation(value: str) -> str:
     """
     tok = normalize_pos_label((value or "").strip())
     tok = strip_plurale_tantum_marker(tok)
+    # Number ambiguity is internal morphology, not a POS-head alternative.
+    # Collapse it before removing number features so `n. pl. or du.` still
+    # validates against DULAT's coarse `n.` label.
+    tok = re.sub(
+        r"\b(?:sg|du|pl)\.?\s+or\s+(?:sg|du|pl)\.?",
+        "pl.",
+        tok,
+        flags=re.IGNORECASE,
+    )
     tok = NOUN_GENDER_POS_RE.sub("n ", tok)
     tok = NOUN_BASE_POS_RE.sub("n ", tok)
     tok = ADJ_GENDER_POS_RE.sub("adj.", tok)
@@ -3146,17 +3186,28 @@ def lint_file(
                                         )
                                     )
                                 elif adj_gender != expected_gender:
-                                    issues.append(
-                                        Issue(
-                                            "error",
-                                            str(path),
-                                            i,
-                                            line_id,
-                                            surface,
-                                            a_var,
-                                            f"Adjective POS gender mismatch for {dtok}: expected adj. {expected_gender}, got adj. {adj_gender}",
+                                    feminine_surface_override = (
+                                        expected_gender == "m."
+                                        and adj_gender == "f."
+                                        and surface_form_has_feminine_morph(
+                                            dulat_forms=dulat_forms,
+                                            surface=strip_missing(surface).strip(),
+                                            lemma_tok=lemma_tok,
+                                            hom_tok=hom_tok,
                                         )
                                     )
+                                    if not feminine_surface_override:
+                                        issues.append(
+                                            Issue(
+                                                "error",
+                                                str(path),
+                                                i,
+                                                line_id,
+                                                surface,
+                                                a_var,
+                                                f"Adjective POS gender mismatch for {dtok}: expected adj. {expected_gender}, got adj. {adj_gender}",
+                                            )
+                                        )
                             selected_pos_by_declared[
                                 (normalize_surface(lemma_tok), hom_tok or "")
                             ] = pos_tok
@@ -3568,6 +3619,8 @@ def lint_file(
             )
 
         surface_clean = strip_missing(surface).strip()
+        editorial_lookup_surface = ktu_corrected_surface_from_annotation(annotation_text)
+        lexical_surface_clean = editorial_lookup_surface or surface_clean
 
         # POS strings must keep the paradigm shape (person digit + gender,
         # no repeated number tokens).
@@ -3751,7 +3804,7 @@ def lint_file(
                             )
 
             # DULAT candidates (prefer lexeme from base analysis)
-            analysis_for_lexeme = strip_missing(analysis_for_lexeme).strip()
+            analysis_for_lexeme = strip_unmarked_missing(analysis_for_lexeme).strip()
             is_verb_global = "[" in analysis
             lexeme, is_verb, lex_hom = extract_lexeme_from_analysis(analysis_for_lexeme)
             if is_verb_global:
@@ -3762,8 +3815,9 @@ def lint_file(
             is_deverbal = is_verb_global and ("/" in analysis)
             has_sh_stem = "]š]" in analysis
             has_t_stem = "]t]" in analysis
+            has_n_stem = "]n]" in analysis
             has_colon_stem = re.search(r":[A-Za-z]+", analysis) is not None
-            analysis_has_stem = has_sh_stem or has_t_stem or has_colon_stem
+            analysis_has_stem = has_sh_stem or has_t_stem or has_n_stem or has_colon_stem
 
             base_candidates: List[DulatEntry] = []
             root_candidates: List[DulatEntry] = []
@@ -3860,7 +3914,13 @@ def lint_file(
                 and "~" not in analysis_plain
             )
             skip_dulat = (
-                (not lexeme and (not surface_clean or surface_clean in {"ˤ", "ʕ", "ʿ"}))
+                (
+                    not lexeme
+                    and (
+                        not lexical_surface_clean
+                        or lexical_surface_clean in {"ˤ", "ʕ", "ʿ"}
+                    )
+                )
                 or (lexeme in {"ˤ", "ʕ", "ʿ"})
                 or is_surface_only_excised
                 or is_unresolved_placeholder(analysis_plain)
@@ -3870,17 +3930,38 @@ def lint_file(
             if skip_dulat:
                 d_candidates = []
             else:
-                surface_candidates = dulat_forms.get(normalize_surface(surface_clean), [])
+                surface_candidates = dulat_forms.get(
+                    normalize_surface(lexical_surface_clean), []
+                )
                 d_candidates, lookup_mode = choose_lookup_candidates(
                     lexeme=lexeme,
                     lexeme_candidates=lexeme_candidates,
                     surface_candidates=surface_candidates,
                 )
+                # Editorially corrected tokens are deliberately parsed against
+                # the corrected reading rather than the physical signs.  Some
+                # DULAT entries lack that corrected form in their form table,
+                # so accept the explicitly declared entry by lemma in this
+                # narrowly annotated case (the structured-column validation
+                # above has already verified that the entry itself exists).
+                if editorial_lookup_surface is not None and declared_head:
+                    editorial_declared_candidates = list(
+                        lemma_map.get(normalize_surface(declared_head), [])
+                    )
+                    if declared_hom:
+                        editorial_declared_candidates = [
+                            candidate
+                            for candidate in editorial_declared_candidates
+                            if candidate.homonym == declared_hom
+                        ]
+                    if editorial_declared_candidates:
+                        d_candidates = dedupe_entries(editorial_declared_candidates)
+                        lookup_mode = "editorial-declared"
                 if (
                     d_candidates
                     and declared_head
                     and declared_head.endswith("t")
-                    and surface_clean.endswith("t")
+                    and lexical_surface_clean.endswith("t")
                     and "/t" in analysis
                 ):
                     declared_homonym = declared_hom or ""
@@ -4108,7 +4189,9 @@ def lint_file(
                         matched_entry_ids = {m.entry_id for m in matched}
                         surface_form_morphs_raw = {
                             (f.morph or "").strip()
-                            for f in dulat_forms.get(normalize_surface(surface_clean), [])
+                            for f in dulat_forms.get(
+                                normalize_surface(lexical_surface_clean), []
+                            )
                             if f.entry_id in matched_entry_ids and (f.morph or "").strip()
                         }
                         surface_form_morphs = {morph.lower() for morph in surface_form_morphs_raw}
@@ -4232,7 +4315,7 @@ def lint_file(
                             and has_plurale_tantum_m_entry
                             and analysis_has_missing_lexeme_m_before_plural_split(
                                 analysis=analysis,
-                                surface=surface_clean,
+                                surface=lexical_surface_clean,
                                 declared_lemma=head_lemma,
                             )
                         ):
@@ -4249,7 +4332,7 @@ def lint_file(
                             )
                         if noun_like and analysis_has_missing_iii_aleph_case_encoding(
                             analysis=analysis,
-                            surface=surface_clean,
+                            surface=lexical_surface_clean,
                             declared_lemma=head_lemma,
                         ):
                             issues.append(
@@ -4274,11 +4357,11 @@ def lint_file(
                             and not has_t_split
                             and analysis_has_missing_feminine_singular_split(
                                 analysis=analysis,
-                                surface=surface_clean,
+                                surface=lexical_surface_clean,
                             )
                             and not analysis_has_missing_plural_split(
                                 analysis=analysis,
-                                surface=surface_clean,
+                                surface=lexical_surface_clean,
                             )
                         ):
                             issues.append(
@@ -4435,11 +4518,11 @@ def lint_file(
                         morph = " ; ".join(sorted(morph_values))
                         if (
                             "suff" in morph and ("pn" in morph or "pers." in morph)
-                        ) and "+" not in analysis:
+                        ) and "+" not in analysis and "~" not in analysis:
                             lemma_letters = re.sub(
                                 r"[^A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]", "", head_lemma or ""
                             )
-                            if len(normalize_surface(surface_clean)) > len(
+                            if len(normalize_surface(lexical_surface_clean)) > len(
                                 normalize_surface(lemma_letters)
                             ):
                                 issues.append(
@@ -4462,7 +4545,7 @@ def lint_file(
                             and not is_plurale_tantum_marked
                             and analysis_has_missing_suffix_plus(
                                 analysis=analysis,
-                                surface=surface_clean,
+                                surface=lexical_surface_clean,
                             )
                         ):
                             issues.append(
@@ -4484,7 +4567,7 @@ def lint_file(
                             and not is_plurale_tantum_marked
                             and analysis_has_missing_plural_split(
                                 analysis=analysis,
-                                surface=surface_clean,
+                                surface=lexical_surface_clean,
                             )
                         ):
                             issues.append(

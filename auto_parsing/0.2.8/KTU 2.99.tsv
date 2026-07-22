@@ -19,7 +19,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180036	yit	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 6						
 180037	ˤmk	ˤm(I)+k	ʕm (I)	prep.	2) relationship of accompaniment	
-180037	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 # KTU 2.99 7						
 180038	xxxxtddhm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 8						
@@ -32,12 +31,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180043	xxm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 11						
 180044	x	?	?	?	?	
-180045	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
-180046	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	3) deep red purple	
+180045	alp	alp(II)/	ảlp (II)	num.	1) (one, a) thousand c) in appos	DULAT quote in ảlp (II) (cue: thousand)
+180046	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	3) deep red purple	
 # KTU 2.99 12						
 180047		?	?	?	?	
-180048	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
-180049	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	3) espec. violet purple	
+180048	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+180048	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+180048	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+180049	iqni	iqn(u&i/	ỉqnủ	n. m. abs. nom.	3) espec. violet purple	
 180050	w	w	w	conj.	1) copulative conj.	
 180051	ˤmy	ˤm(I)+y	ʕm (I)	prep.	2) relationship of accompaniment	
 180052	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
@@ -59,19 +60,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 19						
 180060	pln	pl[+n	/p-l(-l)/	vb G suffc.	to be cracked	
 # KTU 2.99 20						
-180061	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
-180062	mr	mr(I)/	mr (I)	n. m. sg. abs. gen.	myrrh	
+180061	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+180062	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
+180062	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
+180062	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+180062	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
 # KTU 2.99 21						
 180063	xxspln	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 22						
-180064	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
-180065	nr	nr/	nr	n. m. sg. cstr. gen.	sheen	
+180064	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+180065	nr	nr/	nr	n. m. sg. cstr. nom.	sheen	
+180065	nr	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.99 23						
-180066	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. gen.	pitcher	DULAT quote in gpt (cue: pitcher)
+180066	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. nom.	pitcher	DULAT quote in gpt (cue: pitcher)
 180067	gpt	gp(I)/t	gp (I)	n. f. sg. cstr. gen.	shore	
 # KTU 2.99 24						
-180068	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. gen.	pitcher	DULAT quote in kt (I) (cue: pitcher)
-180069	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. gen.	vinegar	
+180068	kt	k(t(I)/t	kt (I)	n. f. sg. abs. gen.	pitcher	DULAT quote in kt (I) (cue: pitcher)
+180069	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	DULAT quote in ḥmṣ (cue: vinegar)
 180070	w	w	w	conj.	1) copulative conj.	
 180071	nbt	nb(t/t	nbt	n. f. sg. abs. nom.	1) honey a) kd nbt “jar(s)” of honey	
 # KTU 2.99 25						
@@ -81,7 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 26						
 180075	w	w	w	conj.	and	
 180076	l	l(I)	l (I)	prep.	to	
-180077	klby	klb(I)/+y	klb (I)	n. m. cstr. gen.	dog	
+180077	klby	klby/	klby	PN sg. abs. gen.	klby	
 # KTU 2.99 27						
 180078	xxlḥm	?	?	?	?	DULAT: NOT FOUND
 180079	tn	(ytn[	/y-t-n/	vb	give	

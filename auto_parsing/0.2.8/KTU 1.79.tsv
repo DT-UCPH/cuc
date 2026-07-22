@@ -14,8 +14,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.79 3						
 169078	ˤbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. gen.	3) faithful	
 169079	ulm	ulm/	ủlm	TN sg. abs. gen.	ủlm	
-169079	ulm	ul/+m(I)	ủl	n. m. cstr. gen.	(military) force	
 169080	ṯn	ṯn(I)/	ṯn (I)	num.	4) adv. use	
+169080	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 169081	un	un/	ủn	n. m. sg. cstr. nom.	grief	
 169082	ḫsn	ḫsn(I)/	ḫsn (I)	n. m. cstr. gen.	clientele	
 # KTU 1.79 4						
@@ -23,9 +23,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169084	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of, take, grasp	
 169084	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of, take, grasp	
 169085	ṣtqn	ṣ(d&tqn/	ṣdqn	PN sg. cstr. nom.	ṣdqn	
-169086	gt	g(t/t	gt	n. f. sg. cstr. gen.	gittu	
-169087	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-169088	ndk	ndk/	ndk	PN sg. abs. gen.	ndk	
+169086	gt	g(t/t	gt	n. f. sg. abs. gen.	gittu	
+169087	bn	b+n	b	prep.	in	
+169087	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+169087	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+169087	bn	bn(II)	bn (II)	prep.	between	
+169087	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+169087	bn	bn[	/b-n/	vb G impv. 2	to understand	
+169088	ndk	ndk/	ndk	PN sg. abs. nom.	ndk	
 # KTU 1.79 5						
 169089	u	u	ủ	conj.	3) or (is that)?	
 169090	mru	mru(III)/	mrủ (III)	n. m. sg. cstr. nom.	chief groom	
@@ -52,10 +57,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169104	u	u	ủ	conj.	or	
 169105	b	b	b	prep.	in	
 169106	gt	g(t/t	gt	n. f. sg. cstr. gen.	gittu	
-169107	ilštmˤ	ilštmˤ/	ỉlštmʕ	TN sg. cstr. gen.	ỉlštmʿ	
-169108	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. gen.	sacrifice	
-169108	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. cstr. gen.	to sacrifice	
-169109	ṣtqn	ṣ(d&tqn/	ṣdqn	PN sg. abs. gen.	ṣdqn	
+169107	ilštmˤ	ilštmˤ/	ỉlštmʕ	TN sg. abs. gen.	ỉlštmʿ	
+169108	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
+169108	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
+169108	dbḥ	dbḥ[	/d-b-ḥ/	vb G suffc. 3 m. sg.	to sacrifice	
+169108	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
+169108	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
+169109	ṣtqn	ṣ(d&tqn/	ṣdqn	PN sg. abs. nom.	ṣdqn	
 # KTU 1.79 8						
 169110	l	l(I)	l (I)	prep.	to	
 # KTU 1.79 9						

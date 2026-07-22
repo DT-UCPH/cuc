@@ -13,7 +13,7 @@ For full rules and examples, see `agent/Morphological_Labeling_Agent_Guide.md`.
    - raw CUC TSV: `python scripts/export_text_fabric_tablet_sources.py && python linter/lint.py 'generated_sources/cuc_tablets_tsv/<latest-tf-version>/KTU 1.5.tsv' --input-format cuc_tablets_tsv --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`
    - labeled output: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format labeled --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`
    - mixed/unknown: `python linter/lint.py 'out/KTU 1.5.tsv' --input-format auto --dulat local_sources/dulat_cache.sqlite --udb local_sources/udb_cache.sqlite`.
-4. Check weak-final finite SC `-t` forms: for `/...-...-y/` or `/...-...-w/` verbs with surface ending `t`, use `[t` (for example `nš(y[t:n`), not `t[`.
+4. Check weak-final finite SC `-t` forms: for `/...-...-y/` or `/...-...-w/` verbs with surface ending `t`, use `[t` (for example N-stem `]n](nš(y[t`), not `t[`.
 5. For quick token-id -> line-reference lookup in current TSV files, use:
    - `python3 scripts/token_ref_index.py --id 139891 --glob 'out/KTU 1.*.tsv'`
 6. If local DULAT+UDB server is available (`http://127.0.0.1:8000`), use:

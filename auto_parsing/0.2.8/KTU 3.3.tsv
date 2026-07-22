@@ -7,14 +7,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180722	ˤrb	ˤrb[:w	/ʕ-r-b/ (II)	vb G suffc. 3 m. pl.	1) to give a guarantee or pledge	DULAT quote in /ʕ-r-b/ (II) (cue: guarantee)
 # KTU 3.3 3						
 180723	b	b	b	prep.	3) relationship of cause or reason	
-180724	mtn	mt(II)/+n	mt (II)	n. m. cstr. gen.	death	
+180724	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
 180724	mtn	mt[n	/m-t/	vb	to die	
 180724	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-180724	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. gen.	to die	
+180724	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+180724	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
+180724	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
 180725	bn	b+n	b	prep.	3) relationship of cause or reason	
 180725	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 180725	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 180725	bn	bn(II)	bn (II)	prep.	between	
+180725	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+180725	bn	bn[	/b-n/	vb G impv. 2	to understand	
 180726	ayaḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.3 4						
 180727	b	b	b	prep.	1) spatial location a) place in which something occurs	
@@ -29,8 +33,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180734	dt	d+t	d	det. or rel. functor	2) which	
 180735	tknn	!t!knn[:l	/k-n/	vb L prefc.	to establish	
 # KTU 3.3 7						
+180736	ˤl	ˤl(I)	ʕl (I)	prep.	3) relationship of exchange or profit	
+180736	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+180736	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 180736	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-180737	ˤrbnm	ˤrbn/m	ʕrbn	n. m. pl. abs. gen.	guarantor	
+180737	ˤrbnm	ˤrbn/m	ʕrbn	n. m. pl. abs. nom.	guarantor	
 # KTU 3.3 8						
 180738	hnhmt	hn&hmt/	hn(h)mt	dem./adj. pl.	these	
 # KTU 3.3 9						
@@ -40,28 +47,32 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180740	mtn	mt[n	/m-t/	vb	to die	
 180740	mtn	mt[+n	/m-t/	vb G suffc.	to die	
 180740	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
+180740	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
+180740	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
+180741	bn	b+n	b	prep.	in	
 180741	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 180741	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 180741	bn	bn(II)	bn (II)	prep.	between	
 180741	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180741	bn	bn[	/b-n/	vb G impv. 2	to understand	
-180742	ˤbdym	ˤbdym/	ʕbdym	PN sg. abs. nom.	ʿbdym	
+180742	ˤbdym	ˤbdym/	ʕbdym	PN sg. cstr. nom.	ʿbdym	
 # KTU 3.3 11						
-180743	ilrb	ilrb/	ỉlrb	PN sg. abs. nom.	ỉlrb	
+180743	ilrb	ilrb/	ỉlrb	PN sg. abs. gen.	ỉlrb	
+180744	bn	b+n	b	prep.	in	
 180744	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 180744	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 180744	bn	bn(II)	bn (II)	prep.	between	
 180744	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180744	bn	bn[	/b-n/	vb G impv. 2	to understand	
-180745	ilyn	il(I)&y/+n	ỉl (I)	n. m. cstr. nom.	god	
-180745	ilyn	ilyn/	ỉlyn	PN sg. abs. nom.	ỉlyn	
+180745	ilyn	ilyn/	ỉlyn	PN sg. cstr. nom.	ỉlyn	
 # KTU 3.3 12						
-180746	ˤbdadt	ˤbdadt/	ʕbdảdt	PN sg. abs. nom.	ʿbdảdt	
+180746	ˤbdadt	ˤbdadt/	ʕbdảdt	PN sg. abs. gen.	ʿbdảdt	
+180747	bn	b+n	b	prep.	in	
 180747	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 180747	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 180747	bn	bn(II)	bn (II)	prep.	between	
 180747	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180747	bn	bn[	/b-n/	vb G impv. 2	to understand	
-180748	ˤbdkb	ˤbdkb/	ʕbdkb	PN sg. abs. nom.	Kubaba	
+180748	ˤbdkb	ˤbdkb/	ʕbdkb	PN sg. cstr. nom.	Kubaba	
 # KTU 3.3 13						
-180749	gnˤym	gnˤy/m	gnʕy	GN pl. abs. nom.	gnʿy	
+180749	gnˤym	gnˤy/m	gnʕy	GN pl. abs. gen.	gnʿy	

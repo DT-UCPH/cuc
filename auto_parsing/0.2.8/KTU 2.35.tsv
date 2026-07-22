@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177376	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 2.35 6						
 177377	šlmk	šlm[:d+k	/š-l-m/	vb G suffc.	to be well, do well, be in peace	
-177377	šlmk	šlm[+k	/š-l-m/	vb D suffc.	to re-establish > to pay	
+177377	šlmk	šlm[:d+k	/š-l-m/	vb D suffc.	to re-establish > to pay	
 177377	šlmk	šlm(I)/+k	šlm (I)	n. m. cstr. nom.	peace	
 177377	šlmk	šlm(III)/+k	šlm (III)	adj. m. cstr. nom.	pure	
 # KTU 2.35 7						
@@ -24,10 +24,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177380	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.35 8						
 177381	mx	?	?	?	?	DULAT: NOT FOUND
+177382	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 177382	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-177382	rb	rb/	rb(b)	n. m. sg. cstr. nom.	drizzle	
+177382	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+177382	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 # KTU 2.35 9						
-177383	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+177383	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.35 10						
 177384	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
 177384	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND

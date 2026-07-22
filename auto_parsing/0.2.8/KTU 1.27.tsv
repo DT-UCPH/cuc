@@ -30,10 +30,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.27 9						
 166868	w	w	w	conj.	and	
 166869	ṯt	ṯt(I)/	ṯn (I)	num. f.	1) the numeral two b) ge	
-166870	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	6) (piece of) offal	
-166871	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
+166870	npš	npš(I)/	npš (I)	n. f. sg. abs. nom.	6) (piece of) offal	
+166871	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+166871	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+166871	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 # KTU 1.27 10						
-166872	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. gen.	total (quantity or price)	
+166872	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
 166873	ṯ	ṯ	ṯ	→	?	
 # KTU 1.27 11						
 166874	l	l(I)	l (I)	prep.	to	

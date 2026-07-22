@@ -29,18 +29,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168542	w	w	w	conj.	and	
 168543	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. nom.	back part (of the head)	
 # KTU 1.65 6						
-168544	ḥnn	ḥn/+n	ḥn	n. m. cstr. gen.	grace	
 168544	ḥnn	ḥnn(I)/	ḥnn (I)	n. m. cstr. gen.	kindness	
 168545	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 168545	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 # KTU 1.65 7						
 168546	nṣbt	nṣb(t/t	nṣbt	n. f. sg. cstr. gen.	predilection	
-168547	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-168547	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+168547	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
+168547	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 8						
-168548	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. gen.	1) peace a) sk šlm l kbd ảrṣ pour out peace into the bosom of the earth	
-168549	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-168549	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+168548	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+168548	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+168548	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
+168548	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	1) peace a) sk šlm l kbd ảrṣ pour out peace into the bosom of the earth	
+168549	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+168549	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 # KTU 1.65 9						
 168550	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
 168551	ḫš	ḫš/	ḫš	DN sg. cstr. gen.	ḫš	
@@ -65,9 +67,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168563	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 14						
 168564	b	b	b	prep.	in	
-168565	ṣmd	ṣmd/	ṣmd	n. m. sg. cstr. gen.	4) mace or double axe (De Moor SP 135)	
-168566	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-168566	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+168565	ṣmd	ṣmd/	ṣmd	n. m. sg. abs. nom.	4) mace or double axe (De Moor SP 135)	DULAT quote in ṣmd (cue: mace)
+168566	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+168566	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+168566	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+168566	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.65 15						
 168567	b	b	b	prep.	in	
 168568	dṯn	dṯn/	dṯn	n. m. sg. cstr. gen.	fat offering	
@@ -90,6 +94,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168578	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 # KTU 1.65 19						
 168579	b	b	b	prep.	in	
-168580	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. cstr. gen.	hunt	
-168581	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-168581	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
+168580	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	
+168580	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. abs. nom.	hunt	
+168581	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+168581	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+168581	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+168581	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	

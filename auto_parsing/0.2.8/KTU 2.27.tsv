@@ -1,10 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.27 1						
 176724	ˤšt	ˤš(t/t	ʕšt(y)	num. sg.	1) one b) in the syntagm ʕšt ʕšr	
-176725	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. cstr. nom.	banquet	
+176725	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
+176725	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
+176725	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
+176725	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
+176725	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 # KTU 2.27 2						
-176726	kst	ks(t/t	kst	n. f. sg. abs. gen.	Gewand	
-176726	kst	ks(t/t=	kst	n. f. pl. abs. gen.	Gewand	
+176726	kst	ks(t/t	kst	n. f. sg. abs. nom.	Gewand	
+176726	kst	ks(t/t=	kst	n. f. pl. abs. nom.	Gewand	
 # KTU 2.27 3						
 176727	w	w	w	conj.	and	
 176728	g	g/	g	n. m. abs. nom.	(loud) voice	

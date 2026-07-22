@@ -30,9 +30,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177587	ˤmk	ˤm(I)+k	ʕm (I)	prep.	to	
 177587	ˤmk	ˤm(II)&k/	ʕm (II)	n. m. abs. nom.	lineage	
 177588	mnm	mnm	mnm	indef. pn.	any(thing)	
-177589	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	peace	
+177589	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+177589	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 # KTU 2.38 9						
-177590	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+177590	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 177591	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word)	
 177591	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word)	
 # KTU 2.38 10						
@@ -40,24 +41,27 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177593	dt	d+t	d	det. or rel. functor	2) which	
 # KTU 2.38 11						
 177594	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-177595	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	DULAT quote in mṣrm (cue: egypt)
+177595	mṣrm	mṣrm/	mṣrm	TN sg. abs. nom.	Egypt	
 # KTU 2.38 12						
 177596	hndt	hnd&t	hnd	dem.	2) pn. this	
 177597	b	b	b	prep.	in	
 177598	ṣr	ṣr/	ṣr	TN sg. cstr. gen.	Tyre	
 # KTU 2.38 13						
 177599	tmtt	tmt(t/t	tmtt	n. f. sg. abs. gen.	group of men	
-177600	bygš	?	?	?	?	DULAT: NOT FOUND
+177600	bygš	b&ygš	b	prep.	3) relationship of cause or reason	KTU corrected: by
 # KTU 2.38 14						
-177601	gšm	gšm/	gšm	n. m. sg. abs. nom.	rain	
+177601	gšm	gšm/	gšm	n. m. sg. abs. gen.	rain	
 177602	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	1) wonderful	
+177602	adr	adr(II)/	ảdr (II)	n. m. sg. abs. nom.	granary	
 # KTU 2.38 15						
 177603	nškḥ	?	?	?	?	DULAT: NOT FOUND
 177604	w	w	w	conj.	and	
 # KTU 2.38 16						
+177605	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 177605	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
-177605	rb	rb/	rb(b)	n. m. sg. cstr. nom.	drizzle	
-177606	tmtt	tmt(t/t	tmtt	n. f. sg. abs. gen.	group of men	
+177605	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+177605	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+177606	tmtt	tmt(t/t	tmtt	n. f. sg. abs. nom.	group of men	
 # KTU 2.38 17						
 177607	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of, take, grasp	
 177607	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of, take, grasp	
@@ -78,9 +82,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177618	klklhm	klkl/+hm	klkl	n. m. cstr. nom.	anybody	
 177619	bd	b&d	b	prep.	in	
 # KTU 2.38 22						
-177620	rb	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief	
-177620	rb	rb/	rb(b)	n. m. sg. cstr. gen.	drizzle	
-177621	tmtt	tmt(t/t	tmtt	n. f. sg. abs. gen.	group of men	
+177620	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
+177620	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
+177620	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
+177620	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
+177621	tmtt	tmt(t/t	tmtt	n. f. sg. abs. nom.	group of men	
 177622	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc. 1 c. sg.	to get hold of	
 # KTU 2.38 23						
 177623	w	w	w	conj.	and	

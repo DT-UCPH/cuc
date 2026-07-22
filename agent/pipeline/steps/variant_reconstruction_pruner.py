@@ -1,4 +1,4 @@
-"""Drop variant rows that cannot reconstruct their surface.
+"""Drop structurally invalid variant rows when a healthy sibling exists.
 
 Cross-token leakage occasionally attaches a foreign analysis to a token
 (`gh -> ytn[`). Such rows are detectable mechanically: their analysis does
@@ -13,6 +13,7 @@ from typing import List, Tuple
 
 from linter.lint import (
     ANALYSIS_SURFACE_LETTER_RE,
+    invalid_affix_segments,
     normalize_surface,
     reconstruct_surface_from_analysis,
 )
@@ -34,6 +35,11 @@ def _row_reconstructs(row: TabletRow) -> bool:
     return reconstructed == _expected_surface(row.surface.strip())
 
 
+def _row_is_viable(row: TabletRow) -> bool:
+    """Return true for reconstructable rows whose affixes are in paradigm."""
+    return _row_reconstructs(row) and not invalid_affix_segments(row.analysis)
+
+
 def _row_is_protected(row: TabletRow) -> bool:
     if (row.analysis or "").strip() in {"", "?"}:
         return True
@@ -41,7 +47,7 @@ def _row_is_protected(row: TabletRow) -> bool:
 
 
 class VariantReconstructionPruner(RefinementStep):
-    """Removes parser-artifact variants shadowing a reconstructable sibling."""
+    """Remove parser artifacts shadowed by a structurally valid sibling."""
 
     @property
     def name(self) -> str:
@@ -73,12 +79,12 @@ class VariantReconstructionPruner(RefinementStep):
             healthy = [
                 (idx, row)
                 for idx, row in group
-                if not _row_is_protected(row) and _row_reconstructs(row)
+                if not _row_is_protected(row) and _row_is_viable(row)
             ]
             if not healthy:
                 return
             for idx, row in group:
-                if _row_is_protected(row) or _row_reconstructs(row):
+                if _row_is_protected(row) or _row_is_viable(row):
                     continue
                 drop_lines.add(idx)
 

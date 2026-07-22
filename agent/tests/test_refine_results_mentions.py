@@ -21,6 +21,7 @@ from scripts.refine_results_mentions import (
     parse_separator_ref,
     refine_file,
     render_variant,
+    select_viable_ranked_variants,
 )
 
 _INSERT_ENTRY_SQL = (
@@ -68,6 +69,53 @@ class RefineResultsMentionsTest(unittest.TestCase):
             wiki_tr="",
         )
         self.assertEqual(entry_label(entry), "ỉ/ủšḫry")
+
+    def test_ranked_selection_preserves_exact_homonyms(self) -> None:
+        variants = [
+            Variant((Entry(1, "ṯn", "I", "num.", "two", ""),), "ṯn", score=30),
+            Variant((Entry(2, "ṯn", "II", "num./adj.", "second", ""),), "ṯn", score=24),
+            Variant((Entry(3, "ṯn", "III", "n. m.", "crimson", ""),), "ṯn", score=23),
+        ]
+
+        selected = select_viable_ranked_variants(
+            variants,
+            surface="ṯn",
+            max_variants=5,
+        )
+
+        self.assertEqual([entry_label(v.entries[0]) for v in selected], [
+            "ṯn (I)",
+            "ṯn (II)",
+            "ṯn (III)",
+        ])
+
+    def test_ranked_selection_prunes_weak_derived_hypothesis(self) -> None:
+        variants = [
+            Variant((Entry(1, "ṯn", "I", "num.", "two", ""),), "ṯn", score=25),
+            Variant((Entry(2, "/ṯ-n-y/", "", "vb", "to repeat", ""),), "ṯn", score=16),
+        ]
+
+        selected = select_viable_ranked_variants(
+            variants,
+            surface="ṯn",
+            max_variants=5,
+        )
+
+        self.assertEqual([entry_label(v.entries[0]) for v in selected], ["ṯn (I)"])
+
+    def test_ranked_selection_keeps_hard_review_ceiling(self) -> None:
+        variants = [
+            Variant((Entry(i, "št", str(i), "n.", f"sense {i}", ""),), "št", score=30 - i)
+            for i in range(1, 7)
+        ]
+
+        selected = select_viable_ranked_variants(
+            variants,
+            surface="št",
+            max_variants=5,
+        )
+
+        self.assertEqual(len(selected), 5)
 
     def test_entry_label_preserves_non_root_slash_lemma(self) -> None:
         entry = Entry(

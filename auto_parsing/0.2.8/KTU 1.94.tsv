@@ -57,14 +57,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.94 24						
 170780	t	/t, /t=				DULAT: NOT FOUND
 170780	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-170781	btm	bt(II)/m	bt (II)	n. m. pl. cstr. nom.	house	
-170781	btm	bt(I)/m	bt (I)	n. f. pl. cstr. nom.	daughter	
-170782	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	
-170783	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-170783	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+170781	btm	bt(II)/m	bt (II)	n. m. pl. abs. nom.	house	
+170781	btm	bt(I)/m	bt (I)	n. f. pl. abs. nom.	daughter	
+170782	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
+170782	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
+170783	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
+170783	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
+170783	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
+170783	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
 # KTU 1.94 25						
 170784		?	?	?	?	
-170785	bn	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	
+170785	bn	b+n	b	prep.	in	
+170785	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+170785	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+170785	bn	bn(II)	bn (II)	prep.	between	
+170785	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+170785	bn	bn[	/b-n/	vb G impv. 2	to understand	
 170786	qdškb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.94 26						
 170787	ˤsb	ˤsb	ʕsb	?	?	

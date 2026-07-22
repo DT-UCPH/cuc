@@ -6,7 +6,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180384	u	u	ủ	conj.	2) and / also	
 180385	aḥd	aḥd/	ảḥd	adj. m. sg. abs. nom.	2) adv	
 180385	aḥd	aḥd(II)/	ảḥd (II)	subst./adj. sg.	only one	
-180385	aḥd	!(ʔ&a!ḥd(y[	/ḥ-d-y/	vb G prefc. 1 c. sg.	to see	
 180386	inn	in&n/	ỉn	n. m. abs. nom.	2) he / she / it does not have	
 180387	xxx	?	?	?	?	
 # KTU 2.108 3						
@@ -19,8 +18,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180391	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	1) to know	
 180391	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	1) to know	
 180391	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	1) to know	
-180392	kl	kl/	kl	n. m. sg. abs. nom.	1) totality (of) b) cstr. with n	
-180393	bnšm	bnš/~m	bnš	n. m. abs. nom. pl.	1) man	
+180392	kl	kl/	kl	n. m. sg. cstr. nom.	1) totality (of) b) cstr. with n	
+180393	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	1) man	
 # KTU 2.108 5						
 180394	dt	d+t	d	det. or rel. functor	2) which	
 180395	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
@@ -28,7 +27,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180395	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
 180396	ṯmn	ṯmn(I)	ṯmn(y) (I)	num.	eight	
 180396	ṯmn	ṯm+n	ṯm	adv.	there	
-180396	ṯmn	ṯmn(II)/	ṯmn (II)	adj. sg. abs. nom.	eighth	
 # KTU 2.108 6						
 180397	ht	ht	ht	adv.	1) adv b) of time	
 180398	at	at(I)	ảt (I)	pers. pn.	you	
@@ -39,7 +37,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180402	ḫbṯ	ḫbṯ[	/ḫ-b-ṯ/	vb G suffc. 3 m. sg.	to flee	
 180402	ḫbṯ	ḫbṯ[/	/ḫ-b-ṯ/	vb Gpass ptcpl. m. sg. abs. nom.	to flee	
 180402	ḫbṯ	ḫbṯ/	ḫbṯ	adj. m. sg. abs. nom.	emancipated	
-180403	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
+180403	ṯmn	ṯmn(I)	ṯmn(y) (I)	num.	eight	
+180403	ṯmn	ṯm+n	ṯm	adv.	there	
 # KTU 2.108 8						
 180404	by	b+y	b	prep.	in	
 180405	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
@@ -52,6 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180406	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 180406	št	št[	/š-t/	vb G impv. 2	to place	
 180406	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
+180406	št	št(III)/	št (III)	n. m. sg. abs. nom.	tearing apart	
 180406	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 180406	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
 # KTU 2.108 9						
@@ -73,13 +73,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.108 12						
 180416	lhm	l(I)+hm	l (I)	prep.	1) prep. of direction b) ventive	
 180417	w	w	w	conj.	1) copulative conj.	
-180418	ḫpṯ	ḫpṯ/	ḫpṯ	n. m. sg. cstr. nom.	1) fugitive	
+180418	ḫpṯ	ḫpṯ/	ḫpṯ	n. m. sg. abs. nom.	1) fugitive	
 # KTU 2.108 13						
-180419	p	p(III)/	p (III)	n. m. sg. abs. gen.	mouth	
+180419	p	p(I)	p (I)	conj. functor	and	
+180419	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+180419	p	p(II)	p (II)	adv.	here	
 180420	mnm	mnm	mnm	indef. pn.	any(thing)	
 180421	hw	hw	hw	pers. pn.	he	
 180422	w	w	w	conj.	and	
 # KTU 2.108 14						
 180423	b	b	b	prep.	4) relation of accompaniment and instrumental b) instrumental	
-180424	spr	spr(II)/	spr (II)	n. m. sg. cstr. gen.	2) writing	DULAT quote in b (cue: writing)
-180425	štnn	št(II)/+nn	št (II)	n. f. cstr. gen.	raíz	
+180424	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	2) writing	DULAT quote in b (cue: writing)
+180425	štnn	št[n+n	/š-t/	vb G impv. 2	to place, set, set up, leave	
+180425	štnn	št[:pass+nn	/š-t/	vb G suffc.	to place, set, set up, leave	
+180425	štnn	št[:pass+nn	/š-t/	vb G impv. 2	to place, set, set up, leave	
+180425	štnn	št[:pass+nn	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
+180425	štnn	št(III)/+nn	št (III)	n. m. cstr. nom.	tearing apart	
+180425	štnn	št(II)/+nn	št (II)	n. f. cstr. nom.	raíz	
+180425	štnn	št(I)/+nn	št (I)	n. m. cstr. nom.	base	

@@ -24,8 +24,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166835	lẓpn	l(ṭ&ẓpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 # KTU 1.25 6						
 166836	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
-166837	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	
-166837	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
+166836	pn	pn	pn	functor	lest	
+166837	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day d) in conj. with (vb) expressions (when)	
+166837	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day d) in conj. with (vb) expressions (when)	
+166837	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 166838	ymgn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 7						
 166839	i	i(I)	ỉ (I)	interj.	woe	

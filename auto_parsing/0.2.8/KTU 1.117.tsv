@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173464	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 173464	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 173465	abh	ab/+h	ảb	n. m. cstr. gen.	1) father b) espec. of El (Rahmouni DEUAT 3ff.)	
-173466	ilmšr	?	?	?	?	DULAT: NOT FOUND
+173466	ilmšr	?	?	?	?	DULAT candidates (no reconstructable encoding): ỉl (I) - god
 # KTU 1.117 4						
 173467	lk	l(I)+k	l (I)	prep.	to	
 173468	w	w	w	conj.	and	
@@ -34,20 +34,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.117 7						
 173479		?	?	?	?	
 173480	pdry	pdry/	pdry	DN sg. abs. nom.	Pidray	
-173480	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 173481	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 173482	ar	ar/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 1.117 8						
 173483	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 173483	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-173484	mtm	mt(II)/~m	mt (II)	n. m. abs. nom. sg.	death	
+173484	mtm	mt(II)/~m	mt (II)	n. m. sg. abs. nom.	death	
 173484	mtm	!!mt[/~m	/m-t/	vb G inf.	to die	
+173484	mtm	mt(III)/m	mt (III)	n. m. pl. cstr. nom.	man	
 173484	mtm	mt(I)/m	mt (I)	n. m. pl. abs. nom.	dead person	
 173485	šknt	škn[t	/š-k-n/	vb G suffc. 1 c. sg.	to be placed, settle, stay	
 # KTU 1.117 9						
 173486	x	?	?	?	?	
-173487	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	2) DN “Mountain(s)”	
-173488	ṭlm	ṭl/+m(I)	ṭl	n. m. cstr. gen.	dew	
+173487	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	2) DN “Mountain(s)”	
+173487	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
+173488	ṭlm	ṭlm	ṭlm	?	dew	
 # KTU 1.117 10						
 173489	ryt	?	?	?	?	DULAT: NOT FOUND
 173490	aṣṣ	!(ʔ&a!(nṣṣ[	/n-ṣ-ṣ/	vb G prefc. 1 c. sg.	to take flight, fly	
@@ -67,11 +68,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173495	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 173495	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 173495	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
-173495	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 173495	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 173495	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 173496	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	
-173496	pdry	pdr(I)/+y	pdr (I)	n. m. cstr. nom.	town	
 # KTU 1.117 12						
 173497	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 173498	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	

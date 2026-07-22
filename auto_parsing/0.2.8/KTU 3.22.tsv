@@ -1,10 +1,12 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.22 1						
 181503	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	1) a hundred	
-181504	kkr	kkr/	kkr	n. m. sg. cstr. gen.	talent	
+181504	kkr	kkr/	kkr	n. m. sg. abs. gen.	talent	
 # KTU 3.22 2						
-181505	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	(head of) cattle	
-181506	mitm	mit/m	mỉt	n. f. pl. cstr. gen.	a hundred	
+181505	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
+181505	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
+181505	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
+181506	mitm	mit/m	mỉt	n. f. pl. cstr. nom.	a hundred	
 181507	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. gen.	total (quantity or price)	
 # KTU 3.22 3						
 181508	d	d	d	det. or rel. functor	the one(s) of	

@@ -33,9 +33,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179798	nˤm	nˤm(I)/	nʕm (I)	adj. m. sg. abs. nom.	1) handsome b) pleasant	
 179798	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
 179799	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: that)
-179800	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. cstr. nom.	1) to know	
+179800	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	1) to know	
+179800	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	1) to know	
+179800	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	1) to know	
 # KTU 2.91 8						
-179801	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. gen.	lord	
+179801	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 179802	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 179802	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 179802	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	

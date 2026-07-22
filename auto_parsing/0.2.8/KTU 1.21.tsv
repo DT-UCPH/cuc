@@ -39,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.21 II:7						
 165755	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	2) set of three	
 165756	amġy	!(ʔ&a!mġy[	/m-ġ-y/	vb G prefc. 1 c. sg.	to come, arrive	
-165757	l	l(I)	l (I)	prep.	to	
+165757	l	l(I)	l (I)	prep.	to	DULAT direct ref
 165758	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 # KTU 1.21 II:8						
 165759	y	~y	-y (II)	prep. functor	indeed	
@@ -47,8 +47,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 165760	l	l(I)	l (I)	prep.	to	
 165760	l	l(II)	l (II)	adv.	no	
 165760	l	l(III)	l (III)	functor	certainly	
+165761	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 165761	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
-165762	hkly	hkl/+y	hkl	n. m. cstr. gen.	palace	
+165762	hkly	hkl/+y	hkl	n. m. cstr. nom.	palace	
 165763	w	w	w	conj.	and	
 165764	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 165764	yˤn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see	

@@ -29,7 +29,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.54 11						
 168396	ṯwṯk	?	?	?	?	DULAT: NOT FOUND
 168397	ṯnp	?	?	?	?	DULAT: NOT FOUND
-168398	ṯy	ṯy	ṯy	→, prep.	tribute	
+168398	ṯy	ṯy	ṯy	→, prep.	tribute	Huehnergard lemma
 168398	ṯy	ṯ+y	ṯ	→, prep.	?	
 # KTU 1.54 12						
 168399	aġr	?	?	?	?	DULAT: NOT FOUND
@@ -37,7 +37,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.54 13						
 168401	ṯwṯkd	?	?	?	?	DULAT: NOT FOUND
 168402	sp	sp/	sp	n. m. sg. cstr. nom.	bowl	
+168402	sp	sp/	sp	n. m. sg. abs. nom.	bowl	
 # KTU 1.54 14						
-168403	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl. m. sg. abs. gen.	to marry	
-168403	trḫ	trḫ[/	/t-r-ḫ/	vb D act. ptcpl. m. sg. abs. gen.	to marry	
+168403	trḫ	trḫ[	/t-r-ḫ/	vb G suffc. 3 m. sg.	to marry	
+168403	trḫ	trḫ[	/t-r-ḫ/	vb G impv. 2	to marry	
+168403	trḫ	trḫ[/	/t-r-ḫ/	vb G act. ptcpl. m. sg. abs. nom.	to marry	
+168403	trḫ	trḫ[:d	/t-r-ḫ/	vb D suffc. 3 m. sg.	to marry	
+168403	trḫ	trḫ[:d:w	/t-r-ḫ/	vb D suffc. 3 m. pl.	to marry	
+168403	trḫ	trḫ[:d	/t-r-ḫ/	vb D impv. 2	to marry	
+168403	trḫ	trḫ[/	/t-r-ḫ/	vb D act. ptcpl. m. sg. abs. nom.	to marry	
 168404	štx	?	?	?	?	DULAT: NOT FOUND

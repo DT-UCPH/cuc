@@ -1,11 +1,13 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 1						
 171444	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-171444	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
-171445	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. gen.	to sit down, take a seat on the throne, install oneself, reside	
+171444	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
+171445	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+171445	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+171445	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down, take a seat on the throne, install oneself, reside	
 171446	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: as)
 171447	ṯbt	ṯb(t/t	ṯbt	n. f. sg. cstr. gen.	2) sitting	
-171448	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. gen.	mountain	
+171448	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. gen.	mountain	DULAT quote in k (I) (cue: mountain)
 171449	hd	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
 171450	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: as)
 # KTU 1.101 2						
@@ -34,8 +36,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171467	iṣr	iṣr/	ỉṣr	n. m. pl. cstr. nom.	?	
 171468	rˤt	rˤ(t/t	rʕt	n. f. sg. cstr. gen.	thunder	
 171469	ˤṣ	ˤṣ/	ʕṣ	n. m. sg. cstr. gen.	3) staff	
-171470	brq	brq(I)/	brq (I)	n. m. sg. cstr. gen.	ray	
-171471	yry	yr/+y	yr	n. m. cstr. gen.	early rain	
+171470	brq	brq(I)/	brq (I)	n. m. sg. abs. gen.	ray	
+171471	yry	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-r-y/ - to fire
 # KTU 1.101 5						
 171472	rišh	riš(I)/+h	rỉš (I)	n. m. cstr. nom.	1) head	
 171473	tply	!t!ply[	/p-l-y/	vb G prefc. 3 f. sg.	to distinguish > to adorn > to be unusual, won- derful > to do something wonderful > to sep- arate, distinguish > to investigate, consider > to be conspicuous > to make feel marvellous, stroke > phylactery > to search	
@@ -44,10 +46,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171473	tply	!t!ply[	/p-l-y/	vb G prefc. 3 m. du.	to distinguish > to adorn > to be unusual, won- derful > to do something wonderful > to sep- arate, distinguish > to investigate, consider > to be conspicuous > to make feel marvellous, stroke > phylactery > to search	
 171473	tply	!t!ply[:w	/p-l-y/	vb G prefc. 3 m. pl.	to distinguish > to adorn > to be unusual, won- derful > to do something wonderful > to sep- arate, distinguish > to investigate, consider > to be conspicuous > to make feel marvellous, stroke > phylactery > to search	
 171473	tply	!t===!ply[	/p-l-y/	vb G prefc. 2 m. pl.	to distinguish > to adorn > to be unusual, won- derful > to do something wonderful > to sep- arate, distinguish > to investigate, consider > to be conspicuous > to make feel marvellous, stroke > phylactery > to search	
-171474	ṭly	ṭl/+y	ṭl	n. m. cstr. nom.	dew	
-171474	ṭly	ṭly/	ṭly	DN sg. cstr. nom.	Tallay	
-171475	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
-171476	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	1) eye c) syntagms	
+171474	ṭly	ṭly/	ṭly	DN sg. abs. nom.	Tallay	
+171475	bn	b+n	b	prep.	in	
+171475	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+171475	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
+171475	bn	bn(II)	bn (II)	prep.	between	
+171475	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
+171475	bn	bn[	/b-n/	vb G impv. 2	to understand	
+171476	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	1) eye c) syntagms	
 # KTU 1.101 6						
 171477	uzˤrt	uzˤr(t/t	ủzʕrt	adj. f. sg. abs. nom.	the smallest	
 171478	tmll	?	?	?	?	DULAT: NOT FOUND
@@ -63,8 +69,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171487	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	1) heavens	
 # KTU 1.101 8						
 171488	yšil	?	?	?	?	DULAT: NOT FOUND
-171489	ṯrm	ṯr(I)/m	ṯr (I)	n. m. pl. cstr. nom.	2) bull b) title of honour	
-171490	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. cstr. gen.	1) to be	
+171489	ṯrm	ṯr(I)/m	ṯr (I)	n. m. pl. abs. nom.	2) bull b) title of honour	
+171489	ṯrm	!!ṯrm[/	/ṯ-r-m/	vb G inf.	to break	
+171490	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. cstr. nom.	1) to be	
 171491	ph	p(III)/+h	p (III)	n. m. cstr. gen.	3) prep. use “according to (the custom)” / “what betrays (?)” in the syntagm ủ l p	
 171492	kṯt	kṯ(I)/t	kṯ (I)	n. f. sg. abs. nom.	flask	
 171493	ġbtxx	?	?	?	?	DULAT: NOT FOUND
@@ -91,14 +98,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 14						
 171509	xx	?	?	?	?	
 171510	yskt	?	?	?	?	DULAT: NOT FOUND
+171511	nˤmn	nˤm(II)&n/	nʕm (II)	n. m. sg. abs. nom.	grace	
 171511	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
 171512	nblxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.101 15						
 171513	xx	?	?	?	?	
 171514	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 171514	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
-171515	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
-171516	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. gen.	peace	
+171515	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
+171516	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
+171516	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
+171516	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
+171516	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
 171517	b	b	b	prep.	in	
 171518	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
 171519	trḥṣ	!t!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 f. sg.	to wash	
@@ -127,7 +138,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171530	tšt	!t!št(y[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
 171530	tšt	!t===!št(y[	/š-t-y/	vb G prefc. 2 m. pl.	to drink	
 # KTU 1.101 18						
-171531	rmimt	?	?	?	?	DULAT: NOT FOUND
+171531	rmimt	r&mim(t/t	rỉmt	n. f. sg. abs. nom.	zither	KTU corrected: rimt
 171532	l	l(I)	l (I)	prep.	to	
 171533	irth	ir(t/t+h	ỉrt	n. f. sg. cstr. gen.	breast	
 171534	tšr	!t!šr(I)[	/š-r/ (I)	vb G prefc.	to sing	

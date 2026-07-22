@@ -37,9 +37,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180120	umy	um/+y	ủm	n. f. cstr. gen.	mother	
 180121	mnm	mnm	mnm	indef. pn.	any(thing)	
 # KTU 2.100 11						
-180122	šlm	šlm(I)/	šlm (I)	n. m. sg. cstr. nom.	1) peace b) in greeting formulae	
-180123	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. gen.	to say	
-180123	rgm	rgm/	rgm	n. m. sg. abs. gen.	word	
+180122	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in šlm (I) (cue: well)
+180123	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
+180123	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
+180123	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
+180123	rgm	rgm[/	/r-g-m/	vb G pass. ptcpl. m. sg. abs. nom.	to say	
+180123	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.100 12						
 180124	ṯ	ṯ	ṯ	→	?	
 180125	ṯ	ṯ	ṯ	→	?	
@@ -49,12 +52,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180128		?	?	?	?	
 # KTU 2.100 14						
 180129	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
+180129	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
 # KTU 2.100 15						
 180130	umy	um/+y	ủm	n. f. cstr. gen.	1) mother c) bn ủm sons of one mother	
 180131	x	?	?	?	?	
 # KTU 2.100 16						
 180132	w	w	w	conj.	and	
 180133	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
+180133	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
 # KTU 2.100 17						
 180134	k	+k	-k (I)			
 180134	k	~k	-k (II)			

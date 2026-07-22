@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.92 1						
 170568	d	d	d	det. or rel. functor	1) the one(s) of b) det. of property	
-170569	ṯbil	ṯbil(II)/	ṯbỉl (II)	TN sg. cstr. nom.	ṯbỉl (II)	
+170569	ṯbil	ṯbil(I)/	ṯbỉl (I)	PN sg. cstr. nom.	ṯbỉl (I)	
 # KTU 1.92 2						
 170570	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. gen.	ʿṯtrt (II)	
 170571	ṣwdt	ṣwdt[/	/ṣ-d/	vb G act. ptcpl. m. sg. abs. gen.	to hunt	
@@ -31,13 +31,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170580	tglṯ	!t!glṯ[	/g-l-ṯ/	vb G prefc. 3 m. du.	to jump	
 170580	tglṯ	!t!glṯ[:w	/g-l-ṯ/	vb G prefc. 3 m. pl.	to jump	
 170580	tglṯ	!t===!glṯ[	/g-l-ṯ/	vb G prefc. 2 m. pl.	to jump	
-170581	thmt	thm(t/t	thmt	n. f. sg. cstr. nom.	Primordial Ocean	
-170581	thmt	thm/t	thm	n. f. sg. cstr. nom.	ocean/deep	
-170582	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. gen.	offspring	
+170581	thmt	thm(t/t	thmt	n. f. sg. abs. nom.	Primordial Ocean	
+170581	thmt	thm/t	thm	n. f. sg. abs. nom.	ocean/deep	
+170582	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
+170582	ˤl	ˤl(II)	ʕl (II)	adv.	above	
+170582	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
+170582	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 1.92 6						
 170583	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
 170584	ġlh	ġl(I)/+h	ġl (I)	n. m. cstr. nom.	far extent of desert	
-170585	tḥmd	tḥm/+d	tḥm	n. m. cstr. nom.	message	
 170585	tḥmd	!t!ḥmd[	/ḥ-m-d/	vb G prefc. 3 f. sg.	to desire	
 170585	tḥmd	!t=!ḥmd[	/ḥ-m-d/	vb G prefc. 2 m. sg.	to desire	
 170585	tḥmd	!t==!ḥmd[	/ḥ-m-d/	vb G prefc. 2 f. sg.	to desire	
@@ -54,8 +56,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170590	l	l(II)	l (II)	adv.	no	
 170590	l	l(III)	l (III)	functor	certainly	
 # KTU 1.92 8						
-170591	tṯb	tṯb/	tṯb	DN sg. cstr. nom.	Teṯo/Hurrian storm god	
-170592	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
+170591	tṯb	!t!ṯb[	/ṯ-b/	vb G prefc.	to return	
+170591	tṯb	&tṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
+170591	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 f. sg.	to sit down, take a seat on the throne, install oneself, reside	
+170591	tṯb	!t=!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
+170591	tṯb	!t==!(yṯb[	/y-ṯ-b/	vb G prefc. 2 f. sg.	to sit down, take a seat on the throne, install oneself, reside	
+170591	tṯb	!t!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down, take a seat on the throne, install oneself, reside	
+170591	tṯb	!t!(yṯb[:w	/y-ṯ-b/	vb G prefc. 3 m. pl.	to sit down, take a seat on the throne, install oneself, reside	
+170591	tṯb	!t===!(yṯb[	/y-ṯ-b/	vb G prefc. 2 m. pl.	to sit down, take a seat on the throne, install oneself, reside	
+170591	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
+170592	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 170593	b	b	b	prep.	in	
 170594	ġlx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.92 9						
@@ -87,7 +97,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170611	tiḫd	!t!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect, to take (back), grasp, seize, hold	
 # KTU 1.92 13						
 170612	šbrh	šbr/+h	šbr	n. m. sg. cstr. nom.	stick	
-170613	bm	b+m(I)	b	prep.	in	
+170613	bm	b~m	b	prep.	in	
 170614	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. nom.	1) right (side) b) said of other parts of the body	
 170615	tr	!!tr[/	/t-r/	vb G inf.	to scour	
 170615	tr	tr(II)/	tr (II)	n. m. sg. abs. nom.	turtledove	
@@ -115,7 +125,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170623	tšlḥm	!t===!]š]lḥm[	/l-ḥ-m/ (I)	vb Š prefc. 2 m. pl.	1) to give to eat	
 170624	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 170624	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	3) month b) as a measure of time	
-170625	ggn	gg(I)/+n	gg (I)	n. m. cstr. gen.	roof	
 170625	ggn	ggn/	ggn	n. m. cstr. gen.	insides	
 170626		?	?	?	?	
 # KTU 1.92 17						
@@ -138,8 +147,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170637	kt	k(t(I)/t	kt (I)	n. f. sg. abs. nom.	pitcher	
 170637	kt	k(t(II)/t	kt (II)	n. f. sg. abs. nom.	stage	
 170638	b	b	b	prep.	in	
-170639	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. cstr. gen.	to protect	
-170640	krm	krm/	krm	n. m. sg. abs. gen.	1) vineyard d) nġr krm guard(s) of the vineyard	
+170639	nġr	!n!(nġr[	/n-ġ-r/	vb G impv. 1 c. pl.	to protect	
+170639	nġr	nġr[/	/n-ġ-r/	vb G act. ptcpl. m. sg. abs. nom.	to protect	
+170640	krm	krm/	krm	n. m. sg. abs. nom.	1) vineyard d) nġr krm guard(s) of the vineyard	
 # KTU 1.92 24						
 170641	x	?	?	?	?	
 170642	abh	ab/+h	ảb	n. m. cstr. nom.	2) ancestor	
@@ -239,8 +249,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170697	rbd	!!rbd[/	/r-b-d/	vb G inf.	to (be) prepare(d), get (a bed) ready	
 170697	rbd	!!rbd[/	/r-b-d/	vb N inf.	to (be) prepare(d), get (a bed) ready	
 # KTU 1.92 36						
-170698	p	p(III)/	p (III)	n. m. sg. cstr. nom.	mouth	
-170699	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
+170698	p	p(I)	p (I)	conj. functor	and	
+170698	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+170698	p	p(II)	p (II)	adv.	here	
+170699	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 170700	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	throat	
 170701	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 170701	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	

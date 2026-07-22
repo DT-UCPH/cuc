@@ -1,8 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.87 1						
 179363	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-179364	abny	ab/+ny	ảb	n. m. cstr. gen.	father	
-179364	abny	ab&n/+y	ảb	n. m. cstr. gen.	father	
 179364	abny	abny/	ảbny	PN sg. abs. gen.	verso	
 # KTU 2.87 2						
 179365	l	l(I)	l (I)	prep.	to	
@@ -25,7 +23,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179373	ytnt	ytn[t	/y-t-n/	vb G suffc. 1 c. sg.	to give	
 # KTU 2.87 5						
 179374	išprm	išpr&m	ỉšpr	morph.	date cake	
-179374	išprm	išpr+m(I)	ỉšpr	morph.	date cake	
 179375	w	w	w	conj.	1) copulative conj.	
 179376	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
 # KTU 2.87 6						
@@ -40,6 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179384	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. cstr. gen.	3) sister > friend (formal usage in correspondence between equals)	
 179385	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
 179385	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
+179385	mrṣ	mrṣ/	mrṣ	n. m. sg. abs. nom.	illness	
 # KTU 2.87 8						
 179386	ky	k(III)+y	k (III)	Subordinating or completive functor	1) when	
 179386	ky	k(II)+y	k (II)	emph. functor	yes	
@@ -66,7 +64,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179401	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	2) “bullock”	
 179401	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	2) “bullock”	
 179401	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
-179402	mrdu	?	?	?	?	DULAT: NOT FOUND
+179402	mrdu	mr&du(I)/	mrủ (I)	adj. m. abs. nom.	1) fattened	KTU corrected: mru
+179402	mrdu	mr&du(III)/	mrủ (III)	n. m. abs. nom.	chief groom	KTU corrected: mru
+179402	mrdu	mr&du(II)/	mrủ (II)	n. m. abs. nom.	animal fattener	KTU corrected: mru
 # KTU 2.87 11						
 179403	w	w	w	conj.	and	
 179404	in	in/	ỉn	n. m. sg. abs. nom.	1) there is/are not	
@@ -91,6 +91,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179418	w	w	w	conj.	and	
 179419	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
 179419	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
+179419	mrṣ	mrṣ/	mrṣ	n. m. sg. abs. nom.	illness	
 179420	lby	lb/+y	lb	n. m. cstr. nom.	heart	
 # KTU 2.87 15						
 179421	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	2) abundantly	
@@ -100,12 +101,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179424	mxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 17						
 179425	alny	alny/	ảlny	PN sg. abs. nom.	ảlny	
-179425	alny	aln(I)/+y	ảln (I)	n. m. cstr. nom.	oak grove	
 179426	b	b	b	prep.	4) relation of accompaniment and instrumental a) company	
-179427	ddbḥ	?	?	?	?	DULAT: NOT FOUND
+179427	ddbḥ	d&dbḥ/	dbḥ	n. m. abs. gen.	3) month name	KTU corrected: dbḥ
 # KTU 2.87 18						
 179428	w	w	w	conj.	1) copulative conj.	
 179429	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
+179429	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
 179430	ḫpn	ḫpn(I)/	ḫpn (I)	n. m. sg. abs. gen.	1) for personal use c) ḫpn d ỉqnỉ w šmt a ḫ . of violet and reddish purple	
 179431	w	w	w	conj.	1) copulative conj.	
 179432	kblm	kbl(I)/m	kbl (I)	n. m. pl. cstr. nom.	leggings	
@@ -125,8 +126,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179441	bhm	b+hm	b	prep.	in	
 # KTU 2.87 22						
 179442	w	w	w	conj.	3) in the correlation protasis-apodosis	
-179443	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. cstr. nom.	to eject, drive out, evict, cast out	
-179444	bnil	bnil/	bnỉl	PN sg. abs. gen.	bnỉl	
+179443	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject, drive out, evict, cast out	
+179443	grš	grš[	/g-r-š/	vb G impv. 2	to eject, drive out, evict, cast out	
+179443	grš	grš[/	/g-r-š/	vb G ptcpl. m. sg. abs. nom.	to eject, drive out, evict, cast out	
+179444	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
 # KTU 2.87 23						
 179445	w	w	w	conj.	and	
 179446	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
@@ -140,8 +143,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179452	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word), an answer, to answer	
 179452	ṯṯb	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf.	to send (word), an answer, to answer	
 # KTU 2.87 25						
-179453	bbd	bb/+d	bb	PN sg. cstr. nom.	bb	
-179454	bnil	bnil/	bnỉl	PN sg. abs. nom.	bnỉl	
+179453	bbd	b&bd	b	prep.	in	KTU corrected: bd
+179453	bbd	bbd(IV)	bd (IV)	prep.	into the hands of	KTU corrected: bd
+179454	bnil	bnil/	bnỉl	PN sg. abs. gen.	bnỉl	
 179455	hl	hl	hl	deictic adv. functor	behold	
 179456	ˤkd	ˤkd/	ʕkd	TN sg. abs. nom.	ungestüm	
 # KTU 2.87 26						
@@ -156,13 +160,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179462	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in hm (II) (cue: if)
 179463	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
 179463	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
+179463	mrṣ	mrṣ/	mrṣ	n. m. sg. abs. nom.	illness	
 179464	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
 179465	idt	id(t/t	ỉdt	n. f. sg. abs. nom.	?	
 179466	w	w	w	conj.	1) copulative conj.	
 179467	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
 # KTU 2.87 28						
 179468	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two b) ge	
-179469	ḫpnm	ḫpn(I)/m	ḫpn (I)	n. m. pl. cstr. nom.	1) for personal use c) ḫpn d ỉqnỉ w šmt a ḫ . of violet and reddish purple	
+179469	ḫpnm	ḫpn(I)/m	ḫpn (I)	n. m. pl. abs. nom.	1) for personal use c) ḫpn d ỉqnỉ w šmt a ḫ . of violet and reddish purple	
 179470	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. gen.	new moon	
 # KTU 2.87 29						
 179471	hyn	hy+n	hy	pers. pn.	1) she	
@@ -175,7 +180,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.87 30						
 179477	w	w	w	conj.	1) copulative conj.	
 179478	kspa	?	?	?	?	DULAT: NOT FOUND
-179479	nmḥt	]n]mḥt[	/m-ḥ(-w:y)/	vb N suffc. 3 m. sg.	to be cleaned up	
+179479	nmḥt	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḥ(-w:y)/ - to be cleaned up
 179480	aky	aky	ỉky	interr. functor	what of?	
 179481	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. nom.	plight	
 # KTU 2.87 31						
@@ -194,17 +199,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179489	l	l(I)	l (I)	prep.	to	
 179490	d	d	d	det. or rel. functor	the one(s) of	
 179491	hlkt	hlk[/t	/h-l-k/	vb G act. ptcpl. m. sg. cstr. nom.	to go	
+179491	hlkt	hlk(t/t	hlkt	n. f. sg. cstr. nom.	conduct	
 179492	npšk	npš(I)/+k	npš (I)	n. f. cstr. gen.	throat	
 # KTU 2.87 33						
 179493	w	w	w	conj.	1) copulative conj.	
 179494	mlaktk	mlak(t/t+k	mlảkt	n. f. sg. cstr. nom.	message	
-179495	lm	l(I)+m(I)	l (I)	prep.	to	
+179495	lm	l(I)~m	l (I)	prep.	to	
 179496	tšḫr	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-ḫ-r/ - to delay
 # KTU 2.87 34						
 179497	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
 179498	l	l(III)	l (III)	functor	certainly	DULAT quote in k (III) (cue: certainly)
-179499	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. cstr. nom.	1) to know	
-179500	lby	lb/+y	lb	n. m. cstr. gen.	heart	
+179499	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	1) to know	
+179499	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	1) to know	
+179499	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	1) to know	
+179499	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	1) to know	
+179499	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	1) to know	
+179500	lby	lb/+y	lb	n. m. cstr. nom.	heart	
 179501	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: that)
 179502	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
 179502	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
