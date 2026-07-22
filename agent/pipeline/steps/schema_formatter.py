@@ -37,6 +37,11 @@ _COMMA_VARIANT_RE = re.compile(r",\s*(?=\S)")
 class TsvSchemaFormatter(RefinementStep):
     """Normalize labeled TSV structure without changing linguistic payload."""
 
+    # A pure structural formatter: it rewrites almost every row on a fresh
+    # generation (final schema normalization) and is idempotent on canonical
+    # output, so the linguistic change-ratio safeguard does not apply.
+    enforce_change_ratio = False
+
     @property
     def name(self) -> str:
         return "tsv-schema"
@@ -51,9 +56,14 @@ class TsvSchemaFormatter(RefinementStep):
         rows_changed = 0
         header_found = False
 
+        # Every non-blank line the formatter examines counts as processed, so
+        # rows_changed is always a subset of rows_processed and the safeguard
+        # ratio is a true fraction (blank lines are passed through untouched
+        # and are neither processed nor changed).
         for raw in lines:
             if self._is_header_row(raw):
                 header_found = True
+                rows_processed += 1
                 if raw != HEADER_ROW:
                     rows_changed += 1
                 continue
@@ -63,6 +73,7 @@ class TsvSchemaFormatter(RefinementStep):
                 continue
 
             if is_separator_line(raw):
+                rows_processed += 1
                 normalized_sep = normalize_separator_line(raw)
                 normalized_sep_row = "\t".join([normalized_sep] + [""] * 6)
                 if normalized_sep_row != raw:
@@ -72,6 +83,7 @@ class TsvSchemaFormatter(RefinementStep):
 
             parts = raw.split("\t")
             if self._is_header_like_junk_row(parts):
+                rows_processed += 1
                 rows_changed += 1
                 continue
             line_id = (parts[0] if parts else "").strip()
@@ -86,6 +98,7 @@ class TsvSchemaFormatter(RefinementStep):
             out_lines.append(normalized)
 
         if not header_found:
+            rows_processed += 1
             rows_changed += 1
         out_lines = [HEADER_ROW] + out_lines
 

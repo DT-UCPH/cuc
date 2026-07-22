@@ -508,6 +508,7 @@ class TabletParsingPipeline:
 
             if (
                 step_rows > 0
+                and getattr(step, "enforce_change_ratio", True)
                 and not self.config.allow_large_step_changes
                 and (float(step_changed) / float(step_rows)) > self.config.max_step_change_ratio
             ):

@@ -92,6 +92,13 @@ def is_unresolved(row: TabletRow) -> bool:
 class RefinementStep(abc.ABC):
     """Abstract base for a single pipeline refinement step."""
 
+    #: Whether the step-change-ratio safeguard applies to this step. The
+    #: safeguard exists to catch *linguistic* steps that change an unexpectedly
+    #: large fraction of rows. A deterministic structural formatter legitimately
+    #: rewrites almost every row (final schema normalization) without touching
+    #: the linguistic payload, so it opts out. Default: enforced.
+    enforce_change_ratio: bool = True
+
     @property
     @abc.abstractmethod
     def name(self) -> str:
