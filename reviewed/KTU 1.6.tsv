@@ -1020,22 +1020,22 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160069		…	?	?	?	?	
 # KTU 1.6 VI:1							
 160070	xxxxxxx	[xxxxxxx  ]  	?	?	?	?	
-160071	ṭrdh	[ṭ]rdh	ṭrd[+h	/ṭ-r-d/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to expel, throw out	DULAT cites /ṭ-r-d/ here.
+160071	ṭrdh	[ṭ]rdh	ṭrd[+h	/ṭ-r-d/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to expel, throw out	KTU: [yṭ]rdh (then prefc.); DULAT cites /ṭ-r-d/ here.
 # KTU 1.6 VI:2							
 160072	xxxxxxx	[xxxxxxx  ]  	?	?	?	?	
 160073	gršh	[g]ršh	grš[+h	/g-r-š/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to drive out, evict	DULAT cites /g-r-š/ here (broken context).
 # KTU 1.6 VI:3							
 160074	xxxxx	[xxxxx ] 	?	?	?	?	
-160075	k	[k ] 	k(I)	k (I)	prep.	like	
-160076	ˤṣr	[ʿṣ]r  	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	k ˤṣr 'like a bird'.
+160075	k	[k ] 	k(I)	k (I)	prep.	like	Restored in lacuna (KTU).
+160076	ˤṣr	[ʿṣ]r  	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	k ˤṣr 'like a bird'; largely restored (KTU).
 160077	u	u	?	?	?	?	Broken.
 # KTU 1.6 VI:4							
-160078	dnh	[dnh  ]  	?	?	?	?	
-160079	ytn	[ytn  ]  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+160078	dnh	[dnh  ]  	?	?	?	?	Restored in lacuna (KTU): [dnh ytn aḫ]h.
+160079	ytn	[ytn  ]  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	Restored in lacuna (KTU).
 160080	aḫh	[aḫ]h	aḫ(I)/+h	ảḫ (I)	n. m. sg. cstr. acc. + 3 m. sg. suff.	brother (by blood)	KTU: aḫ]h.
 # KTU 1.6 VI:5							
 160081	xxxxxxxxx	[xxxxxxxxx]  	?	?	?	?	
-160082	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	
+160082	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	Broken context.
 # KTU 1.6 VI:6							
 160083	xxxxxx	[xxxxx]x    	?	?	?	?	
 160084	gmr	gmr  	gmr/	gmr	n. m. sg. cstr.	champion, fighter	gmr limm 'champion of the peoples' (DULAT, broken context).
@@ -1051,7 +1051,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160091	šbˤt	šbʿt  	šbˤ(I)/t	šbʕ (I)	n. num. f. sg.	seven	
 160092	ġlmh	ġlmh	ġlm/+h	ġlm	n. m. pl. cstr. + 3 m. sg. suff.	boy, lad	'his seven lads' (Mot's; DULAT: šbˤt ġlmh).
 # KTU 1.6 VI:9							
-160093	w	[w ] 	w	w	conj.	and	
+160093	w	[w ] 	w	w	conj.	and	KTU: [w]ˤn.
 160094	ˤn	ʿn  	ˤn(y(I)[	/ʕ-n-y/ (I)	vb G suffc. 3 m. sg.	to answer	Answer formula (cf. II:13); DULAT cites /ʕ-n/ 'to see' here.
 160095	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160096	ilm	ilm 	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
@@ -1190,21 +1190,21 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160199	b	b 	b	b	prep.	at	
 160200	qlh	qlh  	ql(I)/+h=	ql (I)	n. m. sg. cstr. gen. + 3 f. sg. suff.	voice	b qlh 'at her voice' (Šapšu; DULAT: yˤr mt b qlh 'Mot trembles at her voice').
 160200	qlh	qlh  	ql[+h	/q-l/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to fall (down)	DULAT cites /q-l/ at this line.
-160201	yšu	yš[u  ]  	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
-160202	gh	[gh  ]  	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	
-160203	w	[w ] 	w	w	conj.	and	
-160204	yṣḥ	[yṣḥ]	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
+160201	yšu	yš[u  ]  	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	KTU: yš[u gh wyṣḥ] restored.
+160202	gh	[gh  ]  	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	Restored in lacuna (KTU).
+160203	w	[w ] 	w	w	conj.	and	Restored in lacuna (KTU).
+160204	yṣḥ	[yṣḥ]	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	Restored in lacuna (KTU).
 # KTU 1.6 VI:33							
 160205	bˤl	bʿl   	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 160206	yṯṯbn	yṯṯbn [ ]  	!y!]ṯ](yṯb[~n	/y-ṯ-b/	vb Gt? prefc. 3 m. sg. + energic -n	to be seated, enthroned	UNP: 'Let Baal be enthroned on his royal throne'; t-infix assimilated to ṯ; stem uncertain.
 160207	l	[l ] 	l(I)	l (I)	prep.	on	KTU: [lksi] restored.
-160208	ksi	[ksi]	ks(u/&i	ks/śủ	n. m. sg. cstr. gen.	seat, throne	
+160208	ksi	[ksi]	ks(u/&i	ks/śủ	n. m. sg. cstr. gen.	seat, throne	Restored in lacuna (KTU).
 # KTU 1.6 VI:34							
 160209	mlkh	mlkh  	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	kingdom	'his kingdom'.
 160210	l	l 	l(I)	l (I)	prep.	on	KTU: ln[ḫt] restored.
-160211	nḫt	n[ḫt  ]  	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan, resting-place	
-160212	l	[l ] 	l(I)	l (I)	prep.	on	
-160213	kḥṯ	[kḥṯ]	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
+160211	nḫt	n[ḫt  ]  	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan, resting-place	Restored in lacuna (KTU).
+160212	l	[l ] 	l(I)	l (I)	prep.	on	Restored in lacuna (KTU).
+160213	kḥṯ	[kḥṯ]	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	Restored in lacuna (KTU).
 # KTU 1.6 VI:35							
 160214	drkth	drkth[                   ]                  	drk(t/t+h	drkt	n. f. sg. cstr. gen. + 3 m. sg. suff.	rule, power	'the throne of his dominion'.
 # KTU 1.6 VI:36							
@@ -1215,10 +1215,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160218	hn	hn[             ]             	hn	hn	deictic functor	behold!	
 # KTU 1.6 VI:38							
 160219	xxxx	[xxxx  ]  	?	?	?	?	
-160220	šnt	šnt[            ]            	šn(t(I)/t	šnt (I)	n. f. sg.	year	
+160220	šnt	šnt[            ]            	šn(t(I)/t	šnt (I)	n. f. sg.	year	Broken context.
 # KTU 1.6 VI:39							
 160221	xxxxxxxx	[xxxxx]xx[x  ]  	?	?	?	?	
-160222	il	[il  ]  	il(I)/	ỉl (I)	DN m. sg. abs.	ʾIlu/El	
+160222	il	[il  ]  	il(I)/	ỉl (I)	DN m. sg. abs.	ʾIlu/El	KTU: [il ]dpid restored.
 160223	d	d 	d	d	det. or rel. functor	the one of	
 160224	pid	pid	pid/	pỉd	n. m. sg. abs. gen.	heart	
 # KTU 1.6 VI:40							
