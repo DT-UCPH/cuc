@@ -1329,6 +1329,33 @@ _III_ALEPH_CASE = {"u": "nom.", "i": "gen.", "a": "acc."}
 _III_ALEPH_CASE_ENDING_RE = re.compile(r"\[?/&([uia])(?=$|[+~=(;#\s])")
 
 
+# A passive-stem verb (Gpass/Dpass/Lpass/Špass) is marked in the encoding by
+# the `:pass` stem marker after the root and endings (e.g. `prš[&a:pass`,
+# `!t!(ʔ&usp[:pass`).  The stem token is contiguous (`Gpass`), distinct from
+# the participle voice `G pass. ptcpl.` (a space, and no `:pass`).
+_PASSIVE_STEM_RE = re.compile(r"\b(?:G|D|L|Š)pass\b")
+
+
+def analysis_missing_pass_marker(analysis: str, pos_field: str) -> bool:
+    """True when the POS names a passive stem but the encoding lacks `:pass`."""
+    if not _PASSIVE_STEM_RE.search(pos_field or ""):
+        return False
+    return ":pass" not in (analysis or "")
+
+
+# `[/` closes a deverbal form (participle/infinitive) on a *verb root*.  A noun,
+# adjective, or lexicalised patient-noun attaches to its own noun lemma and
+# closes with `/`, never `[/`.  So `[/` on a purely nominal POS is an error.
+_VERBAL_POS_RE = re.compile(r"\bvb\b|ptcpl|\binf\.")
+
+
+def deverbal_marker_on_nonverbal_pos(analysis: str, pos_field: str) -> bool:
+    """True when `[/` appears on a non-verbal (noun/adjective) POS."""
+    if "[/" not in (analysis or ""):
+        return False
+    return not _VERBAL_POS_RE.search(pos_field or "")
+
+
 def iii_aleph_case_mismatch(analysis: str, pos_field: str):
     """Return (expected_case, stated_cases) when a III-ʔ realized case-ending
     aleph contradicts the labelled case; otherwise None.
@@ -3516,6 +3543,30 @@ def lint_file(
                                 exp=expected_case, got=stated_cases
                             )
                         ),
+                    )
+                )
+            if analysis_missing_pass_marker(a_txt, p_field):
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        "Passive-stem POS requires the `:pass` marker in the encoding",
+                    )
+                )
+            if deverbal_marker_on_nonverbal_pos(a_txt, p_field):
+                issues.append(
+                    Issue(
+                        "error",
+                        str(path),
+                        i,
+                        line_id,
+                        surface,
+                        a_txt,
+                        "Deverbal `[/` is only valid on a verbal POS; encode a noun with `/` on its noun lemma",
                     )
                 )
             if analysis_has_homonym_marked_n_clitic(a_txt):
