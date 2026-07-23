@@ -108,7 +108,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 164108	d	d	d	det. or rel. functor	the one(s) of	
 164109	pid	pid/	pỉd	n. m. sg. abs. nom.	heart	
 # KTU 1.18 I:16						
-164110	ydˤtk	ydˤ(I)[/t+k	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. cstr. gen.	1) to know	
+164110	ydˤtk	ydˤtk[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	1) to know	
+164110	ydˤtk	ydˤ(I)[/t+k	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. cstr. nom.	1) to know	
 164111	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	1) daughter a) of men and gods	DULAT direct ref
 164112	w	w	w	conj.	and	
 164113	anšt	anš(t/t	ảnšt	n. f. sg. abs. nom.	illness	
@@ -227,11 +228,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.18 I:30						
 164195	xxxxxx	?	?	?	?	
 164196	l	l(I)	l (I)	prep.	to	
-164197	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. gen.	city	
+164197	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. gen.	city	
 164198	ablm	ablm/	ảblm	TN sg. cstr. gen.	meadows	
 164199	ablm	ablm/	ảblm	TN sg. cstr. gen.	meadows	
 # KTU 1.18 I:31						
-164200	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. nom.	city	
+164200	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. gen.	city	
 164201	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
 164201	zbl	zbl(I)/	zbl (I)	n. m. sg. cstr. gen.	prince	
 164201	zbl	zbl(III)/	zbl (III)	n. m. sg. cstr. gen.	one carried	
@@ -299,10 +300,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 164243	yṭp	?	?	?	?	DULAT: NOT FOUND
 164244	xxxxxxxxxxx	?	?	?	?	
 # KTU 1.18 IV:8						
-164245	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	city	
+164245	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. nom.	city	
 164246	ablm	ablm/	ảblm	TN sg. cstr. gen.	meadows	
 164247	ablm	ablm/	ảblm	TN sg. cstr. gen.	meadows	
-164248	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. nom.	city	
+164248	qrt	qr(t(I)/t	qrt (I)	n. f. sg. cstr. gen.	city	
 164249	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. gen.	prince	
 164249	zbl	zbl(I)/	zbl (I)	n. m. sg. cstr. gen.	prince	
 164249	zbl	zbl(III)/	zbl (III)	n. m. sg. cstr. gen.	one carried	
@@ -387,6 +388,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 164296	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 164296	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 164296	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+164296	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 164296	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 164296	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 164297	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
@@ -497,7 +499,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 164371	št	št(III)/	št (III)	n. m. sg. abs. gen.	tearing apart	DULAT direct ref
 # KTU 1.18 IV:28						
 164372	tštn	!t!št[+n	/š-t/	vb G prefc.	to place	
-164373	k	k(I)	k (I)	prep.	like	DULAT quote in ḥbš (I) (cue: like)
+164373	k	k(I)	k (I)	prep.	like	
 164374	nšr	nšr/	nšr	n. m. sg. abs. gen.	bird of prey	
 164375	b	b	b	prep.	in	
 164376	ḥbšh	ḥbš(I)/+h	ḥbš (I)	n. m. cstr. gen.	1) cinch	

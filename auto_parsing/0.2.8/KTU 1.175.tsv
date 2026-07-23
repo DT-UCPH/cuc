@@ -32,7 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 6						
 175446		?	?	?	?	
 175447	w	w	w	conj.	and	
-175448	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	DULAT quote in ḥmṣ (cue: vinegar)
+175448	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	
 175449	w	w	w	conj.	and	
 175450	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. nom.	salt	
 # KTU 1.175 7						
@@ -86,6 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 14						
 175480		?	?	?	?	
 175481	w	w	w	conj.	and	
+175482	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 175482	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 175483	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go, go away	
 175484	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	1) lad	

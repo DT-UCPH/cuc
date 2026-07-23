@@ -7,6 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.121 2						
 173736	u	u	ủ	conj.	or	
 173737	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+173737	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 173737	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 173738	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 173739	l	l(I)	l (I)	prep.	to	
@@ -50,9 +51,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.121 10						
 173762	u	u	ủ	conj.	or	
 173763	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+173763	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 173763	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 173764	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 # KTU 1.121 11						
 173765	ulp	ulp(I)	l (I)	prep.	to	Based on DULAT reconstruction.
+173765	ulp	ulp(II)	l (II)	adv.	no	Based on DULAT reconstruction.
 173765	ulp	ulp(I)	p (I)	conj. functor	and	Based on DULAT reconstruction.
+173765	ulp	u&lp	ủ	conj.	or	Based on DULAT reconstruction.
 173765	ulp	ulp	ủlp	→	?	

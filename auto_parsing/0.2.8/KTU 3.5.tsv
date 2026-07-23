@@ -45,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180819	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 180819	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 # KTU 3.5 9						
-180820	krmh	krm/+h	krm	n. m. cstr. nom.	1) vineyard a) krm ảḥd one vineyard	DULAT quote in krm (cue: vineyard)
+180820	krmh	krm/+h	krm	n. m. cstr. nom.	1) vineyard a) krm ảḥd one vineyard	
 180821	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 180821	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 180821	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
@@ -76,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180831	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 180832	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 180832	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-180833	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	DULAT quote in ʕd (I) (cue: eternity)
+180833	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 3.5 15						
 180834	šḥr	šḥr/	šḥr	n. m. sg. abs. nom.	1) dawn	
 180835	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
@@ -87,7 +87,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180839	y	~y	-y (II)	prep. functor	indeed	
 180839	y	y	y	prep. functor	oh!	
 # KTU 3.5 17						
-180840	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+180840	l	l(II)	l (II)	adv.	no	
 180841	yqḥnn	!y!(lqḥ[nn	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
 180842	bd	b&d	b	prep.	in	
 # KTU 3.5 18						
@@ -107,6 +107,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180849	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 180849	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 # KTU 3.5 20						
+180850	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 180850	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 180851	w	w	w	conj.	and	
 180852	unṯ	unṯ/	ủnṯ	n. m. pl. cstr. nom.	1) obligation	

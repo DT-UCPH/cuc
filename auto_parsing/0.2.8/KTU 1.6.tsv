@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159263	l	l(I)	l (I)	prep.	to	DULAT direct ref
 159264	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 # KTU 1.6 I:2						
-159265	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	DULAT quote in /y-d-y/ (II) (cue: skin)
+159265	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
 159266	b	b	b	prep.	in	
 159267	abn	abn/	ảbn	n. f. sg. abs. gen.	stone	DULAT direct ref
 159268	td	!t!(nd[	/n-d(-y)/	vb G prefc.	to throw	
@@ -11,8 +11,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159270	b	b	b	prep.	in	
 159271	yˤr	!y!ˤr[	/ʕ-r/	vb G prefc. 3 m. sg.	to become agitated	
 159271	yˤr	&yˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
-159271	yˤr	(]n]!y!ˤr[	/ʕ-r/	vb N prefc.	to become agitated	
-159271	yˤr	(]n]!y!ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
+159271	yˤr	(]n]ˤr[	/ʕ-r/	vb N prefc.	to become agitated	
+159271	yˤr	(]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
 159271	yˤr	yˤr[	/y-ʕ-r/	vb G suffc. 3 m. sg.	to be frightened	
 159271	yˤr	yˤr(I)/	yʕr (I)	n. m. sg. abs. nom.	razor	
 # KTU 1.6 I:3						
@@ -201,7 +201,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159355	tṭbḫ	!t!ṭbḫ[	/ṭ-b-ḫ/	vb G prefc. 3 m. du.	to sacrifice, butcher, slaughter	
 159355	tṭbḫ	!t!ṭbḫ[:w	/ṭ-b-ḫ/	vb G prefc. 3 m. pl.	to sacrifice, butcher, slaughter	
 159355	tṭbḫ	!t===!ṭbḫ[	/ṭ-b-ḫ/	vb G prefc. 2 m. pl.	to sacrifice, butcher, slaughter	
-159356	šbˤm	šbˤm/	šbʕm	num.	seventy	DULAT quote in ảlp (I) (cue: seventy)
+159356	šbˤm	šbˤm/	šbʕm	num.	seventy	
 159357	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT direct ref
 # KTU 1.6 I:21						
 159358	k	+k	-k (I)			
@@ -219,7 +219,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159362	tṭbḫ	!t!ṭbḫ[	/ṭ-b-ḫ/	vb G prefc. 3 m. du.	to sacrifice	
 159362	tṭbḫ	!t!ṭbḫ[:w	/ṭ-b-ḫ/	vb G prefc. 3 m. pl.	to sacrifice	
 159362	tṭbḫ	!t===!ṭbḫ[	/ṭ-b-ḫ/	vb G prefc. 2 m. pl.	to sacrifice	
-159363	šbˤm	šbˤm/	šbʕm	num.	seventy	DULAT quote in ṣỉn (I) (cue: seventy)
+159363	šbˤm	šbˤm/	šbʕm	num.	seventy	
 159364	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
 # KTU 1.6 I:23						
 159365	k	+k	-k (I)			
@@ -388,7 +388,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159441	rt	rt/	rt	PN sg. cstr. nom.	rt	
 159442	aryh	ary(I)/+h	ảry (I)	n. m. sg. cstr. gen.	fellow	
 159443	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT direct ref
-159444	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	DULAT quote in k (III) (cue: dead)
+159444	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
 159445	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 # KTU 1.6 I:42						
 159446	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
@@ -405,7 +405,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159450	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.6 I:43						
 159451	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
-159452	gm	g/~m	g	n. m. sg. abs. nom.	(loud) voice	DULAT quote in /ṣ-ḥ/ (cue: loud)
+159452	gm	g/~m	g	n. m. sg. abs. nom.	(loud) voice	
 159453	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	
 159454	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 159454	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
@@ -449,6 +449,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159471	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 159471	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 159471	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+159471	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 159471	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 159471	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 159472	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. nom.	Lady	
@@ -580,7 +581,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159549	ymlk	!y!mlk[	/m-l-k/	vb G prefc. 3 m. sg.	to reign, rule	
 159550	b	b	b	prep.	in	
 159551	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	2) the world	
-159552	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god i) periphrastic superlative	DULAT direct ref | DULAT quote in kl (cue: god)
+159552	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god i) periphrastic superlative	DULAT direct ref
 159553	klh	kl/+h	kl	n. m. cstr. gen.	1) totality (of) c) with suff. pn	
 # KTU 1.6 I:66						
 159554	xxx	?	?	?	?	
@@ -621,12 +622,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159576	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 # KTU 1.6 II:6						
 159577	tngṯh	!t!ngṯ[:d+h	/n-g-ṯ/	vb D prefc.	to make one’s way to	
-159578	k	k(I)	k (I)	prep.	like	DULAT quote in ảrḫ (cue: like)
+159578	k	k(I)	k (I)	prep.	like	
 159579	lb	lb/	lb	n. m. sg. cstr. gen.	heart	
 159580	arḫ	arḫ/	ảrḫ	n. f. sg. abs. gen.	cow	
 # KTU 1.6 II:7						
 159581	l	l(I)	l (I)	prep.	to	
-159582	xˤglh	&xˤgl&h(I)/	ʕgl (I)	n. m. abs. gen.	calf	KTU corrected: ʿglh
+159582	xˤglh	&xˤgl(I)&h/	ʕgl (I)	n. m. abs. gen.	calf	KTU corrected: ʿglh
 159583	k	+k	-k (I)			
 159583	k	~k	-k (II)			
 159583	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -701,7 +702,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159624	aṣd	!(ʔ&a!ṣd[	/ṣ-d/	vb G prefc. 1 c. sg.	to hunt	
 159625	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
 # KTU 1.6 II:16						
-159626	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	DULAT quote in kbd (I) (cue: mountain)
+159626	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
 159627	l	l(I)	l (I)	prep.	to	
 159628	kbd	kbd(I)/	kbd (I)	n. cstr. gen.	within	
 159629	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
@@ -743,7 +744,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159657	b	b	b	prep.	in	
 159658	py	p(III)/+y	p (III)	n. m. cstr. gen.	1) mouth	
 # KTU 1.6 II:23						
-159659	k	k(I)	k (I)	prep.	like	DULAT quote in /ḫ-t-ʔ/ (cue: like)
+159659	k	k(I)	k (I)	prep.	like	
 159660	lli	ll(u&i/	llủ	n. m. sg. abs. gen.	suckling (lamb or kid)	
 159661	b	b	b	prep.	in	
 159662	ṯbrn	ṯbrn(I)/	ṯbrn (I)	n. m. sg. cstr. gen.	opening	
@@ -837,7 +838,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 II:36						
 159725	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	1) bird	
 159726	mnth	mn(t(I)/t+h	mnt (I)	n. f. sg. cstr. nom.	1) portion	
-159727	l	l(III)	l (III)	functor	certainly	DULAT quote in ʕṣr (I) (cue: certainly)
+159727	l	l(III)	l (III)	functor	certainly	
 159728	tklyy	!t!kly[y	/k-l-y/	vb	1) to finish (off)	KTU corrected: tkly
 # KTU 1.6 II:37						
 159729	nprm	npr(I)/m	npr (I)	n. m. pl. cstr. nom.	flyer	
@@ -862,7 +863,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 III:2						
 159739	w	w	w	conj.	and	
 159740	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT direct ref
-159741	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	DULAT quote in hm (II) (cue: alive)
+159741	ḥy	ḥy(I)/	ḥy (I)	adj. m. sg. abs. nom.	alive	
 159742	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 159743	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 III:3						
@@ -1137,6 +1138,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159908	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 159908	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 159908	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+159908	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 159908	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 159908	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 159909	nrt	nr(t(I)/t	nrt (I)	n. f. sg. cstr. nom.	lantern	
@@ -1377,7 +1379,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160055	aḥẓxxxxl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.6 V:24						
 160056	xdxx	?	?	?	?	DULAT: NOT FOUND
-160057	akly	akl(II)/+y	ảkl (II)	n. m. cstr. nom.	2) food	DULAT quote in ảkl (II) (cue: food)
+160057	akly	akl(II)/+y	ảkl (II)	n. m. cstr. nom.	2) food	
 160058	bn	b+n	b	prep.	in	
 160058	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160058	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
@@ -1523,7 +1525,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160131	ˤz	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong, have power	DULAT direct ref
 160132	yngḥn	!y!ngḥ[+n	/n-g-ḥ/	vb N prefc. 3 m. sg.	to butt each other	
 # KTU 1.6 VI:18						
-160133	k	k(I)	k (I)	prep.	like	DULAT quote in rủm (cue: like)
+160133	k	k(I)	k (I)	prep.	like	
 160134	rumm	rum/m	rủm	n. m. pl. abs. gen.	wild bull	
 160135	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 160135	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
@@ -1544,7 +1546,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160138	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
 160138	ˤz	ˤz(I)/	ʕz (I)	n. m. sg. abs. nom.	strength	
 160139	ynṯkn	!y!nṯk[n	/n-ṯ-k/	vb N prefc. 3 m. sg.	to bite each other	
-160140	k	k(I)	k (I)	prep.	like	DULAT quote in /n-ṯ-k/ (cue: like)
+160140	k	k(I)	k (I)	prep.	like	
 160141	bṯnm	bṯn/m	bṯn	n. m. pl. abs. gen.	serpent	
 # KTU 1.6 VI:20						
 160142	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
@@ -1631,8 +1633,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160178	alt	alt(II)/	ảlt (II)	n. f. pl. cstr. nom.	support	DULAT direct ref
 # KTU 1.6 VI:28						
 160179	ṯbtk	ṯb(t/t+k	ṯbt	n. f. sg. cstr. gen.	1) seat	
-160180	l	l(III)	l (III)	functor	certainly	DULAT quote in ṯbt (cue: certainly)
-160181	yhpk	!y!hpk[	/h-p-k/	vb G prefc. 3 m. sg.	to overturn, alter	DULAT quote in /h-p-k/ (cue: overturn)
+160180	l	l(III)	l (III)	functor	certainly	
+160181	yhpk	!y!hpk[	/h-p-k/	vb G prefc. 3 m. sg.	to overturn, alter	
 160182	ksa	ksa/	ksả	DN sg. cstr. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 160183	mlkk	mlk(II)/+k	mlk (II)	n. m. cstr. gen.	kingdom (power and territory)	
 # KTU 1.6 VI:29						
@@ -1664,8 +1666,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160196	ġzr	ġzr/	ġzr	n. m. sg. abs. nom.	2) noble	
 160197	yˤr	!y!ˤr[	/ʕ-r/	vb G prefc. 3 m. sg.	to become agitated, irritated	
 160197	yˤr	&yˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated, irritated	
-160197	yˤr	(]n]!y!ˤr[	/ʕ-r/	vb N prefc.	to become agitated, irritated	
-160197	yˤr	(]n]!y!ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated, irritated	
+160197	yˤr	(]n]ˤr[	/ʕ-r/	vb N prefc.	to become agitated, irritated	
+160197	yˤr	(]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated, irritated	
 160197	yˤr	yˤr[	/y-ʕ-r/	vb G suffc. 3 m. sg.	to be frightened	
 160197	yˤr	yˤr(I)/	yʕr (I)	n. m. sg. abs. nom.	razor	
 160198	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	DULAT direct ref

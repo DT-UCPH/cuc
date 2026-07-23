@@ -52,7 +52,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.117 10						
 173489	ryt	?	?	?	?	DULAT: NOT FOUND
 173490	aṣṣ	!(ʔ&a!(nṣṣ[	/n-ṣ-ṣ/	vb G prefc. 1 c. sg.	to take flight, fly	
-173491	k	k(I)	k (I)	prep.	like	DULAT quote in /n-ṣ-ṣ/ (cue: like)
+173491	k	k(I)	k (I)	prep.	like	
 173492	nṣ	nṣ(I)/	nṣ (I)	n. m. sg. abs. gen.	bird	
 # KTU 1.117 11						
 173493	m	m	m(h)	pers. pn.	what?	
@@ -68,6 +68,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173495	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 173495	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 173495	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+173495	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 173495	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 173495	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 173496	pdry	pdry/	pdry	DN sg. cstr. nom.	Pidray	

@@ -6,7 +6,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175093	ydy	!!ydy(I)[/	/y-d-y/ (I)	vb G inf.	to throw	
 175093	ydy	ydy(I)[/	/y-d-y/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to throw	
 175093	ydy	!y!(ydy(II)[	/y-d-y/ (II)	vb G	to rip	
-175094	dbbm	dbb(II)/m	dbb (II)	n. m. pl. abs. nom.	(sorcerer) adversary	DULAT quote in dbb (II) (cue: sorcerer)
+175094	dbbm	dbb(II)/m	dbb (II)	n. m. pl. abs. nom.	(sorcerer) adversary	
 175095	d	d	d	det. or rel. functor	1) the one(s) of b) det. of property	
 175096	ġzrm	ġzr/m	ġzr	n. m. pl. abs. nom.	1) lad	
 175097	tgḫṭk	!t!gḫṭ[+k	/g-ḫ-ṭ/	vb G prefc.	to cast out > to vomit, spit out > to polish over, erase > to erase > to strike, smite	
@@ -21,21 +21,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175101	w	w	w	conj.	and	
 175102	tṣu	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
 175103	lpn	?	?	?	?	DULAT: NOT FOUND
-175104	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	1) voice	DULAT quote in ql (I) (cue: voice)
+175104	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	1) voice	
 175105	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
 175105	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
 # KTU 1.169 3						
-175106	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: like)
+175106	k	k(I)	k (I)	prep.	like	
 175107	qṭr	qṭr/	qṭr	n. m. sg. cstr. nom.	smoke	
 175108	urbtm	urbt/~m	ủrbt	n. f. sg. abs. gen.	1) skylight	
-175109	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: like)
+175109	k	k(I)	k (I)	prep.	like	
 175110	bṯn	bṯn/	bṯn	n. m. sg. cstr. nom.	serpent	
 175111	ˤmdm	ˤmd/m	ʕmd	n. m. pl. abs. gen.	support or foot of a wall	
 # KTU 1.169 4						
-175112	k	k(I)	k (I)	prep.	like	DULAT quote in lbủ (cue: like)
-175113	yˤlm	yˤl(I)/m	yʕl (I)	n. m. pl. abs. nom.	mountain goat	DULAT quote in yʕl (I) (cue: goat)
+175112	k	k(I)	k (I)	prep.	like	
+175113	yˤlm	yˤl(I)/m	yʕl (I)	n. m. pl. abs. nom.	mountain goat	
 175114	ẓrh	ẓr(I)/+h	ẓr (I)	n. m. cstr. nom.	1) back b) metaphorically	
-175115	k	k(I)	k (I)	prep.	like	DULAT quote in lbủ (cue: like)
+175115	k	k(I)	k (I)	prep.	like	
 175116	lbim	lbi/m	lbủ	n. m. pl. cstr. nom.	lion	
 175117	skh	sk(II)/+h	sk (II)	n. m. sg. cstr. gen.	den	
 # KTU 1.169 5						
@@ -65,7 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175130	tlḥm	!t!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 3 m. du.	1) to eat	
 175130	tlḥm	!t!lḥm[:w	/l-ḥ-m/ (I)	vb G prefc. 3 m. pl.	1) to eat	
 175130	tlḥm	!t===!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 2 m. pl.	1) to eat	
-175131	lḥm	lḥm/	lḥm	n. m. sg. abs. nom.	2) bread	DULAT quote in lḥm (cue: bread)
+175131	lḥm	lḥm/	lḥm	n. m. sg. abs. nom.	2) bread	
 # KTU 1.169 7						
 175132	ẓm	ẓm/	ẓm	n. m. sg. abs. nom.	fasting	
 175133	tšt	!t!št[	/š-t/	vb G prefc.	to place	
@@ -77,7 +77,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175133	tšt	!t===!št(y[	/š-t-y/	vb G prefc. 2 m. pl.	to drink	
 175134	b	b	b	prep.	5) modal relation	
 175135	ḫlṣ	ḫlṣ/	ḫlṣ	n. m. abs. gen.	squeezing	
-175136	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	DULAT quote in bl (III) (cue: beer)
+175136	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 175137	ṣml	ṣml(I)/	ṣml (I)	n. m. sg. abs. nom.	to be hard	
 175138	b	b	b	prep.	5) modal relation	
 175139	mrmt	mrm/t	mrm	n. f. sg. abs. gen.	height	
@@ -87,7 +87,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175142	b	b	b	prep.	in	
 175143	ẓlm	ẓl(I)/m	ẓl (I)	n. m. pl. abs. gen.	1) shade	
 175144	b	b	b	prep.	in	
-175145	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	DULAT quote in qdš (II) (cue: sanctuary)
+175145	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 175146	aphm	aphm	ảphm	illative adv. functor	immediately afterwards	
 # KTU 1.169 9						
 175147	kšpm	kšp/m	kšp	n. m. pl. cstr. nom.	sorcerer	
@@ -123,9 +123,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175165	lbš	lbš/	lbš	n. m. sg. cstr. gen.	clothing	
 175165	lbš	lbš[/	/l-b-š/	vb G act. ptcpl. m. sg. cstr. gen.	to dress, wear, put on clothes	
 # KTU 1.169 13						
-175166	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	1) god b) activities of the gods	DULAT quote in ỉl (I) (cue: god)
+175166	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	1) god b) activities of the gods	
 175167	yštk	!y!št[+k	/š-t/	vb G prefc. 3 m. sg.	to place, set, set up, leave	
-175168	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg. abs. nom.	naked	DULAT quote in ʕrm (I) (cue: naked)
+175168	ˤrm	ˤrm(I)/	ʕrm (I)	adj. m. sg. abs. nom.	naked	
 175169	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 175169	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 175169	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	1) god b) activities of the gods	
@@ -152,13 +152,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175181	adm	adm(I)/	ảdm (I)	n. m. sg. abs. nom.	man	
 175182	b	b	b	prep.	in	
 175183	anšt	anš(t/t	ảnšt	n. f. sg. abs. gen.	illness	
-175184	npẓl	?	?	?	?	DULAT candidates (no reconstructable encoding): /p-ẓ-l/ - to be overcome by
+175184	npẓl	]n]pẓl[	/p-ẓ-l/	vb N suffc. 3 m. sg.	to be overcome by	
 # KTU 1.169 16						
 175185	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 175186	b	b	b	prep.	in	
 175187	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	4) soul	
 175188	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. gen.	back part (of the head)	
-175189	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	DULAT quote in rbt (I) (cue: lady)
+175189	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	
 175190	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 175190	bl	bl(II)	bl (II)	prep.	without	
 175190	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	

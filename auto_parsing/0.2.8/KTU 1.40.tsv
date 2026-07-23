@@ -11,7 +11,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167047	y	~y	-y (II)	prep. functor	indeed	
 167047	y	y	y	prep. functor	oh!	
 167048	ulp	ulp(I)	l (I)	prep.	to	Based on DULAT reconstruction.
+167048	ulp	ulp(II)	l (II)	adv.	no	Based on DULAT reconstruction.
 167048	ulp	ulp(I)	p (I)	conj. functor	and	Based on DULAT reconstruction.
+167048	ulp	u&lp	ủ	conj.	or	Based on DULAT reconstruction.
 167048	ulp	ulp	ủlp	→	?	
 167049		?	?	?	?	
 # KTU 1.40 4						
@@ -289,7 +291,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167233	u	u	ủ	conj.	or	
 167234	tḫṭin	!t!ḫṭ(ʔ[&in	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake, sin	
 167235	b	b	b	prep.	3) relationship of cause or reason	
-167236	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. nom.	3) anger (by meton.)	DULAT quote in ảp (II) (cue: anger)
+167236	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. nom.	3) anger (by meton.)	
 167237	u	u	ủ	conj.	or	
 167238	b	b	b	prep.	3) relationship of cause or reason	
 167239	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
@@ -306,12 +308,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167248	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. gen.	1) sacrifice	
 167249	w	w	w	conj.	and	
 167250	l	l(I)	l (I)	prep.	to	
-167251	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. cstr. gen.	offering	DULAT quote in ṯʕ (I) (cue: offering)
+167251	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. cstr. gen.	offering	
 167252	dbḥn	dbḥ/+n	dbḥ	n. m. cstr. gen.	1) sacrifice	
 167253	ndbḥ	!n!dbḥ[	/d-b-ḥ/	vb G prefc. 1 c. pl.	to sacrifice	
 # KTU 1.40 24						
 167254	hw	hw	hw	pers. pn.	he	
-167255	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	DULAT quote in ṯʕ (I) (cue: offering)
+167255	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
 167256	nṯˤy	!n!ṯˤy[	/ṯ-ʕ-y/	vb G prefc. 1 c. pl.	to offer, sacrifice	
 167257	hw	hw	hw	pers. pn.	he	
 167258	nkt	!n!(nkt[	/n-k-t/	vb G prefc. 1 c. pl.	to immolate	
@@ -349,7 +351,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 26						
 167280	w	w	w	conj.	and	
 167281	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to offer	
-167282	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. cstr. nom.	donkey	DULAT quote in ʕr (II) (cue: donkey)
+167282	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. cstr. nom.	donkey	
 167283	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. gen.	1) justice	
 167283	mšr	mšr(II)/	mšr (II)	n. sg. cstr. gen.	song	
 167284	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	1) justice	
@@ -379,6 +381,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167301	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu	
 167302	u	u	ủ	conj.	or	
 167303	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex., to be disfigured, deformed	
+167303	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex., to be disfigured, deformed	
 167303	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex., to be disfigured, deformed	
 167304	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 167305	u	u	ủ	conj.	or	
@@ -440,6 +443,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167340	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
 167341	u	u	ủ	conj.	or	
 167342	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+167342	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167342	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167343	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 # KTU 1.40 31						
@@ -458,22 +462,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 32						
 167355	u	u	ủ	conj.	or	
 167356	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+167356	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167356	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167357	ypkm	yp/+km	yp	n. m. cstr. nom.	dignity	
 167358	l	l(I)	l (I)	prep.	to	
 167359	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. gen.	sacrifice	
 167360	w	w	w	conj.	and	
 167361	l	l(I)	l (I)	prep.	to	
-167362	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. cstr. gen.	offering	DULAT quote in hw (cue: offering)
+167362	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. cstr. gen.	offering	
 167363	dbḥn	dbḥ/+n	dbḥ	n. m. cstr. gen.	sacrifice	
 167364	ndbḥ	!n!dbḥ[	/d-b-ḥ/	vb G prefc. 1 c. pl.	to sacrifice	
 167365	hw	hw	hw	pers. pn.	2) this	
-167366	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	DULAT quote in hw (cue: offering)
+167366	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. nom.	offering	
 167367	nṯˤy	!n!ṯˤy[	/ṯ-ʕ-y/	vb G prefc. 1 c. pl.	to offer	
 # KTU 1.40 33						
 167368	hw	hw	hw	pers. pn.	he	
-167369	nkt	!n!(nkt[	/n-k-t/	vb G prefc. 1 c. pl.	to immolate	DULAT quote in nkt (cue: immolate)
-167370	nkt	!n!(nkt[	/n-k-t/	vb G prefc. 1 c. pl.	to immolate	DULAT quote in nkt (cue: immolate)
+167369	nkt	!n!(nkt[	/n-k-t/	vb G prefc. 1 c. pl.	to immolate	
+167370	nkt	!n!(nkt[	/n-k-t/	vb G prefc. 1 c. pl.	to immolate	
 167371	ytši	!y!(n]t]š(ʔ[&i	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to go up	
 167372	l	l(I)	l (I)	prep.	to	
 167373	ab	ab/	ảb	n. m. sg. cstr. gen.	1) father b) espec. of El (Rahmouni DEUAT 3ff.)	
@@ -533,6 +538,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167407	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
 167408	u	u	ủ	conj.	or	
 167409	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+167409	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167409	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167410	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 167411	u	u	ủ	conj.	or	
@@ -596,6 +602,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167447	l	l(II)	l (II)	adv.	no	
 167447	l	l(III)	l (III)	functor	certainly	
 167448	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+167448	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167448	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167449	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 167450	b	b	b	prep.	in	
@@ -614,6 +621,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167459	tqṭṭn	!t!qṭṭ[n:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
 167460	u	u	ủ	conj.	or	
 167461	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+167461	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167461	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 167462	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
 167463	l	l(I)	l (I)	prep.	to	

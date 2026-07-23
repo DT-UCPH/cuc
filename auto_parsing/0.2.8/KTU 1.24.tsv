@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.24 1						
 166592	ašr	!(ʔ&a!šr(I)[	/š-r/ (I)	vb G prefc. 1 c. sg.	1) to sing	
-166593	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+166593	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 166594	w	w	w	conj.	1) copulative conj.	
 166595	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
 166595	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
@@ -17,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166602	aġzt	aġz(t/t	ảġzt	n. f. sg. abs. nom.	wedding	
 166603	b	b	b	prep.	in	
 166604	srr	!!srr[/	/s-r-r/	vb G inf.	to set, sink, hide	
-166605	špš	špš/	špš	n. f. sg. cstr. nom.	2) sun	DULAT quote in /s-r-r/ (cue: sun)
+166605	špš	špš/	špš	n. f. sg. cstr. nom.	2) sun	
 # KTU 1.24 4						
 166606	yrḫ	yrḫ/	yrḫ	DN m. sg. abs. gen.	Yariḫu/Yarikh	
 166606	yrḫ	yrḫ/	yrḫ	n. m. sg. abs. gen.	2) DN	
@@ -45,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166618	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
 # KTU 1.24 7						
 166619	hl	hl	hl	deictic adv. functor	behold	
-166620	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. nom.	2) “the Damsel” a) divine title	DULAT quote in ġlmt (I) (cue: damsel)
+166620	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. nom.	2) “the Damsel” a) divine title	
 166621	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to), bear	
 166621	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to), bear	
 166621	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to), bear	
@@ -133,7 +133,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166671	qẓ	qẓ/	qẓ	n. m. sg. abs. gen.	summer	
 166672	tn	(ytn[	/y-t-n/	vb	give	
 166672	tn	(ytn[/	/y-t-n/	vb	give	
-166673	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+166673	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 166674	y	~y	-y (II)	prep. functor	indeed	
 166674	y	y	y	prep. functor	oh!	
 # KTU 1.24 18						
@@ -151,15 +151,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166681	th	?	?	?	?	DULAT: NOT FOUND
 166682	w	w	w	conj.	and	
 166683	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
-166684	mhrh	mhr(III)/+h	mhr (III)	n. m. sg. cstr. nom.	dowry	DULAT quote in /y-t-n/ (cue: dowry)
+166684	mhrh	mhr(III)/+h	mhr (III)	n. m. sg. cstr. nom.	dowry	
 166685	l	l(I)	l (I)	prep.	to	
 166686	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 20						
 166687	bh	b+h	b	prep.	in	
-166688	alp	alp(II)/	ảlp (II)	num.	1) (one, a) thousand a) in cstr. genitive	DULAT quote in ảlp (II) (cue: thousand)
+166688	alp	alp(II)/	ảlp (II)	num.	1) (one, a) thousand a) in cstr. genitive	
 166689	ksp	ksp/	ksp	n. m. sg. abs. nom.	2) shekel(s or other quantities) of silver	
 166690	w	w	w	conj.	and	
-166691	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	DULAT quote in ḫrṣ (cue: thousand)
+166691	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 166692	ḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 21						
 166693	rṣ	?	?	?	?	DULAT: NOT FOUND
@@ -242,13 +242,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166739	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 # KTU 1.24 32						
 166740	ˤmn	ˤm(I)+n	ʕm (I)	prep.	2) relationship of accompaniment	
-166741	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+166741	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 166742	ḫtny	ḫtn[:d+y	/ḫ-t-n/	vb D impv. 2	to become a son-in-law	
 166742	ḫtny	!!ḫtn[/y	/ḫ-t-n/	vb D inf.	to become a son-in-law	
 166742	ḫtny	ḫtn(I)/+y	ḫtn (I)	n. m. sg. cstr. nom.	relationship by marriage	
 166743	aḫr	aḫr	ảḫr	adv./prep./conj.	2) with (prep.)	
 # KTU 1.24 33						
-166744	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+166744	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 166745	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 166745	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	2) DN	
 166746	ytrḫ	!y!trḫ[	/t-r-ḫ/	vb G prefc. 3 m. sg.	to marry	
@@ -279,7 +279,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166759	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 166759	bn	bn[	/b-n/	vb G impv. 2	to understand	
 166760	mznm	mzn/m	mzn	n. m. pl. abs. nom.	weight	
-166761	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+166761	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 166762	w	w	w	conj.	and	
 166763	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
 166763	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
@@ -321,7 +321,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166781	ll	ll(I)/	ll (I)	n. m. sg. cstr. nom.	night	
 166782	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 166782	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
-166783	gml	gml(I)/	gml (I)	n. m. sg. cstr. gen.	first quarter (of the moon)	DULAT quote in gml (I) (cue: quarter)
+166783	gml	gml(I)/	gml (I)	n. m. sg. cstr. gen.	first quarter (of the moon)	
 166784	yrdt	yrd[/t	/y-r-d/	vb G act. ptcpl. m. sg. abs. gen.	to go down, descend	
 # KTU 1.24 43						
 166785	b	b	b	prep.	in	
@@ -368,5 +368,5 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166816	rbḫṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 50						
 166817	dmqt	dmqt/	dmqt	DN sg. abs. nom.	gut	
-166818	ṣġrt	ṣġr(t(I)/t	ṣġrt (I)	adj. f. sg. abs. nom.	youngest	DULAT quote in dmqt (cue: youngest)
+166818	ṣġrt	ṣġr(t(I)/t	ṣġrt (I)	adj. f. sg. abs. nom.	youngest	
 166819	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	

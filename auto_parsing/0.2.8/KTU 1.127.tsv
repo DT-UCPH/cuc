@@ -19,7 +19,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173909	nat	na(t/t	nảt	n. f. sg. abs. nom.	lament	
 # KTU 1.127 5						
 173910	w	w	w	conj.	and	
-173911	ytnt	ytn(t/t	ytnt	n. f. sg. cstr. nom.	gift	DULAT quote in ytnt (cue: gift)
+173911	ytnt	ytn(t/t	ytnt	n. f. sg. cstr. nom.	gift	
 # KTU 1.127 6						
 173912	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. nom.	term for the kings of Ugarit	
 173913	w	w	w	conj.	and	
@@ -32,7 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173915	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
 # KTU 1.127 8						
 173916	kl	kl/	kl	n. m. sg. abs. gen.	totality (of)	
-173917	ykly	!y!kly[	/k-l-y/	vb G prefc. 3 m. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	DULAT quote in /k-l-y/ (cue: consumed)
+173917	ykly	!y!kly[	/k-l-y/	vb G prefc. 3 m. sg.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
 # KTU 1.127 9						
 173918	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	sacrifice	
 173918	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	sacrifice	
@@ -126,7 +126,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173953	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	1) woman	
 173954	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
 173954	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
-173955	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	DULAT quote in ʕz (II) (cue: caprine)
+173955	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 # KTU 1.127 27						
 173956	ḏ	ḏ	d	det. or rel. functor	the one(s) of	
 # KTU 1.127 28						
@@ -134,10 +134,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.127 29						
 173958	x	?	?	?	?	
 # KTU 1.127 30						
-173959	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
+173959	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
 173960	qrt	qr(t(I)/t	qrt (I)	n. f. sg. abs. nom.	1) city	
 173961	tuḫd	!t!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc.	to collect, to take (back), grasp, seize, hold	
-173962	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
+173962	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
 173963	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 173963	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 173963	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	

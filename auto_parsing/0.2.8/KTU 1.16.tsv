@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162067	klb	klb(I)/	klb (I)	n. m. sg. abs. nom.	dog	
 162068	b	b	b	prep.	in	
 162069	btk	bt(II)/+k	bt (II)	n. m. cstr. gen.	1) house	
-162070	nˤtq	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-t-q/ - to become old
+162070	nˤtq	]n]ˤtq[	/ʕ-t-q/	vb N suffc. 3 m. sg.	to become old	
 162071	k	+k	-k (I)			
 162071	k	~k	-k (II)			
 162071	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -74,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 I:11						
 162107	lṭpn	lṭpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 162108	w	w	w	conj.	and	
-162109	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	DULAT quote in qdš (III) (cue: holy)
+162109	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 162110	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 162110	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 162110	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
@@ -95,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162118	bky	!!bky[/	/b-k-y/	vb G inf.	to weep	
 162119	b	b	b	prep.	3) relationship of cause or reason	
 162120	ḥyk	ḥy(m&/+k	ḥym	n. m. pl. cstr. gen.	life	
-162121	abn	ab/+n	ảb	n. m. cstr. nom.	father	DULAT quote in ḥym (cue: father)
+162121	abn	ab/+n	ảb	n. m. cstr. nom.	father	
 162122	ašmḫ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.16 I:15						
 162123	blmtk	blmt/+k	blmt	n. m. cstr. nom.	immortality	
@@ -105,8 +105,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 I:16						
 162127	b	b	b	prep.	in	
 162128	btk	bt(II)/+k	bt (II)	n. m. cstr. gen.	house	
-162129	nˤtq	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-t-q/ - to become old, to age
-162130	k	k(I)	k (I)	prep.	like	DULAT quote in /ʕ-t-q/ (cue: like)
+162129	nˤtq	]n]ˤtq[	/ʕ-t-q/	vb N suffc. 3 m. sg.	to become old, to age	
+162130	k	k(I)	k (I)	prep.	like	
 162131	inr	inr/	ỉnr	n. m. sg. abs. nom.	dog	
 # KTU 1.16 I:17						
 162132	at	at(I)	ảt (I)	pers. pn.	you	
@@ -260,7 +260,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162213	npšh	npš(I)/+h	npš (I)	n. f. cstr. nom.	4) soul	
 # KTU 1.16 I:36						
 162214	tmtn	!t!mt[n	/m-t/	vb G prefc.	to die	
-162215	ṣba	ṣb(u&a(II)/	ṣbủ (II)	n. m. sg. cstr. nom.	setting	
+162215	ṣba	ṣb(u(II)&a/	ṣbủ (II)	n. m. sg. cstr. nom.	setting	
 162216	rbt	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	DULAT direct ref
 # KTU 1.16 I:37						
 162217	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
@@ -285,7 +285,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 I:40						
 162229	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	1) sacrifice	DULAT direct ref
 162230	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king c) legendary heroes	
-162231	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to give a banquet	DULAT direct ref | DULAT quote in /ʕ-š-r/ (cue: banquet)
+162231	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to give a banquet	DULAT direct ref
 # KTU 1.16 I:41						
 162232	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	1) banquet	DULAT direct ref
 162233	qḥ	!!(lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of, take, grasp	
@@ -348,7 +348,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162277	pnh	pn(m&/+h	pnm	n. m. pl. cstr. nom.	1) face	
 162278	ġṯġr	&ġṯġr(I)/	ṯġr (I)	n. m. abs. nom.	gate	KTU corrected: ṯġr | DULAT direct ref
 # KTU 1.16 I:53						
-162279	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	DULAT direct ref
+162279	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 162280	hlm	hlm	hlm	conj. functor	1) and so	DULAT direct ref
 162281	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
 162282	tph	!t!ph(y[	/p-h-y/	vb G prefc. 3 f. sg.	to see, espy	
@@ -509,13 +509,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162351	xxx	?	?	?	?	
 # KTU 1.16 II:19						
 162352	mn	mn(IV)	mn (IV)	?	?	
-162353	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	3) month b) as a measure of time	DULAT direct ref | DULAT quote in mn (I) (cue: month)
+162353	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	3) month b) as a measure of time	DULAT direct ref
 162354	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT direct ref
 162355	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	DULAT direct ref
 162355	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	DULAT direct ref
 # KTU 1.16 II:20						
 162356	mn	mn(IV)	mn (IV)	?	?	
-162357	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /d-w-y/ (cue: that)
+162357	k	k(III)	k (III)	Subordinating or completive functor	when	
 162358	dw	dw/	dw	n. m. sg. cstr. nom.	sick person	
 162359	krt	krt/	krt	PN sg. abs. gen.	krt	
 # KTU 1.16 II:21						
@@ -577,7 +577,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 II:29						
 162391	ˤrym	ˤry/+m(I)	ʕry	TN sg. cstr. nom.	ʿry	
 162392	l	l(I)	l (I)	prep.	to	DULAT direct ref
-162393	bl	bl(II)	bl (II)	prep.	without	DULAT quote in l (I) (cue: without)
+162393	bl	bl(II)	bl (II)	prep.	without	
 162394	xxxx	?	?	?	?	
 # KTU 1.16 II:30						
 162395	tḥbln	?	?	?	?	DULAT: NOT FOUND
@@ -670,7 +670,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162428	klb	klb(I)/	klb (I)	n. m. sg. abs. nom.	dog	
 162429	b	b	b	prep.	in	
 162430	btk	bt(II)/+k	bt (II)	n. m. cstr. gen.	house	
-162431	nˤtq	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-t-q/ - to become old
+162431	nˤtq	]n]ˤtq[	/ʕ-t-q/	vb N suffc. 3 m. sg.	to become old	
 # KTU 1.16 II:39						
 162432	k	+k	-k (I)			
 162432	k	~k	-k (II)			
@@ -864,7 +864,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 III:11						
 162543	ˤl	ˤl(I)	ʕl (I)	prep.	1) spatial location or pre-eminence a) upon	DULAT direct ref
 162544	tlm	tlm/	tlm	n. m. sg. abs. gen.	furrow	
-162545	k	k(I)	k (I)	prep.	like	DULAT quote in ʕl (I) (cue: like)
+162545	k	k(I)	k (I)	prep.	like	
 162546	ˤṭrṭrt	ˤṭrṭr(t/t	ʕṭrṭrt	n. f. sg. abs. gen.	diadem	
 # KTU 1.16 III:12						
 162547	nšu	nšu[	/n-š-ʔ/	vb G suffc. 3 m. sg.	to raise, lift, help up	
@@ -904,18 +904,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162571	amrk	amr(I)/+k	ảmr (I)	n. m. cstr. nom.	2) word(?)	
 162572	xxxx	?	?	?	?	
 # KTU 1.16 IV:2						
-162573	k	k(I)	k (I)	prep.	like	DULAT quote in /ḥ-k-m/ (cue: like)
+162573	k	k(I)	k (I)	prep.	like	
 162574	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 162574	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
 162575	ḥkmt	ḥkm(t/t	ḥkmt	n. f. sg. abs. gen.	wisdom	
-162576	k	k(I)	k (I)	prep.	like	DULAT quote in /ḥ-k-m/ (cue: like)
+162576	k	k(I)	k (I)	prep.	like	
 162577	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	2) bull a) divine title	DULAT direct ref
 162577	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	2) bull a) divine title	DULAT direct ref
 162578	lṭpn	lṭpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 # KTU 1.16 IV:3						
 162579	ṣḥ	ṣḥ[	/ṣ-ḥ/	vb G impv. 2	to exclaim	
 162580	ngr	ngr/	ngr	n. m. sg. cstr. nom.	herald	
-162581	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT direct ref | DULAT quote in ỉl (I) (cue: god)
+162581	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god f) qualifying a deity or place	DULAT direct ref
 162582	ilš	ilš(I)/	ỉlš (I)	DN sg. cstr. gen.	ỉlš (I)	
 162583	ilš	ilš(I)/	ỉlš (I)	DN sg. abs. gen.	ỉlš (I)	
 # KTU 1.16 IV:4						
@@ -941,7 +941,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 IV:6						
 162593	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim, shout	
 162594	ngr	ngr/	ngr	n. m. sg. cstr. nom.	herald	
-162595	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	DULAT quote in ỉlš (I) (cue: god)
+162595	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 162596	ilš	ilš(I)/	ỉlš (I)	DN sg. cstr. gen.	ỉlš (I)	
 # KTU 1.16 IV:7						
 162597	ilš	ilš(I)/	ỉlš (I)	DN sg. cstr. gen.	ỉlš (I)	
@@ -1194,7 +1194,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 V:27						
 162736	aškn	!(ʔ&a!škn[:d	/š-k-n/	vb D	to assign	
 162737	ydt	yd(t/t	ydt	n. f. sg. abs. nom.	she who casts out	DULAT direct ref
-162738	mrṣ	mrṣ/	mrṣ	n. m. sg. abs. nom.	illness	DULAT quote in /k-n/ (cue: illness)
+162738	mrṣ	mrṣ/	mrṣ	n. m. sg. abs. nom.	illness	
 162739	gršt	grš[/t	/g-r-š/	vb G ptcpl. m. sg. cstr. nom.	to eject, drive out, evict, cast out	
 # KTU 1.16 V:28						
 162740	zbln	zbln/	zbln	n. m. sg. cstr. gen.	sickness	
@@ -1304,8 +1304,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.16 VI:3						
 162793	bt	bt(II)/	bt (II)	n. m. sg. cstr. gen.	1) house	DULAT direct ref
 162794	krt	krt/	krt	PN sg. abs. gen.	krt	
-162795	bu	b(ʔ&u[	/b-ʔ/	vb G suffc. 3 m. sg.	to enter, come, reach	
-162795	bu	!!b(ʔ&u[/	/b-ʔ/	vb G inf.	to enter, come, reach	
+162795	bu	b(ʔ[	/b-ʔ/	vb G suffc. 3 m. sg.	to enter, come, reach	
+162795	bu	!!bu[/	/b-ʔ/	vb G inf.	to enter, come, reach	
 162796	tbu	!t!b(ʔ[&u	/b-ʔ/	vb G prefc.	to enter, come, reach	
 # KTU 1.16 VI:4						
 162797	bkt	bk(y[/t	/b-k-y/	vb G act. ptcpl. m. sg. abs. nom.	to weep	
@@ -1590,7 +1590,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162956	tqġ	!t===!(yqġ[	/y-q-ġ/	vb G prefc. 2 m. pl.	be alert, pay attention	
 162957	udn	udn(I)/	ủdn (I)	n. m. sg. abs. nom.	ear	
 # KTU 1.16 VI:43						
-162958	k	k(I)	k (I)	prep.	like	DULAT quote in /d-b-r/ (I) (cue: like)
+162958	k	k(I)	k (I)	prep.	like	
 162959	ġz	ġz/	ġz	n. m. sg. cstr. gen.	warrior	
 162960	ġzm	ġz/m	ġz	n. m. pl. abs. gen.	warrior	
 162961	tdbr	!t!dbr[:w	/d-b-r/ (I)	vb G prefc. 3 m. pl.	1) drive away	DULAT direct ref
@@ -1719,6 +1719,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163028	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed, humbled	DULAT direct ref
 163028	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed, humbled	DULAT direct ref
 163028	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed, humbled	DULAT direct ref
+163028	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed, humbled	DULAT direct ref
 163028	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed, humbled	DULAT direct ref
 163028	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed, humbled	DULAT direct ref
 # KTU 1.16 VI:59						

@@ -69,12 +69,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167540	pnh	pn(m&/+h	pnm	n. m. pl. cstr. nom.	face	
 167541	x	?	?	?	?	
 167542	w	w	w	conj.	and	
-167543	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call	
-167543	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call	
+167543	qra	qr(ʔ[	/q-r-ʔ/	vb G impv. 2	to call	
+167543	qra	!!qra[/	/q-r-ʔ/	vb G inf.	to call	
 # KTU 1.41 8						
 167544	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day a) as a date	
 167544	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day a) as a date	
 167544	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+167545	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 167545	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 167546	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	1) to enter	
 167547	t	/t, /t=				DULAT: NOT FOUND
@@ -198,7 +199,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167622	ṯlṯm	ṯlṯm/	ṯlṯm	num.	1) the numeral thirty c) in apposition	
 167623	mlu	mlu/	mlủ	n. m. sg. abs. nom.	fill	
 167624	w	w	w	conj.	and	
-167625	mˤrb	mˤrb(I)/	mʕrb (I)	n. m. sg. abs. nom.	tribute-offering	DULAT quote in mʕrb (I) (cue: offering)
+167625	mˤrb	mˤrb(I)/	mʕrb (I)	n. m. sg. abs. nom.	tribute-offering	
 # KTU 1.41 20						
 167626	d	d	d	det. or rel. functor	2) which	
 167627	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
@@ -207,7 +208,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167629	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 167630	dbh	db/+h	db	n. m. cstr. gen.	threshold	
 167631	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
-167632	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	1) myrrh b) in the expression šmn mr myrrh-scented oil	DULAT quote in mr (I) (cue: scented)
+167632	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	1) myrrh b) in the expression šmn mr myrrh-scented oil	
 # KTU 1.41 21						
 167633	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	1) oil c) esp	
 167634	rqḥ	rqḥ(I)/	rqḥ (I)	n. m. sg. cstr. gen.	perfumer	
@@ -251,7 +252,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167659	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.41 25						
 167660	l	l(I)	l (I)	prep.	to	
-167661	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. cstr. gen.	2) “the Damsel” b) of unc. attribution	DULAT quote in ġlmt (I) (cue: damsel)
+167661	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. cstr. gen.	2) “the Damsel” b) of unc. attribution	
 167662	š	š/	š	n. m. sg. abs. gen.	ram	
 167663	w	w	w	conj.	and	
 167664	l	l(I)	l (I)	prep.	to	
@@ -266,7 +267,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167669	l	l(I)	l (I)	prep.	to	
 167669	l	l(II)	l (II)	adv.	no	
 167669	l	l(III)	l (III)	functor	certainly	
-167670	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+167670	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 167671	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 167671	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 167671	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
@@ -372,8 +373,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167732	w	w	w	conj.	and	
 167733	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 167734	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	1) lady a) bʕlt bhtm “Lady of the Palace”	
-167735	btm	bt(II)/m	bt (II)	n. m. pl. abs. gen.	3) temple	DULAT quote in bt (II) (cue: temple)
-167736	rmm	rm(I)/m	rm (I)	adj. m. pl. abs. nom.	high	DULAT quote in rm (I) (cue: high)
+167735	btm	bt(II)/m	bt (II)	n. m. pl. abs. gen.	3) temple	
+167736	rmm	rm(I)/m	rm (I)	adj. m. pl. abs. nom.	high	
 167737	w	w	w	conj.	and	
 167738	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
 167738	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
@@ -476,9 +477,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167795	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.41 47						
 167796	b	b	b	prep.	in	
-167797	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	DULAT quote in šbʕ (II) (cue: seventh)
-167798	ṣbu	ṣbu(II)/	ṣbủ (II)	n. m. sg. cstr. nom.	setting	DULAT quote in ṣbủ (II) (cue: setting)
-167799	špš	špš/	špš	n. f. sg. abs. gen.	sun	DULAT quote in ḥl (II) (cue: sun)
+167797	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	
+167798	ṣbu	ṣbu(II)/	ṣbủ (II)	n. m. sg. cstr. nom.	setting	
+167799	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 167800	w	w	w	conj.	and	
 167801	hl	hl	hl	deictic adv. functor	behold	
 167802	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
@@ -487,14 +488,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167803	ˤrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	to enter	
 167803	ˤrb	ˤrb[:w	/ʕ-r-b/ (I)	vb G suffc. 3 m. pl.	to enter	
 167803	ˤrb	ˤrb(I)/	ʕrb (I)	n. m. sg. abs. nom.	entry	
-167804	špš	špš/	špš	n. f. sg. abs. nom.	sun	DULAT quote in ḥl (II) (cue: sun)
+167804	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 1.41 48						
 167805	w	w	w	conj.	and	
-167806	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	DULAT quote in ym (I) (cue: desacralised)
+167806	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 167807	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 167808	w	w	w	conj.	and	
 167809	b	b	b	prep.	in	
-167810	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
+167810	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
 167811	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
 167811	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
 167812	ṯn	ṯn(I)/	ṯn (I)	num.	two	
@@ -548,7 +549,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167842	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 167842	špš	špš/	špš	n. f. sg. abs. gen.	1) sun	
 167843	w	w	w	conj.	and	
-167844	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	DULAT quote in mlk (I) (cue: desacralised)
+167844	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 167845	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 # KTU 1.41 54						
 167846	w	w	w	conj.	and	

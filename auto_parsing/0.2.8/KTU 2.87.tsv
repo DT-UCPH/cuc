@@ -23,9 +23,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.87 5						
 179374	išprm	išpr&m	ỉšpr	morph.	date cake	
 179375	w	w	w	conj.	1) copulative conj.	
-179376	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	
+179376	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	three	KTU corrected: ṯlṯ
+179376	ṯlṯt	ṯlṯ(V)/t	ṯlṯ (V)	n. f. sg. abs. nom.	copper	KTU corrected: ṯlṯ
+179376	ṯlṯt	ṯlṯ(II)/t	ṯlṯ (II)	adj. f. sg. abs. nom.	third	KTU corrected: ṯlṯ
+179376	ṯlṯt	ṯlṯ(IV)&t/	ṯlṯ (IV)	num.	triple	KTU corrected: ṯlṯ
 # KTU 2.87 6						
-179377	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. cstr. nom.	donkey	DULAT quote in ʕr (II) (cue: donkey)
+179377	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. cstr. nom.	donkey	
 179378	mlḥt	mlḥ(t/t	mlḥt	n. f. sg. abs. gen.	salt	
 179379	w	w	w	conj.	and	
 179380	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
@@ -41,9 +44,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179386	ky	k(III)+y	k (III)	Subordinating or completive functor	1) when	
 179386	ky	k(II)+y	k (II)	emph. functor	yes	
 179386	ky	k(IV)+y	k (IV)	adv.	thus	
-179387	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	DULAT quote in /ḫ-b-t/ (cue: oppressed)
+179387	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	
 179388	w	w	w	conj.	1) copulative conj.	
-179389	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: never)
+179389	l	l(II)	l (II)	adv.	no	
 179390	ušal	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.87 9						
 179391	u	u	ủ	conj.	2) and / also	
@@ -52,7 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179392	ky	k(IV)+y	k (IV)	adv.	thus	
 179393	b	b	b	prep.	2) temporal situation a) time when something happens	
 179394	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
-179395	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: when)
+179395	k	k(III)	k (III)	Subordinating or completive functor	when	
 179396	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 179397	d	d	d	det. or rel. functor	the one(s) of	
 179398	šiln	š(ʔ&il[n	/š-ʔ-l/	vb G suffc.	to ask, request in general	
@@ -80,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179411	ḥ	ḥ/	ḥ	n. m. cstr. nom.	life	
 179412	npšy	npš(I)/+y	npš (I)	n. f. cstr. gen.	4) soul	
 # KTU 2.87 13						
-179413	hm	hm(II)	hm (II)	conj./interr. functor	2) perhaps …? (interr. functor) a) in simple question	DULAT quote in hm (II) (cue: perhaps)
+179413	hm	hm(II)	hm (II)	conj./interr. functor	2) perhaps …? (interr. functor) a) in simple question	
 179414	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	2) to have	
 179415	d	d	d	det. or rel. functor	2) which	
 179416	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give	
@@ -156,31 +159,33 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179460	lb	lb/	lb	n. m. sg. cstr. nom.	heart	
 179461	aḫtk	aḫ(t(I)/t+k	ảḫt (I)	n. f. sg. cstr. gen.	sister (related by blood)	
 # KTU 2.87 27						
-179462	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in hm (II) (cue: if)
+179462	k	k(III)	k (III)	Subordinating or completive functor	when	
 179463	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
 179463	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
 179463	mrṣ	mrṣ/	mrṣ	n. m. sg. abs. nom.	illness	
-179464	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	DULAT quote in hm (II) (cue: if)
+179464	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
 179465	idt	id(t/t	ỉdt	n. f. sg. abs. nom.	?	
 179466	w	w	w	conj.	1) copulative conj.	
 179467	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	
 # KTU 2.87 28						
 179468	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two b) ge	
 179469	ḫpnm	ḫpn(I)/m	ḫpn (I)	n. m. pl. abs. nom.	1) for personal use c) ḫpn d ỉqnỉ w šmt a ḫ . of violet and reddish purple	
-179470	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. gen.	new moon	
+179470	ḥdṯm	ḥdṯ(I)/+m(I)	ḥdṯ (I)	adj. cstr. nom.	new	
+179470	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. nom.	new moon	
 # KTU 2.87 29						
 179471	hyn	hy+n	hy	pers. pn.	1) she	
 179471	hyn	hyn/	hyn	DN sg. abs. nom.	Hayyānu/alt. name of the god kṯr (Kothar)	
 179472	d	d	d	det. or rel. functor	2) which	
 179473	znt	zn(t/t	znt	n. f. sg. abs. nom.	sustenance	
 179474	ly	l(I)+y	l (I)	prep.	4) introducing a complement of the addressee	
-179475	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+179475	l	l(II)	l (II)	adv.	no	
 179476	ytnm	!y!(ytn[m	/y-t-n/	vb	1) to be given	
 # KTU 2.87 30						
 179477	w	w	w	conj.	1) copulative conj.	
 179478	kspa	?	?	?	?	DULAT: NOT FOUND
-179479	nmḥt	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḥ(-w:y)/ - to be cleaned up
+179479	nmḥt	]n]mḥ[t	/m-ḥ(-w:y)/	vb N suffc. 1 c. sg.	to be cleaned up	
 179480	aky	aky	ỉky	interr. functor	what of?	
+179481	dnt	dnt	ỉky	interr. functor	what of?	
 179481	dnt	dn(t(II)/t	dnt (II)	n. f. sg. abs. nom.	plight	
 # KTU 2.87 31						
 179482	hn	hn	hn	functor	2) as an adv.	
@@ -207,14 +212,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179496	tšḫr	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-ḫ-r/ - to delay
 # KTU 2.87 34						
 179497	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
-179498	l	l(III)	l (III)	functor	certainly	DULAT quote in k (III) (cue: certainly)
+179498	l	l(III)	l (III)	functor	certainly	
 179499	ydˤt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	1) to know	
 179499	ydˤt	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	1) to know	
 179499	ydˤt	ydˤ[t==	/y-d-ʕ/ (I)	vb G suffc. 2 f. sg.	1) to know	
 179499	ydˤt	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	1) to know	
 179499	ydˤt	ydˤ(I)[/t	/y-d-ʕ/ (I)	vb G pass. ptcpl. m. sg. abs. nom.	1) to know	
 179500	lby	lb/+y	lb	n. m. cstr. nom.	heart	
-179501	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in k (III) (cue: that)
+179501	k	k(III)	k (III)	Subordinating or completive functor	when	
 179502	mrṣ	mrṣ[	/m-r-ṣ/	vb G suffc. 3 m. sg.	to fall ill	
 179502	mrṣ	!!mrṣ[/	/m-r-ṣ/	vb G inf.	to fall ill	
 179502	mrṣ	mrṣ/	mrṣ	n. m. sg. abs. nom.	illness	

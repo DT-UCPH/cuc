@@ -5,8 +5,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173544	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
 173545	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. abs. gen.	where-is-the- Mistress?	
 173546	b	b	b	prep.	in	
-173547	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
-173548	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	DULAT quote in šbʕ (II) (cue: seventh)
+173547	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
+173548	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	
 # KTU 1.119 2						
 173549	š	š/	š	n. m. sg. abs. nom.	ram	
 173550	l	l(I)	l (I)	prep.	to	
@@ -45,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 6						
 173574	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 173574	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-173575	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	DULAT quote in qdš (II) (cue: sanctuary)
+173575	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 173576	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 173576	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 173577	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
@@ -89,7 +89,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173602	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 173603	b	b	b	prep.	in	
 173604	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	eight	
-173605	ṯˤšrt	&ṯˤšr&t(I)/	ʕšr(t) (I)	n. m. cstr. nom.	banquet	KTU corrected: ʿšrt
+173605	ṯˤšrt	&ṯˤšr(I)&t/	ʕšr(t) (I)	n. m. cstr. nom.	banquet	KTU corrected: ʿšrt
 173605	ṯˤšrt	&ṯˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	KTU corrected: ʿšrt
 173606	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. abs. gen.	where-is-the- Mistress?	
 # KTU 1.119 12						
@@ -125,7 +125,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173627	xx	?	?	?	?	
 # KTU 1.119 16						
 173628	w	w	w	conj.	and	
-173629	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	DULAT quote in ʕr (II) (cue: donkey)
+173629	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. abs. nom.	donkey	
 173630	l	l(I)	l (I)	prep.	to	
 173631	x	?	?	?	?	
 # KTU 1.119 17						
@@ -163,7 +163,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173656	b	b	b	prep.	in	
 173657	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 173658	b	b	b	prep.	in	
-173659	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	DULAT quote in šbʕ (II) (cue: seventh)
+173659	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	
 173660	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
 # KTU 1.119 23						
 173661	mḥllm	mḥll/m	mḥll	n. m. pl. abs. nom.	desacraliser	
@@ -186,7 +186,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173673	mlkm	mlk(I)/m	mlk (I)	n. m. pl. abs. nom.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 173674	rišyt	rišy(t/t	rỉšyt	n. f. sg. abs. nom.	beginning	
 # KTU 1.119 26						
-173675	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in ʕz (III) (cue: when)
+173675	k	k(III)	k (III)	Subordinating or completive functor	when	
 173676	gr	gr(y[	/g-r(-y)/	vb G suffc. 3 m. sg.	to attack	
 173676	gr	gr(y[:w	/g-r(-y)/	vb G suffc. 3 m. pl.	to attack	
 173676	gr	gr(I)/	gr (I)	n. m. pl. cstr. nom.	protected	
@@ -204,7 +204,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173683	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 173684	tšun	!t!(nš(ʔ[&un	/n-š-ʔ/	vb G prefc.	to raise, lift, help up	
 # KTU 1.119 28						
-173685	y	y	y	prep. functor	oh!	DULAT quote in y (cue: oh)
+173685	y	y	y	prep. functor	oh!	
 173686	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 173687	al	al(I)	ảl (I)	neg. functor	no	
 173687	al	al(II)	ảl (II)	pos. functor	surely	
@@ -219,14 +219,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173689	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
 173689	ˤz	ˤz(I)/	ʕz (I)	n. m. sg. abs. nom.	strength	
 173690	l	l(I)	l (I)	prep.	to	
-173691	ṯġrn	ṯġr(I)/+n	ṯġr (I)	n. m. cstr. gen.	gate	DULAT quote in ảl (II) (cue: gate)
+173691	ṯġrn	ṯġr(I)/+n	ṯġr (I)	n. m. cstr. gen.	gate	
 # KTU 1.119 29						
-173692	y	y	y	prep. functor	oh!	DULAT quote in ỉbr (I) (cue: oh)
+173692	y	y	y	prep. functor	oh!	
 173693	qrd	qrd(I)/	qrd (I)	n. m. sg. abs. nom.	hero	
 173694	l	l(I)	l (I)	prep.	to	
 173695	ḥmytny	?	?	?	?	DULAT candidates (no reconstructable encoding): ḥmt (I) - wall
-173696	ibr	ibr(I)/	ỉbr (I)	n. m. sg. abs. gen.	1) bull	DULAT quote in ỉbr (I) (cue: bull)
-173697	y	y	y	prep. functor	oh!	DULAT quote in ỉbr (I) (cue: oh)
+173696	ibr	ibr(I)/	ỉbr (I)	n. m. sg. abs. gen.	1) bull	
+173697	y	y	y	prep. functor	oh!	
 # KTU 1.119 30						
 173698	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 173698	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
@@ -245,7 +245,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173707	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 173707	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 173708	nmlu	!n!ml(ʔ[&u:d	/m-l-ʔ/	vb D prefc. 1 c. pl.	to fill (up)	
-173709	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	1) banquet	DULAT quote in /ʕ-š-r/ (cue: banquet)
+173709	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	1) banquet	
 173710	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 173710	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 173711	nˤ	?	?	?	?	DULAT: NOT FOUND
@@ -255,7 +255,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173712	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	Prince	
 173712	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
 173712	šr	šr(I)/	šr (I)	n. m. sg. cstr. nom.	song	
-173713	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	DULAT quote in qdš (II) (cue: sanctuary)
+173713	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 173714	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 173714	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 173715	nˤl	!n!ˤl(y[	/ʕ-l-y/	vb G prefc. 1 c. pl.	to go up, rise	

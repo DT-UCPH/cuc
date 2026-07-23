@@ -45,9 +45,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180536	rb	rb/	rb(b)	n. m. sg. abs. nom.	drizzle	
 # KTU 3.1 12						
 180537	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. nom.	lord	
-180538	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	DULAT quote in /š-l-m/ (cue: well)
+180538	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
 180539	w	w	w	conj.	and	
-180540	špš	špš/	špš	n. f. sg. cstr. nom.	sun	DULAT quote in /š-l-m/ (cue: sun)
+180540	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
 # KTU 3.1 13						
 180541	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 180542	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
@@ -93,7 +93,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180565	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
 # KTU 3.1 19						
 180566	l	l(I)	l (I)	prep.	to	
-180567	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	DULAT quote in špš (cue: sun)
+180567	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	
 180568	arn	arn(I)/	ảrn (I)	n. m. sg. abs. gen.	chest	
 180569	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
 180570	ˤšrmn	ˤšr(II)/m+n	ʕšr (II)	n. m. cstr. nom.	marshal	
@@ -103,7 +103,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180573	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	2) adv. acc.	
 180574	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
 180574	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
-180575	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	DULAT quote in ḫrṣ (cue: mina)
+180575	mn	mn(III)/	mn (III)	n. m. sg. abs. nom.	mina	
 180576	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold c) as tribute	
 # KTU 3.1 21						
 180577	w	w	w	conj.	and	
@@ -134,10 +134,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180593	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
 180593	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry, bring, take	
 180594	l	l(I)	l (I)	prep.	to	
-180595	špš	špš/	špš	n. f. sg. cstr. gen.	sun	DULAT quote in l (I) (cue: sun)
+180595	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
 # KTU 3.1 26						
 180596	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king c) legendary heroes	
-180597	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	DULAT quote in mlk (I) (cue: great)
+180597	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
 180598	bˤlh	bˤl(II)/+h	bʕl (II)	n. m. cstr. nom.	lord	
 # KTU 3.1 27						
 180599	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	

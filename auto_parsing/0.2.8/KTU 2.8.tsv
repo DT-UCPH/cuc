@@ -33,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176045	x	?	?	?	?	
 # KTU 2.8 4						
 176046	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
-176047	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure, clean, free	DULAT quote in ảt (I) (cue: pure)
+176047	brt	br[t	/b-r(-r)/	vb G suffc. 1 c. sg.	to be or remain pure, clean, free	
 176048	lbk	lb/+k	lb	n. m. cstr. nom.	heart	
 176049	ˤnn	ˤn(I)&n/	ʕn (I)	n. f. abs. nom.	eye	
 176049	ˤnn	ˤnn/	ʕnn	n. m. sg. cstr. nom.	1) manservant	
@@ -41,7 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176050	x	?	?	?	?	
 # KTU 2.8 5						
 176051	ṣdq	ṣdq(I)/	ṣdq (I)	adj. sg. abs. nom.	justice	
-176052	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /y-t-n/ (cue: when)
+176052	k	k(III)	k (III)	Subordinating or completive functor	when	
 176053	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give, hand over, grant, bestow	
 176053	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give, hand over, grant, bestow	
 176053	ttn	!t==!(ytn[	/y-t-n/	vb G prefc. 2 f. sg.	to give, hand over, grant, bestow	
@@ -50,6 +50,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176053	ttn	!t===!(ytn[	/y-t-n/	vb G prefc. 2 m. pl.	to give, hand over, grant, bestow	
 176054	ly	l(I)+y	l (I)	prep.	to	
 176055	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+176055	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 176055	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 # KTU 2.8 6						
 176056		?	?	?	?	

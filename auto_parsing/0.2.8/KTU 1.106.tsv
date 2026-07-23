@@ -67,12 +67,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172159	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. cstr. nom.	ewe	
 172160	ḫmnh	ḫmn(I)/+h	ḫmn (I)	n. m. cstr. gen.	chapel	
 172161	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
-172162	qdšh	qdš(II)/+h	qdš (II)	n. m. cstr. nom.	sanctuary	DULAT quote in qdš (II) (cue: sanctuary)
+172162	qdšh	qdš(II)/+h	qdš (II)	n. m. cstr. nom.	sanctuary	
 # KTU 1.106 14						
 172163	ˤlyh	ˤly(II)/+h	ʕly (II)	n. m. cstr. nom.	place of sacrifice	
 172164	š	š/	š	n. m. sg. abs. nom.	ram	
 172165	ḫmnh	ḫmn(I)/+h	ḫmn (I)	n. m. cstr. nom.	chapel	
-172166	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+172166	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 # KTU 1.106 15						
 172167	š	š/	š	n. m. sg. cstr. nom.	ram	
 172168	kbmh	kbm/+h	kbm	n. m. sg. cstr. gen.	ein Gebäude	
@@ -93,7 +93,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172175	pn	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 # KTU 1.106 17						
 172176	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
-172177	ptḥ	ptḥ/	ptḥ	n. m. sg. abs. nom.	entrance	DULAT quote in ptḥ (cue: entrance)
+172177	ptḥ	ptḥ/	ptḥ	n. m. sg. abs. nom.	entrance	
 172178	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	4) monument	
 172179	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 # KTU 1.106 18						
@@ -140,7 +140,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172200	b	b	b	prep.	in	
 172201	gn	gn(I)/	gn (I)	n. m. sg. abs. gen.	garden	
 172202	w	w	w	conj.	and	
-172203	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	DULAT quote in ḥl (II) (cue: desacralised)
+172203	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 # KTU 1.106 24						
 172204	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 172205	b	b	b	prep.	in	
@@ -168,6 +168,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172221	ltˤrk	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-r-k/ - 1) to prepare
 # KTU 1.106 28						
 172222	ksu	?	?	?	?	DULAT: NOT FOUND
+172223	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172223	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 172224	tṣu	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
 172225	šlḥmt	šlḥm(t/t	šlḥmt	n. f. sg. abs. nom.	provisions	

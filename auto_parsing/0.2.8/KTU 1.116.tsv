@@ -31,6 +31,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.116 7						
 173395	xxxd	?	?	?	?	DULAT: NOT FOUND
 173396	nntd	?	?	?	?	DULAT: NOT FOUND
+173397	kltd	kly[+d	/k-l-y/	vb G suffc.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
 173397	kltd	klt(I)/+d	klt (I)	n. f. cstr. nom.	bride	
 173397	kltd	klt(II)/+d	klt (II)	n. f. cstr. nom.	measure	
 # KTU 1.116 8						
@@ -74,12 +75,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173426	ˤntd	ˤn(I)/t+d	ʕn (I)	n. f. sg. cstr. nom.	eye	
 173426	ˤntd	ˤnt(I)/+d	ʕnt (I)	DN sg. cstr. nom.	ʿAnatu/Anat	
 173426	ˤntd	ˤn(II)/t+d	ʕn (II)	n. f. sg. cstr. nom.	furrow	
+173426	ˤntd	ˤnt(II)+d	ʕnt (II)	adv.	now	
 173427	ṯmgnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯmg - ṯmg
 # KTU 1.116 18						
 173428	pḏḏpḫnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 19						
 173429	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Bien-amada
-173430	dqtd	dqt(II)/+d	dqt (II)	n. f. cstr. gen.	manufacture	
+173430	dqtd	dqt(I)/+d	dqt (I)	adj. f. cstr. nom.	3) DN < “the Little One”	
+173430	dqtd	dqt(II)/+d	dqt (II)	n. f. cstr. nom.	manufacture	
 # KTU 1.116 20						
 173431	ḫdnṯt	?	?	?	?	DULAT: NOT FOUND
 173432	ḫdlrṯt	?	?	?	?	DULAT: NOT FOUND
@@ -87,9 +90,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173433	išḫrd	?	?	?	?	DULAT: NOT FOUND
 173434	alnb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 22						
-173435	nkld	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+173435	nkld	]n]kl(y[+d	/k-l-y/	vb N suffc.	to be consumed	
 173436	nntdm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 23						
+173437	kltd	kly[+d	/k-l-y/	vb G suffc.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
 173437	kltd	klt(I)/+d	klt (I)	n. f. cstr. nom.	bride	
 173437	kltd	klt(II)/+d	klt (II)	n. f. cstr. nom.	measure	
 173438	admd	adm(I)/+d	ảdm (I)	n. m. cstr. nom.	man	
@@ -122,6 +126,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173454	pġxxxxwrṯt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 34						
 173455	nṯpxxx	?	?	?	?	DULAT: NOT FOUND
+173456	kltd	kly[+d	/k-l-y/	vb G suffc.	to finish, be finished, to empty, be emptied (out), to consume, be consumed	
 173456	kltd	klt(I)/+d	klt (I)	n. f. cstr. nom.	bride	
 173456	kltd	klt(II)/+d	klt (II)	n. f. cstr. nom.	measure	
 # KTU 1.116 35						

@@ -5,8 +5,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170016	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
 170017	rišyn	rišy/+n	rỉšy	GN sg. cstr. gen.	rỉšy	
 170018	b	b	b	prep.	in	
-170019	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
-170020	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	DULAT quote in ym (I) (cue: moon)
+170019	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
+170020	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
 # KTU 1.87 2						
 170021	šmtr	šmtr(I)/	šmtr (I)	n. m. cstr. nom.	cutting	
 170022	uṯlkl	uṯ&lkl/	ủṯkl	n. m. abs. gen.	bunch	KTU corrected: uṯkl
@@ -69,12 +69,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170058	mḥy	mḥ[y	/m-ḥ(-w:y)/	vb G impv. 2	to clean, wipe, erase	
 170059	x	?	?	?	?	
 170060	w	w	w	conj.	and	
-170061	qra	qr(ʔ&a[	/q-r-ʔ/	vb G impv. 2	to call, shout, invite	
-170061	qra	!!qr(ʔ&a[/	/q-r-ʔ/	vb G inf.	to call, shout, invite	
+170061	qra	qr(ʔ[	/q-r-ʔ/	vb G impv. 2	to call, shout, invite	
+170061	qra	!!qra[/	/q-r-ʔ/	vb G inf.	to call, shout, invite	
 # KTU 1.87 9						
 170062	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day a) as a date	
 170062	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day a) as a date	
 170062	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
+170063	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 170063	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 170064	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	to enter	
 # KTU 1.87 10						
@@ -211,7 +212,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170144	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
 170144	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 170145	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
-170146	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	DULAT quote in dbḥ (cue: myrrh)
+170146	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
 170147	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. nom.	oil	
 170148	rqḥ	rqḥ(I)/	rqḥ (I)	n. m. sg. cstr. gen.	perfumer	
 170149	nbt	nb(t/t	nbt	n. f. sg. cstr. gen.	honey	
@@ -256,7 +257,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170172	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 170173	š	š/	š	n. m. sg. abs. gen.	ram	
 170174	l	l(I)	l (I)	prep.	to	
-170175	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. cstr. gen.	2) “the Damsel” b) of unc. attribution	DULAT quote in ġlmt (I) (cue: damsel)
+170175	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. cstr. gen.	2) “the Damsel” b) of unc. attribution	
 170176	š	š/	š	n. m. sg. abs. gen.	ram	
 170177	w	w	w	conj.	and	
 170178	l	l(I)	l (I)	prep.	to	
@@ -270,7 +271,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170182	l	l(I)	l (I)	prep.	to	
 170182	l	l(II)	l (II)	adv.	no	
 170182	l	l(III)	l (III)	functor	certainly	
-170183	nkl	?	?	?	?	DULAT candidates (no reconstructable encoding): /k-l-y/ - to be consumed
+170183	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 170184	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 170184	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
 170184	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
@@ -384,7 +385,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170253	rmm	rm(I)/m	rm (I)	adj. m. pl. abs. nom.	high	
 170253	rmm	rmm[:l	/r-m/	vb L impv. 2	to erect	
 170254	w	w	w	conj.	and	
-170255	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	DULAT quote in ʕly (II) (cue: place)
+170255	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
 170256	mdbḥt	mdbḥ/t	mdbḥ	n. f. sg. abs. nom.	altar	
 170257	b	b	b	prep.	in	
 170258	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
@@ -535,6 +536,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170343	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
 170343	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.87 56						
+170344	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 170344	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 170345	š	š/	š	n. m. sg. cstr. nom.	1) ram b) as a sacrificial victim	
 170346	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
@@ -566,8 +568,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170359	bn	bn(II)	bn (II)	prep.	between	
 170359	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 170359	bn	bn[	/b-n/	vb G impv. 2	to understand	
-170360	hzpḫ	hzp(y&ḫ(I)/	hzpy (I)	GN sg. abs. nom.	hzpy (I)	
-170360	hzpḫ	hzp(y&ḫ(II)/	hzpy (II)	PN sg. abs. nom.	hzpy (II)	
+170360	hzpḫ	hzp(y(I)&ḫ/	hzpy (I)	GN sg. abs. nom.	hzpy (I)	
+170360	hzpḫ	hzp(y(II)&ḫ/	hzpy (II)	PN sg. abs. nom.	hzpy (II)	
 170361	ṯlṯṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.87 59						
 170362	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. cstr. nom.	Koṯaru/Kothar	

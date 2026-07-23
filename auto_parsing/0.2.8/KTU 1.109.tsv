@@ -11,14 +11,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172690	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.109 3						
 172691	b	b	b	prep.	in	
-172692	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
+172692	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day a) as a date	
 172693	mlat	mla(t/t	mlảt	n. f. sg. abs. gen.	fullness	
 # KTU 1.109 4						
 172694	tqln	!t!ql[n	/q-l/	vb G prefc.	to fall (down)	
-172695	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT quote in ảlp (I) (cue: cattle)
+172695	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	
 # KTU 1.109 5						
-172696	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	3) month b) as a measure of time	DULAT quote in yrḫ (cue: month)
-172697	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. gen.	2) banquet offering	DULAT quote in ʕšr(t) (I) (cue: offering)
+172696	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	3) month b) as a measure of time	
+172697	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. gen.	2) banquet offering	
 172698	l	l(I)	l (I)	prep.	to	
 172699	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 172700	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -191,7 +191,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172807	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	1) left	
 # KTU 1.109 27						
 172808	d	d	d	det. or rel. functor	1) the one(s) of b) det. of property	
-172809	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT quote in ảlp (I) (cue: cattle)
+172809	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	
 172810	w	w	w	conj.	and	
 172811	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle d) sacrificial material	
 172811	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle d) sacrificial material	
@@ -222,7 +222,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172829	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	1) lady a) bʕlt bhtm “Lady of the Palace”	
 172830	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. gen.	house	
 # KTU 1.109 32						
+172831	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172831	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
+172832	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172832	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 172833	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
 172833	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	

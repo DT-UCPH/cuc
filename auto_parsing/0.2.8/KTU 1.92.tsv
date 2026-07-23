@@ -38,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170582	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 170582	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 1.92 6						
-170583	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
+170583	yṣi	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
 170584	ġlh	ġl(I)/+h	ġl (I)	n. m. cstr. nom.	far extent of desert	
 170585	tḥmd	!t!ḥmd[	/ḥ-m-d/	vb G prefc. 3 f. sg.	to desire	
 170585	tḥmd	!t=!ḥmd[	/ḥ-m-d/	vb G prefc. 2 m. sg.	to desire	
@@ -167,7 +167,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170651	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
 170652	nšat	?	?	?	?	DULAT candidates (no reconstructable encoding): /n-š-ʔ/ - to raise, lift, help up
 170653	ẓl	ẓl(I)/	ẓl (I)	n. m. sg. abs. nom.	2) reflection	
-170654	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: like)
+170654	k	k(I)	k (I)	prep.	like	
 170655	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	1) heavenly body	
 # KTU 1.92 28						
 170656	xb	?	?	?	?	DULAT: NOT FOUND
@@ -212,7 +212,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170682	yˤnyh	!y!ˤny(I)[+h	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	
 170683	pdr	pdr(I)/	pdr (I)	n. m. sg. cstr. nom.	town	
 170683	pdr	pdr(I)/	pdr (I)	n. m. sg. abs. nom.	town	
-170684	ttġr	!t!(n]t]ġr[	/n-ġ-r/	vb Gt prefc.	to defend oneself	
+170684	ttġr	!t!(n]t]ġr[	/n-ġ-r/	vb Gt prefc. 3 f. sg.	to defend oneself	
+170684	ttġr	!t=!(n]t]ġr[	/n-ġ-r/	vb Gt prefc. 2 m. sg.	to defend oneself	
+170684	ttġr	!t==!(n]t]ġr[	/n-ġ-r/	vb Gt prefc. 2 f. sg.	to defend oneself	
+170684	ttġr	!t!(n]t]ġr[	/n-ġ-r/	vb Gt prefc. 3 m. du.	to defend oneself	
+170684	ttġr	!t!(n]t]ġr[:w	/n-ġ-r/	vb Gt prefc. 3 m. pl.	to defend oneself	
+170684	ttġr	!t===!(n]t]ġr[	/n-ġ-r/	vb Gt prefc. 2 m. pl.	to defend oneself	
 # KTU 1.92 34						
 170685	ybˤl	!y!bˤl[	/b-ʕ-l/	vb G prefc. 3 m. sg.	to make	
 170686	xxx	?	?	?	?	

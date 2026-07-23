@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161593	mṯkt	mṯk[t	/m-ṯ-k/	vb suffc. 1 c. sg.	to carry	
 # KTU 1.15 I:2						
 161594	mẓma	mẓm(u&a/	mẓmủ	n. m. sg. cstr. nom.	thirsty	
-161595	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	DULAT quote in /m-ṯ-k/ (cue: hand)
+161595	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
 161596	mṯkt	mṯk[t	/m-ṯ-k/	vb ptcpl. m. sg. abs. nom.	to carry	
 161596	mṯkt	mṯk[t	/m-ṯ-k/	vb suffc. 1 c. sg.	to carry	
 # KTU 1.15 I:3						
@@ -93,7 +93,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161648	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
 161648	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
 161649	w	w	w	conj.	and	
-161650	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	DULAT direct ref
+161650	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 161651	l	l(III)	l (III)	functor	certainly	DULAT direct ref
 161652	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
 161652	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
@@ -101,7 +101,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161653	aḫr	aḫr	ảḫr	adv./prep./conj.	afterwards	
 161654	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
 161654	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
-161655	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg. cstr. nom.	assembly	DULAT quote in /m-ġ-y/ (cue: assembly)
+161655	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg. cstr. nom.	assembly	
 161656	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.15 II:12						
 161657	w	w	w	conj.	and	
@@ -144,7 +144,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161676	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	DULAT direct ref
 161676	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN a) activities of the god	DULAT direct ref
 161677	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	DULAT direct ref
-161678	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	DULAT quote in /ʔ-ḫ-d(/ḏ)/ (cue: take)
+161678	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
 # KTU 1.15 II:17						
 161679	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 161679	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
@@ -627,6 +627,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161913	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 161913	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 161913	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+161913	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 161913	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 161913	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 161914	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	
@@ -734,6 +735,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161957	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 161957	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 161957	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+161957	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 161957	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 161957	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 161958	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	
@@ -888,6 +890,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162036	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 162036	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 162036	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+162036	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 162036	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 162036	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 162037	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	

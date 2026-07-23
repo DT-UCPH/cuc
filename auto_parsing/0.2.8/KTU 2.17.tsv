@@ -1,11 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.17 1						
-176341	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+176341	l	l(II)	l (II)	adv.	no	
 176342	yblt	ybl[t===	/y-b-l/	vb G suffc. 3 f. sg.	to carry, bring, take	
 176342	yblt	ybl[t=	/y-b-l/	vb G suffc. 2 m. sg.	to carry, bring, take	
 176342	yblt	ybl[t==	/y-b-l/	vb G suffc. 2 f. sg.	to carry, bring, take	
 176342	yblt	ybl[t	/y-b-l/	vb G suffc. 1 c. sg.	to carry, bring, take	
-176343	ḫbṯm	ḫbṯ/m	ḫbṯ	adj. m. pl. abs. nom.	emancipated	DULAT quote in ḫbṯ (cue: emancipated)
+176343	ḫbṯm	ḫbṯ/m	ḫbṯ	adj. m. pl. abs. nom.	emancipated	
 # KTU 2.17 2						
 176344	ap	ap(I)	ảp (I)	adv./conj.	also	
 176344	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
@@ -28,6 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176353	pġsdb	pġsdb/	pġsdb	PN sg. cstr. gen.	pġsdb	
 176354	šml	šml(I)/	šml (I)	n. m. sg. abs. gen.	commercial agent	
 176355	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
+176355	šn	šnw[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 176355	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 # KTU 2.17 6						
 176356	w	w	w	conj.	3) in the correlation protasis-apodosis	
@@ -46,7 +47,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176366	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	1) to know	
 176366	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	1) to know	
 176366	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	1) to know	
-176367	rgmh	rgm/+h	rgm	n. m. cstr. nom.	2) matter	DULAT quote in rgm (cue: matter)
+176367	rgmh	rgm/+h	rgm	n. m. cstr. nom.	2) matter	
 # KTU 2.17 9						
 176368	w	w	w	conj.	and	
 176369	ht	ht	ht	adv.	2) conj.	

@@ -33,8 +33,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179912	p	p(I)	p (I)	conj. functor	and	
 179912	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 179912	p	p(II)	p (II)	adv.	here	
-179913	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	DULAT quote in rgm (cue: word)
-179914	špš	špš/	špš	n. f. sg. cstr. nom.	sun	DULAT quote in rgm (cue: sun)
+179913	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	
+179914	špš	špš/	špš	n. f. sg. cstr. nom.	sun	
 179915	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 179916	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 179916	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
@@ -49,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179921	ap	ap(I)	ảp (I)	adv./conj.	also	
 179921	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 179922	hnkt	hnk&t	hnk(t)	dem./pers. pn.	that	
-179923	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+179923	l	l(II)	l (II)	adv.	no	
 179924	knt	kn(t/t	knt	n. f. sg. cstr. nom.	continuity	
 # KTU 2.98 11						
 179925	mlḥmt	mlḥm(t/t	mlḥmt	n. f. sg. abs. gen.	war	
@@ -58,7 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179928	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	2) servant (said of a special class of mercenaries or subordinate employees)	
 # KTU 2.98 12						
 179929	w	w	w	conj.	and	
-179930	atnn	!(ʔ&a!(ytn[+n	/y-t-n/	vb G prefc. 1 c. sg.	to give	DULAT quote in ʕm (I) (cue: give)
+179930	atnn	!(ʔ&a!(ytn[+n	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 179931	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
 179931	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
 179932	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
@@ -84,9 +84,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179944	p	p(I)	p (I)	conj. functor	and	
 179944	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 179944	p	p(II)	p (II)	adv.	here	
-179945	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+179945	l	l(II)	l (II)	adv.	no	
 179946	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
-179947	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+179947	l	l(II)	l (II)	adv.	no	
 179948	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
 179948	ḫr	ḫr[	/ḫ-r(-r)/	vb G suffc. 3 m. sg.	to have spasms (of diarrhoea)	
 179948	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. abs. nom.	to have spasms (of diarrhoea)	

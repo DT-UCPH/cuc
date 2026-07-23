@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160296	l	l(I)	l (I)	prep.	to	
 160297	bmth	bm(t/t+h	bmt	n. f. sg. cstr. gen.	back	
 160298	hy	hy	hy	pers. pn.	1) she	
-160299	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	DULAT quote in /ʕ-r-b/ (I) (cue: house)
+160299	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	
 160300	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	1) to enter	
 160300	tˤrb	!t=!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. sg.	1) to enter	
 160300	tˤrb	!t==!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 f. sg.	1) to enter	
@@ -67,6 +67,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160321	tˤn	!t=!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. sg.	to be / remain depressed	
 160321	tˤn	!t==!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 f. sg.	to be / remain depressed	
 160321	tˤn	!t!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. du.	to be / remain depressed	
+160321	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 160321	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 160321	tˤn	!t===!ˤn(w[	/ʕ-n-w/	vb G prefc. 2 m. pl.	to be / remain depressed	
 160322	tḫtṣb	tḫtṣb/	tḫtṣb	n. m. sg. abs. nom.	battle	
@@ -100,7 +101,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160335	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 160336	tšyt	tšy(t/t	tšyt	n. f. sg. abs. gen.	triumph	
 160337	tḥth	tḥt(I)+h	tḥt (I)	prep.	under	
-160338	k	k(I)	k (I)	prep.	like	DULAT quote in rỉš (I) (cue: like)
+160338	k	k(I)	k (I)	prep.	like	
 160339	kdrt	kdrt/	kdrt	n. f. pl. cstr. gen.	ball	
 160340	riš	riš(I)/	rỉš (I)	n. m. sg. abs. gen.	1) head	
 # KTU 1.7 9						
@@ -125,7 +126,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 160347	tġll	!t!ġll[:d:w	/ġ-l-l/	vb D prefc. 3 m. pl.	to insert	
 160347	tġll	!t===!ġll[:d	/ġ-l-l/	vb D prefc. 2 m. pl.	to insert	
 160348	b	b	b	prep.	in	
-160349	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	DULAT quote in brk (cue: blood)
+160349	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
 # KTU 1.7 10						
 160350	ḏmr	ḏmr(I)[/	/ḏ-m-r/ (I)	vb G act. ptcpl. m. sg. cstr. nom.	to protect	
 160350	ḏmr	ḏmr(I)/	ḏmr (I)	n. m. sg. cstr. nom.	guardian	

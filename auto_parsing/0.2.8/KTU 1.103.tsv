@@ -9,8 +9,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171576	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to), bear	
 171576	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to), bear	
 171576	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to), bear	
-171577	at	a(t(II)/t	ảt (II)	n. f. sg. abs. nom.	prodigious	DULAT quote in ảt (II) (cue: prodigious)
-171578	abn	abn/	ảbn	n. f. sg. cstr. nom.	1) stone a) k ảbnm l tỉggn like stones which do /do not/ murmur	DULAT quote in ảbn (cue: stone)
+171577	at	a(t(II)/t	ảt (II)	n. f. sg. abs. nom.	prodigious	
+171578	abn	abn/	ảbn	n. f. sg. cstr. nom.	1) stone a) k ảbnm l tỉggn like stones which do /do not/ murmur	
 171579	madtn	mad(t(I)/t+n	mảdt (I)	n. f. sg. cstr. gen.	great quantity	
 171580	tqln	!t!ql[n	/q-l/	vb G prefc.	to fall (down)	
 171581	b	b	b	prep.	in	
@@ -28,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171587	bhmth	bhm(t/t+h	bhmt	n. f. sg. cstr. nom.	cattle	
 171588	tˤṭpn	!t!ˤṭp[n	/ʕ-ṭ-p/	vb prefc.	1) to be weak	
 # KTU 1.103 3						
-171589	gm	gm(II)	gm (II)	adv.	also	DULAT quote in gm (II) (cue: also)
+171589	gm	gm(II)	gm (II)	adv.	also	
 171590	ššxx	?	?	?	?	DULAT: NOT FOUND
 171591	rġbn	rġbn/	rġbn	n. m. sg. abs. nom.	hunger	
 171592	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable)	
@@ -39,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171596	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 171597	xxxxxx	?	?	?	?	
 171598	ḥwtn	ḥwt/+n	ḥwt	n. f. cstr. nom.	1) country	
-171599	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	DULAT quote in ḥwt (cue: destroyed)
+171599	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	
 # KTU 1.103 5						
 171600	w	w	w	conj.	and	
 171601	qrbh	qrb[+h	/q-r-b/	vb G suffc.	to approach	
@@ -60,7 +60,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171611	w	w	w	conj.	and	
 171612	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
 171613	apm	ap(I)~m	ảp (I)	adv./conj.	also	
-171613	apm	ap(II)/+m(I)	ảp (II)	n. m. cstr. nom.	1) nose	
 171614	ḥwtn	ḥwt/+n	ḥwt	n. f. cstr. nom.	country	
 171615	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish, to be lost	
 171615	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish, to be lost	
@@ -84,7 +83,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171619	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 171620	xxxx	?	?	?	?	
 171621	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	2) qualifier in the genitive functioning as an adjective a) in gen.	
-171622	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	DULAT quote in /ʔ-ḫ-d(/ḏ)/ (cue: take)
+171622	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
 171623	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. nom.	1) country	
 171624	ibh	ib(I)/+h	ỉb (I)	n. m. cstr. gen.	enemy	
 171625	mrḥy	mrḥ/y	mrḥ	n. f. pl. cstr. nom.	lance	
@@ -114,7 +113,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 10						
 171640	w	w	w	conj.	and	
 171641	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
-171642	qṣr	qṣr(II)/	qṣr (II)	n. m. sg. abs. nom.	anklebone	DULAT quote in qṣr (II) (cue: anklebone)
+171642	qṣr	qṣr(II)/	qṣr (II)	n. m. sg. abs. nom.	anklebone	
 171643	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	1) left	
 171644	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	king	
 171645	xxxx	?	?	?	?	
@@ -143,8 +142,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171666	ykn	!y!kn[	/k-n/	vb G prefc. 3 m. sg.	to be (stable)	
 # KTU 1.103 13						
 171667	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
-171668	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: no)
-171669	ypq	!y!pq[	/p-q/	vb G prefc. 3 m. sg.	to obtain, acquire	DULAT quote in /p-q/ (cue: obtain)
+171668	l	l(II)	l (II)	adv.	no	
+171669	ypq	!y!pq[	/p-q/	vb G prefc. 3 m. sg.	to obtain, acquire	
 171670	špḥ	špḥ/	špḥ	n. m. abs. nom.	family	
 # KTU 1.103 14						
 171671	w	w	w	conj.	and	
@@ -171,7 +170,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171689	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 171690	x	?	?	?	?	
 171691	ibn	ib(I)/+n	ỉb (I)	n. m. cstr. nom.	enemy	
-171692	yḫlq	!y!ḫlq[:d	/ḫ-l-q/	vb D prefc. 3 m. sg.	to destroy	DULAT quote in ỉb (I) (cue: destroy)
+171692	yḫlq	!y!ḫlq[:d	/ḫ-l-q/	vb D prefc. 3 m. sg.	to destroy	
 171693	bhmt	bhm(t/t	bhmt	n. f. sg. cstr. nom.	cattle	
 171694	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	1) country	
 # KTU 1.103 17						
@@ -182,8 +181,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171697	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
 171697	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	1) strong	
 171697	ˤz	ˤz(I)/	ʕz (I)	n. m. sg. abs. nom.	strength	
-171698	yuḫd	!y!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	DULAT quote in /ʔ-ḫ-d(/ḏ)/ (cue: seize)
-171699	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	DULAT quote in ỉb (I) (cue: enemy)
+171698	yuḫd	!y!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
+171699	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
 171700	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 # KTU 1.103 18						
 171701		?	?	?	?	
@@ -258,7 +257,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171747	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
 171747	ḫr	ḫr[	/ḫ-r(-r)/	vb G suffc. 3 m. sg.	to have spasms (of diarrhoea)	
 171747	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. abs. nom.	to have spasms (of diarrhoea)	
-171748	apm	ap(II)/+m(I)	ảp (II)	n. m. cstr. gen.	nose	
+171748	apm	ap(I)~m	ảp (I)	adv./conj.	also	
 171749	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
 # KTU 1.103 31						
 171750	w	w	w	conj.	and	
@@ -273,7 +272,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171758	x	?	?	?	?	
 # KTU 1.103 33						
 171759	pnh	pn(m&/+h	pnm	n. m. pl. cstr. nom.	1) face	
-171760	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	DULAT quote in pnm (cue: face)
+171760	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
 171761	irn	irn(I)/	ỉrn (I)	n. m. sg. abs. nom.	puppy	
 171762	uxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 171763	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
@@ -336,12 +335,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 40						
 171800	y	~y	-y (II)	prep. functor	indeed	
 171800	y	y	y	prep. functor	oh!	
-171801	ykly	!y!kly[:d	/k-l-y/	vb D prefc. 3 m. sg.	to finish (off), destroy, drain	DULAT quote in /k-l-y/ (cue: destroy)
+171801	ykly	!y!kly[:d	/k-l-y/	vb D prefc. 3 m. sg.	to finish (off), destroy, drain	
 171802	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
 # KTU 1.103 41						
 171803	w	w	w	conj.	and	
-171804	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	2) muzzle (of an animal)	DULAT quote in ảp (II) (cue: muzzle)
-171805	k	k(I)	k (I)	prep.	like	DULAT quote in ảp (II) (cue: like)
+171804	aph	ap(II)/+h	ảp (II)	n. m. cstr. nom.	2) muzzle (of an animal)	
+171805	k	k(I)	k (I)	prep.	like	
 171806	ap	ap(I)	ảp (I)	adv./conj.	also	
 171806	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
 171807	ˤṣr	ˤṣr(I)/	ʕṣr (I)	n. f. sg. cstr. nom.	1) bird	
@@ -375,7 +374,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171827	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
 171828	b	b	b	prep.	in	
 171829	šbrh	šbr/+h	šbr	n. m. sg. cstr. gen.	stick	
-171830	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out	
 171830	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 171831	špšn	špš/+n	špš	n. f. cstr. nom.	3) “sun”	
 171832	tpšlt	tpšl(t/t	tpšlt	n. f. sg. cstr. nom.	oppression	
@@ -418,7 +416,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171863	lbh	lb/+h	lb	n. m. cstr. nom.	heart	
 171864	b	b	b	prep.	in	
 171865	ph	p(III)/+h	p (III)	n. m. cstr. gen.	1) mouth	
-171866	yṣu	yṣ(ʔ&u[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
 171866	yṣu	yṣu(I)/	yṣủ (I)	n. m. sg. abs. nom.	exit	
 171867	ibn	ib(I)/+n	ỉb (I)	n. m. cstr. nom.	enemy	
 171868	yspu	!y!sp(ʔ[&u	/s-p-ʔ/	vb G prefc. 3 m. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
@@ -487,7 +484,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171914	w	w	w	conj.	and	
 171915	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. nom.	intestine(s)	
 171916	w	w	w	conj.	and	
-171917	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	DULAT quote in šr (IV) (cue: navel)
+171917	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
 171918	bh	b+h	b	prep.	in	
 171919	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 171920	ybˤr	!y!bˤr(I)[:d	/b-ʕ-r/ (I)	vb D prefc. 3 m. sg.	1) to ignite	
@@ -496,7 +493,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 59						
 171922	w	w	w	conj.	and	
 171923	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
-171924	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	DULAT quote in šmảl (cue: hand)
+171924	yd	yd(I)/	yd (I)	n. f. sg. abs. gen.	hand	
 171925	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	1) left	
 171926	bh	b+h	b	prep.	in	
 171927	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. nom.	1) country	
@@ -504,4 +501,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171928	ib	ib(I)/	ỉb (I)	n. m. sg. abs. nom.	enemy	
 171928	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
 171928	ib	ib(II)/	ỉb (II)	n. m. sg. abs. nom.	fruit	
-171929	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	DULAT quote in ỉb (I) (cue: destroyed)
+171929	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	

@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.33 1						
-181934	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	mountain	DULAT quote in ảgny (I) (cue: mountain)
+181934	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	mountain	
 181935	agny	agny(I)/	ảgny (I)	TN sg. abs. gen.	ảgny (I)	
 181935	agny	agny(II)/	ảgny (II)	GN sg. abs. gen.	ảgny (II)	
 # KTU 3.33 2						
@@ -43,7 +43,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181956	almg	almg/	ảlmg	n. m. sg. cstr. gen.	aloe	
 # KTU 3.33 11						
 181957	bnš	bnš/	bnš	n. m. sg. abs. gen.	1) man	
-181958	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: no)
+181958	l	l(II)	l (II)	adv.	no	
 181959	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of, take, grasp	
 181959	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to receive, accept, take (away)	
 # KTU 3.33 12						
@@ -57,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.33 14						
 181964	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 181964	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
-181965	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	DULAT quote in ʕd (I) (cue: eternity)
+181965	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 3.33 15						
 181966	w	w	w	conj.	1) copulative conj.	
 181967	gt	g(t/t	gt	n. f. sg. cstr. nom.	gittu	
@@ -70,7 +70,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181971	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 181971	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 181971	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-181972	krmh	krm/+h	krm	n. m. cstr. nom.	1) vineyard a) krm ảḥd one vineyard	DULAT quote in krm (cue: vineyard)
+181972	krmh	krm/+h	krm	n. m. cstr. nom.	1) vineyard a) krm ảḥd one vineyard	
 # KTU 3.33 18						
 181973	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 181973	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
@@ -90,12 +90,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181980	unṯ	unṯ/	ủnṯ	n. m. sg. abs. nom.	1) obligation	
 181981	mhkm	mhk&m	mhk(m)	indef. pn.	anything	
 # KTU 3.33 22						
-181982	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+181982	l	l(II)	l (II)	adv.	no	
 181983	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
 181983	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry, bring, take	
 # KTU 3.33 23						
 181984	unṯm	unṯ/m	ủnṯ	n. m. pl. cstr. nom.	obligation	
-181985	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	1) house	DULAT quote in bt (II) (cue: house)
+181985	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	1) house	
 # KTU 3.33 24						
 181986	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 181986	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	

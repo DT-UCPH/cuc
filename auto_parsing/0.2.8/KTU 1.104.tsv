@@ -56,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171957	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
 171957	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
 171958	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
-171959	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	DULAT quote in /y-t-n/ (cue: sanctuary)
+171959	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 # KTU 1.104 13						
 171960	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 171961	dxtt	?	?	?	?	DULAT: NOT FOUND
@@ -74,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 15						
 171968	w	w	w	conj.	and	
 171969	b	b	b	prep.	in	
-171970	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
+171970	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
 171971	ˤšr	ˤšr[:d:w	/ʕ-š-r/	vb D suffc. 3 m. pl.	to invite	
 # KTU 1.104 16						
 171972	tpnn	!t!pnn[:w	/p-n-n/	vb G prefc. 3 m. pl.	to distort	
@@ -88,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 18						
 171978	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
 171979	w	w	w	conj.	and	
-171980	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m. cstr. nom.	new moon	DULAT quote in ḥdṯ (II) (cue: moon)
+171980	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m. cstr. nom.	new moon	
 # KTU 1.104 19						
 171981	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
 171982	hmt	hmt	hmt	pers. pn.		
@@ -98,6 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171985	ṯnm	ṯn(I)&m	ṯn (I)	num.	4) adv. use	
 # KTU 1.104 21						
 171986	wm	wm	wm	conj., morph.		
+171986	wm	w~m	w	conj., morph.	and	
 171987	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 171988	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 171989	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	1) eight c) in apposition	

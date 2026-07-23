@@ -41,7 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166924	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 166925	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.39 5						
-166926	ilh	ilh/	ỉlh	DN sg. abs. nom.	the ‘Divine One’	DULAT quote in ỉlh (cue: divine)
+166926	ilh	ilh/	ỉlh	DN sg. abs. nom.	the ‘Divine One’	
 166927	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	(head of) cattle	
 166927	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 166927	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
@@ -90,7 +90,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166956	lb	lb/	lb	n. m. sg. abs. nom.	heart	
 # KTU 1.39 9						
 166957	rmṣt	rmṣ/t	rmṣ	n. f. sg. abs. nom.	embers	
-166958	ilhm	ilh/+m(I)	ỉlh	DN sg. cstr. nom.	the ‘Divine One’	DULAT quote in bʕl (II) (cue: divine)
+166958	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
 166959	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 166960	dṯt	dṯ(t/t	dṯt	n. f. sg. abs. nom.	fodder or spring grass	
 166961	w	w	w	conj.	and	
@@ -121,7 +121,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166979	w	w	w	conj.	and	
 166980	l	l(I)	l (I)	prep.	to	
 166981	ll	ll(I)/	ll (I)	n. m. sg. cstr. gen.	night	
-166982	špš	špš/	špš	n. f. sg. cstr. gen.	2) sun	DULAT quote in špš (cue: sun)
+166982	špš	špš/	špš	n. f. sg. cstr. gen.	2) sun	
 166983	pgr	pgr/	pgr	n. m. sg. abs. gen.	1) body	
 166984	w	w	w	conj.	and	
 166985	ṯrmnm	ṯrmn(I)/m	ṯrmn (I)	DN pl. cstr. nom.	term for the kings of Ugarit	
@@ -202,14 +202,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167022	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 167023	w	w	w	conj.	and	
 167024	l	l(I)	l (I)	prep.	to	
-167025	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. cstr. gen.	2) “the Damsel” b) of unc. attribution	DULAT quote in ġlmt (I) (cue: damsel)
+167025	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. cstr. gen.	2) “the Damsel” b) of unc. attribution	
 167026	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.39 20						
 167027	w	w	w	conj.	and	
 167028	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
 167029	ṯlṯm	ṯlṯm/	ṯlṯm	num.	1) the numeral thirty c) in apposition	
 167030	w	w	w	conj.	and	
-167031	yrdt	yrdt/	yrdt	n. f. pl. cstr. nom.	step	DULAT quote in yrdt (cue: step)
+167031	yrdt	yrdt/	yrdt	n. f. pl. cstr. nom.	step	
 167032	mdbḥt	mdbḥ/t	mdbḥ	n. f. sg. cstr. gen.	altar	
 # KTU 1.39 21						
 167033	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	

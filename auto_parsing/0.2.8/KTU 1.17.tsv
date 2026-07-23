@@ -142,7 +142,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163108	mk	mk(II)	mk (II)	deictic functor	behold!	DULAT direct ref
 163109	b	b	b	prep.	2) temporal situation a) time when something happens	
 163110	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
-163111	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	DULAT quote in b (cue: day)
+163111	ymm	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
 # KTU 1.17 I:16						
 163112	w	w	w	conj.	and	
 163113	yqrb	!y!qrb[	/q-r-b/	vb G prefc. 3 m. sg.	to approach	
@@ -192,6 +192,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163139	bn	bn[	/b-n/	vb G impv. 2	to understand	
 163140	lh	l(I)+h	l (I)	prep.	to	
 163141	wm	wm	wm	conj., morph.		
+163141	wm	w~m	w	conj., morph.	and	
 163142	aḫh	aḫ(I)/+h	ảḫ (I)	n. m. cstr. nom.	2) in a figurative sense b) neighbour	
 163143	w	w	w	conj.	and	
 163144	šrš	šrš(I)/	šrš (I)	n. m. sg. abs. nom.	2) offspring	
@@ -210,7 +211,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163152	bn	bn(II)	bn (II)	prep.	between	
 163152	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 163152	bn	bn[	/b-n/	vb G impv. 2	to understand	
-163153	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	DULAT quote in /š-q-y/ (cue: holy)
+163153	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 # KTU 1.17 I:23						
 163154	l	l(III)	l (III)	functor	certainly	DULAT direct ref
 163155	tbrknn	!t!brk(II)[:d+nn	/b-r-k/ (II)	vb D prefc.	to be blessed	
@@ -272,11 +273,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163198	škrn	škrn/	škrn	n. m. sg. abs. gen.	intoxication	
 163199	mˤmsh	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-m-s/ - to load
 # KTU 1.17 I:31						
-163200	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in yn (cue: when)
+163200	k	k(III)	k (III)	Subordinating or completive functor	when	
 163201	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
 163202	yn	yn/	yn	n. m. sg. abs. nom.	1) wine a) yn	
-163203	spu	!!sp(ʔ&u[/	/s-p-ʔ/	vb G inf.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
-163203	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
+163203	spu	!!spu[/	/s-p-ʔ/	vb G inf.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
+163203	spu	spu[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
 163204	ksmh	ksm/+h	ksm	n. m. cstr. nom.	part	
 163205	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	3) temple	DULAT direct ref
 163206	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	DULAT direct ref
@@ -305,7 +306,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 I:34						
 163221	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
 163221	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
-163222	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	DULAT quote in /ʔ-ḫ-d(/ḏ)/ (cue: take)
+163222	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
 163223	it	?	?	?	?	DULAT: NOT FOUND
 163224	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	3) faithful	
 163225	ybrk	!y!brk(II)[:d	/b-r-k/ (II)	vb D prefc. 3 m. sg.	to be blessed	
@@ -462,8 +463,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163309	ˤšy	ˤšy[/	/ʕ-š-y/	vb G pass. ptcpl. m. sg. abs. nom.	to make	
 163310	lnk	l(I)+nk	l (I)	prep.	to	
 # KTU 1.17 II:4						
-163311	spu	!!sp(ʔ&u[/	/s-p-ʔ/	vb G inf.	to devour	
-163311	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour	
+163311	spu	!!spu[/	/s-p-ʔ/	vb G inf.	to devour	
+163311	spu	spu[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour	
 163312	ksmk	ksm/+k	ksm	n. m. cstr. nom.	part	
 163313	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 163314	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
@@ -599,12 +600,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 II:20						
 163397	krn	kr[+n	/k-r/	vb	to be hot	
 163398	mˤmsy	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-m-s/ - 1) to load
-163399	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /ʕ-m-s/ (cue: when)
+163399	k	k(III)	k (III)	Subordinating or completive functor	when	
 163400	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	seven	
 163401	yn	yn/	yn	n. m. sg. abs. nom.	wine	
 # KTU 1.17 II:21						
-163402	spu	!!sp(ʔ&u[/	/s-p-ʔ/	vb G inf.	to devour	
-163402	spu	sp(ʔ&u[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour	
+163402	spu	!!spu[/	/s-p-ʔ/	vb G inf.	to devour	
+163402	spu	spu[/	/s-p-ʔ/	vb G ptcpl. m. sg. abs. nom.	to devour	
 163403	ksmy	ksm/+y	ksm	n. m. cstr. nom.	part	
 163404	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 163405	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
@@ -765,7 +766,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163492	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. nom.	sea	
 163493	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go, leave, depart	
 163494	b	b	b	prep.	1) spatial location d) origin of a quality or process	
-163495	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	DULAT quote in b (cue: house)
+163495	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
 # KTU 1.17 II:40						
 163496	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
 163497	bnt	b&nt(I)/	bt (I)	n. f. pl. abs. nom.	daughter	
@@ -798,7 +799,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163512	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. nom.	Yariḫu/Yarikh	
 163512	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. nom.	moon	
 163513	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	1) second	DULAT direct ref
-163514	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc.	to go out, appear	
+163514	yṣi	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
 # KTU 1.17 II:45						
 163515	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	DULAT direct ref
 163516	rbˤ	rbˤ/	rbʕ	num.	fourth	
@@ -1012,7 +1013,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163629	tšmˤ	!t===!šmˤ[	/š-m-ʕ/	vb G prefc. 2 m. pl.	to hear	
 # KTU 1.17 V:22						
 163630	mṯt	mṯ(t/t	mṯt	n. f. sg. abs. nom.	damsel	
-163631	dnty	dnt(II)/+y	dnt (II)	n. f. cstr. gen.	plight	
+163631	dnty	dnt+y	ỉky	interr. functor	what of?	
+163631	dnty	dnt(II)/+y	dnt (II)	n. f. cstr. nom.	plight	
 163632	tˤdb	?	?	?	?	DULAT: NOT FOUND
 163633	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. nom.	lamb	
 # KTU 1.17 V:23						
@@ -1053,7 +1055,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163659	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. nom.	arrow(s)	
 163660	apnk	apnk	ảpnk	adv. functor of illation	1) then a) then	DULAT direct ref
 163661	mṯt	mṯ(t/t	mṯt	n. f. sg. abs. nom.	damsel	
-163662	dnty	dnt(II)/+y	dnt (II)	n. f. cstr. gen.	plight	
+163662	dnty	dnt+y	ỉky	interr. functor	what of?	
+163662	dnty	dnt(II)/+y	dnt (II)	n. f. cstr. nom.	plight	
 # KTU 1.17 V:29						
 163663	tšlḥm	!t!]š]lḥm[:w	/l-ḥ-m/ (I)	vb Š prefc. 3 m. pl.	to give to eat	
 163664	tššqy	!t!]š]šqy[:w	/š-q-y/	vb Š prefc. 3 m. pl.	to give drink	
@@ -1144,13 +1147,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163703	bn	bn[	/b-n/	vb G impv. 2	to understand	
 163704	bln	bln/	bln	n. m. sg. abs. nom.	mixed fodder	
 # KTU 1.17 V:38						
-163705	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. gen.	first fruit	
+163705	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	
+163705	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb G suffc.	to wash > to cause to disappear	
+163705	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
+163705	prˤm	prˤ[:d+m(I)	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
+163705	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
 163706	ṣdk	ṣd(I)/+k	ṣd (I)	n. m. cstr. nom.	hunt	
 163707	hn	hn	hn	functor	behold!	
 163708	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	
 163708	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb G suffc.	to wash > to cause to disappear	
 163708	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
-163708	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
+163708	prˤm	prˤ[:d+m(I)	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
 163708	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
 # KTU 1.17 V:39						
 163709	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	
@@ -1178,8 +1185,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163724	qṣ	qṣ[	/q-ṣ(-ṣ)/	vb G suffc. 3 m. sg.	to carve	
 163724	qṣ	!!qṣ[/	/q-ṣ(-ṣ)/	vb G inf.	to carve	
 # KTU 1.17 VI:5						
-163725	mri	mr(u&i(I)/	mrủ (I)	adj. f. pl. cstr. nom.	fattened	
-163725	mri	mr(u&i(I)/	mrủ (I)	adj. f. sg. abs. nom.	fattened	
+163725	mri	mr(u(I)&i/	mrủ (I)	adj. f. pl. cstr. nom.	fattened	
+163725	mri	mr(u(I)&i/	mrủ (I)	adj. f. sg. abs. nom.	fattened	
 163726	tšty	!t!šty[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	
 163727	b	b	b	prep.	in	
 163728	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
@@ -1373,6 +1380,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163854	limm	lim(I)/m	lỉm (I)	n. m. pl. abs. gen.	people	
 163855	w	w	w	conj.	and	
 163856	tˤn	!t!ˤn(y[:w	/ʕ-n-y/ (I)	vb G prefc. 3 m. pl.	to answer	
+163856	tˤn	!t!ˤnw[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 163856	tˤn	!t!ˤn(w[:w	/ʕ-n-w/	vb G prefc. 3 m. pl.	to be / remain depressed	
 163857	btlt	btl(t/t	btlt	n. f. sg. cstr. nom.	virgin	
 # KTU 1.17 VI:26						
@@ -1526,7 +1534,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163934	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	DULAT direct ref
 163935	w	w	w	conj.	and	
 163936	an	an(I)	ản (I)	pers. pn.	1) i b) emph. subj. in VC	DULAT direct ref
-163937	mtm	mt(II)/~m	mt (II)	n. m. sg. abs. nom.	1) death	DULAT quote in /m-t/ (cue: death)
+163937	mtm	mt(II)/~m	mt (II)	n. m. sg. abs. nom.	1) death	
 163938	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	DULAT direct ref
 # KTU 1.17 VI:39						
 163939	ap	ap(I)	ảp (I)	adv./conj.	also	

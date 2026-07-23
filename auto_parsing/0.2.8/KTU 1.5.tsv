@@ -326,7 +326,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158783	an	an(I)	ản (I)	pers. pn.	1) i a) subj. in NC	DULAT direct ref
 158784	w	w	w	conj.	2) explanatory conj.	
 158785	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
-158786	šˤlmk	&šˤlm&k(I)/	ʕlm (I)	n. m. abs. nom.	eternity	KTU corrected: ʿlmk
+158786	šˤlmk	&šˤlm(I)&k/	ʕlm (I)	n. m. abs. nom.	eternity	KTU corrected: ʿlmk
 # KTU 1.5 II:13						
 158787	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go	
 158788	w	w	w	conj.	and	
@@ -512,7 +512,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 III:13						
 158887	ṯmm	ṯmm[	/ṯ-m-m/	vb G impv. 2	to be appalled	DULAT direct ref
 158888	w	w	w	conj.	and	
-158889	lkx	!!(hlk[	/h-l-k/	vb G impv.	to go	KTU corrected: lk
+158889	lkx	l(I)&kx	l (I)	prep.	to	KTU corrected: lk
 # KTU 1.5 III:14						
 158890	w	w	w	conj.	and	
 158891	lk	l(I)+k	l (I)	prep.	to	
@@ -675,8 +675,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 158978	qṣ	qṣ/	qṣ	n. m. sg. cstr. nom.	end	
 158978	qṣ	qṣ[	/q-ṣ(-ṣ)/	vb G suffc. 3 m. sg.	to carve	
 158978	qṣ	!!qṣ[/	/q-ṣ(-ṣ)/	vb G inf.	to carve	
-158979	mri	mr(u&i(I)/	mrủ (I)	adj. f. pl. cstr. nom.	fattened	
-158979	mri	mr(u&i(I)/	mrủ (I)	adj. f. sg. abs. nom.	fattened	
+158979	mri	mr(u(I)&i/	mrủ (I)	adj. f. pl. cstr. nom.	fattened	
+158979	mri	mr(u(I)&i/	mrủ (I)	adj. f. sg. abs. nom.	fattened	
 # KTU 1.5 IV:16						
 158980	šty	šty[	/š-t-y/	vb G suffc. 3 m. sg.	to drink	
 158980	šty	šty[	/š-t-y/	vb G impv. 2	to drink	
@@ -804,7 +804,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 V:13						
 159057	knkny	knkny/	knkny	TN sg. abs. gen.	Underworld	
 159058	ša	(nš(ʔ[&a	/n-š-ʔ/	vb G impv. 2	to raise	
-159059	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	DULAT quote in ʕl (I) (cue: mountain)
+159059	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
 159060	ˤl	ˤl(I)	ʕl (I)	prep.	1) spatial location or pre-eminence b) in	DULAT direct ref
 159061	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. gen.	hand	
 # KTU 1.5 V:14						
@@ -840,7 +840,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159077	tdˤ	!t!(ydˤ[:w	/y-d-ʕ/ (I)	vb G prefc. 3 m. pl.	to know	
 159078	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god b) activities of the gods	
 # KTU 1.5 V:17						
-159079	k	k(III)	k (III)	Subordinating or completive functor	when	DULAT quote in /m-t/ (cue: that)
+159079	k	k(III)	k (III)	Subordinating or completive functor	when	
 159080	mtt	mt[t	/m-t/	vb G suffc. 1 c. sg.	to die	
 159081	yšmˤ	!y!šmˤ[	/š-m-ʕ/	vb G prefc. 3 m. sg.	to hear, listen (to), notice	
 159082	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
@@ -862,7 +862,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159093	ˤmnh	ˤm(I)+nh	ʕm (I)	prep.	2) relationship of accompaniment	
 159094	šbˤ	šbˤ(I)/	šbʕ (I)	num.	2) composite numbers b) tens	
 159095	l	l(I)	l (I)	prep.	to	
-159096	šbˤm	šbˤm/	šbʕm	num.	1) seventy c) in composite numbers	DULAT quote in ʕm (I) (cue: seventy)
+159096	šbˤm	šbˤm/	šbʕm	num.	1) seventy c) in composite numbers	
 # KTU 1.5 V:21						
 159097	tšˤly	?	?	?	?	DULAT: NOT FOUND
 159098	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	1) eight d) composite numbers	
@@ -958,7 +958,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159156	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 159157	bˤl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	DULAT direct ref
 # KTU 1.5 VI:10						
-159158	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish, to be lost	DULAT direct ref | DULAT quote in /ḫ-l-q/ (cue: perish)
+159158	ḫlq	ḫlq[	/ḫ-l-q/	vb G suffc. 3 m. sg.	to perish, to be lost	DULAT direct ref
 159159	zbl	zbl(I)/	zbl (I)	n. m. pl. cstr. nom.	prince	
 159159	zbl	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	
 159160	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	DULAT direct ref
@@ -1069,10 +1069,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 159228	ard	!(ʔ&a!(yrd[	/y-r-d/	vb G prefc. 1 c. sg.	to go down, descend	
 159229	b	b	b	prep.	1) spatial location c) goal of movement or action	
 159230	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	4) the underworld	
-159231	ap	ap(I)	ảp (I)	adv./conj.	also	DULAT quote in /ṣ-d/ (cue: also)
+159231	ap	ap(I)	ảp (I)	adv./conj.	also	
 # KTU 1.5 VI:26						
 159232	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
-159233	ttlk	!t!(h]t]lk[	/h-l-k/	vb Gt prefc.	to scour	
+159233	ttlk	!t!(h]t]lk[	/h-l-k/	vb Gt prefc. 3 f. sg.	to scour	
+159233	ttlk	!t=!(h]t]lk[	/h-l-k/	vb Gt prefc. 2 m. sg.	to scour	
+159233	ttlk	!t==!(h]t]lk[	/h-l-k/	vb Gt prefc. 2 f. sg.	to scour	
+159233	ttlk	!t!(h]t]lk[	/h-l-k/	vb Gt prefc. 3 m. du.	to scour	
+159233	ttlk	!t!(h]t]lk[:w	/h-l-k/	vb Gt prefc. 3 m. pl.	to scour	
+159233	ttlk	!t===!(h]t]lk[	/h-l-k/	vb Gt prefc. 2 m. pl.	to scour	
 159234	w	w	w	conj.	and	
 159235	tṣd	!t!ṣd[	/ṣ-d/	vb G prefc.	to hunt	
 159236	kl	kl/	kl	n. m. sg. cstr. nom.	1) totality (of) b) cstr. with n	

@@ -2,7 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 1						
 170964	um	um/	ủm	n. f. sg. cstr. nom.	1) mother b) of animals	
 170965	pḥl	pḥl/	pḥl	n. m. sg. cstr. gen.	ass	
-170966	pḥlt	pḥl(t/t	pḥlt	n. f. sg. cstr. gen.	mare	DULAT quote in pḥlt (cue: mare)
+170966	pḥlt	pḥl(t/t	pḥlt	n. f. sg. cstr. gen.	mare	
 170967	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	1) daughter b) esp.	
 170968	ˤn	ˤn(I)/	ʕn (I)	n. f. du. cstr. nom.	2) spring	
 170968	ˤn	ˤn(I)/	ʕn (I)	n. f. sg. cstr. nom.	2) spring	
@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170968	ˤn	ˤn[	/ʕ-n/	vb G impv. 2	to see	
 170968	ˤn	ˤn(II)/	ʕn (II)	n. f. sg. abs. nom.	furrow	
 170969	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	1) daughter b) esp.	
-170970	abn	abn/	ảbn	n. f. sg. cstr. gen.	1) stone a) k ảbnm l tỉggn like stones which do /do not/ murmur	DULAT quote in ảbn (cue: stone)
+170970	abn	abn/	ảbn	n. f. sg. cstr. gen.	1) stone a) k ảbnm l tỉggn like stones which do /do not/ murmur	
 170971	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	1) daughter b) esp.	
 170972	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	2) DN “Heavens”	
 170973	w	w	w	conj.	and	
@@ -25,7 +25,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170979	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 170979	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	
 170980	um	um/	ủm	n. f. sg. abs. nom.	mother	
-170981	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	2) cry of request	DULAT quote in ql (I) (cue: request)
+170981	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	2) cry of request	
 170982	bl	bl(I)	bl (I)	adv. or emph. functor	no	
 170982	bl	bl(II)	bl (II)	prep.	without	
 170982	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
@@ -36,7 +36,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170985	mbk	mbk/	mbk	n. m. sg. cstr. gen.	source	
 170986	nhrm	nhr/+m(I)	nhr	n. m. cstr. gen.	river	
 170987	b	b	b	prep.	in	
-170988	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg. cstr. gen.	2) confluence	DULAT quote in ʕdt (I) (cue: confluence)
+170988	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg. cstr. gen.	2) confluence	
 170989	thmtm	thm(t/tm	thmt	n. f. du. cstr. gen.	Primordial Ocean	
 # KTU 1.100 4						
 170990	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	1) portion	
@@ -51,7 +51,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170995	ˤxqšr	aqšr/	ảqšr	adj. m. abs. nom.	which sloughs its skin	KTU corrected: ʿqšr
 170996	lnh	l(I)+nh	l (I)	prep.	1) prep. of direction b) ventive	
 170997	mlḫš	mlḫš/	mlḫš	n. m. sg. abs. nom.	conjuror	
-170998	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	DULAT quote in ảbd (I) (cue: ruin)
+170998	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 170999	lnh	l(I)+nh	l (I)	prep.	1) prep. of direction b) ventive	
 171000	ydy	yd(I)/+y	yd (I)	n. f. cstr. nom.	hand	
 171000	ydy	!y!(ydy(I)[	/y-d-y/ (I)	vb G prefc. 3 m. sg.	to throw	
@@ -60,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171000	ydy	ydy(I)[/	/y-d-y/ (I)	vb G act. ptcpl. m. sg. abs. nom.	to throw	
 171000	ydy	!y!(ydy(II)[	/y-d-y/ (II)	vb G	to rip	
 # KTU 1.100 6						
-171001	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	DULAT quote in ḥmt (III) (cue: venom)
+171001	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 171002	hlm	hlm	hlm	conj. functor	1) and so	
 171002	hlm	hlm[	/h-l-m/	vb G suffc. 3 m. sg.	to hit	
 171002	hlm	hlm[	/h-l-m/	vb G impv. 2	to hit	
@@ -696,7 +696,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 62						
 171351	bnwth	bn&w(t(II)/t=+h	bnt (II)	n. f. pl. cstr. nom.	2) creature	
 171352	ykr	!y!kr(y[	/k-r-y/	vb G prefc. 3 m. sg.	to dig	
-171353	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	DULAT quote in ʕr (I) (cue: city)
+171353	ˤr	ˤr(I)/	ʕr (I)	n. f. sg. abs. nom.	city	
 171354	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
 171355	qdm	qdm[:d:w	/q-d-m/	vb D suffc. 3 m. pl.	to precede	
 # KTU 1.100 63						
@@ -709,7 +709,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171359	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 171360	tk	tk/	tk	n. m. cstr. nom.	centre	
 171361	aršḫ	aršḫ/	ảršḫ	TN sg. abs. gen.	ảršḫ	
-171362	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	DULAT quote in ảršḫ (cue: great)
+171362	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	
 # KTU 1.100 64						
 171363	w	w	w	conj.	and	
 171364	aršḫ	aršḫ/	ảršḫ	TN sg. abs. nom.	ảršḫ	
@@ -751,14 +751,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171384	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
 171385	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
 171386	l	l(I)	l (I)	prep.	to	
-171387	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	1) house	DULAT quote in /m-ġ-y/ (cue: house)
+171387	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	1) house	
 171388	w	w	w	conj.	1) copulative conj.	
 # KTU 1.100 68						
 171389	yštql	?	?	?	?	DULAT: NOT FOUND
 171390	l	l(I)	l (I)	prep.	to	
 171391	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. cstr. gen.	1) mansion	
 171392	tlu	?	?	?	?	DULAT candidates (no reconstructable encoding): /l-ʔ-y/w/ (II) - to lose strength
-171393	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	DULAT quote in ḥmt (III) (cue: venom)
+171393	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 171394	km	km	km	prep./conj./adv.		
 171395	nḫl	nḫl(I)/	nḫl (I)	n. m. sg. abs. gen.	torrent	
 # KTU 1.100 69						
@@ -775,18 +775,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171396	tplg	!t!(]n]plg[:w	/p-l-g/	vb N prefc. 3 m. pl.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
 171396	tplg	!t===!(]n]plg[	/p-l-g/	vb N prefc. 2 m. pl.	to be split > to disintegrate, evaporate > to be separated > to split > to divide > to be divided, share > to divide, split > to split, divide > to divide, split > erschlagen, schlachten > slaughter > to split, divide	
 171397	km	km	km	prep./conj./adv.		
-171398	plg	plg/	plg	n. m. sg. abs. nom.	stream	DULAT quote in plg (cue: stream)
+171398	plg	plg/	plg	n. m. sg. abs. nom.	stream	
 # KTU 1.100 70						
 171399	bˤdh	bˤd+h	bʕd	adv. or prep.	2) prep a) behind	
 171400	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. nom.	2) palace	
 171401	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	1) portion	
 171402	bˤdh	bˤd+h	bʕd	adv. or prep.	2) prep a) behind	
 171403	bhtm	bht(II)/m	bt (II)	n. m. pl. abs. nom.	2) palace	
-171404	sgrt	sgr[t	/s-g-r/	vb G suffc. 1 c. sg.	to close, shut	DULAT quote in bt (II) (cue: shut)
+171404	sgrt	sgr[t	/s-g-r/	vb G suffc. 1 c. sg.	to close, shut	
 # KTU 1.100 71						
 171405	bˤdh	bˤd+h	bʕd	adv. or prep.	behind	
 171406	ˤdbt	ˤdb[t	/ʕ-d-b/	vb G suffc. 1 c. sg.	to leave > to put in > to place	
-171407	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	2) bolt	DULAT quote in ṯlṯ (V) (cue: bolt)
+171407	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	2) bolt	
 171408	ptḥ	ptḥ[	/p-t-ḥ/	vb G suffc. 3 m. sg.	to open	
 171408	ptḥ	ptḥ[	/p-t-ḥ/	vb G impv. 2	to open	
 171408	ptḥ	ptḥ/	ptḥ	n. m. sg. abs. nom.	entrance	
@@ -806,7 +806,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171418	tn	(ytn[	/y-t-n/	vb	give	
 171418	tn	(ytn[/	/y-t-n/	vb	give	
 171419	nḥšm	nḥš/m	nḥš	n. m. pl. abs. nom.	serpent	
-171420	y	y	y	prep. functor	oh!	DULAT quote in y (cue: oh)
+171420	y	y	y	prep. functor	oh!	
 171421	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. nom.	intestine(s)	
 171422	tn	(ytn[	/y-t-n/	vb	give	
 171422	tn	(ytn[/	/y-t-n/	vb	give	

@@ -9,9 +9,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 2						
 172009	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
 172010	w	w	w	conj.	and	
-172011	ṣp	ṣp(III)/	ṣp (III)	n. m. sg. cstr. nom.	white ewe	DULAT quote in ṣp (III) (cue: white)
+172011	ṣp	ṣp(III)/	ṣp (III)	n. m. sg. cstr. nom.	white ewe	
 172012	ḫršḫ	ḫršḫ/	ḫršḫ	n. m. sg. abs. gen.	2) large brazier	
 # KTU 1.105 3						
+172013	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172013	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 172014	b	b	b	prep.	in	
 172015	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. nom.	(sacrificial) pit	
@@ -24,7 +25,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172020	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. nom.	ewe	
 # KTU 1.105 5						
 172021	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
-172022	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	DULAT quote in ảlp (I) (cue: cattle)
+172022	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	
 # KTU 1.105 6						
 172023	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
 172024	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
@@ -36,6 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172027	šm	š/m	š	n. m. pl. abs. nom.	1) ram b) as a sacrificial victim	
 172027	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.105 7						
+172028	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172028	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 172029	l	l(I)	l (I)	prep.	to	
 172030	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
@@ -63,6 +65,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172046	gt	g(t/t	gt	n. f. sg. cstr. gen.	gittu	
 172047	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	2) qualifier in the genitive functioning as an adjective a) in gen.	
 172048	š	š/	š	n. m. sg. abs. gen.	ram	
+172049	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172049	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 1.105 12						
 172050	l	l(I)	l (I)	prep.	to	
@@ -72,6 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172052	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 172053	šm	š/m	š	n. m. pl. abs. nom.	ram	
 172053	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
+172054	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172054	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 1.105 13						
 172055	tzġm	tzġ/m	tzġ	n. m. pl. abs. nom.	kind of sacrificial meat	
@@ -80,7 +84,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172056	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
 172057	šm	š/m	š	n. m. pl. cstr. nom.	ram	
 172057	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
-172058	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	DULAT quote in pr (II) (cue: bull)
+172058	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
 # KTU 1.105 14						
 172059	hzp	hzp/	hzp	TN sg. cstr. gen.	hzp	
 # KTU 1.105 15						
@@ -122,6 +126,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172082	brr	br/r	br(r)	n. m. sg. abs. nom.	tin	
 172082	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.105 21						
+172083	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172083	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 172084	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
 172085	b	b	b	prep.	in	

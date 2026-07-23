@@ -14,11 +14,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169182	l	l(I)	l (I)	prep.	to	
 169183	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 169184	idy	idy	ỉdy	adv.	already	
-169185	alt	al(t(I)/t	ảlt (I)	n. f. sg. abs. nom.	curse	DULAT quote in ảlt (I) (cue: curse)
-169186	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
-169187	aḥš	!(ʔ&a!ḥš(II)[	/ḥ-š/ (II)	vb G prefc. 1 c. sg.	1) to feel	DULAT quote in l (II) (cue: feel)
+169185	alt	al(t(I)/t	ảlt (I)	n. f. sg. abs. nom.	curse	
+169186	l	l(II)	l (II)	adv.	no	
+169187	aḥš	!(ʔ&a!ḥš(II)[	/ḥ-š/ (II)	vb G prefc. 1 c. sg.	1) to feel	
 169188	idy	idy	ỉdy	adv.	already	
-169189	alt	al(t(I)/t	ảlt (I)	n. f. sg. cstr. nom.	curse	DULAT quote in ảlt (I) (cue: curse)
+169189	alt	al(t(I)/t	ảlt (I)	n. f. sg. cstr. nom.	curse	
 169190	in	in/	ỉn	n. m. sg. abs. gen.	2) he / she / it does not have	
 169191	ly	l(I)+y	l (I)	prep.	7) of belonging ((not) being of, (not) having) b) with vb functor	
 # KTU 1.82 3						
@@ -60,12 +60,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 5						
 169213	xxw	?	?	?	?	DULAT: NOT FOUND
 169214	šptk	šp(t/t+k	špt	n. f. sg. cstr. nom.	lip	
-169215	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+169215	l	l(II)	l (II)	adv.	no	
 169216	tššy	?	?	?	?	DULAT candidates (no reconstructable encoding): /n-š-y/ - to cause, allow to forget
 169217	hm	hm(II)	hm (II)	conj./interr. functor	2) perhaps …? (interr. functor) b) in compound question	
 169217	hm	hm(I)	hm (I)	pers. pn.	they	
 169218	tġrm	!t!ġrm[:d:w	/ġ-r-m/	vb D prefc. 3 m. pl.	to commit	
-169219	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+169219	l	l(II)	l (II)	adv.	no	
 169220	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 169220	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	2) DN < “Death” a) passim in 1.5. and 1.6	
 169220	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
@@ -73,14 +73,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169220	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 169220	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 169220	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
-169221	brtk	brt/+k	brt	n. f. cstr. nom.	forecast	DULAT quote in /ġ-r-m/ (cue: forecast)
+169221	brtk	brt/+k	brt	n. f. cstr. nom.	forecast	
 # KTU 1.82 6						
 169222	xxḫp	?	?	?	?	DULAT: NOT FOUND
 169223	an	an(I)	ản (I)	pers. pn.	1) i b) emph. subj. in VC	
 169223	an	an(II)	ản (II)	adv.	wherever	
 169224	arnn	!(ʔ&a!rn[n	/r-n(-n)/	vb G prefc. 1 c. sg.	to shout	
-169225	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	1) voice	DULAT quote in ql (I) (cue: voice)
-169226	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	DULAT quote in špš (cue: sun)
+169225	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	1) voice	
+169226	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	
 169227	ḥw	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-w/y-y/ (I) - 1) to give (back) life / revive
 169228	bṯnm	bṯn/m	bṯn	n. m. pl. abs. nom.	serpent	
 169229	uḫd	(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G impv. 2	to collect, to take (back), grasp, seize, hold	
@@ -229,7 +229,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 22						
 169323	xxxṯk	?	?	?	?	DULAT: NOT FOUND
 169324	ytmt	ytm(t/t	ytmt	n. f. sg. abs. nom.	orphan girl	
-169325	dlt	dl(t(II)/t	dlt (II)	adj. f. sg. abs. nom.	poor (woman)	DULAT quote in dlt (II) (cue: poor)
+169325	dlt	dl(t(II)/t	dlt (II)	adj. f. sg. abs. nom.	poor (woman)	
 169326	tlk	!t!(hlk[	/h-l-k/	vb G prefc.	to go	
 169327	xxx	?	?	?	?	
 169328	bm	b~m	b	prep.	in	
@@ -251,7 +251,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 24						
 169335	xxxp	?	?	?	?	DULAT: NOT FOUND
 169336	km	km	km	prep./conj./adv.		
-169337	dlt	dl(t(II)/t	dlt (II)	adj. f. sg. abs. nom.	poor (woman)	DULAT quote in /h-l-k/ (cue: poor)
+169337	dlt	dl(t(II)/t	dlt (II)	adj. f. sg. abs. nom.	poor (woman)	
 169338	tlk	!t!(hlk[	/h-l-k/	vb G prefc.	to go, go away	
 169339	km	km	km	prep./conj./adv.		
 169340	plxxx	?	?	?	?	DULAT: NOT FOUND
@@ -305,7 +305,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169371	l	l(I)	l (I)	prep.	to	
 169371	l	l(II)	l (II)	adv.	no	
 169371	l	l(III)	l (III)	functor	certainly	
-169372	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	1) voice	DULAT quote in ql (I) (cue: voice)
+169372	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	1) voice	
 169373	rpim	rp(u&i/m	rpủ	n. m. pl. abs. nom.	3) in the expression mt rpỉ	
 169373	rpim	rp(u&i/m	rpủ	n. m. pl. cstr. nom.	3) in the expression mt rpỉ	
 # KTU 1.82 33						
@@ -360,7 +360,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169409	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.82 39						
 169410	xxxxxṯbtk	?	?	?	?	DULAT: NOT FOUND
-169411	ap	ap(I)	ảp (I)	adv./conj.	also	DULAT quote in ảp (I) (cue: also)
+169411	ap	ap(I)	ảp (I)	adv./conj.	also	
 169412	l	l(I)	l (I)	prep.	to	
 169413	pḫrk	pḫr(I)/+k	pḫr (I)	n. m. cstr. gen.	1) assembly c) group	
 169414	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
@@ -402,11 +402,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 43						
 169439	xw	?	?	?	?	DULAT: NOT FOUND
 169440	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	1) tree	
-169441	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: like)
+169441	k	k(I)	k (I)	prep.	like	
 169442	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	1) tree	
-169443	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+169443	l	l(II)	l (II)	adv.	no	
 169444	ttn	!t!(ytn[:w	/y-t-n/	vb G prefc. 3 m. pl.	to give, hand over, grant, bestow	
-169445	k	k(I)	k (I)	prep.	like	DULAT quote in k (I) (cue: like)
+169445	k	k(I)	k (I)	prep.	like	
 169446	abnm	abn/m	ảbn	n. f. pl. abs. nom.	1) stone a) k ảbnm l tỉggn like stones which do /do not/ murmur	
-169447	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+169447	l	l(II)	l (II)	adv.	no	
 169448	tiggn	!t!(ʔ&igg[n	/ʔ-g-g/	vb G prefc.	to moan, mutter	

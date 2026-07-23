@@ -49,7 +49,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:7						
 165820	yˤbš	!y!ˤbš[	/ʕ-b-š/	vb prefc. 3 m. sg.	to extol	
 165821	brkn	!!brk(II)[/n	/b-r-k/ (II)	vb D inf.	to be blessed	
-165822	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	DULAT quote in /b-r-k/ (II) (cue: name)
+165822	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
 165823	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 165823	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 165824	ġzrm	ġzr/m	ġzr	n. m. pl. abs. gen.	2) noble	
@@ -97,8 +97,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 165853	ṯrm	!!ṯrm[/	/ṯ-r-m/	vb G inf.	to break	
 # KTU 1.22 I:13						
 165854	w	w	w	conj.	and	
-165855	mri	mr(u&i(I)/	mrủ (I)	adj. f. pl. cstr. nom.	2) fatling	DULAT direct ref
-165855	mri	mr(u&i(I)/	mrủ (I)	adj. f. sg. abs. nom.	2) fatling	DULAT direct ref
+165855	mri	mr(u(I)&i/	mrủ (I)	adj. f. pl. cstr. nom.	2) fatling	DULAT direct ref
+165855	mri	mr(u(I)&i/	mrủ (I)	adj. f. sg. abs. nom.	2) fatling	DULAT direct ref
 165856	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 165857	ˤglm	ˤgl(I)/+m(I)	ʕgl (I)	n. m. cstr. gen.	calf	
 165858	dt	d+t	d	det. or rel. functor	1) the one(s) of a) det. of quality	
@@ -190,7 +190,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.22 I:24						
 165915	tštyn	!t!šty[n	/š-t-y/	vb G prefc.	to drink	
 165916	bt	bt(II)/	bt (II)	n. m. sg. abs. nom.	4) room	DULAT direct ref
-165917	ikl	ikl/	ỉkl	n. m. sg. abs. nom.	act of eating	DULAT quote in ỉkl (cue: eating)
+165917	ikl	ikl/	ỉkl	n. m. sg. abs. nom.	act of eating	
 165918	b	b	b	prep.	in	
 165919	prˤ	prˤ(I)/	prʕ (I)	n. m. sg. abs. gen.	first fruit	DULAT direct ref
 # KTU 1.22 I:25						
@@ -270,11 +270,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 165964	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 165964	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 165965	lk	l(I)+k	l (I)	prep.	to	
-165966	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	DULAT quote in /h-l-k/ (cue: house)
+165966	bty	bt(II)/+y	bt (II)	n. m. cstr. nom.	house	
 165967	rpum	rp(u&u/m	rpủ	n. m. pl. abs. nom.	healer	
 165967	rpum	rp(u&u/m	rpủ	n. m. pl. cstr. nom.	healer	
 165968	b	b	b	prep.	in	
-165969	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	DULAT quote in /h-l-k/ (cue: house)
+165969	bty	bt(II)/+y	bt (II)	n. m. cstr. gen.	house	
 # KTU 1.22 II:9						
 165970	aṣḥkm	!(ʔ&a!ṣḥ[+km	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim	
 165971	iqrakm	!(ʔ&i!qr(ʔ[&akm	/q-r-ʔ/	vb G prefc. 1 c. sg.	to call	

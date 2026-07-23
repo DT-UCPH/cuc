@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 1						
 180664	l	l(I)	l (I)	prep.	to	
-180665	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	DULAT quote in ym (I) (cue: day)
+180665	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
 180666	hnd	hnd	hnd	dem.	1) adj. this	
 # KTU 3.2 2						
 180667	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
@@ -58,6 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180691	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 180691	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
 # KTU 3.2 12						
+180692	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 180692	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 180693	mnk	mnk	mnk	indef. pn.	whoever	
 # KTU 3.2 13						
@@ -87,6 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180705	bnh	bn(I)/+h	bn (I)	n. m. cstr. gen.	son	
 180706	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 180706	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
+180707	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 180707	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 3.2 18						
 180708	w	w	w	conj.	and	

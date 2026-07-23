@@ -26,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172264	xxxxxxṭbt	?	?	?	?	DULAT: NOT FOUND
 172265	pẓr	!!pẓr[/	/p-ẓ-r/	vb G inf.	to free, loosen	
 172266	pẓrr	pẓr[r	/p-ẓ-r/	vb G suffc.	to free, loosen	KTU corrected: pẓr
-172267	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	DULAT quote in p (III) (cue: mouth)
+172267	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 172268	nḥš	nḥš/	nḥš	n. m. sg. abs. nom.	serpent	
 # KTU 1.107 6						
 172269	xxxxxq	?	?	?	?	DULAT: NOT FOUND
@@ -35,18 +35,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172270	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. abs. nom.	bite	
 172270	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
 172270	nṯk	nṯk[/	/n-ṯ-k/	vb G act. ptcpl. m. sg. abs. nom.	to bite	
-172271	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+172271	l	l(II)	l (II)	adv.	no	
 172272	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	1) to know	
 172272	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	1) to know	
 172272	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	1) to know	
-172273	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+172273	l	l(II)	l (II)	adv.	no	
 172274	bn	b+n	b	prep.	in	
 172274	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 172274	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 172274	bn	bn(II)	bn (II)	prep.	between	
 172274	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 172274	bn	bn[	/b-n/	vb G impv. 2	to understand	
-172275	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+172275	l	l(II)	l (II)	adv.	no	
 172276	pq	pq[	/p-q/	vb G suffc. 3 m. sg.	to obtain, acquire	
 172276	pq	!!pq[/	/p-q/	vb G inf.	to obtain, acquire	
 172277	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
@@ -95,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172303	nplt	npl[t==	/n-p-l/	vb G suffc. 2 f. sg.	to fall	
 172303	nplt	npl[t	/n-p-l/	vb G suffc. 1 c. sg.	to fall	
 172304	b	b	b	prep.	in	
-172305	šr	šr(V)/	šr (V)	n. m. sg. abs. nom.	disgrace	DULAT quote in šr (V) (cue: disgrace)
+172305	šr	šr(V)/	šr (V)	n. m. sg. abs. nom.	disgrace	
 # KTU 1.107 11						
 172306	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	the Devil is a munificent one	
 172307	w	w	w	conj.	and	
@@ -105,6 +105,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172310	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	boy	
 172310	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
 172310	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
+172310	nˤr	]n]ˤr[	/ʕ-r/	vb N prefc.	to become agitated	
 172310	nˤr	]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
 172311	tdmˤ	!t!dmˤ[	/d-m-ʕ/	vb G prefc. 3 f. sg.	to shed tears, weep, sob	
 172311	tdmˤ	!t=!dmˤ[	/d-m-ʕ/	vb G prefc. 2 m. sg.	to shed tears, weep, sob	
@@ -288,14 +289,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172423	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	
 # KTU 1.107 35						
 172424	lan	la/+n	lả	n. m. cstr. gen.	power	
-172425	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	DULAT quote in ḥmt (III) (cue: venom)
+172425	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 172426	l	l(I)	l (I)	prep.	to	
-172427	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	DULAT quote in p (III) (cue: mouth)
-172428	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	DULAT quote in ḥmt (III) (cue: biter)
+172427	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+172428	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
 172429	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 172429	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 172430	l	l(I)	l (I)	prep.	to	
-172431	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	DULAT quote in p (III) (cue: mouth)
+172431	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 172432	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
 # KTU 1.107 36						
 172433	ṯmdlisp	?	?	?	?	DULAT: NOT FOUND
@@ -324,14 +325,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 38						
 172447	isp	(ʔ&isp[	/ʔ-s-p/	vb G impv. 2	to gather	
 172447	isp	(ʔ&isp[:d	/ʔ-s-p/	vb D impv. 2	to gather	
-172448	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	DULAT quote in ḥmt (III) (cue: venom)
+172448	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
 172449	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 172449	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	2) DN a) activities of the god	
 172450	w	w	w	conj.	and	
 172451	ḥrn	ḥrn/	ḥrn	DN sg. abs. nom.	Ḥôrānu	
 172452	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
 172452	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
-172453	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	DULAT quote in ḥmt (III) (cue: venom)
+172453	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
 # KTU 1.107 39						
 172454	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 172454	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
@@ -339,20 +340,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172456	dgn	dgn(I)/	dgn (I)	n. m. sg. abs. nom.	grain	
 172457	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather	
 172457	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
-172458	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	DULAT quote in dgn (II) (cue: venom)
+172458	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
 172459	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 172460	w	w	w	conj.	and	
 172461	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 # KTU 1.107 40						
 172462	tisp	!t!(ʔ&isp[	/ʔ-s-p/	vb G prefc.	to gather	
 172462	tisp	!t!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc.	to gather	
-172463	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	DULAT quote in yrḫ (cue: venom)
+172463	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
 172464	yrḫ	yrḫ/	yrḫ	DN m. sg. abs. gen.	Yariḫu/Yarikh	
 172464	yrḫ	yrḫ/	yrḫ	n. m. sg. abs. gen.	2) DN	
 172465	w	w	w	conj.	and	
 172466	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
 172467	ḫyisp	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-s-p/ - to gather
-172468	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	DULAT quote in yrḫ (cue: venom)
+172468	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
 # KTU 1.107 41						
 172469	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. abs. gen.	ʿAṯtar	
 172470	w	w	w	conj.	and	
@@ -393,7 +394,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 44						
 172492	yisp	!y!(ʔ&isp[	/ʔ-s-p/	vb G prefc. 3 m. sg.	to gather, take away, remove, sweep away	
 172492	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather, take away, remove, sweep away	
-172493	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	DULAT quote in /ʔ-s-p/ (cue: venom)
+172493	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 172494	isp	(ʔ&isp[	/ʔ-s-p/	vb G impv. 2	to gather, take away, remove, sweep away	
 172494	isp	(ʔ&isp[:d	/ʔ-s-p/	vb D impv. 2	to gather, take away, remove, sweep away	
 172495	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
@@ -412,12 +413,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172502	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
 172502	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. abs. nom.	wall	
 172503	l	l(I)	l (I)	prep.	to	
-172504	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	DULAT quote in p (III) (cue: mouth)
-172505	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	DULAT quote in nṯk (I) (cue: biter)
+172504	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
+172505	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
 172506	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 172506	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 172507	l	l(I)	l (I)	prep.	to	
-172508	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	DULAT quote in p (III) (cue: mouth)
+172508	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 172509	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. nom.	grain	
 172510	ṯmdl	ṯmdl/	ṯmdl	n. m. sg. abs. gen.	exhaustion	
 # KTU 1.107 46						
@@ -446,7 +447,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.107 49						
 172525	xxxxxxxxxxxxnxxxṭ	?	?	?	?	DULAT: NOT FOUND
 172526	b	b	b	prep.	in	
-172527	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	DULAT quote in ym (I) (cue: expressions)
+172527	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	
 172528	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to), bear	
 172528	tld	!t=!(yld[	/y-l-d/	vb G prefc. 2 m. sg.	to give birth (to), bear	
 172528	tld	!t==!(yld[	/y-l-d/	vb G prefc. 2 f. sg.	to give birth (to), bear	

@@ -46,7 +46,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177438	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. nom.	1) gold c) as tribute	
 177439	argmny	argm/+ny	ả/ỉrgmn	n. m. cstr. gen.	1) payment of tribute to the Hittite court	
 177440	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-177441	špš	špš/	špš	n. f. sg. abs. gen.	3) “sun”	DULAT quote in špš (cue: sun)
+177441	špš	špš/	špš	n. f. sg. abs. gen.	3) “sun”	
 177442	štn	št[+n	/š-t/	vb G impv. 2	to place	
 177443	xx	?	?	?	?	
 # KTU 2.36 7						
@@ -82,6 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 9						
 177459	ṣḥrtxnṯb	?	?	?	?	DULAT: NOT FOUND
 177460	ˤmnkm	ˤm(I)&n+km	ʕm (I)	prep.	to	
+177460	ˤmnkm	ˤm(I)&nk~m	ʕm (I)	prep.	to	
 177461	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 177461	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 177462	xx	?	?	?	?	
@@ -92,7 +93,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177465	w	w	w	conj.	and	
 177466	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
 177467	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
-177468	l	l(II)	l (II)	adv.	no	DULAT quote in l (II) (cue: not)
+177468	l	l(II)	l (II)	adv.	no	
 177469	mġt	mġ(y[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come, arrive	
 177470	šxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.36 11						
@@ -118,7 +119,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177486	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
 177487	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 177488	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-177489	špš	špš/	špš	n. f. sg. abs. gen.	sun	DULAT quote in /y-t-n/ (cue: sun)
+177489	špš	špš/	špš	n. f. sg. abs. gen.	sun	
 177490	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
 # KTU 2.36 14						
 177491	ṯnnty	ṯn(II)&nt/+y	ṯn (II)	num. cstr. / adj. cstr.	second	

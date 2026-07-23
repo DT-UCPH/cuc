@@ -39,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173101	nˤm	nˤm(II)/	nʕm (II)	n. m. sg. abs. nom.	grace	
 # KTU 1.113 5						
 173102	d	d	d	det. or rel. functor	the one(s) of	
-173103	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	DULAT quote in rm (I) (cue: dead)
+173103	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
 173104	w	w	w	conj.	and	
 173105	rm	rm(I)/	rm (I)	adj. m. sg. abs. nom.	high	
 173105	rm	rm[	/r-m/	vb G suffc. 3 m. sg.	to go up	
@@ -91,7 +91,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173127	ˤmpi	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.113 16						
 173128		?	?	?	?	
-173129	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	1) god f) qualifying a deity or place	DULAT quote in ỉl (I) (cue: god)
+173129	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	1) god f) qualifying a deity or place	
 173130	ibrn	ibrn/	ỉbrn	PN sg. cstr. gen.	ỉbrn	
 # KTU 1.113 17						
 173131		?	?	?	?	
@@ -99,9 +99,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173132	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 173133	yˤḏrd	yˤḏrd/	yʕḏrd	PN sg. cstr. gen.	dead king of Ugarit	
 # KTU 1.113 18						
-173134	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	DULAT quote in nqmpʕ (cue: god)
+173134	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 173135	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
-173136	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	DULAT quote in nqmpʕ (cue: god)
+173136	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 173137	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
 # KTU 1.113 19						
 173138	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
