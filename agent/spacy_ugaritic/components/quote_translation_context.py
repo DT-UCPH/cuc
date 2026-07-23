@@ -147,14 +147,10 @@ class QuoteTranslationResolver:
             if len(winners) != 1:
                 continue
 
-            winner, cues, article = winners[0]
-            note = (
-                f"DULAT quote in {article} (cue: {cues[0]})"
-                if article
-                else f"DULAT quote (cue: {cues[0]})"
-            )
-            resolved = (_with_comment(winner, note),)
-            self._replace(token, resolved, "translation-last-resort", doc)
+            # Resolution provenance ("DULAT quote in ... (cue: ...)") is not
+            # emitted: it is internal mechanics and pure noise for the reader.
+            winner, _cues, _article = winners[0]
+            self._replace(token, (winner,), "translation-last-resort", doc)
         return doc
 
     def _replace(

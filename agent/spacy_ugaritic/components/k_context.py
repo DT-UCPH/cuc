@@ -206,13 +206,11 @@ class KContextResolver:
             translated = self._resolve_by_citation_translation(token)
             if translated is None:
                 continue
+            # Resolution provenance ("DULAT quote in ... (cue: ...)") is not
+            # emitted: it is internal mechanics and pure noise for the reader.
             self._replace(
                 token,
-                _annotate_candidates(
-                    _keep_single_k(token, translated[0]),
-                    article=translated[2],
-                    cue=translated[1],
-                ),
+                _keep_single_k(token, translated[0]),
                 f"translation-{translated[0].lower()}",
                 doc,
             )

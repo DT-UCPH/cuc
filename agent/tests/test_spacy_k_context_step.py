@@ -98,11 +98,12 @@ class SpacyKContextDisambiguatorTest(unittest.TestCase):
 
             self.assertEqual(result.rows_changed, 2)
             lines = path.read_text(encoding="utf-8").splitlines()
+            # k resolves to k(I); the resolution provenance comment is no
+            # longer written.
             self.assertTrue(
                 any(
                     line.startswith("1\tk\tk(I)\tk (I)\tprep.\tlike\t")
-                    and "DULAT quote in k (I)" in line
-                    and "cue: like" in line
+                    and "DULAT quote" not in line
                     for line in lines
                 )
             )

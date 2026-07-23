@@ -55,7 +55,7 @@ class SpacyQuoteTranslationDisambiguatorTest(unittest.TestCase):
         conn.commit()
         conn.close()
 
-    def test_resolves_generic_homonym_and_writes_comment(self) -> None:
+    def test_resolves_generic_homonym_without_provenance_comment(self) -> None:
         content = (
             "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
             "# KTU 1.14 III:2\t\t\t\t\t\t\n"
@@ -72,15 +72,14 @@ class SpacyQuoteTranslationDisambiguatorTest(unittest.TestCase):
             step = SpacyQuoteTranslationDisambiguator(dulat_db=db_path)
             result = step.refine_file(path)
 
-            self.assertEqual(result.rows_changed, 2)
+            # ym is resolved to ym(I) (the ym(II) candidate is dropped); the
+            # resolution provenance comment is no longer written.
+            self.assertEqual(result.rows_changed, 1)
             lines = path.read_text(encoding="utf-8").splitlines()
             resolved_line = next(
                 line for line in lines if line.startswith("1\tym\tym(I)/\tym (I)\t")
             )
-            self.assertIn(
-                "DULAT quote in ym (I) (cue: day)",
-                resolved_line,
-            )
+            self.assertNotIn("DULAT quote", resolved_line)
             self.assertNotIn("1\tym\tym(II)/\tym (II)\tn. m. sg. abs. gen.\tsea\t", lines)
 
 

@@ -127,10 +127,12 @@ class SpacyLContextDisambiguatorTest(unittest.TestCase):
 
             self.assertEqual(result.rows_changed, 3)
             lines = path.read_text(encoding="utf-8").splitlines()
+            # l resolves to l(II) (its "keep me too" comment is preserved); the
+            # resolution provenance comment is no longer written.
             self.assertTrue(
                 lines[2].startswith("1\tl\tl(II)\tl (II)\tadv.\tno\tkeep me too")
             )
-            self.assertIn("DULAT quote in l (II)", lines[2])
+            self.assertNotIn("DULAT quote", lines[2])
 
     def test_skips_attestation_translation_when_l_is_already_resolved(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

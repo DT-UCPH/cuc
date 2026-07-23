@@ -106,8 +106,9 @@ class SpacyKContextTest(unittest.TestCase):
             doc = build_doc(nlp, grouped, source_name="KTU 2.10.tsv")
             resolved = nlp(doc)
             self.assertEqual([c.analysis for c in resolved[0]._.resolved_candidates], ["k(I)"])
-            self.assertIn("DULAT quote in k (I)", resolved[0]._.resolved_candidates[0].comment)
-            self.assertIn("cue: like", resolved[0]._.resolved_candidates[0].comment)
+            # Resolution provenance ("DULAT quote in ... (cue: ...)") is no
+            # longer emitted — it is pure noise for the reader.
+            self.assertNotIn("DULAT quote", resolved[0]._.resolved_candidates[0].comment)
 
     def test_skips_translation_hint_when_k_is_already_resolved(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

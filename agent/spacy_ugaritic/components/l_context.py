@@ -213,14 +213,12 @@ class LContextResolver:
                 continue
             translated = self._resolve_by_attestation_translation(token)
             if translated is not None:
-                homonym, cue, article = translated
+                homonym, _cue, _article = translated
+                # Resolution provenance ("DULAT quote in ... (cue: ...)") is not
+                # emitted: it is internal mechanics and pure noise for the reader.
                 self._replace(
                     token,
-                    _annotate_candidates(
-                        _keep_single_l(token, homonym),
-                        article=article,
-                        cue=cue,
-                    ),
+                    _keep_single_l(token, homonym),
                     f"translation-{homonym.lower()}",
                     doc,
                 )
