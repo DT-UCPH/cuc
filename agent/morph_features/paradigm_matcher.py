@@ -9,7 +9,11 @@ from dataclasses import dataclass
 from functools import lru_cache
 
 from linter import morphology as ug_morphology
-from pipeline.steps.analysis_utils import analysis_matches_surface, normalize_surface
+from pipeline.steps.analysis_utils import (
+    analysis_matches_surface,
+    normalize_surface,
+    reconstruct_surface_from_analysis,
+)
 
 
 @dataclass(frozen=True)
@@ -136,7 +140,16 @@ def generate_verbal_candidates(
         ):
             if not analysis:
                 continue
-            if not analysis_matches_surface(surface, analysis):
+            # Require exact surface reconstruction here. The `:w`-tolerant
+            # fallback in analysis_matches_surface (reconstructed == surface +
+            # "w") spuriously accepts a III-w root whose third radical is
+            # *written* (e.g. `ˤnw[:w` for surface `tˤn`) as a duplicate of the
+            # correct reconstructed form `ˤn(w[:w`. The `(w` third-radical
+            # variant already covers the elided case with an exact match, so
+            # the fallback only ever adds the malformed twin.
+            if normalize_surface(reconstruct_surface_from_analysis(analysis)) != normalize_surface(
+                surface
+            ):
                 continue
             person, gender, number = features
             candidates.append(

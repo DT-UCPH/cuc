@@ -29,6 +29,23 @@ class ParadigmMatcherTest(unittest.TestCase):
         self.assertIn(("ytn[", "3", "m.", "sg."), rendered)
         self.assertIn(("ytn[:w", "3", "m.", "pl."), rendered)
 
+    def test_iii_w_prefix_reconstructs_final_radical_without_malformed_twin(self) -> None:
+        # For a III-w root whose final radical is elided from the surface, the
+        # only valid 3 m. pl. form reconstructs the w as `(w`. The malformed
+        # twin `!t!ˤnw[:w` (w written, previously accepted only via the
+        # `:w`+"w" fallback) must not be generated.
+        candidates = generate_verbal_candidates(
+            surface="tˤn",
+            dulat="/ʕ-n-w/",
+            stem="G",
+            conjugation="prefc.",
+        )
+        analyses = {item.analysis for item in candidates}
+        self.assertIn("!t!ˤn(w[:w", analyses)
+        self.assertNotIn("!t!ˤnw[:w", analyses)
+        # Every generated body reconstructs the final radical (none writes it).
+        self.assertTrue(all("ˤnw[" not in analysis for analysis in analyses))
+
     def test_generates_all_visible_t_suffix_candidates_for_strong_g_root(self) -> None:
         candidates = generate_verbal_candidates(
             surface="ypˤt",
