@@ -46,7 +46,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154786	mlakm	mlakm  	mlak/m	mlảk	n. m. pl. abs. acc.	messenger	Object of ylak.
 154786	mlakm	mlakm  	mlak/m	mlảk	n. m. du. abs. acc.	messenger	EUPT: du. (the two messengers in this scene).
 154787	ylak	ylak  	!y!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 3 m. sg.	to send (a message)	
-154788	ym	ym  	ym(II)/	ym (II)	n. m. sg. abs. nom.	2) DN	
+154788	ym	ym  	ym(II)/	ym (II)	DN m. sg. abs. nom.	2) DN	
 154789		[                 ]                 	?	?	?	?	
 # KTU 1.2 I:12							
 154790	b	[b ] 	b	b	prep.	in	
@@ -540,7 +540,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155190	tbˤ	tbʿ  	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go, leave, depart	
 155191	bn	bn   	!!bn(y[	/b-n-y/	vb G impv. m. sg.	to build	tbˤ bn bht ym 'go, build the palace of Yamm' (DULAT); not bn 'son'.
 155192	bht	bht  	b&ht(II)/	bt (II)	n. m. pl. cstr. acc.	house	
-155193	ym	ym [ ]  	ym(II)/	ym (II)	n. m. sg. abs. gen.	2) DN	
+155193	ym	ym [ ]  	ym(II)/	ym (II)	DN m. sg. abs. gen.	2) DN	
 155194	rmm	[rm]m    	!!rmm[:l	/r-m/	vb L impv. m. sg.	to erect, raise	DULAT cites /r-m/ here: '[rm]m hkl erect the palace'.
 155195	hkl	hkl  	hkl/	hkl	n. m. sg. cstr. acc.	palace	
 155196	ṯpṭ	ṯpṭ  	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. cstr. gen.	judge	
@@ -588,7 +588,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155231	kmn	kmn   	kmn(I)/	kmn (I)	n. m. sg. abs. gen.	acre	
 155232	hkl	hkl 	hkl/	hkl	n. m. sg. abs. nom.	palace	Subject, parallel to bt.
 155233	ušbš	ušbš[ ] 	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
-155234	ym	[ym ] 	ym(II)/	ym (II)	n. m. sg. cstr. nom.	2) DN	DULAT direct ref | Migrated from legacy reviewed tokenization.
+155234	ym	[ym ] 	ym(II)/	ym (II)	DN m. sg. cstr. nom.	2) DN	DULAT direct ref | Migrated from legacy reviewed tokenization.
 155235	bt	[b]t  	bt	?	?	?	[ymb]tb (KTU): garbled/broken context.
 155236	b	b 	b	b	prep.	in	
 155237	ġlm	ġlm  	ġlm/	ġlm	n. m. sg. abs. gen.	1) boy	DULAT cites ġlm l šdt(?) ymm here; context broken.
@@ -600,6 +600,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155242	bˤl	[bʿl ] 	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	Restored context.
 155243	b	b 	b	b	prep.	in	
 155244	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day d) in conj. with (vb) expressions (when)	b ym ym ymt 'on that day, a day, two days' (DULAT cites both ym (I) 'day' and ym (II) here).
+155244	ym	ym  	ym(II)/	ym (II)	DN m. sg. abs. gen.	2) DN	Alternative: b ym 'for/against Yammu'. DULAT cites ym (II) directly at 1.2 III:12; cf. ym (II) at III:11 (155234) and ymm at III:11 (155241).
 155245	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. gen.	1) day d) in conj. with (vb) expressions (when)	
 155246	ymt	ymt  	ym(I)/t=	ym (I)	n. m. pl. abs. gen.	1) day d) in conj. with (vb) expressions (when)	
 155247	yˤmdn	yʿm[d]n  	!y!ˤmd[~n	/ʕ-m-d/	vb G prefc. 3 m. sg.	1) ?	DULAT cites /ʕ-m-d/ here; -n energic.
@@ -1118,7 +1119,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155695	w	w 	w	w	conj.	and	
 155696	tˤn	tʿ[n                                       ]                                       	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	
 # KTU 1.2 IV:36							
-155697	bˤlm	bʿlm  	bˤl(II)/~m	bʕl (II)	n. m. abs. nom. sg.	Baʿlu/Baal	
+155697	bˤlm	bʿlm  	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. nom.	lord, master	
 155698	hmt	hmt  	hmt	hmt	pers. pn.	?	DULAT cites hm (I) 'they' at this line (bˤlm hmt).
 155699		[                                      ]                                      	?	?	?	?	
 # KTU 1.2 IV:37							

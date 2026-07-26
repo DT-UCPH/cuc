@@ -14,7 +14,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155719	sid	sid  	s(ʔ&id[/	sỉd	n. m. sg. cstr. nom.	chief butler	DULAT sỉd: 'the chief butler of the Prince, Lord of the earth'; the form is an active participle in nominal use.
 155719	sid	sid  	s(ʔ&id[	/s-ʔ-d/	vb G suffc. 3 m. sg.	chief butler	EUPT: G suffc. 'he sustained/served'.
 155720	zbl	zbl  	zbl/	zbl (I)	n. m. sg. cstr. gen.	prince	
-155721	bˤl	bʿl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	zbl bˤl arṣ 'Prince, Lord of the earth' (bʕl 'lord', common noun).
+155721	bˤl	bʿl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	lord	zbl bˤl arṣ 'Prince, Lord of the earth' (bʕl 'lord', common noun); DULAT zbl (I) s.v. 1.3 I:3.
 # KTU 1.3 I:4							
 155722	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 155723	qm	qm  	qm[/	/q-m/	vb G act. ptcpl. m. sg. abs. nom.	to stand up	most probably active participle
@@ -620,7 +620,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156192	mdd	mdd	mdd(I)/	mdd (I)	n. m. sg. cstr. acc.	1) beloved	
 # KTU 1.3 III:39							
 156193	il	il 	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-156194	ym	ym  	ym(II)/	ym (II)	n. m. sg. abs. gen.	2) DN	
+156194	ym	ym  	ym(II)/	ym (II)	DN m. sg. abs. acc.	2) DN	
 156195	l	l 	l(III)	l (III)	functor	certainly, undoubtedly, yes	
 156195	l	l 	l(II)	l (II)	neg. adv.	no, not	DULAT: 'did I not finish off...?'.
 156196	klt	klt  	kl(l[t:d	/k-l-l/	vb D suffc. 1 c. sg.	to complete, finish	Tania: /k-l-l/ D.

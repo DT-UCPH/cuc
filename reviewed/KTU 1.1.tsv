@@ -399,6 +399,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154545	k	k[                                 ]                                 	?	?	?	?	Or the tail of a lost word.
 # KTU 1.1 IV:6							
 154546	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	Vocative 'O gods' (?) or subject.
+154546	ilm	ilm  	il(I)/~m	ỉl (I)	n. m. sg. abs. nom + encl. -m	god	Alternative: sg. il + EP -m. EUPT leaves the vowel unresolved ('⸢ˀil⸣Vma bêtV baˁli-ka') and translates 'Gott / Götter'; same treatment as 154470.
 154547	bt	bt  	bt(II)/	bt (II)	n. m. sg. cstr.	1) house	bt bˤlk 'the house of your lord' (DULAT cites bt (II) + bʕl (II) here).
 154548	bˤlk	bʿlk  	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen. + 2 m. sg. suff.	lord	
 154549	x	x[                             ]                             	?	?	?	?	
@@ -527,12 +528,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154642	alpm	alpm[  ]  	alp(I)/m	ảlp (I)	n. m. pl. abs. acc.	(head of) cattle	Feast list // 1.4 VI:40-43; ṭbḫ alpm 'he slaughtered oxen' (DULAT).
 154643	ap	[ap  ]  	ap(I)	ảp (I)	adv./conj.	also, even, besides	ap ṣin 'and also sheep' (// 1.4 VI:40); not ảp 'nose'.
 154644	ṣin	[ṣin  ]  	ṣin(I)/	ṣỉn (I)	n. f. sg. abs. acc.	ewe	
-154645	šql	[šql                ]                	šql[	/š-q-l/	vb G suffc. 3 m. sg.	?	šql ṯrm 'he felled bulls' (// 1.4 VI:41); DULAT /š-q-l/ (no gloss given); not TN.
+154645	šql	[šql                ]                	šql[	/š-q-l/	vb G suffc. 3 m. sg.	to cause to fall, throw, fell, knock down	šql ṯrm 'he felled bulls' (// 1.4 VI:41); not TN. DULAT /š-q-l/ has no gloss of its own ('cf. /q-l/ Št') but cites /q-l/ at 1.4 VI:41 for this phrase.
 # KTU 1.1 IV:31							
 154646	ṯrm	ṯrm  	ṯr(I)/m	ṯr (I)	n. m. pl. abs. acc.	bull	Object of šql.
 154647	w	w 	w	w	conj.	and	
 154648	mri	m[ri  ]  	mr(u&i(I)/	mrủ (I)	n. m. pl. cstr. acc.	fattened	w mri ilm 'and fatlings of rams (?)' (// 1.4 VI:41-42).
-154649	ilm	[ilm  ]  	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	Reading of ilm here debated ('rams'?).
+154649	ilm	[ilm  ]  	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	mri ilm 'fatlings of the gods'; nomen rectum of mri (cstr.), so abs. gen. (// 1.4 VI:42 il 'DN m. sg. abs. gen.').
+154649	ilm	[ilm  ]  	(a&il(III)/m	ảl (III)	n. m. pl. abs. gen.	ram (of superior quality)	Alternative: 'fat rams'. DULAT reads ỉlm as pl. of ảl (III) in the identical formula šql ṯrm w mrỉ ỉlm at 1.22 I:13.
 154650	ˤglm	[ʿglm  ]  	ˤgl(I)/m	ʕgl (I)	n. m. pl. abs. acc.	calf	ˤglm dt šnt 'calves a year old' (// 1.4 VI:42-43).
 154651	dt	[dt  ]  	d+t	d	det. or rel. functor	the one(s) of	
 154652	šnt	[šnt]	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	dt šnt 'of a year' — šnt 'year' correct here.

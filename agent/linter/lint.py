@@ -1879,6 +1879,9 @@ POS_STATE_CASE_RE = re.compile(
     r"\b(?:abs|cstr|nom|gen|acc)\.?(?=\s|$|[,;/])",
     re.IGNORECASE,
 )
+# Trailing affix morphology appended to a POS head with `+`, e.g.
+# `n. m. sg. cstr. gen. + 3 m. sg. suff.` or `prep. + encl. -n`.
+POS_AFFIX_TAIL_RE = re.compile(r"\s*\+\s*(?:encl\.|\d\s*[a-z]\.|.*?\bsuff\.).*$", re.IGNORECASE)
 
 
 def normalize_pos_option_for_validation(value: str) -> str:
@@ -1889,6 +1892,11 @@ def normalize_pos_option_for_validation(value: str) -> str:
     """
     tok = normalize_pos_label((value or "").strip())
     tok = strip_plurale_tantum_marker(tok)
+    # Attached pronominal suffixes and enclitics (`+ 3 m. sg. suff.`,
+    # `+ encl. -m`) are affix morphology tracked by the affix-inventory lint,
+    # not POS-head information. DULAT labels never carry them, so drop the tail
+    # before comparing heads — otherwise every clitic-bearing row fails.
+    tok = POS_AFFIX_TAIL_RE.sub("", tok)
     # Number ambiguity is internal morphology, not a POS-head alternative.
     # Collapse it before removing number features so `n. pl. or du.` still
     # validates against DULAT's coarse `n.` label.
