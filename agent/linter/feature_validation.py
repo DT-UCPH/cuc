@@ -52,6 +52,11 @@ def verbal_feature_issues(
         person, gender, number = explicit_prefix_features(decoded)
     elif "suffc." in pos:
         person, gender, number = explicit_suffix_conjugation_features(decoded)
+        # The consonantal zero ending shared by 3 m. sg. and 3 m. du. does
+        # not distinguish number.  Keep the explicit person/gender check but
+        # do not force singular when the reviewed POS selects the dual.
+        if decoded.visible_suffix == "" and "3 m. du." in pos:
+            number = ""
     else:
         person = gender = number = ""
 

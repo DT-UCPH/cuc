@@ -38,6 +38,12 @@ class LinterFeatureValidationTest(unittest.TestCase):
         messages = self._lint_messages("1\tytn\tytn[:w\t/y-t-n/\tvb G suffc. 3 m. sg.\tto give\t\n")
         self.assertIn("Verb POS is missing explicit morphology from analysis: pl.", messages)
 
+    def test_accepts_unmarked_third_masculine_dual_suffix_form(self) -> None:
+        messages = self._lint_messages(
+            "1\thlk\thlk[\t/h-l-k/\tvb G suffc. 3 m. du.\tto go\t\n"
+        )
+        self.assertNotIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
+
     def test_accepts_reviewed_journey_formula_ytn_plural_prefix_notation(self) -> None:
         messages = self._lint_messages(
             "1\tytn\t!y!(ytn[\t/y-t-n/\tvb G prefc. 3 m. pl.\tto give\t\n"
