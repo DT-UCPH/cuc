@@ -3,22 +3,23 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160526	l	l 	l(I)	l (I)	prep.	to	Superscription: l krt 'Concerning Kirta'.
 160527	krt	krt	krt/	krt	PN sg. abs. gen.	Kirta	
 # KTU 1.14 I:2							
-160528	xxxx	[xxxx]    	?	?	?	?	
+160528	xxxx	[xxxx]    	?	?	?	?	No recoverable signs; EUPT and UDB are likewise lacunose.
 160529	mlk	mlk[          ]          	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 1.14 I:3							
-160530	xxxxxm	[xxxxx]m    	?	?	?	?	
-160531	k	k[         ]         	?	?	?	?	
+160530	xxxxxm	[xxxxx]m    	?	?	?	?	Only final m is preserved; no source licenses a lexical restoration.
+160531	k	k[         ]         	?	?	?	?	Isolated k in a broken line; prepositional or functor identity cannot be established.
 # KTU 1.14 I:4							
-160532	xxxxxxˤ	[xxxxx]xʿ[              ]              	?	?	?	?	
+160532	xxxxxxˤ	[xxxxx]xʿ[              ]              	?	?	?	?	Only final ˤ is recoverable; no defensible lexical analysis.
 # KTU 1.14 I:5							
-160533	xxxxm	[xxxx]m    	?	?	?	?	
-160534	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	Broken context.
-160535	xxxxx	xx[xxx]	?	?	?	?	
+160533	xxxxm	[xxxx]m    	?	?	?	?	Only final m is preserved; no source licenses a lexical restoration.
+160534	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	Primary name reading; EUPT allows Gottesname or common noun in this broken context.
+160534	il	il  	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	Alt. EUPT: Subst. m. sg.; context is too broken to select the divine-name sense alone.
+160535	xxxxx	xx[xxx]	?	?	?	?	No recoverable lexical identity in EUPT, UDB, or DULAT.
 # KTU 1.14 I:6							
-160536	xxxd	[xxx]d    	?	?	?	?	
+160536	xxxd	[xxx]d    	?	?	?	?	Only final d is preserved; no source licenses a lexical restoration.
 160537	nhr	nhr  	nhr/	nhr	n. m. sg. cstr. nom.	river	
 160537	nhr	nhr  	nhr/	nhr	DN m. sg. cstr. nom.	Naharu	Alt.: DN (alternative name of ym).
-160538	umt	umt	um(t/t	umt	n. f. sg. cstr. gen.	family, clan	umt krt 'the family of Kirta' (DULAT).
+160538	umt	umt	um(t/t	umt	n. f. sg. cstr. nom.	family, clan	Subject of ˤrwt: umt krt 'the family of Kirta was consumed' (DULAT; EUPT Nom. f. sg. St.cs.).
 # KTU 1.14 I:7							
 160539	krt	[krt  ]  	krt/	krt	PN sg. abs. gen.	Kirta	
 160540	ˤrwt	ʿrwt  	ˤrw[t===:pass	/ʕ-r-w/	vb Gpass suffc. 3 f. sg.	to be consumed	umt krt ˤrwt 'the family of Kirta was consumed' (DULAT; auto: Gpass).
@@ -46,19 +47,19 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160556	mknt	mknt	mkn(t/t	mknt	n. f. sg. cstr. nom.	family seat	krt grdš mknt 'ruined of his family seat'.
 # KTU 1.14 I:12							
 160557	aṯt	aṯt  	aṯ(t/t	ảṯt	n. f. sg. cstr. acc.	woman	aṯt ṣdqh 'the wife of his legitimacy' (EUPT: St.cs.).
-160558	ṣdqh	ṣdqh  	ṣdq(I)/+h	ṣdq (I)	n. m. sg. cstr. gen. + 3 m. sg. suff.	legitimacy	aṯt ṣdqh 'the wife of his legitimacy' = his lawful wife.
+160558	ṣdqh	ṣdqh  	ṣdq(I)/+h	ṣdq (I)	adj. m. sg. cstr. gen. + 3 m. sg. suff.	legitimacy	aṯt ṣdqh 'the wife of his legitimacy' = his lawful wife; substantivized adjective in current DULAT (EUPT: Gen. m. sg. St.cs.).
 160559	l	l 	l(II)	l (II)	adv.	not	aṯt ṣdqh l ypq 'a lawful wife he did not obtain' (DULAT).
 160560	ypq	ypq	!y!(ypq[	/y-p-q/	vb G prefc. 3 m. sg.	to get, obtain	aṯt ṣdqh l ypq 'a lawful wife he did not obtain' (EUPT G-PKK; wg prefc.).
 160560	ypq	ypq	ypq[	/y-p-q/	vb G suffc. 3 m. sg.	to get, obtain	Alt.: suffc.
 # KTU 1.14 I:13							
-160561	mtrḫt	mtrḫt  	mtrḫ(t/t	mtrḫt	n. f. sg. abs. acc.	consort, wife	
+160561	mtrḫt	mtrḫt  	mtrḫ(t/t	mtrḫt	n. f. sg. cstr. acc.	consort, wife	Construct in mtrḫt yšrh 'his lawful consort' (DULAT; EUPT Akk. f. sg. St.cs.).
 160562	yšrh	yšrh	yšr(I)/+h	yšr (I)	n. m. sg. cstr. gen. + 3 m. sg. suff.	uprightness, lawfulness	mtrḫt yšrh 'his rightful consort'.
 # KTU 1.14 I:14							
 160563	aṯt	aṯt  	aṯ(t/t	ảṯt	n. f. sg. abs. acc.	woman	aṯt trḫ 'he married a woman'.
 160564	trḫ	trḫ  	trḫ[	/t-r-ḫ/	vb G suffc. 3 m. sg.	to marry	
 160564	trḫ	trḫ  	trḫ[	/t-r-ḫ/	vb G impv. m. sg.	to marry	Alt.: impv.
 160565	w	w 	w	w	conj.	and	
-160566	tbˤt	tbʿt	tbˤ[t	/t-b-ʕ/	vb G suffc. 3 f. sg.	to go, leave, depart	aṯt trḫ w tbˤt 'he married a woman but she departed' (DULAT).
+160566	tbˤt	tbʿt	tbˤ[t===	/t-b-ʕ/	vb G suffc. 3 f. sg.	to go, leave, depart	aṯt trḫ w tbˤt 'he married a woman but she departed/died' (DULAT; EUPT G-SK 3 f. sg.).
 # KTU 1.14 I:15							
 160567	ṯt	ṯt  	ṯ(n(t(II)/t	ṯn (II)	num. f.	second	DULAT/Ginsberg read these signs as ṯảr ủm 'a mother's surety' (different word-division): ṯảr ủm tkn lh.
 160568	rum	rum  	rum/	rủm	n. m. sg. abs. nom.	wild bull	See 132102 (ṯảr ủm reading).
@@ -78,9 +79,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 I:19							
 160578	ršp	ršp  	ršp/	ršp	DN m. sg. abs. nom.	Rašap	DN of flame/plague.
 160579	mṯdṯt	mṯdṯt  	mṯdṯ(t/t	mṯdṯt	n. f. sg. abs. nom.	the sixth	mṯdṯt ġlm ym 'the sixth (Yammu the) Noble gathered'.
-160580	ġlm	ġlm	ġlm/	ġlm	n. m. sg. abs. nom.	boy, youth	ġlm ym as an epithet ('the Noble one', DN Yammu).
+160580	ġlm	ġlm	ġlm/	ġlm	n. m. sg. abs. nom.	boy, youth	Primary: ġlm ym as the epithet 'Noble Yammu', supported by DULAT and the parallel sequence of agents.
+160580	ġlm	ġlm	ġlm/	ġlm	n. m. pl. cstr. nom.	boy, youth	Alt. EUPT: ġalamū yammi 'the young men of Yammu' (Nom. m. pl. St.cs.).
+160580	ġlm	ġlm	ġlm(I)[	ġlm (I)	vb G suffc. 3 m. sg.	to conceal, hide	Alt. Burns Contextualist Workbook (DN section β): mṯdṯt ġlm ym 'Yammu concealed the sixth'; current DULAT's verbal homonym glosses 'to be dark'.
 # KTU 1.14 I:20							
-160581	ym	ym  	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu	DULAT ym (II) DN.
+160581	ym	ym  	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu	Primary: DULAT reads ġlm ym as 'Noble Yammu'.
+160581	ym	ym  	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu	Alt. linked to EUPT's preceding plural construct: ġalamū yammi 'the young men of Yammu'.
 160582	mšbˤthn	mšbʿthn  	mšbˤ(t/t+hn	mšbʕt	n. f. sg. cstr. nom. + 3 f. pl. suff.	the seventh	mšbˤthn 'the seventh of them'.
 160583	b	b 	b	b	prep.	by	b šlḥ ttpl 'fell by the Sword'.
 160584	šlḥḥ	šlḥ[[ḥ]]	šlḥ&ḥ/	šlḥ	DN sg. abs. gen.	Sword	Surface šlḥḥ, scribal error for šlḥ (DULAT DN 'Sword'); or n. 'weapon'.
@@ -97,13 +101,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160590	ḥtkh	ḥtkh 	ḥtk(III)/+h	ḥtk (III)	n. m. sg. cstr. acc. + 3 m. sg. suff.	sovereignty, power	Alt.: ḥtk (III).
 160591	rš	rš	rš[	/r-š(-š)/	vb G suffc. 3 m. sg.	to be ruined	
 # KTU 1.14 I:23							
-160592	mid	mid  	mid/	mỉ/ủd	n. m. sg. abs. acc.	abundance	mid 'greatly' (adverbial acc.).
+160592	mid	mid  	mid/	mỉ/ủd	n. m. sg. abs. acc.	abundance	mid 'greatly' (adverbial acc.); EUPT instead lexicalizes maʔda directly as an adverb.
 160593	grdš	grdš  	grdš[	/g-r-d-š/	vb G suffc. 3 m. sg.	to be undermined, ruined	
 160594	ṯbth	ṯbth	ṯb(t/t+h	ṯbt	n. f. sg. cstr. acc. + 3 m. sg. suff.	seat, family seat	mid grdš ṯbth 'utterly ruined of his family seat'.
 # KTU 1.14 I:24							
 160595	w	w 	w	w	conj.	and	
 160596	b	b 	b	b	prep.	in	
-160597	klhn	klhn  	kl/+hn	kl	n. m. sg. cstr. gen. + 3 f. pl. suff.	totality (of)	b klhn 'in their entirety'; wg notes b+klhn as two words.
+160597	klhn	klhn  	kl/+hn	kl	n. m. sg. cstr. gen. + 3 f. pl. suff.	totality (of)	b klhn 'in their entirety' (DULAT direct attestation and -hn suffix entry). EUPT instead segments 3 m. sg. +h plus enclitic -n; DULAT and the CUC suffix inventory favor 3 f. pl. -hn here.
 160598	špḥ	špḥ  	špḥ/	špḥ	n. m. sg. abs. nom.	family, offspring	špḥ yitbd 'the offspring perished'.
 160599	yitbd	yitbd	!y!(ʔ&i]t]bd[	/ʔ-b-d/	vb Gt prefc. 3 m. sg.	to perish	
 # KTU 1.14 I:25							
@@ -118,23 +122,23 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160607	ybky	ybky	!y!bky[	/b-k-y/	vb G prefc. 3 m. sg.	to weep	
 # KTU 1.14 I:27							
 160608	b	b 	b	b	prep.	in	
-160609	ṯn	ṯn  	ṯn(I)/	ṯn (I)	num.	two	b ṯn ˤgmm 'with double groans' (repeating).
+160609	ṯn	ṯn  	!!ṯn(y[/	/ṯ-n-y/	vb G inf. cstr. gen.	to repeat, reiterate	b ṯn ˤgmm 'repeating his groans' (DULAT; EUPT G-Inf. Gen. St.cs.), not the numeral 'two'.
 160610	pˤgmm	[[p]]ʿgmm     	?	?	?	?	DULAT reads (b ṯn) ˤgmm 'groans' (s.v. ʕgm); the initial p is unexplained.
 160611	w	w 	w	w	conj.	and	
 160612	ydmˤ	ydmʿ	!y!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. sg.	to shed tears, weep	
 # KTU 1.14 I:28							
 160613	tntkn	tntkn  	!t!ntk[n	/n-t-k/	vb N prefc. 3 f. pl.	to run, flow	tntkn udmˤth 'his tears flowed'.
-160614	udmˤth	udmʿth	!(ʔ&u!dmˤ(t/t=+h	dmʕt	n. f. pl. abs. nom. + 3 m. sg. suff.	tear	Prosthetic aleph; udmˤth 'his tears'.
+160614	udmˤth	udmʿth	!(ʔ&u!dmˤ(t/t=+h	dmʕt	n. f. pl. cstr. nom. + 3 m. sg. suff.	tear	Prosthetic aleph; suffixed construct udmˤth 'his tears' (EUPT Nom. f. pl. St.cs.).
 # KTU 1.14 I:29							
 160615	km	km  	km	km	prep.	like	km ṯqlm 'like shekels'.
 160616	ṯqlm	ṯqlm  	ṯql/m	ṯql	n. m. pl. abs. gen.	shekel	
-160617	arṣh	arṣh	arṣ/+h	ảrṣ	n. f. sg. abs. acc. + dir. -h	earth	arṣh 'to the ground' (directive -h).
+160617	arṣh	arṣh	arṣ/~h	ảrṣ	n. f. sg. abs. acc. + dir. -h	earth	arṣh 'to the ground' (directive -h; EUPT Term. f. sg.).
 # KTU 1.14 I:30							
-160618	k	k 	k(I)	k (I)	prep.	like	k ḫmšt mṭth 'like five-(shekel weights) onto his bed' (// km ṯqlm).
-160619	mḫmšt	mḫmšt  	mḫmš(t/t	mḫmšt	n. f. sg. abs. nom.	the fifth one	DULAT reads km ḫmšt mṭth 'like five-(shekel weights) onto his bed' (// km ṯqlm).
-160620	mṭth	mṭth	mṭ(t/t+h	mṭt	n. f. sg. cstr. gen. + 3 m. sg. suff.	bed	
+160618	k	k 	km ḫmš(t/t=	km, ḫmšt	prep., n. f. pl. abs. gen.	like, five-shekel (?) weight	MERGE WITH THE NEXT: TF k + mḫmšt cuts across the DULAT/EUPT division km ḫmšt, 'like five-shekel weights' (// km ṯqlm). Huehnergard glosses the lexeme generically 'fifth'; the DULAT attestation and EUPT context support weights here.
+160619	mḫmšt	mḫmšt  	km ḫmš(t/t=	km, ḫmšt	prep., n. f. pl. abs. gen.	like, five-shekel (?) weight	MERGE WITH THE PREVIOUS.
+160620	mṭth	mṭth	mṭ(t/t~h	mṭt	n. f. sg. abs. acc. + dir. -h	bed	mṭth 'onto the bed' (DULAT; EUPT Term. f. sg.), with directive -h rather than a possessive suffix.
 # KTU 1.14 I:31							
-160621	bm	bm  	b+m(I)	b	prep. + encl. -m	in	bm bkyh 'in his weeping'.
+160621	bm	bm  	b~m	b	prep. + encl. -m	in	bm bkyh 'in his weeping'.
 160622	bkyh	bkyh 	!!bky[/+h	/b-k-y/	vb G inf. + 3 m. sg. suff.	to weep	bm bkyh 'as he wept'.
 160623	w	w 	w	w	conj.	and	
 160624	yšn	yšn	!y!(yšn[	/y-š-n/	vb G prefc. 3 m. sg.	to sleep, fall asleep	w yšn 'and he fell asleep'.
@@ -144,10 +148,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160627	nhmmt	nhmmt	nhmm(t/t	nhmmt	n. f. sg. abs. nom.	drowsiness, fainting fit	
 # KTU 1.14 I:33							
 160628	šnt	šnt  	šn(t(II)/t	šnt (II)	n. f. sg. abs. nom.	sleep	šnt tluan 'sleep overcame him'.
-160629	tluan	tluan 	!t!l(ʔ&u(y(I)[~+(n&an	/l-ʔ-y/w/ (I)	vb G prefc. 3 f. sg. + energic-suff.	to overcome, prevail	tluan: fused energic nun + suffix (cf. tagging conventions 85856).
+160629	tluan	tluan 	!t!l(ʔ&u(y(I)[~+(n&an	/l-ʔ-y/w/ (I)	vb G prefc. 3 f. sg. + energic-suff.	to overcome, prevail	tluan: authoritative CUC convention retains ~+ for the fused energic + suffix; -an is a variant of -nn (Martijn/Tania; EUPT G-PKK 3 f. sg. + OS 3 m. sg.).
 # KTU 1.14 I:34							
 160630	w	w 	w	w	conj.	and	
-160631	yškbnhmmt	yškb .nhmmt	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+160631	yškbnhmmt	yškb .nhmmt	!y!škb[ nhmm(t/t	/š-k-b/, nhmmt	vb G prefc. 3 m. sg., n. f. sg. abs. nom.	to lie down, drowsiness, fainting fit	Two lexical words joined by TF: yškb 'he lay down' (I:34), then nhmmt 'fainting/drowsiness' beginning the parallel clause (DULAT; Martijn/Tania).
 # KTU 1.14 I:35							
 160632	w	w 	w	w	conj.	and	
 160633	yqmṣ	yqmṣ  	!y!qmṣ[	/q-m-ṣ/	vb G prefc. 3 m. sg.	to curl up	
@@ -166,15 +170,15 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160644	yqrb	yqrb	!y!qrb[	/q-r-b/	vb G prefc. 3 m. sg.	to approach	
 # KTU 1.14 I:38							
 160645	b	b 	b	b	prep.	in	b šal krt 'in asking Kirta' (as he asked).
-160646	šal	šal  	šal/	šảl	n. m. sg. cstr. gen.	claim, demand	b šal 'in questioning'.
+160646	šal	šal  	!!š(ʔ&al[/	/š-ʔ-l/	vb G inf. cstr. gen.	to ask, request	b šal 'in asking/questioning' (DULAT direct attestation; EUPT G-Inf. Gen. St.cs.; Martijn/Tania).
 160647	krt	krt  	krt/	krt	PN sg. abs. gen.	Kirta	
-160648	mh	m<h>  	m&h	m(h)	pers. pn.	1) what?	= mảt (m + ảt)? 'what ails you?'; largely broken (mhakt). | DULAT direct ref | Migrated from legacy reviewed tokenization.
-160649	a	a 	?	?	?	?	= mảt (m + ảt)? 'what ails you?'; largely broken (mhakt). | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
-160650	kt	[[k]]t	k(t(I)/t	kt (I)	n. f. sg. cstr. nom.	pitcher	= mảt (m + ảt)? 'what ails you?'; largely broken (mhakt). | Migrated from legacy reviewed tokenization.
-160650	kt	[[k]]t	k(t(II)/t	kt (II)	n. f. sg. cstr. nom.	stage	= mảt (m + ảt)? 'what ails you?'; largely broken (mhakt). | Migrated from legacy reviewed tokenization.
+160648	mh	m<h>  	m&h	m(h)	pers. pn.	1) what?	m with added h, followed by ảt: 'what is the matter with you?' (DULAT; Martijn/Tania). EUPT instead treats maʔati as one interrogative pronoun.
+160649	a	a 	a&kt	ảt (I)	pers. pn.	you	MERGE WITH THE NEXT: a + [[k]]t = ảt 'you'; k is a scribal error. Together with preceding m(h): 'what is the matter with you?' (DULAT; Martijn/Tania). EUPT instead treats maʔati as one interrogative pronoun.
+160650	kt	[[k]]t	a&kt	ảt (I)	pers. pn.	you	MERGE WITH THE PREVIOUS.
 # KTU 1.14 I:39							
 160651	krt	krt  	krt/	krt	PN sg. abs. nom.	Kirta	mảt krt k ybky 'what ails Kirta that he weeps?'.
-160652	k	k 	k(III)	k (III)	subordinating / completive functor	that	k ybky 'that he weeps'.
+160651	krt	krt  	krt/	krt	PN sg. abs. acc.	Kirta	Alt. EUPT: Akk. m. sg. (its primary locative analysis has no direct CUC case tag).
+160652	k	k 	k(III)	k (III)	subordinating or completive functor	that	k ybky 'that he weeps'.
 160653	ybky	ybky	!y!bky[	/b-k-y/	vb G prefc. 3 m. sg.	to weep	
 # KTU 1.14 I:40							
 160654	ydmˤ	ydmʿ  	!y!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. sg.	to shed tears, weep	
@@ -182,7 +186,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160656	ġlm	ġlm	ġlm/	ġlm	n. m. sg. cstr. nom.	boy, youth	
 # KTU 1.14 I:41							
 160657	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
-160658	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. abs. acc.	king	mlk ṯr abh 'the kingship of Bull his father'.
+160658	mlk	mlk  	mlk(II)/	mlk (II)	n. m. sg. cstr. acc.	kingdom, kingship	mlk ṯr abh 'the kingship of Bull his father' (DULAT mlk II; EUPT Akk. m. sg. St.cs.).
 160659	ṯr	ṯr 	ṯr(I)/	ṯr (I)	n. m. sg. cstr. gen.	bull	ṯr abh 'Bull his father' (epithet of El).
 160660	abh	abh	ab/+h	ảb	n. m. sg. cstr. gen. + 3 m. sg. suff.	father	
 # KTU 1.14 I:42							
@@ -194,29 +198,29 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160664	k	k 	k(I)	k (I)	prep.	like	
 160665	ab	ab  	ab/	ảb	n. m. sg. cstr. gen.	father	
 160666	adm	adm  	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	man	
-160667	xx	xx[       ]       	?	?	?	?	
+160667	xx	xx[       ]       	?	?	?	?	No recoverable signs sufficient for lexical analysis.
 # KTU 1.14 I:44							
-160668	ṯxxx	ṯxxx[                          ]                              	?	?	?	?	
+160668	ṯxxx	ṯxxx[                          ]                              	?	?	?	?	Only initial ṯ is preserved; no source licenses a lexical restoration.
 # KTU 1.14 I:45							
-160669	xxn	xxn  	?	?	?	?	
+160669	xxn	xxn  	?	?	?	?	Only final n is preserved; no source licenses a lexical restoration.
 160670	ḥ	ḥ[                    ]                    	ḥ/	ḥ	n. m. sg. abs. nom.	life	Broken context; ḥ[ym] 'life'?
 # KTU 1.14 I:46							
-160671		[                                ]                                	?	?	?	?	
+160671		[                                ]                                	?	?	?	?	No legible signs in TF/UDB/EUPT; left unresolved.
 # KTU 1.14 I:47							
-160672		[                                ]                                	?	?	?	?	
+160672		[                                ]                                	?	?	?	?	No legible signs in TF/UDB/EUPT; left unresolved.
 # KTU 1.14 I:48							
-160673		[                                ]                                	?	?	?	?	
+160673		[                                ]                                	?	?	?	?	No legible signs in TF/UDB/EUPT; left unresolved.
 # KTU 1.14 I:49							
-160674		[                                ]                                	?	?	?	?	
+160674		[                                ]                                	?	?	?	?	No legible signs in TF/UDB/EUPT; left unresolved.
 # KTU 1.14 I:50							
-160675		[                                ]                                	?	?	?	?	
+160675		[                                ]                                	?	?	?	?	No legible signs in TF/UDB/EUPT; left unresolved.
 # KTU 1.14 I:51							
 160676		[                         ]                         	?	?	?	?	Migrated from legacy reviewed tokenization.
-160677	lm	[lm ] 	l(I)+m(I)	l (I)	prep. + encl. -m	to	Largely broken line.
+160677	lm	[lm ] 	l(I)~m	l (I)	prep. + encl. -m	to	Largely broken line; enclitic -m.
 # KTU 1.14 I:52							
 160678	ank	[ank  ]  	ank	ảnk	pers. pn. 1 c. sg.	I	
-160679	kspw	[ksp .w ] 	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
-160680	yrq	[yrq]	yrq/	yrq	n. m. sg. cstr. nom.	yellow gold	w yrq ḫrṣ 'and yellow gold' (DULAT yrq 'greenish-yellow metal').
+160679	kspw	[ksp .w ] 	ksp/ w	ksp, w	n. m. sg. abs. acc., conj.	silver, and	Two lexical words joined by TF: ksp w 'silver and'; the object phrase continues with yrq ḫrṣ across the column break (Martijn/Tania; ANET, UNP, EUPT).
+160680	yrq	[yrq]	yrq/	yrq	n. m. sg. cstr. acc.	greenish-yellow metal/gold	yrq ḫrṣ 'yellow gold' is a construct expression coordinated with ksp (DULAT; EUPT Akk. m. sg.).
 # KTU 1.14 II:1							
 160681	ḫrṣ	[ḫrṣ  ]  	ḫrṣ/	ḫrṣ	n. m. sg. abs. acc.	gold	ḫrṣ yd mqmh (ransom list, // III:22-23).
 160682	yd	yd  	yd(I)/	yd (I)	n. m. sg. cstr. acc.	hand, yield	EUPT reads yd as prep. 'together with'.
