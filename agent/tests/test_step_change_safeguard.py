@@ -13,15 +13,25 @@ import unittest
 from pathlib import Path
 
 from pipeline.steps.base import RefinementStep, StepResult
+from pipeline.steps.nominal_feature_completion import NominalFeatureCompletionFixer
 from pipeline.steps.schema_formatter import TsvSchemaFormatter
+from pipeline.steps.variant_row_unwrapper import VariantRowUnwrapper
 from pipeline.tablet_parsing import PipelineConfig, TabletParsingPipeline
 
 
 class _FakeStep(RefinementStep):
-    def __init__(self, *, changed: int, processed: int, enforce: bool) -> None:
+    def __init__(
+        self,
+        *,
+        changed: int,
+        processed: int,
+        enforce: bool,
+        max_change_ratio: float | None = None,
+    ) -> None:
         self._changed = changed
         self._processed = processed
         self.enforce_change_ratio = enforce
+        self.max_change_ratio = max_change_ratio
 
     @property
     def name(self) -> str:
@@ -60,6 +70,16 @@ class SafeguardExemptionTest(unittest.TestCase):
             ]
             return pipeline.apply_refinement_steps([Path("KTU 1.test.tsv")])
 
+    def _run_with_step_limit(self, *, limit: float):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            out = Path(tmp_dir)
+            (out / "KTU 1.test.tsv").write_text("x", encoding="utf-8")
+            pipeline = _pipeline(out)
+            pipeline._refinement_steps = [
+                _FakeStep(changed=44, processed=100, enforce=True, max_change_ratio=limit)
+            ]
+            return pipeline.apply_refinement_steps([Path("KTU 1.test.tsv")])
+
     def test_enforced_step_over_ratio_raises(self) -> None:
         with self.assertRaises(RuntimeError):
             self._run(enforce=True)
@@ -68,11 +88,25 @@ class SafeguardExemptionTest(unittest.TestCase):
         details = self._run(enforce=False)
         self.assertEqual(details["step_fake-step_changed"], 97)
 
+    def test_step_specific_ratio_can_exceed_global_default(self) -> None:
+        details = self._run_with_step_limit(limit=0.50)
+        self.assertEqual(details["step_fake-step_changed"], 44)
+
+    def test_step_specific_ratio_still_enforces_its_ceiling(self) -> None:
+        with self.assertRaises(RuntimeError):
+            self._run_with_step_limit(limit=0.40)
+
 
 class SchemaFormatterCountingTest(unittest.TestCase):
     def test_formatter_is_exempt(self) -> None:
         self.assertFalse(TsvSchemaFormatter().enforce_change_ratio)
         self.assertTrue(RefinementStep.enforce_change_ratio)
+
+    def test_variant_unwrapper_is_exempt(self) -> None:
+        self.assertFalse(VariantRowUnwrapper().enforce_change_ratio)
+
+    def test_nominal_completion_has_guarded_clean_bootstrap_ceiling(self) -> None:
+        self.assertEqual(NominalFeatureCompletionFixer.max_change_ratio, 0.50)
 
     def test_changed_never_exceeds_processed(self) -> None:
         # Non-canonical input: bad header, un-normalized separator, a data row

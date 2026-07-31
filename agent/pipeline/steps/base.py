@@ -98,6 +98,9 @@ class RefinementStep(abc.ABC):
     #: rewrites almost every row (final schema normalization) without touching
     #: the linguistic payload, so it opts out. Default: enforced.
     enforce_change_ratio: bool = True
+    #: Optional step-specific ceiling for normal high-coverage linguistic
+    #: steps. When unset, the pipeline-wide ceiling applies.
+    max_change_ratio: Optional[float] = None
 
     @property
     @abc.abstractmethod

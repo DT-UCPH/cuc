@@ -20,6 +20,11 @@ from pipeline.steps.base import (
 class NominalFeatureCompletionFixer(RefinementStep):
     """Complete nominal gender/number/state features from analysis and DULAT."""
 
+    # Clean bootstrap rows enter this step without completed case/state
+    # features, so completing roughly 44% is normal. Keep a step-specific
+    # ceiling high enough for that workload while still detecting broad drift.
+    max_change_ratio = 0.50
+
     def __init__(self, dulat_db: Path) -> None:
         self._completer = NominalFeatureCompleter(DulatFeatureReader(db_path=dulat_db))
 

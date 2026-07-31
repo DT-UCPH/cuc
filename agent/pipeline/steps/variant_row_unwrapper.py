@@ -56,6 +56,12 @@ def _variant_value(values: list[str], index: int) -> str:
 class VariantRowUnwrapper(RefinementStep):
     """Convert packed semicolon variants into one-variant rows."""
 
+    # Structural normalization can legitimately touch a large fraction of a
+    # clean bootstrap: it changes row cardinality without choosing a new
+    # linguistic analysis. Linguistic step-change limits therefore do not
+    # apply, just as they do not apply to the TSV schema formatter.
+    enforce_change_ratio = False
+
     @property
     def name(self) -> str:
         return "variant-row-unwrapper"

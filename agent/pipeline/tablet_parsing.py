@@ -506,11 +506,15 @@ class TabletParsingPipeline:
                 step_changed += result.rows_changed
                 step_rows += result.rows_processed
 
+            step_limit = getattr(step, "max_change_ratio", None)
+            if step_limit is None:
+                step_limit = self.config.max_step_change_ratio
+
             if (
                 step_rows > 0
                 and getattr(step, "enforce_change_ratio", True)
                 and not self.config.allow_large_step_changes
-                and (float(step_changed) / float(step_rows)) > self.config.max_step_change_ratio
+                and (float(step_changed) / float(step_rows)) > step_limit
             ):
                 ratio = float(step_changed) / float(step_rows)
                 raise RuntimeError(
@@ -521,7 +525,7 @@ class TabletParsingPipeline:
                         step_changed,
                         step_rows,
                         ratio * 100.0,
-                        self.config.max_step_change_ratio * 100.0,
+                        step_limit * 100.0,
                     )
                 )
             step_details[f"step_{step.name}_changed"] = step_changed
