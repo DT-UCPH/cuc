@@ -14,7 +14,7 @@ from pipeline.steps.base import (
 
 
 class UnwrappedDuplicatePruner(RefinementStep):
-    """Drop duplicate rows with identical id/surface/col3-col6 payload."""
+    """Keep one analysis for each id/surface/col4-col6 feature bundle."""
 
     @property
     def name(self) -> str:
@@ -26,7 +26,7 @@ class UnwrappedDuplicatePruner(RefinementStep):
     def refine_file(self, path: Path) -> StepResult:
         lines = path.read_text(encoding="utf-8").splitlines()
         out_lines: list[str] = []
-        seen_payloads: set[tuple[str, str, str, str, str, str]] = set()
+        seen_payloads: set[tuple[str, str, str, str, str]] = set()
         rows_processed = 0
         rows_changed = 0
 
@@ -47,7 +47,6 @@ class UnwrappedDuplicatePruner(RefinementStep):
             key = (
                 row.line_id.strip(),
                 row.surface.strip(),
-                row.analysis.strip(),
                 row.dulat.strip(),
                 row.pos.strip(),
                 row.gloss.strip(),

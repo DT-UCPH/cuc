@@ -48,6 +48,7 @@ from pipeline.steps.plural_split import PluralSplitFixer
 from pipeline.steps.plurale_tantum_m import PluraleTantumMFixer
 from pipeline.steps.post_verb_variant_unwrapper import (
     PostVerbUnwrappedDuplicatePruner,
+    PostVerbVariantReconstructionPruner,
     PostVerbVariantRowUnwrapper,
 )
 from pipeline.steps.prefixed_iii_aleph_verb import PrefixedIIIAlephVerbFixer
@@ -203,6 +204,9 @@ class TabletParsingPipeline:
             *build_spacy_morph_context_steps(),
             BaalGlossFixer(),
             *build_spacy_quote_translation_steps(dulat_db=self.config.dulat_db),
+            # Late verbal completion can introduce a non-reconstructable
+            # sibling after the first reconstruction-pruning pass.
+            PostVerbVariantReconstructionPruner(),
             # After every repair step has run, tokens that still cannot
             # reconstruct fall back to '?' with a DULAT candidate hint.
             UnresolvableTokenFallback(),

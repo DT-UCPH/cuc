@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from pipeline.steps.unwrapped_duplicate_pruner import UnwrappedDuplicatePruner
+from pipeline.steps.variant_reconstruction_pruner import VariantReconstructionPruner
 from pipeline.steps.variant_row_unwrapper import VariantRowUnwrapper
 
 
@@ -16,3 +17,9 @@ class PostVerbUnwrappedDuplicatePruner(UnwrappedDuplicatePruner):
     @property
     def name(self) -> str:
         return "unwrapped-duplicate-pruner-post-verb"
+
+
+class PostVerbVariantReconstructionPruner(VariantReconstructionPruner):
+    @property
+    def name(self) -> str:
+        return "variant-reconstruction-pruner-post-verb"

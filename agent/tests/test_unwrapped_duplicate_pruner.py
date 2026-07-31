@@ -49,6 +49,25 @@ class UnwrappedDuplicatePrunerTest(unittest.TestCase):
 
             self.assertEqual(result.rows_changed, 0)
 
+    def test_prunes_analysis_alternative_with_duplicate_feature_bundle(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(
+                (
+                    "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                    "1\thndt\thnd&t\thnd\tdem.\tthis\texact lexical reading\n"
+                    "1\thndt\thnd~t\thnd\tdem.\tthis\tsplit suffix reading\n"
+                ),
+                encoding="utf-8",
+            )
+
+            result = self.step.refine_file(path)
+
+            self.assertEqual(result.rows_changed, 1)
+            output = path.read_text(encoding="utf-8")
+            self.assertIn("hnd&t", output)
+            self.assertNotIn("hnd~t", output)
+
 
 if __name__ == "__main__":
     unittest.main()
