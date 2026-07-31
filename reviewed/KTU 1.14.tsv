@@ -477,309 +477,328 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160870	km	km  	km	km	prep.	like	km ḥsn pat mdbr 'like locusts (on) the fringes of the desert'. DULAT km s.v. 1.14 III:1; EUPT 'wie Grashüpfer'. Comparative prep. as at 160615.
 160871	ḥsn	ḥsn  	ḥsn/	ḥsn	n. m. sg. abs. gen.	grasshoppers	Abs. not cstr.: km governs ḥsn, and pat mdbr is a separate construct chain. EUPT vocalises ḤSN-i (gen.); DULAT ḥsn s.v. 1.14 III:1 'km ḥsn pảt mdbr'.
 160872	pat	pat 	p(i&at/	pỉt	n. m. pl. cstr. gen.	2) boundary	pat mdbr 'the fringes of the desert' (DULAT pỉt n. m./f., sense 2 'boundary, border, side, fringe, edge' [technical meaning], cited s.v. 1.14 III:1); DULAT lists pảt as the pl. EUPT vocalises piˀata (sg. acc.), with piˀāti f. pl. cstr. offered in the commentary — compatible with the m./f. gender. NB the DULAT cache narrows m./f. to m. in the gender column; true value is in raw_notes.
-160873	mdbr	mdbr	mdbr/	mdbr	n. m. sg. abs. gen.	desert	SEEDED from auto-parse; not yet hand-reviewed.
+160873	mdbr	mdbr	mdbr/	mdbr	n. m. sg. abs. gen.	desert	Genitive complement in pat mdbr 'fringes of the desert' (DULAT; Martijn/Tania; EUPT).
 # KTU 1.14 III:2							
 160874	lk	lk  	!!(hlk[	/h-l-k/	vb G impv. m. sg.	to go	lk ym w ṯn 'go one day and a second'. Not l (I) + 2 m. sg. suff.: DULAT lk redirects to root /h-l-k/ and cites ym (I) s.v. 1.14 III:2 'lk ym w ṯn … = go one day and a second'; EUPT vocalises li⸢k⸣ 'Geh'; Burns Workbook IX root hlk. Same encoding as 154457, 156408, 158891.
-160875	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day b) as a period in time	SEEDED from auto-parse; not yet hand-reviewed.
-160876	w	w 	w	w	conj.	1) copulative conj.	SEEDED from auto-parse; not yet hand-reviewed.
-160877	ṯn	ṯn 	ṯn(II)/	ṯn (II)	num./adj. sg.	second	SEEDED from auto-parse; not yet hand-reviewed.
-160878	ṯlṯ	ṯlṯ  	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	SEEDED from auto-parse; not yet hand-reviewed.
-160879	rbˤ	rbʿ 	rbˤ/	rbʕ	num.	fourth	SEEDED from auto-parse; not yet hand-reviewed.
-160880	ym	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day b) as a period in time	SEEDED from auto-parse; not yet hand-reviewed.
+160875	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. acc.	day	Adverbial accusative of duration after lk (EUPT); compare the repeated day-count in III:2–12.
+160876	w	w 	w	w	conj.	1) copulative conj.	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160877	ṯn	ṯn 	ṯn(II)/	ṯn (II)	num. m. sg. abs. acc.	second	Ordinal in the day-count; DULAT ṯn II and EUPT Ordinalzahl Akk. m. sg.
+160878	ṯlṯ	ṯlṯ  	ṯlṯ(II)/	ṯlṯ (II)	num. m. sg. abs. acc.	third	Ordinal in the day-count; DULAT ṯlṯ II and EUPT ṯāliṯa.
+160879	rbˤ	rbʿ 	rbˤ/	rbʕ	num.	fourth	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160880	ym	ym	ym(I)/	ym (I)	n. m. sg. abs. acc.	day	Adverbial accusative in rbˤ ym 'a fourth day' (EUPT).
 # KTU 1.14 III:3							
-160881	ḫmš	ḫmš  	ḫmš(I)/	ḫmš (I)	num.	five	SEEDED from auto-parse; not yet hand-reviewed.
-160882	ṯdṯ	ṯdṯ  	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	SEEDED from auto-parse; not yet hand-reviewed.
-160883	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	SEEDED from auto-parse; not yet hand-reviewed.
-160884	mk	mk  	mk(II)	mk (II)	deictic functor	behold!	SEEDED from auto-parse; not yet hand-reviewed.
-160885	špšm	špšm	špš/~m	špš	n. f. sg. abs. nom.	sun	SEEDED from auto-parse; not yet hand-reviewed.
+160881	ḫmš	ḫmš  	ḫmš(I)/	ḫmš (I)	num.	five	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160882	ṯdṯ	ṯdṯ  	ṯdṯ/	ṯdṯ	num. m. sg. abs. acc.	sixth	Ordinal in the day-count (DULAT adj./num.; EUPT Akk. m. sg.).
+160883	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. acc.	day	Adverbial accusative of duration (EUPT).
+160884	mk	mk  	mk(II)	mk (II)	deictic functor	behold!	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160885	špšm	špšm	špš/~m	špš	n. f. sg. abs. + encl. -m	sun	Temporal locative špšm 'on that day', with enclitic -m (Martijn/Tania; EUPT Lok. f. sg.); CUC has no locative-case POS token.
 # KTU 1.14 III:4							
-160886	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-160887	šbˤ	šbʿ  	šbˤ(I)/	šbʕ (I)	num.	seven	SEEDED from auto-parse; not yet hand-reviewed.
-160888	yw	[[y]]w  	yw/	yw	DN sg. abs. nom.	alternative (ancient?) name of the god ym	SEEDED from auto-parse; not yet hand-reviewed.
-160889	tmġy	tmġy  	!t!mġy[	/m-ġ-y/	vb G prefc. 3 f. sg.	to come, arrive	SEEDED from auto-parse; not yet hand-reviewed.
-160890	l	l 	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160891	udm	udm	udm/	ủdm	TN sg. abs. gen.	ủdm	SEEDED from auto-parse; not yet hand-reviewed.
+160886	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160887	šbˤ	šbʿ  	šbˤ(I)/	šbʕ (I)	num. m. sg. abs. gen.	seventh	Temporal b šbˤ 'on the seventh (day)' (DULAT; EUPT šābiˤi).
+160888	yw	[[y]]w  	&yw	yw	DN m. sg. abs. nom.	Yaw, alternative name of Yamm	The first y is editorially erased in TF; Martijn/Tania retain the written form with &yw. Yaw is the subject of tmġy.
+160889	tmġy	tmġy  	!t=!mġy[	/m-ġ-y/	vb G prefc. 2 m. sg.	to come, arrive	DULAT translates w tmġy l udm 'you will arrive at Udum'; EUPT likewise G-PKL 2 m. sg. The legacy note's '2pl' is incompatible with the unmarked ending.
+160890	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160891	udm	udm	udm/	ủdm	TN sg. abs. gen.	ủdm	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
 # KTU 1.14 III:5							
-160892	rbm	rbm   	rb(I)/m	rb (I)	adj. f. pl. abs. nom.	great	SEEDED from auto-parse; not yet hand-reviewed.
-160893	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160894	l	l  	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160895	udm	udm  	udm/	ủdm	TN sg. abs. gen.	ủdm	SEEDED from auto-parse; not yet hand-reviewed.
-160896	ṯrrt	ṯrrt	ṯrr(t/t	ṯrrt	adj. f. sg. abs. nom.	powerful	SEEDED from auto-parse; not yet hand-reviewed.
+160892	rbm	rbm   	rb(I)/(t&m	rb (I)	adj. f. sg. abs. gen.	great	Surface rbm is a scribal m for expected feminine rbt (Martijn/Tania); it agrees with Udum after l.
+160893	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160894	l	l  	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160895	udm	udm  	udm/	ủdm	TN sg. abs. gen.	ủdm	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160896	ṯrrt	ṯrrt	ṯrr(t/t	ṯrrt	adj. f. sg. abs. gen.	powerful	Genitive after l and in agreement with Udum (EUPT Gen. f. sg.).
 # KTU 1.14 III:6							
-160897	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160898	grnn	gr{.}nn    	!!gr[/nn	/g-r(-y)/	vb G inf.	to attack	SEEDED from auto-parse; not yet hand-reviewed.
-160899	ˤrm	ʿrm  	ˤr(I)/~m	ʕr (I)	n. f. sg. abs. nom.	city	SEEDED from auto-parse; not yet hand-reviewed.
-160900	šrn	šrn	šr(II)[n	/š-r/ (II)	vb G suffc.	1) to threaten > to trap > to besiege > enemy > feindlich	SEEDED from auto-parse; not yet hand-reviewed.
+160897	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160898	grnn	gr{.}nn    	!!gr(y[:d~nn	/g-r(-y)/	vb D impv. m. sg. + energic -nn	to attack	Primary EUPT D imperative; Martijn/Tania identify gr + separately written nn as one energized form. EUPT further sees a fused 3 f. sg. object suffix, which -nn does not distinguish securely.
+160898	grnn	gr{.}nn    	!!gr(y[~nn	/g-r(-y)/	vb G impv. m. sg. + energic -nn	to attack	Alt. DULAT G-stem in the direct attestation 'attack the cities'.
+160899	ˤrm	ʿrm  	ˤr(I)/m	ʕr (I)	n. f. pl. abs. acc.	city	Primary Martijn/Tania and DULAT plural 'cities', object of grnn.
+160899	ˤrm	ʿrm  	ˤr(I)/~m	ʕr (I)	n. f. sg. abs. acc. + encl. -m	city	Alt. EUPT ˤîrama, Akk. f. sg. with emphatic -m.
+160900	šrn	šrn	!!šr(II)[~n	/š-r/ (II)	vb G impv. m. sg. + energic -n	to besiege	Martijn/Tania imperative 'besiege' with energic -n; DULAT cites /š-r/ II for this clause. The older ~n(I) notation is normalized to canonical ~n.
 # KTU 1.14 III:7							
-160901	pdrm	pdrm  	pdr(I)/m	pdr (I)	n. m. pl. cstr. nom.	town	SEEDED from auto-parse; not yet hand-reviewed.
-160902	sˤt	sʿt  	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. gen.	to sweep, remove	SEEDED from auto-parse; not yet hand-reviewed.
-160903	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-160904	šdm	šdm	šd(I)/m	šd (I)	n. m. pl. cstr. gen.	2) stretch of cultivated land	SEEDED from auto-parse; not yet hand-reviewed.
+160901	pdrm	pdrm  	pdr(I)/m	pdr (I)	n. m. pl. abs. acc.	town	DULAT and Martijn/Tania read plural 'towns'; EUPT's feminine dual conflicts with DULAT's masculine lexeme.
+160902	sˤt	sʿt  	sˤ[/t=	/s-ʕ/	vb G pass. ptcpl. f. pl. abs. nom.	to sweep, remove	Primary Martijn/Tania passive participle predicated of pdrm; /t= is the feminine plural formative.
+160902	sˤt	sʿt  	sˤ[t===	/s-ʕ/	vb G suffc. 3 f. sg.	to sweep, remove	Alt. EUPT G-SK 3 f. sg. saˤât.
+160903	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160904	šdm	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	cultivated field	Object of b in b šdm 'from/in the fields'; plural -m (DULAT; Martijn/Tania).
 # KTU 1.14 III:8							
-160905	ḥṭbh	ḥṭbh   	ḥṭb(t/+h	ḥṭbt	n. f. cstr. gen.	(female) wood-cutter	SEEDED from auto-parse; not yet hand-reviewed.
-160906	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-160907	grnt	grnt  	grn(I)/t	grn (I)	n. f. sg. cstr. gen.	1) threshing-floor a) b grn yḫrb on the threshing-floor (the harvest) had withered	SEEDED from auto-parse; not yet hand-reviewed.
-160908	ḥpšt	ḥpšt	ḥpšt/	ḥpšt	n. f. pl. cstr. gen.	woman gathering (straw)	b grnt ḥpšt 'from the threshing-floors, those gathering (straw)' (DULAT ḥpšt, pl. ḥpšt, s.v. 1.14 III:8). EUPT instead analyses it as a G active participle, ḥāpiš(a)tu G-Ptz.akt. Nom.f.Sg.; no verbal root /ḥ-p-š/ exists in DULAT, so the participle reading is recorded here rather than encoded.
+160905	ḥṭbh	ḥṭbh   	ḥṭb&h[/(t=	?	vb G act. ptcpl. f. pl. abs. nom.	to cut wood	Primary Martijn/Tania active participle used as an agent noun; written h is explicit and /t= supplies the feminine plural. DULAT lexicalizes the occupation rather than supplying a verbal root.
+160905	ḥṭbh	ḥṭbh   	ḥṭb&h[/(t	?	vb G act. ptcpl. f. sg. abs. nom.	to cut wood	Alt. EUPT translation and commentary: singular feminine participle 'the woman who gathers wood'; written h replaces the expected ending t.
+160905	ḥṭbh	ḥṭbh   	ḥṭb(t/&h	ḥṭbt	n. f. pl. abs. nom.	wood-cutter	Alt. DULAT lexical noun ḥṭbt, with written h for expected lexical t.
+160906	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160907	grnt	grnt  	grn(I)/t=	grn (I)	n. f. pl. abs. gen.	threshing-floor	Plural after b (Martijn/Tania /t=; EUPT guranāti Gen. f. pl.); DULAT permits masculine and feminine gender.
+160908	ḥpšt	ḥpšt	ḥpšt/	ḥpšt	n. f. pl. cstr. gen.	woman gathering straw	Primary DULAT lexical noun in b grnt ḥpšt 'from the threshing-floors, those gathering straw'.
+160908	ḥpšt	ḥpšt	ḥpš[/t=	?	vb G act. ptcpl. f. pl. abs. nom.	to gather straw	Alt. Martijn/Tania participle used as an agent noun. EUPT agrees on participial POS but vocalizes feminine singular; DULAT lacks this verbal root.
+160908	ḥpšt	ḥpšt	ḥpš[/t	?	vb G act. ptcpl. f. sg. abs. nom.	to gather straw	Alt. EUPT ḥāpišatu, singular feminine active participle 'the woman who gathers straw'.
 # KTU 1.14 III:9							
-160909	sˤt	sʿt  	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. abs. gen.	to sweep	SEEDED from auto-parse; not yet hand-reviewed.
-160910	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-160911	npk	n<p>k    	npk(I)/	nb/pk (I)	n. m. sg. cstr. gen.	fountain	SEEDED from auto-parse; not yet hand-reviewed.
-160912	šibt	šibt  	šibt/	šỉbt	n. f. pl. abs. gen.	water bearer	DULAT analyzes šibt as the noun šỉbt 'water bearer'. The legacy Martijn/Tania parse and EUPT instead take šāˀib(a)tu as a G active participle f. sg.; no DULAT attestation links this surface to /š-ʔ-b/, so the verbal reading is preserved here but not encoded as a separate alternative.
-160913	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-160914	bqr	bqr 	bqr/	m/bqr	n. m. sg. cstr. gen.	spring	SEEDED from auto-parse; not yet hand-reviewed.
+160909	sˤt	sʿt  	sˤ[/t=	/s-ʕ/	vb G pass. ptcpl. f. pl. abs. nom.	to sweep	Primary Martijn/Tania passive participle, parallel to III:7.
+160909	sˤt	sʿt  	sˤ[t===	/s-ʕ/	vb G suffc. 3 f. sg.	to sweep	Alt. EUPT G-SK 3 f. sg. saˤât.
+160910	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160911	npk	n<p>k    	npk(I)/	nb/pk (I)	n. m. sg. abs. gen.	fountain	Genitive after b; DULAT nb/pk I and Martijn/Tania npk(I)/.
+160912	šibt	šibt  	šibt/	šỉbt	n. f. pl. abs. gen.	water bearer	Primary DULAT lexical noun šỉbt.
+160912	šibt	šibt  	š(ʔ&ib[/t=	/š-ʔ-b/	vb G act. ptcpl. f. pl. abs. nom.	to draw water	Alt. Martijn/Tania active participle used as an agent noun; EUPT agrees on participial POS but vocalizes feminine singular.
+160912	šibt	šibt  	š(ʔ&ib[/t	/š-ʔ-b/	vb G act. ptcpl. f. sg. abs. nom.	to draw water	Alt. EUPT šāʔibatu, singular feminine active participle 'the woman who draws water'.
+160913	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160914	bqr	bqr 	bqr/	m/bqr	n. m. sg. abs. gen.	spring	Genitive after b; DULAT m/bqr and Martijn/Tania note bqr as the variant of mqr.
 # KTU 1.14 III:10							
-160915	mmlat	mmlat  	mmlat[/	/m-l-ʔ/	vb D act. ptcpl. m. sg. abs. gen.	to fill (up)	SEEDED from auto-parse; not yet hand-reviewed.
+160915	mmlat	mmlat  	!m!ml(ʔ&a[:d/t=	/m-l-ʔ/	vb D act. ptcpl. f. pl. abs. nom.	to fill	Primary Martijn/Tania D active participle used as an agent noun; /t= marks feminine plural. The legacy trailing :d is normalized before the ending.
+160915	mmlat	mmlat  	!m!ml(ʔ&a[:d/t	/m-l-ʔ/	vb D act. ptcpl. f. sg. abs. nom.	to fill	Alt. EUPT mumalliʔatu, D active participle feminine singular; D marker precedes the ending.
 160916	dm	dm  	!!dm[	/d-m/	vb G impv. 2 m. sg.	to remain still	dm ym w ṯn 'keep still one day and a second'. Verb, not dm (II) 'blood': DULAT /d-m/ 'to remain still' cites 'dm ym w ṯn' s.v. 1.14 III:10; EUPT 'dum yôma wa ṯānâ' / 'Verhalte dich ruhig', morph G-Imp. 2.m.Sg. (lemma dmm).
-160917	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	SEEDED from auto-parse; not yet hand-reviewed.
-160918	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160919	ṯn	ṯn	ṯn(I)/	ṯn (I)	num.	two	SEEDED from auto-parse; not yet hand-reviewed.
+160917	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. acc.	day	Adverbial accusative after dm 'remain still' (EUPT).
+160918	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160919	ṯn	ṯn	ṯn(II)/	ṯn (II)	num. m. sg. abs. acc.	second	Ordinal in dm ym w ṯn 'remain still one day and a second' (DULAT direct attestation).
 # KTU 1.14 III:11							
-160920	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num.	three	SEEDED from auto-parse; not yet hand-reviewed.
-160921	rbˤ	rbʿ  	rbˤ/	rbʕ	num.	fourth	SEEDED from auto-parse; not yet hand-reviewed.
-160922	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	SEEDED from auto-parse; not yet hand-reviewed.
+160920	ṯlṯ	ṯlṯ  	ṯlṯ(II)/	ṯlṯ (II)	num. m. sg. abs. acc.	third	Ordinal continuation of the day-count.
+160921	rbˤ	rbʿ  	rbˤ/	rbʕ	num. m. sg. abs. acc.	fourth	Ordinal continuation of the day-count.
+160922	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. acc.	day	Adverbial accusative in rbˤ ym 'a fourth day' (EUPT).
 160923	ymš	ymš 	&y(ḫmš(I)/	ḫmš (I)	num.	five	Scribal y for expected ḫ: the day sequence continues ṯlṯ 'three', rbˤ 'four', ymš = ḫmš 'five', ṯdṯ 'six'. The legacy Martijn/Tania parse gives &y(ḫmš/ and marks a scribal error.
 # KTU 1.14 III:12							
-160924	ṯdṯ	ṯdṯ  	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	SEEDED from auto-parse; not yet hand-reviewed.
-160925	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	SEEDED from auto-parse; not yet hand-reviewed.
-160926	ḥẓk	ḥẓk  	ḥẓ/+k	ḥẓ	n. m. cstr. gen.	1) arrow b) ḫẓk ảl tšʕl qrth do not shoot your arrows against the city	SEEDED from auto-parse; not yet hand-reviewed.
-160927	al	al  	al(I)	ảl (I)	neg. functor	no	SEEDED from auto-parse; not yet hand-reviewed.
+160924	ṯdṯ	ṯdṯ  	ṯdṯ/	ṯdṯ	num. m. sg. abs. acc.	sixth	Ordinal continuation of the day-count (DULAT; EUPT).
+160925	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. acc.	day	Adverbial accusative of duration (EUPT).
+160926	ḥẓk	ḥẓk  	ḥẓ/+k	ḥẓ	n. m. pl. cstr. acc. + 2 m. sg. suff.	arrow	Object in ḥẓk al tšˤl 'do not shoot your arrows' (DULAT; EUPT Akk. m. pl. with suffix).
+160927	al	al  	al(I)	ảl (I)	neg. functor	no	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
 160928	tšˤl	tšʿl	!t!]š]ˤl(y[	/ʕ-l-y/	vb Š prefc. 2 m. sg.	to raise, shoot	ḥẓk al tšˤl qrth 'do not shoot your arrows against the city'. The legacy Martijn/Tania parse identifies the prefix-conjugation verb; DULAT cites this clause under /ʕ-l-y/ at CAT 1.14 III:12, and the Š-stem encoding follows tšˤly in reviewed KTU 1.5 and 1.6.
 # KTU 1.14 III:13							
-160929	qrth	qrth  	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. nom.	1) city	SEEDED from auto-parse; not yet hand-reviewed.
+160929	qrth	qrth  	qr(t(I)/t~h	qrt (I)	n. f. sg. abs. acc. + dir. -h	city	Directive qrth 'toward/against the city' (Martijn/Tania; EUPT Term. f. sg.), not a possessive suffix.
 160930	abnydk	abn .ydk	abn/ yd(I)/+k	ảbn, yd (I)	n. f. pl. cstr. nom., n. f. sg. cstr. gen. + 2 m. sg. suff.	stone, hand	Two words joined in one TF token despite the divider: abn + ydk. The legacy Martijn/Tania parsing gives abn/ and yd/+k; DULAT cites ảbn ydk mšdpt 'the stones thrown by your hand' at CAT 1.14 III:13.
 # KTU 1.14 III:14							
-160931	mšdpt	mšdpt  	mšdpt[/	/n-d-p/	vb Š act. ptcpl. m. sg. abs. nom.	to throw	SEEDED from auto-parse; not yet hand-reviewed.
-160932	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160933	hn	hn  	hn	hn	functor	1) as a deictic functor	SEEDED from auto-parse; not yet hand-reviewed.
-160934	špšm	špšm	špš/~m	špš	n. f. sg. abs. nom.	sun	SEEDED from auto-parse; not yet hand-reviewed.
+160931	mšdpt	mšdpt  	!m!]š](ndp[/t	/n-d-p/	vb Š act. ptcpl. f. sg. abs. gen.	to throw	Feminine Š active participle modifying abn 'stones thrown by your hand' (Martijn/Tania; EUPT Gen. f. sg.).
+160932	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160933	hn	hn  	hn	hn	functor	1) as a deictic functor	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160934	špšm	špšm	špš/~m	špš	n. f. sg. abs. + encl. -m	sun	Temporal locative with enclitic -m, parallel to 160885 (Martijn/Tania; EUPT); CUC has no locative-case POS token.
 # KTU 1.14 III:15							
-160935	b	b 	b	b	prep.	2) temporal situation a) time when something happens	SEEDED from auto-parse; not yet hand-reviewed.
-160936	šbˤ	šbʿ  	šbˤ(I)/	šbʕ (I)	num.	seven	SEEDED from auto-parse; not yet hand-reviewed.
-160937	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160938	l	l  	l(II)	l (II)	adv.	no	SEEDED from auto-parse; not yet hand-reviewed.
-160939	yšn	yšn  	!y!(yšn[	/y-š-n/	vb G prefc. 3 m. sg.	to sleep, fall asleep	SEEDED from auto-parse; not yet hand-reviewed.
-160940	pbl	pbl	pbl/	pbl	PN sg. cstr. nom.	pbl	SEEDED from auto-parse; not yet hand-reviewed.
+160935	b	b 	b	b	prep.	2) temporal situation a) time when something happens	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160936	šbˤ	šbʿ  	šbˤ(I)/	šbʕ (I)	num. m. sg. abs. gen.	seventh	Temporal b šbˤ 'on the seventh'; DULAT numerical reading retained over EUPT's substantivized noun tag.
+160937	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160938	l	l  	l(II)	l (II)	adv.	no	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160939	yšn	yšn  	!y!(yšn[	/y-š-n/	vb G prefc. 3 m. sg.	to sleep, fall asleep	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160940	pbl	pbl	pbl/	pbl	PN m. sg. abs. nom.	Pabilu	Subject of l yšn 'could not sleep' (DULAT direct attestation).
 # KTU 1.14 III:16							
-160941	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	SEEDED from auto-parse; not yet hand-reviewed.
-160942	l	l 	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160943	qr	qr  	qr(II)/	qr (II)	n. m. sg. cstr. gen.	noise	SEEDED from auto-parse; not yet hand-reviewed.
-160944	ṯigt	ṯigt 	ṯig(t/t	ṯỉgt	n. f. sg. cstr. gen.	neighing	SEEDED from auto-parse; not yet hand-reviewed.
-160945	ibrh	ibrh	ibr(I)/+h	ỉbr (I)	n. m. cstr. gen.	2) horse	SEEDED from auto-parse; not yet hand-reviewed.
+160941	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	Apposition to Pabilu and subject of the following auditory clauses (EUPT Nom. m. sg.).
+160942	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160943	qr	qr  	qr(II)/	qr (II)	n. m. sg. cstr. gen.	noise	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160944	ṯigt	ṯigt 	ṯig(t/t	ṯỉgt	n. f. sg. cstr. gen.	neighing	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160945	ibrh	ibrh	ibr(I)/+h	ỉbr (I)	n. m. pl. cstr. gen. + 3 m. sg. suff.	bull, stallion	EUPT translation takes 'his bulls' as primary and 'stallions' as an alternative because ibrh parallels his donkeys; DULAT ỉbr I covers the bovine reading and also records the equid proposal.
 # KTU 1.14 III:17							
-160946	l	l 	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160947	ql	ql  	ql(I)/	ql (I)	n. m. sg. cstr. gen.	3) roar	SEEDED from auto-parse; not yet hand-reviewed.
-160948	nhqt	nhqt  	nhq(t/t	nhqt	n. f. sg. cstr. gen.	braying	SEEDED from auto-parse; not yet hand-reviewed.
-160949	ḥmrh	ḥmrh	ḥmr(I)/h	ḥmr (I)	n. m. abs. gen.	1) donkey b) hearing nqht ḥmrh the braying of his donkey	SEEDED from auto-parse; not yet hand-reviewed.
+160946	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160947	ql	ql  	ql(I)/	ql (I)	n. m. sg. cstr. gen.	3) roar	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160948	nhqt	nhqt  	nhq(t/t	nhqt	n. f. sg. cstr. gen.	braying	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160949	ḥmrh	ḥmrh	ḥmr(I)/+h	ḥmr (I)	n. m. pl. cstr. gen. + 3 m. sg. suff.	donkey	Suffixed construct 'the braying of his donkeys' (EUPT; DULAT direct phrase).
 # KTU 1.14 III:18							
-160950	l	l 	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160951	gˤt	gʿt  	gˤ(t/t	gʕt	n. f. sg. cstr. gen.	bellowing	SEEDED from auto-parse; not yet hand-reviewed.
-160952	alp	alp  	alp(I)/	ảlp (I)	n. m. sg. cstr. gen.	2) “bullock”	SEEDED from auto-parse; not yet hand-reviewed.
-160953	ḥrṯ	ḥrṯ  	ḥrṯ[/	/ḥ-r-ṯ/	vb G act. ptcpl. m. sg. cstr. gen.	to plough, till, farm the land	SEEDED from auto-parse; not yet hand-reviewed.
-160954	zġt	zġt	zġ(t/t	zġt	n. f. sg. cstr. gen.	howl	SEEDED from auto-parse; not yet hand-reviewed.
+160950	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160951	gˤt	gʿt  	gˤ(t/t	gʕt	n. f. sg. cstr. gen.	bellowing	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160952	alp	alp  	alp(I)/	ảlp (I)	n. m. pl. cstr. gen.	bullock	EUPT vocalizes a plural construct in 'the bellowing of the ploughman's cattle'; DULAT ảlp I.
+160953	ḥrṯ	ḥrṯ  	ḥrṯ/	ḥrṯ	n. m. sg. abs. gen.	ploughman	Primary DULAT noun 'ploughman/farmhand', dependent on alp.
+160953	ḥrṯ	ḥrṯ  	ḥrṯ[/	/ḥ-r-ṯ/	vb G act. ptcpl. m. sg. abs. gen.	to plough	Alt. Martijn/Tania active participle used as an agent noun.
+160954	zġt	zġt	zġ(t/t	zġt	n. f. sg. cstr. gen.	howl	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
 # KTU 1.14 III:19							
-160955	klb	klb  	klb(I)/	klb (I)	n. m. sg. cstr. gen.	dog	SEEDED from auto-parse; not yet hand-reviewed.
-160956	ṣpr	ṣpr  	ṣpr(I)/	ṣpr (I)	n. m. sg. abs. gen.	bird	SEEDED from auto-parse; not yet hand-reviewed.
-160957	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160958	ylak	ylak	!y!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 3 m. sg.	to send (a message)	SEEDED from auto-parse; not yet hand-reviewed.
+160955	klb	klb  	klb(I)/	klb (I)	n. m. pl. cstr. gen.	dog	EUPT vocalizes plural construct kalabī in 'the howl of the dogs'; DULAT klb.
+160956	ṣpr	ṣpr  	ṣpr(I)/	ṣpr (I)	n. m. sg. abs. gen.	bird	Construct phrase klb ṣpr, literally 'bird-dogs'; EUPT interprets hunting/watchdogs but notes that the etymology of ṣpr is insecure. DULAT retains ṣpr I 'bird'.
+160957	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160958	ylak	ylak	!y!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 3 m. sg.	to send (a message)	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
 # KTU 1.14 III:20							
-160959	mlakm	mlakm  	mlak/m	mlảk	n. m. pl. abs. nom.	messenger	SEEDED from auto-parse; not yet hand-reviewed.
-160960	lk	lk  	l(I)+k	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160961	ˤm	ʿm  	ˤm(I)	ʕm (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160962	krt	krt	krt/	krt	PN sg. cstr. gen.	krt	SEEDED from auto-parse; not yet hand-reviewed.
+160959	mlakm	mlakm  	mlak/m	mlảk	n. m. du. abs. acc.	messenger	Direct object of ylak; EUPT malʔakêma Akk. m. dual.
+160960	lk	lk  	l(I)+k	l (I)	prep. + 2 m. sg. suff.	to you	Suffixed preposition (Martijn/Tania).
+160961	ˤm	ʿm  	ˤm(I)	ʕm (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160962	krt	krt	krt/	krt	PN m. sg. abs. gen.	Kirta	Object of ˤm 'to/with' (Martijn/Tania; DULAT).
 # KTU 1.14 III:21							
-160963	mswnh	mswnh  	mswn/+h	mswn	n. m. cstr. gen.	delegate	SEEDED from auto-parse; not yet hand-reviewed.
-160964	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. abs. nom.	message	SEEDED from auto-parse; not yet hand-reviewed.
-160965	pblmlk	pbl .mlk	pbl/ mlk(I)/	pbl, mlk (I)	PN sg. cstr. gen., n. m. sg. abs. gen.	Pabilu, king	Two words joined in one TF token despite the divider: pbl + mlk. The legacy Martijn/Tania parsing supplies both analyses; DULAT cites tḥm pbl mlk 'message of Pabilu, the king' at CAT 1.14 III:21.
+160963	mswnh	mswnh  	mswn/+h	mswn	n. m. sg. cstr. acc. + 3 m. sg. suff.	delegate	Suffixed object/apposition 'his delegate' (EUPT Akk. m. sg. construct).
+160964	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	Construct in tḥm pbl mlk 'message of Pabilu, the king' (DULAT; EUPT).
+160965	pblmlk	pbl .mlk	pbl/ mlk(I)/	pbl, mlk (I)	PN m. sg. abs. gen., n. m. sg. abs. gen.	Pabilu, king	Two words joined in one TF token despite the divider: pbl + mlk. DULAT cites tḥm pbl mlk 'message of Pabilu, the king'.
 # KTU 1.14 III:22							
-160966	qḥ	qḥ  	!!(lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of, take, grasp	SEEDED from auto-parse; not yet hand-reviewed.
-160967	ksp	ksp  	ksp/	ksp	n. m. sg. abs. nom.	1) silver a) 4.738	SEEDED from auto-parse; not yet hand-reviewed.
-160968	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160969	yrq	yrq  	yrq/	yrq	n. m. sg. cstr. nom.	greenish yellow (a metal / gold)	SEEDED from auto-parse; not yet hand-reviewed.
-160970	ḫrṣ	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. gen.	1) gold g) greenish yellow (a metal / gold)	SEEDED from auto-parse; not yet hand-reviewed.
+160966	qḥ	qḥ  	!!(lqḥ[	/l-q-ḥ/	vb G impv. m. sg.	to take	Imperative introducing the ransom list (Martijn/Tania; DULAT; EUPT).
+160967	ksp	ksp  	ksp/	ksp	n. m. sg. abs. acc.	silver	Direct object of qḥ; parallel to 160679/160681.
+160968	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160969	yrq	yrq  	yrq/	yrq	n. m. sg. cstr. acc.	greenish-yellow metal/gold	yrq ḫrṣ 'yellow gold', construct expression coordinated with ksp (DULAT; EUPT).
+160970	ḫrṣ	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. acc.	gold	Genitive semantics inside yrq ḫrṣ, but the whole unmarked object phrase is accusative as in the parallel at I:52–II:1.
 # KTU 1.14 III:23							
-160971	yd	yd  	yd(I)/	yd (I)	n. f. sg. cstr. gen.	5) used as a preposition	SEEDED from auto-parse; not yet hand-reviewed.
-160972	mqmh	mqmh  	mqm/+h	mqm	n. m. sg. cstr. gen.	place	SEEDED from auto-parse; not yet hand-reviewed.
-160973	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160974	ˤbdˤlm	ʿbd .ʿlm	ˤbd(I)/ ˤlm(I)/	ʕbd (I), ʕlm (I)	n. m. sg. abs. nom., n. m. sg. abs. nom.	servant, eternity	Two words joined in one TF token despite the divider: ˤbd + ˤlm. The legacy Martijn/Tania parsing supplies both nouns; DULAT cites ʕbd ʕlm 'slaves in perpetuity' at CAT 1.14 III:23.
+160971	yd	yd  	yd(I)/	yd (I)	n. f. sg. cstr. acc.	together with	Grammaticalized yd I: DULAT translates yrq ḫrṣ yd mqmh 'yellow gold together with its source'; EUPT labels it a preposition.
+160972	mqmh	mqmh  	mqm/+h	mqm	n. m. sg. cstr. gen. + 3 m. sg. suff.	place, source	'Its source/place', parallel to 160683.
+160973	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160974	ˤbdˤlm	ʿbd .ʿlm	ˤbd(I)/ ˤlm(I)/	ʕbd (I), ʕlm (I)	n. m. sg. cstr. acc., n. m. sg. abs. gen.	servant, eternity	Two joined words: ˤbd ˤlm 'a perpetual slave', direct object in the ransom list; parallel to II:2.
 # KTU 1.14 III:24							
-160975	ṯlṯ	ṯlṯ  	ṯlṯ(III)/	ṯlṯ (III)	n. m. pl. cstr. nom.	charioteer	SEEDED from auto-parse; not yet hand-reviewed.
-160976	sswm	sswm  	ssw/m	s:śs/św	n. f. pl. cstr. gen.	1) horse b) ṯlṯ sswm mrkbt charioteers of a chariot	SEEDED from auto-parse; not yet hand-reviewed.
-160977	mrkbt	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. gen.	1) (light war) chariot c) bt mrkbt workshop of chariots	SEEDED from auto-parse; not yet hand-reviewed.
+160975	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num. m. sg. abs. acc.	three	Primary EUPT and context-labeling Workbook VII reading 'three horses', matching the parallel ransom list in II:2–3.
+160975	ṯlṯ	ṯlṯ  	ṯlṯ(III)/	ṯlṯ (III)	n. m. pl. cstr. acc.	charioteer	Alt. current DULAT direct attestation: ṯlṯ sswm mrkbt 'charioteers of a chariot'.
+160976	sswm	sswm  	ssw/m	s:śs/św	n. m. pl. abs. acc.	horse	Primary EUPT/context-labeling cardinal phrase 'three horses'; masculine plural accusative.
+160976	sswm	sswm  	ssw/m	s:śs/św	n. m. pl. cstr. acc.	horse	Alt. construct state under DULAT's occupational reading ṯlṯ sswm mrkbt 'charioteers of a chariot'.
+160977	mrkbt	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. acc.	chariot	Primary EUPT translation/morphology and current DULAT: one chariot in the ransom list.
+160977	mrkbt	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. acc.	chariot	Alt. Martijn/Tania plural ending /t=, matching the plural reading adopted in the parallel at II:3.
 # KTU 1.14 III:25							
-160978	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-160979	trbṣ	trbṣ  	trbṣ/	trbṣ	n. m. sg. abs. gen.	yard	SEEDED from auto-parse; not yet hand-reviewed.
-160980	bn	bn  	b+n	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-160981	amt	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	SEEDED from auto-parse; not yet hand-reviewed.
+160978	b	b 	b	b	prep.	from	b trbṣ 'from the stable', parallel to II:3.
+160979	trbṣ	trbṣ  	trbṣ/	trbṣ	n. m. sg. cstr. gen.	yard, stable	Construct after b and before bn amt; parallel to 160691.
+160980	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	bn amt 'son of a slave-woman' (DULAT direct attestation), not b + enclitic n.
+160981	amt	amt	am(t(I)/t	ảmt (I)	n. f. sg. abs. gen.	female slave	Genitive complement of bn; noun, not /m-t/ 'die'.
 # KTU 1.14 III:26							
-160982	qḥ	qḥ  	!!(lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of, take, grasp	SEEDED from auto-parse; not yet hand-reviewed.
-160983	krt	krt  	krt/	krt	PN sg. cstr. nom.	krt	SEEDED from auto-parse; not yet hand-reviewed.
-160984	šlmm	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. gen.	communion victim / sacrifice	SEEDED from auto-parse; not yet hand-reviewed.
+160982	qḥ	qḥ  	!!(lqḥ[	/l-q-ḥ/	vb G impv. m. sg.	to take	Imperative, with Kirta as vocative.
+160983	krt	krt  	krt/	krt	PN m. sg. abs. nom.	Kirta	Vocative addressee of qḥ.
+160984	šlmm	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. acc.	communion sacrifice	Plural object with -m (Martijn/Tania; EUPT Akk. m. pl.), not enclitic -m.
 # KTU 1.14 III:27							
-160985	šlmm	šlmm  	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	SEEDED from auto-parse; not yet hand-reviewed.
-160986	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-160987	ng	ng  	!n!(ng[	/n-g(-y)/	vb G impv. 1 c. pl.	to go away, depart	SEEDED from auto-parse; not yet hand-reviewed.
-160988	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king c) legendary heroes	SEEDED from auto-parse; not yet hand-reviewed.
+160985	šlmm	šlmm  	šlm(II)/m	šlm (II)	n. m. pl. abs. acc.	communion sacrifice	Repeated plural object with -m (Martijn/Tania; EUPT).
+160986	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160987	ng	ng  	!!ng(y[	/n-g(-y)/	vb G impv. m. sg.	to depart	Imperative addressed to the king (Martijn/Tania; DULAT; EUPT G-Imp. 2 m. sg.).
+160988	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	Vocative addressee of ng.
 # KTU 1.14 III:28							
-160989	l	l 	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160990	bty	bty  	bt(II)/+y	bt (II)	n. m. cstr. gen.	1) house	SEEDED from auto-parse; not yet hand-reviewed.
-160991	rḥq	rḥq  	rḥq[	/r-ḥ-q/	vb G impv. 2	to go away	SEEDED from auto-parse; not yet hand-reviewed.
-160992	krt	krt	krt/	krt	PN sg. abs. nom.	krt	SEEDED from auto-parse; not yet hand-reviewed.
+160989	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160990	bty	bty  	bt(II)/+y	bt (II)	n. m. sg. cstr. gen. + 1 c. sg. suff.	house	Suffixed bty 'my house' after l.
+160991	rḥq	rḥq  	!!rḥq[	/r-ḥ-q/	vb G impv. m. sg.	to go away	Imperative (Martijn/Tania); DULAT also permits adjectival rḥq 'far', retained in the comment rather than as the clause's primary parse.
+160992	krt	krt	krt/	krt	PN m. sg. abs. nom.	Kirta	Vocative addressee.
 # KTU 1.14 III:29							
-160993	l	l 	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-160994	ḥẓry	ḥẓry  	ḥẓr/+y	ḥẓr	n. m. cstr. gen.	1) mansion	SEEDED from auto-parse; not yet hand-reviewed.
-160995	al	al  	al(I)	ảl (I)	neg. functor	no	SEEDED from auto-parse; not yet hand-reviewed.
-160996	tṣr	tṣr	!t!ṣr[	/ṣ-r(-r)/	vb G prefc.	to besiege	SEEDED from auto-parse; not yet hand-reviewed.
+160993	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160994	ḥẓry	ḥẓry  	ḥẓr/+y	ḥẓr	n. m. sg. cstr. gen. + 1 c. sg. suff.	mansion	Suffixed ḥẓry 'my mansion' after l.
+160995	al	al  	al(I)	ảl (I)	neg. functor	no	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+160996	tṣr	tṣr	!t=!ṣr(r[	/ṣ-r(-r)/	vb G prefc. 2 m. sg.	to besiege	Prohibitive al tṣr 'do not besiege'; geminate root normalized from Martijn/Tania !t!ṣr(r[.
 # KTU 1.14 III:30							
-160997	udm	udm  	udm/	ủdm	TN sg. abs. nom.	ủdm	SEEDED from auto-parse; not yet hand-reviewed.
-160998	rbt	rbt  	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	SEEDED from auto-parse; not yet hand-reviewed.
-160999	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-161000	udm	udm  	udm/	ủdm	TN sg. abs. nom.	ủdm	SEEDED from auto-parse; not yet hand-reviewed.
-161001	ṯrrt	ṯrrt	ṯrr(t/t	ṯrrt	adj. f. sg. abs. nom.	powerful	SEEDED from auto-parse; not yet hand-reviewed.
+160997	udm	udm  	udm/	ủdm	TN f. sg. abs. acc.	Udum	Object of al tṣr (EUPT Akk. f. sg.).
+160998	rbt	rbt  	rb(I)/t	rb (I)	adj. f. sg. abs. acc.	great	Agrees with accusative Udum (EUPT).
+160999	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161000	udm	udm  	udm/	ủdm	TN f. sg. abs. acc.	Udum	Second coordinated object of al tṣr (EUPT).
+161001	ṯrrt	ṯrrt	ṯrr(t/t	ṯrrt	adj. f. sg. abs. acc.	powerful	Agrees with accusative Udum (EUPT).
 # KTU 1.14 III:31							
-161002	udm	udm  	udm/	ủdm	TN sg. abs. nom.	ủdm	SEEDED from auto-parse; not yet hand-reviewed.
-161003	ytnat	ytn[[a]]t    	!y!(ytn[at	/y-t-n/	vb	to give	SEEDED from auto-parse; not yet hand-reviewed.
-161004	il	il  	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	SEEDED from auto-parse; not yet hand-reviewed.
-161005	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-161006	ušn	ušn	ušn/	ủšn	n. m. sg. cstr. nom.	present	SEEDED from auto-parse; not yet hand-reviewed.
+161002	udm	udm  	udm/	ủdm	TN f. sg. abs. nom.	Udum	Subject of the nominal clause 'Udum is the gift of El'.
+161003	ytnat	ytn[[a]]t    	ytn&a(t/t	ytnt	n. f. sg. cstr. nom.	gift	DULAT ytnt 'gift' in ytnt il; Martijn/Tania mark intrusive written a as a scribal error. This is not /y-t-n/ verbal morphology.
+161004	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	El	Genitive complement of ytnt 'gift of El' (DULAT; EUPT).
+161005	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161006	ušn	ušn	ušn/	ủšn	n. m. sg. cstr. nom.	present	Coordinated predicate ušn ab adm 'present of the Father of Man'.
 # KTU 1.14 III:32							
-161007	ab	ab  	ab/	ảb	n. m. sg. cstr. gen.	father	SEEDED from auto-parse; not yet hand-reviewed.
-161008	adm	adm  	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	man	SEEDED from auto-parse; not yet hand-reviewed.
-161009	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-161010	ṯṯb	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2	to send (word), an answer, to answer	SEEDED from auto-parse; not yet hand-reviewed.
+161007	ab	ab  	ab/	ảb	n. m. sg. cstr. gen.	father	Construct in ab adm 'Father of Man'.
+161008	adm	adm  	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	man	Genitive complement in the epithet ab adm.
+161009	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161010	ṯṯb	ṯṯb	!!]ṯ]ṯb[	/ṯ-b/	vb Š impv. m. sg.	to send, answer	Martijn/Tania: ṯ is an assimilated variant of the Š-stem formative; imperative addressed to the messengers.
 # KTU 1.14 III:33							
-161011	mlakm	mlakm  	mlak/m	mlảk	n. m. pl. abs. nom.	messenger	SEEDED from auto-parse; not yet hand-reviewed.
-161012	lh	lh  	l(I)+h	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-161013	lm	lm  	l(I)~m	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-161014	ank	ank	ank	ảnk	pers. pn.	1) i d) with ellipsis of the vb	SEEDED from auto-parse; not yet hand-reviewed.
+161011	mlakm	mlakm  	mlak/m	mlảk	n. m. du. abs. acc.	messenger	Two messengers, direct object/addressee; EUPT Akk. m. dual.
+161012	lh	lh  	l(I)+h	l (I)	prep. + 3 m. sg. suff.	to him	Suffixed preposition lh.
+161013	lm	lm  	lm(II)	lm (II)	interr. pn.	why, what for	DULAT directly cites lm ank 'what do I wish for?'; EUPT translation likewise 'Why should I take silver and gold?' This is interrogative lm II, not l + enclitic m.
+161014	ank	ank	ank	ảnk	pers. pn.	1) i d) with ellipsis of the vb	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
 # KTU 1.14 III:34							
-161015	ksp	ksp 	ksp/	ksp	n. m. sg. abs. nom.	silver	SEEDED from auto-parse; not yet hand-reviewed.
-161016	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-161017	yrq	yrq  	yrq/	yrq	n. m. sg. cstr. nom.	greenish yellow (a metal / gold)	SEEDED from auto-parse; not yet hand-reviewed.
-161018	ḫrṣ	ḫrṣ 	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold g) greenish yellow (a metal / gold)	SEEDED from auto-parse; not yet hand-reviewed.
+161015	ksp	ksp 	ksp/	ksp	n. m. sg. abs. acc.	silver	Direct object, repeating the ransom list.
+161016	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161017	yrq	yrq  	yrq/	yrq	n. m. sg. cstr. acc.	greenish-yellow metal/gold	Construct expression yrq ḫrṣ, parallel to III:22.
+161018	ḫrṣ	ḫrṣ 	ḫrṣ/	ḫrṣ	n. m. sg. abs. acc.	gold	Object phrase, parallel to III:22.
 # KTU 1.14 III:35							
-161019	ydmqmh	yd .mqmh  	yd(I)/ mqm/+h	yd (I), mqm	n. f. sg. cstr. gen., n. m. sg. cstr. gen.	with, place	Two words joined in one TF token despite the divider: yd + mqmh. The legacy Martijn/Tania parsing supplies yd(I)/ and mqm/+h; compare the separately tokenized parallel at 160971–160972.
-161020	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-161021	ˤbd	ʿbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	SEEDED from auto-parse; not yet hand-reviewed.
+161019	ydmqmh	yd .mqmh  	yd(I)/ mqm/+h	yd (I), mqm	n. f. sg. cstr. acc., n. m. sg. cstr. gen. + 3 m. sg. suff.	together with, place	Two joined words, yd + mqmh; grammaticalized yd and suffixed mqm, parallel to 160971–160972.
+161020	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161021	ˤbd	ʿbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. acc.	servant	Object in ˤbd ˤlm 'a perpetual slave'.
 # KTU 1.14 III:36							
-161022	ˤlm	ʿlm  	ˤl(I)~m	ʕl (I)	prep.	upon	SEEDED from auto-parse; not yet hand-reviewed.
-161023	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num.	three	SEEDED from auto-parse; not yet hand-reviewed.
-161024	sswm	sswm  	ssw/m	s:śs/św	n. f. pl. cstr. nom.	horse	SEEDED from auto-parse; not yet hand-reviewed.
-161025	mrkbt	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. gen.	(light war-)chariot	SEEDED from auto-parse; not yet hand-reviewed.
+161022	ˤlm	ʿlm  	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. gen.	eternity	Genitive in ˤbd ˤlm 'slave in perpetuity'; noun, not ˤl + enclitic m.
+161023	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num. m. sg. abs. acc.	three	Primary EUPT and context-labeling Workbook VII cardinal 'three horses', repeating III:24.
+161023	ṯlṯ	ṯlṯ  	ṯlṯ(III)/	ṯlṯ (III)	n. m. pl. cstr. acc.	charioteer	Alt. current DULAT occupational reading.
+161024	sswm	sswm  	ssw/m	s:śs/św	n. m. pl. abs. acc.	horse	Primary EUPT/context-labeling cardinal phrase; masculine plural accusative.
+161024	sswm	sswm  	ssw/m	s:śs/św	n. m. pl. cstr. acc.	horse	Alt. construct state under DULAT's occupational reading.
+161025	mrkbt	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. acc.	chariot	Primary EUPT translation/morphology and current DULAT: one chariot, repeating III:24.
+161025	mrkbt	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. acc.	chariot	Alt. Martijn/Tania plural ending /t=.
 # KTU 1.14 III:37							
-161026	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-161027	trbṣt	trbṣt   	trbṣ/t	trbṣ	n. f. sg. abs. gen.	yard	SEEDED from auto-parse; not yet hand-reviewed.
-161028	bn	bn  	b+n	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-161029	amt	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	SEEDED from auto-parse; not yet hand-reviewed.
+161026	b	b 	b	b	prep.	from	Introduces b trbṣt bn amt, parallel to III:25.
+161027	trbṣt	trbṣt   	trbṣ/&t	trbṣ	n. m. sg. cstr. gen.	yard, stable	Martijn/Tania mark final t as a scribal addition to trbṣ; construct before bn amt.
+161028	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	bn amt 'son of a slave-woman', not b + enclitic n.
+161029	amt	amt	am(t(I)/t	ảmt (I)	n. f. sg. abs. gen.	female slave	Genitive noun, not /m-t/ 'die'.
 # KTU 1.14 III:38							
-161030	p	p 	p(I)	p (I)	conj. functor	and	SEEDED from auto-parse; not yet hand-reviewed.
-161031	d	d  	d	d	det. or rel. functor	3) the one (who / that)	SEEDED from auto-parse; not yet hand-reviewed.
-161032	in	in  	in/	ỉn	n. m. sg. abs. nom.	1) there is/are not	SEEDED from auto-parse; not yet hand-reviewed.
-161033	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-161034	bty	bty  	bt(II)/+y	bt (II)	n. m. cstr. gen.	1) house	SEEDED from auto-parse; not yet hand-reviewed.
-161035	ttn	ttn	!t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give	SEEDED from auto-parse; not yet hand-reviewed.
+161030	p	p 	p(I)	p (I)	conj. functor	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161031	d	d  	d	d	det. or rel. functor	3) the one (who / that)	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161032	in	in  	in/	ỉn	n. m. sg. abs. nom.	lack, absence	DULAT lexical noun ỉn 'lack/absence', functioning as the negative existence expression in d in b bty; EUPT labels it an existence particle.
+161033	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161034	bty	bty  	bt(II)/+y	bt (II)	n. m. cstr. gen.	1) house	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161035	ttn	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give	Second masculine singular addressed to Kirta (EUPT tâtin), not 3 f. sg.
 # KTU 1.14 III:39							
-161036	tn	tn  	(ytn[	/y-t-n/	vb	give	SEEDED from auto-parse; not yet hand-reviewed.
-161037	ly	ly  	l(I)+y	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-161038	mṯt	mṯt  	mṯ(t/t	mṯt	n. f. sg. abs. nom.	damsel	SEEDED from auto-parse; not yet hand-reviewed.
-161039	ḥry	ḥry	ḥr(I)/+y	ḥr (I)	n. m. cstr. nom.	intestine(s)	SEEDED from auto-parse; not yet hand-reviewed.
+161036	tn	tn  	!!(ytn[	/y-t-n/	vb G impv. m. sg.	to give	Imperative tn ly 'give to me' (Martijn/Tania).
+161037	ly	ly  	l(I)+y	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161038	mṯt	mṯt  	mṯ(t/t	mṯt	n. f. sg. abs. acc.	damsel	Direct object of tn (EUPT Akk. f. sg.).
+161039	ḥry	ḥry	ḥry/	ḥry	PN f. sg. abs. acc.	Ḥurriya	Personal name in apposition to mṯt (DULAT; EUPT; context-labeling PN Workbook II), not ḥr 'intestine' + 1 c. sg. suffix.
 # KTU 1.14 III:40							
-161040	nˤmt	nʿmt  	nˤm(t(I)/t	nʕmt (I)	adj. f. sg. abs. nom.	graceful	SEEDED from auto-parse; not yet hand-reviewed.
-161041	špḥ	špḥ  	špḥ/	špḥ	n. m. cstr. nom.	family	SEEDED from auto-parse; not yet hand-reviewed.
-161042	bkrk	bkrk	bkr/+k	bkr	n. m. cstr. gen.	1) first-born	SEEDED from auto-parse; not yet hand-reviewed.
+161040	nˤmt	nʿmt  	nˤm(t(I)/t	nʕmt (I)	adj. f. sg. abs. acc.	graceful	Agrees with accusative mṯt ḥry (EUPT).
+161041	špḥ	špḥ  	špḥ/	špḥ	n. m. sg. abs. acc.	family, clan	Accusative in nˤmt špḥ bkrk 'the most graceful of the clan of your firstborn' (DULAT; EUPT allows m./f.).
+161042	bkrk	bkrk	bkr/+k	bkr	n. m. sg. cstr. acc. + 2 m. sg. suff.	firstborn	Suffixed construct bkrk 'your firstborn' (DULAT direct attestation; EUPT Akk.).
 # KTU 1.14 III:41							
-161043	d	d 	d	d	det. or rel. functor	2) which	SEEDED from auto-parse; not yet hand-reviewed.
-161044	k	k  	k(I)	k (I)	prep.	like	SEEDED from auto-parse; not yet hand-reviewed.
-161045	nˤm	nʿm  	nˤm(II)/	nʕm (II)	n. m. sg. abs. gen.	1) grace	SEEDED from auto-parse; not yet hand-reviewed.
-161046	ˤnt	ʿnt  	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	SEEDED from auto-parse; not yet hand-reviewed.
-161047	nˤmh	nʿmh	nˤm(II)/+h	nʕm (II)	n. m. cstr. nom.	1) grace	SEEDED from auto-parse; not yet hand-reviewed.
+161043	d	d 	d	d	det. or rel. functor	2) which	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161044	k	k  	k(I)	k (I)	prep.	like	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161045	nˤm	nʿm  	nˤm(II)/	nʕm (II)	n. m. sg. cstr. gen.	grace	Construct in k nˤm ˤnt 'like the grace of Anat' (DULAT; EUPT).
+161046	ˤnt	ʿnt  	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	Anat	Genitive complement of nˤm (EUPT GN Gen. f. sg.); context-labeling DN Workbook I independently indexes Anat here.
+161047	nˤmh	nʿmh	nˤm(II)/+h	nʕm (II)	n. m. sg. cstr. nom. + 3 f. sg. suff.	grace	Nominal predicate nˤmh 'her grace'; suffixed nouns take construct-state morphology.
 # KTU 1.14 III:42							
-161048	km	km  	km	km	prep./conj./adv.		SEEDED from auto-parse; not yet hand-reviewed.
-161049	tsm	tsm  	tsm/	tsm	n. m. sg. cstr. gen.	beauty	SEEDED from auto-parse; not yet hand-reviewed.
-161050	ˤṯtrt	ʿṯtrt  	ˤṯtr(t(I)/t	ʕṯtrt (I)	DN f. sg. abs. gen.	ʕAṯtartu/Athtart	km tsm ʕṯtrt tsmh 'like the beauty of Athtart is her beauty'. The goddess, not the toponym ʕṯtrt (II): DULAT glosses this very phrase 'like the beauty of DN is her beauty' s.v. tsm/km at 1.14 III:42, and EUPT tags it GN Gen.f.Sg. (Gottesname). Abs., not cstr. — tsm is the construct head. Same encoding as 154773 etc.
-161051	tsmh	tsmh	tsm/+h	tsm	n. m. cstr. gen.	beauty	SEEDED from auto-parse; not yet hand-reviewed.
+161048	km	km  	km	km	prep./conj./adv.		Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161049	tsm	tsm  	tsm/	tsm	n. m. sg. cstr. gen.	beauty	Construct in km tsm ˤṯtrt 'like the beauty of Athtart'.
+161050	ˤṯtrt	ʿṯtrt  	ˤṯtr(t(I)/t	ʕṯtrt (I)	DN f. sg. abs. gen.	ʕAṯtartu/Athtart	km tsm ʕṯtrt tsmh 'like the beauty of Athtart is her beauty'. The goddess, not toponym ʕṯtrt II: DULAT and EUPT identify the divine name, and context-labeling DN Workbook I indexes Athtart at III:42. Abs., not cstr.; tsm is the construct head.
+161051	tsmh	tsmh	tsm/+h	tsm	n. m. sg. cstr. nom. + 3 f. sg. suff.	beauty	Nominal predicate tsmh 'her beauty' (EUPT Nom. m. sg. St. cs.).
 # KTU 1.14 III:43							
-161052	d	d 	d	d	det. or rel. functor	the one(s) of	SEEDED from auto-parse; not yet hand-reviewed.
-161053	ˤqh	ʿqh  	ˤq/+h	ʕq	n. m. cstr. nom.	pupil	SEEDED from auto-parse; not yet hand-reviewed.
-161054	ib	ib  	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	SEEDED from auto-parse; not yet hand-reviewed.
-161055	iqni	iqni  	iqn(u&i/	ỉqnủ	n. m. abs. nom.	1) gem of lapis lazuli	SEEDED from auto-parse; not yet hand-reviewed.
-161056	ˤpˤph	ʿpʿ[p]h	ˤpˤp/+h	ʕpʕp	n. m. pl. cstr. nom.	eyelid	SEEDED from auto-parse; not yet hand-reviewed.
+161052	d	d 	d	d	det. or rel. functor	the one(s) of	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161053	ˤqh	ʿqh  	ˤq/+h	ʕq	n. m. cstr. nom. + 3 f. sg. suff.	pupil	Suffixed natural-pair noun 'her pupils'; number is not morphographically expressed.
+161054	ib	ib  	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	Construct before iqni: 'gems/fruits of lapis lazuli' (DULAT).
+161055	iqni	iqni  	iqn(u&i/	ỉqnủ	n. m. sg. abs. gen.	lapis-lazuli gem	Genitive complement of ib (EUPT Gen. m. sg.).
+161056	ˤpˤph	ʿpʿ[p]h	ˤpˤp/+h	ʕpʕp	n. m. du. cstr. nom. + 3 f. sg. suff.	eyelid	Natural dual 'her eyelids' (EUPT Nom. m. dual construct).
 # KTU 1.14 III:44							
-161057	sp	sp  	sp/	sp	n. m. sg. cstr. nom.	bowl	SEEDED from auto-parse; not yet hand-reviewed.
-161058	ṯrml	ṯrml  	ṯrml/	ṯrml	n. m. sg. abs. nom.	albâtre	SEEDED from auto-parse; not yet hand-reviewed.
-161059	tḥgrn	tḥgrn  	!t!ḥgr[n	/ḥ-g-r/	vb G prefc.	to gird	SEEDED from auto-parse; not yet hand-reviewed.
-161060	ṯdm	ṯdm	?	?	?	?	Unresolved. The seeded ṯd/+m(I) is wrong — +m(I) is not in the pronominal-suffix inventory — but no reading is securable: DULAT ṯd lists no ṯdm form (sg. ṯd, pl. cstr. ṯd, suff. ṯdh/ṯdn), and colon III:44b is badly broken (EUPT leaves TḤGRN unvocalised; its commentary states the reconstruction is unclear, citing Wyatt 2002: 197 n. 103). A dual 'two breasts' with -m is plausible but unattested in DULAT.
+161057	sp	sp  	sp/	sp	n. m. du. cstr. nom.	bowl	EUPT reads the paired bowls as dual construct.
+161058	ṯrml	ṯrml  	ṯrml/	ṯrml	n. m. sg. abs. gen.	alabaster	Genitive material/complement after sp (EUPT Gen. m. sg.).
+161059	tḥgrn	tḥgrn  	!t!ḥgr[+n	/ḥ-g-r/	vb G prefc. + 3 f. pl. suff.	to gird	Martijn/Tania: subject/person is obscure (3 f. sg. or plural proposed); +n refers to the following breasts. EUPT leaves the form unvocalized.
+161060	ṯdm	ṯdm	ṯd/m	ṯd	n. m. du. abs. acc.	breast	Very obscure. Martijn/Tania analyze dual -m 'two breasts'; DULAT attests ṯd but does not list this dual form, and EUPT leaves the colon unresolved.
 # KTU 1.14 III:45							
-161061	ašlw	ašlw  	!(ʔ&a!šlw[	/š-l-w/	vb G prefc. 1 c. sg.	to rest	SEEDED from auto-parse; not yet hand-reviewed.
-161062	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-161063	ṣp	ṣp 	ṣp(I)/	ṣp (I)	n. m. sg. cstr. gen.	look	SEEDED from auto-parse; not yet hand-reviewed.
-161064	ˤnh	ʿnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	1) eye a) ʕn bʕl qdm ydh the eye(/s) of DN precede(s) his hands	SEEDED from auto-parse; not yet hand-reviewed.
+161061	ašlw	ašlw  	!(ʔ&a!šlw[	/š-l-w/	vb G prefc. 1 c. sg.	to rest	DULAT direct attestation ašlw b ṣp ˤnh 'I shall rest in the glance of her eyes'.
+161062	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161063	ṣp	ṣp 	ṣp(I)/	ṣp (I)	n. m. du. cstr. gen.	look, glance	EUPT reads dual ṣapî, appropriate to the paired eyes.
+161064	ˤnh	ʿnh	ˤn(I)/+h	ʕn (I)	n. f. du. cstr. gen. + 3 f. sg. suff.	eye	Natural dual 'her eyes' in DULAT's direct translation.
 # KTU 1.14 III:46							
-161065	d	d 	d	d	det. or rel. functor	2) which	SEEDED from auto-parse; not yet hand-reviewed.
-161066	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-161067	ḥlmy	ḥlmy  	ḥlm(I)/+y	ḥlm (I)	n. m. cstr. gen.	dream	SEEDED from auto-parse; not yet hand-reviewed.
-161068	il	il  	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	SEEDED from auto-parse; not yet hand-reviewed.
-161069	ytn	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	SEEDED from auto-parse; not yet hand-reviewed.
+161065	d	d 	d	d	det. or rel. functor	2) which	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161066	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161067	ḥlmy	ḥlmy  	ḥlm(I)/+y	ḥlm (I)	n. m. sg. cstr. gen. + 1 c. sg. suff.	dream	Suffixed ḥlmy 'my dream' after b; TF correctly separates the preposition from the legacy joined bḥlmy.
+161068	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. nom.	El	Subject of ytn.
+161069	ytn	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to grant	Primary past-tense reading in DULAT 'El granted me'; Martijn/Tania explicitly permit ytn[.
+161069	ytn	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to grant	Alt. prefix-conjugation analysis retained from the current parse.
 # KTU 1.14 III:47							
-161070	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-161071	ḏrty	ḏrty  	ḏr(t/t+y	ḏrt	n. f. sg. cstr. gen.	vision	SEEDED from auto-parse; not yet hand-reviewed.
-161072	ab	ab  	ab/	ảb	n. m. sg. cstr. nom.	father	SEEDED from auto-parse; not yet hand-reviewed.
-161073	adm	adm	adm(I)/	ảdm (I)	n. m. sg. abs. nom.	man	SEEDED from auto-parse; not yet hand-reviewed.
+161070	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161071	ḏrty	ḏrty  	ḏr(t/t+y	ḏrt	n. f. sg. cstr. gen. + 1 c. sg. suff.	vision	Suffixed ḏrty 'my vision' after b.
+161072	ab	ab  	ab/	ảb	n. m. sg. cstr. nom.	father	Construct in ab adm 'Father of Man'.
+161073	adm	adm	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	man	Genitive complement of ab (EUPT).
 # KTU 1.14 III:48							
-161074	wld	wld  	(y&wld[	/y-l-d/	vb	1) to give birth (to)	SEEDED from auto-parse; not yet hand-reviewed.
-161075	špḥ	špḥ  	špḥ/	špḥ	n. m. abs. nom.	family	SEEDED from auto-parse; not yet hand-reviewed.
-161076	l	l 	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-161077	krt	krt	krt/	krt	PN sg. abs. gen.	krt	SEEDED from auto-parse; not yet hand-reviewed.
+161074	wld	wld  	w (yld[/	w, /y-l-d/	conj., vb G inf.	and, to engender	One TF token containing conjunction w + infinitive ld from weak /y-l-d/ (Martijn/Tania; DULAT direct translation).
+161075	špḥ	špḥ  	špḥ/	špḥ	n. m. sg. abs. acc.	offspring	Object of the infinitive ld 'engender offspring' (DULAT; EUPT Akk.).
+161076	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161077	krt	krt	krt/	krt	PN m. sg. abs. gen.	Kirta	Recipient after l.
 # KTU 1.14 III:49							
-161078	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-161079	ġlm	ġlm  	ġlm/	ġlm	n. m. sg. abs. nom.	2) prince	SEEDED from auto-parse; not yet hand-reviewed.
-161080	l	l 	l(I)	l (I)	prep.	to	SEEDED from auto-parse; not yet hand-reviewed.
-161081	ˤbd	ʿbd  	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. gen.	servant	SEEDED from auto-parse; not yet hand-reviewed.
-161082	il	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	SEEDED from auto-parse; not yet hand-reviewed.
+161078	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161079	ġlm	ġlm  	ġlm/	ġlm	n. m. sg. abs. acc.	prince	Coordinated object in 'and a prince for the servant of El' (DULAT; EUPT Akk.).
+161080	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161081	ˤbd	ʿbd  	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. gen.	servant	Construct after l in l ˤbd il 'for the servant of El'.
+161082	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	El	Genitive complement of ˤbd.
 # KTU 1.14 III:50							
-161083	krt	krt  	krt/	krt	PN sg. abs. gen.	krt	SEEDED from auto-parse; not yet hand-reviewed.
-161084	yḫṭ	yḫṭ  	!y!ḫṭ[	/ḫ-ṭ/	vb G prefc. 3 m. sg.	to wake up, come to	SEEDED from auto-parse; not yet hand-reviewed.
-161085	w	w 	w	w	conj.	4) declarative and emphatic functor	SEEDED from auto-parse; not yet hand-reviewed.
-161086	ḥlm	ḥlm	ḥlm(I)/	ḥlm (I)	n. m. sg. cstr. nom.	dream	SEEDED from auto-parse; not yet hand-reviewed.
+161083	krt	krt  	krt/	krt	PN m. sg. abs. nom.	Kirta	Subject of yḫṭ 'Kirta awoke' (EUPT Nom.).
+161084	yḫṭ	yḫṭ  	!y!ḫṭ[	/ḫ-ṭ/	vb G prefc. 3 m. sg.	to wake up, come to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161085	w	w 	w	w	conj.	4) declarative and emphatic functor	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161086	ḥlm	ḥlm	ḥlm(I)/	ḥlm (I)	n. m. sg. abs. nom.	dream	Nominal predicate after emphatic/declarative w.
 # KTU 1.14 III:51							
-161087	ˤbd	ʿbd  	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. gen.	3) faithful	SEEDED from auto-parse; not yet hand-reviewed.
-161088	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	SEEDED from auto-parse; not yet hand-reviewed.
-161089	w	w 	w	w	conj.	and	SEEDED from auto-parse; not yet hand-reviewed.
-161090	hdrt	hdrt	hdr(t/t	hdrt	n. f. sg. abs. nom.	revelation	SEEDED from auto-parse; not yet hand-reviewed.
+161087	ˤbd	ʿbd  	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	Construct subject/predicate ˤbd il 'servant of El' (EUPT Nom.).
+161088	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	El	Genitive complement of ˤbd.
+161089	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161090	hdrt	hdrt	hdr(t/t	hdrt	n. f. sg. abs. nom.	revelation	Nominal predicate coordinated with ḥlm.
 # KTU 1.14 III:52							
-161091	yrxtxḥxṣ	yr[[x]]t[[x]]ḥ[[x]]ṣ    	r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt	to wash oneself	SEEDED from auto-parse; not yet hand-reviewed.
-161092	w	w 	w	w	conj.	1) copulative conj.	SEEDED from auto-parse; not yet hand-reviewed.
-161093	yadm	yadm	!y!(]n](ʔ&adm[	/ʔ-d-m/	vb N prefc. 3 m. sg.	to rouge oneself	SEEDED from auto-parse; not yet hand-reviewed.
+161091	yrxtxḥxṣ	yr[[x]]t[[x]]ḥ[[x]]ṣ    	!y!r&x]t]&xḥ&xṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	Martijn/Tania restore yrtḥṣ with three erased/uncertain signs explicitly retained as x; the form repeats the unbroken reflexive action elsewhere.
+161092	w	w 	w	w	conj.	1) copulative conj.	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161093	yadm	yadm	!y!(]n](ʔ&adm[	/ʔ-d-m/	vb N prefc. 3 m. sg.	to rouge oneself	N-stem with reconstructed formative nun; this normalizes Martijn/Tania's older !(n notation while preserving the same analysis.
 # KTU 1.14 III:53							
-161094	yrḥṣ	yrḥṣ  	!y!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 m. sg.	to wash	SEEDED from auto-parse; not yet hand-reviewed.
-161095	ydh	ydh  	yd(I)/+h	yd (I)	n. f. cstr. nom.	hand	SEEDED from auto-parse; not yet hand-reviewed.
-161096	amth	amth	am(t(II)/t+h	ảmt (II)	n. f. sg. cstr. nom.	1) elbow a) anatom	SEEDED from auto-parse; not yet hand-reviewed.
+161094	yrḥṣ	yrḥṣ  	!y!rḥṣ[	/r-ḥ-ṣ/	vb G prefc. 3 m. sg.	to wash	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161095	ydh	ydh  	yd(I)/+h	yd (I)	n. f. du. cstr. acc. + 3 m. sg. suff.	hand	Natural dual direct object 'his hands' (EUPT Akk. f. dual construct).
+161096	amth	amth	am(t(II)/t~h	ảmt (II)	n. f. sg. abs. acc. + dir. -h	elbow	Directional h in 'up to the elbow' (Martijn/Tania; EUPT Term. f. sg.), not a possessive suffix. The older ~h(II) notation is normalized to canonical ~h.
 # KTU 1.14 III:54							
-161097	uṣbˤthˤd	uṣbʿth .ʿd  	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
-161098	ṯkm	ṯkm	ṯkm/	ṯkm	n. m. sg. cstr. nom.	shoulder	SEEDED from auto-parse; not yet hand-reviewed.
+161097	uṣbˤthˤd	uṣbʿth .ʿd  	uṣbˤ(t/t=+h ˤd(I)	ủṣbʕ, ʕd (I)	n. f. pl. cstr. acc. + 3 m. sg. suff., prep.	fingers, up to	Two lexical words joined by TF: uṣbˤth + ˤd, 'his fingers/arms up to the shoulder' (DULAT; Martijn/Tania; compare II:13).
+161098	ṯkm	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. gen.	shoulder	Complement of ˤd 'up to the shoulder' (DULAT; EUPT Gen.).
 # KTU 1.14 III:55							
-161099	ˤrb	ʿrb  	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to enter	SEEDED from auto-parse; not yet hand-reviewed.
-161100	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
-161101	ẓl	ẓl  	ẓl(I)/	ẓl (I)	n. m. sg. cstr. gen.	1) shade	SEEDED from auto-parse; not yet hand-reviewed.
-161102	ḫmt	ḫmt  	ḫm(t/t	ḫmt	n. f. sg. abs. gen.	tent	SEEDED from auto-parse; not yet hand-reviewed.
-161103	lqḥ	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	SEEDED from auto-parse; not yet hand-reviewed.
+161099	ˤrb	ʿrb  	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to enter	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161100	b	b 	b	b	prep.	in	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161101	ẓl	ẓl  	ẓl(I)/	ẓl (I)	n. m. sg. cstr. gen.	shade	Construct in b ẓl ḫmt 'in the shade of the tent'.
+161102	ḫmt	ḫmt  	ḫm(t/t	ḫmt	n. f. sg. abs. gen.	tent	Genitive complement of ẓl.
+161103	lqḥ	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
 # KTU 1.14 III:56							
-161104	imr	imr  	imr(I)/	ỉmr (I)	n. m. sg. cstr. nom.	lamb	SEEDED from auto-parse; not yet hand-reviewed.
-161105	dbḥ	dbḥ  	dbḥ/	dbḥ	n. m. sg. abs. gen.	1) sacrifice	SEEDED from auto-parse; not yet hand-reviewed.
-161106	b	b 	b	b	prep.	1) spatial location c) goal of movement or action	SEEDED from auto-parse; not yet hand-reviewed.
-161107	ydh	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	SEEDED from auto-parse; not yet hand-reviewed.
+161104	imr	imr  	imr(I)/	ỉmr (I)	n. m. sg. cstr. acc.	lamb	Direct object in imr dbḥ 'a sacrificial lamb' (EUPT Akk. construct).
+161105	dbḥ	dbḥ  	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	Genitive qualifier of imr.
+161106	b	b 	b	b	prep.	1) spatial location c) goal of movement or action	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161107	ydh	ydh	yd(I)/+h	yd (I)	n. f. du. cstr. gen. + 3 m. sg. suff.	hand	Natural dual 'in his hands'; b governs genitive.
 # KTU 1.14 III:57							
-161108	lla	lla  	ll(u&a/	llủ	n. m. sg. abs. nom.	suckling (lamb or kid)	SEEDED from auto-parse; not yet hand-reviewed.
-161109	klatnm	klatnm	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
+161108	lla	lla  	ll(u&a/	llủ	n. m. sg. abs. acc.	suckling lamb	Second object of lqḥ (EUPT Akk. m. sg.).
+161109	klatnm	klatnm	kla(t/tn~m(I)	klảt(n)	n. f. du. abs. acc. + encl. -m	both	Feminine dual klảt(n); dual m dissimilates to n before enclitic -m (Martijn/Tania; EUPT; parallel 160735).
 # KTU 1.14 III:58							
-161110	klt	klt  	kl(t(II)/t	klt (II)	n. f. sg. abs. nom.	measure	SEEDED from auto-parse; not yet hand-reviewed.
-161111	lḥmh	lḥmh  	lḥm/+h	lḥm	n. m. cstr. nom.	grain	SEEDED from auto-parse; not yet hand-reviewed.
-161112	d	d 	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	SEEDED from auto-parse; not yet hand-reviewed.
-161113	nzl	nzl	nzl/	nzl	n. m. sg. abs. nom.	offering	SEEDED from auto-parse; not yet hand-reviewed.
+161110	klt	klt  	kl(t(II)/t	klt (II)	n. f. sg. cstr. acc.	measure	DULAT direct attestation klt lḥmh d nzl 'a measure of his bread of offering'; EUPT instead maps the consonants to klt I 'all'.
+161111	lḥmh	lḥmh  	lḥm/+h	lḥm	n. m. sg. cstr. gen. + 3 m. sg. suff.	bread, grain	Suffixed genitive complement 'his bread' (EUPT St. cs.).
+161112	d	d 	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161113	nzl	nzl	nzl/	nzl	n. m. sg. abs. gen.	offering	Genitive after relational d in 'bread of offering' (DULAT; EUPT).
 # KTU 1.14 III:59							
-161114	lqḥ	lqḥ  	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	SEEDED from auto-parse; not yet hand-reviewed.
-161115	msrr	msrr     	msrr/	msrr	n. m. sg. cstr. nom.	entrails	SEEDED from auto-parse; not yet hand-reviewed.
-161116	ṣr	ṣr  	ṣr/	ṣr	TN sg. cstr. gen.	Tyre	SEEDED from auto-parse; not yet hand-reviewed.
-161117	dbḥ	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. gen.	1) sacrifice	SEEDED from auto-parse; not yet hand-reviewed.
+161114	lqḥ	lqḥ  	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
+161115	msrr	msrr     	msrr/	msrr	n. m. sg. cstr. acc.	entrails	Direct object of lqḥ and construct before the sacrificial bird (DULAT; EUPT Akk.).
+161116	ṣr	ṣr  	(ˤṣr(I)/	ʕṣr (I)	n. f. sg. cstr. gen.	bird	Initial ˤ is omitted in the written surface. DULAT's exact attestation and the parallel at I:59 read msrr ˤṣr dbḥ 'entrails of a sacrificial bird'; Tyre is contextually impossible.
+161117	dbḥ	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	Genitive qualifier of ˤṣr 'sacrificial bird'.
 # KTU 1.14 IV:1							
 161118	yṣq	yṣq  	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out), serve	SEEDED from auto-parse; not yet hand-reviewed.
 161119	b	b 	b	b	prep.	in	SEEDED from auto-parse; not yet hand-reviewed.
