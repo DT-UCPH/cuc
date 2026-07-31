@@ -38,8 +38,14 @@ When working directly in generated `cuc_tablets_tsv`:
 Output line must preserve `col1` and `col2` exactly and use this structured schema:
 
 3. `col3`: semicolon-separated morphological parsing variants.
+   - when one Text-Fabric token contains multiple independent words, separate
+     their complete analyses with a single space inside the variant; do not use
+     `;`, which means alternative analyses, or `,`, which is reserved for
+     structured morpheme slots in `col4`-`col6`.
 4. `col4`: semicolon-separated DULAT entry sets aligned to `col3` variants.
    - if a variant contains multiple lexemes (word + suffix/clitic), separate those lexeme entries by comma.
+   - the same comma alignment applies to independent words joined inside one
+     Text-Fabric token; their analyses are space-separated in `col3`.
 5. `col5`: semicolon-separated POS sets aligned to `col3` variants.
    - for multi-lexeme variants, separate POS morpheme slots by comma in the same order as `col4`.
    - if one morpheme still has multiple POS options, separate those options by `/` inside that morpheme slot.

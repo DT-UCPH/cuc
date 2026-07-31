@@ -227,6 +227,20 @@ def analysis_is_standalone_clitic_or_suffix(analysis_variant: str) -> bool:
     return all(part and part[0] in {"+", "~", "/", "["} for part in parts)
 
 
+def is_structured_multiword_analysis(analysis_variant: str, dulat_variant: str) -> bool:
+    """Return whether one TF token contains multiple independently tagged words.
+
+    Multiword analyses separate word parses with whitespace and declare the
+    corresponding DULAT entries as comma-aligned slots.  Per-slot structured
+    validation remains authoritative; whole-surface DULAT lookup is not
+    meaningful for the concatenated TF token.
+    """
+
+    analysis_words = (analysis_variant or "").split()
+    dulat_tokens = split_csv_field(dulat_variant or "")
+    return len(analysis_words) > 1 and len(dulat_tokens) > 1
+
+
 def lemma_aliases(lemma: str) -> List[str]:
     """
     Generate additional lookup aliases for lemmas with optional/alternative segments.
@@ -3742,18 +3756,20 @@ def lint_file(
         # POS strings must keep the paradigm shape (person digit + gender,
         # no repeated number tokens).
         if is_labeled_parsed_row and len(parts) > 4:
-            for problem in pos_grammar_problems(parts[4]):
-                issues.append(
-                    Issue(
-                        "warning",
-                        str(path),
-                        i,
-                        line_id,
-                        surface,
-                        analysis,
-                        f"POS grammar: {problem}",
-                    )
-                )
+            for pos_variant in split_semicolon_field(parts[4]) or [parts[4]]:
+                for pos_slot in split_csv_field(pos_variant) or [pos_variant]:
+                    for problem in pos_grammar_problems(pos_slot):
+                        issues.append(
+                            Issue(
+                                "warning",
+                                str(path),
+                                i,
+                                line_id,
+                                surface,
+                                analysis,
+                                f"POS grammar: {problem}",
+                            )
+                        )
 
         # Pronominal suffixes and enclitics must come from the paradigm
         # inventories (catches plural/enclitic -m mis-marked as '+m').
@@ -3824,7 +3840,10 @@ def lint_file(
                     )
                 )
 
-        if db_checks:
+        if db_checks and not is_structured_multiword_analysis(
+            analysis,
+            parts[3] if len(parts) >= 4 else "",
+        ):
             # Handle clitic splits (e.g., b+h=, hl~m). Base lexeme is checked normally.
             analysis_for_lexeme, clitic_parts = split_analysis_for_lexeme_and_clitics(analysis)
             lexical_surface_lookup = normalize_surface(lexical_surface_clean)

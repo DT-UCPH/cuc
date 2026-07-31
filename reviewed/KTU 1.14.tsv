@@ -540,7 +540,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160928	tšˤl	tšʿl	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
 # KTU 1.14 III:13							
 160929	qrth	qrth  	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. nom.	1) city	SEEDED from auto-parse; not yet hand-reviewed.
-160930	abnydk	abn .ydk	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
+160930	abnydk	abn .ydk	abn/ yd(I)/+k	ảbn, yd (I)	n. f. pl. cstr. nom., n. f. sg. cstr. gen. + 2 m. sg. suff.	stone, hand	Two words joined in one TF token despite the divider: abn + ydk. The legacy Martijn/Tania parsing gives abn/ and yd/+k; DULAT cites ảbn ydk mšdpt 'the stones thrown by your hand' at CAT 1.14 III:13.
 # KTU 1.14 III:14							
 160931	mšdpt	mšdpt  	mšdpt[/	/n-d-p/	vb Š act. ptcpl. m. sg. abs. nom.	to throw	SEEDED from auto-parse; not yet hand-reviewed.
 160932	w	w 	w	w	conj.	and	
@@ -583,7 +583,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 III:21							
 160963	mswnh	mswnh  	mswn/+h	mswn	n. m. cstr. gen.	delegate	
 160964	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. abs. nom.	message	
-160965	pblmlk	pbl .mlk	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
+160965	pblmlk	pbl .mlk	pbl/ mlk(I)/	pbl, mlk (I)	PN sg. cstr. gen., n. m. sg. abs. gen.	Pabilu, king	Two words joined in one TF token despite the divider: pbl + mlk. The legacy Martijn/Tania parsing supplies both analyses; DULAT cites tḥm pbl mlk 'message of Pabilu, the king' at CAT 1.14 III:21.
 # KTU 1.14 III:22							
 160966	qḥ	qḥ  	!!(lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of, take, grasp	
 160967	ksp	ksp  	ksp/	ksp	n. m. sg. abs. nom.	1) silver a) 4.738	
@@ -594,7 +594,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160971	yd	yd  	yd(I)/	yd (I)	n. f. sg. cstr. gen.	5) used as a preposition	SEEDED from auto-parse; not yet hand-reviewed.
 160972	mqmh	mqmh  	mqm/+h	mqm	n. m. sg. cstr. gen.	place	
 160973	w	w 	w	w	conj.	and	
-160974	ˤbdˤlm	ʿbd .ʿlm	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
+160974	ˤbdˤlm	ʿbd .ʿlm	ˤbd(I)/ ˤlm(I)/	ʕbd (I), ʕlm (I)	n. m. sg. abs. nom., n. m. sg. abs. nom.	servant, eternity	Two words joined in one TF token despite the divider: ˤbd + ˤlm. The legacy Martijn/Tania parsing supplies both nouns; DULAT cites ʕbd ʕlm 'slaves in perpetuity' at CAT 1.14 III:23.
 # KTU 1.14 III:24							
 160975	ṯlṯ	ṯlṯ  	ṯlṯ(III)/	ṯlṯ (III)	n. m. pl. cstr. nom.	charioteer	SEEDED from auto-parse; not yet hand-reviewed.
 160976	sswm	sswm  	ssw/m	s:śs/św	n. f. pl. cstr. gen.	1) horse b) ṯlṯ sswm mrkbt charioteers of a chariot	
@@ -651,7 +651,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 161017	yrq	yrq  	yrq/	yrq	n. m. sg. cstr. nom.	greenish yellow (a metal / gold)	
 161018	ḫrṣ	ḫrṣ 	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold g) greenish yellow (a metal / gold)	
 # KTU 1.14 III:35							
-161019	ydmqmh	yd .mqmh  	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
+161019	ydmqmh	yd .mqmh  	yd(I)/ mqm/+h	yd (I), mqm	n. f. sg. cstr. gen., n. m. sg. cstr. gen.	with, place	Two words joined in one TF token despite the divider: yd + mqmh. The legacy Martijn/Tania parsing supplies yd(I)/ and mqm/+h; compare the separately tokenized parallel at 160971–160972.
 161020	w	w 	w	w	conj.	and	
 161021	ˤbd	ʿbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. nom.	servant	SEEDED from auto-parse; not yet hand-reviewed.
 # KTU 1.14 III:36							

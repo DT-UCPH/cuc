@@ -39,7 +39,8 @@ For full rules and examples, see `agent/Morphological_Labeling_Agent_Guide.md`.
 8. Output format per line:
    - `col1 id`
    - `col2 surface`
-   - `col3 semicolon-separated analysis variants`
+   - `col3 semicolon-separated analysis variants` (space-separate independent
+     words that Text-Fabric joined inside one token)
    - `col4 semicolon-separated DULAT entry sets (comma-separated inside multi-lexeme variants)`
    - `col5 semicolon-separated POS sets (comma-separated morpheme slots; `/` for POS options within one morpheme slot)`
    - `col6 semicolon-separated gloss sets (comma-separated inside multi-lexeme variants)`
