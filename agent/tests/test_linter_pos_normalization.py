@@ -41,6 +41,15 @@ class LinterPosNormalizationTest(unittest.TestCase):
             normalize_pos_option_for_validation("DN m. sg. abs. gen. + encl. -m"), "dn"
         )
 
+    def test_strips_directional_morphology_before_validating_noun_head(self) -> None:
+        self.assertEqual(
+            normalize_pos_option_for_validation("n. f. sg. abs. acc. + dir. -h"), "n"
+        )
+
+    def test_normalizes_personal_pronoun_terminal_punctuation(self) -> None:
+        self.assertEqual(normalize_pos_option_for_validation("pers. pn."), "pers. pn")
+        self.assertTrue(pos_option_matches_allowed("pers. pn.", {"pers. pn"}))
+
     def test_affix_bearing_option_matches_coarse_dulat_label(self) -> None:
         self.assertTrue(pos_option_matches_allowed("n. m. sg. abs. nom + encl. -m", {"n"}))
         self.assertTrue(

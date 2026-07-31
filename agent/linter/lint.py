@@ -1902,7 +1902,10 @@ POS_STATE_CASE_RE = re.compile(
 )
 # Trailing affix morphology appended to a POS head with `+`, e.g.
 # `n. m. sg. cstr. gen. + 3 m. sg. suff.` or `prep. + encl. -n`.
-POS_AFFIX_TAIL_RE = re.compile(r"\s*\+\s*(?:encl\.|\d\s*[a-z]\.|.*?\bsuff\.).*$", re.IGNORECASE)
+POS_AFFIX_TAIL_RE = re.compile(
+    r"\s*\+\s*(?:encl\.|dir\.|\d\s*[a-z]\.|.*?\bsuff\.).*$",
+    re.IGNORECASE,
+)
 
 
 def normalize_pos_option_for_validation(value: str) -> str:
@@ -1933,6 +1936,9 @@ def normalize_pos_option_for_validation(value: str) -> str:
     tok = POS_GENDER_RE.sub("", tok)
     tok = POS_NUMBER_RE.sub("", tok)
     tok = POS_STATE_CASE_RE.sub("", tok)
+    # DULAT source labels are inconsistent about the terminal period in the
+    # personal-pronoun abbreviation; CUC consistently writes `pers. pn.`.
+    tok = re.sub(r"\bpers\.\s*pn\.?", "pers. pn", tok, flags=re.IGNORECASE)
     # Project-side role qualifiers like `prep. functor` should validate
     # against DULAT coarse POS heads (e.g. `prep.`).
     tok = re.sub(r"\bfunctor\b\.?", "", tok, flags=re.IGNORECASE)
