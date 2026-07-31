@@ -14,6 +14,7 @@ from project_paths import get_project_paths
 
 _ONOMASTIC_POS_TAGS: Sequence[str] = ("DN", "PN", "TN", "GN", "MN")
 _UNSPLIT_FEM_T_RE = re.compile(r"^(?P<stem>.+?)t(?P<hom>\([IVX]+\))?/$")
+_SURFACE_TAIL_FEM_T_RE = re.compile(r"^(?P<stem>.+?)(?P<hom>\([IVX]+\))&t/$")
 _SPLIT_FEM_T_RE = re.compile(r"^(?P<stem>.+?)(?P<hom>\([IVX]+\))?/t(?P<plural_eq>=?)$")
 _BASE_NOMINAL_RE = re.compile(r"^(?P<stem>[A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]+)(?P<hom>\([IVX]+\))?/$")
 _TOKEN_RE = re.compile(r"^(.*?)(?:\s*\(([IVX]+)\))?$")
@@ -135,6 +136,24 @@ class FeminineTSingularSplitFixer(RefinementStep):
 
         lemma_has_final_t = _declared_lemma_has_final_t(dulat_slot)
         surface_has_terminal_t = normalize_surface(surface).endswith("t")
+        split_match = _SPLIT_FEM_T_RE.match(value)
+
+        # An exact DULAT form marked only as plural outranks the generic /t
+        # singular inference, including masculine lexemes with a -t plural.
+        if (
+            split_match
+            and not split_match.group("plural_eq")
+            and self._surface_has_unambiguous_plural_morphology(
+                dulat_slot=dulat_slot,
+                surface=surface,
+            )
+        ):
+            return _render_feminine_t_split(
+                stem=split_match.group("stem"),
+                homonym=split_match.group("hom") or _declared_homonym(dulat_slot),
+                lexical_t=lemma_has_final_t,
+                plural=True,
+            )
 
         if not self._is_feminine_context(
             pos_slot=pos_slot,
@@ -177,6 +196,16 @@ class FeminineTSingularSplitFixer(RefinementStep):
                 stem=stem,
                 homonym=homonym,
                 lexical_t=lemma_has_final_t,
+                plural=is_pos_pl_tant,
+            )
+            return _with_surface_terminal_m(rewritten, surface=surface)
+
+        surface_tail_match = _SURFACE_TAIL_FEM_T_RE.match(value)
+        if surface_tail_match and lemma_has_final_t:
+            rewritten = _render_feminine_t_split(
+                stem=surface_tail_match.group("stem"),
+                homonym=surface_tail_match.group("hom") or declared_homonym,
+                lexical_t=True,
                 plural=is_pos_pl_tant,
             )
             return _with_surface_terminal_m(rewritten, surface=surface)
@@ -224,7 +253,6 @@ class FeminineTSingularSplitFixer(RefinementStep):
             )
             return _with_surface_terminal_m(rewritten, surface=surface)
 
-        split_match = _SPLIT_FEM_T_RE.match(value)
         if not split_match:
             return value
         if not lemma_has_final_t:
@@ -291,6 +319,16 @@ class FeminineTSingularSplitFixer(RefinementStep):
         has_singular = any(_has_singular_form_marker(morph) for morph in morphologies)
         has_plural = any(_has_plural_form_marker(morph) for morph in morphologies)
         return has_singular and has_plural
+
+    def _surface_has_unambiguous_plural_morphology(
+        self, dulat_slot: str, surface: str
+    ) -> bool:
+        morphologies = self._surface_morphologies(dulat_slot=dulat_slot, surface=surface)
+        if not morphologies:
+            return False
+        has_singular = any(_has_singular_form_marker(morph) for morph in morphologies)
+        has_plural = any(_has_plural_form_marker(morph) for morph in morphologies)
+        return has_plural and not has_singular
 
     def _surface_morphologies(self, dulat_slot: str, surface: str) -> set[str]:
         if self._gate is None:

@@ -36,7 +36,7 @@ class LinterSuffixPayloadWarningTest(unittest.TestCase):
                 morph="sg.",
                 form_text="gh",
             )
-            dulat_forms = {normalize_surface("gh"): [entry]}
+            dulat_forms = {normalize_surface("g"): [entry]}
             entry_meta = {1: ("g", "", "n. m.", "(loud) voice")}
             lemma_map = {normalize_surface("g"): [entry]}
             entry_stems = {}
@@ -64,6 +64,38 @@ class LinterSuffixPayloadWarningTest(unittest.TestCase):
     def test_no_warning_for_host_only_dulat(self) -> None:
         msgs = self._run_lint(analysis="g/+h", dulat="g")
         self.assertNotIn(SUFFIX_PAYLOAD_MSG, msgs)
+        self.assertNotIn("No DULAT entry found for lexeme/surface", msgs)
+
+    def test_marked_clitic_is_removed_for_host_surface_fallback(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "KTU 1.test.tsv"
+            path.write_text(
+                (
+                    "id\tsurface form\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+                    "1\trmmt\trmm[:l~t\t/r-m/\tvb L impv. 2\tto erect\t\n"
+                ),
+                encoding="utf-8",
+            )
+            root_entry = DulatEntry(1, "/r-m/", "", "vb", "to erect", "L, impv.", "rmm")
+            suffix_entry = DulatEntry(2, "-t", "", "morph.", "enclitic", "", "")
+            issues = lint_file(
+                path=path,
+                dulat_forms={normalize_surface("rmm"): [root_entry]},
+                entry_meta={1: ("/r-m/", "", "vb", "to erect")},
+                lemma_map={
+                    normalize_surface("/r-m/"): [root_entry],
+                    normalize_surface("-t"): [suffix_entry],
+                },
+                entry_stems={1: {"L"}},
+                entry_gender={},
+                udb_words=None,
+                baseline=None,
+                input_format="auto",
+                db_checks=True,
+            )
+
+        messages = [issue.message for issue in issues]
+        self.assertNotIn("No DULAT entry found for lexeme/surface", messages)
 
 
 if __name__ == "__main__":

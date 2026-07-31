@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Sequence, Tuple
 
+from pipeline.config.dulat_entry_form_supplements import ENTRY_FORM_SUPPLEMENTS
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
 from pipeline.config.plurale_tantum_m_overrides import PLURALE_TANTUM_M_EXCLUDED_KEYS
@@ -206,6 +207,18 @@ class DulatMorphGate:
                 form_text=text or "",
             ):
                 forms_by_key.setdefault(key, []).append((self._normalize_form(form_variant), morph))
+
+        # Entries whose `forms` rows are missing from the cache are otherwise
+        # invisible to surface lookup, so a competing homonym wins unopposed.
+        for key, supplements in ENTRY_FORM_SUPPLEMENTS.items():
+            if key not in entry_index.values():
+                continue
+            existing = {form for form, _morph in forms_by_key.get(key, [])}
+            for form_text, morphology in supplements:
+                canon = self._normalize_form(form_text)
+                if canon and canon not in existing:
+                    forms_by_key.setdefault(key, []).append((canon, morphology))
+                    by_key.setdefault(key, []).append(morphology)
 
         conn.close()
 

@@ -91,7 +91,10 @@ def nominal_feature_issues(analysis: str, pos_field: str) -> list[str]:
     if "/tm" in analysis and "du." not in pos:
         expected.append("du.")
     elif has_t_plural_split:
-        if "f." not in pos:
+        # /t= identifies the plural ending, but the lexeme itself may be
+        # masculine (for example lḥ (II) 'missive').  Require a gender value,
+        # not specifically feminine, when DULAT-backed POS already says m.
+        if "f." not in pos and "m." not in pos:
             expected.append("f.")
         if "pl." not in pos:
             expected.append("pl.")

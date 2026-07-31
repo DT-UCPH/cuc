@@ -21,7 +21,8 @@ class DulatAttestationIndexTest(unittest.TestCase):
             CREATE TABLE entries (
               entry_id INTEGER PRIMARY KEY,
               lemma TEXT,
-              homonym TEXT
+              homonym TEXT,
+              data TEXT
             )
             """
         )
@@ -37,11 +38,11 @@ class DulatAttestationIndexTest(unittest.TestCase):
             """
         )
         cur.executemany(
-            "INSERT INTO entries(entry_id, lemma, homonym) VALUES (?, ?, ?)",
+            "INSERT INTO entries(entry_id, lemma, homonym, data) VALUES (?, ?, ?, ?)",
             [
-                (1, "bʕl", "I"),
-                (2, "bʕl", "II"),
-                (3, "/q-t-l/", ""),
+                (1, "bʕl", "I", "{}"),
+                (2, "bʕl", "II", "{}"),
+                (3, "/q-t-l/", "", "{}"),
             ],
         )
         cur.executemany(
@@ -105,6 +106,24 @@ class DulatAttestationIndexTest(unittest.TestCase):
 
             self.assertTrue(index.has_reference_for_variant_token("bʕl (II)", "CAT 1.5 I:12"))
             self.assertFalse(index.has_reference_for_variant_token("bʕl (I)", "CAT 1.5 I:12"))
+
+    def test_reference_lookup_recovers_raw_article_note_references(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            self._build_db(db_path)
+            conn = sqlite3.connect(db_path)
+            conn.execute(
+                "UPDATE entries SET data = ? WHERE entry_id = 2",
+                ('{"raw_notes":["PN: 2.26:19; 4.35 I 22; PRU 3 34."]}',),
+            )
+            conn.commit()
+            conn.close()
+
+            index = DulatAttestationIndex.from_sqlite(db_path)
+
+            self.assertTrue(index.has_reference_for_variant_token("bʕl (II)", "CAT 2.26:19"))
+            self.assertTrue(index.has_reference_for_variant_token("bʕl (II)", "KTU 4.35 I:22"))
+            self.assertFalse(index.has_reference_for_variant_token("bʕl (II)", "CAT 3.34"))
 
     def test_normalize_reference_label(self) -> None:
         self.assertEqual(normalize_reference_label("CAT 1.3 I:1"), "1.3 I:1")

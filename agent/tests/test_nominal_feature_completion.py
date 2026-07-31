@@ -113,6 +113,14 @@ class NominalFeatureCompletionTest(unittest.TestCase):
         rewritten = rewrite_row(row, completer)
         self.assertEqual(rewritten.pos, "n. m. sg. abs. nom.")
 
+    def test_entry_gender_survives_masculine_t_plural_without_form_gender(self) -> None:
+        completer = NominalFeatureCompleter(
+            _FakeReader({("lḥt", "lḥ (II)"): _Features(("pl.",))})
+        )
+        row = TabletRow("163387", "lḥt", "lḥ(II)/t=", "lḥ (II)", "n. m. pl.", "missive", "")
+        rewritten = rewrite_row(row, completer)
+        self.assertEqual(rewritten.pos, "n. m. pl. abs. nom.")
+
 
 if __name__ == "__main__":
     unittest.main()

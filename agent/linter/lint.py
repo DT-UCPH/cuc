@@ -16,6 +16,7 @@ if __package__ in {None, ""}:
         sys.path.insert(0, str(_repo_root))
 
 from linter.feature_validation import inferable_feature_issues
+from dulat_patches import load_dulat_entry_patches
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
@@ -1424,12 +1425,18 @@ def load_dulat(dulat_db: Path):
     entry_stems: Dict[int, set] = {}
     entry_gender: Dict[int, str] = {}
     entry_text_by_id: Dict[int, str] = {}
+    entry_patches = load_dulat_entry_patches(
+        get_project_paths(Path(__file__).resolve().parents[1]).data_sources_dir
+        / "dulat_entry_patches.tsv"
+    )
     for row in cur.fetchall():
         entry_id, lemma, homonym, pos, data_json = row[:5]
         if has_text and len(row) >= 6 and row[5]:
             entry_text_by_id[int(entry_id)] = row[5]
-        lemma = (lemma or "").strip()
-        homonym = (homonym or "").strip()
+        patch = entry_patches.get(int(entry_id), {})
+        lemma = (patch.get("lemma", lemma) or "").strip()
+        homonym = (patch.get("homonym", homonym) or "").strip()
+        pos = patch.get("pos", pos)
         if lemma and not homonym:
             m = re.match(r"^(.*)\s*\(([IV]+)\)\s*$", lemma)
             if m:
@@ -3820,6 +3827,16 @@ def lint_file(
         if db_checks:
             # Handle clitic splits (e.g., b+h=, hl~m). Base lexeme is checked normally.
             analysis_for_lexeme, clitic_parts = split_analysis_for_lexeme_and_clitics(analysis)
+            lexical_surface_lookup = normalize_surface(lexical_surface_clean)
+            clitic_surface = normalize_surface(
+                "".join(reconstruct_surface_from_analysis(part) for part in clitic_parts)
+            )
+            if (
+                analysis_for_lexeme.strip()
+                and clitic_surface
+                and lexical_surface_lookup.endswith(clitic_surface)
+            ):
+                lexical_surface_lookup = lexical_surface_lookup[: -len(clitic_surface)]
 
             seen_clitics = set()
             for part in clitic_parts:
@@ -4040,9 +4057,7 @@ def lint_file(
             if skip_dulat:
                 d_candidates = []
             else:
-                surface_candidates = dulat_forms.get(
-                    normalize_surface(lexical_surface_clean), []
-                )
+                surface_candidates = dulat_forms.get(lexical_surface_lookup, [])
                 d_candidates, lookup_mode = choose_lookup_candidates(
                     lexeme=lexeme,
                     lexeme_candidates=lexeme_candidates,

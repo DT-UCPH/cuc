@@ -12,6 +12,7 @@ import unittest
 from pathlib import Path
 
 from dulat_patches import load_dulat_entry_patches
+from linter.lint import load_dulat
 from scripts.refine_results_mentions import load_entries
 
 
@@ -74,6 +75,29 @@ class LoadEntriesAppliesPatchesTest(unittest.TestCase):
         self.assertEqual(entry.hom, "I")
         self.assertEqual(entry.pos, "n. m.")
         self.assertIn(2727, [e.entry_id for e in lemma_map.get("mlk", [])])
+
+    def test_linter_loader_applies_repository_entry_patches(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "dulat.sqlite"
+            conn = sqlite3.connect(str(db_path))
+            conn.execute(
+                "CREATE TABLE entries (entry_id INTEGER, lemma TEXT, homonym TEXT, "
+                "pos TEXT, data TEXT, text TEXT)"
+            )
+            conn.execute(
+                "INSERT INTO entries VALUES (5436, 't', '', 'vb', '{}', '')"
+            )
+            conn.execute("CREATE TABLE translations (entry_id INTEGER, text TEXT)")
+            conn.execute(
+                "CREATE TABLE forms (entry_id INTEGER, text TEXT, morphology TEXT)"
+            )
+            conn.commit()
+            conn.close()
+
+            _forms, entry_meta, lemma_map, _stems, _gender = load_dulat(db_path)
+
+        self.assertEqual(entry_meta[5436][:3], ("-t", "", "morph."))
+        self.assertIn(5436, [entry.entry_id for entry in lemma_map["-t"]])
 
 
 if __name__ == "__main__":

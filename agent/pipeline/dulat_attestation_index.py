@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import html
+import json
 import re
 import sqlite3
 from dataclasses import dataclass, field
@@ -20,6 +22,12 @@ ALEPH_NORMALIZE = str.maketrans(
 
 _DULAT_TOKEN_RE = re.compile(r"^(.*?)(?:\s*\(([IV]+)\))?$")
 _REF_PREFIX_RE = re.compile(r"^(?:KTU|CAT)\s+", flags=re.IGNORECASE)
+_RAW_CAT_REF_RE = re.compile(
+    r"(?<![\d.])(?P<tablet>\d+\.\d+)"
+    r"(?:\s+(?P<column>[IVXLCDM]+)\s*:?\s*(?P<column_line>\d+[a-z]?)"
+    r"|:(?P<line>\d+[a-z]?))",
+    flags=re.IGNORECASE,
+)
 
 
 def normalize_lemma(lemma: str) -> str:
@@ -49,6 +57,32 @@ def normalize_reference_label(reference: str) -> str:
     text = re.sub(r"\s*-\s*", "-", text)
     text = _REF_PREFIX_RE.sub("", text)
     return text.strip()
+
+
+def entry_data_references(data_raw: str) -> tuple[str, ...]:
+    """Extract line references retained only in raw DULAT article notes."""
+    try:
+        payload = json.loads(data_raw or "{}")
+    except (TypeError, json.JSONDecodeError):
+        return ()
+    if not isinstance(payload, dict):
+        return ()
+    raw_notes = payload.get("raw_notes") or []
+    if not isinstance(raw_notes, list):
+        return ()
+
+    references: set[str] = set()
+    for raw_note in raw_notes:
+        text = html.unescape(re.sub(r"<[^>]+>", " ", str(raw_note or "")))
+        for match in _RAW_CAT_REF_RE.finditer(text):
+            tablet = match.group("tablet")
+            column = (match.group("column") or "").upper()
+            line = match.group("column_line") or match.group("line") or ""
+            if not tablet or not line:
+                continue
+            reference = f"{tablet} {column}:{line}" if column else f"{tablet}:{line}"
+            references.add(normalize_reference_label(reference))
+    return tuple(sorted(references))
 
 
 @dataclass(frozen=True)
@@ -116,6 +150,20 @@ class DulatAttestationIndex:
                     continue
                 hom = (hom_raw or "").strip()
                 refs_by_key.setdefault((lemma, hom), set()).add(citation)
+
+            cur.execute("PRAGMA table_info(entries)")
+            if "data" in {row[1] for row in cur.fetchall()}:
+                cur.execute(
+                    "SELECT lemma, COALESCE(homonym, ''), data "
+                    "FROM entries WHERE data IS NOT NULL AND TRIM(data) != ''"
+                )
+                for lemma_raw, hom_raw, data_raw in cur.fetchall():
+                    lemma = normalize_lemma(lemma_raw or "")
+                    if not lemma:
+                        continue
+                    hom = (hom_raw or "").strip()
+                    for reference in entry_data_references(data_raw or ""):
+                        refs_by_key.setdefault((lemma, hom), set()).add(reference)
 
             cur.execute(
                 "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'dulat_reverse_refs'"

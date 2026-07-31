@@ -83,6 +83,15 @@ class LinterFeatureValidationTest(unittest.TestCase):
             messages,
         )
 
+    def test_accepts_masculine_lexeme_with_t_plural_ending(self) -> None:
+        messages = self._lint_messages(
+            "1\tlḥt\tlḥ(II)/t=\tlḥ (II)\tn. m. pl. abs. nom.\tmissive\t\n"
+        )
+        self.assertNotIn(
+            "Nominal POS is missing explicit morphology from analysis: f.",
+            messages,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -113,6 +113,20 @@ class FeminineTSingularSplitFixerTest(unittest.TestCase):
         result = fixer.refine_row(row)
         self.assertEqual(result.analysis, "b(t(I)/t")
 
+    def test_promotes_surface_only_t_tail_to_lexical_feminine_t(self) -> None:
+        fixer = FeminineTSingularSplitFixer()
+        row = TabletRow(
+            "8a",
+            "ṯˤšrt",
+            "&ṯˤšr(I)&t/",
+            "ʕšr(t) (I)",
+            "n. f.",
+            "banquet",
+            "KTU corrected: ʿšrt",
+        )
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "&ṯˤšr(t(I)/t")
+
     def test_injects_homonym_from_dulat_when_missing_in_analysis(self) -> None:
         fixer = FeminineTSingularSplitFixer()
         row = TabletRow("8b", "bt", "b/t", "bt (I)", "n. f.", "daughter", "")
@@ -130,6 +144,14 @@ class FeminineTSingularSplitFixerTest(unittest.TestCase):
         row = TabletRow("9", "kṯrt", "kṯr(I)/t", "kṯr (I)", "n. f.", "Kothar", "")
         result = fixer.refine_row(row)
         self.assertEqual(result.analysis, "kṯr(I)/t")
+
+    def test_promotes_t_split_for_unambiguous_masculine_plural_form(self) -> None:
+        fixer = FeminineTSingularSplitFixer(
+            gate=_PluralOnlyGate(morphologies={("lḥ (II)", "lḥt"): {"pl."}}),
+        )
+        row = TabletRow("9b", "lḥt", "lḥ(II)/t", "lḥ (II)", "n. m.", "missive", "")
+        result = fixer.refine_row(row)
+        self.assertEqual(result.analysis, "lḥ(II)/t=")
 
     def test_split_variant_still_gets_lexical_t_when_plural_gate_matches(self) -> None:
         fixer = FeminineTSingularSplitFixer(

@@ -146,6 +146,11 @@ class SurfaceReconstructabilityFixerTest(unittest.TestCase):
         result = self.fixer.refine_row(row)
         self.assertEqual(result.analysis, "ṯn(y[~m")
 
+    def test_preserves_already_restored_weak_y_before_enclitic_m(self) -> None:
+        row = TabletRow("20b", "nˤlm", "!n!ˤl(y[~m", "/ʕ-l-y/", "vb G prefc.", "to go up", "")
+        result = self.fixer.refine_row(row)
+        self.assertEqual(result.analysis, "!n!ˤl(y[~m")
+
     def test_restores_missing_y_before_plus_m(self) -> None:
         row = TabletRow("21", "bym", "b+m(I)", "b", "prep.", "in", "")
         result = self.fixer.refine_row(row)

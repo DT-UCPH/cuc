@@ -90,6 +90,14 @@ class NominalFeatureCompleter:
         match = _GENDER_RE.search(morphology or "")
         if match:
             return match.group(1)
+        # An exact DULAT form may specify number/state but omit gender.  In
+        # that case retain the entry-backed POS gender established upstream;
+        # the generic /t ending heuristic must not turn masculine -t plurals
+        # into feminine lexemes.
+        if (morphology or "").strip():
+            match = _GENDER_RE.search(row.pos or "")
+            if match:
+                return match.group(1)
         if "/t=" in (row.analysis or "") or "/t" in (row.analysis or ""):
             return "f."
         match = _GENDER_RE.search(row.pos or "")

@@ -31,7 +31,10 @@ from project_paths import get_project_paths  # noqa: E402
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text  # noqa: E402
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology  # noqa: E402
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts  # noqa: E402
-from pipeline.dulat_attestation_index import DulatAttestationIndex  # noqa: E402
+from pipeline.dulat_attestation_index import (  # noqa: E402
+    DulatAttestationIndex,
+    entry_data_references,
+)
 from pipeline.dulat_attestation_translation_index import (  # noqa: E402
     DulatAttestationTranslationIndex,
 )
@@ -274,6 +277,8 @@ def canon_ref(r: str) -> str:
     t = re.sub(r"\s+", " ", t)
     t = t.replace("KTU ", "CAT ")
     t = t.replace("CATCAT", "CAT")
+    if re.match(r"^\d+\.\d+(?:\s|:)", t):
+        t = f"CAT {t}"
     return t
 
 
@@ -1200,9 +1205,16 @@ def analysis_for_entry(
 
 def suffix_fragment(e: Entry) -> str:
     frag = lemma_to_letters(e.lemma.lstrip("-"), fallback=e.lemma.lstrip("-"))
-    if e.hom:
-        return f"{frag}({e.hom})"
+    # Homonym numerals disambiguate lexemes, not surface suffix allomorphs.
     return frag
+
+
+def suffix_marker(e: Entry) -> str:
+    """Render enclitic particles with ``~`` and pronominal suffixes with ``+``."""
+    pos = normalize_pos_label(e.pos).lower()
+    if "postp. functor" in pos or ("morph." in pos and "pn." not in pos):
+        return "~"
+    return "+"
 
 
 def inject_surface_only_tail_before_nominal_closure(analysis: str, base_surface: str) -> str:
@@ -1545,15 +1557,14 @@ def load_reverse_mentions(
     entry_family_count: Dict[int, Counter] = defaultdict(Counter)
     seen_pairs: Set[Tuple[str, int]] = set()
 
-    conn = sqlite3.connect(str(dulat_db))
-    cur = conn.cursor()
-    cur.execute("SELECT norm_ref, entry_id FROM dulat_reverse_refs")
-    for ref, entry_id in cur.fetchall():
-        rk = canon_ref(ref)
-        eid = int(entry_id)
-        out.setdefault(rk, set()).add(eid)
-        key = (rk, eid)
-        if key not in seen_pairs:
+    def add_mentions(rows: Iterable[Tuple[str, int]]) -> None:
+        for ref, entry_id in rows:
+            rk = canon_ref(ref)
+            eid = int(entry_id)
+            out.setdefault(rk, set()).add(eid)
+            key = (rk, eid)
+            if key in seen_pairs:
+                continue
             seen_pairs.add(key)
             entry_ref_count[eid] += 1
             tid = tablet_id_from_ref(rk)
@@ -1562,25 +1573,48 @@ def load_reverse_mentions(
                 fam = tablet_family(tid)
                 if fam:
                     entry_family_count[eid][fam] += 1
+
+    conn = sqlite3.connect(str(dulat_db))
+    cur = conn.cursor()
+    cur.execute(
+        "SELECT 1 FROM sqlite_master "
+        "WHERE type = 'table' AND name = 'dulat_reverse_refs'"
+    )
+    if cur.fetchone() is not None:
+        cur.execute("SELECT norm_ref, entry_id FROM dulat_reverse_refs")
+        add_mentions(cur.fetchall())
+    else:
+        # Current slim DULAT core caches keep canonical citation evidence in
+        # ``attestations`` and move ``dulat_reverse_refs`` to the optional
+        # search sidecar. The parser only receives the core cache, so derive a
+        # conservative reverse index from those canonical attestations.
+        cur.execute(
+            "SELECT citation, entry_id FROM attestations "
+            "WHERE citation IS NOT NULL AND trim(citation) != ''"
+        )
+        add_mentions(cur.fetchall())
+        cur.execute("PRAGMA table_info(entries)")
+        if "data" in {row[1] for row in cur.fetchall()}:
+            cur.execute(
+                "SELECT entry_id, data FROM entries "
+                "WHERE data IS NOT NULL AND trim(data) != ''"
+            )
+            add_mentions(
+                (reference, int(entry_id))
+                for entry_id, data_raw in cur.fetchall()
+                for reference in entry_data_references(data_raw or "")
+            )
     conn.close()
 
     conn = sqlite3.connect(str(udb_db))
     cur = conn.cursor()
-    cur.execute("SELECT ktu_ref, entry_id FROM ktu_to_dulat")
-    for ref, entry_id in cur.fetchall():
-        rk = canon_ref(ref)
-        eid = int(entry_id)
-        out.setdefault(rk, set()).add(eid)
-        key = (rk, eid)
-        if key not in seen_pairs:
-            seen_pairs.add(key)
-            entry_ref_count[eid] += 1
-            tid = tablet_id_from_ref(rk)
-            if tid:
-                entry_tablets[eid].add(tid)
-                fam = tablet_family(tid)
-                if fam:
-                    entry_family_count[eid][fam] += 1
+    cur.execute(
+        "SELECT 1 FROM sqlite_master "
+        "WHERE type = 'table' AND name = 'ktu_to_dulat'"
+    )
+    if cur.fetchone() is not None:
+        cur.execute("SELECT ktu_ref, entry_id FROM ktu_to_dulat")
+        add_mentions(cur.fetchall())
     conn.close()
 
     return (
@@ -1589,7 +1623,6 @@ def load_reverse_mentions(
         dict(entry_tablets),
         {k: dict(v) for k, v in entry_family_count.items()},
     )
-
 
 # ------------------ refinement ------------------
 
@@ -1949,6 +1982,7 @@ def build_variants(
     # - when direct candidates come only from lemma fallback (no exact form hit).
     if ((not direct) or (direct and not direct_has_exact_form)) and not editorial_direct_ids:
         suffixes = sorted(suffix_map.keys(), key=len, reverse=True)
+        split_base_entry_ids: set[int] = set()
         for suf in suffixes:
             if not s_norm.endswith(suf) or len(s_norm) <= len(suf):
                 continue
@@ -1984,8 +2018,14 @@ def build_variants(
             # derive base surface by raw trimming (best effort)
             base_surface = surface[: max(1, len(surface) - len(suf))]
             for be in base_entries[:4]:
+                # Suffixes are visited longest-first. Avoid emitting a shorter
+                # segmentation for the same lexical head after a longer suffix
+                # has already produced a viable reading.
+                if be.entry_id in split_base_entry_ids:
+                    continue
                 for se in suffix_entries[:3]:
                     variants.append(Variant((be, se), base_surface))
+                split_base_entry_ids.add(be.entry_id)
 
     if not variants:
         return []
@@ -2116,7 +2156,7 @@ def render_variant(
         analysis=base_analysis,
         base_surface=v.base_surface,
     )
-    a = f"{base_analysis}+{suffix_fragment(suf)}"
+    a = f"{base_analysis}{suffix_marker(suf)}{suffix_fragment(suf)}"
     d = f"{entry_label(base)},{entry_label(suf)}"
     p = f"{pos_token(base)},{pos_token(suf)}"
     base_stem_name = inferred_stem_from_morph_values(mv) or inferred_stem_from_analysis(

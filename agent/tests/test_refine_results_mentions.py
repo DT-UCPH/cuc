@@ -17,11 +17,14 @@ from scripts.refine_results_mentions import (
     gloss_for_entry,
     is_usable_sense_definition,
     load_entries,
+    load_reverse_mentions,
     normalize_reference_sense_gloss,
     parse_separator_ref,
     refine_file,
     render_variant,
     select_viable_ranked_variants,
+    suffix_fragment,
+    suffix_marker,
 )
 
 _INSERT_ENTRY_SQL = (
@@ -69,6 +72,47 @@ class RefineResultsMentionsTest(unittest.TestCase):
             wiki_tr="",
         )
         self.assertEqual(entry_label(entry), "ỉ/ủšḫry")
+
+    def test_suffix_fragment_omits_lexical_homonym_marker(self) -> None:
+        suffix = Entry(2546, "-m", "I", "morph.", "enclitic", "")
+        self.assertEqual(suffix_fragment(suffix), "m")
+        self.assertEqual(suffix_marker(suffix), "~")
+
+    def test_suffix_marker_distinguishes_enclitics_from_pronominal_suffixes(self) -> None:
+        enclitic_t = Entry(5436, "-t", "", "morph.", "enclitic", "")
+        enclitic_y = Entry(4693, "-y", "II", "postp. functor", "indeed", "")
+        possessive_y = Entry(4692, "-y", "I", "prep.", "my", "")
+        possessive_h = Entry(1725, "-h", "I", "suff. pn. morph.", "his", "")
+        possessive_kn = Entry(2297, "-kn", "", "suffixed pn. morph.", "your", "")
+
+        self.assertEqual(suffix_marker(enclitic_t), "~")
+        self.assertEqual(suffix_marker(enclitic_y), "~")
+        self.assertEqual(suffix_marker(possessive_y), "+")
+        self.assertEqual(suffix_marker(possessive_h), "+")
+        self.assertEqual(suffix_marker(possessive_kn), "+")
+
+    def test_suffix_splitting_prefers_longest_suffix_for_same_head(self) -> None:
+        base = Entry(4, "ảb", "", "n. m.", "father", "")
+        suffix_ny = Entry(3227, "-ny", "", "pers. pn.", "our", "")
+        suffix_y = Entry(4692, "-y", "I", "prep.", "my", "")
+
+        variants = build_variants(
+            surface="abny",
+            current_ref="CAT 2.87:1",
+            forms_map={"ab": [base], "abn": [base]},
+            lemma_map={},
+            suffix_map={"ny": [suffix_ny], "y": [suffix_y]},
+            forms_morph={("ab", 4): {"cstr."}, ("abn", 4): {"suff."}},
+            mention_ids=set(),
+            entry_ref_count={},
+            entry_tablets={},
+            entry_family_count={},
+        )
+
+        self.assertEqual(
+            [tuple(entry.entry_id for entry in variant.entries) for variant in variants],
+            [(4, 3227)],
+        )
 
     def test_ranked_selection_preserves_exact_homonyms(self) -> None:
         variants = [
@@ -897,7 +941,7 @@ class RefineResultsMentionsTest(unittest.TestCase):
 
             rendered = [render_variant("yry", variant, forms_morph) for variant in variants]
             self.assertNotIn(("yry/", "yry", "PN", "yry"), rendered)
-            self.assertTrue(any("+y(I)" in row[0] for row in rendered))
+            self.assertTrue(any("+y" in row[0] for row in rendered))
             self.assertTrue(any(row[0].startswith("yr/+y") for row in rendered))
 
     def test_exact_direct_lexical_candidate_blocks_suffix_split_variants(self) -> None:
@@ -1169,6 +1213,86 @@ class RefineResultsMentionsTest(unittest.TestCase):
             parse_separator_ref("#---------------------------- KTU 1.3 I:23"),
             "CAT 1.3 I:23",
         )
+
+    def test_reverse_mentions_fall_back_to_core_attestations(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            dulat_db = Path(tmp_dir) / "dulat.sqlite"
+            udb_db = Path(tmp_dir) / "udb.sqlite"
+            conn = sqlite3.connect(str(dulat_db))
+            conn.execute(
+                "CREATE TABLE attestations (entry_id INTEGER, citation TEXT)"
+            )
+            conn.execute("CREATE TABLE entries (entry_id INTEGER, data TEXT)")
+            conn.execute(
+                "INSERT INTO entries(entry_id, data) VALUES (?, ?)",
+                (17, '{"raw_notes":["PN: 4.35 I 22"]}'),
+            )
+            conn.executemany(
+                "INSERT INTO attestations(entry_id, citation) VALUES (?, ?)",
+                [
+                    (17, "KTU 1.14 III:42"),
+                    (17, "CAT 1.14 III:42"),
+                    (17, "CAT 1.100:20"),
+                    (18, "CAT 2.4:3"),
+                    (18, ""),
+                ],
+            )
+            conn.commit()
+            conn.close()
+            sqlite3.connect(str(udb_db)).close()
+
+            mentions, ref_counts, tablets, family_counts = load_reverse_mentions(
+                dulat_db,
+                udb_db,
+            )
+
+            self.assertEqual(mentions["CAT 1.14 III:42"], {17})
+            self.assertEqual(mentions["CAT 1.100:20"], {17})
+            self.assertEqual(mentions["CAT 2.4:3"], {18})
+            self.assertEqual(mentions["CAT 4.35 I:22"], {17})
+            self.assertEqual(ref_counts, {17: 3, 18: 1})
+            self.assertEqual(
+                tablets,
+                {17: {"1.14", "1.100", "4.35"}, 18: {"2.4"}},
+            )
+            self.assertEqual(family_counts, {17: {"1": 2, "4": 1}, 18: {"2": 1}})
+
+    def test_reverse_mentions_prefer_legacy_derived_tables_when_present(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            dulat_db = Path(tmp_dir) / "dulat.sqlite"
+            udb_db = Path(tmp_dir) / "udb.sqlite"
+            conn = sqlite3.connect(str(dulat_db))
+            conn.execute(
+                "CREATE TABLE dulat_reverse_refs (norm_ref TEXT, entry_id INTEGER)"
+            )
+            conn.execute(
+                "CREATE TABLE attestations (entry_id INTEGER, citation TEXT)"
+            )
+            conn.execute(
+                "INSERT INTO dulat_reverse_refs(norm_ref, entry_id) VALUES (?, ?)",
+                ("CAT 1.2 I:1", 10),
+            )
+            conn.execute(
+                "INSERT INTO attestations(entry_id, citation) VALUES (?, ?)",
+                (11, "CAT 1.2 I:2"),
+            )
+            conn.commit()
+            conn.close()
+            conn = sqlite3.connect(str(udb_db))
+            conn.execute("CREATE TABLE ktu_to_dulat (ktu_ref TEXT, entry_id INTEGER)")
+            conn.execute(
+                "INSERT INTO ktu_to_dulat(ktu_ref, entry_id) VALUES (?, ?)",
+                ("KTU 1.2 I:3", 12),
+            )
+            conn.commit()
+            conn.close()
+
+            mentions, _ref_counts, _tablets, _family_counts = load_reverse_mentions(
+                dulat_db,
+                udb_db,
+            )
+
+            self.assertEqual(mentions, {"CAT 1.2 I:1": {10}, "CAT 1.2 I:3": {12}})
 
     def test_refine_file_uses_reverse_mentions_with_no_column_separator(self) -> None:
         dn_entry = Entry(

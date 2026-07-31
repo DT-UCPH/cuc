@@ -411,6 +411,8 @@ def _restore_hidden_weak_y_before_enclitic_m(
     value = (analysis_variant or "").strip()
     if not value or not (pos_variant or "").lower().startswith("vb"):
         return analysis_variant
+    if "(y[" in value:
+        return analysis_variant
     surface_norm = normalize_surface(surface).lower()
     if not surface_norm.endswith("m"):
         return analysis_variant
