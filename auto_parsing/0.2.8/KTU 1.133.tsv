@@ -13,6 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174169	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 174169	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 174169	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+174169	mt	mt(IV)	mt (IV)	adv.	certainly	
 174170	npšm	npš(I)/m	npš (I)	n. f. pl. cstr. nom.	2) appetite	
 # KTU 1.133 3						
 174171	npš	npš(I)/	npš (I)	n. f. sg. cstr. gen.	2) appetite	
@@ -24,6 +25,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.133 5						
 174176	anḫr	anḫr/	ảnḫr	n. m. sg. abs. gen.	dolphin	
 174177	b	b	b	prep.	in	
+174178	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+174178	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 174178	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	1) sea	
 # KTU 1.133 6						
 174179	brkyt	brk&y/t	brkt/y	n. f. sg. abs. gen.	pool	KTU corrected: brkt
@@ -47,7 +50,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174185	kḏd	kḏd	kḏd	→	?	
 174185	kḏd	&kḏd(I)/	ḏd (I)	n. m. abs. nom.	breast	Based on DULAT reconstruction.
 174186	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg. abs. nom.	hind	
-174186	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. nom.	hind	
 # KTU 1.133 9						
 174187	mt	mt(IV)	mt (IV)	adv.	certainly	
 174188	hm	hm(II)	hm (II)	conj./interr. functor	if	
@@ -55,6 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174189	ks	ks(I)/	ks (I)	n. m. sg. cstr. nom.	cup	
 174189	ks	ks/	ks/śm(n)	n. m. pl. cstr. nom.	emmer-corn	
 174190	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+174190	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 174190	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 # KTU 1.133 10						
 174191	sk	sk(I)/	sk (I)	n. m. sg. cstr. gen.	coverlet	
@@ -92,6 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174209	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 174209	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 174209	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+174209	mt	mt(IV)	mt (IV)	adv.	certainly	
 174210	šmḥ	?	?	?	?	DULAT candidates (no reconstructable encoding): /š-m-ḫ/ - to be glad, rejoice
 174211	p	p(I)	p (I)	conj. functor	and	
 174211	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	

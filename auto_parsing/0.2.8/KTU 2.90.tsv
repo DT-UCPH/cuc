@@ -12,8 +12,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179720	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 179720	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.90 4						
-179721	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	1) missive	
-179721	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+179721	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	1) missive	
 179722	hn	hn	hn	functor	2) as an adv.	
 179723	bnšk	bnš/+k	bnš	n. m. cstr. nom.	2) personnel in service	
 # KTU 2.90 5						
@@ -61,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179749	w	w	w	conj.	4) declarative and emphatic functor	
 179750	and	an(I)+d	ản (I)	pers. pn.	I	
 179750	and	an(II)+d	ản (II)	adv.	wherever	
-179751	at	at(I)	ảt (I)	pers. pn.	1) you a) subj. in NC	
+179751	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you a) subj. in NC	
 # KTU 2.90 14						
 179752	ḫrdk	ḫrd/+k	ḫrd	n. m. cstr. nom.	(royal) guard	
 179753	yuḫd	!y!(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
@@ -99,16 +98,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179772	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.90 22						
 179773	w	w	w	conj.	and	
-179774	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+179774	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you b) emph. subj. in VC	
 179775	bd	b&d	b	prep.	in	
 # KTU 2.90 23						
 179776	mlakty	mlak(t/t+y	mlảkt	n. f. sg. cstr. gen.	message	
 179777	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.90 24						
-179778	štnn	št[n+n	/š-t/	vb G impv. 2	to place	
 179778	štnn	št[:pass+nn	/š-t/	vb G suffc.	to place	
 179778	štnn	št[:pass+nn	/š-t/	vb G impv. 2	to place	
 179778	štnn	št[:pass+nn	/š-t/	vb Gpass suffc.	to be placed, set	
-179778	štnn	št(III)/+nn	št (III)	n. m. cstr. nom.	tearing apart	
-179778	štnn	št(II)/+nn	št (II)	n. f. cstr. nom.	raíz	
 179778	štnn	št(I)/+nn	št (I)	n. m. cstr. nom.	base	
+179778	štnn	št(II)/+nn	št (II)	n. f. cstr. nom.	measure of capacity	
+179778	štnn	št(III)/+nn	št (III)	n. m. cstr. nom.	tearing apart	

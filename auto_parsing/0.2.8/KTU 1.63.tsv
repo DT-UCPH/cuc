@@ -32,4 +32,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.63 13						
 168527	xy	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.63 14						
-168528	nt	?	?	?	?	DULAT: NOT FOUND
+168528	nt	n(I)[~t	n (I)	vb	Objektsuffix 1.c.sg.	LUPT lemma
+168528	nt	n(II)[~t	n (II)	vb	Pronominalsuffix 1.c.pl.	LUPT lemma
+168528	nt	n(III)[~t	n (III)	vb	Energikusendung	LUPT lemma
+168528	nt	n(IV)[~t	n (IV)	vb	enklitische	LUPT lemma

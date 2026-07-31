@@ -9,6 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173088	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 173088	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 173088	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+173088	mt	mt(IV)	mt (IV)	adv.	certainly	
 173089	w	w	w	conj.	and	
 173090	rm	rm(I)/	rm (I)	adj. m. sg. abs. nom.	high	
 173090	rm	rm[	/r-m/	vb G suffc. 3 m. sg.	to go up	
@@ -84,7 +85,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173123		?	?	?	?	
 173124	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 173124	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-173125	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
+173125	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	of several kings of Ugarit	
 # KTU 1.113 15						
 173126	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 173126	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
@@ -102,75 +103,54 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173134	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 173135	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
 173136	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-173137	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	nqmpʿ	
+173137	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	of several kings of Ugarit	
 # KTU 1.113 19						
 173138	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 173138	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 173139	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	
 173140	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 173140	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
-173141	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr. gen.	bull	
-173141	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr. gen.	wing	
+173141	ibrn	ibr(I)/~n	ỉbr (I)	n. m. cstr. gen.	bull	
+173141	ibrn	ibr(II)/~n	ỉbr (II)	n. m. cstr. gen.	wing	
 # KTU 1.113 20						
-173142	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173142	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173142	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173142	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173143	arḫlb	arḫlb/	ảrḫlb	PN sg. abs. nom.	ảrḫlb	
-173144	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173144	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173144	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173144	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173145	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. abs. nom.	ʿAmmurāpʾi	
+173142	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173142	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173143	arḫlb	arḫlb/	ảrḫlb	PN sg. cstr. gen.	ảrḫlb	
+173144	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173144	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173145	ˤmrpi	ˤmrpi/	ʕmrpỉ	PN sg. cstr. gen.	ʿAmmurāpʾi	
 # KTU 1.113 21						
-173146	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173146	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173146	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173146	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173147	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. abs. nom.	nqmpʿ	
-173148	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173148	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173148	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173148	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173149	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. abs. nom.	nqmpʿ	
+173146	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173146	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173147	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	of several kings of Ugarit	
+173148	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173148	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173149	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	of several kings of Ugarit	
 # KTU 1.113 22						
-173150	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173150	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173150	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173150	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173151	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
-173152	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173152	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173152	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173152	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173153	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr. nom.	bull	
-173153	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr. nom.	wing	
+173150	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173150	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173151	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. cstr. gen.	ʿmṯtmr	
+173152	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173152	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173153	ibrn	ibr(I)/~n	ỉbr (I)	n. m. cstr. gen.	bull	
+173153	ibrn	ibr(II)/~n	ỉbr (II)	n. m. cstr. gen.	wing	
 # KTU 1.113 23						
-173154	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173154	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173154	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173154	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173155	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
-173156	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173156	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173156	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173156	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173157	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. abs. nom.	nqmpʿ	
+173154	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173154	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173155	nqmd	nqmd/	nqmd	PN sg. cstr. gen.	Niqmaddu	
+173156	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173156	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173157	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. gen.	of several kings of Ugarit	
 # KTU 1.113 24						
 173158		?	?	?	?	
-173159	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173159	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173159	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173159	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173160	ibrn	ibr(I)/+n	ỉbr (I)	n. m. cstr. nom.	bull	
-173160	ibrn	ibr(II)/+n	ỉbr (II)	n. m. cstr. nom.	wing	
+173159	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
+173159	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173160	ibrn	ibr(I)/~n	ỉbr (I)	n. m. cstr. gen.	bull	
+173160	ibrn	ibr(II)/~n	ỉbr (II)	n. m. cstr. gen.	wing	
 # KTU 1.113 25						
 173161		?	?	?	?	
-173162	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
-173162	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
-173162	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
-173162	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	
-173163	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
+173162	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
+173163	nqmd	nqmd/	nqmd	PN sg. abs. gen.	Niqmaddu	
 # KTU 1.113 26						
 173164	pˤ	pˤ	pʕ	?	?	
 173165	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	

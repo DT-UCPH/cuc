@@ -1,8 +1,8 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 1						
 168641	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg. cstr. nom.	fortress	
-168642	bltn	bl(I)&t+n	bl (I)	adv. /emph. functor	no	
-168642	bltn	blt[+n	/b-l-t/	vb G suffc.	to open wide > couper	
+168642	bltn	bl(I)&t~n	bl (I)	adv. /emph. functor	no	
+168642	bltn	blt[~n	/b-l-t/	vb G suffc.	to open wide > couper	
 168643	i	i(I)	ỉ (I)	interj.	woe	
 168644		?	?	?	?	
 # KTU 1.69 2						
@@ -14,15 +14,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168647	klt	kl(t(II)/t	klt (II)	n. f. sg. abs. nom.	measure	
 168648	mx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 3						
-168649	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-168649	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+168649	n	~n	-n (I)	encl. morph.		
+168649	n		-n (IV)	vb	him/her/it	
 168650	ll	ll(I)/	ll (I)	n. m. sg. abs. nom.	night	
 168651	irbt	?	?	?	?	DULAT: NOT FOUND
 168652	ryb	?	?	?	?	DULAT: NOT FOUND
 168653	g	g/	g	n. m. abs. nom.	(loud) voice	
 # KTU 1.69 4						
 168654	t	/t, /t=				DULAT: NOT FOUND
-168654	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 168655	aḏmr	?	?	?	?	DULAT: NOT FOUND
 168656	mˤnh	mˤn/+h	mʕn	n. m. cstr. nom.	reply	
 168657	w	w	w	conj.	and	
@@ -56,8 +55,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168674	umam	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.69 10						
 168675	l	l(I)	l (I)	prep.	to	
-168676	im	im(II)	hm (II)	conj./interr. functor	if	
 168676	im	im	ỉm	conj.	if	
+168676	im	im(II)	hm (II)	conj./interr. functor	if	
 168677	l	l(I)	l (I)	prep.	to	
 168678	mṯ	mṯ(I)/	mṯ (I)	n. m. sg. abs. gen.	infant	
 # KTU 1.69 11						
@@ -77,8 +76,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.69 14						
 168685	ṣk	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḫ-ṣ/ - to wound
 # KTU 1.69 15						
-168686	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-168686	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+168686	n	~n	-n (I)	encl. morph.		
+168686	n		-n (IV)	vb	him/her/it	
 168687	w	w	w	conj.	and	
 168688	an	an(I)	ản (I)	pers. pn.	I	
 168688	an	an(II)	ản (II)	adv.	wherever	

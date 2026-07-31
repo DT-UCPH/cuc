@@ -56,7 +56,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170779		?	?	?	?	
 # KTU 1.94 24						
 170780	t	/t, /t=				DULAT: NOT FOUND
-170780	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 170781	btm	bt(II)/m	bt (II)	n. m. pl. abs. nom.	house	
 170781	btm	bt(I)/m	bt (I)	n. f. pl. abs. nom.	daughter	
 170782	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
@@ -94,8 +93,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170796	w	w	w	conj.	and	
 170797	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	3) lady	
 170797	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	3) lady	
-170797	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	3) lady	
-170797	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	3) lady	
 # KTU 1.94 30						
 170798	xk	?	?	?	?	DULAT: NOT FOUND
 170799	w	w	w	conj.	and	
@@ -118,8 +115,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170812	kx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.94 35						
 170813	ṯtm	ṯtm(I)/	ṯn (I)	num.	4) adv. use	
-170814	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-170814	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+170814	n	~n	-n (I)	encl. morph.		
+170814	n		-n (IV)	vb	him/her/it	
 # KTU 1.94 36						
 170815	km	km	km	prep./conj./adv.		
 170816	tˤrb	!t!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 3 f. sg.	1) to cause to enter	

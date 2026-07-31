@@ -28,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172555	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 172556	ṯpẓ	ṯp(ṭ(II)&ẓ/	ṯpṭ (II)	n. m. sg. abs. gen.	judge	
 172557	b	b	b	prep.	in	
-172558	hdrˤy	hdrˤy/	hdrʕy	TN sg. abs. gen.	Haddou le berger	
+172558	hdrˤy	hdrˤy/	hdrʕy	TN sg. abs. gen.	hdrʿy	
 172559	d	d	d	det. or rel. functor	2) which	
 172560	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	1) to be sung	
 172561	w	w	w	conj.	and	
@@ -45,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172570	mṣltm	mṣlt(I)/m	mṣlt (I)	n. f. pl. abs. nom.	cymbal	
 172571	bm	b~m	b	prep.	4) relation of accompaniment and instrumental b) instrumental	
 # KTU 1.108 5						
-172572	rqdm	rqd/+m(I)	rqd	TN sg. cstr. nom.	rqd	
+172572	rqdm	rqd/~m	rqd	TN sg. abs. nom.	rqd	
 172573	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
 172574	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 172575	b	b	b	prep.	in	
@@ -72,6 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172591	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. nom.	lady	
 172592	kpṯ	kpṯ/	kpṯ	n. m. sg. abs. gen.	1) floor (> “Firmament”)	
 172593	w	w	w	conj.	and	
+172594	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 172594	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 172594	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 172595	di	(nd(ʔ[&i	/n-d-ʔ/	vb G impv. 2	to frighten away	
@@ -188,9 +189,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172667	ˤzk	ˤz(I)/+k	ʕz (I)	n. m. cstr. gen.	strength	
 172668	ḏmrk	ḏmr(II)/+k	ḏmr (II)	n. m. sg. cstr. nom.	fortress	
 172669	la	la/	lả	n. m. sg. abs. nom.	power	
-172669	la	lan/+k	lản	n. m. sg. cstr. nom.	power	If merged with following token nk.
 # KTU 1.108 25						
-172670	nk	?	?	?	?	DULAT: NOT FOUND
+172670	nk	n(I)[+k	n (I)	vb	Objektsuffix 1.c.sg.	LUPT lemma
+172670	nk	n(II)[+k	n (II)	vb	Pronominalsuffix 1.c.pl.	LUPT lemma
+172670	nk	n(III)[+k	n (III)	vb	Energikusendung	LUPT lemma
+172670	nk	n(IV)[+k	n (IV)	vb	enklitische	LUPT lemma
 172671	ḥtkk	ḥtk(I)/+k	ḥtk (I)	n. m. sg. cstr. nom.	ruler > progenitor	
 172671	ḥtkk	ḥtk(III)/+k	ḥtk (III)	n. m. sg. cstr. nom.	sovereignty	
 172672	nmrtk	nmr(t/t+k	nmrt	n. f. sg. cstr. nom.	splendour	
@@ -201,7 +204,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172676	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 172676	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
 172676	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-172677	ymt	ym(I)/t=	ym (I)	n. f. pl. abs. nom.	1) day b) as a period in time	
+172677	ymt	ym(I)/t=	ym (I)	n. m. pl. abs. nom.	1) day b) as a period in time	
 172677	ymt	!y!mt[	/m-t/	vb G prefc. 3 m. sg.	to die	
 172678	špš	špš/	špš	n. f. sg. abs. nom.	1) sun	
 172679	w	w	w	conj.	and	

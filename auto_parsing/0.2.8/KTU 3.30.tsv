@@ -19,14 +19,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181767	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 181767	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181767	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181768	yrmn	!y!rm(y[+n	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
+181768	yrmn	!y!rm(y[~n	/r-m-y/	vb G prefc. 3 m. sg.	to throw	
 # KTU 3.30 5						
 181769	šbˤm	šbˤ(I)&m/	šbʕ (I)	num. f.	seven	
 181769	šbˤm	šbˤm/	šbʕm	num.	seventy	
-181770	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
+181770	ṯqlm	ṯql/~m	ṯql	n. m. cstr. nom.	shekel	
 # KTU 3.30 6						
-181771	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
-181772	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181771	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	total (quantity or price)	
+181772	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 # KTU 3.30 7						
 181773	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 181773	ˤl	ˤl(II)	ʕl (II)	adv.	above	
@@ -127,8 +127,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181807	bn	bn(II)	bn (II)	prep.	between	
 181807	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 181807	bn	bn[	/b-n/	vb G impv. 2	to understand	
-181808	ytrm	!y!tr[+m(I)	/t-r/	vb	to scour	
-181808	ytrm	!y!(ntr[+m(I)	/n-t-r/	vb	to banish	
+181808	ytrm	!y!tr[~m	/t-r/	vb	to scour	
+181808	ytrm	!y!(ntr[~m	/n-t-r/	vb	to banish	
 181809	šlmy	šlm(I)/+y	šlm (I)	n. m. cstr. nom.	peace	
 181809	šlmy	šlmy(II)/	šlmy (II)	GN sg. abs. nom.	šlmy (II)	
 # KTU 3.30 22						
@@ -152,8 +152,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181818	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 181818	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181818	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181819	gln	gl(II)/+n	gl (II)	n. m. cstr. nom.	cup	
-181819	gln	gl(III)/+n	gl (III)	n. m. cstr. nom.	cup	
+181819	gln	gl(II)/~n	gl (II)	n. m. abs. nom.	cup	
+181819	gln	gl(III)/~n	gl (III)	n. m. abs. nom.	which qualifies a farm or field	
 # KTU 3.30 26						
 181820	bn	b+n	b	prep.	in	
 181820	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	

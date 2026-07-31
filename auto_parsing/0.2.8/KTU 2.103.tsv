@@ -3,9 +3,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180204	tḥm	tḥm/	tḥm	n. m. sg. abs. nom.	message	
 # KTU 2.103 2						
 180205	l	l(I)	l (I)	prep.	to	
-180206	ur	ur/	ủr	n. m. sg. abs. gen.	warmth	
+180206	ur	ur/	ủr	n. m. sg. cstr. gen.	warmth	
 # KTU 2.103 3						
-180207	urt	?	?	?	?	DULAT: NOT FOUND
+180207	urt	ur/~t	ủr	n. m. abs. gen.	warmth	
 # KTU 2.103 4						
 180208		?	?	?	?	
 180209		?	?	?	?	
@@ -37,27 +37,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180224	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
 180224	ky	k(II)+y	k (II)	emph. functor	yes	
 180224	ky	k(IV)+y	k (IV)	adv.	thus	
-180225	ḫbt	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Bien-amada	
+180225	ḫbt	ḫbt(II)/	ḫbt (II)	DN sg. abs. nom.	Syro-Hurr. goddess	
 180225	ḫbt	ḫbt[:pass	/ḫ-b-t/	vb Gpass suffc.	to be oppressed	
 180226	w	w	w	conj.	4) declarative and emphatic functor	
 180227	l	l(I)	l (I)	prep.	to	
 180228	ušal	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 12						
 180229	yby	?	?	?	?	DULAT: NOT FOUND
-180230	ḥdy	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - to see
+180230	ḥdy	ḥdy(II)[	ḥdy (II)	vb	sich freuen	LUPT lemma
 180231	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.103 13						
 180232	rṣ	?	?	?	?	DULAT: NOT FOUND
 180233	lby	lb/+y	lb	n. m. cstr. nom.	heart	
 180234	w	w	w	conj.	and	
-180235	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	missive	
-180235	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
+180235	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. cstr. nom.	missive	
 # KTU 2.103 14						
 180236	kt	k(t(I)/t	kt (I)	n. f. sg. abs. gen.	pitcher	
 180236	kt	k(t(II)/t	kt (II)	n. f. sg. abs. gen.	stage	
 180237	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-180238	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. gen.	missive	
-180238	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. gen.	cheek	
+180238	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. gen.	missive	
 # KTU 2.103 15						
 180239	u	u	ủ	conj.	or	
 180240	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
@@ -76,8 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180248	tġr	!t!(nġr[	/n-ġ-r/	vb G prefc.	to protect	
 # KTU 2.103 19						
 180249	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc.	to restore / preserve health	
-180250	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
-180250	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+180250	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	missive	
 # KTU 2.103 20						
 180251	k	+k	-k (I)			
 180251	k	~k	-k (II)			
@@ -85,19 +82,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180251	k	k(I)	k (I)	prep.	like	
 180251	k	k(II)	k (II)	emph. functor	yes	
 180252	l	l(I)	l (I)	prep.	to	
-180253	ikt	?	?	?	?	DULAT: NOT FOUND
+180253	ikt	ik~t	ỉk	interr. functor	how?	
 180254	l	l(I)	l (I)	prep.	to	
-180255	ḫpn	ḫpn(I)/	ḫpn (I)	n. m. sg. abs. gen.	Gewand	
+180255	ḫpn	ḫpn(I)/	ḫpn (I)	n. m. sg. abs. gen.	a garment or accessory (harness)	
 # KTU 2.103 21						
 180256	w	w	w	conj.	and	
 180257	l	l(I)	l (I)	prep.	to	
 180258	kblm	kbl(I)/m	kbl (I)	n. m. pl. abs. gen.	leggings	
 # KTU 2.103 22						
-180259	lkn	l(I)+kn	l (I)	prep.	to	
-180259	lkn	l(I)&k+n	l (I)	prep.	to	
 180259	lkn	l(II)+kn	l (II)	adv.	no	
 180259	lkn	l(III)+kn	l (III)	functor	certainly	
 180259	lkn	l(IV)+kn	l (IV)	interj.	oh!	
+180259	lkn	l(I)+kn	l (I)	prep.	to	
 # KTU 2.103 23						
 180260	mxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.103 24						
@@ -144,9 +140,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180279	šḥš	]š]ḥš(I)[	/ḥ-š/ (I)	vb Š impv. 2	to make somebody hurry up	
 180280		?	?	?	?	
 # KTU 2.103 33						
-180281	ˤkd	ˤkd/	ʕkd	TN sg. abs. nom.	ungestüm	
+180281	ˤkd	ˤkd/	ʕkd	TN sg. abs. nom.	ʿkd	
 180282	w	w	w	conj.	and	
 180283	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
 180283	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 180284	t	/t, /t=				DULAT: NOT FOUND
-180284	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND

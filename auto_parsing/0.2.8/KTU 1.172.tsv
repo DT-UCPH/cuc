@@ -3,7 +3,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175284	x	?	?	?	?	
 # KTU 1.172 2						
 175285	t	/t, /t=				DULAT: NOT FOUND
-175285	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.172 3						
 175286	bat	?	?	?	?	DULAT candidates (no reconstructable encoding): /b-ʔ/ - to enter
 # KTU 1.172 4						
@@ -14,7 +13,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175289	w	w	w	conj.	and	
 175290	šb	šb/	šb	n. m. abs. nom.	old man	
 # KTU 1.172 7						
-175291	nwy	?	?	?	?	DULAT: NOT FOUND
+175291	nwy	!n!(nwy[	nwy	vb	Interpretation unsicher	LUPT lemma
 # KTU 1.172 8						
 175292	w	w	w	conj.	and	
 175293	angḥ	!(ʔ&a!ngḥ[	/n-g-ḥ/	vb N prefc. 1 c. sg.	to butt each other	
@@ -29,26 +28,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175298	ḫlt	ḫlt	ḫlt	?	?	
 # KTU 1.172 12						
 175299	t	/t, /t=				DULAT: NOT FOUND
-175299	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 175300	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	2) left hand	
 # KTU 1.172 13						
 175301	xˤnk	?	?	?	?	DULAT: NOT FOUND
 175302	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 175302	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 175302	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
-175302	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 # KTU 1.172 14						
 175303	rn	?	?	?	?	DULAT: NOT FOUND
-175304	lp	?	?	?	?	DULAT: NOT FOUND
+175304	lp	?	lp	?	?	DULAT: NOT FOUND | LUPT lemma
 # KTU 1.172 15						
-175305	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-175305	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+175305	n	~n	-n (I)	encl. morph.		
+175305	n		-n (IV)	vb	him/her/it	
 175306	tlm	tlm/	tlm	n. m. sg. abs. nom.	furrow	
 # KTU 1.172 16						
 175307	qd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.172 17						
-175308	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-175308	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+175308	n	~n	-n (I)	encl. morph.		
+175308	n		-n (IV)	vb	him/her/it	
 175309	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 175309	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 175309	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
@@ -72,7 +69,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175321	b	b	b	prep.	in	
 175322	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	5) used as a preposition	
 # KTU 1.172 22						
-175323	nh	n(I)&h	-n (I)	morph.	with c. n	
+175323	nh	n(I)&h	-n (I)	morph.	multifunctional encl. morph. / emph. or det. encl. morph	
+175323	nh	n(I)[+h	n (I)	vb	Objektsuffix 1.c.sg.	LUPT lemma
+175323	nh	n(II)[+h	n (II)	vb	Pronominalsuffix 1.c.pl.	LUPT lemma
+175323	nh	n(III)[+h	n (III)	vb	Energikusendung	LUPT lemma
+175323	nh	n(IV)[+h	n (IV)	vb	enklitische	LUPT lemma
 175324	w	w	w	conj.	and	
 175325	l	l(I)	l (I)	prep.	to	
 175325	l	l(II)	l (II)	adv.	no	
@@ -80,7 +81,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175326	yamr	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-m-r/ - to be seen
 # KTU 1.172 23						
 175327	x	?	?	?	?	
-175328	gb	gb(I)/	gb (I)	n. m. sg. cstr. nom.	pit	
+175328	gb	gb(I)/	gb (I)	n. m. sg. cstr. nom.	a cult installation	
 175329	ad	ad/	ảd	n. m. sg. abs. gen.	father	
 # KTU 1.172 24						
 175330	xḫl	?	?	?	?	DULAT: NOT FOUND

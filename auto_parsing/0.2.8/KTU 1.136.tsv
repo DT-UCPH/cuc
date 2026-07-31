@@ -10,8 +10,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174257	l	l(I)	l (I)	prep.	to	
 174258	ṯġr	ṯġr(II)/	ṯġr (II)	n. m. sg. abs. gen.	gatekeeper	
 174258	ṯġr	ṯġr(I)/	ṯġr (I)	n. m. sg. abs. gen.	gate	
-174259	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-174259	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+174259	n	~n	-n (I)	encl. morph.		
+174259	n		-n (IV)	vb	him/her/it	
 # KTU 1.136 4						
 174260	w	w	w	conj.	and	
 174261	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	3) month name	
@@ -49,10 +49,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.136 11						
 174279	l	l(I)	l (I)	prep.	to	
 174280	ilz	ilz	ỉlz	?	?	
-174281	ṣt	ṣ(t/t	ṣt	n. f. sg. cstr. nom.	garment	
+174281	ṣt	ṣ(t/t	ṣt	n. f. sg. cstr. nom.	a garment	
 # KTU 1.136 12						
-174282	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
-174283	š	š/	š	n. m. sg. abs. nom.	ram	
+174282	ˤṣrm	ˤṣr(I)/~m	ʕṣr (I)	n. f. cstr. gen.	bird	
+174283	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.136 13						
 174284	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 174284	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	

@@ -6,12 +6,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 2						
 180667	ˤmṯtmr	ˤmṯtmr/	ʕmṯtmr	PN sg. abs. nom.	ʿmṯtmr	
 # KTU 3.2 3						
+180668	bn	b+n	b	prep.	in	
 180668	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
 180668	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	1) son a) of men and gods	
 180668	bn	bn(II)	bn (II)	prep.	between	
 180668	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180668	bn	bn[	/b-n/	vb G impv. 2	to understand	
-180669	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
+180669	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	of several kings of Ugarit	
 # KTU 3.2 4						
 180670	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 180671	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -37,8 +38,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.2 8						
 180682	w	w	w	conj.	and	
 180683	ytnn	!y!(ytn[n	/y-t-n/	vb	to give	
-180683	ytnn	!y!(ytn[+n	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-180683	ytnn	ytnn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 180683	ytnn	yt/+nn	yt	n. m. cstr. nom.	?	
 # KTU 3.2 9						
 180684	l	l(I)	l (I)	prep.	to	

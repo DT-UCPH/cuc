@@ -3,9 +3,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172934	b	b	b	prep.	in	
 172935	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 172935	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
-172936	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
+172936	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.		
 172937	b	b	b	prep.	in	
 172938	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+172938	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 172938	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 1.112 2						
 172939	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
@@ -13,9 +14,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172940	ḫḏrġl	ḫḏrġl/	ḫḏrġl	n. m. sg. abs. nom.	assistant	
 172941	xxxx	?	?	?	?	
 # KTU 1.112 3						
-172942	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172942	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 172942	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+172942	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172943	šm	š/m	š	n. m. pl. cstr. nom.	ram	
 172943	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
 172944	ḫmnh	ḫmn(I)/+h	ḫmn (I)	n. m. cstr. gen.	chapel	
@@ -32,12 +33,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172953	bht	b&ht(II)/	bt (II)	n. m. pl. abs. gen.	house	
 172954	m	m	m(h)	pers. pn.	what?	
 172955	š	š/	š	n. m. sg. cstr. nom.	ram	
-172956	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
+172956	ˤṣrm	ˤṣr(I)/~m	ʕṣr (I)	n. f. abs. gen.	bird	
 172957	l	l(I)	l (I)	prep.	to	
 172958	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
 # KTU 1.112 6						
 172959	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 172960	w	w	w	conj.	and	
+172961	bn	b+n	b	prep.	in	
 172961	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
 172961	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	1) son a) of men and gods	
 172961	bn	bn(II)	bn (II)	prep.	between	
@@ -52,7 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 7						
 172965	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 172966	ttˤln	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-l-y/ - to go up
-172967	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
+172967	pamt	pam(t/t=	pảm(t)	n. f. pl. abs. nom.	time	
 172968	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven b) in apposition	
 # KTU 1.112 8						
 172969	b	b	b	prep.	in	
@@ -77,6 +79,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172981	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	
 172982	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day a) as a date	
 172982	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day a) as a date	
+172982	ym	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu/the god “Sea”	
 172982	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 172983	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
 172984	yrtḥṣ	!y!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 3 m. sg.	to wash oneself	
@@ -86,15 +89,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172986	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 172987	b	b	b	prep.	in	
 172988	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	1) eight a) elliptical syntagms	
-172989	iynm	iyn/~m	ỉyn	n. m. sg. cstr. nom.	disaster	
+172989	iynm	iyn/~m	ỉyn	n. m. sg. cstr. nom.	of a type of sacrifice	
 # KTU 1.112 12						
 172990	akl	akl(II)/	ảkl (II)	n. m. sg. cstr. gen.	1) grain	
 172991	ṯql	ṯql/	ṯql	n. m. sg. cstr. gen.	shekel	
 172992	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 172993	w	w	w	conj.	and	
-172994	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	KTU corrected: kd
 172994	kbd	k&bd(I)/	kd (I)	n. f. abs. nom.	2) “jar”	KTU corrected: kd
 172994	kbd	kbd[:d	/k-b-d/	vb D impv. 2	to honour	KTU corrected: kd
+172994	kbd	kbd(IV)/	kbd (IV)	n. m. sg. abs. nom.	splendour	KTU corrected: kd
+172994	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	KTU corrected: kd
 # KTU 1.112 13						
 172995	yn	yn/	yn	n. m. sg. abs. nom.	3) production and consumption c) used in the cult	
 172996	l	l(I)	l (I)	prep.	to	
@@ -134,26 +138,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 18						
 173018	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. abs. nom.	banquet	
 173018	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. abs. nom.	group of ten	
-173019	yrdn	!y!(yrd[+n	/y-r-d/	vb G prefc. 3 m. sg.	to go down, descend	
-173019	yrdn	yrdn[	/y-r-d/	vb G suffc. 3 m. sg.	to go down, descend	
-173020	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+173019	yrdn	!y!(yrd[~n	/y-r-d/	vb G prefc. 3 m. sg.	to go down, descend	
+173020	gṯrm	gṯr/~m	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.112 19						
-173021	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr. nom.	(feast / banquet of) game	
-173021	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. nom.	large fortified tower	
-173022	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+173021	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr. gen.	(feast / banquet of) game	
+173021	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. gen.	architectural structure of the palace for the cult	
 173022	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 173022	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+173022	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 173023	šm	š/m	š	n. m. pl. abs. nom.	ram	
 173023	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 173024	l	l(I)	l (I)	prep.	to	
-173025	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+173025	gṯrm	gṯr/~m	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.112 20						
 173026	w	w	w	conj.	and	
 173027	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 173027	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 173027	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 173027	rgm	rgm/	rgm	n. m. sg. abs. nom.	1) word	
-173028	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+173028	gṯrm	gṯr/~m	gṯr	DN sg. abs. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 173029	yṯṯb	!y!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 m. sg.	to send (word)	
 # KTU 1.112 21						
 173030	w	w	w	conj.	and	
@@ -165,7 +168,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173035	ˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.112 22						
 173036	šrh	šr(IV)/+h	šr (IV)	n. m. cstr. nom.	navel	
-173037	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	wave- offering	
+173037	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	unspecified type of general offering	
 173038	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 173038	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 173038	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
@@ -182,21 +185,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173044	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 173045	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
 173046	š	š/	š	n. m. sg. abs. gen.	ram	
-173047	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 173047	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 173047	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+173047	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 173048	šm	š/m	š	n. m. pl. abs. nom.	ram	
 173048	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.112 24						
 173049	l	l(I)	l (I)	prep.	to	
 173050	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. gen.	back part (of the head)	
-173051	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 173051	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 173051	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+173051	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 173052	šm	š/m	š	n. m. pl. abs. nom.	ram	
 173052	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 173053	l	l(I)	l (I)	prep.	to	
-173054	btbt	btbt/	btbt	DN sg. abs. gen.	btbt	
+173054	btbt	btbt/	btbt	DN sg. abs. gen.	tutelary god of the palace	
 173055	w	w	w	conj.	and	
 173056	l	l(I)	l (I)	prep.	to	
 # KTU 1.112 25						
@@ -208,8 +211,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.112 26						
 173062	w	w	w	conj.	and	
 173063	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-173064	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-173064	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+173064	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+173064	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+173064	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 173065	w	w	w	conj.	and	
 173066	arbˤ	arbˤ/	ảrbʕ	num.	four	
 # KTU 1.112 27						
@@ -217,8 +221,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173067	ˤšrh	ˤšr[:d:pass+h	/ʕ-š-r/	vb D suffc.	to invite	
 173067	ˤšrh	ˤšr[:pass+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
 173067	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
-173068	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-173068	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+173068	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+173068	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+173068	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 173069	b	b	b	prep.	in	
 173070	ṯṯt	ṯṯ&t/	ṯṯ	num. f.	six	
 173071	ˤš	?	?	?	?	DULAT: NOT FOUND
@@ -226,7 +231,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173072	rt	rt/	rt	PN sg. cstr. nom.	rt	
 173073	š	š/	š	n. m. sg. abs. gen.	ram	
 173074	l	l(I)	l (I)	prep.	to	
-173075	btbt	btbt/	btbt	DN sg. abs. gen.	btbt	
+173075	btbt	btbt/	btbt	DN sg. abs. gen.	tutelary god of the palace	
 173076	w	w	w	conj.	and	
 173077	x	?	?	?	?	
 # KTU 1.112 29						

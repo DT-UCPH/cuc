@@ -58,7 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179928	ˤbdk	ˤbd(I)/+k	ʕbd (I)	n. m. du. cstr. gen.	2) servant (said of a special class of mercenaries or subordinate employees)	
 # KTU 2.98 12						
 179929	w	w	w	conj.	and	
-179930	atnn	!(ʔ&a!(ytn[+n	/y-t-n/	vb G prefc. 1 c. sg.	to give	
+179930	atnn	!(ʔ&a!(ytn[~n	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 179931	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	(royal) guard	
 179931	ḫrd	ḫrd/	ḫrd	n. m. sg. abs. nom.	(royal) guard	
 179932	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
@@ -165,8 +165,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.98 31						
 179994	xxxx	?	?	?	?	
 179995	w	w	w	conj.	4) declarative and emphatic functor	
-179996	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	1) missive	
-179996	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+179996	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	1) missive	
 # KTU 2.98 32						
 179997	xxxx	?	?	?	?	
 179998	ḫrd	ḫrd/	ḫrd	n. m. pl. cstr. nom.	1) (royal) guard	

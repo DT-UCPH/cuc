@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181851	bn	bn(II)	bn (II)	prep.	between	
 181851	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 181851	bn	bn[	/b-n/	vb G impv. 2	to understand	
-181852	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
+181852	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	of several kings of Ugarit	
 # KTU 3.32 4						
 181853	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 181854	ugrt	ugrt/	ủgrt	TN sg. cstr. gen.	Ugarit	
@@ -37,6 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181866	l	l(II)	l (II)	adv.	no	
 181866	l	l(III)	l (III)	functor	certainly	
 # KTU 3.32 8						
+181867	bn	b+n	b	prep.	in	
 181867	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	1) son a) of men and gods	
 181867	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	1) son a) of men and gods	
 181867	bn	bn(II)	bn (II)	prep.	between	

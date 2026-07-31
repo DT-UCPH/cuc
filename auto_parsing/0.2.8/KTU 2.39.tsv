@@ -53,7 +53,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177671	yḫsr	!y!ḫsr[	/ḫ-s-r/	vb G prefc. 3 m. sg.	to fail, be missing, lacking	
 # KTU 2.39 10						
 177672	w	w	w	conj.	and	
-177673	at	at(I)	ảt (I)	pers. pn.	you	
+177673	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	you	
 177674	ydˤ	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	1) to know	
 177674	ydˤ	!!ydˤ(I)[/	/y-d-ʕ/ (I)	vb G inf.	1) to know	
 177674	ydˤ	ydˤ(I)[/	/y-d-ʕ/ (I)	vb G act. ptcpl. m. sg. abs. nom.	1) to know	
@@ -72,7 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.39 12						
 177682	ˤbdm	ˤbd(I)/m	ʕbd (I)	n. m. pl. abs. nom.	servant	
 177683	sglth	sgl(t/t+h	sglt	n. f. sg. cstr. nom.	treasure	
-177684	at	at(I)	ảt (I)	pers. pn.	1) you a) subj. in NC	
+177684	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you a) subj. in NC	
 # KTU 2.39 13						
 177685	ht	ht	ht	adv.	here	
 177686	xxx	?	?	?	?	
@@ -99,8 +99,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177699	tlk	!t!(hlk[	/h-l-k/	vb G prefc.	to go, go away	
 # KTU 2.39 17						
 177700	w	w	w	conj.	and	
-177701	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
-177701	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
+177701	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. cstr. nom.	1) missive	
 177702	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	1) grain	
 177703	ky	k(III)+y	k (III)	Subordinating or completive functor	when	
 177703	ky	k(II)+y	k (II)	emph. functor	yes	
@@ -152,7 +151,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177728	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
 177729	yṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 31						
-177730	ibˤltn	ibˤlt/+n	ỉbʕlt	MN sg. cstr. nom.	where-is-the- Mistress?	
+177730	ibˤltn	ibˤlt/~n	ỉbʕlt	MN sg. abs. nom.		
 177731	xk	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.39 32						
 177732	w	w	w	conj.	and	

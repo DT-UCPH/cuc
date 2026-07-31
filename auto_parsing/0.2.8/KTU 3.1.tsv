@@ -81,7 +81,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180560	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 180560	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 180560	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
-180560	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 # KTU 3.1 18						
 180561	hlny	hlny	hlny	deictic adv. functor	behold	
 180562	argmn	!(ʔ&a!rgm[+n	/r-g-m/	vb G prefc. 1 c. sg.	to say	
@@ -90,13 +89,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180563	d	d	d	det. or rel. functor	2) which	
 180564	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 180564	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
+180564	ybl	ybl(I)/	ybl (I)	n. m. sg. cstr. nom.	produce	
 180565	nqmd	nqmd/	nqmd	PN sg. abs. nom.	Niqmaddu	
 # KTU 3.1 19						
 180566	l	l(I)	l (I)	prep.	to	
 180567	špš	špš/	špš	n. f. sg. cstr. gen.	3) “sun”	
 180568	arn	arn(I)/	ảrn (I)	n. m. sg. abs. gen.	chest	
 180569	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
-180570	ˤšrmn	ˤšr(II)/m+n	ʕšr (II)	n. m. cstr. nom.	marshal	
+180570	ˤšrmn	ˤšr(II)/m~n	ʕšr (II)	n. m. abs. nom.	of an office	
 # KTU 3.1 20						
 180571	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 180572	ṯql	ṯql/	ṯql	n. m. sg. cstr. nom.	2) elliptical use is very common	
@@ -108,8 +108,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.1 21						
 180577	w	w	w	conj.	and	
 180578	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
-180579	ktnt	ktn(I)/t	ktn (I)	n. f. sg. cstr. nom.	shirt-like tunic	
-180580	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. gen.	shirt-like tunic	
+180579	ktnt	ktn(I)/t=	ktn (I)	n. f. pl. cstr. nom.	a type of tunic	
+180580	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. gen.	a type of tunic	
 180581	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 180581	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
 180581	rb	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	
@@ -143,7 +143,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180599	ks	ks(I)/	ks (I)	n. m. sg. abs. nom.	cup	
 180599	ks	ks/	ks/śm(n)	n. m. pl. abs. nom.	emmer-corn	
 180600	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold c) as tribute	
-180601	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. nom.	shirt-like tunic	
+180601	ktn	ktn(I)/	ktn (I)	n. f. sg. abs. nom.	a type of tunic	
 180602	mit	mi(t/t	mỉt	n. f. sg. abs. nom.	1) a hundred	
 180603	pḥm	pḥm/	pḥm	n. m. sg. abs. nom.	3) deep red purple	
 # KTU 3.1 28						
@@ -155,7 +155,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180608	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
 180608	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
 180609	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. cstr. gen.	gold	
-180610	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
+180610	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	a type of tunic	
 180611	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 180612	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 30						
@@ -167,7 +167,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180617	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
 180617	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
 180618	ksp	ksp/	ksp	n. m. sg. cstr. gen.	1) silver b) items made of silver	
-180619	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
+180619	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	a type of tunic	
 180620	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 180621	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 32						
@@ -179,34 +179,34 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180626	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
 180626	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
 180627	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
-180628	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
+180628	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	a type of tunic	
 180629	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 180630	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 34						
 180631	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 180632	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 180633	l	l(I)	l (I)	prep.	to	
-180634	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. cstr. gen.	chief steward	
+180634	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. cstr. gen.	of a high Hittite dignitary	
 # KTU 3.1 35						
 180635	ks	ks(I)/	ks (I)	n. m. sg. cstr. gen.	cup	
 180635	ks	ks/	ks/śm(n)	n. m. pl. cstr. gen.	emmer-corn	
 180636	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
-180637	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
+180637	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	a type of tunic	
 180638	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 180639	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 36						
 180640	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 180641	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 180642	l	l(I)	l (I)	prep.	to	
-180643	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. abs. gen.	chief steward	
-180644	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+180643	ḫbrtnr	ḫbrtnr/	ḫbrtnr	n. m. sg. abs. gen.	of a high Hittite dignitary	
 180644	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 180644	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+180644	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 3.1 37						
 180645	ks	ks(I)/	ks (I)	n. m. sg. cstr. nom.	cup	
 180645	ks	ks/	ks/śm(n)	n. m. pl. cstr. nom.	emmer-corn	
 180646	ksp	ksp/	ksp	n. m. sg. cstr. gen.	silver	
-180647	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	shirt-like tunic	
+180647	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. gen.	a type of tunic	
 180648	mit	mi(t/t	mỉt	n. f. sg. cstr. gen.	a hundred	
 180649	pḥm	pḥm/	pḥm	n. m. sg. cstr. gen.	ember	
 # KTU 3.1 38						
@@ -214,6 +214,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180651	iqni	iqn(u&i/	ỉqnủ	n. m. abs. gen.	gem of lapis lazuli	
 180652	l	l(I)	l (I)	prep.	to	
 180653	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	1) prefect	
+180653	skn	skn(II)/	skn (II)	n. m. sg. cstr. gen.	stela	
 180654	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 180655	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.1 39						

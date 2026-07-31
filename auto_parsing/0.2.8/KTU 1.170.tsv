@@ -8,8 +8,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175212	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 175213	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	1) queen a) in gen	
 # KTU 1.170 2						
-175214	ddn	dd(II)/+n	dd (II)	n. m. cstr. nom.	cauldronful	
-175214	ddn	dd(I)/+n	dd (I)	adj. m. cstr. nom.	love	
+175214	ddn	dd(II)/~n	dd (II)	n. m. abs. nom.	cauldronful	
+175214	ddn	dd(I)/~n	dd (I)	adj. m. abs. nom.	love	
 175215	š	š/	š	n. m. sg. cstr. nom.	ram	
 175216	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 # KTU 1.170 3						
@@ -24,7 +24,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175222	dmlt	dmlt/	dmlt	DN sg. cstr. gen.	dmlt	
 175223	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
 175223	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
-175223	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.170 5						
 175224	xx	?	?	?	?	
 # KTU 1.170 6						
@@ -37,7 +36,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175228	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 175228	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 175228	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
-175228	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 175229	b	b	b	prep.	in	
 175230	ṣˤ	ṣˤ(I)/	ṣʕ (I)	n. m. sg. abs. gen.	plate / wide bowl / platter	
 # KTU 1.170 9						
@@ -51,7 +49,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175236	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 175237	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
 175237	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
-175237	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.170 10						
 175238	xˤt	?	?	?	?	DULAT: NOT FOUND
 175239	l	l(I)	l (I)	prep.	to	

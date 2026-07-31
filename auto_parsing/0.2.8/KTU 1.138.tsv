@@ -12,14 +12,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.138 3						
 174308	py	p(III)/+y	p (III)	n. m. cstr. gen.	mouth	
 174309	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-174309	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 174310		?	?	?	?	
 # KTU 1.138 4						
 174311	šrp	šrp/	šrp	n. m. sg. abs. nom.	burnt sacrifice	
 174312	w	w	w	conj.	and	
 174313	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. nom.	communion victim / sacrifice	
 174313	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
-174313	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 # KTU 1.138 5						
 174314	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 174314	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
@@ -27,4 +25,3 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.138 6						
 174315	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
 174315	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
-174315	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	

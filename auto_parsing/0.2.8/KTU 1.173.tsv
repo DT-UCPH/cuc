@@ -50,8 +50,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.173 9						
 175377	l	l(I)	l (I)	prep.	to	
 175378	r	?	?	?	?	DULAT: NOT FOUND
-175379	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-175379	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+175379	n	~n	-n (I)	encl. morph.		
+175379	n		-n (IV)	vb	him/her/it	
 # KTU 1.173 10						
 175380	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 175380	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
@@ -64,7 +64,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175384		?	?	?	?	
 175385	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. gen.	communion victim / sacrifice	
 175385	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
-175385	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 175386	š	š/	š	n. m. sg. cstr. gen.	ram	
 175387	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
 # KTU 1.173 13						
@@ -79,7 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.173 15						
 175394		?	?	?	?	
 175395	ṯlṯm	ṯlṯm/	ṯlṯm	num.	1) the numeral thirty b) ge. syntagms	
-175396	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
+175396	pamt	pam(t/t=	pảm(t)	n. f. pl. abs. nom.	time	
 # KTU 1.173 16						
 175397		?	?	?	?	
 175398	w	w	w	conj.	and	

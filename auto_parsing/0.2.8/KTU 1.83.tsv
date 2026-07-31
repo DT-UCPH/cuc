@@ -16,6 +16,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.83 4						
 169457	mḫnm	mḫn/~m	mḫn	n. m. pl. abs. gen.	?	
 169458	ṯrp	ṯrp[	/ṯ-r-p/	vb inf.	1) to spur on (an animal)	
+169459	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+169459	ym	ym(II)/	ym (II)	DN m. sg. cstr. nom.	Yammu/the god “Sea”	
 169459	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	1) sea	
 # KTU 1.83 5						
 169460	lšnm	lšn/m	lšn	n. f. pl. abs. gen.	1) tongue	
@@ -24,6 +26,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169462	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	1) heavens	
 169463	tṯrp	!t!ṯrp[	/ṯ-r-p/	vb prefc.	to spur on (an animal)	
 # KTU 1.83 7						
+169464	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+169464	ym	ym(II)/	ym (II)	DN m. sg. cstr. nom.	Yammu/the god “Sea”	
 169464	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	1) sea	
 169465	ḏnbtm	ḏnb/tm	ḏnb(t)	n. f. du. cstr. gen.	tail	
 # KTU 1.83 8						
@@ -37,10 +41,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169471	l	l(I)	l (I)	prep.	to	
 169472	mrym	mrym/	mrym	n. m. sg. cstr. gen.	height	
 169473	lbnt	lbn(t/t	lbnt	n. f. sg. abs. gen.	brick	
-169473	lbnt	lbn(t/t=	lbnt	n. f. pl. abs. gen.	brick	
 # KTU 1.83 11						
 169474	pl	pl[	/p-l(-l)/	vb G suffc. 3 m. sg.	to be cracked	
-169475	tbˤn	tbˤ[+n	/t-b-ʕ/	vb G suffc.	to go, leave, depart	
+169475	tbˤn	tbˤ[~n	/t-b-ʕ/	vb G suffc.	to go, leave, depart	
 169476	yymm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.83 12						
 169477	hmlt	hml(t/t=	hmlt	n. f. pl. abs. nom.	multitude	
@@ -72,6 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169485	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 169485	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 169485	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+169485	mt	mt(IV)	mt (IV)	adv.	certainly	
 # KTU 1.83 16						
 169486		?	?	?	?	
 # KTU 1.83 17						

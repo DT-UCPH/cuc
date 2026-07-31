@@ -43,10 +43,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169203	pk	p(III)/+k	p (III)	n. m. cstr. nom.	2) voice	
 169204	b	b	b	prep.	in	
 169205	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
-169205	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
-169206	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 169206	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 169206	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+169206	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 169207	pk	p(III)/+k	p (III)	n. m. cstr. nom.	2) voice	
 169208	b	b	b	prep.	in	
 169209	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. gen.	massif	
@@ -89,7 +88,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 7						
 169231	x	?	?	?	?	
 169232	aṭm	(ʔ&aṭm[	/ʔ-ṭ-m/	vb prefc.	to stop up > to take away > to stop up > to become deaf > it filled up	
-169233	prṭl	prṭl/	prṭl	n. m. sg. abs. nom.	eine Pflanze	
+169233	prṭl	prṭl/	prṭl	n. m. sg. abs. nom.	a herb (?)	
 169234	l	l(I)	l (I)	prep.	to	
 169235	rišh	riš(I)/+h	rỉš (I)	n. m. cstr. gen.	5) used as a prep	
 169236	ḥmṯ	ḥmṯ/	ḥmṯ	n. m. sg. abs. nom.	belly	
@@ -130,6 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169260	xxx	?	?	?	?	
 # KTU 1.82 11						
 169261	xxxxx	?	?	?	?	
+169262	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 169262	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 169262	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 169263	šzrm	šzrm	qsrm	?		Based on DULAT reconstruction.
@@ -158,11 +158,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169278	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 169279	ˤxxxl	?	?	?	?	DULAT: NOT FOUND
 169280	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-169280	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
-169280	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-169280	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
-169280	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-169280	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 169281	amṣ	amṣ/	ảmṣ	adj. m. sg. abs. nom.	strength	
 169282	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	5) used as a preposition	
 169282	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	5) used as a preposition	
@@ -190,7 +185,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169294	xxxnt	?	?	?	?	DULAT: NOT FOUND
 169295	xx	?	?	?	?	
 169296	mbk	mbk/	mbk	n. m. sg. cstr. nom.	source	
-169297	kpt	kp/t	kp	n. f. sg. abs. gen.	2) pan (of scales)	
+169297	kpt	kp/t=	kp	n. f. pl. abs. gen.	2) pan (of scales)	
 169298	wn	w+n	w	conj.	and	
 169299	b	b	b	prep.	in	
 169300	gx	?	?	?	?	DULAT: NOT FOUND
@@ -212,7 +207,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169308	xxxxxxxx	?	?	?	?	
 169309	aḥw	!(ʔ&a!ḥw(y(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc. 1 c. sg.	1) to give (back) life / revive	
 169310	aṭm	(ʔ&aṭm[	/ʔ-ṭ-m/	vb prefc.	1) to stop up > to take away > to stop up > to become deaf > it filled up	
-169311	prṭl	prṭl/	prṭl	n. m. sg. abs. nom.	eine Pflanze	
+169311	prṭl	prṭl/	prṭl	n. m. sg. abs. nom.	a herb (?)	
 # KTU 1.82 20						
 169312	xxx	?	?	?	?	
 169313	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
@@ -225,7 +220,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169319	ptḥy	ptḥ/+y	ptḥ	n. m. cstr. nom.	entrance	
 169320	agxxxdt	?	?	?	?	DULAT: NOT FOUND
 169321	xxm	?	?	?	?	DULAT: NOT FOUND
-169322	mln	ml+n	ml	?	?	
+169322	mln	ml~n	ml	?	?	
 # KTU 1.82 22						
 169323	xxxṯk	?	?	?	?	DULAT: NOT FOUND
 169324	ytmt	ytm(t/t	ytmt	n. f. sg. abs. nom.	orphan girl	
@@ -235,12 +230,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169328	bm	b~m	b	prep.	in	
 # KTU 1.82 23						
 169329	xxxxqp	?	?	?	?	DULAT: NOT FOUND
+169330	bn	b+n	b	prep.	in	
 169330	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	5) stating a quality (sg. / pl. + n. sg.) g) bn qdš holy one	
 169330	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	5) stating a quality (sg. / pl. + n. sg.) g) bn qdš holy one	
 169330	bn	bn(II)	bn (II)	prep.	between	
 169330	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 169330	bn	bn[	/b-n/	vb G impv. 2	to understand	
 169331	ḥtt	ḥtt/	ḥtt	n. m. sg. abs. nom.	terror	
+169332	bn	b+n	b	prep.	in	
 169332	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	5) stating a quality (sg. / pl. + n. sg.) g) bn qdš holy one	
 169332	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	5) stating a quality (sg. / pl. + n. sg.) g) bn qdš holy one	
 169332	bn	bn(II)	bn (II)	prep.	between	
@@ -281,7 +278,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169356	mdbm	mdb/m	mdb	n. m. pl. abs. nom.	tide	
 169357	l	l(I)	l (I)	prep.	to	
 169358	ḥrn	ḥrn/	ḥrn	DN sg. cstr. gen.	Ḥôrānu	
-169359	ḥrnm	ḥrn/+m(I)	ḥrn	DN sg. cstr. gen.	Ḥôrānu	
+169359	ḥrnm	ḥrn/~m	ḥrn	DN sg. abs. gen.	Ḥôrānu	
 # KTU 1.82 28						
 169360	xxxxxxxxlhm	?	?	?	?	DULAT: NOT FOUND
 169361	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
@@ -292,13 +289,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.82 29						
 169363	xxxxxxxxxxxx	?	?	?	?	
 169364	aṯtn	aṯ(t/t&n	ảṯt	n. f. sg. cstr. nom.	3) lady	
-169365	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-169365	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+169365	n	~n	-n (I)	encl. morph.		
+169365	n		-n (IV)	vb	him/her/it	
 # KTU 1.82 30						
 169366	xxxxxxxxxxxḥrġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.82 31						
 169367	xxxxxxxxp	?	?	?	?	DULAT: NOT FOUND
-169368	lnt	?	?	?	?	DULAT: NOT FOUND
+169368	lnt	l(I)&n~t	l (I)	prep.	to	
 169369	lg	lg(I)/	lg (I)	n. m. sg. abs. nom.	jar	
 # KTU 1.82 32						
 169370	xxxxxxxḥmt	?	?	?	?	DULAT: NOT FOUND
@@ -315,12 +312,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169377		?	?	?	?	
 # KTU 1.82 34						
 169378	xxxxxxy	?	?	?	?	DULAT: NOT FOUND
-169379	mṭnt	mṭn(t/t	mṭnt	n. f. sg. abs. nom.	clay	
+169379	mṭnt	mṭn(t/t	mṭnt	n. f. sg. abs. nom.	a clay container (?)	
 169380	w	w	w	conj.	and	
 169381	tḥ	!t!ḥ(w(y(I)[	/ḥ-w/y-y/ (I)	vb G prefc.	1) to live	
 169382	ṭbt	ṭb(t/t	ṭbt	n. f. sg. abs. nom.	well-being	
-169383	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-169383	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+169383	n	~n	-n (I)	encl. morph.		
+169383	n		-n (IV)	vb	him/her/it	
 # KTU 1.82 35						
 169384	xxxxxxbṯnm	?	?	?	?	DULAT: NOT FOUND
 169385	w	w	w	conj.	and	
@@ -329,14 +326,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169386	tṯb	tṯb/	tṯb	DN sg. abs. nom.	Teṯo/Hurrian storm god	
 169387	ˤl	ˤl(I)	ʕl (I)	prep.	3) relationship of exchange or profit	
 169387	ˤl	ˤl(II)	ʕl (II)	adv.	above	
-169387	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
-169387	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-169388	bṯnt	bṯn/t	bṯn	n. f. sg. abs. nom.	serpent	
+169388	bṯnt	bṯn/t=	bṯn	n. f. pl. abs. nom.	serpent	
 169389	trtḥ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.82 36						
 169390	xxxxxmṯbh	?	?	?	?	DULAT: NOT FOUND
 169391	aḫt	aḫ(t(I)/t	ảḫt (I)	n. f. sg. cstr. nom.	1) sister (related by blood)	
-169391	aḫt	aḫ(t(I)/t=	ảḫt (I)	n. f. pl. cstr. nom.	1) sister (related by blood)	
 169392	ppšr	ppšr/	ppšr	PN sg. abs. gen.	ppšr	
 169393	w	w	w	conj.	and	
 169394	ppšrt	ppšrt/	ppšrt	PN sg. abs. nom.	ppšrt	
@@ -363,9 +357,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169411	ap	ap(I)	ảp (I)	adv./conj.	also	
 169412	l	l(I)	l (I)	prep.	to	
 169413	pḫrk	pḫr(I)/+k	pḫr (I)	n. m. cstr. gen.	1) assembly c) group	
+169414	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 169414	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 169414	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 169415	tqm	!t!qm[	/q-m/	vb G prefc.	to stand up	
+169416	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 169416	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 169416	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 169417	tqm	!t!qm[	/q-m/	vb G prefc.	to stand up	
@@ -380,11 +376,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169423	ygršk	!y!grš[+k	/g-r-š/	vb G prefc. 3 m. sg.	to eject	
 # KTU 1.82 41						
 169424	xxx	?	?	?	?	
-169425	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	2) creature	
+169425	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 169425	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 169425	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
 169426	ṣˤṣ	ṣˤṣ/	ṣʕṣ	n. m. sg. cstr. gen.	terror	
-169427	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. gen.	2) creature	
+169427	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. gen.	produce	
 169427	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. gen.	masonry	
 169427	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. gen.	tamarisk	
 169428	mˤmˤ	mˤmˤ/	mʕmʕ	n. m. sg. cstr. gen.	convulsion	
@@ -395,9 +391,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169432	xx	?	?	?	?	
 169433	aġwyn	!(ʔ&a!ġwy[n:d	/ġ-w-y/	vb D prefc. 1 c. sg.	to cry vigorously	
 169434	ˤnk	ˤn(I)/+k	ʕn (I)	n. f. cstr. nom.	eye	
-169435	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. nom.	ẓẓ	
+169435	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. nom.	element of the double-barrelled DN ẓẓ w kmṯ	
 169436	w	w	w	conj.	and	
-169437	kmġ	km(ṯ&ġ/	kmṯ	DN/element sg. cstr. nom.	kmṯ	
+169437	kmġ	km(ṯ&ġ/	kmṯ	DN/element sg. cstr. nom.	second element in the DN ө ṭ/ẓẓ w kmṯ	
 169438	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.82 43						
 169439	xw	?	?	?	?	DULAT: NOT FOUND

@@ -7,6 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169012	k	k(II)	k (II)	emph. functor	yes	
 169013	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. nom.	5) used as a preposition	
 169014	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+169014	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 169014	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	1) sea	
 # KTU 1.75 2						
 169015	ydm	yd(I)/m	yd (I)	n. f. pl. cstr. gen.	hand	
@@ -15,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.75 3						
 169017	trġt	trġt	trġt	?		
 # KTU 1.75 4						
-169018	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
+169018	h	~h	-h(II)	adv. functor	to, towards	
 169019	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
 # KTU 1.75 5						
 169020	ilnx	?	?	?	?	DULAT: NOT FOUND
@@ -35,9 +36,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169026	spr	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	
 169027	ḫbb	ḫbb/	ḫbb	PN sg. abs. nom.	ḫbb	
 # KTU 1.75 11						
-169028	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 169028	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 169028	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+169028	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 169029	dbḥm	dbḥ/m	dbḥ	n. m. pl. abs. nom.	3) month name	
 # KTU 1.75 12						
 169030	x	?	?	?	?	

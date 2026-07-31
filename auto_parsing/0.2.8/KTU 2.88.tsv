@@ -14,6 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179509	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
 179510	b	b	b	prep.	1) spatial location a) place in which something occurs	
 179511	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
+179511	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 179511	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 2.88 4						
 179512	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -34,6 +35,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179517	w	w	w	conj.	and	
 179518	b	b	b	prep.	in	
 179519	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+179519	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 179519	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 2.88 6						
 179520	hwt	hw&t	hw	pers. pn.	he	
@@ -42,7 +44,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179522	b	b	b	prep.	1) spatial location a) place in which something occurs	
 179523	mlwm	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.88 7						
-179524	btt	?	?	?	?	DULAT: NOT FOUND
+179524	btt	bt(II)/~t	bt (II)	n. m. abs. nom.	house	
+179524	btt	bt(I)/~t	bt (I)	n. f. abs. nom.	daughter	
 179525	w	w	w	conj.	and	
 179526	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 179526	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
@@ -63,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179536	dˤt	dˤ(t(II)/t	dʕt (II)	n. f. sg. abs. nom.	sweat	KTU corrected: dʿ
 # KTU 2.88 11						
 179537	w	w	w	conj.	1) copulative conj.	
-179538	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+179538	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you b) emph. subj. in VC	
 179539	klklk	klkl/+k	klkl	n. m. cstr. nom.	anybody	
 # KTU 2.88 12						
 179540	škn	škn[:d	/š-k-n/	vb D impv. 2	to assign	
@@ -108,13 +111,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179562	w	w	w	conj.	4) declarative and emphatic functor	
 179563	mḥ	mḥ/	mḥ	n. m. sg. abs. nom.	day room	
 179564	w	w	w	conj.	4) declarative and emphatic functor	
-179565	šqt	?	?	?	?	DULAT: NOT FOUND
+179565	šqt	šq/~t	šq	n. m. cstr. nom.	thigh	
 # KTU 2.88 20						
-179566	mrḥṣm	mrḥṣm[/	/r-ḥ-ṣ/	vb D act. ptcpl. m. sg. abs. nom.	to clean, cleanse	
+179566	mrḥṣm	mrḥṣm[/	/r-ḥ-ṣ/	vb D act. ptcpl. m. sg. abs. gen.	to clean, cleanse	
 179567	bh	b+h	b	prep.	in	
 # KTU 2.88 21						
 179568	w	w	w	conj.	and	
-179569	at	at(I)	ảt (I)	pers. pn.	1) you d) emphatic of suff. pn	
+179569	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you d) emphatic of suff. pn	
 179570	b	b	b	prep.	1) spatial location d) origin of a quality or process	
 179571	pk	p(III)/+k	p (III)	n. m. cstr. gen.	mouth	
 179572	al	al(I)	ảl (I)	neg. functor	no	
@@ -149,11 +152,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.88 27						
 179593	w	w	w	conj.	and	
 179594	spm	sp/m	sp	n. m. pl. abs. nom.	1) bowl b) as a gift	
-179595	ˤdbm	ˤdb[+m(I)	/ʕ-d-b/	vb G suffc.	to leave > to put in > to place	
-179595	ˤdbm	ˤdb[+m(I)	/ʕ-d-b/	vb G impv. 2	to leave > to put in > to place	
-179595	ˤdbm	!!ˤdb[/+m(I)	/ʕ-d-b/	vb G inf.	to leave > to put in > to place	
-179595	ˤdbm	ˤdb[/+m(I)	/ʕ-d-b/	vb G act. ptcpl. m. sg. cstr. nom.	to leave > to put in > to place	
-179595	ˤdbm	ˤdb/+m(I)	ʕdb	adj. m. cstr. nom.	available	
+179595	ˤdbm	ˤdb[~m	/ʕ-d-b/	vb G suffc.	to leave > to put in > to place	
+179595	ˤdbm	ˤdb[~m	/ʕ-d-b/	vb G impv. 2	to leave > to put in > to place	
+179595	ˤdbm	!!ˤdb[/~m	/ʕ-d-b/	vb G inf.	to leave > to put in > to place	
+179595	ˤdbm	ˤdb[/~m	/ʕ-d-b/	vb G act. ptcpl. m. sg. abs. nom.	to leave > to put in > to place	
+179595	ˤdbm	ˤdb/~m	ʕdb	adj. m. abs. nom.	available	
 # KTU 2.88 28						
 179596	k	+k	-k (I)			
 179596	k	~k	-k (II)			
@@ -218,7 +221,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179633	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.88 37						
 179634	w	w	w	conj.	and	
-179635	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+179635	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you b) emph. subj. in VC	
 179636	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 179637	uḫd	(ʔ&uḫd[	/ʔ-ḫ-d(/ḏ)/	vb G impv. 2	to collect, to take (back), grasp, seize, hold	
 179638	ly	l(I)+y	l (I)	prep.	7) of belonging ((not) being of, (not) having) b) with vb functor	
@@ -231,7 +234,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179644	mlkt	mlk(t/t	mlkt	n. f. sg. abs. nom.	1) queen a) in gen	
 # KTU 2.88 39						
 179645	w	w	w	conj.	and	
-179646	at	at(I)	ảt (I)	pers. pn.	1) you c) with ellipsis of the vb	
+179646	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you c) with ellipsis of the vb	
 179647	b	b	b	prep.	in	
 179648	pk	p(III)/+k	p (III)	n. m. cstr. gen.	1) mouth	
 179649	al	al(I)	ảl (I)	neg. functor	no	

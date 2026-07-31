@@ -9,7 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167863	tˤrb	!t===!ˤrb[	/ʕ-r-b/ (I)	vb G prefc. 2 m. pl.	1) to enter	
 167864	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. nom.	ʿṯtrt (II)	
 167865	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. cstr. gen.	cave	
-167866	gb	gb(I)/	gb (I)	n. m. sg. cstr. gen.	pit	
+167866	gb	gb(I)/	gb (I)	n. m. sg. cstr. gen.	a cult installation	
 # KTU 1.43 2						
 167867	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 167868	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
@@ -24,7 +24,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167870	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	to give a banquet	
 167870	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	1) banquet	
 167871	b	b	b	prep.	in	
-167872	gb	gb(I)/	gb (I)	n. m. sg. abs. gen.	pit	
+167872	gb	gb(I)/	gb (I)	n. m. sg. abs. gen.	a cult installation	
 167873	btilm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.43 3						
 167874	kbkbm	kbkb/m	kbkb	n. m. pl. abs. nom.	1) heavenly body	
@@ -34,8 +34,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167877	lbš	lbš/	lbš	n. m. sg. abs. gen.	1) clothing	
 167877	lbš	lbš[/	/l-b-š/	vb G act. ptcpl. m. sg. abs. gen.	to dress	
 167878	w	w	w	conj.	and	
-167879	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. nom.	shirt-like tunic	
-167880	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg. cstr. gen.	ein Gewand	
+167879	ktn	ktn(I)/	ktn (I)	n. f. sg. cstr. nom.	a type of tunic	
+167880	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg. cstr. gen.	a garment	
 # KTU 1.43 5						
 167881	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold f) elliptical use	
 167882	ṯlṯt	ṯlṯ(I)&t/	ṯlṯ (I)	num. f.	1) the numeral three c) in apposition	
@@ -52,9 +52,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167889	ṣin	ṣin(I)/	ṣỉn (I)	n. f. sg. cstr. nom.	ewe	
 167890	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
 167890	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
-167890	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 167891	šbˤ	šbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	
-167892	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
+167892	pamt	pam(t/t=	pảm(t)	n. f. pl. abs. nom.	time	
 # KTU 1.43 8						
 167893	l	l(I)	l (I)	prep.	to	
 167894	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	1) god c) object or purpose of an action	
@@ -64,13 +63,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.43 9						
 167898	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 167898	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
-167899	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
-167900	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+167899	tˤrbn	!t!ˤrb(I)[~n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
+167900	gṯrm	gṯr/~m	gṯr	DN sg. cstr. nom.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 10						
-167901	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
-167902	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
-167903	ṯql	ṯql/	ṯql	n. m. sg. abs. nom.	1) unit of weight c) shekel of gold	
-167904	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold d) cultic offering	
+167901	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
+167902	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+167903	ṯql	ṯql/	ṯql	n. m. sg. cstr. gen.	1) unit of weight c) shekel of gold	
+167904	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold d) cultic offering	
 # KTU 1.43 11						
 167905	l	l(I)	l (I)	prep.	to	
 167906	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
@@ -104,7 +103,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167926	l	l(I)	l (I)	prep.	to	
 167927	gṯr	gṯr/	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 167928	tn	(ytn[	/y-t-n/	vb	give	
-167928	tn	(ytn[/	/y-t-n/	vb	give	
 # KTU 1.43 15						
 167929	ṯql	ṯql/	ṯql	n. m. sg. cstr. nom.	shekel	
 167930	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
@@ -127,7 +125,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167942	l	l(I)	l (I)	prep.	to	
 167943	ˤntm	ˤnt(I)/m	ʕnt (I)	DN pl. abs. gen.	ʿAnatu/Anat	
 167944	l	l(I)	l (I)	prep.	to	
-167945	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+167945	gṯrm	gṯr/~m	gṯr	DN sg. abs. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
 # KTU 1.43 18						
 167946	ap	ap(I)	ảp (I)	adv./conj.	also	
 167946	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
@@ -141,8 +139,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167952	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	(head of) cattle	
 167952	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 167953	l	l(I)	l (I)	prep.	to	
-167954	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
-167955	dkrm	dkr/m	dkr	n. m. pl. abs. nom.	1) male animal a) unspecified	
+167954	gṯrm	gṯr/~m	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+167955	dkrm	dkr/m	dkr	n. m. pl. abs. gen.	1) male animal a) unspecified	
 # KTU 1.43 20						
 167956	ap	ap(I)	ảp (I)	adv./conj.	also	
 167956	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
@@ -183,6 +181,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167981	ylk	!y!(hlk[	/h-l-k/	vb G prefc. 3 m. sg.	to go	
 # KTU 1.43 26						
 167982	šbˤ	šbˤ(I)/	šbʕ (I)	num.	seven	
-167983	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
+167983	pamt	pam(t/t=	pảm(t)	n. f. pl. abs. nom.	time	
 167984	l	l(I)	l (I)	prep.	to	
 167985	klhm	kl/+hm	kl	n. m. cstr. gen.	1) totality (of) c) with suff. pn	

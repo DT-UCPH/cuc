@@ -8,13 +8,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174319		?	?	?	?	
 174320	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
 174320	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
-174320	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.139 4						
 174321	x	?	?	?	?	
 174322	w	w	w	conj.	and	
-174323	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174323	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 174323	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+174323	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174324	šm	š/m	š	n. m. pl. abs. nom.	ram	
 174324	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.139 5						
@@ -41,19 +40,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.139 10						
 174337		?	?	?	?	
 174338	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. gen.	2) “the Damsel” b) of unc. attribution	
-174338	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	
 174339	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-174339	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 # KTU 1.139 11						
 174340	mm	m/m	mh/y	n. m. pl. abs. nom.	water	
 174340	mm	mm(I)/	mm (I)	n. m. sg. abs. nom.	winter	
 174341	l	l(I)	l (I)	prep.	to	
 174342	syxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.139 12						
-174343	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-174343	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+174343	n	~n	-n (I)	encl. morph.		
+174343	n		-n (IV)	vb	him/her/it	
 174344	w	w	w	conj.	and	
-174345	prs	prs/	prś/s	n. m. sg. abs. nom.	misura di capacità per aridi	
+174345	prs	prs/	prś/s	n. m. sg. abs. nom.	dry measure	
 174345	prs	prs(I)/	prs (I)	n. m. sg. abs. nom.	pole	
 # KTU 1.139 13						
 174346	k	+k	-k (I)			

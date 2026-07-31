@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.83 1						
-179122	at	at(I)	ảt (I)	pers. pn.	you	
+179122	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	you	
 179123	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.83 2						
 179124	m	m	m(h)	pers. pn.	what?	
@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.83 4						
 179131	x	?	?	?	?	
 179132	tḥmk	tḥm/+k	tḥm	n. m. cstr. nom.	message	
-179133	ḥdy	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḥ-d-y/ - 1) to see
+179133	ḥdy	ḥdy(II)[	ḥdy (II)	vb	sich freuen	LUPT lemma
 179134	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.83 5						
 179135	y	~y	-y (II)	prep. functor	indeed	
@@ -47,8 +47,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179151	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	2) noble	
 179151	adr	adr(II)/	ảdr (II)	n. m. sg. abs. nom.	granary	
 # KTU 2.83 11						
-179152	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-179152	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+179152	n	~n	-n (I)	encl. morph.		
+179152	n		-n (IV)	vb	him/her/it	
 179153	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
 179153	pr	pr(II)/	pr (II)	n. m. sg. abs. nom.	young bull	
 179154	i	i(I)	ỉ (I)	interj.	woe	

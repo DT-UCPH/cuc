@@ -3,7 +3,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178251	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
 178252	x	?	?	?	?	
 # KTU 2.53 2						
-178253	nh	n(I)&h	-n (I)	morph.	with c. n	
+178253	nh	n(I)&h	-n (I)	morph.	multifunctional encl. morph. / emph. or det. encl. morph	
+178253	nh	n(I)[+h	n (I)	vb	Objektsuffix 1.c.sg.	LUPT lemma
+178253	nh	n(II)[+h	n (II)	vb	Pronominalsuffix 1.c.pl.	LUPT lemma
+178253	nh	n(III)[+h	n (III)	vb	Energikusendung	LUPT lemma
+178253	nh	n(IV)[+h	n (IV)	vb	enklitische	LUPT lemma
 178254	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 2.53 3						
 178255	l	l(I)	l (I)	prep.	to	

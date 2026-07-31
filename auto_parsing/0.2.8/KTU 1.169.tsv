@@ -20,7 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175100	tgḫṭk	!t!gḫṭ[+k	/g-ḫ-ṭ/	vb G prefc.	to cast out > to vomit	
 175101	w	w	w	conj.	and	
 175102	tṣu	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
-175103	lpn	?	?	?	?	DULAT: NOT FOUND
+175103	lpn	lpn	lpn		vor	LUPT lemma
 175104	ql	ql(I)/	ql (I)	n. m. sg. abs. nom.	1) voice	
 175105	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
 175105	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
@@ -78,9 +78,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175134	b	b	b	prep.	5) modal relation	
 175135	ḫlṣ	ḫlṣ/	ḫlṣ	n. m. abs. gen.	squeezing	
 175136	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
-175137	ṣml	ṣml(I)/	ṣml (I)	n. m. sg. abs. nom.	to be hard	
+175137	ṣml	ṣml(I)/	ṣml (I)	n. m. sg. abs. nom.	a commodity	
 175138	b	b	b	prep.	5) modal relation	
-175139	mrmt	mrm/t	mrm	n. f. sg. abs. gen.	height	
+175139	mrmt	mrm/t=	mrm	n. m. pl. abs. gen.	height	
 # KTU 1.169 8						
 175140	b	b	b	prep.	in	
 175141	miyt	miy(t/t	mỉyt	n. f. sg. abs. gen.	swamp	
@@ -144,6 +144,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175179	l	l(I)	l (I)	prep.	to	
 175179	l	l(II)	l (II)	adv.	no	
 175179	l	l(III)	l (III)	functor	certainly	
+175180	bn	b+n	b	prep.	in	
 175180	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	5) stating a quality (sg. / pl. + n. sg.) a) bn ảdm man	
 175180	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	5) stating a quality (sg. / pl. + n. sg.) a) bn ảdm man	
 175180	bn	bn(II)	bn (II)	prep.	between	
@@ -183,8 +184,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175203	riš	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	1) head	
 # KTU 1.169 20						
 175204	xxxxxxxxx	?	?	?	?	
-175205	rˤtm	rˤt/+m(I)	rʕt	n. f. cstr. nom.	thunder	
-175206	kd	kd(I)/	kd (I)	n. f. sg. abs. nom.	jar	
+175205	rˤtm	rˤt/~m	rʕt	n. f. cstr. nom.	thunder	
+175206	kd	kd(I)/	kd (I)	n. f. sg. abs. gen.	jar	
 # KTU 1.169 21						
 175207	xxxxxxxxxm	?	?	?	?	DULAT: NOT FOUND
 175208	kn	kn(II)	kn (II)	adv.	thus	

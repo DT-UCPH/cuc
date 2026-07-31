@@ -9,6 +9,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178354	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
 178354	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
 # KTU 2.61 3						
+178355	bn	b+n	b	prep.	in	
 178355	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	5) stating a quality (sg. / pl. + n. sg.) d) bn ḫrn messenger	
 178355	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	5) stating a quality (sg. / pl. + n. sg.) d) bn ḫrn messenger	
 178355	bn	bn(II)	bn (II)	prep.	between	
@@ -44,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.61 8						
 178370	akln	akl(II)/+n	ảkl (II)	n. m. cstr. gen.	1) grain	
 178371	b	b	b	prep.	in	
-178372	grnt	grn(I)/t	grn (I)	n. f. sg. abs. gen.	1) threshing-floor a) b grn yḫrb on the threshing-floor (the harvest) had withered	
+178372	grnt	grn(I)/t=	grn (I)	n. f. pl. abs. gen.	1) threshing-floor a) b grn yḫrb on the threshing-floor (the harvest) had withered	
 # KTU 2.61 9						
 178373	l	l(III)	l (III)	functor	certainly	
 178374	bˤr	bˤr/	bʕr	adj. m. abs. nom.	burnt	

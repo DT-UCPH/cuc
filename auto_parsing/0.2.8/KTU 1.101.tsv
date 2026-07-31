@@ -26,6 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.101 3						
 171460	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	mountain	
 171460	ġr	ġr(III)/	ġr (III)	n. m. sg. cstr. nom.	skin	
+171460	ġr	ġr(II)/	ġr (II)	n. m. sg. cstr. nom.	an installation for the funerary cult	
 171461	tliyt	tliy(t/t	tlỉyt	n. f. sg. abs. gen.	triumph	
 171462	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	1) numeral seven d) gen. syntagms	
 171463	brqm	brq(I)/m	brq (I)	n. m. pl. abs. nom.	ray	
@@ -73,7 +74,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171489	ṯrm	!!ṯrm[/	/ṯ-r-m/	vb G inf.	to break	
 171490	iṯ	iṯ(I)/	ỉṯ (I)	n. m. sg. cstr. nom.	1) to be	
 171491	ph	p(III)/+h	p (III)	n. m. cstr. gen.	3) prep. use “according to (the custom)” / “what betrays (?)” in the syntagm ủ l p	
-171492	kṯt	kṯ(I)/t	kṯ (I)	n. f. sg. abs. nom.	flask	
+171492	kṯt	kṯ(I)/t=	kṯ (I)	n. f. pl. abs. nom.	flask	
 171493	ġbtxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.101 9						
 171494	xxx	?	?	?	?	
@@ -97,7 +98,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171508	urxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.101 14						
 171509	xx	?	?	?	?	
-171510	yskt	?	?	?	?	DULAT: NOT FOUND
+171510	yskt	!y!(nsk[:pass~t	/n-s-k/	vb G prefc. 3 m. sg.	to pour (out)	
+171510	yskt	!y!(nsk[:pass~t	/n-s-k/	vb Gpass prefc. 3 m. sg.	to pour (out)	
 171511	nˤmn	nˤm(II)&n/	nʕm (II)	n. m. sg. abs. nom.	grace	
 171511	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
 171512	nblxxxx	?	?	?	?	DULAT: NOT FOUND

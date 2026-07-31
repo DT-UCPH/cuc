@@ -6,7 +6,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.149 2						
 174496	inḏ	?	?	?	?	DULAT: NOT FOUND
 174497	tršwnḏ	?	?	?	?	DULAT: NOT FOUND
-174498	nt	?	?	?	?	DULAT: NOT FOUND
+174498	nt	n(I)[~t	n (I)	vb	Objektsuffix 1.c.sg.	LUPT lemma
+174498	nt	n(II)[~t	n (II)	vb	Pronominalsuffix 1.c.pl.	LUPT lemma
+174498	nt	n(III)[~t	n (III)	vb	Energikusendung	LUPT lemma
+174498	nt	n(IV)[~t	n (IV)	vb	enklitische	LUPT lemma
 # KTU 1.149 3						
 174499	iṯp	?	?	?	?	DULAT: NOT FOUND
 174500	ṯu	?	?	?	?	DULAT: NOT FOUND
@@ -31,15 +34,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174514	ṯdmn	?	?	?	?	DULAT: NOT FOUND
 174515	ix	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.149 7						
-174516	pršm	?	?	?	?	DULAT: NOT FOUND
+174516	pršm	prš(II)[~m	prš (II)	vb	Form prša od. pršt mit unsicherer Bed.: bedeckt sein	LUPT lemma
 174517	ṯgt	ṯgt/	ṯgt	PN sg. abs. nom.	ṯgt	
 174518	idpd	?	?	?	?	DULAT: NOT FOUND
 174519	ki	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.149 8						
-174520	pršt	?	?	?	?	DULAT: NOT FOUND
+174520	pršt	prš(II)[~t	prš (II)	vb	Form prša od. pršt mit unsicherer Bed.: bedeckt sein	LUPT lemma
 174521	idp	?	?	?	?	DULAT: NOT FOUND
 174522	tn	(ytn[	/y-t-n/	vb	give	
-174522	tn	(ytn[/	/y-t-n/	vb	give	
 174523	šbn	šbn(I)/	šbn (I)	TN sg. abs. nom.	šbn (I)	
 # KTU 1.149 9						
 174524	pršwn	?	?	?	?	DULAT: NOT FOUND
@@ -48,8 +50,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174527	x	?	?	?	?	
 # KTU 1.149 10						
 174528	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg. cstr. nom.	ṯủṯk	
-174529	tzġ	tzġ/	tzġ	n. m. sg. cstr. gen.	kind of sacrificial meat	
-174530	arm	ar/+m(I)	ả/ỉr	n. m. cstr. gen.	light	
+174529	tzġ	tzġ/	tzġ	n. m. sg. cstr. gen.	general type of offering	
+174530	arm	ar/~m	ả/ỉr	n. m. abs. gen.	light	
 174531	tṯp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.149 11						
 174532	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg. cstr. nom.	ṯủṯk	

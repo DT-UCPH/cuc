@@ -7,8 +7,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 2						
 175579	x	?	?	?	?	
 175580	tḥt	tḥt(I)	tḥt (I)	prep.	2) at the feet of	
-175581	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	1) god d) gods of a place or region	
-175582	ṯmk	ṯmk/	ṯmk	TN sg. abs. gen.	Bitterkraut	
+175581	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	1) god d) gods of a place or region	
+175582	ṯmk	ṯmk/	ṯmk	TN sg. abs. nom.	a mythical place famous for its wine	
+175582	ṯmk	ṯmk[	ṯmk	vb	Ortsname	LUPT lemma
 # KTU 1.179 3						
 175583		?	?	?	?	
 175584	w	w	w	conj.	and	
@@ -32,11 +33,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175598	adx	?	?	?	?	DULAT: NOT FOUND
 175599	pˤnk	pˤn/+k	pʕn	n. f. cstr. nom.	1) foot a) tdʕṣ pʕnm she pressed (?) (her) feet (down)	
 175600	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-175600	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 175600	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-175600	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 175600	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-175600	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 175601	l	l(I)	l (I)	prep.	to	
 175602	thm	thm/	thm	DN m. sg. abs. gen.	the Ocean/Primordial Ocean	
 175602	thm	thm/	thm	n. m. sg. abs. gen.	ocean	
@@ -124,12 +122,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175658	nḫl	nḫl(I)/	nḫl (I)	n. m. sg. cstr. gen.	torrent	
 175659	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. gen.	ʿṯtrt (II)	
 175660	b	b	b	prep.	1) spatial location a) place in which something occurs	
-175661	rḥbn	rḥbn/	rḥbn	TN sg. abs. gen.	rḥbn	
+175661	rḥbn	rḥbn/	rḥbn	TN sg. abs. gen.	river in the kingdom of Ugarit	
 # KTU 1.179 19						
 175662	xarr	?	?	?	?	DULAT: NOT FOUND
 175663	b	b	b	prep.	1) spatial location a) place in which something occurs	
-175664	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
-175664	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	2) DN	
+175664	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 175665	tl	tl(I)/	tl (I)	n. m. sg. cstr. gen.	hill	
 175666	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 175666	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -143,8 +140,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175670	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.179 22						
 175671	xt	?	?	?	?	DULAT: NOT FOUND
-175672	yldt	?	?	?	?	DULAT: NOT FOUND
-175673	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
+175672	yldt	!!yld[/~t	/y-l-d/	vb G inf.	to give birth (to), bear	
+175672	yldt	(]n]yld[t===	/y-l-d/	vb N suffc. 3 f. sg.	1) to give birth (to)	
+175672	yldt	(]n]yld[t=	/y-l-d/	vb N suffc. 2 m. sg.	1) to give birth (to)	
+175672	yldt	(]n]yld[t==	/y-l-d/	vb N suffc. 2 f. sg.	1) to give birth (to)	
+175672	yldt	(]n]yld[t	/y-l-d/	vb N suffc. 1 c. sg.	1) to give birth (to)	
+175672	yldt	yld/~t	yld	n. m. abs. nom.	son	
+175673	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	qṭy (I)	
 # KTU 1.179 23						
 175674	xxxkḏrḫi	?	?	?	?	DULAT: NOT FOUND
 175675	kbam	?	?	?	?	DULAT: NOT FOUND
@@ -153,7 +155,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.179 25						
 175677	xxx	?	?	?	?	
 # KTU 1.179 26						
-175678	nm	?	?	?	?	DULAT: NOT FOUND
+175678	nm	n(I)[~m	n (I)	vb	Objektsuffix 1.c.sg.	LUPT lemma
+175678	nm	n(II)[~m	n (II)	vb	Pronominalsuffix 1.c.pl.	LUPT lemma
+175678	nm	n(III)[~m	n (III)	vb	Energikusendung	LUPT lemma
+175678	nm	n(IV)[~m	n (IV)	vb	enklitische	LUPT lemma
 # KTU 1.179 27						
 175679	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.179 28						
@@ -227,20 +232,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175721	tˤny	!t===!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 2 m. pl.	1) to answer	
 175722	ank	ank	ảnk	pers. pn.	1) i a) subj. in NC	
 175723	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. nom.	1) queen a) in gen	
-175724	mntn	mnt(I)/+n	mnt (I)	n. f. cstr. gen.	1) portion	
-175725	mrbdh	mrbd(I)/+h	mrbd (I)	n. f. cstr. nom.	bedspread	
+175724	mntn	mnt(I)/~n	mnt (I)	n. f. cstr. gen.	1) portion	
+175725	mrbdh	mrbd(I)/+h	mrbd (I)	n. f. cstr. gen.	bedspread	
 175726	ytn	!y!(ytn[	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	
 175726	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	
 # KTU 1.179 35						
 175727	xxxnh	?	?	?	?	DULAT: NOT FOUND
 175728	w	w	w	conj.	and	
 175729	ḫlm	ḫl/m	ḫl	n. m. pl. cstr. nom.	pain	
-175730	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. gen.	3) lady	
-175730	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. gen.	3) lady	
+175730	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. gen.	woman	
 175731	iṯt	iṯ(I)/t	ỉṯ (I)	n. m. sg. abs. gen.	presence	
 175732	k	k(III)	k (III)	Subordinating or completive functor	when	
-175733	yṯnyn	!y!ṯny[+n	/ṯ-n-y/	vb G prefc. 3 m. sg.	to repeat, reiterate	
-175733	yṯnyn	yṯnyn[	/ṯ-n-y/	vb G suffc. 3 m. sg.	to repeat, reiterate	
+175733	yṯnyn	!y!ṯny[~n	/ṯ-n-y/	vb G prefc. 3 m. sg.	to repeat, reiterate	
 175734	bn	bn(II)	bn (II)	prep.	between	
 175735	ˤnm	ˤn(I)/m	ʕn (I)	n. f. pl. abs. nom.	1) eye c) syntagms	
 # KTU 1.179 36						
@@ -252,7 +255,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175739	lbš	lbš[/	/l-b-š/	vb G act. ptcpl. m. sg. abs. nom.	to dress	
 175740	w	w	w	conj.	and	
 175741	ahpkn	!(ʔ&a!hpk[+n	/h-p-k/	vb G prefc. 1 c. sg.	to overturn, alter	
-175742	ḫlpn	ḫlpn(I)/	ḫlpn (I)	n. m. sg. abs. nom.	1) gewand	
+175742	ḫlpn	ḫlpn(I)/	ḫlpn (I)	n. m. sg. abs. nom.	1) type of cloak or cape a) ảrbʕm ksp w ḫlpn ʕl PN forty of silver and a ḫ . on the account of PN	
 # KTU 1.179 37						
 175743	xxxm	?	?	?	?	DULAT: NOT FOUND
 175744	w	w	w	conj.	and	
@@ -261,7 +264,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175747	b	b	b	prep.	in	
 175748	tkh	tk/+h	tk	n. m. cstr. gen.	centre	
 175749	w	w	w	conj.	and	
-175750	tqdmnnn	!t!qdm[nn:d+n	/q-d-m/	vb D prefc.	to offer, present	
+175750	tqdmnnn	!t!qdm[nn:d~n	/q-d-m/	vb D prefc.	to offer, present	
 175751	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. abs. nom.	1) goddess a) as a category/class	
 # KTU 1.179 38						
 175752	xxxn	?	?	?	?	DULAT: NOT FOUND
@@ -273,7 +276,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175756	l	l(I)	l (I)	prep.	to	
 175756	l	l(II)	l (II)	adv.	no	
 175756	l	l(III)	l (III)	functor	certainly	
-175757	ymt	ym(I)/t=	ym (I)	n. f. pl. abs. nom.	day	
+175757	ymt	ym(I)/t=	ym (I)	n. m. pl. abs. nom.	day	
 175757	ymt	!y!mt[	/m-t/	vb G prefc. 3 m. sg.	to die	
 175758	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 175758	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	
@@ -286,7 +289,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175763	ksmḥṯ	?	?	?	?	DULAT: NOT FOUND
 175764	l	l(I)	l (I)	prep.	to	
 175765	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	1) queen a) in gen	
-175766	mntn	mnt(I)/+n	mnt (I)	n. f. cstr. gen.	portion	
+175766	mntn	mnt(I)/~n	mnt (I)	n. f. abs. gen.	portion	
 # KTU 1.179 40						
 175767	spr	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register	
 175767	spr	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to count	

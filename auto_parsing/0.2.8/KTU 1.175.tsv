@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 1						
 175427	np	np/	np	n. m. pl. cstr. nom.	peak	
-175428	mru	mru(III)/	mrủ (III)	n. m. sg. cstr. gen.	chief groom	
+175428	mru	mru(III)/	mrủ (III)	n. m. sg. cstr. gen.	member of a group or class	
 # KTU 1.175 2						
 175429		?	?	?	?	
 175430	mrrt	mrr(t(I)/t	mrrt (I)	n. f. sg. abs. gen.	bile	
@@ -19,7 +19,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175438	naṯt	naṯt	nảṯt	?		
 # KTU 1.175 4						
 175439		?	?	?	?	
-175440	ṯrn	ṯrn(I)	ṯrn (I)			
+175440	ṯrn	ṯrn(I)	ṯrn (I)		a vegetable product (?)	
 175441	dk	d+k	d	det. or rel. functor	the one(s) of	
 # KTU 1.175 5						
 175442		?	?	?	?	
@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175444	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 175444	št	št[	/š-t/	vb G impv. 2	to place	
 175444	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-175444	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
+175444	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	measure of capacity	
 175445	lšn	lšn/	lšn	n. f. sg. abs. nom.	2) a herb	
 # KTU 1.175 6						
 175446		?	?	?	?	
@@ -41,7 +41,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175453	yšḥmm	!y!]š]ḥmm[	/ḥ-m-m/	vb Š prefc. 3 m. sg.	to heat up, roast	
 # KTU 1.175 8						
 175454	t	/t, /t=				DULAT: NOT FOUND
-175454	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 175455	w	w	w	conj.	and	
 175456	byn	byn/	byn	PN sg. abs. nom.	byn	
 175457	tṯibṯn	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʔ-b-ṯ/ - ?
@@ -93,18 +92,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.175 15						
 175485	ṣ	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḫ-ṣ/ - to wound
 # KTU 1.175 16						
+175486	mṭt	mṭ/~t	mṭ	n. m. abs. nom.	rod	
 175486	mṭt	mṭ(t/t	mṭt	n. f. sg. abs. nom.	bed	
 175487	w	w	w	conj.	and	
 175488	ṯnt	ṯn(y[t	/ṯ-n-y/	vb G suffc. 1 c. sg.	to repeat	
-175488	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg. abs. nom.	a kind of leather or leather object	
+175488	ṯnt	ṯn(t(I)/t	ṯnt (I)	n. f. sg. abs. nom.	a commodity	
 175488	ṯnt	ṯn(t(II)/t=	ṯnt (II)	n. f. pl. abs. nom.	urine	
 175489	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	2) lad	
 175489	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	2) lad	
+175489	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
+175489	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
+175489	nˤr	]n]ˤr[	/ʕ-r/	vb N prefc.	to become agitated	
+175489	nˤr	]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
 # KTU 1.175 17						
 175490	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 175490	št	št[	/š-t/	vb G impv. 2	to place	
 175490	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-175490	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 175491	b	b	b	prep.	in	
 175492	gbh	gb(II)/+h	gb (II)	n. m. sg. cstr. gen.	spine	
 175493	b	b	b	prep.	in	

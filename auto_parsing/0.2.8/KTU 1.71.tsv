@@ -35,16 +35,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168704	ḫr	ḫr[	/ḫ-r(-r)/	vb G suffc. 3 m. sg.	to have spasms (of diarrhoea)	
 168704	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. abs. nom.	to have spasms (of diarrhoea)	
 168705	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
-168706	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.		
+168706	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. gen.	a medicinal plant	
 168707	w	w	w	conj.	and	
 168708	bṣqlˤrgz	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 6						
 168709	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-168709	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 168709	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-168709	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 168709	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-168709	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 168710	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 168711	w	w	w	conj.	and	
 168712	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out), serve	
@@ -66,16 +63,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168719	w	w	w	conj.	and	
 168720	ṯqd	ṯqd/	ṯqd	n. m. sg. abs. nom.	almond	
 168721	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-168721	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 168721	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+168721	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 168721	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
 # KTU 1.71 8						
 168722	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-168722	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 168722	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-168722	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 168722	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-168722	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 168723	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	one	
 168724	w	w	w	conj.	and	
 168725	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
@@ -100,17 +94,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168735	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 168735	št	št[	/š-t/	vb G impv. 2	to place	
 168735	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-168735	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
-168736	qlql	qlql/	qlql	n. m. sg. abs. nom.	cardamome	
+168736	qlql	qlql/	qlql	n. m. sg. abs. nom.	medicinal plant	
 # KTU 1.71 10						
 168737	w	w	w	conj.	and	
 168738	štˤrgz	?	?	?	?	DULAT: NOT FOUND
 168739	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-168739	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 168739	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-168739	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 168739	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-168739	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 168740	aḥdh	aḥd/+h	ảḥd	adj. cstr. nom.	2) adv	
 168741	w	w	w	conj.	and	
 168742	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
@@ -125,7 +115,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168748	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 168748	št	št[	/š-t/	vb G impv. 2	to place	
 168748	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-168748	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 168749	mkšr	mkšr/	mkšr	n. m. sg. abs. nom.	semolina	
 168750	grn	grn(I)/	grn (I)	n. m. sg. abs. nom.	threshing-floor	
 168750	grn	grn(II)/	grn (II)	adj. m. sg. abs. nom.	current	
@@ -134,7 +123,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168752	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 168752	št	št[	/š-t/	vb G impv. 2	to place	
 168752	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-168752	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 168753	aškrr	aškrr/	ảškrr	n. m. sg. abs. nom.	wax	
 168754	w	w	w	conj.	and	
 168755	pr	pr(I)/	pr (I)	n. m. sg. abs. nom.	fruit	
@@ -142,11 +130,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168756	ḥḏrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.71 13						
 168757	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-168757	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 168757	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-168757	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 168757	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-168757	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 168758	w	w	w	conj.	and	
 168759	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 168759	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
@@ -160,7 +145,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168764	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 168764	št	št[	/š-t/	vb G impv. 2	to place	
 168764	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-168764	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 168765	xxx	?	?	?	?	
 # KTU 1.71 15						
 168766	xxxxxxxxxxxxx	?	?	?	?	
@@ -169,11 +153,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168768	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
 # KTU 1.71 16						
 168769	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-168769	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 168769	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-168769	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 168769	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-168769	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 168770	w	w	w	conj.	and	
 168771	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 168771	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
@@ -188,15 +169,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168777	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 168777	št	št[	/š-t/	vb G impv. 2	to place	
 168777	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-168777	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 168778	bln	bln/	bln	n. m. sg. cstr. nom.	mixed fodder	
 168779	qṭ	qṭ(I)/	qṭ (I)	n. m. sg. abs. gen.	flax	
 168780	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-168780	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 168780	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-168780	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 168780	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-168780	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 # KTU 1.71 18						
 168781	w	w	w	conj.	and	
 168782	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
@@ -233,8 +210,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168801	mid	mid/	mỉ/ủd	n. m. sg. cstr. nom.	abundance	
 # KTU 1.71 27						
 168802	dblt	dbl(t/t	dblt	n. f. sg. abs. gen.	1) dried fig a) ltḥ dblt ltḥ ṣmqm a l . of dried figs (and) a l . of raisins	
-168802	dblt	dbl(t/t=	dblt	n. f. pl. abs. gen.	1) dried fig a) ltḥ dblt ltḥ ṣmqm a l . of dried figs (and) a l . of raisins	
-168803	yṯnt	yṯn/t	yṯn	adj. f. sg. abs. nom.	old	
+168803	yṯnt	yṯn/t=	yṯn	adj. f. pl. abs. nom.	old	
 168804	w	w	w	conj.	and	
 168805	ṣmqm	ṣmq/m	ṣmq	n. m. pl. abs. nom.	raisin	
 168806	yṯnm	yṯn/m	yṯn	adj. m. pl. abs. nom.	old	

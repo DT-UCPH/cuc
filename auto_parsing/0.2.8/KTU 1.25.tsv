@@ -15,18 +15,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166829	abx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 4						
 166830	w	w	w	conj.	and	
-166831	ldm	(yld[+m(I)	/y-l-d/	vb G impv. 2	to give birth (to)	
+166831	ldm	(yld[~m	/y-l-d/	vb G impv. 2	to give birth (to)	
 166832	dt	d+t	d	det. or rel. functor	4) in compound conjunctions	
 166833	ymtm	!y!mt[~m	/m-t/	vb G prefc. 3 m. sg.	to die	
 # KTU 1.25 5						
 166834	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
 166834	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
+166834	ġr	ġr(II)/	ġr (II)	n. m. sg. abs. nom.	an installation for the funerary cult	
 166835	lẓpn	l(ṭ&ẓpn/	lṭpn	adj. m. sg. abs. nom.	Benevolent	
 # KTU 1.25 6						
 166836	pn	pn(m/	pnm	n. m. pl. cstr. nom.	1) face	
 166836	pn	pn	pn	functor	lest	
 166837	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day d) in conj. with (vb) expressions (when)	
 166837	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day d) in conj. with (vb) expressions (when)	
+166837	ym	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu/the god “Sea”	
 166837	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 166838	ymgn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.25 7						
@@ -44,4 +46,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166847	x	?	?	?	?	
 166848	ydh	yd(I)/+h	yd (I)	n. f. cstr. nom.	5) used as a preposition	
 # KTU 1.25 11						
-166849	tmt	tm/t	tm	adj. f. sg. abs. nom.	complete	
+166849	tmt	tm/t=	tm	adj. f. pl. abs. nom.	complete	

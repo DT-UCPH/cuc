@@ -22,17 +22,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174728	w	w	w	conj.	and	
 174729	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 174729	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-174729	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.162 5						
-174730	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174730	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 174730	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+174730	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174731	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	(head of) cattle	
 174731	alpm	alp(II)&m/	ảlp (II)	num. pl. / num. du.	(one, a) thousand	
 174732	w	w	w	conj.	and	
-174733	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174733	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 174733	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+174733	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 # KTU 1.162 6						
 174734	šm	š/m	š	n. m. pl. abs. nom.	1) ram b) as a sacrificial victim	
 174734	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
@@ -57,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174748	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.162 11						
 174749	l	l(I)	l (I)	prep.	to	
-174750	lym	l(I)&y+m(I)	l (I)	prep.	to	
+174750	lym	l(I)&y~m	l (I)	prep.	to	
 174751	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.162 12						
 174752	l	l(I)	l (I)	prep.	to	
@@ -71,7 +70,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.162 14						
 174757	l	l(I)	l (I)	prep.	to	
 174758	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
-174759	ḫbly	ḫbly/	ḫbly	adj. f. sg. abs. nom.	distrut- trice	
+174759	ḫbly	ḫbly/	ḫbly	adj. f. sg. abs. nom.	epithet of the goddess ʕnt	
 174760	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.162 15						
 174761	l	l(I)	l (I)	prep.	to	
@@ -90,8 +89,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174769	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 174769	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.162 18						
-174770	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-174770	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+174770	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+174770	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+174770	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 # KTU 1.162 19						
 174771	l	l(I)	l (I)	prep.	to	
 174772	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -100,15 +100,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174773	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 # KTU 1.162 20						
 174774	w	w	w	conj.	and	
-174775	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
+174775	pamt	pam(t/t=	pảm(t)	n. f. pl. abs. nom.	time	
 174776	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
-174776	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 # KTU 1.162 21						
 174777	l	l(I)	l (I)	prep.	to	
 174778	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 # KTU 1.162 22						
 174779	mlsm	mlsm/	mlsm	n. m. sg. cstr. nom.	race	
 174780	mrkbt	mrkb(t/t	mrkbt	n. f. sg. cstr. gen.	1) (light war) chariot d) ảsr mrkbt they yoked the chariots	
-174780	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. cstr. gen.	1) (light war) chariot d) ảsr mrkbt they yoked the chariots	
 # KTU 1.162 23						
 174781	mtrn	mtrn/	mtrn	n. m. sg. abs. gen.	surplus	

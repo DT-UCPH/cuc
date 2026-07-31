@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 1						
 177409	tḥm	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
-177410	pdġb	pdġb/	pdġb	PN sg. cstr. gen.	pdġb	
+177410	pdġb	pdġb/	pdġb	PN sg. cstr. gen.	wife of Ḫattušili III	
 177411	mlkt	mlk(t/t	mlkt	n. f. sg. abs. gen.	1) queen b) genitive	
 177412	xxxxxx	?	?	?	?	
 177413	kxxx	?	?	?	?	DULAT: NOT FOUND
@@ -51,8 +51,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177443	xx	?	?	?	?	
 # KTU 2.36 7						
 177444	w	w	w	conj.	and	
-177445	at	at(I)	ảt (I)	pers. pn.	you	
-177446	kdwṯ	kdwṯ/	kdwṯ	n. m. sg. abs. nom.		
+177445	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	you	
+177446	kdwṯ	kdwṯ/	kdwṯ	n. m. sg. abs. nom.	garment	
 177447	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
 177447	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
 177448	d	d	d	det. or rel. functor	4) in compound conjunctions	
@@ -82,7 +82,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.36 9						
 177459	ṣḥrtxnṯb	?	?	?	?	DULAT: NOT FOUND
 177460	ˤmnkm	ˤm(I)&n+km	ʕm (I)	prep.	to	
-177460	ˤmnkm	ˤm(I)&nk~m	ʕm (I)	prep.	to	
 177461	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 177461	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
 177462	xx	?	?	?	?	
@@ -91,7 +90,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177463	aṯr	aṯr(III)	ảṯr (III)	interr. adv.	where	
 177464	iṯt	iṯ(I)/t	ỉṯ (I)	n. m. sg. abs. nom.	presence	
 177465	w	w	w	conj.	and	
-177466	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+177466	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you b) emph. subj. in VC	
 177467	ˤmy	ˤm(I)+y	ʕm (I)	prep.	1) relationship of direction (space and time)	
 177468	l	l(II)	l (II)	adv.	no	
 177469	mġt	mġ(y[t	/m-ġ-y/	vb G suffc. 1 c. sg.	to come, arrive	
@@ -116,11 +115,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177484	xx	?	?	?	?	
 # KTU 2.36 13						
 177485	xxx	?	?	?	?	
-177486	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
+177486	štnt	št[n~t	/š-t/	vb G impv. 2	to place	
 177487	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 177488	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 177489	špš	špš/	špš	n. f. sg. abs. gen.	sun	
-177490	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
+177490	štnt	št[n~t	/š-t/	vb G impv. 2	to place	
 # KTU 2.36 14						
 177491	ṯnnty	ṯn(II)&nt/+y	ṯn (II)	num. cstr. / adj. cstr.	second	
 177492	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	
@@ -134,7 +133,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177497	šbt	šb(t/t	šbt	n. f. sg. cstr. gen.	greyness > old age	
 177498	ntbt	ntbt/	ntbt	n. m. sg. cstr. gen.	path	
 177499	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
-177500	ušbtm	ušbtm(II)	-m (II)	morph.		
+177500	ušbtm	ušbtm(II)	-m (II)	morph.	encl. morph	
 # KTU 2.36 16						
 177501	ntbt	ntbt/	ntbt	n. m. sg. cstr. nom.	2) toll	
 177502	mṣrm	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
@@ -148,8 +147,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177509	b	b	b	prep.	in	
 177510	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
 177511		?	?	?	?	
-177512	nġṯ	nġṯ/	nġṯ	TN sg. abs. gen.	nġṯ	
-177513	tˤtqnn	!t!ˤtq[n+n	/ʕ-t-q/	vb G prefc.	to pass	
+177512	nġṯ	nġṯ/	nġṯ	TN sg. abs. gen.	Syrian territory between Aleppo and Hama	
 177513	tˤtqnn	!t!ˤtq[+nn	/ʕ-t-q/	vb G prefc.	to pass	
 # KTU 2.36 18						
 177514	xxxx	?	?	?	?	

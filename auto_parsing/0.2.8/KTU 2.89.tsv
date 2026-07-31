@@ -62,14 +62,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.89 15						
 179697	dbd	d&bd(II)/	dd (II)	n. m. cstr. nom.	cauldronful	KTU corrected: dd
 179698	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. gen.	boy	
-179698	nˤr	nˤr(II)/	nʕr (II)	n. m. sg. abs. gen.	roasted	
+179698	nˤr	nˤr(II)/	nʕr (II)	n. m. sg. abs. gen.	a type of flour	
 179699	x	?	?	?	?	
 # KTU 2.89 16						
 179700	kd	kd(I)/	kd (I)	n. f. sg. cstr. nom.	2) “jar”	
 179701	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. gen.	1) oil c) esp	
 179702	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-179702	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 179702	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+179702	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 179702	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
 # KTU 2.89 17						
 179703	kd	kd(I)/	kd (I)	n. f. sg. cstr. nom.	jar	
@@ -80,11 +80,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179707	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	
 # KTU 2.89 19						
 179708	kd	kd(I)/	kd (I)	n. f. sg. cstr. nom.	jar	
-179709	ztmm	zt/m+m(I)	zt	n. m. cstr. gen.	1) olive c) types	
+179709	ztmm	zt/m~m	zt	n. m. abs. gen.	1) olive c) types	
 # KTU 2.89 20						
 179710	d	d	d	det. or rel. functor	the one(s) of	
 179711	znt	zn(t/t	znt	n. f. sg. cstr. nom.	sustenance	
 179712	adty	ad(t/t+y	ảdt	n. f. sg. cstr. gen.	lady	
 # KTU 2.89 21						
 179713	kllm	kll/m	kll	n. m. pl. abs. nom.	totality	
-179714	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
+179714	štnt	št[n~t	/š-t/	vb G impv. 2	to place	

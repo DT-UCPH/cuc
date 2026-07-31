@@ -38,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171595	w	w	w	conj.	and	
 171596	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 171597	xxxxxx	?	?	?	?	
-171598	ḥwtn	ḥwt/+n	ḥwt	n. f. cstr. nom.	1) country	
+171598	ḥwtn	ḥwt/~n	ḥwt	n. f. abs. nom.	1) country	
 171599	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	
 # KTU 1.103 5						
 171600	w	w	w	conj.	and	
@@ -60,7 +60,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171611	w	w	w	conj.	and	
 171612	ḫr	ḫr(I)/	ḫr (I)	n. m. sg. abs. nom.	cave	
 171613	apm	ap(I)~m	ảp (I)	adv./conj.	also	
-171614	ḥwtn	ḥwt/+n	ḥwt	n. f. cstr. nom.	country	
+171613	apm	ap(II)/~m	ảp (II)	n. m. abs. nom.	1) nose	
+171614	ḥwtn	ḥwt/~n	ḥwt	n. f. abs. nom.	country	
 171615	tḫlq	!t!ḫlq[	/ḫ-l-q/	vb G prefc. 3 f. sg.	to perish, to be lost	
 171615	tḫlq	!t=!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. sg.	to perish, to be lost	
 171615	tḫlq	!t==!ḫlq[	/ḫ-l-q/	vb G prefc. 2 f. sg.	to perish, to be lost	
@@ -68,12 +69,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171615	tḫlq	!t!ḫlq[:w	/ḫ-l-q/	vb G prefc. 3 m. pl.	to perish, to be lost	
 171615	tḫlq	!t===!ḫlq[	/ḫ-l-q/	vb G prefc. 2 m. pl.	to perish, to be lost	
 171615	tḫlq	&tḫlq[:pass	/ḫ-l-q/	vb Dpass suffc.	to be destroyed, devastated	
-171616	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
+171616	mtn	mt(II)/~n	mt (II)	n. m. abs. nom.	death	
 171616	mtn	mt[n	/m-t/	vb	to die	
-171616	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-171616	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-171616	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
-171616	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
+171616	mtn	mt(III)/~n	mt (III)	n. m. abs. nom.	man	
+171616	mtn	mt(I)/~n	mt (I)	n. m. abs. nom.	dead person	
 171617	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	
 171617	rgm	rgm[	/r-g-m/	vb G impv. 2	to say	
 171617	rgm	!!rgm[/	/r-g-m/	vb G inf.	to say	
@@ -124,7 +123,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171649	qrn	qrn/	qrn	n. f. sg. cstr. nom.	3) excrescence	
 171650	šir	šir(I)/	šỉr (I)	n. m. sg. abs. gen.	flesh	
 171651	b	b	b	prep.	in	
-171652	pith	pit/+h	pỉt	n. m. cstr. gen.	1) temple	
+171652	pith	pi(t/t+h	pỉt	n. m. sg. cstr. gen.	1) temple	
 171653	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	1) left	
 171654	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	king	
 171655	xxxx	?	?	?	?	
@@ -258,6 +257,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171747	ḫr	ḫr[	/ḫ-r(-r)/	vb G suffc. 3 m. sg.	to have spasms (of diarrhoea)	
 171747	ḫr	ḫr[/	/ḫ-r(-r)/	vb G ptcpl. m. sg. abs. nom.	to have spasms (of diarrhoea)	
 171748	apm	ap(I)~m	ảp (I)	adv./conj.	also	
+171748	apm	ap(II)/~m	ảp (II)	n. m. abs. nom.	nose	
 171749	kl	kl/	kl	n. m. sg. abs. nom.	totality (of)	
 # KTU 1.103 31						
 171750	w	w	w	conj.	and	
@@ -268,7 +268,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 32						
 171755	šphth	šp&ht&h/	špt	n. f. abs. nom.	lip	KTU corrected: špth
 171756	tḥyt	?	?	?	?	DULAT: NOT FOUND
-171757	krt	krt/	krt	PN sg. abs. nom.	krt	
+171757	krt	krt/	krt	PN sg. abs. nom.	name of the king of bt ḫbr	
 171758	x	?	?	?	?	
 # KTU 1.103 33						
 171759	pnh	pn(m&/+h	pnm	n. m. pl. cstr. nom.	1) face	
@@ -354,7 +354,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171814	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 171814	št	št[	/š-t/	vb G impv. 2	to place	
 171814	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-171814	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 171815	w	w	w	conj.	and	
 171816	ydu	ydu[	/n-d-ʔ/	vb G suffc. 3 m. sg.	to frighten away, scare off, eject	
 # KTU 1.103 43						
@@ -423,7 +422,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.103 52						
 171870	w	w	w	conj.	and	
 171871	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
-171872	pˤnt	pˤn/t	pʕn	n. f. sg. abs. gen.	1) foot c) of animals	
+171872	pˤnt	pˤn/t=	pʕn	n. f. pl. abs. gen.	1) foot c) of animals	
 171873	bh	b+h	b	prep.	in	
 171874	ḫrdn	ḫrd/+n	ḫrd	n. m. cstr. nom.	1) (royal) guard	
 171875	yhpk	!y!hpk[	/h-p-k/	vb G prefc. 3 m. sg.	to overturn, alter	
@@ -434,7 +433,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171878	w	w	w	conj.	and	
 171879	in	in/	ỉn	n. m. sg. cstr. nom.	lack of	
 171880	lšnh	lšn/+h	lšn	n. f. cstr. gen.	tongue	
-171881	ḥwtn	ḥwt/+n	ḥwt	n. f. cstr. nom.	1) country	
+171881	ḥwtn	ḥwt/~n	ḥwt	n. f. abs. nom.	1) country	
 171882	tprš	!t!(]n]prš[	/p-r-š/	vb N prefc. 3 f. sg.	to be extended, widened, expanded	
 171882	tprš	!t=!(]n]prš[	/p-r-š/	vb N prefc. 2 m. sg.	to be extended, widened, expanded	
 171882	tprš	!t==!(]n]prš[	/p-r-š/	vb N prefc. 2 f. sg.	to be extended, widened, expanded	
@@ -446,7 +445,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171884	ḥxz	?	?	?	?	DULAT: NOT FOUND
 171885	ḥrh	ḥr(I)/+h	ḥr (I)	n. m. cstr. nom.	intestine(s)	
 171886	b	b	b	prep.	in	
-171887	pith	pit/+h	pỉt	n. m. cstr. gen.	1) temple	
+171887	pith	pi(t/t+h	pỉt	n. m. sg. cstr. gen.	1) temple	
 171888	mlkn	mlk(I)&n/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 171889	yšlm	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well, do well, be in peace	
 171889	yšlm	!y!šlm[:d	/š-l-m/	vb D prefc. 3 m. sg.	to re-establish > to pay	

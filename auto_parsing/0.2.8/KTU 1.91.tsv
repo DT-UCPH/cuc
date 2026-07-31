@@ -22,7 +22,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170465	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 170466	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. nom.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.91 4						
-170467	tzġm	tzġ/m	tzġ	n. m. pl. cstr. gen.	kind of sacrificial meat	
+170467	tzġm	tzġ/m	tzġ	n. m. pl. cstr. gen.	general type of offering	
 # KTU 1.91 5						
 170468	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
 # KTU 1.91 6						
@@ -56,7 +56,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170482	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
 # KTU 1.91 11						
 170483	k	k(III)	k (III)	Subordinating or completive functor	when	
-170484	tˤrbn	!t!ˤrb(I)[+n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
+170484	tˤrbn	!t!ˤrb(I)[~n	/ʕ-r-b/ (I)	vb G prefc.	to enter	
 170485	ršpm	ršp/m	ršp	DN pl. cstr. nom.	Rašap	
 170486	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 170487	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
@@ -64,8 +64,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170488	ḫlu	ḫlu/	ḫlủ	n. m. sg. cstr. gen.	cake	
 170489	dg	dg(I)/	dg (I)	n. m. sg. abs. gen.	fish	
 # KTU 1.91 13						
-170490	ḥdṯm	ḥdṯ(II)/+m(I)	ḥdṯ (II)	n. m. cstr. nom.	new moon	
-170490	ḥdṯm	ḥdṯ(I)/+m(I)	ḥdṯ (I)	adj. cstr. nom.	new	
+170490	ḥdṯm	ḥdṯ(II)/~m	ḥdṯ (II)	n. m. abs. nom.	new moon	
+170490	ḥdṯm	ḥdṯ(I)/~m	ḥdṯ (I)	adj. abs. nom.	new	
 # KTU 1.91 14						
 170491	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	1) sacrifice	
 170491	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	1) sacrifice	
@@ -91,7 +91,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170503	iln	iln(I)/	ỉln (I)	n. m. sg. abs. nom.	1) deity	
 # KTU 1.91 18						
 170504	xxxxx	?	?	?	?	
-170505	ṣmdt	?	?	?	?	DULAT: NOT FOUND
+170505	ṣmdt	ṣmd/~t	ṣmd	n. m. abs. nom.	4) mace or double axe (De Moor SP 135)	
+170505	ṣmdt	ṣmd[t===	/ṣ-m-d/	vb G suffc. 3 f. sg.	to harness	
+170505	ṣmdt	ṣmd[t=	/ṣ-m-d/	vb G suffc. 2 m. sg.	to harness	
+170505	ṣmdt	ṣmd[t==	/ṣ-m-d/	vb G suffc. 2 f. sg.	to harness	
+170505	ṣmdt	ṣmd[t	/ṣ-m-d/	vb G suffc. 1 c. sg.	to harness	
+170505	ṣmdt	ṣmd[~t	/ṣ-m-d/	vb G impv. 2	to harness	
 170506	rxš	?	?	?	?	DULAT: NOT FOUND
 170507	pdġy	pdġy/	pdġy	PN sg. abs. nom.	pdġy	
 # KTU 1.91 19						
@@ -105,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170513	yn	yn/	yn	n. m. sg. cstr. nom.	wine	
 # KTU 1.91 22						
 170514	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. cstr. gen.	massif	
-170515	gngnt	gngnt/	gngnt	TN sg. abs. gen.	gngnt	
+170515	gngnt	gngnt/	gngnt	TN sg. abs. gen.	part of the composite TN ḫlb gngnt	
 170516	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	1) the numeral three b) genitive syntagms	
 170517	yn	yn/	yn	n. m. sg. abs. nom.	wine	
 # KTU 1.91 23						
@@ -194,5 +199,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170564	w	w	w	conj.	and	
 170565	ḥsp	ḥsp/	ḥsp	adj. m. sg. abs. nom.	decanted	
 170566	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two c) in apposition	
-170566	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 170567	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	1) total quantity or price	

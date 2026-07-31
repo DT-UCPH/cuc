@@ -87,7 +87,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173935	w	w	w	conj.	and	
 173936	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 173936	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-173936	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.127 18						
 173937	dt	d+t	d	det. or rel. functor	the one(s) of	
 173938	nat	na(t/t	nảt	n. f. sg. abs. nom.	lament	
@@ -122,8 +121,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173952	x	?	?	?	?	
 173953	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	1) woman	
 173953	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	1) woman	
-173953	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	1) woman	
-173953	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	1) woman	
 173954	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
 173954	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
 173955	ˤz	ˤz(II)/	ʕz (II)	n. m. sg. abs. nom.	caprine animal	
@@ -145,10 +142,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173963	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 173963	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 173963	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+173963	mt	mt(IV)	mt (IV)	adv.	certainly	
 173964	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up, rise	
 173965	bnš	bnš/	bnš	n. m. sg. cstr. nom.	1) man	
 # KTU 1.127 31						
 173966	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
+173967	bn	b+n	b	prep.	in	
 173967	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 173967	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 173967	bn	bn(II)	bn (II)	prep.	between	

@@ -1,13 +1,11 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.39 1						
 166901	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	2) sheep	
-166901	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	2) sheep	
 166902	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. cstr. nom.	2) title of the dead and deified kings of Ugarit	
 166902	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. cstr. nom.	offering	
 166903	ynt	yn(t/t	ynt	n. f. sg. cstr. gen.	dove	
 166904	ṯˤm	ṯˤ(II)/m	ṯʕ (II)	n. m. pl. abs. gen.	2) title of the dead and deified kings of Ugarit	
 166905	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	2) sheep	
-166905	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	2) sheep	
 166906	ṯˤm	ṯˤ(II)/m	ṯʕ (II)	n. m. pl. cstr. nom.	2) title of the dead and deified kings of Ugarit	
 # KTU 1.39 2						
 166907	mtntm	mtnt/m	mtnt	n. f. pl. abs. gen.	loin	
@@ -25,20 +23,24 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166914	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 166914	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
 166915	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-166916	kṯkmn	&kṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	KTU corrected: ṯkmn
+166915	ilhm	il(t(I)&h/~m	ỉlt (I)	n. f. cstr. gen.	goddess	
+166915	ilhm	ilh/~m	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
+166915	ilhm	ilhm/	ilhm	DN sg. cstr. gen.	Göttername	LUPT lemma
+166916	kṯkmn	&kṯkmn/	ṯkmn	DN/element sg. abs. gen.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	KTU corrected: ṯkmn
 166917	w	w	w	conj.	and	
 166918	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-166919	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-166919	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+166919	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+166919	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+166919	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 # KTU 1.39 4						
 166920	ršp	ršp/	ršp	DN sg. abs. nom.	Rašap	
-166921	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-166921	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+166921	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+166921	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+166921	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 166922	šrp	šrp/	šrp	n. m. sg. abs. nom.	1) burnt sacrifice	
 166923	w	w	w	conj.	and	
 166924	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 166924	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-166924	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 166925	dqtm	dqt(I)/m	dqt (I)	adj. f. pl. abs. nom.	small	
 # KTU 1.39 5						
 166926	ilh	ilh/	ỉlh	DN sg. abs. nom.	the ‘Divine One’	
@@ -48,17 +50,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166928	w	w	w	conj.	and	
 166929	š	š/	š	n. m. sg. cstr. nom.	ram	
 166930	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
-166931	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
-166931	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-166931	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
-166932	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
+166930	ilhm	il(t(I)&h/~m	ỉlt (I)	n. f. cstr. gen.	goddess	
+166930	ilhm	ilh/~m	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
+166930	ilhm	ilhm/	ilhm	DN sg. cstr. gen.	Göttername	LUPT lemma
+166931	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
+166931	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
+166931	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
+166932	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. gen.	god	
+166932	ilhm	il(t(I)&h/~m	ỉlt (I)	n. f. cstr. gen.	goddess	
+166932	ilhm	ilh/~m	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
+166932	ilhm	ilhm/	ilhm	DN sg. cstr. gen.	Göttername	LUPT lemma
 # KTU 1.39 6						
-166933	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
-166933	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-166934	š	š/	š	n. m. sg. abs. nom.	ram	
-166935	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. abs. nom.	back part (of the head)	
-166936	š	š/	š	n. m. sg. abs. nom.	ram	
-166937	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
+166933	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
+166933	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+166934	š	š/	š	n. m. sg. cstr. gen.	ram	
+166935	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. gen.	back part (of the head)	
+166936	š	š/	š	n. m. sg. cstr. gen.	ram	
+166937	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. gen.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 166938	w	w	w	conj.	and	
 166939	šnm	šnm/	šnm	DN sg. cstr. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 166940	š	š/	š	n. m. sg. cstr. gen.	ram	
@@ -86,13 +94,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166952	šgdlt	&šgdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	KTU corrected: gdlt
 166953	w	w	w	conj.	and	
 166954	b	b	b	prep.	in	
-166955	urm	ur/+m(I)	ủr	n. m. cstr. gen.	2) type of sacrifice	
-166956	lb	lb/	lb	n. m. sg. abs. nom.	heart	
+166955	urm	ur/~m	ủr	n. m. cstr. gen.	2) type of sacrifice	
+166956	lb	lb/	lb	n. m. sg. cstr. gen.	heart	
 # KTU 1.39 9						
-166957	rmṣt	rmṣ/t	rmṣ	n. f. sg. abs. nom.	embers	
-166958	ilhm	il(I)/+hm	ỉl (I)	n. m. cstr. nom.	god	
-166959	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. abs. nom.	Baʿlu/Baal	
-166960	dṯt	dṯ(t/t	dṯt	n. f. sg. abs. nom.	fodder or spring grass	
+166957	rmṣt	rmṣ/t=	rmṣ	n. m. pl. cstr. gen.	embers	
+166958	ilhm	ilh/~m	ỉlh	DN sg. cstr. gen.	the ‘Divine One’	
+166959	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
+166960	dṯt	dṯ(t/t	dṯt	n. f. sg. abs. gen.	fodder or spring grass	
 166961	w	w	w	conj.	and	
 166962	kšm	kš/m	kš	n. m. pl. abs. nom.	date	
 166963	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
@@ -102,7 +110,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166964	ˤšrh	ˤšr[:pass+h	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
 166964	ˤšrh	ˤšr(I)/+h	ʕšr(t) (I)	n. m. cstr. nom.	banquet	
 166965	mlun	mlu/+n	mlủ	n. m. cstr. nom.	fill	
-166966	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	wave- offering	
+166966	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	unspecified type of general offering	
 166967	ḫṣth	ḫṣ(t/t+h	ḫṣt	n. f. sg. cstr. nom.	half	
 166968	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
 166968	bˤl	bˤl(II)/	bʕl (II)	DN sg. abs. nom.	Baʿlu/Baal	
@@ -134,11 +142,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166990	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 166990	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 166990	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
-166991	ušḫry	ušḫry/	ỉ/ủšḫry	DN sg. cstr. gen.	ỉ/ủšḫry	
+166991	ušḫry	ušḫry/	ỉ/ủšḫry	DN sg. cstr. gen.	Hurro-Mesop. deity	
 166992	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 166992	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 166992	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
 166993	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+166993	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 166993	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	2) DN	
 166994	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 166994	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
@@ -168,19 +177,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167004	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
 167004	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 167005	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	3) DN < “the Little One”	
-167005	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	3) DN < “the Little One”	
 # KTU 1.39 16						
-167006	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-167006	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+167006	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+167006	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+167006	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 167007	ṯtrṯ	&ṯtrṯ/	trṯ	n. m. abs. nom.	2) DN	KTU corrected: trṯ
-167008	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-167008	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+167008	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+167008	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+167008	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 167009	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
 # KTU 1.39 17						
 167010	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
+167011	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 167011	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 167011	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
-167012	ḫbly	ḫbly/	ḫbly	adj. f. sg. abs. nom.	distrut- trice	
+167012	ḫbly	ḫbly/	ḫbly	adj. f. sg. abs. nom.	epithet of the goddess ʕnt	
 167013	dbḥm	dbḥ/m	dbḥ	n. m. pl. cstr. nom.	2) offering	
 167014	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 167014	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
@@ -206,11 +217,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167026	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.39 20						
 167027	w	w	w	conj.	and	
-167028	pamt	pam(t/t	pảm(t)	n. f. sg. abs. nom.	time	
+167028	pamt	pam(t/t=	pảm(t)	n. f. pl. abs. nom.	time	
 167029	ṯlṯm	ṯlṯm/	ṯlṯm	num.	1) the numeral thirty c) in apposition	
 167030	w	w	w	conj.	and	
 167031	yrdt	yrdt/	yrdt	n. f. pl. cstr. nom.	step	
-167032	mdbḥt	mdbḥ/t	mdbḥ	n. f. sg. cstr. gen.	altar	
+167032	mdbḥt	mdbḥ/t=	mdbḥ	n. m. pl. cstr. gen.	altar	
 # KTU 1.39 21						
 167033	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
 167033	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
@@ -218,7 +229,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167034	l	l(I)	l (I)	prep.	to	
 167035	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	lady	
 167036	bhtm	bht(II)/m	bt (II)	n. m. pl. cstr. gen.	house	
-167037	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	2) espec. domestic fowl	
+167037	ˤṣrm	ˤṣr(I)/~m	ʕṣr (I)	n. f. abs. gen.	2) espec. domestic fowl	
 # KTU 1.39 22						
 167038	l	l(I)	l (I)	prep.	to	
 167039	inš	inš/	ỉnš	n. m. sg. cstr. gen.	1) people a) as element of a divine group	

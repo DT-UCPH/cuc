@@ -31,7 +31,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178058	šnmyk	šnmyk	šnmyk	?		
 178059	w	w	w	conj.	and	
 178060	t	/t, /t=				DULAT: NOT FOUND
-178060	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 2.47 I:7						
 178061	w	w	w	conj.	and	
 178062	ˤprm	ˤpr(I)/m	ʕpr (I)	n. m. pl. abs. nom.	dust	
@@ -80,9 +79,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178091	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 178091	št	št[	/š-t/	vb G impv. 2	to place	
 178091	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-178091	št	št(III)/	št (III)	n. m. sg. abs. nom.	tearing apart	
-178091	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 178091	št	št(I)/	št (I)	n. m. sg. cstr. nom.	base	
+178091	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	measure of capacity	
+178091	št	št(III)/	št (III)	n. m. sg. abs. nom.	tearing apart	
 178092	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 178092	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 178092	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
@@ -99,7 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178098	ˤps	?	?	?	?	DULAT: NOT FOUND
 178099	tḫd	?	?	?	?	DULAT: NOT FOUND
 178100	kw	k(t(I)&w/	kt (I)	n. f. cstr. nom.	pitcher	
-178100	kw	kw/	kw	n. f. sg. cstr. nom.	Gefäss	
+178100	kw	kw/	kw	n. f. sg. cstr. nom.	a container or measure	
 # KTU 2.47 II:7						
 178101	sˤt	sˤ[/t	/s-ʕ/	vb G pass. ptcpl. m. sg. cstr. gen.	to sweep	
 # KTU 2.47 II:8						
@@ -121,8 +120,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.47 II:13						
 178112	w	w	w	conj.	and	
 178113	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+178113	ym	ym(II)/	ym (II)	DN m. sg. cstr. nom.	Yammu/the god “Sea”	
 178113	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
 178114	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+178114	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 178114	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 178115	yš	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.47 II:14						

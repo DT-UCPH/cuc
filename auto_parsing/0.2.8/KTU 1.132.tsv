@@ -26,13 +26,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174099	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 174100	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
 # KTU 1.132 4						
-174101	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
+174101	aṯḫlm	aṯḫlm	ảṯḫlm		a type of ritual	
 174102	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 174103	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.132 5						
-174104	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
-174104	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
-174105	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Bien-amada
+174104	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. nom.	head of cattle	
+174104	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. nom.	head of cattle	
+174104	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. nom.	power	
+174105	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Syro-Hurr. goddess
 174106	š	š/	š	n. m. sg. cstr. gen.	1) ram b) as a sacrificial victim	
 # KTU 1.132 6						
 174107	šbrd	šbr/+d	šbr	n. m. cstr. gen.	stick	
@@ -49,32 +50,36 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174112	ḫdlr	ḫdlr	ḫdlr	→	?	
 174113	dqtt	dqt(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	2) sheep	KTU corrected: dqt
 # KTU 1.132 9						
-174114	ḫnnġd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫnnġ - ḫnnġ
+174114	ḫnnġd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫnnġ - a group of deities
 174115	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
-174116	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-174116	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+174116	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+174116	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+174116	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 # KTU 1.132 10						
 174117	nbdgd	nbdg/+d	nbdg	DN sg. cstr. nom.	nbdg	
-174118	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-174118	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+174118	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+174118	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+174118	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 # KTU 1.132 11						
 174119	tgnd	tgn/+d	tgn	PN sg. cstr. nom.	tgn	
-174120	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-174120	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+174120	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+174120	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+174120	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 # KTU 1.132 12						
 174121	kldnd	?	?	?	?	DULAT candidates (no reconstructable encoding): kld (II) - Health
-174122	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-174122	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+174122	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+174122	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+174122	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 # KTU 1.132 13						
 174123	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 174123	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
-174124	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174124	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 174124	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+174124	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174125	šm	š/m	š	n. m. pl. cstr. nom.	ram	
 174125	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
 # KTU 1.132 14						
-174126	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Bien-amada
+174126	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Syro-Hurr. goddess
 174127	w	w	w	conj.	and	
 174128	i	i(I)	ỉ (I)	interj.	woe	
 # KTU 1.132 15						
@@ -99,7 +104,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174140	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 174140	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
 # KTU 1.132 20						
-174141	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Bien-amada
+174141	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Syro-Hurr. goddess
 174142	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. cstr. gen.	head of cattle	
 174142	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. cstr. gen.	head of cattle	
 174142	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	
@@ -116,9 +121,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174149	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.132 23						
 174150	alnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ảln (II) - the Lady
-174151	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174151	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 174151	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+174151	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174152	šm	š/m	š	n. m. pl. cstr. nom.	1) ram b) as a sacrificial victim	
 174152	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
 # KTU 1.132 24						
@@ -145,6 +150,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174161	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 1.132 28						
 174162	w	w	w	conj.	and	
-174163	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 174163	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+174163	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 174164	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	

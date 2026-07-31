@@ -55,7 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173196	yqṯqṯ	!y!qṯ[qṯ:r	/q-ṯ/	vb R prefc. 3 m. sg.	to creep	
 173197	tḥt	tḥt(I)	tḥt (I)	prep.	1) under	
 # KTU 1.114 6						
-173198	ṯlḥnt	ṯlḥn/t	ṯlḥn	n. f. sg. cstr. gen.	table	
+173198	ṯlḥnt	ṯlḥn/t=	ṯlḥn	n. m. pl. cstr. gen.	table	
 173199	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 173199	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
 173200	d	d	d	det. or rel. functor	2) which	
@@ -86,6 +86,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173220	lh	l(I)+h	l (I)	prep.	to	
 # KTU 1.114 11						
 173221	w	w	w	conj.	and	
+173222	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 173222	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 173222	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 173223	ktp	ktp(I)/	ktp (I)	n. f. sg. abs. nom.	2) shoulder blade	
@@ -127,6 +128,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173247	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 173247	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN a) activities of the god	
 173247	il	il(I)/	ỉl (I)	n. m. sg. abs. nom.	2) DN a) activities of the god	
+173248	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+173248	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 173248	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 173248	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 173248	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -159,14 +162,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173263	l	l(I)	l (I)	prep.	to	
 173264	ḥẓrh	ḥẓr/+h	ḥẓr	n. m. cstr. gen.	1) mansion	
 173265	yˤmsnnn	!y!ˤms[nnn	/ʕ-m-s/	vb	1) to load	
-173265	yˤmsnnn	!y!ˤms[n+nn	/ʕ-m-s/	vb G prefc. 3 m. sg.	to load	
 173266	ṯkmn	ṯkmn/	ṯkmn	DN/element sg. abs. nom.	Ṯukamuna/Thukamuna/first element of the double-barrelled DN ṯkmn w šnm, origin unknown	
 # KTU 1.114 19						
 173267	w	w	w	conj.	and	
 173268	šnm	šnm/	šnm	DN sg. abs. nom.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
 173269	w	w	w	conj.	and	
 173270	ngšnn	ngšnn[	/n-g-š/	vb G suffc. 3 m. sg.	to approach, meet, find	
-173271	ḥby	ḥby(I)/	ḥby (I)	DN sg. cstr. nom.	Apis	
+173271	ḥby	ḥby(I)/	ḥby (I)	DN sg. cstr. nom.	a demon (?)	
 # KTU 1.114 20						
 173272	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 173272	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
@@ -179,7 +181,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173278	ḫrih	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫrủ - faeces
 173279	w	w	w	conj.	and	
 173280	ṯnth	ṯn(II)/t+h	ṯn (II)	num. sg. cstr. / adj. sg. cstr.	second	
-173280	ṯnth	ṯnt(I)/+h	ṯnt (I)	n. f. cstr. nom.	a kind of leather or leather object	
+173280	ṯnth	ṯnt(I)/+h	ṯnt (I)	n. f. cstr. nom.	a commodity	
 173280	ṯnth	ṯnt(II)/+h	ṯnt (II)	n. f. cstr. nom.	urine	
 173281	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
 173281	ql	ql[	/q-l/	vb G impv. 2	to fall (down)	
@@ -219,6 +221,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.114 26						
 173301	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
 173302	w	w	w	conj.	and	
+173303	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 173303	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 173303	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 173304	xxxxxxx	?	?	?	?	
@@ -244,13 +247,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173314	yšt	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to cause, leave (in a condition)	
 173315	l	l(I)	l (I)	prep.	to	
 173316	lṣbh	lṣb/+h	lṣb	n. m. cstr. gen.	brow	
-173317	ḫš	ḫš/	ḫš	DN sg. abs. nom.	ḫš	
+173317	ḫš	ḫš/	ḫš	DN sg. abs. nom.	divine mountain	
 173318	ˤrk	ˤrk(I)/	ʕrk (I)	n. m. sg. abs. nom.	bookkeeping account	
 173319	lb	lb/	lb	n. m. sg. abs. nom.	heart	
 # KTU 1.114 30						
 173320	w	w	w	conj.	and	
 173321	riš	riš(I)/	rỉš (I)	n. m. sg. abs. nom.	1) head	
-173322	pqq	?	?	?	?	DULAT: NOT FOUND
+173322	pqq	pqq	pqq		Frosch	LUPT lemma
 173323	w	w	w	conj.	and	
 173324	šrh	šr(IV)/+h	šr (IV)	n. m. cstr. nom.	navel	
 # KTU 1.114 31						

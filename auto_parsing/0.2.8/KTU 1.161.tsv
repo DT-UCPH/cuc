@@ -20,26 +20,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 3						
 174592	qbitm	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-b-ʔ/ - to send (someone) to say
 174593	qbṣ	qbṣ/	qbṣ	n. m. sg. abs. nom.	clan	
-174594	ddn	dd(II)/+n	dd (II)	n. m. cstr. nom.	cauldronful	
-174594	ddn	dd(I)/+n	dd (I)	adj. m. cstr. nom.	love	
+174594	ddn	dd(II)/~n	dd (II)	n. m. abs. nom.	cauldronful	
+174594	ddn	dd(I)/~n	dd (I)	adj. m. abs. nom.	love	
 # KTU 1.161 4						
-174595	qra	qr(ʔ[	/q-r-ʔ/	vb G impv. 2	to call, shout, invite	
 174595	qra	!!qra[/	/q-r-ʔ/	vb G inf.	to call, shout, invite	
-174596	ulkn	ulkn/	ủlkn	PN sg. cstr. nom.	ủlkn	
+174596	ulkn	ulkn/	ủlkn	PN sg. cstr. nom.	name of an ancestral king	
 174597	rpu	rpu/	rpủ	n. m. sg. abs. gen.	healer	
 # KTU 1.161 5						
-174598	qra	qr(ʔ[	/q-r-ʔ/	vb G impv. 2	to call	
 174598	qra	!!qra[/	/q-r-ʔ/	vb G inf.	to call	
 174599	trmn	trmn/	trmn	PN sg. cstr. nom.	trmn	
 174600	rpu	rpu/	rpủ	n. m. sg. abs. gen.	healer	
 # KTU 1.161 6						
-174601	qra	qr(ʔ[	/q-r-ʔ/	vb G impv. 2	to call	
 174601	qra	!!qra[/	/q-r-ʔ/	vb G inf.	to call	
-174602	sdn	sdn/	sdn	n. f. abs. nom.	?	
+174602	sdn	sdn/	sdn	n. f. abs. nom.	harness or garment	
 174603	w	w	w	conj.	and	
-174604	rdn	rdn/	rdn	PN sg. abs. nom.	to rule	
+174604	rdn	rdn/	rdn	PN sg. abs. nom.	name of an ancestral king	
 # KTU 1.161 7						
-174605	qra	qr(ʔ[	/q-r-ʔ/	vb G impv. 2	to call	
 174605	qra	!!qra[/	/q-r-ʔ/	vb G inf.	to call	
 174606	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
 174606	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
@@ -56,15 +52,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 10						
 174614	qbitm	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-b-ʔ/ - to send (someone) to say
 174615	qbṣ	qbṣ/	qbṣ	n. m. sg. abs. nom.	clan	
-174616	ddn	dd(II)/+n	dd (II)	n. m. cstr. nom.	cauldronful	
-174616	ddn	dd(I)/+n	dd (I)	adj. m. cstr. nom.	love	
+174616	ddn	dd(II)/~n	dd (II)	n. m. abs. nom.	cauldronful	
+174616	ddn	dd(I)/~n	dd (I)	adj. m. abs. nom.	love	
 # KTU 1.161 11						
-174617	qra	qr(ʔ[	/q-r-ʔ/	vb G impv. 2	to call	
 174617	qra	!!qra[/	/q-r-ʔ/	vb G inf.	to call	
 174618	ṯˤmṯtmr	&ṯˤmṯtmr/	ʕmṯtmr	PN sg. cstr. nom.	ʿmṯtmr	KTU corrected: ʿmṯtmr
 174619	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	3) said particularly of “Dead Kings” (Xella UF 15 1983 299, WGE 357, Del Olmo AuOr 5 1987 60ff., cf. rpủ ) a) coll. pl. mlkm “Kings”	
 # KTU 1.161 12						
-174620	qra	qr(ʔ[	/q-r-ʔ/	vb G impv. 2	to call	
 174620	qra	!!qra[/	/q-r-ʔ/	vb G inf.	to call	
 174621	u	u	ủ	conj.	2) and / also	
 174622	nqmd	nqmd/	nqmd	PN sg. cstr. nom.	Niqmaddu	
@@ -96,8 +90,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.161 17						
 174639	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. nom.	desolation	
 174640	w	w	w	conj.	and	
-174641	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. cstr. nom.	desolation	
-174642	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. gen.	desolation	
+174641	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. nom.	desolation	
+174642	ˤdmt	ˤdm(t/t	ʕdmt	n. f. sg. abs. nom.	desolation	
 # KTU 1.161 18						
 174643	išḫn	!(ʔ&i!šḫn[	/š-ḫ-n/	vb G impv. 1 c. sg.	to have a fever, be hot	
 174644	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	
@@ -107,6 +101,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174647	nyr	nyr/	nyr	n. f. sg. abs. nom.	luminary	
 174648	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 174648	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	
+174648	rbt	rb(t(II)/t	rbt (II)	n. f. sg. abs. nom.	seine	
 174649	ˤln	ˤl(I)+n	ʕl (I)	prep.	1) spatial location or pre-eminence a) upon	
 174650	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 174650	špš	špš/	špš	n. f. sg. abs. nom.	2) sun	
@@ -130,9 +125,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174663	ˤpr	ˤpr(I)/	ʕpr (I)	n. m. sg. abs. nom.	1) dust b) meton	
 174664	tḥt	tḥt(I)	tḥt (I)	prep.	2) at the feet of	
 # KTU 1.161 23						
-174665	sdn	sdn/	sdn	n. f. abs. gen.	?	
+174665	sdn	sdn/	sdn	n. f. abs. gen.	harness or garment	
 174666	w	w	w	conj.	and	
-174667	rdn	(yrd[+n	/y-r-d/	vb G impv. 2	to go down	
+174667	rdn	(yrd[~n	/y-r-d/	vb G impv. 2	to go down	
 174668	tḥt	tḥt(I)	tḥt (I)	prep.	under	
 174669	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	bull	
 174669	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	bull	
@@ -155,9 +150,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174682	w	w	w	conj.	and	
 174683	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
 174683	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
-174684	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174684	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 174684	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+174684	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 174685	w	w	w	conj.	and	
 174686	ṯˤy	ṯˤy(I)/	ṯʕy (I)	n. m. sg. abs. nom.	minister	
 174686	ṯˤy	ṯˤy[/	/ṯ-ʕ-y/	vb G act. ptcpl. m. sg. abs. nom.	to offer	
@@ -218,7 +213,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174710	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	
 174710	šlm	šlm[:d:w	/š-l-m/	vb D suffc. 3 m. pl.	to re-establish > to pay	
 174710	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace	
-174711	ṯryl	ṯryl/	ṯryl	PN sg. abs. nom.	ṯryl	
+174711	ṯryl	ṯryl/	ṯryl	PN sg. abs. nom.	queen of Ugarit	
 # KTU 1.161 33						
 174712	šlm	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well, do well, be in peace	
 174712	šlm	šlm[:d	/š-l-m/	vb D suffc. 3 m. sg.	to re-establish > to pay	

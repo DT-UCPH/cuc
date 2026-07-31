@@ -7,10 +7,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166595	ib	ib(II)/	ỉb (II)	n. m. cstr. nom.	fruit	
 166595	ib	ib(II)/	ỉb (II)	n. m. sg. cstr. nom.	fruit	
 # KTU 1.24 2						
-166596	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. gen.	ḫrḫb	
+166596	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. gen.	god of the summer and father of the goddess nkl	
 166597	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king e) part of the divine titulary (cf. Rahmouni DEAUT 4ff.)	
 166598	qẓ	qẓ/	qẓ	n. m. sg. cstr. gen.	2) summer fruit	
-166599	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. abs. gen.	ḫrḫb	
+166599	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. abs. gen.	god of the summer and father of the goddess nkl	
 166600	m	m	m(h)	pers. pn.	what?	
 # KTU 1.24 3						
 166601	lk	l(I)+k	l (I)	prep.	to	
@@ -41,7 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166616	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 166616	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 166616	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-166617	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+166617	hll	hll/	hll	DN sg. cstr. gen.	astral deity	
 166618	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
 # KTU 1.24 7						
 166619	hl	hl	hl	deictic adv. functor	behold	
@@ -52,6 +52,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166621	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 m. du.	to give birth (to), bear	
 166621	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to), bear	
 166621	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to), bear	
+166622	bn	b+n	b	prep.	in	
 166622	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	2) son of DN a) in mythological texts	
 166622	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	2) son of DN a) in mythological texts	
 166622	bn	bn(II)	bn (II)	prep.	between	
@@ -65,7 +66,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166627	tzdn	!t!zd[+n	/z-d/	vb G prefc.	to boil, become inflamed, yearn for	
 166628	š	š/	š	n. m. sg. abs. nom.	ram	
 # KTU 1.24 9						
-166629	pt	?	?	?	?	DULAT: NOT FOUND
+166629	pt	p(I)~t	p (I)	conj. functor	and	
+166629	pt	p(III)/~t	p (III)	n. m. abs. nom.	mouth	
+166629	pt	p(II)~t	p (II)	adv.	here	
 166630	l	l(I)	l (I)	prep.	to	
 166631	bšrh	bšr/+h	bšr	n. m. cstr. gen.	1) flesh	
 166632	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
@@ -87,10 +90,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166640	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
 166640	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
 166641	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. cstr. nom.	1) goddess c) qualifying a deity or place	
-166642	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	ḥbl kṯrt the band / flock of the DNN	
-166643	tḥmm	tḥm/+m(I)	tḥm	n. m. cstr. gen.	message	
+166642	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	goddesses who preside over childbirth	
+166643	tḥmm	tḥm/~m	tḥm	n. m. cstr. gen.	message	
 # KTU 1.24 12						
-166644	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. nom.	eye	
+166644	ˤnh	ˤn(I)/+h	ʕn (I)	n. f. cstr. gen.	eye	
 166645	l	l(I)	l (I)	prep.	to	
 166646	ydh	yd(I)/+h	yd (I)	n. f. cstr. gen.	hand	
 166647	tzdnxxxn	?	?	?	?	DULAT: NOT FOUND
@@ -105,20 +108,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166651	rxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 14						
 166652	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. nom.	grain	
-166653	ttl	ttl/	ttl	TN sg. abs. gen.	ttl	
+166653	ttl	ttl/	ttl	TN sg. abs. gen.	place of the cult of the god Dagan	
 166654	xxx	?	?	?	?	
 166655	xxx	?	?	?	?	
 166656	tb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 15						
 166657	ˤ	?	?	?	?	DULAT: NOT FOUND
 166658	l	l(IV)	l (IV)	interj.	oh!	
-166659	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+166659	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	goddesses who preside over childbirth	
 166660	l	l(IV)	l (IV)	interj.	oh!	
 166661	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	daughter	
 166661	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 166661	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 166661	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-166662	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+166662	hll	hll/	hll	DN sg. cstr. gen.	astral deity	
 166663	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
 # KTU 1.24 16						
 166664	ylak	!y!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 3 m. sg.	to send (a message)	
@@ -128,16 +131,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166667	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
 166668	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
 # KTU 1.24 17						
-166669	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. gen.	ḫrḫb	
+166669	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. gen.	god of the summer and father of the goddess nkl	
 166670	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 166671	qẓ	qẓ/	qẓ	n. m. sg. abs. gen.	summer	
 166672	tn	(ytn[	/y-t-n/	vb	give	
-166672	tn	(ytn[/	/y-t-n/	vb	give	
 166673	nkl	]n]kl(y[	/k-l-y/	vb N suffc. 3 m. sg.	to be consumed	
 166674	y	~y	-y (II)	prep. functor	indeed	
 166674	y	y	y	prep. functor	oh!	
 # KTU 1.24 18						
-166675	rḫ	?	?	?	?	DULAT: NOT FOUND
+166675	rḫ	rḫ	rḫ		Geist	LUPT lemma
 166676	ytrḫ	!y!trḫ[	/t-r-ḫ/	vb G prefc. 3 m. sg.	to marry, get married	
 166676	ytrḫ	!y!trḫ[:d	/t-r-ḫ/	vb D prefc. 3 m. sg.	to marry, get married	
 166677	ib	ib(I)/	ỉb (I)	n. m. sg. cstr. nom.	enemy	
@@ -165,6 +167,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166693	rṣ	?	?	?	?	DULAT: NOT FOUND
 166694	išlḥ	!(ʔ&i!šlḥ(I)[	/š-l-ḥ/ (I)	vb G prefc. 1 c. sg.	2) to grant	
 166695	ẓhrm	ẓhr/m	ṭhr	adj. m. pl. abs. nom.	pure	Based on DULAT reconstruction.
+166695	ẓhrm	ẓhr~m	ẓhr	→	?	
 166696	iq	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 22						
 166697	nim	?	?	?	?	DULAT: NOT FOUND
@@ -184,7 +187,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166705	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
 166705	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
 166705	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
-166706	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. nom.	ḫrḫb	
+166706	ḫrḫb	ḫrḫb/	ḫrḫb	DN sg. cstr. nom.	god of the summer and father of the goddess nkl	
 166707	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 166708	qẓ	qẓ/	qẓ	n. m. sg. abs. gen.	summer	
 166709	l	l(IV)	l (IV)	interj.	oh!	
@@ -212,11 +215,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166722	yġtr	!y!ġtr[	/ġ-t-r/	vb G prefc. 3 m. sg.	to implore, intercede, ask	
 166723	ˤṯtr	ˤṯtr/	ʕṯtr	DN sg. abs. nom.	ʿAṯtar	
 166724	t	/t, /t=				DULAT: NOT FOUND
-166724	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.24 29						
-166725	rḫ	?	?	?	?	DULAT: NOT FOUND
+166725	rḫ	rḫ	rḫ		Geist	LUPT lemma
 166726	lk	l(I)+k	l (I)	prep.	4) introducing a complement of the addressee	
-166727	ybrdmy	ybrdmy/	ybrdmy	DN sg. abs. nom.	ybrdmy	
+166727	ybrdmy	ybrdmy/	ybrdmy	DN sg. abs. nom.	daughter of the god bʿl (?)	
 166728	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
 166729	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 30						
@@ -295,12 +297,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166769	y	~y	-y (II)	prep. functor	indeed	
 166769	y	y	y	prep. functor	oh!	
 # KTU 1.24 39						
-166770	rḫ	?	?	?	?	DULAT: NOT FOUND
+166770	rḫ	rḫ	rḫ		Geist	LUPT lemma
 166771	yark	!y!(ʔ&ar[+k	/ʔ-r/	vb G prefc. 3 m. sg.	to shine	
 # KTU 1.24 40						
 166772	ašr	!(ʔ&a!šr(I)[	/š-r/ (I)	vb G prefc. 1 c. sg.	1) to sing	
 166773	ilht	il(t(I)/&ht	ỉlt (I)	n. f. pl. cstr. nom.	goddess	
-166774	kṯrt	kṯrt/	kṯrt	DN pl. abs. gen.	ḥbl kṯrt the band / flock of the DNN	
+166774	kṯrt	kṯrt/	kṯrt	DN pl. abs. gen.	goddesses who preside over childbirth	
 166775	bn	b+n	b	prep.	in	
 166775	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 166775	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
@@ -309,14 +311,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166775	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 1.24 41						
 166776	t	/t, /t=				DULAT: NOT FOUND
-166776	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
-166777	hll	hll/	hll	DN sg. cstr. nom.	New Moon	
+166777	hll	hll/	hll	DN sg. cstr. nom.	astral deity	
 166778	snnt	snnt/	snnt	n. f. pl. cstr. gen.	swallow	
 166779	bnt	b&nt(I)/	bt (I)	n. f. pl. abs. gen.	daughter	
 166779	bnt	bn(t(II)/t	bnt (II)	n. f. sg. abs. gen.	produce	
 166779	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. gen.	masonry	
 166779	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. gen.	tamarisk	
-166780	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
+166780	h	~h	-h(II)	adv. functor	to, towards	
 # KTU 1.24 42						
 166781	ll	ll(I)/	ll (I)	n. m. sg. cstr. nom.	night	
 166782	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
@@ -328,7 +329,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166786	ˤrgzm	ˤrgz(I)/m	ʕrgz (I)	n. m. pl. abs. gen.	juniper berries (?)	
 166787	b	b	b	prep.	in	
 166788	zgb	&zgb(II)/	gb (II)	n. m. cstr. gen.	1) spine	KTU corrected: gb
-166788	zgb	&zgb(I)/	gb (I)	n. m. cstr. gen.	pit	KTU corrected: gb
+166788	zgb	&zgb(I)/	gb (I)	n. m. cstr. gen.	a cult installation	KTU corrected: gb
 166789	zt	zt/	zt	n. m. sg. abs. gen.	1) olive c) types	
 166790	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
 166790	dm	dm(I)	dm (I)	functor	since	
@@ -353,20 +354,20 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 166805	mn	mn(IV)	mn (IV)	?	?	
 # KTU 1.24 47						
 166806	hnthn	?	?	?	?	DULAT: NOT FOUND
-166807	ṯlḫh	ṯlḫh/	ṯlḫh	DN sg. abs. nom.	dowry	
+166807	ṯlḫh	ṯlḫh/	ṯlḫh	DN sg. abs. nom.	one of the kṯrt goddesses	
 166808	w	w	w	conj.	and	
 166809	mlgh	?	?	?	?	DULAT: NOT FOUND
 166810	y	~y	-y (II)	prep. functor	indeed	
 166810	y	y	y	prep. functor	oh!	
 # KTU 1.24 48						
-166811	ṯtqt	ṯtqt/	ṯtqt	DN sg. abs. nom.	ṯtqt	
+166811	ṯtqt	ṯtqt/	ṯtqt	DN sg. abs. nom.	one of the kṯrt	
 166812	ˤmh	ˤm(I)+h	ʕm (I)	prep.	2) relationship of accompaniment	
-166813	bqˤt	bqˤt(I)/	bqʕt (I)	DN sg. abs. nom.	Midwife	
+166813	bqˤt	bqˤt(I)/	bqʕt (I)	DN sg. abs. nom.	one of the kṯrt goddesses	
 # KTU 1.24 49						
-166814	tqˤt	tqˤt/	tqʕt	DN sg. abs. nom.	applauder	
+166814	tqˤt	tqˤt/	tqʕt	DN sg. abs. nom.	one of the kṯrt goddesses	
 166815	ˤmp	?	?	?	?	DULAT: NOT FOUND
 166816	rbḫṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.24 50						
-166817	dmqt	dmqt/	dmqt	DN sg. abs. nom.	gut	
+166817	dmqt	dmqt/	dmqt	DN sg. abs. nom.	one of the kṯrt goddesses	
 166818	ṣġrt	ṣġr(t(I)/t	ṣġrt (I)	adj. f. sg. abs. nom.	youngest	
-166819	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+166819	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	goddesses who preside over childbirth	

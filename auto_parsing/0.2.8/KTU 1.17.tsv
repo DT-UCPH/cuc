@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 I:1						
-163032	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163032	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 163033	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 163033	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 163033	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
@@ -8,6 +8,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163033	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163033	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163033	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163033	mt	mt(IV)	mt (IV)	adv.	certainly	
 163034	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163034	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	healer	
 163035	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
@@ -15,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163036	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 # KTU 1.17 I:2						
 163037	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	1) god c) object or purpose of an action	
-163038	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+163038	dnil	dnil/	dnỉl	PN sg. abs. gen.	of an ancestral hero	
 163039	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 163040	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	1) god c) object or purpose of an action	
 163041	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	1) to feed	
@@ -33,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163046	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 163046	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
 # KTU 1.17 I:4						
-163047	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. gen.	garment	
+163047	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. gen.	a garment	
 163048	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up	
 163049	w	w	w	conj.	and	
 163050	yškb	!y!škb[	/š-k-b/	vb G prefc. 3 m. sg.	to lie down	
@@ -48,12 +49,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163056	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day b) as a period in time	DULAT direct ref
 # KTU 1.17 I:6						
 163057	w	w	w	conj.	and	
-163058	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 163058	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 163058	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+163058	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 163059	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 163060	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
-163061	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+163061	dnil	dnil/	dnỉl	PN sg. abs. gen.	of an ancestral hero	
 # KTU 1.17 I:7						
 163062	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 163063	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
@@ -75,11 +76,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163070	rbˤ	rbˤ/	rbʕ	num.	fourth	
 163071	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 163071	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+163071	ym	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu/the god “Sea”	
 163071	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 # KTU 1.17 I:9						
 163072	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 163073	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
-163074	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+163074	dnil	dnil/	dnỉl	PN sg. abs. gen.	of an ancestral hero	
 163075	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 # KTU 1.17 I:10						
 163076	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
@@ -98,13 +100,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163082	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 163083	ymṯdṯ	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯdṯ - sixth
 163084	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
+163084	ym	ym(II)/	ym (II)	DN m. sg. cstr. nom.	Yammu/the god “Sea”	
 163084	ym	ym(II)/	ym (II)	n. m. sg. cstr. nom.	sea	
 163085	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+163085	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 163085	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 163086	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 # KTU 1.17 I:12						
 163087	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. nom.	god	
-163088	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+163088	dnil	dnil/	dnỉl	PN sg. abs. gen.	of an ancestral hero	
 163089	uzr	uzr/	ủzr	adj. m. sg. abs. nom.	clothed	
 163090	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 163091	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	to feed	
@@ -121,13 +125,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163095	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. nom.	holy	
 163096	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 163096	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-163097	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. gen.	garment	
+163097	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. gen.	a garment	
 # KTU 1.17 I:14						
-163098	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163098	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 163099	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
 163099	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
 163099	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-163100	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. nom.	garment	
+163100	ṣth	ṣ(t/t+h	ṣt	n. f. sg. cstr. nom.	a garment	
 163101	yˤl	!y!ˤl(y[	/ʕ-l-y/	vb G prefc. 3 m. sg.	to go up, rise	
 163102	w	w	w	conj.	and	
 163103	yškb	!y!škb[	/š-k-b/	vb G prefc. 3 m. sg.	to lie down	
@@ -154,7 +158,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163118		?	?	?	?	
 163119	ġzr	ġzr/	ġzr	n. m. sg. cstr. nom.	lad	
 # KTU 1.17 I:17						
-163120	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+163120	dnil	dnil/	dnỉl	PN sg. abs. gen.	of an ancestral hero	
 163121	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 163121	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 163121	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
@@ -162,6 +166,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163121	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163121	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163121	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163121	mt	mt(IV)	mt (IV)	adv.	certainly	
 163122	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163122	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	healer	
 163123	anḫ	anḫ/	ảnḫ	adj. m. sg. abs. nom.	complaining	
@@ -237,8 +242,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 I:26						
 163172	hklh	hkl/+h	hkl	n. m. cstr. nom.	palace	
 163173	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. abs. nom.	to erect	
-163174	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
-163174	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
+163174	skn	skn(II)/	skn (II)	n. m. sg. abs. nom.	stela	DULAT direct ref
 163175	ilibh	ilib(I)&h/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 163176	b	b	b	prep.	in	
 163177	qdš	qdš(II)/	qdš (II)	n. m. sg. cstr. gen.	sanctuary	DULAT direct ref
@@ -256,7 +260,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163187	aṯrh	aṯr(II)/+h	ảṯr (II)	n. m. pl. cstr. nom.	remain(s)	DULAT direct ref
 163187	aṯrh	aṯr(II)/+h	ảṯr (II)	n. m. sg. cstr. nom.	remain(s)	DULAT direct ref
 163188	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
-163189	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	2) jaw	DULAT direct ref
+163189	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	missive	
 # KTU 1.17 I:29						
 163190	niṣh	n(ʔ&iṣ[/h	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise, insult	
 163191	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject, drive out, evict, cast out	
@@ -307,7 +311,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163221	ks	ks(I)/	ks (I)	n. m. sg. abs. gen.	cup	
 163221	ks	ks/	ks/śm(n)	n. m. pl. abs. gen.	emmer-corn	
 163222	yiḫd	!y!(ʔ&iḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 3 m. sg.	to collect, to take (back), grasp, seize, hold	
-163223	it	?	?	?	?	DULAT: NOT FOUND
+163223	it	i(I)~t	ỉ (I)	interj.	woe	
 163224	ˤbdh	ˤbd(I)/+h	ʕbd (I)	n. m. cstr. nom.	3) faithful	
 163225	ybrk	!y!brk(II)[:d	/b-r-k/ (II)	vb D prefc. 3 m. sg.	to be blessed	
 # KTU 1.17 I:35						
@@ -321,6 +325,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163228	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163228	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163228	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163228	mt	mt(IV)	mt (IV)	adv.	certainly	
 163229	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163229	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	healer	
 163230	ymr	?	?	?	?	DULAT: NOT FOUND
@@ -333,10 +338,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163232	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163232	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163232	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163232	mt	mt(IV)	mt (IV)	adv.	certainly	
 163233	hrnmy	hrnmy/	hrnmy	GN sg. cstr. nom.	native of the TN *hrnm	
 163234	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	3) breath	
 163235	yḥ	!y!ḥ(y(y(I)[	/ḥ-w/y-y/ (I)	vb G prefc. 3 m. sg.	1) to live	
-163236	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163236	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 # KTU 1.17 I:37						
 163237	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 163237	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
@@ -345,6 +351,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163237	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163237	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163237	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163237	mt	mt(IV)	mt (IV)	adv.	certainly	
 163238	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163239	brlt	brl(t/t	brlt	n. f. sg. cstr. gen.	1) hunger	
 163240	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	2) noble	
@@ -355,6 +362,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163241	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163241	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163241	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163241	mt	mt(IV)	mt (IV)	adv.	certainly	
 163242	hrnmy	hrnmy/	hrnmy	GN sg. abs. nom.	native of the TN *hrnm	
 # KTU 1.17 I:38						
 163243	xxxxḥ	?	?	?	?	DULAT: NOT FOUND
@@ -391,6 +399,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163262	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163262	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163262	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163262	mt	mt(IV)	mt (IV)	adv.	certainly	
 163263	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163263	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	healer	
 163264	w	w	w	conj.	and	
@@ -408,6 +417,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163273	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. abs. nom.	to erect	
 163274	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. nom.	prefect	
 163274	skn	skn(I)/	s:śkn (I)	n. m. sg. abs. nom.	prefect	
+163274	skn	skn(III)/	skn (III)	n. m. sg. abs. nom.	danger	
+163274	skn	skn(II)/	skn (II)	n. m. sg. abs. nom.	stela	
 163275	ilibh	ilib(I)&h/	ỉlỉb (I)	DN sg. abs. nom.	father god	
 163276	b	b	b	prep.	in	
 163277	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
@@ -427,8 +438,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163287	aṯrh	aṯr(I)+h	ảṯr (I)	adv. or prep.	then	
 # KTU 1.17 I:47						
 163288	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
-163289	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
-163289	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+163289	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	missive	
 163290	niṣh	n(ʔ&iṣ[/h	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
 163291	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
 163291	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
@@ -452,8 +462,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163303	aṯrk	aṯr(I)+k	ảṯr (I)	adv. or prep.	then	
 163304	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
 # KTU 1.17 II:3						
-163305	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
-163305	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+163305	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	missive	
 163306	niṣk	n(ʔ&iṣ[/k	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
 163307	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
 163307	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
@@ -478,11 +487,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163318	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	DULAT direct ref
 163319	aḫd	(ʔ&aḫd[	/ʔ-ḫ-d(/ḏ)/	vb G suffc. 3 m. sg.	to collect	
 163320	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-163320	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 163320	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-163320	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 163320	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-163320	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 163321	b	b	b	prep.	in	
 163322	škrn	škrn/	škrn	n. m. sg. abs. gen.	intoxication	
 # KTU 1.17 II:6						
@@ -494,15 +500,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 II:7						
 163328	ggk	gg(I)/+k	gg (I)	n. m. cstr. gen.	roof	
 163329	b	b	b	prep.	in	
-163330	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
-163330	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-163331	ṯit	?	?	?	?	DULAT: NOT FOUND
+163330	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+163330	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
+163330	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
+163331	ṯit	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯỉgt - neighing
 163332	rḥṣ	rḥṣ[	/r-ḥ-ṣ/	vb G impv. 2	to wash	
 163332	rḥṣ	rḥṣ[/	/r-ḥ-ṣ/	vb G ptcpl. m. sg. abs. nom.	to wash	
 # KTU 1.17 II:8						
 163333	npṣk	npṣ/+k	npṣ	n. m. cstr. nom.	personal belongings	
 163334	b	b	b	prep.	in	
 163335	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+163335	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 163335	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 163336	rṯ	rṯ/	rṯ	n. m. sg. abs. gen.	dirt	
 163337	b	b	b	prep.	in	
@@ -515,7 +523,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163342	ˤl	ˤl(II)	ʕl (II)	adv.	1) above	DULAT direct ref
 163343	yṣhl	!y!ṣhl[	/ṣ-h-l/	vb G prefc. 3 m. sg.	to (make) shine, gleam	
 163343	yṣhl	!y!ṣhl[:d	/ṣ-h-l/	vb D prefc. 3 m. sg.	to (make) shine, gleam	
-163344	pit	pit/	pỉt	n. m. abs. nom.	1) temple	
+163344	pit	pi(t/t	pỉt	n. f. sg. abs. nom.	1) temple	
 # KTU 1.17 II:10						
 163345	yprq	!y!prq[	/p-r-q/	vb G prefc. 3 m. sg.	to release	
 163346	lṣb	lṣb/	lṣb	n. m. sg. abs. nom.	brow	
@@ -562,6 +570,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 II:16						
 163375	nṣb	nṣb[/	/n-ṣ-b/	vb G ptcpl. m. sg. cstr. gen.	to erect	
 163376	skn	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	prefect	
+163376	skn	skn(III)/	skn (III)	n. m. sg. cstr. gen.	danger	
+163376	skn	skn(II)/	skn (II)	n. m. sg. cstr. gen.	stela	
 163377	iliby	ilib(I)&y/	ỉlỉb (I)	DN sg. abs. gen.	father god	
 163378	b	b	b	prep.	in	
 163379	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
@@ -577,8 +587,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163385	aṯry	aṯr(II)/+y	ảṯr (II)	n. m. sg. cstr. gen.	remain(s)	
 # KTU 1.17 II:18						
 163386	ṭbq	ṭbq[/	/ṭ-b-q/	vb G act. ptcpl. m. sg. abs. nom.	to shut	
-163387	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
-163387	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+163387	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	missive	
 163388	niṣy	n(ʔ&iṣ[/y	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg. abs. nom.	to despise	
 163389	grš	grš[	/g-r-š/	vb G suffc. 3 m. sg.	to eject	
 163389	grš	grš[	/g-r-š/	vb G impv. 2	to eject	
@@ -598,7 +607,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163395	b	b	b	prep.	in	
 163396	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.17 II:20						
-163397	krn	kr[+n	/k-r/	vb	to be hot	
+163397	krn	kr[~n	/k-r/	vb	to be hot	
 163398	mˤmsy	?	?	?	?	DULAT candidates (no reconstructable encoding): /ʕ-m-s/ - 1) to load
 163399	k	k(III)	k (III)	Subordinating or completive functor	when	
 163400	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	seven	
@@ -624,6 +633,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163412	ggy	gg(I)/+y	gg (I)	n. m. cstr. nom.	roof	
 163413	b	b	b	prep.	in	
 163414	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+163414	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 163414	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 163415	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. pl. abs. gen.	mud	
 163415	ṯiṭ	ṯiṭ/	ṯỉṭ	n. m. sg. abs. gen.	mud	
@@ -633,6 +643,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163417	npsy	?	?	?	?	DULAT: NOT FOUND
 163418	b	b	b	prep.	in	
 163419	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+163419	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 163419	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 163420	rṯ	rṯ/	rṯ	n. m. sg. cstr. gen.	dirt	
 # KTU 1.17 II:24						
@@ -643,7 +654,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163424	ymġyn	!y!mġy[+n	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
 # KTU 1.17 II:25						
 163425	yštql	?	?	?	?	DULAT: NOT FOUND
-163426	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163426	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 163427	l	l(I)	l (I)	prep.	to	
 163428	hklh	hkl/+h	hkl	n. m. cstr. gen.	palace	
 # KTU 1.17 II:26						
@@ -652,14 +663,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163430	b	b	b	prep.	in	
 163431	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	2) palace	
 163431	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	1) daughter b) esp.	
-163432	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+163432	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	goddesses who preside over childbirth	
 163433	bnt	b&nt(I)/	bt (I)	n. f. pl. abs. nom.	1) daughter b) esp.	DULAT direct ref
 163433	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	1) daughter b) esp.	DULAT direct ref
 # KTU 1.17 II:27						
-163434	hll	hll/	hll	DN sg. abs. nom.	New Moon	
+163434	hll	hll/	hll	DN sg. abs. nom.	astral deity	
 163435	snnt	snnt/	snnt	n. f. pl. abs. nom.	swallow	
 163436	apnk	apnk	ảpnk	adv. functor of illation	1) then b) introducing the correlation in narrative	DULAT direct ref
-163437	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163437	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 # KTU 1.17 II:28						
 163438	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 163438	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
@@ -668,6 +679,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163438	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163438	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163438	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163438	mt	mt(IV)	mt (IV)	adv.	certainly	
 163439	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163439	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	healer	
 163440	ap	ap(I)	ảp (I)	adv./conj.	also	
@@ -681,6 +693,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163443	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163443	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163443	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163443	mt	mt(IV)	mt (IV)	adv.	certainly	
 # KTU 1.17 II:29						
 163444	hrnmy	hrnmy/	hrnmy	GN sg. cstr. nom.	native of the TN *hrnm	
 163445	alp	alp(I)/	ảlp (I)	n. m. sg. abs. gen.	1) (head of) cattle c) for slaughter ( ṭbḫ )	DULAT direct ref
@@ -690,7 +703,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 II:30						
 163449	rt	rt/	rt	PN sg. abs. gen.	rt	
 163450	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	1) to give to eat	
-163451	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+163451	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	goddesses who preside over childbirth	
 163452	w	w	w	conj.	and	
 163453	y	~y	-y (II)	prep. functor	indeed	
 163453	y	y	y	prep. functor	oh!	
@@ -700,27 +713,28 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163455	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 163455	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 163455	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-163456	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+163456	hll	hll/	hll	DN sg. cstr. gen.	astral deity	
 163457	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
 # KTU 1.17 II:32						
 163458	hn	hn	hn	functor	behold!	
 163459	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 163459	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+163459	ym	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu/the god “Sea”	
 163459	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 163460	w	w	w	conj.	and	
-163461	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 163461	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 163461	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+163461	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 163462	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
 # KTU 1.17 II:33						
-163463	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+163463	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	goddesses who preside over childbirth	
 163464	w	w	w	conj.	and	
 163465	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
 163466	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	daughter	
 163466	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 163466	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 163466	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-163467	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+163467	hll	hll/	hll	DN sg. cstr. gen.	astral deity	
 # KTU 1.17 II:34						
 163468	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
 163469	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
@@ -730,7 +744,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163471	yšl	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 II:35						
 163472	ḥm	ḥm/	ḥm	n. m. sg. cstr. nom.	heat	
-163473	kṯrt	kṯrt/	kṯrt	DN pl. abs. gen.	ḥbl kṯrt the band / flock of the DNN	
+163473	kṯrt	kṯrt/	kṯrt	DN pl. abs. gen.	goddesses who preside over childbirth	
 163474	w	w	w	conj.	and	
 163475	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
 # KTU 1.17 II:36						
@@ -738,16 +752,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163476	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 163476	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 163476	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-163477	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+163477	hll	hll/	hll	DN sg. cstr. gen.	astral deity	
 163478	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
 163479	ḫmš	ḫmš(I)/	ḫmš (I)	num.	five	
 # KTU 1.17 II:37						
 163480	ṯdṯ	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
 163481	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 163481	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+163481	ym	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu/the god “Sea”	
 163481	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 163482	yšlḥm	!y!(l]š]lḥm(I)[	/l-ḥ-m/ (I)	vb Š prefc. 3 m. sg.	to give to eat	
-163483	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+163483	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	goddesses who preside over childbirth	
 # KTU 1.17 II:38						
 163484	w	w	w	conj.	and	
 163485	yššq	!y!]š]šq(y[	/š-q-y/	vb Š prefc. 3 m. sg.	to give drink	
@@ -755,7 +770,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163486	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 163486	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. nom.	masonry	
 163486	bnt	bnt(III)/	bnt (III)	n. m. sg. cstr. nom.	tamarisk	
-163487	hll	hll/	hll	DN sg. cstr. gen.	New Moon	
+163487	hll	hll/	hll	DN sg. cstr. gen.	astral deity	
 163488	snnt	snnt/	snnt	n. f. pl. abs. gen.	swallow	
 # KTU 1.17 II:39						
 163489	mk	mk(II)	mk (II)	deictic functor	behold!	
@@ -768,13 +783,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163494	b	b	b	prep.	1) spatial location d) origin of a quality or process	
 163495	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
 # KTU 1.17 II:40						
-163496	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	ḥbl kṯrt the band / flock of the DNN	
+163496	kṯrt	kṯrt/	kṯrt	DN pl. abs. nom.	goddesses who preside over childbirth	
 163497	bnt	b&nt(I)/	bt (I)	n. f. pl. abs. nom.	daughter	
 163497	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. nom.	daughter	
 163497	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. nom.	produce	
 163497	bnt	bn(t(I)/t	bnt (I)	n. f. sg. abs. nom.	masonry	
 163497	bnt	bnt(III)/	bnt (III)	n. m. sg. abs. nom.	tamarisk	
-163498	hll	hll/	hll	DN sg. abs. nom.	New Moon	
+163498	hll	hll/	hll	DN sg. abs. nom.	astral deity	
 163499	snnt	snnt/	snnt	n. f. pl. abs. nom.	swallow	
 # KTU 1.17 II:41						
 163500	mddt	mddt(II)/	mddt (II)	n. f. pl. abs. nom.	dispenser	
@@ -789,7 +804,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163507	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
 163507	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down, take a seat on the throne, install oneself, reside	
 163507	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down, take a seat on the throne, install oneself, reside	
-163508	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163508	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 163509	yspr	!y!spr[	/s-p-r/	vb G prefc. 3 m. sg.	to count, number	
 163509	yspr	!y!spr[:d	/s-p-r/	vb D prefc. 3 m. sg.	to recite	
 163510	yrḫh	yrḫ/+h	yrḫ	n. m. cstr. nom.	3) month b) as a measure of time	
@@ -811,7 +826,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163518	ˤšr	ˤšr[:d:pass	/ʕ-š-r/	vb Dpass suffc.	a banquet to be given, held	
 163518	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	banquet	
 # KTU 1.17 II:46						
-163519	yrḫm	yrḫ/+m(I)	yrḫ	n. m. cstr. nom.	3) month b) as a measure of time	
+163519	yrḫm	yrḫ/~m	yrḫ	n. m. abs. nom.	3) month b) as a measure of time	
 163520	ymġy	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
 163521	xxxx	?	?	?	?	
 # KTU 1.17 II:47						
@@ -840,7 +855,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163538	ymm	ym(II)/~m	ym (II)	n. m. sg. abs. gen.	sea	
 163539	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
 163539	apnk	apnk	ảpnk	adv. functor of illation	then	
-163540	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163540	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 163541	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 163541	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 163541	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
@@ -848,6 +863,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163541	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163541	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163541	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163541	mt	mt(IV)	mt (IV)	adv.	certainly	
 # KTU 1.17 V:5						
 163542	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163542	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	healer	
@@ -860,6 +876,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163545	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163545	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163545	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163545	mt	mt(IV)	mt (IV)	adv.	certainly	
 163546	hrnmy	hrnmy/	hrnmy	GN sg. abs. nom.	native of the TN *hrnm	
 # KTU 1.17 V:6						
 163547	ytšu	!y!(n]t]š(ʔ[&u	/n-š-ʔ/	vb Gt prefc. 3 m. sg.	to go up, rise	
@@ -935,7 +952,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163587	qṣˤt	qṣˤ(t/t	qṣʕt	n. f. sg. abs. nom.	arrow(s)	
 163588	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
 163588	apnk	apnk	ảpnk	adv. functor of illation	then	
-163589	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163589	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 # KTU 1.17 V:14						
 163590	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 163590	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
@@ -944,6 +961,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163590	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163590	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163590	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163590	mt	mt(IV)	mt (IV)	adv.	certainly	
 163591	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163591	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	healer	
 163592	aphn	aphn	ảphn	illative functor	immediately afterwards	DULAT direct ref
@@ -955,6 +973,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163594	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163594	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163594	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163594	mt	mt(IV)	mt (IV)	adv.	certainly	
 # KTU 1.17 V:15						
 163595	hrnmy	hrnmy/	hrnmy	GN sg. cstr. nom.	native of the TN *hrnm	
 163596	gm	g/~m	g	n. m. sg. abs. gen.	(loud) voice	DULAT direct ref
@@ -967,7 +986,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163601	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
 163601	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
 163602	mṯt	mṯ(t/t	mṯt	n. f. sg. cstr. nom.	damsel	
-163603	dnty	dnty/	dnty	PN sg. abs. gen.	Lady PN	
+163603	dnty	dnty/	dnty	PN sg. abs. gen.	wife of dnỉl	
 163604	ˤdb	ˤdb[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to leave > to put in > to place	
 163604	ˤdb	ˤdb[	/ʕ-d-b/	vb G impv. 2	to leave > to put in > to place	
 163604	ˤdb	!!ˤdb[/	/ʕ-d-b/	vb G inf.	to leave > to put in > to place	
@@ -984,7 +1003,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163612	ḫss	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
 163613	l	l(I)	l (I)	prep.	to	
 163614	brlt	brl(t/t	brlt	n. f. sg. abs. gen.	1) hunger	
-163615	hyn	hy+n	hy	pers. pn.	she	
+163615	hyn	hy~n	hy	pers. pn.	she	
 163615	hyn	hyn/	hyn	DN sg. abs. nom.	Hayyānu/alt. name of the god kṯr (Kothar)	
 163616	d	d	d	det. or rel. functor	1) the one(s) of a) det. of quality	
 # KTU 1.17 V:19						
@@ -997,11 +1016,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163621	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 163622	sad	s(ʔ&ad[	/s-ʔ-d/	vb G impv. 2	to support	
 163623	kbd	kbd[:d	/k-b-d/	vb D impv. 2	to honour	
-163624	hmt	hmt	hmt	pers. pn.		
+163624	hmt	hm(I)~t	hm (I)	pers. pn.	1) they	DULAT direct ref
 163625	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	DULAT direct ref
 163625	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	DULAT direct ref
 # KTU 1.17 V:21						
-163626	ḥkpt	ḥkpt/	ḥkpt	TN sg. cstr. gen.	mythical	
+163626	ḥkpt	ḥkpt/	ḥkpt	TN sg. cstr. gen.	residence / territory of the god kṯr	
 163627	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 163627	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 163628	klh	kl/+h	kl	n. m. cstr. gen.	totality (of)	
@@ -1028,7 +1047,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 V:24						
 163641	l	l(I)	l (I)	prep.	to	
 163642	brlt	brl(t/t	brlt	n. f. sg. abs. gen.	hunger	
-163643	hyn	hy+n	hy	pers. pn.	she	
+163643	hyn	hy~n	hy	pers. pn.	she	
 163643	hyn	hyn/	hyn	DN sg. abs. nom.	Hayyānu/alt. name of the god kṯr (Kothar)	
 163644	d	d	d	det. or rel. functor	the one(s) of	
 163645	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. cstr. nom.	craftsman	
@@ -1041,10 +1060,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163650	w	w	w	conj.	and	
 163651	hss	?	?	?	?	DULAT: NOT FOUND
 163652	bd	b&d	b	prep.	in	
-163653	dnil	dnil/	dnỉl	PN sg. abs. gen.	Raphaite	
+163653	dnil	dnil/	dnỉl	PN sg. abs. gen.	of an ancestral hero	
 163654	ytnn	!y!(ytn[n	/y-t-n/	vb	1) to give	DULAT direct ref
-163654	ytnn	!y!(ytn[+n	/y-t-n/	vb G prefc. 3 m. sg.	to give, hand over, grant, bestow	DULAT direct ref
-163654	ytnn	ytnn[	/y-t-n/	vb G suffc. 3 m. sg.	to give, hand over, grant, bestow	DULAT direct ref
 # KTU 1.17 V:27						
 163655	qšt	qšt/	qšt	n. m. pl. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
 163655	qšt	qšt/	qšt	n. m. sg. abs. nom.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
@@ -1069,12 +1086,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163667	tkbd	!t!kbd[:d	/k-b-d/	vb D prefc. 3 m. du.	to honour	
 163667	tkbd	!t!kbd[:d:w	/k-b-d/	vb D prefc. 3 m. pl.	to honour	
 163667	tkbd	!t===!kbd[:d	/k-b-d/	vb D prefc. 2 m. pl.	to honour	
-163668	hmt	hmt	hmt	pers. pn.		
+163668	hmt	hmt	hmt	pers. pn.	p. pn. obl	
+163668	hmt	hm(II)~t	hm (II)	conj./interr. functor	if	
+163668	hmt	hm(I)~t	hm (I)	pers. pn.	they	
 163669	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. nom.	Baʿlu/Baal	
 163669	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. nom.	Baʿlu/Baal	
 163670	ḥ	ḥ/	ḥ	n. m. cstr. gen.	life	
 # KTU 1.17 V:31						
-163671	ḥkpt	ḥkpt/	ḥkpt	TN sg. cstr. gen.	mythical	
+163671	ḥkpt	ḥkpt/	ḥkpt	TN sg. cstr. gen.	residence / territory of the god kṯr	
 163672	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 163672	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 163673	klh	kl/+h	kl	n. m. cstr. gen.	totality (of)	
@@ -1083,7 +1102,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.17 V:32						
 163676	l	l(I)	l (I)	prep.	to	DULAT direct ref
 163677	ahlh	ahl/+h	ảhl	n. m. sg. cstr. gen.	tent	
-163678	hyn	hy+n	hy	pers. pn.	she	
+163678	hyn	hy~n	hy	pers. pn.	she	
 163678	hyn	hyn/	hyn	DN sg. abs. nom.	Hayyānu/alt. name of the god kṯr (Kothar)	
 163679	tbˤ	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go, leave, depart	
 163680	l	l(I)	l (I)	prep.	to	DULAT direct ref
@@ -1092,7 +1111,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163682	knth	knt/+h	knt	n. f. cstr. nom.	continuity	
 163683	apnk	ap(I)+nk	ảp (I)	adv./conj.	also	
 163683	apnk	apnk	ảpnk	adv. functor of illation	then	
-163684	dnil	dnil/	dnỉl	PN sg. abs. nom.	Raphaite	
+163684	dnil	dnil/	dnỉl	PN sg. abs. nom.	of an ancestral hero	
 163685	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Mot/Death	
 163685	mt	mt(II)/	mt (II)	n. m. sg. abs. nom.	death	
 163685	mt	mt[	/m-t/	vb G suffc. 3 m. sg.	to die	
@@ -1100,6 +1119,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163685	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163685	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163685	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163685	mt	mt(IV)	mt (IV)	adv.	certainly	
 # KTU 1.17 V:34						
 163686	rpi	rp(u&i/	rpủ	n. m. sg. cstr. nom.	healer	
 163686	rpi	rp(u&i/	rpủ	n. m. sg. abs. nom.	healer	
@@ -1113,6 +1133,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163689	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163689	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163689	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163689	mt	mt(IV)	mt (IV)	adv.	certainly	
 # KTU 1.17 V:35						
 163690	hrnmy	hrnmy/	hrnmy	GN sg. cstr. nom.	native of the TN *hrnm	
 163691	qšt	qšt/	qšt	n. m. pl. abs. gen.	1) bow d) esp. in the Epic of Aqht	DULAT direct ref
@@ -1127,7 +1148,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163695	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 163695	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 163695	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-163696	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
+163696	aqht	aqht/	ảqht	PN sg. abs. nom.	epic hero	
 163697	k	+k	-k (I)			
 163697	k	~k	-k (II)			
 163697	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -1136,7 +1157,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163698	yq	?	?	?	?	DULAT: NOT FOUND
 163699	bh	b+h	b	prep.	in	
 # KTU 1.17 V:37						
-163700	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	DULAT direct ref
+163700	prˤm	prˤ(I)/~m	prʕ (I)	n. m. abs. nom.	first fruit	DULAT direct ref
 163701	ṣdk	ṣd(I)/+k	ṣd (I)	n. m. cstr. nom.	hunt	
 163702	y	y	y	prep. functor	oh!	DULAT direct ref
 163703	bn	b+n	b	prep.	in	
@@ -1147,18 +1168,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163703	bn	bn[	/b-n/	vb G impv. 2	to understand	
 163704	bln	bln/	bln	n. m. sg. abs. nom.	mixed fodder	
 # KTU 1.17 V:38						
-163705	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	
-163705	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb G suffc.	to wash > to cause to disappear	
-163705	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
-163705	prˤm	prˤ[:d+m(I)	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
-163705	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
+163705	prˤm	prˤ(I)/~m	prʕ (I)	n. m. abs. nom.	first fruit	
+163705	prˤm	prˤ[~m	/p-r-ʕ/	vb G suffc.	to wash > to cause to disappear	
+163705	prˤm	!!prˤ[/~m	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
+163705	prˤm	prˤ[:d~m	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
+163705	prˤm	!!prˤ[/~m	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
 163706	ṣdk	ṣd(I)/+k	ṣd (I)	n. m. cstr. nom.	hunt	
 163707	hn	hn	hn	functor	behold!	
-163708	prˤm	prˤ(I)/+m(I)	prʕ (I)	n. m. cstr. nom.	first fruit	
-163708	prˤm	prˤ[+m(I)	/p-r-ʕ/	vb G suffc.	to wash > to cause to disappear	
-163708	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
-163708	prˤm	prˤ[:d+m(I)	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
-163708	prˤm	!!prˤ[/+m(I)	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
+163708	prˤm	prˤ(I)/~m	prʕ (I)	n. m. abs. nom.	first fruit	
+163708	prˤm	prˤ[~m	/p-r-ʕ/	vb G suffc.	to wash > to cause to disappear	
+163708	prˤm	!!prˤ[/~m	/p-r-ʕ/	vb G inf.	to wash > to cause to disappear	
+163708	prˤm	prˤ[:d~m	/p-r-ʕ/	vb D suffc.	to wash > to cause to disappear	
+163708	prˤm	!!prˤ[/~m	/p-r-ʕ/	vb D inf.	to wash > to cause to disappear	
 # KTU 1.17 V:39						
 163709	ṣd	!!ṣd[/	/ṣ-d/	vb G inf.	to hunt	
 163709	ṣd	ṣd(I)/	ṣd (I)	n. m. sg. abs. nom.	hunt	
@@ -1201,8 +1222,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163734	dm	dm(II)/	dm (II)	n. m. sg. abs. nom.	blood	
 163734	dm	dm(I)	dm (I)	functor	since	
 163735	ˤṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. nom.	tree	
-163736	ymlun	!y!ml(ʔ[&u:d+n	/m-l-ʔ/	vb G prefc. 3 m. sg.	to be full	
-163736	ymlun	!y!ml(ʔ[&u:d+n	/m-l-ʔ/	vb D prefc. 3 m. sg.	to fill (up)	
+163736	ymlun	!y!ml(ʔ[&u:d~n	/m-l-ʔ/	vb G prefc. 3 m. sg.	to be full	
+163736	ymlun	!y!ml(ʔ[&u:d~n	/m-l-ʔ/	vb D prefc. 3 m. sg.	to fill (up)	
 163737	krpn	krpn/	krpn	n. m. sg. abs. nom.	cup	
 163738	ˤl	ˤl(I)	ʕl (I)	prep.	4) relationship of sequence	DULAT direct ref
 163739	krpn	krpn/	krpn	n. m. sg. abs. gen.	cup	
@@ -1225,10 +1246,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163748	ḥbš	ḥbš(I)/	ḥbš (I)	n. m. sg. abs. gen.	2) waist	
 # KTU 1.17 VI:9						
 163749	w	w	w	conj.	and	
-163750	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
-163751	ynḥtn	!y!nḥt[:d+n	/n-ḥ-t/	vb D prefc. 3 m. sg.	to take down (for oneself) > to reach for	
+163750	aqht	aqht/	ảqht	PN sg. abs. nom.	epic hero	
+163751	ynḥtn	!y!nḥt[:d~n	/n-ḥ-t/	vb D prefc. 3 m. sg.	to take down (for oneself) > to reach for	
 163752	qn	qn/	qn	n. m. sg. abs. nom.	3) arrow	
-163753	ysbt	?	?	?	?	DULAT: NOT FOUND
+163753	ysbt	!y!sb(b[~t	/s:ś-b-b/	vb G prefc. 3 m. sg.	to turn round	
 # KTU 1.17 VI:10						
 163754	qšt	qšt/	qšt	n. m. pl. cstr. nom.	bow	
 163754	qšt	qšt/	qšt	n. m. sg. cstr. nom.	bow	
@@ -1304,7 +1325,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163797	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 # KTU 1.17 VI:17						
 163798	l	l(I)	l (I)	prep.	to	
-163799	aqht	aqht/	ảqht	PN sg. cstr. gen.	Most Obedient	
+163799	aqht	aqht/	ảqht	PN sg. cstr. gen.	epic hero	
 163800	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 163801	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request, wish, demand, claim	
 163801	irš	(ʔ&irš[:d	/ʔ-r-š/	vb D impv. 2	to request, wish, demand, claim	
@@ -1316,8 +1337,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163806	w	w	w	conj.	and	
 163807	ašlḥk	!(ʔ&a!šlḥ(I)[+k	/š-l-ḥ/ (I)	vb G prefc. 1 c. sg.	to stretch	
 163808	w	w	w	conj.	and	
-163809	tn	(ytn[	/y-t-n/	vb	give	DULAT direct ref
-163809	tn	(ytn[/	/y-t-n/	vb	give	DULAT direct ref
+163809	tn	(ytn[	/y-t-n/	vb	give	
 163810	qštk	qšt/+k	qšt	n. m. cstr. nom.	1) bow d) esp. in the Epic of Aqht	
 163811	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.17 VI:19						
@@ -1333,10 +1353,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163818	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
 163818	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
 163818	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
-163819	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+163819	aqht	aqht/	ảqht	PN sg. cstr. nom.	epic hero	
 163820	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	2) noble	
 163821	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	1) wonderful	
-163822	ṯqbm	ṯqb/m	ṯqb	n. m. pl. abs. nom.	the punctured	
+163822	ṯqbm	ṯqb/m	ṯqb	n. m. pl. abs. nom.	a species of tree	
 # KTU 1.17 VI:21						
 163823	b	b	b	prep.	in	
 163824	lbnn	lbnn(I)/	lbnn (I)	TN sg. abs. gen.	Lebanon	DULAT direct ref
@@ -1346,24 +1366,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163828	rumm	rum/m	rủm	n. m. pl. abs. gen.	wild bull	
 # KTU 1.17 VI:22						
 163829	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	wonderful	
-163830	qrnt	qrn/t	qrn	n. f. sg. abs. nom.	1) horn a) as part of an animal’s body	
+163830	qrnt	qrn/t=	qrn	n. f. pl. abs. nom.	1) horn a) as part of an animal’s body	
 163831	b	b	b	prep.	in	
 163832	yˤlm	yˤl(I)/m	yʕl (I)	n. m. pl. cstr. gen.	mountain goat	DULAT direct ref
 163833	mtxxnm	mtxxn(I)/m	mtn (I)	n. m. pl. abs. gen.	tendon	KTU corrected: mtnm
 # KTU 1.17 VI:23						
 163834	b	b	b	prep.	in	
-163835	ˤqbt	ˤqb/t	ʕqb	n. f. sg. cstr. gen.	hock	
+163835	ˤqbt	ˤqb/t=	ʕqb	n. m. pl. cstr. gen.	hock	
 163836	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. gen.	1) bull	DULAT direct ref
 163836	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. gen.	1) bull	DULAT direct ref
 163837	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	1) wonderful	
 163838	b	b	b	prep.	in	
-163839	ġl	ġl(I)/	ġl (I)	n. m. pl. cstr. gen.	far extent of desert	
+163839	ġl	ġl(I)/	ġl (I)	n. m. pl. cstr. gen.	term for a type of terrain	
 163840	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 163840	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 163841	qnm	qn/m	qn	n. m. pl. abs. gen.	1) cane	
 # KTU 1.17 VI:24						
-163842	tn	(ytn[	/y-t-n/	vb	give	DULAT direct ref
-163842	tn	(ytn[/	/y-t-n/	vb	give	DULAT direct ref
+163842	tn	(ytn[	/y-t-n/	vb	give	
 163843	l	l(I)	l (I)	prep.	to	DULAT direct ref
 163844	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 163845	w	w	w	conj.	and	
@@ -1389,7 +1408,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163859	yirš	&yirš/	ỉrš	n. m. abs. nom.	demand	KTU corrected: irš
 163860	ḥym	ḥy(m/m	ḥym	n. m. pl. abs. nom.	life	
 163861	l	l(IV)	l (IV)	interj.	oh!	
-163862	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+163862	aqht	aqht/	ảqht	PN sg. cstr. nom.	epic hero	
 163863	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.17 VI:27						
 163864	irš	(ʔ&irš[	/ʔ-r-š/	vb G impv. 2	to request	
@@ -1407,6 +1426,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163869	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163869	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163869	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163869	mt	mt(IV)	mt (IV)	adv.	certainly	
 # KTU 1.17 VI:28						
 163870	w	w	w	conj.	and	
 163871	ašlḥk	!(ʔ&a!šlḥ(I)[+k	/š-l-ḥ/ (I)	vb G prefc. 1 c. sg.	2) to grant	
@@ -1433,7 +1453,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163879	tspr	!t!spr[:d	/s-p-r/	vb D prefc. 3 m. du.	to recite	
 163879	tspr	!t!spr[:d:w	/s-p-r/	vb D prefc. 3 m. pl.	to recite	
 163879	tspr	!t===!spr[:d	/s-p-r/	vb D prefc. 2 m. pl.	to recite	
-163880	yrḫm	yrḫ/+m(I)	yrḫ	n. m. cstr. nom.	3) month b) as a measure of time	
+163880	yrḫm	yrḫ/~m	yrḫ	n. m. abs. nom.	3) month b) as a measure of time	
 # KTU 1.17 VI:30						
 163881	k	+k	-k (I)			
 163881	k	~k	-k (II)			
@@ -1450,12 +1470,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163884	yḥwy	!y!ḥwy(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc. 3 m. sg.	1) to give (back) life / revive	
 163885	yˤšr	!y!ˤšr[:d	/ʕ-š-r/	vb D prefc. 3 m. sg.	to invite	
 163886	ḥwy	ḥwy/	ḥwy	n. m. abs. nom.	storehouse	
+163886	ḥwy	ḥwy(III)[	ḥwy (III)	vb	schlagen	LUPT lemma
 163887	yˤš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.17 VI:31						
 163888	r	?	?	?	?	DULAT: NOT FOUND
 163889	w	w	w	conj.	and	
-163890	yšqynh	!y!šqy[n+h	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	DULAT direct ref
-163890	yšqynh	!y!šqy[+nh	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	DULAT direct ref
+163890	yšqynh	!y!šqy[+nh	/š-q-y/	vb G prefc. 3 m. sg.	to offer (something to) drink	
 163891	ybd	!y!bd[	/b-d/	vb G prefc. 3 m. sg.	to intone a song	
 163892	w	w	w	conj.	and	
 163893	yšr	!y!šr(I)[	/š-r/ (I)	vb G prefc. 3 m. sg.	1) to sing	
@@ -1469,7 +1489,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163898	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
 163899	aḥwy	!(ʔ&a!ḥwy(I)[:d	/ḥ-w/y-y/ (I)	vb D prefc. 1 c. sg.	1) to give (back) life / revive	
 # KTU 1.17 VI:33						
-163900	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+163900	aqht	aqht/	ảqht	PN sg. cstr. nom.	epic hero	
 163901	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 163902	w	w	w	conj.	and	
 163903	yˤn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
@@ -1477,7 +1497,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163903	yˤn	!y!ˤn[:pass	/ʕ-n/	vb Dpass prefc. 3 m. sg.	to see	
 163903	yˤn	!y!ˤn(w[	/ʕ-n-w/	vb G prefc. 3 m. sg.	to be / remain depressed, humbled	
 163903	yˤn	!y!ˤn(w[:pass	/ʕ-n-w/	vb Dpass prefc. 3 m. sg.	to humiliate	
-163904	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+163904	aqht	aqht/	ảqht	PN sg. cstr. nom.	epic hero	
 163905	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.17 VI:34						
 163906	al	al(I)	ảl (I)	neg. functor	no	DULAT direct ref
@@ -1508,6 +1528,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163921	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 163921	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 163921	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+163921	mt	mt(IV)	mt (IV)	adv.	certainly	
 163922	aṯryt	aṯry(t/t	ảṯryt	n. f. sg. cstr. nom.	final outcome	
 163923	spsg	spsg/	ś:sp/bś:sg	n. m. sg. abs. gen.	glaze	
 163924	ysk	!y!(nsk[	/n-s-k/	vb G prefc. 3 m. sg.	to pour (out), spill	
@@ -1564,6 +1585,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163953	tṣḥq	!t!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 3 m. du.	to laugh	
 163953	tṣḥq	!t!ṣḥq[:w	/ṣ-ḥ-q/	vb G prefc. 3 m. pl.	to laugh	
 163953	tṣḥq	!t===!ṣḥq[	/ṣ-ḥ-q/	vb G prefc. 2 m. pl.	to laugh	
+163954	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 163954	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 163954	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
 163955	w	w	w	conj.	and	
@@ -1581,7 +1603,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163960	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
 163961	ly	l(I)+y	l (I)	prep.	to	
 163962	l	l(I)	l (I)	prep.	to	DULAT direct ref
-163963	aqht	aqht/	ảqht	PN sg. cstr. gen.	Most Obedient	
+163963	aqht	aqht/	ảqht	PN sg. cstr. gen.	epic hero	
 163964	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 163965	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
 163965	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
@@ -1605,7 +1627,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163981	tḥt	tḥt(I)	tḥt (I)	prep.	2) at the feet of	
 # KTU 1.17 VI:45						
 163982	pˤny	pˤn/+y	pʕn	n. f. cstr. gen.	foot	
-163983	atk	at(I)+k	ảt (I)	pers. pn.	you	
+163983	atk	at(I)+k	ảt (I)	pers. pn. m./pers. pn. f.	you	
 163983	atk	(ṯat/+k	ṯảt	n. f. cstr. nom.	ewe	
 163983	atk	at(II)/+k	ảt (II)	n. f. cstr. nom.	prodigious	
 163984	nˤmn	nˤmn(I)/	nʕmn (I)	adj. m. sg. cstr. nom.	handsome	
@@ -1629,7 +1651,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 163997	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 163997	il	il(I)/	ỉl (I)	n. m. sg. abs. gen.	god	
 163998	mbr	?	?	?	?	DULAT: NOT FOUND
-163999	nhrm	nhr/+m(I)	nhr	n. m. cstr. nom.	river	
+163999	nhrm	nhr/~m	nhr	n. m. abs. nom.	river	
 # KTU 1.17 VI:48						
 164000	qrb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 164000	qrb	qrb/	qrb	n. m. sg. cstr. nom.	inside	
@@ -1688,12 +1710,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 164022	tlšn	!t!lšn[:d	/l-š-n/	vb D prefc. 3 m. du.	to slander	
 164022	tlšn	!t!lšn[:d:w	/l-š-n/	vb D prefc. 3 m. pl.	to slander	
 164022	tlšn	!t===!lšn[:d	/l-š-n/	vb D prefc. 2 m. pl.	to slander	
-164023	aqht	aqht/	ảqht	PN sg. cstr. nom.	Most Obedient	
+164023	aqht	aqht/	ảqht	PN sg. cstr. nom.	epic hero	
 164024	ġzr	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 # KTU 1.17 VI:52						
 164025	tqll	?	?	?	?	DULAT: NOT FOUND
 164026	kdd	kdd/	kdd	n. m. sg. cstr. nom.	child	
-164027	dnil	dnil/	dnỉl	PN sg. cstr. gen.	Raphaite	
+164027	dnil	dnil/	dnỉl	PN sg. cstr. gen.	of an ancestral hero	
 164028	mt	mt(III)/	mt (III)	n. m. pl. cstr. gen.	3) hero	DULAT direct ref
 164028	mt	mt(III)/	mt (III)	n. m. sg. cstr. gen.	3) hero	DULAT direct ref
 164029	rpi	rp(u&i/	rpủ	n. m. sg. abs. gen.	healer	
@@ -1714,7 +1736,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 164038	hwt	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 # KTU 1.17 VI:54						
 164039	xxxxxxxxxxxx	?	?	?	?	
-164040	aqht	aqht/	ảqht	PN sg. abs. nom.	Most Obedient	
+164040	aqht	aqht/	ảqht	PN sg. abs. nom.	epic hero	
 164041	yšmḫ	!y!šmḫ[	/š-m-ḫ/	vb G prefc. 3 m. sg.	to be glad, rejoice	
 # KTU 1.17 VI:55						
 164042	xxxxxxxxxxxxxxn	?	?	?	?	DULAT: NOT FOUND

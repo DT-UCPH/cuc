@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181703	ksp	ksp/	ksp	n. m. sg. abs. nom.	2) shekel(s or other quantities) of silver	
 # KTU 3.29 2						
 181704	w	w	w	conj.	and	
-181705	ḫlpn	ḫlpn(I)/	ḫlpn (I)	n. m. sg. abs. nom.	1) gewand	
+181705	ḫlpn	ḫlpn(I)/	ḫlpn (I)	n. m. sg. abs. nom.	1) type of cloak or cape a) ảrbʕm ksp w ḫlpn ʕl PN forty of silver and a ḫ . on the account of PN	
 # KTU 3.29 3						
 181706	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 181706	ˤl	ˤl(II)	ʕl (II)	adv.	above	
@@ -23,7 +23,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181712	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	jar	
 181713	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	oil	
 # KTU 3.29 8						
-181714	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg. abs. gen.	residue	
+181714	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg. abs. gen.	a container and measure of capacity	
 181715	ḫsr	ḫsr[	/ḫ-s-r/	vb G suffc. 3 m. sg.	to fail	
 181715	ḫsr	ḫsr/	ḫsr	n. m. sg. abs. nom.	deficit	
 # KTU 3.29 9						
@@ -81,12 +81,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181733	kmnt	kmnt/	kmnt	PN sg. cstr. nom.	kmnt	
 # KTU 3.29 18						
 181734	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. gen.	witness	
-181735	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
+181735	mtn	mt(II)/~n	mt (II)	n. m. abs. nom.	death	
 181735	mtn	mt[n	/m-t/	vb	to die	
-181735	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-181735	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-181735	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
-181735	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
+181735	mtn	mt(III)/~n	mt (III)	n. m. abs. nom.	man	
+181735	mtn	mt(I)/~n	mt (I)	n. m. abs. nom.	dead person	
 # KTU 3.29 19						
 181736	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 181737	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
@@ -132,12 +130,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181753	iqnu	iqnu/	ỉqnủ	n. m. sg. cstr. gen.	gem of lapis lazuli	
 # KTU 3.29 27						
 181754	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. gen.	witness	
-181755	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
+181755	mtn	mt(II)/~n	mt (II)	n. m. abs. nom.	death	
 181755	mtn	mt[n	/m-t/	vb	to die	
-181755	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-181755	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-181755	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
-181755	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
+181755	mtn	mt(III)/~n	mt (III)	n. m. abs. nom.	man	
+181755	mtn	mt(I)/~n	mt (I)	n. m. abs. nom.	dead person	
 # KTU 3.29 28						
 181756	ḫmšm	ḫmšm/	ḫmšm	num.	1) fifty a) elliptical syntagms	
 181757	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	

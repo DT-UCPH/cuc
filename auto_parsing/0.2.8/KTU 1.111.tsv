@@ -15,7 +15,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172862	yˤrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	4) to enter	
 # KTU 1.111 3						
 172863	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
-172864	aṯḫḫlm	aṯḫḫlm	ảṯḫlm		sacrifice	KTU corrected: aṯḫlm
+172864	aṯḫḫlm	aṯḫḫlm	ảṯḫlm		a type of ritual	KTU corrected: aṯḫlm
 172865	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 172866	atnd	!(ʔ&a!(ytn[+d	/y-t-n/	vb G prefc. 1 c. sg.	to give	
 # KTU 1.111 4						
@@ -29,18 +29,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.111 6						
 172873	nkld	]n]kl(y[+d	/k-l-y/	vb N suffc.	to be consumed	
 172874	šrpm	šrp/~m	šrp	n. m. sg. cstr. nom.	1) burnt sacrifice	
-172875	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	2) espec. domestic fowl	
+172875	ˤṣrm	ˤṣr(I)/~m	ʕṣr (I)	n. f. cstr. gen.	2) espec. domestic fowl	
 # KTU 1.111 7						
-172876	gdm	gd(I)/m	gd (I)	n. m. pl. abs. nom.	coriander	
-172876	gdm	gd(II)/m	gd (II)	n. m. pl. abs. nom.	sinew	
-172877	klhn	kl/+hn	kl	n. m. cstr. nom.	1) totality (of) c) with suff. pn	
+172876	gdm	gd(I)/m	gd (I)	n. m. pl. cstr. gen.	coriander	
+172876	gdm	gd(II)/m	gd (II)	n. m. pl. cstr. gen.	sinew	
+172877	klhn	kl/+hn	kl	n. m. cstr. gen.	1) totality (of) c) with suff. pn	
 172878	š	š/	š	n. m. sg. abs. nom.	ram	
 172879	l	l(I)	l (I)	prep.	to	
 172880	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 172880	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	2) DN	
 # KTU 1.111 8						
 172881	šmm	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
-172882	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
+172882	aṯḫlm	aṯḫlm	ảṯḫlm		a type of ritual	
 172883	in	in/	ỉn	n. m. sg. abs. nom.	lack of	
 172884	ṯlnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.111 9						
@@ -57,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172893	ardnd	ardn/+d	ảrdn	PN sg. cstr. gen.	ảrdn	
 172894		?	?	?	?	
 # KTU 1.111 12						
-172895	ṯmgnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯmg - ṯmg
+172895	ṯmgnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯmg - the sun deity in Hurr. mythology
 172896	x	?	?	?	?	
 # KTU 1.111 13						
 172897	xxxx	?	?	?	?	
@@ -67,14 +67,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172899	x	?	?	?	?	
 # KTU 1.111 15						
 172900	wb	?	?	?	?	DULAT: NOT FOUND
-172901	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172901	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 172901	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+172901	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172902	alpm	alp(I)/m	ảlp (I)	n. m. pl. abs. nom.	1) (head of) cattle d) sacrificial material	
 # KTU 1.111 16						
 172903	b	b	b	prep.	in	
 172904	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-172905	dqr	dqr/	dqr	n. m. sg. abs. nom.	Topf	
+172905	dqr	dqr/	dqr	n. m. sg. abs. nom.	a kind of pot or pan	
 172906	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	donkey	
 172906	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
 # KTU 1.111 17						
@@ -86,7 +86,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172911	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	4) DN (< “The King”, /Ma/āl(i)ku/, Milku . AHw 596	
 172912	ššbˤ	ššbˤ(I)/	šbʕ (I)	num.	1) numeral seven d) gen. syntagms	KTU corrected: šbʿ
 172913	ṯat	ṯa(t/t	ṯảt	n. f. sg. abs. nom.	ewe	
-172913	ṯat	ṯa(t/t=	ṯảt	n. f. pl. abs. nom.	ewe	
 172914	l	l(I)	l (I)	prep.	to	
 # KTU 1.111 19						
 172915	kmlt	kmlt/	kmlt	adj. f. pl. abs. nom.	whole	
@@ -95,8 +94,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172918	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.111 20						
 172919	b	b	b	prep.	in	
-172920	trḫtt	?	?	?	?	DULAT: NOT FOUND
-172921	ar	ar/	ả/ỉr	n. m. sg. cstr. nom.	light	
+172920	trḫtt	trḫt/~t	trḫt	n. f. cstr. gen.	dowry	
+172921	ar	ar/	ả/ỉr	n. m. sg. cstr. gen.	light	
 # KTU 1.111 21						
 172922	š	š/	š	n. m. sg. abs. gen.	ram	
 172923	lnh	l(I)+nh	l (I)	prep.	2) of a situation relative to space	

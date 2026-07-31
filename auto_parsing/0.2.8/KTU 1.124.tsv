@@ -7,7 +7,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173798	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	1) god e) classes and groups of gods	
 173799	rbm	rb(I)/m	rb (I)	adj. f. pl. abs. nom.	great	
 173800	ˤm	ˤm(I)	ʕm (I)	prep.	1) relationship of direction (space and time)	
-173801	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
+173801	dtn	dtn/	dtn	PN sg. abs. gen.	Personenname	LUPT lemma
 # KTU 1.124 3						
 173802	w	w	w	conj.	3) in the correlation protasis-apodosis	
 173803	yšal	!y!š(ʔ&al[	/š-ʔ-l/	vb G prefc. 3 m. sg.	to ask, request in general	
@@ -20,7 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.124 4						
 173806	w	w	w	conj.	and	
 173807	yˤnynn	!y!ˤny(I)[+nn	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-173808	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
+173808	dtn	dtn/	dtn	PN sg. abs. nom.	Personenname	LUPT lemma
 # KTU 1.124 5						
 173809	tˤny	!t!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	1) to answer	
 173809	tˤny	!t=!ˤny[	/ʕ-n-y/ (I)	vb G prefc. 2 m. sg.	1) to answer	
@@ -36,7 +36,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173814	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 173814	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 173814	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
-173814	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 173815	b	b	b	prep.	in	
 173816	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 173817	ḥrn	ḥrn/	ḥrn	DN sg. cstr. gen.	Ḥôrānu	
@@ -45,15 +44,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173819	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
 173819	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
 173820	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-173820	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 173820	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+173820	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 173820	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
 173821	qḥ	!!(lqḥ[	/l-q-ḥ/	vb G impv. 2	to get hold of	
 173822	w	w	w	conj.	and	
 173823	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 173823	št	št[	/š-t/	vb G impv. 2	to place	
 173823	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-173823	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 # KTU 1.124 8						
 173824	b	b	b	prep.	in	
 173825	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
@@ -66,7 +64,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173830	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 173830	št	št[	/š-t/	vb G impv. 2	to place	
 173830	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-173830	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 173831	b	b	b	prep.	in	
 173832	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 173833	w	w	w	conj.	and	
@@ -81,7 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.124 11						
 173839	mlakk	mlak/+k	mlảk	n. m. cstr. nom.	messenger	
 173840	ˤm	ˤm(I)	ʕm (I)	prep.	to	
-173841	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
+173841	dtn	dtn/	dtn	PN sg. abs. gen.	Personenname	LUPT lemma
 # KTU 1.124 12						
 173842	lqḥ	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of, take, grasp	
 173842	lqḥ	!!lqḥ[/	/l-q-ḥ/	vb G inf.	to get hold of, take, grasp	
@@ -90,8 +87,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173844	w	w	w	conj.	and	
 173845	yˤnynn	!y!ˤny(I)[+nn	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	
 # KTU 1.124 14						
-173846	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
-173847	btn	btn(I)/	btn (I)	n. m. sg. abs. nom.	inside of the house	
+173846	dtn	dtn/	dtn	PN sg. cstr. nom.	Personenname	LUPT lemma
+173847	btn	btn(I)/	btn (I)	n. m. sg. abs. gen.	inside of the house	
 173848	mḥy	mḥ[y	/m-ḥ(-w:y)/	vb G impv. 2	to clean, wipe, erase	
 # KTU 1.124 15						
 173849	l	l(I)	l (I)	prep.	to	
@@ -104,6 +101,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173855	aṯr	aṯr(I)	ảṯr (I)	adv. or prep.	1) adv a) (of time) then	
 173856	in	in/	ỉn	n. m. sg. abs. gen.	lack of	
 173857	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-173857	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 173857	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+173857	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 173857	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	

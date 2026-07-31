@@ -20,20 +20,23 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.112 8						
 180490	w	w	w	conj.	and	
 # KTU 2.112 9						
-180491	nk	?	?	?	?	DULAT: NOT FOUND
+180491	nk	n(I)[+k	n (I)	vb	Objektsuffix 1.c.sg.	LUPT lemma
+180491	nk	n(II)[+k	n (II)	vb	Pronominalsuffix 1.c.pl.	LUPT lemma
+180491	nk	n(III)[+k	n (III)	vb	Energikusendung	LUPT lemma
+180491	nk	n(IV)[+k	n (IV)	vb	enklitische	LUPT lemma
 # KTU 2.112 10						
 180492	ṯbt	ṯb(t/t	ṯbt	n. f. sg. cstr. nom.	2) sitting	
 # KTU 2.112 11						
 180493	ṯbd	ṯb[+d	/ṯ-b/	vb G suffc.	to return	
 180493	ṯbd	ṯb[+d	/ṯ-b/	vb G impv. 2	to return	
 180493	ṯbd	(yṯb[+d	/y-ṯ-b/	vb G impv. 2	to sit down	
-180493	ṯbd	ṯb/+d	ṯb	n. m. cstr. nom.		
+180493	ṯbd	ṯb/+d	ṯb	n. m. cstr. nom.	repetition / intercalary	
 # KTU 2.112 12						
 180494	nkr	nkr/	nkr	adj. m. sg. abs. nom.	foreigner / stranger	
 # KTU 2.112 13						
 180495	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-180495	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 180495	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+180495	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 180495	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
 180496	u	u	ủ	conj.	or	
 # KTU 2.112 14						

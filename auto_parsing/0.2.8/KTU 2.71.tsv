@@ -44,6 +44,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 11						
 178671	ˤmnk	ˤm(I)+nk	ʕm (I)	prep.	to	
 178672	pm	p(I)~m	p (I)	conj. functor	1) and a) copulative “and”	
+178672	pm	p(III)/~m	p (III)	n. m. abs. nom.	mouth	
 178672	pm	p(II)~m	p (II)	adv.	here	
 178673	yqḥ	!y!(lqḥ[	/l-q-ḥ/	vb G prefc. 3 m. sg.	to get hold of	
 178673	yqḥ	!y!(lqḥ[:pass	/l-q-ḥ/	vb Gpass prefc. 3 m. sg.	to get hold of	
@@ -58,7 +59,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178675	tˤpr	!t===!ˤpr[	/ʕ-p-r/	vb G prefc. 2 m. pl.	to supply (something)	
 # KTU 2.71 13						
 178676	ht	ht	ht	adv.	1) adv b) of time	
-178677	at	at(I)	ảt (I)	pers. pn.	1) you a) subj. in NC	
+178677	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you a) subj. in NC	
 178678	d	d	d	det. or rel. functor	the one(s) of	
 # KTU 2.71 14						
 178679	dbr	dbr(II)/	dbr (II)	n. m. sg. abs. nom.	plague	
@@ -93,5 +94,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.71 19						
 178693	mkr	mkr/	mkr	n. m. sg. abs. gen.	merchant	
 178694	tn	(ytn[	/y-t-n/	vb	give	
-178694	tn	(ytn[/	/y-t-n/	vb	give	
 178695	lh	l(I)+h	l (I)	prep.	to	

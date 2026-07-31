@@ -15,7 +15,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177105	lm	l(I)~m	l (I)	prep.	to	
 177106	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 # KTU 2.32 4						
-177107	ny	n(I)&y	-n (I)	morph.	with c. n	
+177107	ny	n(I)&y	-n (I)	morph.	multifunctional encl. morph. / emph. or det. encl. morph	
+177107	ny	n(I)[+y	n (I)	vb	Objektsuffix 1.c.sg.	LUPT lemma
+177107	ny	n(II)[+y	n (II)	vb	Pronominalsuffix 1.c.pl.	LUPT lemma
+177107	ny	n(III)[+y	n (III)	vb	Energikusendung	LUPT lemma
+177107	ny	n(IV)[+y	n (IV)	vb	enklitische	LUPT lemma
 177108	k	+k	-k (I)			
 177108	k	~k	-k (II)			
 177108	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -43,7 +47,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177120	xy	?	?	?	?	DULAT: NOT FOUND
 177121	kl	kl/	kl	n. m. sg. cstr. nom.	totality (of)	
 177122	dbrm	dbr(I)/m	dbr (I)	n. m. pl. abs. gen.	matter	
-177123	hmt	hmt	hmt	pers. pn.		
+177123	hmt	hmt	hmt	pers. pn.	p. pn. obl	
+177123	hmt	hm(I)~t	hm (I)	pers. pn.	1) they	
+177123	hmt	hm(II)~t	hm (II)	conj./interr. functor	if	
 # KTU 2.32 9						
 177124	al	al(I)	ảl (I)	neg. functor	no	
 177124	al	al(II)	ảl (II)	pos. functor	surely	
@@ -59,4 +65,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177132	ṯlṯm	ṯlṯ(I)&m/	ṯlṯ (I)	num. f.	three	
 177132	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 177133	kkr	kkr/	kkr	n. m. sg. abs. nom.	talent	
-177134	ṯlt	?	?	?	?	DULAT: NOT FOUND
+177134	ṯlt	ṯl~t	ṯl	?	?	

@@ -20,7 +20,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.28 5						
 181653	kd	kd(I)/	kd (I)	n. f. sg. cstr. gen.	2) “jar”	
 181654	šmn	šmn(I)/	šmn (I)	n. m. sg. cstr. gen.	1) oil a) oil (prob. olive oil)	
-181655	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg. abs. gen.	1) residue	
+181655	ṯˤt	ṯˤ(t/t	ṯʕt	n. f. sg. abs. gen.	1) a container and measure of capacity b) for oil	
 181656	ḫsr	ḫsr/	ḫsr	n. m. sg. abs. nom.	deficit	
 # KTU 3.28 6						
 181657	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -28,6 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181657	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181657	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181658	mzt	mzt/	mzt	PN sg. abs. nom.	mzt	
+181659	bn	b+n	b	prep.	in	
 181659	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 181659	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
 181659	bn	bn(II)	bn (II)	prep.	between	
@@ -74,12 +75,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181677	kmnt	kmnt/	kmnt	PN sg. cstr. nom.	kmnt	
 181678	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. gen.	witness	
 # KTU 3.28 12						
-181679	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
+181679	mtn	mt(II)/~n	mt (II)	n. m. abs. nom.	death	
 181679	mtn	mt[n	/m-t/	vb	to die	
-181679	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-181679	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-181679	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
-181679	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
+181679	mtn	mt(III)/~n	mt (III)	n. m. abs. nom.	man	
+181679	mtn	mt(I)/~n	mt (I)	n. m. abs. nom.	dead person	
 # KTU 3.28 13						
 181680	ˤšrt	ˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	
 181680	ˤšrt	ˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	
@@ -126,9 +125,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181699	ġly	!!ġly[/	/ġ-l-y/	vb G inf.	to lose the proper aspect	
 # KTU 3.28 19						
 181700	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	
-181701	mtn	mt(II)/+n	mt (II)	n. m. cstr. nom.	death	
+181701	mtn	mt(II)/~n	mt (II)	n. m. abs. nom.	death	
 181701	mtn	mt[n	/m-t/	vb	to die	
-181701	mtn	mt[+n	/m-t/	vb G suffc.	to die	
-181701	mtn	mt[/+n	/m-t/	vb G ptcpl. m. sg. cstr. nom.	to die	
-181701	mtn	mt(III)/+n	mt (III)	n. m. cstr. nom.	man	
-181701	mtn	mt(I)/+n	mt (I)	n. m. cstr. nom.	dead person	
+181701	mtn	mt(III)/~n	mt (III)	n. m. abs. nom.	man	
+181701	mtn	mt(I)/~n	mt (I)	n. m. abs. nom.	dead person	

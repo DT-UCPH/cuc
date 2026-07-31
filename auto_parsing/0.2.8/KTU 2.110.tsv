@@ -8,10 +8,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180446	l	l(I)	l (I)	prep.	to	
 180447		?	?	?	?	
 # KTU 2.110 4						
-180448	mryn	mryn(I)/	mryn (I)	n. m. sg. abs. gen.	Officiers mittanniens commandant les escaudrons de chars de guerre	
+180448	mryn	mryn(I)/	mryn (I)	n. m. sg. abs. gen.	member of a social group	
 180449		?	?	?	?	
 # KTU 2.110 5						
-180450	yzn	yzn	yzn	?	abwägen	
+180450	yzn	yzn	yzn	?		
+180450	yzn	!y!(yzn[	yzn	vb	wägen	
 180451	l	l(I)	l (I)	prep.	to	
 180452		?	?	?	?	
 # KTU 2.110 6						
@@ -19,8 +20,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180454	l	l(I)	l (I)	prep.	to	
 180454	l	l(II)	l (II)	adv.	no	
 180454	l	l(III)	l (III)	functor	certainly	
-180455	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-180455	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+180455	n	~n	-n (I)	encl. morph.		
+180455	n		-n (IV)	vb	him/her/it	
 # KTU 2.110 7						
 180456	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
 180457	w	w	w	conj.	4) declarative and emphatic functor	

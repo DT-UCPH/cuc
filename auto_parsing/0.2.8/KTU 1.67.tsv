@@ -10,7 +10,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.67 4						
 168587	an	an(I)	ản (I)	pers. pn.	I	
 168587	an	an(II)	ản (II)	adv.	wherever	
-168588	mnmnm	mnmn+m(I)	mnmn	pers. pn.	anyone	
+168588	mnmnm	mnmn~m	mnmn	pers. pn.	anyone	
 168589	a	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 5						
 168590	w	w	w	conj.	and	
@@ -39,6 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168608	rty	rt/+y	rt	PN sg. cstr. nom.	rt	
 168609	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 168609	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+168609	ym	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu/the god “Sea”	
 168609	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 168610	ulxxṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 10						
@@ -61,18 +62,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168621	u	u	ủ	conj.	or	
 168622	ṯp	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.67 17						
-168623	pṯtn	pṯt(I)/+n	pṯt (I)	n. m. cstr. nom.	linen	
-168624	hd	hd/	hd(d)	DN sg. abs. nom.	Haddu/Hadad	
+168623	pṯtn	pṯt(I)/~n	pṯt (I)	n. m. cstr. nom.	linen	
+168624	hd	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
 168625	ṯb	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	
 168625	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
 # KTU 1.67 18						
-168626	bltn	bl(I)&t+n	bl (I)	adv. /emph. functor	no	
-168626	bltn	blt[+n	/b-l-t/	vb G suffc.	to open wide > couper	
+168626	bltn	bl(I)&t~n	bl (I)	adv. /emph. functor	no	
+168626	bltn	blt[~n	/b-l-t/	vb G suffc.	to open wide > couper	
 168627	klm	kl/m	kl	n. m. pl. abs. nom.	totality (of)	
 # KTU 1.67 19						
 168628	ltlkn	?	?	?	?	DULAT: NOT FOUND
 168629	l	l(I)	l (I)	prep.	to	
-168630	wt	?	?	?	?	DULAT: NOT FOUND
+168630	wt	w~t	w	conj.	and	
 # KTU 1.67 20						
 168631	wm	wm	wm	conj., morph.		
 168631	wm	w~m	w	conj., morph.	and	

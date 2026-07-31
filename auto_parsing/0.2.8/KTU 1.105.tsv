@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172005	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. nom.	(sacrificial) pit	
 172005	ġb	ġb(II)	ġb (II)	?	?	
 172006	ršp	ršp/	ršp	DN sg. cstr. nom.	Rašap	
-172007	mhbn	mhbn/	mhbn	TN sg. cstr. gen.	Gedanke	
+172007	mhbn	mhbn/	mhbn	TN sg. cstr. gen.	seat of the cult of the god ršp	
 172008	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.105 2						
 172009	šrp	šrp/	šrp	n. m. sg. abs. gen.	1) burnt sacrifice	
@@ -17,7 +17,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172014	b	b	b	prep.	in	
 172015	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. nom.	(sacrificial) pit	
 172015	ġb	ġb(II)	ġb (II)	?	?	
-172016	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.	aller de ci de là	
+172016	ḫyr	ḫyr/	ḫyr	MN sg. abs. nom.		
 # KTU 1.105 4						
 172017	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	1) eight d) composite numbers	
 172018	l	l(I)	l (I)	prep.	to	
@@ -31,9 +31,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172024	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 172024	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. gen.	Baʿlu/Baal	
 172025	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
-172026	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172026	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 172026	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+172026	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172027	šm	š/m	š	n. m. pl. abs. nom.	1) ram b) as a sacrificial victim	
 172027	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.105 7						
@@ -58,6 +58,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 10						
 172041	w	w	w	conj.	and	
 172042	š	š/	š	n. m. sg. cstr. nom.	ram	
+172043	nbkm	nbk(I)/~m	nb/pk (I)	n. m. abs. gen.	fountain	
 172043	nbkm	nbkm/	nbkm	TN sg. abs. gen.	nbkm	
 172044	w	w	w	conj.	and	
 172045	š	š/	š	n. m. sg. cstr. nom.	ram	
@@ -70,18 +71,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 12						
 172050	l	l(I)	l (I)	prep.	to	
 172051	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
-172052	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172052	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 172052	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+172052	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172053	šm	š/m	š	n. m. pl. abs. nom.	ram	
 172053	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 172054	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172054	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
 # KTU 1.105 13						
-172055	tzġm	tzġ/m	tzġ	n. m. pl. abs. nom.	kind of sacrificial meat	
-172056	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+172055	tzġm	tzġ/m	tzġ	n. m. pl. abs. nom.	general type of offering	
 172056	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 172056	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+172056	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172057	šm	š/m	š	n. m. pl. cstr. nom.	ram	
 172057	šm	šm(I)/	šm (I)	n. m. sg. cstr. nom.	name	
 172058	pr	pr(II)/	pr (II)	n. m. sg. cstr. gen.	young bull	
@@ -90,9 +91,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 15						
 172060	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 172060	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
-172061	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.	aller de ci de là	
+172061	ḫyr	ḫyr/	ḫyr	MN sg. abs. gen.		
 172062	b	b	b	prep.	in	
 172063	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+172063	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 172063	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 172064	ḥdṯ	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new	
 172064	ḥdṯ	ḥdṯ(II)/	ḥdṯ (II)	n. m. sg. abs. nom.	new moon	
@@ -113,7 +115,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172074	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
 172074	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.105 18						
-172075	ˤrkm	ˤrk(II)/m	ʕrk (II)	n. m. pl. abs. gen.	loaves of bread	
+172075	ˤrkm	ˤrk(II)/m	ʕrk (II)	n. m. pl. abs. gen.	a type of offering (?)	
 # KTU 1.105 19						
 172076	b	b	b	prep.	in	
 172077	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	1) eight d) composite numbers	
@@ -128,7 +130,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.105 21						
 172083	ˤlm	ˤl(I)~m	ʕl (I)	prep.	upon	
 172083	ˤlm	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. nom.	eternity	
-172084	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
+172084	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	general type of offering	
 172085	b	b	b	prep.	in	
 172086	ġb	ġb(I)/	ġb (I)	n. m. sg. cstr. nom.	(sacrificial) pit	
 172086	ġb	ġb(II)	ġb (II)	?	?	
@@ -139,13 +141,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172090	w	w	w	conj.	and	
 172091	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. nom.	1) gold d) cultic offering	
 172092	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
-172093	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172093	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 172093	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+172093	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172094	šm	š/m	š	n. m. pl. abs. nom.	ram	
 172094	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 172095	l	l(I)	l (I)	prep.	to	
-172096	btbt	btbt/	btbt	DN sg. abs. gen.	btbt	
+172096	btbt	btbt/	btbt	DN sg. abs. gen.	tutelary god of the palace	
 # KTU 1.105 23						
 172097	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle d) sacrificial material	
 172097	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle d) sacrificial material	
@@ -158,7 +160,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172101	alp	alp(II)/	ảlp (II)	num.	(one, a) thousand	
 172102	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 172102	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-172102	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.105 24						
 172103	l	l(I)	l (I)	prep.	to	
 172104	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. cstr. gen.	Baʿlu/Baal	
@@ -171,10 +172,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172110	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
 172111	l	l(I)	l (I)	prep.	to	
 172112	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
-172113	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	superintendent	
-172113	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
+172113	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	protective deity of the palace / dynasty	
+172113	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	residence of the god ršp	
 # KTU 1.105 26						
-172114	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. gen.	bird	
+172114	ˤṣrm	ˤṣr(I)/~m	ʕṣr (I)	n. f. abs. gen.	bird	
 172115	l	l(I)	l (I)	prep.	to	
 172116	inš	inš/	ỉnš	n. m. sg. cstr. gen.	people	
 172117	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	

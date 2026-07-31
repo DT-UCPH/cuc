@@ -2,6 +2,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 1						
 180799	l	l(I)	l (I)	prep.	to	
 180800	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+180800	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 180800	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 180801	hnd	hnd	hnd	dem.	this	
 # KTU 3.5 2						
@@ -13,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180803	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180803	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 3						
-180804	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
+180804	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	of several kings of Ugarit	
 180805	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.5 4						
 180806	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
@@ -32,7 +33,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180813	šdy	šdy(I)/	šdy (I)	adj. abs. nom.	land labourer	
 # KTU 3.5 7						
 180814	bmt	bm(t/t	bmt	n. f. sg. cstr. nom.	back	
-180814	bmt	bm(t/t=	bmt	n. f. pl. cstr. nom.	back	
 180815	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	5) used as a preposition	
 180815	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
 180816	gth	g(t/t+h	gt	n. f. sg. cstr. gen.	gittu	
@@ -54,11 +54,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.5 11						
 180823	w	w	w	conj.	and	
 180824	ytnnn	!y!(ytn[nn	/y-t-n/	vb	to give	
-180824	ytnnn	!y!(ytn[n+n	/y-t-n/	vb	to give	
-180824	ytnnn	!y!(ytn[+nn	/y-t-n/	vb G prefc. 3 m. sg.	to give	
-180824	ytnnn	ytnnn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 180824	ytnnn	yt&n/+nn	yt	n. m. cstr. nom.	?	
-180824	ytnnn	ytn(I)n/n	ytn (I), -nn	n. m. abs. nom.	temple slaves, ?	
+180824	ytnnn	ytn(I)n/n	ytn (I), -nn	n. m. abs. nom.	a group or social class, ?	
 # KTU 3.5 12						
 180825	l	l(I)	l (I)	prep.	to	
 180826	bˤln	bˤl(II)&n/	bʕl (II)	n. m. sg. abs. gen.	lord	
@@ -98,8 +95,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180844	bn	bn(II)	bn (II)	prep.	between	
 180844	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180844	bn	bn[	/b-n/	vb G impv. 2	to understand	
-180845	kltn	klt(I)/+n	klt (I)	n. f. cstr. nom.	bride	
-180845	kltn	klt(II)/+n	klt (II)	n. f. cstr. nom.	measure	
+180845	kltn	klt(I)/~n	klt (I)	n. f. abs. nom.	bride	
+180845	kltn	klt(II)/~n	klt (II)	n. f. abs. nom.	measure	
 # KTU 3.5 19						
 180846	w	w	w	conj.	and	
 180847	bd	b&d	b	prep.	in	
@@ -126,7 +123,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180857	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 180857	bn	bn[	/b-n/	vb G impv. 2	to understand	
 # KTU 3.5 24						
-180858	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	nqmpʿ	
+180858	nqmpˤ	nqmpˤ/	nqmpʕ	PN sg. cstr. nom.	of several kings of Ugarit	
 180859	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
 # KTU 3.5 25						
 180860	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	

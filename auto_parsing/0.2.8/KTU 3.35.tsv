@@ -7,12 +7,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181997	nlqḥt	]n]lqḥ[t	/l-q-ḥ/	vb N suffc. 1 c. sg.	to be collected	
 # KTU 3.35 2						
 181998	xx	?	?	?	?	
-181999	ḫtyn	ḫty(I)/+n	ḫty (I)	GN sg. cstr. nom.	Hittite	
-182000	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
-182000	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-182000	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-182001	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. nom.	house	
-182001	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. nom.	daughter	
+181999	ḫtyn	ḫty(I)/~n	ḫty (I)	GN sg. cstr. nom.	Hittite	
+182000	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
+182000	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
+182001	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
+182001	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 3.35 3						
 182002	aġltn	aġltn/	ảġltn	PN sg. abs. nom.	ảġltn	
 # KTU 3.35 4						
@@ -37,13 +36,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.35 6						
 182009	bnšm	bnš/~m	bnš	n. m. pl. abs. gen.	man	
 182010	hnmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
-182011	ypḥm	ypḥ/+m(I)	ypḥ	n. m. cstr. nom.	witness	
+182011	ypḥm	ypḥ/~m	ypḥ	n. m. cstr. nom.	witness	
 # KTU 3.35 7						
-182012	kbby	kbby/	kbby	PN sg. abs. nom.	kbby	
-182013	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	hand	
-182013	yd	yd(I)/	yd (I)	n. f. sg. abs. nom.	hand	
-182013	yd	yd(II)/	yd (II)	n. m. sg. cstr. nom.	love	
-182014	bt	b(t(I)/t	bt (I)	n. f. sg. abs. nom.	daughter	
+182012	kbby	kbby/	kbby	PN sg. cstr. gen.	kbby	
+182013	yd	yd(I)/	yd (I)	n. f. sg. cstr. gen.	hand	
+182013	yd	yd(II)/	yd (II)	n. m. sg. cstr. gen.	love	
+182014	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 182015	amt	!(ʔ&a!mt[	/m-t/	vb G prefc. 1 c. sg.	to die	
 182015	amt	am(t(I)/t	ảmt (I)	n. f. sg. abs. nom.	(female) slave	
 182015	amt	am(t(II)/t	ảmt (II)	n. f. sg. abs. nom.	elbow	

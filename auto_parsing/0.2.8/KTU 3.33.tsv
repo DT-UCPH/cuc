@@ -26,8 +26,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181945	w	w	w	conj.	and	
 181946	ˤpśh	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.33 7						
-181947	npk	npk(I)/	nb/pk (I)	n. m. sg. cstr. nom.	fountain	
-181948	kwr	kwr/	kwr	TN sg. abs. gen.	kwr	
+181947	npk	npk(I)/	nb/pk (I)	n. m. sg. abs. nom.	fountain	
+181948	kwr	kwr/	kwr	TN sg. abs. nom.	kwr	
+181948	kwr	kwr[	kwr	vb	zornig	
 # KTU 3.33 8						
 181949	d	d	d	det. or rel. functor	2) which	
 181950	hlk	hlk[	/h-l-k/	vb G suffc. 3 m. sg.	to go, go away	
@@ -51,9 +52,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181961	hnmt	hnmt/	hn(h)mt	dem./adj. pl.	these	
 # KTU 3.33 13						
 181962	bd	b&d	b	prep.	in	
-181963	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
-181963	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
-181963	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
+181963	ybnn	!y!bn(y[:pass~n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
+181963	ybnn	!y!(]n]bn(y[~n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
+181963	ybnn	!y!bn(y[:pass~n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
 # KTU 3.33 14						
 181964	ˤd	ˤd(III)/	ʕd (III)	n. m. sg. abs. nom.	throne	
 181964	ˤd	ˤd(II)/	ʕd (II)	n. m. sg. abs. nom.	time	
@@ -78,9 +79,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181974	klklh	klkl/+h	klkl	n. m. cstr. nom.	anybody	
 # KTU 3.33 19						
 181975	w	w	w	conj.	and	
-181976	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
-181976	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
-181976	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
+181976	ybnn	!y!bn(y[:pass~n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
+181976	ybnn	!y!(]n]bn(y[~n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
+181976	ybnn	!y!bn(y[:pass~n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
 # KTU 3.33 20						
 181977	b	b	b	prep.	3) relationship of cause or reason	
 181978	šdm	šd(I)/m	šd (I)	n. m. pl. abs. gen.	2) stretch of cultivated land	
@@ -99,3 +100,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.33 24						
 181986	ybl	!y!(ybl[	/y-b-l/	vb G prefc. 3 m. sg.	to carry	
 181986	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry	
+181986	ybl	ybl(I)/	ybl (I)	n. m. sg. cstr. nom.	produce	

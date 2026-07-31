@@ -34,7 +34,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170984	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 170984	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN b) object or purpose of an action	
 170985	mbk	mbk/	mbk	n. m. sg. cstr. gen.	source	
-170986	nhrm	nhr/+m(I)	nhr	n. m. cstr. gen.	river	
+170986	nhrm	nhr/~m	nhr	n. m. abs. gen.	river	
 170987	b	b	b	prep.	in	
 170988	ˤdt	ˤd(t(I)/t	ʕdt (I)	n. f. sg. cstr. gen.	2) confluence	
 170989	thmtm	thm(t/tm	thmt	n. f. du. cstr. gen.	Primordial Ocean	
@@ -135,6 +135,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171043	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 # KTU 1.100 13						
 171044	w	w	w	conj.	and	
+171045	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171045	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171045	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171045	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171045	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -156,7 +158,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171054	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 15						
 171055	dgn	dgn(I)/	dgn (I)	n. m. sg. cstr. gen.	grain	
-171056	ttlh	ttl&h/	ttl	TN sg. cstr. gen.	ttl	
+171056	ttlh	ttl&h/	ttl	TN sg. cstr. gen.	place of the cult of the god Dagan	
 171057	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 171058	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 171058	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
@@ -193,6 +195,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171075	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 171076	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 171077	w	w	w	conj.	and	
+171078	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171078	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171078	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171078	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171078	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -217,7 +221,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171089	w	w	w	conj.	and	
 171090	ˤrṯtrt	ˤ&rṯtr(t(I)/t	ʕṯtrt (I)	DN f. sg. cstr. nom.	ʿAṯtartu/Astarte/Ishtar	KTU corrected: ʿṯtrt
 171090	ˤrṯtrt	ˤ&rṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. nom.	ʿṯtrt (II)	KTU corrected: ʿṯtrt
-171091	inbbh	inbb/~h	ỉnbb	TN sg. cstr. gen.	god (of the) mountain	
+171091	inbbh	inbb/~h	ỉnbb	TN sg. cstr. gen.	residence of the goddess ʿnt	
 171092	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 171093	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 171093	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
@@ -231,7 +235,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171098	lnh	l(I)+nh	l (I)	prep.	to	
 171099	ml	ml	ml	?	?	
 # KTU 1.100 22						
-171100	ḫš	ḫš/	ḫš	DN sg. abs. nom.	ḫš	
+171100	ḫš	ḫš/	ḫš	DN sg. abs. nom.	divine mountain	
 171101	abd	(ʔ&abd[	/ʔ-b-d/	vb G suffc. 3 m. sg.	be missing	
 171101	abd	abd(I)/	ảbd (I)	n. m. sg. abs. nom.	ruin	
 171102	lnh	l(I)+nh	l (I)	prep.	to	
@@ -256,6 +260,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171112	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 # KTU 1.100 24						
 171113	w	w	w	conj.	and	
+171114	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171114	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171114	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171114	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171114	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -278,7 +284,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 26						
 171124	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 171124	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	2) DN	
-171125	lrgth	lrgt/+h	lrgt	TN sg. cstr. gen.	Larugat	
+171125	lrgth	lrgt/+h	lrgt	TN sg. cstr. gen.	residence of the god yrḫ	
 171126	mnt	mn(t(I)/t	mnt (I)	n. f. sg. abs. nom.	portion	
 171127	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. nom.	bite	
 171127	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. abs. nom.	bite	
@@ -316,6 +322,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171144	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 171145	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 171146	w	w	w	conj.	and	
+171147	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171147	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171147	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171147	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171147	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -337,7 +345,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171156	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 31						
 171157	ršp	ršp/	ršp	DN sg. cstr. gen.	Rašap	
-171158	bbth	bbt(I)/~h	bbt (I)	TN sg. cstr. gen.	bbt (I)	
+171158	bbth	bbt(I)/~h	bbt (I)	TN sg. cstr. gen.	residence of the god ršp	
 171159	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 171160	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 171160	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
@@ -379,6 +387,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171178	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 171179	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 171180	w	w	w	conj.	and	
+171181	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171181	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171181	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171181	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171181	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -399,10 +409,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171189	bl	bl(III)/	bl (III)	n. m. sg. abs. nom.	blended beer	
 171190	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 # KTU 1.100 36						
-171191	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. gen.	ẓẓ	
+171191	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. gen.	element of the double-barrelled DN ẓẓ w kmṯ	
 171192	w	w	w	conj.	and	
-171193	kmṯ	kmṯ/	kmṯ	DN/element sg. cstr. nom.	kmṯ	
-171194	ḥryth	ḥryt/~h	ḥryt	TN sg. cstr. gen.	ḥryt	
+171193	kmṯ	kmṯ/	kmṯ	DN/element sg. cstr. nom.	second element in the DN ө ṭ/ẓẓ w kmṯ	
+171194	ḥryth	ḥryt/~h	ḥryt	TN sg. cstr. gen.	residence of the god(s) ẓẓ w kmṯ	
 171195	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 171196	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 171196	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
@@ -445,6 +455,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171214	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 171215	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 171216	w	w	w	conj.	and	
+171217	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171217	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171217	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171217	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171217	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -503,6 +515,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171247	yˤdb	!y!ˤdb[	/ʕ-d-b/	vb G prefc. 3 m. sg.	to leave > to put in > to place	
 171248	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 171249	w	w	w	conj.	and	
+171250	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171250	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171250	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171250	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171250	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -564,6 +578,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171283	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 # KTU 1.100 50						
 171284	w	w	w	conj.	and	
+171285	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171285	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171285	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171285	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171285	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -626,6 +642,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.100 56						
 171318	ksa	ksa/	ksả	DN sg. abs. nom.	second component of the double-barrelled divine name yrḫ w ksả, a lunar deity	
 171319	w	w	w	conj.	and	
+171320	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+171320	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 171320	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 171320	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 171320	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -648,8 +666,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171329	ˤm	ˤm(I)	ʕm (I)	prep.	to	
 171330	ḥrn	ḥrn/	ḥrn	DN sg. cstr. gen.	Ḥôrānu	
 171331	mṣdh	mṣd(I)/+h	mṣd (I)	n. m. cstr. gen.	(feast / banquet of) game	
-171331	mṣdh	mṣd(III)/~h	mṣd (III)	TN sg. cstr. gen.	mṣd (III)	
-171331	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. gen.	large fortified tower	
+171331	mṣdh	mṣd(III)/~h	mṣd (III)	TN sg. cstr. gen.	dwelling of the god ḥrn	
+171331	mṣdh	mṣd(II)/+h	mṣd (II)	n. m. sg. cstr. gen.	architectural structure of the palace for the cult	
 171332	mnt	mn(t(I)/t	mnt (I)	n. f. sg. cstr. gen.	portion	
 171333	nṯk	nṯk(II)/	nṯk (II)	n. m. pl. cstr. gen.	bite	
 171333	nṯk	nṯk(II)/	nṯk (II)	n. m. sg. cstr. gen.	bite	
@@ -709,7 +727,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171359	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 171360	tk	tk/	tk	n. m. cstr. nom.	centre	
 171361	aršḫ	aršḫ/	ảršḫ	TN sg. abs. gen.	ảršḫ	
-171362	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	
+171362	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
+171362	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	
+171362	rbt	rb(t(II)/t	rbt (II)	n. f. sg. abs. nom.	seine	
 # KTU 1.100 64						
 171363	w	w	w	conj.	and	
 171364	aršḫ	aršḫ/	ảršḫ	TN sg. abs. nom.	ảršḫ	
@@ -745,7 +765,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171380	yˤdynh	!y!ˤdy[:d+nh	/ʕ-d-y/	vb D prefc. 3 m. sg.	to make disappear / remove	
 171381	yb	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 67						
-171382	ltm	lt+m(I)	lt	?	?	
+171382	ltm	lt~m	lt	?	?	
 171383	yblnh	!y!(ybl[+nh	/y-b-l/	vb G prefc. 3 m. sg.	to carry, bring, take	
 171384	mġy	mġy[	/m-ġ-y/	vb G suffc. 3 m. sg.	to come, arrive	
 171384	mġy	!!mġy[/	/m-ġ-y/	vb G inf.	to come, arrive	
@@ -804,16 +824,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 171417	ištql	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.100 73						
 171418	tn	(ytn[	/y-t-n/	vb	give	
-171418	tn	(ytn[/	/y-t-n/	vb	give	
 171419	nḥšm	nḥš/m	nḥš	n. m. pl. abs. nom.	serpent	
 171420	y	y	y	prep. functor	oh!	
 171421	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. nom.	intestine(s)	
 171422	tn	(ytn[	/y-t-n/	vb	give	
-171422	tn	(ytn[/	/y-t-n/	vb	give	
 171423	km	km	km	prep./conj./adv.		
 # KTU 1.100 74						
 171424	mhry	mhr(III)/+y	mhr (III)	n. m. sg. cstr. gen.	dowry	
 171425	w	w	w	conj.	and	
+171426	bn	b+n	b	prep.	in	
 171426	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	3) young of an animal	
 171426	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	3) young of an animal	
 171426	bn	bn(II)	bn (II)	prep.	between	

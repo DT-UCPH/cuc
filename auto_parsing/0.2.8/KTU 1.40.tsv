@@ -10,22 +10,22 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.40 3						
 167047	y	~y	-y (II)	prep. functor	indeed	
 167047	y	y	y	prep. functor	oh!	
-167048	ulp	ulp(I)	l (I)	prep.	to	Based on DULAT reconstruction.
 167048	ulp	ulp(II)	l (II)	adv.	no	Based on DULAT reconstruction.
 167048	ulp	ulp(I)	p (I)	conj. functor	and	Based on DULAT reconstruction.
 167048	ulp	u&lp	ủ	conj.	or	Based on DULAT reconstruction.
 167048	ulp	ulp	ủlp	→	?	
+167048	ulp	ulp(I)	l (I)	prep.	to	Based on DULAT reconstruction.
 167049		?	?	?	?	
 # KTU 1.40 4						
-167050	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+167050	ġbr	ġbr/	ġbr	TN sg. abs. nom.	used as a coll. name	
 167051	u	u	ủ	conj.	or	
 167052	l	l(I)	l (I)	prep.	to	
 167053	p	p(I)	p (I)	conj. functor	and	
 167053	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167053	p	p(II)	p (II)	adv.	here	
 # KTU 1.40 5						
-167054	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-167054	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+167054	n	~n	-n (I)	encl. morph.		
+167054	n		-n (IV)	vb	him/her/it	
 167055		?	?	?	?	
 # KTU 1.40 6						
 167056		?	?	?	?	
@@ -71,8 +71,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167083	w	w	w	conj.	and	
 167084	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to offer	
 167085	š	š/	š	n. m. sg. cstr. nom.	ram	
-167086	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	justice	
 167086	mšr	mšr(II)/	mšr (II)	n. sg. abs. gen.	song	
+167086	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	justice	
 167087	bn	b+n	b	prep.	in	
 167087	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 167087	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	
@@ -98,7 +98,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167102	p	p(I)	p (I)	conj. functor	and	
 167102	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167102	p	p(II)	p (II)	adv.	here	
-167103	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
+167103	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	qṭy (I)	
 167104	u	u	ủ	conj.	or	
 167105	l	l(I)	l (I)	prep.	to	
 167106	p	p(I)	p (I)	conj. functor	and	
@@ -129,7 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167122	p	p(I)	p (I)	conj. functor	and	
 167122	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167122	p	p(II)	p (II)	adv.	here	
-167123	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+167123	ġbr	ġbr/	ġbr	TN sg. abs. nom.	used as a coll. name	
 # KTU 1.40 13						
 167124	u	u	ủ	conj.	or	
 167125	l	l(I)	l (I)	prep.	to	
@@ -148,19 +148,21 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167134	p	p(I)	p (I)	conj. functor	and	
 167134	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167134	p	p(II)	p (II)	adv.	here	
-167135	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
+167135	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	only in ritual ctx	
 # KTU 1.40 14						
 167136	u	u	ủ	conj.	or	
 167137	tḫṭu	?	?	?	?	DULAT candidates (no reconstructable encoding): /ḫ-ṭ-ʔ/ - to make a mistake
 167138	b	b	b	prep.	in	
 167139	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
 167139	apkm	ap(II)/+km	ảp (II)	n. m. cstr. nom.	nose	
+167139	apkm	ap(q&k/~m	ảpq	n. m. abs. nom.	spring	
 167140	u	u	ủ	conj.	or	
 167141	b	b	b	prep.	in	
 167142	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
 167143	npškm	npš(I)/+km	npš (I)	n. f. cstr. gen.	throat	
 167144	u	u	ủ	conj.	or	
 167145	b	b	b	prep.	in	
+167146	qṭt	qṭ(I)/~t	qṭ (I)	n. m. abs. gen.	flax	
 167146	qṭt	qṭ(t/t	qṭt	n. f. sg. abs. gen.	transgression	
 # KTU 1.40 15						
 167147	tqṭṭ	!t!qṭṭ[:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
@@ -236,7 +238,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167199	p	p(I)	p (I)	conj. functor	and	
 167199	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167199	p	p(II)	p (II)	adv.	here	
-167200	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
+167200	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	qṭy (I)	
 # KTU 1.40 20						
 167201	u	u	ủ	conj.	or	
 167202	l	l(I)	l (I)	prep.	to	
@@ -267,7 +269,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167219	p	p(I)	p (I)	conj. functor	and	
 167219	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167219	p	p(II)	p (II)	adv.	here	
-167220	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+167220	ġbr	ġbr/	ġbr	TN sg. abs. nom.	used as a coll. name	
 # KTU 1.40 21						
 167221	u	u	ủ	conj.	or	
 167222	l	l(I)	l (I)	prep.	to	
@@ -286,7 +288,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167231	p	p(I)	p (I)	conj. functor	and	
 167231	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167231	p	p(II)	p (II)	adv.	here	
-167232	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
+167232	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	only in ritual ctx	
 # KTU 1.40 22						
 167233	u	u	ủ	conj.	or	
 167234	tḫṭin	!t!ḫṭ(ʔ[&in	/ḫ-ṭ-ʔ/	vb G prefc.	to make a mistake, sin	
@@ -296,9 +298,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167238	b	b	b	prep.	3) relationship of cause or reason	
 167239	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
 167240	npškn	npš(I)/+kn	npš (I)	n. f. cstr. gen.	throat	
-167240	npškn	npš(I)&k/+n	npš (I)	n. f. cstr. gen.	throat	
 167241	u	u	ủ	conj.	or	
 167242	b	b	b	prep.	3) relationship of cause or reason	
+167243	qṭt	qṭ(I)/~t	qṭ (I)	n. m. abs. gen.	flax	
 167243	qṭt	qṭ(t/t	qṭt	n. f. sg. abs. gen.	transgression	
 # KTU 1.40 23						
 167244	tqṭṭn	!t!qṭṭ[n:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
@@ -352,10 +354,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167280	w	w	w	conj.	and	
 167281	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to offer	
 167282	ˤr	ˤr(II)/	ʕr (II)	n. m. sg. cstr. nom.	donkey	
-167283	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. gen.	1) justice	
 167283	mšr	mšr(II)/	mšr (II)	n. sg. cstr. gen.	song	
-167284	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	1) justice	
+167283	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. gen.	1) justice	
 167284	mšr	mšr(II)/	mšr (II)	n. sg. abs. gen.	song	
+167284	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	1) justice	
+167285	bn	b+n	b	prep.	in	
 167285	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	6) member (sg. / pl.) of a group (+ n. pl. / TN)	
 167285	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	6) member (sg. / pl.) of a group (+ n. pl. / TN)	
 167285	bn	bn(II)	bn (II)	prep.	between	
@@ -388,7 +391,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167307	p	p(I)	p (I)	conj. functor	and	
 167307	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167307	p	p(II)	p (II)	adv.	here	
-167308	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
+167308	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	qṭy (I)	
 167309	u	u	ủ	conj.	or	
 167310	l	l(I)	l (I)	prep.	to	
 167311	p	p(I)	p (I)	conj. functor	and	
@@ -420,7 +423,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167327	p	p(I)	p (I)	conj. functor	and	
 167327	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167327	p	p(II)	p (II)	adv.	here	
-167328	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+167328	ġbr	ġbr/	ġbr	TN sg. abs. nom.	used as a coll. name	
 167329	u	u	ủ	conj.	or	
 167330	l	l(I)	l (I)	prep.	to	
 167331	p	p(I)	p (I)	conj. functor	and	
@@ -439,7 +442,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167339	p	p(I)	p (I)	conj. functor	and	
 167339	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167339	p	p(II)	p (II)	adv.	here	
-167340	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
+167340	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	only in ritual ctx	
 167341	u	u	ủ	conj.	or	
 167342	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 167342	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
@@ -449,6 +452,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167345	b	b	b	prep.	in	
 167346	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
 167346	apkm	ap(II)/+km	ảp (II)	n. m. cstr. nom.	nose	
+167346	apkm	ap(q&k/~m	ảpq	n. m. abs. nom.	spring	
 167347	u	u	ủ	conj.	or	
 167348	b	b	b	prep.	in	
 167349	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
@@ -511,10 +515,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167392	ṯb	ṯb[	/ṯ-b/	vb G impv. 2	to return, turn round, go back, make one’s way, go through	
 167393	l	l(I)	l (I)	prep.	to	
 167394	mspr	mspr/	mspr	n. m. sg. cstr. gen.	recitation	
-167395	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. gen.	justice	
 167395	mšr	mšr(II)/	mšr (II)	n. sg. cstr. gen.	song	
-167396	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. gen.	justice	
+167395	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. gen.	justice	
 167396	mšr	mšr(II)/	mšr (II)	n. sg. cstr. gen.	song	
+167396	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. gen.	justice	
 167397	bnt	b&nt(I)/	bt (I)	n. f. pl. cstr. gen.	4) member of a group (+ TN)	
 167397	bnt	bn(t(II)/t	bnt (II)	n. f. sg. cstr. gen.	produce	
 167397	bnt	bn(t(I)/t	bnt (I)	n. f. sg. cstr. gen.	masonry	
@@ -574,7 +578,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167433	p	p(I)	p (I)	conj. functor	and	
 167433	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167433	p	p(II)	p (II)	adv.	here	
-167434	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+167434	ġbr	ġbr/	ġbr	TN sg. abs. nom.	used as a coll. name	
 167435	u	u	ủ	conj.	or	
 167436	l	l(I)	l (I)	prep.	to	
 167437	p	p(I)	p (I)	conj. functor	and	
@@ -592,7 +596,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167445	p	p(I)	p (I)	conj. functor	and	
 167445	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 167445	p	p(II)	p (II)	adv.	here	
-167446	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
+167446	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	only in ritual ctx	
 # KTU 1.40 39						
 167447	l	l(I)	l (I)	prep.	to	
 167447	l	l(II)	l (II)	adv.	no	
@@ -603,14 +607,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 167450	b	b	b	prep.	in	
 167451	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
 167451	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. nom.	nose	
-167451	apkn	ap(q&k/+n	ảpq	n. m. cstr. nom.	spring	
+167451	apkn	ap(q&k/~n	ảpq	n. m. abs. nom.	spring	
 167452	u	u	ủ	conj.	or	
 167453	b	b	b	prep.	in	
 167454	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
 167455	npškn	npš(I)/+kn	npš (I)	n. f. cstr. gen.	throat	
-167455	npškn	npš(I)&k/+n	npš (I)	n. f. cstr. gen.	throat	
 167456	u	u	ủ	conj.	or	
 167457	b	b	b	prep.	in	
+167458	qṭt	qṭ(I)/~t	qṭ (I)	n. m. abs. gen.	flax	
 167458	qṭt	qṭ(t/t	qṭt	n. f. sg. abs. gen.	transgression	
 # KTU 1.40 40						
 167459	tqṭṭn	!t!qṭṭ[n:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	

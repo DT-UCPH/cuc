@@ -43,7 +43,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177957	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 177957	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 # KTU 2.44 10						
-177958	hmt	hmt	hmt	pers. pn.		
+177958	hmt	hmt	hmt	pers. pn.	p. pn. obl	
+177958	hmt	hm(I)~t	hm (I)	pers. pn.	they	
+177958	hmt	hm(II)~t	hm (II)	conj./interr. functor	if	
 177959	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. nom.	Baʿlu/Baal	
 177959	bˤl	bˤl(II)/	bʕl (II)	DN sg. cstr. nom.	Baʿlu/Baal	
 177960	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -58,7 +60,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177966	xxxxy	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.44 14						
 177967	xxxx	?	?	?	?	
-177968	ṯtyy	ṯtyy/	ṯtyy	PN sg. abs. nom.	Seth	
+177968	ṯtyy	ṯtyy/	ṯtyy	PN sg. abs. nom.	ṯtyy	
 # KTU 2.44 15						
 177969	xxxxkdy	?	?	?	?	DULAT: NOT FOUND
 177970	w	w	w	conj.	and	

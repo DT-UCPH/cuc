@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.48 1						
 168225	xxx	?	?	?	?	
-168226	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+168226	ˤṣrm	ˤṣr(I)/~m	ʕṣr (I)	n. f. abs. nom.	bird	
 # KTU 1.48 2						
 168227	xx	?	?	?	?	
 168228	ṯpḥ	ṯpḥ/	ṯpḥ	n. m. sg. cstr. nom.	stock	
@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168230	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	
 168230	ṯlṯ	ṯlṯ(V)/	ṯlṯ (V)	n. m. sg. abs. nom.	copper	
 168230	ṯlṯ	ṯlṯ(II)/	ṯlṯ (II)	adj. m. sg. abs. nom.	third	
-168231	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	2) espec. domestic fowl	
+168231	ˤṣrm	ˤṣr(I)/~m	ʕṣr (I)	n. f. abs. nom.	2) espec. domestic fowl	
 # KTU 1.48 4						
 168232	l	l(I)	l (I)	prep.	to	
 168233	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. gen.	1) lady a) bʕlt bhtm “Lady of the Palace”	
@@ -28,7 +28,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168239	xxx	?	?	?	?	
 168240	pixxn	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 7						
-168241	ṯpš	ṯpš/	ṯpš	n. f. sg. cstr. nom.		
+168241	ṯpš	ṯpš/	ṯpš	n. f. sg. cstr. nom.	a kind of bird (?)	
 168242	šnˤt	šnˤ(t/t	šnʕt	n. f. sg. cstr. gen.	?	
 168243	yqš	yqš(II)/	yqš (II)	n. m. cstr. gen.	game	
 # KTU 1.48 8						
@@ -44,14 +44,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168250	pxxxrt	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 11						
 168251	ṯn	ṯn(I)/	ṯn (I)	num.	4) adv. use	
-168251	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 168252	xxxxxl	?	?	?	?	DULAT: NOT FOUND
 168253	rdx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.48 12						
 168254	aḥt	aḥ(d/t	ảḥd	adj. f. sg. abs. nom.	one	
 168255	ḫmxxx	?	?	?	?	DULAT: NOT FOUND
 168256	ṯn	ṯn(I)/	ṯn (I)	num.	4) adv. use	
-168256	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 # KTU 1.48 13						
 168257	b	b	b	prep.	in	
 168258	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
@@ -80,6 +78,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168269	mkt	mkt/	mkt	n. m. sg. cstr. gen.	immolation	
 168270	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
 168270	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
+168270	ġr	ġr(II)/	ġr (II)	n. m. sg. abs. gen.	an installation for the funerary cult	
 # KTU 1.48 16						
 168271	aḥt	aḥ(d/t	ảḥd	adj. f. sg. abs. nom.	one	
 168272	l	l(I)	l (I)	prep.	to	
@@ -88,10 +87,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168274	šd	šd(II)/	šd (II)	n. m. sg. abs. gen.	a strip	
 # KTU 1.48 17						
 168275	arbˤ	arbˤ/	ảrbʕ	num.	four	
-168276	ˤṣrm	ˤṣr(I)/+m(I)	ʕṣr (I)	n. f. cstr. nom.	bird	
+168276	ˤṣrm	ˤṣr(I)/~m	ʕṣr (I)	n. f. cstr. nom.	bird	
 # KTU 1.48 18						
-168277	gt	g(t/t	gt	n. f. sg. abs. nom.	gittu	
-168278	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. nom.	term for the kings of Ugarit	
+168277	gt	g(t/t	gt	n. f. sg. cstr. gen.	gittu	
+168278	ṯrmn	ṯrmn(I)/	ṯrmn (I)	DN sg. abs. gen.	term for the kings of Ugarit	
 # KTU 1.48 19						
 168279	aḥt	aḥ(d/t	ảḥd	adj. f. sg. abs. nom.	one	
 168280	slḫu	slḫu/	slḫủ	TN sg. abs. nom.	slḫủ	
@@ -111,7 +110,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168287		?	?	?	?	
 # KTU 1.48 26						
 168288	t	/t, /t=				DULAT: NOT FOUND
-168288	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.48 27						
 168289		?	?	?	?	
 # KTU 1.48 28						
@@ -126,7 +124,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168294		?	?	?	?	
 # KTU 1.48 33						
 168295	t	/t, /t=				DULAT: NOT FOUND
-168295	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.48 34						
 168296	x	?	?	?	?	
 # KTU 1.48 35						

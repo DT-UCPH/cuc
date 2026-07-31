@@ -3,7 +3,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173543	b	b	b	prep.	in	
 173544	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 173544	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
-173545	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. abs. gen.	where-is-the- Mistress?	
+173545	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. abs. gen.		
 173546	b	b	b	prep.	in	
 173547	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day a) as a date	
 173548	šbˤ	šbˤ(II)/	šbʕ (II)	num.	seventh	
@@ -11,7 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173549	š	š/	š	n. m. sg. abs. nom.	ram	
 173550	l	l(I)	l (I)	prep.	to	
 173551	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
-173552	rˤkt	rˤkt	rʕkt		élément de théonyme composé (?)	
+173552	rˤkt	rˤkt	rʕkt			
 173553	b	b	b	prep.	in	
 173554	xx	?	?	?	?	
 173555	xxx	?	?	?	?	
@@ -31,8 +31,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173564	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh/Shapshu	
 173564	špš	špš/	špš	n. f. sg. abs. nom.	sun	
 173565	w	w	w	conj.	and	
-173566	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 173566	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+173566	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 173567	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 173568	b	b	b	prep.	in	
 173569	šbˤt	šbˤ(I)&t/	šbʕ (I)	num. f.	2) composite numbers b) tens	
@@ -43,13 +43,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173572	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 173573	brr	brr/	brr	adj. m. sg. abs. nom.	pure	
 # KTU 1.119 6						
-173574	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
-173574	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+173574	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. nom.	head of cattle	
+173574	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. nom.	head of cattle	
+173574	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. nom.	power	
 173575	qdš	qdš(II)/	qdš (II)	n. m. sg. abs. nom.	sanctuary	
 173576	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 173576	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	
-173577	gdlt	gdl(t(I)/t	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
-173577	gdlt	gdl(t(I)/t=	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+173577	gdlt	gdlt(I)/	gdlt (I)	n. f. pl. abs. gen.	head of cattle	
+173577	gdlt	gdlt(I)/	gdlt (I)	n. f. sg. abs. gen.	head of cattle	
+173577	gdlt	gdl(t(II)/t	gdlt (II)	n. f. sg. abs. gen.	power	
 173578	l	l(I)	l (I)	prep.	to	
 173579	bˤlm	bˤl(II)/~m	bʕl (II)	n. m. sg. cstr. gen.	Baʿlu/Baal	
 # KTU 1.119 7						
@@ -89,9 +91,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173602	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 173603	b	b	b	prep.	in	
 173604	ṯmnt	ṯmn(I)&t/	ṯmn(y) (I)	num. f.	eight	
-173605	ṯˤšrt	&ṯˤšr(I)&t/	ʕšr(t) (I)	n. m. cstr. nom.	banquet	KTU corrected: ʿšrt
+173605	ṯˤšrt	&ṯˤšr(t(I)/t	ʕšr(t) (I)	n. f. sg. cstr. nom.	banquet	KTU corrected: ʿšrt
 173605	ṯˤšrt	&ṯˤšr(t(II)/t	ʕšrt (II)	n. f. sg. cstr. nom.	group of ten	KTU corrected: ʿšrt
-173606	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. abs. gen.	where-is-the- Mistress?	
+173606	ibˤlt	ibˤlt/	ỉbʕlt	MN sg. abs. gen.		
 # KTU 1.119 12						
 173607	alp	alp(I)/	ảlp (I)	n. m. sg. cstr. nom.	1) (head of) cattle d) sacrificial material	
 173607	alp	alp(I)/	ảlp (I)	n. m. sg. abs. nom.	1) (head of) cattle d) sacrificial material	
@@ -103,9 +105,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173611	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
 # KTU 1.119 13						
 173612	u	u	ủ	conj.	1) or a) simple disj. use	
-173613	urm	ur/+m(I)	ủr	n. m. cstr. nom.	2) type of sacrifice	
+173613	urm	ur/~m	ủr	n. m. abs. nom.	2) type of sacrifice	
 173614	u	u	ủ	conj.	1) or a) simple disj. use	
-173615	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	wave- offering	
+173615	šnpt	šnp(t/t	šnpt	n. f. sg. abs. nom.	unspecified type of general offering	
 173616	l	l(I)	l (I)	prep.	to	
 173616	l	l(II)	l (II)	adv.	no	
 173616	l	l(III)	l (III)	functor	certainly	
@@ -117,7 +119,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173620	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 173621	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	6) (piece of) offal	
 173622	l	l(I)	l (I)	prep.	to	
-173623	išḫry	išḫry/	ỉ/ủšḫry	DN sg. cstr. gen.	ỉ/ủšḫry	
+173623	išḫry	išḫry/	ỉ/ủšḫry	DN sg. cstr. gen.	Hurro-Mesop. deity	
 # KTU 1.119 15						
 173624	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	throat	
 173625	l	l(I)	l (I)	prep.	to	
@@ -133,7 +135,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.119 18						
 173633	xl	?	?	?	?	DULAT: NOT FOUND
 173634	ṯn	ṯn(I)/	ṯn (I)	num.	two	
-173634	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 173635	xxx	?	?	?	?	
 173636	xxx	?	?	?	?	
 173637	xxxx	?	?	?	?	
@@ -173,8 +174,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173664	x	?	?	?	?	
 # KTU 1.119 24						
 173665	w	w	w	conj.	and	
-173666	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 173666	ḥl	ḥl(I)/	ḥl (I)	n. m. sg. abs. nom.	strength	
+173666	ḥl	ḥl(II)/	ḥl (II)	adj. m. sg. abs. nom.	desacralised	
 173667	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 173668	hn	hn	hn	functor	1) as a deictic functor	
 173669	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	1) oil a) oil (prob. olive oil)	
@@ -219,7 +220,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173689	ˤz	ˤz(III)/	ʕz (III)	adj. m. sg. abs. nom.	strong	
 173689	ˤz	ˤz(I)/	ʕz (I)	n. m. sg. abs. nom.	strength	
 173690	l	l(I)	l (I)	prep.	to	
-173691	ṯġrn	ṯġr(I)/+n	ṯġr (I)	n. m. cstr. gen.	gate	
+173691	ṯġrn	ṯġr(I)/~n	ṯġr (I)	n. m. abs. gen.	gate	
 # KTU 1.119 29						
 173692	y	y	y	prep. functor	oh!	
 173693	qrd	qrd(I)/	qrd (I)	n. m. sg. abs. nom.	hero	
@@ -241,7 +242,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173704	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 173705	nšqdš	!n!]š]qdš[	/q-d-š/	vb Š prefc. 1 c. pl.	to consecrate	
 # KTU 1.119 32						
-173706	ḥtp	ḥtp/	ḥtp	n. m. sg. cstr. nom.	Speisen	
+173706	ḥtp	ḥtp/	ḥtp	n. m. sg. cstr. nom.	a type of sacrifice	
 173707	bˤl	bˤl(II)/	bʕl (II)	n. m. pl. abs. gen.	Baʿlu/Baal	
 173707	bˤl	bˤl(II)/	bʕl (II)	n. m. sg. abs. gen.	Baʿlu/Baal	
 173708	nmlu	!n!ml(ʔ[&u:d	/m-l-ʔ/	vb D prefc. 1 c. pl.	to fill (up)	

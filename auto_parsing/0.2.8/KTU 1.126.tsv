@@ -4,7 +4,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 2						
 173859	xxx	?	?	?	?	
 173860	anp	anp(I)	ảp (I)	adv./conj.	also	Based on DULAT reconstruction.
-173860	anp	a&np(II)/	ảp (II)	n. m. abs. nom.	1) nose	Based on DULAT reconstruction.
+173860	anp	a&np(II)/	ảp (II)	n. m. abs. nom.	nose	Based on DULAT reconstruction.
 173860	anp	anp	ảnp	→	?	
 # KTU 1.126 3						
 173861	xxx	?	?	?	?	
@@ -75,6 +75,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.126 22						
 173897	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	1) day d) in conj. with (vb) expressions (when)	
 173897	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	1) day d) in conj. with (vb) expressions (when)	
+173897	ym	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu/the god “Sea”	
 173897	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 173898	w	w	w	conj.	and	
 173899	yṣ	?	?	?	?	DULAT: NOT FOUND

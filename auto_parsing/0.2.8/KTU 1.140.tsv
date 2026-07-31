@@ -8,7 +8,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174367	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to), bear	
 174367	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to), bear	
 174368	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	1) woman	
-174368	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	1) woman	
 # KTU 1.140 2						
 174369	ḥwt	ḥw(t/t	ḥwt	n. f. sg. abs. gen.	country	
 # KTU 1.140 3						
@@ -21,8 +20,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174371	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 174372	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
 174372	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
-174372	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
-174372	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	
 # KTU 1.140 4						
 174373	yˤzz	!y!ˤz[z	/ʕ-z(-z)/	vb G prefc. 3 m. sg.	to be strong, have power	
 174374	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
@@ -39,7 +36,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174377	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
 174377	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 174378	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
-174378	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
 # KTU 1.140 6						
 174379	ḥwt	ḥw(t/t	ḥwt	n. f. sg. cstr. gen.	country	
 174380	ib	ib(I)/	ỉb (I)	n. m. sg. abs. gen.	enemy	
@@ -61,7 +57,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174383	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
 174383	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 174384	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
-174384	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
 # KTU 1.140 8						
 174385	ˤḏrt	ˤḏr(t/t	ʕḏrt	n. f. sg. abs. gen.	help	
 174386	tkn	!t!kn[	/k-n/	vb G prefc.	to be (stable), have	
@@ -74,7 +69,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174388	tld	!t!(yld[:w	/y-l-d/	vb G prefc. 3 m. pl.	to give birth (to)	
 174388	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 174389	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
-174389	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
 # KTU 1.140 10						
 174390	mrḥy	mrḥ/y	mrḥ	n. f. pl. cstr. gen.	lance	
 174391	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
@@ -99,5 +93,3 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 174400	tld	!t===!(yld[	/y-l-d/	vb G prefc. 2 m. pl.	to give birth (to)	
 174401	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	woman	
 174401	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. nom.	woman	
-174401	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	woman	
-174401	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	woman	

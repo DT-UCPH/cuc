@@ -19,7 +19,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177377	šlmk	šlm(III)/+k	šlm (III)	adj. m. cstr. nom.	pure	
 # KTU 2.35 7						
 177378	t	/t, /t=				DULAT: NOT FOUND
-177378	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 177379	tṯṯb	!t!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc.	to send (word), an answer, to answer	
 177380	ly	l(I)+y	l (I)	prep.	to	
 # KTU 2.35 8						
@@ -31,8 +30,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.35 9						
 177383	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 # KTU 2.35 10						
-177384	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-177384	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+177384	n	~n	-n (I)	encl. morph.		
+177384	n		-n (IV)	vb	him/her/it	
 177385	w	w	w	conj.	and	
 177386	ht	ht	ht	adv.	2) conj.	
 # KTU 2.35 11						
@@ -43,8 +42,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.35 13						
 177390	x	?	?	?	?	
 # KTU 2.35 14						
-177391	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-177391	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+177391	n	~n	-n (I)	encl. morph.		
+177391	n		-n (IV)	vb	him/her/it	
 177392	bnš	bnš/	bnš	n. m. sg. cstr. nom.	man	
 177392	bnš	bnš/	bnš	n. m. sg. abs. nom.	man	
 # KTU 2.35 15						

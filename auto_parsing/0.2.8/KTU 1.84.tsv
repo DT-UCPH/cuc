@@ -1,7 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 1						
 169488	t	/t, /t=				DULAT: NOT FOUND
-169488	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 169489	ugrt	ugrt/	ủgrt	TN sg. abs. nom.	Ugarit	
 # KTU 1.84 2						
 169490		?	?	?	?	
@@ -12,6 +11,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.84 3						
 169495	w	w	w	conj.	and	
 169496	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
+169497	ˤrmt	ˤr(I)/m~t	ʕr (I)	n. f. abs. gen.	city	
 169497	ˤrmt	ˤrmt/	ʕrmt	TN sg. abs. gen.	ʿrmt	
 169498	w	w	w	conj.	and	
 169499	npy	npy/	npy	n. m. sg. cstr. nom.	purification	
@@ -26,7 +26,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169506	p	p(I)	p (I)	conj. functor	and	
 169506	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 169506	p	p(II)	p (II)	adv.	here	
-169507	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	il qadita	
+169507	qṭy	qṭy(I)/	qṭy (I)	GN sg. abs. nom.	qṭy (I)	
 169508	u	u	ủ	conj.	or	
 169509	l	l(I)	l (I)	prep.	to	
 169510	p	p(I)	p (I)	conj. functor	and	
@@ -57,7 +57,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169526	p	p(I)	p (I)	conj. functor	and	
 169526	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 169526	p	p(II)	p (II)	adv.	here	
-169527	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+169527	ġbr	ġbr/	ġbr	TN sg. abs. nom.	used as a coll. name	
 169528	u	u	ủ	conj.	or	
 169529	l	l(I)	l (I)	prep.	to	
 169530	p	p(I)	p (I)	conj. functor	and	
@@ -76,7 +76,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169538	p	p(I)	p (I)	conj. functor	and	
 169538	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 169538	p	p(II)	p (II)	adv.	here	
-169539	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
+169539	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	only in ritual ctx	
 169540	u	u	ủ	conj.	or	
 169541	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 169541	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
@@ -85,14 +85,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169543	b	b	b	prep.	in	
 169544	apkn	ap(I)+kn	ảp (I)	adv./conj.	also	
 169544	apkn	ap(II)/+kn	ảp (II)	n. m. cstr. nom.	nose	
-169544	apkn	ap(q&k/+n	ảpq	n. m. cstr. nom.	spring	
+169544	apkn	ap(q&k/~n	ảpq	n. m. abs. nom.	spring	
 169545	u	u	ủ	conj.	or	
 169546	b	b	b	prep.	in	
 169547	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
 169548	npškn	npš(I)/+kn	npš (I)	n. f. cstr. gen.	throat	
-169548	npškn	npš(I)&k/+n	npš (I)	n. f. cstr. gen.	throat	
 169549	u	u	ủ	conj.	or	
 169550	b	b	b	prep.	in	
+169551	qṭt	qṭ(I)/~t	qṭ (I)	n. m. abs. gen.	flax	
 169551	qṭt	qṭ(t/t	qṭt	n. f. sg. abs. gen.	transgression	
 169552	tqṭṭ	!t!qṭṭ[:l	/q-ṭ(-ṭ)/	vb L prefc.	to commit transgression	
 # KTU 1.84 8						
@@ -100,7 +100,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169554	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
 169554	šn	šn(w[:w	/š-n-w/	vb G suffc. 3 m. pl.	to change: a) reflex.	
 169555	ypkn	yp/+kn	yp	n. m. cstr. nom.	dignity	
-169556	ġl	ġl(I)/	ġl (I)	n. m. pl. cstr. nom.	far extent of desert	
+169556	ġl	ġl(I)/	ġl (I)	n. m. pl. cstr. nom.	term for a type of terrain	
 169557	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 169557	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 169557	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	
@@ -180,7 +180,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169606	p	p(I)	p (I)	conj. functor	and	
 169606	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 169606	p	p(II)	p (II)	adv.	here	
-169607	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+169607	ġbr	ġbr/	ġbr	TN sg. abs. nom.	used as a coll. name	
 169608	u	u	ủ	conj.	or	
 169609	l	l(I)	l (I)	prep.	to	
 169610	p	p(I)	p (I)	conj. functor	and	
@@ -246,7 +246,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169648	p	p(I)	p (I)	conj. functor	and	
 169648	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 169648	p	p(II)	p (II)	adv.	here	
-169649	ġbr	ġbr/	ġbr	TN sg. abs. nom.	nom propre	
+169649	ġbr	ġbr/	ġbr	TN sg. abs. nom.	used as a coll. name	
 169650	u	u	ủ	conj.	or	
 169651	l	l(I)	l (I)	prep.	to	
 169652	p	p(I)	p (I)	conj. functor	and	
@@ -264,7 +264,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169660	p	p(I)	p (I)	conj. functor	and	
 169660	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 169660	p	p(II)	p (II)	adv.	here	
-169661	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	Fürstenquelle	
+169661	qrzbl	qrzbl/	qrzbl	TN sg. abs. nom.	only in ritual ctx	
 # KTU 1.84 22						
 169662	u	u	ủ	conj.	or	
 169663	šn	šn(w[	/š-n-w/	vb G suffc. 3 m. sg.	to change: a) reflex.	
@@ -273,12 +273,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169665	b	b	b	prep.	in	
 169666	apkm	ap(I)+km	ảp (I)	adv./conj.	also	
 169666	apkm	ap(II)/+km	ảp (II)	n. m. cstr. nom.	nose	
+169666	apkm	ap(q&k/~m	ảpq	n. m. abs. nom.	spring	
 169667	u	u	ủ	conj.	or	
 169668	b	b	b	prep.	in	
 169669	qṣrt	qṣr(t/t	qṣrt	n. f. sg. cstr. gen.	shortness	
 169670	npškm	npš(I)/+km	npš (I)	n. f. cstr. gen.	throat	
 169671	u	u	ủ	conj.	or	
 169672	b	b	b	prep.	in	
+169673	qṭt	qṭ(I)/~t	qṭ (I)	n. m. abs. gen.	flax	
 169673	qṭt	qṭ(t/t	qṭt	n. f. sg. abs. gen.	transgression	
 # KTU 1.84 23						
 169674	x	?	?	?	?	
@@ -318,10 +320,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169692		?	?	?	?	
 # KTU 1.84 38						
 169693		?	?	?	?	
-169694	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. nom.	1) justice	
 169694	mšr	mšr(II)/	mšr (II)	n. sg. cstr. nom.	song	
-169695	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	1) justice	
+169694	mšr	mšr(I)/	mšr (I)	n. m. sg. cstr. nom.	1) justice	
 169695	mšr	mšr(II)/	mšr (II)	n. sg. abs. gen.	song	
+169695	mšr	mšr(I)/	mšr (I)	n. m. sg. abs. gen.	1) justice	
 # KTU 1.84 39						
 169696	y	~y	-y (II)	prep. functor	indeed	
 169696	y	y	y	prep. functor	oh!	

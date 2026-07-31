@@ -5,12 +5,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173332	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 # KTU 1.115 2						
 173333	l	l(I)	l (I)	prep.	to	
-173334	ušḫr	ušḫr/	ủšḫr	DN sg. cstr. gen.	Snake	
+173334	ušḫr	ušḫr/	ủšḫr	DN sg. cstr. gen.	ủšḫr	
 173335	ḫlmẓ	ḫlmẓ/	ḫlmẓ	n. m. sg. abs. gen.	Snake	
 # KTU 1.115 3						
 173336	l	l(I)	l (I)	prep.	to	
-173337	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	superintendent	
-173337	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
+173337	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	protective deity of the palace / dynasty	
+173337	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	residence of the god ršp	
 173338	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 173339	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 # KTU 1.115 4						
@@ -41,7 +41,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173356	tlḥm	!t!lḥm[:w	/l-ḥ-m/ (I)	vb G prefc. 3 m. pl.	1) to eat	
 173356	tlḥm	!t===!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 2 m. pl.	1) to eat	
 173357	aṯt	aṯ(t/t	ảṯt	n. f. sg. cstr. nom.	1) woman	
-173357	aṯt	aṯ(t/t=	ảṯt	n. f. pl. cstr. nom.	1) woman	
 # KTU 1.115 9						
 173358	š	š/	š	n. m. sg. abs. gen.	ram	
 173359	l	l(I)	l (I)	prep.	to	
@@ -49,7 +48,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173361	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 173362	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. gen.	communion victim / sacrifice	
 173362	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
-173362	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. gen.	communion victim / sacrifice	
 # KTU 1.115 10						
 173363	kll	kll/	kll	n. m. sg. abs. gen.	totality	
 173364	ylḥm	!y!lḥm(I)[:d	/l-ḥ-m/ (I)	vb D prefc. 3 m. sg.	1) to eat	
@@ -57,14 +55,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.115 11						
 173366	w	w	w	conj.	and	
 173367	l	l(I)	l (I)	prep.	to	
-173368	bbt	bbt(II)/	bbt (II)	DN sg. cstr. gen.	superintendent	
-173368	bbt	bbt(I)/	bbt (I)	TN sg. cstr. gen.	bbt (I)	
-173369	šqym	šqy/m	šqy	n. m. pl. cstr. gen.	cupbearer	
-173369	šqym	šqy/m	šq	n. m. pl. cstr. gen.	thigh	
+173368	bbt	bbt(II)/	bbt (II)	DN sg. abs. gen.	protective deity of the palace / dynasty	
+173368	bbt	bbt(I)/	bbt (I)	TN sg. abs. gen.	residence of the god ršp	
+173369	šqym	šqy[~m	/š-q-y/	vb G suffc.	to offer (something to) drink	
+173369	šqym	šqy/m	šqy	n. m. pl. abs. nom.	cupbearer	
+173369	šqym	šqy/m	šq	n. m. pl. abs. nom.	thigh	
 # KTU 1.115 12						
-173370	š	š/	š	n. m. sg. abs. gen.	ram	
+173370	š	š/	š	n. m. sg. abs. nom.	ram	
 173371	l	l(I)	l (I)	prep.	to	
-173372	ušḫr	ušḫr/	ủšḫr	DN sg. cstr. gen.	Snake	
+173372	ušḫr	ušḫr/	ủšḫr	DN sg. cstr. gen.	ủšḫr	
 173373	ḫlmẓ	ḫlmẓ/	ḫlmẓ	n. m. sg. abs. gen.	Snake	
 # KTU 1.115 13						
 173374	w	w	w	conj.	and	

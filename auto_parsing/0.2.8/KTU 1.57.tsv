@@ -1,6 +1,6 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.57 1						
-168432	ltm	lt+m(I)	lt	?	?	
+168432	ltm	lt~m	lt	?	?	
 168433	r	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.57 2						
 168434	x	?	?	?	?	
@@ -25,7 +25,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 168447	x	?	?	?	?	
 # KTU 1.57 8						
 168448	x	?	?	?	?	
-168449	nn	nn/	nn	PN sg. abs. nom.	nn	
+168449	nn	!n!n(n[	nn	vb	Energikusmorphem+ Objektsuffix 3.m./f.sg	LUPT lemma
 # KTU 1.57 9						
 168450	x	?	?	?	?	
 168451	mgx	?	?	?	?	DULAT: NOT FOUND

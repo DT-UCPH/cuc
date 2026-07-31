@@ -38,7 +38,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.3 8						
 175849	w	w	w	conj.	and	
 175850	hm	hm(II)	hm (II)	conj./interr. functor	1) if (conj.)	
-175851	at	at(I)	ảt (I)	pers. pn.	1) you b) emph. subj. in VC	
+175851	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	1) you b) emph. subj. in VC	
 175852	trgm	!t=!rgm[	/r-g-m/	vb G prefc. 2 m. sg.	to say, tell, announce, communicate, inform	
 175852	trgm	!t==!rgm[	/r-g-m/	vb G prefc. 2 f. sg.	to say, tell, announce, communicate, inform	
 # KTU 2.3 9						
@@ -55,8 +55,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175860	ank	ank	ảnk	pers. pn.	I	
 175861	nˤkn	nˤkn	nʕkn	?		
 # KTU 2.3 12						
-175862	kst	ks(t/t	kst	n. f. sg. abs. nom.	Gewand	
-175862	kst	ks(t/t=	kst	n. f. pl. abs. nom.	Gewand	
+175862	kst	ks(t/t	kst	n. f. sg. abs. nom.	a type of robe or cloak	
 175863	lxk	?	?	?	?	DULAT: NOT FOUND
 175864	x	?	?	?	?	
 # KTU 2.3 13						
@@ -96,7 +95,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175882	w	w	w	conj.	and	
 175883	hm	hm(II)	hm (II)	conj./interr. functor	if	
 175883	hm	hm(I)	hm (I)	pers. pn.	they	
-175884	at	at(I)	ảt (I)	pers. pn.	you	
+175884	at	at(I)	ảt (I)	pers. pn. m./pers. pn. f.	you	
 175885	trgm	!t=!rgm[	/r-g-m/	vb G prefc. 2 m. sg.	to say	
 175885	trgm	!t==!rgm[	/r-g-m/	vb G prefc. 2 f. sg.	to say	
 # KTU 2.3 19						

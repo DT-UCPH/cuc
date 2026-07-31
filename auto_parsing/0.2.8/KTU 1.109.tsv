@@ -37,7 +37,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172707	k	k(II)	k (II)	emph. functor	yes	
 172708	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
 172709	l	l(I)	l (I)	prep.	to	
-172710	rmš	rmš/	rmš	DN sg. abs. gen.	rmš	
+172710	rmš	rmš/	rmš	DN sg. abs. gen.	unknown deity	
 # KTU 1.109 8						
 172711	w	w	w	conj.	and	
 172712	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	total (quantity or price)	
@@ -61,15 +61,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172722	bˤl	bˤl(II)/	bʕl (II)	DN pl. cstr. gen.	Baʿlu/Baal	
 172723	ṣpn	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 # KTU 1.109 10						
-172724	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-172724	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+172724	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+172724	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+172724	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 172725	l	l(I)	l (I)	prep.	to	
 172726	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 172727	šrp	šrp/	šrp	n. m. sg. abs. gen.	burnt sacrifice	
 172728	w	w	w	conj.	and	
 172729	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 172729	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-172729	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 # KTU 1.109 11						
 172730	kmm	kmm	kmm	adv.	ditto	
 172731	w	w	w	conj.	and	
@@ -108,7 +108,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172753	w	w	w	conj.	and	
 172754	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. cstr. nom.	communion victim / sacrifice	
 172754	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
-172754	šlmm	šlm(II)/m	šlm (II)	n. m. pl. cstr. nom.	communion victim / sacrifice	
 172755	ilib	ilib(I)/	ỉlỉb (I)	DN sg. cstr. gen.	father god	
 172756	š	š/	š	n. m. sg. cstr. gen.	ram	
 # KTU 1.109 16						
@@ -168,26 +167,25 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 23						
 172794	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. gen.	communion victim / sacrifice	
 172794	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
-172794	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. gen.	communion victim / sacrifice	
 # KTU 1.109 24						
 172795	w	w	w	conj.	and	
-172796	šnpt	šnp(t/t	šnpt	n. f. sg. cstr. nom.	wave- offering	
+172796	šnpt	šnp(t/t	šnpt	n. f. sg. cstr. nom.	unspecified type of general offering	
 172797	il	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
 172797	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	
 172798	š	š/	š	n. m. sg. abs. gen.	ram	
 # KTU 1.109 25						
 172799	l	l(I)	l (I)	prep.	to	
 172800	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. cstr. gen.	ʿAnatu/Anat	
-172801	ḥlš	ḥlš/	ḥlš	n. m. sg. abs. gen.	appellative or place name	
-172802	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+172801	ḥlš	ḥlš/	ḥlš	n. m. sg. abs. gen.	appellative of the goddess ʕnt	
 172802	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 172802	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+172802	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 172803	šm	š/m	š	n. m. pl. abs. nom.	ram	
 172803	šm	šm(I)/	šm (I)	n. m. sg. abs. nom.	name	
 # KTU 1.109 26						
 172804	l	l(I)	l (I)	prep.	to	
-172805	gṯrm	gṯr/+m(I)	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
-172806	ġṣb	ġṣb/	ġṣb	n. m. sg. abs. nom.	abundance of the fur	
+172805	gṯrm	gṯr/~m	gṯr	DN sg. cstr. gen.	Gaṯaru/Gašru/eponym of the dead and deified kings	
+172806	ġṣb	ġṣb/	ġṣb	n. m. sg. abs. gen.	fold of a bull’s body	
 172807	šmal	šmal/	šmảl	adj. m. sg. abs. nom.	1) left	
 # KTU 1.109 27						
 172808	d	d	d	det. or rel. functor	1) the one(s) of b) det. of property	
@@ -203,7 +201,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172815	w	w	w	conj.	and	
 172816	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 172816	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-172816	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
 172817	kmm	kmm	kmm	adv.	ditto	
 # KTU 1.109 29						
 172818	l	l(I)	l (I)	prep.	to	
@@ -212,7 +209,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172821	b	b	b	prep.	in	
 172822	ˤrˤr	ˤrˤr/	ʕrʕr	n. m. sg. cstr. gen.	tamarisk	
 # KTU 1.109 30						
-172823	pamt	pam(t/t	pảm(t)	n. f. sg. abs. gen.	time	
+172823	pamt	pam(t/t=	pảm(t)	n. f. pl. abs. gen.	time	
 172824	ṯlṯm	ṯlṯm/	ṯlṯm	num.	thirty	
 172825	š	š/	š	n. m. sg. abs. nom.	1) ram b) as a sacrificial victim	
 172826	l	l(I)	l (I)	prep.	to	
@@ -235,8 +232,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172836	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 172837	ḫlb	ḫlb(I)/	ḫlb (I)	n. m. sg. abs. gen.	massif	
 172838	txxḥd	?	?	?	?	DULAT: NOT FOUND
-172839	dqt	dq(t(I)/t	dqt (I)	adj. f. sg. abs. nom.	small	
-172839	dqt	dq(t(I)/t=	dqt (I)	adj. f. pl. abs. nom.	small	
+172839	dqt	dqt(I)/	dqt (I)	adj. f. pl. abs. nom.	small	
+172839	dqt	dqt(I)/	dqt (I)	adj. f. sg. abs. nom.	small	
+172839	dqt	dq(t(II)/t	dqt (II)	n. f. sg. abs. nom.	manufacture	
 # KTU 1.109 34						
 172840	l	l(I)	l (I)	prep.	to	
 172841	ṣpn	ṣpn/	ṣpn	TN/DN sg. cstr. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
@@ -260,4 +258,3 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.109 37						
 172855	šlmm	šlm(II)/~m	šlm (II)	n. m. sg. abs. nom.	communion victim / sacrifice	
 172855	šlmm	šlm(II)/~m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	
-172855	šlmm	šlm(II)/m	šlm (II)	n. m. pl. abs. nom.	communion victim / sacrifice	

@@ -27,7 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173514	w	w	w	conj.	and	
 173515	šmm	šm(m(I)/m	šmm (I)	n. m. pl. cstr. nom.	2) DN “Heavens”	
 # KTU 1.118 12						
-173516	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	ḥbl kṯrt the band / flock of the DNN	
+173516	kṯrt	kṯrt/	kṯrt	DN pl. cstr. gen.	goddesses who preside over childbirth	
 # KTU 1.118 13						
 173517	yrḫ	yrḫ/	yrḫ	DN m. sg. cstr. gen.	Yariḫu/Yarikh	
 173517	yrḫ	yrḫ/	yrḫ	n. m. sg. cstr. gen.	moon	
@@ -42,7 +42,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.118 18						
 173522	ġrm	ġr(I)/m	ġr (I)	n. m. pl. abs. gen.	2) DN “Mountain(s)”	
 173523	w	w	w	conj.	and	
-173524	ˤmqt	ˤmq(I)/t	ʕmq (I)	n. f. sg. cstr. nom.	valley	
+173524	ˤmqt	ˤmq(I)/t=	ʕmq (I)	n. m. pl. cstr. nom.	valley	
 # KTU 1.118 19						
 173525	aṯrt	aṯr(t(I)/t	ảṯrt (I)	n. f. sg. cstr. gen.	back part (of the head)	
 # KTU 1.118 20						
@@ -54,7 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173528	arṣy	arṣ/+y	ảrṣ	n. f. cstr. gen.	earth	
 173528	arṣy	arṣy/	ảrṣy	DN sg. cstr. gen.	Arṣay/Arsay	
 # KTU 1.118 23						
-173529	ušḫry	ušḫry/	ỉ/ủšḫry	DN sg. cstr. gen.	ỉ/ủšḫry	
+173529	ušḫry	ušḫry/	ỉ/ủšḫry	DN sg. cstr. gen.	Hurro-Mesop. deity	
 # KTU 1.118 24						
 173530	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. cstr. gen.	ʿṯtrt (II)	
 # KTU 1.118 25						
@@ -72,6 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173537	ilm	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 # KTU 1.118 29						
 173538	ym	ym(I)/	ym (I)	n. m. sg. cstr. gen.	day	
+173538	ym	ym(II)/	ym (II)	DN m. sg. cstr. gen.	Yammu/the god “Sea”	
 173538	ym	ym(II)/	ym (II)	n. m. sg. cstr. gen.	sea	
 # KTU 1.118 30						
 173539	uṯḫt	uṯḫ(t/t	ủṯḫt	DN/n. f. sg. cstr. gen.	incense burner	

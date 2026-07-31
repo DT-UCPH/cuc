@@ -15,7 +15,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180970	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place, set, set up, leave	
 180970	št	št[	/š-t/	vb G impv. 2	to place, set, set up, leave	
 180970	št	št[:pass	/š-t/	vb Gpass suffc.	to cause, leave (in a condition)	
-180970	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 180971	ibsn	ibsn/	ỉbsn	n. m. sg. abs. nom.	warehouse	
 # KTU 3.9 6						
 180972	lwkmwkm	?	?	?	?	DULAT: NOT FOUND
@@ -34,7 +33,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180979	isˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 3.9 11						
 180980	w	w	w	conj.	and	
-180981	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. nom.	heavens	
+180981	šmmn	šm(m(I)/m~n	šmm (I)	n. m. pl. abs. nom.	heavens	
 # KTU 3.9 12						
 180982	rb	rb(II)/	rb (II)	n. m. sg. abs. nom.	chief	
 180982	rb	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief	
@@ -60,16 +59,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180988	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to said, recited	
 180989	l	l(I)	l (I)	prep.	to	
 # KTU 3.9 15						
-180990	šmmn	šm(m(I)/m+n	šmm (I)	n. m. pl. cstr. gen.	heavens	
+180990	šmmn	šm(m(I)/m~n	šmm (I)	n. m. pl. abs. gen.	heavens	
 180991	tn	(ytn[	/y-t-n/	vb	give	
-180991	tn	(ytn[/	/y-t-n/	vb	give	
 # KTU 3.9 16						
 180992	ksp	ksp/	ksp	n. m. sg. cstr. nom.	silver	
 180993	ṯql	ṯql/	ṯql	n. m. sg. abs. gen.	1) unit of weight b) esp. shekel of silver	
 180994	d	d	d	det. or rel. functor	2) which	
 180995	ˤmnk	ˤm(I)+nk	ʕm (I)	prep.	3) commercial meaning	
 # KTU 3.9 17						
-180996	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	1) unit of weight b) esp. shekel of silver	
+180996	ṯqlm	ṯql/~m	ṯql	n. m. abs. nom.	1) unit of weight b) esp. shekel of silver	
 180997	ysˤ	!y!(nsˤ(I)[	/n-s-ʕ/ (I)	vb G prefc. 3 m. sg.	to pull out	
 # KTU 3.9 18						
 180998	ypḥ	ypḥ/	ypḥ	n. m. sg. abs. nom.	witness	

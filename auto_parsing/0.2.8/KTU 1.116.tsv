@@ -16,7 +16,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173385	grn	grn(I)/	grn (I)	n. m. sg. abs. nom.	threshing-floor	
 173385	grn	grn(II)/	grn (II)	adj. m. sg. abs. nom.	current	
 # KTU 1.116 3						
-173386	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
+173386	aṯḫlm	aṯḫlm	ảṯḫlm		a type of ritual	
 173387	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN sg. cstr. nom.	ṯủṯk	
 # KTU 1.116 4						
 173388	agndy	?	?	?	?	DULAT: NOT FOUND
@@ -38,9 +38,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173398	nbdgd	nbdg/+d	nbdg	DN sg. cstr. nom.	nbdg	
 173399	w	w	w	conj.	and	
 173400	l	l(I)	l (I)	prep.	to	
-173401	bbtm	bbt(II)/~m	bbt (II)	DN pl. abs. gen.	superintendent	
+173401	bbtm	bbt(II)/~m	bbt (II)	DN pl. abs. gen.	protective deity of the palace / dynasty	
 # KTU 1.116 9						
-173402	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
+173402	aṯḫlm	aṯḫlm	ảṯḫlm		a type of ritual	
 173403	ṯuṯk	ṯuṯk/	ṯủṯk	DN sg. abs. nom.	ṯủṯk	
 173404	tizr	!t!(ʔ&izr[:pass	/ʔ-z-r/	vb Gpass prefc.	to be girded, veiled	
 173405	pnm	pn(m/m	pnm	n. m. pl. abs. nom.	3) adv. use b) l pnm “in front” (cf. Hb. l pnym )	
@@ -48,7 +48,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173406	w	w	w	conj.	and	
 173407	b	b	b	prep.	in	
 173408	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
-173409	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
+173409	aṯḫlm	aṯḫlm	ảṯḫlm		a type of ritual	
 # KTU 1.116 11						
 173410	inṯt	?	?	?	?	DULAT: NOT FOUND
 173411	ṯlnnṯtm	?	?	?	?	DULAT: NOT FOUND
@@ -76,11 +76,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 173426	ˤntd	ˤnt(I)/+d	ʕnt (I)	DN sg. cstr. nom.	ʿAnatu/Anat	
 173426	ˤntd	ˤn(II)/t+d	ʕn (II)	n. f. sg. cstr. nom.	furrow	
 173426	ˤntd	ˤnt(II)+d	ʕnt (II)	adv.	now	
-173427	ṯmgnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯmg - ṯmg
+173427	ṯmgnd	?	?	?	?	DULAT candidates (no reconstructable encoding): ṯmg - the sun deity in Hurr. mythology
 # KTU 1.116 18						
 173428	pḏḏpḫnd	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 19						
-173429	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Bien-amada
+173429	ḫbtd	?	?	?	?	DULAT candidates (no reconstructable encoding): ḫbt (II) - Syro-Hurr. goddess
 173430	dqtd	dqt(I)/+d	dqt (I)	adj. f. cstr. nom.	3) DN < “the Little One”	
 173430	dqtd	dqt(II)/+d	dqt (II)	n. f. cstr. nom.	manufacture	
 # KTU 1.116 20						
@@ -116,7 +116,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.116 30						
 173448	xxxxxtm	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.116 31						
-173449	aṯḫlm	aṯḫlm	ảṯḫlm		sacrifice	
+173449	aṯḫlm	aṯḫlm	ảṯḫlm		a type of ritual	
 173450	ṯuṯkd	ṯuṯk/+d	ṯủṯk	DN sg. cstr. nom.	ṯủṯk	
 173451	nngy	?	?	?	?	DULAT: NOT FOUND
 173452	mlgy	?	?	?	?	DULAT: NOT FOUND

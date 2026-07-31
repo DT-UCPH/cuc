@@ -69,9 +69,10 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177183	w	w	w	conj.	and	
 177184	ašt	!(ʔ&a!št[	/š-t/	vb G prefc. 1 c. sg.	to place, set, set up, leave	
 # KTU 2.33 13						
-177185	ˤnt	ˤn(I)/t	ʕn (I)	n. f. sg. abs. nom.	eye	
+177185	ˤnt	ˤn(I)/t=	ʕn (I)	n. f. pl. abs. nom.	eye	
 177185	ˤnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 177185	ˤnt	ˤnt(II)	ʕnt (II)	adv.	now	
+177185	ˤnt	ˤn(II)/t=	ʕn (II)	n. f. pl. abs. nom.	furrow	
 177186	iġr	iġr	ỉġr	?	?	
 177187	amrk	amr(I)/+k	ảmr (I)	n. m. cstr. nom.	order	
 # KTU 2.33 14						
@@ -83,7 +84,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177193	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	1) king a) human sovereign in gen	
 177194	b	b	b	prep.	in	
 # KTU 2.33 15						
-177195	ṯydr	ṯydr/	ṯydr	TN sg. abs. gen.	from the tribute they have vowed	
+177195	ṯydr	ṯydr/	ṯydr	TN sg. abs. gen.	ṯydr	
 177196	w	w	w	conj.	and	
 177197	ap	ap(I)	ảp (I)	adv./conj.	also	
 177198	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
@@ -92,7 +93,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177200	l	l(I)	l (I)	prep.	to	
 177201	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	
 177201	ġr	ġr(V)/	ġr (V)	n. m. sg. abs. gen.	total	
-177201	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. gen.	skin	
 177202	amn	amn(III)/	ảmn (III)	adj. m. sg. abs. nom.	faithful	
 # KTU 2.33 17						
 177203	xx	?	?	?	?	
@@ -146,8 +146,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177232	rgmt	rgm[t	/r-g-m/	vb G suffc. 1 c. sg.	to say, tell, announce, communicate, inform	
 177233	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
 177233	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
-177233	ˤly	ˤly(I)/	ʕly (I)	adj. m. pl. abs. nom.	most high	
-177233	ˤly	ˤly(I)/	ʕly (I)	adj. m. sg. abs. nom.	most high	
 177234	ṯh	ṯh/	ṯh	n. m. sg. abs. nom.	neighbour	
 177235	lm	l(I)~m	l (I)	prep.	to	
 # KTU 2.33 26						
@@ -161,8 +159,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 177239	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 177240	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
 177240	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
-177240	ˤly	ˤly(I)/	ʕly (I)	adj. m. pl. abs. nom.	most high	
-177240	ˤly	ˤly(I)/	ʕly (I)	adj. m. sg. abs. nom.	most high	
 # KTU 2.33 27						
 177241	w	w	w	conj.	4) declarative and emphatic functor	
 177242	hn	hn	hn	functor	1) as a deictic functor	

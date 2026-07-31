@@ -27,6 +27,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 7						
 171943	b	b	b	prep.	in	
 171944	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	1) day d) in conj. with (vb) expressions (when)	
+171944	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 171944	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 171945	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
 171945	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
@@ -83,15 +84,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 17						
 171975	w	w	w	conj.	and	
 171976	tṯ	?	?	?	?	DULAT: NOT FOUND
-171977	ḥdṯn	ḥdṯ(I)/+n	ḥdṯ (I)	adj. cstr. nom.	new	
-171977	ḥdṯn	ḥdṯ(II)/+n	ḥdṯ (II)	n. m. cstr. nom.	new moon	
+171977	ḥdṯn	ḥdṯ(I)/~n	ḥdṯ (I)	adj. abs. nom.	new	
+171977	ḥdṯn	ḥdṯ(II)/~n	ḥdṯ (II)	n. m. abs. nom.	new moon	
 # KTU 1.104 18						
 171978	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
 171979	w	w	w	conj.	and	
 171980	ḥdṯh	ḥdṯ(II)/+h	ḥdṯ (II)	n. m. cstr. nom.	new moon	
 # KTU 1.104 19						
 171981	tdn	!t!dn[	/d-n/	vb G prefc.	to judge	
-171982	hmt	hmt	hmt	pers. pn.		
+171982	hmt	hm(I)~t	hm (I)	pers. pn.	1) they	
 # KTU 1.104 20						
 171983	w	w	w	conj.	and	
 171984	tštn	!t!št[+n	/š-t/	vb G prefc.	to place, set, set up, leave	
@@ -105,8 +106,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.104 22						
 171990	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 171991	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
-171992	gmlm	gml(II)/+m(I)	gml (II)	n. m. cstr. nom.	together	
-171992	gmlm	gml(I)/+m(I)	gml (I)	n. m. cstr. nom.	first quarter (of the moon)	
+171992	gmlm	gml(II)/~m	gml (II)	n. m. abs. nom.	together	
+171992	gmlm	gml(I)/~m	gml (I)	n. m. abs. nom.	first quarter (of the moon)	
 # KTU 1.104 23						
 171993	ṯmn	ṯmn(I)/	ṯmn(y) (I)	num.	eight	
 171994	urx	?	?	?	?	DULAT: NOT FOUND

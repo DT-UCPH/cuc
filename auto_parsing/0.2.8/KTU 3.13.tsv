@@ -1,7 +1,7 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.13 1						
 181149	xxx	?	?	?	?	
-181150	rušy	ruš/+y	rủš	n. m. cstr. nom.	hurt in the head	
+181150	rušy	ruš/+y	rủš	n. m. cstr. nom.	disease of the head (?)	
 181151	ṯmnym	ṯmnym/	ṯmnym	num.	eighty	
 181152	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
 181153	ḫmšt	ḫmš(I)&t/	ḫmš (I)	num. f.	five	
@@ -94,7 +94,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181189	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 181190	is	is/	ỉs	PN sg. abs. nom.	ỉs	
 181191	arbˤm	arbˤ&m/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
-181192	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
+181192	ṯqlm	ṯql/~m	ṯql	n. m. abs. nom.	shekel	
 181193	w	w	w	conj.	and	
 181194	arbˤ	arbˤ/	ảrbʕ	num.	1) four b) syntagms in apposition / the genitive (Tropper UG 414ff.)	
 181195	yn	yn/	yn	n. m. sg. abs. nom.	3) production and consumption b) in commerce	
@@ -120,7 +120,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181203	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 181203	bn	bn[	/b-n/	vb G impv. 2	to understand	
 181204	agyn	?	?	?	?	DULAT: NOT FOUND
-181205	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	shekel	
+181205	ṯqlm	ṯql/~m	ṯql	n. m. abs. nom.	shekel	
 # KTU 3.13 11						
 181206	ṯṯ	ṯṯ/	ṯṯ	num.	six	
 181207	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
@@ -128,7 +128,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181208	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 181208	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181208	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181209	kdrn	kdr/+n	kdr	n. m. cstr. nom.	trough	
+181209	kdrn	kdr/~n	kdr	n. m. abs. nom.	trough	
 # KTU 3.13 12						
 181210	ˤšr	ˤšr(I)	ʕšr (I)	num.	ten	
 181210	ˤšr	ˤšr[:d	/ʕ-š-r/	vb D suffc. 3 m. sg.	to invite	
@@ -143,7 +143,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181213	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
 181213	ġr	ġr(V)/	ġr (V)	n. m. sg. abs. nom.	total	
 181213	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
-181213	ġr	ġr(II)/	ġr (II)	n. m. sg. abs. nom.		
+181213	ġr	ġr(II)/	ġr (II)	n. m. sg. abs. nom.	an installation for the funerary cult	
 # KTU 3.13 13						
 181214	w	w	w	conj.	and	
 181215	dšn	dšn	dšn			
@@ -181,14 +181,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 3.13 19						
 181235	w	w	w	conj.	and	
 181236	ṯt	ṯt(I)/	ṯn (I)	num. f.	two	
-181237	mqrtm	mqrt/m	mqrt	n. f. pl. abs. nom.	Goblet	
+181237	mqrtm	mqrt/m	mqrt	n. f. pl. abs. nom.	a container or pot	
 # KTU 3.13 20						
 181238	w	w	w	conj.	and	
 181239	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two b) ge	
-181240	irpm	irp/m	ỉrp	n. m. pl. abs. nom.	Zeder(n-holz)	
+181240	irpm	irp/m	ỉrp	n. m. pl. abs. nom.	a vessel or container (?) of cedar wood (?)	
 181241	w	w	w	conj.	and	
 181242	ṯn	ṯn(I)/	ṯn (I)	num.	1) the numeral two b) ge	
-181243	trqm	trq/m	trq	n. m. pl. abs. nom.	(Metall-)Kessel	
+181243	trqm	trq/m	trq	n. m. pl. abs. nom.	a container (?)	
 # KTU 3.13 21						
 181244	w	w	w	conj.	and	
 181245	qpt	qp(t/t	qpt	n. f. sg. abs. nom.	box	

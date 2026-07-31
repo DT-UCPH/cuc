@@ -39,9 +39,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178003	lik	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
 178004	bny	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
 # KTU 2.46 10						
-178005	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. gen.	missive	
-178005	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. gen.	cheek	
-178006	akl	akl(II)/	ảkl (II)	n. m. sg. abs. gen.	grain	
+178005	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	missive	
+178006	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
 178007	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 # KTU 2.46 11						
 178008	midy	mid/+y	mỉ/ủd	n. m. cstr. nom.	1) abundance	
@@ -56,8 +55,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178015	anyt	any(t/t	ảny(t)	n. f. sg. cstr. nom.	1) ship b) ảnyt ym seagoing ship(s)	
 # KTU 2.46 14						
 178016	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+178016	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 178016	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	1) sea	
-178017	yšrn	!y!šr(I)[+n	/š-r/ (I)	vb G prefc. 3 m. sg.	to sing	
+178017	yšrn	!y!šr(I)[~n	/š-r/ (I)	vb G prefc. 3 m. sg.	to sing	
 # KTU 2.46 15						
 178018	w	w	w	conj.	and	
 178019	akl	akl(II)/	ảkl (II)	n. m. sg. abs. nom.	grain	
@@ -72,6 +72,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178024	xxxxx	?	?	?	?	
 178025	ym	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	
 178025	ym	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	
+178025	ym	ym(II)/	ym (II)	DN m. sg. abs. nom.	Yammu/the god “Sea”	
 178025	ym	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	
 # KTU 2.46 20						
 178026	xxxxn	?	?	?	?	DULAT: NOT FOUND
@@ -86,7 +87,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.46 23						
 178033	w	w	w	conj.	and	
 178034	tn	(ytn[	/y-t-n/	vb	give	
-178034	tn	(ytn[/	/y-t-n/	vb	give	
 178035	mxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.46 24						
 178036	xxxrt	?	?	?	?	DULAT: NOT FOUND

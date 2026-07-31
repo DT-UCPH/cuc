@@ -11,15 +11,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161596	mṯkt	mṯk[t	/m-ṯ-k/	vb ptcpl. m. sg. abs. nom.	to carry	
 161596	mṯkt	mṯk[t	/m-ṯ-k/	vb suffc. 1 c. sg.	to carry	
 # KTU 1.15 I:3						
-161597	tṯṯkrnn	!t!](š&ṯ]ṯkr[n+n	/ṯ-k-r/	vb Š prefc.	to deliver (in payment or tribute)	
+161597	tṯṯkrnn	!t!](š&ṯ]ṯkr[n~n	/ṯ-k-r/	vb Š prefc.	to deliver (in payment or tribute)	
 161598	ˤbdn	ˤbd(I)/+n	ʕbd (I)	n. m. pl. cstr. nom.	2) servant (said of a special class of mercenaries or subordinate employees)	
 # KTU 1.15 I:4						
 161599	ˤm	ˤm(I)	ʕm (I)	prep.	3) commercial meaning	
-161600	krt	krt/	krt	PN sg. cstr. gen.	krt	
+161600	krt	krt/	krt	PN sg. cstr. gen.	name of the king of bt ḫbr	
 161601	mswnh	mswn/+h	mswn	n. m. cstr. gen.	delegate	
 # KTU 1.15 I:5						
 161602	arḫ	arḫ/	ảrḫ	n. f. sg. abs. nom.	cow	
-161603	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	kind of sacrificial meat	
+161603	tzġ	tzġ/	tzġ	n. m. sg. abs. nom.	general type of offering	
 161604	l	l(I)	l (I)	prep.	to	DULAT direct ref
 161605	ˤglh	ˤgl(I)/+h	ʕgl (I)	n. m. cstr. gen.	calf	
 # KTU 1.15 I:6						
@@ -31,11 +31,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 I:7						
 161610	k	k(I)	k (I)	prep.	like	DULAT direct ref
 161611	tnḥn	!t!nḥ[n	/n-ḥ/	vb G prefc.	to moan, groan, lament	
-161612	udmm	udm/m	ủdm	TN pl. abs. nom.	ủdm	
+161612	udmm	udm/m	ủdm	TN pl. abs. nom.	mythical city of king pbl	
 # KTU 1.15 I:8						
 161613	w	w	w	conj.	and	
 161614	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
-161615	krt	krt/	krt	PN sg. cstr. nom.	krt	
+161615	krt	krt/	krt	PN sg. cstr. nom.	name of the king of bt ḫbr	
 161616	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 161616	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 # KTU 1.15 II:1						
@@ -74,12 +74,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161637	ṯlṯh	ṯlṯ(IV)&h/	ṯlṯ (IV)	num.	triple	
 # KTU 1.15 II:8						
 161638	apnk	apnk	ảpnk	adv. functor of illation	1) then a) then	DULAT direct ref
-161639	krt	krt/	krt	PN sg. abs. nom.	krt	
+161639	krt	krt/	krt	PN sg. abs. nom.	name of the king of bt ḫbr	
 161640	tˤ	?	?	?	?	DULAT candidates (no reconstructable encoding): /t-ʕ-b/ - to exhaust
 161641	ˤšr	ˤšr(I)/	ʕšr(t) (I)	n. m. sg. abs. nom.	2) banquet offering	DULAT direct ref
 # KTU 1.15 II:9						
 161642	t	/t, /t=				DULAT: NOT FOUND
-161642	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 161643	b	b	b	prep.	in	
 161644	bth	bt(II)/+h	bt (II)	n. m. sg. cstr. gen.	house	
 161644	bth	b(t(I)/t+h	bt (I)	n. f. sg. cstr. gen.	daughter	
@@ -132,7 +131,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161669	tbrk	!t!brk[:d:w	/b-r-k/ (II)	vb D prefc. 3 m. pl.	to be blessed	DULAT direct ref
 161669	tbrk	!t===!brk[:d	/b-r-k/ (II)	vb D prefc. 2 m. pl.	to be blessed	DULAT direct ref
 # KTU 1.15 II:15						
-161670	krt	krt/	krt	PN sg. cstr. nom.	krt	
+161670	krt	krt/	krt	PN sg. cstr. nom.	name of the king of bt ḫbr	
 161671	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 161671	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 161672	l	l(I)	l (I)	prep.	to	
@@ -163,7 +162,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161688	ybrk	!y!brk(II)[:d	/b-r-k/ (II)	vb D prefc. 3 m. sg.	to be blessed	
 161689	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	DULAT direct ref
 161689	il	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	2) DN a) activities of the god	DULAT direct ref
-161690	krt	krt/	krt	PN sg. cstr. gen.	krt	
+161690	krt	krt/	krt	PN sg. cstr. gen.	name of the king of bt ḫbr	
 # KTU 1.15 II:20						
 161691	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. cstr. gen.	Hero	
 161691	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. cstr. gen.	offering	
@@ -175,16 +174,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161695	il	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	2) DN d) El’s possessions or property (often to be understood as in 1. g)	DULAT direct ref
 # KTU 1.15 II:21						
 161696	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. gen.	2) married woman	DULAT direct ref
-161696	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. gen.	2) married woman	DULAT direct ref
 161697	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of, take, grasp	
 161698	y	y	y	prep. functor	oh!	DULAT direct ref
-161699	krt	krt/	krt	PN sg. cstr. gen.	krt	
+161699	krt	krt/	krt	PN sg. cstr. gen.	name of the king of bt ḫbr	
 161700	aṯt	aṯ(t/t	ảṯt	n. f. sg. abs. gen.	2) married woman	DULAT direct ref
-161700	aṯt	aṯ(t/t=	ảṯt	n. f. pl. abs. gen.	2) married woman	DULAT direct ref
 # KTU 1.15 II:22						
 161701	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of	
 161702	btk	bt(II)/+k	bt (II)	n. m. cstr. nom.	house	
-161703	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. nom.	1) damsel	DULAT direct ref
+161703	ġlmt	ġlm(t(I)/t	ġlmt (I)	n. f. sg. abs. nom.	1) damsel	
 161704	tšˤrb	!t!]š]ˤrb[	/ʕ-r-b/ (I)	vb Š prefc. 3 f. sg.	1) to cause to enter	
 161704	tšˤrb	!t=!]š]ˤrb[	/ʕ-r-b/ (I)	vb Š prefc. 2 m. sg.	1) to cause to enter	
 161704	tšˤrb	!t==!]š]ˤrb[	/ʕ-r-b/ (I)	vb Š prefc. 2 f. sg.	1) to cause to enter	
@@ -237,7 +234,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161729	rm	rm(I)/	rm (I)	adj. m. sg. abs. nom.	high	
 161729	rm	rm[	/r-m/	vb G suffc. 3 m. sg.	to go up	
 161729	rm	rm(II)/	rm (II)	n. m. sg. cstr. nom.	erection	
-161730	krt	krt/	krt	PN sg. abs. nom.	krt	
+161730	krt	krt/	krt	PN sg. abs. nom.	name of the king of bt ḫbr	
 # KTU 1.15 III:3						
 161731	b	b	b	prep.	in	
 161732	tk	tk/	tk	n. m. cstr. gen.	centre	
@@ -247,8 +244,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161735	b	b	b	prep.	in	
 161736	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. gen.	assembly	
 161736	pḫr	pḫr(II)/	pḫr (II)	n. m. sg. cstr. gen.	potter	
-161737	qbṣ	qbṣ/	qbṣ	n. m. sg. abs. gen.	clan	
-161738	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
+161737	qbṣ	qbṣ/	qbṣ	n. m. sg. cstr. gen.	clan	
+161738	dtn	dtn/	dtn	PN sg. abs. gen.	Personenname	LUPT lemma
 # KTU 1.15 III:5						
 161739	w	w	w	conj.	and	
 161740	tqrb	!t!qrb[	/q-r-b/	vb G prefc. 3 f. sg.	to approach	
@@ -272,7 +269,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161742	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 161742	bn	bn[	/b-n/	vb G impv. 2	to understand	
 161743	t	/t, /t=				DULAT: NOT FOUND
-161743	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 161744	lk	l(I)+k	l (I)	prep.	to	
 # KTU 1.15 III:7						
 161745	tld	!t!(yld[	/y-l-d/	vb G prefc. 3 f. sg.	to give birth (to)	
@@ -331,7 +327,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 III:13						
 161763	mid	mid/	mỉ/ủd	n. m. sg. abs. nom.	abundance	
 161764	rm	rm(I)/	rm (I)	adj. m. sg. abs. nom.	high	DULAT direct ref
-161765	krt	krt/	krt	PN sg. abs. nom.	krt	
+161765	krt	krt/	krt	PN sg. abs. nom.	name of the king of bt ḫbr	
 # KTU 1.15 III:14						
 161766	b	b	b	prep.	in	
 161767	tk	tk/	tk	n. m. cstr. gen.	1) in	
@@ -340,8 +336,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 III:15						
 161770	b	b	b	prep.	1) spatial location a) place in which something occurs	
 161771	pḫr	pḫr(I)/	pḫr (I)	n. m. sg. cstr. gen.	1) assembly a) Assembly	
-161772	qbṣ	qbṣ/	qbṣ	n. m. sg. abs. gen.	clan	
-161773	dtn	d&t+n	d	det. or rel. functor	the one(s) of	
+161772	qbṣ	qbṣ/	qbṣ	n. m. sg. cstr. gen.	clan	
+161773	dtn	dtn/	dtn	PN sg. abs. gen.	Personenname	LUPT lemma
 # KTU 1.15 III:16						
 161774	ṣġrthn	ṣġr(t(I)/t+hn	ṣġrt (I)	adj. f. sg. cstr. nom.	youngest	
 161775	abkrn	?	?	?	?	DULAT: NOT FOUND
@@ -407,7 +403,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161800	šnt	šn(t(I)/t	šnt (I)	n. f. sg. cstr. nom.	year	
 # KTU 1.15 III:23						
 161801	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	1) son b) esp. in the royal legends	DULAT direct ref
-161802	krt	krt/	krt	PN sg. abs. gen.	krt	
+161802	krt	krt/	krt	PN sg. abs. gen.	name of the king of bt ḫbr	
 161803	kmhm	km&hm	km		1) prep. like	
 161804	tdr	!t!(ndr[:pass	/n-d-r/	vb Gpass prefc.	to be promised	
 # KTU 1.15 III:24						
@@ -440,15 +436,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161822	mˤ	mˤ(II)	mʕ (II)	adv.	as one	
 161823	ap	ap(I)	ảp (I)	adv./conj.	also	
 161823	ap	ap(II)/	ảp (II)	n. m. sg. abs. nom.	nose	
-161824	krt	krt/	krt	PN sg. cstr. nom.	krt	
+161824	krt	krt/	krt	PN sg. cstr. nom.	name of the king of bt ḫbr	
 161825	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 161825	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 # KTU 1.15 III:29						
 161826	u	u	ủ	conj.	3) or (is that)?	
-161827	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 161827	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 161827	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
-161828	ndrm	ndr/+m(I)	ndr	n. m. cstr. nom.	vow	
+161827	ṯn	ṯn(I)/	ṯn (I)	num.	two	
+161828	ndrm	ndr/~m	ndr	n. m. abs. nom.	vow	
 161829	xxxxx	?	?	?	?	
 # KTU 1.15 III:30						
 161830	apr	!(ʔ&a!pr[	/p-r(-r)/	vb G prefc. 1 c. sg.	to break	
@@ -494,13 +490,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 IV:8						
 161856	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. cstr. gen.	bull	
 161856	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. gen.	bull	
-161857	ḫbr	ḫbr/	ḫbr	TN sg. abs. gen.	Daughter-of-TN	
-161858	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	
+161857	ḫbr	ḫbr/	ḫbr	TN sg. abs. gen.	name of the city-state of king krt	
 161858	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 161858	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	
 161858	rbt	rb(t(II)/t	rbt (II)	n. f. sg. abs. nom.	seine	
 # KTU 1.15 IV:9						
-161859	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	Daughter-of-TN	
+161859	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	name of the city-state of king krt	
 161860	ṯrrt	ṯrr(t/t	ṯrrt	adj. f. sg. abs. nom.	powerful	
 # KTU 1.15 IV:10						
 161861	w	w	w	conj.	and	
@@ -516,10 +511,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161867	idbx	?	?	?	?	DULAT: NOT FOUND
 161868	xxtxxxx	?	?	?	?	DULAT: NOT FOUND
 161869	t	/t, /t=				DULAT: NOT FOUND
-161869	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.15 IV:13						
-161870	lḥn	lḥ(II)/+n	lḥ (II)	n. m. cstr. nom.	missive	
-161870	lḥn	lḥ(I)/+n	lḥ (I)	n. f. cstr. nom.	cheek	
+161870	lḥn	lḥn[	lḥn	vb	Bed. ganz unsicher	LUPT lemma
 161871	šqym	šqy/m	šqy	n. m. pl. abs. nom.	cupbearer	DULAT direct ref
 161872	mdxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.15 IV:14						
@@ -565,14 +558,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 IV:19						
 161888	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. abs. nom.	bull	
 161888	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. abs. nom.	bull	
-161889	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	Daughter-of-TN	
+161889	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	name of the city-state of king krt	
 161890	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	DULAT direct ref
 # KTU 1.15 IV:20						
-161891	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	Daughter-of-TN	
+161891	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	name of the city-state of king krt	
 161892	ṯrrt	ṯrr(t/t	ṯrrt	adj. f. sg. abs. nom.	powerful	
 # KTU 1.15 IV:21						
 161893	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. nom.	daughter	
-161894	krt	krt/	krt	PN sg. abs. gen.	krt	
+161894	krt	krt/	krt	PN sg. abs. gen.	name of the king of bt ḫbr	
 161895	tbun	!t!b(ʔ[&un	/b-ʔ/	vb G prefc.	to enter, come, reach	
 # KTU 1.15 IV:22						
 161896	lm	l(I)~m	l (I)	prep.	1) prep. of direction a) allative	
@@ -583,8 +576,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161900	l	l(I)	l (I)	prep.	to	
 161901	ḫm	ḫm/	ḫm	n. m. sg. abs. gen.	pavilion	
 161902	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-161902	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 161902	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+161902	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 161902	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
 161903	tqdm	!t!qdm[	/q-d-m/	vb G prefc. 3 f. sg.	to proceed	
 161903	tqdm	!t=!qdm[	/q-d-m/	vb G prefc. 2 m. sg.	to proceed	
@@ -651,7 +644,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161922	dbḥ	dbḥ[	/d-b-ḥ/	vb G impv. 2	to sacrifice	
 161922	dbḥ	dbḥ[/	/d-b-ḥ/	vb G act. ptcpl. m. sg. abs. nom.	to sacrifice	
 161923	l	l(I)	l (I)	prep.	to	
-161924	krt	krt/	krt	PN sg. cstr. gen.	krt	
+161924	krt	krt/	krt	PN sg. cstr. gen.	name of the king of bt ḫbr	
 161925	bˤlkm	bˤl(II)/+km	bʕl (II)	n. m. cstr. gen.	lord	
 # KTU 1.15 IV:29						
 161926	xxxxxxxxx	?	?	?	?	
@@ -762,7 +755,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161967	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 161967	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 161967	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-161968	krt	krt/	krt	PN sg. abs. nom.	krt	
+161968	krt	krt/	krt	PN sg. abs. nom.	name of the king of bt ḫbr	
 161969	tbkn	!t!bk(y[+n	/b-k-y/	vb G prefc.	to weep	
 # KTU 1.15 V:13						
 161970	km	km	km	prep./conj./adv.		
@@ -784,9 +777,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.15 V:16						
 161981	xqmṣ	?	?	?	?	DULAT: NOT FOUND
 161982	mtm	mt(II)/~m	mt (II)	n. m. sg. cstr. nom.	1) death	DULAT direct ref
-161983	uṣbˤt	uṣbˤ/t	ủṣbʕ	n. f. sg. cstr. gen.	finger	
+161983	uṣbˤt	uṣbˤ/t=	ủṣbʕ	n. f. pl. cstr. gen.	finger	
 # KTU 1.15 V:17						
-161984	krt	krt/	krt	PN sg. abs. gen.	krt	
+161984	krt	krt/	krt	PN sg. abs. gen.	name of the king of bt ḫbr	
 161985	šrk	šrk[	/š-r-k/	vb G suffc. 3 m. sg.	to team up with, to join	
 161985	šrk	šrk[/	/š-r-k/	vb G ptcpl. m. sg. abs. nom.	to team up with, to join	
 161986	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
@@ -801,7 +794,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 161991	m	m	m(h)	pers. pn.	what?	
 161992	ġ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.15 V:19						
-161993	krt	krt/	krt	PN sg. cstr. nom.	krt	
+161993	krt	krt/	krt	PN sg. cstr. nom.	name of the king of bt ḫbr	
 161994	ṣbia	?	?	?	?	DULAT candidates (no reconstructable encoding): ṣbủ (II) - setting
 161995	špš	špš/	špš	DN f. sg. cstr. gen.	Šapšu/Shapsh/Shapshu	
 161995	špš	špš/	špš	n. f. sg. cstr. gen.	sun	
@@ -815,7 +808,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162001	w	w	w	conj.	and	
 162002	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 # KTU 1.15 V:22						
-162003	krt	krt/	krt	PN sg. cstr. nom.	krt	
+162003	krt	krt/	krt	PN sg. cstr. nom.	name of the king of bt ḫbr	
 162004	ṯˤ	ṯˤ(II)/	ṯʕ (II)	n. m. sg. abs. gen.	Hero	
 162004	ṯˤ	ṯˤ(I)/	ṯʕ (I)	n. m. sg. abs. gen.	offering	
 162005	ˤln	ˤl(I)+n	ʕl (I)	prep.	upon	
@@ -830,13 +823,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162012	yšṣi	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to make (someone) leave, take out
 # KTU 1.15 V:25						
 162013	xxxx	?	?	?	?	
-162014	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	Daughter-of-TN	
-162015	rbt	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	
+162014	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	name of the city-state of king krt	
 162015	rbt	rb(t/t	rb(b)t	num. sg.	ten thousand	
 162015	rbt	rb(t(I)/t	rbt (I)	n. f. sg. abs. nom.	Lady	
 162015	rbt	rb(t(II)/t	rbt (II)	n. f. sg. abs. nom.	seine	
 # KTU 1.15 V:26						
-162016	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	Daughter-of-TN	
+162016	ḫbr	ḫbr/	ḫbr	TN sg. abs. nom.	name of the city-state of king krt	
 162017	ṯrrt	ṯrr(t/t	ṯrrt	adj. f. sg. abs. nom.	powerful	
 162018	il	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	
 162018	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
@@ -857,10 +849,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162026	šmˤ	!!šmˤ[/	/š-m-ʕ/	vb G inf.	to hear	
 162026	šmˤ	šmˤ/	šmʕ	n. m. sg. cstr. nom.	auditor	
 162027	l	l(I)	l (I)	prep.	to	
-162028	qmt	?	?	?	?	DULAT: NOT FOUND
+162027	l	l(II)	l (II)	adv.	no	
+162027	l	l(III)	l (III)	functor	certainly	
+162028	qmt	qm[~t	/q-m/	vb G suffc.	to stand up	
+162028	qmt	qm[~t	/q-m/	vb G impv. 2	to stand up	
+162028	qmt	qm[/~t	/q-m/	vb G act. ptcpl. m. sg. abs. nom.	to stand up	
+162028	qmt	qm/~t	qm	n. m. abs. nom.	adversary	
 162029	xxm	?	?	?	?	DULAT: NOT FOUND
 162030	l	l(I)	l (I)	prep.	to	
-162031	bṭnm	bṭn+m(I)	bṭn	?	?	
+162031	bṭnm	bṭn~m	bṭn	?	?	
 # KTU 1.15 VI:2						
 162032	ˤdm	ˤd(I)&m	ʕd (I)		2) conj b) while	
 162033	tlḥm	!t!lḥm[	/l-ḥ-m/ (I)	vb G prefc. 3 f. sg.	to eat	
@@ -911,11 +908,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162044	dbḥ	dbḥ/	dbḥ	n. m. sg. cstr. nom.	1) sacrifice	DULAT direct ref
 162044	dbḥ	dbḥ/	dbḥ	n. m. sg. abs. nom.	1) sacrifice	DULAT direct ref
 162045	l	l(I)	l (I)	prep.	to	DULAT direct ref
-162046	krt	krt/	krt	PN sg. cstr. gen.	krt	
+162046	krt	krt/	krt	PN sg. cstr. gen.	name of the king of bt ḫbr	
 162047	adnkm	adn(I)/+km	ảdn (I)	n. m. cstr. gen.	1) lord	
 # KTU 1.15 VI:6						
 162048	ˤl	ˤl(I)	ʕl (I)	prep.	1) spatial location or pre-eminence c) in front	DULAT direct ref
-162049	krt	krt/	krt	PN sg. abs. gen.	krt	
+162049	krt	krt/	krt	PN sg. abs. gen.	name of the king of bt ḫbr	
 162050	tbun	!t!b(ʔ[&un	/b-ʔ/	vb G prefc.	to enter, come, reach	
 162051	km	km	km	prep./conj./adv.		
 # KTU 1.15 VI:7						
@@ -933,7 +930,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 162057	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 162057	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 162057	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
-162058	krt	krt/	krt	PN sg. abs. nom.	krt	
+162057	mt	mt(IV)	mt (IV)	adv.	certainly	
+162058	krt	krt/	krt	PN sg. abs. nom.	name of the king of bt ḫbr	
 # KTU 1.15 VI:9						
 162059	aġxxxxxxxšr	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.15 VI:10						

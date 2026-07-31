@@ -13,14 +13,14 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172253	w	w	w	conj.	and	
 172254	xrṣ	?	?	?	?	DULAT: NOT FOUND
 172255	bdh	bd(IV)+h	bd (IV)	prep.	3) at the hands of	
-172256	ydrm	!y!(ndr[+m(I)	/n-d-r/	vb G prefc. 3 m. sg.	to make a vow	
-172257	pit	pit/	pỉt	n. m. cstr. nom.	1) temple	
+172256	ydrm	!y!(ndr[~m	/n-d-r/	vb G prefc. 3 m. sg.	to make a vow	
+172257	pit	pi(t/t	pỉt	n. f. sg. cstr. nom.	1) temple	
 172258	adm	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	1) man	
 # KTU 1.107 4						
 172259	xxxxxxiṯx	?	?	?	?	DULAT: NOT FOUND
 172260	yšql	?	?	?	?	DULAT candidates (no reconstructable encoding): /q-l/ - 1) to go down
 172261	yṯkxxxn	?	?	?	?	DULAT: NOT FOUND
-172262	pbl	pbl/	pbl	PN sg. abs. nom.	pbl	
+172262	pbl	pbl/	pbl	PN sg. abs. nom.	of the mythological king of ủdm	
 172263	hn	hn	hn	functor	behold!	
 # KTU 1.107 5						
 172264	xxxxxxṭbt	?	?	?	?	DULAT: NOT FOUND
@@ -66,10 +66,15 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172285	šr	šr(III)/	šr (III)	n. m. sg. abs. nom.	Prince	
 172285	šr	šr(IV)/	šr (IV)	n. m. sg. abs. nom.	navel	
 172285	šr	šr(I)/	šr (I)	n. m. sg. cstr. nom.	song	
-172286	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	the Devil is a munificent one	
+172286	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	unknown mythical character	
 172287	ybky	!y!bky[	/b-k-y/	vb G prefc. 3 m. sg.	to weep	
 172288	km	km	km	prep./conj./adv.		
-172289	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. gen.	1) boy	
+172289	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. cstr. nom.	1) boy	
+172289	nˤr	nˤr(I)/	nʕr (I)	n. m. sg. abs. nom.	1) boy	
+172289	nˤr	!n!ˤr[	/ʕ-r/	vb G prefc. 1 c. pl.	to become agitated	
+172289	nˤr	&nˤr[	/ʕ-r/	vb G suffc. 3 m. sg.	to become agitated	
+172289	nˤr	]n]ˤr[	/ʕ-r/	vb N prefc.	to become agitated	
+172289	nˤr	]n]ˤr[	/ʕ-r/	vb N suffc. 3 m. sg.	to become agitated	
 # KTU 1.107 9						
 172290	w	w	w	conj.	and	
 172291	ydmˤ	!y!dmˤ[	/d-m-ʕ/	vb G prefc. 3 m. sg.	to shed tears	
@@ -77,6 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172293	ṣ	?	?	?	?	DULAT candidates (no reconstructable encoding): /m-ḫ-ṣ/ - to wound
 172294	ġr	ġr(I)/	ġr (I)	n. m. sg. cstr. nom.	mountain	
 172294	ġr	ġr(III)/	ġr (III)	n. m. sg. cstr. nom.	skin	
+172294	ġr	ġr(II)/	ġr (II)	n. m. sg. cstr. nom.	an installation for the funerary cult	
 172295	špš	špš/	špš	DN f. sg. abs. gen.	Šapšu/Shapsh/Shapshu	
 172295	špš	špš/	špš	n. f. sg. abs. gen.	2) sun	
 172296	b	b	b	prep.	in	
@@ -97,7 +103,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172304	b	b	b	prep.	in	
 172305	šr	šr(V)/	šr (V)	n. m. sg. abs. nom.	disgrace	
 # KTU 1.107 11						
-172306	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	the Devil is a munificent one	
+172306	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	unknown mythical character	
 172307	w	w	w	conj.	and	
 172308	tpky	?	?	?	?	DULAT candidates (no reconstructable encoding): /b-k-y/ - to weep
 172309	bm	b~m	b	prep.	in	
@@ -119,7 +125,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172314	bkm	b+km	b	prep.	in	
 172314	bkm	bkm	bkm	adv.	next	
 172315	yˤny	!y!ˤny(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	
-172316	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	the Devil is a munificent one	
+172316	šrġzz	šrġzz/	šrġzz	DN sg. abs. nom.	unknown mythical character	
 172317	xxxxwth	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 13						
 172318	xxxnn	?	?	?	?	DULAT: NOT FOUND
@@ -182,8 +188,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172356	amr	amr(I)/	ảmr (I)	n. m. sg. abs. nom.	order	
 # KTU 1.107 21						
 172357	xxxxxx	?	?	?	?	
-172358	nˤlm	!n!ˤl(y[+m(I)	/ʕ-l-y/	vb G prefc. 1 c. pl.	to go up	
-172358	nˤlm	nˤl/+m(I)	nʕl	n. m. cstr. nom.	portable platform	
+172358	nˤlm	!n!ˤl(y[~m	/ʕ-l-y/	vb G prefc. 1 c. pl.	to go up	
+172358	nˤlm	nˤl/~m	nʕl	n. m. abs. nom.	portable platform	
 172359	nxxxxxxxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 22						
 172360	xxxxxxš	?	?	?	?	DULAT: NOT FOUND
@@ -288,8 +294,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172422	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 172423	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	
 # KTU 1.107 35						
-172424	lan	la/+n	lả	n. m. cstr. gen.	power	
-172425	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. nom.	venom	
+172424	lan	la/~n	lả	n. m. cstr. gen.	power	
+172425	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. abs. gen.	venom	
 172426	l	l(I)	l (I)	prep.	to	
 172427	p	p(III)/	p (III)	n. m. sg. abs. nom.	mouth	
 172428	nṯk	nṯk(I)/	nṯk (I)	n. m. sg. abs. nom.	biter	
@@ -321,7 +327,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172444	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 172444	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 172445	arṣ	arṣ/	ảrṣ	n. f. sg. cstr. nom.	1) earth	
-172446	lan	la/+n	lả	n. m. cstr. gen.	power	
+172446	lan	la/~n	lả	n. m. abs. gen.	power	
 # KTU 1.107 38						
 172447	isp	(ʔ&isp[	/ʔ-s-p/	vb G impv. 2	to gather	
 172447	isp	(ʔ&isp[:d	/ʔ-s-p/	vb D impv. 2	to gather	
@@ -362,7 +368,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 172472	yisp	!y!(ʔ&isp[:d	/ʔ-s-p/	vb D prefc. 3 m. sg.	to gather	
 172473	ḥmt	ḥm(t(III)/t	ḥmt (III)	n. f. sg. cstr. nom.	venom	
 172473	ḥmt	ḥm(t(I)/t	ḥmt (I)	n. f. sg. cstr. nom.	wall	
-172474	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. gen.	ẓẓ	
+172474	ẓẓ	ẓẓ/	ẓẓ	element/DN sg. abs. gen.	element of the double-barrelled DN ẓẓ w kmṯ	
 172475	w	w	w	conj.	and	
 172476	ktṯ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.107 42						

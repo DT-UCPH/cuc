@@ -1,14 +1,14 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.167 1						
 175009	br	br/	br(r)	n. m. sg. abs. nom.	tin	
-175009	br	br(I)/	br (I)	n. m. sg. abs. nom.	Art Seeschiff	
+175009	br	br(I)/	br (I)	n. m. sg. abs. nom.	type of barge	
 175009	br	br[	/b-r(-r)/	vb G suffc. 3 m. sg.	to be or remain pure	
 # KTU 1.167 2						
 175010	bk	b+k	b	prep.	in	
 175010	bk	bk/	bk	n. m. sg. abs. nom.	beaker	
 175011	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-175011	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 175011	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+175011	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 175011	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
 # KTU 1.167 3						
 175012	ġsb	?	?	?	?	DULAT: NOT FOUND
@@ -41,6 +41,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.167 11						
 175027		?	?	?	?	
 175028	qṭr	qṭr/	qṭr	n. m. sg. abs. nom.	smoke	
+175029	lbn	lb/~n	lb	n. m. abs. nom.	heart	
 175029	lbn	lbn(I)/	lbn (I)	adj. m. abs. nom.	white	
 # KTU 1.167 12						
 175030	r	?	?	?	?	DULAT: NOT FOUND

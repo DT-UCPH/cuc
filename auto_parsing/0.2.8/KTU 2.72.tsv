@@ -54,6 +54,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 12						
 178732	inn	in&n/	ỉn	n. m. abs. gen.	lack of	
 178733	im	im	ỉm	conj.	2) disj. conj. or	
+178734	bn	b+n	b	prep.	in	
 178734	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	5) stating a quality (sg. / pl. + n. sg.) d) bn ḫrn messenger	
 178734	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	5) stating a quality (sg. / pl. + n. sg.) d) bn ḫrn messenger	
 178734	bn	bn(II)	bn (II)	prep.	between	
@@ -76,19 +77,18 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 15						
 178742	w	w	w	conj.	and	
 178743	tlkn	!t!(hlk[n	/h-l-k/	vb G prefc.	to go, go away	
-178744	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 178744	ṯn	ṯn(II)/	ṯn (II)	num./adj. sg.	second	
 178744	ṯn	ṯn(III)/	ṯn (III)	n. m. sg. abs. nom.	crimson (cloth, wool, purple)	
+178744	ṯn	ṯn(I)/	ṯn (I)	num.	two	
 178745	ṯnm	ṯn(I)&m	ṯn (I)	num.	two	
 # KTU 2.72 16						
 178746	ˤmy	ˤm(I)+y	ʕm (I)	prep.	to	
 178747	w	w	w	conj.	and	
-178748	tṯbrn	!t!(]n]ṯbr[+n	/ṯ-b-r/	vb N prefc.	to break, be shattered, buckle	
+178748	tṯbrn	!t!(]n]ṯbr[~n	/ṯ-b-r/	vb N prefc.	to break, be shattered, buckle	
 178749	lby	lb/+y	lb	n. m. cstr. nom.	heart	
 # KTU 2.72 17						
 178750	w	w	w	conj.	and	
-178751	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	1) missive	
-178751	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
+178751	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. cstr. nom.	1) missive	
 178752	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 178753	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	1) king a) human sovereign in gen	
 178754	amr	amr(I)/	ảmr (I)	n. m. sg. abs. gen.	order	
@@ -138,8 +138,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 23						
 178770	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
 178771	ank	ank	ảnk	pers. pn.	1) i b) emph. subj. in VC	
-178772	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. cstr. nom.	missive	
-178772	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. cstr. nom.	cheek	
+178772	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. cstr. nom.	missive	
 # KTU 2.72 24						
 178773	bt	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	
 178774	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
@@ -162,8 +161,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.72 28						
 178785	ḫrṣ	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	1) gold f) elliptical use	
 178786	w	w	w	conj.	and	
-178787	mrdt	mrd(t/t	mrdt	n. f. sg. abs. nom.	Teppich	
-178787	mrdt	mrd(t/t=	mrdt	n. f. pl. abs. nom.	Teppich	
+178787	mrdt	mrd(t/t	mrdt	n. f. sg. abs. nom.	a piece of material or a garment (?)	
 178788	mlkl	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.72 29						
 178789	mlk	mlk(I)/	mlk (I)	n. m. sg. cstr. nom.	king	

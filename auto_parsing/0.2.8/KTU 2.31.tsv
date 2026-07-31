@@ -12,8 +12,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176802	xxx	?	?	?	?	
 176803	ˤly	ˤly[	/ʕ-l-y/	vb G suffc. 3 m. sg.	to go up	
 176803	ˤly	ˤly(II)/	ʕly (II)	n. m. sg. abs. nom.	place of sacrifice	
-176803	ˤly	ˤly(I)/	ʕly (I)	adj. m. pl. abs. nom.	most high	
-176803	ˤly	ˤly(I)/	ʕly (I)	adj. m. sg. abs. nom.	most high	
 176804	k	+k	-k (I)			
 176804	k	~k	-k (II)			
 176804	k	k(III)	k (III)	Subordinating or completive functor	when	
@@ -24,7 +22,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176806	rt	rt/	rt	PN sg. cstr. nom.	rt	
 176807	bt	b(t(I)/t	bt (I)	n. f. sg. abs. gen.	daughter	
 176808	t	/t, /t=				DULAT: NOT FOUND
-176808	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 2.31 6						
 176809	xxx	?	?	?	?	
 176810	xx	?	?	?	?	
@@ -118,7 +115,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 21						
 176869	pkn	p(I)+kn	p (I)	conj. functor	and	
 176869	pkn	p(III)/+kn	p (III)	n. m. cstr. nom.	mouth	
-176869	pkn	p(III)&k/+n	p (III)	n. m. cstr. nom.	mouth	
 176869	pkn	p(II)+kn	p (II)	adv.	here	
 # KTU 2.31 22						
 176870	š	š/	š	n. m. sg. abs. nom.	ram	
@@ -133,7 +129,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 25						
 176876	dbḥn	dbḥ/+n	dbḥ	n. m. cstr. gen.	3) month name	
 # KTU 2.31 26						
-176877	rḫ	?	?	?	?	DULAT: NOT FOUND
+176877	rḫ	rḫ	rḫ		Geist	LUPT lemma
 176878	w	w	w	conj.	and	
 176879	šqrb	]š]qrb[	/q-r-b/	vb Š suffc. 3 m. sg.	to offer	
 # KTU 2.31 27						
@@ -149,13 +145,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 31						
 176886	q	?	?	?	?	DULAT: NOT FOUND
 176887	mrkbt	mrkb(t/t	mrkbt	n. f. sg. abs. nom.	1) (light war) chariot a) PN mrkbt (one) chariot	
-176887	mrkbt	mrkb(t/t=	mrkbt	n. f. pl. abs. nom.	1) (light war) chariot a) PN mrkbt (one) chariot	
 # KTU 2.31 32						
 176888		?	?	?	?	
 # KTU 2.31 33						
 176889	w	w	w	conj.	and	
-176890	nrm	nr/+m(I)	nr	n. m. cstr. nom.	sheen	
-176890	nrm	nrm[	/n-r/	vb G suffc. 3 m. sg.	to shine	
+176890	nrm	nr/~m	nr	n. m. abs. nom.	sheen	
 # KTU 2.31 34						
 176891	x	?	?	?	?	
 # KTU 2.31 35						
@@ -172,7 +166,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176899	lk	l(I)+k	l (I)	prep.	to	
 # KTU 2.31 37						
 176900	d	d	d	det. or rel. functor	the one(s) of	
-176901	kmyn	kmy/+n	kmy	PN sg. cstr. nom.	kmy	
+176901	kmyn	kmy/~n	kmy	PN sg. abs. nom.	kmy	
 176902	xxx	?	?	?	?	
 # KTU 2.31 38						
 176903	w	w	w	conj.	and	
@@ -201,7 +195,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176916	ytn	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 176917	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	
 176918	ank	ank	ảnk	pers. pn.	1) i c) + inf. abs	
-176919	iphn	!(ʔ&i!ph(y[+n	/p-h-y/	vb G prefc. 1 c. sg.	to see	
+176919	iphn	!(ʔ&i!ph(y[~n	/p-h-y/	vb G prefc. 1 c. sg.	to see	
 # KTU 2.31 42						
 176920	xxx	?	?	?	?	
 176921	xxx	?	?	?	?	
@@ -209,6 +203,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176923	ank	ank	ảnk	pers. pn.	I	
 176924	ixxxslm	?	?	?	?	DULAT: NOT FOUND
 176925	w	w	w	conj.	and	
+176926	yṯb	!y!ṯb[	/ṯ-b/	vb G prefc. 3 m. sg.	to return	
+176926	yṯb	&yṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return	
 176926	yṯb	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 176926	yṯb	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
 176926	yṯb	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	
@@ -233,13 +229,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176940	xxxxx	?	?	?	?	
 176941	l	l(I)	l (I)	prep.	to	
 176942	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
+176943	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 176943	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 2.31 45						
 176944	xxx	?	?	?	?	
 176945	xxx	?	?	?	?	
 176946	xxptm	?	?	?	?	DULAT: NOT FOUND
-176947	lḥt	lḥ(II)/t	lḥ (II)	n. f. sg. abs. nom.	missive	
-176947	lḥt	lḥ(I)/t	lḥ (I)	n. f. sg. abs. nom.	cheek	
+176947	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. abs. nom.	missive	
 176948		?	?	?	?	
 # KTU 2.31 46						
 176949	xxx	?	?	?	?	
@@ -286,8 +282,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 176982	k	k(III)	k (III)	Subordinating or completive functor	when	
 176982	k	k(I)	k (I)	prep.	like	
 176982	k	k(II)	k (II)	emph. functor	yes	
-176983	bˤlt	bˤl(t/t	bʕlt	n. f. sg. abs. nom.	lady	
-176984	bhtt	?	?	?	?	DULAT: NOT FOUND
+176983	bˤlt	bˤl(t/t	bʕlt	n. f. sg. cstr. nom.	lady	
+176984	bhtt	b&ht(II)/~t	bt (II)	n. m. abs. gen.	house	
 176985	ank	ank	ảnk	pers. pn.	I	
 # KTU 2.31 51						
 176986	xxx	?	?	?	?	
@@ -407,7 +403,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.31 65						
 177075	xxx	?	?	?	?	
 177076	xxxx	?	?	?	?	
-177077	rḥbn	rḥbn/	rḥbn	TN sg. abs. nom.	rḥbn	
+177077	rḥbn	rḥbn/	rḥbn	TN sg. abs. nom.	river in the kingdom of Ugarit	
 177078	hm	hm(II)	hm (II)	conj./interr. functor	if	
 177078	hm	hm(I)	hm (I)	pers. pn.	they	
 177079	l	l(I)	l (I)	prep.	to	

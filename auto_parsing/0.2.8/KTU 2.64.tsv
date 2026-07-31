@@ -23,9 +23,9 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 178461	l	l(I)	l (I)	prep.	to	
 178461	l	l(II)	l (II)	adv.	no	
 178461	l	l(III)	l (III)	functor	certainly	
-178462	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
-178462	ybnn	!y!(]n]bn(y[+n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
-178462	ybnn	!y!bn(y[:pass+n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
+178462	ybnn	!y!bn(y[:pass~n	/b-n-y/	vb G prefc. 3 m. sg.	to build	
+178462	ybnn	!y!(]n]bn(y[~n	/b-n-y/	vb N prefc. 3 m. sg.	to be built	
+178462	ybnn	!y!bn(y[:pass~n	/b-n-y/	vb Gpass prefc. 3 m. sg.	to build	
 # KTU 2.64 10						
 178463	bˤly	bˤl(II)/+y	bʕl (II)	n. m. cstr. nom.	lord	
 178464	rgm	rgm/	rgm	n. m. sg. abs. nom.	word	

@@ -64,6 +64,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.176 17						
 175530	tm	tm/	tm	adj. m. sg. abs. nom.	complete	
 175531	ḥwy	ḥwy/	ḥwy	n. m. abs. nom.	storehouse	
+175531	ḥwy	ḥwy(III)[	ḥwy (III)	vb	schlagen	LUPT lemma
 175532	w	w	w	conj.	and	
 # KTU 1.176 18						
 175533	b	b	b	prep.	in	
@@ -88,11 +89,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175548		?	?	?	?	
 # KTU 1.176 23						
 175549	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-175549	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 175549	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-175549	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 175549	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-175549	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 175550	l	l(I)	l (I)	prep.	to	
 175551	ḥr	ḥr(I)/	ḥr (I)	n. m. sg. abs. gen.	intestine(s)	
 # KTU 1.176 24						
@@ -105,7 +103,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 175556	lak	!!l(ʔ&ak[/	/l-ʔ-k/	vb G inf.	to send (a message)	
 175557	l	l(I)	l (I)	prep.	to	
 175558	t	/t, /t=				DULAT: NOT FOUND
-175558	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.176 26						
 175559	al	al(I)	ảl (I)	neg. functor	no	
 175559	al	al(II)	ảl (II)	pos. functor	surely	

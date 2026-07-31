@@ -1,8 +1,9 @@
 id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.91 1						
-179779	klhmm	kl&hm/+m(I)	kl	n. m. cstr. nom.	totality (of)	
+179779	klhmm	kl&hm/~m	kl	n. m. abs. nom.	totality (of)	
 179780	b	b	b	prep.	in	
 179781	ym	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
+179781	ym	ym(II)/	ym (II)	DN m. sg. abs. gen.	Yammu/the god “Sea”	
 179781	ym	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 # KTU 2.91 2						
 179782	w	w	w	conj.	4) declarative and emphatic functor	

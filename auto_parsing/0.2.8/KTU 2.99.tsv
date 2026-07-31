@@ -14,7 +14,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180033	klby	klb(I)/+y	klb (I)	n. m. cstr. nom.	dog	
 # KTU 2.99 5						
 180034	w	w	w	conj.	1) copulative conj.	
-180035	gtn	gt/+n	gt	n. f. cstr. nom.	gittu	
+180035	gtn	gt/~n	gt	n. f. abs. nom.	gittu	
 180035	gtn	gtn/	gtn	PN sg. abs. nom.	gtn	
 180036	yit	?	?	?	?	DULAT: NOT FOUND
 # KTU 2.99 6						
@@ -45,7 +45,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180052	ybl	ybl[	/y-b-l/	vb G suffc. 3 m. sg.	to carry, bring, take	
 # KTU 2.99 13						
 180053	d	d	d	det. or rel. functor	4) in compound conjunctions	
-180054	štnt	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-t-n/ - 1) to make (someone) give
+180054	štnt	št[n~t	/š-t/	vb G impv. 2	to place	
 # KTU 2.99 14						
 180055		?	?	?	?	
 # KTU 2.99 15						
@@ -53,17 +53,17 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 16						
 180057		?	?	?	?	
 # KTU 2.99 17						
-180058	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-180058	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+180058	n	~n	-n (I)	encl. morph.		
+180058	n		-n (IV)	vb	him/her/it	
 # KTU 2.99 18						
 180059	tqḥ	!t!(lqḥ[	/l-q-ḥ/	vb G prefc.	to get hold of, take, grasp	
 # KTU 2.99 19						
-180060	pln	pl[+n	/p-l(-l)/	vb G suffc.	to be cracked	
+180060	pln	pl[~n	/p-l(-l)/	vb G suffc.	to be cracked	
 # KTU 2.99 20						
 180061	šmn	šmn(I)/	šmn (I)	n. m. sg. abs. nom.	oil	
 180062	mr	mr(I)/	mr (I)	n. m. sg. abs. nom.	myrrh	
-180062	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 180062	mr	mr(II)/	mr (II)	adj. m. sg. abs. nom.	bitter	
+180062	mr	mr(IV)/	mr (IV)	adj. m. sg. abs. nom.	valiant	
 180062	mr	mr(V)/	mr (V)	n. m. sg. cstr. nom.	son	
 # KTU 2.99 21						
 180063	xxspln	?	?	?	?	DULAT: NOT FOUND
@@ -73,7 +73,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 180065	nr	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	
 # KTU 2.99 23						
 180066	kt	k(t(I)/t	kt (I)	n. f. sg. cstr. nom.	pitcher	
-180067	gpt	gp(I)/t	gp (I)	n. f. sg. cstr. gen.	shore	
+180067	gpt	gp(I)/t=	gp (I)	n. m. pl. cstr. gen.	shore	
 # KTU 2.99 24						
 180068	kt	k(t(I)/t	kt (I)	n. f. sg. abs. gen.	pitcher	
 180069	ḥmṣ	ḥmṣ/	ḥmṣ	n. m. sg. abs. nom.	vinegar	
@@ -82,7 +82,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 25						
 180072	w	w	w	conj.	and	
 180073	l	l(I)	l (I)	prep.	to	
-180074	gtn	gt/+n	gt	n. f. cstr. gen.	gittu	
+180074	gtn	gt/~n	gt	n. f. abs. gen.	gittu	
 # KTU 2.99 26						
 180075	w	w	w	conj.	and	
 180076	l	l(I)	l (I)	prep.	to	
@@ -90,7 +90,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 2.99 27						
 180078	xxlḥm	?	?	?	?	DULAT: NOT FOUND
 180079	tn	(ytn[	/y-t-n/	vb	give	
-180079	tn	(ytn[/	/y-t-n/	vb	give	
 180080	lhm	l(I)+hm	l (I)	prep.	to	
 # KTU 2.99 28						
 180081	xxx	?	?	?	?	

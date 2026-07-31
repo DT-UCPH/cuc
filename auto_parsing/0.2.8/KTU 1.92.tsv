@@ -39,7 +39,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170582	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
 # KTU 1.92 6						
 170583	yṣi	?	?	?	?	DULAT candidates (no reconstructable encoding): /y-ṣ-ʔ/ - to go out, appear
-170584	ġlh	ġl(I)/+h	ġl (I)	n. m. cstr. nom.	far extent of desert	
+170584	ġlh	ġl(I)/+h	ġl (I)	n. m. cstr. nom.	term for a type of terrain	
 170585	tḥmd	!t!ḥmd[	/ḥ-m-d/	vb G prefc. 3 f. sg.	to desire	
 170585	tḥmd	!t=!ḥmd[	/ḥ-m-d/	vb G prefc. 2 m. sg.	to desire	
 170585	tḥmd	!t==!ḥmd[	/ḥ-m-d/	vb G prefc. 2 f. sg.	to desire	
@@ -51,7 +51,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170587	l	l(I)	l (I)	prep.	to	
 170588	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. nom.	wonderful	
 170589	t	/t, /t=				DULAT: NOT FOUND
-170589	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 170590	l	l(I)	l (I)	prep.	to	
 170590	l	l(II)	l (II)	adv.	no	
 170590	l	l(III)	l (III)	functor	certainly	
@@ -79,10 +78,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170601	tšu	!t!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc.	to raise	
 170602	w	w	w	conj.	and	
 170603	t	/t, /t=				DULAT: NOT FOUND
-170603	t	[t, [t=, [t==, [t===				DULAT: NOT FOUND
 # KTU 1.92 11						
 170604	aylt	ayl(t(I)/t	ảylt (I)	n. f. sg. abs. nom.	hind	
-170604	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. nom.	hind	
 170605	tġpy	!t!ġpy[:w	/ġ-p-y/	vb G prefc. 3 m. pl.	to espy, observe	
 170606	ṯr	ṯr(I)/	ṯr (I)	n. m. pl. cstr. nom.	bull	
 170606	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	
@@ -130,7 +127,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.92 17						
 170627	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. cstr. gen.	Koṯaru/Kothar	
 170628	ḥrš	ḥrš(I)/	ḥrš (I)	n. m. sg. cstr. gen.	1) craftsman	
-170629	ḫssm	ḫss/+m(I)	ḫss	DN/element sg. cstr. gen.	Ḫasisu/Khasis	
+170629	ḫssm	ḫss/~m	ḫss	DN/element sg. abs. gen.	Ḫasisu/Khasis	
 # KTU 1.92 18						
 170630	xxxxxbm	?	?	?	?	DULAT: NOT FOUND
 170631	ˤṯtrt	ˤṯtrt(II)/	ʕṯtrt (II)	TN sg. abs. nom.	ʿṯtrt (II)	
@@ -156,12 +153,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170643	krm	krm/	krm	n. m. sg. abs. nom.	1) vineyard a) krm ảḥd one vineyard	
 170644	ar	ar/	ả/ỉr	n. m. sg. abs. nom.	light	
 # KTU 1.92 25						
-170645	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
-170646	mḥtrt	mḥtr(t/t	mḥtrt	n. f. sg. cstr. nom.	green (garment)	
+170645	h	~h	-h(II)	adv. functor	to, towards	
+170646	mḥtrt	mḥtr(t/t	mḥtrt	n. f. sg. cstr. nom.	article of clothing	
 170647	pṯtm	pṯt(I)/m	pṯt (I)	n. m. pl. abs. gen.	1) linen	
 # KTU 1.92 26						
 170648	ˤlh	ˤl(I)+h	ʕl (I)	prep.	upon	
-170649	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg. abs. nom.	ein Gewand	
+170649	ušpġt	ušpġ(t/t	ủšpġt	n. f. sg. abs. nom.	a garment	
 170650	tišr	tišr/	tỉšr	n. m. sg. abs. nom.	cypress	
 # KTU 1.92 27						
 170651	ˤmh	ˤm(I)+h	ʕm (I)	prep.	to	
@@ -172,8 +169,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.92 28						
 170656	xb	?	?	?	?	DULAT: NOT FOUND
 170657	km	km	km	prep./conj./adv.		
-170658	kbkbt	kbkb/t	kbkb	n. f. sg. cstr. gen.	heavenly body	
-170659	kṯn	kṯ(I)/+n	kṯ (I)	n. f. cstr. gen.	flask	
+170658	kbkbt	kbkb/t=	kbkb	n. m. pl. cstr. gen.	heavenly body	
+170659	kṯn	kṯ(I)/~n	kṯ (I)	n. f. cstr. gen.	flask	
 170659	kṯn	kṯn(II)/	kṯn (II)	TN sg. cstr. gen.	kṯn (II)	
 # KTU 1.92 29						
 170660	btlt	btl(t/t	btlt	n. f. sg. cstr. gen.	virgin	
@@ -234,11 +231,12 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170690	l	l(I)	l (I)	prep.	to	
 170690	l	l(II)	l (II)	adv.	no	
 170690	l	l(III)	l (III)	functor	certainly	
-170691	n	~n	-n (I)	encl. morph.		DULAT: NOT FOUND
-170691	n		-n (IV)	vb	him/her/it	DULAT: NOT FOUND
+170691	n	~n	-n (I)	encl. morph.		
+170691	n		-n (IV)	vb	him/her/it	
 # KTU 1.92 35						
 170692	ġr	ġr(I)/	ġr (I)	n. m. sg. abs. nom.	mountain	
 170692	ġr	ġr(III)/	ġr (III)	n. m. sg. abs. nom.	skin	
+170692	ġr	ġr(II)/	ġr (II)	n. m. sg. abs. nom.	an installation for the funerary cult	
 170693	xxxxx	?	?	?	?	
 170694	al	al(I)	ảl (I)	neg. functor	no	
 170694	al	al(II)	ảl (II)	pos. functor	surely	
@@ -268,7 +266,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170704	brlt	brl(t/t	brlt	n. f. sg. cstr. nom.	hunger	
 170705	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. gen.	Charioteer	
 170706	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg. abs. gen.	cloud(s)	
-170706	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl. abs. gen.	cloud(s)	
 # KTU 1.92 38						
 170707	hn	hn	hn	functor	behold!	
 170708	xxxx	?	?	?	?	
@@ -285,4 +282,3 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170717	xxxbˤl	?	?	?	?	DULAT: NOT FOUND
 170718	rkb	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
 170719	ˤrpt	ˤrp(t/t	ʕrpt	n. f. sg. abs. gen.	cloud(s)	
-170719	ˤrpt	ˤrp(t/t=	ʕrpt	n. f. pl. abs. gen.	cloud(s)	

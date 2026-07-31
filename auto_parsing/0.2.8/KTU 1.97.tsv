@@ -18,7 +18,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170894	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 170894	št	št[	/š-t/	vb G impv. 2	to place	
 170894	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-170894	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 170895	mkšr	mkšr/	mkšr	n. m. sg. abs. nom.	semolina	
 170896	grn	grn(I)/	grn (I)	n. m. sg. abs. nom.	threshing-floor	
 170896	grn	grn(II)/	grn (II)	adj. m. sg. abs. nom.	current	
@@ -44,11 +43,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170909	xxxxxxx	?	?	?	?	
 # KTU 1.97 7						
 170910	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-170910	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 170910	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-170910	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 170910	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-170910	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 170911	yṣq	!y!(yṣq[	/y-ṣ-q/	vb G prefc. 3 m. sg.	to pour (out)	
 170911	yṣq	yṣq[	/y-ṣ-q/	vb G suffc. 3 m. sg.	to pour (out)	
 170912	b	b	b	prep.	in	
@@ -70,7 +66,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170922	śśw	śśw/	s:śs/św	n. m. sg. cstr. nom.	horse	
 # KTU 1.97 12						
 170923	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
-170924	ˤṯrb	ˤṯrb/	ʕṯrb	n. m. sg. abs. gen.	arbrisseau semblable au grenadier	
+170924	ˤṯrb	ˤṯrb/	ʕṯrb	n. m. sg. abs. gen.	of an ingredient or medicine in the hippiatric texts	
 170925	drˤ	drˤ/	d/ḏrʕ	n. m. sg. abs. nom.	seed	
 170925	drˤ	!!drˤ[/	/d-r-ʕ/	vb G inf.	to sow	
 170926	xxxxxx	?	?	?	?	
@@ -80,17 +76,16 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 170929	ld	(yld[	/y-l-d/	vb G impv. 2	to give birth (to)	
 170930	xxxxxxxxxx	?	?	?	?	
 # KTU 1.97 14						
-170931	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. nom.		
+170931	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. nom.	a medicinal plant	
 170932	w	w	w	conj.	and	
 170933	št	št[	/š-t/	vb G suffc. 3 m. sg.	to place	
 170933	št	št[	/š-t/	vb G impv. 2	to place	
 170933	št	št[:pass	/š-t/	vb Gpass suffc.	to be placed, set	
-170933	št	š(t(II)/t	št (II)	n. f. sg. cstr. nom.	raíz	
 170934	nnixxxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.97 15						
 170935	ˤqrb	ˤqrb/	ʕqrb	n. f. sg. abs. nom.	scorpion	
 170936	w	w	w	conj.	and	
-170937	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. nom.		
+170937	mġmġ	mġmġ/	mġmġ	n. m. sg. abs. nom.	a medicinal plant	
 170938	prxxxxxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.97 16						
 170939	xxx	?	?	?	?	

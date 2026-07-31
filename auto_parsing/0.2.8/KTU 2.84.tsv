@@ -38,10 +38,11 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179174	x	?	?	?	?	
 # KTU 2.84 11						
 179175	ġrm	ġr(I)/m	ġr (I)	n. m. pl. abs. nom.	2) DN “Mountain(s)”	
+179175	ġrm	ġrm/	ġrm	n. m. sg. abs. nom.	heap	
 179176	kr	kr[	/k-r/	vb suffc. 3 m. sg.	to be hot	
 # KTU 2.84 12						
 179177	b	b	b	prep.	in	
-179178	mdyt	?	?	?	?	DULAT: NOT FOUND
+179178	mdyt	md(I)&y/~t	md (I)	n. f. abs. gen.	cape	
 # KTU 2.84 13						
 179179	b	b	b	prep.	in	
 179180	mdk	md(I)/+k	md (I)	n. f. sg. cstr. gen.	cape	
@@ -95,4 +96,4 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 179209	hbṭ	hbṭ[:d	/h-b-ṭ/ẓ/	vb D suffc. 3 m. sg.	to knock down	
 179209	hbṭ	hbṭ[:d:w	/h-b-ṭ/ẓ/	vb D suffc. 3 m. pl.	to knock down	
 179209	hbṭ	!!hbṭ[/	/h-b-ṭ/ẓ/	vb D inf.	to knock down	
-179210	h	~h	-h(II)	adv. functor	to, towards	DULAT: NOT FOUND
+179210	h	~h	-h(II)	adv. functor	to, towards	

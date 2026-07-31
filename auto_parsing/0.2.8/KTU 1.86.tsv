@@ -30,7 +30,6 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 4						
 169921	w	w	w	conj.	and	
 169922	prt	pr(t(I)/t	prt (I)	n. f. sg. abs. nom.	heifer	
-169922	prt	pr(t(I)/t=	prt (I)	n. f. pl. abs. nom.	heifer	
 169923	tkt	!t!(nkt[	/n-k-t/	vb G prefc.	to immolate	
 169924	xxxx	?	?	?	?	
 169925	xlxx	?	?	?	?	DULAT: NOT FOUND
@@ -89,15 +88,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169952	mt	mt(III)/	mt (III)	n. m. pl. cstr. nom.	man	
 169952	mt	mt(III)/	mt (III)	n. m. sg. abs. nom.	man	
 169952	mt	mt(I)/	mt (I)	n. m. sg. abs. nom.	dead person	
+169952	mt	mt(IV)	mt (IV)	adv.	certainly	
 # KTU 1.86 12						
 169953	l	l(I)	l (I)	prep.	to	
 169954	bnš	bnš/	bnš	n. m. sg. abs. gen.	3) farmhand	
 169955	ḥmr	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. nom.	1) donkey b) hearing nqht ḥmrh the braying of his donkey	
 169955	ḥmr	ḥmr(II)/	ḥmr (II)	adj. m. sg. abs. nom.	red	
-169956	mdl	mdl[	/m-d-l/	vb G impv. 2	to bridle	
-169956	mdl	mdl[:d	/m-d-l/	vb D impv. 2	to bridle	
-169956	mdl	mdl(II)/	mdl (II)	n. m. sg. abs. nom.	lightning (?)	
-169956	mdl	mdl(I)/	mdl (I)	n. m. sg. abs. nom.	riding gear	
+169956	mdl	mdl(I)/	mdl (I)	n. m. sg. abs. nom.	part of the harness	
 169957	nˤ	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 13						
 169958	w	w	w	conj.	and	
@@ -107,8 +104,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169960	l	l(III)	l (III)	functor	certainly	
 169961	mdl	mdl[	/m-d-l/	vb G impv. 2	to bridle	
 169961	mdl	mdl[:d	/m-d-l/	vb D impv. 2	to bridle	
-169961	mdl	mdl(II)/	mdl (II)	n. m. sg. abs. nom.	lightning (?)	
-169961	mdl	mdl(I)/	mdl (I)	n. m. sg. abs. nom.	riding gear	
+169961	mdl	mdl(II)/	mdl (II)	n. m. sg. abs. nom.	perhaps a meteor	
+169961	mdl	mdl(I)/	mdl (I)	n. m. sg. abs. nom.	part of the harness	
 169962	rxxš	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 14						
 169963	w	w	w	conj.	and	
@@ -131,6 +128,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169970	imr	imr(I)/	ỉmr (I)	n. m. sg. abs. gen.	lamb	
 169971	ḫmx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 17						
+169972	bn	b+n	b	prep.	in	
 169972	bn	bn(I)/	bn (I)	n. m. sg. cstr. nom.	2) son of DN a) in mythological texts	
 169972	bn	bn(I)/	bn (I)	n. m. sg. abs. nom.	2) son of DN a) in mythological texts	
 169972	bn	bn(II)	bn (II)	prep.	between	
@@ -159,11 +157,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169982	trgm	!t===!rgm[	/r-g-m/	vb G prefc. 2 m. pl.	to say, tell, announce, communicate, inform	
 169983	b	b	b	prep.	in	
 169984	ydk	yd(I)/+k	yd (I)	n. f. cstr. nom.	hand	
-169984	ydk	yd(I)/+k=	yd (I)	n. f. cstr. nom.	hand	
 169984	ydk	yd(II)/+k	yd (II)	n. m. cstr. nom.	love	
-169984	ydk	yd(II)/+k=	yd (II)	n. m. cstr. nom.	love	
 169984	ydk	!y!dk[:pass	d-k(-k)/	vb Gpass prefc. 3 m. sg.	to be pounded	
-169984	ydk	!y=!dk[:pass	d-k(-k)/	vb Gpass prefc.	to be pounded	
 169985	yxx	?	?	?	?	DULAT: NOT FOUND
 # KTU 1.86 23						
 169986	mˤbd	mˤbd/	mʕbd	n. m. sg. cstr. nom.	labour	
@@ -172,6 +167,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.86 24						
 169989	w	w	w	conj.	and	
 169990	kśt	kt	kśt	→	?	
+169991	šqym	šqy[~m	/š-q-y/	vb G suffc.	to offer (something to) drink	
 169991	šqym	šqy/m	šqy	n. m. pl. abs. nom.	cupbearer	
 169991	šqym	šqy/m	šq	n. m. pl. abs. nom.	thigh	
 # KTU 1.86 25						
@@ -181,6 +177,7 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 169992	bn	bn(II)	bn (II)	prep.	between	
 169992	bn	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	
 169992	bn	bn[	/b-n/	vb G impv. 2	to understand	
+169993	šqym	šqy[~m	/š-q-y/	vb G suffc.	to offer (something to) drink	
 169993	šqym	šqy/m	šqy	n. m. pl. abs. nom.	cupbearer	
 169993	šqym	šqy/m	šq	n. m. pl. abs. nom.	thigh	
 169994	xx	?	?	?	?	

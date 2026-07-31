@@ -27,8 +27,8 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181017	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 181017	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181017	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181018	śzn	z/+n	śz	PN sg. cstr. nom.	śz	
-181019	ḫbty	ḫbty/	ḫbty	GN sg. abs. nom.	ḫbty	
+181018	śzn	z/~n	śz	PN sg. cstr. nom.	śz	
+181019	ḫbty	ḫbty/	ḫbty	GN sg. abs. gen.	ḫbty	
 # KTU 3.10 4						
 181020	ˤšrm	ˤšrm/	ʕšrm	num.	twenty	
 181021	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
@@ -89,13 +89,13 @@ id	surface form	morphological parsing	DULAT	POS	gloss	comments
 181044	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 181044	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
 181044	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. cstr. nom.	offspring	
-181045	bˤlyn	bˤl(II)&y/+n	bʕl (II)	n. m. cstr. nom.	lord	
-181046	ḥṭb	ḥṭb(I)/	ḥṭb (I)	n. m. sg. abs. nom.	wood-cutter	
+181045	bˤlyn	bˤl(II)&y/~n	bʕl (II)	n. m. cstr. nom.	lord	
+181046	ḥṭb	ḥṭb(I)/	ḥṭb (I)	n. m. sg. abs. gen.	wood-cutter	
 # KTU 3.10 13						
 181047	šbˤm	šbˤm/	šbʕm	num.	1) seventy a) appositional syntagm	
-181048	ṯqlm	ṯql/+m(I)	ṯql	n. m. cstr. nom.	1) unit of weight a) ṯql one shekel	
-181049	kbd	kbd(II)/	kbd (II)	n. m. sg. abs. nom.	1) total quantity or price	
-181050	ksp	ksp/	ksp	n. m. sg. abs. nom.	silver	
+181048	ṯqlm	ṯql/~m	ṯql	n. m. cstr. nom.	1) unit of weight a) ṯql one shekel	
+181049	kbd	kbd(II)/	kbd (II)	n. m. sg. cstr. gen.	1) total quantity or price	
+181050	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	
 181051	ˤl	ˤl(I)	ʕl (I)	prep.	upon	
 181051	ˤl	ˤl(II)	ʕl (II)	adv.	above	
 181051	ˤl	ˤl(III)/	ʕl (III)	n. m. sg. abs. nom.	offspring	
