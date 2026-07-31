@@ -223,7 +223,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160680	yrq	[yrq]	yrq/	yrq	n. m. sg. cstr. acc.	greenish-yellow metal/gold	yrq ḫrṣ 'yellow gold' is a construct expression coordinated with ksp (DULAT; EUPT Akk. m. sg.).
 # KTU 1.14 II:1							
 160681	ḫrṣ	[ḫrṣ  ]  	ḫrṣ/	ḫrṣ	n. m. sg. abs. acc.	gold	ḫrṣ yd mqmh (ransom list, // III:22-23).
-160682	yd	yd  	yd(I)/	yd (I)	n. m. sg. cstr. acc.	hand, yield	EUPT reads yd as prep. 'together with'.
+160682	yd	yd  	yd(I)/	yd (I)	n. f. sg. cstr. acc.	together with	Grammaticalized yd I: DULAT directly translates yrq ḫrṣ yd mqmh 'yellow gold together with its source'; EUPT labels the same form a preposition.
 160683	mqmh	mqmh	mqm/+h	mqm	n. m. sg. cstr. gen. + 3 m. sg. suff.	place, source	'its source' (the gold's).
 # KTU 1.14 II:2							
 160684	w	[w ] 	w	w	conj.	and	
@@ -232,47 +232,48 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160687	ṯlṯ	ṯlṯ	ṯlṯ(I)/	ṯlṯ (I)	num.	three	ṯlṯ sswm 'three horses'.
 # KTU 1.14 II:3							
 160688	sswm	[ssw]m    	ssw/m	ssw	n. m. pl. abs. acc.	horse	Huehnergard lemma
-160689	mrkbt	mrkbt  	mrkb(t/t	mrkbt	n. f. sg. abs. acc.	(war-)chariot	
+160689	mrkbt	mrkbt  	mrkb(t/t=	mrkbt	n. f. pl. abs. acc.	(war-)chariot	Plural object coordinated with ṯlṯ sswm 'three horses' (Martijn/Tania; EUPT Akk. f. pl.).
 160690	b	b 	b	b	prep.	from	b trbṣ 'from the stable'.
 160691	trbṣ	trbṣ  	trbṣ/	trbṣ	n. m. sg. cstr. gen.	yard, stable	
-160692	bnamt	bn . amt	?	?	?	?	bn amt 'the son of a slave-woman'. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+160692	bnamt	bn . amt	bn(I)/ am(t(I)/t	bn (I), ảmt (I)	n. m. sg. cstr. gen., n. f. sg. abs. gen.	son, female slave	Two lexical words joined by TF: bn amt 'son of a slave-woman' (Martijn/Tania; DULAT attests b trbṣ bn amt at II:3).
 # KTU 1.14 II:4							
-160693	xxx	[xxx  ]  	?	?	?	?	
+160693	xxx	[xxx  ]  	?	?	?	?	No recoverable lexical identity; EUPT and the translations leave the opening of the clause broken.
 160694	ṯnm	ṯnm  	ṯn(I)&m	ṯn (I)	num.	two	Broken context; UNP/DULAT: '[offspring] may I procreate'.
+160694	ṯnm	ṯnm  	(b&ṯn/m	bn (I)	n. m. pl. abs. acc.	offspring	Alt. DULAT attestation: ]bnm aqny 'may I procreate offspring'; initial b is written ṯ in the preserved surface (Martijn/Tania note the alternate reading bnm).
 160695	aqny	aqny	!(ʔ&a!qny[	/q-n-y/	vb G prefc. 1 c. sg.	to acquire, procreate	aqny 'may I procreate' (DULAT/EUPT G-PKKe 1 c. sg.).
 # KTU 1.14 II:5							
-160696	xx	[xx  ]  	?	?	?	?	
+160696	xx	[xx  ]  	?	?	?	?	Two illegible signs; no source supports a lexical restoration.
 160697	šrm	šrm  	šr(II)/m	šr (II)	n. m. pl. abs. acc.	musician	
 160698	amid	amid	!(ʔ&a!m(ʔ&id[:d	/m-ʔ-d/	vb D prefc. 1 c. sg.	to make numerous	amid 'I would multiply' (DULAT /m-ʔ-d/).
 # KTU 1.14 II:6							
-160699	w	w[ ] 	w	w	conj.	and	Split; w yṯb ṯr abh il 'and the Bull, his father El, replied' (EUPT: G-PKL). | Migrated from legacy reviewed tokenization.
-160700	yṯb	[yṯ]b    	!y!(wṯb[	/ṯ-w-b/	vb G prefc. 3 m. sg.	to answer, reply	Split; w yṯb ṯr abh il 'and the Bull, his father El, replied' (EUPT: G-PKL). | Migrated from legacy reviewed tokenization. | Huehnergard lemma
+160699	w	w[ ] 	w	w	conj.	and	w yṯb ṯr abh il 'and the Bull, his father El, replied' (DULAT; EUPT G-PKL).
+160700	yṯb	[yṯ]b    	!y!ṯ(wb[	/ṯ-w-b/	vb G prefc. 3 m. sg.	to answer, reply	Weak-medial /ṯ-w-b/: preformative y is written and radical w is unexpressed; w yṯb ṯr abh il 'and the Bull, his father El, replied' (EUPT G-PKL; Huehnergard).
 160701	ṯr	ṯr  	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	ṯr abh il 'the Bull, his father El' (epithet).
 160702	abh	abh  	ab/+h	ảb	n. m. sg. cstr. nom. + 3 m. sg. suff.	father	
 160703	il	il	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	
 # KTU 1.14 II:7							
-160704	dxxt	d[xx]t      	?	?	?	?	= d [y]k? largely broken.
+160704	dxxt	d[xx]t      	?	?	?	?	Possibly d[y]k 'enough' in DULAT's reconstruction d[y]k b-bky krt, but the preserved final t does not license that restoration.
 160705	b	b 	b	b	prep.	at	
-160706	bk	bk  	bk/	bk	n. m. sg. abs. gen.	weeping	EUPT: bi bakî 'at the weeping' (inf. of /b-k-y/); or bk 'beaker'.
-160707	rkrt	[[r]]krt	?	?	?	?	
+160706	bk	bk  	!!bk(y[/	/b-k-y/	vb G inf. cstr. gen.	to weep	Infinitive governed by b: b-bky 'at/enough of weeping' (DULAT direct attestation; EUPT G-Inf. Gen. St.cs.; Martijn/Tania).
+160706	bk	bk  	bk/	bk	n. m. sg. abs. gen.	beaker	Alt. lexical surface reading; context and EUPT strongly favor the infinitive 'weeping'.
+160707	rkrt	[[r]]krt	&rkrt/	krt	PN sg. abs. nom.	Kirta	Redundant initial r before krt; vocative in DULAT's reconstructed d[y]k b-bky krt 'enough weeping, Kirta!' (Martijn/Tania).
 # KTU 1.14 II:8							
 160708	b	b 	b	b	prep.	at	
 160709	dmˤ	dmʿ  	!!dmˤ[/	/d-m-ʕ/	vb G inf.	to shed tears, weep	b dmˤ 'at the weeping'.
-160710	nmˤmn	n[[m]]ʿmn    	?	?	?	?	= n(ˤ)mn? 'the handsome one' (DULAT nˤmn); surface nmˤmn crux.
-160711	ġlm	ġlm	ġlm/	ġlm	n. m. sg. cstr. nom.	boy, youth	nˤmn ġlm il 'the handsome Lad of El'.
+160710	nmˤmn	n[[m]]ʿmn    	n&mˤmn(I)/	nʕmn (I)	adj. m. sg. abs. gen.	handsome	Read nˤmn 'the handsome one' with a redundant m after n (Martijn/Tania; DULAT nʕmn I; EUPT Gen. m. sg.).
+160711	ġlm	ġlm	ġlm/	ġlm	n. m. sg. cstr. gen.	boy, youth	nˤmn ġlm il 'the handsome Lad of El' (EUPT Gen. m. sg. St.cs.).
 # KTU 1.14 II:9							
 160712	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 160713	trtḥṣ	trtḥṣ   	!t=!r]t]ḥṣ[	/r-ḥ-ṣ/	vb Gt prefc. 2 m. sg.	to wash oneself	trtḥṣ w tadm 'wash yourself and rouge yourself' (EUPT: 2 m. sg.).
 160714	w	w 	w	w	conj.	and	
-160715	tadm	tadm	!t=!](n](ʔ&adm[	/ʔ-d-m/	vb N prefc. 2 m. sg.	to rouge oneself	
+160715	tadm	tadm	!t!(]n](ʔ&adm[	/ʔ-d-m/	vb N prefc. 2 m. sg.	to rouge oneself	Assimilated N-stem nun is reconstructed before the aleph-initial root: trtḥṣ w tadm 'wash and rouge yourself' (DULAT/EUPT; Martijn/Tania).
 # KTU 1.14 II:10							
 160716	rḥṣ	rḥṣ[  ]  	!!rḥṣ[	/r-ḥ-ṣ/	vb G impv. m. sg.	to wash	rḥṣ ydk 'wash your hands' (EUPT: G-Imp.); auto reads ptcpl.
 160717	ydk	[y]dk    	yd(I)/+k	yd (I)	n. f. du. cstr. acc. + 2 m. sg. suff.	hand	ydk 'your (two) hands' (EUPT: Du.).
 160718	amt	amt	am(t(II)/t	ảmt (II)	n. f. sg. abs. acc.	elbow	ydk amt 'your hands to the elbow' (EUPT amt (II); DULAT ảmt II 'elbow').
 # KTU 1.14 II:11							
 160719	uṣbˤtk	uṣbʿ[tk ]  	uṣbˤ/t=+k	ủṣbʕ	n. f. pl. cstr. acc. + 2 m. sg. suff.	finger	uṣbˤtk 'your fingers' (EUPT: Pl.).
-160720	ˤd	ʿd   	ˤd(I)	ʕd (I)	prep.	up to	ˤd ṯkm 'up to the shoulder' (EUPT prep. ˤd).
-160720	ˤd	ʿd   	ˤd(III)/	ʕd (III)	n. m. sg. abs. acc.	throne	Alt.: ˤd (III).
+160720	ˤd	ʿd   	ˤd(I)	ʕd (I)	prep.	up to	ˤd ṯkm 'up to the shoulder' (EUPT prep. ˤd); the context excludes the unrelated noun 'throne'.
 160721	ṯkm	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. gen.	shoulder	
 # KTU 1.14 II:12							
 160722	ˤrb	ʿrb [ ] 	!!ˤrb(I)[	/ʕ-r-b/ (I)	vb G impv. m. sg.	to enter	ˤrb b ẓl ḫmt 'enter into the shade of the tent' (EUPT: G-Imp.).
@@ -287,11 +288,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 II:14							
 160730	imr	imr  	imr(I)/	ỉmr (I)	n. m. sg. cstr. acc.	lamb	imr dbḥ 'a sacrificial lamb'.
 160731	dbḥ	d[bḥ  ]  	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	imr dbḥ 'lamb of sacrifice' (EUPT dbḥ-II n.).
-160732	bm	[b]m  	b+m(I)	b	prep. + encl. -m	in	bm ymn 'in the right (hand)'.
-160733	ymn	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. acc.	right (hand)	
+160732	bm	[b]m  	b~m	b	prep. + encl. -m	in	bm ymn 'in the right (hand)' (Martijn/Tania).
+160733	ymn	ymn	ymn(I)/	ymn (I)	n. m. sg. abs. gen.	right (hand)	Object of b~m; EUPT Gen. m. sg.
 # KTU 1.14 II:15							
 160734	lla	lla  	ll(u&a/	llủ	n. m. sg. abs. acc.	suckling (lamb or kid)	
-160735	klatnm	kl[atn]m	kla(t/t~m	?	?	?	klatnm 'in both (hands)'? EUPT: kilˀatêna-ma (du. + -m); largely restored, DULAT lemma uncertain.
+160735	klatnm	kl[atn]m	kla(t/tn~m(I)	klảt(n)	n. f. du. abs. acc. + encl. -m	both (hands)	Feminine dual klảt(n) with dual -tn; the first dual m dissimilates to n before enclitic -m (Martijn/Tania; EUPT kilˀatêna-ma; DULAT klảt(n)).
 # KTU 1.14 II:16							
 160736	klt	klt  	kl(t(II)/t	klt (II)	n. f. sg. cstr. acc.	measure	klt lḥmk 'a measure of your bread' (DULAT klt II).
 160737	lḥmk	l[ḥmk  ]  	lḥm/+k	lḥm	n. m. sg. cstr. gen. + 2 m. sg. suff.	bread	
@@ -299,7 +300,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160739	nzl	nzl	nzl/	nzl	n. m. sg. abs. gen.	offering	
 # KTU 1.14 II:17							
 160740	qḥ	qḥ  	!!(lqḥ[	/l-q-ḥ/	vb G impv. m. sg.	to take	
-160741	msrrˤṣr	ms[rr .]ʿṣr	?	?	?	?	msrr ˤṣr dbḥ 'the entrails of a sacrificial bird'. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+160741	msrrˤṣr	ms[rr .]ʿṣr	msrr/ ˤṣr(I)/	msrr, ʕṣr (I)	n. m. sg. cstr. acc., n. f. sg. cstr. gen.	entrails, bird	Two lexical words joined by TF: qḥ msrr ˤṣr dbḥ 'take the entrails of a sacrificial bird' (Martijn/Tania; DULAT msrr and ʕṣr I; EUPT).
 # KTU 1.14 II:18							
 160742	dbḥ	dbḥ  	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	ˤṣr dbḥ 'sacrificial bird'.
 160743	ṣq	ṣq[  ]  	!!(yṣq[	/y-ṣ-q/	vb G impv. m. sg.	to pour	ṣq b gl ḥtṯ yn 'pour wine into a silver cup' (EUPT: G-Imp. of yṣq).
@@ -310,7 +311,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160747	yn	yn  	yn/	yn	n. m. sg. abs. acc.	wine	
 160748	b	b 	b	b	prep.	into	
 160749	gl	gl  	gl(II)/	gl (II)	n. m. sg. cstr. gen.	cup	b gl ḫrṣ 'in a cup of gold'.
-160750		[ ] 	?	?	?	?	Migrated from legacy reviewed tokenization.
+160750		[ ] 	?	?	?	?	No sign is present in TF; the translations and expert source place no lexical word here.
 160751	ḫrṣ	[ḫ]rṣ    	ḫrṣ/	ḫrṣ	n. m. sg. abs. gen.	gold	
 160752	nbt	nbt	nb(t/t	nbt	n. f. sg. abs. acc.	honey	(pour) nbt 'honey' (// yn).
 # KTU 1.14 II:20							
@@ -325,7 +326,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160758	ˤl	ʿl  	ˤl(II)	ʕl (II)	adv.	above	Alt.: adv.
 160759	l	l 	l(I)	l (I)	prep.	to	
 160760	ẓr	ẓr  	ẓr(I)/	ẓr (I)	n. m. sg. cstr. gen.	top, back	
-160761	mgdl	mgdl   	mgdl/	mgdl	n. m. sg. cstr. gen.	tower	
+160761	mgdl	mgdl   	mgdl/	mgdl	n. m. sg. abs. gen.	tower	Genitive complement of l ẓr 'on top of', parallel to II:20.
 160762	rkb	rkb	!!rkb[	/r-k-b/	vb G impv. m. sg.	to mount	rkb ṯkmm ḥmt 'mount the shoulders of the wall' (EUPT: G-Imp.).
 # KTU 1.14 II:22							
 160763	ṯkmm	ṯkmm  	ṯk/m~m	ṯkm	n. m. du. cstr. acc. + encl. -m	shoulder	ṯkmm ḥmt 'the shoulders of the wall'.
@@ -333,8 +334,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160765	ša	ša  	!!(nš(ʔ[&a	/n-š-ʔ/	vb G impv. m. sg.	to raise	ša ydk šmm 'raise your hands to heaven' (lengthened impv.).
 160766	ydk	ydk	yd(I)/+k	yd (I)	n. f. du. cstr. acc. + 2 m. sg. suff.	hand	
 # KTU 1.14 II:23							
-160767	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. acc.	heavens	
-160768	dbḥl	dbḥ .l 	?	?	?	?	dbḥ l ṯr abk il 'sacrifice to the Bull your father El' (EUPT: G-Imp.). | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+160767	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl. tant. abs. acc.	heavens	Plural-tantum object of ša 'raise' (DULAT forms; EUPT Akk. m. pl.).
+160768	dbḥl	dbḥ .l 	!!dbḥ[ l(I)	/d-b-ḥ/, l (I)	vb G impv. m. sg., prep.	to sacrifice, to	Two lexical words joined by TF: dbḥ l ṯr abk il 'sacrifice to the Bull, your father El' (DULAT direct attestation; EUPT; Martijn/Tania).
 160769	ṯr	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. gen.	bull	
 # KTU 1.14 II:24							
 160770	abk	abk  	ab/+k	ảb	n. m. sg. cstr. gen. + 2 m. sg. suff.	father	
@@ -351,10 +352,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160779	mṣdk	mṣdk  	mṣd(I)/+k	mṣd (I)	n. m. sg. cstr. gen. + 2 m. sg. suff.	feast of game	b mṣdk 'with your game-offering'.
 160780	w	w 	w	w	conj.	and	
 160781	yrd	yrd	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg. juss.	to go down	w yrd krt l ggt 'and let Kirta come down from the roof' (juss.).
+160781	yrd	yrd	yrd[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	Alt. EUPT G-SK 3 m. sg.; Martijn/Tania note that an SC may carry future/volitive force here.
 # KTU 1.14 II:27							
 160782	krt	krt  	krt/	krt	PN sg. abs. nom.	Kirta	
 160783	l	l 	l(I)	l (I)	prep.	from	
-160784	ggt	ggt  	gg(I)/t=	gg (I)	n. f. pl. abs. gen.	roof	l ggt 'from the roof-terraces'.
+160784	ggt	ggt  	gg(I)/t=	gg (I)	n. m. pl. abs. gen.	roof	l ggt 'from the roof-terraces'; current DULAT and Huehnergard classify gg I as masculine (Martijn/Tania: -t occurs in the plural form).
 160785	ˤdb	ʿdb	ˤdb[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to prepare	ˤdb akl 'let him prepare food' (EUPT: G-SK ˤadaba; juss. sense).
 # KTU 1.14 II:28							
 160786	akl	akl  	akl(II)/	ảkl (II)	n. m. sg. abs. acc.	grain, food	
@@ -366,43 +368,42 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160791	bt	bt  	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	bt ḫbr 'Daughter-of-Ḫubur' (TN; EUPT ON Bêtu-Ḫabūri).
 160792	ḫbr	ḫbr	ḫbr/	ḫbr	TN sg. abs. gen.	Ḫubur	
 # KTU 1.14 II:30							
-160793	yip	yip  	!y!(ʔ&ip[	/ʔ-p-y/	vb G prefc. 3 m. sg. juss.	to bake	yip lḥm 'let him bake bread' (EUPT: G-PKK yaˀpî).
+160793	yip	yip  	!y!(ʔ&ip(y[	/ʔ-p-y/	vb G prefc. 3 m. sg. juss.	to bake	Weak-final /ʔ-p-y/ with reconstructed third radical: yip lḥm 'let him bake bread' (DULAT direct attestation; EUPT G-PKK yaˀpî; Martijn/Tania).
 160794	lḥm	lḥm  	lḥm/	lḥm	n. m. sg. abs. acc.	bread	
 160795	d	d 	d	d	det. or rel. functor	which	d ḫmš 'for the fifth (month)'.
-160796	ḫmš	ḫmš	ḫmš(II)/	ḫmš (II)	num.	fifth	lḥm d ḫmš (DULAT ḫmš II; the fifth month).
+160796	ḫmš	ḫmš	ḫmš(II)/	ḫmš (II)	adj. m. sg. abs. gen.	fifth	Substantivized ordinal in lḥm d ḫmš 'bread (to last until) the fifth month' (DULAT direct attestation and adjectival POS; EUPT).
 # KTU 1.14 II:31							
-160797	mġd	mġd  	mġd/	mġd	n. m. sg. abs. acc.	food, provisions	
-160798	ṯdṯ	ṯdṯ  	ṯdṯ/	ṯdṯ	adj. m. sg. abs. gen.	sixth	ṯdṯ yrḫm 'the sixth month'.
-160799	yrḫm	yrḫm	yrḫ/~m	yrḫ	n. m. sg. abs. gen. + encl. -m	month	
+160797	mġd	mġd  	mġd/	mġd	n. m. sg. cstr. acc.	food, provisions	Construct before the following measure phrase (EUPT Akk. m. sg. St.cs.; DULAT: food until the sixth month).
+160798	ṯdṯ	ṯdṯ  	ṯdṯ/	ṯdṯ	adj. m. sg. abs. gen.	sixth	Primary DULAT ordinal reading: ṯdṯ yrḫm 'the sixth month'.
+160798	ṯdṯ	ṯdṯ  	ṯdṯ/	ṯdṯ	num. m. sg. cstr. gen.	six-count	Alt. EUPT Kollektivzahl Gen. m. sg. St.cs.: 'a six-count of months'.
+160799	yrḫm	yrḫm	yrḫ/m	yrḫ	n. m. pl. abs. gen.	month	Plural ending -m, not an enclitic: EUPT Gen. m. pl.; Martijn/Tania yrḫ/m.
 # KTU 1.14 II:32							
-160800	ˤdn	ʿdn  	ˤdn(III)/	ʕdn (III)	n. m. sg. abs. nom.	party, troops	ˤdn ngb 'the provisioning-party' (DULAT ˤdn III; EUPT ˤdn-II).
-160801	ngb	ngb  	ngb/	ngb	n. m. sg. abs. acc.	victualling	ˤdn ngb 'the provisioning-party' (DULAT ngb n.); EUPT reads ngb as vb (Gp/N-SK 'be provisioned').
+160800	ˤdn	ʿdn  	ˤdn(III)/	ʕdn (III)	n. m. sg. cstr. nom.	party, troops	Construct in ˤdn ngb 'the provisioning-party/troops of victualling' (DULAT direct attestation).
+160801	ngb	ngb  	ngb/	ngb	n. m. sg. abs. gen.	victualling	DULAT nominal reading in ˤdn ngb 'troops of victualling'; EUPT alternatively parses nugiba as Gpass suffc. 3 m. sg. 'was provisioned'.
 160802	w	w 	w	w	conj.	and	
 160803	yṣi	yṣi	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg. juss.	to go out	w yṣi ṣbu 'and let the army march out' (juss.).
 # KTU 1.14 II:33							
 160804	ṣbu	ṣbu  	ṣbu(I)/	ṣbủ (I)	n. m. sg. cstr. nom.	army	ṣbu ṣbi 'the army of armies' (a huge host).
 160805	ṣbi	ṣbi  	ṣb(u&i(I)/	ṣbủ (I)	n. m. sg. abs. gen.	army	
-160806	ngb	ngb	ngb/	ngb	n. m. sg. abs. gen.	victualling	
+160806	ngb	ngb	ngb/	ngb	n. m. sg. abs. gen.	victualling	DULAT nominal reading: ṣbu ṣbi ngb 'the largest army of victualling'; EUPT alternatively parses nugiba as Gpass suffc. 3 m. sg. 'was provisioned'.
 # KTU 1.14 II:34							
 160807	w	w 	w	w	conj.	and	
 160808	yṣi	yṣi  	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg. juss.	to go out	
-160809	ˤdn	ʿdn 	ˤdn(III)/	ʕdn (III)	n. m. sg. cstr. nom.	party	= ˤdn 'troops' (broken ˤdnx). | Migrated from legacy reviewed tokenization.
-160809	ˤdn	ʿdn 	!!ˤdn[/	/ʕ-d-n/	vb G inf.	to appoint the time	= ˤdn 'troops' (broken ˤdnx). | Migrated from legacy reviewed tokenization.
-160809	ˤdn	ʿdn 	!!ˤdn[/	/ʕ-d-n/	vb D inf.	to appoint the time	= ˤdn 'troops' (broken ˤdnx). | Migrated from legacy reviewed tokenization.
-160809	ˤdn	ʿdn 	ˤdn(I)/	ʕdn (I)	n. m. sg. abs. nom.	time	= ˤdn 'troops' (broken ˤdnx). | Migrated from legacy reviewed tokenization.
-160810	x	[[x ]]    	?	?	?	?	= ˤdn 'troops' (broken ˤdnx). | Migrated from legacy reviewed tokenization.
-160811	mˤ	mʿ	mˤ(II)	mʕ (II)	adv.	as one, together	yṣi ˤdn mˤ 'let the troops go out as one'.
+160809	ˤdn	ʿdn 	ˤdn(III)/	ʕdn (III)	n. m. sg. abs. nom.	party, troops	MERGE WITH THE NEXT: TF splits ˤdnx; unknown x is a scribal error after ˤdn 'troops' and is excluded from normalized reconstruction (Martijn/Tania), in w yṣi ˤdn mˤ 'and let the troops go out as one'.
+160810	x	[[x ]]    	ˤdn(III)/	ʕdn (III)	n. m. sg. abs. nom.	party, troops	MERGE WITH THE PREVIOUS.
+160811	mˤ	mʿ	mˤ(II)	mʕ (II)	adv.	as one, together	Primary DULAT direct attestation: yṣi ˤdn mˤ 'let the troops go out as one'.
+160811	mˤ	mʿ	mˤ(I)	mʕ (I)	adj. m. sg. abs. nom.	strong, great	Alt. EUPT maˁˁu, Adj. Nom. m. sg.; current DULAT's EUPT enrichment records mʕ I 'strong, great'.
 # KTU 1.14 II:35							
 160812	ṣbuk	ṣbuk  	ṣbu(I)/+k	ṣbủ (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	army	ṣbuk ul mad 'your army (will be) a mighty force'.
 160813	ul	ul  	ul/	ủl	n. m. sg. abs. nom.	(military) force	
-160814	mad	mad	m(ʔ&ad[	/m-ʔ-d/	vb G suffc. 3 m. sg.	to be immense, numerous	
+160814	mad	mad	m(ʔ&ad[	/m-ʔ-d/	vb G suffc. 3 m. sg.	to be immense, numerous	DULAT direct attestation: ṣbuk ul mad 'your army (will be) a force which is immense'. EUPT instead labels maˀadu an adjective; the lexical predicate remains the same.
 # KTU 1.14 II:36							
-160815	ṯlṯ	ṯlṯ  	ṯlṯ(III)/	ṯlṯ (III)	n. m. sg. abs. nom.	charioteer	DULAT: ṯlṯ mat rbt 'charioteers, hundreds of myriads' (ṯlṯ III).
-160815	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num.	three	EUPT: 'three hundred myriads' (ṯlṯ 'three').
-160816	mart	ma[[r]]t    	m(ʔ&a&r(t/t=	mỉt	num. f.	hundred	Surface mart; read mỉt 'hundred' (r anomalous; // III:22).
-160817	rbt	rbt	rb(t/t	rb(b)t	num.	ten thousand	mat rbt 'hundreds of myriads'.
+160815	ṯlṯ	ṯlṯ  	ṯlṯ(III)/	ṯlṯ (III)	n. m. pl. cstr. nom.	charioteer	Primary DULAT direct attestation: ṯlṯ mat rbt 'the charioteers are hundreds of myriads'.
+160815	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num. m. sg. abs. nom.	three	Alt. EUPT: 'three hundred myriads'.
+160816	mart	ma[[r]]t    	m(ʔ&a&r(t/t=	mỉt	n. f. pl. abs. nom.	hundred	KTU corrected: mỉt | Read mảt/mỉt 'hundreds'; r is a scribal error and /t= marks the plural (DULAT direct attestation; Martijn/Tania; // III:22).
+160817	rbt	rbt	rb(t/t=	rb(b)t	num. f. pl. abs. gen.	ten thousand	Primary Martijn/Tania and DULAT reading: plural 'myriads' governed by 'hundreds'. EUPT instead parses rabbatu as a singular nominative cardinal.
 # KTU 1.14 II:37							
-160818	ḫpṯ	ḫpṯ  	ḫpṯ/	ḫpṯ	n. m. sg. abs. nom.	fugitive; light-armed soldier	ḫpṯ d bl spr 'ḪPṮ-troops without number'.
+160818	ḫpṯ	ḫpṯ  	ḫpṯ/	ḫpṯ	n. m. sg. abs. nom.	fugitive or light-armed soldier	Collective: ḫpṯ d bl spr 'mercenaries without number' (DULAT direct attestation).
 160819	d	d 	d	d	det. or rel. functor	which	
 160820	bl	bl  	bl(II)	bl (II)	prep.	without	d bl spr 'without number'.
 160821	spr	spr	spr(III)/	spr (III)	n. m. sg. cstr. gen.	number, count	
@@ -420,16 +421,18 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 II:40							
 160830	w	w 	w	w	conj.	and	
 160831	l	l 	l(I)	l (I)	prep.	by	
-160832	rbt	rbt  	rb(t/t	rb(b)t	num.	ten thousand	l rbt 'by the myriad'.
+160832	rbt	rbt  	rb(t/t=	rb(b)t	num. f. pl. abs. gen.	ten thousand	Plural 'by myriads' after l (Martijn/Tania /t=; EUPT Gen. f. pl.; DULAT direct attestation).
 160833	km	km  	km	km	prep.	like	
 160834	yr	yr	yr/	yr	n. m. sg. abs. gen.	early rain	km yr 'like the early rain'.
 # KTU 1.14 II:41							
-160835	aṯr	aṯr  	aṯr(III)	ảṯr (III)	prep.	behind, after	aṯr ṯn ṯn hlk 'behind two, two march'.
+160835	aṯr	aṯr  	aṯr(I)	ảṯr (I)	prep.	behind, after	Primary EUPT/Martijn-Tania reading: aṯr ṯn ṯn hlk 'two by two they march'; the previous homonym III means 'where' and is excluded.
+160835	aṯr	aṯr  	!!(ʔ&aṯr[/	/ʔ-ṯ-r/	vb G inf.	to go, follow	Alt. DULAT direct attestation: 'by the myriad like early rain they go/follow; two by two they go'.
 160836	ṯn	ṯn  	ṯn(I)/	ṯn (I)	num.	two	
 160837	ṯn	ṯn  	ṯn(I)/	ṯn (I)	num.	two	
 160838	hlk	hlk	hlk[	/h-l-k/	vb G suffc. 3 m. du.	to go, march	EUPT: halakā 3 m. du.
 # KTU 1.14 II:42							
-160839	aṯr	aṯr  	aṯr(III)	ảṯr (III)	prep.	behind, after	
+160839	aṯr	aṯr  	aṯr(I)	ảṯr (I)	prep.	behind, after	Primary EUPT/Martijn-Tania reading: aṯr ṯlṯ klhm 'in threes, all of them'; the previous homonym III means 'where' and is excluded.
+160839	aṯr	aṯr  	!!(ʔ&aṯr[/	/ʔ-ṯ-r/	vb G inf.	to go, follow	Alt. DULAT direct attestation: 'they go in threes, all of them'.
 160840	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num.	three	aṯr ṯlṯ klhm 'behind three, all of them' (DULAT ṯlṯ I 'set of three').
 160841	klhm	klhm	kl/+hm	kl	n. m. sg. cstr. nom. + 3 m. pl. suff.	all (of them)	klhm 'all of them'.
 # KTU 1.14 II:43							
@@ -442,16 +445,15 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 II:45							
 160847	tškr	tškr  	!t!škr[	/š-k-r/ (I)	vb G prefc. 3 f. sg.	to hire out	
 160848	zbl	zbl  	zbl(III)/	zbl (III)	n. m. sg. abs. nom.	the sick one	zbl ˤršm yšu 'let the sick one carry his bed' (DULAT zbl III 'one carried').
-160849	ˤršm	ʿršm	ˤrš/~m	ʕrš	n. f. sg. abs. acc. + encl. -m	bed, stretcher	
+160849	ˤršm	ʿršm	ˤrš/~m	ʕrš	n. f. sg. abs. acc. + encl. -m	bed, stretcher	DULAT and Huehnergard classify ʕrš as feminine; EUPT instead assigns masculine gender to this occurrence.
 # KTU 1.14 II:46							
 160850	yšu	yšu  	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg. juss.	to lift, carry	yšu 'let him carry' (juss.).
 160851	ˤwr	ʿwr  	ˤwr/	ʕwr	n. m. sg. abs. nom.	blind man	ˤwr mzl ymzl 'the blind man gropes his way'.
-160852	mszl	m[[s]]zl  	?	?	?	?	= mzl 'groping' (paronom. inf.)? surface mszlym crux. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
-160853	ym	[[ym]]	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	= mzl 'groping' (paronom. inf.)? surface mszlym crux. | Migrated from legacy reviewed tokenization.
-160853	ym	[[ym]]	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	= mzl 'groping' (paronom. inf.)? surface mszlym crux. | Migrated from legacy reviewed tokenization.
-160853	ym	[[ym]]	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	= mzl 'groping' (paronom. inf.)? surface mszlym crux. | Migrated from legacy reviewed tokenization.
+160852	mszl	m[[s]]zl  	!!m&szl[/&y&m	/m-z-l/	vb G inf.	to grope one's way	MERGE WITH THE NEXT: TF splits the single corrupt form mszlym; read paronomastic infinitive mzl with scribal s, y, and m (Martijn/Tania; DULAT /m-z-l/; EUPT).
+160853	ym	[[ym]]	!!m&szl[/&y&m	/m-z-l/	vb G inf.	to grope one's way	MERGE WITH THE PREVIOUS; erased ym belongs to the corrupt infinitive, not to the nouns 'day' or 'sea'.
 # KTU 1.14 II:47							
-160854	ymzl	ymzl  	!y!mzl[	/m-z-l/	vb G prefc. 3 m. sg. juss.	to grope one's way	
+160854	ymzl	ymzl  	!y!mzl[	/m-z-l/	vb G prefc. 3 m. sg. juss.	to grope one's way	Primary DULAT/EUPT G-stem reading in the paronomastic construction mzl ymzl.
+160854	ymzl	ymzl  	!y!mzl[:d	/m-z-l/	vb D prefc. 3 m. sg. juss.	to grope one's way	Alt. Martijn/Tania D-stem analysis.
 160855	w	w 	w	w	conj.	and	
 160856	yṣi	yṣi  	yṣ(ʔ&i[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg. juss.	to go out	
 160857	trḫ	trḫ	trḫ/	trḫ	n. m. sg. abs. nom.	newlywed, groom	trḫ ḥdṯ 'the newlywed' (DULAT trḫ n.; EUPT tarīḫu).
@@ -459,10 +461,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160858	ḥdṯ	ḥdṯ  	ḥdṯ(I)/	ḥdṯ (I)	adj. m. sg. abs. nom.	new, newly (wed)	
 160859	ybˤr	ybʿr  	!y!bˤr(II)[:d	/b-ʕ-r/ (II)	vb D prefc. 3 m. sg. juss.	to send away	ybˤr l ṯn aṯth 'let him hand his wife to another'.
 160860	l	l 	l(I)	l (I)	prep.	to	
-160861	ṯn	ṯn	ṯn(II)/	ṯn (II)	num./adj.	another, second	l ṯn 'to another'.
+160861	ṯn	ṯn	ṯn(II)/	ṯn (II)	num. or adj. m. sg. abs. gen.	another, second	DULAT direct attestation l ṯn 'to another'; EUPT instead labels ṯanî an indefinite pronoun.
 # KTU 1.14 II:49							
 160862	aṯth	aṯth  	aṯ(t/t+h	ảṯt	n. f. sg. cstr. acc. + 3 m. sg. suff.	wife	
-160863	lm	lm  	l(I)+m(I)	l (I)	prep. + encl. -m	to	
+160863	lm	lm  	l(I)~m	l (I)	prep. + encl. -m	to	Enclitic -m: lm nkr 'to a stranger' (Martijn/Tania).
 160864	nkr	nkr	nkr/	nkr	adj. m. sg. abs. gen.	stranger, foreigner	lm nkr 'to a stranger'.
 # KTU 1.14 II:50							
 160865	mddth	mddth  	mdd(t(I)/t+h	mddt (I)	n. f. sg. cstr. acc. + 3 m. sg. suff.	beloved	mddth 'his beloved'.
