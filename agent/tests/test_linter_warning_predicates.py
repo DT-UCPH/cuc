@@ -22,6 +22,7 @@ from linter.lint import (
     row_has_baal_verbal_missing_slash,
     row_has_mixed_baal_dn_labourer_reading,
     split_analysis_for_lexeme_and_clitics,
+    todo_markers_in_comment,
     variant_has_baad_plus_n,
     variant_has_lexeme_terminal_single_suffix_split,
     variant_has_suffix_payload_linked_dulat,
@@ -30,6 +31,10 @@ from linter.lint import (
 
 
 class LinterWarningPredicateTest(unittest.TestCase):
+    def test_todo_markers_match_words_not_suffix_fragments(self) -> None:
+        self.assertEqual(todo_markers_in_comment("Fix this TODO repair"), ["todo", "fix", "repair"])
+        self.assertEqual(todo_markers_in_comment("3 m. sg. suffix retained"), [])
+
     def test_lexeme_t_split_without_reconstructed_t_detected(self) -> None:
         self.assertTrue(analysis_has_lexeme_t_split_without_reconstructed_t("thm/t"))
 

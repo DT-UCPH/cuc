@@ -391,6 +391,17 @@ PRONOMINAL_SUFFIX_INVENTORY = frozenset(_PRONOMINAL_SUFFIX_SEGMENTS)
 ENCLITIC_INVENTORY = frozenset({"n", "nn", "m", "h", "y", "k", "t"})
 
 
+def todo_markers_in_comment(annotation_text: str) -> List[str]:
+    """Return explicit review-task markers, without matching word fragments."""
+    markers = ("merge", "???", "todo", "fix", "repair")
+    value = (annotation_text or "").lower()
+    return [
+        marker
+        for marker in markers
+        if re.search(rf"(?<!\w){re.escape(marker)}(?!\w)", value)
+    ]
+
+
 def invalid_affix_segments(analysis_variant: str) -> List[Tuple[str, str]]:
     """Return (marker, segment) pairs for affixes outside the inventories.
 
@@ -3738,12 +3749,10 @@ def lint_file(
         # Comments TODO markers. Structured MERGE annotations are a recognized
         # convention for words split across physical lines, not an uncertainty
         # marker, so they do not count as a 'merge' TODO hit.
-        todo_markers = ("merge", "???", "todo", "fix", "repair")
-        annotation_lower = annotation_text.lower()
         hit_markers = [
-            t
-            for t in todo_markers
-            if t in annotation_lower and not (t == "merge" and merge_direction)
+            marker
+            for marker in todo_markers_in_comment(annotation_text)
+            if not (marker == "merge" and merge_direction)
         ]
         if hit_markers:
             issues.append(
