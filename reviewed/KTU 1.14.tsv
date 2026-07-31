@@ -531,13 +531,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160920	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num.	three	SEEDED from auto-parse; not yet hand-reviewed.
 160921	rbˤ	rbʿ  	rbˤ/	rbʕ	num.	fourth	SEEDED from auto-parse; not yet hand-reviewed.
 160922	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	SEEDED from auto-parse; not yet hand-reviewed.
-160923	ymš	ymš 	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
+160923	ymš	ymš 	&y(ḫmš(I)/	ḫmš (I)	num.	five	Scribal y for expected ḫ: the day sequence continues ṯlṯ 'three', rbˤ 'four', ymš = ḫmš 'five', ṯdṯ 'six'. The legacy Martijn/Tania parse gives &y(ḫmš/ and marks a scribal error.
 # KTU 1.14 III:12							
 160924	ṯdṯ	ṯdṯ  	ṯdṯ/	ṯdṯ	adj. sg. abs. nom.	sixth	
 160925	ym	ym  	ym(I)/	ym (I)	n. m. sg. cstr. nom.	day	SEEDED from auto-parse; not yet hand-reviewed.
 160926	ḥẓk	ḥẓk  	ḥẓ/+k	ḥẓ	n. m. cstr. gen.	1) arrow b) ḫẓk ảl tšʕl qrth do not shoot your arrows against the city	
 160927	al	al  	al(I)	ảl (I)	neg. functor	no	SEEDED from auto-parse; not yet hand-reviewed.
-160928	tšˤl	tšʿl	?	?	?	?	SEEDED from auto-parse; not yet hand-reviewed.
+160928	tšˤl	tšʿl	!t!]š]ˤl(y[	/ʕ-l-y/	vb Š prefc. 2 m. sg.	to raise, shoot	ḥẓk al tšˤl qrth 'do not shoot your arrows against the city'. The legacy Martijn/Tania parse identifies the prefix-conjugation verb; DULAT cites this clause under /ʕ-l-y/ at CAT 1.14 III:12, and the Š-stem encoding follows tšˤly in reviewed KTU 1.5 and 1.6.
 # KTU 1.14 III:13							
 160929	qrth	qrth  	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. nom.	1) city	SEEDED from auto-parse; not yet hand-reviewed.
 160930	abnydk	abn .ydk	abn/ yd(I)/+k	ảbn, yd (I)	n. f. pl. cstr. nom., n. f. sg. cstr. gen. + 2 m. sg. suff.	stone, hand	Two words joined in one TF token despite the divider: abn + ydk. The legacy Martijn/Tania parsing gives abn/ and yd/+k; DULAT cites ảbn ydk mšdpt 'the stones thrown by your hand' at CAT 1.14 III:13.
