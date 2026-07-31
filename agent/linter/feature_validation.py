@@ -103,7 +103,9 @@ def nominal_feature_issues(analysis: str, pos_field: str) -> list[str]:
             expected.append("f.")
         if "pl." not in pos:
             expected.append("pl.")
-    if analysis.endswith("/m") and "pl." not in pos:
+    # Consonantal -m marks both masculine plural and dual. Require an explicit
+    # number, but accept a reviewed dual as well as a plural.
+    if analysis.endswith("/m") and "pl." not in pos and "du." not in pos:
         expected.append("pl.")
     if "+" in analysis and "cstr." not in pos:
         expected.append("cstr.")

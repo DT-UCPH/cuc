@@ -55,6 +55,9 @@ class InvalidAffixSegmentsTest(unittest.TestCase):
         self.assertEqual(invalid_affix_segments("?"), [])
         self.assertEqual(invalid_affix_segments(""), [])
 
+    def test_suffix_stops_at_structured_multiword_boundary(self) -> None:
+        self.assertEqual(invalid_affix_segments("uṣbˤ(t/t=+h ˤd(I)"), [])
+
 
 class LinterAffixInventoryIntegrationTest(unittest.TestCase):
     def test_pseudo_suffix_row_is_error(self) -> None:

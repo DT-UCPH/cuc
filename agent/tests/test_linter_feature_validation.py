@@ -64,6 +64,15 @@ class LinterFeatureValidationTest(unittest.TestCase):
         messages = self._lint_messages("1\tggt\tgg/t=\tgg\tn.\troofs\t\n")
         self.assertIn("Nominal POS is missing explicit morphology from analysis: f. pl.", messages)
 
+    def test_accepts_m_ending_as_reviewed_dual(self) -> None:
+        messages = self._lint_messages(
+            "1\tmlakm\tmlak/m\tmlảk\tn. m. du. abs. acc.\tmessenger\t\n"
+        )
+        self.assertNotIn(
+            "Nominal POS is missing explicit morphology from analysis: pl.",
+            messages,
+        )
+
     def test_errors_when_t_split_conflicts_with_plural_pos(self) -> None:
         messages = self._lint_messages("1\tġrt\tġr(t(I)/t\tġrt (I)\tn. f. pl. cstr. gen.\trock\t\n")
         self.assertIn(

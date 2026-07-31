@@ -408,6 +408,9 @@ def invalid_affix_segments(analysis_variant: str) -> List[Tuple[str, str]]:
         if len(chunk) < 2 or chunk[0] not in "+~":
             continue
         marker, payload = chunk[0], chunk[1:]
+        # A following whitespace-delimited analysis belongs to the next word
+        # in a structured multiword TF token, not to this suffix payload.
+        payload = payload.split(None, 1)[0] if payload.split() else payload
         payload = _AFFIX_HOMONYM_TAG_RE.sub("", payload)
         if any(ch in payload for ch in "(&[]!+~"):
             continue
