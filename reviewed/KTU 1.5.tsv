@@ -34,7 +34,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158600	ipdk	ipdk  	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
 158601	ank	ank  	ank	ảnk	pers. pn.	I	
 158602	ispi	ispi  	!(ʔ&i!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 1 c. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
-158602	ispi	ispi  	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc. 1 c. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	DULAT: 'I was consumed piece by piece (?)'.
+158602	ispi	ispi  	!(ʔ&i!(]n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc. 1 c. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	DULAT: 'I was consumed piece by piece (?)'. The N formative is not written — it assimilates to the following s — so it is reconstructed.
 158603	uṭm	uṭm	uṭ/m	ủṭ	n. m. pl. abs. acc.	span	UNP
 158603	uṭm	uṭm	uṭ/~m	ủṭ	n. m. sg. abs. acc. + encl. -m	span	DULAT: -m (I) adverbial, '(I shall eat you) by the span'.
 # KTU 1.5 I:6							
@@ -119,7 +119,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158659	rumm	rumm  	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
 158660	ˤn	ʿn  	ˤn(I)/	ʕn (I)	n. f. sg. abs. acc.	spring	
 158661	kḏd	kḏd  	kḏd	kḏd	→	?	
-158661	kḏd	kḏd  	k(II) ḏd(III)/	k (II); ḏd (III)	emph. functor; n. m. sg. cstr. nom.	yes; flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'.
+158661	kḏd	kḏd  	k(II) ḏd(III)/	k (II), ḏd (III)	emph. functor, n. m. sg. cstr. nom.	yes, flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'. ## The gloss delimiter is ambiguous on multi-lexeme rows: a comma separates the two lexemes' glosses, but DULAT's own gloss for ḏd (III) is "flock, herd".
 158662	aylt	aylt	ayl(I)/t	ảyl (I)	n. f. sg. abs. gen.	hind	
 158662	aylt	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
 # KTU 1.5 I:18							
@@ -128,7 +128,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158664	imt	imt  	im(t/t	ỉmt	adv.	truly	
 158664	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma
 158665	imt	imt  	im(t/t	ỉmt	adv.	truly	
-158665	imt	imt  				dittography	
+158665	imt	imt  	?	?	?	?	Read as a dittography of the preceding ỉmt, hence no analysis.
 158665	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma
 158666	npš	npš  	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 158667	blt	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places.
@@ -145,7 +145,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158674	ilḥm	ilḥm  	!(ʔ&i!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 1 c. sg.	to eat	
 158675	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
 158675	hm	hm  	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt
-158675	hm	hm  	h(n/~m	hn	deictic functor/adv.	behold!; look!; thus / here	Tropper
+158675	hm	hm  	h(n/~m	hn	deictic functor/adv.	behold!, look!, thus	Tropper. ## DULAT's own gloss for hn is "behold!; look!; thus"; the semicolons are its punctuation, not variant separators, and the linter cannot tell the two apart. Written with commas here to avoid the false reading.
 158676	šbˤ	šbʿ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.5 I:21							
 158677	ydty	ydty  	yd(I)/t=+y	yd (I)	n. f. pl. cstr. gen. + 1 c. sg. suff.	part, ration, portion	
@@ -159,8 +159,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158683	nhr	nhr  	nhr/	nhr	n. m. sg. abs. acc.	river	UNP
 158683	nhr	nhr  	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	Wyatt, Tropper
 158684	kl	kl  	k&l/~(n	k (II)	emph. functor	truly	UNP: 's[o] invite me'
-158684	kl	kl  	k l	k (II); l (II)	emph. functor; neg. functor	truly; not	Wyatt
-158684	kl	kl  	k l	k (II); l (III)	emph. functor; aff. functor	truly; certainly, undoubtedly, yes	DULAT: 'yes, surely invite me'
+158684	kl	kl  	k l	k (II), l (II)	emph. functor, neg. functor	truly, not	Wyatt
+158684	kl	kl  	k l	k (II), l (III)	emph. functor, aff. functor	truly, certainly, undoubtedly, yes	DULAT: 'yes, surely invite me'
 158685	ṣḥn	ṣḥn  	!!ṣḥ[+n=	/ṣ-ḥ/	vb G impv. m. sg. + 1 c. sg. suff.	to invite, call, say	'invite ME, Baal, with my brothers'.
 158686	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	Vocative.
 158687	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
