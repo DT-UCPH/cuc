@@ -1028,9 +1028,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160074	xxxxx	[xxxxx ] 	?	?	?	?	
 160075	k	[k ] 	k(I)	k (I)	prep.	like	
 160076	ˤṣr	[ʿṣ]r  	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	k ˤṣr 'like a bird'.
-160077	u	u	?	?	?	?	
+160077	u	u	udn(II)/+h	ủdn (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	(place of) dominion, power	MERGE WITH THE NEXT: u | dnh = udnh, one word split across the VI:3/VI:4 line break. Same expulsion formula as 1.3 IV:2 mšṣṣ k ˤṣr udnh gršh, where DULAT cites ủdn (II) '(place of) dominion' and our 156239 encodes it identically.
 # KTU 1.6 VI:4							
-160078	dnh	[dnh  ]  	?	?	?	?	
+160078	dnh	[dnh  ]  	udn(II)/+h	ủdn (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	(place of) dominion, power	MERGE WITH THE PREVIOUS.
 160079	ytn	[ytn  ]  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 160080	aḫh	[aḫ]h	aḫ(I)/+h	ảḫ (I)	n. m. sg. cstr. acc. + 3 m. sg. suff.	brother (by blood)	
 # KTU 1.6 VI:5							
@@ -1099,8 +1099,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160129	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 160130	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 160131	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
-160132	yngḥn	yngḥn	!y!ngḥ[~n	/n-g-ḥ/	vb G prefc. 3 m. du.	to butt each other	'they gore each other like wild bulls' (DULAT).
-160132	yngḥn	yngḥn	!y!](n]ngḥ[~n	/n-g-ḥ/	vb N prefc. 3 m. du.	to butt each other	EUPT: N-stem reciprocal, 'they gore each other'.
+160132	yngḥn	yngḥn	!y!]n](ngḥ[n	/n-g-ḥ/	vb N prefc. 3 m. du.	to butt each other	DULAT tags yngḥn [N, prefc.] at this line and lists no G stem for /n-g-ḥ/. EUPT tags yinnagiḥāni "N-PKL 3.m.Du." and renders "Sie stießen einander wie zwei Wildstiere" ("they gored each other like two wild bulls"). The doubled -nn- is the formative assimilated to root-initial /n/, so the written n is the formative and the radical is reconstructed (n. PKL is the long prefix conjugation, so the final n is the written dual ending ([n), not an enclitic; cf. tlsmn !t!lsm[n. Other duals in the corpus still encode this ending as ~n (tmṭrn, tmġyn) and need a corpus-wide pass.
 # KTU 1.6 VI:18							
 160133	k	k 	k(I)	k (I)	prep.	like	
 160134	rumm	rumm  	rum/m	rủm	n. m. du. abs. gen.	wild bull	
@@ -1109,8 +1108,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160137	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 VI:19							
 160138	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
-160139	ynṯkn	ynṯkn  	!y!nṯk[~n	/n-ṯ-k/	vb G prefc. 3 m. du.	to bite each other	'they bite each other like serpents' (DULAT).
-160139	ynṯkn	ynṯkn  	!y!](n]nṯk[~n	/n-ṯ-k/	vb N prefc. 3 m. du.	to bite each other	EUPT: N-stem reciprocal, 'they bite each other'.
+160139	ynṯkn	ynṯkn  	!y!]n](nṯk[n	/n-ṯ-k/	vb N prefc. 3 m. du.	to bite each other	DULAT tags ynṯkn [N, prefc.] at this line: 'they bit each other like serpents'. EUPT tags yinnaṯikāni "N-PKL 3.m.Du.". The root also has a G ('to bite', 1.107:4), but not here.
 160140	k	k 	k(I)	k (I)	prep.	like	
 160141	bṯnm	bṯnm	bṯn/m	bṯn	n. m. du. abs. gen.	serpent	
 # KTU 1.6 VI:20							
@@ -1118,8 +1116,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160143	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 160144	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 160145	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
-160146	ymṣḫn	ymṣḫn	!y!mṣḫ[~n	/m-ṣ-ḥ/	vb G prefc. 3 m. du.	to drag each other	'they drag each other like coursers'.
-160146	ymṣḫn	ymṣḫn	!y!](n]mṣḫ[~n	/m-ṣ-ḥ/	vb N prefc. 3 m. du.	to drag each other	EUPT: N-stem reciprocal, 'they drag each other'.
+160146	ymṣḫn	ymṣḫn	!y!(]n]mṣḫ[n	/m-ṣ-ḥ/	vb N prefc. 3 m. du.	to drag each other	DULAT's article gives 'N. To pull (each other): ymṣḫn k lsmm … 1.6 VI 20 (// ynṯkn)'; the cache's stems column records only G. EUPT tags yimmaṣiḫāni "N-PKL 3.m.Du." — the doubled -mm- shows the formative assimilated into root-initial /m/, so it is written nowhere and the formative is reconstructed (]n]. EUPT lemmatises mṣḫ against DULAT /m-ṣ-ḥ/; DULAT is the arbiter of the lexeme.
 # KTU 1.6 VI:21							
 160147	k	k 	k(I)	k (I)	prep.	like	
 160148	lsmm	lsmm  	lsm/m	lsm	n. m. du. abs. gen.	swift (courser)	DULAT: lsm 'swift', pl./du. lsmm.
