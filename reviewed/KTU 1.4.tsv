@@ -665,7 +665,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 IV:4							
 157399	aṯrt	aṯrt  	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
 157400	ym	ym[  ]  	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-157401	mdl	[mdl  ]  	mdl(I)/	mdl (I)	n. m. sg. cstr. acc.	riding gear	mdl ˤr 'harness the donkey'.
+157401	mdl	[mdl  ]  	!!mdl[	/m-d-l/	vb G impv. m. sg.	to bridle	mdl ˤr ṣmd pḥl "harness the donkey, hitch the stallion", the first of four imperatives in the dispatch formula (with št and ˤdb below). DULAT lists mdl [G, impv.] under /m-d-l/ "to bridle" and glosses mdl ˤr "bridle (?) the ass"; EUPT reads G-Imp. 2.m.sg. here, and Tropper renders the formula "Schirre an" ("harness!").
+157401	mdl	[mdl  ]  	mdl(I)/	mdl (I)	n. m. sg. cstr. acc.	part of the harness, halter (?)	DULAT's noun mdl (I) "part of the harness, halter (?)" cites this line, so the nominal reading stands beside the imperative.
 157402	ˤr	[ʿr]	ˤr(II)/	ʕr (II)	n. m. sg. abs. acc.	donkey	
 # KTU 1.4 IV:5							
 157403	ṣmd	ṣmd  	!!ṣmd[	/ṣ-m-d/	vb G impv. m. sg.	to harness, yoke	
@@ -688,8 +689,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157417	w	w 	w	w	conj.	and	
 157418	amrr	amrr	amrr/	ảmrr	DN m. sg. cstr. nom.	“Blessed”, one of the two messenger-boys of the goddess ảṯrt	
 # KTU 1.4 IV:9							
-157419	mdl	mdl  	mdl(I)/	mdl (I)	n. m. sg. cstr. acc.	riding gear	
-157419	mdl	mdl  	mdl[	/m-d-l/	vb G suffc. 3 m. sg.	riding gear	EUPT: G suffc. 'he harnessed'.
+157419	mdl	mdl  	mdl[	/m-d-l/	vb G suffc. 3 m. sg.	to bridle	Narrative repetition of the IV:4 instruction. EUPT reads G-SK 3.m.sg. (madala), matching ṣmd in the same line, which is already encoded as a suffix conjugation; Tropper renders the sequence "Er schirrte …" ("he harnessed …").
+157419	mdl	mdl  	mdl(I)/	mdl (I)	n. m. sg. cstr. acc.	part of the harness, halter (?)	DULAT's noun mdl (I) cites this line as well.
 157420	ˤr	ʿr  	ˤr(II)/	ʕr (II)	n. m. sg. abs. acc.	donkey	
 157421	ṣmd	ṣmd  	ṣmd[	/ṣ-m-d/	vb G suffc. 3 m. sg.	to harness, yoke	ṣmd pḥl 'he harnesses the ass' (vb, // IV:5).
 157422	pḥl	pḥl	pḥl/	pḥl	n. m. sg. abs. acc.	ass	
