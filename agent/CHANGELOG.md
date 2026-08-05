@@ -1,3 +1,27 @@
+## 2026-08-05
+
+- The linter now reports an analysis whose lexical skeleton contradicts the
+  DULAT entry declared in column 4. Both columns could be individually valid
+  while naming different entries, so neither the DULAT lookup nor the surface
+  reconstruction noticed: `!y!mṣḫ[` resolves to the real entry `mṣḫ` while its
+  own column 4 declares `/m-ṣ-ḥ/`, and the row linted clean.
+- Restricted to skeletons of equal length, because a shorter or longer analysis
+  base is normally correct — DULAT lemmatises plurale tantum whole (`ddy`
+  against declared `ddym`), keeps deverbal nouns as their own entries (`nṣṣ`
+  against `mšṣṣ`), and carries both biconsonantal and triconsonantal roots for
+  one verb (`bn` against `/b-n-y/`). Aleph and ayin spellings are folded so
+  `sʔd` against `sỉd` does not read as a radical difference.
+- Measured before landing: 46 occurrences over `reviewed/` without the length
+  restriction, 1 with it (`ištmdh`, an unmarked Gt sibilant assimilation against
+  declared `/ṣ-m-d/`); 28 over `auto_parsing/0.2.8/KTU 1.*`, where the parser
+  writes `ṯt`, `ṣat` and `im` bare against declared `ṯn (I)`, `/y-ṣ-ʔ/` and
+  `hm (II)` — reviewed data marks the same words `ṯ(n(t(II)/t` and
+  `!!(yṣ(ʔ&a[(t/t`.
+- Added regressions in:
+  - `tests/test_linter_lexeme_radical_mismatch.py`
+- Verified with:
+  - `./.venv/bin/python -m unittest discover -s tests -t tests` (983 tests)
+
 ## 2026-07-22
 
 - Operationalized Notarius, Chapter 6 on the Gt-stem as the project skill

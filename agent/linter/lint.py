@@ -2046,6 +2046,23 @@ def is_cuc_placeholder_row(parts: List[str]) -> bool:
     return analysis == surface
 
 
+_ALEPH_FAMILY_RE = re.compile(r"[ʔảỉủʼʾaiu]")
+_AYIN_FAMILY_RE = re.compile(r"[ʕˤʿ]")
+
+
+def lexeme_skeleton(value: str) -> str:
+    """Bare consonant skeleton for comparing an analysis base to a DULAT lemma.
+
+    Roots arrive as '/m-ṣ-ḥ/' and analysis bases as 'mṣḫ', and the two sides
+    spell aleph differently: DULAT writes 'ʔ' or 'ỉ', the project writes the
+    vowel letter it is realised by.  Folding both families keeps an aleph
+    spelling difference (sʔd against sỉd) from reading as a radical difference.
+    """
+    text = normalize_surface(value or "").strip("/").replace("-", "")
+    text = _ALEPH_FAMILY_RE.sub("ʔ", text)
+    return _AYIN_FAMILY_RE.sub("ʕ", text)
+
+
 def parse_declared_dulat_token(token: str) -> Tuple[str, str]:
     """
     Parse a structured col4 token such as:
@@ -4182,6 +4199,51 @@ def lint_file(
                                 "Lexeme parse did not match DULAT; matched by surface form",
                             )
                         )
+                    # The analysis resolved on its own, but to a different DULAT
+                    # entry than column 4 declares.  Both columns are individually
+                    # valid, so nothing else notices that they contradict each
+                    # other -- which is how an unmarked consonant substitution
+                    # (mṣḫ against declared /m-ṣ-ḥ/) stays silent.
+                    #
+                    # Restricted to skeletons of equal length.  A shorter or
+                    # longer analysis base is normally correct: DULAT lemmatises
+                    # plurale tantum whole (ddy against declared ddym), keeps
+                    # deverbal nouns as their own entries (nṣṣ against mšṣṣ), and
+                    # carries both biconsonantal and triconsonantal roots for one
+                    # verb (bn against /b-n-y/).  Only a same-length difference
+                    # means the analysis spells a radical the lexeme does not.
+                    if lookup_mode == "lexeme" and declared_head:
+                        declared_entries = lemma_map.get(normalize_surface(declared_head), [])
+                        if declared_hom:
+                            declared_entries = [
+                                c for c in declared_entries if c.homonym == declared_hom
+                            ]
+                        declared_ids = {c.entry_id for c in declared_entries}
+                        found_ids = {c.entry_id for c in d_candidates}
+                        analysis_skeleton = lexeme_skeleton(lexeme)
+                        declared_skeleton = lexeme_skeleton(declared_head)
+                        if (
+                            declared_ids
+                            and found_ids
+                            and not (declared_ids & found_ids)
+                            and analysis_skeleton
+                            and len(analysis_skeleton) == len(declared_skeleton)
+                            and analysis_skeleton != declared_skeleton
+                        ):
+                            issues.append(
+                                Issue(
+                                    "error",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    "Analysis lexeme '%s' spells a radical the declared %s does "
+                                    "not have; mark it with '(' and '&' (lexical letter first) "
+                                    "or correct a column"
+                                    % (lexeme, first_d[0].strip()),
+                                )
+                            )
                     # Stem presence: if DULAT has no G-stem for this verb, require a :stem marker
                     if (is_verb_global or is_deverbal) and verb_candidates_for_stem:
                         stems = set()
