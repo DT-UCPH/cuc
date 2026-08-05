@@ -16,8 +16,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.1 II:3							
 154256	tk	[tk  ]  	tk/	tk	n. m. sg. cstr. acc.	2) to	Adverbial acc. 'towards'.
 154256	tk	[tk  ]  	tk	tk	prep.	in the midst of	DULAT: tk n. 'centre', also used as prep. (EUPT: Präp.).
-154257	ḫršn	[ḫršn       ]       	ḫršn(I)/	ḫršn (I)	n. m. sg. abs. gen.	(divine) mountain	Cf. TCS n. on ḫršn/ġr. | Migrated from legacy reviewed tokenization.
-154258	r	r  	&gr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	Cf. TCS n. on ḫršn/ġr. | Migrated from legacy reviewed tokenization.
+154257	ḫršn	[ḫršn       ]       	ḫršn(I)/	ḫršn (I)	n. m. sg. abs. gen.	(divine) mountain	Cf. TCS n. on ḫršn/ġr. ## Migrated from legacy reviewed tokenization.
+154258	r	r  	&gr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	Cf. TCS n. on ḫršn/ġr. ## Migrated from legacy reviewed tokenization.
 154259	tḥmk	[t]ḥmk    	tḥm/+k	tḥm	n. m. cstr. nom.	message	tḥmk perhaps object of št; syntax unclear.
 154260	w	w 	w	w	conj.	and	
 154261	št	št	!!št[	/š-t/	vb G impv.	to place, set, set up, leave	DULAT cites [t]ḥmk w št here s.v. /š-t/.
@@ -27,10 +27,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154263	ẓr	ẓr  	ẓr(I)/	ẓr (I)	n. m. abs. gen.	upon	
 154264	rdyk	rdyk	rdy+k	rdy	?	harass	DULAT rdy '?/harass' cited at this line; sense uncertain.
 # KTU 1.1 II:5							
-154265		[                  ]                  	?	?	?	?	Migrated from legacy reviewed tokenization.
+154265		[                  ]                  	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154266	iqnim	[i]qnim	iqn(u&i/m	ỉqnủ	n. m. pl. abs.	gem of lapis lazuli	Case indeterminable.
 # KTU 1.1 II:6							
-154267		[                   ]                   	?	?	?	?	Migrated from legacy reviewed tokenization.
+154267		[                   ]                   	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154268	yšu	[y]šu    	!y!(nš(ʔ[&u	/n-š-ʔ/	vb G prefc. 3 m. sg.	to raise	
 154269	b	b 	b	b	prep.	in	
 154270	qrb	qrb	qrb/	qrb	n. m. sg. abs. gen.	inside, middle	b qrb 'in the midst' (auto sense '2) vulva' wrong here).
@@ -45,12 +45,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154274	ymtm	ymtm	ym(I)/t~m	ym (I)	n. m. pl. abs. + encl. -m	day	DULAT cites ]tm ymtm here s.v. ym (I) (pl. ymt): 'days'.
 154274	ymtm	ymtm	!y!mt[~m	/m-t/	vb G prefc. 3 m. sg. + encl. -m	to die	TCS: 'to die' (ymtm), cf. dying-formulae (1.18 IV:25).
 # KTU 1.1 II:9							
-154275		[           ]           	?	?	?	?	Migrated from legacy reviewed tokenization.
+154275		[           ]           	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154276	npšh	[np]š[h ]   	npš(I)/+h	npš (I)	n. f. sg. cstr. nom. + 3 m. sg. suff.	throat	
 154277	w	w 	w	w	conj.	and	
 154278	iṯl	iṯl	iṯl/	ỉṯl	n. m. sg. cstr. nom.	saliva	w iṯl 'and the spittle'; TCS: k ỉṯl in dying-formulae (1.18 IV:25).
 # KTU 1.1 II:10							
-154279		[          ]          	?	?	?	?	Migrated from legacy reviewed tokenization.
+154279		[          ]          	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154280	ḥršm	[ḥr]šm    	ḥrš(I)/m	ḥrš (I)	n. m. pl. abs. acc.	craftsman	Object of ʕdb (?); TCS: untranslatable.
 154281	ˤdb	ʿdb  	ˤdb[	/ʕ-d-b/	vb G suffc. 3 m. sg.	to leave > to put in > to place	
 154281	ˤdb	ʿdb  	!!ˤdb[	/ʕ-d-b/	vb G impv. m. sg.	to leave > to put in > to place	
@@ -77,7 +77,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154294	alp	alp 	alp(II)/	ảlp (II)	num.	1) (one, a) thousand c) in appos	
 154295	ḥẓr	ḥẓr	ḥẓr/	ḥẓr	n. m. sg. abs. nom.	2) quarter (measure of length)	DULAT: b ảlp ḥẓr 'through a thousand quarters/mansions'.
 # KTU 1.1 II:15							
-154296		[         ]         	?	?	?	?	Migrated from legacy reviewed tokenization.
+154296		[         ]         	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154297	l	[l ] 	l(I)	l (I)	prep.	to	
 154298	pˤn	[p]ʿn    	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 154299	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
@@ -145,7 +145,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154348	spr	spr 	spr(II)/	spr (II)	n. m. sg. abs. nom.	tablet / register, list, inventory	bdk spr [y]mnk 'in your hand a tablet (?)'.
 154348	spr	spr 	spr[	/s-p-r/	vb G	to count, number	
 # KTU 1.1 II:25							
-154349		[                            ]                            	?	?	?	?	Migrated from legacy reviewed tokenization.
+154349		[                            ]                            	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154350	ymnk	[y]mnk	ymn(I)/+k	ymn (I)	n. m. sg. cstr. + 2 m. sg. suff.	right (side)	
 # KTU 1.1 II:26							
 154351	x	[                                 ]x	?	?	?	?	
@@ -243,9 +243,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154422	argmk	[argmk]	!(ʔ&a!rgm[+k	/r-g-m/	vb G prefc. 1 c. sg.	to say	
 # KTU 1.1 III:13							
 154423	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
-154424	w	w 	w	w	conj.	and	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. | Migrated from legacy reviewed tokenization.
-154425	ṯaṯnyk	[[ṯ]]aṯnyk  	&ṯ!(ʔ&a!ṯny[+k	/ṯ-n-y/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to repeat	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. | Migrated from legacy reviewed tokenization.
-154426		[  ]  	?	?	?	?	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. | Migrated from legacy reviewed tokenization.
+154424	w	w 	w	w	conj.	and	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. ## Migrated from legacy reviewed tokenization.
+154425	ṯaṯnyk	[[ṯ]]aṯnyk  	&ṯ!(ʔ&a!ṯny[+k	/ṯ-n-y/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to repeat	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. ## Migrated from legacy reviewed tokenization.
+154426		[  ]  	?	?	?	?	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. ## Migrated from legacy reviewed tokenization.
 154427	rgm	[rgm  ]  	rgm/	rgm	n. m. sg. cstr. nom.	word	rgm ˤṣ w lḫšt abn 'the word of tree and the whisper of stone'.
 154428	ˤṣ	[ʿṣ  ]  	ˤṣ/	ʕṣ	n. m. sg. abs. gen.	tree	
 154429	w	[w ] 	w	w	conj.	and	
@@ -338,8 +338,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.1 III:24							
 154503	ab	ab  	ab/	ảb	n. m. sg. cstr. gen.	father	
 154504	šnm	šnm  	šnm/	šnm	DN sg. abs. gen.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	
-154505	l	l[ ] 	l(I)	l (I)	prep.	to, towards, up to	Migrated from legacy reviewed tokenization.
-154506	pˤn	[pʿn  ]  	pˤn/	pʕn	n. f. du. cstr. gen.	foot	Migrated from legacy reviewed tokenization.
+154505	l	l[ ] 	l(I)	l (I)	prep.	to, towards, up to	## Migrated from legacy reviewed tokenization.
+154506	pˤn	[pʿn  ]  	pˤn/	pʕn	n. f. du. cstr. gen.	foot	## Migrated from legacy reviewed tokenization.
 154507	il	[il  ]  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 154508	yhbr	[yhbr  ]  	!y!hbr[	/h-b-r/	vb G prefc. 3 m. sg.	to bow	
 154509	w	[w ] 	w	w	conj.	and	
@@ -545,16 +545,16 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.1 V:1							
 154656	xb	[                                           ]xb	?	?	?	?	
 # KTU 1.1 V:2							
-154657		[                             ]                             	?	?	?	?	Migrated from legacy reviewed tokenization.
+154657		[                             ]                             	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154658	w	[w ] 	w	w	conj.	and	
 154659	ym	[ym  ]  	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	w ym ymm yˤtqn 'a day, two days pass' (// 1.6 II:26).
 154660	ymm	[y]mm	ym(I)/m	ym (I)	n. m. du. abs. nom.	day	
 # KTU 1.1 V:3							
-154661	yˤtqn	[yʿtqn                    ]                    	!y!ˤtq[n	/ʕ-t-q/	vb G prefc. 3 m. du.	to pass	yˤtqn 'they (the days) pass' + ymġy 'he/it arrives'. | Migrated from legacy reviewed tokenization.
-154662	ymġy	[ymġy   ]  	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	yˤtqn 'they (the days) pass' + ymġy 'he/it arrives'. | Migrated from legacy reviewed tokenization.
+154661	yˤtqn	[yʿtqn                    ]                    	!y!ˤtq[n	/ʕ-t-q/	vb G prefc. 3 m. du.	to pass	yˤtqn 'they (the days) pass' + ymġy 'he/it arrives'. ## Migrated from legacy reviewed tokenization.
+154662	ymġy	[ymġy   ]  	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	yˤtqn 'they (the days) pass' + ymġy 'he/it arrives'. ## Migrated from legacy reviewed tokenization.
 154663	npš	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	npš hd 'the throat/desire of Haddu' (?); DULAT cites npš (I) at V:3.
 # KTU 1.1 V:4							
-154664		[                                        ]                                        	?	?	?	?	Migrated from legacy reviewed tokenization.
+154664		[                                        ]                                        	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154665	hd	[h]d    	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
 154666	tngṯnh	tngṯnh	!t!ngṯ[+nh	/n-g-ṯ/	vb G prefc. + 3 m. sg. suff.	to make one’s way to	tngṯnh 'she/you seek(s) him' (?).
 154666	tngṯnh	tngṯnh	!t!ngṯ[+nh:d	/n-g-ṯ/	vb D prefc. + 3 m. sg. suff.	to make one’s way to	EUPT: D-stem (unwritten gemination; both viable).
@@ -573,7 +573,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154676	yˤn	yʿn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	1) to answer	
 154676	yˤn	yʿn	!y!ˤn[	/ʕ-n/	vb G prefc. 3 m. sg.	to see, look (at), watch, spy	
 # KTU 1.1 V:8							
-154677		[                              ]                              	?	?	?	?	Migrated from legacy reviewed tokenization.
+154677		[                              ]                              	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154678	ydˤ	[ydʿ  ]  	ydˤ[	/y-d-ʕ/ (I)	vb G suffc. 3 m. sg.	to know	
 154679	l	[l ] 	l(II)	l (II)	neg. adv.	no, not	ydˤ l ydˤt (// V:21; DULAT: 'you/she does not know').
 154680	ydˤt	ydʿt	ydˤ[t===	/y-d-ʕ/ (I)	vb G suffc. 3 f. sg.	to know	DULAT: 'you/she does not know'.
@@ -584,8 +584,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154682	tasrn	tasrn	!t=!(ʔ&asr[+n	/ʔ-s-r/	vb G prefc. 2 m. sg. + 3 m. sg. suff.	to tie	
 # KTU 1.1 V:10							
 154683	ṯr	[ṯr ] 	ṯr(I)/	ṯr (I)	n. m. sg. cstr. acc.	bull	tasrn ṯr il 'you must bind Bull El' (object).
-154684	il	[il                                    ]                                    	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	il + k (the k belongs to k trks). | Migrated from legacy reviewed tokenization.
-154685	k	k 	k(III)	k (III)	Subordinating / completive functor	when, if, because, since, as, that	il + k (the k belongs to k trks). | Migrated from legacy reviewed tokenization.
+154684	il	[il                                    ]                                    	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	il + k (the k belongs to k trks). ## Migrated from legacy reviewed tokenization.
+154685	k	k 	k(III)	k (III)	Subordinating / completive functor	when, if, because, since, as, that	il + k (the k belongs to k trks). ## Migrated from legacy reviewed tokenization.
 154686	trks	trks	!t=!rks[	/r-k-s/	vb G prefc. 2 m. sg.	to gird, tie	'(that) you must tie (him)' (// V:23).
 # KTU 1.1 V:11							
 154687	x	[                                          ]x    	?	?	?	?	
@@ -598,8 +598,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154693	mtny	mtny	mtn(II)/+y	mtn (II)	n. m. sg. cstr. + 1 c. sg. suff.	gift	mtny 'my gift (?)' (DULAT cites mtn (II) here).
 # KTU 1.1 V:13							
 154694	at	[at ] 	at(I)	ảt (I)	pers. pn.	you	
-154695	zd	[zd                                  ]                                  	zd[	/z-d/	vb G	to boil, become inflamed, yearn for	at zd (// V:25) + rq[; DULAT cites ]rq gb s.v. gb (I). | Migrated from legacy reviewed tokenization.
-154696	rq	rq  	rq	?	?	?	at zd (// V:25) + rq[; DULAT cites ]rq gb s.v. gb (I). | Migrated from legacy reviewed tokenization.
+154695	zd	[zd                                  ]                                  	zd[	/z-d/	vb G	to boil, become inflamed, yearn for	at zd (// V:25) + rq[; DULAT cites ]rq gb s.v. gb (I). ## Migrated from legacy reviewed tokenization.
+154696	rq	rq  	rq	?	?	?	at zd (// V:25) + rq[; DULAT cites ]rq gb s.v. gb (I). ## Migrated from legacy reviewed tokenization.
 154697	gb	gb	gb(I)/	gb (I)	n. m. sg. abs.	pit, ditch	DULAT cites ]rq gb here s.v. gb (I).
 # KTU 1.1 V:14							
 154698	kl	[                                          ]kl    	kl/	kl	n. m. sg. abs. gen.	totality (of)	
@@ -612,8 +612,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154703	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. nom.	day	w ym ymm yˤtqn (refrain, // V:2).
 154704	ymm	ymm	ym(I)/m	ym (I)	n. m. du. abs. nom.	day	
 # KTU 1.1 V:16							
-154705	yˤtqn	[yʿtqn                              ]                              	!y!ˤtq[n	/ʕ-t-q/	vb G prefc. 3 m. du.	to pass	yˤtqn 'they pass' + yrḫ 'a month' (subject of ymġy); // 1.6 II:26. | Migrated from legacy reviewed tokenization.
-154706	yrḫ	[yr]ḫ    	yrḫ/	yrḫ	n. m. sg. abs. nom.	moon	yˤtqn 'they pass' + yrḫ 'a month' (subject of ymġy); // 1.6 II:26. | Migrated from legacy reviewed tokenization.
+154705	yˤtqn	[yʿtqn                              ]                              	!y!ˤtq[n	/ʕ-t-q/	vb G prefc. 3 m. du.	to pass	yˤtqn 'they pass' + yrḫ 'a month' (subject of ymġy); // 1.6 II:26. ## Migrated from legacy reviewed tokenization.
+154706	yrḫ	[yr]ḫ    	yrḫ/	yrḫ	n. m. sg. abs. nom.	moon	yˤtqn 'they pass' + yrḫ 'a month' (subject of ymġy); // 1.6 II:26. ## Migrated from legacy reviewed tokenization.
 154707	ymġy	ymġy  	!y!mġy[	/m-ġ-y/	vb G prefc. 3 m. sg.	to come, arrive	
 154708	npš	npš	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	// V:3.
 # KTU 1.1 V:17							
@@ -653,7 +653,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154731	upqt	[                                          ]upqt    	upq(t/t	ủpqt	n. f. sg. abs. gen.	bed of a torrent	
 154732	ˤrb	ʿrb	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to cause to enter	DULAT cites ]ủpqt ʕrb here s.v. /ʕ-r-b/ (I).
 # KTU 1.1 V:25							
-154733		[                                      ]                                      	?	?	?	?	Migrated from legacy reviewed tokenization.
+154733		[                                      ]                                      	?	?	?	?	## Migrated from legacy reviewed tokenization.
 154734	w	[w ] 	w	w	conj.	and	
 154735	ġr	ġr  	ġr(I)/	ġr (I)	n. m. sg. abs.	mountain	w ġr mtny at zd; // V:12-13.
 154736	mtny	mtny 	mtn(II)/+y	mtn (II)	n. m. sg. cstr. + 1 c. sg. suff.	gift	mtny 'my gift (?)' as V:12; not GN.

@@ -166,8 +166,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155833	b	b 	b	b	prep.	1) spatial location a) place in which something occurs	
 155834	ˤmq	ʿmq  	ˤmq(I)/	ʕmq (I)	n. m. sg. abs. gen.	1) valley a) w hln tmtḫṣ b ʕmq and then DN fought in the valley	
 155835	tḫtṣb	tḫtṣb  	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb Gt prefc. 3 f. sg.	to fight	tḫtṣb 'she does battle'.
-155836	bn	bn 	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	bnx: bn + broken sign (Tania bn+x). | Migrated from legacy reviewed tokenization.
-155837	x	[[x]]	?	?	?	?	bnx: bn + broken sign (Tania bn+x). | Migrated from legacy reviewed tokenization.
+155836	bn	bn 	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	bnx: bn + broken sign (Tania bn+x). ## Migrated from legacy reviewed tokenization.
+155837	x	[[x]]	?	?	?	?	bnx: bn + broken sign (Tania bn+x). ## Migrated from legacy reviewed tokenization.
 # KTU 1.3 II:7							
 155838	qrytm	qrytm 	qry(t/tm	qryt	n. f. du. abs. gen.	city	dual of qryt (Tania); DULAT: 'between the (two) cities'.
 155839	tmḫṣ	tmḫṣ  	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 f. sg.	to wound, beat, crush, kill	
@@ -387,8 +387,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 III:2							
 156012	ẓuh	ẓuh  	ẓu/+h=	ẓủ	n. m. sg. cstr. nom. + 3 f. sg. suff.	exhalation	Subject: 'whose exhalation is (noticeable) in the sea' (DULAT ẓủ).
 156013	b	b 	b	b	prep.	in	
-156014	ym	ym[ ] 	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	DULAT quote in ẓủ (cue: sea) | Migrated from legacy reviewed tokenization.
-156015	xxxxxx	[xxxxxx]	?	?	?	?	Migrated from legacy reviewed tokenization.
+156014	ym	ym[ ] 	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	DULAT quote in ẓủ (cue: sea) ## Migrated from legacy reviewed tokenization.
+156015	xxxxxx	[xxxxxx]	?	?	?	?	## Migrated from legacy reviewed tokenization.
 # KTU 1.3 III:3							
 156016	xxxrn	[xxx]rn    	xxxrn	?	?	?	
 156017	lxxxxxx	l[xxxxxx]	lxxxxxx	?	?	?	
@@ -854,8 +854,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156376	šdm	[š]dm    	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
 156377	yšt	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place, set, set up, leave	
 # KTU 1.3 IV:26							
-156378	b	b[ ] 	b	b	prep.	in	bšmm 'in the heavens' (Tania b+šmm). | Migrated from legacy reviewed tokenization.
-156379	šmm	[šmm]    	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	bšmm 'in the heavens' (Tania b+šmm). | Migrated from legacy reviewed tokenization.
+156378	b	b[ ] 	b	b	prep.	in	bšmm 'in the heavens' (Tania b+šmm). ## Migrated from legacy reviewed tokenization.
+156379	šmm	[šmm]    	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	bšmm 'in the heavens' (Tania b+šmm). ## Migrated from legacy reviewed tokenization.
 156380	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 156381	mdlh	mdlh  	mdl(II)/+h	mdl (II)	n. m. sg. cstr. acc. + 3 m. sg. suff.	lightning (?)	
 156382	ybˤr	ybʿr	!y!bˤr(I)[	/b-ʕ-r/ (I)	vb G prefc. 3 m. sg.	1) to ignite	
@@ -986,8 +986,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156486	xxxxxxxx	[xxxxxxxx]	xxxxxxxx	?	?	?	
 # KTU 1.3 IV:47							
 156487	bt	bt   	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	line 47 p281
-156488	l	l[ ] 	l(I)	l (I)	prep.	to	lbˤl 'to Baal' (Tania l+bˤl). | Migrated from legacy reviewed tokenization.
-156489	bˤl	[bʿl  ]  	bˤl(II)/	bʕl (II)	DN m. sg. gen.	Baʿlu/Baal	lbˤl 'to Baal' (Tania l+bˤl). | Migrated from legacy reviewed tokenization.
+156488	l	l[ ] 	l(I)	l (I)	prep.	to	lbˤl 'to Baal' (Tania l+bˤl). ## Migrated from legacy reviewed tokenization.
+156489	bˤl	[bʿl  ]  	bˤl(II)/	bʕl (II)	DN m. sg. gen.	Baʿlu/Baal	lbˤl 'to Baal' (Tania l+bˤl). ## Migrated from legacy reviewed tokenization.
 156490	km	[km  ]  	km	km	prep./conj./adv.	like	
 156491	ilm	[ilm  ]  	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 156492	w	[w ] 	w	w	conj.	and	
@@ -1045,7 +1045,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156533	aṯb	[aṯb]	!(ʔ&a!ṯb[	/ṯ-b/	vb G prefc. 1 c. sg.	to return, turn round, go back, make one’s way, go through	w lh aṯb 'and I shall reply to him' (// tṯb IV:21).
 # KTU 1.3 V:1							
 156534	xxx	[xxx]  	xxx	?	?	?	
-156535	amṣḫnn	amṣḫ{.}nn    	?	?	?	?	Suffix of amṣḫ(nn) 'I drag him'; DULAT reads [i]mṣḥnn. ## Tania: keep this token separate rather than joining it to the preceding one. DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+156535	amṣḫnn	amṣḫ{.}nn    	?	?	?	?	Suffix of amṣḫ(nn) 'I drag him'; DULAT reads [i]mṣḥnn. ## Tania: keep this token separate rather than joining it to the preceding one. DULAT: NOT FOUND Migrated from legacy reviewed tokenization.
 156536	k	k 	k	k (I)	prep.	like	
 156537	imr	imr  	imr(I)/	ỉmr (I)	n. m. sg. abs. gen.	lamb	
 156538	l	l 	l(I)	l (I)	prep.	to	
@@ -1107,7 +1107,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156585	ḏdm	ḏdm  	ḏd(II)/m	ḏd (II)	n. m. pl. abs. acc.	grotto	SUFFIX? (Tania).
 156586	qny	qny[  ]  	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. abs. gen.	to acquire	active participle, Corrected text, SMITH p 325 line 9: tatanniyu
 156587	w	[w ] 	w	w	conj.	and	
-156588	adnbn	adn .b[n ] 	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+156588	adnbn	adn .b[n ] 	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
 156589	ilm	[i]lm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.3 V:10							
 156590	qlh	qlh  	ql(I)/+h=	ql (I)	n. m. sg. cstr. acc. + 3 f. sg. suff.	1) voice	Object of yšˤmˤ (DULAT: 'the Bull El heard her voice').
@@ -1193,8 +1193,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156654	b	b 	b	b	prep.	in	
 156655	gdlt	gdlt  	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	Page 326 Line 23
 156656	arkty	arkty  	ark(t/t+y	ảrkt	n. f. sg. cstr. gen. + 1 c. sg. suff.	length (of arm, etc.)	
-156657	amḫṣ	amḫṣ 	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
-156658	xxx	[xxx]	?	?	?	?	Migrated from legacy reviewed tokenization.
+156657	amḫṣ	amḫṣ 	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
+156658	xxx	[xxx]	?	?	?	?	## Migrated from legacy reviewed tokenization.
 # KTU 1.3 V:24							
 156659	qdqdhk	qdqd[[h]]k    	qdqd&h/+k	qdqd	n. m. sg. cstr. gen. + 2 m. sg. suff.	skull	Extra h? Not in Smith p 326 line 23 (Tania).
 156660	ašhlk	ašhlk  	!(ʔ&a!]š]hlk[	/h-l-k/	vb Š prefc. 1 c. sg.	to cause to run, flow	
@@ -1340,7 +1340,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 V:49							
 156770		[                            ]                            		?	?	?	
 # KTU 1.3 V:50							
-156771		[                           ]                           	?	?	?	?	Migrated from legacy reviewed tokenization.
+156771		[                           ]                           	?	?	?	?	## Migrated from legacy reviewed tokenization.
 156772	arṣ	[a]rṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
 # KTU 1.3 V:51							
 156773	x	[                             ]x	x	?	?	?	
@@ -1413,7 +1413,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156825	rišk	[r]išk	riš(I)/+km	rỉš (I)	n. m. sg. cstr. gen. + 2 m. pl. suff.	head	MERGE WITH THE NEXT: rišk+m = riškm 'your (pl.) head'.
 # KTU 1.3 VI:14							
 156826	m	m  	riš(I)/+km	rỉš (I)	n. m. sg. cstr. gen. + 2 m. pl. suff.	head	MERGE WITH THE PREVIOUS.
-156827	brqmbn	brq[m .]bn    	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+156827	brqmbn	brq[m .]bn    	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
 156828	ˤnkm	ʿnkm	ˤn(I)/+km	ʕn (I)	n. f. du. cstr. gen. + 2 m. pl. suff.	eye	bn ˤnkm 'between your eyes' (DULAT cites ʕn (I)).
 # KTU 1.3 VI:15							
 156829	ymtn	ymtn[  ]  	y mt(III)/~n	mt (III)	n. m. sg. abs. nom.	man; individual, member	Broken (ymtn xx); Tania reads mt (III) 'man' + encl. -n.

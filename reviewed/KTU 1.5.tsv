@@ -99,7 +99,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:14							
 158645	ġzr	ġzr  	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 158646	p	p 	p(I)	p (I)	conj. functor	and	
-158647	npš	np{.}š    	npš(I)/	npš (I)	n. f. sg. cstr. nom.	2) appetite	Merge with the following? | Migrated from legacy reviewed tokenization.
+158647	npš	np{.}š    	npš(I)/	npš (I)	n. f. sg. cstr. nom.	2) appetite	Merge with the following? ## Migrated from legacy reviewed tokenization.
 158648	npš	npš  	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 158649	lbim	lbim	lb(u/&i~m	lbủ	n. m. sg. cstr. gen.	lion	Wyatt p117 n11 also notes possible maritime/monster construal in this passage.
 # KTU 1.5 I:15							
@@ -230,8 +230,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:2							
 158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. acc.	lip	
 158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. nom.	lip	
-158729	l	[l  ]  	l(I)	l (I)	prep.	to	Migrated from legacy reviewed tokenization.
-158730	arṣ	[a]rṣ    	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	Migrated from legacy reviewed tokenization.
+158729	l	[l  ]  	l(I)	l (I)	prep.	to	## Migrated from legacy reviewed tokenization.
+158730	arṣ	[a]rṣ    	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	## Migrated from legacy reviewed tokenization.
 158731	špt	špt  	šp(t/t	špt	n. f. sg. abs. acc.	lip	
 158731	špt	špt  	šp(t/t	špt	n. f. sg. abs. nom.	lip	
 158732	l	l 	l(I)	l (I)	prep.	to	
@@ -309,8 +309,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158782	ˤbdk	ʿbdk  	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant	
 158783	an	an  	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 158784	w	w 	w	w	conj.	and	
-158785	d	d 	d	d	det. or rel. functor	the one(s) of	UNP: wdˤlmk | Migrated from legacy reviewed tokenization.
-158786	šˤlmk	[[š]]ʿlmk	&šˤlm/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	UNP: wdˤlmk | Migrated from legacy reviewed tokenization.
+158785	d	d 	d	d	det. or rel. functor	the one(s) of	UNP: wdˤlmk ## Migrated from legacy reviewed tokenization.
+158786	šˤlmk	[[š]]ʿlmk	&šˤlm/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	UNP: wdˤlmk ## Migrated from legacy reviewed tokenization.
 # KTU 1.5 II:13							
 158787	tbˤ	tbʿ  	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. du.	to go	// 1.2 I:19 (DULAT: 'the lads left without staying').
 158787	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	TCS: 'Be off and do not tarry, O gods' (// 1.2 I:13).
@@ -327,7 +327,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158794	ytn	ytn  	ytn[	/y-t-n/	vb G suffc. 3 m. du.	to give	
 158795	pnm	pn<m>    	pn(m/m	pnm	n. m. pl. tant. abs. acc.	face	
 158796	ṯˤm	[[ṯ]]ʿm    	&ṯˤm(I)	ʕm (I)	prep.	to	Scribal ṯ (UNP: ˤm).
-158797	bnilm	bn . ilm  	bnil/+m(I)	bnỉl	PN sg. cstr. gen.	bnỉl	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m. | Migrated from legacy reviewed tokenization.
+158797	bnilm	bn . ilm  	bnil/+m(I)	bnỉl	PN sg. cstr. gen.	bnỉl	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m. ## Migrated from legacy reviewed tokenization.
 158798	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:15							
 158799	tk	tk  	tk/	tk	n. m. sg. cstr. acc.	2) to	tk qrth 'into the midst of his city' (// 1.4 VIII:11, 1.2 I:20).
@@ -353,7 +353,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158814	bn	{bn }  	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	Scribal insertion (UNP {bn.}); not in the formula (// II:10).
 158815	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 158816	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
-158817	aliynqrdm	aliy[[n]] . qrdm	?	?	?	?	It is aliy in II:11 | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+158817	aliynqrdm	aliy[[n]] . qrdm	?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 # KTU 1.5 II:19							
 158818	bhṯ	bhṯ  	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame, greetings	
 158819	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
@@ -384,7 +384,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158837	bˤl	[bʿl  ]  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 158838	xxxxxx	[xx]x[xxx]  	?	?	?	?	
 158839	yqr	yqr  	!y!qr(ʔ&u[+n=	/q-r-ʔ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to call, shout, invite	MERGE WITH THE NEXT. UNP: yqrun '[he] calls me'; DULAT: -n (II).
-158840	unhd	un [.] hd	?	?	?	?	MERGE WITH THE PREVIOUS. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+158840	unhd	un [.] hd	?	?	?	?	MERGE WITH THE PREVIOUS. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 # KTU 1.5 II:23							
 158841	xxxxxxxxxp	[xxxxxxxx]xp    	?	?	?	?	UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
 158842	mlḥmy	mlḥmy	mlḥmy	mlḥmy	?	?	UNP: 'my food' (restoring [lḥm ˤm aḫy a]p mlḥmy).
@@ -799,7 +799,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159132	y	[y  ]  	sb(b[ny	/s:ś-b-b/	vb G suffc. 1 c. du.	to go around	MERGE WITH THE PREVIOUS.
 159133	xxṣt	[xx]ṣt    	?	?	?	?	UNP/TCS: 'to the edge(s) of the earth'.
 159134	arṣ	[a]r[ṣ  ]  	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
-159135	xxḥ	[xx]ḥ    	?	?	?	?	DULAT: NOT FOUND
+159135	xxḥ	[xx]ḥ    	?	?	?	?	## DULAT: NOT FOUND.
 159136	ˤdk	ʿd[[k]]	ˤd(I)~k	ʕd (I)	prep. + encl. -k	up to	DULAT cites ʕd ksm mhyt 'to the limits of the waters' here; -k (II) emph. encl.
 # KTU 1.5 VI:5							
 159137	ksm	ksm  	ksm/	ksm	n. m. sg. cstr. gen.	part, share	TCS: 'well-watered portions'; UNP: 'limits of the waters'.
@@ -935,8 +935,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159241	kl	kl  	kl/	kl	n. m. sg. cstr. acc.	totality (of), every	
 159242	gbˤ	gbʿ	gbˤ/	gbʕ	n. m. sg. abs. gen.	hill, height, peak	
 # KTU 1.5 VI:28							
-159243	l	l 	l(I)	l (I)	prep.	to	Split; KTU: l[k]bd. | Migrated from legacy reviewed tokenization.
-159244	kbd	[k]bd    	kbd(I)/	kbd (I)	n. m. sg. cstr. gen.	interior	Split; KTU: l[k]bd. | Migrated from legacy reviewed tokenization.
+159243	l	l 	l(I)	l (I)	prep.	to	Split; KTU: l[k]bd. ## Migrated from legacy reviewed tokenization.
+159244	kbd	[k]bd    	kbd(I)/	kbd (I)	n. m. sg. cstr. gen.	interior	Split; KTU: l[k]bd. ## Migrated from legacy reviewed tokenization.
 159245	šdm	šdm  	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
 159246	tmġ	tmġ  	!t!mġ(y[	/m-ġ-y/	vb G prefc. 3 f. sg.	to come, arrive	'She comes to the pleasant land…' (UNP).
 159247	l	l 	l(I)	l (I)	prep.	to	

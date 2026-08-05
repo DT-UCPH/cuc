@@ -113,8 +113,24 @@ layer cannot shadow a complete one.
 
 ## Review Each Token
 
-Work down the column in order, not by defect class — a column reads as
-connected text, and the parallels within it are the best evidence available.
+**Every token, in order.** Not the interesting ones, not the ones a tool
+flagged. A column is 150–270 tokens and all of them are the job; the worklist
+tells you where to look hardest, not where to stop. Work down it in order — a
+column reads as connected text, and the parallels within it are the best
+evidence available.
+
+This is the failure mode to watch for in yourself: the tools surface a handful
+of striking rows, you adjudicate those beautifully, and the other 200 tokens go
+unread while the commit says the column is reviewed. The rows that need you most
+are usually the ones nothing flagged, because nothing flagged them.
+
+`mdl` at 1.4 IV:4 is the worked example. Nothing flags it: it lints clean, it
+resolves in DULAT, it reconstructs. Read the clause and it falls apart — the
+line is `mdl ˤr ṣmd pḥl`, and the corpus already encodes `ṣmd`, `št` and `ˤdb`
+around it as `vb G impv. m. sg.` while `mdl` alone sits as a noun in construct.
+DULAT's own root entry tags `mdl [G, impv.]`, EUPT reads `G-Imp. 2.m.Sg.`, and
+Tropper glosses the formula "Schirre an" ("harness!"). Four sources against a
+row that no check could see was wrong.
 
 For each token:
 
@@ -198,6 +214,10 @@ thing to fix — with a test — not the row. Do not silence a rule you have not
 understood, and do not leave the disagreement undocumented in either direction.
 
 ## Report
+
+State plainly which passes you ran and which you skipped, and how many tokens
+you actually read. "Reviewed column IV" after examining nine flagged rows is a
+false report; say what was done.
 
 Per column: tokens reviewed, rows changed, rows left `?` and why, alternative
 rows added, and the lint delta as `before → after` ERROR counts. List the

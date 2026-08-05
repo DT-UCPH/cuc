@@ -373,10 +373,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159560	b	b 	b	b	prep.	in, from	
 159561	kknt	kknt	kkn(t/t	kknt	n. f. sg. abs. gen.	pot, jar, pitcher	
 # KTU 1.6 II:1							
-159562	lxxxxxxxxxx	l[xxxxxxxxxx]	?	?	?	?	DULAT: NOT FOUND
+159562	lxxxxxxxxxx	l[xxxxxxxxxx]	?	?	?	?	## DULAT: NOT FOUND.
 # KTU 1.6 II:2							
 159563	w	w 	w	w	conj.	and	
-159564	ḥxxxxxxxxx	ḥ[xxxxxxxxx]	?	?	?	?	DULAT: NOT FOUND
+159564	ḥxxxxxxxxx	ḥ[xxxxxxxxx]	?	?	?	?	## DULAT: NOT FOUND.
 # KTU 1.6 II:3							
 159565	kd	kd  	kd(II)	kd (II)	conj.	as, since	DULAT cites kd (II) here (broken context); kd (I) 'jar' not excluded.
 159566	tṯbr	t[ṯbr  ]  	!t!ṯbr[	/ṯ-b-r/	vb G prefc. 3 f. sg.	to break	Ksenia reads N (!t!](n]ṯbr[).
@@ -398,8 +398,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159579	lb	lb  	lb/	lb	n. m. sg. cstr. nom.	heart	
 159580	arḫ	ar[ḫ]	arḫ/	ảrḫ	n. f. sg. abs. gen.	cow	'like the heart of a cow for her calf'.
 # KTU 1.6 II:7							
-159581	l	l 	l(I)	l (I)	prep.	to	Split | Migrated from legacy reviewed tokenization.
-159582	xˤglh	[[x]]ʿglh    	ˤgl(I)/+h=	ʕgl (I)	n. m. sg. cstr. gen. + 3 f. sg. suff.	calf	Split | Migrated from legacy reviewed tokenization.
+159581	l	l 	l(I)	l (I)	prep.	to	Split ## Migrated from legacy reviewed tokenization.
+159582	xˤglh	[[x]]ʿglh    	ˤgl(I)/+h=	ʕgl (I)	n. m. sg. cstr. gen. + 3 f. sg. suff.	calf	Split ## Migrated from legacy reviewed tokenization.
 159583	k	k 	k(I)	k (I)	prep.	like	
 159584	lb	lb  	lb/	lb	n. m. sg. cstr. nom.	heart	
 159585	ṯat	ṯa[t]	ṯa(t/t	ṯảt	n. f. sg. abs. gen.	ewe	
@@ -892,17 +892,17 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159970	ksi	ksi  	ks(u/&i	ks/śủ	n. m. sg. cstr. gen.	seat, throne	
 159971	mlkh	mlkh	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	kingdom	'his kingdom'.
 # KTU 1.6 V:6							
-159972	l	l[ ] 	l(I)	l (I)	prep.	to	Migrated from legacy reviewed tokenization.
-159973	nḫt	[n]ḫ[t]    	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan	Migrated from legacy reviewed tokenization.
+159972	l	l[ ] 	l(I)	l (I)	prep.	to	## Migrated from legacy reviewed tokenization.
+159973	nḫt	[n]ḫ[t]    	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan	## Migrated from legacy reviewed tokenization.
 159974	l	l 	l(I)	l (I)	prep.	on	
 159975	kḥṯ	kḥṯ  	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
 159976	drkth	drkth	drk(t/t+h	drkt	n. f. sg. cstr. gen. + 3 m. sg. suff.	rule, power	'the throne of his dominion'.
 # KTU 1.6 V:7							
 159977	l	l 	l(III)	l (III)	functor	certainly	
-159978	ymm	[y]mm    	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	Migrated from legacy reviewed tokenization.
-159978	ymm	[y]mm    	ym(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	Migrated from legacy reviewed tokenization.
+159978	ymm	[y]mm    	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	## Migrated from legacy reviewed tokenization.
+159978	ymm	[y]mm    	ym(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	## Migrated from legacy reviewed tokenization.
 159979	l	l 	l(III)	l (III)	functor	certainly	
-159980	yrḫml	yrḫm . l 	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+159980	yrḫml	yrḫm . l 	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
 159981	yrḫm	yrḫm	yrḫ/m	yrḫ	n. m. pl. abs. gen.	month	
 # KTU 1.6 V:8							
 159982	l	l 	l(III)	l (III)	functor	certainly	
