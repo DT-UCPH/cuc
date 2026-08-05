@@ -56,8 +56,10 @@ column is a worklist, and the marker is what says so.
 
 ## Build the Worklist
 
-Three passes over the column, cheapest first. Each produces rows to adjudicate;
-none of them decides anything.
+Four passes over the column, cheapest first. Each produces rows to adjudicate;
+none of them decides anything. **Run all of them.** Skipping the grammar or the
+translations because the first two passes already agree is how a reading ends up
+resting on one source without anyone noticing.
 
 ```bash
 # 1. The parser against the human who read the tablet.
@@ -127,6 +129,13 @@ For each token:
    DULAT form lookup cannot resolve.
 3. Reconcile the worklist findings for that row. Where sources conflict, follow
    the precedence in `references/evidence-sources.md` — and record the conflict.
+   **Re-derive the analysis from the lexeme; never patch the existing string.**
+   Changing a stem marker or an ending while inheriting the rest of a row's
+   spelling is how an unmarked radical survives a review: the row keeps a
+   consonant its own column 4 does not have. After any edit, read the analysis
+   against column 4 letter by letter — every letter of the lexeme must be present
+   or reconstructed with `(`, and every written letter absent from the lexeme
+   marked with `&`.
 4. Check the parallels. Formulaic repetition is dense in these texts; a reading
    settled at one attestation should be applied to the others in the column, and
    a reading that cannot be applied to them is probably wrong.
@@ -137,9 +146,13 @@ For each token:
    does not share, and DULAT's own `diff.` dissents — which attach to their one
    attestation and must never be generalised to the lemma.
 6. Clear the seed marker, and comment only where there is something to record.
-   See `references/comment-conventions.md`: most reviewed rows on 1.5 carry no
-   comment, so do not invent a confirmation string to fill the space. Every `?`
-   on a legible surface does need its reason.
+   The comment column is read by **users of the published corpus**, who know the
+   literature and the text and nothing about our parser, passes or token ids.
+   Never begin a comment with `#`; put anything addressed to us — source defects,
+   pipeline bugs, notation gaps — after a `##` at the end, where it can be
+   stripped automatically. See `references/comment-conventions.md`. Most reviewed
+   rows on 1.5 carry no comment at all, so do not invent one to fill the space;
+   every `?` on a legible surface does need its reason.
 
 Escalate rather than improvise:
 

@@ -22,9 +22,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158595	rašm	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. gen.	head	
 # KTU 1.5 I:4							
 158596	tṯkḥ	tṯkḥ  	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
-158596	tṯkḥ	tṯkḥ  	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
+158596	tṯkḥ	tṯkḥ  	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	if šmm is dual
 158597	ttrp	ttrp  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
-158597	ttrp	ttrp  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
+158597	ttrp	ttrp  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158598	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens, sky	
 158599	krs	krs	krs/	krs	?	?	DULAT-only fallback; legacy reviewed alternatives retained below.
 158599	krs	krs	k(I) r(ks/	k (I), rks	prep., n. m. sg. abs. gen.	like, belt	Legacy reviewed reading.
@@ -215,10 +215,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158720	šbˤt	[šbʿt  ]  	šbˤ(I)/t	šbʕ (I)	num. f.	seven	
 158721	rašm	[raš]m    	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. gen.	head	
 158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
-158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
+158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	if šmm is dual
 # KTU 1.5 I:31							
 158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
-158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
+158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158724	šmm	[šmm  ]  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens	
 158725	krs	[krs  ]  	krs/	krs	?	?	DULAT-only fallback; legacy reviewed alternatives retained below.
 158725	krs	[krs  ]  	k(I) r(ks/	k (I), rks	prep., n. m. sg. abs. gen.	like, belt	Legacy reviewed reading.

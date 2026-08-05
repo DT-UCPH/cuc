@@ -1,5 +1,47 @@
 # Recording a reading: alternative rows first, comments second
 
+## Who reads the comment column
+
+**A user of the published corpus.** They know the literature, the linguistics
+and the text. They know nothing about the parser, its versions, our editing
+stages, our token ids, the linter, or which pass produced a row — and none of
+that belongs in front of them.
+
+Write in their vocabulary: lexica, editions, translations, grammatical
+description, parallels, text-critical observations. Nothing about how the file
+was made.
+
+Two hard rules:
+
+- **Never begin a comment with `#`.**
+- **Put anything addressed to us after a `##`, at the end of the comment**, so it
+  can be stripped from the published corpus automatically.
+
+Everything before the `##` is published. Everything after it is ours.
+
+### What earns a `##`
+
+Genuine red flags a developer or researcher must look at:
+
+- a systematic problem in a source — a lexicon's structured fields disagreeing
+  with its own article text, an edition's coverage gap, entries from different
+  works merged indistinguishably;
+- a parsing or pipeline defect the row exposes;
+- a linguistic phenomenon the notation cannot currently express;
+- a bug, or an inconsistency in the corpus's own conventions.
+
+```
+… EUPT reads yinnagiḥāni, N-PKL 3.m.Du. ## The dual ending -āni is written [n
+here, while tmṭrn and tmġyn encode the same ending as ~n; the corpus needs one
+convention.
+```
+
+Not for `##`: ordinary uncertainty, a reading you merely find unpersuasive, or a
+note that you checked something. If it is only interesting to whoever edited the
+row, it belongs nowhere.
+
+## How much to write
+
 The conventions below are read off **KTU 1.5**, the most heavily reviewed tablet
 in the corpus — 56 commits, a granular human pass column by column, then a full
 six-column line-by-line re-review. Where a newer tablet does something else,
@@ -178,8 +220,12 @@ The linter will not catch a stale marker: `todo_markers_in_comment` matches only
   the Text-Fabric features and the sign span. Comments duplicating them were
   deliberately stripped once and should not come back.
 - **Provenance for its own sake.** "DULAT direct ref" on an unambiguous row adds
-  nothing. Machine-added `| Migrated from …` segments are the exception — keep
-  those.
+  nothing.
+- **Anything naming our machinery** — parser versions, seeding, token ids of our
+  own rows, linter messages, lint counts, database column names, or which pass
+  looked at the row. Explain a residual linter complaint in terms of the
+  *evidence* ("DULAT lists only a G for this root and does not cite this line"),
+  never by quoting the tool.
 - **Markers the linter treats as unfinished work** — `todo`, `fix`, `repair`,
   `???`, or a bare `merge` outside a `MERGE WITH` annotation. Resolve them
   before committing rather than shipping the marker.
