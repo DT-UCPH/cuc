@@ -880,8 +880,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159961	ṣmd	ṣmd	ṣmd/	ṣmd	n. m. sg. abs. gen.	pair	b ṣmd 'with a mace' (the twin-mace weapon).
 # KTU 1.6 V:4							
 159962	ṣġrm	ṣġrm  	ṣġr(I)/m	ṣġr (I)	adj. m. pl. abs. acc.	small, young	'the small ones he drags to the ground'.
-159963	ymṣḫ	ymṣḫ  	!y!mṣḫ[	/m-ṣ-ḥ/	vb G prefc. 3 m. sg.	to pull, drag	DULAT s.v. /m-ṣ-ḥ/: ṣġrm ymṣḫ l ảrṣ.
-159963	ymṣḫ	ymṣḫ  	!y!mṣḫ[:d	/m-ṣ-ḥ/	vb D prefc. 3 m. sg.	to pull, drag	EUPT: D-stem (unwritten gemination; both viable).
+159963	ymṣḫ	ymṣḫ  	!y!mṣ(ḥ&ḫ[	/m-ṣ-ḥ/	vb G prefc. 3 m. sg.	to pull, drag	DULAT s.v. /m-ṣ-ḥ/: ṣġrm ymṣḫ l ảrṣ. The texts write ḫ where DULAT's lexeme and its listed forms (ymṣḥ, mṣḥ{) have ḥ, so the written ḫ is marked &ḫ against the reconstructed lexical (ḥ.
+159963	ymṣḫ	ymṣḫ  	!y!mṣ(ḥ&ḫ[:d	/m-ṣ-ḥ/	vb D prefc. 3 m. sg.	to pull, drag	EUPT: D-stem (unwritten gemination; both viable). The texts write ḫ where DULAT's lexeme and its listed forms (ymṣḥ, mṣḥ{) have ḥ, so the written ḫ is marked &ḫ against the reconstructed lexical (ḥ.
 159964	l	l 	l(I)	l (I)	prep.	to	
 159965	arṣ	arṣ	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 # KTU 1.6 V:5							
@@ -1116,7 +1116,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160143	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
 160144	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 160145	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
-160146	ymṣḫn	ymṣḫn	!y!(]n]mṣḫ[n	/m-ṣ-ḥ/	vb N prefc. 3 m. du.	to drag each other	DULAT's article gives 'N. To pull (each other): ymṣḫn k lsmm … 1.6 VI 20 (// ynṯkn)'; the cache's stems column records only G. EUPT tags yimmaṣiḫāni "N-PKL 3.m.Du." — the doubled -mm- shows the formative assimilated into root-initial /m/, so it is written nowhere and the formative is reconstructed (]n]. EUPT lemmatises mṣḫ against DULAT /m-ṣ-ḥ/; DULAT is the arbiter of the lexeme.
+160146	ymṣḫn	ymṣḫn	!y!(]n]mṣ(ḥ&ḫ[n	/m-ṣ-ḥ/	vb N prefc. 3 m. du.	to drag each other	DULAT's article gives 'N. To pull (each other): ymṣḫn k lsmm … 1.6 VI 20 (// ynṯkn)'; the cache's stems column records only G. EUPT tags yimmaṣiḫāni "N-PKL 3.m.Du." — the doubled -mm- shows the formative assimilated into root-initial /m/, so it is written nowhere and the formative is reconstructed (]n]. EUPT lemmatises mṣḫ against DULAT /m-ṣ-ḥ/, whose listed forms are ymṣḥ and mṣḥ{; DULAT is the arbiter of the lexeme, so the written ḫ is marked &ḫ against the reconstructed lexical (ḥ.
 # KTU 1.6 VI:21							
 160147	k	k 	k(I)	k (I)	prep.	like	
 160148	lsmm	lsmm  	lsm/m	lsm	n. m. du. abs. gen.	swift (courser)	DULAT: lsm 'swift', pl./du. lsmm.
