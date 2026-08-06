@@ -68,11 +68,13 @@ is the primary reading. Each further row says, briefly, where it comes from:
 158592  šlyṭ  šlyṭ/          DN m. abs. acc.                Šaliyaṭu     Not in DULAT
 ```
 
-A short conditional note is written with a leading `#`:
+A short conditional note carries the condition and nothing else. Older rows
+wrote it with a leading `#`; that is retired, since the column must never begin
+with `#`:
 
 ```
 158596  tṯkḥ  !t!ṯkḥ[:w   vb G prefc. 3 m. pl.   to burn
-158596  tṯkḥ  !t!ṯkḥ[     vb G prefc. 3 m. du.   to burn   # if šmm is du.
+158596  tṯkḥ  !t!ṯkḥ[     vb G prefc. 3 m. du.   to burn   if šmm is dual
 ```
 
 Do not use alternative rows to dodge adjudication — one source's silence is not
@@ -198,8 +200,16 @@ from legacy reviewed tokenization.
 It is aliy in II:11 | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
 ```
 
-Preserve those trailing segments when you edit a row. They record where the row
-came from, and re-deriving them later is not possible.
+Preserve those trailing segments when you edit a row — re-deriving them later is
+not possible — but they record our editing history rather than the text, so they
+belong **after the `##`**, not in front of the corpus user:
+
+```
+It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
+```
+
+Note that the ` | ` in those legacy segments is the old provenance separator,
+not the lexeme separator: they occupy different columns and never meet.
 
 ## MERGE rows
 
