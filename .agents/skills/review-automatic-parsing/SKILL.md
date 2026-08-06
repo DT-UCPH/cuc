@@ -50,9 +50,12 @@ cd agent && ./.venv/bin/python scripts/seed_reviewed_column_range.py 1.14 IV --d
 ```
 
 It appends auto-parse rows in the current 8-column reviewed layout, marks every
-one `SEEDED from auto-parse; not yet hand-reviewed.`, and never rewrites rows
-already present. Drop `--dry-run` to write. Seeding is not reviewing: a seeded
-column is a worklist, and the marker is what says so.
+one `## SEEDED from auto-parse; not yet hand-reviewed.`, and never rewrites rows
+already present. Drop `--dry-run` to write.
+
+The marker sits behind the `##` because it describes our workflow rather than
+the word, so it stays machine-detectable without reaching a reader. Seeding is
+not reviewing: a seeded column is a worklist, and the marker is what says so.
 
 ## Build the Worklist
 
@@ -164,6 +167,13 @@ For each token:
 6. Clear the seed marker, and comment only where there is something to record.
    The comment column is read by **users of the published corpus**, who know the
    literature and the text and nothing about our parser, passes or token ids.
+   **A comment must name where the reading comes from** — a lexicon, an edition,
+   a translation, a grammar, with the page or entry. "Legacy reviewed reading",
+   a bare surname, or a note that you checked something tells a reader nothing,
+   and the reading is almost always in the literature and citable: the `krs`
+   alternative at 1.5 I:4 turned out to be del Olmo's own emendation, DULAT
+   s.v. krs p. 452. If you cannot find who holds a reading, either you have not
+   checked the right source or nobody holds it and the row needs rethinking.
    Never begin a comment with `#`; put anything addressed to us — source defects,
    pipeline bugs, notation gaps — after a `##` at the end, where it can be
    stripped automatically. See `references/comment-conventions.md`. Most reviewed
