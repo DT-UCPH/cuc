@@ -134,8 +134,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160616	ṯqlm	ṯqlm  	ṯql/m	ṯql	n. m. pl. abs. gen.	shekel	
 160617	arṣh	arṣh	arṣ/~h	ảrṣ	n. f. sg. abs. acc. + dir. -h	earth	arṣh 'to the ground' (directive -h; EUPT Term. f. sg.).
 # KTU 1.14 I:30							
-160618	k	k 	km ḫmš(t/t=	km, ḫmšt	prep., n. f. pl. abs. gen.	like, five-shekel (?) weight	MERGE WITH THE NEXT: TF k + mḫmšt cuts across the DULAT/EUPT division km ḫmšt, 'like five-shekel weights' (// km ṯqlm). Huehnergard glosses the lexeme generically 'fifth'; the DULAT attestation and EUPT context support weights here.
-160619	mḫmšt	mḫmšt  	km ḫmš(t/t=	km, ḫmšt	prep., n. f. pl. abs. gen.	like, five-shekel (?) weight	MERGE WITH THE PREVIOUS.
+160618	k	k 	km ḫmš(t/t=	km | ḫmšt	prep. | n. f. pl. abs. gen.	like | five-shekel (?) weight	MERGE WITH THE NEXT: TF k + mḫmšt cuts across the DULAT/EUPT division km ḫmšt, 'like five-shekel weights' (// km ṯqlm). Huehnergard glosses the lexeme generically 'fifth'; the DULAT attestation and EUPT context support weights here.
+160619	mḫmšt	mḫmšt  	km ḫmš(t/t=	km | ḫmšt	prep. | n. f. pl. abs. gen.	like | five-shekel (?) weight	MERGE WITH THE PREVIOUS.
 160620	mṭth	mṭth	mṭ(t/t~h	mṭt	n. f. sg. abs. acc. + dir. -h	bed	mṭth 'onto the bed' (DULAT; EUPT Term. f. sg.), with directive -h rather than a possessive suffix.
 # KTU 1.14 I:31							
 160621	bm	bm  	b~m	b	prep. + encl. -m	in	bm bkyh 'in his weeping'.
@@ -151,7 +151,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160629	tluan	tluan 	!t!l(ʔ&u(y(I)[~+(n&an	/l-ʔ-y/w/ (I)	vb G prefc. 3 f. sg. + energic-suff.	to overcome, prevail	tluan: authoritative CUC convention retains ~+ for the fused energic + suffix; -an is a variant of -nn (Martijn/Tania; EUPT G-PKK 3 f. sg. + OS 3 m. sg.).
 # KTU 1.14 I:34							
 160630	w	w 	w	w	conj.	and	
-160631	yškbnhmmt	yškb .nhmmt	!y!škb[ nhmm(t/t	/š-k-b/, nhmmt	vb G prefc. 3 m. sg., n. f. sg. abs. nom.	to lie down, drowsiness, fainting fit	Two lexical words joined by TF: yškb 'he lay down' (I:34), then nhmmt 'fainting/drowsiness' beginning the parallel clause (DULAT; Martijn/Tania).
+160631	yškbnhmmt	yškb .nhmmt	!y!škb[ nhmm(t/t	/š-k-b/ | nhmmt	vb G prefc. 3 m. sg. | n. f. sg. abs. nom.	to lie down, drowsiness, fainting fit	Two lexical words joined by TF: yškb 'he lay down' (I:34), then nhmmt 'fainting/drowsiness' beginning the parallel clause (DULAT; Martijn/Tania).
 # KTU 1.14 I:35							
 160632	w	w 	w	w	conj.	and	
 160633	yqmṣ	yqmṣ  	!y!qmṣ[	/q-m-ṣ/	vb G prefc. 3 m. sg.	to curl up	
@@ -219,7 +219,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160677	lm	[lm ] 	l(I)~m	l (I)	prep. + encl. -m	to	Largely broken line; enclitic -m.
 # KTU 1.14 I:52							
 160678	ank	[ank  ]  	ank	ảnk	pers. pn. 1 c. sg.	I	
-160679	kspw	[ksp .w ] 	ksp/ w	ksp, w	n. m. sg. abs. acc., conj.	silver, and	Two lexical words joined by TF: ksp w 'silver and'; the object phrase continues with yrq ḫrṣ across the column break (Martijn/Tania; ANET, UNP, EUPT).
+160679	kspw	[ksp .w ] 	ksp/ w	ksp | w	n. m. sg. abs. acc. | conj.	silver | and	Two lexical words joined by TF: ksp w 'silver and'; the object phrase continues with yrq ḫrṣ across the column break (Martijn/Tania; ANET, UNP, EUPT).
 160680	yrq	[yrq]	yrq/	yrq	n. m. sg. cstr. acc.	greenish-yellow metal/gold	yrq ḫrṣ 'yellow gold' is a construct expression coordinated with ksp (DULAT; EUPT Akk. m. sg.).
 # KTU 1.14 II:1							
 160681	ḫrṣ	[ḫrṣ  ]  	ḫrṣ/	ḫrṣ	n. m. sg. abs. acc.	gold	ḫrṣ yd mqmh (ransom list, // III:22-23).
@@ -235,7 +235,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160689	mrkbt	mrkbt  	mrkb(t/t=	mrkbt	n. f. pl. abs. acc.	(war-)chariot	Plural object coordinated with ṯlṯ sswm 'three horses' (Martijn/Tania; EUPT Akk. f. pl.).
 160690	b	b 	b	b	prep.	from	b trbṣ 'from the stable'.
 160691	trbṣ	trbṣ  	trbṣ/	trbṣ	n. m. sg. cstr. gen.	yard, stable	
-160692	bnamt	bn . amt	bn(I)/ am(t(I)/t	bn (I), ảmt (I)	n. m. sg. cstr. gen., n. f. sg. abs. gen.	son, female slave	Two lexical words joined by TF: bn amt 'son of a slave-woman' (Martijn/Tania; DULAT attests b trbṣ bn amt at II:3).
+160692	bnamt	bn . amt	bn(I)/ am(t(I)/t	bn (I) | ảmt (I)	n. m. sg. cstr. gen. | n. f. sg. abs. gen.	son | female slave	Two lexical words joined by TF: bn amt 'son of a slave-woman' (Martijn/Tania; DULAT attests b trbṣ bn amt at II:3).
 # KTU 1.14 II:4							
 160693	xxx	[xxx  ]  	?	?	?	?	No recoverable lexical identity; EUPT and the translations leave the opening of the clause broken.
 160694	ṯnm	ṯnm  	ṯn(I)&m	ṯn (I)	num.	two	Broken context; UNP/DULAT: '[offspring] may I procreate'.
@@ -300,7 +300,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160739	nzl	nzl	nzl/	nzl	n. m. sg. abs. gen.	offering	
 # KTU 1.14 II:17							
 160740	qḥ	qḥ  	!!(lqḥ[	/l-q-ḥ/	vb G impv. m. sg.	to take	
-160741	msrrˤṣr	ms[rr .]ʿṣr	msrr/ ˤṣr(I)/	msrr, ʕṣr (I)	n. m. sg. cstr. acc., n. f. sg. cstr. gen.	entrails, bird	Two lexical words joined by TF: qḥ msrr ˤṣr dbḥ 'take the entrails of a sacrificial bird' (Martijn/Tania; DULAT msrr and ʕṣr I; EUPT).
+160741	msrrˤṣr	ms[rr .]ʿṣr	msrr/ ˤṣr(I)/	msrr | ʕṣr (I)	n. m. sg. cstr. acc. | n. f. sg. cstr. gen.	entrails | bird	Two lexical words joined by TF: qḥ msrr ˤṣr dbḥ 'take the entrails of a sacrificial bird' (Martijn/Tania; DULAT msrr and ʕṣr I; EUPT).
 # KTU 1.14 II:18							
 160742	dbḥ	dbḥ  	dbḥ/	dbḥ	n. m. sg. abs. gen.	sacrifice	ˤṣr dbḥ 'sacrificial bird'.
 160743	ṣq	ṣq[  ]  	!!(yṣq[	/y-ṣ-q/	vb G impv. m. sg.	to pour	ṣq b gl ḥtṯ yn 'pour wine into a silver cup' (EUPT: G-Imp. of yṣq).
@@ -335,7 +335,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160766	ydk	ydk	yd(I)/+k	yd (I)	n. f. du. cstr. acc. + 2 m. sg. suff.	hand	
 # KTU 1.14 II:23							
 160767	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl. tant. abs. acc.	heavens	Plural-tantum object of ša 'raise' (DULAT forms; EUPT Akk. m. pl.).
-160768	dbḥl	dbḥ .l 	!!dbḥ[ l(I)	/d-b-ḥ/, l (I)	vb G impv. m. sg., prep.	to sacrifice, to	Two lexical words joined by TF: dbḥ l ṯr abk il 'sacrifice to the Bull, your father El' (DULAT direct attestation; EUPT; Martijn/Tania).
+160768	dbḥl	dbḥ .l 	!!dbḥ[ l(I)	/d-b-ḥ/ | l (I)	vb G impv. m. sg. | prep.	to sacrifice | to	Two lexical words joined by TF: dbḥ l ṯr abk il 'sacrifice to the Bull, your father El' (DULAT direct attestation; EUPT; Martijn/Tania).
 160769	ṯr	ṯr	ṯr(I)/	ṯr (I)	n. m. sg. cstr. gen.	bull	
 # KTU 1.14 II:24							
 160770	abk	abk  	ab/+k	ảb	n. m. sg. cstr. gen. + 2 m. sg. suff.	father	
@@ -557,7 +557,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160928	tšˤl	tšʿl	!t!]š]ˤl(y[	/ʕ-l-y/	vb Š prefc. 2 m. sg.	to raise, shoot	ḥẓk al tšˤl qrth 'do not shoot your arrows against the city'. The legacy Martijn/Tania parse identifies the prefix-conjugation verb; DULAT cites this clause under /ʕ-l-y/ at CAT 1.14 III:12, and the Š-stem encoding follows tšˤly in reviewed KTU 1.5 and 1.6.
 # KTU 1.14 III:13							
 160929	qrth	qrth  	qr(t(I)/t~h	qrt (I)	n. f. sg. abs. acc. + dir. -h	city	Directive qrth 'toward/against the city' (Martijn/Tania; EUPT Term. f. sg.), not a possessive suffix.
-160930	abnydk	abn .ydk	abn/ yd(I)/+k	ảbn, yd (I)	n. f. pl. cstr. nom., n. f. sg. cstr. gen. + 2 m. sg. suff.	stone, hand	Two words joined in one TF token despite the divider: abn + ydk. The legacy Martijn/Tania parsing gives abn/ and yd/+k; DULAT cites ảbn ydk mšdpt 'the stones thrown by your hand' at CAT 1.14 III:13.
+160930	abnydk	abn .ydk	abn/ yd(I)/+k	ảbn | yd (I)	n. f. pl. cstr. nom. | n. f. sg. cstr. gen. + 2 m. sg. suff.	stone | hand	Two words joined in one TF token despite the divider: abn + ydk. The legacy Martijn/Tania parsing gives abn/ and yd/+k; DULAT cites ảbn ydk mšdpt 'the stones thrown by your hand' at CAT 1.14 III:13.
 # KTU 1.14 III:14							
 160931	mšdpt	mšdpt  	!m!]š](ndp[/t	/n-d-p/	vb Š act. ptcpl. f. sg. abs. gen.	to throw	Feminine Š active participle modifying abn 'stones thrown by your hand' (Martijn/Tania; EUPT Gen. f. sg.).
 160932	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
@@ -601,7 +601,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.14 III:21							
 160963	mswnh	mswnh  	mswn/+h	mswn	n. m. sg. cstr. acc. + 3 m. sg. suff.	delegate	Suffixed object/apposition 'his delegate' (EUPT Akk. m. sg. construct).
 160964	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	Construct in tḥm pbl mlk 'message of Pabilu, the king' (DULAT; EUPT).
-160965	pblmlk	pbl .mlk	pbl/ mlk(I)/	pbl, mlk (I)	PN m. sg. abs. gen., n. m. sg. abs. gen.	Pabilu, king	Two words joined in one TF token despite the divider: pbl + mlk. DULAT cites tḥm pbl mlk 'message of Pabilu, the king'.
+160965	pblmlk	pbl .mlk	pbl/ mlk(I)/	pbl | mlk (I)	PN m. sg. abs. gen. | n. m. sg. abs. gen.	Pabilu | king	Two words joined in one TF token despite the divider: pbl + mlk. DULAT cites tḥm pbl mlk 'message of Pabilu, the king'.
 # KTU 1.14 III:22							
 160966	qḥ	qḥ  	!!(lqḥ[	/l-q-ḥ/	vb G impv. m. sg.	to take	Imperative introducing the ransom list (Martijn/Tania; DULAT; EUPT).
 160967	ksp	ksp  	ksp/	ksp	n. m. sg. abs. acc.	silver	Direct object of qḥ; parallel to 160679/160681.
@@ -612,7 +612,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160971	yd	yd  	yd(I)/	yd (I)	n. f. sg. cstr. acc.	together with	Grammaticalized yd I: DULAT translates yrq ḫrṣ yd mqmh 'yellow gold together with its source'; EUPT labels it a preposition.
 160972	mqmh	mqmh  	mqm/+h	mqm	n. m. sg. cstr. gen. + 3 m. sg. suff.	place, source	'Its source/place', parallel to 160683.
 160973	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
-160974	ˤbdˤlm	ʿbd .ʿlm	ˤbd(I)/ ˤlm(I)/	ʕbd (I), ʕlm (I)	n. m. sg. cstr. acc., n. m. sg. abs. gen.	servant, eternity	Two joined words: ˤbd ˤlm 'a perpetual slave', direct object in the ransom list; parallel to II:2.
+160974	ˤbdˤlm	ʿbd .ʿlm	ˤbd(I)/ ˤlm(I)/	ʕbd (I) | ʕlm (I)	n. m. sg. cstr. acc. | n. m. sg. abs. gen.	servant | eternity	Two joined words: ˤbd ˤlm 'a perpetual slave', direct object in the ransom list; parallel to II:2.
 # KTU 1.14 III:24							
 160975	ṯlṯ	ṯlṯ  	ṯlṯ(I)/	ṯlṯ (I)	num. m. sg. abs. acc.	three	Primary EUPT and context-labeling Workbook VII reading 'three horses', matching the parallel ransom list in II:2–3.
 160975	ṯlṯ	ṯlṯ  	ṯlṯ(III)/	ṯlṯ (III)	n. m. pl. cstr. acc.	charioteer	Alt. current DULAT direct attestation: ṯlṯ sswm mrkbt 'charioteers of a chariot'.
@@ -672,7 +672,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 161017	yrq	yrq  	yrq/	yrq	n. m. sg. cstr. acc.	greenish-yellow metal/gold	Construct expression yrq ḫrṣ, parallel to III:22.
 161018	ḫrṣ	ḫrṣ 	ḫrṣ/	ḫrṣ	n. m. sg. abs. acc.	gold	Object phrase, parallel to III:22.
 # KTU 1.14 III:35							
-161019	ydmqmh	yd .mqmh  	yd(I)/ mqm/+h	yd (I), mqm	n. f. sg. cstr. acc., n. m. sg. cstr. gen. + 3 m. sg. suff.	together with, place	Two joined words, yd + mqmh; grammaticalized yd and suffixed mqm, parallel to 160971–160972.
+161019	ydmqmh	yd .mqmh  	yd(I)/ mqm/+h	yd (I) | mqm	n. f. sg. cstr. acc. | n. m. sg. cstr. gen. + 3 m. sg. suff.	together with | place	Two joined words, yd + mqmh; grammaticalized yd and suffixed mqm, parallel to 160971–160972.
 161020	w	w 	w	w	conj.	and	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
 161021	ˤbd	ʿbd	ˤbd(I)/	ʕbd (I)	n. m. sg. cstr. acc.	servant	Object in ˤbd ˤlm 'a perpetual slave'.
 # KTU 1.14 III:36							
@@ -744,7 +744,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 161072	ab	ab  	ab/	ảb	n. m. sg. cstr. nom.	father	Construct in ab adm 'Father of Man'.
 161073	adm	adm	adm(I)/	ảdm (I)	n. m. sg. abs. gen.	man	Genitive complement of ab (EUPT).
 # KTU 1.14 III:48							
-161074	wld	wld  	w (yld[/	w, /y-l-d/	conj., vb G inf.	and, to engender	One TF token containing conjunction w + infinitive ld from weak /y-l-d/ (Martijn/Tania; DULAT direct translation).
+161074	wld	wld  	w (yld[/	w | /y-l-d/	conj. | vb G inf.	and | to engender	One TF token containing conjunction w + infinitive ld from weak /y-l-d/ (Martijn/Tania; DULAT direct translation).
 161075	špḥ	špḥ  	špḥ/	špḥ	n. m. sg. abs. acc.	offspring	Object of the infinitive ld 'engender offspring' (DULAT; EUPT Akk.).
 161076	l	l 	l(I)	l (I)	prep.	to	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.
 161077	krt	krt	krt/	krt	PN m. sg. abs. gen.	Kirta	Recipient after l.
@@ -773,7 +773,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 161095	ydh	ydh  	yd(I)/+h	yd (I)	n. f. du. cstr. acc. + 3 m. sg. suff.	hand	Natural dual direct object 'his hands' (EUPT Akk. f. dual construct).
 161096	amth	amth	am(t(II)/t~h	ảmt (II)	n. f. sg. abs. acc. + dir. -h	elbow	Directional h in 'up to the elbow' (Martijn/Tania; EUPT Term. f. sg.), not a possessive suffix. The older ~h(II) notation is normalized to canonical ~h.
 # KTU 1.14 III:54							
-161097	uṣbˤthˤd	uṣbʿth .ʿd  	uṣbˤ(t/t=+h ˤd(I)	ủṣbʕ, ʕd (I)	n. f. pl. cstr. acc. + 3 m. sg. suff., prep.	fingers, up to	Two lexical words joined by TF: uṣbˤth + ˤd, 'his fingers/arms up to the shoulder' (DULAT; Martijn/Tania; compare II:13).
+161097	uṣbˤthˤd	uṣbʿth .ʿd  	uṣbˤ(t/t=+h ˤd(I)	ủṣbʕ | ʕd (I)	n. f. pl. cstr. acc. + 3 m. sg. suff. | prep.	fingers | up to	Two lexical words joined by TF: uṣbˤth + ˤd, 'his fingers/arms up to the shoulder' (DULAT; Martijn/Tania; compare II:13).
 161098	ṯkm	ṯkm	ṯkm/	ṯkm	n. m. sg. abs. gen.	shoulder	Complement of ˤd 'up to the shoulder' (DULAT; EUPT Gen.).
 # KTU 1.14 III:55							
 161099	ˤrb	ʿrb  	ˤrb[	/ʕ-r-b/ (I)	vb G suffc. 3 m. sg.	1) to enter	Reviewed against DULAT, EUPT, and Martijn/Tania; current analysis retained.

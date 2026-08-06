@@ -537,7 +537,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156126	l	l 	l(II)	l (II)	neg. adv.	no, not	
 156127	tdˤ	tdʿ  	!t!(ydˤ(I)[	/y-d-ʕ/ (I)	vb G prefc. 3 m. pl.	to know	
 156128	nšm	nšm  	nšm/	nšm	n. m. pl. abs. nom.	people	
-156129	wl	wl  	w-l(II)	w; l (II)	conj.; neg. adv.	and; no, not	SPLIT IN TWO WORDS!!
+156129	wl	wl  	w-l(II)	w | l (II)	conj. | neg. adv.	and; no, not	SPLIT IN TWO WORDS!!
 156130	tbn	tbn	!t!bn[	/b-n/	vb G prefc.	to understand	
 # KTU 1.3 III:28							
 156131	hmlt	hmlt  	hml(t/t=	hmlt	n. f. pl. tant. cstr. nom.	multitude	
@@ -1242,7 +1242,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156694	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	Vocative.
 156695	ḥkm	ḥkm   	ḥkm/	ḥkm	n. m. sg. abs. nom.	wise	ḥkm (Tania read hkm; sign h/ḥ).
 156696	ḥkmk	ḥkmk	ḥkm/+k	ḥkm	n. m. sg. cstr. nom. + 2 m. sg. suff.	wise	'your wisdom (endures) unto eternity'.
-156696	ḥkmk	ḥkmk	ḥkm/ k(II)	ḥkm; k (II)	adj. m. sg. abs. nom.; emph. functor	wise; yes	DULAT (V:30): ḥkm k ˤm ˤlm 'wise, yes, for eternity'.
+156696	ḥkmk	ḥkmk	ḥkm/ k(II)	ḥkm | k (II)	adj. m. sg. abs. nom. | emph. functor	wise | yes	DULAT (V:30): ḥkm k ˤm ˤlm 'wise, yes, for eternity'.
 # KTU 1.3 V:31							
 156697	ˤm	ʿm  	ˤm(I)	ʕm (I)	prep.	to	
 156698	ˤlm	ʿlm  	ˤlm(I)/	ʕlm (I)	n. m. sg. abs. gen.	eternity	

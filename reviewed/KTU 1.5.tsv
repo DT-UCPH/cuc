@@ -27,8 +27,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158597	ttrp	ttrp  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158598	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens, sky	
 158599	krs	krs	krs/	krs	?	?	DULAT-only fallback; legacy reviewed alternatives retained below.
-158599	krs	krs	k(I) r(ks/	k (I), rks	prep., n. m. sg. abs. gen.	like, belt	Legacy reviewed reading.
-158599	krs	krs	k(I) rs[/	k (I), /r-s/	prep., vb G? act. ptcpl. m. pl. abs. nom.	like, to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
+158599	krs	krs	k(I) r(ks/	k (I) | rks	prep. | n. m. sg. abs. gen.	like | belt	Legacy reviewed reading.
+158599	krs	krs	k(I) rs[/	k (I) | /r-s/	prep. | vb G? act. ptcpl. m. pl. abs. nom.	like | to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
 # KTU 1.5 I:5							
 158600	ipdk	ipdk  	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
 158600	ipdk	ipdk  	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
@@ -119,7 +119,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158659	rumm	rumm  	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
 158660	ˤn	ʿn  	ˤn(I)/	ʕn (I)	n. f. sg. abs. acc.	spring	
 158661	kḏd	kḏd  	kḏd	kḏd	→	?	
-158661	kḏd	kḏd  	k(II) ḏd(III)/	k (II), ḏd (III)	emph. functor, n. m. sg. cstr. nom.	yes, flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'. ## The gloss delimiter is ambiguous on multi-lexeme rows: a comma separates the two lexemes' glosses, but DULAT's own gloss for ḏd (III) is "flock, herd".
+158661	kḏd	kḏd  	k(II) ḏd(III)/	k (II) | ḏd (III)	emph. functor | n. m. sg. cstr. nom.	yes | flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'.
 158662	aylt	aylt	ayl(I)/t	ảyl (I)	n. f. sg. abs. gen.	hind	
 158662	aylt	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
 # KTU 1.5 I:18							
@@ -145,7 +145,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158674	ilḥm	ilḥm  	!(ʔ&i!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 1 c. sg.	to eat	
 158675	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
 158675	hm	hm  	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt
-158675	hm	hm  	h(n/~m	hn	deictic functor/adv.	behold!, look!, thus	Tropper. ## DULAT's own gloss for hn is "behold!; look!; thus"; the semicolons are its punctuation, not variant separators, and the linter cannot tell the two apart. Written with commas here to avoid the false reading.
+158675	hm	hm  	h(n/~m	hn	deictic functor/adv.	behold!; look!; thus	Tropper.
 158676	šbˤ	šbʿ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.5 I:21							
 158677	ydty	ydty  	yd(I)/t=+y	yd (I)	n. f. pl. cstr. gen. + 1 c. sg. suff.	part, ration, portion	
@@ -159,8 +159,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158683	nhr	nhr  	nhr/	nhr	n. m. sg. abs. acc.	river	UNP
 158683	nhr	nhr  	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	Wyatt, Tropper
 158684	kl	kl  	k&l/~(n	k (II)	emph. functor	truly	UNP: 's[o] invite me'
-158684	kl	kl  	k l	k (II), l (II)	emph. functor, neg. functor	truly, not	Wyatt
-158684	kl	kl  	k l	k (II), l (III)	emph. functor, aff. functor	truly, certainly, undoubtedly, yes	DULAT: 'yes, surely invite me'
+158684	kl	kl  	k l	k (II) | l (II)	emph. functor | neg. functor	truly | not	Wyatt
+158684	kl	kl  	k l	k (II) | l (III)	emph. functor | aff. functor	truly, certainly, undoubtedly, yes	DULAT: 'yes, surely invite me'
 158685	ṣḥn	ṣḥn  	!!ṣḥ[+n=	/ṣ-ḥ/	vb G impv. m. sg. + 1 c. sg. suff.	to invite, call, say	'invite ME, Baal, with my brothers'.
 158686	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	Vocative.
 158687	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
@@ -221,8 +221,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158724	šmm	[šmm  ]  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens	
 158725	krs	[krs  ]  	krs/	krs	?	?	DULAT-only fallback; legacy reviewed alternatives retained below.
-158725	krs	[krs  ]  	k(I) r(ks/	k (I), rks	prep., n. m. sg. abs. gen.	like, belt	Legacy reviewed reading.
-158725	krs	[krs  ]  	k(I) rs[/	k (I), /r-s/	prep., vb G? act. ptcpl. m. pl. abs. nom.	like, to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
+158725	krs	[krs  ]  	k(I) r(ks/	k (I) | rks	prep. | n. m. sg. abs. gen.	like | belt	Legacy reviewed reading.
+158725	krs	[krs  ]  	k(I) rs[/	k (I) | /r-s/	prep. | vb G? act. ptcpl. m. pl. abs. nom.	like | to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
 158726	ipdk	[ipd]k	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
 158726	ipdk	[ipd]k	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
 # KTU 1.5 II:1							

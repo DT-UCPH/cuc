@@ -159,6 +159,34 @@ UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
 `review_status.py` reports the ones missing a reason as `?undocumented`. Add the
 note — do not manufacture an analysis to clear the count.
 
+## Separating lexemes: `|`, never `,` or `;`
+
+When one token carries two lexemes, the structured columns separate them with
+` | `:
+
+```
+160692  bn amt   bn(I)/ am(t(I)/t   bn (I) | ảmt (I)
+                 n. m. sg. cstr. gen. | n. f. sg. abs. gen.
+                 son | female slave
+```
+
+**Neither punctuation mark is available to us**, because DULAT uses both inside
+a single gloss: a **comma between synonyms** and a **semicolon between
+non-synonyms**. `ḏd (III)` is glossed `flock, herd` and `hn` is glossed
+`behold!; look!; thus` — one gloss each. Delimiting with either would make a
+two-lexeme row unreadable, and reading either as a delimiter silently splits a
+DULAT gloss into senses it does not have.
+
+So on a two-lexeme row the gloss reads `yes | flock, herd`: one pipe, and the
+comma stays DULAT's.
+
+The analysis column separates its lexemes with a space (`k(I) r(ks/`), which is
+unambiguous there because no analysis contains one.
+
+`split_csv_field` in the linter splits on `|`, falling back to `,` for rows
+written before the convention, and the packed-variant check no longer reads a
+semicolon in the gloss column as a delimiter.
+
 ## Segment separator
 
 Appended segments are joined with ` | `, which is also how machine-added

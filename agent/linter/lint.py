@@ -1785,20 +1785,35 @@ def split_semicolon_field(value: str) -> List[str]:
 
 
 def split_csv_field(value: str) -> List[str]:
+    """Split a structured column into its per-lexeme items.
+
+    '|' is the lexeme separator, because ',' and ';' both occur inside DULAT's
+    own glosses -- a comma between synonyms, a semicolon between non-synonyms --
+    so neither can delimit anything of ours. DULAT's gloss for ḏd (III) is
+    'flock, herd'; on a two-lexeme row that has to read as one item, not two.
+
+    Rows written before the '|' convention still separate with a comma, so a
+    value without '|' falls back to the old behaviour.
+    """
     if value is None:
         return []
-    out = [x.strip() for x in value.split(",")]
+    sep = "|" if "|" in value else ","
+    out = [x.strip() for x in value.split(sep)]
     return [x for x in out if x != ""]
 
 
 def has_semicolon_packed_variants(parts: List[str]) -> bool:
     """
     Packed variant payloads are legacy format for out/*.tsv:
-    col3-col6 store multiple options delimited by ';' in one row.
+    col3-col5 store multiple options delimited by ';' in one row.
+
+    The gloss column is excluded: DULAT separates non-synonymous senses with a
+    semicolon of its own, so 'behold!; look!; thus' is one gloss, not three
+    packed variants. Lexemes are separated with '|' (see split_csv_field).
     """
     if len(parts) < 6:
         return False
-    for idx in (2, 3, 4, 5):
+    for idx in (2, 3, 4):
         if len(split_semicolon_field(parts[idx])) > 1:
             return True
     return False

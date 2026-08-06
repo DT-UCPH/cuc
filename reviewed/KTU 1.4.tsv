@@ -154,7 +154,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:34							
 157018	bẓr	bẓr 	bẓr/	bẓr	n. m. sg. abs. gen.	refined gold	nḫt bẓr 'a divan of fine gold' (DULAT).
 157019	hdm	hdm  	hdm/	hdm	n. m. sg. abs. acc.	footstool	hdm il 'a footstool for El'.
-157020	id	id	i(l(I)/ d	ỉl (I); d	DN m. sg. abs. gen.; det. or rel. functor	ʾIlu/Ilu/El; the one(s) of	DULAT reads hdm il(!) d pršả (l omitted by the scribe); not ỉd 'when'.
+157020	id	id	i(l(I)/ d	ỉl (I) | d	DN m. sg. abs. gen. | det. or rel. functor	ʾIlu/Ilu/El | the one(s) of	DULAT reads hdm il(!) d pršả (l omitted by the scribe); not ỉd 'when'.
 # KTU 1.4 I:35							
 157021	d	d 	d	d	det. or rel. functor	2) which	
 157022	prša	prša  	prš[&a:pass	/p-r-š/	vb Gpass suffc. 3 m. sg.	to extend, apply a coat of a material, resurface	DULAT: 'which is covered with tin'.
@@ -1039,7 +1039,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157699	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. cstr. gen.	1) earth	
 157700	brqm	brqm	brq(I)/m	brq (I)	n. m. pl. abs. acc.	ray	
 # KTU 1.4 V:10							
-157701	dbt	[[d]]bt    	d bt(II)/	d; bt (II)	det. or rel. functor; n. m. sg. cstr. nom.	the one(s) of; 1) house	d bt arzm ykllnh 'whether a house of cedar they complete for him' (DULAT V:10).
+157701	dbt	[[d]]bt    	d bt(II)/	d | bt (II)	det. or rel. functor | n. m. sg. cstr. nom.	the one(s) of | 1) house	d bt arzm ykllnh 'whether a house of cedar they complete for him' (DULAT V:10).
 157702	arzm	arzm  	arz(I)/m	ảrz (I)	n. m. pl. abs. gen.	1) a conifer	
 157703	ykllnh	ykllnh	!y!kll[:d~n+h	/k-l-l/	vb D prefc. 3 m. sg. + energic-n + suff.	to complete, finish	'he will complete it'.
 # KTU 1.4 V:11							
