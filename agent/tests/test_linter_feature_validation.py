@@ -44,6 +44,48 @@ class LinterFeatureValidationTest(unittest.TestCase):
         )
         self.assertNotIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
 
+    def test_accepts_third_masculine_dual_prefix_form_with_written_ending(self) -> None:
+        # yingaṯikāni: the written -n carries the dual, so the `y-` preformative
+        # no longer makes the singular explicit.
+        messages = self._lint_messages(
+            "1\tynṯkn\t!y!nṯk[n\t/n-ṯ-k/\tvb G prefc. 3 m. du.\tto bite each other\t\n"
+        )
+        self.assertNotIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
+
+    def test_accepts_third_masculine_dual_prefix_form_with_enclitic_ending(self) -> None:
+        # The same surface encoded with the final -n as an enclitic; the linter
+        # does not adjudicate between the two encodings of the -n.
+        messages = self._lint_messages(
+            "1\tynṯkn\t!y!nṯk[~n\t/n-ṯ-k/\tvb G prefc. 3 m. du.\tto bite each other\t\n"
+        )
+        self.assertNotIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
+
+    def test_accepts_second_masculine_dual_prefix_form_with_written_ending(self) -> None:
+        messages = self._lint_messages(
+            "1\ttġẓyn\t!t=!ġẓy[:d~n\t/ġ-ẓ-y/\tvb D prefc. 2 m. du. + energic -n\tto win over\t\n"
+        )
+        self.assertNotIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
+
+    def test_still_requires_number_for_endingless_prefix_form(self) -> None:
+        # Nothing is written after the root, so `!y!` stays an explicit
+        # singular; an endingless dual is spelled `!y=!`.
+        messages = self._lint_messages(
+            "1\tyṯb\t!y!(yṯb[\t/y-ṯ-b/\tvb G prefc. 3 m. du.\tto sit down\t\n"
+        )
+        self.assertIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
+
+    def test_stem_marker_alone_is_not_a_written_ending(self) -> None:
+        messages = self._lint_messages(
+            "1\tymgn\t!y!mgn[:d\t/m-g-n/\tvb D prefc. 3 m. du.\tto regale\t\n"
+        )
+        self.assertIn("Verb POS is missing explicit morphology from analysis: sg.", messages)
+
+    def test_still_requires_person_and_gender_for_prefix_form_with_ending(self) -> None:
+        messages = self._lint_messages(
+            "1\tynṯkn\t!y!nṯk[n\t/n-ṯ-k/\tvb G prefc. 2 f. du.\tto bite\t\n"
+        )
+        self.assertIn("Verb POS is missing explicit morphology from analysis: 3 m.", messages)
+
     def test_accepts_reviewed_journey_formula_ytn_plural_prefix_notation(self) -> None:
         messages = self._lint_messages(
             "1\tytn\t!y!(ytn[\t/y-t-n/\tvb G prefc. 3 m. pl.\tto give\t\n"
