@@ -80,7 +80,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158630	mrym	mrym  	mrym/	mrym	n. m. sg. cstr. gen.	height	
 158631	ṣpn	ṣpn  	ṣpn/	ṣpn	TN/DN m. sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
 158632	w	w 	w	w	conj.	and	
-158633	yˤn	yʿn	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	Subjects Gapn-and-Ugar.
+158633	yˤn	yʿn	!y=!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	Subjects Gapn-and-Ugar. w yˤn gpn w ugr, with two divine subjects; EUPT reads yaˁnî(/â) G-PKK 3.m.du.
 # KTU 1.5 I:12							
 158634	gmpn	g[[m]]pn    	g&mpn(III)/	gpn (III)	DN m. sg. abs. nom.	Gapnu	KTU3 reads g{m}pn (scribal m); one of the two messengers of Baal (gpn w ugr).
 158635	w	w 	w	w	conj.	and	
@@ -316,7 +316,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158787	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	TCS: 'Be off and do not tarry, O gods' (// 1.2 I:13).
 158788	w	w 	w	w	conj.	and	
 158789	l	l  	l(II)	l (II)	adv.	not	
-158790	yṯb	yṯb  	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	
+158790	yṯb	yṯb  	!y=!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	tbˤ w l yṯb ilm, 'they departed and the two gods did not sit' — ilm is dual here. EUPT reads yâṯibā/yaṯabā 3.m.du. but takes it as a suffix conjugation (G-SK), where it reads the same formula at 1.2 I:19 as a prefix conjugation (G-PKK); the prefix reading is kept as primary and marked !y=! for the dual, matching ytn in the next line.
 158790	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	Sg. form with pl. subject (cf. 1.2 I:21).
 158790	yṯb	yṯb  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	
 158791	ilm	ilm 	il(I)/m	ỉl (I)	n. m. du. abs. nom.	god	The two messengers (// 1.2 I:19 ġlmm); TCS: vocative 'Be off…, O gods'.
