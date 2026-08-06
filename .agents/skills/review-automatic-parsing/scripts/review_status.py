@@ -92,7 +92,7 @@ def scan(path: Path):
         else:
             stat["alt_rows"] += 1
 
-        if comment.startswith(SEED_MARK):
+        if SEED_MARK in comment:
             # Not reviewed yet, so the `?` audit below does not apply to it.
             stat["seeded"] += 1
             outstanding[column].append((tid, surface, "seeded"))

@@ -25,6 +25,30 @@ empty `##` section are errors. Note that `#` is also the linter's legacy
 inline-comment delimiter for a raw row — `##` is exempted from it, so an
 internal note stays inside the comment column instead of truncating the row.
 
+### Name the source, always
+
+A comment exists to tell the reader **where a reading comes from**. A note that
+records only that someone once decided something tells them nothing:
+
+```
+Legacy reviewed reading.          <- who read it? on what grounds?
+Wyatt                             <- a name with no claim attached
+DULAT direct ref                  <- our lookup, not a fact about the text
+Reviewed against …; retained.     <- describes our process, not the word
+```
+
+Almost always the reading *is* in the literature and can simply be cited. That
+`krs` alternative was not a house decision at all — del Olmo proposes it:
+
+```
+del Olmo reads k r<k>s here, emending a lost k: the preposition k (I) with rks
+"belt" (DULAT s.v. krs, p. 452, cross-referring to k (I) and rks p. 729).
+```
+
+If you cannot find who holds a reading, that is itself worth knowing: either it
+is in a source you have not checked, or nobody holds it and the row needs
+rethinking. "Someone here thought so" is not a citation.
+
 ### What earns a `##`
 
 Genuine red flags a developer or researcher must look at:
@@ -242,8 +266,11 @@ file is the upstream report.
 `seed_reviewed_column_range.py` writes exactly:
 
 ```
-SEEDED from auto-parse; not yet hand-reviewed.
+## SEEDED from auto-parse; not yet hand-reviewed.
 ```
+
+behind the `##`, because it addresses us and not a reader: it says the row is
+unfinished, which is a fact about our workflow rather than about the word.
 
 **Clear it on every row you examine** — that is what "reviewed" means. But clear
 it to *empty* when the row has nothing to record; do not invent a confirmation

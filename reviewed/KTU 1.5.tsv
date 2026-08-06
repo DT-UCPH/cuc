@@ -26,9 +26,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158597	ttrp	ttrp  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
 158597	ttrp	ttrp  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158598	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens, sky	
-158599	krs	krs	krs/	krs	?	?	DULAT-only fallback; legacy reviewed alternatives retained below.
-158599	krs	krs	k(I) r(ks/	k (I) | rks	prep. | n. m. sg. abs. gen.	like | belt	Legacy reviewed reading.
-158599	krs	krs	k(I) rs[/	k (I) | /r-s/	prep. | vb G? act. ptcpl. m. pl. abs. nom.	like | to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
+158599	krs	krs	krs/	krs	?	?	DULAT has an entry for krs at this line but gives it no meaning of its own, referring instead to the emended reading below (s.v. krs, p. 452). EUPT glosses krs "Bauch, Eingeweide" ("belly, entrails").
+158599	krs	krs	k(I) r(ks/	k (I) | rks	prep. | n. m. sg. abs. gen.	like | belt	del Olmo reads k r<k>s here, emending a lost k: the preposition k (I) with rks "belt" (DULAT s.v. krs, p. 452, cross-referring to k (I) and rks p. 729).
+158599	krs	krs	k(I) rs[/	k (I) | /r-s/	prep. | vb G? act. ptcpl. m. pl. abs. nom.	like | to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? TCS analyses the signs as the preposition k + a noun rs and calls its own rendering "a simple guess". Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
 # KTU 1.5 I:5							
 158600	ipdk	ipdk  	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
 158600	ipdk	ipdk  	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
@@ -220,9 +220,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
 158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158724	šmm	[šmm  ]  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens	
-158725	krs	[krs  ]  	krs/	krs	?	?	DULAT-only fallback; legacy reviewed alternatives retained below.
-158725	krs	[krs  ]  	k(I) r(ks/	k (I) | rks	prep. | n. m. sg. abs. gen.	like | belt	Legacy reviewed reading.
-158725	krs	[krs  ]  	k(I) rs[/	k (I) | /r-s/	prep. | vb G? act. ptcpl. m. pl. abs. nom.	like | to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
+158725	krs	[krs  ]  	krs/	krs	?	?	DULAT has an entry for krs at this line but gives it no meaning of its own, referring instead to the emended reading below (s.v. krs, p. 452). EUPT glosses krs "Bauch, Eingeweide" ("belly, entrails").
+158725	krs	[krs  ]  	k(I) r(ks/	k (I) | rks	prep. | n. m. sg. abs. gen.	like | belt	del Olmo reads k r<k>s here, emending a lost k: the preposition k (I) with rks "belt" (DULAT s.v. krs, p. 452, cross-referring to k (I) and rks p. 729).
+158725	krs	[krs  ]  	k(I) rs[/	k (I) | /r-s/	prep. | vb G? act. ptcpl. m. pl. abs. nom.	like | to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? TCS analyses the signs as the preposition k + a noun rs and calls its own rendering "a simple guess". Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
 158726	ipdk	[ipd]k	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
 158726	ipdk	[ipd]k	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
 # KTU 1.5 II:1							

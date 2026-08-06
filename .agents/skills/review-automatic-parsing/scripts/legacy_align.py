@@ -95,7 +95,7 @@ def load(path: Path, idx: dict[str, int]):
                 # Alternative row for a token already seen on this line.
                 by_id[tid][2].add(analysis)
                 continue
-            entry = [tid, surface, {analysis}, comment.startswith(SEED_MARK)]
+            entry = [tid, surface, {analysis}, SEED_MARK in comment]
             by_id[tid] = entry
             blocks[key].append(entry)
     if not blocks:
