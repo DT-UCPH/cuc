@@ -19,6 +19,12 @@ Two hard rules:
 
 Everything before the `##` is published. Everything after it is ours.
 
+The linter enforces this: a comment opening with a single `#`, a second `##`
+(the first ends the published text, so a later one cannot be recovered), or an
+empty `##` section are errors. Note that `#` is also the linter's legacy
+inline-comment delimiter for a raw row — `##` is exempted from it, so an
+internal note stays inside the comment column instead of truncating the row.
+
 ### What earns a `##`
 
 Genuine red flags a developer or researcher must look at:

@@ -391,6 +391,51 @@ PRONOMINAL_SUFFIX_INVENTORY = frozenset(_PRONOMINAL_SUFFIX_SEGMENTS)
 ENCLITIC_INVENTORY = frozenset({"n", "nn", "m", "h", "y", "k", "t"})
 
 
+_INLINE_COMMENT_HASH_RE = re.compile(r"(?<!#)#(?!#)")
+
+
+def split_inline_comment(raw: str) -> Tuple[str, str]:
+    """Split a raw row on its legacy inline-comment '#'.
+
+    A doubled '##' is ours: it opens the part of the comment column addressed to
+    the project, which is stripped before release. It must not be read as an
+    inline-comment delimiter, or the row's fields are truncated at that point and
+    the internal note is torn out of the column it belongs to.
+    """
+    match = _INLINE_COMMENT_HASH_RE.search(raw or "")
+    if not match:
+        return raw, ""
+    return raw[: match.start()].rstrip(), raw[match.start() + 1 :].strip()
+
+
+def comment_marker_problems(annotation_text: str) -> List[str]:
+    """Validate the published/internal split of the comment column.
+
+    Everything before a '##' is published to users of the corpus; everything
+    after it is addressed to the project and is stripped before release. A
+    comment may therefore be wholly internal ('## ...'), but it must never open
+    with a single '#', which is the retired legacy form and would be published
+    verbatim.
+    """
+    text = (annotation_text or "").strip()
+    if not text:
+        return []
+    problems: List[str] = []
+    if text.startswith("#") and not text.startswith("##"):
+        problems.append(
+            "Comment starts with '#'; the published column must not, and notes "
+            "addressed to the project go after a '##' at the end"
+        )
+    if text.count("##") > 1:
+        problems.append(
+            "Comment has more than one '##'; the first ends the published text, "
+            "so a later one cannot be recovered"
+        )
+    if text.rstrip().endswith("##"):
+        problems.append("Comment ends with an empty '##' section")
+    return problems
+
+
 def todo_markers_in_comment(annotation_text: str) -> List[str]:
     """Return explicit review-task markers, without matching word fragments."""
     markers = ("merge", "???", "todo", "fix", "repair")
@@ -2580,9 +2625,8 @@ def lint_file(
         if not raw.strip() or is_cuc_separator_line(raw):
             continue
         core = raw
-        if (not is_out_tsv_file) and "#" in raw:
-            core, _comment = raw.split("#", 1)
-            core = core.rstrip()
+        if not is_out_tsv_file:
+            core, _comment = split_inline_comment(raw)
         parts = core.split("\t")
         if is_out_tsv_header_row(parts):
             continue
@@ -2674,10 +2718,8 @@ def lint_file(
             continue
         comment = ""
         core = raw
-        if (not is_out_tsv_file) and "#" in raw:
-            core, comment = raw.split("#", 1)
-            core = core.rstrip()
-            comment = comment.strip()
+        if not is_out_tsv_file:
+            core, comment = split_inline_comment(raw)
         parts = core.split("\t")
         if is_out_tsv_header_row(parts):
             continue
@@ -3777,6 +3819,15 @@ def lint_file(
                 merge_annotations.append(
                     MergeAnnotation(i, token_id, surface, (analysis or "").strip(), merge_direction)
                 )
+
+        # The comment column is published to corpus users. Everything before a
+        # '##' reaches them; everything after it is addressed to us and is
+        # stripped before release. A single leading '#' is the retired legacy
+        # form and would survive into the published text.
+        for problem in comment_marker_problems(annotation_text):
+            issues.append(
+                Issue("error", str(path), i, line_id, surface, analysis, problem)
+            )
 
         # Comments TODO markers. Structured MERGE annotations are a recognized
         # convention for words split across physical lines, not an uncertainty
