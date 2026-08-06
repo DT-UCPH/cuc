@@ -9,7 +9,7 @@ while IFS= read -r path; do
   [[ -n "$path" ]] && staged_tsvs+=("$path")
 done < <(
   git diff --cached --name-only --diff-filter=ACMR -- \
-    | rg '^auto_parsing/.+\.tsv$' || true
+    | grep -E '^auto_parsing/.+\.tsv$' || true
 )
 
 if [[ ${#staged_tsvs[@]} -eq 0 ]]; then
@@ -18,7 +18,15 @@ fi
 
 python="$repo_root/agent/.venv/bin/python"
 if [[ ! -x "$python" ]]; then
-  echo "pre-commit: missing agent/.venv/bin/python" >&2
+  # A git worktree has no agent/.venv of its own; it lives in the main checkout,
+  # which --git-common-dir points at (absolute from a worktree, ".git" from the
+  # main checkout itself).
+  common_dir="$(git rev-parse --git-common-dir)"
+  [[ "$common_dir" != /* ]] && common_dir="$repo_root/$common_dir"
+  python="$(dirname "$common_dir")/agent/.venv/bin/python"
+fi
+if [[ ! -x "$python" ]]; then
+  echo "pre-commit: missing agent/.venv/bin/python (looked in $repo_root and the main checkout)" >&2
   exit 1
 fi
 
