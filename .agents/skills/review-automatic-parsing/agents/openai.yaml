@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Automatic Parsing"
+  short_description: "Adjudicate auto-parsed tokens into hand-reviewed data"
+  default_prompt: "Use $review-automatic-parsing to review the requested reviewed tablet column against DULAT, EUPT, and the legacy expert review, and clear the seed marker only on rows actually examined."

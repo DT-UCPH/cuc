@@ -7,7 +7,9 @@ Unlike build_reviewed_from_auto.py (which rewrites a whole tablet in the older
 Text-Fabric `sign span`, and never touches rows already present.
 
 Every appended row is marked `SEEDED` in the comments column so seeded content
-never masquerades as reviewed. Curation removes the marker.
+never masquerades as reviewed. Curation removes the marker. The marker sits
+behind a `##`, which keeps it out of the text published to corpus users while
+leaving it machine-detectable.
 
 Usage:
     seed_reviewed_column_range.py 1.14 III            # from column III to the end
@@ -30,7 +32,7 @@ from linter.lint import (  # noqa: E402
 )
 from project_paths import get_project_paths  # noqa: E402
 
-SEED_MARK = "SEEDED from auto-parse; not yet hand-reviewed."
+SEED_MARK = "## SEEDED from auto-parse; not yet hand-reviewed."
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"]
 HDR = re.compile(r"^# KTU (\S+)(?: ([IVX]+):| )(\d+)")
 _SPACING = re.compile(r"^([^\s(]+)\(([IVXLC]+)\)$")

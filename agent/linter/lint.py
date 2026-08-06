@@ -391,6 +391,51 @@ PRONOMINAL_SUFFIX_INVENTORY = frozenset(_PRONOMINAL_SUFFIX_SEGMENTS)
 ENCLITIC_INVENTORY = frozenset({"n", "nn", "m", "h", "y", "k", "t"})
 
 
+_INLINE_COMMENT_HASH_RE = re.compile(r"(?<!#)#(?!#)")
+
+
+def split_inline_comment(raw: str) -> Tuple[str, str]:
+    """Split a raw row on its legacy inline-comment '#'.
+
+    A doubled '##' is ours: it opens the part of the comment column addressed to
+    the project, which is stripped before release. It must not be read as an
+    inline-comment delimiter, or the row's fields are truncated at that point and
+    the internal note is torn out of the column it belongs to.
+    """
+    match = _INLINE_COMMENT_HASH_RE.search(raw or "")
+    if not match:
+        return raw, ""
+    return raw[: match.start()].rstrip(), raw[match.start() + 1 :].strip()
+
+
+def comment_marker_problems(annotation_text: str) -> List[str]:
+    """Validate the published/internal split of the comment column.
+
+    Everything before a '##' is published to users of the corpus; everything
+    after it is addressed to the project and is stripped before release. A
+    comment may therefore be wholly internal ('## ...'), but it must never open
+    with a single '#', which is the retired legacy form and would be published
+    verbatim.
+    """
+    text = (annotation_text or "").strip()
+    if not text:
+        return []
+    problems: List[str] = []
+    if text.startswith("#") and not text.startswith("##"):
+        problems.append(
+            "Comment starts with '#'; the published column must not, and notes "
+            "addressed to the project go after a '##' at the end"
+        )
+    if text.count("##") > 1:
+        problems.append(
+            "Comment has more than one '##'; the first ends the published text, "
+            "so a later one cannot be recovered"
+        )
+    if text.rstrip().endswith("##"):
+        problems.append("Comment ends with an empty '##' section")
+    return problems
+
+
 def todo_markers_in_comment(annotation_text: str) -> List[str]:
     """Return explicit review-task markers, without matching word fragments."""
     markers = ("merge", "???", "todo", "fix", "repair")
@@ -1785,20 +1830,35 @@ def split_semicolon_field(value: str) -> List[str]:
 
 
 def split_csv_field(value: str) -> List[str]:
+    """Split a structured column into its per-lexeme items.
+
+    '|' is the lexeme separator, because ',' and ';' both occur inside DULAT's
+    own glosses -- a comma between synonyms, a semicolon between non-synonyms --
+    so neither can delimit anything of ours. DULAT's gloss for ḏd (III) is
+    'flock, herd'; on a two-lexeme row that has to read as one item, not two.
+
+    Rows written before the '|' convention still separate with a comma, so a
+    value without '|' falls back to the old behaviour.
+    """
     if value is None:
         return []
-    out = [x.strip() for x in value.split(",")]
+    sep = "|" if "|" in value else ","
+    out = [x.strip() for x in value.split(sep)]
     return [x for x in out if x != ""]
 
 
 def has_semicolon_packed_variants(parts: List[str]) -> bool:
     """
     Packed variant payloads are legacy format for out/*.tsv:
-    col3-col6 store multiple options delimited by ';' in one row.
+    col3-col5 store multiple options delimited by ';' in one row.
+
+    The gloss column is excluded: DULAT separates non-synonymous senses with a
+    semicolon of its own, so 'behold!; look!; thus' is one gloss, not three
+    packed variants. Lexemes are separated with '|' (see split_csv_field).
     """
     if len(parts) < 6:
         return False
-    for idx in (2, 3, 4, 5):
+    for idx in (2, 3, 4):
         if len(split_semicolon_field(parts[idx])) > 1:
             return True
     return False
@@ -2044,6 +2104,23 @@ def is_cuc_placeholder_row(parts: List[str]) -> bool:
     if not line_id.isdigit():
         return False
     return analysis == surface
+
+
+_ALEPH_FAMILY_RE = re.compile(r"[ʔảỉủʼʾaiu]")
+_AYIN_FAMILY_RE = re.compile(r"[ʕˤʿ]")
+
+
+def lexeme_skeleton(value: str) -> str:
+    """Bare consonant skeleton for comparing an analysis base to a DULAT lemma.
+
+    Roots arrive as '/m-ṣ-ḥ/' and analysis bases as 'mṣḫ', and the two sides
+    spell aleph differently: DULAT writes 'ʔ' or 'ỉ', the project writes the
+    vowel letter it is realised by.  Folding both families keeps an aleph
+    spelling difference (sʔd against sỉd) from reading as a radical difference.
+    """
+    text = normalize_surface(value or "").strip("/").replace("-", "")
+    text = _ALEPH_FAMILY_RE.sub("ʔ", text)
+    return _AYIN_FAMILY_RE.sub("ʕ", text)
 
 
 def parse_declared_dulat_token(token: str) -> Tuple[str, str]:
@@ -2548,9 +2625,8 @@ def lint_file(
         if not raw.strip() or is_cuc_separator_line(raw):
             continue
         core = raw
-        if (not is_out_tsv_file) and "#" in raw:
-            core, _comment = raw.split("#", 1)
-            core = core.rstrip()
+        if not is_out_tsv_file:
+            core, _comment = split_inline_comment(raw)
         parts = core.split("\t")
         if is_out_tsv_header_row(parts):
             continue
@@ -2642,10 +2718,8 @@ def lint_file(
             continue
         comment = ""
         core = raw
-        if (not is_out_tsv_file) and "#" in raw:
-            core, comment = raw.split("#", 1)
-            core = core.rstrip()
-            comment = comment.strip()
+        if not is_out_tsv_file:
+            core, comment = split_inline_comment(raw)
         parts = core.split("\t")
         if is_out_tsv_header_row(parts):
             continue
@@ -3746,6 +3820,15 @@ def lint_file(
                     MergeAnnotation(i, token_id, surface, (analysis or "").strip(), merge_direction)
                 )
 
+        # The comment column is published to corpus users. Everything before a
+        # '##' reaches them; everything after it is addressed to us and is
+        # stripped before release. A single leading '#' is the retired legacy
+        # form and would survive into the published text.
+        for problem in comment_marker_problems(annotation_text):
+            issues.append(
+                Issue("error", str(path), i, line_id, surface, analysis, problem)
+            )
+
         # Comments TODO markers. Structured MERGE annotations are a recognized
         # convention for words split across physical lines, not an uncertainty
         # marker, so they do not count as a 'merge' TODO hit.
@@ -4182,6 +4265,51 @@ def lint_file(
                                 "Lexeme parse did not match DULAT; matched by surface form",
                             )
                         )
+                    # The analysis resolved on its own, but to a different DULAT
+                    # entry than column 4 declares.  Both columns are individually
+                    # valid, so nothing else notices that they contradict each
+                    # other -- which is how an unmarked consonant substitution
+                    # (mṣḫ against declared /m-ṣ-ḥ/) stays silent.
+                    #
+                    # Restricted to skeletons of equal length.  A shorter or
+                    # longer analysis base is normally correct: DULAT lemmatises
+                    # plurale tantum whole (ddy against declared ddym), keeps
+                    # deverbal nouns as their own entries (nṣṣ against mšṣṣ), and
+                    # carries both biconsonantal and triconsonantal roots for one
+                    # verb (bn against /b-n-y/).  Only a same-length difference
+                    # means the analysis spells a radical the lexeme does not.
+                    if lookup_mode == "lexeme" and declared_head:
+                        declared_entries = lemma_map.get(normalize_surface(declared_head), [])
+                        if declared_hom:
+                            declared_entries = [
+                                c for c in declared_entries if c.homonym == declared_hom
+                            ]
+                        declared_ids = {c.entry_id for c in declared_entries}
+                        found_ids = {c.entry_id for c in d_candidates}
+                        analysis_skeleton = lexeme_skeleton(lexeme)
+                        declared_skeleton = lexeme_skeleton(declared_head)
+                        if (
+                            declared_ids
+                            and found_ids
+                            and not (declared_ids & found_ids)
+                            and analysis_skeleton
+                            and len(analysis_skeleton) == len(declared_skeleton)
+                            and analysis_skeleton != declared_skeleton
+                        ):
+                            issues.append(
+                                Issue(
+                                    "error",
+                                    str(path),
+                                    i,
+                                    line_id,
+                                    surface,
+                                    analysis,
+                                    "Analysis lexeme '%s' spells a radical the declared %s does "
+                                    "not have; mark it with '(' and '&' (lexical letter first) "
+                                    "or correct a column"
+                                    % (lexeme, first_d[0].strip()),
+                                )
+                            )
                     # Stem presence: if DULAT has no G-stem for this verb, require a :stem marker
                     if (is_verb_global or is_deverbal) and verb_candidates_for_stem:
                         stems = set()

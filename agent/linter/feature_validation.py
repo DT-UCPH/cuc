@@ -5,6 +5,7 @@ from __future__ import annotations
 import re
 
 from morph_features.analysis_decoder import (
+    DecodedAnalysis,
     decode_analysis,
     explicit_prefix_features,
     explicit_suffix_conjugation_features,
@@ -13,6 +14,7 @@ from morph_features.analysis_decoder import (
 _NAME_CLASSES = ("DN", "PN", "RN", "TN", "GN", "MN")
 _SPLIT_T_PLURAL_RE = re.compile(r"/t=(?=\s*$|[+;,~])")
 _SPLIT_T_SINGULAR_RE = re.compile(r"/t(?=\s*$|[+;,~])")
+_STEM_MARKER_RE = re.compile(r":(?:d|l|r|pass)(?=$|[+~/])")
 
 
 def inferable_feature_issues(
@@ -50,6 +52,15 @@ def verbal_feature_issues(
     decoded = decode_analysis(analysis)
     if "prefc." in pos:
         person, gender, number = explicit_prefix_features(decoded)
+        # A preformative marks person and gender; number is carried by the
+        # written ending (dual -ā(ni), plural -ū(na)).  `!y!qtl[` reads as a
+        # singular only because nothing follows the root -- the conventions
+        # spell the endingless dual `!y=!qtl[` for exactly that reason.  Once
+        # the analysis does write an ending, the mapped singular is no longer
+        # explicit morphology, so keep the person/gender check but let the
+        # reviewed POS carry the number.
+        if _has_written_verbal_ending(decoded):
+            number = ""
     elif "suffc." in pos:
         person, gender, number = explicit_suffix_conjugation_features(decoded)
         # The consonantal zero ending shared by 3 m. sg. and 3 m. du. does
@@ -115,6 +126,18 @@ def nominal_feature_issues(analysis: str, pos_field: str) -> list[str]:
             + " ".join(dict.fromkeys(expected))
         ]
     return []
+
+
+def _has_written_verbal_ending(decoded: DecodedAnalysis) -> bool:
+    """Report whether the analysis writes an ending after the root.
+
+    `:d`, `:l`, `:r` and `:pass` name the stem, not an ending, so they leave a
+    form as endingless as a bare `[`.  Everything else -- the dual/plural `n`,
+    the enclitic `~n`, the plural `:w`, a vowel spelling such as `&a`, or a
+    pronominal suffix -- is written material that the preformative's default
+    number does not account for.
+    """
+    return _STEM_MARKER_RE.sub("", decoded.visible_suffix).strip() != ""
 
 
 def _is_nominal_pos(pos: str) -> bool:

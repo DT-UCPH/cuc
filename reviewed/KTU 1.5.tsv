@@ -22,19 +22,19 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158595	rašm	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. gen.	head	
 # KTU 1.5 I:4							
 158596	tṯkḥ	tṯkḥ  	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
-158596	tṯkḥ	tṯkḥ  	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
+158596	tṯkḥ	tṯkḥ  	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	if šmm is dual
 158597	ttrp	ttrp  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
-158597	ttrp	ttrp  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
+158597	ttrp	ttrp  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158598	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens, sky	
-158599	krs	krs	krs/	krs	?	?	DULAT-only fallback; legacy reviewed alternatives retained below.
-158599	krs	krs	k(I) r(ks/	k (I), rks	prep., n. m. sg. abs. gen.	like, belt	Legacy reviewed reading.
-158599	krs	krs	k(I) rs[/	k (I), /r-s/	prep., vb G? act. ptcpl. m. pl. abs. nom.	like, to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
+158599	krs	krs	krs/	krs	?	?	DULAT has an entry for krs at this line but gives it no meaning of its own, referring instead to the emended reading below (s.v. krs, p. 452). EUPT glosses krs "Bauch, Eingeweide" ("belly, entrails").
+158599	krs	krs	k(I) r(ks/	k (I) | rks	prep. | n. m. sg. abs. gen.	like | belt	del Olmo reads k r<k>s here, emending a lost k: the preposition k (I) with rks "belt" (DULAT s.v. krs, p. 452, cross-referring to k (I) and rks p. 729).
+158599	krs	krs	k(I) rs[/	k (I) | /r-s/	prep. | vb G? act. ptcpl. m. pl. abs. nom.	like | to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? TCS analyses the signs as the preposition k + a noun rs and calls its own rendering "a simple guess". Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
 # KTU 1.5 I:5							
 158600	ipdk	ipdk  	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
 158600	ipdk	ipdk  	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
 158601	ank	ank  	ank	ảnk	pers. pn.	I	
 158602	ispi	ispi  	!(ʔ&i!sp(ʔ[&i	/s-p-ʔ/	vb G prefc. 1 c. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	
-158602	ispi	ispi  	!(ʔ&i!](n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc. 1 c. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	DULAT: 'I was consumed piece by piece (?)'.
+158602	ispi	ispi  	!(ʔ&i!(]n]sp(ʔ[&i	/s-p-ʔ/	vb N prefc. 1 c. sg.	to devour, eat, consume > to be consumed > fodder > give to eat > to feed, to serve > to eat	DULAT: 'I was consumed piece by piece (?)'. The N formative is not written — it assimilates to the following s — so it is reconstructed.
 158603	uṭm	uṭm	uṭ/m	ủṭ	n. m. pl. abs. acc.	span	UNP
 158603	uṭm	uṭm	uṭ/~m	ủṭ	n. m. sg. abs. acc. + encl. -m	span	DULAT: -m (I) adverbial, '(I shall eat you) by the span'.
 # KTU 1.5 I:6							
@@ -99,7 +99,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:14							
 158645	ġzr	ġzr  	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 158646	p	p 	p(I)	p (I)	conj. functor	and	
-158647	npš	np{.}š    	npš(I)/	npš (I)	n. f. sg. cstr. nom.	2) appetite	Merge with the following? | Migrated from legacy reviewed tokenization.
+158647	npš	np{.}š    	npš(I)/	npš (I)	n. f. sg. cstr. nom.	2) appetite	Merge with the following? ## Migrated from legacy reviewed tokenization.
 158648	npš	npš  	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
 158649	lbim	lbim	lb(u/&i~m	lbủ	n. m. sg. cstr. gen.	lion	Wyatt p117 n11 also notes possible maritime/monster construal in this passage.
 # KTU 1.5 I:15							
@@ -119,7 +119,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158659	rumm	rumm  	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
 158660	ˤn	ʿn  	ˤn(I)/	ʕn (I)	n. f. sg. abs. acc.	spring	
 158661	kḏd	kḏd  	kḏd	kḏd	→	?	
-158661	kḏd	kḏd  	k(II) ḏd(III)/	k (II); ḏd (III)	emph. functor; n. m. sg. cstr. nom.	yes; flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'.
+158661	kḏd	kḏd  	k(II) ḏd(III)/	k (II) | ḏd (III)	emph. functor | n. m. sg. cstr. nom.	yes | flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'.
 158662	aylt	aylt	ayl(I)/t	ảyl (I)	n. f. sg. abs. gen.	hind	
 158662	aylt	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
 # KTU 1.5 I:18							
@@ -128,7 +128,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158664	imt	imt  	im(t/t	ỉmt	adv.	truly	
 158664	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma
 158665	imt	imt  	im(t/t	ỉmt	adv.	truly	
-158665	imt	imt  				dittography	
+158665	imt	imt  	?	?	?	?	Read as a dittography of the preceding ỉmt, hence no analysis.
 158665	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma
 158666	npš	npš  	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
 158667	blt	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places.
@@ -145,7 +145,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158674	ilḥm	ilḥm  	!(ʔ&i!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 1 c. sg.	to eat	
 158675	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
 158675	hm	hm  	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt
-158675	hm	hm  	h(n/~m	hn	deictic functor/adv.	behold!; look!; thus / here	Tropper
+158675	hm	hm  	h(n/~m	hn	deictic functor/adv.	behold!; look!; thus	Tropper.
 158676	šbˤ	šbʿ	šbˤ(I)/	šbʕ (I)	num.	seven	
 # KTU 1.5 I:21							
 158677	ydty	ydty  	yd(I)/t=+y	yd (I)	n. f. pl. cstr. gen. + 1 c. sg. suff.	part, ration, portion	
@@ -159,8 +159,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158683	nhr	nhr  	nhr/	nhr	n. m. sg. abs. acc.	river	UNP
 158683	nhr	nhr  	nhr/	nhr	DN m. sg. abs. nom.	Naharu/“River”/alternative DN of the god ym	Wyatt, Tropper
 158684	kl	kl  	k&l/~(n	k (II)	emph. functor	truly	UNP: 's[o] invite me'
-158684	kl	kl  	k l	k (II); l (II)	emph. functor; neg. functor	truly; not	Wyatt
-158684	kl	kl  	k l	k (II); l (III)	emph. functor; aff. functor	truly; certainly, undoubtedly, yes	DULAT: 'yes, surely invite me'
+158684	kl	kl  	k l	k (II) | l (II)	emph. functor | neg. functor	truly | not	Wyatt
+158684	kl	kl  	k l	k (II) | l (III)	emph. functor | aff. functor	truly, certainly, undoubtedly, yes	DULAT: 'yes, surely invite me'
 158685	ṣḥn	ṣḥn  	!!ṣḥ[+n=	/ṣ-ḥ/	vb G impv. m. sg. + 1 c. sg. suff.	to invite, call, say	'invite ME, Baal, with my brothers'.
 158686	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	Vocative.
 158687	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
@@ -215,14 +215,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158720	šbˤt	[šbʿt  ]  	šbˤ(I)/t	šbʕ (I)	num. f.	seven	
 158721	rašm	[raš]m    	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. gen.	head	
 158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
-158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	# if šmm is du.
+158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	if šmm is dual
 # KTU 1.5 I:31							
 158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
-158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	# if šmm is du.
+158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158724	šmm	[šmm  ]  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens	
-158725	krs	[krs  ]  	krs/	krs	?	?	DULAT-only fallback; legacy reviewed alternatives retained below.
-158725	krs	[krs  ]  	k(I) r(ks/	k (I), rks	prep., n. m. sg. abs. gen.	like, belt	Legacy reviewed reading.
-158725	krs	[krs  ]  	k(I) rs[/	k (I), /r-s/	prep., vb G? act. ptcpl. m. pl. abs. nom.	like, to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
+158725	krs	[krs  ]  	krs/	krs	?	?	DULAT has an entry for krs at this line but gives it no meaning of its own, referring instead to the emended reading below (s.v. krs, p. 452). EUPT glosses krs "Bauch, Eingeweide" ("belly, entrails").
+158725	krs	[krs  ]  	k(I) r(ks/	k (I) | rks	prep. | n. m. sg. abs. gen.	like | belt	del Olmo reads k r<k>s here, emending a lost k: the preposition k (I) with rks "belt" (DULAT s.v. krs, p. 452, cross-referring to k (I) and rks p. 729).
+158725	krs	[krs  ]  	k(I) rs[/	k (I) | /r-s/	prep. | vb G? act. ptcpl. m. pl. abs. nom.	like | to fold?	UNP: 'but let me tear you to pieces', Gibson: 'with a breaking in pieces', TCS: 'like the folds (?)', noun or verbal noun? TCS analyses the signs as the preposition k + a noun rs and calls its own rendering "a simple guess". Tania: cf. Hebrew רסיסים, Amos 6:11 (not in HALOT).
 158726	ipdk	[ipd]k	ipd/+k	ỉpd	n. m. sg. cstr. acc. + 2 m. sg. suff.	tunic	
 158726	ipdk	[ipd]k	!(ʔ&i!pdk[	?	vb G prefc. 1 c. sg.	?	UNP: 'let me tear you to pieces' (juss.?/impv.?).
 # KTU 1.5 II:1							
@@ -230,8 +230,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:2							
 158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. acc.	lip	
 158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. nom.	lip	
-158729	l	[l  ]  	l(I)	l (I)	prep.	to	Migrated from legacy reviewed tokenization.
-158730	arṣ	[a]rṣ    	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	Migrated from legacy reviewed tokenization.
+158729	l	[l  ]  	l(I)	l (I)	prep.	to	## Migrated from legacy reviewed tokenization.
+158730	arṣ	[a]rṣ    	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	## Migrated from legacy reviewed tokenization.
 158731	špt	špt  	šp(t/t	špt	n. f. sg. abs. acc.	lip	
 158731	špt	špt  	šp(t/t	špt	n. f. sg. abs. nom.	lip	
 158732	l	l 	l(I)	l (I)	prep.	to	
@@ -309,8 +309,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158782	ˤbdk	ʿbdk  	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant	
 158783	an	an  	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 158784	w	w 	w	w	conj.	and	
-158785	d	d 	d	d	det. or rel. functor	the one(s) of	UNP: wdˤlmk | Migrated from legacy reviewed tokenization.
-158786	šˤlmk	[[š]]ʿlmk	&šˤlm/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	UNP: wdˤlmk | Migrated from legacy reviewed tokenization.
+158785	d	d 	d	d	det. or rel. functor	the one(s) of	UNP: wdˤlmk ## Migrated from legacy reviewed tokenization.
+158786	šˤlmk	[[š]]ʿlmk	&šˤlm/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	UNP: wdˤlmk ## Migrated from legacy reviewed tokenization.
 # KTU 1.5 II:13							
 158787	tbˤ	tbʿ  	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. du.	to go	// 1.2 I:19 (DULAT: 'the lads left without staying').
 158787	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	TCS: 'Be off and do not tarry, O gods' (// 1.2 I:13).
@@ -327,7 +327,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158794	ytn	ytn  	ytn[	/y-t-n/	vb G suffc. 3 m. du.	to give	
 158795	pnm	pn<m>    	pn(m/m	pnm	n. m. pl. tant. abs. acc.	face	
 158796	ṯˤm	[[ṯ]]ʿm    	&ṯˤm(I)	ʕm (I)	prep.	to	Scribal ṯ (UNP: ˤm).
-158797	bnilm	bn . ilm  	bnil/+m(I)	bnỉl	PN sg. cstr. gen.	bnỉl	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m. | Migrated from legacy reviewed tokenization.
+158797	bnilm	bn . ilm  	bnil/+m(I)	bnỉl	PN sg. cstr. gen.	bnỉl	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m. ## Migrated from legacy reviewed tokenization.
 158798	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:15							
 158799	tk	tk  	tk/	tk	n. m. sg. cstr. acc.	2) to	tk qrth 'into the midst of his city' (// 1.4 VIII:11, 1.2 I:20).
@@ -353,7 +353,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158814	bn	{bn }  	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	Scribal insertion (UNP {bn.}); not in the formula (// II:10).
 158815	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 158816	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
-158817	aliynqrdm	aliy[[n]] . qrdm	?	?	?	?	It is aliy in II:11 | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+158817	aliynqrdm	aliy[[n]] . qrdm	?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 # KTU 1.5 II:19							
 158818	bhṯ	bhṯ  	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame, greetings	
 158819	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
@@ -384,7 +384,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158837	bˤl	[bʿl  ]  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 158838	xxxxxx	[xx]x[xxx]  	?	?	?	?	
 158839	yqr	yqr  	!y!qr(ʔ&u[+n=	/q-r-ʔ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to call, shout, invite	MERGE WITH THE NEXT. UNP: yqrun '[he] calls me'; DULAT: -n (II).
-158840	unhd	un [.] hd	?	?	?	?	MERGE WITH THE PREVIOUS. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+158840	unhd	un [.] hd	?	?	?	?	MERGE WITH THE PREVIOUS. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 # KTU 1.5 II:23							
 158841	xxxxxxxxxp	[xxxxxxxx]xp    	?	?	?	?	UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
 158842	mlḥmy	mlḥmy	mlḥmy	mlḥmy	?	?	UNP: 'my food' (restoring [lḥm ˤm aḫy a]p mlḥmy).
@@ -671,7 +671,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 V:7							
 159034	ˤrptk	ʿrptk  	ˤrp(t/t=+k	ʕrpt	n. f. pl. tant. cstr. acc. + 2 m. sg. suff.	cloud(s)	'take your clouds, your winds, your bolts, your rains' (UNP).
 159035	rḥk	rḥk  	rḥ(I)/+k	rḥ (I)	n. f. sg. cstr. acc. + 2 m. sg. suff.	wind	
-159036	mdlk	mdlk	mdl(II)/+k	mdl (II)	n. m. sg. cstr. acc. + 2 m. sg. suff.	lightning (?)	DULAT mdl (II) 'lightning (?)'; TCS: 'your watering devices'.
+159036	mdlk	mdlk	mdl(II)/+k	mdl (II)	n. m. sg. cstr. acc. + 2 m. sg. suff.	perhaps a meteor	In the list ˤrptk rḥk mdlk mṭrtk, "your clouds, your wind, your m., your rain". DULAT leaves the word open — "perhaps a meteor", etymology uncertain, no obvious connection with mdl (I) — and lists the proposals: Good UF 16 1984 80f. "lightning (?)"; Caquot-Sznycer TOu/1 170 "foudre" ("lightning"); Cazelles Maarav 5/6 1990 49ff. "corde, fouet" ("rope, whip"); Pardee CS/1 253 n. 95 "watering device", from *dly; Wiggins UF 32 2000 581, 585 "an atmospheric phenomenon". The translations divide accordingly: UNP and Coogan "your bolts", TCS "your watering devices", EUPT "deinen Donnerkeil?" ("your thunderbolt?"); ANET leaves the word untranslated. ## EUPT numbers this lemma mdl III where DULAT has mdl (II).
 # KTU 1.5 V:8							
 159037	mṭrtk	mṭrtk  	mṭr(t/t+k	mṭrt	n. f. sg. cstr. acc. + 2 m. sg. suff.	rain	
 159038	ˤmk	ʿmk  	ˤm(I)+k	ʕm (I)	prep. + 2 m. sg. suff.	with	'with you'; DULAT cites ʕm (I) here — not ʕm (II) 'lineage'.
@@ -799,7 +799,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159132	y	[y  ]  	sb(b[ny	/s:ś-b-b/	vb G suffc. 1 c. du.	to go around	MERGE WITH THE PREVIOUS.
 159133	xxṣt	[xx]ṣt    	?	?	?	?	UNP/TCS: 'to the edge(s) of the earth'.
 159134	arṣ	[a]r[ṣ  ]  	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
-159135	xxḥ	[xx]ḥ    	?	?	?	?	DULAT: NOT FOUND
+159135	xxḥ	[xx]ḥ    	?	?	?	?	## DULAT: NOT FOUND.
 159136	ˤdk	ʿd[[k]]	ˤd(I)~k	ʕd (I)	prep. + encl. -k	up to	DULAT cites ʕd ksm mhyt 'to the limits of the waters' here; -k (II) emph. encl.
 # KTU 1.5 VI:5							
 159137	ksm	ksm  	ksm/	ksm	n. m. sg. cstr. gen.	part, share	TCS: 'well-watered portions'; UNP: 'limits of the waters'.
@@ -935,8 +935,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159241	kl	kl  	kl/	kl	n. m. sg. cstr. acc.	totality (of), every	
 159242	gbˤ	gbʿ	gbˤ/	gbʕ	n. m. sg. abs. gen.	hill, height, peak	
 # KTU 1.5 VI:28							
-159243	l	l 	l(I)	l (I)	prep.	to	Split; KTU: l[k]bd. | Migrated from legacy reviewed tokenization.
-159244	kbd	[k]bd    	kbd(I)/	kbd (I)	n. m. sg. cstr. gen.	interior	Split; KTU: l[k]bd. | Migrated from legacy reviewed tokenization.
+159243	l	l 	l(I)	l (I)	prep.	to	Split; KTU: l[k]bd. ## Migrated from legacy reviewed tokenization.
+159244	kbd	[k]bd    	kbd(I)/	kbd (I)	n. m. sg. cstr. gen.	interior	Split; KTU: l[k]bd. ## Migrated from legacy reviewed tokenization.
 159245	šdm	šdm  	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
 159246	tmġ	tmġ  	!t!mġ(y[	/m-ġ-y/	vb G prefc. 3 f. sg.	to come, arrive	'She comes to the pleasant land…' (UNP).
 159247	l	l 	l(I)	l (I)	prep.	to	

@@ -65,8 +65,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:16							
 156950	mṯb	mṯb  	mṯb/	mṯb	n. m. sg. cstr. nom.	residence	
 156951	pdry	pdry  	pdry/	pdry	DN f. sg. abs. gen.	Pidray	
-156952	bt	b<t>  	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	Split bt + ar 'daughter of Light' (cf. 1.5 V:10 pdry bt ar). | Migrated from legacy reviewed tokenization.
-156953	ar	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	Split bt + ar 'daughter of Light' (cf. 1.5 V:10 pdry bt ar). | Migrated from legacy reviewed tokenization.
+156952	bt	b<t>  	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	Split bt + ar 'daughter of Light' (cf. 1.5 V:10 pdry bt ar). ## Migrated from legacy reviewed tokenization.
+156953	ar	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	Split bt + ar 'daughter of Light' (cf. 1.5 V:10 pdry bt ar). ## Migrated from legacy reviewed tokenization.
 # KTU 1.4 I:17							
 156954	mẓll	mẓll  	mẓll/	mẓll	n. m. sg. cstr. nom.	shelter	
 156955	ṭly	ṭly  	ṭly/	ṭly	DN f. sg. abs. gen.	Tallay	
@@ -121,7 +121,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:28							
 156993	m	m  	~m	-m (II)	encl. morph.	?	yṣq-m 'he casts' (emphatic -m).
 156994	l	l 	l(I)	l (I)	prep.	to	
-156995	rbbtx	rbbt .[[x ]] 	?	?	?	?	'gold he casts by the myriads'. | EUPT: noun 'myriads'. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+156995	rbbtx	rbbt .[[x ]] 	?	?	?	?	'gold he casts by the myriads'. | EUPT: noun 'myriads'. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 156996	x	[[x ]] 	?	?	?	?	
 156997	x	[[x]]	?	?	?	?	
 # KTU 1.4 I:29							
@@ -154,7 +154,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 I:34							
 157018	bẓr	bẓr 	bẓr/	bẓr	n. m. sg. abs. gen.	refined gold	nḫt bẓr 'a divan of fine gold' (DULAT).
 157019	hdm	hdm  	hdm/	hdm	n. m. sg. abs. acc.	footstool	hdm il 'a footstool for El'.
-157020	id	id	i(l(I)/ d	ỉl (I); d	DN m. sg. abs. gen.; det. or rel. functor	ʾIlu/Ilu/El; the one(s) of	DULAT reads hdm il(!) d pršả (l omitted by the scribe); not ỉd 'when'.
+157020	id	id	i(l(I)/ d	ỉl (I) | d	DN m. sg. abs. gen. | det. or rel. functor	ʾIlu/Ilu/El | the one(s) of	DULAT reads hdm il(!) d pršả (l omitted by the scribe); not ỉd 'when'.
 # KTU 1.4 I:35							
 157021	d	d 	d	d	det. or rel. functor	2) which	
 157022	prša	prša  	prš[&a:pass	/p-r-š/	vb Gpass suffc. 3 m. sg.	to extend, apply a coat of a material, resurface	DULAT: 'which is covered with tin'.
@@ -339,13 +339,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157161	gm	gm  	g/~m	g	n. m. sg. + encl. -m	(loud) voice	gm l ġlmh 'aloud to her lad'.
 157162	l	l 	l(I)	l (I)	prep.	to	
 157163	ġlmh	ġlmh  	ġlm/+h	ġlm	n. m. sg. cstr. gen. + 3 f. sg. suff.	1) boy	
-157164	k	k 	k(II)	k (II)	emph. functor	yes	Split k + tṣḥ written together: 'does she cry'. | Migrated from legacy reviewed tokenization.
-157165	tṣḥ	[tṣḥ]	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 f. sg.	to exclaim, shout	Split k + tṣḥ written together: 'does she cry'. | Migrated from legacy reviewed tokenization.
+157164	k	k 	k(II)	k (II)	emph. functor	yes	Split k + tṣḥ written together: 'does she cry'. ## Migrated from legacy reviewed tokenization.
+157165	tṣḥ	[tṣḥ]	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 f. sg.	to exclaim, shout	Split k + tṣḥ written together: 'does she cry'. ## Migrated from legacy reviewed tokenization.
 # KTU 1.4 II:30							
 157166	ˤn	ʿn  	!!ˤn[	/ʕ-n/	vb G impv. m. sg.	to see, look (at), watch, spy	'Look, O skilled fisherman!'
 157167	mkṯr	mkṯr  	mkṯr/	mkṯr	n. m. sg. cstr. nom.	expert	Vocative: 'O expert of the source of the sea' (DULAT II:30).
-157168	apq	apq[ ] 	apq/	ảpq	n. m. sg. cstr. gen.	spring	DULAT (II:30): mkṯr apq[ym] 'expert of the source of the sea'. | Migrated from legacy reviewed tokenization.
-157169	ym	[ym]	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	DULAT (II:30): mkṯr apq[ym] 'expert of the source of the sea'. | Migrated from legacy reviewed tokenization.
+157168	apq	apq[ ] 	apq/	ảpq	n. m. sg. cstr. gen.	spring	DULAT (II:30): mkṯr apq[ym] 'expert of the source of the sea'. ## Migrated from legacy reviewed tokenization.
+157169	ym	[ym]	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	DULAT (II:30): mkṯr apq[ym] 'expert of the source of the sea'. ## Migrated from legacy reviewed tokenization.
 # KTU 1.4 II:31							
 157170	dgy	dgy  	dgy/	dgy	n. m. sg. cstr. nom.	triton	dgy rbt aṯrt ym 'O fisherman of Lady Athirat of the Sea'.; EUPT/construct: bound to the following genitive.
 157171	rbt	rbt  	rb(t(I)/t	rbt (I)	n. f. sg. cstr. gen.	Lady	
@@ -369,9 +369,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157185	b	b 	b	b	prep.	in	
 157186	ym	ym  	ym(II)/	ym (II)	DN m. sg. abs. gen.	2) DN	b ym il 'to/at Yammu, the god', in the divine pair ym // nhr (cf. 157184 mdd il ym at II:34). EUPT vocalises 'bi yammi ˀili [na]h(a)ri ˀili' = 'bei / zu Yammu, dem Gott? … [Na]h(a)ru, dem Gott?'. Broken context.
 157187	il	il  	il(I)/	ỉl (I)	DN m. sg. cstr. gen.	ʾIlu/Ilu/El	
-157188	d	d[               ]               	d	d	det. or rel. functor	the one(s) of	Migrated from legacy reviewed tokenization.
-157189	n	[n]	~n	-n (I)	encl. morph.		DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
-157189	n	[n]		-n (IV)	vb	him/her/it	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+157188	d	d[               ]               	d	d	det. or rel. functor	the one(s) of	## Migrated from legacy reviewed tokenization.
+157189	n	[n]	~n	-n (I)	encl. morph.		## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
+157189	n	[n]		-n (IV)	vb	him/her/it	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
 # KTU 1.4 II:36							
 157190	hr	hr  	hr(I)/	hr (I)	n. m. sg. cstr. gen.	mountain	
 157191	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
@@ -412,7 +412,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 III:2							
 157213	tdn	[           ]tdn	!t!dn[	/d-n/	vb G prefc. 3 m. sg.	to judge	
 # KTU 1.4 III:3							
-157214		[             ]             	?	?	?	?	Migrated from legacy reviewed tokenization.
+157214		[             ]             	?	?	?	?	## Migrated from legacy reviewed tokenization.
 157215	mdd	[m]dd	mdd(I)/	mdd (I)	n. m. sg. abs.	beloved	
 # KTU 1.4 III:4							
 157216	xn	[           ]xn    	?	?	?	?	
@@ -594,8 +594,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157348	xxxbtlt	[xxx ]btlt    	?	?	?	?	
 157349	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.4 III:40							
-157350	xxx	[xxx  ]  	?	?	?	?	'they eat' (feast formula). | Migrated from legacy reviewed tokenization.
-157351	tlḥm	[tl]ḥm    	!t!lḥm[:w	/l-ḥ-m/ (I)	vb G prefc. 3 m. pl.	to eat	'they eat' (feast formula). | Migrated from legacy reviewed tokenization.
+157350	xxx	[xxx  ]  	?	?	?	?	'they eat' (feast formula). ## Migrated from legacy reviewed tokenization.
+157351	tlḥm	[tl]ḥm    	!t!lḥm[:w	/l-ḥ-m/ (I)	vb G prefc. 3 m. pl.	to eat	'they eat' (feast formula). ## Migrated from legacy reviewed tokenization.
 157352	tšty	tšty	!t!šty[:w	/š-t-y/	vb G prefc. 3 m. pl.	to drink	Feast formula: 'the gods eat and drink'.
 # KTU 1.4 III:41							
 157353	ilm	[ilm  ]  	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
@@ -643,8 +643,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 III:55							
 157382	ln	[                       ]ln	l(I)~n	l (I)	prep. + encl. -n	to	
 # KTU 1.4 IV:1							
-157383	ṯr	ṯr[ ] 	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	Vocative: 'O Bull El our father!'. | Migrated from legacy reviewed tokenization.
-157384	il	[il  ]  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	god	Vocative: 'O Bull El our father!'. | Migrated from legacy reviewed tokenization.
+157383	ṯr	ṯr[ ] 	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	Vocative: 'O Bull El our father!'. ## Migrated from legacy reviewed tokenization.
+157384	il	[il  ]  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	god	Vocative: 'O Bull El our father!'. ## Migrated from legacy reviewed tokenization.
 157385	abn	[abn  ]  	ab/+n	ảb	n. m. sg. cstr. nom. + 1 c. pl. suff.	father	'our father'.
 157386	w	[w ] 	w	w	conj.	and	
 157387	tˤn	[tʿn  ]  	!t!ˤn(y[	/ʕ-n-y/ (I)	vb G prefc. 3 f. sg.	to answer	Lady Athirat answers; 3 f. sg.
@@ -665,7 +665,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 IV:4							
 157399	aṯrt	aṯrt  	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. cstr. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
 157400	ym	ym[  ]  	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-157401	mdl	[mdl  ]  	mdl(I)/	mdl (I)	n. m. sg. cstr. acc.	riding gear	mdl ˤr 'harness the donkey'.
+157401	mdl	[mdl  ]  	!!mdl[	/m-d-l/	vb G impv. m. sg.	to bridle	mdl ˤr ṣmd pḥl "harness the donkey, hitch the stallion", the first of four imperatives in the dispatch formula (with št and ˤdb below). DULAT lists mdl [G, impv.] under /m-d-l/ "to bridle" and glosses mdl ˤr "bridle (?) the ass"; EUPT reads G-Imp. 2.m.sg. here, and Tropper renders the formula "Schirre an" ("harness!").
+157401	mdl	[mdl  ]  	mdl(I)/	mdl (I)	n. m. sg. cstr. acc.	part of the harness, halter (?)	DULAT's noun mdl (I) "part of the harness, halter (?)" cites this line, so the nominal reading stands beside the imperative.
 157402	ˤr	[ʿr]	ˤr(II)/	ʕr (II)	n. m. sg. abs. acc.	donkey	
 # KTU 1.4 IV:5							
 157403	ṣmd	ṣmd  	!!ṣmd[	/ṣ-m-d/	vb G impv. m. sg.	to harness, yoke	
@@ -688,8 +689,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157417	w	w 	w	w	conj.	and	
 157418	amrr	amrr	amrr/	ảmrr	DN m. sg. cstr. nom.	“Blessed”, one of the two messenger-boys of the goddess ảṯrt	
 # KTU 1.4 IV:9							
-157419	mdl	mdl  	mdl(I)/	mdl (I)	n. m. sg. cstr. acc.	riding gear	
-157419	mdl	mdl  	mdl[	/m-d-l/	vb G suffc. 3 m. sg.	riding gear	EUPT: G suffc. 'he harnessed'.
+157419	mdl	mdl  	mdl[	/m-d-l/	vb G suffc. 3 m. sg.	to bridle	Narrative repetition of the IV:4 instruction. EUPT reads G-SK 3.m.sg. (madala), matching ṣmd in the same line, which is already encoded as a suffix conjugation; Tropper renders the sequence "Er schirrte …" ("he harnessed …").
+157419	mdl	mdl  	mdl(I)/	mdl (I)	n. m. sg. cstr. acc.	part of the harness, halter (?)	DULAT's noun mdl (I) cites this line as well.
 157420	ˤr	ʿr  	ˤr(II)/	ʕr (II)	n. m. sg. abs. acc.	donkey	
 157421	ṣmd	ṣmd  	ṣmd[	/ṣ-m-d/	vb G suffc. 3 m. sg.	to harness, yoke	ṣmd pḥl 'he harnesses the ass' (vb, // IV:5).
 157422	pḥl	pḥl	pḥl/	pḥl	n. m. sg. abs. acc.	ass	
@@ -1038,7 +1039,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157699	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. cstr. gen.	1) earth	
 157700	brqm	brqm	brq(I)/m	brq (I)	n. m. pl. abs. acc.	ray	
 # KTU 1.4 V:10							
-157701	dbt	[[d]]bt    	d bt(II)/	d; bt (II)	det. or rel. functor; n. m. sg. cstr. nom.	the one(s) of; 1) house	d bt arzm ykllnh 'whether a house of cedar they complete for him' (DULAT V:10).
+157701	dbt	[[d]]bt    	d bt(II)/	d | bt (II)	det. or rel. functor | n. m. sg. cstr. nom.	the one(s) of | 1) house	d bt arzm ykllnh 'whether a house of cedar they complete for him' (DULAT V:10).
 157702	arzm	arzm  	arz(I)/m	ảrz (I)	n. m. pl. abs. gen.	1) a conifer	
 157703	ykllnh	ykllnh	!y!kll[:d~n+h	/k-l-l/	vb D prefc. 3 m. sg. + energic-n + suff.	to complete, finish	'he will complete it'.
 # KTU 1.4 V:11							
@@ -1346,8 +1347,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VI:2							
 157934	tṯb	tṯb  	!t=!ṯb[	/ṯ-b/	vb G prefc. 2 m. sg.	to return, turn round, go back, make one’s way, go through	tṯb bˤl l hwty 'you will return, Baal, to my word' (DULAT /ṯ-b/, // VI:15).
 157935	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	'You will yet return, Baal, to my word'.
-157936	l	l 	l(I)	l (I)	prep.	to, towards, up to	Split l + hwty 'to my word'. | Migrated from legacy reviewed tokenization.
-157937	hwty	[hwty]	hw(t(I)/t+y	hwt (I)	n. f. sg. cstr. + 1 c. sg. suff.	word, statement	Split l + hwty 'to my word'. | Migrated from legacy reviewed tokenization.
+157936	l	l 	l(I)	l (I)	prep.	to, towards, up to	Split l + hwty 'to my word'. ## Migrated from legacy reviewed tokenization.
+157937	hwty	[hwty]	hw(t(I)/t+y	hwt (I)	n. f. sg. cstr. + 1 c. sg. suff.	word, statement	Split l + hwty 'to my word'. ## Migrated from legacy reviewed tokenization.
 # KTU 1.4 VI:3							
 157938	ṯn	ṯn  	ṯn(y[	/ṯ-n-y/	vb G suffc. 3 m. sg.	to repeat, reiterate	DULAT: 'Kothar-and-Khasis repeated the expression' (narrative).
 157939	rgm	rgm  	rgm/	rgm	n. m. sg. abs. acc.	1) word	
@@ -1415,7 +1416,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157989	kṯr	kṯr	kṯr(III)/	kṯr (III)	DN m. sg. abs. nom.	Koṯaru/Kothar	
 # KTU 1.4 VI:15							
 157990	w	[w ] 	w	w	conj.	and	
-157991	ḫsstṯb	[ḫss .]tṯb    	?	?	?	?	'You will return, Baal, to my word'. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+157991	ḫsstṯb	[ḫss .]tṯb    	?	?	?	?	'You will return, Baal, to my word'. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 157992	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 157993	l	l 	l(I)	l (I)	prep.	to	
 157994	hwty	hwty	hw(t(I)/t+y	hwt (I)	n. f. sg. cstr. + 1 c. sg. suff.	word	l hwty 'to my word'.
@@ -1434,8 +1435,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158004	w	w 	w	w	conj.	and	
 158005	ˤṣh	ʿṣh	ˤṣ/+h	ʕṣ	n. m. sg. cstr. + 3 m. sg. suff.	1) tree	
 # KTU 1.4 VI:19							
-158006	l	l 	l(I)	l (I)	prep.	to, towards, up to	Split l + šryn 'to Sirion (Hermon)'. | Migrated from legacy reviewed tokenization.
-158007	šryn	[š]ryn    	šryn/	šryn	TN	šryn	Split l + šryn 'to Sirion (Hermon)'. | Migrated from legacy reviewed tokenization.
+158006	l	l 	l(I)	l (I)	prep.	to, towards, up to	Split l + šryn 'to Sirion (Hermon)'. ## Migrated from legacy reviewed tokenization.
+158007	šryn	[š]ryn    	šryn/	šryn	TN	šryn	Split l + šryn 'to Sirion (Hermon)'. ## Migrated from legacy reviewed tokenization.
 158008	mḥmd	mḥmd  	mḥmd/	mḥmd	adj. m. sg. cstr. acc.	desired	
 158009	arzh	arzh	arz(I)/+h	ảrz (I)	n. m. sg. cstr. + 3 m. sg. suff.	1) a conifer	mḥmd arzh 'the choicest of its cedars'.
 # KTU 1.4 VI:20							
@@ -1672,19 +1673,19 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158188	mdd	mdd 	mdd(I)/	mdd (I)	n. m. sg. cstr. gen.	beloved	Broken context.
 158189	il	il	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 # KTU 1.4 VII:4							
-158190	ym	ym[ ] 	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	Broken: ym[…]. | Migrated from legacy reviewed tokenization.
-158190	ym	ym[ ] 	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	Broken: ym[…]. | Migrated from legacy reviewed tokenization.
-158191	xxxx	[xxxx  ]  	?	?	?	?	Broken: ym[…]. | Migrated from legacy reviewed tokenization.
+158190	ym	ym[ ] 	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	Broken: ym[…]. ## Migrated from legacy reviewed tokenization.
+158190	ym	ym[ ] 	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	Broken: ym[…]. ## Migrated from legacy reviewed tokenization.
+158191	xxxx	[xxxx  ]  	?	?	?	?	Broken: ym[…]. ## Migrated from legacy reviewed tokenization.
 158192		 	?	?	?	?	
 158193	l	l 	l(I)	l (I)	prep.	to	
 158194	ẓr	ẓr  	ẓr(I)/	ẓr (I)	n. m. sg. cstr. gen.	upon	
 158195	qdqdh	qdqdh	qdqd/+h	qdqd	n. m. sg. cstr. gen. + 3 m. sg. suff.	skull	l ẓr qdqdh 'on the top of his head'.
 # KTU 1.4 VII:5							
-158196	il	il[ ] 	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	Surface ilhd; broken/uncertain (DULAT ỉlh). | Migrated from legacy reviewed tokenization.
-158196	il	il[ ] 	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	Surface ilhd; broken/uncertain (DULAT ỉlh). | Migrated from legacy reviewed tokenization.
-158196	il	il[ ] 	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	Surface ilhd; broken/uncertain (DULAT ỉlh). | Migrated from legacy reviewed tokenization.
-158196	il	il[ ] 	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	Surface ilhd; broken/uncertain (DULAT ỉlh). | Migrated from legacy reviewed tokenization.
-158197	hd	[hd  ]  	hd/	hd(d)	DN sg. abs. nom.	Haddu/Hadad	Surface ilhd; broken/uncertain (DULAT ỉlh). | Migrated from legacy reviewed tokenization.
+158196	il	il[ ] 	il(I)/	ỉl (I)	DN m. sg. cstr. nom.	ʾIlu/Ilu/El	Surface ilhd; broken/uncertain (DULAT ỉlh). ## Migrated from legacy reviewed tokenization.
+158196	il	il[ ] 	il(I)/	ỉl (I)	DN m. sg. abs. nom.	ʾIlu/Ilu/El	Surface ilhd; broken/uncertain (DULAT ỉlh). ## Migrated from legacy reviewed tokenization.
+158196	il	il[ ] 	il(I)/	ỉl (I)	n. m. sg. cstr. nom.	god	Surface ilhd; broken/uncertain (DULAT ỉlh). ## Migrated from legacy reviewed tokenization.
+158196	il	il[ ] 	il(I)/	ỉl (I)	n. m. sg. abs. nom.	god	Surface ilhd; broken/uncertain (DULAT ỉlh). ## Migrated from legacy reviewed tokenization.
+158197	hd	[hd  ]  	hd/	hd(d)	DN sg. abs. nom.	Haddu/Hadad	Surface ilhd; broken/uncertain (DULAT ỉlh). ## Migrated from legacy reviewed tokenization.
 158198	b	b 	b	b	prep.	in	
 158199	rḥq	rḥq  	!(y!rḥq[	/r-ḥ-q/	vb G prefc. 3 m. sg.	to go away	DULAT: '[y]rḥq — he went away from the mountain (?)'.
 158200	b	b 	b	b	prep.	in	
@@ -1698,8 +1699,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158207	ṣpn	ṣpn	ṣpn/	ṣpn	TN/DN gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	b ṣpn 'on Zaphon'.
 # KTU 1.4 VII:7							
 158208	ˤdr	ʿdr  	ˤ(b&dr[	/ʕ-b-r/	vb G suffc. 3 m. sg.	to go over, cross, pass	DULAT reads ˤb(!)r (d for b): 'he passed from [town] to town'.
-158209	l	l[ ] 	l(I)	l (I)	prep.	to, towards, up to	Split l + ˤr 'to the city'. | Migrated from legacy reviewed tokenization.
-158210	ˤr	[ʿ]r    	ˤr(I)/	ʕr (I)	n. f. sg. abs. gen.	city	Split l + ˤr 'to the city'. | Migrated from legacy reviewed tokenization.
+158209	l	l[ ] 	l(I)	l (I)	prep.	to, towards, up to	Split l + ˤr 'to the city'. ## Migrated from legacy reviewed tokenization.
+158210	ˤr	[ʿ]r    	ˤr(I)/	ʕr (I)	n. f. sg. abs. gen.	city	Split l + ˤr 'to the city'. ## Migrated from legacy reviewed tokenization.
 158211	ˤrm	ʿrm	ˤr(I)/~m	ʕr (I)	n. f. sg. abs. gen. + encl. -m	city	
 # KTU 1.4 VII:8							
 158212	ṯb	ṯb  	ṯb[	/ṯ-b/	vb G suffc. 3 m. sg.	to return, turn round, go back, make one’s way, go through	'he passes from town to town'.
@@ -1759,8 +1760,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158255	hkl	hkl	hkl/m	hkl	n. m. pl. abs. gen.	palace	MERGE WITH THE NEXT: hkl+m = hklm, split VII:18/19.
 # KTU 1.4 VII:19							
 158256	m	m  	hkl/m	hkl	n. m. pl. abs. gen.	palace	MERGE WITH THE PREVIOUS.
-158257	w	w 	w	w	conj.	and	Split w + yptḥ written together. | Migrated from legacy reviewed tokenization.
-158258	yptḥ	[y]ptḥ    	!y!ptḥ[	/p-t-ḥ/	vb G prefc. 3 m. sg.	to open	Split w + yptḥ written together. | Migrated from legacy reviewed tokenization.
+158257	w	w 	w	w	conj.	and	Split w + yptḥ written together. ## Migrated from legacy reviewed tokenization.
+158258	yptḥ	[y]ptḥ    	!y!ptḥ[	/p-t-ḥ/	vb G prefc. 3 m. sg.	to open	Split w + yptḥ written together. ## Migrated from legacy reviewed tokenization.
 158259	bdqt	bdqt  	bdq(t/t	bdqt	n. f. sg. cstr. acc.	fissure	
 158260	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	bdqt ˤrpt 'a rift in the clouds'.
 # KTU 1.4 VII:20							
@@ -1953,8 +1954,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158407	gpn	[gpn]    	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	?	gpn w ugr 'Gapnu-and-Ugaru' (Baal's two messengers).
 158408	w	w 	w	w	conj.	and	
 158409	ugr	ugr  	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
-158410	bn	b<n>  	b~n	b	prep. + encl. -n	1) spatial location a) place in which something occurs	bn ġlmt 'in the gloom' (// bn ẓlmt); DULAT b s.v. 1.4 VII:55 'bn ġlmt = in thick fog'. Gloss aligned to the parallel b~n row 158414. | Migrated from legacy reviewed tokenization.
-158411	ġlmt	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	bn ġlmt 'in the gloom' (// bn ẓlmt); DULAT ġlmt (II) 'concealment, darkness, thick fog' s.v. 1.4 VII:55, // 1.3 VI:7 (156804). | Migrated from legacy reviewed tokenization.
+158410	bn	b<n>  	b~n	b	prep. + encl. -n	1) spatial location a) place in which something occurs	bn ġlmt 'in the gloom' (// bn ẓlmt); DULAT b s.v. 1.4 VII:55 'bn ġlmt = in thick fog'. Gloss aligned to the parallel b~n row 158414. ## Migrated from legacy reviewed tokenization.
+158411	ġlmt	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	bn ġlmt 'in the gloom' (// bn ẓlmt); DULAT ġlmt (II) 'concealment, darkness, thick fog' s.v. 1.4 VII:55, // 1.3 VI:7 (156804). ## Migrated from legacy reviewed tokenization.
 # KTU 1.4 VII:55							
 158412	ˤmm	[ʿmm  ]  	ˤm(II)/~m	ʕm (II)	n. m. sg. cstr. nom. + encl. -m	lineage, ancestors	// 1.3 VI:8 ˤmm ym.
 158413	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	Broken.
@@ -2116,12 +2117,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158528	rgm	rgm	rgm[	/r-g-m/	vb G suffc. 3 m. du.	to say	EUPT: G-SK 3 m. du.
 # KTU 1.4 VIII:30							
 158529	l	l 	l(I)	l (I)	prep.	to	
-158530	bn	bn 	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	bn ilm mt; final sign broken (x). | Migrated from legacy reviewed tokenization.
-158530	bn	bn 	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	bn ilm mt; final sign broken (x). | Migrated from legacy reviewed tokenization.
-158530	bn	bn 	bn(II)	bn (II)	prep.	between	bn ilm mt; final sign broken (x). | Migrated from legacy reviewed tokenization.
-158530	bn	bn 	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	bn ilm mt; final sign broken (x). | Migrated from legacy reviewed tokenization.
-158530	bn	bn 	bn[	/b-n/	vb G impv. 2	to understand	bn ilm mt; final sign broken (x). | Migrated from legacy reviewed tokenization.
-158531	x	[[x]]    	?	?	?	?	bn ilm mt; final sign broken (x). | Migrated from legacy reviewed tokenization.
+158530	bn	bn 	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	bn ilm mt; final sign broken (x). ## Migrated from legacy reviewed tokenization.
+158530	bn	bn 	bn(I)/	bn (I)	n. m. sg. abs. nom.	son	bn ilm mt; final sign broken (x). ## Migrated from legacy reviewed tokenization.
+158530	bn	bn 	bn(II)	bn (II)	prep.	between	bn ilm mt; final sign broken (x). ## Migrated from legacy reviewed tokenization.
+158530	bn	bn 	bn[	/b-n/	vb G suffc. 3 m. sg.	to understand	bn ilm mt; final sign broken (x). ## Migrated from legacy reviewed tokenization.
+158530	bn	bn 	bn[	/b-n/	vb G impv. 2	to understand	bn ilm mt; final sign broken (x). ## Migrated from legacy reviewed tokenization.
+158531	x	[[x]]    	?	?	?	?	bn ilm mt; final sign broken (x). ## Migrated from legacy reviewed tokenization.
 158532	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. cstr. gen.	god	
 158532	ilm	ilm  	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 158533	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
@@ -2158,10 +2159,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 VIII:39							
 158555	aḫy	[     ]aḫy	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. nom. + 1 c. sg. suff.	brother (by blood)	
 # KTU 1.4 VIII:40							
-158556		[    ]    	?	?	?	?	Migrated from legacy reviewed tokenization.
+158556		[    ]    	?	?	?	?	## Migrated from legacy reviewed tokenization.
 158557	bhty	[bh]ty	b&ht(II)/+y	bt (II)	n. m. pl. cstr. acc. + 1 c. sg. suff.	house	my house
 # KTU 1.4 VIII:41							
-158558		[    ]    	?	?	?	?	Migrated from legacy reviewed tokenization.
+158558		[    ]    	?	?	?	?	## Migrated from legacy reviewed tokenization.
 158559	qrb	[q]rb	qrb[	/q-r-b/	vb G suffc. 3 m. sg.	to approach	
 # KTU 1.4 VIII:42							
 158560		[     ]         	?	?	?	?	Broken.
@@ -2170,18 +2171,18 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158562		[     ]     	?	?	?	?	Broken.
 158563	mt	mt	mt(II)/	mt (II)	DN m. sg. cstr. gen.	Mot/Death	
 # KTU 1.4 VIII:44							
-158564		[     ]     	?	?	?	?	Migrated from legacy reviewed tokenization.
+158564		[     ]     	?	?	?	?	## Migrated from legacy reviewed tokenization.
 158565	bn	[b]n  	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	bn ilm 'son of the gods'.
 158566	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.4 VIII:45							
-158567		[     ]     	?	?	?	?	Migrated from legacy reviewed tokenization.
+158567		[     ]     	?	?	?	?	## Migrated from legacy reviewed tokenization.
 158568	ymru	[ym]ru    	!y!mr(ʔ[&u	/m-r-ʔ/	vb G prefc. 3 m. sg.	to fatten	
 158569	yd	yd	yd(I)/	yd (I)	n. f. sg. cstr. nom.	5) used as a preposition	
 # KTU 1.4 VIII:46							
-158570		[     ]     	?	?	?	?	Migrated from legacy reviewed tokenization.
+158570		[     ]     	?	?	?	?	## Migrated from legacy reviewed tokenization.
 158571	ġzr	[ġz]r	ġzr/	ġzr	n. m. sg. cstr. gen.	lad	
 # KTU 1.4 VIII:47							
-158572		[     ]     	?	?	?	?	Migrated from legacy reviewed tokenization.
+158572		[     ]     	?	?	?	?	## Migrated from legacy reviewed tokenization.
 158573	gpn	[gpn  ]  	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	?	gpn w ugr (Baal's messengers Gapnu-and-Ugaru); auto read gpn (I) 'vine'.
 158574	w	w 	w	w	conj.	and	
 158575	ugr	ugr	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	

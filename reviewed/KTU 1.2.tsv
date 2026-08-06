@@ -15,7 +15,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154762	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	b a|liyn bˤl (a = anticipation of aliyn at line end).
 154763		[                              ]                              	?	?	?	?	
 # KTU 1.2 I:5							
-154764	drktk	drk{.}tk    	drk(t/t+k	drkt	n. f. sg. cstr. gen.	rule	DULAT: tk n. 'centre', also used as prep. (EUPT: Präp.). | Migrated from legacy reviewed tokenization.
+154764	drktk	drk{.}tk    	drk(t/t+k	drkt	n. f. sg. cstr. gen.	rule	DULAT: tk n. 'centre', also used as prep. (EUPT: Präp.). ## Migrated from legacy reviewed tokenization.
 154765	ṯmšl	[[ṯ]]mšl[                   ]                   	?	?	?	?	
 # KTU 1.2 I:6							
 154766	b	b 	b	b	prep.	in	
@@ -424,12 +424,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155103	gmr	gmr   	gmr/	gmr	n. m. sg. cstr. gen.	1) champion	
 155104	hd	hd  	hd/	hd(d)	DN sg. abs. gen.	Haddu/Hadad	
 155105	lwn	lwn  	lwn/	lwn(y)	PN sg. abs. gen.	lwn	DULAT cites lwn ym[ here s.v. lwn(y).
-155106	ym	ym[ ] 	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	Migrated from legacy reviewed tokenization.
-155106	ym	ym[ ] 	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	Migrated from legacy reviewed tokenization.
-155107	xxxxxxxx	[xxxxxxxx]	?	?	?	?	Migrated from legacy reviewed tokenization.
+155106	ym	ym[ ] 	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	## Migrated from legacy reviewed tokenization.
+155106	ym	ym[ ] 	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	## Migrated from legacy reviewed tokenization.
+155107	xxxxxxxx	[xxxxxxxx]	?	?	?	?	## Migrated from legacy reviewed tokenization.
 # KTU 1.2 I:47							
 155108	xxxxxxxxx	[xxxxxxx]xx  	?	?	?	?	
-155109	iyxxxx	iyxx [.]xx  	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+155109	iyxxxx	iyxx [.]xx  	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
 155110	thbr	thbr  	!t!hbr[	/h-b-r/	vb G prefc. 3 f. sg.	to bow	Broken context.
 155111	xxxxxxxxxx	xx[xxxxxxxx]	?	?	?	?	
 # KTU 1.2 I:48							
@@ -481,7 +481,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 III:1							
 155138	adn	[                 ]ad[      ]n[       ]       	adn(I)/	ảdn (I)	n. m. sg.	lord	Line broken.
 # KTU 1.2 III:2							
-155139		[            ]            	?	?	?	?	Migrated from legacy reviewed tokenization.
+155139		[            ]            	?	?	?	?	## Migrated from legacy reviewed tokenization.
 155140	kptr	[kpt]r    	kptr/	kptr	TN sg. abs. gen.	Crete	
 155141	l	l 	l(I)	l (I)	prep.	to	
 155142	rḥq	rḥq [ ]  	rḥq/	rḥq	adj. m. sg. cstr. gen.	distant	l rḥq ilm 'for the most distant of the gods' (// 1.1 III:19, 1.3 IV:34).
@@ -532,7 +532,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155183	w	w 	w	w	conj.	and	
 155184	ykbdnh	ykb[dnh ] 	!y!kbd[:d+nh	/k-b-d/	vb D prefc. 3 m. sg. + 3 m. sg. suff.	to honour	
 155185	aḫr	[aḫ]r  	aḫr	ảḫr	adv./prep./conj.	afterwards	
-155186		[                                ]                                	?	?	?	?	Migrated from legacy reviewed tokenization.
+155186		[                                ]                                	?	?	?	?	## Migrated from legacy reviewed tokenization.
 # KTU 1.2 III:7							
 155187	kṯr	[     ]kṯr    	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	aḫr kṯr w ḫss tbˤ 'afterwards Kothar-and-Hasis departed'.
 155188	w	w 	w	w	conj.	and	
@@ -546,14 +546,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155196	ṯpṭ	ṯpṭ  	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. cstr. gen.	judge	
 155197	nhr	n[hr]	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	
 # KTU 1.2 III:8							
-155198		[     ]     	?	?	?	?	Migrated from legacy reviewed tokenization.
+155198		[     ]     	?	?	?	?	## Migrated from legacy reviewed tokenization.
 155199	nhr	[n]hr  	nhr/	nhr	DN m. sg. abs. gen.	Naharu/“River”/alternative DN of the god ym	ṯpṭ n[hr] | [n]hr: repetition across the line break.
 155200	tk	tk  	tk/	tk	n. m. sg.	3) before	DULAT cites tk here; context broken.
 155200	tk	tk  	tk	tk	prep.	in the midst of	DULAT: tk n. 'centre', also used as prep. (EUPT: Präp.).
 155201	tbˤ	[   ]tbʿ    	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. sg.	to go	
 155202	kṯr	kṯr 	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	
-155203	w	w[ ] 	w	w	conj.	and	Migrated from legacy reviewed tokenization.
-155204	ḫss	[ḫss  ]  	ḫss/	ḫss	DN m. sg. abs. nom.	Ḫasisu/Khasis	Migrated from legacy reviewed tokenization.
+155203	w	w[ ] 	w	w	conj.	and	## Migrated from legacy reviewed tokenization.
+155204	ḫss	[ḫss  ]  	ḫss/	ḫss	DN m. sg. abs. nom.	Ḫasisu/Khasis	## Migrated from legacy reviewed tokenization.
 155205	xx	[xx ] 	?	?	?	?	
 155206	tbn	[t]bn    	!t!bn(y[	/b-n-y/	vb G prefc.	to build	[xxt]bn bht zbl ym; person indeterminable.
 155207	bht	bht 	b&ht(II)/	bt (II)	n. m. pl. cstr. acc.	2) palace	
@@ -569,9 +569,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155216	tk	tk  	tk/	tk	n. m. sg. cstr. gen.	centre	
 155216	tk	tk  	tk	tk	prep.	in the midst of	DULAT: tk n. 'centre', also used as prep. (EUPT: Präp.).
 155217	upqt	u[pqt  ]  	upq(t/t	ủpqt	n. f. sg. abs. gen.	bed of a torrent	
-155218	ym	[ym    ]    	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	Migrated from legacy reviewed tokenization.
-155218	ym	[ym    ]    	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	Migrated from legacy reviewed tokenization.
-155219	x	x[       ]       	?	?	?	?	Migrated from legacy reviewed tokenization.
+155218	ym	[ym    ]    	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	## Migrated from legacy reviewed tokenization.
+155218	ym	[ym    ]    	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	## Migrated from legacy reviewed tokenization.
+155219	x	x[       ]       	?	?	?	?	## Migrated from legacy reviewed tokenization.
 # KTU 1.2 III:10							
 155220	ḥš	[ḥš  ]  	!!ḥš(I)[	/ḥ-š/ (I)	vb G impv. m. sg.	to hurry	
 155221	bhth	[bh]th  	b&ht(II)/+h	bt (II)	n. m. pl. cstr. acc. + 3 m. sg. suff.	house	
@@ -587,8 +587,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155230	rbt	[rbt ]  	rb(b(t/t	rbbt	num.	myriad	[rbt] kmn hkl 'a myriad acres (let) the palace (cover)'; not rbt 'Lady'. | Huehnergard lemma
 155231	kmn	kmn   	kmn(I)/	kmn (I)	n. m. sg. abs. gen.	acre	
 155232	hkl	hkl 	hkl/	hkl	n. m. sg. abs. nom.	palace	Subject, parallel to bt.
-155233	ušbš	ušbš[ ] 	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
-155234	ym	[ym ] 	ym(II)/	ym (II)	DN m. sg. cstr. nom.	2) DN	DULAT direct ref | Migrated from legacy reviewed tokenization.
+155233	ušbš	ušbš[ ] 	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
+155234	ym	[ym ] 	ym(II)/	ym (II)	DN m. sg. cstr. nom.	2) DN	DULAT direct ref ## Migrated from legacy reviewed tokenization.
 155235	bt	[b]t  	bt	?	?	?	[ymb]tb (KTU): garbled/broken context.
 155236	b	b 	b	b	prep.	in	
 155237	ġlm	ġlm  	ġlm/	ġlm	n. m. sg. abs. gen.	1) boy	DULAT cites ġlm l šdt(?) ymm here; context broken.
@@ -611,8 +611,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 III:13							
 155252	ḥrḥrtm	[     ]ḥrḥrtm    	ḥrḥr(t/t~m	ḥrḥrt	n. f. abs. nom. sg. / du.	crimson red	
 155253	w	w 	w	w	conj.	and	
-155254	dšxn	dš[x]n  	?	?	?	?	DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
-155255	xxx	[xxx]  	?	?	?	?	Migrated from legacy reviewed tokenization.
+155254	dšxn	dš[x]n  	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
+155255	xxx	[xxx]  	?	?	?	?	## Migrated from legacy reviewed tokenization.
 155256	išt	išt 	iš(t/t	ỉšt	n. f. sg. abs. acc.	1) fire	išt ašt 'fire I shall set' (object fronted).
 155257	ašt	aš[t]  	!(ʔ&a!št[	/š-t/	vb G prefc. 1 c. sg.	to place, set, set up, leave	
 155258	hxxx	h[xxx ] 	?	?	?	?	
@@ -623,9 +623,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155262	ubl	ub[l ] 	!(ʔ&u!(ybl[:pass	/y-b-l/	vb Gpass prefc. 3 m. sg.	to carry, bring, take	ủb[l 'was brought (?)' (DULAT cites /y-b-l/ here); uncertain.
 155263	xxx	[xxx]  	?	?	?	?	
 155264	ṯxxk	ṯ[x]xk    	?	?	?	?	
-155265	yrd	yrd[ ] 	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	Migrated from legacy reviewed tokenization.
-155265	yrd	yrd[ ] 	yrd[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	Migrated from legacy reviewed tokenization.
-155266	xxx	[xxx]  	?	?	?	?	Migrated from legacy reviewed tokenization.
+155265	yrd	yrd[ ] 	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	## Migrated from legacy reviewed tokenization.
+155265	yrd	yrd[ ] 	yrd[	/y-r-d/	vb G suffc. 3 m. sg.	to go down	## Migrated from legacy reviewed tokenization.
+155266	xxx	[xxx]  	?	?	?	?	## Migrated from legacy reviewed tokenization.
 155267	ixxxx	i[xxxx ] 	?	?	?	?	
 155268	in	[i]n    	in/	ỉn	n. m. sg. cstr. nom.	lack of	
 155268	in	[i]n    	in	ỉn	neg. existential functor	there is not	DULAT ỉn n., functions as neg. existential particle (EUPT: Existenzpart. neg.).
@@ -680,7 +680,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155312	yˤn	yʿn  	!y!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. sg.	to answer	
 155313	ˤṯtr	ʿṯ[t]r    	ˤṯtr/	ʕṯtr	DN sg. abs. nom.	ʿAṯtar	
 155314	dm	d[m ] 	dm	?	?	?	d[m]kx (KTU): broken; dm 'since' or 'blood'.
-155315		  	?	?	?	?	Migrated from legacy reviewed tokenization.
+155315		  	?	?	?	?	## Migrated from legacy reviewed tokenization.
 155316	kx	kx[ ] 	?	?	?	?	
 # KTU 1.2 III:19							
 155317	l	[l ] 	l(III)	l (III)	functor	certainly, undoubtedly, yes	[ly]qḥ by 'may he take...' (DULAT cites /l-q-ḥ/ + b here); restored.
@@ -698,20 +698,20 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155328	ilm	ilm     	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 155329	w	w 	w	w	conj.	and	
 155330	ḥẓr	ḥẓr [ ]  	ḥẓr/	ḥẓr	n. m. sg. abs. nom.	mansion	
-155331	kbn	[kbn]	k(I) bn(I)/	k (I); bn (I)	prep.; n. m. sg. cstr. gen.	like, as; son	w ḥẓr [k bn qd]š 'nor a court like the sons of the Holy One' (// 1.2 I:38).
+155331	kbn	[kbn]	k(I) bn(I)/	k (I) | bn (I)	prep. | n. m. sg. cstr. gen.	like, as; son	w ḥẓr [k bn qd]š 'nor a court like the sons of the Holy One' (// 1.2 I:38).
 # KTU 1.2 III:20							
 155332	qdš	[qd]š  	qdš(III)/	qdš (III)	DN m. sg. abs. gen.	the Holy One	
-155333	lbdm	lbdm  	l(I) bd(II)/~m	l (I); bd (II)	prep.; n. m. sg. abs. gen. + encl. -m	to, towards, up to; separation, isolation	l bdm ard 'alone I shall go down' (DULAT cites bd (II) here).
+155333	lbdm	lbdm  	l(I) bd(II)/~m	l (I) | bd (II)	prep. | n. m. sg. abs. gen. + encl. -m	to, towards, up to; separation, isolation	l bdm ard 'alone I shall go down' (DULAT cites bd (II) here).
 155334	ard	ard  	!(ʔ&a!(yrd[	/y-r-d/	vb G prefc. 1 c. sg.	to go down, descend	
 155335	b	b 	b	b	prep.	in	
 155336	npšny	npšny  	npšn/+y	npšn	n. m. sg. cstr. gen. + 1 c. sg. suff.	place of / for ‘souls’	DULAT: 'I will go down to my place of souls'.
 155337	trḥṣn	trḥṣn  	!t!rḥṣ[+n	/r-ḥ-ṣ/	vb G prefc. 3 m. pl. + 1 c. sg. suff.	to wash	DULAT: 'skilful (servants) (?) will wash him'.
-155338	kṯrm	kṯrm[ ] 	kṯr(I)/m	kṯr (I)	adj. m. pl. abs. nom.	skilful	DULAT direct ref | Migrated from legacy reviewed tokenization.
-155339	yṯb	[yṯ]b  	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	Migrated from legacy reviewed tokenization.
-155339	yṯb	[yṯ]b  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	Migrated from legacy reviewed tokenization.
-155339	yṯb	[yṯ]b  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	Migrated from legacy reviewed tokenization.
-155340	b	b 	b	b	prep.	in	Migrated from legacy reviewed tokenization.
-155341	bt	[bt]	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	Migrated from legacy reviewed tokenization.
+155338	kṯrm	kṯrm[ ] 	kṯr(I)/m	kṯr (I)	adj. m. pl. abs. nom.	skilful	DULAT direct ref ## Migrated from legacy reviewed tokenization.
+155339	yṯb	[yṯ]b  	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	## Migrated from legacy reviewed tokenization.
+155339	yṯb	[yṯ]b  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	## Migrated from legacy reviewed tokenization.
+155339	yṯb	[yṯ]b  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg. abs. nom.	to sit down	## Migrated from legacy reviewed tokenization.
+155340	b	b 	b	b	prep.	in	## Migrated from legacy reviewed tokenization.
+155341	bt	[bt]	b(t(I)/t	bt (I)	n. f. sg. cstr. gen.	daughter	## Migrated from legacy reviewed tokenization.
 # KTU 1.2 III:21							
 155342	zbl	[zbl  ]  	zbl(I)/	zbl (I)	n. m. sg. cstr. gen.	prince	
 155343	ym	ym  	ym(II)/	ym (II)	DN m. sg. abs. gen.	2) DN	
@@ -731,7 +731,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155356	l	[l ] 	l(I)	l (I)	prep.	to	
 155357	pn	[pn  ]  	pn(m/	pnm	n. m. pl. tant. cstr. gen.	in front	
 155358	ṯpṭ	[ṯpṭ  ]  	ṯpṭ(II)/	ṯpṭ (II)	n. m. sg. cstr. gen.	judge	
-155359	nhrmlkt	[nhr .]mlkt    	?	?	?	?	mlkt hm l mlkt 'are you king, or are you not king?' (DULAT s.v. /m-l-k/, l (II)); not 'queen'. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+155359	nhrmlkt	[nhr .]mlkt    	?	?	?	?	mlkt hm l mlkt 'are you king, or are you not king?' (DULAT s.v. /m-l-k/, l (II)); not 'queen'. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 155360	w	[w ] 	w	w	conj.	4) declarative and emphatic functor	
 155361	im	im  	im	ỉm	conj.	if	
 155362	l	l 	l(II)	l (II)	neg. adv.	no, not	DULAT cites l (II) here.
@@ -802,7 +802,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.2 IV:1							
 155423	ydy	[                         ]yd[y]    	yd(I)/+y	yd (I)	n. f. sg. cstr. nom. + 1 c. sg. suff.	1) hand	yd[y] ḫtt 'my hand yields' (DULAT).
 155424	ḫtt	ḫtt  	ḫt[t===	/ḫ-t(-t)/	vb G suffc. 3 f. sg.	to break, yield	Subject ydy (f.); DULAT: 'my hand(s) yield(s) (?)'.
-155425	mttxxx	mtt .[xxx]	?	?	?	?	Parallel to ḫtt (subject ydy 'my hand'). | Alternative: 'I die'. | DULAT: NOT FOUND | Migrated from legacy reviewed tokenization.
+155425	mttxxx	mtt .[xxx]	?	?	?	?	Parallel to ḫtt (subject ydy 'my hand'). | Alternative: 'I die'. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 # KTU 1.2 IV:2							
 155426	ḥy	[            ]ḥy    	ḥy(I)/	ḥy (I)	adj. m. sg. abs.	alive	ḥy n[pš] l ašṣi 'alive I shall indeed bring out the soul(?)'.
 155427	npš	n[pš ] 	npš(I)/	npš (I)	n. f. sg. abs. acc.	throat	
@@ -888,8 +888,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155496	tmḫṣ	tmḫṣ  	!t=!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 2 m. sg.	to wound, beat, crush, kill	
 155497	ht	ht  	ht	ht	adv.	1) adv b) of time	
 155498	tṣmt	tṣmt  	!t=!ṣmt[:d	/ṣ-m-t/	vb D prefc. 2 m. sg.	to destroy, wipe out, defeat	DULAT: 'now you must destroy your adversary'.
-155499	ṣrtk	ṣrtk 	ṣr(t/t+k	ṣrt	n. f. sg. cstr. nom.	enmity	ṣrtk 'your adversary' (DULAT); trailing x broken. | Migrated from legacy reviewed tokenization.
-155500	x	[[x ]] 	?	?	?	?	ṣrtk 'your adversary' (DULAT); trailing x broken. | Migrated from legacy reviewed tokenization.
+155499	ṣrtk	ṣrtk 	ṣr(t/t+k	ṣrt	n. f. sg. cstr. nom.	enmity	ṣrtk 'your adversary' (DULAT); trailing x broken. ## Migrated from legacy reviewed tokenization.
+155500	x	[[x ]] 	?	?	?	?	ṣrtk 'your adversary' (DULAT); trailing x broken. ## Migrated from legacy reviewed tokenization.
 155501	x	[[x ]] 	?	?	?	?	
 155502	x	[[x ]] 	?	?	?	?	
 155503	x	[[x]]	?	?	?	?	
@@ -899,16 +899,16 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155506	ˤlmk	ʿlmk  	ˤlm(I)/+k	ʕlm (I)	n. m. sg. cstr. gen. + 2 m. sg. suff.	eternity	
 155507	drkt	drkt  	drk(t/t	drkt	n. f. sg. cstr. acc.	rule	
 155508	dt	dt  	d+t	d	det. or rel. functor	1) the one(s) of a) det. of quality	
-155509	drdrk	drdrk 	drdr+k	drdr	→	?	drkt dt dr drk 'your dominion of everlasting generations' (DULAT s.v. dr, d); final ṯr anticipates kṯr (IV:11). | Migrated from legacy reviewed tokenization.
-155510	ṯr	[[ṯr   ]]   	ṯr(I)/	ṯr (I)	n. m. pl. cstr. nom.	bull	drkt dt dr drk 'your dominion of everlasting generations' (DULAT s.v. dr, d); final ṯr anticipates kṯr (IV:11). | Migrated from legacy reviewed tokenization.
-155510	ṯr	[[ṯr   ]]   	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	drkt dt dr drk 'your dominion of everlasting generations' (DULAT s.v. dr, d); final ṯr anticipates kṯr (IV:11). | Migrated from legacy reviewed tokenization.
+155509	drdrk	drdrk 	drdr+k	drdr	→	?	drkt dt dr drk 'your dominion of everlasting generations' (DULAT s.v. dr, d); final ṯr anticipates kṯr (IV:11). ## Migrated from legacy reviewed tokenization.
+155510	ṯr	[[ṯr   ]]   	ṯr(I)/	ṯr (I)	n. m. pl. cstr. nom.	bull	drkt dt dr drk 'your dominion of everlasting generations' (DULAT s.v. dr, d); final ṯr anticipates kṯr (IV:11). ## Migrated from legacy reviewed tokenization.
+155510	ṯr	[[ṯr   ]]   	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	drkt dt dr drk 'your dominion of everlasting generations' (DULAT s.v. dr, d); final ṯr anticipates kṯr (IV:11). ## Migrated from legacy reviewed tokenization.
 # KTU 1.2 IV:11							
 155511	kṯr	kṯr 	kṯr(III)/	kṯr (III)	DN/element sg. abs. nom.	Koṯaru/Kothar	kṯr ṣmdm ynḥt 'Kothar brings down the double mace' (DULAT).
 155512	ṣmdm	ṣmdm  	ṣmd/m	ṣmd	n. m. du. abs. acc.	4) mace or double axe (De Moor SP 135)	
 155513	ynḥt	ynḥt  	!y!nḥt[:d	/n-ḥ-t/	vb D prefc. 3 m. sg.	to take down (for oneself) > to reach for	
-155514	w	w 	w	w	conj.	and	w ḫss ypˤr šmthm 'and Hasis proclaimed their names' (DULAT). | Migrated from legacy reviewed tokenization.
-155515	ḫss	<ḫss>    	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	w ḫss ypˤr šmthm 'and Hasis proclaimed their names' (DULAT). | Migrated from legacy reviewed tokenization.
-155516	ypˤr	ypʿr  	!y!pˤr[	/p-ʕ-r/	vb G prefc. 3 m. sg.	to open one’s mouth > to shout, proclaim	w ḫss ypˤr šmthm 'and Hasis proclaimed their names' (DULAT). | Migrated from legacy reviewed tokenization.
+155514	w	w 	w	w	conj.	and	w ḫss ypˤr šmthm 'and Hasis proclaimed their names' (DULAT). ## Migrated from legacy reviewed tokenization.
+155515	ḫss	<ḫss>    	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	w ḫss ypˤr šmthm 'and Hasis proclaimed their names' (DULAT). ## Migrated from legacy reviewed tokenization.
+155516	ypˤr	ypʿr  	!y!pˤr[	/p-ʕ-r/	vb G prefc. 3 m. sg.	to open one’s mouth > to shout, proclaim	w ḫss ypˤr šmthm 'and Hasis proclaimed their names' (DULAT). ## Migrated from legacy reviewed tokenization.
 155517	šmthm	šmthm  	šm(I)/t=+hm=	šm (I)	n. m. pl. cstr. acc. + 3 c. du. suff.	name	'their (the two maces') names'.
 155518	šmk	šmk 	šm(I)/+k	šm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	name	šmk at ygrš 'your name, you, is Yagrush'.
 155519	at	at	at(I)	ảt (I)	pers. pn.	1) you d) emphatic of suff. pn	
@@ -1090,8 +1090,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155672	yṣa	yṣa  	yṣ(ʔ&a[	/y-ṣ-ʔ/	vb G prefc. 3 m. sg.	to go out, appear	
 155673	b	b[                 ]                 	b	b	prep.	in	
 # KTU 1.2 IV:31							
-155674	ybṯnn	ybṯ{.}nn    	!y!bṯ[nn	/b-ṯ/	vb	1) to be ashamed	ybṯ nn 'he was ashamed of it (?)' (DULAT reads ybṯnn); CUC word-divides. | DULAT direct ref | Migrated from legacy reviewed tokenization.
-155674	ybṯnn	ybṯ{.}nn    	!y!bṯ[+nn	/b-ṯ/	vb G prefc. 3 m. sg.	to be ashamed	ybṯ nn 'he was ashamed of it (?)' (DULAT reads ybṯnn); CUC word-divides. | DULAT direct ref | Migrated from legacy reviewed tokenization.
+155674	ybṯnn	ybṯ{.}nn    	!y!bṯ[nn	/b-ṯ/	vb	1) to be ashamed	ybṯ nn 'he was ashamed of it (?)' (DULAT reads ybṯnn); CUC word-divides. | DULAT direct ref ## Migrated from legacy reviewed tokenization.
+155674	ybṯnn	ybṯ{.}nn    	!y!bṯ[+nn	/b-ṯ/	vb G prefc. 3 m. sg.	to be ashamed	ybṯ nn 'he was ashamed of it (?)' (DULAT reads ybṯnn); CUC word-divides. | DULAT direct ref ## Migrated from legacy reviewed tokenization.
 155675	aliyn	aliyn  	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 155676	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 155677	w	w[                   ]                   	w	w	conj.	and	
