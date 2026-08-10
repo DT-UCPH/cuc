@@ -169,3 +169,20 @@ agent/local_sources/
 agent/generated_sources/
 agent/reports/
 reports/
+
+# CodeGraph's local index, entirely machine-local.
+.codegraph/
+
+# Local working material that is not part of the corpus. These sat untracked
+# for a long time and were swept in by a `git add -A`; ignoring them means a
+# broad add cannot pick them up again.
+agent/*.sqlite
+agent/data_sources/dulat_cache__attestations.tsv
+agent/data_sources/dulat_entry_ktu_references.json
+agent/data_sources/forms.tsv
+agent/data_sources/*.html
+agent/prompts/tasks.md
+docs/Specific readings for the experts.md
+docs/ugaritic_morphology_compatibility_plan.md
+docs/Контекстуалистский подход к угаритским архивам.md
+lexicon_and_grammar/tagging_conventions_cuc.md
