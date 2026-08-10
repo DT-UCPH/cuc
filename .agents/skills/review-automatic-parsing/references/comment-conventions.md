@@ -191,6 +191,52 @@ UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
 `review_status.py` reports the ones missing a reason as `?undocumented`. Add the
 note — do not manufacture an analysis to clear the count.
 
+## What `(` and `&` may encode
+
+`(` marks a lexeme letter with no counterpart in the written form; `&` marks a
+written letter with no counterpart in the lexeme. **That relation is all they
+encode.** They are not an editorial apparatus.
+
+Everything editorial already has a home, at sign level, in Text-Fabric:
+
+| fact | where it lives |
+|---|---|
+| restored by an editor `[ ]` | `emen=restored` (52,875 signs) |
+| erased by the scribe `[[ ]]` | `emen=excised` |
+| supplied by an editor `< >` | `emen=missing` |
+| alternative spelling | `alt` |
+| legibility of the sign | `cert` |
+| word split across a physical line | `cont=continued`, plus a `MERGE WITH` pair |
+
+So a scribal error the editor marked is not restated with `&`: the analysis
+parses the reading that stands, and the comment says why. Restating it puts the
+same fact in two places that can then disagree.
+
+`audit_marker_layers.py` measures which layer each mark is really on, by
+aligning the analysis against the sign span letter for letter:
+
+```bash
+python3 <skill-dir>/scripts/audit_marker_layers.py
+python3 <skill-dir>/scripts/audit_marker_layers.py --class dup
+```
+
+Its classes, and what to do about each:
+
+- **ortho** — the aleph sign carrying a vowel (`(ʔ&a`). Legitimate, and 298 of
+  the 438 marks in `reviewed/`. One systematic rule, written out per token.
+- **dup** — the sign span already brackets this letter as erased or excised, so
+  the `&` restates an editorial act. Drop the mark, keep the reason in the
+  comment.
+- **conflict** — the analysis calls a letter *written* that the span says the
+  scribe never wrote (`< >`). A contradiction, not a duplication.
+- **lexical** — a written radical the lexeme does not have, as with DULAT
+  `/m-ṣ-ḥ/` against attested `mṣḫ`. Genuinely belongs, and the divergence
+  belongs in the comment.
+- **unsupported** — a surface-only letter with nothing editorial behind it.
+  Needs reading case by case.
+- **merge** — a `MERGE WITH` row, whose span covers part of the word by design
+  and cannot be checked positionally.
+
 ## Separating lexemes: `|`, never `,` or `;`
 
 When one token carries two lexemes, the structured columns separate them with
