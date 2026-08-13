@@ -1,0 +1,47 @@
+id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.15 1							
+176269	gnryn	gnryn	gnryn/	?	PN m. sg. abs. nom.	gnryn	The letter heading and the self-reference in line 7 identify gnryn as the sender's personal name; Tania independently tags PN, and DULAT translates the second occurrence as “I, PN” but has no dedicated lexeme entry.
+# KTU 2.15 2							
+176270	l	l 	l(I)	l (I)	prep.	to	DULAT cites l PN at this line.
+176271	mlkytn	mlkytn	mlkytn/	mlkytn	PN m. sg. abs. gen.	mlkytn	DULAT cites the PN in the address l mlkytn; Tania agrees.
+# KTU 2.15 3							
+176272	ḥnny	ḥnny 	!!ḥn(n[+n~y	/ḥ-n-n/	vb G impv. m. sg. + 1 c. sg. suff. + encl. -y	to be / appear kind	DULAT translates ḥnny l pn mlk, “be kind to me before the king.” Tropper §§73.162, 89.34 analyses the imperative with 1cs object -n and speech-particle -y.
+176273	l	l 	l(I)	l (I)	prep.	to	First element of lexicalized l pn “before”; DULAT cites the full phrase at this line.
+176274	pn	pn 	pn(m/	pnm	n. m. pl. tant.	in front	DULAT cites ḥnny l pn mlk and treats pn as plurale-tantum pnm; Tania independently separates l and pn.
+176275	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	DULAT and Tropper read l pn mlk, “before the king.”
+# KTU 2.15 4							
+176276	šink	šink 	šin/+k	šỉn	n. m. sg. cstr. acc. + 2 m. sg. suff.	2) rim (?)	DULAT assigns this uncertain attestation to šỉn sense 2, “rim (?).”
+176277	itn	itn 	!(ʔ&i!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give, hand over, grant, bestow	Primary DULAT/Tropper (§§33.215.21b, 75.512) reading: unusually written G prefix conjugation 1 c. sg., “I will give.” Tania independently agrees.
+176277	itn	itn 	!!&i(ytn[	/y-t-n/	vb G impv. m. sg.	to give, hand over, grant, bestow	Tropper §75.512 records a G imperative as an alternative; written initial i is treated as nonlexical in this orthographically unusual text.
+# KTU 2.15 5							
+176278	rˤy	rʿy 	rˤ/+y	rʕ	n. m. sg. cstr. nom. + 1 c. sg. suff.	companion, friend	Primary DULAT/Tropper reading: vocative “my friend”; Tania independently agrees.
+176278	rˤy	rʿy 	rˤy(I)/	rʕy (I)	n. m. sg. abs. nom.	shepherd	Tropper §33.322.2d preserves “shepherd” as an alternative in which y is the third radical.
+176279	šṣa	šṣa 	!!]š](yṣ(ʔ[&a	/y-ṣ-ʔ/	vb Š impv. m. sg.	to make (someone) leave, take out	Primary Tropper §§73.142, 74.623 reading: expanded Š imperative, “bring out/provide for me”; DULAT cites the Š stem in this exact phrase, and Tania independently agrees.
+176279	šṣa	šṣa 	]š](yṣ(ʔ[&a	/y-ṣ-ʔ/	vb Š suffc. 3 m. sg.	to make (someone) leave, take out	DULAT's translation “so that my friend may provide me with…” and Tania's blank-slate review support a Š suffix-conjugation alternative; Tropper regards the imperative as primary.
+176280	idn	idn 	idn/	ỉdn	n. m. sg. abs. acc.	authorisation	DULAT cites rʕy šṣả ỉdn ly, “my friend, provide me with an authorisation”; Tania agrees.
+176281	ly	ly	l(I)+y	l (I)	prep. + 1 c. sg. suff.	to me	Benefactive complement of šṣa; DULAT cites the exact phrase and Tania agrees.
+# KTU 2.15 6							
+176282	l	l 	l(I)	l (I)	prep.	with regard to	DULAT reads topicalizing l šmn, “with regard to the oil.”
+176283	šmin	šm[[i]]n  	šmn(I)/	šmn (I)	n. m. sg. abs. gen.	oil	Primary DULAT and Tropper reading.
+176283	šmin	šm[[i]]n  	šmn/	?	PN	?	Tania independently reads a personal name; DULAT and Tropper instead read šmn “oil.”
+176284	iṯr	iṯr 	!!(ʔ&iṯr[+h&w	/ʔ-ṯ-r/	vb G impv. m. sg. + 3 m. sg. suff.	to go, follow	MERGE WITH THE NEXT: iṯr+hw = iṯrhw, DULAT's primary “follow it.”
+176284	iṯr	iṯr 	(a&iṯr(III)	ảṯr (III)	interr. adv.	where	Tropper §§21.342.1b, 83.221 alternative lexical resegmentation: iṯr hw, “wherever he is”; Tania's initial independent review supports this reading.
+176285	hw	hw 	!!(ʔ&iṯr[+h&w	/ʔ-ṯ-r/	vb G impv. m. sg. + 3 m. sg. suff.	to go, follow	MERGE WITH THE PREVIOUS.
+176285	hw	hw 	hw	hw	pers. pn.	he	Second word of Tropper's alternative iṯr hw, “wherever he is”; this is a genuine lexical resegmentation, not part of the merged DULAT reading.
+# KTU 2.15 7							
+176286	p	p 	p(I)	p (I)	conj. functor	and, then	DULAT calls p explanatory; Tropper §§83.122, 83.22 translates “then.”
+176287	iḫdn	iḫdn 	!(ʔ&i!(ʔḫd[~n	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 1 c. sg. + encl. -n	to requisition, take	Primary DULAT reading: “then I, GNRYN, shall requisition it”; Tania's -n encoding is retained as an enclitic rather than an object suffix.
+176287	iḫdn	iḫdn 	!(ʔ&i!ḫd(y[~n	?	vb G prefc. 1 c. sg. + encl. -n	to be glad, rejoice	Tropper §§75.532, 83.22 reads root ḫdy, “then I will rejoice”; DULAT explicitly records this dissenting analysis for this attestation but has no separate ḫdy entry.
+176288	gnryn	gnryn	gnryn/	?	PN m. sg. abs. nom.	gnryn	DULAT reads “I, GNRYN”; the same sender name opens line 1, and Tania independently tags PN.
+# KTU 2.15 8							
+176289	im	im 	im	ỉm	conj.	1) cond. conj. if	DULAT and Tropper §§83.231, 93.449.2 cite im mlkytn yrgm as a conditional clause; Tania agrees.
+176290	mlkytn	mlkytn 	mlkytn/	mlkytn	PN m. sg. abs. nom.	mlkytn	DULAT and Tropper read “if MLKYTN says”; Tania agrees.
+176291	yrgm	yrgm	!y!rgm[	/r-g-m/	vb G prefc. 3 m. sg.	to say, tell, announce, communicate, inform	DULAT and Tropper read “if Mlkytn says.”
+176291	yrgm	yrgm	!y!rgm[:pass	/r-g-m/	vb Gpass prefc. 3 m. sg.	to be said, recited	Tania's blank-slate review independently retains the Gpass alternative; DULAT and Tropper support active G in context.
+# KTU 2.15 9							
+176292	aḫnnn	aḫnnn	!(ʔ&a!ḫnn[:d+n	/ḫ-n-n/	vb D prefc. 1 c. sg. + 3 m. sg. suff.	to denature, make rancid, unsuitable for use	DULAT's primary reading takes the oil as object: “I will denature it”; Tania independently retains the D stem.
+176292	aḫnnn	aḫnnn	!(ʔ&a!(ḥ&ḫnn[+n	/ḥ-n-n/	vb G prefc. 1 c. sg. + 3 m. sg. suff.	to be / appear kind	Tropper §§73.244, 73.6 reads G 1 c. sg. plus 3 m. sg. object, “I will show him favour”; written ḫ replaces DULAT's lexical ḥ. This yields the direct speech begun by yrgm.
+# KTU 2.15 10							
+176293	w	w 	w	w	conj.	and	Links the conditional apodosis or the second promised action, depending on the line 9 alternative.
+176294	iḫd	iḫd	!(ʔ&i!(ʔḫd[	/ʔ-ḫ-d(/ḏ)/	vb G prefc. 1 c. sg.	to requisition, take	DULAT alternative sequence: “and I will proceed to requisition it”; the text's unusual initial-i spelling is explicit.
+176294	iḫd	iḫd	!(ʔ&i!ḫd(y[	?	vb G prefc. 1 c. sg.	to be glad, rejoice	Tropper §§75.532, 83.231 reads root ḫdy, “then I will rejoice”; DULAT explicitly records the dissent for lines 7/10 but lacks a separate ḫdy entry.

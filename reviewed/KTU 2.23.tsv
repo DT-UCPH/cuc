@@ -1,0 +1,145 @@
+id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.23 1							
+176520	w	w  	w	w	conj.	and	
+176521	k	k  	k(IV)	k (IV)	adv.	thus, in this way	DULAT translates w k rgm špš “and thus says the Sun”; Tropper §81.3a likewise allows “so(?) spoke.”
+176521	k	k  	k(III)	k (III)	subordinating or completive functor	as for the fact that	Tropper §42.24 gives an alternative casus-pendens interpretation, “as for the fact that the Sun said”; both readings are syntactically possible.
+176522	rgm	rgm  	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say	Finite reading in DULAT's and Tropper's “thus spoke the Sun,” with the royal title as subject.
+176522	rgm	rgm  	rgm/	rgm	n. m. sg. cstr. nom.	word, message	DULAT also translates the exact phrase nominally, “and the word of the Sun”; retained as a source-backed alternative.
+176523	špš	špš	špš/	špš	n. f. sg. abs. nom.	Sun, royal title	DULAT identifies the Hittite king here; Burns's divine-name catalogue does not turn the human royal title into a DN.
+176523	špš	špš	špš/	špš	n. f. sg. abs. gen.	Sun, royal title	DULAT's alternative nominal reading is “word of the Sun.”
+# KTU 2.23 2							
+176524	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. abs. nom.	king	Tropper and DULAT read špš mlk rb bʕly, “the Sun, the Great King, my lord.”
+176525	rb	rb  	rb(I)/	rb (I)	adj. m. sg. abs. nom.	great	Attributive adjective in the fixed title “Great King.”
+176526	bˤly	bʿly  	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. nom. + 1 c. sg. suff.	my lord	
+176527	u	u 	u	ủ	conj.	or, or is it that	DULAT directly cites disjunctive ủ at this point.
+# KTU 2.23 3							
+176528	ˤṯtrab	ʿṯt[r]ab  	ˤṯtrab/	ʕṯtrab	PN m. sg. abs. nom.	ʕṯtrab	DULAT identifies the personal name; the following mission clause supports its nominative role.
+176529	mlakt	mlakt  	mlak(t/t	mlảkt	n. f. sg. cstr. nom.	mission	DULAT cites mlảkt ʕbdh, “the mission of his servant.”
+176530	ˤbdh	ʿbdh	ˤbd(I)/+h	ʕbd (I)	n. m. sg. cstr. gen. + 3 m. sg. suff.	his servant	
+# KTU 2.23 4							
+176531	ylak	ylak  	!y!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 3 m. sg. juss.	to send a message	The PN or his servant is the 3ms subject; the volitive context calls for “may he send.”
+176532	l	l  	l(I)	l (I)	prep.	to	Governs “your lord.”
+176533	bˤlk	bʿlk  	bˤl(II)/+k	bʕl (II)	n. m. sg. cstr. gen. + 2 m. sg. suff.	your lord	
+176534	k	k  	k(III)	k (III)	subordinating or completive functor	so that	DULAT translates the jussive purpose clause k yḫpn, “may he protect.”
+176535	yḫpn	yḫpn	!y!ḫpn[	/ḫ-p-n/	vb G prefc. 3 m. sg. juss.	to protect	DULAT directly cites k yḫpn and translates “may he protect”; no stem beyond G is supported.
+# KTU 2.23 5							
+176536	mlakty	mlakty  	mlak(t/t+y	mlảkt	n. f. sg. cstr. acc. + 1 c. sg. suff.	my missive	DULAT cites mlảkty ʕmh, “my missive directed to him.”
+176537	ˤmh	ʿmh  	ˤm(I)+h	ʕm (I)	prep. + 3 m. sg. suff.	to him	DULAT's exact phrase confirms the preposition and 3ms suffix.
+176538	uky	uky	uk~y	ủk	positive emph. functor + encl. -y	certainly	Tropper §85.11 analyses ủky as affirmative ủk plus emphatic -y.
+176538	uky	uky	uky	ủky	?	?	DULAT treats the whole form as an uncertain lexeme in this context; retained as an explicit alternative rather than silently collapsed into Tropper's analysis.
+# KTU 2.23 6							
+176539	mlakt	mlakt  	mlak(t/t	mlảkt	n. f. sg. cstr. nom.	mission	
+176540	ˤbdk	ʿbdk  	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. gen. + 2 m. sg. suff.	your servant	
+176541	k	k  	k(III)	k (III)	subordinating or completive functor	when	DULAT directly translates k tmġy mlảkt “when the message arrives.”
+176542	tmġy	tmġy	!t!mġy[	/m-ġ-y/	vb G prefc. 3 f. sg.	to arrive	Feminine singular mlảkt špš is the following subject.
+# KTU 2.23 7							
+176543	mlakt	mlakt  	mlak(t/t	mlảkt	n. f. sg. cstr. nom.	message	DULAT cites mlảkt špš, “the message of the Sun.”
+176544	špš	špš [ ]  	špš/	špš	n. f. sg. abs. gen.	Sun, royal title	DULAT identifies the Egyptian king here; this human title is not a divine name.
+176545	mlk	[ml]k    	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+176546	rb	rb	rb(I)/	rb (I)	adj. m. sg. abs. gen.	great	
+# KTU 2.23 8							
+176547	bˤly	bʿl[y ]  	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen. + 1 c. sg. suff.	my lord	Final apposition in the genitive title “of the Sun, the Great King, my lord”; -y is the 1cs suffix.
+176548	ˤm	ʿm[ ] 	ˤm(I)	ʕm (I)	prep.	to, with	
+176549	xxxxxx	[xxxxx]x	?	?	?	?	
+# KTU 2.23 9							
+176550	ydˤt	ydʿt  	ydˤ[t	/y-d-ʕ/ (I)	vb G suffc. 1 c. sg.	to know, acknowledge	Tropper §§75.514 and 76.531 regards a first-person performative, “I hereby acknowledge,” as likely.
+176550	ydˤt	ydʿt  	ydˤ[t=	/y-d-ʕ/ (I)	vb G suffc. 2 m. sg.	to know, acknowledge	Tropper also permits 2ms.
+176551	šxx	š[xx  ]  	?	?	?	?	Tropper tentatively supplies an object of “acknowledge,” without restoring a lexeme.
+176552	špš	[špš  ]  	špš/	špš	n. f. sg. abs. gen.	Sun, royal title	In the formula “the Sun, the Great King, my lord,” špš denotes the human monarch, not the goddess.
+176553	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+# KTU 2.23 10							
+176554	rb	rb   	rb(I)/	rb (I)	adj. m. sg. abs. gen.	great	Fixed title “Great King,” excluding noun rb (II) “chief.”
+176555	bˤly	bʿl[y                         ]                         	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen. + 1 c. sg. suff.	my lord	
+# KTU 2.23 11							
+176556	x	x[                                      ]                                      	?	?	?	?	
+# KTU 2.23 12							
+176557	r	r[                                       ]                                       	?	?	?	?	
+# KTU 2.23 13							
+176558	b	b  	b	b	prep.	in	
+176559	x	x[                      ]                      	?	?	?	?	
+176560	špš	[špš  ]  	špš/	špš	n. f. sg. abs. gen.	Sun, royal title	In the repeated royal titulary, špš denotes the human king rather than Šapšu.
+176561	mlk	[mlk]	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+# KTU 2.23 14							
+176562	rb	rb [ ] 	rb(I)/	rb (I)	adj. m. sg. abs. gen.	great	The repeated title is “Great King.”
+176563	bˤly	[bʿly                            ]                            	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen. + 1 c. sg. suff.	my lord	
+# KTU 2.23 15							
+176564	w	w  	w	w	conj.	and	
+176565	ank	an[k  ]  	ank	ảnk	pers. pn. 1 c. sg.	I	Explicit first-person subject; Tropper reconstructs “and I … pray.”
+176566	xxxxxxxb	[xxxxxxx]b	?	?	?	?	Tropper tentatively restores a servant predicate plus relative d, without accounting for the entire written sequence.
+# KTU 2.23 16							
+176567	arš	arš[  ]  	!(ʔ&a!(ʔrš[	/ʔ-r-š/	vb G prefc. 1 c. sg.	to request, pray	Tropper §§33.141.43 and 74.412.21 analyses /ʾârVš-/ as G prefix conjugation 1cs, “I pray”; DULAT directly cites the verbal root here.
+176567	arš	arš[  ]  	!(ʔ&a!(ʔrš[:d	/ʔ-r-š/	vb D prefc. 1 c. sg.	to request, pray	Tropper explicitly retains D as an alternative because unwritten gemination is possible; it cannot be decided from the consonantal form.
+176568	ḥy	[ḥy  ]  	ḥy(m/	ḥym	n. m. pl. tant. cstr. acc.	life	DULAT and Tropper read “I pray for the life of the Sun.”
+176569	l	[l ] 	l(I)	l (I)	prep.	for	
+176570	špš	[šp]š	špš/	špš	n. f. sg. abs. gen.	Sun, royal title	Genitive object after l; the title denotes the human monarch, not DN Šapšu.
+# KTU 2.23 17							
+176571	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+176572	rb	r[b  ]  	rb(I)/	rb (I)	adj. m. sg. abs. gen.	great	Fixed title “Great King,” excluding noun rb (II) “chief.”
+176573	bˤly	[bʿl]y    	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen. + 1 c. sg. suff.	my lord	Final apposition in the genitive royal title; -y is 1cs.
+176574	p	p  	p(I)	p (I)	conj. functor	and furthermore	Tropper §83.12 cites this clause as additive p, coordinating a second prayer.
+176575	l	l 	l(I)	l (I)	prep.	for	
+# KTU 2.23 18							
+176576	ḥy	ḥy  	ḥy(m/	ḥym	n. m. pl. tant. cstr. acc.	life	Construct noun in DULAT's exact phrase “for the life of (his) soul”; it is the prayer's object, not a nominative.
+176577	npš	np[š  ]  	npš(I)/	npš (I)	n. f. sg. abs. gen.	soul, life	DULAT translates “his soul,” although no possessive suffix is written in this token.
+176578	arš	[a]rš	!(ʔ&a!(ʔrš[	/ʔ-r-š/	vb G prefc. 1 c. sg.	to request, pray	Second occurrence of Tropper's G 1cs /ʾârVš-/, “I pray.”
+176578	arš	[a]rš	!(ʔ&a!(ʔrš[:d	/ʔ-r-š/	vb D prefc. 1 c. sg.	to request, pray	Tropper retains D as an alternative to G for both occurrences; consonantal spelling cannot show the gemination.
+# KTU 2.23 19							
+176579	l	l  	l(I)	l (I)	prep.	before	Tropper §69.141 and DULAT analyse l pn as a compound preposition.
+176580	pn	pn  	pn(m/	pnm	n. m. pl. tant.	in front	
+176581	bˤl	bʿ[l  ]  	bˤl(II)/	bʕl (II)	DN m. sg. cstr. gen.	Baʕlu	Divine name in the directly attested compound bʕl ṣpn, before whom the sender prays.
+176582	ṣpn	ṣpn  	ṣpn/	ṣpn	TN sg. abs. gen.	Ṣapānu, Zaphon	Toponymic epithet in Baʕlu-Ṣapānu. Burns supports the compound divine-name reading, but ṣpn itself remains the mountain name here rather than an independently deified DN.
+176583	bˤly	bʿly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen. + 1 c. sg. suff.	my lord	Tropper translates “my lord.”
+# KTU 2.23 20							
+176584	w	w  	w	w	conj.	and	
+176585	urk	urk  	urk/	ủrk	n. m. sg. cstr. acc.	length	DULAT cites ủrk ym bʕly, “length of the days of my lord.”
+176586	ym	ym  	ym(I)/	ym (I)	n. m. pl. cstr. gen.	days, lifetime	DULAT and Tropper translate the construct phrase idiomatically as a long life. Consonantal ym is the plural construct “days” here, not singular day.
+176587	bˤly	bʿly	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen. + 1 c. sg. suff.	my lord	Genitive possessor in “my lord's days”; -y is 1cs.
+# KTU 2.23 21							
+176588	l	l  	l(I)	l (I)	prep.	before	
+176589	pn	pn  	pn(m/	pnm	n. m. pl. tant.	in front	
+176590	amn	amn  	amn(I)/	ảmn (I)	DN m. sg. abs. gen.	Amun	DULAT identifies Egyptian DN Amun in l pn ảmn, excluding adjective ảmn (III) “faithful.”
+176591	w	w  	w	w	conj.	and	
+176592	l	l  	l(I)	l (I)	prep.	before	
+176593	pn	pn	pn(m/	pnm	n. m. pl. tant.	in front	
+# KTU 2.23 22							
+176594	il	il  	il(I)/	ỉl (I)	n. m. pl. cstr. gen.	gods	DULAT and Tropper translate ỉl mṣrm as plural “the gods of Egypt”; plural agreement is supplied by dt tġrn despite the lack of a written plural ending.
+176595	mṣrm	mṣrm  	mṣrm/	mṣrm	TN sg. abs. gen.	Egypt	
+176596	dt	dt  	d/t	d	rel. functor	who	Feminine-plural relative form agreeing with the plural gods in the directly cited relative clause; final -t is lexical morphology, not an enclitic.
+176597	tġrn	tġrn	!t!(nġr[n	/n-ġ-r/	vb G prefc. 3 f. pl.	to protect, guard	Tropper §§76.325 and 97.111 identifies a long prefix form with plural subject “the gods of Egypt, who protect.” Final -n marks plural conjugation, not a 1cs object suffix.
+# KTU 2.23 23							
+176598	npš	npš  	npš(I)/	npš (I)	n. f. sg. cstr. acc.	soul, life	DULAT and Tropper translate “who protect the life of the Sun.”
+176599	špš	špš 	špš/	špš	n. f. sg. abs. gen.	Sun, royal title	The royal title denotes the human king.
+176600		[  ]  	?	?	?	?	
+176601	mlk	mlk 	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+# KTU 2.23 24							
+176602	rb	rb  	rb(I)/	rb (I)	adj. m. sg. abs. gen.	great	Fixed title “Great King,” excluding noun rb (II) “chief.”
+176603	bˤly	bʿly 	bˤl(II)/+y	bʕl (II)	n. m. sg. cstr. gen. + 1 c. sg. suff.	my lord	Final apposition in the genitive titulary; -y is the sender's 1cs suffix.
+# KTU 2.23 25							
+176604	b	b[                                      ]                                      	b	b	prep.	in	
+176605	x	x	?	?	?	?	
+# KTU 2.23 26							
+176606	ˤbx	ʿb[                                  ]x	?	?	?	?	
+# KTU 2.23 27							
+176607	ˤxx	ʿx[                                     ]x	?	?	?	?	
+# KTU 2.23 28							
+176608	mš	m[                                     ]š	?	?	?	?	
+# KTU 2.23 29							
+176609	xtm	x[                                      ]tm	?	?	?	?	
+# KTU 2.23 30							
+176610	pm	pm[                                  ]                                  	p(I)~m	p (I)	conj. functor + encl. -m	and then	Tropper §83.12 identifies a possible extended conjunction p + emphatic -m.
+# KTU 2.23 31							
+176611	bˤlš	bʿl[                                    ]š	?	?	?	?	
+# KTU 2.23 32							
+176612	ap	ap  	ap(I)	ảp (I)	adv./conj.	also	Tropper §85.2 identifies additive ảp.
+176613	xnpšn	x[                       n]pšn	?	?	?	?	
+# KTU 2.23 33							
+176614	mlk	mlk[                                 ]                                 	mlk(I)/	mlk (I)	n. m. sg.	king	
+# KTU 2.23 34							
+176615	yšlm	yšl[m                                ]                                	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg.	to be well	
+176616	xm	xm	?	?	?	?	
+# KTU 2.23 35							
+176617	ˤbx	ʿb[                                    ]x	?	?	?	?	
+# KTU 2.23 36							
+176618	x	x[                                    ]                                    	?	?	?	?	
+# KTU 2.23 37							
+176619	xxxlx	[xx]xlx[                          ]                          	?	?	?	?	

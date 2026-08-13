@@ -1,0 +1,76 @@
+id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.16 1							
+176295	tḥm	tḥm 	tḥm/	tḥm	n. m. sg. cstr. nom.	message	Epistolary heading: “message of Talmiyanu” (DULAT formula).
+176296	tlmyn	tlmyn  	tlmyn/	tlmyn	PN m. sg. abs. gen.	Talmiyanu	DULAT identifies the sender as the same PN as in KTU 2.11–2.12.
+# KTU 2.16 2							
+176297	l	l 	l(I)	l (I)	prep.	to	
+176298	ṯryl	ṯryl 	ṯryl/	ṯryl	PN f. sg. abs. gen.	Ṯaryelli	Recipient after l, the queen/mother also addressed in KTU 2.14.
+176299	umy	umy 	um/+y	ủm	n. f. sg. cstr. gen. + 1 c. sg. suff.	mother	“To Ṯaryelli, my mother.”
+# KTU 2.16 3							
+176300	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. m. sg.	to say, tell, announce, communicate, inform	Epistolary imperative in tḥm PN l PN rgm.
+# KTU 2.16 4							
+176301	yšlm	yšlm  	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg. juss.	to be well, do well, be in peace	DULAT and Tropper read the epistolary wish yšlm lk, “may it go well with you.”
+176302	lk	lk  	l(I)+k	l (I)	prep. + 2 f. sg. suff.	to you	The addressee is Ṯaryelli, hence feminine singular.
+176303	ily	ily	il(I)/y	ỉl (I)	n. m. pl. cstr. nom.	god	Primary Tropper §§21.341.21b, 54.121.2 reading: construct plural “the gods of Ugarit,” with y as mater lectionis for the oblique-form ending used syntactically as nominative.
+176303	ily	ily	il(I)/~y	ỉl (I)	n. m. pl. abs. nom. + encl. -y	god	Tropper §89.35 and Tania preserve the alternative il-y, with sentence-opening speech particle -y.
+# KTU 2.16 5							
+176304	ugrt	ugrt 	ugrt/	ủgrt	TN f. sg. abs. gen.	Ugarit	
+176305	tġrk	tġrk 	!t!(nġr[:w+k=	/n-ġ-r/	vb G prefc. 3 m. pl. + 2 f. sg. suff.	to protect, guard	Compare the identical blessing in KTU 2.11 and Tropper §§54.121.2, 75.42.
+# KTU 2.16 6							
+176306	tšlmk	tšlmk   	!t!šlm[:d:w+k=	/š-l-m/	vb D prefc. 3 m. pl. + 2 f. sg. suff.	to restore / preserve health	DULAT and Tropper p. 555 analyse the epistolary formula with plural gods and a feminine recipient.
+176307	umy	umy 	um/+y	ủm	n. f. sg. cstr. nom. + 1 c. sg. suff.	mother	DULAT and Tropper translate “my mother should know.”
+# KTU 2.16 7							
+176308	tdˤ	tdʿ 	!t!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 3 f. sg. juss.	to know, recognise	Primary DULAT/Tropper reading with subject “my mother”: “my mother should know.”
+176308	tdˤ	tdʿ 	!t==!(ydˤ[	/y-d-ʕ/ (I)	vb G prefc. 2 f. sg. juss.	to know, recognise	Tania's blank-slate review and DULAT's alternate second-person translation support direct address, “you should know.”
+176309	ky	ky	k(III)~y	k (III)	Subordinating or completive functor + encl. -y	that	Primary DULAT reading in tdʕ ky ʕrbt, “know that I entered”; y is treated as a speech particle.
+176309	ky	ky	k(IV)~y	k (IV)	adv. + encl. -y	thus	Tania's independent alternative “thus”; context and DULAT favour completive k(III).
+176310	ˤrbt	ʿrbt   	ˤrb(I)[t	/ʕ-r-b/ (I)	vb G suffc. 1 c. sg.	to enter	DULAT cites the exact first-person clause, “I entered into the presence of the Sun.”
+# KTU 2.16 8							
+176311	l	l 	l(I)	l (I)	prep.	to	First element of lexicalized l pn “before, into the presence of.”
+176312	pn	pn 	pn(m/	pnm	n. m. pl. tant.	in front	DULAT directly cites ʕrbt l pn špš, “I entered into the presence of the Sun.”
+176313	špš	špš  	špš/	špš	n. f. sg. abs. gen.	Sun (king of Hatti)	Genitive after l pn; DULAT sense “the king of Hatti,” an honorific common-noun use rather than a divine-name reading.
+# KTU 2.16 9							
+176314	w	w 	w	w	conj.	and	
+176315	pn	pn  	pn(m/	pnm	n. m. pl. tant. cstr. nom.	face	Subject and construct head in pn špš nr, “the face of the Sun shone” (DULAT).
+176316	špš	špš 	špš/	špš	n. f. sg. abs. gen.	Sun (king of Hatti)	The Hittite king's honorific.
+176317	nr	nr   	nr[	/n-r/	vb G suffc. 3 m. sg.	to shine	DULAT directly cites pn špš nr by; Tania independently agrees on the verb.
+# KTU 2.16 10							
+176318	by	by 	b+y	b	prep. + 1 c. sg. suff.	upon me	DULAT/Tropper: pn špš nr by, “the Sun's face shone upon me.”
+176319	mid	mid	mid/	mỉ/ủd	n. m. sg. abs. acc.	2) abundantly, very much	DULAT and Tropper translate “shone abundantly upon me.”
+176320	w	w 	w	w	conj.	and	
+176321	um	um 	um/	ủm	n. f. sg. abs. nom.	mother	Tropper notes that this letter can express “my mother” without written -y.
+# KTU 2.16 11							
+176322	tšmḫ	tšmḫ  	!t!šmḫ[:d	/š-m-ḫ/	vb D prefc. 3 f. sg.	to please, make happy	DULAT's primary syntactic reading pairs this D stem with ảb: “(my) mother pleased (my) father.”
+176322	tšmḫ	tšmḫ  	!t!šmḫ[	/š-m-ḫ/	vb G prefc. 3 f. sg. juss.	to be glad, rejoice	Tropper's preferred reading pairs G with emended mad: “may my mother rejoice greatly”; Elijah selects G and Tania retains it independently.
+176323	mab	mab   	&mab/	ảb	n. m. sg. abs. acc.	father	DULAT reads extraneous m plus ảb, “mother pleased father.”
+176323	mab	mab   	m(i&a)(d&b)/	mỉ/ủd	n. m. sg. abs. acc.	2) abundantly, very much	Tropper §§21.352, 81.3f emends mab to mad “very,” yielding G tšmḫ “rejoice greatly.”
+# KTU 2.16 12							
+176324	w	w 	w	w	conj.	and	
+176325	al	al 	al(I)	ảl (I)	neg. functor	no, not	DULAT and Tropper read “do not be worried.”
+176326	twḥln	twḥln	!t!wḥl[:d~n	/y/w-ḥ-l/	vb D prefc. 2 f. sg. + encl. -n	to be worried, despair, lose hope	Primary Tropper §74.412.14/24 analysis: D prefix conjugation 2 f. sg. plus energic/enclitic -n; direct address to the mother.
+176326	twḥln	twḥln	!t!wḥl[:d:pass~n	/y/w-ḥ-l/	vb Dpass prefc. 2 f. sg. + encl. -n	to be worried, despair, lose hope	Tropper explicitly allows Dpass as the second stem possibility; its intransitive semantics are compatible with the prohibition.
+176326	twḥln	twḥln	!t!wḥl[~n	/y/w-ḥ-l/	vb G prefc. 2 f. sg. + encl. -n	to be worried, despair, lose hope	DULAT classifies the exact attestation as G; Tropper instead allows only D or Dpass.
+# KTU 2.16 13							
+176327	ˤtn	ʿtn 	ˤ(nt(II)~n	ʕnt (II)	adv. + encl. -n	now	DULAT's primary reading ʕ(n)t + -n: “now I am a soldier of the guard”; the internal n is unexpressed separately.
+176327	ˤtn	ʿtn 	ˤtn/	?	n. m. sg. cstr. nom.	commander	Tropper §81.21d doubts the adverb and proposes a construct noun, “commander of the guard troop”; no matching DULAT lexeme is known.
+176328	ḫrd	ḫrd   	ḫrd/	ḫrd	n. m. sg. abs. nom.	2) soldier of the guard	DULAT reads “I am now a recruit of the guard.”
+176328	ḫrd	ḫrd   	ḫrd/	ḫrd	n. m. sg. abs. gen.	2) soldier of the guard	Tropper alternatively reads “commander of the guard troop.”
+176329	ank	ank   	ank	ảnk	pers. pn.	I	
+# KTU 2.16 14							
+176330	ˤmny	ʿmny  	ˤm(I)~n+y	ʕm (I)	prep. + encl. -n + 1 c. sg. suff.	with me	Expanded suffixed preposition in the epistolary well-being formula; Tropper §41.221.17d.
+176331	šlm	šlm  	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace, well-being	Nominal clause ʕmny šlm kll, “with me all is well”; Tania independently selects the noun.
+# KTU 2.16 15							
+176332	kll	kll   	kll/	kll	n. m. sg. abs. acc.	totality, completely	Tropper §45.23 and DULAT read “well-being in complete measure.”
+# KTU 2.16 16							
+176333	w	w 	w	w	conj.	and	
+176334	mnm	mnm 	mnm	mnm	indef. pn.	any(thing), whatever	Heads the epistolary free-relative formula “whatever well-being there is…” (Tropper §81.12d).
+# KTU 2.16 17							
+176335	šlm	šlm   	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace, well-being	Nominal predicate in mnm šlm ʕm umy, “whatever well-being there is with my mother”; Tania independently selects the noun.
+176336	ˤm	ʿm  	ˤm(I)	ʕm (I)	prep.	with	
+# KTU 2.16 18							
+176337	umy	umy 	um/+y	ủm	n. f. sg. cstr. gen. + 1 c. sg. suff.	mother	
+# KTU 2.16 19							
+176338	ˤmy	ʿmy 	ˤm(I)+y	ʕm (I)	prep. + 1 c. sg. suff.	to me	Directional ʕm with first-person suffix in DULAT's ʕmy tṯṯb rgm.
+176339	tṯṯb	tṯṯb   	!t!](š&ṯ]ṯb[	/ṯ-b/	vb Š prefc. 3 f. sg. juss.	to send back	The subject is umy: “may my mother send me a reply.” Tropper §74.622 and DULAT identify the Š prefix form; written ṯ realizes the assimilated Š formative.
+# KTU 2.16 20							
+176340	rgm	rgm  	rgm/	rgm	n. m. sg. abs. acc.	d) answer (in letters)	DULAT cites this exact epistolary sense.

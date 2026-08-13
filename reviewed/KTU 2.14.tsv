@@ -1,0 +1,67 @@
+id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.14 1							
+176224	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+176225	ixwrḏn	i[[x]]wrḏn	iwrḏn/	ỉwrḏn	PN sg. abs. gen.	ỉwrḏn	
+# KTU 2.14 2							
+176226	l	l 	l(I)	l (I)	prep.	to	
+176227	iwrpḫn	iwrpḫn 	iwrp(z&ḫn/	ỉwrpzn	PN sg. abs. gen.	ỉwrpzn	DULAT attests the PN as ỉwrpzn at KTU 2.14:2; the written ḫ corresponds to its z.
+# KTU 2.14 3							
+176228	bny	bny  	bn(I)/+y	bn (I)	n. m. cstr. nom.	4) special uses a) bn(y) “my son” > a person of lower rank	DULAT punctuates the address “to PN, my son and brother, say.”
+176229	aḫy	aḫy  	aḫ(I)/+y	ảḫ (I)	n. m. cstr. gen.	3) brother > friend (formal usage in correspondence between equals)	Tropper §33.215.31 identifies aḫy at KTU 2.14:3 as the genitive suffixed form.
+176230	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. 2 m. sg.	to say	
+# KTU 2.14 4							
+176231	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
+176232	tġrk	tġrk	!t!(nġr[:w+k	/n-ġ-r/	vb G prefc. 3 m. pl. + 2 m. sg. suff.	to protect, guard	Tropper §75.42 analyses tġr-k in the letter formula as G-prefix 3 m. pl. plus object suffix.
+# KTU 2.14 5							
+176233	tšlmk	tšlmk	!t!šlm[:d:w+k	/š-l-m/	vb D prefc. 3 m. pl. + 2 m. sg. suff.	to restore / preserve health	Tropper p. 555 analyses tšlm-k in this formula as D-prefix 3 m. pl. plus object suffix.
+# KTU 2.14 6							
+176234	iky	iky  	ik~y	ỉky	interr. functor + encl. -y	what of?	Tropper §89.32 analyses iky in this line as ik plus enclitic -y.
+176235	lḥt	lḥt	lḥ(II)/t=	lḥ (II)	n. m. pl. cstr. nom.	1) missive	Tropper pp. 298, 851 analyses lḥt as a masculine plural and as the head of the construct phrase lḥt spr, “letter-tablet.”
+# KTU 2.14 7							
+176236	spr	spr  	spr(II)/	spr (II)	n. m. sg. abs. gen.	3) letter, written missive, message	DULAT directly cites lḥt spr d lỉkt at this line; Tropper §91.336 treats spr as the genitive qualifier of lḥt.
+176237	d	d 	d	d	det. or rel. functor	2) which	
+176238	likt	likt	l(ʔ&ik[t	/l-ʔ-k/	vb G suffc. 1 c. sg.	to send (a message)	
+# KTU 2.14 8							
+176239	ˤmtryl	ʿm .tryl	ˤm(I) (ṯ&tryl/	ʕm (I) | ṯryl	prep. | PN sg. abs. gen.	to | queen of Ugarit	DULAT reads two words at KTU 2.14:8, ʕm ṯryl, “to Ṯaryelli.”
+# KTU 2.14 9							
+176240	mhy	mhy  	mh~y	m(h)	pers. pn. + encl. -y	1) what?	Tropper §§44.22, 89.35 analyses mhy as the interrogative mh plus enclitic -y.
+176241	rgmt	rgmt	rgm[t===	/r-g-m/	vb G suffc. 3 f. sg.	to say, tell, announce, communicate, inform	Tropper §76.521.2 reads mhy rgmt, “what did she say?”
+# KTU 2.14 10							
+176242	w	w 	w	w	conj.	and	
+176243	ht	ht  	ht	ht	adv.	2) conj., now then, well now	DULAT cites this line under sense 2; Tropper §81.21 treats ht as the presentation particle opening a new section of a letter.
+176244	aḫy	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. nom.	3) brother > friend (formal usage in correspondence between equals)	
+# KTU 2.14 11							
+176245	bny	bny  	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
+176246	yšal	yšal	!y!š(ʔ&al[	/š-ʔ-l/	vb G prefc. 3 m. sg.	to ask, request in general	
+# KTU 2.14 12							
+176247	ṯryl	ṯryl  	ṯryl/	ṯryl	PN sg. abs. acc.	queen of Ugarit	Tropper §93.422.1 reads “my brother, my son, may ask Ṯaryelli.”
+176248	p	p 	p(I)	p (I)	conj. functor	and	DULAT cites the explanatory use at this line; Tropper §83.122f treats p as introducing the requested instruction.
+176249	rgmt	rgmt	rgm[&t:pass	/r-g-m/	vb Gpass suffc. 3 m. sg.	to be said, recited	Tropper p. 517 prefers Gpass 3 m. sg., “that my name be named.” The consonantal reading here is rgmt, while DULAT and Tropper cite rgm.
+176249	rgmt	rgmt	!!rgm[&t	/r-g-m/	vb G impv. 2 m. sg.	to say, tell, announce, communicate, inform	Tropper p. 517 alternative: G imperative, “name my name to the king.”
+176249	rgmt	rgmt	!!rgm[/&t	/r-g-m/	vb G inf.	to say, tell, announce, communicate, inform	Elijah reads an infinitive absolute; Tropper p. 517 also lists a G infinitive with finite function, “she should mention.”
+# KTU 2.14 13							
+176250	l	l 	l(I)	l (I)	prep.	to	
+176251	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king a) human sovereign in gen	
+176252	šmy	šmy	šm(I)/+y	šm (I)	n. m. cstr. acc.	name	Tropper §93.342 translates p rgm l mlk šmy, “name my name to the king.”
+# KTU 2.14 14							
+176253	w	w 	w	w	conj.	and	
+176254	l	l 	l(I)	l (I)	prep.	to	
+176255	ixytlm	i[[x]]ytlm	iytlm/	ỉytlm	PN sg. abs. gen.	ỉytlm	
+# KTU 2.14 15							
+176256	w	w 	w	w	conj.	and	
+176257	ht	ht  	ht	ht	adv.	2) conj., now then, well now	
+176258	aḫy	aḫy	aḫ(I)/+y	ảḫ (I)	n. m. cstr. nom.	brother (by blood)	
+# KTU 2.14 16							
+176259	bny	bny  	bn(I)/+y	bn (I)	n. m. cstr. nom.	son	
+176260	yšal	yšal	!y!š(ʔ&al[	/š-ʔ-l/	vb G prefc. 3 m. sg.	to ask	
+# KTU 2.14 17							
+176261	ṯryl	ṯryl  	ṯryl/	ṯryl	PN sg. abs. acc.	queen of Ugarit	
+176262	w	w 	w	w	conj.	and	
+176263	rgm	rgm	rgm/	rgm	n. m. sg. abs. acc.	answer, reply	DULAT cites w rgm ṯṯb l ảḫk under the letter sense “answer”; Tropper §93.342 treats rgm as the direct object.
+# KTU 2.14 18							
+176264	ṯṯb	ṯṯb  	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2 m. sg.	to send (word)	Tropper p. 652 analyses ṯṯb at this line as the masculine-singular Š imperative, “send back.”
+176265	l	l 	l(I)	l (I)	prep.	to	
+176266	aḫk	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. cstr. gen.	brother (by blood)	
+# KTU 2.14 19							
+176267	l	l 	l(I)	l (I)	prep.	to	
+176268	adnk	adnk	adn(I)/+k	ảdn (I)	n. m. cstr. gen.	1) lord	

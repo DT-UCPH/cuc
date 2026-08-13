@@ -17,7 +17,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 154256	tk	[tk  ]  	tk/	tk	n. m. sg. cstr. acc.	2) to	Adverbial acc. 'towards'.
 154256	tk	[tk  ]  	tk	tk	prep.	in the midst of	DULAT: tk n. 'centre', also used as prep. (EUPT: Präp.).
 154257	ḫršn	[ḫršn       ]       	ḫršn(I)/	ḫršn (I)	n. m. sg. abs. gen.	(divine) mountain	Cf. TCS n. on ḫršn/ġr. ## Migrated from legacy reviewed tokenization.
-154258	r	r  	&gr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	Cf. TCS n. on ḫršn/ġr. ## Migrated from legacy reviewed tokenization.
+154258	r	r  	(ġr(I)/	ġr (I)	n. m. sg. abs. gen.	mountain	Cf. TCS n. on ḫršn/ġr.
 154259	tḥmk	[t]ḥmk    	tḥm/+k	tḥm	n. m. cstr. nom.	message	tḥmk perhaps object of št; syntax unclear.
 154260	w	w 	w	w	conj.	and	
 154261	št	št	!!št[	/š-t/	vb G impv.	to place, set, set up, leave	DULAT cites [t]ḥmk w št here s.v. /š-t/.
@@ -244,7 +244,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.1 III:13							
 154423	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 154424	w	w 	w	w	conj.	and	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. ## Migrated from legacy reviewed tokenization.
-154425	ṯaṯnyk	[[ṯ]]aṯnyk  	&ṯ!(ʔ&a!ṯny[+k	/ṯ-n-y/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to repeat	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. ## Migrated from legacy reviewed tokenization.
+154425	ṯaṯnyk	[[ṯ]]aṯnyk  	!(ʔ&a!ṯny[+k	/ṯ-n-y/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to repeat	Compare 1.3 III:22 w aṯnyk, “and I shall repeat it to you.”
 154426		[  ]  	?	?	?	?	w+aṯnyk with intrusive ṯ (dittography?) // 1.3 III:22 w aṯnyk 'and I shall repeat it to you'. ## Migrated from legacy reviewed tokenization.
 154427	rgm	[rgm  ]  	rgm/	rgm	n. m. sg. cstr. nom.	word	rgm ˤṣ w lḫšt abn 'the word of tree and the whisper of stone'.
 154428	ˤṣ	[ʿṣ  ]  	ˤṣ/	ʕṣ	n. m. sg. abs. gen.	tree	

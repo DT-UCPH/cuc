@@ -1,0 +1,96 @@
+id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.21 1							
+176439	tḥm	[tḥm  ]  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	Diplomatic heading: “Message of the king of Amurru.”
+176440	mlk	[m]lk[  ]  	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	
+176441	amr	[a]mr	amr(III)/	ảmr (III)	TN sg. abs. gen.	Amurru	The diplomatic heading and DULAT's territorial homonym identify Amurru, not common ảmr “order.”
+# KTU 2.21 2							
+176442	lmlkt	[l .]mlkt    	l(I) mlk(t/t	l (I) | mlkt	prep. | n. f. sg. cstr. gen.	to | queen	
+176443	ugrt	ug[rt]	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	DULAT cites mlkt ủgrt, “queen of Ugarit.”
+# KTU 2.21 3							
+176444	aḫty	[a]ḫty    	aḫ(t(I)/t+y	ảḫt (I)	n. f. sg. cstr. gen. + 1 c. sg. suff.	my sister, peer	Formal address between royal women; DULAT directly cites this letter under “sister > friend.”
+176445	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. 2 f. sg.	to say	Epistolary directive to the queen: “my sister, say”; the feminine addressee supplies agreement.
+# KTU 2.21 4							
+176446	yšlm	[y]šlm    	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg. juss.	to be well	Tropper translates the standard greeting “may it be well with you.”
+176447	lk	lk	l(I)+k=	l (I)	prep. + 2 f. sg. suff.	with you	Pronominal complement of the greeting; the addressee is the queen.
+# KTU 2.21 5							
+176448	ilm	[i]lm    	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	gods	Plural subject of the two blessing verbs (Tropper; epistolary formula).
+176449	tšlmk	tšlmk	!t!šlm[:d:w+k=	/š-l-m/	vb D prefc. 3 m. pl. juss. + 2 f. sg. suff.	to restore or preserve health	“The gods grant you well-being”; agreement and feminine object follow the same formula in KTU 2.11, 2.13, and 2.16.
+# KTU 2.21 6							
+176450	tġrk	[t]ġrk	!t!(nġr[:w+k=	/n-ġ-r/	vb G prefc. 3 m. pl. juss. + 2 f. sg. suff.	to protect	Parallel blessing verb with plural gods as subject and the queen as feminine object; root-initial n is assimilated.
+# KTU 2.21 7							
+176451	hlny	hlny  	hlny	hlny	deictic adv. functor	behold	DULAT directly cites hlny before the named subject Ibrakḏ.
+176452	ibrkḏ	ibrkḏ	ibrkḏ/	ỉbrkḏ	PN m. sg. abs. nom.	Ibrakḏ	Named subject of rgm; DULAT directly attests the personal name in this line.
+# KTU 2.21 8							
+176453	mkry	mkry  	mkr/+y	mkr	n. m. sg. cstr. nom. + 1 c. sg. suff.	my merchant	DULAT and Singer read “Ibrakḏ, my merchant.”
+176454	rgm	rgm  	rgm[	/r-g-m/	vb G suffc. 3 m. sg.	to say, report	DULAT directly cites hlny PN rgm l skn with Ibrakḏ as subject.
+176455	l	l 	l(I)	l (I)	prep.	to	
+176456	skn	skn 	skn(I)/	s:śkn (I)	n. m. sg. cstr. gen.	manager, prefect	DULAT directly identifies the administrator; construct head before gt.
+176457	gt	gt 	g(t/t	gt	n. f. sg. cstr. gen.	farmstead, vineyard estate	DULAT's “farmstead (press) of” and Singer's “vineyard” identify the queen's estate, governed through the construct chain.
+# KTU 2.21 9							
+176458	mlkt	mlkt  	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	Possessor of the estate and construct head before Ugarit.
+176459	ugrt	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+# KTU 2.21 10							
+176460	hnkt	hnkt  	hnk&t	hnk(t)	dem. f. sg. abs. acc.	this, the following	Accusative object of rgmt: “the queen of Ugarit said the following.” Cunchillos argues explicitly for this pronominal function; Tropper also retains it alongside an adverbial interpretation.
+176461	rgmt	rgmt	rgm[t===	/r-g-m/	vb G suffc. 3 f. sg.	to say	The queen is the explicit feminine singular subject; Tropper cites the clause as a finite feminine suffix-conjugation example.
+# KTU 2.21 11							
+176462	iky	iky  	iky	ỉky	interr. functor	why, how	Tropper §§81.63b, 89.32 treats -y as the prose particle extension.
+176463	l	l  	l(II)	l (II)	adv.	no, not	Negates the following 1cs prefix verb; DULAT directly cites ỉky l ỉlảk.
+176464	ilak	ilak	!(ʔ&i!l(ʔ&ak[	/l-ʔ-k/	vb G prefc. 1 c. sg. juss.	to send a message	Tropper analyses /ʾilʾak-/ 1cs: “why should I not send”; both written vowel letters are kept distinct from the lexical alephs.
+# KTU 2.21 12							
+176465	ˤtn	ʿtn  	ˤ(n&t)(t&n)(II)	ʕnt (II)	adv.	now	DULAT adverb “now”; paired substitution records the attested metathesis ʕtn against lexical ʕnt while reconstructing the surface.
+176466	ˤmy	ʿmy	ˤm(I)+y	ʕm (I)	prep. + 1 c. sg. suff.	to me, with me	DULAT directly cites the suffixed preposition in this passage.
+# KTU 2.21 13							
+176467	kl	[kl  ]  	kl/	kl	n. m. sg. abs. nom.	everything, totality	
+176468	šlm	šlm  	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	Possible finite predicate: “everything is well”; DULAT supports the G well-being idiom.
+176468	šlm	šlm  	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	well-being, peace	
+176469	w	w  	w	w	conj.	and	
+176470	lm	lm	lm(II)	lm (II)	interr. pn.	why, what for	Tropper §81.64 lists this line among probable causal-interrogative lm passages.
+# KTU 2.21 14							
+176471	xxxk	[xx]xk    	?	?	?	?	
+176472	ˤmk	ʿmk	ˤm(I)+k=	ʕm (I)	prep. + 2 f. sg. suff.	with you, from you	Tropper cites the ordinary suffixed preposition ʕm-k; the queen is the feminine singular addressee.
+# KTU 2.21 15							
+176473	xxšlm	[xx]šlm    	?	?	?	?	DULAT and Tropper tentatively restore a D-stem “pay,” but do not account for the entire written sequence.
+176474	kspy	kspy	ksp/+y	ksp	n. m. sg. cstr. acc. + 1 c. sg. suff.	my silver	DULAT cites the phrase ]šlm kspy.
+# KTU 2.21 16							
+176475	ṯṯ	ṯṯ  	ṯṯ/	ṯṯ	num. c.	six	Multiplier in the directly attested expression “six hundred.”
+176476	mat	mat  	m(i&at/	mỉt	n. f. pl. abs. acc.	hundreds	DULAT identifies the plural numeral noun “hundreds”; lexical i is represented by written a. The phrase is the likely object of “pay.”
+176477	ˤmnkm	ʿmnkm	ˤm(I)~n+km	ʕm (I)	prep. + encl. -n + 2 m. pl. suff.	from you, with you	DULAT directly cites ʕmnkm; n extends the prepositional base and -km addresses the queen's group.
+# KTU 2.21 17							
+176478	w	w  	w	w	conj.	and	
+176479	l	l  	l(II)	l (II)	adv.	no, not	Tropper's collation reads a negated verb after w.
+176480	atnnk	atnnk	?	?	?	?	Tropper, following Pardee, rejects KTU's atnnk and reads ttnn.nn, /y-t-n/ G-prefix 2 m. pl., “you will give it.” The tablet's five-sign reading cannot reconstruct the proposed six-sign collation.
+# KTU 2.21 18							
+176481	w	w  	w	w	conj.	and	
+176482	l	l  	l(I)	l (I)	prep.	to	Governs mlkm.
+176483	mlkm	mlkm	mlk(I)/m	mlk (I)	n. m. pl. abs. gen.	kings	Human rulers in a diplomatic/payment context. DULAT's broader entry also discusses deified dead kings, but Burns's catalogue alone does not justify DN encoding here.
+# KTU 2.21 19							
+176484	lxxxldk	l[xxx]ldk	?	?	?	?	
+# KTU 2.21 20							
+176485	hxxxxm	h[xxx]xm	?	?	?	?	
+# KTU 2.21 21							
+176486	txxxxx	tx[xxxx]    	?	?	?	?	
+176487	titṯm	titṯm	!t!(ʔ&i]t]ṯm[	/ʔ-ṯ-m/	vb Gt prefc. 3 f. sg.	to fall into debt, remain indebted	Tropper §§33.141.42 and 74.232.21 analyses Gt /ʔ-t-ṯ-m/ and permits either 3fs or direct-address 2fs.
+176487	titṯm	titṯm	!t==!(ʔ&i]t]ṯm[	/ʔ-ṯ-m/	vb Gt prefc. 2 f. sg.	to fall into debt, remain indebted	
+# KTU 2.21 22							
+176488	hxxxxxb	h[xxxxx]b    	?	?	?	?	
+176489	ḫt	ḫt	ḫt/	ḫt	TN sg.	Hatti	DULAT directly registers the toponym ḫt at this line.
+176489	ḫt	ḫt	ḫt[	/ḫ-t(-t)/	vb G suffc. 3 m. sg.	to break, yield	DULAT also attests the verbal root /ḫ-t(-t)/.
+# KTU 2.21 23							
+176490	bxxxxxtlk	b[xxxxx]tlk	?	?	?	?	Tropper tentatively relates tlk to /h-l-k/, but does not account for the entire written sequence.
+# KTU 2.21 24							
+176491	xxxxxxtitṯm	[xxxxxx]titṯm	?	?	?	?	Tropper may read titṯm as another Gt /ʔ-ṯ-m/, but does not account for the entire written sequence.
+# KTU 2.21 25							
+176492	xxxxxxm	[xxxxxx]m	?	?	?	?	
+# KTU 2.21 26							
+176493	xxxxxx	[xxxxxx]	?	?	?	?	
+# KTU 2.21 27							
+176494	xxxxxx	[xxxxxx]	?	?	?	?	
+# KTU 2.21 28							
+176495	xxxxxxy	[xxxxxx]y	?	?	?	?	
+# KTU 2.21 29							
+176496	xxxxxxxt	[xxxxxxx]t	?	?	?	?	
+# KTU 2.21 30							
+176497	xxxxxxxx	[xxxxxxx]x	?	?	?	?	
+# KTU 2.21 31							
+176498	w	w  	w	w	conj.	and	
+176499	hxx	hxx[    ]    	?	?	?	?	

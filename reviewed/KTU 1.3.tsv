@@ -47,7 +47,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155742	ks	ks  	ks(I)/	ks (I)	n. m. sg. abs. acc.	cup	Object: 'he placed a cup in his hand' (DULAT).
 155743	bdh	bdh	bd(IV)+h	bd (IV)	prep.	1) into the hands of	
 # KTU 1.3 I:11							
-155744	krpmnm	krp[[m]]nm    	krp&mn/~m	krpn	n. m. sg. abs. acc. + encl. -m	cup, goblet	krpnm = krpn + -m (II) (DULAT); scribal krpmnm.
+155744	krpmnm	krp[[m]]nm    	krpn/~m	krpn	n. m. sg. abs. acc. + encl. -m	cup, goblet	DULAT analyses krpn plus enclitic -m (II).
 155745	b	b 	b	b	prep.	1) spatial location c) goal of movement or action	
 155746	klat	klat  	kla(t/t	klảt(n)	n. f. du. cstr. gen.	both	b klat ydh 'in both his hands' (DULAT klảt(n)).
 155747	ydh	ydh	yd/+h	yd (I)	n. f. sg. cstr. gen. + 3 m. sg. suff.	1) hand a) yrḥṣ ydh ảmth he washed his hands up to the elbow	
@@ -64,7 +64,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155755	qdš	qdš	qdš(I)/	qdš (I)	adj. m. sg. abs. acc.	1) holy	
 # KTU 1.3 I:14							
 155756	l	l 	l(II)	l (II)	adv.	no	or (III) for precative
-155757	tpphnh	tp[[p]]hnh    	!t!p&ph(y[n+h	/p-h-y/	vb G prefc. 3 f. pl. + 3 m. sg. suff.	to see, espy	are there 2 p's? probably 3fem plur
+155757	tpphnh	tp[[p]]hnh    	!t!ph(y[n+h	/p-h-y/	vb G prefc. 3 f. pl. + 3 m. sg. suff.	to see, espy	
 155758	aṯt	aṯt  	aṯ(t/t=	ảṯt	n. f. pl. abs. nom.	1) woman	looks like plur
 155759	krpn	krpn	krpn/	krpn	n. m. sg. abs. acc.	cup	krpn l tˤn aṯrt 'a goblet Athirat may not eye' (fronted object).
 # KTU 1.3 I:15							
@@ -104,7 +104,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155786	ṣrrt	ṣrrt	ṣrr(t/t=	ṣrrt	n. f. pl. cstr. gen.	height(s)	the dictionary says it is plural
 # KTU 1.3 I:22							
 155787	ṣpn	ṣpn  	ṣpn/	ṣpn	TN/DN sg. abs. gen.	Ṣapānu/Zaphon/the mountain dwelling of bʕl deified	
-155788	ymtmr	y[[m]]tmr    	!y!&m]t](ʔmr[	/ʔ-m-r/	vb Gt prefc. 3 m. sg.	to be seen, appear	DULAT reads y[[m]]tmr (first m scribally erased): 'Baal looked at his daughters' — confirms the suspicion about the m.
+155788	ymtmr	y[[m]]tmr    	!y!]t](ʔmr[	/ʔ-m-r/	vb Gt prefc. 3 m. sg.	to be seen, appear	DULAT interprets the form as “Baal looked at his daughters.”
 155789	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.3 I:23							
 155790	bnth	bnth  	b&n(t/t=+h	bt (I)	n. f. pl. cstr. acc. + 3 m. sg. suff.	daughter	Object of ytmr; n is part of the root (Tania).
@@ -166,8 +166,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155833	b	b 	b	b	prep.	1) spatial location a) place in which something occurs	
 155834	ˤmq	ʿmq  	ˤmq(I)/	ʕmq (I)	n. m. sg. abs. gen.	1) valley a) w hln tmtḫṣ b ʕmq and then DN fought in the valley	
 155835	tḫtṣb	tḫtṣb  	!t!ḫ]t]ṣb[	/ḫ-ṣ-b/	vb Gt prefc. 3 f. sg.	to fight	tḫtṣb 'she does battle'.
-155836	bn	bn 	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	bnx: bn + broken sign (Tania bn+x). ## Migrated from legacy reviewed tokenization.
-155837	x	[[x]]	?	?	?	?	bnx: bn + broken sign (Tania bn+x). ## Migrated from legacy reviewed tokenization.
+155836	bn	bn 	bn(I)/	bn (I)	n. m. sg. abs. gen.	son	Tania reads bn+x.
+155837	x	[[x]]	?	?	?	?	
 # KTU 1.3 II:7							
 155838	qrytm	qrytm 	qry(t/tm	qryt	n. f. du. abs. gen.	city	dual of qryt (Tania); DULAT: 'between the (two) cities'.
 155839	tmḫṣ	tmḫṣ  	!t!mḫṣ[	/m-ḫ-ṣ/	vb G prefc. 3 f. sg.	to wound, beat, crush, kill	
@@ -202,7 +202,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155862	l	l 	l(I)	l (I)	prep.	to	
 155863	bmth	bmth  	bm(t/t+h=	bmt	n. f. sg. cstr. gen.	1) back	
 155864	šnst	šnst  	šns[t:d	/š-n-s/	vb D suffc. 3 f. sg.	to gird (oneself)	
-155865	kx	[[kx]]	kx	?	?	?	?
+155865	kx	[[kx]]	?	?	?	?	
 # KTU 1.3 II:13							
 155866	kpt	kpt  	kp/t=	kp	n. f. pl. abs. acc.	1) palm (of hand)	Object of šnst: 'she girded palms at her waist' (DULAT).
 155867	b	b 	b	b	prep.	1) spatial location a) place in which something occurs	
@@ -273,7 +273,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155921	tḥdy	tḥdy  	!t!ḥdy[	/ḥ-d-y/	vb G prefc. 3 f. sg.	to see, look, observe	
 155922	ˤnt	ʿnt	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. nom.	ʿAnatu/Anat	
 # KTU 1.3 II:25							
-155923	tdġdd	t[[d]]ġdd    	!t!&dġdd[:d	/ġ-d-d/	vb D prefc. 3 f. sg.	to swell	typo remove first d
+155923	tdġdd	t[[d]]ġdd    	!t!ġdd[:d	/ġ-d-d/	vb D prefc. 3 f. sg.	to swell	
 155924	kbdh	kbdh  	kbd(I)/+h=	kbd (I)	n. f. sg. cstr. nom. + 3 f. sg. suff.	2) innards	DULAT: 'her liver swelled with laughter'.
 155925	b	b 	b	b	prep.	3) relationship of cause or reason	
 155926	ṣḥq	ṣḥq  	ṣḥq/	ṣḥq	n. m. sg. abs. gen.	laughter	
@@ -293,7 +293,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 155937	b	b 	b	b	prep.	in	
 155938	dm	dm	dm(II)/	dm (II)	n. m. sg. abs. gen.	blood	
 # KTU 1.3 II:28							
-155939	ḏxxmr	ḏ[[xx]]mr    	ḏxxmr	?	?	?	
+155939	ḏxxmr	ḏ[[xx]]mr    	?	?	?	?	No analysis of the edited reading ḏmr is supported by Tania, DULAT, or EUPT.
 155940	ḥlqm	ḥlqm  	ḥlq/m	ḥlq	n. m. du. abs. acc.	part	
 155941	b	b 	b	b	prep.	in	
 155942	mmˤ	mmʿ  	mmˤ/	mmʕ	n. m. pl. cstr. gen.	gore	
@@ -387,8 +387,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 III:2							
 156012	ẓuh	ẓuh  	ẓu/+h=	ẓủ	n. m. sg. cstr. nom. + 3 f. sg. suff.	exhalation	Subject: 'whose exhalation is (noticeable) in the sea' (DULAT ẓủ).
 156013	b	b 	b	b	prep.	in	
-156014	ym	ym[ ] 	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	DULAT quote in ẓủ (cue: sea) ## Migrated from legacy reviewed tokenization.
-156015	xxxxxx	[xxxxxx]	?	?	?	?	## Migrated from legacy reviewed tokenization.
+156014	ym	ym[ ] 	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	DULAT quote in ẓủ (cue: sea)
+156015	xxxxxx	[xxxxxx]	?	?	?	?	
 # KTU 1.3 III:3							
 156016	xxxrn	[xxx]rn    	xxxrn	?	?	?	
 156017	lxxxxxx	l[xxxxxx]	lxxxxxx	?	?	?	
@@ -430,7 +430,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156045	pˤn	pʿn  	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
 156046	ˤnt	ʿnt  	ˤn(t(I)/t	ʕnt (I)	DN f. sg. abs. gen.	ʿAnatu/Anat	
 156047	hbr	hbr  	!!hbr[	/h-b-r/	vb G impv. m. du.	to bow	
-156048	w	[[w]]	w	w	conj.	and	DOUBLE REMOVE ONE w??
+156048	w	[[w]]	?	?	?	?	
 # KTU 1.3 III:10							
 156049	w	w 	w	w	conj.	and	
 156050	ql	ql  	!!ql[	/q-l/	vb G impv. m. du.	to fall (down)	Impv. (// 1.1 III:3).
@@ -455,7 +455,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156064	aliyn	aliyn  	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
 156065	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 156066	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
-156067	xx	[[xx]]	xx	?	?	?	
+156067	xx	[[xx]]	?	?	?	?	
 # KTU 1.3 III:14							
 156068	aliy	aliy  	aliy/	ảlỉy	adj. m. sg. cstr. gen.	The Most Powerful	
 156069	qrdm	qrdm  	qrd(I)/m	qrd (I)	n. m. pl. abs. gen.	hero	hwt aliy qrdm 'the word of the Mightiest of heroes' (DULAT).
@@ -503,7 +503,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156099	ly	ly  	l(I)+y	l (I)	prep.	7) of belonging ((not) being of, (not) having) b) with vb functor	
 156100	w	w  	w	w	conj.	and	
 156101	argmk	argmk  	!(ʔ&a!rgm[+k	/r-g-m/	vb G prefc. 1 c. sg. + 2 f. sg. suff.	to say	
-156102	xx	[[xx]]	xx	?	?	?	
+156102	xx	[[xx]]	?	?	?	?	
 # KTU 1.3 III:22							
 156103	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. abs. nom.	word	
 156104	w	w  	w	w	conj.	and	
@@ -514,7 +514,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156108	w	w  	w	w	conj.	1) copulative conj.	
 156109	lḫšt	lḫšt  	lḫš(t/t	lḫšt	n. f. sg. cstr. nom.	chatter	
 156110	abn	abn  	abn/	ảbn	n. f. sg. abs. gen.	1) stone a) k ảbnm l tỉggn like stones which do /do not/ murmur	EUPT genders m.
-156111	ˤ	[[ʿ]]	ˤ	?	?	?	WHAT IS TIS? error to be erazed
+156111	ˤ	[[ʿ]]	?	?	?	?	
 # KTU 1.3 III:24							
 156112	tant	tant  	tan(t/t	tả/ủnt	n. f. sg. cstr. nom.	whispering, conversation, groaning	tant šmm ˤm arṣ 'the whispering of the heavens with the earth' (DULAT tả/ủnt — entry exists; earlier ? was wrong).
 156113	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl. abs. nom.	1) heavens	
@@ -854,8 +854,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156376	šdm	[š]dm    	šd(I)/m	šd (I)	n. m. pl. abs. gen.	open field	
 156377	yšt	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place, set, set up, leave	
 # KTU 1.3 IV:26							
-156378	b	b[ ] 	b	b	prep.	in	bšmm 'in the heavens' (Tania b+šmm). ## Migrated from legacy reviewed tokenization.
-156379	šmm	[šmm]    	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	bšmm 'in the heavens' (Tania b+šmm). ## Migrated from legacy reviewed tokenization.
+156378	b	b[ ] 	b	b	prep.	in	bšmm 'in the heavens' (Tania b+šmm).
+156379	šmm	[šmm]    	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	bšmm 'in the heavens' (Tania b+šmm).
 156380	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 156381	mdlh	mdlh  	mdl(II)/+h	mdl (II)	n. m. sg. cstr. acc. + 3 m. sg. suff.	perhaps a meteor	yšt […] bˤl mdlh, in parallel with [q]rnh "his horn", which is part of why a physical object is proposed. Same disputed word as 1.5 V:7. DULAT leaves the word open — "perhaps a meteor", etymology uncertain, no obvious connection with mdl (I) — and lists the proposals: Good UF 16 1984 80f. "lightning (?)"; Caquot-Sznycer TOu/1 170 "foudre" ("lightning"); Cazelles Maarav 5/6 1990 49ff. "corde, fouet" ("rope, whip"); Pardee CS/1 253 n. 95 "watering device", from *dly; Wiggins UF 32 2000 581, 585 "an atmospheric phenomenon".
 156382	ybˤr	ybʿr	!y!bˤr(I)[	/b-ʕ-r/ (I)	vb G prefc. 3 m. sg.	1) to ignite	
@@ -986,8 +986,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156486	xxxxxxxx	[xxxxxxxx]	xxxxxxxx	?	?	?	
 # KTU 1.3 IV:47							
 156487	bt	bt   	bt(II)/	bt (II)	n. m. sg. abs. nom.	house	line 47 p281
-156488	l	l[ ] 	l(I)	l (I)	prep.	to	lbˤl 'to Baal' (Tania l+bˤl). ## Migrated from legacy reviewed tokenization.
-156489	bˤl	[bʿl  ]  	bˤl(II)/	bʕl (II)	DN m. sg. gen.	Baʿlu/Baal	lbˤl 'to Baal' (Tania l+bˤl). ## Migrated from legacy reviewed tokenization.
+156488	l	l[ ] 	l(I)	l (I)	prep.	to	lbˤl 'to Baal' (Tania l+bˤl).
+156489	bˤl	[bʿl  ]  	bˤl(II)/	bʕl (II)	DN m. sg. gen.	Baʿlu/Baal	lbˤl 'to Baal' (Tania l+bˤl).
 156490	km	[km  ]  	km	km	prep./conj./adv.	like	
 156491	ilm	[ilm  ]  	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 156492	w	[w ] 	w	w	conj.	and	
@@ -1045,7 +1045,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156533	aṯb	[aṯb]	!(ʔ&a!ṯb[	/ṯ-b/	vb G prefc. 1 c. sg.	to return, turn round, go back, make one’s way, go through	w lh aṯb 'and I shall reply to him' (// tṯb IV:21).
 # KTU 1.3 V:1							
 156534	xxx	[xxx]  	xxx	?	?	?	
-156535	amṣḫnn	amṣḫ{.}nn    	?	?	?	?	Suffix of amṣḫ(nn) 'I drag him'; DULAT reads [i]mṣḥnn. ## Tania: keep this token separate rather than joining it to the preceding one. DULAT: NOT FOUND Migrated from legacy reviewed tokenization.
+156535	amṣḫnn	amṣḫ{.}nn    	?	?	?	?	DULAT reads [i]mṣḥnn; Tania reads amṣḫ(nn), “I drag him.”
 156536	k	k 	k	k (I)	prep.	like	
 156537	imr	imr  	imr(I)/	ỉmr (I)	n. m. sg. abs. gen.	lamb	
 156538	l	l 	l(I)	l (I)	prep.	to	
@@ -1107,11 +1107,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156585	ḏdm	ḏdm  	ḏd(II)/m	ḏd (II)	n. m. pl. abs. acc.	grotto	SUFFIX? (Tania).
 156586	qny	qny[  ]  	qny[/	/q-n-y/	vb G act. ptcpl. m. sg. abs. gen.	to acquire	active participle, Corrected text, SMITH p 325 line 9: tatanniyu
 156587	w	[w ] 	w	w	conj.	and	
-156588	adnbn	adn .b[n ] 	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
+156588	adnbn	adn .b[n ] 	?	?	?	?	
 156589	ilm	[i]lm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.3 V:10							
 156590	qlh	qlh  	ql(I)/+h=	ql (I)	n. m. sg. cstr. acc. + 3 f. sg. suff.	1) voice	Object of yšˤmˤ (DULAT: 'the Bull El heard her voice').
-156591	yšˤmˤ	yš[[ʿ]]mʿ    	!y!š&ˤmˤ[	/š-m-ʕ/	vb G prefc. 3 m. sg.	to hear, listen (to), notice	CORRECT? MIDDLE ˤ
+156591	yšˤmˤ	yš[[ʿ]]mʿ    	!y!šmˤ[	/š-m-ʕ/	vb G prefc. 3 m. sg.	to hear, listen (to), notice	
 156592	ṯr	ṯr  	ṯr(I)/	ṯr (I)	n. m. sg. cstr. nom.	bull	
 156593	il	[i]l    	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	
 156594	abh	abh  	ab/+h=	ảb	n. m. sg. cstr. gen. + 3 f. sg. suff.	father	
@@ -1193,10 +1193,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156654	b	b 	b	b	prep.	in	
 156655	gdlt	gdlt  	gdl(t(II)/t	gdlt (II)	n. f. sg. cstr. gen.	power	Page 326 Line 23
 156656	arkty	arkty  	ark(t/t+y	ảrkt	n. f. sg. cstr. gen. + 1 c. sg. suff.	length (of arm, etc.)	
-156657	amḫṣ	amḫṣ 	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
-156658	xxx	[xxx]	?	?	?	?	## Migrated from legacy reviewed tokenization.
+156657	amḫṣ	amḫṣ 	!(ʔ&a!mḫṣ[:d	/m-ḫ-ṣ/	vb D prefc. 1 c. sg.	to wound, beat, crush, kill	DULAT cites /m-ḫ-ṣ/ here; EUPT reads D-PKL 1 c. sg., “I will smash.”
+156658	xxx	[xxx]	?	?	?	?	
 # KTU 1.3 V:24							
-156659	qdqdhk	qdqd[[h]]k    	qdqd&h/+k	qdqd	n. m. sg. cstr. gen. + 2 m. sg. suff.	skull	Extra h? Not in Smith p 326 line 23 (Tania).
+156659	qdqdhk	qdqd[[h]]k    	qdqd/+k	qdqd	n. m. sg. cstr. gen. + 2 m. sg. suff.	skull	Smith p. 326 line 23 and Tania read qdqdk.
 156660	ašhlk	ašhlk  	!(ʔ&a!]š]hlk[	/h-l-k/	vb Š prefc. 1 c. sg.	to cause to run, flow	
 156661	šbtk	šbtk [ ]  	šb(t/t+k	šbt	n. f. sg. cstr. acc. + 2 m. sg. suff.	greyness > old age	EUPT genders m.
 156662	dmm	[dmm]	dm(II)/~m	dm (II)	n. m. sg. abs. acc. + encl. -m	blood	
@@ -1340,7 +1340,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 V:49							
 156770		[                            ]                            		?	?	?	
 # KTU 1.3 V:50							
-156771		[                           ]                           	?	?	?	?	## Migrated from legacy reviewed tokenization.
+156771		[                           ]                           	?	?	?	?	
 156772	arṣ	[a]rṣ	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
 # KTU 1.3 V:51							
 156773	x	[                             ]x	x	?	?	?	
@@ -1351,12 +1351,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156777	aṯrt	aṯrt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
 # KTU 1.3 VI:2							
 156778	ym	[y]m    	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
-156779	mġẓ	mġẓ  	mġẓ/	mġẓ	n. m. sg. cstr. gen.	present	mgn ... mġẓ 'the entreating..., the beseeching of the Creatress' (parallel).
+156779	mġẓ	mġẓ  	mġẓ/	mġẓ	n. m. sg. cstr. nom.	present	Nominative parallel to mgn; EUPT likewise reads Nom. m. sg.
 156780	qnyt	qnyt  	qny[/t	/q-n-y/	vb G act. ptcpl. f. sg. cstr. gen.	to acquire	Verb q-n-y participle (Tania): 'the Creatress of the gods'.
 156781	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 # KTU 1.3 VI:3							
 156782	w	w 	w	w	conj.	and	
-156783	tn	tn 	!!(ytn[	/y-t-n/	vb G impv. m. sg.	give	imperative, or !(t!(ytn[ (Tania).
+156783	tn	tn 	!(t!(ytn[	/y-t-n/	vb G prefc. 3 f. sg.	to give	EUPT reads G-PKL 3 f. sg.; the subject is Athirat: 'that she may give a house to Baal'.
+156783	tn	tn 	!!(ytn[	/y-t-n/	vb G impv. m. sg.	to give	Tania reads an imperative; retained as an alternative.
 156784	bt	bt  	bt(II)/	bt (II)	n. m. sg. abs. acc.	house	
 156785	l	l 	l(I)	l (I)	prep.	to	
 156786	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
@@ -1366,10 +1367,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156789	w	w 	w	w	conj.	and	
 156790	ḥẓr	ḥẓr  	ḥẓr/	ḥẓr	n. m. sg. abs. acc.	mansion	
 156791	k	k 	k(I)	k (I)	prep.	like, as	
-156792	bn	bn	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	
+156792	bn	bn	bn(I)/	bn (I)	n. m. pl. cstr. gen.	son	EUPT reads the unmarked construct plural: 'like the sons of Athirat'.
 # KTU 1.3 VI:5							
 156793	aṯrt	aṯrt  	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. gen.	ʾAṯiratu/Athirat/Asherah/El’s wife	
-156794	gm	gm  	g/~m	g	n. m. sg. abs. + encl. -m	(loud) voice	Tania: 'voice'
+156794	gm	gm  	g/~m	g	n. m. sg. abs. acc. + encl. -m	(loud) voice	EUPT reads accusative masculine singular with enclitic -m, “aloud.”
 156795	l	l 	l(I)	l (I)	prep.	to	
 156796	ġlmh	ġlmh	ġlm/+h	ġlm	n. m. du. cstr. gen. + 3 m. sg. suff.	boy	gm l ġlmh 'aloud to his (two) lads' (// 1.4 VII:52).
 # KTU 1.3 VI:6							
@@ -1380,25 +1381,26 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.3 VI:7							
 156801	w	w 	w	w	conj.	and	
 156802	ugr	ugr  	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
-156803	bn	bn  	bn(I)/	bn (I)	n. m. du. cstr. nom.	son	Vocative apposition: 'sons of darkness'.
-156803	bn	bn  	bn(II)	bn (II)	prep.	son	EUPT: bn (II) prep. 'between'.
+156803	bn	bn  	b~n	b	prep. + encl. -n	in	DULAT analyzes the 1.4 VII:55 parallel bn ġlmt under b, “in thick fog”; EUPT likewise reads the preposition “in darkness.” Tania's blank-slate review reads bn (I) “son,” rejected here against the parallel and EUPT.
 156804	ġlmt	ġlmt	ġlm(t(II)/t	ġlmt (II)	n. f. sg. abs. gen.	concealment	
 # KTU 1.3 VI:8							
-156805	ˤmm	ʿmm 	ˤm(II)/~m	ʕm (II)	n. m. sg. cstr. nom. + encl. -m	lineage, ancestors	ˤmm ym 'kin of the day(?)' — obscure epithet.
-156806	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	
-156807	bn	bn  	bn(I)/	bn (I)	n. m. du. cstr. nom.	son	or b~n (preposition) (Tania).
-156807	bn	bn  	bn(II)	bn (II)	prep.	son	EUPT: bn (II) prep. 'between'.
+156805	ˤmm	ʿmm 	ˤmm[:pass	/ʕ-m-m/	vb Gpass suffc. 3 m. sg.	to be covered, dark	DULAT lists ʕmm as G-passive suffix conjugation; EUPT reads the clause 'the sea is wrapped in darkness' (but labels the voice G).
+156805	ˤmm	ʿmm 	ˤm(II)/~m	ʕm (II)	n. m. sg. cstr. nom. + encl. -m	lineage, ancestors	Tania reads ˤmm ym as the obscure epithet 'kin of the day'; retained with the following ym (I) option.
+156806	ym	ym  	ym(II)/	ym (II)	n. m. sg. abs. nom.	sea	EUPT reads ym (II), nominative masculine singular.
+156806	ym	ym  	ym(I)/	ym (I)	n. m. sg. abs. gen.	day	Tania's alternative, paired with the nominal ˤm (II) option on the preceding token.
+156807	bn	bn  	b~n	b	prep. + encl. -n	in	Tania explicitly notes b~n as an alternative; EUPT reads “in darkness,” parallel to DULAT's analysis of bn ġlmt under preposition b at 1.4 VII:55.
 156808	ẓlmt	ẓlm[t]	ẓlm(t/t	ẓlmt	n. f. sg. abs. gen.	darkness	
 # KTU 1.3 VI:9							
-156809	rmt	rmt  	rm(I)/t	rm (I)	adj. f. sg. abs. nom.	high	
-156810	prˤt	prʿt  	prˤ(t/t=	prʕt	n. f. pl. cstr. nom.	height	
-156811	ibr	ibr[  ]  	ibr(II)/	ỉbr (II)	n. m. sg. cstr. gen.	wing	? (Tania); DULAT cites ỉbr (II) 'wing' at the 1.4 VII:56 parallel.
+156809	rmt	rmt  	rm(I)/t=	rm (I)	adj. f. pl. abs. nom.	high	EUPT reads the feminine plural adjective; /t= encodes the written feminine-plural ending.
+156810	prˤt	prʿt  	prˤ(t/t=	prʕt	n. f. pl. abs. nom.	height	EUPT reads Nom. f. pl.; the lexical final -t and plural ending overlap in the written t.
+156811	ibr	ibr[  ]  	ibr(II)/	ỉbr (II)	n. m. pl. cstr. gen.	wing	DULAT lists ỉbr (II) as a construct plural and cites the 1.4 VII:56 parallel.
 156812	mnt	[mnt]	mn(t(I)/t	mnt (I)	n. f. sg. abs. gen.	portion	??
 # KTU 1.3 VI:10							
-156813	ṣḥrrm	ṣḥrrm  	ṣḥrr[~m	/ṣ-ḥ-r-r/	vb G suffc.	to roast	??
+156813	ṣḥrrm	ṣḥrrm  	ṣḥrr[~m	/ṣ-ḥ-r-r/	vb G suffc. 3 m. sg. + encl. -m	to roast	EUPT reads G-SK 3 m. sg. + enclitic -m; DULAT confirms suffix conjugation with enclitic -m but leaves person open.
 156814	ḥblm	ḥblm	ḥbl(I)/m	ḥbl (I)	n. m. pl. abs. nom.	cord	
 # KTU 1.3 VI:11							
 156815	ˤrpt	ʿrpt  	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
+156815	ˤrpt	ʿrpt  	ˤrp(t/t	ʕrpt	n. f. sg. abs. gen.	cloud	EUPT reads feminine singular; DULAT lists both singular and plural forms, so this remains an alternative.
 156816	tḥt	tḥt  	tḥt(I)	tḥt (I)	prep.	under	
 156817	x	x[   ]   	x	?	?	?	
 # KTU 1.3 VI:12							
@@ -1407,27 +1409,28 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156820	ḥxx	ḥ[xx ] 	ḥxx	?	?	?	
 156821	tb	[t]b	tb	?	?	?	
 # KTU 1.3 VI:13							
-156822	glṯ	glṯ  	glṯ/	glṯ	n. m. sg. abs. nom.	storm	
-156823	isr	isr[  ]  	isr	?	?	?	not in the dictionary,  perhaps root ʔ-s-r 'tie'
+156822	glṯ	glṯ  	glṯ/	glṯ	n. m. sg. abs. gen.	storm	EUPT reads b glṯ, “in a (snow-)storm,” with the genitive.
+156822	glṯ	glṯ  	glṯ/	glṯ	n. m. sg. abs. nom.	storm	Tania independently reads the nominative.
+156823	isr	isr[  ]  	isr/	?	n. m. sg. cstr. nom.	band	EUPT reads Nom. m. sg. construct 'band'; no matching DULAT lexeme is known, and Tania left the token unresolved (possibly /ʔ-s-r/ 'bind').
 156824	b	[b ] 	b	b	prep.	in	
 156825	rišk	[r]išk	riš(I)/+km	rỉš (I)	n. m. sg. cstr. gen. + 2 m. pl. suff.	head	MERGE WITH THE NEXT: rišk+m = riškm 'your (pl.) head'.
 # KTU 1.3 VI:14							
 156826	m	m  	riš(I)/+km	rỉš (I)	n. m. sg. cstr. gen. + 2 m. pl. suff.	head	MERGE WITH THE PREVIOUS.
-156827	brqmbn	brq[m .]bn    	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
-156828	ˤnkm	ʿnkm	ˤn(I)/+km	ʕn (I)	n. f. du. cstr. gen. + 2 m. pl. suff.	eye	bn ˤnkm 'between your eyes' (DULAT cites ʕn (I)).
+156827	brqmbn	brq[m .]bn    	brq(I)/m bn(II)	brq (I) | bn (II)	n. m. pl. abs. nom. | prep.	lightning | between	Tania and EUPT read brqm bn, “lightnings between.”
+156828	ˤnkm	ʿnkm	ˤn(I)/+km	ʕn (I)	n. f. du. cstr. gen. + 2 m. du. suff.	eye	The suffix addresses the two messengers; EUPT reads 2 m. dual.
 # KTU 1.3 VI:15							
-156829	ymtn	ymtn[  ]  	y mt(III)/~n	mt (III)	n. m. sg. abs. nom.	man; individual, member	Broken (ymtn xx); Tania reads mt (III) 'man' + encl. -n.
+156829	ymtn	ymtn[  ]  	y mt(III)/~n	mt (III)	n. m. sg. abs. nom.	man; individual, member	Tania reads mt (III) “man” plus enclitic -n. EUPT instead emends the final sign to -m and reads vocative dual “O two men”; that reading is not encoded because it does not preserve the physical n.
 156830	xx	[xx]    	xx	?	?	?	
 156831	alp	alp	alp(II)/	ảlp (II)	num. cstr. acc.	(one, a) thousand	Travel-formula variant: 'a thousand ... in the sea, a myriad in the rivers'.
 # KTU 1.3 VI:16							
-156832	šir	ši[r  ]  	šir(II)/	šỉr (II)	n. m. sg. abs. gen.	strip	? — šỉr (II) 'strip' (cf. šd (II)); or šỉr (I) 'flesh'.
+156832	šir	ši[r  ]  	šir(II)/	šỉr (II)	n. m. sg. abs. acc.	strip	EUPT reads Akk. m. sg. as the measure governed by alp; šỉr (I) 'flesh' is contextually weaker.
 156833	b	b 	b	b	prep.	in	
 156834	ym	ym  	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 156835	rbt	rbt	rb(b(t/t	rb(b)t	num.	ten thousand	
 # KTU 1.3 VI:17							
-156836	xkmn	x[km]n    	xkmn	?	?	?	
+156836	xkmn	x[km]n    	xkmn	?	?	?	EUPT restores kmn (I), “acre/measure”; Tania also records ṯkmn (DN), tkmn (TN), and kmn as alternatives.
 156837	b	b 	b	b	prep.	in	
-156838	nhrm	nhrm	nhr/m	nhr	n. m. du. abs. gen.	river	
+156838	nhrm	nhrm	nhr/m	nhr	n. m. pl. abs. gen.	river	EUPT and the travel-formula translations read the plural 'rivers/floods'.
 # KTU 1.3 VI:18							
 156839	ˤbr	[ʿ]br    	!!ˤbr[	/ʕ-b-r/	vb G impv. m. du.	to pass	DULAT: 'pass summits, pass heights'.
 156840	gbl	gbl  	gbl(I)/	gbl (I)	n. m. sg. abs. acc.	summit	
@@ -1438,7 +1441,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156844	iht	iht	ih(t/t=	ỉht	n. f. pl. cstr. acc.	islands	DULAT: 'pass the islands of the celestial peaks'.
 # KTU 1.3 VI:20							
 156845	np	np  	np/	np	n. m. sg. cstr. gen.	peak	
-156846	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl. abs. gen.	heavens	
+156846	šmm	šmm  	šm(m(I)/m	šmm (I)	n. m. pl. tant. abs. gen.	heavens	DULAT treats šmm as plurale tantum.
 156847	šmšr	šmšr	!!]š]mšr[	/m-š-r/	vb Š impv. m. du.	to set a vehicle in motion	DULAT cites both šmšr and /m-š-r/ Š here: 'drive (the chariot?)!'.
 # KTU 1.3 VI:21							
 156848	l	l 	l(IV)	l (IV)	interj.	oh!	DULAT cites l (IV) here: 'oh tritons of Athirat!'.
@@ -1457,29 +1460,28 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156858	pnm	pnm  	pn(m/m	pnm	n. m. pl. tant. abs. acc.	face	
 156859	tk	tk  	tk/	tk	n. m. sg. cstr. acc.	centre	
 156859	tk	tk  	tk	tk	prep.	in the midst of	DULAT: tk n. 'centre', also used as prep. (EUPT: Präp.).
-156860	ḥqkpt	ḥ{q}kpt	ḥqkpt/	ḥkpt	TN sg. abs. gen.	mythical	DULAT cites ḥqkpt (ḥ{q}kpt).
+156860	ḥqkpt	ḥ{q}kpt	ḥkpt/	ḥkpt	TN sg. abs. gen.	Memphis	DULAT and Tropper identify ḥkpt as Memphis.
 # KTU 1.3 VI:25							
-156861	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/Ilu/El	ḥqkpt il klh 'Memphis, which of (one) god is all of it' (DULAT s.v. kl).
-156862	klh	klh  	kl/+h	kl	n. m. sg. cstr. gen. + 3 m. sg. suff.	totality (of)	
-156863	kptr	kptr	kptr/	kptr	TN sg. abs. gen.	Crete	
+156861	il	il  	il(I)/	ỉl (I)	n. m. sg. cstr. gen.	god	DULAT cites ḥkpt ỉl here under the common noun's periphrastic-superlative use; Tropper translates 'the wholly divine/majestic Memphis', not the DN El.
+156862	klh	klh  	kl/+h	kl	n. m. sg. cstr. gen. + 3 f. sg. suff.	totality (of)	The suffix refers back to feminine ḥkpt; EUPT reads 3 f. sg.
+156863	kptr	kptr	kptr/	kptr	TN sg. abs. nom.	Crete	Tropper and DULAT construe the following nominal clause: 'Crete is his throne'.
 # KTU 1.3 VI:26							
 156864	ksu	ksu  	ks(u/&u	ks/śủ	n. m. sg. cstr. nom.	seat, throne, chair	Case vowel -u (nom.) as written.
+156864	ksu	ksu  	ks(u/&u	ks/śủ	n. f. sg. cstr. nom.	seat, throne, chair	DULAT genders the noun feminine; Tropper and EUPT instead treat kussiʾu as masculine, retained as the primary option.
 156865	ṯbth	ṯbth  	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen. + 3 m. sg. suff.	seat	Correct? (Tania) — noun ṯbt as 1.1 III:1.
-156866	ḥkpt	ḥkpt	ḥkpt/	ḥkpt	TN sg. abs. gen.	mythical	
+156866	ḥkpt	ḥkpt	ḥkpt/	ḥkpt	TN sg. abs. nom.	Memphis	Tropper and DULAT construe: 'Memphis is the land of his inheritance'.
 # KTU 1.3 VI:27							
-156867	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. cstr. gen.	earth	
+156867	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	Tropper and DULAT construe “Memphis is his inheritance-land.”
 156868	nḥlth	nḥlth	nḥl(t/t+h	nḥlt	n. f. sg. cstr. gen. + 3 m. sg. suff.	property	
 # KTU 1.3 VI:28							
 156869	b	b 	b	b	prep.	in	
-156870	alp	alp  	alp(II)/	ảlp (II)	n. m. sg. cstr. gen.	(one, a) thousand	
 156870	alp	alp  	alp(II)/	ảlp (II)	num. m. sg. cstr. gen.	(one, a) thousand	EUPT: cardinal number 'thousand'.
 156871	šd	šd  	šd(II)/	šd (II)	n. m. sg. cstr. gen.	a strip	
 156872	rbt	rbt	rb(b(t/t	rb(b)t	num.	ten thousand	
-156872	rbt	rbt	rb(b(t/t	rb(b)t	n. f. sg. cstr. gen.	ten thousand	EUPT: noun 'myriad'.
 # KTU 1.3 VI:29							
 156873	kmn	kmn  	kmn(I)/	kmn (I)	n. m. sg. abs. gen.	acre	
 156874	l	l 	l(I)	l (I)	prep.	to	
-156875	pˤn	pʿn  	pˤn/	pʕn	n. f. cstr. gen.	at the feet of	
+156875	pˤn	pʿn  	pˤn/	pʕn	n. f. du. cstr. gen.	at the feet of	EUPT reads the construct dual; DULAT lists pʕn as the construct form beside dual pʕnm.
 156876	kṯr	kṯ<r>	kṯr(III)/	kṯr (III)	DN m. sg. abs. gen.	Koṯaru/Kothar	kṯr (Tania kṯ<r>).
 # KTU 1.3 VI:30							
 156877	hbr	hbr  	!!hbr[	/h-b-r/	vb G impv. m. du.	to bow	
@@ -1490,18 +1492,16 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 156881	wy	wy  	!t!]š]]t]ḥwy(II)[	/ḥ-w-y/ (II)	vb Št prefc. 2 m. du.	to prostrate oneself	MERGE WITH THE PREVIOUS. WHAT IS THIS? (Tania) — resolved: tail of tštḥwy.
 156882	w	w 	w	w	conj.	and	
 156883	kbd	kbd 	kbd[:d	/k-b-d/	vb D impv. m. du.	to honour	
-156884	hwt	hwt	hw&t	hw	pers. pn.	he	kbd hwt 'honour HIM' (// 1.1 III:3).
+156884	hwt	hwt	hw&t	hw	pers. pn.	he	Oblique 3 m. sg. object: kbd hwt 'honour him' (Tropper; EUPT Akk. 3 m. sg.).
 # KTU 1.3 VI:32							
 156885	w	w 	w	w	conj.	and	
 156886	rgm	rgm  	!!rgm[	/r-g-m/	vb G impv. m. du.	to say, tell, announce, communicate, inform	w rgm l kṯr 'and say to Kothar' (// 1.1 III:4, DULAT).
-156886	rgm	rgm  	rgm[	/r-g-m/	vb G suffc. 3 m. du.	to say	EUPT: G-SK 3 m. du.
 156887	l	l 	l(I)	l (I)	prep.	to	
 156888	kṯr	kṯr	kṯr(III)/	kṯr (III)	DN/element sg. abs. gen.	Koṯaru/Kothar	
 # KTU 1.3 VI:33							
 156889	w	w 	w	w	conj.	and	
 156890	ḫss	ḫss  	ḫss/	ḫss	DN/element sg. abs. nom.	Ḫasisu/Khasis	
 156891	ṯny	ṯny  	!!ṯny[	/ṯ-n-y/	vb G impv. m. du.	to repeat	
-156891	ṯny	ṯny  	ṯny[	/ṯ-n-y/	vb G suffc. 3 m. du.	to repeat	EUPT: G-SK 3 m. du.
 156892	l	l 	l(I)	l (I)	prep.	to	
 156893	h	h	hyn/	hyn	DN m. sg. abs. gen.	<i>Ea</i> of the Artisans	MERGE WITH THE NEXT: h+yn = hyn (DN Hayyānu/Kothar).
 # KTU 1.3 VI:34							

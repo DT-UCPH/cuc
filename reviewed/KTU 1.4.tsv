@@ -260,7 +260,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.4 II:13							
 157101	hlk	hlk  	hlk(I)/	hlk (I)	n. m. sg. cstr. acc.	walk	hlk bˤl 'the approach of Baal'.
 157102	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
-157103	aṯtrt	aṯ{t}rt	aṯ&tr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Asherah	DULAT: ảṯ{t}rt — scribal extra t; subject of the next clause.
+157103	aṯtrt	aṯ{t}rt	aṯr(t(II)/t	ảṯrt (II)	DN f. sg. abs. nom.	Asherah	DULAT identifies ảṯrt (II), the subject of the next clause.
 # KTU 1.4 II:14							
 157104	k	k 	k(II)	k (II)	emph. functor	yes	
 157105	tˤn	tʿn  	!t!ˤn[	/ʕ-n/	vb G prefc. 3 f. sg.	to see	DULAT /ʕ-n/ 'to see' (not /ʕ-n-y/ 'answer'); Athirat sees Baal's approach.
@@ -497,8 +497,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157272	bṯt	bṯt  	bṯ(t(I)/t	bṯt (I)	n. f. sg. abs. gen.	shame	
 157273	w	w 	w	w	conj.	and	
 157274	dbḥ	dbḥ { }  	dbḥ/	dbḥ	n. m. sg. abs. acc.	sacrifice	
-157275	w	{w } 	w	w	conj.	and	
-157276	dbḥ	{dbḥ}	dbḥ/	dbḥ	n. m. sg. cstr. acc.	sacrifice	
+157275	w	{w } 	?	?	?	?	
+157276	dbḥ	{dbḥ}	?	?	?	?	
 # KTU 1.4 III:20							
 157277	dnt	dnt  	dn(t(I)/t	dnt (I)	n. f. sg. abs. gen.	lechery, fornication	Baal's hated feasts (III:17-21).
 157278	w	w 	w	w	conj.	and	
@@ -767,7 +767,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157478	qrš	qrš  	qrš/	qrš	n. m. sg. cstr. acc.	private room	qrš mlk 'the tent of the King' (El).
 157479	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	1) king e) part of the divine titulary (cf. Rahmouni DEAUT 4ff.)	
 157480	ab	ab  	ab/	ảb	n. m. sg. cstr. gen.	1) father b) espec. of El (Rahmouni DEUAT 3ff.)	
-157481	šnnm	šn[[n]]m	šn&nm/	šnm	DN sg. abs. gen.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	ab šnm 'Father of Šunama'; surface šnnm has an extra n.
+157481	šnnm	šn[[n]]m	šnm/	šnm	DN sg. abs. gen.	Šunama/Shunama/second member of the double-barrelled divine name ṯkmn w šnm, origin unknown	DULAT identifies Šunama in the divine name ab šnm, “Father of Šunama.”
 # KTU 1.4 IV:25							
 157482	l	l 	l(I)	l (I)	prep.	to	
 157483	pˤn	pʿn  	pˤn/	pʕn	n. f. du. cstr. gen.	at the feet of	l pˤn il 'at the feet of El'.
@@ -1009,7 +1009,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157676	l	l 	l(III)	l (III)	functor	certainly	
 157677	tsrk	tsrk	!t!(wsr[+k	/w-s-r/	vb G prefc. 3 f. sg. + 2 m. sg. suff.	to teach	'(it) instructs you'.
 # KTU 1.4 V:5							
-157678	rḫnnt	rḫn{n}t    	rḫn&n(t/t	rḫnt	n. f. sg. abs. nom.	sweetness	Surface rḫnnt has an extra n; DULAT rḫnt.
+157678	rḫnnt	rḫn{n}t    	rḫn(t/t	rḫnt	n. f. sg. abs. nom.	sweetness	DULAT reads rḫnt “sweetness.”
 157679	dt	dt  	d~t	d	det. / rel. functor + encl. -t	1) the one(s) of b) det. of property	
 157680	l	l 	l(I)	l (I)	prep.	to	
 157681	irtk	irtk	ir(t/t+k	ỉrt	n. f. sg. cstr. gen. + 2 m. sg. suff.	1) breast a) breast	dt l irtk '(comes) to your breast'.
@@ -1039,7 +1039,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 157699	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. cstr. gen.	1) earth	
 157700	brqm	brqm	brq(I)/m	brq (I)	n. m. pl. abs. acc.	ray	
 # KTU 1.4 V:10							
-157701	dbt	[[d]]bt    	d bt(II)/	d | bt (II)	det. or rel. functor | n. m. sg. cstr. nom.	the one(s) of | 1) house	d bt arzm ykllnh 'whether a house of cedar they complete for him' (DULAT V:10).
+157701	dbt	[[d]]bt    	bt(II)/	bt (II)	n. m. sg. cstr. nom.	house	DULAT identifies bt (II), “house.”
 157702	arzm	arzm  	arz(I)/m	ảrz (I)	n. m. pl. abs. gen.	1) a conifer	
 157703	ykllnh	ykllnh	!y!kll[:d~n+h	/k-l-l/	vb D prefc. 3 m. sg. + energic-n + suff.	to complete, finish	'he will complete it'.
 # KTU 1.4 V:11							

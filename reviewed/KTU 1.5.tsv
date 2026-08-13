@@ -10,7 +10,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158588	tkly	tkly  	!t=!kly[:d	/k-l-y/	vb D prefc. 2 m. sg.	to finish (off), destroy, drain	
 158589	bṯn	bṯn  	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 158590	ˤqltn	ʿqltn  	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
-158591	š	[[š]]	&š	?	?	?	erased sign
+158591	š	[[š]]	?	?	?	?	
 # KTU 1.5 I:3							
 158592	šlyṭ	šlyṭ  	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm 'the tyrant of seven heads' (// 1.3 III:42).
 158592	šlyṭ	šlyṭ  	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
@@ -82,7 +82,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158632	w	w 	w	w	conj.	and	
 158633	yˤn	yʿn	!y=!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	Subjects Gapn-and-Ugar. w yˤn gpn w ugr, with two divine subjects; EUPT reads yaˁnî(/â) G-PKK 3.m.du.
 # KTU 1.5 I:12							
-158634	gmpn	g[[m]]pn    	g&mpn(III)/	gpn (III)	DN m. sg. abs. nom.	Gapnu	KTU3 reads g{m}pn (scribal m); one of the two messengers of Baal (gpn w ugr).
+158634	gmpn	g[[m]]pn    	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	Gapnu	DULAT identifies Gapnu, one of the two messengers of Baal in gpn w ugr.
 158635	w	w 	w	w	conj.	and	
 158636	ugr	ugr  	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
 158637	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
@@ -251,8 +251,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158742	b	b 	b	b	prep.	in	
 158743	ph	ph  	p(III)/+h	p (III)	n. m. sg. cstr. gen. + 3 m. sg. suff.	mouth, snout	
 158744	yrd	yrd[[ ]] 	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
-158745	k	[[k]]	k(I)	k (I)	prep.	like	
-158745	k	[[k]]	k	?	?	?	Scribal anticipation of k(ḥrr) rewritten in full at the start of the next line (cf. I:2 š).
+158745	k	[[k]]	?	?	?	?	
 # KTU 1.5 II:5							
 158746	k	k 	k(III)	k (III)	subordinating / completive functor	when	
 158747	ḥrr	ḥrr  	ḥrr[	/ḥ-r-r/	vb G suffc. 3 m. sg.	to dry up	
@@ -310,7 +309,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158783	an	an  	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 158784	w	w 	w	w	conj.	and	
 158785	d	d 	d	d	det. or rel. functor	the one(s) of	UNP: wdˤlmk ## Migrated from legacy reviewed tokenization.
-158786	šˤlmk	[[š]]ʿlmk	&šˤlm/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	UNP: wdˤlmk ## Migrated from legacy reviewed tokenization.
+158786	šˤlmk	[[š]]ʿlmk	ˤlm/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	UNP reads wdˤlmk.
 # KTU 1.5 II:13							
 158787	tbˤ	tbʿ  	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. du.	to go	// 1.2 I:19 (DULAT: 'the lads left without staying').
 158787	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	TCS: 'Be off and do not tarry, O gods' (// 1.2 I:13).
@@ -326,7 +325,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158794	ytn	ytn  	!y=!(ytn[	/y-t-n/	vb G prefc. 3 m. du.	to give	
 158794	ytn	ytn  	ytn[	/y-t-n/	vb G suffc. 3 m. du.	to give	
 158795	pnm	pn<m>    	pn(m/m	pnm	n. m. pl. tant. abs. acc.	face	
-158796	ṯˤm	[[ṯ]]ʿm    	&ṯˤm(I)	ʕm (I)	prep.	to	Scribal ṯ (UNP: ˤm).
+158796	ṯˤm	[[ṯ]]ʿm    	ˤm(I)	ʕm (I)	prep.	to	UNP reads ˤm.
 158797	bnilm	bn . ilm  	bnil/+m(I)	bnỉl	PN sg. cstr. gen.	bnỉl	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m. ## Migrated from legacy reviewed tokenization.
 158798	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. gen.	Mot/Death	
 # KTU 1.5 II:15							
@@ -350,7 +349,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158812	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
 158813	aliyn	aliyn	aliyn/	ảlỉyn	adj. m. sg. abs. gen.	The Very / Most Powerful	
 # KTU 1.5 II:18							
-158814	bn	{bn }  	bn(I)/	bn (I)	n. m. sg. cstr. gen.	son	Scribal insertion (UNP {bn.}); not in the formula (// II:10).
+158814	bn	{bn }  	?	?	?	?	
 158815	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 158816	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
 158817	aliynqrdm	aliy[[n]] . qrdm	?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
@@ -446,7 +445,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 III:11							
 158881	al	al  	al(I)	ảl (I)	neg. functor	no, not	DULAT cites ảl ảšt here s.v. ảl (I) and /š-t/.
 158881	al	al  	al(II)	ảl (II)	pos. functor	surely	UNP: 'Truly I will set…'.
-158882	ašṯt	aš[[ṯ]]t    	!(ʔ&a!š&ṯt[	/š-t/	vb G prefc. 1 c. sg.	to place, set	DULAT reads ảl ảšt (s.v. /š-t/); ṯ unexplained (scribal error?). KTU: ašṯt.
+158882	ašṯt	aš[[ṯ]]t    	!(ʔ&a!št[	/š-t/	vb G prefc. 1 c. sg.	to place, set	DULAT reads ảl ảšt under /š-t/.
 158883	b	b[           ]             	b	b	prep.	in	
 # KTU 1.5 III:12							
 158884	ahpkk	ahpkk  	!(ʔ&a!hpk[+k	/h-p-k/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to overturn	UNP: 'I will replace you'.
@@ -537,7 +536,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158937	xxy	[xx]y  	?	?	?	?	
 158938	xxxxx	x[x]x[xx        ]        	?	?	?	?	
 # KTU 1.5 IV:2							
-158939	ˤ	ʿ  	?	?	?	?	
+158939	ˤ	ʿ  	?	?	?	?	No consulted source analyzes the isolated sign.
 158940	šdk	šdk[                   ]                   	šd(I)/+k	šd (I)	n. m. sg. cstr. + 2 m. sg. suff.	open field	'your field'; broken context.
 # KTU 1.5 IV:3							
 158941	w	w 	w	w	conj.	and	
@@ -687,7 +686,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159046	ar	ar	ar/	ả/ỉr	n. m. sg. abs. gen.	light	pdry bt ar 'Pidray, daughter of light'.
 # KTU 1.5 V:11							
 159047	ˤmk	ʿmk  	ˤm(I)+k	ʕm (I)	prep. + 2 m. sg. suff.	with	'with you'.
-159048	tṭly	{t}ṭly    	&tṭly/	ṭly	DN f. sg. abs.	Ṭallay	UNP: 'Tallay, daughter of Rain'.
+159048	tṭly	{t}ṭly    	ṭly/	ṭly	DN f. sg. abs.	Ṭallay	UNP: 'Tallay, daughter of Rain'.
 159049	bt	bt  	b(t(I)/t	bt (I)	n. f. sg. cstr.	daughter	
 159050	rb	rb  	rb/	rb(b)	n. m. sg. abs. gen.	drizzle, rain	ṭly bt rb 'Ṭallay, daughter of drizzle'.
 159051	idk	idk	idk	ỉdk	narrative adv. functor	then	
@@ -800,7 +799,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159133	xxṣt	[xx]ṣt    	?	?	?	?	UNP/TCS: 'to the edge(s) of the earth'.
 159134	arṣ	[a]r[ṣ  ]  	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 159135	xxḥ	[xx]ḥ    	?	?	?	?	## DULAT: NOT FOUND.
-159136	ˤdk	ʿd[[k]]	ˤd(I)~k	ʕd (I)	prep. + encl. -k	up to	DULAT cites ʕd ksm mhyt 'to the limits of the waters' here; -k (II) emph. encl.
+159136	ˤdk	ʿd[[k]]	ˤd(I)	ʕd (I)	prep.	up to	DULAT cites ʕd ksm mhyt, “to the limits of the waters.”
 # KTU 1.5 VI:5							
 159137	ksm	ksm  	ksm/	ksm	n. m. sg. cstr. gen.	part, share	TCS: 'well-watered portions'; UNP: 'limits of the waters'.
 159138	mhyt	mhyt  	mhy(t/t=	mhyt	n. f. pl. abs. gen.	meadow, waters	DULAT tags the form here as pl.

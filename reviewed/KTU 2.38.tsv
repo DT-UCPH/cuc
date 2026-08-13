@@ -1,0 +1,107 @@
+id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.38 1							
+177569	l	l  	l(I)	l (I)	prep.	to	
+177570	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	DULAT cites the title “king of Ugarit.”
+177571	ugrt	ugrt	ugrt/	ủgrt	TN sg. abs. gen.	Ugarit	
+# KTU 2.38 2							
+177572	aḫy	aḫy  	aḫ(I)/+y	ảḫ (I)	n. m. sg. cstr. nom. + 1 c. sg. suff.	3) brother > friend (formal usage in correspondence between equals)	Formal epistolary address “my brother”; Tropper §33.223.12 discusses this exact form.
+177573	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. 2 m. sg.	to say, tell, announce, communicate, inform	The epistolary address requires the opening imperative “say!”
+# KTU 2.38 3							
+177574	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
+177575	mlk	mlk  	mlk(I)/	mlk (I)	n. m. sg. cstr. gen.	king	DULAT cites the title “king of Tyre.”
+177576	ṣr	ṣr  	ṣr/	ṣr	TN sg. abs. gen.	Tyre	Genitive nomen rectum of mlk; DULAT cites this exact address.
+177577	aḫk	aḫk	aḫ(I)/+k	ảḫ (I)	n. m. sg. cstr. gen. + 2 m. sg. suff.	brother (by blood)	
+# KTU 2.38 4							
+177578	yšlm	yšlm  	!y!šlm[	/š-l-m/	vb G prefc. 3 m. sg. juss.	to be well, do well, be in peace	Epistolary wish: “may it go well with you.”
+177579	lk	lk  	l(I)+k	l (I)	prep. + 2 m. sg. suff.	to	
+177580	ilm	ilm	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	“May the gods protect you and preserve your well-being.”
+# KTU 2.38 5							
+177581	tġrk	tġrk  	!t!(nġr[+k	/n-ġ-r/	vb G prefc. 3 m. pl. juss. + 2 m. sg. suff.	to protect, guard	Tropper §§33.115.44, 75.42 analyses tġr-k as 3 m. pl. jussive with assimilated root-initial n; DULAT's letter formula supplies the same interpretation.
+177582	tšlmk	tšlmk	!t!šlm[:d+k	/š-l-m/	vb D prefc. 3 m. pl. juss. + 2 m. sg. suff.	to restore / preserve health	Tropper §74.412.27 and DULAT analyse the formula as D plural “may the gods grant you well-being”; Tania independently retains D.
+# KTU 2.38 6							
+177583	hnny	hnny  	hnny	hnny	adv.	here	DULAT lexicalizes the whole form.
+177583	hnny	hnny  	hn~n~y	hnny	adv. + encl. -n + encl. -y	here	Tania's independent segmentation of the same epistolary adverb; DULAT lists hnny among the forms of hn.
+177583	hnny	hnny  	hnn~y	hnny	adv. + encl. -y	here	Tropper §81.11c instead derives hnny from hnn plus enclitic -y; kept as a documented grammatical alternative.
+177584	ˤmn	ʿmn	ˤm(I)+n	ʕm (I)	prep. + 1 c. sg. suff.	with me	Tropper §41.222.3 vocalizes ʕm-n “with me.”
+# KTU 2.38 7							
+177585	šlm	šlm  	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace, well-being	Nominal šlm in the fixed ṯmny … mnm šlm correspondence formula; Tania independently agrees.
+177586	ṯmny	ṯmny	ṯmn~y	ṯm	adv. + encl. -y	there	Tropper §81.12d derives the fixed epistolary adverb from ṯmn plus enclitic -y.
+177586	ṯmny	ṯmny	ṯm~n~y	ṯm	adv. + encl. -n + encl. -y	there	Tania's independent segmentation; DULAT lists ṯmny as a suffixed form of ṯm.
+# KTU 2.38 8							
+177587	ˤmk	ʿmk  	ˤm(I)+k	ʕm (I)	prep. + 2 m. sg. suff.	with you	The fixed formula continues “there with you”; Tania independently reads the preposition.
+177588	mnm	mnm  	mnm	mnm	indef. pn.	any(thing)	
+177589	šlm	šlm	šlm(I)/	šlm (I)	n. m. sg. abs. nom.	peace, well-being	Nominal šlm in the fixed correspondence formula; Tania independently agrees.
+# KTU 2.38 9							
+177590	rgm	rgm  	rgm/	rgm	n. m. sg. abs. acc.	word, message	“Send back word.”
+177591	ṯṯb	ṯṯb	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2 m. sg.	to send (word), an answer, to answer	Tropper §§74.623, 75.527 explicitly lists KTU 2.38:9 as the masculine Š imperative; Tania independently agrees.
+# KTU 2.38 10							
+177592	anykn	anykn  	any/+k~n	ảny(t)	n. f. sg. cstr. nom. + 2 m. sg. suff. + encl. -n	ship	DULAT and Tropper §41.31 analyse “your ship” plus enclitic -n; Tania independently marks both layers.
+177593	dt	dt	d/t	d	rel. functor f. sg.	which	Feminine relative agreeing with ảny(t); DULAT cites the exact clause and Tania independently marks final -t.
+# KTU 2.38 11							
+177594	likt	likt  	l(ʔ&ik[t=	/l-ʔ-k/	vb G suffc. 2 m. sg.	to send (a message)	Tropper §§73.223.3, 75.12 explicitly parses this occurrence as 2 m. sg.: “which you sent”; t= distinguishes the consonantally identical 2ms ending from 1cs.
+177595	mṣrm	mṣrm	mṣrm/	mṣrm	TN sg. abs. acc.	Egypt	DULAT identifies mṣrm as Egypt in this clause.
+# KTU 2.38 12							
+177596	hndt	hndt  	hnd/t	hnd	dem. f. sg. abs. nom.	this	DULAT's exact attestation reads the feminine demonstrative “this”; Tania independently marks final -t.
+177596	hndt	hndt  	hnd~t	hnd	adv. + encl. -t	here	Tropper §81.11d prefers an adverb “here,” derived from hnd plus enclitic -t; retained as a documented alternative.
+177597	b	b  	b	b	prep.	in	
+177598	ṣr	ṣr	ṣr/	ṣr	TN sg. abs. gen.	Tyre	
+# KTU 2.38 13							
+177599	tmtt	<t>mtt     	&tmt[t===	/m-t/	vb G suffc. 3 f. sg.	to remain immobilised, run aground (?)	DULAT reads the ship as feminine subject, “has run aground.”
+177599	tmtt	<t>mtt     	tmt(t/t	tmtt	n. f. sg. abs. nom.	group of men, team, crew	Tropper §51.3g and Tania retain the naval “crew” noun as an alternative to the text-critical verbal reading.
+177600	bygš	by[[gš]]	b&y	b	prep.	by, due to	DULAT and Tropper identify b with plene y.
+# KTU 2.38 14							
+177601	gšm	gšm  	gšm/	gšm	n. m. sg. abs. gen.	rain, downpour	DULAT translates “by a heavy downpour.”
+177602	adr	adr	adr(I)/	ảdr (I)	adj. m. sg. abs. gen.	strong, heavy	DULAT's place-specific sense and Tropper §90.11 rule out “granary.”
+# KTU 2.38 15							
+177603	nškḥ	nškḥ  	]n]škḥ[	/š-k-ḥ/	vb N suffc. 3 m. sg.	to be met, find oneself	DULAT, Tropper §74.322.11, and Notarius independently support an N-stem anticausative; Tropper prefers singular.
+177603	nškḥ	nškḥ  	]n]škḥ[:w	/š-k-ḥ/	vb N suffc. 3 m. pl.	to be met, find oneself	Tropper also allows plural, “they/the persons of the ship were met.”
+177604	w	w	w	w	conj.	and	
+# KTU 2.38 16							
+177605	rb	rb  	rb(II)/	rb (II)	n. m. sg. cstr. nom.	chief, captain	DULAT and Tropper support the naval title “captain of the crew.”
+177606	tmtt	tmtt	tmt(t/t	tmtt	n. f. sg. abs. gen.	group of men, team, crew	
+# KTU 2.38 17							
+177607	lqḥ	lqḥ  	lqḥ[	/l-q-ḥ/	vb G suffc. 3 m. sg.	to get hold of, take, collect	DULAT and Tropper translate “the captain collected.”
+177608	kl	kl  	kl/	kl	n. m. sg. cstr. acc.	totality (of), all	
+177609	ḏrˤ	ḏrʿ	ḏrˤ/	d/ḏrʕ	n. m. sg. abs. gen.	seed, seed-grain	DULAT and Tropper §32.144.33 identify the agricultural noun, not “arm/cargo.”
+# KTU 2.38 18							
+177610	b	b 	b	b	prep.	from	DULAT reads origin: the captain collected the grain “from their vessels.”
+177611	dnhm	dnhm  	dn(II)/+hm	dn (II)	n. m. pl. cstr. gen. + 3 m. pl. suff.	vessel, vat	DULAT's exact attestation and Tropper §41.223.1 support plural “their vessels.”
+177612	w	w  	w	w	conj.	and	
+177613	ank	ank	ank	ảnk	pers. pn. 1 c. sg.	I	
+# KTU 2.38 19							
+177614	kl	kl  	kl/	kl	n. m. sg. cstr. acc.	totality (of), all	
+177615	ḏrˤhm	ḏrʿhm	ḏrˤ/+hm	d/ḏrʕ	n. m. sg. cstr. gen. + 3 m. pl. suff.	seed, seed-grain	DULAT and Tropper read “their seed-grain.”
+# KTU 2.38 20							
+177616	kl	kl  	kl/	kl	n. m. sg. cstr. acc.	totality (of), all	
+177617	npš	npš	npš(I)/	npš (I)	n. f. sg. abs. gen.	5) people (coll.)	DULAT exact and Tropper §§52.21, 90.42 read collective “all the people,” not “throat”; the lexeme is morphologically singular and semantically collective.
+# KTU 2.38 21							
+177618	klklhm	klklhm   	klkl/+hm	klkl	n. m. sg. cstr. acc. + 3 m. pl. suff.	all their belongings, gear	DULAT's exact translation and Tropper §45.2 read the third object as all their belongings; Tropper also notes an emendation w <k>lklhm against “their provisions.”
+177619	bd	bd	bd(IV)	bd (IV)	prep.	from the hands of	DULAT and Tropper §§82.34, 91.332 identify the compound preposition “from the hands of.”
+# KTU 2.38 22							
+177620	rb	rb  	rb(II)/	rb (II)	n. m. sg. cstr. gen.	chief, captain	
+177621	tmtt	tmtt  	tmt(t/t	tmtt	n. f. sg. abs. gen.	group of men, team, crew	
+177622	lqḥt	lqḥt	lqḥ[t	/l-q-ḥ/	vb G suffc. 1 c. sg.	to get hold of, take, receive	DULAT and Tropper translate “I received/took.”
+# KTU 2.38 23							
+177623	w	w  	w	w	conj.	and	
+177624	ṯṯb	ṯṯb  	!!](š&ṯ]ṯb[/	/ṯ-b/	vb Š inf. abs.	to return, give back	Tropper §§74.626.3a, 75.527 explicitly analyses this occurrence as a narrative Š infinitive, unlike the imperative at line 9; DULAT exact and Tania independently support “I returned.”
+177625	ank	ank  	ank	ảnk	pers. pn. 1 c. sg.	I	
+177626	lhm	lhm	l(I)+hm	l (I)	prep. + 3 m. pl. suff.	to them	DULAT exact: “I returned it/them to them.”
+# KTU 2.38 24							
+177627	w	w  	w	w	conj.	and	
+177628	anyk	anyk  	any/+k	ảny(t)	n. f. sg. cstr. nom. + 2 m. sg. suff.	ship	
+177629	ṯt	ṯt	ṯ(n&t)(I)/	ṯn (I)	num. f. sg. abs. nom.	other, second	DULAT and Tropper §§33.115.41, 62.121 read “your other/second ship”; Tania independently interprets ṯt as “lodged” but supplies no lexeme or morphology.
+# KTU 2.38 25							
+177630	by	by  	b&y	b	prep.	in	Tropper §§33.275, 82.11 identifies by as the plene spelling of b, not a 1cs suffix as in other contexts.
+177631	ˤky	ʿky  	ˤky(I)/	ʕky (I)	TN sg. abs. gen.	Akko	
+177632	ˤryt	ʿryt	ˤry[t===	/ʕ-r-y/	vb G suffc. 3 f. sg.	to be naked, unrigged	DULAT reads the feminine ship as subject, “was unrigged.”
+177632	ˤryt	ʿryt	ˤry[:d:pass[t===	/ʕ-r-y/	vb Dpass suffc. 3 f. sg.	to be emptied, unloaded	Tropper §§33.323.4, 74.423 prefers a D-passive interpretation, “it was unloaded/emptied,” while acknowledging uncertainty.
+177632	ˤryt	ʿryt	ˤry[:d[t===	/ʕ-r-y/	vb D suffc. 3 f. sg.	to empty, unload	Tropper retains active D as an alternative: “it emptied/unloaded goods.”
+# KTU 2.38 26							
+177633	w	w  	w	w	conj.	and	
+177634	aḫy	aḫy  	aḫ(I)/+y	ảḫ (I)	n. m. sg. cstr. nom. + 1 c. sg. suff.	brother	Subject/topic “my brother”; Tropper §42.5 translates the clause as a prohibition against worry.
+177635	mhk	mhk	mhk	mhk(m)	indef. pn. abs. acc.	anything, any concern	
+# KTU 2.38 27							
+177636	b	b  	b	b	prep.	in	
+177637	lbh	lbh  	lb/+h	lb	n. m. sg. cstr. gen. + 3 m. sg. suff.	heart	
+177638	al	al  	al(I)	ảl (I)	neg. functor	no, not	DULAT and Tropper read prohibitive ảl here.
+177639	yšt	yšt	!y!št[	/š-t/	vb G prefc. 3 m. sg. juss.	to place, set, leave	DULAT exact and Tropper §§75.43, 83.21 read active G: “may he not place any concern in his heart”; the historical Gpass option lacks contextual support.

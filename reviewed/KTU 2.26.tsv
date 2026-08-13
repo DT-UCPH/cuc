@@ -1,0 +1,69 @@
+id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.26 1							
+176677	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message, note	DULAT cites tḥm rgm mlk, “oral note of the king.”
+176678	rgm	rgm 	rgm/	rgm	n. m. sg. cstr. gen.	word, oral message	DULAT cites the nominal phrase “message of the word of the king.”
+# KTU 2.26 2							
+176679	mlk	mlk 	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	
+# KTU 2.26 3							
+176680	l	l 	l(I)	l (I)	prep.	to	
+176681	ḥyil	ḥyil	(ḫ&ḥ)yil/	ḫyỉl	PN sg. abs. gen.	Ḫyỉl	DULAT identifies the personal name Ḫyỉl at KTU 2.26:3.
+# KTU 2.26 4							
+176682	lm	lm  	lm(II)	lm (II)	interr. pn.	why, what for	Tropper §81.64 cites causal-interrogative lm here.
+176683	tlik	tlik  	!t=!l(ʔ&ik[:d	/l-ʔ-k/	vb D prefc. 2 m. sg.	to send repeatedly	Tropper §74.412.22 explicitly parses D prefix conjugation 2ms, “why do/did you repeatedly send.”
+176684	ˤmy	ʿmy	ˤm(I)+y	ʕm (I)	prep. + 1 c. sg. suff.	to me	Tropper §41.221.1c identifies the suffixed preposition in this exact line.
+# KTU 2.26 5							
+176685	iky	iky  	iky	ỉky	interr. functor	how, why	Tropper §88.4 translates “how shall I…?”
+176686	aškn	aškn	!(ʔ&a!škn[:d	/š-k-n/	vb D prefc. 1 c. sg.	to assign, provide	Tropper §74.412.32 parses D 1cs in the quoted question, “how shall I provide the beams?”
+# KTU 2.26 6							
+176687	ˤṣm	ʿṣm  	ˤṣ/m	ʕṣ	n. m. pl. abs. acc.	beams, timber	DULAT and Tropper translate “provide the beams/timber.”
+176688	l	l 	l(I)	l (I)	prep.	for	
+176689	bt	bt  	bt(II)/	bt (II)	n. m. sg. cstr. gen.	house, temple	DULAT cites bt dml “temple of Dml.”
+176690	dml	dml	dml/	dml	DN sg. abs. gen.	Dml	DULAT explicitly identifies the deity in the temple name; independent lexical evidence justifies DN encoding.
+# KTU 2.26 7							
+176691	p	p 	p(I)	p (I)	conj. functor	but indeed	DULAT and Tropper §88.4 read asseverative/contrastive p before the emphatic subject.
+176692	ank	ank  	ank	ảnk	pers. pn. 1 c. sg.	I myself	
+176693	atn	atn	!(ʔ&a!(ytn[	/y-t-n/	vb G prefc. 1 c. sg.	to give	DULAT directly cites the 1cs verb; the following timber is its direct object.
+# KTU 2.26 8							
+176694	ˤṣm	ʿṣm  	ˤṣ/m	ʕṣ	n. m. pl. abs. acc.	beams, timber	
+176695	lk	lk	l(I)+k=	l (I)	prep. + 2 m. sg. suff.	to you	
+# KTU 2.26 9							
+176696	arbˤ	arbʿ  	arbˤ/	ảrbʕ	num. f. abs. acc.	four	Feminine numeral form with masculine counted noun, beginning the allocation list cited by Tropper §82.34.
+176697	ˤṣm	ʿṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. acc.	beams	
+# KTU 2.26 10							
+176698	ˤl	ʿl  	ˤl(I)	ʕl (I)	prep.	charged to	DULAT and Tropper read allocation/accountability ʕl, “charged to/from.”
+176699	ar	ar	ar/	ảr	TN sg. abs. gen.	Ar	DULAT identifies the town in this allocation list.
+# KTU 2.26 11							
+176700	w	w  	w	w	conj.	and	
+176701	ṯlṯ	ṯlṯ 	ṯlṯ(I)/	ṯlṯ (I)	num. f. abs. acc.	three	Elliptical “three [beams]” in DULAT's and Tropper's directly cited allocation list.
+# KTU 2.26 12							
+176702	ˤl	ʿl  	ˤl(I)	ʕl (I)	prep.	charged to	
+176703	ubrˤy	ubrʿy	ubrˤ&y/	ủbrʕ(y)	TN sg. abs. gen.	Ubrʕy	DULAT directly identifies the town; genitive after ʕl. The analysis preserves the attested final y as a variant element.
+# KTU 2.26 13							
+176704	w	w  	w	w	conj.	and	
+176705	ṯn	ṯn  	ṯn(I)/	ṯn (I)	num. m. abs. acc.	two	Elliptical “two [beams]” in the directly cited list.
+176706	ˤl	ʿl 	ˤl(I)	ʕl (I)	prep.	charged to	
+# KTU 2.26 14							
+176707	mlk	mlk	mlk(I)/	mlk (I)	n. m. sg. abs. gen.	king	DULAT cites “two charged to the king.”
+# KTU 2.26 15							
+176708	w	w  	w	w	conj.	and	
+176709	aḥd	aḥd 	aḥd/	ảḥd	num. m. sg. abs. acc.	one	Elliptical “one [beam]” in DULAT's and Tropper's exact allocation list.
+# KTU 2.26 16							
+176710	ˤl	ʿl  	ˤl(I)	ʕl (I)	prep.	charged to	
+176711	atlg	atlg	atlg/	ảtlg	TN sg. abs. gen.	Atallig	DULAT directly identifies the town; genitive after ʕl.
+# KTU 2.26 17							
+176712	w	w 	w	w	conj.	and	
+176713	l	l  	l(I)	l (I)	prep.	concerning	DULAT cites w l ʕṣm tspr, “and concerning the beams, write.”
+176714	ˤṣm	ʿṣm	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	beams, timber	
+# KTU 2.26 18							
+176715	tspr	tspr	!t=!spr[	/s-p-r/	vb G prefc. 2 m. sg. juss.	to write, report	DULAT translates “write concerning the beams”; the addressee is masculine singular.
+# KTU 2.26 19							
+176716	nrn	nrn  	nrn/	nrn	PN sg. abs. voc.	Nūrānu	Named addressee of the prohibitive; DULAT directly identifies the PN at this line, without lexical gender specification.
+176717	al	al  	al(I)	ảl (I)	neg. functor	no, not	Prohibitive ảl governing the following jussive.
+176718	tud	tud	!t=!(ʔ&ud[	/ʔ-d/	vb G prefc. 2 m. sg. juss.	to overcharge, exact	Tropper §75.225 parses 2ms /taʾûd/ in ảl tủd, “do not overcharge/exact”; DULAT directly agrees on root and stem.
+# KTU 2.26 20							
+176719	ad	ad  	!!(ʔ&a)d[/	/ʔ-d/	vb G inf. abs.	to overcharge, exact	Tropper §75.524 treats ảd as an infinitive absolute used paronomastically or imperativally with ảl tủd; DULAT cites the verbal root.
+176720	at	at  	at(I)	ảt (I)	pers. pn. 2 m. sg.	you yourself	DULAT cites its emphatic use here.
+176721	lhm	lhm	l(I)+hm	l (I)	prep. + 3 m. pl. suff.	for them, from them	DULAT directly cites the suffixed preposition. Whether the amount is to be paid for them or exacted from them is a semantic uncertainty, not a morphological one.
+# KTU 2.26 21							
+176722	ṯṯm	ṯṯm  	ṯṯm/	ṯṯm	num. c. abs. acc.	sixty	DULAT directly cites the elliptical amount “sixty (shekels of) silver.” Tropper notes uncertainty over whether the prohibition scopes over this amount.
+176723	ksp	ksp	ksp/	ksp	n. m. sg. abs. gen.	silver	

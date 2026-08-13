@@ -94,7 +94,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 I:16							
 159337	b	b 	b	b	prep.	in	
 159338	ṣrrt	ṣrrt  	ṣrr(t/t	ṣrrt	n. f. sg. cstr. gen.	height(s)	
-159339	ṣpˤn	ṣp{ʿ}n    	ṣp&ˤn/	ṣpn	TN/DN gen.	Ṣapānu/Zaphon	Scribal ṣpˤn for ṣpn (ˤ surface-only, marked &ˤ).
+159339	ṣpˤn	ṣp{ʿ}n    	ṣpn/	ṣpn	TN/DN gen.	Ṣapānu/Zaphon	DULAT identifies Ṣapānu/Zaphon.
 159340	tbkynh	tbkynh	!t!bky[~n+h	/b-k-y/	vb G prefc. 3 f. sg. + 3 m. sg. suff.	to weep	'she bewails him'.
 # KTU 1.6 I:17							
 159341	w	w 	w	w	conj.	and	
@@ -378,7 +378,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159563	w	w 	w	w	conj.	and	
 159564	ḥxxxxxxxxx	ḥ[xxxxxxxxx]	?	?	?	?	## DULAT: NOT FOUND.
 # KTU 1.6 II:3							
-159565	kd	kd  	kd(II)	kd (II)	conj.	as, since	DULAT cites kd (II) here (broken context); kd (I) 'jar' not excluded.
+159565	kd	kd  	kd(II)	kd (II)	conj.	as, since	DULAT cites kd (II); kd (I) “jar” is not excluded.
 159566	tṯbr	t[ṯbr  ]  	!t!ṯbr[	/ṯ-b-r/	vb G prefc. 3 f. sg.	to break	Ksenia reads N (!t!](n]ṯbr[).
 159567	xxxxx	[xxxxx]	?	?	?	?	
 # KTU 1.6 II:4							
@@ -398,8 +398,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159579	lb	lb  	lb/	lb	n. m. sg. cstr. nom.	heart	
 159580	arḫ	ar[ḫ]	arḫ/	ảrḫ	n. f. sg. abs. gen.	cow	'like the heart of a cow for her calf'.
 # KTU 1.6 II:7							
-159581	l	l 	l(I)	l (I)	prep.	to	Split ## Migrated from legacy reviewed tokenization.
-159582	xˤglh	[[x]]ʿglh    	ˤgl(I)/+h=	ʕgl (I)	n. m. sg. cstr. gen. + 3 f. sg. suff.	calf	Split ## Migrated from legacy reviewed tokenization.
+159581	l	l 	l(I)	l (I)	prep.	to	
+159582	xˤglh	[[x]]ʿglh    	ˤgl(I)/+h=	ʕgl (I)	n. m. sg. cstr. gen. + 3 f. sg. suff.	calf	
 159583	k	k 	k(I)	k (I)	prep.	like	
 159584	lb	lb  	lb/	lb	n. m. sg. cstr. nom.	heart	
 159585	ṯat	ṯa[t]	ṯa(t/t	ṯảt	n. f. sg. abs. gen.	ewe	
@@ -580,7 +580,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159725	ˤṣrm	ʿṣrm  	ˤṣr(I)/m	ʕṣr (I)	n. f. pl. abs. nom.	bird	EUPT genders m.
 159726	mnth	mnth  	mn(t(I)/t+h	mnt (I)	n. f. sg. cstr. acc. + 3 m. sg. suff.	portion, ration	'his portions the fliers consume'.
 159727	l	l 	l(III)	l (III)	functor	certainly	
-159728	tklyy	tkly[[y]]	!t!kly[&y:d	/k-l-y/	vb D prefc. 3 f. sg.	to finish (off), consume	Final y superfluous (dittography?); Ksenia reads suffix +y.
+159728	tklyy	tkly[[y]]	!t!kly[:d	/k-l-y/	vb D prefc. 3 f. sg.	to finish (off), consume	
 # KTU 1.6 II:37							
 159729	nprm	npr[m]    	npr(I)/m	npr (I)	n. m. pl. abs. nom.	flyer, bird	
 159730	šir	šir  	šir(I)/	šỉr (I)	n. m. sg. abs. nom.	flesh	šir l šir yṣḥ 'flesh cries out to flesh' (DULAT).
@@ -637,7 +637,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159770	aliyn	aliyn  	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 159771	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 III:9							
-159772	xk	[[x]]k  	?	?	?	?	= [w] k (III) 'that'? (broken).
+159772	xk	[[x]]k  	?	?	?	?	Possibly [w] k (III) “that.”
 159773	iṯ	iṯ  	iṯ(I)/	ỉṯ (I)	n. m. sg. abs. nom.	presence, existence	
 159773	iṯ	iṯ  	iṯ(I)	ỉṯ (I)	existential functor	there is	DULAT ỉṯ (I) n. 'existence', functions as existential particle (EUPT: Existenzpart.).
 159774	zbl	zbl  	zbl(I)/	zbl (I)	n. m. sg. cstr. nom.	prince	
@@ -892,17 +892,17 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159970	ksi	ksi  	ks(u/&i	ks/śủ	n. m. sg. cstr. gen.	seat, throne	
 159971	mlkh	mlkh	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	kingdom	'his kingdom'.
 # KTU 1.6 V:6							
-159972	l	l[ ] 	l(I)	l (I)	prep.	to	## Migrated from legacy reviewed tokenization.
-159973	nḫt	[n]ḫ[t]    	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan	## Migrated from legacy reviewed tokenization.
+159972	l	l[ ] 	l(I)	l (I)	prep.	to	
+159973	nḫt	[n]ḫ[t]    	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan	
 159974	l	l 	l(I)	l (I)	prep.	on	
 159975	kḥṯ	kḥṯ  	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
 159976	drkth	drkth	drk(t/t+h	drkt	n. f. sg. cstr. gen. + 3 m. sg. suff.	rule, power	'the throne of his dominion'.
 # KTU 1.6 V:7							
 159977	l	l 	l(III)	l (III)	functor	certainly	
-159978	ymm	[y]mm    	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	## Migrated from legacy reviewed tokenization.
-159978	ymm	[y]mm    	ym(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	## Migrated from legacy reviewed tokenization.
+159978	ymm	[y]mm    	ym(I)/m	ym (I)	n. m. pl. abs. nom.	day	
+159978	ymm	[y]mm    	ym(II)/~m	ym (II)	n. m. abs. nom. sg.	sea	
 159979	l	l 	l(III)	l (III)	functor	certainly	
-159980	yrḫml	yrḫm . l 	?	?	?	?	## Migrated from legacy reviewed tokenization. DULAT: NOT FOUND.
+159980	yrḫml	yrḫm . l 	yrḫ/m l(I)	yrḫ | l (I)	n. m. pl. abs. gen. | prep.	month | over	EUPT reads l yrḫm l yrḫm, “over months, over months.”
 159981	yrḫm	yrḫm	yrḫ/m	yrḫ	n. m. pl. abs. gen.	month	
 # KTU 1.6 V:8							
 159982	l	l 	l(III)	l (III)	functor	certainly	
@@ -913,7 +913,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 V:9							
 159987	šnt	šnt  	šn(t(I)/t	šnt (I)	n. f. sg. abs. gen.	year	
 159988	w	w 	w	w	conj.	and	
-159989	kr	kr  	kr[	/k-r/	vb G suffc. 3 m. sg.	to be furious, enraged	DULAT also cites /r-k(-k)/ 'to relent' here; broken sense.
+159989	kr	kr  	kr[	/k-r/	vb G suffc. 3 m. sg.	to be furious, enraged	DULAT also cites /r-k(-k)/ “to relent” at this attestation.
 159990	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 159991	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	bn ilm mt 'the son of El/the gods, Môt'; or il + encl. -m.
 159991	ilm	ilm  	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
@@ -961,7 +961,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160025	ˤlk	ʿlk  	ˤl(I)+k	ʕl (I)	prep. + 2 m. sg. suff.	upon, against	
 160026	pht	pht  	ph(y[t	/p-h-y/	vb G suffc. 1 c. sg.	to see, experience	
 160027	ġly	ġly  	!!ġly[/	/ġ-l-y/	vb G inf. abs. acc.	wasting away	DULAT: 'to lose the proper aspect, vitality': ʕlk pht ġly b šdm.
-160028	b	[[b ]] 	b	b	prep.	in	b š[dm] broken off at line end, rewritten at the start of V:18.
+160028	b	[[b ]] 	?	?	?	?	
 160029	š	[[š]]	?	?	?	?	Incomplete šdm, rewritten in V:18 (scribal); Ksenia: š 'ram'.
 # KTU 1.6 V:18							
 160030	b	b 	b	b	prep.	in	
@@ -995,8 +995,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160052	ttn	ttn	!t=!(ytn[	/y-t-n/	vb G prefc. 2 m. sg.	to give	
 # KTU 1.6 V:23							
 160053	w	w 	w	w	conj.	and	
-160054	hn	hn  	hn	hn	deictic functor	behold!	DULAT cites hn here (broken context).
-160055	aḥẓxxxxl	aḥẓx[xxx]l	?	?	?	?	DULAT: ảḥẓx[ in broken context (1.6 V 23).
+160054	hn	hn  	hn	hn	deictic functor	behold!	DULAT cites hn at this attestation.
+160055	aḥẓxxxxl	aḥẓx[xxx]l	?	?	?	?	DULAT cites ảḥẓx[ at 1.6 V 23.
 # KTU 1.6 V:24							
 160056	xdxx	[x]dxx    	?	?	?	?	
 160057	akly	akly[  ]  	!(ʔ&a!kly[:d	/k-l-y/	vb D prefc. 1 c. sg.	to finish (off), consume	'I will consume humans, consume the multitudes of the earth' (Mot); or ảkl + -y 'my food'.
@@ -1023,29 +1023,29 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160071	ṭrdh	[ṭ]rdh	ṭrd[+h	/ṭ-r-d/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to expel, throw out	DULAT cites /ṭ-r-d/ here.
 # KTU 1.6 VI:2							
 160072	xxxxxxx	[xxxxxxx  ]  	?	?	?	?	
-160073	gršh	[g]ršh	grš[+h	/g-r-š/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to drive out, evict	DULAT cites /g-r-š/ here (broken context).
+160073	gršh	[g]ršh	grš[+h	/g-r-š/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to drive out, evict	DULAT cites /g-r-š/ at this attestation.
 # KTU 1.6 VI:3							
 160074	xxxxx	[xxxxx ] 	?	?	?	?	
-160075	k	[k ] 	k(I)	k (I)	prep.	like	
+160075	k	[k ] 	k(I)	k (I)	prep.	like	No source supports k (II) or k (III) here.
 160076	ˤṣr	[ʿṣ]r  	ˤṣr(I)/	ʕṣr (I)	n. f. sg. abs. gen.	bird	k ˤṣr 'like a bird'.
 160077	u	u	udn(II)/+h	ủdn (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	(place of) dominion, power	MERGE WITH THE NEXT: u | dnh = udnh, one word split across the VI:3/VI:4 line break. The same expulsion formula stands at 1.3 IV:2, mšṣṣ k ˤṣr udnh gršh, where DULAT cites ủdn (II) '(place of) dominion'. ## The tokenization splits this word at the line break; logged in docs/tf-0.2.8-tokenizer-problems.tsv.
 # KTU 1.6 VI:4							
 160078	dnh	[dnh  ]  	udn(II)/+h	ủdn (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	(place of) dominion, power	MERGE WITH THE PREVIOUS.
-160079	ytn	[ytn  ]  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+160079	ytn	[ytn  ]  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	No independent source supports the prefix-conjugation alternative.
 160080	aḫh	[aḫ]h	aḫ(I)/+h	ảḫ (I)	n. m. sg. cstr. acc. + 3 m. sg. suff.	brother (by blood)	
 # KTU 1.6 VI:5							
 160081	xxxxxxxxx	[xxxxxxxxx]  	?	?	?	?	
-160082	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	
+160082	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	EUPT reads the divine name Môtu.
 # KTU 1.6 VI:6							
 160083	xxxxxx	[xxxxx]x    	?	?	?	?	
-160084	gmr	gmr  	gmr/	gmr	n. m. sg. cstr.	champion, fighter	gmr limm 'champion of the peoples' (DULAT, broken context).
+160084	gmr	gmr  	gmr/	gmr	n. m. sg. cstr.	champion, fighter	DULAT reads gmr limm, “champion of the peoples.”
 160085	limm	limm	lim(I)/m	lỉm (I)	n. m. pl. abs. gen.	people, clan	
 # KTU 1.6 VI:7							
 160086	xxxxxx	[xxxxx]x    	?	?	?	?	
 160087	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr.	son	
 160088	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	Or il + encl. -m: 'son of El'.
 160088	ilm	ilm  	il(I)/~m	ỉl (I)	DN m. sg. abs. gen. + encl. -m	ʾIlu/El	EUPT reads singular DN il + enclitic -m: 'son of El, Mot'.
-160089	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	
+160089	mt	mt	mt(II)/	mt (II)	DN m. sg. abs.	Môt	EUPT and Burns read the divine name in bn ilm mt, “Môtu, son of Ilu.”
 # KTU 1.6 VI:8							
 160090	xxu	[xx]u    	?	?	?	?	= [yš/tš]u?
 160091	šbˤt	šbʿt  	šbˤ(I)/t	šbʕ (I)	num. f. sg. cstr.	seven	EUPT reads feminine singular construct.
@@ -1057,12 +1057,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160095	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160096	ilm	ilm 	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 160096	ilm	ilm 	il(I)/~m	ỉl (I)	DN m. sg. abs. gen. + encl. -m	ʾIlu/El	EUPT reads singular DN il + enclitic -m: 'son of El, Mot'.
-160097	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
+160097	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	EUPT and Burns read Môtu in bn ilm mt.
 # KTU 1.6 VI:10							
 160098	p	p 	p(I)	p (I)	conj. functor	and	DULAT: p hn aḫym ytn bˤl spuy 'Behold, Baal has given my own brothers as my food' (Mot).
 160099	hn	hn  	hn	hn	deictic functor	behold!	
 160100	aḫym	aḫym  	aḫ(I)/+y~m	ảḫ (I)	n. m. pl. cstr. acc. + 1 c. sg. suff. + encl. -m	brother (by blood)	'my (own) brothers'.
-160101	ytn	ytn  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
+160101	ytn	ytn  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	DULAT cites the exact phrase and EUPT reads G suffix conjugation 3 m. sg., “Baal has given”; the prefix-conjugation alternative is rejected.
 160102	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 160103	s	[[s]]	?	?	?	?	Incomplete spuy, rewritten at the start of VI:11 (scribal).
 # KTU 1.6 VI:11							
@@ -1083,7 +1083,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160116	yṣḥ	yṣḥ	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 # KTU 1.6 VI:14							
 160117	aḫym	aḫym  	aḫ(I)/+y~m	ảḫ (I)	n. m. pl. cstr. acc. + 1 c. sg. suff. + encl. -m	brother (by blood)	'my own brothers you gave, O Baal, as my food'.
-160118	ytnt	ytnt  	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give	
+160118	ytnt	ytnt  	ytn[t=	/y-t-n/	vb G suffc. 2 m. sg.	to give	EUPT reads G suffix conjugation 2 m. sg., “you have given.”
 160119	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 VI:15							
 160120	spuy	spuy  	!!sp(ʔ&u[/+y	/s-p-ʔ/	vb G inf. + 1 c. sg. suff.	food, devouring	
@@ -1093,6 +1093,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:16							
 160124	yy	yy  	!!kly[/+y:d	/k-l-y/	vb D inf. + 1 c. sg. suff.	consuming, destruction	MERGE WITH THE PREVIOUS.
 160125	ytˤn	ytʿn  	!y!tˤ[~n	/t-ʕ/	vb G prefc. 3 m. du.	to attack	DULAT cites /t-ʕ/ here: 'they attacked each other like champions'.
+160125	ytˤn	ytʿn  	!y!(]n]tˤ[n	/t-ʕ/	vb N prefc. 3 m. du.	to attack	DULAT also tags this exact form N, prefc.; Ksenia independently retains the N reading. The unwritten N formative is reconstructed canonically before the root.
 160125	ytˤn	ytʿn  	!y!(n]t](wˤ[n	?	vb Gt prefc. 3 m. du.	to shake each other	Not in DULAT. Tropper p. 522 analyses ytˤn as Gt PKL 3 m. du. of √nwʿ with reciprocal sense; EUPT agrees.
 160126	k	k 	k(I)	k (I)	prep.	like	
 160127	gmrm	gmrm	gmr/m	gmr	n. m. du. abs. gen.	champion, fighter	
@@ -1105,35 +1106,35 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:18							
 160133	k	k 	k(I)	k (I)	prep.	like	
 160134	rumm	rumm  	rum/m	rủm	n. m. du. abs. gen.	wild bull	
-160135	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
-160136	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
+160135	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	EUPT reads Môtu as the subject of ˤz, “was strong.”
+160136	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	EUPT reads G suffix conjugation 3 m. sg., “Môtu was strong”; the nominal and other homonym candidates are rejected.
 160137	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.6 VI:19							
-160138	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
+160138	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	Continuation of the EUPT clause “Baal was strong”; the nominal and other homonym candidates are rejected.
 160139	ynṯkn	ynṯkn  	!y!]n](nṯk[n	/n-ṯ-k/	vb N prefc. 3 m. du.	to bite each other	DULAT tags ynṯkn [N, prefc.] here, 'they bit each other like serpents'; EUPT reads yinnaṯikāni, N-PKL 3.m.du. The root also has a G ('to bite', 1.107:4), but not at this line.
 160140	k	k 	k(I)	k (I)	prep.	like	
 160141	bṯnm	bṯnm	bṯn/m	bṯn	n. m. du. abs. gen.	serpent	
 # KTU 1.6 VI:20							
-160142	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
-160143	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
+160142	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	EUPT reads Môtu in the repeated combat refrain.
+160143	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	EUPT reads G suffix conjugation 3 m. sg. in the repeated “Môtu was strong” refrain; nominal alternatives are rejected.
 160144	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
-160145	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	
+160145	ˤz	ʿz  	ˤz[	/ʕ-z(-z)/	vb G suffc. 3 m. sg.	to be strong	EUPT reads G suffix conjugation 3 m. sg. in the repeated “Baal was strong” refrain; nominal alternatives are rejected.
 160146	ymṣḫn	ymṣḫn	!y!(]n]mṣ(ḥ&ḫ[n	/m-ṣ-ḥ/	vb N prefc. 3 m. du.	to drag each other	DULAT gives 'N. To pull (each other): ymṣḫn k lsmm … 1.6 VI 20 (// ynṯkn)'. Tropper p. 537 derives ymṣḫn /yimmaṣiḫāni/ < *yinmaṣiḫāni, PKL 3.m.du., with reciprocal sense — the -mm- is the N formative assimilated into root-initial /m/, so it is unwritten and reconstructed. The texts write ḫ where DULAT's lexeme and its listed forms (ymṣḥ, mṣḥ{) have ḥ. ## Tropper (√mṣḫ) and EUPT (lemma mṣḫ) both spell the root with ḫ against DULAT's /m-ṣ-ḥ/, and DULAT's structured stem list for the entry records only G though its article gives the N at this line.
 # KTU 1.6 VI:21							
-160147	k	k 	k(I)	k (I)	prep.	like	
+160147	k	k 	k(I)	k (I)	prep.	like	EUPT construes the combat comparison “like two swift animals”; the clitic and other k homonyms are unsupported.
 160148	lsmm	lsmm  	lsm/m	lsm	subst. m. pl. abs. gen.	swift (courser)	DULAT lists lsmm as plural of lsm 'swift'.
 160148	lsmm	lsmm  	lsm/m	lsm	subst. m. du. abs. gen.	swift (courser)	Tropper p. 537 and EUPT analyse lsmm as dual in the reciprocal duel simile.
 160149	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
 160150	ql	ql	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	mt ql bˤl ql 'Mot falls, Baal falls' (DULAT).
 # KTU 1.6 VI:22							
 160151	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
-160152	ql	ql  	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	
+160152	ql	ql  	ql[	/q-l/	vb G suffc. 3 m. sg.	to fall (down)	DULAT cites mt ql bˤl ql under /q-l/, and EUPT translates “Môtu fell, Baal fell”; the noun ql “voice” is rejected.
 160153	ˤln	ʿln  	ˤl(I)~n	ʕl (I)	prep. + encl. -n	above	DULAT cites ʕl (I) + -n (I): ˤln špš tṣḥ 'from above Šapšu calls'.
 160154	špš	špš	špš/	špš	DN f. sg. abs. nom.	Šapšu/Shapsh	
 # KTU 1.6 VI:23							
 160155	tṣḥ	tṣḥ  	!t!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 f. sg.	to exclaim, call	
 160156	l	l 	l(I)	l (I)	prep.	to	
-160157	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. gen.	Môt	
+160157	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. gen.	Môt	DULAT and EUPT read the addressee Môtu after l; common-noun and verbal homonyms are rejected.
 160158	šmˤ	šmʿ  	!!šmˤ[	/š-m-ʕ/	vb G impv. m. sg.	to hear	'Hear now, O divine Mot'.
 160159	mˤ	mʿ	mˤ(I)	mʕ (I)	postpositional emph. adv.	please!	
 # KTU 1.6 VI:24							
@@ -1141,7 +1142,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160161	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 160162	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	Or il + encl. -m: 'son of El'.
 160162	ilm	ilm  	il(I)/~m	ỉl (I)	DN m. sg. abs. gen. + encl. -m	ʾIlu/El	EUPT reads singular DN il + enclitic -m: 'son of El, Mot'.
-160163	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
+160163	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	DULAT, EUPT, and Burns read the divine name in bn ilm mt; common-noun and verbal homonyms are rejected.
 160164	ik	ik  	ik	ỉk	interr. functor	how?, why?	'How can you fight with Mightiest Baal?'
 160165	tmtḫ	tmtḫ	!t=!m]t]ḫṣ[	/m-ḫ-ṣ/	vb Gt prefc. 2 m. sg.	to fight	MERGE WITH THE NEXT: tmtḫ+ṣ = tmtḫṣ, split across lines VI:24/25; DULAT: ik tmtḫṣ ˤm aliyn bˤl.
 # KTU 1.6 VI:25							
@@ -1167,8 +1168,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160182	ksa	ksa  	ks(u/&a	ks/śủ	n. f. sg. cstr. acc.	seat, throne	'the throne of your kingship' (acc. -a).
 160183	mlkk	mlkk	mlk(II)/+k	mlk (II)	n. m. sg. cstr. gen. + 2 m. sg. suff.	kingdom	'the throne of your kingdom' (acc. ksa).
 # KTU 1.6 VI:29							
-160184	l	l  	l(III)	l (III)	functor	surely	
-160185	yṯbr	yṯbr  	!y!ṯbr[	/ṯ-b-r/	vb G prefc. 3 m. sg.	to break, shatter	
+160184	l	l  	l(III)	l (III)	functor	surely	DULAT cites l yṯbr ḫṭ mṯpṭk, and EUPT reads an affirmative particle, “surely”; prepositional and negative l are rejected.
+160185	yṯbr	yṯbr  	!y!ṯbr[	/ṯ-b-r/	vb G prefc. 3 m. sg.	to break, shatter	DULAT and EUPT read /ṯ-b-r/ G prefix conjugation 3 m. sg.
 160186	ḫṭ	ḫṭ  	ḫṭ/	ḫṭ	n. m. sg. cstr. acc.	sceptre, rod	
 160187	mṯpṭk	mṯpṭk	mṯpṭ/+k	mṯpṭ/ẓ	n. m. sg. cstr. gen. + 2 m. sg. suff.	command, jurisdiction	DULAT mṯpṭ/ẓ 'command, jurisdiction': 'the sceptre of your rule'.
 # KTU 1.6 VI:30							
@@ -1184,6 +1185,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160195	il	il  	il(I)/	ỉl (I)	DN m. sg. abs. gen.	ʾIlu/El	
 160196	ġzr	ġzr  	ġzr/	ġzr	n. m. sg. abs. nom.	lad, hero	
 160197	yˤr	yʿr  	!y!ˤr[	/ʕ-r/	vb G prefc. 3 m. sg.	to be agitated	DULAT's primary reading: yˤr mt b qlh 'Mot became agitated in his fall'.
+160197	yˤr	yʿr  	!y!(]n]ˤr[	/ʕ-r/	vb N prefc. 3 m. sg.	to be agitated	DULAT also records an N-stem reading for this exact citation; Ksenia independently retains it. The unwritten N formative is reconstructed canonically before the root.
 160197	yˤr	yʿr  	!!yˤr[/	/y-ʕ-r/	vb G inf.	to be frightened	Tropper §73.513.3 analyses yˤr as a narrative infinitive; DULAT records this root as a dissenting reading here.
 160197	yˤr	yʿr  	yˤr[	/y-ʕ-r/	vb G suffc. 3 m. sg.	to be frightened	DULAT lists yˤr as a G suffix-conjugation form of /y-ʕ-r/.
 160198	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
@@ -1198,12 +1200,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:33							
 160205	bˤl	bʿl   	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 160206	yṯṯbn	yṯṯbn [ ]  	!y!](š&ṯ](yṯb[:pass~n	/y-ṯ-b/	vb Špass prefc. 3 m. sg. + energic -n	to be seated, enthroned	DULAT lists yṯṯbn as Š prefc. + suffix; Tropper §73.611.1 and p. 640 analyses it as Š-passive PKK 3 m. sg. + energic -n, 'he shall be enthroned'; EUPT agrees.
+160206	yṯṯbn	yṯṯbn [ ]  	!y!](š&ṯ](yṯb[~n	/y-ṯ-b/	vb Š prefc. 3 m. sg. + energic -n	to install, enthrone	DULAT's form table gives Š prefc. + suffix for this exact token; Ksenia independently identifies the Š stem. Tropper and EUPT prefer the Š-passive reading retained above.
 160207	l	[l ] 	l(I)	l (I)	prep.	on	
 160208	ksi	[ksi]	ks(u/&i	ks/śủ	n. f. sg. cstr. gen.	seat, throne	DULAT lists ks/śủ as feminine.
 # KTU 1.6 VI:34							
 160209	mlkh	mlkh  	mlk(II)/+h	mlk (II)	n. m. sg. cstr. gen. + 3 m. sg. suff.	kingdom	'his kingdom'.
-160210	l	l 	l(I)	l (I)	prep.	on	
-160211	nḫt	n[ḫt  ]  	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan, resting-place	
+160210	l	l 	l(I)	l (I)	prep.	on	EUPT reads the preposition governing nḫt, “on the resting-place”; negative and affirmative l are rejected.
+160211	nḫt	n[ḫt  ]  	nḫ(t/t	nḫt	n. f. sg. cstr. gen.	divan, resting-place	EUPT reads genitive feminine singular nḫt, “resting-place.”
 160212	l	[l ] 	l(I)	l (I)	prep.	on	
 160213	kḥṯ	[kḥṯ]	kḥṯ/	kḥṯ	n. m. sg. cstr. gen.	throne	
 # KTU 1.6 VI:35							
@@ -1217,7 +1220,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.6 VI:38							
 160219	xxxx	[xxxx  ]  	?	?	?	?	
 160220	šnt	šnt[            ]            	šn(t(I)/t	šnt (I)	n. f. sg.	year	DULAT lists šnt as singular.
-160220	šnt	šnt[            ]            	šn(t(I)/t=	šnt (I)	n. f. pl.	year	EUPT reads feminine plural; the broken context does not decide between singular and plural.
+160220	šnt	šnt[            ]            	šn(t(I)/t=	šnt (I)	n. f. pl.	year	EUPT reads feminine plural; the context does not decide between singular and plural.
 # KTU 1.6 VI:39							
 160221	xxxxxxxx	[xxxxx]xx[x  ]  	?	?	?	?	
 160222	il	[il  ]  	il(I)/	ỉl (I)	DN m. sg. abs.	ʾIlu/El	
@@ -1225,11 +1228,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160224	pid	pid	pid/	pỉd	n. m. sg. abs. gen.	heart	
 # KTU 1.6 VI:40							
 160225	xxxxxxx	[xxxxxxx ]   	?	?	?	?	
-160226	qbat	qbat	qb(ʔ&a[t===	/q-b-ʔ/	vb G suffc. 3 f. sg.	to summon	DULAT cites /q-b-ʔ/ here (broken context).
+160226	qbat	qbat	qb(ʔ&a[t===	/q-b-ʔ/	vb G suffc. 3 f. sg.	to summon	DULAT cites /q-b-ʔ/ at this attestation.
 # KTU 1.6 VI:41							
 160227	xxxx	[xxxx ] 	?	?	?	?	
-160228	bl	bl  	?	?	?	?	Broken: […]bl; /y-b-l/?
-160229	inšt	inšt	inš(t/t	ỉnšt	n. f. sg.	relatives	DULAT cites ỉnšt here (broken context).
+160228	bl	bl  	?	?	?	?	No secure analysis is available; /y-b-l/ remains possible.
+160229	inšt	inšt	inš(t/t	ỉnšt	n. f. sg.	relatives	DULAT cites ỉnšt at this attestation.
 # KTU 1.6 VI:42							
 160230	xxšu	[xx]šu    	?	?	?	?	= [tš/yš]u?
 160231	l	l 	l(III)	l (III)	functor	indeed	
@@ -1239,13 +1242,13 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160233	šir	[ši]r    	šir(I)/	šỉr (I)	n. m. sg. abs. acc.	flesh, meat	
 160234	ṭry	ṭry  	ṭry(I)/	ṭry (I)	adj. m. sg. abs. acc.	fresh	
 160235	ap	ap  	ap(I)	ảp (I)	adv./conj.	also	DULAT: ap l tlḥm lḥm trmmt 'so you may eat the sacrificial meal' (UNP).
-160236	l	l 	l(III)	l (III)	functor	indeed	
+160236	l	l 	l(III)	l (III)	functor	indeed	DULAT and EUPT read the affirmative particle before tlḥm, “indeed/eat!”; prepositional and negative l are rejected.
 160237	tlḥm	tlḥm	!t=!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 2 m. sg.	to eat	
 160237	tlḥm	tlḥm	!t==!lḥm(I)[	/l-ḥ-m/ (I)	vb G prefc. 2 f. sg.	to eat	EUPT reads G-PKK 2 f. sg.; the masculine reading is retained because the addressee is uncertain.
 # KTU 1.6 VI:44							
 160238	lḥm	lḥm  	lḥm/	lḥm	n. m. sg. cstr. acc.	food, bread	lḥm trmmt 'the bread of offering'.
 160239	trmmt	trmmt  	tr&mm(t/t	trmt	n. f. sg. abs. gen.	offering	DULAT: trmt; second m scribal (tr{m}mt).
-160240	l	l 	l(III)	l (III)	functor	indeed	
+160240	l	l 	l(III)	l (III)	functor	indeed	DULAT and EUPT read the affirmative particle before tšt, “indeed/drink!”; prepositional and negative l are rejected.
 160241	tšt	tšt	!t=!št(y[	/š-t-y/	vb G prefc. 2 m. sg.	to drink	'you may drink the offertory wine' (UNP).
 160241	tšt	tšt	!t==!št(y[	/š-t-y/	vb G prefc. 2 f. sg.	to drink	EUPT reads G-PKK 2 f. sg.; the masculine reading is retained because the addressee is uncertain.
 # KTU 1.6 VI:45							
@@ -1295,6 +1298,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160272	ḫss	ḫss	ḫss/	ḫss	DN m. sg. abs. nom.	Ḫasisu/Khasis	
 # KTU 1.6 VI:54							
 160273	spr	spr  	spr[	/s-p-r/	vb G suffc. 3 m. sg.	to write	DULAT cites spr ilmlk here as 'Ilimilku wrote (it)'.
+160273	spr	spr  	spr[:d	/s-p-r/	vb D suffc. 3 m. sg.	to write	DULAT records both G and D stems for this exact citation; Ksenia independently retains both stem readings.
 160273	spr	spr  	spr(I)/	spr (I)	n. m. sg. abs. nom.	scribe	EUPT takes the colophon nominally: 'the scribe is Ilimilku' (// 1.4 VIII:49).
 160274	ilmlk	ilmlk 	ilmlk/	ỉlmlk	PN m. sg.	Ilimilku	
 160275	šbny	šbny	šbny/	šbny	GN m. sg.	Shubanite	DULAT: GN < šbn (TN).
@@ -1305,7 +1309,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 160279	rb	rb 	rb(II)/	rb (II)	n. m. sg. cstr.	chief	rb khnm 'chief of the priests'.
 # KTU 1.6 VI:56							
 160280	khnm	khnm 	khn(I)/m	khn (I)	n. m. pl. abs. gen.	priest	
-160281	rb	rb  	rb(II)/	rb (II)	n. m. sg. cstr.	chief	rb nqdm 'chief of the herdsmen'.
+160281	rb	rb  	rb(II)/	rb (II)	n. m. sg. cstr.	chief	DULAT cites rb nqdm here as “head/chief shepherd.”
 160282	nqdm	nqdm	nqd/m	nqd	n. m. pl. abs. gen.	(head) shepherd	
 # KTU 1.6 VI:57							
 160283	ṯˤy	ṯʿy  	ṯˤy(I)/	ṯʕy (I)	n. m. sg. cstr.	minister, officiant	ṯˤy nqmd 'officiant of Niqmaddu, king of Ugarit'.

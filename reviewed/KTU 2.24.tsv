@@ -1,0 +1,42 @@
+id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
+# KTU 2.24 1							
+176620	l	l  	l(I)	l (I)	prep.	to	
+176621	mlkt	mlkt	mlk(t/t	mlkt	n. f. sg. cstr. gen.	queen	Recipient after l; DULAT directly cites the royal title at KTU 2.24:1.
+# KTU 2.24 2							
+176622	adty	adty  	ad(t/t+y	ảdt	n. f. sg. cstr. gen. + 1 c. sg. suff.	my lady	DULAT cites the title.
+176623	rgm	rgm	!!rgm[	/r-g-m/	vb G impv. 2 f. sg.	to say	Opening directive addressed to the queen, exactly parallel to KTU 2.11–2.13 and supported by the letter-address structure.
+# KTU 2.24 3							
+176624	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. acc.	message	“Say: the message of Ỉllḏr.”
+176625	illḏr	illḏr	illḏr/	ỉllḏr(m)	PN m. sg. abs. gen.	Ỉllḏr	DULAT directly identifies this Hurro-Anatolian personal name at KTU 2.24:3; it is the genitive sender in the address formula.
+# KTU 2.24 4							
+176626	ˤbdk	ʿbdk	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 f. sg. suff.	your servant	
+# KTU 2.24 5							
+176627	l	l  	l(I)	l (I)	prep.	at	Tropper §41.221.1b cites l pʕn ảdty, “at the feet of my lady.”
+176628	pˤn	pʿn 	pˤn/	pʕn	n. f.	at the feet of	
+176629		[  ]  	?	?	?	?	
+176630		 	?	?	?	?	
+176631	adty	a[d]ty	ad(t/t+y	ảdt	n. f. sg. cstr. gen. + 1 c. sg. suff.	my lady	
+# KTU 2.24 6							
+176632	šbˤd	šbʿd   	šbˤd	šbʕ(ỉ)d	adv.	seven times	First half of the standard “seven times and seven times” prostration formula; Tropper §65.32 directly cites KTU 2.24:5–7.
+176633	w	w  	w	w	conj.	and	
+176634	šbˤd	šb[ʿd]	šbˤd	šbʕ(ỉ)d	adv.	seven times	Second half of the standard prostration formula; the internal restoration is secure from the parallel phrase.
+# KTU 2.24 7							
+176635	mrḥqtm	mrḥqt[m ]  	mrḥq(t/t~m	mrḥqt	n. f. sg. abs. acc. + encl. -m	distance, from afar	Compare the prostration formula in KTU 2.11–2.12.
+176636	qlt	ql[t]	ql[t	/q-l/	vb G suffc. 1 c. sg.	to fall down	First-person epistolary/perfomative prostration, “I fall down,” as Tropper §65.32's directly cited formula requires.
+# KTU 2.24 8							
+176637	hlny	h[ln]y [ ]  	hlny	hlny	deictic adv. functor	behold, here	DULAT directly cites the deictic introduction; Tropper §81.4e gives the standard “here, with me everything is well” formula.
+176638	ˤmny	[ʿm]ny	ˤm(I)~n+y	ʕm (I)	prep. + encl. -n + 1 c. sg. suff.	with me	Tropper §41.221.1d identifies expanded ʕm-n plus 1cs -y.
+# KTU 2.24 9							
+176639	kll	[kll  ]  	kll/	kll	n. m. sg. abs. acc.	totality, completely	Tropper §45.23 parses kll as an adverbial accusative in the well-being formula.
+176640	šlm	[šlm]	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	Standard formula: “with me everything is well.”
+# KTU 2.24 10							
+176641	ṯmny	ṯm[ny  ]  	ṯm~n~y	ṯm	adv. + encl. -n + encl. -y	there	Tropper §81.12d directly cites this fixed epistolary adverb and analyses ṯm-n plus enclitic -y.
+176642	ˤm	[ʿm ]  	ˤm(I)	ʕm (I)	prep.	with	
+176643	adty	a[dty]	ad(t/t+y	ảdt	n. f. sg. cstr. gen. + 1 c. sg. suff.	my lady	DULAT directly attests this occurrence; -y is the sender's 1cs suffix.
+# KTU 2.24 11							
+176644	mnm	mnm [ ]  	mnm	mnm	indef. pn.	everything, anything	Standard question: “is everything well with my lady?”
+176645	šlm	[šlm]	šlm[	/š-l-m/	vb G suffc. 3 m. sg.	to be well	
+# KTU 2.24 12							
+176646	rgm	rgm [ ]  	rgm/	rgm	n. m. sg. abs. acc.	word, message	De Moor reads “send a message back to me.”
+176647	ṯṯb	[ṯṯb  ]  	](š&ṯ]ṯb[	/ṯ-b/	vb Š impv. 2 f. sg.	to send back word, reply	Feminine imperative addressed to the queen, parallel to KTU 2.11 and 2.13; assimilated Š marker follows the established encoding.
+176648	ly	[ly]	l(I)+y	l (I)	prep. + 1 c. sg. suff.	to me	
