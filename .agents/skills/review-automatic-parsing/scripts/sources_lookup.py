@@ -51,16 +51,35 @@ DIFF_RE = re.compile(r"\(([^()]{0,400}?\bdiff\.[^()]{0,400}?)\)")
 BURNS_COL = re.compile(r"^([IVX]+)\.(.*)$")
 
 
-def to_cat(ktu: str) -> str:
+def to_ref(ktu: str) -> str:
     m = re.match(r"(?:KTU\s*)?(\d+\.\d+)(?::([IVX]+))?(?::(\d+))?$", ktu.strip())
     if not m:
         raise SystemExit("reference form: 1.14 | 1.14:IV | 1.14:IV:35")
     tab, col, line = m.group(1), m.group(2), m.group(3)
-    out = "CAT " + tab
+    out = "KTU " + tab
     if col:
         out += " " + col
         if line:
             out += ":" + line
+    elif line:
+        # The modules cache normalizes physically columnless texts as column I.
+        out += " I:" + line
+    return out
+
+
+def to_dulat_ref(ktu: str) -> str:
+    """Return the DULAT reverse-index key, which omits synthetic column I."""
+    m = re.match(r"(?:KTU\s*)?(\d+\.\d+)(?::([IVX]+))?(?::(\d+))?$", ktu.strip())
+    if not m:
+        raise SystemExit("reference form: 1.14 | 1.14:IV | 1.14:IV:35")
+    tab, col, line = m.group(1), m.group(2), m.group(3)
+    out = "KTU " + tab
+    if col:
+        out += " " + col
+        if line:
+            out += ":" + line
+    elif line:
+        out += ":" + line
     return out
 
 
@@ -70,32 +89,52 @@ def wrap(text, indent="      ", width=96):
                          subsequent_indent=indent) if text else indent + "(empty)"
 
 
+def dulat_scope_query(ref: str):
+    """Return a reverse-index query for one line or an aggregate ref scope.
+
+    ``--ktu`` intentionally accepts a whole tablet or column as well as one
+    line.  An equality-only lookup made those aggregate forms misleadingly
+    report zero DULAT citations even when line-level rows existed below them.
+    """
+    if ":" in ref:
+        return (
+            "select norm_ref, entry_id, payload from dulat_reverse_refs "
+            "where norm_ref=? order by norm_ref, entry_id",
+            (ref,),
+        )
+    return (
+        "select norm_ref, entry_id, payload from dulat_reverse_refs "
+        "where norm_ref=? or norm_ref like ? or norm_ref like ? "
+        "order by norm_ref, entry_id",
+        (ref, ref + ":%", ref + " %"),
+    )
+
+
 def show_dulat(ref: str, args):
     db = sources.locate("dulat_search", args.dulat_search, required=False)
     if db is None:
         print("DULAT citations: (dulat_search database not located; set CUC_DULAT_SEARCH_DB)")
         return
     con = sources.connect_ro(db)
-    rows = list(con.execute(
-        "select entry_id, payload from dulat_reverse_refs where norm_ref=? order by entry_id",
-        (ref,)))
+    query, params = dulat_scope_query(ref)
+    rows = list(con.execute(query, params))
     print("DULAT entries cited at %s: %d" % (ref, len(rows)))
-    for entry_id, payload in rows[: args.limit]:
+    for norm_ref, entry_id, payload in rows[: args.limit]:
         try:
             d = json.loads(payload)
         except Exception:
             continue
         label = re.sub(r"<[^>]+>", "", d.get("label") or "").strip()
         senses = d.get("sense_labels") or []
-        print("  entry %-6s %s" % (entry_id, label or "(no label)"))
+        print("  %-18s entry %-6s %s" % (norm_ref, entry_id, label or "(no label)"))
         if senses:
             print(wrap(senses[0][:400]))
     con.close()
 
 
 def dulat_citation(ref: str) -> str:
-    """'CAT 1.14 IV:35' -> '1.14 IV 35', the form DULAT uses inside its articles."""
-    return ref.replace("CAT ", "").replace(":", " ")
+    """'KTU 1.14 IV:35' -> '1.14 IV 35', the form DULAT uses inside its articles."""
+    return re.sub(r"^(?:CAT|KTU)\s+", "", ref).replace(":", " ")
 
 
 def show_dulat_diff(ref: str, args):
@@ -167,7 +206,10 @@ def show_burns(ktu_ref: str, args):
     hits = burns_index(root_dir).get((tablet, column, line), [])
     print("\nBurns (2003) cultic-vocabulary workbooks at KTU %s: %d row(s)" % (ktu_ref, len(hits)))
     if not hits:
-        print("  (not treated here — Burns covers cultic vocabulary and onomastica, not every token)")
+        print(
+            "  (not treated here — Burns covers cultic vocabulary and onomastica, "
+            "not every token)"
+        )
         return
     seen = set()
     for workbook, row in hits[: args.limit]:
@@ -291,10 +333,11 @@ def main() -> int:
         ap.print_help()
         return 1
 
-    ref = to_cat(args.ktu)
+    ref = to_ref(args.ktu)
+    dulat_ref = to_dulat_ref(args.ktu)
     tablet_ref = " ".join(ref.split()[:2])
-    show_dulat(ref, args)
-    show_dulat_diff(ref, args)
+    show_dulat(dulat_ref, args)
+    show_dulat_diff(dulat_ref, args)
     show_modules(ref, tablet_ref, args)
     show_burns(args.ktu, args)
     print("\nCite what you read, and keep translations' disagreements rather than "

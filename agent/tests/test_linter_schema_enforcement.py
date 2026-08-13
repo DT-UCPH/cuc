@@ -91,6 +91,30 @@ class LinterSchemaEnforcementTest(unittest.TestCase):
             any("Disallowed character in columns 2-3: ʿ" in issue.message for issue in issues)
         )
 
+    def test_reviewed_morphology_reconstructs_edited_reading(self) -> None:
+        issues = self._lint_reviewed_text(
+            self.HEADER_WITH_SIGN_SPAN
+            + "# KTU 1.test 1\t\t\t\t\t\t\t\n"
+            + "1\tgmpn\tg[[m]]pn\tgpn/\t?\tDN\tGapnu\t\n"
+        )
+        self.assertFalse(
+            any("Analysis does not reconstruct to surface" in issue.message for issue in issues)
+        )
+
+    def test_reviewed_editorial_ampersand_is_redundant(self) -> None:
+        issues = self._lint_reviewed_text(
+            self.HEADER_WITH_SIGN_SPAN
+            + "# KTU 1.test 1\t\t\t\t\t\t\t\n"
+            + "1\tgmpn\tg[[m]]pn\tg&mpn/\t?\tDN\tGapnu\t\n"
+        )
+        self.assertTrue(
+            any(
+                "Analysis does not reconstruct to surface" in issue.message
+                and "expected: gpn" in issue.message
+                for issue in issues
+            )
+        )
+
     def test_linter_flags_suffix_t_variant_that_does_not_match_surface(self) -> None:
         issues = self._lint_text(
             self.HEADER

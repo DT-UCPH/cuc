@@ -97,9 +97,50 @@ have one token in front of you.
 
 `legacy_align.py` aligns on line reference and surface, **not token id** — the
 legacy ids are from an older Text-Fabric id space. Its `DIFFER` rows on seeded
-tokens are the highest-value findings in the column: a human read the text and
-the parser contradicted them. Its `SPLIT/JOIN` rows are candidates for `MERGE
-WITH` pairs.
+tokens are high-value findings: a human read the text and the parser contradicted
+them. Ksenia, Elijah, and Alex all began from automatic parsing, so
+`REJECTED-AUTO` has a stronger, specific meaning: the reviewer saw an automatic
+alternative and deleted it. Treat that omission as an explicit rejection, not
+as silence; remove the option unless DULAT, Tropper, or another independent
+source supports it. This verdict requires comparison with the exact historical
+automatic basis; a current `SEEDED` marker alone is not proof. Tania worked from
+a blank slate, so her omissions are ordinary silence. Without a proved basis the
+tool reports `CURRENT-EXTRA` instead. `SPLIT/JOIN` rows are candidates for
+`MERGE WITH` pairs.
+
+The ordinary comparison can see only alternatives retained by the current
+seeder. To recover alternatives the reviewer deleted, compare the legacy file
+with the **exact historical automatic basis** they edited:
+
+```bash
+python3 <skill-dir>/scripts/legacy_align.py 2.14 \
+  --automatic-basis-ref 6b1017f \
+  --automatic-basis-path 'auto_parsing/0.2.6/KTU 2.14.tsv'
+```
+
+Identify the basis from repository history; never substitute today's automatic
+output. Automatic parsing is generated data and can change substantially between
+parser versions, so only the originating version proves that a reviewer saw and
+removed an option.
+
+For a current reviewed file whose author is independently known to have edited
+that automatic basis (Ksenia, Elijah, or Alex), use `--current-as-review` to
+recover every automatic option absent from the current retained set. Do not use
+this flag for Tania's blank-slate review or merely because the current file was
+seeded by a script.
+
+When an independent review lives only on a branch, read it reproducibly from
+that ref rather than copying it into the worktree. For example, Tania's later
+blank-slate letter CSVs can be compared with:
+
+```bash
+python3 <skill-dir>/scripts/legacy_align.py 2.14 \
+  --legacy-ref origin/Elijahs_Tagging \
+  --legacy-ref-path 'morphemes_files/KTU 2.14.csv' --legacy-csv
+```
+
+This is an ordinary evidence comparison, not an automatic-basis comparison, so
+Tania's omissions remain `CURRENT-EXTRA` rather than `REJECTED-AUTO`.
 
 `tropper_index.py` returns the printed pages where the reference grammar treats
 each line of the column, with the PDF page beside it. Run `build` once (and

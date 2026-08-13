@@ -7,8 +7,9 @@ the seed marker and every residual `?` on a legible surface carries a comment
 explaining why it stays unresolved.
 
 `?` on a broken or empty surface is normal and expected -- most of a damaged
-column is unresolvable. `?` on a legible surface with no comment is the defect
-class this reports as `undocumented`.
+column is unresolvable. Damage is read from the reviewed sign-span column, not
+restated in the public comment. `?` on an undamaged, legible surface with no
+comment is the defect class this reports as `undocumented`.
 
 Usage:
     review_status.py                     # every reviewed/*.tsv
@@ -32,7 +33,14 @@ SEED_MARK = "SEEDED from auto-parse"
 HEADER_RE = re.compile(r"^# KTU (\S+)(?: ([IVX]+):| )(\d+)")
 
 # Reviewed layout carries an extra "sign span" column that automatic output lacks.
-REVIEWED_IDX = {"id": 0, "surface": 1, "analysis": 3, "pos": 5, "comment": 7}
+REVIEWED_IDX = {
+    "id": 0,
+    "surface": 1,
+    "sign_span": 2,
+    "analysis": 3,
+    "pos": 5,
+    "comment": 7,
+}
 AUTO_IDX = {"id": 0, "surface": 1, "analysis": 2, "pos": 4, "comment": 6}
 
 
@@ -44,13 +52,21 @@ def repo_root(start: Path) -> Path:
 
 
 def field(row: list[str], idx: dict[str, int], key: str) -> str:
-    pos = idx[key]
+    pos = idx.get(key)
+    if pos is None:
+        return ""
     return row[pos].strip() if len(row) > pos else ""
 
 
-def is_broken(surface: str) -> bool:
-    """A surface with no legible reading: fully lost, or an `x` sign placeholder."""
-    return not surface or "x" in surface
+def is_broken(surface: str, sign_span: str = "") -> bool:
+    """Whether unresolved text visibly carries loss/damage in its data columns.
+
+    The normalized surface alone can remain alphabetic when part of a word is
+    restored, lost, excised, or marked redundant. Reviewed files preserve that fact in sign span,
+    so requiring a prose comment in those cases would redundantly publish the
+    same editorial information twice.
+    """
+    return not surface or "x" in surface or bool(re.search(r"[\[\]<>{}]", sign_span))
 
 
 def read_rows(path: Path):
@@ -81,6 +97,7 @@ def scan(path: Path):
     for column, row, idx in read_rows(path):
         tid = field(row, idx, "id")
         surface = field(row, idx, "surface")
+        sign_span = field(row, idx, "sign_span")
         analysis = field(row, idx, "analysis")
         pos = field(row, idx, "pos")
         comment = field(row, idx, "comment")
@@ -99,7 +116,7 @@ def scan(path: Path):
             continue
 
         if analysis == "?" or pos == "?":
-            if is_broken(surface):
+            if is_broken(surface, sign_span):
                 stat["q_broken"] += 1
             elif not comment:
                 stat["q_undocumented"] += 1

@@ -14,7 +14,8 @@ The two marks carry at least five unrelated phenomena at once:
                  (DULAT /m-ṣ-ḥ/ against attested mṣḫ)
   layout         a word split across a physical line, which TF stores in `cont`
 
-Only the first two belong in the analysis. This reports which is which, by
+Morphological, orthographic, and lexicographic alignment belong in the analysis;
+sign-level editorial deletions do not. This reports which is which, by
 aligning every surface letter the analysis produces against the same letter in
 the sign span, so an editorial claim can be checked against the editorial
 markup instead of guessed at.
@@ -139,8 +140,8 @@ def classify(letter, provenance, brackets):
     The bracket types do not mean the same thing for a '&' claim, which asserts
     that a letter is written but not lexical:
 
-      [[ ]] erased, { } excised  the editor has already said this letter is no
-                                 part of the reading -- '&' restates it
+      [[ ]] erased, { } excised  the editor has removed this letter from the
+                                 reading -- '&' wrongly restores it
       < >   supplied             the scribe never wrote it, so calling it a
                                  written letter contradicts the sign data
       [ ]   restored             damaged but part of the intended text, so
@@ -243,8 +244,8 @@ def main() -> int:
 
     print("""
   ortho     the aleph sign carrying a vowel -- orthography, belongs here
-  dup       the sign span already brackets this letter as an editorial act,
-            which Text-Fabric stores in `emen`; the analysis restates it
+  dup       the sign span removes this letter from the edited reading;
+            the analysis wrongly restores it with `&`
   unsupp    a surface-only letter with no editorial marking behind it
   lexical   a written radical the lexeme does not have (DULAT vs the texts)
   conflict  the analysis calls a letter written that the sign span says the

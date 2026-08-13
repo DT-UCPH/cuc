@@ -32,6 +32,7 @@ from pipeline.steps.deictic_functor_enclitic_m import DeicticFunctorEncliticMFix
 from pipeline.steps.dulat_enclitic_m import DulatEncliticMFixer
 from pipeline.steps.dulat_gate import DulatMorphGate
 from pipeline.steps.dulat_source_provenance import DulatSourceProvenanceAnnotator
+from pipeline.steps.editorial_morphology_normalizer import EditorialMorphologyNormalizer
 from pipeline.steps.feminine_t_singular_split import FeminineTSingularSplitFixer
 from pipeline.steps.function_word_clitic_notation import FunctionWordCliticNotationFixer
 from pipeline.steps.function_word_clitic_pruner import FunctionWordCliticPruner
@@ -78,7 +79,7 @@ from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
 from pipeline.steps.verbal_feature_completion import VerbalFeatureCompletionFixer
 from pipeline.steps.weak_final_sc import WeakFinalSuffixConjugationFixer
 from pipeline.steps.weak_verb import WeakVerbFixer
-from text_fabric.editorial_lookup import load_editorial_lookup_overrides
+from text_fabric.editorial_lookup import load_edited_reading_overrides
 
 
 @dataclass(frozen=True)
@@ -210,6 +211,7 @@ class TabletParsingPipeline:
             # After every repair step has run, tokens that still cannot
             # reconstruct fall back to '?' with a DULAT candidate hint.
             UnresolvableTokenFallback(),
+            EditorialMorphologyNormalizer(),
             DulatSourceProvenanceAnnotator(dulat_db=self.config.dulat_db),
             # Keep schema pass last so any content-changing steps still end in
             # strict 7-column/quote-safe TSV for GitHub rendering.
@@ -454,7 +456,7 @@ class TabletParsingPipeline:
         changed_total = 0
         for src in targets:
             out_file = self.config.out_dir / src.name
-            editorial_lookup_overrides = load_editorial_lookup_overrides(src)
+            editorial_lookup_overrides = load_edited_reading_overrides(src)
             rows, changed = refine.refine_file(
                 out_file,
                 out_file,

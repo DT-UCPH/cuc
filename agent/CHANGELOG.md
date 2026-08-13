@@ -1,3 +1,28 @@
+## 2026-08-13
+
+- Added the source-backed KTU 2.18:5 Š-stem analysis of `yššil`
+  (/š-ʔ-l/, Tropper §§74.622.1, 74.622.3) and the DULAT/Burns divine-name
+  classification of `šḥr` to the parser's reviewed override sources.
+- Expanded DULAT's initial-consonant alternation notation during lemma lookup,
+  so an entry such as `s:śkn (I)` is indexed under both `skn` and `śkn`.
+  This lets the ordinary surface-faithful analysis `skn(I)/` resolve to the
+  attested “prefect” homonym instead of falling back to unrelated `skn`
+  homonyms.
+- Made generic parsing overrides exact-surface-and-analysis scoped for DULAT
+  stem-inventory discrepancies, matching the existing reconstruction override
+  behavior. This preserves source-backed alternatives such as Tropper's D and
+  Dpass readings of KTU 2.16:12 `twḥln` without hiding related, unlisted stem
+  errors.
+- Added focused regressions proving that an exact override is informational
+  while a second analysis of the same surface remains an error unless it is
+  independently listed.
+- Extended that exact-pair scope to DULAT comment/analysis discrepancies, so
+  documented grammatical segmentations (`hnn~y`, `ṯmn~y`) do not broadly
+  whitelist other analyses of the same lexeme.
+- Personal-pronoun person/gender/number enrichment now normalizes to DULAT's
+  coarse `pers. pn.` head during POS validation, while remaining present in
+  the reviewed feature bundle.
+
 ## 2026-08-05
 
 - The linter now reports an analysis whose lexical skeleton contradicts the

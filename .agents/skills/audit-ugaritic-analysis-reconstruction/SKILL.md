@@ -1,6 +1,6 @@
 ---
 name: audit-ugaritic-analysis-reconstruction
-description: Verify that Ugaritic morphological analyses reconstruct their written surface forms in reviewed or automatic TSV files. Use when designing or reviewing marker encodings, diagnosing linter reconstruction failures, checking migrated token analyses, interpreting KTU erasure, redundant-sign, missing-sign, or restoration markup, or distinguishing a structurally valid parse from one that merely resembles the surface. Handles intentional `MERGE WITH` split-token rows as explicit exceptions; does not decide lexical or morphological correctness by reconstruction alone.
+description: Verify that Ugaritic morphological analyses reconstruct the edited linguistic reading in reviewed or automatic TSV files. Use when designing or reviewing marker encodings, diagnosing linter reconstruction failures, checking migrated token analyses, interpreting KTU erasure, redundant-sign, missing-sign, or restoration markup, or distinguishing a structurally valid parse from one that merely resembles the edited word. Handles intentional `MERGE WITH` split-token rows as explicit exceptions; does not decide lexical or morphological correctness by reconstruction alone.
 ---
 
 # Audit Ugaritic Analysis Reconstruction
@@ -27,12 +27,12 @@ The script auto-detects labeled TSV columns, uses `agent/pipeline/steps/analysis
 
 ## Diagnose a Mismatch
 
-1. Compare expected surface with the decoder's reconstructed output.
+1. Derive the expected edited reading from the sign span, then compare it with the decoder's reconstructed output.
 2. Locate the first differing letter.
 3. Classify it as lexical, formative, inflectional, suffixal, enclitic, allographic, editorial, or part of a migrated merged token.
 4. Check whether `(` was expected to hide more than one letter; it binds only one atom.
 5. Check marker ordering and whether a written letter was incorrectly represented as reconstructed or vice versa.
-6. For editorial notation, distinguish the normalized physical surface, corrected lexical lookup, selected lexeme, and final analysis. Do not translate a sign-span delimiter directly into a morphology marker.
+6. For editorial notation, distinguish the physical token, edited reading, selected lexeme, and final analysis. Morphology targets the edited reading; do not repeat sign-level deletions with `&` or `(`.
 7. Consult DULAT, POS, comments, context, and the relevant specialized skill before editing.
 
 For N-stem verbs, use `$parse-ugaritic-n-stems`. For migration-related merged rows, use `$audit-split-token-migrations`.

@@ -1,13 +1,13 @@
 # Reconstruction Semantics
 
-Surface reconstruction answers one question: which written letters does this analysis encode? It does not establish the correct lexeme, homonym, stem, POS, or interpretation.
+Reconstruction answers one question: which letters of the edited linguistic word does this analysis encode? It does not establish the correct lexeme, homonym, stem, POS, or interpretation.
 
 ## Core Atoms
 
 - Plain letters contribute to the surface.
 - `(x` records lexical `x` as reconstructed and contributes nothing to the surface.
-- `(x&y` substitutes written `y` for reconstructed lexical `x` and contributes `y`.
-- `&y` contributes written `y` absent from the lexical representation.
+- `(x&y` substitutes edited-reading `y` for reconstructed lexical `x` and contributes `y`.
+- `&y` contributes an attested `y` that remains in the edited word but is absent from the lexical representation.
 - `(]n]` is one reconstructed N-stem marker atom and contributes no `n`.
 - `]n]` contributes a written N-stem `n` because brackets are delimiters.
 - `!`, `]`, `[`, `/`, `=`, `+`, `~`, comma, and closing parenthesis are structural delimiters and contribute no letters themselves.
@@ -20,7 +20,7 @@ The opening `(` binds exactly one letter or supported marker atom. In `]n](nšy[
 
 Require all three:
 
-1. **Surface validity:** the analysis reconstructs the written token, or an explicitly merged token when migration split one lexical word.
+1. **Edited-reading validity:** the analysis reconstructs the word after ancient and modern editorial operations have been applied, or an explicitly merged edited word when migration split one lexical word.
 2. **Structural validity:** letters belong to the correct root, stem formative, ending, suffix, enclitic, or allographic substitution.
 3. **Linguistic validity:** DULAT, POS, textual context, expert comments, and parallels support the analysis.
 
@@ -47,8 +47,8 @@ Use `$audit-split-token-migrations` for the full paired-row audit.
 
 - one `(` assumed to hide a sequence rather than one atom;
 - weak `y`, `w`, or `ʔ` left plain despite being unwritten;
-- written stem formative encoded with a reconstructed marker;
+- edited-reading stem formative encoded with a reconstructed marker;
 - root letter and stem formative collapsed without recording both roles;
 - suffix or enclitic delimiter placed before the wrong segment;
-- analysis validated against a split component instead of the merged surface;
+- analysis validated against a split component instead of the merged edited reading;
 - decoder changed to accept an encoding that remains morphologically wrong.

@@ -8,7 +8,10 @@ from linter.lint import extract_lexeme_from_analysis, ktu_corrected_surface_from
 from pipeline.steps.analysis_utils import analysis_matches_surface
 from scripts.refine_results_mentions import Entry, refine_file
 from text_fabric.editorial_lookup import (
+    analysis_target_surface,
     corrected_editorial_lookup_surface,
+    edited_reading_surface,
+    load_edited_reading_overrides,
     load_editorial_lookup_overrides,
 )
 
@@ -33,6 +36,15 @@ class EditorialLookupTest(unittest.TestCase):
         self.assertIsNone(corrected_editorial_lookup_surface("nḫtu", "<n>ḫtu"))
         self.assertIsNone(corrected_editorial_lookup_surface("bnh", "[b]nh"))
 
+    def test_edited_reading_applies_sign_level_operations(self) -> None:
+        self.assertEqual(edited_reading_surface("gmpn", "g[[m]]pn"), "gpn")
+        self.assertEqual(edited_reading_surface("aṯtrt", "aṯ{t}rt"), "aṯrt")
+        self.assertIsNone(edited_reading_surface("nḫtu", "<n>ḫtu"))
+        self.assertEqual(
+            analysis_target_surface("gmpn", sign_span="g[[m]]pn"),
+            "gpn",
+        )
+
     def test_missing_and_restored_content_survives_an_actual_correction(self) -> None:
         self.assertEqual(corrected_editorial_lookup_surface("abcd", "a{b}<c>d"), "acd")
         self.assertEqual(corrected_editorial_lookup_surface("abcd", "a{b}[c]d"), "acd")
@@ -55,8 +67,9 @@ class EditorialLookupTest(unittest.TestCase):
             source = Path(tmp_dir) / "KTU 1.5.tsv"
             source.write_text("158634\tgmpn\tgmpn\tg[[m]]pn\n", encoding="utf-8")
             self.assertEqual(load_editorial_lookup_overrides(source), {"158634": "gpn"})
+            self.assertEqual(load_edited_reading_overrides(source), {"158634": "gpn"})
 
-    def test_refinement_uses_corrected_lookup_but_renders_physical_surface(self) -> None:
+    def test_refinement_records_edited_target_for_final_normalization(self) -> None:
         entry = Entry(
             entry_id=1592,
             lemma="gpn",
@@ -88,7 +101,7 @@ class EditorialLookupTest(unittest.TestCase):
             self.assertEqual((rows, changed), (1, 1))
             row = output.read_text(encoding="utf-8").splitlines()[1]
             self.assertIn(
-                "\tg&mpn(III)/\tgpn (III)\tDN m.\tGapnu\tKTU corrected: gpn",
+                "\tg&mpn(III)/\tgpn (III)\tDN m.\tGapnu\tEdited reading: gpn",
                 row,
             )
             self.assertTrue(analysis_matches_surface("gmpn", "g&mpn(III)/"))
@@ -146,6 +159,12 @@ class EditorialLookupTest(unittest.TestCase):
                 extract_lexeme_from_analysis("sp&xr(II)&n/"),
                 ("spr", False, "II"),
             )
+
+    def test_paired_substitution_closing_parenthesis_is_not_lexical(self) -> None:
+        self.assertEqual(
+            extract_lexeme_from_analysis("(ḫ&ḥ)yil/"),
+            ("ḫyil", False, ""),
+        )
 
 
 if __name__ == "__main__":

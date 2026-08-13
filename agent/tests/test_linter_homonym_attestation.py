@@ -9,7 +9,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from linter.lint import DulatEntry, lint_file, normalize_surface
+from linter.lint import DulatEntry, lemma_aliases, lint_file, normalize_surface
 
 
 def _entry(entry_id: int, lemma: str, homonym: str, pos: str, gloss: str) -> DulatEntry:
@@ -55,6 +55,9 @@ def _lint_row(
 
 
 class LinterHomonymAttestationTest(unittest.TestCase):
+    def test_dulat_initial_consonant_alternation_supplies_lemma_aliases(self) -> None:
+        self.assertEqual(lemma_aliases("s:śkn"), ["s:śkn", "skn", "śkn"])
+
     def test_invented_homonym_is_error(self) -> None:
         issues = _lint_row(
             surface="qn",

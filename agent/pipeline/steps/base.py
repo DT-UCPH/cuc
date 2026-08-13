@@ -6,6 +6,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Optional
 
+from text_fabric.editorial_lookup import analysis_target_surface
+
 _SEPARATOR_RE = re.compile(r"^\s*#\s*(?:-+\s*)?(KTU\s+.+?)\s*$")
 
 
@@ -20,6 +22,11 @@ class TabletRow:
     pos: str
     gloss: str
     comment: str
+
+    @property
+    def analysis_surface(self) -> str:
+        """Edited linguistic word targeted by the morphology column."""
+        return analysis_target_surface(self.surface, annotation=self.comment)
 
     def to_tsv(self) -> str:
         parts = [

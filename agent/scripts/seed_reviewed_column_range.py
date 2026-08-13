@@ -15,6 +15,7 @@ Usage:
     seed_reviewed_column_range.py 1.14 III            # from column III to the end
     seed_reviewed_column_range.py 1.14 III --dry-run
 """
+
 from __future__ import annotations
 
 import argparse
@@ -28,6 +29,8 @@ sys.path.insert(0, str(HERE.parent))
 
 from linter.lint import (  # noqa: E402
     normalize_surface as N,
+)
+from linter.lint import (  # noqa: E402
     reconstruct_surface_from_analysis as RC,
 )
 from project_paths import get_project_paths  # noqa: E402
@@ -54,7 +57,10 @@ def reconstructs(ana: str, surf: str) -> bool:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("tablet")
-    ap.add_argument("column", help="first column to seed, e.g. III")
+    ap.add_argument(
+        "column",
+        help="first column to seed, e.g. III; use '-' for a columnless tablet",
+    )
     ap.add_argument("--version", default="0.2.8")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
@@ -62,16 +68,17 @@ def main() -> int:
     paths = get_project_paths()
     repo = paths.repo_root
     auto_path = repo / "auto_parsing" / args.version / f"KTU {args.tablet}.tsv"
-    gen_path = (paths.generated_sources_dir / "cuc_tablets_tsv" / args.version
-                / f"KTU {args.tablet}.tsv")
+    gen_path = (
+        paths.generated_sources_dir / "cuc_tablets_tsv" / args.version / f"KTU {args.tablet}.tsv"
+    )
     rev_path = repo / "reviewed" / f"KTU {args.tablet}.tsv"
     for p in (auto_path, gen_path, rev_path):
         if not p.exists():
             raise SystemExit(f"missing: {p}")
 
-    if args.column not in ROMAN:
+    if args.column not in ROMAN and args.column != "-":
         raise SystemExit(f"unknown column {args.column}")
-    start = ROMAN.index(args.column)
+    start = ROMAN.index(args.column) if args.column in ROMAN else -1
 
     # TF sign spans
     spans = {}
@@ -131,14 +138,19 @@ def main() -> int:
             need.append((tid, s, ana, col4, pos))
 
     seeded = sum(1 for line in out if line.split("\t")[0].isdigit())
-    print(f"KTU {args.tablet} from column {args.column}: {seeded} rows to append "
-          f"({skipped} already present, left untouched)")
-    print(f"  missing sign span: {sum(1 for l in out if l.split(chr(9))[0].isdigit() and not l.split(chr(9))[2])}")
+    print(
+        f"KTU {args.tablet} from column {args.column}: {seeded} rows to append "
+        f"({skipped} already present, left untouched)"
+    )
+    missing_spans = sum(
+        1 for line in out if line.split("\t")[0].isdigit() and not line.split("\t")[2]
+    )
+    print(f"  missing sign span: {missing_spans}")
     print(f"  rows needing hand review (no reconstructing variant, or col4=?): {len(need)}")
     for r in need[:40]:
         print("   ", r)
     if len(need) > 40:
-        print(f"    … +{len(need)-40} more")
+        print(f"    … +{len(need) - 40} more")
 
     if args.dry_run:
         print("\n(dry run — nothing written)")

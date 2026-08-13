@@ -15,8 +15,8 @@ if __package__ in {None, ""}:
     if str(_repo_root) not in sys.path:
         sys.path.insert(0, str(_repo_root))
 
-from linter.feature_validation import inferable_feature_issues
 from dulat_patches import load_dulat_entry_patches
+from linter.feature_validation import inferable_feature_issues
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
@@ -36,6 +36,10 @@ from pipeline.config.l_preposition_bigram_rules import (
     L_PN_PREP_CANONICAL_PAYLOADS,
 )
 from project_paths import get_project_paths
+from text_fabric.editorial_lookup import (
+    analysis_target_surface,
+    edited_reading_from_annotation,
+)
 
 # -----------------------------
 # Utilities
@@ -248,14 +252,21 @@ def lemma_aliases(lemma: str) -> List[str]:
     DULAT conventions include:
     - /ʔ-ḫ-d(/ḏ)/ : alternative reading of the last segment (d vs ḏ)
     - /ʕ-d(-d)/   : optional added segment
+    - s:śkn       : alternative initial consonant (s vs ś)
 
     Expected aliases include:
     - /ʔ-ḫ-d/ and /ʔ-ḫ-ḏ/
     - /ʕ-d/ and /ʕ-d-d/
+    - skn and śkn
     """
     if not lemma:
         return []
     out = {lemma}
+    dulat_letter = r"[A-Za-zˤʔḫṣṯẓġḏḥṭšśʕʿảỉủ]"
+    initial_alternation = re.match(rf"^({dulat_letter}):({dulat_letter})(.+)$", lemma)
+    if initial_alternation:
+        first, second, tail = initial_alternation.groups()
+        out.update({first + tail, second + tail})
     queue = [lemma]
     seen = set()
 
@@ -440,11 +451,7 @@ def todo_markers_in_comment(annotation_text: str) -> List[str]:
     """Return explicit review-task markers, without matching word fragments."""
     markers = ("merge", "???", "todo", "fix", "repair")
     value = (annotation_text or "").lower()
-    return [
-        marker
-        for marker in markers
-        if re.search(rf"(?<!\w){re.escape(marker)}(?!\w)", value)
-    ]
+    return [marker for marker in markers if re.search(rf"(?<!\w){re.escape(marker)}(?!\w)", value)]
 
 
 def invalid_affix_segments(analysis_variant: str) -> List[Tuple[str, str]]:
@@ -697,18 +704,8 @@ _KTU_CORRECTED_SURFACE_RE = re.compile(r"(?:^|\|)\s*KTU corrected:\s*([^|;\t]+)"
 
 
 def ktu_corrected_surface_from_annotation(annotation: str) -> str | None:
-    """Extract the safe lexical lookup surface recorded by the parser.
-
-    Reconstruction must still target the physical surface in column 2.  This
-    alias is used only for DULAT form lookup when erased/redundant signs make
-    the corrected reading lexically different.
-    """
-    match = _KTU_CORRECTED_SURFACE_RE.search(annotation or "")
-    if not match:
-        return None
-    value = strip_missing(match.group(1)).strip()
-    letters = "".join(ch for ch in value if ANALYSIS_SURFACE_LETTER_RE.match(ch))
-    return letters or None
+    """Backward-compatible extractor for an automatic edited-reading note."""
+    return edited_reading_from_annotation(annotation)
 
 
 def detect_suffix_segment(surface: str) -> Optional[str]:
@@ -1736,7 +1733,7 @@ def extract_lexeme_from_analysis(analysis: str) -> Tuple[str, bool, str]:
             i += 2
             continue
         # skip marker characters
-        if ch in {"!", "]", "[", "/", "+"}:
+        if ch in {"!", "]", "[", "/", "+", ")"}:
             i += 1
             continue
         res.append(ch)
@@ -1970,8 +1967,9 @@ NOUN_BASE_POS_RE = re.compile(r"\bn\.\s*", re.IGNORECASE)
 ADJ_GENDER_POS_RE = re.compile(r"adj\.\s*(m|f)\.?(?=\s|$|[,;/])", re.IGNORECASE)
 POS_NUMBER_RE = re.compile(r"\b(?:sg|du|pl)\.?(?=\s|$|[,;/])", re.IGNORECASE)
 POS_GENDER_RE = re.compile(r"\b(?:m|f|c)\.?(?=\s|$|[,;/])", re.IGNORECASE)
+POS_PERSON_RE = re.compile(r"\b(?:1|2|3)(?=\s|$|[,;/])", re.IGNORECASE)
 POS_STATE_CASE_RE = re.compile(
-    r"\b(?:abs|cstr|nom|gen|acc)\.?(?=\s|$|[,;/])",
+    r"\b(?:abs|cstr|nom|gen|acc|voc)\.?(?=\s|$|[,;/])",
     re.IGNORECASE,
 )
 # Trailing affix morphology appended to a POS head with `+`, e.g.
@@ -2007,6 +2005,7 @@ def normalize_pos_option_for_validation(value: str) -> str:
     tok = NOUN_GENDER_POS_RE.sub("n ", tok)
     tok = NOUN_BASE_POS_RE.sub("n ", tok)
     tok = ADJ_GENDER_POS_RE.sub("adj.", tok)
+    tok = POS_PERSON_RE.sub("", tok)
     tok = POS_GENDER_RE.sub("", tok)
     tok = POS_NUMBER_RE.sub("", tok)
     tok = POS_STATE_CASE_RE.sub("", tok)
@@ -2725,6 +2724,13 @@ def lint_file(
             continue
         if (not is_out_tsv_file) and is_labeled_tsv_header_row(parts):
             continue
+        reviewed_sign_span = (
+            parts[2]
+            if has_reviewed_sign_span_column
+            and len(parts) >= 3
+            and (parts[0] or "").strip().isdigit()
+            else ""
+        )
         parts = drop_reviewed_sign_span_column(parts, has_reviewed_sign_span_column)
 
         if is_out_tsv_file and len(parts) != 7:
@@ -3825,9 +3831,7 @@ def lint_file(
         # stripped before release. A single leading '#' is the retired legacy
         # form and would survive into the published text.
         for problem in comment_marker_problems(annotation_text):
-            issues.append(
-                Issue("error", str(path), i, line_id, surface, analysis, problem)
-            )
+            issues.append(Issue("error", str(path), i, line_id, surface, analysis, problem))
 
         # Comments TODO markers. Structured MERGE annotations are a recognized
         # convention for words split across physical lines, not an uncertainty
@@ -3851,8 +3855,15 @@ def lint_file(
             )
 
         surface_clean = strip_missing(surface).strip()
-        editorial_lookup_surface = ktu_corrected_surface_from_annotation(annotation_text)
-        lexical_surface_clean = editorial_lookup_surface or surface_clean
+        analysis_surface = analysis_target_surface(
+            surface,
+            annotation=annotation_text,
+            sign_span=reviewed_sign_span,
+        )
+        editorial_lookup_surface = (
+            analysis_surface if normalize_surface(analysis_surface) != normalize_surface(surface) else None
+        )
+        lexical_surface_clean = strip_missing(analysis_surface).strip()
 
         # POS strings must keep the paradigm shape (person digit + gender,
         # no repeated number tokens).
@@ -3889,16 +3900,17 @@ def lint_file(
                     )
                 )
 
-        # Column 3 must be sufficient to reconstruct the original surface form.
+        # Column 3 reconstructs the edited linguistic reading: erased and
+        # redundant signs are already removed by the sign-level apparatus.
         # Rows annotated as MERGE halves are validated jointly against the
         # concatenated surfaces by validate_merge_pairs instead.
-        if surface_clean and "x" not in surface.lower() and merge_direction is None:
+        if lexical_surface_clean and "x" not in lexical_surface_clean.lower() and merge_direction is None:
             expected_letters = "".join(
-                ch for ch in surface_clean if ANALYSIS_SURFACE_LETTER_RE.match(ch)
+                ch for ch in lexical_surface_clean if ANALYSIS_SURFACE_LETTER_RE.match(ch)
             )
             expected_norm = normalize_surface(expected_letters)
             if not expected_norm:
-                expected_norm = normalize_surface(surface_clean)
+                expected_norm = normalize_surface(lexical_surface_clean)
             variant_rows = analysis_variants or [analysis]
             for idx, a_var in enumerate(variant_rows):
                 a_txt = (a_var or "").strip()
@@ -3921,7 +3933,8 @@ def lint_file(
                             line_id,
                             surface,
                             a_txt,
-                            f"Analysis does not reconstruct to surface (reconstructs as: {reconstructed})",
+                            "Analysis does not reconstruct to surface/edited reading "
+                            f"(reconstructs as: {reconstructed}, expected: {expected_norm})",
                         )
                     )
 
@@ -4163,10 +4176,7 @@ def lint_file(
             skip_dulat = (
                 (
                     not lexeme
-                    and (
-                        not lexical_surface_clean
-                        or lexical_surface_clean in {"ˤ", "ʕ", "ʿ"}
-                    )
+                    and (not lexical_surface_clean or lexical_surface_clean in {"ˤ", "ʕ", "ʿ"})
                 )
                 or (lexeme in {"ˤ", "ʕ", "ʿ"})
                 or is_surface_only_excised
@@ -4306,8 +4316,7 @@ def lint_file(
                                     analysis,
                                     "Analysis lexeme '%s' spells a radical the declared %s does "
                                     "not have; mark it with '(' and '&' (lexical letter first) "
-                                    "or correct a column"
-                                    % (lexeme, first_d[0].strip()),
+                                    "or correct a column" % (lexeme, first_d[0].strip()),
                                 )
                             )
                     # Stem presence: if DULAT has no G-stem for this verb, require a :stem marker
@@ -4315,10 +4324,16 @@ def lint_file(
                         stems = set()
                         for c in verb_candidates_for_stem:
                             stems.update(entry_stems.get(c.entry_id, set()))
+                        has_exact_stem_override = reconstruction_demotion_applies(
+                            surface=surface,
+                            analysis_variant=analysis,
+                            generic_override_analyses=generic_override_analyses,
+                        )
+                        stem_issue_level = "info" if has_exact_stem_override else "error"
                         if stems and "G" not in stems and not analysis_has_stem:
                             issues.append(
                                 Issue(
-                                    "error",
+                                    stem_issue_level,
                                     str(path),
                                     i,
                                     line_id,
@@ -4330,7 +4345,7 @@ def lint_file(
                         if has_sh_stem and not ({"Š", "Št", "Špass"} & stems):
                             issues.append(
                                 Issue(
-                                    "error",
+                                    stem_issue_level,
                                     str(path),
                                     i,
                                     line_id,
@@ -4342,7 +4357,7 @@ def lint_file(
                         if has_t_stem and not ({"Gt", "Št", "Dt", "Lt", "Nt", "tD", "tL"} & stems):
                             issues.append(
                                 Issue(
-                                    "error",
+                                    stem_issue_level,
                                     str(path),
                                     i,
                                     line_id,
@@ -4354,7 +4369,7 @@ def lint_file(
                         if ":d" in analysis and not ({"D", "Dt", "tD"} & stems):
                             issues.append(
                                 Issue(
-                                    "error",
+                                    stem_issue_level,
                                     str(path),
                                     i,
                                     line_id,
@@ -4366,7 +4381,7 @@ def lint_file(
                         if ":l" in analysis and not ({"L", "Lt", "tL"} & stems):
                             issues.append(
                                 Issue(
-                                    "error",
+                                    stem_issue_level,
                                     str(path),
                                     i,
                                     line_id,
@@ -4378,7 +4393,7 @@ def lint_file(
                         if ":r" in analysis and "R" not in stems:
                             issues.append(
                                 Issue(
-                                    "error",
+                                    stem_issue_level,
                                     str(path),
                                     i,
                                     line_id,
@@ -4392,7 +4407,7 @@ def lint_file(
                         ):
                             issues.append(
                                 Issue(
-                                    "error",
+                                    stem_issue_level,
                                     str(path),
                                     i,
                                     line_id,
@@ -4431,12 +4446,19 @@ def lint_file(
                     # Unambiguous DULAT entry
                     if len(d_candidates) > 1 and head:
                         if not any(c.lemma == head and c.homonym == hom for c in d_candidates):
-                            is_generic_override = variant_uses_generic_override_lexeme(
+                            is_generic_override = reconstruction_demotion_applies(
                                 surface=surface,
                                 analysis_variant=analysis,
-                                dulat_variant=parts[3] if len(parts) >= 4 else "",
-                                generic_override_lexemes=generic_override_lexemes,
-                            ) and analysis_is_standalone_clitic_or_suffix(analysis)
+                                generic_override_analyses=generic_override_analyses,
+                            ) or (
+                                variant_uses_generic_override_lexeme(
+                                    surface=surface,
+                                    analysis_variant=analysis,
+                                    dulat_variant=parts[3] if len(parts) >= 4 else "",
+                                    generic_override_lexemes=generic_override_lexemes,
+                                )
+                                and analysis_is_standalone_clitic_or_suffix(analysis)
+                            )
                             declared = f"{head} ({hom})" if hom else head
                             cand_list = ", ".join(
                                 sorted(
@@ -4479,9 +4501,7 @@ def lint_file(
                         matched_entry_ids = {m.entry_id for m in matched}
                         surface_form_morphs_raw = {
                             (f.morph or "").strip()
-                            for f in dulat_forms.get(
-                                normalize_surface(lexical_surface_clean), []
-                            )
+                            for f in dulat_forms.get(normalize_surface(lexical_surface_clean), [])
                             if f.entry_id in matched_entry_ids and (f.morph or "").strip()
                         }
                         surface_form_morphs = {morph.lower() for morph in surface_form_morphs_raw}
@@ -4807,8 +4827,10 @@ def lint_file(
                         morph_values.update(surface_form_morphs)
                         morph = " ; ".join(sorted(morph_values))
                         if (
-                            "suff" in morph and ("pn" in morph or "pers." in morph)
-                        ) and "+" not in analysis and "~" not in analysis:
+                            ("suff" in morph and ("pn" in morph or "pers." in morph))
+                            and "+" not in analysis
+                            and "~" not in analysis
+                        ):
                             lemma_letters = re.sub(
                                 r"[^A-Za-zˤʔḫṣṯẓġḏḥṭšʕʿảỉủ]", "", head_lemma or ""
                             )

@@ -17,7 +17,7 @@ weighed row by row on the most heavily reviewed tablet in the corpus. Read the
 | **Tropper (2012)** | the grammatical rule behind a form, and a reasoned judgment on specific lines across the whole corpus | nothing verbatim — we hold an OCR whose roots and forms are silently corrupt; see `tropper-conventions.md` |
 | **Published translations** — UNP, TCS, Wyatt, Gibson | which sense and homonym the line actually uses; phrase-level construal | anything about form; they disagree with each other constantly |
 | **EUPT** (Göttingen) | a full per-token analysis — stem, conjugation, person, gender, number, case, state, lemma | anything against Tropper or DULAT: it is largely unpublished draft material and therefore preliminary. Coverage densest in KTU 1.14–1.16 |
-| **Legacy expert review** (Tania, Martijn) | a human reading of the consonantal text, authoritative on the analysis column where it contradicts the parser | POS/gloss (mostly unfilled); nothing on tablets it does not cover |
+| **Legacy expert review** (Ksenia, Elijah, Tania, Alex, Martijn; attribution is tablet-specific—KTU 1.3 is Tania's review) | a human reading of the consonantal text, authoritative on the analysis column where it contradicts the parser | POS/gloss (mostly unfilled); nothing on tablets it does not cover |
 | **UDB** | concordance evidence and text-critical readings (`R1 assumes the Broken String: mhmrt`) | lexeme or morphology on its own |
 | **KTU / KTU3** | what is actually on the tablet — sign readings, erasures, emendations | anything lexical |
 | **Burns (2003)** | a rough lemmatiser (headword, and root in Workbook IX) and an onomastic classification — DN vs PN vs GN vs cultic term | nothing on its own, and it ranks below Tropper and DULAT; it covers cultic vocabulary and onomastica, not every token |
@@ -27,6 +27,26 @@ Cycle tablets lean on the translations (KTU 1.5 cites UNP 83×, TCS 32×, Wyatt
 12×, DULAT 107×); the Kirta tablets lean on EUPT, whose coverage is concentrated
 there. Use what actually covers the text in front of you, and cite only what you
 read.
+
+### Verified reviewer provenance in the current repository history
+
+This is tablet-specific; never infer it from an author's name alone.
+
+| material | provenance consequence |
+|---|---|
+| KTU 1.2 reviewed TSV | Alex/agent review seeded from automatic 0.2.7; repository history explicitly says there is no human gold |
+| KTU 1.3 | Tania's blank-slate review; omissions are silence, while positive readings are independent evidence |
+| KTU 1.6 `origin/review/1.6-Kseniia` | Ksenia used automatic parsing, but the public branch head `248fa29` contains manual work only through V:9; column VI still matches its parser scaffold and is not an independent human review |
+| KTU 1.14 legacy TXT | Martijn's independent review; no automatic-deletion inference |
+| KTU 2.10–2.13 legacy TXT | Martijn's independent review; Tania's later blank-slate CSVs are separately available on `origin/Elijahs_Tagging` |
+| KTU 2.14 legacy TXT | Elijah's auto-based review; Tania's later blank-slate CSV is a separate independent reading |
+| KTU 2.15 legacy TXT | Elijah's auto-based review; its exact basis is `6b1017f:auto_parsing/0.2.6/KTU 2.15.tsv`. Tania's later blank-slate CSV at commit `6ac6442` is a separate independent reading |
+| KTU 2.16 legacy TXT | Elijah's auto-based review; its exact basis is `6b1017f:auto_parsing/0.2.6/KTU 2.16.tsv`. Tania's later blank-slate CSV at commit `1cdc4c5` is a separate independent reading |
+| KTU 2.38 legacy TXT / Elijah CSV | Auto-based review against exact basis `6b1017f:auto_parsing/0.2.6/KTU 2.38.tsv`; Elijah's later upload preserves the same core decisions. Tania's blank-slate revisions culminate at commit `35f0220` and supply independent positive readings, while omissions remain silence |
+
+Recheck branch heads if repository history changes. The public branch heads were
+verified on 2026-08-13; do not treat a later unexamined commit as having the same
+coverage.
 
 ## Precedence when sources disagree
 
@@ -51,9 +71,14 @@ straight disagreement.
    Useful as a rough lemmatiser and for deciding PN vs DN vs GN vs common noun,
    because his workbooks are organised by exactly that distinction.
 6. **The legacy expert wins over the parser on the analysis column.** A `DIFFER`
-   between the legacy review and a seeded row is the highest-value finding in a
-   column — a human read the text and the parser contradicted them. Adjudicate
-   it; do not assume the parser.
+   between the legacy review and a seeded row is a high-value finding — a human
+   read the text and the parser contradicted them. Ksenia, Elijah, and Alex all
+   reviewed automatic-parser output, so an automatic alternative demonstrably
+   present in their exact historical basis but absent from their retained set is
+   not ordinary source silence: it is an explicit rejection. The aligner labels
+   this `REJECTED-AUTO`. Remove that option unless DULAT, Tropper, or another
+   independent source supports it. Tania worked from a blank slate; her
+   omissions, including in KTU 1.3, are ordinary silence rather than rejection.
 
 ## Principles that outrank the ranking
 
@@ -207,8 +232,22 @@ id-based certification attempt was reverted for exactly this reason; do not
 resurrect it.
 
 Verdicts: `AGREE`, `AGREE~` (equal once homonym tags are ignored — the legacy
-file is simply less specific), `DIFFER`, `SPLIT/JOIN` (the two tokenizations
-disagree about word boundaries; these are the candidates for `MERGE WITH` rows).
+file is simply less specific), `REJECTED-AUTO` (the legacy retained set is a
+proper subset of the exact historical automatic basis), `CURRENT-EXTRA` (the
+same set relation where the comparison cannot establish that provenance),
+`DIFFER`, and `SPLIT/JOIN` (the two tokenizations disagree about word boundaries;
+these are the candidates for `MERGE WITH` rows). A trailing `~` on either extra
+verdict means the relation becomes visible after homonym tags are ignored.
+
+The current seeder retains one automatic candidate per token, so the ordinary
+comparison cannot reconstruct candidates deleted during the original human
+review. Use `--automatic-basis-ref <git-ref>` and, for versioned output,
+`--automatic-basis-path <path>` to compare the human review against the exact
+automatic TSV Ksenia, Elijah, or Alex edited. `--current-as-review` is valid only
+when that provenance is independently established. Tania's blank-slate review
+cannot establish rejected automatic alternatives. Do not compare against a newer
+parser version: an option added later was never available for the reviewer to
+reject.
 
 Two cautions the script prints for you:
 

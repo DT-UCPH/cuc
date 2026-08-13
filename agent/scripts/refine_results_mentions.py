@@ -1896,13 +1896,12 @@ def build_variants(
     entry_family_count: Dict[int, Dict[str, int]],
     direct_reference_index: DulatAttestationIndex | None = None,
     max_variants: int = 3,
-    editorial_lookup_surface: str = "",
+    editorial_lookup_surface: Optional[str] = None,
 ) -> List[Variant]:
-    s_norm = normalize_lookup(surface)
-    lookup_surfaces = [surface]
+    analysis_surface = editorial_lookup_surface if editorial_lookup_surface is not None else surface
+    s_norm = normalize_lookup(analysis_surface)
+    lookup_surfaces = [analysis_surface]
     editorial_norm = normalize_lookup(editorial_lookup_surface)
-    if editorial_norm and editorial_norm != s_norm:
-        lookup_surfaces.append(editorial_lookup_surface)
 
     direct_source_by_id: Dict[int, str] = {}
     direct_candidates: List[Entry] = []
@@ -1910,7 +1909,7 @@ def build_variants(
     for lookup_surface in lookup_surfaces:
         lookup_norm = normalize_lookup(lookup_surface)
         lookup_entries = list(forms_map.get(lookup_norm, []))
-        if lookup_norm == editorial_norm and lookup_norm != s_norm:
+        if editorial_lookup_surface is not None and lookup_norm == editorial_norm:
             # A corrected editorial reading is lexical evidence, not merely an
             # inflected-form hit. Include exact lemma homonyms that the forms
             # index can omit when another homonym owns the explicit form row.
@@ -1919,7 +1918,7 @@ def build_variants(
             if entry.entry_id not in direct_source_by_id:
                 direct_source_by_id[entry.entry_id] = lookup_surface
                 direct_candidates.append(entry)
-            if lookup_norm == editorial_norm and lookup_norm != s_norm:
+            if editorial_lookup_surface is not None and lookup_norm == editorial_norm:
                 editorial_direct_ids.add(entry.entry_id)
 
     direct_all = dedupe_entries(direct_candidates)
@@ -2016,7 +2015,7 @@ def build_variants(
             if not suffix_entries:
                 continue
             # derive base surface by raw trimming (best effort)
-            base_surface = surface[: max(1, len(surface) - len(suf))]
+            base_surface = analysis_surface[: max(1, len(analysis_surface) - len(suf))]
             for be in base_entries[:4]:
                 # Suffixes are visited longest-first. Avoid emitting a shorter
                 # segmentation for the same lexical head after a longer suffix
@@ -2048,7 +2047,7 @@ def build_variants(
     for v in variants:
         v.score = score_variant(
             v,
-            surface,
+            analysis_surface,
             current_ref,
             direct_ids,
             mention_ids,
@@ -2094,7 +2093,7 @@ def build_variants(
     )
     top = select_viable_ranked_variants(
         variants,
-        surface=surface,
+        surface=analysis_surface,
         max_variants=max_variants,
     )
     if has_redirect_pair and not any(
@@ -2226,11 +2225,18 @@ def refine_file(
 
         line_id = parts[0].strip()
         surface = normalize_analysis(parts[1].strip())
-        editorial_lookup_surface = (editorial_lookup_overrides or {}).get(line_id, "")
+        has_edited_reading = line_id in (editorial_lookup_overrides or {})
+        editorial_lookup_surface = (editorial_lookup_overrides or {}).get(line_id)
+        analysis_surface = editorial_lookup_surface if has_edited_reading else surface
 
         # preserve empty and fully broken rows
         if not surface:
             new_parts = [line_id, surface, "", "", "", "", ""]
+            out_lines.append("\t".join(new_parts))
+            rows += 1
+            continue
+        if has_edited_reading and not analysis_surface:
+            new_parts = [line_id, surface, "?", "?", "?", "?", "Edited reading: ∅"]
             out_lines.append("\t".join(new_parts))
             rows += 1
             continue
@@ -2287,14 +2293,7 @@ def refine_file(
             # preformatives), so baselines like il(I)/ for ilm only become
             # reconstructable later. The end-of-pipeline fallback step turns
             # what still cannot reconstruct after repair into '?' + hint.
-            used_editorial_lookup = bool(
-                editorial_lookup_surface
-                and any(
-                    normalize_lookup(candidate.base_surface)
-                    == normalize_lookup(editorial_lookup_surface)
-                    for candidate in variants
-                )
-            )
+            used_editorial_lookup = has_edited_reading
             new_parts = [
                 line_id,
                 surface,
@@ -2302,7 +2301,7 @@ def refine_file(
                 ";".join(item[1] for item in rendered),
                 ";".join(item[2] for item in rendered),
                 ";".join(item[3] for item in rendered),
-                f"KTU corrected: {editorial_lookup_surface}" if used_editorial_lookup else "",
+                f"Edited reading: {editorial_lookup_surface}" if used_editorial_lookup else "",
             ]
 
         new_line = "\t".join(new_parts)

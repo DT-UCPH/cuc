@@ -1,6 +1,6 @@
 # Tagging conventions
 
-At this stage we decided not to reconstruct consonants, doubling, vowels and other grammatical markings that do not appear on the surface and concentrate on the visible elements. Altogether, if a sign is part of a lexeme, but it does not appear in a word, it is added to the word by "(". If a sign occurs in a word but it does not occur in the lexeme in DULAT, it is preceded by "&". E.g., in case of a scribal error corrected by editors, the ‘(’ precedes the ‘&’, as in wsp - (k&wsp “silver”. Otherwise, at this stage we don't reconstruct missing signs.
+Morphology parses the reconstructed word after ancient and modern editorial operations have been applied. Erased `[[...]]` and redundant `{...}` signs therefore do not appear in the morphological analysis and are not repeated with `&` or `(`; restored `[...]` and supplied `<...>` letters remain part of the reconstructed word. Within that edited word, if a letter belongs to the selected lexeme but is not attested, prefix it with `(`. If an attested letter survives the edits but does not occur in the selected DULAT lexeme, prefix it with `&`; for example, lexical k written w in wsp is `(k&wsp` “silver”.
 
 Important: when several consecutive letters are reconstructed, each letter must be marked separately with "(".
 
