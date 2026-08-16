@@ -166,7 +166,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158687	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
 # KTU 1.5 I:23							
 158688	aḫy	aḫy  	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	brother (by blood)	
-158689	qran	qran  	!!qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg. + 1 c. sg. suff.	to call	
+158689	qran	qran  	!!qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg. + 1 c. sg. suff.	to call	 in !!qr(ʔ&[a+n= as -a is an inflectional marking of lengthened imperative
 158690	hd	hd  	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
 158691	ˤm	ʿm  	ˤm(I)	ʕm (I)	prep.	with, together with	
 158692	aryy	aryy	ary(I)/+y	ảry (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	fellow	
@@ -187,9 +187,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158702	yn	yn	yn/	yn	n. m. sg. abs. acc.	wine	
 # KTU 1.5 I:26							
 158703	p	p 	p(I)	p (I)	conj. functor	and	
-158704	nšt	nšt  	]n](nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	DULAT: 'and I was forgotten, Baal' (passive sense).
+158704	nšt	nšt  	]n](nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	DULAT: 'and I was forgotten, Baal' (passive sense). or: ]n]št(y[	/š-t-y/ "drink"
 158705	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu	
-158706	ṭˤn	[ṭ]ʿn    	!!ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	
+158706	ṭˤn	[ṭ]ʿn    	!!ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	to be infinitive it should be 	!!ṭˤn[/
 158707	iṭˤnk	iṭʿnk	!(ʔ&i!ṭˤn[+k	/ṭ-ʕ-n/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to smite	
 # KTU 1.5 I:27							
 158708	xxxxxqa	[xxx]xxqa    	?	?	?	?	
@@ -206,9 +206,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158716	bṯn	[bṯn  ]  	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 158717	ˤqltn	[ʿqltn ]  	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
 158718	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm (// 1.3 III:42).
-158718	šlyṭ	šlyṭ	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
+158718	šlyṭ	šlyṭ	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT  doesn't make sense in my view
 158718	šlyṭ	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-158718	šlyṭ	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT
+158718	šlyṭ	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT doesn't make se
 158718	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
 # KTU 1.5 I:30							
 158719	d	[d ] 	d	d	det. or rel. functor	the one(s) of	
