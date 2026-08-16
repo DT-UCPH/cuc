@@ -13,9 +13,9 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158591	š	[[š]]	?	?	?	?	
 # KTU 1.5 I:3							
 158592	šlyṭ	šlyṭ  	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm 'the tyrant of seven heads' (// 1.3 III:42).
-158592	šlyṭ	šlyṭ  	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-158592	šlyṭ	šlyṭ  	]š]lyṭ[/	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-158592	šlyṭ	šlyṭ  	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT
+158592	šlyṭ	šlyṭ  	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT absurd
+158592	šlyṭ	šlyṭ  	]š]lyṭ[/	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT absurd
+158592	šlyṭ	šlyṭ  	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT is not possible
 158592	šlyṭ	šlyṭ  	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
 158593	d	d  	d	d	det. or rel. functor	the one(s) of	
 158594	šbˤt	šbʿt  	šbˤ(I)/t	šbʕ (I)	num. f.	seven	
@@ -66,7 +66,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158621	l	l  	l(II)	l (II)	adv.	not	
 158622	yṯb	yṯb  	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
 158622	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
-158622	yṯb	yṯb  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	
+158622	yṯb	yṯb  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	this is impossible
 158623	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 158624	idk	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 I:10							
@@ -82,7 +82,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158632	w	w 	w	w	conj.	and	
 158633	yˤn	yʿn	!y=!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	Subjects Gapn-and-Ugar. w yˤn gpn w ugr, with two divine subjects; EUPT reads yaˁnî(/â) G-PKK 3.m.du.
 # KTU 1.5 I:12							
-158634	gmpn	g[[m]]pn    	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	Gapnu	DULAT identifies Gapnu, one of the two messengers of Baal in gpn w ugr.
+158634	gmpn	g[[m]]pn    	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	Gapnu	DULAT identifies Gapnu, one of the two messengers of Baal in gpn w ugr. isn't it g&mpn ? 
 158635	w	w 	w	w	conj.	and	
 158636	ugr	ugr  	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
 158637	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
@@ -100,20 +100,20 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158645	ġzr	ġzr  	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 158646	p	p 	p(I)	p (I)	conj. functor	and	
 158647	npš	np{.}š    	npš(I)/	npš (I)	n. f. sg. cstr. nom.	2) appetite	Merge with the following? ## Migrated from legacy reviewed tokenization.
-158648	npš	npš  	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	
+158648	npš	npš  	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	are not two different words but two meanings of the same word.
 158649	lbim	lbim	lb(u/&i~m	lbủ	n. m. sg. cstr. gen.	lion	Wyatt p117 n11 also notes possible maritime/monster construal in this passage.
 # KTU 1.5 I:15							
 158650	thw	thw  	thw/	thw	n. m. sg. abs. gen.	steppe	
 158650	thw	thw  	th(m&w/	thm	n. m. sg. abs. gen.	ocean	Wyatt
 158651	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
-158651	hm	hm  	&h&m				Wyatt: should be merged with previous word.
+158651	hm	hm  	&h&m				Wyatt: should be merged with previous word. this is unnecessary, as hm is a standard double question marking
 158652	brlt	brlt  	brl(t/t	brlt	n. f. sg. cstr. nom.	hunger	
 158653	anḫr	anḫr	anḫr/	ảnḫr	n. m. sg. abs. gen.	dolphin	
 # KTU 1.5 I:16							
 158654	b	b 	b	b	prep.	in	
 158655	ym	ym  	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 158656	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
-158657	brky	brky  	brk(t/y	brkt/y	n. f. sg. abs. acc.	pool	Fronted object: 'or the pool the wild bulls seek' (DULAT brkt/y).
+158657	brky	brky  	brk(t/y	brkt/y	n. f. sg. abs. acc.	pool	asyndetic relative clause: 'or the pool the wild bulls seek' (DULAT brkt/y).
 158658	tkšd	tkšd	!t!kšd[:w	/k-š-d/	vb G prefc. 3 m. pl.	to search for	
 # KTU 1.5 I:17							
 158659	rumm	rumm  	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
@@ -126,12 +126,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158663	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
 158663	hm	hm  	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt
 158664	imt	imt  	im(t/t	ỉmt	adv.	truly	
-158664	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma
+158664	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma how can it be D? no way
 158665	imt	imt  	im(t/t	ỉmt	adv.	truly	
 158665	imt	imt  	?	?	?	?	Read as a dittography of the preceding ỉmt, hence no analysis.
-158665	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma
+158665	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma can't be D
 158666	npš	npš  	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-158667	blt	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places.
+158667	blt	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places. no necessarily D
 # KTU 1.5 I:19							
 158668	ḥmr	ḥmr  	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. acc.	load (measure of capacity), heap	
 158668	ḥmr	ḥmr  	ḥmr(II)/	ḥmr (II)	n. m. sg. abs. acc.	clay	Wyatt
