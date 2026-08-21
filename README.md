@@ -1,7 +1,9 @@
-# Copenhagen Ugaritic Corpus
+<img src="images/caccht-logo.png" alt="CACCHT logo" height="200">
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10695308.svg)](https://doi.org/10.5281/zenodo.10695308)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+# Copenhagen Ugaritic Corpus
 
 This repo contains a text fabric dataset of the Ugaritic text corpus. It is work in progress.
 
