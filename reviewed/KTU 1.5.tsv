@@ -187,7 +187,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158702	yn	yn	yn/	yn	n. m. sg. abs. acc.	wine	
 # KTU 1.5 I:26							
 158703	p	p 	p(I)	p (I)	conj. functor	and	
-158704	nšt	nšt  	]n](nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	DULAT: 'and I was forgotten, Baal' (passive sense). or: ]n]št(y[	/š-t-y/ "drink"
+158704	nšt	nšt  	]n](nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	DULAT: 'and I was forgotten, Baal' (passive sense). or: !n!št(y[	/š-t-y/ "drink"
 158705	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu	
 158706	ṭˤn	[ṭ]ʿn    	!!ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	to be infinitive it should be 	!!ṭˤn[/
 158707	iṭˤnk	iṭʿnk	!(ʔ&i!ṭˤn[+k	/ṭ-ʕ-n/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to smite	
@@ -208,7 +208,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158718	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm (// 1.3 III:42).
 158718	šlyṭ	šlyṭ	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT  doesn't make sense in my view
 158718	šlyṭ	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-158718	šlyṭ	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT doesn't make se
+158718	šlyṭ	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT doesn't make sense
 158718	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
 # KTU 1.5 I:30							
 158719	d	[d ] 	d	d	det. or rel. functor	the one(s) of	
@@ -217,7 +217,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
 158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	if šmm is dual
 # KTU 1.5 I:31							
-158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	
+158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	DULAT 733
 158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158724	šmm	[šmm  ]  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens	
 158725	krs	[krs  ]  	krs/	krs	?	?	DULAT has an entry for krs at this line but gives it no meaning of its own, referring instead to the emended reading below (s.v. krs, p. 452). EUPT glosses krs "Bauch, Eingeweide" ("belly, entrails").
@@ -228,7 +228,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:1							
 158727	xxxxxxxyxḫm	[xxxxxx]xyxḫm	?	?	?	?	
 # KTU 1.5 II:2							
-158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. acc.	lip	
+158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. acc.	lip	We don't assume cases, do we? Can't nominative
 158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. nom.	lip	
 158729	l	[l  ]  	l(I)	l (I)	prep.	to	## Migrated from legacy reviewed tokenization.
 158730	arṣ	[a]rṣ    	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	## Migrated from legacy reviewed tokenization.
@@ -240,7 +240,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158734	yšt	[yšt  ]  	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 158734	yšt	[yšt  ]  	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
 158735	lšn	lšn  	lšn/	lšn	n. f. sg. abs. acc.	tongue	EUPT genders m.
-158735	lšn	lšn  	lšn/	lšn	n. f. sg. abs. nom.	tongue	
+158735	lšn	lšn  	lšn/	lšn	n. f. sg. abs. nom.	tongue	We don't need cases, especially wrong ones. If a noun depend on a verb, it is accusative, if on a preposition it is genetive. Let us concentrate on syntactic relations and not on an assumed endings
 158736	l	l 	l(I)	l (I)	prep.	to	
 158737	kbkbm	kbkbm  	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body, star	
 158738	yˤrb	yʿrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	to enter	
@@ -258,7 +258,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158747	ḥrr	ḥrr  	ḥrr[/	/ḥ-r-r/	vb G pass. ptcpl. m. sg. abs. gen.	to dry up	
 158748	zt	zt  	zt/	zt	n. m. sg. abs. gen.	olive	
 158748	zt	zt  	zt/	zt	n. m. sg. abs. nom.	olive	
-158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.	produce	
+158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.	produce	How can this be genetive?
 158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. nom.	produce	
 158750	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 158751	w	w 	w	w	conj.	and	
@@ -266,16 +266,16 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158752	pr	pr	pr(I)/	pr (I)	n. m. sg. cstr. nom.	fruit	
 # KTU 1.5 II:6							
 158753	ˤṣm	ʿṣm  	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
-158754	yraun	yraun  	!y!(yr(ʔ&a[&u~n	/y-r-ʔ/	vb G prefc. 3 m. sg. + energic -n	to be afraid	TCS: 'will fear him' (obj. suffix reading of -n).
+158754	yraun	yraun  	!y!(yr(ʔ&a[&u~n	/y-r-ʔ/	vb G prefc. 3 m. sg. + energic -n	to be afraid	TCS: 'will fear him' (obj. suffix reading of -n). !y!(yr(ʔ&a[(n&u~n The second aleph is not etymological: it is either a purely vowel letter, or a scribal mistake for n
 158755	aliyn	aliyn  	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 158756	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.5 II:7							
 158757	ṯtˤnn	ṯtʿ{.}nn    	ṯtˤ[~nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + energic -nn	to be frightened, scared	DULAT -nn → -n (I) 3 (energic).
-158757	ṯtˤnn	ṯtʿ{.}nn    	ṯtˤ[+nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to be frightened, scared	TCS: 'will be frightened of him' (-n (IV)).
+158757	ṯtˤnn	ṯtʿ{.}nn    	ṯtˤ[+nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to be frightened, scared	TCS: 'will be frightened of him' (-n (IV)). As for +nn, it is still an enclitic, even with an assimilated pronominal suffix
 158758	rkb	rkb  	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
 158759	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.5 II:8							
-158760	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!').
+158760	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!'). Are we certain, this is dual and not plural?
 158761	rgm	rgm  	!!rgm[	/r-g-m/	vb G impv. m. du.	to say, tell, announce, communicate, inform	
 158761	rgm	rgm  	rgm[	/r-g-m/	vb G suffc. 3 m. du.	to say	EUPT: G-SK 3 m. du.
 158762	l	l 	l(I)	l (I)	prep.	to	
@@ -298,9 +298,10 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158775	aliy	aliy	aliy/	ảlỉy	adj. m. sg. cstr. gen.	The Most Powerful	
 # KTU 1.5 II:11							
 158776	qrdm	qrdm  	qrd(I)/m	qrd (I)	n. m. pl. abs. gen.	hero	
+158776	qrdm	qrdm  	qrd(I)/~m	qrd (I)	n. m. sing. abs. gen.	hero
 158777	bhṯ	bhṯ  	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame	DULAT: 'for shame, oh divine DN!'; UNP/TCS render 'Greetings/Salutations'.
 158778	l	l 	l(IV)	l (IV)	interj.	oh!	
-158779	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
+158779	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	Why nominative and not genetive after the preposition / vocative particle?
 158780	ilm	ilm 	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 158780	ilm	ilm 	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 158781	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
@@ -317,7 +318,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158789	l	l  	l(II)	l (II)	adv.	not	
 158790	yṯb	yṯb  	!y=!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	tbˤ w l yṯb ilm, 'they departed and the two gods did not sit' — ilm is dual here. EUPT reads yâṯibā/yaṯabā 3.m.du. but takes it as a suffix conjugation (G-SK), where it reads the same formula at 1.2 I:19 as a prefix conjugation (G-PKK); the prefix reading is kept as primary and marked !y=! for the dual, matching ytn in the next line.
 158790	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	Sg. form with pl. subject (cf. 1.2 I:21).
-158790	yṯb	yṯb  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	
+158790	yṯb	yṯb  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	Participle is not possible, because of the lack of plural / dual ending and the form of the negative
 158791	ilm	ilm 	il(I)/m	ỉl (I)	n. m. du. abs. nom.	god	The two messengers (// 1.2 I:19 ġlmm); TCS: vocative 'Be off…, O gods'.
 158792	idk	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 II:14							
@@ -337,7 +338,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158802	mk	mk  	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	DULAT: 'a pit is the throne of his seat'; TCS: TN Mukku.
 158803	ksu	ksu	ks(u/&u	ks/śủ	n. m. sg. cstr. nom.	seat, throne, chair	
 # KTU 1.5 II:16							
-158804	ṯbth	ṯbt<h>    	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen. + 3 m. sg. suff.	seat	
+158804	ṯbth	ṯbt<h>    	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen. + 3 m. sg. suff.	seat	Can it be an infinitive?
 158805	ḫḫ	ḫḫ  	ḫḫ/	ḫḫ	n. m. sg. abs. nom.	mire	TCS: TN Ḫôḫu.
 158806	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	EUPT genders m.
 158807	nḥlth	nḥlth  	nḥl(t/t+h	nḥlt	n. f. sg. cstr. gen. + 3 m. sg. suff.	property	
@@ -352,7 +353,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158814	bn	{bn }  	?	?	?	?	
 158815	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 158816	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
-158817	aliynqrdm	aliy[[n]] . qrdm	?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
+158817	aliynqrdm	aliyn/ . 
+qrdm	qrd/~m ?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 # KTU 1.5 II:19							
 158818	bhṯ	bhṯ  	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame, greetings	
 158819	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
