@@ -34,7 +34,11 @@ The last case is a representational decision: the single written `n` is assigned
 
 ## Worked Example: `nšt` from `/n-š-y/`
 
-Canonical analysis: `]n](nš(y[t`
+Conditional on the DULAT N reading, canonical encoding: `]n](nš(y[t`.
+This example does not adjudicate `nšt` in KTU 1.5 I:26: Tania Notarius offers
+`/š-t-y/` “drink”, DULAT records Smith's matching dissent, and EUPT gives a G
+suffix-conjugation reading of `/n-š-y/`. Preserve these as attributed alternatives;
+do not use the N encoding example to force the lexeme or stem.
 
 | Segment | Function | Surface |
 |---|---|---|

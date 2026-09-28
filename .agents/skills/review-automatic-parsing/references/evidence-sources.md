@@ -35,6 +35,7 @@ This is tablet-specific; never infer it from an author's name alone.
 | material | provenance consequence |
 |---|---|
 | KTU 1.2 reviewed TSV | Alex/agent review seeded from automatic 0.2.7; repository history explicitly says there is no human gold |
+| KTU 1.5, commits cb467e9 / 0dd3120 / 453fdbc | Tania comments on existing reviewed analyses; explicit rejections are evidence, and questions remain questions |
 | KTU 1.3 | Tania's blank-slate review; omissions are silence, while positive readings are independent evidence |
 | KTU 1.6 `origin/review/1.6-Kseniia` | Ksenia used automatic parsing, but the public branch head `248fa29` contains manual work only through V:9; column VI still matches its parser scaffold and is not an independent human review |
 | KTU 1.14 legacy TXT | Martijn's independent review; no automatic-deletion inference |
@@ -50,8 +51,9 @@ coverage.
 
 ## Precedence when sources disagree
 
-**DULAT and Tropper are the top tier.** Everything else yields to them on a
-straight disagreement.
+**DULAT and Tropper are primary references, not a license to erase dissent.**
+An explicit user instruction on reviewer priority controls row order; see
+`expert-feedback.md`. Preserve attributed expert and scholarly alternatives.
 
 1. **DULAT is the arbiter of lexeme, homonym, and sense.** A gloss that is not
    DULAT's wording for the chosen sense is an invention. When DULAT genuinely
@@ -77,8 +79,7 @@ straight disagreement.
    present in their exact historical basis but absent from their retained set is
    not ordinary source silence: it is an explicit rejection. The aligner labels
    this `REJECTED-AUTO`. Remove that option unless DULAT, Tropper, or another
-   independent source supports it. Tania worked from a blank slate; her
-   omissions, including in KTU 1.3, are ordinary silence rather than rejection.
+   independent source supports it. Tania's blank-slate reviews (including KTU 1.3) have ordinary omissions; her 2026 KTU 1.5 comments explicitly evaluate existing analyses. Determine provenance per review, not per author.
 
 ## Principles that outrank the ranking
 

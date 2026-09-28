@@ -12,11 +12,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158590	ˤqltn	ʿqltn  	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
 158591	š	[[š]]	?	?	?	?	
 # KTU 1.5 I:3							
-158592	šlyṭ	šlyṭ  	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm 'the tyrant of seven heads' (// 1.3 III:42).
-158592	šlyṭ	šlyṭ  	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT absurd
-158592	šlyṭ	šlyṭ  	]š]lyṭ[/	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT absurd
-158592	šlyṭ	šlyṭ  	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT is not possible
-158592	šlyṭ	šlyṭ  	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
+158592	šlyṭ	šlyṭ  	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm 'the tyrant of seven heads' (// 1.3 III:42). Tania Notarius rejects the proposed active/passive participle analyses; she does not explicitly choose between the nominal readings.
+158592	šlyṭ	šlyṭ  	šlyṭ/	šlyṭ	DN m. sg. abs. acc.	Šaliyaṭu	EUPT: divine name (Akk. m. sg.). Tropper (2012), p. 602, tentatively derives this divine name as a verbal adjective from lw/yṭ, comparing Hebrew "enwrap" and Syriac "curse", or alternatively from šlṭ with y as a vowel letter. Wyatt (2002), p. 115 n. 5, prefers "Encircler". DULAT p. 810, entry 4055, also reports Margalit MLD 90 (lw/yṭ) and De Moor UF 11 (1979), 641 n. 12 (ly/uṭ Š). These source-backed lexical hypotheses must not be dismissed as invented or absent from DULAT. Exact correspondence to the earlier active/passive participle encodings remains pending direct-source verification; Tania rejects those parses.
 158593	d	d  	d	d	det. or rel. functor	the one(s) of	
 158594	šbˤt	šbʿt  	šbˤ(I)/t	šbʕ (I)	num. f.	seven	
 158595	rašm	rašm	r(i&aš(I)/m	rỉš (I)	n. m. pl. abs. gen.	head	
@@ -64,9 +61,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158619	tbˤ	tbʿ  	tbˤ[:w	/t-b-ʕ/	vb G suffc. 3 m. pl.	to go	
 158620	w	w 	w	w	conj.	and	
 158621	l	l  	l(II)	l (II)	adv.	not	
-158622	yṯb	yṯb  	!y!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. sg.	to sit down	
-158622	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	
-158622	yṯb	yṯb  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	this is impossible
+158622	yṯb	yṯb  	!y=!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	Tania Notarius rejects the participle here; at II:13 she cites the absent plural/dual ending and negation. Tropper (2012), p. 634: prefix conjugation 3 m. du. at 1.2 I:19, 1.5 I:9 and II:13.
+158622	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. du.	to sit down	EUPT at this line: G-SK 3 m. du., differing from Tropper (2012), p. 634, on conjugation.
 158623	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 158624	idk	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 I:10							
@@ -82,7 +78,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158632	w	w 	w	w	conj.	and	
 158633	yˤn	yʿn	!y=!ˤn(y(I)[	/ʕ-n-y/ (I)	vb G prefc. 3 m. du.	to answer	Subjects Gapn-and-Ugar. w yˤn gpn w ugr, with two divine subjects; EUPT reads yaˁnî(/â) G-PKK 3.m.du.
 # KTU 1.5 I:12							
-158634	gmpn	g[[m]]pn    	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	Gapnu	DULAT identifies Gapnu, one of the two messengers of Baal in gpn w ugr. isn't it g&mpn ? 
+158634	gmpn	g[[m]]pn    	gpn(III)/	gpn (III)	DN m. sg. abs. nom.	Gapnu	DULAT identifies Gapnu, one of the two messengers of Baal in gpn w ugr. Tania Notarius: isn't it g&mpn ? ## Notation discussion: current conventions exclude the erased m from morphology; gpn(III)/ follows that rule. No change to & is adopted.
 158635	w	w 	w	w	conj.	and	
 158636	ugr	ugr  	ugr(II)/	ủgr (II)	DN m. sg. abs. nom.	Ugar/one of the two messenger-boys of Baal	
 158637	tḥm	tḥm  	tḥm/	tḥm	n. m. sg. cstr. nom.	message	
@@ -99,27 +95,26 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:14							
 158645	ġzr	ġzr  	ġzr/	ġzr	n. m. sg. abs. gen.	lad	
 158646	p	p 	p(I)	p (I)	conj. functor	and	
-158647	npš	np{.}š    	npš(I)/	npš (I)	n. f. sg. cstr. nom.	2) appetite	Merge with the following? ## Migrated from legacy reviewed tokenization.
-158648	npš	npš  	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	are not two different words but two meanings of the same word.
+158647	npš	np{.}š    	npš(I)/	npš (I)	n. f. sg. cstr. nom.	2) appetite	DULAT s.v. npš (I) includes appetite; EUPT reads two occurrences of this lemma at I:14. ## Legacy token-joining question withdrawn; original wording is preserved in the feedback audit. Migrated from legacy reviewed tokenization. Tania Notarius identifies two meanings of the same lexeme, not grounds for merging physical tokens.
+158648	npš	npš  	npš(I)/	npš (I)	n. f. sg. cstr. nom.	throat	Tania Notarius: are not two different words but two meanings of the same word. DULAT s.v. npš (I) includes both throat and appetite. Both token occurrences are retained.
 158649	lbim	lbim	lb(u/&i~m	lbủ	n. m. sg. cstr. gen.	lion	Wyatt p117 n11 also notes possible maritime/monster construal in this passage.
 # KTU 1.5 I:15							
 158650	thw	thw  	thw/	thw	n. m. sg. abs. gen.	steppe	
-158650  thw/	thw	n. m. sg. abs. acc.	steppe, in the steppe
-158650	thw	thw  	th(m&w/	thm	n. m. sg. abs. gen.	ocean	Wyatt
-158651	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
-158651	hm	hm  	&h&m				Wyatt: should be merged with previous word. this is unnecessary, as hm is a standard double question marking
+158650	thw	thw  	thw/	thw	n. m. sg. abs. acc.	steppe, in the steppe	Tania Notarius (2026-09-28): accusative alternative, "steppe, in the steppe".
+158650	thw	thw  	th(m&w/	thm	n. m. sg. abs. gen.	ocean	Wyatt (2002), pp. 116–117 n. 11: tentative maritime interpretation, emending thw hm to thm. Tania Notarius rejects the need to join hm. ## Existing lexical alternative retained; whole-phrase encoding remains pending discussion.
+158651	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	Tania Notarius: joining hm to the preceding word is unnecessary because hm is standard double-question marking. DULAT s.v. hm (II) cites the compound question here; EUPT reads hm separately. Wyatt (2002), pp. 116–117 n. 11, tentatively proposes combining thw hm into thm for a maritime reading; this proposal remains preserved here, with its encoding pending discussion.
 158652	brlt	brlt  	brl(t/t	brlt	n. f. sg. cstr. nom.	hunger	
 158653	anḫr	anḫr	anḫr/	ảnḫr	n. m. sg. abs. gen.	dolphin	
 # KTU 1.5 I:16							
 158654	b	b 	b	b	prep.	in	
 158655	ym	ym  	ym(II)/	ym (II)	n. m. sg. abs. gen.	sea	
 158656	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
-158657	brky	brky  	brk(t/y	brkt/y	n. f. sg. abs. acc.	pool	asyndetic relative clause: 'or the pool the wild bulls seek' (DULAT brkt/y).
+158657	brky	brky  	brk(t/y	brkt/y	n. f. sg. abs. acc.	pool	Tania Notarius: asyndetic relative clause: 'or the pool the wild bulls seek' (DULAT brkt/y). ## EUPT gives masculine nominative birkayu; Tropper (2012), p. 283, discusses feminine agreement. Gender, case and clause construal remain a source-comparison question.
 158658	tkšd	tkšd	!t!kšd[:w	/k-š-d/	vb G prefc. 3 m. pl.	to search for	
 # KTU 1.5 I:17							
 158659	rumm	rumm  	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
 158660	ˤn	ʿn  	ˤn(I)/	ʕn (I)	n. f. sg. abs. acc.	spring	
-158661	kḏd	kḏd  	kḏd	kḏd		
+158661	kḏd	kḏd  	kḏd	kḏd			
 158661	kḏd	kḏd  	k(II) ḏd(III)/	k (II) | ḏd (III)	emph. functor | n. m. sg. cstr. nom.	yes | flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'.
 158662	aylt	aylt	ayl(I)/t	ảyl (I)	n. f. sg. abs. gen.	hind	
 158662	aylt	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
@@ -127,18 +122,19 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158663	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
 158663	hm	hm  	hm(I)	hm (I)	pers. pn. 3 m. pl.	they	Wyatt
 158664	imt	imt  	im(t/t	ỉmt	adv.	truly	
-158664	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma how can it be D? no way
+158664	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt (2002), pp. 118–119 n. 20, explicitly proposes D of m(w)t, "kill", tentatively and retaining all three imt occurrences. Tania Notarius rejects D at I:18 ("how can it be D? no way" / "can't be D"). This is an attributed disagreement, not a DULAT analysis.
 158665	imt	imt  	im(t/t	ỉmt	adv.	truly	
 158665	imt	imt  	?	?	?	?	Read as a dittography of the preceding ỉmt, hence no analysis.
-158665	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma can't be D
+158665	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt (2002), pp. 118–119 n. 20, explicitly proposes D of m(w)t, "kill", tentatively and retaining all three imt occurrences. Tania Notarius rejects D at I:18 ("how can it be D? no way" / "can't be D"). This is an attributed disagreement, not a DULAT analysis.
 158666	npš	npš  	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-158667	blt	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places. not necessarily D
+158667	blt	blt	bl(y[t===	/b-l-y/	vb G suffc. 3 f. sg.	to devour	Tania Notarius: D is not necessary (a non-exclusive objection). This G alternative follows the blt form label in DULAT s.v. /b-l-y/; it does not attribute a categorical G judgment to Tania. DULAT's stem entry and Tropper instead support D.
+158667	blt	blt	bl(y[t===:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	Tropper (2012), §74.414.2, p. 559, explicitly supports D here; EUPT tags D-SK 3 f. sg. DULAT s.v. /b-l-y/ has a D stem entry but labels blt G in its form list. Tania Notarius: "not necessarily D".
 # KTU 1.5 I:19							
 158668	ḥmr	ḥmr  	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. acc.	load (measure of capacity), heap	
 158668	ḥmr	ḥmr  	ḥmr(II)/	ḥmr (II)	n. m. sg. abs. acc.	clay	Wyatt
 158669	p	p 	p(I)	p (I)	conj. functor	and	
 158670	imt	imt  	im(t/t	ỉmt	adv.	truly	
-158670	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma
+158670	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt (2002), pp. 118–119 n. 20, explicitly proposes D of m(w)t, "kill", tentatively and retaining all three imt occurrences. Tania Notarius rejects D at I:18 ("how can it be D? no way" / "can't be D"). This is an attributed disagreement, not a DULAT analysis.
 158671	b	b 	b	b	prep.	in	
 158672	klat	klat	kla(t/t	klảt(n)	n. f. du. cstr. gen.	both	
 # KTU 1.5 I:20							
@@ -167,7 +163,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158687	ˤm	ʿm	ˤm(I)	ʕm (I)	prep.	with, together with	
 # KTU 1.5 I:23							
 158688	aḫy	aḫy  	aḫ(I)/+y	ảḫ (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	brother (by blood)	
-158689	qran	qran  	!!qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg. + 1 c. sg. suff.	to call	 in !!qr(ʔ&[a+n= as -a is an inflectional marking of lengthened imperative
+158689	qran	qran  	!!qr(ʔ&a[+n=	/q-r-ʔ/	vb G impv. m. sg. + 1 c. sg. suff.	to call	Tania Notarius: in !!qr(ʔ&[a+n= as -a is an inflectional marking of lengthened imperative ## The proposed inflectional treatment of imperative -a remains pending. Tropper (2012), §75.234, p. 622, also gives a suffix-conjugation reading; EUPT reads G-SK 3 m. sg. + 1 c. sg. suffix.
 158690	hd	hd  	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
 158691	ˤm	ʿm  	ˤm(I)	ʕm (I)	prep.	with, together with	
 158692	aryy	aryy	ary(I)/+y	ảry (I)	n. m. pl. cstr. gen. + 1 c. sg. suff.	fellow	
@@ -188,9 +184,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158702	yn	yn	yn/	yn	n. m. sg. abs. acc.	wine	
 # KTU 1.5 I:26							
 158703	p	p 	p(I)	p (I)	conj. functor	and	
-158704	nšt	nšt  	]n](nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	DULAT: 'and I was forgotten, Baal' (passive sense). or: !n!št(y[	/š-t-y/ "drink"
+158704	nšt	nšt  	!n!št(y[	/š-t-y/	vb G prefc. 1 c. pl.	to drink	Tania Notarius: "or: !n!št(y[ /š-t-y/ drink". DULAT s.v. /n-š-y/ records Smith, UNP p. 142, "so let us drink, O DN", as dissent at 1.5 I:26.
+158704	nšt	nšt  	]n](nš(y[t	/n-š-y/	vb N suffc. 1 c. sg.	to be forgotten	DULAT s.v. /n-š-y/: N suffix conjugation, "and I was forgotten, Baal". Tania Notarius instead offers /š-t-y/ "drink".
+158704	nšt	nšt  	nš(y[t=	/n-š-y/	vb G suffc. 2 m. sg.	to forget	EUPT at I:26: G-SK 2 m. sg., "you have forgotten". Wyatt (2002), p. 119, translates "you forget"; DULAT s.v. /n-š-y/ records Del Olmo, MLC p. 215, with a precative G suffix-conjugation reading. G is dissenting here, not DULAT's primary N analysis.
 158705	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu	
-158706	ṭˤn	[ṭ]ʿn    	!!ṭˤn[	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	to be infinitive it should be 	!!ṭˤn[/
+158706	ṭˤn	[ṭ]ʿn    	!!ṭˤn[/	/ṭ-ʕ-n/	vb G inf. abs.	to smite, destroy	Tania Notarius: "to be infinitive it should be !!ṭˤn[/". EUPT reads a G infinitive here; [/ already follows the accepted infinitive convention.
 158707	iṭˤnk	iṭʿnk	!(ʔ&i!ṭˤn[+k	/ṭ-ʕ-n/	vb G prefc. 1 c. sg. + 2 m. sg. suff.	to smite	
 # KTU 1.5 I:27							
 158708	xxxxxqa	[xxx]xxqa    	?	?	?	?	
@@ -206,11 +204,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:29							
 158716	bṯn	[bṯn  ]  	bṯn/	bṯn	n. m. sg. abs. acc.	serpent	
 158717	ˤqltn	[ʿqltn ]  	ˤqltn/	ʕqltn	adj. m. sg. abs. acc.	winding	
-158718	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm (// 1.3 III:42).
-158718	šlyṭ	šlyṭ	]š]l(w&yṭ[/	/l-w-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT  doesn't make sense in my view
-158718	šlyṭ	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š act. ptcpl. m. sg. abs. acc.	to enwrap, to encircle	Not in DULAT
-158718	šlyṭ	šlyṭ	]š]lyṭ[/	/l-y-ṭ/	vb Š pass. ptcpl. m. sg. abs. acc.	to be cursed	Not in DULAT doesn't make sense
-158718	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	DN m. abs. acc.	Šaliyaṭu	Not in DULAT
+158718	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	n. m. sg. abs. acc.	tyrant	šlyṭ d šbˤt rašm (// 1.3 III:42). Tania Notarius rejects the proposed active/passive participle analyses; she does not explicitly choose between the nominal readings.
+158718	šlyṭ	šlyṭ	šlyṭ/	šlyṭ	DN m. sg. abs. acc.	Šaliyaṭu	EUPT: divine name (Akk. m. sg.). Tropper (2012), p. 602, tentatively derives this divine name as a verbal adjective from lw/yṭ, comparing Hebrew "enwrap" and Syriac "curse", or alternatively from šlṭ with y as a vowel letter. Wyatt (2002), p. 115 n. 5, prefers "Encircler". DULAT p. 810, entry 4055, also reports Margalit MLD 90 (lw/yṭ) and De Moor UF 11 (1979), 641 n. 12 (ly/uṭ Š). These source-backed lexical hypotheses must not be dismissed as invented or absent from DULAT. Exact correspondence to the earlier active/passive participle encodings remains pending direct-source verification; Tania rejects those parses.
 # KTU 1.5 I:30							
 158719	d	[d ] 	d	d	det. or rel. functor	the one(s) of	
 158720	šbˤt	[šbʿt  ]  	šbˤ(I)/t	šbʕ (I)	num. f.	seven	
@@ -218,7 +213,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[:w	/ṯ-k-ḥ/	vb G prefc. 3 m. pl.	to burn	
 158722	tṯkḥ	tṯkḥ	!t!ṯkḥ[	/ṯ-k-ḥ/	vb G prefc. 3 m. du.	to burn	if šmm is dual
 # KTU 1.5 I:31							
-158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	DULAT 733
+158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d:w	/r-p-y/	vb Dt prefc. 3 m. pl.	to slacken	Tania Notarius: DULAT 733
 158723	ttrp	[ttrp  ]  	!t!]t]rp(y[:d	/r-p-y/	vb Dt prefc. 3 m. du.	to slacken	if šmm is dual
 158724	šmm	[šmm  ]  	šm(m(I)/m	šmm (I)	n. m. pl./du. tant. abs. nom.	heavens	
 158725	krs	[krs  ]  	krs/	krs	?	?	DULAT has an entry for krs at this line but gives it no meaning of its own, referring instead to the emended reading below (s.v. krs, p. 452). EUPT glosses krs "Bauch, Eingeweide" ("belly, entrails").
@@ -229,8 +224,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:1							
 158727	xxxxxxxyxḫm	[xxxxxx]xyxḫm	?	?	?	?	
 # KTU 1.5 II:2							
-158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. acc.	lip	We don't assume cases, do we? Can be nominative or accusative if a verb was ommited or erased
-158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. nom.	lip	
+158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. acc.	lip	Tania Notarius (2026-09-28): "We don't assume cases, do we? Can be nominative or accusative if a verb was ommited or erased". EUPT reads accusative at II:2. ## Both cases remain alternatives following the later clarification; general case policy remains pending.
+158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. nom.	lip	Tania Notarius (2026-09-28) allows nominative or accusative if a verb was omitted or erased; the syntactic reading remains open.
 158729	l	[l  ]  	l(I)	l (I)	prep.	to	## Migrated from legacy reviewed tokenization.
 158730	arṣ	[a]rṣ    	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	## Migrated from legacy reviewed tokenization.
 158731	špt	špt  	šp(t/t	špt	n. f. sg. abs. acc.	lip	
@@ -240,8 +235,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:3							
 158734	yšt	[yšt  ]  	!y!št[	/š-t/	vb G prefc. 3 m. sg.	to place	
 158734	yšt	[yšt  ]  	!y!št[:pass	/š-t/	vb Gpass prefc. 3 m. sg.	to place	
-158735	lšn	lšn  	lšn/	lšn	n. f. sg. abs. acc.	tongue	EUPT genders m.
-158735	lšn	lšn  	lšn/	lšn	n. f. sg. abs. nom.	tongue	We don't need cases, especially wrong ones. If a noun depend on a verb, it is accusative, if on a preposition it is genetive. Let us concentrate on syntactic relations and not on an assumed endings
+158735	lšn	lšn  	lšn/	lšn	n. f. sg. abs. acc.	tongue	Tania Notarius rejects the nominative and asks for syntactic relations rather than assumed case endings. Accusative follows her object construal. EUPT genders lšn masculine and leaves case unspecified. ## General case policy remains pending.
+158735	lšn	lšn  	lšn/	lšn	n. m. sg.	tongue	EUPT at II:3: masculine singular, case unspecified; differs from DULAT feminine and Tania Notarius' object/case construal.
 158736	l	l 	l(I)	l (I)	prep.	to	
 158737	kbkbm	kbkbm  	kbkb/m	kbkb	n. m. pl. abs. gen.	heavenly body, star	
 158738	yˤrb	yʿrb	!y!ˤrb(I)[	/ʕ-r-b/ (I)	vb G prefc. 3 m. sg.	to enter	
@@ -259,24 +254,24 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158747	ḥrr	ḥrr  	ḥrr[/	/ḥ-r-r/	vb G pass. ptcpl. m. sg. abs. gen.	to dry up	substantivized "dried one of"
 158748	zt	zt  	zt/	zt	n. m. sg. abs. gen.	olive	
 158748	zt	zt  	zt/	zt	n. m. sg. abs. nom.	olive	
-158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.	produce	genitive if it depends on the preposition k
-158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. nom.	produce	
+158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.	produce	Tania Notarius (2026-09-28): "genitive if it depends on the preposition k". Tropper (2012), §83.111c, p. 783, construes the produce and fruit within the comparison with a roasted olive; EUPT reads nominative.
+158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. nom.	produce	EUPT reads nominative construct, the produce of the earth. Tania Notarius' later comment allows genitive if governed by k; the two construals remain alternatives.
 158750	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 158751	w	w 	w	w	conj.	and	
 158752	pr	pr	pr(I)/	pr (I)	n. m. sg. cstr. gen.	fruit	
 158752	pr	pr	pr(I)/	pr (I)	n. m. sg. cstr. nom.	fruit	
 # KTU 1.5 II:6							
 158753	ˤṣm	ʿṣm  	ˤṣ/m	ʕṣ	n. m. pl. abs. gen.	tree	
-158754	yraun	yraun  	!y!(yr(ʔ&a[&u~n	/y-r-ʔ/	vb G prefc. 3 m. sg. + energic -n	to be afraid	TCS: 'will fear him' (obj. suffix reading of -n). !y!(yr(ʔ&a[(n&u~n The second aleph is not etymological: it is either a purely vowel letter, or a scribal mistake for n
+158754	yraun	yraun  	!y!(yr(ʔ&a[&u~n	/y-r-ʔ/	vb G prefc. 3 m. sg. + energic -n	to be afraid	TCS: 'will fear him' (obj. suffix reading of -n). Tania Notarius: !y!(yr(ʔ&a[(n&u~n The second aleph is not etymological: it is either a purely vowel letter, or a scribal mistake for n Tropper (2012), §75.236, p. 622, gives an infinitive with energic and an alternative emended suffix-conjugation reading; EUPT reads G-SK with Energic II. ## Vowel-letter versus scribal-error interpretation and marker placement remain pending; the present prefix analysis is not settled.
 158755	aliyn	aliyn  	aliyn/	ảlỉyn	adj. m. sg. abs. nom.	The Very / Most Powerful	
 158756	bˤl	bʿl	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.5 II:7							
 158757	ṯtˤnn	ṯtʿ{.}nn    	ṯtˤ[~nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + energic -nn	to be frightened, scared	DULAT -nn → -n (I) 3 (energic).
-158757	ṯtˤnn	ṯtʿ{.}nn    	ṯtˤ[+nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to be frightened, scared	TCS: 'will be frightened of him' (-n (IV)). As for +nn, it is still an enclitic, even with an assimilated pronominal suffix
+158757	ṯtˤnn	ṯtʿ{.}nn    	ṯtˤ[+nn	/ṯ-t-ʕ/	vb G suffc. 3 m. sg. + 3 m. sg. suff.	to be frightened, scared	TCS: 'will be frightened of him' (-n (IV)). Tania Notarius: As for +nn, it is still an enclitic, even with an assimilated pronominal suffix EUPT reads G-SK with Energic II. ## Combined enclitic/pronominal-suffix notation remains pending; no global +nn to ~nn conversion is adopted.
 158758	rkb	rkb  	rkb(I)/	rkb (I)	n. m. sg. cstr. nom.	Charioteer	
 158759	ˤrpt	ʿrpt	ˤrp(t/t=	ʕrpt	n. f. pl. tant. abs. gen.	cloud(s)	
 # KTU 1.5 II:8							
-158760	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!'). Are we certain, this is dual and not plural?
+158760	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!'). Tania Notarius: Are we certain, this is dual and not plural? EUPT also tags dual here, although its G-SK tag differs from its imperative translation. ## Tania's dual-versus-plural question remains open; it is not an assertion of plural.
 158761	rgm	rgm  	!!rgm[	/r-g-m/	vb G impv. m. du.	to say, tell, announce, communicate, inform	
 158761	rgm	rgm  	rgm[	/r-g-m/	vb G suffc. 3 m. du.	to say	EUPT: G-SK 3 m. du.
 158762	l	l 	l(I)	l (I)	prep.	to	
@@ -298,11 +293,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158774	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
 158775	aliy	aliy	aliy/	ảlỉy	adj. m. sg. cstr. gen.	The Most Powerful	
 # KTU 1.5 II:11							
-158776	qrdm	qrdm  	qrd(I)/m	qrd (I)	n. m. pl. abs. gen.	hero	
-158776	qrdm	qrdm  	qrd(I)/~m	qrd (I)	n. m. sing. abs. gen.	hero
+158776	qrdm	qrdm  	qrd(I)/~m	qrd (I)	n. m. sg. abs. gen. + encl. -m	hero	Tania Notarius: singular qrd with enclitic -m.
+158776	qrdm	qrdm  	qrd(I)/m	qrd (I)	n. m. pl. abs. gen.	hero	Plural interpretation retained; compare EUPT qarrādīma at the parallel II:18.
 158777	bhṯ	bhṯ  	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame	DULAT: 'for shame, oh divine DN!'; UNP/TCS render 'Greetings/Salutations'.
 158778	l	l 	l(IV)	l (IV)	interj.	oh!	
-158779	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	Why nominative and not genetive after the preposition / vocative particle?
+158779	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	Tania Notarius: Why nominative and not genetive after the preposition / vocative particle? EUPT reads a vocative particle followed by nominative binu. ## The question does not establish that a vocative particle governs genitive; discuss the preceding l analysis before changing case.
 158780	ilm	ilm 	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 158780	ilm	ilm 	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 158781	mt	mt	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
@@ -317,9 +312,8 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158787	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	TCS: 'Be off and do not tarry, O gods' (// 1.2 I:13). This is hardly, as the following l yṯb is indicative 3 person
 158788	w	w 	w	w	conj.	and	
 158789	l	l  	l(II)	l (II)	adv.	not	
-158790	yṯb	yṯb  	!y=!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	tbˤ w l yṯb ilm, 'they departed and the two gods did not sit' — ilm is dual here. EUPT reads yâṯibā/yaṯabā 3.m.du. but takes it as a suffix conjugation (G-SK), where it reads the same formula at 1.2 I:19 as a prefix conjugation (G-PKK); the prefix reading is kept as primary and marked !y=! for the dual, matching ytn in the next line.
-158790	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	Sg. form with pl. subject (cf. 1.2 I:21). why singular if SC? will be  plural or dual
-158790	yṯb	yṯb  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	Participle is not possible, because of the lack of plural / dual ending and the form of the negative
+158790	yṯb	yṯb  	!y=!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	Tania Notarius rejects the participle here; at II:13 she cites the absent plural/dual ending and negation. Tropper (2012), p. 634: prefix conjugation 3 m. du. at 1.2 I:19, 1.5 I:9 and II:13.
+158790	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. du.	to sit down	EUPT at this line: G-SK 3 m. du., differing from Tropper (2012), p. 634, on conjugation. Tania Notarius (2026-09-28): "why singular if SC? will be  plural or dual"; the retained dual follows EUPT.
 158791	ilm	ilm 	il(I)/m	ỉl (I)	n. m. du. abs. nom.	god	The two messengers (// 1.2 I:19 ġlmm); TCS: vocative 'Be off…, O gods'.
 158792	idk	idk	idk	ỉdk	narrative adv. functor	then	
 # KTU 1.5 II:14							
@@ -339,7 +333,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158802	mk	mk  	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	DULAT: 'a pit is the throne of his seat'; TCS: TN Mukku. 
 158803	ksu	ksu	ks(u/&u	ks/śủ	n. m. sg. cstr. nom.	seat, throne, chair	
 # KTU 1.5 II:16							
-158804	ṯbth	ṯbt<h>    	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen. + 3 m. sg. suff.	seat	Can it be an infinitive?
+158804	ṯbth	ṯbt<h>    	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen. + 3 m. sg. suff.	seat	Tania Notarius: Can it be an infinitive? DULAT entry 4473 gives the feminine noun seat / sitting; EUPT (its II:15) likewise tags a feminine genitive noun, ṯib(a)ti. Burns lists ṯbt as a cultic action with root yṯb. ## The proposed infinitive remains a research question, not an accepted replacement.
 158805	ḫḫ	ḫḫ  	ḫḫ/	ḫḫ	n. m. sg. abs. nom.	mire	TCS: TN Ḫôḫu.
 158806	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. cstr. nom.	earth	EUPT genders m.
 158807	nḥlth	nḥlth  	nḥl(t/t+h	nḥlt	n. f. sg. cstr. gen. + 3 m. sg. suff.	property	
@@ -354,15 +348,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158814	bn	{bn }  	?	?	?	?	
 158815	bˤl	bʿl  	bˤl(II)/	bʕl (II)	DN m. sg. abs. gen.	Baʿlu/Baal	
 158816	hwt	hwt  	hw(t(I)/t	hwt (I)	n. f. sg. cstr. nom.	word	
-158817	aliynqrdm	aliyn/ . 
-qrdm	qrd/~m ?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
+158817	aliynqrdm	aliy[[n]] . qrdm	?	?	?	?	Tania Notarius proposes (question): "aliyn/ . qrdm qrd/~m ?". EUPT at II:18 reads aliy followed by plural qrdm; Tania's singular/enclitic proposal differs. The same aliy phrase occurs at II:11. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization. Segmentation and reconstruction of the proposed alternative remain pending.
 # KTU 1.5 II:19							
 158818	bhṯ	bhṯ  	bhṯ/	bhṯ	n. m. sg. abs. nom.	shame, greetings	
 158819	bn	bn  	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
 158820	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 158820	ilm	ilm  	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 158821	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
-158822	ˤbdk	ʿbdk  	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant
+158822	ˤbdk	ʿbdk  	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant	
 158823	an	an 	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 # KTU 1.5 II:20							
 158824	w	w 	w	w	conj.	and	
@@ -379,15 +372,14 @@ qrdm	qrd/~m ?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legac
 158831	ytn	[ytn  ]  	ytn[	/y-t-n/	vb G suffc. 3 m. sg.	to give	
 158832	gh	gh  	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	
 158833	w	w 	w	w	conj.	and	
-158834	aṣḥ	aṣḥ  	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim, shout	Surface aṣḥ (1 c. sg.); UNP reads wyṣḥ (3 m. sg.).
-158834         !(y&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 c. sg.	to exclaim
+158834	aṣḥ	aṣḥ  	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim, shout	Surface aṣḥ (1 c. sg.); UNP reads wyṣḥ (3 m. sg.). Tania Notarius (2026-09-28), proposed alternative: "!(y&a!ṣḥ[ | /ṣ-ḥ/ | vb G prefc. 3 c. sg. | to exclaim". ## Incomplete analysis preserved for review; morphology not yet adjudicated.
 158835	ik	ik  	ik	ỉk	interr. functor	how?, why?	
 158836	yṣḥn	yṣḥn	!y!ṣḥ[+n=	/ṣ-ḥ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to exclaim, shout	UNP: y{.}ṣḥn 'invite me'; DULAT reads ylḥn 'how could he provide moisture?' (/l-ḥ(-ḥ)/).
 # KTU 1.5 II:22							
 158837	bˤl	[bʿl  ]  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 158838	xxxxxx	[xx]x[xxx]  	?	?	?	?	
 158839	yqr	yqr  	!y!qr(ʔ&u[+n=	/q-r-ʔ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to call, shout, invite	MERGE WITH THE NEXT. UNP: yqrun '[he] calls me'; DULAT: -n (II).
-158840	unhd	un [.] hd/ Haddu	?	?	?	?	MERGE WITH THE PREVIOUS. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
+158840	unhd	un [.] hd	?	?	?	?	MERGE WITH THE PREVIOUS. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization. Tania Notarius (2026-09-28) adds "/ Haddu" after the sign span; the identification is preserved here as a proposal.
 # KTU 1.5 II:23							
 158841	xxxxxxxxxp	[xxxxxxxx]xp    	?	?	?	?	UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
 158842	mlḥmy	mlḥmy	mlḥmy	mlḥmy	?	?	UNP: 'my food' (restoring [lḥm ˤm aḫy a]p mlḥmy).
@@ -414,16 +406,13 @@ qrdm	qrd/~m ?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legac
 # KTU 1.5 III:3							
 158855	rbt	rbt  	rb(I)/t	rb (I)	adj. f. sg. abs. nom.	great	DULAT: 'great is the seat'.
 158856	ṯbt	ṯbt  	ṯb(t/t	ṯbt	n. f. sg. abs. nom.	seat	
-158857	ḥšn	ḥš[n            ]            	ḥšn/	ḥšn	n. m. sg.	?	Meaning unknown; De Moor (ARTU 74 n. 345): 'bliss' (Arab. ḥasanat).
-158857 ḥš[n      ? /ḥ-š/ (I) vb G: “to hurry, make haste”
+158857	ḥšn	ḥš[n            ]            	ḥšn/	ḥšn	n. m. sg.	?	Meaning unknown; De Moor (ARTU 74 n. 345): 'bliss' (Arab. ḥasanat). Tania Notarius (2026-09-28), proposed alternative: "ḥš[n      ? /ḥ-š/ (I) vb G: “to hurry, make haste”". ## Incomplete analysis preserved for review; morphology not yet adjudicated.
 # KTU 1.5 III:4							
 158858	y	y  	y	y	voc. functor	oh!	of the end of the previous word
 158859	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. abs. nom.	earth	
-158860	ḥšn	ḥšn[              ]              	ḥšn/	ḥšn	n. m. sg.	?	See III:3. Meaning unknown; De Moor (ARTU 74 n. 345): 'bliss' (Arab. ḥasanat).
-158860 ḥš[n      ? /ḥ-š/ (I) vb G: “to hurry, make haste”; 
+158860	ḥšn	ḥšn[              ]              	ḥšn/	ḥšn	n. m. sg.	?	See III:3. Meaning unknown; De Moor (ARTU 74 n. 345): 'bliss' (Arab. ḥasanat). Tania Notarius (2026-09-28), proposed alternative: "ḥš[n      ? /ḥ-š/ (I) vb G: “to hurry, make haste”;". ## Incomplete analysis preserved for review; morphology not yet adjudicated.
 # KTU 1.5 III:5							
-158861	tˤtd	tʿtd  	!t!ˤtd[	/ʕ-t-d/	vb G prefc.	?	meaning unknown
-158861 tˤtd	tʿtd  	!t!ˤ]t]d[	/ʕ-d/ ?
+158861	tˤtd	tʿtd  	!t!ˤtd[	/ʕ-t-d/	vb G prefc.	?	meaning unknown Tania Notarius (2026-09-28), proposed alternative: "tˤtd | tʿtd   | !t!ˤ]t]d[ | /ʕ-d/ ?". ## Incomplete analysis preserved for review; morphology not yet adjudicated.
 158862	tkl	tkl  	!t!kl(y[:d	/k-l-y/	vb D prefc.	to finish (off), destroy, drain	
 158863		[                 ]                 	?	?	?	?	
 # KTU 1.5 III:6							

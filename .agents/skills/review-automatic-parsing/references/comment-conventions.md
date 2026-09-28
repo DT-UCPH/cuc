@@ -72,10 +72,9 @@ row, it belongs nowhere.
 
 ## How much to write
 
-The conventions below are read off **KTU 1.5**, the most heavily reviewed tablet
-in the corpus — 56 commits, a granular human pass column by column, then a full
-six-column line-by-line re-review. Where a newer tablet does something else,
-1.5 is the precedent.
+KTU 1.5 illustrates the format, but its contents remain revisable. Its 2026
+expert feedback demonstrates that review count does not establish correctness.
+See `expert-feedback.md` when attributing corrections or disputed readings.
 
 The single most important thing 1.5 shows: **most reviewed rows carry no comment
 at all** (~37% are commented). Ambiguity is recorded structurally, in alternative
@@ -91,11 +90,8 @@ Repeat the id, surface, and sign span verbatim; vary columns 4–8. The first ro
 is the primary reading. Each further row says, briefly, where it comes from:
 
 ```
-158592  šlyṭ  šlyṭ/          n. m. sg. abs. acc.            tyrant       šlyṭ d šbˤt rašm 'the tyrant of seven heads' (// 1.3 III:42).
-158592  šlyṭ  ]š]l(w&yṭ[/    vb Š act. ptcpl. m. sg. …      to enwrap    Not in DULAT
-158592  šlyṭ  ]š]lyṭ[/       vb Š act. ptcpl. m. sg. …      to enwrap    Not in DULAT
-158592  šlyṭ  ]š]lyṭ[/       vb Š pass. ptcpl. m. sg. …     to be cursed Not in DULAT
-158592  šlyṭ  šlyṭ/          DN m. abs. acc.                Šaliyaṭu     Not in DULAT
+158704  nšt  !n!št(y[      vb G prefc. 1 c. pl.   to drink       Tania Notarius; Smith, UNP p. 142, as cited in DULAT s.v. /n-š-y/.
+158704  nšt  ]n](nš(y[t    vb N suffc. 1 c. sg.   be forgotten   DULAT s.v. /n-š-y/.
 ```
 
 A short conditional note carries the condition and nothing else. Older rows
@@ -112,7 +108,7 @@ a second reading — but do not collapse a genuine, sourced disagreement into a
 single row either. **Preserving the range of interpretation is a goal of the
 corpus, not a concession.** A UNP/TCS construal difference, an EUPT analysis
 Tropper does not share, and a reading DULAT records under `diff.` all belong in
-the file, with the better-attested one first and each attributed.
+the file, with the user-requested expert priority first when specified, otherwise the better-supported reading first, and each attributed.
 
 A `diff.` reading is scoped to its attestation. Cite it on the row it belongs to
 and nowhere else:

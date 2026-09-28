@@ -17,10 +17,11 @@ condensed form in `Morphological_Labeling_Quick_Checklist.md`. Read the guide's
 open. `agent/prompts/Tagging conventions.md` is authoritative on notation where
 either disagrees with this skill.
 
-**KTU 1.5 is the precedent tablet** — the most heavily reviewed in the corpus,
-with a granular human pass and then a full six-column re-review. Where a newer
-tablet does something else, follow 1.5. `docs/KTU_1.5_agent_review_notes.md` is
-the worked example of a review pass and is worth reading first.
+KTU 1.5 is a worked review example, not a gold authority: Tania Notarius's
+2026 feedback exposed unsupported participle encodings and overconfident features.
+Use the current conventions and source passages, not the tablet's review count,
+to justify a decision. When reconciling expert comments, first read
+`references/expert-feedback.md`.
 
 ## Establish Scope
 
@@ -103,8 +104,7 @@ them. Ksenia, Elijah, and Alex all began from automatic parsing, so
 alternative and deleted it. Treat that omission as an explicit rejection, not
 as silence; remove the option unless DULAT, Tropper, or another independent
 source supports it. This verdict requires comparison with the exact historical
-automatic basis; a current `SEEDED` marker alone is not proof. Tania worked from
-a blank slate, so her omissions are ordinary silence. Without a proved basis the
+automatic basis; a current `SEEDED` marker alone is not proof. Tania's KTU 1.3 and later letter reviews were blank-slate work, so omissions there are ordinary silence. Her 2026 KTU 1.5 comments instead explicitly evaluate existing analyses; establish provenance for each review. Without a proved basis the
 tool reports `CURRENT-EXTRA` instead. `SPLIT/JOIN` rows are candidates for
 `MERGE WITH` pairs.
 
@@ -252,12 +252,9 @@ signature of a linter that never ran; check it against a direct
 `./.venv/bin/python linter/lint.py` count before believing it.
 
 For the lint delta, compare **ERROR counts against a baseline**, not raw totals:
-`INFO` churn and changed "choose one of: …" hints are expected. **The linter only
-drops the reviewed `sign span` column when the file's parent directory is
-literally named `reviewed`** — copying a TSV into a scratch directory with any
-other name silently shifts every column by one and invalidates the run.
-`lint_diff.sh` nests the directory correctly; hand-rolled comparisons usually do
-not.
+`INFO` churn and changed "choose one of: …" hints are expected. The linter recognizes the explicit eight-column header even in a scratch
+directory. Headerless legacy reviewed inputs still depend on the `reviewed`
+directory convention. Validate the raw schema before interpreting lint or scores.
 
 A residual ERROR is not automatically a data defect. Where a reviewed encoding is
 defended in its comment and the linter still objects, the linter rule is the

@@ -1,5 +1,29 @@
 # Ugaritic Morphological Labeling Guide for LLM Agents
 
+## Expert feedback and final TSVs
+
+Reviewed files have eight fields: ID, surface, sign span, analysis, DULAT, POS,
+gloss, comments. Final automatic files have seven, without sign span. Both use
+one alternative per row. Packed semicolon/comma examples below describe legacy
+pipeline intermediates, not the final file contract. Multiple lexemes within
+one token use spaces between analyses and ` | ` in DULAT, POS and gloss fields;
+commas and semicolons inside one lexical gloss retain their ordinary meanings.
+
+For expert reconciliation, follow
+`.agents/skills/review-automatic-parsing/references/expert-feedback.md`.
+Preserve original feedback, IDs, line references and sign spans before structural
+repair. Follow the user's requested expert ordering and preserve independently
+supported dissent with attribution. Questions, rejections and notation proposals
+do not specify accepted replacements. KTU 1.5 is revisable, not self-validating.
+
+Check every alternative in its clause. An etymology is not a participle,
+construct state does not establish nominative case, and adjacent nouns do not
+necessarily form a construct chain. Inspect warnings as well as errors; the
+missing infinitive `[/` in KTU 1.5 I:26 was already a warning. Record dispositions.
+Proposals to remove cases or change imperative, enclitic or editorial-sign
+notation remain pending until explicitly settled.
+
+
 This guide defines how to produce morphological labeling for a new unlabeled Ugaritic file, using:
 
 - `agent/Tagging conventions.md` (authoritative tagging policy),

@@ -7,6 +7,13 @@ description: Evaluate expert or upstream feedback about Ugaritic morphological p
 
 Convert expert feedback into a testable claim before editing data or parser code. Keep the reviewer’s evidence and comments visible throughout the investigation.
 
+For comments on an existing analysis, distinguish an assertion, rejection,
+question and notation proposal before implementation. Preserve the user's
+requested ordering of attributed expert alternatives. A negative judgment does
+not identify a preferred replacement. Repair malformed reviewed records before
+measuring linguistic agreement; do not let structural normalization consume
+comments as morphology.
+
 ## Build the Evidence Record
 
 1. Read `references/evidence-ladder.md` completely.

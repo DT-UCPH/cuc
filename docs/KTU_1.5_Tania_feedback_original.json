@@ -1,0 +1,508 @@
+[
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158592\tšlyṭ\tšlyṭ  \t]š]l(w&yṭ[/\t/l-w-ṭ/\tvb Š act. ptcpl. m. sg. abs. acc.\tto enwrap, to encircle\tNot in DULAT",
+      "158592\tšlyṭ\tšlyṭ  \t]š]lyṭ[/\t/l-y-ṭ/\tvb Š act. ptcpl. m. sg. abs. acc.\tto enwrap, to encircle\tNot in DULAT",
+      "158592\tšlyṭ\tšlyṭ  \t]š]lyṭ[/\t/l-y-ṭ/\tvb Š pass. ptcpl. m. sg. abs. acc.\tto be cursed\tNot in DULAT"
+    ],
+    "new_lines": [
+      "158592\tšlyṭ\tšlyṭ  \t]š]l(w&yṭ[/\t/l-w-ṭ/\tvb Š act. ptcpl. m. sg. abs. acc.\tto enwrap, to encircle\tNot in DULAT absurd",
+      "158592\tšlyṭ\tšlyṭ  \t]š]lyṭ[/\t/l-y-ṭ/\tvb Š act. ptcpl. m. sg. abs. acc.\tto enwrap, to encircle\tNot in DULAT absurd",
+      "158592\tšlyṭ\tšlyṭ  \t]š]lyṭ[/\t/l-y-ṭ/\tvb Š pass. ptcpl. m. sg. abs. acc.\tto be cursed\tNot in DULAT is not possible"
+    ]
+  },
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158622\tyṯb\tyṯb  \tyṯb[/\t/y-ṯ-b/\tvb G act. ptcpl. m. sg.\tto sit down\t"
+    ],
+    "new_lines": [
+      "158622\tyṯb\tyṯb  \tyṯb[/\t/y-ṯ-b/\tvb G act. ptcpl. m. sg.\tto sit down\tthis is impossible"
+    ]
+  },
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158634\tgmpn\tg[[m]]pn    \tgpn(III)/\tgpn (III)\tDN m. sg. abs. nom.\tGapnu\tDULAT identifies Gapnu, one of the two messengers of Baal in gpn w ugr."
+    ],
+    "new_lines": [
+      "158634\tgmpn\tg[[m]]pn    \tgpn(III)/\tgpn (III)\tDN m. sg. abs. nom.\tGapnu\tDULAT identifies Gapnu, one of the two messengers of Baal in gpn w ugr. isn't it g&mpn ? "
+    ]
+  },
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158648\tnpš\tnpš  \tnpš(I)/\tnpš (I)\tn. f. sg. cstr. nom.\tthroat\t"
+    ],
+    "new_lines": [
+      "158648\tnpš\tnpš  \tnpš(I)/\tnpš (I)\tn. f. sg. cstr. nom.\tthroat\tare not two different words but two meanings of the same word."
+    ]
+  },
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158651\thm\thm  \t&h&m\t\t\t\tWyatt: should be merged with previous word."
+    ],
+    "new_lines": [
+      "158651\thm\thm  \t&h&m\t\t\t\tWyatt: should be merged with previous word. this is unnecessary, as hm is a standard double question marking"
+    ]
+  },
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158657\tbrky\tbrky  \tbrk(t/y\tbrkt/y\tn. f. sg. abs. acc.\tpool\tFronted object: 'or the pool the wild bulls seek' (DULAT brkt/y)."
+    ],
+    "new_lines": [
+      "158657\tbrky\tbrky  \tbrk(t/y\tbrkt/y\tn. f. sg. abs. acc.\tpool\tasyndetic relative clause: 'or the pool the wild bulls seek' (DULAT brkt/y)."
+    ]
+  },
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158664\timt\timt  \t!(ʔ&i!m(wt[:d\t/m-w-t/\tvb D prefc. 1 c. sg.\tkill\tWyatt | Huehnergard lemma"
+    ],
+    "new_lines": [
+      "158664\timt\timt  \t!(ʔ&i!m(wt[:d\t/m-w-t/\tvb D prefc. 1 c. sg.\tkill\tWyatt | Huehnergard lemma how can it be D? no way"
+    ]
+  },
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158665\timt\timt  \t!(ʔ&i!m(wt[:d\t/m-w-t/\tvb D prefc. 1 c. sg.\tkill\tWyatt | Huehnergard lemma"
+    ],
+    "new_lines": [
+      "158665\timt\timt  \t!(ʔ&i!m(wt[:d\t/m-w-t/\tvb D prefc. 1 c. sg.\tkill\tWyatt | Huehnergard lemma can't be D"
+    ]
+  },
+  {
+    "commit": "cb467e9",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158667\tblt\tblt\tbl(y[t:d\t/b-l-y/\tvb D suffc. 3 f. sg.\tto devour\tDULAT gives G in one place and D in 3 other places."
+    ],
+    "new_lines": [
+      "158667\tblt\tblt\tbl(y[t:d\t/b-l-y/\tvb D suffc. 3 f. sg.\tto devour\tDULAT gives G in one place and D in 3 other places. no necessarily D"
+    ]
+  },
+  {
+    "commit": "0dd3120",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158689\tqran\tqran  \t!!qr(ʔ&a[+n=\t/q-r-ʔ/\tvb G impv. m. sg. + 1 c. sg. suff.\tto call\t"
+    ],
+    "new_lines": [
+      "158689\tqran\tqran  \t!!qr(ʔ&a[+n=\t/q-r-ʔ/\tvb G impv. m. sg. + 1 c. sg. suff.\tto call\t in !!qr(ʔ&[a+n= as -a is an inflectional marking of lengthened imperative"
+    ]
+  },
+  {
+    "commit": "0dd3120",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158704\tnšt\tnšt  \t]n](nš(y[t\t/n-š-y/\tvb N suffc. 1 c. sg.\tto be forgotten\tDULAT: 'and I was forgotten, Baal' (passive sense)."
+    ],
+    "new_lines": [
+      "158704\tnšt\tnšt  \t]n](nš(y[t\t/n-š-y/\tvb N suffc. 1 c. sg.\tto be forgotten\tDULAT: 'and I was forgotten, Baal' (passive sense). or: ]n]št(y[\t/š-t-y/ \"drink\""
+    ]
+  },
+  {
+    "commit": "0dd3120",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158706\tṭˤn\t[ṭ]ʿn    \t!!ṭˤn[\t/ṭ-ʕ-n/\tvb G inf. abs.\tto smite, destroy\t"
+    ],
+    "new_lines": [
+      "158706\tṭˤn\t[ṭ]ʿn    \t!!ṭˤn[\t/ṭ-ʕ-n/\tvb G inf. abs.\tto smite, destroy\tto be infinitive it should be \t!!ṭˤn[/"
+    ]
+  },
+  {
+    "commit": "0dd3120",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158718\tšlyṭ\tšlyṭ\t]š]l(w&yṭ[/\t/l-w-ṭ/\tvb Š act. ptcpl. m. sg. abs. acc.\tto enwrap, to encircle\tNot in DULAT"
+    ],
+    "new_lines": [
+      "158718\tšlyṭ\tšlyṭ\t]š]l(w&yṭ[/\t/l-w-ṭ/\tvb Š act. ptcpl. m. sg. abs. acc.\tto enwrap, to encircle\tNot in DULAT  doesn't make sense in my view"
+    ]
+  },
+  {
+    "commit": "0dd3120",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158718\tšlyṭ\tšlyṭ\t]š]lyṭ[/\t/l-y-ṭ/\tvb Š pass. ptcpl. m. sg. abs. acc.\tto be cursed\tNot in DULAT"
+    ],
+    "new_lines": [
+      "158718\tšlyṭ\tšlyṭ\t]š]lyṭ[/\t/l-y-ṭ/\tvb Š pass. ptcpl. m. sg. abs. acc.\tto be cursed\tNot in DULAT doesn't make se"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158704\tnšt\tnšt  \t]n](nš(y[t\t/n-š-y/\tvb N suffc. 1 c. sg.\tto be forgotten\tDULAT: 'and I was forgotten, Baal' (passive sense). or: ]n]št(y[\t/š-t-y/ \"drink\""
+    ],
+    "new_lines": [
+      "158704\tnšt\tnšt  \t]n](nš(y[t\t/n-š-y/\tvb N suffc. 1 c. sg.\tto be forgotten\tDULAT: 'and I was forgotten, Baal' (passive sense). or: !n!št(y[\t/š-t-y/ \"drink\""
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158718\tšlyṭ\tšlyṭ\t]š]lyṭ[/\t/l-y-ṭ/\tvb Š pass. ptcpl. m. sg. abs. acc.\tto be cursed\tNot in DULAT doesn't make se"
+    ],
+    "new_lines": [
+      "158718\tšlyṭ\tšlyṭ\t]š]lyṭ[/\t/l-y-ṭ/\tvb Š pass. ptcpl. m. sg. abs. acc.\tto be cursed\tNot in DULAT doesn't make sense"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158723\tttrp\t[ttrp  ]  \t!t!]t]rp(y[:d:w\t/r-p-y/\tvb Dt prefc. 3 m. pl.\tto slacken\t"
+    ],
+    "new_lines": [
+      "158723\tttrp\t[ttrp  ]  \t!t!]t]rp(y[:d:w\t/r-p-y/\tvb Dt prefc. 3 m. pl.\tto slacken\tDULAT 733"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158728\tšpt\t[špt  ]  \tšp(t/t\tšpt\tn. f. sg. abs. acc.\tlip\t"
+    ],
+    "new_lines": [
+      "158728\tšpt\t[špt  ]  \tšp(t/t\tšpt\tn. f. sg. abs. acc.\tlip\tWe don't assume cases, do we? Can't nominative"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158735\tlšn\tlšn  \tlšn/\tlšn\tn. f. sg. abs. nom.\ttongue\t"
+    ],
+    "new_lines": [
+      "158735\tlšn\tlšn  \tlšn/\tlšn\tn. f. sg. abs. nom.\ttongue\tWe don't need cases, especially wrong ones. If a noun depend on a verb, it is accusative, if on a preposition it is genetive. Let us concentrate on syntactic relations and not on an assumed endings"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158749\tybl\tybl  \tybl(I)/\tybl (I)\tn. m. sg. cstr. gen.\tproduce\t"
+    ],
+    "new_lines": [
+      "158749\tybl\tybl  \tybl(I)/\tybl (I)\tn. m. sg. cstr. gen.\tproduce\tHow can this be genetive?"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158754\tyraun\tyraun  \t!y!(yr(ʔ&a[&u~n\t/y-r-ʔ/\tvb G prefc. 3 m. sg. + energic -n\tto be afraid\tTCS: 'will fear him' (obj. suffix reading of -n)."
+    ],
+    "new_lines": [
+      "158754\tyraun\tyraun  \t!y!(yr(ʔ&a[&u~n\t/y-r-ʔ/\tvb G prefc. 3 m. sg. + energic -n\tto be afraid\tTCS: 'will fear him' (obj. suffix reading of -n). !y!(yr(ʔ&a[(n&u~n The second aleph is not etymological: it is either a purely vowel letter, or a scribal mistake for n"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158757\tṯtˤnn\tṯtʿ{.}nn    \tṯtˤ[+nn\t/ṯ-t-ʕ/\tvb G suffc. 3 m. sg. + 3 m. sg. suff.\tto be frightened, scared\tTCS: 'will be frightened of him' (-n (IV))."
+    ],
+    "new_lines": [
+      "158757\tṯtˤnn\tṯtʿ{.}nn    \tṯtˤ[+nn\t/ṯ-t-ʕ/\tvb G suffc. 3 m. sg. + 3 m. sg. suff.\tto be frightened, scared\tTCS: 'will be frightened of him' (-n (IV)). As for +nn, it is still an enclitic, even with an assimilated pronominal suffix"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158760\ttbˤ\ttbʿ  \t!!tbˤ[\t/t-b-ʕ/\tvb G impv. m. du.\tto go, leave, depart\t// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!')."
+    ],
+    "new_lines": [
+      "158760\ttbˤ\ttbʿ  \t!!tbˤ[\t/t-b-ʕ/\tvb G impv. m. du.\tto go, leave, depart\t// 1.2 I:13 tbˤ ġlmm (DULAT: 'depart, lads!'). Are we certain, this is dual and not plural?"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [],
+    "new_lines": [
+      "158776\tqrdm\tqrdm  \tqrd(I)/~m\tqrd (I)\tn. m. sing. abs. gen.\thero"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158779\tbn\tbn  \tbn(I)/\tbn (I)\tn. m. sg. cstr. nom.\tson\t"
+    ],
+    "new_lines": [
+      "158779\tbn\tbn  \tbn(I)/\tbn (I)\tn. m. sg. cstr. nom.\tson\tWhy nominative and not genetive after the preposition / vocative particle?"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158790\tyṯb\tyṯb  \tyṯb[/\t/y-ṯ-b/\tvb G act. ptcpl. m. sg.\tto sit down\t"
+    ],
+    "new_lines": [
+      "158790\tyṯb\tyṯb  \tyṯb[/\t/y-ṯ-b/\tvb G act. ptcpl. m. sg.\tto sit down\tParticiple is not possible, because of the lack of plural / dual ending and the form of the negative"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158804\tṯbth\tṯbt<h>    \tṯb(t/t+h\tṯbt\tn. f. sg. cstr. gen. + 3 m. sg. suff.\tseat\t"
+    ],
+    "new_lines": [
+      "158804\tṯbth\tṯbt<h>    \tṯb(t/t+h\tṯbt\tn. f. sg. cstr. gen. + 3 m. sg. suff.\tseat\tCan it be an infinitive?"
+    ]
+  },
+  {
+    "commit": "453fdbc",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158817\taliynqrdm\taliy[[n]] . qrdm\t?\t?\t?\t?\tIt is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization."
+    ],
+    "new_lines": [
+      "158817\taliynqrdm\taliyn/ . ",
+      "qrdm\tqrd/~m ?\t?\t?\t?\tIt is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization."
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [],
+    "new_lines": [
+      "158650  thw/\tthw\tn. m. sg. abs. acc.\tsteppe, in the steppe"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158661\tkḏd\tkḏd  \tkḏd\tkḏd\t→\t?\t"
+    ],
+    "new_lines": [
+      "158661\tkḏd\tkḏd  \tkḏd\tkḏd\t\t"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158667\tblt\tblt\tbl(y[t:d\t/b-l-y/\tvb D suffc. 3 f. sg.\tto devour\tDULAT gives G in one place and D in 3 other places. no necessarily D"
+    ],
+    "new_lines": [
+      "158667\tblt\tblt\tbl(y[t:d\t/b-l-y/\tvb D suffc. 3 f. sg.\tto devour\tDULAT gives G in one place and D in 3 other places. not necessarily D"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158728\tšpt\t[špt  ]  \tšp(t/t\tšpt\tn. f. sg. abs. acc.\tlip\tWe don't assume cases, do we? Can't nominative"
+    ],
+    "new_lines": [
+      "158728\tšpt\t[špt  ]  \tšp(t/t\tšpt\tn. f. sg. abs. acc.\tlip\tWe don't assume cases, do we? Can be nominative or accusative if a verb was ommited or erased"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158746\tk\tk \tk(III)\tk (III)\tsubordinating / completive functor\twhen\t"
+    ],
+    "new_lines": [
+      "158746\tk\tk \tk(III)\tk (III)\tsubordinating / completive functor\twhen\tor comparative like"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158747\tḥrr\tḥrr  \tḥrr[/\t/ḥ-r-r/\tvb G pass. ptcpl. m. sg. abs. gen.\tto dry up\t"
+    ],
+    "new_lines": [
+      "158747\tḥrr\tḥrr  \tḥrr[/\t/ḥ-r-r/\tvb G pass. ptcpl. m. sg. abs. gen.\tto dry up\tsubstantivized \"dried one of\""
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158749\tybl\tybl  \tybl(I)/\tybl (I)\tn. m. sg. cstr. gen.\tproduce\tHow can this be genetive?"
+    ],
+    "new_lines": [
+      "158749\tybl\tybl  \tybl(I)/\tybl (I)\tn. m. sg. cstr. gen.\tproduce\tgenitive if it depends on the preposition k"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158786\tšˤlmk\t[[š]]ʿlmk\tˤlm/+k\tʕlm (I)\tn. m. sg. cstr. nom. + 2 m. sg. suff.\teternity, perpetuity\tUNP reads wdˤlmk."
+    ],
+    "new_lines": [
+      "158786\tšˤlmk\t[[š]]ʿlmk\tˤlm/+k\tʕlm (I)\tn. m. sg. cstr. nom. + 2 m. sg. suff.\teternity, perpetuity\tUNP reads wdˤlmk. Why nominative? must be genitive"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158787\ttbˤ\ttbʿ  \t!!tbˤ[\t/t-b-ʕ/\tvb G impv. m. du.\tto go, leave, depart\tTCS: 'Be off and do not tarry, O gods' (// 1.2 I:13)."
+    ],
+    "new_lines": [
+      "158787\ttbˤ\ttbʿ  \t!!tbˤ[\t/t-b-ʕ/\tvb G impv. m. du.\tto go, leave, depart\tTCS: 'Be off and do not tarry, O gods' (// 1.2 I:13). This is hardly, as the following l yṯb is indicative 3 person"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158790\tyṯb\tyṯb  \tyṯb[\t/y-ṯ-b/\tvb G suffc. 3 m. sg.\tto sit down\tSg. form with pl. subject (cf. 1.2 I:21)."
+    ],
+    "new_lines": [
+      "158790\tyṯb\tyṯb  \tyṯb[\t/y-ṯ-b/\tvb G suffc. 3 m. sg.\tto sit down\tSg. form with pl. subject (cf. 1.2 I:21). why singular if SC? will be  plural or dual"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158802\tmk\tmk  \tmk(I)/\tmk (I)\tn. m. sg. abs. nom.\tlarge puddle\tDULAT: 'a pit is the throne of his seat'; TCS: TN Mukku."
+    ],
+    "new_lines": [
+      "158802\tmk\tmk  \tmk(I)/\tmk (I)\tn. m. sg. abs. nom.\tlarge puddle\tDULAT: 'a pit is the throne of his seat'; TCS: TN Mukku. "
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158822\tˤbdk\tʿbdk  \tˤbd(I)/+k\tʕbd (I)\tn. m. sg. cstr. nom. + 2 m. sg. suff.\tservant\t"
+    ],
+    "new_lines": [
+      "158822\tˤbdk\tʿbdk  \tˤbd(I)/+k\tʕbd (I)\tn. m. sg. cstr. nom. + 2 m. sg. suff.\tservant"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158826\tˤlmk\tʿlmk  \tˤlm(I)/+k\tʕlm (I)\tn. m. sg. cstr. nom. + 2 m. sg. suff.\teternity, perpetuity\t'(servant) of your eternity'; UNP: wdˤlmk."
+    ],
+    "new_lines": [
+      "158826\tˤlmk\tʿlmk  \tˤlm(I)/+k\tʕlm (I)\tn. m. sg. cstr. nom. + 2 m. sg. suff.\teternity, perpetuity\t'(servant) of your eternity'; UNP: wdˤlmk. Genitive case"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [],
+    "new_lines": [
+      "158834         !(y&a!ṣḥ[\t/ṣ-ḥ/\tvb G prefc. 3 c. sg.\tto exclaim"
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158840\tunhd\tun [.] hd\t?\t?\t?\t?\tMERGE WITH THE PREVIOUS. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization."
+    ],
+    "new_lines": [
+      "158840\tunhd\tun [.] hd/ Haddu\t?\t?\t?\t?\tMERGE WITH THE PREVIOUS. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization."
+    ]
+  },
+  {
+    "commit": "08d82f96",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158849\txxxxxxxxxxxxtnṮnm\t[xxxxxxxxxxxx]tnṮnm\t?\t?\t?\t?\t"
+    ],
+    "new_lines": [
+      "158849\txxxxxxxxxxxxtnṮnm\t[xxxxxxxxxxxx]tnṮnm\t?\t?\t?\t?\tthe letters fit the meaning 'give two' but not context"
+    ]
+  },
+  {
+    "commit": "c3d73d15",
+    "author": "Tania Notarius",
+    "old_lines": [],
+    "new_lines": [
+      "158857 ḥš[n      ? /ḥ-š/ (I) vb G: “to hurry, make haste”"
+    ]
+  },
+  {
+    "commit": "c3d73d15",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158858\ty\ty  \ty\ty\tvoc. functor\toh!\t"
+    ],
+    "new_lines": [
+      "158858\ty\ty  \ty\ty\tvoc. functor\toh!\tof the end of the previous word"
+    ]
+  },
+  {
+    "commit": "c3d73d15",
+    "author": "Tania Notarius",
+    "old_lines": [],
+    "new_lines": [
+      "158860 ḥš[n      ? /ḥ-š/ (I) vb G: “to hurry, make haste”; "
+    ]
+  },
+  {
+    "commit": "c3d73d15",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158861\ttˤtd\ttʿtd  \t!t!ˤtd[\t/ʕ-t-d/\tvb G prefc.\t?\t"
+    ],
+    "new_lines": [
+      "158861\ttˤtd\ttʿtd  \t!t!ˤtd[\t/ʕ-t-d/\tvb G prefc.\t?\tmeaning unknown",
+      "158861 tˤtd\ttʿtd  \t!t!ˤ]t]d[\t/ʕ-d/ ?"
+    ]
+  },
+  {
+    "commit": "c3d73d15",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158875\tdm\tdm  \tdm(I)\tdm (I)\tfunctor\tsince\t"
+    ],
+    "new_lines": [
+      "158875\tdm\tdm  \tdm(I)\tdm (I)\tfunctor\tsince\t; then it is d~m"
+    ]
+  },
+  {
+    "commit": "c3d73d15",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158900\tdm\tdm  \tdm(I)\tdm (I)\tfunctor\tsince\t"
+    ],
+    "new_lines": [
+      "158900\tdm\tdm  \tdm(I)\tdm (I)\tfunctor\tsince\td~m"
+    ]
+  },
+  {
+    "commit": "c3d73d15",
+    "author": "Tania Notarius",
+    "old_lines": [
+      "158920\tiṯm\tiṯm  \tiṯm(II)/\tỉṯm (II)\tDN m. sg.\t?\tDULAT ỉṯm (II): second element of the DN šgr w ỉṯm."
+    ],
+    "new_lines": [
+      "158920\tiṯm\tiṯm  \tiṯm(II)/\tỉṯm (II)\tDN m. sg.\t?\tDULAT ỉṯm (II): second element of the DN šgr w ỉṯm. Can it be iṯ[~m \"there is\"?"
+    ]
+  }
+]

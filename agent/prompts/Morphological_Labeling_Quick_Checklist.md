@@ -1,5 +1,14 @@
 # Morphological Labeling Quick Checklist (Operator Mode)
 
+For final-file schemas and expert feedback, the opening section of
+`Morphological_Labeling_Agent_Guide.md` takes precedence over legacy packed-format
+examples below. Reviewed alternatives may be supported by named experts or
+independent scholarship even when DULAT differs; DULAT-only admission rules below
+apply to conservative automatic candidate generation, not expert adjudication.
+Validate eight-field reviewed records before lint/scoring, preserve feedback, and
+keep speculative notation proposals pending.
+
+
 Use this checklist during annotation of a new unlabeled file.
 For full rules and examples, see `agent/Morphological_Labeling_Agent_Guide.md`.
 
