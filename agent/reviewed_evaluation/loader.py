@@ -7,6 +7,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from reviewed_normalization import normalize_reviewed_analysis
+from reviewed_schema import reviewed_record_error
 
 from .models import EvaluationPair, MorphologyDataset, MorphologyToken
 
@@ -22,13 +23,18 @@ class MorphologyTsvLoader:
         lines = path.read_text(encoding="utf-8").splitlines()
         has_sign_span = self._has_sign_span_column(lines)
 
-        for raw_line in lines:
+        for line_no, raw_line in enumerate(lines, 1):
             line = raw_line.rstrip("\n")
             if line.startswith("# KTU "):
                 current_ref = line[2:].split("\t")[0]
                 continue
             if not line.strip() or line.startswith("id\t"):
                 continue
+
+            if has_sign_span:
+                error = reviewed_record_error(line.split("\t"))
+                if error:
+                    raise ValueError(f"{path}:{line_no}: {error}")
 
             parts = self._normalize_parts(line, has_sign_span=has_sign_span)
 

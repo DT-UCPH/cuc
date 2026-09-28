@@ -32,7 +32,7 @@ def _row_reconstructs(row: TabletRow) -> bool:
     if not analysis or analysis == "?":
         return False
     reconstructed = normalize_surface(reconstruct_surface_from_analysis(analysis))
-    return reconstructed == _expected_surface(row.surface.strip())
+    return reconstructed == _expected_surface(row.analysis_surface.strip())
 
 
 def _row_is_viable(row: TabletRow) -> bool:

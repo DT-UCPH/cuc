@@ -151,7 +151,7 @@ class MorphContextResolver:
 
         rewritten = _dedupe_candidates(
             tuple(
-                _force_state_case(candidate, "abs.", "gen.")
+                _force_case(candidate, "gen.")
                 for candidate in head._.resolved_candidates
             )
         )
@@ -171,14 +171,19 @@ class MorphContextResolver:
                 case = "gen."
             elif index == 0:
                 state = "cstr."
-                case = "gen." if governed_by_preposition else "nom."
+                # Construct state does not establish the head's case: the
+                # chain may be an object, subject, or an unresolved fragment.
+                case = "gen." if governed_by_preposition else None
             else:
                 state = "cstr."
                 case = "gen."
             rewritten = _dedupe_candidates(
                 tuple(
                     (
-                        _force_state_case(candidate, state, case)
+                        _force_state_case(
+                            candidate, state,
+                            case if case is not None else _existing_case(candidate),
+                        )
                         if _candidate_accepts_construct_chain(candidate)
                         else candidate
                     )
@@ -690,10 +695,10 @@ def _is_construct_capable_token(token: Token) -> bool:
 
 
 def _token_supports_construct_head(token: Token) -> bool:
-    return any(
+    candidates = tuple(token._.resolved_candidates)
+    return bool(candidates) and all(
         _candidate_supports_construct_head(candidate)
-        for candidate in token._.resolved_candidates
-        if _candidate_accepts_construct_chain(candidate)
+        for candidate in candidates
     )
 
 
@@ -721,7 +726,14 @@ def _candidate_supports_construct_head(candidate: Candidate) -> bool:
     analysis = candidate.analysis.strip()
     if "+" in analysis:
         return False
-    return "/" in analysis
+    # Adjacent nouns can be apposition, not a construct chain (e.g. ltn bṯn
+    # in KTU 1.5 I:1). A nominal slash alone is no evidence of government.
+    return "/" in analysis and "cstr." in candidate.pos
+
+
+def _existing_case(candidate: Candidate) -> str:
+    match = _CASE_RE.search(candidate.pos)
+    return match.group(1) if match else ""
 
 
 def _force_case(candidate: Candidate, case: str) -> Candidate:
@@ -752,7 +764,9 @@ def _force_state_case(candidate: Candidate, state: str, case: str) -> Candidate:
         for part in pos.split()
         if part not in {"abs.", "cstr.", "nom.", "gen.", "acc.", "acc.?"}
     ]
-    parts.extend([effective_state, case])
+    parts.append(effective_state)
+    if case:
+        parts.append(case)
     return Candidate(
         analysis=candidate.analysis,
         dulat=candidate.dulat,

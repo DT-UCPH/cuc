@@ -76,7 +76,7 @@ Do not add `--include-existing` during a clean historical rebuild.
 4. Do not use `--allow-large-step-changes` merely to make a failed run pass. Inspect the responsible step. If the counter itself is invalid, disable it only inside isolated staging and rely on scoped diffs, lint, and agreement checks.
 5. Run lint on the staged version and compare it with the external pre-regeneration baseline using the lint-regression skill or `scripts/compare_lint_errors.py`.
 6. For reviewed tablets, run `scripts/score_reviewed_morphology.py` or use the reports produced by full regeneration. Treat score changes as evidence, not as permission to overwrite reviewed data.
-7. Do not treat the wrapper's zero lint delta as sufficient evidence: the pipeline currently refreshes lint reports before its delta writer snapshots `before_latest`.
+7. Keep an external pre-run baseline and compare it independently. The full-regeneration wrapper owns report generation (the nested pipeline has `refresh_reports=False`), so its before snapshot is preserved; older revisions refreshed reports too early and could report a false zero delta. Named-file runs scope agreement scoring to those files.
 8. Inspect scoped diffs for only the requested `auto_parsing/VERSION` directories and intentionally refreshed reports. Confirm reviewed TSVs are unchanged.
 9. Run relevant parser tests for changed steps, followed by the full unit suite when the parser change is broad.
 10. Publish only the validated staged output. Keep the backup until the published tree has been rechecked.

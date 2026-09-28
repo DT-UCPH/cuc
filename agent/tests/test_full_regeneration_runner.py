@@ -38,7 +38,7 @@ class FullRegenerationRunnerTest(unittest.TestCase):
                 mock.patch(
                     "full_regeneration.runner.TabletParsingPipeline",
                     return_value=pipeline_instance,
-                ),
+                ) as pipeline_cls,
                 mock.patch("full_regeneration.runner.LintReportGenerator") as lint_cls,
                 mock.patch("full_regeneration.runner.RerunDeltaWriter") as delta_cls,
                 mock.patch("full_regeneration.runner.ScoringReportWriter") as score_cls,
@@ -46,6 +46,7 @@ class FullRegenerationRunnerTest(unittest.TestCase):
                 payload = FullRegenerationRunner(self.paths).run(config)
 
             refresh_mock.assert_not_called()
+            self.assertFalse(pipeline_cls.call_args.args[0].refresh_reports)
             lint_cls.assert_not_called()
             delta_cls.assert_not_called()
             score_cls.assert_not_called()
@@ -102,7 +103,7 @@ class FullRegenerationRunnerTest(unittest.TestCase):
                 mock.patch(
                     "full_regeneration.runner.TabletParsingPipeline",
                     return_value=pipeline_instance,
-                ),
+                ) as pipeline_cls,
                 mock.patch(
                     "full_regeneration.runner.RerunDeltaWriter",
                     return_value=delta_instance,
@@ -119,6 +120,7 @@ class FullRegenerationRunnerTest(unittest.TestCase):
                 payload = FullRegenerationRunner(self.paths).run(config)
 
             delta_cls.assert_called_once_with(reports_dir)
+            self.assertFalse(pipeline_cls.call_args.args[0].refresh_reports)
             score_cls.assert_called_once_with(reports_dir)
             lint_cls.assert_called_once_with(
                 out_dir=config.out_dir,

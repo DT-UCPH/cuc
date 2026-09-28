@@ -20,6 +20,11 @@ from linter.feature_validation import inferable_feature_issues
 from pipeline.config.dulat_entry_forms_fallback import extract_forms_from_entry_text
 from pipeline.config.dulat_form_morph_overrides import override_dulat_form_morphology
 from pipeline.config.dulat_form_text_overrides import expand_dulat_form_texts
+from pipeline.config.reviewed_source_disagreements import reviewed_disagreement_source
+from pipeline.config.ytb_messenger_readings import (
+    YTB_PARTICIPLE_WARNING,
+    rejected_messenger_participle,
+)
 from pipeline.config.k_functor_bigram_surfaces import K_FUNCTOR_VERB_BIGRAM_SURFACES
 from pipeline.config.l_body_compound_prep_rules import L_BODY_COMPOUND_PREP_RULES
 from pipeline.config.l_functor_vocative_refs import expected_l_homonym_for_ref
@@ -36,6 +41,7 @@ from pipeline.config.l_preposition_bigram_rules import (
     L_PN_PREP_CANONICAL_PAYLOADS,
 )
 from project_paths import get_project_paths
+from reviewed_schema import reviewed_record_error
 from text_fabric.editorial_lookup import (
     analysis_target_surface,
     edited_reading_from_annotation,
@@ -2069,8 +2075,6 @@ def is_labeled_tsv_header_row(parts: List[str]) -> bool:
 
 
 def file_has_reviewed_sign_span_column(path: Path, lines: List[str]) -> bool:
-    if path.parent.name != "reviewed":
-        return False
     for raw in lines:
         if not raw.strip() or is_cuc_separator_line(raw):
             continue
@@ -2079,7 +2083,7 @@ def file_has_reviewed_sign_span_column(path: Path, lines: List[str]) -> bool:
             return len(parts) >= 3 and parts[2].strip().lower() == SIGN_SPAN_HEADER
         first = (parts[0] if parts else "").strip()
         if first.isdigit():
-            return len(parts) >= 8
+            return path.parent.name == "reviewed" and len(parts) >= 8
     return False
 
 
@@ -2586,6 +2590,22 @@ def lint_file(
     is_out_tsv_file = path.parent.name == "out"
     has_reviewed_sign_span_column = file_has_reviewed_sign_span_column(path, lines)
 
+    invalid_reviewed_lines: set[int] = set()
+    if has_reviewed_sign_span_column:
+        for line_no, raw in enumerate(lines, 1):
+            if not raw.strip() or is_cuc_separator_line(raw):
+                continue
+            parts = raw.split("\t")
+            if is_labeled_tsv_header_row(parts):
+                continue
+            error = reviewed_record_error(parts)
+            if error:
+                invalid_reviewed_lines.add(line_no)
+                issues.append(Issue(
+                    "error", str(path), line_no, parts[0],
+                    parts[1] if len(parts) > 1 else "", "", error,
+                ))
+
     # Baseline map for CUC comparison
     baseline_map = {}
     if baseline and baseline.exists():
@@ -2621,7 +2641,7 @@ def lint_file(
     data_parts_by_line: Dict[int, List[str]] = {}
     data_line_numbers: List[int] = []
     for line_no, raw in enumerate(lines, 1):
-        if not raw.strip() or is_cuc_separator_line(raw):
+        if line_no in invalid_reviewed_lines or not raw.strip() or is_cuc_separator_line(raw):
             continue
         core = raw
         if not is_out_tsv_file:
@@ -2705,10 +2725,11 @@ def lint_file(
             entry_plurale_tantum_m[_entry_id] = True
 
     current_separator_ref = ""
+    reviewed_context_by_line: Dict[int, Tuple[str, List[str]]] = {}
     merge_annotations: List[MergeAnnotation] = []
     data_token_sequence: List[Tuple[int, str, str]] = []
     for i, raw in enumerate(lines, 1):
-        if not raw.strip():
+        if i in invalid_reviewed_lines or not raw.strip():
             continue
         if is_cuc_separator_line(raw):
             section_ref = extract_separator_ref(raw)
@@ -2733,6 +2754,9 @@ def lint_file(
         )
         parts = drop_reviewed_sign_span_column(parts, has_reviewed_sign_span_column)
 
+        if has_reviewed_sign_span_column:
+            reviewed_context_by_line[i] = (current_separator_ref, parts)
+
         if is_out_tsv_file and len(parts) != 7:
             issues.append(
                 Issue(
@@ -2745,6 +2769,14 @@ def lint_file(
                     f"Expected exactly 7 columns in out/*.tsv row, got {len(parts)}",
                 )
             )
+
+        if len(parts) >= 5 and rejected_messenger_participle(
+            current_separator_ref, parts[1], parts[2], parts[4]
+        ):
+            issues.append(Issue(
+                "warning", str(path), i, parts[0], parts[1], parts[2],
+                YTB_PARTICIPLE_WARNING,
+            ))
 
         if len(parts) < 3:
             issues.append(
@@ -5554,6 +5586,15 @@ def lint_file(
             )
 
     issues.extend(validate_merge_pairs(merge_annotations, data_token_sequence, str(path)))
+
+    for issue in issues:
+        context = reviewed_context_by_line.get(issue.line_no)
+        if issue.level != "error" or context is None:
+            continue
+        source = reviewed_disagreement_source(context[0], context[1], issue.message)
+        if source:
+            issue.level = "info"
+            issue.message += f" (documented source disagreement: {source})"
 
     return issues
 

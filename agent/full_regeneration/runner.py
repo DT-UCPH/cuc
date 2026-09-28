@@ -56,6 +56,10 @@ class FullRegenerationRunner:
                 source_glob=config.source_glob,
                 max_step_change_ratio=config.max_step_change_ratio,
                 allow_large_step_changes=config.allow_large_step_changes,
+                # The wrapper owns report paths and the before/after snapshot.
+                # A pipeline-side refresh would overwrite its baseline and
+                # write reports outside an explicitly staged reports directory.
+                refresh_reports=False,
             )
         )
         pipeline_summary = pipeline.run(
@@ -90,9 +94,11 @@ class FullRegenerationRunner:
         )
         lint_exit_code = lint_generator.run()
         lint_after = self._load_json(reports_dir / "lint_stats.json")
+        scoring_scope = {"files": config.files} if config.files else {}
         scoring = score_writer.generate(
             reviewed_root=self.paths.repo_root / "reviewed",
             auto_root=config.out_dir,
+            **scoring_scope,
         )
         delta_payload = delta_writer.write(
             lint_before=lint_before,

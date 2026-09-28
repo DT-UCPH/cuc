@@ -32,10 +32,10 @@ Do not compare `auto_parsing/0.2.6/FILE` against `auto_parsing/0.2.7/FILE` as if
 - migration preview: original target-version reviewed state if it exists, otherwise document that no equivalent baseline exists.
 
 Capture the regeneration baseline outside any report directory that the pipeline can rewrite.
-The repository's full-regeneration wrapper currently runs report generation inside the
-pipeline before creating its `before_latest` snapshot, so a zero reported delta may compare
-the candidate report with itself. Treat matching hashes or timestamps after a known rewrite
-as an invalid baseline, not as proof of zero regressions.
+Older revisions of the full-regeneration wrapper generated reports inside the pipeline
+before taking the before snapshot. The wrapper now disables nested report generation.
+Still verify the baseline independently: matching hashes or timestamps after a known
+rewrite are not proof of zero regressions.
 
 ## Failure Classes
 

@@ -45,9 +45,9 @@ from raw TF tokens.
 5. Publish the staged directory at the matching `auto_parsing/VERSION` path.
 6. Recheck the published tree before removing the backup.
 
-The current full-regeneration wrapper calls the pipeline's report generator before its delta
-writer snapshots `before_latest`. Therefore a reported zero lint delta can compare the new
-report with itself. Use the externally saved pre-run lint as the real baseline.
+Older revisions refreshed reports inside the pipeline before snapshotting `before_latest`.
+The wrapper now disables that nested refresh and owns report generation. Keep an external
+pre-run lint baseline to verify the comparison independently.
 
 ## Safety Signals
 

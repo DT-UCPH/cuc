@@ -12,6 +12,7 @@ Database locations are resolved from the DULAT_DB / UDB_DB environment
 variables when set; otherwise common repo-relative and sibling-checkout
 locations are tried.
 """
+import json
 import os
 import sqlite3
 import sys
@@ -96,6 +97,15 @@ def entry_dump(eid):
         print(f"  form: {f[0]}\t{f[1] or ''}")
     for s in con.execute("SELECT * FROM stems WHERE entry_id=? LIMIT 10", (eid,)):
         print(f"  stem: {s}")
+    # Structured headword/form fields omit dissent and alternative etymologies.
+    # Their absence there must not be mistaken for absence from DULAT itself.
+    page, data = con.execute(
+        "SELECT page, data FROM entries WHERE entry_id=?", (eid,)
+    ).fetchone()
+    print(f"  source page: {page or 'unspecified'}")
+    notes = json.loads(data or "{}").get("raw_notes", [])
+    for note in notes:
+        print(f"  full source note (may contain reported dissent): {note}")
 
 
 def ref_lookup(ref):

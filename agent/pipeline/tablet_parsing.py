@@ -79,6 +79,7 @@ from pipeline.steps.verb_stem_suffix_marker import VerbStemSuffixMarkerFixer
 from pipeline.steps.verbal_feature_completion import VerbalFeatureCompletionFixer
 from pipeline.steps.weak_final_sc import WeakFinalSuffixConjugationFixer
 from pipeline.steps.weak_verb import WeakVerbFixer
+from pipeline.steps.ytb_messenger_readings import YtbMessengerReadingPruner
 from text_fabric.editorial_lookup import load_edited_reading_overrides
 
 
@@ -94,6 +95,7 @@ class PipelineConfig:
     source_glob: str = "KTU *.tsv"
     max_step_change_ratio: float = 0.25
     allow_large_step_changes: bool = False
+    refresh_reports: bool = True
 
 
 class TabletParsingPipeline:
@@ -208,10 +210,12 @@ class TabletParsingPipeline:
             # Late verbal completion can introduce a non-reconstructable
             # sibling after the first reconstruction-pruning pass.
             PostVerbVariantReconstructionPruner(),
+            # Run after candidate expansion; preserve both sourced finite readings.
+            YtbMessengerReadingPruner(),
             # After every repair step has run, tokens that still cannot
             # reconstruct fall back to '?' with a DULAT candidate hint.
-            UnresolvableTokenFallback(),
             EditorialMorphologyNormalizer(),
+            UnresolvableTokenFallback(),
             DulatSourceProvenanceAnnotator(dulat_db=self.config.dulat_db),
             # Keep schema pass last so any content-changing steps still end in
             # strict 7-column/quote-safe TSV for GitHub rendering.
@@ -581,6 +585,7 @@ class TabletParsingPipeline:
             )
         summary.update(self.instruction_refine_targets(targets))
         summary.update(self.apply_refinement_steps(targets))
-        summary["report_exit_code"] = self.regenerate_reports()
+        if self.config.refresh_reports:
+            summary["report_exit_code"] = self.regenerate_reports()
 
         return summary

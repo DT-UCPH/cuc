@@ -17,8 +17,8 @@ Compare like with like: same logical file and version, same linter code, same da
 
 If setup or database loading fails, report an environmental failure rather than treating missing output as a clean lint run.
 
-Do not assume a generated `before_latest` file is genuinely pre-run. The current full
-regeneration workflow can refresh lint before its delta writer snapshots that file. Verify
+Do not assume a generated `before_latest` file is genuinely pre-run. Older revisions
+refreshed lint before snapshotting it; the wrapper now disables the nested refresh. Verify
 timestamps, content hashes, and provenance; if baseline and candidate are identical after a
 known rewrite, rebuild the baseline from the saved pre-run output or `HEAD`.
 

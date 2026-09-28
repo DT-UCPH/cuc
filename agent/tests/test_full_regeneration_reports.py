@@ -11,6 +11,23 @@ from full_regeneration.reports import RerunDeltaWriter, ScoringReportWriter
 
 
 class FullRegenerationReportsTest(unittest.TestCase):
+    def test_named_scope_does_not_score_unrelated_malformed_review(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            root = Path(tmp_dir)
+            reviewed = root / "reviewed"
+            auto = root / "auto"
+            reviewed.mkdir()
+            auto.mkdir()
+            header = "id\tsurface form\tsign span\tmorphological parsing\tDULAT\tPOS\tgloss\tcomments\n"
+            (reviewed / "KTU 1.5.tsv").write_text(header + "1\tx\tx\t?\t?\t?\t?\t\n")
+            (reviewed / "KTU 2.10.tsv").write_text(header + "broken\n")
+            (auto / "KTU 1.5.tsv").write_text("1\tx\t?\t?\t?\t?\t\n")
+            result = ScoringReportWriter(root / "reports").generate(
+                reviewed_root=reviewed, auto_root=auto, files=("KTU 1.5.tsv",),
+            )
+            self.assertEqual(result.current["requested_files"], ["KTU 1.5.tsv"])
+            self.assertEqual([f["label"] for f in result.current["files"]], ["KTU 1.5.tsv"])
+
     def test_rerun_delta_writer_builds_lint_and_scoring_deltas(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             reports_dir = Path(tmp_dir)

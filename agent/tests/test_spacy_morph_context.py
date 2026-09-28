@@ -85,7 +85,7 @@ class SpacyMorphContextTest(unittest.TestCase):
         )
         self.assertEqual(
             [candidate.pos for candidate in doc[1]._.resolved_candidates],
-            ["TN/DN m. sg. abs. gen."],
+            ["TN/DN m. sg. abs. gen.", "TN/DN m. sg. cstr. gen."],
         )
 
     def test_forces_genitive_on_adjective_noun_phrase_after_preposition(self) -> None:
@@ -116,8 +116,8 @@ class SpacyMorphContextTest(unittest.TestCase):
     def test_forces_construct_chain_after_preposition(self) -> None:
         doc = self._doc_from_lines(
             "1\tb\tb\tb\tprep.\tin\t",
-            "2\tnpš\tnpš(I)/\tnpš (I)\tn. f. sg. abs. nom.\tthroat\t",
-            "3\tbn\tbn(I)/\tbn (I)\tn. m. sg. abs. nom.\tson\t",
+            "2\tnpš\tnpš(I)/\tnpš (I)\tn. f. sg. cstr. nom.\tthroat\t",
+            "3\tbn\tbn(I)/\tbn (I)\tn. m. sg. cstr. nom.\tson\t",
             "4\tilm\til(I)/m\tỉl (I)\tn. m. pl. abs. nom.\tgod\t",
         )
         self.assertEqual(
@@ -135,7 +135,7 @@ class SpacyMorphContextTest(unittest.TestCase):
 
     def test_forces_construct_chain_without_preposition(self) -> None:
         doc = self._doc_from_lines(
-            "1\tbn\tbn(I)/\tbn (I)\tn. m. sg. abs. nom.\tson\t",
+            "1\tbn\tbn(I)/\tbn (I)\tn. m. sg. cstr. nom.\tson\t",
             "2\tilm\til(I)/m\tỉl (I)\tn. m. pl. abs. nom.\tgod\t",
         )
         self.assertEqual(
@@ -146,6 +146,33 @@ class SpacyMorphContextTest(unittest.TestCase):
             [candidate.pos for candidate in doc[1]._.resolved_candidates],
             ["n. m. pl. abs. gen."],
         )
+
+    def test_adjacent_absolute_nominals_do_not_establish_a_construct_chain(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tltn\tltn(I)/\tltn (I)\tDN m. sg. abs. acc.\tLotan\t",
+            "2\tbṯn\tbṯn/\tbṯn\tn. m. sg. abs. acc.\tserpent\t",
+        )
+        self.assertEqual(doc[0]._.resolved_candidates[0].pos, "DN m. sg. abs. acc.")
+        self.assertEqual(doc[1]._.resolved_candidates[0].pos, "n. m. sg. abs. acc.")
+
+    def test_construct_head_preserves_accusative_or_unknown_case(self) -> None:
+        for case in (" acc.", ""):
+            with self.subTest(case=case):
+                doc = self._doc_from_lines(
+                    f"1\tbn\tbn(I)/\tbn (I)\tn. m. sg. cstr.{case}\tson\t",
+                    "2\til\til(I)/\tỉl (I)\tDN m. sg. abs. nom.\tEl\t",
+                )
+                self.assertEqual(doc[0]._.resolved_candidates[0].pos, f"n. m. sg. cstr.{case}")
+                self.assertEqual(doc[1]._.resolved_candidates[0].pos, "DN m. sg. abs. gen.")
+
+    def test_ambiguous_absolute_construct_head_does_not_force_its_neighbor(self) -> None:
+        doc = self._doc_from_lines(
+            "1\tbn\tbn(I)/\tbn (I)\tn. m. sg. abs. nom.\tson\t",
+            "1\tbn\tbn(I)/\tbn (I)\tn. m. sg. cstr. nom.\tson\t",
+            "2\til\til(I)/\tỉl (I)\tDN m. sg. abs. nom.\tEl\t",
+        )
+        self.assertEqual(len(doc[0]._.resolved_candidates), 2)
+        self.assertEqual(doc[1]._.resolved_candidates[0].pos, "DN m. sg. abs. nom.")
 
     def test_does_not_infer_construct_chain_from_number_noun_ambiguity(self) -> None:
         doc = self._doc_from_lines(

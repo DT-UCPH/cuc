@@ -72,11 +72,15 @@ class ScoringReportWriter:
         self._resolver = EvaluationTargetResolver()
         self._scorer = MorphologyAgreementScorer()
 
-    def generate(self, *, reviewed_root: Path, auto_root: Path) -> ScoringArtifacts:
+    def generate(
+        self, *, reviewed_root: Path, auto_root: Path, files: tuple[str, ...] = (),
+    ) -> ScoringArtifacts:
         previous = self._load_json(self.reports_dir / "reviewed_morphology_report.json")
         self._write_previous_snapshot(previous)
 
         pairs = self._resolver.resolve(reviewed_root, auto_root)
+        if files:
+            pairs = [pair for pair in pairs if pair.label in files]
         file_results = []
         for pair in pairs:
             reviewed = self._loader.load(pair.reviewed_path)
@@ -95,6 +99,8 @@ class ScoringReportWriter:
             file_results=file_results,
         )
         payload = aggregate.to_dict()
+        if files:
+            payload["requested_files"] = list(files)
         self.reports_dir.mkdir(parents=True, exist_ok=True)
         self._write_json(self.reports_dir / "reviewed_morphology_report.current.json", payload)
         self._write_json(self.reports_dir / "reviewed_morphology_report.json", payload)

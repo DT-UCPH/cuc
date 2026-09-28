@@ -76,7 +76,9 @@ class UnresolvableTokenFallback(RefinementStep):
                 dulat="?",
                 pos="?",
                 gloss="?",
-                comment=_HINT_PREFIX + hint,
+                comment="; ".join(dict.fromkeys(
+                    [row.comment for row in rows if row.comment] + [_HINT_PREFIX + hint]
+                )),
             )
             replacements[group[0][0]] = fallback.to_tsv()
             for idx, _row in group[1:]:
