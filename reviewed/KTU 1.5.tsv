@@ -104,6 +104,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158649	lbim	lbim	lb(u/&i~m	lbủ	n. m. sg. cstr. gen.	lion	Wyatt p117 n11 also notes possible maritime/monster construal in this passage.
 # KTU 1.5 I:15							
 158650	thw	thw  	thw/	thw	n. m. sg. abs. gen.	steppe	
+158650  thw/	thw	n. m. sg. abs. acc.	steppe, in the steppe
 158650	thw	thw  	th(m&w/	thm	n. m. sg. abs. gen.	ocean	Wyatt
 158651	hm	hm  	hm(II)	hm (II)	conj./interr. functor	if	
 158651	hm	hm  	&h&m				Wyatt: should be merged with previous word. this is unnecessary, as hm is a standard double question marking
@@ -118,7 +119,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 I:17							
 158659	rumm	rumm  	rum/m	rủm	n. m. pl. abs. nom.	wild bull	
 158660	ˤn	ʿn  	ˤn(I)/	ʕn (I)	n. f. sg. abs. acc.	spring	
-158661	kḏd	kḏd  	kḏd	kḏd	→	?	
+158661	kḏd	kḏd  	kḏd	kḏd		
 158661	kḏd	kḏd  	k(II) ḏd(III)/	k (II) | ḏd (III)	emph. functor | n. m. sg. cstr. nom.	yes | flock, herd	DULAT cites ḏd (III) here: 'the spring (which), in truth, the herd (of hinds seeks)'.
 158662	aylt	aylt	ayl(I)/t	ảyl (I)	n. f. sg. abs. gen.	hind	
 158662	aylt	aylt	ayl(t(I)/t=	ảylt (I)	n. f. pl. abs. gen.	hind	
@@ -131,7 +132,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158665	imt	imt  	?	?	?	?	Read as a dittography of the preceding ỉmt, hence no analysis.
 158665	imt	imt  	!(ʔ&i!m(wt[:d	/m-w-t/	vb D prefc. 1 c. sg.	kill	Wyatt | Huehnergard lemma can't be D
 158666	npš	npš  	npš(I)/	npš (I)	n. f. sg. abs. nom.	throat	
-158667	blt	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places. no necessarily D
+158667	blt	blt	bl(y[t:d	/b-l-y/	vb D suffc. 3 f. sg.	to devour	DULAT gives G in one place and D in 3 other places. not necessarily D
 # KTU 1.5 I:19							
 158668	ḥmr	ḥmr  	ḥmr(I)/	ḥmr (I)	n. m. sg. abs. acc.	load (measure of capacity), heap	
 158668	ḥmr	ḥmr  	ḥmr(II)/	ḥmr (II)	n. m. sg. abs. acc.	clay	Wyatt
@@ -228,7 +229,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 # KTU 1.5 II:1							
 158727	xxxxxxxyxḫm	[xxxxxx]xyxḫm	?	?	?	?	
 # KTU 1.5 II:2							
-158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. acc.	lip	We don't assume cases, do we? Can't nominative
+158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. acc.	lip	We don't assume cases, do we? Can be nominative or accusative if a verb was ommited or erased
 158728	špt	[špt  ]  	šp(t/t	špt	n. f. sg. abs. nom.	lip	
 158729	l	[l  ]  	l(I)	l (I)	prep.	to	## Migrated from legacy reviewed tokenization.
 158730	arṣ	[a]rṣ    	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	## Migrated from legacy reviewed tokenization.
@@ -253,12 +254,12 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158744	yrd	yrd[[ ]] 	!y!(yrd[	/y-r-d/	vb G prefc. 3 m. sg.	to go down	
 158745	k	[[k]]	?	?	?	?	
 # KTU 1.5 II:5							
-158746	k	k 	k(III)	k (III)	subordinating / completive functor	when	
+158746	k	k 	k(III)	k (III)	subordinating / completive functor	when	or comparative like
 158747	ḥrr	ḥrr  	ḥrr[	/ḥ-r-r/	vb G suffc. 3 m. sg.	to dry up	
-158747	ḥrr	ḥrr  	ḥrr[/	/ḥ-r-r/	vb G pass. ptcpl. m. sg. abs. gen.	to dry up	
+158747	ḥrr	ḥrr  	ḥrr[/	/ḥ-r-r/	vb G pass. ptcpl. m. sg. abs. gen.	to dry up	substantivized "dried one of"
 158748	zt	zt  	zt/	zt	n. m. sg. abs. gen.	olive	
 158748	zt	zt  	zt/	zt	n. m. sg. abs. nom.	olive	
-158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.	produce	How can this be genetive?
+158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. gen.	produce	genitive if it depends on the preposition k
 158749	ybl	ybl  	ybl(I)/	ybl (I)	n. m. sg. cstr. nom.	produce	
 158750	arṣ	arṣ  	arṣ/	ảrṣ	n. f. sg. abs. gen.	earth	
 158751	w	w 	w	w	conj.	and	
@@ -310,14 +311,14 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158783	an	an  	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 158784	w	w 	w	w	conj.	and	
 158785	d	d 	d	d	det. or rel. functor	the one(s) of	UNP: wdˤlmk ## Migrated from legacy reviewed tokenization.
-158786	šˤlmk	[[š]]ʿlmk	ˤlm/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	UNP reads wdˤlmk.
+158786	šˤlmk	[[š]]ʿlmk	ˤlm/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	UNP reads wdˤlmk. Why nominative? must be genitive
 # KTU 1.5 II:13							
 158787	tbˤ	tbʿ  	tbˤ[	/t-b-ʕ/	vb G suffc. 3 m. du.	to go	// 1.2 I:19 (DULAT: 'the lads left without staying').
-158787	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	TCS: 'Be off and do not tarry, O gods' (// 1.2 I:13).
+158787	tbˤ	tbʿ  	!!tbˤ[	/t-b-ʕ/	vb G impv. m. du.	to go, leave, depart	TCS: 'Be off and do not tarry, O gods' (// 1.2 I:13). This is hardly, as the following l yṯb is indicative 3 person
 158788	w	w 	w	w	conj.	and	
 158789	l	l  	l(II)	l (II)	adv.	not	
 158790	yṯb	yṯb  	!y=!(yṯb[	/y-ṯ-b/	vb G prefc. 3 m. du.	to sit down	tbˤ w l yṯb ilm, 'they departed and the two gods did not sit' — ilm is dual here. EUPT reads yâṯibā/yaṯabā 3.m.du. but takes it as a suffix conjugation (G-SK), where it reads the same formula at 1.2 I:19 as a prefix conjugation (G-PKK); the prefix reading is kept as primary and marked !y=! for the dual, matching ytn in the next line.
-158790	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	Sg. form with pl. subject (cf. 1.2 I:21).
+158790	yṯb	yṯb  	yṯb[	/y-ṯ-b/	vb G suffc. 3 m. sg.	to sit down	Sg. form with pl. subject (cf. 1.2 I:21). why singular if SC? will be  plural or dual
 158790	yṯb	yṯb  	yṯb[/	/y-ṯ-b/	vb G act. ptcpl. m. sg.	to sit down	Participle is not possible, because of the lack of plural / dual ending and the form of the negative
 158791	ilm	ilm 	il(I)/m	ỉl (I)	n. m. du. abs. nom.	god	The two messengers (// 1.2 I:19 ġlmm); TCS: vocative 'Be off…, O gods'.
 158792	idk	idk	idk	ỉdk	narrative adv. functor	then	
@@ -335,7 +336,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158800	qrth	qrth  	qr(t(I)/t+h	qrt (I)	n. f. sg. cstr. gen. + 3 m. sg. suff.	city	
 158801	hmry	hmry  	hmry/	hmry	TN sg. abs. gen.	Fangosa	Mot's city ('Muddy'); // 1.4 VIII:12.
 158802	mk	mk  	mk(II)	mk (II)	deictic functor	behold!	
-158802	mk	mk  	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	DULAT: 'a pit is the throne of his seat'; TCS: TN Mukku.
+158802	mk	mk  	mk(I)/	mk (I)	n. m. sg. abs. nom.	large puddle	DULAT: 'a pit is the throne of his seat'; TCS: TN Mukku. 
 158803	ksu	ksu	ks(u/&u	ks/śủ	n. m. sg. cstr. nom.	seat, throne, chair	
 # KTU 1.5 II:16							
 158804	ṯbth	ṯbt<h>    	ṯb(t/t+h	ṯbt	n. f. sg. cstr. gen. + 3 m. sg. suff.	seat	Can it be an infinitive?
@@ -361,12 +362,12 @@ qrdm	qrd/~m ?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legac
 158820	ilm	ilm  	il(I)/m	ỉl (I)	n. m. pl. abs. gen.	god	
 158820	ilm	ilm  	il(I)/~m	ỉl (I)	n. m. sg. abs. gen + encl. -m	god	bn ilm mt: il + encl. -m (sg. 'El/god'); EUPT reads sg. il + EP -m.
 158821	mt	mt  	mt(II)/	mt (II)	DN m. sg. abs. nom.	Môt	
-158822	ˤbdk	ʿbdk  	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant	
+158822	ˤbdk	ʿbdk  	ˤbd(I)/+k	ʕbd (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	servant
 158823	an	an 	an(I)	ản (I)	pers. pn. 1 c. sg.	I	
 # KTU 1.5 II:20							
 158824	w	w 	w	w	conj.	and	
 158825	d	d 	d	d	det. or rel. functor	the one(s) of	0.2.7 splits dˤlmk into d + ˤlmk (was one token in legacy review).
-158826	ˤlmk	ʿlmk  	ˤlm(I)/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	'(servant) of your eternity'; UNP: wdˤlmk.
+158826	ˤlmk	ʿlmk  	ˤlm(I)/+k	ʕlm (I)	n. m. sg. cstr. nom. + 2 m. sg. suff.	eternity, perpetuity	'(servant) of your eternity'; UNP: wdˤlmk. Genitive case
 158827	šmḫ	šmḫ  	šmḫ[	/š-m-ḫ/	vb G suffc. 3 m. sg.	to be glad, rejoice	
 158827	šmḫ	šmḫ  	!!šmḫ[/	/š-m-ḫ/	vb G inf.	to be glad, rejoice	EUPT: G-Inf.
 158828	bn	bn 	bn(I)/	bn (I)	n. m. sg. cstr. nom.	son	
@@ -379,13 +380,14 @@ qrdm	qrd/~m ?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legac
 158832	gh	gh  	g/+h	g	n. m. sg. cstr. acc. + 3 m. sg. suff.	(loud) voice	
 158833	w	w 	w	w	conj.	and	
 158834	aṣḥ	aṣḥ  	!(ʔ&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 1 c. sg.	to exclaim, shout	Surface aṣḥ (1 c. sg.); UNP reads wyṣḥ (3 m. sg.).
+158834         !(y&a!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 c. sg.	to exclaim
 158835	ik	ik  	ik	ỉk	interr. functor	how?, why?	
 158836	yṣḥn	yṣḥn	!y!ṣḥ[+n=	/ṣ-ḥ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to exclaim, shout	UNP: y{.}ṣḥn 'invite me'; DULAT reads ylḥn 'how could he provide moisture?' (/l-ḥ(-ḥ)/).
 # KTU 1.5 II:22							
 158837	bˤl	[bʿl  ]  	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 158838	xxxxxx	[xx]x[xxx]  	?	?	?	?	
 158839	yqr	yqr  	!y!qr(ʔ&u[+n=	/q-r-ʔ/	vb G prefc. 3 m. sg. + 1 c. sg. suff.	to call, shout, invite	MERGE WITH THE NEXT. UNP: yqrun '[he] calls me'; DULAT: -n (II).
-158840	unhd	un [.] hd	?	?	?	?	MERGE WITH THE PREVIOUS. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
+158840	unhd	un [.] hd/ Haddu	?	?	?	?	MERGE WITH THE PREVIOUS. ## DULAT: NOT FOUND; Migrated from legacy reviewed tokenization.
 # KTU 1.5 II:23							
 158841	xxxxxxxxxp	[xxxxxxxx]xp    	?	?	?	?	UNP restores: [lḥm.ˤm.aḫy.(?)a]p.mlḥmy/[wštm.ˤm.aryy.yny (?)]
 158842	mlḥmy	mlḥmy	mlḥmy	mlḥmy	?	?	UNP: 'my food' (restoring [lḥm ˤm aḫy a]p mlḥmy).
@@ -401,7 +403,7 @@ qrdm	qrd/~m ?	?	?	?	It is aliy in II:11 ## DULAT: NOT FOUND; Migrated from legac
 158847	xxxxxxxxxxxtbˤ	[xxxxxxxxxxx]tbʿ  	!!tbˤ[/	/t-b-ʕ/	vb G inf.	to go	
 158848	ṯ	ṯ	ṯ	?	→	?	KTU3: written above a sign probably representing a Hurrian phoneme (ṯ?) of ln. 27.
 # KTU 1.5 II:27							
-158849	xxxxxxxxxxxxtnṮnm	[xxxxxxxxxxxx]tnṮnm	?	?	?	?	
+158849	xxxxxxxxxxxxtnṮnm	[xxxxxxxxxxxx]tnṮnm	?	?	?	?	the letters fit the meaning 'give two' but not context
 # KTU 1.5 III:1							
 158850	xxxxm	[xxxx]m    	?	?	?	?	
 158851	x	x[             ]             	?	?	?	?	
