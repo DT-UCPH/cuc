@@ -550,11 +550,11 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158950	w	[w ] 	w	w	conj.	and	
 158951	yṣḥ	[yṣḥ    ]    	!y!ṣḥ[	/ṣ-ḥ/	vb G prefc. 3 m. sg.	to exclaim	
 # KTU 1.5 IV:7							
-158952	i	i  	i(I)	ỉ (I)	interj.	woe	DULAT ỉ (I) 'woe'; UNP: 'Where then is Baa[l]?'.
+158952	i	i  	i(I)	ỉ (I)	interj.	woe	DULAT ỉ (I) 'woe'; UNP: 'Where then is Baa[l]?'. Tania: semantically this is i(II) = iy 'where'
 158953	ap	ap  	ap(I)	ảp (I)	adv./conj.	also, then	
 158954	bˤl	bʿ[l              ]              	bˤl(II)/	bʕl (II)	DN m. sg. abs. nom.	Baʿlu/Baal	
 # KTU 1.5 IV:8							
-158955	i	i 	i(I)	ỉ (I)	interj.	woe	UNP: 'Where is Hadd…?'.
+158955	i	i 	i(I)	ỉ (I)	interj.	woe	UNP: 'Where is Hadd…?'. Rather i(II) = iy 'where'
 158956	hd	hd  	hd/	hd(d)	DN m. sg. abs. nom.	Haddu/Hadad	
 158957	d	d[                  ]                        	d	d	det. or rel. functor	the one(s) of	
 # KTU 1.5 IV:9							
@@ -565,30 +565,30 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 158961	ṯmnt	ṯmnt  	ṯmn(I)/t	ṯmn(y) (I)	n. num. f. sg.	eight	DULAT cites ṯmnt here s.v. ṯmn(y) (I).
 158962	a	a[              ]              	?	?	?	?	
 # KTU 1.5 IV:11							
-158963	yqrb	yqrb  	!y!qrb[	/q-r-b/	vb G prefc. 3 m. sg.	to approach	
+158963	yqrb	yqrb  	!y!qrb[	/q-r-b/	vb G prefc. 3 m. sg.	to approach	 or D, not clear
 158964	x	x[                 ]                 	?	?	?	?	
 # KTU 1.5 IV:12							
 158965	lḥm	lḥm  	lḥm/	lḥm	n. m. sg.	food, meat	DULAT cites this line s.v. lḥm n. and mṣd (I); UNP: 'Food[…]'.
-158965	lḥm	lḥm  	!!lḥm(I)[	/l-ḥ-m/ (I)	vb G impv. m. sg.	to eat	Alternative: 'eat (of) my game!'.
+158965	lḥm	lḥm  	!!lḥm(I)[	/l-ḥ-m/ (I)	vb G impv. m. sg.	to eat	Alternative: 'eat (of) my game!'. 
 158966	mṣdy	mṣ[dy           ]           	mṣd(I)/+y	mṣd (I)	n. m. sg. cstr. + 1 c. sg. suff.	(feast of) game	DULAT cites lḥm mṣ[dy] here s.v. mṣd (I) 'feast of game'.
 # KTU 1.5 IV:13							
 158967	ˤd	ʿd  	ˤd(I)	ʕd (I)	conj.	up to, until; close to, around	Feast formula, cf. 1.4 VI 55; UNP: '[A]s [the gods] eat, [drink]'.
 158967	ˤd	ʿd  	ˤd(III)/	ʕd (III)	n. m. sg.	throne, throne-room	Alternative: 'at the table the gods ate'.
 158968	lḥm	lḥm[  ]  	lḥm(I)[:w	/l-ḥ-m/ (I)	vb G suffc. 3 m. pl.	to eat	
-158969	šty	[šty  ]  	šty[:w	/š-t-y/	vb G suffc. 3 m. pl.	to drink	Feast formula (// 1.4 VI:55).
+158969	šty	[šty  ]  	šty[:w	/š-t-y/	vb G suffc. 3 m. pl.	to drink	Feast formula (// 1.4 VI:55). Both forms can be infinitives
 158970	ilm	[ilm]	il(I)/m	ỉl (I)	n. m. pl. abs. nom.	god	
 # KTU 1.5 IV:14							
 158971	w	w 	w	w	conj.	and	
 158972	pq	pq  	pq[:w	/p-q/	vb G suffc. 3 m. pl.	to obtain, be provided with	Formula, cf. 1.4 VI 56.
-158973	mrġṯm	mr[ġṯm  ]  	mrġṯ/m	mrġṯ	n. m. pl. abs. acc.	suckling	
+158973	mrġṯm	mr[ġṯm  ]  	mrġṯ/m	mrġṯ	n. m. pl. abs. acc.	suckling	This is a participle, isn't it? !m!rġṯ[:d/m
 158973	mrġṯm	mr[ġṯm  ]  	mrġṯ/~m	mrġṯ	n. m. sg. cstr. acc.	suckling	If encl. -m: 'suckling of the breast' (UNP).
 158974	ṯd	[ṯd]	ṯd/	ṯd	n. m. sg. abs. gen.	breast	
 # KTU 1.5 IV:15							
 158975	b	b 	b	b	prep.	in, with	
 158976	ḥrb	ḥrb [ ] 	ḥrb/	ḥrb	n. f. sg. abs. gen.	knife	
-158977	mlḥt	[mlḥt  ]  	mlḥ(t/t	mlḥt	n. f. sg. abs. gen.	salt	b ḥrb mlḥt 'with a salted knife'.
+158977	mlḥt	[mlḥt  ]  	mlḥ(t/t	mlḥt	n. f. sg. abs. gen.	salt	b ḥrb mlḥt 'with a salted knife'. this is a passive participle mlḥ[:pass/t
 158978	qṣ	[qṣ  ]  	qṣ/	qṣ	n. m. sg. cstr. acc.	fillet (of meat)	DULAT: qṣ mrỉ 'fillet of fatling' (qṣ, sense 2).
-158979	mri	[mri]	mr(u(I)/&i	mrủ (I)	n. m. sg. abs. gen.	fatling	
+158979	mri	[mri]	mr(u(I)/&i	mrủ (I)	n. m. sg. abs. gen.	fatling	Morphologically this can be passive participl mr(ʔ[/i
 # KTU 1.5 IV:16							
 158980	šty	šty  	šty[:w	/š-t-y/	vb G suffc. 3 m. pl.	to drink	
 158981	krpnm	kr[pnm  ]  	krpn/m	krpn	n. m. pl. abs. acc.	goblet	
@@ -629,7 +629,7 @@ id	surface form	sign span	morphological parsing	DULAT	POS	gloss	comments
 159006	lik	lik  	l(ʔ&ik[	/l-ʔ-k/	vb G suffc. 3 m. sg.	to send (a message)	
 159007	tlšx	tlšx[                ]                	?	?	?	?	
 # KTU 1.5 IV:26							
-159008	tˤddn	tʿddn[                    ]                    	!t!ˤdd[~n	/ʕ-d(-d)/	vb prefc. + energic -n	to declare, communicate	DULAT cites this line s.v. /ʕ-d(-d)/ (attested tD/tL; stem uncertain).
+159008	tˤddn	tʿddn[                    ]     	!t!ˤdd[:d~n	/ʕ-d(-d)/	vb prefc. + energic -n	to declare, communicate	DULAT cites this line s.v. /ʕ-d(-d)/ (attested tD/tL; stem uncertain). It is tL, also intensive
 # KTU 1.5 IV:27							
 159009	niṣ	niṣ  	n(ʔ&iṣ[/	/n-ʔ-ṣ/	vb G act. ptcpl. m. sg.	to despise, insult	DULAT form nỉṣ: G act. ptcpl.; UNP: 'Reviles…'.
 159010	px	px[                 ]                 	?	?	?	?	
