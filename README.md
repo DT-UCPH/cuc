@@ -14,56 +14,28 @@ For this dataset, we cooperate with Tania Notarius (University of the Free State
 Other contributors are Maria Simion, Lynn Strietzel, Ben Shields and Elijah Labowe-Stoll, volunteer assistants (Polis - the Jerusalem Institute of Language and Humanities).
 
 ### Data
-278 tablets of *Die keilalphabetischen Texte aus Ugarit* (KTU) are currently available:
+Version **0.3.0** contains 342 independent KTU texts and three catalogue aliases,
+including 63 tablets newly available since 0.2.8. The additions include Ugaritic,
+Hurrian, a mixed Ugaritic/Hurrian text, alphabet exercises, and an unclassified
+fragment. RIH tablets are not included. Only completed reviews replace the
+reference texts; unfinished reviews are excluded.
 
-- KTU 1.1-1.7
-- KTU 1.14-1.25
-- KTU 1.27-1.29
-- KTU 1.31
-- KTU 1.38-1.41
-- KTU 1.43
-- KTU 1.45-1.50
-- KTU 1.54-1.58
-- KTU 1.61-1.63
-- KTU 1.65
-- KTU 1.67
-- KTU 1.69
-- KTU 1.71-1.76
-- KTU 1.78-1.98
-- KTU 1.100-1.109
-- KTU 1.111-1.119
-- KTU 1.121-1.122
-- KTU 1.124
-- KTU 1.126-1.127
-- KTU 1.129-1.130
-- KTU 1.132-1.134
-- KTU 1.136-1.144
-- KTU 1.146-1.147
-- KTU 1.149
-- KTU 1.153-1.156
-- KTU 1.158-1.177
-- KTU 1.179-1.180
-- KTU 2.1
-- KTU 2.3-2.18
-- KTU 2.20-2.27
-- KTU 2.30-2.44
-- KTU 2.46-2.75
-- KTU 2.77-2.80
-- KTU 2.82-2.105
-- KTU 2.107-2.113
-- KTU 3.1-3.35
+The [0.3.0 release description](docs/release-0.3.0.md) lists every added tablet
+with its language and line count, explains every node, edge and feature, and
+reports changes within the previously published tablets.
 
-The texts are currently annotated with the following features:
+The textual hierarchy remains `tablet > column > line`, with `word` nodes over
+`sign` slots. New `boundary` nodes retain breaks and scribal rulings, and `alias`
+nodes resolve catalogue redirects without duplicating their target text.
+Invisible synthetic slots retain otherwise empty textual entities.
 
-- tablet: tablet title
-- column: column number
-- line: line number
-- side: tablet side of inscription
-- g_cons: a consonantal representation of each word in Latin script
-- trailer: a representation of word spacing or word dividers
-- language: Ugaritic
-- sign: Letter in Latin script
-- emen: emendations of various sorts in relation to a sign (including reconstructed, missing, excised, or redundant signs/letters)
-- cert: certainty of the text in relation to a sign (corresponding to the italic of KTU)
-- cont: marking of line continuation in between lines
-- alt: alternative reading
+For queries, use `line_label` for a line's printed address, `surface` and
+`surface_cert` for surface attribution, `type` to distinguish letters and lexical
+words from gaps, numbers and editorial content, and `emen`, `cert`, `alt` and
+`cont` for text-critical information. `g_cons` is a consonantal word reading;
+`sign/after` and `usign/uafter` reconstruct the two text formats. The former
+constant `language=Ugaritic` feature is retired because it mislabels Hurrian and
+mixed-language texts.
+
+Older TF versions remain available. Node numbers are version-specific; use
+tablet, column and line addresses when comparing releases.

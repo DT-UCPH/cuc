@@ -1,4 +1,5 @@
 import types
+from html import escape
 from tf.advanced.app import App
 
 EMENDATION = dict(
@@ -29,25 +30,35 @@ class TfApp(App):
         F = api.F
         L = api.L
 
-        after = (F.utrailer.v(n) if kind == "u" else F.trailer.v(n)) or ""
-        material = (F.usign.v(n) if kind == "u" else F.sign.v(n)) or ""
+        synthetic = getattr(F, "synthetic", None)
+        if synthetic is not None and synthetic.v(n) == "True":
+            return ""
+
+        material = escape((F.usign.v(n) if kind == "u" else F.sign.v(n)) or "")
         emendation = F.emen.v(n)
         cls = EMENDATION.get(emendation, None)
 
         if cls is not None:
              material = f"""<span class="{cls}">{material}</span>"""
 
-        if F.cert.v(n) != 'uncertain':
+        if F.cert.v(n) == "True":
             material = f"""<em>{material}</em>"""
 
-        after = (F.utrailer.v(L.u(n, 'word')[0]) if kind == "u" else F.trailer.v(L.u(n, 'word')[0])) or ""
-       	trailer_emendation = F.trailer_emen.v(L.u(n, 'word')[0])
-        after_cls = EMENDATION.get(trailer_emendation, None)
-
-        if after_cls is not None:
-             after = f"""<span class="{after_cls}">{after}</span>"""
-
-        if n == L.d(L.u(n, 'word')[0], 'sign')[-1]:
-            return f"{material}{after}"
+        after_feature = getattr(F, "uafter" if kind == "u" else "after", None)
+        words = L.u(n, "word")
+        trailer = ""
+        trailer_emendation = None
+        if words:
+            word = words[0]
+            trailer = (F.utrailer.v(word) if kind == "u" else F.trailer.v(word)) or ""
+            trailer_emendation = F.trailer_emen.v(word)
+        if after_feature is not None:
+            after = after_feature.v(n) or ""
         else:
-            return material
+            # Older datasets put dividers only on their word node.
+            after = trailer if words and n == L.d(words[0], "sign")[-1] else ""
+        after_cls = EMENDATION.get(trailer_emendation) if after == trailer else None
+        after = escape(after)
+        if after and after_cls is not None:
+            after = f"""<span class="{after_cls}">{after}</span>"""
+        return f"{material}{after}"
