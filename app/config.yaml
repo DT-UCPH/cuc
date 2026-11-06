@@ -18,10 +18,10 @@ docs:
 interfaceDefaults: {}
 provenanceSpec:
   corpus: Copenhagen Ugarit Corpus
-  version: '0.2.8'
+  version: '0.3.0'
 writing: uga
 typeDisplay:
   line:
-    label: '{line}'
-    template: '{line}'
+    label: '{line_label}'
+    template: '{line_label}'
     verselike: true
