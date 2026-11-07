@@ -1,6 +1,6 @@
 Tagging conventions updated
 
-At this stage we decided not to reconstruct consonants, doubling, vowels and other grammatical markings that do not appear on the surface and concentrate on the visible elements. Altogether, if a sign is part of a lexeme, but it does not appear in a word, it is added to the word by "(". If a sign occurs in a word but it does not occur in the lexeme in DULAT, it is preceded by "&". E.g., in case of a scribal error corrected by editors, the ‘(’ precedes the ‘&’, as in wsp - (k&wsp “silver”. Otherwise, at this stage we don't reconstruct missing signs.
+At this stage we decided not to reconstruct consonants, doubling, vowels and other grammatical markings that do not appear on the surface and concentrate on the visible elements. Altogether, if a sign is part of a lexeme, but it does not appear in a word, it is added to the word by "(". If a sign occurs in a word but it does not occur in the lexeme in DULAT, it is preceded by "&". E.g., in case of a scribal error corrected by editors, the "(" precedes the "&", as in wsp - (k&wsp "silver". Otherwise, at this stage we don't reconstruct missing signs.
 The signs ( and & are also can also be used for aleph letters (u, i, a).
 Comments about variants can be added after  #
 
@@ -17,7 +17,7 @@ E.g.: Suppose in a text you find the word "il", meaning "God". DULAT adds "(I)" 
 Suffixes and enclitics:
 Pronominal suffixes are prefixed with "+": mlk/+h "his king"
 ~ appears before the postclitic consonants: !y!rgm[~n "he says"
-If feminine ending -t  of nouns (both sing or plur) is part of the lexeme, we leave it unmarked  at this stage. A noun that appears without the feminine -t in singular, but with -t in plural, e.g. gg, is tagged: gg/t= “roofs”. But adjectives and participles tag feminine ending -t, e.g. mru "fattened: the feminine singular form is mr(u&a/t and the feminine plural is mr(u&a/t=.
+If feminine ending -t  of nouns (both sing or plur) is part of the lexeme, is marked in the following way: ilt "goddess": il(t(I)/t. A noun that appears without the feminine -t in singular, but with -t in plural, e.g. gg, is tagged: gg/t= “roofs”. But adjectives and participles tag feminine ending -t, e.g. mru "fattened: the feminine singular form is mr(u&a/t and the feminine plural is mr(u&a/t=.
 In III-ˀ nouns aleph letters show case endings, e.g. ksu "seat: ks(u/&u nominative, ks(u/&i genitive, ks(u/&a accusative; or plural of rpu "Rafa": rp(u&/m, rp(u&i/m.
 
 Prefixes and infixes:
