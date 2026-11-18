@@ -1,13 +1,13 @@
 @node
 @dataset=cuc
 @datasetName=Copenhagen Ugarit Corpus
-@description=language of the text at this word as KTU³ states it for the tablet or line range (SR:/Ge:); absent where KTU³ assigns none (BN-44)
+@description=language of the text at this word as KTU³ states it for the tablet or line range (SR:/Ge:); absent where KTU³ assigns none or assigns two languages to the passage without saying which word is which (see tablet_language; BN-44)
 @licence=Creative Commons Attribution-NonCommercial 4.0 International License
 @licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
 @valueType=str
 @version=0.3.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-18T16:58:01+00:00Z
+@dateWritten=2026-11-18T18:23:35+00:00Z
 
 176408	Ugaritic
 Ugaritic
@@ -20061,48 +20061,7 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
+196502	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -20584,87 +20543,7 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Ugaritic
+197063	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -21332,80 +21211,7 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Hurrian and Ugaritic
-Ugaritic
+197804	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic

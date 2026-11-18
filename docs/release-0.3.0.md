@@ -3,7 +3,7 @@
 CUC 0.3.0 expands the corpus with completed KTU transcriptions and repairs the
 conversion of document structure, word boundaries, sign variants, and editorial
 markup. It also makes breaks and scribal rulings queryable in Text-Fabric, and
-labels every word with the language KTU³ states for its text. The previous TF
+labels words and tablets with the language KTU³ states for the text. The previous TF
 versions remain available.
 
 | Node type | 0.2.8 | 0.3.0 | Interpretation |
@@ -30,7 +30,8 @@ RIH II conversion is supported by the converter but **no RIH tablets are
 published in this release**. No Akkadian-language tablet is newly added.
 
 The language labels below describe the texts. The word feature `language`
-carries the same statements (see [Words](#words)); it is the language of the
+and the tablet feature `tablet_language` carry the same statements (see
+[Words](#words)); it is the language of the
 text at that point, taken from KTU³, not a judgement about each word. In
 particular, Sumerograms in an Ugaritic text do not make the whole tablet
 Sumerian or Akkadian.
@@ -157,7 +158,7 @@ Absolute node numbers change and must not be used as cross-version identifiers.
 
 The standard TF feature `otype` records a node's kind: `sign`, `word`, `line`,
 `column`, `tablet`, `boundary`, or `alias`. Its vocabulary gains the two new node
-kinds described above. Together with the 31 features below, it makes 32 emitted
+kinds described above. Together with the 32 features below, it makes 33 emitted
 node features in this dataset.
 
 ### Signs
@@ -190,16 +191,19 @@ node features in this dataset.
 the SR: or Ge: field of its apparatus, per tablet or per line range. In 0.2.8
 it was the constant `Ugaritic` on every word, which mislabeled the Hurrian and
 Akkadian texts. A KTU text that KTU³ does not mark otherwise is `Ugaritic`.
-Where KTU³ calls a text or passage mixed without dividing it, the value is
-`Hurrian and Ugaritic`. Where KTU³ gives no language, the feature is absent.
+Where KTU³ calls a passage "Hurrian and Ugaritic" without saying which word is
+which, its words have no value: that is not a fact about any one word, and
+the editors will label those words in a later release. The statement is kept
+on the tablet as `tablet_language`. Where KTU³ gives no language, the feature
+is absent.
 
 | `language` | Words | Texts |
 | --- | ---: | --- |
 | `Ugaritic` | 29,813 | all other texts |
 | `Hurrian` | 640 | KTU 1.26, 1.30, 1.42, 1.51, 1.54, 1.66, 1.68, 1.125, 1.135, 1.149; KTU 1.148 lines 13–17 |
-| `Hurrian and Ugaritic` | 194 | KTU 1.111 lines 1–13 (obverse), 1.116, 1.132 |
 | `Akkadian` | 129 | KTU 1.67, 1.69; KTU 1.73 lines 1–7 |
-| absent | 66 | KTU 5.24 and 5.27 (alphabets), KTU 7.191 (unclassified fragment) |
+| absent (mixed passage, to be labelled) | 194 | KTU 1.111 lines 1–13 (obverse), 1.116, 1.132 |
+| absent (no language) | 66 | KTU 5.24 and 5.27 (alphabets), KTU 7.191 (unclassified fragment) |
 
 The value is not a word-level judgement: a Hurrian divine name in an Ugaritic
 line is `Ugaritic`, because KTU³ says nothing about it. KTU 1.108's note on a
@@ -221,6 +225,7 @@ changes the value.
 | `fragment` | `column` | Sparse fragment siglum, for example `a` from `fragm. a:`. It belongs to the division, rather than being copied onto every line. |
 | `tablet` | `tablet` | Independent KTU text identifier taken from the tablet heading. Redirect identifiers are carried by alias nodes instead. |
 | `tablet_info` | `tablet` | Existing scholarly notes about the damaged state or nonjoining line spans of KTU 1.7 and 1.84. This feature is retained. |
+| `tablet_language` | `tablet` | New. The language of the tablet as a whole as KTU³ states it in the SR: or Ge: field. A mixed tablet names both languages in alphabetical order: `Hurrian and Ugaritic` for KTU 1.111, 1.116, 1.132 and 1.148 (KTU³ writes "Ugaritic and Hurrian" for 1.148), `Akkadian and Ugaritic` for KTU 1.73. Otherwise `Ugaritic` (322 tablets), `Hurrian` (10) or `Akkadian` (2). Absent on KTU 5.24, 5.27 and 7.191, where KTU³ assigns none. |
 
 ### Breaks, rulings and aliases
 
