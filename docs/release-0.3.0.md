@@ -2,20 +2,21 @@
 
 CUC 0.3.0 expands the corpus with completed KTU transcriptions and repairs the
 conversion of document structure, word boundaries, sign variants, and editorial
-markup. It also makes breaks and scribal rulings queryable in Text-Fabric.
-The previous TF versions remain available.
+markup. It also makes breaks and scribal rulings queryable in Text-Fabric, and
+labels every word with the language KTU³ states for its text. The previous TF
+versions remain available.
 
 | Node type | 0.2.8 | 0.3.0 | Interpretation |
 | --- | ---: | ---: | --- |
-| `sign` | 146,017 | 165,665 | 164,496 source-backed sign slots and 1,169 invisible synthetic slots in 0.3.0 |
-| `word` | 27,770 | 30,843 | Source text units, including gaps and non-lexical content |
-| `line` | 7,616 | 8,692 | Retained textual lines |
+| `sign` | 146,017 | 165,790 | 164,620 source-backed sign slots and 1,170 invisible synthetic slots in 0.3.0 |
+| `word` | 27,770 | 30,842 | Source text units, including gaps and non-lexical content |
+| `line` | 7,616 | 8,691 | Retained textual lines |
 | `column` | 334 | 415 | Columns, implicit column I and fragment divisions |
 | `tablet` | 279 | 342 | Independent KTU texts; 63 additions |
-| `boundary` | — | 1,165 | 705 scribal rulings and 460 breaks |
+| `boundary` | — | 1,166 | 705 scribal rulings and 461 breaks |
 | `alias` | — | 3 | Catalogue identifiers resolving to existing canonical spans |
 
-There are 207,125 nodes in total. The build applies 42 configured corrections,
+There are 207,249 nodes in total. The build applies 42 configured corrections,
 recognizes one as already present, and leaves no unmatched correction. Forty-one
 lines carry `erratum`; multiple corrections can affect one line, and a restored
 ruling is represented by its own boundary node.
@@ -28,10 +29,11 @@ their reference versions. KTU 1.125 and the corrected KTU 5.24 are included.
 RIH II conversion is supported by the converter but **no RIH tablets are
 published in this release**. No Akkadian-language tablet is newly added.
 
-The language labels below describe the texts; they are not new word-level
-language annotations. The converter cannot infer each word's language from
-transliteration. In particular, Sumerograms in an Ugaritic text do not make the
-whole tablet Sumerian or Akkadian.
+The language labels below describe the texts. The word feature `language`
+carries the same statements (see [Words](#words)); it is the language of the
+text at that point, taken from KTU³, not a judgement about each word. In
+particular, Sumerograms in an Ugaritic text do not make the whole tablet
+Sumerian or Akkadian.
 
 | Newly available tablet | Language or text type | Retained lines |
 | --- | --- | ---: |
@@ -155,7 +157,7 @@ Absolute node numbers change and must not be used as cross-version identifiers.
 
 The standard TF feature `otype` records a node's kind: `sign`, `word`, `line`,
 `column`, `tablet`, `boundary`, or `alias`. Its vocabulary gains the two new node
-kinds described above. Together with the 30 features below, it makes 31 emitted
+kinds described above. Together with the 31 features below, it makes 32 emitted
 node features in this dataset.
 
 ### Signs
@@ -184,9 +186,26 @@ node features in this dataset.
 | `utrailer` | Unicode counterpart of the word trailer. This word-level summary remains available although display reconstruction now uses slot-level `after/uafter`. |
 | `trailer_emen` | Editorial state at an actual trailer. A word with no trailer no longer inherits an unrelated bracket state. Restored trailers on newly split words are derived at their own divider position. |
 
-The former word feature `language`, which always said `Ugaritic`, is removed.
-Keeping that constant would mislabel Hurrian passages and mixed-language texts.
-No inferred replacement language feature is introduced.
+`language` (word) is the language of the text at this word as KTU³ states it in
+the SR: or Ge: field of its apparatus, per tablet or per line range. In 0.2.8
+it was the constant `Ugaritic` on every word, which mislabeled the Hurrian and
+Akkadian texts. A KTU text that KTU³ does not mark otherwise is `Ugaritic`.
+Where KTU³ calls a text or passage mixed without dividing it, the value is
+`Hurrian and Ugaritic`. Where KTU³ gives no language, the feature is absent.
+
+| `language` | Words | Texts |
+| --- | ---: | --- |
+| `Ugaritic` | 29,813 | all other texts |
+| `Hurrian` | 640 | KTU 1.26, 1.30, 1.42, 1.51, 1.54, 1.66, 1.68, 1.125, 1.135, 1.149; KTU 1.148 lines 13–17 |
+| `Hurrian and Ugaritic` | 194 | KTU 1.111 lines 1–13 (obverse), 1.116, 1.132 |
+| `Akkadian` | 129 | KTU 1.67, 1.69; KTU 1.73 lines 1–7 |
+| absent | 66 | KTU 5.24 and 5.27 (alphabets), KTU 7.191 (unclassified fragment) |
+
+The value is not a word-level judgement: a Hurrian divine name in an Ugaritic
+line is `Ugaritic`, because KTU³ says nothing about it. KTU 1.108's note on a
+Hurrian(?) sign in line 9 concerns one sign, and the "translation of an
+Akkadian letter?" of several KTU 2 letters describes Ugaritic texts; neither
+changes the value.
 
 ### Lines, columns and tablets
 
@@ -233,39 +252,39 @@ features of the published KTU corpus.
 
 | Change in existing tablets | Measured result |
 | --- | ---: |
-| Newly retained textual lines | 1 |
+| Newly retained textual lines | 0 |
 | Removed textual lines | 0 |
-| Paired lines with changes in signs, spacing, editorial features or surface | 5,902 |
+| Paired lines with changes in signs, spacing, editorial features or surface | 5,901 |
 | Visible transcription characters added / removed | 159 / 134 |
 | Readable letters within those additions / removals | 89 / 78 |
 | Unreadable `x` signs within those additions / removals | 25 / 12 |
 | Editorial/divider characters within those additions / removals | 45 / 44 |
-| Whitespace-slot edits | 13,764 |
+| Whitespace-slot edits | 13,713 |
 | Aligned signs with changed `cert` | 202 |
-| Aligned signs or whitespace with changed `emen` | 130 |
+| Aligned signs or whitespace with changed `emen` | 131 |
 | Aligned slots with changed `alt` | 11 |
 | Aligned slots with changed `cont` | 119 |
 | Aligned slots with changed `usign` | 1 |
 | Lines with changed surface attribution | 5,410 |
 | Lines with changed surface uncertainty | 9 |
-| Retained word units | 27,770 → 27,790 |
+| Retained word units | 27,770 → 27,789 |
 | Wholly lost word units | 519 inferred from old whitespace-only spans → 523 explicitly typed gaps |
-| Explicitly typed lacuna-spacing slots in the new version of existing tablets | 38,457 |
-| Newly represented scribal rulings / breaks in existing tablets | 531 / 376 |
+| Explicitly typed lacuna-spacing slots in the new version of existing tablets | 38,560 |
+| Newly represented scribal rulings / breaks in existing tablets | 531 / 377 |
 | Non-empty alternative-reading annotations | 79 → 90 |
 | Slots carrying a continuation boundary | 102 → 18 |
 | Words with non-empty trailer emendation | 2,889 → 1,593 |
 
 One old tablet is unchanged under this textual comparison; 278 change, mainly
 because surface attribution and spacing are corrected. All 279 remain present.
-The old release had no boundary nodes, so the 531 rulings and 376 breaks are
+The old release had no boundary nodes, so the 531 rulings and 377 breaks are
 newly represented source entities rather than edits to existing boundary IDs.
 The 63 added tablets contribute a further 174 rulings and 84 breaks.
 
 For existing tablets, `cert=True` changes from 53,664 to 53,743 and `cert=False`
 from 23,551 to 23,496. These totals also include additions/removals and therefore
 are different from the 202 aligned certainty changes. Existing `emen` totals are
-51,597 → 51,260 restored, 396 → 393 excised, 72 → 73 redundant, 123 → 125 missing,
+51,597 → 51,363 restored, 396 → 393 excised, 72 → 73 redundant, 123 → 125 missing,
 and 43 → 56 remark slots. Trailer-emendation counts shrink because bracket state
 is no longer written on words without a trailer.
 
@@ -326,16 +345,37 @@ Its line labels follow `line_label`. Older datasets retain a trailer fallback.
 Automatic GitHub CI triggers are disabled; the workflow remains manually
 dispatchable.
 
+## Corrections to reviewed sources
+
+Before v1.0.18, the KTU Validator, the review application that writes the
+reviewed Word sources, could merge a rebuilt OCR bundle into work that had
+already been saved. That could re-measure lacuna widths, re-insert footnote
+markers and count an ellipsis as a numbered line. The saved reviews were
+checked against their Git history and the KTU³ scans. The published data are
+rebuilt from the same selected sources with the confirmed repairs:
+
+- 132 earlier lacuna widths are restored in 17 tablets: KTU 1.1, 1.12, 1.49,
+  1.51, 1.66, 1.67, 1.73, 1.90, 1.98, 1.103, 1.135, 1.148, 1.172, 2.20, 2.105,
+  2.106 and 3.34. This adds 125 `gap` slots (KTU 1.1 alone accounts for 53).
+  Every other slot keeps its order and its `sign`, `usign`, `cert`, `emen`,
+  `alt`, `cont`, `type` and `synthetic` values.
+- KTU 1.1 II 28, an ellipsis counted as a line, is a break after II 27:
+  one line and one word fewer, one break more.
+
+Footnote markers re-inserted by the validator were also removed. They do not
+affect the published text, because footnote markers are omitted from it.
+No TF file was edited by hand: the dataset is a full rebuild.
+
 ## Validation and tests
 
-The complete converter suite passes with **1,044 tests passed and 2 skipped**
+The complete converter suite passes with **1,047 tests passed and 10 skipped**
 against the frozen TF 0.2.8 comparison data. A real Text-Fabric build succeeds
 over all 342 selected tablets; serialized-corpus lint reports no findings.
 Configured corrections report **42 applied, 1 already present, 0 unmatched**.
 The CUC release and display tests pass **13/13**.
 
-Source lint reports no unsupported characters. Six unpaired-footnote diagnostics
-concern apparatus excluded from the published text. Two bracket diagnostics,
+Source lint reports no unsupported characters. One unpaired-footnote diagnostic
+(KTU 1.66, marker a⁾) concerns apparatus excluded from the published text. Two bracket diagnostics,
 KTU 4.24:2 and 4.41:5, concern source-attested one-sided breaks. They are recorded
 as limitations of those lint checks, rather than used to rewrite the edition.
 
