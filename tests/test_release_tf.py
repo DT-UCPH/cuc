@@ -88,3 +88,56 @@ def test_431_short_alphabet_letters_are_distinct_single_slots(api):
             assert letter in F.g_cons.v(L.u(slot, "word")[0])
     assert not F.sign.s("\u0304")
     assert not F.sign.s("\u0331")
+
+
+def test_language_follows_ktu3_tablet_and_line_range_statements(api):
+    F, L = api.F, api.L
+
+    def tablet(name):
+        return next(n for n in F.otype.s("tablet") if F.tablet.v(n) == name)
+
+    def languages(name, first=None, last=None):
+        return {
+            F.language.v(word)
+            for line in L.d(tablet(name), "line")
+            if first is None or first <= F.line.v(line) <= last
+            for word in L.d(line, "word")
+        }
+
+    assert languages("KTU 1.1") == {"Ugaritic"}
+    assert languages("KTU 1.26") == {"Hurrian"}
+    assert languages("KTU 1.67") == {"Akkadian"}
+    assert languages("KTU 1.148", 13, 17) == {"Hurrian"}
+    assert languages("KTU 1.148", 1, 12) == languages("KTU 1.148", 18, 45) == {"Ugaritic"}
+    assert languages("KTU 1.73", 1, 7) == {"Akkadian"}
+    assert languages("KTU 1.73", 8, 18) == {"Ugaritic"}
+    assert languages("KTU 1.111", 1, 13) == {None}
+    assert languages("KTU 1.111", 14, 99) == {"Ugaritic"}
+    assert languages("KTU 1.116") == languages("KTU 1.132") == {None}
+    assert languages("KTU 5.24") == {None}
+    assert set(F.language.freqList()) == {("Ugaritic", 29813), ("Hurrian", 640), ("Akkadian", 129)}
+
+
+def test_tablet_language_states_ktu3_for_the_whole_tablet(api):
+    F = api.F
+    by_tablet = {F.tablet.v(t): F.tablet_language.v(t) for t in F.otype.s("tablet")}
+    assert by_tablet["KTU 1.1"] == "Ugaritic"
+    assert by_tablet["KTU 1.26"] == "Hurrian"
+    assert by_tablet["KTU 1.67"] == "Akkadian"
+    assert by_tablet["KTU 1.73"] == "Akkadian and Ugaritic"
+    for name in ("KTU 1.111", "KTU 1.116", "KTU 1.132", "KTU 1.148"):
+        assert by_tablet[name] == "Hurrian and Ugaritic"
+    assert by_tablet["KTU 5.24"] is None
+    assert dict(F.tablet_language.freqList()) == {
+        "Ugaritic": 322, "Hurrian": 10, "Akkadian": 2,
+        "Hurrian and Ugaritic": 4, "Akkadian and Ugaritic": 1}
+
+
+def test_validator_recovery_turns_ktu_11_ii_28_into_a_break(api):
+    F, L, T = api.F, api.L, api.T
+    column = T.nodeFromSection(("KTU 1.1", "II"))
+    labels = [F.line_label.v(line) for line in L.d(column, "line")]
+    assert "28" not in labels and "27" in labels
+    line27 = T.nodeFromSection(("KTU 1.1", "II", "27"))
+    after27 = [b for b in L.d(column, "boundary") if api.E.boundary_prev.f(b) == (line27,)]
+    assert [F.boundary_kind.v(b) for b in after27] == ["break"]
