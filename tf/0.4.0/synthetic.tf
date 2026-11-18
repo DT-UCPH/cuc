@@ -1,0 +1,1424 @@
+@node
+@dataset=cuc
+@datasetName=Copenhagen Ugarit Corpus
+@description=True for invisible source-position anchors
+@licence=Creative Commons Attribution-NonCommercial 4.0 International License
+@licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
+@valueType=str
+@version=0.4.0
+@writtenBy=Text-Fabric
+@dateWritten=2026-11-18T22:05:55+00:00Z
+
+12	True
+25	True
+38	True
+53	True
+65	True
+75	True
+113	True
+125	True
+237	True
+254	True
+358	True
+388	True
+447	True
+576	True
+691	True
+710	True
+802	True
+965	True
+987	True
+1099	True
+1120	True
+1142	True
+1160	True
+1181	True
+1201	True
+1218	True
+1236	True
+1273	True
+1293	True
+True
+1310	True
+1324	True
+1340	True
+1359	True
+1362	True
+1433	True
+1447	True
+1461	True
+1490	True
+1518	True
+1553	True
+1581	True
+1626	True
+1645	True
+True
+1717	True
+1731	True
+1752	True
+1763	True
+1787	True
+1798	True
+1816	True
+1840	True
+1863	True
+1871	True
+1903	True
+1963	True
+2045	True
+2084	True
+2110	True
+2146	True
+2174	True
+2212	True
+2255	True
+2287	True
+2412	True
+2434	True
+True
+2443	True
+2466	True
+2472	True
+2513	True
+2535	True
+2557	True
+2574	True
+2585	True
+2601	True
+2608	True
+2751	True
+2777	True
+2805	True
+3150	True
+3184	True
+3192	True
+3223	True
+3238	True
+3273	True
+3316	True
+True
+3378	True
+3383	True
+3410	True
+3434	True
+3452	True
+3473	True
+3506	True
+3543	True
+3545	True
+3548	True
+3554	True
+3602	True
+3632	True
+True
+3657	True
+True
+3758	True
+3760	True
+3769	True
+3781	True
+3818	True
+3889	True
+3897	True
+3920	True
+3929	True
+3935	True
+3945	True
+3970	True
+3980	True
+3989	True
+4003	True
+True
+4034	True
+4041	True
+4073	True
+4082	True
+4089	True
+4116	True
+True
+4165	True
+4243	True
+True
+4338	True
+4348	True
+4366	True
+4384	True
+4406	True
+4417	True
+4423	True
+True
+4445	True
+4454	True
+4465	True
+4545	True
+4614	True
+True
+4632	True
+4674	True
+True
+4691	True
+4698	True
+True
+4726	True
+4736	True
+4742	True
+4751	True
+4761	True
+4771	True
+4779	True
+True
+4787	True
+4798	True
+4811	True
+4817	True
+4835	True
+4849	True
+4870	True
+4883	True
+4896	True
+4904	True
+4913	True
+4918	True
+4927	True
+4936	True
+4947	True
+4964	True
+4990	True
+True
+5008	True
+True
+True
+True
+5711	True
+True
+6682	True
+True
+7996	True
+True
+9253	True
+True
+True
+True
+11262	True
+True
+11697	True
+True
+12926	True
+True
+14529	True
+True
+14953	True
+True
+16454	True
+17935	True
+18134	True
+19194	True
+19954	True
+True
+20598	True
+True
+21627	True
+22625	True
+24528	True
+24555	True
+24929	True
+26049	True
+27106	True
+27677	True
+27687	True
+28338	True
+True
+28923	True
+True
+29657	True
+True
+30253	True
+True
+30741	True
+True
+31343	True
+32620	True
+33339	True
+True
+33783	True
+35784	True
+36329	True
+36996	True
+37314	True
+37321	True
+37573	True
+True
+37932	True
+38404	True
+True
+39141	True
+40215	True
+True
+40705	True
+True
+41909	True
+41915	True
+41934	True
+41959	True
+41981	True
+42003	True
+42024	True
+42043	True
+42062	True
+42082	True
+42102	True
+42127	True
+42150	True
+42174	True
+42217	True
+42242	True
+42349	True
+42400	True
+42419	True
+42443	True
+42464	True
+42484	True
+42506	True
+42529	True
+42552	True
+42578	True
+42600	True
+42621	True
+42645	True
+42668	True
+42686	True
+42693	True
+44319	True
+46720	True
+47302	True
+47420	True
+True
+47913	True
+True
+48367	True
+True
+48784	True
+49219	True
+49385	True
+True
+50402	True
+51287	True
+51552	True
+True
+51839	True
+52728	True
+53729	True
+54820	True
+True
+55768	True
+True
+True
+True
+True
+True
+56535	True
+True
+57994	True
+58847	True
+True
+True
+True
+True
+True
+65313	True
+True
+65652	True
+True
+True
+True
+True
+True
+65683	True
+True
+True
+66363	True
+67013	True
+True
+True
+True
+67088	True
+67257	True
+67353	True
+67387	True
+67499	True
+67565	True
+67606	True
+67640	True
+67759	True
+67793	True
+70233	True
+70600	True
+True
+70796	True
+True
+70882	True
+True
+70900	True
+70950	True
+True
+True
+70977	True
+70990	True
+True
+71276	True
+True
+71338	True
+True
+71402	True
+True
+71451	True
+71501	True
+71524	True
+True
+71568	True
+True
+71625	True
+71677	True
+71705	True
+True
+True
+71758	True
+True
+71788	True
+True
+72387	True
+True
+72527	True
+72644	True
+73023	True
+73384	True
+73807	True
+74188	True
+74235	True
+75507	True
+75798	True
+75884	True
+76003	True
+76059	True
+76170	True
+76252	True
+76335	True
+76412	True
+76472	True
+76550	True
+76613	True
+76684	True
+76745	True
+76814	True
+76886	True
+77030	True
+77316	True
+77480	True
+77498	True
+77517	True
+77539	True
+77558	True
+77573	True
+77592	True
+77612	True
+77910	True
+78517	True
+78924	True
+79193	True
+79438	True
+True
+79481	True
+True
+79779	True
+79796	True
+79806	True
+79839	True
+79848	True
+79856	True
+True
+79869	True
+79884	True
+79899	True
+79912	True
+79924	True
+79945	True
+80053	True
+80072	True
+80296	True
+80362	True
+True
+80414	True
+True
+80645	True
+True
+80721	True
+80767	True
+80796	True
+True
+81096	True
+81336	True
+81503	True
+81660	True
+82223	True
+82249	True
+82296	True
+82601	True
+82709	True
+82920	True
+83533	True
+True
+83617	True
+83671	True
+83717	True
+83879	True
+84078	True
+84141	True
+84154	True
+84248	True
+84302	True
+84355	True
+84430	True
+84621	True
+84781	True
+84866	True
+85034	True
+85236	True
+85246	True
+85304	True
+True
+85333	True
+85350	True
+85438	True
+True
+85498	True
+85547	True
+85780	True
+86090	True
+86167	True
+86385	True
+86433	True
+86453	True
+86474	True
+86493	True
+86509	True
+86518	True
+86800	True
+87040	True
+87214	True
+87631	True
+True
+True
+87799	True
+87912	True
+88129	True
+True
+88280	True
+True
+88329	True
+88370	True
+88703	True
+88914	True
+True
+89282	True
+True
+True
+89381	True
+89531	True
+89611	True
+True
+89682	True
+90149	True
+90164	True
+90246	True
+90303	True
+90361	True
+90443	True
+90523	True
+90605	True
+90653	True
+90727	True
+90898	True
+90972	True
+91021	True
+91076	True
+91159	True
+91278	True
+91406	True
+True
+91560	True
+91592	True
+91688	True
+91717	True
+91767	True
+91822	True
+91922	True
+93251	True
+93331	True
+93443	True
+93484	True
+93628	True
+93687	True
+93858	True
+True
+94041	True
+94096	True
+94309	True
+94643	True
+95214	True
+95843	True
+96484	True
+96564	True
+96818	True
+96834	True
+96913	True
+96950	True
+96980	True
+True
+97006	True
+97171	True
+True
+97296	True
+True
+97379	True
+True
+97594	True
+97752	True
+97907	True
+98068	True
+98221	True
+98377	True
+98538	True
+98691	True
+98851	True
+99005	True
+99112	True
+99354	True
+99582	True
+99612	True
+99638	True
+99665	True
+99690	True
+99714	True
+99742	True
+99774	True
+99799	True
+99821	True
+True
+True
+99840	True
+99860	True
+99880	True
+99903	True
+99933	True
+99962	True
+99991	True
+100019	True
+100185	True
+100227	True
+100258	True
+100282	True
+100305	True
+100334	True
+100376	True
+100422	True
+100454	True
+100484	True
+100518	True
+100560	True
+100614	True
+100646	True
+100686	True
+100717	True
+100755	True
+100789	True
+100827	True
+100849	True
+100869	True
+100887	True
+100929	True
+True
+100967	True
+101003	True
+101039	True
+101076	True
+101114	True
+101151	True
+101188	True
+101217	True
+101272	True
+101316	True
+101363	True
+101409	True
+101467	True
+101508	True
+101547	True
+101577	True
+101617	True
+101660	True
+101692	True
+101726	True
+101748	True
+101784	True
+101819	True
+101846	True
+101878	True
+101908	True
+101991	True
+102071	True
+102144	True
+102196	True
+102266	True
+102294	True
+102335	True
+102406	True
+102467	True
+102510	True
+True
+True
+102529	True
+102544	True
+102558	True
+102581	True
+102619	True
+102649	True
+102729	True
+102751	True
+102773	True
+102802	True
+102822	True
+102855	True
+102895	True
+102914	True
+102929	True
+102946	True
+103465	True
+103905	True
+104250	True
+True
+104299	True
+105143	True
+105174	True
+105205	True
+105236	True
+105267	True
+105295	True
+105326	True
+105351	True
+105383	True
+105412	True
+105437	True
+105462	True
+105489	True
+105510	True
+105529	True
+105547	True
+True
+105565	True
+105580	True
+105600	True
+105621	True
+105647	True
+105673	True
+105701	True
+105727	True
+105750	True
+105772	True
+105798	True
+106215	True
+106476	True
+106498	True
+106517	True
+106549	True
+106568	True
+106588	True
+106606	True
+106625	True
+106642	True
+106658	True
+106664	True
+106677	True
+106689	True
+106704	True
+106790	True
+106824	True
+106841	True
+107359	True
+107455	True
+107491	True
+107540	True
+107574	True
+107590	True
+107605	True
+True
+108070	True
+108645	True
+True
+108719	True
+108869	True
+108896	True
+108938	True
+109063	True
+109290	True
+109358	True
+True
+109383	True
+109410	True
+109442	True
+109472	True
+109506	True
+109538	True
+109569	True
+109602	True
+109634	True
+109667	True
+109699	True
+109722	True
+109746	True
+109789	True
+109800	True
+109921	True
+109949	True
+109977	True
+110004	True
+110024	True
+110051	True
+110077	True
+110099	True
+110120	True
+110142	True
+110169	True
+110191	True
+110213	True
+110238	True
+110267	True
+110298	True
+110331	True
+True
+110353	True
+110372	True
+110398	True
+110424	True
+110447	True
+110466	True
+110489	True
+110511	True
+110783	True
+110851	True
+True
+110968	True
+True
+111062	True
+True
+111119	True
+111303	True
+111510	True
+111520	True
+111774	True
+111801	True
+True
+111865	True
+112038	True
+112073	True
+112116	True
+112136	True
+112152	True
+112171	True
+112221	True
+112283	True
+112306	True
+112319	True
+112346	True
+112375	True
+True
+112505	True
+112616	True
+112791	True
+112858	True
+112908	True
+112956	True
+113058	True
+113102	True
+113146	True
+113198	True
+113341	True
+113550	True
+True
+113711	True
+113723	True
+113735	True
+113748	True
+113753	True
+113764	True
+113773	True
+113781	True
+113807	True
+113825	True
+113845	True
+113856	True
+113870	True
+113884	True
+113899	True
+114009	True
+True
+114139	True
+True
+114329	True
+114440	True
+True
+114663	True
+114760	True
+True
+114802	True
+114843	True
+114920	True
+114978	True
+115019	True
+115039	True
+115266	True
+115279	True
+115510	True
+True
+115744	True
+116100	True
+116209	True
+116430	True
+117220	True
+117251	True
+117284	True
+117310	True
+117337	True
+117364	True
+117394	True
+117424	True
+117455	True
+117484	True
+117538	True
+True
+117841	True
+True
+117865	True
+117884	True
+117910	True
+117932	True
+117953	True
+117975	True
+117999	True
+True
+118010	True
+118023	True
+118036	True
+118048	True
+True
+118109	True
+True
+118157	True
+True
+118258	True
+118294	True
+118326	True
+True
+118340	True
+118350	True
+118362	True
+118374	True
+True
+118502	True
+True
+118575	True
+119188	True
+119200	True
+119233	True
+119383	True
+119421	True
+119466	True
+119508	True
+119559	True
+119602	True
+119649	True
+119699	True
+119736	True
+119774	True
+119833	True
+True
+119874	True
+119996	True
+120055	True
+120118	True
+120164	True
+120224	True
+True
+120550	True
+True
+120715	True
+121044	True
+121173	True
+121919	True
+122009	True
+122033	True
+122116	True
+122339	True
+True
+122497	True
+True
+122691	True
+122888	True
+True
+123028	True
+123112	True
+True
+123178	True
+123251	True
+123287	True
+123324	True
+123359	True
+123387	True
+123400	True
+123528	True
+123877	True
+True
+124224	True
+124237	True
+124279	True
+124325	True
+True
+124374	True
+125075	True
+125106	True
+125173	True
+True
+125924	True
+126070	True
+126156	True
+126186	True
+126270	True
+126606	True
+True
+126752	True
+126869	True
+126941	True
+True
+True
+127042	True
+127058	True
+127122	True
+127221	True
+127295	True
+127473	True
+127636	True
+127770	True
+127916	True
+True
+128018	True
+129363	True
+129478	True
+129525	True
+129584	True
+130126	True
+131242	True
+True
+131414	True
+131652	True
+135104	True
+135283	True
+135319	True
+135358	True
+135637	True
+137136	True
+True
+137341	True
+138231	True
+138917	True
+138982	True
+139022	True
+139047	True
+139206	True
+139656	True
+139804	True
+139920	True
+140075	True
+True
+140387	True
+True
+140461	True
+True
+140513	True
+True
+140558	True
+True
+140694	True
+True
+140772	True
+True
+141192	True
+True
+141339	True
+True
+141427	True
+True
+141589	True
+141702	True
+141986	True
+142143	True
+142346	True
+True
+142393	True
+True
+142487	True
+142582	True
+144126	True
+145329	True
+True
+145413	True
+145983	True
+146142	True
+146469	True
+146625	True
+146815	True
+147017	True
+149505	True
+149626	True
+149670	True
+True
+149782	True
+True
+149887	True
+True
+149978	True
+True
+150000	True
+152271	True
+153224	True
+153252	True
+153321	True
+153561	True
+True
+153593	True
+154416	True
+154804	True
+154977	True
+154998	True
+True
+155039	True
+155132	True
+155281	True
+155355	True
+155395	True
+155436	True
+155475	True
+155560	True
+155607	True
+155626	True
+155642	True
+155837	True
+155983	True
+156033	True
+156452	True
+156483	True
+156533	True
+156544	True
+156569	True
+156745	True
+True
+156892	True
+156996	True
+157057	True
+157062	True
+157079	True
+157250	True
+157273	True
+157298	True
+157324	True
+157353	True
+157383	True
+157407	True
+157432	True
+157470	True
+157499	True
+157528	True
+157557	True
+157586	True
+157617	True
+157671	True
+157889	True
+158035	True
+158067	True
+158446	True
+158593	True
+True
+158618	True
+158852	True
+True
+158950	True
+158979	True
+159007	True
+159035	True
+159064	True
+159093	True
+159339	True
+159440	True
+159595	True
+159771	True
+True
+159916	True
+True
+159948	True
+159980	True
+160003	True
+160024	True
+160052	True
+160131	True
+160328	True
+160353	True
+160378	True
+160413	True
+160439	True
+160492	True
+160551	True
+160617	True
+160658	True
+160691	True
+True
+160787	True
+160832	True
+160873	True
+160911	True
+160955	True
+161009	True
+True
+161097	True
+161188	True
+True
+161262	True
+161316	True
+161368	True
+161411	True
+161688	True
+True
+161864	True
+161907	True
+161942	True
+161979	True
+162019	True
+162058	True
+162110	True
+162156	True
+162188	True
+162221	True
+162255	True
+162292	True
+162338	True
+162365	True
+162378	True
+162395	True
+162430	True
+162459	True
+162486	True
+162513	True
+162543	True
+162586	True
+162612	True
+162650	True
+162674	True
+162697	True
+162722	True
+162754	True
+162796	True
+162883	True
+162941	True
+163014	True
+163239	True
+163274	True
+163322	True
+163430	True
+163537	True
+163611	True
+True
+163703	True
+True
+163839	True
+164008	True
+164021	True
+164034	True
+164047	True
+True
+164105	True
+164556	True
+True
+164638	True
+True
+164699	True
+True
+164789	True
+True
+164828	True
+164877	True
+True
+164973	True
+165068	True
+True
+165111	True
+165161	True
+165167	True
+165180	True
+165194	True
+165218	True
+165234	True
+165250	True
+165268	True
+165276	True
+165285	True
+165293	True
+165300	True
+165309	True
+165316	True
+166143	True
+166282	True
+166674	True
+166688	True
+166703	True
+166760	True
+166785	True
+166841	True
+True
+166896	True
+166944	True
+167067	True
+167113	True
+True
+167299	True
+True
+167323	True
+167350	True
+167363	True
+167377	True
+167404	True
+167419	True
+167434	True
+167449	True
+167463	True
+167478	True
+167493	True
+167511	True
+167522	True
+167533	True
+167546	True
+167556	True
+167565	True
+167580	True
+167588	True
+167599	True
+167609	True
+167767	True
+167789	True
+167812	True
+167850	True
+167889	True
+167959	True
+168019	True
+168036	True
+168054	True
+168071	True
+168087	True
+168104	True
+168117	True
+168128	True
+168145	True
+168178	True
+168197	True
+True
+168246	True
+168277	True
+168303	True
+168324	True
+168826	True
+168872	True
+169043	True
+169159	True
+169163	True
+169205	True
+169215	True
+169299	True
+True
+169318	True
+169323	True
+169360	True
+169369	True
+169392	True
+169538	True
+169662	True
+169708	True
+170190	True
+170223	True
+170254	True
+170284	True
+170352	True
+170387	True
+170663	True
+170668	True
+170691	True
+170715	True
+170734	True
+170766	True
+171073	True
+171375	True
+171391	True
+171401	True
+171442	True
+171563	True
+True
+172034	True
+True
+172056	True
+172153	True
+172169	True
+172259	True
+172302	True
+172319	True
+172343	True
+172379	True
+172402	True
+172413	True
+172449	True
+True
+True
+172473	True
+172487	True
+172502	True
+172512	True
+172529	True
+172552	True
+172562	True
+172592	True
+172636	True
+172645	True
+172693	True
+172710	True
+172743	True
+172766	True
+172791	True
+173141	True
+173169	True
+173388	True
+173501	True
+True
+173635	True
+173742	True
+True
+173797	True
+174013	True
+174091	True
+174148	True
+True
+True
+174191	True
+174218	True
+True
+174248	True
+True
+174347	True
+174454	True
+174461	True
+174511	True
+True
+174549	True

@@ -1,0 +1,86 @@
+@node
+@dataset=cuc
+@datasetName=Copenhagen Ugarit Corpus
+@description=KTU catalogue citation supplied by the source edition
+@licence=Creative Commons Attribution-NonCommercial 4.0 International License
+@licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
+@valueType=str
+@version=0.4.0
+@writtenBy=Text-Fabric
+@dateWritten=2026-11-18T22:05:55+00:00Z
+
+186028	KTU 9.495
+KTU 9.493
+KTU 9.484
+KTU 9.450
+KTU 9.446
+KTU 9.463
+KTU 9.464
+KTU 9.465
+186037	KTU 9.475
+KTU 9.501
+KTU 9.506
+KTU 9.523
+KTU 9.508
+186043	KTU 9.478
+KTU 9.443
+KTU 9.482
+KTU 9.492
+KTU 9.528
+KTU 9.490
+KTU 9.457
+KTU 9.476
+KTU 9.483
+KTU 9.485
+KTU 9.473
+KTU 9.486
+KTU 9.504
+KTU 9.472
+KTU 9.479
+KTU 9.477
+KTU 9.488
+KTU 9.459
+KTU 9.467
+KTU 9.480
+KTU 9.509
+186065	KTU 9.449
+KTU 9.487
+KTU 9.460
+186069	KTU 9.496
+KTU 9.499
+KTU 9.526
+KTU 9.462
+KTU 9.500
+186075	KTU 9.456
+KTU 9.453
+KTU 9.452
+KTU 8.32
+KTU 9.448
+KTU 9.439
+KTU 9.440
+KTU 9.441
+KTU 8.31
+186085	KTU 9.444
+KTU 9.445
+KTU 9.447
+KTU 9.451
+KTU 9.454
+KTU 9.455
+186096	KTU 9.497
+186098	KTU 9.502
+KTU 9.503
+KTU 9.510
+KTU 9.511
+KTU 9.512
+KTU 9.513
+KTU 9.515
+KTU 9.516
+KTU 9.517
+KTU 9.518
+KTU 9.519
+KTU 9.520
+KTU 9.521
+KTU 9.522
+KTU 9.524
+KTU 9.525
+KTU 9.527

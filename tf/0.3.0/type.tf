@@ -7,7 +7,7 @@
 @valueType=str
 @version=0.3.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-05T15:29:57+00:00Z
+@dateWritten=2026-11-18T16:58:02+00:00Z
 
 empty
 empty
@@ -72,9 +72,6 @@ gap
 gap
 gap
 gap
-gap
-gap
-gap
 cons
 sep
 sep
@@ -100,6 +97,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 cons
@@ -110,7 +108,6 @@ cons
 cons
 cons
 cons
-gap
 gap
 gap
 gap
@@ -180,6 +177,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 sep
 sep
@@ -204,6 +202,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -262,6 +261,7 @@ sep
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -298,6 +298,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -315,6 +316,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -322,6 +324,7 @@ sep
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -602,6 +605,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -641,6 +645,7 @@ cons
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -704,8 +709,9 @@ gap
 gap
 gap
 gap
+gap
 unreadable
-editorial
+empty
 empty
 cons
 cons
@@ -902,6 +908,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -945,6 +952,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -957,6 +965,7 @@ cons
 sep
 sep
 cons
+gap
 gap
 gap
 gap
@@ -1439,23 +1448,18 @@ cons
 cons
 cons
 cons
-gap
-gap
-gap
 gap
 gap
 gap
 gap
 gap
 gap
-gap
 cons
 cons
 gap
 gap
 cons
 cons
-gap
 gap
 gap
 cons
@@ -1572,6 +1576,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -1627,10 +1632,12 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
 sep
+gap
 gap
 gap
 gap
@@ -1674,6 +1681,7 @@ gap
 gap
 gap
 gap
+gap
 empty
 empty
 cons
@@ -1760,6 +1768,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 cons
@@ -1770,6 +1779,7 @@ sep
 sep
 cons
 cons
+gap
 gap
 gap
 gap
@@ -1843,6 +1853,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -1886,6 +1897,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -1902,6 +1914,7 @@ cons
 sep
 sep
 unreadable
+gap
 gap
 gap
 gap
@@ -1967,6 +1980,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 cons
@@ -1984,6 +1998,7 @@ cons
 sep
 sep
 unreadable
+gap
 gap
 gap
 gap
@@ -2077,6 +2092,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 cons
@@ -2118,6 +2134,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -2136,6 +2153,7 @@ cons
 cons
 sep
 divider
+gap
 gap
 gap
 gap
@@ -2195,6 +2213,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -2230,6 +2249,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 cons
@@ -2243,6 +2263,7 @@ sep
 sep
 cons
 cons
+gap
 gap
 gap
 gap
@@ -2312,6 +2333,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -2354,6 +2376,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -2374,6 +2397,7 @@ gap
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -2436,6 +2460,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -2448,6 +2473,7 @@ sep
 sep
 cons
 cons
+gap
 gap
 gap
 gap
@@ -2521,6 +2547,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -2563,6 +2590,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -2572,6 +2600,7 @@ cons
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -2724,6 +2753,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -2767,6 +2797,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 sep
@@ -2776,6 +2807,7 @@ cons
 cons
 sep
 divider
+gap
 gap
 gap
 gap
@@ -2858,6 +2890,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -2881,8 +2914,6 @@ gap
 cons
 cons
 cons
-gap
-gap
 gap
 gap
 gap
@@ -2893,8 +2924,6 @@ gap
 gap
 gap
 gap
-gap
-gap
 cons
 cons
 cons
@@ -2966,6 +2995,7 @@ gap
 gap
 gap
 gap
+gap
 empty
 empty
 gap
@@ -3003,6 +3033,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 cons
 gap
@@ -3043,10 +3074,9 @@ cons
 cons
 gap
 gap
-cons
-cons
-cons
-cons
+gap
+gap
+gap
 gap
 gap
 gap
@@ -3062,6 +3092,11 @@ gap
 gap
 gap
 gap
+cons
+cons
+cons
+cons
+gap
 gap
 cons
 cons
@@ -3143,6 +3178,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 cons
@@ -3181,6 +3217,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 sep
 sep
@@ -3193,6 +3230,7 @@ cons
 sep
 cons
 cons
+gap
 gap
 gap
 gap
@@ -3263,9 +3301,8 @@ cons
 cons
 gap
 gap
-gap
-gap
 cons
+gap
 gap
 cons
 cons
@@ -3315,10 +3352,9 @@ cons
 cons
 cons
 gap
-gap
-gap
 cons
 cons
+gap
 gap
 gap
 gap
@@ -3383,6 +3419,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 sep
 sep
@@ -3429,6 +3466,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 sep
@@ -3447,7 +3485,6 @@ cons
 gap
 cons
 cons
-gap
 gap
 gap
 gap
@@ -3472,14 +3509,13 @@ gap
 gap
 gap
 gap
-gap
-gap
 cons
 cons
 sep
 sep
 cons
 cons
+gap
 gap
 gap
 gap
@@ -3559,6 +3595,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 sep
@@ -3576,6 +3613,8 @@ cons
 cons
 cons
 cons
+gap
+gap
 gap
 gap
 gap
@@ -3600,6 +3639,10 @@ gap
 gap
 gap
 gap
+gap
+gap
+gap
+gap
 cons
 cons
 cons
@@ -3614,6 +3657,7 @@ sep
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -3784,6 +3828,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -3828,6 +3873,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -3839,6 +3885,7 @@ cons
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -3966,6 +4013,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -4007,6 +4055,7 @@ gap
 gap
 cons
 gap
+gap
 cons
 cons
 sep
@@ -4021,6 +4070,7 @@ cons
 sep
 cons
 cons
+gap
 gap
 gap
 gap
@@ -4100,6 +4150,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 sep
@@ -4116,6 +4167,7 @@ cons
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -4194,6 +4246,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 unreadable
 unreadable
@@ -36054,7 +36107,9 @@ gap
 gap
 gap
 gap
+gap
 cons
+gap
 gap
 gap
 gap
@@ -36104,6 +36159,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 cons
@@ -73951,8 +74007,10 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 unreadable
+gap
 gap
 gap
 gap
@@ -73962,6 +74020,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 sep
@@ -73980,6 +74039,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -73989,6 +74049,7 @@ sep
 cons
 sep
 cons
+gap
 cons
 cons
 cons
@@ -74010,6 +74071,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -74019,6 +74081,7 @@ cons
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -74051,6 +74114,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -74070,6 +74134,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 cons
@@ -74082,6 +74147,7 @@ sep
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -74116,6 +74182,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -74174,11 +74241,13 @@ gap
 gap
 gap
 gap
+gap
 empty
 empty
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -74215,6 +74284,7 @@ gap
 gap
 gap
 gap
+gap
 empty
 empty
 gap
@@ -74556,6 +74626,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 gap
@@ -76449,6 +76520,7 @@ sep
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -76739,8 +76811,11 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
+gap
+gap
 gap
 gap
 gap
@@ -76774,6 +76849,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 gap
@@ -76786,7 +76862,9 @@ gap
 gap
 gap
 gap
+gap
 unreadable
+gap
 gap
 gap
 gap
@@ -76865,6 +76943,7 @@ cons
 cons
 cons
 gap
+gap
 cons
 cons
 cons
@@ -77202,6 +77281,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 unreadable
 gap
@@ -79850,6 +79930,7 @@ sep
 sep
 cons
 cons
+gap
 gap
 gap
 gap
@@ -79882,6 +79963,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 sep
 cons
@@ -79944,7 +80026,9 @@ gap
 gap
 gap
 gap
+gap
 cons
+gap
 gap
 gap
 gap
@@ -88556,11 +88640,13 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
 sep
 divider
+gap
 gap
 gap
 gap
@@ -88597,6 +88683,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 gap
 gap
@@ -88616,7 +88703,9 @@ gap
 gap
 gap
 gap
+gap
 cons
+gap
 gap
 gap
 gap
@@ -88677,6 +88766,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 gap
 gap
@@ -88696,6 +88786,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 unreadable
 unreadable
@@ -92029,6 +92120,7 @@ gap
 gap
 gap
 unreadable
+gap
 gap
 gap
 gap
@@ -92068,6 +92160,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 gap
 gap
@@ -92089,6 +92182,7 @@ gap
 gap
 gap
 gap
+gap
 empty
 empty
 cons
@@ -95189,6 +95283,7 @@ cons
 cons
 sep
 cons
+gap
 gap
 gap
 gap
@@ -95405,6 +95500,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 sep
 sep
@@ -95426,6 +95522,7 @@ cons
 cons
 cons
 empty
+gap
 gap
 gap
 gap
@@ -95478,6 +95575,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -95517,6 +95615,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -95533,6 +95632,7 @@ cons
 cons
 cons
 empty
+gap
 gap
 gap
 gap
@@ -95604,6 +95704,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -95631,6 +95732,7 @@ gap
 gap
 gap
 gap
+gap
 empty
 empty
 unreadable
@@ -95722,6 +95824,7 @@ sep
 sep
 cons
 cons
+gap
 gap
 gap
 gap
@@ -95759,11 +95862,10 @@ cons
 cons
 cons
 gap
-gap
-gap
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -95776,6 +95878,8 @@ gap
 gap
 gap
 gap
+gap
+gap
 empty
 cons
 sep
@@ -95850,6 +95954,7 @@ gap
 gap
 gap
 gap
+gap
 empty
 cons
 sep
@@ -95886,6 +95991,7 @@ gap
 gap
 gap
 gap
+gap
 empty
 cons
 cons
@@ -108583,6 +108689,7 @@ cons
 sep
 gap
 empty
+gap
 gap
 gap
 gap
@@ -108595,6 +108702,7 @@ gap
 gap
 gap
 gap
+gap
 empty
 gap
 unreadable
@@ -110953,6 +111061,7 @@ cons
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -110987,6 +111096,7 @@ cons
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -111544,6 +111654,9 @@ sep
 sep
 cons
 sep
+gap
+gap
+gap
 gap
 gap
 gap
@@ -111827,6 +111940,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 cons
 cons
@@ -111853,6 +111967,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 gap
@@ -117030,6 +117145,7 @@ gap
 gap
 empty
 empty
+gap
 gap
 gap
 gap
@@ -117042,6 +117158,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 gap
 gap
@@ -117066,6 +117183,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 gap
 gap
@@ -117108,6 +117226,7 @@ cons
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -124332,6 +124451,7 @@ gap
 gap
 gap
 gap
+gap
 unreadable
 gap
 gap
@@ -124383,6 +124503,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 cons
 cons
@@ -147930,6 +148051,7 @@ cons
 cons
 cons
 cons
+gap
 gap
 gap
 gap
@@ -148120,6 +148242,7 @@ gap
 gap
 gap
 gap
+gap
 cons
 sep
 divider
@@ -158008,7 +158131,9 @@ gap
 gap
 gap
 gap
+gap
 cons
+gap
 gap
 gap
 gap
@@ -165674,7 +165799,7 @@ gap
 gap
 gap
 empty
-176283	lexical
+176408	lexical
 lexical
 lexical
 lexical
@@ -165780,7 +165905,6 @@ gap
 lexical
 unreadable
 unreadable
-editorial
 lexical
 lexical
 lexical

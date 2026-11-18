@@ -6,13 +6,33 @@ import pytest
 from tf.fabric import Fabric
 
 
+_LOADED = {}
+
+
+def load(version):
+    if version not in _LOADED:
+        root = Path(__file__).resolve().parents[1] / "tf" / version
+        tf = Fabric(locations=str(root), silent="deep")
+        result = tf.loadAll(silent="deep")
+        assert result
+        _LOADED[version] = result
+    return _LOADED[version]
+
+
+@pytest.fixture(scope="module", params=["0.3.0", "0.4.0"])
+def api(request):
+    """Checks every release since 0.3.0 must pass."""
+    return load(request.param)
+
+
 @pytest.fixture(scope="module")
-def api():
-    root = Path(__file__).resolve().parents[1] / "tf/0.3.0"
-    tf = Fabric(locations=str(root), silent="deep")
-    result = tf.loadAll(silent="deep")
-    assert result
-    return result
+def api030():
+    return load("0.3.0")
+
+
+@pytest.fixture(scope="module")
+def api040():
+    return load("0.4.0")
 
 
 def test_every_non_slot_node_is_reachable_and_anchors_have_no_visible_text(api):
@@ -88,3 +108,149 @@ def test_431_short_alphabet_letters_are_distinct_single_slots(api):
             assert letter in F.g_cons.v(L.u(slot, "word")[0])
     assert not F.sign.s("\u0304")
     assert not F.sign.s("\u0331")
+
+
+def test_language_follows_ktu3_tablet_and_line_range_statements(api):
+    F, L = api.F, api.L
+
+    def tablet(name):
+        return next(n for n in F.otype.s("tablet") if F.tablet.v(n) == name)
+
+    def languages(name, first=None, last=None):
+        return {
+            F.language.v(word)
+            for line in L.d(tablet(name), "line")
+            if first is None or first <= F.line.v(line) <= last
+            for word in L.d(line, "word")
+        }
+
+    assert languages("KTU 1.1") == {"Ugaritic"}
+    assert languages("KTU 1.26") == {"Hurrian"}
+    assert languages("KTU 1.67") == {"Akkadian"}
+    assert languages("KTU 1.148", 13, 17) == {"Hurrian"}
+    assert languages("KTU 1.148", 1, 12) == languages("KTU 1.148", 18, 45) == {"Ugaritic"}
+    assert languages("KTU 1.73", 1, 7) == {"Akkadian"}
+    assert languages("KTU 1.73", 8, 18) == {"Ugaritic"}
+    assert languages("KTU 1.111", 1, 13) == {None}
+    assert languages("KTU 1.111", 14, 99) == {"Ugaritic"}
+    assert languages("KTU 1.116") == languages("KTU 1.132") == {None}
+    assert languages("KTU 5.24") == {None}
+
+
+def test_030_language_counts(api030):
+    F = api030.F
+    assert set(F.language.freqList()) == {("Ugaritic", 29813), ("Hurrian", 640), ("Akkadian", 129)}
+
+
+def test_tablet_language_states_ktu3_for_the_whole_tablet(api):
+    F = api.F
+    by_tablet = {F.tablet.v(t): F.tablet_language.v(t) for t in F.otype.s("tablet")}
+    assert by_tablet["KTU 1.1"] == "Ugaritic"
+    assert by_tablet["KTU 1.26"] == "Hurrian"
+    assert by_tablet["KTU 1.67"] == "Akkadian"
+    assert by_tablet["KTU 1.73"] == "Akkadian and Ugaritic"
+    for name in ("KTU 1.111", "KTU 1.116", "KTU 1.132", "KTU 1.148"):
+        assert by_tablet[name] == "Hurrian and Ugaritic"
+    assert by_tablet["KTU 5.24"] is None
+
+
+def test_030_tablet_language_counts(api030):
+    assert dict(api030.F.tablet_language.freqList()) == {
+        "Ugaritic": 322, "Hurrian": 10, "Akkadian": 2,
+        "Hurrian and Ugaritic": 4, "Akkadian and Ugaritic": 1}
+
+
+def test_validator_recovery_turns_ktu_11_ii_28_into_a_break(api):
+    F, L, T = api.F, api.L, api.T
+    column = T.nodeFromSection(("KTU 1.1", "II"))
+    labels = [F.line_label.v(line) for line in L.d(column, "line")]
+    assert "28" not in labels and "27" in labels
+    line27 = T.nodeFromSection(("KTU 1.1", "II", "27"))
+    after27 = [b for b in L.d(column, "boundary") if api.E.boundary_prev.f(b) == (line27,)]
+    assert [F.boundary_kind.v(b) for b in after27] == ["break"]
+
+
+# --- 0.4.0 ---------------------------------------------------------------
+
+KTU_ADDED_040 = {"KTU 1.32", "KTU 1.33"} | {
+    "KTU 4.%d" % n for n in range(42, 63) if n not in (52, 59)}
+RIH_HELD_040 = {  # RIH II texts left out of 0.4.0 (docs/release-0.4.0.md)
+    "RIH 83/02", "RIH 2002/01", "RIH 97/01 + 97/02", "RIH 84/09", "RIH 83/05",
+    "RIH 83/16", "RIH 84/05", "RIH 83/47 + 83/51 + 83/56", "RIH 89/01",
+    "RIH 84/[31,08]"}
+
+
+def _tablets(api):
+    return {api.F.tablet.v(t): t for t in api.F.otype.s("tablet")}
+
+
+def test_040_keeps_every_030_tablet_and_adds_111_texts(api030, api040):
+    old, new = _tablets(api030), _tablets(api040)
+    assert set(old) <= set(new)
+    added = set(new) - set(old)
+    assert len(added) == 111
+    F = api040.F
+    rih = {name for name in added if F.rih.v(new[name])}
+    assert len(rih) == 90
+    assert added - rih == KTU_ADDED_040
+    assert not {"KTU 1.34", "KTU 4.52", "KTU 4.59", "KTU 4.63", "KTU 4.100"} & set(new)
+    assert not RIH_HELD_040 & {F.rih.v(new[name]) for name in rih}
+    counts = {kind: len(F.otype.s(kind)) for kind in
+              ("sign", "word", "line", "column", "tablet", "boundary", "alias")}
+    assert counts == {"sign": 174549, "word": 32602, "line": 9535, "column": 531,
+                      "tablet": 453, "boundary": 1409, "alias": 3}
+    assert len(F.synthetic.s("True")) == 1413
+
+
+def test_040_rih_texts_carry_their_citations_and_no_language(api040):
+    F, L = api040.F, api040.L
+    rih = [t for t in F.otype.s("tablet") if F.rih.v(t)]
+    assert len(rih) == 90
+    for t in rih:
+        assert F.source_edition.v(t) == "RIH II"
+        assert F.tablet.v(t) == (F.ktu.v(t) or F.rih.v(t))
+        assert F.tablet_language.v(t) is None
+        assert not any(F.language.v(w) for w in L.d(t, "word"))
+    assert sum(1 for t in rih if F.ktu.v(t)) == 75
+    for t in F.otype.s("tablet"):
+        if not F.rih.v(t):
+            assert F.source_edition.v(t) is None and F.ktu.v(t) is None
+    # RIH 83/08 (KTU 9.463) line 1 `yṯpṭ 16`: the integer is an annotation.
+    line1 = api040.T.nodeFromSection(("KTU 9.463", "I", "1"))
+    assert F.number.v(line1) == 16
+    assert len([n for n in F.otype.s("line") if F.number.v(n)]) == 30
+    ticks = [n for n in F.otype.s("line") if F.line_mark.v(n)]
+    assert {F.tablet.v(L.u(n, "tablet")[0]) for n in ticks} == {"KTU 9.484"}
+    assert sorted(F.line_mark_cert.v(n) for n in ticks).count("True") == 22
+
+
+def test_040_language_counts_and_new_hurrian_texts(api040):
+    F, L = api040.F, api040.L
+    tablets = _tablets(api040)
+    for name in ("KTU 1.32", "KTU 1.33"):
+        assert F.tablet_language.v(tablets[name]) == "Hurrian"
+        assert {F.language.v(w) for w in L.d(tablets[name], "word")} == {"Hurrian"}
+    assert set(F.language.freqList()) == {("Ugaritic", 30431), ("Hurrian", 657), ("Akkadian", 129)}
+    assert dict(F.tablet_language.freqList()) == {
+        "Ugaritic": 341, "Hurrian": 12, "Akkadian": 2,
+        "Hurrian and Ugaritic": 4, "Akkadian and Ugaritic": 1}
+
+
+def test_040_changes_in_030_tablets_are_the_ktu_14_and_131_reviews(api030, api040):
+    def lines(api, name):
+        F, L, T = api.F, api.L, api.T
+        tablet = _tablets(api)[name]
+        return {(F.column.v(c), F.line_label.v(l)): T.text(l)
+                for c in L.d(tablet, "column") for l in L.d(c, "line")}
+
+    old_names = set(_tablets(api030))
+    changed = {name for name in old_names
+               if lines(api030, name) != lines(api040, name)}
+    assert changed == {"KTU 1.4", "KTU 1.31"}
+    old14, new14 = lines(api030, "KTU 1.4"), lines(api040, "KTU 1.4")
+    assert set(old14) == set(new14)
+    assert (old14[("II", "11")], new14[("II", "11")]) == ("tġzy . bny . bnwt", "tġẓy . bny . bnwt")
+    assert new14[("I", "5")] == "il . abh . il mlk"
+    old131, new131 = lines(api030, "KTU 1.31"), lines(api040, "KTU 1.31")
+    assert all(len(new131[k]) == len(old131[k]) + 5 for k in old131)
+

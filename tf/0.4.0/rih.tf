@@ -1,0 +1,101 @@
+@node
+@dataset=cuc
+@datasetName=Copenhagen Ugarit Corpus
+@description=RIH scholarly text citation; not physical object identity
+@licence=Creative Commons Attribution-NonCommercial 4.0 International License
+@licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
+@valueType=str
+@version=0.4.0
+@writtenBy=Text-Fabric
+@dateWritten=2026-11-18T22:05:55+00:00Z
+
+186028	RIH 84/20
+RIH 84/12
+RIH 83/50 + 83/54
+RIH 80/02
+RIH 79/06
+RIH 83/08
+RIH 83/09
+RIH 83/10
+RIH 83/20C
+RIH 83/25 + 83/46
+RIH 84/[31,02]
+RIH 84/[31,07]
+RIH 84/[31,24]
+RIH 84/[31,09]
+RIH 94/01
+RIH 83/42 + 83/43
+RIH 79/01
+RIH 83/48
+RIH 84/11
+RIH 87/01
+RIH 84/07
+RIH 83/01
+RIH 83/26 + 83/27 + 83/40
+RIH 83/49
+RIH 83/52
+RIH 83/20 + 83/29
+RIH 83/53
+RIH 84/[31,05]
+RIH 83/18
+RIH 83/44
+RIH 83/39 + 83/55
+RIH 84/03
+RIH 83/03
+RIH 83/13
+RIH 83/45
+RIH 84/[31,10]
+RIH 2001/01
+RIH 79/10
+RIH 84/01
+RIH 83/04
+RIH 88/01
+RIH 84/24
+RIH 84/[30A]
+RIH 84/[31,27]
+RIH 83/06
+RIH 84/[31,01]
+RIH 86/02
+RIH 82/01
+RIH 80/05
+RIH 80/04
+RIH 77/14B
+RIH 79/08
+RIH 77/08B
+RIH 77/10C
+RIH 77/10D
+RIH 77/12
+RIH 78/13B
+RIH 79/02
+RIH 79/04[A]
+RIH 79/07
+RIH 80/03
+RIH 81/02
+RIH 81/03
+RIH 83/20A
+RIH 83/20B
+RIH 83/20D
+RIH 83/20E
+RIH 84/14[A]
+RIH 84/25
+RIH 84/[30B]
+RIH 84/[31,03]
+RIH 84/[31,04]
+RIH 84/[31,11]
+RIH 84/[31,12]
+RIH 84/[31,13]
+RIH 84/[31,14]
+RIH 84/[31,16]
+RIH 84/[31,17]
+RIH 84/[31,18]
+RIH 84/[31,19]
+RIH 84/[31,20]
+RIH 84/[31,21]
+RIH 84/[31,22]
+RIH 84/[31,23]
+RIH 84/[31,25]
+RIH 84/[31,26]
+RIH 84/[31,29]
+RIH 86/[03]
+RIH 95/01
+RIH 98/01
