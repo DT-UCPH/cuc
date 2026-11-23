@@ -27,8 +27,8 @@ which has no continuation backslash before `hd`.
 
 0.4.0 is built on top of the 0.3.0 that restores word `language`, adds
 `tablet_language` and applies the KTU Validator recovery (DT-UCPH/cuc#45). Of
-its 342 tablets, 336 keep their text unchanged; how they are divided into words
-changes in 107 of them (decision 2 below).
+its 342 tablets, 336 match in the line-and-sign comparison. That comparison
+includes certainty. Word segmentation is measured separately below.
 
 ## Coverage
 
@@ -320,10 +320,14 @@ numbering, not a language.
 **2. A lost stretch after a word.** When a word's last letters are restored and
 the same brackets go on with a wholly lost stretch, as in `m[lk     ]`, the
 stretch is now a gap word of its own. 0.3.0 did this only in KTU 1.106 I 9,
-where Word happened to have a no-break space after the bracket. Gap words rise
-from 669 to 938: 239 more in 107 tablets whose sources did not change, the rest
-in the reviewed KTU 1.1, 1.5 and 1.6. No sign is added or removed and the text
-reads the same; only the division into words changes.
+where Word had a no-break space after the bracket. Relative to the initial
+0.4.0 build, gap words rise from 669 to 938. The split accounts for 239 more
+gap words in 107 tablets whose sources stayed the same. The remaining net
+change comes from the KTU 1.1, 1.5 and 1.6 reviews. The split applies to
+lacuna padding retained by the parser, with or without a no-break space after
+the bracket. The parser still drops an ordinary space immediately before a
+line-final closing bracket. On 12 lines in the frozen KTU inputs, that space
+is the only padding.
 
 **3. Footnote markers are not part of the corpus.** A break or ruling printed
 with a footnote marker, such as `…⁶⁾` after KTU 1.6 IV 28, used to keep the
@@ -332,11 +336,17 @@ was. 0.4.0 has no footnote marker in any feature. The same correction is made
 in 0.3.0, where 24 `boundary_source` values change; nothing else in 0.3.0
 changes.
 
+**4. Surfaces and certainty.** An unmarked KTU surface is recorded as
+`surface=obv.` with `surface_cert=True`. A questioned reverse (`rev.?`)
+is recorded as `surface=rev.` with `surface_cert=False`. The `cert` feature
+on a sign records the editor's confidence in the reading. The separate
+`emen` feature records restoration or editorial supply. A restored or
+supplied reading can be certain.
+
 ## Changes within previously published tablets
 
-336 of the 342 tablets of 0.3.0 keep the same lines, signs, spacing and
-features; decision 2 changes how 107 of them are divided into words. Six
-change in content:
+The line-and-sign comparison finds changes in six of the 342 tablets from
+0.3.0. KTU 1.1 changes in certainty alone.
 
 | Tablet | Lines changed | Lines removed | Signs + / − | Spacing slots | `cert` | `emen` | `cont` |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -400,8 +410,8 @@ footnote markers. Every review new in 0.4.0 was checked for the symptoms:
   where it was installed (KTU 1.1 on 6 November, the others on 23 November).
   KTU 4.38's review changes only Word formatting, not the data.
 
-Footnote markers do not reach the published text, so a re-inserted marker
-cannot change the data.
+The converter strips footnote markers from running text and from
+`boundary_source`.
 
 ## Validation and tests
 
@@ -423,5 +433,7 @@ own frozen sources with its own converter plus only the marker fix (branch
 - The CUC release tests check 0.4.0 as they check 0.3.0, plus the additions,
   the RIH features, RIH II's `Ugaritic` on RIH texts, the changed tablets
   (KTU 1.1, 1.4, 1.5, 1.6, 1.31, 4.31), both editorial decisions, and the
-  absence of footnote markers from every feature of 0.3.0 and 0.4.0: 36
-  passed. The general test that no `x` is certain runs on 0.4.0.
+  absence of footnote markers from node features of both versions.
+  The 40 passing tests also check surface attribution and certainty inside
+  editorial brackets. Independent rebuilds reproduced all 37 TF files for
+  0.3.0 and all 46 for 0.4.0 apart from write timestamps.

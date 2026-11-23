@@ -1,5 +1,6 @@
 """Read the published TF through its normal API and validate its new semantics."""
 
+from collections import Counter
 from pathlib import Path
 
 import pytest
@@ -81,6 +82,20 @@ def test_boundary_anchors_and_edges_stay_within_their_column(api):
                     assert max(E.oslots.s(line)) < slot
                 else:
                     assert min(E.oslots.s(line)) > slot
+
+
+def test_ktu_surface_defaults_to_obverse_and_records_a_questioned_reverse(api):
+    F, T = api.F, api.T
+    obverse = T.nodeFromSection(("KTU 1.2", "I", "1"))
+    reverse = T.nodeFromSection(("KTU 1.172", "I", "17"))
+    assert (F.surface.v(obverse), F.surface_cert.v(obverse)) == ("obv.", "True")
+    assert (F.surface.v(reverse), F.surface_cert.v(reverse)) == ("rev.", "False")
+
+
+def test_restoration_and_editorial_supply_can_be_certain(api):
+    F = api.F
+    certain_statuses = {F.emen.v(slot) for slot in F.cert.s("True")}
+    assert {"restored", "missing"} <= certain_statuses
 
 
 def test_section_addresses_are_unique_and_empty_1150_has_no_fabricated_line(api):
@@ -279,8 +294,8 @@ def test_040_ktu_431_short_alphabet_reads_t_and_h_and_keeps_its_spelling(api040)
     tablet = _tablets(api040)["KTU 4.31"]
     sources = [(F.sign.v(s), F.usign.v(s), F.sign_source.v(s))
                for s in L.d(tablet, "sign") if F.sign_source.v(s)]
-    assert sorted(set(sources)) == [("ḫ", "𐎃", "ẖ"), ("ṯ", "𐎘", "s̄")]
-    assert len(sources) == 21
+    assert Counter(sources) == {("ḫ", "𐎃", "ẖ"): 7, ("ṯ", "𐎘", "s̄"): 14}
+    assert sum(1 for _ in F.sign_source.items()) == 21
     assert not F.sign.s("s̄") and not F.sign.s("ẖ")
     assert _lines(api040, "KTU 4.31")[("I", "2")].startswith("b ṯṯ ʿṯr ṯmn . rqḫ")
 
@@ -303,7 +318,14 @@ def test_040_a_lost_stretch_after_a_word_is_a_gap_word(api030, api040):
         return [(F.g_cons.v(w), F.type.v(w)) for w in L.d(line, "word")][-2:]
     assert words(api030)[-1] == ("bn", "lexical")
     assert words(api040) == [("bn", "lexical"), ("", "gap")]
-    F = api040.F
+    F, L, T = api040.F, api040.L, api040.T
+    address = ("KTU 4.24", "I", "5")
+    line = T.nodeFromSection(address)
+    gap = L.d(line, "word")[-1]
+    slots = L.d(gap, "sign")
+    assert len(slots) == 10
+    assert all(F.type.v(slot) == "gap" and F.synthetic.v(slot) is None for slot in slots)
+    assert T.text(line) == api030.T.text(api030.T.nodeFromSection(address))
     assert sum(1 for w in F.otype.s("word") if F.type.v(w) == "gap") == 938
 
 

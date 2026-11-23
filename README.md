@@ -71,6 +71,7 @@ The texts are annotated with the following features:
 - line_label: line number as printed
 - line: line number as an integer
 - surface: tablet surface of the inscription (obverse, reverse, edges)
+- surface_cert: the editor's certainty about the surface attribution
 - g_cons: a consonantal representation of each word in Latin script
 - trailer: a representation of word spacing or word dividers
 - language: language of the word (Ugaritic, Hurrian or Akkadian)
@@ -79,7 +80,7 @@ The texts are annotated with the following features:
 - sign_source: the original spelling where a letter is normalised (the short alphabet of KTU 4.31)
 - usign: letter in Ugaritic script
 - emen: emendations of various sorts in relation to a sign (including reconstructed, missing, excised, or redundant signs/letters)
-- cert: certainty of the text in relation to a sign (corresponding to the italic of KTU)
+- cert: the editor's confidence in the reading, including restored or supplied readings
 - cont: marking of line continuation in between lines
 - alt: alternative reading
 - boundary: breaks and scribal rulings between lines
