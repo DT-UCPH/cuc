@@ -29,12 +29,12 @@ their reference versions. KTU 1.125 and the corrected KTU 5.24 are included.
 RIH II conversion is supported by the converter but **no RIH tablets are
 published in this release**. No Akkadian-language tablet is newly added.
 
-The language labels below describe the texts. The word feature `language`
-and the tablet feature `tablet_language` carry the same statements (see
-[Words](#words)); it is the language of the
-text at that point, taken from KTU³, not a judgement about each word. In
-particular, Sumerograms in an Ugaritic text do not make the whole tablet
-Sumerian or Akkadian.
+The language labels below describe the texts. `tablet_language` is the
+language of a tablet and `language` the language of a word (see
+[Words](#words)). In 0.3.0 every word takes the language KTU³ states for its
+tablet or line range; no word has yet been labelled on its own. In particular,
+Sumerograms in an Ugaritic text do not make the whole tablet Sumerian or
+Akkadian.
 
 | Newly available tablet | Language or text type | Retained lines |
 | --- | --- | ---: |
@@ -187,8 +187,9 @@ node features in this dataset.
 | `utrailer` | Unicode counterpart of the word trailer. This word-level summary remains available although display reconstruction now uses slot-level `after/uafter`. |
 | `trailer_emen` | Editorial state at an actual trailer. A word with no trailer no longer inherits an unrelated bracket state. Restored trailers on newly split words are derived at their own divider position. |
 
-`language` (word) is the language of the text at this word as KTU³ states it in
-the SR: or Ge: field of its apparatus, per tablet or per line range. In 0.2.8
+`language` (word) is the language of the word. In 0.3.0 it is the language
+KTU³ states for the word's tablet or line range in the SR: or Ge: field of its
+apparatus. In 0.2.8
 it was the constant `Ugaritic` on every word, which mislabeled the Hurrian and
 Akkadian texts. A KTU text that KTU³ does not mark otherwise is `Ugaritic`.
 Where KTU³ calls a passage "Hurrian and Ugaritic" without saying which word is
@@ -205,8 +206,8 @@ is absent.
 | absent (mixed passage, to be labelled) | 194 | KTU 1.111 lines 1–13 (obverse), 1.116, 1.132 |
 | absent (no language) | 66 | KTU 5.24 and 5.27 (alphabets), KTU 7.191 (unclassified fragment) |
 
-The value is not a word-level judgement: a Hurrian divine name in an Ugaritic
-line is `Ugaritic`, because KTU³ says nothing about it. KTU 1.108's note on a
+No word has a label of its own yet, so a Hurrian divine name in an Ugaritic
+line is `Ugaritic` in 0.3.0: KTU³ says nothing about it. KTU 1.108's note on a
 Hurrian(?) sign in line 9 concerns one sign, and the "translation of an
 Akkadian letter?" of several KTU 2 letters describes Ugaritic texts; neither
 changes the value.

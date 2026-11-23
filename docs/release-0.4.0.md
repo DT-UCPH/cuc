@@ -213,8 +213,16 @@ they are included.
 
 ## Languages
 
-`language` and `tablet_language` carry the language KTU³ states in the SR:
-or Ge: field of a KTU text, as in 0.3.0. KTU³ does not contain the RIH texts,
+`tablet_language` is the language of a tablet and `language` the language of
+a word. A word takes the language of its tablet, or of its line where a line
+range has its own, unless the word has been given a language of its own. In
+0.4.0 no word has one yet, so every value still comes from a statement about
+the text. Words can now be labelled one by one, for example the Hurrian and
+Ugaritic words of the mixed passages in KTU 1.111, 1.116 and 1.132, once the
+editors have decided them.
+
+For KTU texts the statements are those of the SR: or Ge: field in KTU³, as in
+0.3.0. KTU³ does not contain the RIH texts,
 not even the 75 with a KTU 9.x number, so by the editors' decision they take
 RIH II's own statement. RIH II has no per-text language field, but it divides
 the volume. Its table of contents sets texts 1–153 under "Première partie ...
@@ -228,9 +236,9 @@ No RIH transcription writes an Akkadian logogram. The 90 texts have no
 `logogram` word or sign, and none of the 106 RIH II transcriptions has a
 capitalised sign group in a line. RIH II names logograms only in its
 commentary, when it cites syllabic parallels such as `{DINGIR.U}` in RS 16.241.
-In KTU the only logograms are the five Sumerograms of KTU 4.38, which are
-`Ugaritic` like the rest of that text: `language` is the language of the text,
-not a judgement about each word.
+In KTU the only logograms are the five Sumerograms of KTU 4.38. They are
+`Ugaritic` for now, like the rest of that text, because none of its words has
+been given a language of its own.
 
 | `language` | Words in 0.3.0 | Words in 0.4.0 | Texts |
 | --- | ---: | ---: | --- |

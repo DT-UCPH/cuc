@@ -1,13 +1,13 @@
 @node
 @dataset=cuc
 @datasetName=Copenhagen Ugarit Corpus
-@description=language of the text at this word as KTU³ states it for the tablet or line range (SR:/Ge:); absent where KTU³ assigns none or assigns two languages to the passage without saying which word is which (see tablet_language; BN-44)
+@description=language of the word: its own where the editors have labelled the word, otherwise that of its tablet or line range as KTU³ states it (SR:/Ge:), or as RIH II states it for a Ras Ibn Hani text; absent where none is assigned, or where a passage is given two languages without saying which word is which (see tablet_language)
 @licence=Creative Commons Attribution-NonCommercial 4.0 International License
 @licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-23T14:41:09+00:00Z
+@dateWritten=2026-11-23T15:34:19+00:00Z
 
 186481	Ugaritic
 Ugaritic

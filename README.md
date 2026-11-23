@@ -73,7 +73,8 @@ The texts are annotated with the following features:
 - surface: tablet surface of the inscription (obverse, reverse, edges)
 - g_cons: a consonantal representation of each word in Latin script
 - trailer: a representation of word spacing or word dividers
-- language: language of the text (Ugaritic, Hurrian or Akkadian)
+- language: language of the word (Ugaritic, Hurrian or Akkadian)
+- tablet_language: language of the tablet as a whole
 - sign: letter in Latin script
 - usign: letter in Ugaritic script
 - emen: emendations of various sorts in relation to a sign (including reconstructed, missing, excised, or redundant signs/letters)
