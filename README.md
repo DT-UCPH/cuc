@@ -33,9 +33,13 @@ For queries, use `line_label` for a line's printed address, `surface` and
 `surface_cert` for surface attribution, `type` to distinguish letters and lexical
 words from gaps, numbers and editorial content, and `emen`, `cert`, `alt` and
 `cont` for text-critical information. `g_cons` is a consonantal word reading;
-`sign/after` and `usign/uafter` reconstruct the two text formats. The former
-constant `language=Ugaritic` feature is retired because it mislabels Hurrian and
-mixed-language texts.
+`sign/after` and `usign/uafter` reconstruct the two text formats. `language`
+gives the language KTU³ states for the text at each word (`Ugaritic`,
+`Hurrian` or `Akkadian`), per tablet or line range; in 0.2.8 it was the
+constant `Ugaritic`. Words of a passage KTU³ calls "Hurrian and Ugaritic"
+without dividing it have no value yet; the editors will label them.
+`tablet_language` gives KTU³'s statement for the whole tablet, including
+mixed values such as `Hurrian and Ugaritic`.
 
 Older TF versions remain available. Node numbers are version-specific; use
 tablet, column and line addresses when comparing releases.
