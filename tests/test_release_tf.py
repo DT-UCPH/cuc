@@ -202,15 +202,17 @@ def test_040_keeps_every_030_tablet_and_adds_111_texts(api030, api040):
     assert len(F.synthetic.s("True")) == 1413
 
 
-def test_040_rih_texts_carry_their_citations_and_no_language(api040):
+def test_040_rih_texts_carry_their_citations_and_rih_iis_language(api040):
     F, L = api040.F, api040.L
     rih = [t for t in F.otype.s("tablet") if F.rih.v(t)]
     assert len(rih) == 90
     for t in rih:
         assert F.source_edition.v(t) == "RIH II"
         assert F.tablet.v(t) == (F.ktu.v(t) or F.rih.v(t))
-        assert F.tablet_language.v(t) is None
-        assert not any(F.language.v(w) for w in L.d(t, "word"))
+        # RIH II: texts 1-153 are "Les textes ougaritiques" (BN-47)
+        assert F.tablet_language.v(t) == "Ugaritic"
+        assert {F.language.v(w) for w in L.d(t, "word")} == {"Ugaritic"}
+        assert not any(F.type.v(n) == "logogram" for n in L.d(t, "word") + L.d(t, "sign"))
     assert sum(1 for t in rih if F.ktu.v(t)) == 75
     for t in F.otype.s("tablet"):
         if not F.rih.v(t):
@@ -230,9 +232,9 @@ def test_040_language_counts_and_new_hurrian_texts(api040):
     for name in ("KTU 1.32", "KTU 1.33"):
         assert F.tablet_language.v(tablets[name]) == "Hurrian"
         assert {F.language.v(w) for w in L.d(tablets[name], "word")} == {"Hurrian"}
-    assert set(F.language.freqList()) == {("Ugaritic", 30431), ("Hurrian", 657), ("Akkadian", 129)}
+    assert set(F.language.freqList()) == {("Ugaritic", 31556), ("Hurrian", 657), ("Akkadian", 129)}
     assert dict(F.tablet_language.freqList()) == {
-        "Ugaritic": 341, "Hurrian": 12, "Akkadian": 2,
+        "Ugaritic": 431, "Hurrian": 12, "Akkadian": 2,
         "Hurrian and Ugaritic": 4, "Akkadian and Ugaritic": 1}
 
 

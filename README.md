@@ -46,8 +46,9 @@ without dividing it have no value yet; the editors will label them.
 mixed values such as `Hurrian and Ugaritic`.
 RIH texts carry their RIH II citation in `rih`, their KTU number (where they
 have one) in `ktu`, and `source_edition=RIH II`; their `tablet` is the KTU
-number or else the RIH citation. They have no `language` or `tablet_language`,
-because KTU³'s statements do not cover them. `surface_source` keeps RIH II's
+number or else the RIH citation. Their `language` and `tablet_language` are
+`Ugaritic`, from RIH II, which sets all its alphabetic texts under "Les textes
+ougaritiques"; KTU³ does not contain them. `surface_source` keeps RIH II's
 French surface headings.
 
 Older TF versions remain available. Node numbers are version-specific; use

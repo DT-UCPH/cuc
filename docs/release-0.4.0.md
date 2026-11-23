@@ -213,23 +213,35 @@ they are included.
 
 ## Languages
 
-`language` and `tablet_language` work as in 0.3.0: they carry the language
-KTU³ states in the SR: or Ge: field of a KTU text. RIH texts get neither
-feature, including the 75 that have a KTU number: KTU³ does not contain the
-KTU 9.x texts, and the converter does not take a language from RIH II. Whether
-RIH texts should get a language from their own edition is an open question
-for the editors.
+`language` and `tablet_language` carry the language KTU³ states in the SR:
+or Ge: field of a KTU text, as in 0.3.0. KTU³ does not contain the RIH texts,
+not even the 75 with a KTU 9.x number, so by the editors' decision they take
+RIH II's own statement. RIH II has no per-text language field, but it divides
+the volume. Its table of contents sets texts 1–153 under "Première partie ...
+Les textes ougaritiques" and 154–168 under "Deuxième partie ... Les textes
+suméro-akkadiens", and its back cover describes the texts as "en langue
+ougaritique et en suméro-akkadien". All 90 RIH texts here are among 1–153, the
+alphabetic texts; the syllabic ones are not in the corpus. Every RIH text is
+therefore `Ugaritic`, on its words and on its tablet.
+
+No RIH transcription writes an Akkadian logogram. The 90 texts have no
+`logogram` word or sign, and none of the 106 RIH II transcriptions has a
+capitalised sign group in a line. RIH II names logograms only in its
+commentary, when it cites syllabic parallels such as `{DINGIR.U}` in RS 16.241.
+In KTU the only logograms are the five Sumerograms of KTU 4.38, which are
+`Ugaritic` like the rest of that text: `language` is the language of the text,
+not a judgement about each word.
 
 | `language` | Words in 0.3.0 | Words in 0.4.0 | Texts |
 | --- | ---: | ---: | --- |
-| `Ugaritic` | 29,813 | 30,431 | all other KTU texts |
+| `Ugaritic` | 29,813 | 31,556 | all other KTU texts, and the 1,125 words of the 90 RIH texts |
 | `Hurrian` | 640 | 657 | as in 0.3.0, plus KTU 1.32 and 1.33 |
 | `Akkadian` | 129 | 129 | KTU 1.67, 1.69; KTU 1.73 lines 1–7 |
-| absent | 260 | 1,385 | as in 0.3.0 (mixed passages and texts without a stated language), plus the 1,125 words of the 90 RIH texts |
+| absent | 260 | 260 | as in 0.3.0: mixed passages and texts without a stated language |
 
-`tablet_language`: `Ugaritic` 341, `Hurrian` 12, `Hurrian and Ugaritic` 4,
-`Akkadian` 2, `Akkadian and Ugaritic` 1; absent on KTU 5.24, 5.27, 7.191 and the
-90 RIH texts.
+`tablet_language`: `Ugaritic` 431 (341 KTU, 90 RIH), `Hurrian` 12, `Hurrian and
+Ugaritic` 4, `Akkadian` 2, `Akkadian and Ugaritic` 1; absent on KTU 5.24, 5.27
+and 7.191.
 
 ## Features
 
@@ -315,15 +327,15 @@ cannot change the data.
 The 0.4.0 sources were frozen from the 0.3.0 source set (342 KTU documents),
 23 finished KTU reviews and 90 RIH II transcriptions, with a hash of every
 input. The build is a full rebuild with the converter at
-alexsosn/CUC-doc-TF-converter branch `codex/release-040` (commit 2965774); no TF file was edited
+alexsosn/CUC-doc-TF-converter branch `codex/release-040` (commit b95da78); no TF file was edited
 by hand.
 
-- Converter test suite: 1,059 passed, 10 skipped.
+- Converter test suite: 1,062 passed, 10 skipped.
 - Source lint: only the three findings already present in 0.3.0 (KTU 1.66
   marker a⁾ without footnote; one-sided brackets in KTU 4.24:2 and 4.41:5).
 - Serialized-corpus lint: no findings.
 - `cuc-convert diff` against 0.3.0: 340 tablets unchanged, 2 changed, 111 new,
   none gone.
 - The CUC release tests check 0.4.0 as they check 0.3.0, plus the additions,
-  the RIH features, the absence of language on RIH texts and the KTU 1.4/1.31
+  the RIH features, RIH II's `Ugaritic` on RIH texts and the KTU 1.4/1.31
   changes: 30 passed. The general test that no `x` is certain runs on 0.4.0.
