@@ -1,13 +1,13 @@
 @node
 @dataset=cuc
 @datasetName=Copenhagen Ugarit Corpus
-@description=certainty of sign
+@description=editorial certainty about the reading, independent of emendation
 @licence=Creative Commons Attribution-NonCommercial 4.0 International License
 @licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-18T22:05:55+00:00Z
+@dateWritten=2026-11-23T21:18:34+00:00Z
 
 
 True
@@ -5078,7 +5078,7 @@ False
 True
 
 
-True
+False
 True
 True
 
@@ -28425,7 +28425,6 @@ True
 True
 
 
-
 True
 True
 True
@@ -28462,8 +28461,8 @@ True
 False
 
 
-True
-True
+False
+False
 
 
 True
@@ -28525,7 +28524,6 @@ True
 False
 
 
-
 True
 True
 True
@@ -28711,7 +28709,7 @@ False
 False
 False
 False
-28925	False
+28923	False
 False
 False
 False
@@ -28719,6 +28717,7 @@ False
 
 
 False
+
 
 
 
@@ -28732,6 +28731,7 @@ False
 
 
 
+
 False
 False
 True
@@ -28744,6 +28744,7 @@ True
 
 
 False
+
 
 
 
@@ -28755,6 +28756,7 @@ False
 
 
 
+
 True
 True
 True
@@ -28768,6 +28770,7 @@ True
 True
 False
 False
+
 
 
 
@@ -28780,6 +28783,7 @@ False
 
 
 
+
 True
 
 
@@ -28791,6 +28795,7 @@ True
 True
 True
 False
+
 
 
 
@@ -28833,6 +28838,7 @@ True
 
 
 
+
 True
 True
 True
@@ -28845,6 +28851,7 @@ True
 
 
 False
+
 
 
 
@@ -28884,6 +28891,7 @@ True
 
 
 
+
 True
 True
 
@@ -28896,6 +28904,9 @@ True
 True
 False
 False
+
+
+
 
 
 
@@ -28929,6 +28940,8 @@ False
 
 
 
+
+
 True
 True
 True
@@ -28939,6 +28952,8 @@ True
 True
 True
 False
+
+
 
 
 
@@ -28977,6 +28992,8 @@ True
 
 
 
+
+
 True
 True
 True
@@ -29002,6 +29019,7 @@ False
 
 
 
+
 True
 True
 True
@@ -29012,6 +29030,7 @@ True
 True
 False
 False
+
 
 
 
@@ -29021,6 +29040,7 @@ False
 
 
 
+
 True
 
 True
@@ -29030,6 +29050,7 @@ True
 True
 True
 False
+
 
 
 
@@ -29073,6 +29094,7 @@ True
 
 
 
+
 True
 True
 True
@@ -29081,6 +29103,7 @@ True
 True
 True
 False
+
 
 
 
@@ -29098,6 +29121,7 @@ False
 
 
 
+
 True
 True
 True
@@ -29106,6 +29130,7 @@ True
 True
 True
 False
+
 
 
 
@@ -29123,6 +29148,7 @@ False
 
 
 
+
 True
 True
 
@@ -29134,6 +29160,7 @@ True
 True
 True
 False
+
 
 
 
@@ -29220,6 +29247,8 @@ False
 
 
 
+
+
 True
 
 True
@@ -29245,6 +29274,7 @@ False
 
 
 
+
 False
 True
 True
@@ -29255,6 +29285,7 @@ True
 True
 
 False
+
 
 
 
@@ -29294,6 +29325,8 @@ False
 
 
 
+
+
 True
 True
 
@@ -29318,6 +29351,7 @@ False
 
 
 
+
 True
 True
 True
@@ -29328,6 +29362,7 @@ True
 True
 False
 False
+
 
 
 
@@ -29343,6 +29378,7 @@ False
 
 
 
+
 False
 False
 True
@@ -29352,6 +29388,7 @@ True
 
 True
 True
+
 
 
 
@@ -29375,6 +29412,8 @@ True
 
 True
 False
+
+
 
 
 
@@ -29420,6 +29459,7 @@ False
 
 
 
+
 False
 False
 
@@ -29443,7 +29483,7 @@ False
 
 
 
-29659	False
+29699	False
 False
 False
 
@@ -29452,7 +29492,6 @@ False
 False
 False
 False
-
 
 
 
@@ -29466,8 +29505,6 @@ False
 True
 False
 False
-
-
 
 
 
@@ -29509,8 +29546,6 @@ True
 
 
 
-
-
 True
 True
 True
@@ -29519,8 +29554,6 @@ True
 True
 True
 False
-
-
 
 
 
@@ -29540,10 +29573,8 @@ True
 
 
 True
-True
 False
-
-
+False
 
 
 
@@ -29575,7 +29606,6 @@ False
 
 
 
-
 True
 
 
@@ -29586,7 +29616,6 @@ True
 True
 True
 False
-
 
 
 
@@ -29599,8 +29628,8 @@ False
 
 
 
-
 True
+
 
 True
 True
@@ -29620,14 +29649,6 @@ True
 
 
 
-
-
-
-
-
-
-
-
 True
 True
 True
@@ -29650,9 +29671,6 @@ False
 
 
 
-
-
-
 True
 
 True
@@ -29662,7 +29680,6 @@ True
 
 
 False
-
 
 
 
@@ -29675,7 +29692,6 @@ False
 
 
 
-
 True
 True
 True
@@ -29683,7 +29699,6 @@ True
 
 
 False
-
 
 
 
@@ -29699,7 +29714,6 @@ False
 
 
 
-
 False
 True
 True
@@ -29709,7 +29723,6 @@ False
 False
 False
 False
-
 
 
 
@@ -30037,7 +30050,7 @@ False
 
 
 
-30255	False
+30268	False
 False
 False
 False
@@ -30523,7 +30536,7 @@ False
 False
 False
 False
-30743	False
+30756	False
 False
 False
 False
@@ -31123,7 +31136,7 @@ False
 False
 False
 False
-31344	False
+False
 
 True
 True
@@ -31515,7 +31528,6 @@ True
 True
 True
 True
-
 False
 True
 True
@@ -32124,7 +32136,7 @@ True
 True
 False
 
-False
+True
 False
 
 
@@ -32273,7 +32285,7 @@ True
 True
 
 
-False
+True
 True
 True
 True
@@ -32306,6 +32318,7 @@ True
 True
 True
 
+
 True
 True
 True
@@ -32335,10 +32348,10 @@ True
 True
 
 
-True
 True
 True
 True
+False
 
 True
 True
@@ -32399,7 +32412,7 @@ False
 True
 True
 True
-32621	False
+32633	False
 False
 False
 False
@@ -32563,7 +32576,7 @@ True
 True
 True
 False
-True
+False
 True
 
 True
@@ -33117,7 +33130,7 @@ True
 True
 True
 True
-33341	True
+33353	True
 
 False
 False
@@ -33268,8 +33281,8 @@ True
 True
 
 
-False
 False
+True
 False
 False
 True
@@ -33556,10 +33569,10 @@ True
 False
 
 
+True
 True
 True
 True
-33784	True
 True
 
 
@@ -33606,7 +33619,7 @@ True
 True
 
 
-True
+False
 True
 True
 
@@ -33915,8 +33928,8 @@ True
 True
 
 
-True
-True
+False
+False
 False
 True
 
@@ -33983,15 +33996,13 @@ False
 
 
 
-True
+False
 True
 True
 False
 
 
 False
-
-
 
 
 
@@ -34030,9 +34041,7 @@ False
 
 
 
-
 False
-
 
 
 
@@ -34058,9 +34067,7 @@ False
 
 
 
-
 False
-
 
 
 
@@ -34086,10 +34093,10 @@ False
 
 
 
+34317	True
 True
 True
 True
-True
 
 
 True
@@ -34415,7 +34422,7 @@ True
 True
 
 
-False
+True
 False
 False
 
@@ -34551,7 +34558,6 @@ True
 True
 False
 False
-
 
 
 
@@ -34584,12 +34590,8 @@ False
 
 
 
-
-
 False
 False
-
-
 
 
 
@@ -34613,11 +34615,7 @@ False
 
 
 
-
-
 False
-
-
 
 
 
@@ -34643,8 +34641,7 @@ False
 
 
 
-
-False
+34866	False
 False
 False
 False
@@ -34869,7 +34866,7 @@ True
 True
 True
 True
-True
+False
 True
 True
 True
@@ -35186,7 +35183,7 @@ False
 
 
 False
-False
+True
 False
 
 
@@ -35223,7 +35220,7 @@ False
 True
 True
 False
-True
+False
 
 
 False
@@ -35559,7 +35556,7 @@ True
 True
 True
 True
-35785	True
+35782	True
 False
 False
 
@@ -36103,7 +36100,7 @@ True
 
 
 False
-36330	False
+36327	False
 False
 False
 True
@@ -36769,7 +36766,7 @@ False
 
 
 
-36997	
+36994	
 
 
 
@@ -37086,13 +37083,13 @@ False
 
 
 
-37315	False
+37312	False
 
 False
 False
 False
 True
-37322	False
+37319	False
 
 
 
@@ -37343,7 +37340,7 @@ True
 
 
 
-37575	False
+37572	False
 True
 True
 True
@@ -37700,7 +37697,7 @@ False
 
 
 
-37933	
+37930	
 
 
 
@@ -38171,7 +38168,7 @@ False
 
 
 False
-38406	
+38403	
 
 
 
@@ -38906,7 +38903,7 @@ False
 False
 False
 True
-39142	False
+39139	False
 False
 False
 False
@@ -39979,7 +39976,7 @@ False
 
 False
 False
-40217	
+40214	
 
 
 
@@ -40467,7 +40464,7 @@ True
 False
 True
 True
-40707	
+40704	
 
 
 
@@ -41669,12 +41666,12 @@ True
 True
 False
 False
-41910	
+41907	
 False
 False
 
 
-41916	False
+41913	False
 False
 False
 False
@@ -41692,7 +41689,7 @@ True
 True
 True
 
-41935	False
+41932	False
 False
 
 
@@ -41716,7 +41713,7 @@ True
 True
 True
 
-41960	False
+41957	False
 
 
 True
@@ -41737,7 +41734,7 @@ True
 True
 True
 
-41982	False
+41979	False
 True
 True
 
@@ -41758,7 +41755,7 @@ True
 True
 True
 
-42004	False
+42001	False
 True
 
 
@@ -41778,7 +41775,7 @@ True
 True
 True
 
-42025	True
+42022	True
 True
 True
 
@@ -41796,7 +41793,7 @@ True
 True
 True
 
-42044	False
+42041	False
 
 True
 True
@@ -41814,7 +41811,7 @@ True
 True
 True
 
-42063	True
+42060	True
 
 True
 True
@@ -41833,7 +41830,7 @@ True
 True
 True
 
-42083	True
+42080	True
 True
 
 
@@ -41852,7 +41849,7 @@ True
 True
 True
 
-42103	True
+42100	True
 True
 
 
@@ -41876,7 +41873,7 @@ False
 False
 False
 
-42128	False
+42125	False
 True
 True
 
@@ -41898,7 +41895,7 @@ True
 False
 True
 
-42151	False
+42148	False
 True
 True
 True
@@ -41921,7 +41918,7 @@ False
 True
 True
 
-42175	False
+42172	False
 False
 False
 True
@@ -41963,7 +41960,7 @@ True
 True
 True
 
-42218	True
+42215	True
 False
 False
 False
@@ -41987,7 +41984,7 @@ True
 True
 True
 
-42243	True
+42240	True
 True
 
 
@@ -42093,7 +42090,7 @@ False
 False
 
 
-42350	True
+42347	True
 True
 True
 True
@@ -42143,7 +42140,7 @@ True
 False
 
 
-42401	True
+42398	True
 
 True
 True
@@ -42161,7 +42158,7 @@ False
 False
 
 
-42420	True
+42417	True
 
 True
 
@@ -42184,7 +42181,7 @@ True
 False
 
 
-42444	True
+42441	True
 True
 True
 
@@ -42204,7 +42201,7 @@ True
 False
 True
 
-42465	True
+42462	True
 True
 False
 
@@ -42223,7 +42220,7 @@ True
 True
 True
 
-42485	True
+42482	True
 True
 True
 True
@@ -42244,7 +42241,7 @@ True
 True
 True
 
-42507	True
+42504	True
 False
 False
 
@@ -42266,7 +42263,7 @@ True
 True
 
 
-42530	True
+42527	True
 True
 True
 
@@ -42288,7 +42285,7 @@ False
 False
 
 
-42553	True
+42550	True
 True
 True
 True
@@ -42313,7 +42310,7 @@ True
 False
 
 
-42579	True
+42576	True
 True
 True
 False
@@ -42334,7 +42331,7 @@ True
 True
 True
 
-42601	False
+42598	False
 False
 False
 
@@ -42354,7 +42351,7 @@ True
 False
 False
 
-42622	True
+42619	True
 False
 False
 
@@ -42377,7 +42374,7 @@ False
 True
 True
 
-42646	True
+42643	True
 False
 False
 False
@@ -42399,7 +42396,7 @@ False
 False
 False
 
-42669	True
+42666	True
 False
 False
 
@@ -42416,13 +42413,13 @@ False
 False
 True
 
-42687	
+42684	
 False
 
 
 False
 
-42694	False
+42691	False
 
 False
 False
@@ -44047,7 +44044,7 @@ True
 
 True
 True
-44320	False
+44317	False
 True
 
 
@@ -46447,7 +46444,7 @@ False
 False
 False
 True
-46721	False
+46718	False
 False
 
 
@@ -47028,7 +47025,7 @@ False
 
 False
 False
-47303	True
+47300	True
 False
 False
 
@@ -47145,7 +47142,7 @@ True
 
 True
 True
-47422	False
+47419	False
 False
 False
 False
@@ -47636,7 +47633,7 @@ False
 False
 False
 False
-47915	False
+47912	False
 False
 False
 False
@@ -48088,7 +48085,7 @@ False
 False
 False
 False
-48369	False
+48366	False
 
 
 
@@ -48503,7 +48500,7 @@ False
 False
 False
 False
-48785	False
+48782	False
 False
 False
 False
@@ -48937,7 +48934,7 @@ False
 False
 False
 False
-49220	True
+49217	True
 False
 False
 
@@ -49102,7 +49099,7 @@ False
 False
 False
 False
-49387	False
+49384	False
 
 False
 True
@@ -50117,7 +50114,7 @@ False
 False
 False
 True
-50403	False
+50400	False
 False
 False
 False
@@ -51001,7 +50998,7 @@ False
 False
 False
 
-51288	True
+51285	True
 True
 True
 
@@ -51265,7 +51262,7 @@ False
 False
 False
 False
-51554	False
+51551	False
 True
 
 
@@ -51550,7 +51547,7 @@ False
 False
 True
 True
-51840	True
+51837	True
 False
 False
 
@@ -52438,7 +52435,7 @@ False
 
 
 
-52729	False
+52726	False
 False
 
 True
@@ -53438,7 +53435,7 @@ True
 True
 True
 True
-53730	False
+53727	False
 False
 False
 False
@@ -54528,7 +54525,7 @@ True
 False
 False
 False
-54822	False
+54819	False
 False
 False
 
@@ -55474,7 +55471,7 @@ False
 False
 False
 False
-55774	False
+55771	False
 False
 False
 False
@@ -56235,7 +56232,7 @@ False
 False
 False
 False
-56537	False
+56534	False
 False
 False
 False
@@ -57692,7 +57689,7 @@ False
 False
 False
 False
-57995	False
+57992	False
 False
 False
 
@@ -58544,7 +58541,7 @@ False
 False
 False
 False
-58853	False
+58850	False
 False
 False
 False
@@ -65004,7 +65001,7 @@ False
 
 
 
-65315	
+65312	
 
 
 
@@ -65341,7 +65338,7 @@ False
 
 
 
-65658	
+65655	
 
 
 
@@ -65366,7 +65363,7 @@ False
 
 
 
-65686	False
+65683	False
 False
 False
 False
@@ -66043,7 +66040,7 @@ False
 False
 False
 False
-66364	False
+66361	False
 False
 
 
@@ -66692,7 +66689,7 @@ False
 
 
 
-67017	False
+67014	False
 
 
 
@@ -66763,7 +66760,7 @@ False
 
 
 
-67089	False
+67086	False
 True
 True
 True
@@ -66931,7 +66928,7 @@ True
 True
 True
 True
-67258	True
+67255	True
 True
 
 
@@ -67026,7 +67023,7 @@ True
 True
 True
 True
-67354	True
+67351	True
 True
 True
 True
@@ -67059,7 +67056,7 @@ True
 True
 True
 True
-67388	True
+67385	True
 
 
 True
@@ -67170,7 +67167,7 @@ False
 False
 False
 True
-67500	True
+67497	True
 True
 True
 True
@@ -67235,7 +67232,7 @@ True
 
 
 
-67566	False
+67563	False
 False
 True
 True
@@ -67275,7 +67272,7 @@ True
 
 
 
-67607	True
+67604	True
 True
 True
 True
@@ -67308,7 +67305,7 @@ True
 
 
 
-67641	True
+67638	True
 True
 True
 False
@@ -67426,7 +67423,7 @@ False
 False
 False
 False
-67760	False
+67757	False
 True
 
 
@@ -67459,7 +67456,7 @@ False
 False
 False
 True
-67794	
+67791	
 False
 False
 False
@@ -69898,7 +69895,7 @@ True
 True
 True
 True
-70234	False
+70231	False
 False
 False
 
@@ -70264,7 +70261,7 @@ False
 
 
 False
-70602	
+70599	
 
 
 
@@ -70458,7 +70455,7 @@ True
 
 
 
-70798	
+70795	
 
 
 
@@ -70542,7 +70539,7 @@ True
 
 
 
-70884	
+70881	
 
 
 
@@ -70558,7 +70555,7 @@ False
 
 
 
-70901	
+70898	
 
 
 
@@ -70607,7 +70604,7 @@ True
 
 
 
-70953	
+70950	
 
 
 
@@ -70631,7 +70628,7 @@ True
 
 False
 False
-70978	
+70975	
 
 
 
@@ -70643,7 +70640,7 @@ False
 
 True
 False
-70992	False
+70989	False
 False
 False
 False
@@ -70927,7 +70924,7 @@ False
 
 
 
-71278	
+71275	
 
 
 
@@ -70987,7 +70984,7 @@ True
 False
 
 
-71340	
+71337	
 
 
 
@@ -71049,7 +71046,7 @@ False
 
 
 
-71404	
+71401	
 
 
 
@@ -71096,7 +71093,7 @@ True
 
 
 
-71452	
+71449	
 
 
 
@@ -71145,7 +71142,7 @@ False
 
 
 
-71502	
+71499	
 
 
 
@@ -71167,7 +71164,7 @@ True
 
 
 
-71526	False
+71523	False
 
 False
 
@@ -71209,7 +71206,7 @@ False
 
 
 
-71570	
+71567	
 
 
 
@@ -71264,7 +71261,7 @@ False
 
 
 
-71626	
+71623	
 
 
 
@@ -71315,7 +71312,7 @@ True
 
 
 
-71678	
+71675	
 
 
 
@@ -71342,7 +71339,7 @@ False
 
 
 
-71708	
+71705	
 
 
 
@@ -71392,7 +71389,7 @@ False
 
 
 
-71760	
+71757	
 
 
 
@@ -71420,7 +71417,7 @@ True
 
 
 
-71790	True
+71787	True
 True
 True
 
@@ -72017,7 +72014,7 @@ True
 True
 True
 True
-72389	
+72386	
 
 
 
@@ -72155,7 +72152,7 @@ True
 
 
 
-72528	
+72525	
 
 
 
@@ -72271,7 +72268,7 @@ False
 False
 
 False
-72645	False
+72642	False
 
 False
 False
@@ -72649,7 +72646,7 @@ True
 True
 
 True
-73024	
+73021	
 
 
 
@@ -73009,7 +73006,7 @@ True
 True
 
 True
-73385	True
+73382	True
 
 
 True
@@ -73431,7 +73428,7 @@ True
 
 True
 True
-73808	True
+73805	True
 
 
 True
@@ -73811,7 +73808,7 @@ False
 
 False
 False
-74189	True
+74186	True
 
 True
 True
@@ -73857,7 +73854,7 @@ False
 False
 False
 False
-74236	True
+74233	True
 
 True
 True
@@ -75128,7 +75125,7 @@ False
 False
 False
 True
-75508	True
+75505	True
 False
 
 
@@ -75418,7 +75415,7 @@ True
 True
 True
 True
-75799	True
+75796	True
 True
 True
 
@@ -75503,7 +75500,7 @@ False
 True
 True
 True
-75885	True
+75882	True
 False
 False
 
@@ -75621,7 +75618,7 @@ True
 True
 True
 True
-76004	False
+76001	False
 False
 False
 
@@ -75676,7 +75673,7 @@ True
 True
 True
 True
-76060	True
+76057	True
 True
 True
 
@@ -75786,7 +75783,7 @@ True
 True
 True
 True
-76171	True
+76168	True
 False
 False
 
@@ -75867,7 +75864,7 @@ True
 True
 True
 True
-76253	True
+76250	True
 True
 True
 
@@ -75949,7 +75946,7 @@ True
 True
 True
 True
-76336	True
+76333	True
 True
 True
 
@@ -76025,7 +76022,7 @@ True
 True
 True
 True
-76413	True
+76410	True
 True
 True
 
@@ -76084,7 +76081,7 @@ False
 False
 False
 False
-76473	True
+76470	True
 True
 True
 
@@ -76161,7 +76158,7 @@ False
 True
 True
 True
-76551	True
+76548	True
 True
 True
 
@@ -76223,7 +76220,7 @@ False
 False
 True
 False
-76614	False
+76611	False
 False
 True
 
@@ -76293,7 +76290,7 @@ True
 True
 True
 True
-76685	True
+76682	True
 True
 False
 
@@ -76353,7 +76350,7 @@ True
 True
 True
 
-76746	True
+76743	True
 True
 True
 
@@ -76421,7 +76418,7 @@ True
 True
 True
 True
-76815	True
+76812	True
 True
 True
 
@@ -76492,7 +76489,7 @@ True
 True
 False
 False
-76887	True
+76884	True
 True
 True
 
@@ -76635,7 +76632,7 @@ True
 True
 True
 True
-77031	True
+77028	True
 True
 True
 
@@ -76920,7 +76917,7 @@ True
 True
 True
 
-77317	True
+77314	True
 True
 True
 
@@ -77083,7 +77080,7 @@ True
 True
 
 True
-77481	False
+77478	False
 
 False
 
@@ -77100,7 +77097,7 @@ True
 True
 True
 
-77499	False
+77496	False
 False
 
 
@@ -77118,7 +77115,7 @@ True
 True
 True
 
-77518	False
+77515	False
 
 
 False
@@ -77139,7 +77136,7 @@ True
 True
 True
 
-77540	False
+77537	False
 False
 
 
@@ -77157,7 +77154,7 @@ True
 True
 True
 
-77559	False
+77556	False
 
 False
 
@@ -77171,7 +77168,7 @@ True
 True
 True
 
-77574	False
+77571	False
 False
 False
 
@@ -77189,7 +77186,7 @@ True
 True
 True
 
-77593	True
+77590	True
 True
 True
 
@@ -77208,7 +77205,7 @@ True
 True
 True
 
-77613	True
+77610	True
 True
 True
 
@@ -77505,7 +77502,7 @@ False
 False
 False
 True
-77911	
+77908	
 
 
 
@@ -78111,7 +78108,7 @@ True
 True
 True
 True
-78518	
+78515	
 
 
 
@@ -78517,7 +78514,7 @@ True
 True
 True
 True
-78925	
+78922	
 
 
 
@@ -78785,7 +78782,7 @@ False
 
 
 False
-79194	
+79191	
 
 
 
@@ -79029,7 +79026,7 @@ False
 
 
 
-79440	True
+79437	True
 False
 False
 
@@ -79070,7 +79067,7 @@ True
 
 
 
-79483	
+79480	
 
 
 
@@ -79366,7 +79363,7 @@ False
 
 
 
-79780	True
+79777	True
 True
 False
 
@@ -79382,7 +79379,7 @@ True
 
 
 
-79797	True
+79794	True
 True
 
 
@@ -79391,7 +79388,7 @@ True
 
 
 
-79807	True
+79804	True
 True
 False
 
@@ -79423,7 +79420,7 @@ True
 
 
 
-79840	True
+79837	True
 True
 
 
@@ -79431,14 +79428,14 @@ True
 
 
 
-79849	False
+79846	False
 True
 False
 
 
 
 
-79858	False
+79855	False
 
 
 
@@ -79449,7 +79446,7 @@ False
 
 
 
-79870	True
+79867	True
 False
 False
 
@@ -79463,7 +79460,7 @@ False
 
 
 
-79885	True
+79882	True
 False
 False
 
@@ -79477,7 +79474,7 @@ False
 False
 False
 
-79900	True
+79897	True
 True
 True
 
@@ -79489,7 +79486,7 @@ True
 False
 
 
-79913	True
+79910	True
 True
 True
 
@@ -79500,7 +79497,7 @@ True
 
 True
 True
-79925	True
+79922	True
 True
 True
 
@@ -79520,7 +79517,7 @@ False
 
 
 
-79946	True
+79943	True
 True
 True
 
@@ -79627,7 +79624,7 @@ True
 True
 True
 True
-80054	True
+80051	True
 True
 True
 True
@@ -79645,7 +79642,7 @@ False
 True
 True
 False
-80073	
+80070	
 
 
 
@@ -79868,7 +79865,7 @@ False
 
 
 
-80297	
+80294	
 
 
 
@@ -79933,7 +79930,7 @@ False
 
 
 
-80364	True
+80361	True
 True
 False
 False
@@ -79983,7 +79980,7 @@ False
 
 
 
-80416	
+80413	
 
 
 
@@ -80212,7 +80209,7 @@ False
 
 
 
-80647	
+80644	
 
 
 
@@ -80286,7 +80283,7 @@ True
 
 
 
-80722	
+80719	
 
 
 
@@ -80331,7 +80328,7 @@ False
 False
 False
 
-80768	
+80765	
 
 
 
@@ -80359,7 +80356,7 @@ False
 
 
 
-80798	
+80795	
 
 
 
@@ -80657,7 +80654,7 @@ True
 True
 True
 True
-81097	
+81094	
 
 
 
@@ -80896,7 +80893,7 @@ True
 
 
 False
-81337	
+81334	
 
 
 
@@ -81062,7 +81059,7 @@ True
 
 False
 False
-81504	True
+81501	True
 True
 
 True
@@ -81218,7 +81215,7 @@ False
 
 False
 False
-81661	True
+81658	True
 True
 True
 True
@@ -81780,7 +81777,7 @@ True
 True
 True
 True
-82224	True
+82221	True
 False
 
 
@@ -81805,7 +81802,7 @@ False
 
 
 
-82250	True
+82247	True
 True
 True
 False
@@ -81851,7 +81848,7 @@ False
 
 
 
-82297	True
+82294	True
 True
 
 True
@@ -82155,7 +82152,7 @@ True
 
 
 
-82602	True
+82599	True
 True
 True
 True
@@ -82262,7 +82259,7 @@ False
 
 
 
-82710	
+82707	
 
 
 
@@ -82472,7 +82469,7 @@ True
 False
 True
 
-82921	
+82918	
 
 
 
@@ -83084,7 +83081,7 @@ False
 
 
 
-83535	
+83532	
 
 
 
@@ -83166,7 +83163,7 @@ False
 False
 False
 False
-83618	False
+83615	False
 False
 False
 False
@@ -83219,7 +83216,7 @@ True
 True
 False
 False
-83672	False
+83669	False
 
 False
 False
@@ -83264,7 +83261,7 @@ True
 True
 True
 True
-83718	False
+83715	False
 
 False
 False
@@ -83425,7 +83422,7 @@ False
 False
 False
 False
-83880	False
+83877	False
 False
 False
 False
@@ -83623,7 +83620,7 @@ False
 False
 False
 False
-84079	True
+84076	True
 
 True
 True
@@ -83685,7 +83682,7 @@ True
 True
 False
 True
-84142	False
+84139	False
 False
 False
 
@@ -83697,7 +83694,7 @@ False
 False
 False
 False
-84155	False
+84152	False
 
 
 
@@ -83790,7 +83787,7 @@ False
 
 
 
-84249	True
+84246	True
 
 
 False
@@ -83843,7 +83840,7 @@ False
 False
 False
 False
-84303	True
+84300	True
 
 
 False
@@ -83895,7 +83892,7 @@ False
 False
 False
 False
-84356	True
+84353	True
 
 
 True
@@ -83969,7 +83966,7 @@ False
 False
 False
 False
-84431	True
+84428	True
 
 
 True
@@ -84159,7 +84156,7 @@ True
 False
 False
 False
-84622	True
+84619	True
 
 True
 True
@@ -84318,7 +84315,7 @@ False
 False
 False
 False
-84782	True
+84779	True
 
 True
 True
@@ -84402,7 +84399,7 @@ True
 True
 True
 True
-84867	True
+84864	True
 True
 True
 True
@@ -84569,7 +84566,7 @@ True
 
 
 
-85035	True
+85032	True
 True
 True
 True
@@ -84770,7 +84767,7 @@ False
 
 
 
-85237	True
+85234	True
 True
 True
 True
@@ -84779,7 +84776,7 @@ True
 True
 True
 
-85247	
+85244	
 
 
 
@@ -84836,7 +84833,7 @@ False
 
 
 
-85306	
+85303	
 
 
 
@@ -84863,7 +84860,7 @@ False
 
 
 
-85334	
+85331	
 
 
 
@@ -84879,7 +84876,7 @@ True
 
 True
 True
-85351	
+85348	
 
 
 
@@ -84966,7 +84963,7 @@ True
 
 
 
-85440	
+85437	
 
 
 
@@ -85024,7 +85021,7 @@ True
 
 
 
-85499	
+85496	
 
 
 
@@ -85072,7 +85069,7 @@ True
 True
 True
 True
-85548	
+85545	
 
 
 
@@ -85304,7 +85301,7 @@ False
 
 
 
-85781	
+85778	
 
 
 
@@ -85613,7 +85610,7 @@ True
 False
 False
 False
-86091	False
+86088	False
 True
 
 True
@@ -85689,7 +85686,7 @@ True
 
 True
 True
-86168	False
+86165	False
 
 
 False
@@ -85906,7 +85903,7 @@ False
 
 
 
-86386	True
+86383	True
 
 
 True
@@ -85953,7 +85950,7 @@ False
 
 
 
-86434	False
+86431	False
 
 
 False
@@ -85972,7 +85969,7 @@ False
 
 
 
-86454	False
+86451	False
 
 
 False
@@ -85992,7 +85989,7 @@ True
 
 
 
-86475	False
+86472	False
 
 
 False
@@ -86010,7 +86007,7 @@ False
 
 
 
-86494	False
+86491	False
 False
 False
 False
@@ -86025,7 +86022,7 @@ True
 True
 True
 True
-86510	False
+86507	False
 False
 False
 False
@@ -86033,7 +86030,7 @@ True
 True
 True
 True
-86519	False
+86516	False
 False
 True
 True
@@ -86314,7 +86311,7 @@ True
 True
 True
 
-86801	False
+86798	False
 
 False
 True
@@ -86553,7 +86550,7 @@ False
 
 
 
-87041	False
+87038	False
 False
 
 
@@ -86726,7 +86723,7 @@ True
 
 
 
-87215	False
+87212	False
 False
 False
 
@@ -87142,7 +87139,7 @@ False
 
 
 
-87634	False
+87631	False
 False
 False
 False
@@ -87307,7 +87304,7 @@ False
 
 
 
-87800	False
+87797	False
 False
 False
 False
@@ -87419,7 +87416,7 @@ True
 True
 False
 
-87913	False
+87910	False
 False
 False
 False
@@ -87635,7 +87632,7 @@ True
 True
 True
 True
-88131	False
+88128	False
 False
 False
 
@@ -87784,7 +87781,7 @@ True
 True
 False
 False
-88282	
+88279	
 
 
 
@@ -87831,7 +87828,7 @@ True
 
 
 False
-88330	
+88327	
 
 
 
@@ -87871,7 +87868,7 @@ True
 False
 False
 False
-88371	False
+88368	False
 
 False
 False
@@ -88203,7 +88200,7 @@ True
 
 
 
-88704	
+88701	
 
 
 
@@ -88413,7 +88410,7 @@ False
 False
 
 False
-88916	
+88913	
 
 
 
@@ -88779,7 +88776,7 @@ True
 
 
 
-89285	
+89282	
 
 
 
@@ -88875,7 +88872,7 @@ True
 
 
 
-89382	
+89379	
 
 
 
@@ -89024,7 +89021,7 @@ True
 
 
 
-89532	
+89529	
 
 
 
@@ -89103,7 +89100,7 @@ True
 True
 True
 True
-89613	
+89610	
 
 
 
@@ -89172,7 +89169,7 @@ False
 
 
 
-89683	
+89680	
 
 
 
@@ -89638,7 +89635,7 @@ True
 
 
 
-90150	True
+90147	True
 True
 True
 
@@ -89652,7 +89649,7 @@ True
 True
 True
 True
-90165	True
+90162	True
 
 
 True
@@ -89733,7 +89730,7 @@ True
 True
 True
 True
-90247	True
+90244	True
 
 
 True
@@ -89789,7 +89786,7 @@ True
 True
 True
 True
-90304	True
+90301	True
 
 
 True
@@ -89846,7 +89843,7 @@ True
 True
 True
 True
-90362	False
+90359	False
 
 
 True
@@ -89927,7 +89924,7 @@ True
 True
 True
 True
-90444	False
+90441	False
 
 
 False
@@ -90006,7 +90003,7 @@ True
 True
 True
 True
-90524	True
+90521	True
 
 
 True
@@ -90087,7 +90084,7 @@ True
 True
 True
 True
-90606	True
+90603	True
 
 
 True
@@ -90134,7 +90131,7 @@ True
 True
 True
 True
-90654	False
+90651	False
 
 
 False
@@ -90207,7 +90204,7 @@ False
 False
 False
 False
-90728	True
+90725	True
 
 
 True
@@ -90377,7 +90374,7 @@ True
 True
 True
 True
-90899	True
+90896	True
 
 
 True
@@ -90450,7 +90447,7 @@ False
 False
 False
 False
-90973	False
+90970	False
 False
 False
 
@@ -90498,7 +90495,7 @@ True
 
 False
 
-91022	True
+91019	True
 True
 True
 
@@ -90552,7 +90549,7 @@ False
 True
 True
 True
-91077	True
+91074	True
 True
 True
 
@@ -90634,7 +90631,7 @@ False
 
 
 
-91160	True
+91157	True
 
 True
 True
@@ -90752,7 +90749,7 @@ False
 
 
 
-91279	True
+91276	True
 
 True
 True
@@ -90879,7 +90876,7 @@ False
 
 
 
-91408	False
+91405	False
 False
 True
 
@@ -91031,7 +91028,7 @@ False
 
 
 
-91561	True
+91558	True
 True
 True
 True
@@ -91062,7 +91059,7 @@ False
 
 
 
-91593	True
+91590	True
 
 True
 True
@@ -91157,7 +91154,7 @@ False
 
 
 
-91689	True
+91686	True
 True
 True
 True
@@ -91185,7 +91182,7 @@ False
 
 
 
-91718	True
+91715	True
 
 True
 True
@@ -91234,7 +91231,7 @@ False
 
 
 
-91768	True
+91765	True
 True
 True
 True
@@ -91288,7 +91285,7 @@ True
 
 
 
-91823	True
+91820	True
 
 True
 False
@@ -91387,7 +91384,7 @@ False
 
 
 
-91923	False
+91920	False
 
 False
 False
@@ -92715,7 +92712,7 @@ False
 False
 True
 False
-93252	True
+93249	True
 
 True
 True
@@ -92794,7 +92791,7 @@ False
 False
 False
 True
-93332	True
+93329	True
 True
 
 True
@@ -92905,7 +92902,7 @@ True
 
 
 
-93444	True
+93441	True
 False
 False
 
@@ -92945,7 +92942,7 @@ True
 True
 True
 False
-93485	
+93482	
 
 
 
@@ -93088,7 +93085,7 @@ True
 
 
 
-93629	
+93626	
 
 
 
@@ -93146,7 +93143,7 @@ False
 
 
 
-93688	True
+93685	True
 True
 
 
@@ -93316,7 +93313,7 @@ True
 
 
 
-93860	False
+93857	False
 
 
 
@@ -93497,7 +93494,7 @@ True
 True
 True
 
-94042	True
+94039	True
 True
 
 
@@ -93551,7 +93548,7 @@ True
 
 
 
-94097	True
+94094	True
 True
 True
 
@@ -93763,7 +93760,7 @@ False
 False
 True
 True
-94310	True
+94307	True
 True
 False
 True
@@ -94096,7 +94093,7 @@ True
 
 
 
-94644	True
+94641	True
 True
 True
 True
@@ -94666,7 +94663,7 @@ False
 
 
 
-95215	
+95212	
 
 
 
@@ -95294,7 +95291,7 @@ True
 
 
 
-95844	
+95841	
 
 False
 
@@ -95934,7 +95931,7 @@ True
 
 
 
-96485	False
+96482	False
 True
 False
 
@@ -96013,7 +96010,7 @@ True
 
 
 
-96565	True
+96562	True
 True
 True
 
@@ -96266,7 +96263,7 @@ False
 
 
 
-96819	False
+96816	False
 
 
 False
@@ -96281,7 +96278,7 @@ False
 False
 False
 False
-96835	True
+96832	True
 
 True
 True
@@ -96359,7 +96356,7 @@ True
 False
 True
 False
-96914	False
+96911	False
 
 
 False
@@ -96395,7 +96392,7 @@ True
 False
 False
 False
-96951	False
+96948	False
 False
 False
 False
@@ -96424,7 +96421,7 @@ False
 False
 False
 False
-96982	
+96979	
 
 
 
@@ -96448,7 +96445,7 @@ False
 
 
 
-97007	False
+97004	False
 
 False
 False
@@ -96612,7 +96609,7 @@ False
 
 
 
-97173	True
+97170	True
 True
 
 
@@ -96735,7 +96732,7 @@ False
 
 
 
-97298	False
+97295	False
 False
 True
 
@@ -96816,7 +96813,7 @@ True
 
 
 
-97381	True
+97378	True
 True
 
 
@@ -97029,7 +97026,7 @@ True
 True
 True
 True
-97595	True
+97592	True
 True
 True
 True
@@ -97186,7 +97183,7 @@ True
 True
 True
 True
-97753	True
+97750	True
 True
 True
 True
@@ -97340,7 +97337,7 @@ True
 True
 True
 True
-97908	True
+97905	True
 True
 True
 True
@@ -97500,7 +97497,7 @@ True
 True
 True
 True
-98069	True
+98066	True
 True
 True
 True
@@ -97652,7 +97649,7 @@ True
 True
 True
 True
-98222	True
+98219	True
 True
 True
 True
@@ -97807,7 +97804,7 @@ True
 True
 True
 True
-98378	True
+98375	True
 True
 True
 True
@@ -97967,7 +97964,7 @@ True
 True
 True
 True
-98539	True
+98536	True
 True
 True
 True
@@ -98119,7 +98116,7 @@ True
 True
 True
 True
-98692	True
+98689	True
 True
 True
 True
@@ -98278,7 +98275,7 @@ True
 True
 True
 True
-98852	True
+98849	True
 True
 True
 True
@@ -98431,7 +98428,7 @@ True
 True
 True
 True
-99006	True
+99003	True
 True
 True
 True
@@ -98537,7 +98534,7 @@ True
 True
 True
 
-99113	True
+99110	True
 
 True
 True
@@ -98778,7 +98775,7 @@ True
 True
 True
 True
-99355	True
+99352	True
 True
 True
 True
@@ -99005,7 +99002,7 @@ True
 
 
 False
-99583	True
+99580	True
 
 True
 True
@@ -99034,7 +99031,7 @@ True
 False
 
 False
-99613	True
+99610	True
 True
 
 
@@ -99059,7 +99056,7 @@ True
 
 
 False
-99639	True
+99636	True
 True
 True
 True
@@ -99085,7 +99082,7 @@ True
 True
 False
 False
-99666	True
+99663	True
 True
 True
 True
@@ -99109,7 +99106,7 @@ True
 True
 True
 False
-99691	True
+99688	True
 True
 True
 True
@@ -99132,7 +99129,7 @@ True
 True
 False
 False
-99715	False
+99712	False
 True
 
 
@@ -99159,7 +99156,7 @@ True
 True
 False
 False
-99743	False
+99740	False
 False
 False
 True
@@ -99190,7 +99187,7 @@ False
 
 False
 False
-99775	False
+99772	False
 False
 False
 
@@ -99214,7 +99211,7 @@ False
 False
 False
 False
-99800	False
+99797	False
 False
 False
 False
@@ -99235,7 +99232,7 @@ False
 False
 False
 False
-99824	False
+99821	False
 False
 False
 False
@@ -99251,7 +99248,7 @@ False
 False
 False
 False
-99841	False
+99838	False
 False
 False
 False
@@ -99270,7 +99267,7 @@ False
 False
 False
 False
-99861	False
+99858	False
 False
 False
 False
@@ -99289,7 +99286,7 @@ False
 False
 False
 False
-99881	False
+99878	False
 False
 
 False
@@ -99311,7 +99308,7 @@ False
 False
 False
 False
-99904	False
+99901	False
 False
 
 
@@ -99340,7 +99337,7 @@ False
 False
 False
 False
-99934	True
+99931	True
 True
 True
 
@@ -99368,7 +99365,7 @@ False
 False
 False
 False
-99963	True
+99960	True
 True
 True
 True
@@ -99396,7 +99393,7 @@ False
 False
 False
 False
-99992	True
+99989	True
 False
 True
 True
@@ -99423,7 +99420,7 @@ True
 False
 False
 False
-100020	True
+100017	True
 True
 True
 
@@ -99588,7 +99585,7 @@ True
 True
 True
 True
-100186	True
+100183	True
 True
 True
 True
@@ -99629,7 +99626,7 @@ True
 True
 True
 True
-100228	True
+100225	True
 True
 True
 
@@ -99659,7 +99656,7 @@ True
 False
 False
 False
-100259	True
+100256	True
 True
 
 True
@@ -99682,7 +99679,7 @@ True
 True
 True
 True
-100283	True
+100280	True
 
 True
 False
@@ -99704,7 +99701,7 @@ True
 True
 True
 True
-100306	False
+100303	False
 
 False
 False
@@ -99732,7 +99729,7 @@ True
 True
 True
 True
-100335	False
+100332	False
 
 False
 False
@@ -99773,7 +99770,7 @@ True
 True
 True
 True
-100377	False
+100374	False
 
 False
 False
@@ -99818,7 +99815,7 @@ True
 True
 True
 True
-100423	False
+100420	False
 False
 True
 
@@ -99849,7 +99846,7 @@ False
 False
 False
 True
-100455	False
+100452	False
 
 True
 True
@@ -99878,7 +99875,7 @@ False
 
 
 
-100485	False
+100482	False
 
 True
 True
@@ -99911,7 +99908,7 @@ False
 False
 True
 True
-100519	False
+100516	False
 
 True
 True
@@ -99952,7 +99949,7 @@ False
 False
 False
 True
-100561	True
+100558	True
 True
 True
 
@@ -100005,7 +100002,7 @@ True
 False
 False
 True
-100615	False
+100612	False
 
 True
 True
@@ -100036,7 +100033,7 @@ False
 False
 False
 False
-100647	False
+100644	False
 
 True
 True
@@ -100075,7 +100072,7 @@ False
 False
 False
 False
-100687	False
+100684	False
 
 False
 False
@@ -100105,7 +100102,7 @@ True
 False
 False
 True
-100718	
+100715	
 
 
 
@@ -100142,7 +100139,7 @@ True
 True
 True
 True
-100756	
+100753	
 
 
 
@@ -100175,7 +100172,7 @@ True
 True
 True
 False
-100790	
+100787	
 
 
 
@@ -100212,7 +100209,7 @@ True
 True
 True
 False
-100828	
+100825	
 
 
 
@@ -100233,7 +100230,7 @@ True
 True
 True
 True
-100850	
+100847	
 
 
 
@@ -100252,7 +100249,7 @@ False
 False
 False
 True
-100870	
+100867	
 
 
 
@@ -100269,7 +100266,7 @@ True
 False
 False
 True
-100888	
+100885	
 
 
 
@@ -100310,7 +100307,7 @@ False
 
 
 
-100931	False
+100928	False
 False
 False
 False
@@ -100346,7 +100343,7 @@ False
 
 
 
-100968	False
+100965	False
 
 False
 False
@@ -100381,7 +100378,7 @@ False
 
 
 
-101004	False
+101001	False
 
 True
 False
@@ -100416,7 +100413,7 @@ False
 
 
 
-101040	False
+101037	False
 
 True
 True
@@ -100452,7 +100449,7 @@ False
 
 
 
-101077	True
+101074	True
 
 True
 True
@@ -100489,7 +100486,7 @@ True
 True
 True
 True
-101115	True
+101112	True
 
 True
 True
@@ -100525,7 +100522,7 @@ False
 
 
 
-101152	True
+101149	True
 
 True
 True
@@ -100561,7 +100558,7 @@ False
 
 
 
-101189	True
+101186	True
 True
 False
 True
@@ -100589,7 +100586,7 @@ False
 
 
 
-101218	True
+101215	True
 True
 True
 
@@ -100643,7 +100640,7 @@ False
 False
 False
 False
-101273	True
+101270	True
 
 True
 True
@@ -100686,7 +100683,7 @@ True
 True
 True
 True
-101317	False
+101314	False
 
 True
 True
@@ -100732,7 +100729,7 @@ True
 True
 True
 True
-101364	False
+101361	False
 
 True
 True
@@ -100777,7 +100774,7 @@ True
 False
 False
 True
-101410	False
+101407	False
 
 False
 False
@@ -100834,7 +100831,7 @@ True
 True
 True
 True
-101468	False
+101465	False
 
 False
 False
@@ -100874,7 +100871,7 @@ False
 False
 False
 False
-101509	False
+101506	False
 
 False
 False
@@ -100912,7 +100909,7 @@ True
 True
 True
 True
-101548	False
+101545	False
 
 False
 False
@@ -100941,7 +100938,7 @@ True
 True
 True
 True
-101578	False
+101575	False
 
 False
 False
@@ -100980,7 +100977,7 @@ True
 True
 True
 True
-101618	False
+101615	False
 
 False
 False
@@ -101022,7 +101019,7 @@ True
 True
 True
 True
-101661	False
+101658	False
 
 False
 False
@@ -101053,7 +101050,7 @@ True
 True
 True
 True
-101693	False
+101690	False
 
 False
 False
@@ -101086,7 +101083,7 @@ True
 True
 True
 True
-101727	True
+101724	True
 
 False
 False
@@ -101107,7 +101104,7 @@ True
 True
 True
 True
-101749	True
+101746	True
 
 False
 False
@@ -101142,7 +101139,7 @@ True
 True
 True
 True
-101785	True
+101782	True
 
 False
 False
@@ -101176,7 +101173,7 @@ True
 True
 True
 True
-101820	True
+101817	True
 
 True
 False
@@ -101202,7 +101199,7 @@ True
 True
 True
 True
-101847	True
+101844	True
 
 True
 True
@@ -101233,7 +101230,7 @@ True
 True
 True
 True
-101879	True
+101876	True
 
 True
 True
@@ -101262,7 +101259,7 @@ True
 True
 True
 True
-101909	True
+101906	True
 
 True
 True
@@ -101344,7 +101341,7 @@ False
 
 
 
-101992	True
+101989	True
 
 True
 True
@@ -101423,7 +101420,7 @@ True
 
 
 
-102072	True
+102069	True
 
 True
 False
@@ -101495,7 +101492,7 @@ False
 
 
 
-102145	True
+102142	True
 
 True
 True
@@ -101546,7 +101543,7 @@ False
 
 
 
-102197	True
+102194	True
 
 True
 
@@ -101615,7 +101612,7 @@ True
 
 True
 True
-102267	True
+102264	True
 
 True
 
@@ -101642,7 +101639,7 @@ True
 False
 False
 False
-102295	True
+102292	True
 
 True
 True
@@ -101682,7 +101679,7 @@ True
 True
 True
 True
-102336	True
+102333	True
 True
 
 
@@ -101752,7 +101749,7 @@ True
 
 
 
-102407	True
+102404	True
 
 
 
@@ -101812,7 +101809,7 @@ False
 
 
 
-102468	True
+102465	True
 False
 
 
@@ -101854,7 +101851,7 @@ False
 
 
 
-102513	False
+102510	False
 
 False
 True
@@ -101870,7 +101867,7 @@ True
 True
 
 True
-102530	True
+102527	True
 True
 True
 
@@ -101884,7 +101881,7 @@ True
 True
 True
 True
-102545	True
+102542	True
 True
 True
 
@@ -101897,7 +101894,7 @@ True
 True
 True
 True
-102559	True
+102556	True
 True
 True
 
@@ -101919,7 +101916,7 @@ True
 True
 True
 True
-102582	True
+102579	True
 True
 
 
@@ -101956,7 +101953,7 @@ True
 True
 
 False
-102620	True
+102617	True
 True
 True
 
@@ -101985,7 +101982,7 @@ True
 True
 True
 True
-102650	True
+102647	True
 
 True
 
@@ -102064,7 +102061,7 @@ True
 True
 True
 True
-102730	True
+102727	True
 True
 True
 
@@ -102085,7 +102082,7 @@ True
 True
 True
 True
-102752	True
+102749	True
 
 True
 True
@@ -102106,7 +102103,7 @@ True
 True
 True
 True
-102774	True
+102771	True
 
 True
 True
@@ -102134,7 +102131,7 @@ True
 True
 True
 True
-102803	True
+102800	True
 True
 True
 
@@ -102153,7 +102150,7 @@ True
 True
 True
 True
-102823	True
+102820	True
 True
 True
 True
@@ -102185,7 +102182,7 @@ True
 True
 True
 True
-102856	True
+102853	True
 True
 True
 
@@ -102224,7 +102221,7 @@ True
 True
 True
 True
-102896	True
+102893	True
 True
 True
 
@@ -102242,7 +102239,7 @@ True
 True
 True
 True
-102915	True
+102912	True
 True
 True
 True
@@ -102256,7 +102253,7 @@ False
 True
 True
 True
-102930	False
+102927	False
 False
 False
 False
@@ -102272,7 +102269,7 @@ True
 True
 True
 False
-102947	True
+102944	True
 
 True
 True
@@ -102790,7 +102787,7 @@ True
 True
 True
 True
-103466	False
+103463	False
 False
 False
 False
@@ -103229,7 +103226,7 @@ False
 False
 False
 False
-103906	False
+103903	False
 False
 False
 
@@ -103573,7 +103570,7 @@ False
 False
 False
 False
-104252	False
+104249	False
 False
 False
 False
@@ -103620,7 +103617,7 @@ False
 False
 False
 False
-104300	False
+104297	False
 False
 False
 False
@@ -104463,7 +104460,7 @@ False
 False
 False
 False
-105144	False
+105141	False
 False
 False
 
@@ -104493,7 +104490,7 @@ True
 True
 True
 True
-105175	False
+105172	False
 False
 
 False
@@ -104523,7 +104520,7 @@ True
 True
 True
 True
-105206	True
+105203	True
 True
 
 True
@@ -104553,7 +104550,7 @@ True
 True
 True
 True
-105237	True
+105234	True
 
 True
 True
@@ -104583,7 +104580,7 @@ True
 
 True
 True
-105268	True
+105265	True
 True
 True
 True
@@ -104610,7 +104607,7 @@ True
 True
 True
 True
-105296	True
+105293	True
 
 True
 True
@@ -104640,7 +104637,7 @@ True
 
 True
 True
-105327	True
+105324	True
 True
 
 
@@ -104664,7 +104661,7 @@ True
 True
 True
 True
-105352	False
+105349	False
 False
 False
 True
@@ -104695,7 +104692,7 @@ True
 True
 True
 True
-105384	False
+105381	False
 
 False
 False
@@ -104723,7 +104720,7 @@ True
 True
 True
 True
-105413	False
+105410	False
 False
 False
 
@@ -104747,7 +104744,7 @@ True
 
 True
 True
-105438	False
+105435	False
 False
 False
 False
@@ -104771,7 +104768,7 @@ True
 
 True
 True
-105463	False
+105460	False
 False
 False
 False
@@ -104797,7 +104794,7 @@ True
 True
 True
 True
-105490	False
+105487	False
 False
 False
 False
@@ -104817,7 +104814,7 @@ True
 True
 True
 True
-105511	False
+105508	False
 False
 False
 False
@@ -104835,7 +104832,7 @@ True
 True
 True
 True
-105530	False
+105527	False
 False
 False
 False
@@ -104852,7 +104849,7 @@ False
 False
 False
 False
-105549	False
+105546	False
 False
 False
 False
@@ -104868,7 +104865,7 @@ False
 False
 False
 True
-105566	False
+105563	False
 False
 False
 False
@@ -104882,7 +104879,7 @@ False
 True
 True
 True
-105581	False
+105578	False
 False
 False
 False
@@ -104901,7 +104898,7 @@ True
 True
 True
 True
-105601	False
+105598	False
 False
 False
 False
@@ -104921,7 +104918,7 @@ True
 True
 True
 True
-105622	False
+105619	False
 False
 False
 
@@ -104946,7 +104943,7 @@ True
 True
 True
 True
-105648	False
+105645	False
 
 False
 
@@ -104971,7 +104968,7 @@ True
 
 True
 True
-105674	False
+105671	False
 False
 False
 
@@ -104998,7 +104995,7 @@ True
 True
 
 True
-105702	False
+105699	False
 False
 False
 
@@ -105023,7 +105020,7 @@ True
 True
 
 True
-105728	False
+105725	False
 False
 
 
@@ -105045,7 +105042,7 @@ True
 
 True
 True
-105751	True
+105748	True
 True
 
 
@@ -105066,7 +105063,7 @@ True
 
 True
 True
-105773	True
+105770	True
 True
 True
 True
@@ -105091,7 +105088,7 @@ True
 True
 True
 True
-105799	True
+105796	True
 
 True
 True
@@ -105507,7 +105504,7 @@ True
 True
 True
 
-106216	True
+106213	True
 
 
 True
@@ -105767,7 +105764,7 @@ True
 True
 True
 True
-106477	True
+106474	True
 True
 True
 
@@ -105788,7 +105785,7 @@ True
 True
 True
 
-106499	True
+106496	True
 True
 True
 
@@ -105806,7 +105803,7 @@ True
 True
 True
 
-106518	True
+106515	True
 True
 True
 True
@@ -105837,7 +105834,7 @@ True
 True
 True
 
-106550	True
+106547	True
 True
 True
 
@@ -105855,7 +105852,7 @@ True
 True
 True
 True
-106569	True
+106566	True
 True
 True
 
@@ -105874,7 +105871,7 @@ False
 False
 False
 False
-106589	True
+106586	True
 True
 True
 
@@ -105891,7 +105888,7 @@ False
 False
 False
 False
-106607	False
+106604	False
 True
 True
 True
@@ -105909,7 +105906,7 @@ False
 False
 False
 False
-106626	True
+106623	True
 False
 
 True
@@ -105925,7 +105922,7 @@ False
 
 
 
-106643	True
+106640	True
 True
 True
 False
@@ -105940,12 +105937,12 @@ False
 
 
 
-106659	False
+106656	False
 False
 False
 False
 
-106665	True
+106662	True
 True
 True
 
@@ -105957,7 +105954,7 @@ False
 
 
 
-106678	False
+106675	False
 True
 
 True
@@ -105968,7 +105965,7 @@ False
 False
 False
 False
-106690	True
+106687	True
 
 True
 True
@@ -105982,7 +105979,7 @@ True
 True
 False
 False
-106705	True
+106702	True
 True
 True
 
@@ -106067,7 +106064,7 @@ True
 
 True
 True
-106791	True
+106788	True
 True
 True
 
@@ -106100,7 +106097,7 @@ False
 
 False
 False
-106825	True
+106822	True
 True
 True
 
@@ -106116,7 +106113,7 @@ False
 False
 False
 False
-106842	True
+106839	True
 True
 
 False
@@ -106633,7 +106630,7 @@ False
 
 
 
-107360	True
+107357	True
 True
 True
 
@@ -106728,7 +106725,7 @@ True
 True
 True
 True
-107456	
+107453	
 
 
 
@@ -106763,7 +106760,7 @@ True
 True
 True
 True
-107492	
+107489	
 
 
 
@@ -106811,7 +106808,7 @@ True
 True
 True
 True
-107541	
+107538	
 
 
 
@@ -106844,7 +106841,7 @@ False
 False
 False
 True
-107575	
+107572	
 
 
 
@@ -106859,7 +106856,7 @@ True
 True
 True
 True
-107591	
+107588	
 
 
 
@@ -106873,7 +106870,7 @@ False
 
 
 
-107607	
+107604	
 
 
 
@@ -107336,7 +107333,7 @@ True
 True
 True
 True
-108071	True
+108068	True
 True
 
 True
@@ -107910,7 +107907,7 @@ False
 
 
 
-108647	False
+108644	False
 False
 False
 False
@@ -107982,7 +107979,7 @@ False
 True
 True
 True
-108720	True
+108717	True
 
 True
 True
@@ -108131,7 +108128,7 @@ True
 True
 True
 True
-108870	True
+108867	True
 
 True
 
@@ -108157,7 +108154,7 @@ True
 
 True
 True
-108897	True
+108894	True
 
 True
 
@@ -108198,7 +108195,7 @@ True
 True
 True
 True
-108939	True
+108936	True
 True
 True
 
@@ -108322,7 +108319,7 @@ True
 True
 True
 True
-109064	True
+109061	True
 
 True
 
@@ -108548,7 +108545,7 @@ False
 False
 True
 True
-109291	False
+109288	False
 False
 False
 False
@@ -108615,7 +108612,7 @@ True
 False
 False
 False
-109360	
+109357	
 
 
 
@@ -108638,7 +108635,7 @@ False
 
 
 False
-109384	
+109381	
 
 
 
@@ -108664,7 +108661,7 @@ True
 
 True
 True
-109411	False
+109408	False
 False
 False
 
@@ -108695,7 +108692,7 @@ True
 True
 False
 False
-109443	False
+109440	False
 False
 
 
@@ -108724,7 +108721,7 @@ True
 True
 True
 True
-109473	
+109470	
 
 
 
@@ -108757,7 +108754,7 @@ True
 True
 True
 True
-109507	
+109504	
 
 
 
@@ -108788,7 +108785,7 @@ True
 True
 True
 True
-109539	
+109536	
 
 
 
@@ -108818,7 +108815,7 @@ True
 True
 True
 
-109570	
+109567	
 
 
 
@@ -108850,7 +108847,7 @@ True
 True
 True
 True
-109603	
+109600	
 
 
 
@@ -108881,7 +108878,7 @@ True
 True
 True
 
-109635	
+109632	
 
 
 
@@ -108913,7 +108910,7 @@ True
 
 True
 True
-109668	
+109665	
 
 
 
@@ -108944,7 +108941,7 @@ True
 True
 True
 True
-109700	False
+109697	False
 False
 
 
@@ -108966,7 +108963,7 @@ True
 True
 True
 True
-109723	
+109720	
 
 
 
@@ -108989,7 +108986,7 @@ True
 
 
 False
-109747	True
+109744	True
 True
 True
 False
@@ -109031,7 +109028,7 @@ True
 True
 True
 True
-109790	True
+109787	True
 True
 True
 
@@ -109041,7 +109038,7 @@ True
 True
 True
 True
-109801	True
+109798	True
 True
 False
 True
@@ -109161,7 +109158,7 @@ False
 False
 False
 False
-109922	True
+109919	True
 
 
 True
@@ -109188,7 +109185,7 @@ False
 
 False
 False
-109950	True
+109947	True
 
 True
 True
@@ -109215,7 +109212,7 @@ False
 
 
 
-109978	True
+109975	True
 True
 True
 
@@ -109241,7 +109238,7 @@ False
 False
 False
 False
-110005	True
+110002	True
 True
 True
 True
@@ -109260,7 +109257,7 @@ True
 True
 True
 True
-110025	True
+110022	True
 True
 True
 True
@@ -109286,7 +109283,7 @@ True
 True
 True
 True
-110052	True
+110049	True
 True
 True
 True
@@ -109311,7 +109308,7 @@ True
 False
 True
 True
-110078	False
+110075	False
 
 True
 True
@@ -109332,7 +109329,7 @@ True
 True
 True
 True
-110100	True
+110097	True
 
 True
 True
@@ -109352,7 +109349,7 @@ True
 True
 True
 False
-110121	True
+110118	True
 True
 True
 True
@@ -109373,7 +109370,7 @@ True
 True
 True
 False
-110143	True
+110140	True
 
 True
 True
@@ -109399,7 +109396,7 @@ True
 False
 True
 True
-110170	True
+110167	True
 True
 True
 
@@ -109420,7 +109417,7 @@ True
 True
 True
 True
-110192	True
+110189	True
 
 True
 True
@@ -109441,7 +109438,7 @@ True
 True
 True
 True
-110214	False
+110211	False
 True
 True
 
@@ -109465,7 +109462,7 @@ False
 False
 False
 False
-110239	True
+110236	True
 True
 True
 
@@ -109493,7 +109490,7 @@ False
 
 
 
-110268	True
+110265	True
 
 False
 True
@@ -109523,7 +109520,7 @@ False
 
 
 
-110299	False
+110296	False
 
 False
 False
@@ -109555,7 +109552,7 @@ False
 
 
 
-110333	False
+110330	False
 False
 
 
@@ -109575,7 +109572,7 @@ False
 False
 False
 False
-110354	False
+110351	False
 True
 True
 True
@@ -109593,7 +109590,7 @@ False
 False
 False
 False
-110373	True
+110370	True
 
 True
 True
@@ -109618,7 +109615,7 @@ True
 False
 False
 False
-110399	True
+110396	True
 True
 
 
@@ -109643,7 +109640,7 @@ True
 True
 True
 False
-110425	True
+110422	True
 True
 True
 True
@@ -109665,7 +109662,7 @@ False
 True
 True
 True
-110448	True
+110445	True
 True
 True
 True
@@ -109683,7 +109680,7 @@ True
 
 
 False
-110467	True
+110464	True
 
 True
 True
@@ -109705,7 +109702,7 @@ True
 True
 True
 True
-110490	True
+110487	True
 False
 True
 
@@ -109726,7 +109723,7 @@ True
 True
 True
 True
-110512	True
+110509	True
 
 True
 True
@@ -109997,7 +109994,7 @@ True
 
 
 
-110784	False
+110781	False
 
 False
 
@@ -110064,7 +110061,7 @@ False
 False
 False
 False
-110853	False
+110850	False
 
 False
 False
@@ -110179,7 +110176,7 @@ False
 
 
 
-110970	
+110967	
 
 
 
@@ -110271,7 +110268,7 @@ False
 False
 False
 False
-111064	
+111061	
 
 
 
@@ -110326,7 +110323,7 @@ False
 
 
 False
-111120	False
+111117	False
 
 True
 True
@@ -110509,7 +110506,7 @@ True
 True
 True
 True
-111304	True
+111301	True
 
 True
 True
@@ -110715,7 +110712,7 @@ True
 True
 True
 True
-111511	True
+111508	True
 True
 True
 True
@@ -110724,7 +110721,7 @@ True
 True
 True
 True
-111521	False
+111518	False
 False
 False
 False
@@ -110977,7 +110974,7 @@ False
 
 
 
-111775	True
+111772	True
 
 
 
@@ -111003,7 +111000,7 @@ False
 
 
 
-111803	False
+111800	False
 True
 False
 
@@ -111065,7 +111062,7 @@ True
 
 
 
-111866	False
+111863	False
 
 False
 True
@@ -111237,7 +111234,7 @@ True
 
 
 
-112039	False
+112036	False
 True
 True
 True
@@ -111271,7 +111268,7 @@ True
 True
 True
 True
-112074	True
+112071	True
 True
 
 True
@@ -111313,7 +111310,7 @@ True
 True
 True
 True
-112117	True
+112114	True
 True
 
 True
@@ -111332,7 +111329,7 @@ True
 True
 True
 True
-112137	False
+112134	False
 False
 False
 False
@@ -111347,7 +111344,7 @@ False
 True
 True
 True
-112153	True
+112150	True
 
 False
 False
@@ -111365,7 +111362,7 @@ False
 False
 False
 False
-112172	True
+112169	True
 True
 True
 
@@ -111414,7 +111411,7 @@ False
 
 
 
-112222	True
+112219	True
 True
 
 True
@@ -111475,7 +111472,7 @@ False
 
 
 
-112284	
+112281	
 
 
 
@@ -111497,7 +111494,7 @@ True
 
 
 False
-112307	
+112304	
 
 
 
@@ -111509,7 +111506,7 @@ False
 
 
 False
-112320	True
+112317	True
 True
 
 True
@@ -111535,7 +111532,7 @@ True
 True
 True
 True
-112347	True
+112344	True
 True
 
 True
@@ -111563,7 +111560,7 @@ True
 True
 True
 True
-112377	
+112374	
 
 
 
@@ -111691,7 +111688,7 @@ False
 
 
 
-112506	
+112503	
 
 
 
@@ -111801,7 +111798,7 @@ False
 
 
 
-112617	True
+112614	True
 
 False
 False
@@ -111975,7 +111972,7 @@ False
 
 
 
-112792	True
+112789	True
 
 True
 True
@@ -112041,7 +112038,7 @@ True
 True
 False
 
-112859	True
+112856	True
 True
 
 
@@ -112090,7 +112087,7 @@ False
 
 
 
-112909	False
+112906	False
 
 False
 
@@ -112137,7 +112134,7 @@ True
 True
 True
 True
-112957	True
+112954	True
 True
 True
 False
@@ -112238,7 +112235,7 @@ True
 True
 False
 False
-113059	True
+113056	True
 True
 True
 
@@ -112281,7 +112278,7 @@ True
 True
 True
 True
-113103	True
+113100	True
 True
 
 True
@@ -112324,7 +112321,7 @@ False
 True
 False
 False
-113147	True
+113144	True
 
 False
 True
@@ -112375,7 +112372,7 @@ True
 True
 True
 
-113199	False
+113196	False
 False
 True
 
@@ -112517,7 +112514,7 @@ True
 
 True
 True
-113342	False
+113339	False
 
 False
 True
@@ -112725,7 +112722,7 @@ False
 
 
 
-113552	
+113549	
 
 
 
@@ -112884,7 +112881,7 @@ False
 
 
 
-113712	
+113709	
 
 
 
@@ -112895,7 +112892,7 @@ False
 False
 False
 False
-113724	False
+113721	False
 False
 False
 True
@@ -112906,7 +112903,7 @@ False
 False
 False
 True
-113736	False
+113733	False
 False
 False
 False
@@ -112918,11 +112915,11 @@ False
 
 
 
-113749	False
+113746	False
 False
 False
 True
-113754	False
+113751	False
 False
 False
 
@@ -112932,7 +112929,7 @@ True
 True
 True
 True
-113765	False
+113762	False
 False
 
 False
@@ -112940,14 +112937,14 @@ True
 True
 True
 True
-113774	False
+113771	False
 False
 
 False
 False
 False
 True
-113782	False
+113779	False
 False
 False
 True
@@ -112972,7 +112969,7 @@ True
 True
 True
 True
-113808	False
+113805	False
 False
 True
 True
@@ -112989,7 +112986,7 @@ True
 True
 True
 True
-113826	False
+113823	False
 True
 True
 
@@ -113008,7 +113005,7 @@ True
 True
 True
 True
-113846	False
+113843	False
 True
 True
 True
@@ -113018,7 +113015,7 @@ True
 True
 True
 True
-113857	
+113854	
 
 
 
@@ -113031,7 +113028,7 @@ False
 True
 True
 True
-113871	
+113868	
 
 
 
@@ -113044,7 +113041,7 @@ True
 False
 
 
-113885	
+113882	
 
 
 
@@ -113058,7 +113055,7 @@ False
 
 
 
-113900	
+113897	
 False
 True
 
@@ -113167,7 +113164,7 @@ False
 
 
 
-114011	
+114008	
 
 
 
@@ -113295,7 +113292,7 @@ False
 
 
 
-114141	
+114138	
 
 
 
@@ -113483,7 +113480,7 @@ False
 
 
 
-114330	True
+114327	True
 
 True
 True
@@ -113593,7 +113590,7 @@ False
 
 
 
-114442	
+114439	
 
 
 
@@ -113814,7 +113811,7 @@ True
 True
 True
 True
-114664	
+114661	
 
 
 
@@ -113910,7 +113907,7 @@ True
 False
 
 
-114762	True
+114759	True
 
 False
 False
@@ -113950,7 +113947,7 @@ False
 
 
 
-114803	True
+114800	True
 
 True
 True
@@ -113990,7 +113987,7 @@ False
 
 
 
-114844	True
+114841	True
 
 True
 True
@@ -114066,7 +114063,7 @@ False
 
 
 
-114921	True
+114918	True
 
 True
 True
@@ -114123,7 +114120,7 @@ False
 
 
 
-114979	True
+114976	True
 True
 
 False
@@ -114163,7 +114160,7 @@ False
 
 
 
-115020	False
+115017	False
 
 False
 False
@@ -114182,7 +114179,7 @@ False
 
 
 
-115040	True
+115037	True
 
 True
 True
@@ -114408,7 +114405,7 @@ True
 True
 True
 False
-115267	
+115264	
 
 
 
@@ -114420,7 +114417,7 @@ False
 
 False
 True
-115280	
+115277	
 
 
 
@@ -114650,7 +114647,7 @@ True
 
 
 False
-115512	
+115509	
 
 
 
@@ -114882,7 +114879,7 @@ False
 
 
 
-115745	True
+115742	True
 True
 True
 
@@ -115237,7 +115234,7 @@ True
 True
 True
 True
-116101	True
+116098	True
 
 True
 True
@@ -115345,7 +115342,7 @@ True
 True
 False
 False
-116210	True
+116207	True
 True
 
 
@@ -115565,7 +115562,7 @@ True
 
 
 
-116431	True
+116428	True
 
 True
 True
@@ -116354,7 +116351,7 @@ False
 
 False
 
-117221	False
+117218	False
 True
 True
 
@@ -116384,7 +116381,7 @@ False
 
 
 
-117252	False
+117249	False
 True
 True
 
@@ -116416,7 +116413,7 @@ True
 
 
 
-117285	False
+117282	False
 True
 True
 
@@ -116441,7 +116438,7 @@ False
 
 
 
-117311	True
+117308	True
 True
 True
 
@@ -116467,7 +116464,7 @@ True
 
 
 
-117338	True
+117335	True
 True
 True
 True
@@ -116493,7 +116490,7 @@ True
 
 
 
-117365	True
+117362	True
 True
 True
 True
@@ -116522,7 +116519,7 @@ False
 
 
 
-117395	True
+117392	True
 True
 True
 True
@@ -116551,7 +116548,7 @@ True
 
 
 
-117425	True
+117422	True
 False
 True
 True
@@ -116581,7 +116578,7 @@ False
 
 
 
-117456	False
+117453	False
 False
 True
 True
@@ -116609,7 +116606,7 @@ False
 
 
 
-117485	False
+117482	False
 False
 True
 True
@@ -116662,7 +116659,7 @@ True
 
 
 
-117540	
+117537	
 
 
 
@@ -116963,7 +116960,7 @@ False
 
 
 
-117843	
+117840	
 
 
 
@@ -116985,7 +116982,7 @@ False
 
 
 
-117866	
+117863	
 
 
 
@@ -117003,7 +117000,7 @@ False
 
 
 
-117885	
+117882	
 
 
 
@@ -117028,7 +117025,7 @@ False
 
 
 
-117911	
+117908	
 
 
 
@@ -117049,7 +117046,7 @@ False
 
 
 
-117933	
+117930	
 
 
 
@@ -117069,7 +117066,7 @@ False
 
 
 
-117954	
+117951	
 
 
 
@@ -117090,7 +117087,7 @@ True
 
 
 
-117976	
+117973	
 
 
 
@@ -117113,7 +117110,7 @@ False
 
 
 
-118001	
+117998	
 
 
 False
@@ -117122,7 +117119,7 @@ False
 False
 
 
-118011	
+118008	
 
 False
 True
@@ -117134,7 +117131,7 @@ True
 
 
 
-118024	
+118021	
 
 True
 True
@@ -117146,7 +117143,7 @@ True
 
 
 
-118037	
+118034	
 
 False
 
@@ -117157,7 +117154,7 @@ False
 
 
 
-118050	
+118047	
 
 
 
@@ -117216,7 +117213,7 @@ True
 
 True
 True
-118111	
+118108	
 
 
 
@@ -117262,7 +117259,7 @@ True
 
 
 True
-118159	False
+118156	False
 False
 False
 
@@ -117361,7 +117358,7 @@ False
 
 
 
-118259	True
+118256	True
 True
 True
 
@@ -117396,7 +117393,7 @@ False
 False
 
 
-118295	
+118292	
 True
 False
 
@@ -117427,7 +117424,7 @@ True
 True
 True
 True
-118328	
+118325	
 
 
 
@@ -117439,7 +117436,7 @@ True
 
 
 
-118341	
+118338	
 
 
 
@@ -117448,7 +117445,7 @@ True
 False
 False
 
-118351	
+118348	
 
 
 
@@ -117459,7 +117456,7 @@ False
 
 
 
-118363	
+118360	
 
 
 
@@ -117470,7 +117467,7 @@ False
 
 
 
-118376	
+118373	
 
 
 
@@ -117596,7 +117593,7 @@ True
 
 
 
-118504	
+118501	
 
 
 
@@ -117667,7 +117664,7 @@ False
 
 
 
-118576	True
+118573	True
 True
 True
 
@@ -118279,7 +118276,7 @@ True
 True
 True
 True
-119189	True
+119186	True
 True
 True
 
@@ -118290,7 +118287,7 @@ True
 True
 True
 True
-119201	True
+119198	True
 True
 True
 True
@@ -118322,7 +118319,7 @@ True
 True
 True
 True
-119234	True
+119231	True
 True
 
 False
@@ -118471,7 +118468,7 @@ True
 True
 True
 True
-119384	False
+119381	False
 False
 
 
@@ -118508,7 +118505,7 @@ False
 False
 False
 False
-119422	False
+119419	False
 False
 
 
@@ -118552,7 +118549,7 @@ True
 True
 True
 True
-119467	False
+119464	False
 False
 
 
@@ -118593,7 +118590,7 @@ True
 True
 True
 True
-119509	False
+119506	False
 False
 
 True
@@ -118643,7 +118640,7 @@ True
 True
 True
 True
-119560	False
+119557	False
 False
 
 
@@ -118685,7 +118682,7 @@ False
 False
 False
 False
-119603	False
+119600	False
 False
 
 
@@ -118731,7 +118728,7 @@ False
 False
 False
 False
-119650	False
+119647	False
 True
 
 
@@ -118780,7 +118777,7 @@ False
 
 
 
-119700	True
+119697	True
 True
 
 
@@ -118816,7 +118813,7 @@ False
 
 False
 False
-119737	False
+119734	False
 False
 
 
@@ -118853,7 +118850,7 @@ True
 True
 True
 True
-119775	False
+119772	False
 False
 
 
@@ -118911,7 +118908,7 @@ False
 
 
 
-119835	True
+119832	True
 True
 
 
@@ -118950,7 +118947,7 @@ True
 True
 True
 True
-119875	False
+119872	False
 True
 
 
@@ -119071,7 +119068,7 @@ True
 True
 True
 True
-119997	True
+119994	True
 
 True
 True
@@ -119129,7 +119126,7 @@ False
 
 
 
-120056	False
+120053	False
 False
 
 
@@ -119191,7 +119188,7 @@ False
 True
 True
 True
-120119	True
+120116	True
 True
 True
 
@@ -119236,7 +119233,7 @@ True
 True
 True
 
-120165	
+120162	
 
 
 
@@ -119295,7 +119292,7 @@ True
 True
 
 
-120226	True
+120223	True
 
 
 
@@ -119619,7 +119616,7 @@ False
 
 
 
-120552	False
+120549	False
 False
 True
 True
@@ -119782,7 +119779,7 @@ False
 
 
 
-120716	
+120713	
 
 
 
@@ -120110,7 +120107,7 @@ False
 
 
 
-121045	False
+121042	False
 True
 
 
@@ -120238,7 +120235,7 @@ False
 
 
 
-121174	True
+121171	True
 True
 
 
@@ -120983,7 +120980,7 @@ False
 False
 False
 False
-121920	
+121917	
 
 
 
@@ -121072,7 +121069,7 @@ False
 True
 True
 True
-122010	
+122007	
 
 
 
@@ -121095,7 +121092,7 @@ False
 
 
 False
-122034	
+122031	
 
 
 
@@ -121177,7 +121174,7 @@ True
 True
 True
 True
-122117	
+122114	
 
 
 
@@ -121399,7 +121396,7 @@ True
 
 
 
-122341	
+122338	
 
 
 
@@ -121555,7 +121552,7 @@ True
 
 False
 True
-122499	
+122496	
 
 
 
@@ -121747,7 +121744,7 @@ False
 
 False
 False
-122692	
+122689	
 
 
 
@@ -121943,7 +121940,7 @@ False
 
 
 
-122890	
+122887	
 
 
 
@@ -122081,7 +122078,7 @@ True
 
 True
 True
-123029	True
+123026	True
 True
 
 
@@ -122164,7 +122161,7 @@ False
 
 
 
-123114	
+123111	
 
 
 
@@ -122228,7 +122225,7 @@ True
 
 
 
-123179	
+123176	
 
 
 
@@ -122300,7 +122297,7 @@ True
 True
 True
 True
-123252	
+123249	
 
 
 
@@ -122335,7 +122332,7 @@ True
 True
 True
 True
-123288	
+123285	
 
 
 
@@ -122371,7 +122368,7 @@ True
 True
 True
 True
-123325	
+123322	
 
 
 
@@ -122405,7 +122402,7 @@ True
 True
 True
 True
-123360	
+123357	
 
 
 
@@ -122432,7 +122429,7 @@ True
 
 
 
-123388	
+123385	
 
 
 
@@ -122444,7 +122441,7 @@ True
 
 True
 False
-123401	
+123398	
 
 
 
@@ -122571,7 +122568,7 @@ True
 
 
 True
-123529	
+123526	
 
 
 
@@ -122919,7 +122916,7 @@ False
 
 
 
-123879	False
+123876	False
 True
 
 True
@@ -123264,7 +123261,7 @@ True
 
 
 
-124225	True
+124222	True
 True
 True
 
@@ -123276,7 +123273,7 @@ False
 
 
 
-124238	True
+124235	True
 True
 True
 
@@ -123317,7 +123314,7 @@ True
 
 
 
-124280	True
+124277	True
 True
 True
 
@@ -123362,7 +123359,7 @@ False
 
 
 
-124327	
+124324	
 
 
 
@@ -123409,7 +123406,7 @@ False
 
 
 
-124375	
+124372	
 
 
 
@@ -124109,7 +124106,7 @@ True
 True
 True
 True
-125076	
+125073	
 
 
 
@@ -124139,7 +124136,7 @@ True
 True
 True
 True
-125107	
+125104	
 
 
 
@@ -124205,7 +124202,7 @@ False
 False
 True
 True
-125175	
+125172	
 
 
 
@@ -124954,7 +124951,7 @@ True
 True
 True
 True
-125925	False
+125922	False
 False
 False
 
@@ -125099,7 +125096,7 @@ True
 True
 True
 True
-126071	True
+126068	True
 False
 
 True
@@ -125184,7 +125181,7 @@ True
 True
 True
 True
-126157	True
+126154	True
 True
 True
 True
@@ -125213,7 +125210,7 @@ False
 
 
 
-126187	True
+126184	True
 True
 True
 True
@@ -125296,7 +125293,7 @@ True
 
 
 
-126271	False
+126268	False
 
 True
 True
@@ -125631,7 +125628,7 @@ False
 
 
 
-126608	False
+126605	False
 False
 False
 False
@@ -125775,7 +125772,7 @@ True
 False
 
 
-126753	True
+126750	True
 
 True
 True
@@ -125891,7 +125888,7 @@ False
 
 
 
-126870	False
+126867	False
 
 
 False
@@ -125962,7 +125959,7 @@ False
 True
 True
 True
-126944	True
+126941	True
 
 True
 True
@@ -126060,7 +126057,7 @@ False
 False
 False
 False
-127043	False
+127040	False
 
 
 True
@@ -126075,7 +126072,7 @@ True
 True
 True
 
-127059	True
+127056	True
 True
 True
 
@@ -126138,7 +126135,7 @@ False
 False
 True
 True
-127123	False
+127120	False
 False
 False
 False
@@ -126236,7 +126233,7 @@ True
 True
 True
 True
-127222	True
+127219	True
 True
 
 
@@ -126309,7 +126306,7 @@ True
 True
 False
 True
-127296	True
+127293	True
 
 True
 True
@@ -126486,7 +126483,7 @@ False
 
 
 
-127474	True
+127471	True
 True
 True
 
@@ -126648,7 +126645,7 @@ False
 
 
 
-127637	False
+127634	False
 False
 False
 False
@@ -126781,7 +126778,7 @@ True
 True
 True
 True
-127771	False
+127768	False
 False
 False
 False
@@ -126926,7 +126923,7 @@ False
 
 
 
-127918	
+127915	
 
 
 
@@ -127026,7 +127023,7 @@ False
 
 
 
-128019	True
+128016	True
 True
 True
 
@@ -128370,7 +128367,7 @@ False
 
 
 
-129364	
+129361	
 
 
 
@@ -128484,7 +128481,7 @@ False
 
 
 
-129479	False
+129476	False
 False
 False
 
@@ -128530,7 +128527,7 @@ False
 
 False
 False
-129526	False
+129523	False
 False
 False
 False
@@ -128588,7 +128585,7 @@ False
 
 
 
-129585	False
+129582	False
 
 False
 
@@ -129129,7 +129126,7 @@ True
 
 
 True
-130127	True
+130124	True
 
 
 True
@@ -130244,7 +130241,7 @@ False
 
 False
 False
-131244	False
+131241	False
 False
 False
 False
@@ -130414,7 +130411,7 @@ False
 False
 False
 False
-131415	True
+131412	True
 True
 True
 
@@ -130651,7 +130648,7 @@ False
 
 
 
-131653	False
+131650	False
 
 True
 True
@@ -134102,7 +134099,7 @@ True
 
 True
 True
-135105	
+135102	
 
 
 
@@ -134280,7 +134277,7 @@ True
 True
 True
 False
-135284	False
+135281	False
 
 
 False
@@ -134315,7 +134312,7 @@ True
 True
 True
 True
-135320	False
+135317	False
 
 
 False
@@ -134353,7 +134350,7 @@ True
 True
 True
 True
-135359	False
+135356	False
 False
 False
 
@@ -134631,7 +134628,7 @@ True
 False
 False
 False
-135638	True
+135635	True
 
 
 True
@@ -136129,7 +136126,7 @@ False
 
 
 
-137138	
+137135	
 
 
 
@@ -136332,7 +136329,7 @@ False
 
 
 
-137342	False
+137339	False
 
 
 True
@@ -137221,7 +137218,7 @@ False
 True
 False
 False
-138232	True
+138229	True
 True
 False
 False
@@ -137906,7 +137903,7 @@ False
 
 
 
-138918	
+138915	
 
 
 
@@ -137970,7 +137967,7 @@ False
 
 
 
-138983	True
+138980	True
 
 
 True
@@ -138009,7 +138006,7 @@ True
 True
 False
 False
-139023	False
+139020	False
 True
 True
 True
@@ -138033,7 +138030,7 @@ False
 True
 True
 True
-139048	True
+139045	True
 False
 False
 
@@ -138191,7 +138188,7 @@ False
 False
 False
 False
-139207	True
+139204	True
 True
 True
 
@@ -138640,7 +138637,7 @@ False
 
 
 
-139657	True
+139654	True
 
 True
 True
@@ -138787,7 +138784,7 @@ False
 True
 True
 
-139805	
+139802	
 
 
 
@@ -138902,7 +138899,7 @@ False
 
 
 
-139921	True
+139918	True
 True
 True
 
@@ -139056,7 +139053,7 @@ False
 
 
 
-140077	False
+140074	False
 False
 False
 False
@@ -139366,7 +139363,7 @@ False
 
 False
 True
-140389	
+140386	
 
 
 
@@ -139438,7 +139435,7 @@ False
 
 
 
-140463	
+140460	
 
 
 
@@ -139488,7 +139485,7 @@ False
 
 
 
-140515	
+140512	
 
 
 
@@ -139531,7 +139528,7 @@ False
 
 
 
-140560	
+140557	
 
 
 
@@ -139665,7 +139662,7 @@ True
 
 
 False
-140696	False
+140693	False
 
 
 False
@@ -139741,7 +139738,7 @@ False
 False
 False
 False
-140774	
+140771	
 
 
 
@@ -140159,7 +140156,7 @@ False
 
 
 
-141194	
+141191	
 
 
 
@@ -140304,7 +140301,7 @@ False
 
 
 
-141341	
+141338	
 
 
 
@@ -140390,7 +140387,7 @@ False
 
 
 
-141429	False
+141426	False
 True
 False
 
@@ -140550,7 +140547,7 @@ True
 
 
 
-141590	True
+141587	True
 
 
 True
@@ -140662,7 +140659,7 @@ True
 
 True
 True
-141703	False
+141700	False
 
 
 
@@ -140945,7 +140942,7 @@ False
 
 
 
-141987	False
+141984	False
 
 
 False
@@ -141101,7 +141098,7 @@ False
 
 
 
-142144	True
+142141	True
 
 
 True
@@ -141303,7 +141300,7 @@ True
 True
 False
 False
-142348	False
+142345	False
 False
 False
 True
@@ -141348,7 +141345,7 @@ True
 
 False
 False
-142395	
+142392	
 
 
 
@@ -141440,7 +141437,7 @@ False
 
 
 
-142488	False
+142485	False
 False
 True
 
@@ -141534,7 +141531,7 @@ False
 
 
 
-142583	False
+142580	False
 
 
 True
@@ -143077,7 +143074,7 @@ False
 True
 True
 True
-144127	False
+144124	False
 False
 False
 False
@@ -144279,7 +144276,7 @@ False
 
 
 
-145331	
+145328	
 
 
 
@@ -144361,7 +144358,7 @@ False
 
 False
 False
-145414	False
+145411	False
 
 False
 False
@@ -144930,7 +144927,7 @@ False
 
 
 
-145984	True
+145981	True
 True
 True
 
@@ -145088,7 +145085,7 @@ True
 
 
 
-146143	
+146140	
 
 
 
@@ -145414,7 +145411,7 @@ True
 True
 True
 False
-146470	False
+146467	False
 False
 
 
@@ -145569,7 +145566,7 @@ False
 
 
 
-146626	True
+146623	True
 
 True
 True
@@ -145758,7 +145755,7 @@ True
 True
 True
 True
-146816	
+146813	
 
 
 
@@ -145959,7 +145956,7 @@ False
 
 
 
-147018	True
+147015	True
 True
 True
 
@@ -148446,7 +148443,7 @@ False
 True
 True
 True
-149506	False
+149503	False
 True
 False
 False
@@ -148566,7 +148563,7 @@ True
 False
 
 
-149627	
+149624	
 
 
 
@@ -148609,7 +148606,7 @@ True
 
 
 
-149672	
+149669	
 
 
 
@@ -148719,7 +148716,7 @@ False
 
 
 
-149784	
+149781	
 
 
 
@@ -148822,7 +148819,7 @@ False
 
 
 
-149889	
+149886	
 
 
 
@@ -148911,7 +148908,7 @@ False
 
 
 
-149980	
+149977	
 
 
 
@@ -148931,7 +148928,7 @@ False
 
 
 
-150001	True
+149998	True
 
 
 True
@@ -151201,7 +151198,7 @@ False
 
 
 
-152272	True
+152269	True
 True
 False
 
@@ -152153,7 +152150,7 @@ True
 True
 True
 True
-153225	False
+153222	False
 False
 False
 True
@@ -152180,7 +152177,7 @@ False
 
 
 
-153253	False
+153250	False
 
 
 False
@@ -152248,7 +152245,7 @@ False
 False
 False
 False
-153322	
+153319	
 
 
 False
@@ -152487,7 +152484,7 @@ False
 
 False
 
-153563	
+153560	
 
 
 False
@@ -152517,7 +152514,7 @@ False
 
 
 
-153594	
+153591	
 
 
 
@@ -153339,7 +153336,7 @@ False
 
 
 
-154417	False
+154414	False
 True
 False
 
@@ -153726,7 +153723,7 @@ False
 
 
 
-154805	
+154802	
 
 
 
@@ -153898,7 +153895,7 @@ False
 
 False
 True
-154978	
+154975	
 
 
 
@@ -153918,7 +153915,7 @@ True
 True
 
 
-155000	True
+154997	True
 
 True
 True
@@ -153957,7 +153954,7 @@ False
 False
 False
 False
-155040	True
+155037	True
 
 True
 True
@@ -154049,7 +154046,7 @@ False
 True
 True
 True
-155133	True
+155130	True
 
 True
 True
@@ -154197,7 +154194,7 @@ False
 
 False
 True
-155282	False
+155279	False
 False
 False
 
@@ -154270,7 +154267,7 @@ True
 True
 True
 True
-155356	True
+155353	True
 True
 
 
@@ -154309,7 +154306,7 @@ True
 True
 True
 True
-155396	True
+155393	True
 True
 
 
@@ -154349,7 +154346,7 @@ True
 True
 True
 True
-155437	True
+155434	True
 True
 
 
@@ -154387,7 +154384,7 @@ True
 True
 True
 True
-155476	False
+155473	False
 False
 
 
@@ -154471,7 +154468,7 @@ True
 
 True
 True
-155561	False
+155558	False
 False
 
 
@@ -154517,7 +154514,7 @@ False
 False
 False
 False
-155608	
+155605	
 
 
 
@@ -154535,7 +154532,7 @@ True
 False
 False
 False
-155627	
+155624	
 
 
 
@@ -154550,7 +154547,7 @@ False
 True
 True
 
-155643	True
+155640	True
 
 True
 True
@@ -154744,7 +154741,7 @@ False
 
 True
 True
-155838	False
+155835	False
 False
 False
 False
@@ -154889,7 +154886,7 @@ True
 True
 True
 True
-155984	True
+155981	True
 True
 True
 
@@ -154938,7 +154935,7 @@ True
 True
 True
 True
-156034	True
+156031	True
 
 
 True
@@ -155356,7 +155353,7 @@ True
 
 True
 True
-156453	False
+156450	False
 False
 False
 False
@@ -155386,7 +155383,7 @@ False
 False
 False
 False
-156484	
+156481	
 
 
 
@@ -155435,7 +155432,7 @@ True
 True
 True
 True
-156534	
+156531	
 
 
 
@@ -155445,7 +155442,7 @@ False
 True
 True
 True
-156545	
+156542	
 
 
 
@@ -155469,7 +155466,7 @@ True
 
 
 False
-156570	True
+156567	True
 True
 True
 True
@@ -155644,7 +155641,7 @@ False
 
 
 
-156747	True
+156744	True
 False
 
 
@@ -155789,7 +155786,7 @@ True
 True
 True
 True
-156893	True
+156890	True
 True
 True
 True
@@ -155892,7 +155889,7 @@ True
 True
 True
 True
-156997	True
+156994	True
 True
 True
 
@@ -155952,11 +155949,11 @@ True
 True
 True
 True
-157058	True
+157055	True
 True
 True
 True
-157063	True
+157060	True
 
 True
 True
@@ -155972,7 +155969,7 @@ True
 True
 
 True
-157080	True
+157077	True
 
 True
 True
@@ -156142,7 +156139,7 @@ True
 True
 True
 True
-157251	True
+157248	True
 True
 True
 
@@ -156164,7 +156161,7 @@ True
 True
 True
 True
-157274	True
+157271	True
 True
 True
 True
@@ -156188,7 +156185,7 @@ True
 True
 True
 True
-157299	True
+157296	True
 True
 True
 True
@@ -156213,7 +156210,7 @@ True
 True
 True
 
-157325	True
+157322	True
 True
 True
 True
@@ -156241,7 +156238,7 @@ True
 True
 True
 True
-157354	True
+157351	True
 True
 True
 True
@@ -156270,7 +156267,7 @@ True
 True
 True
 
-157384	False
+157381	False
 False
 True
 True
@@ -156293,7 +156290,7 @@ False
 False
 True
 True
-157408	False
+157405	False
 True
 True
 
@@ -156317,7 +156314,7 @@ True
 True
 True
 True
-157433	True
+157430	True
 True
 True
 True
@@ -156354,7 +156351,7 @@ True
 True
 True
 True
-157471	True
+157468	True
 True
 True
 True
@@ -156382,7 +156379,7 @@ True
 True
 True
 True
-157500	True
+157497	True
 True
 True
 True
@@ -156410,7 +156407,7 @@ True
 True
 True
 True
-157529	False
+157526	False
 False
 True
 True
@@ -156438,7 +156435,7 @@ True
 True
 True
 True
-157558	True
+157555	True
 True
 True
 True
@@ -156466,7 +156463,7 @@ True
 True
 True
 True
-157587	False
+157584	False
 
 
 False
@@ -156496,7 +156493,7 @@ False
 True
 True
 True
-157618	True
+157615	True
 True
 True
 True
@@ -156549,7 +156546,7 @@ False
 False
 False
 True
-157672	
+157669	
 
 
 
@@ -156766,7 +156763,7 @@ True
 
 
 
-157890	True
+157887	True
 
 
 True
@@ -156911,7 +156908,7 @@ True
 True
 True
 True
-158036	False
+158033	False
 True
 True
 
@@ -156942,7 +156939,7 @@ True
 True
 True
 True
-158068	False
+158065	False
 False
 False
 
@@ -157320,7 +157317,7 @@ True
 True
 True
 
-158447	True
+158444	True
 
 
 True
@@ -157466,7 +157463,7 @@ True
 True
 True
 True
-158595	False
+158592	False
 False
 False
 
@@ -157489,7 +157486,7 @@ False
 
 
 
-158619	False
+158616	False
 True
 True
 False
@@ -157722,7 +157719,7 @@ True
 
 
 
-158854	True
+158851	True
 True
 True
 
@@ -157818,7 +157815,7 @@ False
 
 
 
-158951	True
+158948	True
 True
 False
 
@@ -157846,7 +157843,7 @@ False
 
 
 
-158980	True
+158977	True
 True
 False
 False
@@ -157873,7 +157870,7 @@ False
 
 
 
-159008	True
+159005	True
 False
 
 
@@ -157900,7 +157897,7 @@ False
 
 
 
-159036	True
+159033	True
 False
 
 
@@ -157928,7 +157925,7 @@ False
 
 
 
-159065	True
+159062	True
 True
 False
 
@@ -157956,7 +157953,7 @@ False
 
 
 
-159094	True
+159091	True
 True
 False
 
@@ -158201,7 +158198,7 @@ False
 
 
 
-159340	
+159337	
 
 
 
@@ -158301,7 +158298,7 @@ False
 
 
 
-159441	False
+159438	False
 False
 True
 True
@@ -158455,7 +158452,7 @@ True
 
 
 
-159596	
+159593	
 
 
 
@@ -158630,7 +158627,7 @@ False
 
 
 
-159773	
+159770	
 
 
 
@@ -158773,7 +158770,7 @@ False
 
 
 
-159918	True
+159915	True
 True
 True
 
@@ -158803,7 +158800,7 @@ True
 True
 True
 True
-159949	True
+159946	True
 True
 True
 True
@@ -158834,7 +158831,7 @@ True
 True
 True
 True
-159981	True
+159978	True
 True
 True
 True
@@ -158856,7 +158853,7 @@ True
 True
 True
 True
-160004	True
+160001	True
 True
 True
 
@@ -158876,7 +158873,7 @@ True
 True
 True
 True
-160025	True
+160022	True
 True
 True
 
@@ -158903,7 +158900,7 @@ True
 True
 True
 True
-160053	True
+160050	True
 False
 False
 False
@@ -158981,7 +158978,7 @@ False
 True
 True
 True
-160132	False
+160129	False
 True
 
 
@@ -159177,7 +159174,7 @@ True
 True
 True
 True
-160329	True
+160326	True
 True
 True
 True
@@ -159201,7 +159198,7 @@ True
 True
 True
 True
-160354	True
+160351	True
 True
 True
 
@@ -159225,7 +159222,7 @@ True
 True
 True
 True
-160379	True
+160376	True
 True
 True
 
@@ -159259,7 +159256,7 @@ True
 True
 False
 True
-160414	True
+160411	True
 True
 True
 True
@@ -159284,7 +159281,7 @@ True
 True
 True
 True
-160440	False
+160437	False
 False
 True
 True
@@ -159336,7 +159333,7 @@ True
 True
 True
 True
-160493	False
+160490	False
 True
 False
 False
@@ -159394,7 +159391,7 @@ False
 False
 True
 True
-160552	True
+160549	True
 True
 True
 True
@@ -159459,7 +159456,7 @@ True
 False
 False
 False
-160618	False
+160615	False
 False
 False
 False
@@ -159499,7 +159496,7 @@ True
 True
 True
 False
-160659	False
+160656	False
 False
 False
 True
@@ -159531,7 +159528,7 @@ False
 True
 True
 True
-160693	False
+160690	False
 False
 False
 False
@@ -159625,7 +159622,7 @@ False
 
 
 
-160788	True
+160785	True
 True
 True
 True
@@ -159669,7 +159666,7 @@ True
 True
 True
 
-160833	True
+160830	True
 True
 False
 True
@@ -159709,7 +159706,7 @@ False
 False
 False
 False
-160874	True
+160871	True
 True
 True
 False
@@ -159746,7 +159743,7 @@ False
 False
 False
 False
-160912	False
+160909	False
 False
 True
 False
@@ -159789,7 +159786,7 @@ True
 True
 True
 True
-160956	True
+160953	True
 True
 True
 True
@@ -159842,7 +159839,7 @@ True
 True
 True
 True
-161011	
+161008	
 
 
 
@@ -159928,7 +159925,7 @@ True
 True
 True
 True
-161098	
+161095	
 
 
 
@@ -160018,7 +160015,7 @@ False
 
 
 
-161190	False
+161187	False
 True
 
 
@@ -160090,7 +160087,7 @@ True
 
 
 
-161263	False
+161260	False
 True
 
 
@@ -160143,7 +160140,7 @@ False
 
 
 
-161317	False
+161314	False
 
 
 True
@@ -160194,7 +160191,7 @@ False
 
 
 
-161369	
+161366	
 
 
 
@@ -160236,7 +160233,7 @@ False
 
 
 
-161412	
+161409	
 
 
 
@@ -160512,7 +160509,7 @@ False
 
 
 
-161690	
+161687	
 
 
 
@@ -160686,7 +160683,7 @@ False
 
 
 
-161865	True
+161862	True
 True
 True
 True
@@ -160728,7 +160725,7 @@ True
 True
 True
 True
-161908	True
+161905	True
 True
 
 
@@ -160762,7 +160759,7 @@ True
 True
 True
 True
-161943	True
+161940	True
 True
 
 
@@ -160798,7 +160795,7 @@ True
 True
 True
 True
-161980	True
+161977	True
 True
 True
 True
@@ -160837,7 +160834,7 @@ True
 True
 True
 True
-162020	True
+162017	True
 True
 True
 True
@@ -160875,7 +160872,7 @@ True
 True
 True
 True
-162059	True
+162056	True
 True
 True
 True
@@ -160926,7 +160923,7 @@ True
 True
 True
 True
-162111	True
+162108	True
 True
 True
 True
@@ -160971,7 +160968,7 @@ True
 True
 True
 True
-162157	True
+162154	True
 True
 
 
@@ -161002,7 +160999,7 @@ True
 True
 True
 True
-162189	True
+162186	True
 True
 
 
@@ -161034,7 +161031,7 @@ True
 True
 True
 True
-162222	True
+162219	True
 True
 True
 True
@@ -161067,7 +161064,7 @@ True
 True
 True
 True
-162256	True
+162253	True
 True
 True
 True
@@ -161103,7 +161100,7 @@ True
 True
 True
 True
-162293	True
+162290	True
 True
 True
 True
@@ -161148,7 +161145,7 @@ True
 True
 True
 True
-162339	True
+162336	True
 True
 True
 True
@@ -161174,7 +161171,7 @@ True
 True
 True
 True
-162366	True
+162363	True
 True
 True
 
@@ -161186,7 +161183,7 @@ True
 True
 True
 True
-162379	True
+162376	True
 True
 True
 
@@ -161202,7 +161199,7 @@ True
 True
 True
 True
-162396	True
+162393	True
 True
 True
 True
@@ -161236,7 +161233,7 @@ True
 True
 True
 True
-162431	True
+162428	True
 True
 True
 True
@@ -161264,7 +161261,7 @@ True
 True
 True
 True
-162460	True
+162457	True
 True
 True
 True
@@ -161290,7 +161287,7 @@ True
 True
 True
 True
-162487	True
+162484	True
 True
 True
 
@@ -161316,7 +161313,7 @@ True
 True
 True
 True
-162514	True
+162511	True
 True
 True
 True
@@ -161345,7 +161342,7 @@ True
 True
 True
 True
-162544	True
+162541	True
 True
 True
 
@@ -161387,7 +161384,7 @@ True
 True
 True
 True
-162587	True
+162584	True
 True
 True
 True
@@ -161412,7 +161409,7 @@ True
 True
 True
 True
-162613	True
+162610	True
 False
 True
 True
@@ -161449,7 +161446,7 @@ True
 True
 True
 True
-162651	False
+162648	False
 False
 False
 
@@ -161472,7 +161469,7 @@ True
 True
 True
 
-162675	False
+162672	False
 False
 False
 False
@@ -161494,7 +161491,7 @@ False
 True
 True
 True
-162698	False
+162695	False
 False
 False
 False
@@ -161518,7 +161515,7 @@ False
 False
 True
 True
-162723	False
+162720	False
 False
 False
 False
@@ -161549,7 +161546,7 @@ False
 True
 True
 True
-162755	True
+162752	True
 
 
 True
@@ -161590,7 +161587,7 @@ True
 True
 True
 True
-162797	True
+162794	True
 True
 True
 True
@@ -161676,7 +161673,7 @@ True
 True
 True
 True
-162884	True
+162881	True
 
 
 True
@@ -161733,7 +161730,7 @@ False
 True
 True
 True
-162942	False
+162939	False
 
 
 True
@@ -161805,7 +161802,7 @@ True
 
 True
 True
-163015	True
+163012	True
 True
 
 
@@ -162029,7 +162026,7 @@ True
 False
 False
 True
-163240	True
+163237	True
 
 
 True
@@ -162063,7 +162060,7 @@ True
 True
 True
 True
-163275	True
+163272	True
 
 
 True
@@ -162110,7 +162107,7 @@ True
 True
 True
 True
-163323	
+163320	
 
 
 
@@ -162217,7 +162214,7 @@ False
 
 
 
-163431	False
+163428	False
 False
 False
 
@@ -162323,7 +162320,7 @@ True
 True
 True
 True
-163538	False
+163535	False
 False
 
 
@@ -162396,7 +162393,7 @@ False
 
 
 
-163613	False
+163610	False
 False
 
 
@@ -162486,7 +162483,7 @@ False
 
 
 
-163705	
+163702	
 
 
 
@@ -162620,7 +162617,7 @@ False
 
 
 
-163840	True
+163837	True
 True
 
 True
@@ -162788,7 +162785,7 @@ False
 
 
 
-164009	
+164006	
 
 
 
@@ -162800,7 +162797,7 @@ True
 True
 True
 True
-164022	
+164019	
 
 
 
@@ -162812,7 +162809,7 @@ True
 True
 True
 True
-164035	
+164032	
 
 
 
@@ -162824,7 +162821,7 @@ True
 True
 True
 True
-164049	False
+164046	False
 True
 False
 
@@ -162880,7 +162877,7 @@ False
 
 
 
-164106	True
+164103	True
 True
 True
 True
@@ -163330,7 +163327,7 @@ True
 True
 True
 True
-164558	False
+164555	False
 False
 
 
@@ -163410,7 +163407,7 @@ False
 
 
 
-164640	False
+164637	False
 False
 
 
@@ -163469,7 +163466,7 @@ True
 
 
 
-164701	
+164698	
 
 
 
@@ -163557,7 +163554,7 @@ True
 
 
 True
-164791	False
+164788	False
 
 
 
@@ -163594,7 +163591,7 @@ True
 True
 
 
-164829	True
+164826	True
 True
 True
 
@@ -163642,7 +163639,7 @@ True
 
 
 
-164879	
+164876	
 
 
 
@@ -163736,7 +163733,7 @@ True
 True
 True
 True
-164974	
+164971	
 
 
 
@@ -163830,7 +163827,7 @@ False
 
 
 False
-165070	
+165067	
 
 
 
@@ -163871,7 +163868,7 @@ True
 
 
 True
-165112	
+165109	
 
 
 
@@ -163920,12 +163917,12 @@ True
 True
 False
 False
-165162	False
+165159	False
 False
 False
 True
 
-165168	False
+165165	False
 False
 False
 
@@ -163937,7 +163934,7 @@ True
 True
 True
 True
-165181	True
+165178	True
 True
 
 True
@@ -163950,7 +163947,7 @@ True
 True
 True
 True
-165195	True
+165192	True
 True
 
 True
@@ -163973,7 +163970,7 @@ True
 True
 True
 True
-165219	True
+165216	True
 True
 
 True
@@ -163988,7 +163985,7 @@ True
 True
 True
 True
-165235	True
+165232	True
 True
 
 False
@@ -164003,7 +164000,7 @@ True
 True
 True
 True
-165251	True
+165248	True
 True
 
 True
@@ -164020,14 +164017,14 @@ True
 
 True
 True
-165269	True
+165266	True
 True
 
 True
 True
 True
 True
-165277	True
+165274	True
 True
 
 True
@@ -164035,20 +164032,20 @@ True
 True
 True
 True
-165286	True
+165283	True
 True
 
 True
 True
 True
 True
-165294	True
+165291	True
 True
 
 True
 True
 True
-165301	True
+165298	True
 True
 
 True
@@ -164056,13 +164053,13 @@ True
 True
 True
 True
-165310	True
+165307	True
 False
 
 True
 True
 True
-165317	True
+165314	True
 False
 True
 True
@@ -164888,7 +164885,7 @@ False
 False
 False
 True
-166144	True
+166141	True
 True
 True
 True
@@ -165026,7 +165023,7 @@ False
 
 True
 True
-166283	False
+166280	False
 
 
 
@@ -165417,7 +165414,7 @@ False
 
 
 
-166675	
+166672	
 
 
 
@@ -165430,7 +165427,7 @@ False
 False
 False
 False
-166689	False
+166686	False
 False
 True
 
@@ -165444,7 +165441,7 @@ False
 False
 False
 False
-166704	True
+166701	True
 True
 True
 
@@ -165500,7 +165497,7 @@ False
 
 
 
-166761	True
+166758	True
 True
 True
 
@@ -165524,7 +165521,7 @@ False
 
 
 
-166786	False
+166783	False
 True
 
 True
@@ -165579,7 +165576,7 @@ False
 
 
 
-166843	
+166840	
 
 
 
@@ -165632,7 +165629,7 @@ False
 False
 False
 True
-166897	True
+166894	True
 True
 True
 
@@ -165679,7 +165676,7 @@ True
 
 
 
-166945	True
+166942	True
 True
 True
 
@@ -165801,7 +165798,7 @@ True
 
 
 
-167068	True
+167065	True
 
 True
 True
@@ -165846,7 +165843,7 @@ False
 
 
 
-167115	
+167112	
 
 
 
@@ -166030,7 +166027,7 @@ False
 
 
 
-167301	False
+167298	False
 False
 False
 False
@@ -166052,7 +166049,7 @@ True
 True
 True
 True
-167324	True
+167321	True
 True
 
 
@@ -166078,7 +166075,7 @@ True
 
 
 
-167351	True
+167348	True
 True
 True
 True
@@ -166090,7 +166087,7 @@ True
 
 
 
-167364	True
+167361	True
 True
 True
 False
@@ -166103,7 +166100,7 @@ False
 
 
 
-167378	True
+167375	True
 True
 True
 False
@@ -166129,7 +166126,7 @@ True
 
 
 
-167405	True
+167402	True
 True
 True
 
@@ -166143,7 +166140,7 @@ True
 
 
 
-167420	True
+167417	True
 True
 True
 
@@ -166157,7 +166154,7 @@ True
 
 
 
-167435	True
+167432	True
 True
 True
 False
@@ -166171,7 +166168,7 @@ False
 
 
 
-167450	True
+167447	True
 False
 False
 
@@ -166184,7 +166181,7 @@ False
 
 
 
-167464	True
+167461	True
 False
 False
 False
@@ -166198,7 +166195,7 @@ False
 
 
 
-167479	True
+167476	True
 False
 False
 
@@ -166212,7 +166209,7 @@ False
 
 
 
-167494	False
+167491	False
 False
 
 
@@ -166229,7 +166226,7 @@ True
 True
 True
 True
-167512	True
+167509	True
 True
 True
 True
@@ -166239,7 +166236,7 @@ True
 True
 True
 True
-167523	True
+167520	True
 True
 True
 True
@@ -166249,7 +166246,7 @@ True
 True
 True
 True
-167534	True
+167531	True
 True
 
 
@@ -166261,7 +166258,7 @@ True
 True
 True
 True
-167547	True
+167544	True
 True
 True
 
@@ -166270,7 +166267,7 @@ True
 True
 True
 True
-167557	True
+167554	True
 True
 True
 
@@ -166278,7 +166275,7 @@ True
 True
 True
 True
-167566	True
+167563	True
 True
 True
 True
@@ -166292,14 +166289,14 @@ True
 True
 True
 False
-167581	True
+167578	True
 True
 True
 
 
 True
 False
-167589	True
+167586	True
 True
 True
 True
@@ -166309,7 +166306,7 @@ True
 True
 True
 True
-167600	True
+167597	True
 True
 True
 
@@ -166318,7 +166315,7 @@ True
 True
 True
 True
-167610	
+167607	
 
 
 
@@ -166475,7 +166472,7 @@ True
 True
 True
 True
-167768	True
+167765	True
 True
 True
 True
@@ -166496,7 +166493,7 @@ True
 True
 True
 True
-167790	
+167787	
 
 
 
@@ -166518,7 +166515,7 @@ True
 
 
 
-167813	
+167810	
 
 
 
@@ -166555,7 +166552,7 @@ False
 True
 False
 False
-167851	
+167848	
 
 
 
@@ -166593,7 +166590,7 @@ False
 
 
 
-167890	
+167887	
 
 
 
@@ -166662,7 +166659,7 @@ False
 
 
 
-167960	
+167957	
 
 
 
@@ -166721,7 +166718,7 @@ False
 
 
 
-168020	True
+168017	True
 True
 True
 True
@@ -166737,7 +166734,7 @@ False
 
 
 
-168037	True
+168034	True
 
 True
 True
@@ -166754,7 +166751,7 @@ True
 False
 False
 False
-168055	True
+168052	True
 True
 True
 
@@ -166770,7 +166767,7 @@ False
 
 
 
-168072	True
+168069	True
 
 True
 True
@@ -166785,7 +166782,7 @@ False
 
 
 
-168088	True
+168085	True
 
 True
 True
@@ -166801,7 +166798,7 @@ True
 
 
 
-168105	False
+168102	False
 
 False
 False
@@ -166813,7 +166810,7 @@ False
 
 
 
-168118	False
+168115	False
 False
 False
 False
@@ -166823,7 +166820,7 @@ True
 True
 True
 
-168129	True
+168126	True
 
 True
 True
@@ -166839,7 +166836,7 @@ False
 
 
 
-168146	True
+168143	True
 True
 True
 
@@ -166871,7 +166868,7 @@ False
 
 
 
-168179	True
+168176	True
 
 True
 True
@@ -166889,7 +166886,7 @@ False
 
 
 
-168199	
+168196	
 
 
 
@@ -166936,7 +166933,7 @@ True
 True
 False
 
-168247	
+168244	
 
 
 
@@ -166966,7 +166963,7 @@ True
 
 
 
-168278	True
+168275	True
 True
 True
 
@@ -166991,7 +166988,7 @@ False
 
 
 
-168304	True
+168301	True
 True
 
 
@@ -167011,7 +167008,7 @@ False
 
 
 
-168325	True
+168322	True
 True
 True
 True
@@ -167512,7 +167509,7 @@ True
 True
 True
 True
-168827	False
+168824	False
 
 False
 
@@ -167557,7 +167554,7 @@ True
 True
 True
 True
-168873	True
+168870	True
 
 False
 False
@@ -167727,7 +167724,7 @@ False
 False
 False
 True
-169044	False
+169041	False
 False
 False
 True
@@ -167842,10 +167839,10 @@ True
 True
 False
 False
-169160	True
+169157	True
 True
 True
-169164	False
+169161	False
 True
 
 
@@ -167886,7 +167883,7 @@ True
 True
 True
 True
-169206	True
+169203	True
 True
 True
 
@@ -167895,7 +167892,7 @@ True
 True
 True
 True
-169216	True
+169213	True
 True
 
 
@@ -167978,7 +167975,7 @@ False
 False
 False
 False
-169301	False
+169298	False
 False
 False
 
@@ -167995,11 +167992,11 @@ False
 False
 False
 False
-169319	False
+169316	False
 False
 True
 True
-169324	False
+169321	False
 False
 
 
@@ -168035,7 +168032,7 @@ True
 False
 False
 True
-169361	False
+169358	False
 True
 True
 
@@ -168043,7 +168040,7 @@ True
 True
 True
 True
-169370	False
+169367	False
 True
 
 
@@ -168065,7 +168062,7 @@ False
 False
 True
 True
-169393	False
+169390	False
 False
 False
 False
@@ -168210,7 +168207,7 @@ False
 False
 False
 True
-169539	True
+169536	True
 True
 True
 True
@@ -168333,7 +168330,7 @@ True
 
 
 
-169663	True
+169660	True
 True
 
 True
@@ -168378,7 +168375,7 @@ False
 
 
 
-169709	True
+169706	True
 True
 True
 True
@@ -168859,7 +168856,7 @@ False
 
 
 
-170191	True
+170188	True
 True
 
 
@@ -168891,7 +168888,7 @@ True
 
 
 
-170224	True
+170221	True
 True
 
 
@@ -168921,7 +168918,7 @@ False
 
 
 
-170255	True
+170252	True
 True
 
 
@@ -168950,7 +168947,7 @@ True
 
 
 
-170285	True
+170282	True
 True
 False
 
@@ -169017,7 +169014,7 @@ True
 
 
 
-170353	True
+170350	True
 True
 True
 
@@ -169051,7 +169048,7 @@ False
 False
 False
 False
-170388	True
+170385	True
 True
 True
 
@@ -169326,11 +169323,11 @@ True
 
 True
 True
-170664	True
+170661	True
 True
 True
 True
-170669	True
+170666	True
 True
 True
 True
@@ -169352,7 +169349,7 @@ False
 False
 False
 True
-170692	True
+170689	True
 True
 
 True
@@ -169375,7 +169372,7 @@ True
 
 
 
-170716	False
+170713	False
 False
 
 
@@ -169393,7 +169390,7 @@ False
 
 
 
-170735	True
+170732	True
 True
 True
 
@@ -169424,7 +169421,7 @@ True
 True
 True
 True
-170767	True
+170764	True
 True
 True
 
@@ -169730,7 +169727,7 @@ False
 
 
 
-171074	
+171071	
 
 
 
@@ -170031,7 +170028,7 @@ True
 True
 True
 True
-171376	True
+171373	True
 True
 True
 True
@@ -170046,7 +170043,7 @@ True
 True
 True
 True
-171392	True
+171389	True
 True
 True
 True
@@ -170055,7 +170052,7 @@ False
 True
 True
 True
-171402	
+171399	
 
 
 
@@ -170095,7 +170092,7 @@ True
 True
 True
 True
-171443	True
+171440	True
 True
 True
 
@@ -170215,7 +170212,7 @@ True
 True
 True
 True
-171565	True
+171562	True
 False
 False
 False
@@ -170684,7 +170681,7 @@ True
 True
 True
 True
-172036	True
+172033	True
 False
 
 
@@ -170704,7 +170701,7 @@ False
 
 
 
-172057	True
+172054	True
 True
 False
 False
@@ -170800,7 +170797,7 @@ True
 
 
 
-172154	True
+172151	True
 True
 
 
@@ -170815,7 +170812,7 @@ True
 
 
 
-172170	True
+172167	True
 True
 True
 True
@@ -170904,7 +170901,7 @@ True
 True
 False
 False
-172260	True
+172257	True
 True
 True
 True
@@ -170946,7 +170943,7 @@ True
 
 
 
-172303	True
+172300	True
 True
 
 
@@ -170962,7 +170959,7 @@ False
 
 
 
-172320	True
+172317	True
 True
 True
 False
@@ -170985,7 +170982,7 @@ False
 
 
 
-172344	True
+172341	True
 True
 
 
@@ -171020,7 +171017,7 @@ False
 False
 True
 True
-172380	False
+172377	False
 True
 
 
@@ -171042,7 +171039,7 @@ True
 True
 True
 
-172403	True
+172400	True
 True
 True
 
@@ -171052,7 +171049,7 @@ True
 True
 True
 True
-172414	True
+172411	True
 True
 
 
@@ -171087,7 +171084,7 @@ True
 True
 True
 True
-172452	True
+172449	True
 True
 
 
@@ -171108,7 +171105,7 @@ True
 True
 True
 True
-172474	True
+172471	True
 True
 
 
@@ -171121,7 +171118,7 @@ True
 True
 True
 True
-172488	True
+172485	True
 True
 
 
@@ -171135,7 +171132,7 @@ True
 True
 False
 True
-172503	True
+172500	True
 True
 
 
@@ -171144,7 +171141,7 @@ False
 True
 True
 
-172513	True
+172510	True
 True
 
 
@@ -171160,7 +171157,7 @@ True
 True
 True
 True
-172530	True
+172527	True
 True
 True
 True
@@ -171182,7 +171179,7 @@ True
 True
 True
 True
-172553	True
+172550	True
 True
 True
 
@@ -171191,7 +171188,7 @@ True
 True
 True
 True
-172563	True
+172560	True
 True
 True
 True
@@ -171220,7 +171217,7 @@ True
 True
 True
 True
-172593	True
+172590	True
 True
 
 
@@ -171263,7 +171260,7 @@ True
 True
 True
 True
-172637	True
+172634	True
 True
 True
 
@@ -171271,7 +171268,7 @@ True
 True
 True
 True
-172646	True
+172643	True
 
 True
 True
@@ -171318,7 +171315,7 @@ True
 True
 True
 True
-172694	True
+172691	True
 True
 True
 True
@@ -171334,7 +171331,7 @@ True
 True
 True
 False
-172711	False
+172708	False
 True
 True
 False
@@ -171366,7 +171363,7 @@ True
 True
 True
 True
-172744	True
+172741	True
 True
 True
 True
@@ -171388,7 +171385,7 @@ True
 True
 True
 True
-172767	True
+172764	True
 True
 
 
@@ -171412,7 +171409,7 @@ True
 
 True
 True
-172792	False
+172789	False
 False
 False
 
@@ -171761,7 +171758,7 @@ True
 True
 True
 True
-173142	False
+173139	False
 True
 
 
@@ -171788,7 +171785,7 @@ True
 False
 False
 False
-173170	False
+173167	False
 False
 False
 
@@ -172006,7 +172003,7 @@ False
 
 
 
-173389	
+173386	
 
 
 
@@ -172118,7 +172115,7 @@ False
 
 
 
-173503	
+173500	
 
 
 
@@ -172250,7 +172247,7 @@ True
 
 
 
-173636	
+173633	
 
 
 
@@ -172356,7 +172353,7 @@ True
 
 
 
-173744	
+173741	
 
 
 
@@ -172409,7 +172406,7 @@ False
 
 
 
-173798	
+173795	
 
 
 
@@ -172624,7 +172621,7 @@ False
 
 
 
-174014	False
+174011	False
 True
 False
 
@@ -172701,7 +172698,7 @@ False
 
 
 
-174092	True
+174089	True
 True
 True
 
@@ -172757,7 +172754,7 @@ False
 
 
 
-174151	
+174148	
 
 
 
@@ -172797,7 +172794,7 @@ True
 False
 True
 True
-174192	
+174189	
 
 
 
@@ -172823,7 +172820,7 @@ False
 
 
 
-174220	False
+174217	False
 False
 False
 False
@@ -172851,7 +172848,7 @@ True
 
 
 
-174250	
+174247	
 
 
 
@@ -172948,7 +172945,7 @@ False
 
 
 
-174348	True
+174345	True
 
 True
 
@@ -173054,13 +173051,13 @@ True
 True
 
 True
-174455	False
+174452	False
 
 
 True
 
 True
-174462	
+174459	
 
 
 
@@ -173109,7 +173106,7 @@ False
 
 
 
-174513	
+174510	
 
 
 

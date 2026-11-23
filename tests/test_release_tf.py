@@ -95,8 +95,9 @@ def test_section_addresses_are_unique_and_empty_1150_has_no_fabricated_line(api)
     assert not L.d(tablet, "word")
 
 
-def test_431_short_alphabet_letters_are_distinct_single_slots(api):
-    F, L = api.F, api.L
+def test_431_short_alphabet_letters_are_distinct_single_slots(api030):
+    """0.3.0's spellings; 0.4.0 reads them ṯ and ḫ (editorial decision 1)."""
+    F, L = api030.F, api030.L
     for letter, glyph, count in (("s̄", "𐎘", 14), ("ẖ", "𐎃", 7)):
         slots = F.sign.s(letter)
         assert len(slots) == count
@@ -197,7 +198,7 @@ def test_040_keeps_every_030_tablet_and_adds_111_texts(api030, api040):
     assert not RIH_HELD_040 & {F.rih.v(new[name]) for name in rih}
     counts = {kind: len(F.otype.s(kind)) for kind in
               ("sign", "word", "line", "column", "tablet", "boundary", "alias")}
-    assert counts == {"sign": 174549, "word": 32602, "line": 9535, "column": 531,
+    assert counts == {"sign": 174546, "word": 32872, "line": 9533, "column": 531,
                       "tablet": 453, "boundary": 1409, "alias": 3}
     assert len(F.synthetic.s("True")) == 1413
 
@@ -232,29 +233,78 @@ def test_040_language_counts_and_new_hurrian_texts(api040):
     for name in ("KTU 1.32", "KTU 1.33"):
         assert F.tablet_language.v(tablets[name]) == "Hurrian"
         assert {F.language.v(w) for w in L.d(tablets[name], "word")} == {"Hurrian"}
-    assert set(F.language.freqList()) == {("Ugaritic", 31556), ("Hurrian", 657), ("Akkadian", 129)}
+    assert set(F.language.freqList()) == {("Ugaritic", 31819), ("Hurrian", 664), ("Akkadian", 129)}
     assert dict(F.tablet_language.freqList()) == {
         "Ugaritic": 431, "Hurrian": 12, "Akkadian": 2,
         "Hurrian and Ugaritic": 4, "Akkadian and Ugaritic": 1}
 
 
-def test_040_changes_in_030_tablets_are_the_ktu_14_and_131_reviews(api030, api040):
-    def lines(api, name):
-        F, L, T = api.F, api.L, api.T
-        tablet = _tablets(api)[name]
-        return {(F.column.v(c), F.line_label.v(l)): T.text(l)
-                for c in L.d(tablet, "column") for l in L.d(c, "line")}
+def _lines(api, name):
+    F, L, T = api.F, api.L, api.T
+    tablet = _tablets(api)[name]
+    return {(F.column.v(c), F.line_label.v(l)): T.text(l)
+            for c in L.d(tablet, "column") for l in L.d(c, "line")}
 
-    old_names = set(_tablets(api030))
-    changed = {name for name in old_names
-               if lines(api030, name) != lines(api040, name)}
-    assert changed == {"KTU 1.4", "KTU 1.31"}
-    old14, new14 = lines(api030, "KTU 1.4"), lines(api040, "KTU 1.4")
+
+def test_040_text_changes_in_030_tablets_are_the_reviews_and_the_short_alphabet(api030, api040):
+    changed = {name for name in _tablets(api030)
+               if _lines(api030, name) != _lines(api040, name)}
+    assert changed == {"KTU 1.4", "KTU 1.5", "KTU 1.6", "KTU 1.31", "KTU 4.31"}
+    old14, new14 = _lines(api030, "KTU 1.4"), _lines(api040, "KTU 1.4")
     assert set(old14) == set(new14)
     assert (old14[("II", "11")], new14[("II", "11")]) == ("tġzy . bny . bnwt", "tġẓy . bny . bnwt")
     assert new14[("I", "5")] == "il . abh . il mlk"
-    old131, new131 = lines(api030, "KTU 1.31"), lines(api040, "KTU 1.31")
+    old131, new131 = _lines(api030, "KTU 1.31"), _lines(api040, "KTU 1.31")
     assert all(len(new131[k]) == len(old131[k]) + 5 for k in old131)
+    new16 = _lines(api040, "KTU 1.6")
+    assert new16[("VI", "45")].startswith("yn . tġẓyt")
+
+
+def test_040_ktu_16_iv_29_and_v_30_are_breaks(api030, api040):
+    F, L, E = api040.F, api040.L, api040.E
+    old16 = _lines(api030, "KTU 1.6")
+    assert old16[("IV", "29")].strip() == old16[("V", "30")].strip() == "…"
+    tablet = _tablets(api040)["KTU 1.6"]
+    for column, last in (("IV", "28"), ("V", "29")):
+        node = next(c for c in L.d(tablet, "column") if F.column.v(c) == column)
+        labels = [F.line_label.v(l) for l in L.d(node, "line")]
+        assert labels[-1] == last
+        after = [b for b in L.d(node, "boundary")
+                 if [F.line_label.v(l) for l in E.boundary_prev.f(b)] == [last]]
+        assert [F.boundary_kind.v(b) for b in after] == ["break"]
+
+
+def test_040_ktu_431_short_alphabet_reads_t_and_h_and_keeps_its_spelling(api040):
+    F, L = api040.F, api040.L
+    tablet = _tablets(api040)["KTU 4.31"]
+    sources = [(F.sign.v(s), F.usign.v(s), F.sign_source.v(s))
+               for s in L.d(tablet, "sign") if F.sign_source.v(s)]
+    assert sorted(set(sources)) == [("ḫ", "𐎃", "ẖ"), ("ṯ", "𐎘", "s̄")]
+    assert len(sources) == 21
+    assert not F.sign.s("s̄") and not F.sign.s("ẖ")
+    assert _lines(api040, "KTU 4.31")[("I", "2")].startswith("b ṯṯ ʿṯr ṯmn . rqḫ")
+
+
+def test_040_ktu_11_ii_10_ayin_of_db_is_uncertain(api030, api040):
+    def ayin_cert(api):
+        F, L, T = api.F, api.L, api.T
+        line = T.nodeFromSection(("KTU 1.1", "II", "10"))
+        word = next(w for w in L.d(line, "word") if F.g_cons.v(w) == "ʿdb")
+        return F.cert.v(L.d(word, "sign")[0])
+    assert (ayin_cert(api030), ayin_cert(api040)) == ("True", "False")
+
+
+def test_040_a_lost_stretch_after_a_word_is_a_gap_word(api030, api040):
+    """KTU 4.24 I 5 `[          ]xšt . b[n           ]`, whose source did not
+    change between the releases."""
+    def words(api):
+        F, L, T = api.F, api.L, api.T
+        line = T.nodeFromSection(("KTU 4.24", "I", "5"))
+        return [(F.g_cons.v(w), F.type.v(w)) for w in L.d(line, "word")][-2:]
+    assert words(api030)[-1] == ("bn", "lexical")
+    assert words(api040) == [("bn", "lexical"), ("", "gap")]
+    F = api040.F
+    assert sum(1 for w in F.otype.s("word") if F.type.v(w) == "gap") == 938
 
 
 def test_040_a_rih_text_is_addressed_by_its_rih_number(api040):

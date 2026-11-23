@@ -1,15 +1,15 @@
 @node
 @dataset=cuc
 @datasetName=Copenhagen Ugarit Corpus
-@description=language(s) of the tablet as KTU³ states it (SR:/Ge:); mixed texts name both, alphabetically, e.g. `Hurrian and Ugaritic`; absent where KTU³ assigns none (BN-44)
+@description=language(s) of the tablet as KTU³ states it (SR:/Ge:), or as RIH II states it for a Ras Ibn Hani text; mixed texts name both, alphabetically, e.g. `Hurrian and Ugaritic`; absent where none is assigned
 @licence=Creative Commons Attribution-NonCommercial 4.0 International License
 @licenceUrl=http://creativecommons.org/licenses/by-nc/4.0/
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-23T14:41:09+00:00Z
+@dateWritten=2026-11-23T21:18:34+00:00Z
 
-186028	Ugaritic
+186023	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic

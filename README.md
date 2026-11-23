@@ -76,6 +76,7 @@ The texts are annotated with the following features:
 - language: language of the word (Ugaritic, Hurrian or Akkadian)
 - tablet_language: language of the tablet as a whole
 - sign: letter in Latin script
+- sign_source: the original spelling where a letter is normalised (the short alphabet of KTU 4.31)
 - usign: letter in Ugaritic script
 - emen: emendations of various sorts in relation to a sign (including reconstructed, missing, excised, or redundant signs/letters)
 - cert: certainty of the text in relation to a sign (corresponding to the italic of KTU)

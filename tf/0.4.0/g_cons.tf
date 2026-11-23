@@ -7,9 +7,9 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-18T22:05:55+00:00Z
+@dateWritten=2026-11-23T21:18:34+00:00Z
 
-186481	nšm
+186476	nšm
 n
 ʿm
 xdyn
@@ -1164,6 +1164,7 @@ tm
 ymtm
 
 npšh
+
 w
 iṯl
 
@@ -1291,6 +1292,7 @@ n
 b
 ġrt
 ṯbt
+
 ḥšqk
 ʿṣk
 ʿbṣk
@@ -1339,6 +1341,7 @@ at
 w
 ank
 ibġyh
+
 w
 yʿn
 kṯr
@@ -1404,6 +1407,7 @@ ykbdnh
 ṯr
 il
 abh
+
 ḥš
 bhtm
 tbnn
@@ -1430,6 +1434,7 @@ il
 yṯb
 b
 mrzḥ
+
 bṯt
 ʿllmn
 k
@@ -1443,6 +1448,7 @@ ylkn
 ḥš
 b
 arṣ
+
 b
 ʿpr
 ḫbl
@@ -1475,6 +1481,7 @@ lṭpn
 il
 d
 pid
+
 šm
 bny
 yw
@@ -1500,12 +1507,14 @@ pʿrt
 šmk
 mdd
 il
+
 bt
 kspy
 dt
 bd
 aliyn
 bʿl
+
 kd
 ynaṣn
 gršnn
@@ -1518,6 +1527,7 @@ l
 kḥṯ
 drkth
 šṣṣ
+
 w
 hm
 ap
@@ -1528,6 +1538,7 @@ il
 dbḥ
 pʿr
 bnh
+
 ṭbḫ
 alpm
 ap
@@ -1674,10 +1685,12 @@ mṭ
 tpln
 b
 gbl
+
 ab
 šnm
 aṯtm
 tqḥ
+
 mlakm
 ylak
 ym
@@ -1687,6 +1700,7 @@ b
 ʿlṣm
 npr
 šmm
+
 uṭ
 ṯbr
 aphm
@@ -2263,6 +2277,7 @@ in
 aṯt
 lk
 km
+
 ilm
 x
 x
@@ -2578,11 +2593,13 @@ mt
 b
 ʿlm
 ymlk
+
 ḥm
 l
 šrr
 w
 yʿn
+
 yʿn
 ym
 l
@@ -2591,6 +2608,7 @@ l
 šrr
 w
 tʿn
+
 bʿlm
 hmt
 
@@ -3209,6 +3227,7 @@ rgm
 w
 lḫšt
 abn
+
 rgm
 l
 tdʿ
@@ -3543,6 +3562,7 @@ aḫdhm
 b
 ymny
 xxx
+
 bʿl
 b
 gdlt
@@ -4076,6 +4096,7 @@ b
 mdd
 il
 ym
+
 b
 ym
 il
@@ -4086,13 +4107,16 @@ il
 y
 aliyn
 bʿl
+
 btlt
 ʿnt
+
 mh
 kx
 w
 at
 aṯrt
+
 b
 im
 bl
@@ -5690,7 +5714,8 @@ l
 ytn
 pnm
 ṯʿm
-bnilm
+bn
+ilm
 mt
 tk
 qrth
@@ -5710,7 +5735,8 @@ aliyn
 bn
 bʿl
 hwt
-aliynqrdm
+aliyn
+qrdm
 bhṯ
 bn
 ilm
@@ -5730,7 +5756,8 @@ ik
 yṣḥn
 bʿl
 xxxxxx
-yqrunhd
+yqrun
+hd
 xxxxxxxxxp
 mlḥmy
 xxxxxxxxlt
@@ -5748,6 +5775,7 @@ x
 rbt
 ṯbt
 ḥšn
+
 y
 arṣ
 ḥšn
@@ -5765,12 +5793,14 @@ k
 dk
 k
 kbkbm
+
 dm
 mt
 aṣḥ
 ydd
 b
 qrb
+
 al
 ašṯt
 b
@@ -5788,11 +5818,13 @@ ilm
 
 šgr
 mud
+
 šgr
 mud
 dm
 mt
 aṣḥ
+
 ydd
 b
 qrb
@@ -5804,6 +5836,7 @@ w
 rgm
 l
 bn
+
 b
 mud
 ṣin
@@ -5815,9 +5848,11 @@ muid
 dm
 mt
 aṣḥ
+
 ydd
 b
 qrb
+
 ṯmm
 w
 lk
@@ -5829,6 +5864,7 @@ il
 km
 xxy
 xxxxx
+
 ʿ
 šdk
 w
@@ -5838,6 +5874,7 @@ mit
 rḥm
 tṭlb
 arṣ
+
 yšu
 gh
 w
@@ -5845,11 +5882,13 @@ yṣḥ
 i
 ap
 bʿl
+
 i
 hd
 d
 ynpʿ
 bʿl
+
 b
 ṯmnt
 a
@@ -5857,6 +5896,7 @@ yqrb
 x
 lḥm
 mṣdy
+
 ʿd
 lḥm
 šty
@@ -5885,6 +5925,7 @@ krpn
 
 w
 tṯtnyn
+
 tʿl
 trṯ
 bt
@@ -6145,6 +6186,7 @@ ysmt
 šd
 šḥlmmt
 tmġ
+
 l
 bʿl
 npl
@@ -6839,7 +6881,6 @@ dr
 x
 r
 x
-
 yiḫd
 bʿl
 bn
@@ -6912,6 +6953,7 @@ b
 rḥ
 m
 ʿlk
+
 pht
 dry
 b
@@ -6957,10 +6999,10 @@ arṣ
 w
 yql
 aḥd
+
 štxx
 dl
 š
-
 xxxxxxx
 ṭrdh
 xxxxxxx
@@ -7108,6 +7150,7 @@ kḥṯ
 drkth
 xxxx
 drkt
+
 drdr
 hn
 xxxx
@@ -7117,6 +7160,7 @@ il
 d
 pid
 xxxxxxx
+
 qbat
 xxxx
 bl
@@ -7134,7 +7178,7 @@ trmmt
 l
 tšt
 yn
-tġzyt
+tġẓyt
 špš
 rpim
 tḥtk
@@ -7260,6 +7304,7 @@ w
 tqr
 ʿd
 tšbʿ
+
 klyn
 špk
 ux
@@ -7268,6 +7313,7 @@ yd
 id
 yṣq
 šmn
+
 tšt
 rimt
 l
@@ -7289,6 +7335,7 @@ dd
 arṣy
 bt
 yʿbdr
+
 rgm
 l
 btlt
@@ -7362,6 +7409,7 @@ atm
 w
 ank
 ibġy
+
 hl
 yʿmdn
 i
@@ -7431,6 +7479,7 @@ hyrm
 h
 yrmm
 hkl
+
 mlk
 gbʿ
 hd
@@ -7778,6 +7827,7 @@ b
 nʿmm
 b
 ysmm
+
 arḫ
 arḫ
 
@@ -7789,6 +7839,7 @@ l
 x
 tḥbq
 arḫ
+
 tḥbq
 arḫ
 w
@@ -8025,6 +8076,7 @@ hd
 at
 bl
 at
+
 ḥmdm
 
 il
@@ -8037,6 +8089,7 @@ yšḥx
 yikl
 km
 spl
+
 tš
 tx
 t
@@ -8055,6 +8108,7 @@ at
 
 yisphm
 bxl
+
 bn
 dgn
 ʿḏbm
@@ -8071,6 +8125,7 @@ h
 idm
 ʿrẓ
 tʿrrhm
+
 ʿn
 bʿl
 aḫḏ
@@ -8078,6 +8133,7 @@ aḫḏ
 ẓrh
 ahḏ
 qšt
+
 pʿn
 bʿl
 aḫḏ
@@ -8093,6 +8149,7 @@ mšmš
 an
 pnm
 yḥrr
+
 b
 mtnm
 yšḫn
@@ -10145,6 +10202,7 @@ xxxx
 mrṣ
 mlk
 xxx
+
 krt
 adnkm
 krt
@@ -10581,6 +10639,7 @@ mrṣ
 gršt
 zbln
 rḥth
+
 ymlu
 nʿm
 rṯ
@@ -10604,6 +10663,7 @@ i
 lṯ
 ks
 krpn
+
 at
 š
 šʿd
@@ -10614,13 +10674,17 @@ rt
 b
 p
 šʿtqt
+
 il
 pdm
 ʿrm
 di
 šrr
+
 mrṣ
+
 zbln
+
 t
 b
 mt
@@ -10739,6 +10803,7 @@ w
 rgm
 ṯny
 lxxxrxxxx
+
 ištmʿ
 w
 tqġ
@@ -10952,6 +11017,7 @@ b
 šbʿ
 ymm
 w
+
 yqrb
 bʿl
 b
@@ -11092,6 +11158,7 @@ bm
 nšq
 aṯth
 xxxxx
+
 b
 ḥbqh
 ḥmḥmt
@@ -12014,6 +12081,7 @@ qrb
 ṯirk
 lxxxxx
 xxxxx
+
 aby
 ndt
 ank
@@ -13797,6 +13865,7 @@ aṯrh
 l
 tdd
 ilnym
+
 mhr
 bʿl
 mhr
@@ -13836,9 +13905,11 @@ ym
 ʿṣ
 amr
 yuḫd
+
 nḫt
 kḥṯ
 drkt
+
 aṣḥ
 rpim
 iqra
@@ -13856,6 +13927,7 @@ tdd
 ilnym
 asr
 mrkbthm
+
 tʿln
 l
 mrkbthm
@@ -13886,6 +13958,7 @@ x
 iqra
 ilm
 nʿmm
+
 w
 ysmm
 bn
@@ -14727,6 +14800,7 @@ h
 nt
 ṯx
 ugrt
+
 ʿnt
 kmm
 l
@@ -14737,6 +14811,7 @@ w
 ʿṣrm
 ṣlyh
 šrp
+
 ṯlṯm
 w
 b
@@ -14751,12 +14826,14 @@ kbd
 ṯ
 l
 ṣpn
+
 š
 l
 w
 x
 kx
 ṯlṯ
+
 l
 
 
@@ -14950,6 +15027,7 @@ npy
 w
 npy
 ugrt
+
 y
 ulp
 
@@ -15473,6 +15551,7 @@ il
 w
 b
 urbt
+
 ytk
 gdlt
 ilhm
@@ -16296,6 +16375,7 @@ b
 ym
 mlat
 yqln
+
 ṯn
 alpm
 yrḫ
@@ -16350,6 +16430,7 @@ bʿl
 ṣpn
 w
 npš
+
 il
 ṣpn
 ilib
@@ -16477,6 +16558,7 @@ t
 l
 il
 
+
 aṯrt
 š
 l
@@ -16494,17 +16576,21 @@ w
 b
 ṯlṯ
 ṣin
+
 l
 ll
 pr
 mit
 šʿrt
+
 ptr
 kx
 xlyu
 mlk
+
 y
 ʿṯtrt
+
 l
 ksu
 ilt
@@ -16518,6 +16604,7 @@ ilt
 š
 l
 ʿṯtrt
+
 ʿṣr
 l
 pdr
@@ -16526,6 +16613,7 @@ pdr
 tšnpn
 ʿlm
 kmm
+
 w
 l
 ll
@@ -16555,16 +16643,22 @@ aḏx
 ar
 
 aṯm
+
 pr
 ar
 kd
 ar
 aṯm
+
 i
 aṯm
+
 aṯm
+
 aṯm
+
 aṯm
+
 axṯm
 xx
 aṯm
@@ -16625,6 +16719,7 @@ alp
 
 ilib
 tʿrb
+
 dqt
 nb
 x
@@ -16663,6 +16758,7 @@ b
 yrḫ
 š
 šrp
+
 š
 x
 k
@@ -16859,6 +16955,7 @@ prṮ
 it
 kin
 tṯb
+
 aġr
 igṯtn
 an
@@ -17154,6 +17251,7 @@ nʿm
 k
 
 
+
 w
 k
 ḫr
@@ -17396,6 +17494,7 @@ amry
 db
 ybrkn
 bʿl
+
 ybrk
 bʿl
 p
@@ -17498,6 +17597,7 @@ bt
 l
 ilt
 bt
+
 l
 ḥtk
 dgn
@@ -17511,6 +17611,7 @@ n
 l
 ilt
 qbl
+
 l
 arṣy
 
@@ -17706,6 +17807,7 @@ mdbm
 l
 ḥrn
 ḥrnm
+
 xxxxxxxxlhm
 ql
 hm
@@ -17720,6 +17822,7 @@ xxxxxxxḥmt
 l
 ql
 rpim
+
 xxxxxxxllm
 abl
 mṣrpk
@@ -18278,6 +18381,7 @@ xlxx
 w
 śśw
 šnt
+
 w
 hm
 yhpk
@@ -18411,6 +18515,7 @@ qra
 ym
 ʿlm
 yʿrb
+
 t
 k
 tgml
@@ -18780,6 +18885,7 @@ xxxx
 l
 inš
 ilm
+
 w
 k
 ṯql
@@ -18787,6 +18893,7 @@ w
 w
 w
 alp
+
 x
 w
 xxxḫ
@@ -18893,9 +19000,11 @@ xxxxxtm
 ḫpty
 kdm
 mṣb
+
 agm
 arbʿ
 mṣb
+
 šrš
 šbʿ
 mṣb
@@ -18913,6 +19022,7 @@ tgmr
 yn
 mṣb
 šbʿ
+
 w
 ḥsp
 ṯn
@@ -18921,6 +19031,7 @@ d
 ṯbil
 ʿṯtrt
 ṣwdt
+
 tlk
 b
 mdbr
@@ -18961,6 +19072,7 @@ b
 qr
 mrḥh
 tiḫd
+
 šḫrh
 bm
 ymn
@@ -18981,6 +19093,7 @@ kṯr
 ḫssm
 xxxxxbm
 ʿṯtrt
+
 xxx
 xxxṯr
 
@@ -19080,9 +19193,11 @@ tyb
 b
 npšy
 rgm
+
 hwt
 bʿl
 ištmʿ
+
 šmʿ
 ly
 ypš
@@ -19169,6 +19284,7 @@ amr
 x
 ḫṭ
 ṯkl
+
 tlk
 ʿnn
 hlkt
@@ -19228,6 +19344,7 @@ bṯt
 l
 bṯt
 tṯb
+
 xx
 w
 yṣq
@@ -20064,6 +20181,7 @@ txxrn
 ibh
 
 tpšlt
+
 xxxxxx
 l
 
@@ -20102,6 +20220,7 @@ in
 lšn
 bh
 rġbn
+
 šphth
 tḥyt
 krt
@@ -20249,6 +20368,7 @@ hyt
 yḥsl
 w
 ʿql
+
 ilm
 tbʿrn
 ḥwt
@@ -20301,6 +20421,7 @@ w
 k
 w
 akl
+
 w
 b
 tšʿ
@@ -20347,6 +20468,7 @@ l
 p
 w
 ṯmn
+
 lx
 ḫx
 ṯlṯ
@@ -20493,12 +20615,14 @@ mhbn
 l
 inš
 ilm
+
 bn
 mlk
 
 mlk
 bt
 mlk
+
 š
 l
 pdr
@@ -20706,6 +20830,7 @@ mḫlpt
 xxxxxxxxxx
 amr
 xxxxxx
+
 nʿlm
 nxxxxxxxxxxxxx
 xxxxxxš
@@ -20867,6 +20992,7 @@ tzd
 ʿrq
 dm
 xxxxx
+
 ʿrq
 špš
 xxxxxxxxxxxxn
@@ -21429,6 +21555,7 @@ x
 b
 šbʿt
 ʿšrt
+
 iln
 ṯlṯt
 pbxxxx
@@ -22108,13 +22235,17 @@ gr
 ḥmyt
 
 ugrt
+
 w
 npy
+
 nqmd
+
 u
 šn
 ypkn
 ulp
+
 
 hw
 nkr
@@ -22246,6 +22377,7 @@ anp
 xxx
 ršp
 gdlt
+
 xxx
 by
 b
@@ -22253,6 +22385,7 @@ b
 xxxx
 ršp
 alp
+
 xxxxmt
 yṣi
 
@@ -22279,6 +22412,7 @@ x
 yṯṯb
 b
 šbʿ
+
 ym
 w
 yṣ
@@ -22389,6 +22523,7 @@ w
 š
 l
 pdry
+
 w
 šlmm
 l
@@ -22442,6 +22577,7 @@ rmš
 w
 š
 šlm
+
 l
 bʿl
 ṣpn
@@ -22462,6 +22598,7 @@ w
 š
 l
 ṣpn
+
 bt
 bʿl
 
@@ -22613,10 +22750,12 @@ alp
 w
 š
 šrp
+
 ršp
 ḥgb
 inš
 ilm
+
 ṯlṯ
 xx
 x
@@ -22625,8 +22764,10 @@ x
 l
 bʿl
 ḫlb
+
 l
 pdry
+
 xš
 
 š
@@ -22668,6 +22809,7 @@ abn
 xx
 xn
 ipd
+
 ipd
 gk
 w
@@ -22700,6 +22842,7 @@ ilz
 š
 ʿlm
 kmm
+
 l
 x
 r
@@ -22710,6 +22853,7 @@ bʿl
 w
 bt
 mṯbth
+
 ydh
 yx
 b
@@ -22720,8 +22864,10 @@ dm
 b
 yrḫ
 nql
+
 ilib
 gdlt
+
 py
 ṯn
 
@@ -22729,7 +22875,9 @@ py
 w
 šlmm
 gdlt
+
 šlmm
+
 ṣʿ
 
 ilib
@@ -22784,26 +22932,33 @@ k
 tld
 aṯt
 ḥwt
+
 k
 tld
 aṯt
+
 yʿzz
 ʿl
 
 k
 tld
 aṯt
+
 ḥwt
 ib
 tḫlq
+
 k
 tld
 aṯt
+
 ʿḏrt
 tkn
+
 k
 tld
 aṯt
+
 mrḥy
 mlk
 mlkn
@@ -23063,6 +23218,7 @@ mšlt
 arbʿ
 ḫpnt
 dqt
+
 ḫmšm
 ṯlṯ
 rkb
@@ -23274,6 +23430,7 @@ tm
 ẓbx
 ydd
 il
+
 x
 pnh
 l
@@ -23283,6 +23440,7 @@ l
 x
 
 kḏyn
+
 šmr
 
 ḫbr
@@ -23303,11 +23461,16 @@ z
 r
 d
 ulp
+
+ulp
+
+ulp
+
+ulp
+
 ulp
 ulp
-ulp
-ulp
-ulp
+
 kbd
 ḥ
 k
@@ -23315,6 +23478,7 @@ ymm
 x
 ym
 šḥl
+
 nkxx
 w
 šlm
@@ -23334,6 +23498,7 @@ x
 ht
 t
 iṣr
+
 š
 dgn
 
@@ -23783,6 +23948,7 @@ ih
 
 qṭr
 lbn
+
 r
 nʿ
 i
@@ -24004,12 +24170,14 @@ alp
 w
 š
 šlmm
+
 w
 š
 l
 ršp
 bbt
 ʿṣrm
+
 rm
 w
 mlk
@@ -24027,6 +24195,7 @@ yṯb
 mlk
 b
 urbt
+
 śd
 b
 šbʿ
@@ -24164,6 +24333,7 @@ yṣġd
 l
 arṣ
 pʿnh
+
 kdt
 bh
 x
@@ -24178,6 +24348,7 @@ aṯt
 lg
 lšn
 yṣq
+
 mšmṭr
 
 np
@@ -24582,13 +24753,16 @@ x
 riš
 rty
 yšlm
+
 šlm
 bnš
 yšlm
+
 xgr
 l
 šlmt
 šlm
+
 bth
 p
 šlmt
@@ -24626,6 +24800,7 @@ w
 hn
 tḥm
 bʿly
+
 xxxxxxxx
 xxxxxxxty
 l
@@ -24772,6 +24947,7 @@ ytrhd
 bʿl
 l
 riš
+
 ypt
 ʿṣ
 hp
@@ -24806,6 +24982,7 @@ w
 w
 rgm
 tṯṯb
+
 xxxxxxṭxxx
 xxxxxxmt
 bkxxxt
@@ -25357,6 +25534,7 @@ ydʿt
 mlk
 rb
 bʿly
+
 x
 r
 b
@@ -25527,6 +25705,7 @@ lhm
 ksp
 ʿšt
 ʿšr
+
 kst
 w
 g
@@ -25603,6 +25782,7 @@ xxx
 nky
 xxqḥ
 ank
+
 xxx
 ʿly
 k
@@ -25639,6 +25819,7 @@ l
 ksiy
 w
 prʿ
+
 xxx
 xxx
 xxx
@@ -25745,6 +25926,7 @@ xxxxx
 l
 aṯrt
 ym
+
 xxx
 xxx
 xxptm
@@ -26308,6 +26490,7 @@ b
 ḥwt
 ugrt
 ḥwt
+
 qṭ
 w
 b
@@ -26340,6 +26523,7 @@ xxxm
 xxxx
 kx
 argmn
+
 šixxxxx
 mxxx
 td
@@ -26363,11 +26547,13 @@ ibʿrnn
 argmn
 d
 riš
+
 dq
 w
 xxxxmx
 ʿm
 mlk
+
 kš
 
 l
@@ -26527,6 +26713,7 @@ w
 lk
 hl
 špš
+
 ʿm
 kx
 akl
@@ -26677,11 +26864,14 @@ bʿly
 mn
 w
 bʿl
+
 ʿšrm
+
 yšt
 u
 qrt
 mlk
+
 w
 ʿl
 aḥ
@@ -27042,8 +27232,10 @@ qlt
 
 
 šlm
+
 nx
 yšlm
+
 t
 x
 l
@@ -27142,6 +27334,7 @@ x
 x
 x
 ugrt
+
 d
 w
 x
@@ -27151,6 +27344,7 @@ mṯn
 by
 
 idk
+
 p
 l
 ġrdn
@@ -27245,8 +27439,10 @@ ank
 š
 lm
 likt
+
 at
 ʿmy
+
 w
 hl
 xxxšx
@@ -27261,6 +27457,7 @@ l
 pʿn
 adny
 qlt
+
 a
 l
 ybnn
@@ -27365,6 +27562,7 @@ mlk
 x
 ʿšrh
 mrḥqt
+
 lhm
 l
 ydrm
@@ -27608,10 +27806,12 @@ mlk
 amr
 mnm
 ḫṭut
+
 ky
 umy
 xxr
 hwt
+
 
 
 
@@ -27765,11 +27965,13 @@ mlk
 x
 mitm
 ṯql
+
 tḥmk
 px
 w
 mlk
 bʿly
+
 d
 rgm
 ly
@@ -27820,6 +28022,7 @@ kll
 dm
 
 ḥwt
+
 ṣb
 bʿ
 x
@@ -27951,6 +28154,7 @@ x
 xṣpy
 b
 ḫrṣ
+
 su
 adr
 n
@@ -27961,9 +28165,11 @@ x
 x
 tḥm
 xxxx
+
 l
 gr
 rgm
+
 lm
 aḫt
 mdy
@@ -27974,6 +28180,7 @@ uškny
 w
 ap
 utnn
+
 alphm
 x
 ġrm
@@ -28094,6 +28301,7 @@ rgm
 xx
 šbk
 ank
+
 m
 d
 ḫsr
@@ -28758,12 +28966,15 @@ x
 
 likt
 atḏn
+
 ʿm
 ʿbdk
 ht
+
 ḫrd
 w
 ḥmrm
+
 hlk
 l
 anzḫ
@@ -28935,6 +29146,7 @@ umy
 x
 w
 lḥt
+
 k
 tx
 w
@@ -29012,6 +29224,7 @@ urt
 
 
 rgm
+
 bxx
 išpr
 
@@ -29166,6 +29379,7 @@ x
 št
 b
 apśny
+
 r
 by
 w
@@ -29393,6 +29607,7 @@ bʿlh
 nqmd
 mlk
 ugrt
+
 phy
 w
 ṯpllm
@@ -30113,6 +30328,7 @@ ydʿ
 
 bnš
 kṯtġlm
+
 l
 ḫby
 ḥwt
@@ -30129,6 +30345,7 @@ bn
 udbr
 ʿrš
 ṯlḥn
+
 ap
 ṯn
 ptr
@@ -30482,10 +30699,12 @@ bd
 br
 ky
 bd
+
 bn
 
 
 ubdy
+
 
 mxx
 arbʿm
@@ -30674,6 +30893,7 @@ ksp
 bn
 rqdn
 ʿšrt
+
 ksp
 ʿm
 śzn
@@ -30684,6 +30904,7 @@ ksp
 špšn
 uškny
 ʿšrt
+
 ksp
 ʿm
 xxxn
@@ -30872,6 +31093,7 @@ x
 x
 d
 bn
+
 bn
 x
 
@@ -30938,6 +31160,7 @@ xmx
 
 ḫlb
 krd
+
 xxxx
 ṣʿq
 
@@ -31264,9 +31487,13 @@ nm
 a
 bn
 qrn
+
 qrn
+
 qrn
+
 qrn
+
 qrn
 qrn
 lbš
@@ -31294,15 +31521,20 @@ pdr
 mlk
 aḥd
 tšʿ
+
 tšʿ
+
 arbʿ
+
 ḫmš
 
 ḥmr
+
 bn
 sl
 bn
 idṯn
+
 xxxx
 šm
 
@@ -31317,12 +31549,15 @@ mat
 ḫrṣ
 ṯlṯ
 kkrm
+
 ṯlṯ
 ḥmr
+
 ḫmš
 ksp
 k
 arbʿ
+
 ṯmn
 ʿšr
 w
@@ -31341,6 +31576,7 @@ bn
 ʿl
 xšt
 bn
+
 x
 y
 x
@@ -31354,16 +31590,22 @@ bqʿty
 tkm
 uḫnp
 uškn
+
 ubrʿy
+
 ar
 mlk
 
 ġbl
 
 atlg
+
 ulm
+
 mʿrby
+
 ṭbq
+
 ġr
 mrkm
 bir
@@ -31431,9 +31673,11 @@ bn
 ṯmn
 mit
 
+
 ṯmnym
 dn
 ṯlṯm
+
 ḫ
 mitm
 xm
@@ -31441,45 +31685,48 @@ mšrn
 xt
 x
 
-ʿbdrs̄
+ʿbdrṯ
 b
 tbq
+
 b
-s̄s̄
-ʿs̄r
-s̄mn
-rqẖ
+ṯṯ
+ʿṯr
+ṯmn
+rqḫ
 ṭbn
 b
 tbq
 b
-ẖms̄
-ʿs̄r
+ḫmṯ
+ʿṯr
 x
 b
-ẖms̄
-ʿs̄r
+ḫmṯ
+ʿṯr
 b
-ẖms̄
-ʿs̄r
+ḫmṯ
+ʿṯr
 xxxxx
 dyb
 w
 bn
 ʿṭl
 b
-ypẖ
+ypḫ
 knʿm
-ʾẖmn
+ʾḫmn
 b
 tbq
+
 b
-ẖms̄
-ʿs̄r
-s̄mn
+ḫmṯ
+ʿṯr
+ṯmn
 xṣ
 y
 ḥyil
+
 kyt
 bn
 qd
@@ -31497,6 +31744,7 @@ bʿyn
 
 aġltn
 midḫy
+
 b
 n
 lṣn
@@ -31825,6 +32073,7 @@ yʿḏrn
 šd
 swr
 bn
+
 šd
 bn
 ppn
@@ -31835,7 +32084,9 @@ uḫn
 anyt
 ʿdn
 ṭbqym
+
 mʿqbym
+
 tšʿ
 š
 ġr
@@ -31940,6 +32191,7 @@ kbd
 ʿšr
 šurt
 l
+
 ṯmn
 šurt
 l
@@ -31970,10 +32222,12 @@ bnšx
 šurtm
 l
 bnš
+
 ṯlṯm
 šurt
 l
 bnš
+
 arbʿ
 šurt
 ṯṯ
@@ -31988,6 +32242,7 @@ arbʿm
 šurt
 l
 tgyn
+
 arbʿ
 šurt
 tšʿ
@@ -32102,8 +32357,10 @@ atnb
 ʿrq
 šʿrt
 qdšm
+
 mru
 skn
+
 mru
 ibrn
 mdm
@@ -32180,7 +32437,9 @@ yknʿm
 ṯql
 bn
 ubrʿym
+
 qdmn
+
 bʿlx
 šmt
 yšr
@@ -32208,6 +32467,7 @@ bn
 bn
 agyn
 iyṯr
+
 bn
 ġlmn
 ary
@@ -32399,6 +32659,7 @@ mry
 xx
 sp
 mry
+
 ktl
 ṯṯm
 sp
@@ -32416,15 +32677,18 @@ sp
 ʿšr
 sp
 mry
+
 ʿšr
 sp
 mry
+
 ṯṯ
 sp
 mry
 ʿšr
 sp
 mry
+
 tšʿm
 sp
 tšʿm
@@ -32469,6 +32733,7 @@ aṯry
 t
 ddm
 šʿrm
+
 d
 mit
 ḫsw
@@ -32478,6 +32743,7 @@ dd
 nʿr
 ṯlṯ
 ddm
+
 ṯlṯ
 kṯt
 ld
@@ -32487,10 +32753,12 @@ arbʿ
 dblt
 mrl
 
+
 mitm
 nṣ
 kṯm
 rqḥ
+
 x
 arbʿ
 dd
@@ -32498,6 +32766,7 @@ dd
 kṯm
 ššmn
 kṯm
+
 
 arbʿ
 dblt
@@ -32513,6 +32782,7 @@ lbn
 mṣbx
 kṯ
 aqhr
+
 lbn
 ṭ
 ṯlṯ
