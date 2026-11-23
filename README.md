@@ -60,12 +60,13 @@ KTU 1.8, 1.99 and 2.19 are not separate tablets in KTU³: their text is now part
 
 - RIH II 3, 5, 8, 12-18, 20-24, 26, 28, 30, 32-34, 36, 38-40, 44, 46-47, 50, 52, 56, 59, 64-68, 70-71, 73-81, 103-105, 107, 109-113, 116-121, 123-126, 128-132, 135-138, 140-153
 
-Most Ras Ibn Hani texts also have a KTU number (KTU 8.31, 8.32 and 9.439-9.528); the corpus refers to them by it.
+Most Ras Ibn Hani texts also have a KTU number (KTU 8.31, 8.32 and 9.439-9.528). They can be found by either number.
 
 The texts are annotated with the following features:
 
 - tablet: tablet title (KTU number, or RIH number for a Ras Ibn Hani text without one)
 - rih, ktu: the Ras Ibn Hani and KTU numbers of a Ras Ibn Hani text
+- tablet@rih: the same tablet titles, with Ras Ibn Hani texts named by their RIH number, for looking them up by it
 - column: column number or fragment
 - line_label: line number as printed
 - line: line number as an integer

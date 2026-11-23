@@ -245,12 +245,13 @@ and 7.191.
 
 ## Features
 
-The 0.3.0 features keep their meaning. Seven node features appear for the first
+The 0.3.0 features keep their meaning. Eight node features appear for the first
 time in a published CUC dataset; they come with the RIH texts. With `otype`
-this makes 40 node features (33 in 0.3.0) and the same three edge features.
+this makes 41 node features (33 in 0.3.0) and the same three edge features.
 
 | Feature | Node | Meaning | Values in 0.4.0 |
 | --- | --- | --- | --- |
+| `tablet@rih` | `tablet` | A second name for every tablet, so that a Ras Ibn Hani text can be addressed by its RIH number: a RIH text is named by its RIH II citation, every other tablet by its usual name. Use it with `lang="rih"`, see below. | 453 tablets |
 | `rih` | `tablet` | The RIH II citation of the text, for example `RIH 83/08`. A citation, not a claim about the physical object; a joined text cites all its pieces (`RIH 83/50 + 83/54`). | 90 tablets |
 | `ktu` | `tablet` | The KTU number RIH II gives for the text, for example `KTU 9.463`. Absent on the 15 RIH texts without one and on all KTU tablets, whose number is `tablet`. | 75 tablets |
 | `source_edition` | `tablet` | The edition the text is transcribed from: `RIH II`. Absent on KTU tablets. | 90 tablets |
@@ -272,6 +273,24 @@ Two existing features gain values from RIH II:
 - `cert` on RIH signs comes from RIH II's half-brackets: a sign inside `⸢ ⸣`
   is `False`, a read sign outside them `True`. An unread sign (`-` in RIH II,
   `x` in the corpus) is always `False`, as every `x` is in KTU.
+
+### Addressing a Ras Ibn Hani text by its RIH number
+
+A RIH text with a KTU number is addressed by that number, as before:
+`T.nodeFromSection(("KTU 9.463", "I", "1"))`. It can now also be addressed by
+its RIH number, with `lang="rih"`:
+
+```python
+line = T.nodeFromSection(("RIH 83/08", "I", "1"), lang="rih")
+T.sectionFromNode(line)              # ('KTU 9.463', 'I', '1')
+T.sectionFromNode(line, lang="rih")  # ('RIH 83/08', 'I', '1')
+```
+
+With `lang="rih"` every other tablet keeps its usual name, so the same calls
+work for KTU tablets: `T.nodeFromSection(("KTU 1.1", "I", "1"), lang="rih")`.
+This is Text-Fabric's mechanism for a second set of names for the top section
+level (BHSA uses it for book names in several languages); `rih` names the
+numbering, not a language.
 
 ## Changes within previously published tablets
 

@@ -256,3 +256,16 @@ def test_040_changes_in_030_tablets_are_the_ktu_14_and_131_reviews(api030, api04
     old131, new131 = lines(api030, "KTU 1.31"), lines(api040, "KTU 1.31")
     assert all(len(new131[k]) == len(old131[k]) + 5 for k in old131)
 
+
+def test_040_a_rih_text_is_addressed_by_its_rih_number(api040):
+    F, T = api040.F, api040.T
+    by_rih = getattr(F, "tablet@rih")
+    tablets = F.otype.s("tablet")
+    assert all(by_rih.v(t) == (F.rih.v(t) or F.tablet.v(t)) for t in tablets)
+    for t in tablets:
+        assert T.nodeFromSection((by_rih.v(t),), lang="rih") == t
+    line = T.nodeFromSection(("RIH 83/08", "I", "1"), lang="rih")
+    assert line == T.nodeFromSection(("KTU 9.463", "I", "1"))
+    assert T.sectionFromNode(line, lang="rih") == ("RIH 83/08", "I", "1")
+    assert T.nodeFromSection(("KTU 1.1", "I", "1"), lang="rih") == T.nodeFromSection(("KTU 1.1", "I", "1"))
+
