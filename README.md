@@ -54,6 +54,8 @@ The dataset contains 453 texts.
 - KTU 5.27
 - KTU 7.191
 
+KTU 1.8, 1.99 and 2.19 are not separate tablets in KTU³: their text is now part of KTU 1.3 VI 1-17, KTU 1.98 and KTU 3.12. The corpus keeps the old numbers as references to those texts.
+
 90 texts of *Ras Ibn Hani II. Les textes en écritures cunéiformes de l'âge du Bronze récent* (P. Bordreuil, D. Pardee and C. Roche-Hawley, BAH 214, 2019), by their number in that edition:
 
 - RIH II 3, 5, 8, 12-18, 20-24, 26, 28, 30, 32-34, 36, 38-40, 44, 46-47, 50, 52, 56, 59, 64-68, 70-71, 73-81, 103-105, 107, 109-113, 116-121, 123-126, 128-132, 135-138, 140-153
