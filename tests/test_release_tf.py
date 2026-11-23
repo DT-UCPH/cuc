@@ -319,3 +319,16 @@ def test_040_a_rih_text_is_addressed_by_its_rih_number(api040):
     assert T.sectionFromNode(line, lang="rih") == ("RIH 83/08", "I", "1")
     assert T.nodeFromSection(("KTU 1.1", "I", "1"), lang="rih") == T.nodeFromSection(("KTU 1.1", "I", "1"))
 
+
+def test_no_feature_value_carries_a_footnote_marker(api):
+    """Footnotes are not part of the corpus, so no marker such as `⁶⁾` may
+    appear in any node feature (the editors' rule)."""
+    F = api.F
+    offenders = {}
+    for name in api.Fall():
+        feature = getattr(F, name)
+        hits = [n for n, value in feature.items() if isinstance(value, str) and "⁾" in value]
+        if hits:
+            offenders[name] = len(hits)
+    assert offenders == {}
+

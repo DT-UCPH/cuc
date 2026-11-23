@@ -233,7 +233,7 @@ changes the value.
 | Feature | Node | Meaning and derivation in 0.3.0 |
 | --- | --- | --- |
 | `boundary_kind` | `boundary` | `break` for a transcription break or `ruling` for a scribal ruling, derived from the corresponding standalone marker paragraph. |
-| `boundary_source` | `boundary` | Exact printed marker, such as `…`, `-----`, or `=====`. This preserves the notation and single/double ruling distinction. |
+| `boundary_source` | `boundary` | Exact printed marker, such as `…`, `-----`, or `=====`. This preserves the notation and single/double ruling distinction. A footnote marker printed with it is not part of the corpus and is left out (corrected in this dataset on 23 November 2026: 24 values). |
 | `catalogue_alias` | `alias` | Superseded catalogue identifier, for example `KTU 1.99`. |
 | `catalogue_target` | `alias` | Canonical identifier and optional column/line range, for example `KTU 1.3 VI 1-17`. The declared target is resolved and validated against retained corpus nodes. |
 | `catalogue_alias_source` | `alias` | Literal catalogue cross-reference statement printed by the edition, including its edition number. It is textual catalogue evidence, not a document location or workflow record. |

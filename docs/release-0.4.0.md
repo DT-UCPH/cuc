@@ -325,6 +325,13 @@ from 669 to 938: 239 more in 107 tablets whose sources did not change, the rest
 in the reviewed KTU 1.1, 1.5 and 1.6. No sign is added or removed and the text
 reads the same; only the division into words changes.
 
+**3. Footnote markers are not part of the corpus.** A break or ruling printed
+with a footnote marker, such as `…⁶⁾` after KTU 1.6 IV 28, used to keep the
+marker in `boundary_source`. It is now `…`, as the text of a line already
+was. 0.4.0 has no footnote marker in any feature. The same correction is made
+in 0.3.0, where 24 `boundary_source` values change; nothing else in 0.3.0
+changes.
+
 ## Changes within previously published tablets
 
 336 of the 342 tablets of 0.3.0 keep the same lines, signs, spacing and
@@ -401,8 +408,10 @@ cannot change the data.
 The 0.4.0 sources were frozen from the 0.3.0 source set (342 KTU documents),
 27 finished KTU reviews and 90 RIH II transcriptions, with a hash of every
 input. The build is a full rebuild with the converter at
-alexsosn/CUC-doc-TF-converter branch `codex/release-040` (commit ac561ec); no
-TF file was edited by hand.
+alexsosn/CUC-doc-TF-converter branch `codex/release-040` (commit 80672df); no
+TF file was edited by hand. The 0.3.0 correction is a rebuild of 0.3.0 from its
+own frozen sources with its own converter plus only the marker fix (branch
+`codex/release-030-footnote-markers`, commit b9026a9).
 
 - Converter test suite: 1,107 passed, 1 skipped.
 - Source lint: only the three findings already present in 0.3.0 (KTU 1.66
@@ -413,5 +422,6 @@ TF file was edited by hand.
   decision 2 is counted separately above.
 - The CUC release tests check 0.4.0 as they check 0.3.0, plus the additions,
   the RIH features, RIH II's `Ugaritic` on RIH texts, the changed tablets
-  (KTU 1.1, 1.4, 1.5, 1.6, 1.31, 4.31) and both editorial decisions: 34
+  (KTU 1.1, 1.4, 1.5, 1.6, 1.31, 4.31), both editorial decisions, and the
+  absence of footnote markers from every feature of 0.3.0 and 0.4.0: 36
   passed. The general test that no `x` is certain runs on 0.4.0.
