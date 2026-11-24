@@ -13,14 +13,14 @@ available.
 | Node type | 0.3.0 | 0.4.0 | Interpretation |
 | --- | ---: | ---: | --- |
 | `sign` | 165,790 | 177,132 | 175,714 source-backed slots and 1,418 invisible synthetic slots in 0.4.0 |
-| `word` | 30,842 | 33,009 | Source text units, including gaps and non-lexical content |
+| `word` | 30,842 | 33,012 | Source text units, including gaps and non-lexical content |
 | `line` | 8,691 | 9,554 | Retained textual lines |
 | `column` | 415 | 534 | Columns, implicit column I and fragment divisions |
 | `tablet` | 342 | 456 | 366 KTU tablets and 90 RIH texts; 114 additions |
 | `boundary` | 1,166 | 1,417 | 846 scribal rulings and 571 breaks |
 | `alias` | 3 | 3 | Catalogue identifiers resolving to existing canonical spans |
 
-There are 222,105 nodes in total. The build applies the same 42 configured
+There are 222,108 nodes in total. The build applies the same 42 configured
 corrections as 0.3.0, recognizes one as already present and leaves none
 unmatched; 41 lines carry `erratum`, all in tablets that were already in 0.3.0.
 The correction of KTU 1.5 II 22 (CTA 34 n. 7) now matches the finished review,
@@ -255,7 +255,7 @@ been given a language of its own.
 
 | `language` | Words in 0.3.0 | Words in 0.4.0 | Texts |
 | --- | ---: | ---: | --- |
-| `Ugaritic` | 29,813 | 31,938 | all other KTU texts, and the 1,125 words of the 90 RIH texts |
+| `Ugaritic` | 29,813 | 31,941 | all other KTU texts, and the 1,125 words of the 90 RIH texts |
 | `Hurrian` | 640 | 681 | as in 0.3.0, plus KTU 1.32, 1.33, 1.36 and 1.37 |
 | `Akkadian` | 129 | 130 | KTU 1.67, 1.69 and 1.73 lines 1–7 |
 | absent | 260 | 260 | as in 0.3.0: mixed passages and texts without a stated language |
@@ -348,11 +348,10 @@ when the divider stands before it: in `yḥpn . ḥy[ly .      ]` (KTU 1.22 II 1
 the word `ḥyly` ends with its divider and the stretch is a gap word. Before,
 the stretch and the dot stayed in the word. This adds 23 gap words in 16
 tablets, and their 23 dots become trailers. A single space after a divider is
-not a lost stretch (`[tḥm . ] m[lk`). When a reading follows the bracket, as in
-`[l .    ]bʿly` (KTU 2.55 I 3), the stretch starts the next word, as a lacuna
-directly before a reading does; this concerns three lines (KTU 1.40 I 26, 2.23
-I 25, 2.55 I 3). Line texts do not change. With the new reviews, gap words
-number 1,034.
+not a lost stretch (`[tḥm . ] m[lk`). When a reading follows the bracket,
+there are three words: `[l .    ]bʿly` (KTU 2.55 I 3) is `l`, the lost stretch
+and `bʿly`. This adds three gap words (KTU 1.40 I 26, 2.23 I 25, 2.55 I 3).
+Line texts do not change. With the new reviews, gap words number 1,037.
 
 **3. Footnote markers are not part of the corpus.** A break or ruling printed
 with a footnote marker, such as `…⁶⁾` after KTU 1.6 IV 28, used to keep the
@@ -465,7 +464,7 @@ which each finished review replaces its reference version unless it is held
 (`sources/release-held.json`), and the same 90 RIH II transcriptions, byte for
 byte. The selection is cleared against the hashes of every selected review's
 Word and work file, and a hash of every input is kept. The build uses the
-converter's `main` at `c731750` and regenerates all 46 TF files. The 0.3.0
+converter's `main` at `8931e8b` and regenerates all 46 TF files. The 0.3.0
 correction was rebuilt from its own frozen sources with its own converter plus
 only the marker fix (branch `codex/release-030-footnote-markers`, commit
 b9026a9).
@@ -479,6 +478,7 @@ b9026a9).
   are new. All 342 tablets from 0.3.0 are retained.
 - The CUC release tests check 0.4.0 as they check 0.3.0, plus the additions,
   the RIH features, the reviewed readings, the editorial decisions and the
-  absence of footnote markers from node features of both versions. The 43
-  passing tests include source-backed one-space gaps, surface attribution
-  and certainty inside editorial brackets.
+  absence of footnote markers from node features of both versions. The 47
+  passing tests include source-backed one-space gaps, the word divider before
+  a lost stretch, the new Hurrian texts, surface attribution and certainty
+  inside editorial brackets.

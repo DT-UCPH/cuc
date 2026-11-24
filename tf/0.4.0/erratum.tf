@@ -7,7 +7,7 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-24T15:21:00+00:00Z
+@dateWritten=2026-11-24T15:56:50+00:00Z
 
 179801	Smith 1994, 265 / 269 / 277–278
 Smith 1994, 265 / 269 / 277–278

@@ -7,7 +7,7 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-24T15:21:00+00:00Z
+@dateWritten=2026-11-24T15:56:50+00:00Z
 
 189097	Ugaritic
 Ugaritic
@@ -15890,6 +15890,7 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+Ugaritic
 Hurrian
 Hurrian
 Hurrian
@@ -21429,7 +21430,7 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-210559	Ugaritic
+210560	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -21912,7 +21913,7 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-211121	Ugaritic
+211122	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -22593,7 +22594,7 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-211875	Ugaritic
+211876	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -23288,6 +23289,8 @@ Hurrian
 Hurrian
 Hurrian
 Hurrian
+Ugaritic
+Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic

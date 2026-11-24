@@ -7,7 +7,7 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-24T15:21:01+00:00Z
+@dateWritten=2026-11-24T15:56:50+00:00Z
 
 179087	Tranche supérieure
 Recto

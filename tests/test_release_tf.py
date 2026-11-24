@@ -213,7 +213,7 @@ def test_040_keeps_every_030_tablet_and_adds_114_texts(api030, api040):
     assert not RIH_HELD_040 & {F.rih.v(new[name]) for name in rih}
     counts = {kind: len(F.otype.s(kind)) for kind in
               ("sign", "word", "line", "column", "tablet", "boundary", "alias")}
-    assert counts == {"sign": 177132, "word": 33009, "line": 9554, "column": 534,
+    assert counts == {"sign": 177132, "word": 33012, "line": 9554, "column": 534,
                       "tablet": 456, "boundary": 1417, "alias": 3}
     assert len(F.synthetic.s("True")) == 1418
 
@@ -248,7 +248,7 @@ def test_040_language_counts_and_new_hurrian_texts(api040):
     for name in ("KTU 1.32", "KTU 1.33", "KTU 1.36", "KTU 1.37"):
         assert F.tablet_language.v(tablets[name]) == "Hurrian"
         assert {F.language.v(w) for w in L.d(tablets[name], "word")} == {"Hurrian"}
-    assert set(F.language.freqList()) == {("Ugaritic", 31938), ("Hurrian", 681), ("Akkadian", 130)}
+    assert set(F.language.freqList()) == {("Ugaritic", 31941), ("Hurrian", 681), ("Akkadian", 130)}
     assert dict(F.tablet_language.freqList()) == {
         "Ugaritic": 432, "Hurrian": 14, "Akkadian": 2,
         "Hurrian and Ugaritic": 4, "Akkadian and Ugaritic": 1}
@@ -330,7 +330,7 @@ def test_040_a_lost_stretch_after_a_word_is_a_gap_word(api030, api040):
     assert len(slots) == 11
     assert all(F.type.v(slot) == "gap" and F.synthetic.v(slot) is None for slot in slots)
     assert T.text(line) == api030.T.text(api030.T.nodeFromSection(address)) + " "
-    assert sum(1 for w in F.otype.s("word") if F.type.v(w) == "gap") == 1034
+    assert sum(1 for w in F.otype.s("word") if F.type.v(w) == "gap") == 1037
 
 
 def test_040_a_restoration_opened_earlier_on_the_line_still_ends_in_a_gap(api040):
@@ -355,6 +355,14 @@ def test_040_a_divider_before_the_lost_stretch_ends_the_word(api030, api040):
     assert not any(F.sign.v(s) == "." for s in L.d(line, "sign"))
     # the text is unchanged apart from the space before `]` that 0.3.0 dropped
     assert T.text(line) == api030.T.text(api030.T.nodeFromSection(("KTU 1.22", "II", "12"))) + " "
+
+
+def test_040_after_a_divider_the_lost_stretch_and_the_reading_are_two_words(api040):
+    """KTU 2.55 I 3 `[l .    ]bʿly` is three words: `l`, the lost stretch, `bʿly`."""
+    F, L, T = api040.F, api040.L, api040.T
+    line = T.nodeFromSection(("KTU 2.55", "I", "3"))
+    assert [(F.g_cons.v(w), F.type.v(w), F.trailer.v(w) or "") for w in L.d(line, "word")] == [
+        ("l", "lexical", "."), ("", "gap", ""), ("bʿly", "lexical", "")]
 
 
 def test_040_ktu_219_alias_states_the_ktu3_number(api040):
