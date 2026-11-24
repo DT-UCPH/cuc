@@ -7,9 +7,9 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-23T21:18:34+00:00Z
+@dateWritten=2026-11-24T10:54:49+00:00Z
 
-186476	nšm
+188568	nšm
 n
 ʿm
 xdyn
@@ -13625,6 +13625,7 @@ tit
 yspi
 spu
 qdmym
+
 tpḥ
 ṯṣr
 shr
@@ -16248,6 +16249,7 @@ ympx
 hlkt
 tdrq
 xx
+
 špš
 bʿdh
 txx
@@ -17026,6 +17028,7 @@ wt
 wm
 mʿnh
 aḏmr
+
 q
 ušsk
 il
@@ -22572,6 +22575,7 @@ w
 kbdm
 l
 kṯrt
+
 rmš
 š
 w
@@ -23232,6 +23236,7 @@ rqḥ
 šrʿm
 ušpġtm
 pld
+
 kṯ
 ẓrw
 kṯ
@@ -24190,6 +24195,7 @@ l
 inš
 ilm
 
+
 ṯdṯ
 yṯb
 mlk
@@ -24816,6 +24822,7 @@ ht
 brt
 l
 bʿl
+
 ušxšir
 
 k
@@ -28059,6 +28066,7 @@ b
 ḫrṣ
 nʿmm
 nʿmm
+
 pn
 ṯm
 tḥt
@@ -29032,6 +29040,7 @@ l
 w
 arš
 ank
+
 xxx
 amr
 nġr
@@ -29574,7 +29583,9 @@ xy
 
 ʿm
 mġy
+
 špš
+
 ql
 
 w
@@ -32205,6 +32216,7 @@ arbʿ
 šurt
 l
 bnš
+
 arbʿ
 šurt
 l

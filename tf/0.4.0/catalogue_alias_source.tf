@@ -7,8 +7,8 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-23T21:18:34+00:00Z
+@dateWritten=2026-11-24T10:54:49+00:00Z
 
-174547	1.8 [= now KTU³ 1.3 VI 1-17]
+176639	1.8 [= now KTU³ 1.3 VI 1-17]
 1.99 [= now KTU² 1.98]
 2,19 I= now KTU³ 3.12).

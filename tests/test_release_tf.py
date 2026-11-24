@@ -213,9 +213,9 @@ def test_040_keeps_every_030_tablet_and_adds_111_texts(api030, api040):
     assert not RIH_HELD_040 & {F.rih.v(new[name]) for name in rih}
     counts = {kind: len(F.otype.s(kind)) for kind in
               ("sign", "word", "line", "column", "tablet", "boundary", "alias")}
-    assert counts == {"sign": 174546, "word": 32872, "line": 9533, "column": 531,
+    assert counts == {"sign": 176638, "word": 32884, "line": 9533, "column": 531,
                       "tablet": 453, "boundary": 1409, "alias": 3}
-    assert len(F.synthetic.s("True")) == 1413
+    assert len(F.synthetic.s("True")) == 1410
 
 
 def test_040_rih_texts_carry_their_citations_and_rih_iis_language(api040):
@@ -248,7 +248,7 @@ def test_040_language_counts_and_new_hurrian_texts(api040):
     for name in ("KTU 1.32", "KTU 1.33"):
         assert F.tablet_language.v(tablets[name]) == "Hurrian"
         assert {F.language.v(w) for w in L.d(tablets[name], "word")} == {"Hurrian"}
-    assert set(F.language.freqList()) == {("Ugaritic", 31819), ("Hurrian", 664), ("Akkadian", 129)}
+    assert set(F.language.freqList()) == {("Ugaritic", 31830), ("Hurrian", 664), ("Akkadian", 130)}
     assert dict(F.tablet_language.freqList()) == {
         "Ugaritic": 431, "Hurrian": 12, "Akkadian": 2,
         "Hurrian and Ugaritic": 4, "Akkadian and Ugaritic": 1}
@@ -261,16 +261,19 @@ def _lines(api, name):
             for c in L.d(tablet, "column") for l in L.d(c, "line")}
 
 
-def test_040_text_changes_in_030_tablets_are_the_reviews_and_the_short_alphabet(api030, api040):
+def test_040_text_changes_apart_from_line_end_spaces(api030, api040):
+    def without_line_end_spaces(api, name):
+        return {address: text.rstrip(" ") for address, text in _lines(api, name).items()}
+
     changed = {name for name in _tablets(api030)
-               if _lines(api030, name) != _lines(api040, name)}
-    assert changed == {"KTU 1.4", "KTU 1.5", "KTU 1.6", "KTU 1.31", "KTU 4.31"}
+               if without_line_end_spaces(api030, name) != without_line_end_spaces(api040, name)}
+    assert changed == {"KTU 1.4", "KTU 1.5", "KTU 1.6", "KTU 4.31"}
     old14, new14 = _lines(api030, "KTU 1.4"), _lines(api040, "KTU 1.4")
     assert set(old14) == set(new14)
     assert (old14[("II", "11")], new14[("II", "11")]) == ("tġzy . bny . bnwt", "tġẓy . bny . bnwt")
     assert new14[("I", "5")] == "il . abh . il mlk"
     old131, new131 = _lines(api030, "KTU 1.31"), _lines(api040, "KTU 1.31")
-    assert all(len(new131[k]) == len(old131[k]) + 5 for k in old131)
+    assert all(new131[k] == old131[k] + " " * 6 for k in old131)
     new16 = _lines(api040, "KTU 1.6")
     assert new16[("VI", "45")].startswith("yn . tġẓyt")
 
@@ -323,10 +326,26 @@ def test_040_a_lost_stretch_after_a_word_is_a_gap_word(api030, api040):
     line = T.nodeFromSection(address)
     gap = L.d(line, "word")[-1]
     slots = L.d(gap, "sign")
-    assert len(slots) == 10
+    assert len(slots) == 11
     assert all(F.type.v(slot) == "gap" and F.synthetic.v(slot) is None for slot in slots)
-    assert T.text(line) == api030.T.text(api030.T.nodeFromSection(address))
-    assert sum(1 for w in F.otype.s("word") if F.type.v(w) == "gap") == 938
+    assert T.text(line) == api030.T.text(api030.T.nodeFromSection(address)) + " "
+    assert sum(1 for w in F.otype.s("word") if F.type.v(w) == "gap") == 950
+
+
+@pytest.mark.parametrize("address", [
+    ("KTU 1.20", "II", "10"),
+    ("KTU 1.130", "I", "20"),
+    ("KTU 2.79", "I", "11"),
+])
+def test_040_keeps_a_single_space_gap_inside_the_restoration(api040, address):
+    F, L, T = api040.F, api040.L, api040.T
+    line = T.nodeFromSection(address)
+    gap = L.d(line, "word")[-1]
+    slot, = L.d(gap, "sign")
+    assert slot == L.d(line, "sign")[-1]
+    assert F.type.v(gap) == "gap"
+    assert (F.sign.v(slot), F.type.v(slot), F.emen.v(slot)) == (" ", "gap", "restored")
+    assert F.synthetic.v(slot) is None
 
 
 def test_040_a_rih_text_is_addressed_by_its_rih_number(api040):

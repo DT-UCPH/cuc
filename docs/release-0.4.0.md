@@ -11,15 +11,15 @@ versions remain available.
 
 | Node type | 0.3.0 | 0.4.0 | Interpretation |
 | --- | ---: | ---: | --- |
-| `sign` | 165,790 | 174,546 | 173,133 source-backed sign slots and 1,413 invisible synthetic slots in 0.4.0 |
-| `word` | 30,842 | 32,872 | Source text units, including gaps and non-lexical content |
+| `sign` | 165,790 | 176,638 | 175,228 source-backed slots and 1,410 invisible synthetic slots in 0.4.0 |
+| `word` | 30,842 | 32,884 | Source text units, including gaps and non-lexical content |
 | `line` | 8,691 | 9,533 | Retained textual lines |
 | `column` | 415 | 531 | Columns, implicit column I and fragment divisions |
 | `tablet` | 342 | 453 | 363 KTU tablets and 90 RIH texts; 111 additions |
 | `boundary` | 1,166 | 1,409 | 846 scribal rulings and 563 breaks |
 | `alias` | 3 | 3 | Catalogue identifiers resolving to existing canonical spans |
 
-There are 219,347 nodes in total. The build applies the same 42 configured
+There are 221,451 nodes in total. The build applies the same 42 configured
 corrections as 0.3.0, recognizes one as already present and leaves none
 unmatched; 41 lines carry `erratum`, all in tablets that were already in 0.3.0.
 The correction of KTU 1.5 II 22 (CTA 34 n. 7) now matches the finished review,
@@ -27,8 +27,9 @@ which has no continuation backslash before `hd`.
 
 0.4.0 is built on top of the 0.3.0 that restores word `language`, adds
 `tablet_language` and applies the KTU Validator recovery (DT-UCPH/cuc#45). Of
-its 342 tablets, 336 match in the line-and-sign comparison. That comparison
-includes certainty. Word segmentation is measured separately below.
+its 342 tablets, 106 match in the line-and-sign comparison, which includes
+spacing and certainty. In 230 of the 236 changed tablets, the only differences
+are the recovered lacuna spaces described below.
 
 ## Coverage
 
@@ -175,7 +176,7 @@ RIH reviews in the validator are not used in this release.
 | 153 | RIH 98/01 | — | 1 | 1 / 0 |
 
 
-Together the 90 texts have 590 lines, 1,125 words, 5,008 sign slots, 79 breaks
+Together the 90 texts have 590 lines, 1,125 words, 5,025 sign slots, 79 breaks
 and 99 rulings.
 
 ### Not in this release
@@ -249,9 +250,9 @@ been given a language of its own.
 
 | `language` | Words in 0.3.0 | Words in 0.4.0 | Texts |
 | --- | ---: | ---: | --- |
-| `Ugaritic` | 29,813 | 31,819 | all other KTU texts, and the 1,125 words of the 90 RIH texts |
+| `Ugaritic` | 29,813 | 31,830 | all other KTU texts, and the 1,125 words of the 90 RIH texts |
 | `Hurrian` | 640 | 664 | as in 0.3.0, plus KTU 1.32 and 1.33 |
-| `Akkadian` | 129 | 129 | KTU 1.67, 1.69; KTU 1.73 lines 1–7 |
+| `Akkadian` | 129 | 130 | KTU 1.67, 1.69 and 1.73 lines 1–7 |
 | absent | 260 | 260 | as in 0.3.0: mixed passages and texts without a stated language |
 
 `tablet_language`: `Ugaritic` 431 (341 KTU, 90 RIH), `Hurrian` 12, `Hurrian and
@@ -321,13 +322,15 @@ numbering, not a language.
 the same brackets go on with a wholly lost stretch, as in `m[lk     ]`, the
 stretch is now a gap word of its own. 0.3.0 did this only in KTU 1.106 I 9,
 where Word had a no-break space after the bracket. Relative to the initial
-0.4.0 build, gap words rise from 669 to 938. The split accounts for 239 more
-gap words in 107 tablets whose sources stayed the same. The remaining net
-change comes from the KTU 1.1, 1.5 and 1.6 reviews. The split applies to
-lacuna padding retained by the parser, with or without a no-break space after
-the bracket. The parser still drops an ordinary space immediately before a
-line-final closing bracket. On 12 lines in the frozen KTU inputs, that space
-is the only padding.
+0.4.0 build, gap words rise from 669 to 950. The split accounts for 239 more
+gap words in 107 tablets whose sources stayed the same. The KTU 1.1, 1.5 and
+1.6 reviews account for the rest of the increase to 938.
+
+The tokenizer now preserves every space before a line-final closing bracket.
+This restores one source-backed gap slot on each of 2,095 lines. Twelve
+trailing gaps gain their own word node, and three standalone gaps replace a
+synthetic anchor with a source space. These widths reflect the frozen Word
+inputs.
 
 **3. Footnote markers are not part of the corpus.** A break or ruling printed
 with a footnote marker, such as `…⁶⁾` after KTU 1.6 IV 28, used to keep the
@@ -345,8 +348,9 @@ supplied reading can be certain.
 
 ## Changes within previously published tablets
 
-The line-and-sign comparison finds changes in six of the 342 tablets from
-0.3.0. KTU 1.1 changes in certainty alone.
+Before the line-final padding fix, the line-and-sign comparison found
+changes in six of the 342 tablets from 0.3.0. The table and examples show
+that comparison. KTU 1.1 changed in certainty alone at that stage.
 
 | Tablet | Lines changed | Lines removed | Signs + / − | Spacing slots | `cert` | `emen` | `cont` |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -417,23 +421,20 @@ The converter strips footnote markers from running text and from
 
 The 0.4.0 sources were frozen from the 0.3.0 source set (342 KTU documents),
 27 finished KTU reviews and 90 RIH II transcriptions, with a hash of every
-input. The build is a full rebuild with the converter at
-alexsosn/CUC-doc-TF-converter branch `codex/release-040` (commit 80672df); no
-TF file was edited by hand. The 0.3.0 correction is a rebuild of 0.3.0 from its
+input. The build uses the converter's `codex/release-040` branch at
+`3b9c41e` and regenerates all 46 TF files. The 0.3.0 correction was rebuilt from its
 own frozen sources with its own converter plus only the marker fix (branch
 `codex/release-030-footnote-markers`, commit b9026a9).
 
-- Converter test suite: 1,107 passed, 1 skipped.
+- The converter tests compare against the frozen 0.2.8 baseline and check
+  one- and two-space lacunae through the Text-Fabric API.
 - Source lint: only the three findings already present in 0.3.0 (KTU 1.66
   marker a⁾ without footnote; one-sided brackets in KTU 4.24:2 and 4.41:5).
 - Serialized-corpus lint: no findings.
-- `cuc-convert diff` against 0.3.0: 336 tablets unchanged, 6 changed, 111 new,
-  none gone. That comparison is by line and sign; the word division of
-  decision 2 is counted separately above.
+- `cuc-convert diff` against 0.3.0: 106 tablets match, 236 change and 111
+  are new. All 342 tablets from 0.3.0 are retained.
 - The CUC release tests check 0.4.0 as they check 0.3.0, plus the additions,
-  the RIH features, RIH II's `Ugaritic` on RIH texts, the changed tablets
-  (KTU 1.1, 1.4, 1.5, 1.6, 1.31, 4.31), both editorial decisions, and the
-  absence of footnote markers from node features of both versions.
-  The 40 passing tests also check surface attribution and certainty inside
-  editorial brackets. Independent rebuilds reproduced all 37 TF files for
-  0.3.0 and all 46 for 0.4.0 apart from write timestamps.
+  the RIH features, the reviewed readings, the editorial decisions and the
+  absence of footnote markers from node features of both versions. The 43
+  passing tests include source-backed one-space gaps, surface attribution
+  and certainty inside editorial brackets.

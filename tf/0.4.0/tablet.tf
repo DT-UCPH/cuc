@@ -7,9 +7,9 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-23T21:18:34+00:00Z
+@dateWritten=2026-11-24T10:54:50+00:00Z
 
-186023	KTU 9.495
+188115	KTU 9.495
 KTU 9.493
 KTU 9.484
 KTU 9.450
