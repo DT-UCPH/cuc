@@ -7,9 +7,9 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-24T10:54:50+00:00Z
+@dateWritten=2026-11-24T15:21:01+00:00Z
 
-178582	Tranche supérieure
+179087	Tranche supérieure
 Recto
 Recto
 Recto
@@ -499,7 +499,7 @@ Recto/verso ?
 Recto
 Recto
 Recto
-179077	Recto
+179582	Recto
 Recto
 Recto
 Recto

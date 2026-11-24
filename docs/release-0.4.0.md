@@ -1,25 +1,26 @@
 # CUC 0.4.0
 
-CUC 0.4.0 adds 111 texts to 0.3.0: 21 KTU tablets whose reviews were finished
+CUC 0.4.0 adds 114 texts to 0.3.0: 24 KTU tablets whose reviews were finished
 after 0.3.0, and the first 90 Ras Ibn Hani texts from RIH II. Finished reviews
-now replace the reference versions of KTU 1.4, 1.5, 1.6 and 1.31, and the
-review of KTU 1.1 has one correction, so all six tablets of the Baal cycle
-(KTU 1.1–1.6) come from finished reviews. Two editorial decisions apply across
-the corpus: the short-alphabet letters of KTU 4.31 are read `ṯ` and `ḫ`, and a
-lost stretch after a word in the same brackets is a word of its own. Earlier TF
-versions remain available.
+now replace the reference versions of KTU 1.4, 1.5, 1.6, 1.20, 1.31 and 1.38,
+and the review of KTU 1.1 has one correction, so all six tablets of the Baal
+cycle (KTU 1.1–1.6) come from finished reviews. Two editorial decisions apply
+across the corpus: the short-alphabet letters of KTU 4.31 are read `ṯ` and
+`ḫ`, and a lost stretch after a word in the same brackets is a word of its
+own, also when the word's divider stands before it. Earlier TF versions remain
+available.
 
 | Node type | 0.3.0 | 0.4.0 | Interpretation |
 | --- | ---: | ---: | --- |
-| `sign` | 165,790 | 176,638 | 175,228 source-backed slots and 1,410 invisible synthetic slots in 0.4.0 |
-| `word` | 30,842 | 32,884 | Source text units, including gaps and non-lexical content |
-| `line` | 8,691 | 9,533 | Retained textual lines |
-| `column` | 415 | 531 | Columns, implicit column I and fragment divisions |
-| `tablet` | 342 | 453 | 363 KTU tablets and 90 RIH texts; 111 additions |
-| `boundary` | 1,166 | 1,409 | 846 scribal rulings and 563 breaks |
+| `sign` | 165,790 | 177,132 | 175,714 source-backed slots and 1,418 invisible synthetic slots in 0.4.0 |
+| `word` | 30,842 | 33,009 | Source text units, including gaps and non-lexical content |
+| `line` | 8,691 | 9,554 | Retained textual lines |
+| `column` | 415 | 534 | Columns, implicit column I and fragment divisions |
+| `tablet` | 342 | 456 | 366 KTU tablets and 90 RIH texts; 114 additions |
+| `boundary` | 1,166 | 1,417 | 846 scribal rulings and 571 breaks |
 | `alias` | 3 | 3 | Catalogue identifiers resolving to existing canonical spans |
 
-There are 221,451 nodes in total. The build applies the same 42 configured
+There are 222,105 nodes in total. The build applies the same 42 configured
 corrections as 0.3.0, recognizes one as already present and leaves none
 unmatched; 41 lines carry `erratum`, all in tablets that were already in 0.3.0.
 The correction of KTU 1.5 II 22 (CTA 34 n. 7) now matches the finished review,
@@ -28,7 +29,7 @@ which has no continuation backslash before `hd`.
 0.4.0 is built on top of the 0.3.0 that restores word `language`, adds
 `tablet_language` and applies the KTU Validator recovery (DT-UCPH/cuc#45). Of
 its 342 tablets, 106 match in the line-and-sign comparison, which includes
-spacing and certainty. In 230 of the 236 changed tablets, the only differences
+spacing and certainty. In 215 of the 236 changed tablets, the only differences
 are the recovered lacuna spaces described below.
 
 ## Coverage
@@ -38,12 +39,15 @@ are the recovered lacuna spaces described below.
 Only reviews whose work file says the review is finished enter the release.
 The KTU tablets below had no version in 0.3.0. KTU 4.42–4.62 come from the
 reviews on the converter's `main`; KTU 1.32 and 1.33 are new reviews from the
-KTU Validator.
+KTU Validator, and KTU 1.36, 1.37 and 1.53 were finished on 23 November.
 
 | Newly available tablet | Language (`tablet_language`) | Retained lines | Reviewer source |
 | --- | --- | ---: | --- |
 | KTU 1.32 | Hurrian | 5 | finished review, 2026-11-07 |
 | KTU 1.33 | Hurrian | 3 | finished review, 2026-11-07 |
+| KTU 1.36 | Hurrian | 5 | finished review, 2026-11-23 |
+| KTU 1.37 | Hurrian | 6 | finished review, 2026-11-23 |
+| KTU 1.53 | Ugaritic | 10 | finished review, 2026-11-23 |
 | KTU 4.42 | Ugaritic | 8 | finished review, 2026-11-09 |
 | KTU 4.43 | Ugaritic | 7 | finished review, 2026-11-09 |
 | KTU 4.44 | Ugaritic | 32 | finished review, 2026-11-09 |
@@ -66,8 +70,9 @@ KTU Validator.
 
 
 KTU 1.32 and 1.33 are Hurrian: KTU³ says "SR: Hurrian; fragment of the same
-tablet as KTU 1.33" (and 1.32). The KTU 4 texts state no language and are
-`Ugaritic`.
+tablet as KTU 1.33" (and 1.32). KTU 1.36 and 1.37 are Hurrian too: "SR:
+Hurrian; the fragment probably belongs to the same tablet as KTU 1.35". KTU
+1.53 and the KTU 4 texts state no language and are `Ugaritic`.
 
 ### RIH texts added
 
@@ -187,7 +192,7 @@ and 99 rulings.
 | KTU 1.34 | `1.34 [= now KTU³ 1.26 fragment b]`: a catalogue alias whose target is a fragment. Aliases can point at a tablet or a column line span, not at `fragm. b`. |
 | KTU 4.52 | Finished review prints the surface heading `rev. (?)`, which the source grammar does not know. |
 | KTU 4.59 | Finished review prints `1[+ x ]` in line 3; `+` inside a numeral has no reading and the build refuses it. |
-| KTU 4.63 | Finished review switches off the Akkadian subtotal lines (`ŠU.NIGÍN …`: I 24, II 14, 24, 29, 34, 39), so the line count skips them. |
+| KTU 4.63 | The review of 23 November reads the Akkadian lines (`ŠU.NIGÍN 6 KUŠ.ga-ba-bu 26 GIŠ.BAN.MEŠ`: I 24, 48, II 12, 20, 49, IV 18). The converter cannot read these Sumerograms and syllabic spellings yet, and column II passes from line 45 to 49. |
 
 The RIH II texts below are not included. "Malformed RIH identity" means the
 heading combines texts, adds a former KTU² number, a line range or a remark
@@ -250,12 +255,12 @@ been given a language of its own.
 
 | `language` | Words in 0.3.0 | Words in 0.4.0 | Texts |
 | --- | ---: | ---: | --- |
-| `Ugaritic` | 29,813 | 31,830 | all other KTU texts, and the 1,125 words of the 90 RIH texts |
-| `Hurrian` | 640 | 664 | as in 0.3.0, plus KTU 1.32 and 1.33 |
+| `Ugaritic` | 29,813 | 31,938 | all other KTU texts, and the 1,125 words of the 90 RIH texts |
+| `Hurrian` | 640 | 681 | as in 0.3.0, plus KTU 1.32, 1.33, 1.36 and 1.37 |
 | `Akkadian` | 129 | 130 | KTU 1.67, 1.69 and 1.73 lines 1–7 |
 | absent | 260 | 260 | as in 0.3.0: mixed passages and texts without a stated language |
 
-`tablet_language`: `Ugaritic` 431 (341 KTU, 90 RIH), `Hurrian` 12, `Hurrian and
+`tablet_language`: `Ugaritic` 432 (342 KTU, 90 RIH), `Hurrian` 14, `Hurrian and
 Ugaritic` 4, `Akkadian` 2, `Akkadian and Ugaritic` 1; absent on KTU 5.24, 5.27
 and 7.191.
 
@@ -268,7 +273,7 @@ features (33 in 0.3.0) and the same three edge features.
 
 | Feature | Node | Meaning | Values in 0.4.0 |
 | --- | --- | --- | --- |
-| `tablet@rih` | `tablet` | A second name for every tablet, so that a Ras Ibn Hani text can be addressed by its RIH number: a RIH text is named by its RIH II citation, every other tablet by its usual name. Use it with `lang="rih"`, see below. | 453 tablets |
+| `tablet@rih` | `tablet` | A second name for every tablet, so that a Ras Ibn Hani text can be addressed by its RIH number: a RIH text is named by its RIH II citation, every other tablet by its usual name. Use it with `lang="rih"`, see below. | 456 tablets |
 | `rih` | `tablet` | The RIH II citation of the text, for example `RIH 83/08`. A citation, not a claim about the physical object; a joined text cites all its pieces (`RIH 83/50 + 83/54`). | 90 tablets |
 | `ktu` | `tablet` | The KTU number RIH II gives for the text, for example `KTU 9.463`. Absent on the 15 RIH texts without one and on all KTU tablets, whose number is `tablet`. | 75 tablets |
 | `source_edition` | `tablet` | The edition the text is transcribed from: `RIH II`. Absent on KTU tablets. | 90 tablets |
@@ -322,15 +327,32 @@ numbering, not a language.
 the same brackets go on with a wholly lost stretch, as in `m[lk     ]`, the
 stretch is now a gap word of its own. 0.3.0 did this only in KTU 1.106 I 9,
 where Word had a no-break space after the bracket. Relative to the initial
-0.4.0 build, gap words rise from 669 to 950. The split accounts for 239 more
-gap words in 107 tablets whose sources stayed the same. The KTU 1.1, 1.5 and
-1.6 reviews account for the rest of the increase to 938.
+0.4.0 build (669 gap words), the split accounts for 239 more gap words in 107
+tablets whose sources stayed the same. The KTU 1.1, 1.5 and 1.6 reviews
+account for the rest of the increase to 938.
 
 The tokenizer now preserves every space before a line-final closing bracket.
 This restores one source-backed gap slot on each of 2,095 lines. Twelve
 trailing gaps gain their own word node, and three standalone gaps replace a
 synthetic anchor with a source space. These widths reflect the frozen Word
 inputs.
+
+The decision also holds when the brackets open earlier on the line: in
+`hwt . lṯpn[ . ḥtk      ]` (KTU 1.1 III 6) the word is `ḥtk` and the stretch
+a gap word. This adds 48 gap words in 31 tablets and gives five existing gap
+words the whole lost stretch; in KTU 1.22 II 11 `t[dd . ilnym.      ]` the dot
+becomes the trailer of `ilnym`.
+
+A word divider separates the words, so the lost stretch is a gap word also
+when the divider stands before it: in `yḥpn . ḥy[ly .      ]` (KTU 1.22 II 12)
+the word `ḥyly` ends with its divider and the stretch is a gap word. Before,
+the stretch and the dot stayed in the word. This adds 23 gap words in 16
+tablets, and their 23 dots become trailers. A single space after a divider is
+not a lost stretch (`[tḥm . ] m[lk`). When a reading follows the bracket, as in
+`[l .    ]bʿly` (KTU 2.55 I 3), the stretch starts the next word, as a lacuna
+directly before a reading does; this concerns three lines (KTU 1.40 I 26, 2.23
+I 25, 2.55 I 3). Line texts do not change. With the new reviews, gap words
+number 1,034.
 
 **3. Footnote markers are not part of the corpus.** A break or ruling printed
 with a footnote marker, such as `…⁶⁾` after KTU 1.6 IV 28, used to keep the
@@ -389,6 +411,14 @@ longer, as the review measures it on the scan.
 
 KTU 4.31: the 21 short-alphabet signs of decision 1.
 
+KTU 1.20 and 1.38 now come from finished reviews instead of the reference
+transcription. In KTU 1.20 (re-reviewed on 24 November), 16 lines change.
+On nine, word dividers get their spaces (I 8 `il. d ʿrgzm` → `il . d ʿrgzm`,
+and likewise I 9, II 1–3, 6–8 and 11). The width of lacunae or spacing differs
+on I 1, 8–11, II 2, 5, 8 and 10. In the tablet three signs change `cert` and
+three `emen`; on I 2 and II 4 nothing else changes. In KTU 1.38, I 2 has
+shorter lacunae: `     l špš     ` → `    l špš  `.
+
 These lacuna widths are the reviewers' measurements and differ from the
 reference transcription by design. They were checked against the KTU
 Validator defect described below.
@@ -400,7 +430,7 @@ bundle into saved work, adding rows, changing lacuna widths and re-inserting
 footnote markers. Every review new in 0.4.0 was checked for the symptoms:
 
 - no column has a repeated line address (in the work files and in the built
-  TF, where all 9,533 section addresses are unique);
+  TF, where all 9,554 section addresses are unique);
 - no two text rows share a scan crop;
 - KTU 1.1, 1.4, 1.5, 1.6 and 1.31, the new reviews with a reference version,
   are compared above; their lacuna widths are the reviewers' measurements.
@@ -413,25 +443,39 @@ footnote markers. Every review new in 0.4.0 was checked for the symptoms:
 - KTU 1.1, 1.5, 1.6 and 4.38 were last saved after v1.0.18, on the computer
   where it was installed (KTU 1.1 on 6 November, the others on 23 November).
   KTU 4.38's review changes only Word formatting, not the data.
+- KTU 1.20, 1.36, 1.37, 1.38 and 1.53 were last saved after v1.0.18 on the
+  same computer (KTU 1.20 on 24 November, the others on 23 November).
+- Every selected review's Word file was compared with what the KTU Validator
+  v1.0.18 writes from its saved work: 101 of the 115 match exactly. The other
+  14 are the pairs the incident review found to differ only in Word encoding;
+  built from what their saved work writes, they give the same TF files, as
+  checked again for this release. Seventeen earlier reviews whose Word files
+  differ from the copies frozen for 0.3.0 give the same TF as before: sixteen
+  from the incident's lacuna-width repair, which restored widths 0.3.0 already
+  had, and KTU 1.3.
 
 The converter strips footnote markers from running text and from
 `boundary_source`.
 
 ## Validation and tests
 
-The 0.4.0 sources were frozen from the 0.3.0 source set (342 KTU documents),
-27 finished KTU reviews and 90 RIH II transcriptions, with a hash of every
-input. The build uses the converter's `codex/release-040` branch at
-`3b9c41e` and regenerates all 46 TF files. The 0.3.0 correction was rebuilt from its
-own frozen sources with its own converter plus only the marker fix (branch
-`codex/release-030-footnote-markers`, commit b9026a9).
+The 0.4.0 sources were frozen again on 24 November with the converter's
+release selection (`tools/prepare_release_candidate.py`): 366 KTU documents, in
+which each finished review replaces its reference version unless it is held
+(`sources/release-held.json`), and the same 90 RIH II transcriptions, byte for
+byte. The selection is cleared against the hashes of every selected review's
+Word and work file, and a hash of every input is kept. The build uses the
+converter's `main` at `c731750` and regenerates all 46 TF files. The 0.3.0
+correction was rebuilt from its own frozen sources with its own converter plus
+only the marker fix (branch `codex/release-030-footnote-markers`, commit
+b9026a9).
 
 - The converter tests compare against the frozen 0.2.8 baseline and check
   one- and two-space lacunae through the Text-Fabric API.
 - Source lint: only the three findings already present in 0.3.0 (KTU 1.66
   marker a⁾ without footnote; one-sided brackets in KTU 4.24:2 and 4.41:5).
 - Serialized-corpus lint: no findings.
-- `cuc-convert diff` against 0.3.0: 106 tablets match, 236 change and 111
+- `cuc-convert diff` against 0.3.0: 106 tablets match, 236 change and 114
   are new. All 342 tablets from 0.3.0 are retained.
 - The CUC release tests check 0.4.0 as they check 0.3.0, plus the additions,
   the RIH features, the reviewed readings, the editorial decisions and the

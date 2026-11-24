@@ -7,9 +7,9 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-24T10:54:50+00:00Z
+@dateWritten=2026-11-24T15:21:00+00:00Z
 
-188568	Ugaritic
+189097	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -14759,6 +14759,31 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
 Hurrian
 Hurrian
 Hurrian
@@ -14862,6 +14887,12 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
 Hurrian
 Hurrian
 Hurrian
@@ -14879,6 +14910,17 @@ Hurrian
 Hurrian
 Hurrian
 Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
+Hurrian
 Ugaritic
 Ugaritic
 Ugaritic
@@ -15845,6 +15887,9 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
 Hurrian
 Hurrian
 Hurrian
@@ -16110,6 +16155,7 @@ Hurrian
 Hurrian
 Hurrian
 Hurrian
+Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -16673,6 +16719,43 @@ Hurrian
 Hurrian
 Hurrian
 Hurrian
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
 Hurrian
 Hurrian
 Hurrian
@@ -17124,6 +17207,8 @@ Akkadian
 Akkadian
 Akkadian
 Akkadian
+Ugaritic
+Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -17387,6 +17472,10 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
 Akkadian
 Akkadian
 Akkadian
@@ -17407,6 +17496,10 @@ Akkadian
 Akkadian
 Akkadian
 Akkadian
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -21333,10 +21426,10 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-209934	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+210559	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -21816,10 +21909,10 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-210496	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+211121	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -22220,6 +22313,10 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
 Hurrian
 Hurrian
 Hurrian
@@ -22495,8 +22592,8 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
-211248	Ugaritic
 Ugaritic
+211875	Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -22586,6 +22683,7 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+Ugaritic
 Hurrian
 Hurrian
 Hurrian
@@ -22617,6 +22715,9 @@ Hurrian
 Hurrian
 Hurrian
 Hurrian
+Ugaritic
+Ugaritic
+Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -22985,6 +23086,8 @@ Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
+Ugaritic
+Ugaritic
 Hurrian
 Hurrian
 Hurrian
@@ -23015,6 +23118,8 @@ Hurrian
 Hurrian
 Hurrian
 Hurrian
+Ugaritic
+Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic
@@ -23183,6 +23288,26 @@ Hurrian
 Hurrian
 Hurrian
 Hurrian
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
+Ugaritic
 Ugaritic
 Ugaritic
 Ugaritic

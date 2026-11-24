@@ -188,7 +188,7 @@ def test_validator_recovery_turns_ktu_11_ii_28_into_a_break(api):
 
 # --- 0.4.0 ---------------------------------------------------------------
 
-KTU_ADDED_040 = {"KTU 1.32", "KTU 1.33"} | {
+KTU_ADDED_040 = {"KTU 1.32", "KTU 1.33", "KTU 1.36", "KTU 1.37", "KTU 1.53"} | {
     "KTU 4.%d" % n for n in range(42, 63) if n not in (52, 59)}
 RIH_HELD_040 = {  # RIH II texts left out of 0.4.0 (docs/release-0.4.0.md)
     "RIH 83/02", "RIH 2002/01", "RIH 97/01 + 97/02", "RIH 84/09", "RIH 83/05",
@@ -200,11 +200,11 @@ def _tablets(api):
     return {api.F.tablet.v(t): t for t in api.F.otype.s("tablet")}
 
 
-def test_040_keeps_every_030_tablet_and_adds_111_texts(api030, api040):
+def test_040_keeps_every_030_tablet_and_adds_114_texts(api030, api040):
     old, new = _tablets(api030), _tablets(api040)
     assert set(old) <= set(new)
     added = set(new) - set(old)
-    assert len(added) == 111
+    assert len(added) == 114
     F = api040.F
     rih = {name for name in added if F.rih.v(new[name])}
     assert len(rih) == 90
@@ -213,9 +213,9 @@ def test_040_keeps_every_030_tablet_and_adds_111_texts(api030, api040):
     assert not RIH_HELD_040 & {F.rih.v(new[name]) for name in rih}
     counts = {kind: len(F.otype.s(kind)) for kind in
               ("sign", "word", "line", "column", "tablet", "boundary", "alias")}
-    assert counts == {"sign": 176638, "word": 32884, "line": 9533, "column": 531,
-                      "tablet": 453, "boundary": 1409, "alias": 3}
-    assert len(F.synthetic.s("True")) == 1410
+    assert counts == {"sign": 177132, "word": 33009, "line": 9554, "column": 534,
+                      "tablet": 456, "boundary": 1417, "alias": 3}
+    assert len(F.synthetic.s("True")) == 1418
 
 
 def test_040_rih_texts_carry_their_citations_and_rih_iis_language(api040):
@@ -245,12 +245,12 @@ def test_040_rih_texts_carry_their_citations_and_rih_iis_language(api040):
 def test_040_language_counts_and_new_hurrian_texts(api040):
     F, L = api040.F, api040.L
     tablets = _tablets(api040)
-    for name in ("KTU 1.32", "KTU 1.33"):
+    for name in ("KTU 1.32", "KTU 1.33", "KTU 1.36", "KTU 1.37"):
         assert F.tablet_language.v(tablets[name]) == "Hurrian"
         assert {F.language.v(w) for w in L.d(tablets[name], "word")} == {"Hurrian"}
-    assert set(F.language.freqList()) == {("Ugaritic", 31830), ("Hurrian", 664), ("Akkadian", 130)}
+    assert set(F.language.freqList()) == {("Ugaritic", 31938), ("Hurrian", 681), ("Akkadian", 130)}
     assert dict(F.tablet_language.freqList()) == {
-        "Ugaritic": 431, "Hurrian": 12, "Akkadian": 2,
+        "Ugaritic": 432, "Hurrian": 14, "Akkadian": 2,
         "Hurrian and Ugaritic": 4, "Akkadian and Ugaritic": 1}
 
 
@@ -267,7 +267,8 @@ def test_040_text_changes_apart_from_line_end_spaces(api030, api040):
 
     changed = {name for name in _tablets(api030)
                if without_line_end_spaces(api030, name) != without_line_end_spaces(api040, name)}
-    assert changed == {"KTU 1.4", "KTU 1.5", "KTU 1.6", "KTU 4.31"}
+    # KTU 1.20 and 1.38 now come from finished reviews
+    assert changed == {"KTU 1.4", "KTU 1.5", "KTU 1.6", "KTU 1.20", "KTU 1.38", "KTU 4.31"}
     old14, new14 = _lines(api030, "KTU 1.4"), _lines(api040, "KTU 1.4")
     assert set(old14) == set(new14)
     assert (old14[("II", "11")], new14[("II", "11")]) == ("tġzy . bny . bnwt", "tġẓy . bny . bnwt")
@@ -329,11 +330,41 @@ def test_040_a_lost_stretch_after_a_word_is_a_gap_word(api030, api040):
     assert len(slots) == 11
     assert all(F.type.v(slot) == "gap" and F.synthetic.v(slot) is None for slot in slots)
     assert T.text(line) == api030.T.text(api030.T.nodeFromSection(address)) + " "
-    assert sum(1 for w in F.otype.s("word") if F.type.v(w) == "gap") == 950
+    assert sum(1 for w in F.otype.s("word") if F.type.v(w) == "gap") == 1034
+
+
+def test_040_a_restoration_opened_earlier_on_the_line_still_ends_in_a_gap(api040):
+    """KTU 1.1 III 6 `hwt . lṯpn[ . ḥtk      ]`: the word is `ḥtk`."""
+    F, L, T = api040.F, api040.L, api040.T
+    line = T.nodeFromSection(("KTU 1.1", "III", "6"))
+    words = [(F.g_cons.v(w), F.type.v(w)) for w in L.d(line, "word")]
+    assert words[-2:] == [("ḥtk", "lexical"), ("", "gap")]
+
+
+def test_040_a_divider_before_the_lost_stretch_ends_the_word(api030, api040):
+    """KTU 1.22 II 12 `yḥpn . ḥy[ly .      ]`: the divider separates the words,
+    so `ḥyly` takes it as its trailer and the lost stretch is a gap word."""
+    def words(api):
+        F, L, T = api.F, api.L, api.T
+        line = T.nodeFromSection(("KTU 1.22", "II", "12"))
+        return [(F.g_cons.v(w), F.type.v(w), F.trailer.v(w) or "") for w in L.d(line, "word")]
+    assert words(api030)[-1] == ("ḥyly", "lexical", "")
+    assert words(api040)[-2:] == [("ḥyly", "lexical", "."), ("", "gap", "")]
+    F, L, T = api040.F, api040.L, api040.T
+    line = T.nodeFromSection(("KTU 1.22", "II", "12"))
+    assert not any(F.sign.v(s) == "." for s in L.d(line, "sign"))
+    # the text is unchanged apart from the space before `]` that 0.3.0 dropped
+    assert T.text(line) == api030.T.text(api030.T.nodeFromSection(("KTU 1.22", "II", "12"))) + " "
+
+
+def test_040_ktu_219_alias_states_the_ktu3_number(api040):
+    F = api040.F
+    sources = {F.catalogue_alias.v(a): F.catalogue_alias_source.v(a) for a in F.otype.s("alias")}
+    assert sources["KTU 2.19"] == "2.19 [= now KTU³ 3.12]"
 
 
 @pytest.mark.parametrize("address", [
-    ("KTU 1.20", "II", "10"),
+    ("KTU 1.40", "I", "7"),
     ("KTU 1.130", "I", "20"),
     ("KTU 2.79", "I", "11"),
 ])

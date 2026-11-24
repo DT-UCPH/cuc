@@ -14,15 +14,15 @@ For this dataset, we cooperate with Tania Notarius (University of the Free State
 Other contributors are Maria Simion, Lynn Strietzel, Ben Shields and Elijah Labowe-Stoll, volunteer assistants (Polis - the Jerusalem Institute of Language and Humanities).
 
 ### Data
-The dataset contains 453 texts.
+The dataset contains 456 texts.
 
-363 tablets of *Die keilalphabetischen Texte aus Ugarit, Ras Ibn Hani und anderen Orten* (KTU, 3rd edition, 2013):
+366 tablets of *Die keilalphabetischen Texte aus Ugarit, Ras Ibn Hani und anderen Orten* (KTU, 3rd edition, 2013):
 
 - KTU 1.1-1.7
 - KTU 1.9-1.33
-- KTU 1.38-1.43
+- KTU 1.36-1.43
 - KTU 1.45-1.51
-- KTU 1.54-1.58
+- KTU 1.53-1.58
 - KTU 1.61-1.63
 - KTU 1.65-1.69
 - KTU 1.71-1.98
