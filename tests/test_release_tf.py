@@ -225,7 +225,7 @@ def test_040_rih_texts_carry_their_citations_and_rih_iis_language(api040):
     for t in rih:
         assert F.source_edition.v(t) == "RIH II"
         assert F.tablet.v(t) == (F.ktu.v(t) or F.rih.v(t))
-        # RIH II: texts 1-153 are "Les textes ougaritiques" (BN-47)
+        # RIH II: texts 1-153 are "Les textes ougaritiques"
         assert F.tablet_language.v(t) == "Ugaritic"
         assert {F.language.v(w) for w in L.d(t, "word")} == {"Ugaritic"}
         assert not any(F.type.v(n) == "logogram" for n in L.d(t, "word") + L.d(t, "sign"))

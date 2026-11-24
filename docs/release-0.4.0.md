@@ -37,9 +37,8 @@ are the recovered lacuna spaces described below.
 ### KTU tablets added
 
 Only reviews whose work file says the review is finished enter the release.
-The KTU tablets below had no version in 0.3.0. KTU 4.42–4.62 come from the
-reviews on the converter's `main`; KTU 1.32 and 1.33 are new reviews from the
-KTU Validator, and KTU 1.36, 1.37 and 1.53 were finished on 23 November.
+The KTU tablets below had no version in 0.3.0. All come from finished
+reviews; KTU 1.36, 1.37 and 1.53 were finished on 23 November.
 
 | Newly available tablet | Language (`tablet_language`) | Retained lines | Reviewer source |
 | --- | --- | ---: | --- |
@@ -76,9 +75,9 @@ Hurrian; the fragment probably belongs to the same tablet as KTU 1.35". KTU
 
 ### RIH texts added
 
-RIH II texts enter only where they convert with no special handling: no
-source-lint finding, no open entry in the converter's editorial questions,
-and no failed identity, alias or duplicate check. 90 of the 106 RIH II
+RIH II texts enter only where they need no special handling: no
+source-lint finding, no open editorial question, and no failed identity,
+alias or duplicate check. 90 of the 106 RIH II
 transcriptions qualify. A RIH text's `tablet` is its KTU number where it has
 one (75 texts, KTU 8.31, 8.32 and KTU 9.x) and its RIH number otherwise
 (15 texts). No RIH text shares a `tablet` value with a KTU tablet or with
@@ -192,7 +191,7 @@ and 99 rulings.
 | KTU 1.34 | `1.34 [= now KTU³ 1.26 fragment b]`: a catalogue alias whose target is a fragment. Aliases can point at a tablet or a column line span, not at `fragm. b`. |
 | KTU 4.52 | Finished review prints the surface heading `rev. (?)`, which the source grammar does not know. |
 | KTU 4.59 | Finished review prints `1[+ x ]` in line 3; `+` inside a numeral has no reading and the build refuses it. |
-| KTU 4.63 | The review of 23 November reads the Akkadian lines (`ŠU.NIGÍN 6 KUŠ.ga-ba-bu 26 GIŠ.BAN.MEŠ`: I 24, 48, II 12, 20, 49, IV 18). The converter cannot read these Sumerograms and syllabic spellings yet, and column II passes from line 45 to 49. |
+| KTU 4.63 | The review of 23 November reads the Akkadian lines (`ŠU.NIGÍN 6 KUŠ.ga-ba-bu 26 GIŠ.BAN.MEŠ`: I 24, 48, II 12, 20, 49, IV 18). These Sumerograms and syllabic spellings cannot be represented in the corpus yet, and column II passes from line 45 to 49. |
 
 The RIH II texts below are not included. "Malformed RIH identity" means the
 heading combines texts, adds a former KTU² number, a line range or a remark
@@ -453,29 +452,25 @@ footnote markers. Every review new in 0.4.0 was checked for the symptoms:
   from the incident's lacuna-width repair, which restored widths 0.3.0 already
   had, and KTU 1.3.
 
-The converter strips footnote markers from running text and from
-`boundary_source`.
+Footnote markers are removed from running text and from `boundary_source`.
 
 ## Validation and tests
 
-The 0.4.0 sources were frozen again on 24 November with the converter's
-release selection (`tools/prepare_release_candidate.py`): 366 KTU documents, in
+The 0.4.0 sources were frozen again on 24 November: 366 KTU documents, in
 which each finished review replaces its reference version unless it is held
-(`sources/release-held.json`), and the same 90 RIH II transcriptions, byte for
-byte. The selection is cleared against the hashes of every selected review's
-Word and work file, and a hash of every input is kept. The build uses the
-converter's `main` at `8931e8b` and regenerates all 46 TF files. The 0.3.0
-correction was rebuilt from its own frozen sources with its own converter plus
-only the marker fix (branch `codex/release-030-footnote-markers`, commit
-b9026a9).
+back (see *Not in this release*), and the same 90 RIH II transcriptions, byte
+for byte. The selection is checked against the hashes of every selected
+review's Word and work file, and a hash of every input is kept. All 46 TF
+files are regenerated. The 0.3.0 correction was rebuilt from its own frozen
+sources with only the marker fix.
 
-- The converter tests compare against the frozen 0.2.8 baseline and check
-  one- and two-space lacunae through the Text-Fabric API.
+- The build is tested against the frozen 0.2.8 baseline, including one- and
+  two-space lacunae through the Text-Fabric API.
 - Source lint: only the three findings already present in 0.3.0 (KTU 1.66
   marker a⁾ without footnote; one-sided brackets in KTU 4.24:2 and 4.41:5).
 - Serialized-corpus lint: no findings.
-- `cuc-convert diff` against 0.3.0: 106 tablets match, 236 change and 114
-  are new. All 342 tablets from 0.3.0 are retained.
+- Line-and-sign comparison against 0.3.0: 106 tablets match, 236 change and
+  114 are new. All 342 tablets from 0.3.0 are retained.
 - The CUC release tests check 0.4.0 as they check 0.3.0, plus the additions,
   the RIH features, the reviewed readings, the editorial decisions and the
   absence of footnote markers from node features of both versions. The 47

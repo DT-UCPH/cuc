@@ -26,8 +26,7 @@ ruling is represented by its own boundary node.
 Only completed reviews enter this release. KTU 1.3 and 1.62 use their completed
 reviews. The reviews of KTU 1.4 and 1.5 are in progress, so those tablets retain
 their reference versions. KTU 1.125 and the corrected KTU 5.24 are included.
-RIH II conversion is supported by the converter but **no RIH tablets are
-published in this release**. No Akkadian-language tablet is newly added.
+**No RIH tablets are published in this release**. No Akkadian-language tablet is newly added.
 
 The language labels below describe the texts. `tablet_language` is the
 language of a tablet and `language` the language of a word (see
@@ -127,8 +126,8 @@ lexical words from wholly unreadable units, lacuna units, numbers, logograms,
 and editorial objects. Bounded KTU non-breaking-space patterns now separate
 words and lacuna units. For example, in KTU 1.62 I 6 the long lacuna preceding
 `m]lakm` becomes a gap word; the restored `m` remains part of the lexical word
-`mlakm`. The lacuna may have contained wholly lost words, but the converter does
-not infer their number. `[.]` remains a bracketed divider, not an invented word
+`mlakm`. The lacuna may have contained wholly lost words, but their number is not
+inferred. `[.]` remains a bracketed divider, not an invented word
 boundary.
 
 `line` keeps a source-positioned textual line. Its string address is now
@@ -244,11 +243,11 @@ retained line (`boundary_next`) within the same column. An edge is absent at a
 column end or where no adjacent retained line exists. Neither edge crosses
 into another column or tablet.
 
-`surface_source` is supported by the converter but is **not emitted in this
-KTU release**: it would retain the literal heading when an edition's surface
-term needs canonical normalization. `fragment_source` does not exist.
-The converter's RIH-specific `rih`, `ktu`, `source_edition`, `line_mark`,
-`line_mark_cert`, and `number` features are also absent from this dataset.
+`surface_source` is **not emitted in this KTU release**: it would retain the
+literal heading when an edition's surface term needs canonical normalization.
+`fragment_source` does not exist. The RIH-specific `rih`, `ktu`,
+`source_edition`, `line_mark`, `line_mark_cert`, and `number` features are also
+absent from this dataset.
 `prime` is supported for both KTU and RIH: it records one or two printed prime
 marks after a counted line number. No selected KTU line emits it in this build,
 so it is likewise absent. These absent features must not be counted as new
@@ -302,7 +301,7 @@ changes count added/removed whitespace slots, including normalization of NBSP
 and changes to lacuna padding; they are not a count of newly discovered gaps.
 New-tablet data are excluded from these existing-tablet statistics.
 
-## Converter fixes relative to the original notebook
+## Fixes relative to the original notebook
 
 - Surfaces no longer leak from one tablet into the next. Surface and column
   names are trimmed, unmarked obverses are explicit, and uncertainty about the
@@ -374,8 +373,8 @@ No TF file was edited by hand: the dataset is a full rebuild.
 
 ## Validation and tests
 
-The complete converter suite passes with **1,047 tests passed and 10 skipped**
-against the frozen TF 0.2.8 comparison data. A real Text-Fabric build succeeds
+The build's tests pass (**1,047 passed and 10 skipped**) against the frozen
+TF 0.2.8 comparison data. A real Text-Fabric build succeeds
 over all 342 selected tablets; serialized-corpus lint reports no findings.
 Configured corrections report **42 applied, 1 already present, 0 unmatched**.
 The CUC release and display tests pass **13/13**.
@@ -385,7 +384,7 @@ Source lint reports no unsupported characters. One unpaired-footnote diagnostic
 KTU 4.24:2 and 4.41:5, concern source-attested one-sided breaks. They are recorded
 as limitations of those lint checks, rather than used to rewrite the edition.
 
-New or corrected converter tests cover tablet-to-tablet state resets, complete
+New or corrected tests cover tablet-to-tablet state resets, complete
 heading grammar, nested editorial markup, per-character italics, divider roles,
 trailer emendation, source-ordered empty anchors and ancestor reuse, boundary
 edges, aliases and exact target spans, relative/uncounted numbering, fragment
