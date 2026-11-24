@@ -7,9 +7,9 @@
 @valueType=str
 @version=0.4.0
 @writtenBy=Text-Fabric
-@dateWritten=2026-11-18T22:05:55+00:00Z
+@dateWritten=2026-11-24T15:56:50+00:00Z
 
-175962	I
+178553	I
 I
 I
 II
@@ -200,6 +200,9 @@ I
 fragm. a
 fragm. b
 fragm. c
+I
+I
+I
 I
 I
 I

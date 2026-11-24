@@ -26,15 +26,14 @@ ruling is represented by its own boundary node.
 Only completed reviews enter this release. KTU 1.3 and 1.62 use their completed
 reviews. The reviews of KTU 1.4 and 1.5 are in progress, so those tablets retain
 their reference versions. KTU 1.125 and the corrected KTU 5.24 are included.
-RIH II conversion is supported by the converter but **no RIH tablets are
-published in this release**. No Akkadian-language tablet is newly added.
+**No RIH tablets are published in this release**. No Akkadian-language tablet is newly added.
 
-The language labels below describe the texts. The word feature `language`
-and the tablet feature `tablet_language` carry the same statements (see
-[Words](#words)); it is the language of the
-text at that point, taken from KTU³, not a judgement about each word. In
-particular, Sumerograms in an Ugaritic text do not make the whole tablet
-Sumerian or Akkadian.
+The language labels below describe the texts. `tablet_language` is the
+language of a tablet and `language` the language of a word (see
+[Words](#words)). In 0.3.0 every word takes the language KTU³ states for its
+tablet or line range; no word has yet been labelled on its own. In particular,
+Sumerograms in an Ugaritic text do not make the whole tablet Sumerian or
+Akkadian.
 
 | Newly available tablet | Language or text type | Retained lines |
 | --- | --- | ---: |
@@ -127,8 +126,8 @@ lexical words from wholly unreadable units, lacuna units, numbers, logograms,
 and editorial objects. Bounded KTU non-breaking-space patterns now separate
 words and lacuna units. For example, in KTU 1.62 I 6 the long lacuna preceding
 `m]lakm` becomes a gap word; the restored `m` remains part of the lexical word
-`mlakm`. The lacuna may have contained wholly lost words, but the converter does
-not infer their number. `[.]` remains a bracketed divider, not an invented word
+`mlakm`. The lacuna may have contained wholly lost words, but their number is not
+inferred. `[.]` remains a bracketed divider, not an invented word
 boundary.
 
 `line` keeps a source-positioned textual line. Its string address is now
@@ -172,7 +171,7 @@ node features in this dataset.
 | `sign_index` | Integer variant index attached to the letter's own slot. KTU 1.77's `ṯ₂`, `ḫ₂`, and `ẓ₂` each have one letter slot with index 2. The subscript is not a separate sign. |
 | `after` | Literal Latin/editorial material following this slot that is retained for reconstruction but does not itself occupy a slot, notably a definite word divider or letter index. Its position is preserved even when it precedes the last slot of a word. |
 | `uafter` | Unicode counterpart of `after`: a word-divider sign for a definite dot, or the literal variant subscript. |
-| `cert` | The edition's certainty judgement derived character by character from Word formatting: `True` for a certain/italic letter and `False` for an uncertain/roman letter. Brackets and certainty are independent: rare italic letters inside restorations are preserved. Roman Sumerograms do not acquire false uncertainty merely because their script is typeset roman. |
+| `cert` | The edition's certainty judgement derived character by character from Word formatting: `True` for a certain/italic letter and `False` for an uncertain/roman letter. Brackets record restoration or editorial supply independently of certainty. An editor can be certain about either kind of reading. Roman Sumerograms do not acquire false uncertainty merely because their script is typeset roman. |
 | `emen` | Editorial state from the bracket stack: `restored` for `[ ]`, `excised` for `[[ ]]`, `redundant` for `{ }`, `missing` for `< >`, and `remark` for `( )`. A closer returns to its enclosing state; the state resets at the next line. |
 | `alt` | Alternative reading or slash-separated alternatives attached to the preceding sign, in edition order. `l/d/u` gives primary `l` and `alt=d/u`; alternative letters do not become extra slots. State cannot leak to a preceding word. |
 | `cont` | `continued` on the slot immediately before an editorial backslash continuation boundary. It no longer marks every later sign in the line. The backslash is control notation, not a visible sign. |
@@ -187,8 +186,9 @@ node features in this dataset.
 | `utrailer` | Unicode counterpart of the word trailer. This word-level summary remains available although display reconstruction now uses slot-level `after/uafter`. |
 | `trailer_emen` | Editorial state at an actual trailer. A word with no trailer no longer inherits an unrelated bracket state. Restored trailers on newly split words are derived at their own divider position. |
 
-`language` (word) is the language of the text at this word as KTU³ states it in
-the SR: or Ge: field of its apparatus, per tablet or per line range. In 0.2.8
+`language` (word) is the language of the word. In 0.3.0 it is the language
+KTU³ states for the word's tablet or line range in the SR: or Ge: field of its
+apparatus. In 0.2.8
 it was the constant `Ugaritic` on every word, which mislabeled the Hurrian and
 Akkadian texts. A KTU text that KTU³ does not mark otherwise is `Ugaritic`.
 Where KTU³ calls a passage "Hurrian and Ugaritic" without saying which word is
@@ -205,8 +205,8 @@ is absent.
 | absent (mixed passage, to be labelled) | 194 | KTU 1.111 lines 1–13 (obverse), 1.116, 1.132 |
 | absent (no language) | 66 | KTU 5.24 and 5.27 (alphabets), KTU 7.191 (unclassified fragment) |
 
-The value is not a word-level judgement: a Hurrian divine name in an Ugaritic
-line is `Ugaritic`, because KTU³ says nothing about it. KTU 1.108's note on a
+No word has a label of its own yet, so a Hurrian divine name in an Ugaritic
+line is `Ugaritic` in 0.3.0: KTU³ says nothing about it. KTU 1.108's note on a
 Hurrian(?) sign in line 9 concerns one sign, and the "translation of an
 Akkadian letter?" of several KTU 2 letters describes Ugaritic texts; neither
 changes the value.
@@ -232,7 +232,7 @@ changes the value.
 | Feature | Node | Meaning and derivation in 0.3.0 |
 | --- | --- | --- |
 | `boundary_kind` | `boundary` | `break` for a transcription break or `ruling` for a scribal ruling, derived from the corresponding standalone marker paragraph. |
-| `boundary_source` | `boundary` | Exact printed marker, such as `…`, `-----`, or `=====`. This preserves the notation and single/double ruling distinction. |
+| `boundary_source` | `boundary` | Exact printed marker, such as `…`, `-----`, or `=====`. This preserves the notation and single/double ruling distinction. A footnote marker printed with it is not part of the corpus and is left out (corrected in this dataset on 23 November 2026: 24 values). |
 | `catalogue_alias` | `alias` | Superseded catalogue identifier, for example `KTU 1.99`. |
 | `catalogue_target` | `alias` | Canonical identifier and optional column/line range, for example `KTU 1.3 VI 1-17`. The declared target is resolved and validated against retained corpus nodes. |
 | `catalogue_alias_source` | `alias` | Literal catalogue cross-reference statement printed by the edition, including its edition number. It is textual catalogue evidence, not a document location or workflow record. |
@@ -243,11 +243,11 @@ retained line (`boundary_next`) within the same column. An edge is absent at a
 column end or where no adjacent retained line exists. Neither edge crosses
 into another column or tablet.
 
-`surface_source` is supported by the converter but is **not emitted in this
-KTU release**: it would retain the literal heading when an edition's surface
-term needs canonical normalization. `fragment_source` does not exist.
-The converter's RIH-specific `rih`, `ktu`, `source_edition`, `line_mark`,
-`line_mark_cert`, and `number` features are also absent from this dataset.
+`surface_source` is **not emitted in this KTU release**: it would retain the
+literal heading when an edition's surface term needs canonical normalization.
+`fragment_source` does not exist. The RIH-specific `rih`, `ktu`,
+`source_edition`, `line_mark`, `line_mark_cert`, and `number` features are also
+absent from this dataset.
 `prime` is supported for both KTU and RIH: it records one or two printed prime
 marks after a counted line number. No selected KTU line emits it in this build,
 so it is likewise absent. These absent features must not be counted as new
@@ -301,7 +301,7 @@ changes count added/removed whitespace slots, including normalization of NBSP
 and changes to lacuna padding; they are not a count of newly discovered gaps.
 New-tablet data are excluded from these existing-tablet statistics.
 
-## Converter fixes relative to the original notebook
+## Fixes relative to the original notebook
 
 - Surfaces no longer leak from one tablet into the next. Surface and column
   names are trimmed, unmarked obverses are explicit, and uncertainty about the
@@ -373,8 +373,8 @@ No TF file was edited by hand: the dataset is a full rebuild.
 
 ## Validation and tests
 
-The complete converter suite passes with **1,047 tests passed and 10 skipped**
-against the frozen TF 0.2.8 comparison data. A real Text-Fabric build succeeds
+The build's tests pass (**1,047 passed and 10 skipped**) against the frozen
+TF 0.2.8 comparison data. A real Text-Fabric build succeeds
 over all 342 selected tablets; serialized-corpus lint reports no findings.
 Configured corrections report **42 applied, 1 already present, 0 unmatched**.
 The CUC release and display tests pass **13/13**.
@@ -384,7 +384,7 @@ Source lint reports no unsupported characters. One unpaired-footnote diagnostic
 KTU 4.24:2 and 4.41:5, concern source-attested one-sided breaks. They are recorded
 as limitations of those lint checks, rather than used to rewrite the edition.
 
-New or corrected converter tests cover tablet-to-tablet state resets, complete
+New or corrected tests cover tablet-to-tablet state resets, complete
 heading grammar, nested editorial markup, per-character italics, divider roles,
 trailer emendation, source-ordered empty anchors and ancestor reuse, boundary
 edges, aliases and exact target spans, relative/uncounted numbering, fragment
